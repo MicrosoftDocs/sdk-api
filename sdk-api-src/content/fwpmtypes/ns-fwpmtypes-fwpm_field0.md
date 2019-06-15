@@ -59,28 +59,28 @@ The <b>FWPM_FIELD0</b> structure specifies schema information for a field.
 
 ### -field fieldKey
 
-Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a href="https://msdn.microsoft.com/4f0b970a-e511-4107-8023-22a8775905b9">Filtering Condition Identifiers</a>.
+Uniquely identifies the field. See FWPM_CONDITION_* identifiers in the topic <a href="https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-identifiers-">Filtering Condition Identifiers</a>.
 
 
 ### -field type
 
 Determines how <b>dataType</b> is interpreted.
 
-See <a href="https://msdn.microsoft.com/46983847-7c68-4ee7-946e-ea62f34d1a38">FWPM_FIELD_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type_">FWPM_FIELD_TYPE</a> for more information.
 
 
 ### -field dataType
 
 Data type passed to classify.
 
-See <a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type_">FWP_DATA_TYPE</a> for more information.
 
 
 ## -remarks
 
 
 
-<b>FWPM_FIELD0</b> is a specific implementation of FWPM_FIELD. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_FIELD0</b> is a specific implementation of FWPM_FIELD. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -90,15 +90,15 @@ See <a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FW
 
 
 
-<a href="https://msdn.microsoft.com/46983847-7c68-4ee7-946e-ea62f34d1a38">FWPM_FIELD_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_field_type_">FWPM_FIELD_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/db605170-bfe0-4339-8a40-7b1ce435278b">FWP_DATA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_data_type_">FWP_DATA_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

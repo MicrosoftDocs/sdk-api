@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/8ac41bff-8537-4558-a92c-6e7dae6a6bdf">IEnumTfLanguageProfiles</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles</a> interface pointer that receives the new enumerator.
 
 
 ## -returns
@@ -105,7 +105,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/8ac41bff-8537-4558-a92c-6e7dae6a6bdf">IEnumTfLanguageProfiles
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles
       </a>
  
 

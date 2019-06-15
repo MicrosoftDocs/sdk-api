@@ -88,7 +88,7 @@ The effect’s transform graph has changed.  This happens only when an effect su
 
 
 
-<a href="https://msdn.microsoft.com/0EBA4FDB-A9EA-4FCF-BF40-3D73ED356CD4">ID2D1EffectImpl::PrepareForRender</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender">ID2D1EffectImpl::PrepareForRender</a>
  
 
  

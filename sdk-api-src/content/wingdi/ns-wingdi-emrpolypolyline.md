@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMRPOLYPOLYLINE</b> and <b>EMRPOLYPOLYGON</b> structures contain members for the <a href="https://msdn.microsoft.com/71a9273f-321b-4efb-ac73-5979f8151d05">PolyPolyline</a> and <a href="https://msdn.microsoft.com/ac0a2802-c8b0-4cd7-9521-5b179f2c70b9">PolyPolygon</a> enhanced metafile records.
+The <b>EMRPOLYPOLYLINE</b> and <b>EMRPOLYPOLYGON</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polypolyline">PolyPolyline</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polypolygon">PolyPolygon</a> enhanced metafile records.
 
 
 
@@ -87,7 +87,7 @@ An array of point counts for each poly.
 
 ### -field aptl
 
-An array of <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structures, representing the points in logical units.
+An array of <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structures, representing the points in logical units.
 
 
 ## -see-also
@@ -95,23 +95,23 @@ An array of <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a8272
 
 
 
-<a href="https://msdn.microsoft.com/06582047-b64b-44ec-ae27-1f8ed7c56b97">EMR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagemr">EMR</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a>
 
 
 
-<a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a>
  
 
  

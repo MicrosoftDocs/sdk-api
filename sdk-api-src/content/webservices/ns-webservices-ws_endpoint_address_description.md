@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Information about a mapping between an <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>and an XML element.
+Information about a mapping between an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>and an XML element.
             
 
 

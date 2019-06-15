@@ -53,7 +53,7 @@ Specifies the lower and upper limits of an interval, each of which may be infini
         
 
 
-When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb231368(v=VS.85).aspx">IInterval</a>.
+When a condition tree expresses that the value of a property must fall in a certain range, the property can be expressed as a leaf node. The node must be a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> containing a <b>vt</b> value type tag of VT_UNKNOWN and an IUnknown* <b>punkVal</b> that is a pointer to an object that implements <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iinterval">IInterval</a>.
 
 
 ## -parameters
@@ -63,28 +63,28 @@ When a condition tree expresses that the value of a property must fall in a cert
 
 ### -param pilkLower [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965694(v=VS.85).aspx">INTERVAL_LIMIT_KIND</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-taginterval_limit_kind">INTERVAL_LIMIT_KIND</a>*</b>
 
-Receives a pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965694(v=VS.85).aspx">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the lower bound of the interval is inclusive, exclusive, or infinite.
+Receives a pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-taginterval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the lower bound of the interval is inclusive, exclusive, or infinite.
 
 
 ### -param ppropvarLower [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 Receives a pointer to the value for the lower limit of the interval. If the <i>pilkLower</i> parameter is set to <i>ILK_NEGATIVE_INFINITY</i> or <i>ILK_POSITIVE_INFINITY</i>, this value is set to <b>VT_EMPTY</b>.
 
 
 ### -param pilkUpper [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965694(v=VS.85).aspx">INTERVAL_LIMIT_KIND</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-taginterval_limit_kind">INTERVAL_LIMIT_KIND</a>*</b>
 
-Receives a pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965694(v=VS.85).aspx">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the upper bound of the interval is inclusive, exclusive, or infinite. 
+Receives a pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-taginterval_limit_kind">INTERVAL_LIMIT_KIND</a> enumeration that indicates whether the upper bound of the interval is inclusive, exclusive, or infinite. 
 
 
 ### -param ppropvarUpper [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 Receives a pointer to the value for the upper limit of the interval. If the <i>pilkUpper</i> parameter is set to <i>ILK_NEGATIVE_INFINITY</i> or <i>ILK_POSITIVE_INFINITY</i>, this value will be set to <b>VT_EMPTY</b>.
 
@@ -104,7 +104,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method retrieves interval limits in two <a href="https://msdn.microsoft.com/en-us/library/Aa965694(v=VS.85).aspx">INTERVAL_LIMIT_KIND</a>—<a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> pairs. The first pair specifies the lower limit of the interval, and the second pari specifies the upper limit of the interval. 
+This method retrieves interval limits in two <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-taginterval_limit_kind">INTERVAL_LIMIT_KIND</a>—<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> pairs. The first pair specifies the lower limit of the interval, and the second pari specifies the upper limit of the interval. 
 
 The lower limit must be less than the upper limit or the interval will be empty. The only exception is when the lower and upper limits are equal and both are set to <i>ILK_EXPLICIT_INCLUDED</i>. In this case the range is the single value to which both limits are set. The following table illustrates how the pairs work to define intervals.
 

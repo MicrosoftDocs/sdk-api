@@ -65,7 +65,7 @@ The <b>OnDataUnit</b> method is called by the writer when a data unit is ready f
 
 ### -param pDataUnit [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743243(v=VS.85).aspx">INSSBuffer</a> interface on an object containing the data unit.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object containing the data unit.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This method is implemented by the application. It should always return S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink Interface</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a Remote Desktop Services listener. This structure is used by the <a href="https://msdn.microsoft.com/057facde-43b6-44c4-944a-7ad7854ec1e6">WTSCreateListener</a> function.
+Contains information about a Remote Desktop Services listener. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a> function.
 
 
 ## -struct-fields
@@ -502,7 +502,7 @@ A null-terminated string that contains the name of  the program to start immedia
 
 
 
-<a href="https://msdn.microsoft.com/057facde-43b6-44c4-944a-7ad7854ec1e6">WTSCreateListener</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a>
  
 
  

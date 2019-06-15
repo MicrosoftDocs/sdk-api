@@ -59,7 +59,7 @@ The  <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</b> function initializes th
 
 ### -param pfnFlush [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/F6EE5424-A3ED-4E90-897B-56C605EB985C">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH</a> function implementation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_flush">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH</a> function implementation.
 
 
 ### -param pContext [in]
@@ -74,7 +74,7 @@ Specifies the number of unique objects that the provider expects to locate. This
 
 ### -param *ppFuncTable [out]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh975284(v=VS.85).aspx">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> structure that contains pointers to the functions implemented by the provider. No pointers in the table can be <b>NULL</b>. The caller does not free this structure. It is expected that the provider will return a table that is not allocated on the heap.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> structure that contains pointers to the functions implemented by the provider. No pointers in the table can be <b>NULL</b>. The caller does not free this structure. It is expected that the provider will return a table that is not allocated on the heap.
 
 
 #### - **ppPluginContext [out]
@@ -93,7 +93,7 @@ Pointer to an optional buffer defined by this provider. The buffer is not modifi
 
 If the function succeeds, return nonzero (<b>TRUE</b>).
 
-If the function fails, return zero (<b>FALSE</b>) and specify an appropriate error in the <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> function. Most errors are passed through Schannel unaltered but this behavior is not guaranteed. Some errors may be mapped to other errors.
+If the function fails, return zero (<b>FALSE</b>) and specify an appropriate error in the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. Most errors are passed through Schannel unaltered but this behavior is not guaranteed. Some errors may be mapped to other errors.
 
 
 
@@ -102,28 +102,28 @@ If the function fails, return zero (<b>FALSE</b>) and specify an appropriate err
 
 
 
- The <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</b> function is currently called by only the Secure Channel (Schannel) security service provider (SSP). The Cryptography API (CAPI) will internally call your custom provider if, beginning with Windows 8, you specify the name of the security principal in the <i>pszPrincipal</i> parameter of the <a href="https://msdn.microsoft.com/0f006670-a1e5-47ed-baf5-ed55bd42b468">AcquireCredentialsHandle</a> function.
+ The <b>PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE</b> function is currently called by only the Secure Channel (Schannel) security service provider (SSP). The Cryptography API (CAPI) will internally call your custom provider if, beginning with Windows 8, you specify the name of the security principal in the <i>pszPrincipal</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> function.
 
-When you implement this function, remember to fill the  <a href="https://msdn.microsoft.com/en-us/library/Hh975284(v=VS.85).aspx">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> function table with pointers to the following functions implemented by your provider:
+When you implement this function, remember to fill the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a> function table with pointers to the following functions implemented by your provider:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/2073915D-F23B-41BD-8376-4493FE9D62C6">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_get">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/DDF1243D-A6C8-426A-A800-018E7FF7E182">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_release">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/C05D5024-9A67-4EA8-9F61-D31AF3AE8545">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_free_password">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4C27BF58-79AB-4AD3-8D43-EEE7F73071D2">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_free">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/C2ED3B51-8B98-412C-A571-D107F2BEC5F1">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_free_identifier">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_IDENTIFIER</a>
 </li>
 </ul>
-You must call <a href="https://msdn.microsoft.com/9633cce4-538e-490e-8a5a-6b28f161a09d">CryptRegisterDefaultOIDFunction</a> to register the provider in the Windows registry.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisterdefaultoidfunction">CryptRegisterDefaultOIDFunction</a> to register the provider in the Windows registry.
 
 
 
@@ -133,11 +133,11 @@ You must call <a href="https://msdn.microsoft.com/9633cce4-538e-490e-8a5a-6b28f1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh975284(v=VS.85).aspx">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_object_locator_provider_table">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/F6EE5424-A3ED-4E90-897B-56C605EB985C">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_object_locator_provider_flush">PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH</a>
  
 
  

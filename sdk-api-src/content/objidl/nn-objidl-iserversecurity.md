@@ -55,7 +55,7 @@ Used by a server to help authenticate the client and to manage impersonation of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServerSecurity</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServerSecurity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServerSecurity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IServerSecurity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">ImpersonateClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a>
 </td>
 <td align="left" width="63%">
 Enables a server to impersonate a client for the duration of a call.
@@ -79,7 +79,7 @@ Enables a server to impersonate a client for the duration of a call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f847348a-1785-4b4a-b43e-a5eea21847c4">IsImpersonating</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-isimpersonating">IsImpersonating</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the server is currently impersonating the client.
@@ -88,7 +88,7 @@ Indicates whether the server is currently impersonating the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a6fd68c-8e71-45f8-8a8e-c8a5f4f36868">QueryBlanket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket">QueryBlanket</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the client that invoked one of the server's methods.
@@ -97,7 +97,7 @@ Retrieves information about the client that invoked one of the server's methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21952f54-439e-446f-a206-4b35759b1090">RevertToSelf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">RevertToSelf</a>
 </td>
 <td align="left" width="63%">
 Restores the authentication information of a thread to what it was before impersonation began.
@@ -112,15 +112,15 @@ Restores the authentication information of a thread to what it was before impers
 
 
 
-<a href="https://msdn.microsoft.com/b82e32c0-840d-402e-90d5-ff678c51faf1">CoGetCallContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/146855a2-97ec-4e71-88dc-316eaa1a24a0">CoSwitchCallContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext">CoSwitchCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
  
 
  

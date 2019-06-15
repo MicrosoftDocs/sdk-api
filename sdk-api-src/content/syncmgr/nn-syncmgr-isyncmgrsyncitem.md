@@ -54,7 +54,7 @@ Exposes methods that act on and retrieve information from a single sync item, al
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncItem</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncMgrSyncItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrSyncItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/403c01fe-928d-4b9b-a087-6cc68d1aa90a">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes a sync item.
@@ -78,7 +78,7 @@ Deletes a sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d73508e-4381-47fe-98ba-ab3ef665cd3e">Enable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the sync item.
@@ -87,7 +87,7 @@ Enables or disables the sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6cb98b83-cf17-451c-ba29-700408f474c7">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags describing the item's defined capabilities.
@@ -96,7 +96,7 @@ Gets a set of flags describing the item's defined capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2add1902-1258-49ed-ad44-35d28d0776c1">GetItemID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getitemid">GetItemID</a>
 </td>
 <td align="left" width="63%">
 Gets the unique ID of a sync item.
@@ -105,7 +105,7 @@ Gets the unique ID of a sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6257d66-36c8-41d6-88f0-99417755582b">GetItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getiteminfo">GetItemInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the properties of a sync item.
@@ -114,7 +114,7 @@ Gets the properties of a sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a5f8430-7b5a-4184-acc9-ae4395acf2fa">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the UI display name of the sync item.
@@ -123,7 +123,7 @@ Gets the UI display name of the sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54336c43-348b-4767-94e4-fe7dc47c0876">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Creates a specific type of object related to the item.
@@ -132,7 +132,7 @@ Creates a specific type of object related to the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f4e1a8e-8fa7-48b3-8f20-8b260540ab9c">GetPolicies</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getpolicies">GetPolicies</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags describing the policies set by the item.

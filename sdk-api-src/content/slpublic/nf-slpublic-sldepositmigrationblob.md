@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deposits licensing information previously collected and gathered using the <a href="https://msdn.microsoft.com/490a5dbd-8c4b-4b25-ae21-f5f58b97a58f">SLGatherMigrationBlob</a> function.
+Deposits licensing information previously collected and gathered using the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgathermigrationblob">SLGatherMigrationBlob</a> function.
 
 
 ## -parameters

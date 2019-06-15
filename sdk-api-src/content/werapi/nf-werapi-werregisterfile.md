@@ -161,7 +161,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -191,10 +191,10 @@ The registered file is added to the report only when additional data is requeste
 For crashes and non-responses, the operating system automatically provides error reporting (you do not need to provide any error reporting code in your application). If you use this function to register a file, the operating system will add the file to the error report created at the time of a crash or non-response (this file is added in addition to the files the operating system already collects).
 
 
-For generic event reporting, the application has to use the <a href="https://msdn.microsoft.com/4b2c2060-a193-4168-90fc-afb95c160569">WerReportAddFile</a> function instead. Alternatively, calling the <a href="https://msdn.microsoft.com/1433862e-5cf6-4d31-9fd9-137b7b86ec57">WerReportSubmit</a> function with the  WER_SUBMIT_ADD_REGISTERED_DATA flag will include the files that the <b>WerRegisterFile</b> function added.
+For generic event reporting, the application has to use the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a> function instead. Alternatively, calling the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function with the  WER_SUBMIT_ADD_REGISTERED_DATA flag will include the files that the <b>WerRegisterFile</b> function added.
 
 
-To remove the file from the list, call the <a href="https://msdn.microsoft.com/2b2684a4-3030-4fae-ad1c-a60d13d2c643">WerUnregisterFile</a> function.
+To remove the file from the list, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a> function.
 
 
 
@@ -204,15 +204,15 @@ To remove the file from the list, call the <a href="https://msdn.microsoft.com/2
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b2684a4-3030-4fae-ad1c-a60d13d2c643">WerUnregisterFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterfile">WerUnregisterFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

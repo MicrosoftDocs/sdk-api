@@ -70,7 +70,7 @@ Pointer to a <b>null</b>-terminated string containing the name of the property t
 
 ### -param pType [out]
 
-Pointer to a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
+Pointer to a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
 
 
 ### -param pValue [out]
@@ -151,15 +151,15 @@ You must make two calls to <b>GetPropertyByName</b> to properly retrieve the val
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/edecc6d2-f784-4205-bd79-6098e553d5cd">IWMPropertyVault::GetPropertyByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertybyindex">IWMPropertyVault::GetPropertyByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757422(v=VS.85).aspx">IWMPropertyVault::SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty">IWMPropertyVault::SetProperty</a>
  
 
  

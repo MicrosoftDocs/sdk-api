@@ -61,7 +61,7 @@ Sets the dock position of this element.
 
 #### - dockPos [in]
 
-Type: <b><a href="https://msdn.microsoft.com/36ed98c2-f111-4192-8ce2-b8dd7da47de5">DockPosition</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-dockposition">DockPosition</a></b>
 
 The new dock position.
 
@@ -70,7 +70,7 @@ The new dock position.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/2da816f0-9674-4b48-bb82-4eba941a7fa4">IUIAutomationDockPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdockpattern">IUIAutomationDockPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce51a971-5ea1-48fc-85ff-5f7c864bc7b3">IUIAutomationDockPattern::CurrentDockPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdockpattern-get_currentdockposition">IUIAutomationDockPattern::CurrentDockPosition</a>
  
 
  

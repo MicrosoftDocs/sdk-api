@@ -74,7 +74,7 @@ Number of frames dropped by the ASF multiplexer.
 
 
 
-Use <a href="https://msdn.microsoft.com/56083ceb-3d39-4fda-995a-f91fa0e16853">IMFASFMultiplexer::GetStatistics</a> to retrieve this structure.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getstatistics">IMFASFMultiplexer::GetStatistics</a> to retrieve this structure.
 
 
 
@@ -84,11 +84,11 @@ Use <a href="https://msdn.microsoft.com/56083ceb-3d39-4fda-995a-f91fa0e16853">IM
 
 
 
-<a href="https://msdn.microsoft.com/56083ceb-3d39-4fda-995a-f91fa0e16853">IMFASFMultiplexer::GetStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getstatistics">IMFASFMultiplexer::GetStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

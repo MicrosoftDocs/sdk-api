@@ -69,12 +69,12 @@ The computer on which you want to save the set. You can specify a computer name,
 
 ### -param mode [in]
 
-Indicates whether you want to save, update, flush, or validate the data collector set. For possible values, see the <a href="https://msdn.microsoft.com/3c485b4d-ba0b-456a-b942-27829371d7fb">CommitMode</a> enumeration.
+Indicates whether you want to save, update, flush, or validate the data collector set. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0007">CommitMode</a> enumeration.
 
 
 ### -param validation [out]
 
-An <a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid or is ignored. The <a href="https://msdn.microsoft.com/990b48d8-357f-4157-a3d2-1ea1c80e1887">IValueMap::Count</a> property is zero if there were no errors or warnings.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve the validation error of each property whose value is not valid or is ignored. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors or warnings.
 
 
 ## -returns
@@ -143,7 +143,7 @@ You are trying to commit a new set, but a set with the specified name already ex
 
 
 
-If you save the set, use the specified <i>name</i> and <i>server</i> parameter values when calling the <a href="https://msdn.microsoft.com/ac07169e-710c-4267-ae08-ed18a15d866d">IDataCollectorSet::Query</a> method to retrieve the set.
+If you save the set, use the specified <i>name</i> and <i>server</i> parameter values when calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a> method to retrieve the set.
 
 The <i>name</i> parameter can contain an optional namespace; however, you should always specify the namespace. If you do not specify the namespace, PLA uses "Service" for computers running Windows Vista and "Legacy" for computers running operating systems prior to Windows Vista. The following table lists the possible namespace values. 
 
@@ -158,7 +158,7 @@ Autosession
 
 </td>
 <td>
-Contains ETW <a href="https://msdn.microsoft.com/df5a79f4-abbf-4b83-afc3-cbd14b166067">AutoLogger</a> sessions. The collector starts when the computer starts, cannot be stopped, and the status is undefined.
+Contains ETW <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-an-autologger-session">AutoLogger</a> sessions. The collector starts when the computer starts, cannot be stopped, and the status is undefined.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ Session
 
 </td>
 <td>
-Contains <a href="https://msdn.microsoft.com/3de69436-671b-46a2-8d92-4eb3af2a4233">Event Tracing for Windows</a> (ETW) trace sessions. These sets cannot be scheduled. If you use this namespace, the set must contain only one data collector and it must be a trace data collector.
+Contains <a href="https://docs.microsoft.com/windows/desktop/ETW/event-tracing-portal">Event Tracing for Windows</a> (ETW) trace sessions. These sets cannot be scheduled. If you use this namespace, the set must contain only one data collector and it must be a trace data collector.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Contains read-only data collector sets that cannot be scheduled; however, you ca
 
 Note that the Service namespace can be used in place of the Legacy namespace on computers running operating systems prior to Windows Vista.
 
-To determine the validation errors that occurred, retrieve the <a href="https://msdn.microsoft.com/5fab2a62-d974-49f7-ac81-c704d9d8624c">IValueMapItem</a> interface for each error in the value map collection. The <a href="https://msdn.microsoft.com/965a5ac4-a811-4fd3-8862-51d82d27c0e9">IValueMapItem::Key</a> property contains the XPath of the element in error, for example, /AlertDataCollector/TaskArguments. The <a href="https://msdn.microsoft.com/3f7549aa-2ad6-40f4-ae09-c5130a9c3451">IValueMapItem::Value</a> property contains the HRESULT value, which can be an error or warning (success code). The <a href="https://msdn.microsoft.com/ee0669f1-6400-4c32-9f5f-82fd69b7cacd">IValueMapItem::Description</a> property contains the message text associated with the error.
+To determine the validation errors that occurred, retrieve the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface for each error in the value map collection. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_key">IValueMapItem::Key</a> property contains the XPath of the element in error, for example, /AlertDataCollector/TaskArguments. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_value">IValueMapItem::Value</a> property contains the HRESULT value, which can be an error or warning (success code). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_description">IValueMapItem::Description</a> property contains the message text associated with the error.
 
 Typically, any errors that occur will be one of the following HRESULT values in the value map collection.
 
@@ -232,7 +232,7 @@ PLA_E_PROPERTY_CONFLICT
 
 </td>
 <td>
-The property conflicts with another property, for example, both <a href="https://msdn.microsoft.com/c9843647-2c36-4d08-98d0-4df63b054993">LogAppend</a> and <a href="https://msdn.microsoft.com/d1b35b02-cfda-42a4-bd1d-d837a91861d6">LogCircular</a> are <b>VARIANT_TRUE</b>.
+The property conflicts with another property, for example, both <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">LogAppend</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logcircular">LogCircular</a> are <b>VARIANT_TRUE</b>.
 
 </td>
 </tr>
@@ -247,15 +247,15 @@ The property conflicts with another property, for example, both <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/35e95d41-0d6c-428a-a167-6667275d4fb7">IDataCollectorSet::Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">IDataCollectorSet::Delete</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac07169e-710c-4267-ae08-ed18a15d866d">IDataCollectorSet::Query</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes what choice a user makes about a sync manager conflict resolution. Used by <a href="https://msdn.microsoft.com/ec9a2050-23ad-4478-a705-0a7324e8f84d">ISyncMgrConflictPresenter</a>.
+Describes what choice a user makes about a sync manager conflict resolution. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictpresenter">ISyncMgrConflictPresenter</a>.
 
 
 ## -enum-fields
@@ -92,11 +92,11 @@ The item is not being resolved now but is instead being skipped so that it can b
 
 
 
-<a href="https://msdn.microsoft.com/277eee0e-3f75-4ed1-8df2-75289838d3e5">ISyncMgrConflictResolveInfo::GetPresenterChoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenterchoice">ISyncMgrConflictResolveInfo::GetPresenterChoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f4bfe69-1ff3-4d21-9c27-f5d8ecfc8371">ISyncMgrConflictResolveInfo::SetPresenterChoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenterchoice">ISyncMgrConflictResolveInfo::SetPresenterChoice</a>
  
 
  

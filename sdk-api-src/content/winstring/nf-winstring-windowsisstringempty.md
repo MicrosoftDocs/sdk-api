@@ -62,7 +62,7 @@ Indicates whether the specified string is the empty string.
 
 ### -param string [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The string to be tested for content.
 
@@ -83,7 +83,7 @@ Type: <b>BOOL</b>
 
 
 
-<a href="https://msdn.microsoft.com/80B659DF-C760-4D9E-B779-144A5B8FEA59">WindowsGetStringLen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsgetstringlen">WindowsGetStringLen</a>
  
 
  

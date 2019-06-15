@@ -54,7 +54,7 @@ Provides methods for retrieving information about the source application.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchSourceViewSizePreference</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ILaunchSourceViewSizePreference</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchSourceViewSizePreference</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchSourceViewSizePreference</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ILaunchSourceViewSizePreference</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A151EA3D-42EE-4F22-B2A8-C696F582F81C">GetSourceViewSizePreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceviewsizepreference-getsourceviewsizepreference">GetSourceViewSizePreference</a>
 </td>
 <td align="left" width="63%">
 Retrieves the view size preference of the application after the application has launched.
@@ -78,7 +78,7 @@ Retrieves the view size preference of the application after the application has 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5B2D9CC9-D332-474E-A655-FBFC5E54AAE9">GetSourceViewToPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchsourceviewsizepreference-getsourceviewtoposition">GetSourceViewToPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position of the source application window.
@@ -103,11 +103,11 @@ Retrieves the position of the source application window.
 
 
 
-<a href="https://msdn.microsoft.com/3535E9EF-265E-4278-8E0D-60AA8A34C316">ILaunchTargetViewSizePreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchtargetviewsizepreference">ILaunchTargetViewSizePreference</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -76,7 +76,7 @@ A null-terminated string that represents the new value for the specified option.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -97,27 +97,27 @@ On Windows Server 2012, this function only supports the "SECURITY" option, whic
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/3338ca5c-48ac-450f-bf2a-ded6a2c3da19">MI_Context_GetCustomOption</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getcustomoption">MI_Context_GetCustomOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4f6c935-5207-46f6-b015-c4db724113f3">MI_Context_GetCustomOptionAt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getcustomoptionat">MI_Context_GetCustomOptionAt</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cce1492-5c3a-4ba8-8f33-22f6ff7fcf3a">MI_Context_GetCustomOptionCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getcustomoptioncount">MI_Context_GetCustomOptionCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/862a44b9-a6bd-4433-a7da-9309392a946c">MI_Context_GetNumberOption</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getnumberoption">MI_Context_GetNumberOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef6fa103-7421-4c66-902d-c5a731abaa54">MI_Context_GetStringOption</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getstringoption">MI_Context_GetStringOption</a>
  
 
  

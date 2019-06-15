@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Asynchronously gets a <a href="https://msdn.microsoft.com/88F63873-9844-4EF9-A868-5CA0330F9242">DevicePair</a> of devices that are on the same network interface.
+Asynchronously gets a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> of devices that are on the same network interface.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Specifies whether or not the renderer network can be changed.
 
 ### -param operation [out, retval]
 
-The asynchronous operation. Upon completion, <a href="https://msdn.microsoft.com/1E40AEED-8D57-4FBC-AF25-11B27399477C">IAsyncOperation.GetResults</a> returns a <a href="https://msdn.microsoft.com/88F63873-9844-4EF9-A868-5CA0330F9242">DevicePair</a> object.
+The asynchronous operation. Upon completion, <a href="https://docs.microsoft.com/previous-versions//br205815(v=vs.85)">IAsyncOperation.GetResults</a> returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> object.
 
 
 ## -returns
@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/B4D8BAEF-AD30-4FEC-9527-583E88C8B4C7">IActiveBasicDeviceStatics</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevicestatics">IActiveBasicDeviceStatics</a>
  
 
  

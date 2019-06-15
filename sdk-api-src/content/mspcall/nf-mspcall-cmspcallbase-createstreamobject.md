@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>CreateStreamObject</b> method is called by 
-<a href="https://msdn.microsoft.com/en-us/library/ms726516(v=VS.85).aspx">InternalCreateStream</a>. The derived class should <b>CreateInstance</b> on its stream object, do an ATL <b>_InternalQueryInterface</b> to obtain an 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> pointer from the stream object, and call the stream object's 
-<a href="https://msdn.microsoft.com/en-us/library/ms726510(v=VS.85).aspx">Init</a> method (on the stream object pointer, not the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-internalcreatestream">InternalCreateStream</a>. The derived class should <b>CreateInstance</b> on its stream object, do an ATL <b>_InternalQueryInterface</b> to obtain an 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> pointer from the stream object, and call the stream object's 
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-init">Init</a> method (on the stream object pointer, not the 
 <b>ITStream</b> pointer).
 
 
@@ -65,13 +65,13 @@ The
 ### -param dwMediaType
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">Media type</a> of stream to be created.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> of stream to be created.
 
 
 ### -param Direction
 
 
-<a href="https://msdn.microsoft.com/55ef9df3-1b85-439b-8ecb-28e5069390b9">Direction</a> of stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">Direction</a> of stream.
 
 
 ### -param pGraph
@@ -82,7 +82,7 @@ Pointer to DirectShow <b>IMediaEvent</b> interface.
 ### -param ppStream
 
 Pointer to 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface.
 
 
 ## -see-also
@@ -90,7 +90,7 @@ Pointer to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
  
 
  

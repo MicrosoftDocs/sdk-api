@@ -48,7 +48,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes an error for the <a href="https://msdn.microsoft.com/5e01c7ac-7090-4cde-b836-01fa9d3f27f5">IMofCompiler</a> interface.
+Describes an error for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a> interface.
 
 
 ## -struct-fields
@@ -124,19 +124,19 @@ The   <i>ObjectNum</i>, <i>FirstLine</i>, and <i>LastLine</i> parameters only co
 
 
 
-<a href="https://msdn.microsoft.com/7f3cc061-839e-49c2-a225-452719f155a9">CompileBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/caf13a5c-2aca-4acb-8210-909737bf1022">CompileFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/39c5d621-0cdf-44e2-9ec0-c68299e85cb7">CreateBMOF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e01c7ac-7090-4cde-b836-01fa9d3f27f5">IMofCompiler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
  
 
  

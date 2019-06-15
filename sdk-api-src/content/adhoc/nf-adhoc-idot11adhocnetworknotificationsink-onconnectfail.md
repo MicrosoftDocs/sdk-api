@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the client that a connection attempt failed. The connection attempt may have been initiated by the client itself or by another application using the <a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a> methods or the <a href="https://msdn.microsoft.com/c1816d68-48b2-4d3d-a8c8-4a243a4b3f3b">Native Wifi functions</a>.
+Notifies the client that a connection attempt failed. The connection attempt may have been initiated by the client itself or by another application using the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> methods or the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi functions</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Notifies the client that a connection attempt failed. The connection attempt may
 
 ### -param eFailReason
 
-A <a href="https://msdn.microsoft.com/ea95f0b8-14ce-40a6-b5a3-853c414c52af">DOT11_ADHOC_CONNECT_FAIL_REASON</a> value that specifies the reason the connection attempt failed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-tagdot11_adhoc_connect_fail_reason">DOT11_ADHOC_CONNECT_FAIL_REASON</a> value that specifies the reason the connection attempt failed.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/54a45431-8036-4a3f-9558-467a1efab6bb">IDot11AdHocNetworkNotificationSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetworknotificationsink">IDot11AdHocNetworkNotificationSink</a>
  
 
  

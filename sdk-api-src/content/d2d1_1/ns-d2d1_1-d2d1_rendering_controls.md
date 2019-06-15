@@ -75,7 +75,7 @@ The renderer can allocate tiles larger than the minimum tile allocation. The all
 
 The <b>minimumPixelRenderExtent</b> is the size of the square tile below which the renderer will expand the tile allocation rather than attempting to subdivide the rendering tile any further. When this threshold is reached, the allocation tile size is expanded. This might occur repeatedly until rendering can either proceed or it is determined that the graph cannot be rendered.
 
-The buffer precision is used for intermediate buffers if it is otherwise unspecified by the effects or the internal effect topology. The application can also use the <a href="https://msdn.microsoft.com/6a59c903-0fa8-4d2c-b426-8d3c3410c6bd">Output.BufferPrecision</a> method to specify the output precision for a particular effect. This takes precedence over the context precision. In addition, the effect might set a different precision internally if required. If the buffer type on the context is <b>D2D1_BUFFER_PRECISION_UNKNOWN</b> and otherwise not specified by the effect or transform, the precision of the output will be the maximum precision of the inputs to the transform. The buffer precision does not affect the number of channels used. 
+The buffer precision is used for intermediate buffers if it is otherwise unspecified by the effects or the internal effect topology. The application can also use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getbufferprecision">Output.BufferPrecision</a> method to specify the output precision for a particular effect. This takes precedence over the context precision. In addition, the effect might set a different precision internally if required. If the buffer type on the context is <b>D2D1_BUFFER_PRECISION_UNKNOWN</b> and otherwise not specified by the effect or transform, the precision of the output will be the maximum precision of the inputs to the transform. The buffer precision does not affect the number of channels used. 
 
 
 
@@ -85,7 +85,7 @@ The buffer precision is used for intermediate buffers if it is otherwise unspeci
 
 
 
-<a href="https://msdn.microsoft.com/6a066126-89d0-4372-bc01-6b6fa1d65440">ID2D1DeviceContext::SetRenderingControls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setrenderingcontrols(constd2d1_rendering_controls_)">ID2D1DeviceContext::SetRenderingControls</a>
  
 
  

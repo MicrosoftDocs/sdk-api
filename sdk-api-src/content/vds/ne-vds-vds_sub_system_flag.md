@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the set of valid flags for a subsystem object.
@@ -157,42 +157,42 @@ The subsystem supports only simple target configurations and automatically assig
 
 ### -field VDS_SF_SUPPORTS_LUN_NUMBER
 
-The subsystem supports LUN numbering. See the <a href="https://msdn.microsoft.com/79aa7dc1-ef46-4b6d-8088-e42839625a16">IVdsLunNumber::GetLunNumber</a> method.
+The subsystem supports LUN numbering. See the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunnumber-getlunnumber">IVdsLunNumber::GetLunNumber</a> method.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_SUPPORTS_MIRRORED_CACHE
 
-The subsystem supports LUNs that use a mirrored cache. See the <b>bUseMirroredCache</b> member of the <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure.
+The subsystem supports LUNs that use a mirrored cache. See the <b>bUseMirroredCache</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_READ_CACHING_CAPABLE
 
-The subsystem supports read caching on LUNs. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a> enumeration and the <b>bReadCachingEnabled</b> member of the <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure.
+The subsystem supports read caching on LUNs. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bReadCachingEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_WRITE_CACHING_CAPABLE
 
-The subsystem supports write caching on LUNs. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a> enumeration and the <b>bWriteCachingEnabled</b> member of the <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure.
+The subsystem supports write caching on LUNs. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bWriteCachingEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_MEDIA_SCAN_CAPABLE
 
-The subsystem supports media scanning on LUNs. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a> enumeration and the <b>bMediaScanEnabled</b> member of the <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure.
+The subsystem supports media scanning on LUNs. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bMediaScanEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
 
 ### -field VDS_SF_CONSISTENCY_CHECK_CAPABLE
 
-The subsystem supports consistency checking on LUNs. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a> enumeration and the <b>bConsistencyCheckEnabled</b> member of the <a href="https://msdn.microsoft.com/e24935ac-17c8-4338-99cb-2408ca61da8a">VDS_HINTS2</a> structure.
+The subsystem supports consistency checking on LUNs. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a> enumeration and the <b>bConsistencyCheckEnabled</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_hints2">VDS_HINTS2</a> structure.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>This flag is not supported.
 
@@ -202,7 +202,7 @@ The subsystem supports consistency checking on LUNs. See the <b>VDS_LF_CONSISTEN
 
 
 This enumeration provides the values for the  <b>ulFlags</b> member of the 
-    <a href="https://msdn.microsoft.com/8fecb874-5c59-4f55-b528-040ff9209612">VDS_SUB_SYSTEM_PROP</a> and <a href="https://msdn.microsoft.com/8eb743b5-26e6-42e5-b94b-0849b1280cdb">VDS_SUB_SYSTEM_PROP2</a> structures.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a> structures.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_SUB_SYSTEM_FLAG</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_SUB_SYSTEM_FLAG</b> enumeration constant.</div>
 <div> </div>
@@ -214,15 +214,15 @@ This enumeration provides the values for the  <b>ulFlags</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/30ee6e39-c1e5-4173-a3dd-5644632140d1">VDS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fecb874-5c59-4f55-b528-040ff9209612">VDS_SUB_SYSTEM_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/8eb743b5-26e6-42e5-b94b-0849b1280cdb">VDS_SUB_SYSTEM_PROP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_sub_system_prop2">VDS_SUB_SYSTEM_PROP2</a>
  
 
  

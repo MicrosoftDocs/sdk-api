@@ -86,7 +86,7 @@ The appropriate file name extension will be added to the <i>szSxsName</i> parame
 
 
 
-<a href="https://msdn.microsoft.com/24d4a22b-0a01-4bf2-9cc6-4a1b31897d05">IServiceSxsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicesxsconfig">IServiceSxsConfig</a>
  
 
  

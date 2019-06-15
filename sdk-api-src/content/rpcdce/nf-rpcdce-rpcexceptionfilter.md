@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>RpcExceptionFilter</b> function is a default exception filter that determines whether an exception is fatal or non-fatal.<b>RpcExceptionFilter</b> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <a href="https://msdn.microsoft.com/5bd57250-1fd7-4aeb-aa53-4fd2c8d84836">RpcExcept</a>.
+The <b>RpcExceptionFilter</b> function is a default exception filter that determines whether an exception is fatal or non-fatal.<b>RpcExceptionFilter</b> is recommended for structured exception handling for the most common exceptions as an alternative to custom filters with <a href="https://docs.microsoft.com/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>.
 
 
 ## -parameters
@@ -213,19 +213,19 @@ RpcEndExcept
 
 
 
-<a href="https://msdn.microsoft.com/7133d3f4-ed84-4cde-bc77-88e73ced9073">Exception Handling</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/exception-handling">Exception Handling</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bd57250-1fd7-4aeb-aa53-4fd2c8d84836">RpcExcept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a61f6aa-b1da-48e2-bf4c-251f729ab766">RpcExceptionCode</a>
+<a href="https://docs.microsoft.com/previous-versions/aa375695(v=vs.80)">RpcExceptionCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/3addb367-4bdc-4c11-bf4d-b5b94da45b26">RpcTryExcept</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpctryexcept">RpcTryExcept</a>
  
 
  

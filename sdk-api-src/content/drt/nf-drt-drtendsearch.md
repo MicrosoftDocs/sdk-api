@@ -59,7 +59,7 @@ The <b>DrtEndSearch</b> function cancels a search for a key in a DRT.  This API 
 
 ### -param hSearchContext [in]
 
-Handle to the search context to end. This parameter is returned from <a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a>.
+Handle to the search context to end. This parameter is returned from <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ The DRT infrastructure is unaware of the requested search.
 
 
 
-Calling the <b>DrtEndSearch</b> function will stop the return of search results via <a href="https://msdn.microsoft.com/23cf713e-2730-456c-a3da-649c5ed00ffb">DRT_SEARCH_RESULT</a>.
+Calling the <b>DrtEndSearch</b> function will stop the return of search results via <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a>.
 
 
 
@@ -115,15 +115,15 @@ Calling the <b>DrtEndSearch</b> function will stop the return of search results 
 
 
 
-<a href="https://msdn.microsoft.com/23cf713e-2730-456c-a3da-649c5ed00ffb">DRT_SEARCH_RESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_result_tag">DRT_SEARCH_RESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/04bdeb53-4901-41d4-835e-da665095edc5">DrtContinueSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcontinuesearch">DrtContinueSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
  
 
  

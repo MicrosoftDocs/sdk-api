@@ -130,24 +130,24 @@ Out of memory.
 
 
 
-The client can call this method before calling the <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a> method. When creating a shared-mode stream for an audio endpoint device, the <b>Initialize</b> method always accepts the stream format obtained from a <b>GetMixFormat</b> call on the same device.
+The client can call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method. When creating a shared-mode stream for an audio endpoint device, the <b>Initialize</b> method always accepts the stream format obtained from a <b>GetMixFormat</b> call on the same device.
 
 The mix format is the format that the audio engine uses internally for digital processing of shared-mode streams. This format is not necessarily a format that the audio endpoint device supports. Thus, the caller might not succeed in creating an exclusive-mode stream with a format obtained by calling <b>GetMixFormat</b>.
 
 For example, to facilitate digital audio processing, the audio engine might use a mix format that represents samples as floating-point values. If the device supports only integer PCM samples, then the engine converts the samples to or from integer PCM values at the connection between the device and the engine. However, to avoid resampling, the engine might use a mix format with a sample rate that the device supports.
 
-To determine whether the <b>Initialize</b> method can create a shared-mode or exclusive-mode stream with a particular format, call the <a href="https://msdn.microsoft.com/92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1">IAudioClient::IsFormatSupported</a> method.
+To determine whether the <b>Initialize</b> method can create a shared-mode or exclusive-mode stream with a particular format, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a> method.
 
 By itself, a <b>WAVEFORMATEX</b> structure cannot specify the mapping of channels to speaker positions. In addition, although <b>WAVEFORMATEX</b> specifies the size of the container for each audio sample, it cannot specify the number of bits of precision in a sample (for example, 20 bits of precision in a 24-bit container). However, the <b>WAVEFORMATEXTENSIBLE</b> structure can specify both the mapping of channels to speakers and the number of bits of precision in each sample. For this reason, the <b>GetMixFormat</b> method retrieves a format descriptor that is in the form of a <b>WAVEFORMATEXTENSIBLE</b> structure instead of a standalone <b>WAVEFORMATEX</b> structure. Through the <i>ppDeviceFormat</i> parameter, the method outputs a pointer to the <b>WAVEFORMATEX</b> structure that is embedded at the start of this <b>WAVEFORMATEXTENSIBLE</b> structure. For more information about <b>WAVEFORMATEX</b> and <b>WAVEFORMATEXTENSIBLE</b>, see the Windows DDK documentation.
 
-For more information about the <b>GetMixFormat</b> method, see <a href="https://msdn.microsoft.com/591437e4-21ef-42f1-a752-7f50440cbd63">Device Formats</a>. For code examples that call <b>GetMixFormat</b>, see the following topics:
+For more information about the <b>GetMixFormat</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-formats">Device Formats</a>. For code examples that call <b>GetMixFormat</b>, see the following topics:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/00bfcfd1-6592-43e3-90ad-730c92aa4cd3">Rendering a Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>
 </li>
 </ul>
 
@@ -158,15 +158,15 @@ For more information about the <b>GetMixFormat</b> method, see <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/5088a3f1-5001-4ed9-a495-9e91df613ab0">IAudioClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1">IAudioClient::IsFormatSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a>
  
 
  

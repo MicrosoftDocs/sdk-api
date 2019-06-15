@@ -73,17 +73,17 @@ Handle to an ACM driver. If this handle is specified, it identifies a specific d
 
 ### -param pwfxSrc
 
-Pointer to a <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure that identifies the desired source format for the conversion.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired source format for the conversion.
 
 
 ### -param pwfxDst
 
-Pointer to a <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure that identifies the desired destination format for the conversion.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired destination format for the conversion.
 
 
 ### -param pwfltr
 
-Pointer to a <a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a> structure that identifies the desired filtering operation to perform on the conversion stream. If no filtering operation is desired, this parameter can be <b>NULL</b>. If a filter is specified, the source (<i>pwfxSrc</i>) and destination (<i>pwfxDst</i>) formats must be the same.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure that identifies the desired filtering operation to perform on the conversion stream. If no filtering operation is desired, this parameter can be <b>NULL</b>. If a filter is specified, the source (<i>pwfxSrc</i>) and destination (<i>pwfxDst</i>) formats must be the same.
 
 
 ### -param dwCallback
@@ -109,7 +109,7 @@ Flags for opening the conversion stream. The following values are defined.
 </tr>
 <tr>
 <td>ACM_STREAMOPENF_ASYNC</td>
-<td>Stream conversion should be performed asynchronously. If this flag is specified, the application can use a callback function to be notified when the conversion stream is opened and closed and after each buffer is converted. In addition to using a callback function, an application can examine the <b>fdwStatus</b> member of the <a href="https://msdn.microsoft.com/723e96d8-f098-4e08-862a-a9fea8d2fbe3">ACMSTREAMHEADER</a> structure for the ACMSTREAMHEADER_STATUSF_DONE flag.</td>
+<td>Stream conversion should be performed asynchronously. If this flag is specified, the application can use a callback function to be notified when the conversion stream is opened and closed and after each buffer is converted. In addition to using a callback function, an application can examine the <b>fdwStatus</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure for the ACMSTREAMHEADER_STATUSF_DONE flag.</td>
 </tr>
 <tr>
 <td>ACM_STREAMOPENF_NONREALTIME</td>
@@ -125,7 +125,7 @@ Flags for opening the conversion stream. The following values are defined.
 </tr>
 <tr>
 <td>CALLBACK_FUNCTION</td>
-<td>The <i>dwCallback</i> parameter is a callback procedure address. The function prototype must conform to the <a href="https://msdn.microsoft.com/5849ce87-ac63-4e0b-868e-68cd284122aa">acmStreamConvertCallback</a> prototype.</td>
+<td>The <i>dwCallback</i> parameter is a callback procedure address. The function prototype must conform to the <a href="https://docs.microsoft.com/previous-versions//dd742925(v=vs.85)">acmStreamConvertCallback</a> prototype.</td>
 </tr>
 <tr>
 <td>CALLBACK_WINDOW</td>
@@ -213,7 +213,7 @@ The system is unable to allocate resources.
 
 If an ACM driver cannot perform real-time conversions and the ACM_STREAMOPENF_NONREALTIME flag is not specified for the <i>fdwOpen</i> parameter, the open operation will fail returning an ACMERR_NOTPOSSIBLE error code. An application can use the ACM_STREAMOPENF_QUERY flag to determine if real-time conversions are supported for input.
 
-If an application uses a window to receive callback information, the MM_ACM_OPEN, MM_ACM_CLOSE, and MM_ACM_DONE messages are sent to the window procedure function to indicate the progress of the conversion stream. In this case, the <i>wParam</i> parameter identifies the <b>HACMSTREAM</b> handle. The <i>lParam</i> parameter identifies the <a href="https://msdn.microsoft.com/723e96d8-f098-4e08-862a-a9fea8d2fbe3">ACMSTREAMHEADER</a> structure for MM_ACM_DONE, but it is not used for MM_ACM_OPEN and MM_ACM_CLOSE.
+If an application uses a window to receive callback information, the MM_ACM_OPEN, MM_ACM_CLOSE, and MM_ACM_DONE messages are sent to the window procedure function to indicate the progress of the conversion stream. In this case, the <i>wParam</i> parameter identifies the <b>HACMSTREAM</b> handle. The <i>lParam</i> parameter identifies the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure for MM_ACM_DONE, but it is not used for MM_ACM_OPEN and MM_ACM_CLOSE.
 
 If an application uses a function to receive callback information, the MM_ACM_OPEN, MM_ACM_CLOSE, and MM_ACM_DONE messages are sent to the function to indicate the progress of waveform-audio output. The callback function must reside in a dynamic-link library (DLL).
 
@@ -227,11 +227,11 @@ If an application uses an event for callback notification, the event is signaled
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

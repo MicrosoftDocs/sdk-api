@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTSESSIONINFO</b> structure contains information about the ACD agent session. The 
-<a href="https://msdn.microsoft.com/06a5ea23-4205-46fd-abe7-ee4575be81c8">lineGetAgentSessionInfo</a> function returns the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> function returns the 
 <b>LINEAGENTSESSIONINFO</b> structure.
 
 
@@ -78,13 +78,13 @@ Size of the portion of this structure that contains useful information, in bytes
 ### -field dwAgentSessionState
 
 One of the 
-<a href="https://msdn.microsoft.com/8a0d06bb-51ba-4eaf-8719-120aed817f63">LINEAGENTSESSIONSTATE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>.
 
 
 ### -field dwNextAgentSessionState
 
 One of the 
-<a href="https://msdn.microsoft.com/8a0d06bb-51ba-4eaf-8719-120aed817f63">LINEAGENTSESSIONSTATE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentsessionstate--constants">LINEAGENTSESSIONSTATE_ constants</a>.
 
 
 ### -field dateSessionStartTime
@@ -152,11 +152,11 @@ Average time calls waited to be answered, in seconds.
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/06a5ea23-4205-46fd-abe7-ee4575be81c8">lineGetAgentSessionInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a>
  
 
  

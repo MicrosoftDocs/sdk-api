@@ -77,11 +77,11 @@ The pointer type is a masked color mouse pointer.  A masked color mouse pointer 
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8C270C30-01B8-467C-939F-7F4B82B9ED15">DXGI_OUTDUPL_POINTER_SHAPE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_outdupl_pointer_shape_info">DXGI_OUTDUPL_POINTER_SHAPE_INFO</a>
  
 
  

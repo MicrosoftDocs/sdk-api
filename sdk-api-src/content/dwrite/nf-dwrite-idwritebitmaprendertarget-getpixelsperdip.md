@@ -85,7 +85,7 @@ A DIP (device-independent pixel) is 1/96 inch. Therefore, this value is the numb
 
 
 
-<a href="https://msdn.microsoft.com/9953a9e9-7772-41a3-9cd9-2340a9dd4b6f">IDWriteBitmapRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget">IDWriteBitmapRenderTarget</a>
  
 
  

@@ -59,9 +59,9 @@ Copies the specified triangles to the sink.
 
 ### -param triangles [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/6978bfff-05ca-44b6-8694-c4741f7987f6">D2D1_TRIANGLE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_triangle">D2D1_TRIANGLE</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/6978bfff-05ca-44b6-8694-c4741f7987f6">D2D1_TRIANGLE</a> structures that describe the triangles to add to the sink.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_triangle">D2D1_TRIANGLE</a> structures that describe the triangles to add to the sink.
 
 
 ### -param trianglesCount
@@ -85,7 +85,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/967c702f-d16f-4a8e-ac77-a8bb35afe0a1">ID2D1TessellationSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>
  
 
  

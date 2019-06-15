@@ -122,7 +122,7 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/742b5606-5d24-4494-9f96-e381af1145db">IConstructReplicaKeyMap Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iconstructreplicakeymap">IConstructReplicaKeyMap Interface</a>
  
 
  

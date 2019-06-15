@@ -60,13 +60,13 @@ The <b>DHCP_RESERVED_SCOPE</b> structure defines a reserved DHCP scope.
 ### -field ReservedIpAddress
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that contains an IP address used to identify the reservation.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains an IP address used to identify the reservation.
 
 
 ### -field ReservedIpSubnetAddress
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that specifies the subnet ID of the subnet containing the reservation.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the subnet ID of the subnet containing the reservation.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ The <b>DHCP_RESERVED_SCOPE</b> structure defines a reserved DHCP scope.
 
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>
  
 
  

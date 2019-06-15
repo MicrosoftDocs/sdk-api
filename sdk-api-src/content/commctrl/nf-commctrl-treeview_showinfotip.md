@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Shows the infotip for a specified item in a tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773779(v=VS.85).aspx">TVM_SHOWINFOTIP</a> message explicitly.
+Shows the infotip for a specified item in a tree-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-showinfotip">TVM_SHOWINFOTIP</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Shows the infotip for a specified item in a tree-view control. Use this macro or
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -75,7 +75,7 @@ Handle to the item.
 
 
 
-Most applications do not use this macro. Infotips are shown automatically. For more information, see Using Tree-view Infotips in the <a href="https://msdn.microsoft.com/en-us/library/Bb760017(v=VS.85).aspx">About Tree-View Controls</a> overview.
+Most applications do not use this macro. Infotips are shown automatically. For more information, see Using Tree-view Infotips in the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-controls">About Tree-View Controls</a> overview.
         	
 
 

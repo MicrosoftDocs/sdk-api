@@ -72,7 +72,7 @@ Height of the video frame, in pixels.
 
 ### -field SampleFormat
 
-Additional details about the video format, specified as a <a href="https://msdn.microsoft.com/eba2c56b-8951-4dc5-91ae-1371793ce787">DXVA2_ExtendedFormat</a> structure.
+Additional details about the video format, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
           
 
 
@@ -84,13 +84,13 @@ Surface format, specified as a <b>D3DFORMAT</b> value or FOURCC code. A FOURCC c
 
 ### -field InputSampleFreq
 
-Frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/03b6bef9-c0ba-4efa-9552-55c8e9fd77ae">DXVA2_Frequency</a> structure.
+Frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_frequency">DXVA2_Frequency</a> structure.
           
 
 
 ### -field OutputFrameFreq
 
-Frame rate of the output video, specified as a <a href="https://msdn.microsoft.com/03b6bef9-c0ba-4efa-9552-55c8e9fd77ae">DXVA2_Frequency</a> structure.
+Frame rate of the output video, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_frequency">DXVA2_Frequency</a> structure.
           
 
 
@@ -117,7 +117,7 @@ Decoders should set the values of <b>InputSampleFreq</b> and <b>OutputFrameFreq<
 
 #### Examples
 
-The following code converts a Media Foundation media type, represented using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, into a <b>DXVA2_VideoDesc</b> structure.
+The following code converts a Media Foundation media type, represented using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface, into a <b>DXVA2_VideoDesc</b> structure.
 
 
 ```cpp
@@ -239,11 +239,11 @@ done:
 
 
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

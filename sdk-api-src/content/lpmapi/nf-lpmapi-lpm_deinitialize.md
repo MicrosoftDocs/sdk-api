@@ -62,7 +62,7 @@ The
 ### -param LpmHandle
 
 Unique handle to the LPM, as supplied through 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a> during initialization.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> during initialization.
 
 
 ## -returns
@@ -91,7 +91,7 @@ LPMs do not need to return errors for outstanding requests when
 
 
 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
  
 
  

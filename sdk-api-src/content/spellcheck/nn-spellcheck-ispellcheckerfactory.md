@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-A factory for instantiating a spell checker (<a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a>) as well as providing functionality for determining which languages are supported.
+A factory for instantiating a spell checker (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>) as well as providing functionality for determining which languages are supported.
 
-<b>ISpellCheckerFactory</b> is the starting point for clients of the <a href="https://msdn.microsoft.com/4EE858FA-DD9B-487B-87A7-4D94C7E8C237">Spell Checking API</a>, which should be created as an in-proc COM Server as shown in the example below.
+<b>ISpellCheckerFactory</b> is the starting point for clients of the <a href="https://docs.microsoft.com/windows/desktop/Intl/spell-checker-api">Spell Checking API</a>, which should be created as an in-proc COM Server as shown in the example below.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckerFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpellCheckerFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellCheckerFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpellCheckerFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ISpellCheckerFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9167b675-01ec-4173-a790-5452907b5598">CreateSpellChecker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellcheckerfactory-createspellchecker">CreateSpellChecker</a>
 </td>
 <td align="left" width="63%">
 Creates a spell checker that supports the specified language.
@@ -81,7 +81,7 @@ Creates a spell checker that supports the specified language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb21850d-d490-4055-8910-70f9c0090f59">IsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellcheckerfactory-issupported">IsSupported</a>
 </td>
 <td align="left" width="63%">
 Determines if the specified language is supported by a registered spell checker.
@@ -99,7 +99,7 @@ Determines if the specified language is supported by a registered spell checker.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ae6794fd-ce7c-4c62-abc5-824699054a37">SupportedLanguages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellcheckerfactory-get_supportedlanguages">SupportedLanguages</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets the set of languages/dialects supported by any of the registered spell chec
 
 
 
-<a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
  
 
  

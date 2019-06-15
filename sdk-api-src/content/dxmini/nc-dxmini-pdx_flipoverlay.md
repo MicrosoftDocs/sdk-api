@@ -74,7 +74,7 @@ The<i> DxFlipOverlay</i> callback function is called when a client of the video 
 
 #### - FlipOverlayInfo
 
-Points to the <a href="https://msdn.microsoft.com/04e4baba-4b6c-4f0a-8197-1fb2d83f53d6">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddflipoverlayinfo">DDFLIPOVERLAYINFO</a> structure that contains the flip information for the surface.
 
 
 #### - HwDeviceExtension
@@ -110,7 +110,7 @@ If a hardware video port is not used and the client still wants the overlay to b
 
 
 
-<a href="https://msdn.microsoft.com/04e4baba-4b6c-4f0a-8197-1fb2d83f53d6">DDFLIPOVERLAYINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddflipoverlayinfo">DDFLIPOVERLAYINFO</a>
  
 
  

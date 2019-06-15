@@ -57,11 +57,11 @@ Represents a condition that can be either <b>TRUE</b> (selects all elements) or 
 
 
 
-<a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/cea34e47-03a9-4ff9-9019-427a2a3e13d6">Property Condition Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>
  
 
  

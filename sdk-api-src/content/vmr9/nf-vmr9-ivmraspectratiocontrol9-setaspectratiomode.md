@@ -63,7 +63,7 @@ The <code>SetAspectRatioMode</code> method specifies whether the VMR preserves t
 
 ### -param dwARMode [in]
 
-Specifies a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd390954(v=VS.85).aspx">VMR_ASPECT_RATIO_MODE</a> enumeration type.
+Specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmr_aspect_ratio_mode">VMR_ASPECT_RATIO_MODE</a> enumeration type.
 
 
 ## -returns
@@ -110,15 +110,15 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377343(v=VS.85).aspx">IVMRAspectRatioControl9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmraspectratiocontrol9">IVMRAspectRatioControl9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

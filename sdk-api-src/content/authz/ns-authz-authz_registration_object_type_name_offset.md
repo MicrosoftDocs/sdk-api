@@ -72,7 +72,7 @@ Offset of the object type name in an object types message DLL.
 
 
 
-<a href="https://msdn.microsoft.com/8b4d6e14-fb9c-428a-bd94-34eba668edc6">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
  
 
  

@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbDatacontentDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbDatacontentDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbDatacontentDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbDatacontentDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbDatacontentDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4198ec3c-f2a3-4517-8efb-81dfb9f8c01d">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
  Gets the number of component records in  an ISDB data content descriptor.
@@ -78,7 +78,7 @@ The <b>IIsdbDatacontentDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8a3e399-5004-41ee-a7eb-4c583a1fdd45">GetDataComponentId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getdatacomponentid">GetDataComponentId</a>
 </td>
 <td align="left" width="63%">
  Gets a component identifier from an ISDB data content descriptor.
@@ -87,7 +87,7 @@ The <b>IIsdbDatacontentDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f8f9e55-cc03-4f07-918e-19199485c8d4">GetEntryComponent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getentrycomponent">GetEntryComponent</a>
 </td>
 <td align="left" width="63%">
  Gets a code that indicates the first referenced component stream in the descriptor from an ISDB data content descriptor.
@@ -96,7 +96,7 @@ The <b>IIsdbDatacontentDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbf89870-e258-43d8-8312-edc53998e51a">GetLanguageCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getlanguagecode">GetLanguageCode</a>
 </td>
 <td align="left" width="63%">
 Gets the three-character ISO 639 language code from an ISDB data content descriptor.
@@ -105,7 +105,7 @@ Gets the three-character ISO 639 language code from an ISDB data content descrip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51546c62-5042-460d-a792-2253bd57df13">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
  Gets the body length of an ISDB data content descriptor.
@@ -114,7 +114,7 @@ Gets the three-character ISO 639 language code from an ISDB data content descrip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3668c323-6808-4bc4-b372-37647ef3fdd8">GetRecordComponentRef</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getrecordcomponentref">GetRecordComponentRef</a>
 </td>
 <td align="left" width="63%">
 Gets a broadcaster-defined component tag that identifies a component stream from ISDB data content descriptor.
@@ -123,7 +123,7 @@ Gets a broadcaster-defined component tag that identifies a component stream from
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b02c315e-322d-478e-8be1-c833df49ed56">GetSelectorBytes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getselectorbytes">GetSelectorBytes</a>
 </td>
 <td align="left" width="63%">
  Gets data from the selector area of an ISDB data content descriptor.
@@ -132,7 +132,7 @@ Gets a broadcaster-defined component tag that identifies a component stream from
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/485ac963-e85a-41cc-adcd-93590b327061">GetSelectorLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-getselectorlength">GetSelectorLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length of the selector area from an ISDB data content descriptor.
@@ -141,7 +141,7 @@ Gets the length of the selector area from an ISDB data content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/308f44d6-0aae-418e-8aad-cc812c0cdb8a">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB data content descriptor.
@@ -150,7 +150,7 @@ Gets the tag that identifies an ISDB data content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7abc2e2-4fb5-4b8b-8678-416056836aee">GetTextW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdatacontentdescriptor-gettextw">GetTextW</a>
 </td>
 <td align="left" width="63%">
  Gets the text that describes a component in an ISDB data content descriptor, in Unicode text format.

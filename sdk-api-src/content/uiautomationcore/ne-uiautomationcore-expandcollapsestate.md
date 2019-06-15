@@ -82,7 +82,7 @@ The element does not expand or collapse.
 
 
 
-<a href="https://msdn.microsoft.com/59d91498-54f8-40df-8224-52ff8e45f6c3">IExpandCollapseProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iexpandcollapseprovider">IExpandCollapseProvider</a>
  
 
  

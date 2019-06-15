@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761564(v=VS.85).aspx">ImageList_Remove</a> function to remove all of the images from an image list. 
+Calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_remove">ImageList_Remove</a> function to remove all of the images from an image list. 
 
 
 ## -parameters

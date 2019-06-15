@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a device host that can support signed messages and returns a pointer to the <a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a> interface.
+Creates a device host that can support signed messages and returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The logical or physical address of the device. A logical address is of the form 
 If <i>pszLocalId</i> is a physical address (such as  URL prefixed by http or https), the host will use the address as the physical address and will host on that address instead of the default one.
 
 If <i>pszLocalId</i> is an HTTPS URL, the recommended port is port 5358, as this port is reserved for secure connections with WSDAPI.
-If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate before calling <a href="https://msdn.microsoft.com/dbe7ccd0-494d-4f6c-90f6-e729839d7008">WSDCreateDeviceHost</a>.  For more information about the configuration of host ports, see <a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HttpSetServiceConfiguration</a>.
+If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate before calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a>.  For more information about the configuration of host ports, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
 
 
 Any URL (http or https) must be terminated with a trailing slash. The URL must  contain a valid IP address or hostname.
@@ -88,14 +88,14 @@ The following list shows some example values for <i>pszLocalId</i>. It is not a 
 
 ### -param pContext [in]
 
-An <a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a> object that defines custom message types or namespaces.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object that defines custom message types or namespaces.
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
 
 ### -param pConfigParams [in]
 
-An array of <a href="https://msdn.microsoft.com/58dc3e11-586e-4185-b1d0-4249b4bfb252">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
 
 
 ### -param dwConfigParamCount [in]
@@ -105,7 +105,7 @@ The total number of structures passed in <i>pConfigParams</i>.
 
 ### -param ppDeviceHost [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a> object that you use to expose the WSD-specific device semantics associated with a server that responds to incoming requests.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object that you use to expose the WSD-specific device semantics associated with a server that responds to incoming requests.
 
 
 ## -returns
@@ -173,7 +173,7 @@ Insufficient memory to complete the operation.
 
 
 
-The <b>WSDCreateDeviceHost2</b> function calls the <a href="https://msdn.microsoft.com/a66f0600-0bac-4bef-af43-6db60b60605e">IWSDDeviceHost::Init</a> method, which initializes an instance of an <a href="https://msdn.microsoft.com/497d0331-c88d-4381-8990-94227a9b9659">IWSDDeviceHost</a> object.
+The <b>WSDCreateDeviceHost2</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">IWSDDeviceHost::Init</a> method, which initializes an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object.
 
 
 

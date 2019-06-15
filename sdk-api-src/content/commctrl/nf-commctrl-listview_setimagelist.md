@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Assigns an image list to a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761178(v=VS.85).aspx">LVM_SETIMAGELIST</a> message explicitly. 
+Assigns an image list to a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setimagelist">LVM_SETIMAGELIST</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Assigns an image list to a list-view control. You can use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -130,7 +130,7 @@ Image list for group header.
 
 
 
-The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
+The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
 
 
 

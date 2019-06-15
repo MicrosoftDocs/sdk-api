@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Elements of the <b>TfSapiObject</b> enumeration are used with the <a href="https://msdn.microsoft.com/4dfa2bd2-e25c-4481-ab07-2f764434504d">ITfFnGetSAPIObject::Get</a> method to specify a specific type of Speech API (SAPI) object.
+Elements of the <b>TfSapiObject</b> enumeration are used with the <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffngetsapiobject-get">ITfFnGetSAPIObject::Get</a> method to specify a specific type of Speech API (SAPI) object.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ Specifies an ISpRecognizer object. SAPI will not be initialized if it is not alr
 
 
 
-<a href="https://msdn.microsoft.com/4dfa2bd2-e25c-4481-ab07-2f764434504d">ITfFnGetSAPIObject::Get
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffngetsapiobject-get">ITfFnGetSAPIObject::Get
       </a>
  
 

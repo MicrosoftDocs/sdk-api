@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a region that is defined by a path (a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object) and has a fill mode that is contained in the <b>GraphicsPath</b> object.
+Creates a region that is defined by a path (a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object) and has a fill mode that is contained in the <b>GraphicsPath</b> object.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Creates a region that is defined by a path (a <a href="https://msdn.microsoft.co
 
 ### -param path [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object that specifies the path. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that specifies the path. 
 
 
 ## -see-also
@@ -70,23 +70,23 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536378(v=VS.85).aspx">Regions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-regions-about">Regions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533816(v=VS.85).aspx">Using Regions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-regions-use">Using Regions</a>
  
 
  

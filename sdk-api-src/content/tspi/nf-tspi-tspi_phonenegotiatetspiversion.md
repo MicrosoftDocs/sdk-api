@@ -61,7 +61,7 @@ The
 ### -param dwDeviceID
 
 The phone device for which interface version negotiation is to be performed. Permitted values are strictly within the range of phone devices identifiers for this service provider; the value 
-<a href="https://msdn.microsoft.com/ce978913-47a1-4387-bd1b-1795aaf82dd7">INITIALIZE_NEGOTIATION</a> is never passed to this function.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a> is never passed to this function.
 
 
 ### -param dwLowVersion
@@ -99,10 +99,10 @@ The service provider returns PHONEERR_OPERATIONUNAVAIL if the operation is not a
 TAPI calls this function early in the initialization sequence for each phone device.
 
 Negotiation of an extension version is done through the separate procedure 
-<a href="https://msdn.microsoft.com/03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e">TSPI_phoneNegotiateExtVersion</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>.
 
 The corresponding function at the TAPI level is an overloaded function that also retrieves the extension identifier, if any, supported by the service provider. At the TSPI level, retrieving the extension identifier is accomplished through a separate procedure, namely, 
-<a href="https://msdn.microsoft.com/c4c1c68f-0a48-40f2-8eb9-f54c3572578c">TSPI_phoneGetExtensionID</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid">TSPI_phoneGetExtensionID</a>.
 
 
 
@@ -112,15 +112,15 @@ The corresponding function at the TAPI level is an overloaded function that also
 
 
 
-<a href="https://msdn.microsoft.com/ce978913-47a1-4387-bd1b-1795aaf82dd7">INITIALIZE_NEGOTIATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4c1c68f-0a48-40f2-8eb9-f54c3572578c">TSPI_phoneGetExtensionID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetextensionid">TSPI_phoneGetExtensionID</a>
 
 
 
-<a href="https://msdn.microsoft.com/03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e">TSPI_phoneNegotiateExtVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>
  
 
  

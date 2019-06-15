@@ -67,7 +67,7 @@ If a task has this property set to true, and is triggered when the computer is a
 
 When the Task Scheduler service wakes the computer to run a task, the screen may remain off even though the computer is no longer in the sleep or hibernate mode. The screen will turn on when Windows Vista detects that a user has returned to use the computer.
 
-When reading or writing  XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/5fb53016-5778-463d-bb32-3c1da2de6fc2">WakeToRun</a> element of the Task Scheduler schema.
+When reading or writing  XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-waketorun-settingstype-element">WakeToRun</a> element of the Task Scheduler schema.
 
 
 
@@ -77,11 +77,11 @@ When reading or writing  XML for a task, this setting is specified in the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

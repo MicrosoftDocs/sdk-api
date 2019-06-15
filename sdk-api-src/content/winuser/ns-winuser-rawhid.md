@@ -82,7 +82,7 @@ The raw input data, as an array of bytes.
 
 
 
-Each <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
+Each <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
 
 
 
@@ -96,11 +96,11 @@ Each <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">W
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 
@@ -108,7 +108,7 @@ Each <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">W
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>
  
 
  

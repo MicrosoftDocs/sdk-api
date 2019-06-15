@@ -59,7 +59,7 @@ Gets either the surface that was specified when the bitmap was created, or the d
 
 ### -param dxgiSurface [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>**</b>
 
 The underlying DXGI surface for the bitmap.
 
@@ -95,9 +95,9 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-The bitmap used must have been created from a DXGI surface render target, a derived render target, or a device context created from an <a href="https://msdn.microsoft.com/21f77c38-c115-4fdf-b294-570577a29201">ID2D1Device</a>.
+The bitmap used must have been created from a DXGI surface render target, a derived render target, or a device context created from an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>.
 
-The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through <a href="https://msdn.microsoft.com/en-us/library/Dd742724(v=VS.85).aspx">ID2D1Factory::CreateDxgiSurfaceRenderTarget</a> or on a device context created on the same device.
+The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">ID2D1Factory::CreateDxgiSurfaceRenderTarget</a> or on a device context created on the same device.
 
 
 
@@ -107,19 +107,19 @@ The returned surface can be used with Microsoft Direct3D or any other API that i
 
 
 
-<a href="https://msdn.microsoft.com/669a9377-248c-4a86-b447-ed117fff43a6">ID2D1Bitmap1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
 
 
 
-<a href="https://msdn.microsoft.com/8292da6b-8232-4ef0-967d-a53d586aa9a9">ID2D1DeviceContext::CreateBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">ID2D1DeviceContext::CreateBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/76d49be7-b0ac-44a7-aeaf-a7b18346a2bf">ID2D1DeviceContext::CreateBitmapFromDxgiSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromdxgisurface(idxgisurface_constd2d1_bitmap_properties1__id2d1bitmap1)">ID2D1DeviceContext::CreateBitmapFromDxgiSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6377dbd-ffd9-458b-9e03-5a832f095818">ID2D1RenderTarget::CreateSharedBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap">ID2D1RenderTarget::CreateSharedBitmap</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>PeerPnrpUnregister</b> function deregisters a peer from a PNRP cloud.
 
 ### -param hRegistration [in]
 
-Handle to a PNRP registration for the peer node obtained by a previous call to <a href="https://msdn.microsoft.com/18c26779-f50d-43bd-a772-763ceba25da8">PeerPnrpRegister</a>.
+Handle to a PNRP registration for the peer node obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpregister">PeerPnrpRegister</a>.
 
 
 ## -returns
@@ -106,11 +106,11 @@ There is not enough memory to perform the specified operation.
 
 
 
-<a href="https://msdn.microsoft.com/18c26779-f50d-43bd-a772-763ceba25da8">PeerPnrpRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpregister">PeerPnrpRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/628aa553-4a55-452b-bcca-4bb763fa6440">PeerPnrpUpdateRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpupdateregistration">PeerPnrpUpdateRegistration</a>
  
 
  

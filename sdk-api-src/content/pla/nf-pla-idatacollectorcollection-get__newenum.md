@@ -64,7 +64,7 @@ This property is read-only.
 
 C++ programmers use this property.
 
-The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> interface, use the <b>punkVal</b> member of the variant.
+The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a> interface, use the <b>punkVal</b> member of the variant.
 
 The enumeration is a snapshot of the collection at the time of the call.
 
@@ -76,7 +76,7 @@ The enumeration is a snapshot of the collection at the time of the call.
 
 
 
-<a href="https://msdn.microsoft.com/6b47fb9d-6ca4-4e6b-b117-027ef1e963ac">IDataCollectorCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
  
 
  

@@ -59,7 +59,7 @@ Initializes and activates TSF for the calling thread with a flag that specifies 
 
 ### -param ptid [out]
 
-[out] Pointer to a <a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">TfClientId</a> value that receives a client identifier.
+[out] Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
 
 
 ### -param dwFlags [in]
@@ -178,7 +178,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/B80A0DBA-349A-450D-BD9D-14BD36308590">ITfThreadMgr2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
  
 
  

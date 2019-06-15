@@ -66,7 +66,7 @@ Specifies the start date of the cycle.
 
 ### -field Duration
 
-Type: <b><a href="https://msdn.microsoft.com/7744a577-5f3d-4cdd-b74d-a1430ea20b37">WCM_TIME_INTERVAL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_time_interval">WCM_TIME_INTERVAL</a></b>
 
 Specifies the billing cycle duration.
 
@@ -83,7 +83,7 @@ True if at the end of the billing cycle, a new billing cycle of the same duratio
 
 
 
-<a href="https://msdn.microsoft.com/7744a577-5f3d-4cdd-b74d-a1430ea20b37">WCM_TIME_INTERVAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ns-wcmapi-_wcm_time_interval">WCM_TIME_INTERVAL</a>
  
 
  

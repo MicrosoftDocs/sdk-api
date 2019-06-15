@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetAllocateForStream</b> method specifies whether the reader uses <a href="https://msdn.microsoft.com/en-us/library/Dd743496(v=VS.85).aspx">IWMReaderCallbackAdvanced::AllocateForStream</a> to allocate buffers for stream samples.
+The <b>SetAllocateForStream</b> method specifies whether the reader uses <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-allocateforstream">IWMReaderCallbackAdvanced::AllocateForStream</a> to allocate buffers for stream samples.
 
 
 
@@ -86,7 +86,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-If the application's callback implements the <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface interface, the <a href="https://msdn.microsoft.com/en-us/library/Dd743492(v=VS.85).aspx">AllocateForStreamEx</a> method is called instead of <b>AllocateForStream</b>.
+If the application's callback implements the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderallocatorex">IWMReaderAllocatorEx</a> interface interface, the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforstreamex">AllocateForStreamEx</a> method is called instead of <b>AllocateForStream</b>.
 
 
 
@@ -96,15 +96,15 @@ If the application's callback implements the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743471(v=VS.85).aspx">IWMReaderAdvanced::GetAllocateForStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getallocateforstream">IWMReaderAdvanced::GetAllocateForStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743492(v=VS.85).aspx">IWMReaderAllocatorEx::AllocateForStreamEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderallocatorex-allocateforstreamex">IWMReaderAllocatorEx::AllocateForStreamEx</a>
  
 
  

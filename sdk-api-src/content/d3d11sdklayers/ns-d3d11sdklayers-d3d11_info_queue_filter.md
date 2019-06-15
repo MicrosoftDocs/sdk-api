@@ -59,14 +59,14 @@ Debug message filter; contains a lists of message types to allow or deny.
 
 ### -field AllowList
 
-Type: <b><a href="https://msdn.microsoft.com/265aa51a-7352-4d3a-b523-9e497e1e6a94">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ns-d3d11sdklayers-d3d11_info_queue_filter_desc">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
 
-Types of messages that you want to allow. See <a href="https://msdn.microsoft.com/265aa51a-7352-4d3a-b523-9e497e1e6a94">D3D11_INFO_QUEUE_FILTER_DESC</a>.
+Types of messages that you want to allow. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ns-d3d11sdklayers-d3d11_info_queue_filter_desc">D3D11_INFO_QUEUE_FILTER_DESC</a>.
 
 
 ### -field DenyList
 
-Type: <b><a href="https://msdn.microsoft.com/265aa51a-7352-4d3a-b523-9e497e1e6a94">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ns-d3d11sdklayers-d3d11_info_queue_filter_desc">D3D11_INFO_QUEUE_FILTER_DESC</a></b>
 
 Types of messages that you want to deny.
 
@@ -75,7 +75,7 @@ Types of messages that you want to deny.
 
 
 
-For use with an <a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>.
+For use with an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>.
 
 
 
@@ -85,11 +85,11 @@ For use with an <a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497f
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/65f0830f-f009-47fb-b04e-24790e677338">Layer Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-structures">Layer Structures</a>
  
 
  

@@ -77,7 +77,7 @@ The offset, in bytes, denoting the end of a memory range.
         The size of the range is (<b>End</b> - <b>Begin</b>).
       
 
-This structure is used by the <a href="https://msdn.microsoft.com/D8DACE22-9AFD-4DCD-A254-A34AD532ACD7">D3D12_SUBRESOURCE_RANGE_UINT64</a> structure.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_range_uint64">D3D12_SUBRESOURCE_RANGE_UINT64</a> structure.
       
 
 
@@ -88,7 +88,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/D8DACE22-9AFD-
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

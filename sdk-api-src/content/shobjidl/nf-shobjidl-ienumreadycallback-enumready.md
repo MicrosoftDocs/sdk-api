@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the implementer that the view's item enumeration has completed.  This callback interface is provided to the view via <a href="https://msdn.microsoft.com/af824c16-5bbf-4c75-88d0-b76519152360">SetEnumReadyCallback</a>
+Notifies the implementer that the view's item enumeration has completed.  This callback interface is provided to the view via <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ienumerableview-setenumreadycallback">SetEnumReadyCallback</a>
 
 
 

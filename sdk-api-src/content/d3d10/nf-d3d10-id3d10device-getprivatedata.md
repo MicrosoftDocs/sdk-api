@@ -60,14 +60,14 @@ Get data from a device that is associated with a guid.
 
 ### -param guid [in]
 
-Type: <b><a href="http://msdn.microsoft.com/en-us/library/cc237815(PROT.13).aspx">REFGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
 
 Guid associated with the data.
 
 
 ### -param pDataSize [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Size of the data.
 
@@ -83,9 +83,9 @@ Pointer to the data stored with the device. If pData is <b>NULL</b>, DataSize mu
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -94,7 +94,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-The data stored in the device is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173616(v=VS.85).aspx">ID3D10Device::SetPrivateData</a>. 
+The data stored in the device is set with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setprivatedata">ID3D10Device::SetPrivateData</a>. 
 
 The data retrieved and the guid will typically be application-defined.
 
@@ -106,7 +106,7 @@ The data retrieved and the guid will typically be application-defined.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

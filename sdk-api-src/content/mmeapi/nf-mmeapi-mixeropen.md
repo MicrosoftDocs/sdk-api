@@ -70,7 +70,7 @@ Pointer to a variable that will receive a handle identifying the opened mixer de
 
 ### -param uMxId
 
-Identifier of the mixer device to open. Use a valid device identifier or any <b>HMIXEROBJ</b> (see the <a href="https://msdn.microsoft.com/e70d6be0-858c-4042-bfaf-6a62bafa269c">mixerGetID</a> function for a description of mixer object handles). A "mapper" for audio mixer devices does not currently exist, so a mixer device identifier of -1 is not valid.
+Identifier of the mixer device to open. Use a valid device identifier or any <b>HMIXEROBJ</b> (see the <a href="https://docs.microsoft.com/previous-versions//dd757301(v=vs.85)">mixerGetID</a> function for a description of mixer object handles). A "mapper" for audio mixer devices does not currently exist, so a mixer device identifier of -1 is not valid.
           
 
 
@@ -102,15 +102,15 @@ Flags for opening the device. The following values are defined.
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_AUX</b></td>
-<td>The <i>uMxId</i> parameter is an auxiliary device identifier in the range of zero to one less than the number of devices returned by the <a href="https://msdn.microsoft.com/6e36d549-83ba-4a67-b9d7-047e7d3a5613">auxGetNumDevs</a> function.</td>
+<td>The <i>uMxId</i> parameter is an auxiliary device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd756713(v=vs.85)">auxGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_HMIDIIN</b></td>
-<td>The <i>uMxId</i> parameter is the handle of a MIDI input device. This handle must have been returned by the <a href="https://msdn.microsoft.com/230deaef-9473-426f-a0eb-14e259600e68">midiInOpen</a> function.</td>
+<td>The <i>uMxId</i> parameter is the handle of a MIDI input device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions//dd798458(v=vs.85)">midiInOpen</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_HMIDIOUT</b></td>
-<td>The <i>uMxId</i> parameter is the handle of a MIDI output device. This handle must have been returned by the <a href="https://msdn.microsoft.com/929cd4d1-6912-4456-a6c7-24a819799e46">midiOutOpen</a> function.</td>
+<td>The <i>uMxId</i> parameter is the handle of a MIDI output device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions//dd798476(v=vs.85)">midiOutOpen</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_HMIXER</b></td>
@@ -118,31 +118,31 @@ Flags for opening the device. The following values are defined.
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_HWAVEIN</b></td>
-<td>The <i>uMxId</i> parameter is a waveform-audio input handle returned by the <a href="https://msdn.microsoft.com/41b5b581-d35c-48ad-adcf-659126c4af50">waveInOpen</a> function.</td>
+<td>The <i>uMxId</i> parameter is a waveform-audio input handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd743847(v=vs.85)">waveInOpen</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_HWAVEOUT</b></td>
-<td>The <i>uMxId</i> parameter is a waveform-audio output handle returned by the <a href="https://msdn.microsoft.com/ef02221b-df45-4fc3-8d9d-f119fa802d34">waveOutOpen</a> function.</td>
+<td>The <i>uMxId</i> parameter is a waveform-audio output handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd743866(v=vs.85)">waveOutOpen</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_MIDIIN</b></td>
-<td>The <i>uMxId</i> parameter is the identifier of a MIDI input device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://msdn.microsoft.com/23303bb2-e053-4a19-a63a-4e017b861af6">midiInGetNumDevs</a> function.</td>
+<td>The <i>uMxId</i> parameter is the identifier of a MIDI input device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd798456(v=vs.85)">midiInGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_MIDIOUT</b></td>
-<td>The <i>uMxId</i> parameter is the identifier of a MIDI output device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://msdn.microsoft.com/f7abf545-3072-478e-9f6e-28b5fb6ab6e5">midiOutGetNumDevs</a> function.</td>
+<td>The <i>uMxId</i> parameter is the identifier of a MIDI output device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd798472(v=vs.85)">midiOutGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_MIXER</b></td>
-<td>The <i>uMxId</i> parameter is a mixer device identifier in the range of zero to one less than the number of devices returned by the <a href="https://msdn.microsoft.com/ae3c3a28-1dc1-4e35-99d6-68e629124a89">mixerGetNumDevs</a> function. This flag is optional.</td>
+<td>The <i>uMxId</i> parameter is a mixer device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd757304(v=vs.85)">mixerGetNumDevs</a> function. This flag is optional.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_WAVEIN</b></td>
-<td>The <i>uMxId</i> parameter is the identifier of a waveform-audio input device in the range of zero to one less than the number of devices returned by the <a href="https://msdn.microsoft.com/d8cb3c6c-edf7-4035-86da-b13fbdeddf6d">waveInGetNumDevs</a> function.</td>
+<td>The <i>uMxId</i> parameter is the identifier of a waveform-audio input device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd743844(v=vs.85)">waveInGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td><b>MIXER_OBJECTF_WAVEOUT</b></td>
-<td>The <i>uMxId</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://msdn.microsoft.com/d9669c1c-36e2-4575-bf88-41c344d9c593">waveOutGetNumDevs</a> function.</td>
+<td>The <i>uMxId</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd743860(v=vs.85)">waveOutGetNumDevs</a> function.</td>
 </tr>
 </table>
  
@@ -246,11 +246,11 @@ Unable to allocate resources.
 
 
 
-Use the <a href="https://msdn.microsoft.com/ae3c3a28-1dc1-4e35-99d6-68e629124a89">mixerGetNumDevs</a> function to determine the number of audio mixer devices present in the system. The device identifier specified by <i>uMxId</i> varies from zero to one less than the number of devices present.
+Use the <a href="https://docs.microsoft.com/previous-versions//dd757304(v=vs.85)">mixerGetNumDevs</a> function to determine the number of audio mixer devices present in the system. The device identifier specified by <i>uMxId</i> varies from zero to one less than the number of devices present.
 
-If a window is chosen to receive callback information, the <a href="https://msdn.microsoft.com/68ada0be-9dc5-4edf-b924-ef0d10a1b79a">MM_MIXM_LINE_CHANGE</a> and <a href="https://msdn.microsoft.com/921c55a7-86c0-43d1-b817-bfbd3c4bb28b">MM_MIXM_CONTROL_CHANGE</a> messages are sent to the window procedure function to indicate when an audio line or control state changes. For both messages, the <i>wParam</i> parameter is the handle of the mixer device. The <i>lParam</i> parameter is the line identifier for <b>MM_MIXM_LINE_CHANGE</b> or the control identifier for <b>MM_MIXM_CONTROL_CHANGE</b> that changed state.
+If a window is chosen to receive callback information, the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mixm-line-change">MM_MIXM_LINE_CHANGE</a> and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mixm-control-change">MM_MIXM_CONTROL_CHANGE</a> messages are sent to the window procedure function to indicate when an audio line or control state changes. For both messages, the <i>wParam</i> parameter is the handle of the mixer device. The <i>lParam</i> parameter is the line identifier for <b>MM_MIXM_LINE_CHANGE</b> or the control identifier for <b>MM_MIXM_CONTROL_CHANGE</b> that changed state.
 
-To query for audio mixer support or a media device, use the <a href="https://msdn.microsoft.com/e70d6be0-858c-4042-bfaf-6a62bafa269c">mixerGetID</a> function.
+To query for audio mixer support or a media device, use the <a href="https://docs.microsoft.com/previous-versions//dd757301(v=vs.85)">mixerGetID</a> function.
 
 On 64-bit systems, this function may not work as expected in situations where you pass a 64-bit <b>LPHWAVEOUT</b> pointer in the <i>uMxId</i> parameter, because the <i>uMxId</i> parameter is truncated to 32 bits.  
 
@@ -262,11 +262,11 @@ On 64-bit systems, this function may not work as expected in situations where yo
 
 
 
-<a href="https://msdn.microsoft.com/19f53a98-1a01-4954-a5d7-c428aa2bfa38">Audio Mixer Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7489fcac-fd4c-46cf-8a1a-e4de576974f0">Audio Mixers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
  
 
  

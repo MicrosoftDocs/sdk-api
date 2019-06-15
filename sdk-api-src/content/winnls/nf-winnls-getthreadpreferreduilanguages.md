@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the thread preferred UI languages for the current thread. For more information, see <a href="https://msdn.microsoft.com/ae8ab98f-dc3b-414d-85c9-6bf204c2f776">User Interface Language Management</a>.
+Retrieves the thread preferred UI languages for the current thread. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Flags identifying language format and filtering. The following flags specify the
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> format.
+Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Retrieve the language strings in <a href="https://msdn.microsoft.com/076e2a43-25
 </dl>
 </td>
 <td width="60%">
-Retrieve the language strings in <a href="https://msdn.microsoft.com/e8c54168-22b3-435e-b19a-9b34adcdb018">language name</a> format.
+Retrieve the language strings in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ Alternatively if this parameter is set to 0 and <i>pwszLanguagesBuffer</i> is se
 
 
 
-Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which returns one of the following error codes:
+Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns one of the following error codes:
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
 </ul>
@@ -187,9 +187,9 @@ If the function fails for any other reason, the parameters <i>pulNumLanguages</i
 
 Depending on the flags specified by the application, this function can retrieve a composite list consisting of the thread preferred UI languages, process preferred UI languages, user preferred UI languages or system preferred UI languages, and the system default UI language. If it encounters a duplicate language, the function only retrieves the first language.
 
-If the application has called <a href="https://msdn.microsoft.com/32a8117c-2cb2-4559-8e86-9fad5b28aa5b">SetThreadPreferredUILanguages</a> with the MUI_CONSOLE_FILTER or MUI_COMPLEX_SCRIPT_FILTER flag, <b>GetThreadPreferredUILanguages</b> filters the languages in the result list. The function replaces the languages the console cannot display with a substitute language. The substitution for a language is determined from the value of <a href="https://msdn.microsoft.com/36465a1c-085f-4f80-ad3d-5be6eaefe943">LOCALE_SCONSOLEFALLBACKNAME</a> for the language. For more console information, see the description of <a href="https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75">SetThreadUILanguage</a>.
+If the application has called <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a> with the MUI_CONSOLE_FILTER or MUI_COMPLEX_SCRIPT_FILTER flag, <b>GetThreadPreferredUILanguages</b> filters the languages in the result list. The function replaces the languages the console cannot display with a substitute language. The substitution for a language is determined from the value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-sconsolefallbackname">LOCALE_SCONSOLEFALLBACKNAME</a> for the language. For more console information, see the description of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>.
 
-Use of MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID because the MUI_LANGUAGE_NAME flag can do a better job of handling Language Interface Pack (LIP) languages that correspond to <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">supplemental locales</a>.
+Use of MUI_LANGUAGE_NAME is recommended over MUI_LANGUAGE_ID because the MUI_LANGUAGE_NAME flag can do a better job of handling Language Interface Pack (LIP) languages that correspond to <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locales</a>.
 
 When MUI_LANGUAGE_ID is specified, the language strings retrieved will be hexadecimal language identifiers 
 
@@ -197,7 +197,7 @@ that do not include the leading 0x, and will be 4 characters in length. For exam
 
 as "0409" and en as "0009".
 
-If the application sets the MUI_LANGUAGE_ID flag, the thread preferred UI languages can include one or more languages that correspond to supplemental locales. On successful return from the function, the language buffer contains "1400" for any language corresponding to a supplemental locale. There can be only one such language in this list. The string "1400" corresponds to the hexadecimal value of <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>. Also on successful return from the function, the <i>pwszLanguagesBuffer</i> contains "1000" for any other language that corresponds to a supplemental locale. The string "1000" corresponds to the hexadecimal value of <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>, which is not useful as an input to any function, because it cannot distinguish among supplemental locales.
+If the application sets the MUI_LANGUAGE_ID flag, the thread preferred UI languages can include one or more languages that correspond to supplemental locales. On successful return from the function, the language buffer contains "1400" for any language corresponding to a supplemental locale. There can be only one such language in this list. The string "1400" corresponds to the hexadecimal value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>. Also on successful return from the function, the <i>pwszLanguagesBuffer</i> contains "1000" for any other language that corresponds to a supplemental locale. The string "1000" corresponds to the hexadecimal value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>, which is not useful as an input to any function, because it cannot distinguish among supplemental locales.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
 
@@ -221,23 +221,23 @@ If the application sets the MUI_LANGUAGE_ID flag, the thread preferred UI langua
 
 
 
-<a href="https://msdn.microsoft.com/c10cbf84-8aaf-46c7-8b2f-e719e30f2556">GetThreadUILanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreaduilanguage">GetThreadUILanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/918d1f04-78fe-4b60-bee7-08d2f131437e">Multilingual User Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/32a8117c-2cb2-4559-8e86-9fad5b28aa5b">SetThreadPreferredUILanguages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadpreferreduilanguages">SetThreadPreferredUILanguages</a>
 
 
 
-<a href="https://msdn.microsoft.com/30a0cecf-0ed1-4c03-bd5e-da07b1828c75">SetThreadUILanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>
  
 
  

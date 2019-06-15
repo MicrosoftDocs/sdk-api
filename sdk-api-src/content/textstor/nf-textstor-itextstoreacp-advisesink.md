@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITextStoreACP::AdviseSink</b> method installs a new advise sink from the <a href="https://msdn.microsoft.com/d7e5a04f-7159-436e-a522-4cb63063aeef">ITextStoreACPSink</a> interface or modifies an existing advise sink. The sink interface is specified by the <i>punk</i> parameter.
+The <b>ITextStoreACP::AdviseSink</b> method installs a new advise sink from the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a> interface or modifies an existing advise sink. The sink interface is specified by the <i>punk</i> parameter.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Pointer to the sink interface. Cannot be <b>NULL</b>.
 
 ### -param dwMask [in]
 
-Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="https://msdn.microsoft.com/8f406b67-f846-4712-b4be-811dbcc6ad55">TS_AS_* Constants</a>.
+Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants</a>.
 
 
 ## -returns
@@ -139,15 +139,15 @@ The specified sink object could not be obtained.
 
 Subsequent calls with the same interface, represented by the <i>punk</i> parameter, are handled as requests to update the <i>dwMask</i> parameter. Servers should not call the <b>AddRef</b> method on the sink in response to such a request.
 
-Servers only maintain a single connection point. Attempts to advise a second sink object fail until the original sink object is removed. Applications should use the <a href="https://msdn.microsoft.com/11445652-e349-46a4-8887-1d1127e16275">ITextStoreACP::UnadviseSink</a> method to unregister the sink object when notifications are not required.
+Servers only maintain a single connection point. Attempts to advise a second sink object fail until the original sink object is removed. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-unadvisesink">ITextStoreACP::UnadviseSink</a> method to unregister the sink object when notifications are not required.
 
-Use this method to get the <a href="https://msdn.microsoft.com/8c84429c-3f99-4ab1-b994-e4e93cd9c86d">ITextStoreACPServices</a> interface.
+Use this method to get the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itextstoreacpservices">ITextStoreACPServices</a> interface.
 
 
 #### Examples
 
 CMyTextEditor
-          <a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
+          <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
           </a>
 
 
@@ -220,22 +220,22 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/11445652-e349-46a4-8887-1d1127e16275">ITextStoreACP::UnadviseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-unadvisesink">ITextStoreACP::UnadviseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/8c84429c-3f99-4ab1-b994-e4e93cd9c86d">ITextStoreACPServices
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itextstoreacpservices">ITextStoreACPServices
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/8f406b67-f846-4712-b4be-811dbcc6ad55">TS_AS_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants
       </a>
  
 

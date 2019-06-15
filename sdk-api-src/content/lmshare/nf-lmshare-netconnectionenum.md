@@ -93,7 +93,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return connection identifiers. The <i>bufptr</i> parameter is a pointer to an array of 
-<a href="https://msdn.microsoft.com/aebafe24-1216-48ab-92db-df8f77d36f26">CONNECTION_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_0">CONNECTION_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return connection identifiers and connection information. The <i>bufptr</i> parameter is a pointer to an array of 
-<a href="https://msdn.microsoft.com/9904c448-dcc4-47cc-a2e0-7df8d4d37f3f">CONNECTION_INFO_1</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_1">CONNECTION_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -120,14 +120,14 @@ Pointer to the address of the buffer that receives the information. The format o
 
 
 This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b>.
 
 
 ### -param prefmaxlen [in]
 
 Specifies the preferred maximum length of returned data, in bytes. If you specify <b>MAX_PREFERRED_LENGTH</b>, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns <b>ERROR_MORE_DATA</b>. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ### -param entriesread [out]
@@ -152,7 +152,7 @@ Pointer to a value that contains a resume handle which is used to continue an ex
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -169,7 +169,7 @@ Administrator, Server or Print Operator, or Power User group membership is requi
 
 The following code sample demonstrates how to list the connections made to a shared resource with a call to the 
 <b>NetConnectionEnum</b> function. The sample calls 
-<b>NetConnectionEnum</b>, specifying information level 1 (<a href="https://msdn.microsoft.com/9904c448-dcc4-47cc-a2e0-7df8d4d37f3f">CONNECTION_INFO_1</a>). If there are entries to return, it prints the values of the <b>coni1_username</b> and <b>coni1_netname</b> members. If there are no entries to return, the sample prints an appropriate message. Finally, the code sample frees the memory allocated for the information buffer.
+<b>NetConnectionEnum</b>, specifying information level 1 (<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_1">CONNECTION_INFO_1</a>). If there are entries to return, it prints the values of the <b>coni1_username</b> and <b>coni1_netname</b> members. If there are no entries to return, the sample prints an appropriate message. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -262,25 +262,25 @@ void wmain(int argc, wchar_t *argv[ ])
 
 
 
-<a href="https://msdn.microsoft.com/aebafe24-1216-48ab-92db-df8f77d36f26">CONNECTION_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_0">CONNECTION_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/9904c448-dcc4-47cc-a2e0-7df8d4d37f3f">CONNECTION_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_connection_info_1">CONNECTION_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/14886bb0-e597-4728-a64f-bc16e82874da">Network Share Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
  
 
  

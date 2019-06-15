@@ -111,9 +111,9 @@ Success
 
 If quality control is enabled, the DMO discards any samples whose time stamp is less than <i>rtNow</i>. Samples whose time stamp is <i>rtNow</i> or later are processed as efficiently as possible. Depending on the implementation, the DMO might drop some samples to keep pace.
 
-If quality control is disabled, this method has no immediate effect. However, the DMO stores the specified reference time. It uses this value if quality control is enabled at a later time. To enable quality control, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406842(v=VS.85).aspx">IDMOQualityControl::SetStatus</a> method.
+If quality control is disabled, this method has no immediate effect. However, the DMO stores the specified reference time. It uses this value if quality control is enabled at a later time. To enable quality control, call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmoqualitycontrol-setstatus">IDMOQualityControl::SetStatus</a> method.
 
-If incoming samples are not time-stamped, the DMO never performs quality control. The application sets the time stamp in the <a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a> method.
+If incoming samples are not time-stamped, the DMO never performs quality control. The application sets the time stamp in the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> method.
 
 
 
@@ -123,7 +123,7 @@ If incoming samples are not time-stamped, the DMO never performs quality control
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406839(v=VS.85).aspx">IDMOQualityControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol">IDMOQualityControl Interface</a>
  
 
  

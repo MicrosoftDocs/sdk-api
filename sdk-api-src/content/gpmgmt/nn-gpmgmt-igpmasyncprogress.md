@@ -52,19 +52,19 @@ ms.custom: 19H1
 The <b>IGPMAsyncProgress</b> interface can be implemented by the client and passed as an 
     input parameter to the Group Policy Management Console (GPMC) methods that can execute asynchronously. The server 
     will then notify the client about the progress of the operation. Methods include 
-    <a href="https://msdn.microsoft.com/19b3b027-59f1-4c31-896b-5b5fd23b9be4">IGPMGPO::GenerateReport</a>, 
-    <a href="https://msdn.microsoft.com/d5daa512-547f-4b2d-85b3-0f6e9244acb2">IGPMBackup::GenerateReport</a>, 
-    <a href="https://msdn.microsoft.com/86766a08-4f3a-4758-8abc-83db3408f0fd">IGPMRSOP::GenerateReport</a>, 
-    <a href="https://msdn.microsoft.com/8e202ea1-ca5c-4757-950b-ea1802699b68">RestoreGPO</a>, 
-    <a href="https://msdn.microsoft.com/5ba8d2f7-4989-4882-9ceb-4f77b8745442">Backup</a>, 
-    <a href="https://msdn.microsoft.com/3b16eefb-89af-408b-a84c-c8ab958b4cc7">Import</a>, and 
-    <a href="https://msdn.microsoft.com/17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07">CopyTo</a>. This object cannot be accessed through scripting. 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-generatereport">IGPMGPO::GenerateReport</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackup-generatereport">IGPMBackup::GenerateReport</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-generatereport">IGPMRSOP::GenerateReport</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-restoregpo">RestoreGPO</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-backup">Backup</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-import">Import</a>, and 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-copyto">CopyTo</a>. This object cannot be accessed through scripting. 
     For more information, see the "Remarks" section.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMAsyncProgress</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMAsyncProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMAsyncProgress</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMAsyncProgress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IGPMAsyncProgress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db5d59a2-ab46-42f1-9637-6b342795c9f0">Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmasyncprogress-status">Status</a>
 </td>
 <td align="left" width="63%">
 The server calls this method to notify the client about the status of an asynchronous GPMC operation.
@@ -102,13 +102,13 @@ Complex GPMC operations, such as backup, restore, import, and copy operations, c
 <li>Implement the <b>IGPMAsyncProgress</b> interface.</li>
 <li>Pass the <b>IGPMAsyncProgress</b> interface pointer to the GPMC method. For example, 
       pass the interface pointer to the 
-      <a href="https://msdn.microsoft.com/8e202ea1-ca5c-4757-950b-ea1802699b68">RestoreGPO</a> method or to the 
-      <a href="https://msdn.microsoft.com/3b16eefb-89af-408b-a84c-c8ab958b4cc7">Import</a> method.</li>
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-restoregpo">RestoreGPO</a> method or to the 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-import">Import</a> method.</li>
 </ol>
-The server will call the <a href="https://msdn.microsoft.com/db5d59a2-ab46-42f1-9637-6b342795c9f0">Status</a> method to 
+The server will call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmasyncprogress-status">Status</a> method to 
     notify the client about the progress of the operation. This method also returns an 
-    <a href="https://msdn.microsoft.com/74b2bb04-6118-4fd1-83c0-3549db3f35f3">IGPMAsyncCancel</a> interface pointer so that the caller can cancel the 
-    operation by calling the <a href="https://msdn.microsoft.com/c2055e7d-daed-4c9c-a374-6cb378d04962">Cancel</a> method.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasynccancel">IGPMAsyncCancel</a> interface pointer so that the caller can cancel the 
+    operation by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmasynccancel-cancel">Cancel</a> method.
 
 
 
@@ -118,11 +118,11 @@ The server will call the <a href="https://msdn.microsoft.com/db5d59a2-ab46-42f1-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/74b2bb04-6118-4fd1-83c0-3549db3f35f3">IGPMAsyncCancel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasynccancel">IGPMAsyncCancel</a>
  
 
  

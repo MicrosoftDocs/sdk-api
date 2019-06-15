@@ -73,7 +73,7 @@ This property is used by the Certificate Enrollment wizard to determine whether 
 
 
 
-<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
  
 
  

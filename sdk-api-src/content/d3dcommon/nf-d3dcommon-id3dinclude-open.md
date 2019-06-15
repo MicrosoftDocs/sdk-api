@@ -59,38 +59,38 @@ A user-implemented method for opening and reading the contents of a shader #incl
 
 ### -param IncludeType
 
-Type: <b><a href="https://msdn.microsoft.com/98f0b0dd-9ff8-4321-a9ea-2deabc9529f2">D3D_INCLUDE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_include_type">D3D_INCLUDE_TYPE</a></b>
 
-A <a href="https://msdn.microsoft.com/98f0b0dd-9ff8-4321-a9ea-2deabc9529f2">D3D_INCLUDE_TYPE</a>-typed value that indicates the location of the #include file.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_include_type">D3D_INCLUDE_TYPE</a>-typed value that indicates the location of the #include file.
           
 
 
 ### -param pFileName
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 Name of the #include file.
 
 
 ### -param pParentData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCVOID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
-Pointer to the container that includes the #include file. The compiler might pass NULL in <i>pParentData</i>. For more information, see the "Searching for Include Files" section in <a href="https://msdn.microsoft.com/7624d55e-6466-4156-8f31-30f0d25a2883">Compile an Effect (Direct3D 11)</a>.
+Pointer to the container that includes the #include file. The compiler might pass NULL in <i>pParentData</i>. For more information, see the "Searching for Include Files" section in <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-programming-guide-effects-compile">Compile an Effect (Direct3D 11)</a>.
           
 
 
 ### -param ppData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCVOID</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a>*</b>
 
-Pointer to the buffer  that contains the include directives. This pointer remains valid until you call<a href="https://msdn.microsoft.com/d4513e15-dfe7-4919-a278-d386f25e65e5">ID3DInclude::Close</a>.
+Pointer to the buffer  that contains the include directives. This pointer remains valid until you call<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-close">ID3DInclude::Close</a>.
           
 
 
 ### -param pBytes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 Pointer to the number of bytes that <b>Open</b> returns in <i>ppData</i>.
           
@@ -100,7 +100,7 @@ Pointer to the number of bytes that <b>Open</b> returns in <i>ppData</i>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 The user-implemented method must return S_OK. If <b>Open</b> fails when it reads the #include file, the application programming interface (API) that caused <b>Open</b> to be called fails. This failure can occur in one of the following situations:
               
@@ -119,11 +119,11 @@ The user-implemented method must return S_OK. If <b>Open</b> fails when it reads
 
 
 
-<a href="https://msdn.microsoft.com/2020ce65-3a6e-4a9f-9e97-b94e3c75f4f5">ID3DInclude</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3dinclude">ID3DInclude</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4513e15-dfe7-4919-a278-d386f25e65e5">ID3DInclude::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-close">ID3DInclude::Close</a>
  
 
  

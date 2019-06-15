@@ -71,7 +71,7 @@ The counter set identifier of the counter set for which you want to get informat
 
 ### -param requestCode
 
-The type of information that you want to get about the counter set. See <a href="https://msdn.microsoft.com/8D54F31F-9ABA-405F-84A5-9C7225B7BE67">PerfRegInfoType</a> for a list of possible values.
+The type of information that you want to get about the counter set. See <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ne-perflib-_perfreginfotype">PerfRegInfoType</a> for a list of possible values.
 
 
 ### -param requestLangId
@@ -175,7 +175,7 @@ The function successfully stored all of the information about the counter set in
  
 
 For other types of failures, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 					
 
 
@@ -185,7 +185,7 @@ For other types of failures, the return value is a
 
 
 
-See  <a href="https://msdn.microsoft.com/8D54F31F-9ABA-405F-84A5-9C7225B7BE67">PerfRegInfoType</a>  for the types of data that you can request and  
+See  <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ne-perflib-_perfreginfotype">PerfRegInfoType</a>  for the types of data that you can request and  
 
 the formats of the data provided for each type of request. 
 

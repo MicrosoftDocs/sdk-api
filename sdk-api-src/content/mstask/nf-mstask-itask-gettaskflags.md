@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method returns the flags that modify the behavior of a <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method returns the flags that modify the behavior of a <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
 
 
 ## -parameters
@@ -113,7 +113,7 @@ Not enough memory is available.
  
 
 This method is designed to get the flags that only apply to scheduled tasks. In contrast, 
-<a href="https://msdn.microsoft.com/0fe3c184-2689-44de-b60f-92d31eaa5285">IScheduledWorkItem::GetFlags</a> is used to get the flags that apply to all types of scheduled work items.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getflags">IScheduledWorkItem::GetFlags</a> is used to get the flags that apply to all types of scheduled work items.
 
 
 
@@ -123,15 +123,15 @@ This method is designed to get the flags that only apply to scheduled tasks. In 
 
 
 
-<a href="https://msdn.microsoft.com/0fe3c184-2689-44de-b60f-92d31eaa5285">IScheduledWorkItem::GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getflags">IScheduledWorkItem::GetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
 
 
 
-<a href="https://msdn.microsoft.com/32231145-241a-46ff-9c49-94f5bf7cc532">ITask::SetTaskFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-settaskflags">ITask::SetTaskFlags</a>
  
 
  

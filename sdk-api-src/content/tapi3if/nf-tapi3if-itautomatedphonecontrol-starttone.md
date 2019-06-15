@@ -61,7 +61,7 @@ The
 ### -param Tone [in]
 
 
-<a href="https://msdn.microsoft.com/93782f7e-db48-4479-b5da-77458c41e9a6">PHONE_TONE</a> descriptor of the type of tone to send, such as PT_KEYPADONE.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_tone">PHONE_TONE</a> descriptor of the type of tone to send, such as PT_KEYPADONE.
 
 
 ### -param lDuration [in]
@@ -83,7 +83,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 
 
-<a href="https://msdn.microsoft.com/60d4f079-75ee-4aeb-9e7c-0b16d90da754">ITAutomatedPhoneControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
  
 
  

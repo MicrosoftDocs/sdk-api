@@ -62,7 +62,7 @@ The <b>MIDIPROPTIMEDIV</b> structure contains the time division property for a s
 
 ### -field cbStruct
 
-Length, in bytes, of this structure. This member must be filled in for both the MIDIPROP_SET and MIDIPROP_GET operations of the <a href="https://msdn.microsoft.com/fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20">midiStreamProperty</a> function.
+Length, in bytes, of this structure. This member must be filled in for both the MIDIPROP_SET and MIDIPROP_GET operations of the <a href="https://docs.microsoft.com/previous-versions//dd798490(v=vs.85)">midiStreamProperty</a> function.
 
 
 ### -field dwTimeDiv
@@ -74,7 +74,7 @@ Time division for this stream, in the format specified in the <i>Standard MIDI F
 
 
 
-The time division property is read or written by the <a href="https://msdn.microsoft.com/fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20">midiStreamProperty</a> function.
+The time division property is read or written by the <a href="https://docs.microsoft.com/previous-versions//dd798490(v=vs.85)">midiStreamProperty</a> function.
 
 
 
@@ -84,15 +84,15 @@ The time division property is read or written by the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/48c775df-a7f9-49f7-a2e3-74210cf1af4a">MIDI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c81e1dc-ee6b-4a59-8992-8ec869264d4f">Musical Instrument Digital Interface (MIDI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb0f8bf4-5802-444e-9b2e-d9a7c80e3a20">midiStreamProperty</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798490(v=vs.85)">midiStreamProperty</a>
  
 
  

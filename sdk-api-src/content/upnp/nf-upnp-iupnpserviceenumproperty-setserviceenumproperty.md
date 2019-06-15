@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetServiceEnumProperty</b> method is used to indicate opt-in to the delayed Service Control Protocol Description (SCPD) download and event subscription for the <a href="https://msdn.microsoft.com/48b20b03-62a4-4dcd-8eda-f1bfef1eef38">IUPnPService</a> objects enumerated from the <a href="https://msdn.microsoft.com/8d5e487f-d2d4-4603-918c-e751d698be3c">IUPnPServices</a> object.
+The <b>SetServiceEnumProperty</b> method is used to indicate opt-in to the delayed Service Control Protocol Description (SCPD) download and event subscription for the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> objects enumerated from the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> object.
 
 
 ## -parameters
@@ -88,11 +88,11 @@ Returns <b>S_OK</b> on success. Otherwise, this method returns <b>E_FAIL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/B77025D6-26C7-46C9-84FE-69685C61735D">IUPnPServiceAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/B63CCE08-548F-44D3-BAE3-84E4358F25AD">IUPnPServiceEnumProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceenumproperty">IUPnPServiceEnumProperty</a>
  
 
  

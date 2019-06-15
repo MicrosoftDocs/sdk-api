@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables the mouse to act as a pointer input device and send <a href="https://msdn.microsoft.com/65F4DCD0-DAE1-4AC2-AB36-23D114803138">WM_POINTER</a> messages.
+Enables the mouse to act as a pointer input device and send <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Enables the mouse to act as a pointer input device and send <a href="https://msd
 
 ### -param fEnable [in]
 
-<b>TRUE</b> to turn on mouse input support in <a href="https://msdn.microsoft.com/65F4DCD0-DAE1-4AC2-AB36-23D114803138">WM_POINTER</a>.
+<b>TRUE</b> to turn on mouse input support in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>.
 
 
 ## -returns
@@ -73,7 +73,7 @@ Enables the mouse to act as a pointer input device and send <a href="https://msd
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,7 +88,7 @@ On the first call in the process lifetime, the state is changed as specified and
 
 On subsequent calls, the state will not change.  If the current state is not equal to the specified state, the call fails.
 
-Call <a href="https://msdn.microsoft.com/5D493066-2425-4610-8489-575BF25C8C16">IsMouseInPointerEnabled</a> to verify the mouse-in-pointer state.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">IsMouseInPointerEnabled</a> to verify the mouse-in-pointer state.
 
 
 
@@ -98,15 +98,15 @@ Call <a href="https://msdn.microsoft.com/5D493066-2425-4610-8489-575BF25C8C16">I
 
 
 
-<a href="https://msdn.microsoft.com/0123DCD0-DAE1-4AC2-AB36-23D114803138">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5D493066-2425-4610-8489-575BF25C8C16">IsMouseInPointerEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">IsMouseInPointerEnabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/65F4DCD0-DAE1-4AC2-AB36-23D114803138">WM_POINTER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>
  
 
  

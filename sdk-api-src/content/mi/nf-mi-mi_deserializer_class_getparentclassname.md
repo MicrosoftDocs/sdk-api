@@ -59,17 +59,17 @@ Gets the parent class name from a serialized class buffer.
 
 ### -param deserializer [in, out]
 
-A pointer to a deserializer object returned from a call to <a href="https://msdn.microsoft.com/e58c69ce-032a-4024-9023-53cd1776b7f3">MI_Application_NewDeserializer</a>.  The deserializer must match the serializer that created the buffer.
+A pointer to a deserializer object returned from a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdeserializer">MI_Application_NewDeserializer</a>.  The deserializer must match the serializer that created the buffer.
 
 
 ### -param serializedBuffer
 
-A serialized buffer that was filled via a call from <a href="https://msdn.microsoft.com/45c5033a-b2ef-4fb6-a09e-54b3cd9fc99f">MI_Serializer_SerializeInstance</a>.
+A serialized buffer that was filled via a call from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
 
 
 ### -param serializedBufferLength
 
-The length of the buffer that was reported via a call to <a href="https://msdn.microsoft.com/45c5033a-b2ef-4fb6-a09e-54b3cd9fc99f">MI_Serializer_SerializeInstance</a>.
+The length of the buffer that was reported via a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_serializer_serializeinstance">MI_Serializer_SerializeInstance</a>.
 
 
 ### -param parentClassName
@@ -84,7 +84,7 @@ A pointer to  the length of the <i>parentClassName</i> buffer.  If <i>parentClas
 
 ### -param cimErrorDetails
 
-If the call fails, this value will contain information useful in debugging. This value must be deleted via <a href="https://msdn.microsoft.com/6370e464-b262-4c91-a3c8-889911df7965">MI_Instance_Delete</a>.
+If the call fails, this value will contain information useful in debugging. This value must be deleted via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a>.
 
 
 ## -returns

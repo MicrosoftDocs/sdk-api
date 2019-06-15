@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies sort order. It is used as a parameter in the <a href="https://msdn.microsoft.com/bb05847a-e7fb-481b-ad84-9f6dc15f9be0">EnumerateTargets</a> method.
+Specifies sort order. It is used as a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-enumeratetargets">EnumerateTargets</a> method.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ Sort by a specified property.
 
 
 
-<a href="https://msdn.microsoft.com/bb05847a-e7fb-481b-ad84-9f6dc15f9be0">EnumerateTargets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-enumeratetargets">EnumerateTargets</a>
  
 
  

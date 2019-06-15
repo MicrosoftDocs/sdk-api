@@ -72,11 +72,11 @@ If the connection is broken, the refresher does not attempt to reconnect to the 
 
 
 
-<a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">IWbemConfigureRefresher::Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-remove">IWbemConfigureRefresher::Remove</a>
 
 
 
-<a href="https://msdn.microsoft.com/6de85040-c938-41dc-8240-0e21e89c7716">IWbemRefresher::Refresh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemrefresher-refresh">IWbemRefresher::Refresh</a>
  
 
  

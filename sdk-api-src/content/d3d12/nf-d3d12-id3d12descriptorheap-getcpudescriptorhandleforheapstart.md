@@ -63,7 +63,7 @@ Gets the CPU descriptor handle that represents the start of the heap.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Returns the CPU descriptor handle that represents the start of the heap.
 
@@ -75,7 +75,7 @@ Returns the CPU descriptor handle that represents the start of the heap.
 
 
 
-<a href="https://msdn.microsoft.com/B6FF011B-3FED-425B-B9D5-A823E6915FD5">ID3D12DescriptorHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a>
  
 
  

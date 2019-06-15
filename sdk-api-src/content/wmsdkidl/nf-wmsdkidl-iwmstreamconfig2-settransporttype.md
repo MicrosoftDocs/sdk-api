@@ -65,7 +65,7 @@ The <b>SetTransportType</b> method sets the type of data communication protocol 
 
 ### -param nTransportType [in]
 
-One member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757859(v=VS.85).aspx">WMT_TRANSPORT_TYPE</a> enumeration type specifying the transport type for the stream.
+One member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_transport_type">WMT_TRANSPORT_TYPE</a> enumeration type specifying the transport type for the stream.
 
 
 ## -returns
@@ -81,7 +81,7 @@ The method always returns S_OK.
 
 
 
-The new value will not take effect in the profile until you call <a href="https://msdn.microsoft.com/en-us/library/Dd757410(v=VS.85).aspx">IWMProfile::ReconfigStream</a>.
+The new value will not take effect in the profile until you call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-reconfigstream">IWMProfile::ReconfigStream</a>.
 
 
 
@@ -91,11 +91,11 @@ The new value will not take effect in the profile until you call <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798547(v=VS.85).aspx">IWMStreamConfig2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2">IWMStreamConfig2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798551(v=VS.85).aspx">IWMStreamConfig2::GetTransportType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-gettransporttype">IWMStreamConfig2::GetTransportType</a>
  
 
  

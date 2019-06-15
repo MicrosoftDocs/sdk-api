@@ -81,7 +81,7 @@ Each media sample contains one buffer, with both views packed top-and-bottom int
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/880DF017-5841-4C0A-82AF-F092DEF5406B">MF_MT_VIDEO_3D_FORMAT</a> attribute.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-3d-format">MF_MT_VIDEO_3D_FORMAT</a> attribute.
 
 
 

@@ -60,12 +60,12 @@ Converts a session with a WDS server into an authenticated session.
 ### -param hSession [in, out]
 
 A handle to a session   with a WDS server. This was a handle returned by 
-      the <a href="https://msdn.microsoft.com/c66801b2-ad5c-464b-ace3-269214621c20">WdsCliCreateSession</a> function.
+      the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a> function.
 
 
 ### -param pCred [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/2aba59bf-3cd4-4376-b8c3-bb053ccd5c87">WDS_CLI_CRED</a> structure that contains the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-tagwds_cli_cred">WDS_CLI_CRED</a> structure that contains the 
       client's credentials. 
 
 
@@ -83,15 +83,15 @@ If the function succeeds, the return is <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/2aba59bf-3cd4-4376-b8c3-bb053ccd5c87">WDS_CLI_CRED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/ns-wdsclientapi-tagwds_cli_cred">WDS_CLI_CRED</a>
 
 
 
-<a href="https://msdn.microsoft.com/c66801b2-ad5c-464b-ace3-269214621c20">WdsCliCreateSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/4cedd8a8-7f46-4229-9d96-58965b751e43">Windows Deployment Services Client Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>
  
 
  

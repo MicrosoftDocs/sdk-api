@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>GetRestoreTarget</b> method returns the restore target (in terms of the 
-<a href="https://msdn.microsoft.com/85b154c0-ebe8-4c17-8cab-0f886bf070e2">VSS_RESTORE_TARGET</a> enumeration) for the current component.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration) for the current component.
 
 Either a writer or a requester can call this method. It can be called only during a restore operation.
 
@@ -65,7 +65,7 @@ Either a writer or a requester can call this method. It can be called only durin
 ### -param pTarget [out]
 
 The address of a caller-allocated variable that receives a 
-<a href="https://msdn.microsoft.com/85b154c0-ebe8-4c17-8cab-0f886bf070e2">VSS_RESTORE_TARGET</a> enumeration value that specifies the restore target.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration value that specifies the restore target.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ The specified item was not found.
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The AM_ExactRateChange structure is not supported. Use <a href="https://msdn.microsoft.com/en-us/library/Dd373502(v=VS.85).aspx">AM_SimpleRateChange</a>.
+The AM_ExactRateChange structure is not supported. Use <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-am_simpleratechange">AM_SimpleRateChange</a>.
 
 
 
@@ -75,7 +75,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/f88c64ce-af76-49fe-8ebd-029928506243">Rate Change Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
  
 
  

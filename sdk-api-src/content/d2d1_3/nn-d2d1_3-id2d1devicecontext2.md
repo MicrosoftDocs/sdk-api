@@ -55,7 +55,7 @@ This interface performs all the same functions as the ID2D1DeviceContext1 interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext2</b> interface inherits from <a href="https://msdn.microsoft.com/E08FDAE4-05D3-472C-9AD9-228BAF989F1D">ID2D1DeviceContext1</a>. <b>ID2D1DeviceContext2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DeviceContext2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>. <b>ID2D1DeviceContext2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +70,16 @@ The <b>ID2D1DeviceContext2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c471ba3-fb0f-b735-d10b-9d0a56b32863">CreateGradientMesh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-creategradientmesh">CreateGradientMesh</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/0c51da97-7b70-d828-2a4d-cb62ff378a56">ID2D1GradientMesh</a> instance using the given array of patches.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gradientmesh">ID2D1GradientMesh</a> instance using the given array of patches.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ea6ba4c-9bd6-a909-82d5-c4690dc9a24e">CreateImageSourceFromDxgi</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">CreateImageSourceFromDxgi</a>
 </td>
 <td align="left" width="63%">
 Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are converted to RGBA automatically during subsequent drawing.
@@ -88,7 +88,7 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900366(v=VS.85).aspx">CreateImageSourceFromWic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic">CreateImageSourceFromWic</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source.  The image is loaded and stored while using a minimal amount of memory.
 
@@ -96,24 +96,24 @@ Creates an image source from a set of DXGI surface(s).  The YCbCr surface(s) are
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900372(v=VS.85).aspx">CreateInk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-createink">CreateInk</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates a new <a href="https://msdn.microsoft.com/4B6DD4C2-8E91-4AEA-AFB5-21B4FD13F75A">ID2D1Ink</a> object that starts at the given point.
+<td align="left" width="63%">Overloaded. Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1ink">ID2D1Ink</a> object that starts at the given point.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900371(v=VS.85).aspx">CreateInkStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-createinkstyle">CreateInkStyle</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates a new <a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069DDF6E2D">ID2D1InkStyle</a> object, for use with ink 
-        rendering methods such as <a href="https://msdn.microsoft.com/d7c27267-c0c3-d21c-7980-3d92396509c7">DrawInk</a>.
+<td align="left" width="63%">Overloaded. Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a> object, for use with ink 
+        rendering methods such as <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawink">DrawInk</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c48804b-9876-9dbd-3d20-8a7b575fd3d8">CreateLookupTable3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createlookuptable3d">CreateLookupTable3D</a>
 </td>
 <td align="left" width="63%">
 Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output. The table data must be provided in 4-channel format.
@@ -122,7 +122,7 @@ Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output. T
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ABA6A8E-B691-47FF-AE32-1FC5D29C48B2">CreateTransformedImageSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createtransformedimagesource">CreateTransformedImageSource</a>
 </td>
 <td align="left" width="63%">
 Creates an image source which shares resources with an original.
@@ -131,7 +131,7 @@ Creates an image source which shares resources with an original.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c093da19-9def-115c-9e2f-d8f4d98aee92">DrawGdiMetafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1devicecontext2-drawgdimetafile-overload">DrawGdiMetafile</a>
 </td>
 <td align="left" width="63%">Overloaded. Draw a metafile to the device context.
 
@@ -139,7 +139,7 @@ Creates an image source which shares resources with an original.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3ea0930-2e7c-8e28-eda0-7dcb0b1cccc8">DrawGradientMesh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawgradientmesh">DrawGradientMesh</a>
 </td>
 <td align="left" width="63%">
 Renders a given gradient mesh to the target.
@@ -148,7 +148,7 @@ Renders a given gradient mesh to the target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7c27267-c0c3-d21c-7980-3d92396509c7">DrawInk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawink">DrawInk</a>
 </td>
 <td align="left" width="63%">
 Renders the given ink object using the given brush and ink style.
@@ -157,7 +157,7 @@ Renders the given ink object using the given brush and ink style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/809d851c-a3e0-7609-95e0-637e25cdaa06">GetGradientMeshWorldBounds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-getgradientmeshworldbounds">GetGradientMeshWorldBounds</a>
 </td>
 <td align="left" width="63%">
 Returns the world bounds of a given gradient mesh.
@@ -172,7 +172,7 @@ Returns the world bounds of a given gradient mesh.
 
 
 
-<a href="https://msdn.microsoft.com/E08FDAE4-05D3-472C-9AD9-228BAF989F1D">ID2D1DeviceContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>
  
 
  

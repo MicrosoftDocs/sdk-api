@@ -54,7 +54,7 @@ Contains the functionality of Automatic Updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdates</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAutomaticUpdates</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAutomaticUpdates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef40cd57-eab3-4ccf-a574-ab5237565e5b">DetectNow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-detectnow">DetectNow</a>
 </td>
 <td align="left" width="63%">
 Begins automatic updating if it has not already started.
@@ -79,7 +79,7 @@ Begins automatic updating if it has not already started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0dd80943-f9d6-4179-8b02-3a03b5ba3636">EnableService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-enableservice">EnableService</a>
 </td>
 <td align="left" width="63%">
 Enables all the components that Automatic Updates requires.
@@ -88,7 +88,7 @@ Enables all the components that Automatic Updates requires.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42985fdf-b3b3-43f0-addb-478298bd8ebd">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses automatic updating.
@@ -97,7 +97,7 @@ Pauses automatic updating.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8aabfb89-89e2-450e-bfe6-62a48f93746f">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Restarts automatic updating if it is paused.
@@ -106,7 +106,7 @@ Restarts automatic updating if it is paused.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da153799-9414-4e8e-aed4-96e0fff9ca88">ShowSettingsDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog">ShowSettingsDialog</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box that contains settings for Automatic Updates.
@@ -124,7 +124,7 @@ Displays a dialog box that contains settings for Automatic Updates.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6d07ed15-f891-47c4-b4a6-2e57207dbdb3">ServiceEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled">ServiceEnabled</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Gets a Boolean value that indicates whether all the components that Automatic Up
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4b64d8bd-98bb-4d3a-9e90-2c6500c8614b">Settings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-get_settings">Settings</a>
 
 
 </td>
@@ -170,7 +170,7 @@ You can create an instance of this interface by using the AutomaticUpdates cocla
 
 
 
-<a href="https://msdn.microsoft.com/9cb09bb2-5532-446b-9441-0987d50c6228">IAutomaticUpdates2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates2">IAutomaticUpdates2</a>
  
 
  

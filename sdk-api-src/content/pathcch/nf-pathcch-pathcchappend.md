@@ -54,12 +54,12 @@ ms.custom: 19H1
 
 Appends one path to the end of another.
 
-This function differs from <a href="https://msdn.microsoft.com/5421c666-1c8a-4ae8-baba-9e6f69c877df">PathCchAppendEx</a> in that you are restricted to a final path of length MAX_PATH.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a> in that you are restricted to a final path of length MAX_PATH.
 
-This function differs from <a href="https://msdn.microsoft.com/896737ef-a05c-4f0f-b8b0-56355ae9c2d9">PathAppend</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, or <a href="https://msdn.microsoft.com/5421c666-1c8a-4ae8-baba-9e6f69c877df">PathCchAppendEx</a>, should be used in place of <a href="https://msdn.microsoft.com/896737ef-a05c-4f0f-b8b0-56355ae9c2d9">PathAppend</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathappenda">PathAppend</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 
@@ -145,7 +145,7 @@ This function inserts a backslash between the two strings, if one is not already
 
 
 
-<a href="https://msdn.microsoft.com/5421c666-1c8a-4ae8-baba-9e6f69c877df">PathCchAppendEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchappendex">PathCchAppendEx</a>
  
 
  

@@ -64,7 +64,7 @@ The <b>EXTLOGFONT</b> structure defines the attributes of a font.
 
 ### -field elfLogFont
 
-Specifies some of the attributes of the specified font. This member is a <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure.
+Specifies some of the attributes of the specified font. This member is a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.
 
 
 ### -field elfFullName
@@ -84,7 +84,7 @@ Reserved. Must be zero.
 
 ### -field elfStyleSize
 
-This member only has meaning for hinted fonts. It specifies the point size at which the font is hinted. If set to zero, which is its default value, the font is hinted at the point size corresponding to the <b>lfHeight</b> member of the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure specified by <b>elfLogFont</b>.
+This member only has meaning for hinted fonts. It specifies the point size at which the font is hinted. If set to zero, which is its default value, the font is hinted at the point size corresponding to the <b>lfHeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure specified by <b>elfLogFont</b>.
 
 
 ### -field elfMatch
@@ -109,7 +109,7 @@ Reserved; must be zero.
 
 ### -field elfPanose
 
-A <a href="https://msdn.microsoft.com/18aa4a36-8e47-4e35-973f-376d412ed923">PANOSE</a> structure that specifies the shape of the font. If all members of this structure are set to zero, the <b>elfPanose</b> member is ignored by the font mapper.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpanose">PANOSE</a> structure that specifies the shape of the font. If all members of this structure are set to zero, the <b>elfPanose</b> member is ignored by the font mapper.
 
 
 ## -see-also
@@ -117,19 +117,19 @@ A <a href="https://msdn.microsoft.com/18aa4a36-8e47-4e35-973f-376d412ed923">PANO
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
 
 
 
-<a href="https://msdn.microsoft.com/18aa4a36-8e47-4e35-973f-376d412ed923">PANOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpanose">PANOSE</a>
  
 
  

@@ -61,8 +61,8 @@ The
 ### -param InquiryFn
 
 Object-type inquiry function. See 
-<a href="https://msdn.microsoft.com/163a5160-1b47-4b65-8f6c-8b009f548ed9">RPC_OBJECT_INQ_FN</a>. When an application calls 
-<a href="https://msdn.microsoft.com/9146d4be-4a8a-4655-bd5b-e12f81fd4d23">RpcObjectInqType</a> and the RPC run-time library finds that the specified object is not registered, the run-time library automatically calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_object_inq_fn">RPC_OBJECT_INQ_FN</a>. When an application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectinqtype">RpcObjectInqType</a> and the RPC run-time library finds that the specified object is not registered, the run-time library automatically calls 
 <b>RpcObjectSetInqFn</b> to determine the object's type.
 
 
@@ -92,7 +92,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -105,10 +105,10 @@ A server application calls
 <b>RpcObjectSetInqFn</b> to override the default mapping function that maps object UUIDs to type UUIDs, which determine an object's type. If an application privately maintains an object/type registration, the specified inquiry function returns the type UUID of an object.
 
 The RPC run-time library automatically calls the inquiry function when the application calls 
-<a href="https://msdn.microsoft.com/9146d4be-4a8a-4655-bd5b-e12f81fd4d23">RpcObjectInqType</a> and the object of interest was not previously registered with 
-<a href="https://msdn.microsoft.com/2fb22b97-97ce-403a-bfcb-101bb63f906f">RpcObjectSetType</a>. The <i>TypeUuid</i> and <i>Status</i> values of the 
-<a href="https://msdn.microsoft.com/163a5160-1b47-4b65-8f6c-8b009f548ed9">RPC_OBJECT_INQ_FN</a> function are returned as the output from 
-<a href="https://msdn.microsoft.com/9146d4be-4a8a-4655-bd5b-e12f81fd4d23">RpcObjectInqType</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectinqtype">RpcObjectInqType</a> and the object of interest was not previously registered with 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a>. The <i>TypeUuid</i> and <i>Status</i> values of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_object_inq_fn">RPC_OBJECT_INQ_FN</a> function are returned as the output from 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectinqtype">RpcObjectInqType</a>.
 
 
 
@@ -118,11 +118,11 @@ The RPC run-time library automatically calls the inquiry function when the appli
 
 
 
-<a href="https://msdn.microsoft.com/9146d4be-4a8a-4655-bd5b-e12f81fd4d23">RpcObjectInqType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectinqtype">RpcObjectInqType</a>
 
 
 
-<a href="https://msdn.microsoft.com/2fb22b97-97ce-403a-bfcb-101bb63f906f">RpcObjectSetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsettype">RpcObjectSetType</a>
  
 
  

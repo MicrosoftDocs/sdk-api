@@ -59,7 +59,7 @@ Binds all work submitted by the activity to a single single-threaded apartment.
 
 ### -param binding [in]
 
-A value from the <a href="https://msdn.microsoft.com/9267b4f1-96d1-4367-8114-3db43755ffed">CSC_Binding</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_binding">CSC_Binding</a> enumeration.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf">IServiceThreadPoolConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicethreadpoolconfig">IServiceThreadPoolConfig</a>
  
 
  

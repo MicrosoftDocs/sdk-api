@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
     <b>CreateGeneratorParameters</b> method 
-    returns an <a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a> 
+    returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> 
   interface pointer initialized with the  parameters necessary for a signature generator.
 
 
@@ -63,7 +63,7 @@ The
 ### -param parametersType [in]
 
 Specifies the type of signature generator for the created parameters, enumerated by the 
-    <a href="https://msdn.microsoft.com/55abafd5-4c55-498c-a567-a64d9bb76856">GeneratorParametersType</a> enumeration. The initial 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0002">GeneratorParametersType</a> enumeration. The initial 
   release of RDC only supports one type, <b>RDCGENTYPE_FilterMax</b>.
 
 
@@ -77,7 +77,7 @@ The recursion level for this parameter block. A parameter block is needed for ea
 ### -param iGeneratorParameters [out]
 
 Pointer to a location that will receive an 
-    <a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a> interface pointer. On a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer. On a 
   successful return the interface will be initialized on return. Callers must release the interface.
 
 
@@ -95,15 +95,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/55abafd5-4c55-498c-a567-a64d9bb76856">GeneratorParametersType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0002">GeneratorParametersType</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b2db5c5-79eb-490a-ae03-36b0e926725d">IRdcGeneratorParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/941fa35c-20fa-4843-89be-26112ff7eec5">IRdcLibrary</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
  
 
  

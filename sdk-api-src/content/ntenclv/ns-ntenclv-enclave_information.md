@@ -117,11 +117,11 @@ The identity of the primary module of an enclave.
 
 
 
-<a href="https://msdn.microsoft.com/D584D824-3C86-4BBB-9086-6DBE0290E0A4">ENCLAVE_IDENTITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-enclave_identity">ENCLAVE_IDENTITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/26349C3C-4B73-430C-B002-ED262DB0304F">EnclaveGetEnclaveInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation">EnclaveGetEnclaveInformation</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 				<b>NetLocalGroupDelMember</b> function is obsolete. You should use the 
-<a href="https://msdn.microsoft.com/85ae796b-c94a-46a8-9fa8-6c612db38671">NetLocalGroupDelMembers</a> function instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupdelmembers">NetLocalGroupDelMembers</a> function instead.
 
 
 ## -parameters

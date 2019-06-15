@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TAG_TYPE</b> structure specifies tags used for the 
-<a href="https://msdn.microsoft.com/6795512e-4b90-47da-962a-d9e6ecfb7ee0">PreprocessCommand</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a> function.
 
 
 ## -struct-fields
@@ -132,7 +132,7 @@ Multiple copies of the tag is allowed. Tag must be present.
 
 
 
-<a href="https://msdn.microsoft.com/6795512e-4b90-47da-962a-d9e6ecfb7ee0">PreprocessCommand</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a>
  
 
  

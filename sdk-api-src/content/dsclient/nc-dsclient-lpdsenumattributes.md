@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSEnumAttributesCallback</b> function is an application-defined callback function that is called once for each attribute enumerated by the <a href="https://msdn.microsoft.com/78b8e280-454c-4db7-9037-ea7e42798323">IDsDisplaySpecifier::EnumClassAttributes</a> method. A pointer to this function is supplied as the <i>pcbEnum</i> parameter in <b>IDsDisplaySpecifier::EnumClassAttributes</b>. <b>DSEnumAttributesCallback</b> is a placeholder for the application-defined function name.
+The <b>DSEnumAttributesCallback</b> function is an application-defined callback function that is called once for each attribute enumerated by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a> method. A pointer to this function is supplied as the <i>pcbEnum</i> parameter in <b>IDsDisplaySpecifier::EnumClassAttributes</b>. <b>DSEnumAttributesCallback</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DSEnumAttributesCallback</b> function is an application-defined callback 
 
 ### -param lParam
 
-Contains an application-defined  parameter  passed as the <i>lParam</i> parameter to the <a href="https://msdn.microsoft.com/78b8e280-454c-4db7-9037-ea7e42798323">IDsDisplaySpecifier::EnumClassAttributes</a> method.
+Contains an application-defined  parameter  passed as the <i>lParam</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a> method.
 
 
 ### -param pszAttributeName
@@ -97,7 +97,7 @@ Returns <b>S_OK</b> to continue the enumeration or any failure code, such as <b>
 
 
 
-<a href="https://msdn.microsoft.com/78b8e280-454c-4db7-9037-ea7e42798323">IDsDisplaySpecifier::EnumClassAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes">IDsDisplaySpecifier::EnumClassAttributes</a>
  
 
  

@@ -77,7 +77,7 @@ The device will answer the call only if made to do so manually.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684558(v=VS.85).aspx">ReceiveMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-receivemode">ReceiveMode</a>
  
 
  

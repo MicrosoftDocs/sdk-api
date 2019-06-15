@@ -69,12 +69,12 @@ The number of commands in the <i>prgCmds</i> array.
 
 ### -param prgCmds [in, out]
 
-A caller-allocated array of <a href="https://msdn.microsoft.com/a75ca136-ed6a-43c5-b775-a50535431f1d">OLECMD</a> structures that indicate the commands for which the caller needs status information. This method fills the <b>cmdf</b> member of each structure with values taken from the <a href="https://msdn.microsoft.com/feb493da-0db2-4251-ba6f-ded1fbd3e430">OLECMDF</a> enumeration.
+A caller-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a> structures that indicate the commands for which the caller needs status information. This method fills the <b>cmdf</b> member of each structure with values taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
 
 
 ### -param pCmdText [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/c9552d2a-fb51-4d9f-acd5-32b3f20a9e1e">OLECMDTEXT</a> structure in which to return name and/or status information of a single command. This parameter can be <b>NULL</b> to indicate that the caller does not need this information.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a> structure in which to return name and/or status information of a single command. This parameter can be <b>NULL</b> to indicate that the caller does not need this information.
 
 
 ## -returns
@@ -152,19 +152,19 @@ Callers use <b>QueryStatus</b> to determine which commands are supported by a ta
 
 
 
-<a href="https://msdn.microsoft.com/5c8b455e-7740-4f71-aef6-27390a11a1a3">IOleCommandTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/a75ca136-ed6a-43c5-b775-a50535431f1d">OLECMD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a>
 
 
 
-<a href="https://msdn.microsoft.com/feb493da-0db2-4251-ba6f-ded1fbd3e430">OLECMDF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9552d2a-fb51-4d9f-acd5-32b3f20a9e1e">OLECMDTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmdtext">OLECMDTEXT</a>
  
 
  

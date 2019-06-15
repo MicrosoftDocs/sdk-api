@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Client-provided callback function, used by <a href="https://msdn.microsoft.com/aeea47c7-af55-46c4-b701-e00ec7540d24">CreateFontPackage</a> and <a href="https://msdn.microsoft.com/c51110a0-286c-4d97-9da5-4186ebf8f9b8">MergeFontPackage</a> to reallocate memory when the size of an allocated buffer needs to change.
+Client-provided callback function, used by <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to reallocate memory when the size of an allocated buffer needs to change.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ Returns a void pointer to the reallocated (and possibly moved) memory block. The
 
 
 
-<a href="https://msdn.microsoft.com/library/xbebcx7d(v=VS.100).aspx">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
+<a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/xbebcx7d(v=vs.100)">realloc</a>conforms to this type; the application can either use <b>realloc</b> or a more specialized function for memory reallocation. Whatever function is chosen, there must also be appropriate functions for initial allocation and to free this memory.
 
 
 
@@ -103,19 +103,19 @@ Returns a void pointer to the reallocated (and possibly moved) memory block. The
 
 
 
-<a href="https://msdn.microsoft.com/f6a98721-ebd1-4d83-bc9d-adde2e3ce525">CFP_ALLOCPROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd99e704-b3a8-4d55-946f-76dd47b2a030">CFP_FREEPROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_freeproc">CFP_FREEPROC</a>
 
 
 
-<a href="https://msdn.microsoft.com/aeea47c7-af55-46c4-b701-e00ec7540d24">CreateFontPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c51110a0-286c-4d97-9da5-4186ebf8f9b8">MergeFontPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a>
  
 
  

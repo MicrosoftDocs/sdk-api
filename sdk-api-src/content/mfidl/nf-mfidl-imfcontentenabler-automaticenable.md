@@ -95,9 +95,9 @@ The method succeeded.
 
 
 
-This method is asynchronous. When the operation is complete, the content enabler sends an <a href="https://msdn.microsoft.com/5162800c-9c55-40de-be66-a98765324f76">MEEnablerCompleted</a> event. While the operation is in progress, the content enabler might send <a href="https://msdn.microsoft.com/ec14ba9b-cfb6-4e32-870e-2436e11c308b">MEEnablerProgress</a> events.
+This method is asynchronous. When the operation is complete, the content enabler sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/meenablercompleted">MEEnablerCompleted</a> event. While the operation is in progress, the content enabler might send <a href="https://docs.microsoft.com/windows/desktop/medfound/meenablerprogress">MEEnablerProgress</a> events.
 
-To find out whether the content enabler supports this method, call <a href="https://msdn.microsoft.com/144470ce-2849-4464-8596-fac216529145">IMFContentEnabler::IsAutomaticSupported</a>.
+To find out whether the content enabler supports this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-isautomaticsupported">IMFContentEnabler::IsAutomaticSupported</a>.
 
 
 
@@ -107,11 +107,11 @@ To find out whether the content enabler supports this method, call <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/85d98f49-8af2-42ce-9b36-a025aee93f73">How to Play Protected Media Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
  
 
  

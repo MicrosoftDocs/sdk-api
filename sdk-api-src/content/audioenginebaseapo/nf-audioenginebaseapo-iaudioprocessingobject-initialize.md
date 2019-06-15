@@ -154,7 +154,7 @@ APOInitBaseStruct APOInit;
 
 
 
-<a href="https://msdn.microsoft.com/15C973AE-B0E8-42FD-9F34-671A6A915B47">APOInitBaseStruct</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitbasestruct">APOInitBaseStruct</a>
  
 
  

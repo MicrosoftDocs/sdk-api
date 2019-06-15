@@ -129,11 +129,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/7c941454-7410-f3fb-d750-9007f672ed8c">Geometric Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-geometric">Geometric Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421160(v=VS.85).aspx">XMVectorHermiteV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorhermitev">XMVectorHermiteV</a>
  
 
  

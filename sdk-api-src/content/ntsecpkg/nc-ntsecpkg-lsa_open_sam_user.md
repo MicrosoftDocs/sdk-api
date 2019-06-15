@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a handle to a user account in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security Accounts Manager</a> (SAM) database.
+Retrieves a handle to a user account in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database.
 
 
 ## -parameters
@@ -60,13 +60,13 @@ Retrieves a handle to a user account in the <a href="https://msdn.microsoft.com/
 ### -param Name [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that specifies the name of the SAM account.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that specifies the name of the SAM account.
 
 
 ### -param NameType [in]
 
 A 
-<a href="https://msdn.microsoft.com/6a534bfa-83ec-408d-ad21-e230a7adc61e">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_name_type">SECPKG_NAME_TYPE</a> enumeration value that specifies the type of account name in <i>Name</i>. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ A
 </dl>
 </td>
 <td width="60%">
-<i>Name</i> is a flat <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN)–style account name.
+<i>Name</i> is a flat <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN)–style account name.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ A
 ### -param Prefix [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that specifies the prefix to use with names that use a <i>NameType</i> of SecNameAlternateId.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that specifies the prefix to use with names that use a <i>NameType</i> of SecNameAlternateId.
 
 
 ### -param AllowGuest [in]
@@ -212,14 +212,14 @@ The SAM account could not be found.
 
 
 To close the handle received by the <i>UserHandle</i> parameter,   call the 
-<a href="https://msdn.microsoft.com/1e56e38e-ba8f-4781-80f1-e60bd33250e4">CloseSamUser</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a> function.
 
 The distinguished name of a user identifies the name, domain, and the complete path to the 
-<a href="https://msdn.microsoft.com/9fc78c72-c59c-4c4d-ace5-00a431645c4b">Active Directory</a> object that represents the user.
+<a href="https://docs.microsoft.com/windows/desktop/AD/active-directory-domain-services">Active Directory</a> object that represents the user.
 
 A pointer to the <b>OpenSamUser</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -229,15 +229,15 @@ A pointer to the <b>OpenSamUser</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/1e56e38e-ba8f-4781-80f1-e60bd33250e4">CloseSamUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_close_sam_user">CloseSamUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

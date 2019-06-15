@@ -102,7 +102,7 @@ The following enumeration values were introduced in Windows Vista.
 
 
 
-<a href="https://msdn.microsoft.com/a04545b1-920e-4fb3-909b-dc47e1374629">SystemMonitor.DisplayType</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-displaytype">SystemMonitor.DisplayType</a>
  
 
  

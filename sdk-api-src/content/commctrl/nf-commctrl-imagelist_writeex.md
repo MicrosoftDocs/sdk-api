@@ -68,7 +68,7 @@ A handle to the image list.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A flag that specifies how the stream is written.
 
@@ -85,7 +85,7 @@ A flag that specifies how the stream is written.
 </dl>
 </td>
 <td width="60%">
-Writes to the stream using the file format for <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
+Writes to the stream using the file format for <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
 			
 
 </td>
@@ -117,7 +117,7 @@ The address of the stream.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -128,10 +128,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://msdn.microsoft.com/en-us/library/Bb761522(v=VS.85).aspx">ILC_COLOR32</a>.  
+You should not create an image list that is written with the ILP_DOWNLEVEL flag with <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_create">ILC_COLOR32</a>.  
 	
 
-To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
 
 
@@ -141,15 +141,15 @@ To use <b>ImageList_WriteEx</b>, the application must specify Comctl32.dll versi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761560(v=VS.85).aspx">ImageList_Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_read">ImageList_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761562(v=VS.85).aspx">ImageList_ReadEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_readex">ImageList_ReadEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775228(v=VS.85).aspx">ImageList_Write</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_write">ImageList_Write</a>
 
 
 

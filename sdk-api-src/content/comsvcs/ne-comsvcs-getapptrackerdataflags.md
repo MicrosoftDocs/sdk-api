@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Controls what data is returned from calls to the <a href="https://msdn.microsoft.com/f2f9c03b-4f57-4087-8fef-5cdccece91d9">IGetAppTrackerData</a> interface.
+Controls what data is returned from calls to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a> interface.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Controls what data is returned from calls to the <a href="https://msdn.microsoft
 
 ### -field GATD_INCLUDE_PROCESS_EXE_NAME
 
-Include the name of the process's executable image in the <a href="https://msdn.microsoft.com/2402aca6-4992-4c6e-a6ff-b4cc50c57dde">ApplicationProcessSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
+Include the name of the process's executable image in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationprocesssummary">ApplicationProcessSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
 
 
 ### -field GATD_INCLUDE_LIBRARY_APPS
@@ -74,12 +74,12 @@ Include Services Without Components contexts in the tracking data. By default, t
 
 ### -field GATD_INCLUDE_CLASS_NAME
 
-Include the class name in the <a href="https://msdn.microsoft.com/df752c4a-6a8d-4eac-b3dc-1647bf8a8e5a">ComponentSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
+Include the class name in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_componentsummary">ComponentSummary</a> structure. If set, it is the caller's responsibility to free the memory allocated for this string.
 
 
 ### -field GATD_INCLUDE_APPLICATION_NAME
 
-Include the application name in the <a href="https://msdn.microsoft.com/3291eede-5318-4d97-a969-ce54381f30af">ApplicationSummary</a> and <a href="https://msdn.microsoft.com/df752c4a-6a8d-4eac-b3dc-1647bf8a8e5a">ComponentSummary</a> structures. If set, it is the caller's responsibility to free the memory allocated for this string.
+Include the application name in the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_applicationsummary">ApplicationSummary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-_componentsummary">ComponentSummary</a> structures. If set, it is the caller's responsibility to free the memory allocated for this string.
 
 
 ## -see-also
@@ -87,7 +87,7 @@ Include the application name in the <a href="https://msdn.microsoft.com/3291eede
 
 
 
-<a href="https://msdn.microsoft.com/f2f9c03b-4f57-4087-8fef-5cdccece91d9">IGetAppTrackerData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
  
 
  

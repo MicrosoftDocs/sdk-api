@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>SelectTerminal</b> method selects an 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> object onto the stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> object onto the stream.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pTerminal [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> interface of selected terminal.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface of selected terminal.
 
 
 ## -returns
@@ -142,9 +142,9 @@ The terminal selected is not valid.
 
 
 Terminals can be selected at any time, irrespective of whether the transport is in a state that allows it to stream media. If the transport is in a state that allows it to stream media, and the application has not successfully invoked 
-<a href="https://msdn.microsoft.com/d7d70dd9-dcac-4b25-9954-10b4d6b436de">ITStream::PauseStream</a> or 
-<a href="https://msdn.microsoft.com/6014e76e-ce2c-4ab8-b6f2-c09fc2acf315">ITStream::StopStream</a> on the stream, or has successfully invoked 
-<a href="https://msdn.microsoft.com/23553f00-5ce5-465e-b455-8bf2d73dae9d">ITStream::StartStream</a> for this stream more recently than it has successfully invoked <b>ITStream::PauseStream</b> or <b>ITStream::StopStream</b> for this stream, then streaming starts automatically as soon as the terminal is selected. If a terminal is selected on the stream before the transport enters a state in which it can stream media, and no subsequent calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-pausestream">ITStream::PauseStream</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> on the stream, or has successfully invoked 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> for this stream more recently than it has successfully invoked <b>ITStream::PauseStream</b> or <b>ITStream::StopStream</b> for this stream, then streaming starts automatically as soon as the terminal is selected. If a terminal is selected on the stream before the transport enters a state in which it can stream media, and no subsequent calls to 
 <b>StopStream</b> or 
 <b>PauseStream</b> are made, then the stream starts automatically when the transport enters a state in which it can stream media.
 
@@ -153,10 +153,10 @@ The CME_STREAM_ACTIVE event is generated when streaming actually starts, which m
 <b>SelectTerminal</b> call.
 
 A terminal can be selected onto a stream only if the results of 
-<a href="https://msdn.microsoft.com/8c2006ad-d2f9-4e21-b0ae-583ec3ff82f4">ITTerminal::get_MediaType</a> match 
-<a href="https://msdn.microsoft.com/871caaf3-12c4-457c-8d0f-0ee9be52a58b">ITStream::get_MediaType</a>. In addition, some MSPs may require a match between 
-<a href="https://msdn.microsoft.com/e0a69c3d-1780-4088-8249-961788dbf184">ITTerminal::get_Direction</a> and 
-<a href="https://msdn.microsoft.com/196abe2a-d88d-4b2d-8867-4e6cc15dee33">ITStream::get_Direction</a>, although the interface does not enforce this.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_mediatype">ITTerminal::get_MediaType</a> match 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_mediatype">ITStream::get_MediaType</a>. In addition, some MSPs may require a match between 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_direction">ITTerminal::get_Direction</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-get_direction">ITStream::get_Direction</a>, although the interface does not enforce this.
 
 Some MSPs may not allow more than a certain number of terminals, typically one, to be simultaneously selected on the same stream, but the interface itself does not enforce any such restriction. Selecting multiple terminals at one time on the same stream is useful, for example, to allow recording of an incoming audio stream to a file while listening to the stream on a pair of speakers.
 
@@ -170,11 +170,11 @@ A given terminal can be selected onto only one stream.
 
 
 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

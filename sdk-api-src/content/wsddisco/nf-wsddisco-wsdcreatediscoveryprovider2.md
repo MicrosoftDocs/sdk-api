@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a> object that supports signed messages.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> object that supports signed messages.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Creates an <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821
 
 ### -param pContext [in]
 
-An <a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a> interface that defines custom message types or namespaces.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces.
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
 
 ### -param pConfigParams [in]
 
-An array of <a href="https://msdn.microsoft.com/58dc3e11-586e-4185-b1d0-4249b4bfb252">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-_wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
 
 
 ### -param dwConfigParamCount [in]
@@ -76,7 +76,7 @@ The total number of structures passed in <i>pConfigParams</i>.
 
 ### -param ppProvider [out]
 
-Returns a reference to the initialized <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a> object. Cannot be <b>NULL</b>.
+Returns a reference to the initialized <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> object. Cannot be <b>NULL</b>.
 
 
 ## -returns

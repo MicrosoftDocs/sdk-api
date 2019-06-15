@@ -64,7 +64,7 @@ The handle belonging to the session that is being started.
 
 ### -param pCallerData [in]
 
-Pointer to the user data for this session.  This data was specified in the call to the <a href="https://msdn.microsoft.com/aa89899f-8f50-4617-84a1-4013412f0292">WdsTransportClientStartSession</a> function.
+Pointer to the user data for this session.  This data was specified in the call to the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
 
 
 ### -param pContents

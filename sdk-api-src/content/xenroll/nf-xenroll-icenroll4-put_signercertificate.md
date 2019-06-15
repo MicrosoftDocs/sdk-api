@@ -53,9 +53,9 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>SignerCertificate</b> property sets the signer's certificate. This property was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+The <b>SignerCertificate</b> property sets the signer's certificate. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
-This property is reserved; instead, use the <a href="https://msdn.microsoft.com/1c970f6b-6b8f-4396-b59b-d6b58d52172b">SetSignerCertificate</a> method.
+This property is reserved; instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-setsignercertificate">SetSignerCertificate</a> method.
 
 This property is write-only.
 
@@ -68,11 +68,11 @@ This property is write-only.
 
 
 
-<a href="https://msdn.microsoft.com/7f13549d-811b-496b-abdd-7e52cbc2ed54">CEnroll</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
  
 
  

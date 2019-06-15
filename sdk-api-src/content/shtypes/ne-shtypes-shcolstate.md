@@ -109,13 +109,13 @@ Not displayed in the UI.
 
 ### -field SHCOLSTATE_PREFER_VARCMP
 
-<b>VarCmp</b> produces same result as <a href="https://msdn.microsoft.com/54d805cc-5396-4892-9347-cafc2d90779f">IShellFolder::CompareIDs</a>.
+<b>VarCmp</b> produces same result as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
 
 
 ### -field SHCOLSTATE_PREFER_FMTCMP
 
 
-<a href="https://msdn.microsoft.com/71442967-ee8a-448c-83cf-949934ddd152">PSFormatForDisplay</a> produces same result as <a href="https://msdn.microsoft.com/54d805cc-5396-4892-9347-cafc2d90779f">IShellFolder::CompareIDs</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a> produces same result as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
 
 
 ### -field SHCOLSTATE_NOSORTBYFOLDERNESS

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the type of the trigger. The trigger type is defined when the trigger is created and cannot be changed later. For information on creating a trigger, see <a href="https://msdn.microsoft.com/70780fca-ba97-42b8-bc00-867c2761953c">ITriggerCollection::Create</a>.
+Gets the type of the trigger. The trigger type is defined when the trigger is created and cannot be changed later. For information on creating a trigger, see <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create">ITriggerCollection::Create</a>.
 
 This property is read-only.
 
@@ -63,19 +63,19 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/165297c1-704b-4ab3-a9e3-4aa3f10e07b1">ITrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/70780fca-ba97-42b8-bc00-867c2761953c">ITriggerCollection::Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create">ITriggerCollection::Create</a>
 
 
 
-<a href="https://msdn.microsoft.com/489015a1-5a3c-4994-aa1f-bc02dfff149d">TASK_TRIGGER_TYPE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_trigger_type2">TASK_TRIGGER_TYPE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

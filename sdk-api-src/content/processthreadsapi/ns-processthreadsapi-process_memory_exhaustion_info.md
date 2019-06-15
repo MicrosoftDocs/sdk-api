@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the <a href="https://msdn.microsoft.com/4A09E341-82FB-4E50-B2DD-EEDE443F3F1E">PROCESS_INFORMATION_CLASS</a> class.
+Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the <a href="https://docs.microsoft.com/previous-versions//mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a> class.
 
 
 ## -struct-fields
@@ -103,11 +103,11 @@ Used to turn the feature on or off.
 
 
 
-<a href="https://msdn.microsoft.com/4A09E341-82FB-4E50-B2DD-EEDE443F3F1E">PROCESS_INFORMATION_CLASS </a>
+<a href="https://docs.microsoft.com/previous-versions//mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt767998(v=VS.85).aspx">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ne-processthreadsapi-_process_memory_exhaustion_type">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
  
 
  

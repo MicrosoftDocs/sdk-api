@@ -59,12 +59,12 @@ Creates an object that enumerates the views supported by a document object, or i
 
 ### -param ppEnum [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/cd8fa8b8-17b1-4d77-9611-473725899351">IEnumOleDocumentViews</a> pointer variable that receives the interface pointer to the enumerator object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a> pointer variable that receives the interface pointer to the enumerator object.
 
 
 ### -param ppView [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/07948c08-f047-4ae0-a41b-5410b4bbf4d6">IOleDocumentView</a> pointer variable that receives the interface pointer to a single view object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> pointer variable that receives the interface pointer to a single view object.
 
 
 ## -returns
@@ -112,9 +112,9 @@ The address in <i>ppEnum</i> or <i>ppView</i> is invalid. The caller must pass v
 
 
 
-If a document object supports multiple views of its data, it must also implement <a href="https://msdn.microsoft.com/cd8fa8b8-17b1-4d77-9611-473725899351">IEnumOleDocumentViews</a> and pass that interface's pointer in the out parameter <i>ppEnum</i>. Using this pointer, the container can enumerate the views supported by the document object.
+If a document object supports multiple views of its data, it must also implement <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a> and pass that interface's pointer in the out parameter <i>ppEnum</i>. Using this pointer, the container can enumerate the views supported by the document object.
 
-If the document object supports only a single view, <b>IOleDocument::EnumViews</b> passes that view's <a href="https://msdn.microsoft.com/07948c08-f047-4ae0-a41b-5410b4bbf4d6">IOleDocumentView</a> pointer in the out parameter <i>ppView</i>.
+If the document object supports only a single view, <b>IOleDocument::EnumViews</b> passes that view's <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> pointer in the out parameter <i>ppView</i>.
 
 
 
@@ -124,15 +124,15 @@ If the document object supports only a single view, <b>IOleDocument::EnumViews</
 
 
 
-<a href="https://msdn.microsoft.com/cd8fa8b8-17b1-4d77-9611-473725899351">IEnumOleDocumentViews</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a15d6ef-900c-4a0b-8b85-60dc66ca03a3">IOleDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/07948c08-f047-4ae0-a41b-5410b4bbf4d6">IOleDocumentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
  
 
  

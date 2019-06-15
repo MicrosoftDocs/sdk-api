@@ -59,12 +59,12 @@ The <b>WlanGetFilterList</b> function retrieves a group policy or user permissio
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param wlanFilterListType [in]
 
-A <a href="https://msdn.microsoft.com/b53b9a6c-6453-4828-9662-589a1b99614c">WLAN_FILTER_LIST_TYPE</a> value that specifies the type of filter list.  All user defined and group policy filter lists can be queried.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_filter_list_type">WLAN_FILTER_LIST_TYPE</a> value that specifies the type of filter list.  All user defined and group policy filter lists can be queried.
 
 
 ### -param pReserved
@@ -74,7 +74,7 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 
 ### -param ppNetworkList [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/607c5795-8168-4c6b-a2f3-65f31aea5cf5">DOT11_NETWORK_LIST</a> structure that contains the list of permitted or denied networks.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network_list">DOT11_NETWORK_LIST</a> structure that contains the list of permitted or denied networks.
 
 
 ## -returns
@@ -99,7 +99,7 @@ If the function fails, the return value may be one of the following return codes
 <td width="60%">
 The caller does not have sufficient permissions to get the filter list. 
 
-When called with <i>wlanFilterListType</i> set to <b>wlan_filter_list_type_user_permit</b>, <a href="https://msdn.microsoft.com/3ea88e52-34bb-47a6-b345-c789d1d8047d">WlanGetFilterList</a> retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_permit_list</b> object. When called with <i>wlanFilterListType</i> set to <b>wlan_filter_list_type_user_deny</b>, <b>WlanGetFilterList</b> retrieves the DACL stored with the  <b>wlan_secure_deny_list</b> object. In either of these cases, if the DACL does not contain an access control entry (ACE) that grants WLAN_READ_ACCESS permission to the access token of the calling thread, then <b>WlanGetFilterList</b>  returns <b>ERROR_ACCESS_DENIED</b>.
+When called with <i>wlanFilterListType</i> set to <b>wlan_filter_list_type_user_permit</b>, <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetfilterlist">WlanGetFilterList</a> retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_permit_list</b> object. When called with <i>wlanFilterListType</i> set to <b>wlan_filter_list_type_user_deny</b>, <b>WlanGetFilterList</b> retrieves the DACL stored with the  <b>wlan_secure_deny_list</b> object. In either of these cases, if the DACL does not contain an access control entry (ACE) that grants WLAN_READ_ACCESS permission to the access token of the calling thread, then <b>WlanGetFilterList</b>  returns <b>ERROR_ACCESS_DENIED</b>.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Various error codes.
 
 
 
-User permission lists can be set by calling <a href="https://msdn.microsoft.com/697682c9-cb26-42d6-86b5-d7adebcedc68">WlanSetFilterList</a>.
+User permission lists can be set by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>.
 
 
 
@@ -167,15 +167,15 @@ User permission lists can be set by calling <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/607c5795-8168-4c6b-a2f3-65f31aea5cf5">DOT11_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network_list">DOT11_NETWORK_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/b53b9a6c-6453-4828-9662-589a1b99614c">WLAN_FILTER_LIST_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_filter_list_type">WLAN_FILTER_LIST_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/697682c9-cb26-42d6-86b5-d7adebcedc68">WlanSetFilterList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
  
 
  

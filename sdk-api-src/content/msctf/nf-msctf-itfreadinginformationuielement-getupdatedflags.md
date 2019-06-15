@@ -72,7 +72,7 @@ This method returns the flag that tells which part of this element was updated.
 </dl>
 </td>
 <td width="60%">
-The target <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> was changed.
+The target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> was changed.
 
 </td>
 </tr>

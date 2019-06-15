@@ -61,24 +61,24 @@ Contains information that a tooltip control uses to determine whether a point is
 
 ### -field hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tool or window with the specified tool. 
 
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 Client coordinates of the point to test. 
 
 
 ### -field ti
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760256(v=VS.85).aspx">TOOLINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtoolinfoa">TOOLINFO</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760256(v=VS.85).aspx">TOOLINFO</a> structure. If the point specified by 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtoolinfoa">TOOLINFO</a> structure. If the point specified by 
 					<b>pt</b> is in the tool specified by 
 					<b>hwnd</b>, this structure receives information about the tool. The 
 					<b>cbSize</b> member of this structure must be filled in before sending this message. 
@@ -88,7 +88,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760256(v=VS.85).asp
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760399(v=VS.85).aspx">TTM_HITTEST</a> message. 
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/ttm-hittest">TTM_HITTEST</a> message. 
 
 
 

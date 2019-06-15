@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_providerCreatePhoneDevice</b> function is called by TAPI in response to receipt of a 
-<a href="https://msdn.microsoft.com/2b852871-7965-4c88-9c3a-0259cd2e0a11">PHONE_CREATE</a> message from the service provider, which allows the dynamic creation of a new phone device.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a> message from the service provider, which allows the dynamic creation of a new phone device.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param dwTempID
 
 The temporary device identifier that the service provider passed to TAPI in the 
-<a href="https://msdn.microsoft.com/2b852871-7965-4c88-9c3a-0259cd2e0a11">PHONE_CREATE</a> message.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a> message.
 
 
 ### -param dwDeviceID
@@ -74,7 +74,7 @@ The device identifier that TAPI assigns to this device if this function succeeds
 
 
 
-Returns zero if the request succeeds or an error number if an error occurs. Possible return values from <a href="https://msdn.microsoft.com/763a9dc2-3e70-4169-a66e-3aac78ef8d33">PHONEERR_ Constants</a> are:
+Returns zero if the request succeeds or an error number if an error occurs. Possible return values from <a href="https://docs.microsoft.com/windows/desktop/Tapi/phoneerr--constants">PHONEERR_ Constants</a> are:
 
 PHONEERR_BADDEVICEID, PHONEERR_NOMEM, PHONEERR_OPERATIONFAILED.
 
@@ -86,11 +86,11 @@ PHONEERR_BADDEVICEID, PHONEERR_NOMEM, PHONEERR_OPERATIONFAILED.
 
 
 When TAPI receives a 
-<a href="https://msdn.microsoft.com/2b852871-7965-4c88-9c3a-0259cd2e0a11">PHONE_CREATE</a> message from a service provider, it calls this function (it never calls this function spontaneously). TAPI adds 1 to the number of devices of that type, and passes the resulting new, unused device identifier as the <i>dwDeviceID</i> parameter to this function. It also passes in the function the <i>dwParam2</i> parameter from the PHONE_CREATE message as <i>dwTempID</i>. Adding the new device to the end of the device list is likely to produce noncontiguous device identifiers for the service provider; service providers that support dynamic device creation must also support noncontiguous device identifiers.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a> message from a service provider, it calls this function (it never calls this function spontaneously). TAPI adds 1 to the number of devices of that type, and passes the resulting new, unused device identifier as the <i>dwDeviceID</i> parameter to this function. It also passes in the function the <i>dwParam2</i> parameter from the PHONE_CREATE message as <i>dwTempID</i>. Adding the new device to the end of the device list is likely to produce noncontiguous device identifiers for the service provider; service providers that support dynamic device creation must also support noncontiguous device identifiers.
 
 If the service provider recognizes the dwTempID parameter and succeeds in setting up the structures and such that it needs to support the new device, it saves off the <i>dwDeviceID</i>, and returns SUCCESS. If this function is unsuccessful, TAPI doesn't add the device, and there are no negative effects (the 
-<a href="https://msdn.microsoft.com/2b852871-7965-4c88-9c3a-0259cd2e0a11">PHONE_CREATE</a> message is ignored). If this function completes successfully, TAPI informs applications of the availability of the new device using PHONE_CREATE or 
-<a href="https://msdn.microsoft.com/4772e24c-cafb-4fda-8243-5117c9a73753">PHONE_STATE</a> (PHONESTATE_REINIT) messages.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a> message is ignored). If this function completes successfully, TAPI informs applications of the availability of the new device using PHONE_CREATE or 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a> (PHONESTATE_REINIT) messages.
 
 Older service providers that do not export this function, however, also should not send PHONE_CREATE messages, which means TAPI would not try to call this function.
 
@@ -102,11 +102,11 @@ Older service providers that do not export this function, however, also should n
 
 
 
-<a href="https://msdn.microsoft.com/2b852871-7965-4c88-9c3a-0259cd2e0a11">PHONE_CREATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725256(v=vs.85)">PHONE_CREATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4772e24c-cafb-4fda-8243-5117c9a73753">PHONE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
  
 
  

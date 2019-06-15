@@ -59,7 +59,7 @@ The <b>get_Tune</b> method retrieves the current tune request.
 
 ### -param ppTR [out]
 
-Pointer to a variable that receives an <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface pointer.
+Pointer to a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointer.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-The returned <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -85,15 +85,15 @@ The returned <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694709(v=VS.85).aspx">IMSVidTuner::put_Tune</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-put_tune">IMSVidTuner::put_Tune</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f36580-522f-48d6-989d-11e8d175ffdb">The Microsoft Unified Tuning Model</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/the-microsoft-unified-tuning-model">The Microsoft Unified Tuning Model</a>
  
 
  

@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method does not remove items that the user has pinned to the Jump List. Those items cannot be removed programmatically; only the user can remove them. However, it does remove usage data for those pinned items. It also cannot remove items from custom categories or the task list.
 
-If the application has an explicit Application User Model ID (AppUserModelID), you must call <a href="https://msdn.microsoft.com/d1cb0646-f028-48e4-b40d-f90a08152513">IApplicationDestinations::SetAppID</a> before you call this method.
+If the application has an explicit Application User Model ID (AppUserModelID), you must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">IApplicationDestinations::SetAppID</a> before you call this method.
 
 
 
@@ -86,19 +86,19 @@ If the application has an explicit Application User Model ID (AppUserModelID), y
 
 
 
-<a href="https://msdn.microsoft.com/d425eb2c-75c7-431e-9607-11ea2e092178">IApplicationDestinations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdestinations">IApplicationDestinations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1c33908-8450-4baf-8598-535a1941820c">IApplicationDestinations::RemoveDestination</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-removedestination">IApplicationDestinations::RemoveDestination</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1cb0646-f028-48e4-b40d-f90a08152513">IApplicationDestinations::SetAppID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid">IApplicationDestinations::SetAppID</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">Taskbar Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
  
 
  

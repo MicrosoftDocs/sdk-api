@@ -59,7 +59,7 @@ Gets information about the image sharing device.
 
 ### -param pDevice [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/B006298C-B733-4E76-BD31-A3D1DD4DC766">DEVICE_INFO</a> structure. The method fills in this structure with the device information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/ns-mfsharingengine-device_info">DEVICE_INFO</a> structure. The method fills in this structure with the device information.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The method allocates memory for the <b>BSTR</b> members of the <a href="https://msdn.microsoft.com/B006298C-B733-4E76-BD31-A3D1DD4DC766">DEVICE_INFO</a> structure. The caller must free the memory for each <b>BSTR</b> by calling <b>SysFreeString</b>.
+The method allocates memory for the <b>BSTR</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/ns-mfsharingengine-device_info">DEVICE_INFO</a> structure. The caller must free the memory for each <b>BSTR</b> by calling <b>SysFreeString</b>.
 
 
 
@@ -85,7 +85,7 @@ The method allocates memory for the <b>BSTR</b> members of the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/A30C73DA-9BD5-4D12-A6FB-771BBD2D1191">IMFImageSharingEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfimagesharingengine">IMFImageSharingEngine</a>
  
 
  

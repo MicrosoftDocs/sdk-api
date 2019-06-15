@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">interlace</a>, copy protection, and aspect ratio.
+The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">interlace</a>, copy protection, and aspect ratio.
 
 
 
@@ -134,7 +134,7 @@ This structure is identical to the <b>VIDEOINFOHEADER2</b> structure defined in 
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

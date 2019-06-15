@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Queries an adapter output for multiplane overlay support. If this API returns ‘TRUE’, multiple swap chain composition takes place in a performant manner using overlay hardware. If this API returns false, apps should avoid using foreground swap chains (that is, avoid using swap chains created with the <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER</a> flag).
+Queries an adapter output for multiplane overlay support. If this API returns ‘TRUE’, multiple swap chain composition takes place in a performant manner using overlay hardware. If this API returns false, apps should avoid using foreground swap chains (that is, avoid using swap chains created with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG_FOREGROUND_LAYER</a> flag).
 
 
 ## -parameters
@@ -73,7 +73,7 @@ TRUE if the output adapter is the primary adapter and it supports multiplane ove
 
 
 
-See <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">CreateSwapChainForCoreWindow</a> for info on creating a foreground swap chain.
+See <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">CreateSwapChainForCoreWindow</a> for info on creating a foreground swap chain.
 
 
 
@@ -83,7 +83,7 @@ See <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">Cr
 
 
 
-<a href="https://msdn.microsoft.com/23585A1F-3F18-4247-91DB-712C0A8D5398">IDXGIOutput2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput2">IDXGIOutput2</a>
  
 
  

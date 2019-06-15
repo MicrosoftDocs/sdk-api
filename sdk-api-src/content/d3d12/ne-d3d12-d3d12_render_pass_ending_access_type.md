@@ -69,7 +69,7 @@ Indicates that your application will have a dependency on the written contents o
 
 ### -field D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE
 
-Indicates that the resource(s)—for example, a multi-sample anti-aliasing (MSAA) surface—should be directly resolved to a separate resource at the conclusion of the render pass. For a tile-based deferred renderer (TBDR), this should ideally happenwhile the MSAA contents are still in the tile cache. You should ensure that the resolve destination is in the <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RESOLVE_DEST</a> resource state when the render pass ends. The resolve source is left in its initial resource state at the time the render pass ends.  A resolve operation submitted by a render pass doesn't implicitly change the state of any resource.
+Indicates that the resource(s)—for example, a multi-sample anti-aliasing (MSAA) surface—should be directly resolved to a separate resource at the conclusion of the render pass. For a tile-based deferred renderer (TBDR), this should ideally happenwhile the MSAA contents are still in the tile cache. You should ensure that the resolve destination is in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_DEST</a> resource state when the render pass ends. The resolve source is left in its initial resource state at the time the render pass ends.  A resolve operation submitted by a render pass doesn't implicitly change the state of any resource.
 
 
 ### -field D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS
@@ -82,7 +82,7 @@ Indicates that your application will neither read from nor write  to the resourc
 
 
 
-<a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
  
 
  

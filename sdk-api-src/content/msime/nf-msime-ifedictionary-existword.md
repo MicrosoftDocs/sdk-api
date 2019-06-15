@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines if the specified word exists in <a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a>.
+Determines if the specified word exists in <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Determines if the specified word exists in <a href="https://msdn.microsoft.com/4
 
 ### -param pwrd [in]
 
-An <a href="https://msdn.microsoft.com/BC0D039A-7EB4-4A8D-B063-479CF4294FF0">IMEWRD</a> structure specifying the word to check.
+An <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a> structure specifying the word to check.
 
 
 ## -returns
@@ -117,11 +117,11 @@ An unexpected error.
 
 
 
-<a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://msdn.microsoft.com/BC0D039A-7EB4-4A8D-B063-479CF4294FF0">IMEWRD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imewrd">IMEWRD</a>
  
 
  

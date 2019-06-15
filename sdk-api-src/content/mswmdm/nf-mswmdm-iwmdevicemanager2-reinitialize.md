@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-Windows Media Device Manager monitors Plug and Play (PnP) notifications to keep track of connected devices which are controlled by a PnP-compliant service provider. If a non-compliant device is plugged in or some other changes are made to a device for which the device does not generate PnP notifications (for example, insertion or removal of a storage card), the application should call this method before calling <a href="https://msdn.microsoft.com/b5015263-23f2-466f-a89f-26c14f7a2263">IWMDeviceManager2::EnumDevices2</a>. The application would typically do this on a refresh request from the user.
+Windows Media Device Manager monitors Plug and Play (PnP) notifications to keep track of connected devices which are controlled by a PnP-compliant service provider. If a non-compliant device is plugged in or some other changes are made to a device for which the device does not generate PnP notifications (for example, insertion or removal of a storage card), the application should call this method before calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDeviceManager2::EnumDevices2</a>. The application would typically do this on a refresh request from the user.
 
 
 
@@ -86,11 +86,11 @@ Windows Media Device Manager monitors Plug and Play (PnP) notifications to keep 
 
 
 
-<a href="https://msdn.microsoft.com/ea4bf623-c93a-4c0f-a84f-e3a979b37d60">IWMDeviceManager2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5015263-23f2-466f-a89f-26c14f7a2263">IWMDeviceManager2::EnumDevices2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDeviceManager2::EnumDevices2</a>
  
 
  

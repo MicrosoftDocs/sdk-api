@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx">CBTProc</a>, before a window is created. 
+Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is created. 
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://
 
 Type: <b>LPCREATESTRUCT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a> structure that contains initialization parameters for the window about to be created. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa">CREATESTRUCT</a> structure that contains initialization parameters for the window about to be created. 
 
 
 ### -field hwndInsertAfter
@@ -78,11 +78,11 @@ A handle to the window whose position in the Z order precedes that of the window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644977(v=VS.85).aspx">CBTProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagcreatestructa">CREATESTRUCT</a>
 
 
 
@@ -90,7 +90,7 @@ A handle to the window whose position in the Z order precedes that of the window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -98,7 +98,7 @@ A handle to the window whose position in the Z order precedes that of the window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
  
 
  

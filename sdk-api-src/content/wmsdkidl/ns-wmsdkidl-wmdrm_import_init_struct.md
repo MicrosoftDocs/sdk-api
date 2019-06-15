@@ -72,7 +72,7 @@ Size of the encrypted session key message in bytes.
 
 ### -field pbEncryptedSessionKeyMessage
 
-Address of a buffer containing the encrypted session key message. This message is contained in a field of a <a href="https://msdn.microsoft.com/2dd1e8ec-a25f-4ced-8f1b-286534c66ebf">WMDRM_IMPORT_SESSION_KEY</a> structure. The message and its associated key data are both encrypted with the Windows Media DRM machine public key.
+Address of a buffer containing the encrypted session key message. This message is contained in a field of a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmdrm-import-session-key">WMDRM_IMPORT_SESSION_KEY</a> structure. The message and its associated key data are both encrypted with the Windows Media DRM machine public key.
 
 
 ### -field cbEncryptedKeyMessage
@@ -82,14 +82,14 @@ Size of the encrypted key message in bytes.
 
 ### -field pbEncryptedKeyMessage
 
-Address of a buffer containing the encrypted key message. This message is contained in a field of a <a href="https://msdn.microsoft.com/29a0f98d-96a3-46b2-a67c-dbb23449e927">WMDRM_IMPORT_CONTENT_KEY</a> structure. The message and its associated key data are both encrypted with the Windows Media DRM machine public key.
+Address of a buffer containing the encrypted key message. This message is contained in a field of a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmdrm-import-content-key">WMDRM_IMPORT_CONTENT_KEY</a> structure. The message and its associated key data are both encrypted with the Windows Media DRM machine public key.
 
 
 ## -remarks
 
 
 
-This structure is used to initialize protected stream sample writing in a call to the <a href="https://msdn.microsoft.com/en-us/library/Dd798376(v=VS.85).aspx">IWMDRMWriter3::SetProtectStreamSamples</a> method.
+This structure is used to initialize protected stream sample writing in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmwriter3-setprotectstreamsamples">IWMDRMWriter3::SetProtectStreamSamples</a> method.
 
 
 
@@ -99,7 +99,7 @@ This structure is used to initialize protected stream sample writing in a call t
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

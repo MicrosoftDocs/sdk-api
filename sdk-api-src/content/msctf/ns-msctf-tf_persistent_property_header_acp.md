@@ -95,27 +95,27 @@ Contains the CLSID of the property owner.
 
 
 
-<a href="https://msdn.microsoft.com/14be52d1-4f8c-4deb-aa92-470c3608c841">ITextStoreACPServices::Serialize
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-serialize">ITextStoreACPServices::Serialize
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/4eb2f2b9-51fb-4970-a195-c05e1d19ff99">ITextStoreACPServices::Unserialize
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e67b6fa7-610d-426f-a290-36c0da4068f4">ITfContextOwnerServices::Serialize
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-serialize">ITfContextOwnerServices::Serialize
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b02ffedf-83c5-48ff-8116-801aaec6dc71">ITfContextOwnerServices::Unserialize
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">ITfContextOwnerServices::Unserialize
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/20730a90-e59c-46ae-a0bf-a212b201351c">ITfPersistentPropertyLoaderACP::LoadProperty
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpersistentpropertyloaderacp-loadproperty">ITfPersistentPropertyLoaderACP::LoadProperty
       </a>
  
 

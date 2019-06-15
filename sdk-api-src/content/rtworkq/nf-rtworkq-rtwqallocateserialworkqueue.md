@@ -62,9 +62,9 @@ Creates a virtual  work queue on top of another work queue that is guaranteed to
 The identifier of an existing work queue. This must be either a multithreaded queue or another serial work queue. Any of the following can be used:
 
 <ul>
-<li>The default work queue  (<b>RTWQ_STANDARD_WORKQUEUE</b>).  See <a href="https://msdn.microsoft.com/4aab85f3-855e-4fbf-9d25-209214bdd73b">RTWQ_WORKQUEUE_TYPE</a>.</li>
-<li>The platform multithreaded queue (<b>RTWQ_MULTITHREADED_WORKQUEUE</b>). See <a href="https://msdn.microsoft.com/4aab85f3-855e-4fbf-9d25-209214bdd73b">RTWQ_WORKQUEUE_TYPE</a>.</li>
-<li>A multithreaded queue returned by the <a href="https://msdn.microsoft.com/ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6">RtwqLockSharedWorkQueue</a>  function.</li>
+<li>The default work queue  (<b>RTWQ_STANDARD_WORKQUEUE</b>).  See <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/ne-rtworkq-rtwq_workqueue_type">RTWQ_WORKQUEUE_TYPE</a>.</li>
+<li>The platform multithreaded queue (<b>RTWQ_MULTITHREADED_WORKQUEUE</b>). See <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/ne-rtworkq-rtwq_workqueue_type">RTWQ_WORKQUEUE_TYPE</a>.</li>
+<li>A multithreaded queue returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqlocksharedworkqueue">RtwqLockSharedWorkQueue</a>  function.</li>
 <li>A serial queue created by the <b>RtwqAllocateSerialWorkQueue</b> function.</li>
 </ul>
 
@@ -115,7 +115,7 @@ The application exceeded the maximum number of work queues.
 </dl>
 </td>
 <td width="60%">
-The application did not call <a href="https://msdn.microsoft.com/101e73ec-34ec-49af-999d-5410f46ff319">RtwqStartup</a>, or the application has already called <a href="https://msdn.microsoft.com/806c4142-b628-4ea0-b5e2-d2b4ead73c04">RtwqShutdown</a>.
+The application did not call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqstartup">RtwqStartup</a>, or the application has already called <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqshutdown">RtwqShutdown</a>.
               
 
 </td>
@@ -130,7 +130,7 @@ The application did not call <a href="https://msdn.microsoft.com/101e73ec-34ec-4
 
 
 
-When you are done using the work queue, call <a href="https://msdn.microsoft.com/a7c4c8e2-ad35-4b39-9174-41e2a605304e">RtwqUnlockWorkQueue</a>.
+When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqunlockworkqueue">RtwqUnlockWorkQueue</a>.
 
 Multithreaded queues use a thread pool, which  can reduce the total number of threads in the pipeline. However, they do not serialize work items. A serial work queue enables the application to get the benefits of the thread pool, without needing to perform manual serialization of its own work items.
 
@@ -142,7 +142,7 @@ Multithreaded queues use a thread pool, which  can reduce the total number of th
 
 
 
-<a href="https://msdn.microsoft.com/4aab85f3-855e-4fbf-9d25-209214bdd73b">RTWQ_WORKQUEUE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/ne-rtworkq-rtwq_workqueue_type">RTWQ_WORKQUEUE_TYPE</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Event</b> method gets an 
-<a href="https://msdn.microsoft.com/44eb7669-6c0b-4b9c-a209-9f15f27a1ba9">AGENT_SESSION_EVENT</a> descriptor of the event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_session_event">AGENT_SESSION_EVENT</a> descriptor of the event that occurred.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pEvent [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/44eb7669-6c0b-4b9c-a209-9f15f27a1ba9">AGENT_SESSION_EVENT</a> descriptor of the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_session_event">AGENT_SESSION_EVENT</a> descriptor of the event.
 
 
 ## -returns
@@ -120,11 +120,11 @@ The <i>pEvent</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/44eb7669-6c0b-4b9c-a209-9f15f27a1ba9">AGENT_SESSION_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_session_event">AGENT_SESSION_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/70d37d06-b1a6-4f7e-bfe5-731d1b4cd66b">ITAgentSessionEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>
  
 
  

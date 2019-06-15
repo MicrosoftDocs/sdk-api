@@ -55,7 +55,7 @@ Represents a conflict between two items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChangeConflict</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IChangeConflict</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IChangeConflict</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IChangeConflict</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IChangeConflict</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4624f92a-8455-4490-a256-9cf849626844">GetDestinationProviderConflictingChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-getdestinationproviderconflictingchange">GetDestinationProviderConflictingChange</a>
 </td>
 <td align="left" width="63%">
 Gets the change metadata from the destination provider.
@@ -80,7 +80,7 @@ Gets the change metadata from the destination provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a63d554-56e0-4c39-94ea-613fecc97331">GetDestinationProviderConflictingData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-getdestinationproviderconflictingdata">GetDestinationProviderConflictingData</a>
 </td>
 <td align="left" width="63%">
 Gets an object that can be used to retrieve item data for the change item from the destination replica.
@@ -90,7 +90,7 @@ Gets an object that can be used to retrieve item data for the change item from t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b89124fe-200e-4061-974e-2d686de7a932">GetResolveActionForChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-getresolveactionforchange">GetResolveActionForChange</a>
 </td>
 <td align="left" width="63%">
 Gets the conflict resolution action for the conflict.
@@ -100,7 +100,7 @@ Gets the conflict resolution action for the conflict.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/206ee654-e8a6-4b71-b933-3380dc4ed0ad">GetResolveActionForChangeUnit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-getresolveactionforchangeunit">GetResolveActionForChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Gets the conflict resolution action for the conflicting change unit change.
@@ -110,7 +110,7 @@ Gets the conflict resolution action for the conflicting change unit change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a77983ec-77fd-4e24-a978-df37a85b0ede">GetSourceProviderConflictingChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-getsourceproviderconflictingchange">GetSourceProviderConflictingChange</a>
 </td>
 <td align="left" width="63%">
 Gets the change metadata from the source provider.
@@ -120,7 +120,7 @@ Gets the change metadata from the source provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4227b559-59e9-4b87-beb0-2d47f3d81414">GetSourceProviderConflictingData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-getsourceproviderconflictingdata">GetSourceProviderConflictingData</a>
 </td>
 <td align="left" width="63%">
 Gets an object that can be used to retrieve item data for the change item from the source replica.
@@ -130,7 +130,7 @@ Gets an object that can be used to retrieve item data for the change item from t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1a26c85-a00d-408e-96ea-5849c6bb99ff">SetResolveActionForChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-setresolveactionforchange">SetResolveActionForChange</a>
 </td>
 <td align="left" width="63%">
 Sets a conflict resolution action for the conflict.
@@ -140,7 +140,7 @@ Sets a conflict resolution action for the conflict.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8594a888-21a1-4cfb-964c-9c670e3a7438">SetResolveActionForChangeUnit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-setresolveactionforchangeunit">SetResolveActionForChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Sets a conflict resolution action for the conflicting change unit change.
@@ -156,7 +156,7 @@ Sets a conflict resolution action for the conflicting change unit change.
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

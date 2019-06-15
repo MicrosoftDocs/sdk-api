@@ -59,7 +59,7 @@ The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on t
 
 ### -field header
 
-A <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that holds information on the type, size, adapterID, and ID of the target the monitor is connected to.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that holds information on the type, size, adapterID, and ID of the target the monitor is connected to.
 
 
 ### -field DUMMYSTRUCTNAME

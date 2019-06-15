@@ -59,7 +59,7 @@ Binds the calling object to the current application domain and provides a callba
 
 ### -param pUnkAD [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the current application domain.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the current application domain.
 
 
 ### -param __MIDL__IAppDomainHelper0000
@@ -95,7 +95,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/2709f284-ca8c-404e-b568-b655f780549a">IAppDomainHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iappdomainhelper">IAppDomainHelper</a>
  
 
  

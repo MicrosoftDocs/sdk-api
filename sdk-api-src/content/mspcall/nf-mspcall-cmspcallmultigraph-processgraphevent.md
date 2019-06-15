@@ -61,7 +61,7 @@ The <b>ProcessGraphEvent</b> method (as defined in MSPCall.h) is called on the M
 ### -param pITStream
 
 Pointer to 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface.
 
 
 ### -param lEventCode
@@ -84,7 +84,7 @@ Filled in by filter graph. Implementation dependent.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
  
 
  

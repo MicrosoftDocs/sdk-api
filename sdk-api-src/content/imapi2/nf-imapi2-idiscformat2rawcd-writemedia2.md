@@ -447,7 +447,7 @@ Value: 0xC0AA0002
 
 
 
-This method is identical in function to the <b>IDiscFormat2RawCD::WriteMedia</b> method, except that it allows for a starting time other than 95:00:00. For details, please see the <a href="https://msdn.microsoft.com/137395f1-b0cf-4bd0-9d3b-a21122eb8b57">IDiscFormat2RawCD::WriteMedia</a> method. 
+This method is identical in function to the <b>IDiscFormat2RawCD::WriteMedia</b> method, except that it allows for a starting time other than 95:00:00. For details, please see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> method. 
 
 
 
@@ -457,11 +457,11 @@ This method is identical in function to the <b>IDiscFormat2RawCD::WriteMedia</b>
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://msdn.microsoft.com/137395f1-b0cf-4bd0-9d3b-a21122eb8b57">IDiscFormat2RawCD::WriteMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a>
  
 
  

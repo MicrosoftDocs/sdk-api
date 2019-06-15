@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the current progress status of a synchronization process. Used by <a href="https://msdn.microsoft.com/fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8">ISyncMgrSyncCallback::ReportProgress</a>.
+Specifies the current progress status of a synchronization process. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>.
 
 
 ## -enum-fields
@@ -89,5 +89,5 @@ The device being synchronized was disconnected before the sync completed..
 
 ### -field SYNCMGR_PS_MAX
 
-Used only to declare the largest valid value in this enumeration. Do not use with <a href="https://msdn.microsoft.com/fd7ed6f4-49c6-44c7-86f9-0b2c04d19de8">ISyncMgrSyncCallback::ReportProgress</a>.
+Used only to declare the largest valid value in this enumeration. Do not use with <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>.
 

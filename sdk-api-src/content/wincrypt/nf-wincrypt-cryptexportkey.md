@@ -51,11 +51,11 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptExportKey</b> function exports a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic key</a> or a key pair from a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) in a secure manner.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptExportKey</b> function exports a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic key</a> or a key pair from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) in a secure manner.
 
 A handle to the key to be exported is passed to the function, and the function returns 
-a <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a>. This key BLOB can be sent over a nonsecure transport or stored in a nonsecure storage location. This function can export an <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Schannel</a> session key, regular <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session key</a>, <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>, or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public/private key pair</a>. The key BLOB to export is useless until the intended recipient uses the 
-<a href="https://msdn.microsoft.com/f48b6ec9-e03b-43b0-9f22-120ae93d934c">CryptImportKey</a> function on it to import the key or key pair into a recipient's CSP.
+a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>. This key BLOB can be sent over a nonsecure transport or stored in a nonsecure storage location. This function can export an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Schannel</a> session key, regular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The key BLOB to export is useless until the intended recipient uses the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> function on it to import the key or key pair into a recipient's CSP.
 
 
 ## -parameters
@@ -70,25 +70,25 @@ A handle to the key to be exported.
 
 ### -param hExpKey [in]
 
-A handle to a cryptographic key of the destination user. The key data within the exported <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a> is encrypted using this key. This ensures that only the destination user is able to make use of the key BLOB.  Both <i>hExpKey</i> and <i>hKey</i> must come from the same CSP.
+A handle to a cryptographic key of the destination user. The key data within the exported <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> is encrypted using this key. This ensures that only the destination user is able to make use of the key BLOB.  Both <i>hExpKey</i> and <i>hKey</i> must come from the same CSP.
 
 
-Most often, this is the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key exchange public key</a> of the destination user. However, certain protocols in some CSPs require that a session key belonging to the destination user be used for this purpose.
+Most often, this is the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key exchange public key</a> of the destination user. However, certain protocols in some CSPs require that a session key belonging to the destination user be used for this purpose.
 
 If the key BLOB type specified by <i>dwBlobType</i> is <b>PUBLICKEYBLOB</b>, this parameter is unused and must be set to zero.
 
-If the key BLOB type specified by <i>dwBlobType</i> is <b>PRIVATEKEYBLOB</b>, this is typically a handle to a session key that is to be used to encrypt the key BLOB. Some CSPs allow this parameter to be zero, in which case the application must encrypt the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key BLOB</a> manually so as to protect it.
+If the key BLOB type specified by <i>dwBlobType</i> is <b>PRIVATEKEYBLOB</b>, this is typically a handle to a session key that is to be used to encrypt the key BLOB. Some CSPs allow this parameter to be zero, in which case the application must encrypt the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOB</a> manually so as to protect it.
 
-To determine how Microsoft <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service providers</a> respond to this parameter, see the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key BLOB</a> sections of 
-<a href="https://msdn.microsoft.com/1461914e-5506-4f24-97da-3d2148aafd1c">Microsoft Cryptographic Service Providers</a>.
+To determine how Microsoft <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> respond to this parameter, see the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOB</a> sections of 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-cryptographic-service-providers">Microsoft Cryptographic Service Providers</a>.
 
-<div class="alert"><b>Note</b>  Some CSPs may modify this parameter as a result of the operation. Applications that subsequently use this key for other purposes should call the  <a href="https://msdn.microsoft.com/c5658008-7c92-4877-871a-a764884efd79">CryptDuplicateKey</a> function to create a duplicate key handle. When the application has finished using the handle, release it by calling the <a href="https://msdn.microsoft.com/ed5d8047-c9fd-4765-915f-a6a014004b30">CryptDestroyKey</a> function.</div>
+<div class="alert"><b>Note</b>  Some CSPs may modify this parameter as a result of the operation. Applications that subsequently use this key for other purposes should call the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptduplicatekey">CryptDuplicateKey</a> function to create a duplicate key handle. When the application has finished using the handle, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroykey">CryptDestroyKey</a> function.</div>
 <div> </div>
 
 ### -param dwBlobType [in]
 
-Specifies the type of <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a> to be exported in <i>pbData</i>. This must be one of the following constants as discussed in 
-<a href="https://msdn.microsoft.com/859b1bfe-6182-4728-a721-1f34cc98f66f">Cryptographic Key Storage and Exchange</a>.
+Specifies the type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> to be exported in <i>pbData</i>. This must be one of the following constants as discussed in 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-key-storage-and-exchange">Cryptographic Key Storage and Exchange</a>.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ Used to store session keys in an Schannel CSP or any other vendor-specific forma
 </dl>
 </td>
 <td width="60%">
-Used to transport <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public/private key pairs</a>.
+Used to transport <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pairs</a>.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Used to transport session keys.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/69FE94D0-8FB5-4EFE-BD84-64B439B3ADE8">PLAINTEXTKEYBLOB</a> used to export any key supported by the CSP in use. 
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj650836(v=vs.85)">PLAINTEXTKEYBLOB</a> used to export any key supported by the CSP in use. 
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ A <a href="https://msdn.microsoft.com/69FE94D0-8FB5-4EFE-BD84-64B439B3ADE8">PLAI
 </dl>
 </td>
 <td width="60%">
-Used to export and import a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric key</a> wrapped with another symmetric key. The actual wrapped key is in the format specified in the IETF <a href="http://go.microsoft.com/fwlink/p/?linkid=84565">RFC 3217</a> standard.
+Used to export and import a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a> wrapped with another symmetric key. The actual wrapped key is in the format specified in the IETF <a href="http://go.microsoft.com/fwlink/p/?linkid=84565">RFC 3217</a> standard.
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ This flag causes PKCS #1 version 2 formatting to be created with the RSA encrypt
 </dl>
 </td>
 <td width="60%">
-The first eight bytes of the RSA encryption block <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">padding</a> must be set to 0x03 rather than to random data. This prevents version rollback attacks and is discussed in the SSL3 specification. This flag is available for Schannel CSPs only.
+The first eight bytes of the RSA encryption block <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">padding</a> must be set to 0x03 rather than to random data. This prevents version rollback attacks and is discussed in the SSL3 specification. This flag is available for Schannel CSPs only.
 
 </td>
 </tr>
@@ -229,11 +229,11 @@ This flag is not used.
 
 ### -param pbData [out]
 
-A pointer to a buffer that receives the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a> data. The format of this BLOB varies depending on the BLOB type requested in the <i>dwBlobType</i> parameter. For the format for PRIVATEKEYBLOBs, PUBLICKEYBLOBs, and SIMPLEBLOBs, see 
-<a href="https://msdn.microsoft.com/b4592036-0fa3-4b7e-beed-78cf1d2f39a9">Base Provider Key BLOBs</a>.
+A pointer to a buffer that receives the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> data. The format of this BLOB varies depending on the BLOB type requested in the <i>dwBlobType</i> parameter. For the format for PRIVATEKEYBLOBs, PUBLICKEYBLOBs, and SIMPLEBLOBs, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/base-provider-key-blobs">Base Provider Key BLOBs</a>.
 
 If this parameter is <b>NULL</b>, the required buffer size is placed in the value pointed to by the <i>pdwDataLen</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pdwDataLen [in, out]
@@ -252,7 +252,7 @@ To retrieve the required size of the <i>pbData</i> buffer, pass <b>NULL</b> for 
 If the function succeeds, the function returns  nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by "NTE" are generated by the particular CSP being used. The following table shows some of the possible error codes.
 
@@ -345,7 +345,7 @@ You do not have permission to export the key. That is, when the <i>hKey</i> key 
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a> type specified by <i>dwBlobType</i> is PUBLICKEYBLOB, but <i>hExpKey</i> does not contain a public key handle.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> type specified by <i>dwBlobType</i> is PUBLICKEYBLOB, but <i>hExpKey</i> does not contain a public key handle.
 
 </td>
 </tr>
@@ -418,7 +418,7 @@ For any of the DES key permutations that use a PLAINTEXTKEYBLOB, only the full k
 #### Examples
 
 The following example shows how to export a cryptographic key or a key pair in a more secure manner. This example assumes that a cryptographic context has been acquired and that a public key is available for export. For an example that includes the complete context for using this function, see 
-<a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>. For another example that uses this function, see <a href="https://msdn.microsoft.com/a7f2fdd1-9514-4cda-bae2-2f379dd9a27d">Example C Program: Exporting a Session Key</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-signing-a-hash-and-verifying-the-hash-signature">Example C Program: Signing a Hash and Verifying the Hash Signature</a>. For another example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-exporting-a-session-key">Example C Program: Exporting a Session Key</a>.
 				
 
 
@@ -502,11 +502,11 @@ BOOL GetExportedKey(
 
 
 
-<a href="https://msdn.microsoft.com/f48b6ec9-e03b-43b0-9f22-120ae93d934c">CryptImportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
  
 
  

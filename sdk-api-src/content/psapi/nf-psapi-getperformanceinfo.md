@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 Retrieves the performance values contained in the 
-    <a href="https://msdn.microsoft.com/efc47f6e-1a60-4e77-9e5d-c725f9042ab8">PERFORMANCE_INFORMATION</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a> 
     structure.
 
 
@@ -67,14 +67,14 @@ Retrieves the performance values contained in the
 ### -param pPerformanceInformation [out]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/efc47f6e-1a60-4e77-9e5d-c725f9042ab8">PERFORMANCE_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a> 
       structure that receives the performance information.
 
 
 ### -param cb [in]
 
 The size of the 
-      <a href="https://msdn.microsoft.com/efc47f6e-1a60-4e77-9e5d-c725f9042ab8">PERFORMANCE_INFORMATION</a> structure, in 
+      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a> structure, in 
       bytes.
 
 
@@ -83,7 +83,7 @@ The size of the
 
 
 If the function succeeds, the return value is TRUE. If the function fails, the return value is FALSE. To get 
-       extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -116,15 +116,15 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 
-<a href="https://msdn.microsoft.com/b27ca747-8fd2-4267-9979-4e2e14a5a19f">Memory Performance Information</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/efc47f6e-1a60-4e77-9e5d-c725f9042ab8">PERFORMANCE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_performance_information">PERFORMANCE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
  
 
  

@@ -75,7 +75,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-The MCN returned by this method is formatted as a 13-digit decimal number and must also be provided by  the <a href="https://msdn.microsoft.com/0ba2eaac-3bbc-4625-9c5d-1f1d23bbfa66">IRawCDImageCreator::put_MediaCatalogNumber</a> method  in the same form.  Additionally, the provided a MCN value provided via <b>IRawCDImageCreator::put_MediaCatalogNumber</b>   must have a valid checksum digit (least significant digit), or it will be rejected.  For improved compatibility with scripting, leading zeros may be excluded. For example, "0123456789012" can be expressed as "123456789012".
+The MCN returned by this method is formatted as a 13-digit decimal number and must also be provided by  the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_mediacatalognumber">IRawCDImageCreator::put_MediaCatalogNumber</a> method  in the same form.  Additionally, the provided a MCN value provided via <b>IRawCDImageCreator::put_MediaCatalogNumber</b>   must have a valid checksum digit (least significant digit), or it will be rejected.  For improved compatibility with scripting, leading zeros may be excluded. For example, "0123456789012" can be expressed as "123456789012".
 
 Please refer to the MMC specification for details regarding the MCN value.  
 
@@ -89,11 +89,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/b5fe1a32-545e-417d-9996-34d12862a0ea">IRawCDImageCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ba2eaac-3bbc-4625-9c5d-1f1d23bbfa66">IRawCDImageCreator::put_MediaCatalogNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-put_mediacatalognumber">IRawCDImageCreator::put_MediaCatalogNumber</a>
  
 
  

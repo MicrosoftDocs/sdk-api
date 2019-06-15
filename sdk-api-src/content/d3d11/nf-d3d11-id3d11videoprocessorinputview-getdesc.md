@@ -59,7 +59,7 @@ Gets the properties of the video processor input view.
 
 ### -param pDesc [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/69EDF918-355A-4277-9F7E-C08CF65E5418">D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC</a> structure. The method fills the structure with the view properties.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_input_view_desc">D3D11_VIDEO_PROCESSOR_INPUT_VIEW_DESC</a> structure. The method fills the structure with the view properties.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/E76B9CBE-2584-4DBC-8EF4-E9DA105226B9">ID3D11VideoProcessorInputView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessorinputview">ID3D11VideoProcessorInputView</a>
  
 
  

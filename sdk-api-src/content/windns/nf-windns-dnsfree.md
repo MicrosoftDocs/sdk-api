@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>DnsFree</b> function frees memory allocated for DNS records that was obtained using the 
-<a href="https://msdn.microsoft.com/3d810b76-cea1-4904-9b5a-c2566b332c2c">DnsQuery</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A pointer to the DNS data to be freed.
 
 ### -param FreeType [in]
 
-A value that specifies the type of DNS data in <i>pData</i>. For more information and a list of values, see the <a href="https://msdn.microsoft.com/976982a1-08f1-4c67-b823-1eea34f0c643">DNS_FREE_TYPE</a> enumeration.
+A value that specifies the type of DNS data in <i>pData</i>. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a> enumeration.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/976982a1-08f1-4c67-b823-1eea34f0c643">DNS_FREE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-__unnamed_enum_1">DNS_FREE_TYPE</a>
  
 
  

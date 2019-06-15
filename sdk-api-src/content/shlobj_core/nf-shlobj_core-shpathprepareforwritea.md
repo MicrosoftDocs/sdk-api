@@ -68,9 +68,9 @@ A handle to a window that specifies the parent window to be used for any user in
 
 ### -param punkEnableModless [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms691299(v=VS.85).aspx">IOleInPlaceActiveObject</a> object that implements the <a href="https://msdn.microsoft.com/en-us/library/Bb774829(v=VS.85).aspx">EnableModeless</a> method.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that specifies the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-enablemodeless">EnableModeless</a> method.
 
 
 ### -param pszPath [in]

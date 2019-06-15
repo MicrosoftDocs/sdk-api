@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a> is in process.
+Gets a value that indicates  if <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a> is in process.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d
 
 
 
-<b>true</b> if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a>; otherwise, <b>false</b>.
+<b>true</b> if <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a>; otherwise, <b>false</b>.
 
 
 
@@ -73,7 +73,7 @@ Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d
 
 
 
-<a href="https://msdn.microsoft.com/f241e232-9013-46d0-be97-2d6b5246cff3">IMFSourceBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
  
 
  

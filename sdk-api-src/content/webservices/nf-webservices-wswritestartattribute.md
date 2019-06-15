@@ -50,10 +50,10 @@ ms.custom: 19H1
 
 
 This operation starts writing an attribute to the current element.
-      <a href="https://msdn.microsoft.com/da23f5e6-504c-4e93-9190-7d8c41efc0da">WsWriteStartElement</a> must be called before an attribute can be written.
+      <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written.
       After the attribute has been started, the attribute value can be written
-        using <a href="https://msdn.microsoft.com/e435058f-62b5-4ae9-800e-e022033a9664">WsWriteChars</a>, <a href="https://msdn.microsoft.com/1fa9ecfc-c791-459f-ae11-ffcdc82b7145">WsWriteBytes</a>, or <a href="https://msdn.microsoft.com/c7b9d014-89b5-4959-b49e-ee2cdeb41f7c">WsWriteValue</a>. The attribute must
-        be completed using using <a href="https://msdn.microsoft.com/8747c484-19b3-46b2-beee-80b220011def">WsWriteEndAttribute</a>.
+        using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a>. The attribute must
+        be completed using using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.
       
 
 
@@ -64,7 +64,7 @@ This operation starts writing an attribute to the current element.
 
 ### -param writer [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object to which the attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
                 
 
 
@@ -94,7 +94,7 @@ A WS_XML_STRING pointer to the namespace to be used for the attribute.
 ### -param singleQuote [in]
 
 Determines whether to use a single or a double quote for the attribute value.
-        <div class="alert"><b>Note</b>  With <a href="https://msdn.microsoft.com/en-us/library/Dd323574(v=VS.85).aspx">WS_XML_WRITER_BINARY_ENCODING</a> the quote character is not preserved and this
+        <div class="alert"><b>Note</b>  With <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_binary_encoding">WS_XML_WRITER_BINARY_ENCODING</a> the quote character is not preserved and this
           parameter has no effect.
         </div>
 <div> </div>
@@ -105,7 +105,7 @@ Determines whether to use a single or a double quote for the attribute value.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -181,12 +181,12 @@ To write an "xml:lang"  or "xml:space" attribute, specify "xml" for the prefix, 
         and "http://www.w3.org/XML/1998/namespace" for the namespace.
       
 
-If writing the attribute causes <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
+If writing the attribute causes <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
         then <b>WS_E_QUOTA_EXCEEDED</b> is returned.
       
 
 If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 

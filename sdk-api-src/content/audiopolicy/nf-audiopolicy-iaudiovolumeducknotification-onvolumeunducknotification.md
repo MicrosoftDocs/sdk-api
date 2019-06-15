@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OnVolumeUnduckNotification</b> method sends a notification about a pending system unducking event. For more information, see <a href="https://msdn.microsoft.com/1b92574e-7cde-49c0-a68e-223492412361">Implementation Considerations for Ducking Notifications</a>.
+The <b>OnVolumeUnduckNotification</b> method sends a notification about a pending system unducking event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/handling-audio-ducking-events-from-communication-devices">Implementation Considerations for Ducking Notifications</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>OnVolumeUnduckNotification</b> method sends a notification about a pendin
 
 ### -param sessionID [in]
 
-A string containing the session instance identifier of the terminating communications session that intiated the ducking. To get the session instance identifier, call <a href="https://msdn.microsoft.com/02350812-7f05-400e-87f7-1d912a23050d">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
+A string containing the session instance identifier of the terminating communications session that intiated the ducking. To get the session instance identifier, call <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol2-getsessioninstanceidentifier">IAudioSessionControl2::GetSessionInstanceIdentifier</a>.
 
 
 #### - countCommunicationsSessions [in]
@@ -82,7 +82,7 @@ If the method succeeds, it returns S_OK.
 
 
 
-After the application registers its implementation  of the <a href="https://msdn.microsoft.com/08e90a50-a6ac-4405-ba90-a862b78efaf8">IAudioVolumeDuckNotification</a> interface by calling <a href="https://msdn.microsoft.com/bed27f3f-6293-4a25-baa0-39562d45bddc">IAudioSessionManager2::RegisterDuckNotification</a>, the session manager calls <b>OnVolumeUnduckNotification</b> when it wants to send a notification about when ducking ends. The application receives the event notifications in the form of callbacks.
+After the application registers its implementation  of the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registerducknotification">IAudioSessionManager2::RegisterDuckNotification</a>, the session manager calls <b>OnVolumeUnduckNotification</b> when it wants to send a notification about when ducking ends. The application receives the event notifications in the form of callbacks.
 
 
 
@@ -92,11 +92,11 @@ After the application registers its implementation  of the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/08e90a50-a6ac-4405-ba90-a862b78efaf8">IAudioVolumeDuckNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/bec2127d-fb82-436d-beee-d43e8fef5c35">Using a Communication Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
  
 
  

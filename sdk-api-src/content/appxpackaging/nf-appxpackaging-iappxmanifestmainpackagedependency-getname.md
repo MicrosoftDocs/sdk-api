@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/E9B04DAD-BD45-4699-9EB1-99CF59F8D934">IAppxManifestMainPackageDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestmainpackagedependency">IAppxManifestMainPackageDependency</a>
  
 
  

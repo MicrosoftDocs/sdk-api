@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>.
+<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>.
 ]
 
 Sets the state of the specified menu item's check-mark attribute to either selected or clear. 
@@ -159,7 +159,7 @@ The <i>uIDCheckItem</i> parameter identifies a item that opens a submenu or a co
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
@@ -174,15 +174,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647636(v=VS.85).aspx">EnableMenuItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemenuitem">EnableMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647979(v=VS.85).aspx">GetMenuItemID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -190,11 +190,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
  
 
  

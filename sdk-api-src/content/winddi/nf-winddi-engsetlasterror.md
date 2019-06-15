@@ -87,7 +87,7 @@ Only the last error code to be set is retrievable; that is, consecutive calls to
 
 
 
-<a href="https://msdn.microsoft.com/47138077-125e-4da9-b0de-e437a9b1733d">EngGetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetlasterror">EngGetLastError</a>
  
 
  

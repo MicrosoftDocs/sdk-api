@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a copy of a <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> structure.
+Creates a copy of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ Creates a copy of a <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-
 ### -param self [in]
 
 
-<a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> structure to be cloned.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure to be cloned.
 
 
 ### -param newOperationOptions [out]
 
-Returned <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> clone. When it is no longer needed, the clone needs to be deleted using the <a href="https://msdn.microsoft.com/a9e43835-92a4-468a-9d45-1d4ab81d94f0">MI_OperationOptions_Delete</a> function.
+Returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> clone. When it is no longer needed, the clone needs to be deleted using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a> function.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 
 
-<a href="https://msdn.microsoft.com/a9e43835-92a4-468a-9d45-1d4ab81d94f0">MI_OperationOptions_Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_delete">MI_OperationOptions_Delete</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761899(v=VS.85).aspx">ACM_PLAY</a> message explicitly. 
+Directs an animation control to display a particular frame of an AVI clip. The control displays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/acm-play">ACM_PLAY</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Directs an animation control to display a particular frame of an AVI clip. The c
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the animation control in which to display the AVI frame. 
 
 
 ### -param frame
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The zero-based index of the frame to display. 
 
@@ -76,7 +76,7 @@ The zero-based index of the frame to display.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761912(v=VS.85).aspx">Animate_Play</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-animate_play">Animate_Play</a>
  
 
  

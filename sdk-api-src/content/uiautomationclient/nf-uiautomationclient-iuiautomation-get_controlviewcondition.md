@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a predefined <a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a> interface that selects control elements.
+Retrieves a predefined <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a> interface that selects control elements.
 
 This property is read-only.
 
@@ -63,19 +63,19 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/d674a8c5-cb09-49a6-b457-5e7486b0e178">ContentViewCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_contentviewcondition">ContentViewCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
-<a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ed9867c-2bcb-464e-a5a6-15e9f4dcd276">RawViewCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_rawviewcondition">RawViewCondition</a>
 
 
 

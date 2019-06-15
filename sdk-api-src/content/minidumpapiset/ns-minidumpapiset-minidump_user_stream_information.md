@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains a list of user data streams used by the 
-<a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The number of user streams.
 ### -field UserStreamArray
 
 An array of 
-<a href="https://msdn.microsoft.com/43eae98c-fba3-43a4-97e6-8b81874e856e">MINIDUMP_USER_STREAM</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream">MINIDUMP_USER_STREAM</a> structures.
 
 
 ## -remarks
@@ -83,11 +83,11 @@ In this context, a data stream refers to a block of data within a minidump file.
 
 
 
-<a href="https://msdn.microsoft.com/43eae98c-fba3-43a4-97e6-8b81874e856e">MINIDUMP_USER_STREAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream">MINIDUMP_USER_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
  
 
  

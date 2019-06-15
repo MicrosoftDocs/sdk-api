@@ -64,7 +64,7 @@ A pointer to the time, in seconds, since the last refresh of the visible provide
 
 ### -param visibleProviders [out, retval]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/9D681192-1E40-4314-8E7F-8934AA8162D3">MBN_PROVIDER2</a> structures that contains the list of providers for the interface. If this method returns any value other than <b>S_OK</b>, <i>visibleProviders</i> is <b>NULL</b>. When <b>GetVisibleProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/fc94f7e7-b903-4c78-905c-54df1f8d13fa">SafeArrayDestroy</a>. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider2">MBN_PROVIDER2</a> structures that contains the list of providers for the interface. If this method returns any value other than <b>S_OK</b>, <i>visibleProviders</i> is <b>NULL</b>. When <b>GetVisibleProviders</b> returns <b>S_OK</b>, the calling application must free the allocated memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a>. 
 
 
 
@@ -87,7 +87,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The method completed successfully. <i>visibleProviders</i> contains valid values. Based on the age of the information, the calling application can decide to issue a new call to <a href="https://msdn.microsoft.com/D249B5D4-B2C3-436A-B38A-041289422F12">ScanNetwork</a>
+The method completed successfully. <i>visibleProviders</i> contains valid values. Based on the age of the information, the calling application can decide to issue a new call to <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork">ScanNetwork</a>
 
 
 </td>
@@ -99,7 +99,7 @@ The method completed successfully. <i>visibleProviders</i> contains valid values
 </dl>
 </td>
 <td width="60%">
-The information is not available. An active network scan is in progress. The calling application can get notified when the device capabilities are available by registering for the <a href="https://msdn.microsoft.com/EF1A39DB-351F-4105-BE56-C59477A67EC6">OnScanNetworkComplete</a> method of <a href="https://msdn.microsoft.com/F7CAF21B-F487-4F35-806B-312B5246C1B2">IMbnMultiCarrierEvents</a>
+The information is not available. An active network scan is in progress. The calling application can get notified when the device capabilities are available by registering for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete">OnScanNetworkComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a>
 
 
 </td>
@@ -111,7 +111,7 @@ The information is not available. An active network scan is in progress. The cal
 </dl>
 </td>
 <td width="60%">
-Mobile Broadband's cache of the visible network list is invalid. The calling application should call <a href="https://msdn.microsoft.com/D249B5D4-B2C3-436A-B38A-041289422F12">ScanNetwork</a> to populate the cache.
+Mobile Broadband's cache of the visible network list is invalid. The calling application should call <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork">ScanNetwork</a> to populate the cache.
 
 
 
@@ -142,7 +142,7 @@ This method returns the list of currently visible providers. CDMA devices will r
 
 To avoid frequent network scan operations,  Windows maintains a list of recent scan operations and the provider list is returned from the cached list.
 
-An application can call this method to get a list of visible providers upon the completion of <a href="https://msdn.microsoft.com/D249B5D4-B2C3-436A-B38A-041289422F12">ScanNetwork</a>.
+An application can call this method to get a list of visible providers upon the completion of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-scannetwork">ScanNetwork</a>.
 
 This list contains all the currently visible networks available at the user’s location excluding the ones reported by current registered provider and the list of preferred providers.  This list contains network entries that users have not subscribed to.  This list providers the user with an additional set of network choices they can potentially sign up for.
 
@@ -154,7 +154,7 @@ This list contains all the currently visible networks available at the user’s 
 
 
 
-<a href="https://msdn.microsoft.com/E40517CE-3169-4F20-A572-EDBC8FEC2862">IMbnMultiCarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
  
 
  

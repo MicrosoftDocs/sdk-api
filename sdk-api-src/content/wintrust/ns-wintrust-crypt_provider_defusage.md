@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_PROVIDER_DEFUSAGE</b> structure is used by the <a href="https://msdn.microsoft.com/B2ED5489-792F-4B00-A21E-EE1B1462D1C8">WintrustGetDefaultForUsage</a> function to retrieve callback information for a provider's default usage.
+The <b>CRYPT_PROVIDER_DEFUSAGE</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustgetdefaultforusage">WintrustGetDefaultForUsage</a> function to retrieve callback information for a provider's default usage.
 
 
 ## -struct-fields
@@ -82,11 +82,11 @@ Pointer to a data buffer used to pass subject interface package (SIP) specific d
 
 
 
-<a href="https://msdn.microsoft.com/A6047CBA-E4BA-4A31-B700-C368CFB57895">CRYPT_PROVIDER_REGDEFUSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_regdefusage">CRYPT_PROVIDER_REGDEFUSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/B2ED5489-792F-4B00-A21E-EE1B1462D1C8">WintrustGetDefaultForUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustgetdefaultforusage">WintrustGetDefaultForUsage</a>
  
 
  

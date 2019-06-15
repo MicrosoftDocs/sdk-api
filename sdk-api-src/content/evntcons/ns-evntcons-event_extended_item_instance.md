@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EVENT_EXTENDED_ITEM_INSTANCE</b> structure defines the relationship between events if <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> was used to log related events.
+The <b>EVENT_EXTENDED_ITEM_INSTANCE</b> structure defines the relationship between events if <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> was used to log related events.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ A GUID that uniquely identifies the provider that logged the event referenced by
 
 
 
-<a href="https://msdn.microsoft.com/130dc14b-7488-48ab-a31d-310c0f4ee13f">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
  
 
  

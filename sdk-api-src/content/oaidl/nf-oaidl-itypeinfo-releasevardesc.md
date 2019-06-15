@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases a VARDESC previously returned by <a href="https://msdn.microsoft.com/c4226d33-37ec-4e9a-87ce-92c4ff0e6cb3">ITypeInfo::GetVarDesc</a>.
+Releases a VARDESC previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">ITypeInfo::GetVarDesc</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

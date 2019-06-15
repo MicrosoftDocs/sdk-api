@@ -65,7 +65,7 @@ Indicates the number of geometry objects in the geometry group.
 
 Type: <b>UINT32</b>
 
-The number of geometries in the <a href="https://msdn.microsoft.com/15c3800c-b57c-4c3c-995f-407beee4cc99">ID2D1GeometryGroup</a>.
+The number of geometries in the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>.
 
 
 
@@ -75,7 +75,7 @@ The number of geometries in the <a href="https://msdn.microsoft.com/15c3800c-b57
 
 
 
-<a href="https://msdn.microsoft.com/15c3800c-b57c-4c3c-995f-407beee4cc99">ID2D1GeometryGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>
  
 
  

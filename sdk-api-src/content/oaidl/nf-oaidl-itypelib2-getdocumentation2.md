@@ -143,7 +143,7 @@ Gets information at the type library level. The caller should free the BSTR para
 
 
 
-This function will call <b>_DLLGetDocumentation</b> in the specified DLL to retrieve the desired Help string, if there is a Help string context for this item. If no Help string context exists or an error occurs, then it will defer to the <a href="https://msdn.microsoft.com/64d2cb0c-d0ca-499b-b089-44525f7f9749">GetDocumentation</a> method and return the associated documentation string.
+This function will call <b>_DLLGetDocumentation</b> in the specified DLL to retrieve the desired Help string, if there is a Help string context for this item. If no Help string context exists or an error occurs, then it will defer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getdocumentation">GetDocumentation</a> method and return the associated documentation string.
 
 
 
@@ -154,7 +154,7 @@ This function will call <b>_DLLGetDocumentation</b> in the specified DLL to retr
 
 
 
-<a href="https://msdn.microsoft.com/47561b53-3f7b-4939-8b86-5acb5eaeea5a">ITypeLib2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>
  
 
  

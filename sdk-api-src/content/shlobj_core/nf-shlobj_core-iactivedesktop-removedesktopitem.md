@@ -61,7 +61,7 @@ Removes the specified desktop item from the desktop.
 
 Type: <b>LPCCOMPONENT</b>
 
-The address of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure that specifies the item to be removed. The desktop item associated with the <b>wszSource</b> member of the structure will be removed. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure that specifies the item to be removed. The desktop item associated with the <b>wszSource</b> member of the structure will be removed. 
 
 
 ### -param dwReserved
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
  
 
  

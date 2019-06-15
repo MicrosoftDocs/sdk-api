@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The ICCompressBegin macro notifies a video compression driver to prepare to compress data. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/dd1d3a66-c625-4f55-b65a-8545c1c16301">ICM_COMPRESS_BEGIN</a> message.
+The ICCompressBegin macro notifies a video compression driver to prepare to compress data. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-begin">ICM_COMPRESS_BEGIN</a> message.
 
 
 ## -parameters
@@ -64,19 +64,19 @@ Handle to a compressor.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFO</a> structure containing the input format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFO</a> structure containing the input format.
 
 
 ### -param lpbiOutput
 
-Pointer to a <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFO</a> structure containing the output format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFO</a> structure containing the output format.
 
 
 ## -remarks
 
 
 
-The driver should allocate and initialize any tables or memory that it needs for compressing the data formats when it receives the <a href="https://msdn.microsoft.com/d95b943f-458d-4a5e-bab1-e3648d323395">ICM_COMPRESS</a> message.
+The driver should allocate and initialize any tables or memory that it needs for compressing the data formats when it receives the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress">ICM_COMPRESS</a> message.
 
 VCM saves the settings of the most recent <b>ICCompressBegin</b> macro. The <b>ICCompressBegin</b> and <b>ICCompressEnd</b> messages do not nest. If your driver receives <b>ICM_COMPRESS_BEGIN</b> before compression is stopped with <b>ICM_COMPRESS_END</b>, it should restart compression with new parameters.
 
@@ -88,11 +88,11 @@ VCM saves the settings of the most recent <b>ICCompressBegin</b> macro. The <b>I
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

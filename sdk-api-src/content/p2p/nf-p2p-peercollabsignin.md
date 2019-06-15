@@ -65,7 +65,7 @@ Windows handle to the parent application signing in.
 ### -param dwSigninOptions [in]
 
 
-<a href="https://msdn.microsoft.com/00b7f57a-222d-4152-bded-93f1899692da">PEER_SIGNIN_FLAGS</a> enumeration value that contains the presence provider sign-in options for the calling peer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a> enumeration value that contains the presence provider sign-in options for the calling peer. 
 
 
 ## -returns
@@ -108,7 +108,7 @@ One of the arguments is invalid.
 </dl>
 </td>
 <td width="60%">
-The application did not make a previous call to <a href="https://msdn.microsoft.com/b3f4ac2a-c722-4609-b893-c4b9667ae559">PeerCollabStartup</a>.
+The application did not make a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The application did not make a previous call to <a href="https://msdn.microsoft.
 </dl>
 </td>
 <td width="60%">
-An attempt was made to call <a href="https://msdn.microsoft.com/927cccfa-2711-439c-833f-348087927c09">PeerCollabSignIn</a> from an elevated process.
+An attempt was made to call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignIn</a> from an elevated process.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ When a user signs in to "People Near Me", the user's display name, machine name,
 
 Once signed in, the user can view a list of peers signed in on the subnet and available for interaction. This list will be empty if nobody else has signed in to "People Near Me" on the subnet.
 
- Multiple applications can  use the infrastructure at any given moment. It is not recommended for a single application to call <a href="https://msdn.microsoft.com/aa69a233-6104-47c6-a0b5-378794108623">PeerCollabSignout</a>, as other applications will not be able to use the infrastructure.
+ Multiple applications can  use the infrastructure at any given moment. It is not recommended for a single application to call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignout</a>, as other applications will not be able to use the infrastructure.
 Applications must also be prepared to handle the user signing in and signing out, or situations where a machine goes to sleep or hibernation.
 
 
@@ -162,7 +162,7 @@ The <b>PeerCollabSignin</b> function currently requires up to two seconds to com
 
 Display names are not necessarily unique. Users should verify the identity of the person using a display name by e-mail, phone, or in person before accepting an invitation to interact.
 
-To sign out of a peer collaborative network, call <a href="https://msdn.microsoft.com/aa69a233-6104-47c6-a0b5-378794108623">PeerCollabSignout</a> with the same set of sign-in options. A user can also sign out through the user interface.
+To sign out of a peer collaborative network, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignout</a> with the same set of sign-in options. A user can also sign out through the user interface.
 
 
 
@@ -172,19 +172,19 @@ To sign out of a peer collaborative network, call <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/00b7f57a-222d-4152-bded-93f1899692da">PEER_SIGNIN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags_tag">PEER_SIGNIN_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b1452d3-2474-40c9-a913-de7e148e2d94">PeerCollabGetSigninOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetsigninoptions">PeerCollabGetSigninOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa69a233-6104-47c6-a0b5-378794108623">PeerCollabSignOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignOut</a>
  
 
  

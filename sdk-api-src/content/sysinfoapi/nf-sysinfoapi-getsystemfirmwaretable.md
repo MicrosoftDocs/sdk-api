@@ -97,7 +97,7 @@ For example, FACP is an ACPI provider, as described in the Signature field of th
 
 <code>retVal = GetSystemFirmwareTable('ACPI', 'PCAF', pBuffer, BUFSIZE);</code>
 
-For more information, see the Remarks section of the <a href="https://msdn.microsoft.com/42aaefc0-dc05-460d-931a-b702fa855bed">EnumSystemFirmwareTables</a> function.
+For more information, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables">EnumSystemFirmwareTables</a> function.
 
 
 ### -param pFirmwareTableBuffer [out]
@@ -120,7 +120,7 @@ If the function succeeds, the return value is the number of bytes written to the
 
 If the function fails because the buffer is not large enough, the return value is the required buffer size, in bytes. This value is always greater than <i>BufferSize</i>.
 
-If the function fails for any other reason, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails for any other reason, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -130,12 +130,12 @@ If the function fails for any other reason, the return value is zero. To get ext
 
 
 Starting with Windows 10, version 1803, Universal Windows apps can access the System Management BIOS (SMBIOS) information by declaring the <b>smbios</b> restricted capability in the app manifest.
-See <a href="https://msdn.microsoft.com/en-us/library/Mt829374(v=VS.85).aspx">Access SMBIOS information from a Universal Windows App</a>for details. Only raw SMBIOS (RSMB) firmware tables can be accessed from a Universal Windows app.
+See <a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>for details. Only raw SMBIOS (RSMB) firmware tables can be accessed from a Universal Windows app.
 
 As of Windows Server 2003 with Service Pack 1 (SP1), applications cannot access the \Device\PhysicalMemory object. Access to this object is limited to kernel-mode drivers. This change affects applications read System Management BIOS (SMBIOS) or other BIOS data stored in the lowest 1MB of physical memory. Applications have the following alternatives to read data from low physical memory:
 
 <ul>
-<li>Retrieve the SMBIOS properties using WMI. Many individual properties are contained in the <a href="https://msdn.microsoft.com/71c13736-0504-4d50-b8a4-5d68d4ba9a90">Win32 classes</a>. You can also retrieve the raw SMBIOS data in a single buffer using the <b>MSSMBios_RawSMBiosTables</b> class.</li>
+<li>Retrieve the SMBIOS properties using WMI. Many individual properties are contained in the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-provider">Win32 classes</a>. You can also retrieve the raw SMBIOS data in a single buffer using the <b>MSSMBios_RawSMBiosTables</b> class.</li>
 <li>Use the <b>GetSystemFirmwareTable</b> function to read the raw SMBIOS firmware table.</li>
 </ul>
 There is no way for applications to write to low physical memory.
@@ -161,9 +161,9 @@ struct RawSMBIOSData
 
 The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The function returns the size of the address range.
 
-The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="https://msdn.microsoft.com/42aaefc0-dc05-460d-931a-b702fa855bed">EnumSystemFirmwareTables</a> to enumerate all ACPI tables that are currently on the system.
+The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables">EnumSystemFirmwareTables</a> to enumerate all ACPI tables that are currently on the system.
 
-For ACPI, if the system contains multiple tables with the same name, they are all enumerated with <a href="https://msdn.microsoft.com/42aaefc0-dc05-460d-931a-b702fa855bed">EnumSystemFirmwareTables</a>. However, <b>GetSystemFirmwareTable</b> retrieves only the first table in the list with this name.
+For ACPI, if the system contains multiple tables with the same name, they are all enumerated with <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables">EnumSystemFirmwareTables</a>. However, <b>GetSystemFirmwareTable</b> retrieves only the first table in the list with this name.
 
 
 #### Examples
@@ -208,15 +208,15 @@ if (bytesWritten != smBiosDataSize) {
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt829374(v=VS.85).aspx">Access SMBIOS information from a Universal Windows App</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/access-smbios-information-from-a-universal-windows-app">Access SMBIOS information from a Universal Windows App</a>
 
 
 
-<a href="https://msdn.microsoft.com/42aaefc0-dc05-460d-931a-b702fa855bed">EnumSystemFirmwareTables</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables">EnumSystemFirmwareTables</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
  
 

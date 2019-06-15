@@ -61,7 +61,7 @@ Translates accelerator keystrokes intended for the browser's frame while the vie
 
 Type: <b>LPMSG</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure containing the keystroke message.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure containing the keystroke message.
 
 
 ### -param wID
@@ -86,7 +86,7 @@ Returns <b>S_OK</b> if successful, or a COM-defined error value otherwise.
 
 
 
-This method is similar to the <a href="https://msdn.microsoft.com/f755b919-b810-4b66-b3c2-bf38bd525d60">IOleInPlaceFrame::TranslateAccelerator</a> method.
+This method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-translateaccelerator">IOleInPlaceFrame::TranslateAccelerator</a> method.
 
 
 
@@ -96,7 +96,7 @@ This method is similar to the <a href="https://msdn.microsoft.com/f755b919-b810-
 
 
 
-<a href="https://msdn.microsoft.com/138d90e3-a1f0-4faf-88ca-16c7a46df0ca">IShellBrowser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
  
 
  

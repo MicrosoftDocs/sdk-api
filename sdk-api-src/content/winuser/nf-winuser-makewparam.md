@@ -76,15 +76,15 @@ The high-order word of the new value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632660(v=VS.85).aspx">MAKELONG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632660(v=vs.85)">MAKELONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632661(v=VS.85).aspx">MAKELPARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelparam">MAKELPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632662(v=VS.85).aspx">MAKELRESULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makelresult">MAKELRESULT</a>
 
 
 
@@ -92,7 +92,7 @@ The high-order word of the new value.
 
 
 
-<a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">Windows Data Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
  
 
  

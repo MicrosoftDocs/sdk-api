@@ -108,11 +108,11 @@ The synchronization tolerance is the maximum difference in presentation times at
 
 
 
-<a href="https://msdn.microsoft.com/007a6da5-47cf-476a-b0f7-566a68ad19ce">ASF Multiplexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-multiplexer">ASF Multiplexer</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdb549b5-425b-4f77-b413-723ceb7acd11">IMFASFMultiplexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
  
 
  

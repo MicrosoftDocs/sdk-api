@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/4DD04DF8-75C3-430C-9AFA-E3344B053D6E">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> structure.
+Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> structure.
 
 ## -parameters
 
@@ -58,4 +58,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4DD04DF8-75C3-430C-9AFA-E3344B053D6E">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>

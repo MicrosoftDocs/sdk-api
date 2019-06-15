@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents app memory usage at a single point in time. This structure is used by the <a href="https://msdn.microsoft.com/4A09E341-82FB-4E50-B2DD-EEDE443F3F1E">PROCESS_INFORMATION_CLASS</a> class.
+Represents app memory usage at a single point in time. This structure is used by the <a href="https://docs.microsoft.com/previous-versions//mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a> class.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ The app's total usage of private plus shared commit.
 
 
 
-<a href="https://msdn.microsoft.com/4A09E341-82FB-4E50-B2DD-EEDE443F3F1E">PROCESS_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions//mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
  
 
  

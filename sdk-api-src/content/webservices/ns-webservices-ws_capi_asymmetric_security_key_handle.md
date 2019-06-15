@@ -54,8 +54,8 @@ handles.
             
 
 When this structure is used in an API (such as 
-with <a href="https://msdn.microsoft.com/1d82c6c3-2bcf-4883-aed7-1a163bbb2228">XML token creation</a> and subsequent
-<a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">use of that XML
+with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatexmlsecuritytoken">XML token creation</a> and subsequent
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">use of that XML
 token</a> for a channel), the application is responsible for making
 sure that the HCRYPTPROV remains valid as long as the key is in
 use.  The application is also responsible for freeing the handle when
@@ -63,7 +63,7 @@ it is no longer in use.
             
 
 This type is supported only on pre-Windows Vista platforms: for
-Windows Vista and later, please use <a href="https://msdn.microsoft.com/en-us/library/Dd401973(v=VS.85).aspx">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
+Windows Vista and later, please use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ncrypt_asymmetric_security_key_handle">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
             
 
 

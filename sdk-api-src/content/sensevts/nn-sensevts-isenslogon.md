@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensLogon</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISensLogon</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensLogon</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISensLogon</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISensLogon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1675ffc7-7031-492d-bf39-64281a16a074">DisplayLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displaylock">DisplayLock</a>
 </td>
 <td align="left" width="63%">
 Screen display has been locked.
@@ -79,7 +79,7 @@ Screen display has been locked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa1b1beb-f59a-4990-84e1-deca1432f6cf">DisplayUnlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-displayunlock">DisplayUnlock</a>
 </td>
 <td align="left" width="63%">
 Screen display has been unlocked.
@@ -88,7 +88,7 @@ Screen display has been unlocked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b45658a1-d427-42b2-912c-5e5c36dab280">Logoff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-logoff">Logoff</a>
 </td>
 <td align="left" width="63%">
 A user has logged off.
@@ -97,7 +97,7 @@ A user has logged off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76a811a2-70c4-4dda-99c0-1578e9402a3b">Logon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-logon">Logon</a>
 </td>
 <td align="left" width="63%">
 A user has logged on.
@@ -106,7 +106,7 @@ A user has logged on.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47531e1f-e2d4-4475-a109-e213c903a7ba">StartScreenSaver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-startscreensaver">StartScreenSaver</a>
 </td>
 <td align="left" width="63%">
 Screen saver has been started.
@@ -115,7 +115,7 @@ Screen saver has been started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bde3bda-c0ed-4303-b6c1-dd667e9b7504">StartShell</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-startshell">StartShell</a>
 </td>
 <td align="left" width="63%">
 Shell has been started.
@@ -124,7 +124,7 @@ Shell has been started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61a6434b-1a80-4a37-9175-636c3792a865">StopScreenSaver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-stopscreensaver">StopScreenSaver</a>
 </td>
 <td align="left" width="63%">
 Screen saver has been stopped.
@@ -139,15 +139,15 @@ Screen saver has been stopped.
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cea5dff-13ea-4afb-84ac-7b8df4f55fc8">ISensNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensnetwork">ISensNetwork</a>
 
 
 
-<a href="https://msdn.microsoft.com/39d483be-8dbd-41f9-9804-af9dc4535c05">ISensOnNow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensonnow">ISensOnNow</a>
  
 
  

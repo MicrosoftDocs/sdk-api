@@ -59,7 +59,7 @@ Specifies the type of a property of a backup target.
 
 ### -field FH_TARGET_NAME
 
-The property is a string that contains the backup target’s friendly name.  The friendly name is set during target provisioning by calling the <a href="https://msdn.microsoft.com/9C9FA696-CFB2-4814-96D5-2B9B6A2AB426">IFhConfigMgr::ProvisionAndSetNewTarget</a> method.
+The property is a string that contains the backup target’s friendly name.  The friendly name is set during target provisioning by calling the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget">IFhConfigMgr::ProvisionAndSetNewTarget</a> method.
 
 
 ### -field FH_TARGET_URL
@@ -69,7 +69,7 @@ The property is a string that contains a path to the backup target.
 
 ### -field FH_TARGET_DRIVE_TYPE
 
-The property is a numeric property that specifies the target type of the backup target. See the <a href="https://msdn.microsoft.com/4D3F3B57-BD6E-4334-8DF6-ECD317A051EC">FH_TARGET_DRIVE_TYPES</a> enumeration for the list of possible backup target types.
+The property is a numeric property that specifies the target type of the backup target. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_drive_types">FH_TARGET_DRIVE_TYPES</a> enumeration for the list of possible backup target types.
 
 
 ### -field MAX_TARGET_PROPERTY
@@ -81,7 +81,7 @@ The maximum enumeration value for this enumeration. This value and all values gr
 
 
 
-To query a backup target property, call the <a href="https://msdn.microsoft.com/DC5FE023-FA6E-4B97-AD9D-830975A17159">IFhTarget::GetStringProperty</a> method or the <a href="https://msdn.microsoft.com/3FA2F3AB-A406-4F19-AA5A-0D5596F1BF2C">IFhTarget::GetNumericalProperty</a> method.
+To query a backup target property, call the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">IFhTarget::GetStringProperty</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty">IFhTarget::GetNumericalProperty</a> method.
 
 For local disks, the <b>FH_TARGET_URL</b> property contains the drive letter. This path must end with a trailing backslash (for example, "X:\").
 
@@ -95,19 +95,19 @@ For network shares, the <b>FH_TARGET_URL</b> property contains the full path of 
 
 
 
-<a href="https://msdn.microsoft.com/4D3F3B57-BD6E-4334-8DF6-ECD317A051EC">FH_TARGET_DRIVE_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_target_drive_types">FH_TARGET_DRIVE_TYPES</a>
 
 
 
-<a href="https://msdn.microsoft.com/9C9FA696-CFB2-4814-96D5-2B9B6A2AB426">IFhConfigMgr::ProvisionAndSetNewTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-provisionandsetnewtarget">IFhConfigMgr::ProvisionAndSetNewTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/3FA2F3AB-A406-4F19-AA5A-0D5596F1BF2C">IFhTarget::GetNumericalProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty">IFhTarget::GetNumericalProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/DC5FE023-FA6E-4B97-AD9D-830975A17159">IFhTarget::GetStringProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">IFhTarget::GetStringProperty</a>
  
 
  

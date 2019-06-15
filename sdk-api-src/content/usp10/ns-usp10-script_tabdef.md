@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains definitions of the tab positions for <a href="https://msdn.microsoft.com/6d0e7070-159e-436b-85b5-cabb3da83f5e">ScriptStringAnalyse</a>.
+Contains definitions of the tab positions for <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>.
 
 
 
@@ -104,7 +104,7 @@ Initial offset, in logical units, for tab stops. Tabs start <b>iTabOrigin</b> lo
 
 
 
-This structure is ignored unless the <i>dwFlags</i> parameter is set to SSA_TAB in the       <a href="https://msdn.microsoft.com/6d0e7070-159e-436b-85b5-cabb3da83f5e">ScriptStringAnalyse</a> function.
+This structure is ignored unless the <i>dwFlags</i> parameter is set to SSA_TAB in the       <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> function.
 
 
 
@@ -114,15 +114,15 @@ This structure is ignored unless the <i>dwFlags</i> parameter is set to SSA_TAB 
 
 
 
-<a href="https://msdn.microsoft.com/6d0e7070-159e-436b-85b5-cabb3da83f5e">ScriptStringAnalyse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/243438fd-5bb2-4b2a-8b33-803029085adb">Uniscribe Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
  
 
  

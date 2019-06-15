@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINETRANSLATEOUTPUT</b> structure describes the result of an address translation. The 
-<a href="https://msdn.microsoft.com/0347d526-9596-4b42-8075-07318bf39634">lineTranslateAddress</a> function uses this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a> function uses this structure.
 
 
 ## -struct-fields
@@ -82,8 +82,8 @@ Size dialable string, in bytes, including the terminating <b>NULL</b>.
 ### -field dwDialableStringOffset
 
 Offset from the beginning of this structure to the translated output that can be passed to the 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a>, 
-<a href="https://msdn.microsoft.com/111e6c11-67a7-4aab-81dd-f1b4316887e7">lineDial</a>, or other function requiring a dialable string. The output is always a <b>null</b>-terminated string. Ancillary fields such as name and subaddress are included in this output string if they were in the input string. This string may contain private information such as calling card numbers. It should not be displayed to the user, to prevent inadvertent visibility to unauthorized persons. The size of the field is specified by <b>dwDialableStringSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>, or other function requiring a dialable string. The output is always a <b>null</b>-terminated string. Ancillary fields such as name and subaddress are included in this output string if they were in the input string. This string may contain private information such as calling card numbers. It should not be displayed to the user, to prevent inadvertent visibility to unauthorized persons. The size of the field is specified by <b>dwDialableStringSize</b>.
 
 
 ### -field dwDisplayableStringSize
@@ -105,14 +105,14 @@ Country or region code configured in <b>CurrentLocation</b>. This value may be u
 ### -field dwDestCountry
 
 Destination country/region code of the translated address. This value may be passed to the <i>dwCountryCode</i> parameter of 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a> and other dialing functions (so that the call progress tones of the destination country/region such as a busy signal are properly detected). This field is set to zero if the destination address passed to 
-<a href="https://msdn.microsoft.com/0347d526-9596-4b42-8075-07318bf39634">lineTranslateAddress</a> is not in canonical format.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> and other dialing functions (so that the call progress tones of the destination country/region such as a busy signal are properly detected). This field is set to zero if the destination address passed to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a> is not in canonical format.
 
 
 ### -field dwTranslateResults
 
 Information derived from the translation process, which may assist the application in presenting user-interface elements. This field uses one of the 
-<a href="https://msdn.microsoft.com/7b834c57-d862-4fe6-828c-9e8fa20f3ec7">LINETRANSLATERESULT_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetranslateresult--constants">LINETRANSLATERESULT_ Constants</a>.
 
 
 ## -remarks
@@ -129,15 +129,15 @@ This structure cannot be extended.
 
 
 
-<a href="https://msdn.microsoft.com/111e6c11-67a7-4aab-81dd-f1b4316887e7">lineDial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/0347d526-9596-4b42-8075-07318bf39634">lineTranslateAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
  
 
  

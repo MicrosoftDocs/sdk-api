@@ -83,15 +83,15 @@ Indicates that the phone is offhook.
 
 
 
-<a href="https://msdn.microsoft.com/4560b447-45af-482a-b97b-dd0cbdb52466">ITPhone::get_HookSwitchState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_hookswitchstate">ITPhone::get_HookSwitchState</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab0bcd30-6985-4f53-a39d-90230421b6f4">ITPhone::put_HookSwitchState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_hookswitchstate">ITPhone::put_HookSwitchState</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7d1033d-0a37-4b9c-86d7-bab5a2cbb454">ITPhoneEvent::get_HookSwitchState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_hookswitchstate">ITPhoneEvent::get_HookSwitchState</a>
  
 
  

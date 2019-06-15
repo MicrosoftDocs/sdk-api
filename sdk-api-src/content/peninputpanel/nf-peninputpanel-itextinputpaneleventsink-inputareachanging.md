@@ -62,12 +62,12 @@ Occurs when the input area is about to change on the Tablet PC Input Panel.
 
 ### -param oldInputArea [in]
 
-The current input area as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea Enumeration</a>.
+The current input area as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">PanelInputArea Enumeration</a>.
 
 
 ### -param newInputArea [in]
 
-The input area the Input Panel is changing to as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea Enumeration</a>.
+The input area the Input Panel is changing to as defined by the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/ne-peninputpanel-__midl___midl_itf_peninputpanel_0000_0000_0003">PanelInputArea Enumeration</a>.
 
 
 ## -returns
@@ -114,15 +114,15 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ef6d65-ca6b-4587-bb21-3d3803a3432a">ITextInputPanelEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink">ITextInputPanelEventSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/b30eaa39-a1f7-4c50-992f-11030bb175f9">ITextInputPanelEventSink::InputAreaChanged Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanged">ITextInputPanelEventSink::InputAreaChanged Method</a>
  
 
  

@@ -65,7 +65,7 @@ The <b>GetSTT</b> method retrieves the system time table (STT).
 
 ### -param ppSTT [out]
 
-Receives an <a href="https://msdn.microsoft.com/03e903e0-e722-42c6-b6b7-448fecc379b9">IATSC_STT</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_stt">IATSC_STT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -154,7 +154,7 @@ The method fails if the filter does not receive a matching table within a predet
 
 
 
-<a href="https://msdn.microsoft.com/dbe922b3-b843-4eaa-807d-5608cfbb9686">IAtscPsipParser Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
  
 
  

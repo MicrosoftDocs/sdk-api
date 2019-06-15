@@ -55,7 +55,7 @@ The <b>IMsmGetFiles</b> interface enables the client to retrieve the files neede
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmGetFiles</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmGetFiles</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmGetFiles</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmGetFiles</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +70,12 @@ The <b>IMsmGetFiles</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/525c1a30-a870-4303-b704-e8b37f9e641f">get_ModuleFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmgetfiles-get_modulefiles">get_ModuleFiles</a>
 </td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/e1c8049c-b271-4def-abde-89ea99393574">ModuleFiles</a> property of the 
-<a href="https://msdn.microsoft.com/f3bf64ec-75f7-43a6-bbd8-a51508c57002">GetFiles</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/getfiles-modulefiles">ModuleFiles</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/getfiles-object">GetFiles</a> object.
 
 </td>
 </tr>
@@ -87,11 +87,11 @@ Retrieves the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

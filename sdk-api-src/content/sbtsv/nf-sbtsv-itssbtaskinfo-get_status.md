@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Hh972698(v=VS.85).aspx">RDV_TASK_STATUS</a> enumeration value that represents the state of the task.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_rdv_task_status">RDV_TASK_STATUS</a> enumeration value that represents the state of the task.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/d24c1a64-e006-4229-a675-54f29b8ac1c2">ITsSbTaskInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>
  
 
  

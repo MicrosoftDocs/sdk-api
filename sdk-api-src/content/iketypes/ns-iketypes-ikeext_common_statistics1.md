@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_COMMON_STATISTICS1</b> structure contains various statistics common to IKE, Authip, and IKEv2.
-<div class="alert"><b>Note</b>  <b>IKEEXT_COMMON_STATISTICS1</b> is the specific implementation of IKEEXT_COMMON_STATISTICS used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/a53ef735-3223-4ff5-9b2a-d40ab0f53570">IKEEXT_COMMON_STATISTICS0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_COMMON_STATISTICS1</b> is the specific implementation of IKEEXT_COMMON_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics0_">IKEEXT_COMMON_STATISTICS0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +61,14 @@ The <b>IKEEXT_COMMON_STATISTICS1</b> structure contains various statistics commo
 
 IPv4 common statistics.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd744972(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics1_">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
 
 
 ### -field v6Statistics
 
 IPv6 common statistics.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd744972(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_common_statistics1_">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
 
 
 ### -field totalPacketsReceived
@@ -91,7 +91,7 @@ Current number of work items that are queued and waiting to be processed.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

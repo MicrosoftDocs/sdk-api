@@ -60,21 +60,21 @@ The <b>MIB_TCPTABLE_OWNER_MODULE</b> structure contains a table of process IDs (
 
 ### -field dwNumEntries
 
-The number of <a href="https://msdn.microsoft.com/5fc1e95a-4ab1-4a15-aedc-47cfd811c035">MIB_TCPROW_OWNER_MODULE</a> elements in the <b>table</b>.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> elements in the <b>table</b>.
 
 
 ### -field table
 
-Array of <a href="https://msdn.microsoft.com/5fc1e95a-4ab1-4a15-aedc-47cfd811c035">MIB_TCPROW_OWNER_MODULE</a> structures returned by a call to <a href="https://msdn.microsoft.com/96356a0e-ae0d-4000-9223-a578cbdeaa8b">GetExtendedTcpTable</a>.
+Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> structures returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>.
 
 
 ## -remarks
 
 
 
-This table is specifically returned by a call to <a href="https://msdn.microsoft.com/96356a0e-ae0d-4000-9223-a578cbdeaa8b">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a  <b>TCP_TABLE_OWNER_MODULE_*</b> value from the <a href="https://msdn.microsoft.com/abfaf7e5-7739-4f23-bfb4-09206111599f">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET4</b>.
+This table is specifically returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a> with the <i>TableClass</i> parameter set to a  <b>TCP_TABLE_OWNER_MODULE_*</b> value from the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcp_table_class">TCP_TABLE_CLASS</a> enumeration and the <i>ulAf</i> parameter set to <b>AF_INET4</b>.
 
-The <b>MIB_TCPTABLE_OWNER_MODULE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://msdn.microsoft.com/5fc1e95a-4ab1-4a15-aedc-47cfd811c035">MIB_TCPROW_OWNER_MODULE</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCPROW_OWNER_MODULE</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCPROW_OWNER_MODULE</b> array entry should assume  padding may exist. 
+The <b>MIB_TCPTABLE_OWNER_MODULE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_owner_module">MIB_TCPROW_OWNER_MODULE</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCPROW_OWNER_MODULE</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCPROW_OWNER_MODULE</b> array entry should assume  padding may exist. 
 
 
 
@@ -88,15 +88,15 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/566bf187-73d0-4d61-be8e-306dc482a005">MIB Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">MIB Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/811a1e41-efce-4e9c-8329-1c6929e12a8d">MIB Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/mib-structures">MIB Structures</a>
  
 
  

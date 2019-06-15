@@ -111,7 +111,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5eaef815-9660-487a-885d-457cd270ba3d">IMFStreamingSinkConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamingsinkconfig">IMFStreamingSinkConfig</a>
  
 
  

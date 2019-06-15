@@ -63,9 +63,9 @@ Gets the current text antialiasing mode of the bitmap render target.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/212B02C9-1265-4870-A059-F292640ECE15">DWRITE_TEXT_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode">DWRITE_TEXT_ANTIALIAS_MODE</a></b>
 
-Returns a <a href="https://msdn.microsoft.com/212B02C9-1265-4870-A059-F292640ECE15">DWRITE_TEXT_ANTIALIAS_MODE</a>-typed value that specifies the antialiasing mode.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_text_antialias_mode">DWRITE_TEXT_ANTIALIAS_MODE</a>-typed value that specifies the antialiasing mode.
 
 
 
@@ -75,7 +75,7 @@ Returns a <a href="https://msdn.microsoft.com/212B02C9-1265-4870-A059-F292640ECE
 
 
 
-<a href="https://msdn.microsoft.com/5A7D2723-932B-4707-ABCC-0C0282FB7A56">IDWriteBitmapRenderTarget1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1">IDWriteBitmapRenderTarget1</a>
  
 
  

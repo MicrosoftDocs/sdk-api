@@ -76,11 +76,11 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/74300222-dca4-4871-bae3-0c3182fbc539">ITraceDataProviderCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc8b6aeb-7239-4bce-8616-62f87b84ae6c">ITraceDataProviderCollection::GetTraceDataProvidersByProcess</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-gettracedataprovidersbyprocess">ITraceDataProviderCollection::GetTraceDataProvidersByProcess</a>
  
 
  

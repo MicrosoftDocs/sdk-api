@@ -111,7 +111,7 @@ The <b>Values</b> member refers to an array of pointers to Unicode string values
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://msdn.microsoft.com/1FD9A519-40EA-4780-90F5-C9DF4ADAE72C">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The <b>Values</b> member refers to an array of <a href="https://msdn.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh448485(v=VS.85).aspx">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values where the <b>pValue</b> member of each <b>CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</b> is a <b>PSID</b>.
+The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values where the <b>pValue</b> member of each <b>CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</b> is a <b>PSID</b>.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The <b>Values</b> member refers to an array of <b>ULONG64</b> values where each 
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh448485(v=VS.85).aspx">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ The value of the claim security attribute is case sensitive. This flag is valid 
 </dl>
 </td>
 <td width="60%">
-The claim security attribute is considered only for deny <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs).
+The claim security attribute is considered only for deny <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
 </td>
 </tr>
@@ -217,7 +217,7 @@ The claim security attribute is disabled by default.
 </dl>
 </td>
 <td width="60%">
-The claim security attribute is disabled and will not be applied by the <a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a> function.
+The claim security attribute is disabled and will not be applied by the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a> function.
 
 </td>
 </tr>
@@ -263,12 +263,12 @@ Pointer to an array of <b>ValueCount</b> members where each member is  a <b>PWST
 
 ### -field Values.pFqbn
 
-Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://msdn.microsoft.com/1FD9A519-40EA-4780-90F5-C9DF4ADAE72C">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
 
 
 ### -field Values.pOctetString
 
-Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="https://msdn.microsoft.com/en-us/library/Hh448485(v=VS.85).aspx">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 
 
 ## -see-also
@@ -276,7 +276,7 @@ Pointer to an array of <b>ValueCount</b> members where each member is  an octet 
 
 
 
-<a href="https://msdn.microsoft.com/D7D9816E-1ECE-48CA-9F2F-0955572A0FCA">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>
  
 
  

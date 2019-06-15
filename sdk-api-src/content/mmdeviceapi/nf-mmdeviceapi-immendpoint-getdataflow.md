@@ -62,7 +62,7 @@ The <b>GetDataFlow</b> method indicates whether the audio endpoint device is a r
 
 ### -param pDataFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction of the endpoint device. The direction is indicated by one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration constants:
+Pointer to a variable into which the method writes the data-flow direction of the endpoint device. The direction is indicated by one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001">EDataFlow</a> enumeration constants:
 
 eRender
 
@@ -104,7 +104,7 @@ Parameter <i>ppDataFlow</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/293de8eb-204a-4c18-807c-b1405db85b12">IMMEndpoint Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint">IMMEndpoint Interface</a>
  
 
  

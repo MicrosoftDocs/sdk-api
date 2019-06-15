@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-These flags are associated with certain <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure comparisons.
+These flags are associated with certain <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure comparisons.
 
 
 ## -enum-fields

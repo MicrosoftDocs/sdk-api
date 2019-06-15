@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-A replacement for <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> that adds an initialization method.
+A replacement for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> that adds an initialization method.
 
-This interface is not derived from <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>; it is mutually exclusive with <b>IPersistStream</b>. An object chooses to support only one of the two interfaces, based on whether it requires the <a href="https://msdn.microsoft.com/9e318698-0c3c-41c2-bb9e-04e8c9746c4d">InitNew</a> method.
+This interface is not derived from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>; it is mutually exclusive with <b>IPersistStream</b>. An object chooses to support only one of the two interfaces, based on whether it requires the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">InitNew</a> method.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IPersistStreamInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8413eeda-3867-4352-aefb-82579a4861f2">GetSizeMax</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-getsizemax">GetSizeMax</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the stream needed to save the object.
@@ -80,7 +80,7 @@ Retrieves the size of the stream needed to save the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e318698-0c3c-41c2-bb9e-04e8c9746c4d">InitNew</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">InitNew</a>
 </td>
 <td align="left" width="63%">
 Initializes an object to a default state.
@@ -89,7 +89,7 @@ Initializes an object to a default state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b84818d-0d9d-4f55-8031-b4336baa6c09">IsDirty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-isdirty">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Determines whether an object has changed since it was last saved to its stream.
@@ -98,7 +98,7 @@ Determines whether an object has changed since it was last saved to its stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e995e07-e088-40de-ba28-c30caea45786">Load</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-load">Load</a>
 </td>
 <td align="left" width="63%">
 Initializes an object from the stream where it was saved previously.
@@ -107,7 +107,7 @@ Initializes an object from the stream where it was saved previously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f88b61d0-dd85-4e8e-b445-dfced6521981">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves an object to the specified stream.
@@ -122,7 +122,7 @@ Saves an object to the specified stream.
 
 
 
-<a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
  
 
  

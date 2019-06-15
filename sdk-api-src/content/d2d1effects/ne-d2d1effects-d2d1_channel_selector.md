@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the color channel the <a href="https://msdn.microsoft.com/07AA64B1-B570-428E-924F-D7DF3E4DB3F8">Displacement map effect</a>extracts the intensity from and uses it to spatially displace the image in the X or Y direction.
+Specifies the color channel the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/displacement-map">Displacement map effect</a>extracts the intensity from and uses it to spatially displace the image in the X or Y direction.
 
 
 ## -enum-fields

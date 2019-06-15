@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_SPN_WRITE_OP</b> enumeration identifies the type of write operation that should be performed by the <a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a> function.
+The <b>DS_SPN_WRITE_OP</b> enumeration identifies the type of write operation that should be performed by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> function.
 
 
 ## -enum-fields
@@ -59,17 +59,17 @@ The <b>DS_SPN_WRITE_OP</b> enumeration identifies the type of write operation th
 
 ### -field DS_SPN_ADD_SPN_OP
 
-Adds the specified service principal names (SPNs) to the object identified by the <i>pszAccount</i> parameter in <a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a>.
+Adds the specified service principal names (SPNs) to the object identified by the <i>pszAccount</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
 
 
 ### -field DS_SPN_REPLACE_SPN_OP
 
-Removes all SPNs currently registered on the account identified by the <i>pszAccount</i> parameter in <a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a> and replaces them with the SPNs specified  by the <i>rpszSpn</i> parameter in <b>DsWriteAccountSpn</b>.
+Removes all SPNs currently registered on the account identified by the <i>pszAccount</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> and replaces them with the SPNs specified  by the <i>rpszSpn</i> parameter in <b>DsWriteAccountSpn</b>.
 
 
 ### -field DS_SPN_DELETE_SPN_OP
 
-Deletes the specified SPNs from the object identified by the <i>pszAccount</i> parameter in <a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a>.
+Deletes the specified SPNs from the object identified by the <i>pszAccount</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ Deletes the specified SPNs from the object identified by the <i>pszAccount</i> p
 
 
 
-<a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>
 
 
 
-<a href="https://msdn.microsoft.com/eafa3285-4474-4077-a6ad-b37f8211e7e6">Enumerations in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
  
 
  

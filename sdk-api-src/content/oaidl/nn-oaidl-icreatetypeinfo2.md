@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Provides the tools for creating and administering the type information defined through the type description. Derives from <a href="https://msdn.microsoft.com/c8bbb677-2666-4900-8fb9-788742eef656">ICreateTypeInfo</a>, and adds methods for deleting items that have been added through ICreateTypeInfo.
+Provides the tools for creating and administering the type information defined through the type description. Derives from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>, and adds methods for deleting items that have been added through ICreateTypeInfo.
 
-The <a href="https://msdn.microsoft.com/3880aad3-8a6f-43e6-8420-25c4d1b9a71a">ICreateTypeInfo::LayOut</a> method provides a way for the creator of the type information to check for any errors. A call to QueryInterface can be made to the ICreateTypeInfo instance at any time for its ITypeInfo interface. Calling any of the methods in the ITypeInfointerface that require layout information lays out the type information automatically.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/out">ICreateTypeInfo::LayOut</a> method provides a way for the creator of the type information to check for any errors. A call to QueryInterface can be made to the ICreateTypeInfo instance at any time for its ITypeInfo interface. Calling any of the methods in the ITypeInfointerface that require layout information lays out the type information automatically.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>ICreateTypeInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e157287-e4f3-49c4-9c18-a7b3ba1a965d">DeleteFuncDesc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-deletefuncdesc">DeleteFuncDesc</a>
 </td>
 <td align="left" width="63%">
 Deletes a function description specified by the index number.
@@ -80,7 +80,7 @@ Deletes a function description specified by the index number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75de562b-3c08-4bab-957a-3a9eab16fb3f">DeleteFuncDescByMemId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-deletefuncdescbymemid">DeleteFuncDescByMemId</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified function description (FUNCDESC).
@@ -89,7 +89,7 @@ Deletes the specified function description (FUNCDESC).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c64b70eb-6047-4572-9d5e-f40b3c302f31">DeleteImplType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-deleteimpltype">DeleteImplType</a>
 </td>
 <td align="left" width="63%">
 Deletes the IMPLTYPE flags for the indexed interface.
@@ -98,7 +98,7 @@ Deletes the IMPLTYPE flags for the indexed interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0fcf55d9-2592-4fed-9612-48085eb7791b">DeleteVarDesc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-deletevardesc">DeleteVarDesc</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified VARDESC structure.
@@ -107,7 +107,7 @@ Deletes the specified VARDESC structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b69dda9-01b5-45b2-ab92-65a29a2d1f21">DeleteVarDescByMemId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-deletevardescbymemid">DeleteVarDescByMemId</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified VARDESC structure.
@@ -116,7 +116,7 @@ Deletes the specified VARDESC structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52a947c8-2860-4803-9df2-7b71b8b8ef87">SetCustData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setcustdata">SetCustData</a>
 </td>
 <td align="left" width="63%">
 Sets a value for custom data.
@@ -125,7 +125,7 @@ Sets a value for custom data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/553e872f-0620-4b36-a01d-86088bd12f80">SetFuncCustData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setfunccustdata">SetFuncCustData</a>
 </td>
 <td align="left" width="63%">
 Sets a value for custom data for the specified function.
@@ -134,7 +134,7 @@ Sets a value for custom data for the specified function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee0fad66-632e-48f7-bd38-b17c82be555b">SetFuncHelpStringContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setfunchelpstringcontext">SetFuncHelpStringContext</a>
 </td>
 <td align="left" width="63%">
 Sets a Help context value for a specified function.
@@ -143,7 +143,7 @@ Sets a Help context value for a specified function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f8ed63a-1cbb-4fd3-a848-aeb8123adf04">SetHelpStringContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-sethelpstringcontext">SetHelpStringContext</a>
 </td>
 <td align="left" width="63%">
 Sets the context number for the specified Help string.
@@ -152,7 +152,7 @@ Sets the context number for the specified Help string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9dee7fc-b713-4a68-a8ea-2398a266e728">SetImplTypeCustData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setimpltypecustdata">SetImplTypeCustData</a>
 </td>
 <td align="left" width="63%">
 Sets a value for custom data for the specified implementation type.
@@ -161,7 +161,7 @@ Sets a value for custom data for the specified implementation type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b490dcb5-97e4-427a-bc87-22f38a4719f3">SetName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setname">SetName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the typeinfo.
@@ -170,7 +170,7 @@ Sets the name of the typeinfo.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df1a1ab0-c971-4d3e-ba63-45be66330027">SetParamCustData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setparamcustdata">SetParamCustData</a>
 </td>
 <td align="left" width="63%">
 Sets a value for the custom data for the specified parameter.
@@ -179,7 +179,7 @@ Sets a value for the custom data for the specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7055ad6b-89d8-47d9-bdfa-26b323e53133">SetVarCustData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setvarcustdata">SetVarCustData</a>
 </td>
 <td align="left" width="63%">
 Sets a value for custom data for the specified variable.
@@ -188,7 +188,7 @@ Sets a value for custom data for the specified variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0939e286-150c-4258-bb6a-c020b6323b35">SetVarHelpStringContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo2-setvarhelpstringcontext">SetVarHelpStringContext</a>
 </td>
 <td align="left" width="63%">
 Sets a Help context value for a specified variable.
@@ -203,7 +203,7 @@ Sets a Help context value for a specified variable.
 
 
 
-<a href="https://msdn.microsoft.com/aad137b1-b747-4d74-8d6c-5ec9b6e6983d">Type Building Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>
  
 
  

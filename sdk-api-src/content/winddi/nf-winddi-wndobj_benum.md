@@ -59,7 +59,7 @@ The <b>WNDOBJ_bEnum</b> function obtains a batch of rectangles from the visible 
 
 ### -param pwo
 
-Pointer to a <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> structure created by a call to <a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> structure created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>.
 
 
 ### -param cj
@@ -94,7 +94,7 @@ The return value is <b>TRUE</b> if there is more data to be enumerated and the d
 
 
 
-The order of enumeration is determined by the call to <a href="https://msdn.microsoft.com/7d3951de-807f-4d54-a022-e2610987d965">WNDOBJ_cEnumStart</a>.
+The order of enumeration is determined by the call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-wndobj_cenumstart">WNDOBJ_cEnumStart</a>.
 
 A possible loop structure for calling this function follows.
 
@@ -109,7 +109,7 @@ do {
 ```
 
 
-<b>WNDOBJ_bEnum</b> should be called only by the callback function provided to GDI by the <a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a> function, or by the graphics DDI functions that are given a WNDOBJ.
+<b>WNDOBJ_bEnum</b> should be called only by the callback function provided to GDI by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a> function, or by the graphics DDI functions that are given a WNDOBJ.
 
 
 
@@ -119,15 +119,15 @@ do {
 
 
 
-<a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d3951de-807f-4d54-a022-e2610987d965">WNDOBJ_cEnumStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-wndobj_cenumstart">WNDOBJ_cEnumStart</a>
  
 
  

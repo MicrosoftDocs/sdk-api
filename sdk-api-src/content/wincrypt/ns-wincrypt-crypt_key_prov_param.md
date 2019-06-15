@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_KEY_PROV_PARAM</b> structure contains information about a <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key container</a> parameter. This structure is used with the 
-<a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a> structure.
+The <b>CRYPT_KEY_PROV_PARAM</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> parameter. This structure is used with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 
 ## -struct-fields
@@ -61,13 +61,13 @@ The <b>CRYPT_KEY_PROV_PARAM</b> structure contains information about a <a href="
 ### -field dwParam
 
 Identifies the parameter. For possible values, see the <i>dwParam</i> parameter of the 
-<a href="https://msdn.microsoft.com/98306a7b-b218-4eb4-99f0-0b5bcc632a13">CryptSetProvParam</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> function.
 
 
 ### -field pbData
 
 The address of a buffer that contains the parameter data. For more information, see the <i>pbData</i> parameter of the 
-<a href="https://msdn.microsoft.com/98306a7b-b218-4eb4-99f0-0b5bcc632a13">CryptSetProvParam</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> function.
 
 
 ### -field cbData
@@ -85,11 +85,11 @@ This member is reserved for future use and is zero.
 
 
 
-<a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/98306a7b-b218-4eb4-99f0-0b5bcc632a13">CryptSetProvParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>
  
 
  

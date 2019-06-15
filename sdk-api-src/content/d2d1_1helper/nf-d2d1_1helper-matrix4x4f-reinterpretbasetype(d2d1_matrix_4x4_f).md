@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts the specified <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_4X4_F</a> matrix to a <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a> without making a copy.
+Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a> without making a copy.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Converts the specified <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-95
 
 ### -param pMatrix
 
-Type: <b><a href="https://msdn.microsoft.com/204EF85B-BDD4-4A54-96DB-39421F36A75C">D2D1_MATRIX_4X4_F</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh848012(v=vs.85)">D2D1_MATRIX_4X4_F</a>*</b>
 
 The matrix to convert.
 
@@ -68,7 +68,7 @@ The matrix to convert.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>*</b>
 
 The converted matrix.
 
@@ -80,7 +80,7 @@ The converted matrix.
 
 
 
-<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>
  
 
  

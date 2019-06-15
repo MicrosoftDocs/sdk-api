@@ -64,7 +64,7 @@ The minimum zoom level allowed. Must be greater than or equal to 0.1f, which cor
 
 ### -param zoomMaximum [in]
 
-The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="https://msdn.microsoft.com/library/ms858507(v=MSDN.10).aspx">FLT_MAX</a>.
+The maximum zoom allowed. Must be greater than <i>zoomMinimum</i> and less than <a href="/previous-versions/ms858507(v=msdn.10)">FLT_MAX</a>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the content is outside the new boundaries, and the viewport is ENABLED or REA
 
 
 
-<a href="https://msdn.microsoft.com/9910F5F5-950F-4099-9808-B46FA5BBA6FB">IDirectManipulationPrimaryContent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationprimarycontent">IDirectManipulationPrimaryContent</a>
  
 
  

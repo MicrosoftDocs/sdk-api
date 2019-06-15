@@ -120,7 +120,7 @@ Returns S_OK if successful, or an error value otherwise. B_S_ENDOFROWSET optiona
 
 
 
-Windows Explorer calls this method with the search query parameters. The <a href="https://msdn.microsoft.com/8d5d376f-b59d-4420-a6be-d64459cb6aa3">IOpenSearchSource</a> implementation returns some or all results after performing required actions, such as providing custom authentication UI or connecting to the data source using a proprietary API.
+Windows Explorer calls this method with the search query parameters. The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource">IOpenSearchSource</a> implementation returns some or all results after performing required actions, such as providing custom authentication UI or connecting to the data source using a proprietary API.
             
 
 <h3><a id="Paged_Results"></a><a id="paged_results"></a><a id="PAGED_RESULTS"></a>Paged Results</h3>
@@ -139,7 +139,7 @@ If a web service returns 20 items on the first page of results, the expected pag
 
 
 
-<a href="https://msdn.microsoft.com/8d5d376f-b59d-4420-a6be-d64459cb6aa3">IOpenSearchSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource">IOpenSearchSource</a>
  
 
  

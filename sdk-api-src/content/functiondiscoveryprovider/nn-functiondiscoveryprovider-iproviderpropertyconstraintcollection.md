@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-This interface is accessible to the provider through <a href="https://msdn.microsoft.com/d8a45d1b-fb1e-4288-a42a-b967cc9b4533">IFunctionDiscoveryProviderQuery::GetPropertyConstraints</a>.
+This interface is accessible to the provider through <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getpropertyconstraints">IFunctionDiscoveryProviderQuery::GetPropertyConstraints</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderPropertyConstraintCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IProviderPropertyConstraintCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderPropertyConstraintCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderPropertyConstraintCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProviderPropertyConstraintCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0388d895-07bb-490c-9fce-0821a51d765a">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the specified property constraint, by property key.
@@ -80,7 +80,7 @@ Gets the name and value of the specified property constraint, by property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62dc9e75-ff40-472f-8acf-ebe40dbac95c">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items in the collection.
@@ -89,7 +89,7 @@ Gets the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e5643f6-02a5-48b0-a105-5b82c439b5cc">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-item">Item</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the specified property constraint, by index.
@@ -98,7 +98,7 @@ Gets the name and value of the specified property constraint, by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddf9f2b9-92f6-4a1f-86d8-0d9e8c0c4855">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the name and value of the next property constraint in the collection.
@@ -107,7 +107,7 @@ Gets the name and value of the next property constraint in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57357567-b03f-4261-a267-42f44d829d74">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current index to the start of the collection.
@@ -116,7 +116,7 @@ Resets the current index to the start of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e14bddc-d2ae-41a6-b927-15bdfd3bc598">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the next item in the collection.

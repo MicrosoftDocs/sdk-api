@@ -66,9 +66,9 @@ The array size of the <i>pPatterns</i> array.
 
 ### -param pPatterns [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6f0cd639-c0db-46e4-b3a3-bc21222d97ee">WICBitmapPattern</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicbitmappattern">WICBitmapPattern</a>*</b>
 
-Receives a list of <a href="https://msdn.microsoft.com/6f0cd639-c0db-46e4-b3a3-bc21222d97ee">WICBitmapPattern</a> objects supported by the decoder.
+Receives a list of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicbitmappattern">WICBitmapPattern</a> objects supported by the decoder.
 
 
 ### -param pcPatterns [out]

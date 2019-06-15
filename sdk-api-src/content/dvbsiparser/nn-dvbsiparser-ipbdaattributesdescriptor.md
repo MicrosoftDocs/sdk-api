@@ -54,7 +54,7 @@ Implements methods that get data from anattributes descriptor in a Protected Bro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDAAttributesDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPBDAAttributesDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDAAttributesDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDAAttributesDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPBDAAttributesDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/315f6afe-a5cc-4fe2-8029-fcf280b358b2">GetAttributePayload</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaattributesdescriptor-getattributepayload">GetAttributePayload</a>
 </td>
 <td align="left" width="63%">
 Gets the descriptor body from the attributes descriptor.
@@ -78,7 +78,7 @@ Gets the descriptor body from the attributes descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b18ebaa1-aca4-4d21-adb7-d233e18cd320">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaattributesdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of the  attributes descriptor.
@@ -87,7 +87,7 @@ Gets the body length of the  attributes descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/397e76b6-83f2-4d0c-87a0-0575aa746020">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaattributesdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that uniquely identifies the attributes descriptor.

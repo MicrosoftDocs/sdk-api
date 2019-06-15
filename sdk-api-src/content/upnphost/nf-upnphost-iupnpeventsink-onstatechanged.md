@@ -53,7 +53,7 @@ The
 <b>OnStateChanged</b> method sends an event to the device host with the list of DISPIDs of the state variables that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
 
 This method is unavailable to Visual Basic developers, and those using other languages that do not support native arrays. These developers must use 
-<a href="https://msdn.microsoft.com/95792229-287c-43f1-b03a-45aa63a9682f">OnStateChangedSafe</a> instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsink-onstatechangedsafe">OnStateChangedSafe</a> instead.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ If <i>cChanges</i> is zero or <i>rgdispidChanges</i> is <b>NULL</b>, E_INVALIDAR
 
 
 
-<a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a>
  
 
  

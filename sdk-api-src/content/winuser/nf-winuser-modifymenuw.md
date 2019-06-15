@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Changes an existing menu item. This function is used to specify the content, appearance, and behavior of the menu item. 
-<div class="alert"><b>Note</b>  The <b>ModifyMenu</b> function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a> function. You can still use <b>ModifyMenu</b>, however, if you do not need any of the extended features of <b>SetMenuItemInfo</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>ModifyMenu</b> function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a> function. You can still use <b>ModifyMenu</b>, however, if you do not need any of the extended features of <b>SetMenuItemInfo</b>.</div><div> </div>
 
 ## -parameters
 
@@ -134,7 +134,7 @@ Uses a bitmap as the menu item. The <i>lpNewItem</i> parameter contains a handle
 </dl>
 </td>
 <td width="60%">
-Places a check mark next to the item. If your application provides check-mark bitmaps (see the <a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a> function), this flag displays a selected bitmap next to the menu item. 
+Places a check mark next to the item. If your application provides check-mark bitmaps (see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a> function), this flag displays a selected bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -200,7 +200,7 @@ Places the item on a new line (for menu bars) or in a new column (for a drop-dow
 </dl>
 </td>
 <td width="60%">
-Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
+Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ Specifies that the menu item is a text string; the <i>lpNewItem</i> parameter is
 </dl>
 </td>
 <td width="60%">
-Does not place a check mark next to the item (the default). If your application supplies check-mark bitmaps (see the <a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a> function), this flag displays a clear bitmap next to the menu item. 
+Does not place a check mark next to the item (the default). If your application supplies check-mark bitmaps (see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a> function), this flag displays a clear bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -288,7 +288,7 @@ A bitmap handle.
 </dl>
 </td>
 <td width="60%">
-A value supplied by an application that is used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> messages sent when the menu item is created or its appearance is updated. 
+A value supplied by an application that is used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> messages sent when the menu item is created or its appearance is updated. 
 
 </td>
 </tr>
@@ -316,7 +316,7 @@ Type: <b>BOOL</b>
 If the function succeeds, the return value is nonzero.
                     
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -327,9 +327,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 If <b>ModifyMenu</b> replaces a menu item that opens a drop-down menu or submenu, the function destroys the old drop-down menu or submenu and frees the memory used by it. 
 
-In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://msdn.microsoft.com/en-us/library/ms646349(v=VS.85).aspx">WM_MENUCHAR</a> message. See <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
+In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuchar">WM_MENUCHAR</a> message. See <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
 
-The application must call the <a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. To change the attributes of existing menu items, it is much faster to use the <a href="https://msdn.microsoft.com/en-us/library/ms647619(v=VS.85).aspx">CheckMenuItem</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647636(v=VS.85).aspx">EnableMenuItem</a> functions. 
+The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. To change the attributes of existing menu items, it is much faster to use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-checkmenuitem">CheckMenuItem</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemenuitem">EnableMenuItem</a> functions. 
 
 The following groups of flags cannot be used together:
 
@@ -345,7 +345,7 @@ The following groups of flags cannot be used together:
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Setting Fonts for Menu-Item Text Strings</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Setting Fonts for Menu-Item Text Strings</a>.
 
 <div class="code"></div>
 
@@ -356,11 +356,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647616(v=VS.85).aspx">AppendMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/u">AppendMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647619(v=VS.85).aspx">CheckMenuItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-checkmenuitem">CheckMenuItem</a>
 
 
 
@@ -368,15 +368,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647633(v=VS.85).aspx">DrawMenuBar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647636(v=VS.85).aspx">EnableMenuItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemenuitem">EnableMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -384,11 +384,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647998(v=VS.85).aspx">SetMenuItemBitmaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
  
 
  

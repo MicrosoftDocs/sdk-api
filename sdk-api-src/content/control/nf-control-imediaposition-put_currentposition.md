@@ -135,7 +135,7 @@ The position specified by the <i>llTime</i> parameter is relative to the total d
 
 If the filter graph is running, the Filter Graph Manager pauses the graph, issues the seek command, and then runs the graph again. If the method returns while the graph is still transitioning to a running state, the return value is S_FALSE.
 
-If a filter is paused when it receives a seek command, it must flush existing data before it introduces the data from the new position. See <a href="https://msdn.microsoft.com/en-us/library/Dd390419(v=VS.85).aspx">IPin::BeginFlush</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd390424(v=VS.85).aspx">IPin::EndFlush</a>.
+If a filter is paused when it receives a seek command, it must flush existing data before it introduces the data from the new position. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-beginflush">IPin::BeginFlush</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endflush">IPin::EndFlush</a>.
 
 
 
@@ -145,11 +145,11 @@ If a filter is paused when it receives a seek command, it must flush existing da
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406977(v=VS.85).aspx">IMediaPosition Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
  
 
  

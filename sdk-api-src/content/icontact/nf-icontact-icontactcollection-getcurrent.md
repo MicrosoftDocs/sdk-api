@@ -59,7 +59,7 @@ Retrieves the current contact in the enumeration.
 
 ### -param ppContact [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9dc97b84-ede9-4ec1-939a-2b13e0d68486">IContact</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
 
 If successful, contains the current contact. 
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After reset, a call to <b>IContactCollection::GetCurrent</b> without first calling <a href="https://msdn.microsoft.com/f7d47643-4ef2-41fb-9f75-2fe79fec2385">IContactCollection::Next</a> will fail. 
+After reset, a call to <b>IContactCollection::GetCurrent</b> without first calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">IContactCollection::Next</a> will fail. 
 
 
 
@@ -89,11 +89,11 @@ After reset, a call to <b>IContactCollection::GetCurrent</b> without first calli
 
 
 
-<a href="https://msdn.microsoft.com/4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897">IContactCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactcollection">IContactCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/31922d03-079e-4a6f-8516-d4cf540d812e">IContactCollection::Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-reset">IContactCollection::Reset</a>
  
 
  

@@ -62,7 +62,7 @@ Gets the backing buffer for the specified string.
 
 ### -param string [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The string for which the backing buffer is to be retrieved.
 
@@ -89,9 +89,9 @@ A pointer to the buffer that provides the backing store for <i>string</i>, or th
 
 
 
-Use the <b>WindowsGetStringRawBuffer</b>  function to obtain a pointer to the backing buffer of  an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>.
+Use the <b>WindowsGetStringRawBuffer</b>  function to obtain a pointer to the backing buffer of  an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
 
-Do not change the contents of the buffer as all  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRINGs</a> are required to be immutable.
+Do not change the contents of the buffer as all  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRINGs</a> are required to be immutable.
 
 
 

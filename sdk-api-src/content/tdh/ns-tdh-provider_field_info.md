@@ -81,7 +81,7 @@ Field value.
 
 
 
-<a href="https://msdn.microsoft.com/c3755ca2-7b17-4f86-9ae8-34621f8b8c1b">PROVIDER_FIELD_INFOARRAY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a>
  
 
  

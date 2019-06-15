@@ -66,19 +66,19 @@ The opaque handle to the phone whose state-change monitoring filter is to be set
 ### -param dwPhoneStates
 
 Flags that specify the set of phone status changes and events for which TAPI wants to receive notification messages. This parameter can have zero, one, or more than one of the 
-<a href="https://msdn.microsoft.com/5db53dd4-606a-40b9-9159-b67a0ea1e400">PHONESTATE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonestate--constants">PHONESTATE_ constants</a>.
 
 
 ### -param dwButtonModes
 
 Flags that specify the set of phone button modes for which TAPI wants to receive notification messages. If <i>dwButtonModes</i> is zero, <i>dwButtonStates</i> is ignored. This parameter can have zero, one, or more than one of the 
-<a href="https://msdn.microsoft.com/7bf337ee-acda-42fe-b50b-370aad50dc03">PHONEBUTTONMODE_ constants</a>. If <i>dwButtonModes</i> has at least one of these flags set, <i>dwButtonStates</i> must also have at least one bit set:
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonmode--constants">PHONEBUTTONMODE_ constants</a>. If <i>dwButtonModes</i> has at least one of these flags set, <i>dwButtonStates</i> must also have at least one bit set:
 
 
 ### -param dwButtonStates
 
 This parameter specifies the set of phone button state changes for which TAPI wishes to receive notification messages, one of the 
-<a href="https://msdn.microsoft.com/f1196e31-65c6-4ade-a0b7-c7758ce97be1">PHONEBUTTONSTATE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonstate--constants">PHONEBUTTONSTATE_ Constants</a>.
 
 
 ## -returns
@@ -106,15 +106,15 @@ TAPI defines a number of messages that notify applications about events occurrin
 
 
 
-<a href="https://msdn.microsoft.com/5db53dd4-606a-40b9-9159-b67a0ea1e400">PHONESTATE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonestate--constants">PHONESTATE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3c3f29a-3847-4d88-8604-0e9657fc8c75">PHONE_BUTTON</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725254(v=vs.85)">PHONE_BUTTON</a>
 
 
 
-<a href="https://msdn.microsoft.com/4772e24c-cafb-4fda-8243-5117c9a73753">PHONE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725262(v=vs.85)">PHONE_STATE</a>
  
 
  

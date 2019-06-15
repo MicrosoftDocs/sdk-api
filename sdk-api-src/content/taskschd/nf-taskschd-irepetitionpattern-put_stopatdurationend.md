@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, this information is specified in the <a href="https://msdn.microsoft.com/4e34b5b2-ac93-4951-9de4-3e89614517d1">StopAtDurationEnd</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this information is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-stopatdurationend-repetitiontype-element">StopAtDurationEnd</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing XML for a task, this information is specified in the <a 
 
 
 
-<a href="https://msdn.microsoft.com/7eea143b-d2f8-44d2-a3ec-8328a0bc69ef">IRepetitionPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irepetitionpattern">IRepetitionPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

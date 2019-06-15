@@ -79,7 +79,7 @@ Pointer to a <b>BSTR</b> containing the user's password.
 ### -param lFlags [in]
 
 
-<a href="https://msdn.microsoft.com/27bcf36a-1826-4603-9821-22fcc5c1e186">RENDBIND</a> flags indicator of whether all parameters must be validated or can take a default.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/rendbind--constants">RENDBIND</a> flags indicator of whether all parameters must be validated or can take a default.
 
 
 ## -returns
@@ -134,7 +134,7 @@ A password is required but was not supplied, the domain and user are not supplie
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/b781008b-430a-444e-a700-8cde09e721b4">ITDirectory::Connect</a> method has not been invoked or did not succeed.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
 
 </td>
 </tr>
@@ -154,8 +154,8 @@ Calling this function is optional. However, some directory operations require th
 <b>Bind</b>.
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for the <i>pDomainName</i>, <i>pUserName</i>, and <i>pPassword</i> parameters. The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variables are no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDomainName</i>, <i>pUserName</i>, and <i>pPassword</i> parameters. The application must use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variables are no longer needed.
 
 
 
@@ -165,7 +165,7 @@ The application must use
 
 
 
-<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
  
 
  

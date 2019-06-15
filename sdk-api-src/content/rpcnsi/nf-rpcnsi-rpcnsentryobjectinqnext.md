@@ -136,7 +136,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -147,7 +147,7 @@ The name service is unavailable.
 
 The 
 <b>RpcNsEntryObjectInqNext</b> function returns one of the object UUIDs exported to the name-service database entry specified by the <i>EntryName</i> parameter in the 
-<a href="https://msdn.microsoft.com/dc667dc3-0812-43d5-adc2-aa29ee67f045">RpcNsEntryObjectInqBegin</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a> function.
 
 An application can view all of the exported object UUIDs by repeatedly calling 
 <b>RpcNsEntryObjectInqNext</b>. When all the object UUIDs have been viewed, this function returns an RPC_S_NO_MORE_MEMBERS status code. The returned object UUIDs are unordered.
@@ -155,7 +155,7 @@ An application can view all of the exported object UUIDs by repeatedly calling
 The application supplies the memory for the object UUID returned in the <i>ObjUuid</i> parameter.
 
 After viewing the object UUIDs, the application must call the 
-<a href="https://msdn.microsoft.com/de1ed214-1018-498a-81a9-7932d4eead0b">RpcNsEntryObjectInqDone</a> function to release the inquiry context.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone">RpcNsEntryObjectInqDone</a> function to release the inquiry context.
 
 The order in which object UUIDs are returned can be different for each viewing of an entry. This means that the order in which object UUIDs are returned to an application can be different each time the application is run.
 
@@ -167,15 +167,15 @@ The order in which object UUIDs are returned can be different for each viewing o
 
 
 
-<a href="https://msdn.microsoft.com/c89d04d7-f607-48cc-8cb6-b6aebab41671">RpcNsBindingExport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc667dc3-0812-43d5-adc2-aa29ee67f045">RpcNsEntryObjectInqBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/de1ed214-1018-498a-81a9-7932d4eead0b">RpcNsEntryObjectInqDone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone">RpcNsEntryObjectInqDone</a>
  
 
  

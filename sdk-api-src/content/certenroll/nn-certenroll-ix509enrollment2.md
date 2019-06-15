@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IX509Enrollment2</b> interface enables you to enroll in a certificate hierarchy and install a certificate response. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> interface and adds methods that enable initialization from certificate request templates.
+The <b>IX509Enrollment2</b> interface enables you to enroll in a certificate hierarchy and install a certificate response. It includes all of the methods defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> interface and adds methods that enable initialization from certificate request templates.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Enrollment2</b> interface inherits from <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>. <b>IX509Enrollment2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Enrollment2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>. <b>IX509Enrollment2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IX509Enrollment2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa260ff7-d55b-4fda-88e2-2f1d68cc41e1">InitializeFromTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment2-initializefromtemplate">InitializeFromTemplate</a>
 </td>
 <td align="left" width="63%">
 Initializes the enrollment object by using a template.
@@ -79,7 +79,7 @@ Initializes the enrollment object by using a template.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a5dce88-afc5-4d47-85e8-980192a662d8">InstallResponse2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment2-installresponse2">InstallResponse2</a>
 </td>
 <td align="left" width="63%">
 Installs a certificate chain on the end-entity computer.
@@ -99,7 +99,7 @@ Installs a certificate chain on the end-entity computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dae8489b-39b1-41ba-9346-c038cd0acc1b">PolicyServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment2-get_policyserver">PolicyServer</a>
 
 
 </td>
@@ -115,7 +115,7 @@ Retrieves the certificate enrollment policy (CEP) server that contains the templ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a1269b0d-6b55-47ba-bca8-610c1032ecc4">RequestIdString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment2-get_requestidstring">RequestIdString</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves a string that contains a unique identifier for the certificate request
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/14b6fab5-36d1-490b-9416-ff77f6bb7e01">Template</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment2-get_template">Template</a>
 
 
 </td>
@@ -152,7 +152,7 @@ Retrieves the certificate request template used during initialization.
 
 
 
-<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
  
 
  

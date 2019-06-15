@@ -51,33 +51,33 @@ ms.custom: 19H1
 
 The <b>IADsPropertyValue2</b> interface is 
     used to represent the value of an 
-    <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> object in any data format, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> object in any data format, 
     including new or customer-defined data types. This interface is also useful for handling attribute values for 
     multiple directory services.
 
-The <a href="https://msdn.microsoft.com/73b0f6d4-55db-46cf-a781-e10bc4fcf2db">IADsPropertyEntry.Values</a> 
+The <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyentry-property-methods">IADsPropertyEntry.Values</a> 
     property contains an array of <b>IADsPropertyValue2</b> 
-    objects. Each of the <a href="https://msdn.microsoft.com/7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb">IADsPropertyValue</a> objects contains 
-    a single value of the <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> object. For 
+    objects. Each of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> objects contains 
+    a single value of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> object. For 
     more information and  a code example for creating entirely new property entries and values, see 
-    <a href="https://msdn.microsoft.com/16af5cbf-3b87-467e-8e72-0110bcf95295">IADsPropertyList.PutPropertyItem</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a>.
 
 Before calling the methods of this interfaces, you must call 
-    <a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">IADs.GetInfo</a> or 
-    <a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">IADs.GetInfoEx</a> explicitly to load the assigned values of 
+    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs.GetInfo</a> or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs.GetInfoEx</a> explicitly to load the assigned values of 
     the object into the cache, if the cache has not been initialized. After modifying the values of the object, you 
-    must call <a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">IADs.SetInfo</a> to save the changes to the 
+    must call <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a> to save the changes to the 
     persistent store of the underlying directory.
 
 This interface is more versatile than the 
-    <a href="https://msdn.microsoft.com/7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb">IADsPropertyValue</a> because this interface can be used to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a> because this interface can be used to 
     obtain any data type. The <b>IADsPropertyValue</b> interface 
     can only be used to obtain a limited number of data types.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyValue2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsPropertyValue2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyValue2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsPropertyValue2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,7 +92,7 @@ The <b>IADsPropertyValue2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a189f106-23dc-441b-8d97-c03d4c49a4a1">GetObjectProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">GetObjectProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of an attribute.
@@ -101,7 +101,7 @@ Retrieves the value of an attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53dad13f-7df7-4c1d-8c8a-946c291b20c6">PutObjectProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-putobjectproperty">PutObjectProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of an attribute.
@@ -116,8 +116,8 @@ Sets the value of an attribute.
 
 
 The following table lists the <i>lnADsType</i> parameter values in the 
-     <a href="https://msdn.microsoft.com/a189f106-23dc-441b-8d97-c03d4c49a4a1">GetObjectProperty</a> and 
-     <a href="https://msdn.microsoft.com/53dad13f-7df7-4c1d-8c8a-946c291b20c6">PutObjectProperty</a> methods to the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-getobjectproperty">GetObjectProperty</a> and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue2-putobjectproperty">PutObjectProperty</a> methods to the 
      corresponding <i>pvProp</i> data type.
 
 <table>
@@ -231,7 +231,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/d49e3339-8488-44c1-9d60-706492e65abc">IADsLargeInteger</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadslargeinteger">IADsLargeInteger</a>)
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/e587d603-d235-4449-986c-89f0fdb86ab6">IADsCaseIgnoreList</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscaseignorelist">IADsCaseIgnoreList</a>)
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/66ec49d6-43c5-4fc8-a90d-5847fd2ffe50">IADsOctetList</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsoctetlist">IADsOctetList</a>)
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/e588195c-eb4f-48d3-a2fa-777dd6dc2901">IADsPath</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspath">IADsPath</a>)
 
 </td>
 </tr>
@@ -291,7 +291,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/53ff56a6-60ee-44a1-b18b-18f17efe2acd">IADsPostalAddress</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspostaladdress">IADsPostalAddress</a>)
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/5f24e6e9-ad5b-4d5b-b3f3-cc3aca599bc1">IADsTimestamp</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadstimestamp">IADsTimestamp</a>)
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/2876e8c5-8cfa-4bcc-91ba-c2f71bfbe622">IADsBackLink</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsbacklink">IADsBackLink</a>)
 
 </td>
 </tr>
@@ -321,7 +321,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/ed57fad7-6cc6-4127-b8d2-da295bc0c5fe">IADsTypedName</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadstypedname">IADsTypedName</a>)
 
 </td>
 </tr>
@@ -331,7 +331,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/ccc22915-0f67-4089-9ddc-491b6f7ef554">IADsHold</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadshold">IADsHold</a>)
 
 </td>
 </tr>
@@ -341,7 +341,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/71e48dd4-4e86-494f-835e-38bda29fc543">IADsNetAddress</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnetaddress">IADsNetAddress</a>)
 
 </td>
 </tr>
@@ -351,7 +351,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/c34eab26-540e-4400-873e-7af09fda0bbf">IADsReplicaPointer</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsreplicapointer">IADsReplicaPointer</a>)
 
 </td>
 </tr>
@@ -361,7 +361,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/1c78bb35-dfa9-40f0-b3a4-db4a1c212cf7">IADsFaxNumber</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfaxnumber">IADsFaxNumber</a>)
 
 </td>
 </tr>
@@ -371,7 +371,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/ce788365-9e43-4bce-89c3-07506cb308fa">IADsEmail</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsemail">IADsEmail</a>)
 
 </td>
 </tr>
@@ -381,7 +381,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/c77547ab-e666-4d72-b8ef-4b2f3d61ad38">IADsSecurityDescriptor</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>)
 
 </td>
 </tr>
@@ -401,7 +401,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/dd64f0bd-1211-4e6f-93b5-87c079999208">IADsDNWithBinary</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithbinary">IADsDNWithBinary</a>)
 
 </td>
 </tr>
@@ -411,7 +411,7 @@ Not available.
 
 </td>
 <td>
-<b>VT_DISPATCH</b> (<a href="https://msdn.microsoft.com/112985e7-6e96-42fb-a4cb-916296d4a524">IADsDNWithString</a>)
+<b>VT_DISPATCH</b> (<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdnwithstring">IADsDNWithString</a>)
 
 </td>
 </tr>
@@ -426,19 +426,19 @@ Not available.
 
 
 
-<a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb">IADsPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue">IADsPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

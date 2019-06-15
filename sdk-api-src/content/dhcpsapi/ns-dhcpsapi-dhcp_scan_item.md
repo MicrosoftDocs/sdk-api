@@ -65,7 +65,7 @@ DHCP_IP_ADDRESS value that specifies the address whose lease status was changed 
 ### -field ScanFlag
 
 
-<a href="https://msdn.microsoft.com/825a0e64-b0c2-453e-8e00-52f84c40bef3">DHCP_SCAN_FLAG</a>enumeration value that indicates whether the supplied client lease IP address will be fixed in the DHCPv4 server's  in-memory client lease cache or the client lease database proper.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_scan_flag">DHCP_SCAN_FLAG</a>enumeration value that indicates whether the supplied client lease IP address will be fixed in the DHCPv4 server's  in-memory client lease cache or the client lease database proper.
 
 
 ## -see-also
@@ -73,15 +73,15 @@ DHCP_IP_ADDRESS value that specifies the address whose lease status was changed 
 
 
 
-<a href="https://msdn.microsoft.com/825a0e64-b0c2-453e-8e00-52f84c40bef3">DHCP_SCAN_FLAG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_scan_flag">DHCP_SCAN_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dc20612-1c08-4493-aab3-b524d8d88251">DHCP_SCAN_LIST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_scan_list">DHCP_SCAN_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/6324c197-7237-449f-ae23-4f04b1b7498e">DhcpScanDatabase</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpscandatabase">DhcpScanDatabase</a>
  
 
  

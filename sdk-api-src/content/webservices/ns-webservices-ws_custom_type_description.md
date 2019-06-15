@@ -89,8 +89,8 @@ This can be used to point to additional user-defined data
                 
 
 The pointer to this data is passed
-                    to the <a href="https://msdn.microsoft.com/95df152c-69cb-4417-9e85-e7ecb54ed042">WS_READ_TYPE_CALLBACK</a> and the
-                    <a href="https://msdn.microsoft.com/f94bdf80-abea-4a97-9d41-add498e314b1">WS_WRITE_TYPE_CALLBACK</a>.  This allows the
+                    to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_read_type_callback">WS_READ_TYPE_CALLBACK</a> and the
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_write_type_callback">WS_WRITE_TYPE_CALLBACK</a>.  This allows the
                     callback to access information that is specific to this
                     particular usage of the callback.
                 

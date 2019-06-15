@@ -287,7 +287,7 @@ If the function succeeds, the return value is the number of characters in the
        <i>UnDecoratedName</i> buffer, not including the NULL terminator.
 
 If the function fails, the return value is zero. To retrieve extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function fails and returns zero, the content of the <i>UnDecoratedName</i> buffer 
        is undetermined.
@@ -299,7 +299,7 @@ If the function fails and returns zero, the content of the <i>UnDecoratedName</i
 
 
 
-To use undecorated symbols, call the <a href="https://msdn.microsoft.com/15d72415-829f-4ba3-af80-1f3762cbebda">SymSetOptions</a> 
+To use undecorated symbols, call the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> 
     function with the <b>SYMOPT_UNDNAME</b> option.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -312,7 +312,7 @@ To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR<
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/fcb0591a-dac3-45eb-b4c0-4a35c42450e5">Retrieving Undecorated Symbol Names</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-undecorated-symbol-names">Retrieving Undecorated Symbol Names</a>.
 
 <div class="code"></div>
 
@@ -323,11 +323,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/15d72415-829f-4ba3-af80-1f3762cbebda">SymSetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a>
  
 
  

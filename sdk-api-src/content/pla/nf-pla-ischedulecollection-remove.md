@@ -75,7 +75,7 @@ Returns S_OK if successful.
 
 
 
-If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://msdn.microsoft.com/b02043c6-5010-45a1-a4a4-ce30cbf0dba0">ISchedule</a> interface to be removed.
+If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a> interface to be removed.
 
 
 
@@ -85,15 +85,15 @@ If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <
 
 
 
-<a href="https://msdn.microsoft.com/40b4a77c-5ab4-4443-801c-2e425b6ca1bc">IScheduleCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/92586c08-2f37-4462-b7cb-af58b6cfcecf">IScheduleCollection::Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-add">IScheduleCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9a3afb8-0049-425b-a231-bbb5b56eced7">IScheduleCollection::Clear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-clear">IScheduleCollection::Clear</a>
  
 
  

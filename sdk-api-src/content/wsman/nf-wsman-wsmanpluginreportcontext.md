@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Reports shell and command context back to the Windows Remote Management (WinRM) infrastructure so that further operations can be performed against the shell and/or command. This method is called only for <a href="https://msdn.microsoft.com/3016612a-ce99-405b-afae-200bcad9ed20">WSManPluginShell</a> and <a href="https://msdn.microsoft.com/df4b4e7b-cf30-4eb0-b646-49b17c883a16">WSManPluginCommand</a> plug-in entry points.
+Reports shell and command context back to the Windows Remote Management (WinRM) infrastructure so that further operations can be performed against the shell and/or command. This method is called only for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shell">WSManPluginShell</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_command">WSManPluginCommand</a> plug-in entry points.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Reports shell and command context back to the Windows Remote Management (WinRM) 
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 
 ### -param flags [in]
@@ -76,7 +76,7 @@ Defines the value to pass into all future shell and command operations. Represen
 
 
 
-The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code.  If this method returns an error, the plug-in should shut down the current operation and call the <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a> method.
+The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an error code.  If this method returns an error, the plug-in should shut down the current operation and call the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method.
 
 
 

@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains statistical information from the NTFS file system.
-<div class="alert"><b>Tip</b>  Applications targeting Windows 10 can access additional statistics through <a href="https://msdn.microsoft.com/D1A6995C-A4BA-4ECC-892A-196581FA41CE">NTFS_STATISTICS_EX</a>.  </div><div> </div>
+<div class="alert"><b>Tip</b>  Applications targeting Windows 10 can access additional statistics through <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>.  </div><div> </div>
 
 ## -struct-fields
 
@@ -412,7 +412,7 @@ The MFT, MFT mirror, root index, user index, bitmap, and MFT bitmap are counted 
 
 The number of read and write operations measured is the number of paging operations.
 
-For additional statistics that are only available with Windows 10, use <a href="https://msdn.microsoft.com/D1A6995C-A4BA-4ECC-892A-196581FA41CE">NTFS_STATISTICS_EX</a>.  
+For additional statistics that are only available with Windows 10, use <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>.  
 
 
 
@@ -422,15 +422,15 @@ For additional statistics that are only available with Windows 10, use <a href=
 
 
 
-<a href="https://msdn.microsoft.com/ff8c7dfe-da7f-4ee2-9a54-613e0cd3e1e2">FILESYSTEM_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics">FILESYSTEM_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee1dbd20-5502-4448-b39a-4629ddc73d01">KeQueryPerformanceCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
 
 
 
-<a href="https://msdn.microsoft.com/D1A6995C-A4BA-4ECC-892A-196581FA41CE">NTFS_STATISTICS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
 
 
 

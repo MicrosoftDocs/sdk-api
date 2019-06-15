@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param sObj [in]
 
-Contains a <a href="https://msdn.microsoft.com/en-us/library/ms629056(v=VS.85).aspx">TfSapiObject</a> value that specifies the SAPI object to obtain.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl___midl_itf_ctffunc_0000_0011_0001">TfSapiObject</a> value that specifies the SAPI object to obtain.
 
 
 ### -param ppunk [out]
@@ -121,11 +121,11 @@ The requested object is not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/d7b4caa5-e915-4e57-878a-2a2d6ce609a7">ITfFnGetSAPIObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffngetsapiobject">ITfFnGetSAPIObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/82fb6417-efee-4f04-a9a9-4e52934e2e86">TfSapiObject
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl___midl_itf_ctffunc_0000_0011_0001">TfSapiObject
       </a>
  
 

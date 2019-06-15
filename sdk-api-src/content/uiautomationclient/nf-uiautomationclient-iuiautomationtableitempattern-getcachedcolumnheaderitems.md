@@ -59,7 +59,7 @@ Retrieves the cached column headers associated with a table item or cell.
 
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/7ecf585c-ff3b-4f89-8a7d-e2de66650ab4">IUIAutomationElementArray</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelementarray">IUIAutomationElementArray</a>**</b>
 
 Receives a pointer to the collection of cached column headers.
 
@@ -68,7 +68,7 @@ Receives a pointer to the collection of cached column headers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8e9948ec-7c31-45dd-ac9f-e9eafed9d2db">IUIAutomationTableItemPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtableitempattern">IUIAutomationTableItemPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/69d4a632-8e35-4569-8c14-f56e9fd84c34">IUIAutomationTableItemPattern::GetCachedRowHeaderItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtableitempattern-getcachedrowheaderitems">IUIAutomationTableItemPattern::GetCachedRowHeaderItems</a>
  
 
  

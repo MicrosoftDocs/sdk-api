@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca35722a-1fd3-48bf-a11b-4624cb81aae3">Session.Timeout</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-timeout">Session.Timeout</a>
  
 
  

@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> from an 
-    <a href="https://msdn.microsoft.com/8e2e2838-5d08-4e51-be96-0928042ccb9f">MI_ClassDecl</a> structure. The resulting 
-    <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> structure must be closed by using the 
-    <a href="https://msdn.microsoft.com/a2794f8f-a69a-49f3-8d7e-512c80ea782b">MI_Class_Delete</a> function.
+Creates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> from an 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_classdecl">MI_ClassDecl</a> structure. The resulting 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> structure must be closed by using the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ Creates an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44
 ### -param application [in]
 
 Handle returned from 
-      <a href="https://msdn.microsoft.com/32696A33-820D-4D01-AF71-DDA1F34EFBE0">MI_Application_Initialize</a>.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a>.
 
 
 ### -param classDecl [in]
 
-The <a href="https://msdn.microsoft.com/8e2e2838-5d08-4e51-be96-0928042ccb9f">MI_ClassDecl</a> for the class to create.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_classdecl">MI_ClassDecl</a> for the class to create.
 
 
 ### -param namespaceName [in, optional]
@@ -83,14 +83,14 @@ The optional server name.
 
 ### -param classObject [out]
 
-The resultant <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> structure.
+The resultant <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> structure.
 
 
 ## -returns
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the 
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 

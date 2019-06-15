@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a> 
+     <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a> 
      function.
 
 
@@ -80,7 +80,7 @@ Supplies a GUID that identifies a
 ### -param pDeviceID [in, optional]
 
 Caller-supplied pointer to a NULL-terminated string that represents a 
-           <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If specified, the 
+           <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>. If specified, the 
            function retrieves the length of symbolic link names for the device interfaces that are supported by the 
            device, for the specified class. If this value is <b>NULL</b>, or if it points to a 
            zero-length string, the function retrieves the length of symbolic link names for all interfaces that belong 
@@ -138,7 +138,7 @@ If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it
 
 
 
-<a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>
  
 
  

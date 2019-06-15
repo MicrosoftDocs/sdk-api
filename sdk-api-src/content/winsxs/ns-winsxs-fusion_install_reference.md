@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FUSION_INSTALL_REFERENCE</b> structure contains information about the application which references the side-by-side assembly. The assembly being referenced can be added to or removed from the side-by-side assembly store using the <a href="https://msdn.microsoft.com/aff1da20-9e82-43d5-b601-f73ee2dba0fe">InstallAssembly</a> and <a href="https://msdn.microsoft.com/b492e93c-73f2-4d68-ae1a-c82e9ec36a72">UninstallAssembly</a> methods.
+The <b>FUSION_INSTALL_REFERENCE</b> structure contains information about the application which references the side-by-side assembly. The assembly being referenced can be added to or removed from the side-by-side assembly store using the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly">InstallAssembly</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly">UninstallAssembly</a> methods.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ The application  that uses the side-by-side assembly.
 </dl>
 </td>
 <td width="60%">
-The assembly is referenced by an application that has been installed by using the <a href="https://msdn.microsoft.com/c90b8cbe-d7a1-44ad-ae65-80115bd55e4f">Windows Installer</a>. The <b>szIdentifier</b> member is set to MSI, and <b>szNonCannonicalData</b> is set to Windows Installer. Use this value for Windows side-by-side assemblies.
+The assembly is referenced by an application that has been installed by using the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>. The <b>szIdentifier</b> member is set to MSI, and <b>szNonCannonicalData</b> is set to Windows Installer. Use this value for Windows side-by-side assemblies.
 
 </td>
 </tr>

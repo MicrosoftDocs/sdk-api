@@ -61,8 +61,8 @@ The
 ### -param bstrDeviceIdentifier [in]
 
 Specifies the identifier returned by 
-<a href="https://msdn.microsoft.com/1bb99a42-143b-495a-8b02-efa7ca1d4d29">RegisterDevice</a> or 
-<a href="https://msdn.microsoft.com/4b494b7e-4fcc-4de0-bdcc-96c68a5e0688">RegisterRunningDevice</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">RegisterDevice</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a>.
 
 
 ### -param bstrTemplateUDN [in]
@@ -98,7 +98,7 @@ Each UDN specified for a device in the device description template is replaced d
 
 
 
-<a href="https://msdn.microsoft.com/c851e102-4f03-4a21-9e62-9b5c60a728f3">IUPnPRegistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
  
 
  

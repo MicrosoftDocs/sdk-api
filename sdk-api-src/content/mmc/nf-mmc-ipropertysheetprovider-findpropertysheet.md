@@ -66,14 +66,14 @@ A handle to the selected item in the scope pane.
 ### -param lpComponent [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> interface on the selected object. <b>NULL</b> if the object selected is a folder (on the scope or result panes), and  
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface on the selected object. <b>NULL</b> if the object selected is a folder (on the scope or result panes), and  
 <b>IComponent</b> of the snap-in if it is a result pane leaf item.
 
 
 ### -param lpDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object.
 
 
 ## -returns
@@ -90,9 +90,9 @@ This method can return one of these values.
 
 
 Items in the scope pane are owned by the console so there is no need to interact with the 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a> interface. The snap-in must implement 
-<a href="https://msdn.microsoft.com/5bd7cd8e-140c-4f7b-9f2b-bf1bfe8a9a7a">IComponent::CompareObjects</a> or 
-<a href="https://msdn.microsoft.com/d6ca3957-3d0c-492d-9e47-fc898981720b">IComponentData::CompareObjects</a> to compare the data object with other data objects for existing property sheets.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface. The snap-in must implement 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-compareobjects">IComponent::CompareObjects</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-compareobjects">IComponentData::CompareObjects</a> to compare the data object with other data objects for existing property sheets.
 
 
 
@@ -102,7 +102,7 @@ Items in the scope pane are owned by the console so there is no need to interact
 
 
 
-<a href="https://msdn.microsoft.com/c63d5d5f-a334-4367-8a1e-252b4eb5b50d">IPropertySheetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
  
 
  

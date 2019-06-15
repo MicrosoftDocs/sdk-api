@@ -82,7 +82,7 @@ The function returns the result of the operation.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/51s265a6(v=VS.85).aspx">_InterlockedAdd64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions//51s265a6(v=vs.85)">_InterlockedAdd64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -96,43 +96,43 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/729c0e68-ef52-4d6c-b771-a89043a937e6">Interlocked Variable Access</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3ff4c2f-ac84-4046-ac4e-600569b874be">InterlockedAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedadd">InterlockedAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec1746cc-aff9-440e-b7e1-15a3d7a0fa58">InterlockedAddAcquire</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-_inlineinterlockedadd">InterlockedAddAcquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bdce93f-a57a-40d3-a8fa-007edb8b5c6d">InterlockedAddAcquire64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683510(v=vs.85)">InterlockedAddAcquire64</a>
 
 
 
-<a href="https://msdn.microsoft.com/98f29a64-27c9-455f-a7cf-c2c47ea512c8">InterlockedAddNoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972629(v=vs.85)">InterlockedAddNoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7c8c50a-805f-4963-8a5e-160776dd995e">InterlockedAddNoFence64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972630(v=vs.85)">InterlockedAddNoFence64</a>
 
 
 
-<a href="https://msdn.microsoft.com/d09a6420-bf6c-43a7-aa7a-1cff03596afc">InterlockedAddRelease</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683513(v=vs.85)">InterlockedAddRelease</a>
 
 
 
-<a href="https://msdn.microsoft.com/24a88190-79e3-48bf-986e-d5d08c1bce08">InterlockedAddRelease64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683514(v=vs.85)">InterlockedAddRelease64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedexchangeadd">InterlockedExchangeAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

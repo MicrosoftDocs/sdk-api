@@ -81,12 +81,12 @@ If the current process is not running in the context of a debugger, the return v
 
 
 This function allows an application to determine whether or not it is being debugged, so that it can modify its behavior. For example, an application could provide additional information using the 
-<a href="https://msdn.microsoft.com/ca23d9a9-65b7-4a36-bd09-857a6997f482">OutputDebugString</a> function if it is being debugged.
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> function if it is being debugged.
 
-To determine whether a remote process is being debugged, use the <a href="https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91">CheckRemoteDebuggerPresent</a> function.
+To determine whether a remote process is being debugged, use the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0400 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -96,15 +96,15 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 
-<a href="https://msdn.microsoft.com/e7eb2d48-4ef3-4708-8895-2bc33d2c3e91">CheckRemoteDebuggerPresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca23d9a9-65b7-4a36-bd09-857a6997f482">OutputDebugString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a>
  
 
  

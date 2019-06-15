@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents information about processor groups. This structure is used with the <a href="https://msdn.microsoft.com/dfc4f444-4651-4a02-b8f6-f30d9278eae2">GetLogicalProcessorInformationEx</a> function.
+Represents information about processor groups. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> function.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The maximum number of processor groups on the system.
 
 ### -field ActiveGroupCount
 
-The number of active groups on the system. This member indicates the number of <a href="https://msdn.microsoft.com/6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03">PROCESSOR_GROUP_INFO</a> structures in the <b>GroupInfo</b> array.
+The number of active groups on the system. This member indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_group_info">PROCESSOR_GROUP_INFO</a> structures in the <b>GroupInfo</b> array.
 
 
 ### -field Reserved
@@ -74,7 +74,7 @@ This member is reserved.
 
 ### -field GroupInfo
 
-An array of <a href="https://msdn.microsoft.com/6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03">PROCESSOR_GROUP_INFO</a> structures. Each structure represents the number and affinity of processors in an active group on the system.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_group_info">PROCESSOR_GROUP_INFO</a> structures. Each structure represents the number and affinity of processors in an active group on the system.
 
 
 ## -see-also
@@ -82,15 +82,15 @@ An array of <a href="https://msdn.microsoft.com/6ff9cc3c-34e7-4dc4-94cd-6ed278df
 
 
 
-<a href="https://msdn.microsoft.com/dfc4f444-4651-4a02-b8f6-f30d9278eae2">GetLogicalProcessorInformationEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03">PROCESSOR_GROUP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_processor_group_info">PROCESSOR_GROUP_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd405522(v=VS.85).aspx">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

@@ -64,7 +64,7 @@ The
 ### -param dwEventFlags [in]
 
 A bit mask (or bitwise OR) of 
-<a href="https://msdn.microsoft.com/4aa3afe4-98da-4376-b795-75bf404aaed9">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 
 
 
 
@@ -126,7 +126,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -154,19 +154,19 @@ The writer has previously called this method.
 
 
 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2bb68d1-7beb-4ba1-b16d-6314ac3f4a3d">CVssWriter::Unsubscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-unsubscribe">CVssWriter::Unsubscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/4aa3afe4-98da-4376-b795-75bf404aaed9">VSS_SUBSCRIBE_MASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a>
  
 
  

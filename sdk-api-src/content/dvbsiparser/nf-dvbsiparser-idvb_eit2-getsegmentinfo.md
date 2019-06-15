@@ -107,7 +107,7 @@ NULL pointer argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/a0ffa39a-9e91-4229-8dee-b31f3973f384">Initialize</a> method was not called.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-initialize">Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The <a href="https://msdn.microsoft.com/a0ffa39a-9e91-4229-8dee-b31f3973f384">In
 
 
 
-<a href="https://msdn.microsoft.com/9d93130c-12fb-4c76-98c1-cdfae113cf2c">IDVB_EIT2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit2">IDVB_EIT2</a>
  
 
  

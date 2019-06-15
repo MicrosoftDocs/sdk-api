@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a filled <a href="https://msdn.microsoft.com/469A4FFC-6B5B-4C88-B6A5-23AFD41B885A">D2D1_VECTOR_3F</a> structure.
+Returns a filled <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a> structure.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ The x value of the vector.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/469A4FFC-6B5B-4C88-B6A5-23AFD41B885A">D2D1_VECTOR_3F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_3f">D2D1_VECTOR_3F</a></b>
 
 A vector of 3 FLOAT values (x, y, z).
 

@@ -68,7 +68,7 @@ Pointer to the source buffer. The caller allocates the buffer.
 
 ### -param cbSrcBuffer [in]
 
-Size of the source buffer, in bytes. To get the maximum size of the buffer, call <a href="https://msdn.microsoft.com/413d50f6-a047-4561-985d-9d1927825617">IMF2DBuffer::GetContiguousLength</a>.
+Size of the source buffer, in bytes. To get the maximum size of the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imf2dbuffer-getcontiguouslength">IMF2DBuffer::GetContiguousLength</a>.
 
 
 ## -returns
@@ -103,9 +103,9 @@ The method succeeded.
 
 
 
-This method copies the contents of the source buffer into the buffer that is managed by this <a href="https://msdn.microsoft.com/80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7">IMF2DBuffer</a> object. The source buffer must be in contiguous format. While copying, the method converts the contents into the destination buffer's native format, correcting for the buffer's pitch if necessary.
+This method copies the contents of the source buffer into the buffer that is managed by this <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> object. The source buffer must be in contiguous format. While copying, the method converts the contents into the destination buffer's native format, correcting for the buffer's pitch if necessary.
 
-For a definition of contiguous as it applies to 2-D buffers, see the Remarks section in the <a href="https://msdn.microsoft.com/80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7">IMF2DBuffer</a> interface topic.
+For a definition of contiguous as it applies to 2-D buffers, see the Remarks section in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface topic.
 
 
 
@@ -115,15 +115,15 @@ For a definition of contiguous as it applies to 2-D buffers, see the Remarks sec
 
 
 
-<a href="https://msdn.microsoft.com/80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7">IMF2DBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ee073ea-7bac-4971-9167-93a4e541ab77">Media Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/be5ec8a8-2d0b-401b-9d05-fdb87ad8c864">Uncompressed Video Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
  
 
  

@@ -63,7 +63,7 @@ The <code>GetRenderingMode</code> method retrieves the rendering mode currently 
 
 ### -param pMode [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407367(v=VS.85).aspx">VMR9Mode</a> emumeration.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0010_0001">VMR9Mode</a> emumeration.
 
 
 ## -returns
@@ -110,11 +110,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377365(v=VS.85).aspx">IVMRFilterConfig9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

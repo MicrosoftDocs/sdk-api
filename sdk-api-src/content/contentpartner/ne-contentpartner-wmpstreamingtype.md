@@ -87,11 +87,11 @@ The plug-in must return a URL for radio content.
 
 
 
-<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/enumerations-for-type-1-online-stores">Enumerations for Type 1 Online Stores</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563167(v=VS.85).aspx">IWMPContentPartner::GetStreamingURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getstreamingurl">IWMPContentPartner::GetStreamingURL</a>
  
 
  

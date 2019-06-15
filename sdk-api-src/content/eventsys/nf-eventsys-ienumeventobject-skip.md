@@ -115,7 +115,7 @@ The number of elements skipped was not the same as the number requested.
 
 
 
-<a href="https://msdn.microsoft.com/a42d0791-28d0-4d83-b94d-ff2f8ef9a614">IEnumEventObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
  
 
  

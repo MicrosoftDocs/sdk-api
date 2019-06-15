@@ -63,9 +63,9 @@ Creates a DirectML device for a given Direct3D 12 device.
 
 ### -param d3d12Device
 
-Type: <b><a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a> representing the Direct3D 12 device to create the DirectML device over. DirectML supports any D3D feature level,
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a> representing the Direct3D 12 device to create the DirectML device over. DirectML supports any D3D feature level,
       and Direct3D 12 devices created on any adapter, including WARP. However, not all features in DirectML may be
       available depending on the capabilities of the Direct3D 12 device. See [IDMLDevice::CheckFeatureSupport](/windows/desktop/api/directml/nf-directml-idmldevice-checkfeaturesupport) for more
       information.

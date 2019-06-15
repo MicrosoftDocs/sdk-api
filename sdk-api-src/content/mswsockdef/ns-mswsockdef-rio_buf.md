@@ -78,9 +78,9 @@ A length, in bytes, of the buffer to use from the <b>Offset</b> member.
 
 The Winsock registered I/O extensions often operate on portions of registered buffers sometimes called buffer slices. The <b>RIO_BUF</b> structure is used by an application that needs to use a small amount of registered memory for sending or receiving network data. The application can often increase performance by registering one large buffer and then using small chunks of the buffer as needed. The <b>RIO_BUF</b> structure may describe any contiguous segment of memory contained in a single buffer registration.
 
-A pointer to a <b>RIO_BUF</b> structure is passed as the <i>pData</i> parameter to the <a href="https://msdn.microsoft.com/A1CE9224-1E8C-46F8-AD7B-DBCBEBC670F7">RIOSend</a>,  <a href="https://msdn.microsoft.com/BD246278-C2BF-48E6-97AD-65057EDA1F59">RIOSendEx</a>, <a href="https://msdn.microsoft.com/26726277-4907-47A1-BACF-868389B46EA8">RIOReceive</a>, and <a href="https://msdn.microsoft.com/74C006D0-EE13-4518-8ACC-C0CFD44D09A3">RIOReceiveEx</a> functions to send or receive network data.
+A pointer to a <b>RIO_BUF</b> structure is passed as the <i>pData</i> parameter to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437213(v=vs.85)">RIOSend</a>,  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437216(v=vs.85)">RIOSendEx</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437193(v=vs.85)">RIOReceive</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437196(v=vs.85)">RIOReceiveEx</a> functions to send or receive network data.
 
-An application cannot resize a registered buffer simply by using a buffer slice with values larger than the original buffer that was registered using the <a href="https://msdn.microsoft.com/CAADCC2F-1443-410F-A860-375C9AAE208E">RIORegisterBuffer</a> function.
+An application cannot resize a registered buffer simply by using a buffer slice with values larger than the original buffer that was registered using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437199(v=vs.85)">RIORegisterBuffer</a> function.
 
 The <b>RIO_BUF</b> structure is defined in the <i>Mswsockdef.h</i> header file which is automatically included in the <i>Mswsock.h</i> header file. The <i>Mswsockdef.h</i> header file should never be used directly.
 
@@ -93,31 +93,31 @@ The <b>RIO_BUF</b> structure is defined in the <i>Mswsockdef.h</i> header file w
 
 
 
-<a href="https://msdn.microsoft.com/5D5C3469-0D5B-4E89-BE59-8D8AE9DBA5DE">RIODeregisterBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448847(v=vs.85)">RIODeregisterBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/26726277-4907-47A1-BACF-868389B46EA8">RIOReceive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437193(v=vs.85)">RIOReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/74C006D0-EE13-4518-8ACC-C0CFD44D09A3">RIOReceiveEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437196(v=vs.85)">RIOReceiveEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/CAADCC2F-1443-410F-A860-375C9AAE208E">RIORegisterBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437199(v=vs.85)">RIORegisterBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/A1CE9224-1E8C-46F8-AD7B-DBCBEBC670F7">RIOSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437213(v=vs.85)">RIOSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/BD246278-C2BF-48E6-97AD-65057EDA1F59">RIOSendEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437216(v=vs.85)">RIOSendEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/87D0A3F6-A44C-4D7F-B276-7FD5DC2DE7A3">RIO_BUFFERID</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/rio-bufferid">RIO_BUFFERID</a>
  
 
  

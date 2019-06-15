@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774595(v=VS.85).aspx">PSM_PAGETOINDEX</a> message explicitly.
+Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/psm-pagetoindex">PSM_PAGETOINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Takes the HPROPSHEETPAGE handle of a property sheet page and returns its zero-ba
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -76,11 +76,11 @@ HPROPSHEETPAGE handle to the property sheet page.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-createpropertysheetpagea">CreatePropertySheetPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774658(v=VS.85).aspx">PropSheet_IndexToPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_indextopage">PropSheet_IndexToPage</a>
 
 
 

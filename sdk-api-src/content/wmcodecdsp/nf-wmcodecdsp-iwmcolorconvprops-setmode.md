@@ -127,7 +127,7 @@ The method succeeded.
 
 By default, the color converter uses the input media type to determine whether the video is interlaced. You can call this method to override the media type setting. 
 
-This method is equivalent to setting the <a href="https://msdn.microsoft.com/d0d93151-5b0d-44a7-8497-f11b3e23a031">MFPKEY_COLORCONV_MODE</a> property.
+This method is equivalent to setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-mode">MFPKEY_COLORCONV_MODE</a> property.
 
 
 
@@ -137,7 +137,7 @@ This method is equivalent to setting the <a href="https://msdn.microsoft.com/d0d
 
 
 
-<a href="https://msdn.microsoft.com/c4a6b7c1-edc0-4030-ac47-895580ad294d">IWMColorConvProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcolorconvprops">IWMColorConvProps Interface</a>
  
 
  

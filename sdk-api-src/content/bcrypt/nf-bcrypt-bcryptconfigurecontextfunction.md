@@ -209,7 +209,7 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param pConfig [in]
 
-The address of a <a href="https://msdn.microsoft.com/53026095-c871-4027-ac7d-428f1cb4aafe">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that contains the new function configuration information.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that contains the new function configuration information.
 
 
 ## -returns
@@ -281,7 +281,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/53026095-c871-4027-ac7d-428f1cb4aafe">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
  
 
  

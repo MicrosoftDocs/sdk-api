@@ -74,7 +74,7 @@ Configuration data required by the technology identified by <b>guidId</b>.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd798050(v=VS.85).aspx">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a> structure contains an array of <b>DRM_VIDEO_OUTPUT_PROTECTION</b> structures.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_video_output_protection_ids">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a> structure contains an array of <b>DRM_VIDEO_OUTPUT_PROTECTION</b> structures.
 
 
 
@@ -84,11 +84,11 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd798050(v=VS.85).aspx">DR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798050(v=VS.85).aspx">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_video_output_protection_ids">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a>
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

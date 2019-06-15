@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the caching mode used in methods such as <a href="https://msdn.microsoft.com/4d9a2fda-baad-4ada-8a07-f39c9cfafdfa">IOfflineFilesCache::IsPathCacheable</a> and <a href="https://msdn.microsoft.com/0045497b-0f90-4e20-80c9-6b74e4b523b8">IOfflineFilesShareInfo::GetShareCachingMode</a>.
+Describes the caching mode used in methods such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-ispathcacheable">IOfflineFilesCache::IsPathCacheable</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">IOfflineFilesShareInfo::GetShareCachingMode</a>.
 
 
 ## -enum-fields
@@ -87,19 +87,19 @@ The share or shared folder is configured to allow automatic caching of programs 
 
 
 
-<a href="https://msdn.microsoft.com/4d9a2fda-baad-4ada-8a07-f39c9cfafdfa">IOfflineFilesCache::IsPathCacheable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-ispathcacheable">IOfflineFilesCache::IsPathCacheable</a>
 
 
 
-<a href="https://msdn.microsoft.com/0045497b-0f90-4e20-80c9-6b74e4b523b8">IOfflineFilesShareInfo::GetShareCachingMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesshareinfo-getsharecachingmode">IOfflineFilesShareInfo::GetShareCachingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/672ea208-4048-4d2f-9606-ee3e2133765b">NetShareGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fb3e0ae-76b5-4432-80dd-f3361738aa7c">SHARE_INFO_1005</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_share_info_1005">SHARE_INFO_1005</a>
  
 
  

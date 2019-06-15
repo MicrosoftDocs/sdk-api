@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0d5a78a3-0d56-47e8-939f-006d5f4db5c4">IDvbPrivateDataSpecifierDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbprivatedataspecifierdescriptor">IDvbPrivateDataSpecifierDescriptor</a>
  
 
  

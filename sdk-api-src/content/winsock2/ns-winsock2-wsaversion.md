@@ -66,7 +66,7 @@ Version of Windows Sockets.
 ### -field ecHow
 
 
-<a href="https://msdn.microsoft.com/a1de171e-42d7-4d57-b241-1db9989dbd8e">WSAECOMPARATOR</a> enumeration, used in the comparison.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-_wsaecomparator">WSAECOMPARATOR</a> enumeration, used in the comparison.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ Version of Windows Sockets.
 
 
 
-<a href="https://msdn.microsoft.com/a1de171e-42d7-4d57-b241-1db9989dbd8e">WSAECOMPARATOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ne-winsock2-_wsaecomparator">WSAECOMPARATOR</a>
  
 
  

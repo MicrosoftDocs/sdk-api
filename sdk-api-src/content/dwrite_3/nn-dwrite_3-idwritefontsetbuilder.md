@@ -54,7 +54,7 @@ Contains methods for building a font set.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontSetBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontSetBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontSetBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933239(v=VS.85).aspx">AddFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-addfontfacereference">AddFontFaceReference</a>
 </td>
 <td align="left" width="63%">Overloaded. Adds a reference to a font to the set being built.
 
@@ -77,7 +77,7 @@ The <b>IDWriteFontSetBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F8B94A1B-905B-4A96-9943-12BB516311C2">AddFontSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontset">AddFontSet</a>
 </td>
 <td align="left" width="63%">
 Appends an existing font set to the one being built, allowing
@@ -87,7 +87,7 @@ Appends an existing font set to the one being built, allowing
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58923F9C-4DAA-4F97-AE25-A2560176E0F2">CreateFontSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-createfontset">CreateFontSet</a>
 </td>
 <td align="left" width="63%">
 Creates a font set from all the font face references added so
@@ -103,7 +103,7 @@ Creates a font set from all the font face references added so
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

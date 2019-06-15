@@ -81,11 +81,11 @@ This is a Win32 API that's supported in both Win32 and UWP apps. While it works 
 
 
 
-<a href="https://msdn.microsoft.com/bf210289-5963-4327-828b-98a0d14b5bfa">Gaming Device Information</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gamingdvcinfo/gaming-device-information-portal">Gaming Device Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/78101CBA-63B5-4B3F-9CEC-A215F32D9EB8">GetGamingDeviceModelInformation function</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gamingdeviceinformation/nf-gamingdeviceinformation-getgamingdevicemodelinformation">GetGamingDeviceModelInformation function</a>
  
 
  

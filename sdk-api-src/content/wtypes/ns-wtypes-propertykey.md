@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the FMTID/PID identifier that programmatically identifies a property. Replaces <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a>.
+Specifies the FMTID/PID identifier that programmatically identifies a property. Replaces <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ A unique GUID for the property.
 
 Type: <b>DWORD</b>
 
-A property identifier (PID). This parameter is not used as in <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a>. It is recommended that you set this value to PID_FIRST_USABLE. Any value greater than or equal to 2 is acceptable.
+A property identifier (PID). This parameter is not used as in <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>. It is recommended that you set this value to PID_FIRST_USABLE. Any value greater than or equal to 2 is acceptable.
 
 <div class="alert"><b>Note</b>  Values of 0 and 1 are reserved and should not be used.</div>
 <div> </div>
@@ -77,7 +77,7 @@ A property identifier (PID). This parameter is not used as in <a href="https://m
 
 
 
-As of Windows Vista, the <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> structure is simply an alias for <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>, as shown in this declaration from Shobjidl.h.
+As of Windows Vista, the <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure is simply an alias for <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a>, as shown in this declaration from Shobjidl.h.
 
                 
 
@@ -88,7 +88,7 @@ typedef PROPERTYKEY SHCOLUMNID;
 
 
 
-<a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> can be considered a legacy structure with <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> being the new, preferred form. <b>PROPERTYKEY</b> has a broader purpose than <b>SHCOLUMNID</b>, and the new name is more descriptive of its uses.
+<a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> can be considered a legacy structure with <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> being the new, preferred form. <b>PROPERTYKEY</b> has a broader purpose than <b>SHCOLUMNID</b>, and the new name is more descriptive of its uses.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SIP_DISPATCH_INFO</b> structure contains a set of function pointers assigned by the <a href="https://msdn.microsoft.com/3378ecee-bd5d-45e5-9a1f-a3734d086782">CryptSIPLoad</a> function that your application uses to perform <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) operations.
+The <b>SIP_DISPATCH_INFO</b> structure contains a set of function pointers assigned by the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function that your application uses to perform <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) operations.
 
 
 ## -struct-fields
@@ -69,34 +69,34 @@ This member is reserved and must be set to <b>NULL</b>.
 
 ### -field pfGet
 
-A pointer to the function that retrieves the signed data for the subject. The signature for this function pointer is described in <a href="https://msdn.microsoft.com/e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5">CryptSIPGetSignedDataMsg</a>.
+A pointer to the function that retrieves the signed data for the subject. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>.
 
 
 ### -field pfPut
 
-A pointer to the function that stores the signed data for the subject. The signature for this function pointer is described in <a href="https://msdn.microsoft.com/731f64bf-49f0-4799-b84a-9ca04292aa91">CryptSIPPutSignedDataMsg</a>.
+A pointer to the function that stores the signed data for the subject. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>.
 
 
 ### -field pfCreate
 
-A pointer to the function that returns a <a href="https://msdn.microsoft.com/d34b599b-fe49-47c4-bb52-73ee14d73253">SIP_INDIRECT_DATA</a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://msdn.microsoft.com/bb4ecc95-972f-415c-9722-59b00a27cddc">CryptSIPCreateIndirectData</a>.
+A pointer to the function that returns a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>.
 
 
 ### -field pfVerify
 
-A pointer to the function that verifies the <a href="https://msdn.microsoft.com/d34b599b-fe49-47c4-bb52-73ee14d73253">SIP_INDIRECT_DATA</a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://msdn.microsoft.com/137b8858-a31f-4ef6-96bd-c5e26ae7b3e8">CryptSIPVerifyIndirectData</a>.
+A pointer to the function that verifies the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data_">SIP_INDIRECT_DATA</a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>.
 
 
 ### -field pfRemove
 
-A pointer to the function that removes the signed data for the subject. The signature for this function pointer is described in <a href="https://msdn.microsoft.com/c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a">CryptSIPRemoveSignedDataMsg</a>.
+A pointer to the function that removes the signed data for the subject. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>.
 
 
 ## -remarks
 
 
 
-Your application must initialize this structure to binary zeros and set <b>cbSize</b> to <code>sizeof(SIP_DISPATCH_INFO)</code> by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=106519">memset</a> function before calling the <a href="https://msdn.microsoft.com/3378ecee-bd5d-45e5-9a1f-a3734d086782">CryptSIPLoad</a> function. Your application can use the function pointers in the returned <b>SIP_DISPATCH_INFO</b> structure to perform the necessary SIP operations.   The function pointers can point to functions exported by third party SIPs.
+Your application must initialize this structure to binary zeros and set <b>cbSize</b> to <code>sizeof(SIP_DISPATCH_INFO)</code> by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=106519">memset</a> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function. Your application can use the function pointers in the returned <b>SIP_DISPATCH_INFO</b> structure to perform the necessary SIP operations.   The function pointers can point to functions exported by third party SIPs.
 
 
 
@@ -106,23 +106,23 @@ Your application must initialize this structure to binary zeros and set <b>cbSiz
 
 
 
-<a href="https://msdn.microsoft.com/bb4ecc95-972f-415c-9722-59b00a27cddc">CryptSIPCreateIndirectData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5">CryptSIPGetSignedDataMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/731f64bf-49f0-4799-b84a-9ca04292aa91">CryptSIPPutSignedDataMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a">CryptSIPRemoveSignedDataMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/137b8858-a31f-4ef6-96bd-c5e26ae7b3e8">CryptSIPVerifyIndirectData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>
  
 
  

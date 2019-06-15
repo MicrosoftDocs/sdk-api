@@ -67,7 +67,7 @@ Handle to the device context. If <i>dwFlags</i> is set to SSA_GLYPHS, the device
 
 ### -param pString [in]
 
-Pointer to the string to analyze. The string must have at least one character. It can be a Unicode string or use the character set from a Windows ANSI <a href="https://msdn.microsoft.com/866f09f4-629e-4097-a974-fbda9389d077">code page</a>, as specified by the <i>iCharset</i> parameter.
+Pointer to the string to analyze. The string must have at least one character. It can be a Unicode string or use the character set from a Windows ANSI <a href="https://docs.microsoft.com/windows/desktop/Intl/code-pages">code page</a>, as specified by the <i>iCharset</i> parameter.
 
 
 ### -param cString [in]
@@ -153,7 +153,7 @@ Justify the string to <i>iReqWidth</i>.
 </dl>
 </td>
 <td width="60%">
-Retrieve missing glyphs and <i>pwLogClust</i> with <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a> conventions.
+Retrieve missing glyphs and <i>pwLogClust</i> with <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> conventions.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ Apply East Asian font linking and association to noncomplex text.
 </dl>
 </td>
 <td width="60%">
-Write items with <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOutW</a> calls, not with glyphs.
+Write items with <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOutW</a> calls, not with glyphs.
 
 </td>
 </tr>
@@ -258,12 +258,12 @@ Width required for fitting or clipping.
 
 ### -param psControl [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/4623f606-f67e-48ad-8c1d-d27da5ba556c">SCRIPT_CONTROL</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_CONTROL</b> members are set to 0.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_CONTROL</b> members are set to 0.
 
 
 ### -param psState [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/4b1724f7-7773-42c0-9c19-fbded5aef14e">SCRIPT_STATE</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_STATE</b> members are set to 0. The <b>uBidiLevel</b> member of <b>SCRIPT_STATE</b> is ignored. The value used is derived from the SSA_RTL flag in combination with the layout of the device context.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a> structure. The application can set this parameter to <b>NULL</b> to indicate that all <b>SCRIPT_STATE</b> members are set to 0. The <b>uBidiLevel</b> member of <b>SCRIPT_STATE</b> is ignored. The value used is derived from the SSA_RTL flag in combination with the layout of the device context.
 
 
 ### -param piDx [in, optional]
@@ -273,17 +273,17 @@ Pointer to the requested logical dx array.
 
 ### -param pTabdef [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/023ec258-b3f9-4ea2-8c9d-838df1442068">SCRIPT_TABDEF</a> structure. This value is only required if <i>dwFlags</i> is set to SSA_TAB.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_tabdef">SCRIPT_TABDEF</a> structure. This value is only required if <i>dwFlags</i> is set to SSA_TAB.
 
 
 ### -param pbInClass [in]
 
-Pointer to a BYTE value that indicates <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a> character classifications.
+Pointer to a BYTE value that indicates <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> character classifications.
 
 
 ### -param pssa [out]
 
-Pointer to a buffer in which this function retrieves a <a href="https://msdn.microsoft.com/aa93d631-3cfc-449d-9d04-c1f851129c6c">SCRIPT_STRING_ANALYSIS</a> structure. This structure is dynamically allocated on successful return from the function.
+Pointer to a buffer in which this function retrieves a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure. This structure is dynamically allocated on successful return from the function.
 
 
 ## -returns
@@ -308,9 +308,9 @@ The function can also return a system error converted to an HRESULT type. An exa
 
 
 
-Use of this function is the first step in handling plain text strings. Such a string has only one font, one style, one size, one color, and so forth. <b>ScriptStringAnalyse</b> allocates temporary buffers for item analyses, glyphs, advance widths, and the like. Then it automatically runs <a href="https://msdn.microsoft.com/1491d9c5-e86b-45cc-bb47-85c8619eab69">ScriptItemize</a>, <a href="https://msdn.microsoft.com/073ba94a-ebfa-42f5-9d90-d5693dc25703">ScriptShape</a>, <a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>, and <a href="https://msdn.microsoft.com/1613819f-9473-4d9f-8a65-a109c9ef3f43">ScriptBreak</a>. The results are available through all the other <b>ScriptString*</b> functions.
+Use of this function is the first step in handling plain text strings. Such a string has only one font, one style, one size, one color, and so forth. <b>ScriptStringAnalyse</b> allocates temporary buffers for item analyses, glyphs, advance widths, and the like. Then it automatically runs <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>. The results are available through all the other <b>ScriptString*</b> functions.
 
-On successful return from this function, <i>pssa</i> indicates a dynamically allocated structure that the application can pass successively to the other <b>ScriptString*</b> functions. The application must ultimately free the structure by calling <a href="https://msdn.microsoft.com/39d633a7-def7-41ef-80e5-f4c5c90cebba">ScriptStringFree</a>.
+On successful return from this function, <i>pssa</i> indicates a dynamically allocated structure that the application can pass successively to the other <b>ScriptString*</b> functions. The application must ultimately free the structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringfree">ScriptStringFree</a>.
 
 Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by direct calls to other functions, use of the function itself drastically reduces the amount of code required in the application for plain text handling.
 
@@ -324,43 +324,43 @@ Although the functionality of <b>ScriptStringAnalyse</b> can be implemented by d
 
 
 
-<a href="https://msdn.microsoft.com/4623f606-f67e-48ad-8c1d-d27da5ba556c">SCRIPT_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_control">SCRIPT_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b1724f7-7773-42c0-9c19-fbded5aef14e">SCRIPT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_state">SCRIPT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa93d631-3cfc-449d-9d04-c1f851129c6c">SCRIPT_STRING_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
 
 
 
-<a href="https://msdn.microsoft.com/023ec258-b3f9-4ea2-8c9d-838df1442068">SCRIPT_TABDEF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_tabdef">SCRIPT_TABDEF</a>
 
 
 
-<a href="https://msdn.microsoft.com/1613819f-9473-4d9f-8a65-a109c9ef3f43">ScriptBreak</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a>
 
 
 
-<a href="https://msdn.microsoft.com/1491d9c5-e86b-45cc-bb47-85c8619eab69">ScriptItemize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
 
 
 
-<a href="https://msdn.microsoft.com/073ba94a-ebfa-42f5-9d90-d5693dc25703">ScriptShape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/876e36f5-a91c-490b-87bd-b7cb4993f8c4">Uniscribe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
  
 
  

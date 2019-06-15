@@ -84,11 +84,11 @@ This method can be called from both the client and the server.
 
 
 
-<a href="https://msdn.microsoft.com/9432621a-be31-4b8b-83b6-069539ba06b4">CoTestCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel">CoTestCancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e31f706-1c9c-4510-845c-4e47093780a1">ICancelMethodCalls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
  
 
  

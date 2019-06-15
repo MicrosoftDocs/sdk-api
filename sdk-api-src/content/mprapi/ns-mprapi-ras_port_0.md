@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RAS_PORT_0</b> structure contains general information regarding a specific RAS port, such as port condition and port name. For more detailed information about a specific port, such as line speed or errors, see 
-<a href="https://msdn.microsoft.com/4850f08e-13ee-485f-99a5-be4554d6311b">RAS_PORT_1</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ Handle to the connection.
 ### -field dwPortCondition
 
 
-<a href="https://msdn.microsoft.com/86bcca08-97c5-404c-b5d9-a90d93f26e00">RAS_PORT_CONDITION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_port_condition">RAS_PORT_CONDITION</a> structure.
 
 
 ### -field dwTotalNumberOfCalls
@@ -110,20 +110,20 @@ Specifies the device type.
 
 
 
-<a href="https://msdn.microsoft.com/858fcdd8-6587-41c4-a2d7-c871722562e7">RAS
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS
 		  Administration Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4850f08e-13ee-485f-99a5-be4554d6311b">RAS_PORT_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_port_1">RAS_PORT_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/86bcca08-97c5-404c-b5d9-a90d93f26e00">RAS_PORT_CONDITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_port_condition">RAS_PORT_CONDITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

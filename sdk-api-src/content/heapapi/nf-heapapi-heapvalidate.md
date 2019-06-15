@@ -66,8 +66,8 @@ Validates the specified heap. The function scans all the memory blocks in the he
 ### -param hHeap [in]
 
 A handle to the heap to be validated. This handle is returned by either the 
-<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a> or 
-<a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 
 ### -param dwFlags [in]
@@ -90,7 +90,7 @@ The heap access options. This parameter can be the following value.
 <td width="60%">
 Serialized access will not be used. For more information, see Remarks.
 
-To ensure that serialized access is disabled for all calls to this function, specify <b>HEAP_NO_SERIALIZE</b> in the call to <a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a>. In this case, it is not necessary to additionally specify <b>HEAP_NO_SERIALIZE</b> in this function call.
+To ensure that serialized access is disabled for all calls to this function, specify <b>HEAP_NO_SERIALIZE</b> in the call to <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>. In this case, it is not necessary to additionally specify <b>HEAP_NO_SERIALIZE</b> in this function call.
 
 This value should not be specified when accessing the process default heap. The system may create additional threads within the application's process, such as a CTRL+C handler, that simultaneously access the process default heap.
 
@@ -120,7 +120,7 @@ If the specified heap or memory block is valid, the return value is nonzero.
 
 If the specified heap or memory block is invalid, the return value is zero. On a system set up for debugging, the 
 <b>HeapValidate</b> function then displays debugging messages that describe the part of the heap or memory block that is invalid, and stops at a hard-coded breakpoint so that you can examine the system to determine the source of the invalidity. The 
-<b>HeapValidate</b> function does not set the thread's last error value. There is no extended error information for this function; do not call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<b>HeapValidate</b> function does not set the thread's last error value. There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -140,9 +140,9 @@ When you use
 <b>HeapValidate</b> on a freed memory block will return <b>FALSE</b> because there are no control structures to validate.
 
 If you want to validate the heap elements enumerated by the 
-<a href="https://msdn.microsoft.com/ba4b7372-973b-4dea-9a93-faf847a047e5">HeapWalk</a> function, you should only call 
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function, you should only call 
 <b>HeapValidate</b> on the elements that have <b>PROCESS_HEAP_ENTRY_BUSY</b> in the <b>wFlags</b> member of the 
-<a href="https://msdn.microsoft.com/e61b209a-9cc1-4171-9638-5456b0fcf775">PROCESS_HEAP_ENTRY</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a> structure. 
 <b>HeapValidate</b> returns <b>FALSE</b> for all heap elements that do not have this bit set.
 
 Serialization ensures mutual exclusion when two or more threads attempt to simultaneously allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. Setting the <b>HEAP_NO_SERIALIZE</b> value eliminates mutual exclusion on the heap. Without serialization, two or more threads that use the same heap handle might attempt to allocate or free memory simultaneously, likely causing corruption in the heap. The <b>HEAP_NO_SERIALIZE</b> value can, therefore, be safely used only in the following situations:
@@ -160,24 +160,24 @@ Serialization ensures mutual exclusion when two or more threads attempt to simul
 
 
 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">Heap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba4b7372-973b-4dea-9a93-faf847a047e5">HeapWalk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e61b209a-9cc1-4171-9638-5456b0fcf775">PROCESS_HEAP_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-process_heap_entry">PROCESS_HEAP_ENTRY</a>
  
 
  

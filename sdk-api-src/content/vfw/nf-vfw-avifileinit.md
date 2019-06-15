@@ -55,7 +55,7 @@ The <b>AVIFileInit</b> function initializes the AVIFile library.
 
 
 
-The AVIFile library maintains a count of the number of times it is initialized, but not the number of times it was released. Use the <a href="https://msdn.microsoft.com/2daa509a-9e95-4f49-8195-97d3e7cd17b4">AVIFileExit</a> function to release the AVIFile library and decrement the reference count. Call <b>AVIFileInit</b> before using any other AVIFile functions.
+The AVIFile library maintains a count of the number of times it is initialized, but not the number of times it was released. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifileexit">AVIFileExit</a> function to release the AVIFile library and decrement the reference count. Call <b>AVIFileInit</b> before using any other AVIFile functions.
 
 This function supersedes the obsolete <b>AVIStreamInit</b> function.
 
@@ -81,11 +81,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/89abf60a-1714-4836-93ae-a8a6bf2c24b6">AVIFile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
  
 
  

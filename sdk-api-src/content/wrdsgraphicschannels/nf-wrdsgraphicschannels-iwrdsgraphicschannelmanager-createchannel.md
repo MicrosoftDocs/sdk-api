@@ -96,16 +96,16 @@ The video-optimized bitmap remote control channel.
 
 ### -param channelType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/JJ219269(v=VS.85).aspx">WRdsGraphicsChannelType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-__midl___midl_itf_wrdsgraphicschannels_0000_0002_0001">WRdsGraphicsChannelType</a></b>
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/JJ219269(v=VS.85).aspx">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-__midl___midl_itf_wrdsgraphicschannels_0000_0002_0001">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
 
 
 ### -param ppVirtualChannel [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/5d1e88b4-3dff-4f88-a6de-abc02da57ece">IWRdsGraphicsChannel</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>**</b>
 
-The address of an <a href="https://msdn.microsoft.com/5d1e88b4-3dff-4f88-a6de-abc02da57ece">IWRdsGraphicsChannel</a> interface pointer that receives the channel object.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a> interface pointer that receives the channel object.
 
 
 ## -returns
@@ -124,7 +124,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/629589cb-9879-491d-a224-6ae2ce8b0ea3">IWRdsGraphicsChannelManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelmanager">IWRdsGraphicsChannelManager</a>
  
 
  

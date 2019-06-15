@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
 				<b>NetConfigSet</b> function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the 
-<a href="https://msdn.microsoft.com/ffb06903-593e-47ce-adb2-baed5d379110">registry</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">registry</a>.
 
 
 ## -parameters

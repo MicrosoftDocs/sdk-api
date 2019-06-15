@@ -97,7 +97,7 @@ return Result;
 
 Note that a 'cross-product' in 2D is not well-defined. 
     This function computes a geometric cross-product often used in 2D graphics. 
-    <a href="https://msdn.microsoft.com/en-us/library/Ee420787(v=VS.85).aspx">XMVector2Orthogonal</a> is another possible interpretation of a 'cross-product' in 2D.
+    <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector2orthogonal">XMVector2Orthogonal</a> is another possible interpretation of a 'cross-product' in 2D.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
@@ -110,7 +110,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/a17cdad7-4fbe-bf83-472f-1b99603b7fec">DirectXMath Library 2D Vector Geometric Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector2-geometric">DirectXMath Library 2D Vector Geometric Functions</a>
  
 
  

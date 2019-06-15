@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761482(v=VS.85).aspx">IImageList::GetImageInfo</a> function. 
+Contains information about an image in an image list. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-getimageinfo">IImageList::GetImageInfo</a> function. 
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Contains information about an image in an image list. This structure is used wit
 
 ### -field hbmImage
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the images. 
 
 
 ### -field hbmMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HBITMAP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to a monochrome bitmap that contains the masks for the images. If the image list does not contain a mask, this member is <b>NULL</b>. 
 

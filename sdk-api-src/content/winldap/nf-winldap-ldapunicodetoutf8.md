@@ -82,7 +82,7 @@ An integer that specifies the size, in characters, of the <i>lpDestStr</i> buffe
 
 
 The return value is the size, in characters, written to the <i>lpDestStr</i> buffer.
-      If the <i>lpDestStr</i> buffer is too small, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>.
+      If the <i>lpDestStr</i> buffer is too small, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 When the <i>cchDest</i> parameter is zero, the required size of the destination buffer is returned.
 
@@ -94,11 +94,11 @@ When the <i>cchDest</i> parameter is zero, the required size of the destination 
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c36ce90-8cc6-4dee-b990-5d283613ba11">LdapUTF8ToUnicode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldaputf8tounicode">LdapUTF8ToUnicode</a>
  
 
  

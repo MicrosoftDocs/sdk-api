@@ -74,12 +74,12 @@ The maximum number of endpoints to return for the peer name.
 
 ### -param hEvent [in]
 
-Handle to the event signaled when a peer endpoint is resolved for the supplied peer name and are ready for consumption by calling PeerPnrpGetEndpoint. This event is signaled for every endpoint discovered by the PNRP service. If PEER_NO_MORE is returned by a call to <a href="https://msdn.microsoft.com/d81b0aab-90b5-4583-b554-efe38c220e59">PeerPnrpGetEndpoint</a>, then all endpoints have been found for that peer.
+Handle to the event signaled when a peer endpoint is resolved for the supplied peer name and are ready for consumption by calling PeerPnrpGetEndpoint. This event is signaled for every endpoint discovered by the PNRP service. If PEER_NO_MORE is returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpgetendpoint">PeerPnrpGetEndpoint</a>, then all endpoints have been found for that peer.
 
 
 ### -param phResolve [out]
 
-Handle to this peer name resolution request. This handle must be provided to <a href="https://msdn.microsoft.com/b700a195-57c4-481a-93d2-82d543f5c6c6">PeerPnrpEndResolve</a> after the resolution events are raised and the endpoints are obtained with corresponding calls to <a href="https://msdn.microsoft.com/d81b0aab-90b5-4583-b554-efe38c220e59">PeerPnrpGetEndpoint</a>, or if the operation fails.
+Handle to this peer name resolution request. This handle must be provided to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpendresolve">PeerPnrpEndResolve</a> after the resolution events are raised and the endpoints are obtained with corresponding calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpgetendpoint">PeerPnrpGetEndpoint</a>, or if the operation fails.
 
 
 ## -returns
@@ -127,9 +127,9 @@ There is not enough memory to perform the specified operation.
 
 <b>PeerPnrpStartResolve</b> creates a handle to an asynchronous peer name resolution operation. 
 
-Whenever an endpoint is found, the event handle provided in <i>hEvent</i> is signaled, and <a href="https://msdn.microsoft.com/d81b0aab-90b5-4583-b554-efe38c220e59">PeerPnrpGetEndpoint</a> must be called with the <i>phResolve</i> handle by the application to obtain that endpoint.
+Whenever an endpoint is found, the event handle provided in <i>hEvent</i> is signaled, and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpgetendpoint">PeerPnrpGetEndpoint</a> must be called with the <i>phResolve</i> handle by the application to obtain that endpoint.
 
-The last event specifies the PEER_E_NO_MORE error code, indicating that all endpoints corresponding to the peer name supplied to <b>PeerPnrpStartResolve</b> have been found. At this time, the application must close the handle with a call to <a href="https://msdn.microsoft.com/b700a195-57c4-481a-93d2-82d543f5c6c6">PeerPnrpEndResolve</a>.
+The last event specifies the PEER_E_NO_MORE error code, indicating that all endpoints corresponding to the peer name supplied to <b>PeerPnrpStartResolve</b> have been found. At this time, the application must close the handle with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpendresolve">PeerPnrpEndResolve</a>.
 
 A handle must be resolved in a process separate from the process in which it was registered. If a handle is registered and resolved within the same process it will not be recognized.
 
@@ -141,15 +141,15 @@ A handle must be resolved in a process separate from the process in which it was
 
 
 
-<a href="https://msdn.microsoft.com/b700a195-57c4-481a-93d2-82d543f5c6c6">PeerPnrpEndResolve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpendresolve">PeerPnrpEndResolve</a>
 
 
 
-<a href="https://msdn.microsoft.com/d81b0aab-90b5-4583-b554-efe38c220e59">PeerPnrpGetEndpoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpgetendpoint">PeerPnrpGetEndpoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd66ab38-bb3e-46f5-943a-bcdae90acae0">PeerPnrpResolve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpresolve">PeerPnrpResolve</a>
  
 
  

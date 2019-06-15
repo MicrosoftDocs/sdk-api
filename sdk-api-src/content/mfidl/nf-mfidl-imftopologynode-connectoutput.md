@@ -68,7 +68,7 @@ Zero-based index of the output stream on this node.
 
 ### -param pDownstreamNode [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a> interface of the node to connect to.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to connect to.
 
 
 ### -param dwInputIndexOnDownstreamNode [in]
@@ -146,9 +146,9 @@ A node cannot be connected to itself. If <i>pDownstreamNode</i> specifies the sa
 
 </li>
 </ul>
-However, if the method succeeds, it does not guarantee that the node connection is valid. It is possible to create a partial topology that the topology loader cannot resolve. If so, the <a href="https://msdn.microsoft.com/02ce47db-54a1-456a-a763-c62039aea2c9">IMFTopoLoader::Load</a> method will fail.
+However, if the method succeeds, it does not guarantee that the node connection is valid. It is possible to create a partial topology that the topology loader cannot resolve. If so, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopoloader-load">IMFTopoLoader::Load</a> method will fail.
 
-To break an existing node connection, call <a href="https://msdn.microsoft.com/77b91797-d9a7-40da-827d-6e2a347112dc">IMFTopologyNode::DisconnectOutput</a>.
+To break an existing node connection, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-disconnectoutput">IMFTopologyNode::DisconnectOutput</a>.
 
 
 
@@ -158,11 +158,11 @@ To break an existing node connection, call <a href="https://msdn.microsoft.com/7
 
 
 
-<a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

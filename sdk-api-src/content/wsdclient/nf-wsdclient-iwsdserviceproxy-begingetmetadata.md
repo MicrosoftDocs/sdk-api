@@ -59,7 +59,7 @@ Initiates an asynchronous metadata exchange request with the remote service.
 
 ### -param ppResult [out]
 
-An <a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a> interface that you use to poll for the result, register a callback object, or configure an event to be signaled when the response is received.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that you use to poll for the result, register a callback object, or configure an event to be signaled when the response is received.
 
 
 ## -returns
@@ -138,7 +138,7 @@ The method failed.
 
 
 
-Call <a href="https://msdn.microsoft.com/6024770a-e4cb-4db1-9767-51b559fd8244">IWSDServiceProxy::EndGetMetadata</a> to complete the asynchronous operation and to retrieve the metadata.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-endgetmetadata">IWSDServiceProxy::EndGetMetadata</a> to complete the asynchronous operation and to retrieve the metadata.
 
 
 
@@ -148,7 +148,7 @@ Call <a href="https://msdn.microsoft.com/6024770a-e4cb-4db1-9767-51b559fd8244">I
 
 
 
-<a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
  
 
  

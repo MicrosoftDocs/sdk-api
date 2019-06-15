@@ -107,15 +107,15 @@ Warm eject.
 
 
 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba917d15-bbdb-46fe-9ad8-56a8837f7b2d">Power Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-portal">Power Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/f78cd97f-586f-4091-ab4a-5f109a0f679a">Power Management Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
  
 
  

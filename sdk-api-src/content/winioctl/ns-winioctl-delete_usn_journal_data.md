@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains information on the deletion of an update sequence number (USN) change journal using the 
-<a href="https://msdn.microsoft.com/6c85464d-019b-4923-9acf-152b4ee8c31b">FSCTL_DELETE_USN_JOURNAL</a> control code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal">FSCTL_DELETE_USN_JOURNAL</a> control code.
 
 
 ## -struct-fields
@@ -65,8 +65,8 @@ The identifier of the change journal to be deleted.
 
 
 If the journal is active and deletion is requested by setting the USN_DELETE_FLAG_DELETE flag in the <b>DeleteFlags</b> member, then this identifier must specify the change journal for the current volume. Use 
-<a href="https://msdn.microsoft.com/9491b054-934a-4b76-bf77-f397b6386f82">FSCTL_QUERY_USN_JOURNAL</a> to retrieve the identifier of this change journal. If in this case the identifier is not for the current volume's change journal, 
-<a href="https://msdn.microsoft.com/6c85464d-019b-4923-9acf-152b4ee8c31b">FSCTL_DELETE_USN_JOURNAL</a> fails.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> to retrieve the identifier of this change journal. If in this case the identifier is not for the current volume's change journal, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal">FSCTL_DELETE_USN_JOURNAL</a> fails.
 
 If notification instead of deletion is requested by setting only the USN_DELETE_FLAG_NOTIFY flag in <b>DeleteFlags</b>, <b>UsnJournalID</b> is ignored.
 
@@ -90,7 +90,7 @@ Indicates whether deletion or notification regarding deletion is performed, or b
 </td>
 <td width="60%">
 If this flag is set and the USN_DELETE_FLAG_NOTIFY flag is not set, the 
-<a href="https://msdn.microsoft.com/6c85464d-019b-4923-9acf-152b4ee8c31b">FSCTL_DELETE_USN_JOURNAL</a> operation starts the journal deletion process and returns immediately. The journal deletion process continues, if necessary, across system restarts.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal">FSCTL_DELETE_USN_JOURNAL</a> operation starts the journal deletion process and returns immediately. The journal deletion process continues, if necessary, across system restarts.
 
 
 If this flag is set and the USN_DELETE_FLAG_NOTIFY flag is also set, both deletion and notification occur.
@@ -122,7 +122,7 @@ The notification is performed using an I/O completion port or another mechanism 
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/26cbacc2-d26b-434b-91b5-31aedc96da13">Creating, Modifying, and Deleting a Change Journal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
 
 
@@ -132,11 +132,11 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/6c85464d-019b-4923-9acf-152b4ee8c31b">FSCTL_DELETE_USN_JOURNAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_usn_journal">FSCTL_DELETE_USN_JOURNAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/9491b054-934a-4b76-bf77-f397b6386f82">FSCTL_QUERY_USN_JOURNAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
  
 
  

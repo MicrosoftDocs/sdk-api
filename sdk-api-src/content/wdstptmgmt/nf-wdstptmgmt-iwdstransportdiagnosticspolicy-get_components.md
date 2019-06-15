@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/01b52fcf-64f5-4e71-931b-a3a6b4d9b2b2">IWdsTransportDiagnosticsPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportdiagnosticspolicy">IWdsTransportDiagnosticsPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736533(v=VS.85).aspx">WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0009">WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS</a>
  
 
  

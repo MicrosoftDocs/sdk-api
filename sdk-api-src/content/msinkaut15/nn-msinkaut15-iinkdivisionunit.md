@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-Represents a single structural element within an <a href="https://msdn.microsoft.com/d1a71976-2825-48d2-812c-fd2336cd4c1d">IInkDivisionResult</a> object.
+Represents a single structural element within an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDivisionUnit</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInkDivisionUnit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkDivisionUnit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkDivisionUnit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IInkDivisionUnit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/702ec977-2d87-4d52-916e-423f1df03829">ToString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms699557(v=vs.85)">ToString</a>
 </td>
 <td align="left" width="63%">
 Has the default recognizer perform recognition on the collection of strokes and returns the top string of the top alternate of the recognition result.
@@ -92,7 +92,7 @@ Has the default recognizer perform recognition on the collection of strokes and 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c1aaaa62-34fc-4cd4-bd68-47f828bb59b1">DivisionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_divisiontype">DivisionType</a>
 
 
 </td>
@@ -101,14 +101,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the type of the element as an <a href="https://msdn.microsoft.com/00e1188e-58c0-4681-ad04-e53079d478fd">InkDivisionType</a> enumeration value.
+Gets the type of the element as an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype">InkDivisionType</a> enumeration value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c56bf393-7630-4399-894e-34b41b068370">RecognitionString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703283(v=vs.85)">RecognitionString</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Gets the recognition text of the element, or <b>NULL</b> for drawing elements.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8">RotationTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_rotationtransform">RotationTransform</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Gets the transformation matrix for a segment or line element that rotates the st
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/505df3d7-740e-46fc-a942-2820b3428564">Strokes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunit-get_strokes">Strokes</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection that corresponds to this element.
+Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that corresponds to this element.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Gets the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c069
 
 
 
-Use the <a href="https://msdn.microsoft.com/332a9365-526e-43df-841f-20eed07762e7">Item</a> method to return a single element from a <a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">DivisionUnits</a> collection.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nf-msinkaut15-iinkdivisionunits-item">Item</a> method to return a single element from a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">DivisionUnits</a> collection.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
@@ -172,15 +172,15 @@ If you define a class that implements this interface, the new class will not int
 
 
 
-<a href="https://msdn.microsoft.com/efce8756-f42b-4d9a-bfed-4297e7e0fdec">IInkDivisionUnits Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/00e1188e-58c0-4681-ad04-e53079d478fd">InkDivisionType Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype">InkDivisionType Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

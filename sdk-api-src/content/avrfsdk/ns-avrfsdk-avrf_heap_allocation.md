@@ -84,12 +84,12 @@ The size, in bytes, of the heap allocation as seen by the operating system.
 
 ### -field UserAllocationState
 
-One of the values in the <a href="https://msdn.microsoft.com/8aa46c8a-1261-47da-8145-e7ff9826d2ab">eUserAllocationState</a> enumerated type.
+One of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-euserallocationstate">eUserAllocationState</a> enumerated type.
 
 
 ### -field HeapState
 
-The state of the heap allocation. The user can extract one of the values in the <a href="https://msdn.microsoft.com/c91b169d-fee5-46ad-a589-3b52436d779c">eHeapAllocationState</a> enum after AND-ing the <b>HeapStateMask</b> value.
+The state of the heap allocation. The user can extract one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapallocationstate">eHeapAllocationState</a> enum after AND-ing the <b>HeapStateMask</b> value.
 
 
 ### -field HeapContext
@@ -99,7 +99,7 @@ The context of the heap currently allocated.
 
 ### -field BackTraceInformation
 
-A pointer to an <a href="https://msdn.microsoft.com/634d9569-469c-4dc7-9192-217af0937b6c">AVRF_BACKTRACE_INFORMATION</a> structure containing information about the last operation that occurred on the allocation. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_backtrace_information">AVRF_BACKTRACE_INFORMATION</a> structure containing information about the last operation that occurred on the allocation. 
 
 When available, it can be the stack backtrace of the place where the address specified in the <b>UserAllocation</b> member of the structure was allocated (if <b>UserAllocationState</b> is <b>AllocationstateBusy</b>) or where the address specified in the <b>UserAllocation</b> member was freed (if <b>UserAllocationState</b> is <b>AllocationStateFree</b>).
 
@@ -109,11 +109,11 @@ When available, it can be the stack backtrace of the place where the address spe
 
 
 
-<a href="https://msdn.microsoft.com/99cb9005-9cfc-44fb-b09f-fed0541cda37">Resource Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd">VerifierEnumerateResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
  
 
  

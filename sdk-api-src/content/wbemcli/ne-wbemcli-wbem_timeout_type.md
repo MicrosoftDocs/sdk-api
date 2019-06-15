@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains values used to specify the timeout for the <a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a> method.
+Contains values used to specify the timeout for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> method.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ Contains values used to specify the timeout for the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/8bde633b-b04a-4a21-82ce-f5aab1d32d95">IEnumWbemClassObject::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a>
  
 
  

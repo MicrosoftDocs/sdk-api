@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Changes the numeric parameter value of a local policy in an <a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a> object.
+Changes the numeric parameter value of a local policy in an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 
 ## -parameters
@@ -81,9 +81,9 @@ Specifies the new value of the numeric parameter for the specified local policy.
 
 
 
-Each local policy contains a numeric parameter that specifies how or when the File History feature backs up files and folders. See the <a href="https://msdn.microsoft.com/59C54A67-91A3-495F-95F2-50EB373D442C">FH_LOCAL_POLICY_TYPE</a> enumeration for more information about the local policies that can be specified.
+Each local policy contains a numeric parameter that specifies how or when the File History feature backs up files and folders. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a> enumeration for more information about the local policies that can be specified.
 
-To retrieve the numeric parameter value for a local policy, use the <a href="https://msdn.microsoft.com/380B77C3-CA93-48D6-9915-FB788CF24C99">IFhConfigMgr::GetLocalPolicy</a> method.
+To retrieve the numeric parameter value for a local policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy">IFhConfigMgr::GetLocalPolicy</a> method.
 
 
 
@@ -93,19 +93,19 @@ To retrieve the numeric parameter value for a local policy, use the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/59C54A67-91A3-495F-95F2-50EB373D442C">FH_LOCAL_POLICY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_local_policy_type">FH_LOCAL_POLICY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/CDE8A011-6E78-49DF-A5E1-8E968355BA11">IFhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/380B77C3-CA93-48D6-9915-FB788CF24C99">IFhConfigMgr::GetLocalPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy">IFhConfigMgr::GetLocalPolicy</a>
  
 
  

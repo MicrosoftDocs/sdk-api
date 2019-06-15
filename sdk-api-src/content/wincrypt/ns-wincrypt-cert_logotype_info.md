@@ -97,12 +97,12 @@ The logotype data is available through a reference. The <b>pLogotypeIndirectInfo
 
 ### -field DUMMYUNIONNAME.pLogotypeDirectInfo
 
-The address of a <a href="https://msdn.microsoft.com/f170dd48-a0f4-45e0-b5b8-a5f446d1a86e">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_data">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
 
 
 ### -field DUMMYUNIONNAME.pLogotypeIndirectInfo
 
-The address of a <a href="https://msdn.microsoft.com/22e6492e-afc2-4160-ad6c-0b65265eafeb">CERT_LOGOTYPE_REFERENCE</a> structure that contains references to the logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_INDIRECT_INFO_CHOICE</b>.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_reference">CERT_LOGOTYPE_REFERENCE</a> structure that contains references to the logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_INDIRECT_INFO_CHOICE</b>.
 
 
 ## -see-also
@@ -110,7 +110,7 @@ The address of a <a href="https://msdn.microsoft.com/22e6492e-afc2-4160-ad6c-0b6
 
 
 
-<a href="https://msdn.microsoft.com/5013241b-439e-4aea-9161-699ee69c65c9">CERT_LOGOTYPE_EXT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_ext_info">CERT_LOGOTYPE_EXT_INFO</a>
  
 
  

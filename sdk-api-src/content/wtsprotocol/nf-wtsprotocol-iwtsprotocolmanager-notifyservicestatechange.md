@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolManager::NotifyServiceStateChange</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/32b2a05a-d5de-4f2f-bcaa-587cf22aa5c5">IWRdsProtocolManager::NotifyServiceStateChange</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolManager::NotifyServiceStateChange</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-notifyservicestatechange">IWRdsProtocolManager::NotifyServiceStateChange</a>.]
 
 Notifies the protocol provider that the state of the Remote Desktop Services service is changing.
 
@@ -61,7 +61,7 @@ Notifies the protocol provider that the state of the Remote Desktop Services ser
 
 ### -param pTSServiceStateChange [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/5f4469f5-5a64-4292-bbe6-cc030f1421f5">WTS_SERVICE_STATE</a> structure that specifies 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_service_state">WTS_SERVICE_STATE</a> structure that specifies 
 whether the service is starting, stopping, or changing its drain state.
 
 
@@ -69,7 +69,7 @@ whether the service is starting, stopping, or changing its drain state.
 
 
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>. 
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>. 
 
 
 
@@ -79,7 +79,7 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 
 
 
-<a href="https://msdn.microsoft.com/a54bdb46-b18b-4a6d-90fc-75947f6dd191">IWTSProtocolManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolmanager">IWTSProtocolManager</a>
  
 
  

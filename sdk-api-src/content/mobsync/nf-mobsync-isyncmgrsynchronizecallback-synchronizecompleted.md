@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by an application when its <a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a> method is complete.
+Called by an application when its <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method is complete.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Called by an application when its <a href="https://msdn.microsoft.com/78c202dd-9
 
 Type: <b>HRESULT</b>
 
-The returned result from the <a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a> method.
+The returned result from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method.
 
 
 ## -returns
@@ -99,11 +99,11 @@ The call is completed successfully.
 
 
 A registered handler of an application should return from the 
-<a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a> method as soon as possible, and then call this method to notify the synchronization manager that the synchronization process is complete.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method as soon as possible, and then call this method to notify the synchronization manager that the synchronization process is complete.
 
-It is acceptable for a registered handler of an application to call this method before returning from the <a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a> method.
+It is acceptable for a registered handler of an application to call this method before returning from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method.
 
-However, the registered handler of an application should not call this method if the <a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a> method returns any value that is different from S_OK.
+However, the registered handler of an application should not call this method if the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a> method returns any value that is different from S_OK.
 
 
 
@@ -113,11 +113,11 @@ However, the registered handler of an application should not call this method if
 
 
 
-<a href="https://msdn.microsoft.com/1c817a21-be91-43af-86c8-aa7909ae2fa2">ISyncMgrSynchronizeCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/78c202dd-9f8c-43c1-a7be-48030bc34a9c">Synchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a>
  
 
  

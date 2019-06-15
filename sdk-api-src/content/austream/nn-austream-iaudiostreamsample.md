@@ -52,20 +52,20 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IAudioStreamSample</code> interface retrieves information from the underlying <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> data objects.
+The <code>IAudioStreamSample</code> interface retrieves information from the underlying <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> data objects.
 
-For sample code that implements the audio streaming interfaces, see <a href="https://msdn.microsoft.com/3fe2996b-b4de-40ad-bd02-d850a45f3a2c">Multimedia Streaming Sample Code</a>.
+For sample code that implements the audio streaming interfaces, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/multimedia-streaming-sample-code">Multimedia Streaming Sample Code</a>.
 
-Implement this interface on audio stream sample objects when they need access to an <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object's data.
+Implement this interface on audio stream sample objects when they need access to an <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object's data.
 
-Use this interface when your application needs to access an <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object's data for its audio stream.
+Use this interface when your application needs to access an <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object's data for its audio stream.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioStreamSample</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a>. <b>IAudioStreamSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioStreamSample</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>. <b>IAudioStreamSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,10 +80,10 @@ The <b>IAudioStreamSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389521(v=VS.85).aspx">GetAudioData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-iaudiostreamsample-getaudiodata">GetAudioData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object associated with the sample.
+Retrieves the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object associated with the sample.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Retrieves the address of a pointer to the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377143(v=VS.85).aspx">IStreamSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a>
  
 
  

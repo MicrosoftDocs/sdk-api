@@ -64,7 +64,7 @@ Retrieves the current time zone and dynamic daylight saving time settings. These
 
 ### -param pTimeZoneInformation [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> structure.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Daylight saving time is not used in the current time zone, because there are no 
 </td>
 <td width="60%">
 The system is operating in the range covered by the <b>StandardDate</b> member of the 
-<a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> structure. 
 
 
 
@@ -116,7 +116,7 @@ The system is operating in the range covered by the <b>StandardDate</b> member o
 </td>
 <td width="60%">
 The system is operating in the range covered by the <b>DaylightDate</b> member of the 
-<a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ The system is operating in the range covered by the <b>DaylightDate</b> member o
  
 
 If the function fails, it returns TIME_ZONE_ID_INVALID. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -133,7 +133,7 @@ If the function fails, it returns TIME_ZONE_ID_INVALID. To get extended error in
 
 
 
- The <b>StandardName</b> and <b>DaylightName</b> members  of the resultant <a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a>  structure are localized according to the current user default UI language.
+ The <b>StandardName</b> and <b>DaylightName</b> members  of the resultant <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>  structure are localized according to the current user default UI language.
 
 
 
@@ -143,15 +143,15 @@ If the function fails, it returns TIME_ZONE_ID_INVALID. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/d60b1212-26bc-4fad-afce-9bd9062ca5b0">DYNAMIC_TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-dynamic_time_zone_information">DYNAMIC_TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/98ad7b94-f649-4270-8348-0aba5b59a433">SetDynamicTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
  
 
  

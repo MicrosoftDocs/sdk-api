@@ -79,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-The application defines the value retrieved by this method; it is set through a call to <a href="https://msdn.microsoft.com/fd0c0bc5-2c46-4c5a-8f93-9021f37a6e6a">IAMTuner::put_TuningSpace</a>.
+The application defines the value retrieved by this method; it is set through a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_tuningspace">IAMTuner::put_TuningSpace</a>.
 
 
 
@@ -89,11 +89,11 @@ The application defines the value retrieved by this method; it is set through a 
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/997d39c5-a1a5-4d2d-8704-9846f149712c">IAMTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
  
 
  

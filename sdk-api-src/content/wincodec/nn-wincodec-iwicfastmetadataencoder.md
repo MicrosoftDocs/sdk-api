@@ -54,7 +54,7 @@ Exposes methods used for in-place metadata editing. A fast metadata encoder enab
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFastMetadataEncoder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICFastMetadataEncoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICFastMetadataEncoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICFastMetadataEncoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICFastMetadataEncoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24f3b0f8-8991-4f55-aeb6-a2bbf09a29c7">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicfastmetadataencoder-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Finalizes metadata changes to the image stream.
@@ -78,7 +78,7 @@ Finalizes metadata changes to the image stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d8a0993-101a-4aa5-9e2f-c3f95b9d3d3f">GetMetadataQueryWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicfastmetadataencoder-getmetadataquerywriter">GetMetadataQueryWriter</a>
 </td>
 <td align="left" width="63%">
 Retrieves a metadata query writer for fast metadata encoding.
@@ -92,7 +92,7 @@ Retrieves a metadata query writer for fast metadata encoding.
 
 
 
-A decoder must be created using the <a href="https://msdn.microsoft.com/27b9d6e1-e171-4c7f-8f96-fa5a93923e35">WICDecodeOptions</a> value <b>WICDecodeMetadataCacheOnDemand</b> to perform in-place metadata updates. 
+A decoder must be created using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicdecodeoptions">WICDecodeOptions</a> value <b>WICDecodeMetadataCacheOnDemand</b> to perform in-place metadata updates. 
             Using the <b>WICDecodeMetadataCacheOnLoad</b> option causes the decoder to release the file stream necessary to perform the metadata updates. 
          
 

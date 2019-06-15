@@ -67,7 +67,7 @@ The <b>EapHostPeerInitialize</b> function must be called before any other peer o
 
 
 
-<b>EapHostPeerInitialize</b> and <a href="https://msdn.microsoft.com/5d3a101a-4de3-4da2-8c03-e672e206ffb0">EapHostPeerUninitialize</a> are always thread
+<b>EapHostPeerInitialize</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize">EapHostPeerUninitialize</a> are always thread
 safe.
 
 The following call occurs within the <b>EapHostPeerInitialize</b> function:
@@ -75,7 +75,7 @@ The following call occurs within the <b>EapHostPeerInitialize</b> function:
 <code>CoInitializeEx(NULL, COINIT_MULTITHREADED);</code>
 
 The client should not initialize a conflicting COM environment.
-If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="https://msdn.microsoft.com/en-us/library/ms695279(v=VS.85).aspx">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
+If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
 
 
 
@@ -85,11 +85,11 @@ If different COM environment (such as a single-threaded apartment) is required, 
 
 
 
-<a href="https://msdn.microsoft.com/b1c473ba-9a12-4929-b4d0-27262117e9c0">EAPHost Supplicant Run-time Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-run-time-functions">EAPHost Supplicant Run-time Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d3a101a-4de3-4da2-8c03-e672e206ffb0">EapHostPeerUninitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize">EapHostPeerUninitialize</a>
  
 
  

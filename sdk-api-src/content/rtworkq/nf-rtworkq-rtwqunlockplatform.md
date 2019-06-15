@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unlocks the platform after it was locked by a call to the <a href="https://msdn.microsoft.com/25baa2ad-95b8-4ac0-a838-e95c6141e13b">RtwqLockPlatform</a> function.
+Unlocks the platform after it was locked by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqlockplatform">RtwqLockPlatform</a> function.
 
 
 ## -parameters

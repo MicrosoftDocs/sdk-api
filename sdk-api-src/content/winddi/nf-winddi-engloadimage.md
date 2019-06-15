@@ -70,11 +70,11 @@ A driver can use <b>EngLoadImage</b> to map an executable image into kernel-mode
 
 <b>EngLoadImage</b> requires that the image file to be loaded have a <i>.dll</i> suffix. The driver must include this suffix in the <i>pwszDriver</i> string.
 
-To execute a section of code within the loaded image, the driver should obtain the function address from <a href="https://msdn.microsoft.com/a81c0814-3210-40dd-969f-20593353e54c">EngFindImageProcAddress</a>.
+To execute a section of code within the loaded image, the driver should obtain the function address from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfindimageprocaddress">EngFindImageProcAddress</a>.
 
 The file identified by <i>pwszDriver</i> must be located in the <i>%SystemRoot%\System32</i> directory or within a directory found in the directory hierarchy under <i>%SystemRoot%\System32</i>.
 
-Drivers that need to load a module as data only should call <a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a> or <a href="https://msdn.microsoft.com/e5509142-624e-4c57-93b0-2579c6fb7089">EngLoadModuleForWrite</a> instead of this function.
+Drivers that need to load a module as data only should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a> instead of this function.
 
 
 
@@ -84,15 +84,15 @@ Drivers that need to load a module as data only should call <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff">EngLoadModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5509142-624e-4c57-93b0-2579c6fb7089">EngLoadModuleForWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5b96929-1f57-4b98-8398-69a933e6ff99">EngUnloadImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunloadimage">EngUnloadImage</a>
  
 
  

@@ -59,7 +59,7 @@ Contains information about the IP address of a network resource.
 
 ### -field AddressFamily
 
-A value of the <a href="https://msdn.microsoft.com/8fe243ef-f52b-4b1a-8300-0b8a5a8a4c8d">WTSSBX_ADDRESS_FAMILY</a> enumeration type that indicates the address family of the network address.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0003">WTSSBX_ADDRESS_FAMILY</a> enumeration type that indicates the address family of the network address.
 
 
 ### -field Address
@@ -82,7 +82,7 @@ The scope of the address. This member is used only for IPv6 addresses.
 
 
 
-<a href="https://msdn.microsoft.com/f6959b8c-a8a8-438b-8b6d-31bf0e782bac">IWTSSBPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
  
 
  

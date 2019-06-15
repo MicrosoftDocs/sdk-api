@@ -64,7 +64,7 @@ The <b>get_Item</b> method retrieves the specified item from the collection.
 
 ### -param pDB [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a> interface pointer.
+Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface pointer.
 
 
 ## -returns
@@ -145,7 +145,7 @@ Unexpected error.
 
 The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <code>IMSVidInputDevices::get_Count() - 1</code>.
 
-If the method succeeds, the <a href="https://msdn.microsoft.com/5b413ade-4ab2-45fa-98b2-fd93c8f89a43">IMSVidInputDevice</a> interface has an outstanding reference count. The caller must release the interface.
+If the method succeeds, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -155,7 +155,7 @@ If the method succeeds, the <a href="https://msdn.microsoft.com/5b413ade-4ab2-45
 
 
 
-<a href="https://msdn.microsoft.com/cb9d9885-718e-43b9-b195-66149bd7e973">IMSVidInputDevices Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
  
 
  

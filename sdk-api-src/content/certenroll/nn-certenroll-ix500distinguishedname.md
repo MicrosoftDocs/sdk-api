@@ -60,7 +60,7 @@ CertificationRequestInfo ::= SEQUENCE
    subjectPublicKeyInfo    SubjectPublicKeyInfo,
    attributes              [0] IMPLICIT Attributes
 }
-</code></pre>The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
+</code></pre>The DN consists of a sequence of RDNs. Each RDN consists of a set of attributes, and each attribute consists of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a value. The data type of the value is identified by the <b>DirectoryString</b> structure.
 <pre class="syntax" xml:space="preserve"><code>
 Name ::= SEQUENCE OF RelativeDistinguishedName
 
@@ -185,7 +185,7 @@ Each service that is  based on X.500 defines its own distinguished name string r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX500DistinguishedName</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX500DistinguishedName</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX500DistinguishedName</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -201,7 +201,7 @@ The <b>IX500DistinguishedName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52cc0595-b825-4bf3-805c-21afc468b91e">Decode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-decode">Decode</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a Unicode-encoded distinguished name.
@@ -210,7 +210,7 @@ Initializes the object from a Unicode-encoded distinguished name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da0d4479-dc58-4719-886e-5ce610764305">Encode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-encode">Encode</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains a distinguished name.
@@ -229,7 +229,7 @@ Initializes the object from a string that contains a distinguished name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c3b2966c-5149-462d-908b-f6eca6a0409d">EncodedName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_encodedname">EncodedName</a>
 
 
 </td>
@@ -241,7 +241,7 @@ Retrieves a Unicode-encoded distinguished name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1335c726-c16a-4a15-b231-8a3bd212f4ec">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_name">Name</a>
 
 
 </td>
@@ -258,15 +258,15 @@ Retrieves a distinguished name.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c35ce42-07be-4d47-a14e-ed5a361dbe33">Subject Names</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/subject-names">Subject Names</a>
  
 
  

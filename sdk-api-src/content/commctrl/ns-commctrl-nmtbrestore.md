@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allows applications to extract the information that was placed in <a href="https://msdn.microsoft.com/en-us/library/Bb760471(v=VS.85).aspx">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="https://msdn.microsoft.com/en-us/library/Bb787283(v=VS.85).aspx">TBN_RESTORE</a> notification code.
+Allows applications to extract the information that was placed in <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagnmtbsave">NMTBSAVE</a> when the toolbar state was saved. This structure is passed to applications when they receive a <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-restore">TBN_RESTORE</a> notification code.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Allows applications to extract the information that was placed in <a href="https
 
 ### -field pData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to the data stream with the stored save information. It contains Shell-defined blocks of information for each button, alternating with application-defined blocks. Applications may also place a block of global data at the start of 
 					<b>pData</b>. The format and length of the application-defined blocks are determined by the application. 
@@ -72,7 +72,7 @@ Pointer to the data stream with the stored save information. It contains Shell-d
 
 ### -field pCurrent
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to the current block of application-defined data. After extracting the data, the application must advance 
 					<b>pCurrent</b> to the end of the block, so it is pointing to the next block of Shell-defined data. 
@@ -80,7 +80,7 @@ Pointer to the current block of application-defined data. After extracting the d
 
 ### -field cbData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of 
 					<b>pData</b>. 
@@ -112,16 +112,16 @@ Number of bytes needed to hold the data for each button. When the restore starts
 
 ### -field tbButton
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760476(v=VS.85).aspx">TBBUTTON</a> structure that contains information about the button currently being restored. Applications must modify this structure as necessary before returning. 
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_tbbutton">TBBUTTON</a> structure that contains information about the button currently being restored. Applications must modify this structure as necessary before returning. 
 
 
 #### - nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 

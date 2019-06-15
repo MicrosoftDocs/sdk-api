@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxOutgoingMessage</b> interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes. The archive contains faxes transmitted successfully by the fax service. The object enables you to retrieve information about the fax recipient, contained in the <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object, and information about the fax sender, contained in the <a href="https://msdn.microsoft.com/en-us/library/ms687532(v=VS.85).aspx">FaxSender</a> object. It also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message, to a file on the local computer.
+The <b>IFaxOutgoingMessage</b> interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes. The archive contains faxes transmitted successfully by the fax service. The object enables you to retrieve information about the fax recipient, contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a> object, and information about the fax sender, contained in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a> object. It also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message, to a file on the local computer.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxOutgoingMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxOutgoingMessage</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxOutgoingMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>IFaxOutgoingMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687991(v=VS.85).aspx">CopyTiff</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-copytiff-vb">CopyTiff</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687991(v=VS.85).aspx">IFaxOutgoingMessage::CopyTiff</a> method copies the TIFF Class F file associated with the outbound fax message, to a file on the local computer.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-copytiff-vb">IFaxOutgoingMessage::CopyTiff</a> method copies the TIFF Class F file associated with the outbound fax message, to a file on the local computer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687526(v=VS.85).aspx">Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-delete-vb">Delete</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687526(v=VS.85).aspx">IFaxOutgoingMessage::Delete</a> method deletes the fax message from the outbound archive.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-delete-vb">IFaxOutgoingMessage::Delete</a> method deletes the fax message from the outbound archive.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687526(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690159(v=VS.85).aspx">CSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-csid-vb">CSID</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690159(v=VS.85).aspx">IFaxOutgoingMessage::get_CSID</a> property is a null-terminated string that contains the CSID for the fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-csid-vb">IFaxOutgoingMessage::get_CSID</a> property is a null-terminated string that contains the CSID for the fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687548(v=VS.85).aspx">DeviceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-devicename-vb">DeviceName</a>
 
 
 </td>
@@ -122,14 +122,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687548(v=VS.85).aspx">IFaxOutgoingMessage::get_DeviceName</a> property is a null-terminated string that contains the name of the device on which the fax message was transmitted.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-devicename-vb">IFaxOutgoingMessage::get_DeviceName</a> property is a null-terminated string that contains the name of the device on which the fax message was transmitted.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688249(v=VS.85).aspx">DocumentName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-documentname-vb">DocumentName</a>
 
 
 </td>
@@ -138,14 +138,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms688249(v=VS.85).aspx">IFaxOutgoingMessage::get_DocumentName</a> property is a null-terminated string that contains the user-friendly name to display for the fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-documentname-vb">IFaxOutgoingMessage::get_DocumentName</a> property is a null-terminated string that contains the user-friendly name to display for the fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688575(v=VS.85).aspx">Id</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-id-vb">Id</a>
 
 
 </td>
@@ -154,14 +154,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms688575(v=VS.85).aspx">IFaxOutgoingMessage::get_Id</a> property is a null-terminated string that contains a unique identifier for the outbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-id-vb">IFaxOutgoingMessage::get_Id</a> property is a null-terminated string that contains a unique identifier for the outbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690183(v=VS.85).aspx">OriginalScheduledTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-originalscheduledtime-vb">OriginalScheduledTime</a>
 
 
 </td>
@@ -170,14 +170,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690183(v=VS.85).aspx">IFaxOutgoingMessage::get_OriginalScheduledTime</a> property specifies the time that the fax message was originally scheduled for transmission.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-originalscheduledtime-vb">IFaxOutgoingMessage::get_OriginalScheduledTime</a> property specifies the time that the fax message was originally scheduled for transmission.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687982(v=VS.85).aspx">Pages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-pages-vb">Pages</a>
 
 
 </td>
@@ -186,14 +186,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687982(v=VS.85).aspx">IFaxOutgoingMessage::get_Pages</a> property is a number that indicates the total number of pages in the outbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-pages-vb">IFaxOutgoingMessage::get_Pages</a> property is a number that indicates the total number of pages in the outbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690170(v=VS.85).aspx">Priority</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-priority-vb">Priority</a>
 
 
 </td>
@@ -202,14 +202,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690170(v=VS.85).aspx">IFaxOutgoingMessage::get_Priority</a> property specifies the priority used when sending the fax; for example, normal, low, or high priority.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-priority-vb">IFaxOutgoingMessage::get_Priority</a> property specifies the priority used when sending the fax; for example, normal, low, or high priority.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689201(v=VS.85).aspx">Recipient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutgoingmessage-get_recipient">Recipient</a>
 
 
 </td>
@@ -218,14 +218,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689201(v=VS.85).aspx">IFaxOutgoingMessage::get_Recipient</a> property retrieves an interface containing information about the recipient of the fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutgoingmessage-get_recipient">IFaxOutgoingMessage::get_Recipient</a> property retrieves an interface containing information about the recipient of the fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689587(v=VS.85).aspx">Retries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-retries-vb">Retries</a>
 
 
 </td>
@@ -234,14 +234,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689587(v=VS.85).aspx">IFaxOutgoingMessage::get_Retries</a> property is a value that indicates the number of times that the fax service attempted to transmit an outgoing fax after the initial transmission attempt failed.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-retries-vb">IFaxOutgoingMessage::get_Retries</a> property is a value that indicates the number of times that the fax service attempted to transmit an outgoing fax after the initial transmission attempt failed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688010(v=VS.85).aspx">Sender</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutgoingmessage-get_sender">Sender</a>
 
 
 </td>
@@ -250,14 +250,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms688010(v=VS.85).aspx">IFaxOutgoingMessage::get_Sender</a> property retrieves an interface containing information about the sender of the fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxoutgoingmessage-get_sender">IFaxOutgoingMessage::get_Sender</a> property retrieves an interface containing information about the sender of the fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690042(v=VS.85).aspx">Size</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-size-vb">Size</a>
 
 
 </td>
@@ -273,7 +273,7 @@ The Size property is a value that indicates the size of the TIFF Class F file a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687534(v=VS.85).aspx">Subject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-subject-vb">Subject</a>
 
 
 </td>
@@ -282,14 +282,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687534(v=VS.85).aspx">IFaxOutgoingMessage::get_Subject</a> property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-subject-vb">IFaxOutgoingMessage::get_Subject</a> property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689189(v=VS.85).aspx">SubmissionId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-submissionid-vb">SubmissionId</a>
 
 
 </td>
@@ -298,14 +298,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689189(v=VS.85).aspx">IFaxOutgoingMessage::get_SubmissionId</a> property is a null-terminated string that contains the unique identifier assigned to the fax message during the submission process. All fax jobs created by the same submission process share the same unique submission ID.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-submissionid-vb">IFaxOutgoingMessage::get_SubmissionId</a> property is a null-terminated string that contains the unique identifier assigned to the fax message during the submission process. All fax jobs created by the same submission process share the same unique submission ID.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687539(v=VS.85).aspx">SubmissionTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-submissiontime-vb">SubmissionTime</a>
 
 
 </td>
@@ -314,14 +314,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687539(v=VS.85).aspx">IFaxOutgoingMessage::get_SubmissionTime</a> property indicates the time that the outbound fax message was submitted for processing.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-submissiontime-vb">IFaxOutgoingMessage::get_SubmissionTime</a> property indicates the time that the outbound fax message was submitted for processing.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690174(v=VS.85).aspx">TransmissionEnd</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-transmissionend-vb">TransmissionEnd</a>
 
 
 </td>
@@ -330,14 +330,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690174(v=VS.85).aspx">IFaxOutgoingMessage::get_TransmissionEnd</a> property indicates the time that the fax outbound message completed transmission.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-transmissionend-vb">IFaxOutgoingMessage::get_TransmissionEnd</a> property indicates the time that the fax outbound message completed transmission.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690059(v=VS.85).aspx">TransmissionStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-transmissionstart-vb">TransmissionStart</a>
 
 
 </td>
@@ -346,14 +346,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms690059(v=VS.85).aspx">IFaxOutgoingMessage::get_TransmissionStart</a> property indicates the time that the fax outbound message began transmitting.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-transmissionstart-vb">IFaxOutgoingMessage::get_TransmissionStart</a> property indicates the time that the fax outbound message began transmitting.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689104(v=VS.85).aspx">TSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-tsid-vb">TSID</a>
 
 
 </td>
@@ -362,7 +362,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms689104(v=VS.85).aspx">IFaxOutgoingMessage::get_TSID</a> property is a null-terminated string that contains the TSID associated with the fax outbound message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-tsid-vb">IFaxOutgoingMessage::get_TSID</a> property is a null-terminated string that contains the TSID associated with the fax outbound message.
 
 </td>
 </tr>
@@ -373,7 +373,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689104(v=VS.85).aspx">IF
 
 
 
-A default implementation of <b>IFaxOutgoingMessage</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object.
+A default implementation of <b>IFaxOutgoingMessage</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a> object.
 
 
 

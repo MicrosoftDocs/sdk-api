@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEGENERATETONE</b> structure contains information about a tone to be generated. This structure is used by the 
-<a href="https://msdn.microsoft.com/d5975bd0-2406-45a8-9631-80f40a860204">lineGenerateTone</a> and 
-<a href="https://msdn.microsoft.com/195d0974-ff0f-4274-9278-5276512fcba4">TSPI_lineGenerateTone</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a> functions.
 
 
 ## -struct-fields
@@ -96,11 +96,11 @@ This structure is used only for the generation of tones. It is not used for tone
 
 
 
-<a href="https://msdn.microsoft.com/195d0974-ff0f-4274-9278-5276512fcba4">TSPI_lineGenerateTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5975bd0-2406-45a8-9631-80f40a860204">lineGenerateTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>
  
 
  

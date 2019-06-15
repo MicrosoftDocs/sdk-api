@@ -133,7 +133,7 @@ A Boolean value that indicates that the ascent, descent, and lineGap are based o
 
 
 
-<b>DWRITE_FONT_METRICS1</b> inherits from <a href="https://msdn.microsoft.com/ffbf987c-145e-4b93-a48f-8948944c6e33">DWRITE_FONT_METRICS</a>:
+<b>DWRITE_FONT_METRICS1</b> inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_font_metrics">DWRITE_FONT_METRICS</a>:
 
 <pre class="syntax" xml:space="preserve"><code>
 struct DWRITE_FONT_METRICS1 : public DWRITE_FONT_METRICS
@@ -148,15 +148,15 @@ struct DWRITE_FONT_METRICS1 : public DWRITE_FONT_METRICS
 
 
 
-<a href="https://msdn.microsoft.com/2D8D22B9-3F5B-4257-8D74-699C4040C9DB">IDWriteFont1::GetMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefont1-getmetrics">IDWriteFont1::GetMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/2FD26970-8CF3-453F-A08D-30CC4A820281">IDWriteFontFace1::GetGdiCompatibleMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getgdicompatiblemetrics">IDWriteFontFace1::GetGdiCompatibleMetrics</a>
 
 
 
-<a href="https://msdn.microsoft.com/7F899D56-F56B-4C4C-A17D-B42A34CAA0F1">IDWriteFontFace1::GetMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getmetrics">IDWriteFontFace1::GetMetrics</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="https://msdn.microsoft.com/c236f335-b5de-4e8b-851d-45e008791271">Authorization Functions</a>.]
+<p class="CCE_Message">[This function is obsolete. For a list of alternate functions, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>.]
 
 Not supported.
 
@@ -157,7 +157,7 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -176,7 +176,7 @@ This function requires Admin privilege to successfully execute on a computer tha
 
 
 
-<a href="https://msdn.microsoft.com/c236f335-b5de-4e8b-851d-45e008791271">Authorization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Authorization Functions</a>
  
 
  

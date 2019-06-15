@@ -69,12 +69,12 @@ A GUID that identifies the MOF class that contains the event. If the provider us
 
 ### -field EventDescriptor
 
-A <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a> structure that describes the event.
+A <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure that describes the event.
 
 
 ### -field DecodingSource
 
-A <a href="https://msdn.microsoft.com/d6cd09da-9a67-4df2-9d82-370c559d3bfc">DECODING_SOURCE</a> enumeration value that identifies the source used to parse the event's data (for example, an instrumenation manifest of WMI MOF class).
+A <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_decoding_source">DECODING_SOURCE</a> enumeration value that identifies the source used to parse the event's data (for example, an instrumenation manifest of WMI MOF class).
 
 
 ### -field ProviderNameOffset
@@ -84,32 +84,32 @@ The offset from the beginning of this structure to a null-terminated Unicode str
 
 ### -field LevelNameOffset
 
-The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the level. For possible names, see Remarks in <a href="https://msdn.microsoft.com/c71aedef-7c43-4343-9d6d-94eb45da49b9">LevelType</a>. 
+The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the level. For possible names, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-leveltype-complextype">LevelType</a>. 
 
 
 ### -field ChannelNameOffset
 
-The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the channel. For possible names, see Remarks in <a href="https://msdn.microsoft.com/882506e5-222b-45c8-af4b-59db8baa1dae">ChannelType</a>. 
+The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the channel. For possible names, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType</a>. 
 
 
 ### -field KeywordsNameOffset
 
-The offset from the beginning of this structure to a list of null-terminated Unicode strings that contains the names of the keywords. The list is terminated with two NULL characters. For possible names, see Remarks in <a href="https://msdn.microsoft.com/6bd41d4a-1d55-4cce-a1f8-136f749fde2a">KeywordType</a>. 
+The offset from the beginning of this structure to a list of null-terminated Unicode strings that contains the names of the keywords. The list is terminated with two NULL characters. For possible names, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-keywordtype-complextype">KeywordType</a>. 
 
 
 ### -field TaskNameOffset
 
-The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the task. For possible names, see Remarks in <a href="https://msdn.microsoft.com/d117636d-6363-43b6-ac5a-52234ac7c729">TaskType</a>. 
+The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the task. For possible names, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-tasktype-complextype">TaskType</a>. 
 
 
 ### -field OpcodeNameOffset
 
-The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the operation. For possible names, see Remarks in <a href="https://msdn.microsoft.com/d97953df-669b-4c55-b1a8-925022b339b7">OpcodeType</a>. 
+The offset from the beginning of this structure to a null-terminated Unicode string that contains the name of the operation. For possible names, see Remarks in <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-opcodetype-complextype">OpcodeType</a>. 
 
 
 ### -field EventMessageOffset
 
-The offset from the beginning of this structure to a null-terminated Unicode string that contains the event message string.  The offset is zero if there is no message string. For information on message strings, see the <b>message</b> attribute for <a href="https://msdn.microsoft.com/09ea89c9-6618-4874-ac72-5ee19cde4040">EventDefinitionType</a>.
+The offset from the beginning of this structure to a null-terminated Unicode string that contains the event message string.  The offset is zero if there is no message string. For information on message strings, see the <b>message</b> attribute for <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-eventdefinitiontype-complextype">EventDefinitionType</a>.
 
 The message string can contain insert sequences, for example, Unable to connect to the %1 printer. The number of the insert sequence identifies the property in the event data to use for the substitution.
 
@@ -176,7 +176,7 @@ A 28-bit value associated with the event metadata. This value can be used by the
 
 ### -field EventPropertyInfoArray
 
-An array of <a href="https://msdn.microsoft.com/06b82b31-1f0e-45d5-88ec-9b9835af10df">EVENT_PROPERTY_INFO</a> structures that provides information about each property of the event's user data.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structures that provides information about each property of the event's user data.
 
 
 ## -remarks
@@ -193,51 +193,51 @@ The value of an offset is zero if the member is not defined.
 
 
 
-<a href="https://msdn.microsoft.com/882506e5-222b-45c8-af4b-59db8baa1dae">ChannelType</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6cd09da-9a67-4df2-9d82-370c559d3bfc">DECODING_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_decoding_source">DECODING_SOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/06b82b31-1f0e-45d5-88ec-9b9835af10df">EVENT_PROPERTY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/09ea89c9-6618-4874-ac72-5ee19cde4040">EventDefinitionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-eventdefinitiontype-complextype">EventDefinitionType</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bd41d4a-1d55-4cce-a1f8-136f749fde2a">KeywordType</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-keywordtype-complextype">KeywordType</a>
 
 
 
-<a href="https://msdn.microsoft.com/c71aedef-7c43-4343-9d6d-94eb45da49b9">LevelType</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-leveltype-complextype">LevelType</a>
 
 
 
-<a href="https://msdn.microsoft.com/d97953df-669b-4c55-b1a8-925022b339b7">OpcodeType</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-opcodetype-complextype">OpcodeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/d117636d-6363-43b6-ac5a-52234ac7c729">TaskType</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-tasktype-complextype">TaskType</a>
 
 
 
-<a href="https://msdn.microsoft.com/93A03E1D-4047-49F1-987B-FB7BE03E0483">TdhEnumerateManifestProviderEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumeratemanifestproviderevents">TdhEnumerateManifestProviderEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/81542550-79aa-4d67-a472-ac3ee3a3ce63">TdhGetEventInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/71702F1F-1708-4CA2-9BFB-3D7332AB6129">TdhGetManifestEventInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetmanifesteventinformation">TdhGetManifestEventInformation</a>
  
 
  

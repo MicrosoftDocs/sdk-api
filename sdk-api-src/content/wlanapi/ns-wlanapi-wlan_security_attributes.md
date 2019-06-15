@@ -69,12 +69,12 @@ Indicates whether 802.1X is enabled for this connection.
 
 ### -field dot11AuthAlgorithm
 
-A <a href="https://msdn.microsoft.com/ac4097df-46dc-4c64-b72a-7cb9dce8b418">DOT11_AUTH_ALGORITHM</a> value that identifies the authentication algorithm.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-auth-algorithm">DOT11_AUTH_ALGORITHM</a> value that identifies the authentication algorithm.
 
 
 ### -field dot11CipherAlgorithm
 
-A <a href="https://msdn.microsoft.com/6b634d76-a159-438e-8fc6-5f05b326ed68">DOT11_CIPHER_ALGORITHM</a> value that identifies the cipher algorithm.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-cipher-algorithm">DOT11_CIPHER_ALGORITHM</a> value that identifies the cipher algorithm.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ A <a href="https://msdn.microsoft.com/6b634d76-a159-438e-8fc6-5f05b326ed68">DOT1
 
 
 
-<a href="https://msdn.microsoft.com/91b8058d-faf6-46ee-a03b-f762e9cdae4d">WLAN_CONNECTION_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
  
 
  

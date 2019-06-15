@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxGetSourceDesktop function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> to determine the name and handle of the desktop that was current before <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> switched to the Winlogon desktop.
+Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to determine the name and handle of the desktop that was current before <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> switched to the Winlogon desktop.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>GINA can use this function to modify its behavior, depending on the originating desktop.
 
 
@@ -63,14 +63,14 @@ Called by <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a684
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 
 ### -param *ppDesktop [out]
 
 Receives a pointer to a 
-<a href="https://msdn.microsoft.com/3cde1b9e-5109-400d-a67f-1e263f2283d1">WLX_DESKTOP</a> structure containing necessary information describing the desktop. This pointer can be freed with 
-<a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_desktop">WLX_DESKTOP</a> structure containing necessary information describing the desktop. This pointer can be freed with 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 
 ## -returns
@@ -117,15 +117,15 @@ The call failed.
 
 
 
-<a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cde1b9e-5109-400d-a67f-1e263f2283d1">WLX_DESKTOP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_desktop">WLX_DESKTOP</a>
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

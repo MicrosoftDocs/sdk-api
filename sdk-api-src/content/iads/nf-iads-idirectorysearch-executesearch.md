@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDirectorySearch::ExecuteSearch</b> method executes a search and passes the results to the caller. Some providers, such as LDAP, will defer the actual execution until the caller invokes the  <a href="https://msdn.microsoft.com/99ece6d1-3963-40bc-993e-f03aa9039c2d">IDirectorySearch::GetFirstRow</a> method or the  <a href="https://msdn.microsoft.com/9fb0b765-0162-418d-b0cd-7e9b1b53e1b9">IDirectorySearch::GetNextRow</a> method.
+The <b>IDirectorySearch::ExecuteSearch</b> method executes a search and passes the results to the caller. Some providers, such as LDAP, will defer the actual execution until the caller invokes the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getfirstrow">IDirectorySearch::GetFirstRow</a> method or the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">IDirectorySearch::GetNextRow</a> method.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ The size of the <i>pAttributeNames</i> array. The special value 0xFFFFFFFF indic
 
 ### -param phSearchResult [out]
 
-The address of a method-allocated handle to the search context. The caller passes this handle to other methods of  <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a> to examine the search result. If <b>NULL</b>, the search cannot be executed.
+The address of a method-allocated handle to the search context. The caller passes this handle to other methods of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a> to examine the search result. If <b>NULL</b>, the search cannot be executed.
 
 
 ## -returns
@@ -85,7 +85,7 @@ The address of a method-allocated handle to the search context. The caller passe
 
 This method returns the standard return values, as well as the following:
 
-For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -96,7 +96,7 @@ For more information and other return values, see  <a href="https://msdn.microso
 
 When the search filter (<i>pszSearchFilter</i>) contains an attribute of <b>ADS_UTC_TIME</b> type, it value must be of the "yymmddhhmmssZ" format where "y", "m", "d", "h", "m" and "s" stand for year, month, day, hour, minute, and second, respectively. In this format, for example, "10:20:00 May 13<sup>th</sup>, 1999" becomes "990513102000Z". The final letter "Z" is the required syntax and indicated Zulu Time or Universal Coordinated Time.
 
-The caller must call  <a href="https://msdn.microsoft.com/a233c67b-4747-4417-bec8-86b27147863c">IDirectorySearch::CloseSearchHandle</a> to release the memory allocated for the search handle and the result.
+The caller must call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-closesearchhandle">IDirectorySearch::CloseSearchHandle</a> to release the memory allocated for the search handle and the result.
 
 When using the special value of 0xFFFFFFFF for <i>dwNumberAttributes</i>, LDAP retrieval of ADsPath or distinguishedName has no extra resource or time cost.
 
@@ -124,23 +124,23 @@ hr = m_pSearch->ExecuteSearch(L"(&(objectClass=user)(sn=h*))", pszAttr, dwCount,
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/a233c67b-4747-4417-bec8-86b27147863c">IDirectorySearch::CloseSearchHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-closesearchhandle">IDirectorySearch::CloseSearchHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/99ece6d1-3963-40bc-993e-f03aa9039c2d">IDirectorySearch::GetFirstRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getfirstrow">IDirectorySearch::GetFirstRow</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fb0b765-0162-418d-b0cd-7e9b1b53e1b9">IDirectorySearch::GetNextRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">IDirectorySearch::GetNextRow</a>
  
 
  

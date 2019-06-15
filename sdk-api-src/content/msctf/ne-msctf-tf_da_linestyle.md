@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Elements of the <b>TF_DA_LINESTYLE</b> enumeration specify the underline style of a display attribute in the <a href="https://msdn.microsoft.com/0ce8f941-c187-437f-8bad-f882e63b8421">TF_DA_COLOR</a> structure.
+Elements of the <b>TF_DA_LINESTYLE</b> enumeration specify the underline style of a display attribute in the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ The text is underlined with a solid wavy line.
 
 
 
-<a href="https://msdn.microsoft.com/0ce8f941-c187-437f-8bad-f882e63b8421">TF_DA_COLOR
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
       </a>
  
 

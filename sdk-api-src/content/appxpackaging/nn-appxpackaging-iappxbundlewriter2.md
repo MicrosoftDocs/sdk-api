@@ -54,7 +54,7 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter2</b> interface inherits from <a href="https://msdn.microsoft.com/5762E634-CBA6-496C-A771-CA5718E7E6AD">IAppxBundleWriter</a>. <b>IAppxBundleWriter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>. <b>IAppxBundleWriter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBundleWriter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09297744-69E4-45D6-BA5C-A3B28130C6CC">AddExternalPackageReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter2-addexternalpackagereference">AddExternalPackageReference</a>
 </td>
 <td align="left" width="63%">
 Adds a reference to an external package to the package bundle.
@@ -84,7 +84,7 @@ Adds a reference to an external package to the package bundle.
 
 
 
-<a href="https://msdn.microsoft.com/5762E634-CBA6-496C-A771-CA5718E7E6AD">IAppxBundleWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>
  
 
  

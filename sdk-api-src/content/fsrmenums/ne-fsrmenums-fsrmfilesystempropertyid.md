@@ -92,11 +92,11 @@ The file system property id is the current time.
 
 
 
-<a href="https://msdn.microsoft.com/93fdf667-8959-40a9-a374-c54ed73bbe89">FSRM Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/29f19f5e-5e33-41e5-8332-4634613b2bf4">IFsrmFileConditionProperty.PropertyId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfileconditionproperty-get_propertyid">IFsrmFileConditionProperty.PropertyId</a>
  
 
  

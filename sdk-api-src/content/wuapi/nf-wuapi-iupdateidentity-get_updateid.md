@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/2086a120-3a9a-48c9-bf8a-ec86624f960c">IUpdateIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a>
  
 
  

@@ -75,9 +75,9 @@ The size, in characters, of the buffer pointed to by the <i>pszFile</i> paramete
 
 ### -param pfd [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/eb700d84-0ba5-4af8-a619-2d2544560dbc">WIN32_FIND_DATA</a> structure that receives information about the target of the Shell link object. If this parameter is <b>NULL</b>, then no additional information is returned.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_win32_find_dataa">WIN32_FIND_DATA</a> structure that receives information about the target of the Shell link object. If this parameter is <b>NULL</b>, then no additional information is returned.
 
 
 ### -param fFlags [in]
@@ -108,7 +108,7 @@ Retrieves the raw path name. A raw path is something that might not exist and ma
 
 #### SLGP_RELATIVEPRIORITY
 
-<b>Windows Vista and later</b>. Retrieves the path, if possible, of the shortcut's target relative to the path set by a previous call to <a href="https://msdn.microsoft.com/f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3">IShellLink::SetRelativePath</a>.
+<b>Windows Vista and later</b>. Retrieves the path, if possible, of the shortcut's target relative to the path set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">IShellLink::SetRelativePath</a>.
 
 
 ##### - fFlags.SLGP_RAWPATH
@@ -118,7 +118,7 @@ Retrieves the raw path name. A raw path is something that might not exist and ma
 
 ##### - fFlags.SLGP_RELATIVEPRIORITY
 
-<b>Windows Vista and later</b>. Retrieves the path, if possible, of the shortcut's target relative to the path set by a previous call to <a href="https://msdn.microsoft.com/f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3">IShellLink::SetRelativePath</a>.
+<b>Windows Vista and later</b>. Retrieves the path, if possible, of the shortcut's target relative to the path set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">IShellLink::SetRelativePath</a>.
 
 
 ##### - fFlags.SLGP_SHORTPATH

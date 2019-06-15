@@ -55,7 +55,7 @@ Enumerates the <b>ICoreFragment</b> objects that are contained in a knowledge ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreFragmentInspector</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICoreFragmentInspector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreFragmentInspector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoreFragmentInspector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ICoreFragmentInspector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/801a2643-d954-44b8-83ce-021be893d06a">NextCoreFragments</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragmentinspector-nextcorefragments">NextCoreFragments</a>
 </td>
 <td align="left" width="63%">
 Returns the next <b>ICoreFragment</b> objects in the knowledge, if they are available.
@@ -80,7 +80,7 @@ Returns the next <b>ICoreFragment</b> objects in the knowledge, if they are avai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57621ce0-c484-4687-9f2f-98d285b041ca">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragmentinspector-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the knowledge.
@@ -95,7 +95,7 @@ Resets the enumerator to the beginning of the knowledge.
 
 
 
-An <b>ICoreFragmentInspector</b> object can be obtained by calling <a href="https://msdn.microsoft.com/088d864f-bb74-4fd8-b8cb-352cb2731edb">ISyncKnowledge2::GetInspector</a> on a knowledge object.
+An <b>ICoreFragmentInspector</b> object can be obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge2-getinspector">ISyncKnowledge2::GetInspector</a> on a knowledge object.
 
 
 
@@ -105,7 +105,7 @@ An <b>ICoreFragmentInspector</b> object can be obtained by calling <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

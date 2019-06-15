@@ -72,14 +72,14 @@ Destroys the specified timer.
 Type: <b>HWND</b>
 
 A handle to the window associated with the specified timer. This value must be the same as the 
-					<i>hWnd</i> value passed to the <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> function that created the timer. 
+					<i>hWnd</i> value passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> function that created the timer. 
 
 
 ### -param uIDEvent [in]
 
 Type: <b>UINT_PTR</b>
 
-The timer to be destroyed. If the window handle passed to <a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a> is valid, this parameter must be the same as the
+The timer to be destroyed. If the window handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> is valid, this parameter must be the same as the
 					<i>nIDEvent</i> 
 
 value passed to <b>SetTimer</b>. If the application calls <b>SetTimer</b> with 
@@ -95,7 +95,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -104,12 +104,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>KillTimer</b> function does not remove <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages already posted to the message queue.
+The <b>KillTimer</b> function does not remove <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages already posted to the message queue.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644901(v=VS.85).aspx">Destroying a Timer</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-timers">Destroying a Timer</a>.
 
 <div class="code"></div>
 
@@ -128,15 +128,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644901(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632592(v=VS.85).aspx">Timers</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/timers">Timers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
  
 
  

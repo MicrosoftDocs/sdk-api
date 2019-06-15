@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761767(v=VS.85).aspx">DTM_GETRANGE</a> message explicitly. 
+Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getrange">DTM_GETRANGE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the current minimum and maximum allowable system times for a date and time 
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
@@ -68,14 +68,14 @@ A handle to a DTP control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a two-element array of <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structures. 
+A pointer to a two-element array of <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structures. 
 
 
 ## -remarks
 
 
 
-The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://msdn.microsoft.com/en-us/library/Bb761813(v=VS.85).aspx">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
+The date and time picker displays only dates/times that fall within the specified range, preventing the user from selecting a date and time that falls outside the range. If the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-datetime_setsystemtime">DateTime_SetSystemtime</a> message specifies a date and time that falls outside the range, it will fail.
 
 
 

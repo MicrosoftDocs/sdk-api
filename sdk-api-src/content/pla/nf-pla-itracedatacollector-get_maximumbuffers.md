@@ -64,15 +64,15 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/1f57aa92-81f0-445f-baa3-274714e8291e">ITraceDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/67b53e9a-c72c-4da5-835f-5623a02a14e1">ITraceDataCollector::MinimumBuffers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_minimumbuffers">ITraceDataCollector::MinimumBuffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/78d7ed42-ccd1-4e00-a52d-e5341de2f76e">ITraceDataCollector::NumberOfBuffers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_numberofbuffers">ITraceDataCollector::NumberOfBuffers</a>
  
 
  

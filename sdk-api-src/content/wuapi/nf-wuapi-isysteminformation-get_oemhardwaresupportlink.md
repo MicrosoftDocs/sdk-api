@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/b0aebfd6-1d62-43b3-8c40-2eeb67fab27d">ISystemInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isysteminformation">ISystemInformation</a>
  
 
  

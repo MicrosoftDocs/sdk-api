@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies which members in the <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">PUBAPPINFO</a> structure are valid. These flags are bitmasks set in the <b>dwMask</b> member and passed to <a href="https://msdn.microsoft.com/4ffcc30a-cf07-45e7-b9a5-342fe2b553c8">IPublishedApp::GetPublishedAppInfo</a>.
+Specifies which members in the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">PUBAPPINFO</a> structure are valid. These flags are bitmasks set in the <b>dwMask</b> member and passed to <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">IPublishedApp::GetPublishedAppInfo</a>.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Specifies which members in the <a href="https://msdn.microsoft.com/927c58d3-4208
 
 ### -field PAI_SOURCE
 
-The <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">pszSource</a> string is valid and contains the display name of the publishing source. If multiple sources publish an application of the same name, Add/Remove Programs identifies them by "&lt;application name&gt; : &lt;publishing source&gt;".
+The <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">pszSource</a> string is valid and contains the display name of the publishing source. If multiple sources publish an application of the same name, Add/Remove Programs identifies them by "&lt;application name&gt; : &lt;publishing source&gt;".
 
 
 ### -field PAI_ASSIGNEDTIME
 
-The <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">stAssigned</a> member is valid and contains the time that the application should be installed as assigned by an application administrator.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">stAssigned</a> member is valid and contains the time that the application should be installed as assigned by an application administrator.
 
 
 ### -field PAI_PUBLISHEDTIME
@@ -74,12 +74,12 @@ Not used.
 
 ### -field PAI_SCHEDULEDTIME
 
-The <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">stScheduled</a> member is valid and contains the time that the application should be installed as assigned by the user.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">stScheduled</a> member is valid and contains the time that the application should be installed as assigned by the user.
 
 
 ### -field PAI_EXPIRETIME
 
-The <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">stExpired</a> member is valid and contains the time after which Add/Remove Programs should no longer install the program.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_pubappinfo">stExpired</a> member is valid and contains the time after which Add/Remove Programs should no longer install the program.
 
 
 ## -see-also
@@ -87,7 +87,7 @@ The <a href="https://msdn.microsoft.com/927c58d3-4208-4fd3-a3fa-18ae7d8d3136">st
 
 
 
-<a href="https://msdn.microsoft.com/4ffcc30a-cf07-45e7-b9a5-342fe2b553c8">IPublishedApp::GetPublishedAppInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">IPublishedApp::GetPublishedAppInfo</a>
  
 
  

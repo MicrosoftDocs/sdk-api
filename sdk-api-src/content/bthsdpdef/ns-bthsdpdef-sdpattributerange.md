@@ -72,7 +72,7 @@ Maximum attribute value for which to search.
 
 
 
-<a href="https://msdn.microsoft.com/b208b7d6-305c-4acc-9c89-75721ff5dcb2">BTH_QUERY_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2bth/ns-ws2bth-_bth_query_service">BTH_QUERY_SERVICE</a>
  
 
  

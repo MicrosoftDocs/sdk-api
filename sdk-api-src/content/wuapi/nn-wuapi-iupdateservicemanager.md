@@ -54,7 +54,7 @@ Adds or removes the registration of the update service with Windows Update Agent
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateServiceManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUpdateServiceManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateServiceManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateServiceManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,16 +70,16 @@ The <b>IUpdateServiceManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b0677bb-9f19-4bb4-9942-8ca3da18b29a">AddScanPackageService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice">AddScanPackageService</a>
 </td>
 <td align="left" width="63%">
-Registers a scan package as a service with Windows Update Agent (WUA) and then returns an <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b-4cfc40f5889e">IUpdateService</a> interface.
+Registers a scan package as a service with Windows Update Agent (WUA) and then returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4071ef7-316f-4624-bc43-79c5982c4a82">AddService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-addservice">AddService</a>
 </td>
 <td align="left" width="63%">
 Registers a service with WUA.
@@ -88,7 +88,7 @@ Registers a service with WUA.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea54d96a-9ffb-4abd-a032-4dfcc7ba6403">RegisterServiceWithAU</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-registerservicewithau">RegisterServiceWithAU</a>
 </td>
 <td align="left" width="63%">
 Registers a service with Automatic Updates.
@@ -97,7 +97,7 @@ Registers a service with Automatic Updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fedd0979-1cc1-40c7-93d1-ade2f069ee76">RemoveService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">RemoveService</a>
 </td>
 <td align="left" width="63%">
 Removes a service registration from WUA.
@@ -106,7 +106,7 @@ Removes a service registration from WUA.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dbf0b70c-5be0-4acc-9c44-bf32f6f752fd">SetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-setoption">SetOption</a>
 </td>
 <td align="left" width="63%">
 Sets options for the object that specifies the service ID, and whether to display a warning when changing the registration of Automatic Updates.
@@ -115,7 +115,7 @@ Sets options for the object that specifies the service ID, and whether to displa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d537594c-ccf3-463b-9860-612c5ea351cb">UnregisterServiceWithAU</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-unregisterservicewithau">UnregisterServiceWithAU</a>
 </td>
 <td align="left" width="63%">
 Unregisters a service with Automatic Updates.
@@ -133,7 +133,7 @@ Unregisters a service with Automatic Updates.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9810e56b-a884-454b-adc8-ad839269dae3">Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-get_services">Services</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/ae742fe2-c9f3-4116-b98a-3cf3906cfda2">IUpdateServiceCollection</a> of the services that are registered with WUA.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a> of the services that are registered with WUA.
 
 </td>
 </tr>

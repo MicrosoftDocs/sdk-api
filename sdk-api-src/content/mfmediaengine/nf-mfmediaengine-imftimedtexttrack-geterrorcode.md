@@ -63,7 +63,7 @@ Gets a value indicating the error type of the latest error associated with the t
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/D59B2063-5632-4115-BA8C-503181B5DF08">MF_TIMED_TEXT_ERROR_CODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_error_code">MF_TIMED_TEXT_ERROR_CODE</a></b>
 
 A value indicating the error type of the latest error associated with the track.
 
@@ -75,7 +75,7 @@ A value indicating the error type of the latest error associated with the track.
 
 
 
-<a href="https://msdn.microsoft.com/55232D19-F3D0-42C7-8B24-C2A7768B2C7E">IMFTimedTextTrack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
  
 
  

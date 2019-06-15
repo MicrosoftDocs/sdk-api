@@ -64,7 +64,7 @@ The session handle.
 
 ### -param msgid [in]
 
-The message ID of the call to be canceled. Asynchronous functions, such as <a href="https://msdn.microsoft.com/fe0d782b-8faf-4666-a952-e2bfd33f6d67">ldap_search</a> and <a href="https://msdn.microsoft.com/93ae0af4-1b16-4bb0-952f-139241189d79">ldap_modify</a>,  return this message ID when they initiate an operation.
+The message ID of the call to be canceled. Asynchronous functions, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify">ldap_modify</a>,  return this message ID when they initiate an operation.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If the function fails, the return value is –1.
 
 
 The <b>ldap_abandon</b> function first verifies that the operation has been completed. If it has, the message ID is deleted; otherwise, the call goes to the server to cancel the operation. Be aware that a successful call to <b>ldap_abandon</b> destroys the message ID. Therefore, you cannot call 
-<a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a> to obtain results with that message ID, even if the server completed the operation.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> to obtain results with that message ID, even if the server completed the operation.
 
 There is no server response to <b>ldap_abandon</b>; thus, there is no guarantee that the call reached the server.
 
@@ -97,11 +97,11 @@ Multithreading: Calls to <b>ldap_abandon</b> are thread-safe.
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
  
 
  

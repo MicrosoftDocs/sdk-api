@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Values used with the <a href="https://msdn.microsoft.com/78757001-cac8-412d-a6c3-74bae6eb3ad8">DROPDESCRIPTION</a> structure to specify the drop image.
+Values used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription">DROPDESCRIPTION</a> structure to specify the drop image.
 
 
 ## -enum-fields

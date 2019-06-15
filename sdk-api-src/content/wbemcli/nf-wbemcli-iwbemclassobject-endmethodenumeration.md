@@ -60,10 +60,10 @@ ms.custom: 19H1
 
 The 
 <b>IWbemClassObject::EndMethodEnumeration</b> method is used to terminate a method enumeration sequence started with 
-<a href="https://msdn.microsoft.com/3d8656d7-37e5-4921-906e-c82f8878cd90">IWbemClassObject::BeginMethodEnumeration</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginmethodenumeration">IWbemClassObject::BeginMethodEnumeration</a>.
 
 This call is only supported if the current object is a CIM class definition. Method manipulation is not available from 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> pointers which point to CIM instances.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers which point to CIM instances.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ This call is only supported if the current object is a CIM class definition. Met
 
 
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -87,8 +87,8 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 The caller begins the enumeration sequence using 
-<a href="https://msdn.microsoft.com/3d8656d7-37e5-4921-906e-c82f8878cd90">IWbemClassObject::BeginMethodEnumeration</a>, and then calls 
-<a href="https://msdn.microsoft.com/4c11e043-518b-46f6-bb39-e80354ef2c8a">IWbemClassObject::NextMethod</a> until <b>WBEM_S_NO_MORE_DATA</b> is returned. The caller optionally finishes the sequence with 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-beginmethodenumeration">IWbemClassObject::BeginMethodEnumeration</a>, and then calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-nextmethod">IWbemClassObject::NextMethod</a> until <b>WBEM_S_NO_MORE_DATA</b> is returned. The caller optionally finishes the sequence with 
 <b>IWbemClassObject::EndMethodEnumeration</b>. The caller may terminate the enumeration early by calling 
 <b>IWbemClassObject::EndMethodEnumeration</b> at any time.
 

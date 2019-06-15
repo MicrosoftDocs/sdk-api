@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Undecorates a decorated C++ symbol name.
 
-Applications can also use the <a href="https://msdn.microsoft.com/f52e8e3b-3113-4d8c-b44a-846c574cfbd8">UnDecorateSymbolName</a> function.
+Applications can also use the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-undecoratesymbolname">UnDecorateSymbolName</a> function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Applications can also use the <a href="https://msdn.microsoft.com/f52e8e3b-3113-
 ### -param sym [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/7b39281a-c34b-47ae-a3ff-5f0a7a66a588">IMAGEHLP_SYMBOL64</a> structure that specifies the symbol to be undecorated.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure that specifies the symbol to be undecorated.
 
 
 ### -param UnDecName [out]
@@ -83,7 +83,7 @@ The size of the <i>UnDecName</i> buffer, in characters.
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -95,7 +95,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 This function supersedes the <b>SymUnDName</b> function. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymUnDName</b> is defined as follows in Dbghelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymUnDName</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -121,11 +121,11 @@ SymUnDName(
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f52e8e3b-3113-4d8c-b44a-846c574cfbd8">UnDecorateSymbolName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-undecoratesymbolname">UnDecorateSymbolName</a>
  
 
  

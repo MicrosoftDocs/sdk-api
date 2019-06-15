@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWSManEx::EnumerationFlagReturnObject</b> method returns the value of the enumeration constant <b>EnumerationFlagReturnObject</b> for use in the <i>flags</i> parameter of the <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">IWSManSession::Enumerate</a> method.
+The <b>IWSManEx::EnumerationFlagReturnObject</b> method returns the value of the enumeration constant <b>EnumerationFlagReturnObject</b> for use in the <i>flags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
-<b>EnumerationFlagReturnObject</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="https://msdn.microsoft.com/c0f2763b-a549-43d5-84a6-8cebf33a1ea2">Enumeration Constants</a>.
+<b>EnumerationFlagReturnObject</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
 
 ## -parameters
@@ -78,11 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6">IWSManEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
  
 
  

@@ -63,7 +63,7 @@ Detaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an 
 A handle to an open virtual disk, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_DETACH</b> flag set in the 
       <i>VirtualDiskAccessMask</i> parameter to the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function. For information on how to 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
       open a virtual disk, see the <b>OpenVirtualDisk</b> 
       function.
 
@@ -71,7 +71,7 @@ A handle to an open virtual disk, which must have been opened using the
 ### -param Flags [in]
 
 A valid combination of values of the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323697(v=VS.85).aspx">DETACH_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_detach_virtual_disk_flag">DETACH_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -88,7 +88,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -103,7 +103,7 @@ If the <b>DetachVirtualDisk</b> function fails with an
 
 <ul>
 <li>The <i>VirtualDiskHandle</i> parameter is not a valid handle created by the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.</li>
 <li>The <i>Flags</i> parameter is set to a value other than 
       <b>DETACH_VIRTUAL_DISK_FLAG_NONE</b> (0).</li>
 </ul>
@@ -122,7 +122,7 @@ If the virtual disk is attached and another handle that was used to attach it ha
 This function will fail if a provider cannot be found, if the image file is not valid, if the image is not 
     attached, or if the caller does not have <b>SE_MANAGE_VOLUME_PRIVILEGE</b> access rights on a 
     Windows Server operating system. For more information about file security, see 
-    <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.
@@ -135,11 +135,11 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

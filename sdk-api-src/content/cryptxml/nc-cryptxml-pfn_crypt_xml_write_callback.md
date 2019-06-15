@@ -59,7 +59,7 @@ The <i>PFN_CRYPT_XML_WRITE_CALLBACK</i> callback function writes XML data.
 
 ### -param *pvCallbackState [in, out]
 
-A pointer to an argument that is passed to the callback function pointed to by the <i>pfnWrite</i> parameter of the <a href="https://msdn.microsoft.com/ef21897e-66f1-436c-8440-91422f5c95a7">CryptXmlDllEncodeAlgorithm</a> function.
+A pointer to an argument that is passed to the callback function pointed to by the <i>pfnWrite</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllencodealgorithm">CryptXmlDllEncodeAlgorithm</a> function.
 
 
 ### -param *pbData [in]

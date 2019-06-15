@@ -72,7 +72,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-This method enables <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> to flush any pending changes to its visuals before a system event, such as a process suspension.
+This method enables <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> to flush any pending changes to its visuals before a system event, such as a process suspension.
 
 
 
@@ -82,7 +82,7 @@ This method enables <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-
 
 
 
-<a href="https://msdn.microsoft.com/b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1">IDirectManipulationCompositor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
  
 
  

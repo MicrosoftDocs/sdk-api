@@ -59,7 +59,7 @@ Enables a client to register with the control.
 
 ### -param punk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the client IUnknown that registers with the control.
 
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The pointer to the cookie that is passed back is used to unregister the control later with <a href="https://msdn.microsoft.com/9a0ba832-503a-48d6-80a7-7f6c51d60215">INameSpaceTreeControl::TreeUnadvise</a>.
+The pointer to the cookie that is passed back is used to unregister the control later with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-treeunadvise">INameSpaceTreeControl::TreeUnadvise</a>.
             
 
 

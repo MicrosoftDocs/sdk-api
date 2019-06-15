@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Values that are used in activation calls to indicate the execution contexts in which an object is to be run. These values are also used in calls to <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a> to indicate the set of execution contexts in which a class object is to be made available for requests to construct instances.
+Values that are used in activation calls to indicate the execution contexts in which an object is to be run. These values are also used in calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> to indicate the set of execution contexts in which a class object is to be made available for requests to construct instances.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Obsolete.
 
 ### -field CLSCTX_REMOTE_SERVER
 
-A remote context. The <a href="https://msdn.microsoft.com/5d922230-f53d-4bf9-be50-c8c00f45b7a8">LocalServer32</a> or <a href="https://msdn.microsoft.com/e8086118-f956-4cc2-a0fb-3cebd2e66799">LocalService</a> code that creates and manages objects of this class is run on a different computer.
+A remote context. The <a href="https://docs.microsoft.com/windows/desktop/com/localserver32">LocalServer32</a> or <a href="https://docs.microsoft.com/windows/desktop/com/localservice">LocalService</a> code that creates and manages objects of this class is run on a different computer.
 
 
 ### -field CLSCTX_INPROC_HANDLER16
@@ -129,12 +129,12 @@ Enables the downloading of code from the directory service or the Internet. This
 
 ### -field CLSCTX_NO_FAILURE_LOG
 
-The CLSCTX_NO_FAILURE_LOG can be used to override the logging of failures in <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>.
+The CLSCTX_NO_FAILURE_LOG can be used to override the logging of failures in <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>.
 
 If the ActivationFailureLoggingLevel is created, the following values can determine the status of event logging:
 
 <ul>
-<li>0 = Discretionary logging. Log by default, but clients can override by specifying CLSCTX_NO_FAILURE_LOG in <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>.</li>
+<li>0 = Discretionary logging. Log by default, but clients can override by specifying CLSCTX_NO_FAILURE_LOG in <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>.</li>
 <li>1 = Always log all failures no matter what the client specified.</li>
 <li>2 = Never log any failures no matter what client specified. If the registry entry is missing, the default is 0. If you need to control customer applications, it is recommended that you set this value to 0 and write the client code to override failures. It is strongly recommended that you do not set the value to 2. If event logging is disabled, it is more difficult to diagnose problems.
 </li>
@@ -228,7 +228,7 @@ Used for loading Proxy/Stub DLLs.
 
 
 
-Values from the <b>CLSCTX</b> enumeration are used in activation calls (<a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>, <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>, <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>, and so on) to indicate the preferred execution contextsâ€”in-process, local, or remoteâ€”in which an object is to be run. They are also used in calls to <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a> to indicate the set of execution contexts in which a class object is to be made available for requests to construct instances (<b>IClassFactory::CreateInstance</b>).
+Values from the <b>CLSCTX</b> enumeration are used in activation calls (<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>, <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>, and so on) to indicate the preferred execution contextsâ€”in-process, local, or remoteâ€”in which an object is to be run. They are also used in calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> to indicate the set of execution contexts in which a class object is to be made available for requests to construct instances (<b>IClassFactory::CreateInstance</b>).
 
 To indicate that more than one context is acceptable, you can combine multiple values with Boolean ORs. The contexts are tried in the order in which they are listed. 
 
@@ -240,15 +240,15 @@ Given a set of <b>CLSCTX</b> flags, the execution context to be used depends on 
 
 <ol>
 <li>If the call specifies one of the following, CLSCTX_REMOTE_SERVER is implied and is added to the list of flags:<ol>
-<li>An explicit <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> structure indicating a machine different from the current computer. 
+<li>An explicit <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> structure indicating a machine different from the current computer. 
 </li>
-<li>No explicit <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> structure specified but the specified class is registered with either the <a href="https://msdn.microsoft.com/0413564e-e8ba-4e6e-ad29-62997c63aab3">RemoteServerName</a> or <a href="https://msdn.microsoft.com/bc0f0c1c-dbfc-4b7a-b897-3646afe3f6bb">ActivateAtStorage</a> registry value.
+<li>No explicit <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> structure specified but the specified class is registered with either the <a href="https://docs.microsoft.com/windows/desktop/com/remoteservername">RemoteServerName</a> or <a href="https://docs.microsoft.com/windows/desktop/com/activateatstorage">ActivateAtStorage</a> registry value.
 </li>
 </ol>
-The second case allows applications written prior to the release of distributed COM to be the configuration of classes for remote activation to be used by client applications available prior to DCOM and the CLSCTX_REMOTE_SERVER flag. The cases in which there would be no explicit <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> structure are when the value is specified as <b>NULL</b> or when it is not one of the function parameters (as in calls to <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> and <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>).
+The second case allows applications written prior to the release of distributed COM to be the configuration of classes for remote activation to be used by client applications available prior to DCOM and the CLSCTX_REMOTE_SERVER flag. The cases in which there would be no explicit <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> structure are when the value is specified as <b>NULL</b> or when it is not one of the function parameters (as in calls to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>).
 
 </li>
-<li>If the explicit <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> parameter indicates the current computer, CLSCTX_REMOTE_SERVER is removed if present.
+<li>If the explicit <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> parameter indicates the current computer, CLSCTX_REMOTE_SERVER is removed if present.
 </li>
 </ol>
 The rest of the processing proceeds by looking at the value(s) in the following sequence: 
@@ -256,12 +256,12 @@ The rest of the processing proceeds by looking at the value(s) in the following 
 
 
 <ol>
-<li>If the flags include CLSCTX_REMOTE_SERVER and no <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> parameter is specified and if the activation request indicates a persistent state from which to initialize the object (with <a href="https://msdn.microsoft.com/f8a22f5f-a21f-49e7-bd6c-ca987206ee46">CoGetInstanceFromFile</a>, <a href="https://msdn.microsoft.com/6a77770c-b7e1-4d29-9c4b-331b5950a635">CoGetInstanceFromIStorage</a>, or, for a file moniker, in a call to <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a>) and the class has an <a href="https://msdn.microsoft.com/bc0f0c1c-dbfc-4b7a-b897-3646afe3f6bb">ActivateAtStorage</a> subkey or no class registry information whatsoever, the request to activate and initialize is forwarded to the computer where the persistent state resides. (Refer to the remote activation functions listed in the See Also section for details.)</li>
-<li>If the flags include CLSCTX_INPROC_SERVER, the class code in the DLL found under the class's <a href="https://msdn.microsoft.com/4edbbd9d-7ea1-4476-aee7-eaf30e54db8d">InprocServer32</a> key is used if this key exists. The class code will run within the same process as the caller.</li>
-<li>If the flags include CLSCTX_INPROC_HANDLER, the class code in the DLL found under the class's <a href="https://msdn.microsoft.com/da611bb6-1f69-449a-9821-e2fbbe413a97">InprocHandler32</a> key is used if this key exists. The class code will run within the same process as the caller.</li>
-<li>If the flags include CLSCTX_LOCAL_SERVER, the class code in the service found under the class's <a href="https://msdn.microsoft.com/e8086118-f956-4cc2-a0fb-3cebd2e66799">LocalService</a> key is used if this key exists. If no service is specified but an EXE is specified under that same key, the class code associated with that EXE is used. The class code (in either case) will be run in a separate service process on the same computer as the caller.</li>
-<li>If the flag is set to CLSCTX_REMOTE_SERVER and an additional <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> parameter to the function specifies a particular remote computer, a request to activate is forwarded to this remote computer with flags modified to set to CLSCTX_LOCAL_SERVER. The class code will run in its own process on this specific computer, which must be different from that of the caller.</li>
-<li>Finally, if the flags include CLSCTX_REMOTE_SERVER and no <a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a> parameter is specified and if a computer name is given under the class's <a href="https://msdn.microsoft.com/0413564e-e8ba-4e6e-ad29-62997c63aab3">RemoteServerName</a> named-value, the request to activate is forwarded to this remote computer with the flags modified to be set to CLSCTX_LOCAL_SERVER. The class code will run in its own process on this specific computer, which must be different from that of the caller.</li>
+<li>If the flags include CLSCTX_REMOTE_SERVER and no <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> parameter is specified and if the activation request indicates a persistent state from which to initialize the object (with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromfile">CoGetInstanceFromFile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromistorage">CoGetInstanceFromIStorage</a>, or, for a file moniker, in a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>) and the class has an <a href="https://docs.microsoft.com/windows/desktop/com/activateatstorage">ActivateAtStorage</a> subkey or no class registry information whatsoever, the request to activate and initialize is forwarded to the computer where the persistent state resides. (Refer to the remote activation functions listed in the See Also section for details.)</li>
+<li>If the flags include CLSCTX_INPROC_SERVER, the class code in the DLL found under the class's <a href="https://docs.microsoft.com/windows/desktop/com/inprocserver32">InprocServer32</a> key is used if this key exists. The class code will run within the same process as the caller.</li>
+<li>If the flags include CLSCTX_INPROC_HANDLER, the class code in the DLL found under the class's <a href="https://docs.microsoft.com/windows/desktop/com/inprochandler32">InprocHandler32</a> key is used if this key exists. The class code will run within the same process as the caller.</li>
+<li>If the flags include CLSCTX_LOCAL_SERVER, the class code in the service found under the class's <a href="https://docs.microsoft.com/windows/desktop/com/localservice">LocalService</a> key is used if this key exists. If no service is specified but an EXE is specified under that same key, the class code associated with that EXE is used. The class code (in either case) will be run in a separate service process on the same computer as the caller.</li>
+<li>If the flag is set to CLSCTX_REMOTE_SERVER and an additional <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> parameter to the function specifies a particular remote computer, a request to activate is forwarded to this remote computer with flags modified to set to CLSCTX_LOCAL_SERVER. The class code will run in its own process on this specific computer, which must be different from that of the caller.</li>
+<li>Finally, if the flags include CLSCTX_REMOTE_SERVER and no <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a> parameter is specified and if a computer name is given under the class's <a href="https://docs.microsoft.com/windows/desktop/com/remoteservername">RemoteServerName</a> named-value, the request to activate is forwarded to this remote computer with the flags modified to be set to CLSCTX_LOCAL_SERVER. The class code will run in its own process on this specific computer, which must be different from that of the caller.</li>
 </ol>
 <h3><a id="CLSCTX_ACTIVATE_32_BIT_SERVER_and_CLSCTX_ACTIVATE_64_BIT_SERVER"></a><a id="clsctx_activate_32_bit_server_and_clsctx_activate_64_bit_server"></a><a id="CLSCTX_ACTIVATE_32_BIT_SERVER_AND_CLSCTX_ACTIVATE_64_BIT_SERVER"></a>CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER</h3>
 The 64-bit versions of Windows introduce two new flags: CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER. On a 64-bit computer, a 32-bit and 64-bit version of the same COM server may coexist. When a client requests an activation of an out-of-process server, these <b>CLSCTX</b> flags allow the client to specify a 32-bit or a 64-bit version of the server.
@@ -396,7 +396,7 @@ The flags CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER flow a
  
 
 <b>PreferredServerBitness</b>
-<a href="https://msdn.microsoft.com/ef770039-1624-4256-aa09-1443695c1a1f">PreferredServerBitness</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/preferredserverbitness">PreferredServerBitness</a>
 <b>PreferredServerBitness</b>
 <b>PreferredServerBitness</b>
 <b>PreferredServerBitness</b>
@@ -409,51 +409,51 @@ The flags CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER flow a
 
 
 
-<a href="https://msdn.microsoft.com/fb2aa8c1-dddc-480e-b544-61a1074125ef">BIND_OPTS2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts2">BIND_OPTS2</a>
 
 
 
-<a href="https://msdn.microsoft.com/88c94a7f-5cf0-4d61-833f-91cba45d8624">COSERVERINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-_coserverinfo">COSERVERINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8a22f5f-a21f-49e7-bd6c-ca987206ee46">CoGetInstanceFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromfile">CoGetInstanceFromFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a77770c-b7e1-4d29-9c4b-331b5950a635">CoGetInstanceFromIStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromistorage">CoGetInstanceFromIStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/cecf21b0-e509-425f-8dd6-ca6b1ac04f5e">Creating an Object Through a Class Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/creating-an-object-through-a-class-object">Creating an Object Through a Class Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bbffe63-bd3a-40c8-aece-63121a437269">IClassActivator::GetClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iclassactivator-getclassobject">IClassActivator::GetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/b329de53-646b-42a2-afa3-06473c3483d6">Locating a Remote Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/locating-a-remote-object">Locating a Remote Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/277f44bb-72b7-4409-955d-2cd53bc99467">Registering a Running EXE Server</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/registering-a-running-exe-server">Registering a Running EXE Server</a>
  
 
  

@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/60FD9084-CC79-48FE-AB26-C8FCB4288851">IMessageDispatcher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imessagedispatcher/nn-imessagedispatcher-imessagedispatcher">IMessageDispatcher</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_ENABLED_STATE</b> enumeration defines the state of a request queue, server session, or URL Group.
 
-This enumeration is used in the <a href="https://msdn.microsoft.com/736ae89b-a4fb-4962-ae68-9aaccd869c88">HTTP_STATE_INFO</a> struct
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a> struct
 
 
 ## -enum-fields
@@ -83,11 +83,11 @@ The HTTP Server API object is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/736ae89b-a4fb-4962-ae68-9aaccd869c88">HTTP_STATE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_state_info">HTTP_STATE_INFO</a>
  
 
  

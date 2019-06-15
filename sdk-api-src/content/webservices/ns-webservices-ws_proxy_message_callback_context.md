@@ -53,7 +53,7 @@ Specifies the callback function and state for an application that wishes
                 to associate or inspect headers in an input or an output message respectively.
             
 
-See also, <a href="https://msdn.microsoft.com/d61b6763-9770-4f1d-b16f-c63fc09e8af5">WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT</a> and  
+See also, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_call_property_id">WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT</a> and  
                 <b>WS_CALL_PROPERTY_RECEIVE_MESSAGE_CONTEXT</b>.
             
 

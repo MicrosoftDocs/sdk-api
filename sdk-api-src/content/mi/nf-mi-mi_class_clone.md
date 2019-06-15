@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clones an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> object.
+Clones an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> object.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ A pointer to the class to be cloned.
 
 ### -param newClass
 
-A pointer to a pointer to the newly created class. When you have finished using this class, delete it by calling the <a href="https://msdn.microsoft.com/a2794f8f-a69a-49f3-8d7e-512c80ea782b">MI_Class_Delete</a> function.
+A pointer to a pointer to the newly created class. When you have finished using this class, delete it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
 
 
 ## -returns

@@ -54,7 +54,7 @@ Exposes methods that allow a handler to manage various states for each property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStoreCache</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>. <b>IPropertyStoreCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStoreCache</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>. <b>IPropertyStoreCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPropertyStoreCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms710659(v=VS.85).aspx">GetState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ioeactions-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of a specified property key.
@@ -78,7 +78,7 @@ Gets the state of a specified property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761465(v=VS.85).aspx">GetValueAndState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystorecache-getvalueandstate">GetValueAndState</a>
 </td>
 <td align="left" width="63%">
 Gets value and state data for a property key.
@@ -87,7 +87,7 @@ Gets value and state data for a property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd375990(v=VS.85).aspx">SetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvfwcompressdialogs-setstate">SetState</a>
 </td>
 <td align="left" width="63%">
 Sets the property state of a specified property key.
@@ -96,7 +96,7 @@ Sets the property state of a specified property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761469(v=VS.85).aspx">SetValueAndState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystorecache-setvalueandstate">SetValueAndState</a>
 </td>
 <td align="left" width="63%">
 Sets value and state data for a property key.
@@ -110,14 +110,14 @@ Sets value and state data for a property key.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 An implementation of this interface is provided by CLSID_InMemoryPropertyStore. Users should never need to implement it themselves.
 
                 
 
-CLSID_InMemoryPropertyStore implements <a href="https://msdn.microsoft.com/en-us/library/Bb761466(v=VS.85).aspx">IPropertyStoreCache</a> instead of <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> so that it can store additional state information (<a href="https://msdn.microsoft.com/en-us/library/Bb762531(v=VS.85).aspx">PSC_STATE</a>) about each of the properties in the cache. This information can be useful for property handler implementers. It can also be useful in other scenarios where a cache of property values is needed.
+CLSID_InMemoryPropertyStore implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystorecache">IPropertyStoreCache</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> so that it can store additional state information (<a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-psc_state">PSC_STATE</a>) about each of the properties in the cache. This information can be useful for property handler implementers. It can also be useful in other scenarios where a cache of property values is needed.
 
 
 

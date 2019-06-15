@@ -68,7 +68,7 @@ A pointer to a null-terminated buffer that contains the name of the file relativ
 
 Type: <b>DWORD</b>
 
-One or more of the FILE_ATTRIBUTE flags defined in the <a href="https://msdn.microsoft.com/a6fc5cf0-d3b0-4a76-af8b-6a13ab32157d">BY_HANDLE_FILE_INFORMATION</a> structure. The most significant value is FILE_ATTRIBUTE_DIRECTORY, which indicates that a folder should be created.
+One or more of the FILE_ATTRIBUTE flags defined in the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure. The most significant value is FILE_ATTRIBUTE_DIRECTORY, which indicates that a folder should be created.
 
 
 ### -param ullSize [in]
@@ -80,9 +80,9 @@ The size, in bytes, of the file to create. This value can be 0 if the size is un
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-Flags that control the file operation. One or more of the <a href="https://msdn.microsoft.com/8a3da00a-1d96-444d-acbe-9327620b8d24">TRANSFER_SOURCE_FLAGS</a> flags.
+Flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> flags.
 
 
 ### -param riidItem [out]
@@ -96,7 +96,7 @@ A reference to the IID of the interface to retrieve through <i>ppvItem</i>, typi
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riidItem</i>. This is typically <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> or a derived interface.
+When this method returns, contains the interface pointer requested in <i>riidItem</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or a derived interface.
 
 
 ### -param riidResources [in]
@@ -110,7 +110,7 @@ A reference to the IID of the interface to retrieve through <i>ppvResources</i>,
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riidResources</i>. This is typically <a href="https://msdn.microsoft.com/4ca4a01e-e3c2-46aa-a700-b4b2a1e0112e">IShellItemResources</a> or a derived interface.
+When this method returns, contains the interface pointer requested in <i>riidResources</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemresources">IShellItemResources</a> or a derived interface.
 
 
 ## -returns
@@ -134,9 +134,9 @@ Returns a success code if successful, or an error value otherwise. Success codes
 
 
 
-This method may be used to create a Shell item object representing the destination folder for a copy or move operation. The <a href="https://msdn.microsoft.com/341966d4-f9cf-457d-97ef-8e6107544283">ITransferSource</a> interface provides methods to actually move objects of <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> to the destination.
+This method may be used to create a Shell item object representing the destination folder for a copy or move operation. The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a> interface provides methods to actually move objects of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to the destination.
 
-Call <a href="https://msdn.microsoft.com/e25040dd-bb51-45cc-99fb-9113e26d0baa">ITransferDestination::Advise</a> before calling any other <a href="https://msdn.microsoft.com/8d0049e0-e227-40ae-a282-cdc17f227e24">ITransferDestination</a> methods so the handler can callback on any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and to do the "default" operation.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a> before calling any other <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> methods so the handler can callback on any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and to do the "default" operation.
 
 It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riidResources</i> and <i>ppvResources</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppvResources</i>, which eliminates the possibility of a coding error.
 

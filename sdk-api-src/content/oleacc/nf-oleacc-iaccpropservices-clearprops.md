@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Servers use <b>ClearProps</b> to restore default values to properties of accessible elements that they had previously annotated.
 
-If servers know the <b>HWND</b> of the object they want to clear, they can use <a href="https://msdn.microsoft.com/7fd3f595-4897-481f-972e-04cf1a4c6046">IAccPropServices::ClearHwndProps</a>.
+If servers know the <b>HWND</b> of the object they want to clear, they can use <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearhwndprops">IAccPropServices::ClearHwndProps</a>.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ If servers know the <b>HWND</b> of the object they want to clear, they can use <
 
 ### -param pIDString [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 Identify the accessible element that is to be un-annotated.
 
 
 ### -param dwIDStringLen [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Length of <i>pIDString</i>.
 
@@ -91,7 +91,7 @@ Size of <i>paProps</i> array.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK, even if the specified properties were never annotated on the accessible object; clearing already cleared properties is considered a success.
 
@@ -108,7 +108,7 @@ May return other error codes under exceptional error conditions such as low memo
 
 See the support section for a list of supported properties and their expected types.
 
-Clearing the annotation for a property will cause any associated resources to be released. If a callback property server was used (see <a href="https://msdn.microsoft.com/15e43a38-4cb3-43ca-a0fc-28faf49057dc">SetPropServer</a>), it will be released.
+Clearing the annotation for a property will cause any associated resources to be released. If a callback property server was used (see <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>), it will be released.
 
 
 

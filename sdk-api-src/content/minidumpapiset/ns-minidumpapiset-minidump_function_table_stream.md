@@ -92,7 +92,7 @@ The size of alignment padding that follows the header, in bytes.
 
 
 In this context, a data stream is a set of data in a minidump file. This header structure is followed by <b>NumberOfDescriptors</b> function tables. For each function table there is a 
-<a href="https://msdn.microsoft.com/en-us/library/ms680370(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_DESCRIPTOR</a> structure, then the raw system descriptor for the table, then the raw system function entry data. If necessary, alignment padding is placed between tables to properly align the initial structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_function_table_descriptor">MINIDUMP_FUNCTION_TABLE_DESCRIPTOR</a> structure, then the raw system descriptor for the table, then the raw system function entry data. If necessary, alignment padding is placed between tables to properly align the initial structures.
 
 
 
@@ -102,11 +102,11 @@ In this context, a data stream is a set of data in a minidump file. This header 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680370(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_function_table_descriptor">MINIDUMP_FUNCTION_TABLE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

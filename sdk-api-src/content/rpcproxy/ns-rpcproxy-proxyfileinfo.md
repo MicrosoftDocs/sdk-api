@@ -103,7 +103,7 @@ Version of the proxy stub. The version can be one of the versions.
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="https://msdn.microsoft.com/dc5cafbb-dcc6-4fcb-a04f-1bc9720a13cb">/0s</a> option. 
+The .idl file is compiled with the <a href="https://docs.microsoft.com/windows/desktop/Midl/-os">/0s</a> option. 
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ The .idl file is compiled with the <a href="https://msdn.microsoft.com/dc5cafbb-
 </dl>
 </td>
 <td width="60%">
-The .idl file is compiled with the <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
+The .idl file is compiled with the <a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/0i</a>, <b>/0ic</b>, or <b>/Oicf</b> option.
 
 </td>
 </tr>

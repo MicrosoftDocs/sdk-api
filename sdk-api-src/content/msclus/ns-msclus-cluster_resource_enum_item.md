@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the <a href="https://msdn.microsoft.com/9B5C03DF-84BB-4B3A-8404-94C64F192305">ClusterResourceEnumEx</a> function.
+Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a> function.
 
 
 ## -struct-fields
@@ -140,11 +140,11 @@ The ID of the cluster resource.
 
 
 
-<a href="https://msdn.microsoft.com/9B5C03DF-84BB-4B3A-8404-94C64F192305">ClusterResourceEnumEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
  
 
  

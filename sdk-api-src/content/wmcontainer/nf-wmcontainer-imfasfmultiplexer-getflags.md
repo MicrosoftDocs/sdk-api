@@ -63,7 +63,7 @@ Retrieves flags indicating the configured multiplexer options.
 
 ### -param pdwFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more values from the <a href="https://msdn.microsoft.com/6989ac24-f25f-4bc8-a4b9-3e41434a0d44">MFASF_MULTIPLEXERFLAGS</a> enumeration. To set these flags, call <a href="https://msdn.microsoft.com/dac4f9b0-e83a-4e99-9a4a-ec1154c929a7">IMFASFMultiplexer::SetFlags</a>.
+Receives a bitwise <b>OR</b> of zero or more values from the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_multiplexerflags">MFASF_MULTIPLEXERFLAGS</a> enumeration. To set these flags, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setflags">IMFASFMultiplexer::SetFlags</a>.
 
 
 ## -returns
@@ -99,11 +99,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/a5adc40c-abb4-4012-b6f2-eb871eaed7b9">Creating the Multiplexer Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/creating-the-multiplexer-object">Creating the Multiplexer Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdb549b5-425b-4f77-b413-723ceb7acd11">IMFASFMultiplexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
  
 
  

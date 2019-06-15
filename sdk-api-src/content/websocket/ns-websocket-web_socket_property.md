@@ -59,7 +59,7 @@ The <b>WEB_SOCKET_PROPERTY</b> structure contains a  single WebSocket property.
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/d9442e90-a74f-452d-b1b5-9f4285b39f10">WEB_SOCKET_PROPERTY_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_property_type">WEB_SOCKET_PROPERTY_TYPE</a></b>
 
 The WebSocket property type.
 
@@ -83,19 +83,19 @@ The size, in bytes, of the property pointed to by <b>pvValue</b>.
 
 
 
-<a href="https://msdn.microsoft.com/c61992cc-7715-4fad-a66a-916402088ad0">WebSocketCreateClientHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8c44a86-c586-48e3-b948-ed119bebf951">WebSocketCreateServerHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateserverhandle">WebSocketCreateServerHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/6285c6fc-1f7a-45f3-ba28-94992e73693e">WebSocketReceive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketreceive">WebSocketReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/289f3880-22ed-44f8-8a69-1c983153ea72">WebSocketSend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
  
 
  

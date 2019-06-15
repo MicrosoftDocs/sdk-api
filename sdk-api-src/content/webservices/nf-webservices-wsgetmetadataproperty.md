@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a specified <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object  property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_ID</a> input parameter.
+Retrieves a specified <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object  property.  The property to retrieve is identified by a  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_ID</a> input parameter.
             
 <div class="alert"><b>Note</b>  The data returned by this function is valid until the metadata
                 object is released or reset.  The data should not be modified.
@@ -62,7 +62,7 @@ Retrieves a specified <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c
 
 ### -param metadata [in]
 
-A pointer to a <b>Metadata</b> object containing the desired property.  This parameter must be a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object.  
+A pointer to a <b>Metadata</b> object containing the desired property.  This parameter must be a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object.  
 
 
 ### -param id [in]
@@ -87,7 +87,7 @@ The byte-length buffer size allocated by the caller to store the retrieved prope
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

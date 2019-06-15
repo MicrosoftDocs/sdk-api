@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774585(v=VS.85).aspx">PSM_INDEXTOHWND</a> message explicitly.
+Takes the index of a property sheet page and returns its window handle. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-indextohwnd">PSM_INDEXTOHWND</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Takes the index of a property sheet page and returns its window handle. You can 
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet page's window.
 
@@ -76,7 +76,7 @@ Zero-based index of the page.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774651(v=VS.85).aspx">PropSheet_HwndToIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_hwndtoindex">PropSheet_HwndToIndex</a>
  
 
  

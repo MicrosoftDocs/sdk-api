@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 Type: <b>void*</b>
 
-The drawing context passed to <a href="https://msdn.microsoft.com/8d92a7c3-4804-47f6-bfca-5322be119cbb">IDWriteTextLayout::Draw</a>.
+The drawing context passed to <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-draw">IDWriteTextLayout::Draw</a>.
 
 
 ### -param pixelsPerDip [out]
@@ -97,7 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/b1b1eeb7-934f-42f4-ac01-50973a94996e">IDWritePixelSnapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritepixelsnapping">IDWritePixelSnapping</a>
  
 
  

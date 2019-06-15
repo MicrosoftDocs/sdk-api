@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    output of an async object. Output elements vary depending on the operation type.
@@ -64,7 +64,7 @@ Defines the
 ### -field type
 
 Discriminant for the union enumerated by 
-      <a href="https://msdn.microsoft.com/c2c0403a-30b9-4619-8bcb-3b73b637509e">VDS_ASYNC_OUTPUT_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_async_output_type">VDS_ASYNC_OUTPUT_TYPE</a>.
 
 <table>
 <tr>
@@ -155,8 +155,8 @@ See the following description of the <b>cvd</b> structure.
 ### -field cp
 
 Structure used for the 
-       <a href="https://msdn.microsoft.com/94f80a9f-459f-4f3d-8d85-e5ec7d5734c4">IVdsAdvancedDisk::CreatePartition</a> or
-       <a href="https://msdn.microsoft.com/c9ab5a24-b0b3-41cc-a4bf-3619f156008c">IVdsCreatePartitionEx::CreatePartitionEx</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a> or
+       <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdscreatepartitionex-createpartitionex">IVdsCreatePartitionEx::CreatePartitionEx</a> 
        method.
 
 
@@ -164,47 +164,47 @@ Structure used for the
 
 Actual offset of the created partition. This may not be the same as the 
         <i>ullOffset</i> parameter passed to the 
-        <a href="https://msdn.microsoft.com/94f80a9f-459f-4f3d-8d85-e5ec7d5734c4">IVdsAdvancedDisk::CreatePartition</a> or 
-        <a href="https://msdn.microsoft.com/c9ab5a24-b0b3-41cc-a4bf-3619f156008c">IVdsCreatePartitionEx::CreatePartitionEx</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-createpartition">IVdsAdvancedDisk::CreatePartition</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdscreatepartitionex-createpartitionex">IVdsCreatePartitionEx::CreatePartitionEx</a> 
         method.
 
 
 ### -field cp.volumeId
 
-The ID of the <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a> associated with the 
+The ID of the <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">volume object</a> associated with the 
         created partition.
 
 
 ### -field cv
 
 Structure used for the 
-       <a href="https://msdn.microsoft.com/26fea1a4-f060-49e2-a7ac-0e751f798c72">IVdsPack::CreateVolume</a> method.
+       <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::CreateVolume</a> method.
 
 
 ### -field cv.pVolumeUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the volume object. For more information, see 
-        <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">Volume Object</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for the volume object. For more information, see 
+        <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">Volume Object</a>.
 
 
 ### -field bvp
 
-Structure used for the <a href="https://msdn.microsoft.com/c7e42aa4-3233-40e9-b537-043eecd192ad">IVdsVolume::BreakPlex</a> 
+Structure used for the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-breakplex">IVdsVolume::BreakPlex</a> 
        method.
 
 
 ### -field bvp.pVolumeUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the volume object. For more information, see 
-        <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">Volume Object</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for the volume object. For more information, see 
+        <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">Volume Object</a>.
        
 
 
 ### -field sv
 
-Structure used for the <a href="https://msdn.microsoft.com/63ac6ef9-0e84-40ed-a302-4f32316a41cc">IVdsVolume::Shrink</a> 
+Structure used for the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-shrink">IVdsVolume::Shrink</a> 
        method.
 
 
@@ -218,61 +218,61 @@ The number of bytes that were reclaimed by the shrink operation.
 ### -field cl
 
 Structure used for the 
-       <a href="https://msdn.microsoft.com/e8097364-1f23-4cda-8f12-a750bbb4eb4c">IVdsSubSystem::CreateLun</a> method.
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a> method.
 
 
 ### -field cl.pLunUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the LUN object. For more information, see 
-        <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN Object</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for the LUN object. For more information, see 
+        <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-object">LUN Object</a>.
 
 
 ### -field ct
 
 Structure used for the 
-       <a href="https://msdn.microsoft.com/084a1f0e-0764-404a-bd9a-a724e4f12c5f">IVdsSubSystemIscsi::CreateTarget</a> method.
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystemiscsi-createtarget">IVdsSubSystemIscsi::CreateTarget</a> method.
 
 
 ### -field ct.pTargetUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the target object. 
-        For more information, see the <a href="https://msdn.microsoft.com/e88d65ad-9b56-4620-a0f5-573c5e245b3e">Target Object</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for the target object. 
+        For more information, see the <a href="https://docs.microsoft.com/windows/desktop/VDS/target-object">Target Object</a>.
        
 
 
 ### -field cpg
 
 Structure used for the 
-       <a href="https://msdn.microsoft.com/c479b5ee-2e6a-4a3f-bd80-c3c25adac20f">IVdsIscsiTarget::CreatePortalGroup</a> method.
+       <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-createportalgroup">IVdsIscsiTarget::CreatePortalGroup</a> method.
 
 
 ### -field cpg.pPortalGroupUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the portal group object. 
-        For more information, see the <a href="https://msdn.microsoft.com/e5892e96-b6ad-447a-9627-b44fc6f1b27a">Portal Group Object</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for the portal group object. 
+        For more information, see the <a href="https://docs.microsoft.com/windows/desktop/VDS/portal-group-object">Portal Group Object</a>.
        
 
 
 ### -field cvd
 
 Structure used for the 
-       <a href="https://msdn.microsoft.com/3655946d-f8b5-46a1-97e3-82b0831124b3">IVdsVdProvider::CreateVDisk</a> method.
+       <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdprovider-createvdisk">IVdsVdProvider::CreateVDisk</a> method.
 
 
 ### -field cvd.pVDiskUnk
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> for the virtual disk object.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> for the virtual disk object.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IVdsAsync::Wait</a> method returns this structure 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-wait">IVdsAsync::Wait</a> method returns this structure 
     and adds a reference to any contained object produced by each method. 
     Callers must release the reference to the contained object.
 
@@ -284,15 +284,15 @@ The <a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IV
 
 
 
-<a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">IVdsAsync::Wait</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-wait">IVdsAsync::Wait</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2c0403a-30b9-4619-8bcb-3b73b637509e">VDS_ASYNC_OUTPUT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_async_output_type">VDS_ASYNC_OUTPUT_TYPE</a>
  
 
  

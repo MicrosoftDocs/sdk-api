@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/2086a120-3a9a-48c9-bf8a-ec86624f960c">IUpdateIdentity</a> interface that contains the identity of the update.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a> interface that contains the identity of the update.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/7f67ba11-41b5-4185-a78d-75c76dbe1fbe">IUpdateHistoryEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
  
 
  

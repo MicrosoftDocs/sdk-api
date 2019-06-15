@@ -94,7 +94,7 @@ Indicates that the synth is not set.
 
 
 
-The <code>GetDesiredBufferSize</code> method returns the desired buffer size based on the current format of the synth. DirectSound buffers passed to <a href="https://msdn.microsoft.com/879292e1-b8e9-4f11-bb3d-f92c18e915e2">IDirectMusicSynthSink::SetDirectSound</a> might be invalid unless they are at least this size.
+The <code>GetDesiredBufferSize</code> method returns the desired buffer size based on the current format of the synth. DirectSound buffers passed to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setdirectsound">IDirectMusicSynthSink::SetDirectSound</a> might be invalid unless they are at least this size.
 
 For more information, see the description of the <b>IDirectMusicPort</b> interface in the Microsoft Windows SDK documentation.
 
@@ -106,7 +106,7 @@ For more information, see the description of the <b>IDirectMusicPort</b> interfa
 
 
 
-<a href="https://msdn.microsoft.com/879292e1-b8e9-4f11-bb3d-f92c18e915e2">IDirectMusicSynthSink::SetDirectSound</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setdirectsound">IDirectMusicSynthSink::SetDirectSound</a>
  
 
  

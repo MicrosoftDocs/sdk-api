@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761218(v=VS.85).aspx">LVM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setunicodeformat">LVM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the Unicode character format flag for the control. This message allows you 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control. 
 
 
 ### -param fUnicode
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 The character set that is used by the control. If this value is nonzero, the control will use Unicode characters. If this value is zero, the control will use ANSI characters. 
 
@@ -76,7 +76,7 @@ The character set that is used by the control. If this value is nonzero, the con
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775018(v=VS.85).aspx">ListView_GetUnicodeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getunicodeformat">ListView_GetUnicodeFormat</a>
  
 
  

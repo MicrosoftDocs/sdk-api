@@ -59,7 +59,7 @@ Contains flags used for setting security access levels.
 
 ### -field WBEM_ENABLE
 
-Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI Control</a>. For more information, see <a href="https://msdn.microsoft.com/87c23919-c482-4278-b005-894a8ac21da4">Setting Namespace Security with the WMI Control</a>.
+Enables the account and grants the user read permissions. This is a default access right for all users and corresponds to the Enable Account permission on the Security tab of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-w">WMI Control</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-namespace-security-with-the-wmi-control">Setting Namespace Security with the WMI Control</a>.
 
 
 ### -field WBEM_METHOD_EXECUTE
@@ -77,7 +77,7 @@ Allows a user account to write to classes in the WMI repository as well as insta
 
 ### -field WBEM_PARTIAL_WRITE_REP
 
-Allows you to write data to instances only, not classes. A user cannot write classes to the <a href="https://msdn.microsoft.com/en-us/library/Aa390843(v=VS.85).aspx">WMI repository</a>. Only members of the Administrators group have this right. <b>WBEM_PARTIAL_WRITE_REP</b> corresponds to the Partial Write permission on the Security tab of the WMI Control.
+Allows you to write data to instances only, not classes. A user cannot write classes to the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/gloss-w">WMI repository</a>. Only members of the Administrators group have this right. <b>WBEM_PARTIAL_WRITE_REP</b> corresponds to the Partial Write permission on the Security tab of the WMI Control.
 
 
 ### -field WBEM_WRITE_PROVIDER
@@ -92,12 +92,12 @@ Allows a user account to remotely perform any operations allowed by the permissi
 
 ### -field WBEM_RIGHT_SUBSCRIBE
 
-Specifies that a consumer can subscribe to the events delivered to a sink. Used in <a href="https://msdn.microsoft.com/en-us/library/Aa391750(v=VS.85).aspx">IWbemEventSink::SetSinkSecurity</a>.
+Specifies that a consumer can subscribe to the events delivered to a sink. Used in <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-setsinksecurity">IWbemEventSink::SetSinkSecurity</a>.
 
 
 ### -field WBEM_RIGHT_PUBLISH
 
-Specifies that the account can  publish events to the instance of <a href="https://msdn.microsoft.com/369d3c28-2b69-456f-9144-d7c73e3123bc">__EventFilter</a> that defines the event filter for a permanent consumer. Available in wbemcli.h.
+Specifies that the account can  publish events to the instance of <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--eventfilter">__EventFilter</a> that defines the event filter for a permanent consumer. Available in wbemcli.h.
 
 
 ## -see-also
@@ -105,11 +105,11 @@ Specifies that the account can  publish events to the instance of <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/18318262-d948-4329-8d48-23664798fc58">Event Security Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/event-security-constants">Event Security Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e905078-d510-4417-8acb-a6ff535d9d0b">Namespace Access Rights Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/namespace-access-rights-constants">Namespace Access Rights Constants</a>
  
 
  

@@ -82,23 +82,23 @@ Value of this qualifier.
 
 
 
-<a href="https://msdn.microsoft.com/7C669B89-C6D7-45E5-AAD8-A884F4E87659">MI_FeatureDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_featuredecl">MI_FeatureDecl</a>
 
 
 
-<a href="https://msdn.microsoft.com/50087394-44C2-4CE5-8952-9795FE9B236A">MI_MethodDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_methoddecl">MI_MethodDecl</a>
 
 
 
-<a href="https://msdn.microsoft.com/8759FEE5-9703-443E-9A2D-982158BC2EFA">MI_ObjectDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_objectdecl">MI_ObjectDecl</a>
 
 
 
-<a href="https://msdn.microsoft.com/09ad6ea4-09ae-428b-9df9-414043044d6a">MI_ParameterDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterdecl">MI_ParameterDecl</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc5e5c1e-3483-4762-8063-047308dc3652">MI_PropertyDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertydecl">MI_PropertyDecl</a>
  
 
  

@@ -179,15 +179,15 @@ Windows Media Player cannot create a partnership with a device having the status
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563290(v=VS.85).aspx">IWMPEvents2::CreatePartnershipComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-createpartnershipcomplete">IWMPEvents2::CreatePartnershipComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563720(v=VS.85).aspx">IWMPSyncDevice::get_deviceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">IWMPSyncDevice::get_deviceId</a>
  
 
  

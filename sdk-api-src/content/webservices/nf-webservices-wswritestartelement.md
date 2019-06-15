@@ -52,8 +52,8 @@ ms.custom: 19H1
 Writes a start element to the writer.
       
 
-After calling this function <a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f">WsWriteStartAttribute</a> or <a href="https://msdn.microsoft.com/17d73228-ea3b-4212-b9f7-7dcfdd6043a3">WsWriteXmlnsAttribute</a>can be called to write additional attributes to the element.
-      The element is not committed to the writer until <a href="https://msdn.microsoft.com/cfb23857-bc51-4467-9aeb-6ce8810ae1b0">WsWriteEndElement</a> or some other function  that 
+After calling this function <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritexmlnsattribute">WsWriteXmlnsAttribute</a>can be called to write additional attributes to the element.
+      The element is not committed to the writer until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> or some other function  that 
         writes content is called.
       
 
@@ -65,7 +65,7 @@ After calling this function <a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b
 
 ### -param writer [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object to which the start element is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the start element is written.  The pointer must reference a valid <b>XML Writer</b> object.
                 
 
 
@@ -94,7 +94,7 @@ A WS_XML_STRING pointer to the namespace to be used for the start element.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -171,15 +171,15 @@ If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMA
 
 If writing the start element causes <b>WS_XML_WRITER_PROPERTY_MAX_DEPTH</b> to be exceeded
         <b>WS_E_QUOTA_EXCEEDED</b> is returned.
-       (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+       (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-When using <a href="https://msdn.microsoft.com/en-us/library/Dd323578(v=VS.85).aspx">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
+When using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
         localName "Include" from the namespace"http://www.w3.org/2004/08/xop/include".
       
 
 
-<a href="https://msdn.microsoft.com/9fd1eed9-6d8b-4b2e-a7ad-54a7f584734f">WsWriteStartAttribute</a> can also be used to add an attribute to an element when the writer is
-        positioned on an element using <a href="https://msdn.microsoft.com/f8eace53-9fa5-466a-8894-3c8b8fe049e3">WsMoveWriter</a> or <a href="https://msdn.microsoft.com/1d23bda1-d1da-44d4-9a9d-258bba200b29">WsSetWriterPosition</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> can also be used to add an attribute to an element when the writer is
+        positioned on an element using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmovewriter">WsMoveWriter</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a>.
       
 
 

@@ -59,14 +59,14 @@ Describes a counter.
 
 ### -field Counter
 
-Type: <b><a href="https://msdn.microsoft.com/b6a5cc7e-48e5-478a-aa9c-8b2878c0de6b">D3D11_COUNTER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter">D3D11_COUNTER</a></b>
 
-Type of counter (see <a href="https://msdn.microsoft.com/b6a5cc7e-48e5-478a-aa9c-8b2878c0de6b">D3D11_COUNTER</a>).
+Type of counter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_counter">D3D11_COUNTER</a>).
 
 
 ### -field MiscFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Reserved.
 
@@ -75,7 +75,7 @@ Reserved.
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/2422b2d3-29c1-40cf-a41a-f9f299c2d436">ID3D11Counter::GetDesc</a>, <a href="https://msdn.microsoft.com/b09feac6-79c8-4f40-bfa1-028d4490b039">ID3D11Device::CheckCounter</a> and <a href="https://msdn.microsoft.com/857111cc-f590-4383-994c-a72402f8a4aa">ID3D11Device::CreateCounter</a>.
+This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11counter-getdesc">ID3D11Counter::GetDesc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkcounter">ID3D11Device::CheckCounter</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createcounter">ID3D11Device::CreateCounter</a>.
 
 
 
@@ -85,7 +85,7 @@ This structure is used by <a href="https://msdn.microsoft.com/2422b2d3-29c1-40cf
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

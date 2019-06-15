@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>CERT_SELECT_STRUCT</b> structure 
     contains criteria upon  which to select certificates that are presented in a certificate selection 
     dialog box.  This structure is used in the 
-    <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> 
     function.
 
 
@@ -71,7 +71,7 @@ The size, in bytes, of this structure.
 ### -field hwndParent
 
 A handle to the parent window of any dialog boxes that 
-      <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> generates.
+      <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> generates.
 
 
 ### -field hInstance
@@ -83,7 +83,7 @@ A handle to the module whose executable file contains the dialog box template.
 
 If the <b>CSS_ENABLETEMPLATE</b> flag is set in the <b>dwFlags</b> 
       member, set <b>pTemplateName</b> to a pointer to a global memory object that contains the 
-      template that <a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a> 
+      template that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a> 
       uses to create the dialog box. A dialog box template consists of a header that describes the dialog box. The 
       header is followed by one or more additional blocks of data that describe each of the controls in the dialog 
       box. The template can use either the standard format or the extended format.
@@ -95,7 +95,7 @@ If the <b>CSS_ENABLETEMPLATEHANDLE</b> flag is set in <b>dwFlags</b>,
        specifies the name of the dialog box template or an integer value that specifies the resource identifier of the 
        dialog box template. If the  specifies a resource identifier, its high-order word must be zero and its 
        low-order word must contain the identifier. One way to create this integer value is to use the 
-       <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.
+       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.
 
 
 ### -field dwFlags
@@ -153,9 +153,9 @@ Show the <b>Help</b> button.
 </dl>
 </td>
 <td width="60%">
-Cause <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> 
+Cause <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> 
         function to call the 
-        <a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a> function to 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a> function to 
         create a dialog box. For more information, see <b>pTemplateName</b>.
 
 </td>
@@ -166,8 +166,8 @@ Cause <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">
 </dl>
 </td>
 <td width="60%">
-Cause the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> 
-        function to call the <a href="https://msdn.microsoft.com/en-us/library/ms645465(v=VS.85).aspx">DialogBoxParam</a> function 
+Cause the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> 
+        function to call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a> function 
         to create a dialog box. For more information, see <b>pTemplateName</b>.
 
 </td>
@@ -201,28 +201,28 @@ A pointer to a string representation of an object identifier (OID) for an enhanc
 ### -field cCertContext
 
 The number of elements in the <b>arrayCertContext</b> array. After the 
-      <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function returns, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function returns, 
       this member contains the number of certificates that were selected by the user. Currently, only one certificate 
       can be selected by the user.
 
 
 ### -field arrayCertContext
 
-A pointer to an array of <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> 
      structures. The <b>cCertContext</b> member specifies the number of elements in this array. 
      This array must contain at least one element.
      
 
 The certificates represented by these structures are selected when the dialog box displayed by the 
-      <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function is 
+      <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function is 
       initially displayed.  Currently, only the first certificate in this array is used. The first certificate in this 
       array will be released with the 
-      <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> function 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function 
       if the <b>CertSelectCertificate</b> function is 
       successful. If the first element in this array is <b>NULL</b>, no certificates are initially 
       selected in the dialog box.
 
-After the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function 
+After the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function 
       returns, this array contains the certificates that were selected by the user. Currently, only one certificate 
       can be selected by the user.
 
@@ -231,19 +231,19 @@ After the <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f76874
 
 A pointer to an array of byte values that hold custom data that is passed through to the filter procedure 
       referenced by <b>pfnFilter</b>. This custom data is not used by the 
-      <a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function.
 
 
 ### -field pfnHook
 
-A <a href="https://msdn.microsoft.com/7172c995-a46b-437b-beaf-a0649cb8ec3d">PFNCMHOOKPROC</a> function pointer to the Hook 
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nc-cryptdlg-pfncmhookproc">PFNCMHOOKPROC</a> function pointer to the Hook 
       callback function. This function is called before messages are processed by the dialog box. For more 
-      information, see <a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>.
+      information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>.
 
 
 ### -field pfnFilter
 
-A <a href="https://msdn.microsoft.com/f870a8a7-c504-491a-b9ac-045766e46348">PFNCMFILTERPROC</a> function pointer to the 
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nc-cryptdlg-pfncmfilterproc">PFNCMFILTERPROC</a> function pointer to the 
       filter callback function. This is called to determine which certificates will be displayed by the dialog 
       box.
 
@@ -262,7 +262,7 @@ The context identifier for the topic. For more information, see
 ### -field hprov
 
 A handle to the 
-      <a href="https://msdn.microsoft.com/4e6eb2df-a917-4533-b9f1-8da39598d0b8">Cryptographic Service Provider</a> (CSP) 
+      <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-service-providers">Cryptographic Service Provider</a> (CSP) 
       to use for certificate verification.
 
 
@@ -271,7 +271,7 @@ A handle to the
 
 
 
-<a href="https://msdn.microsoft.com/8160ea08-c7c0-40f5-8771-6603f768744b">CertSelectCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>
  
 
  

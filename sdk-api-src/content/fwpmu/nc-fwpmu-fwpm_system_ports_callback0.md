@@ -61,12 +61,12 @@ The <b>FWPM_SYSTEM_PORTS_CALLBACK0</b> function is used to add custom behavior t
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f">FwpmSystemPortsSubscribe0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsystemportssubscribe0">FwpmSystemPortsSubscribe0</a> function.
 
 
 ### -param *sysPorts [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/cf6fbd43-f603-417d-925d-418d9aec5a03">FWPM_SYSTEM_PORTS0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>*</b>
 
 The system port information.
 
@@ -84,9 +84,9 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f">FwpmSystemPortsSubscribe0</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsystemportssubscribe0">FwpmSystemPortsSubscribe0</a> to register this callback function.
 
-<b>FWPM_SYSTEM_PORTS_CALLBACK0</b> is a specific implementation of FWPM_SYSTEM_PORTS_CALLBACK. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_SYSTEM_PORTS_CALLBACK0</b> is a specific implementation of FWPM_SYSTEM_PORTS_CALLBACK. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -96,11 +96,11 @@ Call <a href="https://msdn.microsoft.com/e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f">F
 
 
 
-<a href="https://msdn.microsoft.com/cf6fbd43-f603-417d-925d-418d9aec5a03">FWPM_SYSTEM_PORTS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports0_">FWPM_SYSTEM_PORTS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0eecf0e-e6b2-4df9-8a8e-766ee5c8189f">FwpmSystemPortsSubscribe0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsystemportssubscribe0">FwpmSystemPortsSubscribe0</a>
  
 
  

@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and interact with VDS.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,16 +72,16 @@ The <b>IVdsService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be1d5385-6c72-4847-9ed7-4d2309a3e9ac">Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">Advise</a>
 </td>
 <td align="left" width="63%">
-Registers the caller's <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> interface with VDS so that the caller receives notifications from the VDS service.
+Registers the caller's <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface with VDS so that the caller receives notifications from the VDS service.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93ed7789-be60-422c-be4f-e70e16d26fce">CleanupObsoleteMountPoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-cleanupobsoletemountpoints">CleanupObsoleteMountPoints</a>
 </td>
 <td align="left" width="63%">
 Updates the registry by removing user-mode paths and mounted folders for volumes that no longer exist.
@@ -90,7 +90,7 @@ Updates the registry by removing user-mode paths and mounted folders for volumes
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91cb21ea-725b-4032-9a60-34c1b42b55d0">ClearFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-clearflags">ClearFlags</a>
 </td>
 <td align="left" width="63%">
 Clears the service object flags.
@@ -99,7 +99,7 @@ Clears the service object flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/622a95a4-0e8c-4f65-a935-61cb48379065">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Returns an object pointer for the identified object.
@@ -108,7 +108,7 @@ Returns an object pointer for the identified object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb5fe743-4833-400a-a8aa-8de886203190">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves VDS property information.
@@ -117,7 +117,7 @@ Retrieves VDS property information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79ef68db-6bc6-40b3-a133-86f00eb70ee3">IsServiceReady</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-isserviceready">IsServiceReady</a>
 </td>
 <td align="left" width="63%">
 Indicates the status of VDS initialization.
@@ -126,7 +126,7 @@ Indicates the status of VDS initialization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9e9f8b0-963f-4c57-9553-8b9241317b55">QueryDriveLetters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-querydriveletters">QueryDriveLetters</a>
 </td>
 <td align="left" width="63%">
 Returns the property information of one or more drive letters.
@@ -135,7 +135,7 @@ Returns the property information of one or more drive letters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17dcafc8-8faf-4dc2-af24-7e1ab257201e">QueryFileSystemTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-queryfilesystemtypes">QueryFileSystemTypes</a>
 </td>
 <td align="left" width="63%">
 Returns the property information of all the file systems known to VDS.
@@ -144,7 +144,7 @@ Returns the property information of all the file systems known to VDS.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e53b250-0ceb-4a0c-a1ea-11b2686c5b4d">QueryMaskedDisks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-querymaskeddisks">QueryMaskedDisks</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.
@@ -153,7 +153,7 @@ This method is reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55171eb1-6fec-4651-914c-88d23e8d7849">QueryProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-queryproviders">QueryProviders</a>
 </td>
 <td align="left" width="63%">
 Enumerates all the hardware or software providers known to VDS.
@@ -162,7 +162,7 @@ Enumerates all the hardware or software providers known to VDS.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d519c3d0-7c5a-4c0c-bad9-2429490f2212">QueryUnallocatedDisks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-queryunallocateddisks">QueryUnallocatedDisks</a>
 </td>
 <td align="left" width="63%">
 Enumerates  all the unallocated disks.
@@ -171,7 +171,7 @@ Enumerates  all the unallocated disks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c22be0a5-d7ed-4f76-961d-2455ca99f220">Reboot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-reboot">Reboot</a>
 </td>
 <td align="left" width="63%">
 Restarts the computer.
@@ -180,7 +180,7 @@ Restarts the computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d057715c-dfd5-4b69-9e33-c40fb89fa11b">Reenumerate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-reenumerate">Reenumerate</a>
 </td>
 <td align="left" width="63%">
 Discovers new disks, removed disks, or both.
@@ -189,7 +189,7 @@ Discovers new disks, removed disks, or both.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca6a1143-b5f0-49e5-8505-836c565aabcf">Refresh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes disk ownership and layout.
@@ -198,7 +198,7 @@ Refreshes disk ownership and layout.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c82746e-fbf0-4754-b246-82a174410cef">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the service object flags.
@@ -207,16 +207,16 @@ Sets the service object flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/085d380c-2e09-470a-a23d-704c31535975">Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
-Unregisters the caller's  <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> interface so that the caller no longer receives notifications from the VDS service.
+Unregisters the caller's  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface so that the caller no longer receives notifications from the VDS service.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85075abe-7fac-40aa-a93e-19d89c0fd760">WaitForServiceReady</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-waitforserviceready">WaitForServiceReady</a>
 </td>
 <td align="left" width="63%">
 Waits until initialization either completes successfully (or fails) before invoking methods exposed by VDS objects.
@@ -231,15 +231,15 @@ Waits until initialization either completes successfully (or fails) before invok
 
 
 
-<a href="https://msdn.microsoft.com/ae4d18f2-4d50-480c-bc7a-4eec0334707d">Startup and Service Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/startup-and-service-objects">Startup and Service Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/9029ebbd-f05d-4317-913d-58c8a0a62886">VDS_SERVICE_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_vds_service_prop">VDS_SERVICE_PROP</a>
  
 
  

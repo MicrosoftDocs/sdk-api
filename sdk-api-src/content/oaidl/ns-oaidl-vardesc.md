@@ -89,7 +89,7 @@ The variable type.
 
 ### -field wVarFlags
 
-The variable flags. See <a href="https://msdn.microsoft.com/9422f2a5-d8c0-4d65-ad7a-9eaa9bbedf91">VARFLAGS</a>.
+The variable flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-tagvarflags">VARFLAGS</a>.
 
 
 ### -field varkind

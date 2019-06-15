@@ -63,7 +63,7 @@ The <code>GetCurrentAngle</code> method retrieves the number of available angles
 
 ### -param pulAnglesAvailable [out]
 
-Receives the number of available angles. There are up to nine angles in an angle block, numbered 1 through 9. If the value equals 1, then the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> is not in an angle block.
+Receives the number of available angles. There are up to nine angles in an angle block, numbered 1 through 9. If the value equals 1, then the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not in an angle block.
 
 
 ### -param pulCurrentAngle [out]
@@ -125,7 +125,7 @@ DVD Navigator is not initialized or not in a valid domain.
 
 
 
-Note that angle and menu button indexes are 1-based, while audio and subpicture stream indexes are 0-based. When the DVD Navigator is about to enter an angle block, it sends the application an <a href="https://msdn.microsoft.com/15593841-3162-4598-86bc-1debca22b284">EC_DVD_ANGLES_AVAILABLE</a> event notification with the <i>lParam</i> set to 1. Applications will typically call <code>GetCurrentAngle</code> and <a href="https://msdn.microsoft.com/4acc06bc-efc3-46eb-bb71-4eb981048b36">IDvdControl2::SelectAngle</a> within their event handler for EC_DVD_ANGLES_AVAILABLE.
+Note that angle and menu button indexes are 1-based, while audio and subpicture stream indexes are 0-based. When the DVD Navigator is about to enter an angle block, it sends the application an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-angles-available">EC_DVD_ANGLES_AVAILABLE</a> event notification with the <i>lParam</i> set to 1. Applications will typically call <code>GetCurrentAngle</code> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectangle">IDvdControl2::SelectAngle</a> within their event handler for EC_DVD_ANGLES_AVAILABLE.
 
 This method is demonstrated in the DVDSample application in <b>CAngleDlg::MakeAngleList</b>.
 
@@ -137,23 +137,23 @@ This method is demonstrated in the DVDSample application in <b>CAngleDlg::MakeAn
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/15593841-3162-4598-86bc-1debca22b284">EC_DVD_ANGLES_AVAILABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-angles-available">EC_DVD_ANGLES_AVAILABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0564b0e3-6434-448b-80fb-5362ab67fef7">EC_DVD_ANGLE_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-angle-change">EC_DVD_ANGLE_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
  
 
  

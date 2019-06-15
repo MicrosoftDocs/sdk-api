@@ -51,18 +51,18 @@ ms.custom: 19H1
 
 
 
-The <code>IMediaEvent</code> interface contains methods for retrieving event notifications and for overriding the Filter Graph Manager's default handling of events. The <a href="https://msdn.microsoft.com/en-us/library/Dd406897(v=VS.85).aspx">IMediaEventEx</a> interface inherits this interface and extends it.
+The <code>IMediaEvent</code> interface contains methods for retrieving event notifications and for overriding the Filter Graph Manager's default handling of events. The <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a> interface inherits this interface and extends it.
 
-The Filter Graph Manager implements this interface. Applications can use it to respond to events that occur in the filter graph, such as the end of a stream or a rendering error. Filters post events to the filter graph using the <a href="https://msdn.microsoft.com/en-us/library/Dd406901(v=VS.85).aspx">IMediaEventSink</a> interface.
+The Filter Graph Manager implements this interface. Applications can use it to respond to events that occur in the filter graph, such as the end of a stream or a rendering error. Filters post events to the filter graph using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaeventsink">IMediaEventSink</a> interface.
 
-For more information about event notification, see <a href="https://msdn.microsoft.com/301116a5-24e3-4c6d-8c80-bec77c7d62d7">Event Notification in DirectShow</a>. For a list of system-defined event notifications, see <a href="https://msdn.microsoft.com/339ffcd9-7724-4c92-b241-afbed81d9380">Event Notification Codes</a>.
+For more information about event notification, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-in-directshow">Event Notification in DirectShow</a>. For a list of system-defined event notifications, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/event-notification-codes">Event Notification Codes</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMediaEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMediaEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMediaEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406903(v=VS.85).aspx">CancelDefaultHandling</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-canceldefaulthandling">CancelDefaultHandling</a>
 </td>
 <td align="left" width="63%">
 Cancels the Filter Graph Manager's default handling for a specified event.
@@ -86,7 +86,7 @@ Cancels the Filter Graph Manager's default handling for a specified event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406905(v=VS.85).aspx">FreeEventParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-freeeventparams">FreeEventParams</a>
 </td>
 <td align="left" width="63%">
 Frees resources associated with the parameters of an event.
@@ -95,7 +95,7 @@ Frees resources associated with the parameters of an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406907(v=VS.85).aspx">GetEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next event notification from the event queue.
@@ -104,7 +104,7 @@ Retrieves the next event notification from the event queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406908(v=VS.85).aspx">GetEventHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-geteventhandle">GetEventHandle</a>
 </td>
 <td align="left" width="63%">
 Retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.
@@ -113,7 +113,7 @@ Retrieves a handle to a manual-reset event that remains signaled while the queue
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406912(v=VS.85).aspx">RestoreDefaultHandling</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-restoredefaulthandling">RestoreDefaultHandling</a>
 </td>
 <td align="left" width="63%">
 Restores the Filter Graph Manager's default handling for a specified event.
@@ -122,7 +122,7 @@ Restores the Filter Graph Manager's default handling for a specified event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406914(v=VS.85).aspx">WaitForCompletion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-waitforcompletion">WaitForCompletion</a>
 </td>
 <td align="left" width="63%">
 Waits for the filter graph to render all available data.
@@ -137,7 +137,7 @@ Waits for the filter graph to render all available data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

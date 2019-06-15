@@ -59,7 +59,7 @@ A pixel-shader interface manages an executable program (a pixel shader) that con
 
 The pixel-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in are implemented from a common set of features referred to as the common-shader core..
 
-To create a pixel shader interface, call <a href="https://msdn.microsoft.com/f013a648-fd11-417b-8f87-36a4be901715">ID3D11Device::CreatePixelShader</a>. Before using a pixel shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/2ee5c946-10bd-40b0-90b2-015aff2377aa">ID3D11DeviceContext::PSSetShader</a>.
+To create a pixel shader interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createpixelshader">ID3D11Device::CreatePixelShader</a>. Before using a pixel shader you must bind it to the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetshader">ID3D11DeviceContext::PSSetShader</a>.
 
 This interface is defined in D3D11.h.
 
@@ -71,11 +71,11 @@ This interface is defined in D3D11.h.
 
 
 
-<a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
  
 
  

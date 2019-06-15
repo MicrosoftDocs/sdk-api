@@ -65,7 +65,7 @@ Pointer to a wide character null-terminated Unicode string that contains the nam
 ### -param pstgDest [in]
 
 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer to the destination storage object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the destination storage object.
 
 
 ### -param pwcsNewName [in]
@@ -76,7 +76,7 @@ Pointer to a wide character null-terminated unicode string that contains the new
 ### -param grfFlags [in]
 
 Specifies whether the operation should be a move (STGMOVE_MOVE) or a copy (STGMOVE_COPY). See the 
-<a href="https://msdn.microsoft.com/f55c376b-f150-406a-b960-f096c2deeff1">STGMOVE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgmove">STGMOVE</a> enumeration.
 
 
 ## -returns
@@ -93,7 +93,7 @@ This method can return one of these values.
 
 
 The <b>IStorage::MoveElementTo</b> method is typically the same as invoking the 
-<a href="https://msdn.microsoft.com/8b25b32b-f739-406a-96e8-dba687c7f055">IStorage::CopyTo</a> method on the indicated element and then removing the source element. In this case, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-copyto">IStorage::CopyTo</a> method on the indicated element and then removing the source element. In this case, the 
 <b>MoveElementTo</b> method uses only the publicly available functions of the destination storage object to carry out the move.
 
 If the source and destination storage objects have special knowledge about each other's implementation (they could, for example, be different instances of the same implementation), this method can be implemented more efficiently.
@@ -108,15 +108,15 @@ Before calling this method, the element to be moved must be closed, and the dest
 
 
 
-<a href="https://msdn.microsoft.com/2a2253f6-d3d3-403e-a9ba-53a541c7a31e">IStorage - Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b25b32b-f739-406a-96e8-dba687c7f055">IStorage::CopyTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-copyto">IStorage::CopyTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f55c376b-f150-406a-b960-f096c2deeff1">STGMOVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstgmove">STGMOVE</a>
  
 
  

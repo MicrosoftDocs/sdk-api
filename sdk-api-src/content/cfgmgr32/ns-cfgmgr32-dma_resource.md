@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The DMA_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes DMA channel usage for a device instance. For more information about resource list and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The DMA_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field DMA_Header
 
-A <a href="https://msdn.microsoft.com/e357132d-ba40-4c14-813c-505aadc94a26">DMA_DES</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des_s">DMA_DES</a> structure.
 
 
 ### -field DMA_Data
@@ -76,7 +76,7 @@ Zero.
 
 #### For a resource requirements list:
 
-A <a href="https://msdn.microsoft.com/46c80013-1863-4e02-be8d-282d2e619200">DMA_RANGE</a> array.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range_s">DMA_RANGE</a> array.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ A <a href="https://msdn.microsoft.com/46c80013-1863-4e02-be8d-282d2e619200">DMA_
 
 
 
-<a href="https://msdn.microsoft.com/e357132d-ba40-4c14-813c-505aadc94a26">DMA_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des_s">DMA_DES</a>
 
 
 
-<a href="https://msdn.microsoft.com/46c80013-1863-4e02-be8d-282d2e619200">DMA_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range_s">DMA_RANGE</a>
  
 
  

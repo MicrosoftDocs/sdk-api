@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CTL_VERIFY_USAGE_STATUS</b> structure contains information about a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Trust List</a> (CTL) returned by 
-<a href="https://msdn.microsoft.com/d87d8157-8e52-4198-bfd4-46d83d72eb13">CertVerifyCTLUsage</a>.
+The <b>CTL_VERIFY_USAGE_STATUS</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Trust List</a> (CTL) returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a>.
 
 
 ## -struct-fields
@@ -61,27 +61,27 @@ The <b>CTL_VERIFY_USAGE_STATUS</b> structure contains information about a <a hre
 ### -field cbSize
 
 The size, in bytes, of the structure. The application calling 
-<a href="https://msdn.microsoft.com/d87d8157-8e52-4198-bfd4-46d83d72eb13">CertVerifyCTLUsage</a> sets this parameter. If <b>cbSize</b> is not greater than or equal to the required size of the structure, <b>CertVerifyCTLUsage</b> returns <b>FALSE</b> and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>E_INVALIDARG</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a> sets this parameter. If <b>cbSize</b> is not greater than or equal to the required size of the structure, <b>CertVerifyCTLUsage</b> returns <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>E_INVALIDARG</b>.
 
 
 ### -field dwError
 
-The error status, if any, returned by the call to <a href="https://msdn.microsoft.com/d87d8157-8e52-4198-bfd4-46d83d72eb13">CertVerifyCTLUsage</a>. For the list of possible error values, see the Return Values section in <b>CertVerifyCTLUsage</b>.
+The error status, if any, returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a>. For the list of possible error values, see the Return Values section in <b>CertVerifyCTLUsage</b>.
 
 
 ### -field dwFlags
 
-If <b>CERT_VERIFY_UPDATED_CTL_FLAG</b> is returned, <a href="https://msdn.microsoft.com/d87d8157-8e52-4198-bfd4-46d83d72eb13">CertVerifyCTLUsage</a> updated a CTL whose time was no longer valid with a new, time-valid CTL.
+If <b>CERT_VERIFY_UPDATED_CTL_FLAG</b> is returned, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a> updated a CTL whose time was no longer valid with a new, time-valid CTL.
 
 
 ### -field ppCtl
 
-Pointer to a pointer to a CTL <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> containing the matched subject. The calling application can set this pointer to <b>NULL</b> to indicate that a CTL containing the subject is not to be returned. 
+Pointer to a pointer to a CTL <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> containing the matched subject. The calling application can set this pointer to <b>NULL</b> to indicate that a CTL containing the subject is not to be returned. 
 
 
 
 
-If <b>ppCtl</b> is not <b>NULL</b>, the calling application must free the returned context using <a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>.
+If <b>ppCtl</b> is not <b>NULL</b>, the calling application must free the returned context using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 
 ### -field dwCtlEntryIndex
@@ -96,7 +96,7 @@ A pointer to a pointer to the certificate context of the signer of the CTL. This
 
 
 
-If <b>ppSigner</b> is not <b>NULL</b>, the calling application must free the returned context using <a href="https://msdn.microsoft.com/84b1aa0c-44d9-4a2f-861c-fa7d8caac192">CertFreeCTLContext</a>.
+If <b>ppSigner</b> is not <b>NULL</b>, the calling application must free the returned context using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 
 ### -field dwSignerIndex
@@ -118,15 +118,15 @@ The members <b>dwError</b>, <b>dwFlags</b>, <b>dwCtlEntryIndex</b>, and <b>dwSig
 
 
 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/d87d8157-8e52-4198-bfd4-46d83d72eb13">CertVerifyCTLUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyctlusage">CertVerifyCTLUsage</a>
  
 
  

@@ -53,14 +53,14 @@ Enables an object to display itself directly without passing a data object to th
 
 The caller can request specific representations and specific target devices. For example, a caller can ask for either an object's content or an iconic representation. Also, the caller can ask the object to compose a picture for a target device that is independent of the drawing device context. As a result, the picture can be composed for one target device and drawn on another device context. For example, to provide a print preview operation, you can compose the drawing for a printer target device but actually draw the representation on the display.
 
-The <b>IViewObject</b> interface is similar to <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>; except that <b>IViewObject</b> places a representation of the data onto a device context while <b>IDataObject</b> places the representation onto a transfer medium.
+The <b>IViewObject</b> interface is similar to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>; except that <b>IViewObject</b> places a representation of the data onto a device context while <b>IDataObject</b> places the representation onto a transfer medium.
 
 Unlike most other interfaces, <b>IViewObject</b> cannot be marshaled to another process. This is because device contexts are only effective in the context of one process.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IViewObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IViewObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IViewObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/913593ff-07fe-44bd-88dc-8e58da82089b">Draw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">Draw</a>
 </td>
 <td align="left" width="63%">
 Draws a representation of the object onto the specified device context.
@@ -84,25 +84,25 @@ Draws a representation of the object onto the specified device context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/943faf31-7de4-45da-887b-7ded479ac732">Freeze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">Freeze</a>
 </td>
 <td align="left" width="63%">
-Freezes the drawn representation of an object so that it will not change until a subsequent call to the <a href="https://msdn.microsoft.com/76f3c5f6-3f29-4a89-94e2-f77489e6a744">Unfreeze</a> method.
+Freezes the drawn representation of an object so that it will not change until a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">Unfreeze</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c56f6cbb-d2ea-4db4-a660-db8b7540ac94">GetAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-getadvise">GetAdvise</a>
 </td>
 <td align="left" width="63%">
-Retrieves the advisory connection on the object that was used in the most recent call to <a href="https://msdn.microsoft.com/64712679-8454-41fa-9497-f0ab97240a51">SetAdvise</a>.
+Retrieves the advisory connection on the object that was used in the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">SetAdvise</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68454266-ca31-44ec-8847-4d47001d9849">GetColorSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-getcolorset">GetColorSet</a>
 </td>
 <td align="left" width="63%">
 Retrieves the logical palette that the object is using for drawing.
@@ -111,7 +111,7 @@ Retrieves the logical palette that the object is using for drawing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64712679-8454-41fa-9497-f0ab97240a51">SetAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-setadvise">SetAdvise</a>
 </td>
 <td align="left" width="63%">
 Establishes a connection between the view object and an advise sink so that the advise sink can be notified about changes in the object's view.
@@ -120,10 +120,10 @@ Establishes a connection between the view object and an advise sink so that the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76f3c5f6-3f29-4a89-94e2-f77489e6a744">Unfreeze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-unfreeze">Unfreeze</a>
 </td>
 <td align="left" width="63%">
-Releases a drawing that was previously frozen using <a href="https://msdn.microsoft.com/943faf31-7de4-45da-887b-7ded479ac732">Freeze</a>.
+Releases a drawing that was previously frozen using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">Freeze</a>.
 
 </td>
 </tr>

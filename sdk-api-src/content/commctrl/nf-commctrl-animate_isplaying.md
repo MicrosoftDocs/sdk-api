@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an <a href="https://msdn.microsoft.com/en-us/library/Bb761895(v=VS.85).aspx">ACM_ISPLAYING</a> message.
+Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an <a href="https://docs.microsoft.com/windows/desktop/Controls/acm-isplaying">ACM_ISPLAYING</a> message.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use t
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the animation control.
 

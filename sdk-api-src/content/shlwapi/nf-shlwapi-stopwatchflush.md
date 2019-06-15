@@ -110,7 +110,7 @@ The performance log is written to the shperf.log file in the Windows directory. 
 
 Calling <b>StopWatchFlush</b> clears the performance logs after writing them to the shperf.log file.
 
-See the <a href="https://msdn.microsoft.com/3db69040-0720-41a3-ba88-db885a2685aa">StopWatchMode</a> function for a description of the information that is recorded in the performance log.
+See the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-stopwatchmode">StopWatchMode</a> function for a description of the information that is recorded in the performance log.
 
 
 

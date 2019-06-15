@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT erro
 
 
 
-This value is useful when you are using the <a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a> interface. You should pass this value when the manipulation completes.
+This value is useful when you are using the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a> interface. You should pass this value when the manipulation completes.
 
 
 
@@ -85,19 +85,19 @@ This value is useful when you are using the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/b531c4e5-8437-4869-9264-3fe131b8acc8">GetVelocityY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityy">GetVelocityY</a>
 
 
 
-<a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/23ae7083-0a78-4628-8a04-f9bd762aac02">InitialVelocityX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityx">InitialVelocityX</a>
 
 
 
-<a href="https://msdn.microsoft.com/33736f79-cb61-449c-80b9-1358db2621e9">Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtmethods">Methods</a>
  
 
  

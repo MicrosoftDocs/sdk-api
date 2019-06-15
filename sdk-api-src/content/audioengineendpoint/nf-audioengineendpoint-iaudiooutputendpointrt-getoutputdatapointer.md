@@ -65,7 +65,7 @@ The number of frames in the output buffer pointed to by the data pointer that is
 
 ### -param pAeTimeStamp [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/2e239114-1af7-455a-a60f-2054b05e1414">AE_CURRENT_POSITION</a> structure that specifies the time stamp of the data that is rendered. This parameter is optional.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure that specifies the time stamp of the data that is rendered. This parameter is optional.
 
 
 ## -returns
@@ -82,10 +82,10 @@ A pointer to the buffer to which data will be written.
 
 
 This method returns a pointer to a buffer in which the audio engine writes data.
-    The data is not valid until the <a href="https://msdn.microsoft.com/55b7d55e-b684-4c6e-a937-e8922732857d">IAudioOutputEndpointRT::ReleaseOutputDataPointer</a> method is called.
+    The data is not valid until the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiooutputendpointrt-releaseoutputdatapointer">IAudioOutputEndpointRT::ReleaseOutputDataPointer</a> method is called.
     The returned pointer must be frame-aligned.
 
-The frame count passed in <b>u32FrameCount</b>  must be less than or equal to the maximum number of frames supported by the endpoint. To get the maximum frame count that the endpoint can support, the audio engine calls the <a href="https://msdn.microsoft.com/b9e47262-9e6f-4ddf-a74a-b7fa63983a5a">IAudioEndpoint::GetFramesPerPacket</a> method.
+The frame count passed in <b>u32FrameCount</b>  must be less than or equal to the maximum number of frames supported by the endpoint. To get the maximum frame count that the endpoint can support, the audio engine calls the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframesperpacket">IAudioEndpoint::GetFramesPerPacket</a> method.
 
 This method can be called from a real-time processing thread. The
     implementation of this method must not block, access
@@ -101,7 +101,7 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/b881b2f9-ffe9-46ff-94aa-eef0af172a3e">IAudioOutputEndpointRT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt">IAudioOutputEndpointRT</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a connection that was created by using the <a href="https://msdn.microsoft.com/d69cba04-503c-4d21-b762-3094c0921e28">DavAddConnection</a> function.
+Closes a connection that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davaddconnection">DavAddConnection</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Closes a connection that was created by using the <a href="https://msdn.microsof
 
 ### -param ConnectionHandle [in]
 
-A handle to an open connection that was  created by using the  <a href="https://msdn.microsoft.com/d69cba04-503c-4d21-b762-3094c0921e28">DavAddConnection</a> function.
+A handle to an open connection that was  created by using the  <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davaddconnection">DavAddConnection</a> function.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A handle to an open connection that was  created by using the  <a href="https://
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -80,7 +80,7 @@ If the function fails, the return value is a <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
  
 
  

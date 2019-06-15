@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-An extension to <a href="https://msdn.microsoft.com/ad2cb3ae-dd24-4774-95bd-f5a0773c68b1">IPropertyPage</a> to support initial selection of a property on a page.
+An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a> to support initial selection of a property on a page.
 
-This method works in conjunction with the implementation of <a href="https://msdn.microsoft.com/f8cf86eb-23d1-4aa6-859a-055df99b064c">IPerPropertyBrowsing::MapPropertyToPage</a> on an object that supplies properties and specifies property pages through <a href="https://msdn.microsoft.com/fd986241-aabe-477e-a382-28a1ecfd5410">ISpecifyPropertyPages</a>. This interface has only one extra method in addition to those in <a href="https://msdn.microsoft.com/ad2cb3ae-dd24-4774-95bd-f5a0773c68b1">IPropertyPage</a>. That method, <a href="https://msdn.microsoft.com/a41d2d50-6484-43d0-a41c-1cfa3bfdbe8e">IPropertyPage2::EditProperty</a> tells the page which property to highlight.
+This method works in conjunction with the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-mappropertytopage">IPerPropertyBrowsing::MapPropertyToPage</a> on an object that supplies properties and specifies property pages through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a>. This interface has only one extra method in addition to those in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>. That method, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">IPropertyPage2::EditProperty</a> tells the page which property to highlight.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IPropertyPage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a41d2d50-6484-43d0-a41c-1cfa3bfdbe8e">EditProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage2-editproperty">EditProperty</a>
 </td>
 <td align="left" width="63%">
 Specifies which field is to receive the focus when the property page is activated.
@@ -87,19 +87,19 @@ Specifies which field is to receive the focus when the property page is activate
 
 
 
-<a href="https://msdn.microsoft.com/05e46df3-b6c8-4520-af11-21e1ff90fb9f">IPerPropertyBrowsing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad2cb3ae-dd24-4774-95bd-f5a0773c68b1">IPropertyPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9035a10-2078-4626-8386-f9298526dfb7">IPropertyPageSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypagesite">IPropertyPageSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd986241-aabe-477e-a382-28a1ecfd5410">ISpecifyPropertyPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPage</a>
  
 
  

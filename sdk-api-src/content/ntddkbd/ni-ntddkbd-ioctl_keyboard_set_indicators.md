@@ -59,14 +59,14 @@ The IOCTL_KEYBOARD_SET_INDICATORS request sets the keyboard indicators.
 
 ### -input-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that inputs a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure. The client sets the indicator parameters in this structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a client-allocated buffer that inputs a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure. The client sets the indicator parameters in this structure.
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
+<b>Parameters.DeviceIoControl.InputBufferLength</b> is set to a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a> structure.
 
 
 ### -output-buffer
@@ -131,11 +131,11 @@ The request completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/27c538dd-19e2-4b5a-9605-0efb0f78e008">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_set_typematic">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/68c9d24a-c1c9-4ef6-904d-6aeb68cea32a">KEYBOARD_INDICATOR_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_indicator_parameters">KEYBOARD_INDICATOR_PARAMETERS</a>
  
 
  

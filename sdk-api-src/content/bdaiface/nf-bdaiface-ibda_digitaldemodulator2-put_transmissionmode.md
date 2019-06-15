@@ -59,7 +59,7 @@ Sets the demodulator's transmission mode.
 
 ### -param pTransmissionMode [in]
 
-Pointer to a variable that contains the transmission mode, specified as a member of the <a href="https://msdn.microsoft.com/b5722904-24a4-491f-8563-bfb2d5695d86">TransmissionMode</a> enumeration.
+Pointer to a variable that contains the transmission mode, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/transmissionmode">TransmissionMode</a> enumeration.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693285(v=VS.85).aspx">IBDA_DigitalDemodulator2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator2">IBDA_DigitalDemodulator2</a>
  
 
  

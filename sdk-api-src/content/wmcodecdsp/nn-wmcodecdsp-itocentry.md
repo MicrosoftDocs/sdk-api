@@ -54,7 +54,7 @@ The <b>ITocEntry</b> interface represents an individual entry in a table of cont
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocEntry</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITocEntry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocEntry</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocEntry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,44 +69,44 @@ The <b>ITocEntry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4000b67c-e34e-4bce-9a0d-c56c9fc0f41e">GetDescriptionData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-getdescriptiondata">GetDescriptionData</a>
 </td>
 <td align="left" width="63%">
-Gets a description data block that was previously associated with the entry by a call to <a href="https://msdn.microsoft.com/260d7699-cf75-4179-9f2b-bc3bc49c94e6">SetDescriptionData</a>.
+Gets a description data block that was previously associated with the entry by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb685d4c-c5ec-413f-b279-25216b2bcee8">GetDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-getdescriptor">GetDescriptor</a>
 </td>
 <td align="left" width="63%">
-Gets the descriptor, previously set by a call to <a href="https://msdn.microsoft.com/09a366a6-fcb4-4a0b-8df1-795360d147b9">SetDescriptor</a>, of the entry.
+Gets the descriptor, previously set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>, of the entry.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/583340d7-87f9-40c5-a0dc-3e69bbb96334">GetSubEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-getsubentries">GetSubEntries</a>
 </td>
 <td align="left" width="63%">
-Gets an array of subentry indices that were set by a previous call to <a href="https://msdn.microsoft.com/4b3f4038-483c-4f00-a819-ace83d99da58">SetSubEntries</a>
+Gets an array of subentry indices that were set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d610e9e8-daa4-4d8c-a640-627b23afd316">GetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-gettitle">GetTitle</a>
 </td>
 <td align="left" width="63%">
- Gets the title, set by a previous call to <a href="https://msdn.microsoft.com/24ab6c56-59ae-4fdf-b18e-75f616ee5a80">SetTitle</a>, of the entry.
+ Gets the title, set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>, of the entry.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/260d7699-cf75-4179-9f2b-bc3bc49c94e6">SetDescriptionData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptiondata">SetDescriptionData</a>
 </td>
 <td align="left" width="63%">
 Associates a caller-supplied data block with the entry.
@@ -115,7 +115,7 @@ Associates a caller-supplied data block with the entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09a366a6-fcb4-4a0b-8df1-795360d147b9">SetDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>
 </td>
 <td align="left" width="63%">
 Associates a descriptor with the entry.
@@ -124,7 +124,7 @@ Associates a descriptor with the entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b3f4038-483c-4f00-a819-ace83d99da58">SetSubEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>
 </td>
 <td align="left" width="63%">
 Identifies a set of entries as being subentries of this entry.
@@ -133,7 +133,7 @@ Identifies a set of entries as being subentries of this entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24ab6c56-59ae-4fdf-b18e-75f616ee5a80">SetTitle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>
 </td>
 <td align="left" width="63%">
 Sets the title of the entry.
@@ -148,11 +148,11 @@ Sets the title of the entry.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/25039e6c-dd2a-4516-bf27-8e9d6ca0f00e">Table of Contents Parser Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
  
 
  

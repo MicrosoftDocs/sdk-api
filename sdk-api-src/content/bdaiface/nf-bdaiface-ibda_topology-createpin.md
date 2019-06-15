@@ -62,7 +62,7 @@ The <b>CreatePin</b> method creates an instance of a specified pin type.
 
 ### -param ulPinType [in]
 
-Specifies the type of pin to create. To obtain the available values, call <a href="https://msdn.microsoft.com/en-us/library/Dd693455(v=VS.85).aspx">IBDA_Topology::GetPinTypes</a>.
+Specifies the type of pin to create. To obtain the available values, call <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-getpintypes">IBDA_Topology::GetPinTypes</a>.
 
 
 ### -param pulPinId [out]
@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693447(v=VS.85).aspx">IBDA_Topology Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_topology">IBDA_Topology Interface</a>
  
 
  

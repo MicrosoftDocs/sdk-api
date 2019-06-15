@@ -59,7 +59,7 @@ Connects the media element to the media sharing engine.
 
 ### -param pFactory [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/191CB50C-8CBB-470F-B558-F3A9EE554DA3">IMFSharingEngineClassFactory</a> interface. The media element uses this interface to create the Sharing Engine.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfsharingengineclassfactory">IMFSharingEngineClassFactory</a> interface. The media element uses this interface to create the Sharing Engine.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/53355EEA-559B-4803-89F6-D454E15F9254">IPlayToControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytocontrol">IPlayToControl</a>
  
 
  

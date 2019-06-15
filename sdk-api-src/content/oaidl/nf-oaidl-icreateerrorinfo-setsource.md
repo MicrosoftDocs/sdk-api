@@ -121,7 +121,7 @@ Use of this function is demonstrated in the file Main.cpp of the COM Fundamental
 
 
 
-<a href="https://msdn.microsoft.com/2e7c5ad5-9018-413e-8826-ef752ebf302c">ICreateErrorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
  
 
  

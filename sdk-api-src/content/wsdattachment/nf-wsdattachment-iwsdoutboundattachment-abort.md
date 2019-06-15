@@ -89,7 +89,7 @@ Method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/add0160c-bbf7-446e-8592-a05fd4d16fac">Abort</a> was called before <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> was called. You must call <b>Write</b> before terminating the attachment stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">Abort</a> was called before <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a> was called. You must call <b>Write</b> before terminating the attachment stream.
 
 </td>
 </tr>
@@ -103,10 +103,10 @@ Method completed successfully.
 
 
 
-The <b>Abort</b> method may be called when a <a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a> or <a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">Write</a> method call failed with the error <b>STG_S_BLOCK</b>.
+The <b>Abort</b> method may be called when a <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a> method call failed with the error <b>STG_S_BLOCK</b>.
 
 
-<a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a> must not be called once <b>Abort</b> has been called on an attachment stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a> must not be called once <b>Abort</b> has been called on an attachment stream.
 
 
 
@@ -116,15 +116,15 @@ The <b>Abort</b> method may be called when a <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/ba2f2038-e6ef-4ad4-a1fb-50e225394c60">IWSDOutboundAttachment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">IWSDOutboundAttachment::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">IWSDOutboundAttachment::Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bd24e7c-f2f4-4cc4-abc0-176ed024fa43">IWSDOutboundAttachment::Write</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">IWSDOutboundAttachment::Write</a>
  
 
  

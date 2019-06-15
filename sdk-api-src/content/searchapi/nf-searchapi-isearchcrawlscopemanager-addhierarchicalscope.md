@@ -105,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method overrides existing scope rules for the URL.The preferred methods for such functionality are <a href="https://msdn.microsoft.com/en-us/library/Bb266481(v=VS.85).aspx">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb266484(v=VS.85).aspx">ISearchCrawlScopeManager::AddUserScopeRule</a>.
+This method overrides existing scope rules for the URL.The preferred methods for such functionality are <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adddefaultscoperule">ISearchCrawlScopeManager::AddDefaultScopeRule</a> and <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchcrawlscopemanager-adduserscoperule">ISearchCrawlScopeManager::AddUserScopeRule</a>.
 
 URLs passed in as parameters to <b>ISearchCrawlScopeManager::AddHierarchicalScope</b> are expected to be fully URL-decoded and without URL control codes. For example, file:///c:\My Documents is fully URL-decoded, whereas file:///c:\My%20Documents is not.
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>LoadProfileByID</b> method loads a system profile identified by its globally unique identifier. To load a custom profile, use <a href="https://msdn.microsoft.com/en-us/library/Dd757394(v=VS.85).aspx">IWMProfileManager::LoadProfileByData</a>.
+The <b>LoadProfileByID</b> method loads a system profile identified by its globally unique identifier. To load a custom profile, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
 
 
 
@@ -65,12 +65,12 @@ The <b>LoadProfileByID</b> method loads a system profile identified by its globa
 
 ### -param guidProfile [in]
 
-<b>GUID</b> identifying the profile. For more information, see the table of defined constants in <a href="https://msdn.microsoft.com/4e0f3a40-68d6-452e-8e6a-c9e79504ccb6">Using System Profiles</a>.
+<b>GUID</b> identifying the profile. For more information, see the table of defined constants in <a href="https://docs.microsoft.com/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>.
 
 
 ### -param ppProfile [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/00f28d6b-d27d-4268-960e-c8ea25e5359e">IWMProfile</a> interface.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
 
 
 ## -returns
@@ -127,7 +127,7 @@ The <i>ppProfile</i> parameter is <b>NULL</b>.
 
 
 
-Only system profiles have IDs. Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://msdn.microsoft.com/e2263c3a-56cd-4505-acd7-510dc7bac166">Reusing Stream Configurations</a>.
+Only system profiles have IDs. Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reusing-stream-configurations">Reusing Stream Configurations</a>.
 
 
 
@@ -137,11 +137,11 @@ Only system profiles have IDs. Because there are no system profiles for the Wind
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e0f3a40-68d6-452e-8e6a-c9e79504ccb6">Using System Profiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>
  
 
  

@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains the attributes of a disk device. Returned as the output buffer from the 
-    <a href="https://msdn.microsoft.com/3fa9fabb-91ef-4306-90b6-c3dd17f3e298">IOCTL_DISK_GET_DISK_ATTRIBUTES</a> control 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a> control 
     code.
 
 
@@ -108,15 +108,15 @@ The disk is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/dd55c570-68b5-4dc5-9fd0-a6e3277c318b">Disk Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fa9fabb-91ef-4306-90b6-c3dd17f3e298">IOCTL_DISK_GET_DISK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba0e3666-8660-493c-b821-5997d577e7e2">SET_DISK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">SET_DISK_ATTRIBUTES</a>
  
 
  

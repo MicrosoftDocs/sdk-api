@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that allow an application to attach extra data blocks to a <a href="https://msdn.microsoft.com/32ad306d-54bd-4130-ad30-08db50ef106e">Shell link</a>. These methods add, copy, or remove data blocks.
+Exposes methods that allow an application to attach extra data blocks to a <a href="https://docs.microsoft.com/windows/desktop/shell/links">Shell link</a>. These methods add, copy, or remove data blocks.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLinkDataList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellLinkDataList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLinkDataList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLinkDataList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellLinkDataList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6580736f-e217-4e3e-9b6e-1c1c004916f4">AddDataBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-adddatablock">AddDataBlock</a>
 </td>
 <td align="left" width="63%">
 Adds a data block to a link.
@@ -78,7 +78,7 @@ Adds a data block to a link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e02fb4c3-faec-40cc-ab97-d05cdcc148ed">CopyDataBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-copydatablock">CopyDataBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of a link's data block.
@@ -87,7 +87,7 @@ Retrieves a copy of a link's data block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6ebfd84-6ef4-43be-af16-71fc395c4735">GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the current option settings.
@@ -96,7 +96,7 @@ Gets the current option settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32660c95-4b09-4ede-b02d-bf3a335a9097">RemoveDataBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-removedatablock">RemoveDataBlock</a>
 </td>
 <td align="left" width="63%">
 Removes a data block from a link.
@@ -105,7 +105,7 @@ Removes a data block from a link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0fca6394-e8ad-4ef3-a7d8-60e85229556b">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the current option settings.
@@ -130,31 +130,31 @@ The data blocks are in the form of a structure. The first two members are the sa
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/016c539e-6035-4752-99b6-71e2d7199bf0">EXP_DARWIN_LINK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link">EXP_DARWIN_LINK</a>
 </td>
 <td>The link's Windows Installer ID.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e80fa582-8dd1-4924-a3ca-a2ee668653d3">EXP_SPECIAL_FOLDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_special_folder">EXP_SPECIAL_FOLDER</a>
 </td>
 <td>Special folder information.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2016c06f-8436-407b-9eed-1ec9ccd1c307">EXP_SZ_LINK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_sz_link">EXP_SZ_LINK</a>
 </td>
 <td>The target name.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/02542cd4-be8f-45c0-ad0f-e1e39a45f5de">NT_CONSOLE_PROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_console_props">NT_CONSOLE_PROPS</a>
 </td>
 <td>Console properties.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2f22676d-2b46-4a94-9517-64d1caeead43">NT_FE_CONSOLE_PROPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_fe_console_props">NT_FE_CONSOLE_PROPS</a>
 </td>
 <td>The console's code page.</td>
 </tr>

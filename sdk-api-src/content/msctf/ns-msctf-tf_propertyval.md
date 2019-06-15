@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>TF_PROPERTYVAL</b> structure contains property value data. This structure is used with the <a href="https://msdn.microsoft.com/b0fe154c-df33-443d-95a2-f41e7b02def8">IEnumTfPropertyValue::Next</a> method.
+The <b>TF_PROPERTYVAL</b> structure contains property value data. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">IEnumTfPropertyValue::Next</a> method.
 
 
 
@@ -62,7 +62,7 @@ The <b>TF_PROPERTYVAL</b> structure contains property value data. This structure
 
 ### -field guidId
 
-A <b>GUID</b> that identifies the property type. This can be a custom identifier or one of the <a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">predefined property identifiers</a>.
+A <b>GUID</b> that identifies the property type. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
 
 
 ### -field varValue
@@ -75,12 +75,12 @@ A <b>VARIANT</b> that contains the value of the property specified by <b>guidId<
 
 
 
-<a href="https://msdn.microsoft.com/b0fe154c-df33-443d-95a2-f41e7b02def8">IEnumTfPropertyValue::Next
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfpropertyvalue-next">IEnumTfPropertyValue::Next
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d88f2eba-4c98-4b32-96e1-cd019fe0f7ad">Predefined Properties
+<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
  
 

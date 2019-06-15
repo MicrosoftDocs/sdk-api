@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCI_DGV_SETAUDIO_PARMS</b> structure contains parameters for the <a href="https://msdn.microsoft.com/78624596-e465-4ef1-8988-edcfe9a46f89">MCI_SETAUDIO</a> command for digital-video devices.
+The <b>MCI_DGV_SETAUDIO_PARMS</b> structure contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-setaudio">MCI_SETAUDIO</a> command for digital-video devices.
 
 
 
@@ -67,7 +67,7 @@ The low-order word specifies a window handle used for the MCI_NOTIFY flag.
 
 ### -field dwItem
 
-Constant indicating the target adjustment. For a list of possible values, see the <a href="https://msdn.microsoft.com/78624596-e465-4ef1-8988-edcfe9a46f89">MCI_SETAUDIO</a> command.
+Constant indicating the target adjustment. For a list of possible values, see the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-setaudio">MCI_SETAUDIO</a> command.
 
 
 ### -field dwValue
@@ -94,7 +94,7 @@ Pointer to a null-terminated string containing a descriptor of the audio-compres
 
 
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -104,19 +104,19 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://msdn.microsoft.com/b414dffb-3701-4dfd-aa8c-cd8e8918027d">MCI</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci">MCI</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86740e5-633e-465d-94ef-8065a8c05b31">MCI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-structures">MCI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/78624596-e465-4ef1-8988-edcfe9a46f89">MCI_SETAUDIO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-setaudio">MCI_SETAUDIO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e25820e9-2caf-423e-8588-f842e670e0c3">mciSendCommand</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a>
  
 
  

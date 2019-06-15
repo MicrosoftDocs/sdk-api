@@ -61,7 +61,7 @@ Invokes the standard <b>Change Icon</b> dialog box, which allows the user to sel
 
 ### -param Arg1 [in]
 
- Pointer to the In/Out <a href="https://msdn.microsoft.com/2c4ba340-541a-405b-889c-bc51d1d20cc9">OLEUICHANGEICON</a> structure for this dialog box.
+ Pointer to the In/Out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a> structure for this dialog box.
 
 
 ## -returns
@@ -298,7 +298,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -331,7 +331,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -402,7 +402,7 @@ The <i>szIconExe</i> value was invalid.
 
 
 
-<b>OleUIChangeIcon</b> uses information contained in the <a href="https://msdn.microsoft.com/2c4ba340-541a-405b-889c-bc51d1d20cc9">OLEUICHANGEICON</a> structure.
+<b>OleUIChangeIcon</b> uses information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a> structure.
 
 
 
@@ -413,7 +413,7 @@ The <i>szIconExe</i> value was invalid.
 
 
 
-<a href="https://msdn.microsoft.com/2c4ba340-541a-405b-889c-bc51d1d20cc9">OLEUICHANGEICON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a>
  
 
  

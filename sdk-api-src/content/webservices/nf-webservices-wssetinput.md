@@ -63,7 +63,7 @@ Sets the encoding and input sources for an XML  Reader.
 
 ### -param reader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object for which the input will be set.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object for which the input will be set.
         
 
 
@@ -71,13 +71,13 @@ A pointer to the <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acb
 
 A to an encoding value that describes the format of the input bytes.  This value should be one of:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323556(v=VS.85).aspx">WS_XML_READER_TEXT_ENCODING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323543(v=VS.85).aspx">WS_XML_READER_BINARY_ENCODING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_binary_encoding">WS_XML_READER_BINARY_ENCODING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323549(v=VS.85).aspx">WS_XML_READER_MTOM_ENCODING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>
 </li>
 </ul>
 
@@ -85,7 +85,7 @@ A to an encoding value that describes the format of the input bytes.  This value
 
 ### -param input [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/1e7a708d-5dcf-44ec-b781-a34946cb2844">WS_XML_READER_INPUT</a> structure that indicates the reader type.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_input">WS_XML_READER_INPUT</a> structure that indicates the reader type.
 
 
 ### -param properties
@@ -100,7 +100,7 @@ The number of properties.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -118,7 +118,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 When <b>WsSetInput</b> is used on the XML Reader, the reader will function in a forward only manner and
-        the functions <a href="https://msdn.microsoft.com/91e543f3-7325-4a90-9b99-c98918478853">WsGetReaderPosition</a>, <a href="https://msdn.microsoft.com/cc879cc0-c8ca-457e-9ff1-ae220e31cb04">WsSetReaderPosition</a> and <a href="https://msdn.microsoft.com/63d18407-f82b-4884-a162-2c8163e883e1">WsMoveReader</a> cannot be used.
+        the functions <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmovereader">WsMoveReader</a> cannot be used.
       
 
 

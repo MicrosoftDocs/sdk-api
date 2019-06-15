@@ -80,7 +80,7 @@ Reserved for later use.
 ### -field D3D10_DRIVER_TYPE_WARP
 
 A WARP driver, which is a high-performance software rasterizer. The rasterizer supports feature level 9_1 through level 10.1 with a 
-        high performance software implementation when hardware is not available. For more information about using a WARP driver, see <a href="https://msdn.microsoft.com/C40A96EB-64AA-46EB-85A9-7C996ABC8BFE">Windows Advanced Rasterization Platform (WARP) In-Depth Guide</a>.
+        high performance software implementation when hardware is not available. For more information about using a WARP driver, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/directx-warp">Windows Advanced Rasterization Platform (WARP) In-Depth Guide</a>.
         Note that WARP is only available with the DirectX 11 Runtime (Windows 7, Windows Server 2008 R2, updated Windows Vista [KB971644]).
 
 
@@ -88,9 +88,9 @@ A WARP driver, which is a high-performance software rasterizer. The rasterizer s
 
 
 
-The device-driver type needs to be specified when the device is created (using <a href="https://msdn.microsoft.com/en-us/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205087(v=VS.85).aspx">D3D10CreateDeviceAndSwapChain</a>). 
+The device-driver type needs to be specified when the device is created (using <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice">D3D10CreateDevice</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdeviceandswapchain">D3D10CreateDeviceAndSwapChain</a>). 
 
-For information about limitations creating nonhardware-type devices on certain feature levels, see <a href="https://msdn.microsoft.com/7e022e5d-daa3-48fa-b9fe-4b569220e55e">Limitations Creating WARP and Reference Devices</a>.
+For information about limitations creating nonhardware-type devices on certain feature levels, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-limitations">Limitations Creating WARP and Reference Devices</a>.
 
 
 
@@ -100,7 +100,7 @@ For information about limitations creating nonhardware-type devices on certain f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

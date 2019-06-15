@@ -59,13 +59,13 @@ Describes rasterizer state.
 
 ### -field FillMode
 
-A <a href="https://msdn.microsoft.com/5B296AFC-4DAB-48CC-9253-93CACFDC60A8">D3D12_FILL_MODE</a>-typed value that specifies the fill mode to use when rendering.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_fill_mode">D3D12_FILL_MODE</a>-typed value that specifies the fill mode to use when rendering.
           
 
 
 ### -field CullMode
 
-A <a href="https://msdn.microsoft.com/C605D9C3-6188-4307-81C0-753D2043EF4E">D3D12_CULL_MODE</a>-typed value that specifies that triangles facing the specified direction are not drawn.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_cull_mode">D3D12_CULL_MODE</a>-typed value that specifies that triangles facing the specified direction are not drawn.
           
 
 
@@ -77,19 +77,19 @@ Determines if a triangle is front- or back-facing. If this member is <b>TRUE</b>
 
 ### -field DepthBias
 
-Depth value added to a given pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Depth value added to a given pixel. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
           
 
 
 ### -field DepthBiasClamp
 
-Maximum depth bias of a pixel. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Maximum depth bias of a pixel. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
           
 
 
 ### -field SlopeScaledDepthBias
 
-Scalar on a given pixel's slope. For info about depth bias, see <a href="https://msdn.microsoft.com/en-us/library/Cc308048(v=VS.85).aspx">Depth Bias</a>.
+Scalar on a given pixel's slope. For info about depth bias, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage-depth-bias">Depth Bias</a>.
           
 
 
@@ -131,7 +131,7 @@ The sample count that is forced while UAV rendering or rasterizing. Valid values
 
 ### -field ConservativeRaster
 
-A <a href="https://msdn.microsoft.com/E0F033D5-8042-4C39-A35D-C8FE2A95C1D2">D3D12_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_conservative_rasterization_mode">D3D12_CONSERVATIVE_RASTERIZATION_MODE</a>-typed value that identifies whether conservative rasterization is on or off.
           
 
 
@@ -139,7 +139,7 @@ A <a href="https://msdn.microsoft.com/E0F033D5-8042-4C39-A35D-C8FE2A95C1D2">D3D1
 
 
 
-A <a href="https://msdn.microsoft.com/35D10150-A633-4D38-B684-3E2DF357FFC0">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> contains a rasterizer-state structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> contains a rasterizer-state structure.
       
 
 Rasterizer state defines the behavior of the rasterizer stage.
@@ -208,19 +208,19 @@ If you do not specify some rasterizer state,  the Direct3D runtime uses the foll
 
 
 
-<a href="https://msdn.microsoft.com/28AA8256-1CAF-484F-B219-0F0461BA947C">CD3DX12_RASTERIZER_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-rasterizer-desc">CD3DX12_RASTERIZER_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/081199AD-1702-4EC8-95AD-B1148C676199">Conservative Rasterization</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/conservative-rasterization">Conservative Rasterization</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/D308BF3E-8CBE-4DF0-B020-4D202E858D99">Rasterizer Ordered Views</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rasterizer-order-views">Rasterizer Ordered Views</a>
  
 
  

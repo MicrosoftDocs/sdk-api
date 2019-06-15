@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWIA_DEV_CAPS::Next</b> method fills an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structures.
+The <b>IEnumWIA_DEV_CAPS::Next</b> method fills an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap">WIA_DEV_CAP</a> structures.
 
 
 
@@ -68,9 +68,9 @@ Specifies the number of array elements in the array indicated by the <i>rgelt</i
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap">WIA_DEV_CAP</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structures. <b>IEnumWIA_DEV_CAPS::Next</b> fills this array of structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap">WIA_DEV_CAP</a> structures. <b>IEnumWIA_DEV_CAPS::Next</b> fills this array of structures.
 
 
 ### -param pceltFetched [in, out]
@@ -95,11 +95,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Applications use this method to query the capabilities of each available Windows Image Acquisition (WIA) hardware device. To do so, the application passes a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structures that it allocates. It also passes in the number of array elements in the parameter <i>celt</i>. The <b>IEnumWIA_DEV_CAPS::Next</b> method fills the array with structures. Applications then use the structures to enumerate WIA hardware device capabilities.
+Applications use this method to query the capabilities of each available Windows Image Acquisition (WIA) hardware device. To do so, the application passes a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap">WIA_DEV_CAP</a> structures that it allocates. It also passes in the number of array elements in the parameter <i>celt</i>. The <b>IEnumWIA_DEV_CAPS::Next</b> method fills the array with structures. Applications then use the structures to enumerate WIA hardware device capabilities.
 
 WIA device capabilities are defined as events and commands that the device supports. Using the <i>rgelt</i> array, <b>IEnumWIA_DEV_CAPS::Next</b> passes a single structure to the application for each event and command that the device supports.
 
-Note that <b>IEnumWIA_DEV_CAPS::Next</b> dynamically allocates the <a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structures it provides to applications. Therefore, applications must delete the <b>WIA_DEV_CAP</b> structures they receive through the <i>rgelt</i> parameter. Applications should use <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the <i>bstrName</i>, <i>bstrDescription</i>, and <i>bstrIcon</i> fields of all <b>WIA_DEV_CAP</b> structures.
+Note that <b>IEnumWIA_DEV_CAPS::Next</b> dynamically allocates the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_dev_cap">WIA_DEV_CAP</a> structures it provides to applications. Therefore, applications must delete the <b>WIA_DEV_CAP</b> structures they receive through the <i>rgelt</i> parameter. Applications should use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the <i>bstrName</i>, <i>bstrDescription</i>, and <i>bstrIcon</i> fields of all <b>WIA_DEV_CAP</b> structures.
 
 
 

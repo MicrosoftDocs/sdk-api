@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>Reset</b> method specifies the size of the string array  and the type of strings the array will contain.The values of all the elements in the string array are set to zero.
 
-You must call this method before calling the <a href="https://msdn.microsoft.com/41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe">ICertEncodeStringArray::SetValue</a> method for the first time.
+You must call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-setvalue">ICertEncodeStringArray::SetValue</a> method for the first time.
 
 
 ## -parameters
@@ -180,7 +180,7 @@ An array of INT4 values (32 bit).
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> characters (16 bit).
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> characters (16 bit).
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ An array of INT4 values (32 bit).
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -205,7 +205,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/5515c25e-f788-4222-8f66-f5d86bd2a3a3">ICertEncodeStringArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
  
 
  

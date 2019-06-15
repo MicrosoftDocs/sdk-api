@@ -54,7 +54,7 @@ Exposes methods to create Explorer commands and command enumerators.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerCommandProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IExplorerCommandProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerCommandProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerCommandProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExplorerCommandProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ef1fb9d-03ed-4e1a-bc13-9f5caab2abb9">GetCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandprovider-getcommand">GetCommand</a>
 </td>
 <td align="left" width="63%">
 Gets a specified Explorer command instance.
@@ -78,7 +78,7 @@ Gets a specified Explorer command instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df300219-e717-4f79-8996-62726092c3c7">GetCommands</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandprovider-getcommands">GetCommands</a>
 </td>
 <td align="left" width="63%">
 Gets a specified Explorer command enumerator instance.

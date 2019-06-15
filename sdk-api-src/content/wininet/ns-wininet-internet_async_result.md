@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains the result of a call to an asynchronous function. This structure is used with 
-<a href="https://msdn.microsoft.com/a054fb71-66ab-46fd-be19-2237f05662bc">InternetStatusCallback</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nc-wininet-internet_status_callback">InternetStatusCallback</a>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains the result of a call to an asynchronous function. This structure is use
 ### -field dwResult
 
 Result. This parameter can be an 
-<a href="https://msdn.microsoft.com/8a9788ed-eb25-42cb-b912-8dffa3df1850">HINTERNET</a> handle, unsigned long integer, or Boolean return code from an asynchronous function. 
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle, unsigned long integer, or Boolean return code from an asynchronous function. 
 
 
 ### -field dwError
@@ -90,7 +90,7 @@ The value of
 <tr>
 <td>INTERNET_STATUS_HANDLE_CREATED</td>
 <td>Pointer to the 
-<a href="https://msdn.microsoft.com/8a9788ed-eb25-42cb-b912-8dffa3df1850">HINTERNET</a> handle</td>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle</td>
 </tr>
 <tr>
 <td>INTERNET_STATUS_REQUEST_COMPLETE</td>
@@ -99,7 +99,7 @@ The value of
 </table>
  
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -109,7 +109,7 @@ The value of
 
 
 
-<a href="https://msdn.microsoft.com/4b8ade00-deb3-4d9f-9ceb-5ba3296c8c68"> Asynchronous Operation</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/asynchronous-operation"> Asynchronous Operation</a>
  
 
  

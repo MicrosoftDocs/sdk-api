@@ -54,7 +54,7 @@ Describes a 3D vector with X and Y components stored as 11 bit floating point nu
     
 
 For a list of additional functionality, such as constructors and operators, available using
-	<code>XMFLOAT3PK</code> when programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415283(v=VS.85).aspx">XMFLOAT3PK Extensions</a>.
+	<code>XMFLOAT3PK</code> when programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3pk-extensions">XMFLOAT3PK Extensions</a>.
 
 
 ## -struct-fields
@@ -212,10 +212,10 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 
 </li>
 </ul>
-<code>XMFLOAT3PK</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3pk">XMLoadFloat3PK</a>.
+<code>XMFLOAT3PK</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3pk">XMLoadFloat3PK</a>.
 
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3PK</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420336(v=VS.85).aspx">XMStoreFloat3PK</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3PK</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3pk">XMStoreFloat3PK</a>.
 
 
 MIN_F10 / MIN_F11 = 6.10352e-5
@@ -237,11 +237,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415283(v=VS.85).aspx">XMFLOAT3PK Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3pk-extensions">XMFLOAT3PK Extensions</a>
  
 
  

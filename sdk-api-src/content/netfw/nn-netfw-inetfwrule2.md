@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>INetFwRule2</b> interface allows an application or service to access all the properties of <a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a> as well as the four edge properties of a firewall rule specified by <a href="https://msdn.microsoft.com/69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
+The <b>INetFwRule2</b> interface allows an application or service to access all the properties of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> as well as the four edge properties of a firewall rule specified by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_edge_traversal_type_">NET_FW_EDGE_TRAVERSAL_TYPE</a>.
 
 
 ## -see-also
@@ -57,11 +57,11 @@ The <b>INetFwRule2</b> interface allows an application or service to access all 
 
 
 
-<a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb">NET_FW_EDGE_TRAVERSAL_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_edge_traversal_type_">NET_FW_EDGE_TRAVERSAL_TYPE</a>
  
 
  

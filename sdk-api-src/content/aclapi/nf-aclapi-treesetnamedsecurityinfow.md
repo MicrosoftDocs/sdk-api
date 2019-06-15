@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TreeSetNamedSecurityInfo</b> function sets specified security information in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> of a specified tree of objects. This function allows a specified  <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) or any elements in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) to be propagated throughout an entire tree. This function supports a callback function to track the progress of the tree operation.
+The <b>TreeSetNamedSecurityInfo</b> function sets specified security information in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a specified tree of objects. This function allows a specified  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) or any elements in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) to be propagated throughout an entire tree. This function supports a callback function to track the progress of the tree operation.
 
 
 ## -parameters
@@ -62,34 +62,34 @@ The <b>TreeSetNamedSecurityInfo</b> function sets specified security information
 ### -param pObjectName [in]
 
 			Pointer to a <b>null</b>-terminated string that specifies the name of the root node object for the objects  that are to receive updated security information. Supported objects are registry keys and file objects. For descriptions of the string formats for the different object types, see 
-<a href="https://msdn.microsoft.com/1dee5e3d-0d41-4717-811b-7e05b4deb55f">SE_OBJECT_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>.
 
 
 ### -param ObjectType [in]
 
-A value of the <a href="https://msdn.microsoft.com/1dee5e3d-0d41-4717-811b-7e05b4deb55f">SE_OBJECT_TYPE</a>  enumeration  that indicates the type of object named by the <i>pObjectName</i> parameter. The supported values are SE_REGISTRY_KEY and SE_FILE_OBJECT, for registry keys and file objects, respectively. 
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_se_object_type">SE_OBJECT_TYPE</a>  enumeration  that indicates the type of object named by the <i>pObjectName</i> parameter. The supported values are SE_REGISTRY_KEY and SE_FILE_OBJECT, for registry keys and file objects, respectively. 
 
 
 ### -param SecurityInfo [in]
 
 A set of 
 bit flags that indicate the type of security information to set. This parameter can be a combination of the 
-<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> bit flags.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
 
 ### -param pOwner [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that identifies the owner of the object. The SID must be one that can be assigned as the owner SID of a security descriptor. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the owner SID, this parameter can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the owner of the object. The SID must be one that can be assigned as the owner SID of a security descriptor. The <i>SecurityInfo</i> parameter must include the OWNER_SECURITY_INFORMATION flag. To set the owner, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the owner SID, this parameter can be <b>NULL</b>.
 
 
 ### -param pGroup [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that identifies the primary group of the object. The <i>SecurityInfo</i> parameter must include the GROUP_SECURITY_INFORMATION flag.  To set the group, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the primary group SID, this parameter can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the primary group of the object. The <i>SecurityInfo</i> parameter must include the GROUP_SECURITY_INFORMATION flag.  To set the group, the caller must have WRITE_OWNER access to each object, including the root object. If you are not setting the primary group SID, this parameter can be <b>NULL</b>.
 
 
 ### -param pDacl [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL) structure that represents the new DACL for the objects being reset. The <i>SecurityInfo</i> parameter must include the DACL_SECURITY_INFORMATION flag. The caller must have READ_CONTROL and WRITE_DAC access to each  object, including the root object. If you are not setting the DACL, this parameter can be <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) structure that represents the new DACL for the objects being reset. The <i>SecurityInfo</i> parameter must include the DACL_SECURITY_INFORMATION flag. The caller must have READ_CONTROL and WRITE_DAC access to each  object, including the root object. If you are not setting the DACL, this parameter can be <b>NULL</b>.
 
 
 ### -param pSacl [in, optional]
@@ -176,7 +176,7 @@ If no progress function is to be used, set this parameter to <b>NULL</b>.
 
 ### -param ProgressInvokeSetting [in]
 
-A value of the <a href="https://msdn.microsoft.com/3eee30d6-7d9d-468f-b6ba-e172da523169">PROG_INVOKE_SETTING</a> enumeration that specifies the initial setting for the progress function.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_progress_invoke_setting">PROG_INVOKE_SETTING</a> enumeration that specifies the initial setting for the progress function.
 
 
 ### -param Args [in, optional]
@@ -203,13 +203,13 @@ Setting a <b>NULL</b> owner, group, DACL, or SACL is not supported by this funct
 
 If the caller does not contain the proper privileges and permissions to support the requested owner, group, DACL, and SACL updates, then none of the updates is performed.
 
-This function provides the same functionality as the <a href="https://msdn.microsoft.com/70fbba50-2576-4857-a955-119fb12bf7b6">SetNamedSecurityInfo</a> function when the value of the <i>dwAction</i> parameter is set to <b>TREE_SEC_INFO_SET</b>, the value of the <i>ProgressInvokeSetting</i> parameter is set to <b>ProgressInvokePrePostError</b>, and the function pointed to by the <i>fnProgress</i> parameter sets the value of its <i>pInvokeSetting</i> parameter to <b>ProgressInvokePrePostError</b>.
+This function provides the same functionality as the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> function when the value of the <i>dwAction</i> parameter is set to <b>TREE_SEC_INFO_SET</b>, the value of the <i>ProgressInvokeSetting</i> parameter is set to <b>ProgressInvokePrePostError</b>, and the function pointed to by the <i>fnProgress</i> parameter sets the value of its <i>pInvokeSetting</i> parameter to <b>ProgressInvokePrePostError</b>.
 
-This function is similar to the <a href="https://msdn.microsoft.com/adae7d07-a452-409e-b1a1-e9f86f873e39">TreeResetNamedSecurityInfo</a> function:
+This function is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treeresetnamedsecurityinfoa">TreeResetNamedSecurityInfo</a> function:
 
 <ul>
-<li>If the <i>dwAction</i> parameter of <b>TreeSetNamedSecurityInfo</b> is set to TREE_SEC_INFO_RESET_KEEP_EXPLICIT, then the function is equivalent to <a href="https://msdn.microsoft.com/adae7d07-a452-409e-b1a1-e9f86f873e39">TreeResetNamedSecurityInfo</a> with the <i>KeepExplicit</i> parameter set to <b>TRUE</b>.</li>
-<li>If the <i>dwAction</i> parameter of <b>TreeSetNamedSecurityInfo</b> is set to TREE_SEC_INFO_RESET, then the function is equivalent to <a href="https://msdn.microsoft.com/adae7d07-a452-409e-b1a1-e9f86f873e39">TreeResetNamedSecurityInfo</a> with the <i>KeepExplicit</i> parameter set to <b>FALSE</b>.</li>
+<li>If the <i>dwAction</i> parameter of <b>TreeSetNamedSecurityInfo</b> is set to TREE_SEC_INFO_RESET_KEEP_EXPLICIT, then the function is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treeresetnamedsecurityinfoa">TreeResetNamedSecurityInfo</a> with the <i>KeepExplicit</i> parameter set to <b>TRUE</b>.</li>
+<li>If the <i>dwAction</i> parameter of <b>TreeSetNamedSecurityInfo</b> is set to TREE_SEC_INFO_RESET, then the function is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-treeresetnamedsecurityinfoa">TreeResetNamedSecurityInfo</a> with the <i>KeepExplicit</i> parameter set to <b>FALSE</b>.</li>
 </ul>
 
 

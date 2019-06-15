@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtCreateDerivedKey</b> function creates a key that can be utilized by <a href="https://msdn.microsoft.com/9aa1ee16-648d-4769-a464-4659dea14dba">DrtRegisterKey</a> when the DRT is using a derived key security provider.
+The <b>DrtCreateDerivedKey</b> function creates a key that can be utilized by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> when the DRT is using a derived key security provider.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DrtCreateDerivedKey</b> function creates a key that can be utilized by <a
 
 ### -param pLocalCert [in]
 
-Pointer to the certificate that is the "local" portion of the chain.  The root of this chain must match the root specified by <i>pRootCert</i> in <a href="https://msdn.microsoft.com/e4cc8326-e2bc-459f-97dd-a00cfd1ed35e">DrtCreateDerivedKeySecurityProvider</a>. This certificate is used to generate a key that is used to register and prove "key ownership" with the DRT.
+Pointer to the certificate that is the "local" portion of the chain.  The root of this chain must match the root specified by <i>pRootCert</i> in <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>. This certificate is used to generate a key that is used to register and prove "key ownership" with the DRT.
 
 
 ### -param pKey [out]
@@ -93,8 +93,8 @@ This function returns S_OK on success. Other possible values include:
 <ul>
 <li><i>pLocalCert</i> is <b>NULL</b>.</li>
 <li><i>pKey</i> is <b>NULL</b>.</li>
-<li>The <b>pb</b> member in the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure  is <b>NULL</b>.</li>
-<li>The <b>cb</b> member in the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure is not equal to 32 bytes.</li>
+<li>The <b>pb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure  is <b>NULL</b>.</li>
+<li>The <b>cb</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure is not equal to 32 bytes.</li>
 </ul>
 </td>
 </tr>
@@ -107,7 +107,7 @@ This function returns S_OK on success. Other possible values include:
 <td width="60%">
 <ul>
 <li>The requested security algorithms are not available ( ie. BCRYPT_SHA256_ALGORITHM or  BCRYPT_AES_ALGORITHM).</li>
-<li>The <a href="https://msdn.microsoft.com/aceba9c0-19e6-4f3c-972a-752feed4a9f8">BCryptOpenAlgorithmProvider</a> operation failed.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> operation failed.</li>
 <li>The <i>dwProvType</i> parameter  indicates that the certificate provider is not AES capable.</li>
 </ul>
 </td>
@@ -123,15 +123,15 @@ This function returns S_OK on success. Other possible values include:
 
 
 
-<a href="https://msdn.microsoft.com/e4cc8326-e2bc-459f-97dd-a00cfd1ed35e">DrtCreateDerivedKeySecurityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatederivedkeysecurityprovider">DrtCreateDerivedKeySecurityProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/89b2bbe6-51a3-48fc-85c9-13e1b0cfd880">DrtDeleteDerivedKeySecurityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletederivedkeysecurityprovider">DrtDeleteDerivedKeySecurityProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa1ee16-648d-4769-a464-4659dea14dba">DrtRegisterKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
  
 
  

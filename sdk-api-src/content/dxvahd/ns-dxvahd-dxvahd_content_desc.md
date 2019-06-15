@@ -61,12 +61,12 @@ The display driver can use the information in this structure to optimize the cap
 
 ### -field InputFrameFormat
 
-A member of the <a href="https://msdn.microsoft.com/fc720dd3-e9c1-4b92-ac09-8e53cff44bec">DXVAHD_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-_dxvahd_frame_format">DXVAHD_FRAME_FORMAT</a> enumeration that describes how the video stream is interlaced.
 
 
 ### -field InputFrameRate
 
-The frame rate of the input video stream, specified as a <a href="https://msdn.microsoft.com/8064820e-533e-4b40-8eeb-e3ad6a6b1ff7">DXVAHD_RATIONAL</a> structure.
+The frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_rational">DXVAHD_RATIONAL</a> structure.
 
 
 ### -field InputWidth
@@ -81,7 +81,7 @@ The height of the input frames, in pixels.
 
 ### -field OutputFrameRate
 
-The frame rate of the output video stream, specified as a <a href="https://msdn.microsoft.com/8064820e-533e-4b40-8eeb-e3ad6a6b1ff7">DXVAHD_RATIONAL</a> structure.
+The frame rate of the output video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_rational">DXVAHD_RATIONAL</a> structure.
 
 
 ### -field OutputWidth
@@ -111,15 +111,15 @@ Frame rates are expressed as ratios. For example, 30 frames per second (fps) is 
 
 
 
-<a href="https://msdn.microsoft.com/38ebec28-c4fc-4e72-ac87-1e41707d1908">DXVA-HD</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://msdn.microsoft.com/584c087e-53f0-42d8-99ed-a0d013379363">Direct3D Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

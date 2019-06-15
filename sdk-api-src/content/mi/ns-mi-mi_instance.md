@@ -60,7 +60,7 @@ This structure represents a CIM instance. This object should not be accessed dir
 
 ### -field ft
 
-Pointer to the <a href="https://msdn.microsoft.com/a8cd93b7-c9e0-415e-811a-33826e38417f">MI_InstanceFT</a> function table.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instanceft">MI_InstanceFT</a> function table.
 
 
 ### -field classDecl

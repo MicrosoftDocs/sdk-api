@@ -72,7 +72,7 @@ An instance handle to the module from which the AVI resource should be loaded.
 
 Type: <b>UINT</b>
 
-An AVI resource identifier. To create this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. The control loads the AVI resource from the module specified by <i>hInstAnimation</i>.
+An AVI resource identifier. To create this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. The control loads the AVI resource from the module specified by <i>hInstAnimation</i>.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. In Windows Vist
 
 <b>IProgressDialog::SetAnimation</b> cannot be called before the progress dialog is visible. Until it is displayed, the progress dialog does not have a valid HWND. The existance of that HWND can be used to determine whether <b>IProgressDialog::SetAnimation</b> can be called.
 
-This method takes the instance handle specified by <i>hInstAnimation</i> and uses an <a href="https://msdn.microsoft.com/en-us/library/Bb761884(v=VS.85).aspx">animation control</a> to open and run a silent AVI clip. There are several restrictions as to what types of AVI clips can be used, including the following:
+This method takes the instance handle specified by <i>hInstAnimation</i> and uses an <a href="https://docs.microsoft.com/windows/desktop/Controls/animation-control-overview">animation control</a> to open and run a silent AVI clip. There are several restrictions as to what types of AVI clips can be used, including the following:
 
 				
 
@@ -109,7 +109,7 @@ This method takes the instance handle specified by <i>hInstAnimation</i> and use
 
 
 
-<a href="https://msdn.microsoft.com/ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb">IProgressDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
  
 
  

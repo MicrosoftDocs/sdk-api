@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>X509RequestInheritOptions</b> enumeration type specifies how keys, extension values, and external properties are inherited when a new request is created from an existing <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>. This enumeration can be used to initialize an <a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a> or an <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a> object from an existing certificate.
+The <b>X509RequestInheritOptions</b> enumeration type specifies how keys, extension values, and external properties are inherited when a new request is created from an existing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>. This enumeration can be used to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> or an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> object from an existing certificate.
 
 You can choose one of the following values to specify how keys are inherited:<ul>
 <li><b>InheritNewDefaultKey</b></li>
@@ -74,12 +74,12 @@ You can choose one of the following values to specify how keys are inherited:<ul
 
 ### -field InheritDefault
 
-Inheritance is not specified. For more information, see the  <a href="https://msdn.microsoft.com/3f390abc-5c1c-4f9c-a5f4-4d6fec065acf">InitializeFromCertificate</a> method on the <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a> interface.
+Inheritance is not specified. For more information, see the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate">InitializeFromCertificate</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface.
 
 
 ### -field InheritNewDefaultKey
 
-Creates a new key but inherits the default <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) or KSP.
+Creates a new key but inherits the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) or KSP.
 
 
 ### -field InheritNewSimilarKey
@@ -89,7 +89,7 @@ Creates a new key but inherits the CSP or KSP used to create the existing certif
 
 ### -field InheritPrivateKey
 
-Inherits the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private</a> and <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public keys</a>.
+Inherits the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public keys</a>.
 
 
 ### -field InheritPublicKey
@@ -117,12 +117,12 @@ Prevents use of the following inheritance values:
 
 ### -field InheritRenewalCertificateFlag
 
-Inherits the renewal certificate. Specifying this flag sets an <a href="https://msdn.microsoft.com/c87a391a-aec9-4b42-8084-c593ecbb0bc6">ICertPropertyRenewal</a> value.
+Inherits the renewal certificate. Specifying this flag sets an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a> value.
 
 
 ### -field InheritTemplateFlag
 
-Inherits the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate template</a>.
+Inherits the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate template</a>.
 
 
 ### -field InheritSubjectFlag
@@ -132,7 +132,7 @@ Inherits the subject distinguished name.
 
 ### -field InheritExtensionsFlag
 
-Inherits the relevant extensions from the certificate. Extension values associated with the following <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> are not inherited:
+Inherits the relevant extensions from the certificate. Extension values associated with the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> are not inherited:
 
 <ul>
 <li>XCN_OID_CERTSRV_CA_VERSION</li>
@@ -164,19 +164,19 @@ Inherits the validity period.
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
  
 
  

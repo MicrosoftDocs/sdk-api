@@ -60,13 +60,13 @@ Used to indicate that the reader should interpret the bytes it reads as textual 
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/54d9683e-c2d1-4e18-92a2-a68558999e28">WS_XML_READER_ENCODING</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_encoding">WS_XML_READER_ENCODING</a>.
         
 
 
 ### -field charSet
 
-Indicates the text encoding of the bytes.  If <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a> is specified then the reader will
+Indicates the text encoding of the bytes.  If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> is specified then the reader will
           determine the encoding of the document based on the first few bytes of the document.  If an xml declaration
           is present in the document, the reader will ensure that the encoding attribute coincides with this value.
         

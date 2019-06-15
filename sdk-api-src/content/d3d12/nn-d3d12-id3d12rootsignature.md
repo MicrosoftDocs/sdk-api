@@ -57,15 +57,15 @@ The root signature defines what resources are bound to the graphics pipeline. A 
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/EE32A222-8469-4AF5-B688-AFA70CF77C6A">Root Signatures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signatures">Root Signatures</a>
  
 
  

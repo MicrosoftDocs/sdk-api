@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the style of a button. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761824(v=VS.85).aspx">BM_SETSTYLE</a> message explicitly. 
+Sets the style of a button. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setstyle">BM_SETSTYLE</a> message explicitly. 
 
 
 
@@ -60,21 +60,21 @@ Sets the style of a button. You can use this macro or send the <a href="https://
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 
 ### -param style
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The button style. This parameter can be a combination of button styles. For a table of button styles, see <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>. 
+The button style. This parameter can be a combination of button styles. For a table of button styles, see <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">Button Styles</a>. 
 
 
 ### -param fRedraw
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to redraw the button; otherwise <b>FALSE</b>.
 

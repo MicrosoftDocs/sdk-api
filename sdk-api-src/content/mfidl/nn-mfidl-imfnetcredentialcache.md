@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 Gets credentials from the credential cache.
 
-This interface is implemented by the credential cache object. Applications that implement the <a href="https://msdn.microsoft.com/002d8608-4ef9-40fd-8dcc-fe6ade34478e">IMFNetCredentialManager</a> interface can use this object to store the user's credentials. To create the credential cache object, call <a href="https://msdn.microsoft.com/ec27f54a-4534-4342-856b-f6f55c5a7fdb">MFCreateCredentialCache</a>.
+This interface is implemented by the credential cache object. Applications that implement the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialmanager">IMFNetCredentialManager</a> interface can use this object to store the user's credentials. To create the credential cache object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatecredentialcache">MFCreateCredentialCache</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCredentialCache</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFNetCredentialCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetCredentialCache</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetCredentialCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFNetCredentialCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e095445-354a-4fbb-b354-bf87eb77552f">GetCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-getcredential">GetCredential</a>
 </td>
 <td align="left" width="63%">
 Gets the credential object for the specified URL.
@@ -81,7 +81,7 @@ Gets the credential object for the specified URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2e9d87a-6238-49a0-9a19-fe213749d627">SetGood</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-setgood">SetGood</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the credential object provided successfully passed the authentication challenge.
@@ -90,7 +90,7 @@ Specifies whether the credential object provided successfully passed the authent
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/024eea57-e7c8-495d-9959-ab37dd45873d">SetUserOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-setuseroptions">SetUserOptions</a>
 </td>
 <td align="left" width="63%">
 Specifies how user credentials are persisted.
@@ -105,11 +105,11 @@ Specifies how user credentials are persisted.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/bffc33ec-0fb0-4bbe-9bac-583b9d4e1153">Network Source Authentication</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
  
 
  

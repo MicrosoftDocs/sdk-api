@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/en-us/library/Ee419959(v=VS.85).aspx">XMMATRIX</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a>.
+Stores an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> in an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>.
 
 
 ## -parameters
@@ -81,8 +81,8 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419511(v=VS.85).aspx">XMFLOAT3X3</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be 
-    transposed via <a href="https://msdn.microsoft.com/en-us/library/Ee420022(v=VS.85).aspx">XMMatrixTranpose</a> before calling the store function.
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> is a row-major matrix form. To write out column-major data requires the XMMATRIX be 
+    transposed via <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmmatrixtranspose">XMMatrixTranpose</a> before calling the store function.
 
 This function takes a matrix and writes the components out to nine single-precision floating-point values at the given
     address. The most significant component of the first row vector is written to the first four bytes of the address,
@@ -119,7 +119,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0e7b66bd-bdb0-956d-2962-b33ae52b3016">DirectXMath Library Vector Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
  
 
  

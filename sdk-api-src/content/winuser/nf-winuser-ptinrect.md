@@ -67,7 +67,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param pt [in]
 
-A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the specified point.
+A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the specified point.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-d237247d1bd7">Using Rectangles</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
 
 <div class="code"></div>
 
@@ -103,15 +103,15 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/00763184-6b60-4095-b71e-5a851c2643aa">EqualRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-equalrect">EqualRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/9deeed4f-304e-47a3-8259-ed7bc3815fd7">IsRectEmpty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isrectempty">IsRectEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -119,11 +119,11 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/b03da8c9-ee6d-4045-8d90-8beceb09ead5">Rectangle Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/23c251d1-b8c5-425f-b2b3-44954cf653e9">Rectangles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
  
 
  

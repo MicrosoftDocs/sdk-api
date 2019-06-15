@@ -120,15 +120,15 @@ Currently, the only valid value for the <i>bstrValueName</i> parameter is "Addre
 
 
 
-<a href="https://msdn.microsoft.com/4cbfaa8c-80f1-49c6-91aa-17764559da8b">GetGuidValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getguidvalue">GetGuidValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3b0dcd2-2195-4e09-aac4-073a3d848fa9">GetStringValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getstringvalue">GetStringValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/32e246cd-50eb-4221-8166-a7cd8ed42d69">IUPnPRemoteEndpointInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpremoteendpointinfo">IUPnPRemoteEndpointInfo</a>
  
 
  

@@ -69,7 +69,7 @@ The preferred prefix to be used in XML prefix mappings.
 
 ### -field Names
 
-Reference to an array of <a href="https://msdn.microsoft.com/9dce71d2-700c-4f86-9308-dee6a69010bb">WSDXML_NAME</a> structures that specify the names in the namespace.
+Reference to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structures that specify the names in the namespace.
 
 
 ### -field NamesCount

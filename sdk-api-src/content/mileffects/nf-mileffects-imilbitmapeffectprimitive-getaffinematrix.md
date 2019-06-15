@@ -66,7 +66,7 @@ A zero based index value indicating the output pin through which to retrieve the
 
 ### -param pMatrix [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735227(v=VS.85).aspx">MIL_MATRIX3X2D</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/ns-mileffects-milmatrix3x2d">MIL_MATRIX3X2D</a>*</b>
 
 When this method returns, contains a pointer to the affine matrix describing the effects transform.
 

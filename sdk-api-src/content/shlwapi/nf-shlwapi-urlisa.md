@@ -110,7 +110,7 @@ Is the URL a URL that is not typically tracked in navigation history?
 
 #### URLIS_OPAQUE
 
-Is the URL <a href="https://msdn.microsoft.com/460f4d41-2796-496d-9199-f2d1cd6e4a24">opaque</a>?
+Is the URL <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">opaque</a>?
 
 
 
@@ -139,15 +139,15 @@ If <i>UrlIs</i> is set to <b>URLIS_APPLIABLE</b>, <b>UrlIs</b> will attempt to d
 
 
 
-<a href="https://msdn.microsoft.com/b122d3e4-47cc-47c0-a30c-6f9d1aa9d174">UrlIsFileUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisfileurla">UrlIsFileUrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/7602d2ef-1f21-4b2f-8ac9-195bb21d6ae7">UrlIsNoHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisnohistorya">UrlIsNoHistory</a>
 
 
 
-<a href="https://msdn.microsoft.com/460f4d41-2796-496d-9199-f2d1cd6e4a24">UrlIsOpaque</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">UrlIsOpaque</a>
  
 
  

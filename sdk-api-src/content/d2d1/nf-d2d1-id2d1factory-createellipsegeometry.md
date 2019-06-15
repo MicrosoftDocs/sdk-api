@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<span>Creates an <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a>.
+<span>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>.
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -57,19 +57,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0abbb99e-a253-44f3-90bf-0ac341e7c83d">CreateEllipseGeometry(D2D1_ELLIPSE&,ID2D1EllipseGeometry**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createellipsegeometry(constd2d1_ellipse__id2d1ellipsegeometry)">CreateEllipseGeometry(D2D1_ELLIPSE&,ID2D1EllipseGeometry**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c656119-b410-4269-85d0-5f0e5f430b7a">CreateEllipseGeometry(D2D1_ELLIPSE*,ID2D1EllipseGeometry**)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371265(v=vs.85)">CreateEllipseGeometry(D2D1_ELLIPSE*,ID2D1EllipseGeometry**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Creates an <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d8
 
 
 
-<a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

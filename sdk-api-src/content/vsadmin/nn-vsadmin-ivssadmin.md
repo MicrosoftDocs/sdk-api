@@ -55,7 +55,7 @@ The <b>IVssAdmin</b> interface manages providers registered
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssAdmin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVssAdmin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssAdmin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssAdmin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVssAdmin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64feae8f-c627-45b5-a3bc-0c47e9f8a4cb">AbortAllSnapshotsInProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-abortallsnapshotsinprogress">AbortAllSnapshotsInProgress</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.
@@ -79,7 +79,7 @@ Reserved for system use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1267b715-dc2e-47a2-88f1-5c03b5fb5415">QueryProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-queryproviders">QueryProviders</a>
 </td>
 <td align="left" width="63%">
 Queries all registered providers.
@@ -88,7 +88,7 @@ Queries all registered providers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c17aee22-3afc-4ac5-a0c5-3fa1164ceee0">RegisterProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-registerprovider">RegisterProvider</a>
 </td>
 <td align="left" width="63%">
 Registers a new shadow copy provider.
@@ -97,7 +97,7 @@ Registers a new shadow copy provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d31ed47f-6850-4f4b-aea2-5171722db7db">UnregisterProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a>
 </td>
 <td align="left" width="63%">
 Unregisters an existing provider.
@@ -112,7 +112,7 @@ Unregisters an existing provider.
 
 
 
-<a href="https://msdn.microsoft.com/3a0c60df-666c-4e33-a54c-7fa5ddbfde13">Volume Shadow Copy API Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
  
 
  

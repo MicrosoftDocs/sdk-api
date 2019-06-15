@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies an <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a> of a property change.
+Notifies an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectprimitive">IMILBitmapEffectPrimitive</a> of a property change.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Notifies an <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a>*</b>
 
 The effect primitive to notify.
 

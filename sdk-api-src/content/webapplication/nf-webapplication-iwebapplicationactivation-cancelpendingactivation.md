@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/51127F64-2FE1-49F9-9E68-E38F4DDB8D1B">IWebApplicationActivation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationactivation">IWebApplicationActivation</a>
  
 
  

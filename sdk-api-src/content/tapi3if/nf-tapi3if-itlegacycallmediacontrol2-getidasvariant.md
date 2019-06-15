@@ -53,7 +53,7 @@ The
 <b>GetIDAsVariant</b> method gets the identifier for the device associated with the current call.
 
 This method is intended for Visual Basic and scripting applications.  C/C++ applications should use the 
-<a href="https://msdn.microsoft.com/7516f929-d782-499b-a9fb-24c44a85aa9e">ITLegacyCallMediaControl::GetID</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-getid">ITLegacyCallMediaControl::GetID</a> method.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ This method is intended for Visual Basic and scripting applications.  C/C++ appl
 ### -param bstrDeviceClass [in]
 
 <b>BSTR</b> representing the 
-<a href="https://msdn.microsoft.com/859979a8-0d16-4b7b-b183-d6e30f3e034d">TAPI device class</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">TAPI device class</a>.
 
 
 ### -param pVarDeviceID [out]
@@ -127,15 +127,15 @@ The <i>pVarDeviceID</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/5f3d0189-fc9d-4fa5-bc8e-a0abf1f607f8">ITLegacyAddressMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/47fa5669-1c74-4c18-8370-3efe35b3573e">ITLegacyCallMediaControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7516f929-d782-499b-a9fb-24c44a85aa9e">ITLegacyCallMediaControl::GetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-getid">ITLegacyCallMediaControl::GetID</a>
  
 
  

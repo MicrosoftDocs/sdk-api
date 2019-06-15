@@ -80,7 +80,7 @@ Returns an <b>HRESULT</b>. Possible values include those in the following table.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/10678f33-2117-4add-8e4b-7b4d4eed11a9">StreamBufferConfig</a> object was not initialized.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object was not initialized.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-Before calling this method, call <a href="https://msdn.microsoft.com/f8d85180-2575-4525-9b8a-bec354e2cd4c">IStreamBufferInitialize::SetHKEY</a> to specify a registry key where the information will be stored.
+Before calling this method, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferinitialize-sethkey">IStreamBufferInitialize::SetHKEY</a> to specify a registry key where the information will be stored.
 
 
 
@@ -115,7 +115,7 @@ Before calling this method, call <a href="https://msdn.microsoft.com/f8d85180-25
 
 
 
-<a href="https://msdn.microsoft.com/8874fefd-2241-4b04-a7d5-191e13743fa0">IStreamBufferConfigure Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure">IStreamBufferConfigure Interface</a>
  
 
  

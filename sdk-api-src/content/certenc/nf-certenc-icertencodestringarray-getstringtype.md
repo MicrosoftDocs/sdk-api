@@ -70,7 +70,7 @@ A pointer to a <b>Long</b> that  represents the string type. For a list of strin
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value indicates the type of strings in the string array. For a list of string types, see Remarks.
@@ -131,7 +131,7 @@ The following table lists the types of strings that the string array can  contai
 </tr>
 <tr>
 <td>CERT_RDN_UNICODE_STRING</td>
-<td><a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> characters (16 bit).</td>
+<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> characters (16 bit).</td>
 </tr>
 </table>
  
@@ -139,7 +139,7 @@ The following table lists the types of strings that the string array can  contai
 
 #### Examples
 
-For an example that uses the <b>GetStringType</b> method, see the <a href="https://msdn.microsoft.com/d8fc51ea-4d83-402a-a4ac-ce55d385905c">ICertEncodeStringArray::Encode</a> method.
+For an example that uses the <b>GetStringType</b> method, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-encode">ICertEncodeStringArray::Encode</a> method.
 
 <div class="code"></div>
 
@@ -150,11 +150,11 @@ For an example that uses the <b>GetStringType</b> method, see the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/5515c25e-f788-4222-8f66-f5d86bd2a3a3">ICertEncodeStringArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/125524ae-236d-4507-9c00-76a016bf6c62">ICertEncodeStringArray::Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-reset">ICertEncodeStringArray::Reset</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters an event handler for the <a href="https://msdn.microsoft.com/D1F04FA5-895E-4E86-9643-E880388DCDED">ConnectionStatusChanged</a> event.
+Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Unregisters an event handler for the <a href="https://msdn.microsoft.com/D1F04FA
 
 ### -param token [in]
 
-A reference to a token obtained from the <a href="https://msdn.microsoft.com/1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399">add_ConnectionStatusChanged</a> method when the event handler was registered.
+A reference to a token obtained from the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-add-connectionstatuschanged">add_ConnectionStatusChanged</a> method when the event handler was registered.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/E4F99A11-4ED5-44CB-BE16-CBB558412ED4">IBasicDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
  
 
  

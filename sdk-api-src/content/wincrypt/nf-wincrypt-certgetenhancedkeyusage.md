@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertGetEnhancedKeyUsage</b> function returns information from the <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">enhanced key usage</a> (EKU) extension or the EKU extended property of a certificate. EKUs indicate valid uses of the certificate.
+The <b>CertGetEnhancedKeyUsage</b> function returns information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> (EKU) extension or the EKU extended property of a certificate. EKUs indicate valid uses of the certificate.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertGetEnhancedKeyUsage</b> function returns information from the <a href
 ### -param pCertContext [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> certificate context.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> certificate context.
 
 
 ### -param dwFlags [in]
@@ -103,13 +103,13 @@ Get only the extended property value.
 
 ### -param pUsage [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/70ee138a-df94-4fc4-9de5-0d8b7704b890">CERT_ENHKEY_USAGE</a> structure (<b>CERT_ENHKEY_USAGE</b> is an alternate typedef name for the <b>CTL_USAGE</b> structure) that receives the valid uses of the certificate. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure (<b>CERT_ENHKEY_USAGE</b> is an alternate typedef name for the <b>CTL_USAGE</b> structure) that receives the valid uses of the certificate. 
 
 
 
 
 This parameter can be <b>NULL</b> to set the size of the key usage for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbUsage [in, out]
@@ -132,7 +132,7 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-If a certificate has an EKU extension, that extension lists <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) for valid uses of that certificate. In a Microsoft environment, a certificate might also have EKU extended properties that specify valid uses for the certificate.
+If a certificate has an EKU extension, that extension lists <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for valid uses of that certificate. In a Microsoft environment, a certificate might also have EKU extended properties that specify valid uses for the certificate.
 
 <ul>
 <li>If a certificate has neither an EKU extension nor EKU extended properties, it is assumed to be valid for all uses.</li>
@@ -141,7 +141,7 @@ If a certificate has an EKU extension, that extension lists <a href="https://msd
 </ul>
 If <i>dwFlags</i> is set to zero, the <b>cUsageIdentifier</b> member of the <b>CERT_ENHKEY_USAGE</b> structure is set to the number of valid uses of the certificate determined by the value of both the EKU extension and the EKU extended property value.
 
-If the <b>cUsageIdentifier</b> member is zero, the certificate might be valid for all uses or the certificate might have no valid uses. The return from a call to <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can be used to determine whether the certificate is good for all uses or for none. If <b>GetLastError</b> returns CRYPT_E_NOT_FOUND, the certificate is good for all uses. If it returns zero, the certificate has no valid uses.
+If the <b>cUsageIdentifier</b> member is zero, the certificate might be valid for all uses or the certificate might have no valid uses. The return from a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can be used to determine whether the certificate is good for all uses or for none. If <b>GetLastError</b> returns CRYPT_E_NOT_FOUND, the certificate is good for all uses. If it returns zero, the certificate has no valid uses.
 
 
 
@@ -151,11 +151,11 @@ If the <b>cUsageIdentifier</b> member is zero, the certificate might be valid fo
 
 
 
-<a href="https://msdn.microsoft.com/423b0232-846e-4e40-bc42-d30c48c548da">CertSetEnhancedKeyUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetenhancedkeyusage">CertSetEnhancedKeyUsage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Enhanced Key Usage Functions</a>
  
 
  

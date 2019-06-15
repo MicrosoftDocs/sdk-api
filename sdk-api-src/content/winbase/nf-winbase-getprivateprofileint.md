@@ -108,7 +108,7 @@ The
 <b>GetPrivateProfileInt</b> function is not case-sensitive; the strings in <i>lpAppName</i> and <i>lpKeyName</i> can be a combination of uppercase and lowercase letters.
 
 An application can use the 
-<a href="https://msdn.microsoft.com/1da809c7-6c15-4d91-93fe-8e9e71f6c5ad">GetProfileInt</a> function to retrieve an integer value from the Win.ini file.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofileinta">GetProfileInt</a> function to retrieve an integer value from the Win.ini file.
 
 The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows NT</b>\<b>CurrentVersion</b>\<b>IniFileMapping</b>
 
@@ -144,11 +144,11 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
-<a href="https://msdn.microsoft.com/1da809c7-6c15-4d91-93fe-8e9e71f6c5ad">GetProfileInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofileinta">GetProfileInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0799092-c6c1-4800-a17a-fcf744b1228f">WritePrivateProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
  
 
  

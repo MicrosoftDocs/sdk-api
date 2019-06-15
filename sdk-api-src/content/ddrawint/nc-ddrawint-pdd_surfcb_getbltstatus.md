@@ -68,7 +68,7 @@ The <b>DdGetBltStatus</b> callback function queries the blit status of the speci
 
 #### - lpGetBltStatus
 
-Points to a <a href="https://msdn.microsoft.com/16b0cac9-af8c-4106-b74e-6c9ada543851">DD_GETBLTSTATUSDATA</a> structure that contains the information required to perform the blit status query.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getbltstatusdata">DD_GETBLTSTATUSDATA</a> structure that contains the information required to perform the blit status query.
 
 
 ## -returns
@@ -104,11 +104,11 @@ If the flag is DDGBS_ISBLTDONE, the driver should set <b>ddRVal</b> to DDERR_WAS
 
 
 
-<a href="https://msdn.microsoft.com/16b0cac9-af8c-4106-b74e-6c9ada543851">DD_GETBLTSTATUSDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getbltstatusdata">DD_GETBLTSTATUSDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/28e0c827-33f1-4b83-9f20-bbb66bc0e14a">DdBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
  
 
  

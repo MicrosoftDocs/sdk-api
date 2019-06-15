@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptUpdateProtectedState</b> function migrates the current user's master keys after the user's <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) has changed. This function can be used to preserve encrypted data after a user has been moved from one domain to another.
+The <b>CryptUpdateProtectedState</b> function migrates the current user's master keys after the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) has changed. This function can be used to preserve encrypted data after a user has been moved from one domain to another.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CryptUpdateProtectedState</b> function migrates the current user's master
 
 ### -param pOldSid [in]
 
-The address of a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that contains the user's previous SID. This SID is used to locate the old master keys. If this parameter is <b>NULL</b>, the master keys for the current user SID are migrated.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that contains the user's previous SID. This SID is used to locate the old master keys. If this parameter is <b>NULL</b>, the master keys for the current user SID are migrated.
 
 Either this parameter or the <i>pwszOldPassword</i> parameter may be <b>NULL</b>, but not both.
 
@@ -95,7 +95,7 @@ It is not necessarily an error if one or more master keys cannot be decrypted. S
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes include the following.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes include the following.
 
 <table>
 <tr>

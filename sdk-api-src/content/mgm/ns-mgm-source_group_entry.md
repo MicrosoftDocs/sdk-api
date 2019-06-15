@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>SOURCE_GROUP_ENTRY</b> structure describes the entry returned by the group enumeration function 
-<a href="https://msdn.microsoft.com/a5e659e9-b566-490b-831b-96f9de822ebf">MgmGroupEnumerationGetNext</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>.
 
 
 ## -struct-fields
@@ -105,19 +105,19 @@ Specify zero for this parameter if zero was specified for <b>dwGroupAddr</b> (a 
 
 
 
-<a href="https://msdn.microsoft.com/09b60342-25a8-4d0a-8176-3701f0622aa8">MGM_ENUM_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ne-mgm-_mgm_enum_types">MGM_ENUM_TYPES</a>
 
 
 
-<a href="https://msdn.microsoft.com/87a0bd96-c877-443e-a539-a31ab0971869">MgmGroupEnumerationEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationend">MgmGroupEnumerationEnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5e659e9-b566-490b-831b-96f9de822ebf">MgmGroupEnumerationGetNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f4055-becb-4c99-afd2-2d2822626f24">MgmGroupEnumerationStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
  
 
  

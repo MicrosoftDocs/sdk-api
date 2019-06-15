@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Initializes a new instance of <code>XMINT2</code> from a two element <code>int32_t2</code> array argument.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a> from a from a two element <code>int32_t</code>array argument.
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a> from a from a two element <code>int32_t</code>array argument.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -74,11 +74,11 @@ Two element <code>int32_t</code> array containing the values used to initialize 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404654(v=VS.85).aspx">XMINT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449504(v=VS.85).aspx">XMINT2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmint2-xmint2(constint32_t)">XMINT2 Constructors</a>
  
 
  

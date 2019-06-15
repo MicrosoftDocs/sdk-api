@@ -64,7 +64,7 @@ Specifies a value that uniquely identifies the clip region. If <b>iUniq</b> is n
 
 ### -field rclBounds
 
-Specifies a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
 
 
 ### -field iDComplexity
@@ -112,7 +112,7 @@ Clipping need not be considered; draw the whole figure.
 
 ### -field iFComplexity
 
-Specifies the complexity of the whole region. This value is used by the driver in deciding whether to cache the region. <a href="https://msdn.microsoft.com/e719f856-04a9-480d-b79a-df2307a48162">CLIPOBJ_cEnumStart</a> can be called to determine the exact number of rectangles in the region. This member can be one of the following values:
+Specifies the complexity of the whole region. This value is used by the driver in deciding whether to cache the region. <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> can be called to determine the exact number of rectangles in the region. This member can be one of the following values:
 
 <table>
 <tr>
@@ -223,15 +223,15 @@ The region, described by CLIPOBJ, can be enumerated as a series of rectangles.
 
 
 
-<a href="https://msdn.microsoft.com/d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77">CLIPOBJ_bEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/e719f856-04a9-480d-b79a-df2307a48162">CLIPOBJ_cEnumStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
  
 
  

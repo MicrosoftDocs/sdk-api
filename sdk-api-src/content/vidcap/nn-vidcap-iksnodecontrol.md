@@ -59,7 +59,7 @@ The <code>IKsNodeControl</code> interface is used by the KsProxy filter to commu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsNodeControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsNodeControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsNodeControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNodeControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IKsNodeControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390140(v=VS.85).aspx">put_KsControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-iksnodecontrol-put_kscontrol">put_KsControl</a>
 </td>
 <td align="left" width="63%">
 Provides an instance of the <b>IKsControl</b> interface to the extension unit.
@@ -83,7 +83,7 @@ Provides an instance of the <b>IKsControl</b> interface to the extension unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390141(v=VS.85).aspx">put_NodeId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-iksnodecontrol-put_nodeid">put_NodeId</a>
 </td>
 <td align="left" width="63%">
 Sets the node identifier for the extension unit.

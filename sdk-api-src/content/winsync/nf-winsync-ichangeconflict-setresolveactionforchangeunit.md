@@ -123,7 +123,7 @@ When the conflict is an update-delete conflict, or when no conflict exists.
 
 Be aware that setting the conflict resolution action for a change unit on an update-delete conflict is not valid, because this type of conflict must be resolved at the item level.
 
-By setting this action in an event handler for <a href="https://msdn.microsoft.com/439f2a73-b36c-4604-b739-9f9b68275ac5">ISyncCallback::OnConflict</a>, the event handler specifies how the change applier should handle the conflict.
+By setting this action in an event handler for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">ISyncCallback::OnConflict</a>, the event handler specifies how the change applier should handle the conflict.
 
 
 
@@ -133,15 +133,15 @@ By setting this action in an event handler for <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/b0089d3d-a1e6-4662-9e79-4c0b22c08d7f">IChangeConflict Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/439f2a73-b36c-4604-b739-9f9b68275ac5">ISyncCallback::OnConflict Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">ISyncCallback::OnConflict Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317266(v=VS.85).aspx">SYNC RESOLVE ACTION Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0005">SYNC RESOLVE ACTION Enumeration</a>
  
 
  

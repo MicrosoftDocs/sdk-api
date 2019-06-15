@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines  the configuration of an <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object that enables, disables, or modifies the behavior of an interaction.
+Defines  the configuration of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object that enables, disables, or modifies the behavior of an interaction.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Defines  the configuration of an <a href="https://msdn.microsoft.com/60BFDCD7-D2
 
 ### -field interactionId
 
-One of the constants from <a href="https://msdn.microsoft.com/9c6ac9ce-d7c9-4a92-9631-2f241a762525">INTERACTION_ID</a>.
+One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_id">INTERACTION_ID</a>.
 
 <div class="alert"><b>Note</b>  INTERACTION_FLAG_NONE is not a valid value.</div>
 <div> </div>
 
 ### -field enable
 
-The value of this property is a bitmask, which can be set to one or more of the values from <a href="https://msdn.microsoft.com/fc26da3a-8769-40c6-a563-1566a46f97f5">INTERACTION_CONFIGURATION_FLAGS</a>.
+The value of this property is a bitmask, which can be set to one or more of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_configuration_flags">INTERACTION_CONFIGURATION_FLAGS</a>.
 
 This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION</b>.
 
@@ -103,11 +103,11 @@ This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION<
 
 
 
-<a href="https://msdn.microsoft.com/38C5CE85-405B-455F-809D-19C77B8A217B">Interaction Context Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e792e7bc-1c7f-4fa1-810d-97391cbcf797">SetInteractionConfigurationInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object.
+The <b>Initialize</b> method initializes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A <b>BSTR</b> variable that contains a unique ID for the certificate enrollment 
 
 ### -param authFlags [in]
 
-An <a href="https://msdn.microsoft.com/84a7e6e3-dfbb-4c27-af63-e521103e1b00">X509EnrollmentAuthFlags</a> enumeration value that specifies the client authentication type. This can be one of the following values.
+An <a href="https://docs.microsoft.com/windows/desktop/api/certcli/ne-certcli-x509enrollmentauthflags">X509EnrollmentAuthFlags</a> enumeration value that specifies the client authentication type. This can be one of the following values.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ A Boolean value that specifies whether to allow an untrusted certification autho
 
 ### -param context [in]
 
-An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration  value that specifies the nature of the end entity for which certificate enrollment is intended. This can be one of the following values.
+An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration  value that specifies the nature of the end entity for which certificate enrollment is intended. This can be one of the following values.
 
 <table>
 <tr>
@@ -176,7 +176,7 @@ The certificate is being requested by an administrator acting on the behalf of a
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -212,7 +212,7 @@ There was not sufficient memory available for the strings specified in the <i>bs
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object has already been initialized.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> object has already been initialized.
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ The value specified in the <i>bstrPolicyServerId</i> parameter is not <b>NULL</b
 
 
 
-<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
  
 
  

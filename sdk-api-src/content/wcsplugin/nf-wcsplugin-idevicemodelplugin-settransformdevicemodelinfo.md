@@ -59,7 +59,7 @@ Provides the plug-in with parameters to determine where in the transform sequenc
 
 ### -param iModelPosition [in]
 
-The one-based model position of the other device model in the workflow of <i>uiNumModels</i>, as provided in the <a href="https://msdn.microsoft.com/ae47dcc5-f771-4586-9086-b4ab1600c1bc">Initialize</a> function.
+The one-based model position of the other device model in the workflow of <i>uiNumModels</i>, as provided in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nf-wcsplugin-idevicemodelplugin-initialize">Initialize</a> function.
 
 
 ### -param pIDeviceModelOther [in]
@@ -82,7 +82,7 @@ If this function fails, the return value is E_FAIL.
 
 
 
-This function is called by the <a href="https://msdn.microsoft.com/8a40215c-6c37-4346-a669-79b7871f265e">CreateMultiProfileTransform</a> function, which is responsible for calling <b>AddRef</b> and <b>Release</b> as appropriate. The function enables plug-in device models to exchange information in a proprietary manner by accessing proprietary plug-in interface functions.
+This function is called by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/createmultiprofiletransform">CreateMultiProfileTransform</a> function, which is responsible for calling <b>AddRef</b> and <b>Release</b> as appropriate. The function enables plug-in device models to exchange information in a proprietary manner by accessing proprietary plug-in interface functions.
 
 This function will fail if the other device model is a baseline device model, because such models are not plugins and thus inter-plugin communication is not supported.
 
@@ -94,15 +94,15 @@ This function will fail if the other device model is a baseline device model, be
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/90541ec2-c0ab-4f98-906b-3e58f8f5cc03">IDeviceModelPlugIn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
  
 
  

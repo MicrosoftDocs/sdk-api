@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAccessible::accHitTest</b> method retrieves the child element or child object that is displayed at a specific point on the screen. All visual objects support this method, but sound objects do not. Client applications rarely call this method directly; to get the accessible object that is displayed at a point, use the <a href="https://msdn.microsoft.com/b781b74f-5c36-4a65-a9b1-ecf7f8e5b531">AccessibleObjectFromPoint</a> function, which calls this method internally.
+The <b>IAccessible::accHitTest</b> method retrieves the child element or child object that is displayed at a specific point on the screen. All visual objects support this method, but sound objects do not. Client applications rarely call this method directly; to get the accessible object that is displayed at a point, use the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfrompoint">AccessibleObjectFromPoint</a> function, which calls this method internally.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Specifies the screen coordinates of the point that is hit tested. The y-coordina
 
 Type: <b>VARIANT*</b>
 
-[out, retval] Address of a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> that identifies the object displayed at the point specified by <i>xLeft</i> and <i>yTop</i>. The information returned in <i>pvarID</i> depends on the location of the specified point in relation to the object whose <b>accHitTest</b> method is being called.
+[out, retval] Address of a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> that identifies the object displayed at the point specified by <i>xLeft</i> and <i>yTop</i>. The information returned in <i>pvarID</i> depends on the location of the specified point in relation to the object whose <b>accHitTest</b> method is being called.
 
 <table>
 <tr>
@@ -111,11 +111,11 @@ Type: <b>VARIANT*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://msdn.microsoft.com/0def0349-178b-4be5-aa1d-6602dc015981">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -167,13 +167,13 @@ An argument is not valid.
 
 
 
-If the tested point is on one of the object's children, and this child supports the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface itself, this method should return an <b>IAccessible</b> interface pointer. However, clients should be prepared to handle an <b>IAccessible</b> interface pointer or a child ID. For more information, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+If the tested point is on one of the object's children, and this child supports the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface itself, this method should return an <b>IAccessible</b> interface pointer. However, clients should be prepared to handle an <b>IAccessible</b> interface pointer or a child ID. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-Because <a href="https://msdn.microsoft.com/1eb6f075-a8bf-4c03-96ee-460728317955">accLocation</a> returns a bounding rectangle, not all points in that rectangle will be within the actual bounds of the object. Some points within the bounding rectangle may not be on the object. For non-rectangular objects, such as list view items in large-icon mode where a single item has a rectangle for the icon and another rectangle for the text of the icon, the coordinates of the object's bounding rectangle retrieved by <b>IAccessible::accLocation</b> could fail if tested with <b>accHitTest</b> .
+Because <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acclocation">accLocation</a> returns a bounding rectangle, not all points in that rectangle will be within the actual bounds of the object. Some points within the bounding rectangle may not be on the object. For non-rectangular objects, such as list view items in large-icon mode where a single item has a rectangle for the icon and another rectangle for the text of the icon, the coordinates of the object's bounding rectangle retrieved by <b>IAccessible::accLocation</b> could fail if tested with <b>accHitTest</b> .
 
-As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
+As with other <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
 
-When this method is used in certain situations, additional usage notes apply. For more information, see <a href="https://msdn.microsoft.com/ba08814f-87bc-4b47-8b61-179a48d5092f">Navigation Through Hit Testing and Screen Location</a>.
+When this method is used in certain situations, additional usage notes apply. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-through-hit-testing-and-screen-location">Navigation Through Hit Testing and Screen Location</a>.
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation for a custom list box.
@@ -258,27 +258,27 @@ HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
 
 
 
-<a href="https://msdn.microsoft.com/c781fefd-09f0-4340-b3d3-f4e57308f392">Active Accessibility and Windows Vista Screen Scaling</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/active-accessibility-and-windows-vista-screen-scaling">Active Accessibility and Windows Vista Screen Scaling</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/1eb6f075-a8bf-4c03-96ee-460728317955">IAccessible::accLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acclocation">IAccessible::accLocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba08814f-87bc-4b47-8b61-179a48d5092f">Navigation Through Hit Testing and Screen Location</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-through-hit-testing-and-screen-location">Navigation Through Hit Testing and Screen Location</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
  
 
  

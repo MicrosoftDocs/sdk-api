@@ -101,7 +101,7 @@ Minimum precision is any 10-bit value.
 
 
 
-For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=VS.85).aspx">Scalar Types</a> and <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
+For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar">Scalar Types</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/using-hlsl-minimum-precision">Using HLSL minimum precision</a>.
 
 
 
@@ -111,7 +111,7 @@ For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb509646(v=
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

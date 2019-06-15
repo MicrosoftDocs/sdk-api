@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/C9DC823D-46D5-4459-A20A-0969D20C6E9E">IAppxBundleManifestOptionalBundleInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestoptionalbundleinfo">IAppxBundleManifestOptionalBundleInfo</a>
  
 
  

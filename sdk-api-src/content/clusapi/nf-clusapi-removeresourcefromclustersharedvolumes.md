@@ -72,7 +72,7 @@ If the operation succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
        <b>RemoveResourceFromClusterSharedVolumes</b> 
-       returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       returns one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 
 
@@ -82,7 +82,7 @@ If the operation fails,
 
 
 
-<a href="https://msdn.microsoft.com/87C70280-5030-44b9-B949-7240BCA19C6B">AddResourceToClusterSharedVolumes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addresourcetoclustersharedvolumes">AddResourceToClusterSharedVolumes</a>
  
 
  

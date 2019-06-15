@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AuditQuerySecurity</b> function retrieves <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> that delegates access to audit policy.
+The <b>AuditQuerySecurity</b> function retrieves <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> that delegates access to audit policy.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>AuditQuerySecurity</b> function retrieves <a href="https://msdn.microsoft
 
 ### -param SecurityInformation [in]
 
-A <a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> value that specifies which parts of the security descriptor this function sets. Only <b>SACL_SECURITY_INFORMATION</b> and <b>DACL_SECURITY_INFORMATION</b> are supported. Any other values are ignored. If neither <b>SACL_SECURITY_INFORMATION</b> nor <b>DACL_SECURITY_INFORMATION</b> is specified, this function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies which parts of the security descriptor this function sets. Only <b>SACL_SECURITY_INFORMATION</b> and <b>DACL_SECURITY_INFORMATION</b> are supported. Any other values are ignored. If neither <b>SACL_SECURITY_INFORMATION</b> nor <b>DACL_SECURITY_INFORMATION</b> is specified, this function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
 
 
 ### -param ppSecurityDescriptor [out]
 
-The address of a pointer to a well-formed <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure that controls access to the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Audit security object</a>.
+The address of a pointer to a well-formed <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that controls access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>.
 
 
 ## -returns
@@ -76,7 +76,7 @@ The address of a pointer to a well-formed <a href="https://msdn.microsoft.com/65
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
 
 <table>
 <tr>
@@ -127,7 +127,7 @@ To successfully call this function, the caller must have <b>SeSecurityPrivilege<
 
 
 
-<a href="https://msdn.microsoft.com/2f4d6198-775a-40e4-9158-a69e71bfe050">AuditSetSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditsetsecurity">AuditSetSecurity</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MsiEnumProductsEx</b> function enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts. This function supersedes <a href="https://msdn.microsoft.com/c05ddc32-2c61-49ab-991f-8f9efae331a4">MsiEnumProducts</a>.
+The <b>MsiEnumProductsEx</b> function enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts. This function supersedes <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumproductsa">MsiEnumProducts</a>.
 		
 
 
@@ -63,7 +63,7 @@ The <b>MsiEnumProductsEx</b> function enumerates through one or all the instance
 ### -param szProductCode [in, optional]
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> GUID of the product  to be enumerated.  Only instances of products within the scope of the context specified by the <i>szUserSid</i> and <i>dwContext</i> parameters are enumerated. This parameter can be set to <b>NULL</b> to enumerate all products in the specified context.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product  to be enumerated.  Only instances of products within the scope of the context specified by the <i>szUserSid</i> and <i>dwContext</i> parameters are enumerated. This parameter can be set to <b>NULL</b> to enumerate all products in the specified context.
 
 
 ### -param szUserSid [in]
@@ -162,7 +162,7 @@ Enumeration extended to all per-machine installations. When <i>dwInstallContext<
 
 ### -param szInstalledProductCode [out, optional]
 
-Null-terminated string of <b>TCHAR</b> that gives the <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> GUID of the product instance being enumerated. This parameter can be <b>NULL</b>.
+Null-terminated string of <b>TCHAR</b> that gives the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product instance being enumerated. This parameter can be <b>NULL</b>.
 
 
 ### -param pdwInstalledContext [out, optional]
@@ -305,7 +305,7 @@ When making multiple calls to <b>MsiEnumProductsEx</b> to enumerate all of the p
 
 A user must have administrator privileges to enumerate products across all user accounts or a user account other than the current user account. The enumeration skips products that are advertised only (such as products  not installed) in the per-user-unmanaged context when enumerating across all users or a user other than the current user.
 
-Use <a href="https://msdn.microsoft.com/b0060666-3987-49eb-916e-0bcbf54acb23">MsiGetProductInfoEx</a> to get the state or other information about each product instance enumerated by <b>MsiEnumProductsEx</b>.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetproductinfoexa">MsiGetProductInfoEx</a> to get the state or other information about each product instance enumerated by <b>MsiEnumProductsEx</b>.
 
 
 
@@ -315,19 +315,19 @@ Use <a href="https://msdn.microsoft.com/b0060666-3987-49eb-916e-0bcbf54acb23">Ms
 
 
 
-<a href="https://msdn.microsoft.com/c05ddc32-2c61-49ab-991f-8f9efae331a4">MsiEnumProducts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumproductsa">MsiEnumProducts</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ad30ac9-eac9-49cf-98ae-5c053a0b500a">Removing Patches</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/removing-patches">Removing Patches</a>
  
 
  

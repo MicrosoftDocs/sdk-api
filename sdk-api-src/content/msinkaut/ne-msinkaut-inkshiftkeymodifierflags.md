@@ -89,27 +89,27 @@ In C++, explicit casting is required when trying to set more than one flag at a 
 
 
 
-<a href="https://msdn.microsoft.com/14b05b72-ae5d-416a-8ea5-9d9716c0967f">KeyDown Event [InkEdit Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-keydown">KeyDown Event [InkEdit Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/973d99f2-df09-4315-aaab-72877272100b">KeyUp Event [InkEdit Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-keyup">KeyUp Event [InkEdit Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff776b2b-7dd8-4d3d-b0f6-714b186d447e">MouseDown Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousedown">MouseDown Event [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4c703da-0e4a-4d4c-9a6c-0e002344fb2f">MouseMove Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousemove">MouseMove Event [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/049e1560-d4b2-4d34-9d54-2b45217001b2">MouseUp Event [InkOverlay Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-mouseup">MouseUp Event [InkOverlay Class]</a>
 
 
 
-<a href="https://msdn.microsoft.com/f56a8af9-7618-4fa3-8dd5-aa81a7f817e4">MouseWheel Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousewheel">MouseWheel Event [InkPicture Control]</a>
  
 
  

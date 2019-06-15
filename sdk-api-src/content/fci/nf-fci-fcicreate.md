@@ -59,62 +59,62 @@ The <b>FCICreate</b> function creates an FCI context.
 
 ### -param perf [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure that receives the error information.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure that receives the error information.
 
 
 ### -param pfnfcifp [in]
 
-Pointer to an application-defined callback function to notify when a file is placed in the cabinet. The function should be declared using the <a href="https://msdn.microsoft.com/f8a1bcfc-8a13-49cf-a3e7-caec6c6421b0">FNFCIFILEPLACED</a> macro.
+Pointer to an application-defined callback function to notify when a file is placed in the cabinet. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcifileplaced">FNFCIFILEPLACED</a> macro.
 
 
 ### -param pfna [in]
 
-Pointer to an application-defined callback function to allocate memory. The function should be declared using the <a href="https://msdn.microsoft.com/339ac9d2-60bc-4a90-8a46-6fbb073be9d1">FNFCIALLOC</a> macro.
+Pointer to an application-defined callback function to allocate memory. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcialloc">FNFCIALLOC</a> macro.
 
 
 ### -param pfnf [in]
 
-Pointer to an application-defined callback function to free previously allocated memory. The function should be delcared using the <a href="https://msdn.microsoft.com/48f052e2-7786-430a-b3dc-afcfdffae387">FNFCIFREE</a> macro.
+Pointer to an application-defined callback function to free previously allocated memory. The function should be delcared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcifree">FNFCIFREE</a> macro.
 
 
 ### -param pfnopen [in]
 
-Pointer to an application-defined callback function to open a file. The function should be declared using the <a href="https://msdn.microsoft.com/72cf50cb-c895-4953-9c4d-f8ddaa294f2a">FNFCIOPEN</a> macro.
+Pointer to an application-defined callback function to open a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfciopen">FNFCIOPEN</a> macro.
 
 
 ### -param pfnread [in]
 
-Pointer to an application-defined callback function to read data from a file. The function should be declared using the <a href="https://msdn.microsoft.com/dd4e97ff-efbc-462b-b954-bc3260fa1513">FNFCIREAD</a> macro.
+Pointer to an application-defined callback function to read data from a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfciread">FNFCIREAD</a> macro.
 
 
 ### -param pfnwrite [in]
 
-Pointer to an application-defined callback function to write data to a file. The function should be declared using the <a href="https://msdn.microsoft.com/ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816">FNFCIWRITE</a> macro.
+Pointer to an application-defined callback function to write data to a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfciwrite">FNFCIWRITE</a> macro.
 
 
 ### -param pfnclose [in]
 
-Pointer to an application-defined callback function to close a file. The function should be declared using the <a href="https://msdn.microsoft.com/c4edf6ca-0b16-4e30-933b-934f8930c6d6">FNFCICLOSE</a> macro.
+Pointer to an application-defined callback function to close a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfciclose">FNFCICLOSE</a> macro.
 
 
 ### -param pfnseek [in]
 
-Pointer to an application-defined callback function to move a file pointer to the specific location. The function should be declared using the <a href="https://msdn.microsoft.com/e5a14c98-4de6-452e-8993-afb7964aeee7">FNFCISEEK</a> macro.
+Pointer to an application-defined callback function to move a file pointer to the specific location. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfciseek">FNFCISEEK</a> macro.
 
 
 ### -param pfndelete [in]
 
-Pointer to an application-defined callback function to delete a file. The function should be declared using the <a href="https://msdn.microsoft.com/5c85ad86-2794-4f7c-8c10-18fea3519b11">FNFCIDELETE</a> macro.
+Pointer to an application-defined callback function to delete a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcidelete">FNFCIDELETE</a> macro.
 
 
 ### -param pfnfcigtf [in]
 
-Pointer to an application-defined callback function to retrieve a temporary file name. The function should be declared using the <a href="https://msdn.microsoft.com/8978f688-d8f1-437a-b298-eed1e7dac012">FNFCIGETTEMPFILE</a> macro.
+Pointer to an application-defined callback function to retrieve a temporary file name. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcigettempfile">FNFCIGETTEMPFILE</a> macro.
 
 
 ### -param pccab [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/e25cb72b-4c96-40e9-9fd5-2920e4a01d3a">CCAB</a> structure that contains the parameters for creating a cabinet.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/fci/ns-fci-ccab">CCAB</a> structure that contains the parameters for creating a cabinet.
 
 
 ### -param pv [in, optional]
@@ -128,7 +128,7 @@ Pointer to an application-defined value that is passed to callback functions.
 
 If the function succeeds, it returns a non-<b>NULL</b> HFCI context pointer; otherwise, <b>NULL</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure.
+Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure.
 
 
 
@@ -137,7 +137,7 @@ Extended error information is provided in the <a href="https://msdn.microsoft.co
 
 
 
-FCI supports multiple simultaneous contexts. As a result it is possible to create or extract multiple cabinets at the same time within the same application. If the application is multithreaded, it is also possible to run a different context in each thread; however, an application cannot use the same context simultaneously in multiple threads. For example, <a href="https://msdn.microsoft.com/f99e8718-853b-4d35-98ae-61a8333dbaba">FCIAddFile</a> cannot be called from two different threads, using the same FCI context.
+FCI supports multiple simultaneous contexts. As a result it is possible to create or extract multiple cabinets at the same time within the same application. If the application is multithreaded, it is also possible to run a different context in each thread; however, an application cannot use the same context simultaneously in multiple threads. For example, <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a> cannot be called from two different threads, using the same FCI context.
 
 
 
@@ -147,15 +147,15 @@ FCI supports multiple simultaneous contexts. As a result it is possible to creat
 
 
 
-<a href="https://msdn.microsoft.com/f99e8718-853b-4d35-98ae-61a8333dbaba">FCIAddFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb1a6294-664f-450f-b8ec-d6f8957d920e">FCIDestroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcidestroy">FCIDestroy</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc9c226e-e309-48c3-9edb-3f0a040c0c18">FCIFlushFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciflushfolder">FCIFlushFolder</a>
  
 
  

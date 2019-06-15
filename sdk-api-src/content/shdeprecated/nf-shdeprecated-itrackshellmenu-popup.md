@@ -66,23 +66,23 @@ The handle of the parent window of the pop-up menu.
 
 ### -param ppt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure that specifies an initial point in screen coordinates. The pop-up menu is displayed in relation to this point as determined by the position flags set in <i>dwFlags</i>.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure that specifies an initial point in screen coordinates. The pop-up menu is displayed in relation to this point as determined by the position flags set in <i>dwFlags</i>.
 
 
 ### -param prcExclude [in]
 
-Type: <b><a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/47a89d2d-4733-47be-91c1-450845e78075">RECTL</a> structure that specifies the rectangle to exclude when positioning the menu. The alignment of the menu in relation to this area is determined by the alignment flags set in <i>dwFlags</i>. This parameter can be set to <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a> structure that specifies the rectangle to exclude when positioning the menu. The alignment of the menu in relation to this area is determined by the alignment flags set in <i>dwFlags</i>. This parameter can be set to <b>NULL</b>.
 
 
 ### -param dwFlags [in]
 
 Type: <b>MP_POPUPFLAGS</b>
 
-One or more of the <a href="https://msdn.microsoft.com/cc1d9ff0-a03b-4bd3-b481-9b78d20eb771">MP_POPUPFLAGS</a> constants that specify options involved in the display of the pop-up menu.
+One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/mp-popupflags">MP_POPUPFLAGS</a> constants that specify options involved in the display of the pop-up menu.
 
 
 ## -returns

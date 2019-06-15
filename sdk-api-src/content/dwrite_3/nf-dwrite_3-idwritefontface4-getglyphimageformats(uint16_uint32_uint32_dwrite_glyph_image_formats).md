@@ -84,7 +84,7 @@ TBD
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/ECC868B5-3D17-4D55-8E00-AB446C1C22FE">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
 
 Returns all the glyph image formats supported by the entire font.
 
@@ -96,7 +96,7 @@ Returns all the glyph image formats supported by the entire font.
 
 
 
-<a href="https://msdn.microsoft.com/08A0E6F3-611B-4C19-835B-1353D4938181">IDWriteFontFace4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontface4">IDWriteFontFace4</a>
  
 
  

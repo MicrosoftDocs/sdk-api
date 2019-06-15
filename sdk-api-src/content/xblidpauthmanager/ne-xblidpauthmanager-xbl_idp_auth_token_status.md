@@ -107,7 +107,7 @@ Reserved for Microsoft use.
 
 
 
-<a href="https://msdn.microsoft.com/0e240db7-4306-4e3e-972f-a0072ed02109">XblIdpAuthManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/xblidp/xblidpauthmanager-portal">XblIdpAuthManager</a>
  
 
  

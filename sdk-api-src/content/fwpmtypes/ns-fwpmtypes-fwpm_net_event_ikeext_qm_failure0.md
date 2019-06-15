@@ -64,39 +64,39 @@ Windows error code for the failure.
 
 ### -field failurePoint
 
-An <a href="https://msdn.microsoft.com/750a5643-1157-4d15-9564-127756cd08cd">IPSEC_FAILURE_POINT</a> value that indicates the IPsec state when the failure occurred.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point_">IPSEC_FAILURE_POINT</a> value that indicates the IPsec state when the failure occurred.
 
 
 ### -field keyingModuleType
 
- An <a href="https://msdn.microsoft.com/a9268b07-343a-4a51-bc70-3e624facf617">IKEEXT_KEY_MODULE_TYPE</a> value that specifies the type of keying module.
+ An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type_">IKEEXT_KEY_MODULE_TYPE</a> value that specifies the type of keying module.
 
 
 ### -field qmState
 
-An <a href="https://msdn.microsoft.com/e1124447-dd56-4ab6-affc-59e351407261">IKEEXT_QM_SA_STATE</a> value that specifies the QM state when the failure occurred.
+An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_qm_sa_state_">IKEEXT_QM_SA_STATE</a> value that specifies the QM state when the failure occurred.
 
 
 ### -field saRole
 
-An <a href="https://msdn.microsoft.com/6bb1e264-6141-4545-add5-e12f09769e25">IKEEXT_SA_ROLE</a> value that specifies the SA role when the failure occurred.
+An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role_">IKEEXT_SA_ROLE</a> value that specifies the SA role when the failure occurred.
 
 
 ### -field saTrafficType
 
- An <a href="https://msdn.microsoft.com/e87154ce-7f19-424c-a577-04e2eb81560e">IPSEC_TRAFFIC_TYPE</a> value that specifies the type of traffic.
+ An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type_">IPSEC_TRAFFIC_TYPE</a> value that specifies the type of traffic.
 
 
 ### -field localSubNet
 
-An <a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
 
 Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
 
 
 ### -field remoteSubNet
 
-An <a href="https://msdn.microsoft.com/edc34005-dbc1-45a4-b6c7-fbb8b13fa388">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0_">FWP_CONDITION_VALUE0</a> structure that contains values that conditions can use when testing for matches.
 
 Available when <b>saTrafficType</b> is <b>IPSEC_TRAFFIC_TYPE_TUNNEL</b>.
 
@@ -110,7 +110,7 @@ Quick Mode filter ID.
 
 
 
-<b>FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</b> is a specific implementation of FWPM_NET_EVENT_IKEEXT_QM_FAILURE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</b> is a specific implementation of FWPM_NET_EVENT_IKEEXT_QM_FAILURE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -120,7 +120,7 @@ Quick Mode filter ID.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

@@ -63,7 +63,7 @@ Specifies the display properties to set on the text ink object (tInk).
 
 ### -param pim [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/27d56034-725d-4b05-9c43-6b3180d7411b">INKMETRIC</a> structure which contains the display properties to set on the text ink object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC</a> structure which contains the display properties to set on the text ink object.
 
 
 ## -returns
@@ -120,7 +120,7 @@ Could not complete the operation. The display properties are not changed.
 
 
 
-If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then the properties of the device context are applied to the ink; otherwise, the <a href="https://msdn.microsoft.com/27d56034-725d-4b05-9c43-6b3180d7411b">INKMETRIC</a> settings of the text ink object are applied.
+If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then the properties of the device context are applied to the ink; otherwise, the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC</a> settings of the text ink object are applied.
 
 
 
@@ -130,19 +130,19 @@ If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then th
 
 
 
-<a href="https://msdn.microsoft.com/8f894963-7075-46f4-8809-82d1aa7e13e7">GetFormat Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/0082b7d3-61b2-478a-a6dd-ba59c20b7e1d">GetInkExtent Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/58774f49-6af2-4b81-bbd5-709eb694af2d">IInkLineInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/27d56034-725d-4b05-9c43-6b3180d7411b">INKMETRIC Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-taginkmetric">INKMETRIC Structure</a>
  
 
  

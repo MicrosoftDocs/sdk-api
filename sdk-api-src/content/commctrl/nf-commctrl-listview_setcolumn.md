@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the attributes of a list-view column. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761159(v=VS.85).aspx">LVM_SETCOLUMN</a> message explicitly. 
+Sets the attributes of a list-view column. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setcolumn">LVM_SETCOLUMN</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the attributes of a list-view column. You can use this macro or send the <a
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -75,5 +75,5 @@ The index of the column.
 
 Type: <b>LPLVCOLUMN</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure that contains the new column attributes. The <b>mask</b> member specifies which column attributes to set. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member is the address of a null-terminated string and the <b>cchTextMax</b> member is ignored.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvcolumna">LVCOLUMN</a> structure that contains the new column attributes. The <b>mask</b> member specifies which column attributes to set. If the <b>mask</b> member specifies the LVCF_TEXT value, the <b>pszText</b> member is the address of a null-terminated string and the <b>cchTextMax</b> member is ignored.
 

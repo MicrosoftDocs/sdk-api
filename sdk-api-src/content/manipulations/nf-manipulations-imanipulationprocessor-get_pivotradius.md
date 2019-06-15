@@ -74,23 +74,23 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/52afdf21-8c5d-4da8-aab2-7a8273df5147">PivotPointX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx">PivotPointX</a>
 
 
 
-<a href="https://msdn.microsoft.com/09faaacd-3583-4129-b8e3-068e34e220b7">PivotPointY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy">PivotPointY</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f8a3e27-a92f-4086-9573-6c7bbe7efd20">Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtproperties">Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9c19009-8ac0-4168-bf26-393280fc589f">Single Finger Rotation</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/single-finger-rotation">Single Finger Rotation</a>
  
 
  

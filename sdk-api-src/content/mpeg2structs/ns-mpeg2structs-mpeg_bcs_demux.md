@@ -70,11 +70,11 @@ Specifies the filter graph instance.
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a92e545-805b-4ce6-bbf1-397f7a5f6524">MPEG_CONTEXT Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0030">MPEG_CONTEXT Structure</a>
  
 
  

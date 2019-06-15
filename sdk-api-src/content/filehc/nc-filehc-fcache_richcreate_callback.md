@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A callback function that is used to create items in the cache. It is called by <a href="https://msdn.microsoft.com/89b0adcd-0084-4538-b162-661ddae53dc8">CacheRichCreateFile</a>.
+A callback function that is used to create items in the cache. It is called by <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-cacherichcreatefile">CacheRichCreateFile</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The name of the file.
 
 ### -param lpvData [in]
 
-User-provided data to <a href="https://msdn.microsoft.com/89b0adcd-0084-4538-b162-661ddae53dc8">CacheRichCreateFile</a>.
+User-provided data to <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-cacherichcreatefile">CacheRichCreateFile</a>.
 
 
 ### -param *cbFileSize [out]
@@ -111,7 +111,7 @@ Returns a handle to the file that was created in the cache.
 
 
 
-<a href="https://msdn.microsoft.com/89b0adcd-0084-4538-b162-661ddae53dc8">CacheRichCreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-cacherichcreatefile">CacheRichCreateFile</a>
  
 
  

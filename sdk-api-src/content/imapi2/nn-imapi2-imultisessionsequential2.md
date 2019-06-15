@@ -54,7 +54,7 @@ Use this interface to retrieve information about the size of a writeable unit on
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionSequential2</b> interface inherits from <a href="https://msdn.microsoft.com/b8124597-e75a-4f95-a25c-8cf59f452548">IMultisessionSequential</a>. <b>IMultisessionSequential2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionSequential2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>. <b>IMultisessionSequential2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMultisessionSequential2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d784477-7e6d-4433-81d2-c756dcfb060b">get_WriteUnitSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionsequential2-get_writeunitsize">get_WriteUnitSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of a writeable unit on the media.
@@ -84,7 +84,7 @@ Retrieves the size of a writeable unit on the media.
 
 
 
-<a href="https://msdn.microsoft.com/b8124597-e75a-4f95-a25c-8cf59f452548">IMultisessionSequential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>
  
 
  

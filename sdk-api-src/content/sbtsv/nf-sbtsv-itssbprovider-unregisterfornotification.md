@@ -108,7 +108,7 @@ Plug-ins can use the <b>UnRegisterForNotification</b> method to cancel previous 
 
 
 
-<a href="https://msdn.microsoft.com/a8574750-d86e-4b0d-a534-d005596e2a33">ITsSbProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
  
 
  

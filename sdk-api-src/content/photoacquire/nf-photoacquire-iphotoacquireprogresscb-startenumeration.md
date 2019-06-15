@@ -65,7 +65,7 @@ The application provides the implementation of the <code>StartEnumeration</code>
 
 ### -param pPhotoAcquireSource [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource</a> object that items are being enumerated from.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> object that items are being enumerated from.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The method is not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/c4fcc470-1b05-4d33-8581-80c6e7488e04">IPhotoAcquireProgressCB Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
  
 
  

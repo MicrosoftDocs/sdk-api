@@ -59,7 +59,7 @@ The <b>Validate</b> method is called by NDF after a repair is successfully compl
 
 ### -param problem [in]
 
-The <a href="https://msdn.microsoft.com/cf5a4205-b79f-4de6-b153-0955c6ff4e11">PROBLEM_TYPE</a> that the helper class has previously diagnosed.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagproblem_type">PROBLEM_TYPE</a> that the helper class has previously diagnosed.
 
 
 ### -param pDeferredTime [out]
@@ -69,7 +69,7 @@ A pointer to the time to be deferred, in seconds, if the diagnosis cannot be sta
 
 ### -param pStatus [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/2ad72ac5-3f33-4206-be39-1cfe11ee840d">DIAGNOSIS_STATUS</a> that is returned from the diagnosis.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a> that is returned from the diagnosis.
 
 
 ## -returns
@@ -171,7 +171,7 @@ This method only returns an error code if it encounters failures that impede val
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

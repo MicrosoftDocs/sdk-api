@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IWMDMEnumDevice</b> interface enumerates portable devices attached to a computer. To obtain this interface, call <a href="https://msdn.microsoft.com/1daa6d36-9858-4504-a9a2-c0341031829b">IWMDeviceManager::EnumDevices</a>.
+The <b>IWMDMEnumDevice</b> interface enumerates portable devices attached to a computer. To obtain this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMEnumDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMEnumDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMDMEnumDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8118950-d96f-4720-ab3a-f5ea93065875">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Returns a copy of the <b>IWMDMEnumDevice</b> interface.
@@ -81,7 +81,7 @@ Returns a copy of the <b>IWMDMEnumDevice</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75a5961f-2c61-4e10-a570-7ebfabb97367">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the next device.
@@ -90,7 +90,7 @@ Returns a pointer to the next device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af06bc07-2043-4ef5-a1f2-381797fb750b">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration so that <b>Next</b> returns a pointer to the first device.
@@ -99,7 +99,7 @@ Resets the enumeration so that <b>Next</b> returns a pointer to the first device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd6d2066-5445-4e29-812f-7d52dc67d57a">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmenumdevice-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of devices in the enumeration sequence.
@@ -114,11 +114,11 @@ Skips over a specified number of devices in the enumeration sequence.
 
 
 
-<a href="https://msdn.microsoft.com/c5935681-b530-4446-a026-7ddc74084d23">Enumerating Devices</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
 
 
 
-<a href="https://msdn.microsoft.com/bea867d6-a875-4150-9958-7f683cd215b9">Interfaces for Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides data to the <a href="https://msdn.microsoft.com/395B06D8-1BCF-44F2-9F69-A183C30E36B7">ID3D11VideoContext::DecoderBeginFrame</a> method.
+Provides data to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe">ID3D11VideoContext::DecoderBeginFrame</a> method.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Provides data to the <a href="https://msdn.microsoft.com/395B06D8-1BCF-44F2-9F69
 
 ### -field pCryptoSession
 
-A pointer to the ID3D11CryptoSession interface.  To get this pointer, call <a href="https://msdn.microsoft.com/1c0e3aa4-94d5-4398-a6c0-5466a437162d">ID3D11VideoDevice1::CreateCryptoSession</a>.
+A pointer to the ID3D11CryptoSession interface.  To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createcryptosession">ID3D11VideoDevice1::CreateCryptoSession</a>.
 
 
 ### -field BlobSize
@@ -100,7 +100,7 @@ The definition of this buffer is dependent on the implementation of the secure e
 
 
 
-This structure is passed in the <i>pContentKey</i> parameter of the <a href="https://msdn.microsoft.com/395B06D8-1BCF-44F2-9F69-A183C30E36B7">ID3D11VideoContext::DecoderBeginFrame</a> function when <a href="https://msdn.microsoft.com/CF2F3058-328A-4128-B5C6-29723B49AB1E">D3D11_DECODER_ENCRYPTION_HW_CENC</a>  is specified in the <b>guidConfigBitstreamEncryption</b> member of the <a href="https://msdn.microsoft.com/AB963FAD-F16C-47F6-8C78-FF4C234FBC60">D3D11_VIDEO_DECODER_CONFIG</a> structure when creating the video decoder interface.
+This structure is passed in the <i>pContentKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe">ID3D11VideoContext::DecoderBeginFrame</a> function when <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-guids">D3D11_DECODER_ENCRYPTION_HW_CENC</a>  is specified in the <b>guidConfigBitstreamEncryption</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_config">D3D11_VIDEO_DECODER_CONFIG</a> structure when creating the video decoder interface.
 
 
 
@@ -110,7 +110,7 @@ This structure is passed in the <i>pContentKey</i> parameter of the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
  
 
  

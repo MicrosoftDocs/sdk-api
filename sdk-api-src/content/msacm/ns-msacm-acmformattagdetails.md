@@ -62,17 +62,17 @@ The <b>ACMFORMATTAGDETAILS</b> structure details a waveform-audio format tag for
 
 ### -field cbStruct
 
-Size, in bytes, of the <b>ACMFORMATTAGDETAILS</b> structure. This member must be initialized before an application calls the <a href="https://msdn.microsoft.com/294d9e8b-de47-4ebe-8989-558469ba1356">acmFormatTagDetails</a> or <a href="https://msdn.microsoft.com/1693a7ee-1d9b-494e-8d28-b5e9279951e1">acmFormatTagEnum</a> function. The size specified by this member must be large enough to contain the base <b>ACMFORMATTAGDETAILS</b> structure. When the <b>acmFormatTagDetails</b> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
+Size, in bytes, of the <b>ACMFORMATTAGDETAILS</b> structure. This member must be initialized before an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a> function. The size specified by this member must be large enough to contain the base <b>ACMFORMATTAGDETAILS</b> structure. When the <b>acmFormatTagDetails</b> function returns, this member contains the actual size of the information returned. The returned information will never exceed the requested size.
 
 
 ### -field dwFormatTagIndex
 
-Index of the format tag for which details will be retrieved. The index ranges from zero to one less than the number of format tags supported by an ACM driver. The number of format tags supported by a driver is contained in the <b>cFormatTags</b> member of the <a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a> structure. The <b>dwFormatTagIndex</b> member is used only when querying format tag details on a driver by index; otherwise, this member should be zero.
+Index of the format tag for which details will be retrieved. The index ranges from zero to one less than the number of format tags supported by an ACM driver. The number of format tags supported by a driver is contained in the <b>cFormatTags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. The <b>dwFormatTagIndex</b> member is used only when querying format tag details on a driver by index; otherwise, this member should be zero.
 
 
 ### -field dwFormatTag
 
-Waveform-audio format tag that the <b>ACMFORMATTAGDETAILS</b> structure describes. This member is used for input for the ACM_FORMATTAGDETAILSF_FORMATTAG and ACM_FORMATTAGDETAILSF_LARGESTSIZE query flags. If the <a href="https://msdn.microsoft.com/294d9e8b-de47-4ebe-8989-558469ba1356">acmFormatTagDetails</a> function is successful, this member is always returned. This member should be set to WAVE_FORMAT_UNKNOWN for all other query flags.
+Waveform-audio format tag that the <b>ACMFORMATTAGDETAILS</b> structure describes. This member is used for input for the ACM_FORMATTAGDETAILSF_FORMATTAG and ACM_FORMATTAGDETAILSF_LARGESTSIZE query flags. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function is successful, this member is always returned. This member should be set to WAVE_FORMAT_UNKNOWN for all other query flags.
 
 
 ### -field cbFormatSize
@@ -82,7 +82,7 @@ Largest total size, in bytes, of a waveform-audio format of the <b>dwFormatTag</
 
 ### -field fdwSupport
 
-Driver-support flags specific to the format tag. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a> structure. This member may be some combination of the following values and refer to what operations the driver supports with the format tag:
+Driver-support flags specific to the format tag. These flags are identical to the <b>fdwSupport</b> flags of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure. This member may be some combination of the following values and refer to what operations the driver supports with the format tag:
 
 <table>
 <tr>
@@ -135,7 +135,7 @@ Driver supports a filter (modification of the data without changing any of the f
 </dl>
 </td>
 <td width="60%">
-Driver supports hardware input, output, or both of the specified format tag through a waveform-audio device. An application should use the <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.
+Driver supports hardware input, output, or both of the specified format tag through a waveform-audio device. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Number of standard formats of the <b>dwFormatTag</b> type; that is, the combinat
 
 ### -field szFormatTag
 
-String that describes the <b>dwFormatTag</b> type. If the <a href="https://msdn.microsoft.com/294d9e8b-de47-4ebe-8989-558469ba1356">acmFormatTagDetails</a> function is successful, this string is always returned.
+String that describes the <b>dwFormatTag</b> type. If the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> function is successful, this string is always returned.
 
 
 ## -see-also
@@ -158,27 +158,27 @@ String that describes the <b>dwFormatTag</b> type. If the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/19ef4569-e6fc-480a-8659-98df3d36d05f">Audio Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/294d9e8b-de47-4ebe-8989-558469ba1356">acmFormatTagDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/1693a7ee-1d9b-494e-8d28-b5e9279951e1">acmFormatTagEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagenum">acmFormatTagEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
  
 
  

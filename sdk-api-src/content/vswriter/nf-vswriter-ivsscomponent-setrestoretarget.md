@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>SetRestoreTarget</b> method sets the restore target (in terms of the 
-<a href="https://msdn.microsoft.com/85b154c0-ebe8-4c17-8cab-0f886bf070e2">VSS_RESTORE_TARGET</a> enumeration) for the current component.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> enumeration) for the current component.
 
 Only a writer can call this method, and only during a restore operation.
 
@@ -65,7 +65,7 @@ Only a writer can call this method, and only during a restore operation.
 ### -param target [in]
 
 A value from 
-<a href="https://msdn.microsoft.com/85b154c0-ebe8-4c17-8cab-0f886bf070e2">VSS_RESTORE_TARGET</a> containing the restore target information.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restore_target">VSS_RESTORE_TARGET</a> containing the restore target information.
 
 
 ## -returns
@@ -144,7 +144,7 @@ The restore target set by
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
  
 
  

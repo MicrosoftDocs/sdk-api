@@ -54,7 +54,7 @@ Provides a read-only object model for a &lt;Package&gt; element in a bundle pack
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestPackageInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxBundleManifestPackageInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestPackageInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestPackageInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBundleManifestPackageInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D8E827D4-0256-4598-A99A-EDB5FA14EDC2">GetFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getfilename">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file-name attribute of the package.
@@ -78,7 +78,7 @@ Retrieves the file-name attribute of the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A55DB4B6-2EA0-4392-B05A-FEE091913573">GetOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getoffset">GetOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the offset of the package relative to the beginning of the bundle.
@@ -87,7 +87,7 @@ Retrieves the offset of the package relative to the beginning of the bundle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5C7F52C3-AB72-4023-900B-53E3B5504213">GetPackageId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getpackageid">GetPackageId</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object that represents the identity of the app package.
@@ -96,7 +96,7 @@ Retrieves an object that represents the identity of the app package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/965E48E3-7C60-4299-85F4-07CB879E7B39">GetPackageType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getpackagetype">GetPackageType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of package that is represented by the package info.
@@ -105,7 +105,7 @@ Retrieves the type of package that is represented by the package info.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07B1028B-4084-44E5-840D-14403E01F628">GetResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getresources">GetResources</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements that are defined in the app package's manifest.
@@ -114,7 +114,7 @@ Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BA9BB378-D9AF-4D96-88B0-219A5545397A">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfo-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the package, in bytes.

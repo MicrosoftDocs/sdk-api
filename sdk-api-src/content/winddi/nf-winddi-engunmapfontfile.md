@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngUnmapFontFile</b> function is <b>obsolete</b>. Use <a href="https://msdn.microsoft.com/61c1acb6-c158-4ba4-ad5b-2f7b1a9bf106">EngUnmapFontFileFD</a> instead.
+The <b>EngUnmapFontFile</b> function is <b>obsolete</b>. Use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapfontfilefd">EngUnmapFontFileFD</a> instead.
 
 
 ## -parameters

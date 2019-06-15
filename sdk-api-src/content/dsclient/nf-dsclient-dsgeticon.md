@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DsGetIcon</b> function obtains the icon for a given object class. This function is obsolete. New applications should use the <a href="https://msdn.microsoft.com/7057779b-4176-41a3-bc7e-0d6958baf245">IDsDisplaySpecifier::GetIcon</a> method to perform this function.
+The <b>DsGetIcon</b> function obtains the icon for a given object class. This function is obsolete. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon">IDsDisplaySpecifier::GetIcon</a> method to perform this function.
 
 
 ## -parameters
@@ -111,7 +111,7 @@ Contains the desired height, in pixels, of the icon. This function retrieves the
 
 
 
-Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>.
+Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller must destroy this icon when it is no longer required by passing this handle to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>.
 
 
 
@@ -121,11 +121,11 @@ Returns a handle to the icon if successful or <b>NULL</b> otherwise. The caller 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/7057779b-4176-41a3-bc7e-0d6958baf245">IDsDisplaySpecifier::GetIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon">IDsDisplaySpecifier::GetIcon</a>
  
 
  

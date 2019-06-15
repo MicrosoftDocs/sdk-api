@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LDAPVLVInfo</b> structure is used to set up the search parameters for a virtual list view (VLV) request control (<a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a>).
+The <b>LDAPVLVInfo</b> structure is used to set up the search parameters for a virtual list view (VLV) request control (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a>).
 
 The <b>LDAPVLVInfo</b> structure may also be used by applications to manage the state data associated with a series of VLV client/server interactions.
 
@@ -66,12 +66,12 @@ Identifies the version of the <b>LDAPVLVInfo</b> structure. This should always b
 
 ### -field ldvlv_before_count
 
-Identifies the number of entries before the target entry that the client wants the server to send back in the list results. This field corresponds to the <b>beforeCount</b> element of the BER-encoded <a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a> control.
+Identifies the number of entries before the target entry that the client wants the server to send back in the list results. This field corresponds to the <b>beforeCount</b> element of the BER-encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a> control.
 
 
 ### -field ldvlv_after_count
 
-Indicates the number of entries after the target entry the client instructs the server to send back in the list results. This field corresponds to the <b>afterCount</b> element of the BER-encoded <a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a> control.
+Indicates the number of entries after the target entry the client instructs the server to send back in the list results. This field corresponds to the <b>afterCount</b> element of the BER-encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a> control.
 
 
 ### -field ldvlv_offset
@@ -92,27 +92,27 @@ Cc is the client-submitted content count
 
 If the client uses an offset value of one (1), it indicates that the target is the first entry in the list. If the client uses an offset value that equals <b>ldvlv_count</b>, then the item is the last entry in the list. The offset will equal zero (0) when <b>ldvlv_count</b> equals zero, which would be the last entry in the list.
 
-Offsets are used only if the search is not based on an attribute value, so <b>ldvlv_attrvalue</b> must be <b>NULL</b>. This field corresponds to the offset element within the BER-encoded <a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a> control.
+Offsets are used only if the search is not based on an attribute value, so <b>ldvlv_attrvalue</b> must be <b>NULL</b>. This field corresponds to the offset element within the BER-encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a> control.
 
 
 ### -field ldvlv_count
 
-Indicates the content count of the list. An estimation of the content count is sent by the client to the server when sending a search request, in order to enable the server to calculate an offset value. The server returns its own calculation of the content count to the client in its response. If the client does not have an estimate for content count, it sends zero (0), which indicates that the server should use its own estimate for content count. This member is used with <b>ldvlv_offset</b>. Because content count is required only if the search is not based on an attribute value, the <b>ldvlv_attrvalue</b> member must be <b>NULL</b>. This field corresponds to the <b>contentCount</b> element within the BER-encoded <a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a> control and the <b>contentCount</b> element within the BER-encoded <a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a> control.
+Indicates the content count of the list. An estimation of the content count is sent by the client to the server when sending a search request, in order to enable the server to calculate an offset value. The server returns its own calculation of the content count to the client in its response. If the client does not have an estimate for content count, it sends zero (0), which indicates that the server should use its own estimate for content count. This member is used with <b>ldvlv_offset</b>. Because content count is required only if the search is not based on an attribute value, the <b>ldvlv_attrvalue</b> member must be <b>NULL</b>. This field corresponds to the <b>contentCount</b> element within the BER-encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a> control and the <b>contentCount</b> element within the BER-encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a> control.
 
 
 ### -field ldvlv_attrvalue
 
-Provides an attribute value as a target entry for the search. The server compares this member to values that have the same attribute type, as specified in the <b>sk_attrtype</b> member of the <a href="https://msdn.microsoft.com/3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c">LDAPSortKey</a> structure. If an offset is used, then this member must be <b>NULL</b>. This member corresponds to the <b>assertionValue</b> element of the BER-encoded <a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a> control.
+Provides an attribute value as a target entry for the search. The server compares this member to values that have the same attribute type, as specified in the <b>sk_attrtype</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapsortkeya">LDAPSortKey</a> structure. If an offset is used, then this member must be <b>NULL</b>. This member corresponds to the <b>assertionValue</b> element of the BER-encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a> control.
 
 
 ### -field ldvlv_context
 
-Provides the context ID that is assigned by the server to identify this search operation. This is an opaque "cookie" used by the server to keep internal track of the current VLV operation. On the first call to the search operation using the VLV control, this parameter should be set to <b>NULL</b>. The server may return a value in the <a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a> message. This "cookie" value should be returned to the server on the next call to a search function that is performed against a particular VLV list.
+Provides the context ID that is assigned by the server to identify this search operation. This is an opaque "cookie" used by the server to keep internal track of the current VLV operation. On the first call to the search operation using the VLV control, this parameter should be set to <b>NULL</b>. The server may return a value in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a> message. This "cookie" value should be returned to the server on the next call to a search function that is performed against a particular VLV list.
 
 
 ### -field ldvlv_extradata
 
-This field is reserved for application-specific use and is not used by the <a href="https://msdn.microsoft.com/f4305aa9-e967-45a8-8b8b-49b1e60994e8">ldap_create_vlv_control</a> function; it has no effect on the control that is created.
+This field is reserved for application-specific use and is not used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_vlv_controla">ldap_create_vlv_control</a> function; it has no effect on the control that is created.
 
 
 ## -remarks
@@ -125,15 +125,15 @@ There are two methods for calculating the target of a VLV search: using an attri
 <li>
 Searching with Attribute Values
 
-To perform a value-based search, for example, if you wanted to search for Jeff Smith, and you know the attribute type for that value, then set the attribute type in the <b>sk_attrtype</b> member of the <a href="https://msdn.microsoft.com/3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c">LDAPSortKey</a> structure and the attribute value in <b>ldvlv_attrvalue</b>. The <b>ldvlv_offset</b> member is ignored for this type of search, so it is not necessary to set it.
+To perform a value-based search, for example, if you wanted to search for Jeff Smith, and you know the attribute type for that value, then set the attribute type in the <b>sk_attrtype</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapsortkeya">LDAPSortKey</a> structure and the attribute value in <b>ldvlv_attrvalue</b>. The <b>ldvlv_offset</b> member is ignored for this type of search, so it is not necessary to set it.
 
-For example, to perform a search using the letter J. To retrieve 20 results, set <b>ldvlv_before_count</b> to 9, <b>ldvlv_after_count</b> to 10 and <b>ldvlv_attrvalue</b> to J. The server finds the first entry in the list that is not less than J, such as Jeff Smith, and returns the nine preceding entries, the target entry, and the proceeding 10 entries. The server would return a <b>ldvlv_count</b> of 30000 and a <b>ldvlv_offset</b> of 4053 in the <a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a> control; that is assuming that Jeff Smith is entry number 4053 on the list. The server may return few entries than requested before and/or after the target entry if there are insufficient entries in the list to satisfy the request. For example, if there were only two entries total before the first 'J' entry, the server could not return nine preceding entries.
+For example, to perform a search using the letter J. To retrieve 20 results, set <b>ldvlv_before_count</b> to 9, <b>ldvlv_after_count</b> to 10 and <b>ldvlv_attrvalue</b> to J. The server finds the first entry in the list that is not less than J, such as Jeff Smith, and returns the nine preceding entries, the target entry, and the proceeding 10 entries. The server would return a <b>ldvlv_count</b> of 30000 and a <b>ldvlv_offset</b> of 4053 in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a> control; that is assuming that Jeff Smith is entry number 4053 on the list. The server may return few entries than requested before and/or after the target entry if there are insufficient entries in the list to satisfy the request. For example, if there were only two entries total before the first 'J' entry, the server could not return nine preceding entries.
 
 </li>
 <li>
 Searching with Offsets
 
-To use offsets for your search, set an offset in <b>ldvlv_offset</b>, and set <b>ldvlv_attrvalue</b> to <b>NULL</b>. Also set the attribute type in the <b>sk_attrtype</b> member of the <a href="https://msdn.microsoft.com/3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c">LDAPSortKey</a>, but this time, the target will be an offset within the list of entries for that attribute type, rather than a specific attribute value.
+To use offsets for your search, set an offset in <b>ldvlv_offset</b>, and set <b>ldvlv_attrvalue</b> to <b>NULL</b>. Also set the attribute type in the <b>sk_attrtype</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapsortkeya">LDAPSortKey</a>, but this time, the target will be an offset within the list of entries for that attribute type, rather than a specific attribute value.
 
 For example, to target the search 68 percent of the search results list. If the <b>ldvlv_count</b> is 30000, the 68 percent of 30000 is 20400. To retrieve 20 results, set <b>ldvlv_before_count</b> to 9, <b>ldvlv_after_count</b> to 10, <b>ldvlv_count</b> to 30000, <b>ldvlv_offset</b> to 20400 and send the request to the server. The server  returns the preceding 20 entries in the list, plus the <b>ldvlv_count</b> of 30000 and a <b>ldvlv_offset</b> of 20400. Be aware that it is possible for the number of entries on the list to change between the client estimation of the number of entries and the server processing the search, which in turn effects the offsets. In this case the target entry returned may not be exactly the target entry the client was expecting. Applications must be prepared to handle this uncertainty.
 
@@ -149,39 +149,39 @@ Be aware that a sort control must accompany a VLV search request to specify the 
 
 
 
-<a href="https://msdn.microsoft.com/c0b4d712-021d-46f3-8bda-aaf660ec1acc">LDAPControl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f00ca19-544e-4616-a70a-e7e62fa84f53">LDAP_CONTROL_VLVREQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvrequest">LDAP_CONTROL_VLVREQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd7906bd-9e2d-4941-9a63-3e530cb9583b">LDAP_CONTROL_VLVRESPONSE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/ldap-control-vlvresponse">LDAP_CONTROL_VLVRESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2b03021-7e6a-413b-8e0a-df037d9a71de">Searching with the LDAP VLV Control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/searching-with-the-ldap-vlv-control">Searching with the LDAP VLV Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbf8f860-ead8-4b22-8efa-0697076267ad">ldap_create_sort_control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_sort_control">ldap_create_sort_control</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4305aa9-e967-45a8-8b8b-49b1e60994e8">ldap_create_vlv_control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_vlv_controla">ldap_create_vlv_control</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1a1e47f-c53b-48a3-9c40-0e1518c5c729">ldap_parse_vlv_control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_vlv_controla">ldap_parse_vlv_control</a>
 
 
 
-<a href="https://msdn.microsoft.com/25ba88f3-44f6-42b8-9d33-6e57f2484738">ldap_search_ext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ce74c35-7a30-4757-a4f7-d5cd4a389584">ldap_search_ext_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
  
 
  

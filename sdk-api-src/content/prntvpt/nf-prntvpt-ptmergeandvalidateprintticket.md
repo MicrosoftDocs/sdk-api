@@ -59,21 +59,21 @@ Merges two print tickets and returns a valid, viable print ticket.
 
 ### -param hProvider [in]
 
-A handle to an open print ticket provider. This handle is returned by the <a href="https://msdn.microsoft.com/6821b1b0-74b0-4caf-b8e6-a9df4d7693d7">PTOpenProvider</a> or the <a href="https://msdn.microsoft.com/0e65170b-66f6-4238-bdde-0a0b7108a686">PTOpenProviderEx</a> function.
+A handle to an open print ticket provider. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 
 ### -param pBaseTicket [in]
 
 A pointer to a print ticket. The stream's seek position must be at the beginning of the print ticket content. 
 
-<div class="alert"><b>Note</b>  <b>PTMergeAndValidatePrintTicket</b> will validate the base ticket against the <a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema Framework</a> before merging.</div>
+<div class="alert"><b>Note</b>  <b>PTMergeAndValidatePrintTicket</b> will validate the base ticket against the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema Framework</a> before merging.</div>
 <div> </div>
 
 ### -param pDeltaTicket [in]
 
 A pointer to a print ticket. The stream's seek position must be at the beginning of the print ticket content. <b>NULL</b> can be passed to this parameter. See Remarks. 
 
-<div class="alert"><b>Note</b>  <b>PTMergeAndValidatePrintTicket</b> will validate the delta ticket against the <a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema Framework</a> before merging.</div>
+<div class="alert"><b>Note</b>  <b>PTMergeAndValidatePrintTicket</b> will validate the delta ticket against the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema Framework</a> before merging.</div>
 <div> </div>
 
 ### -param scope [in]
@@ -105,7 +105,7 @@ If <i>pBaseTicket</i> is invalid, the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
 
 If <i>pDeltaTicket</i> is invalid, the <b>HRESULT</b> is E_DELTA_PRINTTICKET_FORMAT.
 
-Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 
 
@@ -119,7 +119,7 @@ Otherwise, some other error code is returned in the <b>HRESULT</b>. For more inf
 <i>hProvider</i> must be a handle that was opened in the same thread as the thread in which it is used for this function. 
       
 
-This function validates in two ways: It first validates both input tickets against the <a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema Framework</a>, reporting errors in <i>pbstrErrorMessage</i>. It then checks the viability of the merged print ticket with the printer driver. If the merged ticket requests functionality that the printer does not support, the nonviable settings are replaced and the printer driver determines what substitute setting to use. Typically, the printer driver uses the user's default print ticket setting. If the printer driver does not use the same print ticket that <i>pBaseTicket</i> points to as the source for substitute values, it is possible that <i>pResultTicket</i> will differ in some settings from both of the input print tickets.
+This function validates in two ways: It first validates both input tickets against the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema Framework</a>, reporting errors in <i>pbstrErrorMessage</i>. It then checks the viability of the merged print ticket with the printer driver. If the merged ticket requests functionality that the printer does not support, the nonviable settings are replaced and the printer driver determines what substitute setting to use. Typically, the printer driver uses the user's default print ticket setting. If the printer driver does not use the same print ticket that <i>pBaseTicket</i> points to as the source for substitute values, it is possible that <i>pResultTicket</i> will differ in some settings from both of the input print tickets.
 
 Typically, <i>pBaseTicket</i> contains a full range of job, document and page settings. Usually the user default or the device default print ticket is used for <i>pBaseTicket</i>.
 
@@ -131,7 +131,7 @@ Settings that are outside of the <i>scope</i> are not included in the <i>pResult
 
 When the function returns a value, the seek position of <i>pResultTicket</i> is at the end of the print ticket content. The caller is responsible for resetting the seek position before reading the data.
 
-If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the caller must free the string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 
 
@@ -141,15 +141,15 @@ If <i>pbstrErrorMessage</i> is not <b>NULL</b> when the function returns, the ca
 
 
 
-<a href="https://msdn.microsoft.com/98d5f8ec-54bd-4e88-b632-ed427b599cb6">Print Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39">Print Spooler API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

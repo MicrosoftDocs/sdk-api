@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-Handles events that are generated or received by a <a href="https://msdn.microsoft.com/3e6dc5c7-2238-4ea8-a4fb-75e4b56d3cfd">IRendezvousSession</a> object.
+Handles events that are generated or received by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rendezvoussession/nn-rendezvoussession-irendezvoussession">IRendezvousSession</a> object.
 

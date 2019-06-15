@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the identifier of the application instance of the current object context. This information is useful when using <a href="https://msdn.microsoft.com/b0ae1b52-b0c5-4f1c-94c6-628d39ef40e3">COM+ Application Recycling</a>, for example.
+Retrieves the identifier of the application instance of the current object context. This information is useful when using <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--application-recycling">COM+ Application Recycling</a>, for example.
 
 
 
@@ -77,7 +77,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/21e078d2-ba93-4118-b1d1-3b4b6e0e28a4">IObjectContextInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo2">IObjectContextInfo2</a>
  
 
  

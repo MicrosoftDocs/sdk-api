@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SecPkgContext_StreamSizes</b> structure indicates the sizes of the various parts of a stream for use with the message support functions. The 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ Specifies the preferred integral size of the messages. For example, eight indica
 
 
 
-Applications calling <a href="https://msdn.microsoft.com/2e09f262-9c3e-4db2-9285-017f5e1810c7">EncryptMessage (General)</a> should check the values of the <b>cbHeader</b>, <b>cbTrailer</b>, and <b>cbMaximumMessage</b> members to determine the size of the encrypted packet.
+Applications calling <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-encryptmessage">EncryptMessage (General)</a> should check the values of the <b>cbHeader</b>, <b>cbTrailer</b>, and <b>cbMaximumMessage</b> members to determine the size of the encrypted packet.
 
 
 
@@ -97,7 +97,7 @@ Applications calling <a href="https://msdn.microsoft.com/2e09f262-9c3e-4db2-9285
 
 
 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
  
 
  

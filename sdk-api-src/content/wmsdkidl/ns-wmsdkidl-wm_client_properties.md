@@ -75,15 +75,15 @@ The <b>WM_CLIENT_PROPERTIES </b>structure records information about the client.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743307(v=VS.85).aspx">IWMClientConnections::GetClientProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmclientconnections-getclientproperties">IWMClientConnections::GetClientProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a>
  
 
  

@@ -73,7 +73,7 @@ An optional pointer to a constant structure containing the values of the paramet
 
 ### -param ExecutionParametersDataSizeInBytes [in]
 
-A <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a> containing the size of the structure pointed to by <i>pExecutionParametersData</i>, if set, otherwise 0.
+A <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a> containing the size of the structure pointed to by <i>pExecutionParametersData</i>, if set, otherwise 0.
 
 
 ## -returns

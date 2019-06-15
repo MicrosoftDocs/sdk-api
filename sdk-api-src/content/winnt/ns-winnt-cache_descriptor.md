@@ -120,7 +120,7 @@ The cache size, in bytes.
 
 ### -field Type
 
-The cache type. This member is a <a href="https://msdn.microsoft.com/23044f67-e944-43c2-8c75-3d2fba87cb3c">PROCESSOR_CACHE_TYPE</a> value.
+The cache type. This member is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_processor_cache_type">PROCESSOR_CACHE_TYPE</a> value.
 
 
 ## -see-also
@@ -128,15 +128,15 @@ The cache type. This member is a <a href="https://msdn.microsoft.com/23044f67-e9
 
 
 
-<a href="https://msdn.microsoft.com/904d2d35-f419-4e8f-a689-f39ed926644c">GetLogicalProcessorInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/23044f67-e944-43c2-8c75-3d2fba87cb3c">PROCESSOR_CACHE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_processor_cache_type">PROCESSOR_CACHE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/32ef5dd8-c00d-44ee-a291-a18653beb1b9">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
  
 
  

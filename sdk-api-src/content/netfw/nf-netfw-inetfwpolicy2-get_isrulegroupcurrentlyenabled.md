@@ -143,11 +143,11 @@ When indirect strings in the form of "@C:\Program Files\Contoso Storefront\Store
 
 
 
-<a href="https://msdn.microsoft.com/ef01a531-ddb0-4eb4-894b-82f613016396">INetFwPolicy2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a5ee070-3476-4b23-8543-90aa58832a4c">Rule Authoring</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/rule-authoring">Rule Authoring</a>
  
 
  

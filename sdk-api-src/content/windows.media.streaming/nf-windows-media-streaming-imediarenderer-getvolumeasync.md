@@ -59,7 +59,7 @@ Queries the DMR asynchronously for its current audio volume level.
 
 ### -param value [out]
 
-Receives a reference to a <a href="https://msdn.microsoft.com/F7BCE2AB-89B5-44CE-8BDF-347F2E3FD6C9">GetVolumeOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/getvolumeoperation">GetVolumeOperation</a> object that is used to get results from the asynchronous operation.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

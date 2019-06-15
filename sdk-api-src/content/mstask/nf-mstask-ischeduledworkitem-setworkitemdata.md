@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method stores application-defined data associated with the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+This method stores application-defined data associated with the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
 
 ## -parameters
@@ -125,7 +125,7 @@ Not enough memory is available.
 
 
 You can retrieve data by calling 
-<a href="https://msdn.microsoft.com/1b37c412-80ed-44fb-8b3a-b142a9669080">IScheduledWorkItem::GetWorkItemData</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getworkitemdata">IScheduledWorkItem::GetWorkItemData</a>.
 
 Programs must call the <b>IPersistFile::Save</b> method after calling 
 <b>SetWorkItemData</b> to update the work item data.
@@ -138,11 +138,11 @@ Programs must call the <b>IPersistFile::Save</b> method after calling
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b37c412-80ed-44fb-8b3a-b142a9669080">IScheduledWorkItem::GetWorkItemData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getworkitemdata">IScheduledWorkItem::GetWorkItemData</a>
  
 
  

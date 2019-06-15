@@ -95,11 +95,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/bbec5687-3c77-4385-a9be-74c6d84db962">IWindowsMediaLibrarySharingServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3f2863f-4a0d-4896-967f-4daa164bae3b">IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_userhomemediasharinglibraryname">IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName</a>
  
 
  

@@ -65,9 +65,9 @@ The handle to the parent window for any user interface that is used to install t
 
 ### -param InfFileName [in, optional]
 
-A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
+A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
 
-If this function is being used to install an interface class, the INF file contains an <a href="https://msdn.microsoft.com/library/Ff547446(v=VS.85).aspx">INF InterfaceInstall32 section</a>. 
+If this function is being used to install an interface class, the INF file contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-interfaceinstall32-section">INF InterfaceInstall32 section</a>. 
 
 
 ### -param Flags [in]
@@ -142,9 +142,9 @@ Reserved. Must be zero.
 
 The caller of this function must be a member of the Administrators group.
 
-<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> or a new <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. 
+<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> or a new <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. 
 
-<div class="alert"><b>Note</b>  An interface class can also be installed automatically by calling <a href="https://msdn.microsoft.com/c47d83f6-9ae5-43a9-a6ed-b0441b490e8d">SetupDiInstallDeviceInterfaces</a> to install the device interfaces for a device.</div>
+<div class="alert"><b>Note</b>  An interface class can also be installed automatically by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a> to install the device interfaces for a device.</div>
 <div> </div>
 
 
@@ -154,11 +154,11 @@ The caller of this function must be a member of the Administrators group.
 
 
 
-<a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://msdn.microsoft.com/c47d83f6-9ae5-43a9-a6ed-b0441b490e8d">SetupDiInstallDeviceInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a>
  
 
  

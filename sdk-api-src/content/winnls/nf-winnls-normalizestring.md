@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see <a href="https://msdn.microsoft.com/027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35">Using Unicode Normalization to Represent Strings</a>.
+Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Normalizes characters of a text string according to Unicode 4.0 TR#15. For more 
 
 ### -param NormForm [in]
 
-Normalization form to use. <a href="https://msdn.microsoft.com/d0133c6d-3534-4616-8b6f-07ec712808a3">NORM_FORM</a> specifies the standard Unicode normalization forms.
+Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-_norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
 
 
 ### -param lpSrcString [in]
@@ -94,7 +94,7 @@ Returns the length of the normalized string in the destination buffer. If <i>cwD
 
 If the string in the input buffer is null-terminated or if <i>cwSrcLength</i> is -1, the string written to the destination buffer is null-terminated and the returned string length includes the terminating null character.
 
-The function returns a value that is less than or equal to 0 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+The function returns a value that is less than or equal to 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -109,7 +109,7 @@ The function returns a value that is less than or equal to 0 if it does not succ
 
 
 
-Some Unicode characters have multiple equivalent binary representations consisting of sets of combining and/or composite Unicode characters. The Unicode standard defines a process called normalization that returns one binary representation when given any of the equivalent binary representations of a character. Normalization can be performed with several algorithms, called normalization forms, that obey different rules, as described in <a href="https://msdn.microsoft.com/027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35">Using Unicode Normalization to Represent Strings</a>. The Win32 and the .NET Framework currently support normalization forms C, D, KC, and KD, as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=161647">Unicode Standard Annex #15: Unicode Normalization Forms</a>. Normalized strings are typically evaluated with an ordinal comparison.
+Some Unicode characters have multiple equivalent binary representations consisting of sets of combining and/or composite Unicode characters. The Unicode standard defines a process called normalization that returns one binary representation when given any of the equivalent binary representations of a character. Normalization can be performed with several algorithms, called normalization forms, that obey different rules, as described in <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>. The Win32 and the .NET Framework currently support normalization forms C, D, KC, and KD, as defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=161647">Unicode Standard Annex #15: Unicode Normalization Forms</a>. Normalized strings are typically evaluated with an ordinal comparison.
 
 The following code demonstrates the use of the buffer length estimate:
 
@@ -148,7 +148,7 @@ for (int i = 0; i < maxIterations; i++)
 
 #### Examples
 
-An example showing the use of this function can be found in <a href="https://msdn.microsoft.com/f1f789f9-f12b-465c-8c84-33a8efa6fbc5">NLS: Unicode Normalization Sample</a>.
+An example showing the use of this function can be found in <a href="https://docs.microsoft.com/windows/desktop/Intl/nls--unicode-normalization-sample">NLS: Unicode Normalization Sample</a>.
 
 
 
@@ -161,23 +161,23 @@ An example showing the use of this function can be found in <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/5a1d3977-9fe9-457f-b0a2-46b32bcc27db">IsNormalizedString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isnormalizedstring">IsNormalizedString</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0133c6d-3534-4616-8b6f-07ec712808a3">NORM_FORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-_norm_form">NORM_FORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35">Using Unicode Normalization to Represent Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
  
 
  

@@ -97,7 +97,7 @@ Returns only the namespace portion of the path.
 #### WBEMPATH_GET_ORIGINAL
 
 Returns whatever was passed in using 
-<a href="https://msdn.microsoft.com/a3ff2aa9-ffa8-4048-ac07-4b815b620d1f">SetText</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> method.
 
 
 ### -param puBuffLength [in, out]
@@ -124,7 +124,7 @@ This method returns the following values.
 
 
 
-<a href="https://msdn.microsoft.com/71b2597b-d82a-439d-b0b7-af76aefea6a2">IWbemPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
  
 
  

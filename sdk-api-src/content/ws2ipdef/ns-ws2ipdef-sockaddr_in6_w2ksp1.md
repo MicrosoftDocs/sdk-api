@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The SOCKADDR_IN6 structure specifies a transport address and port for the 
-  <a href="https://msdn.microsoft.com/library/Ff543746(v=VS.85).aspx">AF_INET6</a> address family.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a> address family.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ The IPv6 flow information.
 ### -field sin6_addr
 
 An 
-     <a href="https://msdn.microsoft.com/218b07e8-94cf-42f2-a762-13fc1f7c4473">IN6_ADDR</a> structure that contains an IPv6 transport
+     <a href="https://docs.microsoft.com/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a> structure that contains an IPv6 transport
      address.
 
 
@@ -248,9 +248,9 @@ All of the data in the SOCKADDR_IN6 structure, except for the address family, mu
     network-byte-order (big-endian).
 
 The size of the SOCKADDR_IN6 structure is too large to fit in the memory space that is provided by a 
-    <a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a> structure. For a structure that is
+    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure. For a structure that is
     guaranteed to be large enough to contain a transport address for all possible address families, see 
-    <a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>.
 
 
 
@@ -260,19 +260,19 @@ The size of the SOCKADDR_IN6 structure is too large to fit in the memory space t
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff543746(v=VS.85).aspx">AF_INET6</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a>
 
 
 
-<a href="https://msdn.microsoft.com/218b07e8-94cf-42f2-a762-13fc1f7c4473">IN6_ADDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/27e56c1a-ce11-4cdb-9be8-25ed2f94fb37">SOCKADDR_STORAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>
  
 
  

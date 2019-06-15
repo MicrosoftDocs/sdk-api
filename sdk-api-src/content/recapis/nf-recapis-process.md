@@ -69,7 +69,7 @@ The handle to the recognizer context.
 
 Specify <b>TRUE</b> to process a subset of the ink. Partial processing reduces the time the recognizer spends performing recognition if more ink is expected.
 
-Typically an application specifies <b>FALSE</b> to process all the ink. The function does not process all the ink if you have not called the <a href="https://msdn.microsoft.com/a384edf8-3b3d-4e0c-b39c-976798457076">EndInkInput</a> function.
+Typically an application specifies <b>FALSE</b> to process all the ink. The function does not process all the ink if you have not called the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput">EndInkInput</a> function.
 
 The function sets the <i>pbPartialProcessing</i> parameter to <b>TRUE</b> if there is enough ink left to continue processing; otherwise, <b>FALSE</b>.
 
@@ -103,7 +103,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The function did not process the ink because the ink has been fully processed, or the <a href="https://msdn.microsoft.com/a384edf8-3b3d-4e0c-b39c-976798457076">EndInkInput</a> function has not been called and the recognizer does not support incremental processing of ink.
+The function did not process the ink because the ink has been fully processed, or the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-endinkinput">EndInkInput</a> function has not been called and the recognizer does not support incremental processing of ink.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ The function did not process the ink because the ink has been fully processed, o
 </dl>
 </td>
 <td width="60%">
-The process was interrupted by a call to the <a href="https://msdn.microsoft.com/326bbbff-4adc-46ae-aab3-626b55fecf0c">AdviseInkChange</a> function.
+The process was interrupted by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-adviseinkchange">AdviseInkChange</a> function.
 
 </td>
 </tr>

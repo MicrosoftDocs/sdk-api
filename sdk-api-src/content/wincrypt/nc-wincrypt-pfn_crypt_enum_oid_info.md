@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_ENUM_OID_INFO</b> callback function  is used with the <a href="https://msdn.microsoft.com/6af23bb4-3a27-425a-90bb-9a69ea081b25">CryptEnumOIDInfo</a> function.
+The <b>CRYPT_ENUM_OID_INFO</b> callback function  is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> function.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ A pointer to arguments passed through to the callback function.
 
 
 Returns <b>TRUE</b> to continue the enumeration and <b>FALSE</b> to stop the enumeration.
- If <b>FALSE</b> is returned, the <a href="https://msdn.microsoft.com/6af23bb4-3a27-425a-90bb-9a69ea081b25">CryptEnumOIDInfo</a> enumeration is stopped.
+ If <b>FALSE</b> is returned, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> enumeration is stopped.
 
 
 
@@ -82,7 +82,7 @@ Returns <b>TRUE</b> to continue the enumeration and <b>FALSE</b> to stop the enu
 
 
 
-<a href="https://msdn.microsoft.com/6af23bb4-3a27-425a-90bb-9a69ea081b25">CryptEnumOIDInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a>
  
 
  

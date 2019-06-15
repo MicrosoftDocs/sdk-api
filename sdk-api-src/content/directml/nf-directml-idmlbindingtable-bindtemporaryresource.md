@@ -70,7 +70,7 @@ You don't need to preserve the contents of the temporary buffer, and your applic
         operator.
 
 The supplied buffer range to be bound as the temporary buffer must have its start offset aligned to
-        [DML_TEMPORARY_BUFFER_ALIGNMENT](/windows/desktop/direct3d12/direct3d-directml-constants). The type of the heap underlying the buffer must be <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE_DEFAULT</a>.
+        [DML_TEMPORARY_BUFFER_ALIGNMENT](/windows/desktop/direct3d12/direct3d-directml-constants). The type of the heap underlying the buffer must be <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a>.
 
 
 ## -parameters

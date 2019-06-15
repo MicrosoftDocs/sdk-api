@@ -59,7 +59,7 @@ Retrieves a pointer to the object's container.
 
 ### -param ppContainer [out]
 
-Address of <a href="https://msdn.microsoft.com/98549309-8ac8-4391-92ab-8a62269ff579">IOleContainer</a> pointer variable that receives the interface pointer to the container object. If an error occurs, the implementation must set <i>ppContainer</i> to <b>NULL</b>.
+Address of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecontainer">IOleContainer</a> pointer variable that receives the interface pointer to the container object. If an error occurs, the implementation must set <i>ppContainer</i> to <b>NULL</b>.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The client site is in an OLE 1 container.
 </dl>
 </td>
 <td width="60%">
-The container does not implement the <a href="https://msdn.microsoft.com/98549309-8ac8-4391-92ab-8a62269ff579">IOleContainer</a> interface.
+The container does not implement the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecontainer">IOleContainer</a> interface.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The container does not implement the <a href="https://msdn.microsoft.com/9854930
 
 If a container supports links to its embedded objects, implementing <b>GetContainer</b> enables link clients to enumerate the container's objects and recursively traverse a containment hierarchy. This method is optional but recommended for all containers that expect to support links to their embedded objects.
 
-Link clients can traverse a hierarchy of compound-document objects by recursively calling <b>GetContainer</b> to get a pointer to the link source's container; followed by <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> to get a pointer to the container's <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> interface and, finally, <a href="https://msdn.microsoft.com/bf26b989-445c-48d3-b279-29e4cef0ad97">IOleObject::GetClientSite</a> to get the container's client site in its container.
+Link clients can traverse a hierarchy of compound-document objects by recursively calling <b>GetContainer</b> to get a pointer to the link source's container; followed by <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to get a pointer to the container's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface and, finally, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclientsite">IOleObject::GetClientSite</a> to get the container's client site in its container.
 
 Simple containers that do not support links to their embedded objects probably do not need to implement this method. Instead, they can return E_NOINTERFACE and set <i>ppContainer</i> to <b>NULL</b>.
 
@@ -119,7 +119,7 @@ Simple containers that do not support links to their embedded objects probably d
 
 
 
-<a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
  
 
  

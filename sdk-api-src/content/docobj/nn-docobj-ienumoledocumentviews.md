@@ -54,7 +54,7 @@ Enumerates the views supported by a document object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleDocumentViews</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IEnumOleDocumentViews</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumOleDocumentViews</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumOleDocumentViews</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumOleDocumentViews</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3d6eaaf-455a-4d66-87d2-ba19a1db1faf">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ienumoledocumentviews-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumerator that contains the same enumeration state as the current one.
@@ -78,7 +78,7 @@ Creates a new enumerator that contains the same enumeration state as the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a58131bf-88ff-4661-9047-2d70b5e7931b">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ienumoledocumentviews-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified number of items in the enumeration sequence.
@@ -87,7 +87,7 @@ Retrieves the specified number of items in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b9dbdf36-fff1-4cd5-a890-219c8311dadf">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ienumoledocumentviews-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -96,7 +96,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea853e5a-ea73-441f-9b13-0425a4d734ad">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ienumoledocumentviews-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified number of items in the enumeration sequence.

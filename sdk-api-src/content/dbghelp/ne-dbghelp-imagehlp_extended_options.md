@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Lists the extended symbol options that you can get and set by using the <a href="https://msdn.microsoft.com/3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0">SymGetExtendedOption</a> and <a href="https://msdn.microsoft.com/25756250-D2B4-4D5A-BED0-238C34C18093">SymSetExtendedOption</a> functions.
+Lists the extended symbol options that you can get and set by using the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a> functions.
 
 
 ## -enum-fields
@@ -72,11 +72,11 @@ Unused.
 
 
 
-<a href="https://msdn.microsoft.com/3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0">SymGetExtendedOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetextendedoption">SymGetExtendedOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/25756250-D2B4-4D5A-BED0-238C34C18093">SymSetExtendedOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetextendedoption">SymSetExtendedOption</a>
  
 
  

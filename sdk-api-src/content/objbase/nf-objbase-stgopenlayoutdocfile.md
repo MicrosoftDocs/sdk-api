@@ -52,10 +52,10 @@ ms.custom: 19H1
 Not supported.
 
 The <b>StgOpenLayoutDocfile</b> function opens a compound file on an 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> implementation that is capable of monitoring sector data. To call  <b>StgOpenLayoutDocfile</b>, both  DfLayout.dll and DfLayout.lib are required.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> implementation that is capable of monitoring sector data. To call  <b>StgOpenLayoutDocfile</b>, both  DfLayout.dll and DfLayout.lib are required.
 
 
-<div class="alert"><b>Note</b>  Do not use this function. Use the <a href="https://msdn.microsoft.com/8b25b32b-f739-406a-96e8-dba687c7f055">IStorage::CopyTo</a>  
+<div class="alert"><b>Note</b>  Do not use this function. Use the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-copyto">IStorage::CopyTo</a>  
  method instead. <b>CopyTo</b> can be used to layout a docfile, thus improving performance in most scenarios.</div>
 <div> </div>
 
@@ -74,7 +74,7 @@ A pointer to the null-terminated Unicode string name of the compound file to be 
 ### -param grfMode [in]
 
 Access mode to use when opening the newly created storage object. Values are taken from the 
-<a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>. Be aware that priority mode and exclusions are not supported. The most common access mode is likely to be STGM_DIRECT | STGM_READ | STGM_SHARE_EXCLUSIVE.
+<a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>. Be aware that priority mode and exclusions are not supported. The most common access mode is likely to be STGM_DIRECT | STGM_READ | STGM_SHARE_EXCLUSIVE.
 
 
 ### -param reserved [in]
@@ -85,7 +85,7 @@ Reserved for future use.
 ### -param ppstgOpen [out]
 
 A pointer to 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer variable that receives the interface pointer to the root object of the newly created root storage object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer variable that receives the interface pointer to the root object of the newly created root storage object.
 
 
 ## -returns
@@ -95,7 +95,7 @@ A pointer to
 This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, in addition to the following:
 
 The <b>StgOpenLayoutDocfile</b> function can also return any of the error values returned by the 
-<a href="https://msdn.microsoft.com/7920bd46-0a8f-42e0-9988-59d85edb64e2">StgOpenStorageOnILockBytes</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageonilockbytes">StgOpenStorageOnILockBytes</a> function.
 
 
 
@@ -105,9 +105,9 @@ The <b>StgOpenLayoutDocfile</b> function can also return any of the error values
 
 
 The compound file implementation created by this function exposes the 
-<a href="https://msdn.microsoft.com/72201600-4bbb-4346-a13f-927e8463b6ec">ILayoutStorage</a> interface on its root storage. Applications use this interface to express the optimal layout of their compound files in order to download and render data more rapidly over a slow link. 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilayoutstorage">ILayoutStorage</a> interface on its root storage. Applications use this interface to express the optimal layout of their compound files in order to download and render data more rapidly over a slow link. 
 <b>StgOpenLayoutDocfile</b> returns a pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the root storage of the newly created compound file. Using this pointer, applications call <b>QueryInterface</b> to obtain a pointer to 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the root storage of the newly created compound file. Using this pointer, applications call <b>QueryInterface</b> to obtain a pointer to 
 <b>ILayoutStorage</b>.
 
 
@@ -118,19 +118,19 @@ The compound file implementation created by this function exposes the
 
 
 
-<a href="https://msdn.microsoft.com/8b25b32b-f739-406a-96e8-dba687c7f055">CopyTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-copyto">CopyTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM Constants</a>
  
 
  

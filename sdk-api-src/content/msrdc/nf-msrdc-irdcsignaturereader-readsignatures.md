@@ -61,9 +61,9 @@ The
 
 ### -param rdcSignaturePointer [in, out]
 
-Address of a <a href="https://msdn.microsoft.com/ece0fddf-1c06-493d-aed9-6bc86bb014f3">RdcSignaturePointer</a> structure. On 
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0008">RdcSignaturePointer</a> structure. On 
       input the <b>m_Size</b> member of this structure must contain the number of 
-      <a href="https://msdn.microsoft.com/eca15d66-1d8c-422b-a2ab-7dbe00cb4087">RdcSignature</a> structures in the array pointed to by the 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures in the array pointed to by the 
       <b>m_Data</b> member, and the <b>m_Used</b> member must be zero. On 
       output the <b>m_Used</b> member will contain the number of 
       <b>RdcSignature</b> structures in the array pointed to by the 
@@ -90,11 +90,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/dec6eb10-1243-4888-9ccc-ab1f4cfb11e7">IRdcSignatureReader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsignaturereader">IRdcSignatureReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/ece0fddf-1c06-493d-aed9-6bc86bb014f3">RdcSignaturePointer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0008">RdcSignaturePointer</a>
  
 
  

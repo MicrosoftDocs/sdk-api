@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the output of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
+Defines the output of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 
 ## -struct-fields
@@ -59,17 +59,17 @@ Defines the output of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4
 
 ### -field interactionId
 
-ID of the  <a href="https://msdn.microsoft.com/60BFDCD7-D277-4B4A-94DA-7ADB1412252A">Interaction Context</a> object.
+ID of the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 
 ### -field interactionFlags
 
-One of the constants from <a href="https://msdn.microsoft.com/8d1adbd2-03ca-4609-9738-45bc7b21f934">INTERACTION_FLAGS</a>.
+One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_flags">INTERACTION_FLAGS</a>.
 
 
 ### -field inputType
 
-One of the constants from <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">POINTER_INPUT_TYPE</a>.
+One of the constants from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a>.
 
 
 ### -field x
@@ -105,31 +105,31 @@ The state of the cross-slide interaction.
 
 
 
-<a href="https://msdn.microsoft.com/365b0bed-888e-4e9c-ad13-254a241b9de9">INTERACTION_ARGUMENTS_CROSS_SLIDE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_cross_slide">INTERACTION_ARGUMENTS_CROSS_SLIDE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ef21f5a-51ae-4923-a5b4-0ee18bca563f">INTERACTION_ARGUMENTS_MANIPULATION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_manipulation">INTERACTION_ARGUMENTS_MANIPULATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/162f35a0-5053-46ad-a7ca-ce314d584e34">INTERACTION_ARGUMENTS_TAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_tap">INTERACTION_ARGUMENTS_TAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d2badad-5b98-4717-9409-5ee75d8fa213">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d1adbd2-03ca-4609-9738-45bc7b21f934">INTERACTION_FLAGS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_flags">INTERACTION_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/38C5CE85-405B-455F-809D-19C77B8A217B">Interaction Context Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/87000250-f225-4864-96d2-1e189f5be1a3">RegisterOutputCallbackInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
  
 
  

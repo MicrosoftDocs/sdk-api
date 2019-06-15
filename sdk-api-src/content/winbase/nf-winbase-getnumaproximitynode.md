@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Retrieves the NUMA node number that corresponds to the specified proximity domain identifier.
 
-Use the <a href="https://msdn.microsoft.com/c3da519f-d2bc-4cd0-9c11-587af1ad6e60">GetNumaProximityNodeEx</a> function to retrieve the node number as a <b>USHORT</b> value.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumaproximitynodeex">GetNumaProximityNodeEx</a> function to retrieve the node number as a <b>USHORT</b> value.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The node number. If the processor does not exist, this parameter is 0xFF.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error  information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error  information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -96,15 +96,15 @@ The relative distance between nodes on a system is stored in the ACPI System Loc
 
 
 
-<a href="https://msdn.microsoft.com/88e6c6b3-7ec5-43e5-8cf3-21402925f718">GetNumaProcessorNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaprocessornode">GetNumaProcessorNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3da519f-d2bc-4cd0-9c11-587af1ad6e60">GetNumaProximityNodeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumaproximitynodeex">GetNumaProximityNodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
  
 
  

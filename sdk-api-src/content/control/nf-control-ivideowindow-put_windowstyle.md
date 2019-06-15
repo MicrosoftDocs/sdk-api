@@ -127,19 +127,19 @@ This method is a thin wrapper over the <b>SetWindowLong</b> function and must be
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377303(v=VS.85).aspx">IVideoWindow::get_WindowStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_windowstyle">IVideoWindow::get_WindowStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377330(v=VS.85).aspx">IVideoWindow::put_WindowStyleEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyleex">IVideoWindow::put_WindowStyleEx</a>
  
 
  

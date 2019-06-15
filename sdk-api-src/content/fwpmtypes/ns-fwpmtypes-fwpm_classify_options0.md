@@ -66,14 +66,14 @@ Number of <b>FWPM_CLASSIFY_OPTION0</b> structures in the <b>options</b> member.
 
 [size_is(numCredentials)]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba5b-a93134e1f027">FWPM_CLASSIFY_OPTION0</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_">FWPM_CLASSIFY_OPTION0</a> structures.
 
 
 ## -remarks
 
 
 
-<b>FWPM_CLASSIFY_OPTIONS0</b> is a specific implementation of FWPM_CLASSIFY_OPTIONS. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_CLASSIFY_OPTIONS0</b> is a specific implementation of FWPM_CLASSIFY_OPTIONS. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -83,11 +83,11 @@ Pointer to an array of <a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba
 
 
 
-<a href="https://msdn.microsoft.com/11f2f873-d27e-411c-ba5b-a93134e1f027">FWPM_CLASSIFY_OPTION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_">FWPM_CLASSIFY_OPTION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

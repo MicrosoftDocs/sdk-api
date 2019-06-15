@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBTEXT</b> structure is used by the DBOP_text_command node. It stores the dialect to use to interpret the string stored in the <b>pwszText</b> member. The error locator is filled in by the provider, that is, the first offending token is indicated as the index into the text array, together with its length.
 
@@ -81,7 +81,7 @@ lGUID of the language and dialect
 
 
 
-For additional information about the <i>guidDialect</i> parameter, see the description of DBOP_text_command in <a href="https://msdn.microsoft.com/en-us/library/ms689751(v=VS.85).aspx">Special Operators</a>.
+For additional information about the <i>guidDialect</i> parameter, see the description of DBOP_text_command in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/special-operators">Special Operators</a>.
 
 
 

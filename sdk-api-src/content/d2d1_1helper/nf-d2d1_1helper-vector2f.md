@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a filled <a href="https://msdn.microsoft.com/DD180090-D2F4-4DF3-8652-101713C01AE4">D2D1_VECTOR_2F</a> structure.
+Returns a filled <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a> structure.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The y value of the vector.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/DD180090-D2F4-4DF3-8652-101713C01AE4">D2D1_VECTOR_2F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a></b>
 
 A vector of 2 FLOAT values (x, y).
 

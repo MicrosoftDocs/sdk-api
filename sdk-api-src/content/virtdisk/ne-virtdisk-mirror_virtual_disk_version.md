@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 Contains the version of the virtual disk 
-     <a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
-     used by the <a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a> 
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
+     used by the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mirrorvirtualdisk">MirrorVirtualDisk</a> 
      function.
 
 
@@ -76,15 +76,15 @@ Use the <b>Version1</b> member.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mirrorvirtualdisk">MirrorVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/86933fd5-4f51-4a10-9348-408795439812">VHD Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
  
 
  

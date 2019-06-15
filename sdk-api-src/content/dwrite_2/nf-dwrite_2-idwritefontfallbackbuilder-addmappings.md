@@ -59,7 +59,7 @@ Add all the mappings from an existing font fallback object.
 
 ### -param fontFallback
 
-Type: <b><a href="https://msdn.microsoft.com/CBC4100A-756B-429E-8368-D5D018A2B0AC">IDWriteFontFallback</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontfallback">IDWriteFontFallback</a>*</b>
 
 An existing font fallback object.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/462AC12E-C856-4D8F-83AF-FAC3221425C2">IDWriteFontFallbackBuilder</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a>
  
 
  

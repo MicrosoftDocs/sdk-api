@@ -72,7 +72,7 @@ Type of requested information. This parameter can be one of the following values
 
 </td>
 <td>
-The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/f6b5ccc2-81d6-47be-94dd-cf92842de51c">FILTER_VOLUME_BASIC_INFORMATION</a> structure for the volume.
+The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_volume_basic_information">FILTER_VOLUME_BASIC_INFORMATION</a> structure for the volume.
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https
 
 </td>
 <td>
-The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://msdn.microsoft.com/51f2f837-7d67-4a9d-a365-d9d1b24977e5">FILTER_VOLUME_STANDARD_INFORMATION</a> structure for the volume. This structure is available starting with Windows Vista.
+The buffer pointed to by the <i>lpBuffer</i> parameter receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_volume_standard_information">FILTER_VOLUME_STANDARD_INFORMATION</a> structure for the volume. This structure is available starting with Windows Vista.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Pointer to a caller-allocated variable that receives the number of bytes returne
 
 ### -param lpVolumeFind [out]
 
-Pointer to a caller-allocated variable that receives a search handle for the minifilter if the call to <b>FilterVolumeFindFirst</b> succeeds; otherwise, it receives INVALID_HANDLE_VALUE. This search handle can be used in subsequent calls to <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> and <a href="https://msdn.microsoft.com/18b707a0-2d34-46a9-a77c-b356aba44d72">FilterVolumeFindClose</a>. 
+Pointer to a caller-allocated variable that receives a search handle for the minifilter if the call to <b>FilterVolumeFindFirst</b> succeeds; otherwise, it receives INVALID_HANDLE_VALUE. This search handle can be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindclose">FilterVolumeFindClose</a>. 
 
 
 ## -returns
@@ -166,9 +166,9 @@ A volume was not found in the list of volumes known to the filter manager.
 
 This <b>FilterVolumeFindFirst </b>function is used to begin scanning the volumes that are known to the filter manager.
 
-<b>FilterVolumeFindFirst</b> opens a search handle and returns information about the first volume found in the list of volumes known to the filter manager. After the search handle has been established, use the <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> function to search for other volumes in the filter manager's list. When the search handle is no longer required, close it by calling <a href="https://msdn.microsoft.com/18b707a0-2d34-46a9-a77c-b356aba44d72">FilterVolumeFindClose</a>.
+<b>FilterVolumeFindFirst</b> opens a search handle and returns information about the first volume found in the list of volumes known to the filter manager. After the search handle has been established, use the <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> function to search for other volumes in the filter manager's list. When the search handle is no longer required, close it by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindclose">FilterVolumeFindClose</a>.
 
-Note that when using <b>FilterVolumeFindFirst</b> and <a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a> to enumerate the list of volumes known to the filter manager, it is possible for two or more volumes in the list to have the same name.  For more information, see <a href="https://msdn.microsoft.com/library/Ff557237(v=VS.85).aspx">Understanding Volume Enumerations with Duplicate Volume Names</a>.
+Note that when using <b>FilterVolumeFindFirst</b> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> to enumerate the list of volumes known to the filter manager, it is possible for two or more volumes in the list to have the same name.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/understanding-volume-enumerations-with-duplicate-volume-names">Understanding Volume Enumerations with Duplicate Volume Names</a>.
 
 
 
@@ -178,19 +178,19 @@ Note that when using <b>FilterVolumeFindFirst</b> and <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/f6b5ccc2-81d6-47be-94dd-cf92842de51c">FILTER_VOLUME_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_volume_basic_information">FILTER_VOLUME_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/51f2f837-7d67-4a9d-a365-d9d1b24977e5">FILTER_VOLUME_STANDARD_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_volume_standard_information">FILTER_VOLUME_STANDARD_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/18b707a0-2d34-46a9-a77c-b356aba44d72">FilterVolumeFindClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindclose">FilterVolumeFindClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/c18085e9-9781-420e-8070-c71982a2bb46">FilterVolumeFindNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a>
  
 
  

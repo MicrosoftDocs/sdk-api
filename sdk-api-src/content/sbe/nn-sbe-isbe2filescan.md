@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Repairs a corrupted .WTV file.
 
-The <a href="https://msdn.microsoft.com/1a699816-613c-4590-b412-d1bb821c17c9">FileScan</a> object implements this interface.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/filescan-object">FileScan</a> object implements this interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2FileScan</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISBE2FileScan</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2FileScan</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2FileScan</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ISBE2FileScan</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/318eb0e5-2492-4ed4-8a14-764c12024f97">RepairFile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2filescan-repairfile">RepairFile</a>
 </td>
 <td align="left" width="63%">
 Repairs a corrupted .WTV file.

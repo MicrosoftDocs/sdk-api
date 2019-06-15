@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the color of the border of a list-view control if the <a href="https://msdn.microsoft.com/en-us/library/Bb774732(v=VS.85).aspx">LVS_EX_BORDERSELECT</a> extended window style is set. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761065(v=VS.85).aspx">LVM_GETOUTLINECOLOR</a> message explicitly. 
+Gets the color of the border of a list-view control if the <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_BORDERSELECT</a> extended window style is set. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getoutlinecolor">LVM_GETOUTLINECOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the color of the border of a list-view control if the <a href="https://msdn
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -68,7 +68,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_GetOutlineColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetOutlineColor</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
 
 
 

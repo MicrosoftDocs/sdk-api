@@ -69,7 +69,7 @@ The <b>ICallInterceptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c">GetRegisteredSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallinterceptor-getregisteredsink">GetRegisteredSink</a>
 </td>
 <td align="left" width="63%">
 Retrieves the registered event sink.
@@ -78,7 +78,7 @@ Retrieves the registered event sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07de2e42-0490-4801-8951-6e71ffb8ed93">RegisterSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallinterceptor-registersink">RegisterSink</a>
 </td>
 <td align="left" width="63%">
 Registers an event sink for receiving notifications of method calls.

@@ -75,7 +75,7 @@ If the <b>Cancel</b> method completes successfully, it returns an S_OK. Otherwis
 
 
 
-<a href="https://msdn.microsoft.com/0F63C626-DB58-4952-BBB3-7E3901429C35">IPrintDocumentPackageTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagetarget">IPrintDocumentPackageTarget</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Values that indicate the reason that a docked accessibility app window has been undocked. Used by <a href="https://msdn.microsoft.com/AFD60F5B-3017-49a2-8AFC-8309D11B3ACA">IAccessibilityDockingServiceCallback::Undocked</a>.
+Values that indicate the reason that a docked accessibility app window has been undocked. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservicecallback-undocked">IAccessibilityDockingServiceCallback::Undocked</a>.
 
 
 ## -enum-fields

@@ -66,7 +66,7 @@ The number of elements requested.
 
 ### -param rgElt [out]
 
-A pointer to a variable that, on successful return, points to an array of pointers to <a href="https://msdn.microsoft.com/a4a73ff8-e24a-4f44-9205-c60699d1c27d">IDot11AdHocInterface</a> interfaces. The array is of size <i>cElt</i>.
+A pointer to a variable that, on successful return, points to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a> interfaces. The array is of size <i>cElt</i>.
 
 
 ### -param pcEltFetched [out]
@@ -162,7 +162,7 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/c61bbe3a-ad02-4182-bf10-1ed5fe307bd4">IEnumDot11AdHocInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>
  
 
  

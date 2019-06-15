@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Send</b> method transmits the document specified by the <a href="https://msdn.microsoft.com/en-us/library/ms692340(v=VS.85).aspx">FileName</a> property of a <a href="https://msdn.microsoft.com/en-us/library/ms692317(v=VS.85).aspx">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property.
+The <b>Send</b> method transmits the document specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-filename-vb">FileName</a> property of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The method can send the fax to the fax number specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-faxnumber-vb">FaxNumber</a> property.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms692340(v=VS.85).aspx">FileName</a> property is required to send a fax transmission using a call to the <b>IFaxDoc::Send</b> method. The <a href="https://msdn.microsoft.com/en-us/library/ms692360(v=VS.85).aspx">FaxNumber</a> property is also required. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691959(v=VS.85).aspx">Transmitting Faxes</a>.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-filename-vb">FileName</a> property is required to send a fax transmission using a call to the <b>IFaxDoc::Send</b> method. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-faxnumber-vb">FaxNumber</a> property is also required. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-transmitting-faxes">Transmitting Faxes</a>.
 
 
 
@@ -90,15 +90,15 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692340(v=VS.85).aspx">Fi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692281(v=VS.85).aspx">IFaxDoc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
  
 
  

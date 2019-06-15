@@ -60,13 +60,13 @@ Contains power policy settings that are unique to each power scheme.
 ### -field user
 
 A 
-<a href="https://msdn.microsoft.com/616c45f6-ec80-42d9-a485-e9e778f2b971">USER_POWER_POLICY</a> structure that defines user power policy settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_user_power_policy">USER_POWER_POLICY</a> structure that defines user power policy settings.
 
 
 ### -field mach
 
 A 
-<a href="https://msdn.microsoft.com/41dca573-a73d-430c-9bd3-083e72aecbdc">MACHINE_POWER_POLICY</a> structure that defines computer power policy settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_power_policy">MACHINE_POWER_POLICY</a> structure that defines computer power policy settings.
 
 
 ## -see-also
@@ -74,27 +74,27 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/5e9e10b4-84c3-40ec-8de9-220d13795403">EnumPwrSchemes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-enumpwrschemes">EnumPwrSchemes</a>
 
 
 
-<a href="https://msdn.microsoft.com/41dca573-a73d-430c-9bd3-083e72aecbdc">MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_power_policy">MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8d93820-b652-4358-8039-8987fac95dca">ReadPwrScheme</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-readpwrscheme">ReadPwrScheme</a>
 
 
 
-<a href="https://msdn.microsoft.com/f449ff0d-5c22-4c6d-8c88-dc18258a8c6d">SetActivePwrScheme</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a>
 
 
 
-<a href="https://msdn.microsoft.com/616c45f6-ec80-42d9-a485-e9e778f2b971">USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_user_power_policy">USER_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9233601-6848-41c4-bb58-27decad60ba5">WritePwrScheme</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-writepwrscheme">WritePwrScheme</a>
  
 
  

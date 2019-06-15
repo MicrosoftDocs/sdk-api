@@ -79,7 +79,7 @@ Identifies the session that changed.
 
 ### -param sessionState [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee351749(v=VS.85).aspx">TSSESSION_STATE</a> value specifying he type of change that occurred.
+A <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_tssession_state">TSSESSION_STATE</a> value specifying he type of change that occurred.
 
 
 ## -returns
@@ -96,11 +96,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/70785b82-239d-4957-9703-ced685a2e0b8">ITsSbResourceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e40535d-62b2-4d16-a995-61c24aefb2e5">ITsSbResourceNotificationEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotificationex">ITsSbResourceNotificationEx</a>
  
 
  

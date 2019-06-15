@@ -80,11 +80,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<b>CfGetTransferKey</b> is used as an alternative to <a href="https://msdn.microsoft.com/4FFD7580-BF59-48D0-B6D7-516559914096">CfHydratePlaceholder</a> to proactively initiate data transfer into a placeholder.
+<b>CfGetTransferKey</b> is used as an alternative to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a> to proactively initiate data transfer into a placeholder.
 
 A sync provider should have READ_DATA or WRITE_DAC access to the file whose transfer key is to be obtained or <b>CfGetTransferKey</b> will be failed with HRESULT(ERROR_CLOUD_FILE_ACCESS_DENIED).
 
-The <i>TransferKey</i> is valid as long as the <i>FileHandle</i> used to obtain it remains open. The sync provider must pass the <i>TransferKey</i> to <a href="https://msdn.microsoft.com/6AC8958D-B060-4468-9811-9BAB0E6A06D3">CfExecute</a> to perform the desired operation on the placholder file or folder.  When a <i>TransferKey</i> is no longer being used, it must be released using <a href="https://msdn.microsoft.com/53B40C34-EB1F-445B-B1B3-B539C2FADECE">CfReleaseTransferKey</a>.
+The <i>TransferKey</i> is valid as long as the <i>FileHandle</i> used to obtain it remains open. The sync provider must pass the <i>TransferKey</i> to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfexecute">CfExecute</a> to perform the desired operation on the placholder file or folder.  When a <i>TransferKey</i> is no longer being used, it must be released using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfreleasetransferkey">CfReleaseTransferKey</a>.
 
 
 

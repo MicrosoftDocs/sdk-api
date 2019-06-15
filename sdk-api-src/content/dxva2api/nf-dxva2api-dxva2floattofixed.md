@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Converts a floating-point number to a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-813b-c746649c5c40">DXVA2_Fixed32</a> value.
+Converts a floating-point number to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> value.
 
 
 
@@ -69,7 +69,7 @@ Floating-point number to convert to a fixed-point value.
 
 
 
-The function returns a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-813b-c746649c5c40">DXVA2_Fixed32</a> structure that contains the converted fixed-point value.
+The function returns a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_fixed32">DXVA2_Fixed32</a> structure that contains the converted fixed-point value.
 
 
 
@@ -79,7 +79,7 @@ The function returns a <a href="https://msdn.microsoft.com/5f8f4515-1cf4-4060-81
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

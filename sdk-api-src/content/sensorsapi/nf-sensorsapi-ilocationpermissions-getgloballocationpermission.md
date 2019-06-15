@@ -107,7 +107,7 @@ NULL was passed in for pfEnabled.
 
 <div class="alert"><b>Note</b>  <b>GetGlobalLocationPermission</b> is available in Windows 8.</div>
 <div> </div>
-For more information on location settings in Windows 8 see <a href="https://msdn.microsoft.com/A1FC58B2-D455-4DF7-A4F7-EE0A7E8851DB">Location settings</a>.
+For more information on location settings in Windows 8 see <a href="https://docs.microsoft.com/previous-versions/windows">Location settings</a>.
 
 
 
@@ -117,7 +117,7 @@ For more information on location settings in Windows 8 see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/f4b46f4a-60be-4428-a4b5-6100ae3f1e1b">ILocationPermissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-ilocationpermissions">ILocationPermissions</a>
  
 
  

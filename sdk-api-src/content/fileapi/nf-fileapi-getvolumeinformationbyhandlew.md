@@ -60,7 +60,7 @@ Retrieves information about the file system and volume associated with the speci
     file.
 
 To retrieve the current compression state of a file or directory, use 
-    <a href="https://msdn.microsoft.com/c9932867-4b86-4119-ad13-f99aadfa559a">FSCTL_GET_COMPRESSION</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_compression">FSCTL_GET_COMPRESSION</a>.
 
 
 ## -parameters
@@ -96,7 +96,7 @@ This parameter can be <b>NULL</b> if the serial number is not required.
 This function returns the volume serial number that the operating system assigns when a hard disk is 
        formatted. To programmatically obtain the hard disk's serial number that the manufacturer assigns, use the 
        Windows Management Instrumentation (WMI) 
-       <a href="https://msdn.microsoft.com/f5d337ae-e948-42c0-9d86-236c42964a50">Win32_PhysicalMedia</a> property 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/cimwin32a/win32-physicalmedia">Win32_PhysicalMedia</a> property 
        <b>SerialNumber</b>.
 
 
@@ -212,7 +212,7 @@ The specified volume supports a single sequential write.
 </td>
 <td width="60%">
 The specified volume supports the Encrypted File System (EFS). For more information, see 
-        <a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ The specified volume supports extended attributes. An extended attribute is a pi
 </td>
 <td width="60%">
 The specified volume supports hard links. For more information, see 
-        <a href="https://msdn.microsoft.com/f9e40a86-a4a6-4524-8045-312da72dc655">Hard Links and Junctions</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
 
@@ -263,7 +263,7 @@ The specified volume supports object identifiers.
 </td>
 <td width="60%">
 The file system supports open by FileID. For more information, see 
-        <a href="https://msdn.microsoft.com/d7011ea4-e70a-4c03-a715-6144ce0c7029">FILE_ID_BOTH_DIR_INFO</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
 
@@ -299,7 +299,7 @@ The specified volume supports sparse files.
 </td>
 <td width="60%">
 The specified volume supports transactions. For more information, see 
-        <a href="https://msdn.microsoft.com/85a79698-a1ae-45a4-805e-25175034fa65">About KTM</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/Ktm/about-ktm">About KTM</a>.
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ The specified volume supports transactions. For more information, see
 </td>
 <td width="60%">
 The specified volume supports update sequence number (USN) journals. For more information, see 
-        <a href="https://msdn.microsoft.com/c41aa3a8-c8d8-4bf2-9bbb-d6a6a556c5e4">Change Journal Records</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journal-records">Change Journal Records</a>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
 
@@ -376,7 +376,7 @@ This parameter is ignored if the file system name buffer is not supplied.
 If all the requested information is retrieved, the return value is nonzero.
 
 If not all the requested information is retrieved, the return value is zero. To get extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -455,35 +455,35 @@ SMB does not support volume management functions.
 
 
 
-<a href="https://msdn.microsoft.com/85a79698-a1ae-45a4-805e-25175034fa65">About KTM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/about-ktm">About KTM</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/cca91080-2270-4996-8693-933c585ff168">GetCompressedFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/1851ed79-7a29-4731-8b67-75d6e9220705">SetVolumeLabel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumelabela">SetVolumeLabel</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
  
 
  

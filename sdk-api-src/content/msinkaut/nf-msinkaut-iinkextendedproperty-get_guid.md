@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Gets the globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtendedProperty</a> object.
+Gets the globally unique identifier (GUID) of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object.
 
 
 
@@ -67,7 +67,7 @@ This property is read-only.
 
 
 
-<div class="alert"><b>Note</b>  When using managed code, use the <a href="https://msdn.microsoft.com/en-us/library/ms684582(v=VS.85).aspx">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
+<div class="alert"><b>Note</b>  When using managed code, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">Id</a> property; when using Automation, use the <b>Guid</b> property.</div>
 <div> </div>
 
 
@@ -77,7 +77,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtended Property Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtended Property Interface</a>
  
 
  

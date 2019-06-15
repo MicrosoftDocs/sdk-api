@@ -55,13 +55,13 @@ If server developers know the <b>HWND</b> of the object they want to annotate, t
 		method and getting an identity string.
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/68f09a23-56b2-4fae-98a2-616b17fb4e1f">IAccPropServices::SetHwndPropStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">IAccPropServices::SetHwndPropStr</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/00387897-5385-467d-9da4-4d71fce742b6">IAccPropServices::SetHwndProp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndprop">IAccPropServices::SetHwndProp</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/05dbdf97-9b1a-439f-b3a1-b517733ec0a8">IAccPropServices::SetHwndPropServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">IAccPropServices::SetHwndPropServer</a>
 </li>
 </ul>
 
@@ -72,21 +72,21 @@ If server developers know the <b>HWND</b> of the object they want to annotate, t
 
 ### -param dwIDChild [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Specifies which child of the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> object the caller wants to identify.
+Specifies which child of the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> object the caller wants to identify.
 
 
 ### -param ppIDString [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>**</b>
 
-Address of a variable that receives a pointer to a callee-allocated identity string. The callee allocates the identity string using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>; the caller must release the identity string by using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when finished.
+Address of a variable that receives a pointer to a callee-allocated identity string. The callee allocates the identity string using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>; the caller must release the identity string by using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when finished.
 
 
 ### -param pdwIDStringLen [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Address of a variable that receives the length, in bytes, of the callee-allocated identity string.
 
@@ -95,9 +95,9 @@ Address of a variable that receives the length, in bytes, of the callee-allocate
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Return S_OK, except under exceptional error conditions, such as low memory. If not supported, calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on <a href="https://msdn.microsoft.com/59fde1a5-42bd-40e0-8143-edd082b2b166">IAccIdentity</a> should fail.
+Return S_OK, except under exceptional error conditions, such as low memory. If not supported, calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccidentity">IAccIdentity</a> should fail.
 
 
 
@@ -108,7 +108,7 @@ Return S_OK, except under exceptional error conditions, such as low memory. If n
 
 The returned string should be considered opaque; clients should use it only as a whole, and should not attempt to dissect it or otherwise interpret it manually.
 
-If a client knows or expects that a string is HWND—based, it can use <a href="https://msdn.microsoft.com/b14932a1-7585-49e4-80eb-498cf48796ee">IAccPropServices::DecomposeHwndIdentityString</a> to attempt to decompose the identity string.
+If a client knows or expects that a string is HWND—based, it can use <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">IAccPropServices::DecomposeHwndIdentityString</a> to attempt to decompose the identity string.
 
 
 

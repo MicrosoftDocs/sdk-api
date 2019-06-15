@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_ENUM_OID_FUNCTION</b> callback function  is used with the <a href="https://msdn.microsoft.com/aa2fba03-183b-4b74-b306-8f4592995897">CryptEnumOIDFunction</a> function.
+The <b>CRYPT_ENUM_OID_FUNCTION</b> callback function  is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction">CryptEnumOIDFunction</a> function.
 
 
 ## -parameters
@@ -119,7 +119,7 @@ Array that specifies the size, in bytes, of corresponding elements of the <i>rgp
 #### - rgdwValueType [in]
 
 Array of value types. Each entry in the array will be one of the value types 
-listed for <a href="https://msdn.microsoft.com/14eb7f10-f42a-4496-9699-62eeb9878ea2">CryptGetOIDFunctionValue</a> under <i>pdwValueType</i>.
+listed for <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue">CryptGetOIDFunctionValue</a> under <i>pdwValueType</i>.
 
 
 #### - rgpbValueData [in]
@@ -146,11 +146,11 @@ Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
 
 
 
-<a href="https://msdn.microsoft.com/aa2fba03-183b-4b74-b306-8f4592995897">CryptEnumOIDFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction">CryptEnumOIDFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/14eb7f10-f42a-4496-9699-62eeb9878ea2">CryptGetOIDFunctionValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue">CryptGetOIDFunctionValue</a>
  
 
  

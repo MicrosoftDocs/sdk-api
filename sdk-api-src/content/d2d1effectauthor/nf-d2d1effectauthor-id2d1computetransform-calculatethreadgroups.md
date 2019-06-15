@@ -60,7 +60,7 @@ This method allows a compute-shader–based transform to select the number of th
 
 ### -param outputRect [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 The output rectangle that will be filled by the compute transform.
 
@@ -101,7 +101,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 
-If this call fails, the corresponding <a href="https://msdn.microsoft.com/e90d1830-c356-48f1-ac7b-1d94c8c26569">ID2D1Effect</a> instance is placed into an error state and fails to draw.
+If this call fails, the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a> instance is placed into an error state and fails to draw.
 
 
 
@@ -111,11 +111,11 @@ If this call fails, the corresponding <a href="https://msdn.microsoft.com/e90d18
 
 
 
-<a href="https://msdn.microsoft.com/2D7B82E1-6EB7-492A-B65C-CE5EFBFACC31">ID2D1ComputeTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computetransform">ID2D1ComputeTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/64CA9647-8E9E-417D-A8D4-71AAF58F1C32">ID2D1EffectContext::LoadComputeShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadcomputeshader">ID2D1EffectContext::LoadComputeShader</a>
  
 
  

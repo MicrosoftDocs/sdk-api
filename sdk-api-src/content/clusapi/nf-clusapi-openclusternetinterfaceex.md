@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Opens a handle to a 
-    <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Opens a handle to a
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 
 ### -param lpszInterfaceName [in, optional]
@@ -74,7 +74,7 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
       (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or <b>MAXIMUM_ALLOWED</b> 
       (0x02000000). If this value is zero (0) and undefined error may be returned. Using 
       <b>GENERIC_ALL</b> is the same as calling 
-      <a href="https://msdn.microsoft.com/1198ad57-ea47-428f-8867-061afbfc7709">OpenClusterNetInterface</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetinterface">OpenClusterNetInterface</a>.
 
 
 ### -param lpdwGrantedAccess [out, optional]
@@ -106,8 +106,8 @@ If the operation was successful,
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the 
-        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. If the target server does not 
-        support the <a href="https://msdn.microsoft.com/207d6888-35ff-44d4-aac0-915815b9730d">OpenClusterNetInterfaceEx</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. If the target server does not 
+        support the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetinterfaceex">OpenClusterNetInterfaceEx</a> 
         function (for example if the target server is running Windows Server 2008 or earlier) then the 
         <b>GetLastError</b> function will return 
         <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
@@ -125,15 +125,15 @@ The operation was not successful. For more information about the error, call the
 
 
 
-<a href="https://msdn.microsoft.com/e5978e81-790a-4ca7-92b7-d19af31f222e">CloseClusterNetInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternetinterface">CloseClusterNetInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/63602522-6425-4c3f-b80f-32ee2c3d6469">Network Interface Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interface-management-functions">Network Interface Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1198ad57-ea47-428f-8867-061afbfc7709">OpenClusterNetInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetinterface">OpenClusterNetInterface</a>
  
 
  

@@ -75,7 +75,7 @@ There are no return values.
 
 
 
-Do not use this function to release memory that the Peer Graphing API returns. Use <a href="https://msdn.microsoft.com/a5b7d563-214a-48e0-b184-0c12d62fb125">PeerGraphFreeData</a> for memory that  the Peer Graphing API returns.
+Do not use this function to release memory that the Peer Graphing API returns. Use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a> for memory that  the Peer Graphing API returns.
 
 
 
@@ -85,12 +85,12 @@ Do not use this function to release memory that the Peer Graphing API returns. U
 
 
 
-<a href="https://msdn.microsoft.com/56ea2880-b468-4816-b6c9-5780c807b3f1">Grouping API
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/grouping-api-functions">Grouping API
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7621d26b-92e3-40c9-b0ce-94647d67f2c4">Identity Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-functions">Identity Manager Functions</a>
  
 
  

@@ -154,7 +154,7 @@ A FILETIME value.
 
 ### -field EvtVarTypeSid
 
-A security identifier (<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>) structure
+A security identifier (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>) structure
 
 
 ### -field EvtVarTypeHexInt32
@@ -182,7 +182,7 @@ A null-terminated Unicode string that contains XML.
 
 
 
-<a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_variant">EVT_VARIANT</a>
  
 
  

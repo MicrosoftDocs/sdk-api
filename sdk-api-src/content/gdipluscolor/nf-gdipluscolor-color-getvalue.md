@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Color::GetValue</b> method gets the <b>ARGB</b> value of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object.
+The <b>Color::GetValue</b> method gets the <b>ARGB</b> value of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
 
 ## -parameters
@@ -77,11 +77,11 @@ This method returns a 32-bit <b>ARGB</b> value that holds the alpha, red, green,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
  
 
  

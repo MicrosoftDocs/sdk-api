@@ -54,7 +54,7 @@ Exposes methods for creating and managing libraries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLibrary</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellLibrary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLibrary</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLibrary</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellLibrary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7455998a-56a8-4fc1-882b-c0942fd35d8c">AddFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-addfolder">AddFolder</a>
 </td>
 <td align="left" width="63%">
 Adds a folder to the library.
@@ -78,7 +78,7 @@ Adds a folder to the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a340964d-ea20-4a3b-be8b-f4f4dbf624ed">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits library updates to an existing Library Description file.
@@ -88,7 +88,7 @@ Commits library updates to an existing Library Description file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4bc501b1-2fc4-49ce-a16b-e254a3a40f46">GetDefaultSaveFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getdefaultsavefolder">GetDefaultSaveFolder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default target folder that the library uses  for save operations.
@@ -97,7 +97,7 @@ Retrieves the default target folder that the library uses  for save operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19abc4f9-5123-4dd9-9606-21b52e28854b">GetFolders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getfolders">GetFolders</a>
 </td>
 <td align="left" width="63%">
 Gets the set of child folders that are contained in the library.
@@ -106,7 +106,7 @@ Gets the set of child folders that are contained in the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/450ee4cc-5a09-4f14-832a-3982ec9de03b">GetFolderType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getfoldertype">GetFolderType</a>
 </td>
 <td align="left" width="63%">
 Gets the library's folder type.      
@@ -116,7 +116,7 @@ Gets the library's folder type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e39bd663-3f2d-4b72-9882-1313ee457844">GetIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-geticon">GetIcon</a>
 </td>
 <td align="left" width="63%">
 Gets the default icon for the library.
@@ -125,7 +125,7 @@ Gets the default icon for the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a144505-e977-4db6-8266-c39c1de8a8f9">GetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the library's options.
@@ -134,7 +134,7 @@ Gets the library's options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dd2c197-8846-481f-b51e-ea0a93fd5e9b">LoadLibraryFromItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-loadlibraryfromitem">LoadLibraryFromItem</a>
 </td>
 <td align="left" width="63%">
 Loads the library from a specified library definition file.
@@ -143,7 +143,7 @@ Loads the library from a specified library definition file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3fc1147e-6338-4fec-b20d-db5eb1303fe1">LoadLibraryFromKnownFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-loadlibraryfromknownfolder">LoadLibraryFromKnownFolder</a>
 </td>
 <td align="left" width="63%">
 Loads  the  library  that is referenced by a  KNOWNFOLDERID.
@@ -152,7 +152,7 @@ Loads  the  library  that is referenced by a  KNOWNFOLDERID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ba2c504-e96c-4b56-b2f2-196c0b74c9eb">RemoveFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-removefolder">RemoveFolder</a>
 </td>
 <td align="left" width="63%">
 Removes a folder from the library.
@@ -161,7 +161,7 @@ Removes a folder from the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3d867a1-7396-4fba-87ea-45b02f86d681">ResolveFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-resolvefolder">ResolveFolder</a>
 </td>
 <td align="left" width="63%">
 Resolves the target location of a library folder, even if the folder has been moved or renamed.
@@ -170,7 +170,7 @@ Resolves the target location of a library folder, even if the folder has been mo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a7de829-f0bc-4ace-aed4-83d0611ae292">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the library to a new Library Description (*.library-ms) file.
@@ -179,7 +179,7 @@ Saves the library to a new Library Description (*.library-ms) file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a6fa57f-808d-4893-a01c-f192355f8989">SaveInKnownFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-saveinknownfolder">SaveInKnownFolder</a>
 </td>
 <td align="left" width="63%">
 Saves the library to a new file in a specified known folder.
@@ -189,7 +189,7 @@ Saves the library to a new file in a specified known folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c65bd5e-22f4-450b-a1d5-75e564854b5f">SetDefaultSaveFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-setdefaultsavefolder">SetDefaultSaveFolder</a>
 </td>
 <td align="left" width="63%">
 Sets the default target folder that the library will use for save operations.
@@ -198,7 +198,7 @@ Sets the default target folder that the library will use for save operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3e3f356-6ffd-46b9-b8a5-1b0c9df01abe">SetFolderType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-setfoldertype">SetFolderType</a>
 </td>
 <td align="left" width="63%">
 Sets the library's folder type.
@@ -208,7 +208,7 @@ Sets the library's folder type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d6d6bd5-14cc-432b-b712-64bac78f5df9">SetIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-seticon">SetIcon</a>
 </td>
 <td align="left" width="63%">
 Sets the default icon for the library.
@@ -217,7 +217,7 @@ Sets the default icon for the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8bec0c71-3170-4ff9-aa87-4880d6ac7e32">SetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the library options.
@@ -248,61 +248,61 @@ The following library helper functions are provided by Shobjidl.h.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/308e7905-dfa1-438f-9e7e-f895517e7adb">SHAddFolderPathToLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shaddfolderpathtolibrary">SHAddFolderPathToLibrary</a>
 </td>
 <td>Adds a folder to a library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/7e682a2e-5140-49ad-88de-ac681025aca4">SHCreateLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreatelibrary">SHCreateLibrary</a>
 </td>
 <td>Creates an <b>IShellLibrary</b> object.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/9692f9d1-1504-43d0-9eb1-3759a8e2b42d">SHLoadLibraryFromItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromitem">SHLoadLibraryFromItem</a>
 </td>
 <td>Creates and loads an <b>IShellLibrary</b> object from a specified library definition file.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/9486252b-9aaf-4daf-b307-5a5adddfaa99">SHLoadLibraryFromKnownFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromknownfolder">SHLoadLibraryFromKnownFolder</a>
 </td>
-<td>Creates and loads an <b>IShellLibrary</b> object for a specified <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">KNOWNFOLDERID</a>.</td>
+<td>Creates and loads an <b>IShellLibrary</b> object for a specified <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/49433938-d31e-49f8-9dc7-3df5fb3bfcad">SHLoadLibraryFromParsingName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromparsingname">SHLoadLibraryFromParsingName</a>
 </td>
 <td>Creates and loads an <b>IShellLibrary</b> object for a specified path.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/34de407c-54f0-4be9-a383-4bf1baa63eef">SHRemoveFolderPathFromLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shremovefolderpathfromlibrary">SHRemoveFolderPathFromLibrary</a>
 </td>
 <td>Removes a folder from a library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e9c8aacd-9abb-4640-b9ed-1fa417d4d4cc">SHResolveFolderPathInLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-shresolvefolderpathinlibrary">SHResolveFolderPathInLibrary</a>
 </td>
 <td>Attempts to resolve the target location of a library folder that has been moved or renamed.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a8730c09-f872-4bf8-9482-9dd5af31b509">SHResolveLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shresolvelibrary">SHResolveLibrary</a>
 </td>
 <td>Attempts to find the location of a library.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/953b209b-fd18-49d0-84d3-ad9b815f2a3a">SHSaveLibraryInFolderPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsavelibraryinfolderpath">SHSaveLibraryInFolderPath</a>
 </td>
 <td>Saves an <b>IShellLibrary</b> object to disk.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/1ac911bb-28d6-4cb6-a66a-1a0c8a4bd6a1">SHShowManageLibraryUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shshowmanagelibraryui">SHShowManageLibraryUI</a>
 </td>
 <td>Shows the library management dialog, which enables users to manage the library folders and default save location.</td>
 </tr>
@@ -322,19 +322,19 @@ The following enumerations support libraries.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/51478854-03b2-4e1a-bc07-b9ca7e6cc33d">DEFAULTSAVEFOLDERTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-defaultsavefoldertype">DEFAULTSAVEFOLDERTYPE</a>
 </td>
 <td>Specifies whether the default save location is public or private.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/205c40ff-a4dc-4a57-b51a-1e230fc170dd">LIBRARYOPTIONFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryoptionflags">LIBRARYOPTIONFLAGS</a>
 </td>
 <td>Specifies the library options.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/cae52226-0030-457b-aebf-00aaf860243d">LIBRARYSAVEFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-librarysaveflags">LIBRARYSAVEFLAGS</a>
 </td>
 <td>Defines options for handling a name collision when saving a library.</td>
 </tr>
@@ -351,15 +351,15 @@ The following enumerations support libraries.
 
 
 
-<a href="https://msdn.microsoft.com/FE830DBF-3F18-453c-9A51-91E10559D0E8">Guidance for Implementing In-Process Extensions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758089(v=vs.85)">Guidance for Implementing In-Process Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/12F6E6AE-2776-408c-B9AC-E885BE93C27F">Library Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/library-schema-entry">Library Description Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/19DA68B2-FCB6-443d-A3CD-0BF2F429B149">Windows Libraries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
  
 
  

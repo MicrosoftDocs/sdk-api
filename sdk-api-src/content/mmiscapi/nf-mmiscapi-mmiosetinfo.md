@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>mmioSetInfo</b> function updates the information retrieved by the <a href="https://msdn.microsoft.com/9ca58586-8cd6-4d74-9cef-f0ae41b24fe3">mmioGetInfo</a> function about a file opened by using the <a href="https://msdn.microsoft.com/7361f0f2-1c3c-49f1-aec1-2927e05ef0f0">mmioOpen</a> function. Use this function to terminate direct buffer access of a file opened for buffered I/O.
+The <b>mmioSetInfo</b> function updates the information retrieved by the <a href="https://docs.microsoft.com/previous-versions//dd757321(v=vs.85)">mmioGetInfo</a> function about a file opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function. Use this function to terminate direct buffer access of a file opened for buffered I/O.
 
 
 
@@ -82,7 +82,7 @@ TBD
 
 #### - lpmmioinfo
 
-Pointer to an <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure filled with information by the <a href="https://msdn.microsoft.com/9ca58586-8cd6-4d74-9cef-f0ae41b24fe3">mmioGetInfo</a> function.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure filled with information by the <a href="https://docs.microsoft.com/previous-versions//dd757321(v=vs.85)">mmioGetInfo</a> function.
 
 
 #### - wFlags
@@ -103,7 +103,7 @@ Returns zero if successful or an error otherwise.
 
 
 
-If you have written to the file I/O buffer, set the MMIO_DIRTY flag in the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/44a46d1c-9c9c-42ee-8a2b-ac5b1bc19560">MMIOINFO</a> structure before calling <b>mmioSetInfo</b> to terminate direct buffer access. Otherwise, the buffer will not get flushed to disk.
+If you have written to the file I/O buffer, set the MMIO_DIRTY flag in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure before calling <b>mmioSetInfo</b> to terminate direct buffer access. Otherwise, the buffer will not get flushed to disk.
 
 
 

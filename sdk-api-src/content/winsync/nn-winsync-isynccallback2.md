@@ -54,7 +54,7 @@ Represents additional application callbacks that are used to notify the applicat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncCallback2</b> interface inherits from <a href="https://msdn.microsoft.com/f6c96e02-e9db-402c-8197-580f688b068f">ISyncCallback</a>. <b>ISyncCallback2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncCallback2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a>. <b>ISyncCallback2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncCallback2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3397ca51-583b-4051-892b-68f505d85ccd">OnChangeApplied</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangeapplied">OnChangeApplied</a>
 </td>
 <td align="left" width="63%">
 Occurs after a change is successfully applied.
@@ -78,7 +78,7 @@ Occurs after a change is successfully applied.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69064507-414b-49be-91a5-3523160f3a01">OnChangeFailed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback2-onchangefailed">OnChangeFailed</a>
 </td>
 <td align="left" width="63%">
 Occurs after a change fails to apply.
@@ -93,15 +93,15 @@ Occurs after a change fails to apply.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd316936(v=VS.85).aspx">CONFLICT_RESOLUTION_POLICY Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0002">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6c96e02-e9db-402c-8197-580f688b068f">ISyncCallback Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

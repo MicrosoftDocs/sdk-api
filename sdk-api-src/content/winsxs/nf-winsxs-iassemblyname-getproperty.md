@@ -59,7 +59,7 @@ The <b>GetProperty</b> method gets the value of a name-value pair in the assembl
 
 ### -param PropertyId [in]
 
-A property ID that represents the name-value pair. Valid property IDs are <a href="https://msdn.microsoft.com/5e13e90e-68b0-4842-97de-4f179d4c9ad7">ASM_NAME</a> enumeration values.
+A property ID that represents the name-value pair. Valid property IDs are <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ne-winsxs-__midl_iassemblyname_0001">ASM_NAME</a> enumeration values.
 
 
 ### -param pvProperty [out]
@@ -116,7 +116,7 @@ The method did not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
  
 
  

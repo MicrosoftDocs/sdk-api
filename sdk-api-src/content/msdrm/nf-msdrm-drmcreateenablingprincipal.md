@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -68,12 +68,12 @@ The <b>DRMCreateEnablingPrincipal</b> function creates an enabling principal nee
 
 ### -param hEnv [in]
 
-A handle to an environment created by <a href="https://msdn.microsoft.com/b46277f4-e854-4590-847a-cf4f878bee70">DRMInitEnvironment</a>.
+A handle to an environment created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drminitenvironment">DRMInitEnvironment</a>.
 
 
 ### -param hLibrary [in]
 
-A handle to a library. Currently, the only valid library that can be used is the one passed out by <a href="https://msdn.microsoft.com/b46277f4-e854-4590-847a-cf4f878bee70">DRMInitEnvironment</a>.
+A handle to a library. Currently, the only valid library that can be used is the one passed out by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drminitenvironment">DRMInitEnvironment</a>.
 
 
 ### -param wszObject [in]
@@ -83,17 +83,17 @@ A pointer to a null-terminated Unicode string that specifies the enabling princi
 
 ### -param pidPrincipal [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/8b7f22e0-586e-4950-94fe-868b3fc91ffa">DRMID</a> structure that identifies the enabling principal. The <b>DRMID</b> members can be <b>NULL</b> to use the first principal in a license.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drmid">DRMID</a> structure that identifies the enabling principal. The <b>DRMID</b> members can be <b>NULL</b> to use the first principal in a license.
 
 
 ### -param wszCredentials [in]
 
-A pointer to a null-terminated Unicode string that contains the <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> of the current user.
+A pointer to a null-terminated Unicode string that contains the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> of the current user.
 
 
 ### -param phEnablingPrincipal [out]
 
-A pointer to a <b>DRMHANDLE</b> value that receives the created principal. Call <a href="https://msdn.microsoft.com/422f286c-edf6-488f-8776-359ab2695be3">DRMCloseHandle</a> to close the handle.
+A pointer to a <b>DRMHANDLE</b> value that receives the created principal. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a> to close the handle.
 
 
 ## -returns
@@ -102,7 +102,7 @@ A pointer to a <b>DRMHANDLE</b> value that receives the created principal. Call 
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -111,7 +111,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-The enabling principal this function creates is used in the <a href="https://msdn.microsoft.com/25820f49-ffa8-40c4-87fc-ce4909ec20ed">DRMBOUNDLICENSEPARAMS</a> structure passed into <a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a>. Call <a href="https://msdn.microsoft.com/422f286c-edf6-488f-8776-359ab2695be3">DRMCloseHandle</a> to close the enabling principal handle created by calling this function.
+The enabling principal this function creates is used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ns-msdrmdefs-_drmboundlicenseparams">DRMBOUNDLICENSEPARAMS</a> structure passed into <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a> to close the enabling principal handle created by calling this function.
 
 
 
@@ -121,7 +121,7 @@ The enabling principal this function creates is used in the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/b3b4e7c6-d3d3-4bf7-b6c4-9502a56a7223">AD RMS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
  
 
  

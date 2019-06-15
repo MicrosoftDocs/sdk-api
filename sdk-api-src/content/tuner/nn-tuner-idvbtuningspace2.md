@@ -57,7 +57,7 @@ The <b>IDVBTuningSpace2</b> interface is implemented on the DVBTuningSpace objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuningSpace2</b> interface inherits from <a href="https://msdn.microsoft.com/fba3c7f3-61f8-4704-8068-cb1d3171345a">IDVBTuningSpace</a>. <b>IDVBTuningSpace2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuningSpace2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace">IDVBTuningSpace</a>. <b>IDVBTuningSpace2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDVBTuningSpace2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/743977d3-151d-4d04-8d2d-7018d5613cc1">get_NetworkID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace2-get_networkid">get_NetworkID</a>
 </td>
 <td align="left" width="63%">
 Gets the network ID of the DVB system.
@@ -81,7 +81,7 @@ Gets the network ID of the DVB system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f307629-710d-4992-b407-311774aa544a">put_NetworkID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtuningspace2-put_networkid">put_NetworkID</a>
 </td>
 <td align="left" width="63%">
 Sets the network ID of the DVB system
@@ -105,11 +105,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/fba3c7f3-61f8-4704-8068-cb1d3171345a">IDVBTuningSpace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtuningspace">IDVBTuningSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

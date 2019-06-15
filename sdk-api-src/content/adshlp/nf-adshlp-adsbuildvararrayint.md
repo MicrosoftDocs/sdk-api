@@ -86,7 +86,7 @@ Type: <b>HRESULT</b>
 
 This method supports standard return values.
 
-For more information about other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -118,15 +118,15 @@ if (hr = E_FAIL) exit(1);
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f0e90e2-afcc-4cf7-a731-9b38a83ca229">ADSI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7258a840-691a-4d9b-ab33-bcdf30fd1331">ADsBuildVarArrayStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsbuildvararraystr">ADsBuildVarArrayStr</a>
  
 
  

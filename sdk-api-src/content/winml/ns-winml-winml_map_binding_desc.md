@@ -68,7 +68,7 @@ Element count in the map binding.
 
 ### -field KeyType
 
-A <a href="https://msdn.microsoft.com/A8EB60A1-F769-460F-8C94-5D1DE3A1820F">WINML_TENSOR_DATA_TYPE</a> containing the key element tensor data type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_tensor_data_type">WINML_TENSOR_DATA_TYPE</a> containing the key element tensor data type.
 
 
 ### -field pStringKeys
@@ -83,7 +83,7 @@ A pointer to the key data of type int.
 
 ### -field Fields
 
-A <a href="https://msdn.microsoft.com/A8EB60A1-F769-460F-8C94-5D1DE3A1820F">WINML_TENSOR_DATA_TYPE</a> containing the field element tensor data type. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_tensor_data_type">WINML_TENSOR_DATA_TYPE</a> containing the field element tensor data type. 
 
 
 ### -field pStringFields

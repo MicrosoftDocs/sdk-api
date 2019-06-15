@@ -59,8 +59,8 @@ The <b>WinHttpSendRequest</b> function sends the specified request to the HTTP s
 
 ### -param hRequest [in]
 
-An <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle returned by 
-<a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
+An <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>.
 
 
 ### -param lpszHeaders [in, optional]
@@ -81,7 +81,7 @@ A pointer to a buffer that contains any optional data to send immediately after 
 
 If the <i>dwOptionalLength</i> parameter is 0, this parameter is ignored and set to <b>NULL</b>.
 
-This buffer must remain available until the request handle is closed or the call to <a href="https://msdn.microsoft.com/0b79e73b-9f6a-42eb-9108-1ba142ad7c48">WinHttpReceiveResponse</a> has completed.
+This buffer must remain available until the request handle is closed or the call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> has completed.
 
 
 ### -param dwOptionalLength [in]
@@ -95,7 +95,7 @@ This parameter must contain a valid length when the <i>lpOptional</i> parameter 
 
 An unsigned long integer value that contains the length, in bytes, of the total data sent.  This parameter specifies the Content-Length header of the request.  If the value of this parameter is greater than the length specified by 
 <i>dwOptionalLength</i>, then 
-<a href="https://msdn.microsoft.com/c8b94285-1b01-451b-9803-cc1bacb015ff">WinHttpWriteData</a> can be used to send additional data.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwritedata">WinHttpWriteData</a> can be used to send additional data.
 
 <i>dwTotalLength</i> must not change between calls to <b>WinHttpSendRequest</b> for the same request.  If <i>dwTotalLength</i> needs to be changed, the caller should create a new request.
 
@@ -110,7 +110,7 @@ A pointer to a pointer-sized variable that contains an application-defined value
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Error codes are listed in the following table.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Error codes are listed in the following table.
 
 <table>
 <tr>
@@ -135,9 +135,9 @@ Returned if  connection to the server failed.
 </dl>
 </td>
 <td width="60%">
-The secure HTTP server requires a client certificate. The application retrieves the list of certificate issuers by calling <a href="https://msdn.microsoft.com/47973eab-de70-47bf-9713-97b87a500cfa">WinHttpQueryOption</a> with the <b>WINHTTP_OPTION_CLIENT_CERT_ISSUER_LIST</b> option.
+The secure HTTP server requires a client certificate. The application retrieves the list of certificate issuers by calling <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpqueryoption">WinHttpQueryOption</a> with the <b>WINHTTP_OPTION_CLIENT_CERT_ISSUER_LIST</b> option.
 
-If the server requests the client certificate, but does not require it, the application can alternately call <a href="https://msdn.microsoft.com/bcf1da09-5787-4d2a-82ae-6965e27fa477">WinHttpSetOption</a> with the <b>WINHTTP_OPTION_CLIENT_CERT_CONTEXT</b> option. In this case, the application specifies the WINHTTP_NO_CLIENT_CERT_CONTEXT macro in the <i>lpBuffer</i> parameter of <b>WinHttpSetOption</b>. For more information, see the <b>WINHTTP_OPTION_CLIENT_CERT_CONTEXT</b> option.<b>Windows Server 2003 with SP1, Windows XP with SP2 and Windows 2000:  </b>This error is not supported.
+If the server requests the client certificate, but does not require it, the application can alternately call <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> with the <b>WINHTTP_OPTION_CLIENT_CERT_CONTEXT</b> option. In this case, the application specifies the WINHTTP_NO_CLIENT_CERT_CONTEXT macro in the <i>lpBuffer</i> parameter of <b>WinHttpSetOption</b>. For more information, see the <b>WINHTTP_OPTION_CLIENT_CERT_CONTEXT</b> option.<b>Windows Server 2003 with SP1, Windows XP with SP2 and Windows 2000:  </b>This error is not supported.
 
 
 
@@ -206,7 +206,7 @@ The URL is invalid.
 </td>
 <td width="60%">
 The login attempt failed.  When this error is encountered, the request handle should be closed with 
-<a href="https://msdn.microsoft.com/78215141-dfe8-4f0a-ba1a-a63fa257db6f">WinHttpCloseHandle</a>.  A new request handle must be created before retrying the function that originally produced this error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>.  A new request handle must be created before retrying the function that originally produced this error.
 
 </td>
 </tr>
@@ -251,8 +251,8 @@ Returned when an incoming response exceeds an internal WinHTTP size limit.
 </td>
 <td width="60%">
 One or more errors were found in the Secure Sockets Layer (SSL) certificate sent by the server.  To determine what type of error was encountered, verify through a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383917(v=VS.85).aspx">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
-<a href="https://msdn.microsoft.com/4d828e41-9073-407a-aab5-531f1d6d6d02">WINHTTP_STATUS_CALLBACK</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_CALLBACK_STATUS_SECURE_FAILURE</a> notification in a status callback function.  For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a>.
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ The Content-Length header cannot be present when the Transfer-Encoding header is
 </dl>
 </td>
 <td width="60%">
- The application must call <a href="https://msdn.microsoft.com/991bf531-2e6b-4581-8069-f75789915522">WinHttpSendRequest</a> again due to a redirect or authentication challenge.
+ The application must call <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a> again due to a redirect or authentication challenge.
 
 <b>Windows Server 2003 with SP1, Windows XP with SP2 and Windows 2000:  </b>This error is not supported.
 
@@ -340,11 +340,11 @@ The Content-Length header cannot be present when the Transfer-Encoding header is
 
 
 
-Even when WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>, this function can operate either synchronously or asynchronously.  In either case, if the request is sent successfully, the application is called back with the completion status set to <b>WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE</b>. The <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> completion indicates that the operation completed asynchronously, but failed.  Upon receiving the <b>WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE</b> status callback, the application can start to receive a response from the server with <a href="https://msdn.microsoft.com/0b79e73b-9f6a-42eb-9108-1ba142ad7c48">WinHttpReceiveResponse</a>. Before then, no other asynchronous functions can be called, otherwise, <b>ERROR_WINHTTP_INCORRECT_HANDLE_STATE</b> is returned. 
+Even when WinHTTP is used in asynchronous mode, that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>, this function can operate either synchronously or asynchronously.  In either case, if the request is sent successfully, the application is called back with the completion status set to <b>WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE</b>. The <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> completion indicates that the operation completed asynchronously, but failed.  Upon receiving the <b>WINHTTP_CALLBACK_STATUS_SENDREQUEST_COMPLETE</b> status callback, the application can start to receive a response from the server with <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a>. Before then, no other asynchronous functions can be called, otherwise, <b>ERROR_WINHTTP_INCORRECT_HANDLE_STATE</b> is returned. 
 
-An application must not delete or alter the buffer pointed to by <i>lpOptional</i> until the request handle is closed or the call to <a href="https://msdn.microsoft.com/0b79e73b-9f6a-42eb-9108-1ba142ad7c48">WinHttpReceiveResponse</a> has completed, because an authentication challenge or redirect that required the optional data could be encountered in the course of receiving the response. If the operation must be aborted with <a href="https://msdn.microsoft.com/78215141-dfe8-4f0a-ba1a-a63fa257db6f">WinHttpCloseHandle</a>, the application must keep the buffer valid until it receives the callback  <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> with an <b>ERROR_WINHTTP_OPERATION_CANCELLED</b> error code.
+An application must not delete or alter the buffer pointed to by <i>lpOptional</i> until the request handle is closed or the call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> has completed, because an authentication challenge or redirect that required the optional data could be encountered in the course of receiving the response. If the operation must be aborted with <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>, the application must keep the buffer valid until it receives the callback  <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> with an <b>ERROR_WINHTTP_OPERATION_CANCELLED</b> error code.
 
-If  WinHTTP  is used synchronously, that is, when <b>WINHTP_FLAG_ASYNC</b> was not set in <a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>, an application is not called with a completion status even if a callback function is registered. While in this mode, the application can call <a href="https://msdn.microsoft.com/0b79e73b-9f6a-42eb-9108-1ba142ad7c48">WinHttpReceiveResponse</a> when <b>WinHttpSendRequest</b> returns.
+If  WinHTTP  is used synchronously, that is, when <b>WINHTP_FLAG_ASYNC</b> was not set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>, an application is not called with a completion status even if a callback function is registered. While in this mode, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> when <b>WinHttpSendRequest</b> returns.
 
 The 
 <b>WinHttpSendRequest</b> function sends the specified request to the HTTP server and allows the client to specify additional headers to send along with the request.
@@ -356,16 +356,16 @@ An application can use the same HTTP request handle in multiple calls to
 
 The name and value of request headers added with this function are validated.  Headers must be well formed.  For more information about valid HTTP headers, see 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a>.  If an invalid header is used, this function fails and 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383770(v=VS.85).aspx">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/error-messages">ERROR_INVALID_PARAMETER</a>.  The invalid header is not added.
 
 <b>Windows 2000:  </b>When sending requests from multiple threads, there may be a significant decrease in network and CPU performance.  
 
-<b>Windows XP and Windows 2000:  </b>See <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Run-Time Requirements</a>.
+<b>Windows XP and Windows 2000:  </b>See <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.
 
 <h3><a id="WinHttpSetStatusCallback"></a><a id="winhttpsetstatuscallback"></a><a id="WINHTTPSETSTATUSCALLBACK"></a>WinHttpSetStatusCallback</h3>
 If a status callback function has been installed with 
-<a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a>, then those of the following notifications  that  have been set in the <i>dwNotificationFlags</i> parameter of <b>WinHttpSetStatusCallback</b>  indicate the progress in sending the request:
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>, then those of the following notifications  that  have been set in the <i>dwNotificationFlags</i> parameter of <b>WinHttpSetStatusCallback</b>  indicate the progress in sending the request:
 
 <ul>
 <li>WINHTTP_CALLBACK_STATUS_DETECTING_PROXY (not implemented)</li>
@@ -386,7 +386,7 @@ If a status callback function has been installed with
 <li>WINHTTP_CALLBACK_STATUS_RECEIVING_RESPONSE</li>
 <li>WINHTTP_CALLBACK_STATUS_RESPONSE_RECEIVED</li>
 </ul>
-If the server closes the connection, the following notifications are also sent, provided that they  have been set in the <i>dwNotificationFlags</i> parameter of <a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a>:
+If the server closes the connection, the following notifications are also sent, provided that they  have been set in the <i>dwNotificationFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>:
 
 <ul>
 <li>WINHTTP_CALLBACK_STATUS_CLOSING_CONNECTION</li>
@@ -397,7 +397,7 @@ Starting in Windows Vista and Windows Server 2008, WinHttp supports uploading 
 
 If the Content-Length header specifies a length less than a 2^32, the application must also specify the content length in the call to <b>WinHttpSendRequest</b>. If the <i>dwTotalLength</i> parameter does not match the length specified in the Content-Length header, the call fails and returns <b>ERROR_INVALID_PARAMETER</b>.
 
-The Content-Length header can be added in the call to <a href="https://msdn.microsoft.com/16cab68c-a802-43cc-87cd-60fcecb6a751">WinHttpAddRequestHeaders</a>, or it can be specified in the <i>lpszHeader</i> parameter of <b>WinHttpSendRequest</b> as shown in the following code example.
+The Content-Length header can be added in the call to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpaddrequestheaders">WinHttpAddRequestHeaders</a>, or it can be specified in the <i>lpszHeader</i> parameter of <b>WinHttpSendRequest</b> as shown in the following code example.
 
 <pre class="syntax" xml:space="preserve"><code>BOOL fRet = WinHttpSendRequest(
 			hReq,
@@ -408,13 +408,13 @@ The Content-Length header can be added in the call to <a href="https://msdn.micr
 			WINHTTP_IGNORE_REQUEST_TOTAL_LENGTH,
 			pMyContent);</code></pre>
 <h3><a id="Transfer-Encoding_Header"></a><a id="transfer-encoding_header"></a><a id="TRANSFER-ENCODING_HEADER"></a>Transfer-Encoding Header</h3>
-Starting in Windows Vista and Windows Server 2008, WinHttp enables applications to perform chunked transfer encoding on data sent to the server. When the Transfer-Encoding header is present on the WinHttp request, the <i>dwTotalLength</i> parameter in the call to <b>WinHttpSendRequest</b> is set to <b>WINHTTP_IGNORE_REQUEST_TOTAL_LENGTH</b> and the application sends the entity body in one or more calls to <a href="https://msdn.microsoft.com/c8b94285-1b01-451b-9803-cc1bacb015ff">WinHttpWriteData</a>. The <i>lpOptional</i> parameter of <b>WinHttpSendRequest</b> must be <b>NULL</b> and the <i>dwOptionLength</i> parameter must be zero, otherwise an <b>ERROR_WINHTTP_INVALID_PARAMETER</b> error is returned. To terminate the chunked data transfer, the application generates a zero length chunk and sends it in the last call to <b>WinHttpWriteData</b>.
+Starting in Windows Vista and Windows Server 2008, WinHttp enables applications to perform chunked transfer encoding on data sent to the server. When the Transfer-Encoding header is present on the WinHttp request, the <i>dwTotalLength</i> parameter in the call to <b>WinHttpSendRequest</b> is set to <b>WINHTTP_IGNORE_REQUEST_TOTAL_LENGTH</b> and the application sends the entity body in one or more calls to <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpwritedata">WinHttpWriteData</a>. The <i>lpOptional</i> parameter of <b>WinHttpSendRequest</b> must be <b>NULL</b> and the <i>dwOptionLength</i> parameter must be zero, otherwise an <b>ERROR_WINHTTP_INVALID_PARAMETER</b> error is returned. To terminate the chunked data transfer, the application generates a zero length chunk and sends it in the last call to <b>WinHttpWriteData</b>.
 
 
 #### Examples
 
 The following code example shows how to obtain an 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle, open an HTTP
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle, open an HTTP
                 session, create a request header, and send that header to the server.
 
 
@@ -473,7 +473,7 @@ The following code example shows how to obtain an
 
 
 
-<a href="https://msdn.microsoft.com/8337f699-3ec0-4397-acc2-6dc813f7542d">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
@@ -481,27 +481,27 @@ The following code example shows how to obtain an
 
 
 
-<a href="https://msdn.microsoft.com/b69e5087-7849-4cbc-a97b-204a26fdd044">WinHTTP Versions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://msdn.microsoft.com/78215141-dfe8-4f0a-ba1a-a63fa257db6f">WinHttpCloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/afcdad8d-687e-4a1f-99d8-5d8be13825fa">WinHttpConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpconnect">WinHttpConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33">WinHttpOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b79e73b-9f6a-42eb-9108-1ba142ad7c48">WinHttpReceiveResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a>
  
 
  

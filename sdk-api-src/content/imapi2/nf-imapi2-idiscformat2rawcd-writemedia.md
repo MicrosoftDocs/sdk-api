@@ -447,27 +447,27 @@ Value: 0xC0AA0002
 
 
 
-Before calling this method, you must call the <a href="https://msdn.microsoft.com/d3deefa8-40be-4cdc-aae1-e5fbe508f16f">IDiscFormat2RawCD::put_Recorder</a> and <a href="https://msdn.microsoft.com/8c393786-0c2d-4244-8ec3-0ac9e47e76c6">IDiscFormat2RawCD::PrepareMedia</a> methods.
+Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">IDiscFormat2RawCD::PrepareMedia</a> methods.
 
 You should also consider calling the following methods if their default values are not appropriate for your application:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/66b35ca9-2bc7-419e-8fff-4449a64f9f5f">IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_bufferunderrunfreedisabled">IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/49fce259-2b39-4905-a48f-a252537d8360">IDiscFormat2RawCD::put_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_clientname">IDiscFormat2RawCD::put_ClientName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fd9d7e1d-5672-482f-ac83-efcab3adbac4">IDiscFormat2RawCD::put_RequestedSectorType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_requestedsectortype">IDiscFormat2RawCD::put_RequestedSectorType</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/93021007-6ed8-4322-93bb-c52796a4ab66">IDiscFormat2RawCD::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-setwritespeed">IDiscFormat2RawCD::SetWriteSpeed</a>
 </li>
 </ul>
-This method is synchronous. To determine the progress of the write operation, you must implement the <a href="https://msdn.microsoft.com/3a06911e-8a50-4e41-874c-478ad05f6488">DDiscFormat2RawCDEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://msdn.microsoft.com/1f15a5fe-f5d7-4e09-805f-2d0380bf2bb2">Monitoring Progress With Events</a>.
+This method is synchronous. To determine the progress of the write operation, you must implement the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2rawcdevents">DDiscFormat2RawCDEvents</a> interface. For examples that show how to implement an event handler in a script, see <a href="https://docs.microsoft.com/windows/desktop/imapi/monitoring-progress-with-events">Monitoring Progress With Events</a>.
 
-The first sector of the raw image is written at MSF 95:00:00. If your RAW image has a different first sector, please use the <a href="https://msdn.microsoft.com/636d04dd-081d-407c-827e-55e443516d9b">IDiscFormat2RawCD::WriteMedia2</a> method.
+The first sector of the raw image is written at MSF 95:00:00. If your RAW image has a different first sector, please use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a> method.
 
 This method uses the <b>IStream::Seek</b> method to reach the appropriate starting location in the image for the current media. If the <b>IStream::Seek</b> method fails, the method will call the <b>IStream::Read</b> method repeatedly until reaching the starting sector.
 
@@ -483,11 +483,11 @@ DAO-96 also supports variations in the subcode content, such as CD+G and CD-Text
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://msdn.microsoft.com/636d04dd-081d-407c-827e-55e443516d9b">IDiscFormat2RawCD::WriteMedia2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a>
  
 
  

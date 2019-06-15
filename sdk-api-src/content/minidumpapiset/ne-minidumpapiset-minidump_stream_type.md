@@ -75,43 +75,43 @@ Reserved. Do not use this enumeration value.
 ### -field ThreadListStream
 
 The stream contains thread information. For more information, see 
-<a href="https://msdn.microsoft.com/aa0491d3-e119-41d0-ab53-a108832745d0">MINIDUMP_THREAD_LIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_list">MINIDUMP_THREAD_LIST</a>.
 
 
 ### -field ModuleListStream
 
 The stream contains module information. For more information, see 
-<a href="https://msdn.microsoft.com/9c30026d-9c72-472f-9d71-b15274459aae">MINIDUMP_MODULE_LIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module_list">MINIDUMP_MODULE_LIST</a>.
 
 
 ### -field MemoryListStream
 
 The stream contains memory allocation information. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms680387(v=VS.85).aspx">MINIDUMP_MEMORY_LIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory64_list">MINIDUMP_MEMORY_LIST</a>.
 
 
 ### -field ExceptionStream
 
 The stream contains exception information. For more information, see 
-<a href="https://msdn.microsoft.com/2de717dc-a9ac-4b81-9fab-992f22da9a0d">MINIDUMP_EXCEPTION_STREAM</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_stream">MINIDUMP_EXCEPTION_STREAM</a>.
 
 
 ### -field SystemInfoStream
 
 The stream contains general system information. For more information, see 
-<a href="https://msdn.microsoft.com/1d4e2a78-2184-4846-b51d-441bf1133ec0">MINIDUMP_SYSTEM_INFO</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_system_info">MINIDUMP_SYSTEM_INFO</a>.
 
 
 ### -field ThreadExListStream
 
 The stream contains extended thread information. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms680399(v=VS.85).aspx">MINIDUMP_THREAD_EX_LIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_ex_list">MINIDUMP_THREAD_EX_LIST</a>.
 
 
 ### -field Memory64ListStream
 
 The stream contains memory allocation information. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms680387(v=VS.85).aspx">MINIDUMP_MEMORY64_LIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory64_list">MINIDUMP_MEMORY64_LIST</a>.
 
 
 ### -field CommentStreamA
@@ -127,19 +127,19 @@ The stream contains a Unicode string used for documentation purposes.
 ### -field HandleDataStream
 
 The stream contains high-level information about the active operating system handles. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>.
 
 
 ### -field FunctionTableStream
 
 The stream contains function table information. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms680371(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_STREAM</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_function_table_stream">MINIDUMP_FUNCTION_TABLE_STREAM</a>.
 
 
 ### -field UnloadedModuleListStream
 
 The stream contains module information for the unloaded modules. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms680521(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE_LIST</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
@@ -147,28 +147,28 @@ The stream contains module information for the unloaded modules. For more inform
 ### -field MiscInfoStream
 
 The stream contains miscellaneous information. For more information, see 
-<a href="https://msdn.microsoft.com/c80bb631-b26b-40d4-ae35-1cf38ce45d51">MINIDUMP_MISC_INFO</a> or <a href="https://msdn.microsoft.com/34f46a51-9e41-4550-a080-1c7c7a603b54">MINIDUMP_MISC_INFO_2</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info">MINIDUMP_MISC_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a>.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
 
 ### -field MemoryInfoListStream
 
-The stream contains memory region description information. It corresponds to the information that would be returned for the process from the <a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a> function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms680385(v=VS.85).aspx">MINIDUMP_MEMORY_INFO_LIST</a>.
+The stream contains memory region description information. It corresponds to the information that would be returned for the process from the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
 
 ### -field ThreadInfoListStream
 
-The stream contains thread state information. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms680506(v=VS.85).aspx">MINIDUMP_THREAD_INFO_LIST</a>.
+The stream contains thread state information. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_info_list">MINIDUMP_THREAD_INFO_LIST</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
 
 ### -field HandleOperationListStream
 
-This stream contains operation list information. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms680377(v=VS.85).aspx">MINIDUMP_HANDLE_OPERATION_LIST</a>.
+This stream contains operation list information. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_operation_list">MINIDUMP_HANDLE_OPERATION_LIST</a>.
 
 <b>DbgHelp 6.4 and earlier:  </b>This value is not supported.
 
@@ -233,7 +233,7 @@ This stream contains operation list information. For more information, see <a hr
 ### -field LastReservedStream
 
 Any value greater than this value will not be used by the system and can be used to represent application-defined data streams. For more information, see 
-<a href="https://msdn.microsoft.com/43eae98c-fba3-43a4-97e6-8b81874e856e">MINIDUMP_USER_STREAM</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream">MINIDUMP_USER_STREAM</a>.
 
 
 ## -remarks
@@ -243,7 +243,7 @@ Any value greater than this value will not be used by the system and can be used
 In this context, a data stream is a set of data in a minidump file.
 
 The <b>StreamType</b> member of the 
-<a href="https://msdn.microsoft.com/1262c218-5351-4fea-9d35-4654da7c5e44">MINIDUMP_DIRECTORY</a> structure can be one of these types. Additional types may be added in the future, so if a program reading the minidump header encounters a stream type it does not recognize, it should ignore the stream altogether.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_directory">MINIDUMP_DIRECTORY</a> structure can be one of these types. Additional types may be added in the future, so if a program reading the minidump header encounters a stream type it does not recognize, it should ignore the stream altogether.
 
 
 
@@ -253,63 +253,63 @@ The <b>StreamType</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/1262c218-5351-4fea-9d35-4654da7c5e44">MINIDUMP_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_directory">MINIDUMP_DIRECTORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de717dc-a9ac-4b81-9fab-992f22da9a0d">MINIDUMP_EXCEPTION_STREAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_stream">MINIDUMP_EXCEPTION_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680371(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_STREAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_function_table_stream">MINIDUMP_FUNCTION_TABLE_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_data_stream">MINIDUMP_HANDLE_DATA_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680377(v=VS.85).aspx">MINIDUMP_HANDLE_OPERATION_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_operation_list">MINIDUMP_HANDLE_OPERATION_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680385(v=VS.85).aspx">MINIDUMP_MEMORY_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680387(v=VS.85).aspx">MINIDUMP_MEMORY_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory64_list">MINIDUMP_MEMORY_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/c80bb631-b26b-40d4-ae35-1cf38ce45d51">MINIDUMP_MISC_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_misc_info">MINIDUMP_MISC_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c30026d-9c72-472f-9d71-b15274459aae">MINIDUMP_MODULE_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module_list">MINIDUMP_MODULE_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d4e2a78-2184-4846-b51d-441bf1133ec0">MINIDUMP_SYSTEM_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_system_info">MINIDUMP_SYSTEM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680399(v=VS.85).aspx">MINIDUMP_THREAD_EX_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_ex_list">MINIDUMP_THREAD_EX_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680506(v=VS.85).aspx">MINIDUMP_THREAD_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_info_list">MINIDUMP_THREAD_INFO_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa0491d3-e119-41d0-ab53-a108832745d0">MINIDUMP_THREAD_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_thread_list">MINIDUMP_THREAD_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680521(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module_list">MINIDUMP_UNLOADED_MODULE_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/43eae98c-fba3-43a4-97e6-8b81874e856e">MINIDUMP_USER_STREAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream">MINIDUMP_USER_STREAM</a>
  
 
  

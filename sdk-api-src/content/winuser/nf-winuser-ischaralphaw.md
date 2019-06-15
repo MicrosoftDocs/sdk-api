@@ -80,7 +80,7 @@ Type: <b>BOOL</b>
 
 If the character is alphabetical, the return value is nonzero.
 
-If the character is not alphabetical, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the character is not alphabetical, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -94,7 +94,7 @@ If the character is not alphabetical, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647483(v=VS.85).aspx">IsCharAlphaNumeric</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ischaralphanumerica">IsCharAlphaNumeric</a>
 
 
 
@@ -102,7 +102,7 @@ If the character is not alphabetical, the return value is zero. To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

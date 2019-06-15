@@ -92,7 +92,7 @@ The report is rendered in XML.
 
 
 
-<a href="https://msdn.microsoft.com/9d0f7a7f-ad25-4d44-bc11-67da7685142a">IFsrmReportJob::Formats</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_formats">IFsrmReportJob::Formats</a>
  
 
  

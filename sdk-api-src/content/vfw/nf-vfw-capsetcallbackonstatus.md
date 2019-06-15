@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetCallbackOnStatus</b> macro sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/451ba9f9-7bfb-4c57-af6c-d5f691f39618">WM_CAP_SET_CALLBACK_STATUS</a> message.
+The <b>capSetCallbackOnStatus</b> macro sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-status">WM_CAP_SET_CALLBACK_STATUS</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a capture window.
 
 ### -param fpProc
 
-Pointer to the status callback function, of type <a href="https://msdn.microsoft.com/b48021a7-7fa1-4837-a6ca-af266fd55f4f">capStatusCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed status callback function. 
+Pointer to the status callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capstatuscallbacka">capStatusCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed status callback function. 
 
 
 ## -remarks
@@ -90,15 +90,15 @@ Applications can optionally set a status callback function. If set, AVICap calls
 
 
 
-<a href="https://msdn.microsoft.com/9aa98340-a5a0-4084-9670-b3c27a1351ed">Creating a Status Callback Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/creating-a-status-callback-function">Creating a Status Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

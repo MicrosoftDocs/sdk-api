@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers and initializes certain common control window classes. This function is obsolete. New applications should use the <a href="https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx">InitCommonControlsEx</a> function. 
+Registers and initializes certain common control window classes. This function is obsolete. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function. 
 
 
 ## -parameters
@@ -74,9 +74,9 @@ This function does not return a value.
 
 
 
-Under Comctl32.dll version 5.x, only Windows 95 classes (ICC_WIN95_CLASSES) can be registered through <b>InitCommonControls</b>. Programs which require additional common control classes must use the <a href="https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx">InitCommonControlsEx</a> function.
+Under Comctl32.dll version 5.x, only Windows 95 classes (ICC_WIN95_CLASSES) can be registered through <b>InitCommonControls</b>. Programs which require additional common control classes must use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function.
 
-Under Comctl32.dll version 6.0 and later, <b>InitCommonControls</b> does nothing. Applications must explicitly register all common controls through <a href="https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx">InitCommonControlsEx</a>.
+Under Comctl32.dll version 6.0 and later, <b>InitCommonControls</b> does nothing. Applications must explicitly register all common controls through <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a>.
 
 
 

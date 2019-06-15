@@ -162,7 +162,7 @@ No file name pattern specified in <i>pszSpec</i> matched the file name found in 
 
 
 
-<a href="https://msdn.microsoft.com/908e7204-d168-4179-9c7b-ad46ba68bebc">PathMatchSpec</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathmatchspeca">PathMatchSpec</a>
  
 
  

@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.
 
-This function differs from <a href="https://msdn.microsoft.com/53da5ba7-a2a4-45b2-90e0-ae006415933e">PathIsUNC</a> in that it also allows you to extract the name of the server from the path.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisunca">PathIsUNC</a> in that it also allows you to extract the name of the server from the path.
 
 
 

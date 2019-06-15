@@ -64,9 +64,9 @@ Reserved for future use; set this parameter to zero.
 
 ### -param szEventSourceName [in]
 
-Name of the source to remove from the list of valid security event sources. This corresponds to  the <b>szEventSourceName</b> member of the <a href="https://msdn.microsoft.com/8b4d6e14-fb9c-428a-bd94-34eba668edc6">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that defines the source.
+Name of the source to remove from the list of valid security event sources. This corresponds to  the <b>szEventSourceName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that defines the source.
 
-This function removes the source information from the registry. For more information about the registry keys and values affected, see the <a href="https://msdn.microsoft.com/77cb5c6c-1634-4449-8d05-ce6357ad4e4b">AuthzInstallSecurityEventSource</a> function.
+This function removes the source information from the registry. For more information about the registry keys and values affected, see the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a> function.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This function removes the source information from the registry. For more informa
 
 If the function succeeds, it returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,11 +85,11 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-<a href="https://msdn.microsoft.com/8b4d6e14-fb9c-428a-bd94-34eba668edc6">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-_authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/77cb5c6c-1634-4449-8d05-ce6357ad4e4b">AuthzInstallSecurityEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinstallsecurityeventsource">AuthzInstallSecurityEventSource</a>
  
 
  

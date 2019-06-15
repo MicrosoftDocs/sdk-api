@@ -93,11 +93,11 @@ The caller can compare the resulting hash code to the hash code for another obje
 
 
 
-<a href="https://msdn.microsoft.com/4ddf2545-83a6-4b5d-94ba-7034aed61f08">HashExactIncremental</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-hashexactincremental">HashExactIncremental</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f582ae2-d8c6-4d85-a01f-e98c6ee16021">IBDAComparable Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
  
 
  

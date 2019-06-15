@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxServer::ListenToServerEvents</b> method registers the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object to receive notifications about one or more types of server events, or to stop these notifications. 
+The <b>IFaxServer::ListenToServerEvents</b> method registers the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a> object to receive notifications about one or more types of server events, or to stop these notifications. 
 
 
 ## -parameters
@@ -60,9 +60,9 @@ The <b>IFaxServer::ListenToServerEvents</b> method registers the <a href="https:
 
 ### -param EventTypes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">FAX_SERVER_EVENTS_TYPE_ENUM</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">FAX_SERVER_EVENTS_TYPE_ENUM</a></b>
 
-A value that contains a set of bit flags representing the types of events for which the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object is registering to receive notifications. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">FAX_SERVER_EVENTS_TYPE_ENUM</a>.
+A value that contains a set of bit flags representing the types of events for which the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a> object is registering to receive notifications. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">FAX_SERVER_EVENTS_TYPE_ENUM</a>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-In Microsoft Visual Basic, if you want the fax server to receive notifications, you have to create the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object using the following syntax:
+In Microsoft Visual Basic, if you want the fax server to receive notifications, you have to create the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a> object using the following syntax:
 
 
 
@@ -95,7 +95,7 @@ Set objFaxServer = CreateObject("FaxServer")
 In Microsoft Visual C++, the <a href="https://docs.microsoft.com/en-us/windows/desktop/api/faxcomex/nn-faxcomex-ifaxservernotify2">IFaxServerNotify</a> interface on the <b>FaxServer</b> object receives notifications of the events.
 
 
-By default, the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object does not receive notifications for any server events. If you want the <b>FaxServer</b> object to receive notifications, you must call <b>IFaxServer::ListenToServerEvents</b> and pass to it the event types for which you want to receive notifications. To stop receiving the notification, call this method with <i>EventTypes</i> equal to <a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetNONE</a>.
+By default, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a> object does not receive notifications for any server events. If you want the <b>FaxServer</b> object to receive notifications, you must call <b>IFaxServer::ListenToServerEvents</b> and pass to it the event types for which you want to receive notifications. To stop receiving the notification, call this method with <i>EventTypes</i> equal to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetNONE</a>.
 
 Access rights for this method depend on which events are requested, as shown in the following table.
 
@@ -107,90 +107,90 @@ Access rights for this method depend on which events are requested, as shown in 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetINCOMING_CALL</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetINCOMING_CALL</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetIN_QUEUE</a>
-</td>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a>
-</td>
-</tr>
-<tr>
-<td></td>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_IN_ARCHIVE</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetOUT_QUEUE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetIN_QUEUE</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_LOW</a>
 </td>
 </tr>
 <tr>
 <td></td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_JOBS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_JOBS</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetCONFIG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetOUT_QUEUE</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetDEVICE_STATUS</a>
-</td>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetACTIVITY</a>
-</td>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_CONFIG</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetIN_ARCHIVE</a>
-</td>
-<td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_LOW</a>
 </td>
 </tr>
 <tr>
 <td></td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_IN_ARCHIVE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_JOBS</a>
 </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689206(v=VS.85).aspx">fsetOUT_ARCHIVE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetCONFIG</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farSUBMIT_LOW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetDEVICE_STATUS</a>
+</td>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetACTIVITY</a>
+</td>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetIN_ARCHIVE</a>
+</td>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT</a>
 </td>
 </tr>
 <tr>
 <td></td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farQUERY_OUT_ARCHIVE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_IN_ARCHIVE</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_server_events_type_enum">fsetOUT_ARCHIVE</a>
+</td>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farSUBMIT_LOW</a>
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_OUT_ARCHIVE</a>
 </td>
 </tr>
 </table>
@@ -204,19 +204,19 @@ Access rights for this method depend on which events are requested, as shown in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693008(v=VS.85).aspx">Registering for Event Notifications</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registering-for-event-notifications">Registering for Event Notifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>
  
 
  

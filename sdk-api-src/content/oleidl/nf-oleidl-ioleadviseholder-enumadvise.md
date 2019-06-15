@@ -59,7 +59,7 @@ Creates an enumerator that can be used to enumerate the advisory connections cur
 
 ### -param ppenumAdvise [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/8e2f6655-4a09-4868-a909-18999104b3ff">IEnumSTATDATA</a> pointer variable that receives the interface pointer to the new enumerator. If this parameter is <b>NULL</b>, there are presently no advisory connections on the object, or an error occurred. The advise holder is responsible for incrementing the reference count on the <b>IEnumSTATDATA</b> pointer this method supplies. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when it is finished with the pointer.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> pointer variable that receives the interface pointer to the new enumerator. If this parameter is <b>NULL</b>, there are presently no advisory connections on the object, or an error occurred. The advise holder is responsible for incrementing the reference count on the <b>IEnumSTATDATA</b> pointer this method supplies. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when it is finished with the pointer.
 
 
 ## -returns
@@ -92,7 +92,7 @@ The enumeration operation has failed.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/80a9ccd8-f89a-40c4-8b99-38536409cf26">IOleAdviseHolder::EnumAdvise</a> is not implemented.
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-enumadvise">IOleAdviseHolder::EnumAdvise</a> is not implemented.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The enumeration operation has failed.
 
 
 
-<b>IOleAdviseHolder::EnumAdvise</b> creates an enumerator that can be used to enumerate an object's established advisory connections. The method supplies a pointer to the <a href="https://msdn.microsoft.com/8e2f6655-4a09-4868-a909-18999104b3ff">IEnumSTATDATA</a> interface on this enumerator. Advisory connection information for each connection is stored in the <a href="https://msdn.microsoft.com/f31469b2-4a4a-4da5-9229-38ddd0bcc88e">STATDATA</a> structure, and the enumerator must be able to enumerate these structures.
+<b>IOleAdviseHolder::EnumAdvise</b> creates an enumerator that can be used to enumerate an object's established advisory connections. The method supplies a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a> interface on this enumerator. Advisory connection information for each connection is stored in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatdata">STATDATA</a> structure, and the enumerator must be able to enumerate these structures.
 
 For this method, the only relevant structure members are <b>pAdvise</b> and <b>dwConnection</b>. Other members contain data advisory information. When you call the enumeration methods, and while an enumeration is in progress, the effect of registering or revoking advisory connections on what is to be enumerated is undefined.
 
@@ -118,27 +118,27 @@ For this method, the only relevant structure members are <b>pAdvise</b> and <b>d
 
 
 
-<a href="https://msdn.microsoft.com/0863d013-6f55-40ce-92d2-68bb0455a911">IDataAdviseHolder::EnumAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-enumadvise">IDataAdviseHolder::EnumAdvise</a>
 
 
 
-<a href="https://msdn.microsoft.com/680afee7-2bee-4d54-ae0b-3e4e0deb622f">IOleAdviseHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/60bbb555-7d01-49cb-b7b3-9dc905066f94">IOleAdviseHolder::Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-advise">IOleAdviseHolder::Advise</a>
 
 
 
-<a href="https://msdn.microsoft.com/620bc43f-dfc7-48b7-a574-ca7287ffa42f">IOleAdviseHolder::Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-unadvise">IOleAdviseHolder::Unadvise</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e1d6d9e-ebf2-4cd6-b7b4-00f9e7bd9bdc">IOleObject::EnumAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumadvise">IOleObject::EnumAdvise</a>
 
 
 
-<a href="https://msdn.microsoft.com/f31469b2-4a4a-4da5-9229-38ddd0bcc88e">STATDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatdata">STATDATA</a>
  
 
  

@@ -64,7 +64,7 @@ A <b>GUID</b> that specifies the Network Connection ID.
 
 ### -param ppNetworkConnection [out, retval]
 
-Pointer to a pointer to the <a href="https://msdn.microsoft.com/666761b5-0146-438d-9986-ecce3b45b5ff">INetworkConnection</a> object associated with the supplied <i>gdNetworkConnectionId</i>.
+Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a> object associated with the supplied <i>gdNetworkConnectionId</i>.
 
 
 ## -returns
@@ -122,7 +122,7 @@ The specified GUID is invalid.
 
 
 This method can return <b>S_FALSE</b> if a network connection associated with the specified ID has been removed. 
-For example, it is possible for  a client to receive a <a href="https://msdn.microsoft.com/0b245a6e-918c-41de-b33e-87723491e900">INetworkConnectionEvents::NetworkConnectionConnectivityChanged</a> event along with a network connection ID, but find that the network connection has been disconnected or even replaced by the time  <b>INetworkListManager::GetNetworkConnection</b> is called with the provided ID.
+For example, it is possible for  a client to receive a <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectionevents-networkconnectionconnectivitychanged">INetworkConnectionEvents::NetworkConnectionConnectivityChanged</a> event along with a network connection ID, but find that the network connection has been disconnected or even replaced by the time  <b>INetworkListManager::GetNetworkConnection</b> is called with the provided ID.
 
 
 
@@ -132,11 +132,11 @@ For example, it is possible for  a client to receive a <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/666761b5-0146-438d-9986-ecce3b45b5ff">INetworkConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9f76b6a-ea15-47b7-a4ef-14ea60b7810d">INetworkListManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
  
 
  

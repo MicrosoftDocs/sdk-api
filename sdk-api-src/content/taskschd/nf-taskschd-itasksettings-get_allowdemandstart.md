@@ -65,7 +65,7 @@ This property is read/write.
 
 When this property is set to True, the task can be started independent of when any triggers start the task.
 
-When reading or writing  XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/5a0f0842-9f09-4d52-bed2-45740945d9a5">AllowStartOnDemand</a> element of the Task Scheduler schema.
+When reading or writing  XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-allowstartondemand-settingstype-element">AllowStartOnDemand</a> element of the Task Scheduler schema.
 
 
 
@@ -75,11 +75,11 @@ When reading or writing  XML for a task, this setting is specified in the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

@@ -147,7 +147,7 @@ Insufficient memory.
 
 
 
-<a href="https://msdn.microsoft.com/1f1d826b-3968-424b-8da8-b69590058ff1">Registering Your Recognizer DLL</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/registering-your-recognizer-dll">Registering Your Recognizer DLL</a>
  
 
  

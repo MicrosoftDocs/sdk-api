@@ -55,11 +55,11 @@ The <b>MONITORINFO</b> structure contains information about a display monitor.
 The 
         GetMonitorInfo function stores information in a 
          <b>MONITORINFO</b>  structure or a 
-        <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a> structure.
 
 The 
          <b>MONITORINFO</b> structure is a subset of the 
-         <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a>  structure. The 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a>  structure. The 
          <b>MONITORINFOEX</b>  structure adds a string member to contain a name for the display monitor.
 
 
@@ -74,7 +74,7 @@ The
 
 The size of the structure, in bytes.
 
-Set this member to <code>sizeof ( MONITORINFO )</code> before calling the <a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a> function. Doing so lets the function determine the type of structure you are passing to it.
+Set this member to <code>sizeof ( MONITORINFO )</code> before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> function. Doing so lets the function determine the type of structure you are passing to it.
 
 
 ### -field rcMonitor
@@ -111,19 +111,19 @@ The following flag is defined.
 
 
 
-<a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/901c8fbe-a29c-4382-80d4-5e3667a031da">Multiple Display Monitors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/871d0608-53a8-4b85-8c03-e7dd464015aa">Multiple Display Monitors Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-structures">Multiple Display Monitors Structures</a>
  
 
  

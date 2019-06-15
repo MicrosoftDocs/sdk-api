@@ -54,7 +54,7 @@ Exposes methods for obtaining information about and controlling progressive deco
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICProgressiveLevelControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICProgressiveLevelControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICProgressiveLevelControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICProgressiveLevelControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWICProgressiveLevelControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6f848a0-e373-4344-8923-3ad77165ef71">GetCurrentLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-getcurrentlevel">GetCurrentLevel</a>
 </td>
 <td align="left" width="63%">
-Gets the last level set by the <a href="https://msdn.microsoft.com/b4a2c279-385d-4177-bd8f-a49f545c692a">SetCurrentLevel</a> call.
+Gets the last level set by the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-setcurrentlevel">SetCurrentLevel</a> call.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7949d31-c679-43ea-aa07-5f9f8579b4f7">GetLevelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-getlevelcount">GetLevelCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of levels of progressive decoding supported by the CODEC.
@@ -87,10 +87,10 @@ Gets the number of levels of progressive decoding supported by the CODEC.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4a2c279-385d-4177-bd8f-a49f545c692a">SetCurrentLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicprogressivelevelcontrol-setcurrentlevel">SetCurrentLevel</a>
 </td>
 <td align="left" width="63%">
-Specifies the level to retrieve on the next call to <a href="https://msdn.microsoft.com/d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c">CopyPixels</a>.
+Specifies the level to retrieve on the next call to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>.
 
 </td>
 </tr>
@@ -117,11 +117,11 @@ E_NOTIMPL is returned if the codec does not support progressive level decoding.
 
 
 
-<a href="https://msdn.microsoft.com/d22c2c59-0fa1-4452-93f1-dbf151033714">Progressive Decoding Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-progressive-decoding">Progressive Decoding Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/14018dce-26f0-4e1e-9d19-c5b42dd2cdab">WIC Progressive Decoding Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-sample-progressive-decoding">WIC Progressive Decoding Sample</a>
  
 
  

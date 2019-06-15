@@ -59,7 +59,7 @@ The <b>PeerGroupOpenDirectConnection</b> function establishes a direct connectio
 
 ### -param hGroup [in]
 
-Handle to the peer group that hosts the direct connection. This handle is returned by the <a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>, <a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>, or <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a> function. This parameter is required.
+Handle to the peer group that hosts the direct connection. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 
 ### -param pwzIdentity [in]
@@ -69,12 +69,12 @@ Pointer to a Unicode string that contains the identity   a peer  connects to. Th
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a> structure that contains the IPv6 address   the peer  connects to. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structure that contains the IPv6 address   the peer  connects to. This parameter is required.
 
 
 ### -param pullConnectionId [out]
 
-Unsigned 64-bit integer that identifies the direct connection. This ID value cannot be assumed as valid until the <a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is raised and indicates that the connection has been accepted by the other peer. This parameter is required.
+Unsigned 64-bit integer that identifies the direct connection. This ID value cannot be assumed as valid until the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is raised and indicates that the connection has been accepted by the other peer. This parameter is required.
 
 
 ## -returns
@@ -136,7 +136,7 @@ Access to the peer identity or peer group keys is denied. This is typically caus
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -145,7 +145,7 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-Every direct connection opened with this function must be closed with <a href="https://msdn.microsoft.com/56b47743-f205-407b-80f2-03e3c9b78be1">PeerGroupCloseDirectConnection</a> when the exchange has finished. If the peer refuses a connection or if the connection fails, S_OK is returned. However, a <a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is generated, and  the corresponding <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT DATA</a> structure has the  <b>status</b> member of its component <a href="https://msdn.microsoft.com/0d73432c-c1e5-4fa9-a812-377b22a47440">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
+Every direct connection opened with this function must be closed with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclosedirectconnection">PeerGroupCloseDirectConnection</a> when the exchange has finished. If the peer refuses a connection or if the connection fails, S_OK is returned. However, a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_DIRECT_CONNECTION</a> event is generated, and  the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT DATA</a> structure has the  <b>status</b> member of its component <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data_tag">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure set to PEER_CONNECTION_FAILED.
 
 
 
@@ -155,39 +155,39 @@ Every direct connection opened with this function must be closed with <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca"> PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag"> PEER_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d73432c-c1e5-4fa9-a812-377b22a47440">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data_tag">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_DIRECT_CONNECTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_DIRECT_CONNECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/56b47743-f205-407b-80f2-03e3c9b78be1">PeerGroupCloseDirectConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclosedirectconnection">PeerGroupCloseDirectConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dcc484d-2b96-4186-990d-c32b7b254d91">PeerGroupSendData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupsenddata">PeerGroupSendData</a>
  
 
  

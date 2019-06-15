@@ -191,14 +191,14 @@ One or more of the arguments is not valid.
 </dl>
 </td>
 <td width="60%">
-The member being invoked has returned an error HRESULT. If the member implements <a href="https://msdn.microsoft.com/4dda6909-2d9a-4727-ae0c-b5f90dcfa447">IErrorInfo</a>, details are available in the error object. Otherwise, the <i>pExcepInfo</i> parameter contains details. 
+The member being invoked has returned an error HRESULT. If the member implements <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>, details are available in the error object. Otherwise, the <i>pExcepInfo</i> parameter contains details. 
 
 </td>
 </tr>
 </table>
  
 
-Any of the <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a> errors may also be returned.
+Any of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a> errors may also be returned.
 
 
 
@@ -207,11 +207,11 @@ Any of the <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a
 
 
 
-Use the function <b>ITypeInfo::Invoke</b> to access a member of an object or invoke a method that implements the interface described by this type description. For objects that support the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface, you can use <b>Invoke</b> to implement <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a>.
+Use the function <b>ITypeInfo::Invoke</b> to access a member of an object or invoke a method that implements the interface described by this type description. For objects that support the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface, you can use <b>Invoke</b> to implement <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
 
 
 
-<b>ITypeInfo::Invoke</b> takes a pointer to an instance of the class. Otherwise, its parameters are the same as <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a>e, except that <b>ITypeInfo::Invoke</b> omits the <i>refiid</i> and <i>lcid</i> parameters. When called, <b>ITypeInfo::Invoke</b> performs the actions described by the <b>IDispatch::Invoke</b> parameters on the specified instance.
+<b>ITypeInfo::Invoke</b> takes a pointer to an instance of the class. Otherwise, its parameters are the same as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>e, except that <b>ITypeInfo::Invoke</b> omits the <i>refiid</i> and <i>lcid</i> parameters. When called, <b>ITypeInfo::Invoke</b> performs the actions described by the <b>IDispatch::Invoke</b> parameters on the specified instance.
 
 
 
@@ -230,7 +230,7 @@ If the type description inherits from another type description, this function re
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

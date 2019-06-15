@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a standard icon extractor, whose defaults can be further configured via the <a href="https://msdn.microsoft.com/27b952e3-f17a-4844-8c39-2ae240179d02">IDefaultExtractIconInit</a> interface.
+Creates a standard icon extractor, whose defaults can be further configured via the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit">IDefaultExtractIconInit</a> interface.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A reference to interface ID.
 
 Type: <b>void**</b>
 
-The address of <a href="https://msdn.microsoft.com/27b952e3-f17a-4844-8c39-2ae240179d02">IDefaultExtractIconInit</a> interface pointer.
+The address of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit">IDefaultExtractIconInit</a> interface pointer.
 
 
 ## -returns

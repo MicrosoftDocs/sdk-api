@@ -60,7 +60,7 @@ Moves the file pointer of the specified file.
 
 This function stores the file pointer in two <b>LONG</b> values. To work with file pointers
      that are larger than a single <b>LONG</b> value, it is easier to use the 
-     <a href="https://msdn.microsoft.com/a6fdfa00-626d-425d-b00e-c174b19ea4b9">SetFilePointerEx</a> function.
+     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilepointerex">SetFilePointerEx</a> function.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ A handle to the file.
 
 The file handle must be created with the <b>GENERIC_READ</b> or 
        <b>GENERIC_WRITE</b> access right. For more information, see 
-       <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 
 ### -param lDistanceToMove [in]
@@ -163,7 +163,7 @@ If the function succeeds and <i>lpDistanceToMoveHigh</i> is
        file pointer.
        <b>Note</b>  If the function returns a value other than <b>INVALID_SET_FILE_POINTER</b>, the call 
          to <b>SetFilePointer</b> has succeeded. You do not need to 
-         call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+         call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -173,10 +173,10 @@ If function succeeds and <i>lpDistanceToMoveHigh</i> is not
        <b>DWORD</b> of the new file pointer.
 
 If the function fails, the return value is <b>INVALID_SET_FILE_POINTER</b>. To get 
-       extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If a new file pointer is a negative value, the function fails, the file pointer is not moved, and the code 
-       returned by <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> is 
+       returned by <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is 
        <b>ERROR_NEGATIVE_SEEK</b>.
 
 If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position 
@@ -186,7 +186,7 @@ If <i>lpDistanceToMoveHigh</i> is <b>NULL</b> and the new file position
 <div class="alert"><b>Note</b>  Because <b>INVALID_SET_FILE_POINTER</b> is a valid value for the 
        low-order <b>DWORD</b> of the new file pointer, you must check both the return value of 
        the function and the error code returned by 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to determine whether or not an error has 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine whether or not an error has 
        occurred. If an error has occurred, the return value of 
        <b>SetFilePointer</b> is 
        <b>INVALID_SET_FILE_POINTER</b> and 
@@ -214,44 +214,44 @@ The <i>hFile</i> parameter must refer to a file stored on a seeking device; for 
 
 <ul>
 <li>Use the <b>Offset</b> and <b>OffsetHigh</b> members of the 
-      <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure.</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.</li>
 </ul>
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To determine the file type for <i>hFile</i></b>
 
 <ul>
-<li>Use the <a href="https://msdn.microsoft.com/11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa">GetFileType</a> function.</li>
+<li>Use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a> function.</li>
 </ul>
 For information about how to determine the position of a file pointer, see 
-    <a href="https://msdn.microsoft.com/21c75d96-0357-422d-b12b-74c56f64ecf1">Positioning a File Pointer</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/positioning-a-file-pointer">Positioning a File Pointer</a>.
 
 Be careful when you set a file pointer in a multithreaded application. You must synchronize access to shared 
     resources. For example, an application with threads that share a file handle, update the file pointer, and read 
     from the file must protect this sequence by using a critical section object or mutex object. For more information, 
-    see <a href="https://msdn.microsoft.com/2ec11a42-3d12-4d60-9dd7-dc38926d56e1">Critical Section Objects</a> and 
-    <a href="https://msdn.microsoft.com/eca0795a-1fd0-4034-9d61-9416670919cf">Mutex Objects</a>.
+    see <a href="https://docs.microsoft.com/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/Sync/mutex-objects">Mutex Objects</a>.
 
 If the <i>hFile</i> handle is opened with the 
     <b>FILE_FLAG_NO_BUFFERING</b> flag set, an application can move the file pointer only to 
     sector-aligned positions. A sector-aligned position is a position that is a whole number multiple of the volume 
     sector size. An application can obtain a volume sector size by calling the 
-    <a href="https://msdn.microsoft.com/4fe14c49-3fd6-48b7-92de-a0c867b2e042">GetDiskFreeSpace</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function.
 
 If an application calls <b>SetFilePointer</b> with distance 
      to move values that result in a position not sector-aligned and a handle that is opened with 
      <b>FILE_FLAG_NO_BUFFERING</b>, the function fails, and 
-     <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_INVALID_PARAMETER</b>.
 
 It is not an error to set a file pointer to a position beyond the end of the file. The size of the file does 
-    not increase until you call the <a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a>, 
-    <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>, or 
-    <a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a> function. A write operation increases the size 
+    not increase until you call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function. A write operation increases the size 
     of the file to the file pointer position plus the size of the buffer written, which results in the intervening 
     bytes uninitialized.
 
 If the return value is <b>INVALID_SET_FILE_POINTER</b> and if 
     <i>lpDistanceToMoveHigh</i> is non-<b>NULL</b>, an application must call 
-    <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to determine whether or not the function has 
+    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine whether or not the function has 
     succeeded or failed. The following code example shows you that scenario.
 
 
@@ -302,8 +302,8 @@ Although the parameter <i>lpDistanceToMoveHigh</i> is used to manipulate huge fi
     2^31–2, or 2 gigabytes less 2, because all file pointer values are signed values. Therefore, 
     if there is even a small chance for the file to increase to that size, it is best to treat the file as a huge file 
     and work with 64-bit file pointers. With 
-    <a href="https://msdn.microsoft.com/35a9fb47-5a73-479c-8fe0-5a2b07705536">file compression</a> on the NTFS file 
-    system, and <a href="https://msdn.microsoft.com/7326041d-f11e-4b80-ac4e-07173e418ce7">sparse files</a>, it is possible to have files that 
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">file compression</a> on the NTFS file 
+    system, and <a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">sparse files</a>, it is possible to have files that 
     are large even if the underlying volume is not very large.
 
 If <i>lpDistanceToMoveHigh</i> is not <b>NULL</b>, then 
@@ -359,7 +359,7 @@ You can use <b>SetFilePointer</b> to determine the length of
     a file. To do this, use <b>FILE_END</b> for <i>dwMoveMethod</i> and seek to 
     location zero. The file offset returned is the length of the file. However, this practice can have unintended 
     side effects, for example, failure to save the current file pointer so that the program can return to that 
-    location. It is best to use <a href="https://msdn.microsoft.com/3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd">GetFileSize</a> instead.
+    location. It is best to use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesize">GetFileSize</a> instead.
 
 You can also use the <b>SetFilePointer</b> function to query 
     the current file pointer position. To do this, specify a move method of <b>FILE_CURRENT</b> and 
@@ -429,7 +429,7 @@ Yes
 #### Examples
 
 For a code example of appending files, see 
-     <a href="https://msdn.microsoft.com/e4d1f842-16a1-47e4-84b4-9bb44aaa1dc5">Appending One File to Another File</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/appending-one-file-to-another-file">Appending One File to Another File</a>.
 
 <div class="code"></div>
 
@@ -440,43 +440,43 @@ For a code example of appending files, see
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fe14c49-3fd6-48b7-92de-a0c867b2e042">GetDiskFreeSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd">GetFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesize">GetFileSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa">GetFileType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1a4de1-6cae-4c35-bfba-0bc252fadbd9">ReadFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6fdfa00-626d-425d-b00e-c174b19ea4b9">SetFilePointerEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilepointerex">SetFilePointerEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
  
 
  

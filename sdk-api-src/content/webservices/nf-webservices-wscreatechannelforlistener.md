@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/5a04580d-c89f-4505-a4b7-0724ffb788fd">channel</a> associated with a specified <a href="https://msdn.microsoft.com/fffda587-23f5-4c7a-93c5-f03d9d3fafb2">listener</a>.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/channel">channel</a> associated with a specified <a href="https://docs.microsoft.com/windows/desktop/wsw/listener">listener</a>.
 
 
 ## -parameters
@@ -59,13 +59,13 @@ Creates a <a href="https://msdn.microsoft.com/5a04580d-c89f-4505-a4b7-0724ffb788
 
 ### -param listener [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> structure representing the listener for which to create a channel.  The listener 
-                    can be in any state. (For listener states, see the <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a>  enumeration.)
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the listener for which to create a channel.  The listener 
+                    can be in any state. (For listener states, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_state">WS_LISTENER_STATE</a>  enumeration.)
 
 
 ### -param properties
 
-An array of  <a href="https://msdn.microsoft.com/0298e8ae-67ad-4881-885f-2ed713316e76">WS_CHANNEL_PROPERTY</a> structures containing optional values for channel initialization.  This can be a <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_property">WS_CHANNEL_PROPERTY</a> structures containing optional values for channel initialization.  This can be a <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
 
 For information on creating a custom channel, see the Remarks section.
@@ -80,13 +80,13 @@ The number of  properties in the <i>properties</i> array.
 ### -param channel
 
 On success, a pointer that receives the address of the created channel.   
-                    When the channel  is no longer needed, you must free  it by calling <a href="https://msdn.microsoft.com/74e36d19-c6db-4bba-90e3-88a48b6a1fb5">WsFreeChannel</a>.
+                    When the channel  is no longer needed, you must free  it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">WsFreeChannel</a>.
                 
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -144,14 +144,14 @@ This function may return other errors not listed above.
 
 
 
-To accept an incoming message exchange, call the <a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> function.
+To accept an incoming message exchange, call the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a> function.
             
 
 The security characteristics of the channel are the same as those 
                 specified for the listener.
             
 
-When you create a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CHANNEL_BINDING</a> enumeration), you can specify only the following channel properties: 
+When you create a custom channel (using the WS_CUSTOM_CHANNEL_BINDING value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CHANNEL_BINDING</a> enumeration), you can specify only the following channel properties: 
 
 <ul>
 <li>WS_CHANNEL_PROPERTY_CUSTOM_CHANNEL_CALLBACKS </li>

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_KEYMODULE_STATISTICS0</b> structure contains various statistics specific to the keying module.
-<div class="alert"><b>Note</b>  <b>IKEEXT_KEYMODULE_STATISTICS0</b> is the specific implementation of IKEEXT_KEYMODULE_STATISTICS used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/3b5fdf04-e3a6-4658-a53d-66928b5682f5">IKEEXT_KEYMODULE_STATISTICS1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_KEYMODULE_STATISTICS0</b> is the specific implementation of IKEEXT_KEYMODULE_STATISTICS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1_">IKEEXT_KEYMODULE_STATISTICS1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +61,14 @@ The <b>IKEEXT_KEYMODULE_STATISTICS0</b> structure contains various statistics sp
 
 IPv4 common statistics.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa365117(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0_">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field v6Statistics
 
 IPv6 common statistics.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Aa365117(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics0_">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</a> for more information.
 
 
 ### -field errorFrequencyTable

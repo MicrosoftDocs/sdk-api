@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>CoordinateSpace</b> enumeration specifies coordinate spaces. This enumeration is used by the 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a> method, which converts points from one coordinate space to another. For more information about coordinate spaces, see <a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-transformpoints(incoordinatespace_incoordinatespace_inoutpoint_inint)">Graphics::TransformPoints</a> method, which converts points from one coordinate space to another. For more information about coordinate spaces, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-types-of-coordinate-systems-about">Types of Coordinate Systems</a>. 
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Specifies the device coordinate space.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535819(v=VS.85).aspx">Graphics::TransformPoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-transformpoints(incoordinatespace_incoordinatespace_inoutpoint_inint)">Graphics::TransformPoints</a>
  
 
  

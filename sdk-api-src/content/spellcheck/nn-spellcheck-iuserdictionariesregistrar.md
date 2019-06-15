@@ -54,7 +54,7 @@ Manages the registration of user dictionaries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserDictionariesRegistrar</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUserDictionariesRegistrar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserDictionariesRegistrar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserDictionariesRegistrar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUserDictionariesRegistrar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dd64e20-af2d-4d84-9e66-01ac19f34212">RegisterUserDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-registeruserdictionary">RegisterUserDictionary</a>
 </td>
 <td align="left" width="63%">
 Registers a file to be used as a user dictionary for the current user, until unregistered.
@@ -78,7 +78,7 @@ Registers a file to be used as a user dictionary for the current user, until unr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b1756f5-7ab5-4408-896d-5ea5ae671651">UnregisterUserDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-unregisteruserdictionary">UnregisterUserDictionary</a>
 </td>
 <td align="left" width="63%">
 Unregisters a previously registered user dictionary.
@@ -95,9 +95,9 @@ Unregisters a previously registered user dictionary.
 <b>IUserDictionariesRegistrar</b> allows clients to persistently register and unregister user dictionary files that exist in locations other than the usual dictionary path (<code>%AppData%\Microsoft\Spelling</code>). The dictionaries must have the same file formats as the ones located in the normal path and also should have the appropriate file extensions.
 However, it is strongly recommended for clients to place their dictionaries under <code>%AppData%\Microsoft\Spelling</code> whenever possible—the spell checking functionality does not pick up changes in dictionaries outside that directory tree.
 
-This interface is obtained through a <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> in <a href="https://msdn.microsoft.com/7febbb7e-c557-4698-bf58-6e6e7f61b071">ISpellCheckerFactory</a>.
+This interface is obtained through a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> in <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerfactory">ISpellCheckerFactory</a>.
 
-The combined size of all registered dictionary files must be less than 1 MB by default. This can be increased to 2 MB by setting the registry key HKEY_CURRENT_USER\Software\Microsoft\Spelling\Dictionaries\AllowBiggerUD to the value 1. For more information about the Windows registry, see <a href="https://msdn.microsoft.com/library/windows/desktop/ms724871.aspx">Registry</a>.
+The combined size of all registered dictionary files must be less than 1 MB by default. This can be increased to 2 MB by setting the registry key HKEY_CURRENT_USER\Software\Microsoft\Spelling\Dictionaries\AllowBiggerUD to the value 1. For more information about the Windows registry, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry</a>.
 
 
 

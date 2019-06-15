@@ -64,7 +64,7 @@ The SID string of the user. If this parameter is <b>NULL</b>, retrieve settings 
 
 ### -param ppSettings [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/80629db8-0040-4545-a313-5cf7aa3d7f8b">IWPCWebSettings</a> interface pointer.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcwebsettings">IWPCWebSettings</a> interface pointer.
 
 
 ## -returns
@@ -144,7 +144,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/f825388f-c4de-4bf2-8076-6efd81b6e030">IWindowsParentalControls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwindowsparentalcontrols">IWindowsParentalControls</a>
 
 
 

@@ -59,7 +59,7 @@ Copies the buffer to another 2D buffer object.
 
 ### -param pDestBuffer [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/BFA73B1A-F8A7-4100-9DBD-234CCA06F9F5">IMF2DBuffer2</a> interface of the destination buffer.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a> interface of the destination buffer.
 
 
 ## -returns
@@ -85,7 +85,7 @@ The destination buffer must be at least as large as the source buffer.
 
 
 
-<a href="https://msdn.microsoft.com/BFA73B1A-F8A7-4100-9DBD-234CCA06F9F5">IMF2DBuffer2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer2">IMF2DBuffer2</a>
  
 
  

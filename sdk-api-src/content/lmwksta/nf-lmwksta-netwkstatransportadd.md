@@ -89,7 +89,7 @@ Specifies the information level of the data. This parameter can be the following
 </td>
 <td width="60%">
 Specifies workstation transport protocol information. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/e7afe2a3-f729-4fd5-afc3-d3ffbd09e884">WKSTA_TRANSPORT_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-_wksta_transport_info_0">WKSTA_TRANSPORT_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Specifies workstation transport protocol information. The <i>buf</i> parameter p
 ### -param buf [in]
 
 Pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 
 ### -param parm_err [out]

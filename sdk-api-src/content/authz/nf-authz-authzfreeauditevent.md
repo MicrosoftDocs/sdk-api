@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>AuthzFreeAuditEvent</b> function frees the  structure allocated by the 
-<a href="https://msdn.microsoft.com/cf79a92f-31e0-47cf-8990-4dbd46056a90">AuthzInitializeObjectAccessAuditEvent</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeobjectaccessauditevent">AuthzInitializeObjectAccessAuditEvent</a> function.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A pointer to the <b>AUTHZ_AUDIT_EVENT_HANDLE</b> structure to be freed.
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -81,11 +81,11 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-<a href="https://msdn.microsoft.com/cf79a92f-31e0-47cf-8990-4dbd46056a90">AuthzInitializeObjectAccessAuditEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzinitializeobjectaccessauditevent">AuthzInitializeObjectAccessAuditEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
  
 
  

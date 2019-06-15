@@ -66,6 +66,6 @@ No data validation flag.
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 
-Set if the callback is invoked as a result of a call to <a href="https://msdn.microsoft.com/4FFD7580-BF59-48D0-B6D7-516559914096">CfHydratePlaceholder</a>. 
+Set if the callback is invoked as a result of a call to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a>. 
 
 

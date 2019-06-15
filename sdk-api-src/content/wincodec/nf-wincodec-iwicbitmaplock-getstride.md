@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Note the <a href="https://docs.microsoft.com/">stride</a> value is specific to the <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a>, not the bitmap. 
+Note the <a href="https://docs.microsoft.com/">stride</a> value is specific to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>, not the bitmap. 
             For example, two consecutive locks on the same rectangle of a bitmap may return different pointers and stride values, depending on internal implementation. 
          
 

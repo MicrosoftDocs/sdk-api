@@ -120,7 +120,7 @@ Reserved. The <b>dwReserved</b> member should be set to 0.
 
 
 
-<a href="https://msdn.microsoft.com/cba9a9e8-2397-4c78-925f-ee5d817d1ee4">PeerDistServerOpenContentInformationEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformationex">PeerDistServerOpenContentInformationEx</a>
  
 
  

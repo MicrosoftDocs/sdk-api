@@ -52,12 +52,12 @@ ms.custom: 19H1
 This 
 <b>ITMultiTrackTerminal</b> interface is exposed on all multitrack terminals. The interface includes methods for enumerating, creating, and removing tracks. The 
 <b>ITMultiTrackTerminal</b> interface is created by calling <b>QueryInterface</b> on 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMultiTrackTerminal</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMultiTrackTerminal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMultiTrackTerminal</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITMultiTrackTerminal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITMultiTrackTerminal</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe853de7-5a22-4b49-aca0-e2e2a8c3e1d7">CreateTrackTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmultitrackterminal-createtrackterminal">CreateTrackTerminal</a>
 </td>
 <td align="left" width="63%">
 Creates a multitrack terminal that can handle a given media type or types and media direction.
@@ -81,7 +81,7 @@ Creates a multitrack terminal that can handle a given media type or types and me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90ef12f5-1a94-49ca-85c3-092306503827">EnumerateTrackTerminals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmultitrackterminal-enumeratetrackterminals">EnumerateTrackTerminals</a>
 </td>
 <td align="left" width="63%">
 Creates and returns an enumeration containing the terminals contained by the multitrack terminal on which this method was called.
@@ -90,7 +90,7 @@ Creates and returns an enumeration containing the terminals contained by the mul
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9f739ea-3df5-4275-868a-3e0d611254c0">get_DirectionsInUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmultitrackterminal-get_directionsinuse">get_DirectionsInUse</a>
 </td>
 <td align="left" width="63%">
 Returns the direction of all tracks managed currently by the multitrack terminal.
@@ -99,7 +99,7 @@ Returns the direction of all tracks managed currently by the multitrack terminal
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c2ebbba-66a4-4ef0-abba-faab129e64e2">get_MediaTypesInUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmultitrackterminal-get_mediatypesinuse">get_MediaTypesInUse</a>
 </td>
 <td align="left" width="63%">
 Returns the media types of all tracks managed currently by the multitrack terminal.
@@ -108,7 +108,7 @@ Returns the media types of all tracks managed currently by the multitrack termin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bedefe8-6b84-48c0-8a7b-719d017baf24">get_TrackTerminals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmultitrackterminal-get_trackterminals">get_TrackTerminals</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a collection containing the terminals contained by the multitrack terminal on which this method was called.
@@ -117,7 +117,7 @@ Creates and returns a collection containing the terminals contained by the multi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59f257ef-9e52-40fb-a72c-732105262016">RemoveTrackTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmultitrackterminal-removetrackterminal">RemoveTrackTerminal</a>
 </td>
 <td align="left" width="63%">
 Removes the specified terminal from the collection of track terminals that belong to the multitrack terminal on which the function was called.

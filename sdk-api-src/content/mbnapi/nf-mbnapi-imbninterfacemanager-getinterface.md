@@ -64,7 +64,7 @@ A string that contains the ID of the interface to retrieve.
 
 ### -param mbnInterface [out, retval]
 
-Pointer to the address of the <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a> specified by <i>interfaceID</i> or <b>NULL</b> if there is no matching interface.
+Pointer to the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> specified by <i>interfaceID</i> or <b>NULL</b> if there is no matching interface.
 
 
 ## -returns
@@ -133,7 +133,7 @@ Could not allocate the required memory.
 
 
 
-<a href="https://msdn.microsoft.com/a998381e-47de-4352-bc84-b6edca2f3fcc">IMbnInterfaceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanager">IMbnInterfaceManager</a>
  
 
  

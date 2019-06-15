@@ -122,11 +122,11 @@ The authenticode policy return code.
 
 
 
-<a href="https://msdn.microsoft.com/b86a8f39-73a1-4e17-ac83-9ed095de4922">DownloadJavaEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/downloadjavaex">DownloadJavaEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/e71e7155-5981-4227-8dc2-51a9b719aa25">JAVA_POLICY_PROVIDER</a>
+<a href="https://docs.microsoft.com/previous-versions//bb432350(v=vs.85)">JAVA_POLICY_PROVIDER</a>
  
 
  

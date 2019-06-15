@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 				<b>ALERT_VAR_DATA</b> macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an 
-<a href="https://msdn.microsoft.com/43119dcf-7d04-4e3b-b1dc-20e814fbdc2f">ADMIN_OTHER_INFO</a>, a 
-<a href="https://msdn.microsoft.com/f2fd87bc-abde-43c0-b29d-d43cc5f038b8">PRINT_OTHER_INFO</a>, or a 
-<a href="https://msdn.microsoft.com/2f6bd906-fdab-410a-8856-4482e047371f">USER_OTHER_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>, a 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>, or a 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a> structure.
 
 
 ## -parameters
@@ -67,8 +67,8 @@ Pointer to an
 <b>ADMIN_OTHER_INFO</b>, a 
 <b>PRINT_OTHER_INFO</b>, or a 
 <b>USER_OTHER_INFO</b> structure that was specified in a call to the 
-<a href="https://msdn.microsoft.com/11367a72-c21d-4044-98cf-a7a30cc43a8b">NetAlertRaise</a> function or the 
-<a href="https://msdn.microsoft.com/9762f0d6-0022-4e05-b2d8-6223d7bbb2c8">NetAlertRaiseEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> function or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> function.
 
 
 ## -remarks
@@ -89,8 +89,8 @@ The
 
 
 See 
-<a href="https://msdn.microsoft.com/11367a72-c21d-4044-98cf-a7a30cc43a8b">NetAlertRaise</a> and 
-<a href="https://msdn.microsoft.com/9762f0d6-0022-4e05-b2d8-6223d7bbb2c8">NetAlertRaiseEx</a> for code samples that use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> for code samples that use the 
 <b>ALERT_VAR_DATA</b> macro to retrieve a pointer to the variable-length data in an alert message.
 
 
@@ -101,41 +101,41 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/43119dcf-7d04-4e3b-b1dc-20e814fbdc2f">ADMIN_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_admin_other_info">ADMIN_OTHER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7bcc306-4b44-4230-96aa-a4717bb1fb11">ALERT_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-alert_other_info">ALERT_OTHER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e131191b-7413-45ff-84cd-b3a873d33ca1">Alert Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/alert-functions">Alert Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/11367a72-c21d-4044-98cf-a7a30cc43a8b">NetAlertRaise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraise">NetAlertRaise</a>
 
 
 
-<a href="https://msdn.microsoft.com/9762f0d6-0022-4e05-b2d8-6223d7bbb2c8">NetAlertRaiseEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b295fae7-0893-4f3b-a414-2fe38f2261b5">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-macros">Network
 		  Management Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2fd87bc-abde-43c0-b29d-d43cc5f038b8">PRINT_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_print_other_info">PRINT_OTHER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f6bd906-fdab-410a-8856-4482e047371f">USER_OTHER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-_user_other_info">USER_OTHER_INFO</a>
  
 
  

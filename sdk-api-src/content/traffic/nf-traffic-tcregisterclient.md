@@ -55,7 +55,7 @@ The
 
 Client registration provides callback routines that allow the TCI to complete either client-initiated operations or asynchronous events. Upon successful registration, the caller of the 
 <b>TcRegisterClient</b> function must be ready to have any of its TCI handlers called. See 
-<a href="https://msdn.microsoft.com/e32184f4-5463-4a71-b4fa-2e1882255a88">Entry Points Exposed by Clients of the Traffic Control Interface</a> for more information.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/entry-points-exposed-by-clients-of-the-traffic-control-interface">Entry Points Exposed by Clients of the Traffic Control Interface</a> for more information.
 
 
 ## -parameters

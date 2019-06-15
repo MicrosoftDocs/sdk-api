@@ -66,9 +66,9 @@ A pointer to the name of the view.
 
 ### -param pViewChangedSink [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchviewchangedsink">ISearchViewChangedSink</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a> object to receive notifications.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchviewchangedsink">ISearchViewChangedSink</a> object to receive notifications.
 
 
 ### -param pdwCookie [out]

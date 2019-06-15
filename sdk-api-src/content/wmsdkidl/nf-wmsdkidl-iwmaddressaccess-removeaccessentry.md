@@ -65,12 +65,12 @@ The <b>RemoveAccessEntry</b> method removes an access entry.
 
 ### -param aeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757889(v=VS.85).aspx">WM_AETYPE</a> enumeration specifying the type of entry to remove (exclusion or inclusion).
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wm_aetype">WM_AETYPE</a> enumeration specifying the type of entry to remove (exclusion or inclusion).
 
 
 ### -param dwEntryNum [in]
 
-Zero-based index of the access entry to remove. Use the <a href="https://msdn.microsoft.com/en-us/library/Dd743285(v=VS.85).aspx">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
+Zero-based index of the access entry to remove. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmaddressaccess-getaccessentrycount">IWMAddressAccess::GetAccessEntryCount</a> method to get the number of entries.
 
 
 ## -returns
@@ -128,7 +128,7 @@ Invalid index number.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743279(v=VS.85).aspx">IWMAddressAccess Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess Interface</a>
  
 
  

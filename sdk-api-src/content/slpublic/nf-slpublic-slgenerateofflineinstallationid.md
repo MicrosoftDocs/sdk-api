@@ -76,7 +76,7 @@ A pointer to the product ID.
 
 Type: <b>PWSTR*</b>
 
-The Installation ID string. Once you are finished, call the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function to      
+The Installation ID string. Once you are finished, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to      
 		free the memory.
 
 

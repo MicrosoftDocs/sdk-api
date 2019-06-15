@@ -72,11 +72,11 @@ Information about the device registration.
 
 
 
-<a href="https://msdn.microsoft.com/0b01225c-83db-4b13-ad7e-52beae05a8ee">DiscoverManagementService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdmregistration/nf-mdmregistration-discovermanagementservice">DiscoverManagementService</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b104c65-4095-45c7-a508-56f2d2d4ae08">MDM Registration Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-structures">MDM Registration Structures</a>
  
 
  

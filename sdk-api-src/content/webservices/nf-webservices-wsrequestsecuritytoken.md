@@ -68,13 +68,13 @@ The channel on which the negotiation to obtain the security token
 should take place.
                 
 
-The supplied channel should have been <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">created</a> with the appropriate <a href="https://msdn.microsoft.com/b9490f00-877c-4d9f-b361-eaca343cdee0">WS_SECURITY_DESCRIPTION</a> to meet the security requirements of
-the issuer, and then <a href="https://msdn.microsoft.com/a7226194-0974-4f3c-b92d-78a93e86eea5">opened</a> to the <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a> of the issuer.  The caller is also
-responsible for <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae2ee2e0c6">closing</a> and <a href="https://msdn.microsoft.com/74e36d19-c6db-4bba-90e3-88a48b6a1fb5">freeing</a> the channel after the completion of
+The supplied channel should have been <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">created</a> with the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_description">WS_SECURITY_DESCRIPTION</a> to meet the security requirements of
+the issuer, and then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">opened</a> to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> of the issuer.  The caller is also
+responsible for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">closing</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">freeing</a> the channel after the completion of
 this function.
                 
 
-Thus, the channel must be in state <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a>when this function is called.  After a successful completion of this
+Thus, the channel must be in state <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a>when this function is called.  After a successful completion of this
 function, the channel will be in state <b>WS_CHANNEL_STATE_OPEN</b>.  After a failed completion, it will
 either be in state <b>WS_CHANNEL_STATE_OPEN</b> or state <b>WS_CHANNEL_STATE_FAULTED</b>.
                 
@@ -100,8 +100,8 @@ completion of the function call, and is unmodified if any failure
 occurs during the execution of the function.
                 
 
-The returned security token may be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323568(v=VS.85).aspx">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
-presented to a service.  The token must be freed using <a href="https://msdn.microsoft.com/7f9500a8-b54f-4967-8f8d-9f8770d3dd60">WsFreeSecurityToken</a> when it is no longer needed.
+The returned security token may be used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
+presented to a service.  The token must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a> when it is no longer needed.
                 
 
 
@@ -150,7 +150,7 @@ The asynchronous operation is still pending.
 
 
 
-Windows 7 and Windows Server 2008 R2: WWSAPI only supports <a href="http://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf">Ws-Trust</a> and <a href="http://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf">Ws-SecureConversation</a> as defined by <a href="http://msdn.microsoft.com/en-us/library/dd357239(PROT.10).aspx">Lightweight Web Services Security Profile (LWSSP)</a>. For details regarding Microsoft's implementation please see the <a href="http://msdn.microsoft.com/en-us/library/dd341306(v=PROT.10).aspx">MESSAGE Syntax</a> section of LWSSP.
+Windows 7 and Windows Server 2008 R2: WWSAPI only supports <a href="http://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf">Ws-Trust</a> and <a href="http://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf">Ws-SecureConversation</a> as defined by <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-lwssp/376af2f8-f4fe-4577-bfd5-370ac12cac2e">Lightweight Web Services Security Profile (LWSSP)</a>. For details regarding Microsoft's implementation please see the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed">MESSAGE Syntax</a> section of LWSSP.
 
 
 

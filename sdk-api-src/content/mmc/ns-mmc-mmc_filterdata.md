@@ -54,8 +54,8 @@ MMC_FILTERDATA structure is introduced in MMC 1.2.
 
 The 
 MMC_FILTERDATA structure is used by the 
-<a href="https://msdn.microsoft.com/2daf15ac-4de2-422d-9ac0-b592090468ed">IHeaderCtrl2::GetColumnFilter</a> and 
-<a href="https://msdn.microsoft.com/df1257ee-66c4-4b63-a9c5-1bd0b94b4a85">IHeaderCtrl2::SetColumnFilter</a> methods to retrieve and set the filter value of a column in a filtered list view.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">IHeaderCtrl2::GetColumnFilter</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a> methods to retrieve and set the filter value of a column in a filtered list view.
 
 
 ## -struct-fields

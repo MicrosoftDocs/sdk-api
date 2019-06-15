@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<b>MsiEnumProducts</b> function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine <a href="https://msdn.microsoft.com/20e7be9f-d9dc-4f43-86d7-b1a881126925">installation context</a> and advertisements are enumerated.
+<b>MsiEnumProducts</b> function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine <a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">installation context</a> and advertisements are enumerated.
 
 
 ## -parameters
@@ -160,11 +160,11 @@ When making multiple calls to
 
 
 
-<a href="https://msdn.microsoft.com/162bda20-0c62-4eac-8c1f-fd107e42c528">Determining Installation Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">System Status Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
  
 
  

@@ -59,7 +59,7 @@ Creates a non-variant enumerator for the collection of the named streams associa
 
 ### -param NewEnum [out, optional]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/f3186af1-4056-4cb5-aac4-5253ee6dbc01">IEnumFsiItems</a> object representing a collection of named streams associated with a file.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumfsiitems">IEnumFsiItems</a> object representing a collection of named streams associated with a file.
 
 
 ## -returns
@@ -117,7 +117,7 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/383a83e4-5dc2-459a-a58f-b6ce7a656348">IFsiNamedStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a>
  
 
  

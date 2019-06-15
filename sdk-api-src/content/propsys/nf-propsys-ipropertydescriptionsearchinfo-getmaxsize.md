@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the maximum size value from the property schema's <a href="https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx">searchInfo</a> element.
+Gets the maximum size value from the property schema's <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the maximum size value from the property schema's <a href="https://msdn.mic
 
 Type: <b>UINT*</b>
 
-Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773885(v=VS.85).aspx">searchInfo</a> element. The default is:
+Pointer to a value that, when this method returns successfully, receives the value of the maxSize attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-searchinfo">searchInfo</a> element. The default is:
 
                     
 

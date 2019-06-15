@@ -65,7 +65,7 @@ The renderer calls this method when:
 
 ### -param transformGraph
 
-Type: <b><a href="https://msdn.microsoft.com/6CA29200-9834-4A5B-99E8-434CD6E9B243">ID2D1TransformGraph</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>*</b>
 
 The graph to which the effect describes its transform topology through the SetDescription call.
 
@@ -91,7 +91,7 @@ An error that prevents the effect from being initialized if called as part of th
 
 
 
-<a href="https://msdn.microsoft.com/3D87A908-FC57-4AA9-A508-C402D8413363">ID2D1EffectImpl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
  
 
  

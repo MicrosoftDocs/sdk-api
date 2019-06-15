@@ -54,7 +54,7 @@ Provides a read-only object model for manifests of bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestReader</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxBundleManifestReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleManifestReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleManifestReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBundleManifestReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B1D8AF8D-A80B-4F28-A9AA-A798D309D6E0">GetPackageId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestreader-getpackageid">GetPackageId</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object that represents the &lt;Identity&gt; element under the root &lt;Bundle&gt; element. 
@@ -78,7 +78,7 @@ Retrieves an object that represents the &lt;Identity&gt; element under the root 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D216C27E-5B73-49B5-90A8-11187C129264">GetPackageInfoItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestreader-getpackageinfoitems">GetPackageInfoItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Packages&gt; element. 
@@ -87,7 +87,7 @@ Retrieves an enumerator over all the &lt;Package&gt; elements under the &lt;Pack
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC276734-3837-466E-ADBA-60B68356504E">GetStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestreader-getstream">GetStream</a>
 </td>
 <td align="left" width="63%">
 Gets the raw XML document without any preprocessing.

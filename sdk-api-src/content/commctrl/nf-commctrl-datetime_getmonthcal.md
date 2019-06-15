@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761765(v=VS.85).aspx">DTM_GETMONTHCAL</a> message explicitly. 
+Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getmonthcal">DTM_GETMONTHCAL</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the handle to a date and time picker's (DTP) child month calendar control. 
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control. 
 
@@ -68,7 +68,7 @@ A handle to a DTP control.
 
 
 
-DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar. 
+DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar. 
 
 
 
@@ -78,11 +78,11 @@ DTP controls create a child month calendar control when the user clicks the drop
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a>
 
 
 

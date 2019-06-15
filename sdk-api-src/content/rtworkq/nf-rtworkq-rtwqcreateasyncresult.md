@@ -62,12 +62,12 @@ Creates an asynchronous result object. Use this function if you are implementing
 
 ### -param appObject [in]
 
-Pointer to the object stored in the asynchronous result. This pointer is returned by the <a href="https://msdn.microsoft.com/EF872EDD-4263-4835-81E4-0A61F18E9202">IRtwqAsyncResult::GetObject</a> method. This parameter can be <b>NULL</b>.
+Pointer to the object stored in the asynchronous result. This pointer is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasyncresult-getobject">IRtwqAsyncResult::GetObject</a> method. This parameter can be <b>NULL</b>.
 
 
 ### -param callback [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/E595C072-98F8-4231-9C8F-A8393D751DE6">IRtwqAsyncCallback</a> interface. This interface is implemented by the caller of the asynchronous method.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a> interface. This interface is implemented by the caller of the asynchronous method.
 
 
 ### -param appState [in]
@@ -77,7 +77,7 @@ Pointer to the <b>IUnknown</b> interface of a state object. This value is provid
 
 ### -param asyncResult [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/AB23282D-D731-48EE-AF55-CC5A513EBA33">IRtwqAsyncResult</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-To invoke the callback specified in <i>pCallback</i>, call the <a href="https://msdn.microsoft.com/ba1ac638-b21d-4a0e-8599-b572b5ef2fa6">RtwqInvokeCallback</a> function.
+To invoke the callback specified in <i>pCallback</i>, call the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqinvokecallback">RtwqInvokeCallback</a> function.
 
 
 

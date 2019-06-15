@@ -60,9 +60,9 @@ ms.custom: 19H1
 
 ### -param fontMetrics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/F06033F4-2312-48C2-AF70-BDB83700B4E0">DWRITE_FONT_METRICS1</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_font_metrics1">DWRITE_FONT_METRICS1</a>*</b>
 
-A filled <a href="https://msdn.microsoft.com/F06033F4-2312-48C2-AF70-BDB83700B4E0">DWRITE_FONT_METRICS1</a> structure that holds metrics for the current font face element.
+A filled <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_font_metrics1">DWRITE_FONT_METRICS1</a> structure that holds metrics for the current font face element.
      The metrics returned by this method are in font design units.
 
 
@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
  
 
  

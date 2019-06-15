@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>DVD_KaraokeAttributes</code> structure contains information about a karaoke audio stream. The <a href="https://msdn.microsoft.com/c69ea1e0-8d8a-4cd3-86a4-a2d481160a2e">IDvdInfo2::GetKaraokeAttributes</a> method fills in a <code>DVD_KaraokeAttributes</code> structure for a specified stream.
+The <code>DVD_KaraokeAttributes</code> structure contains information about a karaoke audio stream. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getkaraokeattributes">IDvdInfo2::GetKaraokeAttributes</a> method fills in a <code>DVD_KaraokeAttributes</code> structure for a specified stream.
 
 
 
@@ -77,12 +77,12 @@ A Boolean value indicating whether the song is intended to be sung as a duet.
 
 ### -field ChannelAssignment
 
-A <a href="https://msdn.microsoft.com/cdfd05b9-7a4a-49cc-ab50-bbe83ed9e0f0">DVD_KARAOKE_ASSIGNMENT</a> value indicating the speaker configuration into which all the channels will be mixed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_karaoke_assignment">DVD_KARAOKE_ASSIGNMENT</a> value indicating the speaker configuration into which all the channels will be mixed.
 
 
 ### -field wChannelContents
 
-An array of valid <a href="https://msdn.microsoft.com/9d02b0bf-237a-42bf-b946-588b899cd3d9">DVD_KARAOKE_CONTENTS</a> values that identifies the content on each channel.
+An array of valid <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_karaoke_contents">DVD_KARAOKE_CONTENTS</a> values that identifies the content on each channel.
 
 
 ## -see-also
@@ -90,7 +90,7 @@ An array of valid <a href="https://msdn.microsoft.com/9d02b0bf-237a-42bf-b946-58
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

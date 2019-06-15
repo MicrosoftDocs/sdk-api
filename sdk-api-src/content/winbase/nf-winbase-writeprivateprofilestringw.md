@@ -96,7 +96,7 @@ If the file was created using Unicode characters, the function writes Unicode ch
 If the function successfully copies the string to the initialization file, the return value is nonzero.
 
 If the function fails, or if it flushes the cached version of the most recently accessed initialization file, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -319,11 +319,11 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/684bae93-3cd8-49a4-8f16-9316df41d6f2">GetPrivateProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5">WriteProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
  
 
  

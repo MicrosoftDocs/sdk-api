@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IMDSPObjectInfo</b> interface provides methods for getting and setting parameters that describe how playable objects on a storage medium are referenced or accessed by the <a href="https://msdn.microsoft.com/a196edef-f670-4c1f-92bd-172a75f3f420">IMDSPDeviceControl</a> interface. Implementing this interface is optional. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+The <b>IMDSPObjectInfo</b> interface provides methods for getting and setting parameters that describe how playable objects on a storage medium are referenced or accessed by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl</a> interface. Implementing this interface is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 The resolution of the method parameters depends on the associated storage object as follows:
 
@@ -58,14 +58,14 @@ The resolution of the method parameters depends on the associated storage object
 <li>If the storage object represents a playable audio file, then the relative storage units are milliseconds.</li>
 <li>If the storage object represents a folder or the root of a storage medium containing playable files, then the relative storage units are tracks.</li>
 </ul>
-This interface is not intended for non-playable files. If the <b>IMDSPObjectInfo</b> interface is acquired from an <a href="https://msdn.microsoft.com/f22b8a6d-7df8-4fea-9436-79b9ded25a40">IMDSPStorage</a> interface that represents a non-playable file or a folder or a root file system containing no playable files, E_INVALIDTYPE is returned from all of the methods.
+This interface is not intended for non-playable files. If the <b>IMDSPObjectInfo</b> interface is acquired from an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage</a> interface that represents a non-playable file or a folder or a root file system containing no playable files, E_INVALIDTYPE is returned from all of the methods.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPObjectInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMDSPObjectInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPObjectInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPObjectInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IMDSPObjectInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ebd73b2-d168-470b-bc5a-aad8888c401a">GetLastPlayPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getlastplayposition">GetLastPlayPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last play position of the object. The object must be a music file on the media device.
@@ -89,7 +89,7 @@ Retrieves the last play position of the object. The object must be a music file 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f83ff62c-63e3-4b15-9c5f-0ef39eaa3e0c">GetLongestPlayPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getlongestplayposition">GetLongestPlayPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the longest play position of the object. The object must be a music file on the media device.
@@ -98,7 +98,7 @@ Retrieves the longest play position of the object. The object must be a music fi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5f2188f-f813-4c42-9878-52836ec8ebdc">GetPlayLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getplaylength">GetPlayLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the play length of the object in units pertinent to the object.
@@ -107,7 +107,7 @@ Retrieves the play length of the object in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e801b95-aa44-4275-8a21-f68fbf6240f1">GetPlayOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-getplayoffset">GetPlayOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the play offset of the object, in units pertinent to the object.
@@ -116,7 +116,7 @@ Retrieves the play offset of the object, in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abd18861-550b-4968-ac96-05f07315d4db">GetTotalLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-gettotallength">GetTotalLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total play length of the object in units pertinent to the object.
@@ -125,7 +125,7 @@ Retrieves the total play length of the object in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5d860fb-c146-4bfc-90b1-cf1dfc81c5ba">SetPlayLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplaylength">SetPlayLength</a>
 </td>
 <td align="left" width="63%">
 Sets the play length of the object, in units pertinent to the object.
@@ -134,7 +134,7 @@ Sets the play length of the object, in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f61ce3b5-3cd9-41e6-9a29-42b9832ec55a">SetPlayOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">SetPlayOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the play offset of the object, in units pertinent to the object.
@@ -149,11 +149,11 @@ Sets the play offset of the object, in units pertinent to the object.
 
 
 
-<a href="https://msdn.microsoft.com/f22b8a6d-7df8-4fea-9436-79b9ded25a40">IMDSPStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd61c5fa-047c-4d93-bae1-f3433696b95b">Interfaces for Service Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
  
 
  

@@ -82,7 +82,7 @@ If no error occurs, a value of nonzero is returned denoting that socket <i>s</i>
 
 
 
-<a href="https://msdn.microsoft.com/a8f2922d-2474-406d-b1c7-631f05ccdd9c">WSPSelect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)">WSPSelect</a>
  
 
  

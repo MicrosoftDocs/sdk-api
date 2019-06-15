@@ -60,7 +60,7 @@ Sets the render information for the transform.
 
 ### -param renderInfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/26FB6D27-7EE0-43DA-A575-D9FF77846A16">ID2D1RenderInfo</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a>*</b>
 
 The interface supplied to the transform to allow specifying the CPU based transform pass.
 
@@ -90,11 +90,11 @@ Provides a render information interface to the source transform to allow it to s
 
 
 
-<a href="https://msdn.microsoft.com/3D87A908-FC57-4AA9-A508-C402D8413363">ID2D1EffectImpl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
 
 
 
-<a href="https://msdn.microsoft.com/A2B3E8E1-8F7F-4AFA-B1CE-5E8A5FCD9B70">ID2D1SourceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1sourcetransform">ID2D1SourceTransform</a>
  
 
  

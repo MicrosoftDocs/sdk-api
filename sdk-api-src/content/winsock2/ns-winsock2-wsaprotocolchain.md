@@ -91,7 +91,7 @@ If the length of the chain is larger than 1, this structure represents a protoco
 
 
 
-<a href="https://msdn.microsoft.com/928b6937-41a3-4268-a3bc-14c9e04870e4">WSAEnumProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
  
 
  

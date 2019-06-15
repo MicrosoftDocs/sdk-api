@@ -55,7 +55,7 @@ The <b>IGPMMigrationTable</b> interface provides an interface to a migration tab
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMigrationTable</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMMigrationTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMigrationTable</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMMigrationTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +70,16 @@ The <b>IGPMMigrationTable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7be82b5-acb5-4e08-9771-d2698df3d0df">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-add">Add</a>
 </td>
 <td align="left" width="63%">
-Adds the entries from the <a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a> or the <a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">IGPMBackup</a> interfaces.
+Adds the entries from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> interfaces.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e6f6b81-b01c-4d46-9b7b-3265580f112a">AddEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-addentry">AddEntry</a>
 </td>
 <td align="left" width="63%">
 Creates an entry if one does not already exist. The method  replaces an existing entry.
@@ -88,7 +88,7 @@ Creates an entry if one does not already exist. The method  replaces an existing
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/712a6419-2f64-4657-993a-e7f6bfc1259e">DeleteEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-deleteentry">DeleteEntry</a>
 </td>
 <td align="left" width="63%">
 Deletes the entry from the migration table.
@@ -97,16 +97,16 @@ Deletes the entry from the migration table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5de22bba-10f9-49f7-83f3-053f5e58b66e">GetEntries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-getentries">GetEntries</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb">IGPMMapEntryCollection</a>.
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmapentrycollection">IGPMMapEntryCollection</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d6985ab-dbea-446c-9666-5fa19b97b40c">GetEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-getentry">GetEntry</a>
 </td>
 <td align="left" width="63%">
 Gets the entry in the migration table given the source field.
@@ -115,7 +115,7 @@ Gets the entry in the migration table given the source field.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce33306a-c72f-4231-a19c-eb733d87b361">Save</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the migration table in the specified location.
@@ -124,7 +124,7 @@ Saves the migration table in the specified location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c47ad9d7-cf04-4ab4-9c44-78a5e54fc04e">UpdateDestination</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-updatedestination">UpdateDestination</a>
 </td>
 <td align="left" width="63%">
 Updates the destination field of an entry in the migration table.
@@ -133,7 +133,7 @@ Updates the destination field of an entry in the migration table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b442155-3dd7-4a74-ad33-db79114459ac">Validate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmmigrationtable-validate">Validate</a>
 </td>
 <td align="left" width="63%">
 Validates the migration table.
@@ -148,7 +148,7 @@ Validates the migration table.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies whether this <a href="https://msdn.microsoft.com/7063416c-b132-4b3a-bb2b-d27fccea25e4">IAzAuthorizationStore3</a> object supports application groups that use business rule (BizRule) scripts.
+The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies whether this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a> object supports application groups that use business rule (BizRule) scripts.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies w
 
 ### -param pbSupported [out]
 
-<b>VARIANT_TRUE</b> if the current <a href="https://msdn.microsoft.com/7063416c-b132-4b3a-bb2b-d27fccea25e4">IAzAuthorizationStore3</a> object supports scripts that use business logic to determine group membership; otherwise, <b>VARIANT_FALSE</b>.
+<b>VARIANT_TRUE</b> if the current <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore3">IAzAuthorizationStore3</a> object supports scripts that use business logic to determine group membership; otherwise, <b>VARIANT_FALSE</b>.
 
 
 ## -returns
@@ -68,7 +68,7 @@ The <b>BizruleGroupSupported</b> method returns a Boolean value that specifies w
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

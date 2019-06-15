@@ -55,7 +55,7 @@ An <b>IDXGIOutput</b> interface represents an adapter output (such as a monitor)
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIOutput</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIOutput</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,18 +70,18 @@ The <b>IDXGIOutput</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174547(v=VS.85).aspx">FindClosestMatchingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-findclosestmatchingmode">FindClosestMatchingMode</a>
 </td>
 <td align="left" width="63%">
 Finds the display mode that most closely matches the requested display mode.
 
-<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://msdn.microsoft.com/en-us/library/Bb174547(v=VS.85).aspx">FindClosestMatchingMode</a> anymore to find the display mode that most closely matches the requested display mode. Instead, use <a href="https://msdn.microsoft.com/D71ED536-0D90-4E0D-8683-6260E31EAF20">IDXGIOutput1::FindClosestMatchingMode1</a>, which supports stereo display mode.</div>
+<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-findclosestmatchingmode">FindClosestMatchingMode</a> anymore to find the display mode that most closely matches the requested display mode. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-findclosestmatchingmode1">IDXGIOutput1::FindClosestMatchingMode1</a>, which supports stereo display mode.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174548(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description of the output.
@@ -90,7 +90,7 @@ Get a description of the output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174549(v=VS.85).aspx">GetDisplayModeList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getdisplaymodelist">GetDisplayModeList</a>
 </td>
 <td align="left" width="63%">
 Gets the display modes that match the requested format and other input options.
@@ -99,18 +99,18 @@ Gets the display modes that match the requested format and other input options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174550(v=VS.85).aspx">GetDisplaySurfaceData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getdisplaysurfacedata">GetDisplaySurfaceData</a>
 </td>
 <td align="left" width="63%">
 Gets a copy of the current display surface.
 
-<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://msdn.microsoft.com/en-us/library/Bb174550(v=VS.85).aspx">GetDisplaySurfaceData</a> anymore to retrieve the current display surface. Instead, use <a href="https://msdn.microsoft.com/120BC7CD-A4B2-4688-9A11-0BD59761B5F1">IDXGIOutput1::GetDisplaySurfaceData1</a>, which supports stereo display mode.</div>
+<div class="alert"><b>Note</b>  Starting with Direct3D 11.1, we recommend not to use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getdisplaysurfacedata">GetDisplaySurfaceData</a> anymore to retrieve the current display surface. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-getdisplaysurfacedata1">IDXGIOutput1::GetDisplaySurfaceData1</a>, which supports stereo display mode.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174551(v=VS.85).aspx">GetFrameStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getframestatistics">GetFrameStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets statistics about recently rendered frames.
@@ -119,7 +119,7 @@ Gets statistics about recently rendered frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174552(v=VS.85).aspx">GetGammaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getgammacontrol">GetGammaControl</a>
 </td>
 <td align="left" width="63%">
 Gets the gamma control settings.
@@ -128,7 +128,7 @@ Gets the gamma control settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174553(v=VS.85).aspx">GetGammaControlCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getgammacontrolcapabilities">GetGammaControlCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets a description of the gamma-control capabilities.
@@ -137,7 +137,7 @@ Gets a description of the gamma-control capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174554(v=VS.85).aspx">ReleaseOwnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-releaseownership">ReleaseOwnership</a>
 </td>
 <td align="left" width="63%">
 Releases ownership of the output.
@@ -146,7 +146,7 @@ Releases ownership of the output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174556(v=VS.85).aspx">SetDisplaySurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-setdisplaysurface">SetDisplaySurface</a>
 </td>
 <td align="left" width="63%">
 Changes the display mode.
@@ -155,7 +155,7 @@ Changes the display mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174557(v=VS.85).aspx">SetGammaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-setgammacontrol">SetGammaControl</a>
 </td>
 <td align="left" width="63%">
 Sets the gamma controls.
@@ -164,7 +164,7 @@ Sets the gamma controls.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174558(v=VS.85).aspx">TakeOwnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-takeownership">TakeOwnership</a>
 </td>
 <td align="left" width="63%">
 Takes ownership of an output.
@@ -173,7 +173,7 @@ Takes ownership of an output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174559(v=VS.85).aspx">WaitForVBlank</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-waitforvblank">WaitForVBlank</a>
 </td>
 <td align="left" width="63%">
 Halt a thread until the next vertical blank occurs.
@@ -187,7 +187,7 @@ Halt a thread until the next vertical blank occurs.
 
 
 
-To see the outputs available, use <a href="https://msdn.microsoft.com/en-us/library/Bb174525(v=VS.85).aspx">IDXGIAdapter::EnumOutputs</a>. To see the specific output that the swap chain will update, use <a href="https://msdn.microsoft.com/en-us/library/Bb174571(v=VS.85).aspx">IDXGISwapChain::GetContainingOutput</a>.
+To see the outputs available, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiadapter-enumoutputs">IDXGIAdapter::EnumOutputs</a>. To see the specific output that the swap chain will update, use <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getcontainingoutput">IDXGISwapChain::GetContainingOutput</a>.
 
 
 
@@ -197,11 +197,11 @@ To see the outputs available, use <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
  
 
  

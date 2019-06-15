@@ -86,7 +86,7 @@ If this method succeeds, it returns the contents of the IsapiDefaultCatalogDirec
 
 
 
-<a href="https://msdn.microsoft.com/CAC6BE83-863B-4DB0-B4FF-40029C242AE9">ISimpleCommandCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-isimplecommandcreator">ISimpleCommandCreator</a>
  
 
  

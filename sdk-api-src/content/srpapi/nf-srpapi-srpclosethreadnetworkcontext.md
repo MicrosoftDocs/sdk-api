@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 <div class="alert"><b>Note</b>  Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
-<div> </div>Restores a thread back to the original context, which may have been optionally returned from <a href="https://msdn.microsoft.com/95997D25-04FE-445B-ADC1-DE85A34BD70C">SrpCreateThreadNetworkContext</a>. 
+<div> </div>Restores a thread back to the original context, which may have been optionally returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/srpapi/nf-srpapi-srpcreatethreadnetworkcontext">SrpCreateThreadNetworkContext</a>. 
 
 
 ## -parameters

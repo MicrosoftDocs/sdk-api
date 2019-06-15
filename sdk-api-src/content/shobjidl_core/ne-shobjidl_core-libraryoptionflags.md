@@ -79,10 +79,10 @@ All valid library options flags.
 <h3><a id="Used_By"></a><a id="used_by"></a><a id="USED_BY"></a>Used By</h3>
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1a144505-e977-4db6-8266-c39c1de8a8f9">IShellLibrary::GetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getoptions">IShellLibrary::GetOptions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8bec0c71-3170-4ff9-aa87-4880d6ac7e32">IShellLibrary::SetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-setoptions">IShellLibrary::SetOptions</a>
 </li>
 </ul>
 
@@ -93,7 +93,7 @@ All valid library options flags.
 
 
 
-<a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
  
 
  

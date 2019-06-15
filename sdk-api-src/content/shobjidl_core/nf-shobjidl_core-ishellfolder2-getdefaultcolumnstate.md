@@ -122,7 +122,7 @@ Not displayed in the user interface.
 
 #### SHCOLSTATE_PREFER_VARCMP
 
-Uses default sorting rather than <a href="https://msdn.microsoft.com/54d805cc-5396-4892-9347-cafc2d90779f">CompareIDs</a> to get the sort order.
+Uses default sorting rather than <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">CompareIDs</a> to get the sort order.
 
 
 ## -returns

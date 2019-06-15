@@ -74,7 +74,7 @@ Pointer to a zero-terminated Unicode string that contains the display name of th
 
 ### -field eapProperties
 
-Set of flags that describe specific properties of the EAP method. For flag descriptions, see <a href="https://msdn.microsoft.com/10407b85-5d2c-4c75-9b65-a0d65d4cc7ab">EAP Method Properties</a>.
+Set of flags that describe specific properties of the EAP method. For flag descriptions, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-properties">EAP Method Properties</a>.
 
 
 ### -field pInnerMethodInfo
@@ -85,7 +85,7 @@ Pointer to an <b>EAP_METHOD_INFO</b> structure that contains information about t
 #### - eapType
 
 
-<a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a> structure that identifies the EAP method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a> structure that identifies the EAP method.
 
 
 ## -see-also
@@ -93,27 +93,27 @@ Pointer to an <b>EAP_METHOD_INFO</b> structure that contains information about t
 
 
 
-<a href="https://msdn.microsoft.com/f6f3b909-1e89-47f8-853c-c0f3f2414817">Common EAPHost API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-structures">Common EAPHost API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/10407b85-5d2c-4c75-9b65-a0d65d4cc7ab">EAP Method Properties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-method-properties">EAP Method Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3e2d5c0-eacd-46de-b092-6fd749870881">EAP_METHOD_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array">EAP_METHOD_INFO_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/3deb04da-3071-4ddd-a7cb-82a1c47c3677">EAP_METHOD_INFO_ARRAY_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_array_ex">EAP_METHOD_INFO_ARRAY_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d25f418-2130-4f9c-b3f4-f639dfba020a">EAP_METHOD_INFO_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info_ex">EAP_METHOD_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a55b031d27">EAP_METHOD_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_type">EAP_METHOD_TYPE</a>
  
 
  

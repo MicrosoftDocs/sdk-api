@@ -64,7 +64,7 @@ Number of elements requested.
 
 ### -param rgelt [out]
 
-Pointer to a list of pointers returned  by <a href="https://msdn.microsoft.com/666761b5-0146-438d-9986-ecce3b45b5ff">INetworkConnection</a>.
+Pointer to a list of pointers returned  by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>.
 
 
 ### -param pceltFetched [out]
@@ -127,7 +127,7 @@ The <i>ppElements</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/f7e69ede-c567-4285-a017-096c94fb3fe4">IEnumNetworkConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>
  
 
  

@@ -55,8 +55,8 @@ ms.custom: 19H1
 
 The 
 <b>SetupAddToDiskSpaceList</b> function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either 
-<a href="https://msdn.microsoft.com/8225d0b4-b750-4580-83f5-dcffdf2ee67b">SetupAddSectionToDiskSpaceList</a>, or 
-<a href="https://msdn.microsoft.com/322f36d7-a683-4a48-b294-393277f09e7d">SetupAddInstallSectionToDiskSpaceList</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddinstallsectiontodiskspacelista">SetupAddInstallSectionToDiskSpaceList</a>.
 
 Target disk compression is ignored by this function. Files are assumed to occupy their full size on the target disk.
 
@@ -79,7 +79,7 @@ File name of the file to be added to the disk-space list. You should use a null-
 ### -param FileSize [in]
 
 Uncompressed size of the file as it will exist in the target directory, in bytes. You can use 
-<a href="https://msdn.microsoft.com/f1db8ad5-b133-410e-9843-38b09e2ef5e7">SetupGetSourceFileSize</a> to retrieve this information from an INF file. This parameter is ignored for FILEOP_DELETE operations.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilesizea">SetupGetSourceFileSize</a> to retrieve this information from an INF file. This parameter is ignored for FILEOP_DELETE operations.
 
 
 ### -param Operation [in]
@@ -134,7 +134,7 @@ Must be zero.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -144,11 +144,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
  
 
  

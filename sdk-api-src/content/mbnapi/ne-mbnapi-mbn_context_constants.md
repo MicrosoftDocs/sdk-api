@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MBN_CONTEXT_CONSTANTS</b> enumerated type specifies the maximum string lengths supported by members of the <a href="https://msdn.microsoft.com/949b1bb3-8cad-45b4-81b7-1f70a76b6c8c">MBN_CONTEXT</a> structure.
+The <b>MBN_CONTEXT_CONSTANTS</b> enumerated type specifies the maximum string lengths supported by members of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 
 ## -enum-fields
@@ -59,17 +59,17 @@ The <b>MBN_CONTEXT_CONSTANTS</b> enumerated type specifies the maximum string le
 
 ### -field MBN_ACCESSSTRING_LEN
 
-Maximum string length of the <b>accessString</b> member of the <a href="https://msdn.microsoft.com/949b1bb3-8cad-45b4-81b7-1f70a76b6c8c">MBN_CONTEXT</a> structure.
+Maximum string length of the <b>accessString</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 
 ### -field MBN_USERNAME_LEN
 
-Maximum string length of the <b>userName</b> member of the <a href="https://msdn.microsoft.com/949b1bb3-8cad-45b4-81b7-1f70a76b6c8c">MBN_CONTEXT</a> structure.
+Maximum string length of the <b>userName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 
 ### -field MBN_PASSWORD_LEN
 
-Maximum string length of the <b>password</b> member of the <a href="https://msdn.microsoft.com/949b1bb3-8cad-45b4-81b7-1f70a76b6c8c">MBN_CONTEXT</a> structure.
+Maximum string length of the <b>password</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_context">MBN_CONTEXT</a> structure.
 
 
 ### -field MBN_CONTEXT_ID_APPEND

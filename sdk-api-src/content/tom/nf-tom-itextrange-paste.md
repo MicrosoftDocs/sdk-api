@@ -61,7 +61,7 @@ Pastes text from a specified data object.
 
 Type: <b>VARIANT*</b>
 
-The <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> to paste. However, the contents of the clipboard are used if any of the following are true.
+The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to paste. However, the contents of the clipboard are used if any of the following are true.
                 
 
 <i>pVar</i> is null 
@@ -70,14 +70,14 @@ The <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">ID
 
 <i>pVar</i> is not <b>VT_UNKNOWN</b>
 
-<i>pVar</i> punkVal does not return an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> when queried for one 
+<i>pVar</i> punkVal does not return an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> when queried for one 
 
 
 ### -param Format
 
 Type: <b>long</b>
 
-The clipboard format to use in the paste operation. Zero is best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Clipboard Formats</a>.
+The clipboard format to use in the paste operation. Zero is best format, which usually is RTF, but <b>CF_UNICODETEXT</b> and other formats are also possible. The default value is zero. For more information, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ The clipboard format to use in the paste operation. Zero is best format, which u
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ Destination cannot contain the text to be pasted.
 
 
 
-For more information, see<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">ITextRange::Copy</a>.
+For more information, see<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-copy">ITextRange::Copy</a>.
 
 
 
@@ -135,7 +135,7 @@ For more information, see<a href="https://msdn.microsoft.com/en-us/library/Bb787
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649013(v=VS.85).aspx">Clipboard Formats</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>
 
 
 
@@ -143,11 +143,11 @@ For more information, see<a href="https://msdn.microsoft.com/en-us/library/Bb787
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-copy">Copy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -155,7 +155,7 @@ For more information, see<a href="https://msdn.microsoft.com/en-us/library/Bb787
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes an object that contains an implementation of the <a href="https://msdn.microsoft.com/be49322a-99b2-4626-8e9d-29965bbe182d">IHWEventHandler</a> interface.
+Initializes an object that contains an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">IHWEventHandler</a> interface.
 
 
 ## -parameters

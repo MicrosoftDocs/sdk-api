@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object was created successfully.
+The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object was created successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+If this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -77,15 +77,15 @@ If this <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533819(v=VS.85).aspx">Constructing Font Families and Fonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-font-families-and-fonts-use">Constructing Font Families and Fonts</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536178(v=VS.85).aspx">FontFamily::GetLastStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getlaststatus">FontFamily::GetLastStatus</a>
  
 
  

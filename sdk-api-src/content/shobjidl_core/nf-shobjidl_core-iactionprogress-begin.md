@@ -59,16 +59,16 @@ Called when an action has begun that requires its progress be displayed to the u
 
 ### -param action [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fc5a0f96-e8c2-483f-86b0-d8c870a9f77a">SPACTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a></b>
 
-The action being performed. See <a href="https://msdn.microsoft.com/fc5a0f96-e8c2-483f-86b0-d8c870a9f77a">SPACTION</a> for a list of acceptable values.
+The action being performed. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a> for a list of acceptable values.
 
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/dc5215ca-17c8-47c1-8059-f46400ff1d0f">SPBEGINF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a></b>
 
-Optional flags that request certain UI operations be enabled or disabled. See <a href="https://msdn.microsoft.com/dc5215ca-17c8-47c1-8059-f46400ff1d0f">SPBEGINF</a> for a list of acceptable values.
+Optional flags that request certain UI operations be enabled or disabled. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a> for a list of acceptable values.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Return S_OK if successful, or an error value otherwise.
 
 
 
-This method should be called when an action is beginning. The values of <i>action</i> and <i>flags</i> may be used to determine how to draw the UI that will be displayed to the user, or how to interpret or filter certain user actions associated with the action. When the action has completed, <a href="https://msdn.microsoft.com/91fa11c3-c781-4e96-9a42-4625b8b24333">IActionProgress::End</a> should be called.
+This method should be called when an action is beginning. The values of <i>action</i> and <i>flags</i> may be used to determine how to draw the UI that will be displayed to the user, or how to interpret or filter certain user actions associated with the action. When the action has completed, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-end">IActionProgress::End</a> should be called.
 			
 
 
@@ -97,19 +97,19 @@ This method should be called when an action is beginning. The values of <i>actio
 
 
 
-<a href="https://msdn.microsoft.com/e742e381-0fd2-482a-81a0-7b43d11b073b">IActionProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/91fa11c3-c781-4e96-9a42-4625b8b24333">IActionProgress::End</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-end">IActionProgress::End</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc5a0f96-e8c2-483f-86b0-d8c870a9f77a">SPACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc5215ca-17c8-47c1-8059-f46400ff1d0f">SPBEGINF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a>
  
 
  

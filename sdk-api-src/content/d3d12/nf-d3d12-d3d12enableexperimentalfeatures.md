@@ -70,7 +70,7 @@ The number of experimental features to enable.
 
 Type: <b>const IID*</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 A pointer to an array of IDs that specify which of the available experimental features to enable.
 
@@ -79,7 +79,7 @@ A pointer to an array of IDs that specify which of the available experimental fe
 
 Type: <b>void*</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 Structures that contain additional configuration details that some experimental features might need to be enabled.
 
@@ -88,7 +88,7 @@ Structures that contain additional configuration details that some experimental 
 
 Type: <b>UINT*</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>__in_ecount(NumFeatures)</code>
+<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>__in_ecount(NumFeatures)</code>
 
 The sizes of any configuration structs passed in pConfigurationStructs parameter.
 
@@ -97,7 +97,7 @@ The sizes of any configuration structs passed in pConfigurationStructs parameter
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code that can include E_NOINTERFACE if an unrecognized feature is specified or Developer Mode is not enabled, or E_INVALIDARG if the configuration of a feature is in correct, the experimental features specified are not compatible, or other errors.
 
@@ -152,7 +152,7 @@ static const UUID D3D12ExperimentalShaderModels = { /* 76f5573e-f13a-40f5-b297-8
 
 
 
-<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-functions">Core Functions</a>
  
 
  

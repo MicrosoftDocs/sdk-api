@@ -64,7 +64,7 @@ The name to search for.
 
 ### -param lHashVal [in]
 
-A hash value to speed up the search, computed by the <a href="https://msdn.microsoft.com/929c2307-8e73-4576-a705-1cde1f728ba4">LHashValOfNameSys</a> function. If <i>lHashVal</i> = 0, a value is computed.
+A hash value to speed up the search, computed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-lhashvalofnamesys">LHashValOfNameSys</a> function. If <i>lHashVal</i> = 0, a value is computed.
 
 
 
@@ -157,7 +157,7 @@ Passing *<i>pcFound</i> = <i>n</i> indicates that there is enough room in the <i
 
 
 
-<a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
  
 
  

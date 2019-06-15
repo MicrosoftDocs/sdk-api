@@ -131,7 +131,7 @@ The term "device" in this context could refer to a physical device, a custom med
 
 
 
-<a href="https://msdn.microsoft.com/7CED3EF6-E844-4B3A-8181-CA44FC4675EC">IMFSensorGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
  
 
  

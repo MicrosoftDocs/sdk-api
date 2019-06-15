@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IPolicyQualifiers</b> interface defines methods and properties that enable you to manage a collection of <a href="https://msdn.microsoft.com/3804e372-17bb-458d-8da5-85d760fe5e60">IPolicyQualifier</a> objects.
+The <b>IPolicyQualifiers</b> interface defines methods and properties that enable you to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPolicyQualifiers</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IPolicyQualifiers</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPolicyQualifiers</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IPolicyQualifiers</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IPolicyQualifiers</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41ead360-0b11-4e47-86c5-24e636cc589d">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifiers-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -79,7 +79,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96b36a6e-f67b-40fb-ab05-4782e7cb659f">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifiers-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -88,7 +88,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6071dbc2-210d-42e2-8431-68eef1e89e24">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifiers-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection by index value.
@@ -105,7 +105,7 @@ Removes an object from the collection by index value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/deba8da7-8df7-4f7e-8e6a-0094b071ff72">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifiers-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -117,7 +117,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d13f7a1c-5b2b-4a0d-a84e-d5c58f107575">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifiers-get_count">Count</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves the number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/89d6ce10-8425-4ee9-a957-88f9a2daba74">ItemByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifiers-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -146,15 +146,15 @@ Retrieves an object from the collection by index number.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/3804e372-17bb-458d-8da5-85d760fe5e60">IPolicyQualifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
  
 
  

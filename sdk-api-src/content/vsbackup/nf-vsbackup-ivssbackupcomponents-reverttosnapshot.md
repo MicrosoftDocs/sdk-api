@@ -238,11 +238,11 @@ This operation cannot be canceled, or undone once completed. If the computer is 
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2e97723-98cb-401c-ab35-20c004f0a73d">IVssBackupComponents::QueryRevertStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus">IVssBackupComponents::QueryRevertStatus</a>
  
 
  

@@ -59,7 +59,7 @@ Retrieves the compression option that is used to store the file in the package.
 
 ### -param compressionOption [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/C4FEE4DA-1097-4870-BB43-A910E20BCBD6">APPX_COMPRESSION_OPTION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a>*</b>
 
 A compression option that describes how the file is stored in the package.
 
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/C4FEE4DA-1097-4870-BB43-A910E20BCBD6">APPX_COMPRESSION_OPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/DB09452D-725C-46EA-B74C-92C5E596BEF8">IAppxFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
  
 
  

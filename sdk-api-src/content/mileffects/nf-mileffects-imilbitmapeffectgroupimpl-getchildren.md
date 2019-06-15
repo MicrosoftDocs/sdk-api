@@ -59,9 +59,9 @@ Gets the children of the effect group.
 
 ### -param pChildren [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffects">IMILBitmapEffects</a>**</b>
 
-A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms735232(v=VS.85).aspx">IMILBitmapEffects</a> group.
+A pointer that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffects">IMILBitmapEffects</a> group.
 
 
 ## -returns

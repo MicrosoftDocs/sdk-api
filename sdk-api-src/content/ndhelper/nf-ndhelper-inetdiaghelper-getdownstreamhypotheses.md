@@ -64,7 +64,7 @@ A pointer to a count of elements in the HYPOTHESIS array.
 
 ### -param pprgHypotheses [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/8f137633-8501-404c-9540-d558be9beeca">HYPOTHESIS</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghypothesis">HYPOTHESIS</a> structures.
 
 
 ## -returns
@@ -164,7 +164,7 @@ This method is not required when building a Helper Class Extension.
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

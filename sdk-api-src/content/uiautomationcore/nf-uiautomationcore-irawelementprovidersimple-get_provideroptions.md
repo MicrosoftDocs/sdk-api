@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The method must return either <a href="https://msdn.microsoft.com/en-us/library/Ee671599(v=VS.85).aspx">ProviderOptions_ServerSideProvider</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671599(v=VS.85).aspx">ProviderOptions_ClientSideProvider</a>.
+The method must return either <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-provideroptions">ProviderOptions_ServerSideProvider</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-provideroptions">ProviderOptions_ClientSideProvider</a>.
 
 UI Automation handles the various types of providers differently. 
 			For example, events from a server-side provider are broadcast to all listening clients, 
@@ -92,7 +92,7 @@ HRESULT STDMETHODCALLTYPE Provider::get_ProviderOptions( ProviderOptions* pRetVa
 
 
 
-<a href="https://msdn.microsoft.com/f0ec6185-acd0-4df7-88f4-fd00747f98bf">IRawElementProviderSimple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
  
 
  

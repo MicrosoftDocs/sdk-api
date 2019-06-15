@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes. The archive contains faxes received successfully by the fax service. The interface also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message to a file on the local computer.
 
-The <b>IFaxIncomingMessage</b> interface is accessed through the <a href="https://msdn.microsoft.com/en-us/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a> interface or <a href="https://msdn.microsoft.com/en-us/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a> interface.
+The <b>IFaxIncomingMessage</b> interface is accessed through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a> interface or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessageiterator">IFaxIncomingMessageIterator</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessage</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxIncomingMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessage</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxIncomingMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,19 +72,19 @@ The <b>IFaxIncomingMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684905(v=VS.85).aspx">CopyTiff</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-copytiff-vb">CopyTiff</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684905(v=VS.85).aspx">CopyTiff</a> method copies the TIFF Class F file associated with the inbound fax message to a file on the local computer.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-copytiff-vb">CopyTiff</a> method copies the TIFF Class F file associated with the inbound fax message to a file on the local computer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684553(v=VS.85).aspx">Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-delete-vb">Delete</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684553(v=VS.85).aspx">Delete</a> method deletes the specified fax message from the inbound fax archive.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-delete-vb">Delete</a> method deletes the specified fax message from the inbound fax archive.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684553(v=VS.85).aspx">De
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684807(v=VS.85).aspx">CallerId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-callerid-vb">CallerId</a>
 
 
 </td>
@@ -108,14 +108,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684807(v=VS.85).aspx">CallerId</a> property is a null-terminated string that identifies the calling device associated with the inbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-callerid-vb">CallerId</a> property is a null-terminated string that identifies the calling device associated with the inbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684809(v=VS.85).aspx">CSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-csid-vb">CSID</a>
 
 
 </td>
@@ -124,14 +124,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684809(v=VS.85).aspx">CSID</a> property is a null-terminated string that contains the CSID for the inbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-csid-vb">CSID</a> property is a null-terminated string that contains the CSID for the inbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686182(v=VS.85).aspx">DeviceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-devicename-vb">DeviceName</a>
 
 
 </td>
@@ -140,14 +140,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686182(v=VS.85).aspx">DeviceName</a> property is a null-terminated string that contains the name of the device on which the inbound fax message was received.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-devicename-vb">DeviceName</a> property is a null-terminated string that contains the name of the device on which the inbound fax message was received.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684854(v=VS.85).aspx">Id</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-id-vb">Id</a>
 
 
 </td>
@@ -156,14 +156,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684854(v=VS.85).aspx">Id</a> property is a null-terminated string that contains a unique ID for the inbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-id-vb">Id</a> property is a null-terminated string that contains a unique ID for the inbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687449(v=VS.85).aspx">Pages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-pages-vb">Pages</a>
 
 
 </td>
@@ -172,14 +172,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687449(v=VS.85).aspx">Pages</a> property is a value that indicates the total number of pages in the inbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-pages-vb">Pages</a> property is a value that indicates the total number of pages in the inbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687457(v=VS.85).aspx">Retries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-retries-vb">Retries</a>
 
 
 </td>
@@ -188,14 +188,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms687457(v=VS.85).aspx">Retries</a> property is a value that indicates the number of times that the fax service attempted to route an inbound fax message after the initial routing attempt failed.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-retries-vb">Retries</a> property is a value that indicates the number of times that the fax service attempted to route an inbound fax message after the initial routing attempt failed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684850(v=VS.85).aspx">RoutingInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-routinginformation-vb">RoutingInformation</a>
 
 
 </td>
@@ -204,14 +204,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684850(v=VS.85).aspx">RoutingInformation</a> property is a null-terminated string that indicates inbound routing information for the fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-routinginformation-vb">RoutingInformation</a> property is a null-terminated string that indicates inbound routing information for the fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684562(v=VS.85).aspx">Size</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-size-vb">Size</a>
 
 
 </td>
@@ -220,14 +220,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684562(v=VS.85).aspx">Size</a> property is a value that indicates the size of the TIFF Class F file associated with the inbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-size-vb">Size</a> property is a value that indicates the size of the TIFF Class F file associated with the inbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684560(v=VS.85).aspx">TransmissionEnd</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-transmissionend-vb">TransmissionEnd</a>
 
 
 </td>
@@ -236,14 +236,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684560(v=VS.85).aspx">TransmissionEnd</a> property indicates the time that the inbound fax message completed transmission.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-transmissionend-vb">TransmissionEnd</a> property indicates the time that the inbound fax message completed transmission.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684556(v=VS.85).aspx">TransmissionStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-transmissionstart-vb">TransmissionStart</a>
 
 
 </td>
@@ -252,14 +252,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms684556(v=VS.85).aspx">TransmissionStart</a> property indicates the time that the inbound fax message began transmitting.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-transmissionstart-vb">TransmissionStart</a> property indicates the time that the inbound fax message began transmitting.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686838(v=VS.85).aspx">TSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-tsid-vb">TSID</a>
 
 
 </td>
@@ -268,7 +268,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms686838(v=VS.85).aspx">TSID</a> property is a null-terminated string that contains the TSID associated with the inbound fax message.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage-tsid-vb">TSID</a> property is a null-terminated string that contains the TSID associated with the inbound fax message.
 
 </td>
 </tr>
@@ -279,7 +279,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686838(v=VS.85).aspx">TS
 
 
 
-To create a <b>FaxIncomingMessage</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/ms684936(v=VS.85).aspx">IFaxIncomingArchive::GetMessage</a> method or the <a href="https://msdn.microsoft.com/en-us/library/ms687461(v=VS.85).aspx">IFaxIncomingMessageIterator::get_Message</a> method.
+To create a <b>FaxIncomingMessage</b> object in C++, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingarchive-getmessage-vb">IFaxIncomingArchive::GetMessage</a> method or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-message-vb">IFaxIncomingMessageIterator::get_Message</a> method.
 
 
 
@@ -289,19 +289,19 @@ To create a <b>FaxIncomingMessage</b> object in C++, call the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687474(v=VS.85).aspx">IFaxIncomingArchive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessageiterator">IFaxIncomingMessageIterator</a>
  
 
  

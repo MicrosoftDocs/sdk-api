@@ -59,12 +59,12 @@ The <b>MBN_SMS_CONSTANTS</b> enumerated type contains SMS constant values.
 
 ### -field MBN_MESSAGE_INDEX_NONE
 
-The message is not stored in device memory.  This constant is used by <a href="https://msdn.microsoft.com/dc0e15c4-6203-4105-9d19-5931b27047d2">IMbnSmsReadMsgPdu</a> and <a href="https://msdn.microsoft.com/d26b09f7-eb83-46ed-82cb-a702d3af5d05">IMbnSmsReadMsgTextCdma</a>.
+The message is not stored in device memory.  This constant is used by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>.
 
 
 ### -field MBN_CDMA_SHORT_MSG_SIZE_UNKNOWN
 
-The device does not support SMS.  This constant is used by <a href="https://msdn.microsoft.com/ee261c32-aa17-496a-a568-d9da43e1e23a">IMbnSmsConfiguration</a>.
+The device does not support SMS.  This constant is used by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>.
 
 
 ### -field MBN_CDMA_SHORT_MSG_SIZE_MAX

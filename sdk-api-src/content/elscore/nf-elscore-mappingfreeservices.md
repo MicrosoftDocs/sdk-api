@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees memory and resources allocated for the application to interact with one or more ELS services. The memory and resources are allocated in an application call to <a href="https://msdn.microsoft.com/6d02e085-405e-4388-bf2f-409c92a7b190">MappingGetServices</a>.
+Frees memory and resources allocated for the application to interact with one or more ELS services. The memory and resources are allocated in an application call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Frees memory and resources allocated for the application to interact with one or
 
 ### -param pServiceInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/444102a7-0da9-44be-989e-7a5139320034">MAPPING_SERVICE_INFO</a> structures containing service descriptions retrieved by a prior call to <a href="https://msdn.microsoft.com/6d02e085-405e-4388-bf2f-409c92a7b190">MappingGetServices</a>. This parameter cannot be set to <b>NULL</b>. 
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service descriptions retrieved by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>. This parameter cannot be set to <b>NULL</b>. 
 
 
 ## -returns
@@ -88,23 +88,23 @@ Since all services currently run in the application process, the ELS platform do
 
 
 
-<a href="https://msdn.microsoft.com/526e51c7-9ff2-4590-b092-172f4942ce8e">Enumerating and Freeing Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/90bc1757-ec94-425e-927f-9ae2e1ab8af8">Extended Linguistic Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/d62ab664-a75a-4d06-aefb-a3311ea7d4a7">Extended Linguistic Services Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/444102a7-0da9-44be-989e-7a5139320034">MAPPING_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d02e085-405e-4388-bf2f-409c92a7b190">MappingGetServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>
  
 
  

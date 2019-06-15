@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates <a href="https://msdn.microsoft.com/b7c49533-d289-44b0-9a9e-cfa47af3a087">ISyncProviderConfigUIInfo</a> objects that contain configuration UI information used to build and register a synchronization provider.
+Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> objects that contain configuration UI information used to build and register a synchronization provider.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncProviderConfigUIInfos</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumSyncProviderConfigUIInfos</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncProviderConfigUIInfos</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncProviderConfigUIInfos</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumSyncProviderConfigUIInfos</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30f2a85a-86c2-4547-a18f-448a01d64d9b">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-ienumsyncproviderconfiguiinfos-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
@@ -78,7 +78,7 @@ Clones the enumerator and returns a new enumerator that is in the same state as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46564ed2-233d-409c-a996-dd3d9cfde907">Next</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-ienumsyncproviderconfiguiinfos-next">Next</a>
 </td>
 <td align="left" width="63%">
 Returns the next <b>ISyncProviderConfigUIInfo</b> object.
@@ -87,7 +87,7 @@ Returns the next <b>ISyncProviderConfigUIInfo</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae976a03-c0e3-4a47-8153-8ba947ac8ea0">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-ienumsyncproviderconfiguiinfos-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the collection of <b>ISyncProviderConfigUIInfo</b> objects.
@@ -96,7 +96,7 @@ Resets the enumerator to the beginning of the collection of <b>ISyncProviderConf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ecd6cce-77af-423a-9b95-80b1d7ec9d2f">Skip</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-ienumsyncproviderconfiguiinfos-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of <b>ISyncProviderConfigUIInfo</b> objects.
@@ -110,7 +110,7 @@ Skips the specified number of <b>ISyncProviderConfigUIInfo</b> objects.
 
 
 
-This interface is obtained from the  <a href="https://msdn.microsoft.com/5028b1e7-425d-4fac-ba6b-27a0cc70b378">ISyncProviderRegistration::EnumerateSyncProviderConfigUIsForContentType</a> method. The method will return an  <b>IEnumSyncProviderConfigUIInfos</b> enumerator for all registered <b>ISyncProviderConfigUI</b> objects or for just the registered <b>ISyncProviderConfigUI</b> objects of a particular content type.
+This interface is obtained from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317197(v=vs.85)">ISyncProviderRegistration::EnumerateSyncProviderConfigUIsForContentType</a> method. The method will return an  <b>IEnumSyncProviderConfigUIInfos</b> enumerator for all registered <b>ISyncProviderConfigUI</b> objects or for just the registered <b>ISyncProviderConfigUI</b> objects of a particular content type.
 
 
 
@@ -120,7 +120,7 @@ This interface is obtained from the  <a href="https://msdn.microsoft.com/5028b1e
 
 
 
-<a href="https://msdn.microsoft.com/8233671e-bf89-448d-8347-9b4f0ae7501f">Windows Sync Registration Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
  
 
  

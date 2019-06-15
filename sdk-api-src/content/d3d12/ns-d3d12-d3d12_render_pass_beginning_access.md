@@ -72,7 +72,7 @@ A <a href="https://msdn.microsoft.com/E52C3630-1E57-4756-8D25-57E4A9AFDAE9">D3D1
 
 
 
-<a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
  
 
  

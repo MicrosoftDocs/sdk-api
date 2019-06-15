@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/196f7150-185f-4234-a585-1a94d6dc24d7">INET_FIREWALL_AC_CHANGE</a> structure contains information about a change made to an app container.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-_inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE</a> structure contains information about a change made to an app container.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ The <a href="https://msdn.microsoft.com/196f7150-185f-4234-a585-1a94d6dc24d7">IN
 
 ### -field changeType
 
-Type: <b><a href="https://msdn.microsoft.com/196f7150-185f-4234-a585-1a94d6dc24d7">INET_FIREWALL_AC_CHANGE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-_inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a></b>
 
 The type of change made.
 
 
 ### -field createType
 
-Type: <b><a href="https://msdn.microsoft.com/01a1f735-889e-424e-860e-ca86f0abd126">INET_FIREWALL_AC_CREATION_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ne-networkisolation-inet_firewall_ac_creation_type">INET_FIREWALL_AC_CREATION_TYPE</a></b>
 
 The method by which the app container was created.
 
@@ -111,14 +111,14 @@ Friendly name of the app container.
 
 #### - binaries
 
-Type: <b><a href="https://msdn.microsoft.com/5403303e-e65c-47cf-af84-3d748db8661b">INET_FIREWALL_AC_BINARIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
 
 Binary paths to the applications running in the changed app container.
 
 
 #### - capabilities
 
-Type: <b><a href="https://msdn.microsoft.com/37386225-0c64-49c0-a21c-cecd8bdb1f1f">INET_FIREWALL_AC_CAPABILITIES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a></b>
 
 Information about the capabilities of the changed app container.
 
@@ -128,19 +128,19 @@ Information about the capabilities of the changed app container.
 
 
 
-<a href="https://msdn.microsoft.com/5403303e-e65c-47cf-af84-3d748db8661b">INET_FIREWALL_AC_BINARIES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/37386225-0c64-49c0-a21c-cecd8bdb1f1f">INET_FIREWALL_AC_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/196f7150-185f-4234-a585-1a94d6dc24d7">INET_FIREWALL_AC_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-_inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/01a1f735-889e-424e-860e-ca86f0abd126">INET_FIREWALL_AC_CREATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ne-networkisolation-inet_firewall_ac_creation_type">INET_FIREWALL_AC_CREATION_TYPE</a>
  
 
  

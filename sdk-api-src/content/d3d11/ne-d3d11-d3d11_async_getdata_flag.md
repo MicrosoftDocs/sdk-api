@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Optional flags that control the behavior of <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a>.
+Optional flags that control the behavior of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-getdata">ID3D11DeviceContext::GetData</a>.
 
 
 ## -enum-fields
@@ -67,7 +67,7 @@ Do not flush the command buffer. This can potentially cause an infinite loop if 
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

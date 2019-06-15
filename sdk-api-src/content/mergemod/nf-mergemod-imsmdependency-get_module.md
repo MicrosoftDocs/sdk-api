@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>get_Module</b> method retrieves the 
-<a href="https://msdn.microsoft.com/22aae1b6-59b6-4842-9523-d1e064511380">Module</a> property of the 
-<a href="https://msdn.microsoft.com/3157f07d-99de-4628-9b03-eb86eb4896a4">Dependency</a> object. This method returns the ModuleID of the module required by the current string in the form of a <b>BSTR</b>. The ModuleID is of the same form as used in the 
-<a href="https://msdn.microsoft.com/09802282-72ad-43f1-8cce-4cdc68b01e87">ModuleSignature table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-module">Module</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the ModuleID of the module required by the current string in the form of a <b>BSTR</b>. The ModuleID is of the same form as used in the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/modulesignature-table">ModuleSignature table</a>.
 
 
 ## -parameters
@@ -119,11 +119,11 @@ The client is responsible for freeing the resulting string using <b>SysFreeStrin
 
 
 
-<a href="https://msdn.microsoft.com/517cf174-418a-4717-a25f-1736225016a1">IMsmDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

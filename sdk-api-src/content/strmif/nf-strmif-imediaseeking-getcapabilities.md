@@ -63,7 +63,7 @@ The <code>GetCapabilities</code> method retrieves all the seeking capabilities o
 
 ### -param pCapabilities [out]
 
-Pointer to a variable that receives a bitwise combination of <a href="https://msdn.microsoft.com/1c7ad11b-2d10-409e-a292-b777566c637d">AM_SEEKING_SEEKING_CAPABILITIES</a> flags.
+Pointer to a variable that receives a bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags.
 
 
 ## -returns
@@ -141,11 +141,11 @@ if (dwCaps &amp; AM_SEEKING_CanPlayBackwards)
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
  
 
  

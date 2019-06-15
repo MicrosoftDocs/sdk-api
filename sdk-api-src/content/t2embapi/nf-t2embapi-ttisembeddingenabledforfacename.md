@@ -75,7 +75,7 @@ If successful, returns E_NONE.
 
 <i>pbEnabled</i> is filled with a boolean that indicates whether embedding is currently enabled within a device context for the specified font.
 
-Otherwise, returns an error code described in <a href="https://msdn.microsoft.com/71effafe-55a9-40ed-81c7-07278eba32d3">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 
 
@@ -86,7 +86,7 @@ Otherwise, returns an error code described in <a href="https://msdn.microsoft.co
 
 If successful, the client may embed the font.
 
-For additional information on the exclusion list, see the Remarks section of <a href="https://msdn.microsoft.com/05d74bfb-28c4-4e1a-9e18-df868f8fa784">TTEnableEmbeddingForFacename</a>.
+For additional information on the exclusion list, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttenableembeddingforfacename">TTEnableEmbeddingForFacename</a>.
 
 
 
@@ -96,19 +96,19 @@ For additional information on the exclusion list, see the Remarks section of <a 
 
 
 
-<a href="https://msdn.microsoft.com/05d74bfb-28c4-4e1a-9e18-df868f8fa784">TTEnableEmbeddingForFacename</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttenableembeddingforfacename">TTEnableEmbeddingForFacename</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ce9ade0-df5b-4a2a-adf6-ca641e27d2bd">TTGetEmbeddedFontInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddedfontinfo">TTGetEmbeddedFontInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/c442447f-221d-4bce-9749-fb9fbe333808">TTGetEmbeddingType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1e3112b-d840-45eb-bb99-416319ed9e15">TTIsEmbeddingEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttisembeddingenabled">TTIsEmbeddingEnabled</a>
  
 
  

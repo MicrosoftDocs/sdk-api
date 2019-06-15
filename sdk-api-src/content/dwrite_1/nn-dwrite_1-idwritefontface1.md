@@ -58,7 +58,7 @@ You obtain various font data like metrics, names, and glyph outlines from the <b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFace1</b> interface inherits from <a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>. <b>IDWriteFontFace1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFace1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>. <b>IDWriteFontFace1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDWriteFontFace1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D9006617-A5B5-4575-9C00-26F52A73DC0D">GetCaretMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getcaretmetrics">GetCaretMetrics</a>
 </td>
 <td align="left" width="63%">
 Gets caret metrics for the font in design units.
@@ -82,7 +82,7 @@ Gets caret metrics for the font in design units.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1E40518F-51E0-48F6-99ED-BE9407B61B6E">GetDesignGlyphAdvances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getdesignglyphadvances">GetDesignGlyphAdvances</a>
 </td>
 <td align="left" width="63%">
 Retrieves the advances in design units for a sequences of glyphs.
@@ -91,7 +91,7 @@ Retrieves the advances in design units for a sequences of glyphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/187DF4C8-203E-4658-9DBF-D02988F92BBB">GetGdiCompatibleGlyphAdvances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getgdicompatibleglyphadvances">GetGdiCompatibleGlyphAdvances</a>
 </td>
 <td align="left" width="63%">
 Returns the pixel-aligned advances for a sequences of glyphs.
@@ -100,7 +100,7 @@ Returns the pixel-aligned advances for a sequences of glyphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2FD26970-8CF3-453F-A08D-30CC4A820281">GetGdiCompatibleMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getgdicompatiblemetrics">GetGdiCompatibleMetrics</a>
 </td>
 <td align="left" width="63%">
 Obtains design units and common metrics for the font face.
@@ -110,7 +110,7 @@ Obtains design units and common metrics for the font face.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA837B04-85BC-4A3B-A6FE-24D5AFD21B14">GetKerningPairAdjustments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getkerningpairadjustments">GetKerningPairAdjustments</a>
 </td>
 <td align="left" width="63%">
 Retrieves the kerning pair adjustments from the font's kern table.
@@ -119,7 +119,7 @@ Retrieves the kerning pair adjustments from the font's kern table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7F899D56-F56B-4C4C-A17D-B42A34CAA0F1">GetMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getmetrics">GetMetrics</a>
 </td>
 <td align="left" width="63%">
  Obtains design units and common metrics for the font face.
@@ -129,7 +129,7 @@ Retrieves the kerning pair adjustments from the font's kern table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4726A5FC-6481-4986-AE2D-EBC044D0B9C6">GetRecommendedRenderingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getrecommendedrenderingmode">GetRecommendedRenderingMode</a>
 </td>
 <td align="left" width="63%">
  Determines the recommended rendering mode for the font, using the specified size and rendering parameters.
@@ -138,7 +138,7 @@ Retrieves the kerning pair adjustments from the font's kern table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0464BA91-B098-463D-A4A9-8D3C05E45F0E">GetUnicodeRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getunicoderanges">GetUnicodeRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of character ranges supported by a font.
@@ -147,7 +147,7 @@ Retrieves a list of character ranges supported by a font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91CD924E-A664-45C6-B787-61129C31501B">GetVerticalGlyphVariants</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getverticalglyphvariants">GetVerticalGlyphVariants</a>
 </td>
 <td align="left" width="63%">
 Retrieves the vertical forms of the nominal glyphs retrieved from
@@ -157,7 +157,7 @@ Retrieves the vertical forms of the nominal glyphs retrieved from
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/701B874A-BA95-43CA-8762-70BA571FDC10">HasKerningPairs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-haskerningpairs">HasKerningPairs</a>
 </td>
 <td align="left" width="63%">
 Determines whether the font supports pair-kerning.
@@ -166,7 +166,7 @@ Determines whether the font supports pair-kerning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/694F003E-4189-4DC6-ADC8-B94EE8C624BE">HasVerticalGlyphVariants</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-hasverticalglyphvariants">HasVerticalGlyphVariants</a>
 </td>
 <td align="left" width="63%">
 Determines whether the font has any vertical glyph variants.
@@ -175,7 +175,7 @@ Determines whether the font has any vertical glyph variants.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5A83F330-FADA-4307-BCCE-DDCCF5D1D429">IsMonospacedFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-ismonospacedfont">IsMonospacedFont</a>
 </td>
 <td align="left" width="63%">
 Determines whether the font of a text range is monospaced, that is, the font characters are the
@@ -191,7 +191,7 @@ Determines whether the font of a text range is monospaced, that is, the font cha
 
 
 
-<a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

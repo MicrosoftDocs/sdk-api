@@ -50,13 +50,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetInstancePropertiesByPath</b> method retrieves the instance identified by a particular object path, with only the specified properties populated. The properties to be populated are named in a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> array.
+The <b>GetInstancePropertiesByPath</b> method retrieves the instance identified by a particular object path, with only the specified properties populated. The properties to be populated are named in a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> array.
 
 
 ## -parameters
@@ -71,12 +71,12 @@ The object path to the instance to be returned. This parameter must point to a f
 
 ### -param ppInstance
 
-A pointer to a pointer to a new <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> instance whose keys are those specified by <i>pszInstancePath</i>. The framework provider that performs the request is must release this pointer.
+A pointer to a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> instance whose keys are those specified by <i>pszInstancePath</i>. The framework provider that performs the request is must release this pointer.
 
 
 ### -param pMethodContext
 
-A pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">Provider::EnumerateInstances</a> or <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://msdn.microsoft.com/a2033754-4fd0-405f-9ad9-737eb8931016">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
+A pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
 
 ### -param csaProperties [ref]
@@ -97,7 +97,7 @@ Returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, <b>WBEM_E_OUT_OF
 
 
 
-This method makes use of partial-instance update operations to request only the specified properties of the specified object. This is the most efficient way to retrieve a specific instance when more properties than just the keys are required. Be aware that not all providers support partial-instance operations. In that case, the entire instance (including the keys) are populated. For more information, see <a href="https://msdn.microsoft.com/bc498655-ad6d-44f5-912d-9b7ee95825ec">Supporting Partial-Instance Operations</a>.
+This method makes use of partial-instance update operations to request only the specified properties of the specified object. This is the most efficient way to retrieve a specific instance when more properties than just the keys are required. Be aware that not all providers support partial-instance operations. In that case, the entire instance (including the keys) are populated. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/supporting-partial-instance-operations">Supporting Partial-Instance Operations</a>.
 
 In the current version of the provider framework, <i>pszInstancePath</i> must resolve to be an instance path on the same computer.
 
@@ -109,15 +109,15 @@ In the current version of the provider framework, <i>pszInstancePath</i> must re
 
 
 
-<a href="https://msdn.microsoft.com/493027c2-e54d-4fad-9e33-98d1ceab8860">CWbemProviderGlue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a>
 
 
 
-<a href="https://msdn.microsoft.com/788b5f5f-b300-4c86-afbd-416b938f21c1">GetInstanceByPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancebypath(lpcwstr_cinstance_methodcontext)">GetInstanceByPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ae95850-59e9-4382-b88d-c51eb3077176">GetInstanceKeysByPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getinstancekeysbypath">GetInstanceKeysByPath</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees the string buffer allocated by <a href="https://msdn.microsoft.com/en-us/library/ms648421(v=VS.85).aspx">RtlUnicodeStringToAnsiString</a>.
+Frees the string buffer allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Frees the string buffer allocated by <a href="https://msdn.microsoft.com/en-us/l
 
 ### -param AnsiString [in]
 
-A pointer to an ANSI string whose buffer was previously allocated by <a href="https://msdn.microsoft.com/en-us/library/ms648421(v=VS.85).aspx">RtlUnicodeStringToAnsiString</a>.
+A pointer to an ANSI string whose buffer was previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This function does not return a value.
 
 
 
-This routine does not release the Unicode string buffer passed to <a href="https://msdn.microsoft.com/en-us/library/ms648421(v=VS.85).aspx">RtlUnicodeStringToAnsiString</a>.
+This routine does not release the Unicode string buffer passed to <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Commits or discards changes made prior to a call to <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a>.
+Commits or discards changes made prior to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Commits or discards changes made prior to a call to <a href="https://msdn.micros
 
 Type: <b>HANDLE</b>
 
-A module handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a> function, and used by <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a>, referencing the file to be updated. 
+A module handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> function, and used by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>, referencing the file to be updated. 
 
 
 ### -param fDiscard [in]
@@ -83,7 +83,7 @@ Returns <b>TRUE</b> if the function succeeds; <b>FALSE</b> otherwise. If the fun
 
 <i>fDiscard</i> is <b>TRUE</b>, then no resource updates are made to the file; otherwise all 
 
-successful resource updates are made to the file. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+successful resource updates are made to the file. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,14 +92,14 @@ successful resource updates are made to the file. To get extended error informat
 
 
 
-Before you call this function, make sure all file handles other than the one returned by <a href="https://msdn.microsoft.com/en-us/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a> are closed.
+Before you call this function, make sure all file handles other than the one returned by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a> are closed.
 
-This function can update resources within modules that contain both code and resources. There are restrictions on resource updates in LN files and .mui files, both of which contain Resource Configuration data; details of the restrictions are in the reference for the <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a> function.
+This function can update resources within modules that contain both code and resources. There are restrictions on resource updates in LN files and .mui files, both of which contain Resource Configuration data; details of the restrictions are in the reference for the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v=VS.85).aspx">Updating Resources</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-resources">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -110,7 +110,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648030(v=VS.85).aspx">BeginUpdateResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-beginupdateresourcea">BeginUpdateResource</a>
 
 
 
@@ -122,11 +122,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms648008(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-updateresourcea">UpdateResource</a>
  
 
  

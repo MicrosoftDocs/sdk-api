@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function is an extension to <a href="https://msdn.microsoft.com/1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0">HttpWaitForDisconnect</a>.<div class="alert"><b>Note</b>  Calling this API directly in your code is not recommended. Call <a href="https://msdn.microsoft.com/1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0">HttpWaitForDisconnect</a> instead.</div>
+This function is an extension to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a>.<div class="alert"><b>Note</b>  Calling this API directly in your code is not recommended. Call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> instead.</div>
 <div> </div>
 
 
@@ -76,11 +76,11 @@ This function is an extension to <a href="https://msdn.microsoft.com/1f1c16c1-43
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
  
 
  

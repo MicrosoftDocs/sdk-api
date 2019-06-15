@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Receives information about a band object. This structure is used with the deprecated <a href="https://msdn.microsoft.com/7567a2f8-989e-4d11-ae55-209e4cfacad0">IDeskBand::GetBandInfo</a> method.
+Receives information about a band object. This structure is used with the deprecated <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskband-getbandinfo">IDeskBand::GetBandInfo</a> method.
 
 
 ## -struct-fields
@@ -108,32 +108,32 @@ The set of flags that determine which members of this structure are being reques
 
 ### -field ptMinSize
 
-Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a></b>
 
-A <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure that receives the minimum size of the band object. The minimum width is given in the <b>POINTL</b> structure's <b>x</b> member and the minimum height is given in the <b>y</b> member.
+A <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure that receives the minimum size of the band object. The minimum width is given in the <b>POINTL</b> structure's <b>x</b> member and the minimum height is given in the <b>y</b> member.
 
 
 ### -field ptMaxSize
 
-Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a></b>
 
-A <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure that receives the maximum size of the band object. The maximum height is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored. If the band object has no limit for its maximum height, (LONG)-1 should be used.
+A <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure that receives the maximum size of the band object. The maximum height is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored. If the band object has no limit for its maximum height, (LONG)-1 should be used.
 
 
 ### -field ptIntegral
 
-Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a></b>
 
-A <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure that receives the sizing step value (increment) in which the band object is resized. The vertical step value is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored.
+A <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure that receives the sizing step value (increment) in which the band object is resized. The vertical step value is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored.
 
 The <b>dwModeFlags</b> member must contain the DBIMF_VARIABLEHEIGHT flag; otherwise, <b>ptIntegral</b> is ignored.
 
 
 ### -field ptActual
 
-Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a></b>
 
-A <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure that receives the ideal size of the band object. The ideal width is given in the <b>POINTL</b> structure's <b>x</b> member and the ideal height is given in the <b>y</b> member. The band container attempts to use these values, but the band is not guaranteed to be this size.
+A <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure that receives the ideal size of the band object. The ideal width is given in the <b>POINTL</b> structure's <b>x</b> member and the ideal height is given in the <b>y</b> member. The band container attempts to use these values, but the band is not guaranteed to be this size.
 
 
 ### -field wszTitle
@@ -236,7 +236,7 @@ The band is displayed with the background color specified in <b>crBkgnd</b>.
 
 ### -field crBkgnd
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-A <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> structure that receives the background color of the band. The <b>dwModeFlags</b> member must contain the <b>DBIMF_BKCOLOR</b> flag; otherwise, <b>crBkgnd</b> is ignored.
+A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure that receives the background color of the band. The <b>dwModeFlags</b> member must contain the <b>DBIMF_BKCOLOR</b> flag; otherwise, <b>crBkgnd</b> is ignored.
 

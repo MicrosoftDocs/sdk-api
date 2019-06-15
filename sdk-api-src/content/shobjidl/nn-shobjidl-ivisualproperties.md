@@ -54,7 +54,7 @@ Exposes methods that set and get visual properties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVisualProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVisualProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVisualProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/538ac798-7722-434f-88bd-a7655d4c470c">GetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-getcolor">GetColor</a>
 </td>
 <td align="left" width="63%">
 Gets the color, as specified.
@@ -78,7 +78,7 @@ Gets the color, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d12e2091-37cb-4a9e-abfc-8795d18bddd2">GetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-getfont">GetFont</a>
 </td>
 <td align="left" width="63%">
 Gets the current attributes set on the font.
@@ -87,7 +87,7 @@ Gets the current attributes set on the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18a42f90-48de-4ac3-8904-4b56d559377e">GetItemHeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-getitemheight">GetItemHeight</a>
 </td>
 <td align="left" width="63%">
 Gets the item height.
@@ -96,7 +96,7 @@ Gets the item height.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24e351af-687d-454a-9f0a-e7c07175dbd3">SetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setcolor">SetColor</a>
 </td>
 <td align="left" width="63%">
 Sets the color, as specified.
@@ -105,7 +105,7 @@ Sets the color, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ecdf8652-0e1c-47df-bd19-80390bdf6c7f">SetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setfont">SetFont</a>
 </td>
 <td align="left" width="63%">
 Sets attributes of the font.
@@ -114,7 +114,7 @@ Sets attributes of the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebd00a98-ea2b-4024-b911-7120d8307b54">SetItemHeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setitemheight">SetItemHeight</a>
 </td>
 <td align="left" width="63%">
 Sets the specified item height.
@@ -123,7 +123,7 @@ Sets the specified item height.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0be91bde-ef05-4d64-9f94-91b9020586cb">SetTheme</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-settheme">SetTheme</a>
 </td>
 <td align="left" width="63%">
 Sets the specified theme.
@@ -132,7 +132,7 @@ Sets the specified theme.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14ce62f7-b464-4e52-8441-35f613b6c844">SetWatermark</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ivisualproperties-setwatermark">SetWatermark</a>
 </td>
 <td align="left" width="63%">
 Provides a bitmap to use as a watermark.

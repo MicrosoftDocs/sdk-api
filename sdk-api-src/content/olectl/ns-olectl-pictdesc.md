@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains parameters to create a picture object through the <a href="https://msdn.microsoft.com/fb021348-07d4-4974-a71e-abb1b8d760c4">OleCreatePictureIndirect</a> function.
+Contains parameters to create a picture object through the <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> function.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size of the structure, in bytes.
 
 ### -field picType
 
-Type of picture described by this structure, which can be any value from the <a href="https://msdn.microsoft.com/79f10687-f0eb-4b5e-a1a9-9186dbd0b51f">PICTYPE</a> enumeration. This selects the arm of the union that corresponds to one of the picture type structures below.
+Type of picture described by this structure, which can be any value from the <a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a> enumeration. This selects the arm of the union that corresponds to one of the picture type structures below.
 
 
 ### -field bmp
@@ -127,11 +127,11 @@ The <b>HENHMETAFILE</b> handle identifying the enhanced metafile assigned to the
 
 
 
-<a href="https://msdn.microsoft.com/fb021348-07d4-4974-a71e-abb1b8d760c4">OleCreatePictureIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f10687-f0eb-4b5e-a1a9-9186dbd0b51f">PICTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a>
  
 
  

@@ -64,7 +64,7 @@ The viewport on which the interaction was detected.
 
 ### -param interaction [in]
 
-One of the values from <a href="https://msdn.microsoft.com/5C1C79C2-3407-4FF3-986F-D9BF51983A46">DIRECTMANIPULATION_INTERACTION_TYPE</a>.
+One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_interaction_type">DIRECTMANIPULATION_INTERACTION_TYPE</a>.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/9B832530-54B8-4D18-A5E4-4F4CAE65073A">IDirectManipulationInteractionEventHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationinteractioneventhandler">IDirectManipulationInteractionEventHandler</a>
  
 
  

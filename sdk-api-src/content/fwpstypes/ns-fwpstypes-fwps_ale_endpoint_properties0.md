@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>FWPS_ALE_ENDPOINT_PROPERTIES0</b> structure specifies the properties of an application layer
   enforcement (ALE) endpoint.
-<div class="alert"><b>Note</b>  <b>FWPS_ALE_ENDPOINT_PROPERTIES0</b> is a specific version of <b>FWPS_ALE_ENDPOINT_PROPERTIES</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_ALE_ENDPOINT_PROPERTIES0</b> is a specific version of <b>FWPS_ALE_ENDPOINT_PROPERTIES</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ The unique identifier of the endpoint.
 ### -field ipVersion
 
 The internet protocol version of the endpoint expressed as a value from the 
-     <a href="https://msdn.microsoft.com/7b57b378-bdb3-4dbe-9174-1e19601d8ece">FWP_IP_VERSION</a> enumeration.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552435(v=vs.85)">FWP_IP_VERSION</a> enumeration.
 
 
 ### -field localV4Address
@@ -141,7 +141,7 @@ The application identifier associated with the endpoint.
 
 
 Endpoints enumerated by calling 
-    <a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a> are defined by
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a> are defined by
     FWPS_ALE_ENDPOINT_PROPERTIES0 structures.
 
 
@@ -152,11 +152,11 @@ Endpoints enumerated by calling
 
 
 
-<a href="https://msdn.microsoft.com/7b57b378-bdb3-4dbe-9174-1e19601d8ece">FWP_IP_VERSION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552435(v=vs.85)">FWP_IP_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
  
 
  

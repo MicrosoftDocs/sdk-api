@@ -51,7 +51,7 @@ req.redist:
 Retrieves the current compression state of a file or directory on a volume whose file system supports 
     per-stream compression.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -153,17 +153,17 @@ The LZNT1 compression algorithm is the only compression algorithm implemented.
 
 COMPRESSION_FORMAT_DEFAULT is not a compression state so it is not included in the table under the 
     <i>lpOutBuffer</i> parameter. This value is only used with the 
-    <a href="https://msdn.microsoft.com/e6fb29ed-f4f4-4507-8312-d771ffb00256">FSCTL_SET_COMPRESSION</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_compression">FSCTL_SET_COMPRESSION</a> control code.
 
 If the file system of the volume containing the specified file or directory does not support per-file or 
     per-directory compression, the operation fails.
 
 You can set the compression state of a file or directory by using the 
-    <a href="https://msdn.microsoft.com/e6fb29ed-f4f4-4507-8312-d771ffb00256">FSCTL_SET_COMPRESSION</a> control code. You can also 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_compression">FSCTL_SET_COMPRESSION</a> control code. You can also 
     compress or uncompress a file using this control code.
 
 You can retrieve the compression attribute of a file or directory by calling the 
-    <a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a> function. The compression attribute 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function. The compression attribute 
     indicates whether a file or directory is compressed. The compression state indicates whether a file or directory 
     is compressed, and, if it is, the format of the compressed data.
 
@@ -238,23 +238,23 @@ SMB 3.0 Transparent Failover and Scale-Out do not support NTFS compressed files.
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6fb29ed-f4f4-4507-8312-d771ffb00256">FSCTL_SET_COMPRESSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_compression">FSCTL_SET_COMPRESSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/35a9fb47-5a73-479c-8fe0-5a2b07705536">File Compression and Decompression</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
  
 
  

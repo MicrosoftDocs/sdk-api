@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://msdn.microsoft.com/b154ac98-49ed-4d00-8cb6-5e57680e125c">D3D11_RENDER_TARGET_VIEW_DESC</a> structure that contains  the data from the <a href="https://msdn.microsoft.com/28D033EF-3EAC-41F0-A633-D69E4B10343D">CD3D11_RENDER_TARGET_VIEW_DESC</a> instance.
+This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_render_target_view_desc">D3D11_RENDER_TARGET_VIEW_DESC</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a> instance.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ This operator returns the address of a <a href="https://msdn.microsoft.com/b154a
 
 
 
-<a href="https://msdn.microsoft.com/28D033EF-3EAC-41F0-A633-D69E4B10343D">CD3D11_RENDER_TARGET_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param AgentState [in]
 
 
-<a href="https://msdn.microsoft.com/6d63030e-cd47-48db-ab0d-a3c4f3aac733">AGENT_STATE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_state">AGENT_STATE</a>.
 
 
 ## -returns
@@ -130,7 +130,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 The <b>ITAgent::put_State</b> method is a COM wrapper for the TAPI 2.1 
-<a href="https://msdn.microsoft.com/f7da697a-658e-4f0d-8e6c-539fd8fb1935">lineSetAgentStateEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentstateex">lineSetAgentStateEx</a> function.
 
 
 
@@ -140,15 +140,15 @@ The <b>ITAgent::put_State</b> method is a COM wrapper for the TAPI 2.1
 
 
 
-<a href="https://msdn.microsoft.com/6d63030e-cd47-48db-ab0d-a3c4f3aac733">AGENT_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_state">AGENT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://msdn.microsoft.com/6690a62b-65a1-4892-aeee-4a6652939d5f">get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_state">get_State</a>
  
 
  

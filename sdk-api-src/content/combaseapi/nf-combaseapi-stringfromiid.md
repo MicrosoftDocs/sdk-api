@@ -85,7 +85,7 @@ This function can return the standard return values E_OUTOFMEMORY and S_OK.
 
 
 
-The caller is responsible for freeing the memory allocated for the string by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function. 
+The caller is responsible for freeing the memory allocated for the string by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. 
 
 
 
@@ -96,7 +96,7 @@ The caller is responsible for freeing the memory allocated for the string by cal
 
 
 
-<a href="https://msdn.microsoft.com/7fa72a65-68f8-438e-8a0c-6e0e0208420d">IIDFromString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a>
  
 
  

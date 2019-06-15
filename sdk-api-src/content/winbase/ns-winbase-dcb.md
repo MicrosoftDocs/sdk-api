@@ -296,7 +296,7 @@ Enables the DTR line when the device is opened and leaves it on.
 </td>
 <td width="60%">
 Enables DTR handshaking. If handshaking is enabled, it is an error for the application to adjust the line 
-        by using the <a href="https://msdn.microsoft.com/27c4ebdf-1c06-4a60-8e49-dcccba10789c">EscapeCommFunction</a> function.
+        by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
 
 </td>
 </tr>
@@ -389,7 +389,7 @@ Enables the RTS line when the device is opened and leaves it on.
 Enables RTS handshaking. The driver raises the RTS line when the "type-ahead" (input) buffer is less than 
         one-half full and lowers the RTS line when the buffer is more than three-quarters full. If handshaking is 
         enabled, it is an error for the application to adjust the line by using the 
-        <a href="https://msdn.microsoft.com/27c4ebdf-1c06-4a60-8e49-dcccba10789c">EscapeCommFunction</a> function.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
 
 </td>
 </tr>
@@ -414,7 +414,7 @@ Specifies that the RTS line will be high if bytes are available for transmission
 If this member is <b>TRUE</b>, the driver terminates all read and write operations with 
       an error status if an error occurs. The driver will not accept any further communications operations until the 
       application has acknowledged the error by calling the 
-      <a href="https://msdn.microsoft.com/9cc52104-aa5e-4baa-86f1-8c6dcdd661ef">ClearCommError</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a> function.
 
 
 ### -field fDummy2
@@ -615,23 +615,23 @@ When a <b>DCB</b> structure is used to configure the 8250, the
 
 
 
-<a href="https://msdn.microsoft.com/6ecd497d-2247-4b6b-8751-c107717de434">BuildCommDCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/9cc52104-aa5e-4baa-86f1-8c6dcdd661ef">ClearCommError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
 
 
 
-<a href="https://msdn.microsoft.com/27c4ebdf-1c06-4a60-8e49-dcccba10789c">EscapeCommFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/974c2ddc-9f7f-445e-ac47-8cd86817ce9b">GetCommState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommstate">GetCommState</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9296514-4789-4830-ba68-84a16ac7fc47">SetCommState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
  
 
  

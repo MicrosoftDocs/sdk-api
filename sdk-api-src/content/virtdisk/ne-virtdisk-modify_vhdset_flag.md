@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Mt414216(v=VS.85).aspx">ModifyVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-modifyvhdset">ModifyVhdSet</a> function.
 
 
 ## -enum-fields

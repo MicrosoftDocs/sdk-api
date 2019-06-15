@@ -54,7 +54,7 @@ Allows you to create Unicode font fallback mappings and create a font fall back 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFallbackBuilder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontFallbackBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFallbackBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFallbackBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontFallbackBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FCA3CD9C-9FB3-49BD-B4D1-53AEAAAAEE8A">AddMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontfallbackbuilder-addmapping">AddMapping</a>
 </td>
 <td align="left" width="63%">
 Appends a single mapping to the list. Call this once for each additional mapping.
@@ -78,7 +78,7 @@ Appends a single mapping to the list. Call this once for each additional mapping
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8CC8BFD3-4177-4CA0-A74C-43CCDEAA7D74">AddMappings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-addmappings">AddMappings</a>
 </td>
 <td align="left" width="63%">
 Add all the mappings from an existing font fallback object.
@@ -87,7 +87,7 @@ Add all the mappings from an existing font fallback object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/933CB690-879E-480E-A0C6-179FA84187F5">CreateFontFallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nf-dwrite_2-idwritefontfallbackbuilder-createfontfallback">CreateFontFallback</a>
 </td>
 <td align="left" width="63%">
 Creates the finalized fallback object from the mappings added.

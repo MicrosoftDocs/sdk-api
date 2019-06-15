@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>BeginRead</b> method indicates that a "read from device" action is beginning. Windows Media Device Manager only calls this method if the application calls <a href="https://msdn.microsoft.com/4b102666-b54b-4b60-b2e9-68def384268e">IWMDMStorageControl::Read</a> and passes in this <b>IWMDMOperation</b> interface.
+The <b>BeginRead</b> method indicates that a "read from device" action is beginning. Windows Media Device Manager only calls this method if the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">IWMDMStorageControl::Read</a> and passes in this <b>IWMDMOperation</b> interface.
 
 
 
@@ -117,7 +117,7 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 
 
-This method is called just before the Windows Media Device Manager calls <a href="https://msdn.microsoft.com/ba3f29d9-88cd-4050-aa9f-f9317745a16b">IWMDMOperation::TransferObjectData</a>.
+This method is called just before the Windows Media Device Manager calls <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
 
 
 #### Examples
@@ -152,15 +152,15 @@ HRESULT BeginRead()
 
 
 
-<a href="https://msdn.microsoft.com/ff94191b-a0f2-4118-996c-d040f214fb9b">Handling File Transfers Manually</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://msdn.microsoft.com/7277a8fe-3006-4456-b2e7-6041d3324f35">IWMDMOperation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b35b026-1fc1-44e8-befc-211d3387bc92">IWMDMOperation::BeginWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">IWMDMOperation::BeginWrite</a>
  
 
  

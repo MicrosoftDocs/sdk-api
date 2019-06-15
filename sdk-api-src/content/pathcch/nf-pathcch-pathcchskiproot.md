@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.
 
-This function differs from <a href="https://msdn.microsoft.com/528a3953-26d7-4fff-be31-9c9788d429ab">PathSkipRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathskiproota">PathSkipRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
 

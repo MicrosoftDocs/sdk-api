@@ -85,7 +85,7 @@ Type: <b>HANDLE</b>
 Specifies a handle that the FSP must use to post I/O completion port packets to the fax service for asynchronous line status events. Currently the <b>FaxDevVirtualDeviceCreation</b> function supports only the event that signals an incoming call.
                 
 
-The completion port packet must be a TAPI 2.x <a href="https://msdn.microsoft.com/1d184948-4ba2-4c8c-8771-d1aea6c4f565">LINEMESSAGE</a> structure. The FSP must allocate memory for the structure with <b>LocalAlloc(</b>LPTR, sizeof(LINEMESSAGE)<b>)</b>. The fax service provider must pass the size of the memory allocated (which is sizeof(LINEMESSAGE) in this case) to the <i>dwNumberOfBytesTransferred</i> parameter of the <a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a> method. The fax service frees any memory allocated for the completion packet structure.
+The completion port packet must be a TAPI 2.x <a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage_tag">LINEMESSAGE</a> structure. The FSP must allocate memory for the structure with <b>LocalAlloc(</b>LPTR, sizeof(LINEMESSAGE)<b>)</b>. The fax service provider must pass the size of the memory allocated (which is sizeof(LINEMESSAGE) in this case) to the <i>dwNumberOfBytesTransferred</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> method. The fax service frees any memory allocated for the completion packet structure.
 
 The FSP must set the members of the structure as follows.
 
@@ -96,7 +96,7 @@ The FSP must set the members of the structure as follows.
 </tr>
 <tr>
 <td><b>hDevice</b></td>
-<td>Set to <b>DeviceId</b> from <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<td>Set to <b>DeviceId</b> from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a>
 </td>
 </tr>
 <tr>
@@ -122,14 +122,14 @@ The FSP must set the members of the structure as follows.
 </table>
  
 
-For information about line status events, see <a href="https://msdn.microsoft.com/41e8a777-a57a-4d6c-850f-e21b58081b0d">LINEDEVSTATE_ Constants</a> in the TAPI documentation. For information about I/O completion ports, see <a href="https://msdn.microsoft.com/213c48e8-bb21-43ed-9c00-2a5cf8ac25f0">I/O Completion Ports</a>.
+For information about line status events, see <a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a> in the TAPI documentation. For information about I/O completion ports, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>.
 
 
 ### -param CompletionKey [in]
 
 Type: <b>ULONG_PTR</b>
 
-Specifies a completion key value. The FSP must use this value when the provider posts completion port packets to the fax service. The FSP should pass this opaque value to the <a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a> function.
+Specifies a completion key value. The FSP must use this value when the provider posts completion port packets to the fax service. The FSP should pass this opaque value to the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function.
 
 
 ## -returns
@@ -140,7 +140,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -161,39 +161,39 @@ When an FSP uses physical fax devices, the TAPI and the telephony service provid
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692918(v=VS.85).aspx">Creating a Completion Packet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-a-completion-packet">Creating a Completion Packet</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d184948-4ba2-4c8c-8771-d1aea6c4f565">LINEMESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemessage_tag">LINEMESSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692954(v=VS.85).aspx">Using a Virtual Device to Transmit a Fax</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-a-virtual-device-to-transmit-a-fax">Using a Virtual Device to Transmit a Fax</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-virtual-fax-devices">Virtual Fax Devices</a>
  
 
  

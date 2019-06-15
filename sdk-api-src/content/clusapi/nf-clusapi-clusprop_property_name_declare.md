@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/bb2e904c-2782-45f6-b95d-b1b107fa0060">CLUSPROP_PROPERTY_NAME</a> structure with 
+Creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a> structure with 
     the <b>sz</b> member set to a size determined by the caller.
 
 
@@ -60,7 +60,7 @@ Creates a <a href="https://msdn.microsoft.com/bb2e904c-2782-45f6-b95d-b1b107fa00
 
 ### -param name
 
-Name of the <a href="https://msdn.microsoft.com/bb2e904c-2782-45f6-b95d-b1b107fa0060">CLUSPROP_PROPERTY_NAME</a> 
+Name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a> 
       structure to be created.
 
 
@@ -89,7 +89,7 @@ ClusAPI.h defines
 The following example shows how to use 
      <b>CLUSPROP_PROPERTY_NAME_DECLARE</b>. For 
      another example, see 
-     <a href="https://msdn.microsoft.com/003bc879-d526-4f7d-8f58-a9002f78819d">Creating Physical Disk Resources</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-physical-disk-resources">Creating Physical Disk Resources</a>.
 
 
 ```cpp
@@ -110,7 +110,7 @@ StringCbCopy( PropName.sz, PropName.cbLength, szName );
 
 
 
-<a href="https://msdn.microsoft.com/bb2e904c-2782-45f6-b95d-b1b107fa0060">CLUSPROP_PROPERTY_NAME</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a>
  
 
  

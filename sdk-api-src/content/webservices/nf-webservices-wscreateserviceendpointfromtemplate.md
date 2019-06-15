@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Helper routine for creating a service endpoint (<a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a>) from policy templates.
+Helper routine for creating a service endpoint (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a>) from policy templates.
       
 
 
@@ -63,13 +63,13 @@ Helper routine for creating a service endpoint (<a href="https://msdn.microsoft.
 
 ### -param channelType [in]
 
-A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration value representing the type of channel hosted by the endpoint.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration value representing the type of channel hosted by the endpoint.
         
 
 
 ### -param properties [in]
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dd323421(v=VS.85).aspx">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint_property">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
 
 
 
@@ -88,25 +88,25 @@ The URL address on which the endpoint is  to listen.
 
 ### -param contract [in]
 
-A <a href="https://msdn.microsoft.com/77bd8c1e-0596-44d7-be99-356d052ee6c1">WS_SERVICE_CONTRACT</a> structure representing the contract of the endpoint.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_contract">WS_SERVICE_CONTRACT</a> structure representing the contract of the endpoint.
         
 
 
 ### -param authorizationCallback [in]
 
-A <a href="https://msdn.microsoft.com/0fa127ea-a715-4f21-8b49-3c2705c2bf5d">WS_SERVICE_SECURITY_CALLBACK</a> authorization callback for the service endpoint.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_security_callback">WS_SERVICE_SECURITY_CALLBACK</a> authorization callback for the service endpoint.
         
 
 
 ### -param heap [in]
 
-The <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a> from which memory for the  service endpoint is allocated on successful return.
+The <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which memory for the  service endpoint is allocated on successful return.
         
 
 
 ### -param templateType [in]
 
-A <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
         
 
 
@@ -138,14 +138,14 @@ The size of the template description.
 
 ### -param serviceEndpoint [out]
 
-On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a> structure representing the new service endpoint.
+On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure representing the new service endpoint.
                 
                 
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 
@@ -163,7 +163,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 
 
-<b>WsCreateServiceEndpointFromTemplate</b> creates the <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a> structure from the specified input policy templates and additional user input.
+<b>WsCreateServiceEndpointFromTemplate</b> creates the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structure from the specified input policy templates and additional user input.
       
 
 

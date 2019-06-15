@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The type of the username/password credential, used as a selector for
-subtypes of <a href="https://msdn.microsoft.com/961f8c52-9922-4e43-905a-a22a80aba63b">WS_USERNAME_CREDENTIAL</a>.
+subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_username_credential">WS_USERNAME_CREDENTIAL</a>.
             
 
 
@@ -61,6 +61,6 @@ subtypes of <a href="https://msdn.microsoft.com/961f8c52-9922-4e43-905a-a22a80ab
 
 ### -field WS_STRING_USERNAME_CREDENTIAL_TYPE
 
-Type ID for the username/password credential <a href="https://msdn.microsoft.com/en-us/library/Dd323450(v=VS.85).aspx">WS_STRING_USERNAME_CREDENTIAL</a>.
+Type ID for the username/password credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string_username_credential">WS_STRING_USERNAME_CREDENTIAL</a>.
                 
 

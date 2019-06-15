@@ -110,9 +110,9 @@ Pointer to a caller-allocated variable that receives an opaque handle for the mi
 
 
 
-A user-mode application calls <b>FilterInstanceCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter instance. The returned instance handle can be passed as a parameter to functions such as <a href="https://msdn.microsoft.com/222f5f68-6a1c-420e-a56f-de53b23f6ce6">FilterInstanceGetInformation</a>. 
+A user-mode application calls <b>FilterInstanceCreate</b> to create a handle that can be used to communicate with a kernel-mode minifilter instance. The returned instance handle can be passed as a parameter to functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation">FilterInstanceGetInformation</a>. 
 
-To close an instance handle returned by <b>FilterInstanceCreate</b>, call <a href="https://msdn.microsoft.com/a0605b02-a5eb-4e7f-9659-0f0f538ea153">FilterInstanceClose</a>. 
+To close an instance handle returned by <b>FilterInstanceCreate</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a>. 
 
 
 
@@ -122,11 +122,11 @@ To close an instance handle returned by <b>FilterInstanceCreate</b>, call <a hre
 
 
 
-<a href="https://msdn.microsoft.com/a0605b02-a5eb-4e7f-9659-0f0f538ea153">FilterInstanceClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstanceclose">FilterInstanceClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/222f5f68-6a1c-420e-a56f-de53b23f6ce6">FilterInstanceGetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation">FilterInstanceGetInformation</a>
  
 
  

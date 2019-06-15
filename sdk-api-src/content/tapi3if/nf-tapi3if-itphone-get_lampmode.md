@@ -66,7 +66,7 @@ Lamp identifier.
 ### -param pLampMode [out]
 
 The 
-<a href="https://msdn.microsoft.com/cb971936-269c-4e59-bfc1-a3edc977ceb5">PHONE_LAMP_MODE</a> descriptor for the phone's lamp status.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_lamp_mode">PHONE_LAMP_MODE</a> descriptor for the phone's lamp status.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/0445cf2c-1b00-4136-bdab-3c6e0669ef11">put_LampMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_lampmode">put_LampMode</a>
  
 
  

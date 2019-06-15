@@ -59,14 +59,14 @@ Defines a pointer to an application-defined function in a dynamic-link library (
 
 ### -param *authoringModeObject [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c33793c9-499e-4a57-b52d-345d3b360789">IWebApplicationAuthoringMode</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationauthoringmode">IWebApplicationAuthoringMode</a>*</b>
 
 An object that provides a path to the authoring binary.
 
 
 ### -param *host [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ac0ace8e-3f83-44be-baee-560c5472aa08">IWebApplicationHost</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>*</b>
 
 The WWAHost. 
 
@@ -87,7 +87,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/2F48142B-88D2-49B7-9FAA-5D6BA4DC3837">UnregisterAuthoringClientFunctionType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nc-webapplication-unregisterauthoringclientfunctiontype">UnregisterAuthoringClientFunctionType</a>
  
 
  

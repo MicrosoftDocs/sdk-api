@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Initializes a new instance of <code>XMUINT3</code> from three <code>uint32_t</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a> from three <code>uint32_t</code> arguments.
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a> from three <code>uint32_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -109,11 +109,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449560(v=VS.85).aspx">XMUINT3 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint3-xmuint3(constuint32_t)">XMUINT3 Constructors</a>
  
 
  

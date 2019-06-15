@@ -60,13 +60,13 @@ Gets a collection of metadata, either for an entire presentation, or for one str
 
 ### -param pPresentationDescriptor [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor.
           
 
 
 ### -param dwStreamIdentifier [in]
 
-If this parameter is zero, the method retrieves metadata that applies to the entire presentation. Otherwise, this <i></i> parameter specifies a stream identifier, and the method retrieves metadata for that stream. To get the stream identifier for a stream, call <a href="https://msdn.microsoft.com/d282ee48-6145-4557-8fa7-786b893327fa">IMFStreamDescriptor::GetStreamIdentifier</a>.
+If this parameter is zero, the method retrieves metadata that applies to the entire presentation. Otherwise, this <i></i> parameter specifies a stream identifier, and the method retrieves metadata for that stream. To get the stream identifier for a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamdescriptor-getstreamidentifier">IMFStreamDescriptor::GetStreamIdentifier</a>.
           
 
 
@@ -78,7 +78,7 @@ Reserved. Must be zero.
 
 ### -param ppMFMetadata [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/411658ca-dc5e-445b-8d61-0c0429fcfbb1">IMFMetadata</a> interface. Use this interface to access the metadata. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a> interface. Use this interface to access the metadata. The caller must release the interface.
 
 
 ## -returns
@@ -125,11 +125,11 @@ No metadata is available for the requested stream or presentation.
 
 
 
-<a href="https://msdn.microsoft.com/f32e78c9-a567-448d-947d-d7ea996bba5e">IMFMetadataProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider">IMFMetadataProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9">Media Metadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
  
 
  

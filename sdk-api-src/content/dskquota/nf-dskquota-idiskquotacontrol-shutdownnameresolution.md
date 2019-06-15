@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The SID-to-name resolver translates user security identifiers (SID) to user names. It runs as a background thread. When a quota control object is destroyed, this thread automatically terminates. The final call to the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method terminates the thread. This is normally all that is required. If you finish with the quota control object, but it is not ready to be destroyed (there are other open reference counts), call this method to terminate the background thread before the object is destroyed.
+The SID-to-name resolver translates user security identifiers (SID) to user names. It runs as a background thread. When a quota control object is destroyed, this thread automatically terminates. The final call to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method terminates the thread. This is normally all that is required. If you finish with the quota control object, but it is not ready to be destroyed (there are other open reference counts), call this method to terminate the background thread before the object is destroyed.
 
 
 ## -parameters
@@ -76,19 +76,19 @@ Asynchronous name resolution will also cease after the thread terminates. A subs
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/306120e8-642a-439d-839c-944cb7fd7ee2">IDiskQuotaControl::AddUserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusername">IDiskQuotaControl::AddUserName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a82b36a9-7270-4b4a-b850-67916864c052">IDiskQuotaControl::AddUserSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusersid">IDiskQuotaControl::AddUserSid</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a29e1955-80e2-442d-9565-c885006be565">IDiskQuotaControl::CreateEnumUsers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-createenumusers">IDiskQuotaControl::CreateEnumUsers</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/dae4e2d4-0293-4ee4-9687-9fed4b3a3600">IDiskQuotaControl::FindUserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a6ce8eb3-cfa3-43b4-80ee-6dbef41f99ac">IDiskQuotaControl::FindUserSid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>
 </li>
 </ul>
 
@@ -99,15 +99,15 @@ Asynchronous name resolution will also cease after the thread terminates. A subs
 
 
 
-<a href="https://msdn.microsoft.com/c1f79e2e-834b-41dc-a15f-6dd1034d021b">Disk Management Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/42efbd5b-6455-4319-a76e-cdb666fc36b8">Disk Quotas</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc9add5a-c9ef-462d-8125-128d48018717">IDiskQuotaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
  
 
  

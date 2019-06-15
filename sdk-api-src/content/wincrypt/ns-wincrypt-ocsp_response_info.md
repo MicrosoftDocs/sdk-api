@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OCSP_RESPONSE_INFO</b> structure indicates the success or failure of the corresponding <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) request. For successful requests, it contains the type and value of response information.
+The <b>OCSP_RESPONSE_INFO</b> structure indicates the success or failure of the corresponding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request. For successful requests, it contains the type and value of response information.
 
 
 ## -struct-fields
@@ -182,7 +182,7 @@ The following table lists possible values for <b>pszObjId</b>.
 
 ### -field Value
 
-An array of bytes that contain data encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER), as specified by <b>pszObjId</b>.
+An array of bytes that contain data encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER), as specified by <b>pszObjId</b>.
 
 
 ## -remarks
@@ -199,7 +199,7 @@ OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCOD
 
 
 
-<a href="https://msdn.microsoft.com/4b88a946-030f-490a-b46a-c42507e1268d">OCSP_BASIC_SIGNED_RESPONSE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_signed_response_info">OCSP_BASIC_SIGNED_RESPONSE_INFO</a>
 
 
 

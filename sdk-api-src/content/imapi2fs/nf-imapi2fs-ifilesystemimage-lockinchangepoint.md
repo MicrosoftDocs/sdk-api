@@ -93,7 +93,7 @@ Internal error occurred: <i>%1!ls!</i>.
 
 Once the change point is locked, rollback to earlier change points is not permitted.
 
-Locking the change point does not change the <a href="https://msdn.microsoft.com/e5d15478-e632-4e76-91e2-ee360dfccf19">IFileSystemImage::get_ChangePoint</a> property.
+Locking the change point does not change the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a> property.
 
 
 
@@ -103,15 +103,15 @@ Locking the change point does not change the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/852b88ed-6af7-4fe6-bf5f-831d55423130">IFileSystemImage::RollbackToChangePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-rollbacktochangepoint">IFileSystemImage::RollbackToChangePoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d15478-e632-4e76-91e2-ee360dfccf19">IFileSystemImage::get_ChangePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a>
  
 
  

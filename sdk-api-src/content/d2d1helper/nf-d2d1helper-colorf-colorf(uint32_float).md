@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of the <a href="https://msdn.microsoft.com/36f5cf3e-00a4-45d2-816c-85c18eb948f4">ColorF</a> class that contains the specified RGB and alpha values. 
+Instantiates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a> class that contains the specified RGB and alpha values. 
 
 
 ## -parameters
@@ -76,11 +76,11 @@ The alpha value for the color to be constructed. An alpha channel value ranges f
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f5cf3e-00a4-45d2-816c-85c18eb948f4">ColorF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a>
  
 
  

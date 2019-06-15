@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Handles status changes to an <a href="https://msdn.microsoft.com/BD7DAD23-2A7D-4EE7-9BCF-8380F928674D">animation manager</a>.
+Handles status changes to an <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">animation manager</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The previous status of the animation manager.
 
 
 
-If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -90,15 +90,15 @@ Calls made to other Windows Animation methods from <b>IUIAnimationManager2::OnMa
 
 
 
-<a href="https://msdn.microsoft.com/E989CED1-C6B7-4086-944E-924836AA7ECB">IUIAnimationManager2::GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-getstatus">IUIAnimationManager2::GetStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/3D3DAC6C-6904-4962-BB17-18FA97678834">IUIAnimationManagerEventHandler2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler2">IUIAnimationManagerEventHandler2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd317043(v=VS.85).aspx">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0000_0002">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

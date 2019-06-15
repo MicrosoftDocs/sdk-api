@@ -59,19 +59,19 @@ Retrieves the physical monitors associated with a Direct3D device.
 
 ### -param pDirect3DDevice9 [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a> interface of the Direct3D device.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a> interface of the Direct3D device.
           
 
 
 ### -param dwPhysicalMonitorArraySize [in]
 
-Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="https://msdn.microsoft.com/1cb0f035-a429-4355-89b8-d8bcd89cb037">GetNumberOfPhysicalMonitorsFromIDirect3DDevice9</a>.
+Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromidirect3ddevice9">GetNumberOfPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
 ### -param pPhysicalMonitorArray [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd692967(v=VS.85).aspx">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-_physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
           
 
 
@@ -91,7 +91,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 A single Direct3D device can be associated with more than one physical monitor. This function returns a handle and a text description for each physical monitor.
       
 
-When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="https://msdn.microsoft.com/ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf">DestroyPhysicalMonitors</a> function.
+When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-destroyphysicalmonitors">DestroyPhysicalMonitors</a> function.
       
 
 
@@ -102,7 +102,7 @@ When you are done using the monitor handles, close them by passing the <i>pPhysi
 
 
 
-<a href="https://msdn.microsoft.com/e9a00792-f471-47a4-93d7-25400e27f13f">Monitor Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
  
 
  

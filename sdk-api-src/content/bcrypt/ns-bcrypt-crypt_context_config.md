@@ -108,15 +108,15 @@ Indicates that this entry in the enterprise-wide configuration table should take
 
 
 
-<a href="https://msdn.microsoft.com/7989fefc-64fe-4ab3-9a48-7992edac171f">BCryptConfigureContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontext">BCryptConfigureContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/68f71010-0089-4433-bc89-f61f190e0bff">BCryptCreateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatecontext">BCryptCreateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e2ae471-cad6-4bfe-9e30-7b2a7014bc08">BCryptQueryContextConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptquerycontextconfiguration">BCryptQueryContextConfiguration</a>
  
 
  

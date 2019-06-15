@@ -211,7 +211,7 @@ The connection is using multilink
 </td>
 <td width="60%">
 Protocol Field Compression (see 
-<a href="https://msdn.microsoft.com/ee52dde3-e87d-437f-8321-77d771d715ec">RFC 1172</a>)
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-request-for-comments">RFC 1172</a>)
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ Protocol Field Compression (see
 </td>
 <td width="60%">
 Address and Control Field Compression (see 
-<a href="https://msdn.microsoft.com/ee52dde3-e87d-437f-8321-77d771d715ec">RFC 1172</a>)
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-request-for-comments">RFC 1172</a>)
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Address and Control Field Compression (see
 </td>
 <td width="60%">
 Short Sequence Number Header Format (see 
-<a href="https://msdn.microsoft.com/ee52dde3-e87d-437f-8321-77d771d715ec">RFC 1990</a>)
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-request-for-comments">RFC 1990</a>)
 
 </td>
 </tr>
@@ -289,7 +289,7 @@ The connection is using multilink.
 </td>
 <td width="60%">
 Protocol Field Compression (see 
-<a href="https://msdn.microsoft.com/ee52dde3-e87d-437f-8321-77d771d715ec">RFC 1172</a>)
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-request-for-comments">RFC 1172</a>)
 
 </td>
 </tr>
@@ -300,7 +300,7 @@ Protocol Field Compression (see
 </td>
 <td width="60%">
 Address and Control Field Compression (see 
-<a href="https://msdn.microsoft.com/ee52dde3-e87d-437f-8321-77d771d715ec">RFC 1172</a>)
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-request-for-comments">RFC 1172</a>)
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ Address and Control Field Compression (see
 </td>
 <td width="60%">
 Short Sequence Number Header Format (see 
-<a href="https://msdn.microsoft.com/ee52dde3-e87d-437f-8321-77d771d715ec">RFC 1990</a>)
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-request-for-comments">RFC 1990</a>)
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Specifies the type identifier of the Extensible Authentication Protocol (EAP) us
 
 
 
-<a href="https://msdn.microsoft.com/d50493c4-8a18-4cab-8973-a752f3f7f6c2">PPP_CCP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_ccp_info">PPP_CCP_INFO</a>
  
 
  

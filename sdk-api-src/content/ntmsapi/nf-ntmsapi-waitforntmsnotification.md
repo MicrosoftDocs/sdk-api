@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>WaitForNtmsNotification</b> function waits for the next object change notification.
@@ -63,13 +63,13 @@ The
 ### -param hNotification [in]
 
 Notification handle returned by the 
-<a href="https://msdn.microsoft.com/a5b6ab4a-ab4c-4c84-877f-824dc9ac19a7">OpenNtmsNotification</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a> function.
 
 
 ### -param lpNotificationInformation [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d9c6904b-260d-4598-9575-49c7d7b6e66d">NTMS_NOTIFICATIONINFORMATION</a> structure that receives the notification information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a> structure that receives the notification information.
 
 
 ### -param dwTimeout [in]
@@ -165,19 +165,19 @@ The function was successfully executed.
 
 
 
-<a href="https://msdn.microsoft.com/30aa06af-70d4-45c0-b624-575dcf867efb">CloseNtmsNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Notification Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9c6904b-260d-4598-9575-49c7d7b6e66d">NTMS_NOTIFICATIONINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-_ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5b6ab4a-ab4c-4c84-877f-824dc9ac19a7">OpenNtmsNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a>
  
 
  

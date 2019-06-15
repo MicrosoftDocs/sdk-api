@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
-Wraps the <a href="https://msdn.microsoft.com/a3d708fe-53af-4f1b-94ac-edc40d59a034">IPropertyStorage::ReadMultiple</a> function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
+Wraps the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">IPropertyStorage::ReadMultiple</a> function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Wraps the <a href="https://msdn.microsoft.com/a3d708fe-53af-4f1b-94ac-edc40d59a0
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>*</b>
 
-An <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface pointer that identifies the property store.
+An <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface pointer that identifies the property store.
 
 
 ### -param uCodePage
@@ -89,9 +89,9 @@ An array of properties to be read.
 
 ### -param rgvar [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>[]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>[]</b>
 
-An array of <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> types that, when this function returns successfully, receives the property values.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> types that, when this function returns successfully, receives the property values.
 
 
 ## -returns

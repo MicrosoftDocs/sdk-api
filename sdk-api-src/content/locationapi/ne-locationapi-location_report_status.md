@@ -72,7 +72,7 @@ There was an error when creating the report, or location providers for the reque
 
 ### -field REPORT_ACCESS_DENIED
 
- No permissions have been granted to access this report type. Call <a href="https://msdn.microsoft.com/eef60203-8705-4f68-be30-c9e7938e5596">ILocation::RequestPermissions</a>.
+ No permissions have been granted to access this report type. Call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">ILocation::RequestPermissions</a>.
 
 
 ### -field REPORT_INITIALIZING
@@ -89,12 +89,12 @@ The report is running. New location data for the requested report type is availa
 
 
 
-These values represent status for new reports. The most recent reports remain available through <a href="https://msdn.microsoft.com/69d0fed5-7f02-4d74-bdbd-3a0fd85e76ed">ILocation::GetReport</a>, regardless of the reported status. If the status is <b>REPORT_RUNNING</b>, the data in a report is new. Otherwise, <b>ILocation::GetReport</b> provides cached data if cached data is available.
+These values represent status for new reports. The most recent reports remain available through <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the reported status. If the status is <b>REPORT_RUNNING</b>, the data in a report is new. Otherwise, <b>ILocation::GetReport</b> provides cached data if cached data is available.
 
 
 #### Examples
 
-The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_STATUS</b> values from <a href="https://msdn.microsoft.com/9b7c72cc-fa09-44b2-97be-f200fab7b31d">ILocation::GetReportStatus</a>.
+The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_STATUS</b> values from <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">ILocation::GetReportStatus</a>.
 
 
 ```cpp
@@ -133,7 +133,7 @@ The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_S
 ```
 
 
-The following code is a sample implementation of the callback function <a href="https://msdn.microsoft.com/d13d8b72-3188-479f-a70c-52b1a9435b80">ILocationEvents::OnStatusChanged</a>.  This implementation prints out messages when there is a  change in the status of latitude/longitude reports.
+The following code is a sample implementation of the callback function <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">ILocationEvents::OnStatusChanged</a>.  This implementation prints out messages when there is a  change in the status of latitude/longitude reports.
 
 
 ```cpp

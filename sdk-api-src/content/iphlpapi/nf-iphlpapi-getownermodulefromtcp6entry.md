@@ -59,19 +59,19 @@ The <b>GetOwnerModuleFromTcp6Entry</b> function retrieves data about the module 
 
 ### -param pTcpEntry [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/24f2041c-0a8c-4f2c-8585-ebbb0cad394f">MIB_TCP6ROW_OWNER_MODULE</a> structure that contains the IPv6 TCP endpoint entry used to obtain the owner module.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a> structure that contains the IPv6 TCP endpoint entry used to obtain the owner module.
 
 
 ### -param Class [in]
 
-A <a href="https://msdn.microsoft.com/8529dd62-8516-47d0-8118-95e6d33fc799">TCPIP_OWNER_MODULE_INFO_CLASS</a> enumeration value that indicates the type of data to obtain regarding the owner module. The <b>TCPIP_OWNER_MODULE_INFO_CLASS</b> enumeration is defined in the <i>Iprtrmib.h</i> header file.
+A <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcpip_owner_module_info_class">TCPIP_OWNER_MODULE_INFO_CLASS</a> enumeration value that indicates the type of data to obtain regarding the owner module. The <b>TCPIP_OWNER_MODULE_INFO_CLASS</b> enumeration is defined in the <i>Iprtrmib.h</i> header file.
 
  This parameter must be set to <b>TCPIP_OWNER_MODULE_INFO_BASIC</b>.
 
 
 ### -param pBuffer [out]
 
-A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure with the owner module data. The type of data returned in this buffer is indicated by the value of the <i>Class</i> parameter.
+A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure with the owner module data. The type of data returned in this buffer is indicated by the value of the <i>Class</i> parameter.
 
 The following structures are used for the data in <i>Buffer</i> when  <i>Class</i> is set to the corresponding value.
 
@@ -83,7 +83,7 @@ The following structures are used for the data in <i>Buffer</i> when  <i>Class</
 <tr>
 <td>TCPIP_OWNER_MODULE_BASIC_INFO</td>
 <td>
-<a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a>
 </td>
 </tr>
 </table>
@@ -150,7 +150,7 @@ Not enough memory is available to complete the operation.
 </dl>
 </td>
 <td width="60%">
-The element was not found. This value is returned if the  <b>dwOwningPid</b> member of the <a href="https://msdn.microsoft.com/24f2041c-0a8c-4f2c-8585-ebbb0cad394f">MIB_TCP6ROW_OWNER_MODULE</a> pointed to by the <i>pTcpEntry</i> parameter was zero or could not be found. 
+The element was not found. This value is returned if the  <b>dwOwningPid</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a> pointed to by the <i>pTcpEntry</i> parameter was zero or could not be found. 
 
 </td>
 </tr>
@@ -177,11 +177,11 @@ Only part of a request was completed.
 
 The <i>Buffer</i> parameter contains not only a structure with pointers to specific data,  for example, pointers to the zero-terminated strings that contain the name and path of the owner module, but the actual data itself; that is the name and path strings. Therefore, when calculating the size of the buffer, ensure that you have enough space for both the structure as well as the data the members of the structure point to.
 
-The resolution of TCP table entries to owner modules is a best practice. In a few cases, the owner module name returned in the <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure can be a process name (such as "svchost.exe"), a service name (such as "RPC"), or a component name (such as "timer.dll").
+The resolution of TCP table entries to owner modules is a best practice. In a few cases, the owner module name returned in the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure can be a process name (such as "svchost.exe"), a service name (such as "RPC"), or a component name (such as "timer.dll").
 
-For computers running on Windows Vista or later, the <b>pModuleName</b> and <b>pModulePath</b> members of the <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> retrieved by  <a href="https://msdn.microsoft.com/12162f0a-56c1-4f81-a1f5-3cd5ad975d0d">GetOwnerModuleFromTcpEntry</a> function may point to an empty string for some TCP connections. Applications that start TCP connections located in the Windows system folder (C:\Windows\System32, by default) are considered protected. If the <b>GetOwnerModuleFromTcpEntry</b> function is called by a user that is not a member of the Administrators group, the function call will succeed but the <b>pModuleName</b> and <b>pModulePath</b> members will point to memory that contains an empty string for the TCP connections started by protected applications. 
+For computers running on Windows Vista or later, the <b>pModuleName</b> and <b>pModulePath</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> retrieved by  <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getownermodulefromtcpentry">GetOwnerModuleFromTcpEntry</a> function may point to an empty string for some TCP connections. Applications that start TCP connections located in the Windows system folder (C:\Windows\System32, by default) are considered protected. If the <b>GetOwnerModuleFromTcpEntry</b> function is called by a user that is not a member of the Administrators group, the function call will succeed but the <b>pModuleName</b> and <b>pModulePath</b> members will point to memory that contains an empty string for the TCP connections started by protected applications. 
 
-For computers running on Windows Vista or later, accessing the <b>pModuleName</b> and <b>pModulePath</b> members of the <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure is limited  by user account control (UAC). If an application that calls this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will succeed but access to these members returns an empty string unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application on Windows Vista or later lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for access to the protected <b>pModuleName</b> and <b>pModulePath</b> members to be allowed. 
+For computers running on Windows Vista or later, accessing the <b>pModuleName</b> and <b>pModulePath</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure is limited  by user account control (UAC). If an application that calls this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will succeed but access to these members returns an empty string unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application on Windows Vista or later lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for access to the protected <b>pModuleName</b> and <b>pModulePath</b> members to be allowed. 
 
 
 
@@ -191,11 +191,11 @@ For computers running on Windows Vista or later, accessing the <b>pModuleName</
 
 
 
-<a href="https://msdn.microsoft.com/24f2041c-0a8c-4f2c-8585-ebbb0cad394f">MIB_TCP6ROW_OWNER_MODULE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6row_owner_module">MIB_TCP6ROW_OWNER_MODULE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8529dd62-8516-47d0-8118-95e6d33fc799">TCPIP_OWNER_MODULE_INFO_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcpip_owner_module_info_class">TCPIP_OWNER_MODULE_INFO_CLASS</a>
  
 
  

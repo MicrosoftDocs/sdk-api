@@ -105,7 +105,7 @@ If there are fewer elements left in the sequence than the requested number of el
 
 
 
-<a href="https://msdn.microsoft.com/c4238fbe-762a-492f-9eb5-d927e64436e1">IEnumProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
  
 
  

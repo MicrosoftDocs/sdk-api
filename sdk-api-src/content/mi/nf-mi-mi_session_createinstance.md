@@ -59,17 +59,17 @@ Creates an instance on the server that the session represents.
 
 ### -param session [in]
 
-Session handle returned from <a href="https://msdn.microsoft.com/76010766-aa20-4632-940d-48d9769803da">MI_Application_NewSession</a>.
+Session handle returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>.
 
 
 ### -param flags
 
-Runtime type information (RTTI) <a href="https://msdn.microsoft.com/24E82AC6-A2E3-4EC6-931F-26AC54D5CAA7">flags</a>.
+Runtime type information (RTTI) <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a>.
 
 
 ### -param options [in, optional]
 
-Optional <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
+Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> value that specifies options such as timeouts and how to control the CIM semantics. Specify <b>Null</b> if no operation options are to be sent.
 
 
 ### -param namespaceName
@@ -80,17 +80,17 @@ A null-terminated string that contains the optional namespace name to carry out 
 ### -param inboundInstance [in]
 
 
-<a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> that represents the class name and keys of the instance to be created on the server along with the rest of the properties of the instance that destination instance will be set to.  Sometimes keys are read-only, so not all keys need to be specified. If the instance that is specified already exists, the function will fail; to update an existing instance, use the <a href="https://msdn.microsoft.com/4a01ac01-5d47-47ff-a331-6009a5c57204">MI_Session_ModifyInstance</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> that represents the class name and keys of the instance to be created on the server along with the rest of the properties of the instance that destination instance will be set to.  Sometimes keys are read-only, so not all keys need to be specified. If the instance that is specified already exists, the function will fail; to update an existing instance, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_modifyinstance">MI_Session_ModifyInstance</a> function.
 
 
 ### -param callbacks [in, optional]
 
-Optional <a href="https://msdn.microsoft.com/f56954bf-c1aa-408b-bc45-0faf2a99b381">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. To do asynchronously, this value must be specified. If NULL is specified, the client must call the <a href="https://msdn.microsoft.com/25c2d3fa-276d-4506-a044-4057c8cdc863">MI_Operation_GetInstance</a> function to retrieve the results.
+Optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationcallbacks">MI_OperationCallbacks</a> structure that defines the operational callbacks to receive the instance result and CIM semantics. To do asynchronously, this value must be specified. If NULL is specified, the client must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a> function to retrieve the results.
 
 
 ### -param operation [out]
 
-Operation handle that must be closed with a call to <a href="https://msdn.microsoft.com/3e698e34-d537-4ea4-9345-cc4f493ff823">MI_Operation_Close</a> once the operation is finished and all results have been received. The handle can be used to cancel the operation with a call to <a href="https://msdn.microsoft.com/11a9f9f6-9dfa-4f7c-9562-f4793c007f04">MI_Operation_Cancel</a>.
+Operation handle that must be closed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> once the operation is finished and all results have been received. The handle can be used to cancel the operation with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>.
 
 
 ## -see-also
@@ -98,19 +98,19 @@ Operation handle that must be closed with a call to <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/11a9f9f6-9dfa-4f7c-9562-f4793c007f04">MI_Operation_Cancel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e698e34-d537-4ea4-9345-cc4f493ff823">MI_Operation_Close</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>
 
 
 
-<a href="https://msdn.microsoft.com/25c2d3fa-276d-4506-a044-4057c8cdc863">MI_Operation_GetInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a01ac01-5d47-47ff-a331-6009a5c57204">MI_Session_ModifyInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_session_modifyinstance">MI_Session_ModifyInstance</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALL_MEDIA_EVENT</b> enum describes call media events. The 
-<a href="https://msdn.microsoft.com/3dd6210f-e904-46c5-8fc3-50a62b8754ed">ITCallMediaEvent::get_Event</a> method returns a member of this enum to indicate the type of call media event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_event">ITCallMediaEvent::get_Event</a> method returns a member of this enum to indicate the type of call media event that occurred.
 
 
 ## -enum-fields
@@ -108,11 +108,11 @@ Due to latency, stream events may continue for a few seconds after a stream or r
 
 
 
-<a href="https://msdn.microsoft.com/3dd6210f-e904-46c5-8fc3-50a62b8754ed">ITCallMediaEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_event">ITCallMediaEvent::get_Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

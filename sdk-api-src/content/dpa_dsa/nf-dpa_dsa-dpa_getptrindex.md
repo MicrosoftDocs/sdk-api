@@ -88,7 +88,7 @@ The index of the item pointed to by <i>pvoid</i>, if found; otherwise, -1.
 
 
 
-<b>DPA_GetPtrIndex</b> is not exported by name. To use it, you must use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> and request ordinal 333 from ComCtl32.dll to obtain a function pointer.
+<b>DPA_GetPtrIndex</b> is not exported by name. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 333 from ComCtl32.dll to obtain a function pointer.
 
 
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 Not supported.
 
 
-<div class="alert"><b>Note</b>  Earlier versions of this documentation described the <b>_MFT_DRAIN_TYPE</b> enumeration incorrectly. The enumeration is not supported. For more information, see <a href="https://msdn.microsoft.com/55b0aa32-53af-4f19-9d99-9885c1e28588">MFT_MESSAGE_TYPE</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  Earlier versions of this documentation described the <b>_MFT_DRAIN_TYPE</b> enumeration incorrectly. The enumeration is not supported. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_message_type">MFT_MESSAGE_TYPE</a>.</div><div> </div>
 
 ## -enum-fields
 
@@ -77,7 +77,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

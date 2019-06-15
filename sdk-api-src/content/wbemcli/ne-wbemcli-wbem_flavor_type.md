@@ -126,11 +126,11 @@ The qualifier is not required in the basic class definition and can be moved to 
 
 
 
-<a href="https://msdn.microsoft.com/ad602440-dc19-45cf-bf10-a30f514e00bb">IWbemQualifierSet::Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-put">IWbemQualifierSet::Put</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a0769ac-e16c-45e1-92b6-26e4969bf23d">Qualifier Flavors</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
  
 
  

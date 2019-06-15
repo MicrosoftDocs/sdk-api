@@ -54,7 +54,7 @@ The
 
 The 
 <b>RDITEMHDR</b> structure is used by the 
-<a href="https://msdn.microsoft.com/78f0648b-1d1b-4786-89fa-ef51b7743a2d">RDCOMPARE</a> structure to specify the type and cookie value of a scope or result item.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcompare">RDCOMPARE</a> structure to specify the type and cookie value of a scope or result item.
 
 
 ## -struct-fields
@@ -82,10 +82,10 @@ Reserved for future use.
 
 
 If the snap-in implements the 
-<a href="https://msdn.microsoft.com/e4b305e4-4649-42f4-86f4-3c12e5aa5337">IResultDataCompareEx</a> interface, MMC allocates an 
-<a href="https://msdn.microsoft.com/78f0648b-1d1b-4786-89fa-ef51b7743a2d">RDCOMPARE</a> structure and two 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC allocates an 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcompare">RDCOMPARE</a> structure and two 
 <b>RDITEMHDR</b> structures and then calls the snap-ins 
-<a href="https://msdn.microsoft.com/0e3a8094-0d09-4a9c-8211-a0eb6a89ad55">IResultDataCompareEx::Compare</a> method. After the method returns, MMC releases the three structures it allocated.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method. After the method returns, MMC releases the three structures it allocated.
 
 
 
@@ -95,11 +95,11 @@ If the snap-in implements the
 
 
 
-<a href="https://msdn.microsoft.com/0e3a8094-0d09-4a9c-8211-a0eb6a89ad55">IResultDataCompareEx::Compare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a>
 
 
 
-<a href="https://msdn.microsoft.com/78f0648b-1d1b-4786-89fa-ef51b7743a2d">RDCOMPARE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcompare">RDCOMPARE</a>
  
 
  

@@ -91,7 +91,7 @@ The log was successfully truncated.
 </dl>
 </td>
 <td width="60%">
-<i>lsnFirstToKeep</i> is outside the current limits of the log. See <a href="https://msdn.microsoft.com/06238436-6807-4588-9af9-03eb4c12f4e1">ILog::GetLogLimits</a>.
+<i>lsnFirstToKeep</i> is outside the current limits of the log. See <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-getloglimits">ILog::GetLogLimits</a>.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The log was successfully truncated.
 
 
 
-This request is only a hint to the log implementation. The log is free to ignore the request, or to retain more than was strictly requested. Many <a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a> implementations will follow this latter option.
+This request is only a hint to the log implementation. The log is free to ignore the request, or to retain more than was strictly requested. Many <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a> implementations will follow this latter option.
 
 
 
@@ -115,7 +115,7 @@ This request is only a hint to the log implementation. The log is free to ignore
 
 
 
-<a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
  
 
  

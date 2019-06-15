@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a call request made by a previous call to <a href="https://msdn.microsoft.com/51db5bf7-debc-4a76-ba55-283fb30ba3ae">tapiRequestMediaCall</a>.
+Closes a call request made by a previous call to <a href="https://docs.microsoft.com/windows/desktop/Tapi/tapirequestmediacall">tapiRequestMediaCall</a>.
 <div class="alert"><b>Note</b>  The tapiRequestDrop function is nonfunctional and obsolete for all classes of Windows-based applications. It should not be used.</div><div> </div>
 
 ## -parameters
@@ -81,11 +81,11 @@ The function is obsolete and will always return an error code.
 
 
 
-<a href="https://msdn.microsoft.com/43ca86b0-0107-4937-b15a-47916e144527">Assisted Telephony Services Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/assisted-telephony-services-reference">Assisted Telephony Services Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

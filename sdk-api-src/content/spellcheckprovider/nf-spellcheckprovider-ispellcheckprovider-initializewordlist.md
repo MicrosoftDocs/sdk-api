@@ -64,7 +64,7 @@ The type of word list.
 
 ### -param words [in]
 
-The set of words to be included in the word list, passed as an <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> object..
+The set of words to be included in the word list, passed as an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> object..
 
 
 ## -returns
@@ -96,7 +96,7 @@ Successful.
 </dl>
 </td>
 <td width="60%">
-<i>wordlistType</i> is not a valid member of the <a href="https://msdn.microsoft.com/F1D517F3-CAE3-46DC-867E-D8D73C20CF9A">WORDLIST_TYPE</a> enumeration.
+<i>wordlistType</i> is not a valid member of the <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/ne-spellcheck-wordlist_type">WORDLIST_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Successful.
 
 
 
-This method is called by the system (for example, when the client calls <a href="https://msdn.microsoft.com/d600a57e-7191-4a82-8004-026a04ef94ed">ISpellChecker::Add</a>), which passes the words from the respective word list to the provider so that it can consider the word list when spell checking.
+This method is called by the system (for example, when the client calls <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker::Add</a>), which passes the words from the respective word list to the provider so that it can consider the word list when spell checking.
 
 
 
@@ -120,19 +120,19 @@ This method is called by the system (for example, when the client calls <a href=
 
 
 
-<a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
 
 
 
-<a href="https://msdn.microsoft.com/D7C8831E-6FCE-45E0-B2EB-4EB2B1F7911F">ISpellCheckProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/d600a57e-7191-4a82-8004-026a04ef94ed">ISpellChecker::Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/F1D517F3-CAE3-46DC-867E-D8D73C20CF9A">WORDLIST_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/ne-spellcheck-wordlist_type">WORDLIST_TYPE</a>
  
 
  

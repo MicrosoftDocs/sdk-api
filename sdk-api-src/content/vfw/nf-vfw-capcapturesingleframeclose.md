@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capCaptureSingleFrameClose</b> macro closes the capture file opened by the <a href="https://msdn.microsoft.com/980ba1ef-d86a-47f6-9876-84b5a099d14d">capCaptureSingleFrameOpen</a> macro. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/fde5f34b-0781-49a2-a509-64192a1d9ec0">WM_CAP_SINGLE_FRAME_CLOSE</a> message.
+The <b>capCaptureSingleFrameClose</b> macro closes the capture file opened by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesingleframeopen">capCaptureSingleFrameOpen</a> macro. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-single-frame-close">WM_CAP_SINGLE_FRAME_CLOSE</a> message.
 
 
 
@@ -69,7 +69,7 @@ Handle to a capture window.
 
 
 
-For information about installing callback functions, see the <a href="https://msdn.microsoft.com/1f9d3dba-be6d-4f7d-a80c-5bca8632e13f">capSetCallbackOnError</a> and <a href="https://msdn.microsoft.com/7e9e33cb-9213-4111-a1de-700493949f2d">capSetCallbackOnFrame</a> macros.
+For information about installing callback functions, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macros.
 
 
 
@@ -79,11 +79,11 @@ For information about installing callback functions, see the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

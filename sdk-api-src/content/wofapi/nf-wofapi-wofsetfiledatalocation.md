@@ -59,7 +59,7 @@ Used to change a file from being backed by a physical file to one backed by a sy
 
 ### -param FileHandle [in]
 
-A handle to a file opened with <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or a similar API. 
+A handle to a file opened with <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> or a similar API. 
 
 
 ### -param Provider [in]
@@ -89,13 +89,13 @@ Provides data specific to the specified provider. Data structures for each defin
 <tr>
 <td>WOF_PROVIDER_WIM</td>
 <td>
-<a href="https://msdn.microsoft.com/BB40922B-C9D3-451C-B2D1-1740105C4BAB">WIM_EXTERNAL_FILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-_wim_external_file_info">WIM_EXTERNAL_FILE_INFO</a>
 </td>
 </tr>
 <tr>
 <td>WOF_PROVIDER_FILE</td>
 <td>
-<a href="https://msdn.microsoft.com/84FC5525-43BC-436C-AADC-C58882D48C1F">WOF_FILE_COMPRESSION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-_wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO</a>
 </td>
 </tr>
 </table>
@@ -142,7 +142,7 @@ When using WOF_PROVIDER_FILE, the operation may fail with ERROR_COMPRESSION_NOT_
 
 
 
-<a href="https://msdn.microsoft.com/5CB9FD4D-AF29-4438-B0B5-49871102968A">FSCTL_SET_EXTERNAL_BACKING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-external-backing">FSCTL_SET_EXTERNAL_BACKING</a>
  
 
  

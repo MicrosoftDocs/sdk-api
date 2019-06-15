@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_SMIME_CAPABILITIES</b> structure contains a prioritized array of supported capabilities. Capabilities include signature algorithms, <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric algorithms</a>, key enciphering algorithms, and non-algorithm capabilities, which are the preference for <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">signed data</a> and the preference for unencrypted messages.
+The <b>CRYPT_SMIME_CAPABILITIES</b> structure contains a prioritized array of supported capabilities. Capabilities include signature algorithms, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric algorithms</a>, key enciphering algorithms, and non-algorithm capabilities, which are the preference for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signed data</a> and the preference for unencrypted messages.
 <div class="alert"><b>Note</b>  The <b>CRYPT_SMIME_CAPABILITIES</b> are part of an Internet draft proposal. For a complete definition, see "draft-dusse-s/mime-cert-01.txt" dated May 5, 1997.</div><div> </div>
 
 ## -struct-fields
@@ -65,7 +65,7 @@ Count of elements in the <b>rgCapability</b> array.
 ### -field rgCapability
 
 Prioritized array of pointers to 
-<a href="https://msdn.microsoft.com/c7d1e04f-d2b9-4bab-88f4-8a528c527e7c">CRYPT_SMIME_CAPABILITY</a> structures each indicating a capability or preference of a user.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smime_capability">CRYPT_SMIME_CAPABILITY</a> structures each indicating a capability or preference of a user.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ Prioritized array of pointers to
 
 
 
-<a href="https://msdn.microsoft.com/c7d1e04f-d2b9-4bab-88f4-8a528c527e7c">CRYPT_SMIME_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smime_capability">CRYPT_SMIME_CAPABILITY</a>
  
 
  

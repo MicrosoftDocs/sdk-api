@@ -63,7 +63,7 @@ Retrieves the window rectangle, in pixels, within which ink is drawn.
 
 ### -param WindowInputRectangle [out]
 
-Gets the rectangle, of type <a href="https://msdn.microsoft.com/78e6c29c-0f43-46a5-9d30-948de5f369c8">InkRectangle</a>, on which ink is drawn.
+Gets the rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a>, on which ink is drawn.
 
 
 ## -returns
@@ -135,7 +135,7 @@ You must first allocate the rectangle before passing it on to this method.
 
 By default, the window input rectangle is set to {0,0,0,0}. This default rectangle maps to the size of the entire window.
 
-If you call <b>GetWindowInputRectangle</b> before you call the <a href="https://msdn.microsoft.com/3602a550-d37b-4a78-b949-04f5e3cb923a">SetWindowInputRectangle</a> method, this method gets a rectangle with the default coordinates.
+If you call <b>GetWindowInputRectangle</b> before you call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle">SetWindowInputRectangle</a> method, this method gets a rectangle with the default coordinates.
 
 
 
@@ -149,11 +149,11 @@ If you call <b>GetWindowInputRectangle</b> before you call the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
 
 
 
-<a href="https://msdn.microsoft.com/3602a550-d37b-4a78-b949-04f5e3cb923a">SetWindowInputRectangle Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle">SetWindowInputRectangle Method</a>
  
 
  

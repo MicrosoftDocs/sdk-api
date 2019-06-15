@@ -60,17 +60,17 @@ Indicates whether information was obtained for the local, remote, or original co
 
 ### -param pbLocalInfo [out]
 
-Receives <b>TRUE</b> if information was obtained for the local copy of the item during synchronization, or <b>FALSE</b> otherwise.  If <b>TRUE</b>, <a href="https://msdn.microsoft.com/53e03524-9cb6-4b91-8b2a-bf428a16140e">GetLocalInfo</a> can be called to retrieve the information.
+Receives <b>TRUE</b> if information was obtained for the local copy of the item during synchronization, or <b>FALSE</b> otherwise.  If <b>TRUE</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncerrorinfo-getlocalinfo">GetLocalInfo</a> can be called to retrieve the information.
 
 
 ### -param pbRemoteInfo [out]
 
-Receives <b>TRUE</b> if information was obtained for the remote copy of the item during synchronization, or <b>FALSE</b> otherwise.   If <b>TRUE</b>, <a href="https://msdn.microsoft.com/8b036680-b74c-485f-adae-88e59fc5e84c">GetRemoteInfo</a> can be called to retrieve the information.
+Receives <b>TRUE</b> if information was obtained for the remote copy of the item during synchronization, or <b>FALSE</b> otherwise.   If <b>TRUE</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncerrorinfo-getremoteinfo">GetRemoteInfo</a> can be called to retrieve the information.
 
 
 ### -param pbOriginalInfo [out]
 
-Receives <b>TRUE</b> if information was obtained for the original copy of the item during synchronization, or <b>FALSE</b> otherwise.  If <b>TRUE</b>, <a href="https://msdn.microsoft.com/1cf3a21c-5ae1-475c-9eb7-2d520ee2ce79">GetOriginalInfo</a> can be called to retrieve the information.
+Receives <b>TRUE</b> if information was obtained for the original copy of the item during synchronization, or <b>FALSE</b> otherwise.  If <b>TRUE</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncerrorinfo-getoriginalinfo">GetOriginalInfo</a> can be called to retrieve the information.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncerrorinfo">IOfflineFilesSyncErrorInfo</a>
  
 
  

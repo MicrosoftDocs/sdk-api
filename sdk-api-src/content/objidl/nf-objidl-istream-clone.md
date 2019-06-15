@@ -60,7 +60,7 @@ The <b>Clone</b> method creates a new stream object with its own seek pointer th
 ### -param ppstm [out]
 
 When successful, pointer to the location of an 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> pointer to the new stream object. If an error occurs, this parameter is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the new stream object. If an error occurs, this parameter is <b>NULL</b>.
 
 
 ## -returns
@@ -88,11 +88,11 @@ The initial setting of the seek pointer in the cloned stream instance is the sam
 
 
 
-<a href="https://msdn.microsoft.com/52474e37-0e14-4dcc-8e04-4442cfd26eb3">IStream - Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bcd7da6-8bd5-4ab7-952f-f0a12e87f2d4">IStream::CopyTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-copyto">IStream::CopyTo</a>
  
 
  

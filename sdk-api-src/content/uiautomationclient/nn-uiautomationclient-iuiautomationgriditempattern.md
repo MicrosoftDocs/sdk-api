@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to a child control in a grid-style container that supports the <a href="https://msdn.microsoft.com/36a4893e-5f49-413c-a29a-e58291c7d057">IUIAutomationGridPattern</a> interface.
+Provides access to a child control in a grid-style container that supports the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgridpattern">IUIAutomationGridPattern</a> interface.
 
 
 ## -see-also
@@ -57,7 +57,7 @@ Provides access to a child control in a grid-style container that supports the <
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

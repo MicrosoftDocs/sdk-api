@@ -62,12 +62,12 @@ Converts a Media Foundation audio media type to a <b>WAVEFORMATEX</b> structure.
 
 ### -param pMFType
 
-Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type.
 
 
 ### -param ppWF
 
-Receives a pointer to the <b>WAVEFORMATEX</b> structure. The caller must release the memory allocated for the structure by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to the <b>WAVEFORMATEX</b> structure. The caller must release the memory allocated for the structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -param pcbSize
@@ -77,7 +77,7 @@ Receives the size of the <b>WAVEFORMATEX</b> structure.
 
 ### -param Flags
 
-Contains a flag from the <a href="https://msdn.microsoft.com/cd4a54f3-58e5-4e39-8615-e5037972c9c4">MFWaveFormatExConvertFlags</a> enumeration.
+Contains a flag from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mfwaveformatexconvertflags">MFWaveFormatExConvertFlags</a> enumeration.
 
 
 ## -returns
@@ -122,15 +122,15 @@ If the <b>wFormatTag</b> member of the returned structure is <b>WAVE_FORMAT_EXTE
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6aee18b8-79b1-47fb-816f-d1c2c77b3a03">Media Type Conversions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-conversions">Media Type Conversions</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

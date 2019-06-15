@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761775(v=VS.85).aspx">DTM_SETMCFONT</a> message. 
+Sets the font to be used by the date and time picker (DTP) control's child month calendar control. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setmcfont">DTM_SETMCFONT</a> message. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the font to be used by the date and time picker (DTP) control's child month
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control. 
 
 
 ### -param hfont
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HFONT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HFONT</a></b>
 
 A handle to the font that will be set. 
 

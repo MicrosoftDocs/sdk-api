@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AUTHZ_SECURITY_ATTRIBUTE_OPERATION</b> enumeration indicates the type of modification to be made to security attributes by a call to the <a href="https://msdn.microsoft.com/d84873e2-ecfe-45cf-9048-7ed173117efa">AuthzModifySecurityAttributes</a> function.
+The <b>AUTHZ_SECURITY_ATTRIBUTE_OPERATION</b> enumeration indicates the type of modification to be made to security attributes by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a> function.
 
 
 ## -enum-fields
@@ -68,14 +68,14 @@ Delete all existing security attributes and their values in the token and replac
 
 If no new attributes are specified, all existing attributes and values are deleted.
 
-This operation must be the only operation specified and can be specified only once in a single call to <a href="https://msdn.microsoft.com/d84873e2-ecfe-45cf-9048-7ed173117efa">AuthzModifySecurityAttributes</a>. If the operation is not specified as the first in the list of operations, the call to <b>AuthzModifySecurityAttributes</b> fails. If the operation is specified as the first in the array of operations performed, the rest of the operations are ignored.
+This operation must be the only operation specified and can be specified only once in a single call to <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>. If the operation is not specified as the first in the list of operations, the call to <b>AuthzModifySecurityAttributes</b> fails. If the operation is specified as the first in the array of operations performed, the rest of the operations are ignored.
 
 
 ### -field AUTHZ_SECURITY_ATTRIBUTE_OPERATION_ADD
 
 Add a new attribute or a new value to an existing attribute.
 
-If the value specified for any attribute already exists for that attribute, the call to <a href="https://msdn.microsoft.com/d84873e2-ecfe-45cf-9048-7ed173117efa">AuthzModifySecurityAttributes</a> fails.
+If the value specified for any attribute already exists for that attribute, the call to <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a> fails.
 
 
 ### -field AUTHZ_SECURITY_ATTRIBUTE_OPERATION_DELETE
@@ -84,7 +84,7 @@ Delete the specified values of the specified attributes. If an attribute is spec
 
 If this operation results in an attribute that does not contain any values, that attribute is deleted.
 
-If a value is specified that does not match an existing attribute, no modifications are performed and the call to <a href="https://msdn.microsoft.com/d84873e2-ecfe-45cf-9048-7ed173117efa">AuthzModifySecurityAttributes</a> fails.
+If a value is specified that does not match an existing attribute, no modifications are performed and the call to <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a> fails.
 
 
 ### -field AUTHZ_SECURITY_ATTRIBUTE_OPERATION_REPLACE
@@ -101,7 +101,7 @@ When no value is specified for an attribute, that attribute is deleted. Otherwis
 
 
 
-<a href="https://msdn.microsoft.com/d84873e2-ecfe-45cf-9048-7ed173117efa">AuthzModifySecurityAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
  
 
  

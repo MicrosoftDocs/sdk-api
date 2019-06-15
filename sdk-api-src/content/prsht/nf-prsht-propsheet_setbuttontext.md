@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774609(v=VS.85).aspx">PSM_SETBUTTONTEXT</a> message explicitly.
+Sets the text of a button in an Aero wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setbuttontext">PSM_SETBUTTONTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the text of a button in an Aero wizard. You can use this macro or send the 
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
 
 ### -param dwButton
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One of the following values specifying the button whose text is set.
 
@@ -121,7 +121,7 @@ One of the following values specifying the button whose text is set.
 
 ### -param lpszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The text to set.
 

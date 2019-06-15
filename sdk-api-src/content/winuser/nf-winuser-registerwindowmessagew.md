@@ -84,7 +84,7 @@ Type: <strong>Type: <b>UINT</b>
 
 If the message is successfully registered, the return value is a message identifier in the range 0xC000 through 0xFFFF.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -97,12 +97,12 @@ The <b>RegisterWindowMessage</b> function is typically used to register messages
 
 If two different applications register the same message string, the applications return the same message value. The message remains registered until the session ends. 
 
-Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
+Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646829(v=VS.85).aspx">Finding Text</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-common-dialog-boxes">Finding Text</a>.
 
 <div class="code"></div>
 
@@ -117,11 +117,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646829(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
 
 
 
@@ -129,7 +129,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646829(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
  
 
  

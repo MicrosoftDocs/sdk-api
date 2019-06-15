@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The FD_GLYPHATTR structure is used to specify the return value for the <a href="https://msdn.microsoft.com/6a619922-5ab6-4169-8b41-e645e9d7fe93">FONTOBJ_pQueryGlyphAttrs</a> and <a href="https://msdn.microsoft.com/cfc42384-581c-4358-84a9-91028c89bbd8">DrvQueryGlyphAttrs</a> functions.
+The FD_GLYPHATTR structure is used to specify the return value for the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nc-winddi-pfn_drvqueryglyphattrs">DrvQueryGlyphAttrs</a> functions.
 
 
 ## -struct-fields

@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Enables a client application to implement custom performance logging.
 
-Applications obtain access to this object using the <a href="https://msdn.microsoft.com/611ABFB6-851F-4A2C-86A0-E26732CD20BE">IRDPSRAPIPerfCounterLoggingManager</a><b>::</b><a href="https://msdn.microsoft.com/24C57AE8-208B-4254-B5B1-8AB77E2D4044">CreateLogger</a> method.
+Applications obtain access to this object using the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterloggingmanager">IRDPSRAPIPerfCounterLoggingManager</a><b>::</b><a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiperfcounterloggingmanager-createlogger">CreateLogger</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIPerfCounterLogger</b> class inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRDPSRAPIPerfCounterLogger</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIPerfCounterLogger</b> class inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIPerfCounterLogger</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IRDPSRAPIPerfCounterLogger</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B6EF608E-5AA9-4AB7-920D-F6E567E1258C">LogValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiperfcounterlogger-logvalue">LogValue</a>
 </td>
 <td align="left" width="63%">
 Logs a value.
@@ -86,7 +86,7 @@ Logs a value.
 
 
 
-<a href="https://msdn.microsoft.com/bb1df622-bfcd-4d84-b5f6-780b693cc760">Windows Desktop Sharing Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-interfaces">Windows Desktop Sharing Interfaces</a>
  
 
  

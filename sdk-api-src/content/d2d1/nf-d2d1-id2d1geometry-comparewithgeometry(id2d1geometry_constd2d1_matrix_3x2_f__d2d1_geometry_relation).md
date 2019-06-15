@@ -59,21 +59,21 @@ Describes the intersection between this geometry and the specified geometry. The
 
 ### -param inputGeometry [in]
 
-Type: <b><a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>*</b>
 
 The geometry to test.
 
 
 ### -param inputGeometryTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform to apply to <i>inputGeometry</i>.
 
 
 ### -param relation [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6c7290c8-9363-414b-af2c-0f2a79da99f9">D2D1_GEOMETRY_RELATION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>*</b>
 
 When this method returns, <i>relation</i> contains a pointer to a value that describes how this geometry is related to <i>inputGeometry</i>. You must allocate storage for this parameter.  
 
@@ -82,7 +82,7 @@ When this method returns, <i>relation</i> contains a pointer to a value that des
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -93,9 +93,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When interpreting the returned <i>relation</i> value, it is important to remember that the member <a href="https://msdn.microsoft.com/6c7290c8-9363-414b-af2c-0f2a79da99f9">D2D1_GEOMETRY_RELATION_IS_CONTAINED</a> of the  <b>D2D1_GEOMETRY_RELATION</b> enumeration type means that this geometry is contained  inside <i>inputGeometry</i>, not that this geometry contains <i>inputGeometry</i>. 
+When interpreting the returned <i>relation</i> value, it is important to remember that the member <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION_IS_CONTAINED</a> of the  <b>D2D1_GEOMETRY_RELATION</b> enumeration type means that this geometry is contained  inside <i>inputGeometry</i>, not that this geometry contains <i>inputGeometry</i>. 
 
-For  more information about how to interpret other possible return values, see <a href="https://msdn.microsoft.com/6c7290c8-9363-414b-af2c-0f2a79da99f9">D2D1_GEOMETRY_RELATION</a>.
+For  more information about how to interpret other possible return values, see <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_geometry_relation">D2D1_GEOMETRY_RELATION</a>.
 
 
 
@@ -105,7 +105,7 @@ For  more information about how to interpret other possible return values, see <
 
 
 
-<a href="https://msdn.microsoft.com/be4ab801-64f6-48f9-8f62-d0492cc438b1">ID2D1Geometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
  
 
  

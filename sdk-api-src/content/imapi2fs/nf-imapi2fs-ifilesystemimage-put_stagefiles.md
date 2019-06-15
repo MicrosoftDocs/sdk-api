@@ -116,11 +116,11 @@ However, in order to avoid buffer underrun problems during burning, a certain mi
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/7146ad88-071a-4df9-80f9-46e24b49286b">IFileSystemImage::get_StageFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_stagefiles">IFileSystemImage::get_StageFiles</a>
  
 
  

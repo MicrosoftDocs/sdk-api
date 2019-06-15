@@ -54,7 +54,7 @@ Exposes methods that refers to a source from which pixels are retrieved, but can
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapSource</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICBitmapSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICBitmapSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e45ca4a-2d14-4829-9542-9cfc3e4b0d73">CopyPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypalette">CopyPalette</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color table for indexed pixel formats.
@@ -78,7 +78,7 @@ Retrieves the color table for indexed pixel formats.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c">CopyPixels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>
 </td>
 <td align="left" width="63%">
 Instructs the object to produce pixels.
@@ -87,7 +87,7 @@ Instructs the object to produce pixels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fd30a38-a447-4e4e-93ea-e31c5ba1271e">GetPixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getpixelformat">GetPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pixel format of the bitmap source.. 
@@ -96,7 +96,7 @@ Retrieves the pixel format of the bitmap source..
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49241ed1-1036-4f88-9116-4727de883b3e">GetResolution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getresolution">GetResolution</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sampling rate between pixels and physical world measurements.
@@ -105,7 +105,7 @@ Retrieves the sampling rate between pixels and physical world measurements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fba35fd-288c-4095-83b8-d2320dc5916c">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pixel width and height of the bitmap.
@@ -121,7 +121,7 @@ Retrieves the pixel width and height of the bitmap.
 
 This interface provides a common way of accessing and linking together bitmaps, decoders, format converters, and scalers. Components that implement this interface can be connected together in a graph to pull imaging data through.
 
-This interface defines only the notion of readability or being able to produce pixels. Modifying or writing to a bitmap is considered to be a specialization specific to bitmaps which have storage and is defined in the descendant interface <a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a>.
+This interface defines only the notion of readability or being able to produce pixels. Modifying or writing to a bitmap is considered to be a specialization specific to bitmaps which have storage and is defined in the descendant interface <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
 
 
 
@@ -131,7 +131,7 @@ This interface defines only the notion of readability or being able to produce p
 
 
 
-<a href="https://msdn.microsoft.com/15dcc80d-ef58-453d-a57a-348ffc7ddc6b">IWICBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
  
 
  

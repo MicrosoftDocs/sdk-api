@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetMarker</b> method returns the name and time of a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a>.
+The <b>GetMarker</b> method returns the name and time of a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">marker</a>.
 
 
 
@@ -172,31 +172,31 @@ The writer does not support markers, and returns E_NOTIMPL when this method is c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798516(v=VS.85).aspx">IWMHeaderInfo::AddMarker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addmarker">IWMHeaderInfo::AddMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798522(v=VS.85).aspx">IWMHeaderInfo::GetMarkerCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount">IWMHeaderInfo::GetMarkerCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798525(v=VS.85).aspx">IWMHeaderInfo::RemoveMarker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removemarker">IWMHeaderInfo::RemoveMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba9bc93e-76a9-4a49-951f-c38dbcceef8c">Markers</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/markers">Markers</a>
  
 
  

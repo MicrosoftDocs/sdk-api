@@ -65,9 +65,9 @@ ms.custom: 19H1
 
 The 
 <b>IWbemServices::CancelAsyncCall</b> method cancels any currently pending asynchronous calls based on the 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> pointer, which was  originally passed to the asynchronous method. The outstanding 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> pointer, which was  originally passed to the asynchronous method. The outstanding 
 <b>IWbemObjectSink</b> pointer can be released prior to the call or after the call returns. The 
-<b>CancelAsyncCall</b> method is not operational from within a sink and is not supported by method providers. This means only the client end of the call is canceled. The implementing provider is not notified that the call was canceled and runs to completion. You should consider this before canceling methods that take a long time to complete, such as the <a href="https://msdn.microsoft.com/f4782327-0cc6-447e-bc27-7b2042075fb0">Defrag</a> and <a href="https://msdn.microsoft.com/b8c325d7-3d78-4989-8209-2dad359ca9bb">Format</a> methods in the <a href="https://msdn.microsoft.com/71991c97-0e9a-4a0e-a6d6-ee8df263c23d">Win32_Volume</a> class.
+<b>CancelAsyncCall</b> method is not operational from within a sink and is not supported by method providers. This means only the client end of the call is canceled. The implementing provider is not notified that the call was canceled and runs to completion. You should consider this before canceling methods that take a long time to complete, such as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/vdswmi/defrag-method-in-class-win32-volume">Defrag</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/vdswmi/format-method-in-class-win32-volume">Format</a> methods in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa394515(v=vs.85)">Win32_Volume</a> class.
 
 
 ## -parameters
@@ -78,8 +78,8 @@ The
 ### -param pSink [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> implementation provided by the client to any of the asynchronous methods of 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> implementation provided by the client to any of the asynchronous methods of 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>.
 
 
 ## -returns
@@ -88,19 +88,19 @@ Pointer to the
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain available information from the COM function <a href="https://msdn.microsoft.com/03317526-8c4f-4173-bc10-110c8112676a">GetErrorInfo</a>.
+On failure, you can obtain available information from the COM function <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 COM-specific error codes can also be returned if network problems cause you to lose the remote connection to Windows Management.
 
 <div class="alert"><b>Note</b>  If 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> has not been called on the application's sink by the time WMI processes 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> has not been called on the application's sink by the time WMI processes 
 <b>CancelAsyncCall</b>, WMI calls 
 <b>SetStatus</b> on that sink with <b>WBEM_E_CALL_CANCELLED</b> as the value for the <i>hResult</i> parameter.</div>
 <div> </div>
 Timing, and the nature of an asynchronous operation, can affect whether WMI is able to cancel the operation. Only lengthy queries are likely to be successfully canceled before they have completed. Faster operations, such as asynchronous deletions or modifications, typically complete before WMI can process a 
 <b>CancelAsyncCall</b> call. So while 
 <b>CancelAsyncCall</b> attempts to cancel the current operation, sometimes all that can be done is to release the 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> pointer.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> pointer.
 
 <div class="alert"><b>Note</b>  It is possible to make numerous asynchronous calls using the same object sink. In this case, the 
 <b>CancelAsyncCall</b> method cancels all asynchronous calls sharing this object sink. It is strongly recommended that you create one instance of an object sink for each  outstanding asynchronous call.</div>
@@ -112,17 +112,17 @@ Timing, and the nature of an asynchronous operation, can affect whether WMI is a
 
 
 
-Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>. Calling <b>CancelAsyncCall</b> from within an implementation of <a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">IWbemObjectSink::SetStatus</a> can interfere with the WMI state and is not recommended.
+Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>. Calling <b>CancelAsyncCall</b> from within an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> can interfere with the WMI state and is not recommended.
 
-In the case of a method call such as <a href="https://msdn.microsoft.com/61966c03-80dc-4556-b2fc-97e879cf458c">ExecMethodAsync</a>, only the client end of the call is canceled. The implementing provider is not  notified that the call was canceled and  runs to completion.
+In the case of a method call such as <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">ExecMethodAsync</a>, only the client end of the call is canceled. The implementing provider is not  notified that the call was canceled and  runs to completion.
 
-For more information on how to use asynchronous calls, see <a href="https://msdn.microsoft.com/5179969f-bc7d-4408-84ef-7b003950a59f">Making an Asynchronous Call with C++</a> and <a href="https://msdn.microsoft.com/69ec8ead-9073-4689-bc66-5134728ab147">Receiving Asynchronous Event Notifications</a>
+For more information on how to use asynchronous calls, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-an-asynchronous-call-with-c--">Making an Asynchronous Call with C++</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/receiving-asynchronous-event-notifications">Receiving Asynchronous Event Notifications</a>
 
 
 
 #### Examples
 
-For a full example that uses <b>CancelAsyncCall</b>, see <a href="https://msdn.microsoft.com/4d581965-e22a-4205-908c-661eeeec88cf">Example: Receiving Event Notifications Through WMI</a>
+For a full example that uses <b>CancelAsyncCall</b>, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/example--receiving-event-notifications-through-wmi-">Example: Receiving Event Notifications Through WMI</a>
 
 
 <div class="code"></div>
@@ -149,11 +149,11 @@ HRESULT CProvider_IWbemServices :: CancelAsyncCall (
 
 
 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
  
 
  

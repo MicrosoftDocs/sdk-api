@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPTCATATTRIBUTE</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTCATATTRIBUTE</b> structure defines a catalog attribute. This structure is used by the <a href="https://msdn.microsoft.com/064e87db-4330-4b8b-9865-ba8b9714f6e4">CryptCATEnumerateAttr</a> and <a href="https://msdn.microsoft.com/57b6ff5c-e47e-41ac-8ec8-01a47ea77acf">CryptCATEnumerateCatAttr</a> functions.
+The <b>CRYPTCATATTRIBUTE</b> structure defines a catalog attribute. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumeratecatattr">CryptCATEnumerateCatAttr</a> functions.
 
 
 ## -struct-fields
@@ -179,11 +179,11 @@ Reserved; do not use.
 
 
 
-<a href="https://msdn.microsoft.com/064e87db-4330-4b8b-9865-ba8b9714f6e4">CryptCATEnumerateAttr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a>
 
 
 
-<a href="https://msdn.microsoft.com/57b6ff5c-e47e-41ac-8ec8-01a47ea77acf">CryptCATEnumerateCatAttr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumeratecatattr">CryptCATEnumerateCatAttr</a>
  
 
  

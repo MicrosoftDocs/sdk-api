@@ -82,7 +82,7 @@ If the signal status does not change by the time that the time-out interval expi
 
 Each call to <b>TriggerSignalEvents</b> enables the event to be raised only one time. To raise the event multiple times in response to a series of signal-status changes requires a succession of calls to <b>TriggerSignalEvents</b>.
 
-Multiple event sink objects can wait for the tuner to raise an event that occurs when the signal status changes. For more information, see <a href="https://msdn.microsoft.com/90d4fbc7-d552-460b-96b2-77e2347af716">IBroadcastEvent Interface</a>.
+Multiple event sink objects can wait for the tuner to raise an event that occurs when the signal status changes. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>.
 
 
 
@@ -92,7 +92,7 @@ Multiple event sink objects can wait for the tuner to raise an event that occurs
 
 
 
-<a href="https://msdn.microsoft.com/1bc965a5-6bc9-488a-a2f9-f35d0cfbcccd">ITuner Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
  
 
  

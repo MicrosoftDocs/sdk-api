@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data. The 
-<a href="https://msdn.microsoft.com/a14ba43e-d16d-4c52-a8ac-0d4c71229b7b">GetPrivateProfileStruct</a> function uses the checksum to ensure the integrity of the data.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestruct">GetPrivateProfileStruct</a> function uses the checksum to ensure the integrity of the data.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
@@ -94,7 +94,7 @@ If the file was created using Unicode characters, the function writes Unicode ch
 If the function successfully copies the string to the initialization file, the return value is nonzero.
 
 If the function fails, or if it flushes the cached version of the most recently accessed initialization file, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -113,10 +113,10 @@ key=string
       .
       .</code></pre>
 If the <i>szFile</i> parameter does not contain a full path and file name for the file, 
-<a href="https://msdn.microsoft.com/f0799092-c6c1-4800-a17a-fcf744b1228f">WritePrivateProfileString</a> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
 
 If <i>szFile</i> contains a full path and file name and the file does not exist, 
-<a href="https://msdn.microsoft.com/d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5">WriteProfileString</a> creates the file. The specified directory must already exist.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a> creates the file. The specified directory must already exist.
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
@@ -159,11 +159,11 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
-<a href="https://msdn.microsoft.com/684bae93-3cd8-49a4-8f16-9316df41d6f2">GetPrivateProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5">WriteProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
  
 
  

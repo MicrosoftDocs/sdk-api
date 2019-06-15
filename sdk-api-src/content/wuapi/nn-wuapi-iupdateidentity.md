@@ -66,7 +66,7 @@ You can create an instance of this interface by using the UpdateIdentity coclass
 
 
 
-<a href="https://msdn.microsoft.com/e34019e4-54f4-486d-b5e7-5e65f65d1941">IUpdate.Identity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_identity">IUpdate.Identity</a>
  
 
  

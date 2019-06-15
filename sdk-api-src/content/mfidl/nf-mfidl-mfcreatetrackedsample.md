@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/4ad4b14c-94af-4314-8a16-163579dec67f">IMFTrackedSample</a> object that tracks the reference counts on a video media sample.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample">IMFTrackedSample</a> object that tracks the reference counts on a video media sample.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an <a href="https://msdn.microsoft.com/4ad4b14c-94af-4314-8a16-163579dec
 
 ### -param ppMFSample [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/4ad4b14c-94af-4314-8a16-163579dec67f">IMFTrackedSample</a> interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample">IMFTrackedSample</a> interface.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/4ad4b14c-94af-4314
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

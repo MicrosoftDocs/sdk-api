@@ -69,13 +69,13 @@ Class identifier (CLSID) of the DMO.
 
 ### -param guidCategory
 
-GUID that specifies the category of the DMO. See <a href="https://msdn.microsoft.com/d67debd0-8ecb-41ab-bc6c-b27cba97c65a">DMO GUIDs</a> for a list of category GUIDs.
+GUID that specifies the category of the DMO. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-guids">DMO GUIDs</a> for a list of category GUIDs.
           
 
 
 ### -param dwFlags
 
-Bitwise combination of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd375513(v=VS.85).aspx">DMO_REGISTER_FLAGS</a> enumeration.
+Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ne-dmoreg-dmo_register_flags">DMO_REGISTER_FLAGS</a> enumeration.
 
           
 
@@ -87,7 +87,7 @@ Number of input media types to register. Can be zero.
 
 ### -param pInTypes
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures that specify the input media types. The size of the array is specified in the cInTypes parameter
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures that specify the input media types. The size of the array is specified in the cInTypes parameter
           
 
 
@@ -155,10 +155,10 @@ Success
 
 
 
-This function adds information about a DMO to the registry. Applications or software components can use this information to locate the DMOs they need to use, by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd375487(v=VS.85).aspx">DMOEnum</a> function. For example, to encode a video stream, you would search in the DMOCATEGORY_VIDEO_ENCODER category for a DMO whose media types matched your requirements.
+This function adds information about a DMO to the registry. Applications or software components can use this information to locate the DMOs they need to use, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/nf-dmoreg-dmoenum">DMOEnum</a> function. For example, to encode a video stream, you would search in the DMOCATEGORY_VIDEO_ENCODER category for a DMO whose media types matched your requirements.
         
 
-The media types registered by this function are only for the purpose of finding the DMO. They do not necessarily match the types returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd406952(v=VS.85).aspx">IMediaObject::GetInputType</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd406956(v=VS.85).aspx">IMediaObject::GetOutputType</a> methods. For example, a decoder might register just its main input types. After the DMO is created and its input type has been set, its <b>GetOutputType</b> method will return all of the decompressed types it can generate.
+The media types registered by this function are only for the purpose of finding the DMO. They do not necessarily match the types returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputtype">IMediaObject::GetInputType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputtype">IMediaObject::GetOutputType</a> methods. For example, a decoder might register just its main input types. After the DMO is created and its input type has been set, its <b>GetOutputType</b> method will return all of the decompressed types it can generate.
         
 
 
@@ -169,7 +169,7 @@ The media types registered by this function are only for the purpose of finding 
 
 
 
-<a href="https://msdn.microsoft.com/0a380dc0-23f0-4ef0-898a-3b5afddf5eaa">DMO Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>
  
 
  

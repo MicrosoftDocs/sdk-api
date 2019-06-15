@@ -77,8 +77,8 @@ The method returns the following return codes:
 
 
 Use this method to test the SMTP server specified in the 
-    <a href="https://msdn.microsoft.com/3d16e478-6e53-44d4-85ca-a4c508d138de">SmtpServer</a> property. The sender is specified in 
-    the <a href="https://msdn.microsoft.com/62296c6c-d75b-4669-a665-a0c4321218b6">MailFrom</a> property (cannot be set to 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_smtpserver">SmtpServer</a> property. The sender is specified in 
+    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_mailfrom">MailFrom</a> property (cannot be set to 
     "[Admin Email]").
 
 The subject and message body are predefined, localized text.
@@ -172,11 +172,11 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/0c27393a-9a84-4147-a7e0-582c0bf2d918">FsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
 
 
 
-<a href="https://msdn.microsoft.com/432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b">IFsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
  
 
  

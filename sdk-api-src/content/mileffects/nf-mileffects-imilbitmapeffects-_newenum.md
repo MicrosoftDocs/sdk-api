@@ -59,7 +59,7 @@ Retrieves a new enumeration.
 
 ### -param ppiuReturn [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 A pointer that receives a pointer to the new enumeration item.
 

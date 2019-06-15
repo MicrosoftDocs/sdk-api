@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/746bd660-17b6-4669-8f23-254f5d7dde82">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
 
 Opens the store and returns a lock.
 
@@ -63,7 +63,7 @@ Opens the store and returns a lock.
 
 Type: <b>DWORD</b>
 
-The storage instantiation mode specified by one of the <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM</a> values.
+The storage instantiation mode specified by one of the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> values.
 
 
 ### -param pdwLock [out]
@@ -79,7 +79,7 @@ A pointer to a variable of type <b>DWORD</b> that receives the lock.
 
 Type: <b>HRESULT</b>
 
-If the process is successful, the method returns the result of <a href="https://msdn.microsoft.com/5ff18dc8-b24f-42bb-8c32-efc4d3696687">StgOpenStorage</a>. Otherwise, it returns one of the following values:
+If the process is successful, the method returns the result of <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>. Otherwise, it returns one of the following values:
 
 <table>
 <tr>

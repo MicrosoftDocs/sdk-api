@@ -54,7 +54,7 @@ The <b>IUIFramework</b> interface is implemented by the Windows Ribbon framework
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIFramework</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIFramework</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIFramework</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIFramework</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIFramework</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371368(v=VS.85).aspx">Destroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
 Terminates and releases all objects, hooks, and references for an instance of the Ribbon framework. 
@@ -79,7 +79,7 @@ Terminates and releases all objects, hooks, and references for an instance of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371369(v=VS.85).aspx">FlushPendingInvalidations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-flushpendinginvalidations">FlushPendingInvalidations</a>
 </td>
 <td align="left" width="63%">
 Processes all pending Command updates.
@@ -89,7 +89,7 @@ Processes all pending Command updates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371370(v=VS.85).aspx">GetUICommandProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty">GetUICommandProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a command property, value, or state.
@@ -99,18 +99,18 @@ Retrieves a command property, value, or state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371371(v=VS.85).aspx">GetView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getview">GetView</a>
 </td>
 <td align="left" width="63%">
-Retrieves the address of a pointer to an interface that represents a Ribbon framework View, such as <a href="https://msdn.microsoft.com/en-us/library/Dd371360(v=VS.85).aspx">IUIRibbon</a> 
-			or <a href="https://msdn.microsoft.com/en-us/library/Dd371482(v=VS.85).aspx">IUIContextualUI</a>.
+Retrieves the address of a pointer to an interface that represents a Ribbon framework View, such as <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
+			or <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Connects the host application to the Ribbon framework.
@@ -120,7 +120,7 @@ Connects the host application to the Ribbon framework.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">InvalidateUICommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">InvalidateUICommand</a>
 </td>
 <td align="left" width="63%">
 Invalidates a Ribbon framework Command property, value, or state. 
@@ -130,7 +130,7 @@ Invalidates a Ribbon framework Command property, value, or state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">LoadUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">LoadUI</a>
 </td>
 <td align="left" width="63%">
 Loads the Ribbon framework UI resource, or compiled markup, file.
@@ -140,7 +140,7 @@ Loads the Ribbon framework UI resource, or compiled markup, file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371476(v=VS.85).aspx">SetModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes">SetModes</a>
 </td>
 <td align="left" width="63%">
 Specifies the application modes to enable. 
@@ -150,7 +150,7 @@ Specifies the application modes to enable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371478(v=VS.85).aspx">SetUICommandProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty">SetUICommandProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a command property, value, or state.
@@ -168,7 +168,7 @@ Sets a command property, value, or state.
 This interface is used to initialize and dismantle the Ribbon framework.
 
 Ribbon framework UI functionality is differentiated by Views, which are essentially 
-				built-in core controls, such as the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371654(v=VS.85).aspx">ContextPopup</a>.
+				built-in core controls, such as the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
 To get an interface pointer to the implementation of IUIFramework, use <a href="http://go.microsoft.com/fwlink/p/?linkid=199586">CoCreateInstance</a>to 
 			create a COM object with the class identifier (CLSID) of CLSID_UIRibbonFramework.
@@ -182,7 +182,7 @@ To get an interface pointer to the implementation of IUIFramework, use <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

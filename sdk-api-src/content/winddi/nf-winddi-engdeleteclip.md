@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngDeleteClip</b> function deletes a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure allocated by <a href="https://msdn.microsoft.com/719b006f-1eb0-41c6-8b88-c8241a394abe">EngCreateClip</a>.
+The <b>EngDeleteClip</b> function deletes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateclip">EngCreateClip</a>.
 
 
 ## -parameters

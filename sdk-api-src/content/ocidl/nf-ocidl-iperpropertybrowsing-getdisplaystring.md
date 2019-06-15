@@ -122,7 +122,7 @@ The address in pbstr is not valid. For example, it may be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/05e46df3-b6c8-4520-af11-21e1ff90fb9f">IPerPropertyBrowsing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
  
 
  

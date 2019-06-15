@@ -117,7 +117,7 @@ The number of MethodDef tokens returned in <i>rgMethods</i>.
 
 
 
-This method enumerates fields and methods, but not properties or events. Unlike <a href="https://msdn.microsoft.com/3b0424d8-a0e3-4241-b957-d944e018cb31">EnumMethods</a>, <b>EnumMethodsWithName</b> discards all method tokens that do not have the specified name.
+This method enumerates fields and methods, but not properties or events. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enummethods">EnumMethods</a>, <b>EnumMethodsWithName</b> discards all method tokens that do not have the specified name.
 
 
 
@@ -127,7 +127,7 @@ This method enumerates fields and methods, but not properties or events. Unlike 
 
 
 
-<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
  
 
  

@@ -63,7 +63,7 @@ Gets the resource description.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/908BCB65-A7C6-473D-81AB-CCCA029AB6F9">D3D12_RESOURCE_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_desc">D3D12_RESOURCE_DESC</a></b>
 
 A Direct3D 12 resource description structure.
 
@@ -75,7 +75,7 @@ A Direct3D 12 resource description structure.
 
 
 
-<a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
  
 
  

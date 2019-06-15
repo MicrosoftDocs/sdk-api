@@ -65,12 +65,12 @@ Minimum number of pages of the file mapping to map to the view.
 ### -param accessMode [in]
 
 
-<a href="https://msdn.microsoft.com/570fe290-1209-4bae-a56c-f6f663e53f87">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0010">RdcMappingAccessMode</a> enumeration value that specifies the desired access to the file mapping object.
 
 
 ### -param mappedView [out]
 
-Pointer to a location that will receive the returned <a href="https://msdn.microsoft.com/48d6d4a0-fbf1-476a-b30f-83176c51cb48">ISimilarityTraitsMappedView</a> interface pointer. Callers must release the interface.
+Pointer to a location that will receive the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmappedview">ISimilarityTraitsMappedView</a> interface pointer. Callers must release the interface.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Data accessed through read-only views will never be modified.
 
 
 
-<a href="https://msdn.microsoft.com/1ddc599b-5a9b-4807-9005-00793f9a6ed4">ISimilarityTraitsMapping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a>
  
 
  

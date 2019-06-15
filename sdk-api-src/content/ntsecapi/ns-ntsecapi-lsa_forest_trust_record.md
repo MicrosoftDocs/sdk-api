@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LSA_FOREST_TRUST_RECORD</b> structure represents a <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> forest trust record.
+The <b>LSA_FOREST_TRUST_RECORD</b> structure represents a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust record.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ Flags that control the behavior of the operation.
 ### -field ForestTrustType
 
 
-<a href="https://msdn.microsoft.com/8a4a7080-fab0-4ab2-a0b4-e929cce21f0c">LSA_FOREST_TRUST_RECORD_TYPE</a> enumeration that indicates the type of the record. The following table shows the possible values.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-lsa_forest_trust_record_type">LSA_FOREST_TRUST_RECORD_TYPE</a> enumeration that indicates the type of the record. The following table shows the possible values.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ Record contains an excluded top-level name.
 </dl>
 </td>
 <td width="60%">
-Record contains an <a href="https://msdn.microsoft.com/c0e06735-ca10-4bee-a45b-6db5b6666e31">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
+Record contains an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_domain_info">LSA_FOREST_TRUST_DOMAIN_INFO</a> structure.
 
 </td>
 </tr>

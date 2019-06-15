@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>RM_FEC_INFO</b> structure specifies settings for using forward error correction (FEC) with Reliable Multicast. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms740525(v=VS.85).aspx">RM_USE_FEC</a> socket option.
+The <b>RM_FEC_INFO</b> structure specifies settings for using forward error correction (FEC) with Reliable Multicast. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">RM_USE_FEC</a> socket option.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ Specifies whether the sender is enabled for sending parity repair packets. When 
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms740525(v=VS.85).aspx">RM_USE_FEC</a> socket option notifies the Reliable Multicast sender to apply forward error correction techniques to send repair data. there are three modes of using forward error correction:
+The <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">RM_USE_FEC</a> socket option notifies the Reliable Multicast sender to apply forward error correction techniques to send repair data. there are three modes of using forward error correction:
 
 <ol>
 <li>Pro-active parity packets only</li>
@@ -98,15 +98,15 @@ Since the use of this structure implies the need for forward error correction, e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms740525(v=VS.85).aspx">RM_USE_FEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">RM_USE_FEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/81c203ed-739f-4a06-99a1-9a99c6164edc">Reliable Multicast Programming</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">Reliable Multicast Programming</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2831f76-4499-45b6-bc60-2908ec3a246c">Socket
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket
   Options</a>
  
 

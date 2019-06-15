@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies statistics that the Media Engine tracks during playback. To get a playback statistic from the Media Engine, call <a href="https://msdn.microsoft.com/3C2FDE86-2EBD-4A5C-BD02-90613DBFDE65">IMFMediaEngineEx::GetStatistics</a>.
+Identifies statistics that the Media Engine tracks during playback. To get a playback statistic from the Media Engine, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstatistics">IMFMediaEngineEx::GetStatistics</a>.
 
-In the descriptions that follow, the data type and value-type tag for the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> are listed in parentheses.
+In the descriptions that follow, the data type and value-type tag for the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> are listed in parentheses.
 
 
 ## -enum-fields
@@ -110,11 +110,11 @@ Supported in Windows 8.1 and later.
 
 
 
-<a href="https://msdn.microsoft.com/3C2FDE86-2EBD-4A5C-BD02-90613DBFDE65">IMFMediaEngineEx::GetStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getstatistics">IMFMediaEngineEx::GetStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

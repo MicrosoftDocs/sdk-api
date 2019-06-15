@@ -61,7 +61,7 @@ Gets whether the characters are bold.
 
 Type: <b>long*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> value that can be one of the following.
+A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -90,7 +90,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomB
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.85).aspx">ITextFont::SetWeight</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774040(v=VS.85).aspx">ITextFont::GetWeight</a> methods to set or retrieve the font weight more precisely than the <a href="https://msdn.microsoft.com/en-us/library/Bb774131(v=VS.85).aspx">ITextFont::SetBold</a>and <b>ITextFont::GetBold</b> methods.
+You can use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setweight">ITextFont::SetWeight</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getweight">ITextFont::GetWeight</a> methods to set or retrieve the font weight more precisely than the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setbold">ITextFont::SetBold</a>and <b>ITextFont::GetBold</b> methods.
 
 
 
@@ -143,11 +143,11 @@ You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774040(v=VS.85).aspx">GetWeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getweight">GetWeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -155,15 +155,15 @@ You can use the <a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774131(v=VS.85).aspx">SetBold</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setbold">SetBold</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.85).aspx">SetWeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setweight">SetWeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

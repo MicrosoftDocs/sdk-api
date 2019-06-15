@@ -59,21 +59,21 @@ The <b>PeerGroupAddRecord</b> function adds a new record to the peer group, whic
 
 ### -param hGroup [in]
 
-Handle to the peer group. This handle is returned by the <a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>, <a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>, or <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a> function. This parameter is required.
+Handle to the peer group. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 
 ### -param pRecord [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a> structure that is added to the peer group specified in <i>hGroup</i>. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure that is added to the peer group specified in <i>hGroup</i>. This parameter is required.
 
-The following members in <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a> must be populated.
+The following members in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> must be populated.
 
 <ul>
 <li><b>dwSize</b></li>
 <li><b>type</b></li>
 <li><b>ftExpiration</b></li>
 </ul>
-<b>ftExpiration</b>   must be expressed as peer time (see <a href="https://msdn.microsoft.com/8d64c66a-96c3-48c4-82fa-c57554074729">PeerGroupUniversalTimeToPeerTime</a>).
+<b>ftExpiration</b>   must be expressed as peer time (see <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupuniversaltimetopeertime">PeerGroupUniversalTimeToPeerTime</a>).
 
 The following members  are ignored and overwritten if populated.
 
@@ -133,7 +133,7 @@ There is not enough memory to perform the specified operation.
 </dl>
 </td>
 <td width="60%">
-The peer group is not in a state where records can be added. For example, <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a>  is called, but synchronization with the peer group database has not completed.
+The peer group is not in a state where records can be added. For example, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>  is called, but synchronization with the peer group database has not completed.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The peer group is not in a state where records can be added. For example, <a hre
 </dl>
 </td>
 <td width="60%">
-The XML string that contains the record attributes in the <b>pwzAttributes</b>  member of the <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a> structure does not comply with the <a href="https://msdn.microsoft.com/2991af9b-da32-4915-b4d6-575e3faac04e">schema specification</a>.
+The XML string that contains the record attributes in the <b>pwzAttributes</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> structure does not comply with the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/record-attribute-schema">schema specification</a>.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The supplied peer name is invalid.
 </dl>
 </td>
 <td width="60%">
-One or more fields in <a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1">PEER_RECORD</a> are invalid.
+One or more fields in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag">PEER_RECORD</a> are invalid.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ The identity is not authorized to publish a record of that type.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -216,19 +216,19 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/4e0a1c44-e5a4-42d6-bb56-9bdcf7f9e6f1"> PEER_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record_tag"> PEER_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/e80fbf7f-2193-4a45-8a7f-46707ae4acfe">PeerGroupDeleteRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupdeleterecord">PeerGroupDeleteRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9a0654a-850a-40bb-9112-03ec9bf47370">PeerGroupEnumRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumrecords">PeerGroupEnumRecords</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfff0422-452c-4780-8df7-d3e8d5ad385c">PeerGroupUpdateRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupupdaterecord">PeerGroupUpdateRecord</a>
  
 
  

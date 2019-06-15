@@ -111,7 +111,7 @@ If <i>riid</i> is set to IID_ICallbackWithNoReentrancyToApplicationSTA, the func
 
 
 
-<a href="https://msdn.microsoft.com/47af7b80-3419-4a40-8932-a5a27f297dc9">IContextCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>
  
 
  

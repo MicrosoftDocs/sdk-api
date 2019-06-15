@@ -161,7 +161,7 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 
 
 
-<a href="https://msdn.microsoft.com/a5d7b9ff-eb6f-40be-b246-17189cad92be">ISettingsNamespace</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
  
 
  

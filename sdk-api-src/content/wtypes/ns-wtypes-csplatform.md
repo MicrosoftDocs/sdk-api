@@ -60,7 +60,7 @@ Contains an operating system platform and processor architecture.
 
 ### -field dwPlatformId
 
-The operating system platform. See the <b>dwPlatformId</b> member of <a href="https://msdn.microsoft.com/a173df17-dad2-4330-aa66-4ff789fd7cc2">OSVERSIONINFO</a>.
+The operating system platform. See the <b>dwPlatformId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoa">OSVERSIONINFO</a>.
 
 
 ### -field dwVersionHi
@@ -76,7 +76,7 @@ The minor version of the operating system.
 ### -field dwProcessorArch
 
 The processor architecture.
-See the <b>wProcessorArchitecture</b> member of <a href="https://msdn.microsoft.com/971293b8-0af0-4bdf-a7d7-6b1bb80a469c">SYSTEM_INFO</a>.
+See the <b>wProcessorArchitecture</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-_system_info">SYSTEM_INFO</a>.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ See the <b>wProcessorArchitecture</b> member of <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/5d6a17e1-dcdd-4691-aec2-f63dbcb26027">QUERYCONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-tagquerycontext">QUERYCONTEXT</a>
  
 
  

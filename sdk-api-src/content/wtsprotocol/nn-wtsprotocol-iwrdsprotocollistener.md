@@ -54,7 +54,7 @@ Exposes methods that request that the protocol start and stop listening for clie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolListener</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWRdsProtocolListener</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolListener</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolListener</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWRdsProtocolListener</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/644eaa8f-776d-49de-af23-de9faef80e74">GetSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-getsettings">GetSettings</a>
 </td>
 <td align="left" width="63%">
 Gets the listener setting information for client connection requests.
@@ -78,7 +78,7 @@ Gets the listener setting information for client connection requests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3797411-2ac6-4d3c-8c90-5c566e6d8fa8">StartListen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-startlisten">StartListen</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol to start listening for client connection requests.
@@ -87,7 +87,7 @@ Notifies the protocol to start listening for client connection requests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfb758e8-3d71-47b9-bf7d-075c0c401177">StopListen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-stoplisten">StopListen</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol to stop listening for client connection requests.

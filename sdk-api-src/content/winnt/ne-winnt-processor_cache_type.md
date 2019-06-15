@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the type of processor cache identified in the corresponding <a href="https://msdn.microsoft.com/38cfa605-831c-45ef-a99f-55f42b2b56e9">CACHE_DESCRIPTOR</a> structure.
+Represents the type of processor cache identified in the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_cache_descriptor">CACHE_DESCRIPTOR</a> structure.
 
 
 ## -enum-fields
@@ -82,15 +82,15 @@ The cache is for traces.
 
 
 
-<a href="https://msdn.microsoft.com/38cfa605-831c-45ef-a99f-55f42b2b56e9">CACHE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_cache_descriptor">CACHE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/904d2d35-f419-4e8f-a689-f39ed926644c">GetLogicalProcessorInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/32ef5dd8-c00d-44ee-a291-a18653beb1b9">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
  
 
  

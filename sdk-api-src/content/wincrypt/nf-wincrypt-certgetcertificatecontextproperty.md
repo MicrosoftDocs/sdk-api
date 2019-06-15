@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertGetCertificateContextProperty</b> function retrieves the information contained in an extended property of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a>.
+The <b>CertGetCertificateContextProperty</b> function retrieves the information contained in an extended property of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertGetCertificateContextProperty</b> function retrieves the information 
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> that contains the property to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that contains the property to be retrieved.
 
 
 ### -param dwPropId [in]
@@ -94,14 +94,14 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns a previously saved encrypted key <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> for the certificate context.
+Returns a previously saved encrypted key <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> for the certificate context.
 
 
 
 #### CERT_ARCHIVED_PROP_ID
 
 Data type of <i>pvData</i>: 
-  <b>NULL</b>. If the <b>CertGetCertificateContextProperty</b> function returns true, then the specified property ID exists for the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>.
+  <b>NULL</b>. If the <b>CertGetCertificateContextProperty</b> function returns true, then the specified property ID exists for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>.
 
 Indicates the certificate is skipped during 
 			 enumerations. A certificate with this property set 
@@ -145,7 +145,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter. 
 
-Disables <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) retrieval for certificates used by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA). If the CA certificate contains this property, it must also include the <b>CERT_CA_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID</b> property.
+Disables <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) retrieval for certificates used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). If the CA certificate contains this property, it must also include the <b>CERT_CA_OCSP_AUTHORITY_INFO_ACCESS_PROP_ID</b> property.
 
 
 
@@ -153,7 +153,7 @@ Disables <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2db
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter. 
 
-Contains the list of <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) URLs to use for certificates issued by the CA certificate. The array contents are the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded bytes of an <b>X509_AUTHORITY_INFO_ACCESS</b> structure where <b>pszAccessMethod</b> is set to <b>szOID_PKIX_OCSP</b>.
+Contains the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) URLs to use for certificates issued by the CA certificate. The array contents are the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded bytes of an <b>X509_AUTHORITY_INFO_ACCESS</b> structure where <b>pszAccessMethod</b> is set to <b>szOID_PKIX_OCSP</b>.
 
 
 
@@ -162,11 +162,11 @@ Contains the list of <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
 Location of the cross certificates. Currently, this identifier 
-  is only applicable to certificates and not to CRLs or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust lists</a> (CTLs).
+  is only applicable to certificates and not to CRLs or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs).
   The <b>BYTE</b> array contains an 
 			 ASN.1-encoded 
-  <a href="https://msdn.microsoft.com/13358822-c690-40af-ba9d-2fafa0233a5c">CROSS_CERT_DIST_POINTS_INFO</a> structure decoded by using 
-  the <a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a> function with a X509_CROSS_CERT_DIST_POINTS 
+  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cross_cert_dist_points_info">CROSS_CERT_DIST_POINTS_INFO</a> structure decoded by using 
+  the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with a X509_CROSS_CERT_DIST_POINTS 
   value for the <i>lpszStuctType</i> parameter.
 
 
@@ -177,7 +177,7 @@ Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The siz
 
 Returns an array of bytes that contain an 
 			 
-			 ASN.1-encoded <a href="https://msdn.microsoft.com/70ee138a-df94-4fc4-9de5-0d8b7704b890">CTL_USAGE</a> structure.
+			 ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CTL_USAGE</a> structure.
 
 
 
@@ -209,9 +209,9 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns an array of bytes that contain an ASN.1-encoded <a href="https://msdn.microsoft.com/70ee138a-df94-4fc4-9de5-0d8b7704b890">CERT_ENHKEY_USAGE</a> structure. 
+Returns an array of bytes that contain an ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure. 
 			 This structure contains an array of 
-			 Enhanced Key Usage <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs),
+			 Enhanced Key Usage <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs),
 			 each of which specifies a valid use of the certificate.
 
 
@@ -309,13 +309,13 @@ Returns a null-terminated Unicode character
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
 Returns the SHA1 hash. If the hash does not exist, 
-			 it is computed by using the <a href="https://msdn.microsoft.com/a5beba30-f32b-4d57-8a54-7d9096459c50">CryptHashCertificate</a> function.
+			 it is computed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a> function.
 
 
 
 #### CERT_HCRYPTPROV_OR_NCRYPT_KEY_HANDLE_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to an <a href="https://msdn.microsoft.com/1ad77adb-5960-4965-bddb-5967b982b034">HCRYPTPROV_OR_NCRYPT_KEY_HANDLE</a> data type.
+Data type of <i>pvData</i>: A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov-or-ncrypt-key-handle">HCRYPTPROV_OR_NCRYPT_KEY_HANDLE</a> data type.
 
 Returns either the <b>HCRYPTPROV</b> or <b>NCRYPT_KEY_HANDLE</b> choice.
 
@@ -337,7 +337,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-MD5 hash of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> associated with the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> 
+MD5 hash of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> 
 			used to sign this certificate.
 
 
@@ -352,9 +352,9 @@ MD5 hash of the issuer name and serial number from this certificate.
 
 #### CERT_KEY_CONTEXT_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to a <a href="https://msdn.microsoft.com/796adb9c-ec38-41d0-8f8b-ea1053e9f9f0">CERT_KEY_CONTEXT</a> structure.
+Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
-Returns a <a href="https://msdn.microsoft.com/796adb9c-ec38-41d0-8f8b-ea1053e9f9f0">CERT_KEY_CONTEXT</a> structure.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a> structure.
 
 
 
@@ -372,7 +372,7 @@ If nonexistent, searches for the
 
 #### CERT_KEY_PROV_HANDLE_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to an <a href="https://msdn.microsoft.com/8ec6b392-06bc-4717-8657-7ea9a43d03fb">HCRYPTPROV</a> value.
+Data type of <i>pvData</i>: A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> value.
 
 Returns the provider handle obtained from 
 			CERT_KEY_CONTEXT_PROP_ID.
@@ -381,9 +381,9 @@ Returns the provider handle obtained from
 
 #### CERT_KEY_PROV_INFO_PROP_ID
 
-Data type of <i>pvData</i>: A pointer to a <a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a> structure.
+Data type of <i>pvData</i>: A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/6aea2f47-9d4a-4069-ac6d-f28907df00be">CRYPT_KEY_PROV_INFO</a> structure.
+Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 
 
@@ -403,7 +403,7 @@ Returns a <b>DWORD</b> value that specifies the private
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
 Returns the MD5 hash. If the hash does not exist, 
-			it is computed by using the <a href="https://msdn.microsoft.com/a5beba30-f32b-4d57-8a54-7d9096459c50">CryptHashCertificate</a> function.
+			it is computed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a> function.
 
 
 
@@ -431,7 +431,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns the ASN.1-encoded <a href="https://msdn.microsoft.com/f9a20827-3333-4ce2-b074-2e8ce903fad2">CERT_ALT_NAME_INFO</a> structure.
+Returns the ASN.1-encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure.
 
 CERT_NEXT_UPDATE_LOCATION_PROP_ID is currently used only 
 			with CTLs.
@@ -477,8 +477,8 @@ Returns an L”<i>&lt;PUBKEY&gt;</i>/<i>&lt;BITLENGTH&gt;</i>” string represen
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-For public keys that support algorithm parameter inheritance, returns the ASN.1-encoded PublicKey Algorithm parameters. For <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Standard</a> (DSS), returns the parameters encoded by using 
-the <a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a> function. This property is used only if CMS_PKCS7 is defined.
+For public keys that support algorithm parameter inheritance, returns the ASN.1-encoded PublicKey Algorithm parameters. For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS), returns the parameters encoded by using 
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> function. This property is used only if CMS_PKCS7 is defined.
 
 
 
@@ -518,7 +518,7 @@ Returns a null-terminated Unicode string that contains the DNS computer name for
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns a pointer to an encoded <a href="https://msdn.microsoft.com/cf5fafd9-6129-4f25-8d61-189b46585e57">CERT_POLICIES_INFO</a> structure that contains the application policies of the root certificate for the context. This property can be decoded by using the <a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a> function with the <i>lpszStructType</i> parameter set to <b>X509_CERT_POLICIES</b> and the <i>dwCertEncodingType</i> parameter set to a combination of <b>X509_ASN_ENCODING</b> bitwise <b>OR</b> <b>PKCS_7_ASN_ENCODING</b>.
+Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_policies_info">CERT_POLICIES_INFO</a> structure that contains the application policies of the root certificate for the context. This property can be decoded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function with the <i>lpszStructType</i> parameter set to <b>X509_CERT_POLICIES</b> and the <i>dwCertEncodingType</i> parameter set to a combination of <b>X509_ASN_ENCODING</b> bitwise <b>OR</b> <b>PKCS_7_ASN_ENCODING</b>.
 
 
 
@@ -533,7 +533,7 @@ This identifier is reserved.
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
 Returns the SHA1 hash. If the hash does not exist, it is 
-			computed by using the <a href="https://msdn.microsoft.com/a5beba30-f32b-4d57-8a54-7d9096459c50">CryptHashCertificate</a> function.
+			computed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a> function.
 
 
 
@@ -573,7 +573,7 @@ The following are common examples:
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
 Returns the signature hash. If the hash does not exist, 
-			it is computed by using the <a href="https://msdn.microsoft.com/84477054-dd76-4dde-b465-9edeaf192714">CryptHashToBeSigned</a> function. 
+			it is computed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashtobesigned">CryptHashToBeSigned</a> function. 
 			The length of the hash is 20 bytes for SHA and 16 for MD5.
 
 
@@ -582,7 +582,7 @@ Returns the signature hash. If the hash does not exist,
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns a pointer to encoded smart card data. Prior to calling <b>CertGetCertificateContextProperty</b>, you can use this constant to retrieve a smart card certificate by using the <a href="https://msdn.microsoft.com/20b3fcfb-55df-46ff-80a5-70f31a3d03b2">CertFindCertificateInStore</a> function with the <i>pvFindPara</i> parameter set to <b>CERT_SMART_CARD_DATA_PROP_ID</b> and the <i>dwFindType</i> parameter set to <b>CERT_FIND_PROPERTY</b>.
+Returns a pointer to encoded smart card data. Prior to calling <b>CertGetCertificateContextProperty</b>, you can use this constant to retrieve a smart card certificate by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a> function with the <i>pvFindPara</i> parameter set to <b>CERT_SMART_CARD_DATA_PROP_ID</b> and the <i>dwFindType</i> parameter set to <b>CERT_FIND_PROPERTY</b>.
 
 
 
@@ -590,7 +590,7 @@ Returns a pointer to encoded smart card data. Prior to calling <b>CertGetCertifi
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns a pointer to an encoded <a href="https://msdn.microsoft.com/165a1a9e-e426-4823-8d1b-f13c338964c9">CRYPT_SMART_CARD_ROOT_INFO</a> structure.
+Returns a pointer to an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smart_card_root_info">CRYPT_SMART_CARD_ROOT_INFO</a> structure.
 
 
 
@@ -616,7 +616,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to an array of <b>BYTE</b> values. The size of this array is specified in the <i>pcbData</i> parameter.
 
-Returns the subject information access extension of the certificate context as an encoded <a href="https://msdn.microsoft.com/5f4abb15-3057-4d20-a319-550cec45d1f1">CERT_SUBJECT_INFO_ACCESS</a> structure.
+Returns the subject information access extension of the certificate context as an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_authority_info_access">CERT_SUBJECT_INFO_ACCESS</a> structure.
 
 
 
@@ -653,7 +653,7 @@ Returns the MD5 hash of this certificate's public key.
 For all user-defined property identifiers, <i>pvData</i> points to an array of <b>BYTE</b> values.
 
 For more information about each property identifier, see the documentation on the <i>dwPropId</i> parameter in 
-<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
 
 
 ### -param pvData [out]
@@ -661,14 +661,14 @@ For more information about each property identifier, see the documentation on th
 A pointer to a buffer to receive the data as determined by <i>dwPropId</i>. Structures pointed to by members of a structure returned are also returned following the base structure. Therefore, the size contained in <i>pcbData</i> often exceeds the size of the base structure.
 
 This parameter can be <b>NULL</b> to set the size of the information for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbData [in, out]
 
 A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the buffer pointed to by the <i>pvData</i> parameter. When the function returns, the <b>DWORD</b> value contains the number of bytes to be stored in the buffer.
 
-To obtain the required size of a buffer at run time, pass <b>NULL</b> for the <i>pvData</i> parameter, and set the value pointed to by this parameter to zero. If the <i>pvData</i> parameter is not <b>NULL</b> and the size specified in <i>pcbData</i>   is less than the number of bytes required to  contain the data, the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns <b>ERROR_MORE_DATA</b>, and the required size is placed in the variable pointed to by the <i>pcbData</i> parameter.
+To obtain the required size of a buffer at run time, pass <b>NULL</b> for the <i>pvData</i> parameter, and set the value pointed to by this parameter to zero. If the <i>pvData</i> parameter is not <b>NULL</b> and the size specified in <i>pcbData</i>   is less than the number of bytes required to  contain the data, the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_MORE_DATA</b>, and the required size is placed in the variable pointed to by the <i>pcbData</i> parameter.
 
 <div class="alert"><b>Note</b>  When processing the data returned in the buffer, applications must use the actual size of the data returned. The actual size can be slightly smaller than the size of the buffer specified on input. (On input, buffer sizes are usually specified large enough to ensure that the largest possible output data fits in the buffer.) On output, the variable pointed to by this parameter is updated to reflect the actual size of the data copied to the buffer.</div>
 <div> </div>
@@ -680,7 +680,7 @@ To obtain the required size of a buffer at run time, pass <b>NULL</b> for the <i
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
  Some possible error codes follow.
 
@@ -716,7 +716,7 @@ If the buffer specified by the <i>pvData</i> parameter is not large enough to ho
  
 
 Errors from the called function 
-<a href="https://msdn.microsoft.com/a5beba30-f32b-4d57-8a54-7d9096459c50">CryptHashCertificate</a> can be propagated to this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a> can be propagated to this function.
 
 
 
@@ -727,14 +727,14 @@ Errors from the called function
 
 Properties are not stored inside a certificate. Typically, they are associated with a certificate after the certificate response is received and then saved with the certificate in the store. For security reasons, we recommend that you validate property values before saving  them and that you save only informational properties such as the <b>CERT_FRIENDLY_NAME_PROP_ID</b> value in user stores. All other property types should be saved in local computer stores.
 
-Your code can use a macro to evaluate the class of hash for a certificate context. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa376573(v=VS.85).aspx">CertSetCertificateContextProperty</a>.
+Your code can use a macro to evaluate the class of hash for a certificate context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>.
 
 
 #### Examples
 
 For examples that use this function, see 
-<a href="https://msdn.microsoft.com/4cc20a59-d8e9-4c9b-9438-21bccbbe4a64">Example C Program: Getting and Setting Certificate Properties</a> and 
-<a href="https://msdn.microsoft.com/4b5361f5-79b1-4b05-a133-1a394da7d6ee">Example C Program: Listing the Certificates in a Store</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-getting-and-setting-certificate-properties">Example C Program: Getting and Setting Certificate Properties</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-listing-the-certificates-in-a-store">Example C Program: Listing the Certificates in a Store</a>.
 
 <div class="code"></div>
 
@@ -745,27 +745,27 @@ For examples that use this function, see
 
 
 
-<a href="https://msdn.microsoft.com/796adb9c-ec38-41d0-8f8b-ea1053e9f9f0">CERT_KEY_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_key_context">CERT_KEY_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a32714c4-ee88-48a8-a40a-bbbfec0613ac">CertCreateCertificateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5beba30-f32b-4d57-8a54-7d9096459c50">CryptHashCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/84477054-dd76-4dde-b465-9edeaf192714">CryptHashToBeSigned</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashtobesigned">CryptHashToBeSigned</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>
  
 
  

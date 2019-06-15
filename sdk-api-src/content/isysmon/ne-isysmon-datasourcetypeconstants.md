@@ -82,7 +82,7 @@ The data source is an SQL log.
 
 
 
-<a href="https://msdn.microsoft.com/53c1e9bc-dafd-445c-8d82-13a74f6c488a">SystemMonitor.DataSourceType</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-datasourcetype">SystemMonitor.DataSourceType</a>
  
 
  

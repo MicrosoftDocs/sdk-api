@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Retrieves information about the specified module in the 
-<a href="https://msdn.microsoft.com/583caafe-7fa3-4041-b5bc-4e8899b3a08a">MODULEINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a> structure.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Retrieves information about the specified module in the
 
 A handle to the process that contains the module.
 
-The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 
 ### -param hModule [in]
@@ -79,13 +79,13 @@ A handle to the module.
 ### -param lpmodinfo [out]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/583caafe-7fa3-4041-b5bc-4e8899b3a08a">MODULEINFO</a> structure that receives information about the module.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a> structure that receives information about the module.
 
 
 ### -param cb [in]
 
 The size of the 
-<a href="https://msdn.microsoft.com/583caafe-7fa3-4041-b5bc-4e8899b3a08a">MODULEINFO</a> structure, in bytes.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a> structure, in bytes.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The size of the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -104,9 +104,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To get information for the calling process, pass the handle returned by <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a>.
+To get information for the calling process, pass the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a>.
 
-The <b>GetModuleInformation</b> function does not retrieve information for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a>.
+The <b>GetModuleInformation</b> function does not retrieve information for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -133,19 +133,19 @@ Programs that must run on earlier versions of Windows as
 
 
 
-<a href="https://msdn.microsoft.com/0c0445cb-27d2-4857-a4a5-7a4c180b068b">EnumProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://msdn.microsoft.com/583caafe-7fa3-4041-b5bc-4e8899b3a08a">MODULEINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_moduleinfo">MODULEINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e15b5e15-ca06-4733-bd0a-705058ba2db8">Module Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/module-information">Module Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
  
 
  

@@ -59,7 +59,7 @@ Gets a specified Explorer command enumerator instance.
 
 ### -param punkSite
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to an interface used to set a site.
 
@@ -75,7 +75,7 @@ A reference to the IID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in riid. This will typically be <a href="https://msdn.microsoft.com/c9a21e84-dd95-413a-b9db-e02008185bef">IEnumExplorerCommand</a>.
+When this function returns, contains the interface pointer requested in riid. This will typically be <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumexplorercommand">IEnumExplorerCommand</a>.
 
 
 ## -returns

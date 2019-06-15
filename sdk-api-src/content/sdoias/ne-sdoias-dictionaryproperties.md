@@ -82,15 +82,15 @@ The dictionary is the collection of all possible attributes. It includes some at
 
 
 
-<a href="https://msdn.microsoft.com/eb8cff95-4ea3-446c-893f-3065d3a037d3">ATTRIBUTEPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeproperties">ATTRIBUTEPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://msdn.microsoft.com/172444be-b2a2-4060-af92-b0c63f0ffe6b">ISdoMachine::GetDictionarySDO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdictionarysdo">ISdoMachine::GetDictionarySDO</a>
  
 
  

@@ -54,7 +54,7 @@ The <b>ITfContextComposition</b> interface is implemented by the TSF manager and
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextComposition</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfContextComposition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextComposition</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextComposition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfContextComposition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/230daf27-2655-4d67-b183-cd0f0c855298">EnumCompositions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-enumcompositions">EnumCompositions</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator object that contains all compositions in the context.
@@ -78,7 +78,7 @@ Creates an enumerator object that contains all compositions in the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e">FindComposition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-findcomposition">FindComposition</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator object that contains all compositions that intersect a specified range of text.
@@ -87,7 +87,7 @@ Creates an enumerator object that contains all compositions that intersect a spe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aab84e6c-39c7-438e-b4f0-1d174473aa02">StartComposition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">StartComposition</a>
 </td>
 <td align="left" width="63%">
 Creates a new composition.
@@ -96,7 +96,7 @@ Creates a new composition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54182932-f749-4de0-a536-0f2f29d7664c">TakeOwnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-takeownership">TakeOwnership</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.
@@ -111,12 +111,12 @@ Not currently implemented.
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

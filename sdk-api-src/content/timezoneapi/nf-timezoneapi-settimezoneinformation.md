@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 Sets the current time zone settings. These settings control translations from Coordinated Universal Time (UTC) to local time.
 
-To support boundaries for daylight saving time that change from year to year, use the <a href="https://msdn.microsoft.com/98ad7b94-f649-4270-8348-0aba5b59a433">SetDynamicTimeZoneInformation</a> function.
+To support boundaries for daylight saving time that change from year to year, use the <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> function.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ To support boundaries for daylight saving time that change from year to year, us
 ### -param lpTimeZoneInformation [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure that contains the new settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure that contains the new settings.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A pointer to a
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -86,17 +86,17 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 An application must have the SE_TIME_ZONE_NAME privilege for this function to succeed. This privilege is disabled by default. Use the 
-<a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function to enable the privilege before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the privilege before calling 
 <b>SetTimeZoneInformation</b>, and then to disable the privilege after the 
 <b>SetTimeZoneInformation</b> call. For more information, see 
-<a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>The application must have the SE_SYSTEMTIME_NAME privilege.
 
-Specific to Windows 7 and Windows 8,  call  <a href="https://msdn.microsoft.com/98ad7b94-f649-4270-8348-0aba5b59a433">SetDynamicTimeZoneInformation</a> to set system time zone information instead of <b>SetTimeZoneInformation</b>. support provided for dynamic daylight savings time in. In a scenario where an application calls <b>SetTimeZoneInformation</b> instead, dynamic daylight saving time support is disabled for the calling application.
+Specific to Windows 7 and Windows 8,  call  <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> to set system time zone information instead of <b>SetTimeZoneInformation</b>. support provided for dynamic daylight savings time in. In a scenario where an application calls <b>SetTimeZoneInformation</b> instead, dynamic daylight saving time support is disabled for the calling application.
 
 To inform Explorer that the time zone has changed, send the 
-<a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message.
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message.
 
 All translations between UTC and local time are based on the following formula:
 
@@ -201,19 +201,19 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/3d7601a5-6d22-4b1a-a222-9db46d21a3c7">GetTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformation">GetTimeZoneInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/98ad7b94-f649-4270-8348-0aba5b59a433">SetDynamicTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
  
 
  

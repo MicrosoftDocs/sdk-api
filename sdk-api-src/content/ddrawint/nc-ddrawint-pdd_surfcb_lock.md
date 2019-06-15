@@ -68,7 +68,7 @@ The <i>DdLock</i> callback function locks a specified area of surface memory and
 
 #### - lpLock
 
-Points to a <a href="https://msdn.microsoft.com/46de3dbb-abdf-4518-b62d-891efa5a949b">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_lockdata">DD_LOCKDATA</a> structure that contains the information required to perform the lockdown.
 
 
 ## -returns
@@ -112,7 +112,7 @@ A driver running on an NT-based operating system
 	 should not return a pointer to system memory from 
 	 its <i>DdLock</i> 
 	 function unless that driver's 
-	 <a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a> 
+	 <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> 
 	 function previously allocated such memory with the 
 	 PLEASE_ALLOC_USERMEM flag. If PLEASE_ALLOC_USERMEM was 
 	 not used, applications could receive errors whenever they 
@@ -121,11 +121,11 @@ A driver running on an NT-based operating system
 	 of DDLOCK_NOSYSLOCK</a> for more information.
 
 <i>DdLock</i> can be called with a disabled 
-	 <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>. A PDEV is disabled 
+	 <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled 
 	 or enabled by calling the display driver's 
-	 <a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a> 
+	 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> 
 	 function. See 
-	 <a href="https://msdn.microsoft.com/f7badbe8-b24f-438a-8937-95bb98de6310">Managing PDEVs</a> 
+	 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> 
 	 for more information.
 
 <h3><a id="display.ddlock.NT_Kernels_Implementation_of_DDLOCK_NOSYSLOCK"></a><a id="display.ddlock.nt_kernels_implementation_of_ddlock_nosyslock"></a><a id="DISPLAY.DDLOCK.NT_KERNELS_IMPLEMENTATION_OF_DDLOCK_NOSYSLOCK"></a>NT Kernel's Implementation of DDLOCK_NOSYSLOCK</h3>
@@ -133,11 +133,11 @@ Applications can use DirectDraw's and Direct3D's application programming interfa
 
 After the DirectDraw runtime calls a driver's <i>DdLock</i> function with the DDLOCK_NOSYSLOCK flag specified in the <b>dwFlags</b> member of DD_LOCKDATA, the runtime examines the pointer to the surface contents returned by the driver. Instead of passing the driver-returned pointer directly to an application, the runtime creates a second user-mode mapping of video memory (both local and nonlocal) and calculates the equivalent virtual address within that mapping. This virtual address is known as the alias pointer to the memory lock. The runtime passes this alias-lock pointer to the application. The application uses this alias-lock pointer to read and write directly to video memory. Neither the application nor the driver is aware that it uses a different locked-memory pointer. 
 
-Later, at mode-switch time, the DirectDraw runtime notes any outstanding alias-lock pointers. Instead of waiting for the alias-lock pointers to complete--as it would for a typical video-memory lock--the runtime remaps the user-mode mapping of video memory and allows the mode switch to continue. The runtime remaps the user-mode mappings to a single dummy page; the application continues to read and write to that dummy page, otherwise unaware of any changes. The runtime must then clean up alias-lock pointers by calling the driver's <a href="https://msdn.microsoft.com/dbb7b34c-5473-42b9-b16f-e71b9c3e1db8">DdUnlock</a> function. The runtime can clean up alias-lock pointers because the application is no longer writing into video memory. Because this clean up occurs at mode-switch time, the next step in the sequence is to lose surfaces, which means to destroy the driver's per-surface objects. In other words, the runtime calls the driver's <a href="https://msdn.microsoft.com/90060863-02ef-49bf-820d-b3adffbc8f40">DdDestroySurface</a> function for all surfaces, including surfaces that the application continues to consider as locked. In fact, the application continues to read and write to a dummy page of system memory.
+Later, at mode-switch time, the DirectDraw runtime notes any outstanding alias-lock pointers. Instead of waiting for the alias-lock pointers to complete--as it would for a typical video-memory lock--the runtime remaps the user-mode mapping of video memory and allows the mode switch to continue. The runtime remaps the user-mode mappings to a single dummy page; the application continues to read and write to that dummy page, otherwise unaware of any changes. The runtime must then clean up alias-lock pointers by calling the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_unlock">DdUnlock</a> function. The runtime can clean up alias-lock pointers because the application is no longer writing into video memory. Because this clean up occurs at mode-switch time, the next step in the sequence is to lose surfaces, which means to destroy the driver's per-surface objects. In other words, the runtime calls the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a> function for all surfaces, including surfaces that the application continues to consider as locked. In fact, the application continues to read and write to a dummy page of system memory.
 
-This whole process only works if the memory pointer returned by <i>DdLock</i> is some mapping of video memory. This video-memory mapping can be either the user-mode mapping of nonlocal video memory performed by the DirectDraw kernel-mode runtime or the mapping provided by the driver's <a href="https://msdn.microsoft.com/a05e2ba8-dfe1-447d-acfa-0eb8f4252107">DdMapMemory</a> function. If the memory pointer cannot be attributed to one of these mappings, the runtime does not remap the lock. The mode switch continues, which means that the driver's surface object is unlocked and destroyed through calls to the driver's <a href="https://msdn.microsoft.com/dbb7b34c-5473-42b9-b16f-e71b9c3e1db8">DdUnlock</a> and <a href="https://msdn.microsoft.com/90060863-02ef-49bf-820d-b3adffbc8f40">DdDestroySurface</a> functions respectively. The driver then typically releases any system memory that the driver allocated at lock time. Because the application is still writing to this memory, an access violation occurs. 
+This whole process only works if the memory pointer returned by <i>DdLock</i> is some mapping of video memory. This video-memory mapping can be either the user-mode mapping of nonlocal video memory performed by the DirectDraw kernel-mode runtime or the mapping provided by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mapmemory">DdMapMemory</a> function. If the memory pointer cannot be attributed to one of these mappings, the runtime does not remap the lock. The mode switch continues, which means that the driver's surface object is unlocked and destroyed through calls to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_unlock">DdUnlock</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a> functions respectively. The driver then typically releases any system memory that the driver allocated at lock time. Because the application is still writing to this memory, an access violation occurs. 
 
-Consequently, a driver should not attempt to return system memory pointers from its <i>DdLock</i> function unless that driver's <a href="https://msdn.microsoft.com/45c793ed-34e8-4a15-91f4-9a258c1842fd">DdCreateSurface</a> function previously allocated such memory with the PLEASE_ALLOC_USERMEM flag. The DirectDraw runtime owns memory allocated in this manner and can defer release of this memory until the application unlocks the memory. Therefore, the driver's <i>DdLock</i> function can return pointers to memory allocated in this manner without risk of crashing the application.
+Consequently, a driver should not attempt to return system memory pointers from its <i>DdLock</i> function unless that driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549263(v=vs.85)">DdCreateSurface</a> function previously allocated such memory with the PLEASE_ALLOC_USERMEM flag. The DirectDraw runtime owns memory allocated in this manner and can defer release of this memory until the application unlocks the memory. Therefore, the driver's <i>DdLock</i> function can return pointers to memory allocated in this manner without risk of crashing the application.
 
 
 
@@ -147,15 +147,15 @@ Consequently, a driver should not attempt to return system memory pointers from 
 
 
 
-<a href="https://msdn.microsoft.com/46de3dbb-abdf-4518-b62d-891efa5a949b">DD_LOCKDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_lockdata">DD_LOCKDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/a05e2ba8-dfe1-447d-acfa-0eb8f4252107">DdMapMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mapmemory">DdMapMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbb7b34c-5473-42b9-b16f-e71b9c3e1db8">DdUnlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_unlock">DdUnlock</a>
  
 
  

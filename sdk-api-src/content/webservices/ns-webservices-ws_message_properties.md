@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a set of <a href="https://msdn.microsoft.com/40751692-a8e6-4aa6-8dc9-55308b129a94">WS_MESSAGE_PROPERTY</a> structures.
+Specifies a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_property">WS_MESSAGE_PROPERTY</a> structures.
             
 
 

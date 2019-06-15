@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.]
 
-The <b>CM_Get_Version_Ex</b> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DLL</a> (<i>Cfgmgr32.dll</i>) for a local or a remote machine. 
+The <b>CM_Get_Version_Ex</b> function returns version 4.0 of the Plug and Play (PnP) Configuration Manager <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> (<i>Cfgmgr32.dll</i>) for a local or a remote machine. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CM_Get_Version_Ex</b> function returns version 4.0 of the Plug and Play (
 
 ### -param hMachine [in, optional]
 
-Supplies a machine handle that is returned by <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
+Supplies a machine handle that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -81,7 +81,7 @@ If the function succeeds, it returns the major revision number in the high-order
 
 This function returns version 4.0 of the configuration manager to ensure compatibility with version 4.0 and all later versions of the configuration manager, and to ensure compatibility with all applications that require version 4.0 of the configuration manager.
 
-To determine if a specific version of the configuration manager is available on a machine, use <a href="https://msdn.microsoft.com/a7a1e8d0-7645-423a-8123-a58ed7ae9827">CM_Is_Version_Available</a> or <a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a>.
+To determine if a specific version of the configuration manager is available on a machine, use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a> or <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -93,15 +93,15 @@ To determine if a specific version of the configuration manager is available on 
 
 
 
-<a href="https://msdn.microsoft.com/998c6c57-b242-4aa0-8c9f-cfff61d2a642">CM_Get_Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_version">CM_Get_Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a1e8d0-7645-423a-8123-a58ed7ae9827">CM_Is_Version_Available</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available">CM_Is_Version_Available</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6728f01-7899-46e3-8cda-19a5c46f4992">CM_Is_Version_Available_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex">CM_Is_Version_Available_Ex</a>
  
 
  

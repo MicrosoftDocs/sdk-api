@@ -90,7 +90,7 @@ This method checks only for application groups at the store level.
 
 A pointer to an array of the names of application groups associated with this client context.
 
-This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains the name of an application group.
+This is a variant that contains either a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> or the  JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains the name of an application group.
 
 
 ## -returns
@@ -99,7 +99,7 @@ This is a variant that contains either a <a href="https://msdn.microsoft.com/en-
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -109,7 +109,7 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-<a href="https://msdn.microsoft.com/9435e41b-b2ec-4a2a-9058-82025f2c2e09">IAzClientContext3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext3">IAzClientContext3</a>
  
 
  

@@ -122,7 +122,7 @@ An invalid argument was received.
 
 
 
-<a href="https://msdn.microsoft.com/0a16d012-1d88-4dfb-a1a0-44a842d9ee1d">CloneContext Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-clonecontext">CloneContext Function</a>
  
 
  

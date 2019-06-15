@@ -75,7 +75,7 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/b6f139d3-c54c-4350-9d8b-cd534909a488">IEnumIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>
  
 
  

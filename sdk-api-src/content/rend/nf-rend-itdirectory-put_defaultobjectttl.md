@@ -144,11 +144,11 @@ This method is not yet implemented.
 
 
 
-<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0a24ad9-0020-4f62-a0f2-071b9d251f79">ITDirectory::get_DefaultObjectTTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_defaultobjectttl">ITDirectory::get_DefaultObjectTTL</a>
  
 
  

@@ -71,7 +71,7 @@ The alignment value for the resource; one of 4KB (4096), 64KB (65536) and 4MB (4
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">GetResourceAllocationInfo</a> method.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo">GetResourceAllocationInfo</a> method.
       
 
 
@@ -82,11 +82,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/43467E09-835B-
 
 
 
-<a href="https://msdn.microsoft.com/81FC8D0E-2C15-42D3-9E06-1FE193F707C6">CD3DX12_RESOURCE_ALLOCATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-resource-allocation-info">CD3DX12_RESOURCE_ALLOCATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

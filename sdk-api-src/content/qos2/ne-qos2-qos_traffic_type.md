@@ -109,7 +109,7 @@ Sent traffic will contain a DSCP mark with a value of 0x38 and an 802.1p tag wit
 
 802.1p tags are  added to sent traffic only when the following conditions are met:<ul>
 <li>
-<a href="https://msdn.microsoft.com/44136284-b553-446e-a95f-1eac476a7143">QOSAddSocketToFlow</a> is called without the QOS_NON_ADAPTIVE_FLOW flag</li>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a> is called without the QOS_NON_ADAPTIVE_FLOW flag</li>
 <li> The destination host is on the local link and not across a router</li>
 <li>The qWAVE subsystem has determined that 802.1p tagged packets are not discarded by a network element on the end-to-end path
 </li>
@@ -124,15 +124,15 @@ Sent traffic will contain a DSCP mark with a value of 0x38 and an 802.1p tag wit
 
 
 
-<a href="https://msdn.microsoft.com/44136284-b553-446e-a95f-1eac476a7143">QOSAddSocketToFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a>
 
 
 
-<a href="https://msdn.microsoft.com/b30e8887-4445-480d-aba8-79ec36384648">QOSSetFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

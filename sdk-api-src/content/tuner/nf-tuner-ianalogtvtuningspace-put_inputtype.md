@@ -62,7 +62,7 @@ The <b>put_InputType</b> method sets the input type (antenna or cable) intended 
 
 ### -param NewInputTypeVal [in]
 
-Variable of type <a href="https://msdn.microsoft.com/en-us/library/Dd407232(v=VS.85).aspx">TunerInputType</a> that specifies the input type.
+Variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagtunerinputtype">TunerInputType</a> that specifies the input type.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/2b531f09-bf2e-4eb2-abcf-60f64cbee17b">IAnalogTVTuningSpace Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace Interface</a>
  
 
  

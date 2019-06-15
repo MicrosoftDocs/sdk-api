@@ -64,7 +64,7 @@ The size, in bytes, of this structure.
 
 ### -field Algid
 
-One of the <a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> values that identifies the algorithm for the key to be converted.
+One of the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> values that identifies the algorithm for the key to be converted.
 
 
 ### -field pbOID

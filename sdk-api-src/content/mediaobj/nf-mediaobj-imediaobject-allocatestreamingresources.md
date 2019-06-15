@@ -82,9 +82,9 @@ This method is optional in the following sense:
 
 <ul>
 <li>If the DMO does not support this method, the method returns S_OK.</li>
-<li>If the application never calls this method, the DMO allocates resources within a call to <a href="https://msdn.microsoft.com/en-us/library/Dd406959(v=VS.85).aspx">IMediaObject::ProcessInput</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd406960(v=VS.85).aspx">IMediaObject::ProcessOutput</a>.</li>
+<li>If the application never calls this method, the DMO allocates resources within a call to <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>.</li>
 </ul>
-If the DMO supports this method, it should also support the <a href="https://msdn.microsoft.com/en-us/library/Dd406946(v=VS.85).aspx">IMediaObject::FreeStreamingResources</a> method.
+If the DMO supports this method, it should also support the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-freestreamingresources">IMediaObject::FreeStreamingResources</a> method.
 
 
 
@@ -94,7 +94,7 @@ If the DMO supports this method, it should also support the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406926(v=VS.85).aspx">IMediaObject Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
  
 
  

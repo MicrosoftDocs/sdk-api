@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-Call this method when your component shuts down. After this method is called, all <a href="https://msdn.microsoft.com/e1698caa-db70-436d-af6a-64c6e7247590">IMFMediaEventQueue</a> methods return <b>MF_E_SHUTDOWN</b>.
+Call this method when your component shuts down. After this method is called, all <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventqueue">IMFMediaEventQueue</a> methods return <b>MF_E_SHUTDOWN</b>.
 
 This method removes all of the events from the queue.
 
@@ -113,7 +113,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/e1698caa-db70-436d-af6a-64c6e7247590">IMFMediaEventQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventqueue">IMFMediaEventQueue</a>
  
 
  

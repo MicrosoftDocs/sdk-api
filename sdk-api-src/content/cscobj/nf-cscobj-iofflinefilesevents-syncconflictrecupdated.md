@@ -65,12 +65,12 @@ The UNC path of the item in conflict.
 
 ### -param pftConflictDateTime [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure containing the date and time when the conflict was detected.  The value is in UTC.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the date and time when the conflict was detected.  The value is in UTC.
 
 
 ### -param ConflictSyncState [in]
 
-Describes the state of the local and remote items in conflict.  One of the <a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
+Describes the state of the local and remote items in conflict.  One of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> sync state values, such as
 
 OFFLINEFILES_SYNC_STATE_FileChangedOnClient_ChangedOnServer
 
@@ -91,7 +91,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
  
 
  

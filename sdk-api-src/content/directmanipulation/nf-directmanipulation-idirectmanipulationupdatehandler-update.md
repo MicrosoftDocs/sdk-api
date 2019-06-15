@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a963abb5-63b8-44d1-910c-ea795398d3de">IDirectManipulationUpdateHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationupdatehandler">IDirectManipulationUpdateHandler</a>
  
 
  

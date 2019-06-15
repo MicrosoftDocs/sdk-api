@@ -60,7 +60,7 @@ The <b>IAttributeGet</b> interface gets key/value pairs from an object, where th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAttributeGet</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAttributeGet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAttributeGet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAttributeGet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAttributeGet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df1aad0c-7e71-4110-8e05-0af33dd04859">GetAttrib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nf-dsattrib-iattributeget-getattrib">GetAttrib</a>
 </td>
 <td align="left" width="63%">
 Returns an attribute value, specified by <b>GUID</b>.
@@ -84,7 +84,7 @@ Returns an attribute value, specified by <b>GUID</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30fdd27f-99df-4ed6-b9ce-514b0e358854">GetAttribIndexed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nf-dsattrib-iattributeget-getattribindexed">GetAttribIndexed</a>
 </td>
 <td align="left" width="63%">
 Returns an attribute value, specified by index.
@@ -93,7 +93,7 @@ Returns an attribute value, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/340a0a0d-26e9-4c63-8552-15f7c841c759">GetCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nf-dsattrib-iattributeget-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of attributes on this object.
@@ -117,11 +117,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce10ae94-5bd5-4f97-a341-8d5f894bda59">IAttributeSet Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeset">IAttributeSet Interface</a>
  
 
  

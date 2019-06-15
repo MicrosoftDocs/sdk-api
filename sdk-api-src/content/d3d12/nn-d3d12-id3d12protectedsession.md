@@ -54,7 +54,7 @@ Offers base functionality that allows for a consistent way to monitor the validi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ProtectedSession</b> interface inherits from <a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>. <b>ID3D12ProtectedSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ProtectedSession</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>. <b>ID3D12ProtectedSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ Gets the status of the protected session.
 <a href="https://docs.microsoft.com/en-us/windows/desktop/api/mmc/nf-mmc-iconsole-settoolbar">GetStatusFence</a>
 </td>
 <td align="left" width="63%">
-Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="https://msdn.microsoft.com/2F2DDFC5-8D31-4BCE-B378-610C95D7805F">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.
+Retrieves the fence for the protected session. From the fence, you can retrieve the current uniqueness validity value (using <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-getcompletedvalue">ID3D12Fence::GetCompletedValue</a>), and add monitors for changes to its value. This is a read-only fence.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Retrieves the fence for the protected session. From the fence, you can retrieve 
 
 
 
-<a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>
  
 
  

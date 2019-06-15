@@ -76,7 +76,7 @@ The <b>SetMute</b> method returns <b>S_OK</b> to indicate that it has completed 
 
 
 
-<a href="https://msdn.microsoft.com/F102CBB2-6751-416C-B59B-F91440583594">IAudioEndpointOffloadStreamMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammute">IAudioEndpointOffloadStreamMute</a>
  
 
  

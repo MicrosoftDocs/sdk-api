@@ -117,7 +117,7 @@ Other errors.
 
 
 
-<a href="https://msdn.microsoft.com/EF14E963-26DF-4E72-9BDF-3AE99D0B7273">IImePlugInDictDictionaryList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>
  
 
  

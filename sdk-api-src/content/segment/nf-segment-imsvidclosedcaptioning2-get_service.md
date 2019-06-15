@@ -59,7 +59,7 @@ The <b>get_Service</b> method retrieves the current closed captioning service.
 
 ### -param On [out]
 
-Pointer to a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd695118(v=VS.85).aspx">MSVidCCService</a> enumeration.
+Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/segment/ne-segment-msvidccservice">MSVidCCService</a> enumeration.
 
 
 ## -returns
@@ -106,7 +106,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694467(v=VS.85).aspx">IMSVidClosedCaptioning2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning2">IMSVidClosedCaptioning2 Interface</a>
  
 
  

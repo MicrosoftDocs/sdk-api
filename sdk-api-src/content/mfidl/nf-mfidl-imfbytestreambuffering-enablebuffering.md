@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-Before calling this method, call <a href="https://msdn.microsoft.com/033ea7d4-d669-497b-be37-a8c9a6584209">IMFByteStreamBuffering::SetBufferingParams</a> to set the buffering parameters on the byte stream.
+Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-setbufferingparams">IMFByteStreamBuffering::SetBufferingParams</a> to set the buffering parameters on the byte stream.
 
 
 
@@ -108,7 +108,7 @@ Before calling this method, call <a href="https://msdn.microsoft.com/033ea7d4-d6
 
 
 
-<a href="https://msdn.microsoft.com/bbf9cdb1-5ec7-498a-aa59-85c24779547e">IMFByteStreamBuffering</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
  
 
  

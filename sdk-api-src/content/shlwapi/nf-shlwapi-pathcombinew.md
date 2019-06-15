@@ -57,7 +57,7 @@ ms.custom: 19H1
 Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
         
             
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://msdn.microsoft.com/506a4165-f572-4521-958f-56a0296f9c05">PathCchCombine</a> or <a href="https://msdn.microsoft.com/798c2e49-04a5-4270-b584-41faf1519e4b">PathCchCombineEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> function in its place.</div><div> </div>
 
 ## -parameters
 

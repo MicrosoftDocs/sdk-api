@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>ReadClassStm</b> function
 			reads the CLSID previously written to a stream object with the 
-<a href="https://msdn.microsoft.com/c08bfbc8-f7ac-4534-8c98-c732c6daa2f7">WriteClassStm</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstm">WriteClassStm</a> function.
 
 
 ## -parameters
@@ -65,8 +65,8 @@ The
 ### -param pStm [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface on the stream object that contains the CLSID to be read. This CLSID must have been previously written to the stream object using 
-<a href="https://msdn.microsoft.com/c08bfbc8-f7ac-4534-8c98-c732c6daa2f7">WriteClassStm</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream object that contains the CLSID to be read. This CLSID must have been previously written to the stream object using 
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstm">WriteClassStm</a>.
 
 
 ### -param pclsid [out]
@@ -79,7 +79,7 @@ A pointer to where the CLSID is to be written.
 
 
 This function also returns any of the error values returned by the 
-<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> method.
 
 
 
@@ -90,7 +90,7 @@ This function also returns any of the error values returned by the
 
 Most applications do not call the 
 <b>ReadClassStm</b> function directly. COM calls it before making a call to an object's 
-<a href="https://msdn.microsoft.com/en-us/library/ms680568(v=VS.85).aspx">IPersistStream::Load</a> implementation.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a> implementation.
 
 
 
@@ -100,15 +100,15 @@ Most applications do not call the
 
 
 
-<a href="https://msdn.microsoft.com/90256fcd-54ce-48e1-aa12-d8f91cd4dfb1">ReadClassStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-readclassstg">ReadClassStg</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e">WriteClassStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>
 
 
 
-<a href="https://msdn.microsoft.com/c08bfbc8-f7ac-4534-8c98-c732c6daa2f7">WriteClassStm</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstm">WriteClassStm</a>
  
 
  

@@ -61,17 +61,17 @@ Creates a connection between an advise sink and a data object for receiving noti
 
 ### -param pDataObject [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface on the data object for which notifications are requested. If data in this object changes, a notification is sent to the advise sinks that have requested notification.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object for which notifications are requested. If data in this object changes, a notification is sent to the advise sinks that have requested notification.
 
 
 ### -param pFetc [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure that contains the specified format, medium, and target device that is of interest to the advise sink requesting notification. For example, one sink may want to know only when the bitmap representation of the data in the data object changes. Another sink may be interested in only the metafile format of the same object. Each advise sink is notified when the data of interest changes. This data is passed back to the advise sink when notification occurs.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure that contains the specified format, medium, and target device that is of interest to the advise sink requesting notification. For example, one sink may want to know only when the bitmap representation of the data in the data object changes. Another sink may be interested in only the metafile format of the same object. Each advise sink is notified when the data of interest changes. This data is passed back to the advise sink when notification occurs.
 
 
 ### -param advf [in]
 
-A group of flags that  control the advisory connection. Possible values are from the <a href="https://msdn.microsoft.com/e1ad9c17-e492-4891-bf1d-cbac48ce537a">ADVF</a> enumeration. However, only some of the possible <b>ADVF</b> values are relevant for this method. The following table briefly describes the relevant values; a more detailed description can be found in the description of the <b>ADVF</b> enumeration.
+A group of flags that  control the advisory connection. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagadvf">ADVF</a> enumeration. However, only some of the possible <b>ADVF</b> values are relevant for this method. The following table briefly describes the relevant values; a more detailed description can be found in the description of the <b>ADVF</b> enumeration.
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ Asks that no data be sent along with the notification.
 </dl>
 </td>
 <td width="60%">
-Causes the advisory connection to be destroyed after the first notification is sent. An implicit call to <a href="https://msdn.microsoft.com/baeb29fd-1dd2-4320-911d-b271b2250184">IDataAdviseHolder::Unadvise</a> is made on behalf of the caller to remove the connection.
+Causes the advisory connection to be destroyed after the first notification is sent. An implicit call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">IDataAdviseHolder::Unadvise</a> is made on behalf of the caller to remove the connection.
 
 </td>
 </tr>
@@ -124,12 +124,12 @@ When specified with ADVF_NODATA, this flag causes a last notification with the d
 
 ### -param pAdvise [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/bc9f217a-75bd-4155-9d00-df44b00cf0e5">IAdviseSink</a> interface on the advisory sink that receives the change notification.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface on the advisory sink that receives the change notification.
 
 
 ### -param pdwConnection [out]
 
-A pointer to a variable that receives a  token that identifies this connection. The calling object can later delete the advisory connection by passing this token to <a href="https://msdn.microsoft.com/baeb29fd-1dd2-4320-911d-b271b2250184">IDataAdviseHolder::Unadvise</a>. If this value is zero, the connection was not established.
+A pointer to a variable that receives a  token that identifies this connection. The calling object can later delete the advisory connection by passing this token to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">IDataAdviseHolder::Unadvise</a>. If this value is zero, the connection was not established.
 
 
 ## -returns
@@ -145,13 +145,13 @@ This method returns S_OK on success.
 
 
 
-Through the connection established through this method, the advisory sink can receive future notifications in a call to <a href="https://msdn.microsoft.com/834a5328-3a1f-4edb-aad0-be8ab87acb04">IAdviseSink::OnDataChange</a>.
+Through the connection established through this method, the advisory sink can receive future notifications in a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">IAdviseSink::OnDataChange</a>.
 
-An object issues a call to <a href="https://msdn.microsoft.com/be9891d4-aad3-42a0-8c8e-4b86091ff03b">IDataObject::DAdvise</a> to request notification on changes to the format, medium, or target device of interest. This data is specified in the <i>pFormatetc</i> parameter. The <b>DAdvise</b> method is usually implemented to call <b>IDataAdviseHolder::Advise</b> to delegate the task of setting up and tracking a connection to the advise holder. When the format, medium, or target device in question changes, the data object calls <a href="https://msdn.microsoft.com/b7385116-2ec7-4e12-a2dc-c9029a38d8fd">IDataAdviseHolder::SendOnDataChange</a> to send the necessary notifications.
+An object issues a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> to request notification on changes to the format, medium, or target device of interest. This data is specified in the <i>pFormatetc</i> parameter. The <b>DAdvise</b> method is usually implemented to call <b>IDataAdviseHolder::Advise</b> to delegate the task of setting up and tracking a connection to the advise holder. When the format, medium, or target device in question changes, the data object calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-sendondatachange">IDataAdviseHolder::SendOnDataChange</a> to send the necessary notifications.
 
 
 
-The established connection can be deleted by passing the value in <i>pdwConnection</i> in a call to <a href="https://msdn.microsoft.com/baeb29fd-1dd2-4320-911d-b271b2250184">IDataAdviseHolder::Unadvise</a>.
+The established connection can be deleted by passing the value in <i>pdwConnection</i> in a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">IDataAdviseHolder::Unadvise</a>.
 
 
 
@@ -161,15 +161,15 @@ The established connection can be deleted by passing the value in <i>pdwConnecti
 
 
 
-<a href="https://msdn.microsoft.com/a2114f2f-106a-4a26-ba94-1b40af90a0f3">CreateDataAdviseHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createdataadviseholder">CreateDataAdviseHolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/740a6366-6ab1-4a20-82df-1efdd62211eb">IDataAdviseHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/be9891d4-aad3-42a0-8c8e-4b86091ff03b">IDataObject::DAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>
  
 
  

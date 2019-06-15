@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for <a href="https://msdn.microsoft.com/253f26c6-b5dd-4837-9135-96e11b4688c8">IOleWindow::ContextSensitiveHelp</a>.
+Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-contextsensitivehelp">IOleWindow::ContextSensitiveHelp</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Indicates if the application should transition into or out of context-sensitive 
 
 ### -param fEnterMode
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>TRUE</b>, the application should enter context-sensitive help mode. If <b>FALSE</b>, the application should leave context-sensitive help mode. 
 
@@ -68,7 +68,7 @@ If <b>TRUE</b>, the application should enter context-sensitive help mode. If <b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can be the following value.
 
@@ -99,7 +99,7 @@ There was an invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774308(v=VS.85).aspx">IRichEditOleCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
  
 
  

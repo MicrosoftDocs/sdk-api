@@ -72,7 +72,7 @@ A decreasing slope.
 
 
 
-<a href="https://msdn.microsoft.com/7164bcac-3de3-4b52-8eb3-d38156573feb">IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary-createsinusoidaltransitionfromrange">IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange</a>
  
 
  

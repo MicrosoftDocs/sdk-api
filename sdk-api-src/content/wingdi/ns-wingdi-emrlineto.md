@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMRLINETO</b> and <b>EMRMOVETOEX</b> structures contains members for the <a href="https://msdn.microsoft.com/a31b3a9a-110f-4cdf-89d9-19937a2e40b4">LineTo</a> and <a href="https://msdn.microsoft.com/af11eeb7-4036-4a90-8685-9b5719f79e01">MoveToEx</a> enhanced metafile records.
+The <b>EMRLINETO</b> and <b>EMRMOVETOEX</b> structures contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a> enhanced metafile records.
 
 
 
@@ -67,7 +67,7 @@ Base structure for all record types.
 
 ### -field ptl
 
-Coordinates of the line's ending point for the <a href="https://msdn.microsoft.com/a31b3a9a-110f-4cdf-89d9-19937a2e40b4">LineTo</a> function or coordinates of the new current position for the <a href="https://msdn.microsoft.com/af11eeb7-4036-4a90-8685-9b5719f79e01">MoveToEx</a> function in logical units.
+Coordinates of the line's ending point for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a> function or coordinates of the new current position for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a> function in logical units.
 
 
 ## -see-also
@@ -75,11 +75,11 @@ Coordinates of the line's ending point for the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

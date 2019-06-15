@@ -54,7 +54,7 @@ Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) us
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbResourceNotificationEx</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITsSbResourceNotificationEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbResourceNotificationEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbResourceNotificationEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbResourceNotificationEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79f59e18-f9ca-4e64-b8a1-8b0dd2b2715e">NotifyClientConnectionStateChangeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotificationex-notifyclientconnectionstatechangeex">NotifyClientConnectionStateChangeEx</a>
 </td>
 <td align="left" width="63%">
 Notifies registered plug-ins about state changes in a client connection.
@@ -78,7 +78,7 @@ Notifies registered plug-ins about state changes in a client connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75f7371a-fd3e-4045-b8fe-23d57d75b27a">NotifySessionChangeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotificationex-notifysessionchangeex">NotifySessionChangeEx</a>
 </td>
 <td align="left" width="63%">
 Notifies registered plug-ins about state changes in a session object.
@@ -87,7 +87,7 @@ Notifies registered plug-ins about state changes in a session object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8f1f07ce-4b5d-4e21-834d-f554bd73cc63">NotifyTargetChangeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotificationex-notifytargetchangeex">NotifyTargetChangeEx</a>
 </td>
 <td align="left" width="63%">
 Notifies registered plug-ins about state changes in a target object.
@@ -102,11 +102,11 @@ Notifies registered plug-ins about state changes in a target object.
 
 
 
-<a href="https://msdn.microsoft.com/70785b82-239d-4957-9703-ced685a2e0b8">ITsSbResourceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/150a3c9a-d504-4854-adaa-92e3a7e8ea70">Remote Desktop Virtualization Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
  
 
  

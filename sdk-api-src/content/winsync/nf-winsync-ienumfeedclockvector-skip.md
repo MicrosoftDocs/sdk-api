@@ -114,7 +114,7 @@ The enumerator reaches the end of its list before it can skip <i>cSyncVersions</
 
 
 
-<a href="https://msdn.microsoft.com/87679327-3a09-4416-b802-91171feb160a">IEnumFeedClockVector Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>
  
 
  

@@ -61,14 +61,14 @@ The <b>FAX_RECEIVE</b> structure contains information about an inbound fax docum
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_RECEIVE</b> structure. Before calling the <a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a> function, the fax service sets this member to <b>sizeof</b>(<b>FAX_RECEIVE</b>). For more information, see the following Remarks section.
+Specifies the size, in bytes, of the <b>FAX_RECEIVE</b> structure. Before calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a> function, the fax service sets this member to <b>sizeof</b>(<b>FAX_RECEIVE</b>). For more information, see the following Remarks section.
 
 
 ### -field FileName
 
 Type: <b>LPWSTR</b>
 
-Pointer to a null-terminated Unicode character string that specifies the full path to the file in which the FSP must store the data stream of an inbound fax document. The data stream is a TIFF Class F file. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693440(v=VS.85).aspx">Fax Image Format</a>. The fax service creates the file before it calls the <a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a> function. The FSP must specify the OPEN_EXISTING flag when opening this file.
+Pointer to a null-terminated Unicode character string that specifies the full path to the file in which the FSP must store the data stream of an inbound fax document. The data stream is a TIFF Class F file. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-image-format">Fax Image Format</a>. The fax service creates the file before it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a> function. The FSP must specify the OPEN_EXISTING flag when opening this file.
 
 
 ### -field ReceiverName
@@ -131,7 +131,7 @@ wcscpy_s(  FaxReceive->ReceiverName, ReceiverName );
 
 
 <img alt="Filling in the memory that the fax service allocates" src="images/faxover.png"/>
-The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members and transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure.
+The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members and transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a> structure.
 
 
 
@@ -141,19 +141,19 @@ The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684540(v=VS.85).aspx">Fax Service Provider Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-structures">Fax Service Provider Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
  
 
  

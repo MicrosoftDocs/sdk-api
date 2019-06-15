@@ -63,7 +63,7 @@ Retrieves an attribute at the specified index.
 
 ### -param unIndex [in]
 
-Index of the attribute to retrieve. To get the number of attributes, call <a href="https://msdn.microsoft.com/5f511d5c-249c-4311-8380-a932a755eaaf">IMFAttributes::GetCount</a>.
+Index of the attribute to retrieve. To get the number of attributes, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getcount">IMFAttributes::GetCount</a>.
 
 
 ### -param pguidKey [out]
@@ -123,11 +123,11 @@ To enumerate all of an object's attributes in a thread-safe way, do the followin
 
 <ol>
 <li>
-Call <a href="https://msdn.microsoft.com/6ec7aed3-7dbc-4aa4-92d5-646aee757db7">IMFAttributes::LockStore</a> to prevent another thread from adding or deleting attributes.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-lockstore">IMFAttributes::LockStore</a> to prevent another thread from adding or deleting attributes.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/5f511d5c-249c-4311-8380-a932a755eaaf">IMFAttributes::GetCount</a> to find the number of attributes.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getcount">IMFAttributes::GetCount</a> to find the number of attributes.
 
 </li>
 <li>
@@ -135,7 +135,7 @@ Call <b>GetItemByIndex</b> to get each attribute by index.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/65e35864-868a-4ae9-86ed-772a2b2daeb6">IMFAttributes::UnlockStore</a> to unlock the attribute store.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-unlockstore">IMFAttributes::UnlockStore</a> to unlock the attribute store.
 
 </li>
 </ol>
@@ -153,11 +153,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/44af5e03-5f0a-4564-b9d6-b8c935df35b2">Attributes and Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
  
 
  

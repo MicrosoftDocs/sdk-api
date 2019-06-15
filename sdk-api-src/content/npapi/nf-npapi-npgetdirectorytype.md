@@ -91,7 +91,7 @@ This function should return WN_SUCCESS if it is successful. Otherwise, it should
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/70ee5c14-1395-470a-970c-91a3d3ac0fd1">NPGetDirectoryType</a> is not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetdirectorytype">NPGetDirectoryType</a> is not supported.
 
 </td>
 </tr>

@@ -64,18 +64,18 @@ Specifies the size, in bytes, of this structure.
 
 ### -field ImpersonationLevel
 
-Specifies the information given to the server about the client, and how the server may represent, or impersonate, the client. Security impersonation levels govern the degree to which a server process can act on behalf of a client <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a>. This member is a 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> enumeration type value.
+Specifies the information given to the server about the client, and how the server may represent, or impersonate, the client. Security impersonation levels govern the degree to which a server process can act on behalf of a client <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a>. This member is a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumeration type value.
 
 
 ### -field ContextTrackingMode
 
-Specifies whether the server is to be given a snapshot of the client's <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> (called static tracking), or is to be continually updated to track changes to the client's security context (called dynamic tracking). The SECURITY_STATIC_TRACKING value  specifies static tracking, and the SECURITY_DYNAMIC_TRACKING value specifies dynamic tracking. Not all communications mechanisms support dynamic tracking; those that do not will default to static tracking.
+Specifies whether the server is to be given a snapshot of the client's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> (called static tracking), or is to be continually updated to track changes to the client's security context (called dynamic tracking). The SECURITY_STATIC_TRACKING value  specifies static tracking, and the SECURITY_DYNAMIC_TRACKING value specifies dynamic tracking. Not all communications mechanisms support dynamic tracking; those that do not will default to static tracking.
 
 
 ### -field EffectiveOnly
 
-Specifies whether the server may enable or disable <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> and groups that the client's security context may include.
+Specifies whether the server may enable or disable <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> and groups that the client's security context may include.
 
 
 ## -see-also
@@ -83,11 +83,11 @@ Specifies whether the server may enable or disable <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649003(v=VS.85).aspx">DdeSetQualityOfService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-ddesetqualityofservice">DdeSetQualityOfService</a>
 
 
 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

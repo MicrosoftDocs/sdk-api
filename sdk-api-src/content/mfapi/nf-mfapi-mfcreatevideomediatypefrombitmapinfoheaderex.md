@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a video media type from a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+Creates a video media type from a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Creates a video media type from a <a href="https://msdn.microsoft.com/153c08a8-d
 
 ### -param pbmihBitMapInfoHeader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure to convert.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure to convert.
 
 
 ### -param cbBitMapInfoHeader [in]
 
-The size of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure in bytes, including the size of any palette entries or color masks that follow the structure.
+The size of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure in bytes, including the size of any palette entries or color masks that follow the structure.
 
 
 ### -param dwPixelAspectRatioX
@@ -79,12 +79,12 @@ The Y dimension of the pixel aspect ratio.
 
 ### -param InterlaceMode
 
-A member of the <a href="https://msdn.microsoft.com/10a3d7b1-74ed-46cd-b10e-59a8f01726d5">MFVideoInterlaceMode</a> enumeration, specifying how the video is interlaced.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideointerlacemode">MFVideoInterlaceMode</a> enumeration, specifying how the video is interlaced.
 
 
 ### -param VideoFlags
 
-A bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/2530bf1d-05b1-4c16-b00b-117c0dadb301">MFVideoFlags</a> enumeration.
+A bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mfvideoflags">MFVideoFlags</a> enumeration.
 
 
 ### -param dwFramesPerSecondNumerator
@@ -107,7 +107,7 @@ The approximate data rate of the video stream, in bits per second. If the rate i
 ### -param ppIVideoMediaType [out]
 
 Receives a pointer to the 
-          <a href="https://msdn.microsoft.com/9109b0dd-c44d-41d4-9480-1ca5c667dbd7">IMFVideoMediaType</a> interface. The caller must release the interface.
+          <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfvideomediatype">IMFVideoMediaType</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -124,7 +124,7 @@ If the function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

@@ -86,7 +86,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 
 
 
-<a href="https://msdn.microsoft.com/0373AC0B-8988-494B-A795-CAA62A538FE4">IAppxPackageWriter3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter3">IAppxPackageWriter3</a>
  
 
  

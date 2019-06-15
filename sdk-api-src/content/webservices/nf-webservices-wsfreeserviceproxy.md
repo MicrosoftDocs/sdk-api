@@ -60,8 +60,8 @@ Releases the memory associated with  a Service Proxy resource.
 
 ### -param serviceProxy [in]
 
-A pointer to the <b>Service Proxy</b> to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> object
-                    returned by <a href="https://msdn.microsoft.com/9215684b-979e-48ad-b4ee-2ae1db1e3034">WsCreateServiceProxy</a>. The referenced value may not be <b>NULL</b>.
+A pointer to the <b>Service Proxy</b> to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> object
+                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a>. The referenced value may not be <b>NULL</b>.
                 
 
 
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-For details of when it is allowed to call this function, see <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">Service Proxy</a> .
+For details of when it is allowed to call this function, see <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">Service Proxy</a> .
             
 
 

@@ -64,7 +64,7 @@ Offset from the beginning of this structure to a null-terminated Unicode string 
 
 ### -field Flag
 
-Indicates if the map is a value map, bitmap, or pattern map. This member can contain one or more flag values. For possible values, see the <a href="https://msdn.microsoft.com/3fc6935a-328a-4df3-8c2f-cd634d94ca16">MAP_FLAGS</a> enumeration.
+Indicates if the map is a value map, bitmap, or pattern map. This member can contain one or more flag values. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_map_flags">MAP_FLAGS</a> enumeration.
 
 
 ### -field EntryCount
@@ -75,19 +75,19 @@ Number of map entries in <b>MapEntryArray</b>.
 ### -field MapEntryValueType
 
  
-		Determines if you use the <b>Value</b> member or <b>InputOffset</b> member of <a href="https://msdn.microsoft.com/e5b12f7a-4a00-41a0-90df-7d1317d63a4a">EVENT_MAP_ENTRY</a> to access the map value. For possible values, see the <a href="https://msdn.microsoft.com/a17e5214-29d3-465f-9785-0cc8965a42c9">MAP_VALUETYPE</a> enumeration.
+		Determines if you use the <b>Value</b> member or <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_map_valuetype">MAP_VALUETYPE</a> enumeration.
 
 
 ### -field FormatStringOffset
 
-If the value of <b>Flag</b> is EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, use this offset to access the null-terminated Unicode string that contains the value of the <b>format</b> attribute of the <a href="https://msdn.microsoft.com/184b6aeb-a554-4a92-b19e-1849c711d33b">patternMap</a> element. The offset is from the beginning of this structure.  
+If the value of <b>Flag</b> is EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, use this offset to access the null-terminated Unicode string that contains the value of the <b>format</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-patternmaptype-complextype">patternMap</a> element. The offset is from the beginning of this structure.  
 
-The EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP also indicates that you use the <b>InputOffset</b> member of <a href="https://msdn.microsoft.com/e5b12f7a-4a00-41a0-90df-7d1317d63a4a">EVENT_MAP_ENTRY</a> to access the map value.
+The EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP also indicates that you use the <b>InputOffset</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> to access the map value.
 
 
 ### -field MapEntryArray
 
- Array of map entries. For details, see the <a href="https://msdn.microsoft.com/e5b12f7a-4a00-41a0-90df-7d1317d63a4a">EVENT_MAP_ENTRY</a> structure.
+ Array of map entries. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_map_entry">EVENT_MAP_ENTRY</a> structure.
 
 
 ## -see-also
@@ -95,7 +95,7 @@ The EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP also indicates that you use the <b>In
 
 
 
-<a href="https://msdn.microsoft.com/2625b65c-7f9e-4a87-85c6-d16857ef4987">TdhGetEventMapInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a>
  
 
  

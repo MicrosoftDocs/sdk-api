@@ -59,7 +59,7 @@ Notifies registered plug-ins about state changes in a target object.
 
 ### -param TargetChangeType [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Ee351745(v=VS.85).aspx">TARGET_CHANGE_TYPE</a> enumeration that specifies the type of change that occurred in a target.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_target_change_type">TARGET_CHANGE_TYPE</a> enumeration that specifies the type of change that occurred in a target.
 
 
 ### -param pTarget [in]
@@ -90,15 +90,15 @@ RD Connection Broker calls the <b>NotifyTargetChange</b> method to notify regis
 
 
 
-<a href="https://msdn.microsoft.com/70785b82-239d-4957-9703-ced685a2e0b8">ITsSbResourceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcb26b43-ec6e-4cc8-9d40-15a7a3a62582">ITsSbTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351745(v=VS.85).aspx">TARGET_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_target_change_type">TARGET_CHANGE_TYPE</a>
  
 
  

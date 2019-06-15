@@ -82,7 +82,7 @@ The collection operation (fetching or committing) was canceled.
 
 
 
-<a href="https://msdn.microsoft.com/c12c55c1-baff-4810-ad2a-453abb6af5b5">IFsrmCollection::State</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcollection-get_state">IFsrmCollection::State</a>
  
 
  

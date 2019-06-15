@@ -65,7 +65,7 @@ Translates a device-definition string into appropriate device-control block code
 ### -param lpDef [in]
 
 The device-control information. The function takes this string, parses it, and then sets appropriate values 
-       in the <a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure pointed to by 
+       in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a> structure pointed to by 
        <i>lpDCB</i>.
 
 The string must have the same form as the <b>mode</b> command's command-line arguments:
@@ -90,7 +90,7 @@ For example, the following string specifies a baud rate of 1200, no parity, 8 da
 
 ### -param lpDCB [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a> structure that receives information 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a> structure that receives information 
       from the device-control information string pointed to by <i>lpDef</i>. This 
       <b>DCB</b> structure defines the control settings for a 
       communications device.
@@ -98,7 +98,7 @@ A pointer to a <a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-98154
 
 ### -param lpCommTimeouts [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a> structure that 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> structure that 
       receives time-out information.
 
 
@@ -109,7 +109,7 @@ A pointer to a <a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a4
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -125,16 +125,16 @@ The <b>BuildCommDCBAndTimeouts</b> function
 <ul>
 <li>If that string contains the substring "to=on", the function sets the 
       <b>WriteTotalTimeoutConstant</b> member of the 
-      <a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a> structure to 60000 and all other members 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> structure to 60000 and all other members 
       to 0.</li>
 <li>If that string contains the substring "to=off", the function sets the members of 
-      <a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a> to 0.</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> to 0.</li>
 <li>If that string does not specify a "to={on|off}" substring, the function ignores the 
-      <a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a> structure in 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a> structure in 
       <i>lpCommTimeouts</i>.</li>
 </ul>
 For more information, see the Remarks for the 
-    <a href="https://msdn.microsoft.com/6ecd497d-2247-4b6b-8751-c107717de434">BuildCommDCB</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a> function.
 
 
 
@@ -144,31 +144,31 @@ For more information, see the Remarks for the
 
 
 
-<a href="https://msdn.microsoft.com/6ecd497d-2247-4b6b-8751-c107717de434">BuildCommDCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commtimeouts">COMMTIMEOUTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba7d1a9e-6906-4923-a8eb-db58050ba699">Communications Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faf7d55-e30f-4be2-917b-e057265b81b2">Communications Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dccd2c6-44b7-4609-a2b9-9815430bf3c7">DCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_dcb">DCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommtimeouts">GetCommTimeouts</a>
 
 
 
-<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
  
 
  

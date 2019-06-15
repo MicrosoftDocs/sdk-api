@@ -114,15 +114,15 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://msdn.microsoft.com/14389eea-8091-4c10-849e-53db3e98a7c8">Media Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ab576ce-becd-4736-921e-e463c0dff841">Time Stamps and Durations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/time-stamps-and-durations">Time Stamps and Durations</a>
  
 
  

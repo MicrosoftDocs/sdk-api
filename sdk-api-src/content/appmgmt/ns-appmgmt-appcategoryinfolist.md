@@ -61,14 +61,14 @@ Provides a list of supported application categories from an application publishe
 
 Type: <b>DWORD</b>
 
-A value of type <b>DWORD</b> that specifies the count of <a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a> elements in the array pointed to by <b>pCategoryInfo</b>.
+A value of type <b>DWORD</b> that specifies the count of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfo">APPCATEGORYINFO</a> elements in the array pointed to by <b>pCategoryInfo</b>.
 
 
 ### -field pCategoryInfo
 
-Type: <b><a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfo">APPCATEGORYINFO</a>*</b>
 
-A pointer to an array of <a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a> structures. This array contains all the categories an application publisher supports and must be allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> and freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfo">APPCATEGORYINFO</a> structures. This array contains all the categories an application publisher supports and must be allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
         
 
 
@@ -89,11 +89,11 @@ A pointer to an array of <a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-
 
 
 
-<a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfo">APPCATEGORYINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/139a5094-8bb3-4b5d-938d-ba4af5d52d94">IAppPublisher::GetCategories</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getcategories">IAppPublisher::GetCategories</a>
  
 
  

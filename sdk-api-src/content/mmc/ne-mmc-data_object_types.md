@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>DATA_OBJECT_TYPES</b> enumeration is used by the <i>type</i> parameter of 
-<a href="https://msdn.microsoft.com/567d068e-5447-438c-9719-93227807263a">IComponentData::QueryDataObject</a> and 
-<a href="https://msdn.microsoft.com/5bdbd321-4245-4c73-9071-1a9bc3853ba5">IComponent::QueryDataObject</a> to obtain context information about a specified cookie.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">IComponentData::QueryDataObject</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a> to obtain context information about a specified cookie.
 
 
 ## -enum-fields

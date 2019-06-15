@@ -104,7 +104,7 @@ The platform will keep this information on the file until the last handle on it 
 
 
 
-The platform provides the <b>ConnectionKey</b>, <b>TransferKey</b>, and <b>CorrelationVector</b> to all callback functions registered via <a href="https://msdn.microsoft.com/287DA978-9797-48DF-9C90-BA53BB82475C">CfConnectSyncRoot</a>. Additionally, sync providers can obtain a <b>TransferKey</b> using <a href="https://msdn.microsoft.com/07DDC46A-0C10-4677-A4B0-5A0406BBDAB7">CfGetTransferKey</a> and a <b>CorrelationVector</b> using <a href="https://msdn.microsoft.com/3DB0AAFE-82DC-4707-8DB6-C52D4A9B2771">CfGetCorrelationVector</a>.
+The platform provides the <b>ConnectionKey</b>, <b>TransferKey</b>, and <b>CorrelationVector</b> to all callback functions registered via <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a>. Additionally, sync providers can obtain a <b>TransferKey</b> using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgettransferkey">CfGetTransferKey</a> and a <b>CorrelationVector</b> using <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgetcorrelationvector">CfGetCorrelationVector</a>.
 
 
 

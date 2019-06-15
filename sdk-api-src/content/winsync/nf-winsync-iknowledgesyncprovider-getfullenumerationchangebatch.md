@@ -79,7 +79,7 @@ Returns a change batch that contains item metadata for items that have IDs great
 
 ### -param ppUnkDataRetriever [out]
 
-Returns an object that can be used to retrieve change data. It can be an <a href="https://msdn.microsoft.com/d59a5198-5878-4a48-b6c4-042afc36054d">ISynchronousDataRetriever</a> object or a provider-specific object.
+Returns an object that can be used to retrieve change data. It can be an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
 
 
 ## -returns
@@ -124,7 +124,7 @@ The method succeeded.
 
 This method enumerates, in sorted order by item ID, changes that have an item ID of <i>pbLowerEnumerationBound</i> or greater. This enables a synchronization session to determine which items on the destination provider have been deleted but forgotten by the source provider. Optionally, this method can also add changes to the batch, sorted by item ID, that have item ID less than <i>pbLowerEnumerationBound</i> and that are not contained in the destination knowledge.
 
-<div class="alert"><b>Note</b>  If there are no more changes to send after this batch, <a href="https://msdn.microsoft.com/7619b446-5c71-4533-8af6-15f06dda3c87">ISyncChangeBatchBase::SetLastBatch</a> must be called on the returned change batch. Otherwise, the synchronization session calls <b>GetFullEnumerationChangeBatch</b> again to retrieve another batch of changes.<p class="note">For a provider that sends item data together with item change metadata, <i>pSyncKnowledge</i> can be used to determine whether it is necessary to send item data. Item data does not have to be sent when the item change is contained in <i>pSyncKnowledge</i>. Be aware that before it can be used to check items for containment, <i>pSyncKnowledge</i> must be mapped by using the <a href="https://msdn.microsoft.com/9325ff3e-4f8e-4a18-bc95-57af30ccd437">ISyncKnowledge::MapRemoteToLocal</a> method on the knowledge object that is contained in the current provider.
+<div class="alert"><b>Note</b>  If there are no more changes to send after this batch, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setlastbatch">ISyncChangeBatchBase::SetLastBatch</a> must be called on the returned change batch. Otherwise, the synchronization session calls <b>GetFullEnumerationChangeBatch</b> again to retrieve another batch of changes.<p class="note">For a provider that sends item data together with item change metadata, <i>pSyncKnowledge</i> can be used to determine whether it is necessary to send item data. Item data does not have to be sent when the item change is contained in <i>pSyncKnowledge</i>. Be aware that before it can be used to check items for containment, <i>pSyncKnowledge</i> must be mapped by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-mapremotetolocal">ISyncKnowledge::MapRemoteToLocal</a> method on the knowledge object that is contained in the current provider.
 
 </div>
 <div> </div>
@@ -136,23 +136,23 @@ This method enumerates, in sorted order by item ID, changes that have an item ID
 
 
 
-<a href="https://msdn.microsoft.com/396bbf7e-7fd0-4a2e-8304-f87097cd5e50">IKnowledgeSyncProvider Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/14ca01a1-04eb-4282-adf0-e775d6ff0801">ISyncChangeBatchBase Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb08476-7b5d-4953-b723-5160330e57be">ISyncKnowledge Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d59a5198-5878-4a48-b6c4-042afc36054d">ISynchronousDataRetriever Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fea7e7f6-1570-4c34-a97c-90cd57c5acdc">Windows Sync Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-reference">Windows Sync Reference</a>
  
 
  

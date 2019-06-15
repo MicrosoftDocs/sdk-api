@@ -90,7 +90,7 @@ If custom painting is enabled, the button or background will be rendered at leas
 
 
 
-<a href="https://msdn.microsoft.com/3d6a6289-7be5-4cf0-8cb7-9095c4ee7149">IMathInputControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
  
 
  

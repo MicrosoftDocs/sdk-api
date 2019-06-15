@@ -86,11 +86,11 @@ This method has the same effect as selecting <b>View | Arrange Icons By | Auto A
 
 
 
-<a href="https://msdn.microsoft.com/e3b0b35f-6707-4e37-8470-31b1d4421d07">IShellFolderView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderview">IShellFolderView</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cb77a02-82da-42d3-97a3-ff47a9ce1831">IShellFolderView::ArrangeGrid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-arrangegrid">IShellFolderView::ArrangeGrid</a>
  
 
  

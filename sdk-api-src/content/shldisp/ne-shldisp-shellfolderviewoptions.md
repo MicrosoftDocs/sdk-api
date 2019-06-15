@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the view options returned by the <a href="https://msdn.microsoft.com/83a17033-bd7f-44de-a0c8-460d12c4825d">ViewOptions</a> property.
+Specifies the view options returned by the <a href="https://docs.microsoft.com/windows/desktop/shell/shellfolderview-viewoptions">ViewOptions</a> property.
 
 
 ## -enum-fields

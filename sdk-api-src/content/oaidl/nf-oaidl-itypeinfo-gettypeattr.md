@@ -119,7 +119,7 @@ Insufficient memory to complete the operation.
 
 
 
-To free the TYPEATTR structure, use <a href="https://msdn.microsoft.com/86827f7f-d5c7-4297-8eb9-af7b03d16121">ITypeInfo::ReleaseTypeAttr</a>.
+To free the TYPEATTR structure, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasetypeattr">ITypeInfo::ReleaseTypeAttr</a>.
 
 
 
@@ -130,7 +130,7 @@ To free the TYPEATTR structure, use <a href="https://msdn.microsoft.com/86827f7f
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

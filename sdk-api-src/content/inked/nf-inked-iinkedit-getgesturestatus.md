@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is interested in a particular application gesture.
+Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is interested in a particular application gesture.
 
 
 
@@ -68,7 +68,7 @@ The gesture that you want the status of.
 
 ### -param pListen [out, retval]
 
-<b>VARIANT_TRUE</b> if the <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control has interest in the gesture and the <a href="https://msdn.microsoft.com/736715f4-c610-42cc-9fbb-c2b579da69e5">Gesture</a> event of the InkEdit control fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkEdit control has no interest in the gesture.
+<b>VARIANT_TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control has interest in the gesture and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-gesture">Gesture</a> event of the InkEdit control fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkEdit control has no interest in the gesture.
 
 
 ## -returns
@@ -158,30 +158,30 @@ The flag is invalid.
 
 
 
-This method throws an exception if the <i>gesture</i> parameter is set to the <a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_AllGestures</a> gesture.
+This method throws an exception if the <i>gesture</i> parameter is set to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture.
 
-To set the interest of the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control in a particular gesture, call the <a href="https://msdn.microsoft.com/1fc9daa5-ee34-409b-b977-0d39b23d422e">SetGestureStatus</a> method.
+To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control in a particular gesture, call the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus</a> method.
 
-<div class="alert"><b>Note</b>  By default, the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control has interest in the following gestures:</div>
+<div class="alert"><b>Note</b>  By default, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control has interest in the following gestures:</div>
 <div> </div>
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_Left</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_Left</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_Right</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_Right</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_UpRightLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_UpRightLong</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_DownLeftLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_DownLeftLong</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_UpRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_UpRight</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">IAG_DownLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_DownLeft</a>
 </li>
 </ul>
 
@@ -192,7 +192,7 @@ To set the interest of the <a href="https://msdn.microsoft.com/52761cb2-4433-482
 
 
 
-<a href="https://msdn.microsoft.com/736715f4-c610-42cc-9fbb-c2b579da69e5">Gesture Event [InkEdit Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-gesture">Gesture Event [InkEdit Control]</a>
 
 
 
@@ -200,15 +200,15 @@ To set the interest of the <a href="https://msdn.microsoft.com/52761cb2-4433-482
 
 
 
-<a href="https://msdn.microsoft.com/b429ec96-691f-4761-92bf-ef500cf0e1be">InkApplicationGesture Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fc9daa5-ee34-409b-b977-0d39b23d422e">SetGestureStatus Method [InkEdit Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus Method [InkEdit Control]</a>
  
 
  

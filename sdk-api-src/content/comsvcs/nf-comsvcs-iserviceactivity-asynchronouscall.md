@@ -59,7 +59,7 @@ Performs the user-defined work asynchronously.
 
 ### -param pIServiceCall [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/97532e29-3d1a-4a7c-8103-dd7ae2866a70">IServiceCall</a> interface that is used to implement the batch work.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicecall">IServiceCall</a> interface that is used to implement the batch work.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The batch work cannot be added to the asynchronous work queue of the activity.
 
 
 
-The batch work that is run by this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>.
+The batch work that is run by this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>.
 
 
 
@@ -117,7 +117,7 @@ The batch work that is run by this method runs in the context and thread apartme
 
 
 
-<a href="https://msdn.microsoft.com/005bf0ec-f5a7-41a3-85b3-07f79f26af27">IServiceActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iserviceactivity">IServiceActivity</a>
  
 
  

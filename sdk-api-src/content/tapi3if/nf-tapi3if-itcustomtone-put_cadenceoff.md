@@ -96,11 +96,11 @@ Method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/f2c51048-93aa-4469-b00e-911e62b5702d">ITCustomTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d561ab6-fc38-4058-9443-d7825eae2dc5">get_CadenceOff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_cadenceoff">get_CadenceOff</a>
  
 
  

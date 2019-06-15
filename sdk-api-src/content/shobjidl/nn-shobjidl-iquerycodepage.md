@@ -54,7 +54,7 @@ Gets and sets the numeric value (Code Page identifier) of the ANSI code page.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryCodePage</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueryCodePage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryCodePage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryCodePage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IQueryCodePage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05644051-c64e-443c-bc98-ed296bc0b8d9">GetCodePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iquerycodepage-getcodepage">GetCodePage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the numeric value (Code Page identifier) of the ANSI code page.
@@ -78,7 +78,7 @@ Retrieves the numeric value (Code Page identifier) of the ANSI code page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19b9d796-e5a7-4b82-a299-95ee912db010">SetCodePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iquerycodepage-setcodepage">SetCodePage</a>
 </td>
 <td align="left" width="63%">
 Sets the numeric value of the ANSI code page to a specified code page identifier.

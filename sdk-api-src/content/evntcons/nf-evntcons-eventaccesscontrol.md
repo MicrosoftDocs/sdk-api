@@ -69,7 +69,7 @@ GUID that uniquely identifies the provider or session whose permissions you want
 ### -param Operation [in]
 
 Type of operation to perform, for example, add a DACL to the session's GUID or provider's GUID. For 
-      possible values, see the <a href="https://msdn.microsoft.com/81f6cf07-2705-4075-b085-d5aebba17121">EVENTSECURITYOPERATION</a> 
+      possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ne-evntcons-eventsecurityoperation">EVENTSECURITYOPERATION</a> 
       enumeration.
 
 
@@ -228,11 +228,11 @@ You can also specify the provider's GUID to restrict who can register the provid
 
 
 
-<a href="https://msdn.microsoft.com/21c87137-0e8f-43d1-9dad-9f2b4fc591a3">EventAccessQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccessquery">EventAccessQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f25f163-046c-41b0-82f9-0b214b74b87e">EventAccessRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccessremove">EventAccessRemove</a>
  
 
  

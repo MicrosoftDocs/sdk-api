@@ -76,11 +76,11 @@ The return value is an HRESULT. A value of S_OK indicates the method was success
 
 
 
-<a href="https://msdn.microsoft.com/3cd4bde2-55f6-4ab1-b175-7689b0cc529b">ISceSvcAttachmentPersistInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdec64b8-2a92-4165-95ff-0de981f2d878">ISceSvcAttachmentPersistInfo::Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">ISceSvcAttachmentPersistInfo::Save</a>
  
 
  

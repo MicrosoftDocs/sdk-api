@@ -98,15 +98,15 @@ If either an overflow occurred or <i>nDenominator</i> was 0, the return value is
 
 
 
-<a href="https://msdn.microsoft.com/5c0caf42-2a2f-4eae-b0be-e8bb1b87dd9d">Int32x32To64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-int32x32to64">Int32x32To64</a>
 
 
 
-<a href="https://msdn.microsoft.com/db4ffbd5-d9e4-4c95-83cc-6f0691c080d2">Large Integers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/large-integers">Large Integers</a>
 
 
 
-<a href="https://msdn.microsoft.com/369e0574-df8b-4e65-bbba-7a7961caebe7">UInt32x32To64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-uint32x32to64">UInt32x32To64</a>
  
 
  

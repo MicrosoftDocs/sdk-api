@@ -59,7 +59,7 @@ Specifies a certificate used for S4U logon.
 
 ### -field MessageType
 
-A value of the <a href="https://msdn.microsoft.com/10de9dd4-0f6c-4431-a60d-9b9c60585676">PKU2U_LOGON_SUBMIT_TYPE</a> enumeration that indicates the logon type.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_pku2u_logon_submit_type">PKU2U_LOGON_SUBMIT_TYPE</a> enumeration that indicates the logon type.
 
 
 ### -field Flags

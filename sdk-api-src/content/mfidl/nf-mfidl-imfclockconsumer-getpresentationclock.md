@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by the media pipeline to get an instance of <a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a>. 
+Called by the media pipeline to get an instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>. 
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Called by the media pipeline to get an instance of <a href="https://msdn.microso
 
 ### -param ppPresentationClock [out]
 
-Pointer to an object that implements the <a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a> interface. This value can be null.
+Pointer to an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. This value can be null.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The app does not implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/B21D3797-695F-4794-80A2-05D381F288C2">IMFClockConsumer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockconsumer">IMFClockConsumer</a>
  
 
  

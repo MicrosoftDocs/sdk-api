@@ -92,23 +92,23 @@ Indicates  the end of the FILTERSPEC information.
 
 
 
-<a href="https://msdn.microsoft.com/038edc41-7324-4c5a-8172-c958cee05d5e">RSVP_FILTERSPEC_V4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>
 
 
 
-<a href="https://msdn.microsoft.com/bedb3526-700c-4c99-ba02-19389a78acf8">RSVP_FILTERSPEC_V4_GPI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v4_gpi">RSVP_FILTERSPEC_V4_GPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e567714-1d91-4dd4-a560-2b57876c837c">RSVP_FILTERSPEC_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bca12be-5bc4-40b2-bc72-52cf0297821b">RSVP_FILTERSPEC_V6_FLOW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_flow">RSVP_FILTERSPEC_V6_FLOW</a>
 
 
 
-<a href="https://msdn.microsoft.com/ede040f4-4858-42d8-a4b5-af6e79c036d7">RSVP_FILTERSPEC_V6_GPI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxStartApplication function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxStartApplication</b> function can be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function when the system needs an application to be started in the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> of the user.
+The <b>WlxStartApplication</b> function can be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function when the system needs an application to be started in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> of the user.
 
 There are two reasons that the  system might need an application to start in the context of the user:
 <ul>
@@ -68,20 +68,20 @@ There are two reasons that the  system might need an application to start in the
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> for this station.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 
 ### -param pszDesktopName [in]
 
 Specifies the name of the desktop on which to start the application. Pass this string to the 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> or 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function through the <b>lpDesktop</b> member of the 
-<a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function through the <b>lpDesktop</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure.
 
 
 ### -param pEnvironment [in]
 
-Specifies the initial environment for the process. Winlogon creates this environment and hands it off to the GINA. The GINA can modify this environment before using it to initialize the shell of the user. When the GINA has finished using this environment, it must free the memory allocated for <i>pEnvironment</i> by calling the <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> function.
+Specifies the initial environment for the process. Winlogon creates this environment and hands it off to the GINA. The GINA can modify this environment before using it to initialize the shell of the user. When the GINA has finished using this environment, it must free the memory allocated for <i>pEnvironment</i> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> function.
 
 
 ### -param pszCmdLine [in]
@@ -116,7 +116,7 @@ If the <b>WlxStartApplication</b> function is not exported by the GINA, Winlogon
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the stored setting changes from the context for the given namespace. This method returns a pointer to an address of an enumerator for each of the parameters <i>ppAddedSettings</i>, <i>ppModifiedSettings</i>, and <i>ppDeletedSettings</i> that identifies the set of paths for the added, modified, and deleted settings respectively. These strings may then be passed to <a href="https://msdn.microsoft.com/11f541e6-fd97-4756-91c1-44ba2e3d35b1">ISettingsContext::RevertSetting</a>.
+Gets the stored setting changes from the context for the given namespace. This method returns a pointer to an address of an enumerator for each of the parameters <i>ppAddedSettings</i>, <i>ppModifiedSettings</i>, and <i>ppDeletedSettings</i> that identifies the set of paths for the added, modified, and deleted settings respectively. These strings may then be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-revertsetting">ISettingsContext::RevertSetting</a>.
 
 
 ## -parameters
@@ -59,22 +59,22 @@ Gets the stored setting changes from the context for the given namespace. This m
 
 ### -param pIdentity [in]
 
-The <a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISettingsIdentity</a> object that specifies the namespace to get the settings for. This namespace identity should be fully-specified.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> object that specifies the namespace to get the settings for. This namespace identity should be fully-specified.
 
 
 ### -param ppAddedSettings [out]
 
- A pointer to a newly allocated <a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a> object that lists the set of paths for the added settings. Each path identifies a setting added to the context. 
+ A pointer to a newly allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> object that lists the set of paths for the added settings. Each path identifies a setting added to the context. 
 
 
 ### -param ppModifiedSettings [out]
 
-A pointer to a newly-allocated <a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a> object that lists the set of paths for the modified settings.
+A pointer to a newly-allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> object that lists the set of paths for the modified settings.
 
 
 ### -param ppDeletedSettings [out]
 
-A pointer to a newly-allocated <a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a> object that lists the set of paths for the deleted settings.
+A pointer to a newly-allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> object that lists the set of paths for the deleted settings.
 
 
 ## -returns
@@ -92,7 +92,7 @@ It may return <b>E_OUTOFMEMORY</b> if there are insufficient resources on the sy
 
 
 
-<i>ppAddedSettings</i>, <i>ppModifiedSettings</i>, and <i>ppDeletedSettings</i> are enumerators for which Current returns a var with variable type BSTR that identifies the paths for the added, modified, and deleted settings respectively. Enumerating through the enumerators produces a set of path strings, each of which identifies a setting that has been added, modified, or deleted in this context. These strings can then be passed to <a href="https://msdn.microsoft.com/11f541e6-fd97-4756-91c1-44ba2e3d35b1">RevertSetting</a>.
+<i>ppAddedSettings</i>, <i>ppModifiedSettings</i>, and <i>ppDeletedSettings</i> are enumerators for which Current returns a var with variable type BSTR that identifies the paths for the added, modified, and deleted settings respectively. Enumerating through the enumerators produces a set of path strings, each of which identifies a setting that has been added, modified, or deleted in this context. These strings can then be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-revertsetting">RevertSetting</a>.
 
 
 
@@ -102,7 +102,7 @@ It may return <b>E_OUTOFMEMORY</b> if there are insufficient resources on the sy
 
 
 
-<a href="https://msdn.microsoft.com/29f43c3f-57bf-4208-a0bf-9b4414795a59">ISettingsContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>
  
 
  

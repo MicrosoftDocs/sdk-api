@@ -68,7 +68,7 @@ A handle to the device context for the print job.
 
 ### -param lpdi [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/329bf0d9-399b-4f64-a029-361ef7558aeb">DOCINFO</a> structure containing the name of the document file and the name of the output file.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa">DOCINFO</a> structure containing the name of the document file and the name of the output file.
 
 
 ## -returns
@@ -90,12 +90,12 @@ If the function fails, the return value is less than or equal to zero.
 <div> </div>
 Applications should call the <b>StartDoc</b> function immediately before beginning a print job. Using this function ensures that multipage documents are not interspersed with other print jobs.
 
-Applications can use the value returned by <b>StartDoc</b> to retrieve or set the priority of a print job. Call the <a href="https://msdn.microsoft.com/57e59f84-d2a0-4722-b0fc-6673f7bb5c57">GetJob</a> or <a href="https://msdn.microsoft.com/21947c69-c517-4962-8eb7-b45ed4211d9a">SetJob</a> function and supply this value as one of the required arguments.
+Applications can use the value returned by <b>StartDoc</b> to retrieve or set the priority of a print job. Call the <a href="https://docs.microsoft.com/windows/desktop/printdocs/getjob">GetJob</a> or <a href="https://docs.microsoft.com/windows/desktop/printdocs/setjob">SetJob</a> function and supply this value as one of the required arguments.
 
 
 #### Examples
 
-For a sample program that uses this function, see <a href="https://msdn.microsoft.com/C212DD92-2B90-45BC-8746-29C193FBDF69">How To: Print Using the GDI Print API</a>.
+For a sample program that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/printdocs/how-to--print-using-the-gdi-print-api">How To: Print Using the GDI Print API</a>.
 
 <div class="code"></div>
 
@@ -106,27 +106,27 @@ For a sample program that uses this function, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/329bf0d9-399b-4f64-a029-361ef7558aeb">DOCINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_docinfoa">DOCINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf63ea0f-cc73-4943-9c84-52b3b77e141c">EndDoc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enddoc">EndDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/57e59f84-d2a0-4722-b0fc-6673f7bb5c57">GetJob</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/getjob">GetJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/d859f84d-af0e-4b8b-b7fa-d7b1fc35ed39">Print Spooler API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
 
 
 
-<a href="https://msdn.microsoft.com/21947c69-c517-4962-8eb7-b45ed4211d9a">SetJob</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/setjob">SetJob</a>
  
 
  

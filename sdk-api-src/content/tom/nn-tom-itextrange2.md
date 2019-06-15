@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITextRange2</b> interface is derived from <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
+The <b>ITextRange2</b> interface is derived from <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>ITextRange2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffd1f166-a37c-4b39-9878-a4008260f675">AddSubrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-addsubrange">AddSubrange</a>
 </td>
 <td align="left" width="63%">
 Adds a subrange to this range.
@@ -78,7 +78,7 @@ Adds a subrange to this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6382f09-126e-4107-a4b9-288777549181">BuildUpMath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-buildupmath">BuildUpMath</a>
 </td>
 <td align="left" width="63%">
 Converts the linear-format math in a range to a built-up form, or modifies the current built-up form.
@@ -87,7 +87,7 @@ Converts the linear-format math in a range to a built-up form, or modifies the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad75725d-ad92-45fc-a0a9-3227bfb99284">DeleteSubrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-deletesubrange">DeleteSubrange</a>
 </td>
 <td align="left" width="63%">
 Deletes a subrange from a range. 
@@ -96,7 +96,7 @@ Deletes a subrange from a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4935d322-016a-4c08-858e-42009a9f59f1">Find</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-find">Find</a>
 </td>
 <td align="left" width="63%">
 Searchs for math inline functions in text as specified by a source range.
@@ -105,7 +105,7 @@ Searchs for math inline functions in text as specified by a source range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6f06062-3c8f-40c0-9b5d-6c22a647bfbc">GetCch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getcch">GetCch</a>
 </td>
 <td align="left" width="63%">
 Gets the count of characters in a range.
@@ -114,7 +114,7 @@ Gets the count of characters in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caaee637-d80a-44c6-9d9b-ed16a980afd9">GetCells</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getcells">GetCells</a>
 </td>
 <td align="left" width="63%">
 Gets a cells object with the parameters of cells in the currently selected table row or column.
@@ -123,7 +123,7 @@ Gets a cells object with the parameters of cells in the currently selected table
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ece8ca0-fd05-481c-9ce2-b2b7a3df354e">GetChar2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getchar2">GetChar2</a>
 </td>
 <td align="left" width="63%">
 Gets the character at the specified offset from the end of this range. 
@@ -132,7 +132,7 @@ Gets the character at the specified offset from the end of this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8e2c985-9799-42c9-b23d-43c16bae5c69">GetColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getcolumn">GetColumn</a>
 </td>
 <td align="left" width="63%">
 Gets the column properties for the currently selected column.
@@ -141,7 +141,7 @@ Gets the column properties for the currently selected column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1744e60-74b0-44a0-b470-6e89d328fa11">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of subranges, including the  active subrange in the current range.
@@ -150,7 +150,7 @@ Gets the count of subranges, including the  active subrange in the current range
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c653c002-6708-4813-83ae-1ea578bdcee2">GetDropCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getdropcap">GetDropCap</a>
 </td>
 <td align="left" width="63%">
 Gets the drop-cap parameters of the paragraph that contains this range.
@@ -159,7 +159,7 @@ Gets the drop-cap parameters of the paragraph that contains this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6dce56b6-463a-49d4-8e4b-397e2841544c">GetDuplicate2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getduplicate2">GetDuplicate2</a>
 </td>
 <td align="left" width="63%">
 Gets a duplicate of a range object.
@@ -168,16 +168,16 @@ Gets a duplicate of a range object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24ef7fb3-4cf4-46ed-9273-6f91c77f7641">GetFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getfont2">GetFont2</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a> object with the character attributes of the current range.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a> object with the character attributes of the current range.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fe5d82d-b13e-4b94-beb6-15691d4c5176">GetFormattedText2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getformattedtext2">GetFormattedText2</a>
 </td>
 <td align="left" width="63%">
 Gets an <b>ITextRange2</b> object with the current range's formatted text.
@@ -186,7 +186,7 @@ Gets an <b>ITextRange2</b> object with the current range's formatted text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a57ab2c2-1871-413a-bccd-47f5c1dd4570">GetGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getgravity">GetGravity</a>
 </td>
 <td align="left" width="63%">
 Gets the gravity of this range.
@@ -195,7 +195,7 @@ Gets the gravity of this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">GetInlineObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">GetInlineObject</a>
 </td>
 <td align="left" width="63%">
 Gets the properties of the inline object at the range active end.
@@ -204,7 +204,7 @@ Gets the properties of the inline object at the range active end.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00bae237-5853-430e-8313-563da0cf0fde">GetMathFunctionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getmathfunctiontype">GetMathFunctionType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the math function type associated with the specified math function name.
@@ -213,16 +213,16 @@ Retrieves the math function type associated with the specified math function nam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b20ebe85-f2a6-4a19-8b25-f1f16ebf5627">GetPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getpara2">GetPara2</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a> object with the paragraph attributes of a range.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a> object with the paragraph attributes of a range.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5e636b9-d02e-46ac-b224-7d1019da44eb">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets the value of a property. 
@@ -231,7 +231,7 @@ Gets the value of a property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14f0faab-ff37-4f86-a4ba-b6c207d7ddf0">GetRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getrect">GetRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves a rectangle of the specified type for the current range.
@@ -240,7 +240,7 @@ Retrieves a rectangle of the specified type for the current range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f15605a-8f81-4fc4-ad12-5300ecd03c16">GetRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getrow">GetRow</a>
 </td>
 <td align="left" width="63%">
 Gets the row properties in the currently selected row.
@@ -249,7 +249,7 @@ Gets the row properties in the currently selected row.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6a59ffd-0271-4c2a-9a9e-f31287b47ce9">GetStartPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getstartpara">GetStartPara</a>
 </td>
 <td align="left" width="63%">
 Gets the character position of the start of the paragraph that contains the range's start character position.
@@ -258,7 +258,7 @@ Gets the character position of the start of the paragraph that contains the rang
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64b031cf-9d32-4e36-8e13-f32a53f00abf">GetSubrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getsubrange">GetSubrange</a>
 </td>
 <td align="left" width="63%">
 Retrieves a subrange in a range.
@@ -267,7 +267,7 @@ Retrieves a subrange in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ade77edf-6a9e-4c8d-a522-3158c802b6dd">GetTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettable">GetTable</a>
 </td>
 <td align="left" width="63%">
 Gets the table properties in the currently selected table. 
@@ -276,7 +276,7 @@ Gets the table properties in the currently selected table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77f39808-b39d-45bb-ba03-3a27d503fe0e">GetText2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">GetText2</a>
 </td>
 <td align="left" width="63%">
 Gets the text in this range according to the specified conversion flags.
@@ -285,7 +285,7 @@ Gets the text in this range according to the specified conversion flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d23f261-0b44-4532-86da-0ca40561bfe0">GetURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-geturl">GetURL</a>
 </td>
 <td align="left" width="63%">
 Returns the URL text associated with a range.
@@ -294,7 +294,7 @@ Returns the URL text associated with a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/024f9f32-2362-4f1c-b8db-9b4fb1ee157c">HexToUnicode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-hextounicode">HexToUnicode</a>
 </td>
 <td align="left" width="63%">
 Converts and replaces the hexadecimal number at the end of this range to a Unicode character.
@@ -303,7 +303,7 @@ Converts and replaces the hexadecimal number at the end of this range to a Unico
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CBC71EDC-CBE3-4C44-84C8-6AE6DEBC8D0C">InsertImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-insertimage">InsertImage</a>
 </td>
 <td align="left" width="63%">
 Inserts an image into this range.
@@ -312,7 +312,7 @@ Inserts an image into this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f62cc778-8f06-43d1-985b-d233b02d3255">InsertTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-inserttable">InsertTable</a>
 </td>
 <td align="left" width="63%">
 Inserts a table in a range.
@@ -321,7 +321,7 @@ Inserts a table in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9906547b-e31c-48a6-961e-0b7f5c0c0506">Linearize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-linearize">Linearize</a>
 </td>
 <td align="left" width="63%">
 Translates the built-up math, ruby, and other inline objects in this range to linearized form.
@@ -330,7 +330,7 @@ Translates the built-up math, ruby, and other inline objects in this range to li
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a635edd3-dcb9-4f1f-bf6e-774ce3f0c505">SetActiveSubrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setactivesubrange">SetActiveSubrange</a>
 </td>
 <td align="left" width="63%">
 Makes the specified  subrange the active subrange of this range.
@@ -339,7 +339,7 @@ Makes the specified  subrange the active subrange of this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/189c1a69-44eb-4de0-8ffc-9a026d9e6f16">SetDropCap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setdropcap">SetDropCap</a>
 </td>
 <td align="left" width="63%">
 Sets the drop-cap parameters for the paragraph that contains the current range.
@@ -348,7 +348,7 @@ Sets the drop-cap parameters for the paragraph that contains the current range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ff3c2bf3-efb8-454e-b0e2-e65afeb1a091">SetFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setfont2">SetFont2</a>
 </td>
 <td align="left" width="63%">
 Sets the character formatting attributes of the range.
@@ -357,7 +357,7 @@ Sets the character formatting attributes of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/151be9ee-da5d-4e50-a12e-0473cf1c7d91">SetFormattedText2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setformattedtext2">SetFormattedText2</a>
 </td>
 <td align="left" width="63%">
 Sets the text of this range to the formatted text of the specified range. 
@@ -366,7 +366,7 @@ Sets the text of this range to the formatted text of the specified range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10214543-36da-46e3-b926-0ba088f84a7b">SetGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setgravity">SetGravity</a>
 </td>
 <td align="left" width="63%">
 Sets the gravity of this range.
@@ -375,7 +375,7 @@ Sets the gravity of this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56876a42-a972-4a19-a8f7-a5e37c0d77f0">SetInlineObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setinlineobject">SetInlineObject</a>
 </td>
 <td align="left" width="63%">
 Sets or inserts the properties of an inline object for a degenerate range.
@@ -384,7 +384,7 @@ Sets or inserts the properties of an inline object for a degenerate range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffd25a04-27a8-47c0-95a4-d66291971819">SetPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setpara2">SetPara2</a>
 </td>
 <td align="left" width="63%">
 Sets the paragraph format attributes of a range.
@@ -393,7 +393,7 @@ Sets the paragraph format attributes of a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d6c2f44-40e9-48b2-850d-d74d7a50fa0d">SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified property.
@@ -402,7 +402,7 @@ Sets the value of the specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd7a8a16-6cb5-40ee-8f5f-e51e68785d93">SetText2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-settext2">SetText2</a>
 </td>
 <td align="left" width="63%">
 Sets the text of this range.
@@ -411,7 +411,7 @@ Sets the text of this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8e62056-5177-4c88-99d8-32ca30bc71e5">SetURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-seturl">SetURL</a>
 </td>
 <td align="left" width="63%">
 Sets the text in this range to that of the specified URL.
@@ -420,7 +420,7 @@ Sets the text in this range to that of the specified URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/538f7db4-0739-421c-9d51-8144b2d52334">UnicodeToHex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-unicodetohex">UnicodeToHex</a>
 </td>
 <td align="left" width="63%">
 Converts the Unicode character(s) preceding the start position of this text range to a hexadecimal number, and selects it.

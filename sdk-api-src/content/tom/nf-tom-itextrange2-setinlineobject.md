@@ -61,35 +61,35 @@ Sets or inserts the properties of an inline object for a degenerate range.
 
 Type: <b>long</b>
 
-The object type as defined in <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
+The object type as defined in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
 
 
 ### -param Align [in]
 
 Type: <b>long</b>
 
-The object alignment as defined in <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
+The object alignment as defined in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
 
 
 ### -param Char [in]
 
 Type: <b>long</b>
 
-The object character as defined in <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
+The object character as defined in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
 
 
 ### -param Char1 [in]
 
 Type: <b>long</b>
 
-The closing bracket (<a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBrackets</a>) character. See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> for a list of characters.
+The closing bracket (<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBrackets</a>) character. See <a href="http://go.microsoft.com/fwlink/p/?linkid=124972">Unicode Technical Note 28</a> for a list of characters.
 
 
 ### -param Char2 [in]
 
 Type: <b>long</b>
 
-The separator character for <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomBracketsWithSeps</a>, which can be one of the following values.
+The separator character for <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomBracketsWithSeps</a>, which can be one of the following values.
 
 
 ### -param Count [in]
@@ -103,21 +103,21 @@ The number of arguments in the inline object.
 
 Type: <b>long</b>
 
-The TeX style, as defined in <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
+The TeX style, as defined in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
 
 
 ### -param cCol [in]
 
 Type: <b>long</b>
 
-The number of columns in the inline object. For  <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomMatrix</a> only.
+The number of columns in the inline object. For  <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomMatrix</a> only.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -129,11 +129,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>
  
 
  

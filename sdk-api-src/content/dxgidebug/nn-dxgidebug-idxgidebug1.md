@@ -54,7 +54,7 @@ Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). Yo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDebug1</b> interface inherits from <a href="https://msdn.microsoft.com/7DCA4750-A397-4B5A-908F-A046427D30FB">IDXGIDebug</a>. <b>IDXGIDebug1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDebug1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>. <b>IDXGIDebug1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDXGIDebug1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5A96849C-D2DB-49F2-AEE9-CDC63F970077">DisableLeakTrackingForThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug1-disableleaktrackingforthread">DisableLeakTrackingForThread</a>
 </td>
 <td align="left" width="63%">
 Stops tracking leaks for the current thread.
@@ -78,7 +78,7 @@ Stops tracking leaks for the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A6CE092E-389C-4DFE-A7A6-10CA96A0C1F4">EnableLeakTrackingForThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug1-enableleaktrackingforthread">EnableLeakTrackingForThread</a>
 </td>
 <td align="left" width="63%">
 Starts tracking leaks for the current thread.
@@ -87,7 +87,7 @@ Starts tracking leaks for the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ACC57DDE-F019-415F-AAFA-E56ACE4F4197">IsLeakTrackingEnabledForThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgidebug1-isleaktrackingenabledforthread">IsLeakTrackingEnabledForThread</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating whether leak tracking is turned on for the current thread.
@@ -101,9 +101,9 @@ Gets a value indicating whether leak tracking is turned on for the current threa
 
 
 
-Call the <a href="https://msdn.microsoft.com/0FE0EAF5-3ADC-426F-9DA9-FEDEC519EEF0">DXGIGetDebugInterface1</a> function to obtain the <b>IDXGIDebug1</b> interface.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-dxgigetdebuginterface1">DXGIGetDebugInterface1</a> function to obtain the <b>IDXGIDebug1</b> interface.
 
-The <b>IDXGIDebug1</b> interface can be used only if the debug layer is turned on. For more info, see <a href="https://msdn.microsoft.com/c545983c-5351-42a9-82e5-deea73aa035f">Debug Layer</a>.
+The <b>IDXGIDebug1</b> interface can be used only if the debug layer is turned on. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">Debug Layer</a>.
 
 
 
@@ -113,15 +113,15 @@ The <b>IDXGIDebug1</b> interface can be used only if the debug layer is turned o
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/0FE0EAF5-3ADC-426F-9DA9-FEDEC519EEF0">DXGIGetDebugInterface1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-dxgigetdebuginterface1">DXGIGetDebugInterface1</a>
 
 
 
-<a href="https://msdn.microsoft.com/7DCA4750-A397-4B5A-908F-A046427D30FB">IDXGIDebug</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug">IDXGIDebug</a>
  
 
  

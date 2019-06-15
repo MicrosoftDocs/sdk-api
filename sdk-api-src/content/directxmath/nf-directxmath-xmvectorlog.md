@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Computes the base two logarithm of each component of a vector.<div class="alert"><b>Note</b>  This function is a compatibility alias for <a href="https://msdn.microsoft.com/92C911B4-5BC7-443D-BCBB-F4838E24E607">XMVectorLog2</a> for existing Windows 8 code. This function is deprecated for Windows 8.1. Don't use it and instead use <b>XMVectorLog2</b> or <a href="https://msdn.microsoft.com/C092B786-BAB8-4F8F-95D2-3C23F59EF064">XMVectorLogE</a>.
+Computes the base two logarithm of each component of a vector.<div class="alert"><b>Note</b>  This function is a compatibility alias for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorlog2">XMVectorLog2</a> for existing Windows 8 code. This function is deprecated for Windows 8.1. Don't use it and instead use <b>XMVectorLog2</b> or <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorloge">XMVectorLogE</a>.
 </div>
 <div> </div>
 
@@ -89,7 +89,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/aae12d4a-7758-83df-5376-99d5d94a28c4">Transcendental Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
  
 
  

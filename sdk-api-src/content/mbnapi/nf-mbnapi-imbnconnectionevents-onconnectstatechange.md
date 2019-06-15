@@ -59,7 +59,7 @@ Notification method that indicates whether the connection state of the device ha
 
 ### -param newConnection [in]
 
-An <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> interface that represents the connection on which the state has changed due to a system or network initiated change.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the connection on which the state has changed due to a system or network initiated change.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method must return <b>S_OK</b>.
 
 
 
-An application can use <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8ed3-53cd1f2eca13">IMbnConnection</a> to get the updated connection state. 
+An application can use <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> to get the updated connection state. 
 
 
 
@@ -85,7 +85,7 @@ An application can use <a href="https://msdn.microsoft.com/dae6ce6f-2534-4799-8e
 
 
 
-<a href="https://msdn.microsoft.com/9135ba2e-62f6-495e-b136-9efc5f260581">IMbnConnectionEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>
  
 
  

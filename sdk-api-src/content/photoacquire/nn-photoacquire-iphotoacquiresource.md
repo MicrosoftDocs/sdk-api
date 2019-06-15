@@ -57,7 +57,7 @@ The <code>IPhotoAcquireSource</code> interface is used for acquisition of items 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireSource</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPhotoAcquireSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPhotoAcquireSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98859baa-a6bd-4b12-992b-af6736fa9650">GetDeviceIcons</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getdeviceicons">GetDeviceIcons</a>
 </td>
 <td align="left" width="63%">
 Retrieves the icons that are used to represent the device.
@@ -81,7 +81,7 @@ Retrieves the icons that are used to represent the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c997e76-9109-403f-821f-d73e8577b1ac">GetDeviceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getdeviceid">GetDeviceId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier (ID) of the device.
@@ -90,7 +90,7 @@ Retrieves the identifier (ID) of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6e1c5d7-b9d8-479a-a8e5-53124b55369d">GetFriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getfriendlyname">GetFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the device, formatted for display.
@@ -99,34 +99,34 @@ Retrieves the name of the device, formatted for display.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c066464b-1d88-4d43-8bfd-0f60f21db5fd">GetItemAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getitemat">GetItemAt</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/57e099eb-bf8d-4465-af4d-fcfc3eee3b5b">IPhotoAcquireItem</a> object at the given index in the list of items.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object at the given index in the list of items.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f60538f2-f1b1-40bb-8663-ed93eede433e">GetItemCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getitemcount">GetItemCount</a>
 </td>
 <td align="left" width="63%">
-Retrieves the number of items found by the <a href="https://msdn.microsoft.com/1e0ebbc7-888d-4044-8257-47c1719cf7fc">InitializeItemList</a> method.
+Retrieves the number of items found by the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">InitializeItemList</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4c01856-b7e4-4318-aaf8-8e34e441ce75">GetPhotoAcquireSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getphotoacquiresettings">GetPhotoAcquireSettings</a>
 </td>
 <td align="left" width="63%">
-Obtains an <a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings</a> object for working with acquisition settings.
+Obtains an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings</a> object for working with acquisition settings.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e0ebbc7-888d-4044-8257-47c1719cf7fc">InitializeItemList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">InitializeItemList</a>
 </td>
 <td align="left" width="63%">
 Enumerates transferable items on the device and passes each item to the optional progress callback, if it is supplied.
@@ -141,7 +141,7 @@ Enumerates transferable items on the device and passes each item to the optional
 
 
 
-<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
  
 
  

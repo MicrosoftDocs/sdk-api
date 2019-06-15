@@ -59,7 +59,7 @@ Sets the notification callback method.
 
 ### -param pCallback [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ccd162e4-84be-4ed5-a583-c9bd195f503b">IWICDevelopRawNotificationCallback</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicdeveloprawnotificationcallback">IWICDevelopRawNotificationCallback</a>*</b>
 
 Pointer to the notification callback method.
 

@@ -62,7 +62,7 @@ Contains script state information.
 
 ### -field uBidiLevel
 
-Embedding level associated with all characters in the associated run according to the Unicode bidirectional algorithm. When the application passes this structure to <a href="https://msdn.microsoft.com/1491d9c5-e86b-45cc-bb47-85c8619eab69">ScriptItemize</a>, this member should be initialized to 0 for a left-to-right base embedding level, or to 1 for a right-to-left base embedding level.
+Embedding level associated with all characters in the associated run according to the Unicode bidirectional algorithm. When the application passes this structure to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>, this member should be initialized to 0 for a left-to-right base embedding level, or to 1 for a right-to-left base embedding level.
 
 
 ### -field fOverrideDirection
@@ -299,7 +299,7 @@ Do not consider prior strong characters to be Arabic for the purposes of rule P0
 
 ### -field fGcpClusters
 
-For <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a> legacy support only. Value indicating how <a href="https://msdn.microsoft.com/073ba94a-ebfa-42f5-9d90-d5693dc25703">ScriptShape</a> should generate the array indicated by <i>pwLogClust</i>. Possible values are defined in the following table. This member affects only Arabic and Hebrew items.
+For <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support only. Value indicating how <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> should generate the array indicated by <i>pwLogClust</i>. Possible values are defined in the following table. This member affects only Arabic and Hebrew items.
 
 <table>
 <tr>
@@ -312,7 +312,7 @@ For <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">Ge
 </dl>
 </td>
 <td width="60%">
-Generate the array the same way as <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a> does.
+Generate the array the same way as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
 
 </td>
 </tr>
@@ -322,7 +322,7 @@ Generate the array the same way as <a href="https://msdn.microsoft.com/80d3f4b3-
 </dl>
 </td>
 <td width="60%">
-Do not generate the array the same way as <a href="https://msdn.microsoft.com/80d3f4b3-503b-4abb-826c-e5c09972ba2f">GetCharacterPlacement</a> does.
+Do not generate the array the same way as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> does.
 
 </td>
 </tr>
@@ -344,7 +344,7 @@ Reserved; always initialize to 0.
 
 
 
-This structure is used to initialize the Unicode algorithm state as an input to <a href="https://msdn.microsoft.com/1491d9c5-e86b-45cc-bb47-85c8619eab69">ScriptItemize</a>. It is also used as a component of the analysis retrieved by <b>ScriptItemize</b>.
+This structure is used to initialize the Unicode algorithm state as an input to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. It is also used as a component of the analysis retrieved by <b>ScriptItemize</b>.
 
 
 
@@ -354,19 +354,19 @@ This structure is used to initialize the Unicode algorithm state as an input to 
 
 
 
-<a href="https://msdn.microsoft.com/1491d9c5-e86b-45cc-bb47-85c8619eab69">ScriptItemize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://msdn.microsoft.com/073ba94a-ebfa-42f5-9d90-d5693dc25703">ScriptShape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/243438fd-5bb2-4b2a-8b33-803029085adb">Uniscribe Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
  
 
  

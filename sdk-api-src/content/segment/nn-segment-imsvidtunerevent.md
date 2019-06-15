@@ -55,14 +55,14 @@ This topic applies to Windows XP or later.
 
 The <b>IMSVidTunerEvent</b> interface is used to receive events from BDA-compliant digital TV tuners.
 
-This interface is an outgoing connection-point interface. To receive events from a BDA digital tuner, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://msdn.microsoft.com/a29f2bb1-650e-43f8-8949-b3944c54a9e1">MSVidBDATunerDevice</a> object to establish a connection.
+This interface is an outgoing connection-point interface. To receive events from a BDA digital tuner, implement this interface in your application. Then call the <b>IConnectionPoint::Advise</b> method on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidbdatunerdevice">MSVidBDATunerDevice</a> object to establish a connection.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidTunerEvent</b> interface inherits from <a href="https://msdn.microsoft.com/9f35953a-3fea-4187-ad14-28f2c8dc2716">IMSVidInputDeviceEvent</a>. <b>IMSVidTunerEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidTunerEvent</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidinputdeviceevent">IMSVidInputDeviceEvent</a>. <b>IMSVidTunerEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMSVidTunerEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694706(v=VS.85).aspx">TuneChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtunerevent-tunechanged">TuneChanged</a>
 </td>
 <td align="left" width="63%">
 Signals that the tuner has tuned to a new frequency.
@@ -101,11 +101,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/9f35953a-3fea-4187-ad14-28f2c8dc2716">IMSVidInputDeviceEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/segment/nn-segment-imsvidinputdeviceevent">IMSVidInputDeviceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Event Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
  
 
  

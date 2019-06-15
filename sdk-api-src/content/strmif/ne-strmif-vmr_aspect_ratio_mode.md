@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>VMR_ASPECT_RATIO_MODE</b> enumeration type describes whether the <a href="https://msdn.microsoft.com/c83e6c50-76f2-4aeb-944b-5b244c6bf776">Video Mixing Renderer Filter 7</a> preserves the aspect ratio of the source video.
+The <b>VMR_ASPECT_RATIO_MODE</b> enumeration type describes whether the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> preserves the aspect ratio of the source video.
 
 
 
@@ -77,15 +77,15 @@ Indicates that the VMR will maintain the aspect ratio of the source video by let
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/a341be9d-9801-4215-840d-7d581e9ec3cb">IVMRAspectRatioControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmraspectratiocontrol">IVMRAspectRatioControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c21c5611-f376-4899-9914-c14a18af3810">IVMRWindowlessControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrwindowlesscontrol">IVMRWindowlessControl Interface</a>
  
 
  

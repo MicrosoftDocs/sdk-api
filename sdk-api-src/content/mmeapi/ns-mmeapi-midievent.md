@@ -72,7 +72,7 @@ Reserved; must be zero.
 
 ### -field dwEvent
 
-Event code and event parameters or length. To parse this information, use the <a href="https://msdn.microsoft.com/ce2ca2b4-129c-4164-ad0c-de748b4a29aa">MEVT_EVENTTYPE</a> and <a href="https://msdn.microsoft.com/cabb6e1f-2a86-47eb-9bbb-1429cc56f485">MEVT_EVENTPARM</a> macros. See Remarks.
+Event code and event parameters or length. To parse this information, use the <a href="https://docs.microsoft.com/previous-versions//dd798442(v=vs.85)">MEVT_EVENTTYPE</a> and <a href="https://docs.microsoft.com/previous-versions//dd798441(v=vs.85)">MEVT_EVENTPARM</a> macros. See Remarks.
             
 
 
@@ -158,27 +158,27 @@ The remainder of the high byte contains one of the following event codes:
 
 
 
-<a href="https://msdn.microsoft.com/cabb6e1f-2a86-47eb-9bbb-1429cc56f485">MEVT_EVENTPARM</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798441(v=vs.85)">MEVT_EVENTPARM</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce2ca2b4-129c-4164-ad0c-de748b4a29aa">MEVT_EVENTTYPE</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798442(v=vs.85)">MEVT_EVENTTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/48c775df-a7f9-49f7-a2e3-74210cf1af4a">MIDI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/15ab90b0-2ef2-45c8-b1a8-aa52a549c772">MIDISTRMBUFFVER</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798493(v=vs.85)">MIDISTRMBUFFVER</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c81e1dc-ee6b-4a59-8992-8ec869264d4f">Musical Instrument Digital Interface (MIDI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
 
 
 
-<a href="https://msdn.microsoft.com/b46d342a-7bfc-495a-98d3-e0c93ae4fd59">midiOutShortMsg</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798481(v=vs.85)">midiOutShortMsg</a>
  
 
  

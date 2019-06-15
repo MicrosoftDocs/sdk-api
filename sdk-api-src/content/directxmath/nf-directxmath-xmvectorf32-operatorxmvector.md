@@ -54,4 +54,4 @@ Returns the instance of **XMVECTOR** implementing the current instance of **XMVE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>

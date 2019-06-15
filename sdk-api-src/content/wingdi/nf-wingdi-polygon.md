@@ -66,7 +66,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
 
 
 ### -param cpt [in]
@@ -103,40 +103,40 @@ Any extra points are ignored. To draw a line with more points, divide your data 
 
 
 
-<a href="https://msdn.microsoft.com/8909e85d-fa5b-4058-9e58-e027160ec381">Filled Shape Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/78439288-a769-4aab-aee7-7a03396ccebc">Filled Shapes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/febf96fb-bf2e-4eb2-ab5f-89741a1decad">GetPolyFillMode
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getpolyfillmode">GetPolyFillMode
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ac0a2802-c8b0-4cd7-9521-5b179f2c70b9">PolyPolygon
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polypolygon">PolyPolygon
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/55481dd0-3db7-4131-b383-4d0036943e60">Polyline
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/76020742-b651-4244-82c3-13034573c306">PolylineTo
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polylineto">PolylineTo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/233926c4-2658-405d-89b6-05ece844623d">SetPolyFillMode
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode
       </a>
  
 

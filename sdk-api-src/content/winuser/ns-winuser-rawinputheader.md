@@ -109,7 +109,7 @@ Raw input comes from the mouse.
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the entire input packet of data. This includes <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> plus possible extra input reports in the <a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a> variable length array. 
+The size, in bytes, of the entire input packet of data. This includes <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a> plus possible extra input reports in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a> variable length array. 
 
 
 ### -field hDevice
@@ -124,14 +124,14 @@ A handle to the device generating the raw input data.
 Type: <b>WPARAM</b>
 
 The value passed in the 
-					<i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a> message. 
+					<i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> message. 
 
 
 ## -remarks
 
 
 
-To get more information on the device, use <b>hDevice</b> in a call to <a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>.
+To get more information on the device, use <b>hDevice</b> in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>.
 
 
 
@@ -145,19 +145,19 @@ To get more information on the device, use <b>hDevice</b> in a call to <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645597(v=VS.85).aspx">GetRawInputDeviceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645549(v=VS.85).aspx">RAWHID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawhid">RAWHID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagrawinput">RAWINPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 
@@ -165,7 +165,7 @@ To get more information on the device, use <b>hDevice</b> in a call to <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>
  
 
  

@@ -51,7 +51,7 @@ req.redist:
 Sets the hotplug configuration of the specified device.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -146,10 +146,10 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 Refer to the Remarks section in the reference page for 
-<a href="https://msdn.microsoft.com/861e6067-9f37-427a-8d3b-8cb9d0f95c40">STORAGE_HOTPLUG_INFO</a> for more information about hotplug devices.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> for more information about hotplug devices.
 
 This operation sets only the <b>DeviceHotplug</b> member of the 
-<a href="https://msdn.microsoft.com/861e6067-9f37-427a-8d3b-8cb9d0f95c40">STORAGE_HOTPLUG_INFO</a> structure passed in.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> structure passed in.
 
 
 
@@ -159,19 +159,19 @@ This operation sets only the <b>DeviceHotplug</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/b3a3ffa1-e710-4d96-aff8-5b6876ab032b">Device Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-control-codes">Device Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ecf6f84-17fc-4c48-a859-c043e8f9cd14">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_hotplug_info">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/861e6067-9f37-427a-8d3b-8cb9d0f95c40">STORAGE_HOTPLUG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a>
  
 
  

@@ -64,12 +64,12 @@ The surface format. If zero, the driver uses the DXGI format that was used to cr
 
 ### -field ViewDimension
 
-The resource type of the view, specified as a member of the <a href="https://msdn.microsoft.com/65003974-F86E-4604-BA8D-262CA2674D53">D3D11_VPIV_DIMENSION</a> enumeration.
+The resource type of the view, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_vpiv_dimension">D3D11_VPIV_DIMENSION</a> enumeration.
 
 
 ### -field Texture2D
 
-A <a href="https://msdn.microsoft.com/F174DF16-6E2F-4AE1-80D9-7565F96DE03A">D3D11_TEX2D_VPIV</a> structure that identifies the texture resource.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_vpiv">D3D11_TEX2D_VPIV</a> structure that identifies the texture resource.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ A <a href="https://msdn.microsoft.com/F174DF16-6E2F-4AE1-80D9-7565F96DE03A">D3D1
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/3245D2AF-74A1-4068-A0BC-577FD42B353E">ID3D11VideoDevice::CreateVideoProcessorInputView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessorinputview">ID3D11VideoDevice::CreateVideoProcessorInputView</a>
  
 
  

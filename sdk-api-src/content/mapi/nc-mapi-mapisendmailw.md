@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-Sends a Unicode message. This function replaces the ANSI function <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a>.
+Sends a Unicode message. This function replaces the ANSI function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>.
 
-<b>On Windows 7 and earlier:  </b>Install the <a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Microsoft Windows Software Development Kit (SDK) for Windows 8</a> and use <a href="https://msdn.microsoft.com/3FBE0950-6D73-4130-9F17-F1449247AB0F">MAPISendMailHelper</a> to send a message.
+<b>On Windows 7 and earlier:  </b>Install the <a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Microsoft Windows Software Development Kit (SDK) for Windows 8</a> and use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> to send a message.
 
-All information applies to both <b>MAPISendMailW</b> and <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> unless otherwise specified.
+All information applies to both <b>MAPISendMailW</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> unless otherwise specified.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ If the value of the <i>lhSession</i> parameter is zero, MAPI logs on the user an
 
 ### -param ulUIParam [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG_PTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
 
 Parent window handle or zero.
 
@@ -87,7 +87,7 @@ Type: <b><b>lpMapiMessageW</b></b>
 
 Pointer to a <b>MAPISendMailW</b> structure containing the message to be sent.
 
-<div class="alert"><b>Note</b>  For the <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> function, this parameter points  to a <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure.</div>
+<div class="alert"><b>Note</b>  For the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> function, this parameter points  to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure.</div>
 <div> </div>
 When you call the function, please note the following information about message structure members:<table>
 <tr>
@@ -189,7 +189,7 @@ If neither <b>MAPI_DIALOG</b> nor <b>MAPI_DIALOG_MODELESS</b> is set, at least o
 
 
 
-<div class="alert"><b>Tip</b>  To use this flag on Windows 7 or earlier you must have both <a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a> and next version of Office installed, and you must call <a href="https://msdn.microsoft.com/3FBE0950-6D73-4130-9F17-F1449247AB0F">MAPISendMailHelper</a> instead of <b>MAPISendMailW</b>.</div>
+<div class="alert"><b>Tip</b>  To use this flag on Windows 7 or earlier you must have both <a href="http://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a> and next version of Office installed, and you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> instead of <b>MAPISendMailW</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -240,7 +240,7 @@ Do not convert the message to ANSI if the provider does not support Unicode.
 
 ### -param ulReserved
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
 Reserved; must be zero.
 
@@ -249,7 +249,7 @@ Reserved; must be zero.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">ULONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
 This function returns one of the following values.
 
@@ -412,7 +412,7 @@ There were too many recipients. No message was sent.
 <td width="60%">
 The <b>MAPI_FORCE_UNICODE</b> flag is specified and Unicode is not supported.
 
-<div class="alert"><b>Note</b>  This value  can be returned by <a href="https://msdn.microsoft.com/FA6FB49A-FA13-4F2F-8B89-5FD38B18B41B">MAPISendMailW</a> only.</div>
+<div class="alert"><b>Note</b>  This value  can be returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> only.</div>
 <div> </div>
 </td>
 </tr>
@@ -462,20 +462,20 @@ The call succeeded and the message was sent.
 
 
 
-The <b>MAPISendMailW</b> (Unicode) and <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> (ANSI) functions both send a standard message, with or without any user interaction. The profile must be configured so that either function can open the default service providers without requiring user interaction.
+The <b>MAPISendMailW</b> (Unicode) and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> (ANSI) functions both send a standard message, with or without any user interaction. The profile must be configured so that either function can open the default service providers without requiring user interaction.
 
-Neither <b>MAPISendMailW</b> nor <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> requires an originator-type recipient to send a message. 
+Neither <b>MAPISendMailW</b> nor <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> requires an originator-type recipient to send a message. 
 
-Your client application can provide a full or partial list of recipient names, subject text, file attachments, or message text. If any information is missing, the function you call (either <b>MAPISendMailW</b> or <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a>) can prompt the user for the missing information.
+Your client application can provide a full or partial list of recipient names, subject text, file attachments, or message text. If any information is missing, the function you call (either <b>MAPISendMailW</b> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>) can prompt the user for the missing information.
 
 If no information is missing, the message can be sent as is or the user can be prompted to verify the information and  change values if necessary.
 
-Both <b>MAPISendMailW</b> and <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> differ from the <a href="https://msdn.microsoft.com/79a2f17e-fb07-4f3b-b8f6-0448399ffa50">MAPISendDocuments</a> function in that they allow greater flexibility in message generation.
+Both <b>MAPISendMailW</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> differ from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisenddocuments">MAPISendDocuments</a> function in that they allow greater flexibility in message generation.
 
 <h3><a id="Message_text"></a><a id="message_text"></a><a id="MESSAGE_TEXT"></a>Message text</h3>
 Some client applications can truncate subject lines that are too long or contain carriage returns, line feeds, or form feeds.
 
-Each paragraph should be terminated with a CR (0x0d), an LF (0x0a), or a CRLF pair (0x0d0a). Both <b>MAPISendMailW</b> and <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a> wrap lines as appropriate.
+Each paragraph should be terminated with a CR (0x0d), an LF (0x0a), or a CRLF pair (0x0d0a). Both <b>MAPISendMailW</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> wrap lines as appropriate.
 
 If the text exceeds system limits, the function returns the <b>MAPI_E_TEXT_TOO_LARGE</b> value.
 
@@ -491,16 +491,16 @@ Some messaging systems can limit the number of recipients per message. If the cl
 
 If your client application sends messages to one or more custom recipients and you want to avoid resolving the names of those recipients, you must specify the address of the custom recipient.
 
-To specify an address of a recipient when you call <b>MAPISendMailW</b>, you must set the <b>lpszAddress</b> member of the <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> 
-structure that contains the recipient's information to the custom address. This <b>MapiRecipDescW</b> structure is included in the array of recipients stored in the <b>lpRecips</b> member of the <a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a> structure that is passed to the function by the 
-<i>lpMessage</i> parameter.<div class="alert"><b>Note</b>  To specify the address of a recipient when you call <a href="https://msdn.microsoft.com/1d7da0f2-b736-401e-86bd-fc4375ccc0d1">MAPISendMail</a>, follow the preceding directions for <b>MAPISendMailW</b>, but substitute the <a href="https://msdn.microsoft.com/1457617f-de55-4875-91f5-afddee84b782">MapiRecipDesc</a> and <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structures.</div>
+To specify an address of a recipient when you call <b>MAPISendMailW</b>, you must set the <b>lpszAddress</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a> 
+structure that contains the recipient's information to the custom address. This <b>MapiRecipDescW</b> structure is included in the array of recipients stored in the <b>lpRecips</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a> structure that is passed to the function by the 
+<i>lpMessage</i> parameter.<div class="alert"><b>Note</b>  To specify the address of a recipient when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>, follow the preceding directions for <b>MAPISendMailW</b>, but substitute the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structures.</div>
 <div> </div>
 
 
 A successful return from the function does not necessarily imply recipient validation. The message might not have been sent to all recipients. Depending on the transport provider, recipient validation can be a lengthy process.
 
 <h3><a id="_handling_recipient_info"></a><a id="_HANDLING_RECIPIENT_INFO"></a>Handling recipient information</h3>
-The <b>lpRecips</b> member of the <a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a> or the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure can include either an entry identifier, the recipient's name, an address, or a name and address pair. The following table shows how the function handles each case.
+The <b>lpRecips</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a> or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure can include either an entry identifier, the recipient's name, an address, or a name and address pair. The following table shows how the function handles each case.
 
 <table>
 <tr>
@@ -558,7 +558,7 @@ No name resolution; name used only for displaying the recipient name.
 
 
 
-<a href="https://msdn.microsoft.com/3FBE0950-6D73-4130-9F17-F1449247AB0F">MAPISendMailHelper</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a>
 
 
 

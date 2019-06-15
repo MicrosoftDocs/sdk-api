@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>SHUnlockShared</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Unlocks memory locked by <a href="https://msdn.microsoft.com/5b948044-6cec-4649-a266-21959154f999">SHLockShared</a>.
+Unlocks memory locked by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shlockshared">SHLockShared</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Unlocks memory locked by <a href="https://msdn.microsoft.com/5b948044-6cec-4649-
 
 Type: <b>void*</b>
 
-A pointer to the shared memory block returned by <a href="https://msdn.microsoft.com/5b948044-6cec-4649-a266-21959154f999">SHLockShared</a>.
+A pointer to the shared memory block returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shlockshared">SHLockShared</a>.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A pointer to the shared memory block returned by <a href="https://msdn.microsoft
 
 Type: <b>BOOL</b>
 
-If the function succeeds, the return value is <b>TRUE</b> and all modified pages within the specified range are written to the disk with low priority. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b> and all modified pages within the specified range are written to the disk with low priority. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -81,7 +81,7 @@ If the function succeeds, the return value is <b>TRUE</b> and all modified pages
 
 
 
-Call <a href="https://msdn.microsoft.com/5a86ae5d-8caa-4126-a22e-bc3cc7df2381">SHFreeShared</a> to free the memory block.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shfreeshared">SHFreeShared</a> to free the memory block.
 
 
 

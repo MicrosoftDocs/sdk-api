@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Instead, applications should set the <a href="https://msdn.microsoft.com/71fda231-3497-49db-b82e-2fd79f6ade66">MF_MT_DEFAULT_STRIDE</a> attribute on the media type to specify the surface stride and then call <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">IMFMediaType::GetRepresentation</a>.]
+<p class="CCE_Message">[This API is not supported and may be altered or unavailable in the future. Instead, applications should set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-default-stride-attribute">MF_MT_DEFAULT_STRIDE</a> attribute on the media type to specify the surface stride and then call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a>.]
 
 Retrieves an alternative representation of the media type.
 
@@ -62,12 +62,12 @@ Retrieves an alternative representation of the media type.
 
 ### -param guidRepresentation [in]
 
-GUID that specifies the representation to retrieve. For a list of values, see <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">IMFMediaType::GetRepresentation</a>.
+GUID that specifies the representation to retrieve. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a>.
 
 
 ### -param ppvRepresentation [out]
 
-Receives a pointer to a structure that contains the representation. The method allocates the memory for the structure. The caller must release the memory by calling <a href="https://msdn.microsoft.com/d2007f16-543f-4f05-a44d-b4b4ae8019fb">IMFMediaType::FreeRepresentation</a>.
+Receives a pointer to a structure that contains the representation. The method allocates the memory for the structure. The caller must release the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-freerepresentation">IMFMediaType::FreeRepresentation</a>.
 
 
 ### -param lStride [in]
@@ -107,9 +107,9 @@ The method succeeded.
 
 
 
-This method is equivalent to <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">IMFMediaType::GetRepresentation</a> but includes the <i>lStride</i> parameter.
+This method is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a> but includes the <i>lStride</i> parameter.
 
-Instead of calling this method, applications should set the <a href="https://msdn.microsoft.com/71fda231-3497-49db-b82e-2fd79f6ade66">MF_MT_DEFAULT_STRIDE</a> attribute on the media type to specify the surface stride and then call <a href="https://msdn.microsoft.com/2135ff86-a3b6-4e1c-a9de-867f4828f008">IMFMediaType::GetRepresentation</a>.
+Instead of calling this method, applications should set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-default-stride-attribute">MF_MT_DEFAULT_STRIDE</a> attribute on the media type to specify the surface stride and then call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a>.
 
 
 
@@ -119,11 +119,11 @@ Instead of calling this method, applications should set the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/9109b0dd-c44d-41d4-9480-1ca5c667dbd7">IMFVideoMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfvideomediatype">IMFVideoMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

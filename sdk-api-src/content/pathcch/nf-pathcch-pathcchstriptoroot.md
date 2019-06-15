@@ -54,10 +54,10 @@ ms.custom: 19H1
 
 Removes all file and directory elements in a path except for the root information.
 
-This function differs from <a href="https://msdn.microsoft.com/ce9a1a40-2a03-44d2-80bc-0dc10654550b">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://msdn.microsoft.com/ce9a1a40-2a03-44d2-80bc-0dc10654550b">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 

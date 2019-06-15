@@ -64,7 +64,7 @@ The body of the message.
 
 ### -param pOperation [in]
 
-Reference to a <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structure that specifies the operation to perform. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform. 
 
 
 
@@ -75,12 +75,12 @@ Anonymous data passed to <i>pCallback</i> when the operation has completed.  Thi
 
 ### -param pCallback [in]
 
-Reference to an <a href="https://msdn.microsoft.com/24108143-55b7-4098-a4cc-025dfdfd054a">IWSDAsyncCallback</a> object which performs the message status callback notification. This parameter may be  optional.
+Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> object which performs the message status callback notification. This parameter may be  optional.
 
 
 ### -param pResult [out]
 
-Reference to an <a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a> object that specifies the results of the operation. 
+Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object that specifies the results of the operation. 
 
 
 
@@ -148,7 +148,7 @@ This method is normally only called by generated proxy code.
 
 
 
-<a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
  
 
  

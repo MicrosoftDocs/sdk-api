@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>lineSetLineDevStatus</b> function sets the line device status. Except for basic parameter validation, it is a straight pass-through to the service provider. The service provider sends a 
-<a href="https://msdn.microsoft.com/15f616de-db47-4577-9a47-94f9292253dd">LINE_LINEDEVSTATE</a> message to inform applications of the new state, when set; TAPI does not synthesize these messages.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a> message to inform applications of the new state, when set; TAPI does not synthesize these messages.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Handle to the line device.
 ### -param dwStatusToChange
 
 One or more of the 
-<a href="https://msdn.microsoft.com/5fa754d3-07b2-4b75-91ef-1bf961d9fef4">LINEDEVSTATUSFLAGS_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstatusflags--constants">LINEDEVSTATUSFLAGS_ Constants</a>.
 
 
 ### -param fStatus

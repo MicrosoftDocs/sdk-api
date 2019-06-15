@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 Controls the master volume level of the audio session associated with the streaming audio renderer (SAR) and the audio capture source.
 
-The SAR and the audio capture source expose this interface as a service. To get a pointer to the interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a>. For the SAR, use the service identifier MR_POLICY_VOLUME_SERVICE. For the audio capture source, use the service identifier MR_CAPTURE_POLICY_VOLUME_SERVICE.  You can call <b>GetService</b> directly on the SAR or the audio capture source, or call it on the Media Session.
+The SAR and the audio capture source expose this interface as a service. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. For the SAR, use the service identifier MR_POLICY_VOLUME_SERVICE. For the audio capture source, use the service identifier MR_CAPTURE_POLICY_VOLUME_SERVICE.  You can call <b>GetService</b> directly on the SAR or the audio capture source, or call it on the Media Session.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSimpleAudioVolume</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSimpleAudioVolume</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSimpleAudioVolume</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSimpleAudioVolume</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFSimpleAudioVolume</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03ce097e-c4e5-4dac-84c0-b569efc420bc">GetMasterVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmastervolume">GetMasterVolume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the master volume level.
@@ -81,7 +81,7 @@ Retrieves the master volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13907d3c-62c0-4cb8-8921-5a38a63d7d6e">GetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-getmute">GetMute</a>
 </td>
 <td align="left" width="63%">
 Queries whether the audio is muted.
@@ -90,7 +90,7 @@ Queries whether the audio is muted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42b51817-3c2a-463a-a533-19c327c57354">SetMasterVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmastervolume">SetMasterVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the master volume level.
@@ -99,7 +99,7 @@ Sets the master volume level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8840d15-d4d5-481e-9002-54fdbf323c9c">SetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsimpleaudiovolume-setmute">SetMute</a>
 </td>
 <td align="left" width="63%">
 Mutes or unmutes the audio.
@@ -113,7 +113,7 @@ Mutes or unmutes the audio.
 
 
 
-To control the volume levels of individual channels, use the <a href="https://msdn.microsoft.com/f06ed262-a2ec-4688-b477-877d04cf1892">IMFAudioStreamVolume</a> interface. The <b>IMFAudioStreamVolume</b>   interface is supported by the SAR only.
+To control the volume levels of individual channels, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a> interface. The <b>IMFAudioStreamVolume</b>   interface is supported by the SAR only.
 
 Volume is expressed as an attenuation level, where 0.0 indicates silence and 1.0 indicates full volume (no attenuation). For each channel, the attenuation level is the product of:
 
@@ -127,7 +127,7 @@ The volume level of the channel.
 
 </li>
 </ul>
-For example, if the master volume is 0.8 and the channel volume is 0.5, the attenuaton for that channel is 0.8 × 0.5 = 0.4. Volume levels can exceed 1.0 (positive gain), but the audio engine clips any audio samples that exceed zero decibels. To change the volume level of individual channels, use the <a href="https://msdn.microsoft.com/f06ed262-a2ec-4688-b477-877d04cf1892">IMFAudioStreamVolume</a> interface.
+For example, if the master volume is 0.8 and the channel volume is 0.5, the attenuaton for that channel is 0.8 × 0.5 = 0.4. Volume levels can exceed 1.0 (positive gain), but the audio engine clips any audio samples that exceed zero decibels. To change the volume level of individual channels, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume">IMFAudioStreamVolume</a> interface.
 
 Use the following formula to convert the volume level to the decibel (dB) scale:
 
@@ -144,11 +144,11 @@ For example, a volume level of 0.50 represents 6.02 dB of attenuation.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/5884a128-597d-432b-a706-e10c894d7965">Streaming Audio Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
  
 
  

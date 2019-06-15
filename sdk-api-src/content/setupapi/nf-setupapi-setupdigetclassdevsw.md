@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains requested device information elements for a local computer.
+The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains requested device information elements for a local computer.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>SetupDiGetClassDevs</b> function returns a handle to a <a href="https://m
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
+A pointer to the GUID for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. This pointer is optional and can be <b>NULL</b>. For more information about how to set <i>ClassGuid</i>, see the following <b>Remarks</b> section.
 
 
 ### -param Enumerator [in, optional]
@@ -72,11 +72,11 @@ A pointer to a NULL-terminated string that specifies:
 
 <ul>
 <li>
-An identifier (ID) of a Plug and Play (PnP) <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">enumerator</a>. This ID can either be the value's globally unique identifier (GUID) or symbolic name. For example, "PCI" can be used to specify the PCI PnP value. Other examples of symbolic names for PnP values include "USB," "PCMCIA," and "SCSI".
+An identifier (ID) of a Plug and Play (PnP) <a href="https://docs.microsoft.com/windows-hardware/drivers/">enumerator</a>. This ID can either be the value's globally unique identifier (GUID) or symbolic name. For example, "PCI" can be used to specify the PCI PnP value. Other examples of symbolic names for PnP values include "USB," "PCMCIA," and "SCSI".
 
 </li>
 <li>
-A PnP <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. When specifying a PnP device instance ID, DIGCF_DEVICEINTERFACE must be set in the Flags parameter.
+A PnP <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>. When specifying a PnP device instance ID, DIGCF_DEVICEINTERFACE must be set in the Flags parameter.
 
 </li>
 </ul>
@@ -106,7 +106,7 @@ Return a list of installed devices for all device setup classes or all device in
 
 #### DIGCF_DEVICEINTERFACE
 
-Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>.
+Return devices that support device interfaces for the specified device interface classes. This flag must be set in the <i>Flags</i> parameter if the <i>Enumerator</i> parameter specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>.
 
 
 
@@ -131,7 +131,7 @@ Return only devices that are a part of the current hardware profile.
 
 
 
-If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains all installed devices that matched the supplied parameters. If the operation fails, the function returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
 
 
 
@@ -140,9 +140,9 @@ If the operation succeeds, <b>SetupDiGetClassDevs</b> returns a handle to a <a h
 
 
 
-The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>.
+The caller of <b>SetupDiGetClassDevs</b> must delete the returned device information set when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>.
 
-Call <a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a> to retrieve the devices for a class on a remote computer.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsexa">SetupDiGetClassDevsEx</a> to retrieve the devices for a class on a remote computer.
 
 <h3><a id="device_setup_class_control_options"></a><a id="DEVICE_SETUP_CLASS_CONTROL_OPTIONS"></a>Device Setup Class Control Options</h3>
 Use the following filtering options to control whether <b>SetupDiGetClassDevs</b> returns devices for all device setup classes or only for a specified device setup class:
@@ -169,7 +169,7 @@ To return only devices that are part of the current hardware profile, set the DI
 
 </li>
 <li>
-To return devices only for a specific PnP <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">enumerator</a>, use the <i>Enumerator</i> parameter to supply the GUID or symbolic name of the enumerator<i>. </i>If <i>Enumerator</i> is <b>NULL</b>, <b>SetupDiGetClassDevs</b> returns devices for all PnP enumerators.
+To return devices only for a specific PnP <a href="https://docs.microsoft.com/windows-hardware/drivers/">enumerator</a>, use the <i>Enumerator</i> parameter to supply the GUID or symbolic name of the enumerator<i>. </i>If <i>Enumerator</i> is <b>NULL</b>, <b>SetupDiGetClassDevs</b> returns devices for all PnP enumerators.
 
 </li>
 </ul>
@@ -210,7 +210,7 @@ To return only devices that are part of the current hardware profile, set the DI
 
 </li>
 <li>
-To return only a specific device, set the DIGCF_DEVICEINTERFACE flag and use the <i>Enumerator</i> parameter to supply the <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> of the device<i>. </i>To include all possible devices, set <i>Enumerator</i> to <b>NULL</b>.
+To return only a specific device, set the DIGCF_DEVICEINTERFACE flag and use the <i>Enumerator</i> parameter to supply the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> of the device<i>. </i>To include all possible devices, set <i>Enumerator</i> to <b>NULL</b>.
 
 </li>
 </ul>
@@ -235,7 +235,7 @@ Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT)
 ```
 
 
-<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="https://msdn.microsoft.com/5ae7efab-616c-4db3-bad2-2d489ed3cdca">device setup class</a>.
+<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="https://docs.microsoft.com/previous-versions//ff553419(v=vs.85)">device setup class</a>.
 
 
 ```
@@ -243,7 +243,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);
 ```
 
 
-<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="https://msdn.microsoft.com/9abc48f9-babf-407f-9046-c1e45cbbdc64">device interface class</a>.
+<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="https://docs.microsoft.com/previous-versions//ff553412(v=vs.85)">device interface class</a>.
 
 
 ```
@@ -251,7 +251,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESEN
 ```
 
 
-<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="https://msdn.microsoft.com/5ae7efab-616c-4db3-bad2-2d489ed3cdca">device setup class</a> (Windows Vista and later versions of Windows).
+<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="https://docs.microsoft.com/previous-versions//ff553419(v=vs.85)">device setup class</a> (Windows Vista and later versions of Windows).
 
 <div class="alert"><b>Note</b>  You cannot set the <i>ClassGuid</i> parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.</div>
 <div> </div>
@@ -307,27 +307,27 @@ if (DeviceInfoSet) {
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">Device Information Set</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">Device Information Set</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">Device Instance IDs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">Device Instance IDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/0596f422-39ff-41ea-8bbd-63381d418ec8">SetupDiCreateDeviceInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/a341db0c-9ece-4677-9854-8e0dc29966c6">SetupDiDestroyDeviceInfoList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f13ffe1-1a60-4d9a-942d-63312ca9bc5b">SetupDiGetClassDevsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsexa">SetupDiGetClassDevsEx</a>
  
 
  

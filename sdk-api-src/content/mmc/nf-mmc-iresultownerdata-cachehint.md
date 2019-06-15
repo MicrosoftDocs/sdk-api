@@ -83,7 +83,7 @@ This method can return one of these values.
 MMC calls 
 CacheHint for a virtual list view to assist in optimizing how the snap-in caches requested item data to improve retrieval performance. The arguments passed in the call provide inclusive index values for a range of items that MMC recommends be cached. When 
 CacheHint is called, the snap-in must be prepared to load the cache with item information for the requested range so that the information will be readily available when its 
-<a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">IComponent::GetDisplayInfo</a> method is called later.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a> method is called later.
 
 There is no certainty that all the items will be requested or that other items will not be requested.
 

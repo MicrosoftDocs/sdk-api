@@ -65,13 +65,13 @@ The file name of the image (executable file or DLL) that is loaded.
 ### -param DllPath [in]
 
 The path used to locate the image if the name provided cannot be found. If this parameter is <b>NULL</b>, then the search path rules set using the 
-<a href="https://msdn.microsoft.com/8039365a-1b39-431e-af87-9a9933ca102d">SearchPath</a> function apply.
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function apply.
 
 
 ### -param LoadedImage [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a> structure that receives information about the image after it is loaded.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a> structure that receives information about the image after it is loaded.
 
 
 ### -param DotDll [in]
@@ -91,7 +91,7 @@ The access mode. If this value is <b>TRUE</b>, the file is mapped for read-acces
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -102,7 +102,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>MapAndLoad</b> function maps an image and preloads data from the mapped file. The corresponding function, 
-<a href="https://msdn.microsoft.com/63a39d2b-a3a1-4c91-be93-f9a681756293">UnMapAndLoad</a>, must be used to deallocate all resources that are allocated by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-unmapandload">UnMapAndLoad</a>, must be used to deallocate all resources that are allocated by the 
 <b>MapAndLoad</b> function.
 			
 
@@ -116,15 +116,15 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/63a39d2b-a3a1-4c91-be93-f9a681756293">UnMapAndLoad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-unmapandload">UnMapAndLoad</a>
  
 
  

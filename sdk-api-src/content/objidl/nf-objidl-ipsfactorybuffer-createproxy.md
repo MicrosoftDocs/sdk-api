@@ -59,7 +59,7 @@ Creates a proxy for the specified remote interface.
 
 ### -param pUnkOuter [in]
 
-A controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface; used for aggregation.
+A controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface; used for aggregation.
 
 
 ### -param riid [in]
@@ -69,7 +69,7 @@ The identifier of the interface to proxy.
 
 ### -param ppProxy [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/e1b18997-f99b-4611-8ba6-da28fd8df898">IRpcProxyBuffer</a> interface to control marshaling.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a> interface to control marshaling.
 
 
 ### -param ppv [out]
@@ -90,7 +90,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-The <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> implementation of the <a href="https://msdn.microsoft.com/e1b18997-f99b-4611-8ba6-da28fd8df898">IRpcProxyBuffer</a> interface must not delegate to the outer controlling <b>IUnknown</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a> interface must not delegate to the outer controlling <b>IUnknown</b>.
 
 
 
@@ -100,15 +100,15 @@ The <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IU
 
 
 
-<a href="https://msdn.microsoft.com/ffe85701-a4fa-4cf3-9b86-85f3a0cb63e9">IPSFactoryBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer">IPSFactoryBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1b18997-f99b-4611-8ba6-da28fd8df898">IRpcProxyBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c82f655-ac46-4ed9-992b-0387b324a8f9">Proxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/proxy">Proxy</a>
  
 
  

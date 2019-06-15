@@ -64,13 +64,13 @@ The length of this structure, in bytes.
 
 ### -field pUserSid
 
-The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> of the user who owns the certificate.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> of the user who owns the certificate.
 
 
 ### -field pCertBlob
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/e0d0aa0a-ac87-4734-93d0-30c2080319e8">EFS_CERTIFICATE_BLOB</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_certificate_blob">EFS_CERTIFICATE_BLOB</a> structure.
 
 
 ## -see-also
@@ -78,19 +78,19 @@ A pointer to an
 
 
 
-<a href="https://msdn.microsoft.com/e0d0aa0a-ac87-4734-93d0-30c2080319e8">EFS_CERTIFICATE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_certificate_blob">EFS_CERTIFICATE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1914b96-2fba-49ed-9dd2-464659323eda">ENCRYPTION_CERTIFICATE_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd23fab7-1675-4d0d-911c-e2aac2273e7f">SetUserFileEncryptionKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-setuserfileencryptionkey">SetUserFileEncryptionKey</a>
  
 
  

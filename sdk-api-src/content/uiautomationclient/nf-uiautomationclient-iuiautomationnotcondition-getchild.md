@@ -59,7 +59,7 @@ Retrieves the condition of which this condition is the negative.
 
 ### -param condition [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/66515d42-2b98-4923-b326-9fec557345b7">IUIAutomationCondition</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>**</b>
 
 Receives a pointer to the condition.
 
@@ -68,7 +68,7 @@ Receives a pointer to the condition.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -90,11 +90,11 @@ The returned condition is the one that was used in creating this condition.
 
 
 
-<a href="https://msdn.microsoft.com/183603f9-6e5b-4c44-b6b2-c363b4d150c3">CreateNotCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createnotcondition">CreateNotCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/63745e87-1571-47cb-b4d2-6909d834e97b">IUIAutomationNotCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationnotcondition">IUIAutomationNotCondition</a>
  
 
  

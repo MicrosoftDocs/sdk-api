@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the flags that modify the behavior of any type of <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Sets the flags that modify the behavior of any type of <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
 
 ## -parameters
@@ -101,7 +101,7 @@ The work item created will be hidden.
 #### TASK_FLAG_RUN_ONLY_IF_LOGGED_ON
 
 The work item runs only if the user specified in 
-<a href="https://msdn.microsoft.com/fae1299f-2f3f-48cf-91d9-1057ce62172b">IScheduledWorkItem::SetAccountInformation</a> is logged on interactively. This flag has no effect on the work items that are set to run in the local account.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a> is logged on interactively. This flag has no effect on the work items that are set to run in the local account.
 
 
 
@@ -119,13 +119,13 @@ The work item causes the system to be resumed, or awakened, if the system is run
 
 #### TASK_FLAG_KILL_ON_IDLE_END
 
-The work item terminates if the computer makes an idle to non-idle transition while the work item is running. The computer is not considered idle until the <b>IdleWait</b> triggers' time elapses with no user input. For information regarding idle triggers, see <a href="https://msdn.microsoft.com/en-us/library/Aa446894(v=VS.85).aspx">Idle Trigger</a>.
+The work item terminates if the computer makes an idle to non-idle transition while the work item is running. The computer is not considered idle until the <b>IdleWait</b> triggers' time elapses with no user input. For information regarding idle triggers, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">Idle Trigger</a>.
 
 
 
 #### TASK_FLAG_RESTART_ON_IDLE_RESUME
 
-The work item starts again if the computer makes a non-idle to idle transition before all the work item's <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task_triggers</a> elapse. (Use this flag in conjunction with TASK_FLAG_KILL_ON_IDLE_END.)
+The work item starts again if the computer makes a non-idle to idle transition before all the work item's <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task_triggers</a> elapse. (Use this flag in conjunction with TASK_FLAG_KILL_ON_IDLE_END.)
 
 
 
@@ -207,7 +207,7 @@ Programs must call the <b>IPersistFile::Save</b> method after calling
 <b>SetFlags</b> to update the flags.
 
 This method is used to set those flags used by any type of scheduled work item. In contrast, 
-<a href="https://msdn.microsoft.com/32231145-241a-46ff-9c49-94f5bf7cc532">ITask::SetTaskFlags</a> is used only to set flags used by scheduled tasks.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-settaskflags">ITask::SetTaskFlags</a> is used only to set flags used by scheduled tasks.
 
 
 
@@ -217,15 +217,15 @@ This method is used to set those flags used by any type of scheduled work item. 
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fe3c184-2689-44de-b60f-92d31eaa5285">IScheduledWorkItem::GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getflags">IScheduledWorkItem::GetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/fae1299f-2f3f-48cf-91d9-1057ce62172b">IScheduledWorkItem::SetAccountInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>
  
 
  

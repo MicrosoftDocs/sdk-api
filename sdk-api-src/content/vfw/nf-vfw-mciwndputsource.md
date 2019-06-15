@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndPutSource</b> macro redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/cff95139-0302-4db3-bf2e-559e75257e85">MCIWNDM_PUT_SOURCE</a> message.
+The <b>MCIWndPutSource</b> macro redefines the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-put-source">MCIWNDM_PUT_SOURCE</a> message.
 
 
 

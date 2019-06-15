@@ -104,7 +104,7 @@ A string.
 
 ### -field VT_DISPATCH
 
-An <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointer.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer.
 
 
 ### -field VT_ERROR
@@ -124,7 +124,7 @@ A variant pointer.
 
 ### -field VT_UNKNOWN
 
-An <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer.
+An <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
 
 
 ### -field VT_DECIMAL
@@ -229,7 +229,7 @@ An unsigned machine register size width.
 
 ### -field VT_FILETIME
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> value.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value.
 
 
 ### -field VT_BLOB

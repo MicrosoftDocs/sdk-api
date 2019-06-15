@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>TestCooperativeLevel</b> is no longer available for use. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Bb174338(v=VS.85).aspx">CheckDeviceState</a>.]
+<p class="CCE_Message">[<b>TestCooperativeLevel</b> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-checkdevicestate">CheckDeviceState</a>.]
 
 Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 
@@ -66,7 +66,7 @@ Reports the current cooperative-level status of the Direct3D device for a window
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Always returns D3D_OK.
 
@@ -78,7 +78,7 @@ Always returns D3D_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174337(v=VS.85).aspx">IDirect3DDevice9Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
  
 
  

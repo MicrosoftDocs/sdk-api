@@ -60,14 +60,14 @@ Provides information about a list-view control when it is displayed in tile view
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the <b>LVTILEVIEWINFO</b> structure.
 
 
 ### -field dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Mask that determines which members are valid. This member may be one of the following values.
 
@@ -115,7 +115,7 @@ Mask that determines which members are valid. This member may be one of the foll
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flags that determines how the tiles are sized in tile view. This member may be one of the following values.
 
@@ -184,7 +184,7 @@ Apply a fixed height and width to the tiles.
 
 ### -field sizeTile
 
-Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a></b>
 
 Size of an individual tile. Values for dimensions not specified as fixed in <b>dwFlags</b> are ignored.
 
@@ -223,11 +223,11 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775012(v=VS.85).aspx">ListView_GetTileViewInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_gettileviewinfo">ListView_GetTileViewInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775120(v=VS.85).aspx">ListView_SetTileViewInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_settileviewinfo">ListView_SetTileViewInfo</a>
 
 
 
@@ -235,7 +235,7 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774736(v=VS.85).aspx">Using List-View Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>
  
 
  

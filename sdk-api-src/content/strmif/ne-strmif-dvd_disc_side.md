@@ -76,7 +76,7 @@ Side B.
 
 
 
-This enumeration is used in the <a href="https://msdn.microsoft.com/d55973af-5f56-4e22-b3b0-2cee9f57c2d4">IDvdInfo2::GetDVDVolumeInfo</a> method.
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">IDvdInfo2::GetDVDVolumeInfo</a> method.
 
 
 
@@ -86,11 +86,11 @@ This enumeration is used in the <a href="https://msdn.microsoft.com/d55973af-5f5
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/d55973af-5f56-4e22-b3b0-2cee9f57c2d4">IDvdInfo2::GetDVDVolumeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdvolumeinfo">IDvdInfo2::GetDVDVolumeInfo</a>
  
 
  

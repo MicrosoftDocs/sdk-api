@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> object. 
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> object. 
 
 
 ## -parameters
@@ -65,23 +65,23 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536241(v=VS.85).aspx">ColorCurve::SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorcurve-setparameters">ColorCurve::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534060(v=VS.85).aspx">ColorCurveParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorcurveparams">ColorCurveParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534098(v=VS.85).aspx">CurveAdjustments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534100(v=VS.85).aspx">CurveChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a>
  
 
  

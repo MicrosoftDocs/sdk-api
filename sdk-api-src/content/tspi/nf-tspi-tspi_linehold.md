@@ -73,7 +73,7 @@ The service provider's handle to the call to be placed on hold. The call state o
 
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
@@ -86,13 +86,13 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEE
 
 The call on hold is temporarily disconnected, allowing TAPI to use the line device for making or answering other calls. 
 <b>TSPI_lineHold</b> performs a <i>hard hold</i> of the specified call, as opposed to a <i>consultation call</i>. A call on hard hold typically cannot be transferred or included in a conference call, whereas a consultation call can. Consultation calls are initiated using 
-<a href="https://msdn.microsoft.com/0cd95e53-62d5-4318-961a-1136646fd222">TSPI_lineSetupTransfer</a>, 
-<a href="https://msdn.microsoft.com/71b9720b-54dc-44a7-9fad-38dcd9f57ab3">TSPI_lineSetupConference</a>, or 
-<a href="https://msdn.microsoft.com/84642d7d-7673-45f1-91fb-aede75e51029">TSPI_linePrepareAddToConference</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetuptransfer">TSPI_lineSetupTransfer</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference">TSPI_lineSetupConference</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineprepareaddtoconference">TSPI_linePrepareAddToConference</a>.
 
 After a call is successfully placed on hold, the call state typically transitions to <i>onHold</i>. A held call is retrieved through 
-<a href="https://msdn.microsoft.com/4719c399-0dce-4aa2-9b6e-a84ad13f9228">TSPI_lineUnhold</a>. While a call is on hold, the service provider can send 
-<a href="https://msdn.microsoft.com/9070d6d2-f92c-4e07-8281-5b7e82862aaf">LINE_CALLSTATE</a> messages about state changes of the held call. For example, if the held party hangs up, the call state can transition to <i>disconnected</i>, and the service provider can send a LINE_CALLSTATE message indicating the new state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineunhold">TSPI_lineUnhold</a>. While a call is on hold, the service provider can send 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> messages about state changes of the held call. For example, if the held party hangs up, the call state can transition to <i>disconnected</i>, and the service provider can send a LINE_CALLSTATE message indicating the new state.
 
 
 
@@ -102,23 +102,23 @@ After a call is successfully placed on hold, the call state typically transition
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/9070d6d2-f92c-4e07-8281-5b7e82862aaf">LINE_CALLSTATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/71b9720b-54dc-44a7-9fad-38dcd9f57ab3">TSPI_lineSetupConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetupconference">TSPI_lineSetupConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cd95e53-62d5-4318-961a-1136646fd222">TSPI_lineSetupTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetuptransfer">TSPI_lineSetupTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/4719c399-0dce-4aa2-9b6e-a84ad13f9228">TSPI_lineUnhold</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineunhold">TSPI_lineUnhold</a>
  
 
  

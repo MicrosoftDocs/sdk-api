@@ -59,7 +59,7 @@ The <b>DrvGetModes</b> function lists the modes supported by a given device.
 
 ### -param hDriver [in]
 
-Handle to the driver for which the modes must be enumerated. This is the handle passed in the <i>hDriver</i> parameter of the <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a> function.
+Handle to the driver for which the modes must be enumerated. This is the handle passed in the <i>hDriver</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function.
 
 
 ### -param cjSize
@@ -69,7 +69,7 @@ Specifies the size in bytes of the buffer pointed to by <i>pdm</i>.
 
 ### -param pdm [out, optional]
 
-Pointer to the buffer containing <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODEW</a> structure(s) for the driver to fill in, or <b>NULL</b>.
+Pointer to the buffer containing <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure(s) for the driver to fill in, or <b>NULL</b>.
 
 
 ## -returns
@@ -103,19 +103,19 @@ Refer to the <i>Permedia</i> samples to see a working implementation of <b>DrvGe
 
 
 
-<a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
 
 
 
-<a href="https://msdn.microsoft.com/29846ffd-b721-4d61-9983-07a2575f9fe8">DrvAssertMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/a38186b6-4b27-4360-8721-49c95dd94806">EngDeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object based on string format flags and a language.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object based on string format flags and a language.
 
 
 ## -parameters
@@ -62,8 +62,8 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).as
 
 Type: <b>INT</b>
 
-Optional. Value that specifies the format flags that control most of the characteristics of the <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object. The flags are set by applying a bitwise 
-					<b>OR</b> to elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlags</a> enumeration. The default value is 0 (no flags set). 
+Optional. Value that specifies the format flags that control most of the characteristics of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object. The flags are set by applying a bitwise 
+					<b>OR</b> to elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a> enumeration. The default value is 0 (no flags set). 
 
 
 ### -param language [in]
@@ -81,7 +81,7 @@ When specifying LANG_NEUTRAL as the language ID, it is common practice to pass j
 
 <code>stat = FontFamily.GetFamilyName(name, LANG_NEUTRAL);</code>
 
-If you are specifying a language other than LANG_NEUTRAL, use <a href="https://msdn.microsoft.com/en-us/library/Dd373908(v=VS.85).aspx">MAKELANGID</a> to create the language and sublanguage combination as in the following example:
+If you are specifying a language other than LANG_NEUTRAL, use <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> to create the language and sublanguage combination as in the following example:
 
 <code>LANGID language = MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL);</code>
 
@@ -95,11 +95,11 @@ For a list of the available languages and sublanguages, see Winnt.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
  
 
  

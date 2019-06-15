@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775343(v=VS.85).aspx">HDM_GETORDERARRAY</a> message explicitly. 
+Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getorderarray">HDM_GETORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the current left-to-right order of items in a header control. You can use t
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control. 
 
@@ -69,7 +69,7 @@ A handle to a header control.
 Type: <b>int</b>
 
 The number of integer elements that 
-					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>).
+					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getitemcount">HDM_GETITEMCOUNT</a>).
 
 
 ### -param lpi

@@ -69,7 +69,7 @@ The <b>IFsrmStorageModuleImplementation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05de6dfe-0f90-4866-bedc-72b8fea9dfac">LoadProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-loadproperties">LoadProperties</a>
 </td>
 <td align="left" width="63%">
 Instructs the storage module to load properties associated with a file.
@@ -78,7 +78,7 @@ Instructs the storage module to load properties associated with a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69d848b9-4143-4b6c-9a45-66ff44c54b66">OnLoad</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload">OnLoad</a>
 </td>
 <td align="left" width="63%">
 Initializes the pipeline module.
@@ -87,7 +87,7 @@ Initializes the pipeline module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0febde2-f067-4ca7-8c2b-2f09da9e7d23">OnUnload</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onunload">OnUnload</a>
 </td>
 <td align="left" width="63%">
 Notifies the module to perform any cleanup tasks.
@@ -96,7 +96,7 @@ Notifies the module to perform any cleanup tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d31db26-9d03-46f3-a902-401f9e0d9767">SaveProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-saveproperties">SaveProperties</a>
 </td>
 <td align="left" width="63%">
 Instructs the storage module to save properties associated with a file.
@@ -105,7 +105,7 @@ Instructs the storage module to save properties associated with a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5683668-18c2-405b-aa56-8e7a9a1d5a9e">UseDefinitions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-usedefinitions">UseDefinitions</a>
 </td>
 <td align="left" width="63%">
 Specifies the property definitions FSRM recognizes.
@@ -120,11 +120,11 @@ Specifies the property definitions FSRM recognizes.
 
 
 
-<a href="https://msdn.microsoft.com/f238c446-b268-4600-b6e3-ec772a5f7575">IFsrmClassifierModuleImplementation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4420b1e-e2e5-460c-948c-3c5f97d7a0e7">IFsrmPipelineModuleImplementation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleimplementation">IFsrmPipelineModuleImplementation</a>
  
 
  

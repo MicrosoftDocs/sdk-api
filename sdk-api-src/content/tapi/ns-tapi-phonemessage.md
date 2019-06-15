@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>PHONEMESSAGE</b> structure contains the next message queued for delivery to the application. The 
-<a href="https://msdn.microsoft.com/8afa17ef-a47f-41af-b120-1e2d5acb4106">phoneGetMessage</a> function returns this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetmessage">phoneGetMessage</a> function returns this structure.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ Phone message.
 ### -field dwCallbackInstance
 
 Instance data passed back to the application, which was specified by the application in 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a>. This value is not interpreted by TAPI.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>. This value is not interpreted by TAPI.
 
 
 ### -field dwParam1
@@ -95,7 +95,7 @@ Parameter for the message.
 
 
 For information about parameter values passed in this structure, see 
-<a href="https://msdn.microsoft.com/b84c77ae-5d0f-416c-83c5-f7874168d996">Phone Device Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-device-messages">Phone Device Messages</a>.
 
 
 
@@ -105,11 +105,11 @@ For information about parameter values passed in this structure, see
 
 
 
-<a href="https://msdn.microsoft.com/8afa17ef-a47f-41af-b120-1e2d5acb4106">phoneGetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetmessage">phoneGetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
  
 
  

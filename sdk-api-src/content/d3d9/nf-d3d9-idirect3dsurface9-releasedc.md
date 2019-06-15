@@ -60,7 +60,7 @@ Release a device context handle.
 
 ### -param hdc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Handle to a device context.
 
@@ -69,7 +69,7 @@ Handle to a device context.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the argument is invalid.
 
@@ -82,7 +82,7 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 An hdc is a Windows resource. It must be released after use so Windows can return it to the pool of available resources.
 
-This method will release only the device context returned by <a href="https://msdn.microsoft.com/en-us/library/Bb205894(v=VS.85).aspx">IDirect3DSurface9::GetDC</a>. Otherwise, this method will fail.
+This method will release only the device context returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdc">IDirect3DSurface9::GetDC</a>. Otherwise, this method will fail.
 
 
 
@@ -92,11 +92,11 @@ This method will release only the device context returned by <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205894(v=VS.85).aspx">IDirect3DSurface9::GetDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdc">IDirect3DSurface9::GetDC</a>
  
 
  

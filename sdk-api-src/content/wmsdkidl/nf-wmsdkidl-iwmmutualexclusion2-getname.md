@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://msdn.microsoft.com/en-us/library/Dd757248(v=VS.85).aspx">IWMMutualExclusion2::SetName</a> method.
+The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setname">IWMMutualExclusion2::SetName</a> method.
 
 
 
@@ -128,7 +128,7 @@ If you pass an address as <i>pwszName</i>, and the length you specified in <i>pc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
  
 
  

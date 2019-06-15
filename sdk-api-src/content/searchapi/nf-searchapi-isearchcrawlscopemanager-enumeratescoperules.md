@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an enumeration of all the scope rules of which this instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> interface is aware.
+Returns an enumeration of all the scope rules of which this instance of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcrawlscopemanager">ISearchCrawlScopeManager</a> interface is aware.
         
 
 
@@ -60,9 +60,9 @@ Returns an enumeration of all the scope rules of which this instance of the <a h
 
 ### -param ppSearchScopeRules [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-ienumsearchscoperules">IEnumSearchScopeRules</a>**</b>
 
-Returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb266499(v=VS.85).aspx">IEnumSearchScopeRules</a> interface.
+Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-ienumsearchscoperules">IEnumSearchScopeRules</a> interface.
         
 
 

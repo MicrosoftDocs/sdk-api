@@ -60,7 +60,7 @@ Sets the Joliet properties.
 ### -param pPropStg [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface that the Joliet interface can use to retrieve new settings on various properties.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface that the Joliet interface can use to retrieve new settings on various properties.
 
 
 ## -returns
@@ -77,14 +77,14 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 Applications should query for a property set using 
-<a href="https://msdn.microsoft.com/660657b3-b378-4c16-9294-89309e4da569">GetJolietProperties</a>, modify only those settings of interest, and then call 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>, modify only those settings of interest, and then call 
 <b>SetJolietProperties</b> to change all values simultaneously.
 
 Some properties are read-only. Both read-only properties and unsupported properties are ignored without generating an error (see IMAPI_S_PROPERTIESIGNORED). For example, someone could submit a property set to this interface and attempt to change the ClearlyNeverHeardOfBefore property. Because ClearlyNeverHeardOfBefore is an unknown value, the property is ignored and the method succeeds.
 
 After calling 
 <b>SetJolietProperties</b>, an application should verify property settings by calling 
-<a href="https://msdn.microsoft.com/660657b3-b378-4c16-9294-89309e4da569">GetJolietProperties</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-getjolietproperties">GetJolietProperties</a>.
 
 
 
@@ -94,7 +94,7 @@ After calling
 
 
 
-<a href="https://msdn.microsoft.com/e2269b68-1860-4afd-90f2-d61297f3fa9b">IJolietDiscMaster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>
  
 
  

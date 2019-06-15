@@ -72,7 +72,7 @@ This property describes the default effect that happens when the user drops a gr
 
 
 
-<a href="https://msdn.microsoft.com/22C12A2A-2812-43E8-BB97-A3FDE811D0B4">IUIAutomationDropTargetPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdroptargetpattern">IUIAutomationDropTargetPattern</a>
  
 
  

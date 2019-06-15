@@ -63,7 +63,7 @@ Adds the current element to the collection of selected items.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -75,8 +75,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 If the result of a call to <b>ISelectionItemProvider::AddToSelection</b> is that a single item is selected, then 
-			send an <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_SelectionItem_ElementSelectedEventId</a> event for that element; otherwise send an <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_SelectionItem_ElementAddedToSelectionEventId</a> or 
-			<a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_SelectionItem_ElementRemovedFromSelectionEventId</a> event as appropriate. 
+			send an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementSelectedEventId</a> event for that element; otherwise send an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementAddedToSelectionEventId</a> or 
+			<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementRemovedFromSelectionEventId</a> event as appropriate. 
 
 <div class="alert"><b>Note</b>  This rule does not depend on whether the container allows single or multiple selection, 
 			or on what method was used to change the selection. Only the result matters.</div>
@@ -89,11 +89,11 @@ If the result of a call to <b>ISelectionItemProvider::AddToSelection</b> is that
 
 
 
-<a href="https://msdn.microsoft.com/464b05e3-06da-44b9-b4a6-c64452fcdb6d">ISelectionItemProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider">ISelectionItemProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

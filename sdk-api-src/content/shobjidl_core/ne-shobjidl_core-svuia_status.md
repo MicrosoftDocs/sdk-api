@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/9c8439f8-5931-4aca-8085-2707b6f964f0">IBrowserService2::_UIActivateView</a> method to set the state of a browser view.
+Used with the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_uiactivateview">IBrowserService2::_UIActivateView</a> method to set the state of a browser view.
 
 
 ## -enum-fields

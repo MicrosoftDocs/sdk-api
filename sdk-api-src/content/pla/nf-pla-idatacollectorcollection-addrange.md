@@ -59,7 +59,7 @@ Adds one or more data collectors to the collection.
 
 ### -param collectors [in]
 
-An <a href="https://msdn.microsoft.com/6b47fb9d-6ca4-4e6b-b117-027ef1e963ac">IDataCollectorCollection</a> interface to a collection of one or more data collectors to add to this collection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a> interface to a collection of one or more data collectors to add to this collection.
 
 
 ## -returns
@@ -96,15 +96,15 @@ The current configuration for the data collector set requires that it contain ex
 
 
 
-<a href="https://msdn.microsoft.com/6b47fb9d-6ca4-4e6b-b117-027ef1e963ac">IDataCollectorCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/6302e144-74ef-4251-a857-d3e066c9763d">IDataCollectorCollection::Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-add">IDataCollectorCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f5a6d20-d65a-477b-8886-8536315bc36e">IDataCollectorCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-remove">IDataCollectorCollection::Remove</a>
  
 
  

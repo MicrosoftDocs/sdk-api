@@ -59,7 +59,7 @@ Indexes a file path for file and folder naming conventions.
 
 ### -param resourceIndexer [in]
 
-The resource indexer object that you created by calling the <a href="https://msdn.microsoft.com/240C94B6-DF61-4C84-9047-9CD81A6FF4B4">CreateResourceIndexer</a> function.
+The resource indexer object that you created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-createresourceindexer">CreateResourceIndexer</a> function.
 
 
 ### -param filePath [in]
@@ -96,11 +96,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/240C94B6-DF61-4C84-9047-9CD81A6FF4B4">CreateResourceIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-createresourceindexer">CreateResourceIndexer</a>
 
 
 
-<a href="https://msdn.microsoft.com/A6F253AD-0756-4996-AC6C-5B09C55DE22E">IndexedResourceQualifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/ns-resourceindexer-indexedresourcequalifier">IndexedResourceQualifier</a>
  
 
  

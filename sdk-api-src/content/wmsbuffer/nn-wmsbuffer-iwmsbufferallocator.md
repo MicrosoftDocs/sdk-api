@@ -59,7 +59,7 @@ The <b>IWMSSBufferAllocator</b> interface provides methods for allocating a buff
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSBufferAllocator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMSBufferAllocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSBufferAllocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMSBufferAllocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMSBufferAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743700(v=VS.85).aspx">AllocateBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-iwmsbufferallocator-allocatebuffer">AllocateBuffer</a>
 </td>
 <td align="left" width="63%">
 Initializes a buffer.
@@ -83,7 +83,7 @@ Initializes a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd743701(v=VS.85).aspx">AllocatePageSizeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-iwmsbufferallocator-allocatepagesizebuffer">AllocatePageSizeBuffer</a>
 </td>
 <td align="left" width="63%">
 Initializes a buffer that can be used to perform page-aligned reads.
@@ -98,7 +98,7 @@ Initializes a buffer that can be used to perform page-aligned reads.
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

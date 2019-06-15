@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_IMPORT_SRC_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_IMPORT_SRC_INFO</b> structure contains the subject to import into the <a href="https://msdn.microsoft.com/6b2b9c89-229a-4626-a8b4-fe2b7cc0af86">CryptUIWizImport</a> function.  The subject can be a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>, a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL), or a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
+The <b>CRYPTUI_WIZ_IMPORT_SRC_INFO</b> structure contains the subject to import into the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizimport">CryptUIWizImport</a> function.  The subject can be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL), or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 
 ## -struct-fields
@@ -134,17 +134,17 @@ A pointer to a null-terminated Unicode string that contains the path and file na
 
 ### -field pCertContext
 
-A pointer to the <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains the certificate to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_CONTEXT</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CERT_CONTEXT</b>.
 
 
 ### -field pCTLContext
 
-A pointer to the <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure that contains the CTL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CTL_CONTEXT</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure that contains the CTL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CTL_CONTEXT</b>.
 
 
 ### -field pCRLContext
 
-A pointer to the <a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> structure that contains the CRL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CRL_CONTEXT</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure that contains the CRL to import. This member is used if the <b>dwSubjectChoice</b> member contains <b>CRYPTUI_WIZ_IMPORT_SUBJECT_CRL_CONTEXT</b>.
 
 
 ### -field hCertStore
@@ -154,7 +154,7 @@ A handle to the certificate store to import. This member is used if the <b>dwSub
 
 ### -field dwFlags
 
-Contains flags that modify the import operation. This member is required if <b>pwszFileName</b> contains a Personal Information Exchange (PFX) <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.  Otherwise, this member is ignored. This member can be zero or a combination of one or more of the following values.
+Contains flags that modify the import operation. This member is required if <b>pwszFileName</b> contains a Personal Information Exchange (PFX) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.  Otherwise, this member is ignored. This member can be zero or a combination of one or more of the following values.
 
 <table>
 <tr>
@@ -168,7 +168,7 @@ Contains flags that modify the import operation. This member is required if <b>p
 </td>
 <td width="60%">
 Imported keys are marked as exportable. If this flag is not used, calls to 
-the <a href="https://msdn.microsoft.com/8a7c7b46-3bea-4043-b568-6d91d6335737">CryptExportKey</a> function with the key handle fail.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> function with the key handle fail.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ the <a href="https://msdn.microsoft.com/8a7c7b46-3bea-4043-b568-6d91d6335737">Cr
 </dl>
 </td>
 <td width="60%">
-The user is to be notified by means of a dialog box or some other manner when certain actions are attempting to use this key. The precise behavior is specified by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) that is being used.
+The user is to be notified by means of a dialog box or some other manner when certain actions are attempting to use this key. The precise behavior is specified by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) that is being used.
 
 Prior to Internet Explorer 4.0, Microsoft CSPs ignored this flag. Starting with Internet Explorer 4.0, Microsoft CSPs support this flag.
 
@@ -212,7 +212,7 @@ The private keys are stored under the current user and not under the local compu
 
 ### -field pwszPassword
 
-Pointer to a null-terminated Unicode string that contains the password used to access the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>.  A password is required if <b>pwszFileName</b> contains a PFX BLOB.  If a password is not required, the variable can be an empty string. This member cannot be <b>NULL</b>.
+Pointer to a null-terminated Unicode string that contains the password used to access the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>.  A password is required if <b>pwszFileName</b> contains a PFX BLOB.  If a password is not required, the variable can be an empty string. This member cannot be <b>NULL</b>.
 
 
 ## -see-also
@@ -220,11 +220,11 @@ Pointer to a null-terminated Unicode string that contains the password used to a
 
 
 
-<a href="https://msdn.microsoft.com/3c509bb6-d391-4b59-809c-23466c8196ea">CRYPTUI_WIZ_EXPORT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/ns-cryptuiapi-_cryptui_wiz_export_info">CRYPTUI_WIZ_EXPORT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/62537d51-c761-4180-b857-58c819ea66aa">CryptUIWizExport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>
  
 
  

@@ -82,11 +82,11 @@ You can call <b>TokenBindingDeleteAllBindings</b> from user mode.
 
 
 
-<a href="https://msdn.microsoft.com/4258CC92-580E-403C-9AE4-4BB726255464">TokenBindingDeleteBinding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindingdeletebinding">TokenBindingDeleteBinding</a>
 
 
 
-<a href="https://msdn.microsoft.com/4289E3F0-17AC-485B-A326-2C8BECD5CABB">TokenBindingGenerateBinding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratebinding">TokenBindingGenerateBinding</a>
  
 
  

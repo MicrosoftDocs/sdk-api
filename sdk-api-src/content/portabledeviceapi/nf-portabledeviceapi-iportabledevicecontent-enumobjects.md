@@ -79,7 +79,7 @@ This parameter is ignored and should be set to <b>NULL</b>.
 
 ### -param ppEnum [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/0e9a65cc-819c-494e-9c7c-8f5fec78a2ee">IEnumPortableDeviceObjectIDs</a> interface that is used to enumerate the objects that are found. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs</a> interface that is used to enumerate the objects that are found. The caller must release this interface when it is done with it.
           
 
 
@@ -128,19 +128,19 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="https://msdn.microsoft.com/86782a09-4fca-4ae0-beaf-296069e061dc">Enumerating Content</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-content">Enumerating Content</a>
 
 
 
-<a href="https://msdn.microsoft.com/4af4201c-d3f6-4630-91ec-6509c51871a5">Enumerating Service Content</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-service-content">Enumerating Service Content</a>
 
 
 
-<a href="https://msdn.microsoft.com/72526019-58c9-4a18-a925-e0a900f3e35a">IPortableDeviceContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-enumobjects">IPortableDeviceContent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
  
 
  

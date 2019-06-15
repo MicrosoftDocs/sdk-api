@@ -60,7 +60,7 @@ The <b>IControlbar::Detach</b> method breaks the association between a control a
 ### -param lpUnknown [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the control object that represents the control removed.
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the control object that represents the control removed.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/cf9c9fe9-f58f-47f0-9051-86a514df0c6d">IToolbar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
  
 
  

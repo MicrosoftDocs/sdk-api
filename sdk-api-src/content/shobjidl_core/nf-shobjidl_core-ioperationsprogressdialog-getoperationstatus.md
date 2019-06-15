@@ -59,9 +59,9 @@ Gets operation status for progress dialog.
 
 ### -param popstatus [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f9fd5cbe-2cb7-4ae7-9cf2-f8545095eec8">PDOPSTATUS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-pdopstatus">PDOPSTATUS</a>*</b>
 
-Contains pointer to the operation status. See <a href="https://msdn.microsoft.com/f9fd5cbe-2cb7-4ae7-9cf2-f8545095eec8">PDOPSTATUS</a>.
+Contains pointer to the operation status. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-pdopstatus">PDOPSTATUS</a>.
 
 
 ## -returns

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Identifies each XML canonicalization property and its associated
-        value.  This enumeration is used within the <a href="https://msdn.microsoft.com/en-us/library/Dd323523(v=VS.85).aspx">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> and <a href="https://msdn.microsoft.com/e9ea26d6-a136-4103-ac67-42e943ea67b5">WsStartWriterCanonicalization</a>.
+        value.  This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_canonicalization_property">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartwritercanonicalization">WsStartWriterCanonicalization</a>.
 
 
 ## -enum-fields
@@ -60,14 +60,14 @@ Identifies each XML canonicalization property and its associated
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM
 
-A <a href="https://msdn.microsoft.com/230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
           the <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
         
 
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323522(v=VS.85).aspx">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_canonicalization_inclusive_prefixes">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
           the exclusive canonicalization algorithm.  If this is not specified,
           no prefix is treated as an inclusive prefix.
         
@@ -75,7 +75,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Dd323522(v=VS.85).aspx">WS_X
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OMITTED_ELEMENT
 
-A <a href="https://msdn.microsoft.com/54095ad5-e9ba-4fa8-92e2-87b3a8950d5c">WS_XML_QNAME</a> structure that contains the elements to be omitted during canonicalization.  If one or more
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_qname">WS_XML_QNAME</a> structure that contains the elements to be omitted during canonicalization.  If one or more
           elements in the XML input match the specified name and namespace, then
           all such elements and the subtrees rooted at them are omitted from the
           canonical output.  This property can be used to implement enveloped
@@ -89,7 +89,7 @@ A <a href="https://msdn.microsoft.com/54095ad5-e9ba-4fa8-92e2-87b3a8950d5c">WS_X
 ### -field WS_XML_CANONICALIZATION_PROPERTY_OUTPUT_BUFFER_SIZE
 
 A <b>ULONG</b> that specifies the size of the buffer in which canonical bytes are accumulated.  Once at least this
-          many bytes are generated, or canonicalization is ended by a call to <a href="https://msdn.microsoft.com/5cacad47-8581-4713-96cb-3b3a863e6327">WsEndReaderCanonicalization</a>or <a href="https://msdn.microsoft.com/169f971e-0cd2-44e7-81fc-059cc3cd357d">WsEndWriterCanonicalization</a>, the canonical bytes are
+          many bytes are generated, or canonicalization is ended by a call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendwritercanonicalization">WsEndWriterCanonicalization</a>, the canonical bytes are
           written to the output specified at the start of canonicalization.  If this is
           not specified, a default buffer size of 1024 is used.
 

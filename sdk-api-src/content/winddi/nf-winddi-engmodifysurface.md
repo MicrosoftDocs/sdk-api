@@ -59,17 +59,17 @@ The <b>EngModifySurface</b> function notifies GDI about the attributes of a surf
 
 ### -param hsurf
 
-Handle to the surface to be modified. This parameter is the surface handle returned by <a href="https://msdn.microsoft.com/dc9d7154-30b9-4462-9161-6df03946308d">EngCreateDeviceBitmap</a> or <a href="https://msdn.microsoft.com/9c3ca4c4-7614-4739-8333-202c6ec2eab8">EngCreateDeviceSurface</a>, or from the <b>hsurf</b> member of the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure.
+Handle to the surface to be modified. This parameter is the surface handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicebitmap">EngCreateDeviceBitmap</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedevicesurface">EngCreateDeviceSurface</a>, or from the <b>hsurf</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure.
 
 
 ### -param hdev
 
-Handle to the device with which the surface is to be associated. This is the handle that GDI passed to <a href="https://msdn.microsoft.com/6343c6cc-f2f3-4776-a747-7a5b5cebef5f">DrvCompletePDEV</a>.
+Handle to the device with which the surface is to be associated. This is the handle that GDI passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a>.
 
 
 ### -param flHooks
 
-Is a set of flags that control the functions the driver can hook whenever GDI drawing occurs on the specified surface. This can be a bitwise OR of any of the HOOK_<i>Xxx</i> values listed on the <a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a> reference page.
+Is a set of flags that control the functions the driver can hook whenever GDI drawing occurs on the specified surface. This can be a bitwise OR of any of the HOOK_<i>Xxx</i> values listed on the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a> reference page.
 
 
 ### -param flSurface
@@ -79,7 +79,7 @@ Is a set of flags that describe the surface's attributes. Currently, the driver 
 
 ### -param dhsurf
 
-Identifies the surface to the driver. The driver can set this to anything; GDI sets the <b>dhsurf</b> member of the resulting surface's <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure to this value if the function is successful.
+Identifies the surface to the driver. The driver can set this to anything; GDI sets the <b>dhsurf</b> member of the resulting surface's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure to this value if the function is successful.
 
 
 ### -param pvScan0
@@ -110,11 +110,11 @@ Is reserved and must always be set to <b>NULL</b>.
 
 
 
-<b>EngModifySurface</b> allows the driver to modify a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device-managed surface</a> and inform GDI of this surface's attributes. This allows drivers to convert the destination surface from being opaque to nonopaque, thus allowing GDI to draw on the surface.
+<b>EngModifySurface</b> allows the driver to modify a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surface</a> and inform GDI of this surface's attributes. This allows drivers to convert the destination surface from being opaque to nonopaque, thus allowing GDI to draw on the surface.
 
-The DIB engine uses <i>pvScan0</i> and <i>lDelta</i> to draw directly to the surface. When these parameters are <b>NULL</b>, the surface is opaque to GDI, and GDI will revert to calling <a href="https://msdn.microsoft.com/c2d42c7a-3d6e-416c-a194-2228cc1b0fd9">DrvCopyBits</a> for drawing operations not hooked by the driver.
+The DIB engine uses <i>pvScan0</i> and <i>lDelta</i> to draw directly to the surface. When these parameters are <b>NULL</b>, the surface is opaque to GDI, and GDI will revert to calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a> for drawing operations not hooked by the driver.
 
-After <a href="https://msdn.microsoft.com/a838a44a-243c-4d0d-bda3-eec9a626cb53">DrvEnableSurface</a> returns a handle to a primary surface, do not call <b>EngModifySurface</b> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
+After <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a> returns a handle to a primary surface, do not call <b>EngModifySurface</b> on that handle. Doing so can cause a bug check in certain circumstances. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=330248">Microsoft Knowledge Base article 330248</a>.
 
 
 
@@ -124,11 +124,11 @@ After <a href="https://msdn.microsoft.com/a838a44a-243c-4d0d-bda3-eec9a626cb53">
 
 
 
-<a href="https://msdn.microsoft.com/c2d42c7a-3d6e-416c-a194-2228cc1b0fd9">DrvCopyBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcopybits">DrvCopyBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cb6d4bf-67bd-4bfb-9605-eeb954fc590c">EngAssociateSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>
  
 
  

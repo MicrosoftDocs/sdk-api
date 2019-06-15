@@ -51,7 +51,7 @@ req.redist:
 Retrieves the length of the specified disk, volume, or partition.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -145,11 +145,11 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-Volume handles do not have access to the full volume. To read or write to the last few sectors of a volume, you must call <a href="https://msdn.microsoft.com/7d895367-f48f-47db-9ef9-cf20d0ea6782">FSCTL_ALLOW_EXTENDED_DASD_IO</a>, which instructs the file system to not perform any boundary checks.
+Volume handles do not have access to the full volume. To read or write to the last few sectors of a volume, you must call <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_allow_extended_dasd_io">FSCTL_ALLOW_EXTENDED_DASD_IO</a>, which instructs the file system to not perform any boundary checks.
 
 
 This operation should be used instead of 
-<a href="https://msdn.microsoft.com/f84f8be6-2b01-4a20-8669-cb1a55c32907">IOCTL_DISK_GET_PARTITION_INFO_EX</a> for volumes that do not have partition info—such as partition type or number of hidden sectors.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a> for volumes that do not have partition info—such as partition type or number of hidden sectors.
 
 
 
@@ -159,15 +159,15 @@ This operation should be used instead of
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0d2a5bc-32e0-47d6-a4f0-84bd7f6bb746">GET_LENGTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_length_information">GET_LENGTH_INFORMATION</a>
  
 
  

@@ -67,14 +67,14 @@ Null-terminated string containing the name of the filter.
 
 ### -field pGraph
 
-If the filter is member of a filter graph, contains a pointer to the filter graph's <a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a> interface. If the filter is not a member of a filter graph, this value of this member is <b>NULL</b>.
+If the filter is member of a filter graph, contains a pointer to the filter graph's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a> interface. If the filter is not a member of a filter graph, this value of this member is <b>NULL</b>.
 
 
 ## -remarks
 
 
 
-If the <b>pGraph</b> member is not <b>NULL</b>, the application should release the <a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph</a> interface when it is finished using it.
+If the <b>pGraph</b> member is not <b>NULL</b>, the application should release the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a> interface when it is finished using it.
 
 
 
@@ -84,7 +84,7 @@ If the <b>pGraph</b> member is not <b>NULL</b>, the application should release t
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

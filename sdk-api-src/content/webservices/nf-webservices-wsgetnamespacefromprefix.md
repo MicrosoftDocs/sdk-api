@@ -53,7 +53,7 @@ This function returns a namespace from the prefix to which it is bound.
       
 
 If the value of the <i>required</i> parameter is set to <b>TRUE</b> and the Prefix is not bound to any namespace a <b>WS_E_INVALID_FORMAT</b> exception will be returned.
-        (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.) If the <i>required</i> parameter is  <b>FALSE</b>, and the Prefix is not bound to any namespace the <i>ns</i> parameter will be <b>NULL</b> and the function will return S_FALSE.
+        (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.) If the <i>required</i> parameter is  <b>FALSE</b>, and the Prefix is not bound to any namespace the <i>ns</i> parameter will be <b>NULL</b> and the function will return S_FALSE.
       
 
 
@@ -88,7 +88,7 @@ A reference to a namespace to which the prefix is bound if successful.  The valu
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

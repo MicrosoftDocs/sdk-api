@@ -61,7 +61,7 @@ The <b>FwpmTransactionAbort0</b> function causes the current transaction within 
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call  <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The transaction was aborted.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ Failure to communicate with the remote or local firewall engine.
 This function can only be called from within a transaction. Otherwise, it will fail
 with <b>FWP_E_NO_TXN_IN_PROGRESS</b>.
 
-<b>FwpmTransactionAbort0</b> is a specific implementation of FwpmTransactionAbort. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmTransactionAbort0</b> is a specific implementation of FwpmTransactionAbort. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -134,11 +134,11 @@ with <b>FWP_E_NO_TXN_IN_PROGRESS</b>.
 
 
 
-<a href="https://msdn.microsoft.com/9eaf1101-7cf3-4eb2-9ca0-47108a5c80c7">FwpmTransactionBegin0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmtransactionbegin0">FwpmTransactionBegin0</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bde803c-f416-4096-98c5-1c56e4a86b94">FwpmTransactionCommit0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmtransactioncommit0">FwpmTransactionCommit0</a>
  
 
  

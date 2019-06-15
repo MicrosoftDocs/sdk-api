@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/599638af-ebbb-4a45-96cf-ba3852e87237">DrawRoundedRectangle(D2D1_ROUNDED_RECT&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawroundedrectangle(constd2d1_rounded_rect__id2d1brush_float_id2d1strokestyle)">DrawRoundedRectangle(D2D1_ROUNDED_RECT&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
 Draws the outline of the specified rounded rectangle using the specified stroke style.
@@ -66,7 +66,7 @@ Draws the outline of the specified rounded rectangle using the specified stroke 
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4f21552-286f-4330-9cc4-c92694c6d6ce">DrawRoundedRectangle(D2D1_ROUNDED_RECT*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawroundedrectangle(constd2d1_rounded_rect__id2d1brush_float_id2d1strokestyle)">DrawRoundedRectangle(D2D1_ROUNDED_RECT*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
 Draws the outline of the specified rounded rectangle using the specified stroke style.
@@ -82,12 +82,12 @@ Draws the outline of the specified rounded rectangle using the specified stroke 
 
 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawRoundedRectangle</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawRoundedRectangle</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples
 
-The following example uses the <b>DrawRoundedRectangle</b> and <a href="https://msdn.microsoft.com/en-us/library/Dd742852(v=VS.85).aspx">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration. 
+The following example uses the <b>DrawRoundedRectangle</b> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillroundedrectangle">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration. 
 
 <img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="images/drawroundedrectangle_scr.png"/>
 
@@ -171,15 +171,15 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 
 
 
-<a href="https://msdn.microsoft.com/200119a2-941c-493f-9e56-c9f306dc5322">D2D1::RoundedRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-roundedrect">D2D1::RoundedRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-05417ae4ef29">How to Draw and Fill a Basic Shape</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

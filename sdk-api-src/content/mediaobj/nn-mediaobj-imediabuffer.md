@@ -58,7 +58,7 @@ The <code>IMediaBuffer</code> interface provides methods for manipulating a data
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMediaBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IMediaBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390167(v=VS.85).aspx">GetBufferAndLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediabuffer-getbufferandlength">GetBufferAndLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffer and the size of the valid data in the buffer.
@@ -82,7 +82,7 @@ Retrieves the buffer and the size of the valid data in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390168(v=VS.85).aspx">GetMaxLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediabuffer-getmaxlength">GetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of bytes this buffer can hold.
@@ -91,7 +91,7 @@ Retrieves the maximum number of bytes this buffer can hold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390169(v=VS.85).aspx">SetLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediabuffer-setlength">SetLength</a>
 </td>
 <td align="left" width="63%">
 Specifies the length of the data currently in the buffer.
@@ -106,7 +106,7 @@ Specifies the length of the data currently in the buffer.
 
 
 
-<a href="https://msdn.microsoft.com/bde7cef8-f43e-4a11-8b77-fed5585d390a">Implementing IMediaBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>
  
 
  

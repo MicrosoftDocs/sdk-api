@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultLocation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDefaultLocation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDefaultLocation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDefaultLocation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDefaultLocation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b52dd6e-cba5-4248-b1be-b34e47a029d5">GetReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-getreport">GetReport</a>
 </td>
 <td align="left" width="63%">
 Gets the report from the default location provider.
@@ -82,7 +82,7 @@ Gets the report from the default location provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a>
 </td>
 <td align="left" width="63%">
 Sets the report that the default location provider returns.
@@ -96,7 +96,7 @@ Sets the report that the default location provider returns.
 
 
 
-<div class="alert"><b>Note</b>  An application does not receive the expected location change event from <a href="https://msdn.microsoft.com/14353c8e-15f5-493b-9b49-139924f2397e">OnLocationChanged</a> if both of the following conditions are true. First, the application runs as a service, in the context of the LOCALSERVICE, SYSTEM, or NETWORKSERVICE user account. Second, the location change event results from changing the default location, either manually when the user selects <b>Default Location</b> in Control Panel, or programmatically when an application calls <b>IDefaultLocation::SetReport</b>.</div>
+<div class="alert"><b>Note</b>  An application does not receive the expected location change event from <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged">OnLocationChanged</a> if both of the following conditions are true. First, the application runs as a service, in the context of the LOCALSERVICE, SYSTEM, or NETWORKSERVICE user account. Second, the location change event results from changing the default location, either manually when the user selects <b>Default Location</b> in Control Panel, or programmatically when an application calls <b>IDefaultLocation::SetReport</b>.</div>
 <div> </div>
 
 

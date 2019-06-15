@@ -89,11 +89,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/b5fe1a32-545e-417d-9996-34d12862a0ea">IRawCDImageCreator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator</a>
 
 
 
-<a href="https://msdn.microsoft.com/db6f46b7-9965-4b06-a437-bdfdac7d5efa">IRawCDImageCreator::get_MediaCatalogNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-irawcdimagecreator-get_mediacatalognumber">IRawCDImageCreator::get_MediaCatalogNumber</a>
  
 
  

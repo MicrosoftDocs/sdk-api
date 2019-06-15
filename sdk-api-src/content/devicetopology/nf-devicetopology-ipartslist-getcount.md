@@ -98,7 +98,7 @@ Pointer <i>pCount</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/3ac48781-90c2-4b23-aa68-3453091bde61">IPartsList Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList Interface</a>
  
 
  

@@ -102,7 +102,7 @@ Window to display in.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms524235(v=VS.85).aspx">About Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
  
 
  

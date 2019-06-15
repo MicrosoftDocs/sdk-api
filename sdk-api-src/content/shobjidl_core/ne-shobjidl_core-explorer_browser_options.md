@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-These flags are used with <a href="https://msdn.microsoft.com/e2c7ee6a-fbd9-4b75-a9ed-734e7977088d">IExplorerBrowser::GetOptions</a> and <a href="https://msdn.microsoft.com/b2f8fe1b-afcd-4fb0-b96b-41e38c7fea0b">IExplorerBrowser::SetOptions</a>.
+These flags are used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-getoptions">IExplorerBrowser::GetOptions</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-setoptions">IExplorerBrowser::SetOptions</a>.
 
 
 ## -enum-fields
@@ -69,7 +69,7 @@ Do not navigate further than the initial navigation.
 
 ### -field EBO_SHOWFRAMES
 
-Use the following standard panes: Commands Module pane, Navigation pane, Details pane, and Preview pane. An implementer of <a href="https://msdn.microsoft.com/b940adc2-dfef-49c5-b86c-d0da83db0aad">IExplorerPaneVisibility</a> can modify the components of the Commands Module that  are shown. For more information see, <a href="https://msdn.microsoft.com/6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda">IExplorerPaneVisibility::GetPaneState</a>. If EBO_SHOWFRAMES is not set, Explorer browser uses a single view object.
+Use the following standard panes: Commands Module pane, Navigation pane, Details pane, and Preview pane. An implementer of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerpanevisibility">IExplorerPaneVisibility</a> can modify the components of the Commands Module that  are shown. For more information see, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">IExplorerPaneVisibility::GetPaneState</a>. If EBO_SHOWFRAMES is not set, Explorer browser uses a single view object.
 
 
 ### -field EBO_ALWAYSNAVIGATE

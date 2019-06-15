@@ -59,19 +59,19 @@ Describes a video processor output view.
 
 ### -field ViewDimension
 
-The resource type of the view, specified as a member of the <a href="https://msdn.microsoft.com/EB334FA2-B174-45B2-8087-AAB72BB41795">D3D11_VPOV_DIMENSION</a> enumeration.
+The resource type of the view, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_vpov_dimension">D3D11_VPOV_DIMENSION</a> enumeration.
 
 
 ### -field Texture2D
 
-A <a href="https://msdn.microsoft.com/DFABFB34-2622-4AB7-A87E-7E15F4D20E69">D3D11_TEX2D_VPOV</a> structure that identifies the texture resource for the output view. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_vpov">D3D11_TEX2D_VPOV</a> structure that identifies the texture resource for the output view. 
 
 Use this member of the union when <b>ViewDimension</b> equals <b>D3D11_VPOV_DIMENSION_TEXTURE2D</b>.
 
 
 ### -field Texture2DArray
 
-A <a href="https://msdn.microsoft.com/DF059392-3E4B-45D2-A3CD-A0C61C8D628F">D3D11_TEX2D_ARRAY_VPOV</a> structure that identifies the texture array for the output view. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_array_vpov">D3D11_TEX2D_ARRAY_VPOV</a> structure that identifies the texture array for the output view. 
 
 Use this member of the union when <b>ViewDimension</b> equals <b>D3D11_VPOV_DIMENSION_TEXTURE2DARRAY</b>.
 
@@ -81,11 +81,11 @@ Use this member of the union when <b>ViewDimension</b> equals <b>D3D11_VPOV_DIME
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/EC7AFE44-877C-4FB0-9E61-FCD504A334D3">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessoroutputview">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
  
 
  

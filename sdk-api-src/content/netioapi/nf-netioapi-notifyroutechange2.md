@@ -184,7 +184,7 @@ There was insufficient memory.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ The <i>CallerContext</i> parameter passed to the <b>NotifyRouteChange2</b> funct
 
 </td>
 <td width="60%">
-A pointer to the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> entry for the  IP route entry that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyRouteChange2</b> was set to <b>TRUE</b> when registering for notifications.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> entry for the  IP route entry that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyRouteChange2</b> was set to <b>TRUE</b> when registering for notifications.
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ A pointer to the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57
 
 </td>
 <td width="60%">
-The notification type. This member can be one of the values from the <a href="https://msdn.microsoft.com/89f6a923-d745-4f9f-82d4-c77ffc8389cd">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
+The notification type. This member can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ne-netioapi-_mib_notification_type">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
 
 </td>
 </tr>
@@ -246,7 +246,7 @@ The notification type. This member can be one of the values from the <a href="ht
 
 The callback function specified in the <i>Callback</i> parameter must be implemented in the same process as the application calling the <b>NotifyRouteChange2</b> function. If the callback function is in a separate DLL, then the DLL should be loaded before calling the <b>NotifyRouteChange2</b> function to register for change notifications. 
 
-When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_IPFORWARD_ROW2</b> structure is only enough information that an application can call the <a href="https://msdn.microsoft.com/53d5009a-d205-40ce-88e5-fe37e72b5a50">GetIpForwardEntry2</a>  function to query complete information on the IP route that changed. When the callback function is received, an application should allocate a <b>MIB_IPFORWARD_ROW2</b> structure and initialize it with the <b>DestinationPrefix</b>,  <b>NextHop</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_IPFORWARD_ROW2</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_IPFORWARD_ROW2</b> structure should be passed to the <b>GetIpForwardEntry2</b> function to retrieve complete information on the IP route that was changed. 
+When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_IPFORWARD_ROW2</b> structure is only enough information that an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardentry2">GetIpForwardEntry2</a>  function to query complete information on the IP route that changed. When the callback function is received, an application should allocate a <b>MIB_IPFORWARD_ROW2</b> structure and initialize it with the <b>DestinationPrefix</b>,  <b>NextHop</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_IPFORWARD_ROW2</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_IPFORWARD_ROW2</b> structure should be passed to the <b>GetIpForwardEntry2</b> function to retrieve complete information on the IP route that was changed. 
 
 The memory pointed to by the <i>Row</i> parameter used in the callback indications is managed by the operating system.  An application that receives a notification should never attempt to free the memory pointed to by the <i>Row</i> parameter. 
 
@@ -254,9 +254,9 @@ Once the <b>NotifyRouteChange2</b> function is called to register for change not
 
 Any registration for change notifications does not persist if the system is shutdown or rebooted. 
 
-To deregister for change notifications, call the  <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyRouteChange2</b>. 
+To deregister for change notifications, call the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyRouteChange2</b>. 
 
-An application cannot make a call to the <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
+An application cannot make a call to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
 
 
@@ -266,47 +266,47 @@ An application cannot make a call to the <a href="https://msdn.microsoft.com/814
 
 
 
-<a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2d065d3-daad-4167-8b87-4229199ee76a">CreateIpForwardEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipforwardentry2">CreateIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/68d5a5a5-21cf-4337-8a35-7f847f5e2138">DeleteIpForwardEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteipforwardentry2">DeleteIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bc16824-c98f-4cd5-a589-e198b48b637c">GetBestRoute2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getbestroute2">GetBestRoute2</a>
 
 
 
-<a href="https://msdn.microsoft.com/53d5009a-d205-40ce-88e5-fe37e72b5a50">GetIpForwardEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardentry2">GetIpForwardEntry2</a>
 
 
 
-<a href="https://msdn.microsoft.com/14412ef1-d970-419d-abfa-389f6ceb638d">GetIpForwardTable2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2">GetIpForwardTable2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1968c4e5-4b28-4387-a918-3326bc80bb3e">InitializeIpForwardEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-initializeipforwardentry">InitializeIpForwardEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ba938e8-3395-4c9d-b1d2-b2c030783c16">MIB_IPFORWARD_TABLE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_table2">MIB_IPFORWARD_TABLE2</a>
 
 
 
-<a href="https://msdn.microsoft.com/89f6a923-d745-4f9f-82d4-c77ffc8389cd">MIB_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ne-netioapi-_mib_notification_type">MIB_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e11aab0b-6d6c-4e90-a60a-f7d68c09751b">SetIpForwardEntry2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipforwardentry2">SetIpForwardEntry2</a>
  
 
  

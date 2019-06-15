@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Determine whether to mute DirectML from sending messages to the <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>.
+Determine whether to mute DirectML from sending messages to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ Determine whether to mute DirectML from sending messages to the <a href="https:/
 
 ### -param mute
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-If <b>TRUE</b>,  DirectML is muted, and it will not send messages to the <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>. If <b>FALSE</b>,  DirectML is not muted, and it will send messages to the <b>ID3D12InfoQueue</b>.
+If <b>TRUE</b>,  DirectML is muted, and it will not send messages to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>. If <b>FALSE</b>,  DirectML is not muted, and it will send messages to the <b>ID3D12InfoQueue</b>.
 
 
 ## -returns

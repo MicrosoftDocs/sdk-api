@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCPV6_BIND_ELEMENT_ARRAY</b> structure specifies an array of <a href="https://msdn.microsoft.com/7c5b1d5d-7c91-46a8-aaa0-1d957430461d">DHCPV6_BIND_ELEMENT</a> structures that contain DHCPv6 interface bindings.
+The <b>DHCPV6_BIND_ELEMENT_ARRAY</b> structure specifies an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contain DHCPv6 interface bindings.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Integer that contains the total number of elements in the array pointed to by <b
 
 ### -field Elements
 
-Pointer to an array of <a href="https://msdn.microsoft.com/7c5b1d5d-7c91-46a8-aaa0-1d957430461d">DHCPV6_BIND_ELEMENT</a> structures that contains the DHCPv6 interface bindings.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a> structures that contains the DHCPv6 interface bindings.
 
 
 ### -field Elements.size_is
@@ -84,7 +84,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/7c5b1d5d-7c91-46a8-aa
 
 
 
-<a href="https://msdn.microsoft.com/7c5b1d5d-7c91-46a8-aaa0-1d957430461d">DHCPV6_BIND_ELEMENT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a>
  
 
  

@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/976b4f0a-79cb-4b2d-8d69-225230147c53">IMtsGrp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>
  
 
  

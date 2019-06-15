@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/7f21e564-97c6-4f9d-a4fa-160b78dbfc2f">IQueryAssociations::GetData</a> to define the type of data that is to be returned.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> to define the type of data that is to be returned.
 
 
 ## -enum-fields
@@ -77,12 +77,12 @@ Defaults to user specified association.
 
 ### -field ASSOCDATA_EDITFLAGS
 
-<b>Internet Explorer version 6 or later</b>. Gets the data stored in the EditFlags value of a file association <a href="https://msdn.microsoft.com/f2b666d6-bf22-47b5-87e1-8de5ff51c152">PROGID</a> registry key. This value consists of one or more <a href="https://msdn.microsoft.com/63b58659-9c4c-4b39-98d1-743724523dcd">FILETYPEATTRIBUTEFLAGS</a>. Compare against those values to determine which attributes have been set.
+<b>Internet Explorer version 6 or later</b>. Gets the data stored in the EditFlags value of a file association <a href="https://docs.microsoft.com/windows/desktop/shell/fa-progids">PROGID</a> registry key. This value consists of one or more <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-filetypeattributeflags">FILETYPEATTRIBUTEFLAGS</a>. Compare against those values to determine which attributes have been set.
 
 
 ### -field ASSOCDATA_VALUE
 
-<b>Internet Explorer version 6 or later</b>. Uses the <i>pwszExtra</i> parameter from the <a href="https://msdn.microsoft.com/7f21e564-97c6-4f9d-a4fa-160b78dbfc2f">IQueryAssociations::GetData</a> method as the value name.
+<b>Internet Explorer version 6 or later</b>. Uses the <i>pwszExtra</i> parameter from the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> method as the value name.
 
 
 ### -field ASSOCDATA_MAX

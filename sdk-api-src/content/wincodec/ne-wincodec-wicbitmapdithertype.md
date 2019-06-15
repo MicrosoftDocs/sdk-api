@@ -117,7 +117,7 @@ An error diffusion algorithm.
 
 
 
-<a href="https://msdn.microsoft.com/ff046b2c-a863-48dd-9cbe-3c559c84b682">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicformatconverter-initialize">Initialize</a>
  
 
  

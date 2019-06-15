@@ -72,7 +72,7 @@ This method returns a string that is not directly used by Remote Desktop Connect
 
 
 
-<a href="https://msdn.microsoft.com/287cea18-c13c-4396-8970-39dd7f9b960e">ITsSbEnvironment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironment">ITsSbEnvironment</a>
  
 
  

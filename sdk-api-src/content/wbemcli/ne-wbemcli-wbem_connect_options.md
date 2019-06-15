@@ -48,7 +48,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags for the <a href="https://msdn.microsoft.com/92222e08-8622-46c3-9465-cd12260a2ca0">IWbemLocator::ConnectServer</a> method.
+Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver">IWbemLocator::ConnectServer</a> method.
 
 
 ## -enum-fields

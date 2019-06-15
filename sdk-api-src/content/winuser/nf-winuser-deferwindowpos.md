@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 Updates the specified multiple-window 
-			– position structure for the specified window. The function then returns a handle to the updated structure. The <a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a> function uses the information in this structure to change the position and size of a number of windows simultaneously. The <a href="https://msdn.microsoft.com/en-us/library/ms632672(v=VS.85).aspx">BeginDeferWindowPos</a> function creates the structure. 
+			– position structure for the specified window. The function then returns a handle to the updated structure. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function uses the information in this structure to change the position and size of a number of windows simultaneously. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> function creates the structure. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Updates the specified multiple-window
 Type: <b>HDWP</b>
 
 A handle to a multiple-window 
-					– position structure that contains size and position information for one or more windows. This structure is returned by <a href="https://msdn.microsoft.com/en-us/library/ms632672(v=VS.85).aspx">BeginDeferWindowPos</a> or by the most recent call to <b>DeferWindowPos</b>. 
+					– position structure that contains size and position information for one or more windows. This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a> or by the most recent call to <b>DeferWindowPos</b>. 
 
 
 ### -param hWnd [in]
@@ -195,7 +195,7 @@ Draws a frame (defined in the window's class description) around the window.
 </dl>
 </td>
 <td width="60%">
-Sends a <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
+Sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
 
 </td>
 </tr>
@@ -283,7 +283,7 @@ Same as the <b>SWP_NOOWNERZORDER</b> flag.
 </dl>
 </td>
 <td width="60%">
-Prevents the window from receiving the <a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a> message.
+Prevents the window from receiving the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> message.
 
 </td>
 </tr>
@@ -332,9 +332,9 @@ Type: <strong>Type: <b>HDWP</b>
 </strong>
 
 The return value identifies the updated multiple-window 
-						– position structure. The handle returned by this function may differ from the handle passed to the function. The new handle that this function returns should be passed during the next call to the <b>DeferWindowPos</b> or <a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a> function. 
+						– position structure. The handle returned by this function may differ from the handle passed to the function. The new handle that this function returns should be passed during the next call to the <b>DeferWindowPos</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function. 
 
-If insufficient system resources are available for the function to succeed, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If insufficient system resources are available for the function to succeed, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -343,7 +343,7 @@ If insufficient system resources are available for the function to succeed, the 
 
 
 
-If a call to <b>DeferWindowPos</b> fails, the application should abandon the window-positioning operation and not call <a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a>. 
+If a call to <b>DeferWindowPos</b> fails, the application should abandon the window-positioning operation and not call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>. 
 
 If <b>SWP_NOZORDER</b> is not specified, the system places the window identified by the <i>hWnd</i> parameter in the position following the window identified by the <i>hWndInsertAfter</i> parameter. If <i>hWndInsertAfter</i> is <b>NULL</b> or <b>HWND_TOP</b>, the system places the <i>hWnd</i> window at the top of the Z order. If <i>hWndInsertAfter</i> is set to <b>HWND_BOTTOM</b>, the system places the <i>hWnd</i> window at the bottom of the Z order. 
 
@@ -371,7 +371,7 @@ A non-topmost window may own a topmost window, but not vice versa. Any window (f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632672(v=VS.85).aspx">BeginDeferWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-begindeferwindowpos">BeginDeferWindowPos</a>
 
 
 
@@ -379,7 +379,7 @@ A non-topmost window may own a topmost window, but not vice versa. Any window (f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
 
 
 
@@ -387,11 +387,11 @@ A non-topmost window may own a topmost window, but not vice versa. Any window (f
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

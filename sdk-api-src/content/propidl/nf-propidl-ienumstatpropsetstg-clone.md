@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Clone</b> method creates an enumerator that contains the same enumeration state as the current <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point later. The new enumerator supports the same <a href="https://msdn.microsoft.com/8d5e658f-312c-4c91-8794-808b2e8dd182">IEnumSTATPROPSETSTG</a> interface.
+The <b>Clone</b> method creates an enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg">STATPROPSETSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point later. The new enumerator supports the same <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>Clone</b> method creates an enumerator that contains the same enumeration
 
 ### -param ppenum [out]
 
-    A pointer to the variable that receives the  <a href="https://msdn.microsoft.com/8d5e658f-312c-4c91-8794-808b2e8dd182">IEnumSTATPROPSETSTG</a> interface pointer. 
+    A pointer to the variable that receives the  <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface pointer. 
 
 If the method does not succeed, the value of the <i>ppenum</i> parameter is undefined.
 

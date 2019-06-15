@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the data, and information about the data, sent as part of a <a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> message. 
+Contains the data, and information about the data, sent as part of a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> message. 
 
 
 ## -struct-fields
@@ -68,14 +68,14 @@ Unused.
 
 Type: <b>unsigned short</b>
 
-Indicates whether the data was sent in response to a <a href="https://msdn.microsoft.com/en-us/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a> message or a <a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a> message. If this value is nonzero, the data was sent in response to a <b>WM_DDE_REQUEST</b> message. 
+Indicates whether the data was sent in response to a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a> message or a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a> message. If this value is nonzero, the data was sent in response to a <b>WM_DDE_REQUEST</b> message. 
 
 
 ### -field fRelease
 
 Type: <b>unsigned short</b>
 
-Indicates whether the application receiving the <a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
+Indicates whether the application receiving the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
 
 
 ### -field reserved
@@ -89,7 +89,7 @@ Reserved.
 
 Type: <b>BYTE</b>
 
-Indicates whether the application receiving the <a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a> message should acknowledge receipt of the data by sending a <a href="https://msdn.microsoft.com/en-us/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a> message. If this value is nonzero, the application should send the acknowledgment. 
+Indicates whether the application receiving the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> message should acknowledge receipt of the data by sending a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a> message. If this value is nonzero, the application should send the acknowledgment. 
 
 
 ### -field usFlags
@@ -173,7 +173,7 @@ Contains the data. The length and type of data depend on the <b>cfFormat</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -185,23 +185,23 @@ Contains the data. The length and type of data depend on the <b>cfFormat</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648782(v=VS.85).aspx">WM_DDE_ACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648993(v=VS.85).aspx">WM_DDE_ADVISE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648994(v=VS.85).aspx">WM_DDE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648997(v=VS.85).aspx">WM_DDE_POKE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648998(v=VS.85).aspx">WM_DDE_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>
  
 
  

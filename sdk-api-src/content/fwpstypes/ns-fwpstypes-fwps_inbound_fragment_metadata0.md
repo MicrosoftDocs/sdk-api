@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>FWPS_INBOUND_FRAGMENT_METADATA0</b> structure describes the fragment data for a received packet
   fragment.
-<div class="alert"><b>Note</b>  <b>FWPS_INBOUND_FRAGMENT_METADATA0</b> is a specific version of <b>FWPS_INBOUND_FRAGMENT_METADATA</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_INBOUND_FRAGMENT_METADATA0</b> is a specific version of <b>FWPS_INBOUND_FRAGMENT_METADATA</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -81,8 +81,8 @@ A value that specifies the length, in bytes, of the packet fragment.
 The FWPS_INBOUND_FRAGMENT_METADATA0 structure contains valid data only if the
     FWPS_METADATA_FIELD_FRAGMENT_DATA flag is set in the 
     <b>currentMetadataValues</b> member of the 
-    <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
-    <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a> callout function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure that the filter engine passes to a callout's 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function.
 
 
 
@@ -92,11 +92,11 @@ The FWPS_INBOUND_FRAGMENT_METADATA0 structure contains valid data only if the
 
 
 
-<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
  
 
  

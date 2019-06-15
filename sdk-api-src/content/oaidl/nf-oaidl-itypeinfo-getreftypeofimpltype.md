@@ -66,7 +66,7 @@ The index of the implemented type whose handle is returned. The valid range is 0
 
 ### -param pRefType [out]
 
-A handle for the implemented interface (if any). This handle can be passed to <a href="https://msdn.microsoft.com/61d3b31d-6591-4e55-9e82-5246a168be00">ITypeInfo::GetRefTypeInfo</a> to get the type description.
+A handle for the implemented interface (if any). This handle can be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">ITypeInfo::GetRefTypeInfo</a> to get the type description.
 
 
 ## -returns
@@ -126,7 +126,7 @@ Passed index is outside the range 0 to 1 less than the number of function descri
 
 
 
-If the TKIND_DISPATCH type description is for a dual interface, the TKIND_INTERFACE type description can be obtained by calling <b>GetRefTypeOfImplType</b> with an <i>indexof</i> –1, and by passing the returned <i>pRefTypehandle</i> to <a href="https://msdn.microsoft.com/61d3b31d-6591-4e55-9e82-5246a168be00">GetRefTypeInfo</a> to retrieve the type information.
+If the TKIND_DISPATCH type description is for a dual interface, the TKIND_INTERFACE type description can be obtained by calling <b>GetRefTypeOfImplType</b> with an <i>indexof</i> –1, and by passing the returned <i>pRefTypehandle</i> to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a> to retrieve the type information.
 
 
 
@@ -137,7 +137,7 @@ If the TKIND_DISPATCH type description is for a dual interface, the TKIND_INTERF
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

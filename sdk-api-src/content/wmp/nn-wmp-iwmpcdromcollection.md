@@ -57,7 +57,7 @@ The <b>IWMPCdromCollection</b> interface provides a way to organize and access a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCdromCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPCdromCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCdromCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPCdromCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPCdromCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563099(v=VS.85).aspx">get_count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-get_count">get_count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available CD and DVD drives on the system.
@@ -81,7 +81,7 @@ Retrieves the number of available CD and DVD drives on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563098(v=VS.85).aspx">getByDriveSpecifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-getbydrivespecifier">getByDriveSpecifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPCdrom</b> interface associated with a particular drive letter.
@@ -90,7 +90,7 @@ Retrieves a pointer to an <b>IWMPCdrom</b> interface associated with a particula
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563100(v=VS.85).aspx">item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromcollection-item">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPCdrom</b> interface at the given index.
@@ -108,10 +108,10 @@ Retrieve a pointer to an <b>IWMPCdromCollection</b> interface with the following
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563224(v=VS.85).aspx">get_cdromCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection">get_cdromCollection</a>
 </td>
 </tr>
 </table> 
@@ -122,11 +122,11 @@ Retrieve a pointer to an <b>IWMPCdromCollection</b> interface with the following
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563080(v=VS.85).aspx">IWMPCdrom Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdrom">IWMPCdrom Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

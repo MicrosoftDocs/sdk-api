@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The security binding subtype for specifying the use of the Windows Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO) with the named pipe transport. A specific SSP package may be chosen using the security binding property <a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>; if that property is not specified, SPNEGO is used by default.
+The security binding subtype for specifying the use of the Windows Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO) with the named pipe transport. A specific SSP package may be chosen using the security binding property <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>; if that property is not specified, SPNEGO is used by default.
 
-This security binding operates at the transport security level and is supported only with the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_NAMEDPIPE_CHANNEL_BINDING</a>. The NamedPipe/Windows SSPI combination uses the wire form defined by the <a href="http://msdn.microsoft.com/en-us/library/cc219293.aspx">NegotiateStream</a> protocol and the <a href="http://msdn.microsoft.com/en-us/library/cc236723.aspx">.Net Message Framing</a> specification. 
+This security binding operates at the transport security level and is supported only with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_NAMEDPIPE_CHANNEL_BINDING</a>. The NamedPipe/Windows SSPI combination uses the wire form defined by the <a href="https://docs.microsoft.com/openspecs/windows_protocols/mc-nmf/0aab922d-8023-48bb-8ba2-c4d3404cc69d">NegotiateStream</a> protocol and the <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-nns/93df08eb-a6c4-4dff-81c3-519cf7236df4">.Net Message Framing</a> specification. 
 
-On the client side, the security identity of the target server is specified using the identity field of the <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a> parameter supplied during <a href="https://msdn.microsoft.com/a7226194-0974-4f3c-b92d-78a93e86eea5">WsOpenChannel</a>. 
+On the client side, the security identity of the target server is specified using the identity field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> parameter supplied during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a>. 
 
 
 
@@ -62,15 +62,15 @@ The named pipe binding supports only this one transport security binding and doe
 With this security binding, the following security binding properties may be specified: 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_BINDING_PROPERTY_WINDOWS_INTEGRATED_AUTH_PACKAGE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH</a> (client side only)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH</a> (client side only)</li>
 <li>
-<a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS</a> (server side only)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOW_ANONYMOUS_CLIENTS</a> (server side only)</li>
 <li>
-<a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL</a> (client side only)</li>
-</ul>This type derives from the base type <a href="https://msdn.microsoft.com/6c0663e8-ae73-41a2-9273-50f53534926b">WS_SECURITY_BINDING</a>. For an instance of this type, the type selector field <b>bindingType</b> must have the value <a href="https://msdn.microsoft.com/caa3d71c-420c-4be0-a371-0f2d48ebd757">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_BINDING_PROPERTY_ALLOWED_IMPERSONATION_LEVEL</a> (client side only)</li>
+</ul>This type derives from the base type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding">WS_SECURITY_BINDING</a>. For an instance of this type, the type selector field <b>bindingType</b> must have the value <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_binding_type">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE</a>. 
 
 
 ## -struct-fields
@@ -80,10 +80,10 @@ With this security binding, the following security binding properties may be spe
 
 ### -field binding
 
-The <a href="https://msdn.microsoft.com/6c0663e8-ae73-41a2-9273-50f53534926b">base type</a> from which this security binding subtype and all other security binding subtypes derive.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding">base type</a> from which this security binding subtype and all other security binding subtypes derive.
 
 
 ### -field clientCredential
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd323506(v=VS.85).aspx">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
 

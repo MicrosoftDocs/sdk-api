@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param pvMarshal [in, out]
 
-A pointer to the marshaling context  that  a successful call to  <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> returns.
+A pointer to the marshaling context  that  a successful call to  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> returns.
 
 
 ### -param plsnBase [in]
@@ -76,7 +76,7 @@ This parameter is not implemented at this time, and must be zero.
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that is required for asynchronous operation. 
 
 If asynchronous operation is not used, this parameter can be <b>NULL</b>.
 
@@ -89,7 +89,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following list identifies the possible error codes:
 
@@ -110,7 +110,7 @@ The following list identifies the possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/2e47a5c9-a0bd-4cd1-ba30-9ebde6df0f91">Obtaining the Next LSN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/obtaining-the-next-lsn">Obtaining the Next LSN</a>
  
 
  

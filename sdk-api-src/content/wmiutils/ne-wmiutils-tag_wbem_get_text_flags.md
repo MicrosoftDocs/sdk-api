@@ -85,5 +85,5 @@ Returns only the namespace portion of the path.
 ### -field WBEMPATH_GET_ORIGINAL
 
 Returns whatever was passed in using 
-<a href="https://msdn.microsoft.com/a3ff2aa9-ffa8-4048-ac07-4b815b620d1f">SetText</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> method.
 

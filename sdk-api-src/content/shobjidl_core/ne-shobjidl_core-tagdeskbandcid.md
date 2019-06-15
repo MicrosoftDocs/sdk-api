@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-These command IDs can be sent to the band object's container with <a href="https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca">IOleCommandTarget::Exec</a>.
+These command IDs can be sent to the band object's container with <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a>.
 
 
 ## -enum-fields
@@ -80,7 +80,7 @@ Turns other bands in the container on or off. Set <i>pvaIn-&gt;vt</i> to VT_UNKN
 </tr>
 <tr>
 <td>pUnk</td>
-<td>A pointer to the band object's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. The desk band pointed to is shown; all other desk bands are hidden.</td>
+<td>A pointer to the band object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The desk band pointed to is shown; all other desk bands are hidden.</td>
 </tr>
 <tr>
 <td>0</td>
@@ -102,7 +102,7 @@ Maximize the band. Set <i>pvaIn-&gt;ulVal</i> to the ID of the band to be maximi
 ### -field DBID_PUSHCHEVRON
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5</a>. Displays a push chevron on a desk band. Set <i>pvaIn-&gt;vt</i> to VT_I4, set <i>pvaIn-&gt;lVal</i> to the ID of the desk band, and set the <a href="https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca">IOleCommandTarget::Exec</a> method's <i>nCmdExecOpt</i> parameter to the band identifier received in the most recent call to IDeskBand::GetBandInfo.  The container sends an RB_PUSHCHEVRON message, and the band object receives an RBN_CHEVRONPUSHED notification that prompts it to display the chevron. The band ID is passed back to the band object in the lParam parameter of the RBN_CHEVRONPUSHED message.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5</a>. Displays a push chevron on a desk band. Set <i>pvaIn-&gt;vt</i> to VT_I4, set <i>pvaIn-&gt;lVal</i> to the ID of the desk band, and set the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method's <i>nCmdExecOpt</i> parameter to the band identifier received in the most recent call to IDeskBand::GetBandInfo.  The container sends an RB_PUSHCHEVRON message, and the band object receives an RBN_CHEVRONPUSHED notification that prompts it to display the chevron. The band ID is passed back to the band object in the lParam parameter of the RBN_CHEVRONPUSHED message.
 
 
 ### -field DBID_DELAYINIT
@@ -123,7 +123,7 @@ Maximize the band. Set <i>pvaIn-&gt;ulVal</i> to the ID of the band to be maximi
 
 
 
-Set the <i>pguidCmdGroup</i> parameter of the <a href="https://msdn.microsoft.com/a2071ca9-8675-4f53-b30e-8c7198c2acca">IOleCommandTarget::Exec</a> method to CGID_DeskBand, the <i>pvaIn</i> parameter to the value indicated in the command description, and the <i>nCmdID</i> parameter to one of the command values listed above.
+Set the <i>pguidCmdGroup</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-exec">IOleCommandTarget::Exec</a> method to CGID_DeskBand, the <i>pvaIn</i> parameter to the value indicated in the command description, and the <i>nCmdID</i> parameter to one of the command values listed above.
 
 
 
@@ -133,7 +133,7 @@ Set the <i>pguidCmdGroup</i> parameter of the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/4bf46b3f-f833-42e0-baf7-21bfa9e6d890">Creating Custom Explorer Bars, Tool Bands, and Desk Bands</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)">Creating Custom Explorer Bars, Tool Bands, and Desk Bands</a>
  
 
  

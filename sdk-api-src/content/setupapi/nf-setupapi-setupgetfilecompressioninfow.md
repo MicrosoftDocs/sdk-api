@@ -57,7 +57,7 @@ The
 <b>SetupGetFileCompressionInfo</b> function examines a physical file to determine if it is compressed and gets its full path, size, and the size of the uncompressed target file.
 
 Note that this function is obsolete and has been replaced by 
-<a href="https://msdn.microsoft.com/e6f01e02-ea39-4b25-bcc0-2aee941c7834">SetupGetFileCompressionInfoEx</a>. Do not use 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetfilecompressioninfoexa">SetupGetFileCompressionInfoEx</a>. Do not use 
 <b>SetupGetFileCompressionInfo</b>, instead always use 
 <b>SetupGetFileCompressionInfoEx</b>.
 
@@ -133,10 +133,10 @@ The source file is compressed with LZ compression.
 
 
 
-The function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> that indicates the outcome of the file search. The error code can be one of the following values.
+The function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> that indicates the outcome of the file search. The error code can be one of the following values.
 
 To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -147,7 +147,7 @@ To get extended error information, call
 
 Do not use 
 <b>SetupGetFileCompressionInfo</b>, instead always use 
-<a href="https://msdn.microsoft.com/e6f01e02-ea39-4b25-bcc0-2aee941c7834">SetupGetFileCompressionInfoEx</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetfilecompressioninfoexa">SetupGetFileCompressionInfoEx</a>.
 
 Because 
 <b>SetupGetFileCompressionInfo</b> determines the compression by referencing the physical file, your setup application should ensure that the file is present before calling 
@@ -179,15 +179,15 @@ The following is an example of how to obtain the <b>MyFree</b> function from the
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6058567b-fa34-472b-91d8-3c5f9ee741b1">SetupDecompressOrCopyFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdecompressorcopyfilea">SetupDecompressOrCopyFile</a>
  
 
  

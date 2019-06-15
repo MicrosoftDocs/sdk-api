@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MSV1_0_SUBAUTH_RESPONSE</b> structure contains the response from a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subauthentication package</a>.
+The <b>MSV1_0_SUBAUTH_RESPONSE</b> structure contains the response from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a>.
 
 It is used by 
-<a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ It is used by
 ### -field MessageType
 
 
-<a href="https://msdn.microsoft.com/9498558c-8daf-4dfb-aa1c-0598154ca8c4">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>MsV1_0SubAuth</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a> value identifying the type of request being made. This member must be set to <b>MsV1_0SubAuth</b>.
 
 
 ### -field SubAuthInfoLength

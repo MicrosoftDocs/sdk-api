@@ -59,7 +59,7 @@ The <b>MBN_SMS_STATUS_INFO</b> structure contains the status of the SMS message 
 
 ### -field flag
 
-A bitwise OR combination of <a href="https://msdn.microsoft.com/835cfdfa-face-4779-8bbf-e35076b85521">MBN_SMS_STATUS_FLAG</a> values that specify the state of the message store.
+A bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_status_flag">MBN_SMS_STATUS_FLAG</a> values that specify the state of the message store.
 
 
 ### -field messageIndex

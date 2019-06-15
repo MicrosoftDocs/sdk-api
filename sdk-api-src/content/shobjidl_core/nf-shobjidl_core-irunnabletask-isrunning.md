@@ -113,7 +113,7 @@ The task is suspended.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/7465aded-43ff-4b63-8a90-b9f55240625b">IRunnableTask::Kill</a> has been called on the thread, but the thread has not yet completely shut down.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-irunnabletask-kill">IRunnableTask::Kill</a> has been called on the thread, but the thread has not yet completely shut down.
 
 </td>
 </tr>

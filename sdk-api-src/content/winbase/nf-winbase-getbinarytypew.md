@@ -72,7 +72,7 @@ The full path of the file whose executable type is to be determined.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 
 ### -param lpBinaryType [out]
@@ -174,7 +174,7 @@ If the file is executable, the return value is nonzero. The function sets the va
        <i>lpBinaryType</i> to indicate the file's executable type.
 
 If the file is not executable, or if the function fails, the return value is zero. To get extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If the file is a DLL, 
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the file is a DLL, 
        the last error code is <b>ERROR_BAD_EXE_FORMAT</b>.
 
 
@@ -185,7 +185,7 @@ If the file is not executable, or if the function fails, the return value is zer
 
 
 As an alternative, you can obtain the same information by calling the 
-    <a href="https://msdn.microsoft.com/d662bedf-4be0-4528-8121-e7923a42bc67">SHGetFileInfo</a> function, passing the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> function, passing the 
     <b>SHGFI_EXETYPE</b> flag in the <i>uFlags</i> parameter.
 
 Symbolic link behavior—If the path points to a symbolic link, the target file is 
@@ -259,15 +259,15 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d662bedf-4be0-4528-8121-e7923a42bc67">SHGetFileInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6bf5df7-bc12-4dec-b116-95d9109f5eb4">Symbolic Links</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
  
 
  

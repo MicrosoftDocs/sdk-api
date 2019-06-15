@@ -63,7 +63,7 @@ Displays a message box on the client desktop of a
 ### -param hServer [in]
 
 A handle to an RD Session Host server. Specify a handle opened by the 
-      <a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a> function, or specify 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
        <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application 
        is running.
 
@@ -72,11 +72,11 @@ A handle to an RD Session Host server. Specify a handle opened by the
 
 A Remote Desktop Services session identifier. To indicate the current session, specify 
       <b>WTS_CURRENT_SESSION</b>. You can use the 
-      <a href="https://msdn.microsoft.com/6f9dd7d4-48dc-411c-85f1-cd1239d1e106">WTSEnumerateSessions</a> function to retrieve 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
       the identifiers of all sessions on a specified RD Session Host server.
 
 To send a message to another user's session, you need to have the Message permission. For more 
-       information, see <a href="https://msdn.microsoft.com/448a7f9b-bf12-48eb-a3e7-4512ec288d95">Remote Desktop Services  
+       information, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services  
        Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration administrative 
        tool.
 
@@ -105,7 +105,7 @@ The length, in bytes, of the message string.
 
 The contents and behavior of the message box. This value is typically 
       <b>MB_OK</b>. For a complete list of values, see the <i>uType</i> 
-      parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> function.
+      parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function.
 
 
 ### -param Timeout [in]
@@ -266,7 +266,7 @@ The <i>bWait</i> parameter was <b>TRUE</b> and the time-out
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -276,7 +276,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
  
 
  

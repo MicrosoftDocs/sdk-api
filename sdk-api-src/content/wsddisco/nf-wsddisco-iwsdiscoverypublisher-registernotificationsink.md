@@ -59,7 +59,7 @@ Attaches a callback notification sink to the discovery publisher.
 
 ### -param pSink [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/6e7e0ab8-dffe-47c2-916c-a6734eb4ac44">IWSDiscoveryPublisherNotify</a> object that represents the initialized interface to receive callback notifications. This parameter cannot be <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a> object that represents the initialized interface to receive callback notifications. This parameter cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -118,7 +118,7 @@ Insufficient memory to complete the operation.
 
 The notification sink receives a callback whenever an inbound query is received. It is possible to register multiple notification sinks with a single publisher.
 
-<div class="alert"><b>Note</b>  <b>RegisterNotificationSink</b> must be called at least once before any other <a href="https://msdn.microsoft.com/4fff1328-d315-4a26-b7d8-43a273133e08">IWSDiscoveryPublisher</a> method is used.</div>
+<div class="alert"><b>Note</b>  <b>RegisterNotificationSink</b> must be called at least once before any other <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> method is used.</div>
 <div> </div>
 
 
@@ -128,7 +128,7 @@ The notification sink receives a callback whenever an inbound query is received.
 
 
 
-<a href="https://msdn.microsoft.com/4fff1328-d315-4a26-b7d8-43a273133e08">IWSDiscoveryPublisher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
  
 
  

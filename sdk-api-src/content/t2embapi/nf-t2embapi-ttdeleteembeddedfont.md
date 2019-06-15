@@ -61,7 +61,7 @@ By default, <b>TTDeleteEmbeddedFont</b> also removes the installed version of th
 
 ### -param hFontReference [in]
 
-Handle identifying font, as provided in the <a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a> function.
+Handle identifying font, as provided in the <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a> function.
 
 
 ### -param ulFlags [in]
@@ -100,7 +100,7 @@ If successful, <b>TTDeleteEmbeddedFont</b> returns a value of E_NONE.
 
 The memory occupied by the embedded font structure is cleared. By default, the font indicated by <i>hFontReference</i> is also permanently removed (uninstalled and deleted) from the system.
 
-Otherwise, returns an error code described in <a href="https://msdn.microsoft.com/71effafe-55a9-40ed-81c7-07278eba32d3">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 
 
@@ -119,7 +119,7 @@ The client is responsible for calling this function to remove fonts when the emb
 
 
 
-<a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttloadembeddedfont">TTLoadEmbeddedFont</a>
  
 
  

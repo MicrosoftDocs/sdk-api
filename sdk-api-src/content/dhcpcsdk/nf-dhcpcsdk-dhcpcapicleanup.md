@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>DhcpCApiCleanup</b> function enables DHCP to properly clean up resources allocated throughout the use of DHCP function calls. The 
 <b>DhcpCApiCleanup</b> function must only be called if a previous call to 
-<a href="https://msdn.microsoft.com/b4bc8b02-63b4-4751-a963-25336e8ae426">DhcpCApiInitialize</a> executed successfully.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a> executed successfully.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ This function has no return values.
 
 
 
-<a href="https://msdn.microsoft.com/ca859a72-51d3-4bd5-96b9-7a9a2df95595">DHCP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4bc8b02-63b4-4751-a963-25336e8ae426">DhcpCApiInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
  
 
  

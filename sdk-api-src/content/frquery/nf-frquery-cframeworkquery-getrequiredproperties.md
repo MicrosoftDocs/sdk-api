@@ -50,13 +50,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/60a7d83c-cfea-41fa-8d97-321127d33c43">CFrameworkQuery</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetRequiredProperties</b> method returns a list of all of the properties specified in the <a href="https://msdn.microsoft.com/9c1a164e-4728-4fbe-8a49-b571005a46ec">SELECT statement</a> of a query. It returns the properties from both the SELECT and WHERE clauses.
+The <b>GetRequiredProperties</b> method returns a list of all of the properties specified in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a> of a query. It returns the properties from both the SELECT and WHERE clauses.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The <b>GetRequiredProperties</b> method returns a list of all of the properties 
 
 ### -param saProperties
 
-Array of properties that were included in the query's <a href="https://msdn.microsoft.com/9c1a164e-4728-4fbe-8a49-b571005a46ec">SELECT statement</a>.
+Array of properties that were included in the query's <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a>.
 
 
 ## -returns

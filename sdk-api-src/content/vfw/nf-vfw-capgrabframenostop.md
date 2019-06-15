@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capGrabFrameNoStop</b> macro fills the frame buffer with a single uncompressed frame from the capture device and displays it. Unlike with the <a href="https://msdn.microsoft.com/bd306414-74a9-4683-ad63-797a37152e8f">capGrabFrame</a> macro, the state of overlay or preview is not altered by this message. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/5f6e3ce7-3595-456e-82c8-eeb162ace81a">WM_CAP_GRAB_FRAME_NOSTOP</a> message.
+The <b>capGrabFrameNoStop</b> macro fills the frame buffer with a single uncompressed frame from the capture device and displays it. Unlike with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capgrabframe">capGrabFrame</a> macro, the state of overlay or preview is not altered by this message. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-grab-frame-nostop">WM_CAP_GRAB_FRAME_NOSTOP</a> message.
 
 
 
@@ -79,11 +79,11 @@ For information about installing callback functions, see the <b>capSetCallbackOn
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

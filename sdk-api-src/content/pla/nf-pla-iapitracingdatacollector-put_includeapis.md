@@ -73,15 +73,15 @@ You can use this property to limit the functions that PLA logs to this list of f
 
 
 
-<a href="https://msdn.microsoft.com/8d600d35-bd2b-44fc-9da4-3c6e50e90b65">IApiTracingDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/1028fcc0-49b8-40cb-98fc-1dcb2fa2b6b0">IApiTracingDataCollector::ExcludeApis</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_excludeapis">IApiTracingDataCollector::ExcludeApis</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb3cc333-52d9-416c-9db2-654a254f4477">IApiTracingDataCollector::LogApiNamesOnly</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>
  
 
  

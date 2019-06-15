@@ -64,7 +64,7 @@ An HSTRING containing the file path or resource location of media content.
 
 ### -param value [out]
 
-Receives a reference to a <a href="https://msdn.microsoft.com/4899254A-C393-4D03-970F-CF272F4761B6">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/playbackoperation">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-If the DMR is not currently playing anything, the <a href="https://msdn.microsoft.com/32084664-2D1B-4303-B3B7-9B896A07CB17">PlayAsync</a> or <a href="https://msdn.microsoft.com/368510CF-FC36-4D92-AE92-024D53EE3BAD">PlayAtSpeedAsync</a> method must be used to instruct the DMR to start playing.  
+If the DMR is not currently playing anything, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828938(v=vs.85)">PlayAsync</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828939(v=vs.85)">PlayAtSpeedAsync</a> method must be used to instruct the DMR to start playing.  
 If the DMR is already playing content, it will automatically switch to the content provided by the <i>URI</i> parameter.
 
 
@@ -110,7 +110,7 @@ If the DMR is already playing content, it will automatically switch to the conte
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The events on the <a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel Interface</a> that you can set attention for.
+The events on the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a> that you can set attention for.
 
 
 
@@ -143,7 +143,7 @@ Represents a bitwise combination of all member events.
 
 
 
-<a href="https://msdn.microsoft.com/4ea32572-84e6-4230-a634-fc83cb86601f">ITextInputPanel::Advise Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise">ITextInputPanel::Advise Method</a>
  
 
  

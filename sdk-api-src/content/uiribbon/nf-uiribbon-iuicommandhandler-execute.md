@@ -68,9 +68,9 @@ The ID for the Command, which is specified in the Markup resource file.
 
 ### -param verb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371563(v=VS.85).aspx">UI_EXECUTIONVERB</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_executionverb">UI_EXECUTIONVERB</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371563(v=VS.85).aspx">UI_EXECUTIONVERB</a> or action that is initiated by the user.
+The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_executionverb">UI_EXECUTIONVERB</a> or action that is initiated by the user.
 				
 
 
@@ -78,7 +78,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd371563(v=VS.85).aspx">UI
 
 Type: <b>const PROPERTYKEY*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd371196(v=VS.85).aspx">Property Key</a> that has changed value. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> that has changed value. This parameter can be <b>NULL</b>.
 				
 
 
@@ -92,9 +92,9 @@ A pointer to the current value for <i>key</i>. This parameter can be <b>NULL</b>
 
 ### -param commandExecutionProperties [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> object that contains 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a> object that contains 
 					Command state properties and property values, such as screen coordinates and list item indices. This parameter can be <b>NULL</b>.
 				
 
@@ -124,11 +124,11 @@ Each Command in a View must be bound to a new or existing Command handler in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

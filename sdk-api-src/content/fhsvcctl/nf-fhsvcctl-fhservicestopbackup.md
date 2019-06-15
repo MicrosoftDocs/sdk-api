@@ -60,7 +60,7 @@ This function stops an ongoing backup cycle for the current user.
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 
 ### -param StopTracking [in]
@@ -84,7 +84,7 @@ If <b>FALSE</b>, this function only stops the ongoing backup cycle.
 
 
 
-<a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
  
 
  

@@ -61,7 +61,7 @@ Sets what units will be used to interpret values passed into the device context.
 
 ### -param unitMode
 
-Type: <b><a href="https://msdn.microsoft.com/1ba11761-f3e9-4996-8494-384db5bddc99">D2D1_UNIT_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_unit_mode">D2D1_UNIT_MODE</a></b>
 
 An enumeration defining how passed-in units will be interpreted by the device context.
 
@@ -79,17 +79,17 @@ This method does not return a value.
 
 
 
-This method will affect all properties and parameters affected by <a href="https://msdn.microsoft.com/603a838b-4abc-4adf-93a9-ec8535d42ed6">SetDpi</a> 
-        and <a href="https://msdn.microsoft.com/72a25b78-96fd-42bf-9e71-6bb80efea0ac">GetDpi</a>. This affects all coordinates, lengths, and other properties that are 
+This method will affect all properties and parameters affected by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setdpi">SetDpi</a> 
+        and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getdpi">GetDpi</a>. This affects all coordinates, lengths, and other properties that are 
         not explicitly defined as being in another unit. For example:
 
 <ul>
 <li><b>SetUnitMode</b> will affect a coordinate passed 
-            into <a href="https://msdn.microsoft.com/7eb70308-4142-4d32-a070-9e937579b896">ID2D1DeviceContext::DrawLine</a>, and the scaling of a 
-            geometry passed into <a href="https://msdn.microsoft.com/097f21ac-a062-4ce1-bdc7-87317dbdf5be">ID2D1DeviceContext::FillGeometry</a>.
+            into <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawline">ID2D1DeviceContext::DrawLine</a>, and the scaling of a 
+            geometry passed into <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1DeviceContext::FillGeometry</a>.
           </li>
 <li><b>SetUnitMode</b> will not affect the value
-            returned by <a href="https://msdn.microsoft.com/0d51408a-2648-4984-bbc0-9846d5161c77">ID2D1Bitmap::GetPixelSize</a>.
+            returned by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getpixelsize">ID2D1Bitmap::GetPixelSize</a>.
           </li>
 </ul>
 
@@ -100,11 +100,11 @@ This method will affect all properties and parameters affected by <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/1ba11761-f3e9-4996-8494-384db5bddc99">D2D1_UNIT_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_unit_mode">D2D1_UNIT_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

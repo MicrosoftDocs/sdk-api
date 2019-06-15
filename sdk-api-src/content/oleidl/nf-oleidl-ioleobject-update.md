@@ -139,11 +139,11 @@ When a container calls an embedded object's <b>IOleObject::Update</b> method, it
 
 
 
-<a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/74203a74-c5dd-4a98-9223-1dc54c9d4399">IOleObject::IsUpToDate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-isuptodate">IOleObject::IsUpToDate</a>
  
 
  

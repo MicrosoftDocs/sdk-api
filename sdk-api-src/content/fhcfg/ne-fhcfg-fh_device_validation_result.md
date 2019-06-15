@@ -102,7 +102,7 @@ The maximum enumeration value for this enumeration. This value and all values gr
 
 
 
-<a href="https://msdn.microsoft.com/EC41C4EE-A909-4DD4-AA32-5054BBEAF421">IFhConfigMgr::ValidateTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">IFhConfigMgr::ValidateTarget</a>
  
 
  

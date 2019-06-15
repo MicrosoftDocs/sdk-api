@@ -90,7 +90,7 @@ Allows reading of the system Global Revocation List (GRL).
 
 
 
-<a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4">IMFProtectedEnvironmentAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a>
  
 
  

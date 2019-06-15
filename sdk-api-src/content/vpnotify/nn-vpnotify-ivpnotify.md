@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Supports a private communication mechanism between the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter and a VPE decoder filter that represents a hardware decoder.
+Supports a private communication mechanism between the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter and a VPE decoder filter that represents a hardware decoder.
 
 Only the Overlay Mixer filter implements this interface. Applications should never use it.
 
@@ -60,7 +60,7 @@ Only the Overlay Mixer filter implements this interface. Applications should nev
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd390581(v=VS.85).aspx">IVPBaseNotify</a>. <b>IVPNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPNotify</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpbasenotify">IVPBaseNotify</a>. <b>IVPNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVPNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390593(v=VS.85).aspx">GetDeinterlaceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify-getdeinterlacemode">GetDeinterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the deinterlacing mode (such as bob or weave).
@@ -84,7 +84,7 @@ Retrieves the deinterlacing mode (such as bob or weave).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390594(v=VS.85).aspx">SetDeinterlaceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nf-vpnotify-ivpnotify-setdeinterlacemode">SetDeinterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Sets the deinterlacing mode (such as bob or weave).
@@ -109,15 +109,15 @@ Include Vptype.h before Vpnotify.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390581(v=VS.85).aspx">IVPBaseNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpbasenotify">IVPBaseNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390583(v=VS.85).aspx">IVPConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig</a>
  
 
  

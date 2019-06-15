@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A support structure used in the <a href="https://msdn.microsoft.com/0849cb55-ba2f-4855-ac33-fa96d8ecd94f">MI_Filter</a> 
+A support structure used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filter">MI_Filter</a> 
     structure. Use the functions with the name prefix "MI_Filter_" to manipulate these 
     structures.
 
@@ -69,11 +69,11 @@ TBD
 #### - Evaluate
 
 The provider calls this function to evaluate an instance against a given filter. See 
-       <a href="https://msdn.microsoft.com/b826f02d-3764-4f61-996f-42bf01ea44e2">MI_Filter_Evaluate</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_evaluate">MI_Filter_Evaluate</a>.
 
 
 #### - GetExpression
 
 Gets the filter language and expression. See 
-       <a href="https://msdn.microsoft.com/a1ba9cf2-b613-4621-a4ac-39808b4bfd8e">MI_Filter_GetExpression</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_getexpression">MI_Filter_GetExpression</a>.
 

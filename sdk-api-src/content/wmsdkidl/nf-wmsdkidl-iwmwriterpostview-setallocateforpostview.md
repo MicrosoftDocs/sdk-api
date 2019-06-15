@@ -129,7 +129,7 @@ The method was unable to create an internal structure.
 
 The application can provide buffers for any of the outputs, rather than use those allocated by the reader. For example, some applications can allocate Microsoft DirectDraw® buffers.
 
-The actual allocation of buffers is handled by the <a href="https://msdn.microsoft.com/en-us/library/Dd743494(v=VS.85).aspx">IWMReaderCallbackAdvanced</a> interface.
+The actual allocation of buffers is handled by the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced</a> interface.
 
 
 
@@ -139,11 +139,11 @@ The actual allocation of buffers is handled by the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798774(v=VS.85).aspx">IWMWriterPostView::GetAllocateForPostView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getallocateforpostview">IWMWriterPostView::GetAllocateForPostView</a>
  
 
  

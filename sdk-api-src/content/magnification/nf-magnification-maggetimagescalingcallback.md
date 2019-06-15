@@ -64,7 +64,7 @@ Retrieves the registered callback function that implements a custom transform fo
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
@@ -73,9 +73,9 @@ The magnification window.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a></b>
 
-Returns the registered <a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
+Returns the registered <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a> callback function, or <b>NULL</b> if no callback is registered.
 
 
 
@@ -86,7 +86,7 @@ Returns the registered <a href="https://msdn.microsoft.com/en-us/library/ms69239
 
 This function returns <b>NULL</b> if Windows Display Driver Model (WDDM) is not supported.
 
-This function works only when <a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager</a> (DWM) is off.
+This function works only when <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-overview">Desktop Window Manager</a> (DWM) is off.
 
 
 
@@ -96,11 +96,11 @@ This function works only when <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692392(v=VS.85).aspx">MagImageScalingCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692395(v=VS.85).aspx">MagSetImageScalingCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetimagescalingcallback">MagSetImageScalingCallback</a>
  
 
  

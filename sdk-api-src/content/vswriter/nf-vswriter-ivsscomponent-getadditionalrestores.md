@@ -129,7 +129,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -145,20 +145,20 @@ The XML document is not valid. Check the event log for details. For more informa
 
 The value returned by 
 <b>GetAdditionalRestores</b> will be false, unless during a restore operation a requester calls 
-<a href="https://msdn.microsoft.com/b3a38348-ab89-40a5-bf77-612bcd99c31b">IVssBackupComponents::SetAdditionalRestores</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores">IVssBackupComponents::SetAdditionalRestores</a>.
 
 <b>GetAdditionalRestores</b> should be used to check if it is necessary to use more than one backup set to completely restore a component. A component might first be retrieved by restoring data from a full backup, and then updating that data from one or more subsequent incremental or differential backups.
 
 The 
 <b>GetAdditionalRestores</b> method is typically used by writers that support an explicit recovery mechanism as part of their 
-<a href="https://msdn.microsoft.com/01cf3931-59ef-4572-9f2e-aa210da0ac2d">PostRestore</a> event handler (<a href="https://msdn.microsoft.com/ad07753c-1592-4fc8-9899-a73e798c158c">CVssWriter::OnPostRestore</a>)—for instance, the Exchange Server, and database applications such as SQL Server. For these applications, it is often not possible to perform additional differential, incremental, or log restores after such a recovery is performed.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event handler (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CVssWriter::OnPostRestore</a>)—for instance, the Exchange Server, and database applications such as SQL Server. For these applications, it is often not possible to perform additional differential, incremental, or log restores after such a recovery is performed.
 
 Therefore, if 
 <b>GetAdditionalRestores</b> returns <b>true</b> for a component, such a writer should not execute its explicit recovery mechanism and should expect that additional differential, incremental, or log restores will be done.
 
 When 
-<a href="https://msdn.microsoft.com/b3a38348-ab89-40a5-bf77-612bcd99c31b">SetAdditionalRestores</a> returns <b>false</b>, then after the restore has finished, when handling the 
-<a href="https://msdn.microsoft.com/01cf3931-59ef-4572-9f2e-aa210da0ac2d">PostRestore</a> event, the writer can complete its recovery operation and be brought back online.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores">SetAdditionalRestores</a> returns <b>false</b>, then after the restore has finished, when handling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event, the writer can complete its recovery operation and be brought back online.
 
 
 
@@ -168,7 +168,7 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
  
 
  

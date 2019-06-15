@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetError</b> macro retrieves the last MCI error encountered. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/f110a9b3-5b05-4bf0-85d1-b49ce7396222">MCIWNDM_GETERROR</a> message.
+The <b>MCIWndGetError</b> macro retrieves the last MCI error encountered. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-geterror">MCIWNDM_GETERROR</a> message.
 
 
 
@@ -89,7 +89,7 @@ If <i>lp</i> is a valid pointer, a null-terminated string corresponding to the e
 
 
 
-<a href="https://msdn.microsoft.com/f110a9b3-5b05-4bf0-85d1-b49ce7396222">MCIWNDM_GETERROR</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-geterror">MCIWNDM_GETERROR</a>
  
 
  

@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/2e27b2b5-a2f5-471d-9f3d-95b13c07037b">IComTrackingInfoObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoobject">IComTrackingInfoObject</a>
  
 
  

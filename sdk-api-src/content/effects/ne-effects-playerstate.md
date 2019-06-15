@@ -103,11 +103,11 @@ This enumeration is used by the <b>TimedLevel</b> structure.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564504(v=VS.85).aspx">TimedLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/ns-effects-tagtimedlevel">TimedLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/b54238a6-3d17-47b8-b650-bbe3473064da">Visualization Structures and Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/visualization-structures-and-enumeration-types">Visualization Structures and Enumeration Types</a>
  
 
  

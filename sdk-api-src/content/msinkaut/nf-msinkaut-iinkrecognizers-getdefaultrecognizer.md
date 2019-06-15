@@ -155,7 +155,7 @@ This method generates an error if the <i>lcid</i> parameter is not a known local
 
 <b>GetDefaultRecognizer</b> first checks if there is a matching recognizer for the user's input locale. If there is none, it checks if there is a matching recognizer for the current system locale.
 
-For more information about NLS, see <a href="https://msdn.microsoft.com/daf929b2-8ff9-4a17-b294-f2c0eaef5848">NLS Terminology</a>.
+For more information about NLS, see <a href="https://docs.microsoft.com/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
 
 
 
@@ -165,7 +165,7 @@ For more information about NLS, see <a href="https://msdn.microsoft.com/daf929b2
 
 
 
-<a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
@@ -173,7 +173,7 @@ For more information about NLS, see <a href="https://msdn.microsoft.com/daf929b2
 
 
 
-<a href="https://msdn.microsoft.com/b916e53f-9acd-40dc-961b-ebbecb15bd21">InkRecognizers Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>
  
 
  

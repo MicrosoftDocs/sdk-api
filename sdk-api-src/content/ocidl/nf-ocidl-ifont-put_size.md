@@ -106,11 +106,11 @@ The value of the <i>size</i> parameter is not valid. For example, it does not co
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/aeee7dfc-5ccd-4c30-a59e-5eec93505288">IFont::get_Size</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">IFont::get_Size</a>
  
 
  

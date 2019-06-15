@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>Dhcpv6CApiCleanup</b> function enables DHCPv6 to properly clean up resources allocated throughout the use of DHCPv6 function calls. The 
 <b>Dhcpv6CApiCleanup</b> function must only be called if a previous call to 
-<a href="https://msdn.microsoft.com/4bf74a3d-5674-4bc7-b94c-cf6232bdc8d9">Dhcpv6CApiInitialize</a> executed successfully.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capiinitialize">Dhcpv6CApiInitialize</a> executed successfully.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ This function has no return values.
 
 
 
-<a href="https://msdn.microsoft.com/ca859a72-51d3-4bd5-96b9-7a9a2df95595">DHCP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bf74a3d-5674-4bc7-b94c-cf6232bdc8d9">Dhcpv6CApiInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6capiinitialize">Dhcpv6CApiInitialize</a>
  
 
  

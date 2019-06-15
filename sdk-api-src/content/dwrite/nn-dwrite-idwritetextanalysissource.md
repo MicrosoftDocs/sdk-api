@@ -54,7 +54,7 @@ Implemented by the text analyzer's client to provide text to the analyzer. It al
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSource</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteTextAnalysisSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalysisSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextAnalysisSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteTextAnalysisSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88a2474b-c14d-41ce-9687-f498644c0315">GetLocaleName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissource-getlocalename">GetLocaleName</a>
 </td>
 <td align="left" width="63%">
 Gets the locale name on the range affected by the text analysis.
@@ -78,7 +78,7 @@ Gets the locale name on the range affected by the text analysis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23e1539c-a58e-4123-82da-2f9d94309b05">GetNumberSubstitution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissource-getnumbersubstitution">GetNumberSubstitution</a>
 </td>
 <td align="left" width="63%">
 Gets the number substitution from the text range affected by the text analysis.
@@ -87,7 +87,7 @@ Gets the number substitution from the text range affected by the text analysis.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23013354-54bd-4f45-91d7-159965f0c56c">GetParagraphReadingDirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissource-getparagraphreadingdirection">GetParagraphReadingDirection</a>
 </td>
 <td align="left" width="63%">
 Gets the paragraph reading direction.
@@ -96,7 +96,7 @@ Gets the paragraph reading direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9deabfb-fd0b-4760-a148-b440587654d2">GetTextAtPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissource-gettextatposition">GetTextAtPosition</a>
 </td>
 <td align="left" width="63%">
 Gets a block of text starting at the specified text position.
@@ -106,7 +106,7 @@ Gets a block of text starting at the specified text position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af09985b-5f05-47da-be32-cc591fa58765">GetTextBeforePosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissource-gettextbeforeposition">GetTextBeforePosition</a>
 </td>
 <td align="left" width="63%">
 Gets a block of text immediately preceding the specified position.

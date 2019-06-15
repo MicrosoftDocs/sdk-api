@@ -93,7 +93,7 @@ The new clipping region combines the overlapping areas of the current clipping r
 </dl>
 </td>
 <td width="60%">
-The new clipping region is a copy of the region identified by <i>hrgn</i>. This is identical to <a href="https://msdn.microsoft.com/7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d">SelectClipRgn</a>. If the region identified by <i>hrgn</i> is <b>NULL</b>, the new clipping region is the default clipping region (the default clipping region is a null region).
+The new clipping region is a copy of the region identified by <i>hrgn</i>. This is identical to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a>. If the region identified by <i>hrgn</i> is <b>NULL</b>, the new clipping region is the default clipping region (the default clipping region is a null region).
 
 </td>
 </tr>
@@ -210,15 +210,15 @@ Only a copy of the region identified by the <i>hrgn</i> parameter is used. The r
 
 
 
-<a href="https://msdn.microsoft.com/de9e5786-63d8-47be-8522-e96d7c0f8634">Clipping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e966369-9988-4bfa-af37-b1bbb3488880">Clipping Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d">SelectClipRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrStrToOid</b> function converts the string format of an object identifier to its internal object identifier structure. This function is an element of the SNMP Management API.
@@ -86,7 +86,7 @@ If the function fails, the return value is zero.
 
 
 If the function succeeds, call the 
-<a href="https://msdn.microsoft.com/8fc44fdf-956a-4102-bcbb-4cd17a73828c">SnmpUtilOidFree</a> function to free the memory allocated for the converted object identifier.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a> function to free the memory allocated for the converted object identifier.
 
 If an application passes a valid object identifier to 
 <b>SnmpMgrStrToOid</b>, yet is unable to obtain the requested variable, then the syntax of the system group and object identifier is incorrect. This occurs because 
@@ -103,19 +103,19 @@ You must always precede the object identifier with a period (.) to obtain the co
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/4864b864-3381-4129-8cc3-ecfc6566e530">SnmpMgrOidToStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgroidtostr">SnmpMgrOidToStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fc44fdf-956a-4102-bcbb-4cd17a73828c">SnmpUtilOidFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a>
  
 
  

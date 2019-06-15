@@ -111,7 +111,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/746BFF49-C75F-417B-A54A-841A4A0E84C5">IStreamSelectorStatics</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828953(v=vs.85)">IStreamSelectorStatics</a>
  
 
  

@@ -121,11 +121,11 @@ The caller is out of memory or other system resources.
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/23c37342-fcbd-4401-83d5-a52d4a69b908">IVssComponent::GetRestoreSubcomponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponent">IVssComponent::GetRestoreSubcomponent</a>
  
 
  

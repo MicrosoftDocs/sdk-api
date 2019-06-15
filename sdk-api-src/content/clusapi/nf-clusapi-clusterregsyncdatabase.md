@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Synchronizes the <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">Cluster Database</a> with a cluster.
+Synchronizes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster Database</a> with a cluster.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If the operation succeeds, returns <b>ERROR_SUCCESS</b> (0); otherwise, returns 
 
 
 
-<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
  
 
  

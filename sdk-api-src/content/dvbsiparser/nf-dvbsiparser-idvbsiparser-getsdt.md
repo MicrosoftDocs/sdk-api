@@ -93,7 +93,7 @@ Optional parameter that contains a transport stream identifier (TSID). You can u
 
 ### -param ppSDT [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/bb473a7e-8957-4e85-98d0-13c6992fbf37">IDVB_SDT</a> interface pointer. The caller must release the interface.
+Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -171,7 +171,7 @@ The method fails if the filter does not receive a matching table within a predet
 
 
 
-<a href="https://msdn.microsoft.com/092162af-5f88-4ce5-ac2f-89327f094804">IDvbSiParser Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
  
 
  

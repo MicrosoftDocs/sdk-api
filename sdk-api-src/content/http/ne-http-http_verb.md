@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_VERB</b> enumeration type defines values that are used to specify known, standard HTTP verbs in the 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure. The majority of these known verbs are  documented in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure. The majority of these known verbs are  documented in <a href="Http://go.microsoft.com/fwlink/p/?linkid=84048">RFC 2616</a> and 
 <a href="Http://go.microsoft.com/fwlink/p/?linkid=84046">RFC 2518</a>, as indicated below.
 
 
@@ -67,7 +67,7 @@ Not relevant for applications; used only in kernel mode.
 
 ### -field HttpVerbUnknown
 
-Indicates that the application can examine the <b>UnknownVerbLength</b> and <b>pUnknownVerb</b> members of the <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure to retrieve the HTTP verb for the request.  This is the case in an HTTP/1.1 request when a browser client specifies a custom verb.
+Indicates that the application can examine the <b>UnknownVerbLength</b> and <b>pUnknownVerb</b> members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure to retrieve the HTTP verb for the request.  This is the case in an HTTP/1.1 request when a browser client specifies a custom verb.
 
 
 ### -field HttpVerbInvalid
@@ -209,7 +209,7 @@ Terminates the enumeration; is not used to define a verb.
 
 
 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
  
 
  

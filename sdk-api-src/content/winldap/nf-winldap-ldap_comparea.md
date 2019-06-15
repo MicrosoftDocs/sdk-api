@@ -85,7 +85,7 @@ A pointer to a null-terminated string that contains the string attribute value t
 
 If the function succeeds, the message ID of the compare operation is returned.
 
-If the function fails, it returns –1 and sets the session error parameters in the LDAP structure. This error can then be retrieved using <a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a>.
+If the function fails, it returns –1 and sets the session error parameters in the LDAP structure. This error can then be retrieved using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a>.
 
 
 
@@ -95,25 +95,25 @@ If the function fails, it returns –1 and sets the session error parameters in 
 
 
 The <b>ldap_compare</b> function initiates an asynchronous compare operation, comparing the value of an attribute to a known string value. Use 
-<a href="https://msdn.microsoft.com/07e96a95-439b-4bb1-a9ca-d76d181e8bea">ldap_compare_ext</a> or 
-<a href="https://msdn.microsoft.com/b22568b1-5043-422e-9c4e-cc51cc77d143">ldap_compare_ext_s</a> to compare binary values. Use 
-<a href="https://msdn.microsoft.com/44a7001d-d7ad-4b29-80bf-8d4b06e0fa43">ldap_compare_s</a> or <b>ldap_compare_ext_s</b> to perform a synchronous compare operation.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext">ldap_compare_ext</a> or 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext_s">ldap_compare_ext_s</a> to compare binary values. Use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s">ldap_compare_s</a> or <b>ldap_compare_ext_s</b> to perform a synchronous compare operation.
 
 As an asynchronous function, <b>ldap_compare</b> returns a message ID for the operation. Call 
-<a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous operation before it has been completed, call 
-<a href="https://msdn.microsoft.com/5c238d98-77f5-4702-bae1-80cdec70a30c">ldap_abandon</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> with the message ID to get the result of the operation. To cancel an asynchronous operation before it has been completed, call 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>.
 
 To have the function return the results directly, use the synchronous routine 
-<a href="https://msdn.microsoft.com/44a7001d-d7ad-4b29-80bf-8d4b06e0fa43">ldap_compare_s</a>. Use 
-<a href="https://msdn.microsoft.com/07e96a95-439b-4bb1-a9ca-d76d181e8bea">ldap_compare_ext</a> or 
-<a href="https://msdn.microsoft.com/b22568b1-5043-422e-9c4e-cc51cc77d143">ldap_compare_ext_s</a> to enable support for LDAP 3 server and client controls.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s">ldap_compare_s</a>. Use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext">ldap_compare_ext</a> or 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext_s">ldap_compare_ext_s</a> to enable support for LDAP 3 server and client controls.
 
 Multithreading: Calls to <b>ldap_compare</b> are thread-safe, provided that 
-<a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a> is used to get the actual session error code when the function call returns the -1 failure code.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> is used to get the actual session error code when the function call returns the -1 failure code.
 
 <div class="alert"><b>Note</b>  When connecting to an LDAP 2 server, the application must perform a bind operation, by calling one of the 
-<a href="https://msdn.microsoft.com/889636f2-3dd0-4027-aa35-d7b7930d9e69">ldap_bind</a> or 
-<a href="https://msdn.microsoft.com/13fc47c5-094b-4a91-8e5f-bfff8c72b431">ldap_simple_bind</a> routines, before attempting other operations.</div>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a> or 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a> routines, before attempting other operations.</div>
 <div> </div>
 
 
@@ -123,35 +123,35 @@ Multithreading: Calls to <b>ldap_compare</b> are thread-safe, provided that
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c238d98-77f5-4702-bae1-80cdec70a30c">ldap_abandon</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_abandon">ldap_abandon</a>
 
 
 
-<a href="https://msdn.microsoft.com/889636f2-3dd0-4027-aa35-d7b7930d9e69">ldap_bind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>
 
 
 
-<a href="https://msdn.microsoft.com/07e96a95-439b-4bb1-a9ca-d76d181e8bea">ldap_compare_ext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext">ldap_compare_ext</a>
 
 
 
-<a href="https://msdn.microsoft.com/b22568b1-5043-422e-9c4e-cc51cc77d143">ldap_compare_ext_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_ext_s">ldap_compare_ext_s</a>
 
 
 
-<a href="https://msdn.microsoft.com/44a7001d-d7ad-4b29-80bf-8d4b06e0fa43">ldap_compare_s</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_compare_s">ldap_compare_s</a>
 
 
 
-<a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
 
 
 
-<a href="https://msdn.microsoft.com/13fc47c5-094b-4a91-8e5f-bfff8c72b431">ldap_simple_bind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
  
 
  

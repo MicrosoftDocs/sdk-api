@@ -119,7 +119,7 @@ WER does not manage storage at the location that the relative path specifies or 
 
 
 
-<a href="https://msdn.microsoft.com/A3AD976A-9C44-494C-ABF0-90D151001E30">WerUnregisterAppLocalDump</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregisterapplocaldump">WerUnregisterAppLocalDump</a>
  
 
  

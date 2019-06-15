@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information that the <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> function uses to perform file operations.
+Contains information that the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function uses to perform file operations.
 
             
-<div class="alert"><b>Note</b>  As of Windows Vista, the use of the <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> interface is recommended over this function.</div><div> </div>
+<div class="alert"><b>Note</b>  As of Windows Vista, the use of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> interface is recommended over this function.</div><div> </div>
 
 ## -struct-fields
 
@@ -183,14 +183,14 @@ Do not ask the user to confirm the creation of a new directory if the operation 
 #### FOF_NO_CONNECTED_ELEMENTS
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
 
 
 
 #### FOF_NOCOPYSECURITYATTRIBS
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
 
 
 
@@ -215,7 +215,7 @@ Only perform the operation in the local directory. Do not operate recursively in
 #### FOF_NO_UI
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
 
 
 
@@ -239,14 +239,14 @@ Display a progress dialog box but do not show individual file names as they are 
 
 #### FOF_WANTMAPPINGHANDLE
 
-If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="https://msdn.microsoft.com/4552b2e0-9257-48f8-84cc-003217f1696f">SHFreeNameMappings</a> when it is no longer needed.
+If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a> when it is no longer needed.
 
 
 
 #### FOF_WANTNUKEWARNING
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
 
 
 ### -field fAnyOperationsAborted
@@ -311,7 +311,7 @@ Do not ask the user to confirm the creation of a new directory if the operation 
 ##### - fFlags.FOF_NOCOPYSECURITYATTRIBS
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
 
 
 ##### - fFlags.FOF_NOERRORUI
@@ -332,13 +332,13 @@ Only perform the operation in the local directory. Do not operate recursively in
 ##### - fFlags.FOF_NO_CONNECTED_ELEMENTS
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
 
 
 ##### - fFlags.FOF_NO_UI
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
 
 
 ##### - fFlags.FOF_RENAMEONCOLLISION
@@ -358,13 +358,13 @@ Display a progress dialog box but do not show individual file names as they are 
 
 ##### - fFlags.FOF_WANTMAPPINGHANDLE
 
-If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="https://msdn.microsoft.com/4552b2e0-9257-48f8-84cc-003217f1696f">SHFreeNameMappings</a> when it is no longer needed.
+If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a> when it is no longer needed.
 
 
 ##### - fFlags.FOF_WANTNUKEWARNING
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
 
 
 ##### - wFunc.FO_COPY
@@ -408,31 +408,31 @@ LPTSTR pszSource = L"C:\\Windows\\*\0";
 
 To account for the two terminating null characters, be sure to create buffers large enough to hold MAX_PATH (which normally includes the single terminating null character) plus 1.
 
-It cannot be overstated that your paths should always be full paths. If the <b>pFrom</b> or <b>pTo</b> members are unqualified names, the current directories are taken from the global current drive and directory settings as managed by the <a href="https://msdn.microsoft.com/1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd">GetCurrentDirectory</a> and <a href="https://msdn.microsoft.com/02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd">SetCurrentDirectory</a> functions.
+It cannot be overstated that your paths should always be full paths. If the <b>pFrom</b> or <b>pTo</b> members are unqualified names, the current directories are taken from the global current drive and directory settings as managed by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> functions.
 
                 
 
 If you do not provide a full path, the following facts become pertinent:
                 
                     <ul>
-<li>The lack of a path before a file name does not indicate to <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> that this file resides in the root of the current directory.</li>
-<li>The PATH environment variable is not used by <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> to determine a valid path.</li>
+<li>The lack of a path before a file name does not indicate to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> that this file resides in the root of the current directory.</li>
+<li>The PATH environment variable is not used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> to determine a valid path.</li>
 <li>
-<a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> cannot be relied on to use the directory that is the current directory when it begins executing. The directory seen as the current directory is process-wide, and it can be changed from another thread while the operation is executing. If that were to happen, the results of <b>SHFileOperation</b> would be unpredictable.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> cannot be relied on to use the directory that is the current directory when it begins executing. The directory seen as the current directory is process-wide, and it can be changed from another thread while the operation is executing. If that were to happen, the results of <b>SHFileOperation</b> would be unpredictable.</li>
 </ul>
 
 
 If <b>pFrom</b> is set to a file name without a full path, deleting the file with <b>FO_DELETE</b> does not move it to the Recycle Bin, even if the <b>FOF_ALLOWUNDO</b> flag is set. You must provide a full path to delete the file to the Recycle Bin.
 
 
-<a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> fails on any path prefixed with "\\?\".
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> fails on any path prefixed with "\\?\".
 
 There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and a Unicode version (SHFILEOPSTRUCTW). The Unicode version is identical to the ANSI version, except that wide character strings (<b>LPCWSTR</b>) are used in place of ANSI character strings (<b>LPCSTR</b>). On Windows 98 and earlier, only the ANSI version is supported. On Microsoft Windows NT 4.0 and later, both the ANSI and Unicode versions of this structure are supported. SHFILEOPSTRUCTW and SHFILEOPTSTRUCTA should never be used directly; the appropriate structure is redefined as <b>SHFILEOPSTRUCT</b> by the precompiler depending on whether the application is compiled for ANSI or Unicode. 
 
                 
 
 
-<a href="https://msdn.microsoft.com/c77f5ed6-3c7f-48dd-8bb6-33d6d3053238">SHNAMEMAPPING</a> has similar ANSI and Unicode versions. For ANSI applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of ANSI <b>SHNAMEMAPPING</b> structures. For Unicode applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of Unicode <b>SHNAMEMAPPING</b> structures. However, on Microsoft Windows NT 4.0 and later, <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> <i>always</i> returns a handle to a Unicode set of <b>SHNAMEMAPPING</b> structures. If you want applications to be functional with all versions of Windows, the application must employ conditional code to deal with name mappings. For example:
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shnamemappinga">SHNAMEMAPPING</a> has similar ANSI and Unicode versions. For ANSI applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of ANSI <b>SHNAMEMAPPING</b> structures. For Unicode applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of Unicode <b>SHNAMEMAPPING</b> structures. However, on Microsoft Windows NT 4.0 and later, <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> <i>always</i> returns a handle to a Unicode set of <b>SHNAMEMAPPING</b> structures. If you want applications to be functional with all versions of Windows, the application must employ conditional code to deal with name mappings. For example:
 
 
 ```cpp
@@ -446,7 +446,7 @@ else
 ```
 
 
-Treat <b>hNameMappings</b> as a pointer to a structure whose members are a <b>UINT</b> value followed by a pointer to an array of <a href="https://msdn.microsoft.com/c77f5ed6-3c7f-48dd-8bb6-33d6d3053238">SHNAMEMAPPING</a> structures, as seen in its declaration:
+Treat <b>hNameMappings</b> as a pointer to a structure whose members are a <b>UINT</b> value followed by a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shnamemappinga">SHNAMEMAPPING</a> structures, as seen in its declaration:
 
 				
 
@@ -461,9 +461,9 @@ struct HANDLETOMAPPINGS
 ```
 
 
-The <b>UINT</b> value indicates the number of <a href="https://msdn.microsoft.com/c77f5ed6-3c7f-48dd-8bb6-33d6d3053238">SHNAMEMAPPING</a> structures in the array. Each <b>SHNAMEMAPPING</b> structure contains the old and new path for one of the renamed files.
+The <b>UINT</b> value indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shnamemappinga">SHNAMEMAPPING</a> structures in the array. Each <b>SHNAMEMAPPING</b> structure contains the old and new path for one of the renamed files.
 
-<div class="alert"><b>Note</b>  The handle must be freed with <a href="https://msdn.microsoft.com/4552b2e0-9257-48f8-84cc-003217f1696f">SHFreeNameMappings</a>.</div>
+<div class="alert"><b>Note</b>  The handle must be freed with <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a>.</div>
 <div> </div>
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760573(v=VS.85).aspx">TCM_ADJUSTRECT</a> message explicitly. 
+Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-adjustrect">TCM_ADJUSTRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Calculates a tab control's display area given a window rectangle, or calculates 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 
 
 ### -param bLarger
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Operation to perform. If this parameter is <b>TRUE</b>, 
 					<i>prc</i> specifies a display rectangle and receives the corresponding window rectangle. If this parameter is <b>FALSE</b>, 

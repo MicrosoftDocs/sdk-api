@@ -79,12 +79,12 @@ Attenuates frequencies inside a given range.
 
 ### -field LowPassOnePoleFilter
 
-Attenuates frequencies above the cutoff frequency. This is a one-pole filter, and <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
+Attenuates frequencies above the cutoff frequency. This is a one-pole filter, and <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
 
 
 ### -field HighPassOnePoleFilter
 
-Attenuates frequencies below the cutoff frequency. This is a one-pole filter, and <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
+Attenuates frequencies below the cutoff frequency. This is a one-pole filter, and <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a>.<b>OneOverQ</b> has no effect.
 
 
 ## -remarks
@@ -104,11 +104,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b20bda9-dab2-cfbc-125a-cf46e4ede0c8">XAudio2::Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/enumerations">XAudio2::Enumerations</a>
  
 
  

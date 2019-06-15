@@ -61,7 +61,7 @@ The
 ### -param pEvent [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/5a2efb70-a943-46c5-a362-18579ad8c965">ACDQUEUE_EVENT</a> descriptor of event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdqueue_event">ACDQUEUE_EVENT</a> descriptor of event.
 
 
 ## -returns
@@ -119,11 +119,11 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/5a2efb70-a943-46c5-a362-18579ad8c965">ACDQUEUE_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdqueue_event">ACDQUEUE_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e4655ff-6ed4-4166-91f7-49d2e0556662">ITQueueEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>
  
 
  

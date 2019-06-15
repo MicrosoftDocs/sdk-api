@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the rasterization limit currently set for this metafile. The rasterization limit is the resolution used for certain brush bitmaps that are stored in the metafile. For a detailed explanation of the rasterization limit, see <a href="https://msdn.microsoft.com/en-us/library/ms535275(v=VS.85).aspx">Metafile::SetDownLevelRasterizationLimit</a>.
+Gets the rasterization limit currently set for this metafile. The rasterization limit is the resolution used for certain brush bitmaps that are stored in the metafile. For a detailed explanation of the rasterization limit, see <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-setdownlevelrasterizationlimit">Metafile::SetDownLevelRasterizationLimit</a>.
 
 
 ## -parameters

@@ -59,7 +59,7 @@ Gets an empty stream that receives the new version of the file being copied.
 
 ### -param ppstm [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
 The address of a pointer to the new stream.
 

@@ -59,28 +59,28 @@ Contains information about a balloon tip associated with a button control.
 
 ### -field cbStruct
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A <b>DWORD</b> that contains the size, in bytes, of the structure. 
 
 
 ### -field pszTitle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the title of the balloon tip. 
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the balloon tip text. 
 
 
 ### -field ttiIcon
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 A value of type <b>INT</b> that specifies the type of icon to associate with the balloon tip. This member can be one of the following values. 
 
@@ -172,15 +172,15 @@ Use the large error icon. This is assumed to be an HICON value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761668(v=VS.85).aspx">EM_SHOWBALLOONTIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-showballoontip">EM_SHOWBALLOONTIP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/edit-controls">Edit Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761707(v=VS.85).aspx">Edit_ShowBalloonTip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-edit_showballoontip">Edit_ShowBalloonTip</a>
 
 
 

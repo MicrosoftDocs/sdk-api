@@ -127,7 +127,7 @@ Can occur if <i>pTable</i> is NULL or if <i>tableIndex</i> does not point to a v
 
 
 
-<a href="https://msdn.microsoft.com/631571A2-AA15-4A4B-B705-6CCC81392A6A">IWICJpegFrameEncode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
  
 
  

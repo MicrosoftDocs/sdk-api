@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the text of a child control in a window or dialog box, using <a href="https://msdn.microsoft.com/b8184c98-1f86-4714-baf8-af4ef3e71cf2">PathCompactPath</a> to ensure the path fits in the control.
+Sets the text of a child control in a window or dialog box, using <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcompactpatha">PathCompactPath</a> to ensure the path fits in the control.
 
 
 ## -parameters

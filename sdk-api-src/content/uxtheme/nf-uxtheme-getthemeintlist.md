@@ -61,42 +61,42 @@ Retrieves a list of <b>int</b> data from a visual style.
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the list of data to return. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the part that contains the list of data to return. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://msdn.microsoft.com/en-us/library/Bb773210(v=VS.85).aspx">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 
 ### -param iPropId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the property to retrieve. See <a href="https://msdn.microsoft.com/en-us/library/Bb773213(v=VS.85).aspx">Property Identifiers</a>.
+Value of type <b>int</b> that specifies the property to retrieve. See <a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>.
 
 
 ### -param pIntList [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773240(v=VS.85).aspx">INTLIST</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_intlist">INTLIST</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb773240(v=VS.85).aspx">INTLIST</a> structure that receives the <b>int</b> data.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_intlist">INTLIST</a> structure that receives the <b>int</b> data.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful, otherwise an error code.
 
@@ -108,7 +108,7 @@ Returns S_OK if successful, otherwise an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773240(v=VS.85).aspx">INTLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-_intlist">INTLIST</a>
  
 
  

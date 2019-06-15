@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets which gestures are ignored by <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a>. 
+Sets which gestures are ignored by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets which gestures are ignored by <a href="https://msdn.microsoft.com/26358bc5-
 
 ### -param configuration [in]
 
-One of the values from <a href="https://msdn.microsoft.com/B8EE991B-6DBF-42DE-966F-FA5CB397562C">DIRECTMANIPULATION_GESTURE_CONFIGURATION</a>.
+One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_gesture_configuration">DIRECTMANIPULATION_GESTURE_CONFIGURATION</a>.
 
 
 ## -returns
@@ -75,12 +75,12 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-Use this method to specify which gestures the application processes on the UI thread. If a gesture is recognized, it will be passed to the application for processing and ignored by <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a>.
+Use this method to specify which gestures the application processes on the UI thread. If a gesture is recognized, it will be passed to the application for processing and ignored by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a>.
 
 
 #### Examples
 
-The following example shows how zoom gestures can be ignored by <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> and handled by the application, which may have custom zoom behavior implementation.
+The following example shows how zoom gestures can be ignored by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> and handled by the application, which may have custom zoom behavior implementation.
 
 
 ```
@@ -96,7 +96,7 @@ HRESULT hr = pViewport->SetManualGesture(DIRECTMANIPULATION_GESTURE_PINCH_ZOOM);
 
 
 
-<a href="https://msdn.microsoft.com/4c14143b-3b5f-401d-9df7-f17374abcd99">IDirectManipulationViewport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
  
 
  

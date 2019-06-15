@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>WINTRUST_FILE_INFO</b> structure is used when calling 
-<a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> to verify an individual file.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify an individual file.
 
 
 ## -struct-fields
@@ -75,5 +75,5 @@ Optional. File handle to the open file to be verified. This handle must be to a 
 
 ### -field pgKnownSubject
 
-Optional. Pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
+Optional. Pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
 

@@ -61,7 +61,7 @@ Retrieves the current value of a property for this UI Automation element.
 
 Type: <b>PROPERTYID</b>
 
-The identifier of the property. For a list of property IDs, see <a href="https://msdn.microsoft.com/c05163ea-ba06-4005-9b80-661015b9d2ef">Property Identifiers</a>.
+The identifier of the property. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 
 ### -param retVal [out, retval]
@@ -75,7 +75,7 @@ Receives the value of the property.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -101,15 +101,15 @@ Microsoft UI Automation properties of the <b>double</b> type support Not a Numbe
 
 
 
-<a href="https://msdn.microsoft.com/3cd093fe-04ee-4b09-b5e7-28dad984951e">GetCachedPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue">GetCachedPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/3adbd380-4500-4701-bfc3-dc03d51e5155">GetCurrentPropertyValueEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalueex">GetCurrentPropertyValueEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 
@@ -117,7 +117,7 @@ Microsoft UI Automation properties of the <b>double</b> type support Not a Numbe
 
 
 
-<a href="https://msdn.microsoft.com/35f017cb-f50a-4680-9f01-5079aa59da73">UI Automation Properties Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-propertiesoverview">UI Automation Properties Overview</a>
  
 
  

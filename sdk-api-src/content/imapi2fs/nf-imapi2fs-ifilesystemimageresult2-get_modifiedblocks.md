@@ -59,7 +59,7 @@ Retrieves the list of modified blocks in the result image.
 
 ### -param pVal [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/f2a3bd54-4f40-4bf0-9cbf-b507819d669f">IBlockRangeList</a> interface representing the modified block ranges in the result image. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> interface representing the modified block ranges in the result image. 
 
 
 ## -returns
@@ -109,7 +109,7 @@ Value: 0x80004001
 
 
 
-This method returns <b>E_NOTIMPL</b> if the entire result image must be recorded. If this method returns a successful return code, it is sufficient to record only the sectors described by <a href="https://msdn.microsoft.com/f2a3bd54-4f40-4bf0-9cbf-b507819d669f">IBlockRangeList</a> returned in <i>pVal</i>. It is highly recommended to record the sector ranges in exactly the same order as they are listed in <b>IBlockRangeList</b>.
+This method returns <b>E_NOTIMPL</b> if the entire result image must be recorded. If this method returns a successful return code, it is sufficient to record only the sectors described by <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrangelist">IBlockRangeList</a> returned in <i>pVal</i>. It is highly recommended to record the sector ranges in exactly the same order as they are listed in <b>IBlockRangeList</b>.
 
 
 
@@ -119,7 +119,7 @@ This method returns <b>E_NOTIMPL</b> if the entire result image must be recorded
 
 
 
-<a href="https://msdn.microsoft.com/83834da1-fa5a-42ef-8e59-7ba133d3e6cb">IFileSystemImageResult2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult2">IFileSystemImageResult2</a>
  
 
  

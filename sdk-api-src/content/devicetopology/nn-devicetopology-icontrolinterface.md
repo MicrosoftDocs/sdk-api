@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IControlInterface</b> interface represents a control interface on a part (connector or subunit) in a <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">device topology</a>. The client obtains a reference to a part's <b>IControlInterface</b> interface by calling the <a href="https://msdn.microsoft.com/802f3c19-5a71-41b0-922a-f216fd60495c">IPart::GetControlInterface</a> method.
+The <b>IControlInterface</b> interface represents a control interface on a part (connector or subunit) in a <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">device topology</a>. The client obtains a reference to a part's <b>IControlInterface</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getcontrolinterface">IPart::GetControlInterface</a> method.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlInterface</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IControlInterface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IControlInterface</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IControlInterface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IControlInterface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6d46f37-6b9a-4d20-8a97-9fb5284dbc42">GetIID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">GetIID</a>
 </td>
 <td align="left" width="63%">
 Gets the interface ID of the function-specific control interface of the part.
@@ -81,7 +81,7 @@ Gets the interface ID of the function-specific control interface of the part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/591e96ba-aaf1-42ba-9526-f839c30947d3">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the friendly name for the audio function that the control interface encapsulates.
@@ -96,15 +96,15 @@ Gets the friendly name for the audio function that the control interface encapsu
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/051311ef-dd29-4014-bb9c-4cdccf7ce7de">DeviceTopology API</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://msdn.microsoft.com/802f3c19-5a71-41b0-922a-f216fd60495c">IPart::GetControlInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getcontrolinterface">IPart::GetControlInterface</a>
  
 
  

@@ -61,7 +61,7 @@ Determines the current update options for a link.
 
 ### -param dwLink [in]
 
-Container-defined unique identifier for a single link. See <a href="https://msdn.microsoft.com/60246b31-3677-4424-a131-840feeca030f">IOleUILinkContainer::GetNextLink</a>.
+Container-defined unique identifier for a single link. See <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getnextlink">IOleUILinkContainer::GetNextLink</a>.
 
 
 ### -param lpdwUpdateOpt [out]
@@ -135,7 +135,7 @@ There is insufficient memory available for this operation.
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Containers can implement this method for OLE links simply by calling <a href="https://msdn.microsoft.com/310c25b5-a2f6-4ed7-8673-c53809fad32f">IOleLink::SetUpdateOptions</a> on the link object.
+Containers can implement this method for OLE links simply by calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">IOleLink::SetUpdateOptions</a> on the link object.
 
 
 
@@ -145,19 +145,19 @@ Containers can implement this method for OLE links simply by calling <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/310c25b5-a2f6-4ed7-8673-c53809fad32f">IOleLink::SetUpdateOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">IOleLink::SetUpdateOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/60246b31-3677-4424-a131-840feeca030f">IOleUILinkContainer::GetNextLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getnextlink">IOleUILinkContainer::GetNextLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2a7758d-9692-4e3c-8186-b74530299a6a">IOleUILinkContainer::SetLinkUpdateOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-setlinkupdateoptions">IOleUILinkContainer::SetLinkUpdateOptions</a>
  
 
  

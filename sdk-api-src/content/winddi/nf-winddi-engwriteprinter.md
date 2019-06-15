@@ -59,7 +59,7 @@ The <b>EngWritePrinter</b> function allows printer graphics DLLs to send a data 
 
 ### -param hPrinter [in]
 
-Caller-supplied handle to the printer. This should be the handle received as the <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a> function's <i>hDriver</i> parameter value.
+Caller-supplied handle to the printer. This should be the handle received as the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function's <i>hDriver</i> parameter value.
 
 
 ### -param pBuf [in]
@@ -91,11 +91,11 @@ If the operation succeeds, the function returns <b>TRUE</b>; otherwise it return
 
 
 
-<a href="https://msdn.microsoft.com/58e181ff-c792-41a5-967d-a69a8ff5a041">Printer graphics DLLs</a> call <b>EngWritePrinter</b> to send data streams (either control sequences or image data) to the print spooler, which in turn sends the data to the printer hardware by calling the appropriate <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">print monitor</a>. The function returns after the spooler receives the data.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">Printer graphics DLLs</a> call <b>EngWritePrinter</b> to send data streams (either control sequences or image data) to the print spooler, which in turn sends the data to the printer hardware by calling the appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/">print monitor</a>. The function returns after the spooler receives the data.
 
-The buffer pointed to by <i>pBuf</i> cannot be in user memory; that is, <i>pBuf</i> cannot point to memory allocated by <a href="https://msdn.microsoft.com/51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c">EngCreateBitmap</a> with the BMF_USERMEM flag set or by <a href="https://msdn.microsoft.com/5864d8dc-e239-4ba8-bd22-4a4a8952c39e">EngAllocUserMem</a>.
+The buffer pointed to by <i>pBuf</i> cannot be in user memory; that is, <i>pBuf</i> cannot point to memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatebitmap">EngCreateBitmap</a> with the BMF_USERMEM flag set or by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>.
 
-For additional information about calling <b>EngWritePrinter</b>, see <a href="https://msdn.microsoft.com/78967839-b518-41c0-8825-b00f8b8560e6">Rendering a Print Job</a>.
+For additional information about calling <b>EngWritePrinter</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/rendering-a-print-job">Rendering a Print Job</a>.
 
 
 
@@ -105,15 +105,15 @@ For additional information about calling <b>EngWritePrinter</b>, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/5864d8dc-e239-4ba8-bd22-4a4a8952c39e">EngAllocUserMem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>
 
 
 
-<a href="https://msdn.microsoft.com/51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c">EngCreateBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatebitmap">EngCreateBitmap</a>
  
 
  

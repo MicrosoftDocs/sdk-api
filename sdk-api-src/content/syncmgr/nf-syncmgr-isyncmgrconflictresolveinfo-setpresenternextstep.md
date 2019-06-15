@@ -59,9 +59,9 @@ Sets what the presenter wants to do as the next step in the sync manager conflic
 
 ### -param nPresenterNextStep [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e24b09e0-38a1-421b-8cf1-74f553cf93e7">SYNCMGR_PRESENTER_NEXT_STEP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_next_step">SYNCMGR_PRESENTER_NEXT_STEP</a></b>
 
-The next step in the conflict resolution. One of the members of the <a href="https://msdn.microsoft.com/e24b09e0-38a1-421b-8cf1-74f553cf93e7">SYNCMGR_PRESENTER_NEXT_STEP</a> enumeration.
+The next step in the conflict resolution. One of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_next_step">SYNCMGR_PRESENTER_NEXT_STEP</a> enumeration.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c47d533f-7307-4db3-a025-961f3419203e">ISyncMgrConflictResolveInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo">ISyncMgrConflictResolveInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f263f83-1d7c-40c6-a57c-1334a52cd712">ISyncMgrConflictResolveInfo::GetPresenterNextStep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenternextstep">ISyncMgrConflictResolveInfo::GetPresenterNextStep</a>
  
 
  

@@ -52,12 +52,12 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Returns  Transactional NTFS (TxF) specific information for the specified file.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -155,9 +155,9 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
     is a synchronous operation.
 
 This control code can be used by backup functions and applications, such as Win32 
-    <a href="https://msdn.microsoft.com/47d13662-af70-4c76-9fb6-3835e329ae5f">BackupRead</a>, and by Volume Shadow Copy Service (VSS) 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>, and by Volume Shadow Copy Service (VSS) 
     writers that support secondary resource managers. For more information, see 
-    <a href="base.vss_portal">Volume Shadow Copy Service</a>.
+    <a href="https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service">Volume Shadow Copy Service</a>.
 
 <b>ReFS:  </b>This code is not supported.
 
@@ -169,15 +169,15 @@ This control code can be used by backup functions and applications, such as Win3
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2b9ce2f-9f08-4706-9565-423ab0dc493f">TXFS_READ_BACKUP_INFORMATION_OUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_read_backup_information_out">TXFS_READ_BACKUP_INFORMATION_OUT</a>
 
 
 
-<a href="base.vss_portal">Volume Shadow Copy Service</a>
+<a href="https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service">Volume Shadow Copy Service</a>
  
 
  

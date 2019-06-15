@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides 
    methods for performing query and configuration operations on an iSCSI portal.
@@ -58,7 +58,7 @@ Provides
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiPortal</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsIscsiPortal</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiPortal</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiPortal</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,49 +73,49 @@ The <b>IVdsIscsiPortal</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c815856f-94a2-4748-b9ac-54a2ef69c97e">GetIpsecSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getipsecsecurity">GetIpsecSecurity</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a17597d5-2525-4a0c-acb3-dc69a6ef04ce">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of a portal.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e222cdc-6399-4e28-b59b-ba912e32eb9d">GetSubSystem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getsubsystem">GetSubSystem</a>
 </td>
 <td align="left" width="63%">
 Returns the subsystem to which the portal belongs.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b8dbfc8-9112-4ca9-9976-ac3bf859588d">QueryAssociatedPortalGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-queryassociatedportalgroups">QueryAssociatedPortalGroups</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of the portal groups with which the portal is associated.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73209e3c-f1c9-411e-b272-4d4a2b168824">SetIpsecSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setipsecsecurity">SetIpsecSecurity</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/200ac111-7029-4bfa-a08b-b4bce3c86bb7">SetIpsecTunnelAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setipsectunneladdress">SetIpsecTunnelAddress</a>
 </td>
 <td align="left" width="63%">
 This method is reserved for future use.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c63fa36-bccb-4731-999a-c6f8b565b38f">SetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Sets the status of a portal to the specified value.</p> (Inherited from <b>IVdsIscsiPortal</b>)</td>
@@ -128,7 +128,7 @@ Sets the status of a portal to the specified value.</p> (Inherited from <b>IVdsI
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
  
 
  

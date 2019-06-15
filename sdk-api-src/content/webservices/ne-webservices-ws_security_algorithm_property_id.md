@@ -62,7 +62,7 @@ Identifies the properties representing security algorithm knobs.
 
 All properties defined by the keys here have reasonable defaults; so
 specifying them is optional.  In the common case, one should be able
-to create a <a href="https://msdn.microsoft.com/en-us/library/Dd323378(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SUITE</a> without setting any of
+to create a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_algorithm_suite">WS_SECURITY_ALGORITHM_SUITE</a> without setting any of
 the properties below.
             
 

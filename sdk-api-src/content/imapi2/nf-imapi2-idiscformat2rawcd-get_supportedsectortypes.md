@@ -61,7 +61,7 @@ Retrieves the supported data sector types for the current recorder.
 
 List of data sector types for the current recorder. Each element of the list is a <b>VARIANT</b> of type <b>VT_UI4</b>. The <b>ulVal</b> member of the variant contains the data sector type. 
 
-For a list of values of supported sector types, see <a href="https://msdn.microsoft.com/en-us/library/Aa366213(v=VS.85).aspx">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>.
+For a list of values of supported sector types, see <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>.
 
 
 ## -returns
@@ -95,7 +95,7 @@ Value: 0x80070057
 </dl>
 </td>
 <td width="60%">
-The returned pointer is not valid. This value can also indicate that the recorder has not yet been set with <a href="https://msdn.microsoft.com/d3deefa8-40be-4cdc-aae1-e5fbe508f16f">IDiscFormat2RawCD::put_Recorder</a>. 
+The returned pointer is not valid. This value can also indicate that the recorder has not yet been set with <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a>. 
 
 Value: 0x80004003
 
@@ -359,11 +359,11 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://msdn.microsoft.com/7964e25e-43ed-4ed0-aeee-dac656700fea">IDiscFormat2RawCD::get_RequestedSectorType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype">IDiscFormat2RawCD::get_RequestedSectorType</a>
  
 
  

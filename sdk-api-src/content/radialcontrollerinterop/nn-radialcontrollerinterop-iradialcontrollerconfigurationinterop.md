@@ -69,7 +69,7 @@ The <b>IRadialControllerConfigurationInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2182f3a-82a8-40be-b331-673a181f4070">GetForWindow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontrollerconfiguration">RadialControllerConfiguration</a> object bound to the active application.
@@ -88,7 +88,7 @@ Retrieves a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.r
 
 
 
-<a href="https://msdn.microsoft.com/44FED16E-63FB-466B-9615-8B744F861AE9">Radial controller interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_radial/radial-controller-interfaces">Radial controller interfaces</a>
 
 
 

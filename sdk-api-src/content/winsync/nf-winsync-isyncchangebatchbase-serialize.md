@@ -141,11 +141,11 @@ The last group added to the batch was not ended.
 
 
 
-<a href="https://msdn.microsoft.com/14ca01a1-04eb-4282-adf0-e775d6ff0801">ISyncChangeBatchBase Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd744813(v=VS.85).aspx">SyncSerializationVersion Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0007">SyncSerializationVersion Enumeration</a>
  
 
  

@@ -92,7 +92,7 @@ You must call <b>PageLock</b> to make use of DMA support. If you do not, the bit
 
 The performance of the operating system can be negatively affected if too much memory is locked.
 
-A lock count is maintained for each surface and is incremented each time that <b>PageLock</b> is called for that surface. The count is decremented when <a href="https://msdn.microsoft.com/1a87df37-a53f-4240-a5cb-47b13999c34b">IDirectDrawSurface7::PageUnlock</a> is called. When the count reaches 0, the memory is unlocked, and can then be paged by the operating system.
+A lock count is maintained for each surface and is incremented each time that <b>PageLock</b> is called for that surface. The count is decremented when <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-pageunlock">IDirectDrawSurface7::PageUnlock</a> is called. When the count reaches 0, the memory is unlocked, and can then be paged by the operating system.
 
 <b>PageLock</b> works only on system-memory surfaces; it does not page-lock a display-memory surface or an emulated primary surface. If an application calls <b>PageLock</b> on a display memory surface, the method does nothing except return DD_OK.
 
@@ -102,7 +102,7 @@ A lock count is maintained for each surface and is incremented each time that <b
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the <b>PageLock</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>PageLock</b> method.
 
 
 
@@ -112,7 +112,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/be686d56-c242-4228-ac8e-8f764ad29756">IDirectDrawSurface7</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  

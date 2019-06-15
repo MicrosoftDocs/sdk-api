@@ -126,7 +126,7 @@ The caller is not registered to receive events for the specified report type.
 
 The interval you request by using this method represents the shortest amount of time between events. This means that you request to receive event notifications no more frequently than specified, but the elapsed time may be significantly longer. Use this method to help ensure that event notifications do not use more processor resources than necessary.
 
-It is not guaranteed that your request for a particular report interval will be set by the location provider. Call <a href="https://msdn.microsoft.com/c7bcd665-317c-428a-aa20-0d09c8d7a813">GetReportInterval </a>to discover the true report interval setting.
+It is not guaranteed that your request for a particular report interval will be set by the location provider. Call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportinterval">GetReportInterval </a>to discover the true report interval setting.
 
 A report interval of zero means that no minimum interval is specified, and the application may receive events at the frequency that the location sensor sends events.
 
@@ -151,7 +151,7 @@ HRESULT hr = spLocation->SetReportInterval(IID_ILatLongReport, 1000);
 
 
 
-<a href="https://msdn.microsoft.com/beeedbbd-df93-4c05-a215-4cfd14e03076">ILocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
  
 
  

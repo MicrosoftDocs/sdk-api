@@ -92,7 +92,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The Direct3D device manager was not initialized. The owner of the device must call <a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">IDirect3DDeviceManager9::ResetDevice</a>.
+The Direct3D device manager was not initialized. The owner of the device must call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a>.
 
 </td>
 </tr>
@@ -106,9 +106,9 @@ The Direct3D device manager was not initialized. The owner of the device must ca
 
 
 
-To get the Direct3D device's <b>IDirect3DDevice9</b> pointer, call <a href="https://msdn.microsoft.com/51631747-04af-448e-97cf-25a329d4fbb4">IDirect3DDeviceManager9::LockDevice</a> with the handle returned in <i>phDevice</i>. Close the device handle when you are done using it, by calling <a href="https://msdn.microsoft.com/5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a">IDirect3DDeviceManager9::CloseDeviceHandle</a>.
+To get the Direct3D device's <b>IDirect3DDevice9</b> pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice">IDirect3DDeviceManager9::LockDevice</a> with the handle returned in <i>phDevice</i>. Close the device handle when you are done using it, by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-closedevicehandle">IDirect3DDeviceManager9::CloseDeviceHandle</a>.
 
-To test whether a device handle is still valid, call <a href="https://msdn.microsoft.com/e97acc5d-1b6a-43ae-a057-9c650d7126ab">IDirect3DDeviceManager9::TestDevice</a>.
+To test whether a device handle is still valid, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-testdevice">IDirect3DDeviceManager9::TestDevice</a>.
 
 
 
@@ -118,11 +118,11 @@ To test whether a device handle is still valid, call <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/d82fd82d-510e-4004-b18b-8f2372e29701">Direct3D Device Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/e661e666-dc51-4a71-9ecd-62a667bb217d">IDirect3DDeviceManager9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
  
 
  

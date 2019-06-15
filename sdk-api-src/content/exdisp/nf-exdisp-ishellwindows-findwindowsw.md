@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Finds a window in the Shell windows collection and returns the window's handle and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
+Finds a window in the Shell windows collection and returns the window's handle and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Finds a window in the Shell windows collection and returns the window's handle a
 
 Type: <b>VARIANT*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the window to find. (See remarks.)
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> of type VT_VARIANT | VT_BYREF. Set the value of <i>pvarLoc</i> to an absolute <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">PIDL</a> (PIDLIST_ABSOLUTE) that specifies the window to find. (See remarks.)
 
 
 ### -param pvarLocRoot [in]
@@ -76,7 +76,7 @@ Must be <b>NULL</b> or of type VT_EMPTY.
 
 Type: <b>int</b>
 
-One or more <a href="https://msdn.microsoft.com/79d4fcf3-5256-4e21-ab9a-94605e1d742f">ShellWindowTypeConstants</a> flags that specify window types to include in the search.
+One or more <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/ne-exdisp-shellwindowtypeconstants">ShellWindowTypeConstants</a> flags that specify window types to include in the search.
 
 
 ### -param phwnd [out]
@@ -90,14 +90,14 @@ A handle for the window matching the specified search criteria, or <b>NULL</b> i
 
 Type: <b>int</b>
 
-One or more <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">ShellWindowFindWindowOptions</a> flags that specify search options.
+One or more <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/ne-exdisp-shellwindowfindwindowoptions">ShellWindowFindWindowOptions</a> flags that specify search options.
 
 
 ### -param ppdispOut [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>**</b>
 
-A reference to the window's <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface, or <b>NULL</b> if no such window was found.
+A reference to the window's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface, or <b>NULL</b> if no such window was found.
 
 
 ## -returns
@@ -142,7 +142,7 @@ A window matching the specified search criteria was not found.
 </dl>
 </td>
 <td width="60%">
-A window was found, but a reference to the window's <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface could not be obtained. Only occurs if the <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">SWFO_NEEDDISPATCH</a> flag is set.
+A window was found, but a reference to the window's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface could not be obtained. Only occurs if the <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/ne-exdisp-shellwindowfindwindowoptions">SWFO_NEEDDISPATCH</a> flag is set.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ A window was found, but a reference to the window's <a href="https://msdn.micros
 </dl>
 </td>
 <td width="60%">
-A window was found, but the window is pending open. Only occurs if the <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">SWFO_INCLUDEPENDING</a> flag is set.
+A window was found, but the window is pending open. Only occurs if the <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/ne-exdisp-shellwindowfindwindowoptions">SWFO_INCLUDEPENDING</a> flag is set.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ A window was found, but the window is pending open. Only occurs if the <a href="
 
 
 
-If the <a href="https://msdn.microsoft.com/2459ab16-56c0-4812-bc61-4a17978b04f3">SWFO_COOKIEPASSED</a> flag is set, <i>pvarLoc</i> is interpreted as a cookie instead of a PIDL.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/ne-exdisp-shellwindowfindwindowoptions">SWFO_COOKIEPASSED</a> flag is set, <i>pvarLoc</i> is interpreted as a cookie instead of a PIDL.
 
 
 

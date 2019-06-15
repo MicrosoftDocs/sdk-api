@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> associated with the substream with the specified index.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> associated with the substream with the specified index.
 
 
 ## -parameters
@@ -127,7 +127,7 @@ The stream data for the sample is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/DABA5955-1366-4CEE-ABDF-7CC0F3788A8E">IMFMuxStreamSampleManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Defines flags for the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure.
+Defines flags for the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure.
 
 
 
@@ -64,16 +64,16 @@ Defines flags for the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cf
 
 Alpha-blend the entire DirectDraw suface.
 
-If you are alpha-blending a DirectDraw surface, you can set this flag when you call <a href="https://msdn.microsoft.com/a70e6734-bf49-4dea-8bf6-917b8465cc78">IMFVideoMixerBitmap::SetAlphaBitmap</a>. If this flag is set, the mixer ignores the <b>rcSrc</b> member of the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure. If this flag is absent, the <b>rcSrc</b> member specifies the source rectangle.
+If you are alpha-blending a DirectDraw surface, you can set this flag when you call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">IMFVideoMixerBitmap::SetAlphaBitmap</a>. If this flag is set, the mixer ignores the <b>rcSrc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure. If this flag is absent, the <b>rcSrc</b> member specifies the source rectangle.
 
-This flag cannot be used if you specify a GDI bitmap for alpha-blending. For a GDI bitmap, you must fill in the <b>rcSrc</b> member when you call <a href="https://msdn.microsoft.com/a70e6734-bf49-4dea-8bf6-917b8465cc78">SetAlphaBitmap</a>.
+This flag cannot be used if you specify a GDI bitmap for alpha-blending. For a GDI bitmap, you must fill in the <b>rcSrc</b> member when you call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">SetAlphaBitmap</a>.
 
-This flag does not apply to the <a href="https://msdn.microsoft.com/369bf934-b0a0-44b2-bea2-e8575404d36d">IMFVideoMixerBitmap::UpdateAlphaBitmapParameters</a> method.
+This flag does not apply to the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">IMFVideoMixerBitmap::UpdateAlphaBitmapParameters</a> method.
 
 
 ### -field MFVideoAlphaBitmap_SrcColorKey
 
-If this flag is set, the <b>clrSrcKey</b> member of the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure specifies a color key for alpha-blending. If this flag is absent, the <b>clrSrcKey</b> member is ignored.
+If this flag is set, the <b>clrSrcKey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies a color key for alpha-blending. If this flag is absent, the <b>clrSrcKey</b> member is ignored.
 
 This flag is not valid if you are alpha-blending a Direct3D surface with per-pixel alpha (D3DFMT_A8R8G8B8). When the DirectDraw surface has per-pixel alpha, the pixel alpha values are used for the alpha-blending operation.
 
@@ -82,24 +82,24 @@ This flag is not valid if you are alpha-blending a Direct3D surface with per-pix
 
 Update the source rectangle.
 
-This flag applies to the <a href="https://msdn.microsoft.com/369bf934-b0a0-44b2-bea2-e8575404d36d">UpdateAlphaBitmapParameters</a> method. If this flag is set, the <b>rcSrc</b> member of the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure updates the source rectangle. If this flag is absent, the <b>rcSrc</b> member is ignored. By setting this flag, you can animate the image by selecting different portions of the bitmap.
+This flag applies to the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">UpdateAlphaBitmapParameters</a> method. If this flag is set, the <b>rcSrc</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure updates the source rectangle. If this flag is absent, the <b>rcSrc</b> member is ignored. By setting this flag, you can animate the image by selecting different portions of the bitmap.
 
-This flag does not apply to the <a href="https://msdn.microsoft.com/a70e6734-bf49-4dea-8bf6-917b8465cc78">SetAlphaBitmap</a> method.
+This flag does not apply to the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">SetAlphaBitmap</a> method.
 
 
 ### -field MFVideoAlphaBitmap_DestRect
 
-If this flag is set, the <b>nrcDest</b> member of the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure specifies a normalized rectangle for scaling the bitmap. If this flag is absent, the <b>nrcDest</b> member is ignored.
+If this flag is set, the <b>nrcDest</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies a normalized rectangle for scaling the bitmap. If this flag is absent, the <b>nrcDest</b> member is ignored.
 
 
 ### -field MFVideoAlphaBitmap_FilterMode
 
-If this flag is set, the <b>dwFilterMode</b> member of the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure specifies a Direct3D filtering mode. If this flag is absent, the <b>dwFilterMode</b> member is ignored.
+If this flag is set, the <b>dwFilterMode</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies a Direct3D filtering mode. If this flag is absent, the <b>dwFilterMode</b> member is ignored.
 
 
 ### -field MFVideoAlphaBitmap_Alpha
 
-If this flag is set, the <b>fAlpha</b> member of the <a href="https://msdn.microsoft.com/3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce">MFVideoAlphaBitmapParams</a> structure specifies an alpha value to apply to the entire image. If this flag is absent, the <b>fAlpha</b> member is ignored.
+If this flag is set, the <b>fAlpha</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmapparams">MFVideoAlphaBitmapParams</a> structure specifies an alpha value to apply to the entire image. If this flag is absent, the <b>fAlpha</b> member is ignored.
 
 
 ### -field MFVideoAlphaBitmap_BitMask
@@ -112,11 +112,11 @@ Bitmask to validate flag values. This value is not a valid flag.
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Loads unsigned integer  data into the x, y, and z components 
-  of an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>, without type checking.
+  of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>, without type checking.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Loads unsigned integer  data into the x, y, and z components
 
 ### -param pSource [in]
 
-Address of an <a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85).aspx">XMUINT3</a> structure containing the data to load.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint3">XMUINT3</a> structure containing the data to load.
         
 
 
@@ -68,7 +68,7 @@ Address of an <a href="https://msdn.microsoft.com/en-us/library/Hh404750(v=VS.85
 
 
 
-Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> loaded with the data from the <i>pSource</i>parameter.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i>parameter.
 
 
 
@@ -108,7 +108,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/3434ea7d-edc3-a8eb-3481-9e76ba724800">DirectXMath Library Vector Load Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
  
 
  

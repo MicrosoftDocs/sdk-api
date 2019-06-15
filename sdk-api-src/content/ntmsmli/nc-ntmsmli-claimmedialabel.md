@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <i>ClaimMediaLabel</i> callback function determines whether a specified media label was created by the media's associated application.
@@ -73,7 +73,7 @@ Size of the buffer, in bytes.
 ### -param pLabelInfo [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a> structure. The media label library fills in this structure if the library recognizes the media label.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsmli/ns-ntmsmli-medialabelinfo">MediaLabelInfo</a> structure. The media label library fills in this structure if the library recognizes the media label.
 
 
 ## -returns
@@ -95,7 +95,7 @@ This function returns one of the following values.
 </td>
 <td width="60%">
 The media label library filled in the 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsmli/ns-ntmsmli-medialabelinfo">MediaLabelInfo</a> structure.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The media label library does not recognize the media label.
 
 When a media label library uses the 
 <i>ClaimMediaLabel</i> function to identify the media label as one created by its associated application, the media label library must fill in the 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a> structure and return NO_ERROR. If the media label library does not recognize the media label, it returns ERROR_BAD_FORMAT.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsmli/ns-ntmsmli-medialabelinfo">MediaLabelInfo</a> structure and return NO_ERROR. If the media label library does not recognize the media label, it returns ERROR_BAD_FORMAT.
 
 
 
@@ -132,11 +132,11 @@ When a media label library uses the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Label Library Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Label Library Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8641e9e6-e251-4bf9-935a-f8888705f9a1">MediaLabelInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsmli/ns-ntmsmli-medialabelinfo">MediaLabelInfo</a>
  
 
  

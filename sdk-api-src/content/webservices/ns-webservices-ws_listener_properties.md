@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a set of <a href="https://msdn.microsoft.com/52e4a5d3-e584-40d1-b71f-b4ef61104883">WS_LISTENER_PROPERTY</a> structures.
+Specifies a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_listener_property">WS_LISTENER_PROPERTY</a> structures.
             
 
 

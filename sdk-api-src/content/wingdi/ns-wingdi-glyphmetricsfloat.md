@@ -99,19 +99,19 @@ The values of <b>GLYPHMETRICSFLOAT</b> are specified as notional units.
 
 
 
-<a href="https://msdn.microsoft.com/589a86f1-598d-4175-97fc-27ca0b254935">OpenGL on Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/9cb57d32-386a-4554-9f47-62d5c4e2ee4e">POINTFLOAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_pointfloat">POINTFLOAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/109c41b1-d3d2-4c1d-9809-99a0a89df263">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/OpenGL/structures">Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/08a86563-c6ca-4efb-9096-bc487fc5037c">wglUseFontOutlines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa">wglUseFontOutlines</a>
  
 
  

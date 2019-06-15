@@ -61,7 +61,7 @@ Scans a specified log; filters log records based on record type; and places the 
 
 The name of the log stream. 
 
-This  name is specified when you create the log  by using  <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>. The following example identifies the format  to use:
+This  name is specified when you create the log  by using  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>. The following example identifies the format  to use:
 
 <b>log:&lt;</b><i>log name</i><b>&gt;[::&lt;</b><i>log stream name</i><b>&gt;]</b>
 
@@ -69,14 +69,14 @@ This  name is specified when you create the log  by using  <a href="https://msdn
 
 &lt;<i>log stream name</i>&gt; is the unique name of a log stream in the log.
 
- For more information, see <a href="https://msdn.microsoft.com/a7099979-346c-434d-8af1-6bf1d5a0512f">Log Types</a>.
+ For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
 
 
 ### -param fRecordType [in]
 
 The type of records to be read.  
 
-This parameter can be one or more of the following <a href="https://msdn.microsoft.com/63489b1b-75de-469d-9ffc-f0353bb2fdd9">CLFS_RECORD_TYPE Constants</a>.
+This parameter can be one or more of the following <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-record-type-constants">CLFS_RECORD_TYPE Constants</a>.
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ Specifies a mask for all valid data or restart records.
 
 ### -param plsnStart [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>  that specifies the starting log sequence number (LSN) for the log dump sequence.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>  that specifies the starting log sequence number (LSN) for the log dump sequence.
 
 If this parameter is specified, the LSN must be the address of a valid log record in the active part of the log; otherwise, the call fails with status <b>ERROR_INVALID_PARAMETER</b>.
 
@@ -148,7 +148,7 @@ If this parameter is not specified, the start of the dump sequence is the beginn
 
 ### -param plsnEnd [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>  that specifies the LSN  where the dump sequence should end.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>  that specifies the LSN  where the dump sequence should end.
 
 If this LSN is past the end of the LSN range, the function returns <b>ERROR_HANDLE_EOF</b>.  
 
@@ -226,7 +226,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following list identifies the  possible error codes:
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
 
 
 
@@ -236,15 +236,15 @@ If the function fails, the return value is zero (0). To get extended error infor
 
 
 
-<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://msdn.microsoft.com/63489b1b-75de-469d-9ffc-f0353bb2fdd9">CLFS_RECORD_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-record-type-constants">CLFS_RECORD_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
  
 
  

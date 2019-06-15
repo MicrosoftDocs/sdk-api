@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Uses the specified information to update the corresponding fields in the symbol file.
 <div class="alert"><b>Note</b>  This function works with .dbg files, not .pdb files.</div><div> </div>This function has been superseded by the 
-<a href="https://msdn.microsoft.com/67da28db-1566-4d12-8090-9f38fdfd246e">UpdateDebugInfoFileEx</a> function. Use 
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-updatedebuginfofileex">UpdateDebugInfoFileEx</a> function. Use 
 <b>UpdateDebugInfoFileEx</b> to verify the checksum value.
 
 
@@ -78,7 +78,7 @@ A pointer to a buffer that receives the name of the symbol file that was updated
 ### -param NtHeaders [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/6511341f-252d-4f73-bb90-284bbb69b065">IMAGE_NT_HEADERS</a> structure that specifies the new header information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure that specifies the new header information.
 
 
 ## -returns
@@ -88,7 +88,7 @@ A pointer to an
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -99,7 +99,7 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The 
 <b>UpdateDebugInfoFile</b> function takes the information stored in the 
-<a href="https://msdn.microsoft.com/6511341f-252d-4f73-bb90-284bbb69b065">IMAGE_NT_HEADERS</a> structure and updates the corresponding fields in the symbol file. Any time an image file is modified, this function should be called to keep the numbers in sync. Specifically, whenever an image checksum changes, the symbol file should be updated to match.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a> structure and updates the corresponding fields in the symbol file. Any time an image file is modified, this function should be called to keep the numbers in sync. Specifically, whenever an image checksum changes, the symbol file should be updated to match.
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -111,15 +111,15 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/6511341f-252d-4f73-bb90-284bbb69b065">IMAGE_NT_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_nt_headers">IMAGE_NT_HEADERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/67da28db-1566-4d12-8090-9f38fdfd246e">UpdateDebugInfoFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-updatedebuginfofileex">UpdateDebugInfoFileEx</a>
  
 
  

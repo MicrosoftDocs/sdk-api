@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-Note that if you set the <a href="https://msdn.microsoft.com/9f344845-956e-4254-82e2-e4e00f6a371b">IValueMap::Value</a> property and PLA generates the items, the items are not named.
+Note that if you set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a> property and PLA generates the items, the items are not named.
 
 
 
@@ -73,7 +73,7 @@ Note that if you set the <a href="https://msdn.microsoft.com/9f344845-956e-4254-
 
 
 
-<a href="https://msdn.microsoft.com/5fab2a62-d974-49f7-ac81-c704d9d8624c">IValueMapItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
  
 
  

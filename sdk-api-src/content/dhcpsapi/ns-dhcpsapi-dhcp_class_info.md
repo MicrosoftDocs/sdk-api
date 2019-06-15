@@ -69,7 +69,7 @@ Unicode string that contains a comment associated with the class.
 
 ### -field ClassDataLength
 
-Specifies the size of <b>ClassData</b>, in bytes. When passing this structure into <a href="https://msdn.microsoft.com/c38a593f-60f0-41c7-83a8-bbec9b79dfac">DhcpGetClassInfo</a>, this value should be set to the size of the initialized buffer.
+Specifies the size of <b>ClassData</b>, in bytes. When passing this structure into <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclassinfo">DhcpGetClassInfo</a>, this value should be set to the size of the initialized buffer.
 
 
 ### -field IsVendor
@@ -102,7 +102,7 @@ This flag should be set if the option is provided by a vendor.
 
 ### -field ClassData
 
-Pointer to a byte buffer that contains specific data for the class. When passing this structure into <a href="https://msdn.microsoft.com/c38a593f-60f0-41c7-83a8-bbec9b79dfac">DhcpGetClassInfo</a>, this buffer should be initialized to the anticipated size of the data to be returned.
+Pointer to a byte buffer that contains specific data for the class. When passing this structure into <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclassinfo">DhcpGetClassInfo</a>, this buffer should be initialized to the anticipated size of the data to be returned.
 
 
 ### -field ClassData.size_is
@@ -122,19 +122,19 @@ Pointer to a byte buffer that contains specific data for the class. When passing
 
 
 
-<a href="https://msdn.microsoft.com/716beba3-cba2-406c-a41f-2f08b6a7dc5a">DHCP_CLASS_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info_array">DHCP_CLASS_INFO_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae30baba-a2cd-4662-a62a-58b59d119dc4">DhcpCreateClass</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclass">DhcpCreateClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/c38a593f-60f0-41c7-83a8-bbec9b79dfac">DhcpGetClassInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclassinfo">DhcpGetClassInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ee8897f-d49a-4b60-a26e-e7e11c088353">DhcpModifyClass</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpmodifyclass">DhcpModifyClass</a>
  
 
  

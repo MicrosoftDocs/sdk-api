@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Executes a Resultant Set of Policy (RSoP) query. The method supports both logging mode and planning mode queries. Before calling this method, set the appropriate logging mode or planning mode properties. For more information and a list of properties, see 
-<a href="https://msdn.microsoft.com/8a1b6a38-e2a6-455d-8d50-2545b7d6c5d2">IGPMRSOP Property Methods</a>. RSoP planning mode requires a domain controller running Windows Server to perform the query.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmrsop-property-methods">IGPMRSOP Property Methods</a>. RSoP planning mode requires a domain controller running Windows Server to perform the query.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 Call the 
-<a href="https://msdn.microsoft.com/c2bf9050-4db0-4bf0-a063-0076ba191ff6">IGPMRSOP::ReleaseQueryResults</a> method to release the WMI namespace created by this method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmrsop-releasequeryresults">IGPMRSOP::ReleaseQueryResults</a> method to release the WMI namespace created by this method.
 
 In the GPMC UI, logging mode is also referred to as "Group Policy Results", and planning mode is also referred to as "Group Policy Modeling".
 
@@ -91,7 +91,7 @@ In the GPMC UI, logging mode is also referred to as "Group Policy Results", and 
 
 
 
-<a href="https://msdn.microsoft.com/86bbb143-2a9c-4fda-ba13-4f0fd09b2cd3">IGPMRSOP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>
  
 
  

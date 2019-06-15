@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 Contains the name of a service in a service control manager database and information about that service. It is used by the 
-<a href="https://msdn.microsoft.com/905d4453-96d4-4055-8a17-36714c547cdd">EnumDependentServices</a> and 
-<a href="https://msdn.microsoft.com/3a82ac0e-f3e8-4a5a-9b13-84e952712229">EnumServicesStatus</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusa">EnumServicesStatus</a> functions.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ A display name that can be used by service control programs, such as Services in
 ### -field ServiceStatus
 
 A 
-<a href="https://msdn.microsoft.com/d268609b-d442-4d0f-9d49-ed23fee84961">SERVICE_STATUS</a> structure that contains status information for the <b>lpServiceName</b> service.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a> structure that contains status information for the <b>lpServiceName</b> service.
 
 
 ## -see-also
@@ -82,15 +82,15 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/905d4453-96d4-4055-8a17-36714c547cdd">EnumDependentServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumdependentservicesa">EnumDependentServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a82ac0e-f3e8-4a5a-9b13-84e952712229">EnumServicesStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusa">EnumServicesStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/d268609b-d442-4d0f-9d49-ed23fee84961">SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a>
  
 
  

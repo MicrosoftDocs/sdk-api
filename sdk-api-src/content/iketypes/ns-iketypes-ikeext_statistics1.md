@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/aefacc39-92a5-4d73-ac3c-0b5bf1407a90">IKEEXT_STATISTICS1</a> structure stores various IKE, AuthIP, and IKEv2 statistics.
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/aefacc39-92a5-4d73-ac3c-0b5bf1407a90">IKEEXT_STATISTICS1</a> is the specific implementation of IKEEXT_STATISTICS used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <b>IKEEXT_STATISTICS0</b> is available.</div><div> </div>
+The <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics0_">IKEEXT_STATISTICS1</a> structure stores various IKE, AuthIP, and IKEv2 statistics.
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_statistics0_">IKEEXT_STATISTICS1</a> is the specific implementation of IKEEXT_STATISTICS used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <b>IKEEXT_STATISTICS0</b> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +61,14 @@ The <a href="https://msdn.microsoft.com/aefacc39-92a5-4d73-ac3c-0b5bf1407a90">IK
 
 Statistics specific to IKE.
 
-See <a href="https://msdn.microsoft.com/3b5fdf04-e3a6-4658-a53d-66928b5682f5">IKEEXT_KEYMODULE_STATISTICS1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1_">IKEEXT_KEYMODULE_STATISTICS1</a> for more information.
 
 
 ### -field authipStatistics
 
 Statistics specific to AuthIP.
 
-See <a href="https://msdn.microsoft.com/3b5fdf04-e3a6-4658-a53d-66928b5682f5">IKEEXT_KEYMODULE_STATISTICS1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1_">IKEEXT_KEYMODULE_STATISTICS1</a> for more information.
 
 
 ### -field ikeV2Statistics
@@ -80,14 +80,14 @@ See <a href="https://msdn.microsoft.com/3b5fdf04-e3a6-4658-a53d-66928b5682f5">IK
 
 Statistics common to IKE, AuthIP, and IKEv2.
 
-See <a href="https://msdn.microsoft.com/d2c473d7-921f-4175-8406-8ab24d7f74f4">IKEEXT_COMMON_STATISTICS1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1_">IKEEXT_COMMON_STATISTICS1</a> for more information.
 
 
 #### - ikev2Statistics
 
 Statistics specific to IKEv2.
 
-See <a href="https://msdn.microsoft.com/3b5fdf04-e3a6-4658-a53d-66928b5682f5">IKEEXT_KEYMODULE_STATISTICS1</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_keymodule_statistics1_">IKEEXT_KEYMODULE_STATISTICS1</a> for more information.
 
 
 ## -see-also
@@ -95,7 +95,7 @@ See <a href="https://msdn.microsoft.com/3b5fdf04-e3a6-4658-a53d-66928b5682f5">IK
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

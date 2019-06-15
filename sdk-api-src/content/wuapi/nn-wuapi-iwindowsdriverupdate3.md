@@ -57,7 +57,7 @@ Contains the properties and methods that are available only from a Windows drive
 
 
 
-<a href="https://msdn.microsoft.com/9a2d6318-c5f0-41bc-a4df-bb9a53c9dee4">IWindowsDriverUpdate2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate2">IWindowsDriverUpdate2</a>
  
 
  

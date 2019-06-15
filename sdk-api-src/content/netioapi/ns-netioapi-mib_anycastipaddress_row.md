@@ -94,27 +94,27 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://msdn.microsoft.com/30393132-0fad-4687-b9e3-7b5cf47fbb96">CreateAnycastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createanycastipaddressentry">CreateAnycastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d6b7c5c-97a8-4a1d-a4cd-7ccf1f585305">DeleteAnycastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteanycastipaddressentry">DeleteAnycastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/d60828ed-e1fd-4e57-92be-08a189c27fe5">GetAnycastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getanycastipaddressentry">GetAnycastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/4eccae59-00be-4f9c-bb62-a507d7dad2e0">GetAnycastIpAddressTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getanycastipaddresstable">GetAnycastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/46b99759-eb9a-4f91-a6b6-40e6e9f55038">MIB_ANYCASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_anycastipaddress_table">MIB_ANYCASTIPADDRESS_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7278dcb4-65c6-4aea-a474-cb7fae4d7672">SOCKADDR_INET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_sockaddr_inet">SOCKADDR_INET</a>
  
 
  

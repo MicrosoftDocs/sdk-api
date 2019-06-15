@@ -139,15 +139,15 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f2c007c-4d24-44d7-be30-0fa7c5fbce4a">IDot11AdHocNetwork::DeleteProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/abd25741-25ad-4109-a07e-4146824695b5">IDot11AdHocNetwork::GetProfileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getprofilename">IDot11AdHocNetwork::GetProfileName</a>
  
 
  

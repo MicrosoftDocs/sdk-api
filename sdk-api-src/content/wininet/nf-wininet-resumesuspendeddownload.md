@@ -64,7 +64,7 @@ Handle of the request that is suspended by a user interface dialog box.
 
 ### -param dwResultCode [in]
 
-The error result returned from <a href="https://msdn.microsoft.com/09384ba9-e5cc-48fd-a52c-15df223f87dc">InternetErrorDlg</a>, or zero if a different dialog  is  invoked.
+The error result returned from <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>, or zero if a different dialog  is  invoked.
 
 
 ## -returns
@@ -72,7 +72,7 @@ The error result returned from <a href="https://msdn.microsoft.com/09384ba9-e5cc
 
 
 Returns <b>TRUE</b> if successful; otherwise  <b>FALSE</b>. Call
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for extended error information.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
 
 
@@ -83,11 +83,11 @@ Returns <b>TRUE</b> if successful; otherwise  <b>FALSE</b>. Call
 
 Applications that use WinINet functions asynchronously can call <b>ResumeSuspendedDownload</b> to resume a request that is suspended by a user interface dialog box.
 
-For example,  call  <b>ResumeSuspendedDownload</b> after a call to <a href="https://msdn.microsoft.com/09384ba9-e5cc-48fd-a52c-15df223f87dc">InternetErrorDlg</a>, or in an <a href="https://msdn.microsoft.com/a054fb71-66ab-46fd-be19-2237f05662bc">InternetStatusCallback</a>  function when the <i>lpvStatusInformation</i> parameter equals <b>INTERNET_STATUS_USER_INPUT_REQUIRED</b>. The following code example shows you how to use the <b>ResumeSuspendedDownload</b>  function in a callback.
+For example,  call  <b>ResumeSuspendedDownload</b> after a call to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>, or in an <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nc-wininet-internet_status_callback">InternetStatusCallback</a>  function when the <i>lpvStatusInformation</i> parameter equals <b>INTERNET_STATUS_USER_INPUT_REQUIRED</b>. The following code example shows you how to use the <b>ResumeSuspendedDownload</b>  function in a callback.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 #### Examples
@@ -126,11 +126,11 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/09384ba9-e5cc-48fd-a52c-15df223f87dc">InternetErrorDlg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-interneterrordlg">InternetErrorDlg</a>
 
 
 
-<a href="https://msdn.microsoft.com/a054fb71-66ab-46fd-be19-2237f05662bc">InternetStatusCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nc-wininet-internet_status_callback">InternetStatusCallback</a>
  
 
  

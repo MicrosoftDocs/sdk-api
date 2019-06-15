@@ -152,7 +152,7 @@ The application calling this function must run with administrator permissions on
 
 
 
-<a href="https://msdn.microsoft.com/885729a7-13a4-401e-ad7b-4f679777531b">WDStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsdefender/nf-windowsdefender-wdstatus">WDStatus</a>
  
 
  

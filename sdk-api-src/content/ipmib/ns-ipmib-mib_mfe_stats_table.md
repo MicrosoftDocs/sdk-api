@@ -67,7 +67,7 @@ The number of MFEs  in the array.
 ### -field table
 
 A pointer to a table of MFEs that are implemented as an array of 
-<a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a> structures.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> structures.
 
 
 ## -remarks
@@ -84,7 +84,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Ser
 
 
 
-<a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
  
 
  

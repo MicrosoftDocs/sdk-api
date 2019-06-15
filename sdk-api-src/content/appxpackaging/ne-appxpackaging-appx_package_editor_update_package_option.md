@@ -67,7 +67,7 @@ Appends the delta (difference) of the baseline package and the updated package.
 
 
 
-<a href="https://msdn.microsoft.com/768D2997-A374-46FF-BA0D-14B266D3C83D">UpdatePackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-updatepackage">UpdatePackage</a>
  
 
  

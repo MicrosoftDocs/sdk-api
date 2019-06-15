@@ -51,20 +51,20 @@ ms.custom: 19H1
 
 The 
 <b>IEnumSTATPROPSTG</b> interface iterates through an array of 
-<a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structures. The <b>STATPROPSTG</b> structures contain statistical data about properties in a property set. <b>IEnumSTATPROPSTG</b> has the same methods as all enumerator interfaces: <a href="https://msdn.microsoft.com/8e911da9-0056-4267-b9d0-c4ba929ddb94">Next</a>, <a href="https://msdn.microsoft.com/e70e4668-d52c-4135-948b-c8f5d141e6a2">Skip</a>, <a href="https://msdn.microsoft.com/e742e3ee-6261-4d6d-85ca-8df770aa58ad">Reset</a>, and 
-<a href="https://msdn.microsoft.com/e06e109a-3f9d-4b08-bde9-888cb795287c">Clone</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures. The <b>STATPROPSTG</b> structures contain statistical data about properties in a property set. <b>IEnumSTATPROPSTG</b> has the same methods as all enumerator interfaces: <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip">Skip</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset">Reset</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone">Clone</a>.
 
 The implementation defines the order in which the properties in the set are enumerated. Properties that are present when the enumerator is created, and are not removed during the enumeration, will be enumerated only once. Properties added or deleted while the enumeration is in progress may or may not be enumerated, but will never be enumerated more than once.
 
 
-<a href="https://msdn.microsoft.com/d313a7b1-4cac-41f8-ba38-bf9cfaeb9d5c">Reserved property identifiers</a>, properties with a property ID of 0 (dictionary), 1 (code page indicator), or greater than or equal to 0x80000000 are not enumerated.
+<a href="https://docs.microsoft.com/windows/desktop/Stg/reserved-property-identifiers">Reserved property identifiers</a>, properties with a property ID of 0 (dictionary), 1 (code page indicator), or greater than or equal to 0x80000000 are not enumerated.
 
-Enumeration of a nonsimple property does not necessarily indicate that the property can be read successfully through a call to <a href="https://msdn.microsoft.com/a3d708fe-53af-4f1b-94ac-edc40d59a034">IPropertyStorage::ReadMultiple</a>. This is because the performance overhead of checking existence of the indirect stream or storage is prohibitive during property enumeration.
+Enumeration of a nonsimple property does not necessarily indicate that the property can be read successfully through a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">IPropertyStorage::ReadMultiple</a>. This is because the performance overhead of checking existence of the indirect stream or storage is prohibitive during property enumeration.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATPROPSTG</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumSTATPROPSTG</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSTATPROPSTG</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSTATPROPSTG</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,37 +79,37 @@ The <b>IEnumSTATPROPSTG</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e06e109a-3f9d-4b08-bde9-888cb795287c">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-clone">Clone</a>
 </td>
 <td align="left" width="63%">
-Creates a new enumerator that contains the same enumeration state as the current <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structure enumerator.
+Creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structure enumerator.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e911da9-0056-4267-b9d0-c4ba929ddb94">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-next">Next</a>
 </td>
 <td align="left" width="63%">
-Gets a specified number of <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structures.
+Gets a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e742e3ee-6261-4d6d-85ca-8df770aa58ad">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-Resets the enumeration sequence to the beginning of the <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structure array.
+Resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structure array.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e70e4668-d52c-4135-948b-c8f5d141e6a2">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ienumstatpropstg-skip">Skip</a>
 </td>
 <td align="left" width="63%">
-Skips a specified number of <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a> structures in the enumeration sequence.
+Skips a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a> structures in the enumeration sequence.
 
 </td>
 </tr>
@@ -121,11 +121,11 @@ Skips a specified number of <a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c
 
 
 
-<a href="https://msdn.microsoft.com/40dd62b8-f76a-4cd8-9a9f-6ac344389b6c">EnumAll Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/enumall-sample">EnumAll Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/73f834cf-b6e4-4a48-bbdc-0c4ba87aacaf">IPropertyStorage::Enum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-enum">IPropertyStorage::Enum</a>
  
 
  

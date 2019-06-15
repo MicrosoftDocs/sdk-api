@@ -60,7 +60,7 @@ The <b>ITunerCap</b> interface provides information about the capabilities of a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITunerCap</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITunerCap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITunerCap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITunerCap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITunerCap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a885d849-e6d8-477a-a629-1c1a6152bc9b">get_AuxInputCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunercap-get_auxinputcount">get_AuxInputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves a count of the number of auxiliary inputs on the TV tuner.
@@ -84,7 +84,7 @@ Retrieves a count of the number of auxiliary inputs on the TV tuner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9763a977-c19a-4e6e-bcd6-93dabd357fbe">get_SupportedNetworkTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunercap-get_supportednetworktypes">get_SupportedNetworkTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the network types that are supported by the TV tuner.
@@ -93,7 +93,7 @@ Retrieves a list of the network types that are supported by the TV tuner.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/301402bd-8c9c-4dab-a00b-29aaa8efb2a2">get_SupportedVideoFormats</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-itunercap-get_supportedvideoformats">get_SupportedVideoFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video formats that are supported by the TV tuner.
@@ -117,7 +117,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

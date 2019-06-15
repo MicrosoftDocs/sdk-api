@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_KCC_DSA_FAILURES</b> structure contains an array of <a href="https://msdn.microsoft.com/7a7131ce-a647-4b3d-a9f3-091b6dcebff7">DS_REPL_KCC_DSA_FAILURE</a> structures, which in turn contain replication state data with respect to inbound replication partners, as returned by the 
-<a href="https://msdn.microsoft.com/b7ab22fe-ed92-4213-9b66-2dd5526286fa">DsReplicaGetInfo</a> and <a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> functions.
+The <b>DS_REPL_KCC_DSA_FAILURES</b> structure contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failurew">DS_REPL_KCC_DSA_FAILURE</a> structures, which in turn contain replication state data with respect to inbound replication partners, as returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ Reserved for future use.
 
 ### -field rgDsaFailure
 
-Contains an array of <a href="https://msdn.microsoft.com/7a7131ce-a647-4b3d-a9f3-091b6dcebff7">DS_REPL_KCC_DSA_FAILURE</a> structures that contain the requested replication data. The <b>cNumEntries</b> member contains the number of elements in this array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failurew">DS_REPL_KCC_DSA_FAILURE</a> structures that contain the requested replication data. The <b>cNumEntries</b> member contains the number of elements in this array.
 
 
 ## -see-also
@@ -88,15 +88,15 @@ Contains an array of <a href="https://msdn.microsoft.com/7a7131ce-a647-4b3d-a9f3
 
 
 
-<a href="https://msdn.microsoft.com/7a7131ce-a647-4b3d-a9f3-091b6dcebff7">DS_REPL_KCC_DSA_FAILURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_kcc_dsa_failurew">DS_REPL_KCC_DSA_FAILURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7ab22fe-ed92-4213-9b66-2dd5526286fa">DsReplicaGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
  
 
  

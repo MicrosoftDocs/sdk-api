@@ -60,7 +60,7 @@ Adds a check mark to (checks) a specified radio button in a group and removes a 
 
 ### -param hDlg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the radio button. 
 
@@ -90,11 +90,11 @@ The identifier of the radio button to select.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -103,7 +103,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>CheckRadioButton</b> function sends a <a href="https://msdn.microsoft.com/en-us/library/Bb775989(v=VS.85).aspx">BM_SETCHECK</a> message to each of the radio buttons in the indicated group.
+The <b>CheckRadioButton</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message to each of the radio buttons in the indicated group.
 
 The <i>nIDFirstButton</i> and <i>nIDLastButton</i> parameters specify a range of button identifiers (normally the resource IDs of the buttons).  The position of buttons in the tab order is irrelevant; if a button forms part of a group, but has an ID outside the specified range, it is not affected by this call.
 
@@ -115,11 +115,11 @@ The <i>nIDFirstButton</i> and <i>nIDLastButton</i> parameters specify a range of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761875(v=VS.85).aspx">CheckDlgButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-checkdlgbutton">CheckDlgButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761879(v=VS.85).aspx">IsDlgButtonChecked</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdlgbuttonchecked">IsDlgButtonChecked</a>
 
 
 

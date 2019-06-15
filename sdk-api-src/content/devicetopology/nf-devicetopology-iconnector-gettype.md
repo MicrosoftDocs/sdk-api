@@ -62,7 +62,7 @@ The <b>GetType</b> method gets the type of this connector.
 
 ### -param pType [out]
 
-Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370801(v=VS.85).aspx">ConnectorType</a> enumeration constants:
+Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0013">ConnectorType</a> enumeration constants:
 
 Unknown_Connector
 
@@ -119,7 +119,7 @@ A connector corresponds to a "pin" in kernel streaming (KS) terminology. The map
 </ul>
 For more information about KS pins, see the Windows DDK documentation.
 
-For a code example that calls the <b>GetType</b> method, see the implementation of the SelectCaptureDevice function in <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">Device Topologies</a>.
+For a code example that calls the <b>GetType</b> method, see the implementation of the SelectCaptureDevice function in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 
 
@@ -129,7 +129,7 @@ For a code example that calls the <b>GetType</b> method, see the implementation 
 
 
 
-<a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
  
 
  

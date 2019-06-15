@@ -54,7 +54,7 @@ Provides methods to manage a XAML visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVisualTreeService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVisualTreeService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVisualTreeService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0F3BFACA-0B4C-4CC5-A48B-BD3921728612">AddChild</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-addchild">AddChild</a>
 </td>
 <td align="left" width="63%">
 Adds a child element to the collection at the specified index.
@@ -78,7 +78,7 @@ Adds a child element to the collection at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83971154-4E40-474C-91AD-2436B1D02CB8">AdviseVisualTreeChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-advisevisualtreechange">AdviseVisualTreeChange</a>
 </td>
 <td align="left" width="63%">
 Starts listening for changes to the visual tree.
@@ -87,7 +87,7 @@ Starts listening for changes to the visual tree.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E32B07F5-BB62-435A-A869-36A0E93915D9">ClearChildren</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-clearchildren">ClearChildren</a>
 </td>
 <td align="left" width="63%">
 Clears all child elements from the parent collection.
@@ -96,7 +96,7 @@ Clears all child elements from the parent collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BB875AD0-271D-4913-9811-5A5102B3E331">ClearProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-clearproperty">ClearProperty</a>
 </td>
 <td align="left" width="63%">
 Clears the specified property on a XAML element.
@@ -105,7 +105,7 @@ Clears the specified property on a XAML element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/214BE795-5883-4761-9040-2C7A679F5258">CreateInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of any XAML runtime, enum, or primitive type.
@@ -114,7 +114,7 @@ Creates an instance of any XAML runtime, enum, or primitive type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BB6D0885-27BD-4DF6-A48A-570345F1EE14">GetCollectionCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-getcollectioncount">GetCollectionCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of a collection.
@@ -123,7 +123,7 @@ Gets the count of a collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01A2694F-E9CF-4DD2-95EA-6CD5C72C65A8">GetCollectionElements</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-getcollectionelements">GetCollectionElements</a>
 </td>
 <td align="left" width="63%">
 Gets the elements in a collection.
@@ -132,7 +132,7 @@ Gets the elements in a collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95D6F754-C1D0-4B8E-8E31-999CAE0EDF02">GetEnums</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-getenums">GetEnums</a>
 </td>
 <td align="left" width="63%">
 Gets an array of all the enums defined in the XAML runtime and the total
@@ -142,7 +142,7 @@ Gets an array of all the enums defined in the XAML runtime and the total
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3D997B09-7B20-47BC-B19C-98945CA41D17">GetPropertyValuesChain</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-getpropertyvalueschain">GetPropertyValuesChain</a>
 </td>
 <td align="left" width="63%">
 Gets an array of all the
@@ -152,7 +152,7 @@ Gets an array of all the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6D53C961-7E85-4275-8D65-454684606290">RemoveChild</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-removechild">RemoveChild</a>
 </td>
 <td align="left" width="63%">
 Removes the child element from the specified index.
@@ -161,7 +161,7 @@ Removes the child element from the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A9C6C67F-7767-454C-BA05-86C6B1E5D712">SetProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property value on a XAML element.
@@ -170,7 +170,7 @@ Sets a property value on a XAML element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E77CBED8-F214-48AC-903E-F01B6EECA2ED">UnadviseVisualTreeChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice-unadvisevisualtreechange">UnadviseVisualTreeChange</a>
 </td>
 <td align="left" width="63%">
 Stops listening for changes to the visual tree.
@@ -185,7 +185,7 @@ Stops listening for changes to the visual tree.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

@@ -87,7 +87,7 @@ The presentation time, in 100-nanosecond units, of a frame that is a good repres
 
 
 
-<a href="https://msdn.microsoft.com/7438b09e-e649-462d-9a36-fb19e0817d75">Table of Contents Parser Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-structures">Table of Contents Parser Structures</a>
  
 
  

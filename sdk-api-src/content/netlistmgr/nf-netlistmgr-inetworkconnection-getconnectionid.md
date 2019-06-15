@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/69711dea-e0dd-4c1e-a83f-1f06d4259b35">GetConnectionID</a> method returns the Connection ID associated with this network connection.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnection-getadapterid">GetConnectionID</a> method returns the Connection ID associated with this network connection.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Returns S_OK if the method succeeds.
 
 
 
-<a href="https://msdn.microsoft.com/666761b5-0146-438d-9986-ecce3b45b5ff">INetworkConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
  
 
  

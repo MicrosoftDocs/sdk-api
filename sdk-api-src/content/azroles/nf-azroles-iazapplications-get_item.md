@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Item</b> property retrieves the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object at the specified index into the <a href="https://msdn.microsoft.com/04cee21c-253a-463a-9231-592ddad88188">IAzApplications</a> collection.
+The <b>Item</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object at the specified index into the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplications">IAzApplications</a> collection.
 
 This property is read-only.
 

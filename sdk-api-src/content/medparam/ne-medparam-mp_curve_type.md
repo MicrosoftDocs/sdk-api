@@ -133,11 +133,11 @@ For Boolean and enumeration parameters, only MP_CURVE_JUMP is valid.
 
 
 
-<a href="https://msdn.microsoft.com/5d60c902-5fb0-419b-b54d-5e3b543c5df8">DMO Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-enumerated-types">DMO Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390744(v=VS.85).aspx">MP_ENVELOPE_SEGMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/ns-medparam-_mp_envelope_segment">MP_ENVELOPE_SEGMENT</a>
  
 
  

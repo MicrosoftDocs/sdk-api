@@ -64,7 +64,7 @@ The index of the required log record.
 
 ### -param pLogRecord [out]
 
-The log record. See <a href="https://msdn.microsoft.com/5cbe3bf9-b82c-42da-ac19-dddb5837368e">ICrmCompensatorVariants::PrepareRecordVariants</a> for the format.
+The log record. See <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-preparerecordvariants">ICrmCompensatorVariants::PrepareRecordVariants</a> for the format.
 
 
 ## -returns
@@ -144,7 +144,7 @@ The transaction has completed, and the log records have been discarded from the 
 
 
 
-<a href="https://msdn.microsoft.com/5077ad2a-89c1-43f7-a7e0-7bd8036147b6">ICrmMonitorLogRecords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/74f63875-35cd-f335-62cd-410a953e53ea">Emboss effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/emboss-effect">Emboss effect</a>.
 
 
 ## -enum-fields

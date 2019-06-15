@@ -112,7 +112,7 @@ The value specified for parameter '<i>%1!ls!</i>' is invalid.
 </table>
  
 
-<div class="alert"><b>Note</b>  Currently, S_OK is returned when using this method to set a  Real-Time attribute   value of a file that is 'Read Only' as a result of a successful  <a href="https://msdn.microsoft.com/6f7d2438-5c80-4461-8b48-646f0ca44498">CreateResultImage</a> operation.</div>
+<div class="alert"><b>Note</b>  Currently, S_OK is returned when using this method to set a  Real-Time attribute   value of a file that is 'Read Only' as a result of a successful  <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage">CreateResultImage</a> operation.</div>
 <div> </div>
 
 
@@ -121,7 +121,7 @@ The value specified for parameter '<i>%1!ls!</i>' is invalid.
 
 
 
-The <a href="https://msdn.microsoft.com/4f36538c-fba7-4a0c-a2e9-443b7dc2fdab">IFsiDirectoryItem::AddTree</a> and <a href="https://msdn.microsoft.com/d87d1932-85d4-4d7d-99a7-933a87b48b6a">IFsiDirectoryItem2::AddTreeWithNamedStreams</a> methods do not set the Real-Time attribute while adding files to a file system image. To mark files  as Real-time files, they must be enumerated after they have been added to the file system image and have the Real-Time attribute set individually.
+The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree">IFsiDirectoryItem::AddTree</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem2-addtreewithnamedstreams">IFsiDirectoryItem2::AddTreeWithNamedStreams</a> methods do not set the Real-Time attribute while adding files to a file system image. To mark files  as Real-time files, they must be enumerated after they have been added to the file system image and have the Real-Time attribute set individually.
  
  
 
@@ -138,7 +138,7 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/f35d1cd9-8a04-4c12-9af3-38f2c44b8c06">IFsiFileItem2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
  
 
  

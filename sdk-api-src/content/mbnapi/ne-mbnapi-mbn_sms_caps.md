@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>MBN_SMS_CAPS</b> enumerated type contains bitfield values that specify  SMS capabilities.
 
-These enumerated values are used by the <b>smsCaps</b> member of the <a href="https://msdn.microsoft.com/faee7f53-b465-4240-b163-ce88fae764df">MBN_INTERFACE_CAPS</a> structure.
+These enumerated values are used by the <b>smsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_interface_caps">MBN_INTERFACE_CAPS</a> structure.
 
 
 ## -enum-fields

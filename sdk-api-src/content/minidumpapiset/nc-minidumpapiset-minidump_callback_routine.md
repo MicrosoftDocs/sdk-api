@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with 
-<a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a>. It receives extended minidump information.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>. It receives extended minidump information.
 
 The <b>MINIDUMP_CALLBACK_ROUTINE</b> type defines a pointer to this callback function. 
 <b>MiniDumpCallback</b> is a placeholder for the application-defined function name.
@@ -69,13 +69,13 @@ An application-defined parameter value.
 ### -param CallbackInput [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a> structure that specifies extended minidump information.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_input">MINIDUMP_CALLBACK_INPUT</a> structure that specifies extended minidump information.
 
 
 ### -param CallbackOutput [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/ms680363(v=VS.85).aspx">MINIDUMP_CALLBACK_OUTPUT</a> structure that receives application-defined information from the callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_output">MINIDUMP_CALLBACK_OUTPUT</a> structure that receives application-defined information from the callback function.
 
 
 ## -returns
@@ -92,15 +92,15 @@ If the function succeeds, return <b>TRUE</b>; otherwise, return <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680361(v=VS.85).aspx">MINIDUMP_CALLBACK_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/b476023d-0e93-4d76-9ba8-ce5766c9ac51">MiniDumpWriteDump</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
  
 
  

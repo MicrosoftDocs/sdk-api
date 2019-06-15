@@ -59,10 +59,10 @@ Specifies proxy information.
 
 ### -field accessType
 
-Specifies the access type for the proxy. This member must be set to one of the values defined in the <a href="https://msdn.microsoft.com/0c7d13dc-42e0-4c91-bcdf-c198b557206b">WSManProxyAccessType</a> enumeration.
+Specifies the access type for the proxy. This member must be set to one of the values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ne-wsman-wsmanproxyaccesstype">WSManProxyAccessType</a> enumeration.
 
 
 ### -field authenticationCredentials
 
-A <a href="https://msdn.microsoft.com/e9090d88-c76e-4a85-946e-ff46403e6725">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure that specifies the credentials and authentication scheme used for proxy access.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_authentication_credentials">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure that specifies the credentials and authentication scheme used for proxy access.
 

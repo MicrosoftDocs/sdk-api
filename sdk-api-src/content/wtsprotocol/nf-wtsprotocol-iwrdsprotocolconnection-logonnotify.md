@@ -74,12 +74,12 @@ A pointer to a null-terminated string that contains the user's domain name.
 
 ### -param SessionId [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/fe0714ec-c670-40b7-9808-2171abae79a8">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_session_id">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
 
 
 ### -param pWRdsConnectionSettings [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9219AE45-5F11-484E-BD78-F8E1AB41D648">WRDS_CONNECTION_SETTINGS</a> structure that contains connection settings for the session.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings">WRDS_CONNECTION_SETTINGS</a> structure that contains connection settings for the session.
 
 
 ## -returns
@@ -105,7 +105,7 @@ This is an event notification and you should return immediately from this method
 
 
 
-<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
  
 
  

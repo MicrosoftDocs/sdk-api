@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IRichEditOleCallback</b> interface is used by a rich text edit control to retrieve OLE-related information from its client. A rich edit control client is responsible for implementing this interface and assigning it to the control by using the <a href="https://msdn.microsoft.com/en-us/library/Bb774252(v=VS.85).aspx">EM_SETOLECALLBACK</a> message.
+The <b>IRichEditOleCallback</b> interface is used by a rich text edit control to retrieve OLE-related information from its client. A rich edit control client is responsible for implementing this interface and assigning it to the control by using the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setolecallback">EM_SETOLECALLBACK</a> message.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichEditOleCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRichEditOleCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichEditOleCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRichEditOleCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IRichEditOleCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774310(v=VS.85).aspx">ContextSensitiveHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-contextsensitivehelp">ContextSensitiveHelp</a>
 </td>
 <td align="left" width="63%">
-Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for <a href="https://msdn.microsoft.com/253f26c6-b5dd-4837-9135-96e11b4688c8">IOleWindow::ContextSensitiveHelp</a>.
+Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-contextsensitivehelp">IOleWindow::ContextSensitiveHelp</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774313(v=VS.85).aspx">DeleteObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-deleteobject">DeleteObject</a>
 </td>
 <td align="left" width="63%">
 Sends notification that an object is about to be deleted from a rich edit control. The object is not necessarily being released when this member is called.
@@ -87,7 +87,7 @@ Sends notification that an object is about to be deleted from a rich edit contro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774315(v=VS.85).aspx">GetClipboardData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-getclipboarddata">GetClipboardData</a>
 </td>
 <td align="left" width="63%">
 Allows the client to supply its own clipboard object.
@@ -96,7 +96,7 @@ Allows the client to supply its own clipboard object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774317(v=VS.85).aspx">GetContextMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-getcontextmenu">GetContextMenu</a>
 </td>
 <td align="left" width="63%">
 Queries the application for a context menu to use on a right-click event.
@@ -105,7 +105,7 @@ Queries the application for a context menu to use on a right-click event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774319(v=VS.85).aspx">GetDragDropEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-getdragdropeffect">GetDragDropEffect</a>
 </td>
 <td align="left" width="63%">
 Allows the client to specify the effects of a drop operation.
@@ -114,7 +114,7 @@ Allows the client to specify the effects of a drop operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774321(v=VS.85).aspx">GetInPlaceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-getinplacecontext">GetInPlaceContext</a>
 </td>
 <td align="left" width="63%">
 Provides the application and document-level interfaces and information required to support in-place activation.
@@ -123,7 +123,7 @@ Provides the application and document-level interfaces and information required 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774323(v=VS.85).aspx">GetNewStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-getnewstorage">GetNewStorage</a>
 </td>
 <td align="left" width="63%">
 Provides storage for a new object pasted from the clipboard or read in from an RTF stream.
@@ -132,7 +132,7 @@ Provides storage for a new object pasted from the clipboard or read in from an R
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774325(v=VS.85).aspx">QueryAcceptData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-queryacceptdata">QueryAcceptData</a>
 </td>
 <td align="left" width="63%">
 During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
@@ -141,7 +141,7 @@ During a paste operation or a drag event, determines if the data that is pasted 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774327(v=VS.85).aspx">QueryInsertObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-queryinsertobject">QueryInsertObject</a>
 </td>
 <td align="left" width="63%">
 Queries the application as to whether an object should be inserted. The member is called when pasting and when reading RTF.
@@ -150,10 +150,10 @@ Queries the application as to whether an object should be inserted. The member i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774329(v=VS.85).aspx">ShowContainerUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richole/nf-richole-iricheditolecallback-showcontainerui">ShowContainerUI</a>
 </td>
 <td align="left" width="63%">
-Indicates whether or not the application is to display its container UI. The rich edit control looks ahead for double-clicks and defers the call if appropriate. Applications may defer hiding adornments until an <a href="https://msdn.microsoft.com/7c806a02-db6d-444e-a049-22c4ae2b19b0">IOleInPlaceUIWindow::SetBorderSpace</a> call is received.
+Indicates whether or not the application is to display its container UI. The rich edit control looks ahead for double-clicks and defers the call if appropriate. Applications may defer hiding adornments until an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setborderspace">IOleInPlaceUIWindow::SetBorderSpace</a> call is received.
 
 </td>
 </tr>

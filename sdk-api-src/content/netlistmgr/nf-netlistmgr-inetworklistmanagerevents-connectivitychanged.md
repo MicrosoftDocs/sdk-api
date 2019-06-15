@@ -59,7 +59,7 @@ The <b>NetworkConnectivityChanged</b> method is called when network connectivity
 
 ### -param newConnectivity [in]
 
-An <a href="https://msdn.microsoft.com/72d1f049-3c8d-4332-9bf1-9f49b47cd315">NLM_CONNECTIVITY</a> enumeration value that contains the new connectivity settings of the machine.
+An <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a> enumeration value that contains the new connectivity settings of the machine.
 
 
 ## -returns
@@ -76,11 +76,11 @@ Returns S_OK if the method succeeds.
 
 
 
-<a href="https://msdn.microsoft.com/cdcb661f-5f17-481a-a4b7-db06d53e1b97">INetworkListManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanagerevents">INetworkListManagerEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/72d1f049-3c8d-4332-9bf1-9f49b47cd315">NLM_CONNECTIVITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a>
  
 
  

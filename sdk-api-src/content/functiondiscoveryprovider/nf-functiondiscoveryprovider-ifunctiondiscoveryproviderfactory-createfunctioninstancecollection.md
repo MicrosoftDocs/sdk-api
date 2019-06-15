@@ -61,7 +61,7 @@ Creates a function instance collection.
 
 ### -param ppIFunctionInstanceCollection [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/8ac1a406-92f3-4e39-985e-ab8fa7d28751">IFunctionInstanceCollection</a> interface pointer.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a> interface pointer.
 
 
 ## -returns
@@ -123,7 +123,7 @@ The method is unable to allocate the memory required to perform this operation.
 
 
 
-Providers that return results synchronously through the <i>ppIFunctionInstanceCollection</i> parameter of the <a href="https://msdn.microsoft.com/8c368ea7-c9db-4e80-a080-eef8068f7402">IFunctionDiscoveryProvider::Query</a> method can use this to create a collection to return the results with.
+Providers that return results synchronously through the <i>ppIFunctionInstanceCollection</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-query">IFunctionDiscoveryProvider::Query</a> method can use this to create a collection to return the results with.
 
 
 Client programmers can create and use the Function Discovery instance collection object, as it can also be created using <b>CoCreateInstance</b>.
@@ -137,7 +137,7 @@ Client programmers can create and use the Function Discovery instance collection
 
 
 
-<a href="https://msdn.microsoft.com/576db617-0bca-4b46-839b-0f133f28cacb">IFunctionDiscoveryProviderFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory">IFunctionDiscoveryProviderFactory</a>
  
 
  

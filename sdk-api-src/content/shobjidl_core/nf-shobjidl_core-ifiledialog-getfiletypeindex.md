@@ -61,7 +61,7 @@ Gets the currently selected file type.
 
 Type: <b>UINT*</b>
 
-A pointer to a <b>UINT</b> value that receives the index of the selected file type in the file type array passed to <a href="https://msdn.microsoft.com/ca850988-7f2f-4faf-9ded-14db476fc452">IFileDialog::SetFileTypes</a> in its <i>cFileTypes</i> parameter.
+A pointer to a <b>UINT</b> value that receives the index of the selected file type in the file type array passed to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfiletypes">IFileDialog::SetFileTypes</a> in its <i>cFileTypes</i> parameter.
 
 <div class="alert"><b>Note</b>  This is a one-based index rather than zero-based.</div>
 <div> </div>

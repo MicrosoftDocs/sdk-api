@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAzClientContext2</b> interface inherits from the <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a> interface and implements new methods that manipulate the client context.
+The <b>IAzClientContext2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> interface and implements new methods that manipulate the client context.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a>. <b>IAzClientContext2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzClientContext2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a>. <b>IAzClientContext2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,34 +70,34 @@ The <b>IAzClientContext2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ad7c7df-0bdd-4ea1-9a9e-98323b82c0b0">AddApplicationGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext2-addapplicationgroups">AddApplicationGroups</a>
 </td>
 <td align="left" width="63%">
-Adds the specified array of existing <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> objects to the client context object.
+Adds the specified array of existing <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects to the client context object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa81e935-1207-44dd-85cb-215f754575fe">AddRoles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext2-addroles">AddRoles</a>
 </td>
 <td align="left" width="63%">
-Adds the specified array of existing <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> objects to the client context.
+Adds the specified array of existing <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> objects to the client context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac437686-fefb-413e-9f53-eed6c1df5798">AddStringSids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext2-addstringsids">AddStringSids</a>
 </td>
 <td align="left" width="63%">
-Adds an array of string representations of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs) to the client context.
+Adds an array of string representations of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) to the client context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/496dd834-37d9-41f6-a552-39c558dd60b3">GetAssignedScopesPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext2-getassignedscopespage">GetAssignedScopesPage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the scopes in which the client represented by the current <b>IAzClientContext2</b> object is assigned to at least one role.
@@ -115,7 +115,7 @@ Retrieves a list of the scopes in which the client represented by the current <b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3d06e240-10d9-4d58-baae-c3d2a38ac556">LDAPQueryDN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext2-get_ldapquerydn">LDAPQueryDN</a>
 
 
 </td>

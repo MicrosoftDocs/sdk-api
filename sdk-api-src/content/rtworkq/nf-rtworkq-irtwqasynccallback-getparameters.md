@@ -62,7 +62,7 @@ Provides configuration information to the dispatching thread for a callback.
 
 ### -param pdwFlags [out]
 
-Receives a flag indicating the behavior of the callback object's <a href="https://msdn.microsoft.com/1798C338-4C82-42A7-AE15-ADFD356604BD">IRtwqAsyncCallback::Invoke</a> method. The following values are defined. The default value is zero.
+Receives a flag indicating the behavior of the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke">IRtwqAsyncCallback::Invoke</a> method. The following values are defined. The default value is zero.
 
 <table>
 <tr>
@@ -135,7 +135,7 @@ Not implemented. Assume the default behavior.
 
 
 
-<a href="https://msdn.microsoft.com/E595C072-98F8-4231-9C8F-A8393D751DE6">IRtwqAsyncCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a>
  
 
  

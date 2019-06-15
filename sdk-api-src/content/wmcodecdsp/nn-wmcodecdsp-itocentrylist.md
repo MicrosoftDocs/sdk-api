@@ -54,7 +54,7 @@ The <b>ITocEntryList</b> interface represents a list of entries in a table of co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocEntryList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITocEntryList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITocEntryList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITocEntryList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITocEntryList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ac41f10-4bb5-4d50-9f7b-7c8710476162">AddEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-addentry">AddEntry</a>
 </td>
 <td align="left" width="63%">
 Adds an individual entry to the list and assigns an index to the entry.
@@ -78,7 +78,7 @@ Adds an individual entry to the list and assigns an index to the entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8146c0f-ac91-42c7-9368-dd2db6079d3d">AddEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264259(v%3dvs.85)">AddEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Adds an individual entry to the list and associates a caller-supplied index with the entry.
@@ -87,7 +87,7 @@ Adds an individual entry to the list and associates a caller-supplied index with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf2171c9-67ce-4acb-97cc-af17203e815b">GetEntryByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrybyindex">GetEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entry, specified by an index, from the list.
@@ -96,7 +96,7 @@ Retrieves an entry, specified by an index, from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74c45032-578d-4ee1-a13d-f95646f27ce9">GetEntryCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentrylist-getentrycount">GetEntryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of entries in the list.
@@ -105,7 +105,7 @@ Retrieves the number of entries in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72b9141c-2e61-42be-a4a1-910b607ab5f1">RemoveEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264262(v%3dvs.85)">RemoveEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes an entry, specified by an index, from the list.
@@ -120,11 +120,11 @@ Removes an entry, specified by an index, from the list.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/25039e6c-dd2a-4516-bf27-8e9d6ca0f00e">Table of Contents Parser Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-interfaces">Table of Contents Parser Interfaces</a>
  
 
  

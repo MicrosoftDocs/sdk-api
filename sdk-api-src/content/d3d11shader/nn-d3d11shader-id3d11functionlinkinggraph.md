@@ -57,7 +57,7 @@ A function-linking-graph interface is used for constructing shaders that consist
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11FunctionLinkingGraph</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11FunctionLinkingGraph</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11FunctionLinkingGraph</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11FunctionLinkingGraph</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ID3D11FunctionLinkingGraph</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0DEEE3E4-7D4E-40BD-9D96-A1C91CF5E4BE">CallFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-callfunction">CallFunction</a>
 </td>
 <td align="left" width="63%">
 Creates a call-function linking node to use in the function-linking-graph.
@@ -81,7 +81,7 @@ Creates a call-function linking node to use in the function-linking-graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7E854D31-3E34-43A7-ABEB-7FBAC94217F3">CreateModuleInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-createmoduleinstance">CreateModuleInstance</a>
 </td>
 <td align="left" width="63%">
 Initializes a shader module from the function-linking-graph object.
@@ -90,7 +90,7 @@ Initializes a shader module from the function-linking-graph object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CD3B815A-0D18-4568-BCDF-7E2D5F1C139F">GenerateHlsl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-generatehlsl">GenerateHlsl</a>
 </td>
 <td align="left" width="63%">
 Generates HLSL shader code that represents the function-linking-graph.
@@ -99,7 +99,7 @@ Generates HLSL shader code that represents the function-linking-graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5BD10944-5C49-4DA2-A2B7-73DA21A49A12">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-getlasterror">GetLastError</a>
 </td>
 <td align="left" width="63%">
 Gets the error from the last function call of the function-linking-graph.
@@ -108,7 +108,7 @@ Gets the error from the last function call of the function-linking-graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78489B91-E56D-4338-BCCB-6807EA0E8367">PassValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-passvalue">PassValue</a>
 </td>
 <td align="left" width="63%">
 Passes a value from a source linking node to a destination linking node.
@@ -117,7 +117,7 @@ Passes a value from a source linking node to a destination linking node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3D74F848-A58D-4FE9-89D3-7F02A8C86A61">PassValueWithSwizzle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-passvaluewithswizzle">PassValueWithSwizzle</a>
 </td>
 <td align="left" width="63%">
 Passes a value with swizzle from a source linking node to a destination linking node.
@@ -126,7 +126,7 @@ Passes a value with swizzle from a source linking node to a destination linking 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9108BA38-6A0A-4438-BC63-A80790E4A5F0">SetInputSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-setinputsignature">SetInputSignature</a>
 </td>
 <td align="left" width="63%">
 Sets the input signature of the function-linking-graph.
@@ -135,7 +135,7 @@ Sets the input signature of the function-linking-graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C32E3BF1-E08C-4949-A8DE-4359704D2E40">SetOutputSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11functionlinkinggraph-setoutputsignature">SetOutputSignature</a>
 </td>
 <td align="left" width="63%">
 Sets the output signature of the function-linking-graph.
@@ -149,7 +149,7 @@ Sets the output signature of the function-linking-graph.
 
 
 
-To get a function-linking-graph interface, call <a href="https://msdn.microsoft.com/D0BC7D62-EBF8-4144-8DC0-A87BF1B83006">D3DCreateFunctionLinkingGraph</a>. 
+To get a function-linking-graph interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dcreatefunctionlinkinggraph">D3DCreateFunctionLinkingGraph</a>. 
 
 You can use the function-linking-graph (FLG) interface methods to construct shaders that consist of a sequence of precompiled function calls that pass values to each other. You don't need to write HLSL and then call the HLSL compiler. Instead, the shader structure is specified programmatically via a C++ API. FLG nodes represent input and output signatures and invocations of precompiled library functions. The order of registering the function-call nodes defines the sequence of invocations. You must specify the input signature node first and the output signature node last. FLG edges define how values are passed from one node to another. The data types of passed values must be the same; there is no implicit type conversion. Shape and swizzling rules follow the HLSL behavior. Values can only be passed forward in this sequence.
 
@@ -163,11 +163,11 @@ You can use the function-linking-graph (FLG) interface methods to construct shad
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
  
 
  

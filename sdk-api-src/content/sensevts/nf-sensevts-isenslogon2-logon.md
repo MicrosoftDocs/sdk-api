@@ -110,19 +110,19 @@ SENS calls this method to notify an application that a user is logged on.
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/be61b5b9-d4f1-40ea-a734-7b02c06e41e8">ISensLogon2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isenslogon2">ISensLogon2</a>
 
 
 
-<a href="https://msdn.microsoft.com/76a811a2-70c4-4dda-99c0-1578e9402a3b">ISensLogon::Logon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-logon">ISensLogon::Logon</a>
 
 
 
-<a href="https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436">Terminal Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
  
 
  

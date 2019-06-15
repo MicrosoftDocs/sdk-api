@@ -83,7 +83,7 @@ The location of the value of how much data has been filled into the buffer, as a
 
 
 
-Use this structure with <a href="https://msdn.microsoft.com/40683FD6-5B9F-411C-AC0A-6641E0A3D688">SOSetTargets</a>.
+Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets">SOSetTargets</a>.
         
 
 
@@ -94,7 +94,7 @@ Use this structure with <a href="https://msdn.microsoft.com/40683FD6-5B9F-411C-A
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

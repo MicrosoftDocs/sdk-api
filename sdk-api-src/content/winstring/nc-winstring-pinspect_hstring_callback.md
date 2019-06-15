@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a function pointer to the callback used by the <a href="https://msdn.microsoft.com/DB1A35D3-D7DF-439F-B4C2-9510FC1977E9">WindowsInspectString</a> function.
+Provides a function pointer to the callback used by the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">WindowsInspectString</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Provides a function pointer to the callback used by the <a href="https://msdn.mi
 
 ### -param *context [in]
 
-Custom context data provided to the <a href="https://msdn.microsoft.com/DB1A35D3-D7DF-439F-B4C2-9510FC1977E9">WindowsInspectString</a> function.
+Custom context data provided to the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">WindowsInspectString</a> function.
 
 
 ### -param readAddress [in]
@@ -90,7 +90,7 @@ If this function pointer succeeds, it returns <b xmlns:loc="http://microsoft.com
 
 
 
-Implement this callback when you use the <a href="https://msdn.microsoft.com/DB1A35D3-D7DF-439F-B4C2-9510FC1977E9">WindowsInspectString</a> function.  You can do a cross-process read, read from a dump file, or read from a remote debug debugging session.
+Implement this callback when you use the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">WindowsInspectString</a> function.  You can do a cross-process read, read from a dump file, or read from a remote debug debugging session.
 
 
 
@@ -100,7 +100,7 @@ Implement this callback when you use the <a href="https://msdn.microsoft.com/DB1
 
 
 
-<a href="https://msdn.microsoft.com/DB1A35D3-D7DF-439F-B4C2-9510FC1977E9">WindowsInspectString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsinspectstring">WindowsInspectString</a>
  
 
  

@@ -54,7 +54,7 @@ The
 
 The 
 <b>RDCOMPARE</b> structure is used by the 
-<a href="https://msdn.microsoft.com/0e3a8094-0d09-4a9c-8211-a0eb6a89ad55">IResultDataCompareEx::Compare</a> method for specifying information used for sorting scope and result items in the result pane of a primary snap-in.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method for specifying information used for sorting scope and result items in the result pane of a primary snap-in.
 
 
 ## -struct-fields
@@ -80,19 +80,19 @@ Column being sorted.
 ### -field lUserParam
 
 A value that specifies user-provided information that is passed into 
-<a href="https://msdn.microsoft.com/457eccaf-3727-4b29-a38b-9f009749673e">IResultData::Sort</a>. MMC does not interpret this parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>. MMC does not interpret this parameter.
 
 
 ### -field prdch1
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/35feb978-3859-423d-ac33-711b242ab939">RDITEMHDR</a> structure that specifies the first item's type (scope or result) and cookie.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcitemhdr">RDITEMHDR</a> structure that specifies the first item's type (scope or result) and cookie.
 
 
 ### -field prdch2
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/35feb978-3859-423d-ac33-711b242ab939">RDITEMHDR</a> structure that specifies the second item's type (scope or result) and cookie.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcitemhdr">RDITEMHDR</a> structure that specifies the second item's type (scope or result) and cookie.
 
 
 ## -remarks
@@ -100,8 +100,8 @@ A pointer to an
 
 
 If the snap-in implements the 
-<a href="https://msdn.microsoft.com/e4b305e4-4649-42f4-86f4-3c12e5aa5337">IResultDataCompareEx</a> interface, MMC MMC allocates the parameters to the 
-<a href="https://msdn.microsoft.com/0e3a8094-0d09-4a9c-8211-a0eb6a89ad55">IResultDataCompareEx::Compare</a> snap-in's method and then calls the method. MMC releases the parameters after the method returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC MMC allocates the parameters to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> snap-in's method and then calls the method. MMC releases the parameters after the method returns.
 
 
 
@@ -111,11 +111,11 @@ If the snap-in implements the
 
 
 
-<a href="https://msdn.microsoft.com/0e3a8094-0d09-4a9c-8211-a0eb6a89ad55">IResultDataCompareEx::Compare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a>
 
 
 
-<a href="https://msdn.microsoft.com/35feb978-3859-423d-ac33-711b242ab939">RDITEMHDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcitemhdr">RDITEMHDR</a>
  
 
  

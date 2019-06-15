@@ -51,7 +51,7 @@ ms.custom: 19H1
 
  Finds a function table entry or  frame pointer omission (FPO) record for an address.
 
-Use <a href="https://msdn.microsoft.com/f79e6af9-9931-4bd7-ae12-29d890267a89">SymFunctionTableAccess64</a> instead.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a> instead.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Use <a href="https://msdn.microsoft.com/f79e6af9-9931-4bd7-ae12-29d890267a89">Sy
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param AddrBase [in]
@@ -85,7 +85,7 @@ Pointer to a get module base callback function.
 
 
 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
  
 
  

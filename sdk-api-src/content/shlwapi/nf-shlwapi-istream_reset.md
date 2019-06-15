@@ -63,9 +63,9 @@ Moves the seek position in a specified stream to the beginning of the stream.
 
 ### -param pstm [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface of the stream whose position is to be reset.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the stream whose position is to be reset.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cac
 
 Type: <b>HRESULT</b>
 
-Returns <b>S_OK</b> on success or a COM failure code otherwise. See <a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> for further discussion of possible error codes.
+Returns <b>S_OK</b> on success or a COM failure code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> for further discussion of possible error codes.
 
 
 
@@ -83,7 +83,7 @@ Returns <b>S_OK</b> on success or a COM failure code otherwise. See <a href="htt
 
 
 
-This function calls <a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> to move the stream's seek position to the beginning of the stream.
+This function calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> to move the stream's seek position to the beginning of the stream.
 
 
 

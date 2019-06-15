@@ -110,7 +110,7 @@ Invalid pointer.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppName</i> parameter.
 			
 
 
@@ -121,11 +121,11 @@ The application must use
 
 
 
-<a href="https://msdn.microsoft.com/65356507-51d1-479d-8e93-7e18ec041ce3">ITDirectoryObjectUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectuser">ITDirectoryObjectUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba53ea12-7f05-4f68-8a59-915a5906b7be">ITDirectoryObjectUser::put_IPPhonePrimary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-put_ipphoneprimary">ITDirectoryObjectUser::put_IPPhonePrimary</a>
  
 
  

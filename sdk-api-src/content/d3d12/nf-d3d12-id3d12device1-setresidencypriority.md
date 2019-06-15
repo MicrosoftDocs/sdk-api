@@ -71,21 +71,21 @@ Specifies the number of objects in the <i>ppObjects</i> and <i>pPriorities</i> a
 
 Type: <b>ID3D12Pageable*</b>
 
-Specifies an array, of length <i>NumObjects</i>, containing references to <a href="https://msdn.microsoft.com/89DC88B4-9DFD-413D-8EB9-91087CC90D18">ID3D12Pageable</a> objects.
+Specifies an array, of length <i>NumObjects</i>, containing references to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a> objects.
 
 
 ### -param pPriorities [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/40A38135-D974-4A35-8859-6F9FE21FAC8D">D3D12_RESIDENCY_PRIORITY</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority">D3D12_RESIDENCY_PRIORITY</a>*</b>
 
-Specifies an array, of length <i>NumObjects</i>, of <a href="https://msdn.microsoft.com/40A38135-D974-4A35-8859-6F9FE21FAC8D">D3D12_RESIDENCY_PRIORITY</a> values for the list of objects.
+Specifies an array, of length <i>NumObjects</i>, of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_residency_priority">D3D12_RESIDENCY_PRIORITY</a> values for the list of objects.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -96,7 +96,7 @@ This method returns an HRESULT success or error code.
 
 
 
-For more information, refer to <a href="https://msdn.microsoft.com/956F80D7-EEC8-4D88-B251-EE325614F31E">Residency</a>.
+For more information, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/residency">Residency</a>.
 
 
 
@@ -106,7 +106,7 @@ For more information, refer to <a href="https://msdn.microsoft.com/956F80D7-EEC8
 
 
 
-<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
  
 
  

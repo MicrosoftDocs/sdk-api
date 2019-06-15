@@ -59,7 +59,7 @@ The DDGETFIELDNUMOUT structure contains the hardware video port's field number.
 
 ### -field ddRVal
 
-Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for <a href="https://msdn.microsoft.com/6d6464f3-cece-405e-af0c-b2a54fa2fc20">DD_DXAPI_GET_VP_FIELD_NUMBER</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550686(v=vs.85)">DD_DXAPI_GET_VP_FIELD_NUMBER</a> operations. A return code of DD_OK indicates success.
 
 
 ### -field dwFieldNum
@@ -72,11 +72,11 @@ Specifies the hardware video port's field number.
 
 
 
-<a href="https://msdn.microsoft.com/6d6464f3-cece-405e-af0c-b2a54fa2fc20">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550686(v=vs.85)">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

@@ -66,13 +66,13 @@ ms.custom: 19H1
 
 Moves an existing file or directory, including its children, with various move options.
 
-The <a href="https://msdn.microsoft.com/f490aadc-7934-498a-8131-5c1be9e6f1aa">MoveFileWithProgress</a> function is equivalent 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a> function is equivalent 
     to the <b>MoveFileEx</b> function, except that 
     <b>MoveFileWithProgress</b> allows you to provide a 
     callback function that receives progress notifications.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://msdn.microsoft.com/466d733b-30d2-4297-a0e6-77038f1a21d5">MoveFileTransacted</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a> function.
 
 
 ## -parameters
@@ -91,10 +91,10 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b>, the
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param lpNewFileName [in, optional]
@@ -117,10 +117,10 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> and
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param dwFlags [in]
@@ -140,8 +140,8 @@ This parameter can be one or more of the following values.
 </td>
 <td width="60%">
 If the file is to be moved to a different volume, the function simulates the move by using the 
-        <a href="https://msdn.microsoft.com/2c8ad002-cef4-499c-acda-c162205f6a8d">CopyFile</a> and 
-        <a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a> functions.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a> and 
+        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> functions.
 
 If the  file is successfully copied to a different volume and the original file is unable to be deleted, 
          the function succeeds leaving the source file intact.
@@ -177,11 +177,6 @@ This value can be used only if the process is in the context of a user who belon
          
 
 This value cannot be used with <b>MOVEFILE_COPY_ALLOWED</b>.
-
-<b>Windows Server 2003 and Windows XP:  </b>For information about special situations where this functionality can fail, and a suggested workaround 
-         solution, see 
-         <a href="Http://go.microsoft.com/fwlink/p/?linkid=117125">Files are not exchanged when Windows Server 2003 restarts if you use the MoveFileEx function to schedule a replacement for some files</a> 
-         in the Help and Support Knowledge Base.
 
 </td>
 </tr>
@@ -241,7 +236,7 @@ This value has no effect if <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> is set.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -305,17 +300,12 @@ The system deletes a directory that is tagged for deletion with the
 The move and deletion operations are carried out at boot time in the same order that they are specified in the 
      calling application. To delete a directory that has files in it at boot time, first delete the files.
 
-<b>Windows Server 2003 and Windows XP:  </b>For information about special situations where <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> 
-     functionality can fail, and a suggested workaround solution, see 
-     <a href="Http://go.microsoft.com/fwlink/p/?linkid=117125">Files are not exchanged when Windows Server 2003 restarts if you use the MoveFileEx function to schedule a replacement for some files</a> 
-     in the Help and Support Knowledge Base.
-
 If a file is moved across volumes, <b>MoveFileEx</b> does not 
      move the security descriptor with the file. The file is assigned the default security descriptor in the 
      destination directory.
 
 The <b>MoveFileEx</b> function coordinates its operation with 
-     the <a href="https://msdn.microsoft.com/6f438c72-f23d-4ca4-83bd-fe3bc433ceeb">link tracking</a> service, 
+     the <a href="https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers">link tracking</a> service, 
      so link sources can be tracked as they are moved.
 
 To delete or rename a file, you must have either delete permission on the file or delete child permission in 
@@ -324,7 +314,7 @@ To delete or rename a file, you must have either delete permission on the file o
      can then create a file, and get all the access you request on the handle that is returned to you at the time that 
      you create the file. If you request delete permission at the time you create the file, you can delete or rename 
      the file with that handle but not with any other handle.  For more information, see 
-     <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -390,7 +380,7 @@ Yes
 #### Examples
 
 For an example, see 
-      <a href="https://msdn.microsoft.com/6254c67d-5d34-499d-b1a4-8cac526dd294">Creating and Using a Temporary File</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
 
 <div class="code"></div>
 
@@ -401,35 +391,35 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/2c8ad002-cef4-499c-acda-c162205f6a8d">CopyFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/466d733b-30d2-4297-a0e6-77038f1a21d5">MoveFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/f490aadc-7934-498a-8131-5c1be9e6f1aa">MoveFileWithProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0799092-c6c1-4800-a17a-fcf744b1228f">WritePrivateProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
  
 
  

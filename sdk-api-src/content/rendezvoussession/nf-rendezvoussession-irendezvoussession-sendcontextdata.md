@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sends the context data to the remote <a href="https://msdn.microsoft.com/306efb96-5193-410d-b2f8-e71453828a5e">RendezvousApplication</a>.
+Sends the context data to the remote <a href="https://docs.microsoft.com/previous-versions/windows/desktop/remoteassist/remoteassist-rendezvousapplication">RendezvousApplication</a>.
 
 
 ## -parameters

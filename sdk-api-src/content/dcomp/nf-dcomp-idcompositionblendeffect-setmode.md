@@ -59,7 +59,7 @@ Sets the blend mode to use when the blend effect combines the two images.
 
 ### -param mode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE">D2D1_BLEND_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">D2D1_BLEND_MODE</a></b>
 
 The blend mode to use when the blend effect combines the two images.
 
@@ -68,7 +68,7 @@ The blend mode to use when the blend effect combines the two images.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2">IDCompositionBlendEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionblendeffect">IDCompositionBlendEffect</a>
  
 
  

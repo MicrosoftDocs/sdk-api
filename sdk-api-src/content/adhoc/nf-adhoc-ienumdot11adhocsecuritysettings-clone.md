@@ -59,7 +59,7 @@ Creates a new enumeration interface.
 
 ### -param ppEnum [out]
 
-A pointer that, on successful return, points to an <a href="https://msdn.microsoft.com/137abd1b-997d-4003-9fef-8db56b273149">IEnumDot11AdHocSecuritySettings</a>interface.
+A pointer that, on successful return, points to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>interface.
 
 
 ## -returns
@@ -150,7 +150,7 @@ A pointer passed as a parameter is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/137abd1b-997d-4003-9fef-8db56b273149">IEnumDot11AdHocSecuritySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>
  
 
  

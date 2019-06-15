@@ -55,7 +55,7 @@ The device interface represents a virtual adapter for Direct3D 10.0; it is used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D10Device</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10Device</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Device</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173534(v=VS.85).aspx">CheckCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkcounter">CheckCounter</a>
 </td>
 <td align="left" width="63%">
 Get the type, name, units of measure, and a description of an existing counter.
@@ -79,7 +79,7 @@ Get the type, name, units of measure, and a description of an existing counter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173535(v=VS.85).aspx">CheckCounterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkcounterinfo">CheckCounterInfo</a>
 </td>
 <td align="left" width="63%">
 Get a counter's information.
@@ -88,7 +88,7 @@ Get a counter's information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173536(v=VS.85).aspx">CheckFormatSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkformatsupport">CheckFormatSupport</a>
 </td>
 <td align="left" width="63%">
 Get the support of a given format on the installed video device.
@@ -97,7 +97,7 @@ Get the support of a given format on the installed video device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173537(v=VS.85).aspx">CheckMultisampleQualityLevels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkmultisamplequalitylevels">CheckMultisampleQualityLevels</a>
 </td>
 <td align="left" width="63%">
 Get the number of quality levels available during multisampling.
@@ -106,7 +106,7 @@ Get the number of quality levels available during multisampling.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173538(v=VS.85).aspx">ClearDepthStencilView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-cleardepthstencilview">ClearDepthStencilView</a>
 </td>
 <td align="left" width="63%">
 Clears the depth-stencil resource.
@@ -115,7 +115,7 @@ Clears the depth-stencil resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173539(v=VS.85).aspx">ClearRenderTargetView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-clearrendertargetview">ClearRenderTargetView</a>
 </td>
 <td align="left" width="63%">
 Set all the elements in a render target to one value.
@@ -124,7 +124,7 @@ Set all the elements in a render target to one value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173540(v=VS.85).aspx">ClearState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-clearstate">ClearState</a>
 </td>
 <td align="left" width="63%">
 Restore all default device settings; return the device to the state it was in when it was created. This will set all set all input/output resource slots, shaders, input layouts, predications, scissor rectangles, depth-stencil state, rasterizer state, blend state, sampler state, and viewports to <b>NULL</b>. The primitive topology will be set to UNDEFINED.
@@ -133,7 +133,7 @@ Restore all default device settings; return the device to the state it was in wh
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173541(v=VS.85).aspx">CopyResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-copyresource">CopyResource</a>
 </td>
 <td align="left" width="63%">
 Copy the entire contents of the source resource to the destination resource using the GPU. 
@@ -142,7 +142,7 @@ Copy the entire contents of the source resource to the destination resource usin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173542(v=VS.85).aspx">CopySubresourceRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-copysubresourceregion">CopySubresourceRegion</a>
 </td>
 <td align="left" width="63%">
 Copy a region from a source resource to a destination resource.
@@ -151,7 +151,7 @@ Copy a region from a source resource to a destination resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173543(v=VS.85).aspx">CreateBlendState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createblendstate">CreateBlendState</a>
 </td>
 <td align="left" width="63%">
 Create a blend-state object that encapsules blend state for the output-merger stage.
@@ -160,16 +160,16 @@ Create a blend-state object that encapsules blend state for the output-merger st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173544(v=VS.85).aspx">CreateBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createbuffer">CreateBuffer</a>
 </td>
 <td align="left" width="63%">
-Create a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer</a> (vertex buffer, index buffer, or shader-constant buffer).
+Create a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a> (vertex buffer, index buffer, or shader-constant buffer).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173545(v=VS.85).aspx">CreateCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createcounter">CreateCounter</a>
 </td>
 <td align="left" width="63%">
 Create a counter object for measuring GPU performance.
@@ -178,25 +178,25 @@ Create a counter object for measuring GPU performance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173546(v=VS.85).aspx">CreateDepthStencilState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilstate">CreateDepthStencilState</a>
 </td>
 <td align="left" width="63%">
-Create a depth-stencil state object that encapsulates <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil test</a> information for the output-merger stage.
+Create a depth-stencil state object that encapsulates <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil test</a> information for the output-merger stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173547(v=VS.85).aspx">CreateDepthStencilView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilview">CreateDepthStencilView</a>
 </td>
 <td align="left" width="63%">
-Create a depth-stencil <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing resource data.
+Create a depth-stencil <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a> for accessing resource data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173548(v=VS.85).aspx">CreateGeometryShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-creategeometryshader">CreateGeometryShader</a>
 </td>
 <td align="left" width="63%">
 Create a geometry shader.
@@ -205,7 +205,7 @@ Create a geometry shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173549(v=VS.85).aspx">CreateGeometryShaderWithStreamOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-creategeometryshaderwithstreamoutput">CreateGeometryShaderWithStreamOutput</a>
 </td>
 <td align="left" width="63%">
 Creates a geometry shader that can write to streaming output buffers.
@@ -214,16 +214,16 @@ Creates a geometry shader that can write to streaming output buffers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173550(v=VS.85).aspx">CreateInputLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createinputlayout">CreateInputLayout</a>
 </td>
 <td align="left" width="63%">
-Create an input-layout object to describe the input-buffer data for the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Create an input-layout object to describe the input-buffer data for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173551(v=VS.85).aspx">CreatePixelShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createpixelshader">CreatePixelShader</a>
 </td>
 <td align="left" width="63%">
 Create a pixel shader.
@@ -232,7 +232,7 @@ Create a pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173552(v=VS.85).aspx">CreatePredicate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createpredicate">CreatePredicate</a>
 </td>
 <td align="left" width="63%">
 Creates a predicate.
@@ -241,7 +241,7 @@ Creates a predicate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173553(v=VS.85).aspx">CreateQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createquery">CreateQuery</a>
 </td>
 <td align="left" width="63%">
 This interface encapsulates methods for querying information from the GPU.
@@ -250,70 +250,70 @@ This interface encapsulates methods for querying information from the GPU.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173554(v=VS.85).aspx">CreateRasterizerState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createrasterizerstate">CreateRasterizerState</a>
 </td>
 <td align="left" width="63%">
-Create a rasterizer state object that tells the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> how to behave.
+Create a rasterizer state object that tells the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> how to behave.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173556(v=VS.85).aspx">CreateRenderTargetView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createrendertargetview">CreateRenderTargetView</a>
 </td>
 <td align="left" width="63%">
-Create a render-target <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing resource data.
+Create a render-target <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a> for accessing resource data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173557(v=VS.85).aspx">CreateSamplerState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createsamplerstate">CreateSamplerState</a>
 </td>
 <td align="left" width="63%">
-Create a sampler-state object that encapsulates sampling information for a <a href="https://msdn.microsoft.com/en-us/library/Bb509700(v=VS.85).aspx">texture</a>.
+Create a sampler-state object that encapsulates sampling information for a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-type">texture</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173558(v=VS.85).aspx">CreateShaderResourceView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createshaderresourceview">CreateShaderResourceView</a>
 </td>
 <td align="left" width="63%">
-Create a shader-resource <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing data in a resource.
+Create a shader-resource <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a> for accessing data in a resource.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173559(v=VS.85).aspx">CreateTexture1D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createtexture1d">CreateTexture1D</a>
 </td>
 <td align="left" width="63%">
-Create an array of 1D textures (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Texture1D</a>).
+Create an array of 1D textures (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Texture1D</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173560(v=VS.85).aspx">CreateTexture2D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createtexture2d">CreateTexture2D</a>
 </td>
 <td align="left" width="63%">
-Create an array of 2D textures (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Texture2D</a>).
+Create an array of 2D textures (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Texture2D</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173561(v=VS.85).aspx">CreateTexture3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createtexture3d">CreateTexture3D</a>
 </td>
 <td align="left" width="63%">
-Create a single 3D texture (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Texture3D</a>).
+Create a single 3D texture (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Texture3D</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173562(v=VS.85).aspx">CreateVertexShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createvertexshader">CreateVertexShader</a>
 </td>
 <td align="left" width="63%">
 Create a vertex-shader object from a compiled shader.
@@ -322,7 +322,7 @@ Create a vertex-shader object from a compiled shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173563(v=VS.85).aspx">Draw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-draw">Draw</a>
 </td>
 <td align="left" width="63%">
 Draw non-indexed, non-instanced primitives.
@@ -331,7 +331,7 @@ Draw non-indexed, non-instanced primitives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173564(v=VS.85).aspx">DrawAuto</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-drawauto">DrawAuto</a>
 </td>
 <td align="left" width="63%">
 Draw geometry of an unknown size that was created by the geometry shader stage. See remarks.
@@ -340,7 +340,7 @@ Draw geometry of an unknown size that was created by the geometry shader stage. 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173565(v=VS.85).aspx">DrawIndexed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-drawindexed">DrawIndexed</a>
 </td>
 <td align="left" width="63%">
 Draw indexed, non-instanced primitives.
@@ -349,7 +349,7 @@ Draw indexed, non-instanced primitives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173566(v=VS.85).aspx">DrawIndexedInstanced</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-drawindexedinstanced">DrawIndexedInstanced</a>
 </td>
 <td align="left" width="63%">
 Draw indexed, instanced primitives.
@@ -358,7 +358,7 @@ Draw indexed, instanced primitives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173567(v=VS.85).aspx">DrawInstanced</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-drawinstanced">DrawInstanced</a>
 </td>
 <td align="left" width="63%">
 Draw non-indexed, instanced primitives.
@@ -367,7 +367,7 @@ Draw non-indexed, instanced primitives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173568(v=VS.85).aspx">Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Send queued-up commands in the command buffer to the GPU.
@@ -376,7 +376,7 @@ Send queued-up commands in the command buffer to the GPU.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173569(v=VS.85).aspx">GenerateMips</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-generatemips">GenerateMips</a>
 </td>
 <td align="left" width="63%">
 Generates mipmaps for the given shader resource.
@@ -385,16 +385,16 @@ Generates mipmaps for the given shader resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173570(v=VS.85).aspx">GetCreationFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getcreationflags">GetCreationFlags</a>
 </td>
 <td align="left" width="63%">
-Get the flags used during the call to create the device with <a href="https://msdn.microsoft.com/en-us/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a>.
+Get the flags used during the call to create the device with <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice">D3D10CreateDevice</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173571(v=VS.85).aspx">GetDeviceRemovedReason</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getdeviceremovedreason">GetDeviceRemovedReason</a>
 </td>
 <td align="left" width="63%">
 Get the reason why the device was removed.
@@ -403,7 +403,7 @@ Get the reason why the device was removed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173572(v=VS.85).aspx">GetExceptionMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getexceptionmode">GetExceptionMode</a>
 </td>
 <td align="left" width="63%">
 Get the exception-mode flags.
@@ -412,7 +412,7 @@ Get the exception-mode flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173573(v=VS.85).aspx">GetPredication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getpredication">GetPredication</a>
 </td>
 <td align="left" width="63%">
 Get the rendering predicate state.
@@ -421,7 +421,7 @@ Get the rendering predicate state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173574(v=VS.85).aspx">GetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Get data from a device that is associated with a guid.
@@ -430,7 +430,7 @@ Get data from a device that is associated with a guid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173575(v=VS.85).aspx">GetTextFilterSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gettextfiltersize">GetTextFilterSize</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented.
@@ -439,25 +439,25 @@ This method is not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173576(v=VS.85).aspx">GSGetConstantBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gsgetconstantbuffers">GSGetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
+Get the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173577(v=VS.85).aspx">GSGetSamplers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gsgetsamplers">GSGetSamplers</a>
 </td>
 <td align="left" width="63%">
-Get an array of sampler states from the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
+Get an array of sampler states from the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173578(v=VS.85).aspx">GSGetShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gsgetshader">GSGetShader</a>
 </td>
 <td align="left" width="63%">
 Get the geometry shader currently set on the device.
@@ -466,7 +466,7 @@ Get the geometry shader currently set on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173579(v=VS.85).aspx">GSGetShaderResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gsgetshaderresources">GSGetShaderResources</a>
 </td>
 <td align="left" width="63%">
 Get the geometry shader resources.
@@ -475,25 +475,25 @@ Get the geometry shader resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173580(v=VS.85).aspx">GSSetConstantBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gssetconstantbuffers">GSSetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
+Set the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173581(v=VS.85).aspx">GSSetSamplers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gssetsamplers">GSSetSamplers</a>
 </td>
 <td align="left" width="63%">
-Set an array of sampler states to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">geometry shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173582(v=VS.85).aspx">GSSetShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gssetshader">GSSetShader</a>
 </td>
 <td align="left" width="63%">
 Set a geometry shader to the device.
@@ -502,143 +502,143 @@ Set a geometry shader to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173583(v=VS.85).aspx">GSSetShaderResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-gssetshaderresources">GSSetShaderResources</a>
 </td>
 <td align="left" width="63%">
-Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">geometry shader stage</a>.
+Bind an array of shader resources to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">geometry shader stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173584(v=VS.85).aspx">IAGetIndexBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iagetindexbuffer">IAGetIndexBuffer</a>
 </td>
 <td align="left" width="63%">
-Get a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">index buffer</a> that is bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">index buffer</a> that is bound to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler</a> stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173585(v=VS.85).aspx">IAGetInputLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iagetinputlayout">IAGetInputLayout</a>
 </td>
 <td align="left" width="63%">
-Get a pointer to the input-layout object that is bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Get a pointer to the input-layout object that is bound to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173586(v=VS.85).aspx">IAGetPrimitiveTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iagetprimitivetopology">IAGetPrimitiveTopology</a>
 </td>
 <td align="left" width="63%">
-Get information about the <a href="https://msdn.microsoft.com/en-us/library/Bb205124(v=VS.85).aspx">primitive type</a>, and data order that describes input data for the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input assembler</a> stage.
+Get information about the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies">primitive type</a>, and data order that describes input data for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input assembler</a> stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173587(v=VS.85).aspx">IAGetVertexBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iagetvertexbuffers">IAGetVertexBuffers</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">vertex buffers</a> bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Get the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">vertex buffers</a> bound to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler</a> stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173588(v=VS.85).aspx">IASetIndexBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iasetindexbuffer">IASetIndexBuffer</a>
 </td>
 <td align="left" width="63%">
-Bind an <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Bind an <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">index buffer</a> to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler</a> stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173589(v=VS.85).aspx">IASetInputLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iasetinputlayout">IASetInputLayout</a>
 </td>
 <td align="left" width="63%">
-Bind an input-layout object to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Bind an input-layout object to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173590(v=VS.85).aspx">IASetPrimitiveTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iasetprimitivetopology">IASetPrimitiveTopology</a>
 </td>
 <td align="left" width="63%">
-Bind information about the <a href="https://msdn.microsoft.com/en-us/library/Bb205124(v=VS.85).aspx">primitive type</a>, and data order that describes input data for the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input assembler</a> stage.
+Bind information about the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies">primitive type</a>, and data order that describes input data for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input assembler</a> stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173591(v=VS.85).aspx">IASetVertexBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-iasetvertexbuffers">IASetVertexBuffers</a>
 </td>
 <td align="left" width="63%">
-Bind an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">vertex buffers</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Bind an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">vertex buffers</a> to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler</a> stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173592(v=VS.85).aspx">OMGetBlendState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omgetblendstate">OMGetBlendState</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blend state</a> of the output-merger stage.
+Get the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">blend state</a> of the output-merger stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173593(v=VS.85).aspx">OMGetDepthStencilState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omgetdepthstencilstate">OMGetDepthStencilState</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> state of the output-merger stage.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil</a> state of the output-merger stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173594(v=VS.85).aspx">OMGetRenderTargets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omgetrendertargets">OMGetRenderTargets</a>
 </td>
 <td align="left" width="63%">
-Get pointers to the render targets and the depth-stencil buffer that are available to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+Get pointers to the render targets and the depth-stencil buffer that are available to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">OMSetBlendState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetblendstate">OMSetBlendState</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blend state</a> of the output-merger stage.
+Set the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">blend state</a> of the output-merger stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173596(v=VS.85).aspx">OMSetDepthStencilState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetdepthstencilstate">OMSetDepthStencilState</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> state of 
+Sets the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil</a> state of 
     the output-merger stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173597(v=VS.85).aspx">OMSetRenderTargets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetrendertargets">OMSetRenderTargets</a>
 </td>
 <td align="left" width="63%">
-Bind one or more render targets and the depth-stencil buffer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+Bind one or more render targets and the depth-stencil buffer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173598(v=VS.85).aspx">OpenSharedResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-opensharedresource">OpenSharedResource</a>
 </td>
 <td align="left" width="63%">
 Give a device access to a shared resource created on a different Direct3d device. 
@@ -647,25 +647,25 @@ Give a device access to a shared resource created on a different Direct3d device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173599(v=VS.85).aspx">PSGetConstantBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-psgetconstantbuffers">PSGetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
+Get the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173600(v=VS.85).aspx">PSGetSamplers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-psgetsamplers">PSGetSamplers</a>
 </td>
 <td align="left" width="63%">
-Get an array of sampler states from the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
+Get an array of sampler states from the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173601(v=VS.85).aspx">PSGetShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-psgetshader">PSGetShader</a>
 </td>
 <td align="left" width="63%">
 Get the pixel shader currently set on the device.
@@ -674,7 +674,7 @@ Get the pixel shader currently set on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173602(v=VS.85).aspx">PSGetShaderResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-psgetshaderresources">PSGetShaderResources</a>
 </td>
 <td align="left" width="63%">
 Get the pixel shader resources.
@@ -683,25 +683,25 @@ Get the pixel shader resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173603(v=VS.85).aspx">PSSetConstantBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetconstantbuffers">PSSetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
+Set the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173604(v=VS.85).aspx">PSSetSamplers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetsamplers">PSSetSamplers</a>
 </td>
 <td align="left" width="63%">
-Set an array of sampler states to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">pixel shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173605(v=VS.85).aspx">PSSetShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetshader">PSSetShader</a>
 </td>
 <td align="left" width="63%">
 Sets a pixel shader to the device.
@@ -710,16 +710,16 @@ Sets a pixel shader to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173606(v=VS.85).aspx">PSSetShaderResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetshaderresources">PSSetShaderResources</a>
 </td>
 <td align="left" width="63%">
-Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">pixel shader stage</a>.
+Bind an array of shader resources to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">pixel shader stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173607(v=VS.85).aspx">ResolveSubresource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-resolvesubresource">ResolveSubresource</a>
 </td>
 <td align="left" width="63%">
 Copy a multisampled resource into a non-multisampled resource. This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
@@ -728,63 +728,63 @@ Copy a multisampled resource into a non-multisampled resource. This API is most 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173608(v=VS.85).aspx">RSGetScissorRects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rsgetscissorrects">RSGetScissorRects</a>
 </td>
 <td align="left" width="63%">
-Get the array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">scissor rectangles</a> bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>.
+Get the array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">scissor rectangles</a> bound to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173609(v=VS.85).aspx">RSGetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rsgetstate">RSGetState</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx">rasterizer state</a> from the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> of the pipeline.
+Get the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">rasterizer state</a> from the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> of the pipeline.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173610(v=VS.85).aspx">RSGetViewports</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rsgetviewports">RSGetViewports</a>
 </td>
 <td align="left" width="63%">
-Get the array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">viewports</a> bound 
-    to the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>
+Get the array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">viewports</a> bound 
+    to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173611(v=VS.85).aspx">RSSetScissorRects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rssetscissorrects">RSSetScissorRects</a>
 </td>
 <td align="left" width="63%">
-Bind an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">scissor rectangles</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a>.
+Bind an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">scissor rectangles</a> to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173612(v=VS.85).aspx">RSSetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rssetstate">RSSetState</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/en-us/library/Bb172408(v=VS.85).aspx">rasterizer state</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> of the pipeline.
+Set the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_rasterizer_desc">rasterizer state</a> for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> of the pipeline.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173613(v=VS.85).aspx">RSSetViewports</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-rssetviewports">RSSetViewports</a>
 </td>
 <td align="left" width="63%">
-Bind an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS.85).aspx">viewports</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> of the pipeline.
+Bind an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">viewports</a> to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> of the pipeline.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173614(v=VS.85).aspx">SetExceptionMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setexceptionmode">SetExceptionMode</a>
 </td>
 <td align="left" width="63%">
 Get the exception-mode flags.
@@ -793,7 +793,7 @@ Get the exception-mode flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173615(v=VS.85).aspx">SetPredication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setpredication">SetPredication</a>
 </td>
 <td align="left" width="63%">
 Set a rendering predicate.
@@ -802,7 +802,7 @@ Set a rendering predicate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173616(v=VS.85).aspx">SetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Set data to a device and associate that data with a guid.
@@ -811,16 +811,16 @@ Set data to a device and associate that data with a guid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173617(v=VS.85).aspx">SetPrivateDataInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-setprivatedatainterface">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
-Associate an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface with this device and associate that interface with an application-defined guid.
+Associate an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-derived interface with this device and associate that interface with an application-defined guid.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173618(v=VS.85).aspx">SetTextFilterSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-settextfiltersize">SetTextFilterSize</a>
 </td>
 <td align="left" width="63%">
 This method is not implemented.
@@ -829,52 +829,52 @@ This method is not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173619(v=VS.85).aspx">SOGetTargets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-sogettargets">SOGetTargets</a>
 </td>
 <td align="left" width="63%">
-Get the target output <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage of the pipeline.
+Get the target output <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffers</a> for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage">StreamOutput</a> stage of the pipeline.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173620(v=VS.85).aspx">SOSetTargets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-sosettargets">SOSetTargets</a>
 </td>
 <td align="left" width="63%">
-Set the target output <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
+Set the target output <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffers</a> for the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-stream-stage">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173621(v=VS.85).aspx">UpdateSubresource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-updatesubresource">UpdateSubresource</a>
 </td>
 <td align="left" width="63%">
-The CPU copies data from memory to a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> created in non-mappable memory. See remarks.
+The CPU copies data from memory to a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> created in non-mappable memory. See remarks.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173622(v=VS.85).aspx">VSGetConstantBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vsgetconstantbuffers">VSGetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
+Get the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173623(v=VS.85).aspx">VSGetSamplers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vsgetsamplers">VSGetSamplers</a>
 </td>
 <td align="left" width="63%">
-Get an array of sampler states from the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
+Get an array of sampler states from the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173624(v=VS.85).aspx">VSGetShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vsgetshader">VSGetShader</a>
 </td>
 <td align="left" width="63%">
 Get the vertex shader currently set on the device.
@@ -883,7 +883,7 @@ Get the vertex shader currently set on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173625(v=VS.85).aspx">VSGetShaderResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vsgetshaderresources">VSGetShaderResources</a>
 </td>
 <td align="left" width="63%">
 Get the vertex shader resources.
@@ -892,25 +892,25 @@ Get the vertex shader resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173626(v=VS.85).aspx">VSSetConstantBuffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vssetconstantbuffers">VSSetConstantBuffers</a>
 </td>
 <td align="left" width="63%">
-Set the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">constant buffers</a> used by the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
+Set the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173627(v=VS.85).aspx">VSSetSamplers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vssetsamplers">VSSetSamplers</a>
 </td>
 <td align="left" width="63%">
-Set an array of sampler states to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">vertex shader</a> pipeline stage.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173628(v=VS.85).aspx">VSSetShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vssetshader">VSSetShader</a>
 </td>
 <td align="left" width="63%">
 Set a vertex shader to the device.
@@ -919,10 +919,10 @@ Set a vertex shader to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173629(v=VS.85).aspx">VSSetShaderResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-vssetshaderresources">VSSetShaderResources</a>
 </td>
 <td align="left" width="63%">
-Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-us/library/Mt787170(v=VS.85).aspx">vertex shader stage</a>.
+Bind an array of shader resources to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/geometry-shader-stage">vertex shader stage</a>.
 
 </td>
 </tr>
@@ -933,7 +933,7 @@ Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-
 
 
 
-A device is created using <a href="https://msdn.microsoft.com/en-us/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a>.
+A device is created using <a href="https://docs.microsoft.com/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice">D3D10CreateDevice</a>.
 
 
 
@@ -943,7 +943,7 @@ A device is created using <a href="https://msdn.microsoft.com/en-us/library/Bb20
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
  
 
  

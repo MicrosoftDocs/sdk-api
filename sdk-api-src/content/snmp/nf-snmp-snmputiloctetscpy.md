@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOctetsCpy</b> function copies the variable pointed to by the <i>pOctetsSrc</i> parameter to the variable pointed to by the <i>pOctetsDst</i> parameter. The function allocates any necessary memory for the destination's copy. The 
@@ -64,7 +64,7 @@ The
 ### -param pOctetsDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a> structure to receive the copy.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to receive the copy.
 
 
 ### -param pOctetsSrc [in]
@@ -89,7 +89,7 @@ If the function fails, the return value is zero.
 
 
 Call the 
-<a href="https://msdn.microsoft.com/be101ab3-393c-4b1a-882d-0284715d1da4">SnmpUtilOctetsFree</a> function to free the memory that the 
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetsfree">SnmpUtilOctetsFree</a> function to free the memory that the 
 <b>SnmpUtilOctetsCpy</b> function allocates for the destination structure.
 
 
@@ -100,19 +100,19 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/be101ab3-393c-4b1a-882d-0284715d1da4">SnmpUtilOctetsFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloctetsfree">SnmpUtilOctetsFree</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens an existing namespace as specified by the <a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISettingsIdentity</a> parameter.
+Opens an existing namespace as specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> parameter.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Opens an existing namespace as specified by the <a href="https://msdn.microsoft.
 
 ### -param SettingsID [in]
 
-An <a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISettingsIdentity</a> object that specifies an existing namespace to get.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> object that specifies an existing namespace to get.
 
 
 ### -param Access [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa378604(v=VS.85).aspx">WcmNamespaceAccess</a> value that specifies the type of access, whether it is read-only or read and write access.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/ne-wcmconfig-__midl___midl_itf_wcmconfig_0000_0000_0007">WcmNamespaceAccess</a> value that specifies the type of access, whether it is read-only or read and write access.
 
 
 ### -param Reserved [in]
@@ -74,7 +74,7 @@ Reserved. Must be <b>NULL</b>.
 
 ### -param NamespaceItem [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/a5d7b9ff-eb6f-40be-b246-17189cad92be">ISettingsNamespace</a> object that is the result of the get operation.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a> object that is the result of the get operation.
 
 
 ## -returns
@@ -132,7 +132,7 @@ Indicates that the provided identity does not match a namespace registered in th
 
 
 
-<a href="https://msdn.microsoft.com/ba816a00-e238-4dbd-a09a-ad4e191d9c4e">ISettingsEngine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
  
 
  

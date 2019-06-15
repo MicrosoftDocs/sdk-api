@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Adds a specified <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">Strokes</a> collection into this <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object at a specified rectangle.
+Adds a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">Strokes</a> collection into this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object at a specified rectangle.
 
 
 
@@ -63,12 +63,12 @@ Adds a specified <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1
 
 ### -param SourceStrokes [in]
 
- The strokes to add to the ink. These source strokes are appended to this <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+ The strokes to add to the ink. These source strokes are appended to this <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 
 ### -param TargetRectangle [in]
 
- The <a href="https://msdn.microsoft.com/78e6c29c-0f43-46a5-9d30-948de5f369c8">InkRectangle</a> in ink space coordinates where the strokes are added. A run-time error occurs if the coordinates of the rectangle are {0,0,0,0}.
+ The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> in ink space coordinates where the strokes are added. A run-time error occurs if the coordinates of the rectangle are {0,0,0,0}.
 
 
 ## -returns
@@ -160,7 +160,7 @@ The rectangle's top and bottom are equal.
 
 When inserted, the strokes are scaled from the bounding box of the strokes to the rectangle.
 
-This method can be used to copy strokes within a single <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object. The source ink strokes do not have to come from another <b>InkDisp</b> object.
+This method can be used to copy strokes within a single <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The source ink strokes do not have to come from another <b>InkDisp</b> object.
 
 
 
@@ -174,11 +174,11 @@ This method can be used to copy strokes within a single <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CATALOG_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CATALOG_INFO</b> structure contains the name of a catalog file. This structure is used by the <a href="https://msdn.microsoft.com/ec195fcc-1cff-4dd6-9075-c4904b653da7">CryptCATCatalogInfoFromContext</a> function.
+The <b>CATALOG_INFO</b> structure contains the name of a catalog file. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcataloginfofromcontext">CryptCATCatalogInfoFromContext</a> function.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Name of the catalog file.
 
 
 
-<a href="https://msdn.microsoft.com/ec195fcc-1cff-4dd6-9075-c4904b653da7">CryptCATCatalogInfoFromContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcataloginfofromcontext">CryptCATCatalogInfoFromContext</a>
  
 
  

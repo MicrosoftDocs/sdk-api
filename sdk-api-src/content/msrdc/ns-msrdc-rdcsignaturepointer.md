@@ -52,10 +52,10 @@ ms.custom: 19H1
 The 
    <b>RdcSignaturePointer</b> structure
    describes an array 
-    of <a href="https://msdn.microsoft.com/eca15d66-1d8c-422b-a2ab-7dbe00cb4087">RdcSignature</a> structures. The 
+    of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures. The 
     <b>RdcSignaturePointer</b> structure is used as both input 
     and output by the 
-    <a href="https://msdn.microsoft.com/566a5442-b186-4aac-94fa-5784736a30c3">IRdcSignatureReader::ReadSignatures</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
     method.
 
 
@@ -66,21 +66,21 @@ The
 
 ### -field m_Size
 
-Contains the number of <a href="https://msdn.microsoft.com/eca15d66-1d8c-422b-a2ab-7dbe00cb4087">RdcSignature</a> structures in 
+Contains the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures in 
       array pointed to by <b>m_Data</b>.
 
 
 ### -field m_Used
 
 When the structure is passed to the 
-      <a href="https://msdn.microsoft.com/566a5442-b186-4aac-94fa-5784736a30c3">IRdcSignatureReader::ReadSignatures</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a> 
       method, this member should be zero. On return this member will contain the number of 
-      <a href="https://msdn.microsoft.com/eca15d66-1d8c-422b-a2ab-7dbe00cb4087">RdcSignature</a> structures that were filled.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures that were filled.
 
 
 ### -field m_Data
 
-Address of an array of <a href="https://msdn.microsoft.com/eca15d66-1d8c-422b-a2ab-7dbe00cb4087">RdcSignature</a> structures.
+Address of an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a> structures.
 
 
 ## -see-also
@@ -88,15 +88,15 @@ Address of an array of <a href="https://msdn.microsoft.com/eca15d66-1d8c-422b-a2
 
 
 
-<a href="https://msdn.microsoft.com/566a5442-b186-4aac-94fa-5784736a30c3">IRdcSignatureReader::ReadSignatures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsignaturereader-readsignatures">IRdcSignatureReader::ReadSignatures</a>
 
 
 
-<a href="https://msdn.microsoft.com/eca15d66-1d8c-422b-a2ab-7dbe00cb4087">RdcSignature</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0007">RdcSignature</a>
 
 
 
-<a href="https://msdn.microsoft.com/5144a94b-4af8-4ac2-b5b3-f0674a51c03b">Remote Differential Compression Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
  
 
  

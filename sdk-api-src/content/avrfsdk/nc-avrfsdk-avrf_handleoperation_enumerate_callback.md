@@ -59,17 +59,17 @@ Receives information related to the enumeration of handle traces.
 
 ### -param HandleOperation
 
-A pointer to an <a href="https://msdn.microsoft.com/9268d24d-5000-4ac5-a3c5-895613ccbb9a">AVRF_HANDLE_OPERATION</a> structure containing information related to the enumeration of handle traces.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ns-avrfsdk-_avrf_handle_operation">AVRF_HANDLE_OPERATION</a> structure containing information related to the enumeration of handle traces.
 
 
 ### -param EnumerationContext
 
-A pointer to a user-defined information related to the context of the enumeration that is passed in when the <a href="https://msdn.microsoft.com/e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd">VerifierEnumerateResource</a> function is invoked.
+A pointer to a user-defined information related to the context of the enumeration that is passed in when the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function is invoked.
 
 
 ### -param EnumerationLevel
 
-A pointer to a value that informs the <a href="https://msdn.microsoft.com/e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd">VerifierEnumerateResource</a> function to either continue or stop the enumeration operation. These values are defined in the <a href="https://msdn.microsoft.com/f8260ae8-eb1e-45f4-babc-905f4af7e3b1">eHeapEnumerationLevel</a> enum.
+A pointer to a value that informs the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function to either continue or stop the enumeration operation. These values are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/ne-avrfsdk-eheapenumerationlevel">eHeapEnumerationLevel</a> enum.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This function returns error codes or other values defined by the application.
 
 
 
-<a href="https://msdn.microsoft.com/99cb9005-9cfc-44fb-b09f-fed0541cda37">Resource Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
  
 
  

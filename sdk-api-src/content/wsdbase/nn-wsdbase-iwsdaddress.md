@@ -54,7 +54,7 @@ Provides access to the individual components of a transport address.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDAddress</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWSDAddress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDAddress</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDAddress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDAddress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a23ac1cd-d2af-4562-a623-64ca1deb1830">Deserialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdaddress-deserialize">Deserialize</a>
 </td>
 <td align="left" width="63%">
 Parses the address from the given buffer and retrieves the component parts of the address.
@@ -78,7 +78,7 @@ Parses the address from the given buffer and retrieves the component parts of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6264a2f6-39db-4c55-a0b3-2705d2093d77">Serialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdaddress-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes the address configuration into the specified buffer.

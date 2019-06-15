@@ -63,7 +63,7 @@ The <b>IsIndexedPixelFormat</b> method determines whether a specified pixel form
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 
 ## -returns

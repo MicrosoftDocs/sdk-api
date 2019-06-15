@@ -67,11 +67,11 @@ An IPv4/IPv6 destination address.
 
 
 
-<a href="https://msdn.microsoft.com/A6316E94-398D-4D87-B631-6BEF416895EE">INetworkCostManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/A8F4194E-6E9A-4173-8F88-FC2923B11CF0">INetworkCostManagerEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanagerevents">INetworkCostManagerEvents</a>
  
 
  

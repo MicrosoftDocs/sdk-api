@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDecompressGetFormatSize</b> macro requests the size of the output format of the decompressed data from a video decompression driver. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/51753f47-758b-4d3e-9a53-9db284da2473">ICM_DECOMPRESS_GET_FORMAT</a> message.
+The <b>ICDecompressGetFormatSize</b> macro requests the size of the output format of the decompressed data from a video decompression driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress-get-format">ICM_DECOMPRESS_GET_FORMAT</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a decompressor.
 
 ### -param lpbi
 
-Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the input format. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure containing the input format. 
 
 
 ## -see-also
@@ -75,11 +75,11 @@ Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff8
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

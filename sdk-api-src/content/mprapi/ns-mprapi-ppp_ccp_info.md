@@ -288,7 +288,7 @@ MPPE using 128-bit keys.
 
 
 
-<a href="https://msdn.microsoft.com/b6158047-6337-483f-9a90-74d578831772">PPP_LCP_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_lcp_info">PPP_LCP_INFO</a>
  
 
  

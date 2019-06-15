@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/aa47c9bf-6c7d-41c2-a29b-929600ee371a">IWSManConnectionOptionsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptionsex">IWSManConnectionOptionsEx</a>
  
 
  

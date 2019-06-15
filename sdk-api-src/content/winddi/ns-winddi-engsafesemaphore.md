@@ -73,9 +73,9 @@ Specifies the reference count on the semaphore.
 
 A safe semaphore is a wrapper that contains a handle to a semaphore and a reference count on that semaphore.
 
-The driver allocates an ENGSAFESEMAPHORE structure and passes it to <a href="https://msdn.microsoft.com/17b614b0-1c41-442c-b787-978eac3ade45">EngInitializeSafeSemaphore</a> for initialization. GDI operates the safe semaphore under a lock and maintains a reference count on it, making it suitable for multithreading.
+The driver allocates an ENGSAFESEMAPHORE structure and passes it to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enginitializesafesemaphore">EngInitializeSafeSemaphore</a> for initialization. GDI operates the safe semaphore under a lock and maintains a reference count on it, making it suitable for multithreading.
 
-Once the safe semaphore is initialized, the driver can call <a href="https://msdn.microsoft.com/da13ff30-7817-4ed4-9791-2d205a260259">EngAcquireSemaphore</a> and <a href="https://msdn.microsoft.com/e89a556f-4071-425b-b138-bfb7b49a5e8c">EngReleaseSemaphore</a> with the <b>hsem</b> for synchronization.
+Once the safe semaphore is initialized, the driver can call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engreleasesemaphore">EngReleaseSemaphore</a> with the <b>hsem</b> for synchronization.
 
 
 
@@ -85,19 +85,19 @@ Once the safe semaphore is initialized, the driver can call <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/da13ff30-7817-4ed4-9791-2d205a260259">EngAcquireSemaphore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4789803-2343-4d9a-a146-79206d88d59e">EngDeleteSafeSemaphore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesafesemaphore">EngDeleteSafeSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/17b614b0-1c41-442c-b787-978eac3ade45">EngInitializeSafeSemaphore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enginitializesafesemaphore">EngInitializeSafeSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e89a556f-4071-425b-b138-bfb7b49a5e8c">EngReleaseSemaphore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engreleasesemaphore">EngReleaseSemaphore</a>
  
 
  

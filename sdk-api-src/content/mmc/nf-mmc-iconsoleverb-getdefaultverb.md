@@ -77,7 +77,7 @@ This method can return one of these values.
 
 
 The 
-<a href="https://msdn.microsoft.com/153d89f4-03de-429a-9f52-36a5f6a9762f">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs.
 
 
 
@@ -87,15 +87,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/9c4338c1-eb5e-47f3-8b5b-0623690bd5f6">IConsoleVerb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
 
 
 
-<a href="https://msdn.microsoft.com/099a5cd7-b1c8-45c0-a109-7e78d1b6ee98">IConsoleVerb::SetDefaultVerb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setdefaultverb">IConsoleVerb::SetDefaultVerb</a>
 
 
 
-<a href="https://msdn.microsoft.com/153d89f4-03de-429a-9f52-36a5f6a9762f">MMC_CONSOLE_VERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_console_verb">MMC_CONSOLE_VERB</a>
  
 
  

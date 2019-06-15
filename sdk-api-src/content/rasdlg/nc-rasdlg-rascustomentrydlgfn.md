@@ -76,16 +76,16 @@ Pointer to a <b>null</b>-terminated string that contains the name of the phone-b
 
 
 If you are editing or copying an entry, this parameter is the name of an existing phone-book entry. If you are copying an entry, set the RASEDFLAG_CloneEntry flag in the <b>dwFlags</b> member of the 
-<a href="https://msdn.microsoft.com/b7f3cd3f-3d16-407e-b17b-488ce2b00d43">RASENTRYDLG</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure.
 
 If you are creating an entry, this parameter is a default new entry name that the user can change. If this parameter is <b>NULL</b>, the function provides a default name. If you are creating an entry, set the RASEDFLAG_NewEntry flag in the <b>dwFlags</b> member of the 
-<a href="https://msdn.microsoft.com/b7f3cd3f-3d16-407e-b17b-488ce2b00d43">RASENTRYDLG</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure.
 
 
 ### -param lpInfo
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/b7f3cd3f-3d16-407e-b17b-488ce2b00d43">RASENTRYDLG</a> structure that contains additional input and output parameters. On input, the <b>dwSize</b> member of this structure must specify sizeof(
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure that contains additional input and output parameters. On input, the <b>dwSize</b> member of this structure must specify sizeof(
 <b>RASENTRYDLG</b>). Use the <b>dwSize</b> member to indicate whether creating, editing, or copying an entry. If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
 
 
@@ -101,7 +101,7 @@ Reserved for future use.
 If the user creates, copies, or edits a phone-book entry, the return value should be <b>TRUE</b>. Otherwise, the function should return <b>FALSE</b>.
 
 If an error occurs, <b>RasCustomEntryDlg</b> should set the <b>dwError</b> member of the 
-<a href="https://msdn.microsoft.com/b7f3cd3f-3d16-407e-b17b-488ce2b00d43">RASENTRYDLG</a> structure to a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure to a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 
 
@@ -111,11 +111,11 @@ If an error occurs, <b>RasCustomEntryDlg</b> should set the <b>dwError</b> membe
 
 
 RAS  calls this entry point from 
-<a href="https://msdn.microsoft.com/9259502d-c31b-4ebd-ace7-70f02bbb7873">RasEntryDlg</a>, if the <b>szCustomDialDll</b> member of the 
-<a href="https://msdn.microsoft.com/25c46850-4fb7-47a9-9645-139f0e869559">RASENTRY</a> structure for the entry being dialed specifies a custom-dialing DLL.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>, if the <b>szCustomDialDll</b> member of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure for the entry being dialed specifies a custom-dialing DLL.
 
 If the custom-dial DLL does not support this entry point, RAS returns ERROR_NO_CUSTOMENTRYDLG to the caller of 
-<a href="https://msdn.microsoft.com/9259502d-c31b-4ebd-ace7-70f02bbb7873">RasEntryDlg</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>.
 
 
 
@@ -125,35 +125,35 @@ If the custom-dial DLL does not support this entry point, RAS returns ERROR_NO_C
 
 
 
-<a href="https://msdn.microsoft.com/ad94f38d-812f-4329-8055-6274a21a3242">Custom Dialers</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/custom-dialers">Custom Dialers</a>
 
 
 
-<a href="https://msdn.microsoft.com/25c46850-4fb7-47a9-9645-139f0e869559">RASENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c3f807b-3e31-4ce6-8549-74ab06cbba7f">RasCustomDial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomdialfn">RasCustomDial</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1f4715a-a31c-4346-ac0a-83f2c58e8cc1">RasCustomDialDlg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomdialdlgfn">RasCustomDialDlg</a>
 
 
 
-<a href="https://msdn.microsoft.com/56410af3-7b23-4536-998d-88d78d45585d">RasCustomHangUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomhangupfn">RasCustomHangUp</a>
 
 
 
-<a href="https://msdn.microsoft.com/9259502d-c31b-4ebd-ace7-70f02bbb7873">RasEntryDlg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEntryDlg</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

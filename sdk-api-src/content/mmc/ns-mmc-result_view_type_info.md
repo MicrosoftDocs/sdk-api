@@ -52,8 +52,8 @@ ms.custom: 19H1
 The <b>RESULT_VIEW_TYPE_INFO</b> structure is introduced in MMC 2.0.
 
 The <b>RESULT_VIEW_TYPE_INFO</b> structure is used in calls to 
-<a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> and 
-<a href="https://msdn.microsoft.com/fe9a71c7-eaa6-4479-8337-0746a784a57f">IComponent2::RestoreResultView</a>. A snap-in uses these two methods to include a result view in the navigational order maintained by MMC's 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-restoreresultview">IComponent2::RestoreResultView</a>. A snap-in uses these two methods to include a result view in the navigational order maintained by MMC's 
 <b>Back</b>/<b>Forward</b> buttons.
 
 
@@ -64,13 +64,13 @@ The <b>RESULT_VIEW_TYPE_INFO</b> structure is used in calls to
 
 ### -field pstrPersistableViewDescription
 
-Snap-in-provided identifier for this view type. When implementing <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a>, this member must contain a valid view description string; otherwise, MMC will not initialize your snap-in. Additionally, this value must be created by means of <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>. It will be freed by MMC, not the snap-in.
+Snap-in-provided identifier for this view type. When implementing <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a>, this member must contain a valid view description string; otherwise, MMC will not initialize your snap-in. Additionally, this value must be created by means of <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. It will be freed by MMC, not the snap-in.
 
 
 ### -field eViewType
 
 
-<a href="https://msdn.microsoft.com/fffb7376-bf1d-44ce-ad52-d4c45d013af7">MMC_VIEW_TYPE</a> enumeration value specifying the view type. This member is the structure's union discriminator and determines which members of the union are valid. This member is one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_view_type">MMC_VIEW_TYPE</a> enumeration value specifying the view type. This member is the structure's union discriminator and determines which members of the union are valid. This member is one of the following values.
 
 
 
@@ -122,7 +122,7 @@ Allows multiple item selections in the result pane view.
 
 #### RVTI_LIST_OPTIONS_FILTERED
 
-Notifies MMC that the snap-in supports filtered views. See <a href="https://msdn.microsoft.com/4be29e44-7e64-4c2c-820b-26c6cfea0661">Adding Filtered Views</a>.
+Notifies MMC that the snap-in supports filtered views. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>.
 
 
 
@@ -140,13 +140,13 @@ Causes MMC to hide scope items in the view; this applies to standard list views.
 
 #### RVTI_LIST_OPTIONS_LEXICAL_SORT
 
-Causes MMC to lexically sort all scope items (including extensions) first, followed by all result items; this applies to standard list views. The <a href="https://msdn.microsoft.com/7a68713c-2de5-4944-a617-0b2d46c23eea">IResultDataCompare</a> and <a href="https://msdn.microsoft.com/e4b305e4-4649-42f4-86f4-3c12e5aa5337">IResultDataCompareEx</a> interfaces are ignored when this value is set.
+Causes MMC to lexically sort all scope items (including extensions) first, followed by all result items; this applies to standard list views. The <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interfaces are ignored when this value is set.
 
 
 
 #### RVTI_LIST_OPTIONS_ALLOWPASTE
 
-Informs MMC that the result pane item is a drop target (see <a href="https://msdn.microsoft.com/a48823af-2de6-465b-913c-7cdcdbd04040">Using Drag and Drop to Result Pane Items</a>).
+Informs MMC that the result pane item is a drop target (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-drag-and-drop-to-result-pane-items">Using Drag and Drop to Result Pane Items</a>).
 
 
 ### -field dwHTMLOptions
@@ -181,13 +181,13 @@ There is no list view in the OCX view.
 
 #### RVTI_OCX_OPTIONS_CACHE_OCX
 
-MMC will cache the OCX. If this value is specified, then the snap-in should maintain the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer for the OCX, so that if MMC calls <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> again, the snap-in returns the <b>IUnknown</b> pointer. MMC then identifies the cached OCX and reuses it. 
-Be aware that OCXs are cached for each <a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> object, so the snap-in should create a different OCX for each <b>IComponent</b> object even if<b> RVTI_OCX_OPTIONS_CACHE_OCX</b> is set.
+MMC will cache the OCX. If this value is specified, then the snap-in should maintain the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the OCX, so that if MMC calls <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a> again, the snap-in returns the <b>IUnknown</b> pointer. MMC then identifies the cached OCX and reuses it. 
+Be aware that OCXs are cached for each <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> object, so the snap-in should create a different OCX for each <b>IComponent</b> object even if<b> RVTI_OCX_OPTIONS_CACHE_OCX</b> is set.
 
 
 ### -field pUnkControl
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer for the OCX. This parameter applies only when the <b>eViewType</b> member is <b>MMC_VIEW_TYPE_OCX</b>. When a snap-in implements <a href="https://msdn.microsoft.com/b9e67a37-c09d-46f3-896f-e75122256812">IComponent2</a> and has an OCX in the result pane, the snap-in must create the OCX during the call to <a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> and return the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer (through <b>pUnkControl</b>) to MMC. The snap-in must also initialize the OCX. MMC will not send a <a href="https://msdn.microsoft.com/79256d4a-a936-419e-a953-80d743d05290">MMCN_INITOCX</a> notification to the snap-in.
+The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer for the OCX. This parameter applies only when the <b>eViewType</b> member is <b>MMC_VIEW_TYPE_OCX</b>. When a snap-in implements <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent2">IComponent2</a> and has an OCX in the result pane, the snap-in must create the OCX during the call to <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a> and return the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer (through <b>pUnkControl</b>) to MMC. The snap-in must also initialize the OCX. MMC will not send a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-initocx">MMCN_INITOCX</a> notification to the snap-in.
 
 
 ## -see-also
@@ -195,19 +195,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IU
 
 
 
-<a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe9a71c7-eaa6-4479-8337-0746a784a57f">IComponent2::RestoreResultView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-restoreresultview">IComponent2::RestoreResultView</a>
 
 
 
-<a href="https://msdn.microsoft.com/dee09c50-76f1-4186-846c-1cde3d05fd03">Restoring Result Views</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/restoring-result-views">Restoring Result Views</a>
 
 
 
-<a href="https://msdn.microsoft.com/a48823af-2de6-465b-913c-7cdcdbd04040">Using Drag and Drop to Result Pane Items</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-drag-and-drop-to-result-pane-items">Using Drag and Drop to Result Pane Items</a>
  
 
  

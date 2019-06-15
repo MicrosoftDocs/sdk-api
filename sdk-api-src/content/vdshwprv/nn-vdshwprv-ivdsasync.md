@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Manages asynchronous 
    operations. Methods that initiate asynchronous operations return a pointer to an 
@@ -60,7 +60,7 @@ Manages asynchronous
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsAsync</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsAsync</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsAsync</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsAsync</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVdsAsync</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40940cb8-46b7-4483-9952-ab053c49dad7">Cancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the asynchronous operation.
@@ -84,7 +84,7 @@ Cancels the asynchronous operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/993228ae-4817-4d88-8544-9cd57cbe8b49">QueryStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-querystatus">QueryStatus</a>
 </td>
 <td align="left" width="63%">
 Returns when the asynchronous operation is in progress, or has either finished successfully or failed.
@@ -93,7 +93,7 @@ Returns when the asynchronous operation is in progress, or has either finished s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1bb30247-efb8-488f-b142-8912c351f5f2">Wait</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsasync-wait">Wait</a>
 </td>
 <td align="left" width="63%">
 Returns when the asynchronous operation has either finished successfully or failed.
@@ -108,19 +108,19 @@ Returns when the asynchronous operation has either finished successfully or fail
 
 
 
-<a href="https://msdn.microsoft.com/0f809c71-a3bd-4c62-8086-9651ea1a3400">Helper Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/helper-objects">Helper Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/372eff29-7481-45aa-ad66-73147f7a631f">IEnumVdsObject::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ienumvdsobject-next">IEnumVdsObject::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5136e15-3ae1-4e0a-ae97-fcf16203b21d">Managing Asynchronous Operations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/managing-asynchronous-operations">Managing Asynchronous Operations</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
  
 
  

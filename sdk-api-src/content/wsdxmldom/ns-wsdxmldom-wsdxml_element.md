@@ -59,31 +59,31 @@ Describes an XML element.
 
 ### -field Node
 
-Reference to a <a href="https://msdn.microsoft.com/10c918b2-a7b9-4ebb-a884-64877bebb973">WSDXML_NODE</a> structure that specifies the parent element, next sibling and type of the node. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_node">WSDXML_NODE</a> structure that specifies the parent element, next sibling and type of the node. 
 
 
 
 ### -field Name
 
-Reference to a <a href="https://msdn.microsoft.com/9dce71d2-700c-4f86-9308-dee6a69010bb">WSDXML_NAME</a> structure that specifies name. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that specifies name. 
 
 
 
 ### -field FirstAttribute
 
-Reference to a <a href="https://msdn.microsoft.com/2697d30d-17c7-417d-a02b-c4427987ec4b">WSDXML_ATTRIBUTE</a> structure that specifies the first attribute. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_attribute">WSDXML_ATTRIBUTE</a> structure that specifies the first attribute. 
 
 
 
 ### -field FirstChild
 
-Reference to a <a href="https://msdn.microsoft.com/10c918b2-a7b9-4ebb-a884-64877bebb973">WSDXML_NODE</a> structure that specifies the first child. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_node">WSDXML_NODE</a> structure that specifies the first child. 
 
 
 
 ### -field PrefixMappings
 
-Reference to a <a href="https://msdn.microsoft.com/d49a155a-a71b-4038-86a8-eb398db64e72">WSDXML_PREFIX_MAPPING</a> structure that specifies the prefix mappings. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_prefix_mapping">WSDXML_PREFIX_MAPPING</a> structure that specifies the prefix mappings. 
 
 
 

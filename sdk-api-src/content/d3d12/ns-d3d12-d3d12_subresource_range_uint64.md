@@ -71,7 +71,7 @@ A memory range within the subresource.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/745B641F-B136-46A2-A0EE-F5FDC13656E5">AtomicCopyBufferUINT</a> and <a href="https://msdn.microsoft.com/F83870E9-5256-4A3E-BAF7-05C4CCB28442">AtomicCopyBufferUINT64</a> methods.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint">AtomicCopyBufferUINT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64">AtomicCopyBufferUINT64</a> methods.
       
 
 
@@ -82,7 +82,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/745B641F-B136-
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/9289fe3c-a7d9-4acb-aeb6-a50de65db0a2">EnumPageFiles</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a> function.
 
 The <b>PENUM_PAGE_FILE_CALLBACK</b> type defines a pointer to this callback function. 
 <b>EnumPageFilesProc</b> is a placeholder for the application-defined function name.
@@ -66,13 +66,13 @@ The <b>PENUM_PAGE_FILE_CALLBACK</b> type defines a pointer to this callback func
 ### -param pContext [in]
 
 The user-defined data passed from 
-<a href="https://msdn.microsoft.com/9289fe3c-a7d9-4acb-aeb6-a50de65db0a2">EnumPageFiles</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>.
 
 
 ### -param pPageFileInfo [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/020f3be8-f624-4788-8079-0f7679c9bef0">ENUM_PAGE_FILE_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a> structure.
 
 
 ### -param lpFilename [in]
@@ -96,15 +96,15 @@ To stop enumeration, the callback function must return FALSE.
 
 
 
-<a href="https://msdn.microsoft.com/020f3be8-f624-4788-8079-0f7679c9bef0">ENUM_PAGE_FILE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/9289fe3c-a7d9-4acb-aeb6-a50de65db0a2">EnumPageFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
  
 
  

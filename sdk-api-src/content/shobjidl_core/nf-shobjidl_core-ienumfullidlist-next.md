@@ -68,7 +68,7 @@ The number of items referenced in the array referenced by the <i>rgelt</i> param
 
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
-On success, contains a PIDL array. The implementation must allocate these item identifiers using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. The calling application is responsible for freeing the item identifiers using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+On success, contains a PIDL array. The implementation must allocate these item identifiers using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The calling application is responsible for freeing the item identifiers using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -param pceltFetched [out]

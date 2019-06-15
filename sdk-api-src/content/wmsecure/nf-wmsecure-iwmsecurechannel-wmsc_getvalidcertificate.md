@@ -64,7 +64,7 @@ The <b>WMSC_GetValidCertificate</b> method returns a copy of the certificate tha
 
 ### -param ppbCertificate [out]
 
-<i>ppbCertificate</i> must be released with <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> by the user.
+<i>ppbCertificate</i> must be released with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> by the user.
      <i>ppbCertificate</i> can be <b>NULL</b> if no certificate was provided. 
      If no connection was made, this function returns E_FAIL
 
@@ -88,7 +88,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a>
  
 
  

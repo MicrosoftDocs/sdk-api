@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The IRQ_RANGE structure specifies a resource requirements list that describes IRQ line usage for a device instance. For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The highest-numbered of a range of contiguous IRQ lines that can be allocated to
 
 ### -field IRQR_Flags
 
-One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>IRQD_Flags</b> member of the <a href="https://msdn.microsoft.com/fa8b8d96-6642-4f5a-b65c-0c7470340251">IRQ_DES</a> structure.
+One bit flag from <i>each</i> of the flag sets described in the table included with the description of the <b>IRQD_Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32_s">IRQ_DES</a> structure.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ One bit flag from <i>each</i> of the flag sets described in the table included w
 
 
 
-<a href="https://msdn.microsoft.com/fa8b8d96-6642-4f5a-b65c-0c7470340251">IRQ_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32_s">IRQ_DES</a>
  
 
  

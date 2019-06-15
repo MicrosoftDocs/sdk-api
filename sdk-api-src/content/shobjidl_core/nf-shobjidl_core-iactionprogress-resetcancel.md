@@ -84,11 +84,11 @@ This method is called when a cancellation has been completed. User input should 
 
 
 
-<a href="https://msdn.microsoft.com/e742e381-0fd2-482a-81a0-7b43d11b073b">IActionProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5db4344-c1b4-4e76-9291-46dafc82e88d">IActionProgress::QueryCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-querycancel">IActionProgress::QueryCancel</a>
  
 
  

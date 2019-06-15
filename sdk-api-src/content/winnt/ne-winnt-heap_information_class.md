@@ -59,12 +59,12 @@ Specifies the class of heap information to be set or retrieved.
 
 ### -field HeapCompatibilityInformation
 
-The heap features that are enabled. The available features vary based on operating system. Depending on the <i>HeapInformation</i> parameter in the <a href="https://msdn.microsoft.com/6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f">HeapQueryInformation</a> or <a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a> functions, specifying this enumeration value can indicate one of the following features:
+The heap features that are enabled. The available features vary based on operating system. Depending on the <i>HeapInformation</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> or <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> functions, specifying this enumeration value can indicate one of the following features:
 
 <ul>
 <li>A standard heap that does not support look-aside lists.</li>
 <li>A heap that supports look-aside lists.</li>
-<li>A <a href="https://msdn.microsoft.com/d10abf82-423c-4942-b05e-55de3a5c4219">low-fragmentation heap</a> (LFH), which does not support look-aside lists.</li>
+<li>A <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH), which does not support look-aside lists.</li>
 </ul>
 For more information about look-aside lists, see the Remarks section.
 
@@ -86,8 +86,8 @@ After a process enables this feature, it cannot be disabled.
 
 
 
-To retrieve information about a heap, use the <a href="https://msdn.microsoft.com/6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f">HeapQueryInformation</a> function. To enable features for a heap, use the 
-<a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a> function.
+To retrieve information about a heap, use the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> function. To enable features for a heap, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> function.
 
 <b>Windows XP and Windows Server 2003:  </b> A look-aside list is a fast memory allocation mechanism that contains only fixed-sized blocks. Look-aside lists are enabled by default for heaps that support them. Starting with Windows Vista, look-aside lists are not used and the LFH is enabled by default.
 
@@ -105,11 +105,11 @@ Look-aside lists are faster than general pool allocations that vary in size, bec
 
 
 
-<a href="https://msdn.microsoft.com/6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f">HeapQueryInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/33c262ca-5093-4f44-a8c6-09045bc90f60">HeapSetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a>
  
 
  

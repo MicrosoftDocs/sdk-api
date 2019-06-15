@@ -60,9 +60,9 @@ Gets a constant-buffer description.
 
 ### -param pDesc
 
-Type: <b><a href="https://msdn.microsoft.com/03F36467-9841-4385-9962-D7ADB4D79C6C">D3D12_SHADER_BUFFER_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_buffer_desc">D3D12_SHADER_BUFFER_DESC</a>*</b>
 
-A shader-buffer description, as a pointer to a <a href="https://msdn.microsoft.com/03F36467-9841-4385-9962-D7ADB4D79C6C">D3D12_SHADER_BUFFER_DESC</a> structure.
+A shader-buffer description, as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_buffer_desc">D3D12_SHADER_BUFFER_DESC</a> structure.
           
 
 
@@ -70,9 +70,9 @@ A shader-buffer description, as a pointer to a <a href="https://msdn.microsoft.c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -93,7 +93,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionconstantbuffer">ID3D12ShaderReflectionConstantBuffer</a>
  
 
  

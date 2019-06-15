@@ -349,7 +349,7 @@ The operating system platform is Windows.
 ### -field CSDVersionRva
 
 An RVA (from the beginning of the dump) to a 
-      <a href="https://msdn.microsoft.com/b90b2b29-9d39-4a73-b5fb-bb6e04c94811">MINIDUMP_STRING</a> that describes the latest Service 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_string">MINIDUMP_STRING</a> that describes the latest Service 
        Pack installed on the system. If no Service Pack has been installed, the string is empty.
 
 
@@ -563,7 +563,7 @@ Other CPU information. This structure is supported only for non-x86 computers.
 ##### ProcessorFeatures
 
 For a list of possible values, see the 
-        <a href="https://msdn.microsoft.com/c58cfb0a-f40f-429c-abe9-83b6f038f612">IsProcessorFeaturePresent</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a> 
         function.
 
 
@@ -572,11 +572,11 @@ For a list of possible values, see the
 
 
 
-<a href="https://msdn.microsoft.com/c58cfb0a-f40f-429c-abe9-83b6f038f612">IsProcessorFeaturePresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a>
 
 
 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

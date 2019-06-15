@@ -61,7 +61,7 @@ The <b>ReLayoutDocfileOnILockBytes</b> method is not implemented.   If called, i
 
 ### -param pILockBytes [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface on the underlying byte-array object where the compound file is to be rewritten.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface on the underlying byte-array object where the compound file is to be rewritten.
 
 
 ## -returns

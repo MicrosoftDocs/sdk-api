@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/61b06451-0252-4dbe-8a19-e7260620377d">IUpdate3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate3">IUpdate3</a>
  
 
  

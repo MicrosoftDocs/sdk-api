@@ -64,20 +64,20 @@ The user-defined, opaque ID for this transaction.
 
 ### -field TransactionNotification
 
-The <a href="https://msdn.microsoft.com/65db8ba5-193c-439b-8e8c-6cb4a9bd4efd">NOTIFICATION_MASK</a> value for this 
+The <a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a> value for this 
       transaction.
 
 
 ### -field TmVirtualClock
 
 The latest virtual clock value that is associated with this transaction. See 
-      <a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>.
 
 
 ### -field ArgumentLength
 
 Indicates the number of bytes for the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa366399(v=VS.85).aspx">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a> 
       structure that follow this 
       <b>TRANSACTION_NOTIFICATION</b> structure.
 
@@ -87,27 +87,27 @@ Indicates the number of bytes for the
 
 
 
-<a href="https://msdn.microsoft.com/7bc06468-947f-48ec-8e58-20df58ed93bd">CreateEnlistment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createenlistment">CreateEnlistment</a>
 
 
 
-<a href="https://msdn.microsoft.com/d606f960-e843-4478-8ba7-5201f85c44ce">GetNotificationResourceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanager">GetNotificationResourceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/c83e104b-6cd7-4399-8232-7c2e7b408f1a">GetNotificationResourceManagerAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getnotificationresourcemanagerasync">GetNotificationResourceManagerAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/74976925-1813-4dbd-9438-26fabd704d84">Kernel Transaction Manager Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-structures">Kernel Transaction Manager Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/65db8ba5-193c-439b-8e8c-6cb4a9bd4efd">NOTIFICATION_MASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/notification-mask">NOTIFICATION_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366399(v=VS.85).aspx">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmtypes/ns-ktmtypes-_transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
  
 
  

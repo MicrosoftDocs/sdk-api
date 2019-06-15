@@ -71,7 +71,7 @@ An identifier of the pointer for which to retrieve pointer type.
 
 ### -param pointerType [out]
 
-An address of a <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">POINTER_INPUT_TYPE</a> type to receive a pointer input type.
+An address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">POINTER_INPUT_TYPE</a> type to receive a pointer input type.
 
 
 ## -returns
@@ -80,7 +80,7 @@ An address of a <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D1
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -91,7 +91,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 An application can use the <b>GetPointerType</b> function to determine the pointer type if it wishes to react differently to pointers of different types.
 
-<div class="alert"><b>Note</b>  This function will never return with the generic <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_POINTER </a>type.</div>
+<div class="alert"><b>Note</b>  This function will never return with the generic <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_POINTER </a>type.</div>
 <div> </div>
 
 
@@ -101,7 +101,7 @@ An application can use the <b>GetPointerType</b> function to determine the point
 
 
 
-<a href="https://msdn.microsoft.com/0123DCD0-DAE1-4AC2-AB36-23D114803138">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
  
 
  

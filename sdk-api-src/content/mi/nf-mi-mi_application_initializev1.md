@@ -76,15 +76,15 @@ An optional string (usually <b>GUID</b> in string format) to represent a client
 ### -param extendedError [out, optional]
 
 Optional parameter giving more error information if the operation failed. If an instance is returned, 
-      <a href="https://msdn.microsoft.com/6370e464-b262-4c91-a3c8-889911df7965">MI_Instance_Delete</a> must  be called to free it 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> must  be called to free it 
       when it is no longer needed.
 
 
 ### -param application [out]
 
-A pointer to an uninitialized <a href="https://msdn.microsoft.com/da486ade-88ef-40c4-8151-356e718da7db">MI_Application</a> 
+A pointer to an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_application">MI_Application</a> 
       handle is passed in and a populated handle is returned. The initialized handle must be passed to 
-      <a href="https://msdn.microsoft.com/e5ad3ed3-8ef6-4bb5-999a-7d2ee91f51d5">MI_Application_Close</a> before the application 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_close">MI_Application_Close</a> before the application 
   shuts down. If an application passes this handle, pass it by value rather than as a pointer.
 
 
@@ -103,9 +103,9 @@ This function returns MI_Result MI_MAIN_CALL.
 
 This API needs to be called only once per application; although, it can be called multiple times safely. 
     Calling this API multiple times will result in a small amount of extra memory usage.  When called, the application 
-    passes in an <a href="https://msdn.microsoft.com/da486ade-88ef-40c4-8151-356e718da7db">MI_Application</a> pointer to be initialized. 
+    passes in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_application">MI_Application</a> pointer to be initialized. 
     This pointer must be closed by calling 
-    <a href="https://msdn.microsoft.com/e5ad3ed3-8ef6-4bb5-999a-7d2ee91f51d5">MI_Application_Close</a>. Not doing so will cause 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_close">MI_Application_Close</a>. Not doing so will cause 
     memory leaks and potential crashes during shutdown.
 
 MI.h defines 

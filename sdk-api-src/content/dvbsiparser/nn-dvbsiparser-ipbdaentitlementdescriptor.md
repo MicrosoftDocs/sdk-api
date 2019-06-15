@@ -54,7 +54,7 @@ Implements methods that retrieve data from the entitlement descriptor in a Prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDAEntitlementDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPBDAEntitlementDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDAEntitlementDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDAEntitlementDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPBDAEntitlementDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51fc1ecc-ec18-415c-84f8-276ec581b24e">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaentitlementdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of the entitlement descriptor.
@@ -78,7 +78,7 @@ Gets the body length of the entitlement descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/484de26a-24e5-431d-ba4d-f2f3005502a1">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaentitlementdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that uniquely identifies the entitlement descriptor.
@@ -87,7 +87,7 @@ Gets the tag that uniquely identifies the entitlement descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3fc73b0c-cacb-491b-b25b-49eb57154a37">GetToken</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdaentitlementdescriptor-gettoken">GetToken</a>
 </td>
 <td align="left" width="63%">
 Gets the entitlement token from the entitlement descriptor.

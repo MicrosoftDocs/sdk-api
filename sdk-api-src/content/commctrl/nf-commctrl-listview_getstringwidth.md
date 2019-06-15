@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761073(v=VS.85).aspx">LVM_GETSTRINGWIDTH</a> message explicitly. 
+Determines the width of a specified string using the specified list-view control's current font. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getstringwidth">LVM_GETSTRINGWIDTH</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Determines the width of a specified string using the specified list-view control
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param psz
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A pointer to a null-terminated string. 
 
@@ -75,7 +75,7 @@ A pointer to a null-terminated string.
 
 
 
-The <b>ListView_GetStringWidth</b> macro returns the exact width, in pixels, of the specified string. If you use the returned string width as the column width in a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb775074(v=VS.85).aspx">ListView_SetColumnWidth</a> macro, the string will be truncated. To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width. 
+The <b>ListView_GetStringWidth</b> macro returns the exact width, in pixels, of the specified string. If you use the returned string width as the column width in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setcolumnwidth">ListView_SetColumnWidth</a> macro, the string will be truncated. To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width. 
 
 
 

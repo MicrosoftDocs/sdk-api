@@ -60,8 +60,8 @@ The <b>IADsPathname::CopyPath</b> method
 
 ### -param ppAdsPath [out]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the 
-      returned <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a> object.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the 
+      returned <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> object.
 
 
 ## -returns
@@ -70,7 +70,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">ID
 
 This method supports the standard return values, as well as the following:
 
-For more information and other return values, see <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error 
+For more information and other return values, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error 
        Codes</a>.
 
 
@@ -115,7 +115,7 @@ Response.Write y.Retrieve(ADS_FORMAT_WINDOWS)
 
 The following C++ code example creates a copy of a pathname object. For more information and a code example 
      of the <b>GetPathnameObject</b> function, see 
-     <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>.
 
 
 ```cpp
@@ -146,11 +146,11 @@ hr = pDisp->QueryInterface(IID_IADsPathname,(void**)&pPathCopy);
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
  
 
  

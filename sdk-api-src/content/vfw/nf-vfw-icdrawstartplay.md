@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawStartPlay</b> macro provides the start and end times of a play operation to a rendering driver. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/27c4c06e-6510-43dc-a754-fe44144796f5">ICM_DRAW_START_PLAY</a> message.
+The <b>ICDrawStartPlay</b> macro provides the start and end times of a play operation to a rendering driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-start-play">ICM_DRAW_START_PLAY</a> message.
 
 
 
@@ -81,7 +81,7 @@ End time.
 
 This message precedes any frame data sent to the rendering driver.
 
-Units for <i>lFrom</i> and <i>lTo</i> are specified with the <a href="https://msdn.microsoft.com/e5ecd7dd-376b-422c-bbb8-4e7c41e3cac8">ICM_DRAW_BEGIN</a> message. For video data this is normally a frame number. For more information about the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://msdn.microsoft.com/1ec2309c-7ea8-423e-aee3-5e0c650f0b3d">ICDRAWBEGIN</a> structure.
+Units for <i>lFrom</i> and <i>lTo</i> are specified with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message. For video data this is normally a frame number. For more information about the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-icdrawbegin">ICDRAWBEGIN</a> structure.
 
 If the end time is less than the start time, the playback direction is reversed.
 
@@ -93,11 +93,11 @@ If the end time is less than the start time, the playback direction is reversed.
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

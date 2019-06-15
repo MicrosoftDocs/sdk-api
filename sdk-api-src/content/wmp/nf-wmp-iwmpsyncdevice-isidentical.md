@@ -125,11 +125,11 @@ This method is useful in event handlers that provide an <b>IWMPSyncDevice</b> po
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563709(v=VS.85).aspx">IWMPSyncDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ca4d6ae-822e-4ddc-950d-cf7df6889108">Showing Synchronization Progress</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/showing-synchronization-progress">Showing Synchronization Progress</a>
  
 
  

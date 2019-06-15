@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969523(v=VS.85).aspx">DwmSetPresentParameters</a> function.
+Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> function.
 
 
 ## -struct-fields

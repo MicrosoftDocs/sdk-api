@@ -87,9 +87,9 @@ S_OK is returned if <b>SwDeviceInterfaceSetState</b> successfully enabled or dis
 
 
 
-You can call <b>SwDeviceInterfaceSetState</b> only after the operating system has called your client app's <a href="https://msdn.microsoft.com/3955FA66-EBE2-4710-A873-C5FC8B7DBE2E">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
+You can call <b>SwDeviceInterfaceSetState</b> only after the operating system has called your client app's <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
 
-You can only use <b>SwDeviceInterfaceSetState</b> to manage interfaces that were previously registered with <a href="https://msdn.microsoft.com/A53FEBC2-E7D7-4DF7-B41C-BBB5A7EE044B">SwDeviceInterfaceRegister</a> against the software device that <i>hSwDevice</i> represents.
+You can only use <b>SwDeviceInterfaceSetState</b> to manage interfaces that were previously registered with <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a> against the software device that <i>hSwDevice</i> represents.
 
 Client apps use <b>SwDeviceInterfaceSetState</b> to manage the state that they want the interface to have.  The software device changes the actual interface state as needed.  For example, a client app disables and re-enables the interface if the device is re-enumerated for any reason.  The state always tries to reflect the client app’s required state.
 

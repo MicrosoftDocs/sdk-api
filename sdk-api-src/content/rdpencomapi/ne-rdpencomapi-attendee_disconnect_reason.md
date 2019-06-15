@@ -64,7 +64,7 @@ Minimum enumeration value.
 
 ### -field ATTENDEE_DISCONNECT_REASON_APP
 
-The application called the <a href="https://msdn.microsoft.com/e666fdd4-7417-40ea-9643-d7df587294f2">IRDPSRAPIAttendee::TerminateConnection</a> method.
+The application called the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-terminateconnection">IRDPSRAPIAttendee::TerminateConnection</a> method.
 
 
 ### -field ATTENDEE_DISCONNECT_REASON_ERR
@@ -87,7 +87,7 @@ Maximum enumeration value.
 
 
 
-<a href="https://msdn.microsoft.com/4445809f-1aad-4d76-9199-4d5246c7c83d">Reason Property of IRDPSRAPIAttendeeDisconnectInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendeedisconnectinfo-get_reason">Reason Property of IRDPSRAPIAttendeeDisconnectInfo</a>
  
 
  

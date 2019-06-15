@@ -59,7 +59,7 @@ The <b>PeerDistServerOpenContentInformationEx</b> function opens a <b>PEERDIST_C
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param cbContentIdentifier [in]
@@ -84,12 +84,12 @@ The length, in bytes, of the content (starting from the ullContentOffset) for wh
 
 ### -param pRetrievalOptions [in]
 
-A <a href="https://msdn.microsoft.com/cc5953bd-39cc-472e-a84b-89be7a6e6d09">PEER_RETRIEVAL_OPTIONS</a> structure specifying additional options for retrieving content information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options_tag">PEER_RETRIEVAL_OPTIONS</a> structure specifying additional options for retrieving content information.
 
 
 ### -param hCompletionPort [in, optional]
 
-A handle to the completion port used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
+A handle to the completion port used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
 
 
 ### -param ulCompletionKey [in, optional]
@@ -116,8 +116,8 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 If function succeeds, the handle received by <i>phContentInfo</i> can be passed to the  
- <a href="https://msdn.microsoft.com/376ece5f-93ea-4650-a6d8-351ae60fc15b">PeerDistServerRetrieveContentInformation</a> function to retrieve content information.
-The  handle   must be closed via the <a href="https://msdn.microsoft.com/066f1856-0617-40c7-a444-9765c01b4563">PeerDistServerCloseContentInformation</a> function.
+ <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverretrievecontentinformation">PeerDistServerRetrieveContentInformation</a> function to retrieve content information.
+The  handle   must be closed via the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverclosecontentinformation">PeerDistServerCloseContentInformation</a> function.
 
 
 If <i>ullContentOffset</i> and <i>cbContentLength</i> are both zero, then the content information for the whole content will be retrieved.
@@ -132,23 +132,23 @@ The <i>pRetrievalOptions</i> parameter can be used to specify the range of conte
 
 
 
-<a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc5953bd-39cc-472e-a84b-89be7a6e6d09">PEER_RETRIEVAL_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_retrieval_options_tag">PEER_RETRIEVAL_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/066f1856-0617-40c7-a444-9765c01b4563">PeerDistServerCloseContentInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverclosecontentinformation">PeerDistServerCloseContentInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/376ece5f-93ea-4650-a6d8-351ae60fc15b">PeerDistServerRetrieveContentInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverretrievecontentinformation">PeerDistServerRetrieveContentInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
  
 
  

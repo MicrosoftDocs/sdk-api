@@ -59,9 +59,9 @@ Sets the type of authentication required to access the URLs under this search ro
 
 ### -param authType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965687(v=VS.85).aspx">AUTH_TYPE</a> enumeration that indicates the authentication type.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_auth_type">AUTH_TYPE</a> enumeration that indicates the authentication type.
 
 
 ## -returns

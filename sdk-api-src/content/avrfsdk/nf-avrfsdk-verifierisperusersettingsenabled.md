@@ -76,7 +76,7 @@ Application Verifier settings are stored in the following registry key <b>HKEY_L
 
 Starting with Windows Vista, Application Verifier settings can be stored in <b>HKEY_CURRENT_USER</b>. To enable the use of the per-user settings, the administrator must create a REG_DWORD value named <b>ImageExecutionOptions</b> in the <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b> key, set the low-order bit, and reboot the computer. To disable the use of the per-user settings, the administrator must either clear the bit or delete the registry value and reboot the computer.
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function to load Verifier.dll and call the <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> function to get the address of this function.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load Verifier.dll and call the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to get the address of this function.
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_KeyingMaterialInfo</b> structure contains information about the exportable keying material in a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. 
+The <b>SecPkgContext_KeyingMaterialInfo</b> structure contains information about the exportable keying material in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. 
 
 
 ## -struct-fields

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 <i>Line_Event</i> is a callback function implemented by TAPI and supplied to the service provider as a parameter to 
-<a href="https://msdn.microsoft.com/97cde843-65bc-46ae-a6ae-724f2c9c5217">TSPI_lineOpen</a>. The service provider calls this function to report events that occur on the line or on calls on the line.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>. The service provider calls this function to report events that occur on the line or on calls on the line.
 
 The <b>LINEEVENT</b> type defines a pointer to this callback function. <i>Line_Event</i> is a placeholder for the application-defined function name.
 
@@ -106,11 +106,11 @@ This function has no return value.
 The call state when calling this function can be any state.
 
 The service provider passes the 
-<a href="https://msdn.microsoft.com/732f0990-cbad-4ce0-873f-7b025603466e">HTAPILINE</a> value supplied to 
-<a href="https://msdn.microsoft.com/97cde843-65bc-46ae-a6ae-724f2c9c5217">TSPI_lineOpen</a> as the <i>htLine</i> parameter. It includes the message identifier and parameters specific to the event.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/htapiline">HTAPILINE</a> value supplied to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a> as the <i>htLine</i> parameter. It includes the message identifier and parameters specific to the event.
 
 This function differs from the callback function defined at the TAPI level in that it separates line and call parameters. Both parameters are used for some messages. The sets of messages that can be passed to this procedure differ slightly from the TAPI level. In particular, completion of asynchronously executing requests is reported through the 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">Completion_Proc</a> callback instead of this one.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">Completion_Proc</a> callback instead of this one.
 
 
 
@@ -120,11 +120,11 @@ This function differs from the callback function defined at the TAPI level in th
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">Completion_Proc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">Completion_Proc</a>
 
 
 
-<a href="https://msdn.microsoft.com/97cde843-65bc-46ae-a6ae-724f2c9c5217">TSPI_lineOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>
  
 
  

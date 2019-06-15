@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/152b0dd2-1e5e-47fc-b6eb-a4c042e65047">IWICBitmapEncoderInfo</a> for the encoder.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a> for the encoder.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Retrieves an <a href="https://msdn.microsoft.com/152b0dd2-1e5e-47fc-b6eb-a4c042e
 
 ### -param ppIEncoderInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/152b0dd2-1e5e-47fc-b6eb-a4c042e65047">IWICBitmapEncoderInfo</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a>**</b>
 
-A pointer that receives a pointer to an <a href="https://msdn.microsoft.com/152b0dd2-1e5e-47fc-b6eb-a4c042e65047">IWICBitmapEncoderInfo</a>.
+A pointer that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoderinfo">IWICBitmapEncoderInfo</a>.
 
 
 ## -returns

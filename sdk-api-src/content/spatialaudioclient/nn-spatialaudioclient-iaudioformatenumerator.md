@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a list of supported audio formats. The most preferred format is first in the list. Get a reference to this interface by calling <a href="https://msdn.microsoft.com/CB152D8C-DE3A-4224-A6CC-DF1BFF1A3ABA">ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator</a>.
+Provides a list of supported audio formats. The most preferred format is first in the list. Get a reference to this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getsupportedaudioobjectformatenumerator">ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioFormatEnumerator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioFormatEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioFormatEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioFormatEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioFormatEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A2523D52-6641-4876-A263-E0D02A815522">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of supported audio formats in the list
@@ -78,7 +78,7 @@ Gets the number of supported audio formats in the list
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9949F688-51D1-418B-947D-2607C90CA4E4">GetFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-iaudioformatenumerator-getformat">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the format with the specified index in the list. The formats are listed in order of importance. The most preferable format is first in the list.

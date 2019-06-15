@@ -59,21 +59,21 @@ Get an element in a state-block mask; determine if an element is allowed by the 
 
 ### -param pMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
 
-State block mask. See <a href="https://msdn.microsoft.com/en-us/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>.
+State block mask. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>.
 
 
 ### -param StateType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205039(v=VS.85).aspx">D3D10_DEVICE_STATE_TYPES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ne-d3d10effect-_d3d10_device_state_types">D3D10_DEVICE_STATE_TYPES</a></b>
 
-The type of device state. See <a href="https://msdn.microsoft.com/en-us/library/Bb205039(v=VS.85).aspx">D3D10_DEVICE_STATE_TYPES</a>.
+The type of device state. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ne-d3d10effect-_d3d10_device_state_types">D3D10_DEVICE_STATE_TYPES</a>.
 
 
 ### -param Entry [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The entry within the device state. This is only relevant for state types that have more than one entry, such as D3D10_DST_GS_SAMPLERS.
 
@@ -82,7 +82,7 @@ The entry within the device state. This is only relevant for state types that ha
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns true if the specified feature is allowed by the mask for capturing and applying, and false otherwise.
 
@@ -94,11 +94,11 @@ Returns true if the specified feature is allowed by the mask for capturing and a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205177(v=VS.85).aspx">Effect Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-functions">Effect Functions</a>
  
 
  

@@ -83,7 +83,7 @@ There is no requirement that the path end with a backslash ("\"). It is up to ap
 Attributes of the exposed shadow copy indicating whether it is exposed locally or remotely. The value must be 
       either the <b>VSS_VOLSNAP_ATTR_EXPOSED_LOCALLY</b> or the 
       <b>VSS_VOLSNAP_ATTR_EXPOSED_REMOTELY</b> value of 
-      <a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>.
      
 
 
@@ -192,7 +192,7 @@ The specified shadow copy does not exist.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -205,7 +205,7 @@ Expected provider error. The provider logged the error in the event log. For mor
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -219,7 +219,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 <td width="60%">
 Unexpected provider error. The error code is logged in the error log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -234,7 +234,7 @@ Unexpected provider error. The error code is logged in the error log. For more i
 
 
 
-The caller is responsible for freeing the string that  the <i>pwszExposed</i> parameter points to by calling the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
+The caller is responsible for freeing the string that  the <i>pwszExposed</i> parameter points to by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 When exposing a persistent shadow copy, it remains exposed through subsequent boots.
 
@@ -251,7 +251,7 @@ When exposed as a file share, subsets (indicated by <i>wszPathFromRoot</i>) of t
    
 
 For more information on how to expose shadow copies, see 
-    <a href="https://msdn.microsoft.com/0898c2dc-992a-411b-81df-4f5e129f6a80">Exposing and Surfacing Shadow Copied
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/exposing-and-surfacing-shadow-copied-volumes">Exposing and Surfacing Shadow Copied
     Volumes</a>.
    
 
@@ -263,23 +263,23 @@ For more information on how to expose shadow copies, see
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f28c841-5448-4ed7-b76e-0aa5376fd8bf">IVssBackupComponents::ImportSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-importsnapshots">IVssBackupComponents::ImportSnapshots</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6946b65-b142-41b9-88c0-a1b11caba08e">IVssBackupComponentsEx2::UnexposeSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-unexposesnapshot">IVssBackupComponentsEx2::UnexposeSnapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/e64b36d6-4f10-42bd-9ad4-00aba90e9715">VSS_PWSZ</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_PWSZ</a>
 
 
 
-<a href="https://msdn.microsoft.com/0326a81e-036c-4548-9e09-29054e51fadd">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
  
 
  

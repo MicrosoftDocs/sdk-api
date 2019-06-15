@@ -60,7 +60,7 @@ Decodes a message.
 
 ### -param *encoderContext [in]
 
-The decoder instance returned by the <a href="https://msdn.microsoft.com/85311349-5c82-4545-8a2b-d8b9e629f04d">WS_CREATE_DECODER_CALLBACK</a>.
+The decoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
                 
 
 
@@ -82,7 +82,7 @@ The number of bytes read should be returned here.
               
 
 The number of bytes should be set to 0 when there are no more bytes left.  This indicates
-                 the end of the decoded message data, and will cause <a href="https://msdn.microsoft.com/7cf93467-84f6-4ffb-8329-bc1df119087a">WS_DECODER_END_CALLBACK</a> to
+                 the end of the decoded message data, and will cause <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_callback">WS_DECODER_END_CALLBACK</a> to
                  be invoked.
               
 

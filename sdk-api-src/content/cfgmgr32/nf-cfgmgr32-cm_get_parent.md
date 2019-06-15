@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CM_Get_Parent</b> function obtains a device instance handle to the parent node of a specified device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>) in the local machine's device tree.
+The <b>CM_Get_Parent</b> function obtains a device instance handle to the parent node of a specified device node (<a href="https://docs.microsoft.com/windows-hardware/drivers/">devnode</a>) in the local machine's device tree.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-For information about using a device instance handle that is bound to the local machine, see <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>.
+For information about using a device instance handle that is bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 
 
@@ -97,11 +97,11 @@ For information about using a device instance handle that is bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef92f516-e820-41d0-b267-a7e1d01aa7da">CM_Get_Parent_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_parent_ex">CM_Get_Parent_Ex</a>
  
 
  

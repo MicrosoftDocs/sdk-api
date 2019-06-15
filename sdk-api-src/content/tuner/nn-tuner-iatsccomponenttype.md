@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IATSCComponentType</b> interface represents a component type for a component in an ATSC broadcast. The <a href="https://msdn.microsoft.com/45c0c3ce-1313-4203-a5e6-af4aed8f0324">ATSCComponentType</a> object exposes this interface. Use this interface to determine if an audio stream is in AC-3 format.
+The <b>IATSCComponentType</b> interface represents a component type for a component in an ATSC broadcast. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atsccomponenttype-object">ATSCComponentType</a> object exposes this interface. Use this interface to determine if an audio stream is in AC-3 format.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCComponentType</b> interface inherits from <a href="https://msdn.microsoft.com/10bf35e0-d5bf-41ed-b514-7c1bfaf774a0">IMPEG2ComponentType</a>. <b>IATSCComponentType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCComponentType</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType</a>. <b>IATSCComponentType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IATSCComponentType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f89f59fd-31bf-48d6-9cb3-92504ba095a9">get_Flags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsccomponenttype-get_flags">get_Flags</a>
 </td>
 <td align="left" width="63%">
 Queries whether an audio component is in AC-3 format.
@@ -81,7 +81,7 @@ Queries whether an audio component is in AC-3 format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2959a4c-70a8-43a4-8bc5-4bfc965e8085">put_Flags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsccomponenttype-put_flags">put_Flags</a>
 </td>
 <td align="left" width="63%">
 Specifies whether an audio component is in AC-3 format.
@@ -105,11 +105,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/10bf35e0-d5bf-41ed-b514-7c1bfaf774a0">IMPEG2ComponentType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptEncryptMessage</b> function <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encrypts</a> and <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encodes</a> a message.
+The <b>CryptEncryptMessage</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encrypts</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encodes</a> a message.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CryptEncryptMessage</b> function <a href="https://msdn.microsoft.com/f1ca
 ### -param pEncryptPara [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c683c515-3061-48e3-a64a-2798bd1245b0">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure that contains the encryption parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure that contains the encryption parameters.
 
 The <b>CryptEncryptMessage</b> function does not support the SHA2 OIDs, <b>szOID_DH_SINGLE_PASS_STDDH_SHA256_KDF</b> and  <b>szOID_DH_SINGLE_PASS_STDDH_SHA384_KDF</b>.
 
@@ -73,7 +73,7 @@ Number of elements in the <i>rgpRecipientCert</i> array.
 ### -param rgpRecipientCert [in]
 
 Array of pointers to 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structures that contain the certificates of intended recipients of the message.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structures that contain the certificates of intended recipients of the message.
 
 
 ### -param pbToBeEncrypted [in]
@@ -88,13 +88,13 @@ The size, in bytes, of the message that is to be encrypted.
 
 ### -param pbEncryptedBlob [out]
 
-A pointer to <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> that contains a buffer that receives the encrypted and encoded message. 
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains a buffer that receives the encrypted and encoded message. 
 
 
 
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbEncryptedBlob [in, out]
@@ -114,15 +114,15 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from calls to 
-<a href="https://msdn.microsoft.com/b65dd856-2dfa-4cda-9b2f-b32f3c291470">CryptGenKey</a>, 
-<a href="https://msdn.microsoft.com/697c4960-552b-4c3a-95cf-4632af56945b">CryptEncrypt</a>, 
-<a href="https://msdn.microsoft.com/f48b6ec9-e03b-43b0-9f22-120ae93d934c">CryptImportKey</a>, and 
-<a href="https://msdn.microsoft.com/8a7c7b46-3bea-4043-b568-6d91d6335737">CryptExportKey</a> can be propagated to this function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt">CryptEncrypt</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> can be propagated to this function.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns the following error codes most often.
+The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the following error codes most often.
 
 <table>
 <tr>
@@ -147,15 +147,15 @@ If the buffer specified by the <i>pbEncryptedBlob</i> parameter is not large eno
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a> is not valid. Currently only PKCS_7_ASN_ENCODING is supported. The <b>cbSize</b> in *<i>pEncryptPara</i> is not valid.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> is not valid. Currently only PKCS_7_ASN_ENCODING is supported. The <b>cbSize</b> in *<i>pEncryptPara</i> is not valid.
 
 </td>
 </tr>
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -165,7 +165,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

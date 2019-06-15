@@ -84,12 +84,12 @@ Returns an <b>HRESULT</b> value.
 
 
 
-The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Video Renderer</a> filter and the Video Mixing Renderer (VMR) implement this method differently.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter and the Video Mixing Renderer (VMR) implement this method differently.
 
 <h3><a id="Video_Renderer_only_"></a><a id="video_renderer_only_"></a><a id="VIDEO_RENDERER_ONLY_"></a>Video Renderer only:</h3>
 This method fails if the renderer is using DirectDraw acceleration. Unfortunately, this depends on the end-user's hardware configuration, so in practice this method is not reliable.
 
-Pause the Video Renderer before calling this method. Otherwise, the method returns VFW_E_NOT_PAUSED. Make sure that the pause operation has completed by calling <a href="https://msdn.microsoft.com/en-us/library/Dd390172(v=VS.85).aspx">IMediaControl::GetState</a>; if the pause operation has not completed, the <b>GetCurrentImage</b> method returns E_UNEXPECTED. Depending on what data the source filter has available, the video renderer is not guaranteed to service this request. If no image is available, it returns E_FAIL.
+Pause the Video Renderer before calling this method. Otherwise, the method returns VFW_E_NOT_PAUSED. Make sure that the pause operation has completed by calling <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-getstate">IMediaControl::GetState</a>; if the pause operation has not completed, the <b>GetCurrentImage</b> method returns E_UNEXPECTED. Depending on what data the source filter has available, the video renderer is not guaranteed to service this request. If no image is available, it returns E_FAIL.
 
 <h3><a id="Video_Mixing_Renderer_only_"></a><a id="video_mixing_renderer_only_"></a><a id="VIDEO_MIXING_RENDERER_ONLY_"></a>Video Mixing Renderer only:</h3>
 This method is reliable regardless of whether the VMR is using DirectDraw acceleration and regardless of the current graph state (running, stopped, or paused).
@@ -99,7 +99,7 @@ This method is reliable regardless of whether the VMR is using DirectDraw accele
 To obtain the required buffer size to hold the image, call this method with a <b>NULL</b> pointer in the <i>pDIBImage</i> parameter. The method returns the required buffer size in the <i>pBufferSize</i> parameter. Allocate a buffer of that size and call the method again, with <i>pDIBImage</i> pointing to the buffer. On the second call, use <i>pBufferSize</i> to specify the buffer size. If the buffer is too small to hold the complete image, the method returns E_OUTOFMEMORY. 
 
 
-If the method succeeds, the buffer is filled with the entire DIB image, including the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure, plus any palette entries and bit masks as defined in the Win32 <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure. The format of the image depends on the type provided by the source filter, and cannot be specified in advance.
+If the method succeeds, the buffer is filled with the entire DIB image, including the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure, plus any palette entries and bit masks as defined in the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure. The format of the image depends on the type provided by the source filter, and cannot be specified in advance.
 
 
 
@@ -110,11 +110,11 @@ If the method succeeds, the buffer is filled with the entire DIB image, includin
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
  
 
  

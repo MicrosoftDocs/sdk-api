@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capCaptureSequenceNoFile</b> macro initiates streaming video capture without writing data to a file. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/60cbcb62-3bfa-4182-a049-1e3cb2ede423">WM_CAP_SEQUENCE_NOFILE</a> message.
+The <b>capCaptureSequenceNoFile</b> macro initiates streaming video capture without writing data to a file. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-sequence-nofile">WM_CAP_SEQUENCE_NOFILE</a> message.
 
 
 
@@ -71,27 +71,27 @@ Handle to a capture window.
 
 This message is useful in conjunction with video stream or waveform-audio stream callback functions that let your application use the video and audio data directly.
 
-If you want to alter the parameters controlling streaming capture, use the <a href="https://msdn.microsoft.com/663dcb34-6b11-4208-b5d6-216799fb774d">capCaptureSetSetup</a> macro prior to starting the capture.
+If you want to alter the parameters controlling streaming capture, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturesetsetup">capCaptureSetSetup</a> macro prior to starting the capture.
 
-By default, the capture window does not allow other applications to continue running during capture. To override this, either set the <b>fYield</b> member of the <a href="https://msdn.microsoft.com/6bf7e374-5991-4a7b-984a-628d3e77b2d7">CAPTUREPARMS</a> structure to <b>TRUE</b>, or install a yield callback function.
+By default, the capture window does not allow other applications to continue running during capture. To override this, either set the <b>fYield</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-tagcaptureparms">CAPTUREPARMS</a> structure to <b>TRUE</b>, or install a yield callback function.
 
 During streaming capture, the capture window can optionally issue notifications to your application of specific types of conditions. To install callback procedures for these notifications, use the following macros:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1f9d3dba-be6d-4f7d-a80c-5bca8632e13f">capSetCallbackOnError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7024aa3e-d227-4c22-8259-6299e9205f53">capSetCallbackOnStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonstatus">capSetCallbackOnStatus</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c2e783a5-829b-4fa2-995a-c0cb4e63645b">capSetCallbackOnVideoStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonvideostream">capSetCallbackOnVideoStream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/282386af-506b-4be6-bb75-aa3c62f9778a">capSetCallbackOnWaveStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonwavestream">capSetCallbackOnWaveStream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/efddbcbc-f1e3-451c-928e-984eea187de2">capSetCallbackOnYield</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonyield">capSetCallbackOnYield</a>
 </li>
 </ul>
 
@@ -102,11 +102,11 @@ During streaming capture, the capture window can optionally issue notifications 
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

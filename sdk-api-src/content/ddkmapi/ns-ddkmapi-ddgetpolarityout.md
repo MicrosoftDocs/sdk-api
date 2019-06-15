@@ -59,7 +59,7 @@ The DDGETPOLARITYOUT structure contains the requested polarity information.
 
 ### -field ddRVal
 
-Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for <a href="https://msdn.microsoft.com/613fe2ac-010a-493c-87eb-aa7503673e9e">DD_DXAPI_GET_POLARITY</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550660(v=vs.85)">DD_DXAPI_GET_POLARITY</a> operations. A return code of DD_OK indicates success.
 
 
 ### -field bPolarity
@@ -72,11 +72,11 @@ Specifies whether the field is an even or odd field of an interlaced video signa
 
 
 
-<a href="https://msdn.microsoft.com/613fe2ac-010a-493c-87eb-aa7503673e9e">DD_DXAPI_GET_POLARITY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550660(v=vs.85)">DD_DXAPI_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

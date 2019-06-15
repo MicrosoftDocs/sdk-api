@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/156c5aa2-125f-4ffd-b3eb-4dfed280255b">InstallationImpact</a> enumeration that  indicates how the installation or uninstallation of the update  affects  the computer.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-taginstallationimpact">InstallationImpact</a> enumeration that  indicates how the installation or uninstallation of the update  affects  the computer.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74">IInstallationBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>
  
 
  

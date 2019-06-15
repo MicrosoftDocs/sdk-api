@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 MMC_NOTIFY_TYPE enumeration defines the notifications of user actions that can be sent to a snap-in by the console's Node Manager when it calls 
-<a href="https://msdn.microsoft.com/8679396e-23d0-4418-987a-c72b1508e7b9">IComponentData::Notify</a>, 
-<a href="https://msdn.microsoft.com/38c3b31f-356c-46cf-904a-98241c0f199f">IComponent::Notify</a>, or 
-<a href="https://msdn.microsoft.com/124656df-5d12-4de1-9a71-ba080ef36611">IExtendControlbar::ControlbarNotify</a>. For more information, see <a href="https://msdn.microsoft.com/8d5aa622-5668-495a-bc3a-25b863fbcb81">MMC Notifications</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>.
 
 
 ## -enum-fields
@@ -242,7 +242,7 @@ Sent by MMC to determine whether the snap-in supports paste operations from anot
 
 
 
-<a href="https://msdn.microsoft.com/8d5aa622-5668-495a-bc3a-25b863fbcb81">MMC Notifications</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>
  
 
  

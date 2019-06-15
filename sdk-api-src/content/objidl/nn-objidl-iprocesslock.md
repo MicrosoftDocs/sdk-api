@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The use of this interface is not recommended; use the <a href="https://msdn.microsoft.com/acce67ef-3290-4892-b56a-77a256776c80">IProcessInitControl</a> interface instead.]
+<p class="CCE_Message">[The use of this interface is not recommended; use the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> interface instead.]
 
-Used by <a href="https://msdn.microsoft.com/01773aa6-3eb5-43dd-8a10-d1351a07fe1f">ISurrogateService</a> to prevent the process from terminating due to a time-out.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a> to prevent the process from terminating due to a time-out.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProcessLock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c82273f-7303-45c2-92e2-48ffab094756">AddRefOnProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprocesslock-addrefonprocess">AddRefOnProcess</a>
 </td>
 <td align="left" width="63%">
 Increments the reference count of the process.
@@ -80,7 +80,7 @@ Increments the reference count of the process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0943afc-b20f-4082-b561-552370a630a1">ReleaseRefOnProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprocesslock-releaserefonprocess">ReleaseRefOnProcess</a>
 </td>
 <td align="left" width="63%">
 Decrements the reference count of the process.
@@ -95,7 +95,7 @@ Decrements the reference count of the process.
 
 
 
-<a href="https://msdn.microsoft.com/acce67ef-3290-4892-b56a-77a256776c80">IProcessInitControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a>
  
 
  

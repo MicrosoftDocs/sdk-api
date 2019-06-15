@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies which variable-length coding (VLC) table to use for entropy coding. This enumeration is used with the <a href="https://msdn.microsoft.com/caa17027-8f11-47d3-83da-7ca83b27c978">AVEncMPVIntraVLCTable</a> property.
+Specifies which variable-length coding (VLC) table to use for entropy coding. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvintravlctable-property">AVEncMPVIntraVLCTable</a> property.
 
 
 
@@ -80,11 +80,11 @@ The encoder uses the alternate "intra" VLC table for MPEG-2.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

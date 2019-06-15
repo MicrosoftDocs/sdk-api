@@ -54,8 +54,8 @@ The
 
 The 
 <b>MMC_FILTER_TYPE</b> enumeration defines the filter type that is associated with a filter applied to a column in a filtered list. The values can be used in the <i>dwType</i> parameter of the 
-<a href="https://msdn.microsoft.com/df1257ee-66c4-4b63-a9c5-1bd0b94b4a85">IHeaderCtrl2::SetColumnFilter</a> method and the <i>pdwType</i> parameter of the 
-<a href="https://msdn.microsoft.com/2daf15ac-4de2-422d-9ac0-b592090468ed">IHeaderCtrl2::GetColumnFilter</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a> method and the <i>pdwType</i> parameter of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">IHeaderCtrl2::GetColumnFilter</a> method.
 
 
 ## -enum-fields
@@ -76,10 +76,10 @@ Integer filter.
 ### -field MMC_FILTER_NOVALUE
 
 When used by the 
-<a href="https://msdn.microsoft.com/df1257ee-66c4-4b63-a9c5-1bd0b94b4a85">IHeaderCtrl2::SetColumnFilter</a> method, the snap-in sets the flag to clear the column filter.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a> method, the snap-in sets the flag to clear the column filter.
 
 When used by the 
-<a href="https://msdn.microsoft.com/2daf15ac-4de2-422d-9ac0-b592090468ed">IHeaderCtrl2::GetColumnFilter</a> method, the flag is set to indicate that the column filter is empty.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">IHeaderCtrl2::GetColumnFilter</a> method, the flag is set to indicate that the column filter is empty.
 
 
 ## -remarks
@@ -98,11 +98,11 @@ When reading filter data, if no value has been entered by the snap-in or the use
 
 
 
-<a href="https://msdn.microsoft.com/2daf15ac-4de2-422d-9ac0-b592090468ed">IHeaderCtrl2::GetColumnFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">IHeaderCtrl2::GetColumnFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/df1257ee-66c4-4b63-a9c5-1bd0b94b4a85">IHeaderCtrl2::SetColumnFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a>
  
 
  

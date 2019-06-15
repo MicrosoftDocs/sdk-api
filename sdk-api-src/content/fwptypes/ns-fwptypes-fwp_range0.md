@@ -61,14 +61,14 @@ The <b>FWP_RANGE0</b> structure specifies a range of values.
 
 Low value of the range.
 
-See <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0_">FWP_VALUE0</a> for more information.
 
 
 ### -field valueHigh
 
 High value of the range.
 
-See <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0_">FWP_VALUE0</a> for more information.
 
 
 ## -remarks
@@ -81,7 +81,7 @@ The elements <b>valueLow</b> and <b>valueHigh</b> must be the same data type and
 Ranges are always inclusive. Thus, if a value equals
 <b>valueLow</b> or <b>valueHigh</b>, it is contained in the range.
 
-<b>FWP_RANGE0</b> is a specific implementation of FWP_RANGE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWP_RANGE0</b> is a specific implementation of FWP_RANGE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -91,11 +91,11 @@ Ranges are always inclusive. Thus, if a value equals
 
 
 
-<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0_">FWP_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

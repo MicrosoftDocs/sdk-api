@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes an XSD type. This structure is populated by <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>.
+Describes an XSD type. This structure is populated by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ## -struct-fields

@@ -107,7 +107,7 @@ This device service command is not allowed for calling process privileges.
 </dl>
 </td>
 <td width="60%">
-The length of the <i>deviceServiceData</i> is greater than the supported <a href="https://msdn.microsoft.com/E6E29974-083D-4EC8-A4FF-5AACE7435444">MaxDataSize</a>.
+The length of the <i>deviceServiceData</i> is greater than the supported <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxdatasize">MaxDataSize</a>.
 
 </td>
 </tr>
@@ -143,11 +143,11 @@ An error was encountered when executing this method.
 
 
 
-<b>WriteData</b> passes a bulk data to a vendor-specific device service on the device. The Mobile Broadband service will forward this request to the device. <i>deviceServiceData</i> will be copied byte-by-byte into the data buffer passed in to the request. This data buffer must be less than <a href="https://msdn.microsoft.com/E6E29974-083D-4EC8-A4FF-5AACE7435444">MaxDataSize</a> bytes.
+<b>WriteData</b> passes a bulk data to a vendor-specific device service on the device. The Mobile Broadband service will forward this request to the device. <i>deviceServiceData</i> will be copied byte-by-byte into the data buffer passed in to the request. This data buffer must be less than <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxdatasize">MaxDataSize</a> bytes.
 
 The data session must be opened before the application can call <b>WriteData</b>. The operating system does not provide guarantees on the latency or performance of <b>WriteData</b>.
 
-This is an asynchronous operation and <b>WriteData</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://msdn.microsoft.com/2C885E15-C689-4ADF-BFB0-24D03932FAC7">OnWriteDataComplete</a> method of the <a href="https://msdn.microsoft.com/66A388D0-C704-45D2-AD56-4F81E1928774">IMbnDeviceServicesEvents</a> interface.
+This is an asynchronous operation and <b>WriteData</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onwritedatacomplete">OnWriteDataComplete</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
 
 
 
@@ -157,7 +157,7 @@ This is an asynchronous operation and <b>WriteData</b> will return immediately. 
 
 
 
-<a href="https://msdn.microsoft.com/5C587408-DF03-4123-BA5A-C2CCC378F60A">IMbnDeviceService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
  
 
  

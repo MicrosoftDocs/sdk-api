@@ -62,7 +62,7 @@ Represents a bitmap effect that modifies the rasterization of a visual's subtree
 
 
 
-More than one effect can be simultaneously applied to a visual by using the <a href="https://msdn.microsoft.com/B8C5A4D8-F161-4383-B117-B89E85C65B19">IDCompositionEffectGroup</a> interface.
+More than one effect can be simultaneously applied to a visual by using the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffectgroup">IDCompositionEffectGroup</a> interface.
 
 
 
@@ -72,7 +72,7 @@ More than one effect can be simultaneously applied to a visual by using the <a h
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
  
 
  

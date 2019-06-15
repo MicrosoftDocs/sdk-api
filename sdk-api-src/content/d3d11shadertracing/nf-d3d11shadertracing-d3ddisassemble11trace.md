@@ -160,7 +160,7 @@ A pointer to a buffer that receives the ID3DBlob interface that accesses the dis
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT error code.
 
@@ -181,7 +181,7 @@ D3DDisassemble11Trace walks the steps of a shader trace and outputs appropriate 
 
 
 
-<a href="https://msdn.microsoft.com/4acbd433-c28d-4630-aa0e-25f2fb5c32d0">Shader Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-functions">Shader Functions</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>Stat</b> method retrieves the 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure for this open storage object.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for this open storage object.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ The <b>Stat</b> method retrieves the
 ### -param pstatstg [out]
 
 On return, pointer to a 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure where this method places information about the open storage object. This parameter is <b>NULL</b> if an error occurs.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure where this method places information about the open storage object. This parameter is <b>NULL</b> if an error occurs.
 
 
 ### -param grfStatFlag [in]
 
 Specifies that some of the members in the 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure are not returned, thus saving a memory allocation operation. Values are taken from the 
-<a href="https://msdn.microsoft.com/9070b517-8ca5-455f-baee-0647b1895c08">STATFLAG</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure are not returned, thus saving a memory allocation operation. Values are taken from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag">STATFLAG</a> enumeration.
 
 
 ## -returns
@@ -85,9 +85,9 @@ This method can return one of these values.
 
 
 <b>IStorage::Stat</b> retrieves the 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a> structure for the current storage object. The 
-<b>STATSTG</b> structure contains statistical information about the storage object. <a href="https://msdn.microsoft.com/29ca157e-40e2-4e9a-95fb-a31bb45570f2">IStorage::EnumElements</a> returns a pointer to an enumerator object. The enumerator object returned by this method implements the 
-<a href="https://msdn.microsoft.com/93b8b14e-94e4-460b-9846-413affad8e4f">IEnumSTATSTG</a> interface, through which the data stored in the array of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a> structure for the current storage object. The 
+<b>STATSTG</b> structure contains statistical information about the storage object. <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-enumelements">IStorage::EnumElements</a> returns a pointer to an enumerator object. The enumerator object returned by this method implements the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface, through which the data stored in the array of the 
 <b>STATSTG</b> structures is enumerated.
 
 
@@ -98,31 +98,31 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/93b8b14e-94e4-460b-9846-413affad8e4f">IEnumSTATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a2253f6-d3d3-403e-a9ba-53a541c7a31e">IStorage - Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/02ab2708-fc8b-4941-939a-a819cf823108">IStorage::SetClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setclass">IStorage::SetClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6a1fba4-0444-4de3-a838-2d339878fe24">IStorage::SetElementTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setelementtimes">IStorage::SetElementTimes</a>
 
 
 
-<a href="https://msdn.microsoft.com/52606df8-10ea-40e7-bb61-c86c7b7262d2">IStorage::SetStateBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setstatebits">IStorage::SetStateBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/9070b517-8ca5-455f-baee-0647b1895c08">STATFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagstatflag">STATFLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/54e1df08-de8f-430a-bf76-e66594df4839">STATSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstatstg">STATSTG</a>
  
 
  

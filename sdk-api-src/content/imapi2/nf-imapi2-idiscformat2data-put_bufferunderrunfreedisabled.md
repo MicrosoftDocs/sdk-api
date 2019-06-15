@@ -108,7 +108,7 @@ Buffer underrun can be an issue if the data stream does not enter the buffer fas
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data,IDiscFormat2Data::get_BufferUnderrunFreeDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data,IDiscFormat2Data::get_BufferUnderrunFreeDisabled</a>
  
 
  

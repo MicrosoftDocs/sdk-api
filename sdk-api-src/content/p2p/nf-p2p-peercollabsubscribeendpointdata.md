@@ -59,7 +59,7 @@ The <b>PeerCollabSubscribeEndpointData</b> function creates  a subscription to a
 
 ### -param pcEndpoint [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a> structure that contains the peer endpoint used to obtain presence information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the peer endpoint used to obtain presence information.
 
 
 ## -returns
@@ -122,9 +122,9 @@ This function will timeout at 30 seconds.
 
 <b>PeerCollabSubscribeEndpointData</b> can be called multiple times from different applications for the same endpoint. Each call is reference counted; only when the last reference is released is a peer unsubscribed. To release the reference call <b>PeerCollabUnsubscribeEndpointData</b>.
 
-When an application exits without calling <a href="https://msdn.microsoft.com/af07c7f5-bce2-4479-ad2a-8e501cfb6710">PeerCollabUnsubscribeEndpointData</a>, all of the references for that application are released automatically.
+When an application exits without calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabunsubscribeendpointdata">PeerCollabUnsubscribeEndpointData</a>, all of the references for that application are released automatically.
 
-To successfully call the <a href="https://msdn.microsoft.com/596191a1-94cf-4497-aaf0-951e2c63b145">PeerCollabGetPresenceInfo</a>, <a href="https://msdn.microsoft.com/550cbd9d-5569-485e-897d-73d8bab8430a">PeerCollabEnumApplications</a>, <a href="https://msdn.microsoft.com/a9ac2603-b007-4d1c-ac11-c72aeb06e663">PeerCollabEnumObjects</a>, and <a href="https://msdn.microsoft.com/278c7622-988e-441d-a6b9-f62947f881e8">PeerCollabQueryContactData</a> APIs, an application must first call <b>PeerCollabSubscribeEndpointData</b>.
+To successfully call the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetpresenceinfo">PeerCollabGetPresenceInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabenumapplications">PeerCollabEnumApplications</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabenumobjects">PeerCollabEnumObjects</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a> APIs, an application must first call <b>PeerCollabSubscribeEndpointData</b>.
 
 
 
@@ -134,23 +134,23 @@ To successfully call the <a href="https://msdn.microsoft.com/596191a1-94cf-4497-
 
 
 
-<a href="https://msdn.microsoft.com/550cbd9d-5569-485e-897d-73d8bab8430a">PeerCollabEnumApplications</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabenumapplications">PeerCollabEnumApplications</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9ac2603-b007-4d1c-ac11-c72aeb06e663">PeerCollabEnumObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabenumobjects">PeerCollabEnumObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/596191a1-94cf-4497-aaf0-951e2c63b145">PeerCollabGetPresenceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabgetpresenceinfo">PeerCollabGetPresenceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/278c7622-988e-441d-a6b9-f62947f881e8">PeerCollabQueryContactData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a>
 
 
 
-<a href="https://msdn.microsoft.com/af07c7f5-bce2-4479-ad2a-8e501cfb6710">PeerCollabUnsubscribeEndpointData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabunsubscribeendpointdata">PeerCollabUnsubscribeEndpointData</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>freeRequestInfoBlob</b> method deletes a certificate context. This method was first defined in the <a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a> interface.
+The <b>freeRequestInfoBlob</b> method deletes a certificate context. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>freeRequestInfoBlob</b> method deletes a certificate context. This method
 
 ### -param pkcs7OrPkcs10 [in]
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that specifies the session information whose context is being deleted.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that specifies the session information whose context is being deleted.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
  
 
  

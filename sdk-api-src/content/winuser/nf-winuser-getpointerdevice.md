@@ -69,7 +69,7 @@ The handle to the device.
 
 ### -param pointerDevice [out]
 
-A <a href="https://msdn.microsoft.com/1b909caf-2d69-42b9-8d60-5d89a0286f59">POINTER_DEVICE_INFO</a> structure that contains information about the pointer device.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structure that contains information about the pointer device.
 
 
 ## -returns
@@ -78,7 +78,7 @@ A <a href="https://msdn.microsoft.com/1b909caf-2d69-42b9-8d60-5d89a0286f59">POIN
 
 If this function succeeds, it returns TRUE.
  
-Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -88,7 +88,7 @@ Otherwise, it returns FALSE. To retrieve extended error information, call the <a
 
 
 
-<a href="https://msdn.microsoft.com/44942954-3EA6-4C33-8CF1-E8BF72A914CB">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
  
 
  

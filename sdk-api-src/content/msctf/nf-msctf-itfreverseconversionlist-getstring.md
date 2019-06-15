@@ -124,7 +124,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/2659bade-af85-42c5-bdb3-32eab16753a8">ITfReverseConversionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversionlist">ITfReverseConversionList</a>
  
 
  

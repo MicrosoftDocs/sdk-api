@@ -270,11 +270,11 @@ for (UINT i = 0; i < cInputs; i++){
 
 
 
-<a href="https://msdn.microsoft.com/18caab11-9c22-46ac-b89f-dd3e662bea1e">GetTouchInputInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettouchinputinfo">GetTouchInputInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/591c7218-bd4f-40c2-98e1-6442ede28600">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/structures">Structures</a>
  
 
  

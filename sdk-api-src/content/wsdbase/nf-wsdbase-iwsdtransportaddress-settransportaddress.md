@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the string representation of the transport address.  The format of the string varies, and is determined by the implementing interface (either <a href="https://msdn.microsoft.com/79d3570a-56b2-40ad-b3c6-cddc3239da7e">IWSDHttpAddress</a> or <a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c1982e">IWSDUdpAddress</a>).
+Sets the string representation of the transport address.  The format of the string varies, and is determined by the implementing interface (either <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>).
 
 
 ## -parameters
@@ -122,7 +122,7 @@ Insufficient memory to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/84dfee11-8092-4018-8840-e766a94c60a4">IWSDTransportAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
  
 
  

@@ -88,7 +88,7 @@ Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure. The metho
 </dl>
 </td>
 <td width="60%">
-Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with an <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> format structure.
+Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> format structure.
               
 
 </td>
@@ -121,7 +121,7 @@ Convert the media type to a DirectShow <b>AM_MEDIA_TYPE</b> structure with a <b>
 
 ### -param ppvRepresentation [out]
 
-Receives a pointer to a structure that contains the representation. The method allocates the memory for the structure. The caller must release the memory by calling <a href="https://msdn.microsoft.com/d2007f16-543f-4f05-a44d-b4b4ae8019fb">IMFMediaType::FreeRepresentation</a>.
+Receives a pointer to a structure that contains the representation. The method allocates the memory for the structure. The caller must release the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-freerepresentation">IMFMediaType::FreeRepresentation</a>.
           
 
 
@@ -197,7 +197,7 @@ The media type does not support the requested representation.
 If you request a specific format structure in the <i>guidRepresentation</i> parameter, such as <b>VIDEOINFOHEADER</b>, you might lose some of the format information.
       
 
-You can also use the <a href="https://msdn.microsoft.com/dbb69578-2563-476f-92f4-6b4e2bb2c77a">MFInitAMMediaTypeFromMFMediaType</a> function to convert a Media Foundation media type into a DirectShow media type.
+You can also use the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfinitammediatypefrommfmediatype">MFInitAMMediaTypeFromMFMediaType</a> function to convert a Media Foundation media type into a DirectShow media type.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -214,15 +214,15 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

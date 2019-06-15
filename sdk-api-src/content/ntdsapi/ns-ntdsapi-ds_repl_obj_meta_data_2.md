@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_REPL_OBJ_META_DATA_2</b> structure contains an array of <a href="https://msdn.microsoft.com/392457b7-df69-44d0-82b2-8381d5877354">DS_REPL_ATTR_META_DATA_2</a> structures, which in turn contain replication state data for the attributes (past and present) for a given object, as returned by the 
-<a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> function. This structure is an enhanced version of the <a href="https://msdn.microsoft.com/7851ffbc-5d05-4ea7-b3b4-1b8b77299be5">DS_REPL_OBJ_META_DATA</a> structure.
+The <b>DS_REPL_OBJ_META_DATA_2</b> structure contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2">DS_REPL_ATTR_META_DATA_2</a> structures, which in turn contain replication state data for the attributes (past and present) for a given object, as returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function. This structure is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a> structure.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ Not used.
 
 ### -field rgMetaData
 
-Contains an array of <a href="https://msdn.microsoft.com/392457b7-df69-44d0-82b2-8381d5877354">DS_REPL_ATTR_META_DATA_2</a> structures. The <b>cNumEntries</b> member contains the number of elements in this array.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2">DS_REPL_ATTR_META_DATA_2</a> structures. The <b>cNumEntries</b> member contains the number of elements in this array.
 
 
 ## -see-also
@@ -88,15 +88,15 @@ Contains an array of <a href="https://msdn.microsoft.com/392457b7-df69-44d0-82b2
 
 
 
-<a href="https://msdn.microsoft.com/392457b7-df69-44d0-82b2-8381d5877354">DS_REPL_ATTR_META_DATA_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_attr_meta_data_2">DS_REPL_ATTR_META_DATA_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7851ffbc-5d05-4ea7-b3b4-1b8b77299be5">DS_REPL_OBJ_META_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_obj_meta_data">DS_REPL_OBJ_META_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
  
 
  

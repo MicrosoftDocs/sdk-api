@@ -64,7 +64,7 @@ Receives the digital zoom multiplier.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://msdn.microsoft.com/en-us/library/Dd407327(v=VS.85).aspx">VideoProcAmpFlags</a>.
+Receives one or more flags. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideoprocampflags">VideoProcAmpFlags</a>.
 
 
 ## -returns
@@ -96,7 +96,7 @@ where
 <li>
             Z'cur = Current digital zoom level.</li>
 <li>
-            Z'min, Z'max = Minimum and maximum digital zoom. See <a href="https://msdn.microsoft.com/en-us/library/Dd377241(v=VS.85).aspx">IVideoProcAmp::getRange_DigitalMultiplier</a>.</li>
+            Z'min, Z'max = Minimum and maximum digital zoom. See <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_digitalmultiplier">IVideoProcAmp::getRange_DigitalMultiplier</a>.</li>
 <li>
             m-max = Maximum digital magnification. See KSPROPERTY_VIDEOPROCAMP_DIGITAL_MULTIPLIER_LIMIT, documented in the Windows DDK.</li>
 </ul>
@@ -108,15 +108,15 @@ where
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376315(v=VS.85).aspx">ICameraControl::get_FocalLengths</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_focallengths">ICameraControl::get_FocalLengths</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377236(v=VS.85).aspx">IVideoProcAmp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ivideoprocamp">IVideoProcAmp Interface</a>
  
 
  

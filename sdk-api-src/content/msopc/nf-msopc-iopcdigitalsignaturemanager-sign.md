@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-    Signs the package by generating a signature by using the specified certificate and <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface pointer. The resultant signature is represented by an <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer.
+    Signs the package by generating a signature by using the specified certificate and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a> interface pointer. The resultant signature is represented by an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature</a> interface pointer.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ ms.custom: 19H1
 
 ### -param certificate [in]
 
-A pointer to a <a href="http://msdn.microsoft.com/en-us/library/aa377189(vs.85).aspx">CERT_CONTEXT</a> structure that contains the certificate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains the certificate.
 
 
 ### -param signingOptions [in]
 
-An <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface pointer that is used to generate the signature.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a> interface pointer that is used to generate the signature.
 
 
 ### -param digitalSignature [out, retval]
 
-A new <a href="https://msdn.microsoft.com/cfa38ef6-9d96-4577-a3bf-518784d19ad8">IOpcDigitalSignature</a> interface pointer that represents the signature.
+A new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignature">IOpcDigitalSignature</a> interface pointer that represents the signature.
 
 
 ## -returns
@@ -114,7 +114,7 @@ At least one of the <i>certificate</i>, <i>signingOptions</i>, and <i>digitalSig
 </dl>
 </td>
 <td width="60%">
-The default digest method has not been set; to set it, call <a href="https://msdn.microsoft.com/8de18a0e-cb3a-4232-90cb-718abdc9fb28">IOpcSigningOptions::SetDefaultDigestMethod</a>.
+The default digest method has not been set; to set it, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setdefaultdigestmethod">IOpcSigningOptions::SetDefaultDigestMethod</a>.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Cannot get the  digest value of a package component or an element in the signatu
 </dl>
 </td>
 <td width="60%">
-The signature's time format is not a valid <a href="https://msdn.microsoft.com/9b8ff585-5795-48ce-b2fd-a49e3d34ccb9">OPC_SIGNATURE_TIME_FORMAT</a> enumeration value.
+The signature's time format is not a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0005">OPC_SIGNATURE_TIME_FORMAT</a> enumeration value.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ The signature's time format is not a valid <a href="https://msdn.microsoft.com/9
 </dl>
 </td>
 <td width="60%">
-An indicated  relationship signing option is not a valid <a href="https://msdn.microsoft.com/b6a83730-459a-4119-a013-7d670e659c32">OPC_RELATIONSHIPS_SIGNING_OPTION</a> enumeration value.
+An indicated  relationship signing option is not a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0003">OPC_RELATIONSHIPS_SIGNING_OPTION</a> enumeration value.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ A signature in the package is not properly formed. Cannot get the signature valu
 </dl>
 </td>
 <td width="60%">
-The signature method has not been set.  Call <a href="https://msdn.microsoft.com/b567b09a-e688-4c02-8c01-983a307fd0e2">IOpcSigningOptions::SetSignatureMethod</a> to set the signature method.
+The signature method has not been set.  Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setsignaturemethod">IOpcSigningOptions::SetSignatureMethod</a> to set the signature method.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ The specified part does not exist.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/0468cece-6449-4772-82c9-e3f410c34e46">Cryptography</a> API.
+An <b>HRESULT</b> error code from a <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-return-values">Cryptography</a> API.
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/0468cece
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/en-us/library/Dd430435(v=VS.85).aspx">Windows Web Services</a> API.
+An <b>HRESULT</b> error code from a <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Windows Web Services</a> API.
 
 </td>
 </tr>
@@ -224,11 +224,11 @@ An <b>HRESULT</b> error code from a <a href="https://msdn.microsoft.com/en-us/li
 
 This method uses Packaging objects to make changes to a package. The resultant changes are not saved until the package itself is  saved.
 
- Before this  method is called to generate a signature, call the <a href="https://msdn.microsoft.com/8de18a0e-cb3a-4232-90cb-718abdc9fb28">IOpcSigningOptions::SetDefaultDigestMethod</a> and <a href="https://msdn.microsoft.com/b567b09a-e688-4c02-8c01-983a307fd0e2">IOpcSigningOptions::SetSignatureMethod</a> methods.
+ Before this  method is called to generate a signature, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setdefaultdigestmethod">IOpcSigningOptions::SetDefaultDigestMethod</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setsignaturemethod">IOpcSigningOptions::SetSignatureMethod</a> methods.
 
-To create an <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface pointer, which is required by this method, call the <a href="https://msdn.microsoft.com/c58f9730-b2c2-40cd-8aae-03fbd09f8c76">CreateSigningOptions</a> method. 
+To create an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a> interface pointer, which is required by this method, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignaturemanager-createsigningoptions">CreateSigningOptions</a> method. 
 
-<div class="alert"><b>Important</b>  If the package is modified while this method is being executed, <b>Sign</b> may fail or generate an inconsistent signature. To avoid corruption of the package, use the APIs to save the package prior to calling <b>Sign</b>. For information about how to save a package, see  <a href="https://msdn.microsoft.com/120436c8-7a12-4d48-be84-a02bbb672c7f">Saving a Package</a>.</div>
+<div class="alert"><b>Important</b>  If the package is modified while this method is being executed, <b>Sign</b> may fail or generate an inconsistent signature. To avoid corruption of the package, use the APIs to save the package prior to calling <b>Sign</b>. For information about how to save a package, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/saving-a-package">Saving a Package</a>.</div>
 <div> </div>
 This method may create the following parts and relationships:<ul>
 <li>The Digital Signature Origin part</li>
@@ -244,14 +244,14 @@ If <b>Sign</b> fails, any of the above parts and relationships may be represente
 
 If <b>Sign</b> is successful, digest values are calculated for signed enitities, and the generated signature is serialized as signature markup. Possible signed entities include the <b>Signature</b> element, references, parts, relationships,  and package-specific and application-specific <b>Object</b> elements.
 
-Errors that are introduced into a package signature when the caller is using the <a href="https://msdn.microsoft.com/5fb66c8f-2eb2-48c3-8e6f-04a1c509f6ec">IOpcSigningOptions</a> interface to set signature information may not be exposed until <b>Sign</b> is called.
+Errors that are introduced into a package signature when the caller is using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a> interface to set signature information may not be exposed until <b>Sign</b> is called.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>.
+For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 
 
@@ -261,23 +261,23 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/62069595-0d1e-44e5-b68d-2bb0c355c565">Core Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/e523b335-0156-4f47-b55c-b80495587c4f">Digital Certificates</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/digital-certificates">Digital Certificates</a>
 
 
 
-<a href="https://msdn.microsoft.com/d81f6569-6c95-4bb7-9d1d-51e10701b970">Digital Signatures Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/digital-signatures-overview">Digital Signatures Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://msdn.microsoft.com/13e8a7b9-1d25-421b-bc81-adc495e6d9c7">IOpcDigitalSignatureManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignaturemanager">IOpcDigitalSignatureManager</a>
 
 
 
@@ -285,23 +285,23 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/cb35d87e-bbec-42d3-9f9d-d1cf36f39419">Packaging API Programming Guide</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd">Packaging API Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/76455a88-81be-45d9-a682-2ba43038b43f">Packaging Digital Signature Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0e9f38f-ab35-4fc2-855c-ea21bf164223">Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 
@@ -309,7 +309,7 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/120436c8-7a12-4d48-be84-a02bbb672c7f">Saving a Package</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/saving-a-package">Saving a Package</a>
  
 
  

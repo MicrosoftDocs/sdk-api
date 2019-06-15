@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NCryptImportKey</b> function imports a Cryptography API: Next Generation (CNG) key from a memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
+The <b>NCryptImportKey</b> function imports a Cryptography API: Next Generation (CNG) key from a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The handle of the key storage provider.
 
 ### -param hImportKey [in, optional]
 
-The handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic key</a> with which the key data within the imported <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a> was encrypted. This must be a handle to the same key that was passed in the <i>hExportKey</i> parameter of the <a href="https://msdn.microsoft.com/1588eb29-4026-4d1c-8bee-a035df38444a">NCryptExportKey</a> function. If this parameter is <b>NULL</b>, the key BLOB is assumed to not be encrypted.
+The handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic key</a> with which the key data within the imported <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> was encrypted. This must be a handle to the same key that was passed in the <i>hExportKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> function. If this parameter is <b>NULL</b>, the key BLOB is assumed to not be encrypted.
 
 
 ### -param pszBlobType [in]
@@ -74,12 +74,12 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 
 ### -param pParameterList [in, optional]
 
-The address of an <a href="https://msdn.microsoft.com/ae4673ab-81cd-4604-bafa-8d8c66003aba">NCryptBufferDesc</a> structure that points to an array of buffers that contain parameter information for the key.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that points to an array of buffers that contain parameter information for the key.
 
 
 ### -param phKey [out]
 
-The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="https://msdn.microsoft.com/a5535cf9-ba8c-4212-badd-f1dc88903624">NCryptFreeObject</a> function.
+The address of an <b>NCRYPT_KEY_HANDLE</b> variable that receives the handle of the key. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
 
 
 ### -param pbData [in]
@@ -222,7 +222,7 @@ The following constants are supported by the Microsoft software KSP for the <i>p
 
 If a key name is not supplied, the Microsoft Software KSP treats the key as ephemeral and does not store it persistently. For the <b>NCRYPT_OPAQUETRANSPORT_BLOB</b> type, the key name is stored within the BLOB when it is exported. For other BLOB formats, the name can be supplied in an <b> NCRYPTBUFFER_PKCS_KEY_NAME</b> buffer parameter within the <i>pParameterList</i> parameter. 
 
-On Windows Server 2008 and Windows Vista,  only keys imported as PKCS #7 envelope BLOBs (<b>NCRYPT_PKCS7_ENVELOPE_BLOB</b>) or PKCS #8 private key BLOBs (<b>NCRYPT_PKCS8_PRIVATE_KEY_BLOB</b>) can be persisted by using the above method. To persist keys imported through other BLOB types on these platforms, use the method documented in <a href="https://msdn.microsoft.com/37bda1e0-5dd2-455c-9627-4e7e1b0e04d3">Key Import and Export</a>.
+On Windows Server 2008 and Windows Vista,  only keys imported as PKCS #7 envelope BLOBs (<b>NCRYPT_PKCS7_ENVELOPE_BLOB</b>) or PKCS #8 private key BLOBs (<b>NCRYPT_PKCS8_PRIVATE_KEY_BLOB</b>) can be persisted by using the above method. To persist keys imported through other BLOB types on these platforms, use the method documented in <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-import-and-export">Key Import and Export</a>.
 
 The following flags are supported by this KSP.
 
@@ -250,7 +250,7 @@ Do not validate the public portion of the key pair. This flag only
 
 </td>
 <td width="60%">
-Do not finalize the key. This option is useful when you need to add or modify properties of the key after importing it. You must finalize the key before it can be used by passing the key handle to the <a href="https://msdn.microsoft.com/4386030d-4ce6-4b2e-adc5-a15ddc869349">NCryptFinalizeKey</a> function. This flag is supported for the private keys PKCS #7 and PKCS #8 but not public keys.
+Do not finalize the key. This option is useful when you need to add or modify properties of the key after importing it. You must finalize the key before it can be used by passing the key handle to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfinalizekey">NCryptFinalizeKey</a> function. This flag is supported for the private keys PKCS #7 and PKCS #8 but not public keys.
 
 </td>
 </tr>
@@ -319,7 +319,7 @@ If the key container name is <b>NULL</b>, the Microsoft Smart Card KSP treats th
 
 
 
-<a href="https://msdn.microsoft.com/474d3c0d-ae14-448a-a56d-25abc7e5de88">NCryptBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a>
  
 
  

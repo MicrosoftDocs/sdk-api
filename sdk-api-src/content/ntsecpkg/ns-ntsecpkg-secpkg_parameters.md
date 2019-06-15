@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SECPKG_PARAMETERS</b> structure contains information about the computer system. This structure is used by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ The state of the machine. The following table lists the valid values.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> may use encryption.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> may use encryption.
 
 </td>
 </tr>

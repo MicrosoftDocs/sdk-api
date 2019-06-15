@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a value that indicates whether an implemented <a href="https://msdn.microsoft.com/en-us/library/Bb266440(v=VS.85).aspx">ISearchLanguageSupport</a> interface is sensitive to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation. 
+Sets a value that indicates whether an implemented <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchlanguagesupport">ISearchLanguageSupport</a> interface is sensitive to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation. 
 
 
 ## -parameters

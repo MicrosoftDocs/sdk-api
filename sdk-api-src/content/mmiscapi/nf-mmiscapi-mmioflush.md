@@ -65,7 +65,7 @@ The <b>mmioFlush</b> function writes the I/O buffer of a file to disk if the buf
 
 ### -param hmmio
 
-File handle of a file opened by using the <a href="https://msdn.microsoft.com/7361f0f2-1c3c-49f1-aec1-2927e05ef0f0">mmioOpen</a> function.
+File handle of a file opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
 
 
 ### -param fuFlush
@@ -119,9 +119,9 @@ The contents of the buffer could not be written to disk.
 
 
 
-Closing a file with the <a href="https://msdn.microsoft.com/90cc83b5-cd2c-41f1-8bb1-b51bcc894f80">mmioClose</a> function automatically flushes its buffer.
+Closing a file with the <a href="https://docs.microsoft.com/previous-versions//dd757316(v=vs.85)">mmioClose</a> function automatically flushes its buffer.
 
-If there is insufficient disk space to write the buffer, <b>mmioFlush</b> fails, even if the preceding calls of the <a href="https://msdn.microsoft.com/e47d00ba-ad29-4a23-8a7c-604bedac10e7">mmioWrite</a> function were successful.
+If there is insufficient disk space to write the buffer, <b>mmioFlush</b> fails, even if the preceding calls of the <a href="https://docs.microsoft.com/previous-versions//dd757341(v=vs.85)">mmioWrite</a> function were successful.
 
 
 

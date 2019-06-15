@@ -73,11 +73,11 @@ The SmallChange property can support a Not a Number (NaN) value. When retrieving
 
 
 
-<a href="https://msdn.microsoft.com/145c14e5-1b6b-4eb1-a73a-aa59b5e1b4c4">IUIAutomationRangeValuePattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationrangevaluepattern">IUIAutomationRangeValuePattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/d97addfd-53ae-4445-9f77-d24d97644bfc">IUIAutomationRangeValuePattern::CachedLargeChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_cachedlargechange">IUIAutomationRangeValuePattern::CachedLargeChange</a>
  
 
  

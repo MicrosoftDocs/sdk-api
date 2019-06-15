@@ -82,15 +82,15 @@ The report will run in response to a quota or file screen event.
 
 
 
-<a href="https://msdn.microsoft.com/74f369d1-2e3d-49a5-bf54-c1b7c13efbd7">IFsrmReportJob::Run</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-run">IFsrmReportJob::Run</a>
 
 
 
-<a href="https://msdn.microsoft.com/90df1a6e-e2e6-4095-8337-61bfd172e203">IFsrmReportManager::GetOutputDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getoutputdirectory">IFsrmReportManager::GetOutputDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bbc4255-1fed-45c5-bb13-41ee7c47ed56">IFsrmReportManager::SetOutputDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">IFsrmReportManager::SetOutputDirectory</a>
  
 
  

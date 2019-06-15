@@ -157,11 +157,11 @@ The parameters <i>dwDesiredAccess</i> and <i>dwShareMode</i> are identical to th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757233(v=VS.85).aspx">IWMMetadataEditor2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor2">IWMMetadataEditor2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757237(v=VS.85).aspx">IWMMetadataEditor::Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-open">IWMMetadataEditor::Open</a>
  
 
  

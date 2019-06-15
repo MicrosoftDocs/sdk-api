@@ -115,7 +115,7 @@ Time at which the event tracing session stopped, in 100-nanosecond intervals sin
 
 ### -field TimerResolution
 
-Resolution of the hardware timer, in units of 100 nanoseconds. For usage, see the Remarks for <a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a>.
+Resolution of the hardware timer, in units of 100 nanoseconds. For usage, see the Remarks for <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>.
 
 
 ### -field MaximumFileSize
@@ -126,7 +126,7 @@ Maximum size of the log file, in megabytes.
 ### -field LogFileMode
 
 Current logging mode for the event tracing session. For a list of values, see 
-<a href="https://msdn.microsoft.com/d12aaecb-776a-4476-9ba4-16af30fde9c2">Logging Mode Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/logging-mode-constants">Logging Mode Constants</a>.
 
 
 ### -field BuffersWritten
@@ -190,7 +190,7 @@ The name of the event tracing log file is the second null-terminated string foll
 ### -field TimeZone
 
 A 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure that contains the time zone for the <b>BootTime</b>, <b>EndTime</b> and <b>StartTime</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure that contains the time zone for the <b>BootTime</b>, <b>EndTime</b> and <b>StartTime</b> members.
 
 
 ### -field BootTime
@@ -210,7 +210,7 @@ Time at which the event tracing session started, in 100-nanosecond intervals sin
 
 ### -field ReservedFlags
 
-Specifies the clock type. For details, see the <b>ClientContext</b> member of <a href="https://msdn.microsoft.com/862a8f46-a326-48c6-92b7-8bb667837bb7">WNODE_HEADER</a>.
+Specifies the clock type. For details, see the <b>ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>.
 
 
 ### -field BuffersLost
@@ -224,7 +224,7 @@ Total number of buffers lost during the event tracing session.
 
 Be sure to initialize the memory for this structure to zero before setting any members.
 
-The first event from any log file contains the data defined in this structure. You can use this structure to access the  event data or you can use the <a href="https://msdn.microsoft.com/3d0c4044-da06-4850-95c4-99b4ea28fcd9">EventTrace_Header</a> MOF class to decode the event data. Using this structure to read the event data may return unexpected results if the consumer is on a different computer from the one that generated the log file or the log file was written in a WOW (32-bit) session on a 64-bit computer. This is because the <b>LoggerName</b> and <b>LogFileName</b> members are pointers and can vary in size depending on the <b>PointerSize</b> member. 
+The first event from any log file contains the data defined in this structure. You can use this structure to access the  event data or you can use the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventtrace-header">EventTrace_Header</a> MOF class to decode the event data. Using this structure to read the event data may return unexpected results if the consumer is on a different computer from the one that generated the log file or the log file was written in a WOW (32-bit) session on a 64-bit computer. This is because the <b>LoggerName</b> and <b>LogFileName</b> members are pointers and can vary in size depending on the <b>PointerSize</b> member. 
 
 
 
@@ -234,15 +234,15 @@ The first event from any log file contains the data defined in this structure. Y
 
 
 
-<a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_large_integer">LARGE_INTEGER</a>
 
 
 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>
  
 
  

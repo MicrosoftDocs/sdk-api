@@ -54,7 +54,7 @@ Exposes methods for interacting with Shell data sources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CItemIDFactory</b> class inherits from <a href="https://msdn.microsoft.com/16db01f3-4167-43f0-9ef7-34eec906e199">IDelegateFolder</a>. <b>CItemIDFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CItemIDFactory</b> class inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>. <b>CItemIDFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>CItemIDFactory</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2129F4F3-A989-4CE2-ABFF-FE83DD78D4CE">CreateItemID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-createitemid">CreateItemID</a>
 </td>
 <td align="left" width="63%">
 Creates an ItemID from the supplied data.
@@ -78,7 +78,7 @@ Creates an ItemID from the supplied data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E3E2233D-F424-4BF9-AAC4-4DC2FB75E214">GetDataFromIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getdatafromidlist(pcuidlist_relative)">GetDataFromIDList</a>
 </td>
 <td align="left" width="63%">
 Gets a read only pointer to the client provided structure in the first ItemID in the IDList.
@@ -87,15 +87,15 @@ Gets a read only pointer to the client provided structure in the first ItemID in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D">GetPropertyFromIDList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh289343(v=vs.85)">GetPropertyFromIDList</a>
 </td>
-<td align="left" width="63%">Overloaded. Returns a property from the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> within the IDList.
+<td align="left" width="63%">Overloaded. Returns a property from the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> within the IDList.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204">GetPropertyStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertystorage">GetPropertyStorage</a>
 </td>
 <td align="left" width="63%">
 Gets  a read only pointer to the serialized property storage that is used for storing metadata.
@@ -104,16 +104,16 @@ Gets  a read only pointer to the serialized property storage that is used for st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50E8F4F9-1E7B-4314-9AFB-1CA0795776FE">GetPropertyStorageFromIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-getpropertystoragefromidlist">GetPropertyStorageFromIDList</a>
 </td>
 <td align="left" width="63%">
-create an instance of the <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
+create an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/269DFCDF-A5F7-4367-8B08-3A5015BB04FE">IsDelegateFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-isdelegatefolder">IsDelegateFolder</a>
 </td>
 <td align="left" width="63%">
 Gets a Boolean value specifying whether the factory is a delegate folder.
@@ -122,10 +122,10 @@ Gets a Boolean value specifying whether the factory is a delegate folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3E2BAAD9-5C16-4ECF-BADB-16B355439BA5">SetItemAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nf-shidfact-citemidfactory-setitemalloc">SetItemAlloc</a>
 </td>
 <td align="left" width="63%">
-Provides the <b>CItemIDFactory</b> an <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> interface used to allocate and free item IDs.
+Provides the <b>CItemIDFactory</b> an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ it is recomended that all data sources use this as it manages an important issue
 
 
 
-<a href="https://msdn.microsoft.com/16db01f3-4167-43f0-9ef7-34eec906e199">IDelegateFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>
  
 
  

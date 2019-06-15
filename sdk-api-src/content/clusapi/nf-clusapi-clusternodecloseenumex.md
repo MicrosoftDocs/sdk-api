@@ -60,7 +60,7 @@ node enumeration handle.
 
 ### -param hNodeEnum [in]
 
-The handle to the node enumeration  to close. This handle is returned by the  <a href="https://msdn.microsoft.com/A251C5A3-2C9F-4030-8013-4846AD83A2E9">ClusterNodeOpenEnumEx</a> function.
+The handle to the node enumeration  to close. This handle is returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenumex">ClusterNodeOpenEnumEx</a> function.
 
 
 ## -returns
@@ -69,7 +69,7 @@ The handle to the node enumeration  to close. This handle is returned by the  <a
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
      If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 
 
@@ -79,7 +79,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
  
 
  

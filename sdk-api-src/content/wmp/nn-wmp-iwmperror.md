@@ -57,7 +57,7 @@ The <b>IWMPError</b> interface provides methods for accessing a collection of <b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPError</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPError</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPError</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPError</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPError</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563283(v=VS.85).aspx">clearErrorQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperror-clearerrorqueue">clearErrorQueue</a>
 </td>
 <td align="left" width="63%">
 Clears the errors from the error queue.
@@ -81,7 +81,7 @@ Clears the errors from the error queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563284(v=VS.85).aspx">get_errorCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperror-get_errorcount">get_errorCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of errors in the error queue.
@@ -90,7 +90,7 @@ Retrieves the number of errors in the error queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563285(v=VS.85).aspx">get_item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperror-get_item">get_item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPErrorItem</b> interface at the given index.
@@ -99,7 +99,7 @@ Retrieves a pointer to an <b>IWMPErrorItem</b> interface at the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563287(v=VS.85).aspx">webHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmperror-webhelp">webHelp</a>
 </td>
 <td align="left" width="63%">
 Launches the Microsoft Windows Media Player Web Help page to display further information about the error.
@@ -117,10 +117,10 @@ Retrieve a pointer to an <b>IWMPError</b> interface with the following method.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563229(v=VS.85).aspx">get_error</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_error">get_error</a>
 </td>
 </tr>
 </table> 
@@ -131,11 +131,11 @@ Retrieve a pointer to an <b>IWMPError</b> interface with the following method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563273(v=VS.85).aspx">IWMPErrorItem Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

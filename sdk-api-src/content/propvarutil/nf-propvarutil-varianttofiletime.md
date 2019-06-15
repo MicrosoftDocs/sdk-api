@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure from a variant structure.
+Extracts a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure from a variant structure.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Indicates local time.
 
 Type: <b>FILETIME*</b>
 
-Pointer to the extracted <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+Pointer to the extracted <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 
 ## -returns

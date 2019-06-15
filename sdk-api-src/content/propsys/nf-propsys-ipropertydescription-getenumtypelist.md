@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an instance of an <a href="https://msdn.microsoft.com/en-us/library/Bb761483(v=VS.85).aspx">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
+Gets an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtypelist">IPropertyEnumTypeList</a>, which can be used to enumerate the possible values for a property.
 
 
 ## -parameters

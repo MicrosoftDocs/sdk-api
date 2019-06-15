@@ -59,13 +59,13 @@ ms.custom: 19H1
 
 The 
 <b>IWbemContext</b> interface is optionally used to communicate  additional context information to providers when submitting 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> calls to WMI. All primary calls in 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> calls to WMI. All primary calls in 
 <b>IWbemServices</b> take an optional parameter pointing to an object of this type.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IWbemContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34106c63-3b50-4078-babf-12173bd702ba">BeginEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">BeginEnumeration</a>
 </td>
 <td align="left" width="63%">
 Begins an enumeration of all context values in the 
@@ -90,7 +90,7 @@ Begins an enumeration of all context values in the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a832f4b0-a450-4f74-a6ec-d205f57c1656">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a complete copy of the current 
@@ -100,7 +100,7 @@ Creates a complete copy of the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/980a5906-dc00-42fe-83f0-9fb476e766d7">DeleteAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-deleteall">DeleteAll</a>
 </td>
 <td align="left" width="63%">
 Removes all context values, emptying the 
@@ -110,7 +110,7 @@ Removes all context values, emptying the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f2956cf-8901-441f-b1bd-4b2f21d74683">DeleteValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-deletevalue">DeleteValue</a>
 </td>
 <td align="left" width="63%">
 Removes the specified context value.
@@ -119,18 +119,18 @@ Removes the specified context value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbd12aec-55ee-4cee-bf27-85f12467e06f">EndEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-endenumeration">EndEnumeration</a>
 </td>
 <td align="left" width="63%">
 Ends an enumeration begun with 
-<a href="https://msdn.microsoft.com/34106c63-3b50-4078-babf-12173bd702ba">BeginEnumeration</a> and 
-<a href="https://msdn.microsoft.com/e316564c-a739-472b-b7a8-8acbf71e1c58">Next</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">BeginEnumeration</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">Next</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/781c4a13-ff9e-4448-8a83-3c4d8653324a">GetNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getnames">GetNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves the names of all of the context values available.
@@ -139,7 +139,7 @@ Retrieves the names of all of the context values available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e11fff37-aeb7-41c5-8639-ca0a7a144263">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified context value by name.
@@ -148,17 +148,17 @@ Retrieves the specified context value by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e316564c-a739-472b-b7a8-8acbf71e1c58">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next value in an enumeration of all context values beginning with 
-<a href="https://msdn.microsoft.com/34106c63-3b50-4078-babf-12173bd702ba">BeginEnumeration</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-beginenumeration">BeginEnumeration</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/074d5ac7-aa86-44d8-99f9-959ef99a8004">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a specific named context value.
@@ -173,7 +173,7 @@ Sets a specific named context value.
 
 
 Often, dynamic providers require more information than is specified in the normal parameters of an 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> method. For example, to manipulate any WMI schema objects that it provides, a provider may need to know a Simple Network Management Protocol (SNMP) community name, or a Structured Query Language (SQL) database and table name. A client can add this information to an 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> method. For example, to manipulate any WMI schema objects that it provides, a provider may need to know a Simple Network Management Protocol (SNMP) community name, or a Structured Query Language (SQL) database and table name. A client can add this information to an 
 <b>IWbemContext</b> object and send the 
 <b>IWbemContext</b> object along with the call as one of the parameters.
 
@@ -191,21 +191,21 @@ Providers that support the use of
 <li>Any of the above combined with <b>VT_ARRAY</b></li>
 </ul>
 <div class="alert"><b>Note</b>  Only objects that support 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> can marshal their <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> methods in an 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> can marshal their <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> methods in an 
 <b>IWbemContext</b> instance using a variant of type <b>VT_UNKNOWN</b>.</div>
 <div> </div>
 An 
-<b>IWbemContext</b> object, which is created using <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a>, is a simple container of named values. Access these methods to fill in  context information required by a dynamic provider. After the call to one of the 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods, the 
-<b>IWbemContext</b> object can be reused for another call, or it can be deallocated using <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> and another object created for other calls to 
+<b>IWbemContext</b> object, which is created using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>, is a simple container of named values. Access these methods to fill in  context information required by a dynamic provider. After the call to one of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> methods, the 
+<b>IWbemContext</b> object can be reused for another call, or it can be deallocated using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> and another object created for other calls to 
 <b>IWbemServices</b> methods.
 
 The information contained in an 
 <b>IWbemContext</b> object is entirely determined by the underlying provider. WMI does not use the information, but forwards it to the provider. Providers must publish the context information they require for these service requests.
 
-The client application calls <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> to create a single context object. Then, it calls 
-<a href="https://msdn.microsoft.com/074d5ac7-aa86-44d8-99f9-959ef99a8004">SetValue</a> one or more times to set up context values for the provider. Finally, it submits the object to one of the 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> methods, which immediately calls <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the context object after the call has returned. The other methods are for use primarily by providers that receive the context object and have to extract information.
+The client application calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> to create a single context object. Then, it calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">SetValue</a> one or more times to set up context values for the provider. Finally, it submits the object to one of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> methods, which immediately calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the context object after the call has returned. The other methods are for use primarily by providers that receive the context object and have to extract information.
 
 
 
@@ -215,23 +215,23 @@ The client application calls <a href="https://msdn.microsoft.com/en-us/library/m
 
 
 
-<a href="https://msdn.microsoft.com/5fa8f1b5-fd19-4d45-9b53-bc7089eecdb1">COM API for WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee54c1ef-bc91-4771-8c11-9ee3aacd8112">Creating and Declaring an Instance Using C++</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-and-declaring-an-instance-using-c-">Creating and Declaring an Instance Using C++</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bfd9d9b-ffe5-4def-a97d-85c4c01223f0">Making Calls to WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>
 
 
 
-<a href="https://msdn.microsoft.com/379d934e-e010-4a03-8dc1-121be43e4c6f">Requesting WMI Data on a 64-bit Platform</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/requesting-wmi-data-on-a-64-bit-platform">Requesting WMI Data on a 64-bit Platform</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cc26b26-adc9-4a8a-b51e-9db94eb4295f">Retrieving Part of a WMI Instance</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>
  
 
  

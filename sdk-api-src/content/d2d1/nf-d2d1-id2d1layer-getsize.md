@@ -63,7 +63,7 @@ Gets the size of the layer in device-independent pixels.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The size of the layer in device-independent pixels.
 
@@ -75,7 +75,7 @@ The size of the layer in device-independent pixels.
 
 
 
-<a href="https://msdn.microsoft.com/ce7b2345-f0e5-4e44-9146-b1f140bb00ca">ID2D1Layer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1layer">ID2D1Layer</a>
  
 
  

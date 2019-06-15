@@ -78,7 +78,7 @@ In log streams, LSNs increase  monotonically. You cannot compare  LSNs between  
 
 
 
-<a href="https://msdn.microsoft.com/3662ac53-25d5-4d8c-8f98-02f313e03dce">LsnCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsncreate">LsnCreate</a>
  
 
  

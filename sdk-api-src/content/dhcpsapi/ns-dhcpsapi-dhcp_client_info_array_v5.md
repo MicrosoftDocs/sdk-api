@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_CLIENT_INFO_ARRAY_V5</b> structure defines an array of <a href="https://msdn.microsoft.com/52003a41-8905-4f42-80e6-172c0df61ed7">DHCP_CLIENT_INFO_V5</a> structures for use with enumeration functions. 
+The <b>DHCP_CLIENT_INFO_ARRAY_V5</b> structure defines an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v5">DHCP_CLIENT_INFO_V5</a> structures for use with enumeration functions. 
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Specifies the number of elements present in <b>Clients</b>.
 
 ### -field Clients
 
-Pointer to a list of <a href="https://msdn.microsoft.com/52003a41-8905-4f42-80e6-172c0df61ed7">DHCP_CLIENT_INFO_V5</a> structures that contain information on specific DHCP subnet clients, including the dynamic address type (DHCP and/or BOOTP) and address state information.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v5">DHCP_CLIENT_INFO_V5</a> structures that contain information on specific DHCP subnet clients, including the dynamic address type (DHCP and/or BOOTP) and address state information.
 
 
 ### -field Clients.size_is
@@ -84,11 +84,11 @@ Pointer to a list of <a href="https://msdn.microsoft.com/52003a41-8905-4f42-80e6
 
 
 
-<a href="https://msdn.microsoft.com/52003a41-8905-4f42-80e6-172c0df61ed7">DHCP_CLIENT_INFO_V5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v5">DHCP_CLIENT_INFO_V5</a>
 
 
 
-<a href="https://msdn.microsoft.com/34be1d6d-10d5-4025-abc6-29857417e081">DhcpEnumSubnetClientsV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclientsv5">DhcpEnumSubnetClientsV5</a>
  
 
  

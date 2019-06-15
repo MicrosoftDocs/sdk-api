@@ -49,31 +49,31 @@ ms.custom: 19H1
 ## -description
 
 
-The <code>IAudioMediaType</code> interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format. An sAPO also returns this interface in response to a call to <a href="https://msdn.microsoft.com/0eab885f-32f7-47d3-b9b1-684eb3d2cd37">IAudioSystemEffectsCustomFormats::GetFormat</a>.
+The <code>IAudioMediaType</code> interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format. An sAPO also returns this interface in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>.
 
 <code>IAudioMediaType</code> inherits from <b>IUnknown</b> and also supports the following methods:
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/5e00e566-3209-435a-85ae-2c209f0e0eb3">IAudioMediaType::GetAudioFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-getaudioformat">IAudioMediaType::GetAudioFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/9b4661cc-77b3-439b-bf28-5f9738dca6e1">IAudioMediaType::GetUncompressedAudioFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-getuncompressedaudioformat">IAudioMediaType::GetUncompressedAudioFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/db3ee751-7a7e-4e94-8dba-94065a7046f1">IAudioMediaType::IsCompressedFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-iscompressedformat">IAudioMediaType::IsCompressedFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/a8ab9ad3-251d-43ab-b099-793ffc22b45f">IAudioMediaType::IsEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-iaudiomediatype-isequal">IAudioMediaType::IsEqual</a>
 
 
 </dd>

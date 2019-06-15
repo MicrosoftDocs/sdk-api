@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICINFO</b> structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the <a href="https://msdn.microsoft.com/8029f247-9777-4a34-9e84-908482094493">ICM_GETINFO</a> message.
+The <b>ICINFO</b> structure contains compression parameters supplied by a video compression driver. The driver fills or updates the structure when it receives the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getinfo">ICM_GETINFO</a> message.
 
 
 
@@ -90,7 +90,7 @@ Applicable flags. Zero or more of the following flags can be set:
 </dl>
 </td>
 <td width="60%">
-Driver is requesting to compress all frames. For information about compressing all frames, see the <a href="https://msdn.microsoft.com/d2f6f3b7-dff6-4fef-a642-cb77b00119af">ICM_COMPRESS_FRAMES_INFO</a> message.
+Driver is requesting to compress all frames. For information about compressing all frames, see the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a> message.
 
 </td>
 </tr>
@@ -188,19 +188,19 @@ Name of the module containing VCM compression driver. Normally, a driver does no
 
 
 
-<a href="https://msdn.microsoft.com/d2f6f3b7-dff6-4fef-a642-cb77b00119af">ICM_COMPRESS_FRAMES_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/8029f247-9777-4a34-9e84-908482094493">ICM_GETINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getinfo">ICM_GETINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/129a65a7-cac3-47e0-9e9c-6e5a4a260c73">Video Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
  
 
  

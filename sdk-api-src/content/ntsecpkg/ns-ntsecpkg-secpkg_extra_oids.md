@@ -52,8 +52,8 @@ ms.custom: 19H1
 The <b>SECPKG_EXTRA_OIDS</b> structure contains the object identifiers (OIDs) for the extended security package.
 
 This structure is used by the 
-<a href="https://msdn.microsoft.com/e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3">SpGetExtendedInformation</a> and 
-<a href="https://msdn.microsoft.com/a6176786-c19b-4ecf-8a7b-2430ff8b56f7">SpSetExtendedInformation</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 
 ## -struct-fields
@@ -68,5 +68,5 @@ The total number of OIDs in the security package.
 
 ### -field Oids
 
-A <a href="https://msdn.microsoft.com/54CF931B-AD1F-4370-A2AF-5DF4BC9EA007">SECPKG_SERIALIZED_OID</a> structure containing the OID data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_serialized_oid">SECPKG_SERIALIZED_OID</a> structure containing the OID data.
 

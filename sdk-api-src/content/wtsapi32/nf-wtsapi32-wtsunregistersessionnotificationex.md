@@ -60,7 +60,7 @@ Unregisters the specified window so that it receives no further session change n
 ### -param hServer [in]
 
 Handle of the server returned from 
-      <a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a> or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> or 
       <b>WTS_CURRENT_SERVER</b>.
 
 
@@ -74,7 +74,7 @@ Handle of the window to be unregistered from receiving session notifications.
 
 
 If the function succeeds, the return value is <b>TRUE</b>. Otherwise, it is <b>FALSE</b>. To get extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,7 +84,7 @@ If the function succeeds, the return value is <b>TRUE</b>. Otherwise, it is <b>F
 
 
 This function must be called once for every call to the 
-    <a href="https://msdn.microsoft.com/8670643e-33e0-482a-ade0-d136b8c97d37">WTSRegisterSessionNotificationEx</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotificationex">WTSRegisterSessionNotificationEx</a> 
     function.
 
 
@@ -95,15 +95,15 @@ This function must be called once for every call to the
 
 
 
-<a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/8670643e-33e0-482a-ade0-d136b8c97d37">WTSRegisterSessionNotificationEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotificationex">WTSRegisterSessionNotificationEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/654e585a-f0b2-45a1-a58d-fe3505b34b61">WTSUnRegisterSessionNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsunregistersessionnotification">WTSUnRegisterSessionNotification</a>
  
 
  

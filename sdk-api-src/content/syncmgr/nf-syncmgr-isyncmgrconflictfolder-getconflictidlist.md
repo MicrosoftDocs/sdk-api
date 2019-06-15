@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Maps a conflict to its <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>.
+Maps a conflict to its <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Maps a conflict to its <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5
 
 ### -param pConflict [in]
 
-Type: <b><a href="https://msdn.microsoft.com/a5806a83-b470-4617-961d-b768160afc48">ISyncMgrConflict</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflict">ISyncMgrConflict</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/a5806a83-b470-4617-961d-b768160afc48">ISyncMgrConflict</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflict">ISyncMgrConflict</a> interface.
 
 
 ### -param ppidlConflict [out]

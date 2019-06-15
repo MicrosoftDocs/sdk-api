@@ -75,7 +75,7 @@ Returns <b>TRUE</b> if the font has color information (COLR and CPAL tables); ot
 
 
 
-<a href="https://msdn.microsoft.com/4E3069AE-5882-4A26-A36D-BE7D7EE1B0C3">IDWriteFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefont2">IDWriteFont2</a>
  
 
  

@@ -60,23 +60,23 @@ Creates an encoder property bag.
 
 ### -param ppropOptions [in]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768188(v=VS.85).aspx">PROPBAG2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768188(v=vs.85)">PROPBAG2</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/Aa768188(v=VS.85).aspx">PROPBAG2</a> options used to create the encoder property bag.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768188(v=vs.85)">PROPBAG2</a> options used to create the encoder property bag.
 
 
 ### -param cCount [in]
 
 Type: <b>UINT</b>
 
-The number of <a href="https://msdn.microsoft.com/library/Aa768188(v=VS.85).aspx">PROPBAG2</a> structures in the <i>ppropOptions</i> array.
+The number of <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768188(v=vs.85)">PROPBAG2</a> structures in the <i>ppropOptions</i> array.
 
 
 ### -param ppIPropertyBag [out]
 
-Type: <b><a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)">IPropertyBag2</a>**</b>
 
-A pointer that receives a pointer to an encoder <a href="https://msdn.microsoft.com/library/Aa768192(v=VS.85).aspx">IPropertyBag2</a>.
+A pointer that receives a pointer to an encoder <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)">IPropertyBag2</a>.
 
 
 ## -returns

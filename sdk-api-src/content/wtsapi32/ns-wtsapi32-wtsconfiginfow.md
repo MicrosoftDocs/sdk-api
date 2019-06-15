@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a Remote Desktop Services session.  This structure is returned by the <a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a> function when you specify "WTSConfigInfo" for the <i>WTSInfoClass</i> parameter. 
+Contains information about a Remote Desktop Services session.  This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function when you specify "WTSConfigInfo" for the <i>WTSInfoClass</i> parameter. 
 
 
 ## -struct-fields
@@ -224,7 +224,7 @@ Disable client printer redirection.
 
 
 
-<a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
  
 
  

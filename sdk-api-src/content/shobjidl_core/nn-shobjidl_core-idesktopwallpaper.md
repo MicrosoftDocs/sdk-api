@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDesktopWallpaper</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDesktopWallpaper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDesktopWallpaper</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDesktopWallpaper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDesktopWallpaper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A68F6EFA-DD74-453f-A7D3-7CEC2E760FD1">AdvanceSlideshow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-advanceslideshow">AdvanceSlideshow</a>
 </td>
 <td align="left" width="63%">
 Switches the wallpaper on a specified monitor to the next image in the slideshow.
@@ -78,7 +78,7 @@ Switches the wallpaper on a specified monitor to the next image in the slideshow
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8BC04B93-4BF4-4713-8EF8-C4BCF1C8090E">Enable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the desktop background.
@@ -87,7 +87,7 @@ Enables or disables the desktop background.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92666512-BE10-4ee7-B670-18F0C714A4C9">GetBackgroundColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getbackgroundcolor">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
@@ -96,7 +96,7 @@ Retrieves the color that is visible on the desktop when no image is displayed or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CE0C6B07-F9D1-4221-9D9D-8D17CF6780E6">GetMonitorDevicePathAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">GetMonitorDevicePathAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique ID of one of the system's monitors.
@@ -105,7 +105,7 @@ Retrieves the unique ID of one of the system's monitors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E7490E24-7BCE-4fbb-8512-998EAE045CE7">GetMonitorDevicePathCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathcount">GetMonitorDevicePathCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of monitors that are associated with the system.
@@ -114,7 +114,7 @@ Retrieves the number of monitors that are associated with the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98A3F193-DBCF-42ec-9283-53F0F46BB1C4">GetMonitorRECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitorrect">GetMonitorRECT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display rectangle of the specified monitor.
@@ -123,7 +123,7 @@ Retrieves the display rectangle of the specified monitor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28D057DD-63CF-4078-9E0C-7DB61E1683EF">GetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getposition">GetPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current display value for the desktop background image.
@@ -132,7 +132,7 @@ Retrieves the current display value for the desktop background image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A5660D7F-C42A-4587-B319-B47441CD37AB">GetSlideshow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getslideshow">GetSlideshow</a>
 </td>
 <td align="left" width="63%">
 Gets the images that are being displayed in the desktop wallpaper slideshow.
@@ -141,7 +141,7 @@ Gets the images that are being displayed in the desktop wallpaper slideshow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2EB99E61-F5B4-4f07-8A87-793BE59D309B">GetSlideshowOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getslideshowoptions">GetSlideshowOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current desktop wallpaper slideshow settings for shuffle and timing.
@@ -150,7 +150,7 @@ Gets the current desktop wallpaper slideshow settings for shuffle and timing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19F2776E-0B5F-45c9-962A-08BFC0273066">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the current status of the slideshow.
@@ -159,7 +159,7 @@ Gets the current status of the slideshow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A5AC5EB3-2091-4547-8B6A-C60C4E90DFBC">GetWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getwallpaper">GetWallpaper</a>
 </td>
 <td align="left" width="63%">
 Gets the current desktop wallpaper.
@@ -168,7 +168,7 @@ Gets the current desktop wallpaper.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9CA14C0B-4727-4702-9EB0-4D24003EB456">SetBackgroundColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setbackgroundcolor">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Sets the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
@@ -177,7 +177,7 @@ Sets the color that is visible on the desktop when no image is displayed or when
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A4993DB8-9132-43c1-B900-02BA5384B7A8">SetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setposition">SetPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the display option for the desktop wallpaper image, determining whether the image should be centered, tiled, or stretched.
@@ -186,7 +186,7 @@ Sets the display option for the desktop wallpaper image, determining whether the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0E4743A0-75AB-456a-BAAE-8EC4C0D14E6C">SetSlideshow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshow">SetSlideshow</a>
 </td>
 <td align="left" width="63%">
 Specifies the images to use for the desktop wallpaper slideshow.
@@ -195,7 +195,7 @@ Specifies the images to use for the desktop wallpaper slideshow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B3106354-C321-4770-834F-D2EF790AE114">SetSlideshowOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshowoptions">SetSlideshowOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the desktop wallpaper slideshow settings for shuffle and timing.
@@ -204,7 +204,7 @@ Sets the desktop wallpaper slideshow settings for shuffle and timing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5E0731DC-8B70-40dc-B90A-97B1E3E4D55D">SetWallpaper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setwallpaper">SetWallpaper</a>
 </td>
 <td align="left" width="63%">
 Sets the desktop wallpaper.
@@ -219,7 +219,7 @@ Sets the desktop wallpaper.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

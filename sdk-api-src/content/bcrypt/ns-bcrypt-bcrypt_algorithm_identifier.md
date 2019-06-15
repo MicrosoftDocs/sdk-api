@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="https://msdn.microsoft.com/7fa227c0-2b80-49ab-8a19-72f8444d5507">BCryptEnumAlgorithms</a> function to contain a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic algorithm</a> identifier.
+The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a> function to contain a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> identifier.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The <b>BCRYPT_ALGORITHM_IDENTIFIER</b> structure is used with the <a href="https
 
 ### -field pszName
 
-A pointer to a null-terminated Unicode string that contains the string identifier of the algorithm. The <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> topic contains the predefined algorithm identifiers.
+A pointer to a null-terminated Unicode string that contains the string identifier of the algorithm. The <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> topic contains the predefined algorithm identifiers.
 
 
 ### -field dwClass
 
-Specifies the class of the algorithm. This can be one of the <a href="https://msdn.microsoft.com/509c89ff-0c73-4e57-9c39-400522f2086e">CNG Interface Identifiers</a>.
+Specifies the class of the algorithm. This can be one of the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-interface-identifiers">CNG Interface Identifiers</a>.
 
 
 ### -field dwFlags
@@ -77,7 +77,7 @@ A set of flags that specify other information about the algorithm. There are cur
 
 
 
-<a href="https://msdn.microsoft.com/7fa227c0-2b80-49ab-8a19-72f8444d5507">BCryptEnumAlgorithms</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a>
  
 
  

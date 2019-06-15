@@ -57,7 +57,7 @@ Provides the methods used to interact with the Remote Desktop Protocol (RDP) app
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClientActions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRemoteDesktopClientActions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClientActions</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRemoteDesktopClientActions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IRemoteDesktopClientActions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/944fbfe4-b033-471b-9a28-87349382d37a">ExecuteRemoteAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-executeremoteaction">ExecuteRemoteAction</a>
 </td>
 <td align="left" width="63%">
 Causes an action to be performed in the remote session.
@@ -81,7 +81,7 @@ Causes an action to be performed in the remote session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c80fe6e3-6ca7-4595-aa0e-c1ed0f6632a5">GetSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot">GetSnapshot</a>
 </td>
 <td align="left" width="63%">
 Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in-session desktop to be taken.
@@ -90,7 +90,7 @@ Causes a snapshot of the Remote Desktop Protocol (RDP) app container client's in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be11f1c8-eb55-4ed3-80ca-eda9ee21c92c">ResumeScreenUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-resumescreenupdates">ResumeScreenUpdates</a>
 </td>
 <td align="left" width="63%">
 Resumes screen updates being sent to the client.
@@ -99,7 +99,7 @@ Resumes screen updates being sent to the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0161ee5f-5e67-4bc9-b822-800c2b23ec44">SuspendScreenUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-suspendscreenupdates">SuspendScreenUpdates</a>
 </td>
 <td align="left" width="63%">
 Suspends screen updates being sent to the client.
@@ -114,7 +114,7 @@ Suspends screen updates being sent to the client.
 
 
 
-<a href="https://msdn.microsoft.com/EAF75483-90A4-4BB1-82A5-EFBB2219A55B">Remote Desktop ActiveX control reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>
  
 
  

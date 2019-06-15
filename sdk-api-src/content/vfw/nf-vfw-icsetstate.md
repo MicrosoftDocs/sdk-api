@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICSetState</b> macro notifies a video compression driver to set the state of the compressor. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/d1a91847-2893-4c8b-9ca1-02db71ec2c81">ICM_SETSTATE</a> message.
+The <b>ICSetState</b> macro notifies a video compression driver to set the state of the compressor. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-setstate">ICM_SETSTATE</a> message.
 
 
 
@@ -79,7 +79,7 @@ Size, in bytes, of the block of memory.
 
 
 
-The information used by this message is private and specific to a given compressor. Client applications should use this message only to restore information previously obtained with the <a href="https://msdn.microsoft.com/e0066cc2-a67d-4cf4-9d22-506cc152ec14">ICGetState</a> and <a href="https://msdn.microsoft.com/58dbe8ff-4236-456c-8361-e7716e764f89">ICConfigure</a> macros and should use the <b>ICConfigure</b> macro to adjust the configuration of a video compression driver.
+The information used by this message is private and specific to a given compressor. Client applications should use this message only to restore information previously obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGetState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icconfigure">ICConfigure</a> macros and should use the <b>ICConfigure</b> macro to adjust the configuration of a video compression driver.
 
 
 
@@ -89,11 +89,11 @@ The information used by this message is private and specific to a given compress
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

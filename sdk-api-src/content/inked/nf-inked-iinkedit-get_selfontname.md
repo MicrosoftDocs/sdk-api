@@ -66,9 +66,9 @@ This property is read/write.
 
 
 
-If a selection spans multiple characters with different fonts, the <a href="https://msdn.microsoft.com/06a4ed72-e2c2-4422-8796-39a65b19415e">SelColor</a> property will be <b>NULL</b>.
+If a selection spans multiple characters with different fonts, the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_selcolor">SelColor</a> property will be <b>NULL</b>.
 
-If there is no text selected in the <a href="https://msdn.microsoft.com/a1dfa254-cade-44c5-8fdd-74bb40849063">InkEdit</a> control, setting this property determines the font of all new text entered at the current insertion point.
+If there is no text selected in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control, setting this property determines the font of all new text entered at the current insertion point.
 
 
 
@@ -82,7 +82,7 @@ If there is no text selected in the <a href="https://msdn.microsoft.com/a1dfa254
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

@@ -59,7 +59,7 @@ Sets the pre-transform nib shape for this style.
 
 ### -param nibShape
 
-Type: <b><a href="https://msdn.microsoft.com/E9EA4F3E-D539-4938-897F-467D0432174F">D2D1_INK_NIB_SHAPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_ink_nib_shape">D2D1_INK_NIB_SHAPE</a></b>
 
 The pre-transform nib shape to use in this style.
 
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/03853FA5-1377-42FB-A4C2-50069DDF6E2D">ID2D1InkStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a>
  
 
  

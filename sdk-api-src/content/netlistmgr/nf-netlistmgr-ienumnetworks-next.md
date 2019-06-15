@@ -64,7 +64,7 @@ Number of elements requested in the enumeration.
 
 ### -param rgelt [out]
 
-Pointer to  the enumerated list of pointers returned by <a href="https://msdn.microsoft.com/6d483058-f7c4-4a6c-a1a8-816c2fab9994">INetwork</a>.
+Pointer to  the enumerated list of pointers returned by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>.
 
 
 ### -param pceltFetched [out]
@@ -127,7 +127,7 @@ The <i>ppElements</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/ce2b65e5-89fe-48c9-aa00-373406891d02">IEnumNetworks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>
  
 
  

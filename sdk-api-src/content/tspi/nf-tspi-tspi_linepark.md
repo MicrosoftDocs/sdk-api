@@ -71,7 +71,7 @@ The handle to the call to be parked. The call state of <i>hdCall</i> can be <i>c
 ### -param dwParkMode
 
 The park mode with which the call is to be parked, only one of the 
-<a href="https://msdn.microsoft.com/4b182c16-9d58-4244-bc5a-05c393800948">LINEPARKMODE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineparkmode--constants">LINEPARKMODE_ constants</a>.
 
 
 ### -param lpszDirAddress
@@ -82,7 +82,7 @@ A pointer to <b>null</b>-terminated Unicode string that indicates the address wh
 ### -param lpNonDirAddress
 
 A pointer to a structure of type 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a>. For nondirected park, the address where the call is parked is returned in this structure. This parameter is ignored for directed park. Within the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>. For nondirected park, the address where the call is parked is returned in this structure. This parameter is ignored for directed park. Within the 
 <b>VARSTRING</b> structure, <i>dwStringFormat</i> must be set to STRINGFORMAT_ASCII (an ASCII string buffer containing a <b>null</b>-terminated string), and the terminating <b>NULL</b> is accounted for in the <i>dwStringSize</i>. If the memory pointed to by the <i>lpNonDirAddress</i> parameter is not large enough for the requested address, the 
 <b>TSPI_linePark</b> function returns LINEERR_STRUCTURETOOSMALL.
 
@@ -92,7 +92,7 @@ A pointer to a structure of type
 
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_NOMEM, LINEERR_INVALPARKMODE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_INVALADDRESS, LINEERR_RESOURCEUNAVAIL, LINEERR_STRUCTURETOOSMALL.
 
@@ -104,14 +104,14 @@ LINEERR_INVALCALLHANDLE, LINEERR_NOMEM, LINEERR_INVALPARKMODE, LINEERR_OPERATION
 
 
 All members of the 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a> structure, except <b>dwTotalSize</b>, are filled in by the service provider. The <b>dwTotalSize</b> member is filled in by TAPI, and the service provider must not overwrite this value.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure, except <b>dwTotalSize</b>, are filled in by the service provider. The <b>dwTotalSize</b> member is filled in by TAPI, and the service provider must not overwrite this value.
 
 Under directed park, the client application (through TAPI) specifies the address at which it wants to park the call. Under nondirected park, the switch determines the address and provides this to TAPI. In either case, a parked call can be unparked by specifying this address.
 
 The parked call typically enters the <i>idle</i> call state after it is successfully parked. The service provider reports the new state using a 
-<a href="https://msdn.microsoft.com/9070d6d2-f92c-4e07-8281-5b7e82862aaf">LINE_CALLSTATE</a> message. A subsequent 
-<a href="https://msdn.microsoft.com/941a9715-533e-489c-87b0-27a04be1d80e">TSPI_lineUnpark</a> creates a new, distinct call handle, regardless of whether 
-<a href="https://msdn.microsoft.com/86f5490c-8401-4235-8ddd-313794bd5bf1">TSPI_lineCloseCall</a> has destroyed the old handle.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a> message. A subsequent 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineunpark">TSPI_lineUnpark</a> creates a new, distinct call handle, regardless of whether 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosecall">TSPI_lineCloseCall</a> has destroyed the old handle.
 
 Some switches can remind the user after a call has been parked for some long amount of time. The service provider reports this to TAPI as an <i>offering</i> call with a call reason set to <i>reminder</i> (if this is known).
 
@@ -123,27 +123,27 @@ Some switches can remind the user after a call has been parked for some long amo
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b182c16-9d58-4244-bc5a-05c393800948">LINEPARKMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineparkmode--constants">LINEPARKMODE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/9070d6d2-f92c-4e07-8281-5b7e82862aaf">LINE_CALLSTATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725219(v=vs.85)">LINE_CALLSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/86f5490c-8401-4235-8ddd-313794bd5bf1">TSPI_lineCloseCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosecall">TSPI_lineCloseCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/941a9715-533e-489c-87b0-27a04be1d80e">TSPI_lineUnpark</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineunpark">TSPI_lineUnpark</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
  
 
  

@@ -79,7 +79,7 @@ The offset, in bytes, denoting the end of a memory range.
         The size of the range is (<b>End</b> - <b>Begin</b>).
       
 
-This structure is used by the <a href="https://msdn.microsoft.com/71E43B63-9C84-4E4B-A43D-92B958C8AAF5">Map</a> and <a href="https://msdn.microsoft.com/EB0E3936-47CC-4FDC-BF17-A506AC8E4C15">Unmap</a> methods.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-map">Map</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a> methods.
       
 
 
@@ -90,11 +90,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/71E43B63-9C84-
 
 
 
-<a href="https://msdn.microsoft.com/5D5192BF-D14C-487B-A214-F8428E82AF0E">CD3DX12_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-range">CD3DX12_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

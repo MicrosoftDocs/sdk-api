@@ -53,13 +53,13 @@ Use this interface retrieve detailed write configurations supported by the disc 
 
 To get this interface, call one of the following methods:<ul>
 <li>
-<a href="https://msdn.microsoft.com/9eb84ec6-900a-45ba-9111-9c9c6b3f5bb2">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeddescriptors">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/00a7c10a-7790-4193-928c-d3211047dbbe">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeddescriptors">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a0aefc38-c679-4492-becc-a8c8563ea948">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors</a>
 </li>
 </ul>
 
@@ -67,7 +67,7 @@ To get this interface, call one of the following methods:<ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteSpeedDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWriteSpeedDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWriteSpeedDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWriteSpeedDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IWriteSpeedDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4608fb27-8d8c-4ccc-9838-bdbe9dadee83">get_MediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_mediatype">get_MediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves type of media in the current drive.
@@ -91,7 +91,7 @@ Retrieves type of media in the current drive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36c509a2-6592-4fa0-8e4a-4b21f4cf7a13">get_RotationTypeIsPureCAV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_rotationtypeispurecav">get_RotationTypeIsPureCAV</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported rotational-speed control used by the recorder for the current media.
@@ -100,7 +100,7 @@ Retrieves the supported rotational-speed control used by the recorder for the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9136a735-d902-48bc-bddd-297c1e32310e">get_WriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwritespeeddescriptor-get_writespeed">get_WriteSpeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported write speed for writing to the media.
@@ -124,15 +124,15 @@ This is a <b>MsftWriteSpeedDescriptor</b> object in script.
 
 
 
-<a href="https://msdn.microsoft.com/9eb84ec6-900a-45ba-9111-9c9c6b3f5bb2">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_supportedwritespeeddescriptors">IDiscFormat2Data::get_SupportedWriteSpeedDescriptors</a>
 
 
 
-<a href="https://msdn.microsoft.com/00a7c10a-7790-4193-928c-d3211047dbbe">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeddescriptors">IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0aefc38-c679-4492-becc-a8c8563ea948">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeddescriptors">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeedDescriptors</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The<i> DxFlipVideoPort</i> callback function is called when a client of the video miniport driver wants to flip the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object or when autoflipping is enabled. 
+The<i> DxFlipVideoPort</i> callback function is called when a client of the video miniport driver wants to flip the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object or when autoflipping is enabled. 
 
 
 ## -parameters
@@ -74,7 +74,7 @@ The<i> DxFlipVideoPort</i> callback function is called when a client of the vide
 
 #### - FlipVideoPortInfo
 
-Points to the <a href="https://msdn.microsoft.com/9cf87d19-2db6-48f8-96a6-2b6ac969c774">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
+Points to the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddflipvideoportinfo">DDFLIPVIDEOPORTINFO</a> structure that contains the flip information for the surface and VPE object.
 
 
 #### - HwDeviceExtension
@@ -110,7 +110,7 @@ The <b>dwFlipVPFlags</b> member of the DDFLIPVIDEOPORTINFO structure at <i>FlipV
 
 
 
-<a href="https://msdn.microsoft.com/9cf87d19-2db6-48f8-96a6-2b6ac969c774">DDFLIPVIDEOPORTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddflipvideoportinfo">DDFLIPVIDEOPORTINFO</a>
  
 
  

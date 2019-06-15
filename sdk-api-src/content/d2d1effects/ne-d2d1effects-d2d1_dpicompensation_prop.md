@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/EA8AD89B-A710-468F-A6F3-474DA29586F1">DPI compensation effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/dpi-compensation">DPI compensation effect</a>.
         
 
 
@@ -63,7 +63,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/EA8AD89B-A
 The interpolation mode the effect uses to scale the image.
             
 
-The type is <a href="https://msdn.microsoft.com/D47BE47D-09E3-46A5-8D89-884102EDEA9A">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_dpicompensation_interpolation_mode">D2D1_DPICOMPENSATION_INTERPOLATION_MODE</a>.
 
 The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
 
@@ -73,7 +73,7 @@ The default value is D2D1_DPICOMPENSATION_INTERPOLATION_MODE_LINEAR.
 The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
             
 
-The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_border_mode">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 

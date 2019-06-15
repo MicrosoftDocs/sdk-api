@@ -154,7 +154,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -177,7 +177,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/65d04a7c-e42c-4956-a953-b9aec95254e0">RpcNsMgmtEntryDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrydeletea">RpcNsMgmtEntryDelete</a>
  
 
  

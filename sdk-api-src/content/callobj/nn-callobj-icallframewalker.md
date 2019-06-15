@@ -54,7 +54,7 @@ Walks a stack frame looking for interesting values.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrameWalker</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICallFrameWalker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrameWalker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallFrameWalker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICallFrameWalker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e599536f-87a3-4f71-ac0e-21bdafafd029">OnWalkInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframewalker-onwalkinterface">OnWalkInterface</a>
 </td>
 <td align="left" width="63%">
 Walks through a call frame to look for the specified interface in the call frame.
@@ -84,7 +84,7 @@ Walks through a call frame to look for the specified interface in the call frame
 
 
 
-<a href="https://msdn.microsoft.com/64e4967b-6b54-4416-ae10-04987f13d39a">ICallFrame::WalkFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-walkframe">ICallFrame::WalkFrame</a>
  
 
  

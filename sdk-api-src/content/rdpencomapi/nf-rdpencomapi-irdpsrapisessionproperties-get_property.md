@@ -86,7 +86,7 @@ The second mode is static load mode. In this mode, the mirror driver is loaded i
 
 Note that in both modes the driver might be detached and re-attached as a result of external events like changing the screen resolution or sharing color depth.
 
-Set this property to VARIANT_TRUE for dynamic attachment mode and to VARIANT_FALSE  for the static attachment mode.  Note that you can set this property only before calling the <a href="https://msdn.microsoft.com/2c97a37d-5862-4ad3-9029-481ea0a789e0">IRDPSRAPISharingSession::Open</a> method; this property becomes read-only after the <b>Open</b> method is called.   The default is VARIANT_TRUE.
+Set this property to VARIANT_TRUE for dynamic attachment mode and to VARIANT_FALSE  for the static attachment mode.  Note that you can set this property only before calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method; this property becomes read-only after the <b>Open</b> method is called.   The default is VARIANT_TRUE.
 
 For 1:1 scenarios such as Remote Assistance, you should use the dynamic load mode because it can take a very long time between the moment the session is opened and the moment an expert will connect.  
 
@@ -157,7 +157,7 @@ The Internet Protocol version 6 (IPv6) address family.
 
 </td>
 <td>
-A pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface that supports the <a href="https://msdn.microsoft.com/18ac00d5-f574-463f-a34a-40c2dc16d4d8">IRDPSRAPITransportStream</a> interface. If this property is set, the <a href="https://msdn.microsoft.com/f3deec96-af56-4ebe-a5c3-25a4c7be14c0">Connect</a> method will use this stream and ignore the connection string passed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that supports the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a> interface. If this property is set, the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect">Connect</a> method will use this stream and ignore the connection string passed.
 
 This property is valid for the viewer side only.
 
@@ -175,7 +175,7 @@ This property is valid for the viewer side only.
 <td>
 If this property has a value of VARIANT_TRUE, the sharer requires the viewer to use Federal Information Processing Standard (FIPS) 140 compliant encryption. The default is VARIANT_FALSE.
 
-This property becomes read-only after the <a href="https://msdn.microsoft.com/2c97a37d-5862-4ad3-9029-481ea0a789e0">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
+This property becomes read-only after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
 
 Viewer support for FIPS 140 compliance was added in Windows 10, version 1709. The sharer rejects connections from viewer versions previous to Windows 10, version 1709.
 
@@ -253,9 +253,9 @@ This property is available starting with Windows 10, version 1511.
 
 </td>
 <td>
-Specifies an IUnknown pointer to an instance of <a href="https://msdn.microsoft.com/76ea520c-64c2-4096-ab21-9714b98b5dac">IRDPSRAPIClipboardUseEvents</a> that receives a callback each time a copying from the sharer computer to the viewer is attempted. This property is only relevant if clipboard sharing is enabled.
+Specifies an IUnknown pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiclipboarduseevents">IRDPSRAPIClipboardUseEvents</a> that receives a callback each time a copying from the sharer computer to the viewer is attempted. This property is only relevant if clipboard sharing is enabled.
 
-This property becomes read-only after the <a href="https://msdn.microsoft.com/2c97a37d-5862-4ad3-9029-481ea0a789e0">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
+This property becomes read-only after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
 
 This property can only be used for desktop apps. 
 
@@ -277,7 +277,7 @@ This property is available starting with Windows 10, version 1511.
 <td>
 Specifies the transports to enable. A value of 3 supports both TCP and UDP. The default is 1, which is TCP only.
 
-This property becomes read-only after the <a href="https://msdn.microsoft.com/2c97a37d-5862-4ad3-9029-481ea0a789e0">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
+This property becomes read-only after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
 
 This property is available starting with Windows 10, version 1803.
 
@@ -300,7 +300,7 @@ This property is valid for the sharer side only.
 
 
 
-<a href="https://msdn.microsoft.com/bf4d9df2-8436-4d21-9016-7db231212155">IRDPSRAPISessionProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisessionproperties">IRDPSRAPISessionProperties</a>
  
 
  

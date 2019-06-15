@@ -64,7 +64,7 @@ The
 ### -param pAdvertisingScope [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a">RND_ADVERTISING_SCOPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-rnd_advertising_scope">RND_ADVERTISING_SCOPE</a> enumeration.
 
 
 ## -returns
@@ -144,15 +144,15 @@ This method is not yet implemented.
 
 
 
-<a href="https://msdn.microsoft.com/bab167cf-2726-4423-87b3-69227404bddc">ITDirectoryObjectConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/74d7c770-e11d-4d87-acdb-821d64feed0c">ITDirectoryObjectConference::put_AdvertisingScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_advertisingscope">ITDirectoryObjectConference::put_AdvertisingScope</a>
 
 
 
-<a href="https://msdn.microsoft.com/e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a">RND_ADVERTISING_SCOPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-rnd_advertising_scope">RND_ADVERTISING_SCOPE</a>
  
 
  

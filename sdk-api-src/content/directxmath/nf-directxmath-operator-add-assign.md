@@ -44,7 +44,7 @@ api_name:
 
 Adds a floating point value to an **XMVECTOR** instance, and returns a reference to the updated instance.
 
-The `operator +=` adds a specified floating point value to each component of the current instance of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a>, returning a reference to the updated current instance.
+The `operator +=` adds a specified floating point value to each component of the current instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>, returning a reference to the updated current instance.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -76,4 +76,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

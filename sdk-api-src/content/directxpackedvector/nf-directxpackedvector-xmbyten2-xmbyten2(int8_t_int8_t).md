@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Initializes a new instance of <code>XMBYTEN2</code> from two <code>int8_t</code> arguments.
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2 </a> from two <code>int8_t</code> arguments.
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2 </a> from two <code>int8_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available with C++.</div><div> </div>
 
 ## -parameters
@@ -98,11 +98,11 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437850(v=VS.85).aspx">XMBYTEN2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyten2">XMBYTEN2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449498(v=VS.85).aspx">XMBYTEN2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyten2-ctor">XMBYTEN2 Constructors</a>
  
 
  

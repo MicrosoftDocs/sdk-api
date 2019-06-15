@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/370A772A-0AD9-4183-B316-CADC4FE117AE">ITextChildProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider">ITextChildProvider</a>
  
 
  

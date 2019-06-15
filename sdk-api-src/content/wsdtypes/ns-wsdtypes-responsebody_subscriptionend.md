@@ -59,7 +59,7 @@ Represents a WS-Eventing SubscriptionEnd response message.
 
 ### -field SubscriptionManager
 
-Reference to a <a href="https://msdn.microsoft.com/97d6870e-3633-4bea-9a50-984e6b0ba3a1">WSD_ENDPOINT_REFERENCE</a> structure that represents the endpoint reference of the subscription manager.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that represents the endpoint reference of the subscription manager.
 
 
 ### -field Status
@@ -107,10 +107,10 @@ The event source ended the subscription because the delivery of notifications fa
 
 ### -field Reason
 
-Reference to a  <a href="https://msdn.microsoft.com/c90cc459-a10d-4b2b-81bc-96e562755b6c">WSD_LOCALIZED_STRING</a> that contains a human-readable explanation of the reason the subscription ended. 
+Reference to a  <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_localized_string">WSD_LOCALIZED_STRING</a> that contains a human-readable explanation of the reason the subscription ended. 
 
 
 ### -field Any
 
-Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 

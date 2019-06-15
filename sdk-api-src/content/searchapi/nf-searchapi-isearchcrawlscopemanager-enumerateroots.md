@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an enumeration of all the roots of which this instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb266492(v=VS.85).aspx">ISearchCrawlScopeManager</a> is aware.
+Returns an enumeration of all the roots of which this instance of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchcrawlscopemanager">ISearchCrawlScopeManager</a> is aware.
         
 
 
@@ -60,9 +60,9 @@ Returns an enumeration of all the roots of which this instance of the <a href="h
 
 ### -param ppSearchRoots [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-ienumsearchroots">IEnumSearchRoots</a>**</b>
 
-Returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> interface.
+Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-ienumsearchroots">IEnumSearchRoots</a> interface.
                 
 
 

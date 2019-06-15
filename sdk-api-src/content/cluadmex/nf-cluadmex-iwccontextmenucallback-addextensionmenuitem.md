@@ -53,7 +53,7 @@ ms.custom: 19H1
     section. Support for this method was removed in Windows Server 2008.]
 
 Adds a menu item to a 
-    <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> context menu.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> context menu.
 
 
 ## -parameters
@@ -216,17 +216,17 @@ There was an error allocating the menu item.
 The <b>AddExtensionMenuItem</b> 
      method adds items at the top of the context menu and follows them by a separator. The command identified by 
      <i>nCommandID</i> is passed in the <i>nCommandID</i> parameter to the 
-     <a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a> method 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a> method 
      when the user selects this menu item.
 
 Note that the <b>MF_OWNERDRAW</b> and <b>MF_POPUP</b> flags are not 
      supported specifically for the <i>uFlags</i> parameter.
 
 
-<a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extensions call 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extensions call 
      <b>AddExtensionMenuItem</b> from 
      their 
-     <a href="https://msdn.microsoft.com/48de3627-a919-437b-b19b-374327234df9">IWEExtendContextMenu::AddContextMenuItems</a> 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a> 
      method.
 
 
@@ -237,15 +237,15 @@ Note that the <b>MF_OWNERDRAW</b> and <b>MF_POPUP</b> flags are not
 
 
 
-<a href="https://msdn.microsoft.com/50dbb062-100a-40af-8e52-7bd4574334f4">IWCContextMenuCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwccontextmenucallback">IWCContextMenuCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/48de3627-a919-437b-b19b-374327234df9">IWEExtendContextMenu::AddContextMenuItems</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e723535-d786-496f-bc16-5b10a8a22383">IWEInvokeCommand::InvokeCommand</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
  
 
  

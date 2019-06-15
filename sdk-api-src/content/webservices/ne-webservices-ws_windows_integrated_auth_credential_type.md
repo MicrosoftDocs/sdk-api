@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The type of the Windows Integrated Authentication credential, used as
-a selector for subtypes of <a href="https://msdn.microsoft.com/en-us/library/Dd323506(v=VS.85).aspx">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+a selector for subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
             
 
 
@@ -61,18 +61,18 @@ a selector for subtypes of <a href="https://msdn.microsoft.com/en-us/library/Dd3
 
 ### -field WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
-Type id for the Windows credential <a href="https://msdn.microsoft.com/en-us/library/Dd323452(v=VS.85).aspx">WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+Type id for the Windows credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string_windows_integrated_auth_credential">WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
                 
 
 
 ### -field WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
-Type id for the Windows credential <a href="https://msdn.microsoft.com/en-us/library/Dd401814(v=VS.85).aspx">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+Type id for the Windows credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_default_windows_integrated_auth_credential">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
                 
 
 
 ### -field WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
-Type id for the Windows credential <a href="https://msdn.microsoft.com/en-us/library/Dd401976(v=VS.85).aspx">WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+Type id for the Windows credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_opaque_windows_integrated_auth_credential">WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
                 
 

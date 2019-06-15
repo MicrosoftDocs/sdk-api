@@ -166,7 +166,7 @@ This value is the maximum value defined in IMAPI_MEDIA_PHYSICAL_TYPE.
 
 
 
-The values in the range 0x00000000..0x0000FFFF inclusive are reserved for extension by Microsoft. If third parties wish to report a media type not in this list using this enumeration (for example, if implementing <a href="https://msdn.microsoft.com/6b9a80fc-6ef5-4102-9361-313d33f182ab">IDiscFormat2Data::get_CurrentPhysicalMediaType</a> to support a non-listed format) they should define values only in the range 0x00010000..0xFFFFFFFF for these media types.
+The values in the range 0x00000000..0x0000FFFF inclusive are reserved for extension by Microsoft. If third parties wish to report a media type not in this list using this enumeration (for example, if implementing <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentphysicalmediatype">IDiscFormat2Data::get_CurrentPhysicalMediaType</a> to support a non-listed format) they should define values only in the range 0x00010000..0xFFFFFFFF for these media types.
 
 
 
@@ -176,7 +176,7 @@ The values in the range 0x00000000..0x0000FFFF inclusive are reserved for extens
 
 
 
-<a href="https://msdn.microsoft.com/6b9a80fc-6ef5-4102-9361-313d33f182ab">IDiscFormat2Data::get_CurrentPhysicalMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentphysicalmediatype">IDiscFormat2Data::get_CurrentPhysicalMediaType</a>
  
 
  

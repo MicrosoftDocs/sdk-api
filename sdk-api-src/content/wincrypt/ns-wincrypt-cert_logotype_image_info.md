@@ -173,7 +173,7 @@ The address of a null-terminated IA5 string that contains the RFC 3066 language 
 
 
 
-<a href="https://msdn.microsoft.com/d1dff71c-41e1-4f02-93b4-019d688ed012">CERT_LOGOTYPE_IMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_image">CERT_LOGOTYPE_IMAGE</a>
  
 
  

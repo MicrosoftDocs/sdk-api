@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IWSManConnectionOptionsEx</b> object is passed to the <a href="https://msdn.microsoft.com/0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5">IWSMan::CreateSession</a> method to provide the thumbprint of the client certificate used for authentication.
+The <b>IWSManConnectionOptionsEx</b> object is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a> method to provide the thumbprint of the client certificate used for authentication.
 
 
 ## -see-also
@@ -57,7 +57,7 @@ The <b>IWSManConnectionOptionsEx</b> object is passed to the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>
  
 
  

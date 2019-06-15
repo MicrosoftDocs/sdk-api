@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a collection of <a href="https://msdn.microsoft.com/f6798542-382a-4074-bbe1-707bc00b3575">D2D1_GRADIENT_STOP</a> objects for linear and radial gradient brushes. It provides get methods for all the new parameters added to the gradient stop collection.
+Represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> objects for linear and radial gradient brushes. It provides get methods for all the new parameters added to the gradient stop collection.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientStopCollection1</b> interface inherits from <a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a>. <b>ID2D1GradientStopCollection1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1GradientStopCollection1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>. <b>ID2D1GradientStopCollection1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1GradientStopCollection1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a59c903-0fa8-4d2c-b426-8d3c3410c6bd">GetBufferPrecision</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getbufferprecision">GetBufferPrecision</a>
 </td>
 <td align="left" width="63%">
 Gets the precision of the gradient buffer.
@@ -78,7 +78,7 @@ Gets the precision of the gradient buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D1351D2B-B259-400C-A77A-2437E80D46E9">GetColorInterpolationMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getcolorinterpolationmode">GetColorInterpolationMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color interpolation mode that the gradient stop collection uses.
@@ -87,7 +87,7 @@ Retrieves the color interpolation mode that the gradient stop collection uses.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da3987a5-b40f-49eb-9930-0162cf64d6a9">GetGradientStops1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getgradientstops1">GetGradientStops1</a>
 </td>
 <td align="left" width="63%">
 Copies the gradient stops from the collection into memory.
@@ -96,7 +96,7 @@ Copies the gradient stops from the collection into memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb579d25-f38c-4f26-a29b-c6875cbabb3b">GetPostInterpolationSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getpostinterpolationspace">GetPostInterpolationSpace</a>
 </td>
 <td align="left" width="63%">
 Gets the color space after interpolation has occurred.
@@ -105,7 +105,7 @@ Gets the color space after interpolation has occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8222d713-c47e-4e4c-92aa-040dc9085ce9">GetPreInterpolationSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1gradientstopcollection1-getpreinterpolationspace">GetPreInterpolationSpace</a>
 </td>
 <td align="left" width="63%">
 Gets the color space of the input colors as well as the space in which gradient stops are interpolated.
@@ -120,15 +120,15 @@ Gets the color space of the input colors as well as the space in which gradient 
 
 
 
-<a href="https://msdn.microsoft.com/6374fc62-1f54-4112-8ba3-9c1167bf8685">ID2D1DeviceContext::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection">ID2D1DeviceContext::CreateGradientStopCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/982abf9c-4778-4871-a494-5843f0c0addc">ID2D1GradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">ID2D1RenderTarget::CreateGradientStopCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">ID2D1RenderTarget::CreateGradientStopCollection</a>
  
 
  

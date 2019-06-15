@@ -59,9 +59,9 @@ Requests that a folder object resolve a Shell link.
 
 ### -param punkLink [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-Pointer to the object's <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> interface. This interface can then be queried to determine the contents of the link.
+Pointer to the object's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> interface. This interface can then be queried to determine the contents of the link.
 
 
 ### -param hwnd [in]
@@ -117,7 +117,7 @@ Do not use distributed link tracking.
 
 #### SLR_UPDATE
 
-If the link object has changed, update its path and list of identifiers. If <b>SLR_UPDATE</b> is set, you do not need to call <a href="https://msdn.microsoft.com/4f3df841-d7fe-472e-a13c-124fdf425a35">IPersistFile::IsDirty</a> to determine whether the link object has changed.
+If the link object has changed, update its path and list of identifiers. If <b>SLR_UPDATE</b> is set, you do not need to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-isdirty">IPersistFile::IsDirty</a> to determine whether the link object has changed.
 
 
 ## -returns
@@ -145,7 +145,7 @@ This method should attempt to find the target of a Shell link, even if the targe
 
 
 
-<a href="https://msdn.microsoft.com/ed5fc982-9d20-4ace-9d34-17cbef8ad8e2">IResolveShellLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iresolveshelllink">IResolveShellLink</a>
  
 
  

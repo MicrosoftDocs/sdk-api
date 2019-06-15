@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Marshals an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> object into the RPC buffer.
+Marshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object into the RPC buffer.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
  
 
  

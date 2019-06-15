@@ -101,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/BEB6BD9B-C265-4C92-98AD-59344B5274D4">IAppxEncryptionFactory4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptionfactory4">IAppxEncryptionFactory4</a>
  
 
  

@@ -66,7 +66,7 @@ Server binding to modify.
 ### -param option
 
 Binding property to modify. For a list of binding options and their possible values, see 
-<a href="https://msdn.microsoft.com/ff88e05d-b9f3-42ef-a44f-fee9261832c8">Binding Option Constants</a>. See Remarks for information on the RPC Call time-out feature.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-option-constants">Binding Option Constants</a>. See Remarks for information on the RPC Call time-out feature.
 
 
 ### -param optionValue
@@ -110,7 +110,7 @@ The function is not supported for either the operating system or the transport. 
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -122,7 +122,7 @@ The function is not supported for either the operating system or the transport. 
 RPC client processes use 
 <b>RpcBindingSetOption</b> to control the delivery quality-of-service, call logging, and call lifetimes. Changing the binding-handle properties will affect all remote calls until the properties are changed by another call to 
 <b>RpcBindingSetOption</b>. You can also call 
-<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a> to set security options for the binding handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> to set security options for the binding handle.
 
 <b>Windows XP:  </b>RPC Call Timeout feature:
 
@@ -141,24 +141,24 @@ The RPC call time-out feature is useful in many situations, such as user interfa
 
 
 
-<a href="https://msdn.microsoft.com/f1c8665b-3754-4c2e-b3ac-bba1f4b329e1">RPC Message
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-message-queuing">RPC Message
 		  Queuing</a>
 
 
 
-<a href="https://msdn.microsoft.com/2834a6a8-8bd6-4829-84ea-e3f35c917ab7">RpcBindingInqAuthClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqauthclient">RpcBindingInqAuthClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/f148c827-d18a-41f2-834a-f6b77b331bcc">RpcBindingInqOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqoption">RpcBindingInqOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/2db946b6-6a0d-402c-89ef-68c7489aa7ee">RpcBindingSetAuthInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec616bf5-a845-4e7e-9f39-20947d2074f7">message</a>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/message">message</a>
  
 
  

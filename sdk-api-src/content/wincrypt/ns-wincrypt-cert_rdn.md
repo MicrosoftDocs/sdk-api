@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_RDN</b> structure contains a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">relative distinguished name</a> (RDN) consisting of an array of 
-<a href="https://msdn.microsoft.com/4729e824-761c-4115-8b7b-76ffdab8ea62">CERT_RDN_ATTR</a> structures.
+The <b>CERT_RDN</b> structure contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN) consisting of an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> structures.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Number of elements in the <b>rgRDNAttr</b> array.
 ### -field rgRDNAttr
 
 Array of 
-<a href="https://msdn.microsoft.com/4729e824-761c-4115-8b7b-76ffdab8ea62">CERT_RDN_ATTR</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> structures.
 
 
 ## -see-also
@@ -74,23 +74,23 @@ Array of
 
 
 
-<a href="https://msdn.microsoft.com/402d1051-d91a-4a79-96f6-10ed96a32d5c">CERT_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_name_info">CERT_NAME_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4729e824-761c-4115-8b7b-76ffdab8ea62">CERT_RDN_ATTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/20b3fcfb-55df-46ff-80a5-70f31a3d03b2">CertFindCertificateInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e45b80a3-9269-4f21-8407-1c8303cb5f32">CertIsRDNAttrsInCertificateName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certisrdnattrsincertificatename">CertIsRDNAttrsInCertificateName</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3d96de8-5cbc-4ccb-b759-6757520bbda3">CertNameToStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
  
 
  

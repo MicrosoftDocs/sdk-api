@@ -61,8 +61,8 @@ Windows Management calls the
 ### -param pSink [in]
 
 Pointer to the object sink to which the provider will deliver its events. In an event provider implementation, you should use the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391788(v=VS.85).aspx">IWbemObjectSink::Indicate</a> method to send events through <i>pSink</i>. This is in contrast to other providers that may use the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> method: The 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method to send events through <i>pSink</i>. This is in contrast to other providers that may use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> method: The 
 <b>ProvideEvents</b> method should use only 
 <b>Indicate</b> to update a sink.
 
@@ -86,7 +86,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 Windows Management calls this method to activate the provider. Windows Management gives an 
-<a href="https://msdn.microsoft.com/987aea1d-912a-4691-987f-181c1ef1a8a9">IWbemObjectSink</a> pointer to the event provider. The provider must call the <b>AddRef</b> method using this pointer to increment the reference count, and then return from the call.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> pointer to the event provider. The provider must call the <b>AddRef</b> method using this pointer to increment the reference count, and then return from the call.
 
 Typically, the provider will create an independent thread, and deliver the events as they occur to the provided sink interface.
 

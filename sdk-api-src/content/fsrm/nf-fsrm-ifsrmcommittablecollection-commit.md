@@ -61,7 +61,7 @@ Commits all the objects of the collection and returns the commit results for eac
 ### -param options [in]
 
 One or more options to use when committing the collection of objects. For possible values, see the 
-      <a href="https://msdn.microsoft.com/eb362bd8-c11f-404e-be54-0e16007494a7">FsrmCommitOptions</a> enumeration.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmcommitoptions">FsrmCommitOptions</a> enumeration.
 
 
 ### -param results [out]
@@ -89,7 +89,7 @@ The method returns the following return values.
 
 Committing objects in a batch operation provides better performance than committing each object in the 
     collection individually (for example, calling the 
-    <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">IFsrmFileScreen::Commit</a> method).
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmFileScreen::Commit</a> method).
 
 Note that the state of the objects in the collection must be the same. For example, the collection must 
     contain all new objects, objects marked for deletion, or modified objects. The modified category covers objects 
@@ -98,8 +98,8 @@ Note that the state of the objects in the collection must be the same. For examp
 
 A collection of imported objects would be considered a collection of modified objects. If you marked one or 
     more of the imported objects for deletion (called the 
-    <a href="https://msdn.microsoft.com/ce8a17fe-377b-4a0e-9a95-7dc25a1411ce">Delete</a> method on the object), you would first have to 
-    <a href="https://msdn.microsoft.com/2d28bfc7-82d4-4c74-bac9-f9ef9111279f">remove</a> those objects from the collection before 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-delete">Delete</a> method on the object), you would first have to 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-remove">remove</a> those objects from the collection before 
     committing the rest.
 
 
@@ -110,7 +110,7 @@ A collection of imported objects would be considered a collection of modified ob
 
 
 
-<a href="https://msdn.microsoft.com/ef4678b4-e6b0-4044-ba11-7a3ae01ad2c7">IFsrmCommittableCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcommittablecollection">IFsrmCommittableCollection</a>
  
 
  

@@ -75,7 +75,7 @@ Ignored by the host. If this method succeeds, it returns <b>S_OK</b>. Otherwise,
 
 
 
-<a href="https://msdn.microsoft.com/580d4b21-3a4b-4e0c-b0d1-25b4e4fb2b1b">IWebApplicationNavigationEvents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationnavigationevents">IWebApplicationNavigationEvents</a>
  
 
  

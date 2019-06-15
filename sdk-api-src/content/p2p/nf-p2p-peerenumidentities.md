@@ -59,7 +59,7 @@ The <b>PeerEnumIdentities</b> function creates and returns a peer enumeration ha
 
 ### -param phPeerEnum [out]
 
- Receives a handle to the peer enumeration that contains the list of peer identities, with each item represented as a pointer to a <a href="https://msdn.microsoft.com/4c64664e-33c6-490e-b160-7bdb5fb428fa">PEER_NAME_PAIR</a> structure. Pass this handle to <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a> to retrieve the items; when finished, call <a href="https://msdn.microsoft.com/cc9484fb-57b9-4970-91b8-c74db6bf2248">PeerEndEnumeration</a>  to release the memory.
+ Receives a handle to the peer enumeration that contains the list of peer identities, with each item represented as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_name_pair_tag">PEER_NAME_PAIR</a> structure. Pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to retrieve the items; when finished, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>  to release the memory.
 
 
 ## -returns
@@ -105,11 +105,11 @@ There is not enough memory to perform the specified operation.
 
 
 
-Once the application has obtained the peer enumeration handle, use <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a> and <a href="https://msdn.microsoft.com/8f6fec31-8867-4d65-b5b0-e6506be9c991">PeerGetItemCount</a> to enumerate the peer identities.
+Once the application has obtained the peer enumeration handle, use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> and <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a> to enumerate the peer identities.
 
-When enumerating peer identities, <a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>  returns an array of pointers to <a href="https://msdn.microsoft.com/4c64664e-33c6-490e-b160-7bdb5fb428fa">PEER_NAME_PAIR</a> structures.
+When enumerating peer identities, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>  returns an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_name_pair_tag">PEER_NAME_PAIR</a> structures.
 
-Call <a href="https://msdn.microsoft.com/cc9484fb-57b9-4970-91b8-c74db6bf2248">PeerEndEnumeration</a> to free the enumeration handle when it is no longer required.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a> to free the enumeration handle when it is no longer required.
 
 
 
@@ -119,19 +119,19 @@ Call <a href="https://msdn.microsoft.com/cc9484fb-57b9-4970-91b8-c74db6bf2248">P
 
 
 
-<a href="https://msdn.microsoft.com/4c64664e-33c6-490e-b160-7bdb5fb428fa">PEER_NAME_PAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_name_pair_tag">PEER_NAME_PAIR</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc9484fb-57b9-4970-91b8-c74db6bf2248">PeerEndEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f6fec31-8867-4d65-b5b0-e6506be9c991">PeerGetItemCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/015faeb3-82d9-49e5-a451-7394bf83240f">PeerGetNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>
  
 
  

@@ -61,9 +61,9 @@ The <b>IConsoleNameSpace2::InsertItem</b> method enables the snap-in to insert a
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c392f25c-80e7-4c91-9063-36143320b9aa">SCOPEDATAITEM</a> structure that specifies the attributes of the new scope item. On return, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scopedataitem">SCOPEDATAITEM</a> structure that specifies the attributes of the new scope item. On return, the 
 ID member of the structure contains the item identifier assigned by MMC for the newly inserted item. Be aware that this value is the <b>HSCOPEITEM</b> handle of the inserted item. The snap-in should store this value in order to later manipulate the inserted item by calling methods such as 
-<a href="https://msdn.microsoft.com/0dadf9f0-4d49-49c3-a190-dfab0d6ace3f">IConsoleNameSpace2::GetItem</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace-getitem">IConsoleNameSpace2::GetItem</a>.
 
 
 ## -returns
@@ -80,11 +80,11 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
  
 
  

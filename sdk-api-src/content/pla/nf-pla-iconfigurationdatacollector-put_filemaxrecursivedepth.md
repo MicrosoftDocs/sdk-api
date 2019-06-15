@@ -64,19 +64,19 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/7266c02d-0f56-4754-8a67-68394a5f0158">IConfigurationDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/20089bc0-8af4-48b4-85aa-51ab2e4bf5be">IConfigurationDataCollector::FileMaxCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxcount">IConfigurationDataCollector::FileMaxCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcfe2b95-770d-4543-8f79-c5f1b55c5dec">IConfigurationDataCollector::FileMaxTotalSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxtotalsize">IConfigurationDataCollector::FileMaxTotalSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca495768-8f84-489b-8590-3ab7d031f0be">IConfigurationDataCollector::Files</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_files">IConfigurationDataCollector::Files</a>
  
 
  

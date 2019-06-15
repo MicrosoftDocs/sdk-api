@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The callback interface you must implement if you want to receive sensor events.
 
-To subscribe to events for a particular sensor, call <a href="https://msdn.microsoft.com/8e2f7edc-894f-4258-8948-2a3d4df532c3">ISensor::SetEventSink</a>.
+To subscribe to events for a particular sensor, call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventsink">ISensor::SetEventSink</a>.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensorEvents</b> interface exposes the following methods.
 
@@ -61,7 +61,7 @@ In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensorEvents<
 
 
 
-<a href="https://msdn.microsoft.com/872de1e9-20f9-409b-9917-24b13a8cc08a">COM Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
  
 
  

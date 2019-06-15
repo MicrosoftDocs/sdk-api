@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Releases the table obtained earlier from <a href="https://msdn.microsoft.com/82ce9078-0b50-4e8c-a38a-181ec71d6136">TryGetFontTable</a>.
+ Releases the table obtained earlier from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-trygetfonttable">TryGetFontTable</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 Type: <b>void*</b>
 
-A pointer to the opaque context from <a href="https://msdn.microsoft.com/82ce9078-0b50-4e8c-a38a-181ec71d6136">TryGetFontTable</a>.
+A pointer to the opaque context from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-trygetfonttable">TryGetFontTable</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
  
 
  

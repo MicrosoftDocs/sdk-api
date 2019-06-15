@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a> for the current contact. 
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a> for the current contact. 
 		Optionally, filters the <b>IContactPropertyCollection</b> to enumerate only some values.
 
 
@@ -60,9 +60,9 @@ Returns an <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7ad
 
 ### -param ppPropertyCollection [out]
 
-Type: <b><a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>**</b>
 
-On success, points to the new <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a>.
+On success, points to the new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.
 
 
 ### -param dwFlags [in]
@@ -141,7 +141,7 @@ Always returns success.
 Caller can enumerate all child properties of a top-level property with 
 		an optional label filter applied. For example: all emailAddresses where label="work". On success, 
 		collection has been reset to the location before the first element (if any are present). 
-		Call <a href="https://msdn.microsoft.com/b6e8abad-796d-4ded-be23-45ca107915f1">Next</a> to begin querying data.
+		Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">Next</a> to begin querying data.
 
 
 

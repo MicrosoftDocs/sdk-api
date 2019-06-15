@@ -84,27 +84,27 @@ The members of this structure are named as they are so that they are not confuse
 
 
 
-<a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd456988-ec9d-4e62-a93f-753ac08a18d9">ScriptPlaceOpenType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc776a9-fdde-4982-a2ca-e4384615bc47">ScriptPositionSingleGlyph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptpositionsingleglyph">ScriptPositionSingleGlyph</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d69caeb-4c02-4a9f-9dd5-ac3c13561a57">ScriptTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/243438fd-5bb2-4b2a-8b33-803029085adb">Uniscribe Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
  
 
  

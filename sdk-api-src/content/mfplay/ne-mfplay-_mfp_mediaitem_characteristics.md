@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
@@ -69,12 +69,12 @@ The media item represents a live data source, such as video camera. If playback 
 
 ### -field MFP_MEDIAITEM_CAN_SEEK
 
-The media item supports seeking. If this flag is absent, the <a href="https://msdn.microsoft.com/d8665c3b-e0da-4a6f-a61b-38d507d1e78a">IMFPMediaPlayer::SetPosition</a> method will fail.
+The media item supports seeking. If this flag is absent, the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setposition">IMFPMediaPlayer::SetPosition</a> method will fail.
 
 
 ### -field MFP_MEDIAITEM_CAN_PAUSE
 
-The media item can pause. If this flag is absent, the <a href="https://msdn.microsoft.com/f6bf6896-6ed6-4135-a01d-f875bfdc72f4">IMFPMediaPlayer::Pause</a> method will likely fail.
+The media item can pause. If this flag is absent, the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-pause">IMFPMediaPlayer::Pause</a> method will likely fail.
 
 
 ### -field MFP_MEDIAITEM_HAS_SLOW_SEEK
@@ -97,11 +97,11 @@ The following <b>typedef</b> is defined for combining flags from this enumeratio
 
 
 
-<a href="https://msdn.microsoft.com/9fe65644-c7a0-4af5-9765-f933215f5f83">IMFPMediaItem::GetCharacteristics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getcharacteristics">IMFPMediaItem::GetCharacteristics</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

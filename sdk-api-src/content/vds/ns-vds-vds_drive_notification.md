@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of drive events.
 
@@ -77,7 +77,7 @@ Determines the drive event for which an application will be notified, as one of 
 </dl>
 </td>
 <td width="60%">
-A drive is reported as physically present on the subsystem. The <a href="https://msdn.microsoft.com/fff84c91-d207-44fc-bcd6-03e34eaed9e3">VDS_DRIVE_STATUS</a> value associated with this notification should be any  value except <b>VDS_DRS_REMOVED</b>.
+A drive is reported as physically present on the subsystem. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_status">VDS_DRIVE_STATUS</a> value associated with this notification should be any  value except <b>VDS_DRS_REMOVED</b>.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ A drive is reported as physically present on the subsystem. The <a href="https:/
 </dl>
 </td>
 <td width="60%">
-A drive was physically removed from the subsystem. The <a href="https://msdn.microsoft.com/fff84c91-d207-44fc-bcd6-03e34eaed9e3">VDS_DRIVE_STATUS</a> value should be <b>VDS_DRS_UNKNOWN</b> or <b>VDS_DRS_REMOVED</b>.
+A drive was physically removed from the subsystem. The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_status">VDS_DRIVE_STATUS</a> value should be <b>VDS_DRS_UNKNOWN</b> or <b>VDS_DRS_REMOVED</b>.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ A drive was physically removed from the subsystem. The <a href="https://msdn.mic
 </dl>
 </td>
 <td width="60%">
-A member of the <a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422efb63e73">VDS_DRIVE_PROP</a> structure changed, or an extent on a drive changed.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_prop">VDS_DRIVE_PROP</a> structure changed, or an extent on a drive changed.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ A member of the <a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422
 </dl>
 </td>
 <td width="60%">
-A drive that was in use as part of a RAID group or storage pool is no longer in use as part of the RAID group or storage pool. For example, if a RAID group drive was detected as failing and was replaced with a hot spare, the <a href="https://msdn.microsoft.com/fff84c91-d207-44fc-bcd6-03e34eaed9e3">VDS_DRIVE_STATUS</a> value should be <b>VDS_DRS_FAILED</b>  (removed from use because of failure), <b>VDS_DRS_OFFLINE</b>  (not failed, but not in use), <b>VDS_DRS_NOT_READY</b>,  or <b>VDS_DRS_UNKNOWN</b>.
+A drive that was in use as part of a RAID group or storage pool is no longer in use as part of the RAID group or storage pool. For example, if a RAID group drive was detected as failing and was replaced with a hot spare, the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_status">VDS_DRIVE_STATUS</a> value should be <b>VDS_DRS_FAILED</b>  (removed from use because of failure), <b>VDS_DRS_OFFLINE</b>  (not failed, but not in use), <b>VDS_DRS_NOT_READY</b>,  or <b>VDS_DRS_UNKNOWN</b>.
 If the  drive was removed as part of rebalancing the storage, the drive is not failing, and the <b>VDS_DRIVE_STATUS</b> value should be <b>VDS_DRS_OFFLINE</b>  or <b>VDS_DRS_NOT_READY</b>.
 
 
@@ -131,11 +131,11 @@ The GUID of the drive that triggered the event.
 
 
 
-The <a href="https://msdn.microsoft.com/59d21cd3-1cff-47be-be98-f4c55f044306">VDS_NOTIFICATION</a> structure includes this structure as a member.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a> structure includes this structure as a member.
 
-An application can receive drive events by implementing the <a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a> interface and passing the interface pointer as an argument to the <a href="https://msdn.microsoft.com/be1d5385-6c72-4847-9ed7-4d2309a3e9ac">IVdsService::Advise</a> method.
+An application can receive drive events by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface pointer as an argument to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> method.
 
-To get the drive object, use the <a href="https://msdn.microsoft.com/622a95a4-0e8c-4f65-a935-61cb48379065">IVdsService::GetObject</a> method. You can then use the <a href="https://msdn.microsoft.com/31556be6-ff03-492f-a7a6-dec37a63e88d">IVdsDrive::GetProperties</a> method or the <a href="https://msdn.microsoft.com/635957be-780f-4dee-8d70-b7fc37fecd5c">IVdsDrive2::GetProperties2</a> method to get the drive properties.
+To get the drive object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-getproperties">IVdsDrive::GetProperties</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive2-getproperties2">IVdsDrive2::GetProperties2</a> method to get the drive properties.
 
 
 
@@ -145,23 +145,23 @@ To get the drive object, use the <a href="https://msdn.microsoft.com/622a95a4-0e
 
 
 
-<a href="https://msdn.microsoft.com/8e9b7c95-0b59-4268-a274-5d16812075a6">IVdsAdviseSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/be1d5385-6c72-4847-9ed7-4d2309a3e9ac">IVdsService::Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/c17f13f6-ccea-4370-84d1-b422efb63e73">VDS_DRIVE_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_drive_prop">VDS_DRIVE_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/59d21cd3-1cff-47be-be98-f4c55f044306">VDS_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_notification">VDS_NOTIFICATION</a>
  
 
  

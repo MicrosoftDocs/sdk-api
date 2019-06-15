@@ -65,7 +65,7 @@ This property is read/write.
 
 An interval of 1 produces a weekly schedule. An interval of 2 produces an every-other week schedule.
 
-When reading or writing your own XML for a task, the interval for a weekly schedule is specified using the <a href="https://msdn.microsoft.com/6cbf1e7e-a695-4012-97fd-fe3360c362c4">WeeksInterval</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, the interval for a weekly schedule is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-weeksinterval-weeklyscheduletype-element">WeeksInterval</a> element of the Task Scheduler schema.
 
 
 
@@ -75,11 +75,11 @@ When reading or writing your own XML for a task, the interval for a weekly sched
 
 
 
-<a href="https://msdn.microsoft.com/c10b050a-8319-4e21-85aa-0bceb76abaaf">IWeeklyTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

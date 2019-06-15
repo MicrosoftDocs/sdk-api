@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores information required to process the <a href="https://msdn.microsoft.com/en-us/library/Bb760941(v=VS.85).aspx">MCN_VIEWCHANGE</a> notification code.
+Stores information required to process the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcn-viewchange">MCN_VIEWCHANGE</a> notification code.
 
 
 ## -struct-fields
@@ -59,15 +59,15 @@ Stores information required to process the <a href="https://msdn.microsoft.com/e
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code.
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 
 ### -field dwOldView
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Old view. One of the following constants.
 
@@ -122,7 +122,7 @@ Century view.
 
 ### -field dwNewView
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 New view. One of the constants listed at <b>dwOldView</b>.
 

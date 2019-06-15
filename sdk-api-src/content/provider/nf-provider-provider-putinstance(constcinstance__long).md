@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class is part of the WMI 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class is part of the WMI 
     Provider Framework which is now considered in final state, and no further development, enhancements, or updates 
     will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>PutInstance</b> method updates an instance.
@@ -71,7 +71,7 @@ Instance that is updated.
 
 ### -param lFlags
 
-Bitmask of flags with information about the update operation. This is the value specified by the client in the <a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a> method.
+Bitmask of flags with information about the update operation. This is the value specified by the client in the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a> method.
 
 The following flag is handled by (and filtered out) by WMI:
 
@@ -90,7 +90,7 @@ Valid <i>lFlags</i> values are:
 
 
 
-The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a> method lists the most common return values, although you can choose to return any COM return code.
+The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a> method lists the most common return values, although you can choose to return any COM return code.
 
 
 
@@ -99,11 +99,11 @@ The default framework provider implementation of this method returns <b>WBEM_E_P
 
 
 
-WMI invokes <b>PutInstance</b> when a client calls <a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a> against your class. You must implement <b>PutInstance</b> if your framework provider updates instances. The following list describes a common implementation of <b>PutInstance</b>:
+WMI invokes <b>PutInstance</b> when a client calls <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a> against your class. You must implement <b>PutInstance</b> if your framework provider updates instances. The following list describes a common implementation of <b>PutInstance</b>:
 
 <ol>
 <li>
-Examine the key properties passed in by the client with the Get methods for <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a>, such as <a href="https://msdn.microsoft.com/d9295ba1-19da-41a2-86d1-ec80e18e895b">CInstance::GetCHString</a>.
+Examine the key properties passed in by the client with the Get methods for <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>, such as <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getchstring">CInstance::GetCHString</a>.
 
 Your implementation should determine if your provider supports the changes requested by the client.
 
@@ -112,7 +112,7 @@ Your implementation should determine if your provider supports the changes reque
 <li>
 Return the appropriate return value.
 
-If your provider does not support the changes requested by the client, you should return an appropriate error code. For a complete listing of valid error codes, see <a href="https://msdn.microsoft.com/1e07b328-40f7-4e14-bf53-9a5cebfc23f6">IWbemServices::PutInstance</a>.
+If your provider does not support the changes requested by the client, you should return an appropriate error code. For a complete listing of valid error codes, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>.
 
 </li>
 </ol>

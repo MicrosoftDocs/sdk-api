@@ -59,7 +59,7 @@ Gets the displays collection for this Text Object Model (TOM) engine instance.
 
 ### -param ppDisplays [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/e7266734-c066-4f80-8d3d-99ffb251cd39">ITextDisplays</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdisplays">ITextDisplays</a>**</b>
 
 The displays collection.
 
@@ -68,7 +68,7 @@ The displays collection.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -89,7 +89,7 @@ The rich edit control doesn't implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
  
 
  

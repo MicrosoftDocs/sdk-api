@@ -56,7 +56,7 @@ Sends mouse and keyboard events, and supports touch input.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPViewerInputSink</b> class inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRDPViewerInputSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPViewerInputSink</b> class inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPViewerInputSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IRDPViewerInputSink</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5DD220B8-505E-43AE-9438-F1D553AABB0B">AddTouchInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-addtouchinput">AddTouchInput</a>
 </td>
 <td align="left" width="63%">
 Accepts a description of  a touch input.
@@ -80,7 +80,7 @@ Accepts a description of  a touch input.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DCB67D63-A866-4D98-907B-6CDB7EB56312">BeginTouchFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-begintouchframe">BeginTouchFrame</a>
 </td>
 <td align="left" width="63%">
 Begins  to accept a series of touch inputs.
@@ -89,7 +89,7 @@ Begins  to accept a series of touch inputs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31E84AEB-7A89-4EF1-9744-3102AAEA2C1E">EndTouchFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-endtouchframe">EndTouchFrame</a>
 </td>
 <td align="left" width="63%">
 Stops  to   accept  a series of touch inputs.
@@ -98,7 +98,7 @@ Stops  to   accept  a series of touch inputs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28EDA0AD-9669-4232-BD41-4ADEC90CA3A7">SendKeyboardEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendkeyboardevent">SendKeyboardEvent</a>
 </td>
 <td align="left" width="63%">
 Sends a keyboard event message.
@@ -107,7 +107,7 @@ Sends a keyboard event message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2BC93D69-7DBC-4C38-9980-EEB9775A083E">SendMouseButtonEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendmousebuttonevent">SendMouseButtonEvent</a>
 </td>
 <td align="left" width="63%">
 Sends a mouse button event message.
@@ -116,7 +116,7 @@ Sends a mouse button event message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0888E762-A0B3-48EA-B928-42E3E801AF15">SendMouseMoveEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendmousemoveevent">SendMouseMoveEvent</a>
 </td>
 <td align="left" width="63%">
 Sends a mouse move event message.
@@ -125,7 +125,7 @@ Sends a mouse move event message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CEC54C27-F49E-4B41-A18D-69F0414955A1">SendMouseWheelEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendmousewheelevent">SendMouseWheelEvent</a>
 </td>
 <td align="left" width="63%">
 Sends a mouse wheel event message.
@@ -134,7 +134,7 @@ Sends a mouse wheel event message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C8B59CAF-DFBE-4569-99B2-DECF1F1DBB56">SendSyncEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendsyncevent">SendSyncEvent</a>
 </td>
 <td align="left" width="63%">
 Sends an event message to indicate a change in the state of the keyboard, such as when the Caps Lock key is pressed.
@@ -149,7 +149,7 @@ Sends an event message to indicate a change in the state of the keyboard, such a
 
 
 
-<a href="https://msdn.microsoft.com/bb1df622-bfcd-4d84-b5f6-780b693cc760">Windows Desktop Sharing Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-interfaces">Windows Desktop Sharing Interfaces</a>
  
 
  

@@ -75,7 +75,7 @@ The contrast enhancement value. Valid values are greater than or equal to zero.
 
 
 
-<a href="https://msdn.microsoft.com/3A69E77A-5C22-422E-AC50-4EB9A0A472FE">IDWriteRenderingParams1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1">IDWriteRenderingParams1</a>
  
 
  

@@ -64,7 +64,7 @@ Specifies the size a structure.
 
 ### -field dwFlags
 
-Specifies the type of connection to a remote node. Valid values are specified by <a href="https://msdn.microsoft.com/24723421-18e4-4333-8c25-f5ee08182f7f">PEER_CONNECTION_FLAGS</a>. 
+Specifies the type of connection to a remote node. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_connection_flags_tag">PEER_CONNECTION_FLAGS</a>. 
 
 
 ### -field ullConnectionId
@@ -84,7 +84,7 @@ Points to a string that identifies the node on the other end of a connection.
 
 ### -field address
 
-Specifies the address of a remote node. The address is contained in a <a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a> structure.
+Specifies the address of a remote node. The address is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a> structure.
 
 
 ## -see-also
@@ -92,15 +92,15 @@ Specifies the address of a remote node. The address is contained in a <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/09476d3b-ec65-40a2-90ee-a20be230deca">PEER_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_address_tag">PEER_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef4ea3e2-fd71-48d8-a9a8-db38ef06df20">PeerGraphEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumconnections">PeerGraphEnumConnections</a>
 
 
 
-<a href="https://msdn.microsoft.com/84a26066-3d6a-44c8-86a1-b3f997c17739">PeerGroupEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumconnections">PeerGroupEnumConnections</a>
  
 
  

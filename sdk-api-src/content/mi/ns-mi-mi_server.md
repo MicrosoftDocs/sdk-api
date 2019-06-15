@@ -65,20 +65,20 @@ Pointer to an <b>MI_Server</b> function table.
 
 ### -field contextFT
 
-Pointer to <a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a> function table.
+Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a> function table.
 
 
 ### -field instanceFT
 
-Pointer to <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> function table.
+Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> function table.
 
 
 ### -field propertySetFT
 
-Pointer to <a href="https://msdn.microsoft.com/7c9e41b0-818e-46aa-8900-5006904f78d5">MI_PropertySet</a> function table.
+Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertyset">MI_PropertySet</a> function table.
 
 
 ### -field filterFT
 
-Pointer to <a href="https://msdn.microsoft.com/0849cb55-ba2f-4855-ac33-fa96d8ecd94f">MI_Filter</a> function table.
+Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filter">MI_Filter</a> function table.
 

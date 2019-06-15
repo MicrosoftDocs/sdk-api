@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores information for the <a href="https://msdn.microsoft.com/026bfb34-a8a5-4bd7-9bc0-4aa395e6d535">SHOpenWithDialog</a> function.
+Stores information for the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shopenwithdialog">SHOpenWithDialog</a> function.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ A pointer to the file type description. Set this parameter to <b>NULL</b> to use
 
 Type: <b>OPEN_AS_INFO_FLAGS</b>
 
-The characteristics of the <a href="https://msdn.microsoft.com/026bfb34-a8a5-4bd7-9bc0-4aa395e6d535">SHOpenWithDialog</a> dialog box. One or more of the following values.
+The characteristics of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shopenwithdialog">SHOpenWithDialog</a> dialog box. One or more of the following values.
 
 
 
@@ -124,7 +124,7 @@ Force the <b>Always use this program</b> checkbox to be checked. Typically, you 
 
 
 
-Starting in Windows 10, the <b>OAIF_ALLOW_REGISTRATION</b>, <b>OAIF_FORCE_REGISTRATION</b>, and <b>OAIF_HIDE_REGISTRATION</b> flags will be ignored by <a href="https://msdn.microsoft.com/026bfb34-a8a5-4bd7-9bc0-4aa395e6d535">SHOpenWithDialog</a>. The <b>Open With</b> dialog box can no longer be used to change the default program used to open a file extension. You can only use <b>SHOpenWithDialog</b> to open a single file.
+Starting in Windows 10, the <b>OAIF_ALLOW_REGISTRATION</b>, <b>OAIF_FORCE_REGISTRATION</b>, and <b>OAIF_HIDE_REGISTRATION</b> flags will be ignored by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shopenwithdialog">SHOpenWithDialog</a>. The <b>Open With</b> dialog box can no longer be used to change the default program used to open a file extension. You can only use <b>SHOpenWithDialog</b> to open a single file.
 
 
 

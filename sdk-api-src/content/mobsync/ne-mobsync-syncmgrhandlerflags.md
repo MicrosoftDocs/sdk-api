@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used in the <a href="https://msdn.microsoft.com/8640796c-e5d0-48c8-b82b-7a153201e7de">SYNCMGRHANDLERINFO</a> structure as flags that apply to the current handler.
+Used in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure as flags that apply to the current handler.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The current handler provides a property sheet dialog.
 
 ### -field SYNCMGRHANDLER_MAYESTABLISHCONNECTION
 
-May call back the <a href="https://msdn.microsoft.com/f7d1aff8-a77e-4067-9fc9-4adc69bfc0d1">ISyncMgrSynchronizeCallback::EstablishConnection</a> method. This value is ignored in <b>Windows Vista and later</b>.
+May call back the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-establishconnection">ISyncMgrSynchronizeCallback::EstablishConnection</a> method. This value is ignored in <b>Windows Vista and later</b>.
       
 
 
@@ -97,7 +97,7 @@ All flags are still valid for previous versions of Windows.
 
 
 
-<a href="https://msdn.microsoft.com/8640796c-e5d0-48c8-b82b-7a153201e7de">SYNCMGRHANDLERINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
  
 
  

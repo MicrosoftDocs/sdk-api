@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-This interface performs all the same functions as the existing <a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink1</a> interface. 
+This interface performs all the same functions as the existing <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink1</a> interface. 
    It also enables access to ink rendering and gradient mesh rendering.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink2</b> interface inherits from <a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink1</a>. <b>ID2D1CommandSink2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink1</a>. <b>ID2D1CommandSink2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1CommandSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ecd1fb9e-0062-c1aa-8275-47b7453bc9ad">DrawGdiMetafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink2-drawgdimetafile">DrawGdiMetafile</a>
 </td>
 <td align="left" width="63%">
 Draws a metafile to the command sink using the given source and destination rectangles.
@@ -79,7 +79,7 @@ Draws a metafile to the command sink using the given source and destination rect
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19adf39c-5eec-aa77-9022-1b69ef924679">DrawGradientMesh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink2-drawgradientmesh">DrawGradientMesh</a>
 </td>
 <td align="left" width="63%">
 Renders a given gradient mesh to the target.
@@ -88,7 +88,7 @@ Renders a given gradient mesh to the target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd328fdb-c87c-e3ee-b8cd-f89ff3fb1b87">DrawInk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink2-drawink">DrawInk</a>
 </td>
 <td align="left" width="63%">
 Renders the given ink object using the given brush and ink style.
@@ -103,7 +103,7 @@ Renders the given ink object using the given brush and ink style.
 
 
 
-<a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink1</a>
  
 
  

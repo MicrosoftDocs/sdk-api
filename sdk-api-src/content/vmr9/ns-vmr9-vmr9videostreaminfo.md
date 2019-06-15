@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the <a href="https://msdn.microsoft.com/en-us/library/Dd377382(v=VS.85).aspx">IVMRImageCompositor9::CompositeImage</a> method.
+The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-compositeimage">IVMRImageCompositor9::CompositeImage</a> method.
 
 
 
@@ -62,7 +62,7 @@ The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameter
 
 ### -field pddsVideoSurface
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
 
 
 ### -field dwWidth
@@ -90,7 +90,7 @@ The alpha value for this stream. (Not per-pixel alpha.)
 
 ### -field rNormal
 
-The position of the image in composition space, as a <a href="https://msdn.microsoft.com/en-us/library/Dd407369(v=VS.85).aspx">VMR9NormalizedRect</a> structure.
+The position of the image in composition space, as a <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9normalizedrect">VMR9NormalizedRect</a> structure.
           
 
 
@@ -106,7 +106,7 @@ The end time of the video frame, in 100-nanosecond units.
 
 ### -field SampleFormat
 
-The video interlacing format, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407379(v=VS.85).aspx">VMR9_SampleFormat</a> enumeration type.
+The video interlacing format, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-_vmr9_sampleformat">VMR9_SampleFormat</a> enumeration type.
           
 
 
@@ -115,7 +115,7 @@ The video interlacing format, specified as a member of the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Paste</b> method copies a stream or a portion of it in another stream. Called when an application uses the <a href="https://msdn.microsoft.com/c3c77ec1-0aa4-47ab-afc1-ed69d6aca201">EditStreamPaste</a> function.
+The <b>Paste</b> method copies a stream or a portion of it in another stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreampaste">EditStreamPaste</a> function.
 
 
 
@@ -131,11 +131,11 @@ HRESULT Paste(LONG *plPos, LONG *plLength,
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

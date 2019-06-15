@@ -59,7 +59,7 @@ Gets the raw nature_of_activation_text field from the EAS table.
 
 ### -param pbVal [out]
 
-A pointer to a buffer that receives the nature_of_activation_text field. The caller must allocate the buffer. To get the required size of the buffer, call <a href="https://msdn.microsoft.com/a7f93884-d8a9-449b-afc2-b2ccbd0d2492">ISCTE_EAS::GetRawNatureOfActivationTextLen</a>. The text is formatted as a Multiple String Structure as defined by ATSC PSIP Standard A/65.
+A pointer to a buffer that receives the nature_of_activation_text field. The caller must allocate the buffer. To get the required size of the buffer, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getrawnatureofactivationtextlen">ISCTE_EAS::GetRawNatureOfActivationTextLen</a>. The text is formatted as a Multiple String Structure as defined by ATSC PSIP Standard A/65.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To get the text for a specific language, call <a href="https://msdn.microsoft.com/36cb57f1-b894-4c41-b555-db15f8dbe516">ISCTE_EAS::GetNatureOfActivationText</a>.
+To get the text for a specific language, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getnatureofactivationtext">ISCTE_EAS::GetNatureOfActivationText</a>.
 
 
 
@@ -85,11 +85,11 @@ To get the text for a specific language, call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/7b5620c3-f460-4118-a8a2-9b2561bd12cf">ISCTE_EAS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS</a>
 
 
 
-<a href="https://msdn.microsoft.com/36cb57f1-b894-4c41-b555-db15f8dbe516">ISCTE_EAS::GetNatureOfActivationText</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getnatureofactivationtext">ISCTE_EAS::GetNatureOfActivationText</a>
  
 
  

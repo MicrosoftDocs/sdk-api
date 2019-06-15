@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">KNOWNFOLDERID</a> that is the equivalent of a legacy <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> that is the equivalent of a legacy <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Gets the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e309
 
 Type: <b>int</b>
 
-The <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL</a> value.
+The <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value.
 
 
 ### -param pfid [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">KNOWNFOLDERID</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>*</b>
 
-When this method returns, contains a pointer to the <a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">KNOWNFOLDERID</a>. This pointer is passed uninitialized.
+When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>. This pointer is passed uninitialized.
 
 
 ## -returns
@@ -96,15 +96,15 @@ To call this method, the caller must have at least User privileges.
 
 
 
-<a href="https://msdn.microsoft.com/ba7dbef7-2732-49e8-b573-a3b731bdc633">IKnownFolderManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/27bd8c79-34ff-44ee-ad99-aa079af7da89">IKnownFolderManager::FolderIdToCsidl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-folderidtocsidl">IKnownFolderManager::FolderIdToCsidl</a>
 
 
 
-<a href="https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6">Known Folders Sample</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
  
 
  

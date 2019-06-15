@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains extended result information obtained by calling
-			the <a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a> function.
+			the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a> function.
 		
 
 
@@ -143,7 +143,7 @@ Certain messages whose value is smaller than <b>WM_USER</b> are required to pass
 		block such messages.
 		
 
-An application may use the <a href="https://msdn.microsoft.com/en-us/library/ms632675(v=VS.85).aspx">ChangeWindowMessageFilter</a> function to 
+An application may use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function to 
 		allow or block a message in a process-wide manner. 
 		If the message is allowed by either the process message filter 
 		or the window message filter, it will be delivered to the window.
@@ -241,7 +241,7 @@ The following table lists the possible values returned in <b>ExtStatus</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a>
  
 
  

@@ -64,7 +64,7 @@ The <code>GetStreamAllocatorRequirements</code> retrieves the allocator requirem
 
 ### -param pProps [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373419(v=VS.85).aspx">ALLOCATOR_PROPERTIES</a> structure that receives the stream allocator requirements.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure that receives the stream allocator requirements.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319682(v=VS.85).aspx">IAMMediaTypeStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
  
 
  

@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Implementation of a drawing state block that adds the functionality of primitive blend in addition to already existing antialias mode, transform, tags and text rendering mode.<div class="alert"><b>Note</b>  You can get an <b>ID2D1DrawingStateBlock1</b> using the  <a href="https://msdn.microsoft.com/1FB96165-3575-4B8B-B8BC-BB94BA5F97CE">ID2D1Factory::CreateDrawingStateBlock</a> method or you can use the QueryInterface method on an <a href="https://msdn.microsoft.com/9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b">ID2D1DrawingStateBlock</a> object.</div>
+Implementation of a drawing state block that adds the functionality of primitive blend in addition to already existing antialias mode, transform, tags and text rendering mode.<div class="alert"><b>Note</b>  You can get an <b>ID2D1DrawingStateBlock1</b> using the  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-createdrawingstateblock(constd2d1_drawing_state_description1__id2d1drawingstateblock1)">ID2D1Factory::CreateDrawingStateBlock</a> method or you can use the QueryInterface method on an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a> object.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawingStateBlock1</b> interface inherits from <a href="https://msdn.microsoft.com/9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b">ID2D1DrawingStateBlock</a>. <b>ID2D1DrawingStateBlock1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawingStateBlock1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>. <b>ID2D1DrawingStateBlock1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID2D1DrawingStateBlock1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F3A66B9F-0C95-4CFA-AA44-A50891545E31">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1drawingstateblock1-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the antialiasing mode, transform, tags, primitive blend, and unit mode portion of the drawing state.
@@ -80,10 +80,10 @@ Gets the antialiasing mode, transform, tags, primitive blend, and unit mode port
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B07A36E3-F351-439E-A085-A71E1A58DD45">SetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1drawingstateblock1-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/E1BFF353-8445-435C-8F7A-E93BFE58A794">D2D1_DRAWING_STATE_DESCRIPTION1</a> associated with this drawing state block.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_drawing_state_description1">D2D1_DRAWING_STATE_DESCRIPTION1</a> associated with this drawing state block.
 
 </td>
 </tr>
@@ -95,19 +95,19 @@ Sets the <a href="https://msdn.microsoft.com/E1BFF353-8445-435C-8F7A-E93BFE58A79
 
 
 
-<a href="https://msdn.microsoft.com/9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b">ID2D1DrawingStateBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/F3A66B9F-0C95-4CFA-AA44-A50891545E31">ID2D1DrawingStateBlock1::GetDescription1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1drawingstateblock1-getdescription">ID2D1DrawingStateBlock1::GetDescription1</a>
 
 
 
-<a href="https://msdn.microsoft.com/B07A36E3-F351-439E-A085-A71E1A58DD45">ID2D1DrawingStateBlock1::SetDescription1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1drawingstateblock1-setdescription">ID2D1DrawingStateBlock1::SetDescription1</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2b5875f-9f14-4752-a426-2745fdaa543a">ID2D1Factory::CreateDrawingStateBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createdrawingstateblock">ID2D1Factory::CreateDrawingStateBlock</a>
  
 
  

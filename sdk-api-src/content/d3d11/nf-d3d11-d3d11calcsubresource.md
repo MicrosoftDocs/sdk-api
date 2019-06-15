@@ -59,7 +59,7 @@ Calculates a subresource index for a texture.
 
 ### -param MipSlice
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index for the mipmap level to address; 0 indicates the first, most detailed mipmap level.
           
@@ -67,7 +67,7 @@ A zero-based index for the mipmap level to address; 0 indicates the first, most 
 
 ### -param ArraySlice
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The zero-based index for the array level to address; always use 0 for volume (3D) textures.
           
@@ -75,7 +75,7 @@ The zero-based index for the array level to address; always use 0 for volume (3D
 
 ### -param MipLevels
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of mipmap levels in the resource.
 
@@ -84,7 +84,7 @@ Number of mipmap levels in the resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index which equals MipSlice + (ArraySlice * MipLevels).
 
@@ -110,11 +110,11 @@ For volume (3D) textures, all slices for a given mipmap level are a single subre
 
 
 
-<a href="https://msdn.microsoft.com/3acbd433-c28d-4630-aa0e-25f2fb5c32d0">Core Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-functions">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/865354c5-90cc-4392-a0dc-2d66182f6d05">Resource Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-functions">Resource Functions</a>
  
 
  

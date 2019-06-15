@@ -59,25 +59,25 @@ The
 <b>IHeaderCtrl2</b> is the same as <b>IHeaderCtrl</b> with the addition of the following methods:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/26a6a9bc-6556-4576-a810-d7c07c07cfd1">SetChangeTimeOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setchangetimeout">SetChangeTimeOut</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/df1257ee-66c4-4b63-a9c5-1bd0b94b4a85">SetColumnFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">SetColumnFilter</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2daf15ac-4de2-422d-9ac0-b592090468ed">GetColumnFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">GetColumnFilter</a>
 </li>
 </ul>These methods provide support for users to filter list views based on filters set on each column in the result view. Be aware that a return value of <b>E_NOTIMPL</b> by any one of these methods indicates that list view filtering is not available in the version of MMC in which the snap-in is loaded.
 
 The 
 <b>IHeaderCtrl2</b> interface can be queried from the 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole</a> interface passed into 
-<a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">IComponent::Initialize</a> during the component's creation.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole</a> interface passed into 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a> during the component's creation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHeaderCtrl2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IHeaderCtrl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHeaderCtrl2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHeaderCtrl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,7 +92,7 @@ The <b>IHeaderCtrl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2739d0b9-6b34-4482-9a63-21029b39e04a">DeleteColumn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814861(v=vs.85)">DeleteColumn</a>
 </td>
 <td align="left" width="63%">
 Removes a column.
@@ -101,7 +101,7 @@ Removes a column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2daf15ac-4de2-422d-9ac0-b592090468ed">GetColumnFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">GetColumnFilter</a>
 </td>
 <td align="left" width="63%">
 Get filter data.
@@ -110,7 +110,7 @@ Get filter data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cf09cc7-637d-4a60-90e8-b8904aa5c44b">GetColumnText</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814863(v=vs.85)">GetColumnText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text from a specified column.
@@ -119,7 +119,7 @@ Retrieves the text from a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07a7153a-23e6-46d3-84de-25cb44ef9300">GetColumnWidth</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814864(v=vs.85)">GetColumnWidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the width of a specified column.
@@ -128,7 +128,7 @@ Retrieves the width of a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4de6dbf-6a2a-40fe-8f2f-c9a6f670f1a6">InsertColumn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814865(v=vs.85)">InsertColumn</a>
 </td>
 <td align="left" width="63%">
 Adds a column to a default result view.
@@ -137,7 +137,7 @@ Adds a column to a default result view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26a6a9bc-6556-4576-a810-d7c07c07cfd1">SetChangeTimeOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setchangetimeout">SetChangeTimeOut</a>
 </td>
 <td align="left" width="63%">
 Sets the time-out for filter change notification.
@@ -146,7 +146,7 @@ Sets the time-out for filter change notification.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df1257ee-66c4-4b63-a9c5-1bd0b94b4a85">SetColumnFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">SetColumnFilter</a>
 </td>
 <td align="left" width="63%">
 Set filter data.
@@ -155,7 +155,7 @@ Set filter data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/274833c7-2bf4-401f-b211-5f5c97ead0c1">SetColumnText</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814868(v=vs.85)">SetColumnText</a>
 </td>
 <td align="left" width="63%">
 Sets the text in a specified column.
@@ -164,7 +164,7 @@ Sets the text in a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3db2f03a-1dab-43ef-8922-727b5bb72843">SetColumnWidth</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814869(v=vs.85)">SetColumnWidth</a>
 </td>
 <td align="left" width="63%">
 Sets the width of a specified column.

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains virtual hard disk (VHD) information to use when you call the <a href="https://msdn.microsoft.com/en-us/library/Dd323685(v=VS.85).aspx">SetVirtualDiskInformation</a> function to set VHD properties.
+Contains virtual hard disk (VHD) information to use when you call the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-setvirtualdiskinformation">SetVirtualDiskInformation</a> function to set VHD properties.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Contains virtual hard disk (VHD) information to use when you call the <a href="h
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323687(v=VS.85).aspx">SET_VIRTUAL_DISK_INFO_VERSION</a> 
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_set_virtual_disk_info_version">SET_VIRTUAL_DISK_INFO_VERSION</a> 
       enumeration that specifies the version of the 
       <b>SET_VIRTUAL_DISK_INFO</b> structure being passed to or 
       from the VHD functions. This determines the type of information set.
@@ -143,11 +143,11 @@ The path of the file for the parent VHD.
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

@@ -83,20 +83,20 @@ The service provider must report completion for asynchronous operations. If
 
 TAPI does not call 
 <b>TSPI_lineCloseCall</b> if a service provider synchronously returns an error from a call to the 
-<a href="https://msdn.microsoft.com/9c3d6a7d-b0bf-4068-9d64-e0c715a8c011">TSPI_lineMakeCall</a> function. But TAPI does call 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a> function. But TAPI does call 
 <b>TSPI_lineCloseCall</b> if the service provider returns an error from the asynchronous operation initiated by 
 <b>TSPI_lineMakeCall</b>.
 
 If there is an active call on the line at the time of 
 <b>TSPI_lineCloseCall</b>, the call must be dropped if this behavior is indicated by the LINEDEVCAPFLAGS_CLOSEDROP bit in the 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> structure.
 
 If the service provider can determine that there is another agent sharing control of the call, such as in a party line situation with a separate handset, the service provider simply lets control of the call pass to the other agent rather than forcibly dropping it.
 
 This function should always succeed except in extraordinary circumstances. Most callers will probably ignore the return code because they will be unable to compensate for any error that occurs. The specified return values are more advisory for development diagnostic purposes than anything else.
 
 This function is called when the last application with a handle to this call executes 
-<a href="https://msdn.microsoft.com/a695ee19-e371-4126-b438-62bf52179cba">lineDeallocateCall</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedeallocatecall">lineDeallocateCall</a>.
 
 
 
@@ -106,11 +106,11 @@ This function is called when the last application with a handle to this call exe
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c3d6a7d-b0bf-4068-9d64-e0c715a8c011">TSPI_lineMakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemakecall">TSPI_lineMakeCall</a>
  
 
  

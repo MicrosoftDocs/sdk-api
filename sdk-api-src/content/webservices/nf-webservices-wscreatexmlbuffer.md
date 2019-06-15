@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/e379628b-c6f8-48b1-8109-59fb604f2bcb">XML Buffer</a> which can be used to process XML data .
+Creates an <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-buffer">XML Buffer</a> which can be used to process XML data .
       
 
 
@@ -60,13 +60,13 @@ Creates an <a href="https://msdn.microsoft.com/e379628b-c6f8-48b1-8109-59fb604f2
 
 ### -param heap [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/1866f54f-26fc-4889-a88f-0d298a418bdc">WS_HEAP</a> structure representing the <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">heap</a> from which to allocate memory for the returned XML buffer.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which to allocate memory for the returned XML buffer.
                 
 
 
 ### -param properties
 
-An array of <a href="https://msdn.microsoft.com/bec8d297-7f5a-4b8f-a333-9b535358c470">WS_XML_BUFFER_PROPERTY</a> structures containing optional properties for the XML buffer.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_buffer_property">WS_XML_BUFFER_PROPERTY</a> structures containing optional properties for the XML buffer.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
@@ -80,7 +80,7 @@ The number of properties in the <i>properties</i> array.
 
 ### -param buffer
 
-On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> structure representing the created XML buffer. The memory for this buffer is released when its heap is reset or released.
+On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure representing the created XML buffer. The memory for this buffer is released when its heap is reset or released.
         
 
 The XML buffer is initially  empty.  
@@ -88,7 +88,7 @@ The XML buffer is initially  empty.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 

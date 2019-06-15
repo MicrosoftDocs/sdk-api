@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetTimeFormat</b> macro retrieves the current time format of an MCI device in two forms: as a numerical value and as a string. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/01844872-5444-4f3b-92a3-64f80b94d3a0">MCIWNDM_GETTIMEFORMAT</a> message.
+The <b>MCIWndGetTimeFormat</b> macro retrieves the current time format of an MCI device in two forms: as a numerical value and as a string. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-gettimeformat">MCIWNDM_GETTIMEFORMAT</a> message.
 
 
 
@@ -145,7 +145,7 @@ An MCI device can support one or more of the following time formats:
 
 
 
-<a href="https://msdn.microsoft.com/01844872-5444-4f3b-92a3-64f80b94d3a0">MCIWNDM_GETTIMEFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-gettimeformat">MCIWNDM_GETTIMEFORMAT</a>
  
 
  

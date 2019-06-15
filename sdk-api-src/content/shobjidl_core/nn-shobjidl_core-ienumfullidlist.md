@@ -54,7 +54,7 @@ Exposes a standard set of methods that enumerate the pointers to item identifier
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFullIDList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumFullIDList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumFullIDList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumFullIDList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumFullIDList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23345978-6178-4f6d-8757-d5fd95199067">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumfullidlist-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new item enumeration object with the same contents and state as the current one.
@@ -78,7 +78,7 @@ Creates a new item enumeration object with the same contents and state as the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/023f8935-0382-404e-b1bf-737824cf0f34">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumfullidlist-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of IDLIST_ABSOLUTE items.
@@ -87,7 +87,7 @@ Retrieves a specified number of IDLIST_ABSOLUTE items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9682cfc4-544b-43bd-bd57-edbce50dce75">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumfullidlist-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Returns the enumerator to the beginning of the enumeration sequence.
@@ -96,7 +96,7 @@ Returns the enumerator to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f47bdab1-57be-4f40-a142-ad5edcf6fbfd">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumfullidlist-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of IDLIST_ABSOLUTE  items.

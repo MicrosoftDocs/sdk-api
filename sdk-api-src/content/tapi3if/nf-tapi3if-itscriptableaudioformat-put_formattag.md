@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>put_FormatTag</b> method sets the <b>wFormatTag</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>wFormatTag</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -returns
@@ -98,11 +98,11 @@ Method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6b5d069a-044f-4bd4-b661-6100a2607107">ITScriptableAudioFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/073e4800-d84a-4f12-81ce-eba4a4e139fc">get_FormatTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_formattag">get_FormatTag</a>
  
 
  

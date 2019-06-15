@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Reads an extension of the <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
+Reads an extension of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
             
 
 
@@ -83,7 +83,7 @@ The type of extension to read.
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value.
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
                 
 
 This parameter must have one of the following values:
@@ -91,13 +91,13 @@ This parameter must have one of the following values:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a>.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a>.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTIONAL_POINTER</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTIONAL_POINTER</a>.
                 </li>
 </ul>
 
@@ -112,12 +112,12 @@ The heap to use to store the value that is read.
 The address of a buffer to place the value read.
                 
 
-If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a> for the readOption
+If using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a> for the readOption
                     parameter, the buffer must be the size of the type of extension
-                    being read (which varies by <a href="https://msdn.microsoft.com/c35c39ff-497e-46d4-9dd7-2187a78f710e">WS_ENDPOINT_ADDRESS_EXTENSION_TYPE</a>).
+                    being read (which varies by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_endpoint_address_extension_type">WS_ENDPOINT_ADDRESS_EXTENSION_TYPE</a>).
                 
 
-If using <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
+If using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a> or <b>WS_READ_OPTIONAL_POINTER</b>,
                     the buffer should be the size of a pointer.
                 
 

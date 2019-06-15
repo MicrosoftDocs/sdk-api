@@ -59,7 +59,7 @@ Retrieves an enumerator that iterates through all the &lt;Resource&gt; elements 
 
 ### -param resources [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/9F58B665-3C3D-407C-B872-FC915CE97B0E">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dn280306(v=vs.85)">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
 
 The enumerator that iterates through the resources.
 
@@ -80,7 +80,7 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/B9272875-E02A-4443-82B3-C64104E8291C">IAppxBundleManifestPackageInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>
  
 
  

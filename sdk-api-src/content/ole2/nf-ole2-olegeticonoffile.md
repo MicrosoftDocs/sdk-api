@@ -81,11 +81,11 @@ If the function succeeds, the return value is a handle to a metafile that contai
 
 
 
-<a href="https://msdn.microsoft.com/88ac1c14-b5a8-4100-9fa5-d7af35052b48">OleGetIconOfClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonofclass">OleGetIconOfClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/627a79eb-46dd-4df7-a0d6-cab37b73387a">OleMetafilePictFromIconAndLabel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olemetafilepictfromiconandlabel">OleMetafilePictFromIconAndLabel</a>
  
 
  

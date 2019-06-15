@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 This 
 <b>AGENT_SESSION_STATE</b> enum defines the agent session indicators used by the 
-<a href="https://msdn.microsoft.com/85a389ee-2d6c-4607-873a-8ca0c16a0fac">ITAgentSession::get_State</a> and the 
-<a href="https://msdn.microsoft.com/4d35bacd-c4e4-4c31-b946-ad76ffb250ed">ITAgentSession::put_State</a> methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_state">ITAgentSession::get_State</a> and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-put_state">ITAgentSession::put_State</a> methods.
 
 
 ## -enum-fields
@@ -147,11 +147,11 @@ Following is a table of all valid AgentSession state transitions.
 
 
 
-<a href="https://msdn.microsoft.com/85a389ee-2d6c-4607-873a-8ca0c16a0fac">ITAgentSession::get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-get_state">ITAgentSession::get_State</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d35bacd-c4e4-4c31-b946-ad76ffb250ed">ITAgentSession::put_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentsession-put_state">ITAgentSession::put_State</a>
  
 
  

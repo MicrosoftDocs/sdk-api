@@ -121,12 +121,12 @@ The maximum block size that can be allocated from heap segments, in bytes.
 ### -field ProcessAffinityMask
 
 The process affinity mask. For more information, see 
-<a href="https://msdn.microsoft.com/f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f">GetProcessAffinityMask</a>. This member is available only for .exe files.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>. This member is available only for .exe files.
 
 
 ### -field ProcessHeapFlags
 
-The process heap flags. For more information, see <a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a>.
+The process heap flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>.
 
 
 ### -field CSDVersion
@@ -317,19 +317,19 @@ typedef struct {
 
 
 
-<a href="https://msdn.microsoft.com/5d9b6705-7e65-4a60-912e-8ffcff9d7921">GetImageConfigInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-getimageconfiginformation">GetImageConfigInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f">GetProcessAffinityMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88c7a21-933f-450c-97e8-04cf3c5f9b11">ImageHlp Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/396af0c0-2fb1-418b-bc2b-9e9eb63174bc">SetImageConfigInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-setimageconfiginformation">SetImageConfigInformation</a>
  
 
  

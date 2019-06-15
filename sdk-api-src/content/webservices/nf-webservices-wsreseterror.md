@@ -63,7 +63,7 @@ Releases the content of the <i>error</i> object parameter but does not release t
 
 ### -param error [in]
 
-This parameter is a   pointer to the <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object to reset.
+This parameter is a   pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object to reset.
 
 
 ## -returns
@@ -100,10 +100,10 @@ One or more arguments are invalid.
 
 
 
-String data added to the error object using the <a href="https://msdn.microsoft.com/5fdad296-5024-4360-b1c5-f0192929c612">WsAddErrorString</a> function are released.
+String data added to the error object using the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsadderrorstring">WsAddErrorString</a> function are released.
             
 
-Properties that have been set using the  <a href="https://msdn.microsoft.com/5193eaf4-29f7-4e97-a3b0-97441b26399c">WsSetErrorProperty</a> function are released.
+Properties that have been set using the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsseterrorproperty">WsSetErrorProperty</a> function are released.
             
 
 

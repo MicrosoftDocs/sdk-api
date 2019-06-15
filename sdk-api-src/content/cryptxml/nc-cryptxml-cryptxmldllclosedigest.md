@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptXmlDllCloseDigest</b> function frees the CRYPT_XML_DIGEST allocated by the <a href="https://msdn.microsoft.com/9c9b14c8-511b-4e40-b3d3-014d75dc7fe4">CryptXmlDllCreateDigest</a> function.
+The <b>CryptXmlDllCloseDigest</b> function frees the CRYPT_XML_DIGEST allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a> function.
 
-The <i>CryptXmlDllCloseDigest</i> function is exposed through the  Cryptographic Extensions DLL  and is exposed through the exported <a href="https://msdn.microsoft.com/a547e869-3c9f-4408-9895-29fae0cc6066">CryptXmlDllGetInterface</a>  function.
+The <i>CryptXmlDllCloseDigest</i> function is exposed through the  Cryptographic Extensions DLL  and is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <i>CryptXmlDllCloseDigest</i> function is exposed through the  Cryptographic
 
 ### -param hDigest [in]
 
-The handle of the hash object. This handle is obtained by calling the <a href="https://msdn.microsoft.com/9c9b14c8-511b-4e40-b3d3-014d75dc7fe4">CryptXmlCreateDigest</a>  function. After the function has been called, the digest handle passed to this function is released and cannot be used again.
+The handle of the hash object. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlCreateDigest</a>  function. After the function has been called, the digest handle passed to this function is released and cannot be used again.
 
 
 ## -returns

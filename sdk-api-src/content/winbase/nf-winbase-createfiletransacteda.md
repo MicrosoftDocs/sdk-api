@@ -64,14 +64,14 @@ ms.custom: 19H1
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Creates or opens a file, file stream, or directory as a transacted operation. The function 
     returns a handle that can be used to access the object.
 
 To perform this operation as a nontransacted 
     operation or to access objects other than files (for example, named pipes, physical devices, mailslots), use the 
-    <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 For more information about transactions, see the Remarks section of this topic.
 
@@ -92,11 +92,11 @@ The object must reside on the local computer; otherwise,
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>. For information on special device names, 
-       see <a href="https://msdn.microsoft.com/7d802e9f-dc09-4e3d-b064-e9b57af396e2">Defining an MS-DOS Device Name</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>. For information on special device names, 
+       see <a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
-       information, see <a href="https://msdn.microsoft.com/41dda6f1-a6d1-4e76-94f3-a72f9e491bee">File Streams</a>.
+       information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>.
 
 
 ### -param dwDesiredAccess [in]
@@ -104,15 +104,15 @@ To create a file stream, specify the name of the file, a colon, and then the nam
 The access to the object, which can be  summarized as read, write, both or neither (zero). The most commonly 
        used values are <b>GENERIC_READ</b>, <b>GENERIC_WRITE</b>, or both 
        (<b>GENERIC_READ</b> | <b>GENERIC_WRITE</b>). For more information, see 
-       <a href="https://msdn.microsoft.com/e18cede9-9bf7-4866-850b-5d7fa43a5b0f">Generic Access Rights</a> and 
-       <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a> and 
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 If this parameter is zero, the application can query  file, directory, or device attributes without accessing 
        that file or device. For more information, see the Remarks section of this topic.
 
 You cannot request an access mode that conflicts with the sharing mode that is specified in an open request 
        that has an open handle. For more information, see 
-       <a href="https://msdn.microsoft.com/094cac29-c66d-409e-8928-878dc693d393">Creating and Opening Files</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 
 ### -param dwShareMode [in]
@@ -128,7 +128,7 @@ If this parameter is zero and
 You cannot request a sharing mode that conflicts with the access mode that is specified in an open request 
        that has an open handle, because that would result in the following sharing violation: 
        <b>ERROR_SHARING_VIOLATION</b>. For more information, see 
-       <a href="https://msdn.microsoft.com/094cac29-c66d-409e-8928-878dc693d393">Creating and Opening Files</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 To enable a process to share an object while another process has the object open, use a combination of one or 
        more of the following values to specify the  access mode they can request to open the object.
@@ -204,9 +204,9 @@ If this flag is not specified, but the object has been opened for write access o
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
        structure that contains an optional 
-       <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">security descriptor</a> and also determines whether 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">security descriptor</a> and also determines whether 
        or not the returned handle can be inherited by child processes. The parameter can be 
        <b>NULL</b>.
 
@@ -219,7 +219,7 @@ The <b>bInheritHandle</b> member of the structure specifies whether the returned
        can be inherited.
 
 The  <b>lpSecurityDescriptor</b> member of the structure specifies 
-       a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">security descriptor</a> for an object, but may 
+       a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">security descriptor</a> for an object, but may 
        also be <b>NULL</b>.
 
 If <b>lpSecurityDescriptor</b> member is <b>NULL</b>, the object 
@@ -354,16 +354,16 @@ This parameter can also contain Security Quality of Service (SQOS) information b
 <div class="alert"><b>Note</b>  <p class="note">When <b>CreateFileTransacted</b> opens an existing 
         file, it generally combines the file flags with the file attributes of the existing file, and ignores any file 
         attributes supplied as part of <i>dwFlagsAndAttributes</i>. Special cases are detailed in 
-        <a href="https://msdn.microsoft.com/094cac29-c66d-409e-8928-878dc693d393">Creating and Opening Files</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 </div>
 <div> </div>
 The following file attributes and flags are used only for file objects, not other types of objects that 
        <b>CreateFileTransacted</b> opens (additional 
        information can be found in the Remarks section of this topic). For more advanced access to file attributes, 
-       see <a href="https://msdn.microsoft.com/3d5400c3-555f-44fc-9470-52a36d04d90b">SetFileAttributes</a>. For a complete list of all 
+       see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>. For a complete list of all 
        file attributes with their values and descriptions, see 
-       <a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 <table>
 <tr>
@@ -390,7 +390,7 @@ The file should be archived. Applications use this attribute to mark files for b
 <td width="60%">
 The file or directory is encrypted. For a file, this means that all data in the file is encrypted. For a 
          directory, this means that encryption is the default for newly created files and subdirectories. For more 
-         information, see <a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>.
+         information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 This flag has no effect if <b>FILE_ATTRIBUTE_SYSTEM</b> is also specified.
 
@@ -485,11 +485,11 @@ The file is being used for temporary storage.  File systems avoid writing data b
 The file is being opened or created for a backup or restore operation. The system ensures that the 
          calling process overrides file security checks when the process has <b>SE_BACKUP_NAME</b> 
          and <b>SE_RESTORE_NAME</b> privileges. For more information, see 
-         <a href="https://msdn.microsoft.com/b8e47d04-07c1-4d57-8209-6b0c397476e5">Changing Privileges in a Token</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
 
 You must set this flag to obtain a handle to a directory. A directory handle can be passed to some 
          functions instead of a file handle. For more information, see 
-         <a href="https://msdn.microsoft.com/841c7daa-360c-4d96-8a14-6dcfa159a875">Directory Handles</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-a-handle-to-a-directory">Directory Handles</a>.
 
 </td>
 </tr>
@@ -524,7 +524,7 @@ The file is being opened with no system caching. This flag does not affect hard 
          asynchronous performance, because the I/O does not rely on the synchronous operations of the memory manager. 
          However, some I/O operations take more time, because data is not being held in the cache. Also, the file 
          metadata may still be cached. To flush the metadata to disk, use the 
-         <a href="https://msdn.microsoft.com/0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6">FlushFileBuffers</a> function.
+         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> function.
 
 An application must meet certain requirements when working with files that are opened with 
          <b>FILE_FLAG_NO_BUFFERING</b>:
@@ -540,7 +540,7 @@ An application must meet certain requirements when working with files that are o
           requirement may not be enforced.</li>
 </ul>
 One way to align buffers on integer multiples of the volume sector size is to use 
-         <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> to allocate the buffers. It allocates 
+         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> to allocate the buffers. It allocates 
          memory that is aligned on addresses that are integer multiples of the operating system's memory page size. 
          Because both memory page and volume sector sizes are powers of 2, this memory is also aligned on addresses 
          that are integer multiples of a volume sector size. Memory pages are 4 or 8 KB in size; sectors are 512 bytes 
@@ -548,7 +548,7 @@ One way to align buffers on integer multiples of the volume sector size is to us
          than memory pages.
 
 An application can determine a volume sector size by calling the 
-         <a href="https://msdn.microsoft.com/4fe14c49-3fd6-48b7-92de-a0c867b2e042">GetDiskFreeSpace</a> function.
+         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function.
 
 </td>
 </tr>
@@ -571,7 +571,7 @@ The file data is requested, but it should continue to be located in remote stora
 </dl>
 </td>
 <td width="60%">
-Normal <a href="https://msdn.microsoft.com/3abb3a08-9a00-43eb-9792-82eab1a25f06">reparse point</a> processing will not occur; 
+Normal <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">reparse point</a> processing will not occur; 
          <b>CreateFileTransacted</b> will attempt to open the 
          reparse point. When a file is opened, a file handle is returned, whether or not the filter that controls the 
          reparse point is operational. This flag cannot be used with the <b>CREATE_ALWAYS</b> 
@@ -587,17 +587,17 @@ Normal <a href="https://msdn.microsoft.com/3abb3a08-9a00-43eb-9792-82eab1a25f06"
 </td>
 <td width="60%">
 The file is being opened or created for asynchronous I/O. When the operation is complete, the event 
-         specified in the <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure is set to the 
+         specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure is set to the 
          signaled state. Operations that take a significant amount of time to process return 
          <b>ERROR_IO_PENDING</b>.
 
 If this flag is specified, the file can be used for simultaneous read and write operations. The system does 
          not maintain the file pointer, therefore you must pass the file position to the read and write functions in 
-         the <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure or update the file 
+         the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure or update the file 
          pointer.
 
 If this flag is not specified, then I/O operations are serialized, even if the calls to the read and write 
-         functions specify an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure.
+         functions specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
 
 </td>
 </tr>
@@ -686,7 +686,7 @@ If <b>FILE_FLAG_NO_BUFFERING</b> is also specified, so that system caching is no
 
 The <i>dwFlagsAndAttributes</i> parameter can also specify Security Quality of Service 
        information. For more information, see 
-       <a href="https://msdn.microsoft.com/ae152dbf-44f0-417f-a85e-09bf60dcfcb0">Impersonation Levels</a>. When the calling 
+       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/impersonation-levels">Impersonation Levels</a>. When the calling 
        application specifies the <b>SECURITY_SQOS_PRESENT</b> flag as part of 
        <i>dwFlagsAndAttributes</i>, it can also contain one or more of the following values.
 
@@ -781,7 +781,7 @@ When opening a new EFS-encrypted file, the file inherits the DACL from its paren
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
-       <a href="https://msdn.microsoft.com/578bda35-bd35-4f6d-8366-a4bfb4dbfe42">CreateTransaction</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 
 ### -param pusMiniVersion [in, optional]
@@ -789,7 +789,7 @@ A handle to the transaction. This handle is returned by the
 The miniversion to be opened. If the transaction specified in <i>hTransaction</i> is not 
        the transaction that is modifying the file, this parameter should be <b>NULL</b>. Otherwise, 
        this parameter can be a miniversion identifier returned by the 
-       <a href="https://msdn.microsoft.com/3d12b149-ab34-46c4-89fc-8ddc12a81fa0">FSCTL_TXFS_CREATE_MINIVERSION</a> control 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_create_miniversion">FSCTL_TXFS_CREATE_MINIVERSION</a> control 
        code, or one of the following values.
 
 <table>
@@ -849,7 +849,7 @@ If the function succeeds, the return value is an open handle to the specified fi
        mail slot.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
-       error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -861,7 +861,7 @@ If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get e
 When using the handle returned by 
      <b>CreateFileTransacted</b>, use the transacted version 
      of file I/O functions instead of the standard file I/O functions where appropriate. For more information, see 
-     <a href="https://msdn.microsoft.com/a1ef1ce1-42f6-4627-ab64-e7f41fa23e94">Programming Considerations for 
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/programming-considerations-for-transacted-fileio-">Programming Considerations for 
      Transactional NTFS</a>.
 
 When opening a transacted handle to a directory, that handle must have 
@@ -888,10 +888,10 @@ When a non-transacted application calls
      only obtains this access if the file that is being opened is either not locked by a transaction, or is locked by 
      a transaction and the application is already a transacted reader for that file.
 
-See <a href="https://msdn.microsoft.com/e8c3ceed-d391-4934-b3f7-12c2123c8c23">Transactional NTFS</a> for a complete 
+See <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a> for a complete 
      description of transacted operations.
 
-Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close an object handle 
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close an object handle 
      returned by <b>CreateFileTransacted</b> when the handle 
      is no longer needed, and prior to committing or rolling back the transaction.
 
@@ -901,8 +901,8 @@ Some file systems, such as the NTFS file system, support compression or encrypti
 
 You cannot use <b>CreateFileTransacted</b> to control 
      compression on a file or directory. For more information, see 
-     <a href="https://msdn.microsoft.com/35a9fb47-5a73-479c-8fe0-5a2b07705536">File Compression and Decompression</a>, and 
-     <a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>, and 
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 Symbolic link behavior—If the call to this function creates a new file, there is no change 
      in behavior.
@@ -941,7 +941,7 @@ As stated previously, if the <i>lpSecurityAttributes</i> parameter is
       from its parent directory.</li>
 <li>The target file system must support security on files and directories for the 
       <b>lpSecurityDescriptor</b>  to have an effect on them, which can be determined by using 
-      <a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a>
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
 </li>
 </ul>
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -1009,28 +1009,28 @@ Note that SMB 3.0 does not support TxF.
 <h3><a id="Files"></a><a id="files"></a><a id="FILES"></a>Files</h3>
 If you try to create a file on a floppy drive that does not have a floppy disk or a CD-ROM drive that does not 
       have a CD, the system displays a message for the user to insert a disk or a CD. To prevent the system from 
-      displaying this message, call the <a href="https://msdn.microsoft.com/b88f5577-9124-433c-a7e8-a7f713b7b27d">SetErrorMode</a> function 
+      displaying this message, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a> function 
       with <b>SEM_FAILCRITICALERRORS</b>.
 
 For more information, see 
-      <a href="https://msdn.microsoft.com/094cac29-c66d-409e-8928-878dc693d393">Creating and Opening Files</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 If you rename or delete a file and then restore it shortly afterward, the system searches the cache for file 
       information to restore. Cached information includes its short/long name pair and creation time.
 
 If you call <b>CreateFileTransacted</b> on a file that 
       is pending deletion as a result of a previous call to 
-      <a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a>, the function fails. The operating system 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>, the function fails. The operating system 
       delays file deletion until all handles to the file are closed.
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_ACCESS_DENIED</b>.
 
 The <i>dwDesiredAccess</i> parameter can 
       be zero, allowing the application to query  file attributes without accessing the file if the application is 
       running with adequate security settings. This is useful to test for the existence of a file without opening it 
       for read and/or write access, or to obtain other statistics about the file or directory. See 
-      <a href="https://msdn.microsoft.com/3b5fb709-c699-4651-8072-97210c8cf763">Obtaining and Setting File Information</a> 
-      and <a href="https://msdn.microsoft.com/d026ee3a-c165-42a2-a4e1-efccdafbefc5">GetFileInformationByHandle</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-and-setting-file-information">Obtaining and Setting File Information</a> 
+      and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>.
 
 When an application creates a file across a network, it is better to use 
       <b>GENERIC_READ</b> | <b>GENERIC_WRITE</b> than to use 
@@ -1044,16 +1044,16 @@ On NTFS file systems, you can use
       within a file.
 
 For more information, see 
-      <a href="https://msdn.microsoft.com/41dda6f1-a6d1-4e76-94f3-a72f9e491bee">File Streams</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>.
 
 <h3><a id="Directories"></a><a id="directories"></a><a id="DIRECTORIES"></a>Directories</h3>
 An application cannot create a directory by using 
       <b>CreateFileTransacted</b>, therefore only the 
       <b>OPEN_EXISTING</b> value is valid for <i>dwCreationDisposition</i> for 
       this use case. To create a directory, the application must call 
-      <a href="https://msdn.microsoft.com/75663b30-5bd9-4de7-8e4f-dc58016c2c40">CreateDirectoryTransacted</a>, 
-      <a href="https://msdn.microsoft.com/f8ca8b10-c8bd-4285-8a40-dbec4c24729c">CreateDirectory</a> or 
-      <a href="https://msdn.microsoft.com/287996f8-e8ca-4b72-a5f6-016754785c5c">CreateDirectoryEx</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectorytransacteda">CreateDirectoryTransacted</a>, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a> or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>.
 
 To open a directory using <b>CreateFileTransacted</b>, 
       specify the <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag as part of 
@@ -1066,7 +1066,7 @@ When using <b>CreateFileTransacted</b> to open a
       Specify the <b>GENERIC_READ</b> access right instead.
 
 For more information, see 
-      <a href="https://msdn.microsoft.com/e8a7bf82-0f3c-4ad9-9d10-25c4d69733dc">About Directory Management</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
 
 
 
@@ -1076,43 +1076,43 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/118392de-166b-413e-99c9-b3deb756de0e">CopyFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/75663b30-5bd9-4de7-8e4f-dc58016c2c40">CreateDirectoryTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectorytransacteda">CreateDirectoryTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a6230b-2da1-4746-95fe-80f7b6bae41f">DeleteFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-deletefiletransacteda">DeleteFileTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/35a9fb47-5a73-479c-8fe0-5a2b07705536">File Compression and Decompression</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
 
 
 
-<a href="https://msdn.microsoft.com/41dda6f1-a6d1-4e76-94f3-a72f9e491bee">File Streams</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>
 
 
 
-<a href="https://msdn.microsoft.com/d94bf32b-f14b-44b4-824b-ed453d0424ef">FindFirstFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a>
 
 
 
@@ -1120,11 +1120,11 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/dd1435da-93e5-440a-913a-9e40e39b4a01">GetFileAttributesTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileattributestransacteda">GetFileAttributesTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/466d733b-30d2-4297-a0e6-77038f1a21d5">MoveFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
 
 
 
@@ -1132,19 +1132,19 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/a1ef1ce1-42f6-4627-ab64-e7f41fa23e94">Programming Considerations for Transactional NTFS</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/programming-considerations-for-transacted-fileio-">Programming Considerations for Transactional NTFS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8c3ceed-d391-4934-b3f7-12c2123c8c23">Transactional NTFS (TxF)</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS (TxF)</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

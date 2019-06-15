@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the pixel format's <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a>.
+Gets the pixel format's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets the pixel format's <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-a
 
 ### -param ppIColorContext [out]
 
-Type: <b><a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>**</b>
 
 Pointer that receives the pixel format's color context.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The returned color context is the default color space for the pixel format. However, if an <a href="https://msdn.microsoft.com/d092e9e5-c041-42f5-84c8-0af52bb5c810">IWICBitmapSource</a> specifies its own color context, the source's context should be preferred over the pixel format's default.
+The returned color context is the default color space for the pixel format. However, if an <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapsource">IWICBitmapSource</a> specifies its own color context, the source's context should be preferred over the pixel format's default.
 
 
 

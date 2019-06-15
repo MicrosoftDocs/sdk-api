@@ -62,7 +62,7 @@ Defines properties of a clock.
 
 ### -field MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD
 
-Jitter values are always negative. In other words, the time returned by <a href="https://msdn.microsoft.com/0a897426-d994-4b27-9f13-9b0c7c9b3a9b">IMFClock::GetCorrelatedTime</a> might jitter behind the actual clock time, but will never jitter ahead of the actual time. If this flag is not present, the clock might jitter in either direction.
+Jitter values are always negative. In other words, the time returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">IMFClock::GetCorrelatedTime</a> might jitter behind the actual clock time, but will never jitter ahead of the actual time. If this flag is not present, the clock might jitter in either direction.
 
 
 ## -see-also
@@ -70,11 +70,11 @@ Jitter values are always negative. In other words, the time returned by <a href=
 
 
 
-<a href="https://msdn.microsoft.com/1efc6602-9851-40e5-85aa-0335d4e899a2">MFCLOCK_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfclock_properties">MFCLOCK_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

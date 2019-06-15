@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/a1dee11c-f1fe-4509-a40a-a58c4b8999ef">private properties</a> of the 
-    first IP Address <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependency</a> found for a specified 
-    <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The <b>PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS</b> type defines a pointer to this function.
+Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/private-properties">private properties</a> of the 
+    first IP Address <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependency</a> found for a specified 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Handle to the resource to query for dependencies.
 ### -param pszAddress [out]
 
 Output buffer for returning the value of the 
-      <a href="https://msdn.microsoft.com/514eb8f9-55c7-411b-b6ec-8373903f8f17">Address</a> private property.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-address">Address</a> private property.
 
 
 ### -param pcchAddress [in, out]
@@ -80,7 +80,7 @@ On input, specifies the size of the <i>pszAddress</i> buffer as a count of
 ### -param pszSubnetMask [out]
 
 Output buffer for returning the value of the 
-      <a href="https://msdn.microsoft.com/413d0d3c-1bb9-4570-ac18-23644f5e7804">SubnetMask</a> private property.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-subnetmask">SubnetMask</a> private property.
 
 
 ### -param pcchSubnetMask [in, out]
@@ -93,7 +93,7 @@ On input, specifies the size of the <i>pszSubnetMask</i> buffer as a count of
 ### -param pszNetwork [out]
 
 Output buffer for returning the value of the 
-      <a href="https://msdn.microsoft.com/61e64153-7d4c-4328-8bb3-8356993d6461">Network</a> private property.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-network">Network</a> private property.
 
 
 ### -param pcchNetwork [in, out]
@@ -112,7 +112,7 @@ On input, specifies the size of the <i>pszNetwork</i> buffer as a count of
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
        codes.
 
 <table>
@@ -171,16 +171,16 @@ Do not call
     from any resource DLL entry point function. 
     <b>ResUtilGetResourceDependentIPAddressProps</b> 
     can safely be called from a worker thread. For more information, see 
-    <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 The 
     <b>ResUtilGetResourceDependentIPAddressProps</b> 
     function returns only the private properties for the first IPv4 resource that the resource directly depends on. The 
     function does not examine indirect dependencies (such as a resource that depends on a 
-    <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">network Name</a> resource that in turn depends on an 
-    <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> resource), 
-    <a href="https://msdn.microsoft.com/1f91dc67-f3c9-4345-9710-addab2ab1a4d">IPv6 Address</a> resources, or 
-    <a href="https://msdn.microsoft.com/e59df4d3-d30b-4d23-853f-d71644c932f7">IPv6 Tunnel Address</a> resources.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">network Name</a> resource that in turn depends on an 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> resource), 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ipv6-address">IPv6 Address</a> resources, or 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ipv6-tunnel-address">IPv6 Tunnel Address</a> resources.
 
 
 
@@ -190,27 +190,27 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/8f2187e3-6bb7-4756-af2b-a28857581bcb">ResUtilFindDependentDiskResourceDriveLetter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfinddependentdiskresourcedriveletter">ResUtilFindDependentDiskResourceDriveLetter</a>
 
 
 
-<a href="https://msdn.microsoft.com/eee267b4-4272-4938-b061-02990ec528f2">ResUtilGetResourceDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependency">ResUtilGetResourceDependency</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c2bd24a-8034-4a5f-8218-0a23d5e29b07">ResUtilGetResourceDependencyByClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyclass">ResUtilGetResourceDependencyByClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c978b27-fd1a-47b6-8a30-cfe6e4fbcf57">ResUtilGetResourceDependencyByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcedependencybyname">ResUtilGetResourceDependencyByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/071f11bb-fcb3-4c76-ad81-b19ff7bdcb4a">ResUtilGetResourceNameDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetresourcenamedependency">ResUtilGetResourceNameDependency</a>
 
 
 
-<a href="https://msdn.microsoft.com/42eb7c1b-6bd6-4997-b33e-ed16470c8475">Resource Utility Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
  
 
  

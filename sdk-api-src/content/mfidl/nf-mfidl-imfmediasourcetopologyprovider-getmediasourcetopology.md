@@ -63,12 +63,12 @@ Returns a topology for a media source that builds an internal topology.
 
 ### -param pPresentationDescriptor [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get this pointer, either call <a href="https://msdn.microsoft.com/b6ac50b7-3ef1-43cf-8126-d9a003ebd825">IMFMediaSource::CreatePresentationDescriptor</a> on the media source, or get the pointer from the <a href="https://msdn.microsoft.com/c669b2c9-5ece-4045-b691-8a71bbf491e1">MENewPresentation</a> event.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the media source's presentation descriptor. To get this pointer, either call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor">IMFMediaSource::CreatePresentationDescriptor</a> on the media source, or get the pointer from the <a href="https://docs.microsoft.com/windows/desktop/medfound/menewpresentation">MENewPresentation</a> event.
 
 
 ### -param ppTopology [out]
 
-Receives a pointer to the topology's <a href="https://msdn.microsoft.com/f293e9ee-9bd2-4b3e-a4ff-53457ee910f6">IMFTopology</a> interface. The caller must release the interface.
+Receives a pointer to the topology's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -115,11 +115,11 @@ Invalid argument. For example, a <b>NULL</b> input parameter, or the presentatio
 
 
 
-<a href="https://msdn.microsoft.com/7c08fb54-6a78-4b6d-aae7-4b3a823eb880">IMFMediaSourceTopologyProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcetopologyprovider">IMFMediaSourceTopologyProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/788ede68-2fd7-45f6-90cb-2426c40f7d4c">Sequencer Source</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
  
 
  

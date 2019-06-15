@@ -61,12 +61,12 @@ The <b>FWPM_CALLOUT_CHANGE_CALLBACK0</b> function is used to add custom behavior
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/1460603c-6897-4559-b376-b87a6c2f4309">FwpmCalloutSubscribeChanges0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutsubscribechanges0">FwpmCalloutSubscribeChanges0</a> function.
 
 
 ### -param *change [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/70e2eaae-dd75-4acc-87fb-ab2ad450a234">FWPM_CALLOUT_CHANGE0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_change0_">FWPM_CALLOUT_CHANGE0</a>*</b>
 
 The change notification information.
 
@@ -84,9 +84,9 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/1460603c-6897-4559-b376-b87a6c2f4309">FwpmCalloutSubscribeChanges0</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutsubscribechanges0">FwpmCalloutSubscribeChanges0</a> to register this callback function.
 
-<b>FWPM_CALLOUT_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_CALLOUT_CHANGE_CALLBACK. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_CALLOUT_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_CALLOUT_CHANGE_CALLBACK. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -96,11 +96,11 @@ Call <a href="https://msdn.microsoft.com/1460603c-6897-4559-b376-b87a6c2f4309">F
 
 
 
-<a href="https://msdn.microsoft.com/70e2eaae-dd75-4acc-87fb-ab2ad450a234">FWPM_CALLOUT_CHANGE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout_change0_">FWPM_CALLOUT_CHANGE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1460603c-6897-4559-b376-b87a6c2f4309">FwpmCalloutSubscribeChanges0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmcalloutsubscribechanges0">FwpmCalloutSubscribeChanges0</a>
  
 
  

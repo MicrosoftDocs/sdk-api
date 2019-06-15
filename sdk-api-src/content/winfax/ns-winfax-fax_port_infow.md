@@ -63,7 +63,7 @@ The <b>FAX_PORT_INFO</b> structure describes one fax port. The data includes, am
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_PORT_INFO</b> structure. The calling application should ensure that this member is set to <b>sizeof(FAX_PORT_INFO)</b> before it calls the <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a> function.
+Specifies the size, in bytes, of the <b>FAX_PORT_INFO</b> structure. The calling application should ensure that this member is set to <b>sizeof(FAX_PORT_INFO)</b> before it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a> function.
 
 
 ### -field DeviceId
@@ -234,7 +234,7 @@ The device can send faxes.
 
 #### FPF_VIRTUAL
 
-The device is a virtual fax device. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
+The device is a virtual fax device. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-virtual-fax-devices">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetporta">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
 
 
 ### -field Rings
@@ -248,7 +248,7 @@ Specifies a <b>DWORD</b> variable that indicates the number of times an incoming
 
 Type: <b>DWORD</b>
 
-Specifies a <b>DWORD</b> variable that determines the relative order in which available fax devices send outgoing transmissions. Valid values for this member are 1 through <i>n</i>, where <i>n</i> is the value of the <i>PortsReturned</i> parameter returned by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a> function. 
+Specifies a <b>DWORD</b> variable that determines the relative order in which available fax devices send outgoing transmissions. Valid values for this member are 1 through <i>n</i>, where <i>n</i> is the value of the <i>PortsReturned</i> parameter returned by a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumportsa">FaxEnumPorts</a> function. 
 
                     
 
@@ -288,7 +288,7 @@ The device can send faxes.
 
 ##### - Flags.FPF_VIRTUAL
 
-The device is a virtual fax device. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
+The device is a virtual fax device. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-virtual-fax-devices">Virtual Fax Devices</a>. Note that you cannot set a device to be virtual. When calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetporta">FaxGetPort</a>, the <b>FAX_PORT_INFO</b> flag's <b>FPF_VIRTUAL</b> value indicates whether the device is virtual. When calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a>, the service will only relate to the <b>FPF_RECEIVE</b> and <b>FPF_SEND</b> values.
 
 
 ##### - State.FPS_ABORTING
@@ -405,9 +405,9 @@ The device is not available because it is in use by another application.
 
 
 
-A fax client application passes the <b>FAX_PORT_INFO</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a> function to modify the configuration of the fax port of interest.
+A fax client application passes the <b>FAX_PORT_INFO</b> structure in a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a> function to modify the configuration of the fax port of interest.
 
-If an application calls the <a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a> function to enumerate all the fax devices currently attached to a fax server, the function returns an array of <b>FAX_PORT_INFO</b> structures. Each structure describes one device in detail. If an application calls the <a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a> function to query one device, that function returns information about the device in one <b>FAX_PORT_INFO</b> structure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691330(v=VS.85).aspx">Fax Ports</a> and <a href="https://msdn.microsoft.com/en-us/library/ms691489(v=VS.85).aspx">Fax Device Management</a>.
+If an application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumportsa">FaxEnumPorts</a> function to enumerate all the fax devices currently attached to a fax server, the function returns an array of <b>FAX_PORT_INFO</b> structures. Each structure describes one device in detail. If an application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetporta">FaxGetPort</a> function to query one device, that function returns information about the device in one <b>FAX_PORT_INFO</b> structure. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-ports">Fax Ports</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a>.
 
 
 
@@ -417,27 +417,27 @@ If an application calls the <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690826(v=VS.85).aspx">FaxEnumPorts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumportsa">FaxEnumPorts</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691388(v=VS.85).aspx">FaxGetPort</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetporta">FaxGetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691928(v=VS.85).aspx">FaxSetPort</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693469(v=VS.85).aspx">Virtual Fax Devices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-virtual-fax-devices">Virtual Fax Devices</a>
  
 
  

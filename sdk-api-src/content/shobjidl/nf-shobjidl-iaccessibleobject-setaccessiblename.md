@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets text that is retrieved by <a href="https://msdn.microsoft.com/344e95e1-45a5-4951-b545-1a938bfc8a8c">IAccessible::get_accName</a> which accessibility tools use to obtain the Name Property of an object.
+Sets text that is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a> which accessibility tools use to obtain the Name Property of an object.
 
 
 

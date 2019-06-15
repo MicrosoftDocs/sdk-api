@@ -89,25 +89,25 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 
-<a href="https://msdn.microsoft.com/d53c3821-00a0-4eaa-9a06-69ec7aa98d84">IP Helper
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper
   Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start
   Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/287a4574-0a0f-4f20-932b-22bb6f40401d">IP_INTERFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-_ip_interface_info">IP_INTERFACE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d937ea44-1ca3-49e0-913d-fb77888d05fc">IpReleaseAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-ipreleaseaddress">IpReleaseAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/25b1bf9f-3ae1-453c-baae-5f70ae46cd24">IpRenewAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-iprenewaddress">IpRenewAddress</a>
  
 
  

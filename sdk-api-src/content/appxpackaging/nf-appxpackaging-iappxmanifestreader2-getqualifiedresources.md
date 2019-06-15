@@ -59,7 +59,7 @@ Gets an enumerator that iterates through the qualified resources that are define
 
 ### -param resources [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/9F58B665-3C3D-407C-B872-FC915CE97B0E">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dn280306(v=vs.85)">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
 
 The enumerator that iterates through the qualified resources.
 
@@ -79,9 +79,9 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 
 
-Resources are specified using the <a href="https://msdn.microsoft.com/45ce3dac-3888-452b-bc10-8775b158637a">Resources</a> element in the manifest.
+Resources are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-resources">Resources</a> element in the manifest.
 
-Call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method when you have finished using the <i>resources</i> object.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>resources</i> object.
 
 
 
@@ -91,7 +91,7 @@ Call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7
 
 
 
-<a href="https://msdn.microsoft.com/B10A1ACB-12F4-4338-A6D6-6D2B829F9D62">IAppxManifestReader2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader2">IAppxManifestReader2</a>
  
 
  

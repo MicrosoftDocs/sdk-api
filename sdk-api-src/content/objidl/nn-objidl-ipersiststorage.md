@@ -70,7 +70,7 @@ The <b>IPersistStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d">HandsOffStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-handsoffstorage">HandsOffStorage</a>
 </td>
 <td align="left" width="63%">
 Instructs the object to release all storage objects that have been passed to it by its container and to enter HandsOff mode.
@@ -79,7 +79,7 @@ Instructs the object to release all storage objects that have been passed to it 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79caf1f6-d974-4aee-8563-eda4876a0a90">InitNew</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-initnew">InitNew</a>
 </td>
 <td align="left" width="63%">
 Initializes a new storage object.
@@ -88,7 +88,7 @@ Initializes a new storage object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/604e044f-cede-486e-8b17-c62a1cfd1d28">IsDirty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-isdirty">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Determines whether an object has changed since it was last saved to its current storage.
@@ -97,7 +97,7 @@ Determines whether an object has changed since it was last saved to its current 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34379b8d-4e00-49cd-9fd1-65f88746c61a">Load</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">Load</a>
 </td>
 <td align="left" width="63%">
 Loads an object from its existing storage.
@@ -106,7 +106,7 @@ Loads an object from its existing storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a200812-48d9-4202-987a-1400aa66191c">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves an object, and any nested objects that it contains, into the specified storage object. The object enters NoScribble mode.
@@ -115,7 +115,7 @@ Saves an object, and any nested objects that it contains, into the specified sto
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18c223e7-38ce-4f20-818b-84bd4c7e0dfd">SaveCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">SaveCompleted</a>
 </td>
 <td align="left" width="63%">
 Notifies the object that it can write to its storage object.
@@ -130,15 +130,15 @@ Notifies the object that it can write to its storage object.
 
 
 
-<a href="https://msdn.microsoft.com/00b7edd2-8e2e-4e0a-91a6-d966f6c8d456">OleCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9">OleLoad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8d8e1af-05a3-42f5-8672-910a2606e613">OleSave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
  
 
  

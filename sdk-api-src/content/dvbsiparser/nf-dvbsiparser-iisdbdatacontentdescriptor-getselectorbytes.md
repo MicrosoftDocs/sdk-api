@@ -93,7 +93,7 @@ ARIB, STD-B10, Version 4.6</i> shows the contents of this descriptor for differe
 
 
 
-<a href="https://msdn.microsoft.com/91d55991-5994-4104-9a8f-01cfc347a96f">IIsdbDataContentDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdatacontentdescriptor">IIsdbDataContentDescriptor</a>
  
 
  

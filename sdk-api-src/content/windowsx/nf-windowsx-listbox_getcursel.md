@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775197(v=VS.85).aspx">LB_GETCURSEL</a> message explicitly.
+Gets the index of the currently selected item in a single-selection list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a> message explicitly.
 
 
 
@@ -61,7 +61,7 @@ Gets the index of the currently selected item in a single-selection list box. Yo
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -70,7 +70,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775197(v=VS.85).aspx">LB_GETCURSEL</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getcursel">LB_GETCURSEL</a>.
 
 
 

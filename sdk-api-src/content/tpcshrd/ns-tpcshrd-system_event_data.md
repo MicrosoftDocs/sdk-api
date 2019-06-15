@@ -95,11 +95,11 @@ State of the buttons at the time of the system event.
 
 
 
-<a href="https://msdn.microsoft.com/7cdba29e-0599-45f7-8853-3e8fa29897e8">IStylusPlugin::SystemEvent Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-systemevent">IStylusPlugin::SystemEvent Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d9e98f0-b11e-4a65-a544-9e1998a80d5f">ITabletEventSink::SystemEvent Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/itableteventsink-systemevent">ITabletEventSink::SystemEvent Method</a>
  
 
  

@@ -54,7 +54,7 @@ Provides access to  the keyboard or mouse input of a control.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSynchronizedInputPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationSynchronizedInputPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSynchronizedInputPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationSynchronizedInputPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAutomationSynchronizedInputPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf6d5507-b51c-4aaf-ab8f-3b9d88bf7bba">Cancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationsynchronizedinputpattern-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Causes the UI Automation provider to stop listening for mouse or keyboard input.
@@ -78,7 +78,7 @@ Causes the UI Automation provider to stop listening for mouse or keyboard input.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ecd413e-c1a8-404f-9a11-8c2c8428d6d7">StartListening</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationsynchronizedinputpattern-startlistening">StartListening</a>
 </td>
 <td align="left" width="63%">
 Causes the UI Automation provider to start listening for mouse or keyboard input.
@@ -93,7 +93,7 @@ Causes the UI Automation provider to start listening for mouse or keyboard input
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

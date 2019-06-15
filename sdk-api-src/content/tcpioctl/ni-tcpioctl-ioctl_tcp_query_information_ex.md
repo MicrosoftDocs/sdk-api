@@ -55,7 +55,7 @@ control code.]
 
 Retrieves information from the TCP/IP driver.
 
-To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
 				function with the following parameters.
 
 ```cpp
@@ -200,13 +200,13 @@ To use <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, you should be familiar with Window
 <div> </div>
 The <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation 
 		retrieves different kinds of information, depending on what the 
-		<a href="https://msdn.microsoft.com/2a1f3a41-ee18-4a67-9da1-a5b18d32defb">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure 
+		<a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure 
 				pointed to by the <i>lpInBuffer</i> parameter contains, as described in the following paragraph and  example code.
 			
 
 1. Enumerate TDI Entities.
 
- To retrieve an array of <a href="https://msdn.microsoft.com/d95a96b5-c062-44c5-9a66-b27db531800a">TDIEntityID</a> 
+ To retrieve an array of <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
 				structures that identifies all the TCP entities on the machine, set the <b>ID.toi_entity.tei_entity</b> 
 				member of the input structure to <b>GENERIC_ENTITY</b>. <b>ID.toi_class</b> must then 
 				be set to <b>INFO_CLASS_GENERIC</b>, <b>ID.toi_type</b> must be set to 
@@ -219,7 +219,7 @@ The <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation
 2. Obtain Type Information about a Specific TDI Entity.
 
 If the <b>ID.toi_entity</b> member of the input 
-				structure identifies a specific entity (as in the case of the <a href="https://msdn.microsoft.com/d95a96b5-c062-44c5-9a66-b27db531800a">TDIEntityID</a> 
+				structure identifies a specific entity (as in the case of the <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
 				structures returned by the enumeration request above), then setting the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_GENERIC</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
@@ -290,24 +290,24 @@ The possible type-flag values that can be returned are shown in the following ta
 
 3. Obtain MIB-II Information about an Interface Entity. 
 
-If the entity type is IF_MIB, then a MIB request can be sent to it that results in the return of an <a href="https://msdn.microsoft.com/830cd19e-06a9-46dc-a869-d2a17107d942">IFEntry</a> structure. Set the <b>ID.toi_entity</b> member of the input 
+If the entity type is IF_MIB, then a MIB request can be sent to it that results in the return of an <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> structure. Set the <b>ID.toi_entity</b> member of the input 
 				structure to identify the entity,  the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
 				<b>IF_MIB_STATS_ID</b>.
 
-Note that because <a href="https://msdn.microsoft.com/830cd19e-06a9-46dc-a869-d2a17107d942">IFEntry</a> is a variable-length structure, the output buffer should be allocated not just as "sizeof(IFEntry)" but as "sizeof(IFEntry) + MAX_ADAPTER_DESCRIPTION_LENGTH + 1".
+Note that because <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> is a variable-length structure, the output buffer should be allocated not just as "sizeof(IFEntry)" but as "sizeof(IFEntry) + MAX_ADAPTER_DESCRIPTION_LENGTH + 1".
 
 4. Obtain MIB-II Information about a Particular IP Entity. 
 
 MIB information can also be retrieved from an IP entity (one whose type is <b>CL_NL_ENTITY</b>) by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>IP_MIB_STATS_ID</b>. In this case, an <a href="https://msdn.microsoft.com/eb25fae9-1a89-4474-bcb6-28c09bc3e0c9">IPSNMPInfo</a> structure is returned, and the output buffer can be allocated to "sizeof(IPSNMPInfo)".
+				<b>IP_MIB_STATS_ID</b>. In this case, an <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure is returned, and the output buffer can be allocated to "sizeof(IPSNMPInfo)".
 
 5. Obtain Address Information about a Particular IP Entity.
 
-If the <b>ipsi_numaddr</b> member of the <a href="https://msdn.microsoft.com/eb25fae9-1a89-4474-bcb6-28c09bc3e0c9">IPSNMPInfo</a> structure returned for a particular IP entity is nonzero, an array of <a href="https://msdn.microsoft.com/c48453e8-05f1-49d8-bae6-fad0681bdf7e">IPAddrEntry</a> structures can be retrieved by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
+If the <b>ipsi_numaddr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure returned for a particular IP entity is nonzero, an array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> structures can be retrieved by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
 				<b>IP_MIB_ADDRTABLE_ENTRY_ID</b>. In this case, the output buffer should be allocated to hold an array of size:  
@@ -316,14 +316,14 @@ If the <b>ipsi_numaddr</b> member of the <a href="https://msdn.microsoft.com/eb2
 
 6. Obtain Interface Information about a Particular IP Address.
 
-More interface information can be retrieved for a given IP address returned in the <a href="https://msdn.microsoft.com/c48453e8-05f1-49d8-bae6-fad0681bdf7e">IPAddrEntry</a> array above by leaving the <b>ID.toi_entity</b> member set to identify the IP entity, the <b>ID.toi_class</b> set to 
+More interface information can be retrieved for a given IP address returned in the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> array above by leaving the <b>ID.toi_entity</b> member set to identify the IP entity, the <b>ID.toi_class</b> set to 
 				<b>INFO_CLASS_PROTOCOL</b>, and the <b>ID.toi_type</b> set to 
 				<b>INFO_TYPE_PROVIDER</b>, and then by setting the <b>ID.toi_id</b> to 
-				<b>IP_INTFC_INFO_ID</b> and the <b>Context</b> member of the <a href="https://msdn.microsoft.com/2a1f3a41-ee18-4a67-9da1-a5b18d32defb">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure to the IPv4 or IPv6 address in question. 
+				<b>IP_INTFC_INFO_ID</b> and the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure to the IPv4 or IPv6 address in question. 
 
 Allocate an output buffer large enough to contain <code>sizeof(IPINTERFACEINFO) + MAX_PHYSADDR_SIZE</code>.
 
-On return, the output buffer contains a filled-in <a href="https://msdn.microsoft.com/dc9de369-f739-475c-96f5-e2e058705fe8">IPInterfaceInfo</a> structure.
+On return, the output buffer contains a filled-in <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipinterfaceinfo">IPInterfaceInfo</a> structure.
 
 
 #### Examples
@@ -602,15 +602,15 @@ int main( )
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">Internet Protocol Helper API</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">Internet Protocol Helper API</a>
 
 
 
-<a href="https://msdn.microsoft.com/566bf187-73d0-4d61-be8e-306dc482a005">Management Information Base Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base Reference</a>
  
 
  

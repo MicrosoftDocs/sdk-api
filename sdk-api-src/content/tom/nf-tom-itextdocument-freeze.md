@@ -79,7 +79,7 @@ If the <b>ITextDocument::Freeze</b> count is nonzero, it returns <b>S_OK</b>. If
 
 
 
-If the freeze count is nonzero, screen updating is disabled. This allows a sequence of editing operations to be performed without the performance loss and flicker of screen updating. To decrement the freeze count, call the <a href="https://msdn.microsoft.com/en-us/library/Bb787838(v=VS.85).aspx">ITextDocument::Unfreeze</a> method. 
+If the freeze count is nonzero, screen updating is disabled. This allows a sequence of editing operations to be performed without the performance loss and flicker of screen updating. To decrement the freeze count, call the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-unfreeze">ITextDocument::Unfreeze</a> method. 
 
 
 
@@ -89,7 +89,7 @@ If the freeze count is nonzero, screen updating is disabled. This allows a seque
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787730(v=VS.85).aspx">BeginEditCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-begineditcollection">BeginEditCollection</a>
 
 
 
@@ -97,7 +97,7 @@ If the freeze count is nonzero, screen updating is disabled. This allows a seque
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -105,11 +105,11 @@ If the freeze count is nonzero, screen updating is disabled. This allows a seque
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787838(v=VS.85).aspx">Unfreeze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-unfreeze">Unfreeze</a>
  
 
  

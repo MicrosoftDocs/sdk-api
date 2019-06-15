@@ -81,11 +81,11 @@ Enables an application to extract headers from the output message for a given ca
 
 ### -field WS_CALL_PROPERTY_CALL_ID
 
-On a <a href="https://msdn.microsoft.com/788940a0-b1d9-45d7-a4b5-6f0926026c7d">service operation</a> an application can use the call id property to uniquely identify 
-                    a service operation function all on a channel. This ID can be passed on to <a href="https://msdn.microsoft.com/709af94d-44ad-46af-8771-99d0aba5d77d">WsAbandonCall</a> along with the
+On a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-operation">service operation</a> an application can use the call id property to uniquely identify 
+                    a service operation function all on a channel. This ID can be passed on to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabandoncall">WsAbandonCall</a> along with the
                     service proxy to abandon the call.
                 
 
-For more information about abandoning calls see <a href="https://msdn.microsoft.com/9d6e2441-91de-4108-b1c4-282fbca5fe7c">service operation</a>.
+For more information about abandoning calls see <a href="https://docs.microsoft.com/windows/desktop/wsw/client-side-service-operations">service operation</a>.
                 
 

@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetSecurityDescriptorDacl</b> function sets information in a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL). If a DACL is already present in the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a>, the DACL is replaced.
+The <b>SetSecurityDescriptorDacl</b> function sets information in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). If a DACL is already present in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>, the DACL is replaced.
 
 
 ## -parameters
@@ -67,24 +67,24 @@ The <b>SetSecurityDescriptorDacl</b> function sets information in a <a href="htt
 ### -param pSecurityDescriptor [in, out]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure to which the function adds the DACL. This security descriptor must be in <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">absolute</a> format, meaning that its members must be pointers to other structures, rather than offsets to contiguous data.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure to which the function adds the DACL. This security descriptor must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">absolute</a> format, meaning that its members must be pointers to other structures, rather than offsets to contiguous data.
 
 
 ### -param bDaclPresent [in]
 
 A flag that indicates the presence of a DACL in the security descriptor. If this parameter is <b>TRUE</b>, the function sets the SE_DACL_PRESENT flag in the 
-<a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a> structure and uses the values in the <i>pDacl</i> and <i>bDaclDefaulted</i> parameters. If this parameter is <b>FALSE</b>, the function clears the SE_DACL_PRESENT flag, and <i>pDacl</i> and <i>bDaclDefaulted</i> are ignored.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> structure and uses the values in the <i>pDacl</i> and <i>bDaclDefaulted</i> parameters. If this parameter is <b>FALSE</b>, the function clears the SE_DACL_PRESENT flag, and <i>pDacl</i> and <i>bDaclDefaulted</i> are ignored.
 
 
 ### -param pDacl [in, optional]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure that specifies the DACL for the security descriptor. If this parameter is <b>NULL</b>, a <b>NULL</b> DACL is assigned to the security descriptor, which allows all access to the object. The DACL is referenced by, not copied into, the security descriptor.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure that specifies the DACL for the security descriptor. If this parameter is <b>NULL</b>, a <b>NULL</b> DACL is assigned to the security descriptor, which allows all access to the object. The DACL is referenced by, not copied into, the security descriptor.
 
 
 ### -param bDaclDefaulted [in]
 
-A flag that indicates the source of the DACL. If this flag is <b>TRUE</b>, the DACL has been retrieved by some default mechanism. If <b>FALSE</b>, the DACL has been explicitly specified by a user. The function stores this value in the SE_DACL_DEFAULTED flag of the <a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a> structure. If this parameter is not specified, the SE_DACL_DEFAULTED flag is cleared.
+A flag that indicates the source of the DACL. If this flag is <b>TRUE</b>, the DACL has been retrieved by some default mechanism. If <b>FALSE</b>, the DACL has been explicitly specified by a user. The function stores this value in the SE_DACL_DEFAULTED flag of the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> structure. If this parameter is not specified, the SE_DACL_DEFAULTED flag is cleared.
 
 
 ## -returns
@@ -94,7 +94,7 @@ A flag that indicates the source of the DACL. If this flag is <b>TRUE</b>, the D
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -103,7 +103,7 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-There is an important difference between an empty and a nonexistent DACL. When a DACL is empty, it contains no <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs); therefore, no access rights are explicitly granted. As a result, access to the object is implicitly denied.
+There is an important difference between an empty and a nonexistent DACL. When a DACL is empty, it contains no <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs); therefore, no access rights are explicitly granted. As a result, access to the object is implicitly denied.
 
 When an object has no DACL (when the <i>pDacl</i> parameter is <b>NULL</b>), no protection is assigned to the object, and all access requests are granted. To help maintain security, restrict access by using a DACL.
 
@@ -117,7 +117,7 @@ There are three possible outcomes in different configurations of the <i>bDaclPre
 
 #### Examples
 
-For an example that uses this function, see <a href="https://msdn.microsoft.com/866992a7-95c4-4094-87bb-e6d8eeb24317">Creating a Security Descriptor for a New Object</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--">Creating a Security Descriptor for a New Object</a>.
 
 <div class="code"></div>
 
@@ -128,43 +128,43 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/8006c8bb-4976-463f-b074-a59c3bbab36b">GetSecurityDescriptorDacl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptordacl">GetSecurityDescriptorDacl</a>
 
 
 
-<a href="https://msdn.microsoft.com/234fcda4-7d30-4c3f-a036-7ace58ca8a3c">InitializeSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/24a98229-11e4-45ef-988b-c2cf831275e7">IsValidSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor">IsValidSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/16337b77-23c5-4b7a-a344-66a02ee0e8a8">Low-level Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/060c375c-a313-4fa2-8d85-cee9369c26a8">SetSecurityDescriptorGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup">SetSecurityDescriptorGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb3ba617-322a-4b8c-a9d5-32910315fb56">SetSecurityDescriptorOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a>
 
 
 
-<a href="https://msdn.microsoft.com/21615b63-0619-4c0c-a1b8-88ed09a1235c">SetSecurityDescriptorSacl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a>
  
 
  

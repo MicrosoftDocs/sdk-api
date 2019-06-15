@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> based on the specified source string.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> based on the specified source string.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Creates a new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D77
 
 Type: <b>LPCWSTR</b>
 
-A null-terminated string to use as the source for the new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>. To create a new, empty, or <b>NULL</b> string, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>.
+A null-terminated string to use as the source for the new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. To create a new, empty, or <b>NULL</b> string, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>.
 
 
 ### -param length [in]
@@ -76,9 +76,9 @@ The length of <i>sourceString</i>, in Unicode characters. Must be 0 if <i>source
 
 ### -param string [out]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
-A pointer to the newly created <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>, or <b>NULL</b> if an error occurs. Any existing  content in <i>string</i> is overwritten. The <b>HSTRING</b> is a standard handle type.
+A pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>, or <b>NULL</b> if an error occurs. Any existing  content in <i>string</i> is overwritten. The <b>HSTRING</b> is a standard handle type.
 
 
 ## -returns
@@ -101,7 +101,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> was created successfully.
+The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">H
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>.
+Failed to allocate the new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 </td>
 </tr>
@@ -148,9 +148,9 @@ Failed to allocate the new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482
 
 
 
-Use the <b>WindowsCreateString</b> function to allocate a new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>. The Windows Runtime copies <i>string</i> to the backing buffer of the new <b>HSTRING</b> and   manages the buffer lifetime by using a reference count. Call the <a href="https://msdn.microsoft.com/0361BB7E-DA49-4289-A93E-DE7AAB8712AC">WindowsCreateStringReference</a> function to create a <i>fast-pass string</i>, which uses an existing string without copying it. 
+Use the <b>WindowsCreateString</b> function to allocate a new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. The Windows Runtime copies <i>string</i> to the backing buffer of the new <b>HSTRING</b> and   manages the buffer lifetime by using a reference count. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a> function to create a <i>fast-pass string</i>, which uses an existing string without copying it. 
 
-Call the <a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a> function to de-allocate the <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>. Each call to the <b>WindowsCreateString</b> function must be matched by a call to  <b>WindowsDeleteString</b>. 
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to de-allocate the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. Each call to the <b>WindowsCreateString</b> function must be matched by a call to  <b>WindowsDeleteString</b>. 
 
 To create a new, empty, or <b>NULL</b> string, pass <b>NULL</b> for <i>sourceString</i> and 0 for <i>length</i>.
 
@@ -164,11 +164,11 @@ If <i>sourceString</i> has embedded null characters, the <b>WindowsCreateString<
 
 
 
-<a href="https://msdn.microsoft.com/0361BB7E-DA49-4289-A93E-DE7AAB8712AC">WindowsCreateStringReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>
 
 
 
-<a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
  
 
  

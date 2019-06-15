@@ -91,11 +91,11 @@ For more information about the <b>SIGSTRUCT</b> and <b>EINITTOKEN</b> structures
 
 
 
-<a href="https://msdn.microsoft.com/51ED6E75-DA18-4CCE-8718-46328DD62B07">ENCLAVE_CREATE_INFO_SGX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a>
 
 
 
-<a href="https://msdn.microsoft.com/6A711135-A522-40AE-965F-E1AF97D0076A">InitializeEnclave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
  
 
  

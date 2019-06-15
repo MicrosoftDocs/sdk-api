@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Allocates physical memory pages to be mapped and unmapped within any 
-    <a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a> (AWE) region of 
+    <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region of 
     a specified process.
 
 <b>64-bit Windows on Itanium-based systems:  </b>Due to the difference in page sizes, 
@@ -73,7 +73,7 @@ Allocates physical memory pages to be mapped and unmapped within any
 
 A handle to a process.
 
-The function allocates memory that can later be mapped within the virtual address space of this process. The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, see <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>. 
+The function allocates memory that can later be mapped within the virtual address space of this process. The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>. 
 
 
 ### -param NumberOfPages [in, out]
@@ -81,7 +81,7 @@ The function allocates memory that can later be mapped within the virtual addres
 The size of the physical memory to allocate, in pages.
 
 To determine the page size of the computer, use the 
-      <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> function. On output, this parameter 
+      <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. On output, this parameter 
       receives the number of pages that are actually allocated, which might be less than the number requested.
 
 
@@ -111,7 +111,7 @@ Fewer pages than requested can be allocated.
       
 
 If the function fails, the return value is <b>FALSE</b>, and no frames are allocated. To get extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -121,7 +121,7 @@ If the function fails, the return value is <b>FALSE</b>, and no frames are alloc
 
 
 The <b>AllocateUserPhysicalPages</b> function 
-    is used to allocate physical memory that can later be mapped within the virtual address space of the process. The <b>SeLockMemoryPrivilege</b> privilege  must be enabled in the caller's token or the function will fail with <b>ERROR_PRIVILEGE_NOT_HELD</b>. For more information, see <a href="https://msdn.microsoft.com/973796a6-bc2e-4e64-92db-5e17b9c25460">Privilege Constants</a>.
+    is used to allocate physical memory that can later be mapped within the virtual address space of the process. The <b>SeLockMemoryPrivilege</b> privilege  must be enabled in the caller's token or the function will fail with <b>ERROR_PRIVILEGE_NOT_HELD</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 Memory allocated by this function must be physically present in the system. 
     After the memory is allocated, it is locked down and unavailable to the rest of the virtual memory 
@@ -133,12 +133,12 @@ Physical pages can reside at any physical address. You should make no assumption
     physical pages.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more 
-    information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/1a67bd2f-afc0-48f4-91f2-34fd2b94910d">AWE Example</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/awe-example">AWE Example</a>.
 
 <div class="code"></div>
 
@@ -149,27 +149,27 @@ For an example, see <a href="https://msdn.microsoft.com/1a67bd2f-afc0-48f4-91f2-
 
 
 
-<a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/33af02c8-609f-4490-b17e-e116d24c217c">AllocateUserPhysicalPagesNuma</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma">AllocateUserPhysicalPagesNuma</a>
 
 
 
-<a href="https://msdn.microsoft.com/c01da9f1-1d24-4b7e-8c6b-50aa6f558384">FreeUserPhysicalPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e9804dd-717d-4658-aac8-228878e61e4b">MapUserPhysicalPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapuserphysicalpages">MapUserPhysicalPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/d88eaa75-38df-4498-a4c1-3dad04018c53">MapUserPhysicalPagesScatter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-mapuserphysicalpagesscatter">MapUserPhysicalPagesScatter</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
  
 
  

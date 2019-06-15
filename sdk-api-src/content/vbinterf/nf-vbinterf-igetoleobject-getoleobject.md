@@ -85,7 +85,7 @@ This method supports the standard return values <b>E_INVALIDARG</b>,
 
 
 
-<a href="https://msdn.microsoft.com/2cdc35e7-ab0b-4b12-920c-9eac0d9b5a0c">IGetOleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-igetoleobject">IGetOleObject</a>
  
 
  

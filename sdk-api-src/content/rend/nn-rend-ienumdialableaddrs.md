@@ -54,12 +54,12 @@ provides similar functionality.]
 
 The 
 <b>IEnumDialableAddrs</b> interface provides COM-standard enumeration methods to discover and use the available dialable addresses in a directory. The 
-<a href="https://msdn.microsoft.com/cee7a00e-e601-47bf-b64b-61085511da97">ITDirectoryObject::EnumerateDialableAddrs</a> method returns a pointer to this interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-enumeratedialableaddrs">ITDirectoryObject::EnumerateDialableAddrs</a> method returns a pointer to this interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDialableAddrs</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumDialableAddrs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDialableAddrs</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDialableAddrs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEnumDialableAddrs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d05bdfb-007a-451a-bf79-f5a8e4171f85">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -83,7 +83,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78ebe1d3-3c40-4ba4-97f0-8612775c80f0">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -92,7 +92,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c996ea76-bf72-40bd-996b-335448ceb93c">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -101,7 +101,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f68fa12d-dbd3-42a2-bef1-50881d57aa27">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-ienumdialableaddrs-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.

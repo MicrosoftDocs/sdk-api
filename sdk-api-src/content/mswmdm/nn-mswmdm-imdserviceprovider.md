@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMDServiceProvider</b> interface is the initial interface that Windows Media Device Manager uses to connect to your service provider. Using this interface, Windows Media Device Manager can enumerate and communicate with the all media devices supported by a particular service provider. The <a href="https://msdn.microsoft.com/d9ffaea8-5616-4bc2-a27c-8b77ea177b6b">IMDServiceProvider2</a> interface can be implemented to create devices by using the device path.
+The <b>IMDServiceProvider</b> interface is the initial interface that Windows Media Device Manager uses to connect to your service provider. Using this interface, Windows Media Device Manager can enumerate and communicate with the all media devices supported by a particular service provider. The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2</a> interface can be implemented to create devices by using the device path.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDServiceProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMDServiceProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDServiceProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDServiceProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMDServiceProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3d4e404-7441-4a61-b2bb-ca373eb79b99">EnumDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider-enumdevices">EnumDevices</a>
 </td>
 <td align="left" width="63%">
 Enumerates the installed physical or software devices that are currently attached and are known by the service provider.
@@ -81,7 +81,7 @@ Enumerates the installed physical or software devices that are currently attache
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9cca4cb7-f569-452f-92dc-409b996ede17">GetDeviceCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider-getdevicecount">GetDeviceCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of media devices that are currently attached and are known by the service provider.
@@ -96,11 +96,11 @@ Retrieves the number of media devices that are currently attached and are known 
 
 
 
-<a href="https://msdn.microsoft.com/d9ffaea8-5616-4bc2-a27c-8b77ea177b6b">IMDServiceProvider2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd61c5fa-047c-4d93-bae1-f3433696b95b">Interfaces for Service Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
  
 
  

@@ -69,7 +69,7 @@ The CLSID of the handler.
 
 Type: <b>LPDWORD</b>
 
-Returns registration flags from the <a href="https://msdn.microsoft.com/be87cebf-da50-437b-bbb1-22c2c764e700">SYNCMGRREGISTERFLAGS</a> enumeration that indicate events for which the handler is registered to be notified.
+Returns registration flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrregisterflags">SYNCMGRREGISTERFLAGS</a> enumeration that indicate events for which the handler is registered to be notified.
 
 
 ## -returns
@@ -118,7 +118,7 @@ Call was not successful, the handler is not registered.
 
 
 
-<a href="https://msdn.microsoft.com/1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c">ISyncMgrRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>
  
 
  

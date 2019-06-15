@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IMofCompiler::CreateBMOF</b> method creates a binary MOF file. File creation is accomplished by parsing a regular MOF file and storing a binary representation of the classes and instances into a special file format. Typically, this data binary large object (BLOB) is stored as a resource in an executable file, which can later be extracted for a call to the 
-<a href="https://msdn.microsoft.com/7f3cc061-839e-49c2-a225-452719f155a9">CompileBuffer</a> method. The <b>IMofCompiler::CreateBMOF</b> can also be used to create a localized MOF file (.mfl).
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a> method. The <b>IMofCompiler::CreateBMOF</b> can also be used to create a localized MOF file (.mfl).
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The name of the text file to be parsed.
 <li>
 a&lt;locale&gt;
 
-Specifies the locale information. This value must start with a preceding comma. For more information, see the description of the <b>-ADMENDMENT</b> switch for the <a href="https://msdn.microsoft.com/9858da09-fb91-43a4-9817-83b10e2ee08f">mofcomp</a> utility.
+Specifies the locale information. This value must start with a preceding comma. For more information, see the description of the <b>-ADMENDMENT</b> switch for the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a> utility.
 
 </li>
 <li>
@@ -99,7 +99,7 @@ For example,  <i>BMOFFileName</i>=",aMS_409,nmyFile.mof,lmyFile.mfl".
 The path of the default namespace, where classes or instances are written.
 
 You can use this parameter to specify a namespace on a remote computer ("\\computer\root", for example). This value may be overridden by the 
-<a href="https://msdn.microsoft.com/3cf22686-dd56-43a3-9584-3d707a20a3a0">#pragma</a> command and should not be used if you use autorecovery. If the parameter value is <b>NULL</b>, the root\default namespace on the local computer is the default.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/-pragma">#pragma</a> command and should not be used if you use autorecovery. If the parameter value is <b>NULL</b>, the root\default namespace on the local computer is the default.
 
 
 ### -param lOptionFlags [in]
@@ -183,7 +183,7 @@ Permits only new instances.
 
 ### -param pInfo [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/94B3516F-2DDA-4C93-B48E-67D7FE357F4E">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ns-wbemcli-tag_compilestatusinfo">WBEM_COMPILE_STATUS_INFO</a> that describes an error.
 
 If the parameter value is not <b>NULL</b>, an error has occurred, and the structure is filled  with error information.
 
@@ -202,19 +202,19 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the method is unsuc
 
 
 
-<a href="https://msdn.microsoft.com/5e01c7ac-7090-4cde-b836-01fa9d3f27f5">IMofCompiler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
 
 
 
-<a href="https://msdn.microsoft.com/B36B7D62-13C9-401F-A6C0-7C498A139AEC">WBEM_CHANGE_FLAG_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_change_flag_type">WBEM_CHANGE_FLAG_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/49F1518B-A487-458F-BFDD-BCF75A0E4306">WBEM_COMPILER_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_wbem_compiler_options">WBEM_COMPILER_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9858da09-fb91-43a4-9817-83b10e2ee08f">mofcomp</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
  
 
  

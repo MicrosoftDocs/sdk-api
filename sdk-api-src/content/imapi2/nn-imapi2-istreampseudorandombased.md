@@ -71,7 +71,7 @@ The <b>IStreamPseudoRandomBased</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e15e47aa-e5c4-4944-a3c4-14e459a31bb5">get_ExtendedSeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_extendedseed">get_ExtendedSeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of seed values used by the random number generator.
@@ -80,7 +80,7 @@ Retrieves an array of seed values used by the random number generator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5362760-84c6-4e93-b3cd-2ce568b13102">get_Seed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">get_Seed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the seed value used by the random number generator.
@@ -89,7 +89,7 @@ Retrieves the seed value used by the random number generator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6edf21f-b89a-4780-8065-4d09758fe701">put_ExtendedSeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">put_ExtendedSeed</a>
 </td>
 <td align="left" width="63%">
 Sets a list of seed values for the random number generator and seeks to the start of stream.
@@ -98,7 +98,7 @@ Sets a list of seed values for the random number generator and seeks to the star
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/455d087d-a6f5-45ab-9c0d-c46e721cba6e">put_Seed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_seed">put_Seed</a>
 </td>
 <td align="left" width="63%">
 Sets the seed value used by the random number generator and seeks to the start of stream.
@@ -122,11 +122,11 @@ To create the <b>MsftStreamPrgn001</b> object in a script, use IMAPI2.MsftStream
 
 
 
-<a href="https://msdn.microsoft.com/48b786ef-a1b6-4dcf-9329-c659f15185e1">IStreamConcatenate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d0f03e5-a47d-4b46-a177-f462bbafe153">IStreamInterleave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreaminterleave">IStreamInterleave</a>
  
 
  

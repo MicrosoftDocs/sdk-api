@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761651(v=VS.85).aspx">EM_SETMODIFY</a> message explicitly.
+Sets or clears the modification flag for an edit control. The modification flag indicates whether the text within the edit control has been modified. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setmodify">EM_SETMODIFY</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets or clears the modification flag for an edit control. The modification flag 
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param fModified
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the text has been modified; otherwise <b>FALSE</b>.
 
@@ -75,7 +75,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761651(v=VS.85).aspx">EM_SETMODIFY</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setmodify">EM_SETMODIFY</a>.
 
 
 

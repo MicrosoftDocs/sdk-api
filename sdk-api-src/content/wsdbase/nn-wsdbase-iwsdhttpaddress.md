@@ -54,7 +54,7 @@ Provides access to the individual components of an HTTP address.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDHttpAddress</b> interface inherits from <a href="https://msdn.microsoft.com/84dfee11-8092-4018-8840-e766a94c60a4">IWSDTransportAddress</a>. <b>IWSDHttpAddress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDHttpAddress</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>. <b>IWSDHttpAddress</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDHttpAddress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bf666d3-6f13-4607-a83a-ec71f40f00e6">GetPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpaddress-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the URI path for this address.
@@ -78,7 +78,7 @@ Gets the URI path for this address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aaf9e918-7d1c-4457-94f8-888a99f07c18">GetSecure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpaddress-getsecure">GetSecure</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status on whether TLS secure sessions are enabled for this address.
@@ -87,7 +87,7 @@ Retrieves the status on whether TLS secure sessions are enabled for this address
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4bad84a6-f321-4275-9787-f6bae83c807e">SetPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpaddress-setpath">SetPath</a>
 </td>
 <td align="left" width="63%">
 Sets the URI path for this address.
@@ -96,7 +96,7 @@ Sets the URI path for this address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2b66d0d-51b2-437e-8ceb-a4c95f2f9d6d">SetSecure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdhttpaddress-setsecure">SetSecure</a>
 </td>
 <td align="left" width="63%">
 Enables or disables TLS secure sessions for this address.
@@ -111,7 +111,7 @@ Enables or disables TLS secure sessions for this address.
 
 
 
-<a href="https://msdn.microsoft.com/84dfee11-8092-4018-8840-e766a94c60a4">IWSDTransportAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
  
 
  

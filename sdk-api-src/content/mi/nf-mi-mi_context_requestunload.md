@@ -66,7 +66,7 @@ The request context.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -75,7 +75,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-This function undoes a call to the <a href="https://msdn.microsoft.com/d5d06ceb-5f44-4aa8-93a6-1c7b8d06561a">MI_Context_RefuseUnload</a> function. It must use the same context that was used in that function.
+This function undoes a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_refuseunload">MI_Context_RefuseUnload</a> function. It must use the same context that was used in that function.
 
 
 
@@ -85,11 +85,11 @@ This function undoes a call to the <a href="https://msdn.microsoft.com/d5d06ceb-
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5d06ceb-5f44-4aa8-93a6-1c7b8d06561a">MI_Context_RefuseUnload</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_refuseunload">MI_Context_RefuseUnload</a>
  
 
  

@@ -93,7 +93,7 @@ The index type.
 </dl>
 </td>
 <td width="60%">
-Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structure as an <a href="https://msdn.microsoft.com/57c855ef-d4ea-4e11-a37b-941335ccf657">AVISUPERINDEX</a> structure. The value of <b>bIndexSubType</b> must be zero.
+Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structure as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avisuperindex">AVISUPERINDEX</a> structure. The value of <b>bIndexSubType</b> must be zero.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Each index entry points to another index. Treat the <b>AVIMETAINDEX</b> structur
 Each index entry points to a data chunk in the file. 
 
 <ul>
-<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="https://msdn.microsoft.com/b437b333-84a3-44d3-a4cc-0d07a331b010">AVISTDINDEX</a> structure. Each index entry is an <a href="https://msdn.microsoft.com/en-us/library/Ff625870(v=VS.85).aspx">AVISTDINDEX_ENTRY</a> structure.</li>
+<li>If <b>bIndexSubType</b> is 0,  treat the <b>AVIMETAINDEX</b> structure as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/aviriff/ns-aviriff-avistdindex">AVISTDINDEX</a> structure. Each index entry is an <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-_avistdindex_entry">AVISTDINDEX_ENTRY</a> structure.</li>
 <li>If <b>bIndexSubType</b> is <b>AVI_INDEX_SUB_2FIELD</b>, the index is a field index chunk.<div class="alert"><b>Note</b>  DirectShow does not support field indexes.</div>
 <div> </div>
 </li>
@@ -136,7 +136,7 @@ The number of valid entries in the <b>adwIndex</b> array.
 
 ### -field dwChunkId
 
-A <b>FOURCC</b> that identifies the object that is indexed. If the indexed object is a stream, this member has the same meaning as the <b>dwChunkId</b>  member of the <a href="https://msdn.microsoft.com/c36d5759-710e-4abe-85dc-13462013bb9f">AVIOLDINDEX</a> structure.
+A <b>FOURCC</b> that identifies the object that is indexed. If the indexed object is a stream, this member has the same meaning as the <b>dwChunkId</b>  member of the <a href="https://docs.microsoft.com/previous-versions/ms779634(v%3dvs.85)">AVIOLDINDEX</a> structure.
 
 
 ### -field dwReserved
@@ -165,11 +165,11 @@ and countries.)
 
 
 
-<a href="https://msdn.microsoft.com/2d8cf5be-1252-4b58-89b1-f5c53ea17d0e">AVI RIFF File Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

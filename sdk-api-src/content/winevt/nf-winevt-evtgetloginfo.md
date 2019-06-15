@@ -59,12 +59,12 @@ Gets information about a channel or log file.
 
 ### -param Log [in]
 
- A handle to the channel or log file that the <a href="https://msdn.microsoft.com/1bf81452-2a62-4999-91b1-f1b42e6db91f">EvtOpenLog</a> function returns.
+ A handle to the channel or log file that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenlog">EvtOpenLog</a> function returns.
 
 
 ### -param PropertyId [in]
 
-The identifier of the property to retrieve. For a list of property identifiers, see the <a href="https://msdn.microsoft.com/c5b8b80b-6549-497a-adc3-2517bd5f27c7">EVT_LOG_PROPERTY_ID</a> enumeration.
+The identifier of the property to retrieve. For a list of property identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_log_property_id">EVT_LOG_PROPERTY_ID</a> enumeration.
 
 
 ### -param PropertyValueBufferSize [in]
@@ -74,7 +74,7 @@ The size of the <i>PropertyValueBuffer</i> buffer, in bytes.
 
 ### -param PropertyValueBuffer [in]
 
-A caller-allocated buffer that will receive the property value. The buffer contains an <a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
+A caller-allocated buffer that will receive the property value. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
 
 ### -param PropertyValueBufferUsed [out]
@@ -111,7 +111,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The function failed. To get the error code, call the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/1bf81452-2a62-4999-91b1-f1b42e6db91f">EvtOpenLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenlog">EvtOpenLog</a>
  
 
  

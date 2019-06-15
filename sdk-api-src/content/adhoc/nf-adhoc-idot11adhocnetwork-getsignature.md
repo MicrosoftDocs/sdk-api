@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the unique signature associated with the ad hoc network. The signature uniquely identifies an <a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>object with a particular set of attributes. 
+Gets the unique signature associated with the ad hoc network. The signature uniquely identifies an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>object with a particular set of attributes. 
 
 
 ## -parameters
@@ -148,7 +148,7 @@ Do not cache the returned signature locally. Whenever a network object changes, 
 
 
 
-<a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
  
 
  

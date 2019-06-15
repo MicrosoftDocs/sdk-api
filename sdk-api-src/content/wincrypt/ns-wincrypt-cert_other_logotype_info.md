@@ -94,5 +94,5 @@ The logo is a background logo.
 
 ### -field LogotypeInfo
 
-A <a href="https://msdn.microsoft.com/7ce801bf-38fd-4490-8465-40ed5078bbff">CERT_LOGOTYPE_INFO</a> structure that contains the logo type information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the logo type information.
 

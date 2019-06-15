@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptDecryptMessage</b> function <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">decodes</a> and <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">decrypts</a> a message.
+The <b>CryptDecryptMessage</b> function <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">decodes</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">decrypts</a> a message.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>CryptDecryptMessage</b> function <a href="https://msdn.microsoft.com/d007
 ### -param pDecryptPara [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/67e136cd-12e3-4a31-9d8b-b53e1129e940">CRYPT_DECRYPT_MESSAGE_PARA</a> structure that contains decryption parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_decrypt_message_para">CRYPT_DECRYPT_MESSAGE_PARA</a> structure that contains decryption parameters.
 
 
 ### -param pbEncryptedBlob [in]
 
-A pointer to a buffer that contains the <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encoded</a> and <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encrypted</a> message to be decrypted.
+A pointer to a buffer that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encoded</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encrypted</a> message to be decrypted.
 
 
 ### -param cbEncryptedBlob [in]
@@ -81,7 +81,7 @@ A pointer to a buffer that receives the decrypted message.
 
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. A decrypted message will not be returned if this parameter is <b>NULL</b>. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbDecrypted [in, out, optional]
@@ -95,7 +95,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 ### -param ppXchgCert [out, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> that corresponds to the private <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">exchange key</a> needed to decrypt the message. To indicate that the function should not return the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> used to decrypt, set this parameter to <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> that corresponds to the private <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a> needed to decrypt the message. To indicate that the function should not return the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt, set this parameter to <b>NULL</b>.
 
 
 ## -returns
@@ -105,13 +105,13 @@ A pointer to a
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from calls to 
-<a href="https://msdn.microsoft.com/f48b6ec9-e03b-43b0-9f22-120ae93d934c">CryptImportKey</a> and 
-<a href="https://msdn.microsoft.com/7c3d2838-6fd1-4f6c-9586-8b94b459a31a">CryptDecrypt</a> might be propagated to this function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecrypt">CryptDecrypt</a> might be propagated to this function.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns the following error codes most often.
+The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns the following error codes most often.
 
 <table>
 <tr>
@@ -136,7 +136,7 @@ If the buffer specified by the <i>pbDecrypted</i> parameter is not large enough 
 </dl>
 </td>
 <td width="60%">
-Invalid message and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding types</a>. Currently only PKCS_7_ASN_ENCODING and X509_ASN_ENCODING_TYPE are supported. Invalid <b>cbSize</b> in *<i>pDecryptPara</i>.
+Invalid message and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding types</a>. Currently only PKCS_7_ASN_ENCODING and X509_ASN_ENCODING_TYPE are supported. Invalid <b>cbSize</b> in *<i>pDecryptPara</i>.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ Invalid message and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-
 </dl>
 </td>
 <td width="60%">
-Not an <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">enveloped</a> cryptographic message.
+Not an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enveloped</a> cryptographic message.
 
 </td>
 </tr>
@@ -169,15 +169,15 @@ The message was encrypted by using an unknown or unsupported algorithm.
 </dl>
 </td>
 <td width="60%">
-No certificate was found having a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> property to use for decrypting.
+No certificate was found having a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> property to use for decrypting.
 
 </td>
 </tr>
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -187,14 +187,14 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a
 
 
 When <b>NULL</b> is passed for <i>pbDecrypted</i>, and <i>pcbDecrypted</i> is not <b>NULL</b>, <b>NULL</b> is returned for the address passed in <i>ppXchgCert</i>; otherwise, a pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> is returned. For a successfully decrypted message, this pointer to a <b>CERT_CONTEXT</b> points to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> used to decrypt the message. It must be freed by calling 
-<a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a>. If the function fails, the value at <i>ppXchgCert</i> is set to <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> is returned. For a successfully decrypted message, this pointer to a <b>CERT_CONTEXT</b> points to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> used to decrypt the message. It must be freed by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. If the function fails, the value at <i>ppXchgCert</i> is set to <b>NULL</b>.
 
 
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://msdn.microsoft.com/b1ad0f13-fb4d-421f-b054-a99c8ad9c83a">Example C Program: Using CryptEncryptMessage and CryptDecryptMessage</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-using-cryptencryptmessage-and-cryptdecryptmessage">Example C Program: Using CryptEncryptMessage and CryptDecryptMessage</a>.
 
 <div class="code"></div>
 
@@ -205,11 +205,11 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/0864a187-617f-4a21-9809-d2dbbc54ab9c">CryptDecryptAndVerifyMessageSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

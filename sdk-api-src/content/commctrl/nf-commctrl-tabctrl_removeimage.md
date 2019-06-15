@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes an image from a tab control's image list. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760608(v=VS.85).aspx">TCM_REMOVEIMAGE</a> message explicitly. 
+Removes an image from a tab control's image list. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-removeimage">TCM_REMOVEIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes an image from a tab control's image list. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 

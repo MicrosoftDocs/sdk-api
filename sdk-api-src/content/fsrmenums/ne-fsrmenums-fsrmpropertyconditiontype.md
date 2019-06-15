@@ -136,15 +136,15 @@ The property condition is met if the property value matches the specified patter
 
 
 
-<a href="https://msdn.microsoft.com/93fdf667-8959-40a9-a374-c54ed73bbe89">FSRM Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b04b238b-55df-4467-809f-dbbc4ebd5595">IFsrmFileConditionProperty.Operator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfileconditionproperty-get_operator">IFsrmFileConditionProperty.Operator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd392474(v=VS.85).aspx">IFsrmPropertyCondition.Type</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/ifsrmpropertycondition-type">IFsrmPropertyCondition.Type</a>
  
 
  

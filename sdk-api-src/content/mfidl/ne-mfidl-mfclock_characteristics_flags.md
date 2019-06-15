@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags that describe the characteristics of a clock. These flags are returned by the <a href="https://msdn.microsoft.com/50a81e8b-9aa8-484c-afb7-950068feefc4">IMFClock::GetClockCharacteristics</a> method.
+Contains flags that describe the characteristics of a clock. These flags are returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getclockcharacteristics">IMFClock::GetClockCharacteristics</a> method.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Contains flags that describe the characteristics of a clock. These flags are ret
 
 ### -field MFCLOCK_CHARACTERISTICS_FLAG_FREQUENCY_10MHZ
 
-The clock times returned by the <a href="https://msdn.microsoft.com/0a897426-d994-4b27-9f13-9b0c7c9b3a9b">IMFClock::GetCorrelatedTime</a> method are in units of 100 nanoseconds. If this flag is absent, call <a href="https://msdn.microsoft.com/9dfc0efc-d274-45a6-b1ab-30f6215fbed8">IMFClock::GetProperties</a> to get the clock frequency. The clock frequency is given in the <b>qwClockFrequency</b> member of the <a href="https://msdn.microsoft.com/1efc6602-9851-40e5-85aa-0335d4e899a2">MFCLOCK_PROPERTIES</a> structure returned by that method.
+The clock times returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">IMFClock::GetCorrelatedTime</a> method are in units of 100 nanoseconds. If this flag is absent, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getproperties">IMFClock::GetProperties</a> to get the clock frequency. The clock frequency is given in the <b>qwClockFrequency</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfclock_properties">MFCLOCK_PROPERTIES</a> structure returned by that method.
 
 
 ### -field MFCLOCK_CHARACTERISTICS_FLAG_ALWAYS_RUNNING
 
-The clock is always running. If this flag is present, the clock cannot be paused or stopped. If this flag is absent, call the <a href="https://msdn.microsoft.com/8e2dda03-f589-4572-b715-2be7b29a6ace">IMFClock::GetState</a> method to get the current state.
+The clock is always running. If this flag is present, the clock cannot be paused or stopped. If this flag is absent, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getstate">IMFClock::GetState</a> method to get the current state.
 
 
 ### -field MFCLOCK_CHARACTERISTICS_FLAG_IS_SYSTEM_CLOCK
@@ -77,7 +77,7 @@ The clock times are generated from the system clock.
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

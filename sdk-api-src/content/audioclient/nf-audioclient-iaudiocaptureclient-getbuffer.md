@@ -70,7 +70,7 @@ Pointer to a <b>UINT32</b> variable into which the method writes the frame count
 
 ### -param pdwFlags [out]
 
-Pointer to a <b>DWORD</b> variable into which the method writes the buffer-status flags. The method writes either 0 or the bitwise-OR combination of one or more of the following <a href="https://msdn.microsoft.com/ac4ec901-b1e2-4c4e-b9fc-1808d5338d15">_AUDCLNT_BUFFERFLAGS</a> enumeration values:
+Pointer to a <b>DWORD</b> variable into which the method writes the buffer-status flags. The method writes either 0 or the bitwise-OR combination of one or more of the following <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-_audclnt_bufferflags">_AUDCLNT_BUFFERFLAGS</a> enumeration values:
 
 AUDCLNT_BUFFERFLAGS_SILENT
 
@@ -204,7 +204,7 @@ Parameter ppData, pNumFramesToRead, or pdwFlags is <b>NULL</b>.
 
 This method retrieves the next data packet from the capture endpoint buffer. At a particular time, the buffer might contain zero, one, or more packets that are ready to read. Typically, a buffer-processing thread that reads data from a capture endpoint buffer reads all of the available packets each time the thread executes.
 
-During processing of an audio capture stream, the client application alternately calls <b>GetBuffer</b> and the <a href="https://msdn.microsoft.com/38e1ea6c-d07d-4075-b6f2-d563c4bce007">IAudioCaptureClient::ReleaseBuffer</a> method. The client can read no more than a single data packet with each <b>GetBuffer</b> call. Following each <b>GetBuffer</b> call, the client must call <b>ReleaseBuffer</b> to release the packet before the client can call <b>GetBuffer</b> again to get the next packet.
+During processing of an audio capture stream, the client application alternately calls <b>GetBuffer</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer">IAudioCaptureClient::ReleaseBuffer</a> method. The client can read no more than a single data packet with each <b>GetBuffer</b> call. Following each <b>GetBuffer</b> call, the client must call <b>ReleaseBuffer</b> to release the packet before the client can call <b>GetBuffer</b> again to get the next packet.
 
 Two or more consecutive calls either to <b>GetBuffer</b> or to <b>ReleaseBuffer</b> are not permitted and will fail with error code AUDCLNT_E_OUT_OF_ORDER. To ensure the correct ordering of calls, a <b>GetBuffer</b> call and its corresponding <b>ReleaseBuffer</b> call must occur in the same thread.
 
@@ -232,12 +232,12 @@ Clients should avoid excessive delays between the <b>GetBuffer</b> call that acq
 
 In Windows 7 and later, <b>GetBuffer</b> can return the <b>AUDCLNT_E_BUFFER_ERROR</b> error code for an audio client that uses the endpoint buffer in the exclusive mode. This error indicates that the data buffer was not retrieved because a data packet wasn't available (*<i>ppData</i> received <b>NULL</b>).   
 
-If <b>GetBuffer</b> returns <b>AUDCLNT_E_BUFFER_ERROR</b>, the thread consuming the audio samples must wait for the next processing pass. The client might benefit from keeping a count of the failed <b>GetBuffer</b> calls. If <b>GetBuffer</b> returns this error repeatedly, the client can start a new processing loop after shutting down the current client by calling <a href="https://msdn.microsoft.com/d5824aa9-0b91-4bee-9c0c-26e12a6b96b5">IAudioClient::Stop</a>, <a href="https://msdn.microsoft.com/c1a4f673-ecbf-4855-b8bb-c0f0807dedd4">IAudioClient::Reset</a>, and releasing the audio client.
+If <b>GetBuffer</b> returns <b>AUDCLNT_E_BUFFER_ERROR</b>, the thread consuming the audio samples must wait for the next processing pass. The client might benefit from keeping a count of the failed <b>GetBuffer</b> calls. If <b>GetBuffer</b> returns this error repeatedly, the client can start a new processing loop after shutting down the current client by calling <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">IAudioClient::Stop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">IAudioClient::Reset</a>, and releasing the audio client.
 
 
 #### Examples
 
-For a code example that calls the <b>GetBuffer</b> method, see <a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>.
+For a code example that calls the <b>GetBuffer</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>.
 
 <div class="code"></div>
 
@@ -248,19 +248,19 @@ For a code example that calls the <b>GetBuffer</b> method, see <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/c0fa6841-56bf-421e-9949-c6a037cf9fd4">IAudioCaptureClient Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiocaptureclient">IAudioCaptureClient Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/38e1ea6c-d07d-4075-b6f2-d563c4bce007">IAudioCaptureClient::ReleaseBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer">IAudioCaptureClient::ReleaseBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/63f3e593-3904-44f9-a912-78c6c98e7597">IAudioClient::GetMixFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">IAudioClient::GetMixFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/2271bd73-8cb6-4048-a16c-f765d0fae6bd">IAudioClock::GetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">IAudioClock::GetPosition</a>
  
 
  

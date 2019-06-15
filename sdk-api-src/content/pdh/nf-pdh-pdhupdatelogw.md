@@ -63,7 +63,7 @@ Collects counter data for the current query and writes the data to the log file.
 ### -param hLog [in]
 
 Handle of a single log file to update. The 
-<a href="https://msdn.microsoft.com/a8457959-af3a-497f-91ca-0876cbb552cc">PdhOpenLog</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function returns this handle.
 
 
 ### -param szUserString [in]
@@ -79,8 +79,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ If you are updating a log file from another log file, the comments from the othe
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/a1bc40ea-d928-495a-abc0-daf097202a12">Writing Performance Data to a Log File</a>.
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/writing-performance-data-to-a-log-file">Writing Performance Data to a Log File</a>.
 
 <div class="code"></div>
 
@@ -136,19 +136,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/2bb94019-c664-4144-98b6-a0a545f7e4c1">PdhGetLogFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8457959-af3a-497f-91ca-0876cbb552cc">PdhOpenLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec4e5353-c7f5-4957-b7f4-39df508846a0">PdhOpenQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8aa8462-48f1-4ccd-8c41-a7358975e056">PdhUpdateLogFileCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>
  
 
  

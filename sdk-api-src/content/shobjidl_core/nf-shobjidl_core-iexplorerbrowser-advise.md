@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initiates a connection with <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a> for event callbacks.
+Initiates a connection with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> for event callbacks.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Initiates a connection with <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d
 
 ### -param psbe [in]
 
-Type: <b><a href="https://msdn.microsoft.com/802d547f-41c2-4c4a-9f07-be615d7b86eb">IExplorerBrowserEvents</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents">IExplorerBrowserEvents</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/802d547f-41c2-4c4a-9f07-be615d7b86eb">IExplorerBrowserEvents</a> interface of the object to be advised of <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a> events.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents">IExplorerBrowserEvents</a> interface of the object to be advised of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> events.
 
 
 ### -param pdwCookie [out]
@@ -86,13 +86,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is called by an implementer of  <a href="https://msdn.microsoft.com/802d547f-41c2-4c4a-9f07-be615d7b86eb">IExplorerBrowserEvents</a>. The implementer (listener) is advised of ExplorerBrowser view and navigation events by callback of the methods of <b>IExplorerBrowserEvents</b>.
+This method is called by an implementer of  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents">IExplorerBrowserEvents</a>. The implementer (listener) is advised of ExplorerBrowser view and navigation events by callback of the methods of <b>IExplorerBrowserEvents</b>.
 
-Call <b>IExplorerBrowser::Advise</b> to initiate an advisory connection prior to the first <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a> navigation.  Callbacks to event listeners are made as the browser is browsing.
+Call <b>IExplorerBrowser::Advise</b> to initiate an advisory connection prior to the first <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> navigation.  Callbacks to event listeners are made as the browser is browsing.
 
-The first browse happens synchronously to a call on <a href="https://msdn.microsoft.com/cbfe2348-9fdc-4839-bf8b-b2a65caefa4c">IExplorerBrowser::BrowseToObject</a>, or a similar method. Future callbacks happen asynchronously, as the browser browses.
+The first browse happens synchronously to a call on <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-browsetoobject">IExplorerBrowser::BrowseToObject</a>, or a similar method. Future callbacks happen asynchronously, as the browser browses.
 
-When the connection is no longer needed, call method <a href="https://msdn.microsoft.com/a9b6b971-5676-4ceb-ab48-2350a1715b82">IExplorerBrowser::Unadvise</a> to terminate the connection.
+When the connection is no longer needed, call method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-unadvise">IExplorerBrowser::Unadvise</a> to terminate the connection.
 
 
 
@@ -102,19 +102,19 @@ When the connection is no longer needed, call method <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
 
 
 
-<a href="https://msdn.microsoft.com/54c97a55-a8d1-4635-a1e0-2f92d52ddc10">OnNavigationComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationcomplete">OnNavigationComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4de3b81-4482-47c8-bb47-593aba484952">OnNavigationFailed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationfailed">OnNavigationFailed</a>
 
 
 
-<a href="https://msdn.microsoft.com/801d59f5-6e92-4e3c-938a-e94b43b7c6f1">OnViewCreated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onviewcreated">OnViewCreated</a>
  
 
  

@@ -85,11 +85,11 @@ This method is used only by windowed visualizations. Windowless visualizations s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563254(v=VS.85).aspx">IWMPEffects2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563255(v=VS.85).aspx">IWMPEffects2::Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">IWMPEffects2::Create</a>
  
 
  

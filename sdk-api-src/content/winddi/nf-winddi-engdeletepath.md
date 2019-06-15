@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EngDeletePath</b> function deletes a path previously allocated by <a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>.
+The <b>EngDeletePath</b> function deletes a path previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>EngDeletePath</b> function deletes a path previously allocated by <a href
 
 ### -param ppo
 
-Pointer to the <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure to be deleted.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure to be deleted.
 
 
 ## -returns
@@ -76,7 +76,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
  
 
  

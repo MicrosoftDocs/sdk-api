@@ -184,7 +184,7 @@ There was insufficient memory.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ The <i>CallerContext</i> parameter passed to the <b>NotifyUnicastIpAddressChange
 
 </td>
 <td width="60%">
-A pointer to the <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> entry for the  unicast IP address that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyUnicastIpAddressChange</b> was set to <b>TRUE</b> when registering for notifications.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> entry for the  unicast IP address that was changed. This parameter is a <b>NULL</b> pointer when the <b>MIB_NOTIFICATION_TYPE</b> value passed in the <i>NotificationType</i> parameter to the callback function is set to <b>MibInitialNotification</b>. This can only occur if the <i>InitialNotification</i> parameter passed to <b>NotifyUnicastIpAddressChange</b> was set to <b>TRUE</b> when registering for notifications.
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ A pointer to the <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e
 
 </td>
 <td width="60%">
-The notification type. This member can be one of the values from the <a href="https://msdn.microsoft.com/89f6a923-d745-4f9f-82d4-c77ffc8389cd">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
+The notification type. This member can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ne-netioapi-_mib_notification_type">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
 
 </td>
 </tr>
@@ -246,7 +246,7 @@ The notification type. This member can be one of the values from the <a href="ht
 
 The callback function specified in the <i>Callback</i> parameter must be implemented in the same process as the application calling the <b>NotifyUnicastIpAddressChange</b> function. If the callback function is in a separate DLL, then the DLL should be loaded before calling the <b>NotifyUnicastIpAddressChange</b> function to register for change notifications. 
 
-When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is only enough information that an application can call the <a href="https://msdn.microsoft.com/d5475c09-05dd-41d7-80ff-63c52d78468c">GetUnicastIpAddressEntry</a> function to query complete information on the IP address that changed. When the callback function is received, an application should allocate a <b>MIB_UNICASTIPADDRESS_ROW</b> structure and initialize it with the <b>Address</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_UNICASTIPADDRESS_ROW</b> structure should be passed to the <b>GetUnicastIpAddressEntry</b> function to retrieve complete information on the unicast IP address that was changed. 
+When the callback function is received when a change occurs and the <i>Row</i> parameter is not <b>NULL</b>, the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure passed in the <i>Row</i> parameter contains incomplete data. The  information returned in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is only enough information that an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> function to query complete information on the IP address that changed. When the callback function is received, an application should allocate a <b>MIB_UNICASTIPADDRESS_ROW</b> structure and initialize it with the <b>Address</b>,  <b>InterfaceLuid</b> and <b>InterfaceIndex</b> members in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure pointed to by the <i>Row</i> parameter received. A pointer to this newly initialized <b>MIB_UNICASTIPADDRESS_ROW</b> structure should be passed to the <b>GetUnicastIpAddressEntry</b> function to retrieve complete information on the unicast IP address that was changed. 
 
 The memory pointed to by the <i>Row</i> parameter used in the callback indications is managed by the operating system.  An application that receives a notification should never attempt to free the memory pointed to by the <i>Row</i> parameter. 
 
@@ -254,9 +254,9 @@ Once the <b>NotifyUnicastIpAddressChange</b> function is called to register for 
 
 Any registration for change notifications does not persist if the system is shutdown or rebooted. 
 
-To deregister for change notifications, call the  <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyUnicastIpAddressChange</b>. 
+To deregister for change notifications, call the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyUnicastIpAddressChange</b>. 
 
-An application cannot make a call to the <a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
+An application cannot make a call to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
 
 
@@ -266,51 +266,51 @@ An application cannot make a call to the <a href="https://msdn.microsoft.com/814
 
 
 
-<a href="https://msdn.microsoft.com/81492118-7513-49a2-9c61-3ecfaf84cc2d">CancelMibChangeNotify2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a>
 
 
 
-<a href="https://msdn.microsoft.com/8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0">CreateUnicastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/a630397a-ef4a-40c2-b2e7-3e85cd9e8029">DeleteUnicastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteunicastipaddressentry">DeleteUnicastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5475c09-05dd-41d7-80ff-63c52d78468c">GetUnicastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652">GetUnicastIpAddressTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cbdd972-060a-4e18-9490-450df21936ea">InitializeUnicastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-initializeunicastipaddressentry">InitializeUnicastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/89f6a923-d745-4f9f-82d4-c77ffc8389cd">MIB_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ne-netioapi-_mib_notification_type">MIB_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f329bafd-9e83-4754-a9a9-e7e111229c90">MIB_UNICASTIPADDRESS_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/b064494c-d0d5-4570-b255-4cc95412fd3a">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/80d10088-79ef-41fd-add7-994d2a780ddb">NotifyStableUnicastIpAddressTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/906a3895-2e42-4bed-90a3-7c10487d76cb">SetUnicastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>
  
 
  

@@ -64,27 +64,27 @@ A descriptor identifying a socket for which security information is being querie
 
 ### -param SecurityQueryTemplate [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure that specifies the type of query information to return. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure that specifies the type of query information to return. 
 
-A <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure pointed to by this parameter may contain zeroes for all members to request default security information. On successful return, only the <b>Flags</b> member in the <a href="https://msdn.microsoft.com/90439ff6-e6a8-4124-b280-a65b9ca12787">SOCKET_SECURITY_QUERY_INFO</a> will be set in the returned  <i>SecurityQueryInfo</i> parameter. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure pointed to by this parameter may contain zeroes for all members to request default security information. On successful return, only the <b>Flags</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_info">SOCKET_SECURITY_QUERY_INFO</a> will be set in the returned  <i>SecurityQueryInfo</i> parameter. 
 
-This parameter may be a <b>NULL</b> pointer if the <i>Socket</i> parameter was created with a protocol of <b>IPPROTO_TCP</b>. In this case, the information returned is the same as if a <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure with all values set to zero was passed. This parameter should be specified for a socket with protocol of <b>IPPROTO_TCP</b> if more than the default security information is required. 
+This parameter may be a <b>NULL</b> pointer if the <i>Socket</i> parameter was created with a protocol of <b>IPPROTO_TCP</b>. In this case, the information returned is the same as if a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure with all values set to zero was passed. This parameter should be specified for a socket with protocol of <b>IPPROTO_TCP</b> if more than the default security information is required. 
 
-If the <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure  is specified with the <b>PeerTokenAccessMask</b> member not specified (set to zero), then the <b>WSAQuerySocketSecurity</b> function will not return the <b>PeerApplicationAccessTokenHandle</b> and <b>PeerMachineAccessTokenHandle</b> members in the <a href="https://msdn.microsoft.com/90439ff6-e6a8-4124-b280-a65b9ca12787">SOCKET_SECURITY_QUERY_INFO</a> structure.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure  is specified with the <b>PeerTokenAccessMask</b> member not specified (set to zero), then the <b>WSAQuerySocketSecurity</b> function will not return the <b>PeerApplicationAccessTokenHandle</b> and <b>PeerMachineAccessTokenHandle</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_info">SOCKET_SECURITY_QUERY_INFO</a> structure.
 
-If a <i>Socket</i> parameter was created with a protocol not equal to <b>IPPROTO_TCP</b>, the <i>SecurityQueryTemplate</i> parameter must be specified. In these cases, the <b>PeerAddress</b> member of the <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure must specify an address family of AF_INET or AF_INET6 along with peer IP address and port number.
+If a <i>Socket</i> parameter was created with a protocol not equal to <b>IPPROTO_TCP</b>, the <i>SecurityQueryTemplate</i> parameter must be specified. In these cases, the <b>PeerAddress</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure must specify an address family of AF_INET or AF_INET6 along with peer IP address and port number.
 
 
 ### -param SecurityQueryTemplateLen [in]
 
 The size, in bytes, of the <i>SecurityQueryTemplate</i> parameter. 
 
-This parameter may be a zero if the <i>Socket</i> parameter was created with a protocol of <b>IPPROTO_TCP</b>. Otherwise, this parameter must be the size of a <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure. 
+This parameter may be a zero if the <i>Socket</i> parameter was created with a protocol of <b>IPPROTO_TCP</b>. Otherwise, this parameter must be the size of a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure. 
 
 
 ### -param SecurityQueryInfo [out, optional]
 
-A pointer to a buffer that will receive a <a href="https://msdn.microsoft.com/90439ff6-e6a8-4124-b280-a65b9ca12787">SOCKET_SECURITY_QUERY_INFO</a> structure containing the information queried.  This value can be set to <b>NULL</b> to query the size of the output buffer.
+A pointer to a buffer that will receive a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_info">SOCKET_SECURITY_QUERY_INFO</a> structure containing the information queried.  This value can be set to <b>NULL</b> to query the size of the output buffer.
 
 
 ### -param SecurityQueryInfoLen [in, out]
@@ -94,7 +94,7 @@ On input, a pointer to the size, in bytes, of the <i>SecurityQueryInfo</i> param
 
 ### -param Overlapped [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/91004241-e0ea-4bda-a0f5-71688ac83038">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure.  This parameter is ignored for non-overlapped sockets.
 
 
 ### -param CompletionRoutine [in, optional]
@@ -107,7 +107,7 @@ A pointer to the completion routine called when the operation has been completed
 
 
 If the function succeeds, the return value is zero.  Otherwise, a value of <b>SOCKET_ERROR</b> is returned, and a specific error code can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>. 
 
 Some possible error codes are listed below.
 
@@ -119,7 +119,7 @@ Some possible error codes are listed below.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +130,7 @@ The specified address family is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -141,7 +141,7 @@ For a stream socket, the virtual circuit was reset by the remote side. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ The system detected an invalid pointer address in attempting to use a parameter.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -163,18 +163,18 @@ An invalid parameter was passed. This error is returned if the socket passed in 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-A buffer passed was too small. This error is returned for a <i>Socket</i> parameter when the protocol was not <b>IPPROTO_TCP</b> if the  <i>SecurityQueryInfo</i> parameter is a <b>NULL</b> pointer or the  <i>SecurityQueryTemplateLen</i> parameter is less than the size of a <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure.
+A buffer passed was too small. This error is returned for a <i>Socket</i> parameter when the protocol was not <b>IPPROTO_TCP</b> if the  <i>SecurityQueryInfo</i> parameter is a <b>NULL</b> pointer or the  <i>SecurityQueryTemplateLen</i> parameter is less than the size of a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -196,15 +196,15 @@ The <b>WSAQuerySocketSecurity</b> function provides a method to query the curren
 
 For connection-oriented sockets, it is preferred to call the <b>WSAQuerySocketSecurity</b> function immediately after a connection is established. For connectionless sockets, it is preferred to call the <b>WSAQuerySocketSecurity</b> function immediately after data is sent to a new peer address or received from a new peer address. The <b>WSAQuerySocketSecurity</b> function can be called multiple times on a single socket.
 
-This function simplifies having to call the <a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a> function with a <i>dwIoControlCode</i> parameter set to <b>SIO_QUERY_SECURITY</b>.
+This function simplifies having to call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function with a <i>dwIoControlCode</i> parameter set to <b>SIO_QUERY_SECURITY</b>.
 
 The <b>WSAQuerySocketSecurity</b> function may be called on a <i>Socket</i> parameter created with an address family of <b>AF_INET</b> or <b>AF_INET6</b>.
 
-If the <i>Socket</i> parameter was created with a protocol of <b>IPPROTO_TCP</b>, the <i>SecurityQueryTemplate</i> parameter may be <b>NULL</b> and the <i>SecurityQueryTemplateLen</i> parameter may be zero. Otherwise, the <i>SecurityQueryTemplate</i> parameter must point to a <a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure.
+If the <i>Socket</i> parameter was created with a protocol of <b>IPPROTO_TCP</b>, the <i>SecurityQueryTemplate</i> parameter may be <b>NULL</b> and the <i>SecurityQueryTemplateLen</i> parameter may be zero. Otherwise, the <i>SecurityQueryTemplate</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a> structure.
 
-For a client application using connection-oriented sockets (socket created with a protocol of <b>IPPROTO_TCP</b>), the <b>WSAQuerySocketSecurity</b> function should be called after the <a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>, <a href="https://msdn.microsoft.com/a4552366-eafa-4f24-b6c2-e6a7edc4b021">ConnectEx</a>, or <a href="https://msdn.microsoft.com/3b32cc6e-3df7-4104-a0d4-317fd445c7b2">WSAConnect</a> function returns.  For a server application using connection-oriented sockets (protocol of <b>IPPROTO_TCP</b>), the <b>WSAQuerySocketSecurity</b> function should be called after the <a href="https://msdn.microsoft.com/72246263-4806-4ab2-9b26-89a1782a954b">accept</a>, <a href="https://msdn.microsoft.com/cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b">AcceptEx</a>, or <a href="https://msdn.microsoft.com/f385f63f-49b2-4eb7-8717-ad4cca1a2252">WSAAccept</a> function returns.
+For a client application using connection-oriented sockets (socket created with a protocol of <b>IPPROTO_TCP</b>), the <b>WSAQuerySocketSecurity</b> function should be called after the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a> function returns.  For a server application using connection-oriented sockets (protocol of <b>IPPROTO_TCP</b>), the <b>WSAQuerySocketSecurity</b> function should be called after the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> function returns.
 
-For connectionless sockets (socket created with a protocol of <b>IPPROTO_UDP</b>), the application should call the <b>WSAQuerySocketSecurity</b> function immediately after <a href="https://msdn.microsoft.com/e3a11522-871c-4d6b-a2e6-ca91ffc2b698">WSASendTo</a> or <a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a> call returns for a new peer address.
+For connectionless sockets (socket created with a protocol of <b>IPPROTO_UDP</b>), the application should call the <b>WSAQuerySocketSecurity</b> function immediately after <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a> call returns for a new peer address.
 
 An error will be returned if the following conditions are not met.<ul>
 <li>The address family of the <i>Socket</i> parameter must be either AF_INET or AF_INET6.</li>
@@ -220,47 +220,47 @@ An error will be returned if the following conditions are not met.<ul>
 
 
 
-<a href="https://msdn.microsoft.com/90439ff6-e6a8-4124-b280-a65b9ca12787">SOCKET_SECURITY_QUERY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_info">SOCKET_SECURITY_QUERY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd222287-c4f2-4c4b-8b5f-81b6fcbe87d4">SOCKET_SECURITY_QUERY_TEMPLATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_socket_security_query_template">SOCKET_SECURITY_QUERY_TEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5e2f9d0-c61f-42d3-b62b-6c75b221ae24">Using Secure Socket Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/using-secure-socket-extensions">Using Secure Socket Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d973316-fc51-453e-8d98-36ba36367df7">WSADeleteSocketPeerTargetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname">WSADeleteSocketPeerTargetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dd2c0dd-ca1d-40b8-8e58-a980e67b6941">WSAImpersonateSocketPeer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer">WSAImpersonateSocketPeer</a>
 
 
 
-<a href="https://msdn.microsoft.com/7de25015-97ec-4338-846f-57df54142d65">WSARevertImpersonation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsarevertimpersonation">WSARevertImpersonation</a>
 
 
 
-<a href="https://msdn.microsoft.com/c293658c-d7f9-411d-b6c1-a333592a741c">WSASetSocketPeerTargetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname">WSASetSocketPeerTargetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/9efee804-9763-4456-97a3-6eb9a8e30f49">WSASetSocketSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity">WSASetSocketSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Filtering Platform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Filtering Platform</a>
 
 
 
-<a href="https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead">Windows Filtering Platform  API  Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">Windows Filtering Platform  API  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/023a9f96-814f-40c3-a186-ae0a0c9baef2">Winsock Secure Socket Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
  
 
  

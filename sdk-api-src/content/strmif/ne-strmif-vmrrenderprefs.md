@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>VMRRenderPrefs</b> enumeration type is used with the <a href="https://msdn.microsoft.com/aabf3628-3179-430c-a74b-0cb4e552cbe2">IVMRFilterConfig::GetRenderingPrefs</a> and <a href="https://msdn.microsoft.com/1374d071-f396-4fcb-8ca2-ac3986960207">IVMRFilterConfig::SetRenderingPrefs</a> methods to get and set basic rendering preferences.
+The <b>VMRRenderPrefs</b> enumeration type is used with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-getrenderingprefs">IVMRFilterConfig::GetRenderingPrefs</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setrenderingprefs">IVMRFilterConfig::SetRenderingPrefs</a> methods to get and set basic rendering preferences.
 
 
 
@@ -68,7 +68,7 @@ Not implemented; do not use.
 
 ### -field RenderPrefs_ForceOffscreen
 
-Indicates that the <a href="https://msdn.microsoft.com/c83e6c50-76f2-4aeb-944b-5b244c6bf776">Video Mixing Renderer Filter 7</a> (VMR-7) should use only offscreen surfaces for rendering.
+Indicates that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) should use only offscreen surfaces for rendering.
           
 
 
@@ -126,7 +126,7 @@ By default the VMR-7 tries to allocate DirectDraw texture surfaces from Video Me
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

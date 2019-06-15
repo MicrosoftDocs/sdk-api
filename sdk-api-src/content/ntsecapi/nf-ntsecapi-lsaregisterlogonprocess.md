@@ -60,7 +60,7 @@ The <b>LsaRegisterLogonProcess</b> function establishes a connection to the LSA 
 ### -param LogonProcessName [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/4ae4160f-bcad-41d9-8239-91da44702b76">LSA_STRING</a> structure identifying the logon application. This should be a printable name suitable for display to administrators. For example, the Windows logon application might use the name "User32LogonProcess". This name is used by the LSA during auditing. <b>LsaRegisterLogonProcess</b> does not check whether the name is already in use. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_string">LSA_STRING</a> structure identifying the logon application. This should be a printable name suitable for display to administrators. For example, the Windows logon application might use the name "User32LogonProcess". This name is used by the LSA during auditing. <b>LsaRegisterLogonProcess</b> does not check whether the name is already in use. 
 
 
 
@@ -104,7 +104,7 @@ The caller does not have the SeTcbPrivilege privilege, which is required to call
 
 
 You can set this privilege by calling 
-<a href="https://msdn.microsoft.com/66b78404-02c2-48e9-92c3-d27b68f77c23">LsaAddAccountRights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaaddaccountrights">LsaAddAccountRights</a>.
 
 </td>
 </tr>
@@ -123,10 +123,10 @@ The specified logon process name exceeds 127 bytes.
  
 
 For more information, see 
-<a href="https://msdn.microsoft.com/ee55364e-8ffe-4a78-a49a-250756561770">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 The 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an NTSTATUS code to a Windows error code.
 
 
 
@@ -138,9 +138,9 @@ The
 This function must be called before a logon process may use any other logon authentication functions provided by the LSA.
 
 The <b>LsaRegisterLogonProcess</b> function verifies that the application making the function call is a logon process by checking that it has the SeTcbPrivilege privilege set. It also opens the application's process for PROCESS_DUP_HANDLE access in anticipation of future LSA authentication calls. For more information, see 
-<a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>.
 
-When you have finished using the connection to the LSA server, delete the caller's logon application context and close the connection by calling the <a href="https://msdn.microsoft.com/8a956469-9538-4d71-8158-af22aa26f840">LsaDeregisterLogonProcess</a> function.
+When you have finished using the connection to the LSA server, delete the caller's logon application context and close the connection by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaderegisterlogonprocess">LsaDeregisterLogonProcess</a> function.
 
 
 
@@ -150,15 +150,15 @@ When you have finished using the connection to the LSA server, delete the caller
 
 
 
-<a href="https://msdn.microsoft.com/66b78404-02c2-48e9-92c3-d27b68f77c23">LsaAddAccountRights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaaddaccountrights">LsaAddAccountRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/b54917c8-51cd-4891-9613-f37a4a46448b">LsaConnectUntrusted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaconnectuntrusted">LsaConnectUntrusted</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a956469-9538-4d71-8158-af22aa26f840">LsaDeregisterLogonProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaderegisterlogonprocess">LsaDeregisterLogonProcess</a>
  
 
  

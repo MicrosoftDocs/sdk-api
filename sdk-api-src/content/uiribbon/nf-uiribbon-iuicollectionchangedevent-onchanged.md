@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when an <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a> changes.
+Called when an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> changes.
 
 
 ## -parameters
@@ -60,10 +60,10 @@ Called when an <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.8
 
 ### -param action [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371548(v=VS.85).aspx">UI_COLLECTIONCHANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_collectionchange">UI_COLLECTIONCHANGE</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371548(v=VS.85).aspx">action</a> performed on the 
-					<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_collectionchange">action</a> performed on the 
+					<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
 				
 
 
@@ -71,13 +71,13 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd371548(v=VS.85).aspx">ac
 
 Type: <b>UINT32</b>
 
-Index of the old item on remove or replace; otherwise <a href="https://msdn.microsoft.com/en-us/library/Dd371551(v=VS.85).aspx">UI_COLLECTION_INVALIDINDEX</a>.
+Index of the old item on remove or replace; otherwise <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-ui-collection-invalidindex">UI_COLLECTION_INVALIDINDEX</a>.
 				
 
 
 ### -param oldItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 Pointer to the old item on remove or replace; otherwise <b>NULL</b>.
 				
@@ -87,13 +87,13 @@ Pointer to the old item on remove or replace; otherwise <b>NULL</b>.
 
 Type: <b>UINT32</b>
 
-Index of the new item on insert, add, or replace; otherwise <a href="https://msdn.microsoft.com/en-us/library/Dd371551(v=VS.85).aspx">UI_COLLECTION_INVALIDINDEX</a>.
+Index of the new item on insert, add, or replace; otherwise <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-ui-collection-invalidindex">UI_COLLECTION_INVALIDINDEX</a>.
 				
 
 
 ### -param newItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 Pointer to the new item on insert, add, or replace; otherwise <b>NULL</b>.
 				
@@ -131,15 +131,15 @@ The <b>IUICollectionChangedEvent::OnChanged</b> interface is implemented by the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371499(v=VS.85).aspx">IUICollectionChangedEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollectionchangedevent">IUICollectionChangedEvent</a>
  
 
  

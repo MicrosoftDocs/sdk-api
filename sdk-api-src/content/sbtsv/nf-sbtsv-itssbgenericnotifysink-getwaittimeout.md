@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/03a895ef-6c67-4537-bc1c-838b65ae3487">ITsSbGenericNotifySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbgenericnotifysink">ITsSbGenericNotifySink</a>
  
 
  

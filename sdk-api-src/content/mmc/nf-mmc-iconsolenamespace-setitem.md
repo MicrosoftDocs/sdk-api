@@ -60,7 +60,7 @@ The <b>IConsoleNameSpace2::SetItem</b> method enables the snap-in to set the att
 
 ### -param item [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/c392f25c-80e7-4c91-9063-36143320b9aa">SCOPEDATAITEM</a> structure that contains 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scopedataitem">SCOPEDATAITEM</a> structure that contains 
       information about the item to be set in the scope pane.
 
 
@@ -78,11 +78,11 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300831(v=VS.85).aspx">IConsoleNameSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">IConsoleNameSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/894f99a6-2189-458d-a50f-497930d4a9dd">IConsoleNameSpace2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
  
 
  

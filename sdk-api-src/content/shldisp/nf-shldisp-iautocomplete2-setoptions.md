@@ -61,7 +61,7 @@ Sets the current autocomplete options.
 
 Type: <b>DWORD</b>
 
-One or more flags from the <a href="https://msdn.microsoft.com/e0a583da-c2bd-4757-868d-a63e697142e2">AUTOCOMPLETEOPTIONS</a> enumeration that specify autocomplete options.
+One or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-_tagautocompleteoptions">AUTOCOMPLETEOPTIONS</a> enumeration that specify autocomplete options.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The TAB key is disabled by default because it is typically used to navigate from control to control, not within a control. If you set the <a href="https://msdn.microsoft.com/e0a583da-c2bd-4757-868d-a63e697142e2">ACO_USETAB</a> flag in <i>dwFlag</i>, users can navigate to a string in the drop-down list by pressing the TAB key. If the drop-down list is closed, the TAB key allows the user to navigate from control to control, as usual. The user can close the drop-down list by pressing the ESC key.
+The TAB key is disabled by default because it is typically used to navigate from control to control, not within a control. If you set the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/ne-shldisp-_tagautocompleteoptions">ACO_USETAB</a> flag in <i>dwFlag</i>, users can navigate to a string in the drop-down list by pressing the TAB key. If the drop-down list is closed, the TAB key allows the user to navigate from control to control, as usual. The user can close the drop-down list by pressing the ESC key.
 
 
 
@@ -89,11 +89,11 @@ The TAB key is disabled by default because it is typically used to navigate from
 
 
 
-<a href="https://msdn.microsoft.com/c093719f-7176-4ba4-ae75-399e8beeebf0">IAutoComplete2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-iautocomplete2">IAutoComplete2</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c2aa5f-eebc-479c-ac33-6efb3acb1051">IAutoComplete2::GetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-getoptions">IAutoComplete2::GetOptions</a>
  
 
  

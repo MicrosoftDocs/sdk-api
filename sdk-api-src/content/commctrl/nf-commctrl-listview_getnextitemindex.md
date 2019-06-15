@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761059(v=VS.85).aspx">LVM_GETNEXTITEMINDEX</a> message explicitly.
+Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lvm-getnextitemindex">LVM_GETNEXTITEMINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Gets the index of the item in a particular list-view control that has the specif
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param plvii [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb774762(v=VS.85).aspx">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitemindex">LVITEMINDEX</a> structure with which the item begins the search, or -1 to find the first item that matches the specified flags. The calling process is responsible for allocating this structure and setting its members.
 
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The relationship to the item specified in parameter 
 					<i>plvii</i>. This can be one or a combination of the following values: 
@@ -197,7 +197,7 @@ Searches for an item to the right of the specified item.
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_CUT</a> state flag set.
+The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_CUT</a> state flag set.
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_DROPHILITED</a> state flag set
+The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_DROPHILITED</a> state flag set
 
 </td>
 </tr>
@@ -219,7 +219,7 @@ The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_FOCUSED</a> state flag set.
+The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_FOCUSED</a> state flag set.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS
 </dl>
 </td>
 <td width="60%">
-The item has the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_SELECTED</a> state flag set.
+The item has the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">LVIS_SELECTED</a> state flag set.
 
 </td>
 </tr>
@@ -316,7 +316,7 @@ Note that the following flags, for use only with Windows Vista, are mutually ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761057(v=VS.85).aspx">LVM_GETNEXTITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getnextitem">LVM_GETNEXTITEM</a>
  
 
  

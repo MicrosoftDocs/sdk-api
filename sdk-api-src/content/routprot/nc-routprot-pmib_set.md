@@ -118,23 +118,23 @@ The size or content of the data is inappropriate for the request.
 
 
 
-<a href="https://msdn.microsoft.com/a6f3d450-0ca1-4c22-9e48-addf317cac2a">MibGet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a>
 
 
 
-<a href="https://msdn.microsoft.com/3aef09e2-6314-4de8-a9dd-e02c13e0145c">MibGetFirst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a>
 
 
 
-<a href="https://msdn.microsoft.com/00047426-11b6-4b68-8a44-45608611eafe">MibGetNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_next">MibGetNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd780458-ef23-4ef2-8fe8-29b32100917f">Routing Protocol Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0429f5ca-6574-48f5-85ab-70b4677ca539">Routing Protocol Interface Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
  
 
  

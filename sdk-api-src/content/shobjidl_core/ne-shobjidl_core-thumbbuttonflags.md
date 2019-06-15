@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/c13657b2-5b96-45ae-b339-b06b13aca65d">THUMBBUTTON</a> to control specific states and behaviors of the button.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a> to control specific states and behaviors of the button.
 
 
 ## -enum-fields
@@ -92,11 +92,11 @@ The button is enabled but not interactive; no pressed button state is drawn. Thi
 
 
 
-<a href="https://msdn.microsoft.com/c13657b2-5b96-45ae-b339-b06b13aca65d">THUMBBUTTON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a>
 
 
 
-<a href="https://msdn.microsoft.com/12c6a535-6a23-4b41-b4fd-4ed4e192d629">THUMBBUTTONMASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonmask">THUMBBUTTONMASK</a>
  
 
  

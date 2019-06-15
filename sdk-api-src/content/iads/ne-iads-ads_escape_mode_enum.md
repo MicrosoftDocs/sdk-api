@@ -59,7 +59,7 @@ The <b>ADS_ESCAPE_MODE_ENUM</b> enumeration specifies how escape characters are 
 
 ### -field ADS_ESCAPEDMODE_DEFAULT
 
-The default escape mode provides a convenient option to specify the escape mode. It has the effect of minimal escape operation appropriate for a chosen format. Thus, the default behavior depends on the value that  <a href="https://msdn.microsoft.com/d0c94f30-6b8c-4c7a-bb74-205b2b658dbb">ADS_FORMAT_ENUM</a> uses to retrieve the directory paths.
+The default escape mode provides a convenient option to specify the escape mode. It has the effect of minimal escape operation appropriate for a chosen format. Thus, the default behavior depends on the value that  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a> uses to retrieve the directory paths.
 
 <table>
 <tr>
@@ -129,12 +129,12 @@ Special characters must be escaped when used for any unintended purposes. For ex
 
 Similarly, the ADSI special character, slash mark (/), separates ADSI-specific elements, "LDAP://server/CN=Jeff Smith,CN=Users,DC=Fabrikam,DC=com". Although it must be escaped when used for any other purposes, for example, "LDAP://server/CN=Jeff Smith\/California,CN=Users,DC=Fabrikam,DC=com". You can choose an <b>ADS_ESCAPE_MODE_ENUM</b> option to display this escaped string in a human-readable form: "LDAP://server/CN=Jeff Smith/California,CN=Users,DC=Fabrikam,DC=com".
 
-Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="https://msdn.microsoft.com/en-us/library/Aa746384(v=VS.85).aspx">LDAP Special Characters</a>.
+Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP Special Characters</a>.
 
 To show unescaped path string, use 
-the <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a> interface and its methods. All other ADSI APIs return the escaped path string.
+the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> interface and its methods. All other ADSI APIs return the escaped path string.
 
-To obtain correct behavior, the LDAP special characters must be escaped before the ADSI special characters are escaped. The <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a> interface will escape the characters in the correct sequence.
+To obtain correct behavior, the LDAP special characters must be escaped before the ADSI special characters are escaped. The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a> interface will escape the characters in the correct sequence.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, Visual Basic Scripting Edition (VBScript) applications do not recognize symbolic, as constants defined above. Instead, use the numerical constants instead to set the appropriate flags in your VBScript applications. To use the symbolic constants, write explicit declarations of such constants, as done here.</div>
 <div> </div>
@@ -146,20 +146,20 @@ To obtain correct behavior, the LDAP special characters must be escaped before t
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
   Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0c94f30-6b8c-4c7a-bb74-205b2b658dbb">ADS_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
 
 
 
-<a href="https://msdn.microsoft.com/adacf6af-8683-4c3c-91bf-9489f2d5d817">LDAP ADsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>
  
 
  

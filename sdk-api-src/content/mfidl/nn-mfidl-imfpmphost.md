@@ -55,7 +55,7 @@ Enables a media source in the application process to create objects in the prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPHost</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFPMPHost</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFPMPHost</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFPMPHost</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFPMPHost</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/787fc392-1858-41f4-a1ce-2da02a5e789f">CreateObjectByCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid">CreateObjectByCLSID</a>
 </td>
 <td align="left" width="63%">
 Creates an object in the PMP process, from a CLSID.
@@ -80,7 +80,7 @@ Creates an object in the PMP process, from a CLSID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/45c533ca-d8ca-43f9-91d2-011a0b0d63a6">LockProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-lockprocess">LockProcess</a>
 </td>
 <td align="left" width="63%">
 Blocks the PMP process from ending.
@@ -90,17 +90,17 @@ Blocks the PMP process from ending.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be96be6d-47de-4d2b-81fc-13079de33888">RemoteCreateObjectByCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfpmphost-remotecreateobjectbyclsid">RemoteCreateObjectByCLSID</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/787fc392-1858-41f4-a1ce-2da02a5e789f">CreateObjectByCLSID</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid">CreateObjectByCLSID</a>. (Not used by applications.)
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/768f4579-5109-4d2b-a93d-f17f6b850c63">UnlockProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-unlockprocess">UnlockProcess</a>
 </td>
 <td align="left" width="63%">
 Decrements the lock count on the PMP process.
@@ -117,9 +117,9 @@ Decrements the lock count on the PMP process.
 
 This interface is used when a media source resides in the application process but the Media Session resides in a PMP process. The media source can use this interface to create objects in the PMP process. For example, to play DRM-protected content, the media source typically must create an input trust authority (ITA) in the PMP process. 
 
-To use this interface, the media source implements the <a href="https://msdn.microsoft.com/adfba5dd-eae6-48f3-a155-65bd491c952c">IMFPMPClient</a> interface. The PMP Media Session calls <a href="https://msdn.microsoft.com/d6e48f36-7896-4e6d-ba10-d8c0288ccffc">IMFPMPClient::SetPMPHost</a> on the media source, passing in a pointer to the <b>IMFPMPHost</b> interface.
+To use this interface, the media source implements the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmpclient">IMFPMPClient</a> interface. The PMP Media Session calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpclient-setpmphost">IMFPMPClient::SetPMPHost</a> on the media source, passing in a pointer to the <b>IMFPMPHost</b> interface.
 
-You can also get a pointer to this interface by calling <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> on the PMP Media Session, using the service identifier <b>MF_PMP_SERVICE</b>.
+You can also get a pointer to this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on the PMP Media Session, using the service identifier <b>MF_PMP_SERVICE</b>.
 
 
 
@@ -129,15 +129,15 @@ You can also get a pointer to this interface by calling <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/CF3A427D-31D2-45FF-BE87-F192B758204E">PMP Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://msdn.microsoft.com/e88806ae-0041-4b4a-a8df-69718a651e82">Protected Media Path</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a <a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-b542-a91ae47ed417">GPMGPOLinksCollection</a> object that contains the GPO links for the scope of management (SOM). The collection is sorted in the SOM link order and contains both enabled and disabled links. See <a href="https://msdn.microsoft.com/290a53fb-8be0-477d-837c-46251b30e245">IGPMGPOLink</a> for the definition of SOM link order.
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPMGPOLinksCollection</a> object that contains the GPO links for the scope of management (SOM). The collection is sorted in the SOM link order and contains both enabled and disabled links. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a> for the definition of SOM link order.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Returns a <a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-b542-a91ae47ed4
 ### -param ppGPOLinks [out]
 
 Address of a pointer to an 
-<a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-b542-a91ae47ed417">IGPMGPOLinksCollection</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a> interface.
 
 
 ## -returns
@@ -72,10 +72,10 @@ Address of a pointer to an
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-b542-a91ae47ed417">GPMGPOLinksCollection</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPMGPOLinksCollection</a> object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-b542-a91ae47ed417">GPMGPOLinksCollection</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">GPMGPOLinksCollection</a> object.
 
 
 
@@ -85,15 +85,15 @@ Returns a reference to a <a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-
 
 
 
-<a href="https://msdn.microsoft.com/290a53fb-8be0-477d-837c-46251b30e245">IGPMGPOLink</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-b542-a91ae47ed417">IGPMGPOLinksCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3252dba-403d-486d-b666-9bb04ec0aa90">IGPMSOM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
  
 
  

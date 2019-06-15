@@ -77,11 +77,11 @@ OpenXPS v1.0 document format.
 
 
 
-<a href="https://msdn.microsoft.com/A2B2523F-2F07-4331-A8EA-84BB6636B948">IXpsDocumentPackageTarget::GetXpsType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpstype">IXpsDocumentPackageTarget::GetXpsType</a>
 
 
 
-<a href="https://msdn.microsoft.com/5abe6898-bb2c-4c4a-9a88-d84f71cb33e0">XPS Document Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316978(v=vs.85)">XPS Document Enumerations</a>
  
 
  

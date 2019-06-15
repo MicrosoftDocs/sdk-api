@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the category of settings being stored in a <a href="https://msdn.microsoft.com/38AD33F9-F955-4906-90E2-3FE5261A3E58">WRDS_SETTINGS</a> structure.
+Specifies the category of settings being stored in a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_settings">WRDS_SETTINGS</a> structure.
 
 
 ## -enum-fields

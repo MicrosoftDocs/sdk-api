@@ -63,7 +63,7 @@ Waits for the value at the specified address to change.
 
 ### -param Address [in]
 
-The address on which to wait. If the value at <i>Address</i> differs from the value at <i>CompareAddress</i>, the function returns immediately. If the values are the same, the function does not return until another thread in the same process signals that the value at Address has changed by calling <a href="https://msdn.microsoft.com/4ca8f7b9-e78e-4324-9e72-84267746fe53">WakeByAddressSingle</a> or <a href="https://msdn.microsoft.com/2d538cea-06cb-4973-8677-27ebcde0aa6f">WakeByAddressAll</a> or the timeout elapses, whichever comes first.
+The address on which to wait. If the value at <i>Address</i> differs from the value at <i>CompareAddress</i>, the function returns immediately. If the values are the same, the function does not return until another thread in the same process signals that the value at Address has changed by calling <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a> or the timeout elapses, whichever comes first.
 
 
 ### -param CompareAddress [in]
@@ -85,7 +85,7 @@ The number of milliseconds to wait before the operation times out. If this param
 
 
 
-TRUE if the wait succeeded. If the operation fails, the function returns FALSE. If the wait fails, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to obtain extended error information. In particular, if the operation times out, <b>GetLastError</b>  returns <b>ERROR_TIMEOUT</b>.
+TRUE if the wait succeeded. If the operation fails, the function returns FALSE. If the wait fails, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain extended error information. In particular, if the operation times out, <b>GetLastError</b>  returns <b>ERROR_TIMEOUT</b>.
 
 
 
@@ -96,9 +96,9 @@ TRUE if the wait succeeded. If the operation fails, the function returns FALSE. 
 
 Windows Store apps developers may need to obtain synchronization.lib by installing the <a href="http://go.microsoft.com/fwlink/p/?LinkID=258383">Windows Software Development Kit (SDK) for Windows 8</a>.
 
-The <b>WaitOnAddress</b> function can be used by a thread to wait for a particular value to change from some undesired value to any other value. <b>WaitOnAddress</b> is more efficient than using the <a href="https://msdn.microsoft.com/934d37ea-402c-4118-bd7e-87b5fce80fca">Sleep</a> function inside a <b>while</b> loop because <b>WaitOnAddress</b> does not interfere with the thread scheduler. <b>WaitOnAddress</b> is also simpler to use than an event object because it is not necessary to create and initialize an event and then make sure it is synchronized correctly with the value. <b>WaitOnAddress</b> is not affected by low-memory conditions, other than potentially waking the thread early as noted below.
+The <b>WaitOnAddress</b> function can be used by a thread to wait for a particular value to change from some undesired value to any other value. <b>WaitOnAddress</b> is more efficient than using the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleep">Sleep</a> function inside a <b>while</b> loop because <b>WaitOnAddress</b> does not interfere with the thread scheduler. <b>WaitOnAddress</b> is also simpler to use than an event object because it is not necessary to create and initialize an event and then make sure it is synchronized correctly with the value. <b>WaitOnAddress</b> is not affected by low-memory conditions, other than potentially waking the thread early as noted below.
 
-Any thread within the same  process that changes the value at the address on which threads are waiting should call <a href="https://msdn.microsoft.com/4ca8f7b9-e78e-4324-9e72-84267746fe53">WakeByAddressSingle</a> to wake a single waiting thread or  <a href="https://msdn.microsoft.com/2d538cea-06cb-4973-8677-27ebcde0aa6f">WakeByAddressAll</a> to wake all waiting threads. If <b>WakeByAddressSingle</b> is called, other waiting threads continue to wait.
+Any thread within the same  process that changes the value at the address on which threads are waiting should call <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a> to wake a single waiting thread or  <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a> to wake all waiting threads. If <b>WakeByAddressSingle</b> is called, other waiting threads continue to wait.
 
 <div class="alert"><b>Note</b>  <b>WaitOnAddress</b> is guaranteed to return when the address is signaled, but it is also allowed to return for other reasons. For this reason, after <b>WaitOnAddress</b> returns the caller should compare the new value with the original undesired value to confirm that the value has actually changed. For example, the following circumstances can result in waking the thread early:<ul>
 <li>Low memory conditions</li>
@@ -131,11 +131,11 @@ while (CapturedValue == UndesiredValue) {
 
 
 
-<a href="https://msdn.microsoft.com/2d538cea-06cb-4973-8677-27ebcde0aa6f">WakeByAddressAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddressall">WakeByAddressAll</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ca8f7b9-e78e-4324-9e72-84267746fe53">WakeByAddressSingle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether the operation has been canceled. This function is reserved; instead, use the <a href="https://msdn.microsoft.com/7e6b2016-6ce5-4dcd-b5f4-6e6d24c46f0a">MI_Context_RegisterCancel</a> function.
+Determines whether the operation has been canceled. This function is reserved; instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_registercancel">MI_Context_RegisterCancel</a> function.
 
 
 ## -parameters

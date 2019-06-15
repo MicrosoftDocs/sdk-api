@@ -62,7 +62,7 @@ Specifies the DVD subpicture palette.
 
 ### -field sppal
 
-Array of 16 YUV elements that correspond to the 4-bit color numbers requested within the subpicture command stream. The YUV elements are of type <a href="https://msdn.microsoft.com/en-us/library/Dd373469(v=VS.85).aspx">AM_DVD_YUV</a>.
+Array of 16 YUV elements that correspond to the 4-bit color numbers requested within the subpicture command stream. The YUV elements are of type <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_dvd_yuv">AM_DVD_YUV</a>.
 
 
 ## -remarks
@@ -79,7 +79,7 @@ The AM_PROPERTY_DVDSUBPIC_PALETTE property uses this structure.
 
 
 
-<a href="https://msdn.microsoft.com/ddbfb65c-7630-4e9f-8013-c5d65c62c628">DVD Subpicture Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-subpicture-property-set">DVD Subpicture Property Set</a>
  
 
  

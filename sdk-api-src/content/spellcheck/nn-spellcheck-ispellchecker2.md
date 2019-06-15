@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Represents a particular spell checker for a particular language, with the added ability to remove words from the added words dictionary, or from the ignore list.
 
-The <b>ISpellChecker2</b> can also be used to check text, get suggestions, update user dictionaries, and maintain options, as can <a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a> from which it is derived.
+The <b>ISpellChecker2</b> can also be used to check text, get suggestions, update user dictionaries, and maintain options, as can <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a> from which it is derived.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellChecker2</b> interface inherits from <a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a>. <b>ISpellChecker2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpellChecker2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>. <b>ISpellChecker2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,10 +71,10 @@ The <b>ISpellChecker2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/425F1C58-D279-48E2-84D3-D3094314C756">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker2-remove">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes a word that was previously added by <a href="https://msdn.microsoft.com/d600a57e-7191-4a82-8004-026a04ef94ed">ISpellChecker.Add</a>, or set by <a href="https://msdn.microsoft.com/e82dd7a3-3ec4-4ef4-a19f-ad44866bbb1c">ISpellChecker.Ignore</a> to be ignored.
+Removes a word that was previously added by <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-add">ISpellChecker.Add</a>, or set by <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-ignore">ISpellChecker.Ignore</a> to be ignored.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Removes a word that was previously added by <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/3cc5f675-048d-4ef3-9b66-5f081ee17a18">ISpellChecker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
  
 
  

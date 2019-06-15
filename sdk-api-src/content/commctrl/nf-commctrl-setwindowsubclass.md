@@ -66,16 +66,16 @@ The handle of the window being subclassed.
 
 ### -param pfnSubclass [in]
 
-Type: <b><a href="https://msdn.microsoft.com/44e4cbe0-8252-4bcc-885e-d8af856e8ad7">SUBCLASSPROC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a></b>
 
-A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback. For the callback function prototype, see <a href="https://msdn.microsoft.com/44e4cbe0-8252-4bcc-885e-d8af856e8ad7">SUBCLASSPROC</a>.
+A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback. For the callback function prototype, see <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a>.
 
 
 ### -param uIdSubclass [in]
 
 Type: <b>UINT_PTR</b>
 
-The subclass ID. This ID together with the subclass procedure uniquely identify a subclass. To remove a subclass, pass the subclass procedure and this value to the <a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a> function. This value is passed to the subclass procedure in the uIdSubclass parameter.
+The subclass ID. This ID together with the subclass procedure uniquely identify a subclass. To remove a subclass, pass the subclass procedure and this value to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a> function. This value is passed to the subclass procedure in the uIdSubclass parameter.
 
 
 ### -param dwRefData [in]
@@ -114,15 +114,15 @@ Each callback can store a single <b>DWORD</b> of reference data, which is passed
 
 
 
-<a href="https://msdn.microsoft.com/43b1efa5-11da-4a95-8d81-b0d8ae64733a">DefSubclassProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc">DefSubclassProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/3969f18e-3e12-4770-8596-2c2c6519c2a7">GetWindowSubclass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass">GetWindowSubclass</a>
 
 
 
-<a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a>
  
 
  

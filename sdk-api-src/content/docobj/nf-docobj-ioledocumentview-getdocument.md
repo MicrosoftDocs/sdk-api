@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface pointer on the document object that owns this view.
+Obtains the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer on the document object that owns this view.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Obtains the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda37
 
 ### -param ppunk [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface pointer that receives a pointer to the document object that owns this view.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer that receives a pointer to the document object that owns this view.
 
 
 ## -returns
@@ -75,9 +75,9 @@ This method returns S_OK on success. S_OK is the only valid return value for thi
 
 
 
-The caller is responsible for incrementing the reference count on the interface pointer obtained by this method. The caller must call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> on this pointer when it is no longer needed.
+The caller is responsible for incrementing the reference count on the interface pointer obtained by this method. The caller must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on this pointer when it is no longer needed.
 
-Because a view object must always be contained or aggregated in a document object, this method will always succeed. Before returning, this method should call <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a> on the pointer stored in <i>ppunk</i>.
+Because a view object must always be contained or aggregated in a document object, this method will always succeed. Before returning, this method should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the pointer stored in <i>ppunk</i>.
 
 
 
@@ -87,11 +87,11 @@ Because a view object must always be contained or aggregated in a document objec
 
 
 
-<a href="https://msdn.microsoft.com/07948c08-f047-4ae0-a41b-5410b4bbf4d6">IOleDocumentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

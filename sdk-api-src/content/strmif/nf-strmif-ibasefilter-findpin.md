@@ -63,12 +63,12 @@ The <code>FindPin</code> method retrieves the pin with the specified identifier.
 
 ### -param Id [in]
 
-Pointer to a constant wide-character string that identifies the pin. Call the <a href="https://msdn.microsoft.com/d4fb2713-549d-4c0d-9768-386bcffd696f">IPin::QueryId</a> method to retrieve a pin's identifier.
+Pointer to a constant wide-character string that identifies the pin. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to retrieve a pin's identifier.
 
 
 ### -param ppPin [out]
 
-Address of a variable that receives a pointer to the pin's <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface. If the method fails, <i>*ppPin</i> is set to <b>NULL</b>.
+Address of a variable that receives a pointer to the pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface. If the method fails, <i>*ppPin</i> is set to <b>NULL</b>.
 
 
 ## -returns
@@ -125,7 +125,7 @@ Could not find a pin with this identifier.
 
 
 
-This method supports graph persistence. Use the <a href="https://msdn.microsoft.com/d4fb2713-549d-4c0d-9768-386bcffd696f">IPin::QueryId</a> method to save a pin's state, and use this method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
+This method supports graph persistence. Use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryid">IPin::QueryId</a> method to save a pin's state, and use this method to restore the state. The pin's identifier string is defined by the filter implementation. The identifier must be unique within the filter.
 
 If the method succeeds, the <b>IPin</b> interface that it returns has an outstanding reference count. Be sure to release the interface when you are done.
 
@@ -137,11 +137,11 @@ If the method succeeds, the <b>IPin</b> interface that it returns has an outstan
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
  
 
  

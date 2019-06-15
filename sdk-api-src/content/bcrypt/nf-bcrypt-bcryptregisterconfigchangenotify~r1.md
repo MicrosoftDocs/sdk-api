@@ -52,10 +52,10 @@ The <b>BCryptRegisterConfigChangeNotify(PRKEVENT)</b> function creates kernel mo
 
 
 The address of a <b>PRKEVENT</b> variable that receives the pointer to the event dispatcher object. 
-You use the kernel wait functions, such as <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822">WaitForSingleObject</a>, to determine when the event has been signaled. 
+You use the kernel wait functions, such as <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>, to determine when the event has been signaled. 
 The event is signaled when the CNG configuration has changed.
 
-This handle must be passed to the <a href="https://msdn.microsoft.com/en-us/6354f595-f917-485e-8682-2be994135c36">BCryptUnregisterConfigChangeNotify(PRKEVENT)</a> function to remove the event notification.
+This handle must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(PRKEVENT)</a> function to remove the event notification.
 
 
 ## -returns
@@ -113,10 +113,10 @@ A memory allocation failure occurred.
 
 The handle returned in the variable pointed to by the <i>phEvent</i> parameter will be signaled when a change to the CNG configuration occurs.
 
-<b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://msdn.microsoft.com/ca30e81d-d384-4574-8394-42542a504218">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>.
+<b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>.
 <b>BCryptRegisterConfigChangeNotify(PRKEVENT)</b> can be called only in kernel mode and at <b>PASSIVE_LEVEL</b> IRQL. 
 Code executing in user mode must call <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/6354f595-f917-485e-8682-2be994135c36">BCryptUnregisterConfigChangeNotify(PRKEVENT) function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(PRKEVENT) function</a>

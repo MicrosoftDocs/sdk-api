@@ -65,7 +65,7 @@ The <b>Advise</b> method registers the application to receive status messages fr
 
 ### -param pCallback [in]
 
-Pointer to the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback</a> interface. The application must implement this interface.
+Pointer to the application's <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface. The application must implement this interface.
 
 
 ### -param pvContext [in]
@@ -86,7 +86,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-The sink object sends status messages to the application by calling the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method.
+The sink object sends status messages to the application by calling the application's <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method.
 
 When the application has finished using the sink object, use the <b>Unadvise</b> method to break the connection with the sink object.
 
@@ -98,11 +98,11 @@ When the application has finished using the sink object, use the <b>Unadvise</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743613(v=VS.85).aspx">IWMRegisterCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistercallback">IWMRegisterCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743618(v=VS.85).aspx">IWMRegisterCallback::Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistercallback-unadvise">IWMRegisterCallback::Unadvise</a>
  
 
  

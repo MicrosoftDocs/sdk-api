@@ -60,7 +60,7 @@ Gets the current language setting.
 
 ### -param ppwszRFC1766 [out]
 
-Receives a pointer to a null-terminated string containing an RFC 1766-compliant language tag. The caller must release the string by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to a null-terminated string containing an RFC 1766-compliant language tag. The caller must release the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
           
 
 
@@ -122,7 +122,7 @@ No language was set.
 
 For more information about language tags, see RFC 1766, "Tags for the Identification of Languages."
 
-The <a href="https://msdn.microsoft.com/da615053-ddd5-448e-905c-b060cdaefa95">IMFMetadata::SetLanguage</a> and <a href="https://msdn.microsoft.com/177c8612-5c9f-4a71-9ee1-a4c67737af2d">IMFMetadata::GetProperty</a> methods set and get metadata for the current language setting.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-setlanguage">IMFMetadata::SetLanguage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmetadata-getproperty">IMFMetadata::GetProperty</a> methods set and get metadata for the current language setting.
 
 
 
@@ -132,11 +132,11 @@ The <a href="https://msdn.microsoft.com/da615053-ddd5-448e-905c-b060cdaefa95">IM
 
 
 
-<a href="https://msdn.microsoft.com/411658ca-dc5e-445b-8d61-0c0429fcfbb1">IMFMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9">Media Metadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-metadata">Media Metadata</a>
  
 
  

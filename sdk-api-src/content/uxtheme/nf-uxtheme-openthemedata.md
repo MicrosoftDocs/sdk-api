@@ -62,14 +62,14 @@ Opens the theme data for a window and its associated class.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle of the window for which theme data is required.
 
 
 ### -param pszClassList [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 Pointer to a string that contains a semicolon-separated list of classes.
 
@@ -102,7 +102,7 @@ Class names for the Aero theme are defined in AeroStyle.xml.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773287(v=VS.85).aspx">CloseThemeData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-closethemedata">CloseThemeData</a>
  
 
  

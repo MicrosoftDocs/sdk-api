@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RAS_SECURITY_INFO</b> structure is used with the 
-<a href="https://msdn.microsoft.com/b7fbcfb6-686c-4464-ba78-e689019e74be">RasSecurityDialogGetInfo</a> function to return information about the RAS port associated with a RAS security DLL authentication transaction.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialoggetinfo">RasSecurityDialogGetInfo</a> function to return information about the RAS port associated with a RAS security DLL authentication transaction.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The
 ### -field LastError
 
 Specifies an error code that indicates the state of the last 
-<a href="https://msdn.microsoft.com/ed5fcea6-6533-4c78-bd49-dfeaafd8192a">RasSecurityDialogReceive</a> call for the port. If the receive operation failed, <b>LastError</b> is one of the error codes defined in Raserror.h or Winerror.h. Otherwise, <b>LastError</b> is one of the following values. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a> call for the port. If the receive operation failed, <b>LastError</b> is one of the error codes defined in Raserror.h or Winerror.h. Otherwise, <b>LastError</b> is one of the following values. 
 
 
 
@@ -98,7 +98,7 @@ The receive operation is pending completion.
 ### -field BytesReceived
 
 Specifies the number of bytes received in the most recent 
-<a href="https://msdn.microsoft.com/ed5fcea6-6533-4c78-bd49-dfeaafd8192a">RasSecurityDialogReceive</a> operation. This member is valid only if the value of the <b>LastError</b> member is SUCCESS.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a> operation. This member is valid only if the value of the <b>LastError</b> member is SUCCESS.
 
 
 ### -field DeviceName
@@ -111,19 +111,19 @@ Specifies a null-terminated string that contains the user-friendly display name 
 
 
 
-<a href="https://msdn.microsoft.com/b04bef8c-a83e-4c6e-849e-feeca99699e8">RAS Server Administration Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-server-administration-structures">RAS Server Administration Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7fbcfb6-686c-4464-ba78-e689019e74be">RasSecurityDialogGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialoggetinfo">RasSecurityDialogGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed5fcea6-6533-4c78-bd49-dfeaafd8192a">RasSecurityDialogReceive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
  
 
  

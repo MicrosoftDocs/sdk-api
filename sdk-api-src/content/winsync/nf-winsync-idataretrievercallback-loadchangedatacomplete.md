@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates that <a href="https://msdn.microsoft.com/b5e73504-1f9e-4a58-9bd9-2c184372b970">IAsynchronousDataRetriever::LoadChangeData</a> has finished successfully.
+Indicates that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-loadchangedata">IAsynchronousDataRetriever::LoadChangeData</a> has finished successfully.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/fc49614d-fdd7-433a-a942-f442edf1c69f">IDataRetrieverCallback Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-idataretrievercallback">IDataRetrieverCallback Interface</a>
  
 
  

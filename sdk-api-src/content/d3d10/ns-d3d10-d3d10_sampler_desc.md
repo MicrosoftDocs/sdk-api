@@ -59,70 +59,70 @@ Describes a sampler state.
 
 ### -field Filter
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205060(v=VS.85).aspx">D3D10_FILTER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_filter">D3D10_FILTER</a></b>
 
-Filtering method to use when sampling a texture (see <a href="https://msdn.microsoft.com/en-us/library/Bb205060(v=VS.85).aspx">D3D10_FILTER</a>).
+Filtering method to use when sampling a texture (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_filter">D3D10_FILTER</a>).
 
 
 ### -field AddressU
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_texture_address_mode">D3D10_TEXTURE_ADDRESS_MODE</a></b>
 
-Method to use for resolving a u texture coordinate that is outside the 0 to 1 range (see <a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a>).
+Method to use for resolving a u texture coordinate that is outside the 0 to 1 range (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_texture_address_mode">D3D10_TEXTURE_ADDRESS_MODE</a>).
 
 
 ### -field AddressV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_texture_address_mode">D3D10_TEXTURE_ADDRESS_MODE</a></b>
 
 Method to use for resolving a v texture coordinate that is outside the 0 to 1 range.
 
 
 ### -field AddressW
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172483(v=VS.85).aspx">D3D10_TEXTURE_ADDRESS_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_texture_address_mode">D3D10_TEXTURE_ADDRESS_MODE</a></b>
 
 Method to use for resolving a w texture coordinate that is outside the 0 to 1 range.
 
 
 ### -field MipLODBias
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Offset from the calculated mipmap level. For example, if Direct3D calculates that a texture should be sampled at mipmap level 3 and MipLODBias is 2, then the texture will be sampled at mipmap level 5.
 
 
 ### -field MaxAnisotropy
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Clamping value used if D3D10_FILTER_ANISOTROPIC or D3D10_FILTER_COMPARISON_ANISOTROPIC is specified in Filter. Valid values are between 1 and 16.
 
 
 ### -field ComparisonFunc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204902(v=VS.85).aspx">D3D10_COMPARISON_FUNC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_comparison_func">D3D10_COMPARISON_FUNC</a></b>
 
-A function that compares sampled data against existing sampled data. The function options are listed in <a href="https://msdn.microsoft.com/en-us/library/Bb204902(v=VS.85).aspx">D3D10_COMPARISON_FUNC</a>.
+A function that compares sampled data against existing sampled data. The function options are listed in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_comparison_func">D3D10_COMPARISON_FUNC</a>.
 
 
 ### -field BorderColor
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Border color to use if D3D10_TEXTURE_ADDRESS_BORDER is specified for AddressU, AddressV, or AddressW. Range must be between 0.0 and 1.0 inclusive.
 
 
 ### -field MinLOD
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Lower end of the mipmap range to clamp access to, where 0 is the largest and most detailed mipmap level and any level higher than that is less detailed.
 
 
 ### -field MaxLOD
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Upper end of the mipmap range to clamp access to, where 0 is the largest and most detailed mipmap level and any level higher than that is less detailed. This value must be greater than or equal to MinLOD. To have no upper limit on LOD set this to a large value such as D3D10_FLOAT32_MAX.
 
@@ -193,7 +193,7 @@ These are the default values for sampler state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
  
 
  

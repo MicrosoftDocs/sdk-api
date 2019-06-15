@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetMaxPacketSize</b> method specifies the maximum size of a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packet</a> in an ASF file. 
+The <b>SetMaxPacketSize</b> method specifies the maximum size of a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packet</a> in an ASF file. 
 
 
 
@@ -125,15 +125,15 @@ This method is designed for use with only single bit rate video; it should not b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757255(v=VS.85).aspx">IWMPacketSize Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize">IWMPacketSize Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757256(v=VS.85).aspx">IWMPacketSize2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2">IWMPacketSize2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757259(v=VS.85).aspx">IWMPacketSize::GetMaxPacketSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize-getmaxpacketsize">IWMPacketSize::GetMaxPacketSize</a>
  
 
  

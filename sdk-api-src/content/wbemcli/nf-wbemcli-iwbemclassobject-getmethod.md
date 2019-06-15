@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 The 
 <b>IWbemClassObject::GetMethod</b> method returns information about the requested method. This call is only supported if the current object is a CIM class definition. Method information is not available from 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> pointers which point to CIM instances.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers which point to CIM instances.
 
 
 ## -parameters
@@ -81,21 +81,21 @@ Reserved. This parameter must be 0.
 ### -param ppInSignature [out]
 
 A pointer that receives an 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> pointer which describes the in parameters to the method. This parameter is  ignored if set to <b>NULL</b>. Be aware that Windows Management can set the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointer which describes the in parameters to the method. This parameter is  ignored if set to <b>NULL</b>. Be aware that Windows Management can set the 
 <b>IWbemClassObject</b> pointer to <b>NULL</b> if this method has no in parameters. For more information, see Remarks.
 
 
 ### -param ppOutSignature [out]
 
 A pointer that receives an 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> pointer which describes the out-parameters to the method. This parameter will be ignored if set to <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointer which describes the out-parameters to the method. This parameter will be ignored if set to <b>NULL</b>.
 
 
 ## -returns
 
 
 
-This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -105,8 +105,8 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 
 For a method, the in and out parameters are described as properties in an 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>, an instance of the system class 
-<a href="https://msdn.microsoft.com/d973feb5-27c4-4d8e-bf1b-0a455afa4375">__Parameters</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>, an instance of the system class 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a>.
 
 For example, consider the following method:
 
@@ -123,11 +123,11 @@ Class MyClass{
 
 In this example, the class has a single method. When the user calls 
 <b>IWbemClassObject::GetMethod</b>, the <i>ppInSignature</i> parameter receives an 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> object, which contains two properties: <b>Parm1</b> and <b>Parm2</b>. The <i>ppOutSignature</i> parameter contains two properties, <b>Parm3</b> and <b>ReturnValue</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object, which contains two properties: <b>Parm1</b> and <b>Parm2</b>. The <i>ppOutSignature</i> parameter contains two properties, <b>Parm3</b> and <b>ReturnValue</b>.
 
 After filling in the property values of the <i>ppInSignature</i> object, the caller can use the object to execute the method by calling 
-<a href="https://msdn.microsoft.com/9acba1aa-bcca-416a-863c-704d2e72df07">IWbemServices::ExecMethod</a> or 
-<a href="https://msdn.microsoft.com/61966c03-80dc-4556-b2fc-97e879cf458c">IWbemServices::ExecMethodAsync</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">IWbemServices::ExecMethod</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">IWbemServices::ExecMethodAsync</a>.
 
 <div class="alert"><b>Note</b>  The caller must call <b>IWbemClassObject::Release</b> on the <i>ppInSignature</i> and <i>ppOutSignature</i> pointers when these objects are no longer required.</div>
 <div> </div>
@@ -139,11 +139,11 @@ After filling in the property values of the <i>ppInSignature</i> object, the cal
 
 
 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/eebfe049-e30e-40e0-a3bd-85a4bc11582f">IWbemClassObject::PutMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-putmethod">IWbemClassObject::PutMethod</a>
  
 
  

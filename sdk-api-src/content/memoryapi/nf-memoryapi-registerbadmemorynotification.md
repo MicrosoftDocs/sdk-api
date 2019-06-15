@@ -68,7 +68,7 @@ Registers a bad memory notification that is called when one or more bad memory p
 ### -param Callback [in]
 
 A pointer to the application-defined 
-      <a href="https://msdn.microsoft.com/ec8261d7-a629-4833-ba31-d2cc85208f48">BadMemoryCallbackRoutine</a> function to 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh691011(v=vs.85)">BadMemoryCallbackRoutine</a> function to 
       register.
 
 
@@ -77,7 +77,7 @@ A pointer to the application-defined
 
 
 Registration handle that represents the callback notification. Can be passed to the 
-      <a href="https://msdn.microsoft.com/8c1246fe-341a-4b21-922d-ec8a9c82a6df">UnregisterBadMemoryNotification</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unregisterbadmemorynotification">UnregisterBadMemoryNotification</a> 
       function when no longer needed.
 
 
@@ -89,7 +89,7 @@ Registration handle that represents the callback notification. Can be passed to 
 
 To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 
     <b>_WIN32_WINNT_WIN8</b> or higher. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 

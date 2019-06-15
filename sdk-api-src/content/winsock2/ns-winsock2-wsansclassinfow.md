@@ -96,7 +96,7 @@ The <b>WSANSCLASSINFO</b> structure is defined differently depending on whether 
 
 
 
-<a href="https://msdn.microsoft.com/02422c24-34a6-4e34-a795-66b0b687ac44">WSASERVICECLASSINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaserviceclassinfow">WSASERVICECLASSINFO</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a client signature when a call to the <a href="https://msdn.microsoft.com/c451089a-d10d-469c-99dd-43d75a6b0b2a">InitializeSecurityContext (Schannel)</a> function cannot access the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> for a client certificate (in this case, the function returns <b>SEC_I_SIGNATURE_NEEDED</b>).
+Specifies a client signature when a call to the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function cannot access the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> for a client certificate (in this case, the function returns <b>SEC_I_SIGNATURE_NEEDED</b>).
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size, in bytes, of this structure.
 
 ### -field aiHash
 
-The ID of the algorithm used to compute the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the certificate.
+The ID of the algorithm used to compute the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate.
 
 
 ### -field cbHash
@@ -86,7 +86,7 @@ An array of byte values that specify the certificate thumbprint.
 
 
 
-Add a client signature to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="https://msdn.microsoft.com/5ce13a05-874c-4e1a-9be8-aed98609791e">ApplyControlToken</a> function.
+Add a client signature to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 
 

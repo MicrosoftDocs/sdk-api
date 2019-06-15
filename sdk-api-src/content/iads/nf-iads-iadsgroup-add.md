@@ -66,7 +66,7 @@ Contains a <b>BSTR</b> that specifies the ADsPath of the object to add to the gr
 
 
 
-The following are the most common return values. For more information about return values, see <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+The following are the most common return values. For more information about return values, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -75,7 +75,7 @@ The following are the most common return values. For more information about retu
 
 
 
-If the LDAP provider is used to bind to the <a href="https://msdn.microsoft.com/dbf0c424-e906-4a72-a369-81bf96275bbc">IADsGroup</a> object, the same form of ADsPath must be specified in the <i>bstrNewItem</i> parameter. For example, if the ADsPath used to bind to the <b>IADsGroup</b> object includes a server, the ADsPath in the <i>bstrNewItem</i> parameter must contain the same server prefix. Likewise, if a serverless path is used to bind to the <b>IADsGroup</b> object, the <i>bstrNewItem</i> parameter must also contain a serverless path. When using server prefix, delays may occur if the group and the new member are from different domains, as requests may be sent to the wrong domain controller and referred to a domain controller of the correct domain and retried there. An exception occurs when adding or removing a member using a GUID or security identifier (SID) ADsPath. In this case, a serverless path should always be used in <i>bstrNewItem</i>.
+If the LDAP provider is used to bind to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a> object, the same form of ADsPath must be specified in the <i>bstrNewItem</i> parameter. For example, if the ADsPath used to bind to the <b>IADsGroup</b> object includes a server, the ADsPath in the <i>bstrNewItem</i> parameter must contain the same server prefix. Likewise, if a serverless path is used to bind to the <b>IADsGroup</b> object, the <i>bstrNewItem</i> parameter must also contain a serverless path. When using server prefix, delays may occur if the group and the new member are from different domains, as requests may be sent to the wrong domain controller and referred to a domain controller of the correct domain and retried there. An exception occurs when adding or removing a member using a GUID or security identifier (SID) ADsPath. In this case, a serverless path should always be used in <i>bstrNewItem</i>.
 
 The LDAP provider for Active Directory enables a member to be added to a group using the string form of the member SID. The <i>bstrNewItem</i> parameter can contain a SID string in the following form.
 
@@ -85,7 +85,7 @@ LDAP://SID=<010500000000000515000000c6bb507afbda8b7f43170a325b040000>
 ```
 
 
-For more information about SID strings in Active Directory, see <a href="https://msdn.microsoft.com/18b4613c-eb93-4204-96f2-0f91d7900587">Binding to an Object Using a SID</a>.
+For more information about SID strings in Active Directory, see <a href="https://docs.microsoft.com/windows/desktop/AD/binding-to-an-object-using-a-sid">Binding to an Object Using a SID</a>.
 
 The WinNT provider for Active Directory also enables a member to be added to a group using the string form of the member's SID. The <i>bstrNewItem</i> parameter can contain a SID string in the following form.
 
@@ -158,23 +158,23 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/18b4613c-eb93-4204-96f2-0f91d7900587">Binding to an Object Using a SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/binding-to-an-object-using-a-sid">Binding to an Object Using a SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbf0c424-e906-4a72-a369-81bf96275bbc">IADsGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8aa88d4-4695-47bc-bf7f-a17236a5671c">IADsGroup Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
  
 
  

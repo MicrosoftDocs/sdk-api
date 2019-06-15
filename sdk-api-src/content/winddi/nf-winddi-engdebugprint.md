@@ -122,7 +122,7 @@ MyDebugPrint("Bank: %lx; Width: %ld", bank, width);
 
 
 
-<a href="https://msdn.microsoft.com/068529cc-f614-426b-9593-bd153f5d5541">EngDebugBreak</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdebugbreak">EngDebugBreak</a>
  
 
  

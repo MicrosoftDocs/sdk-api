@@ -59,16 +59,16 @@ Creates a results folder and fills it with items.
 
 ### -param punk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-An interface pointer on the source object that will fill the <a href="https://msdn.microsoft.com/db44052b-bd26-412f-9f2a-66a0c53b65ac">IResultsFolder</a>. This can be an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> or any object that can be used with <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a>.
+An interface pointer on the source object that will fill the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iresultsfolder">IResultsFolder</a>. This can be an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> or any object that can be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>.
 
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/5be62600-147d-4625-8e6c-aa6687da2168">EXPLORER_BROWSER_FILL_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EXPLORER_BROWSER_FILL_FLAGS</a></b>
 
-One of the <a href="https://msdn.microsoft.com/5be62600-147d-4625-8e6c-aa6687da2168">EXPLORER_BROWSER_FILL_FLAGS</a> values.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EXPLORER_BROWSER_FILL_FLAGS</a> values.
 
 
 ## -returns
@@ -86,17 +86,17 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The object passed via interface pointer <i>punk</i> fills <a href="https://msdn.microsoft.com/db44052b-bd26-412f-9f2a-66a0c53b65ac">IResultsFolder</a>.
+The object passed via interface pointer <i>punk</i> fills <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iresultsfolder">IResultsFolder</a>.
 
-The parameter <i>dwFlags</i> can be any of the <a href="https://msdn.microsoft.com/5be62600-147d-4625-8e6c-aa6687da2168">EXPLORER_BROWSER_FILL_FLAGS</a> or any of the flags defined in <a href="https://msdn.microsoft.com/e391ca11-25e3-4d97-8efd-0afd74a3e5c2">BrowseObject</a>'s <i>wFlags</i> parameter, except for flags that indicate navigation.
+The parameter <i>dwFlags</i> can be any of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EXPLORER_BROWSER_FILL_FLAGS</a> or any of the flags defined in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-browseobject">BrowseObject</a>'s <i>wFlags</i> parameter, except for flags that indicate navigation.
 
-The parameter <i>punk</i> can be any object that <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a> can consume.  If called with <a href="https://msdn.microsoft.com/5be62600-147d-4625-8e6c-aa6687da2168">EBF_SELECTFROMDATAOBJECT</a>, <i>punk</i> must be an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> and the namespace will be walked at the parent level of the data object, including all peer items, but selecting only those contained in the data object. This flag is most commonly used when <a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a> have <i>FWF_CHECKSELECT</i> enabled, allowing check-selection of a set of items that have been compiled in the data object.
+The parameter <i>punk</i> can be any object that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a> can consume.  If called with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EBF_SELECTFROMDATAOBJECT</a>, <i>punk</i> must be an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> and the namespace will be walked at the parent level of the data object, including all peer items, but selecting only those contained in the data object. This flag is most commonly used when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> have <i>FWF_CHECKSELECT</i> enabled, allowing check-selection of a set of items that have been compiled in the data object.
 
 <div class="alert"><b>Note</b>  If a pointer to an item identifier list (PIDL) in the data object is fully qualified, the parent folder cannot be successfully walked, because desktop folder items would be added to the list.</div>
 <div> </div>
-This method may be called more than once, with each successive call adding additional items to the view. <a href="https://msdn.microsoft.com/4447d3f4-659f-4ec1-8a6f-91031c85b704">IExplorerBrowser::RemoveAll</a> may be called to clear the contents of the results folder. This function should be called with <a href="https://msdn.microsoft.com/5be62600-147d-4625-8e6c-aa6687da2168">EBF_NODROPTARGET</a> to prevent users from drag dropping new items into the view, unless this is desired.  Setting <a href="https://msdn.microsoft.com/4e2983bc-cad2-4bcc-8169-57b5274b2142">EBO_NAVIGATEONCE</a> is also recommended so that the browser will stay in the ResultsFolder, preventing the user from navigating to a folder that may be represented in the data object.
+This method may be called more than once, with each successive call adding additional items to the view. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-removeall">IExplorerBrowser::RemoveAll</a> may be called to clear the contents of the results folder. This function should be called with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EBF_NODROPTARGET</a> to prevent users from drag dropping new items into the view, unless this is desired.  Setting <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_options">EBO_NAVIGATEONCE</a> is also recommended so that the browser will stay in the ResultsFolder, preventing the user from navigating to a folder that may be represented in the data object.
 
-To manipulate items in the results folder directly, call <a href="https://msdn.microsoft.com/e7c05a67-f739-487d-872a-3598b790d5c9">IExplorerBrowser::GetCurrentView</a> to get the view from ExplorerBrowser and then ask the view for results folder using <a href="https://msdn.microsoft.com/4fdeb995-2220-4461-a4d6-80bce08153b1">GetFolder</a>. Using the obtained results folder enables manipulation of the data in the folder with more flexibility than with the methods that <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a> provides.
+To manipulate items in the results folder directly, call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-getcurrentview">IExplorerBrowser::GetCurrentView</a> to get the view from ExplorerBrowser and then ask the view for results folder using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder">GetFolder</a>. Using the obtained results folder enables manipulation of the data in the folder with more flexibility than with the methods that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> provides.
 
 
 
@@ -106,11 +106,11 @@ To manipulate items in the results folder directly, call <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/e471b81a-da4d-48c0-8c7f-996b507d27a1">FOLDERFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
  
 
  

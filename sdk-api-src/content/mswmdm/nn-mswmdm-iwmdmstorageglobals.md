@@ -59,7 +59,7 @@ This interface is acquired by calling <b>IWMDMStorage::GetStorageGlobals</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorageGlobals</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMDMStorageGlobals</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorageGlobals</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMStorageGlobals</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMDMStorageGlobals</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0eea5448-f43d-4181-a497-476957fa7a08">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the storage medium.
@@ -83,7 +83,7 @@ Retrieves the capabilities of the storage medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13783d0e-82e6-4340-bb06-85b8d3d06b5c">GetSerialNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-getserialnumber">GetSerialNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves a serial number that uniquely identifies the storage medium.
@@ -92,7 +92,7 @@ Retrieves a serial number that uniquely identifies the storage medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfb6d233-6fc0-4589-9324-f4242798afc5">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current status of the storage medium.
@@ -101,7 +101,7 @@ Retrieves the current status of the storage medium.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40e1a39b-2757-472c-b585-77b829605e8c">GetTotalBad</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-gettotalbad">GetTotalBad</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total amount of unusable space on the storage medium, in bytes.
@@ -110,7 +110,7 @@ Retrieves the total amount of unusable space on the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a97c2d92-dc54-4987-b2b4-e4de2e546a1f">GetTotalFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-gettotalfree">GetTotalFree</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total free space on the storage medium, in bytes.
@@ -119,7 +119,7 @@ Retrieves the total free space on the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebbc8b7e-037f-4b8d-b026-793d38914685">GetTotalSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-gettotalsize">GetTotalSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total size of the storage medium, in bytes.
@@ -128,7 +128,7 @@ Retrieves the total size of the storage medium, in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f5092f0-1c72-412b-af93-08bc78c750bc">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Formats the storage medium.
@@ -143,11 +143,11 @@ Formats the storage medium.
 
 
 
-<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bea867d6-a875-4150-9958-7f683cd215b9">Interfaces for Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
  
 
  

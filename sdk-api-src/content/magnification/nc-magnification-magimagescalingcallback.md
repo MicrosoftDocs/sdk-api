@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
@@ -73,7 +73,7 @@ The input data.
 
 ### -param srcheader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagimageheader">MAGIMAGEHEADER</a></b>
 
 The description of the input format.
 
@@ -87,7 +87,7 @@ The output data.
 
 ### -param destheader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagimageheader">MAGIMAGEHEADER</a></b>
 
 The description of the output format.
 
@@ -108,7 +108,7 @@ The coordinates of the window to which the scaled bitmap is clipped.
 
 ### -param dirty [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRGN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRGN</a></b>
 
 The region that needs to be refreshed.
 
@@ -117,7 +117,7 @@ The region that needs to be refreshed.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
@@ -129,11 +129,11 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692384(v=VS.85).aspx">MAGIMAGEHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagimageheader">MAGIMAGEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692388(v=VS.85).aspx">MagGetImageScalingCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetimagescalingcallback">MagGetImageScalingCallback</a>
  
 
  

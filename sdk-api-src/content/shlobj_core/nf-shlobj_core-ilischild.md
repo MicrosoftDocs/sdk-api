@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a>.
+Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a>.
 
 
 ## -parameters

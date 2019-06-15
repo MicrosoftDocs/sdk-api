@@ -54,7 +54,7 @@ Implements methods that get data from a Digital Video Broadcast (DVB) service li
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbServiceListDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbServiceListDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbServiceListDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbServiceListDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbServiceListDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a3dd6b9-a7a1-49fd-806d-05c726bbe99e">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of service records in a  DVB service list descriptor.
@@ -78,7 +78,7 @@ Gets the number of service records in a  DVB service list descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06c161ce-b830-4375-8ed6-19403857f433">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a  DVB service list descriptor.
@@ -87,7 +87,7 @@ Gets the body length of a  DVB service list descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c98d032a-0a3c-4e27-a5b7-ee594024ac9d">GetRecordServiceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getrecordserviceid">GetRecordServiceId</a>
 </td>
 <td align="left" width="63%">
 Gets the service_id field value from a  DVB service list descriptor.
@@ -96,7 +96,7 @@ Gets the service_id field value from a  DVB service list descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9771d79-7f39-463a-aa20-d5377bbba610">GetRecordServiceType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-getrecordservicetype">GetRecordServiceType</a>
 </td>
 <td align="left" width="63%">
 Gets the service_type field value from a  DVB service list descriptor.
@@ -105,7 +105,7 @@ Gets the service_type field value from a  DVB service list descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e16ab7f-25df-461e-b3aa-73de613e45b6">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicelistdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag identifying a DVB service list descriptor.

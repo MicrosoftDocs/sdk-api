@@ -79,7 +79,7 @@ A pointer that is used to specify handles and pointers. These are 32-bit on 32-b
 
 ### -field APT_Sid
 
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 
 ### -field APT_LogonId

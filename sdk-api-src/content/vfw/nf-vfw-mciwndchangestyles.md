@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndChangeStyles</b> macro changes the styles used by the MCIWnd window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/9074c21a-e49f-4089-a6d2-af8d513cb632">MCIWNDM_CHANGESTYLES</a> message.
+The <b>MCIWndChangeStyles</b> macro changes the styles used by the MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-changestyles">MCIWNDM_CHANGESTYLES</a> message.
 
 
 
@@ -79,7 +79,7 @@ New style settings for the window. Specify zero for this parameter to turn off a
 
 
 
-For an example of using <b>MCIWndChangeStyles</b>, see <a href="https://msdn.microsoft.com/f5a7ef22-993c-4aab-bab0-2700289da7a7">Pausing and Resuming Playback</a>.
+For an example of using <b>MCIWndChangeStyles</b>, see <a href="https://docs.microsoft.com/windows/desktop/Multimedia/pausing-and-resuming-playback">Pausing and Resuming Playback</a>.
 
 
 
@@ -89,7 +89,7 @@ For an example of using <b>MCIWndChangeStyles</b>, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/9074c21a-e49f-4089-a6d2-af8d513cb632">MCIWNDM_CHANGESTYLES</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-changestyles">MCIWNDM_CHANGESTYLES</a>
  
 
  

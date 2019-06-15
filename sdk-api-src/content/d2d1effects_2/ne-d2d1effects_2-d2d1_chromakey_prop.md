@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/f7bb5c65-f406-f947-c05d-2756cff99d21">Chroma-key effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/chromakey-effect">Chroma-key effect</a>.
 
 
 ## -enum-fields

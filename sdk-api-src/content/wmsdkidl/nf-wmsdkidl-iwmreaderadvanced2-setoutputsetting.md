@@ -70,12 +70,12 @@ The <b>SetOutputSetting</b> method specifies a named setting for a particular ou
 
 ### -param pszName [in]
 
-Pointer to a wide-character null-terminated string containing the name. For a list of global constants that represent setting names, see <a href="https://msdn.microsoft.com/effe6c07-e6df-45b0-b865-2a025c466d6f">Output Settings</a>.
+Pointer to a wide-character null-terminated string containing the name. For a list of global constants that represent setting names, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/output-settings">Output Settings</a>.
 
 
 ### -param Type [in]
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type that specifies the type of the value.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type that specifies the type of the value.
 
 
 ### -param pValue [in]
@@ -102,11 +102,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757430(v=VS.85).aspx">IWMReaderAdvanced2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757434(v=VS.85).aspx">IWMReaderAdvanced2::GetOutputSetting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getoutputsetting">IWMReaderAdvanced2::GetOutputSetting</a>
  
 
  

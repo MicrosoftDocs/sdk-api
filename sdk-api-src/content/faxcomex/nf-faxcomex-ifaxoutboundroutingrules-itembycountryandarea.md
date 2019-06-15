@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IFaxOutboundRoutingRules::get_ItemByCountryAndArea</b> method returns an outbound routing rule (<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
+The <b>IFaxOutboundRoutingRules::get_ItemByCountryAndArea</b> method returns an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ The <b>IFaxOutboundRoutingRules::get_ItemByCountryAndArea</b> method returns an 
 
 Type: <b>long</b>
 
-A <b>long</b> value that specifies the country/region code of the outbound routing rule to retrieve. Specifying <a href="https://msdn.microsoft.com/en-us/library/ms687973(v=VS.85).aspx">frrcANY_CODE</a> will return a rule for any country/region code. 
+A <b>long</b> value that specifies the country/region code of the outbound routing rule to retrieve. Specifying <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will return a rule for any country/region code. 
 
 
 ### -param lAreaCode
 
 Type: <b>long</b>
 
-A <b>long</b> value that specifies the area code of the outbound routing rule to retrieve. Specifying <a href="https://msdn.microsoft.com/en-us/library/ms687973(v=VS.85).aspx">frrcANY_CODE</a> will return a rule for any area code within the specified country/region code. 
+A <b>long</b> value that specifies the area code of the outbound routing rule to retrieve. Specifying <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will return a rule for any area code within the specified country/region code. 
 
 
 ### -param pFaxOutboundRoutingRule
@@ -81,9 +81,9 @@ TBD
 
 #### - FaxOutboundRoutingRule
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a>**</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object.
 
 
 ## -returns
@@ -102,15 +102,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689527(v=VS.85).aspx">IFaxOutboundRoutingRules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrules">IFaxOutboundRoutingRules</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693486(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
  
 
  

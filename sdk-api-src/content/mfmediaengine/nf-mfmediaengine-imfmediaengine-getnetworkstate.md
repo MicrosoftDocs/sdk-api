@@ -63,7 +63,7 @@ Gets the current network state of the media engine.
 
 
 
-Returns an <a href="https://msdn.microsoft.com/A2A73A54-C360-452C-8887-D3065274358A">MF_MEDIA_ENGINE_NETWORK</a> enumeration value.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_network">MF_MEDIA_ENGINE_NETWORK</a> enumeration value.
 
 
 
@@ -82,7 +82,7 @@ This method corresponds to the <b>networkState</b> attribute of the <b>HTMLMedia
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
  
 
  

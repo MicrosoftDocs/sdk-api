@@ -110,7 +110,7 @@ Memory allocations failed.
 
 
 
-Call <a href="https://msdn.microsoft.com/f3cf6b1e-c970-4b91-aa54-370d46a6e86a">TdhCloseDecodingHandle</a> to free the returned handle.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a> to free the returned handle.
 
 
 
@@ -120,7 +120,7 @@ Call <a href="https://msdn.microsoft.com/f3cf6b1e-c970-4b91-aa54-370d46a6e86a">T
 
 
 
-<a href="https://msdn.microsoft.com/f3cf6b1e-c970-4b91-aa54-370d46a6e86a">TdhCloseDecodingHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhclosedecodinghandle">TdhCloseDecodingHandle</a>
  
 
  

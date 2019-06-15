@@ -61,14 +61,14 @@ Specifies the quality of service (QOS) a raw Dynamic Data Exchange (DDE) applica
 
 Type: <b>HWND</b>
 
-A handle to the DDE client window that specifies the source of <a href="https://msdn.microsoft.com/en-us/library/ms648996(v=VS.85).aspx">WM_DDE_INITIATE</a> messages a client will send to start DDE conversations. 
+A handle to the DDE client window that specifies the source of <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-initiate">WM_DDE_INITIATE</a> messages a client will send to start DDE conversations. 
 
 
 ### -param pqosNew [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/21f99d04-b21b-442c-9034-35f9f7bbee53">SECURITY_QUALITY_OF_SERVICE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/21f99d04-b21b-442c-9034-35f9f7bbee53">SECURITY_QUALITY_OF_SERVICE</a> structure for the desired quality of service values. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a> structure for the desired quality of service values. 
 
 
 ### -param pqosPrev [out]
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/21f99d04-b21b-442c-9034-35f9f
 Type: <b>PSECURITY_QUALITY_OF_SERVICE</b>
 
 A pointer to a 
-					<a href="https://msdn.microsoft.com/21f99d04-b21b-442c-9034-35f9f7bbee53">SECURITY_QUALITY_OF_SERVICE</a> structure that receives the previous quality of service values associated with the window identified by 
+					<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a> structure that receives the previous quality of service values associated with the window identified by 
 					<i>hwndClient</i>. 
 
 This parameter is optional. If an application has no interest in 
@@ -92,7 +92,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -102,7 +102,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 If a quality of service has not been specified for a client window, 
-				<i>hwndClient</i>, prior to sending a <a href="https://msdn.microsoft.com/en-us/library/ms648996(v=VS.85).aspx">WM_DDE_INITIATE</a> with the 
+				<i>hwndClient</i>, prior to sending a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-initiate">WM_DDE_INITIATE</a> with the 
 				<i>wParam</i> set to 
 				<i>hwndClient</i>, the system uses the following default quality of service values for the client window: 
 
@@ -127,7 +127,7 @@ Use the <b>DdeSetQualityOfService</b> function to associate a different quality 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -143,11 +143,11 @@ Use the <b>DdeSetQualityOfService</b> function to associate a different quality 
 
 
 
-<a href="https://msdn.microsoft.com/21f99d04-b21b-442c-9034-35f9f7bbee53">SECURITY_QUALITY_OF_SERVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648996(v=VS.85).aspx">WM_DDE_INITIATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-initiate">WM_DDE_INITIATE</a>
  
 
  

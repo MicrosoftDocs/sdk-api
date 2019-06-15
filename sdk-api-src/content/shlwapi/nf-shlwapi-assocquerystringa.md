@@ -66,16 +66,16 @@ Searches for and retrieves a file or protocol association-related string from th
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a></b>
 
-The flags that can be used to control the search. It can be any combination of <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
+The flags that can be used to control the search. It can be any combination of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF</a> values, except that only one ASSOCF_INIT value can be included.
 
 
 ### -param str [in]
 
-Type: <b><a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASSOCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a></b>
 
-The <a href="https://msdn.microsoft.com/b5fd3d25-3630-4dd8-acd2-d2e4ed571604">ASSOCSTR</a> value that specifies the type of string that is to be returned.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-assocstr">ASSOCSTR</a> value that specifies the type of string that is to be returned.
 
 
 ### -param pszAssoc [in]
@@ -106,7 +106,7 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 
 #### Executable name
 
-The name of an application's .exe file. The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ### -param pszExtra [in, optional]
@@ -129,7 +129,7 @@ Type: <b>DWORD*</b>
 
 A pointer to a value that, when calling the function, is set to the number of characters in the <i>pszOut</i> buffer. When the function returns successfully, the value is set to the number of characters actually placed in the buffer.
 
-If the <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-__unnamed_enum_0">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
 
 If <i>pszOut</i> is <b>NULL</b>, the function returns S_FALSE and <i>pcchOut</i> points to the required size, in characters, of the buffer.
 
@@ -171,9 +171,9 @@ Returns a standard COM error value, including the following:
 
 
 
-This function is a wrapper for the <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> interface. The <b>AssocQueryString</b> function is intended to simplify the process of using <b>IQueryAssociations</b> interface.
+This function is a wrapper for the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface. The <b>AssocQueryString</b> function is intended to simplify the process of using <b>IQueryAssociations</b> interface.
 
-Once an item is selected, the host must decide which (if any) preview handler is available for that item. Preview handlers are typically registered on file name extensions or ProgID, but some preview handlers are only instantiated for items within particular shell folders (the MAPI preview handler is associated with any items that came from the MAPI Shell folder, for example). Thus, the host must use <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> to determine which preview handler to use. For further discussion of how the file and protocol association functions work, see <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a>.
+Once an item is selected, the host must decide which (if any) preview handler is available for that item. Preview handlers are typically registered on file name extensions or ProgID, but some preview handlers are only instantiated for items within particular shell folders (the MAPI preview handler is associated with any items that came from the MAPI Shell folder, for example). Thus, the host must use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> to determine which preview handler to use. For further discussion of how the file and protocol association functions work, see <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>.
 
 
 

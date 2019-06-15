@@ -114,7 +114,7 @@ The call is successful.
 
 
 
-<a href="https://msdn.microsoft.com/81960d59-3de3-4d86-948e-939c59073bb1">CheckConnectionWizard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/icwcfg/nf-icwcfg-checkconnectionwizard">CheckConnectionWizard</a>
  
 
  

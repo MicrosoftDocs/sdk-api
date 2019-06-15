@@ -52,7 +52,7 @@ Retrieves the object identifier for the specified file or directory. If no objec
 <b>FSCTL_CREATE_OR_GET_OBJECT_ID</b> creates one.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -149,8 +149,8 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 Object identifiers are used to track  files and directories. They are invisible to most applications and should never be modified by applications. Modifying an object identifier can result in the loss of data from portions of a file, up to and including entire volumes of data.
 
 This operation creates an object identifier if the object does not already have one. To test for the presence of an object identifier, and retrieve it if it exists, use the 
-<a href="https://msdn.microsoft.com/60eb4218-424e-4101-a012-3fde66f4f4fe">FSCTL_GET_OBJECT_ID</a> operation. To create an object identifier without first testing for the presence of one, use the 
-<a href="https://msdn.microsoft.com/eb131a33-96c8-40fc-92be-05522676541a">FSCTL_SET_OBJECT_ID</a> operation.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id">FSCTL_GET_OBJECT_ID</a> operation. To create an object identifier without first testing for the presence of one, use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id">FSCTL_SET_OBJECT_ID</a> operation.
 			
 
 In Windows Server 2012, this function is supported by the following technologies.
@@ -221,31 +221,31 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d58921c-a3ec-44f3-b077-528db6b1211c">FILE_OBJECTID_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_objectid_buffer">FILE_OBJECTID_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/6698ca1d-d603-4f8d-9737-6dcb9be24e3a">FSCTL_DELETE_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_delete_object_id">FSCTL_DELETE_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/60eb4218-424e-4101-a012-3fde66f4f4fe">FSCTL_GET_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id">FSCTL_GET_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb131a33-96c8-40fc-92be-05522676541a">FSCTL_SET_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id">FSCTL_SET_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e17dc58f-3fa7-4069-b8ec-16331438b832">FSCTL_SET_OBJECT_ID_EXTENDED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended">FSCTL_SET_OBJECT_ID_EXTENDED</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f438c72-f23d-4ca4-83bd-fe3bc433ceeb">Object Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers">Object Identifiers</a>
  
 
  

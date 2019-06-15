@@ -61,14 +61,14 @@ Creates a query for a collection of specific function instances.
 
 ### -param pszCategory [in]
 
-The category for the query. See <a href="https://msdn.microsoft.com/84633d91-d193-437c-b1cf-9bc491ad416c">Category Definitions</a>.
+The category for the query. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/category-definitions">Category Definitions</a>.
 
 
 ### -param pszSubCategory [in]
 
-The subcategory for the query. See <a href="https://msdn.microsoft.com/9793e37d-6c12-431f-95d6-fd5350f11029">Subcategory Definitions</a>. This parameter can be <b>NULL</b>.
+The subcategory for the query. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/subcategory-definitions">Subcategory Definitions</a>. This parameter can be <b>NULL</b>.
 
-Subcategory queries are only supported for layered categories and some provider categories. The <a href="https://msdn.microsoft.com/335b11f1-99f3-42ab-ba22-681f572da246">Registry Provider</a>, the PnP-X association provider, and the publication provider support subcategory queries. Custom providers can be explicitly designed to support subcategory queries. This means the  <i>pszSubCategory</i> parameter should be set to a non-<b>NULL</b> value only when the <i>pszCategory</i> parameter is set to <b>FCTN_CATEGORY_REGISTRY</b>, <b>FCTN_CATEGORY_PUBLICATION</b>, <b>FCTN_CATEGORY_PNPXASSOCIATION</b>, or a custom category value defined for either a layered category or a custom provider supporting subcategory queries.
+Subcategory queries are only supported for layered categories and some provider categories. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/registry-provider">Registry Provider</a>, the PnP-X association provider, and the publication provider support subcategory queries. Custom providers can be explicitly designed to support subcategory queries. This means the  <i>pszSubCategory</i> parameter should be set to a non-<b>NULL</b> value only when the <i>pszCategory</i> parameter is set to <b>FCTN_CATEGORY_REGISTRY</b>, <b>FCTN_CATEGORY_PUBLICATION</b>, <b>FCTN_CATEGORY_PNPXASSOCIATION</b>, or a custom category value defined for either a layered category or a custom provider supporting subcategory queries.
 
 
 ### -param fIncludeAllSubCategories [in]
@@ -82,7 +82,7 @@ If <b>FALSE</b>, this method restricts the created query to returning function i
 
 ### -param pIFunctionDiscoveryNotification [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface implemented by the calling application. This parameter can be <b>NULL</b>. This pointer is valid until the returned query object is released.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface implemented by the calling application. This parameter can be <b>NULL</b>. This pointer is valid until the returned query object is released.
 
 
 ### -param pfdqcQueryContext [in, out]
@@ -92,7 +92,7 @@ A pointer to the context in which the query was created. The type <b>FDQUERYCONT
 
 ### -param ppIFunctionInstanceCollectionQuery [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0">IFunctionInstanceCollectionQuery</a> interface pointer.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a> interface pointer.
 
 
 ## -returns
@@ -161,9 +161,9 @@ The value of <i>pszCategory</i> or <i>pszSubCategory</i> is unknown.
 
 
 
-If <i>pIFunctionDiscoveryNotification</i> is specified, it enables the Function Discovery change notification process. This parameter can be <b>NULL</b>. However, it is required for network providers since they do not return synchronous results. Function Discovery network providers only return instances through the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> interface.
+If <i>pIFunctionDiscoveryNotification</i> is specified, it enables the Function Discovery change notification process. This parameter can be <b>NULL</b>. However, it is required for network providers since they do not return synchronous results. Function Discovery network providers only return instances through the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.
 
-This method only initializes the query call. The <a href="https://msdn.microsoft.com/b924d066-87d7-499b-b006-a10e219e11fd">Execute</a> method of the <a href="https://msdn.microsoft.com/ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0">IFunctionInstanceCollectionQuery</a> interface returned in <i>ppIFunctionInstanceCollectionQuery</i> must be called to perform the query and return any data.
+This method only initializes the query call. The <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a> interface returned in <i>ppIFunctionInstanceCollectionQuery</i> must be called to perform the query and return any data.
 
 
 
@@ -173,11 +173,11 @@ This method only initializes the query call. The <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/3c255fb4-8f9d-47a2-9770-1aa528d07f43">Function Discovery Queries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
-<a href="https://msdn.microsoft.com/352a8d61-7d3a-423d-8b7e-1163d4fa1e00">IFunctionDiscovery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
  
 
  

@@ -59,7 +59,7 @@ Configures how partitions are used for the enclosed work.
 
 ### -param partitionConfig [in]
 
-A value from the <a href="https://msdn.microsoft.com/584c4744-193d-43d4-a305-8f4ea9802d58">CSC_PartitionConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_partitionconfig">CSC_PartitionConfig</a> enumeration.
 
 
 ## -returns
@@ -86,7 +86,7 @@ The user must belong to any partition that is used to run the enclosed work.
 
 
 
-<a href="https://msdn.microsoft.com/63dcc64b-edd5-4188-a87b-46452c3b624f">IServicePartitionConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepartitionconfig">IServicePartitionConfig</a>
  
 
  

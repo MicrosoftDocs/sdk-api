@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Returns the unique identifier of a cluster 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>. The <b>PCLUSAPI_GET_CLUSTER_NODE_ID</b> type defines a pointer to this function.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>. The <b>PCLUSAPI_GET_CLUSTER_NODE_ID</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ On input, pointer to the count of characters in the buffer pointed to by the
 
 
 This function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are the 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are the 
        possible values:
 
 <table>
@@ -116,7 +116,7 @@ The operation completed successully.
 <td width="60%">
 More data is available. This value is returned if the buffer pointed to by 
          <i>lpszNodeId</i> is not long enough to hold the required number of characters. 
-         <a href="https://msdn.microsoft.com/976ca079-10f7-4e12-9033-07ea83e8c92a">GetClusterNodeId</a> sets the content of 
+         <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodeid">GetClusterNodeId</a> sets the content of 
          <i>lpcchName</i> to the required length.
 
 </td>
@@ -137,8 +137,8 @@ If <i>hNode</i> is set to <b>NULL</b> and the caller is running on an
      active cluster node, the <b>GetClusterNodeId</b> function 
      returns the identifier of the node on which the application is running. Setting <i>hNode</i> 
      to <b>NULL</b> is a convenient way for 
-     <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLLs</a> to determine the node identifier of the node 
-     they are running on. The <a href="https://msdn.microsoft.com/289abaaa-d063-4e99-91e7-441c58f7f75c">GetCurrentClusterNodeId</a> 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLLs</a> to determine the node identifier of the node 
+     they are running on. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-getcurrentclusternodeid">GetCurrentClusterNodeId</a> 
      macro can be used instead of passing <b>NULL</b> for the <i>hNode</i> 
      parameter.
 
@@ -146,7 +146,7 @@ A cluster node identifier is a unique identifier that does not change even if th
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing 
-     buffers, see <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     buffers, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 
@@ -156,15 +156,15 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
 
 
 
-<a href="https://msdn.microsoft.com/289abaaa-d063-4e99-91e7-441c58f7f75c">GetCurrentClusterNodeId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-getcurrentclusternodeid">GetCurrentClusterNodeId</a>
 
 
 
-<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7658a030-d4b2-407c-829f-61491b5907e6">OpenClusterNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
  
 
  

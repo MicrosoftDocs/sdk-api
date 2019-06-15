@@ -75,7 +75,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-Erasing a disc can be a very lengthy operation (sometimes in excess of an hour). To receive an erase completion notification, use <a href="https://msdn.microsoft.com/17a0debe-919d-4db7-bcbb-eb4fc9973d83">IDiscMasterProgressEvents::NotifyEraseComplete</a>.
+Erasing a disc can be a very lengthy operation (sometimes in excess of an hour). To receive an erase completion notification, use <a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifyerasecomplete">IDiscMasterProgressEvents::NotifyEraseComplete</a>.
 
 The quick option erases only the PMA, first session TOC, and the pre-gap of the first track. This erases a disc quickly (between 1 and 2 minutes depending on recorder speed), but the program area will still contain user data. A full erase, on the other hand, erases the entire disc.
 
@@ -87,7 +87,7 @@ The quick option erases only the PMA, first session TOC, and the pre-gap of the 
 
 
 
-<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
  
 
  

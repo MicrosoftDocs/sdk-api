@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Provides serialization information about a single value that
-                is part of an enumeration (<a href="https://msdn.microsoft.com/cf7c9254-c806-4ada-8852-beb6be5e81d9">WS_ENUM_DESCRIPTION</a>).
+                is part of an enumeration (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_enum_description">WS_ENUM_DESCRIPTION</a>).
             
 
 

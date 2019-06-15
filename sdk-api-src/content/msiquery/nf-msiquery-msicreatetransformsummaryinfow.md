@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MsiCreateTransformSummaryInfo</b> function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using 
-<a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 ## -parameters
@@ -358,10 +358,10 @@ This function returns UINT.
 
 
 
-The <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> Property and 
-<a href="https://msdn.microsoft.com/551fca7e-a827-482d-bc56-ff2fe5a17025">ProductVersion</a> Property  must be defined in the 
-<a href="https://msdn.microsoft.com/1f4215b2-dc71-4e6e-bc2e-3b43316806b9">Property Table</a> of both the base and reference databases. If MSITRANSFORM_VALIDATE_UPGRADECODE is used, the 
-<a href="https://msdn.microsoft.com/6cdee5d8-8aa0-4fad-9338-152ee33b8077">UpgradeCode</a> Property must also be defined in both databases. If these conditions are not met, 
+The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> Property and 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">ProductVersion</a> Property  must be defined in the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/property-table">Property Table</a> of both the base and reference databases. If MSITRANSFORM_VALIDATE_UPGRADECODE is used, the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/upgradecode">UpgradeCode</a> Property must also be defined in both databases. If these conditions are not met, 
 <b>MsiCreateTransformSummaryInfo</b> returns ERROR_INSTALL_PACKAGE_INVALID.
 
 <ul>
@@ -376,11 +376,11 @@ The <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">Pr
 
 
 
-<a href="https://msdn.microsoft.com/525feb70-27aa-4fe2-a19f-9438168ca046">Database Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
  
 
  

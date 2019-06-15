@@ -75,11 +75,11 @@ Describes a packet property that is reported by the tablet driver.
 
 
 
-<a href="https://msdn.microsoft.com/6823f2c6-2c99-4b9a-8208-041fc1f7bf82">PACKET_DESCRIPTION Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_packet_description">PACKET_DESCRIPTION Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6f82b69-50a2-4dfb-a0cd-c37907f5fc1c">PROPERTY_METRICS Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-_property_metrics">PROPERTY_METRICS Structure</a>
  
 
  

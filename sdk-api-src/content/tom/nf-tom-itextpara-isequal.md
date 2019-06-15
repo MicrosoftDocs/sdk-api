@@ -59,9 +59,9 @@ Determines if the current range has the same properties as a specified range.
 
 ### -param pPara
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> range that is compared to the current range. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> range that is compared to the current range. 
 
 
 ### -param pValue
@@ -77,7 +77,7 @@ The comparison result. The value can be null.
 
 Type: <b>HRESULT</b>
 
-If the objects are equal, <b>ITextPara::IsEqual</b> succeeds and returns <b>S_OK</b>. If the objects are not equal, the method fails and returns S_FALSE. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the objects are equal, <b>ITextPara::IsEqual</b> succeeds and returns <b>S_OK</b>. If the objects are not equal, the method fails and returns S_FALSE. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 
 
@@ -91,7 +91,7 @@ If the objects are equal, <b>ITextPara::IsEqual</b> succeeds and returns <b>S_OK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -99,7 +99,7 @@ If the objects are equal, <b>ITextPara::IsEqual</b> succeeds and returns <b>S_OK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

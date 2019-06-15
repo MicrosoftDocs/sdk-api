@@ -61,7 +61,7 @@ The
 ### -param EnumHandle [in]
 
 Pointer to the enumeration handle, in the form of an 
-<a href="https://msdn.microsoft.com/d6fbd0ad-b63e-4fb8-bebb-1b2b2552a8c8">RPC_ERROR_ENUM_HANDLE</a> structure. The structure must be allocated by the caller, and cannot be freed until the operation is complete. All members are ignored on input.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a> structure. The structure must be allocated by the caller, and cannot be freed until the operation is complete. All members are ignored on input.
 
 
 ### -param CopyStrings [in]
@@ -74,13 +74,13 @@ Specifies whether the string fields in <i>ErrorInfo</i> are copied to the defaul
 TRUE indicates the strings are to be copied to the system heap.
 
 FALSE indicates the strings in <i>ErrorInfo</i> point to internal RPC data structures; the caller cannot free or write to them, and they become invalid once the 
-<a href="https://msdn.microsoft.com/04da6e7d-bbdb-47d3-9924-604ddf56d177">RpcErrorEndEnumeration</a> function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a> function is called.
 
 
 ### -param ErrorInfo [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/1e906192-c9f1-41c2-bf7f-9967a3d0e1d3">RPC_EXTENDED_ERROR_INFO</a> structure. See Remarks.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_extended_error_info">RPC_EXTENDED_ERROR_INFO</a> structure. See Remarks.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If <i>CopyStrings</i> is false the function call cannot fail unless its paramete
 Upon any error, the enumeration position is not advanced.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -124,7 +124,7 @@ Upon output, the fields in <i>ErrorInfo</i> are filled as follows:
 <li><b>Flags</b> specifies whether records are missing. If one or more records is missing after the current record is missing, <b>EEInfoNextRecordsMissing</b> is set. If one or more record before the current record is missing, <b>EEInfoPreviousRecordsMissing</b> is set.</li>
 <li><b>NumberOfParameters</b> specifies the true number of parameters. If the caller specified space for more parameters on input than there are in the record, this field contains the number of parameters used.</li>
 <li><b>Parameters</b> is the actual parameters, provided as an array of 
-<a href="https://msdn.microsoft.com/a201f8f3-6e74-4550-9738-d5415340994b">RPC_EE_INFO_PARAM</a> structures with <b>NumberOfParameters</b> structures.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_ee_info_param">RPC_EE_INFO_PARAM</a> structures with <b>NumberOfParameters</b> structures.</li>
 </ul>
 
 
@@ -134,27 +134,27 @@ Upon output, the fields in <i>ErrorInfo</i> are filled as follows:
 
 
 
-<a href="https://msdn.microsoft.com/7a386def-c640-42f4-9869-b6a1c522984a">Obtaining Extended RPC Error Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/obtaining-extended-rpc-error-information">Obtaining Extended RPC Error Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/a201f8f3-6e74-4550-9738-d5415340994b">RPC_EE_INFO_PARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_ee_info_param">RPC_EE_INFO_PARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6fbd0ad-b63e-4fb8-bebb-1b2b2552a8c8">RPC_ERROR_ENUM_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e906192-c9f1-41c2-bf7f-9967a3d0e1d3">RPC_EXTENDED_ERROR_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-tagrpc_extended_error_info">RPC_EXTENDED_ERROR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/04da6e7d-bbdb-47d3-9924-604ddf56d177">RpcErrorEndEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/56c61902-4b34-4d92-b352-cd1837754aa3">RpcErrorStartEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
  
 
  

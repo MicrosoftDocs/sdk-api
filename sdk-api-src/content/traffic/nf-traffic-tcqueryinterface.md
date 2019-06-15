@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TcQueryInterface</b> function queries traffic control for related per-interface parameters. A traffic control parameter is queried by providing its globally unique identifier (GUID). Setting the <i>NotifyChange</i> parameter to <b>TRUE</b> enables event notification on the specified GUID, after which notification events are sent to a client whenever the queried parameter changes. GUIDs for which clients can request notification are found in the 
-<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a> entry; the column titled "Notification" denotes which GUIDs are available for notification.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a> entry; the column titled "Notification" denotes which GUIDs are available for notification.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param IfcHandle [in]
 
 Handle associated with the interface to be queried. This handle is obtained by a previous call to the 
-<a href="https://msdn.microsoft.com/8c7e658c-862f-4715-9ba5-ac079db924a1">TcOpenInterface</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
 
 ### -param pGuidParam [in]
@@ -73,7 +73,7 @@ Pointer to the globally unique identifier (GUID) that corresponds to the traffic
 ### -param NotifyChange [in]
 
 Used to request notifications from traffic control for the parameter being queried. If <b>TRUE</b>, traffic control will notify the client, through the 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a> function, upon changes to the parameter corresponding to the GUID provided in <i>pGuidParam</i>. Notifications are off by default.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a> function, upon changes to the parameter corresponding to the GUID provided in <i>pGuidParam</i>. Notifications are off by default.
 
 
 ### -param pBufferSize [in, out]
@@ -196,15 +196,15 @@ The instance name was not found, likely because the interface is in the process 
 
 
 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6fbaa17-6b4b-45a2-baf7-898864a797b7">TcEnumerateInterfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateinterfaces">TcEnumerateInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/10bbc08d-4bfa-4a64-b5b8-b720d7bc3185">TcRegisterClient</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
  
 
  

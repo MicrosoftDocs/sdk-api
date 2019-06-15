@@ -61,7 +61,7 @@ The <b>LsaNtStatusToWinError</b> function converts an NTSTATUS code returned by 
 ### -param Status [in]
 
 An NTSTATUS code returned by an LSA function call. This value will be converted to a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System error code</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The return value is the Windows error code that corresponds to the <i>Status</i>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>
  
 
  

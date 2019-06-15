@@ -63,7 +63,7 @@ Contains a <b>LANGID</b> value that specifies which language to obtain the defau
 
 ### -param catid [in]
 
-Contains a GUID value that identifies the category that the text service is registered under. This can be a user-defined category or one of the <a href="https://msdn.microsoft.com/04c0632d-ac64-4081-ba95-c11feb3f40dd">predefined category values</a>.
+Contains a GUID value that identifies the category that the text service is registered under. This can be a user-defined category or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">predefined category values</a>.
 
 
 ### -param pclsid [out]
@@ -142,11 +142,11 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">ITfInputProcessorProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/04c0632d-ac64-4081-ba95-c11feb3f40dd">Predefined Category Values
+<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-category-values">Predefined Category Values
       </a>
  
 

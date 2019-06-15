@@ -55,10 +55,10 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>CObjectPathParser</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-Parses a WMI path which can include a remote computer name, namespaces, and classes. Use of this object is not recommended. Instead, use the <a href="https://msdn.microsoft.com/71b2597b-d82a-439d-b0b7-af76aefea6a2">IWbemPath</a> COM interface.
+Parses a WMI path which can include a remote computer name, namespaces, and classes. Use of this object is not recommended. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> COM interface.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CObjectPathParser</b> has these types of members:
 <ul>
@@ -72,7 +72,7 @@ Parses a WMI path which can include a remote computer name, namespaces, and clas
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8aeb162a-8e93-4a2f-9609-693a26027a44">CObjectPathParser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objpath/nf-objpath-cobjectpathparser-cobjectpathparser">CObjectPathParser</a>
 </td>
 <td align="left" width="63%">
 Constructs and initializes an instance of a <b>CObjectPathParser</b> object.
@@ -88,7 +88,7 @@ Constructs and initializes an instance of a <b>CObjectPathParser</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9164d7b2-15b8-4b73-ab8c-68ed45692ea0">Free</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb204795(v=vs.85)">Free</a>
 </td>
 <td align="left" width="63%">Overloaded. Releases the memory that contains the path.
 
@@ -96,7 +96,7 @@ Constructs and initializes an instance of a <b>CObjectPathParser</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c39dbef5-9050-487a-8e06-17087753330d">Parse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objpath/nf-objpath-cobjectpathparser-parse">Parse</a>
 </td>
 <td align="left" width="63%">
 Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others.
@@ -105,7 +105,7 @@ Parses a string that contains a WMI path into a structure the contains the path 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6135b808-b9eb-4ba0-9eb8-e7a59993ae34">UnParse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objpath/nf-objpath-cobjectpathparser-unparse">UnParse</a>
 </td>
 <td align="left" width="63%">
 Converts a structure that contains the parsed path to a string.

@@ -99,7 +99,7 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param pConfig [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/3e07b7ae-84ef-4b77-bd49-d96906eaa4f8">CRYPT_CONTEXT_CONFIG</a> structure that contains additional configuration data for the new context. This parameter can be <b>NULL</b> if it is not needed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_crypt_context_config">CRYPT_CONTEXT_CONFIG</a> structure that contains additional configuration data for the new context. This parameter can be <b>NULL</b> if it is not needed.
 
 
 ## -returns

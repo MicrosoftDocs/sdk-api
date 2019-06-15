@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="https://msdn.microsoft.com/420963d1-11ea-4f1d-b5c0-749e99ee7725">Pause</a>.
+The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">Pause</a>.
 
 
 
@@ -129,15 +129,15 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e7b58957-4795-461f-ae3d-fb80e6711c9f">IWMDMDeviceControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/420963d1-11ea-4f1d-b5c0-749e99ee7725">IWMDMDeviceControl::Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">IWMDMDeviceControl::Pause</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebc6ad10-02c1-4cc9-8a09-d1fe7aef146a">IWMDMObjectInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
  
 
  

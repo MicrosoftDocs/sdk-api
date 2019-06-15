@@ -111,9 +111,9 @@ The index has not been committed. For more information; see Remarks.
 
 Use this method to get the size of the index and then allocate a buffer big enough to hold it. 
 
-The index must be committed with a call to<a href="https://msdn.microsoft.com/44b889e1-8860-44fa-b19f-5be9f844a194">IMFASFIndexer::CommitIndex</a> before calling <b>IMFASFIndexer::GetIndexWriteSpace</b>.  If the index is not committed before <b>GetIndexWriteSpace</b> is called, then MF_E_INDEX_NOT_COMMITTED will be returned as a result. 
+The index must be committed with a call to<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">IMFASFIndexer::CommitIndex</a> before calling <b>IMFASFIndexer::GetIndexWriteSpace</b>.  If the index is not committed before <b>GetIndexWriteSpace</b> is called, then MF_E_INDEX_NOT_COMMITTED will be returned as a result. 
 
-Call <a href="https://msdn.microsoft.com/aca721e8-e610-4022-a3da-8ff5a5943e3e">IMFASFIndexer::GetCompletedIndex</a> to write the completed index into a media buffer.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">IMFASFIndexer::GetCompletedIndex</a> to write the completed index into a media buffer.
 
 You cannot use this method in a reading scenario.  You can only use this method when writing indexes.
 
@@ -125,11 +125,11 @@ You cannot use this method in a reading scenario.  You can only use this method 
 
 
 
-<a href="https://msdn.microsoft.com/3f95b0ac-d70f-4bc2-8524-c7de1df34afa">ASF Index Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93127fe4-bca9-4674-ae21-012367d7dd2f">IMFASFIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
  
 
  

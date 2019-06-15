@@ -69,7 +69,7 @@ Specifies the point in screen coordinates.
 
 ### -param dwFlags [in]
 
-Specifies the range position to return based upon the screen coordinates of the point to a character bounding box. By default, the range position returned is the character bounding box containing the screen coordinates of the point. If the point is outside a character bounding box, the method returns <b>NULL</b> or <a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">TF_E_INVALIDPOINT</a>. Other bit flags for this parameter are as follows.
+Specifies the range position to return based upon the screen coordinates of the point to a character bounding box. By default, the range position returned is the character bounding box containing the screen coordinates of the point. If the point is outside a character bounding box, the method returns <b>NULL</b> or <a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">TF_E_INVALIDPOINT</a>. Other bit flags for this parameter are as follows.
 
 The bit flags can be combined.
 
@@ -173,7 +173,7 @@ The specified edit cookie is invalid.
 
 
 <img alt="Point 1 is in character bounding box and point 2 is outside the character bounding box." border="border" src="./images/RngFig01.gif"/>
-By default, the method will return a range positioned at 0 for point 1 and TF_E_INVALIDPOINT for point 2. If the <i>dwFlags</i> parameter is set to <a href="https://msdn.microsoft.com/e69e5a4c-65e6-4d9b-8cb0-962524aa5d39">GXFPF_ROUND_NEAREST</a>, the method returns range position 1 for point 1. If the <i>dwFlags</i> parameter is set to GXFPF_NEAREST then the method returns range position 2 for point 2.
+By default, the method will return a range positioned at 0 for point 1 and TF_E_INVALIDPOINT for point 2. If the <i>dwFlags</i> parameter is set to <a href="https://docs.microsoft.com/windows/desktop/TSF/gxfpf--constants">GXFPF_ROUND_NEAREST</a>, the method returns range position 1 for point 1. If the <i>dwFlags</i> parameter is set to GXFPF_NEAREST then the method returns range position 2 for point 2.
 
 
 
@@ -183,7 +183,7 @@ By default, the method will return a range positioned at 0 for point 1 and TF_E_
 
 
 
-<a href="https://msdn.microsoft.com/e69e5a4c-65e6-4d9b-8cb0-962524aa5d39">GXFPF_NEAREST
+<a href="https://docs.microsoft.com/windows/desktop/TSF/gxfpf--constants">GXFPF_NEAREST
       </a>
 
 
@@ -192,11 +192,11 @@ GXFPF_ROUND_NEAREST
 
 
 
-<a href="https://msdn.microsoft.com/302d185d-dab7-4a77-a5cf-da2529d8b24a">ITfContextView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
 
 
 
-<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">TF_E_INVALIDPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">TF_E_INVALIDPOINT</a>
  
 
  

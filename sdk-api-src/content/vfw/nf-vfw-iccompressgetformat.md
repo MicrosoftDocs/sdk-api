@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICCompressGetFormat</b> macro requests the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/ac12d415-bad5-4838-b206-09c8097d3fd9">ICM_COMPRESS_GET_FORMAT</a> message.
+The <b>ICCompressGetFormat</b> macro requests the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-get-format">ICM_COMPRESS_GET_FORMAT</a> message.
 
 
 
@@ -89,11 +89,11 @@ If <i>lpbiOutput</i> is nonzero, the driver should fill the <b>BITMAPINFO</b> st
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

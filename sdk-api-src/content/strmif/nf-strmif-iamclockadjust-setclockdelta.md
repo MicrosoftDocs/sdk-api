@@ -63,7 +63,7 @@ The <code>SetClockDelta</code> method adjusts the clock time.
 
 ### -param rtDelta [in]
 
-Specifies the amount by which to adjust the clock, as a <a href="https://msdn.microsoft.com/862c95bc-2e0a-42c0-b907-45f64f27bd41">REFERENCE_TIME</a> value. A positive value moves the clock forward, and a negative value moves the clock backward.
+Specifies the amount by which to adjust the clock, as a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value. A positive value moves the clock forward, and a negative value moves the clock backward.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK or an <b>HRESULT</b> error code.
 
 
 
-The time values returned by <a href="https://msdn.microsoft.com/1fcf8b8a-f449-4f42-8061-cc4116867d9d">IReferenceClock::GetTime</a> are monotonically increasing. If you set the clock back, <b>GetTime</b> continues to report the old time until the internal clock catches up.
+The time values returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-gettime">IReferenceClock::GetTime</a> are monotonically increasing. If you set the clock back, <b>GetTime</b> continues to report the old time until the internal clock catches up.
 
 
 
@@ -89,11 +89,11 @@ The time values returned by <a href="https://msdn.microsoft.com/1fcf8b8a-f449-4f
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e24105a5-711a-498a-a07c-842307602613">IAMClockAdjust Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamclockadjust">IAMClockAdjust Interface</a>
  
 
  

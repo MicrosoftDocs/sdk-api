@@ -53,14 +53,14 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>ICCSubStreamFiltering</b> interface sets the filtering on the closed captioning (CC) pins of the <a href="https://msdn.microsoft.com/51d43d2e-62fd-4366-a01f-5e6b37fc55fb">VBICodec</a> filter. The CC output pins on the VBICodec filter both expose this interface. Use this interface to select which CC services are delivered by each pin. The CC pins are independent, so you can select different services on each pin. For example, you might select CC1 and CC2 on one pin and extended data services (XDS) on the other.
+The <b>ICCSubStreamFiltering</b> interface sets the filtering on the closed captioning (CC) pins of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/vbicodec-filter">VBICodec</a> filter. The CC output pins on the VBICodec filter both expose this interface. Use this interface to select which CC services are delivered by each pin. The CC pins are independent, so you can select different services on each pin. For example, you might select CC1 and CC2 on one pin and extended data services (XDS) on the other.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICCSubStreamFiltering</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICCSubStreamFiltering</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICCSubStreamFiltering</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICCSubStreamFiltering</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ICCSubStreamFiltering</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693502(v=VS.85).aspx">get_SubstreamTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-iccsubstreamfiltering-get_substreamtypes">get_SubstreamTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of closed captioning services this pin is delivering
@@ -84,7 +84,7 @@ Retrieves the list of closed captioning services this pin is delivering
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693503(v=VS.85).aspx">put_SubstreamTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-iccsubstreamfiltering-put_substreamtypes">put_SubstreamTypes</a>
 </td>
 <td align="left" width="63%">
 Sets the closed captioning services the pin will deliver.
@@ -108,7 +108,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

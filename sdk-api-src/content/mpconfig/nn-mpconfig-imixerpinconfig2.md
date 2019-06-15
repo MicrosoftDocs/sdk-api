@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 
-The <code>IMixerPinConfig2</code> interface is exposed on the input pins of the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> and contains methods that manipulate video color controls, if the VGA chip supports it.
+The <code>IMixerPinConfig2</code> interface is exposed on the input pins of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> and contains methods that manipulate video color controls, if the VGA chip supports it.
 
-This interface derives from the <a href="https://msdn.microsoft.com/6a4f3462-4596-4f02-a41f-47161f8aa4db">IMixerPinConfig</a> interface.
+This interface derives from the <a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig</a> interface.
 
 Applications use this interface to get and set video color controls when mixing multiple video streams.
 
@@ -62,7 +62,7 @@ Applications use this interface to get and set video color controls when mixing 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerPinConfig2</b> interface inherits from <a href="https://msdn.microsoft.com/6a4f3462-4596-4f02-a41f-47161f8aa4db">IMixerPinConfig</a>. <b>IMixerPinConfig2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerPinConfig2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig</a>. <b>IMixerPinConfig2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMixerPinConfig2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6b47e4d-5bf2-4d76-a1e2-88a3342d75a6">GetOverlaySurfaceColorControls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig2-getoverlaysurfacecolorcontrols">GetOverlaySurfaceColorControls</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color control settings currently associated with the specified overlay surface.
@@ -86,7 +86,7 @@ Retrieves the color control settings currently associated with the specified ove
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c23c12c9-5621-4b1e-997a-51303f239175">SetOverlaySurfaceColorControls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig2-setoverlaysurfacecolorcontrols">SetOverlaySurfaceColorControls</a>
 </td>
 <td align="left" width="63%">
 Sets the color control settings associated with the specified overlay surface.
@@ -101,7 +101,7 @@ Sets the color control settings associated with the specified overlay surface.
 
 
 
-<a href="https://msdn.microsoft.com/6a4f3462-4596-4f02-a41f-47161f8aa4db">IMixerPinConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig</a>
  
 
  

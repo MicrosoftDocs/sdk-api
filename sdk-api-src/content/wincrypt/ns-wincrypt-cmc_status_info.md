@@ -95,7 +95,7 @@ Request failed. There is addition information in other parts of the message.
 </dl>
 </td>
 <td width="60%">
-Request body part has not been processed. Requester must poll again. This value is returned only on <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate requests</a>.
+Request body part has not been processed. Requester must poll again. This value is returned only on <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a>.
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ Server policy does not allow key re-use.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certification authority</a> (CA) had an internal failure.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certification authority</a> (CA) had an internal failure.
 
 </td>
 </tr>
@@ -315,7 +315,7 @@ Request failed for an unknown reason. The request should be reissued later.
 
 ### -field DUMMYUNIONNAME.pPendInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/ac3dcd19-caed-4453-bac7-55ffa3a02f54">CMC_PEND_INFO</a> structure member of the union. This member is used if <b>dwOtherInfoChoice</b> is CMC_OTHER_INFO_PEND_CHOICE.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_pend_info">CMC_PEND_INFO</a> structure member of the union. This member is used if <b>dwOtherInfoChoice</b> is CMC_OTHER_INFO_PEND_CHOICE.
 
 
 ## -remarks

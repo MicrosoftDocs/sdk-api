@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HypothesisResult</b> structure contains information about a hypothesis returned from a helper class. The hypothesis is obtained via a call to <a href="https://msdn.microsoft.com/d17f5241-6efb-45a7-b355-8343e48b3261">GetLowerHypotheses</a>.
+The <b>HypothesisResult</b> structure contains information about a hypothesis returned from a helper class. The hypothesis is obtained via a call to <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlowerhypotheses">GetLowerHypotheses</a>.
 
 
 ## -struct-fields
@@ -59,18 +59,18 @@ The <b>HypothesisResult</b> structure contains information about a hypothesis re
 
 ### -field hypothesis
 
-Type: <b><a href="https://msdn.microsoft.com/8f137633-8501-404c-9540-d558be9beeca">HYPOTHESIS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghypothesis">HYPOTHESIS</a></b>
 
 Information for a specific hypothesis.
 
 
 ### -field pathStatus
 
-Type: <b><a href="https://msdn.microsoft.com/2ad72ac5-3f33-4206-be39-1cfe11ee840d">DIAGNOSIS_STATUS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a></b>
 
 The status of the child helper class and its children. 
 
-If the hypothesis or any of its children indicated <b>DS_CONFIRMED</b> in a call to <a href="https://msdn.microsoft.com/623de90f-c2dc-4879-9baf-4051d2d3691c">LowHealth</a>, then this value will be <b>DS_CONFIRMED</b>. If no problems exist in such a call, the value will be <b>DS_REJECTED</b>. The value will be <b>DS_INDETERMINATE</b> if the health of the component is not clear.
+If the hypothesis or any of its children indicated <b>DS_CONFIRMED</b> in a call to <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth">LowHealth</a>, then this value will be <b>DS_CONFIRMED</b>. If no problems exist in such a call, the value will be <b>DS_REJECTED</b>. The value will be <b>DS_INDETERMINATE</b> if the health of the component is not clear.
 
 
 ## -see-also
@@ -78,19 +78,19 @@ If the hypothesis or any of its children indicated <b>DS_CONFIRMED</b> in a call
 
 
 
-<a href="https://msdn.microsoft.com/2ad72ac5-3f33-4206-be39-1cfe11ee840d">DIAGNOSIS_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d17f5241-6efb-45a7-b355-8343e48b3261">GetLowerHypotheses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlowerhypotheses">GetLowerHypotheses</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f137633-8501-404c-9540-d558be9beeca">HYPOTHESIS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghypothesis">HYPOTHESIS</a>
 
 
 
-<a href="https://msdn.microsoft.com/623de90f-c2dc-4879-9baf-4051d2d3691c">LowHealth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth">LowHealth</a>
  
 
  

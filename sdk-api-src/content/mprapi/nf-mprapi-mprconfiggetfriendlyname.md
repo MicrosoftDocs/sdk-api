@@ -61,7 +61,7 @@ The
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
-<a href="https://msdn.microsoft.com/40029088-191d-49b1-88d3-79ffb2da0eef">MprConfigServerConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 
 ### -param pszGuidName [in]
@@ -140,7 +140,7 @@ No GUID name was found that corresponds to the specified friendly name.
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/713fd6de-16af-49d2-8940-763c4a6e414b">Avoiding Buffer Overruns</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/avoiding-buffer-overruns">Avoiding Buffer Overruns</a>.
 			
 
 
@@ -151,23 +151,23 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/713fd6de-16af-49d2-8940-763c4a6e414b">Avoiding Buffer Overruns</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/avoiding-buffer-overruns">Avoiding Buffer Overruns</a>
 
 
 
-<a href="https://msdn.microsoft.com/017662f7-7974-4598-a729-19181ccdfbe0">MprConfigGetGuidName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiggetguidname">MprConfigGetGuidName</a>
 
 
 
-<a href="https://msdn.microsoft.com/40029088-191d-49b1-88d3-79ffb2da0eef">MprConfigServerConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb65885c-7c3b-4c90-9516-388f09703c90">Router Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

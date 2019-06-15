@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to the newly added group. The <b>PCLUSAPI_CREATE_CLUSTER_GROUP</b> type defines a pointer to this function.
+Adds a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to the newly added group. The <b>PCLUSAPI_CREATE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ If the operation succeeds,
 the function returns a group handle.
 
 If the operation fails, 
-the function returns <b>NULL</b>. For more information about the error, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+the function returns <b>NULL</b>. For more information about the error, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -87,14 +87,14 @@ the function returns <b>NULL</b>. For more information about the error, call <a 
 
 
 
-Do not call  <b>CreateClusterGroup</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>CreateClusterGroup</b> from a resource DLL. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
-The <b>CreateClusterGroup</b> function calls the <a href="https://msdn.microsoft.com/D24A2622-758D-4344-8872-F0D8E4EE80CC">CreateClusterGroupEx</a> function with a <b>NULL</b> CLUSTER_CREATE_GROUP_INFO. The new group is created with a group type of ClusGroupTypeUnknown.
+The <b>CreateClusterGroup</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclustergroupex">CreateClusterGroupEx</a> function with a <b>NULL</b> CLUSTER_CREATE_GROUP_INFO. The new group is created with a group type of ClusGroupTypeUnknown.
 
 
 #### Examples
 
-See  <a href="https://msdn.microsoft.com/c6309c0e-fe81-4946-a333-efc5d2a7cb48">Creating Groups</a>.
+See  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-groups">Creating Groups</a>.
 
 <div class="code"></div>
 
@@ -105,7 +105,7 @@ See  <a href="https://msdn.microsoft.com/c6309c0e-fe81-4946-a333-efc5d2a7cb48">C
 
 
 
-<a href="https://msdn.microsoft.com/0c7ef9d9-d32b-448e-9e07-6befb9b3e338">OpenClusterGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroup">OpenClusterGroup</a>
  
 
  

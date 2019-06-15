@@ -76,11 +76,11 @@ If the <b>PackageStatusUpdated</b> method completes successfully, it returns an 
 
 
 
-<a href="https://msdn.microsoft.com/A2178E6A-04AD-4024-A083-5C76A5F60743">IPrintDocumentPackageStatusEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nn-documenttarget-iprintdocumentpackagestatusevent">IPrintDocumentPackageStatusEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448417(v=VS.85).aspx">PrintDocumentPackageStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/ns-documenttarget-__midl___midl_itf_documenttarget_0000_0001_0001">PrintDocumentPackageStatus</a>
  
 
  

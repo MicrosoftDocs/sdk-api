@@ -62,7 +62,7 @@ The <b>IWiaDataTransfer::idtGetExtendedTransferInfo</b> retrieves extended infor
 
 Type: <b>PWIA_EXTENDED_TRANSFER_INFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629876(v=VS.85).aspx">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_extended_transfer_info">WIA_EXTENDED_TRANSFER_INFO</a> structure containing the extended information.
 
 
 ## -returns

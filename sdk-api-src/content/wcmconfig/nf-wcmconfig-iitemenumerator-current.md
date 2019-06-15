@@ -75,7 +75,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 
 
-<div class="alert"><b>Note</b>  When the item is no longer required, call <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> to free the resources associated with the item.</div>
+<div class="alert"><b>Note</b>  When the item is no longer required, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> to free the resources associated with the item.</div>
 <div> </div>
 
 
@@ -85,7 +85,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a>
  
 
  

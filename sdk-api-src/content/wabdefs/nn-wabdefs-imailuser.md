@@ -55,7 +55,7 @@ Do not use. This interface provides access to a mail user object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMailUser</b> interface inherits from <a href="https://msdn.microsoft.com/library/Cc815525(v=office.12).aspx">IMAPIProp</a>. <b>IMailUser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMailUser</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815525(v=office.12)">IMAPIProp</a>. <b>IMailUser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMailUser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629499(v=VS.85).aspx">CopyProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-copyprops">CopyProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -79,7 +79,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629500(v=VS.85).aspx">CopyTo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-copyto">CopyTo</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -88,7 +88,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629501(v=VS.85).aspx">DeleteProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops">DeleteProps</a>
 </td>
 <td align="left" width="63%">
 Deletes property values from a mail user object.
@@ -97,7 +97,7 @@ Deletes property values from a mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629502(v=VS.85).aspx">GetIDsFromNames</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getidsfromnames">GetIDsFromNames</a>
 </td>
 <td align="left" width="63%">
 Registers named properties with the mail user object.
@@ -106,7 +106,7 @@ Registers named properties with the mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629503(v=VS.85).aspx">GetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getlasterror">GetLastError</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -115,7 +115,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629504(v=VS.85).aspx">GetNamesFromIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getnamesfromids">GetNamesFromIDs</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -124,7 +124,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629505(v=VS.85).aspx">GetPropList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getproplist">GetPropList</a>
 </td>
 <td align="left" width="63%">
 Gets a list of property tags on the object.
@@ -133,7 +133,7 @@ Gets a list of property tags on the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629506(v=VS.85).aspx">GetProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-getprops">GetProps</a>
 </td>
 <td align="left" width="63%">
 Retrieves property values from a mail user object.
@@ -142,7 +142,7 @@ Retrieves property values from a mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629508(v=VS.85).aspx">OpenProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-openproperty">OpenProperty</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -151,7 +151,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629509(v=VS.85).aspx">SaveChanges</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-savechanges">SaveChanges</a>
 </td>
 <td align="left" width="63%">
 Saves changes to the open mail user object.
@@ -160,7 +160,7 @@ Saves changes to the open mail user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629510(v=VS.85).aspx">SetProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-imailuser-setprops">SetProps</a>
 </td>
 <td align="left" width="63%">
 Sets property values on a mail user object.

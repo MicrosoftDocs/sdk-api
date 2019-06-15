@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from <a href="https://msdn.microsoft.com/133ee983-8df2-4053-aa8a-471aa679b412">GetColorCount</a>.
+Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-getcolorcount">GetColorCount</a>.
 
 
 ## -parameters

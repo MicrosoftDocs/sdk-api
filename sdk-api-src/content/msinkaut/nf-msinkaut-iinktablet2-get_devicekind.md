@@ -67,7 +67,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/c912689c-9a85-41a0-87d8-68332ea762a7">IInkTablet2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet2">IInkTablet2 Interface</a>
  
 
  

@@ -98,7 +98,7 @@ If this value is specified along with <b>DDD_REMOVE_DEFINITION</b>, the function
 </dl>
 </td>
 <td width="60%">
-Do not broadcast the <a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message. 
+Do not broadcast the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message. 
         By default, this message is broadcast to notify the shell and applications of the change.
 
 </td>
@@ -162,7 +162,7 @@ A pointer to a path string that will implement this device. The string is an MS-
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -177,13 +177,13 @@ MS-DOS device names are stored as junctions in the object namespace. The code th
     implement the MS-DOS device namespace.
 
 To retrieve the current mapping for a particular MS-DOS device name or to obtain a list of all MS-DOS devices 
-    known to the system, use the <a href="https://msdn.microsoft.com/ff25bc2b-dde6-40c3-a270-372daab2e5c4">QueryDosDevice</a> 
+    known to the system, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a> 
     function.
 
 To define a drive letter assignment that is persistent across boots and not a network share, use the 
-    <a href="https://msdn.microsoft.com/1535fe64-221a-4756-a9ba-81bbe7596598">SetVolumeMountPoint</a> function. If the volume to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a> function. If the volume to 
     be mounted already has a drive letter assigned to it, use the 
-    <a href="https://msdn.microsoft.com/b1a0a273-fa7f-4794-8b50-c74f00b0228d">DeleteVolumeMountPoint</a> function to remove the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a> function to remove the 
     assignment.
 
 Drive letters and device names defined at system boot time are protected from redefinition and deletion unless 
@@ -193,8 +193,8 @@ Starting with Windows XP, this function creates a device name for a caller that
     the "LocalSystem" context in its own Local MS-DOS device namespace. If the caller  is running in 
     the "LocalSystem" context, the function creates the device name in the Global MS-DOS device 
     namespace. For more information, see 
-    <a href="https://msdn.microsoft.com/7d802e9f-dc09-4e3d-b064-e9b57af396e2">Defining an MS DOS Device Name</a> and 
-    <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">File Names, Paths, and Namespaces</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS DOS Device Name</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -263,7 +263,7 @@ SMB does not support volume management functions. For CsvFs, a new name will not
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/17a6df9d-07df-42f7-89c9-72a1d02141f6">Editing Drive Letter Assignments</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/editing-drive-letter-assignments">Editing Drive Letter Assignments</a>.
 
 <div class="code"></div>
 
@@ -274,19 +274,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/b1a0a273-fa7f-4794-8b50-c74f00b0228d">DeleteVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff25bc2b-dde6-40c3-a270-372daab2e5c4">QueryDosDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/1535fe64-221a-4756-a9ba-81bbe7596598">SetVolumeMountPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc985126-970c-49f2-877f-3759125e43b6">Volume Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
  
 
  

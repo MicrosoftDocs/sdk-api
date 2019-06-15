@@ -62,7 +62,7 @@ The <i>PFSCE_QUERY_INFO</i> callback function queries service-specific informati
 Type: <b>SCE_HANDLE</b>
 
 Specifies the opaque handle passed to the attachment by the Security Configuration tool set during the call to 
-<a href="https://msdn.microsoft.com/2c5d087d-774b-4cfb-a458-9a5b1c6106c7">ISceSvcAttachmentData::Initialize</a>. This handle is used to store the queried information.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>. This handle is used to store the queried information.
 
 
 ### -param sceType [in]
@@ -263,7 +263,7 @@ There is insufficient memory.
 
 
 The Security Configuration tool set allocates buffers when <i>PFSCE_QUERY_INFO</i> is called. To free these buffers call 
-<a href="https://msdn.microsoft.com/e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc">PFSCE_FREE_INFO</a> after the returned information is no longer needed.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info">PFSCE_FREE_INFO</a> after the returned information is no longer needed.
 
 
 #### Examples
@@ -276,19 +276,19 @@ The Security Configuration tool set allocates buffers when <i>PFSCE_QUERY_INFO</
 <tr>
 <td>Retrieving configuration information</td>
 <td>
-<a href="https://msdn.microsoft.com/c0c1c1e4-de5b-405d-abe8-33a985ce98e5">Implementing SceSvcAttachmentConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/implementing-scesvcattachmentconfig">Implementing SceSvcAttachmentConfig</a>
 </td>
 </tr>
 <tr>
 <td>Retrieving analysis information</td>
 <td>
-<a href="https://msdn.microsoft.com/f8420dde-55a2-40a0-b10d-140c28c0e9e4">Implementing SceSvcAttachmentAnalyze</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/implementing-scesvcattachmentanalyze">Implementing SceSvcAttachmentAnalyze</a>
 </td>
 </tr>
 <tr>
 <td>Retrieving configuration and analysis information</td>
 <td>
-<a href="https://msdn.microsoft.com/3c0a71f6-f643-4a5e-8b5c-15c976a3736e">Implementing SceSvcAttachmentUpdate</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/implementing-scesvcattachmentupdate">Implementing SceSvcAttachmentUpdate</a>
 </td>
 </tr>
 </table>
@@ -303,15 +303,15 @@ The Security Configuration tool set allocates buffers when <i>PFSCE_QUERY_INFO</
 
 
 
-<a href="https://msdn.microsoft.com/e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc">PFSCE_FREE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info">PFSCE_FREE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f0273df-435d-4324-b8ce-a774da935059">SCESVC_ANALYSIS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_analysis_info_">SCESVC_ANALYSIS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89ab072-7b7c-4ecd-83fa-26e2689778df">SCESVC_CONFIGURATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/ns-scesvc-_scesvc_configuration_info_">SCESVC_CONFIGURATION_INFO</a>
  
 
  

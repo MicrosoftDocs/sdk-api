@@ -129,7 +129,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/97c5fa38-e88c-debb-f3ed-76c5878778c4">DirectXMath Triangle Test Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-triangletests">DirectXMath Triangle Test Functions</a>
  
 
  

@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 Defines a name/value pair.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/a01f134d-9700-4826-9040-d5d6340241de">IValueMap::Item</a> property. 
+To get this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_item">IValueMap::Item</a> property. 
 
-To create this interface, call the <a href="https://msdn.microsoft.com/619b54a0-7015-4453-a09e-ac199eb1c581">IValueMap::CreateValueMapItem</a> method.
+To create this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-createvaluemapitem">IValueMap::CreateValueMapItem</a> method.
 
 
 ## -see-also
@@ -61,7 +61,7 @@ To create this interface, call the <a href="https://msdn.microsoft.com/619b54a0-
 
 
 
-<a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
  
 
  

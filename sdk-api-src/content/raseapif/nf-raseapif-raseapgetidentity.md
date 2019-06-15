@@ -124,7 +124,7 @@ Specifies that the user should be prompted for identity information before diali
 </td>
 <td width="60%">
 Indicates that this connection is the first link in a multilink connection. See 
-<a href="https://msdn.microsoft.com/a6aee73b-43b2-43b4-a6f1-ac7b293c44ad">Multilink and Callback Connections</a> for more information.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/multilink-and-callback-connections">Multilink and Callback Connections</a> for more information.
 
 </td>
 </tr>
@@ -185,14 +185,14 @@ Specifies the size of the user-specific data currently stored for this user in t
 ### -param ppUserDataOut [out]
 
 Pointer to a pointer that, on successful return, points to the identity data for the user. This data will be passed to the authentication protocol in the <b>pUserData</b> member of 
-<a href="https://msdn.microsoft.com/80a8f118-323d-4040-91f7-202eeee6d227">PPP_EAP_INPUT</a> during the call to 
-<a href="https://msdn.microsoft.com/f5f9be64-25c5-42c8-8a08-1457e04e3c45">RasEapBegin</a>. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> during the call to 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. 
 
 
 
 
 The authentication protocol should allocate the memory buffer for the identity data. RAS will free this memory by calling 
-<a href="https://msdn.microsoft.com/d6eb6afd-0d92-4050-b6a9-7bd90788e01c">RasEapFreeMemory</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>.
 
 
 ### -param pdwSizeOfUserDataOut [out]
@@ -203,8 +203,8 @@ Pointer to a <b>DWORD</b> variable that receives the size of the data pointed to
 ### -param ppwszIdentityOut [out]
 
 Pointer to a pointer that, on successful return, points to a null-terminated Unicode string that identifies the user requesting authentication. This string is passed to the authentication protocol in the <b>pszIdentity</b> member of 
-<a href="https://msdn.microsoft.com/80a8f118-323d-4040-91f7-202eeee6d227">PPP_EAP_INPUT</a> during the call to 
-<a href="https://msdn.microsoft.com/f5f9be64-25c5-42c8-8a08-1457e04e3c45">RasEapBegin</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> during the call to 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>.
 
 
 ## -returns
@@ -228,26 +228,26 @@ If the function fails in some other way, the return value should be an appropria
 
 The DLL that implements 
 <b>RasEapGetIdentity</b> and 
-<a href="https://msdn.microsoft.com/d6eb6afd-0d92-4050-b6a9-7bd90788e01c">RasEapFreeMemory</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which protocol to invoke the identity user interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which protocol to invoke the identity user interface.
 
 The IEEE 802.1X and PPP protocols do not call 
 <b>RasEapGetIdentity</b> without an implementation of 
-<a href="https://msdn.microsoft.com/d6eb6afd-0d92-4050-b6a9-7bd90788e01c">RasEapFreeMemory</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>.
 
 The authentication protocol receives the data returned from 
 <b>RasEapGetIdentity</b> in the <b>pUserData</b> member of 
-<a href="https://msdn.microsoft.com/80a8f118-323d-4040-91f7-202eeee6d227">PPP_EAP_INPUT</a> during 
-<a href="https://msdn.microsoft.com/f5f9be64-25c5-42c8-8a08-1457e04e3c45">RasEapBegin</a>. To store the data for this user in the registry, the authentication protocol should set the <b>pUserData</b> member of 
-<a href="https://msdn.microsoft.com/d1634973-f6af-4be3-914a-513098c5fccf">PPP_EAP_OUTPUT</a> to point to the data, and the <b>fSaveUserData</b> member of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a> during 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363520(v=vs.85)">RasEapBegin</a>. To store the data for this user in the registry, the authentication protocol should set the <b>pUserData</b> member of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_output">PPP_EAP_OUTPUT</a> to point to the data, and the <b>fSaveUserData</b> member of 
 <b>PPP_EAP_OUTPUT</b> to <b>TRUE</b>.
 
 This function is called by the RAS function, 
-<a href="https://msdn.microsoft.com/b1b44672-86f3-4d8b-b816-31167a84b05a">RasGetEapUserIdentity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuseridentitya">RasGetEapUserIdentity</a>.
 
 If 
 <b>RasEapGetIdentity</b> displays a user interface, the user interface must support 
-<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages where 
-<a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages where 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 
 
@@ -257,31 +257,31 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/090a3620-3732-4466-95ac-ce9cbdd36484">EAP Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-functions">EAP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3cb25ce-6fb9-4fca-8662-3efef14238a5">Extensible Authentication Protocol Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/773c9fdb-c810-4cea-afed-df6484a9c9c9">Obtaining Identity Information</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/obtaining-identity-information">Obtaining Identity Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a8f118-323d-4040-91f7-202eeee6d227">PPP_EAP_INPUT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6eb6afd-0d92-4050-b6a9-7bd90788e01c">RasEapFreeMemory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e38c155-2fa0-42c8-a843-c90e4f3f8854">RasEapMakeMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1b44672-86f3-4d8b-b816-31167a84b05a">RasGetEapUserIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuseridentitya">RasGetEapUserIdentity</a>
  
 
  

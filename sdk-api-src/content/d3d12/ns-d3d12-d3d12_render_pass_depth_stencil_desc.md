@@ -59,7 +59,7 @@ Describes a binding (fixed for the duration of the render pass) to a depth stenc
 
 ### -field cpuDescriptor
 
-A <a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a>. The CPU descriptor handle corresponding to the depth stencil view (DSV).
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a>. The CPU descriptor handle corresponding to the depth stencil view (DSV).
 
 
 ### -field DepthBeginningAccess
@@ -87,7 +87,7 @@ A <a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ns-d3d12-d
 
 
 
-<a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
  
 
  

@@ -61,7 +61,7 @@ Locks an already running object into its running state or unlocks it from its ru
 
 ### -param pUnknown [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the object, which the function uses to query for a pointer to <a href="https://msdn.microsoft.com/c682447b-5b12-41d5-a81d-fe94a117f740">IRunnableObject</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object, which the function uses to query for a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a>.
 
 
 ### -param fLock [in]
@@ -128,11 +128,11 @@ An unexpected error occurred.
 
 
 
-The <b>OleLockRunning</b> function saves you the trouble of calling the <a href="https://msdn.microsoft.com/ce501785-16ad-4120-abea-41e2d6ca67df">IRunnableObject::LockRunning</a> method. You can use <b>OleLockRunning</b> and <b>IRunnableObject::LockRunning</b> interchangeably. With the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer passed in with the <i>pUnknown</i> parameter, <b>OleLockRunning</b> queries for an <a href="https://msdn.microsoft.com/c682447b-5b12-41d5-a81d-fe94a117f740">IRunnableObject</a> pointer. If successful, it calls <b>IRunnableObject::LockRunning</b> and returns the results of the call.
+The <b>OleLockRunning</b> function saves you the trouble of calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-lockrunning">IRunnableObject::LockRunning</a> method. You can use <b>OleLockRunning</b> and <b>IRunnableObject::LockRunning</b> interchangeably. With the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer passed in with the <i>pUnknown</i> parameter, <b>OleLockRunning</b> queries for an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> pointer. If successful, it calls <b>IRunnableObject::LockRunning</b> and returns the results of the call.
 
 
 
-For more information on using this function, see <a href="https://msdn.microsoft.com/ce501785-16ad-4120-abea-41e2d6ca67df">IRunnableObject::LockRunning</a>.
+For more information on using this function, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-lockrunning">IRunnableObject::LockRunning</a>.
 
 
 
@@ -142,15 +142,15 @@ For more information on using this function, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/36eb55f1-06de-49ad-8a8d-91693ca92e99">CoLockObjectExternal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal">CoLockObjectExternal</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce501785-16ad-4120-abea-41e2d6ca67df">IRunnableObject::LockRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-lockrunning">IRunnableObject::LockRunning</a>
 
 
 
-<a href="https://msdn.microsoft.com/f140f068-3115-4389-b67b-6d41d12f7525">OleNoteObjectVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olenoteobjectvisible">OleNoteObjectVisible</a>
  
 
  

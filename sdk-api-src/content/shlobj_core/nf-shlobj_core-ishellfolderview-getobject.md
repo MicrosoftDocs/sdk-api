@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetObject</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://msdn.microsoft.com/c130ef36-1255-4c57-be31-7fc2029d9f66">IFolderView::Item</a>.]
+<p class="CCE_Message">[<b>GetObject</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-item">IFolderView::Item</a>.]
 
 Gets an item from the view.
 

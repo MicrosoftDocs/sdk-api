@@ -55,14 +55,14 @@ ms.custom: 19H1
 
 The <b>IWMDRMTranscryptor</b> interface transforms a DRM-protected ASF file into a secure data stream conforming to the Windows Media DRM 10 for Network Devices protocol. The resulting stream can be sent to devices that support Windows Media DRM 10 for Network Devices.
 
-<b>IWMDRMTranscryptor</b> is the primary interface of the DRM transcryptor object. You can obtain a pointer to an instance of this interface by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd757751(v=VS.85).aspx">WMCreateDRMTranscryptor</a> function.
+<b>IWMDRMTranscryptor</b> is the primary interface of the DRM transcryptor object. You can obtain a pointer to an instance of this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatedrmtranscryptor">WMCreateDRMTranscryptor</a> function.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMTranscryptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMDRMTranscryptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMTranscryptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMTranscryptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IWMDRMTranscryptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798368(v=VS.85).aspx">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-close">Close</a>
 </td>
 <td align="left" width="63%">
 Removes the file from the transcryptor and releases all associated resources.
@@ -86,7 +86,7 @@ Removes the file from the transcryptor and releases all associated resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798369(v=VS.85).aspx">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Loads a file into the transcryptor.
@@ -95,7 +95,7 @@ Loads a file into the transcryptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798370(v=VS.85).aspx">Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">Read</a>
 </td>
 <td align="left" width="63%">
 Generates encrypted data for streaming to devices that support Windows Media DRM 10 for Network Devices from the file loaded in the transcryptor.
@@ -104,7 +104,7 @@ Generates encrypted data for streaming to devices that support Windows Media DRM
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd798371(v=VS.85).aspx">Seek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-seek">Seek</a>
 </td>
 <td align="left" width="63%">
 Sets the transcryptor to a point in the data stream of the loaded ASF file. Subsequent reads will begin from this point in the file.
@@ -118,9 +118,9 @@ Sets the transcryptor to a point in the data stream of the loaded ASF file. Subs
 
 
 
-The DRM transcryptor is initialized after a policy request message is sent by a device. You can parse a license request and obtain the device certificate, the device serial number, and the requested action by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798322(v=VS.85).aspx">IWMDRMMessageParser::ParseLicenseRequestMsg</a>.
+The DRM transcryptor is initialized after a policy request message is sent by a device. You can parse a license request and obtain the device certificate, the device serial number, and the requested action by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmmessageparser-parselicenserequestmsg">IWMDRMMessageParser::ParseLicenseRequestMsg</a>.
 
-The methods of the <b>IWMDRMTranscryptor</b> interface use the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method to inform the application of progress. For more information, see <a href="https://msdn.microsoft.com/098cb90b-8c21-4692-a4f9-bacce042520a">Using the Callback Methods</a>.
+The methods of the <b>IWMDRMTranscryptor</b> interface use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method to inform the application of progress. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/using-the-callback-methods">Using the Callback Methods</a>.
 
 
 
@@ -130,7 +130,7 @@ The methods of the <b>IWMDRMTranscryptor</b> interface use the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

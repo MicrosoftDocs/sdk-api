@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the main module names multistring array associated with the type name offset information in the <b>dwTypeNameMainOffset</b> member of a <a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a> structure.
+Gets the main module names multistring array associated with the type name offset information in the <b>dwTypeNameMainOffset</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the main module names multistring array associated with the type name offse
 
 ### -param pInfo
 
-Pointer to the <a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure.
 
 
 ## -see-also
@@ -67,15 +67,15 @@ Pointer to the <a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f
 
 
 
-<a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d910d922-33f5-48ff-be0a-1ac11a13383a">Multilingual User Interface Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-macros">Multilingual User Interface Macros</a>
  
 
  

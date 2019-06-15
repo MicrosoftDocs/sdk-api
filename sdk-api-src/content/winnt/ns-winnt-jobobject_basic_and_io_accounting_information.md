@@ -60,13 +60,13 @@ Contains basic accounting and I/O accounting information for a job object.
 ### -field BasicInfo
 
 A 
-<a href="https://msdn.microsoft.com/84dbe191-a5bf-4f55-815f-c4f2e60da22b">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a> structure that specifies the basic accounting information for the job.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a> structure that specifies the basic accounting information for the job.
 
 
 ### -field IoInfo
 
 An 
-<a href="https://msdn.microsoft.com/78729cbe-5256-4939-a7cc-c393662f8361">IO_COUNTERS</a> structure that specifies the I/O accounting information for the job. The structure includes information for all processes that have ever been associated with the job, in addition to the information for all processes currently associated with the job.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_io_counters">IO_COUNTERS</a> structure that specifies the I/O accounting information for the job. The structure includes information for all processes that have ever been associated with the job, in addition to the information for all processes currently associated with the job.
 
 
 ## -see-also
@@ -74,15 +74,15 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/78729cbe-5256-4939-a7cc-c393662f8361">IO_COUNTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_io_counters">IO_COUNTERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/84dbe191-a5bf-4f55-815f-c4f2e60da22b">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/d843d578-fd67-4708-959f-00245ff70ec6">QueryInformationJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
  
 
  

@@ -105,11 +105,11 @@ The buffer size is equal to the bit rate of the stream multiplied by the buffer 
 
 
 
-<a href="https://msdn.microsoft.com/93a0169e-39fe-4152-8698-72a0650be41a">IWMCodecLeakyBucket Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket">IWMCodecLeakyBucket Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b602e8ca-8446-4f94-bcd0-193084d96565">IWMCodecLeakyBucket::SetBufferSizeBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-setbuffersizebits">IWMCodecLeakyBucket::SetBufferSizeBits</a>
  
 
  

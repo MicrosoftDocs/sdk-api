@@ -66,9 +66,9 @@ Specifies a BOOL that determines if NV12 textures can be shared across processes
 
 
 
-Use this structure with the D3D11_FEATURE_D3D11_OPTIONS4 member of <a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>. 
+Use this structure with the D3D11_FEATURE_D3D11_OPTIONS4 member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature">D3D11_FEATURE</a>. 
 
-Refer to the section on NV12 in <a href="https://msdn.microsoft.com/689A0460-5725-4C48-B960-41FE20499082">Direct3D 11.4 Features</a>.
+Refer to the section on NV12 in <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-4-features">Direct3D 11.4 Features</a>.
 
 
 
@@ -78,7 +78,7 @@ Refer to the section on NV12 in <a href="https://msdn.microsoft.com/689A0460-572
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

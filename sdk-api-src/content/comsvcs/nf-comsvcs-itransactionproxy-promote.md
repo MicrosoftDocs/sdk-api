@@ -86,7 +86,7 @@ Reasons for promoting a non-DTC transaction to a DTC transaction include exporti
 
 
 
-<a href="https://msdn.microsoft.com/58d40456-fd4f-4690-a679-3fa58b2f3cda">ITransactionProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproxy">ITransactionProxy</a>
  
 
  

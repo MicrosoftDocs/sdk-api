@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-To set the volume name, call the <a href="https://msdn.microsoft.com/afb87eb1-5d14-413a-8830-2612920eac3d">IFileSystemImage::put_VolumeName</a> method.
+To set the volume name, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a> method.
 
 
 
@@ -106,15 +106,15 @@ To set the volume name, call the <a href="https://msdn.microsoft.com/afb87eb1-5d
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/57d66dd3-2525-4102-bba7-00bad76a3d9c">IFileSystemImage::get_ImportedVolumeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename">IFileSystemImage::get_ImportedVolumeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/afb87eb1-5d14-413a-8830-2612920eac3d">IFileSystemImage::put_VolumeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a>
  
 
  

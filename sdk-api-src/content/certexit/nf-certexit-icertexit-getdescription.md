@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetDescription</b> method returns a human-readable description of the exit module and its function. This method was first defined in the  <a href="https://msdn.microsoft.com/731c4f3c-20b4-4f3d-8241-a94cdf656fe5">ICertExit</a> interface.
+The <b>GetDescription</b> method returns a human-readable description of the exit module and its function. This method was first defined in the  <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a> interface.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A pointer to the <b>BSTR</b> that describes the exit module.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a string that describes the exit module and its function.
@@ -126,11 +126,11 @@ CCertExit::GetDescription(
 
 
 
-<a href="https://msdn.microsoft.com/731c4f3c-20b4-4f3d-8241-a94cdf656fe5">ICertExit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9d66aeb-b596-4d50-9c07-b760cdf4f8c0">ICertExit2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
  
 
  

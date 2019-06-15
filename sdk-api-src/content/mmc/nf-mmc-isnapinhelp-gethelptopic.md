@@ -82,7 +82,7 @@ The topic hierarchy from the snap-in's Help file will appear in the table of con
 By merging the HTML Help files, MMC creates a single, integrated HTML Help table of contents, index, and search feature. When a user clicks Help on Microsoft Management Console on the main 
 <b>Help</b> menu, MMC opens the merged Help file that includes HTML Help files for all snap-ins in the current console file.
 
-Allocate the <i>lpCompiledHelpFile</i> string with the COM API function <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
+Allocate the <i>lpCompiledHelpFile</i> string with the COM API function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
 
 
 #### Examples
@@ -120,23 +120,23 @@ STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
 
 
 
-<a href="https://msdn.microsoft.com/87387cf5-ff5f-4816-8c96-97a7ae25df94">Adding HTML Help Support</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-html-help-support">Adding HTML Help Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/184adc09-8b48-4a2e-bbd9-ec6bd9085c32">IDisplayHelp::ShowTopic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-idisplayhelp-showtopic">IDisplayHelp::ShowTopic</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300864(v=VS.85).aspx">ISnapinHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinhelp">ISnapinHelp</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3b0fa86-dff4-4c35-9b08-633448db18be">MMCPropertyHelp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcpropertyhelp">MMCPropertyHelp</a>
 
 
 
-<a href="https://msdn.microsoft.com/01a13430-e64e-4e3a-8db9-1d42ad9b32bb">Providing MUI-Compliant Help Files</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/providing-mui-compliant-help-files">Providing MUI-Compliant Help Files</a>
  
 
  

@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-IXAudio2 is the interface for the <a href="https://msdn.microsoft.com/87557bb3-9d92-c85e-4e7a-d21af03db624">XAudio2</a> object that manages all audio engine states, the audio processing thread, the voice graph, and so forth. 
+IXAudio2 is the interface for the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> object that manages all audio engine states, the audio processing thread, the voice graph, and so forth. 
 
-This is the only XAudio2 interface that is derived from the COM <b>IUnknown</b> interface. It controls the lifetime of the <a href="https://msdn.microsoft.com/87557bb3-9d92-c85e-4e7a-d21af03db624">XAudio2</a> object using two methods derived from <b>IUnknown</b>: <a href="https://msdn.microsoft.com/en-us/library/Ee418601(v=VS.85).aspx">IXAudio2::AddRef</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee418622(v=VS.85).aspx">IXAudio2::Release</a>. No other XAudio2 objects are reference-counted; their lifetimes are explicitly controlled using <i>create</i> and <i>destroy</i> calls, and are bounded by the lifetime of the XAudio2 object that owns them.
+This is the only XAudio2 interface that is derived from the COM <b>IUnknown</b> interface. It controls the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> object using two methods derived from <b>IUnknown</b>: <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-addref">IXAudio2::AddRef</a> and <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-release">IXAudio2::Release</a>. No other XAudio2 objects are reference-counted; their lifetimes are explicitly controlled using <i>create</i> and <i>destroy</i> calls, and are bounded by the lifetime of the XAudio2 object that owns them.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2 Interface</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXAudio2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXAudio2 Interface</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXAudio2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IXAudio2 Interface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418601(v=VS.85).aspx">AddRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-addref">AddRef</a>
 </td>
 <td align="left" width="63%">
 Adds a reference to the XAudio2 object.
@@ -81,7 +81,7 @@ Adds a reference to the XAudio2 object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418603(v=VS.85).aspx">CommitChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-commitchanges">CommitChanges</a>
 </td>
 <td align="left" width="63%">
 Atomically applies a set of operations that are tagged with a given identifier.
@@ -90,7 +90,7 @@ Atomically applies a set of operations that are tagged with a given identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh405048(v=VS.85).aspx">CreateMasteringVoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice">CreateMasteringVoice</a>
 </td>
 <td align="left" width="63%">
 Creates and configures a mastering voice.
@@ -99,7 +99,7 @@ Creates and configures a mastering voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx">CreateSourceVoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">CreateSourceVoice</a>
 </td>
 <td align="left" width="63%">
 Creates and configures a source voice.
@@ -108,7 +108,7 @@ Creates and configures a source voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418608(v=VS.85).aspx">CreateSubmixVoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice">CreateSubmixVoice</a>
 </td>
 <td align="left" width="63%">
 Creates and configures a submix voice.
@@ -117,7 +117,7 @@ Creates and configures a submix voice.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418615(v=VS.85).aspx">GetPerformanceData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata">GetPerformanceData</a>
 </td>
 <td align="left" width="63%">
 Returns current resource usage details, such as available memory or CPU usage.
@@ -126,7 +126,7 @@ Returns current resource usage details, such as available memory or CPU usage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418619(v=VS.85).aspx">QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-queryinterface">QueryInterface</a>
 </td>
 <td align="left" width="63%">
 Queries for a given COM interface on the XAudio2 object.
@@ -135,16 +135,16 @@ Queries for a given COM interface on the XAudio2 object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418620(v=VS.85).aspx">RegisterForCallbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-registerforcallbacks">RegisterForCallbacks</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> pointer to the <b>XAudio2</b> engine callback list.
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a> pointer to the <b>XAudio2</b> engine callback list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418622(v=VS.85).aspx">Release</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-release">Release</a>
 </td>
 <td align="left" width="63%">
 Releases a reference to the XAudio2 object.
@@ -153,7 +153,7 @@ Releases a reference to the XAudio2 object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418624(v=VS.85).aspx">SetDebugConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-setdebugconfiguration">SetDebugConfiguration</a>
 </td>
 <td align="left" width="63%">
 Changes global debug logging options for XAudio2.
@@ -162,7 +162,7 @@ Changes global debug logging options for XAudio2.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418626(v=VS.85).aspx">StartEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine">StartEngine</a>
 </td>
 <td align="left" width="63%">
 Starts the audio processing thread.
@@ -171,7 +171,7 @@ Starts the audio processing thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418628(v=VS.85).aspx">StopEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-stopengine">StopEngine</a>
 </td>
 <td align="left" width="63%">
 Stops the audio processing thread.
@@ -180,10 +180,10 @@ Stops the audio processing thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418630(v=VS.85).aspx">UnregisterForCallbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-unregisterforcallbacks">UnregisterForCallbacks</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://msdn.microsoft.com/en-us/library/Ee415910(v=VS.85).aspx">IXAudio2EngineCallback</a> pointer from the <b>XAudio2</b> engine callback list.
+Removes an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2enginecallback">IXAudio2EngineCallback</a> pointer from the <b>XAudio2</b> engine callback list.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 
 
-<a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">XAudio2 Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
  
 
  

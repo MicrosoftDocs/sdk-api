@@ -50,12 +50,12 @@ ms.custom: 19H1
 
 
 Initiates a mirror operation for a virtual disk.  Once the mirroring operation is initiated 
-    it will not complete until either <a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a> or 
-    <a href="https://msdn.microsoft.com/a2ce13b8-7da6-4848-848d-901d9667c2e3">CancelIoEx</a> is called to cancel all I/O on the 
+    it will not complete until either <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a> or 
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> is called to cancel all I/O on the 
     <i>VirtualDiskHandle</i>, leaving the original file as the current  or 
-    <a href="https://msdn.microsoft.com/en-us/library/Hh448676(v=VS.85).aspx">BreakMirrorVirtualDisk</a> is called to stop using 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-breakmirrorvirtualdisk">BreakMirrorVirtualDisk</a> is called to stop using 
     the original file and only use the mirror. 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> can be 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> can be 
     used to determine if the disks are fully mirrored and writes go to both virtual disks.
 
 
@@ -67,13 +67,13 @@ Initiates a mirror operation for a virtual disk.  Once the mirroring operation i
 ### -param VirtualDiskHandle [in]
 
 A handle to the open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param Flags [in]
 
 A valid combination of values from the 
-      <a href="https://msdn.microsoft.com/en-us/library/Hh448679(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_mirror_virtual_disk_flag">MIRROR_VIRTUAL_DISK_FLAG</a> enumeration.
 
 <table>
 <tr>
@@ -109,14 +109,14 @@ Create the mirror using an existing file.
 ### -param Parameters [in]
 
 Address of a 
-      <a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
       containing mirror parameter data.
 
 
 ### -param Overlapped [in]
 
 Address of an 
-     <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>structure. This parameter is required.
+     <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>structure. This parameter is required.
 
 
 ## -returns
@@ -128,7 +128,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -138,15 +138,15 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448679(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_mirror_virtual_disk_flag">MIRROR_VIRTUAL_DISK_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_mirror_virtual_disk_parameters">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/79c3b3ad-4eaf-49ce-a8ee-b26faf6c2cba">VHD Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
  
 
  

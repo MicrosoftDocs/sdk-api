@@ -72,7 +72,7 @@ The name of the part of speech.
 
 
 
-<a href="https://msdn.microsoft.com/0453B37B-A73A-4CD8-AD09-49B9A65B9FD6">IFEDictionary::GetPosTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getpostable">IFEDictionary::GetPosTable</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[IUnknown_AddRef_Proxy is not supported and may be altered or unavailable in the future.]
 
-The <b>IUnknown_AddRef_Proxy</b> function implements the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method for all interface proxies.
+The <b>IUnknown_AddRef_Proxy</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method for all interface proxies.
 
 
 ## -parameters

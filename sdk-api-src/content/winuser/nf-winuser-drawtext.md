@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 The <b>DrawText</b> function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth).
 
-To specify additional formatting options, use the <a href="https://msdn.microsoft.com/77b9973b-77f1-4508-a021-52d61d576c23">DrawTextEx</a> function.
+To specify additional formatting options, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
 
 
 ## -parameters
@@ -414,20 +414,20 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
-<a href="https://msdn.microsoft.com/77b9973b-77f1-4508-a021-52d61d576c23">DrawTextEx
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b14b8c40-f97f-4e41-8d8d-687692acfda9">GrayString
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString
       </a>
 
 
@@ -437,12 +437,12 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
-<a href="https://msdn.microsoft.com/1cb78a75-752d-4e06-afdf-cd797f209114">TabbedTextOut
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6">TextOut
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut
       </a>
  
 

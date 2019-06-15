@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CurveChannel</b> enumeration specifies which color channels are affected by a <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> bitmap adjustment.
+The <b>CurveChannel</b> enumeration specifies which color channels are affected by a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> bitmap adjustment.
 
 
 ## -enum-fields

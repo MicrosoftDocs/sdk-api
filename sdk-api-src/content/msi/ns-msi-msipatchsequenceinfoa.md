@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MSIPATCHSEQUENCEINFO</b> structure  is used by the <a href="https://msdn.microsoft.com/f82e7d42-f0cd-4d25-b56f-7e423cb64cfd">MsiDeterminePatchSequence</a> and <a href="https://msdn.microsoft.com/2362d1dd-695e-48a3-b8ef-4516952ed253">MsiDetermineApplicablePatches</a> functions.
+The <b>MSIPATCHSEQUENCEINFO</b> structure  is used by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a> functions.
 
 
 ## -struct-fields
@@ -125,15 +125,15 @@ Set to ERROR_SUCCESS or the corresponding Win32 error code.
 
 
 
-<a href="https://msdn.microsoft.com/2362d1dd-695e-48a3-b8ef-4516952ed253">MsiDetermineApplicablePatches</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a>
 
 
 
-<a href="https://msdn.microsoft.com/f82e7d42-f0cd-4d25-b56f-7e423cb64cfd">MsiDeterminePatchSequence</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msideterminepatchsequencea">MsiDeterminePatchSequence</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
  
 
  

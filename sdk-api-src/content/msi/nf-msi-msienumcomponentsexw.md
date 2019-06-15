@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>MsiEnumComponentsEx</b> function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language. 
 
 
-<b><a href="https://msdn.microsoft.com/89662e62-53fb-4b50-8583-80518c6fda6d">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
+<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
 
 
 
@@ -274,7 +274,7 @@ This parameter can be set to <b>NULL</b> only if <i>szSid</i> is also <b>NULL</b
 
 
 
-The <a href="https://msdn.microsoft.com/33daeadc-021f-403e-808b-81a9915ae854">MsiEnumProductsEx</a> function returns one of the following values.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumproductsexa">MsiEnumProductsEx</a> function returns one of the following values.
 
 <table>
 <tr>

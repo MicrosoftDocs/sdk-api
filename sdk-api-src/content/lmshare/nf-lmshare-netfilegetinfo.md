@@ -90,7 +90,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the file identification number. The <i>bufptr</i> parameter is a pointer to a 
-<a href="https://msdn.microsoft.com/c80090d5-7064-4809-9185-02116f7ac2ef">FILE_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_2">FILE_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Return the file identification number. The <i>bufptr</i> parameter is a pointer 
 </td>
 <td width="60%">
 Return the file identification number and other information about the file. The <i>bufptr</i> parameter is a pointer to a 
-<a href="https://msdn.microsoft.com/67f5fa89-12c7-46fb-a118-de4bfed96923">FILE_INFO_3</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_3">FILE_INFO_3</a> structure.
 
 </td>
 </tr>
@@ -112,9 +112,9 @@ Return the file identification number and other information about the file. The 
 ### -param bufptr [out]
 
 Pointer to the address of the buffer that receives the information. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ## -returns
@@ -199,12 +199,12 @@ Only members of the Administrators or Server Operators local group can successfu
 <b>NetFileGetInfo</b> function.
 
 You can call the 
-<a href="https://msdn.microsoft.com/1375b337-efb0-4be1-94f7-473456a825b5">NetFileEnum</a> function to retrieve information about multiple files open on a server.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a> function to retrieve information about multiple files open on a server.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling 
 <b>NetFileGetInfo</b>. For more information, see 
-<a href="https://msdn.microsoft.com/217749a4-55dc-457f-8582-1513ff3b0666">IADsResource</a> and 
-<a href="https://msdn.microsoft.com/91335658-8efb-4945-9862-f72e78d749d6">IADsFileServiceOperations</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
 
 
 
@@ -214,29 +214,29 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 
 
-<a href="https://msdn.microsoft.com/c80090d5-7064-4809-9185-02116f7ac2ef">FILE_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_2">FILE_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/67f5fa89-12c7-46fb-a118-de4bfed96923">FILE_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_3">FILE_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbcdad6e-80dd-49f0-9d69-a82a7010f10b">NetFile
+<a href="https://docs.microsoft.com/windows/desktop/NetShare/netfile-functions">NetFile
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1375b337-efb0-4be1-94f7-473456a825b5">NetFileEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

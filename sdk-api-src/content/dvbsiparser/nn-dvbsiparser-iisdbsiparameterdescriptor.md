@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbSIParameterDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbSIParameterDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbSIParameterDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbSIParameterDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbSIParameterDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e4ac80d-30a9-4879-9cd3-a3964c675b27">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of  an ISDB SI parameter descriptor. 
@@ -78,7 +78,7 @@ Gets the body length of  an ISDB SI parameter descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ca9d5d3-d96f-4437-9d22-0166a3fbc593">GetParameterVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getparameterversion">GetParameterVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the version number of a parameter from an ISDB SI parameter descriptor. 
@@ -87,7 +87,7 @@ Gets the version number of a parameter from an ISDB SI parameter descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12f7af61-494e-4597-8672-47ea9552be62">GetRecordNumberOfTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getrecordnumberoftable">GetRecordNumberOfTable</a>
 </td>
 <td align="left" width="63%">
 Gets the number of table descriptors in an ISDB SI parameter descriptor. 
@@ -96,7 +96,7 @@ Gets the number of table descriptors in an ISDB SI parameter descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd73b221-b7b5-43c8-bbdf-f1ea559a0a4e">GetTableDescriptionBytes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-gettabledescriptionbytes">GetTableDescriptionBytes</a>
 </td>
 <td align="left" width="63%">
 Gets description data from a table descriptor in an ISDB SI parameter descriptor. 
@@ -105,7 +105,7 @@ Gets description data from a table descriptor in an ISDB SI parameter descriptor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3dc78381-ac39-4e88-bfe2-bfb91c993576">GetTableDescriptionLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-gettabledescriptionlength">GetTableDescriptionLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a table descriptor in an ISDB SI parameter descriptor. 
@@ -114,7 +114,7 @@ Gets the body length of a table descriptor in an ISDB SI parameter descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43b19e3d-20b0-4356-9c84-f47006635e2c">GetTableId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-gettableid">GetTableId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier for a table descriptor in an ISDB SI parameter descriptor. 
@@ -123,7 +123,7 @@ Gets an identifier for a table descriptor in an ISDB SI parameter descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d38b158-39b0-4960-b392-086595680133">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
  Gets the tag that identifies an ISDB SI parameter descriptor. 
@@ -132,7 +132,7 @@ Gets an identifier for a table descriptor in an ISDB SI parameter descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9cfe8387-4edf-453b-b41b-768496eae76c">GetUpdateTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getupdatetime">GetUpdateTime</a>
 </td>
 <td align="left" width="63%">
 Gets the time at which a parameter becomes valid from an ISDB SI parameter descriptor. 

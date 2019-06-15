@@ -60,7 +60,7 @@ The <b>IGPMSecurityInfo</b> interface defines the methods of
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSecurityInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMSecurityInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSecurityInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSecurityInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -76,7 +76,7 @@ The <b>IGPMSecurityInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d180a4ed-7c7d-4df9-a2a4-7aab46446283">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a specified permission to the <b>GPMSecurityInfo</b> 
@@ -86,7 +86,7 @@ Adds a specified permission to the <b>GPMSecurityInfo</b>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/187ae17c-82c0-4439-8b98-52ba0571d222">Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a permission level for a trustee from the 
@@ -96,7 +96,7 @@ Removes a permission level for a trustee from the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e290648d-f480-4834-93a3-4759da581611">RemoveTrustee</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-removetrustee">RemoveTrustee</a>
 </td>
 <td align="left" width="63%">
 Removes all permissions for the given trustee from the 
@@ -115,7 +115,7 @@ Removes all permissions for the given trustee from the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f8dc2ee1-d1cb-4e7a-abf4-1a388320b681">_NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -132,7 +132,7 @@ Retrieves an interface on an enumerator object for the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e3e3b906-9045-4697-80ae-509b22094790">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-get_count">Count</a>
 
 
 </td>
@@ -141,7 +141,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Number of <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">GPMPermission</a> objects in the 
+Number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> objects in the 
      <b>GPMSecurityInfo</b> collection.
 
 </td>
@@ -156,7 +156,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves a specific <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">GPMPermission</a> object from the 
+Retrieves a specific <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> object from the 
      <b>GPMSecurityInfo</b> collection.
 
 </td>
@@ -271,17 +271,17 @@ The interface divides the policy-related permissions into categories. The follow
  
 
 The <b>GPMSecurityInfo</b> collection represents a 
-    collection of <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">GPMPermission</a> objects for a particular SOM, 
+    collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> objects for a particular SOM, 
     GPO, or WMI filter. Note however, that although the 
     <b>GPMSecurityInfo</b> object is a collection object, it is not 
     a typical collection object. This is because no action occurs if the 
-    <a href="https://msdn.microsoft.com/d180a4ed-7c7d-4df9-a2a4-7aab46446283">Add</a> method attempts to add a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-add">Add</a> method attempts to add a 
     <b>GPMPermission</b> object for a trustee and the permission is 
     below the level of an existing permission for that trustee. For more information, see the 
     <b>Add</b> method.
 
 For more information about policy-related permissions, see 
-    <a href="https://msdn.microsoft.com/8da90ca3-1c81-414f-b1a0-a0dfcae745ba">IGPM::CreatePermission</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a>.
 
 
 
@@ -291,15 +291,15 @@ For more information about policy-related permissions, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb">IGPMTrustee</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 MMCPropertyChangeNotify function enables a snap-in property sheet to notify its 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> or 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a> interface that an item's properties have changed.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface that an item's properties have changed.
 
 Property sheets run in a different thread than their 
 IComponent and 
@@ -69,8 +69,8 @@ IComponentData associated with the property page whose properties have changed.
 ### -param lNotifyHandle [in]
 
 A value that specifies the handle used to route the notification message to the appropriate 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> or 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.
 
 
 ### -param param [in]
@@ -91,10 +91,10 @@ This callback function can return one of these values.
 
 
 
-This is the handle passed to <a href="https://msdn.microsoft.com/14c4f088-ad94-48a1-8c6d-a199b2938074">IExtendPropertySheet2::CreatePropertyPages</a>.
+This is the handle passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a>.
 
 A call to 
-<i>MMCPropertyChangeNotify</i> causes an <a href="https://msdn.microsoft.com/4b1c6d78-23b1-4b5a-b913-8a7153471785">MMCN_PROPERTY_CHANGE</a> notification to be sent to the snap-in.
+<i>MMCPropertyChangeNotify</i> causes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a> notification to be sent to the snap-in.
 
 The <i>param</i> value that is passed to 
 <i>MMCPropertyChangeNotify</i> is, in turn, forwarded to the snap-in as the <i>param</i> argument to MMCN_PROPERTY_CHANGE.
@@ -107,15 +107,15 @@ The <i>param</i> value that is passed to
 
 
 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/9beb0a0a-b3bf-46d0-b10c-0fc3ab25c18d">IExtendPropertySheet2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendpropertysheet2">IExtendPropertySheet2</a>
 
 
 
-<a href="https://msdn.microsoft.com/92802835-4324-4678-be9c-51dc9ca27576">MMCFreeNotifyHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-mmcfreenotifyhandle">MMCFreeNotifyHandle</a>
  
 
  

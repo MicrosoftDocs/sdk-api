@@ -64,7 +64,7 @@ Uses a Gopher locator and search criteria to create a session with the server an
 ### -param hConnect [in]
 
 Handle to a Gopher session returned by 
-<a href="https://msdn.microsoft.com/42b5d733-dccd-4c9d-8820-e358e033077c">InternetConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
 
 
 ### -param lpszLocator [in]
@@ -74,10 +74,10 @@ Pointer to a <b>null</b>-terminated string that contains the name of the item to
 
 <ul>
 <li>Gopher locator returned by a previous call to this function or the 
-<a href="https://msdn.microsoft.com/7c53e399-b8a5-4cc0-9ef6-88d9a525d87f">InternetFindNextFile</a> function.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a> function.</li>
 <li><b>NULL</b> pointer or empty string indicating that the topmost information from a Gopher server is being returned.</li>
 <li>Locator created by the 
-<a href="https://msdn.microsoft.com/972a4ff9-efda-4784-9ac8-c76e679e8032">GopherCreateLocator</a> function.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gophercreatelocatora">GopherCreateLocator</a> function.</li>
 </ul>
 
 ### -param lpszSearchString [in]
@@ -88,7 +88,7 @@ Pointer to a buffer that contains the strings to search, if this request is to a
 ### -param lpFindData [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/53bcba70-2d6a-465a-86ec-4b11b1474ee1">GOPHER_FIND_DATA</a> structure that receives the information retrieved by this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-gopher_find_dataa">GOPHER_FIND_DATA</a> structure that receives the information retrieved by this function.
 
 
 ### -param dwFlags [in]
@@ -169,8 +169,8 @@ Pointer to a variable that contains the application-defined value that associate
 
 
 Returns a valid search handle if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> or 
-<a href="https://msdn.microsoft.com/0aa274c5-0aa0-4eb9-8aef-3128e735759d">InternetGetLastResponseInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetlastresponseinfoa">InternetGetLastResponseInfo</a>.
 
 
 
@@ -179,20 +179,20 @@ Returns a valid search handle if successful, or <b>NULL</b> otherwise. To retrie
 
 
 
-<b>GopherFindFirstFile</b> closely resembles the <a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a> function. It creates a connection with a Gopher server, and then returns a single structure containing information about the first Gopher object referenced by the locator string.
+<b>GopherFindFirstFile</b> closely resembles the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> function. It creates a connection with a Gopher server, and then returns a single structure containing information about the first Gopher object referenced by the locator string.
 
 After calling 
 <b>GopherFindFirstFile</b> to retrieve the first Gopher object in an enumeration, an application can use the 
-<a href="https://msdn.microsoft.com/7c53e399-b8a5-4cc0-9ef6-88d9a525d87f">InternetFindNextFile</a> function to retrieve subsequent Gopher objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a> function to retrieve subsequent Gopher objects.
 
 After the calling application has finished using the 
-<a href="https://msdn.microsoft.com/8a9788ed-eb25-42cb-b912-8dffa3df1850">HINTERNET</a> handle returned by 
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle returned by 
 <b>GopherFindFirstFile</b>, it must be closed using the 
-<a href="https://msdn.microsoft.com/52b57e3c-3cfe-40bc-b87b-90cf39c5c38d">InternetCloseHandle</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> function.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -202,7 +202,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

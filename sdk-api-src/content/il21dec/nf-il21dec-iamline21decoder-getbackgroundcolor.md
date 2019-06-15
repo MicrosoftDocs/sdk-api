@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetBackgroundColor</code> method retrieves the background color used by the <a href="https://msdn.microsoft.com/48fa5484-1f8c-4133-b2e1-888cb1834402">Line 21 Decoder</a> filter for overlay. The default background color is magenta.
+The <code>GetBackgroundColor</code> method retrieves the background color used by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter for overlay. The default background color is magenta.
 
 
 
@@ -110,15 +110,15 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389393(v=VS.85).aspx">IAMLine21Decoder::SetBackgroundColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setbackgroundcolor">IAMLine21Decoder::SetBackgroundColor</a>
  
 
  

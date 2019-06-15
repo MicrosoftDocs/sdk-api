@@ -109,7 +109,7 @@ A non-NULL value was expected.
 
 
 
-If the format string specified in <a href="https://msdn.microsoft.com/28eaeee4-05eb-4d51-9e21-937481bc7703">SetOutputFileNameTemplate</a> contains a sequential token, this method gets the width allotted for the sequential token.
+If the format string specified in <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method gets the width allotted for the sequential token.
 
 If the format string does not contain a sequential token, the value returned by this method is not defined.
 
@@ -121,11 +121,11 @@ If the format string does not contain a sequential token, the value returned by 
 
 
 
-<a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c90c109-1522-4722-a691-6f0f3caa50ec">SetSequencePaddingWidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencepaddingwidth">SetSequencePaddingWidth</a>
  
 
  

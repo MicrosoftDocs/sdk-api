@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes configuration methods that are implemented by third parties. Parental Controls uses the CLSID from the provider's ConfigCLSID registry details to call <a href="https://msdn.microsoft.com/3b414b95-e8d2-42e8-b4f2-5cc5189a3d08">CoCreateInstanceEx</a>. The <b>CLSCTX_LOCAL_SERVER</b> flag is used when creating an instance of the class.
+Exposes configuration methods that are implemented by third parties. Parental Controls uses the CLSID from the provider's ConfigCLSID registry details to call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>. The <b>CLSCTX_LOCAL_SERVER</b> flag is used when creating an instance of the class.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCProviderConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWPCProviderConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCProviderConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWPCProviderConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWPCProviderConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2853259-4fc5-47e7-a77e-0ea4024ee00c">Configure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderconfig-configure">Configure</a>
 </td>
 <td align="left" width="63%">
 Called for the current provider when you click a user tile in the Parental Controls Control Panel. This method allows for changes to the configuration.
@@ -78,7 +78,7 @@ Called for the current provider when you click a user tile in the Parental Contr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89d70aef-9bca-4984-99d1-082041257393">GetUserSummary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcproviderconfig-getusersummary">GetUserSummary</a>
 </td>
 <td align="left" width="63%">
 Retrieves the information for each user by using the Parental Controls Control Panel.

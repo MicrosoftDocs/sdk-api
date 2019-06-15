@@ -73,7 +73,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -82,7 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>OpenIcon</b> sends a <a href="https://msdn.microsoft.com/en-us/library/ms632640(v=VS.85).aspx">WM_QUERYOPEN</a> message to the given window. 
+<b>OpenIcon</b> sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-queryopen">WM_QUERYOPEN</a> message to the given window. 
 
 
 
@@ -92,7 +92,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx">CloseWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindow">CloseWindow</a>
 
 
 
@@ -100,7 +100,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx">IsIconic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
 
 
 
@@ -108,11 +108,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

@@ -218,7 +218,7 @@ If <i>dwIndex</i> is GGL_INDEX, the return value is one of the following values.
 </tr>
 <tr>
 <td>GL_ID_REVERSECONVERSION</td>
-<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="https://msdn.microsoft.com/d60b28fb-0cdd-43b4-8d99-cb829bea6679">CANDIDATELIST</a> format.</td>
+<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a> format.</td>
 </tr>
 </table>
  
@@ -234,7 +234,7 @@ If <i>dwIndex</i> is GGL_PRIVATE, the return value is the number of bytes of inf
 
 
 
-Applications typically call this function after receiving an <a href="https://msdn.microsoft.com/b898283a-af1a-484f-bfb8-e5d5c0ac8ee1">IMN_GUIDELINE</a> command.
+Applications typically call this function after receiving an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a> command.
 
 
 
@@ -244,19 +244,19 @@ Applications typically call this function after receiving an <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/d60b28fb-0cdd-43b4-8d99-cb829bea6679">CANDIDATELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagcandidatelist">CANDIDATELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/b898283a-af1a-484f-bfb8-e5d5c0ac8ee1">IMN_GUIDELINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

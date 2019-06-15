@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>AddStreamForRecord</b> method adds a stream to a record created with <a href="https://msdn.microsoft.com/en-us/library/Dd757240(v=VS.85).aspx">IWMMutualExclusion2::AddRecord</a>.
+The <b>AddStreamForRecord</b> method adds a stream to a record created with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addrecord">IWMMutualExclusion2::AddRecord</a>.
 
 
 
@@ -148,11 +148,11 @@ Record numbers are assigned sequentially.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757239(v=VS.85).aspx">IWMMutualExclusion2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757247(v=VS.85).aspx">IWMMutualExclusion2::RemoveStreamForRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-removestreamforrecord">IWMMutualExclusion2::RemoveStreamForRecord</a>
  
 
  

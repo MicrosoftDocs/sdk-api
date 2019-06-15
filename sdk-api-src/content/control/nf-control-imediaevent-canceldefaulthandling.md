@@ -109,7 +109,7 @@ No default handling for this event.
 
 
 
-To restore the default handling for an event, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406912(v=VS.85).aspx">IMediaEvent::RestoreDefaultHandling</a> method with the event code.
+To restore the default handling for an event, call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-restoredefaulthandling">IMediaEvent::RestoreDefaultHandling</a> method with the event code.
 
 
 
@@ -119,11 +119,11 @@ To restore the default handling for an event, call the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
  
 
  

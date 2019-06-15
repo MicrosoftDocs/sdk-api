@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <b>IAMTimecodeReader</b> interface reads SMPTE or MIDI timecode from an external device. The <a href="https://msdn.microsoft.com/146ca753-fe41-49d3-8b1c-077e10a28192">MSDV</a> and <a href="https://msdn.microsoft.com/aa59f322-09b1-4b0a-be6f-d865c20f76e5">MSTape</a> drivers support this interface for reading timecode from an external DV or MPEG-2 camcorder.
+The <b>IAMTimecodeReader</b> interface reads SMPTE or MIDI timecode from an external device. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> drivers support this interface for reading timecode from an external DV or MPEG-2 camcorder.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeReader</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMTimecodeReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAMTimecodeReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04eda79a-1301-4bc1-855e-1cb0c4451797">get_VITCLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-get_vitcline">get_VITCLine</a>
 </td>
 <td align="left" width="63%">
 Retrieves the vertical interval line that the timecode reader is using to read timecode.
@@ -82,7 +82,7 @@ Retrieves the vertical interval line that the timecode reader is using to read t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/227c5d8e-fbaf-4bf8-a8c8-954e14e51a24">GetTCRMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettcrmode">GetTCRMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves properties of the timecode reader.
@@ -91,7 +91,7 @@ Retrieves properties of the timecode reader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4ed646f-677e-4703-8197-036636f20561">GetTimecode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettimecode">GetTimecode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the most recent timecode, userbits, and flag values available in the stream.
@@ -100,7 +100,7 @@ Retrieves the most recent timecode, userbits, and flag values available in the s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/171b0fd2-1498-41ae-9803-99b9128ee305">put_VITCLine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-put_vitcline">put_VITCLine</a>
 </td>
 <td align="left" width="63%">
 Specifies the vertical interval line that the timecode reader will use to read timecode.
@@ -109,7 +109,7 @@ Specifies the vertical interval line that the timecode reader will use to read t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd9f5310-b1c0-46ff-b038-d6a50ac400a2">SetTCRMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">SetTCRMode</a>
 </td>
 <td align="left" width="63%">
 Sets the timecode reader properties.
@@ -123,7 +123,7 @@ Sets the timecode reader properties.
 
 
 
-For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the PROPSETID_TIMECODE_READER property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
+For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the PROPSETID_TIMECODE_READER property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
 
 SMPTE timecode is a frame addressing system that identifies video and audio sources, makes automatic track synchronization possible, and provides a container for additional data related to the source material. SMPTE timecode's main purpose is to provide a machine-readable address for video and audio. It is displayed in hh:mm:ss:ff (hours, minutes, seconds, frames) format and is thoroughly defined in ANSI/SMPTE 12-1986.
 
@@ -140,13 +140,13 @@ If you intend to use timecodes to trigger capture or playback from a timecoded (
 <li>Start the VCR and the graph. When the trigger point is reached (or the trigger point minus the file writer's preroll), the stream control interfaces release the file multiplexer and it begins streaming media samples to the file writer.</li>
 <li>You can stop the capture process manually or by setting a duration property on the stream control interface.</li>
 </ol>
-You must consider discontinuous timecode, both during preroll and during the capture process; it is reasonable to demand that the timecode be continuous and monotonically increasing throughout the preroll and capture start point. This prevents a potentially ambiguous calculation of relative stream times by the <a href="https://msdn.microsoft.com/868ec03e-d4e5-4a1e-914a-6be8933f1c7c">IMediaSeeking::ConvertTimeFormat</a> method. Also, the timecode need not be the only gating signal for triggered capture. Any time-stamped data stored in the vertical blanking interval, such as Intercast or closed-captioned data (XDS), can be used to start the streaming of video and audio data to disk.
+You must consider discontinuous timecode, both during preroll and during the capture process; it is reasonable to demand that the timecode be continuous and monotonically increasing throughout the preroll and capture start point. This prevents a potentially ambiguous calculation of relative stream times by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-converttimeformat">IMediaSeeking::ConvertTimeFormat</a> method. Also, the timecode need not be the only gating signal for triggered capture. Any time-stamped data stored in the vertical blanking interval, such as Intercast or closed-captioned data (XDS), can be used to start the streaming of video and audio data to disk.
 
 <h3><a id="Hardware_Requirements"></a><a id="hardware_requirements"></a><a id="HARDWARE_REQUIREMENTS"></a>Hardware Requirements</h3>
-See the <a href="https://msdn.microsoft.com/4ce48038-bfcf-4b1f-8053-3446929a5f06">IAMExtTransport</a> interface for hardware requirements.
+See the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a> interface for hardware requirements.
 
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
-Implement this interface on an external device filter when you want to specify how an external device should read SMPTE/MIDI timecode information. Expose the <a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking</a> interface on your filter so that applications can convert timecode to reference time, using the <a href="https://msdn.microsoft.com/868ec03e-d4e5-4a1e-914a-6be8933f1c7c">IMediaSeeking::ConvertTimeFormat</a> method.
+Implement this interface on an external device filter when you want to specify how an external device should read SMPTE/MIDI timecode information. Expose the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking</a> interface on your filter so that applications can convert timecode to reference time, using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-converttimeformat">IMediaSeeking::ConvertTimeFormat</a> method.
 
 The external device must be able to read timecode and send it to the computer over its control interface. If this is not the case, you must either have a timecode reader card in your computer, or you can write a software decoder that converts VITC (Vertical Interval Timecode) in captured video frames or LTC (Linear Timecode) captured as an audio signal into DirectShow timecode samples.
 
@@ -158,7 +158,7 @@ The external device must be able to read timecode and send it to the computer ov
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

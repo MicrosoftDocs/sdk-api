@@ -64,7 +64,7 @@ The <b>GetUncompFormatsSupported</b> method gets a list of uncompressed pixel fo
 ### -param pGuid [in]
 
 Pointer to a GUID that specifies the DXVA profile. To get a list of supported profiles, call 
-          <a href="https://msdn.microsoft.com/en-us/library/Dd376008(v=VS.85).aspx">IAMVideoAccelerator::GetVideoAcceleratorGUIDs</a>.
+          <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getvideoacceleratorguids">IAMVideoAccelerator::GetVideoAcceleratorGUIDs</a>.
 
 
 ### -param pdwNumFormatsSupported [in, out]
@@ -135,15 +135,15 @@ The driver should return the formats in decreasing order of preference, with the
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d">How Decoders Use IAMVideoAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
  
 
  

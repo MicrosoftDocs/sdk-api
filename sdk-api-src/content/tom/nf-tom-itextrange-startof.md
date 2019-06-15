@@ -61,7 +61,7 @@ Moves the range ends to the start of the first overlapping <i>Unit</i> in the ra
 
 Type: <b>long</b>
 
-Unit to use in the move operation. For a list of <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. 
+Unit to use in the move operation. For a list of <i>Unit</i> values, see the discussion under <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>. 
 
 
 ### -param Extend
@@ -97,7 +97,7 @@ Pointer to a variable that receives the number of characters that the start posi
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ Failure for some other reason.
 
 If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::StartOf</b> does not change the start position. 
 
-The <b>ITextRange::StartOf</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">ITextRange::EndOf</a> methods differ from the <a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787752(v=VS.85).aspx">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from the start position and <b>ITextRange::EndOf</b> extends from the end position. 
+The <b>ITextRange::StartOf</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">ITextRange::EndOf</a> methods differ from the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from the start position and <b>ITextRange::EndOf</b> extends from the end position. 
 
 
 
@@ -152,19 +152,19 @@ The <b>ITextRange::StartOf</b> and <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787752(v=VS.85).aspx">EndKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">EndOf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-endof">EndOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -172,7 +172,7 @@ The <b>ITextRange::StartOf</b> and <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

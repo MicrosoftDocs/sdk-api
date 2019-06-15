@@ -59,17 +59,17 @@ Manually runs the data manager.
 
 ### -param Steps [in]
 
-Determines whether the folder actions and resource policies are applied and how to generate the report. For possible steps, see the <a href="https://msdn.microsoft.com/e647987d-e524-475e-a355-539cb3f04635">DataManagerSteps</a> enumeration.
+Determines whether the folder actions and resource policies are applied and how to generate the report. For possible steps, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/ne-pla-__midl___midl_itf_pla_0001_0043_0011">DataManagerSteps</a> enumeration.
 
 
 ### -param bstrFolder [in]
 
-The folder under the <a href="https://msdn.microsoft.com/42940cec-c76a-433c-9308-f030dacb05a4">IDataCollectorSet::RootPath</a> property that contains the files used to generate the report. If <b>NULL</b>, PLA uses all the files in the collection. This folder is used only if the <i>Steps</i> parameter includes <b>plaCreateReport</b> or <b>plaRunRules</b>.
+The folder under the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">IDataCollectorSet::RootPath</a> property that contains the files used to generate the report. If <b>NULL</b>, PLA uses all the files in the collection. This folder is used only if the <i>Steps</i> parameter includes <b>plaCreateReport</b> or <b>plaRunRules</b>.
 
 
 ### -param Errors [out]
 
-An <a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a> interface that you use to retrieve any errors that occurred. The value map can contain the list of directories where errors were encountered, along with the error codes. The <a href="https://msdn.microsoft.com/990b48d8-357f-4157-a3d2-1ea1c80e1887">IValueMap::Count</a> property is zero if there were no errors.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that you use to retrieve any errors that occurred. The value map can contain the list of directories where errors were encountered, along with the error codes. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_count">IValueMap::Count</a> property is zero if there were no errors.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Returns S_OK if successful.
 
 Data management runs in the current process and blocks until the data management steps complete.
 
-To automatically run the data manager when the data collector set finishes running, set the <a href="https://msdn.microsoft.com/3048a4b6-3e18-4585-bf5e-d91a4c0adcfc">IDataManager::Enabled</a> property to VARIANT_TRUE.
+To automatically run the data manager when the data collector set finishes running, set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_enabled">IDataManager::Enabled</a> property to VARIANT_TRUE.
 
 
 
@@ -97,7 +97,7 @@ To automatically run the data manager when the data collector set finishes runni
 
 
 
-<a href="https://msdn.microsoft.com/a153d88f-4c7e-45fd-9cd8-497160711de4">IDataManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
  
 
  

@@ -81,7 +81,7 @@ This parameter is reserved for future use.
 If the function succeeds, the return value is a handle to the boundary descriptor.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
      
 
 
@@ -91,7 +91,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-A new boundary descriptor must have at least one security identifier (SID). To add a SID to a boundary descriptor, use the <a href="https://msdn.microsoft.com/c0dd01a0-1a08-43dc-8cef-dff290e73ca1">AddSIDToBoundaryDescriptor</a> function.
+A new boundary descriptor must have at least one security identifier (SID). To add a SID to a boundary descriptor, use the <a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor">AddSIDToBoundaryDescriptor</a> function.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later.
 
@@ -103,19 +103,19 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/c0dd01a0-1a08-43dc-8cef-dff290e73ca1">AddSIDToBoundaryDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor">AddSIDToBoundaryDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb6331b0-88cb-4695-b159-6e8750440a69">CreatePrivateNamespace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createprivatenamespacea">CreatePrivateNamespace</a>
 
 
 
-<a href="https://msdn.microsoft.com/759d9cd9-9ef2-4bbe-9e99-8aec87f5ba4a">DeleteBoundaryDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/namespaceapi/nf-namespaceapi-deleteboundarydescriptor">DeleteBoundaryDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
  
 
  

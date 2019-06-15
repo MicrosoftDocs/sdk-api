@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The
-    <b>GetLocalManagedApplications</b> function can be run on the target computer to get  a list of managed applications on that computer. The function can also be called in the context of a user to get a list of managed applications for that user. This function only returns applications that can be installed by the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>.
+    <b>GetLocalManagedApplications</b> function can be run on the target computer to get  a list of managed applications on that computer. The function can also be called in the context of a user to get a list of managed applications for that user. This function only returns applications that can be installed by the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ The address of a <b>DWORD</b> that specifies the number of applications in the l
 
 ### -param prgLocalApps [out]
 
-The address of an array that contains the list of managed applications. You must call <b>LocalFree</b> to free this array when its contents are no longer required. This parameter cannot be null. The list is returned as a <a href="https://msdn.microsoft.com/b2b7d209-76ee-4ba4-ac61-034d2c8e0689">LOCALMANAGEDAPPLICATION</a> structure.
+The address of an array that contains the list of managed applications. You must call <b>LocalFree</b> to free this array when its contents are no longer required. This parameter cannot be null. The list is returned as a <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_localmanagedapplication">LOCALMANAGEDAPPLICATION</a> structure.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The address of an array that contains the list of managed applications. You must
 
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, the function returns one of the system error codes. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a> or the header file WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 
 
@@ -88,17 +88,17 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, t
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2b7d209-76ee-4ba4-ac61-034d2c8e0689">LOCALMANAGEDAPPLICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_localmanagedapplication">LOCALMANAGEDAPPLICATION</a>
  
 
  

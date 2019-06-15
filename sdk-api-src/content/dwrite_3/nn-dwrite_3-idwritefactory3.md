@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The root factory interface for all <a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a">DirectWrite</a> objects.
+The root factory interface for all <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory3</b> interface inherits from <a href="https://msdn.microsoft.com/1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE">IDWriteFactory2</a>. <b>IDWriteFactory3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2">IDWriteFactory2</a>. <b>IDWriteFactory3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFactory3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60FA5675-C1E2-40CC-874D-F7E8942165CC">CreateCustomRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory3-createcustomrenderingparams">CreateCustomRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Creates a rendering parameters object with the specified properties.
@@ -78,7 +78,7 @@ Creates a rendering parameters object with the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22cc005f-6d34-f701-ff83-63ba819ab651">CreateFontCollectionFromFontSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory3-createfontcollectionfromfontset">CreateFontCollectionFromFontSet</a>
 </td>
 <td align="left" width="63%">
 Create a weight/width/slope tree from a set of fonts.
@@ -87,7 +87,7 @@ Create a weight/width/slope tree from a set of fonts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn890758(v=VS.85).aspx">CreateFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-createfontfacereference">CreateFontFaceReference</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a reference to a font.
 
@@ -95,7 +95,7 @@ Create a weight/width/slope tree from a set of fonts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8021f934-af83-ccd0-e142-455df88bf936">CreateFontSetBuilder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory3-createfontsetbuilder">CreateFontSetBuilder</a>
 </td>
 <td align="left" width="63%">
 Creates an empty font set builder to add font face references     
@@ -105,17 +105,17 @@ Creates an empty font set builder to add font face references
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5BF8BA9C-F07F-43F0-B712-71220E6535A5">CreateGlyphRunAnalysis</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory3-createglyphrunanalysis">CreateGlyphRunAnalysis</a>
 </td>
 <td align="left" width="63%">
-Creates a glyph-run-analysis object that encapsulates info that <a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a">DirectWrite</a> uses to render a glyph run.
+Creates a glyph-run-analysis object that encapsulates info that <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/direct-write-portal">DirectWrite</a> uses to render a glyph run.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/446e4544-b25d-9b59-922c-ca5c896ea99f">GetFontDownloadQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory3-getfontdownloadqueue">GetFontDownloadQueue</a>
 </td>
 <td align="left" width="63%">
 Gets the font download queue associated with this factory object.
@@ -124,7 +124,7 @@ Gets the font download queue associated with this factory object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6e983b5-5c5f-a2de-59f8-722f967bb992">GetSystemFontCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontcollection">GetSystemFontCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a weight/width/slope tree of system fonts.
@@ -133,7 +133,7 @@ Retrieves a weight/width/slope tree of system fonts.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84fd8c9f-f4b1-3015-f431-08b7a07ff32b">GetSystemFontSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontset">GetSystemFontSet</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of system fonts.
@@ -148,11 +148,11 @@ Retrieves the list of system fonts.
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE">IDWriteFactory2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2">IDWriteFactory2</a>
  
 
  

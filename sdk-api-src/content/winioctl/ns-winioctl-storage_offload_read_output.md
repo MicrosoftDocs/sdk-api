@@ -49,7 +49,7 @@ req.redist:
 
 
 Output structure for the <b>DeviceDsmAction_OffloadRead</b> action of the 
-     <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      control code.
 
 
@@ -75,8 +75,8 @@ Output flags.
 </td>
 <td width="60%">
 The ranges represented by the token is smaller than the ranges specified in the 
-        <a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a> structures passed in the 
-        <a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures passed in the 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         control code input buffer. In other words the <b>LengthProtected</b> member is less than 
         the sum of all of the <b>LengthInBytes</b> members of the 
         <b>DEVICE_DATA_SET_RANGE</b> structures passed.
@@ -104,7 +104,7 @@ Length of the token in bytes.
 
 ### -field Token
 
-A <a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STORAGE_OFFLOAD_TOKEN</a> containing the 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> containing the 
       token created.
 
 
@@ -113,23 +113,23 @@ A <a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STOR
 
 
 
-<a href="https://msdn.microsoft.com/20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_dsm_offload_read_parameters">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3f03509-8be9-4cb4-b942-f5ab358bd70e">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_manage_data_set_attributes_output">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/85ebbdca-94a0-4467-8d15-ee3a850e1cd9">Device Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/48e797ec-dad2-4a9e-9ccd-aaa65ece8da4">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/e33550d6-8d98-4fbb-8e61-d309f0e8e867">STORAGE_OFFLOAD_TOKEN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

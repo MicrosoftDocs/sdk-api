@@ -181,7 +181,7 @@ Predication state.
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb205104(v=VS.85).aspx">D3D10StateBlockMaskDisableCapture</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb205106(v=VS.85).aspx">D3D10StateBlockMaskEnableCapture</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb205107(v=VS.85).aspx">D3D10StateBlockMaskGetSetting</a>.
+This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskdisablecapture">D3D10StateBlockMaskDisableCapture</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskenablecapture">D3D10StateBlockMaskEnableCapture</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-d3d10stateblockmaskgetsetting">D3D10StateBlockMaskGetSetting</a>.
 
 
 
@@ -191,7 +191,7 @@ This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

@@ -142,7 +142,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/e50e24ab-24f2-d59e-22a4-aaf7015d0255">DirectXMath Library Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-directxmath-classes">DirectXMath Library Classes</a>
  
 
  

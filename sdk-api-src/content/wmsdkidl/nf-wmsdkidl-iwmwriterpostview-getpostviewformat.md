@@ -75,7 +75,7 @@ The <b>GetPostViewFormat</b> method retrieves the media properties for the speci
 
 ### -param ppProps [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a> interface.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
 
 
 ## -returns
@@ -132,7 +132,7 @@ Not enough memory to complete the task.
 
 
 
-This method can be used along with <a href="https://msdn.microsoft.com/en-us/library/Dd798776(v=VS.85).aspx">GetPostViewFormatCount</a> to determine all possible format types supported by this output on the reader.
+This method can be used along with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getpostviewformatcount">GetPostViewFormatCount</a> to determine all possible format types supported by this output on the reader.
 
 
 
@@ -142,7 +142,7 @@ This method can be used along with <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798770(v=VS.85).aspx">IWMWriterPostView Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
  
 
  

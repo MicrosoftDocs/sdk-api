@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Associates custom message types with the XML context object. 
 
-This method should only be called by <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>, and should not be called directly by a WSDAPI client. Instead, the code generator will provide wrappers that access this method properly.
+This method should only be called by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>, and should not be called directly by a WSDAPI client. Instead, the code generator will provide wrappers that access this method properly.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ This method should only be called by <a href="https://msdn.microsoft.com/76dffca
 
 ### -param pTypes [in]
 
-An array of <a href="https://msdn.microsoft.com/dc214dfb-1717-4f84-af4d-6eb8cf17522c">WSDXML_TYPE</a> structures that represent the set of messages for the <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_type">WSDXML_TYPE</a> structures that represent the set of messages for the <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ### -param dwTypesCount [in]
@@ -71,7 +71,7 @@ The number of types in the <i>pTypes</i> array.
 
 ### -param bLayerNumber [in]
 
-The layer number associated with the <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated service code</a>.
+The layer number associated with the <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated service code</a>.
 
 
 ## -returns
@@ -140,7 +140,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
  
 
  

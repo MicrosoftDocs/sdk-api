@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The name property of a collection is identified in the documentation for each specific collection of the <a href="https://msdn.microsoft.com/eed8ca97-39ad-4188-afc6-8670b5073fad">COM+ Administration Collections</a>.
+The name property of a collection is identified in the documentation for each specific collection of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
 
 
 
@@ -72,7 +72,7 @@ The name property of a collection is identified in the documentation for each sp
 
 
 
-<a href="https://msdn.microsoft.com/fe3f7452-57b2-4f9e-9b48-5dedfe519ac1">ICatalogObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
  
 
  

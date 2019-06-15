@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when an asynchronous error occurs with the <a href="https://msdn.microsoft.com/7d3cc314-6b9e-437c-afda-ee1965a12721">IMFSourceReader</a>.
+Called when an asynchronous error occurs with the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ Returns an <b>HRESULT</b> value. Currently, the source reader ignores the return
 
 
 
-<a href="https://msdn.microsoft.com/D0EC7FE9-74C3-4A7C-A5F3-798A3D6EF2CC">IMFSourceReaderCallback2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback2">IMFSourceReaderCallback2</a>
  
 
  

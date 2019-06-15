@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Configures the <a href="https://msdn.microsoft.com/1476995A-9692-4B08-8EF7-7DB6321BEC24">Video Processor MFT</a>.
+Configures the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl2</b> interface inherits from <a href="https://msdn.microsoft.com/6803B69E-CF84-45D5-804C-BD961BD5E13D">IMFVideoProcessorControl</a>. <b>IMFVideoProcessorControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>. <b>IMFVideoProcessorControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IMFVideoProcessorControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/682B1FAA-05D5-40E3-98BD-DDEFB0C5B4AF">EnableHardwareEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol2-enablehardwareeffects">EnableHardwareEffects</a>
 </td>
 <td align="left" width="63%">
-Enables effects that were implemented with <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">IDirectXVideoProcessor::VideoProcessorBlt</a>. 
+Enables effects that were implemented with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">IDirectXVideoProcessor::VideoProcessorBlt</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0D5FE2B8-B8DD-40DE-8B41-40E773976BE6">GetSupportedHardwareEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol2-getsupportedhardwareeffects">GetSupportedHardwareEffects</a>
 </td>
 <td align="left" width="63%">
 Returns the list of supported effects in the currently configured video processor.
@@ -87,7 +87,7 @@ Returns the list of supported effects in the currently configured video processo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/408048CF-0443-4F09-8AB9-A9A2827EA749">SetRotationOverride</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol2-setrotationoverride">SetRotationOverride</a>
 </td>
 <td align="left" width="63%">
 Overrides the rotation operation that is performed in the video processor.
@@ -101,7 +101,7 @@ Overrides the rotation operation that is performed in the video processor.
 
 
 
-This interface controls how the <a href="https://msdn.microsoft.com/1476995A-9692-4B08-8EF7-7DB6321BEC24">Video Processor MFT</a> generates output frames.
+This interface controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a> generates output frames.
 
 
 
@@ -111,11 +111,11 @@ This interface controls how the <a href="https://msdn.microsoft.com/1476995A-969
 
 
 
-<a href="https://msdn.microsoft.com/6803B69E-CF84-45D5-804C-BD961BD5E13D">IMFVideoProcessorControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -76,6 +76,6 @@ When this flag is specified, the platform returns the full path of the placehold
 
 <b>Note</b>  This value is new for Windows 10, version 1803.
 
-When this flag is specified, The implicit hydration, which is not performed via <a href="https://msdn.microsoft.com/4FFD7580-BF59-48D0-B6D7-516559914096">CfHydratePlaceholder</a>, can happen when the anti-virus software scans a sync provider’s file system activities on non-hydrated cloud file placeholders. This kind of implicit hydration is not expected. If the sync provider never initiates implicit hydration operations, it can instruct the platform to block all such implicit hydration operations, as opposed to failing the <b>FETCH_DATA</b> callbacks later.  
+When this flag is specified, The implicit hydration, which is not performed via <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a>, can happen when the anti-virus software scans a sync provider’s file system activities on non-hydrated cloud file placeholders. This kind of implicit hydration is not expected. If the sync provider never initiates implicit hydration operations, it can instruct the platform to block all such implicit hydration operations, as opposed to failing the <b>FETCH_DATA</b> callbacks later.  
 
 

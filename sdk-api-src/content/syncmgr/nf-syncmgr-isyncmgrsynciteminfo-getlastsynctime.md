@@ -61,7 +61,7 @@ Gets the date and time when the item was last synchronized.
 
 Type: <b>FILETIME*</b>
 
-When this method returns, contains a pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure containing the date and time information.
+When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the date and time information.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns S_OK if successful, or an error value otherwise. If the method fails, <i
 
 This value is not displayed in the folder UI by default, but is available as the System.Sync.DateSynchronized (PKEY_Sync_DateSynchronized) property.
 
-Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/deb87d2f-74da-450a-a424-505240eadacb">UpdateItem</a> method is called.
+Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a> method is called.
 
 
 #### Examples

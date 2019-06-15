@@ -66,7 +66,7 @@ The number of entries in the <b>pAccessList</b> array.
 
 ### -field pAccessList
 
-A pointer to an array of <a href="https://msdn.microsoft.com/bcb2ad72-7b00-4582-b05e-e00720a4db77">ACTRL_ACCESS_ENTRY</a> structures. Each structure specifies access-control information for a specified trustee. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_access_entrya">ACTRL_ACCESS_ENTRY</a> structures. Each structure specifies access-control information for a specified trustee. 
 
 
 
@@ -88,7 +88,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/bcb2ad72-7b00-4582-
 
 To create an empty access list, set <b>cEntries</b> to zero and <b>pAccessList</b> to <b>NULL</b>. An empty list does not grant access to any trustee, and thus, denies all access to an object.
 
-To create a null access list, set the <b>pAccessEntryList</b> member of the <a href="https://msdn.microsoft.com/90b13dd1-0ca6-4674-b9fa-a61aed4637d7">ACTRL_PROPERTY_ENTRY</a> structure to <b>NULL</b>. A null access list grants everyone full access to the object.
+To create a null access list, set the <b>pAccessEntryList</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_property_entrya">ACTRL_PROPERTY_ENTRY</a> structure to <b>NULL</b>. A null access list grants everyone full access to the object.
 
 
 
@@ -98,7 +98,7 @@ To create a null access list, set the <b>pAccessEntryList</b> member of the <a h
 
 
 
-<a href="https://msdn.microsoft.com/90b13dd1-0ca6-4674-b9fa-a61aed4637d7">ACTRL_PROPERTY_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_actrl_property_entrya">ACTRL_PROPERTY_ENTRY</a>
  
 
  

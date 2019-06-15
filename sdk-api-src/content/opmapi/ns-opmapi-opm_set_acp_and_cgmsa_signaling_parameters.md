@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information for the <a href="https://msdn.microsoft.com/ed78b7eb-bf15-4068-ab86-ae42a5e62096">OPM_SET_ACP_AND_CGMSA_SIGNALING</a> command in <a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a> (OPM).
+Contains information for the <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-set-acp-and-cgmsa-signaling">OPM_SET_ACP_AND_CGMSA_SIGNALING</a> command in <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM).
 
 This command causes the driver to insert Wide Screen Signaling (WSS) codes or other data packets in the television signal, as required by some Analog Copy Protection (ACP) and Copy Generation Management System — Analog (CGMS-A) specifications. For example:
 <ul>
@@ -64,7 +64,7 @@ This command causes the driver to insert Wide Screen Signaling (WSS) codes or ot
 
 ### -field ulNewTVProtectionStandard
 
-Specifies the protection standard and format that is currently active. The value is a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/8f26aa92-ed40-483e-ac78-c071619f0e12">TV Protection Standard Flags</a>.
+Specifies the protection standard and format that is currently active. The value is a bitwise <b>OR</b> of <a href="https://docs.microsoft.com/windows/desktop/medfound/tv-protection-standard-flags">TV Protection Standard Flags</a>.
 
 
 ### -field ulAspectRatioChangeMask1
@@ -74,7 +74,7 @@ A bitmask indicating which bits from <b>ulAspectRatioData1</b> to set in the sig
 
 ### -field ulAspectRatioData1
 
-Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://msdn.microsoft.com/3c0fc524-b75f-4397-bd01-25be44062e8c">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
+Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ne-opmapi-_opm_image_aspect_ratio_en300294">OPM_IMAGE_ASPECT_RATIO_EN300294</a> enumeration.
 
 
 ### -field ulAspectRatioChangeMask2
@@ -116,7 +116,7 @@ Reserved for future use. Set to zero.
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/f104b0c6-2b2f-4e6a-97e6-d73008cb80ef">DXVA_COPPSetSignalingCmdData</a> structure used in Certified Output Protection Manager (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppsetsignalingcmddata">DXVA_COPPSetSignalingCmdData</a> structure used in Certified Output Protection Manager (COPP).
 
 
 
@@ -126,11 +126,11 @@ The layout of this structure is identical to the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

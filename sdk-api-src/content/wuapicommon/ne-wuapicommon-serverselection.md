@@ -59,9 +59,9 @@ Defines the update services that Windows Update can operate against.
 
 ### -field ssDefault
 
-Used only by <a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">IUpdateSearcher</a>. Indicates that the search call should search the default server.
+Used only by <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>. Indicates that the search call should search the default server.
 
-The default server used by the Windows Update Agent (WUA) is the same as <b>ssMangagedServer</b> if the computer is set up to have a managed server. If the computer is not been set up to have a managed server, WUA uses the first update service for which the <a href="https://msdn.microsoft.com/17b51a04-69f6-4a96-880b-ef57f75253ae">IsRegisteredWithAU</a> property of <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b-4cfc40f5889e">IUpdateService</a> is VARIANT_TRUE and the <a href="https://msdn.microsoft.com/1a473cb3-7209-4056-91bc-bfa416981ae5">IsManaged</a> property of <b>IUpdateService</b> is VARIANT_FALSE
+The default server used by the Windows Update Agent (WUA) is the same as <b>ssMangagedServer</b> if the computer is set up to have a managed server. If the computer is not been set up to have a managed server, WUA uses the first update service for which the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservice-get_isregisteredwithau">IsRegisteredWithAU</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> is VARIANT_TRUE and the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservice-get_ismanaged">IsManaged</a> property of <b>IUpdateService</b> is VARIANT_FALSE
 
 
 ### -field ssManagedServer

@@ -147,19 +147,19 @@ Specifies a DWORD value that indicates the number of times the server required a
 
 
 
-<a href="https://msdn.microsoft.com/d0e51d8a-2f54-42ca-9759-0da82c1f0f55">NetStatisticsGet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmstats/nf-lmstats-netstatisticsget">NetStatisticsGet</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e0217bf-7550-40a2-b47c-8e898a586005">Statistics Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetShare/statistics-functions">Statistics Functions</a>
  
 
  

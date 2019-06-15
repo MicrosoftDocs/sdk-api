@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Removes all file and directory elements in a path except for the root information.
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://msdn.microsoft.com/e0539478-8c64-4445-ab99-22f1df70afe8">PathCchStripToRoot</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchstriptoroot">PathCchStripToRoot</a> function in its place.</div><div> </div>
 
 ## -parameters
 

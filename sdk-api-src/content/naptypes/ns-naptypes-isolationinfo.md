@@ -59,17 +59,17 @@ ms.custom: 19H1
 
 ### -field isolationState
 
-An <a href="https://msdn.microsoft.com/79f81e8e-a105-4cc9-b175-8a364648f3a6">IsolationState</a> values that contains the isolation state of a machine.
+An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a> values that contains the isolation state of a machine.
 
 
 ### -field probEndTime
 
-A <a href="https://msdn.microsoft.com/54f2866b-4333-4fc8-bb25-b7d4ae72b7dc">ProbationTime</a> value that contains the time at which a machine should come out from probation.
+A <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">ProbationTime</a> value that contains the time at which a machine should come out from probation.
 
 
 ### -field failureUrl
 
-A <a href="https://msdn.microsoft.com/92261dd3-504d-4a4b-b6fa-86f4f97a0df0">CountedString</a> value that contains a URL to navigate to in the event of failure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a> value that contains a URL to navigate to in the event of failure.
 
 
 ## -see-also
@@ -77,19 +77,19 @@ A <a href="https://msdn.microsoft.com/92261dd3-504d-4a4b-b6fa-86f4f97a0df0">Coun
 
 
 
-<a href="https://msdn.microsoft.com/92261dd3-504d-4a4b-b6fa-86f4f97a0df0">CountedString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagcountedstring">CountedString</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f81e8e-a105-4cc9-b175-8a364648f3a6">IsolationState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a>
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

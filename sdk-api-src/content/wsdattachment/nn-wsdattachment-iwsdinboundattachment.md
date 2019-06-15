@@ -54,7 +54,7 @@ Allows applications to read MIME-encoded attachment data from an incoming messag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDInboundAttachment</b> interface inherits from <a href="https://msdn.microsoft.com/9acbbca2-9b43-4bed-8917-be99f13fce13">IWSDAttachment</a>. <b>IWSDInboundAttachment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDInboundAttachment</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>. <b>IWSDInboundAttachment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDInboundAttachment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1bd0295c-4c37-42ec-b5a5-dc7f467def05">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdinboundattachment-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the current attachment MIME data stream.
@@ -78,7 +78,7 @@ Closes the current attachment MIME data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66b8ce84-23b3-43f2-826d-c866b8bedab1">Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdinboundattachment-read">Read</a>
 </td>
 <td align="left" width="63%">
 Reads attachment data from a message sent by a remote host.
@@ -102,7 +102,7 @@ WSDAPI will provide an object implementing this interface when an attachment str
 
 
 
-<a href="https://msdn.microsoft.com/9acbbca2-9b43-4bed-8917-be99f13fce13">IWSDAttachment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>
  
 
  

@@ -78,7 +78,7 @@ Returns <b>ERROR_SUCCESS</b> if the operation is successful. If the operation fa
 
 
 
-<a href="https://msdn.microsoft.com/ed89b329-f1ea-4606-b305-a245d29b119c">AddRadiusServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addradiusservera">AddRadiusServer</a>
  
 
  

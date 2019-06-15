@@ -93,7 +93,7 @@ Method succeeded.
 
 
 This method always returns S_OK. If an MSP cannot connect the terminal, the error return must occur during the call to 
-<a href="https://msdn.microsoft.com/0351e645-b857-44d8-a226-046ebe0f4c81">ITTerminalControl::ConnectTerminal</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itterminalcontrol-connectterminal">ITTerminalControl::ConnectTerminal</a>.
 
 
 
@@ -103,7 +103,7 @@ This method always returns S_OK. If an MSP cannot connect the terminal, the erro
 
 
 
-<a href="https://msdn.microsoft.com/6fe60002-3af3-45e9-a084-7296a48e7263">ITTerminalControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
  
 
  

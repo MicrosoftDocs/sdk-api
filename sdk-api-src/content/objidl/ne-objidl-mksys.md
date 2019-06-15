@@ -112,7 +112,7 @@ Indicates the system's elevation moniker class.
 
 
 
-<a href="https://msdn.microsoft.com/a61c0df9-786e-45e7-8b3d-f950decc596d">IMoniker::IsSystemMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-issystemmoniker">IMoniker::IsSystemMoniker</a>
  
 
  

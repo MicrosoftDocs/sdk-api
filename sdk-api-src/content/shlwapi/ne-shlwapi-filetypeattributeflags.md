@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates <b>FILETYPEATTRIBUTEFLAGS</b> constants that are used in the EditFlags value of a file association <a href="https://msdn.microsoft.com/f2b666d6-bf22-47b5-87e1-8de5ff51c152">PROGID</a> registry key.
+Indicates <b>FILETYPEATTRIBUTEFLAGS</b> constants that are used in the EditFlags value of a file association <a href="https://docs.microsoft.com/windows/desktop/shell/fa-progids">PROGID</a> registry key.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Indicates <b>FILETYPEATTRIBUTEFLAGS</b> constants that are used in the EditFlags
 
 ### -field FTA_None
 
-No <a href="https://msdn.microsoft.com/63b58659-9c4c-4b39-98d1-743724523dcd">FILETYPEATTRIBUTEFLAGS</a> options set.
+No <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-filetypeattributeflags">FILETYPEATTRIBUTEFLAGS</a> options set.
 
 
 ### -field FTA_Exclude
@@ -89,12 +89,12 @@ Prohibits deletion of the registry entries associated with this file type.
 
 ### -field FTA_NoNewVerb
 
-Prohibits the addition of new <a href="https://msdn.microsoft.com/4f46b8c3-1e12-447c-87f4-bbe2c305f77a">verbs</a> to the file type.
+Prohibits the addition of new <a href="https://docs.microsoft.com/windows/desktop/shell/fa-verbs">verbs</a> to the file type.
 
 
 ### -field FTA_NoEditVerb
 
-Prohibits the modification or deletion of canonical <a href="https://msdn.microsoft.com/4f46b8c3-1e12-447c-87f4-bbe2c305f77a">verbs</a> such as <b>open</b> and <b>print</b>.
+Prohibits the modification or deletion of canonical <a href="https://docs.microsoft.com/windows/desktop/shell/fa-verbs">verbs</a> such as <b>open</b> and <b>print</b>.
 
 
 ### -field FTA_NoRemoveVerb
@@ -109,17 +109,17 @@ Prohibits the modification or deletion of the description of the file type.
 
 ### -field FTA_NoEditIcon
 
-Prohibits the modification or deletion of the <a href="https://msdn.microsoft.com/1827239c-0588-45aa-b7be-f96fb7affa65">icon</a> assigned to the file type.
+Prohibits the modification or deletion of the <a href="https://docs.microsoft.com/windows/desktop/shell/icon">icon</a> assigned to the file type.
 
 
 ### -field FTA_NoEditDflt
 
-Prohibits the modification of the <a href="https://msdn.microsoft.com/4f46b8c3-1e12-447c-87f4-bbe2c305f77a">default verb</a>.
+Prohibits the modification of the <a href="https://docs.microsoft.com/windows/desktop/shell/fa-verbs">default verb</a>.
 
 
 ### -field FTA_NoEditVerbCmd
 
-Prohibits the modification of the <a href="https://msdn.microsoft.com/4f46b8c3-1e12-447c-87f4-bbe2c305f77a">commands</a> associated with verbs.
+Prohibits the modification of the <a href="https://docs.microsoft.com/windows/desktop/shell/fa-verbs">commands</a> associated with verbs.
 
 
 ### -field FTA_NoEditVerbExe
@@ -139,12 +139,12 @@ Prohibits the modification or deletion of the content type and default extension
 
 ### -field FTA_OpenIsSafe
 
-Indicates that the file type's <b>open</b> verb can be safely invoked for downloaded files. This flag  applies only to safe file types, as identified by <a href="https://msdn.microsoft.com/4e0bc3ce-f9d2-4766-8b19-c0954d71e890">AssocIsDangerous</a>. To improve the user experience and reduce unnecessary user prompts when downloading and activating items, file type owners should specify this flag and applications that download and activate files should respect this flag.
+Indicates that the file type's <b>open</b> verb can be safely invoked for downloaded files. This flag  applies only to safe file types, as identified by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-associsdangerous">AssocIsDangerous</a>. To improve the user experience and reduce unnecessary user prompts when downloading and activating items, file type owners should specify this flag and applications that download and activate files should respect this flag.
 
 
 ### -field FTA_AlwaysUnsafe
 
-Prevents the <b>Never ask me</b> check box from being enabled. Use of this flag means <b>FTA_OpenIsSafe</b> is not respected and <a href="https://msdn.microsoft.com/4e0bc3ce-f9d2-4766-8b19-c0954d71e890">AssocIsDangerous</a> always returns TRUE.
+Prevents the <b>Never ask me</b> check box from being enabled. Use of this flag means <b>FTA_OpenIsSafe</b> is not respected and <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-associsdangerous">AssocIsDangerous</a> always returns TRUE.
 If your file type can execute code, you should always use this flag or ensure that the file type handlers mitigate risks, for example, by producing warning prompts before running the code.
 
 The user can override this attribute through the <b>File Type</b> dialog box.
@@ -152,9 +152,9 @@ The user can override this attribute through the <b>File Type</b> dialog box.
 
 ### -field FTA_NoRecentDocs
 
-Prohibits the addition of members of this file type to the <a href="https://msdn.microsoft.com/d9ffda6f-adc0-44a3-b410-e23bf5f4f165">Recent Documents</a> folder. Additionally, in Windows 7 and later, prohibits the addition of members of this file type to the automatic <b>Recent</b> or <b>Frequent</b> category of an application's Jump List.
+Prohibits the addition of members of this file type to the <a href="https://docs.microsoft.com/windows/desktop/shell/manage">Recent Documents</a> folder. Additionally, in Windows 7 and later, prohibits the addition of members of this file type to the automatic <b>Recent</b> or <b>Frequent</b> category of an application's Jump List.
 
-This flag does not restrict members of this file type from being added to a <a href="https://msdn.microsoft.com/65a3dab8-3136-416d-bd8a-ca813bfe0533">custom Jump List</a>. It also places no restriction on the file type being added to the automatic Jump Lists of other applications in the case that other applications use this file type.
+This flag does not restrict members of this file type from being added to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist">custom Jump List</a>. It also places no restriction on the file type being added to the automatic Jump Lists of other applications in the case that other applications use this file type.
 
 
 ### -field FTA_SafeForElevation
@@ -185,9 +185,9 @@ The following example shows the <b><b>FTA_NoRemove</b></b> (0x00000010) and <b><
       <b>EditFlags</b> = 0x00000030</pre>
 
 
-APIs such as <a href="https://msdn.microsoft.com/7f21e564-97c6-4f9d-a4fa-160b78dbfc2f">IQueryAssociations::GetData</a> can retrieve that EditFlags data. Compare the numerical equivalents of these <b>FILETYPEATTRIBUTEFLAGS</b> flags against that retrived value to determine which flags are set.
+APIs such as <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> can retrieve that EditFlags data. Compare the numerical equivalents of these <b>FILETYPEATTRIBUTEFLAGS</b> flags against that retrived value to determine which flags are set.
 
-The following example demonstrates the use of <a href="https://msdn.microsoft.com/7f21e564-97c6-4f9d-a4fa-160b78dbfc2f">IQueryAssociations::GetData</a> to determine if those values are set.
+The following example demonstrates the use of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> to determine if those values are set.
 
                 
 
@@ -222,7 +222,7 @@ if (SUCCEEDED(hr))
 ```
 
 
-To set an EditFlags attribute, you can use the <a href="https://msdn.microsoft.com/29b0e27c-4999-4e92-bd8b-bba74920bccc">RegSetValueEx</a> or <a href="https://msdn.microsoft.com/6cd5b7fd-8fb9-4c24-9670-20c23ca709bf">SHSetValue</a> functions. First use <a href="https://msdn.microsoft.com/7f21e564-97c6-4f9d-a4fa-160b78dbfc2f">IQueryAssociations::GetData</a> to retrieve the current set of attributes as shown in the example above, add the desired <b>FILETYPEATTRIBUTEFLAGS</b> to that value, then write that value back to the registry using one of the two set functions.
+To set an EditFlags attribute, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shsetvaluea">SHSetValue</a> functions. First use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getdata">IQueryAssociations::GetData</a> to retrieve the current set of attributes as shown in the example above, add the desired <b>FILETYPEATTRIBUTEFLAGS</b> to that value, then write that value back to the registry using one of the two set functions.
 
 
 

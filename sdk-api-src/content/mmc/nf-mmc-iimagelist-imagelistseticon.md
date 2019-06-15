@@ -119,7 +119,7 @@ ImageListSetIcon method will fail if the ILSI_LARGE_ICON or ILSI_SMALL_ICON macr
 
 
 
-<a href="https://msdn.microsoft.com/a957239b-6cb2-4101-adeb-e9ba4f876af4">IImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
  
 
  

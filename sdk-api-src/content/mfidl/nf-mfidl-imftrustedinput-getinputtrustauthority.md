@@ -120,11 +120,11 @@ The ITA does not expose the requested interface.
 
 
 
-<a href="https://msdn.microsoft.com/637e0225-6fd8-4b83-b4fb-119e7a5ef5d2">IMFInputTrustAuthority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
 
 
 
-<a href="https://msdn.microsoft.com/59a9def7-69a6-4f80-bb5e-1cb372ff6eab">IMFTrustedInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrustedinput">IMFTrustedInput</a>
  
 
  

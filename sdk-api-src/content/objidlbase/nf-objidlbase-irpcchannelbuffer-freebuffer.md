@@ -59,7 +59,7 @@ Frees a previously allocated RPC channel buffer.
 
 ### -param pMessage [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/b4761462-1910-431c-b5cd-c14fdda0b6b6">RPCOLEMESSAGE</a> data structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagrpcolemessage">RPCOLEMESSAGE</a> data structure.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20">IRpcChannelBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
  
 
  

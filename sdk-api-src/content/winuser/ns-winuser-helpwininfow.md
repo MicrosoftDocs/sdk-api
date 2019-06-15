@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the <a href="https://msdn.microsoft.com/fce80bac-2a44-46e7-a87a-ef93f4599807">WinHelp</a> function with the HELP_SETWINPOS value.
+Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-winhelpa">WinHelp</a> function with the HELP_SETWINPOS value.
 
 
 ## -struct-fields
@@ -222,7 +222,7 @@ Activates and displays the window. Whether the window is minimized or maximized,
 
 Windows Help divides the display into 1024 units in both the X and Y directions. To create a secondary window that fills the upper-left quadrant of the display, for example, an application would specify zero for the <b>x</b> and <b>y</b> members and 512 for the <b>dx</b> and <b>dy</b> members.
 
-To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="https://msdn.microsoft.com/library/0w557fh7(v=VS.85).aspx">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
+To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="https://docs.microsoft.com/previous-versions//0w557fh7(v=vs.85)">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
 
                 
 

@@ -59,13 +59,13 @@ Identifiers for the properties of the 3D Lookup Table effect.
 
 ### -field D2D1_LOOKUPTABLE3D_PROP_LUT
 
-The D2D1_LOOKUPTABLE3D_PROP_LUT property is a pointer to an <a href="https://msdn.microsoft.com/778D2F30-0328-4AA2-8ECA-F443D57809D7">ID2D1LookupTable3D</a> object.  The default value is null.
+The D2D1_LOOKUPTABLE3D_PROP_LUT property is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1lookuptable3d">ID2D1LookupTable3D</a> object.  The default value is null.
 
 
 ### -field D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE
 
-The D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE property is a <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE</a> value indicating the alpha mode of the input file.
-          See the About Alpha Modes section of the <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a> topic for additional information.
+The D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE property is a <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE</a> value indicating the alpha mode of the input file.
+          See the About Alpha Modes section of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a> topic for additional information.
 
 
 ### -field D2D1_LOOKUPTABLE3D_PROP_FORCE_DWORD
@@ -78,11 +78,11 @@ The D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE property is a <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfe587f9-e92f-4367-a503-edd446a91cb8">CreateEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>
  
 
  

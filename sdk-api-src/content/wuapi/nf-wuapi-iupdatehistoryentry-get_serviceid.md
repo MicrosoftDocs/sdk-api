@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the service identifier of an update service that is not a Windows update. This property is meaningful only if the <a href="https://msdn.microsoft.com/26b1c4ce-edc0-46cb-80f7-6a140df9c88b">ServerSelection</a> property returns <b>ssOthers</b>.
+Gets the service identifier of an update service that is not a Windows update. This property is meaningful only if the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_serverselection">ServerSelection</a> property returns <b>ssOthers</b>.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/7f67ba11-41b5-4185-a78d-75c76dbe1fbe">IUpdateHistoryEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
  
 
  

@@ -67,7 +67,7 @@ Filter registration format. If the value is 1, the union contains the first unna
 
 ### -field dwMerit
 
-Filter merit. Filters with higher merit are enumerated first. See <a href="https://msdn.microsoft.com/9e026675-e0a9-4c82-9b57-ab0e7d9592ea">Merit</a>.
+Filter merit. Filters with higher merit are enumerated first. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/merit">Merit</a>.
 
 
 ### -field cPins
@@ -77,7 +77,7 @@ Number of pins. (Defined only if <b>dwVersion</b> is 1.)
 
 ### -field rgPins
 
-Pointer to an array of <a href="https://msdn.microsoft.com/1da033e1-24c3-46e0-becf-025966e6238f">REGFILTERPINS</a> structures, of size <b>cPins</b>. (Defined only if <b>dwVersion</b> is 1.)
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins">REGFILTERPINS</a> structures, of size <b>cPins</b>. (Defined only if <b>dwVersion</b> is 1.)
 
 
 ### -field cPins2
@@ -87,16 +87,16 @@ Number of pins. (Defined only if <b>dwVersion</b> is 2.)
 
 ### -field rgPins2
 
-Pointer to an array of <a href="https://msdn.microsoft.com/a78327f1-a0aa-4e25-b6f8-cf45b92191fa">REGFILTERPINS2</a> structures, of size <b>cPins2</b>. (Defined only if <b>dwVersion</b> is 2.)
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structures, of size <b>cPins2</b>. (Defined only if <b>dwVersion</b> is 2.)
 
 
 ## -remarks
 
 
 
-This structure is passed to the <a href="https://msdn.microsoft.com/773e527e-2174-4f74-a822-549cfe2927a3">IFilterMapper2::RegisterFilter</a> method.
+This structure is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper2-registerfilter">IFilterMapper2::RegisterFilter</a> method.
 
-If you need to register pin mediums or pin categories, set <b>dwVersion</b> to 2 and use the <a href="https://msdn.microsoft.com/a78327f1-a0aa-4e25-b6f8-cf45b92191fa">REGFILTERPINS2</a> structure.
+If you need to register pin mediums or pin categories, set <b>dwVersion</b> to 2 and use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilterpins2">REGFILTERPINS2</a> structure.
 
 
 
@@ -106,7 +106,7 @@ If you need to register pin mediums or pin categories, set <b>dwVersion</b> to 2
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

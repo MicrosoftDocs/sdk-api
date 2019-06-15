@@ -73,7 +73,7 @@ The stream to query. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream. To get the number of streams, call <a href="https://msdn.microsoft.com/0CD466EF-4753-42F6-A9B9-71CBB0668342">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The zero-based index of the media type to retrieve.
 
 ### -param ppMediaType [in]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 
 
@@ -183,7 +183,7 @@ The <i>dwMediaTypeIndex</i> parameter is out of range.
 
 To enumerate all of the available formats on a stream, call this method in a loop while incrementing <i>dwMediaTypeIndex</i>, until the method returns <b>MF_E_NO_MORE_TYPES</b>.
 
-Some cameras might support a range of frame rates. The minimum and maximum frame rates are stored in the <a href="https://msdn.microsoft.com/d3725796-f683-4ca1-a37f-22c40fff0b76">MF_MT_FRAME_RATE_RANGE_MIN</a> and <a href="https://msdn.microsoft.com/8e0c4996-9f78-424e-b012-502228b6a27a">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes on the media type.
+Some cameras might support a range of frame rates. The minimum and maximum frame rates are stored in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-min">MF_MT_FRAME_RATE_RANGE_MIN</a> and <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-max">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes on the media type.
 
 
 
@@ -193,7 +193,7 @@ Some cameras might support a range of frame rates. The minimum and maximum frame
 
 
 
-<a href="https://msdn.microsoft.com/864B6B5D-EB7E-4C49-A326-9B6704A27635">IMFCaptureSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
  
 
  

@@ -63,12 +63,12 @@ This property is read/write.
 
 
 
-To set an initial application to start when the user logs on to the Remote Desktop Session Host (RD Session Host) server, you must first set the <a href="https://msdn.microsoft.com/43059f13-a1f1-44b2-96ac-2532656a0846">TerminalServicesInitialProgram</a> property, and then set this property.
+To set an initial application to start when the user logs on to the Remote Desktop Session Host (RD Session Host) server, you must first set the <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalservicesinitialprogram">TerminalServicesInitialProgram</a> property, and then set this property.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/43059f13-a1f1-44b2-96ac-2532656a0846">TerminalServicesInitialProgram</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalservicesinitialprogram">TerminalServicesInitialProgram</a>.
 
 <div class="code"></div>
 
@@ -79,7 +79,7 @@ For an example, see <a href="https://msdn.microsoft.com/43059f13-a1f1-44b2-96ac-
 
 
 
-<a href="https://msdn.microsoft.com/7af8fe94-15db-49dc-ba4a-b79601205f59">IADsTSUserEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
  
 
  

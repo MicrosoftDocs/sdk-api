@@ -70,7 +70,7 @@ The suspend count for the thread. If the suspend count is greater than zero, the
 ### -field PriorityClass
 
 The priority class of the thread. See 
-<a href="https://msdn.microsoft.com/8710cd56-6bf3-4317-a1f6-1a159394ce2a">Scheduling Priorities</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>.
 
 
 ### -field Priority
@@ -86,13 +86,13 @@ The thread environment block.
 ### -field Stack
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/ms680384(v=VS.85).aspx">MINIDUMP_MEMORY_DESCRIPTOR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a> structure.
 
 
 ### -field ThreadContext
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
 
 
 ### -field BackingStore
@@ -105,11 +105,11 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680384(v=VS.85).aspx">MINIDUMP_MEMORY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
  
 
  

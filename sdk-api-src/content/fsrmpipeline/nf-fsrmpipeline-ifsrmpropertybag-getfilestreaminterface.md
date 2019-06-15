@@ -60,13 +60,13 @@ Retrieves a file stream interface that you can use to access the contents of the
 ### -param accessMode [in]
 
 One or more access modes. For possible values, see the 
-      <a href="https://msdn.microsoft.com/a2f7de78-7102-43f9-a7b8-b35ac0b7286a">FsrmFileStreamingMode</a> enumeration.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmfilestreamingmode">FsrmFileStreamingMode</a> enumeration.
 
 
 ### -param interfaceType [in]
 
 The type of streaming interface to use. For possible interface types, see the 
-      <a href="https://msdn.microsoft.com/182dde15-f8d6-42ab-a9d2-85f0a0a4d670">FsrmFileStreamingInterfaceType</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmfilestreaminginterfacetype">FsrmFileStreamingInterfaceType</a> 
       enumeration.
 
 
@@ -91,10 +91,10 @@ The method returns the following return values.
 
 
 To ensure the caller can be authorized for access, it must be a module that has its 
-    <a href="https://msdn.microsoft.com/c2cbcfe1-113c-4eb9-9dea-5619bcda58a2">IFsrmPipelineModuleDefinition::NeedsFileContent</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_needsfilecontent">IFsrmPipelineModuleDefinition::NeedsFileContent</a> 
     property set to <b>TRUE</b>. If the <i>accessMode</i> parameter is set to 
     <b>FsrmFileStreamingMode_Write</b>, the caller must also be a storage module and have its 
-    <a href="https://msdn.microsoft.com/461befff-0bb4-44a2-9c37-e9a8fb1b080f">IFsrmStorageModuleDefinition::UpdatesFileContent</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_updatesfilecontent">IFsrmStorageModuleDefinition::UpdatesFileContent</a> 
     property set to <b>TRUE</b>.
 
 
@@ -105,7 +105,7 @@ To ensure the caller can be authorized for access, it must be a module that has 
 
 
 
-<a href="https://msdn.microsoft.com/237f024d-2b1d-45d5-a63d-c530426278e6">IFsrmPropertyBag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
  
 
  

@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Frees the memory specified by the 
-			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://msdn.microsoft.com/en-us/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a> function to unpack the 
+			<i>lParam</i> parameter of a posted Dynamic Data Exchange (DDE) message. An application receiving a posted DDE message should call this function after it has used the <a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a> function to unpack the 
 			<i>lParam</i> value. 
 
 
@@ -111,7 +111,7 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -119,7 +119,7 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649006(v=VS.85).aspx">PackDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-packddelparam">PackDDElParam</a>
 
 
 
@@ -127,11 +127,11 @@ This function frees the memory specified by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649007(v=VS.85).aspx">ReuseDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-reuseddelparam">ReuseDDElParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649008(v=VS.85).aspx">UnpackDDElParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>
  
 
  

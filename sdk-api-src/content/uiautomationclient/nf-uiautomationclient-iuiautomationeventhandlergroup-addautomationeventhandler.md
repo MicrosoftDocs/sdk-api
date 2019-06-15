@@ -50,7 +50,7 @@ ms.custom: RS5, 19H1
 
 
 Registers a method that handles Microsoft UI Automation events.
-<div class="alert"><b>Important</b>  UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> namespaces.</div><div> </div>
+<div class="alert"><b>Important</b>  UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a> namespaces.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Registers a method that handles Microsoft UI Automation events.
 
 ### -param eventId [in]
 
-The identifier of the event that the method handles. For a list of event IDs, see <a href="https://msdn.microsoft.com/4baf5cb9-c965-4977-ae2b-420e84dc2e94">Event Identifiers</a>.
+The identifier of the event that the method handles. For a list of event IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
 
 
 ### -param arg2 [in]

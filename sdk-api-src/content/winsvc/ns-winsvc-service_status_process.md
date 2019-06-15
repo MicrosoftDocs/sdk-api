@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Contains process status information for a service. The 
-<a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a>, <a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a>, <a href="https://msdn.microsoft.com/e22b7f69-f096-486f-97fa-0465bef499cd">NotifyServiceStatusChange</a>,  and 
-<a href="https://msdn.microsoft.com/3fe02245-97b1-49f3-8f35-2dcd6f221547">QueryServiceStatusEx</a> functions use this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a>,  and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> functions use this structure.
 
 
 ## -struct-fields
@@ -116,7 +116,7 @@ The service shares a process with other services.
  
 
 If the service type is either <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, and the service is running in the context of the 
-<a href="https://msdn.microsoft.com/692bceb6-f5bd-4b83-ab3b-ef8099dc84e1">LocalSystem account</a>, the following type may also be specified.
+<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, the following type may also be specified.
 
 <table>
 <tr>
@@ -135,7 +135,7 @@ The service can interact with the desktop.
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/3d6e090a-00b1-47d8-a4fb-620f3db8ba9c">Interactive Services</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>.
 
 </td>
 </tr>
@@ -236,9 +236,9 @@ The service has stopped.
 ### -field dwControlsAccepted
 
 The control codes the service accepts and processes in its handler function (see 
-<a href="https://msdn.microsoft.com/e2d6d3a7-070e-4343-abd7-b4b9f8dd6fbc">Handler</a> and 
-<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>). A user interface process can control a service by specifying a control command in the 
-<a href="https://msdn.microsoft.com/c112b587-7455-4f15-93e1-ded73de6dbbd">ControlService</a> or <a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a> function. By default, all services accept the <b>SERVICE_CONTROL_INTERROGATE</b> value. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function">Handler</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>). A user interface process can control a service by specifying a control command in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> function. By default, all services accept the <b>SERVICE_CONTROL_INTERROGATE</b> value. 
 
 
 
@@ -308,7 +308,7 @@ This control code allows the service to receive <b>SERVICE_CONTROL_PAUSE</b> and
 The service can perform preshutdown tasks. 
 
 This control code enables the service to receive <b>SERVICE_CONTROL_PRESHUTDOWN</b> notifications. Note that 
-<a href="https://msdn.microsoft.com/c112b587-7455-4f15-93e1-ded73de6dbbd">ControlService</a> and <a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a> cannot send this notification; only the system can send it.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> cannot send this notification; only the system can send it.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -327,7 +327,7 @@ The service is notified when system shutdown occurs.
 
 
 This control code allows the service to receive <b>SERVICE_CONTROL_SHUTDOWN</b> notifications. Note that 
-<a href="https://msdn.microsoft.com/c112b587-7455-4f15-93e1-ded73de6dbbd">ControlService</a> and <a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a> cannot send this notification; only the system can send it.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> cannot send this notification; only the system can send it.
 
 </td>
 </tr>
@@ -351,8 +351,8 @@ This control code allows the service to receive <b>SERVICE_CONTROL_STOP</b> noti
  
 
 This member can also contain the following extended control codes, which are supported only by 
-<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>. (Note that these control codes cannot be sent by 
-<a href="https://msdn.microsoft.com/c112b587-7455-4f15-93e1-ded73de6dbbd">ControlService</a> or <a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a>.)
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>. (Note that these control codes cannot be sent by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>.)
 
 <table>
 <tr>
@@ -414,7 +414,7 @@ The check-point value that the service increments periodically to report its pro
 ### -field dwWaitHint
 
 The estimated time required for a pending start, stop, pause, or continue operation, in milliseconds. Before the specified amount of time has elapsed, the service should make its next call to the 
-<a href="https://msdn.microsoft.com/bb5943ff-2814-40f2-bee0-ae7132befde9">SetServiceStatus</a> function with either an incremented <b>dwCheckPoint</b> value or a change in <b>dwCurrentState</b>. If the amount of time specified by <b>dwWaitHint</b> passes, and <b>dwCheckPoint</b> has not been incremented or <b>dwCurrentState</b> has not changed, the service control manager or service control program can assume that an error has occurred and the service should be stopped. However, if the service shares a process with other services, the service control manager cannot terminate the service application because it would have to terminate the other services sharing the process as well.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function with either an incremented <b>dwCheckPoint</b> value or a change in <b>dwCurrentState</b>. If the amount of time specified by <b>dwWaitHint</b> passes, and <b>dwCheckPoint</b> has not been incremented or <b>dwCurrentState</b> has not changed, the service control manager or service control program can assume that an error has occurred and the service should be stopped. However, if the service shares a process with other services, the service control manager cannot terminate the service application because it would have to terminate the other services sharing the process as well.
 
 
 ### -field dwProcessId
@@ -467,19 +467,19 @@ The service runs in a system process that must always be running.
 
 
 
-<a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d7940c3-b562-455f-9a21-6d5fb5953030">EnumServicesStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-enumservicesstatusexa">EnumServicesStatusEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/e22b7f69-f096-486f-97fa-0465bef499cd">NotifyServiceStatusChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-notifyservicestatuschangea">NotifyServiceStatusChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fe02245-97b1-49f3-8f35-2dcd6f221547">QueryServiceStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
  
 
  

@@ -98,7 +98,7 @@ Parameter <i>pnChannelCount</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/eff1c1cd-792b-489a-8381-4b783c57f005">IAudioMeterInformation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudiometerinformation">IAudioMeterInformation Interface</a>
  
 
  

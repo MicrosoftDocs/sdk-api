@@ -132,15 +132,15 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0423e888-39d1-45cb-9bcf-722240a31fbd">IAMExtDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/307ad6ee-1084-4a83-bb19-f766f2328a0d">IAMExtDevice::get_DevicePort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-get_deviceport">IAMExtDevice::get_DevicePort</a>
  
 
  

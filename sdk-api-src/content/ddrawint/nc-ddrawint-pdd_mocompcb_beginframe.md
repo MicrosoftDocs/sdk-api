@@ -68,7 +68,7 @@ The <b>DdMoCompBeginFrame</b> callback function starts decoding a new frame.
 
 #### - lpFrameData
 
-Points to a <a href="https://msdn.microsoft.com/4a75642d-87e3-4c95-be67-2d494bf6122e">DD_BEGINMOCOMPFRAMEDATA</a> structure that contains the information needed to start decoding a new frame.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a> structure that contains the information needed to start decoding a new frame.
 
 
 ## -returns
@@ -96,7 +96,7 @@ DirectDraw ensures that begin and end frames will be properly paired.
 
 
 
-<a href="https://msdn.microsoft.com/4a75642d-87e3-4c95-be67-2d494bf6122e">DD_BEGINMOCOMPFRAMEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a>
  
 
  

@@ -61,14 +61,14 @@ Provides access to metafile records, including their type, data, and flags.
 
 Type: <b>DWORD</b>
 
-The type of metafile record being processed. Please see <a href="http://msdn.microsoft.com/en-us/library/cc230514.aspx">MS-EMF</a> and <a href="http://msdn.microsoft.com/en-us/library/cc230724.aspx">MS-EMFPLUS</a> for a list of record types.
+The type of metafile record being processed. Please see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">MS-EMF</a> and <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emfplus/5f92c789-64f2-46b5-9ed4-15a9bb0946c6">MS-EMFPLUS</a> for a list of record types.
 
 
 ### -param recordData [in, optional]
 
 Type: <b>const void*</b>
 
-The data contained in this record. Please see <a href="http://msdn.microsoft.com/en-us/library/cc230514.aspx">MS-EMF</a> and <a href="http://msdn.microsoft.com/en-us/library/cc230724.aspx">MS-EMFPLUS</a> for information on record data layouts.
+The data contained in this record. Please see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">MS-EMF</a> and <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emfplus/5f92c789-64f2-46b5-9ed4-15a9bb0946c6">MS-EMFPLUS</a> for information on record data layouts.
 
 
 ### -param recordDataSize
@@ -82,7 +82,7 @@ TThe size of the data pointed to by recordData.
 
 Type: <b>UINT32</b>
 
-The set of flags set for this record. Please see <a href="http://msdn.microsoft.com/en-us/library/cc230514.aspx">MS-EMF</a> and <a href="http://msdn.microsoft.com/en-us/library/cc230724.aspx">MS-EMFPLUS</a> for information on record flags.
+The set of flags set for this record. Please see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">MS-EMF</a> and <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emfplus/5f92c789-64f2-46b5-9ed4-15a9bb0946c6">MS-EMFPLUS</a> for information on record flags.
 
 
 ## -returns
@@ -100,7 +100,7 @@ S_OK if successful, otherwise a failure HRESULT.
 
 
 
-For details on the EMF and EMF+ formats, please see Microsoft technical documents  <a href="http://msdn.microsoft.com/en-us/library/cc230514.aspx">MS-EMF</a> and <a href="http://msdn.microsoft.com/en-us/library/cc230724.aspx">MS-EMFPLUS</a>.
+For details on the EMF and EMF+ formats, please see Microsoft technical documents  <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">MS-EMF</a> and <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emfplus/5f92c789-64f2-46b5-9ed4-15a9bb0946c6">MS-EMFPLUS</a>.
 
 
 
@@ -110,15 +110,15 @@ For details on the EMF and EMF+ formats, please see Microsoft technical document
 
 
 
-<a href="https://msdn.microsoft.com/1E9866C3-2A07-48C2-A4C5-F9AE3C7B2272">ID2D1GdiMetafileSink1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafilesink">ID2D1GdiMetafileSink1</a>
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/cc230724.aspx">[MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions</a>
+<a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emfplus/5f92c789-64f2-46b5-9ed4-15a9bb0946c6">[MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions</a>
 
 
 
-<a href="http://msdn.microsoft.com/en-us/library/cc230514.aspx">[MS-EMF]: Enhanced Metafile Format</a>
+<a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">[MS-EMF]: Enhanced Metafile Format</a>
  
 
  

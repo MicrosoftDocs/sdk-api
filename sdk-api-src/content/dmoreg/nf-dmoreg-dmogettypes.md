@@ -69,7 +69,7 @@ Size of the array passed in the <i>pInputTypes</i> parameter.
 
 ### -param pulInputTypesSupplied
 
-Pointer to a variable that receives the number of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pInputTypes</i> that the function fills in.
+Pointer to a variable that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pInputTypes</i> that the function fills in.
 
 
 ### -param pInputTypes
@@ -84,12 +84,12 @@ Size of the array passed in the <i>pOutputTypes</i> parameter.
 
 ### -param pulOutputTypesSupplied
 
-Pointer to a variable that receives the number of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pOutputTypes</i> that the function fills in.
+Pointer to a variable that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures in <i>pOutputTypes</i> that the function fills in.
 
 
 ### -param pOutputTypes
 
-Pointer to a caller-allocated array of <a href="https://msdn.microsoft.com/en-us/library/Dd375510(v=VS.85).aspx">DMO_PARTIAL_MEDIATYPE</a> structures. The size of the array is given in the <i>ulOutputTypesRequested</i> parameter. The function fills the array with the DMO output types registered for the DMO.
+Pointer to a caller-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/dmoreg/ns-dmoreg-_dmo_partial_mediatype">DMO_PARTIAL_MEDIATYPE</a> structures. The size of the array is given in the <i>ulOutputTypesRequested</i> parameter. The function fills the array with the DMO output types registered for the DMO.
 
 
 ## -returns
@@ -158,7 +158,7 @@ If the DMO did not register any media types, the function returns S_OK and sets 
 
 
 
-<a href="https://msdn.microsoft.com/0a380dc0-23f0-4ef0-898a-3b5afddf5eaa">DMO Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>
  
 
  

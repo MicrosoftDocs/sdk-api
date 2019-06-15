@@ -62,22 +62,22 @@ The extension model is based on the aggregation model in COM. An aggregator, or 
     cannot release the interface even when no longer required.</div><div> </div>The <b>IADsExtension</b> interface can be used as follows:
 <ul>
 <li>The extension component requires an initialization notification as defined by 
-     <i>dwCode</i> in the <a href="https://msdn.microsoft.com/c3cab311-6717-4d95-ad46-9da6047f84b8">Operate</a> 
+     <i>dwCode</i> in the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-operate">Operate</a> 
      method. In this case, an extension client must call the 
      <b>Operate</b> method. The other two methods, namely, 
-     <a href="https://msdn.microsoft.com/5af74a05-df64-4679-890b-a5a031633fd8">PrivateInvoke</a> and 
-     <a href="https://msdn.microsoft.com/533faef7-d504-443c-83e7-7eaf461ce550">PrivateGetIDsOfNames</a>, usually 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privateinvoke">PrivateInvoke</a> and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">PrivateGetIDsOfNames</a>, usually 
      return <b>E_NOTIMPL</b> in the <b>HRESULT</b> value.</li>
 <li>The extension component supports any dual or dispatch interface. In this case, an extension client must  
-     call the <a href="https://msdn.microsoft.com/533faef7-d504-443c-83e7-7eaf461ce550">PrivateGetIDsOfNames</a> or 
-     <a href="https://msdn.microsoft.com/5af74a05-df64-4679-890b-a5a031633fd8">PrivateInvoke</a> methods. 
-     <a href="https://msdn.microsoft.com/c3cab311-6717-4d95-ad46-9da6047f84b8">Operate</a> usually ignores the data and returns 
+     call the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">PrivateGetIDsOfNames</a> or 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privateinvoke">PrivateInvoke</a> methods. 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-operate">Operate</a> usually ignores the data and returns 
      <b>E_NOTIMPL</b> in the <b>HRESULT</b> value.</li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsExtension</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IADsExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsExtension</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IADsExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,7 +92,7 @@ The <b>IADsExtension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3cab311-6717-4d95-ad46-9da6047f84b8">Operate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-operate">Operate</a>
 </td>
 <td align="left" width="63%">
 Performs the specified extended operation.
@@ -101,7 +101,7 @@ Performs the specified extended operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/533faef7-d504-443c-83e7-7eaf461ce550">PrivateGetIDsOfNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privategetidsofnames">PrivateGetIDsOfNames</a>
 </td>
 <td align="left" width="63%">
 Maps the name(s) to a DISPID.
@@ -110,7 +110,7 @@ Maps the name(s) to a DISPID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5af74a05-df64-4679-890b-a5a031633fd8">PrivateInvoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsextension-privateinvoke">PrivateInvoke</a>
 </td>
 <td align="left" width="63%">
 Invokes methods of the extended object.

@@ -59,7 +59,7 @@ The DISPLAYCONFIG_DEVICE_INFO_HEADER structure contains display information abou
 
 ### -field type
 
-A <a href="https://msdn.microsoft.com/40cc67c0-1508-4b67-b297-5a8dabaabb16">DISPLAYCONFIG_DEVICE_INFO_TYPE</a> enumerated value that determines the type of device information to retrieve or set. The remainder of the packet for the retrieve or set operation follows immediately after the DISPLAYCONFIG_DEVICE_INFO_HEADER structure. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_device_info_type">DISPLAYCONFIG_DEVICE_INFO_TYPE</a> enumerated value that determines the type of device information to retrieve or set. The remainder of the packet for the retrieve or set operation follows immediately after the DISPLAYCONFIG_DEVICE_INFO_HEADER structure. 
 
 
 ### -field size
@@ -81,7 +81,7 @@ The source or target identifier to get or set the device information for. The me
 
 
 
-The <a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">DisplayConfigGetDeviceInfo</a> function uses the DISPLAYCONFIG_DEVICE_INFO_HEADER structure for retrieving display configuration information about the device, and the <a href="https://msdn.microsoft.com/4050b1f0-a588-427c-a0df-eefdc488fc20">DisplayConfigSetDeviceInfo</a> function uses the DISPLAYCONFIG_DEVICE_INFO_HEADER structure for setting display configuration information for the device.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfiggetdeviceinfo">DisplayConfigGetDeviceInfo</a> function uses the DISPLAYCONFIG_DEVICE_INFO_HEADER structure for retrieving display configuration information about the device, and the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a> function uses the DISPLAYCONFIG_DEVICE_INFO_HEADER structure for setting display configuration information for the device.
 
 
 
@@ -91,15 +91,15 @@ The <a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">Di
 
 
 
-<a href="https://msdn.microsoft.com/40cc67c0-1508-4b67-b297-5a8dabaabb16">DISPLAYCONFIG_DEVICE_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_device_info_type">DISPLAYCONFIG_DEVICE_INFO_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/249dcb1a-4ce3-4478-8331-fb81e91313b0">DisplayConfigGetDeviceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfiggetdeviceinfo">DisplayConfigGetDeviceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/4050b1f0-a588-427c-a0df-eefdc488fc20">DisplayConfigSetDeviceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a>
  
 
  

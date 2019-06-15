@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>NOTIFYCANCEL</b> structure contains the details of a network disconnect operation. It is used by the 
-<a href="https://msdn.microsoft.com/94bd969d-f94d-449c-971d-d17fff2c07e1">CancelConnectNotify</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-cancelconnectnotify">CancelConnectNotify</a> function.
 
 
 ## -struct-fields

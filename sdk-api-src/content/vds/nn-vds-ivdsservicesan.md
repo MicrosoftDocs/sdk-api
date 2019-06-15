@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Provides methods for managing disk online and offline <a href="https://msdn.microsoft.com/2da99388-8ee6-4e6b-98dc-52f12290c4dc">SAN policy</a> for the operating system.
+Provides methods for managing disk online and offline <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_san_policy">SAN policy</a> for the operating system.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsServiceSAN</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsServiceSAN</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsServiceSAN</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsServiceSAN</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsServiceSAN</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59602d97-2fdf-4d1b-b158-e545619397e0">GetSANPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-getsanpolicy">GetSANPolicy</a>
 </td>
 <td align="left" width="63%">
 Gets the disk SAN policy for the operating system.
@@ -81,7 +81,7 @@ Gets the disk SAN policy for the operating system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5cb0b5e-d181-44a7-8416-e9f8fb575423">SetSANPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">SetSANPolicy</a>
 </td>
 <td align="left" width="63%">
 Sets the disk SAN policy for the operating system.
@@ -96,7 +96,7 @@ Sets the disk SAN policy for the operating system.
 
 
 
-<a href="https://msdn.microsoft.com/2da99388-8ee6-4e6b-98dc-52f12290c4dc">VDS_SAN_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_san_policy">VDS_SAN_POLICY</a>
  
 
  

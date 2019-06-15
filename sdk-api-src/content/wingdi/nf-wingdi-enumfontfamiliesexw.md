@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EnumFontFamiliesEx</b> function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure. <b>EnumFontFamiliesEx</b> enumerates fonts based on typeface name, character set, or both.
+The <b>EnumFontFamiliesEx</b> function enumerates all uniquely-named fonts in the system that match the font characteristics specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure. <b>EnumFontFamiliesEx</b> enumerates fonts based on typeface name, character set, or both.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the device context from which to enumerate the fonts.
 
 ### -param lpLogfont [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure that contains information about the fonts to enumerate. The function examines the following members.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure that contains information about the fonts to enumerate. The function examines the following members.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ A pointer to a <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec
 
 ### -param lpProc [in]
 
-A pointer to the application defined callback function. For more information, see the <a href="https://msdn.microsoft.com/a4adad4c-ab6a-4adb-a1d3-fea3cfdbaf73">EnumFontFamExProc</a> function.
+A pointer to the application defined callback function. For more information, see the <a href="https://docs.microsoft.com/previous-versions//dd162618(v=vs.85)">EnumFontFamExProc</a> function.
 
 
 ### -param lParam [in]
@@ -122,9 +122,9 @@ The return value is the last value returned by the callback function. This value
 
 
 
-The <b>EnumFontFamiliesEx</b> function does not use tagged typeface names to identify character sets. Instead, it always passes the correct typeface name and a separate character set value to the callback function. The function enumerates fonts based on the values of the <b>lfCharSet</b> and <b>lfFaceName</b> members in the <a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a> structure.
+The <b>EnumFontFamiliesEx</b> function does not use tagged typeface names to identify character sets. Instead, it always passes the correct typeface name and a separate character set value to the callback function. The function enumerates fonts based on the values of the <b>lfCharSet</b> and <b>lfFaceName</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a> structure.
 
-As with <a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies</a>, <b>EnumFontFamiliesEx</b> enumerates all font styles. Not all styles of a font cover the same character sets. For example, Fontorama Bold might contain ANSI, Greek, and Cyrillic characters, but Fontorama Italic might contain only ANSI characters. For this reason, it's best not to assume that a specified font covers a specific character set, even if it is the ANSI character set. The following table shows the results of various combinations of values for <b>lfCharSet</b> and <b>lfFaceName</b>.
+As with <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a>, <b>EnumFontFamiliesEx</b> enumerates all font styles. Not all styles of a font cover the same character sets. For example, Fontorama Bold might contain ANSI, Greek, and Cyrillic characters, but Fontorama Italic might contain only ANSI characters. For this reason, it's best not to assume that a specified font covers a specific character set, even if it is the ANSI character set. The following table shows the results of various combinations of values for <b>lfCharSet</b> and <b>lfFaceName</b>.
 
 <table>
 <tr>
@@ -223,11 +223,11 @@ lf.lfCharSet = ANSI_CHARSET;
 ```
 
 
-The callback functions for <a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies</a> and <b>EnumFontFamiliesEx</b> are very similar. The main difference is that the <a href="https://msdn.microsoft.com/2e848e47-5b5f-46ad-9963-55d6bb6748a9">ENUMLOGFONTEX</a> structure includes a script field.
+The callback functions for <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> and <b>EnumFontFamiliesEx</b> are very similar. The main difference is that the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumlogfontexa">ENUMLOGFONTEX</a> structure includes a script field.
 
 Note, based on the values of <b>lfCharSet</b> and <b>lfFaceName</b>, <b>EnumFontFamiliesEx</b> will enumerate the same font as many times as there are distinct character sets in the font. This can create an extensive list of fonts which can be burdensome to a user. For example, the Century Schoolbook font can appear for the Baltic, Western, Greek, Turkish, and Cyrillic character sets. To avoid this, an application should filter the list of fonts.
 
-The fonts for many East Asian languages have two typeface names: an English name and a localized name. <a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">EnumFonts</a>, <a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies</a>, and <b>EnumFontFamiliesEx</b> return the English typeface name if the system locale does not match the language of the font.
+The fonts for many East Asian languages have two typeface names: an English name and a localized name. <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a>, and <b>EnumFontFamiliesEx</b> return the English typeface name if the system locale does not match the language of the font.
 
 When the graphics mode on the device context is set to GM_ADVANCED using the SetGraphicsMode function and the DEVICE_FONTTYPE flag is passed to the FontType parameter, this function returns a list of type 1 and OpenType fonts on the system. When the graphics mode is not set to GM_ADVANCED, this function returns a list of type 1, OpenType, and TrueType fonts on the system.
 
@@ -239,27 +239,27 @@ When the graphics mode on the device context is set to GM_ADVANCED using the Set
 
 
 
-<a href="https://msdn.microsoft.com/a4adad4c-ab6a-4adb-a1d3-fea3cfdbaf73">EnumFontFamExProc</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162618(v=vs.85)">EnumFontFamExProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/4960afbb-eeba-4030-ac89-d1ff077bb2f3">EnumFontFamilies</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5dfc38d-c400-4900-a15b-f251815ee346">EnumFonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a>
  
 
  

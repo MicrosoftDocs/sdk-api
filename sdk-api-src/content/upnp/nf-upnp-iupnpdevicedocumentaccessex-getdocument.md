@@ -87,7 +87,7 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 
-<a href="https://msdn.microsoft.com/9ea79bbb-3841-4704-9606-56fcd2f8bf89">IUPnPDeviceDocumentAccessEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccessex">IUPnPDeviceDocumentAccessEx</a>
  
 
  

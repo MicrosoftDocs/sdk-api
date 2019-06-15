@@ -106,7 +106,7 @@ If <i>pHasError</i> is true, you can call the <b>get_ErrorCode</b> and <b>get_Er
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389327(v=VS.85).aspx">IAMExtendedErrorInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamextendederrorinfo">IAMExtendedErrorInfo Interface</a>
  
 
  

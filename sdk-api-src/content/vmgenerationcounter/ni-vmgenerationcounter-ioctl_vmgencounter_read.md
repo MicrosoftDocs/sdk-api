@@ -71,7 +71,7 @@ Not used with this operation; set to zero.
 ### -output-buffer
 
   A pointer to a buffer that receives a 
-<a href="https://msdn.microsoft.com/en-us/library/Dn508292(v=VS.85).aspx">VM_GENCOUNTER</a> data structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter">VM_GENCOUNTER</a> data structure.
 
 
 ### -output-buffer-length
@@ -100,19 +100,19 @@ The size of the output buffer, in bytes.
 ### -status-block
 
 If the operation completes successfully, 
-       <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> returns a nonzero 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns a nonzero 
        value.
 
 If the operation fails or is pending, 
-       <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> returns zero. To get extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 ## -remarks
 
 
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 
 
@@ -141,7 +141,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 </td>
 <td width="60%">
 A handle to the device. To obtain a device handle, call the 
-      <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Not used with this operation; set to zero.
 </td>
 <td width="60%">
   A pointer to a buffer that receives a 
-<a href="https://msdn.microsoft.com/en-us/library/Dn508292(v=VS.85).aspx">VM_GENCOUNTER</a> data structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter">VM_GENCOUNTER</a> data structure.
 
 </td>
 </tr>
@@ -209,13 +209,13 @@ The size of the output buffer, in bytes.
 A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
 If the output buffer is too small, the call fails, 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_INSUFFICIENT_BUFFER</b>, and <i>lpBytesReturned</i> is zero.
 
 If <i>lpOverlapped</i> is <b>NULL</b>, 
        <i>lpBytesReturned</i> cannot be <b>NULL</b>. Even when an operation 
        returns no output data and <i>lpOutBuffer</i> is <b>NULL</b>, 
-       <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
        makes use of <i>lpBytesReturned</i>. After such an operation, the value of 
        <i>lpBytesReturned</i> is meaningless.
 
@@ -223,10 +223,10 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
        <i>lpBytesReturned</i> can be <b>NULL</b>. If this parameter is not 
        <b>NULL</b> and the operation returns data, <i>lpBytesReturned</i> is 
        meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call 
-       <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>. If the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>. If the 
        <i>hDevice</i> parameter is associated with an I/O completion port, you can retrieve the 
        number of bytes returned by calling 
-       <a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>.
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
 <td width="60%">
 <b>LPOVERLAPPED</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
 
 If <i>hDevice</i> was opened without specifying 
        <b>FILE_FLAG_OVERLAPPED</b>, <i>lpOverlapped</i> is ignored.
@@ -246,10 +246,10 @@ If <i>hDevice</i> was opened without specifying
 If <i>hDevice</i> was opened with the <b>FILE_FLAG_OVERLAPPED</b> flag, 
        the operation is performed as an overlapped (asynchronous) operation. In this case, 
        <i>lpOverlapped</i> must point to a valid 
-       <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that contains a handle to an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that contains a handle to an 
        event object. Otherwise, the function fails in unpredictable ways.
 
-For overlapped operations, <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
        returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the 
        function does not return until the operation has been completed or an error occurs.
 
@@ -258,7 +258,7 @@ For overlapped operations, <a href="https://msdn.microsoft.com/1d35c087-6672-4fc
 </table>
  
 
-For info about the virtual machine generation identifier, see <a href="https://msdn.microsoft.com/0793E46B-8464-425E-8C5B-77C14DA90004">Virtual machine generation identifier</a>.
+For info about the virtual machine generation identifier, see <a href="https://docs.microsoft.com/windows/desktop/HyperV_v2/virtual-machine-generation-identifier">Virtual machine generation identifier</a>.
 
 
 
@@ -268,11 +268,11 @@ For info about the virtual machine generation identifier, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn508292(v=VS.85).aspx">VM_GENCOUNTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmgenerationcounter/ns-vmgenerationcounter-_vm_gencounter">VM_GENCOUNTER</a>
  
 
  

@@ -59,17 +59,17 @@ The DD_UPDATEOVERLAYDATA structure contains information necessary for updating a
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDDestSurface
 
-Points to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that represents the Microsoft DirectDraw surface to be overlaid. This value can be <b>NULL</b> if DDOVER_HIDE is specified in <b>dwFlags</b>.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the Microsoft DirectDraw surface to be overlaid. This value can be <b>NULL</b> if DDOVER_HIDE is specified in <b>dwFlags</b>.
 
 
 ### -field rDest
 
-Specifies a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that contains the x, y, width, and height of the region on the destination surface to be overlaid.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that contains the x, y, width, and height of the region on the destination surface to be overlaid.
 
 
 ### -field lpDDSrcSurface
@@ -107,7 +107,7 @@ DDOVER_AUTOFLIP
 
 </td>
 <td>
-The driver should autoflip the overlay whenever the hardware video port autoflips. Drivers that support <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> need only check this flag.
+The driver should autoflip the overlay whenever the hardware video port autoflips. Drivers that support <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> need only check this flag.
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ Specifies a DDOVERLAYFX structure (described in the DirectDraw SDK documentation
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://msdn.microsoft.com/e86b3b75-319a-4817-bcb1-59580c855ef9">DdUpdateOverlay</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ### -field UpdateOverlay
@@ -265,7 +265,7 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 
-<a href="https://msdn.microsoft.com/e86b3b75-319a-4817-bcb1-59580c855ef9">DdUpdateOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
  
 
  

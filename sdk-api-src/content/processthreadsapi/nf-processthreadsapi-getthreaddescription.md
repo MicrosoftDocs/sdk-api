@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the description that was assigned to a thread by calling <a href="https://msdn.microsoft.com/0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB">SetThreadDescription</a>.
+Retrieves the description that was assigned to a thread by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription">SetThreadDescription</a>.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The description for a thread can change at any time. For example, a different th
 
 Thread descriptions do not need to be unique.
 
-To free the memory for the thread description, call the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> method.
+To free the memory for the thread description, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> method.
 
 
 #### Examples
@@ -115,11 +115,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB">SetThreadDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription">SetThreadDescription</a>
  
 
  

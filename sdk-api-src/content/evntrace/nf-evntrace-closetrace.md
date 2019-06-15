@@ -63,7 +63,7 @@ The <b>CloseTrace</b> function closes a trace.
 
 ### -param TraceHandle [in]
 
-Handle to the trace to close. The <a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a> function 
+Handle to the trace to close. The <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function 
       returns this handle.
 
 
@@ -74,7 +74,7 @@ Handle to the trace to close. The <a href="https://msdn.microsoft.com/505e643b-6
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -104,7 +104,7 @@ One of the following is true:
 </dl>
 </td>
 <td width="60%">
-Prior to Windows Vista, you cannot close the trace until the <a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a> function completes.  
+Prior to Windows Vista, you cannot close the trace until the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function completes.  
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Prior to Windows Vista, you cannot close the trace until the <a href="https://m
 </dl>
 </td>
 <td width="60%">
-The call was successful. The  <a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).
+The call was successful. The  <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The call was successful. The  <a href="https://msdn.microsoft.com/aea25a95-f435-
 Consumers call this function.
 
 If you are processing events from a log file, you call this function only after the 
-     <a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a> function returns. However, if you are 
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function returns. However, if you are 
      processing real-time events, you can call this function before 
      <b>ProcessTrace</b> returns. If you call this function before 
      <b>ProcessTrace</b> returns, the 
@@ -143,17 +143,17 @@ If you are processing events from a log file, you call this function only after 
      (<b>ProcessTrace</b> will not receive any new events after you 
      call the <b>CloseTrace</b> function). You can call the 
      <b>CloseTrace</b> function from your 
-     <a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a>, 
-     <a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a>, or 
-     <a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a> callback.
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>, or 
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback.
 
-<b>Prior to Windows Vista:  </b>You can call <b>CloseTrace</b> only after <a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a> returns.
+<b>Prior to Windows Vista:  </b>You can call <b>CloseTrace</b> only after <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> returns.
 
 
 #### Examples
 
 For an example that uses <b>CloseTrace</b>, see 
-     <a href="https://msdn.microsoft.com/13512236-c416-43ba-bf36-b05c5c08d6c9">Retrieving Event Data Using MOF</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
@@ -164,11 +164,11 @@ For an example that uses <b>CloseTrace</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
  
 
  

@@ -59,7 +59,7 @@ This notification method is called by the Mobile Broadband service to indicate t
 
 ### -param newInterface [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/2b60d078-ccbd-4cc5-addf-e6e95832b3a1">IMbnSignal</a> interface  for which the signal quality update was received.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a> interface  for which the signal quality update was received.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method must return <b>S_OK</b>.
 
 
 <b>OnSignalStateChange</b> is called by the Mobile Broadband service to notify a calling application that a signal quality update is available.  This includes an update of the signal notification period, threshold for signal notification, signal strength received, and error rate in the received signal. 
-An application can get updated values from the <a href="https://msdn.microsoft.com/2b60d078-ccbd-4cc5-addf-e6e95832b3a1">IMbnSignal</a> interface passed in this method.
+An application can get updated values from the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a> interface passed in this method.
 
 
 
@@ -87,7 +87,7 @@ An application can get updated values from the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/9e52168a-c6f9-4154-b8b9-8ae6cb771d46">IMbnSignalEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>
  
 
  

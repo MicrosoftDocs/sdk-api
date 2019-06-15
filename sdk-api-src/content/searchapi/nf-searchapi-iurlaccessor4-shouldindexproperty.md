@@ -81,7 +81,7 @@ Returns S_FALSE if the property should not be indexed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183431(v=VS.85).aspx">IUrlAccessor4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor4">IUrlAccessor4</a>
  
 
  

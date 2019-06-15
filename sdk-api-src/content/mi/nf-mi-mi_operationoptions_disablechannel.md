@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Uses <a href="https://msdn.microsoft.com/2e4dbb4d-5482-4ed0-9903-34b3bb87b16f">MI_Context_WriteMessage</a> to disable logging to the specified 
+Uses <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_writemessage">MI_Context_WriteMessage</a> to disable logging to the specified 
      channel.
 
 
@@ -60,7 +60,7 @@ Uses <a href="https://msdn.microsoft.com/2e4dbb4d-5482-4ed0-9903-34b3bb87b16f">M
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/60445a53-c40c-4d0a-9650-21d0c7f3bbf6">MI_OperationOptions</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_operationoptions">MI_OperationOptions</a> structure.
 
 
 ### -param channel [in]
@@ -90,7 +90,7 @@ Channel used to broadcast debugging information.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Not used. Clones an <a href="https://msdn.microsoft.com/627f39be-5c9d-49a1-af73-210cdbb7940a">IEnumSyncMgrConflict</a> object.
+Not used. Clones an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a> object.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Not used. Clones an <a href="https://msdn.microsoft.com/627f39be-5c9d-49a1-af73-
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/627f39be-5c9d-49a1-af73-210cdbb7940a">IEnumSyncMgrConflict</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a>**</b>
 
-The address of the cloned <a href="https://msdn.microsoft.com/627f39be-5c9d-49a1-af73-210cdbb7940a">IEnumSyncMgrConflict</a> interface pointer.
+The address of the cloned <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a> interface pointer.
 
 
 ## -returns

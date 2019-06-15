@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values that indicate the current state of the write operation when using the <a href="https://msdn.microsoft.com/b1988883-459c-46f1-a0d1-df9500a000e1">IDiscFormat2RawCDEventArgs</a> interface.
+Defines values that indicate the current state of the write operation when using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcdeventargs">IDiscFormat2RawCDEventArgs</a> interface.
 
 
 ## -enum-fields
@@ -82,7 +82,7 @@ Synchronizing the drive's cache with the end of the data written to disc.
 
 
 
-<a href="https://msdn.microsoft.com/abe35eee-63a4-4109-8927-825f86b6e302">DDiscFormat2RawCDEvents::Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2rawcdevents-update">DDiscFormat2RawCDEvents::Update</a>
  
 
  

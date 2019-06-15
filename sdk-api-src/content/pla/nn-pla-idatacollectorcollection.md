@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Manages a collection of <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">DataCollector</a> objects.
+Manages a collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">DataCollector</a> objects.
 
-To get this interface, access the <a href="https://msdn.microsoft.com/1bcfc15e-bc20-4dfa-a934-d0100b8db23f">IDataCollectorSet::DataCollectors</a> property.
+To get this interface, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_datacollectors">IDataCollectorSet::DataCollectors</a> property.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IDataCollectorCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDataCollectorCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IDataCollectorCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IDataCollectorCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6302e144-74ef-4251-a857-d3e066c9763d">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a data collector to the collection.
@@ -81,7 +81,7 @@ Adds a data collector to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7482bc4-18a4-4267-9ceb-1552dd71391c">AddRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-addrange">AddRange</a>
 </td>
 <td align="left" width="63%">
 Adds one or more data collectors to the collection.
@@ -90,7 +90,7 @@ Adds one or more data collectors to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be0840dc-e19a-454e-bbea-6968c7284cc8">Clear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all data collectors from the collection.
@@ -99,7 +99,7 @@ Removes all data collectors from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6d98361-3af3-4fb2-ad0b-4449b81d6e9e">CreateDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-createdatacollector">CreateDataCollector</a>
 </td>
 <td align="left" width="63%">
 Creates a data collector of the specified type.
@@ -108,7 +108,7 @@ Creates a data collector of the specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32a1aba6-24f4-416a-b2ba-9be264fce3fc">CreateDataCollectorFromXml</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-createdatacollectorfromxml">CreateDataCollectorFromXml</a>
 </td>
 <td align="left" width="63%">
 Creates a data collector using the specified XML.
@@ -117,7 +117,7 @@ Creates a data collector using the specified XML.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f5a6d20-d65a-477b-8886-8536315bc36e">Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a data collector from the collection.
@@ -134,7 +134,7 @@ Removes a data collector from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/05b97d37-9ccc-4856-a71a-77dd99eab8c2">_NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -146,7 +146,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f18f5b40-35bb-472b-bd42-04b0a018dbf9">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-get_count">Count</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Retrieves the number of data collectors in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ab77b1ad-e09f-40fb-b285-d8a82b4b3528">Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-get_item">Item</a>
 
 
 </td>

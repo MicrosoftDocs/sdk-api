@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a> method.
+The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> method.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="ht
 
 ### -field dwDestSurfaceIndex
 
-The zero-based index of the uncompressed destination surface. The number of uncompressed surfaces is specified in the <a href="https://msdn.microsoft.com/en-us/library/Dd375996(v=VS.85).aspx">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
+The zero-based index of the uncompressed destination surface. The number of uncompressed surfaces is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
 
 
 ### -field pInputData
@@ -104,11 +104,11 @@ The video accelerator might not use the same surface memory in two consecutive c
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">IAMVideoAccelerator::BeginFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a>
  
 
  

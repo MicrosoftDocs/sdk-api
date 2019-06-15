@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICGetBuffersWanted</b> macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/109e8627-7ed4-4f17-bf7f-e77f42dfc8c7">ICM_GETBUFFERSWANTED</a> message.
+The <b>ICGetBuffersWanted</b> macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getbufferswanted">ICM_GETBUFFERSWANTED</a> message.
 
 
 
@@ -84,11 +84,11 @@ This message is used by drivers that use hardware to render data and want to ens
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

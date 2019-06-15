@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>OpenLog</b> method opens a log file that receives progress and error messages. If the log file already exists, the installer appends new messages. If the log file does not exist, the installer creates a log file. For more information, see the 
-<a href="https://msdn.microsoft.com/97d01ea3-43b6-4529-9706-97b3b0132d9c">OpenLog</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-openlog">OpenLog</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::OpenLog</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::OpenLog</b>      All Mergemod.dll versions.
 			
@@ -124,7 +124,7 @@ The function succeeded.
 
 This function opens a log file to receive progress and error messages. If the log file already exists, new messages get appended to the log. If the log file does not exist it is created.
 
-Clients may send their own messages to this log file using <a href="https://msdn.microsoft.com/15c7450b-6887-4a54-8f4f-ac2cf5944f17">Log</a>.
+Clients may send their own messages to this log file using <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-log">Log</a>.
 
 
 
@@ -134,7 +134,7 @@ Clients may send their own messages to this log file using <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

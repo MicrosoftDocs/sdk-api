@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message string that a writer has  set for a given component.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> failure message string that a writer has  set for a given component.
 
-Both writers and requesters can call this method. Writers should call this method after the <a href="https://msdn.microsoft.com/3cc6c375-8a24-4af3-b4ad-5a695cc2645c">IVssBackupComponents::DoSnapshotSet</a> asynchronous operation has completed.
+Both writers and requesters can call this method. Writers should call this method after the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> asynchronous operation has completed.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Both writers and requesters can call this method. Writers should call this metho
 ### -param pbstrFailureMsg [out]
 
 A pointer to a null-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> 
+      while processing a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> 
       event.
 
 
@@ -96,7 +96,7 @@ The failure message was successfully obtained.
 </dl>
 </td>
 <td width="60%">
-No <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PostSnapshot</a> failure message was set for the component.
+No <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> failure message was set for the component.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The caller is out of memory or other system resources.
 
 
 
-The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 
@@ -142,15 +142,15 @@ The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i
 
 
 
-<a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/b11f65b0-2de2-478b-88b6-4696a8da2419">IVssComponentEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex">IVssComponentEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7cf4e512-d557-4187-b489-5cca76c0560f">IVssComponentEx::SetPostSnapshotFailureMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setpostsnapshotfailuremsg">IVssComponentEx::SetPostSnapshotFailureMsg</a>
  
 
  

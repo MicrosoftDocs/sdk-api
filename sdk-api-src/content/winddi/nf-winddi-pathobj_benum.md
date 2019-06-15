@@ -59,12 +59,12 @@ The <b>PATHOBJ_bEnum</b> function retrieves the next PATHDATA record from a spec
 
 ### -param ppo
 
-Pointer to a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure whose curves and/or lines are to be enumerated.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure whose curves and/or lines are to be enumerated.
 
 
 ### -param ppd
 
-Pointer to a <a href="https://msdn.microsoft.com/ba86d245-1ec2-42aa-9502-256981109700">PATHDATA</a> structure that is to be filled.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathdata">PATHDATA</a> structure that is to be filled.
 
 
 ## -returns
@@ -80,7 +80,7 @@ The return value is <b>TRUE</b> if the specified path contains more PATHDATA rec
 
 
 
-<b>PATHOBJ_bEnum</b> can be called only after a call to <a href="https://msdn.microsoft.com/b83e6f87-be79-4743-bc52-b9310853c4f5">PATHOBJ_vEnumStart</a> has been made.
+<b>PATHOBJ_bEnum</b> can be called only after a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstart">PATHOBJ_vEnumStart</a> has been made.
 
 A PATHDATA structure describes all or part of a subpath (a connected part of a path). For example, a <b>MoveTo</b> call by the application within a path begins a new subpath.
 
@@ -92,19 +92,19 @@ A PATHDATA structure describes all or part of a subpath (a connected part of a p
 
 
 
-<a href="https://msdn.microsoft.com/ba86d245-1ec2-42aa-9502-256981109700">PATHDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathdata">PATHDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/b83e6f87-be79-4743-bc52-b9310853c4f5">PATHOBJ_vEnumStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstart">PATHOBJ_vEnumStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/3db437aa-40d1-4703-ab1e-b3e154923d2d">PATHOBJ_vEnumStartClipLines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
  
 
  

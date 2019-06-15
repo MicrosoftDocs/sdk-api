@@ -77,7 +77,7 @@ A vector of bounds (one for each dimension) to allocate for the array.
 
 ### -param pvExtra [in]
 
-the type information of the user-defined type, if you are creating a safe array of user-defined types. If the vt parameter is VT_RECORD, then <i>pvExtra</i> will be a pointer to an <a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a> describing the record. If the <i>vt</i> parameter is VT_DISPATCH or VT_UNKNOWN, then <i>pvExtra</i> will contain a pointer to a GUID representing the type of interface being passed to the array.
+the type information of the user-defined type, if you are creating a safe array of user-defined types. If the vt parameter is VT_RECORD, then <i>pvExtra</i> will be a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> describing the record. If the <i>vt</i> parameter is VT_DISPATCH or VT_UNKNOWN, then <i>pvExtra</i> will contain a pointer to a GUID representing the type of interface being passed to the array.
 
 
 ## -returns
@@ -93,7 +93,7 @@ A safe array descriptor, or null if the array could not be created.
 
 
 
-If the VARTYPE is VT_RECORD then <a href="https://msdn.microsoft.com/85317e8e-7625-4799-9c34-73245f164f85">SafeArraySetRecordInfo</a> is called. If the VARTYPE is VT_DISPATCH or VT_UNKNOWN then the elements of the array must contain interfaces of the same type. Part of the process of marshaling this array to other processes does include generating the proxy/stub code of the IID pointed to by the <i>pvExtra</i> parameter. To actually pass heterogeneous interfaces one will need to specify either IID_IUnknown or IID_IDispatch in <i>pvExtra</i> and provide some other means for the caller to identify how to query for the actual interface.
+If the VARTYPE is VT_RECORD then <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraysetrecordinfo">SafeArraySetRecordInfo</a> is called. If the VARTYPE is VT_DISPATCH or VT_UNKNOWN then the elements of the array must contain interfaces of the same type. Part of the process of marshaling this array to other processes does include generating the proxy/stub code of the IID pointed to by the <i>pvExtra</i> parameter. To actually pass heterogeneous interfaces one will need to specify either IID_IUnknown or IID_IDispatch in <i>pvExtra</i> and provide some other means for the caller to identify how to query for the actual interface.
 
 
 #### Examples

@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a> from three <code>int8_t</code> arguments.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a> from three <code>int8_t</code> arguments.
 
 This constructor initializes a new instance of <wdcml:xref rid="dxmath.xmu565" targtype="struct">XMU565 </wdcml:xref> from three <code>int8_t</code> arguments.
 
@@ -90,6 +90,6 @@ instance.v= ((z & 0x1F) << 11) |
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420413(v=VS.85).aspx">XMU565</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415440(v=VS.85).aspx">XMU565 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>

@@ -59,14 +59,14 @@ Called in response to an attempt to submit this credential to the underlying aut
 
 ### -param pcpgsr [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762491(v=VS.85).aspx">CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_get_serialization_response">CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE</a>*</b>
 
 Indicates the success or failure of the attempt to serialize credentials.
 
 
 ### -param pcpcs [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773242(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a>*</b>
 
 A pointer to the credential. Depending on the result, there may be no valid credential.
 
@@ -80,7 +80,7 @@ A pointer to a Unicode string value that will be displayed by the Logon UI after
 
 ### -param pcpsiOptionalStatusIcon [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762492(v=VS.85).aspx">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_status_icon">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
 
 A pointer to an icon that will be displayed by the credential after the call to <b>GetSerialization</b> returns. This value can be <b>NULL</b>.
 
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is required.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> indicates what the appropriate response would be when the user attempts to submit credentials. The following table indicates how to respond based on the usage scenario.
+The <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_usage_scenario">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> indicates what the appropriate response would be when the user attempts to submit credentials. The following table indicates how to respond based on the usage scenario.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CR
 </tr>
 <tr>
 <td><b>CPUS_LOGON</b>, <b>CPUS_UNLOCK_WORKSTATION</b></td>
-<td>The credential information should be packed into a binary stream and transmitted to <a href="https://msdn.microsoft.com/232d1dcc-5388-480c-8d27-caf8ded4575d">Winlogon</a> and eventually LSA.</td>
+<td>The credential information should be packed into a binary stream and transmitted to <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a> and eventually LSA.</td>
 </tr>
 </table>
  
@@ -126,7 +126,7 @@ Credential providers handle extremely sensitive user secrets in order to complet
                 
 
 <ul>
-<li>Always securely discard secrets. To do this, call <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
+<li>Always securely discard secrets. To do this, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
 <li>Securely discard secrets promptly after they are used.</li>
 <li>Securely discard secrets if they are not used for their intended purpose within an expected amount of time.</li>
 </ul>

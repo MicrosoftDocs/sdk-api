@@ -63,12 +63,12 @@ Retrieves the sample protection certificate.
 
 ### -param dwVersion [in]
 
-Specifies the version number of the sample protection scheme for which to receive a certificate. The version number is specified as a <a href="https://msdn.microsoft.com/5244ac44-5738-4d77-9dc5-371efe52ced9">SAMPLE_PROTECTION_VERSION</a> enumeration value.
+Specifies the version number of the sample protection scheme for which to receive a certificate. The version number is specified as a <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration value.
 
 
 ### -param ppCert [out]
 
-Receives a pointer to a buffer containing the certificate. The caller must free the memory for the buffer by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to a buffer containing the certificate. The caller must free the memory for the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -param pcbCert [out]
@@ -129,7 +129,7 @@ For certain version numbers of sample protection, the downstream component must 
 
 
 
-<a href="https://msdn.microsoft.com/bebe24cd-657b-4c6c-9fe9-5d6dd58827a3">IMFSampleProtection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
  
 
  

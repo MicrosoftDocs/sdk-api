@@ -73,7 +73,7 @@ Returns nothing.
 
 
 
-This function is typically used in multithreaded applications when there is a series of graphics commands that must happen in order. <a href="https://msdn.microsoft.com/en-us/library/Bb173817(v=VS.85).aspx">ID3D10Multithread::Enter</a> is typically called at the beginning of a series of graphics commands, and this function is typically called after those graphics commands.
+This function is typically used in multithreaded applications when there is a series of graphics commands that must happen in order. <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-enter">ID3D10Multithread::Enter</a> is typically called at the beginning of a series of graphics commands, and this function is typically called after those graphics commands.
 
 
 
@@ -83,11 +83,11 @@ This function is typically used in multithreaded applications when there is a se
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173816(v=VS.85).aspx">ID3D10Multithread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread</a>
  
 
  

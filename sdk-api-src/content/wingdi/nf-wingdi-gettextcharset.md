@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Retrieves a character set identifier for the font that is currently selected into a specified device context.
-<div class="alert"><b>Note</b>  A call to this function is equivalent to a call to <a href="https://msdn.microsoft.com/1c8c114a-b261-457c-b541-4648a8f38ee8">GetTextCharsetInfo</a> passing <b>NULL</b> for the data buffer.</div><div> </div>
+<div class="alert"><b>Note</b>  A call to this function is equivalent to a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharsetinfo">GetTextCharsetInfo</a> passing <b>NULL</b> for the data buffer.</div><div> </div>
 
 ## -parameters
 
@@ -81,15 +81,15 @@ If the function fails, it returns DEFAULT_CHARSET.
 
 
 
-<a href="https://msdn.microsoft.com/1c8c114a-b261-457c-b541-4648a8f38ee8">GetTextCharsetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharsetinfo">GetTextCharsetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1799f5da-1391-4b6e-ac13-718017a77557">Unicode and Character Set Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c1c6582-b58c-4008-9ce5-208acc191d9f">Unicode and Character Sets</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
  
 
  

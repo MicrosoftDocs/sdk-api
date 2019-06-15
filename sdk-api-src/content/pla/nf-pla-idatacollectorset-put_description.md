@@ -65,7 +65,7 @@ This property is read/write.
 
 To use a localized string from a binary, specify the description in the form @<i>binary</i>,#<i>id</i> where <i>binary</i> is the EXE or DLL that contains the localized resource string and <i>id</i> is the string resource identifier.
 
-If you set the description to the @<i>binary</i>,#<i>id</i> form, when you retrieve  the description you will receive the localized string. To retrieve the description string that you set, access the <a href="https://msdn.microsoft.com/153159b2-54dc-477a-92eb-18328ea3351b">IDataCollectorSet::DescriptionUnresolved</a> property.
+If you set the description to the @<i>binary</i>,#<i>id</i> form, when you retrieve  the description you will receive the localized string. To retrieve the description string that you set, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_descriptionunresolved">IDataCollectorSet::DescriptionUnresolved</a> property.
 
 
 
@@ -75,11 +75,11 @@ If you set the description to the @<i>binary</i>,#<i>id</i> form, when you retri
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/153159b2-54dc-477a-92eb-18328ea3351b">IDataCollectorSet::DescriptionUnresolved</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_descriptionunresolved">IDataCollectorSet::DescriptionUnresolved</a>
  
 
  

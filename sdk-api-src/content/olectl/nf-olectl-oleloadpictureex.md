@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling <a href="https://msdn.microsoft.com/fb021348-07d4-4974-a71e-abb1b8d760c4">OleCreatePictureIndirect</a> with <b>NULL</b> as the first parameter, followed by a call to <a href="https://msdn.microsoft.com/351e1187-9959-4542-8778-925457c3b8e3">IPersistStream::Load</a>.
+Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> with <b>NULL</b> as the first parameter, followed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a>.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The number of bytes that should be read from the stream, or zero if the entire s
 
 ### -param fRunmode [in]
 
-The opposite of the initial value of the <a href="https://msdn.microsoft.com/90befcb7-138f-4c63-a6ec-ec06c89b3317">KeepOriginalFormat</a> property. If <b>TRUE</b>, <a href="https://msdn.microsoft.com/04d952cf-a3c0-4220-9d24-8188ce52f862">KeepOriginalFormat</a> is set to <b>FALSE</b> and vice versa.
+The opposite of the initial value of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_keeporiginalformat">KeepOriginalFormat</a> property. If <b>TRUE</b>, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">KeepOriginalFormat</a> is set to <b>FALSE</b> and vice versa.
 
 
 ### -param riid [in]
@@ -94,7 +94,7 @@ Desired color depth for icon or cursor. Values are LP_MONOCHROME (monochrome), L
 
 ### -param lplpvObj [out]
 
-Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the storage of the object identified by the moniker. If *<i>ppvObj</i> is non-<b>NULL</b>, this function calls <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a> on the interface; it is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a>. If an error occurs, *<i>ppvObj</i> is set to <b>NULL</b>.
+Address of pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppvObj</i> contains the requested interface pointer on the storage of the object identified by the moniker. If *<i>ppvObj</i> is non-<b>NULL</b>, this function calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the interface; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>. If an error occurs, *<i>ppvObj</i> is set to <b>NULL</b>.
 
 
 ## -returns
@@ -153,11 +153,11 @@ In addition to allowing specification of icon or cursor size, <b>OleLoadPictureE
 
 
 
-<a href="https://msdn.microsoft.com/fb021348-07d4-4974-a71e-abb1b8d760c4">OleCreatePictureIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb1f1de7-dcfe-4c1c-8737-f5ab4d7977d6">PICTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagpictdesc">PICTDESC</a>
  
 
  

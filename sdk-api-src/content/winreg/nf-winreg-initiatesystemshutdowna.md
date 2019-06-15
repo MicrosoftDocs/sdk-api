@@ -56,7 +56,7 @@ ms.custom: 19H1
 Initiates a shutdown and optional restart of the specified computer.
 
 To record a reason for the shutdown in the event log, call the 
-<a href="https://msdn.microsoft.com/4536cf76-7669-42b1-8c44-9f5e368424cc">InitiateSystemShutdownEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a> function.
 
 
 ## -parameters
@@ -81,13 +81,13 @@ The  message to be displayed in the shutdown dialog box. This parameter can be <
 ### -param dwTimeout [in]
 
 The length of time that the shutdown dialog box should be displayed, in seconds. While this dialog box is displayed, the shutdown can be stopped by the 
-<a href="https://msdn.microsoft.com/41212640-6a06-4d2f-9b0e-5b2d77d561b0">AbortSystemShutdown</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a> function.
 
 If <i>dwTimeout</i> is not zero, 
 <b>InitiateSystemShutdown</b> displays a dialog box on the specified computer. The dialog box displays the name of the user who called the function, displays the message specified by the <i>lpMessage</i> parameter, and prompts the user to log off. The dialog box beeps when it is created and remains on top of other windows in the system. The dialog box can be moved but not closed. A timer counts down the remaining time before a forced shutdown.
 
 If <i>dwTimeout</i> is zero, the computer shuts down without displaying the dialog box, and the shutdown cannot be stopped by 
-<a href="https://msdn.microsoft.com/41212640-6a06-4d2f-9b0e-5b2d77d561b0">AbortSystemShutdown</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>.
 
 <b>Windows Server 2003 and Windows XP with SP1:  </b>The time-out value is limited to <b>MAX_SHUTDOWN_TIMEOUT</b> seconds.
 
@@ -113,7 +113,7 @@ If this parameter is <b>TRUE</b>, the computer is to restart immediately after s
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -123,7 +123,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 To shut down the local computer, the calling thread must have the <b>SE_SHUTDOWN_NAME</b> privilege. To shut down a remote computer, the calling thread must have the <b>SE_REMOTE_SHUTDOWN_NAME</b> privilege on the remote computer. By default, users can enable the <b>SE_SHUTDOWN_NAME</b> privilege on the computer they are logged onto, and administrators can enable the <b>SE_REMOTE_SHUTDOWN_NAME</b> privilege on remote computers. For more information, see 
-<a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Common reasons for failure include an invalid or inaccessible computer name or insufficient privilege. The error <b>ERROR_SHUTDOWN_IN_PROGRESS</b> is returned if a shutdown is already in progress on the specified computer. The error <b>ERROR_NOT_READY</b> can be returned if fast-user switching is enabled but no user is logged on.
 
@@ -139,7 +139,7 @@ Note that calling this function with the value of the <i>bForceAppsClosed</i> pa
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/928c2d48-daa5-4c27-816b-766adedba7eb">Displaying the Shutdown Dialog Box</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/displaying-the-shutdown-dialog-box">Displaying the Shutdown Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -150,19 +150,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/41212640-6a06-4d2f-9b0e-5b2d77d561b0">AbortSystemShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/4536cf76-7669-42b1-8c44-9f5e368424cc">InitiateSystemShutdownEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/acadf58f-3f68-4fa1-bdcf-8f85c8479263">Shutting Down</a>
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a08a769-1acf-49eb-ba95-beaf56a374bf">System Shutdown Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>
  
 
  

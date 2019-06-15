@@ -54,7 +54,7 @@ The <b>ISceSvcAttachmentPersistInfo</b> interface retrieves any modified configu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISceSvcAttachmentPersistInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISceSvcAttachmentPersistInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISceSvcAttachmentPersistInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISceSvcAttachmentPersistInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,21 +69,21 @@ The <b>ISceSvcAttachmentPersistInfo</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b41f01a4-dc38-4954-a3c5-19fa72910d6f">FreeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-freebuffer">FreeBuffer</a>
 </td>
 <td align="left" width="63%">
 Frees memory allocated by the attachment snap-in extension.</p> (Inherited from <b>ISceSvcAttachmentPersistInfo</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b430e598-e16c-47fc-8f19-fbcfc6b71337">IsDirty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-isdirty">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Indicates whether data stored in the attachment snap-in extension has changed since the last time the snap-in extension's data was saved.</p> (Inherited from <b>ISceSvcAttachmentPersistInfo</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bdec64b8-2a92-4165-95ff-0de981f2d878">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save">Save</a>
 </td>
 <td align="left" width="63%">
 Gets the data that needs to be saved from the snap-in extension.</p> (Inherited from <b>ISceSvcAttachmentPersistInfo</b>)</td>
@@ -96,7 +96,7 @@ Gets the data that needs to be saved from the snap-in extension.</p> (Inherited 
 
 
 
-<a href="https://msdn.microsoft.com/385acdb9-5642-47c1-b2ac-be388edaac12">ISceSvcAttachmentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>
  
 
  

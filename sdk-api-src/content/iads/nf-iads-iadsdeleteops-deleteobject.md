@@ -66,7 +66,7 @@ Reserved.
 
 
 
-This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -76,27 +76,27 @@ This method supports standard return values, including S_OK for a successful ope
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/87027c25-e3c9-4bad-8df3-cb6205e40ef6">Access Control and Object Deletion</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/access-control-and-object-deletion">Access Control and Object Deletion</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f3873e0-376e-4212-a28d-bd9bc112f6cf">IADsContainer::Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a>
 
 
 
-<a href="https://msdn.microsoft.com/329d7061-9aa2-4f4e-a0ec-a0cbb1d231f5">IADsDeleteOps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdeleteops">IADsDeleteOps</a>
 
 
 
-<a href="https://msdn.microsoft.com/821b71c2-e9f5-4ca8-9366-e8a3f1907670">IADsDeleteOps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdeleteops-interface">IADsDeleteOps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb7bed74-1420-4b46-92a9-ebe31f2d88fd">IDirectoryObject::DeleteDSObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-deletedsobject">IDirectoryObject::DeleteDSObject</a>
  
 
  

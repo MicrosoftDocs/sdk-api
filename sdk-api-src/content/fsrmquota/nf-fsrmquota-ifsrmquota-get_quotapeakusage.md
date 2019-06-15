@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a> class.]
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Retrieves the highest amount of disk space usage charged to this quota.
 
@@ -67,14 +67,14 @@ This property is read-only.
 
 
 The value represents the highest amount of disk space charged to this quota since the last call to 
-    <a href="https://msdn.microsoft.com/5c2b18a9-912a-49cc-bf4f-07f172a328b1">IFsrmQuota::ResetPeakUsage</a>. To reset this value, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquota-resetpeakusage">IFsrmQuota::ResetPeakUsage</a>. To reset this value, 
     call the <b>ResetPeakUsage</b> method.
 
 
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/7b755410-5520-4933-8859-9c201cbd13eb">Getting Current Usage Values</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/getting-current-usage-values">Getting Current Usage Values</a>.
 
 <div class="code"></div>
 
@@ -85,11 +85,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/91ced22a-01b9-4fcf-b61a-c99e6f0286f3">IFsrmQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquota">IFsrmQuota</a>
 
 
 
-<a href="https://msdn.microsoft.com/9308f1de-ba8e-45f5-81ec-d8203839ee79">MSFT_FSRMQuota</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
  
 
  

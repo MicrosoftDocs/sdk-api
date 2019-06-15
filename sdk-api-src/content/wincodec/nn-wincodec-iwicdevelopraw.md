@@ -54,7 +54,7 @@ Exposes methods that provide access to the capabilites of a raw codec format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDevelopRaw</b> interface inherits from <a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a>. <b>IWICDevelopRaw</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICDevelopRaw</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>. <b>IWICDevelopRaw</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICDevelopRaw</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65454979-f282-42da-80b6-e50955634093">GetContrast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getcontrast">GetContrast</a>
 </td>
 <td align="left" width="63%">
 Gets the contrast value of the raw image.
@@ -78,7 +78,7 @@ Gets the contrast value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06facc60-0d88-472d-827a-70e4006e947e">GetCurrentParameterSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getcurrentparameterset">GetCurrentParameterSet</a>
 </td>
 <td align="left" width="63%">
 Gets the current set of parameters.
@@ -87,7 +87,7 @@ Gets the current set of parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cdd71702-4696-4533-bd6f-ba9324b6b05b">GetExposureCompensation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getexposurecompensation">GetExposureCompensation</a>
 </td>
 <td align="left" width="63%">
 Gets the exposure compensation stop value of the raw image.
@@ -96,7 +96,7 @@ Gets the exposure compensation stop value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d76fc2dc-9bcc-4d7b-93fd-82a9647e7b6f">GetGamma</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getgamma">GetGamma</a>
 </td>
 <td align="left" width="63%">
 Gets the current gamma setting of the raw image.
@@ -105,7 +105,7 @@ Gets the current gamma setting of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c718c957-3523-4281-aa7e-761977a6b4c5">GetKelvinRangeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getkelvinrangeinfo">GetKelvinRangeInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the information about the current Kelvin range of the raw image.
@@ -114,7 +114,7 @@ Gets the information about the current Kelvin range of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fa5f0c8-fee2-4338-992a-5c927883a731">GetNamedWhitePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getnamedwhitepoint">GetNamedWhitePoint</a>
 </td>
 <td align="left" width="63%">
 Gets the named white point of the raw image.
@@ -123,7 +123,7 @@ Gets the named white point of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38dee560-16c1-4a91-8a8d-ed42dcdbb9ff">GetNoiseReduction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getnoisereduction">GetNoiseReduction</a>
 </td>
 <td align="left" width="63%">
 Gets the noise reduction value of the raw image.
@@ -132,16 +132,16 @@ Gets the noise reduction value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8cf4508-6a2c-4d02-b98f-0455a3dc966c">GetRenderMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getrendermode">GetRenderMode</a>
 </td>
 <td align="left" width="63%">
-Gets the current <a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a743b96107">WICRawRenderMode</a>.
+Gets the current <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/671bca6d-bbe5-4f07-9735-12d796013d9e">GetRotation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getrotation">GetRotation</a>
 </td>
 <td align="left" width="63%">
 Gets the current rotation angle.
@@ -150,7 +150,7 @@ Gets the current rotation angle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/621868d6-3444-48f9-a069-f52ebacd7bbb">GetSaturation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getsaturation">GetSaturation</a>
 </td>
 <td align="left" width="63%">
 Gets the saturation value of the raw image.
@@ -159,7 +159,7 @@ Gets the saturation value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3cb0749-5ec6-4c29-824f-ae44f554d494">GetSharpness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getsharpness">GetSharpness</a>
 </td>
 <td align="left" width="63%">
 Gets the sharpness value of the raw image.
@@ -168,7 +168,7 @@ Gets the sharpness value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12b7ecbe-efa9-47f4-b3b5-5ae1e1a66c3b">GetTint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-gettint">GetTint</a>
 </td>
 <td align="left" width="63%">
 Gets the tint value of the raw image.
@@ -177,7 +177,7 @@ Gets the tint value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/651f9efb-145a-400b-8d7c-255aee67c385">GetToneCurve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-gettonecurve">GetToneCurve</a>
 </td>
 <td align="left" width="63%">
 Gets the tone curve of the raw image.
@@ -186,7 +186,7 @@ Gets the tone curve of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f649de0-6b53-4c67-b75d-73a44cc07c56">GetWhitePointKelvin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getwhitepointkelvin">GetWhitePointKelvin</a>
 </td>
 <td align="left" width="63%">
 Gets the white point Kelvin temperature of the raw image.
@@ -195,7 +195,7 @@ Gets the white point Kelvin temperature of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e163ba80-6ed2-4f03-b74f-07c96b478ac0">GetWhitePointRGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-getwhitepointrgb">GetWhitePointRGB</a>
 </td>
 <td align="left" width="63%">
 Gets the white point RGB values.
@@ -204,16 +204,16 @@ Gets the white point RGB values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3882d90-5772-4b10-8fcc-8d16f5004a05">LoadParameterSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-loadparameterset">LoadParameterSet</a>
 </td>
 <td align="left" width="63%">
-Sets the desired <a href="https://msdn.microsoft.com/0c39b769-9523-42ce-942f-761e6d39ec5b">WICRawParameterSet</a> option.
+Sets the desired <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawparameterset">WICRawParameterSet</a> option.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a16ada3c-34ae-47ce-9660-90e50d78802a">QueryRawCapabilitiesInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-queryrawcapabilitiesinfo">QueryRawCapabilitiesInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about which capabilities are supported for a raw image.
@@ -222,7 +222,7 @@ Retrieves information about which capabilities are supported for a raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5013d351-e96d-44c7-88d7-65a55e474b01">SetContrast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setcontrast">SetContrast</a>
 </td>
 <td align="left" width="63%">
 Sets the contrast value of the raw image.
@@ -231,7 +231,7 @@ Sets the contrast value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5e82941-b52d-4f5b-8134-c3463464f1ac">SetDestinationColorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setdestinationcolorcontext">SetDestinationColorContext</a>
 </td>
 <td align="left" width="63%">
 Sets the destination color context.
@@ -240,7 +240,7 @@ Sets the destination color context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57ee5b96-2e49-415c-b1a8-41436a761b23">SetExposureCompensation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setexposurecompensation">SetExposureCompensation</a>
 </td>
 <td align="left" width="63%">
 Sets the exposure compensation stop value.
@@ -249,7 +249,7 @@ Sets the exposure compensation stop value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14d3b34c-1628-4e49-b07c-141f2933c86e">SetGamma</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setgamma">SetGamma</a>
 </td>
 <td align="left" width="63%">
 Sets the desired gamma value.
@@ -258,7 +258,7 @@ Sets the desired gamma value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb83233d-7967-4160-bebf-2b06378f77ab">SetNamedWhitePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setnamedwhitepoint">SetNamedWhitePoint</a>
 </td>
 <td align="left" width="63%">
 Sets the named white point of the raw file.
@@ -267,7 +267,7 @@ Sets the named white point of the raw file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0c78274-0a1f-4a98-a449-ae902795a71b">SetNoiseReduction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setnoisereduction">SetNoiseReduction</a>
 </td>
 <td align="left" width="63%">
 Sets the noise reduction value of the raw image.
@@ -276,7 +276,7 @@ Sets the noise reduction value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6c44dee-8dbd-49c2-9773-899b3f01b968">SetNotificationCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setnotificationcallback">SetNotificationCallback</a>
 </td>
 <td align="left" width="63%">
 Sets the notification callback method.
@@ -285,16 +285,16 @@ Sets the notification callback method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3150abb3-795d-416d-b3eb-0001796f510d">SetRenderMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setrendermode">SetRenderMode</a>
 </td>
 <td align="left" width="63%">
-Sets the current <a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a743b96107">WICRawRenderMode</a>.
+Sets the current <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1eba6004-d22e-4168-9207-358c072c3a17">SetRotation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setrotation">SetRotation</a>
 </td>
 <td align="left" width="63%">
 Sets the desired rotation angle.
@@ -303,7 +303,7 @@ Sets the desired rotation angle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93e9eb1c-8428-4c4d-913a-d6162430e509">SetSaturation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setsaturation">SetSaturation</a>
 </td>
 <td align="left" width="63%">
 Sets the saturation value of the raw image.
@@ -312,7 +312,7 @@ Sets the saturation value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c989362-0c76-4028-ac27-c49e3ec1c6fd">SetSharpness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setsharpness">SetSharpness</a>
 </td>
 <td align="left" width="63%">
 Sets the sharpness value of the raw image.
@@ -321,7 +321,7 @@ Sets the sharpness value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5c6a15b-19d3-4b6f-a00e-842ec8614ce5">SetTint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-settint">SetTint</a>
 </td>
 <td align="left" width="63%">
 Sets the tint value of the raw image.
@@ -330,7 +330,7 @@ Sets the tint value of the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfb0b67d-7eb1-4bbb-90be-33ca82b9460f">SetToneCurve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-settonecurve">SetToneCurve</a>
 </td>
 <td align="left" width="63%">
 Sets the tone curve for the raw image.
@@ -339,7 +339,7 @@ Sets the tone curve for the raw image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a5235ed-b0c8-4090-9380-892e3e994d10">SetWhitePointKelvin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setwhitepointkelvin">SetWhitePointKelvin</a>
 </td>
 <td align="left" width="63%">
 Sets the white point Kelvin value.
@@ -348,7 +348,7 @@ Sets the white point Kelvin value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7059959f-dcd6-46a6-a95c-1dd9610f865c">SetWhitePointRGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setwhitepointrgb">SetWhitePointRGB</a>
 </td>
 <td align="left" width="63%">
 Sets the white point RGB values.
@@ -367,11 +367,11 @@ Sets the white point RGB values.
 
 
 
-<a href="https://msdn.microsoft.com/58f03dc2-cc31-4d76-b75a-f332da1f900f">How to Write a WIC-Enabled CODEC</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/1498b800-6449-440f-bed7-85891637e559">IWICBitmapFrameDecode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>
 
 
 
@@ -379,11 +379,11 @@ Sets the white point RGB values.
 
 
 
-<a href="https://msdn.microsoft.com/2be5cfeb-2dd3-4486-b639-35ee28a7dd7b">WIC GUIDs and CLSIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/a05b496a-bd4c-4065-8060-df0f8930cde7">Windows Imaging Component Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
  
 
  

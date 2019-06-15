@@ -59,7 +59,7 @@ The <b>WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</b> structure contains the cal
 
 ### -field callback
 
-A <a href="https://msdn.microsoft.com/368A6162-F194-4C5C-B5FE-89633435168F">WS_CERTIFICATE_VALIDATION_CALLBACK</a> callback that is an application specific callback for validating HTTP certificates.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_certificate_validation_callback">WS_CERTIFICATE_VALIDATION_CALLBACK</a> callback that is an application specific callback for validating HTTP certificates.
 
 
 ### -field state
@@ -72,7 +72,7 @@ Application specific state that is made available to the callback when invoked.
 
 
 
-<a href="https://msdn.microsoft.com/368A6162-F194-4C5C-B5FE-89633435168F">WS_CERTIFICATE_VALIDATION_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_certificate_validation_callback">WS_CERTIFICATE_VALIDATION_CALLBACK</a>
  
 
  

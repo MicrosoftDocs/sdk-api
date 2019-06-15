@@ -59,7 +59,7 @@ While this API is being called and the runtime has determined that the cancellat
             
 
 The caller should therefore assume that the runtime may call on the callback 
-                <a href="https://msdn.microsoft.com/177f9abb-861d-42a9-8044-25076b026f1d">WS_OPERATION_CANCEL_CALLBACK</a> as soon as the WsRegisterOperationForCancel is called.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_operation_cancel_callback">WS_OPERATION_CANCEL_CALLBACK</a> as soon as the WsRegisterOperationForCancel is called.
             
 
 

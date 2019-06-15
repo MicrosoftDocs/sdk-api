@@ -52,9 +52,9 @@ ms.custom: 19H1
 The <b>LSA_TOKEN_INFORMATION_TYPE</b> enumeration specifies the levels of information that can be included in a logon token.
 
 When the LSA calls either 
-<a href="https://msdn.microsoft.com/4c8def77-d536-486e-a830-9df3848fbccb">LsaApLogonUser</a>, 
-<a href="https://msdn.microsoft.com/7778292a-7062-4f49-b4a9-6784e5e4ccd7">LsaApLogonUserEx</a>, or 
-<a href="https://msdn.microsoft.com/002ac773-bd46-49b5-b54c-6b8f5d5ef9f7">LsaApLogonUserEx2</a> the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authentication package</a> is expected to return one of the following enumeration values to indicate the type of token information structure returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user">LsaApLogonUser</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex">LsaApLogonUserEx</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_ap_logon_user_ex2">LsaApLogonUserEx2</a> the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> is expected to return one of the following enumeration values to indicate the type of token information structure returned.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ When the LSA calls either
 ### -field LsaTokenInformationNull
 
 The token information is stored in an 
-<a href="https://msdn.microsoft.com/fbcd0f78-1ad5-4bea-a95f-d19fb3894537">LSA_TOKEN_INFORMATION_NULL</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_token_information_null">LSA_TOKEN_INFORMATION_NULL</a> structure. 
 
 
 
@@ -78,8 +78,8 @@ For example, a non-authenticated network circuit (such as a domain controller's 
 ### -field LsaTokenInformationV1
 
 The token information is stored in a 
-<a href="https://msdn.microsoft.com/e4c43828-aa5c-443c-93ad-96bb986533c5">LSA_TOKEN_INFORMATION_V1</a> structure. This structure contains information that an authentication package can place in a Version 1 Windows token object. A Version 1 Windows token object stores all the information needed to build a token and is used in most logon cases. The LSA creates the token object, and returns a handle to that token object to the caller of 
-<a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa378721(v=vs.85)">LSA_TOKEN_INFORMATION_V1</a> structure. This structure contains information that an authentication package can place in a Version 1 Windows token object. A Version 1 Windows token object stores all the information needed to build a token and is used in most logon cases. The LSA creates the token object, and returns a handle to that token object to the caller of 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
 
 
 ### -field LsaTokenInformationV2

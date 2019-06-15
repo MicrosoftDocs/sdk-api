@@ -75,7 +75,7 @@ The index of the image to remove. If this parameter is -1, the function removes 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 
@@ -96,7 +96,7 @@ When an image is removed, the indexes of the remaining images are adjusted so th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761405(v=VS.85).aspx">ImageList_RemoveAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_removeall">ImageList_RemoveAll</a>
  
 
  

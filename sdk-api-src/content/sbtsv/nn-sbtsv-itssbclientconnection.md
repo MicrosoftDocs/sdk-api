@@ -61,7 +61,7 @@ Plug-ins can use this interface to obtain information about a connection request
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbClientConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITsSbClientConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbClientConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbClientConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,17 +77,17 @@ The <b>ITsSbClientConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd4938b5-aa33-4eca-851c-fdef75ecc815">GetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Retrieves context information that was stored by a plug-in by using the 
-       <a href="https://msdn.microsoft.com/654714ef-cc86-41e8-8759-bbb66bd61cd2">PutContext</a> method.
+       <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3fb6d2af-a60c-4173-a2c0-9d9ce5d26811">GetDisconnectedSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-getdisconnectedsession">GetDisconnectedSession</a>
 </td>
 <td align="left" width="63%">
 Gets a disconnected session.
@@ -96,7 +96,7 @@ Gets a disconnected session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/654714ef-cc86-41e8-8759-bbb66bd61cd2">PutContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a>
 </td>
 <td align="left" width="63%">
 Can be used by plug-ins to store context information specific to the connection.
@@ -114,7 +114,7 @@ Can be used by plug-ins to store context information specific to the connection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/488c5b71-7139-4744-93bf-484d05457d0f">ClientConnectionPropertySet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-get_clientconnectionpropertyset">ClientConnectionPropertySet</a>
 
 
 </td>
@@ -130,7 +130,7 @@ The property set object for this connection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0aa813c1-1ab5-4020-8180-c04d293efd25">ConnectionError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-get_connectionerror">ConnectionError</a>
 
 
 </td>
@@ -146,7 +146,7 @@ The error that occurred while a client connection was being processed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/628f450d-10f4-4405-8d7c-ae58c72c2755">Domain</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbclientconnection-domain">Domain</a>
 
 
 </td>
@@ -162,7 +162,7 @@ The domain name of the Remote Desktop Connection (RDC) client.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/97fe4851-96a9-4b23-8ad7-f42b87c655d0">Environment</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbclientconnection-environment">Environment</a>
 
 
 </td>
@@ -178,7 +178,7 @@ The environment that hosts the target computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8734b130-f1fd-4107-b0cc-482b78647ac7">InitialProgram</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-get_initialprogram">InitialProgram</a>
 
 
 </td>
@@ -194,7 +194,7 @@ The program that is launched when the user logs on to the target computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fdcd094c-d50b-4cdd-8164-23c24bb7017b">LoadBalanceResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-get_loadbalanceresult">LoadBalanceResult</a>
 
 
 </td>
@@ -210,7 +210,7 @@ The name of the target computer returned by load balancing.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/eb3d8e6b-60c6-4d24-824c-94b642f44956">SamUserAccount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-get_samuseraccount">SamUserAccount</a>
 
 
 </td>
@@ -226,7 +226,7 @@ The domain name and user name of the user who initiated the connection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/74f4b8fb-efd4-46d7-9d2f-dd9ef583eb54">UserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbclientconnection-username">UserName</a>
 
 
 </td>
@@ -247,7 +247,7 @@ The name of the user who initiated the connection.
 
 
 
-<a href="https://msdn.microsoft.com/150a3c9a-d504-4854-adaa-92e3a7e8ea70">Remote Desktop Virtualization Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
  
 
  

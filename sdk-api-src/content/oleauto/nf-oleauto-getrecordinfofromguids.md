@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to the <a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a> interface for a UDT by passing the GUID of the type information without having to load the type library. 
+Returns a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface for a UDT by passing the GUID of the type information without having to load the type library. 
 
 
 ## -parameters
@@ -86,7 +86,7 @@ The GUID of the typeinfo that describes the UDT.
 
 ### -param ppRecInfo [out]
 
-The <a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a> interface.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> interface.
 
 
 ## -returns
@@ -134,7 +134,7 @@ One or more of the arguments is not valid.
 
 
 
-A pointer to <a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a> can be serialized by writing out the GUIDs and version numbers and deserialized by loading the information and passing it to <b>GetRecordInfoFromGuids</b>.
+A pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a> can be serialized by writing out the GUIDs and version numbers and deserialized by loading the information and passing it to <b>GetRecordInfoFromGuids</b>.
 
 
 

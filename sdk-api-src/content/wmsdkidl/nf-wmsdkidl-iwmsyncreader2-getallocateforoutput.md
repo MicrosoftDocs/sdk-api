@@ -70,7 +70,7 @@ The <b>GetAllocateForOutput</b> method retrieves an interface for allocating out
 
 ### -param ppAllocator [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd743490(v=VS.85).aspx">IWMReaderAllocatorEx</a> interface.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderallocatorex">IWMReaderAllocatorEx</a> interface.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798577(v=VS.85).aspx">IWMSyncReader2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader2">IWMSyncReader2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798580(v=VS.85).aspx">IWMSyncReader2::SetAllocateForOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-setallocateforoutput">IWMSyncReader2::SetAllocateForOutput</a>
  
 
  

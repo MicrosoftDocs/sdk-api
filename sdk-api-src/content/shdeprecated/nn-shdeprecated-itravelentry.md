@@ -55,7 +55,7 @@ Deprecated. Exposes methods to identify, invoke, and update an individual item i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITravelEntry</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITravelEntry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITravelEntry</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITravelEntry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITravelEntry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a3a156f-4d61-4987-b1d8-9e77564d3962">GetPidl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-getpidl">GetPidl</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets the PIDL associated with the travel entry.
@@ -79,7 +79,7 @@ Deprecated. Gets the PIDL associated with the travel entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21af8d98-f7b6-4204-b855-a4789492a882">Invoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Invokes the travel entry, navigating to that page.
@@ -88,7 +88,7 @@ Deprecated. Invokes the travel entry, navigating to that page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49861eb7-0e8e-41d9-b9b7-3b9bd35d0e52">Update</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-update">Update</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Updates the travel entry.
@@ -102,7 +102,7 @@ Deprecated. Updates the travel entry.
 
 
 
-Travel entries represented by <b>ITravelEntry</b> are created and maintained internally by the travel log (<a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a>). Calling applications rarely use <b>ITravelEntry</b> directly.
+Travel entries represented by <b>ITravelEntry</b> are created and maintained internally by the travel log (<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>). Calling applications rarely use <b>ITravelEntry</b> directly.
 
 <div class="alert"><b>Note</b>  <b>ITravelEntry</b> may not be supported in versions of Windows later than Windows XP.</div>
 <div> </div>

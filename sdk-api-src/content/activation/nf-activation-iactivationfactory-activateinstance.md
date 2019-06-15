@@ -59,7 +59,7 @@ Creates a new instance of the Windows Runtime class that is associated with the 
 
 ### -param instance [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 A pointer to a new instance of the class that is associated with the current activation factory.
 
@@ -106,7 +106,7 @@ The  new class instance was created successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> interface is not implemented by the class that is associated with the current activation factory.
+The <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface is not implemented by the class that is associated with the current activation factory.
 
 </td>
 </tr>
@@ -141,11 +141,11 @@ Use the <b>ActivateInstance</b> function to activate a Windows Runtime class. Th
 
 
 
-<a href="https://msdn.microsoft.com/C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC">IActivationFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activation/nn-activation-iactivationfactory">IActivationFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/20E469FE-100B-489F-956A-347716FA8A12">RoActivateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roactivateinstance">RoActivateInstance</a>
  
 
  

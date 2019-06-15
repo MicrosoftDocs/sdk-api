@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables object clients to selectively update each cache that was created with <a href="https://msdn.microsoft.com/2a86063a-3ee6-4fc2-a6e0-6e9ffa658348">IOleCache::Cache</a>.
+Enables object clients to selectively update each cache that was created with <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IOleCache2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03fb4bdb-1655-4923-b124-8854419766ec">DiscardCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-discardcache">DiscardCache</a>
 </td>
 <td align="left" width="63%">
 Discards the caches found in memory.
@@ -78,7 +78,7 @@ Discards the caches found in memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67bb0bcf-981a-4b2f-8ab9-2afc0659b2db">UpdateCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">UpdateCache</a>
 </td>
 <td align="left" width="63%">
 Updates the specified caches.
@@ -93,15 +93,15 @@ Updates the specified caches.
 
 
 
-<a href="https://msdn.microsoft.com/8a64675b-1337-4555-b9a6-e19f9b987ba2">CreateDataCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createdatacache">CreateDataCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5ef85d0-b54e-4831-87f1-ac6763179181">IOleCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a">IOleCacheControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
  
 
  

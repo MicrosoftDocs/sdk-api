@@ -64,5 +64,5 @@ No flags specified.
 
 ### -field SYNCMGR_EF_VALID
 
-Same as <a href="https://msdn.microsoft.com/bb901a85-8f54-4030-81d5-40af66e490bf">SYNCMGR_EF_NONE</a>.
+Same as <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_flags">SYNCMGR_EF_NONE</a>.
 

@@ -54,7 +54,7 @@ Represents a file in the block map.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapFile</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxBlockMapFile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBlockMapFile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBlockMapFile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBlockMapFile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CE8FB813-B125-4FD6-A7C3-CA3ECA72ECE7">GetBlocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getblocks">GetBlocks</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for traversing the blocks of a file listed in the block map.
@@ -78,7 +78,7 @@ Retrieves an enumerator for traversing the blocks of a file listed in the block 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2BBABACF-089B-4711-B384-627E921B044A">GetLocalFileHeaderSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getlocalfileheadersize">GetLocalFileHeaderSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the zip local file header of the associated zip file item.
@@ -87,7 +87,7 @@ Retrieves the size of the zip local file header of the associated zip file item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82D100DB-CAE8-4FF7-B428-B14E8CBDE7A5">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the associated zip file item.
@@ -96,7 +96,7 @@ Retrieves the name of the associated zip file item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35D3EADC-F8EF-4D8F-8016-2E30976965EC">GetUncompressedSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-getuncompressedsize">GetUncompressedSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the uncompressed size of the associated zip file item.
@@ -105,7 +105,7 @@ Retrieves the uncompressed size of the associated zip file item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/286EF8FD-925E-4B36-AFAB-D0EC949F8705">ValidateFileHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxblockmapfile-validatefilehash">ValidateFileHash</a>
 </td>
 <td align="left" width="63%">
 Validates the content of a file against the hashes stored in the block elements for this block map file.
@@ -119,7 +119,7 @@ Validates the content of a file against the hashes stored in the block elements 
 
 
 
-The <b>IAppxBlockMapFile</b> interface provides a read-only object model that represents the files in the block map. Files are represented in the block map file with the <b>File</b> element. You can retrieve the file's attributes and block hashes from the <b>File</b> element. Block hashes can be obtained from the <a href="https://msdn.microsoft.com/39B0680A-F27B-478F-8E83-FE1BFCF61AC4">IAppxBlockMapBlock</a> interface.
+The <b>IAppxBlockMapFile</b> interface provides a read-only object model that represents the files in the block map. Files are represented in the block map file with the <b>File</b> element. You can retrieve the file's attributes and block hashes from the <b>File</b> element. Block hashes can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a> interface.
 
 
 #### Examples
@@ -135,19 +135,19 @@ For a example code, see <a href="http://go.microsoft.com/fwlink/p/?linkid=236966
 
 
 
-<a href="https://msdn.microsoft.com/39B0680A-F27B-478F-8E83-FE1BFCF61AC4">IAppxBlockMapBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/E7678755-4779-4A64-A666-C5FFC4A7F37A">IAppxBlockMapBlocksEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblocksenumerator">IAppxBlockMapBlocksEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/AC2E55C3-1EEF-4867-BECC-37F6269029D6">IAppxBlockMapFilesEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapfilesenumerator">IAppxBlockMapFilesEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/233539FD-E3BE-4783-9F23-B34F6397FBBE">IAppxBlockMapReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
 
 
 

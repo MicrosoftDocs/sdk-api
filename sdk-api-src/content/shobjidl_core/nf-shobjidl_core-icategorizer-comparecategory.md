@@ -59,9 +59,9 @@ Determines the relative order of two items in their item identifier lists, and h
 
 ### -param csfFlags
 
-Type: <b><a href="https://msdn.microsoft.com/5e3f6c84-ebc4-45e7-8272-f5d98bffd4c8">CATSORT_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-catsort_flags">CATSORT_FLAGS</a></b>
 
-A flag that specifies how the comparison should be performed. The parameter should be one of the values in <a href="https://msdn.microsoft.com/5e3f6c84-ebc4-45e7-8272-f5d98bffd4c8">CATSORT_FLAGS</a>.
+A flag that specifies how the comparison should be performed. The parameter should be one of the values in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-catsort_flags">CATSORT_FLAGS</a>.
 
 
 ### -param dwCategoryId1

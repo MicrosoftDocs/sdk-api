@@ -94,7 +94,7 @@ The operation was canceled successfully.
 
 
 
-If your application invokes the WPD API from multiple threads, each thread should create a new instance of the <a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice</a> interface. Doing this ensures that any cancel operation affects only the I/O for the affected thread.
+If your application invokes the WPD API from multiple threads, each thread should create a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice</a> interface. Doing this ensures that any cancel operation affects only the I/O for the affected thread.
       
 
 If an <b>IStream</b> write operation is underway when the <b>Cancel</b> method is invoked, your application should discard all changes by invoking the <b>IStream::Revert</b> method. Once the changes are discarded, the application should also close the stream by invoking the <b>IUnknown::Release</b> method.
@@ -109,7 +109,7 @@ Also, note that if the <b>Cancel</b> method is invoked before an <b>IStream::Wri
 
 
 
-<a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
  
 
  

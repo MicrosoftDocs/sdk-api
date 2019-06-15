@@ -59,7 +59,7 @@ Retrieves the current item in an inclusion or exclusion list.
 
 ### -param Item [out]
 
-This parameter must be <b>NULL</b> on input. On output, it receives a pointer to a string that contains the current element of the list. This element is a library name or a folder name, depending on the parameters that were passed to the <a href="https://msdn.microsoft.com/DE137C08-923D-4ADC-8EBC-2F277F72CAE4">IFhConfigMgr::GetIncludeExcludeRules</a> method. The string is allocated by calling <a href="https://msdn.microsoft.com/9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. You must call <a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> to free the string when it is no longer needed.
+This parameter must be <b>NULL</b> on input. On output, it receives a pointer to a string that contains the current element of the list. This element is a library name or a folder name, depending on the parameters that were passed to the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a> method. The string is allocated by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. You must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the string when it is no longer needed.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This parameter must be <b>NULL</b> on input. On output, it receives a pointer to
 
 
 
-To move to the next item in the inclusion or exclusion list, call the <a href="https://msdn.microsoft.com/FD8B5460-FBD7-47D3-ADB0-DB3D6AB5A51A">IFhScopeIterator::MoveToNextItem</a> method.
+To move to the next item in the inclusion or exclusion list, call the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem">IFhScopeIterator::MoveToNextItem</a> method.
 
 
 
@@ -85,11 +85,11 @@ To move to the next item in the inclusion or exclusion list, call the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/E8F993BD-CB53-474A-926D-AED0F5A17073">IFhScopeIterator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhscopeiterator">IFhScopeIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/FD8B5460-FBD7-47D3-ADB0-DB3D6AB5A51A">IFhScopeIterator::MoveToNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem">IFhScopeIterator::MoveToNextItem</a>
  
 
  

@@ -89,7 +89,7 @@ An application changed the current selected candidate. The <i>dwIndex</i> parame
 </dl>
 </td>
 <td width="60%">
-An application directs the IME to close a candidate list. The <i>dwIndex</i> parameter specifies an index of the list to close, and <i>dwValue</i> is not used. The IME sends a <a href="https://msdn.microsoft.com/d96cea0a-1fc4-4ba7-bb96-7e9c0b67ce5b">IMN_CLOSECANDIDATE</a> command to the application if it closes the list.
+An application directs the IME to close a candidate list. The <i>dwIndex</i> parameter specifies an index of the list to close, and <i>dwValue</i> is not used. The IME sends a <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> command to the application if it closes the list.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ An application directs the IME to allow the application to handle the specified 
 </dl>
 </td>
 <td width="60%">
-An application directs the IME to open a candidate list. The <i>dwIndex</i> parameter specifies the index of the list to open, and <i>dwValue</i> is not used. The IME sends a <a href="https://msdn.microsoft.com/439ff125-2731-4eb1-8287-4ca8ace7d8ec">IMN_OPENCANDIDATE</a> command to the application if it opens the list.
+An application directs the IME to open a candidate list. The <i>dwIndex</i> parameter specifies the index of the list to open, and <i>dwValue</i> is not used. The IME sends a <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> command to the application if it opens the list.
 
 </td>
 </tr>
@@ -229,19 +229,19 @@ Returns nonzero if successful, or 0 otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/d96cea0a-1fc4-4ba7-bb96-7e9c0b67ce5b">IMN_CLOSECANDIDATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/439ff125-2731-4eb1-8287-4ca8ace7d8ec">IMN_OPENCANDIDATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The CLSID of the object implementing <a href="https://msdn.microsoft.com/f20f778b-fdd5-4c34-871b-d03cd1cd31cc">IMultiInterfacePublisherFilter</a>.
+The CLSID of the object implementing <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>.
 
 This property is read/write.
 
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/b01f8d96-c0e6-45a7-9365-792f6233686e">IEventClass2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>
  
 
  

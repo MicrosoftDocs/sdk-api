@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetProperty</b> method sets the specified value to the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  with the specified property ID.
+The <b>SetProperty</b> method sets the specified value to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>SetProperty</b> method sets the specified value to the <a href="https://m
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  to set. The following table shows the possible values.
+Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  to set. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Property ID of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/6cb85528-35b4-4fed-98bb-6209dd0af0fd">ApplicationData</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_applicationdata">ApplicationData</a>  property
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/6cb85528-35b4-4fe
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/2909c2ea-8308-49c3-9456-d035c1c242f0">Description</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_description">Description</a>  property
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/2909c2ea-8308-49c
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/fecd1cb8-55b8-4c7c-ba49-a633f9c8710c">Name</a>  property
+Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_name">Name</a>  property
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/fecd1cb8-55b8-4c7
 
 ### -param varProp [in]
 
-The value to set to the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
+The value to set to the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  specified by the <i>lPropId</i> parameter. The following table shows the type of data that must be used depending on the value of the <i>lPropId</i> parameter.
 
 <table>
 <tr>
@@ -165,7 +165,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-You must call the <a href="https://msdn.microsoft.com/97f2018a-92f0-4ebb-85f1-78c140003d8f">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
 
 
 

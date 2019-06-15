@@ -63,14 +63,14 @@ The
 ### -param pFlowName [in]
 
 Name of the flow being set. The value for this parameter is obtained by a previous call to the 
-<a href="https://msdn.microsoft.com/eae90fae-a29a-4005-b8c6-a5e2c9a6c07f">TcEnumerateFlows</a> function or the 
-<a href="https://msdn.microsoft.com/49a78c9a-6aac-4348-9f26-dfd331dc83ec">TcGetFlowName</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
 
 
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
-<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
 
 ### -param BufferSize [in]

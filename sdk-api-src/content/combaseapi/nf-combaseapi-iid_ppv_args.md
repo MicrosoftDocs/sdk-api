@@ -75,7 +75,7 @@ An address of an interface pointer whose type <b>T</b> is used to determine the 
 
 
 
-A common syntax in methods that retrieve an interface pointer (most notably <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> and <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>) includes two parameters:
+A common syntax in methods that retrieve an interface pointer (most notably <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>) includes two parameters:
 
                 
 
@@ -87,7 +87,7 @@ This macro computes the IID based on the type of interface pointer, which preven
 
 While Windows 7 is the first inclusion of this macro in a public header, it can be used on older systems by defining it manually in your project headers or source code.
 
-The following example shows the use of <b>IID_PPV_ARGS</b> to create the memory property store object using <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
+The following example shows the use of <b>IID_PPV_ARGS</b> to create the memory property store object using <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
  
 				
 

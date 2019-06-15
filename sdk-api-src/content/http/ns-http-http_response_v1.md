@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>HTTP_RESPONSE_V1</b> structure contains data associated with an HTTP response.
 
-Do not use <b>HTTP_RESPONSE_V1</b> directly in your code;  use <a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a> instead to ensure that the proper version, based on the operating system the code is compiled under, is used.
+Do not use <b>HTTP_RESPONSE_V1</b> directly in your code;  use <a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a> instead to ensure that the proper version, based on the operating system the code is compiled under, is used.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ Do not use <b>HTTP_RESPONSE_V1</b> directly in your code;  use <a href="https://
 
 ### -field Flags
 
-The optional logging flags change the default response behavior.     These  can be one of any of the  <a href="https://msdn.microsoft.com/bcb59457-fd22-4166-8a72-ba85209ec8c7">HTTP_RESPONSE_FLAG</a> values.
+The optional logging flags change the default response behavior.     These  can be one of any of the  <a href="https://docs.microsoft.com/windows/desktop/Http/http-response-flag--constants">HTTP_RESPONSE_FLAG</a> values.
 
 
 ### -field Version
@@ -91,7 +91,7 @@ A pointer to a human-readable, null-terminated string of printable characters th
 ### -field Headers
 
 An 
-<a href="https://msdn.microsoft.com/e783c27e-d215-4f6d-a080-92d915a7fc33">HTTP_RESPONSE_HEADERS</a> structure that contains the headers used in this response.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a> structure that contains the headers used in this response.
 
 
 ### -field EntityChunkCount
@@ -102,7 +102,7 @@ A number of entity-body data blocks specified in the <b>pEntityChunks</b> array.
 ### -field pEntityChunks
 
 An array of 
-<a href="https://msdn.microsoft.com/ae67c066-c8bd-483f-829f-30192f49593d">HTTP_DATA_CHUNK</a> structures that together specify all the data blocks that make up the entity body of the response.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a> structures that together specify all the data blocks that make up the entity body of the response.
 
 
 ## -see-also
@@ -110,31 +110,31 @@ An array of
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae67c066-c8bd-483f-829f-30192f49593d">HTTP_DATA_CHUNK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e783c27e-d215-4f6d-a080-92d915a7fc33">HTTP_RESPONSE_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1900741e-f466-4826-b376-36170176c30a">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
  
 
  

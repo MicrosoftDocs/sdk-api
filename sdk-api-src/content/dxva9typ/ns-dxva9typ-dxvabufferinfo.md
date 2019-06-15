@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Specifies a buffer for the 
-        <a href="https://msdn.microsoft.com/cb87a087-ca53-470e-ab46-f4022cfd7869">IDirect3DDXVADevice9::Execute</a>  method.
+        <a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3ddxvadevice9-execute">IDirect3DDXVADevice9::Execute</a>  method.
 
 
 ## -struct-fields
@@ -78,11 +78,11 @@ The size of the relevant data in the buffer, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/584c087e-53f0-42d8-99ed-a0d013379363">Direct3D Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/63f77cf9-4c04-4ddb-9582-cfcf86f66a2a">IDirect3DDXVADevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3ddxvadevice9">IDirect3DDXVADevice9</a>
  
 
  

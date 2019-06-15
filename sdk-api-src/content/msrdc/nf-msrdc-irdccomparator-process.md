@@ -74,16 +74,16 @@ Address of a <b>BOOL</b> that on successful completion is set to
 
 ### -param inputBuffer [in, out]
 
-Address of a <a href="https://msdn.microsoft.com/1792e40b-c363-4732-9613-301c3e6e4da7">RdcBufferPointer</a> structure containing 
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0005">RdcBufferPointer</a> structure containing 
       information about the input buffer. The <b>m_Used</b> member of this structure is used to 
       indicate how much input, if any, was processed during this call.
 
 
 ### -param outputBuffer [in, out]
 
-Address of a <a href="https://msdn.microsoft.com/92a1fae7-5ada-4f7d-a736-c93bc404a418">RdcNeedPointer</a> structure containing 
+Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0006">RdcNeedPointer</a> structure containing 
       information about the output buffer. On input the <b>m_Size</b> member of this structure 
-      must contain the number of <a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a> structures in the array 
+      must contain the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures in the array 
       pointed to by the <b>m_Data</b> member, and the <b>m_Used</b> member 
       must be zero. On output the <b>m_Used</b> member will contain the number of 
       <b>RdcNeed</b> structures in the array pointed to by the 
@@ -92,7 +92,7 @@ Address of a <a href="https://msdn.microsoft.com/92a1fae7-5ada-4f7d-a736-c93bc40
 
 ### -param rdc_ErrorCode [out]
 
-The address of a <a href="https://msdn.microsoft.com/32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be">RDC_ErrorCode</a> enumeration that is 
+The address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0001">RDC_ErrorCode</a> enumeration that is 
       filled with an RDC specific error code if the return value from the 
       <b>Process</b> method is 
       <b>E_FAIL</b>. If this value is <b>RDC_Win32ErrorCode</b>, then the 
@@ -113,7 +113,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-On successful return, iterate through each <a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a> structure 
+On successful return, iterate through each <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structure 
    returned in the array pointed to by the <b>m_Data</b> member of the 
    <i>outputBuffer</i> parameter, and copy the specified chunk of the source or seed data to the 
    target data.
@@ -126,19 +126,19 @@ On successful return, iterate through each <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://msdn.microsoft.com/ad39b922-3271-491e-b74b-80a1f647e663">IRdcComparator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdccomparator">IRdcComparator</a>
 
 
 
-<a href="https://msdn.microsoft.com/32e9eab0-dc6e-4e04-af8a-bc2ed4adf0be">RDC_ErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0001">RDC_ErrorCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/1792e40b-c363-4732-9613-301c3e6e4da7">RdcBufferPointer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0005">RdcBufferPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/92a1fae7-5ada-4f7d-a736-c93bc404a418">RdcNeedPointer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0006">RdcNeedPointer</a>
  
 
  

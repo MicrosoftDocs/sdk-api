@@ -61,7 +61,7 @@ The
 ### -param pSockaddr [in]
 
 A pointer to a socket address structure that contains the address and port number of the socket. For IPv4, the <i>sa</i> parameter points to a 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure. For IPv6, the <i>sa</i> parameter points to a <b>sockaddr_in6</b> structure.
 
 
 ### -param SockaddrLength [in]
@@ -100,7 +100,7 @@ A value used to customize processing of the
 
 
 On success,  <b>getnameinfo</b> returns zero. Any nonzero return value indicates failure and a specific error code can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 Nonzero error codes returned by the 
 <b>getnameinfo</b> function also map to the set of errors outlined by Internet Engineering Task Force (IETF) recommendations. The following table lists these error codes and their WSA equivalents. It is recommended that the WSA error codes be used, as they offer familiar and comprehensive error information for Winsock programmers.
@@ -113,42 +113,42 @@ Nonzero error codes returned by the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></td>
 <td>One or more invalid parameters was passed to the <b>getnameinfo</b> function. This error is returned if a host name was requested but the <i>hostlen</i> parameter was zero or if a service name was requested, but the <i>servlen</i> parameter was zero. </td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></td>
 <td>The <b>sa_family</b> member of socket address structure pointed to by the <i>sa</i> parameter is not supported. </td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAHOST_NOT_FOUND</a></td>
+<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></td>
 <td>A service name was requested, but no port number was found in the structure pointed to by the <i>sa</i> parameter or no service name matching the port number was found. NI_NAMEREQD is set and the host name cannot be located, or both the <i>host</i> and <i>serv</i> parameters were <b>NULL</b>. </td>
 </tr>
 </table>
  
 
 Use the 
-<a href="https://msdn.microsoft.com/00b4c5de-89c9-419f-bff8-822ef0446697">gai_strerror</a> function to print error messages based on the EAI codes returned by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-gai_strerrora">gai_strerror</a> function to print error messages based on the EAI codes returned by the 
 <b>getnameinfo</b> function. The 
 <b>gai_strerror</b> function is provided for compliance with IETF recommendations, but it is not thread safe. Therefore, use of traditional Windows Sockets functions such as 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> is recommended.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> is recommended.
 
 In addition, the following error codes can be returned.
 
@@ -160,11 +160,11 @@ In addition, the following error codes can be returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-This error is returned if the <i>sa</i> parameter is <b>NULL</b> or the  <i>salen</i> parameter is less than the length required for the size of <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure for IPv4 or the  <b>sockaddr_in6</b> structure for IPv6.
+This error is returned if the <i>sa</i> parameter is <b>NULL</b> or the  <i>salen</i> parameter is less than the length required for the size of <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure for IPv4 or the  <b>sockaddr_in6</b> structure for IPv6.
 
 </td>
 </tr>
@@ -184,9 +184,9 @@ For IPv6 and IPv4 protocols, Name resolution can be by the Domain Name System (D
 
 Another name that can be used for the <b>getnameinfo</b> function is <b>GetNameInfoA</b>. Macros in the <i>Ws2tcpip.h</i> header file define <b>GetNameInfoA</b> to <b>getnameinfo</b>.
 
-The Unicode version of this function available on Windows XP with Service Pack 2 (SP2) and later is <a href="https://msdn.microsoft.com/5630a49a-c182-440c-ad54-6ff3ba4274c6">GetNameInfoW</a>.
+The Unicode version of this function available on Windows XP with Service Pack 2 (SP2) and later is <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getnameinfow">GetNameInfoW</a>.
 
-Macros in the Winsock header file define a mixed-case function name of <b>GetNameInfo</b> that can be used when the application is targeted for  Windows XP with SP2 and later (_WIN32_WINNT &gt;= 0x0502). This <b>GetNameInfo</b> function should be called with the <i>host</i> and <i>serv</i> parameters of a pointer of type  <b>TCHAR</b>. When UNICODE or _UNICODE is not defined, <b>GetNameInfo</b> is defined to the ANSI version and <b>getnameinfo</b> is called with the <i>host</i> and <i>serv</i> parameters of a pointer of type <b>char</b>. When UNICODE or _UNICODE is defined, <b>GetNameInfo</b> is defined to the Unicode version and <a href="https://msdn.microsoft.com/5630a49a-c182-440c-ad54-6ff3ba4274c6">GetNameInfoW</a> is called with the <i>pNodeBuffer</i> and <i>pServiceBuffer</i> parameters of a pointer of type <b>PWCHAR</b>.
+Macros in the Winsock header file define a mixed-case function name of <b>GetNameInfo</b> that can be used when the application is targeted for  Windows XP with SP2 and later (_WIN32_WINNT &gt;= 0x0502). This <b>GetNameInfo</b> function should be called with the <i>host</i> and <i>serv</i> parameters of a pointer of type  <b>TCHAR</b>. When UNICODE or _UNICODE is not defined, <b>GetNameInfo</b> is defined to the ANSI version and <b>getnameinfo</b> is called with the <i>host</i> and <i>serv</i> parameters of a pointer of type <b>char</b>. When UNICODE or _UNICODE is defined, <b>GetNameInfo</b> is defined to the Unicode version and <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getnameinfow">GetNameInfoW</a> is called with the <i>pNodeBuffer</i> and <i>pServiceBuffer</i> parameters of a pointer of type <b>PWCHAR</b>.
 
 To simplify determining buffer requirements for the <i>host</i> and <i>serv</i> parameters, the following values for maximum host name length and maximum service name are defined in the <i>Ws2tcpip.h</i> header file.
 
@@ -308,7 +308,7 @@ The <b>getnameinfo</b> function was added to the <i>Ws2_32.dll</i> on Windows X
 
 The IPv6  protocol is supported on Windows 2000 when the IPv6 Technology Preview for Windows 2000 is installed. Otherwise <b>getnameinfo</b> support on versions of Windows earlier than Windows XP is limited to handling IPv4 name resolution. 
 
-The <a href="https://msdn.microsoft.com/5630a49a-c182-440c-ad54-6ff3ba4274c6">GetNameInfoW</a> function is the Unicode version of  <b>getnameinfo</b>.  The <b>GetNameInfoW</b> function was added to the <i>Ws2_32.dll</i> in Windows XP with SP2. The <b>GetNameInfoW</b> function cannot be used on versions of Windows earlier than Windows XP with SP2. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getnameinfow">GetNameInfoW</a> function is the Unicode version of  <b>getnameinfo</b>.  The <b>GetNameInfoW</b> function was added to the <i>Ws2_32.dll</i> in Windows XP with SP2. The <b>GetNameInfoW</b> function cannot be used on versions of Windows earlier than Windows XP with SP2. 
 
 
 
@@ -324,31 +324,31 @@ The <a href="https://msdn.microsoft.com/5630a49a-c182-440c-ad54-6ff3ba4274c6">Ge
 
 
 
-<a href="https://msdn.microsoft.com/5630a49a-c182-440c-ad54-6ff3ba4274c6">GetNameInfoW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getnameinfow">GetNameInfoW</a>
 
 
 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/00b4c5de-89c9-419f-bff8-822ef0446697">gai_strerror</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-gai_strerrora">gai_strerror</a>
 
 
 
-<a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
  
 
  

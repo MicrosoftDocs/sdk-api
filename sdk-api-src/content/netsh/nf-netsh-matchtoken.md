@@ -83,7 +83,7 @@ Returns <b>TRUE</b> if there is a match, <b>FALSE</b> if not.
 
 The 
 <b>MatchToken</b> function is generally used by command functions. For arguments with an enumerated set of possible values, use the 
-<a href="https://msdn.microsoft.com/def20f98-76a2-4d92-a954-152474e25f05">MatchEnumTag</a> function instead.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-matchenumtag">MatchEnumTag</a> function instead.
 
 One example of using 
 <b>MatchToken</b> is a command function that has an argument whose value can be an integer or the string "default". That command function might use 
@@ -97,7 +97,7 @@ One example of using
 
 
 
-<a href="https://msdn.microsoft.com/def20f98-76a2-4d92-a954-152474e25f05">MatchEnumTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-matchenumtag">MatchEnumTag</a>
  
 
  

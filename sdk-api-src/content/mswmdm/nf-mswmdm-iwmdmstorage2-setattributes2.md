@@ -63,7 +63,7 @@ The <b>SetAttributes2</b> method sets extended attributes of the storage.
 
 ### -param dwAttributes [in]
 
-<b>DWORD</b> specifying the base attributes defined in the <a href="https://msdn.microsoft.com/7484e29a-5faf-4a11-9fc1-75aa5c9d72ef">IWMDMStorage::SetAttributes</a> method.
+<b>DWORD</b> specifying the base attributes defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">IWMDMStorage::SetAttributes</a> method.
 
 
 ### -param dwAttributesEx [in]
@@ -73,12 +73,12 @@ The <b>SetAttributes2</b> method sets extended attributes of the storage.
 
 ### -param pFormat [out]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/2128f07a-4858-49b7-b031-16d4a84c9d32">_ WAVEFORMATEX</a> structure that specifies audio information about the object. This parameter is ignored if the file is not audio.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_ WAVEFORMATEX</a> structure that specifies audio information about the object. This parameter is ignored if the file is not audio.
 
 
 ### -param pVideoFormat [in]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/5a39d66e-8dbc-4572-8370-14f722b6c906">_VIDEOINFOHEADER</a> structure that specifies video information about the object. This parameter is ignored if the file is not video.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structure that specifies video information about the object. This parameter is ignored if the file is not video.
 
 
 ## -returns
@@ -92,7 +92,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -102,11 +102,11 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/1283a5b5-d893-4795-a50a-5a3bd6fce8d5">IWMDMStorage2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8212ab78-0a2a-41cd-8a7c-da6e3886b586">IWMDMStorage2::GetAttributes2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2">IWMDMStorage2::GetAttributes2</a>
  
 
  

@@ -70,11 +70,11 @@ Leave the filter connected. By default, filters are disconnected when removed fr
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3298aa2-4eb2-4e47-9f36-5f2cf541d13e">IGraphConfig::RemoveFilterEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-removefilterex">IGraphConfig::RemoveFilterEx</a>
  
 
  

@@ -110,9 +110,9 @@ Not implemented.
 
 
 
-Codecs that implement <a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI</a> are  not required to support this method.
+Codecs that implement <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> are  not required to support this method.
 
-To load the properties from the stream back onto the codec, call <a href="https://msdn.microsoft.com/1148e380-a4fc-4392-861e-8ea695060032">ICodecAPI::SetAllSettings</a> or <a href="https://msdn.microsoft.com/30f840d1-4c73-4a76-ba0b-c04f2901ad76">ICodecAPI::SetAllSettingsWithNotify</a>.
+To load the properties from the stream back onto the codec, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettings">ICodecAPI::SetAllSettings</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-setallsettingswithnotify">ICodecAPI::SetAllSettingsWithNotify</a>.
 
 The format of the data that is written to the stream depends on the implementation of the codec. There is no standard serialization format.  An application should not attempt to save the properties from one codec and load them on a different codec.
 
@@ -124,15 +124,15 @@ The format of the data that is written to the stream depends on the implementati
 
 
 
-<a href="https://msdn.microsoft.com/82085fd5-2d31-48a0-b2ef-0eede4de60c8">Codec API Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d19152f-17a3-4576-a2a2-5b827d9ca8d1">Encoder API</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
  
 
  

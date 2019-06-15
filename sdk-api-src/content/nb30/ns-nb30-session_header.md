@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>SESSION_HEADER</b> structure contains information about a network session. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure. <b>SESSION_HEADER</b> is followed by as many <a href="https://msdn.microsoft.com/29352074-3dff-430f-82fb-6f7fd0b2966a">SESSION_BUFFER</a> structures as are required to describe the current network sessions.
+The <b>SESSION_HEADER</b> structure contains information about a network session. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure. <b>SESSION_HEADER</b> is followed by as many <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_buffer">SESSION_BUFFER</a> structures as are required to describe the current network sessions.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The <b>SESSION_HEADER</b> structure contains information about a network session
 
 ### -field sess_name
 
-Specifies the name number of the session. This value corresponds to the <b>ncb_num</b> member of the <a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a> structure. 
+Specifies the name number of the session. This value corresponds to the <b>ncb_num</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a> structure. 
 
 
 
@@ -91,19 +91,19 @@ Specifies the number of outstanding <b>NCBRECVANY</b> commands.
 
 
 
-<a href="https://msdn.microsoft.com/e3fcca1c-8057-41c4-80a5-d1e67920d88c">NCB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_ncb">NCB</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ef39ec-d69a-4e33-9192-dda6d1bb84b8">NetBIOS Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/29352074-3dff-430f-82fb-6f7fd0b2966a">SESSION_BUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/nb30/ns-nb30-_session_buffer">SESSION_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/9144e283-0e5f-43d7-8cd2-e746f94c6f14">The NetBIOS Interface Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether the property page has changed since it was activated or since the most recent call to <a href="https://msdn.microsoft.com/af0a1b49-54c3-453f-bd6a-70b63d625acb">Apply</a>.
+Indicates whether the property page has changed since it was activated or since the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-apply">Apply</a>.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ This method has no reason to return an error code, since the inability to determ
 
 
 
-<a href="https://msdn.microsoft.com/ad2cb3ae-dd24-4774-95bd-f5a0773c68b1">IPropertyPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
  
 
  

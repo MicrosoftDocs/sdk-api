@@ -241,7 +241,7 @@ The <i>dwItem1</i> and <i>dwItem2</i> parameters are <b>DWORD</b> values.
 
 #### SHCNF_IDLIST
 
-<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
+<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
 
 
 

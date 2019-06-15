@@ -52,7 +52,7 @@ ms.custom: 19H1
 Router manager calls the 
 <b>InterfaceStatus</b> function to change the status of an interface.
 
-The <a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">PINTERFACE_STATUS</a> type defines a pointer to this callback function. <i>InterfaceStatus</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PINTERFACE_STATUS</a> type defines a pointer to this callback function. <i>InterfaceStatus</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -91,7 +91,7 @@ RIS_INTERFACE_MEDIA_ABSENT
 ### -param StatusInfo [in]
 
 Pointer to a structure that specifies information appropriate to the type of interface status type. For example, if the <i>StatusType</i> parameter specifies an address change, the <i>StatusInfo</i> parameter  points to a structure that contains the new address information, such as 
-<a href="https://msdn.microsoft.com/3eb864e7-2de6-44c2-af3e-fee547de6081">IP_ADAPTER_BINDING_INFO</a>. This parameter may be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_adapter_binding_info">IP_ADAPTER_BINDING_INFO</a>. This parameter may be <b>NULL</b>.
 
 
 ## -returns
@@ -144,11 +144,11 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 
 
-<a href="https://msdn.microsoft.com/d2a90d20-7a1f-4301-adab-76224a4f8310">AddInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-padd_interface">AddInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b4c24d4-2588-412e-b3ec-dd73cbdac921">DeleteInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdelete_interface">DeleteInterface</a>
  
 
  

@@ -93,7 +93,7 @@ Describes how menus are drawn. If <b>TRUE</b>, menus are drawn without shadows. 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Value of desired system metric.
 

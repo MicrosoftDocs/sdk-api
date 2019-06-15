@@ -52,8 +52,8 @@ ms.custom: 19H1
 Shuts down (and optionally restarts) the specified Remote Desktop Session Host (RD Session Host) server.
 
 To shut down or restart the system, the calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege enabled. For more information about security privileges, see 
-<a href="https://msdn.microsoft.com/fe6aae0f-93eb-4aba-a6ac-45e71c251c51">Privileges</a> and 
-<a href="https://msdn.microsoft.com/be5637e3-0932-49b6-a5af-a542060545e0">Authorization Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Authorization Constants</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ To shut down or restart the system, the calling process must have the <b>SE_SHUT
 ### -param hServer [in]
 
 Handle to an RD Session Host server. Specify a handle opened by the 
-<a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a> function, or specify <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application is running.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application is running.
 
 
 ### -param ShutdownFlag [in]
@@ -84,7 +84,7 @@ Use this value only on the Remote Desktop Services console.
 
 #### WTS_WSD_POWEROFF
 
-Shuts down the system on the RD Session Host server and, on computers that support software control of AC power, turns off the power. This is equivalent to calling <a href="https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50">ExitWindowsEx</a> with <b>EWX_SHUTDOWN</b> and <b>EWX_POWEROFF</b>. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege enabled.
+Shuts down the system on the RD Session Host server and, on computers that support software control of AC power, turns off the power. This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> with <b>EWX_SHUTDOWN</b> and <b>EWX_POWEROFF</b>. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege enabled.
 
 
 
@@ -97,7 +97,7 @@ Shuts down and then restarts the system on the RD Session Host server. This is 
 #### WTS_WSD_SHUTDOWN
 
 Shuts down the system on the RD Session Host server. This is equivalent to calling the 
-<a href="https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50">ExitWindowsEx</a> function with <b>EWX_SHUTDOWN</b>. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege enabled.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function with <b>EWX_SHUTDOWN</b>. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege enabled.
 
 
 
@@ -113,7 +113,7 @@ This value is not supported currently.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -146,7 +146,7 @@ A system shutdown terminates all users and active programs. The following steps 
 
 
 
-<a href="https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50">ExitWindowsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
  
 
  

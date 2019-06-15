@@ -78,7 +78,7 @@ Only site-specific domain controllers are enumerated.
 
 #### DS_NOTIFY_AFTER_SITE_RECORDS
 
-The <a href="https://msdn.microsoft.com/2906772f-4391-411b-b0a9-5a20ebb6c0ee">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
 
 
 ### -param SiteName [in, optional]
@@ -135,7 +135,7 @@ Requires that the enumerated domain controllers be the primary domain controller
 
 ### -param RetGetDcContext [out]
 
-Pointer to a <b>HANDLE</b> value that receives the domain controller enumeration context handle. This handle is used with the <a href="https://msdn.microsoft.com/2906772f-4391-411b-b0a9-5a20ebb6c0ee">DsGetDcNext</a> function to identify the domain controller enumeration operation. This handle is passed to <a href="https://msdn.microsoft.com/d193e4cd-ad66-4d93-b912-348f17e93a6f">DsGetDcClose</a> to close the domain controller enumeration operation.
+Pointer to a <b>HANDLE</b> value that receives the domain controller enumeration context handle. This handle is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a> function to identify the domain controller enumeration operation. This handle is passed to <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a> to close the domain controller enumeration operation.
 
 
 ##### - DcFlags.DS_FORCE_REDISCOVERY
@@ -165,7 +165,7 @@ Requires that the enumerated domain controllers be the primary domain controller
 
 ##### - OptionFlags.DS_NOTIFY_AFTER_SITE_RECORDS
 
-The <a href="https://msdn.microsoft.com/2906772f-4391-411b-b0a9-5a20ebb6c0ee">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
 
 
 ##### - OptionFlags.DS_ONLY_DO_SITE_NAME
@@ -187,19 +187,19 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise. Po
 
 
 
-<a href="https://msdn.microsoft.com/7b519c81-5a6c-470a-a525-1894efd53305">Directory Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d193e4cd-ad66-4d93-b912-348f17e93a6f">DsGetDcClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/2906772f-4391-411b-b0a9-5a20ebb6c0ee">DsGetDcNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfc92777-6944-406a-8b93-949a1cf3e2c3">Enumerating Domain Controllers</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>
  
 
  

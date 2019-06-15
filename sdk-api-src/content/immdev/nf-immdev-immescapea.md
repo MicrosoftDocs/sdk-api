@@ -73,12 +73,12 @@ Handle to the input context.
 
 ### -param UINT [in]
 
-Index of the operations. For more information, see <a href="https://msdn.microsoft.com/ede886dc-8a92-428c-8975-3feadc1d4f90">IME Escapes</a>.
+Index of the operations. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-escapes">IME Escapes</a>.
 
 
 ### -param LPVOID [in, out]
 
-Pointer to the data required for the escape specified in <i>uEscape</i>. On output, this parameter indicates the result of the escape. For more information, see <a href="https://msdn.microsoft.com/ede886dc-8a92-428c-8975-3feadc1d4f90">IME Escapes</a>.
+Pointer to the data required for the escape specified in <i>uEscape</i>. On output, this parameter indicates the result of the escape. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-escapes">IME Escapes</a>.
 
 
 ## -returns
@@ -115,11 +115,11 @@ LRESULT lRet = ImmEscape(hKL,
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

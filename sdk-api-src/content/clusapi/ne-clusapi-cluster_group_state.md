@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Enumerates the possible states of a 
-   <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>.
 
 
 ## -enum-fields
@@ -66,25 +66,25 @@ The state of the group is unknown.
 
 ### -field ClusterGroupOnline
 
-All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
+All of the resources in the group are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">online</a>.
 
 
 ### -field ClusterGroupOffline
 
-All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a> or 
+All of the resources in the group are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">offline</a> or 
       there are no resources in the group.
 
 
 ### -field ClusterGroupFailed
 
-At least one <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the group has failed.
+At least one <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> in the group has failed.
 
 
 ### -field ClusterGroupPartialOnline
 
 At least one resource in the group is online. No resources are 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">pending</a> or 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/p-gly">pending</a> or 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
 
 
 ### -field ClusterGroupPending
@@ -97,15 +97,15 @@ At least one resource in the group is in a pending state. There are no failed re
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f794dee-aeee-4906-ba63-c154bfda4d17">GetClusterGroupState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclustergroupstate">GetClusterGroupState</a>
 
 
 
-<a href="https://msdn.microsoft.com/7eb8662c-a6ca-46e5-99ee-84e0dd6b0961">State Property of the ClusResGroup Object</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresgroup-state">State Property of the ClusResGroup Object</a>
  
 
  

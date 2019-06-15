@@ -72,7 +72,7 @@ Open an exported log file.
 
 
 
-<a href="https://msdn.microsoft.com/1bf81452-2a62-4999-91b1-f1b42e6db91f">EvtOpenLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenlog">EvtOpenLog</a>
  
 
  

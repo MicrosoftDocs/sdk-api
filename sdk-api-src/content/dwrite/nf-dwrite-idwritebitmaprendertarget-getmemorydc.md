@@ -75,8 +75,8 @@ Returns a device context handle to the memory device context.
 
 
  An application can use the device context to draw using GDI functions. An application can obtain the bitmap handle
-     (HBITMAP) by calling <a href="https://msdn.microsoft.com/d7e2310c-6a9e-4195-824c-1a83382a5c5b">GetCurrentObject</a>. An application that wants information about the underlying bitmap, including
-     a pointer to the pixel data, can call <a href="https://msdn.microsoft.com/555ab876-d990-426d-915c-f98df82a10aa">GetObject</a> to fill in a <a href="https://msdn.microsoft.com/76e84c90-6553-46c6-9ab9-afa022e0b2e5">DIBSECTION</a> structure. The bitmap is always a 32-bit 
+     (HBITMAP) by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcurrentobject">GetCurrentObject</a>. An application that wants information about the underlying bitmap, including
+     a pointer to the pixel data, can call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> to fill in a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdibsection">DIBSECTION</a> structure. The bitmap is always a 32-bit 
      top-down DIB.
 
 Note that this method takes no parameters and returns an HDC variable, not an HRESULT.
@@ -98,7 +98,7 @@ The HDC returned here is still owned by the bitmap render targer object and shou
 
 
 
-<a href="https://msdn.microsoft.com/9953a9e9-7772-41a3-9cd9-2340a9dd4b6f">IDWriteBitmapRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget">IDWriteBitmapRenderTarget</a>
  
 
  

@@ -62,14 +62,14 @@ Removes a cluster. The <b>PCLUSAPI_DESTROY_CLUSTER</b> type defines a pointer to
 
 ### -param hCluster [in]
 
-Handle to a cluster, returned by the <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a> or 
-      <a href="https://msdn.microsoft.com/672a1573-63e5-4321-a049-25bdafc1b5e0">CreateCluster</a> function.
+Handle to a cluster, returned by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a> or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function.
 
 
 ### -param pfnProgressCallback [in, optional]
 
 Address of callback function that matches the 
-      <a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
       function pointer that will be called periodically to provide progress on the cluster destruction.
 
 
@@ -89,7 +89,7 @@ If <b>TRUE</b>, then delete the virtual computer objects associated with the clu
 
 
 Returns <b>ERROR_SUCCESS</b> if the cluster was completely removed or a 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> for the last failed operation.
+      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> for the last failed operation.
 
 
 
@@ -110,15 +110,15 @@ It is possible for multiple steps to fail when removing a cluster with
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Cluster Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/672a1573-63e5-4321-a049-25bdafc1b5e0">CreateCluster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
  
 
  

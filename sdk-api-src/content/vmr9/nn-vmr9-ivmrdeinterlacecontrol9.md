@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IVMRDeinterlaceControl9</b> interface supports hardware-accelerated deinterlacing using the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9). This interface enables applications or other filters to control how the VMR manages DirectX Video Acceleration (DirectX VA) hardware deinterlacing.
+The <b>IVMRDeinterlaceControl9</b> interface supports hardware-accelerated deinterlacing using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9). This interface enables applications or other filters to control how the VMR manages DirectX Video Acceleration (DirectX VA) hardware deinterlacing.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRDeinterlaceControl9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVMRDeinterlaceControl9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRDeinterlaceControl9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRDeinterlaceControl9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVMRDeinterlaceControl9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377350(v=VS.85).aspx">GetActualDeinterlaceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getactualdeinterlacemode">GetActualDeinterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Returns the deinterlacing mode that the VMR is using for a specified stream.
@@ -79,7 +79,7 @@ Returns the deinterlacing mode that the VMR is using for a specified stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377351(v=VS.85).aspx">GetDeinterlaceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemode">GetDeinterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the deinterlacing mode for the specified video stream.
@@ -88,7 +88,7 @@ Retrieves the deinterlacing mode for the specified video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377352(v=VS.85).aspx">GetDeinterlaceModeCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps">GetDeinterlaceModeCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of a specific deinterlacing mode supported by the graphics device driver.
@@ -97,7 +97,7 @@ Retrieves the capabilities of a specific deinterlacing mode supported by the gra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377353(v=VS.85).aspx">GetDeinterlacePrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlaceprefs">GetDeinterlacePrefs</a>
 </td>
 <td align="left" width="63%">
 Queries how the VMR will select a deinterlacing mode if it cannot use the preferred mode.
@@ -106,7 +106,7 @@ Queries how the VMR will select a deinterlacing mode if it cannot use the prefer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377354(v=VS.85).aspx">GetNumberOfDeinterlaceModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes">GetNumberOfDeinterlaceModes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the deinterlacing modes available to the VMR for the specified video format.
@@ -115,7 +115,7 @@ Retrieves the deinterlacing modes available to the VMR for the specified video f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377355(v=VS.85).aspx">SetDeinterlaceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlacemode">SetDeinterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Sets the deinterlacing mode for the specified video stream.
@@ -124,7 +124,7 @@ Sets the deinterlacing mode for the specified video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377356(v=VS.85).aspx">SetDeinterlacePrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlaceprefs">SetDeinterlacePrefs</a>
 </td>
 <td align="left" width="63%">
 Specifies how the VMR will select a deinterlacing mode if it cannot use the preferred mode.
@@ -138,7 +138,7 @@ Specifies how the VMR will select a deinterlacing mode if it cannot use the pref
 
 
 
-Deinterlacing modes are identified by GUIDs. The graphics device driver returns an array of GUIDs for the modes that it supports. The array is sorted in order of quality, from best quality to lowest quality. To retrieve the list of GUIDs, call the <a href="https://msdn.microsoft.com/en-us/library/Dd377354(v=VS.85).aspx">GetNumberOfDeinterlaceModes</a> method. To obtain more information about a particular mode, pass this GUID to the <a href="https://msdn.microsoft.com/en-us/library/Dd377352(v=VS.85).aspx">GetDeinterlaceModeCaps</a> method. To configure the VMR to use a particular mode, call the <a href="https://msdn.microsoft.com/en-us/library/Dd377355(v=VS.85).aspx">SetDeinterlaceMode</a> method.
+Deinterlacing modes are identified by GUIDs. The graphics device driver returns an array of GUIDs for the modes that it supports. The array is sorted in order of quality, from best quality to lowest quality. To retrieve the list of GUIDs, call the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes">GetNumberOfDeinterlaceModes</a> method. To obtain more information about a particular mode, pass this GUID to the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps">GetDeinterlaceModeCaps</a> method. To configure the VMR to use a particular mode, call the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-setdeinterlacemode">SetDeinterlaceMode</a> method.
 
 To determine what de-interlacing modes are available, perform these steps:
 
@@ -146,9 +146,9 @@ To determine what de-interlacing modes are available, perform these steps:
 <li>Create the VMR-9 and put it into mixing mode.
       </li>
 <li>Query the VMR-9 for the <b>IVMRDeinterlaceControl9</b> interface</li>
-<li>Fill in a <a href="https://msdn.microsoft.com/en-us/library/Dd407395(v=VS.85).aspx">VMRVideoDesc</a> structure that describes the format of the interlaced video.</li>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/Dd377354(v=VS.85).aspx">IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes</a> to get the number of available de-interlacing modes.</li>
-<li>For each mode returned, call <a href="https://msdn.microsoft.com/en-us/library/Dd377352(v=VS.85).aspx">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a> to get information about the mode.</li>
+<li>Fill in a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrvideodesc">VMRVideoDesc</a> structure that describes the format of the interlaced video.</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getnumberofdeinterlacemodes">IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes</a> to get the number of available de-interlacing modes.</li>
+<li>For each mode returned, call <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrdeinterlacecontrol9-getdeinterlacemodecaps">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a> to get information about the mode.</li>
 </ol>
 
 
@@ -158,15 +158,15 @@ To determine what de-interlacing modes are available, perform these steps:
 
 
 
-<a href="https://msdn.microsoft.com/31d59f17-552b-46d1-89e4-751216f54280">Setting Deinterlace Preferences</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/setting-deinterlace-preferences">Setting Deinterlace Preferences</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
  
 
  

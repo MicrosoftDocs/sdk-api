@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of structure contained in the <b>WRdsConnectionSetting</b> member of the <a href="https://msdn.microsoft.com/9219AE45-5F11-484E-BD78-F8E1AB41D648">WRDS_CONNECTION_SETTINGS</a> structure.
+Specifies the type of structure contained in the <b>WRdsConnectionSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings">WRDS_CONNECTION_SETTINGS</a> structure.
 
 
 ## -enum-fields
@@ -64,5 +64,5 @@ The type of structure is not defined.
 
 ### -field WRDS_CONNECTION_SETTING_LEVEL_1
 
-The structure is a <a href="https://msdn.microsoft.com/93D4C843-7974-4287-9222-B90206DE6B75">WRDS_CONNECTION_SETTINGS_1</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
 

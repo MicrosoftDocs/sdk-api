@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sends an <a href="https://msdn.microsoft.com/E190DAEC-776A-4248-8A73-073AB6F2FE8A">OnControlLevelChangeResponse</a> event.
+Sends an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/oncontrollevelchangeresponse">OnControlLevelChangeResponse</a> event.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Attendee that requests control.
 
 ### -param RequestedLevel [in]
 
-Level of control requested by the attendee. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa373265(v=VS.85).aspx">CTRL_LEVEL</a> enumeration.
+Level of control requested by the attendee. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0001">CTRL_LEVEL</a> enumeration.
 
 
 ### -param ReasonCode [in]
@@ -86,7 +86,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/3ac68be7-e6fd-42c7-b2f3-b90bb5097b07">IRDPSRAPISharingSession2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
  
 
  

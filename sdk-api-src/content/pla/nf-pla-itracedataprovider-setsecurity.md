@@ -59,7 +59,7 @@ Sets the security information for the trace data provider.
 
 ### -param Sddl [in]
 
-A string that describes the security descriptor for the object. For details, see <a href="https://msdn.microsoft.com/0a226629-084c-40c5-bdd4-ad7355c807cf">Security Descriptor Definition Language</a>.
+A string that describes the security descriptor for the object. For details, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor Definition Language</a>.
 
 
 ## -returns
@@ -76,11 +76,11 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/bd2a49c1-8e18-4a14-a797-07f2b9c25812">ITraceDataProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f1618db-aa43-4cac-a652-db172781e988">ITraceDataProvider::GetSecurity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-getsecurity">ITraceDataProvider::GetSecurity</a>
  
 
  

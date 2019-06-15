@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Maps previously allocated physical memory pages at a specified address in an 
-    <a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a> (AWE) region.
+    <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region.
 
 <b>64-bit Windows on Itanium-based systems:  </b>Due to the difference in page sizes, 
      <b>MapUserPhysicalPagesScatter</b> is not 
@@ -68,7 +68,7 @@ A pointer to an array of starting addresses of the regions of memory to remap.
 
 Each entry in 
       <i>VirtualAddresses</i> must be within the address range that the 
-      <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function returns when the <a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a> (AWE) region is 
+      <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function returns when the <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region is 
       allocated. The value in <i>NumberOfPages</i> indicates the size of the array. Entries can be from multiple Address Windowing Extensions (AWE) regions.
 
 
@@ -103,7 +103,7 @@ If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>, and the function does not map or unmap—partial or 
        otherwise. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -113,16 +113,16 @@ If the function fails, the return value is <b>FALSE</b>, and the function does n
 
 
 The physical pages may be unmapped, but they are not freed. You must call 
-    <a href="https://msdn.microsoft.com/c01da9f1-1d24-4b7e-8c6b-50aa6f558384">FreeUserPhysicalPages</a> to free the physical 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a> to free the physical 
     pages.
 
 You can specify any number of physical memory pages, but the memory cannot extend outside the virtual 
-    address space that is allocated by <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>. Any 
+    address space that is allocated by <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>. Any 
     existing address maps are automatically overwritten with the new translations, and the old translations are 
     unmapped.
 
 You cannot map physical memory pages outside the range that is specified in 
-    <a href="https://msdn.microsoft.com/cf45b24b-0622-4ba1-b485-8429cbf146b6">AllocateUserPhysicalPages</a>. You can map 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>. You can map 
     multiple regions simultaneously, but they cannot overlap.
 
 Physical pages can be located at any physical address, but do not make assumptions about the contiguity of the 
@@ -132,7 +132,7 @@ In a multiprocessor environment, this function maintains hardware translation bu
     from this function, all threads on all processors are guaranteed to see the correct mapping.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more 
-    information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows 
+    information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows 
     Headers</a>.
 
 
@@ -143,23 +143,23 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 
-<a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf45b24b-0622-4ba1-b485-8429cbf146b6">AllocateUserPhysicalPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/c01da9f1-1d24-4b7e-8c6b-50aa6f558384">FreeUserPhysicalPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e9804dd-717d-4658-aac8-228878e61e4b">MapUserPhysicalPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapuserphysicalpages">MapUserPhysicalPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
  
 
  

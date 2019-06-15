@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Represents a sensor.
 
-You will generally retrieve a pointer to <b>ISensor</b> by calling <a href="https://msdn.microsoft.com/3117a46d-62f2-4d69-97e1-1a75c08a799e">ISensorCollection::GetAt</a> or <a href="https://msdn.microsoft.com/453f46f3-43e1-466d-9f46-165b7d2bcd56">ISensorManager::GetSensorByID</a>, but other methods can retrieve this pointer, too. Various other Sensor API methods use a pointer to <b>ISensor</b> to provide information about a particular sensor or to enable you to specify which sensor to use for a particular action.
+You will generally retrieve a pointer to <b>ISensor</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorcollection-getat">ISensorCollection::GetAt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-getsensorbyid">ISensorManager::GetSensorByID</a>, but other methods can retrieve this pointer, too. Various other Sensor API methods use a pointer to <b>ISensor</b> to provide information about a particular sensor or to enable you to specify which sensor to use for a particular action.
 
 In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensor</b> interface exposes the following methods.
 
@@ -61,7 +61,7 @@ In addition to the methods inherited from <b>IUnknown</b>, the <b>ISensor</b> in
 
 
 
-<a href="https://msdn.microsoft.com/872de1e9-20f9-409b-9917-24b13a8cc08a">COM Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/windows-sensors-com-interfaces">COM Interfaces</a>
  
 
  

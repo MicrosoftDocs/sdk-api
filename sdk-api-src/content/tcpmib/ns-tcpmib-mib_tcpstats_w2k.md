@@ -223,7 +223,7 @@ The number of connections that are currently present in the system. This total n
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa366020(v=VS.85).aspx">GetTcpStatistics</a> function returns a pointer to a <b>MIB_TCPSTATS</b> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatistics">GetTcpStatistics</a> function returns a pointer to a <b>MIB_TCPSTATS</b> structure. 
 
 The <b>MIB_TCPSTATS</b> structure changed slightly on Windows Vista and later. On Windows Vistaand later, the <b>dwRtoAlgorithm</b> member is replaced by  a union that contains the following members.
 
@@ -269,15 +269,15 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366020(v=VS.85).aspx">GetTcpStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatistics">GetTcpStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/a86e5758-a984-4483-8e9c-c482a7676a20">GetUdpStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatistics">GetUdpStatistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/128bae44-59a2-4e37-a588-a18805b9e340">MIB_UDPSTATS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udpstats">MIB_UDPSTATS</a>
  
 
  

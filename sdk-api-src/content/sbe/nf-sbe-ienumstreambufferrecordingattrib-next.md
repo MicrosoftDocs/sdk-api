@@ -64,7 +64,7 @@ The number of attributes to retrieve.
 
 ### -param pStreamBufferAttribute [in, out]
 
-Pointer to an array of size <i>cRequest</i>. The array is filled with <a href="https://msdn.microsoft.com/2b17626a-9268-4192-8acf-ed46bf632163">STREAMBUFFER_ATTRIBUTE</a> structures.
+Pointer to an array of size <i>cRequest</i>. The array is filled with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-streambuffer_attribute">STREAMBUFFER_ATTRIBUTE</a> structures.
 
 
 ### -param pcReceived [out]
@@ -137,7 +137,7 @@ Success.
 
 
 
-The caller allocates the array of <a href="https://msdn.microsoft.com/2b17626a-9268-4192-8acf-ed46bf632163">STREAMBUFFER_ATTRIBUTE</a> structures, but the method allocates buffers for the attributes and the attribute names, which are contained in the <b>pszName</b> and <b>pbAttribute</b> members of each structure. The caller must release those buffers, by calling <b>CoTaskMemFree</b>.
+The caller allocates the array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-streambuffer_attribute">STREAMBUFFER_ATTRIBUTE</a> structures, but the method allocates buffers for the attributes and the attribute names, which are contained in the <b>pszName</b> and <b>pbAttribute</b> members of each structure. The caller must release those buffers, by calling <b>CoTaskMemFree</b>.
 
 
 
@@ -147,7 +147,7 @@ The caller allocates the array of <a href="https://msdn.microsoft.com/2b17626a-9
 
 
 
-<a href="https://msdn.microsoft.com/668d2e04-74fa-41d7-b238-ec737a4441ca">IEnumStreamBufferRecordingAttrib Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib Interface</a>
  
 
  

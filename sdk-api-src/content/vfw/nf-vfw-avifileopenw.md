@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>AVIFileOpen</b> function opens an AVI file and returns the address of a file interface used to access it. The AVIFile library maintains a count of the number of times a file is opened, but not the number of times it was released. Use the <a href="https://msdn.microsoft.com/c2f94ca2-b46c-48b0-9c31-92cf2cf75be3">AVIFileRelease</a> function to release the file and decrement the count.
+The <b>AVIFileOpen</b> function opens an AVI file and returns the address of a file interface used to access it. The AVIFile library maintains a count of the number of times a file is opened, but not the number of times it was released. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a> function to release the file and decrement the count.
 
 
 
@@ -65,7 +65,7 @@ The <b>AVIFileOpen</b> function opens an AVI file and returns the address of a f
 
 ### -param ppfile
 
-Pointer to a buffer that receives the new <a href="https://msdn.microsoft.com/401db941-cbf6-452b-84e2-605fafac8a6d">IAVIFile</a> interface pointer.
+Pointer to a buffer that receives the new <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface pointer.
 
 
 ### -param szFile
@@ -206,15 +206,15 @@ According to the registry, the type of file specified in <b>AVIFileOpen</b> does
 
 
 
-<a href="https://msdn.microsoft.com/89abf60a-1714-4836-93ae-a8a6bf2c24b6">AVIFile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2f94ca2-b46c-48b0-9c31-92cf2cf75be3">AVIFileRelease</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a>
  
 
  

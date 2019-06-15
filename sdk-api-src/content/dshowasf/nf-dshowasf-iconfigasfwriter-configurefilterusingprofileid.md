@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>ConfigureFilterUsingProfileId</code> method sets a Windows Media Format 4.0 profile on the <a href="https://msdn.microsoft.com/1b12f65f-8d77-4d38-aad9-92bb15cc0426">WM ASF Writer</a> filter. This method is deprecated. Applications should use the <a href="https://msdn.microsoft.com/en-us/library/Dd312023(v=VS.85).aspx">IConfigAsfWriter::ConfigureFilterUsingProfile</a> method to set the profile.
+The <code>ConfigureFilterUsingProfileId</code> method sets a Windows Media Format 4.0 profile on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-writer-filter">WM ASF Writer</a> filter. This method is deprecated. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-configurefilterusingprofile">IConfigAsfWriter::ConfigureFilterUsingProfile</a> method to set the profile.
 
 
 
@@ -129,15 +129,15 @@ This method is now obsolete because it assumes version 4.0 Windows Media Format 
 
 
 
-<a href="https://msdn.microsoft.com/dffda43a-5831-4889-864f-81351b9e2bb3">Creating ASF Files in DirectShow</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd312017(v=VS.85).aspx">IConfigAsfWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
  
 
  

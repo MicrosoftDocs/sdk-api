@@ -143,7 +143,7 @@ This enumeration should be treated as a bitmask. Nearly all of the values set on
 
 
 
-<a href="https://msdn.microsoft.com/b8ed119f-8976-48aa-ab9a-86c1361b6e14">IDiscFormat2Data::get_CurrentMediaStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentmediastatus">IDiscFormat2Data::get_CurrentMediaStatus</a>
  
 
  

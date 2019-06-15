@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/8705ac1a-62ba-4239-aeb6-b35ac5f0dd18">WsAsyncExecute</a> to specify the next function 
+Used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsasyncexecute">WsAsyncExecute</a> to specify the next function 
                 to invoke in a series of async operations.
             
 

@@ -77,13 +77,13 @@ If this parameter is <b>NULL</b>, the entries are enumerated from all the remote
 ### -param arg3 [in, out]
 
 Pointer to a buffer that, on output, receives an array of 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structures, one for each phone-book entry. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structures, one for each phone-book entry. 
 
 
 
 
 On input, an application must set the <b>dwSize</b> member of the first 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) in order to identify the version of the structure being passed.
 
 
 ### -param arg4 [in, out]
@@ -94,7 +94,7 @@ Pointer to a variable that, on input, contains the size, in bytes, of the buffer
 
 
 Pointer to a variable that, on output, contains the size, in bytes, of the array of 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structures required for the phone-book entries.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structures required for the phone-book entries.
 
 <b>Windows Vista or later:  </b>To determine the required buffer size, call 
 <b>RasEnumEntries</b> with <i>lprasentryname</i> set to <b>NULL</b>. The variable pointed to by <i>lpcb</i> should be set to zero. The function will return the required buffer size in <i>lpcb</i> and an error code of <b>ERROR_BUFFER_TOO_SMALL</b>.
@@ -111,7 +111,7 @@ Pointer to a variable that receives to the number of phone-book entries written 
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -139,9 +139,9 @@ The <i>lprasentryname</i> buffer is not large enough. The <i>lpcb</i>parameter i
 </td>
 <td width="60%">
 The value of <b>dwSize</b> in the 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure pointed to by <i>lprasentryname</i>, specifies a version of the structure that is not supported on the current platform. For example, on Windows 95, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structure pointed to by <i>lprasentryname</i>, specifies a version of the structure that is not supported on the current platform. For example, on Windows 95, 
 <b>RasEnumEntries</b> returns this error if <b>dwSize</b> indicates that 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> includes the <b>dwFlags</b> and <b>szPhonebookPath</b> members, since these members are not supported on Windows 95 (they are supported only on Windows 2000 and later).
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> includes the <b>dwFlags</b> and <b>szPhonebookPath</b> members, since these members are not supported on Windows 95 (they are supported only on Windows 2000 and later).
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ The function could not allocate sufficient memory to complete the operation.
 The following sample code enumerates the RAS phone-book entries on Windows Vista and later versions of Windows. The code initially calls 
 <b>RasEnumEntries</b> to obtain the size of the buffer to pass in. The code then calls 
 <b>RasEnumEntries</b> again, to enumerate the entries. Note that for the second call, the code sets the <b>dwSize</b> member of the first 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) to specify the structure version.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a> structure in the buffer to sizeof(<b>RASENTRYNAME</b>) to specify the structure version.
 
 
 ```cpp
@@ -237,19 +237,19 @@ DWORD __cdecl wmain(){
 
 
 
-<a href="https://msdn.microsoft.com/3761d4cd-b573-44b6-b617-c8dd45b479ea">RASENTRYNAME</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377267(v=vs.85)">RASENTRYNAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a cardioid-shaped directivity model for an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a>.
+Represents a cardioid-shaped directivity model for an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Represents a cardioid-shaped directivity model for an <a href="https://msdn.micr
 
 ### -field directivity
 
-A structure that expresses the direction in which sound is emitted by an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a>.
+A structure that expresses the direction in which sound is emitted by an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 
 ### -field Order

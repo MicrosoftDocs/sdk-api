@@ -59,7 +59,7 @@ Specifies whether to flip the video image.
 
 ### -param eMirror
 
-An <a href="https://msdn.microsoft.com/AFD29AD7-8DC9-4834-8F8E-D062A3A19BD0">MF_VIDEO_PROCESSOR_MIRROR</a> value that specifies whether to flip the video image, either horizontally or vertically.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mf_video_processor_mirror">MF_VIDEO_PROCESSOR_MIRROR</a> value that specifies whether to flip the video image, either horizontally or vertically.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6803B69E-CF84-45D5-804C-BD961BD5E13D">IMFVideoProcessorControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>
  
 
  

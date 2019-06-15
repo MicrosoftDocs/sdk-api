@@ -53,7 +53,7 @@ The <b>MSV1_0_INTERACTIVE_PROFILE</b> structure contains information about an in
 			
 
 This structure is used by 
-the <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ the <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">Ls
 ### -field MessageType
 
 
-<a href="https://msdn.microsoft.com/c8fe967a-e172-4200-ab15-daebf441c689">MSV1_0_PROFILE_BUFFER_TYPE</a> value identifying the type of profile data being returned. This member must be set to <b>MsV1_0InteractiveProfile</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_profile_buffer_type">MSV1_0_PROFILE_BUFFER_TYPE</a> value identifying the type of profile data being returned. This member must be set to <b>MsV1_0InteractiveProfile</b>.
 
 
 ### -field LogonCount
@@ -104,7 +104,7 @@ Time and date the password was last changed. This is an absolute format Windows 
 
 ### -field PasswordCanChange
 
-Time and date when the user should be reminded to change passwords. This is an absolute-format Windows standard time value. This member is used by the <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> to display the prompt asking whether the user wants to change the current password.
+Time and date when the user should be reminded to change passwords. This is an absolute-format Windows standard time value. This member is used by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to display the prompt asking whether the user wants to change the current password.
 
 
 ### -field PasswordMustChange
@@ -115,37 +115,37 @@ Time and date when the user must change the password. If the user can never chan
 ### -field LogonScript
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the relative path to the account's logon script.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the relative path to the account's logon script.
 
 
 ### -field HomeDirectory
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the home directory for the user.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the home directory for the user.
 
 
 ### -field FullName
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the full name of the user.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the full name of the user.
 
 
 ### -field ProfilePath
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> specifying the path to the user's roaming profile if the user has a roaming profile. For example: \\SomeServer\SomeShare\MyUserName
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> specifying the path to the user's roaming profile if the user has a roaming profile. For example: \\SomeServer\SomeShare\MyUserName
 
 
 ### -field HomeDirectoryDrive
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the drive letter (for example, C:\ or D:\) of the home directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the drive letter (for example, C:\ or D:\) of the home directory.
 
 
 ### -field LogonServer
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the name of the server that processed the logon request.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
 
 
 ### -field UserFlags
@@ -163,7 +163,7 @@ Specifies how this user established the session. This can be the following flag.
 </dl>
 </td>
 <td width="60%">
-The user logged on using extra <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs).
+The user logged on using extra <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ The user logged on using extra <a href="https://msdn.microsoft.com/3e9d7672-2314
 
 
 
-<a href="https://msdn.microsoft.com/c8fe967a-e172-4200-ab15-daebf441c689">MSV1_0_PROFILE_BUFFER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_profile_buffer_type">MSV1_0_PROFILE_BUFFER_TYPE</a>
  
 
  

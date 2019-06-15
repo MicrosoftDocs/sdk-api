@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method sends the <a href="https://msdn.microsoft.com/0085a55e-7bf6-4eb6-a649-832b685db1cc">WM_SETREDRAW</a> message to the ListView object that the view contains.
+This method sends the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-setredraw">WM_SETREDRAW</a> message to the ListView object that the view contains.
 
 
 

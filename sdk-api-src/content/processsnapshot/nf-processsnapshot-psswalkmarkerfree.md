@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees a walk marker created by <a href="https://msdn.microsoft.com/58E2FBAF-661C-45BE-A25A-A096AF52ED3E">PssWalkMarkerCreate</a>.
+Frees a walk marker created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the walk marker.
 
 This function returns <b>ERROR_SUCCESS</b> on success.
 
-All error codes are defined in winerror.h. Use <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
+All error codes are defined in winerror.h. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
 
 
 
@@ -79,7 +79,7 @@ All error codes are defined in winerror.h. Use <a href="https://msdn.microsoft.c
 
 
 
-If <a href="https://msdn.microsoft.com/58E2FBAF-661C-45BE-A25A-A096AF52ED3E">PssWalkMarkerCreate</a> used <b>AllocRoutine</b> of a custom allocator to create the walk marker, <b>PssWalkMarkerFree</b> uses the <b>FreeRoutine</b> of the allocator.
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalkmarkercreate">PssWalkMarkerCreate</a> used <b>AllocRoutine</b> of a custom allocator to create the walk marker, <b>PssWalkMarkerFree</b> uses the <b>FreeRoutine</b> of the allocator.
 
 
 
@@ -89,7 +89,7 @@ If <a href="https://msdn.microsoft.com/58E2FBAF-661C-45BE-A25A-A096AF52ED3E">Pss
 
 
 
-<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
  
 
  

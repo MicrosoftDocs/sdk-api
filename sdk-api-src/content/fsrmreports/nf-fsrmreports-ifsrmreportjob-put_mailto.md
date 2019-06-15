@@ -68,7 +68,7 @@ This property is optional.
 The email message is sent only if the job finishes successfully. Email is not sent for 
     <b>FsrmReportType_ExportReport</b> report types. The reports are attached to the email 
     message. You can specify [Admin Email] to send notification to the administrator (if the 
-    <a href="https://msdn.microsoft.com/5985f697-f982-481c-896e-e6c3834f645d">IFsrmSetting::AdminEmail</a> property is set). The 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_adminemail">IFsrmSetting::AdminEmail</a> property is set). The 
     subject is "&lt;ReportType&gt;: &lt;ReportName&gt;". The body of the email message is empty.
 
 
@@ -79,7 +79,7 @@ The email message is sent only if the job finishes successfully. Email is not se
 
 
 
-<a href="https://msdn.microsoft.com/ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f">IFsrmReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
  
 
  

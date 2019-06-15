@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Constants used by <a href="https://msdn.microsoft.com/7baba34d-b246-4d48-9f0c-e950d33ed5cf">IFileIsInUse::GetUsage</a> to indicate how a file in use is being used.
+Constants used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileisinuse-getusage">IFileIsInUse::GetUsage</a> to indicate how a file in use is being used.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ The file is open in the process for an unspecified action or an action that does
 
 
 
-The interpretation of "playing" or "editing" is left to the application's implementation of <a href="https://msdn.microsoft.com/68a4ab3d-165e-4917-8915-77f15901dbad">IFileIsInUse</a>. Generally, "playing" would refer to a media file while "editing" can refer to any file being altered in an application. However, the application itself best knows how to map these terms to its actions.
+The interpretation of "playing" or "editing" is left to the application's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileisinuse">IFileIsInUse</a>. Generally, "playing" would refer to a media file while "editing" can refer to any file being altered in an application. However, the application itself best knows how to map these terms to its actions.
 
 
 

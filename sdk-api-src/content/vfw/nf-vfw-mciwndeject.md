@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndEject</b> macro sends a command to an MCI device to eject its media. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/a492f504-8b58-480e-9766-bc2878466c44">MCIWNDM_EJECT</a> message.
+The <b>MCIWndEject</b> macro sends a command to an MCI device to eject its media. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-eject">MCIWNDM_EJECT</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/a492f504-8b58-480e-9766-bc2878466c44">MCIWNDM_EJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-eject">MCIWNDM_EJECT</a>
  
 
  

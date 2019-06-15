@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Property</b> property specifies or retrieves a property value for the <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> object.
+The <b>Property</b> property specifies or retrieves a property value for the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a> object.
 
 This property is read/write.
 
@@ -73,7 +73,7 @@ Currently, TemplatePropSecurityDescriptor is the only property that you can set.
 
 
 
-<a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
  
 
  

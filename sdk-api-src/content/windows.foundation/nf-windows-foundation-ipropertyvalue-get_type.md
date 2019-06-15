@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the data type of the value that is stored in the current <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> object.
+Gets the data type of the value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 This property is read-only.
 
@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/A4DC4348-88EE-48FB-91ED-F1D12FC89EE1">PropertyType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ne-windows-foundation-propertytype">PropertyType</a>
  
 
  

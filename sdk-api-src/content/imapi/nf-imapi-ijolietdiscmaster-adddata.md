@@ -86,7 +86,7 @@ When you repeat an
 
 While 
 <b>AddData</b> can be called multiple times after calling 
-<a href="https://msdn.microsoft.com/5f2e9135-d251-4702-b5d1-51d9b445a4f5">IDiscMaster::SetActiveDiscRecorder</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">IDiscMaster::SetActiveDiscRecorder</a>, 
 <b>SetActiveDiscRecorder</b> must be called any time a new image is started, and immediately before the first 
 <b>AddData</b> call, regardless of whether the burner is the same one used in the previous image creation.
 
@@ -100,7 +100,7 @@ If a call to this method would overrun the number of available data blocks, the 
 
 
 
-<a href="https://msdn.microsoft.com/e2269b68-1860-4afd-90f2-d61297f3fa9b">IJolietDiscMaster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>
  
 
  

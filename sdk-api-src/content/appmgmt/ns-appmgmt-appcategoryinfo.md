@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides application category information to Add/Remove Programs in Control Panel. The <a href="https://msdn.microsoft.com/c590d9ab-ab41-4192-a6c2-c6c2c931e873">APPCATEGORYINFOLIST</a> structure is used create a complete list of categories for an application publisher.
+Provides application category information to Add/Remove Programs in Control Panel. The <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfolist">APPCATEGORYINFOLIST</a> structure is used create a complete list of categories for an application publisher.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Unused.
 
 Type: <b>LPWSTR</b>
 
-A pointer to a string containing the display name of the category. This string displays in the <b>Category</b> list in Add/Remove Programs. This string buffer must be allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> and freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+A pointer to a string containing the display name of the category. This string displays in the <b>Category</b> list in Add/Remove Programs. This string buffer must be allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -field AppCategoryId
@@ -83,11 +83,11 @@ A GUID identifying the application category.
 
 
 
-<a href="https://msdn.microsoft.com/c590d9ab-ab41-4192-a6c2-c6c2c931e873">APPCATEGORYINFOLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-_appcategoryinfolist">APPCATEGORYINFOLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/139a5094-8bb3-4b5d-938d-ba4af5d52d94">IAppPublisher::GetCategories</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-iapppublisher-getcategories">IAppPublisher::GetCategories</a>
  
 
  

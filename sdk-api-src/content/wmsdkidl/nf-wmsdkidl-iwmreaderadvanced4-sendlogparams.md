@@ -109,11 +109,11 @@ The reader is not streaming content from a remote server.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757450(v=VS.85).aspx">IWMReaderAdvanced4 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757451(v=VS.85).aspx">IWMReaderAdvanced4::AddLogParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-addlogparam">IWMReaderAdvanced4::AddLogParam</a>
  
 
  

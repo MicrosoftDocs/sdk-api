@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/1FC0406D-6924-4C24-8491-E18BA33DAFEB">ISelectionProvider2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider2">ISelectionProvider2</a>
  
 
  

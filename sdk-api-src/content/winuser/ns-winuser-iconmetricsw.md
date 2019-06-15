@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the scalable metrics associated with icons. This structure is used with the  <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function when the <b>SPI_GETICONMETRICS</b>  or <b>SPI_SETICONMETRICS</b> action is specified.
+Contains the scalable metrics associated with icons. This structure is used with the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the <b>SPI_GETICONMETRICS</b>  or <b>SPI_SETICONMETRICS</b> action is specified.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ If this member is nonzero, icon titles wrap to a new line. If this member is zer
 
 ### -field lfFont
 
-Type: <b><a href="https://msdn.microsoft.com/57658a03-0a6d-4a28-a7c1-c65ec145beb4">LOGFONT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogfonta">LOGFONT</a></b>
 
 The font to use for icon titles. 
 
@@ -103,7 +103,7 @@ The font to use for icon titles.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
 
 
 
@@ -111,7 +111,7 @@ The font to use for icon titles.
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
  
 
  

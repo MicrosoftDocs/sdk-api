@@ -61,7 +61,7 @@ The
 ### -field CertFlags
 
 Flags that indicate whether the certificate is valid. The possible values for this member are 
-a <a href="https://msdn.microsoft.com/b5f8ed5c-797a-46fa-8a73-a054ecc50265">SSPI Status Code</a> returned from SSPI or one of the following flags from the <b>dwError</b> member of the <a href="https://msdn.microsoft.com/599a09b6-fe9e-4489-99ae-8a88fa78a660">CERT_CHAIN_POLICY_STATUS</a> structure:
+a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-status-codes">SSPI Status Code</a> returned from SSPI or one of the following flags from the <b>dwError</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure:
 
 <a id="CERT_E_EXPIRED"></a>
 <a id="cert_e_expired"></a>
@@ -113,8 +113,8 @@ A pointer to the actual certificate.
 ### -field Token
 
 A handle to an access token. If the HTTP_SERVICE_CONFIG_SSL_FLAG_USE_DS_MAPPER flag is set using the 
-<a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HttpSetServiceConfiguration</a> function, and the client certificate was successfully mapped to an operating-system user account, then this member contains the handle to a valid 
-<a href="https://msdn.microsoft.com/350159c9-2399-427a-ba44-c897a9664299">access token</a>. When the 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> function, and the client certificate was successfully mapped to an operating-system user account, then this member contains the handle to a valid 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">access token</a>. When the 
 <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure is no longer required, release this token explicitly by closing the handle.
 
 
@@ -129,8 +129,8 @@ Reserved.
 
 An 
 <b>HTTP_SSL_CLIENT_CERT_INFO</b> structure is pointed to by the <b>pClientCertInfo</b> member of the 
-<a href="https://msdn.microsoft.com/35aac36d-87a1-45b2-acb1-6969c992d0cf">HTTP_SSL_INFO</a> structure, and is used by the 
-<a href="https://msdn.microsoft.com/f0cf7b77-2868-4142-a663-32d6ea7df9e9">HttpReceiveClientCertificate</a> function to return data about the client certificate through the <i>pSslClientCertInfo</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_info">HTTP_SSL_INFO</a> structure, and is used by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiveclientcertificate">HttpReceiveClientCertificate</a> function to return data about the client certificate through the <i>pSslClientCertInfo</i> parameter.
 
 
 
@@ -140,15 +140,15 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/e38f7a05-f966-4853-be3b-5cdbf224719e">HTTP Server API Version 1.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/35aac36d-87a1-45b2-acb1-6969c992d0cf">HTTP_SSL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_info">HTTP_SSL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0cf7b77-2868-4142-a663-32d6ea7df9e9">HttpReceiveClientCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiveclientcertificate">HttpReceiveClientCertificate</a>
  
 
  

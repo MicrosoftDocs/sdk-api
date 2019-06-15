@@ -56,7 +56,7 @@ Reads text from a Reader and parses it according to the specified value type.
         the buffer remains empty.
       Comments are skipped and CDATA content is treated the same as other  element content.
       Leading and trailing whitespaces are ignored.
-      If the value cannot be parsed according to the specified value type, the function returns a <b>WS_E_INVALID_FORMAT</b> error code. (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.</div>
+      If the value cannot be parsed according to the specified value type, the function returns a <b>WS_E_INVALID_FORMAT</b> error code. (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)<div class="alert"><b>Note</b>  This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.</div>
 <div> </div>
 
 
@@ -79,7 +79,7 @@ The text interpretation type.
 ### -param value
 
 A pointer to the parsed data if parsing was successful according to the specified value type.  The
-          size required is determined by value type.  See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
+          size required is determined by value type.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
         
 
 
@@ -91,7 +91,7 @@ The byte size of the retrieved value.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

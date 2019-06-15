@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the TLIBATTR originally obtained from <a href="https://msdn.microsoft.com/edc35364-99dc-438b-81de-4f129c0cf50f">GetLibAttr</a>.
+Releases the TLIBATTR originally obtained from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getlibattr">GetLibAttr</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
  
 
  

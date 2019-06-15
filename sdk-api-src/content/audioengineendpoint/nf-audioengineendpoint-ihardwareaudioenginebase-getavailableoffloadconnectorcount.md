@@ -88,7 +88,7 @@ The <b>GetAvailableOffloadConnectorCount</b> method returns <b>S_OK</b> to indic
 
 
 
-<a href="https://msdn.microsoft.com/6FB9BEDB-111B-4F0A-B8BB-B0BA2024EB24">IHardwareAudioEngineBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase">IHardwareAudioEngineBase</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Specifies the parameters of the event (receiving an incoming Internet Control Message Protocol
-redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvRedirectType</b> notification. If there is a pending call to the <a href="https://msdn.microsoft.com/CA0F9AAE-95E5-4A62-8A26-11F933B2D09E">WnvRequestNotification</a> function of this type, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://msdn.microsoft.com/C8A27B21-462A-4D70-AA19-743023FD1810">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <b>WnvRequestNotification</b> function call.
+redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a <b>WnvRedirectType</b> notification. If there is a pending call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/nf-wnvapi-wnvrequestnotification">WnvRequestNotification</a> function of this type, the WNV driver fills the buffer that is passed in the <i>NotificationParam</i> argument's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_notification_param">WNV_NOTIFICATION_PARAM</a> structure with one or more instances of this structure and completes the <b>WnvRequestNotification</b> function call.
 
 
 ## -struct-fields
@@ -88,21 +88,21 @@ The identifier of a customer virtual subnet. This value ranges from 4096 (0x0000
 
 ### -field CA
 
-Type: <b><a href="https://msdn.microsoft.com/1FD137B6-74F4-4E75-A77E-65F093938662">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the customer address, which is the IP address configured on the virtual machine for network virtualization.
 
 
 ### -field PA
 
-Type: <b><a href="https://msdn.microsoft.com/1FD137B6-74F4-4E75-A77E-65F093938662">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
 
 
 ### -field NewPA
 
-Type: <b><a href="https://msdn.microsoft.com/1FD137B6-74F4-4E75-A77E-65F093938662">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The updated provider address when a virtual machine is migrated from one host to another.
 
@@ -124,7 +124,7 @@ For a detailed description of network virtualization concepts and terminology, r
 
 
 
-<a href="https://msdn.microsoft.com/70BE564E-A054-4991-ADCD-79E4D219307B">WNV_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
  
 
  

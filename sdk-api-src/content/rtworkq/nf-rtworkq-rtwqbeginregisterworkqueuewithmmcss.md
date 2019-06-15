@@ -59,7 +59,7 @@ Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 
 ### -param workQueueId [in]
 
-The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a> function. 
+The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function. 
 
 
 ### -param usageClass [in]
@@ -75,12 +75,12 @@ The unique task identifier. To obtain a new task identifier, set this value to z
 
 ### -param lPriority [in]
 
-The base relative priority for the work-queue threads. For more information, see <a href="https://msdn.microsoft.com/74259dbc-a9e9-409e-96e6-66a9dc590099">AvSetMmThreadPriority</a>.
+The base relative priority for the work-queue threads. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avsetmmthreadpriority">AvSetMmThreadPriority</a>.
 
 
 ### -param doneCallback [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/E595C072-98F8-4231-9C8F-A8393D751DE6">IRtwqAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a> interface of a callback object. The caller must implement this interface.
           
 
 

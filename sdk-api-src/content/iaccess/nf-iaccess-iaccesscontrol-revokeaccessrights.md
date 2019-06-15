@@ -59,7 +59,7 @@ Removes any explicit entries for the list of trustees.
 
 ### -param lpProperty [in]
 
-The name of the property. If you are using the COM implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>, this parameter must be <b>NULL</b>.
+The name of the property. If you are using the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this parameter must be <b>NULL</b>.
 
 
 ### -param cTrustees [in]
@@ -69,7 +69,7 @@ The number of trustees in the list. This parameter cannot be 0.
 
 ### -param prgTrustees [in]
 
-A pointer to an array of trustee names. See <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>.
+A pointer to an array of trustee names. See <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>.
 
 
 ## -returns
@@ -95,7 +95,7 @@ Even after removing explicit entries, the trustees might still have access entri
 
 
 
-<a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
  
 
  

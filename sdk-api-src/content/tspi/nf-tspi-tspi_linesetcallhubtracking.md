@@ -66,7 +66,7 @@ The service provider's handle to the call whose call information is to be retrie
 ### -param lpTrackingInfo
 
 A pointer to a variably sized structure of type 
-<a href="https://msdn.microsoft.com/1f4eaf7d-fc80-4131-af5a-30c6869c74ef">LINECALLHUBTRACKINGINFO</a>. Upon successful completion of the request, this structure is filled with call-related information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallhubtrackinginfo_tag">LINECALLHUBTRACKINGINFO</a>. Upon successful completion of the request, this structure is filled with call-related information.
 
 
 ## -returns
@@ -85,11 +85,11 @@ LINEERR_INVALCALLHANDLE, LINEERR_NOMEM, LINEERR_OPERATIONFAILED, LINEERR_OPERATI
 
 
 
-<a href="https://msdn.microsoft.com/ea23ae25-2fbb-4060-8273-cd7921d49e52">CallHub Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f4eaf7d-fc80-4131-af5a-30c6869c74ef">LINECALLHUBTRACKINGINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallhubtrackinginfo_tag">LINECALLHUBTRACKINGINFO</a>
  
 
  

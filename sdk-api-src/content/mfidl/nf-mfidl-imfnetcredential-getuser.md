@@ -118,11 +118,11 @@ If the user name is not available, the method might succeed and set *<i>pcbData<
 
 
 
-<a href="https://msdn.microsoft.com/d202e7bc-9ce0-4861-8552-5a4d599b1661">IMFNetCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a>
 
 
 
-<a href="https://msdn.microsoft.com/026a822a-4e48-4fc8-9781-5e427528a4d2">IMFNetCredential::SetUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredential-setuser">IMFNetCredential::SetUser</a>
  
 
  

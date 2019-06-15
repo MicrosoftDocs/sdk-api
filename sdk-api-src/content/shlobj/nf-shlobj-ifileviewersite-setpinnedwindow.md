@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/500fa3e4-1865-4543-ae34-8bd7ce9d94cb">IFileViewerSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ifileviewersite">IFileViewerSite</a>
  
 
  

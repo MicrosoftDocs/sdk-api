@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</b> structure is one of the query result structures returned from an <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> request. This structure describes storage device physical topology.
+The <b>STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR</b> structure is one of the query result structures returned from an <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request. This structure describes storage device physical topology.
 
 
 ## -struct-fields
@@ -85,5 +85,5 @@ Reserved.
 
 #### - Node[ANYSIZE_ARRAY]
 
-A node as specified by a <a href="https://msdn.microsoft.com/66B5C1F8-A741-4CAD-B717-CB91B0D5655F">STORAGE_PHYSICAL_NODE_DATA</a> structure.
+A node as specified by a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_physical_node_data">STORAGE_PHYSICAL_NODE_DATA</a> structure.
 

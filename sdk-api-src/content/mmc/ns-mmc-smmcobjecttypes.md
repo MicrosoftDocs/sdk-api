@@ -54,7 +54,7 @@ The
 
 The 
 <b>SMMCDynamicExtensions</b> structure defines the format of the data for the 
-<a href="https://msdn.microsoft.com/48d55143-7873-4c66-a4c9-bde5663cb7f1">CCF_MMC_DYNAMIC_EXTENSIONS</a> clipboard format, which specifies the non-namespace extension snap-ins that should extend a scope or result item.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-mmc-dynamic-extensions">CCF_MMC_DYNAMIC_EXTENSIONS</a> clipboard format, which specifies the non-namespace extension snap-ins that should extend a scope or result item.
 
 
 ## -struct-fields
@@ -77,14 +77,14 @@ An array of GUIDs that represent the CLSIDs of the snap-ins that you want to ext
 
 
 For a snap-in to support dynamic extension of its items with non-namespace extensions (that is, context menu, toolbar, property sheet, or taskpad extensions), the clipboard format CCF_MMC_DYNAMIC_EXTENSIONS must be handled in the snap-in's <b>IDataObject</b> implementation. For more information, see 
-<a href="https://msdn.microsoft.com/6087bd8a-08bf-4430-be9e-258262c60900">Dynamic Non-Namespace Extensions</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/dynamic-non-namespace-extensions">Dynamic Non-Namespace Extensions</a>.
 
 Be aware that the extension snap-in must be a non-namespace extension and the MMC registry entries for the snap-in to be extended as well as the extension snap-in must be set correctly. For details on setting MMC registry entries for extensions, see 
-<a href="https://msdn.microsoft.com/6edbd21d-2ec8-4142-97ec-be089d810b7e">Registration Requirements for Extension Snap-ins</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/registration-requirements-for-extension-snap-ins">Registration Requirements for Extension Snap-ins</a>.
 
 The CCF_MMC_DYNAMIC_EXTENSIONS clipboard format extends only non-namespace extensions. To dynamically add namespace extensions, the snap-in must use the 
-<a href="https://msdn.microsoft.com/6057b8dd-d794-43a3-998b-689aafa28b9d">IConsoleNameSpace2::AddExtension</a> method. For more information, see 
-<a href="https://msdn.microsoft.com/3dc9b2db-1fc0-495b-9acc-3366a24a18a7">Dynamic Namespace Extensions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace2-addextension">IConsoleNameSpace2::AddExtension</a> method. For more information, see 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/dynamic-namespace-extensions">Dynamic Namespace Extensions</a>.
 
 Just before MMC must use an extensible feature (that is, just before creating and that displays a context menu, property sheet, toolbar, or taskpad), MMC calls <b>IDataObject::GetDataHere</b> on the data object for the selected item and asks for dynamic extensions to add through the CCF_MMC_DYNAMIC_EXTENSIONS clipboard format. Based on CLSIDs passed in the 
 <b>SMMCDynamicExtensions</b> structure, MMC attempts to add the specified extensions to the extensible feature. If an extension is unavailable or unregistered, MMC skips that extension and continues to the next CLSID passed in the structure.
@@ -97,15 +97,15 @@ Just before MMC must use an extensible feature (that is, just before creating an
 
 
 
-<a href="https://msdn.microsoft.com/48d55143-7873-4c66-a4c9-bde5663cb7f1">CCF_MMC_DYNAMIC_EXTENSIONS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-mmc-dynamic-extensions">CCF_MMC_DYNAMIC_EXTENSIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6057b8dd-d794-43a3-998b-689aafa28b9d">IConsoleNameSpace2::AddExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace2-addextension">IConsoleNameSpace2::AddExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/e17574ea-a6a9-440e-97cf-7b87f13bf21e">SMMCObjectTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-smmcobjecttypes">SMMCObjectTypes</a>
  
 
  

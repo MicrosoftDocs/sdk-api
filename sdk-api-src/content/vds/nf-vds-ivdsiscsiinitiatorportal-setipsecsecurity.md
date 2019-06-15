@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 
@@ -114,7 +114,7 @@ This method is not supported in this release.
 
 
 
-<a href="https://msdn.microsoft.com/ae64cc73-4f36-4846-a1c0-f329de6299ee">IVdsIscsiInitiatorPortal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsiscsiinitiatorportal">IVdsIscsiInitiatorPortal</a>
  
 
  

@@ -57,7 +57,7 @@ The <b>IBDA_NetworkProvider</b> interface is implemented on a Network Provider f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBDA_NetworkProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693411(v=VS.85).aspx">GetNetworkType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-getnetworktype">GetNetworkType</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network type.
@@ -81,7 +81,7 @@ Called by a BDA device filter to retrieve the network type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693412(v=VS.85).aspx">GetSignalSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-getsignalsource">GetSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the signal source.
@@ -90,7 +90,7 @@ Called by a BDA device filter to retrieve the signal source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693413(v=VS.85).aspx">GetTuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-gettuningspace">GetTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network provider.
@@ -99,7 +99,7 @@ Called by a BDA device filter to retrieve the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693414(v=VS.85).aspx">PutSignalSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-putsignalsource">PutSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the network provider.
@@ -108,7 +108,7 @@ Called by a BDA device filter to specify the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693415(v=VS.85).aspx">PutTuningSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-puttuningspace">PutTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the tuning space.
@@ -117,7 +117,7 @@ Called by a BDA device filter to specify the tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693416(v=VS.85).aspx">RegisterDeviceFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-registerdevicefilter">RegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to register itself in the filter graph.
@@ -126,7 +126,7 @@ Called by a BDA device filter to register itself in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693417(v=VS.85).aspx">UnRegisterDeviceFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-unregisterdevicefilter">UnRegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by BDA device filters when they are removed from the filter graph.
@@ -150,7 +150,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

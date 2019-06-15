@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrtStartSearch</b> function searches the DRT for a key using criteria specified in the <a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a> structure.
+The <b>DrtStartSearch</b> function searches the DRT for a key using criteria specified in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ The <b>DrtStartSearch</b> function searches the DRT for a key using criteria spe
 
 ### -param hDrt [in]
 
-The DRT handle returned by the <a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a> function.
+The DRT handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a> function.
 
 
 ### -param pKey [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure containing the key.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure containing the key.
 
 
 ### -param pInfo [in, optional]
 
-Pointer to the <a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a> structure that specifies the properties of the search.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure that specifies the properties of the search.
 
 
 ### -param timeout
@@ -89,7 +89,7 @@ Pointer to the context data passed to the application through the event.
 
 ### -param hSearchContext [out]
 
-Handle used in the call to <a href="https://msdn.microsoft.com/1a99476f-69ee-4aeb-8c9b-e06315ec095d">DrtEndSearch</a>.
+Handle used in the call to <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtendsearch">DrtEndSearch</a>.
 
 
 ## -returns
@@ -124,7 +124,7 @@ hDrt is an invalid handle or phKeyRegistration is an invalid handle
 <ul>
 <li><i>hSearchContext</i> is <b>NULL</b>.</li>
 <li><i>pKey</i> is <b>NULL</b></li>
-<li>The <b>pb</b> member of  the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure of <i>pKey</i> is <b>NULL</b>.</li>
+<li>The <b>pb</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure of <i>pKey</i> is <b>NULL</b>.</li>
 <li><i>pInfo</i> was passed in, the minimum key is set inside <i>pInfo</i> for range search, but the maximum key is <b>NULL</b>.</li>
 <li><i>pInfo</i> was passed in, the maximum key is set inside <i>pInfo</i> for range search, but the minimum key is <b>NULL</b>.</li>
 </ul>
@@ -138,7 +138,7 @@ hDrt is an invalid handle or phKeyRegistration is an invalid handle
 </td>
 <td width="60%">
 <ul>
-<li>The <b>cb</b> member of  the <a href="https://msdn.microsoft.com/ee81daca-e889-471e-b43b-4593380a55dd">DRT_DATA</a> structure of <i>pKey</i> is not equal to 256 bits.</li>
+<li>The <b>cb</b> member of  the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_data_tag">DRT_DATA</a> structure of <i>pKey</i> is not equal to 256 bits.</li>
 <li><i>pInfo</i> was passed in, but the key size of the minimum key set inside <i>pInfo</i> is not equal to 256 bits.</li>
 <li><i>pInfo</i> was passed in, but the key size of the maximum key set inside <i>pInfo</i> is not equal to 256 bits.</li>
 </ul>
@@ -151,7 +151,7 @@ hDrt is an invalid handle or phKeyRegistration is an invalid handle
 </dl>
 </td>
 <td width="60%">
-<i>pInfo</i> was passed in but the <b>dwSize</b> of <i>pInfo</i> is not equal to size of the <a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a> structure.
+<i>pInfo</i> was passed in but the <b>dwSize</b> of <i>pInfo</i> is not equal to size of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a> structure.
 
 </td>
 </tr>
@@ -233,19 +233,19 @@ An unexpected fatal error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/a3f12d8a-95ef-4168-8d2d-c317ae2c57b4">DRT_SEARCH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_search_info_tag">DRT_SEARCH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/04bdeb53-4901-41d4-835e-da665095edc5">DrtContinueSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcontinuesearch">DrtContinueSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a99476f-69ee-4aeb-8c9b-e06315ec095d">DrtEndSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtendsearch">DrtEndSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/67320767-f622-478a-a886-bbea1650ac1a">DrtOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
  
 
  

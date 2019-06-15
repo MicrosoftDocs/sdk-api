@@ -82,7 +82,7 @@ Specifies the mode to which the hardware is to be set. If this parameter is <b>T
 
 GDI calls <b>DrvAssertMode</b> when it is required to switch among multiple desktops on a single display surface. To switch from one PDEV to another, GDI calls <b>DrvAssertMode</b> with the <i>bEnable</i> parameter set to <b>FALSE</b> for one PDEV, and <b>TRUE</b> for the other. To revert to the original PDEV, <b>DrvAssertMode</b> is called with <i>bEnable</i> set to <b>FALSE</b>, followed by another call to <b>DrvAssertMode</b>, with <i>bEnable</i> set to <b>TRUE</b> and <b>dhpdev</b> set to the original PDEV.
 
-If the physical device is palette-managed, GDI will call <a href="https://msdn.microsoft.com/b7be48e6-188b-4b23-a494-30adcc18f12e">DrvSetPalette</a> to reset the device's palette. The driver does not then need to keep track of the current pointer state because Window Manager selects the correct pointer shape and moves it to the current position. The console manager ensures that desktops are properly redrawn.
+If the physical device is palette-managed, GDI will call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpalette">DrvSetPalette</a> to reset the device's palette. The driver does not then need to keep track of the current pointer state because Window Manager selects the correct pointer shape and moves it to the current position. The console manager ensures that desktops are properly redrawn.
 
 <b>DrvAssertMode</b> must be implemented in display drivers.
 
@@ -94,11 +94,11 @@ If the physical device is palette-managed, GDI will call <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/55ca7733-184a-4bc0-8e91-b5899073bca7">DrvGetModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7be48e6-188b-4b23-a494-30adcc18f12e">DrvSetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpalette">DrvSetPalette</a>
  
 
  

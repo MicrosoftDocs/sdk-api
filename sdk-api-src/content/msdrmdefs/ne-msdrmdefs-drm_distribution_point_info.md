@@ -54,11 +54,11 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRM_DISTRIBUTION_POINT_INFO</b> enumeration specifies the type of distribution point to retrieve information about when calling <a href="https://msdn.microsoft.com/67213b97-3831-4284-b807-f6bc69d4b610">DRMGetIssuanceLicenseInfo</a>.
+The <b>DRM_DISTRIBUTION_POINT_INFO</b> enumeration specifies the type of distribution point to retrieve information about when calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetissuancelicenseinfo">DRMGetIssuanceLicenseInfo</a>.
 
 
 ## -enum-fields
@@ -115,11 +115,11 @@ Retrieves information about the nonsilent end-user   license acquisition URL in 
 
 
 
-<a href="https://msdn.microsoft.com/bc3a8ab3-9f89-442b-9910-85820b2b2653">AD RMS Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/67213b97-3831-4284-b807-f6bc69d4b610">DRMGetIssuanceLicenseInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetissuancelicenseinfo">DRMGetIssuanceLicenseInfo</a>
  
 
  

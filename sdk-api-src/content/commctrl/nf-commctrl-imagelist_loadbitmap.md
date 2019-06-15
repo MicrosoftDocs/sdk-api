@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761557(v=VS.85).aspx">ImageList_LoadImage</a> function to create an image list from the specified bitmap resource. 
+Calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_loadimagea">ImageList_LoadImage</a> function to create an image list from the specified bitmap resource. 
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761557(v=VS.85).as
 
 ### -param hi
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 A handle to the instance that contains the bitmap resource. This parameter is <b>NULL</b> if you are loading an OEM bitmap. 
 
 
 ### -param lpbmp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
-The image to load. If the <i>hi</i> parameter is non-<b>NULL</b>, <i>lpbmp</i>is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module. If <i>hi</i> is <b>NULL</b>, the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> of this parameter must be the identifier of an OEM bitmap to load. To create this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro with one of the OEM bitmap identifiers defined in WINUSER.H. These identifiers have the OBM_ prefix.
+The image to load. If the <i>hi</i> parameter is non-<b>NULL</b>, <i>lpbmp</i>is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module. If <i>hi</i> is <b>NULL</b>, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of this parameter must be the identifier of an OEM bitmap to load. To create this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with one of the OEM bitmap identifiers defined in WINUSER.H. These identifiers have the OBM_ prefix.
 
 
 ### -param cx
@@ -87,7 +87,7 @@ The number of images by which the image list can grow when the system needs to m
 
 ### -param crMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The color used to generate a mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is the CLR_NONE value, no mask is generated. 
 

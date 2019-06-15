@@ -98,7 +98,7 @@ Pointer <i>pcChannels</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/524d83ff-4303-448c-a070-58d17dec03ba">IAudioPeakMeter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter Interface</a>
  
 
  

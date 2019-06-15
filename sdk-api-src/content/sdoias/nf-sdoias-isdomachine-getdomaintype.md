@@ -61,7 +61,7 @@ The <b>GetDomainType</b> retrieves the type of domain in which the SDO computer
 
 ### -param eDomainType [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/d6c36f76-d265-446b-986e-b23d9550ba3b">IASDOMAINTYPE</a> variable that receives 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_domaintype">IASDOMAINTYPE</a> variable that receives 
       the type of the domain in which the SDO computer resides.
 
 
@@ -81,7 +81,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 Before calling this method, use the 
-    <a href="https://msdn.microsoft.com/444ba670-8224-40bc-b0e4-585c682deafd">ISdoMachine::Attach</a> method to attach to the SDO 
+    <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO 
     computer.
 
 
@@ -92,15 +92,15 @@ Before calling this method, use the
 
 
 
-<a href="https://msdn.microsoft.com/d6c36f76-d265-446b-986e-b23d9550ba3b">IASDOMAINTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_domaintype">IASDOMAINTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/11372116-56eb-4d8e-8f28-4402835ee903">ISdoMachine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
 
 
-<a href="https://msdn.microsoft.com/444ba670-8224-40bc-b0e4-585c682deafd">ISdoMachine::Attach</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
  
 
  

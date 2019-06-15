@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes a method that programmatically overrides <a href="https://msdn.microsoft.com/64bf29df-5fb4-45cd-b0a8-f669548a59f0">AutoPlay</a> or <a href="https://msdn.microsoft.com/5c583c1d-a4eb-4291-a839-c1ca7c51342c">AutoRun</a>. This allows you to customize the location and type of content that is launched when media is inserted.
+Exposes a method that programmatically overrides <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144210(v=vs.85)">AutoPlay</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144202(v=vs.85)">AutoRun</a>. This allows you to customize the location and type of content that is launched when media is inserted.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryCancelAutoPlay</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueryCancelAutoPlay</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryCancelAutoPlay</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueryCancelAutoPlay</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IQueryCancelAutoPlay</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebc826a2-d7ea-413a-836b-c7e51f13692a">AllowAutoPlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iquerycancelautoplay-allowautoplay">AllowAutoPlay</a>
 </td>
 <td align="left" width="63%">
 Determines whether to play media inserted by a user and if so using what restrictions.
@@ -95,7 +95,7 @@ A valid use of <b>IQueryCancelAutoPlay</b> is illustrated in the following scena
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc144202(v=VS.85).aspx">Autoplay in Windows XP: Automatically Detect and React to New Devices on a System</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144202(v=vs.85)">Autoplay in Windows XP: Automatically Detect and React to New Devices on a System</a>
  
 
  

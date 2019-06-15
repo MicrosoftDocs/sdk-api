@@ -63,9 +63,9 @@ This property is read/write.
 
 
 
-A task expires after the end boundary has been exceeded for all triggers associated with the task. The end boundary for a trigger is specified by the <a href="https://msdn.microsoft.com/985316de-eaba-478f-a53f-1bea2a0cc9c6">EndBoundary</a> property inherited by all trigger interfaces.
+A task expires after the end boundary has been exceeded for all triggers associated with the task. The end boundary for a trigger is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_endboundary">EndBoundary</a> property inherited by all trigger interfaces.
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/947a2fec-ceda-4726-aa1a-26fd1b258c1f">DeleteExpiredTaskAfter (settingsType)</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-deleteexpiredtaskafter-settingstype-element">DeleteExpiredTaskAfter (settingsType)</a> element of the Task Scheduler schema.
 
 
 
@@ -75,11 +75,11 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

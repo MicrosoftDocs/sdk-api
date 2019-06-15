@@ -54,7 +54,7 @@ Defines methods for enabling the signature generator to generate similarity data
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcSimilarityGenerator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRdcSimilarityGenerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcSimilarityGenerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcSimilarityGenerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRdcSimilarityGenerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d67be55-ed00-4e41-9319-10947d1d88a0">EnableSimilarity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsimilaritygenerator-enablesimilarity">EnableSimilarity</a>
 </td>
 <td align="left" width="63%">
 Enables the signature generator to generate similarity data.
@@ -78,7 +78,7 @@ Enables the signature generator to generate similarity data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/572c38e2-0bd4-427e-9ba3-f69539410d4d">Results</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcsimilaritygenerator-results">Results</a>
 </td>
 <td align="left" width="63%">
 Retrieves the similarity data that was generated for a file by the signature generator.
@@ -93,7 +93,7 @@ Retrieves the similarity data that was generated for a file by the signature gen
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

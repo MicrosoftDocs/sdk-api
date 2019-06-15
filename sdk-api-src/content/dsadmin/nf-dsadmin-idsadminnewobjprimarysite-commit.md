@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDsAdminNewObjPrimarySite::Commit</b> method causes a single-page primary object creation extension's <a href="https://msdn.microsoft.com/1788c124-c740-4f77-9687-63113d3b14a8">IDsAdminNewObjExt::WriteData</a> method to be called and writes the temporary object to persistent memory.
+The <b>IDsAdminNewObjPrimarySite::Commit</b> method causes a single-page primary object creation extension's <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">IDsAdminNewObjExt::WriteData</a> method to be called and writes the temporary object to persistent memory.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Returns <b>S_OK</b> if successful or an OLE-defined error code otherwise. This m
 
 
 
-The <a href="https://msdn.microsoft.com/ec685ae1-6a37-43d3-84ed-7409611ab63b">IDsAdminNewObjPrimarySite::CreateNew</a> method must be called before <b>IDsAdminNewObjPrimarySite::Commit</b> is called.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">IDsAdminNewObjPrimarySite::CreateNew</a> method must be called before <b>IDsAdminNewObjPrimarySite::Commit</b> is called.
 
 When an object creation wizard contains more than one page, the system implements a "Finish" page that displays a summary of the object data to be saved. The system-implemented "Finish" page will perform the  <b>IDsAdminNewObjPrimarySite::Commit</b> operation. If, however, the object creation wizard only contains one page, the  page will have <b>OK</b> and <b>Cancel</b> command buttons instead of the  <b>Back</b>, <b>Next</b> and <b>Cancel</b> buttons normally found in a wizard and no "Finish" page is provided. Because of this, a single-page object creation extension wizard must call <b>Commit</b>.
 
@@ -84,15 +84,15 @@ When an object creation wizard contains more than one page, the system implement
 
 
 
-<a href="https://msdn.microsoft.com/1788c124-c740-4f77-9687-63113d3b14a8">IDsAdminNewObjExt::WriteData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-writedata">IDsAdminNewObjExt::WriteData</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6">IDsAdminNewObjPrimarySite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec685ae1-6a37-43d3-84ed-7409611ab63b">IDsAdminNewObjPrimarySite::CreateNew</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">IDsAdminNewObjPrimarySite::CreateNew</a>
  
 
  

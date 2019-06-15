@@ -69,7 +69,7 @@ A pointer to a caller-allocated, counted array structure that contains the eleme
 
 ### -param pCaCookiesOut [out]
 
-A pointer to the caller-allocated, counted array structure that contains the element count and address of a method-allocated array of <b>DWORD</b> values. The values in the array can be passed to <a href="https://msdn.microsoft.com/a532ebed-3ed8-4b49-a17f-f542fdbd74ff">IPerPropertyBrowsing::GetPredefinedValue</a> to retrieve the value associated with the name in the same array position inside <i>pCaStringsOut</i>. If the method fails, no memory is allocated, and the contents of the structure are undefined.
+A pointer to the caller-allocated, counted array structure that contains the element count and address of a method-allocated array of <b>DWORD</b> values. The values in the array can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> to retrieve the value associated with the name in the same array position inside <i>pCaStringsOut</i>. If the method fails, no memory is allocated, and the contents of the structure are undefined.
 
 
 ## -returns
@@ -126,14 +126,14 @@ The address in <i>pCaStringsOut</i> or <i>pCaCookiesOut</i> is not valid. For ex
 
 
 
-Each string returned in the array pointed to by <i>pCaStringsOut</i> has a matching token in the counted array pointed to by <i>pCaCookiesOut</i>, where the token can be passed to <a href="https://msdn.microsoft.com/a532ebed-3ed8-4b49-a17f-f542fdbd74ff">IPerPropertyBrowsing::GetPredefinedValue</a> to get the actual value (a <b>VARIANT</b>) corresponding to the string.
+Each string returned in the array pointed to by <i>pCaStringsOut</i> has a matching token in the counted array pointed to by <i>pCaCookiesOut</i>, where the token can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> to get the actual value (a <b>VARIANT</b>) corresponding to the string.
 
-Using the predefined strings, a caller can obtain a list of strings for populating user interface elements, such as a drop-down listbox. When the end user selects one of these strings as a value to assign to a property, the caller can then obtain the corresponding value through <a href="https://msdn.microsoft.com/a532ebed-3ed8-4b49-a17f-f542fdbd74ff">IPerPropertyBrowsing::GetPredefinedValue</a>.
+Using the predefined strings, a caller can obtain a list of strings for populating user interface elements, such as a drop-down listbox. When the end user selects one of these strings as a value to assign to a property, the caller can then obtain the corresponding value through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a>.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Both the <a href="https://msdn.microsoft.com/730d5e23-e84a-4629-9b59-492d8536122e">CALPOLESTR</a> and <a href="https://msdn.microsoft.com/4e7f8e1a-53cc-40db-9651-00f5d912e768">CADWORD</a> structures passed to this method are caller-allocated. The caller is responsible for freeing each string pointed to from the <b>CALPOLESTR</b> array as well as the <b>CALPOLESTR</b> structure.
+Both the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcadword">CADWORD</a> structures passed to this method are caller-allocated. The caller is responsible for freeing each string pointed to from the <b>CALPOLESTR</b> array as well as the <b>CALPOLESTR</b> structure.
 
-All memory is allocated with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. The caller is responsible for freeing the strings and the array with <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+All memory is allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The caller is responsible for freeing the strings and the array with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 Upon return from this method, the caller is responsible for all this memory and must free it when it is no longer needed. Code to achieve this appears as follows.
 
@@ -153,9 +153,9 @@ for (i=0; i &lt; castr.cElems; i++)
 CoTaskMemFree((void *)castr.pElems); 
 </code></pre>
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Support for predefined names and values is not required. If your object does not support these names, return E_NOTIMPL from this method. If this method is not implemented, <a href="https://msdn.microsoft.com/a532ebed-3ed8-4b49-a17f-f542fdbd74ff">IPerPropertyBrowsing::GetPredefinedValue</a> must not be implemented either.
+Support for predefined names and values is not required. If your object does not support these names, return E_NOTIMPL from this method. If this method is not implemented, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> must not be implemented either.
 
-This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="https://msdn.microsoft.com/4e7f8e1a-53cc-40db-9651-00f5d912e768">CADWORD</a> and <a href="https://msdn.microsoft.com/730d5e23-e84a-4629-9b59-492d8536122e">CALPOLESTR</a> structures. It allocates the arrays pointed to by these structures with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> and fills those arrays. In the <b>CALPOLESTR</b> case, this method also allocates each string with <b>CoTaskMemAlloc</b>, storing each string pointer in the array.
+This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcadword">CADWORD</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a> structures. It allocates the arrays pointed to by these structures with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and fills those arrays. In the <b>CALPOLESTR</b> case, this method also allocates each string with <b>CoTaskMemAlloc</b>, storing each string pointer in the array.
 
 
 
@@ -165,15 +165,15 @@ This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/4e7f8e1a-53cc-40db-9651-00f5d912e768">CADWORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcadword">CADWORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/730d5e23-e84a-4629-9b59-492d8536122e">CALPOLESTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/05e46df3-b6c8-4520-af11-21e1ff90fb9f">IPerPropertyBrowsing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
  
 
  

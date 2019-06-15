@@ -68,7 +68,7 @@ Retrieves a handle to the window that contains the specified point.
 
 ### -param Point [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The point to be checked. 
 
@@ -89,12 +89,12 @@ The return value is a handle to the window that contains the point. If no window
 
 
 
-The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a> function for a nonrestrictive search. 
+The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a> function for a nonrestrictive search. 
 
 
 #### Examples
 
-For an example, see "Interface from Running Object Table" in <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">About Text Object Model</a>.
+For an example, see "Interface from Running Object Table" in <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">About Text Object Model</a>.
 
 <div class="code"></div>
 
@@ -105,7 +105,7 @@ For an example, see "Interface from Running Object Table" in <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632676(v=VS.85).aspx">ChildWindowFromPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a>
 
 
 
@@ -117,7 +117,7 @@ For an example, see "Interface from Running Object Table" in <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -125,11 +125,11 @@ For an example, see "Interface from Running Object Table" in <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/57ecec82-03be-4d1a-84cf-6b64131af19d">WindowFromDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfromdc">WindowFromDC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

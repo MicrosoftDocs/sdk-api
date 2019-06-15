@@ -53,10 +53,10 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>WBEMTimeSpan</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b> objects can result from the arithmetic manipulation of <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> objects. For example, subtracting one <b>WBEMTime</b> object from another results in a <b>WBEMTimeSpan</b> object that represents the difference in time between the two objects. Instances of <b>WBEMTimeSpan</b> can also be used to wrap any data that has an inherent duration, such as the time that remains until a password expires.
+The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b> objects can result from the arithmetic manipulation of <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> objects. For example, subtracting one <b>WBEMTime</b> object from another results in a <b>WBEMTimeSpan</b> object that represents the difference in time between the two objects. Instances of <b>WBEMTimeSpan</b> can also be used to wrap any data that has an inherent duration, such as the time that remains until a password expires.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">WBEMTimeSpan</b> has these types of members:
 <ul>
@@ -70,7 +70,7 @@ The <b>WBEMTimeSpan</b> class holds time spans in nanoseconds.<b>WBEMTimeSpan</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/337dc247-9904-457a-a1f3-e1cf29b61126">WBEMTimeSpan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-wbemtimespan(constbstr)">WBEMTimeSpan</a>
 </td>
 <td align="left" width="63%">
 Constructor that creates a time span object.
@@ -86,7 +86,7 @@ Constructor that creates a time span object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8bd964ed-d815-489a-8ddf-c92970701b05">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Sets the time span to INVALID_TIME.
@@ -95,7 +95,7 @@ Sets the time span to INVALID_TIME.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5db5a7a-0590-4598-bde7-e90cfc7cd932">GetBSTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-getbstr">GetBSTR</a>
 </td>
 <td align="left" width="63%">
 Gets the time span as a <b>BSTR</b> in WMI time span format.
@@ -104,7 +104,7 @@ Gets the time span as a <b>BSTR</b> in WMI time span format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58ea0741-1927-4cbf-abfb-059e4490accc">GetTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-gettime">GetTime</a>
 </td>
 <td align="left" width="63%">
 Returns the time span as a 64-bit integer.
@@ -113,7 +113,7 @@ Returns the time span as a 64-bit integer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/855b4c2f-5379-4dd9-9638-072e256e955a">IsOk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtimespan-isok">IsOk</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the <b>WBEMTimeSpan</b> object represents a valid time span.
@@ -128,7 +128,7 @@ Indicates whether the <b>WBEMTimeSpan</b> object represents a valid time span.
 
 
 
-<a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime Class Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime Class Methods</a>
  
 
  

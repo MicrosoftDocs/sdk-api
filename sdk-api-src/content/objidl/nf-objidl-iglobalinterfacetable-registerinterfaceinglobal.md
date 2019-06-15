@@ -115,11 +115,11 @@ One or more parameters are invalid.
 
 
 
-Called in the apartment in which an object resides to register one of the object's interfaces as a global interface. This method supplies a pointer to a cookie that other apartments can use in a call to the <a href="https://msdn.microsoft.com/3b37184d-c4e8-47b2-8f3f-008d3ea00759">GetInterfaceFromGlobal</a> method to get a pointer to that interface.
+Called in the apartment in which an object resides to register one of the object's interfaces as a global interface. This method supplies a pointer to a cookie that other apartments can use in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal">GetInterfaceFromGlobal</a> method to get a pointer to that interface.
 
 The interface pointer may be a pointer to an in-process object, or it may be a pointer to a proxy for an object residing in another apartment, in another process, or on another computer.
 
-The apartment that calls this method must remain alive until the corresponding call to <a href="https://msdn.microsoft.com/202bf33a-5827-4cbf-b977-86167a9c633f">RevokeInterfaceFromGlobal</a>.
+The apartment that calls this method must remain alive until the corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal">RevokeInterfaceFromGlobal</a>.
 
 
 
@@ -129,7 +129,7 @@ The apartment that calls this method must remain alive until the corresponding c
 
 
 
-<a href="https://msdn.microsoft.com/0c1feee7-e33b-4b5d-8e35-4de6895e3947">IGlobalInterfaceTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>
  
 
  

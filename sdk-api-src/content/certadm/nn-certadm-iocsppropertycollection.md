@@ -58,7 +58,7 @@ In Visual Basic Scripting Edition, you create an instance of the <b>OCSPProperty
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPPropertyCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IOCSPPropertyCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPPropertyCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IOCSPPropertyCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IOCSPPropertyCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72e23a11-0550-47ae-9c24-90c1d18024a6">CreateProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-createproperty">CreateProperty</a>
 </td>
 <td align="left" width="63%">
 Creates a new property and adds it to a property set.
@@ -83,7 +83,7 @@ Creates a new property and adds it to a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f9a3e47-3757-42a9-bef2-93b8f304f618">DeleteProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-deleteproperty">DeleteProperty</a>
 </td>
 <td align="left" width="63%">
 Removes a named property from a property set.
@@ -92,7 +92,7 @@ Removes a named property from a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46a20d55-a673-4f9b-9fb9-bfc631d70f99">GetAllProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-getallproperties">GetAllProperties</a>
 </td>
 <td align="left" width="63%">
 Gets all properties in a property set.
@@ -101,7 +101,7 @@ Gets all properties in a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e944af4e-80e4-470e-be04-770cf0f89871">InitializeFromProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-initializefromproperties">InitializeFromProperties</a>
 </td>
 <td align="left" width="63%">
 Creates a property set from the properties contained in an existing server configuration.
@@ -118,7 +118,7 @@ Creates a property set from the properties contained in an existing server confi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/09ed83ce-ebab-4d03-a508-304f54206921">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -130,7 +130,7 @@ Gets an enumerator for a property set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/28cf1108-42a8-41d1-baf4-140b5789fb24">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_count">Count</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Gets the number of properties in a property set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/33fce781-f65d-433a-b2ba-0f694cee1220">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_item">Item</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Gets the property identified by index  in a property set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0f7fe732-1d76-49c0-8b1e-a9950c85ca59">ItemByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_itembyname">ItemByName</a>
 
 
 </td>
@@ -175,7 +175,7 @@ The <b>IOCSPPropertyCollection</b> contains attributes for the following:
 <ul>
 <li>Web proxy settings that include the  number of threads and number of cache entries</li>
 <li>Audit settings that include start/stop, configuration change, security change, and request events</li>
-<li>Security settings that include ACEs for <a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a> interfaces</li>
+<li>Security settings that include ACEs for <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> interfaces</li>
 </ul>
 All OCSP attribute information is stored in the following registry key:
 
@@ -184,7 +184,7 @@ All OCSP attribute information is stored in the following registry key:
 
 
 
-OCSP attributes govern OCSP responder service behavior for all CA configurations. For more information on CA configurations, see the <a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a> interface topic.
+OCSP attributes govern OCSP responder service behavior for all CA configurations. For more information on CA configurations, see the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> interface topic.
 
 
 
@@ -194,7 +194,7 @@ OCSP attributes govern OCSP responder service behavior for all CA configurations
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

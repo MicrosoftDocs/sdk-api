@@ -102,15 +102,15 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://msdn.microsoft.com/9a52fb7f-cd35-4426-8753-c26cebef30d5">InflateRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-inflaterect">InflateRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/da686f78-e557-4ff2-9f24-b229f0c01563">IntersectRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-intersectrect">IntersectRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/14101ad3-8c6e-459a-974a-1a8a4d8d7906">OffsetRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-offsetrect">OffsetRect</a>
 
 
 
@@ -118,11 +118,11 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 
 
-<a href="https://msdn.microsoft.com/b03da8c9-ee6d-4045-8d90-8beceb09ead5">Rectangle Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/23c251d1-b8c5-425f-b2b3-44954cf653e9">Rectangles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
  
 
  

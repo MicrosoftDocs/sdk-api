@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with method <a href="https://msdn.microsoft.com/4f0e9f69-92e5-4fec-bdfa-b37d594ff5fe">IBrowserFrameOptions::GetFrameOptions</a>.
+Used with method <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibrowserframeoptions-getframeoptions">IBrowserFrameOptions::GetFrameOptions</a>.
 
 
 ## -enum-fields

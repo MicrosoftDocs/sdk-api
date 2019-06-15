@@ -54,7 +54,7 @@ Allows for enumerating and retrieving Mobile Broadband device objects on the sys
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnDeviceServicesContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMbnDeviceServicesContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnDeviceServicesContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnDeviceServicesContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IMbnDeviceServicesContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90CB9B2E-16CA-48A0-AF16-937D816718D6">EnumerateDeviceServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-enumeratedeviceservices">EnumerateDeviceServices</a>
 </td>
 <td align="left" width="63%">
 Gets the list of supported device services by the Mobile Broadband device.
@@ -79,10 +79,10 @@ Gets the list of supported device services by the Mobile Broadband device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/293E9BE5-AD7D-41B7-9A27-E964EE745183">GetDeviceService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-getdeviceservice">GetDeviceService</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a> object that can be used for communicating with a device service on the Mobile Broadband device.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).asp
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/FCCE3CA1-ECD2-4964-952F-D4A077959519">MaxCommandSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxcommandsize">MaxCommandSize</a>
 
 
 </td>
@@ -113,7 +113,7 @@ The maximum length, in bytes, of data that can be associated with a device servi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/E6E29974-083D-4EC8-A4FF-5AACE7435444">MaxDataSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicescontext-get_maxdatasize">MaxDataSize</a>
 
 
 </td>
@@ -133,7 +133,7 @@ The maximum length, in bytes, of data that can be written to or read from a devi
 
 
 
-<b>IMbnDeviceServicesContext</b> objects are provided by a call to the <a href="https://msdn.microsoft.com/20AD207B-6FC3-4493-81F7-41619CA703DB">GetDeviceServicesContext</a> method of the <a href="https://msdn.microsoft.com/6CFF2275-0649-4009-84F2-0657B2FF281C">IMbnDeviceServicesManager</a> interface.
+<b>IMbnDeviceServicesContext</b> objects are provided by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesmanager-getdeviceservicescontext">GetDeviceServicesContext</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager">IMbnDeviceServicesManager</a> interface.
 
 
 

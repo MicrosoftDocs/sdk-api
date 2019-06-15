@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 The <b>CredIsMarshaledCredential</b> function determines whether a specified user name string is a marshaled credential previously marshaled by 
-<a href="https://msdn.microsoft.com/20a1d54b-04a7-4b0a-88e4-1970d1f71502">CredMarshalCredential</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a>.
 
 
 ## -parameters

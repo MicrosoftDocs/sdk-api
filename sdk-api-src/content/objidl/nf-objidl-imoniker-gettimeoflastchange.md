@@ -59,7 +59,7 @@ Retrieves the time at which the object identified by this moniker was last chang
 
 ### -param pbc [in]
 
-A pointer to the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment. For more information, see <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>.
+A pointer to the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the moniker implementation should retrieve information about its environment. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>.
 
 
 ### -param pmkToLeft [in]
@@ -69,7 +69,7 @@ If the moniker is part of a composite moniker, pointer to the moniker to the lef
 
 ### -param pFileTime [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that receives the time of last change. A value of {0xFFFFFFFF,0x7FFFFFFF} indicates an error (for example, exceeded time limit, information not available).
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the time of last change. A value of {0xFFFFFFFF,0x7FFFFFFF} indicates an error (for example, exceeded time limit, information not available).
 
 
 ## -returns
@@ -101,7 +101,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The binding operation could not be completed within the time limit specified by the bind context's <a href="https://msdn.microsoft.com/764f09c9-ff20-4ae2-b94f-4b0a1e117e49">BIND_OPTS</a> structure.
+The binding operation could not be completed within the time limit specified by the bind context's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The binding operation could not be completed within the time limit specified by 
 </dl>
 </td>
 <td width="60%">
-The operation was unable to connect to the storage for this object, possibly because a network device could not be connected to. For more information, see <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a>.
+The operation was unable to connect to the storage for this object, possibly because a network device could not be connected to. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ If you're caching information returned by the object identified by the moniker, 
 
 
 
-For the monikers stored within linked objects, <b>GetTimeOfLastChange</b> is primarily called by the default handler's implementation of <a href="https://msdn.microsoft.com/74203a74-c5dd-4a98-9223-1dc54c9d4399">IOleObject::IsUpToDate</a>. Container applications call <b>IOleObject::IsUpToDate</b> to determine if a linked object (or an embedded object containing linked objects) is up-to-date without actually binding to the object. This enables an application to determine quickly which linked objects require updating when the end user opens a document. The application can then bind only those linked objects that need updating (after prompting the end user to determine whether they should be updated) instead of binding every linked object in the document.
+For the monikers stored within linked objects, <b>GetTimeOfLastChange</b> is primarily called by the default handler's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-isuptodate">IOleObject::IsUpToDate</a>. Container applications call <b>IOleObject::IsUpToDate</b> to determine if a linked object (or an embedded object containing linked objects) is up-to-date without actually binding to the object. This enables an application to determine quickly which linked objects require updating when the end user opens a document. The application can then bind only those linked objects that need updating (after prompting the end user to determine whether they should be updated) instead of binding every linked object in the document.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 It is important to perform this operation quickly because, for linked objects, this method is called when a user first opens a compound document. Consequently, your <b>GetTimeOfLastChange</b> implementation should not bind to any objects. In addition, your implementation should check the deadline parameter in the bind context and return MK_E_EXCEEDEDDEADLINE if the operation cannot be completed by the specified time.
@@ -159,11 +159,11 @@ For many types of monikers, the pmkToLeft parameter identifies the container of 
 
 </li>
 <li>
-You can get a pointer to the running object table (ROT) by calling <a href="https://msdn.microsoft.com/26938d07-d772-4e72-a6aa-57dd2f2cece1">IBindCtx::GetRunningObjectTable</a> on the <i>pbc</i> parameter and then calling <a href="https://msdn.microsoft.com/fef6f7e5-7d91-4737-98a4-c9779c6c2be5">IRunningObjectTable::GetTimeOfLastChange</a>, because the ROT generally records the time of last change.
+You can get a pointer to the running object table (ROT) by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a> on the <i>pbc</i> parameter and then calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-gettimeoflastchange">IRunningObjectTable::GetTimeOfLastChange</a>, because the ROT generally records the time of last change.
 
 </li>
 <li>
-You can get the storage associated with this moniker (or the <i>pmkToLeft</i> moniker) and return the storage's last modification time with a call to <a href="https://msdn.microsoft.com/87478fa8-1b5f-44ed-bffc-e139c7f44a12">IStorage::Stat</a>.
+You can get the storage associated with this moniker (or the <i>pmkToLeft</i> moniker) and return the storage's last modification time with a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>.
 
 </li>
 </ul>
@@ -216,11 +216,11 @@ You can get the storage associated with this moniker (or the <i>pmkToLeft</i> mo
 
 
 
-<a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://msdn.microsoft.com/fef6f7e5-7d91-4737-98a4-c9779c6c2be5">IRunningObjectTable::GetTimeOfLastChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-gettimeoflastchange">IRunningObjectTable::GetTimeOfLastChange</a>
  
 
  

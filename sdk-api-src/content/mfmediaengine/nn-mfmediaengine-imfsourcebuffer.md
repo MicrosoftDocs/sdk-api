@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a buffer which contains media data for a <a href="https://msdn.microsoft.com/2acabcc2-242d-4b3d-b5b4-680c7973201f">IMFMediaSourceExtension</a>. 
+Represents a buffer which contains media data for a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSourceBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSourceBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31253d0d-c53f-47bd-823a-fc564cb63b78">Abort</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Aborts the processing of the current media segment. 
@@ -78,7 +78,7 @@ Aborts the processing of the current media segment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>
 </td>
 <td align="left" width="63%">
 Appends the specified media segment to the <b>IMFSourceBuffer</b>.
@@ -87,7 +87,7 @@ Appends the specified media segment to the <b>IMFSourceBuffer</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>
 </td>
 <td align="left" width="63%">
 Appends the media segment from the specified byte stream to the <b>IMFSourceBuffer</b>.
@@ -96,7 +96,7 @@ Appends the media segment from the specified byte stream to the <b>IMFSourceBuff
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac9806ca-8529-48be-8b5a-ae0126d8554d">GetAppendWindowEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-getappendwindowend">GetAppendWindowEnd</a>
 </td>
 <td align="left" width="63%">
 Gets the timestamp for the end of the append window.
@@ -105,7 +105,7 @@ Gets the timestamp for the end of the append window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5feb451-5bf9-475c-b501-599e2188a3f5">GetAppendWindowStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-getappendwindowstart">GetAppendWindowStart</a>
 </td>
 <td align="left" width="63%">
 Gets the timestamp for the start of the append window.
@@ -114,7 +114,7 @@ Gets the timestamp for the start of the append window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cbed0e90-8950-46f6-acaa-5e6daf814dd0">GetBuffered</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-getbuffered">GetBuffered</a>
 </td>
 <td align="left" width="63%">
 Gets the buffered time range.
@@ -123,7 +123,7 @@ Gets the buffered time range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb8a237b-2602-40ad-921e-3b76fbac3ea8">GetTimeStampOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-gettimestampoffset">GetTimeStampOffset</a>
 </td>
 <td align="left" width="63%">
 Gets the timestamp offset for media segments appended to the <b>IMFSourceBuffer</b>.
@@ -132,16 +132,16 @@ Gets the timestamp offset for media segments appended to the <b>IMFSourceBuffer<
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1c810d1-05dd-4931-b063-fb86c6bedae3">GetUpdating</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-getupdating">GetUpdating</a>
 </td>
 <td align="left" width="63%">
-Gets a value that indicates  if <a href="https://msdn.microsoft.com/824fa23d-57d9-411a-af8a-fb65dca124b2">Append</a>, <a href="https://msdn.microsoft.com/1a4fc611-4923-48ad-bc92-c3686d855c13">AppendByteStream</a>, or <a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a> is in process.
+Gets a value that indicates  if <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a> is in process.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86536d73-18c0-4acc-81ec-72f1dfe400c5">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the media segments defined by the specified time range from the <b>IMFSourceBuffer</b>.
@@ -150,7 +150,7 @@ Removes the media segments defined by the specified time range from the <b>IMFSo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80cae375-b3f4-4947-98dd-26338d4a0486">SetAppendWindowEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-setappendwindowend">SetAppendWindowEnd</a>
 </td>
 <td align="left" width="63%">
 Sets the timestamp for the end of the append window.
@@ -159,7 +159,7 @@ Sets the timestamp for the end of the append window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f78e53c-ea2b-4849-9d01-6c31539d8ef5">SetAppendWindowStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-setappendwindowstart">SetAppendWindowStart</a>
 </td>
 <td align="left" width="63%">
 Sets the timestamp for the start of the append window.
@@ -168,7 +168,7 @@ Sets the timestamp for the start of the append window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db905149-f6f2-445e-87bb-6705a1a078eb">SetTimeStampOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-settimestampoffset">SetTimeStampOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the timestamp offset for media segments appended to the <b>IMFSourceBuffer</b>.
@@ -182,7 +182,7 @@ Sets the timestamp offset for media segments appended to the <b>IMFSourceBuffer<
 
 
 
-<b>IMFSourceBuffer</b> is used in conjunction with the <a href="https://msdn.microsoft.com/2acabcc2-242d-4b3d-b5b4-680c7973201f">IMFMediaSourceExtension</a>.
+<b>IMFSourceBuffer</b> is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
 
 
 
@@ -192,7 +192,7 @@ Sets the timestamp offset for media segments appended to the <b>IMFSourceBuffer<
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>EnumMetaFile</b> function enumerates the records within a Windows-format metafile by retrieving each record and passing it to the specified callback function. The application-supplied callback function processes each record as required. The enumeration continues until the last record is processed or when the callback function returns zero.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>.</div><div> </div>
 
 ## -parameters
 
@@ -72,7 +72,7 @@ Handle to a Windows-format metafile.
 
 ### -param proc [in]
 
-Pointer to an application-supplied callback function. For more information, see <a href="https://msdn.microsoft.com/ebef5a3f-0dd7-49df-a07d-c55c5e8c868c">EnumMetaFileProc</a>.
+Pointer to an application-supplied callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)">EnumMetaFileProc</a>.
 
 
 ### -param param [in]
@@ -95,7 +95,7 @@ If the callback function does not successfully enumerate all the records in the 
 
 
 
-To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="https://msdn.microsoft.com/b7170c8a-da5f-4946-9c56-da3cffc84567">SetWinMetaFileBits</a> function.
+To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
 
 You can use the <b>EnumMetaFile</b> function to embed one Windows-format metafile within another.
 
@@ -107,31 +107,31 @@ You can use the <b>EnumMetaFile</b> function to embed one Windows-format metafil
 
 
 
-<a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebef5a3f-0dd7-49df-a07d-c55c5e8c868c">EnumMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)">EnumMetaFileProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a17a8c-308b-4442-933e-fedc8b9a84b0">Metafile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/044894df-dc8a-41b2-8810-e0a1b8bc19d8">PlayMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playmetafile">PlayMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/bea22981-dc77-4de2-b6dc-d6a4f4b74bbd">PlayMetaFileRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-playmetafilerecord">PlayMetaFileRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7170c8a-da5f-4946-9c56-da3cffc84567">SetWinMetaFileBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
  
 
  

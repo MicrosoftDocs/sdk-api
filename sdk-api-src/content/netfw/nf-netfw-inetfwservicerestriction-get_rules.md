@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/e426cae9-8c39-44cf-bd48-3b385fdfbdf7">INetFwServiceRestriction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
  
 
  

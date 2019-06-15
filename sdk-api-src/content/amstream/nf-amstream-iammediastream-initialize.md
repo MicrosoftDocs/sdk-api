@@ -87,7 +87,7 @@ Value that modifies the media stream's behavior; it is a combination of one or m
 </tr>
 <tr>
 <td>AMMSF_NOSTALL</td>
-<td>Run the stream even if <a href="https://msdn.microsoft.com/en-us/library/Dd377148(v=VS.85).aspx">Update</a> is not called.</td>
+<td>Run the stream even if <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-update">Update</a> is not called.</td>
 </tr>
 <tr>
 <td>AMMSF_STOPIFNOSAMPLES</td>
@@ -105,7 +105,7 @@ Purpose ID for the new media stream.
 ### -param StreamType [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407159(v=VS.85).aspx">STREAM_TYPE</a> enumeration value that specifies the new media stream's media type.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/ne-mmstream-__midl___midl_itf_mmstream_0000_0000_0001">STREAM_TYPE</a> enumeration value that specifies the new media stream's media type.
 
 
 ## -returns
@@ -121,9 +121,9 @@ Returns S_OK if successful or E_POINTER if one or more of the required parameter
 
 
 
-If <i>dwFlags</i> specifies AMMSF_ADDDEFAULTRENDERER, then the default renderer for the given purpose ID is created, if possible. Currently, the only default renderer supported is for audio using DirectSound. In this case, the <i>pStreamObject</i> parameter must be <b>NULL</b> and any calls to the <a href="https://msdn.microsoft.com/en-us/library/Dd390330(v=VS.85).aspx">IMultiMediaStream::GetMediaStream</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd390326(v=VS.85).aspx">IMultiMediaStream::EnumMediaStreams</a> method will not recognize the stream.
+If <i>dwFlags</i> specifies AMMSF_ADDDEFAULTRENDERER, then the default renderer for the given purpose ID is created, if possible. Currently, the only default renderer supported is for audio using DirectSound. In this case, the <i>pStreamObject</i> parameter must be <b>NULL</b> and any calls to the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-getmediastream">IMultiMediaStream::GetMediaStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-enummediastreams">IMultiMediaStream::EnumMediaStreams</a> method will not recognize the stream.
 
-If <i>dwFlags</i> specifies AMMSF_CREATEPEER, then a media stream is created using <i>pStreamObject</i> and added to the current multimedia stream. The <i>pStreamObject</i> parameter varies depending on the stream type. In general, <i>pStreamObject</i> can point to an <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> object, in which case a stream with the sample purpose ID and format is created. For <b>IDirectDraw</b> streams, it can also be a pointer to an <b>IDirectDraw</b> interface.
+If <i>dwFlags</i> specifies AMMSF_CREATEPEER, then a media stream is created using <i>pStreamObject</i> and added to the current multimedia stream. The <i>pStreamObject</i> parameter varies depending on the stream type. In general, <i>pStreamObject</i> can point to an <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> object, in which case a stream with the sample purpose ID and format is created. For <b>IDirectDraw</b> streams, it can also be a pointer to an <b>IDirectDraw</b> interface.
 
 If <i>dwFlags</i> specifies AMMSF_STOPIFNOSAMPLES, then the stream is terminated.
 
@@ -137,12 +137,12 @@ If no flags are set, then <i>pStreamObject</i> can be one of the following.
             </th>
 </tr>
 <tr>
-<td>An <a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream</a> object</td>
+<td>An <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream</a> object</td>
 <td>This stream is then added to the streams in the multimedia stream.</td>
 </tr>
 <tr>
 <td><b>NULL</b></td>
-<td>In this case a default <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a> object is added to the stream with a default underlying object, if required.</td>
+<td>In this case a default <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> object is added to the stream with a default underlying object, if required.</td>
 </tr>
 <tr>
 <td>A pointer to an underlying object</td>
@@ -159,7 +159,7 @@ If no flags are set, then <i>pStreamObject</i> can be one of the following.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
  
 
  

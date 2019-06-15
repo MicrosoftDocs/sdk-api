@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a> to provide position, size, shape, content, and translucency information for a layered window.
+Used by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a> to provide position, size, shape, content, and translucency information for a layered window.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The size, in bytes, of this structure.
 
 Type: <b>HDC</b>
 
-A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> in this member when calling <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a>. The handle is used for palette color matching when the window contents are updated. If <b>hdcDst</b> is <b>NULL</b>, the default palette is used.
+A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> in this member when calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a>. The handle is used for palette color matching when the window contents are updated. If <b>hdcDst</b> is <b>NULL</b>, the default palette is used.
 
                     
 
@@ -77,14 +77,14 @@ If <b>hdcSrc</b> is <b>NULL</b>, <b>hdcDst</b> must be <b>NULL</b>.
 
 ### -field pptDst
 
-Type: <b>const <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
 The new screen position of the layered window. If the new position is unchanged from the current position, <b>pptDst</b> can be <b>NULL</b>.
 
 
 ### -field psize
 
-Type: <b>const <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
 
 The new size of the layered window. If the size of the window will not change, this parameter can be <b>NULL</b>. If <b>hdcSrc</b> is <b>NULL</b>, <b>psize</b> must be <b>NULL</b>.
 
@@ -93,26 +93,26 @@ The new size of the layered window. If the size of the window will not change, t
 
 Type: <b>HDC</b>
 
-A handle to the DC for the surface that defines the layered window. This handle can be obtained by calling the <a href="https://msdn.microsoft.com/6ddc3705-2995-41af-af94-258aed597e17">CreateCompatibleDC</a> function. If the shape and visual context of the window will not change, <b>hdcSrc</b> can be <b>NULL</b>.
+A handle to the DC for the surface that defines the layered window. This handle can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> function. If the shape and visual context of the window will not change, <b>hdcSrc</b> can be <b>NULL</b>.
 
 
 ### -field pptSrc
 
-Type: <b>const <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
 The location of the layer in the device context. If <b>hdcSrc</b> is <b>NULL</b>, <b>pptSrc</b> should be <b>NULL</b>. 
 
 
 ### -field crKey
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-The color key to be used when composing the layered window. To generate a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
+The color key to be used when composing the layered window. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 
 ### -field pblend
 
-Type: <b>const <a href="https://msdn.microsoft.com/d1371d72-c408-4484-845e-d4ea2bc3115d">BLENDFUNCTION</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a>*</b>
 
 The transparency value to be used when composing the layered window.
 
@@ -168,7 +168,7 @@ Draw an opaque layered window.
 </dl>
 </td>
 <td width="60%">
-Force the <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
+Force the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633557(v=vs.85)">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
 
 </td>
 </tr>
@@ -198,11 +198,11 @@ The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, on
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatelayeredwindow">UpdateLayeredWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Window Features</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Features</a>
  
 
  

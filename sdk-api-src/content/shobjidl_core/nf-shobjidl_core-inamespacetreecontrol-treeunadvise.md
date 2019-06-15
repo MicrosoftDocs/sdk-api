@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The pointer to the cookie that is passed in is the one that was passed back in <a href="https://msdn.microsoft.com/d59b9772-7061-4ea5-964a-75deb293b407">INameSpaceTreeControl::TreeAdvise</a>.
+The pointer to the cookie that is passed in is the one that was passed back in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-treeadvise">INameSpaceTreeControl::TreeAdvise</a>.
             
 
 

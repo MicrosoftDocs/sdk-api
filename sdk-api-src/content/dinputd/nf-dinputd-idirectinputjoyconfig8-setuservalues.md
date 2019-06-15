@@ -64,7 +64,7 @@ Points to a structure that receives information about the new user joystick sett
 
 ### -param arg2
 
-Specifies the parts of the <a href="https://msdn.microsoft.com/15424c18-c9ae-4058-97b4-f55b56daea72">DIJOYUSERVALUES</a> structure that contain values to be set.  There may be zero, one, or more of the following: 
+Specifies the parts of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoyuservalues">DIJOYUSERVALUES</a> structure that contain values to be set.  There may be zero, one, or more of the following: 
 
 
 
@@ -80,7 +80,7 @@ Indicates that the user configuration settings (the <b>ruv</b> member of the DIJ
 
 Indicates that the global port driver (the <b>wszGlobalDriver</b> member of the DIJOYUSERVALUES structure) is valid. 
 
-A list of valid global drivers can be obtained by enumerating the list of joystick types. If the joystick type has the JOY_HWS_ISGAMEPORTDRIVER flag set in the <b>dwFlags</b> member of the JOYHWSETTINGS structure, then the <b>wszCallout</b> member of the <a href="https://msdn.microsoft.com/54f52839-59ed-4edd-8d28-e3504f9900d0">DIJOYTYPEINFO</a> structure contains the name of a driver that can be used as a global driver. 
+A list of valid global drivers can be obtained by enumerating the list of joystick types. If the joystick type has the JOY_HWS_ISGAMEPORTDRIVER flag set in the <b>dwFlags</b> member of the JOYHWSETTINGS structure, then the <b>wszCallout</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure contains the name of a driver that can be used as a global driver. 
 
 
 
@@ -107,7 +107,7 @@ Returns DI_OK if successful; otherwise, returns one of the following COM error v
 </dl>
 </td>
 <td width="60%">
-Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/1df2eb92-9c55-4371-84c7-a4fb879efb7e">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
+Joystick configuration has not been acquired. You must call <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-acquire">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
 
 </td>
 </tr>

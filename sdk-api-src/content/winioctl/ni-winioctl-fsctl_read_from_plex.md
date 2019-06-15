@@ -202,15 +202,15 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/efabc8f3-1596-4a6a-86a3-ecd5b3d934d5">PLEX_READ_DATA_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_plex_read_data_request">PLEX_READ_DATA_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

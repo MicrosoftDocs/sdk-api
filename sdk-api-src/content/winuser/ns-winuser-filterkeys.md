@@ -60,14 +60,14 @@ Contains information about the FilterKeys accessibility feature, which enables a
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the structure size, in bytes.
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 A set of bit flags that specify properties of the FilterKeys feature. The following bit-flag values are defined:
@@ -162,28 +162,28 @@ If this flag is set, the computer plays a siren sound when the user turns the Fi
 
 ### -field iWaitMSec
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that the user must hold down a key before it is accepted by the computer.
 
 
 ### -field iDelayMSec
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that the user must hold down a key before it begins to repeat.
 
 
 ### -field iRepeatMSec
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, between each repetition of the keystroke.
 
 
 ### -field iBounceMSec
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of time, in milliseconds, that must elapse after releasing a key before the computer will accept a subsequent press of the same key.
 
@@ -192,7 +192,7 @@ Specifies the length of time, in milliseconds, that must elapse after releasing 
 
 
 
-Use a <b>FILTERKEYS</b> structure when calling the <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETFILTERKEYS</b> or <b>SPI_SETFILTERKEYS</b> value. When using <b>SPI_GETFILTERKEYS</b>, you must specify the <b>cbSize</b> member of the <b>FILTERKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. Specify all structure members when using the <b>SPI_SETFILTERKEYS</b> value.
+Use a <b>FILTERKEYS</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETFILTERKEYS</b> or <b>SPI_SETFILTERKEYS</b> value. When using <b>SPI_GETFILTERKEYS</b>, you must specify the <b>cbSize</b> member of the <b>FILTERKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. Specify all structure members when using the <b>SPI_SETFILTERKEYS</b> value.
 
 The <b>iBounceMSec</b> member controls the BounceKeys feature, and the <b>iWaitMSec</b>, <b>iDelayMSec</b>, and <b>iRepeatMSec</b> members work together to control the RepeatKeys and SlowKeys features. If BounceKeys is on (that is, <b>iBounceMSec</b> is nonzero), the RepeatKeys and SlowKeys features are off (that is, the <b>iWaitMSec</b>, <b>iDelayMSec</b>, and <b>iRepeatMSec</b> members must all be zero). Similarly, if BounceKeys is off (<b>iBounceMSec</b> is zero), the <b>iWaitMSec</b>, <b>iDelayMSec</b>, and <b>iRepeatMSec</b> must all be nonzero.
 
@@ -206,11 +206,11 @@ The maximum value of the  <b>iBounceMSec</b>, <b>iWaitMSec</b>, <b>iDelayMSec</b
 
 
 
-<a href="https://msdn.microsoft.com/0ff480ae-18e3-413d-b208-a67fbae28c25">Accessibility Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
  
 
  

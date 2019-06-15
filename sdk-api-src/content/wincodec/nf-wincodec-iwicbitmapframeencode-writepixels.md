@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Copies scan-line data from a caller-supplied buffer to the <a href="https://msdn.microsoft.com/a8de774b-3783-46be-9a21-c9fec2f10ffd">IWICBitmapFrameEncode</a> object.
+Copies scan-line data from a caller-supplied buffer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object.
 
 
 

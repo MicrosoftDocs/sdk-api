@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Locates the specified 
-<a href="https://msdn.microsoft.com/610e5cd3-9dc3-462c-98f8-6a63874464f8">debug (.dbg) file</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/symbol-files">debug (.dbg) file</a>.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The name of the .dbg file to locate. You can use a partial path.
 ### -param SymbolPath [in]
 
 The path where symbol files are located. This can be multiple paths separated by semicolons. To retrieve the symbol path, use the 
-<a href="https://msdn.microsoft.com/aa8c8450-ee67-4614-98a1-5feebdd3a788">SymGetSearchPath</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a> function.
 
 
 ### -param DebugFilePath [out]
@@ -79,7 +79,7 @@ A pointer to a buffer that receives the full path of the .dbg file.
 ### -param Callback [in, optional]
 
 An application-defined callback function that verifies whether the correct file was found or the function should continue its search. For more information, see 
-<a href="https://msdn.microsoft.com/c7ccc66a-7897-4430-8874-a4ba66a5cce7">FindDebugInfoFileProc</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfind_debug_file_callback">FindDebugInfoFileProc</a>. 
 
 
 
@@ -99,7 +99,7 @@ Optional user-defined data to pass to the callback function.
 If the function succeeds, the return value is an open handle to the .dbg file.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -132,15 +132,15 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7ccc66a-7897-4430-8874-a4ba66a5cce7">FindDebugInfoFileProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfind_debug_file_callback">FindDebugInfoFileProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa8c8450-ee67-4614-98a1-5feebdd3a788">SymGetSearchPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a>
  
 
  

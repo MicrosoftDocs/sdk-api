@@ -59,7 +59,7 @@ Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output. T
 
 ### -param precision
 
-Type: <b><a href="https://msdn.microsoft.com/a2a4b4fd-685d-4068-b1f5-609e6ab024e2">D2D1_BUFFER_PRECISION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
 
 Precision of the input lookup table data.
 
@@ -95,7 +95,7 @@ An array containing two values.  The first value is the size in bytes from one r
 
 ### -param lookupTable [out]
 
-Type: <b><a href="https://msdn.microsoft.com/778D2F30-0328-4AA2-8ECA-F443D57809D7">ID2D1LookupTable3D</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1lookuptable3d">ID2D1LookupTable3D</a>**</b>
 
 Receives the new lookup table instance.
 
@@ -104,7 +104,7 @@ Receives the new lookup table instance.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 S_OK if successful, otherwise a failure HRESULT.
 
@@ -116,7 +116,7 @@ S_OK if successful, otherwise a failure HRESULT.
 
 
 
-<a href="https://msdn.microsoft.com/25c11cfc-75af-20a1-8f54-6b370942b841">ID2D1DeviceContext2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
  
 
  

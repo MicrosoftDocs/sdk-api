@@ -79,5 +79,5 @@ The actual attribute.
 
 ### -field Attribute.pAttributeV1
 
-Pointer to an array that contains the <b>AttributeCount</b> member of the <a href="https://msdn.microsoft.com/FDBB9B00-01C3-474A-81FF-97C5CBA3261B">CLAIM_SECURITY_ATTRIBUTE_V1</a> structure.
+Pointer to an array that contains the <b>AttributeCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_claim_security_attribute_v1">CLAIM_SECURITY_ATTRIBUTE_V1</a> structure.
 

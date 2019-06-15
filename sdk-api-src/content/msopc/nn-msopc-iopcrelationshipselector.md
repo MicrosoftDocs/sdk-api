@@ -54,7 +54,7 @@ Represents how to select, from a Relationships part, the relationships to be ref
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcRelationshipSelector</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOpcRelationshipSelector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcRelationshipSelector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcRelationshipSelector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOpcRelationshipSelector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac1f0347-9b89-4d8f-b0cb-14708e7a6e55">GetSelectionCriterion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselector-getselectioncriterion">GetSelectionCriterion</a>
 </td>
 <td align="left" width="63%">
 Gets a string that is used to select relationships to be referenced for signing.
@@ -78,7 +78,7 @@ Gets a string that is used to select relationships to be referenced for signing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/583f56e5-c374-4f79-badd-35eb5eecef70">GetSelectorType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselector-getselectortype">GetSelectorType</a>
 </td>
 <td align="left" width="63%">
 Gets a value that describes how relationships are selected to be referenced for signing.
@@ -93,16 +93,16 @@ Gets a value that describes how relationships are selected to be referenced for 
 
 
 To create an 
-				 <b>IOpcRelationshipSelector</b> interface pointer, call the <a href="https://msdn.microsoft.com/801d1924-c75c-47b5-99fe-9d97ea8dfee1">IOpcRelationshipSelectorSet::Create</a> method.
+				 <b>IOpcRelationshipSelector</b> interface pointer, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorset-create">IOpcRelationshipSelectorSet::Create</a> method.
 
-To access an <b>IOpcRelationshipSelector</b>, call the <a href="https://msdn.microsoft.com/ffff6b7e-8e46-4be6-921f-b98e7d51a114">IOpcRelationshipSelectorEnumerator::GetCurrent</a> method.
+To access an <b>IOpcRelationshipSelector</b>, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselectorenumerator-getcurrent">IOpcRelationshipSelectorEnumerator::GetCurrent</a> method.
 
-Use the <b>IOpcRelationshipSelector</b> interface methods to select relationships for signing. A relationship is selected if its type or identifier matches the string that is retrieved by calling the <a href="https://msdn.microsoft.com/ac1f0347-9b89-4d8f-b0cb-14708e7a6e55">GetSelectionCriterion</a> method. This string is either a relationship type or a relationship identifier.  Call the <a href="https://msdn.microsoft.com/583f56e5-c374-4f79-badd-35eb5eecef70">GetSelectorType</a> method to get an <a href="https://msdn.microsoft.com/5532aab1-850e-4de8-a470-c55fb4c2f8c4">OPC_RELATIONSHIP_SELECTOR</a> value to determine whether the string is a relationship type or an identifier. To access these relationship properties, call the <a href="https://msdn.microsoft.com/da832c8e-99e1-452a-90eb-97580f00f003">IOpcRelationship::GetRelationshipType</a> and <a href="https://msdn.microsoft.com/8646d592-d568-4b82-80f3-2673cd0d2721">IOpcRelationship::GetId</a> methods.
+Use the <b>IOpcRelationshipSelector</b> interface methods to select relationships for signing. A relationship is selected if its type or identifier matches the string that is retrieved by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselector-getselectioncriterion">GetSelectionCriterion</a> method. This string is either a relationship type or a relationship identifier.  Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationshipselector-getselectortype">GetSelectorType</a> method to get an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0002">OPC_RELATIONSHIP_SELECTOR</a> value to determine whether the string is a relationship type or an identifier. To access these relationship properties, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationship-getrelationshiptype">IOpcRelationship::GetRelationshipType</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationship-getid">IOpcRelationship::GetId</a> methods.
 
-The following table shows how <a href="https://msdn.microsoft.com/5532aab1-850e-4de8-a470-c55fb4c2f8c4">OPC_RELATIONSHIP_SELECTOR</a> values map to the relationship type and relationship identifier properties.<table>
+The following table shows how <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0002">OPC_RELATIONSHIP_SELECTOR</a> values map to the relationship type and relationship identifier properties.<table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/5532aab1-850e-4de8-a470-c55fb4c2f8c4">OPC_RELATIONSHIP_SELECTOR</a>  Value</th>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0002">OPC_RELATIONSHIP_SELECTOR</a>  Value</th>
 <th>Relationship Property</th>
 <th>Description</th>
 </tr>
@@ -127,12 +127,12 @@ Selects relationships that have a relationship identifier that matches <i>select
 
 
 
-When a signature is generated, the relationship selection information provided by the interface is serialized in the XML markup of the signature (signature markup). In signature markup, this information is represented by the  <b>RelationshipReference</b> and <b>RelationshipGroupReference</b> elements, which are specified in section 12. Digital Signatures in the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>. The following table shows how the elements map to relationship properties and to <a href="https://msdn.microsoft.com/5532aab1-850e-4de8-a470-c55fb4c2f8c4">OPC_RELATIONSHIP_SELECTOR</a> values.<table>
+When a signature is generated, the relationship selection information provided by the interface is serialized in the XML markup of the signature (signature markup). In signature markup, this information is represented by the  <b>RelationshipReference</b> and <b>RelationshipGroupReference</b> elements, which are specified in section 12. Digital Signatures in the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>. The following table shows how the elements map to relationship properties and to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0002">OPC_RELATIONSHIP_SELECTOR</a> values.<table>
 <tr>
 <th>Package signature element</th>
 <th>Relationship Property</th>
 <th>
-<a href="https://msdn.microsoft.com/5532aab1-850e-4de8-a470-c55fb4c2f8c4">OPC_RELATIONSHIP_SELECTOR</a>  Value</th>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/ne-msopc-__midl___midl_itf_msopc_0001_0076_0002">OPC_RELATIONSHIP_SELECTOR</a>  Value</th>
 </tr>
 <tr>
 <td><b>RelationshipGroupReference</b></td>
@@ -154,7 +154,7 @@ When a signature is generated, the relationship selection information provided b
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>.
+For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 
 
@@ -164,11 +164,11 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/62069595-0d1e-44e5-b68d-2bb0c355c565">Core Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d81f6569-6c95-4bb7-9d1d-51e10701b970">Digital Signatures Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/digital-signatures-overview">Digital Signatures Overview</a>
 
 
 
@@ -180,19 +180,19 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/ef392c88-49cd-4ffa-b1fb-1501c6448264">Getting Started with the Packaging API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb3619bb-470f-41bd-a231-d63df70592c2">IOpcRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c0bbc0d-d950-4929-9100-41a7f016a208">IOpcRelationshipSelectorEnumerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorenumerator">IOpcRelationshipSelectorEnumerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23cbe2-764c-47e4-bd32-2791ddde9eee">IOpcRelationshipSelectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorset">IOpcRelationshipSelectorSet</a>
 
 
 
@@ -200,23 +200,23 @@ For more information, see the <a href="https://msdn.microsoft.com/ef392c88-49cd-
 
 
 
-<a href="https://msdn.microsoft.com/cb35d87e-bbec-42d3-9f9d-d1cf36f39419">Packaging API Programming Guide</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd">Packaging API Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/885137be-35d5-4ec5-bbcc-16c95adf55ab">Packaging API Samples</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://msdn.microsoft.com/76455a88-81be-45d9-a682-2ba43038b43f">Packaging Digital Signature Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0e9f38f-ab35-4fc2-855c-ea21bf164223">Packaging Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 

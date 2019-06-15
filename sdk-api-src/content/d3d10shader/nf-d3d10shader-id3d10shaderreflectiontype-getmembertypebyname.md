@@ -59,7 +59,7 @@ Get a shader-reflection-variable type by name.
 
 ### -param Name [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 Member name.
 
@@ -68,9 +68,9 @@ Member name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype">ID3D10ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype">ID3D10ShaderReflectionType Interface</a>.
 
 
 
@@ -80,7 +80,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173840(v=VS.85).aspx">ID3D10ShaderReflectionType Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectiontype">ID3D10ShaderReflectionType Interface</a>
  
 
  

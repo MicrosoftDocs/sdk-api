@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Creates Direct2D resources. This interface also enables the creation of <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008EAE4E9">ID2D1Device4</a> objects.
+Creates Direct2D resources. This interface also enables the creation of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory5</b> interface inherits from <a href="https://msdn.microsoft.com/7E470D6B-9393-4660-B8B3-28E77495185E">ID2D1Factory4</a>. <b>ID2D1Factory5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory5</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory4">ID2D1Factory4</a>. <b>ID2D1Factory5</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>ID2D1Factory5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BE77F5AD-82B1-4DB4-8BE0-8C066EA09424">CreateDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1factory5-createdevice">CreateDevice</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/B91E4E63-5FB5-4470-A3B9-F94008EAE4E9">ID2D1Device4</a> object.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a> object.
         
 
 </td>

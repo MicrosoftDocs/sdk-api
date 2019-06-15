@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SCARD_ATRMASK</b> structure is used by 
-the <a href="https://msdn.microsoft.com/6c4a644c-033f-4654-b96d-0379e9ac0bb4">SCardLocateCardsByATR</a> function to locate cards.
+the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlocatecardsbyatra">SCardLocateCardsByATR</a> function to locate cards.
 
 
 ## -struct-fields

@@ -59,17 +59,17 @@ The <b>SetupDiGetDeviceInterfacePropertyKeys</b> function retrieves an array of 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a>. This device information set contains a device interface for which to retrieve an array of the device property keys that represent the device properties that are set for a device interface.
+A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a>. This device information set contains a device interface for which to retrieve an array of the device property keys that represent the device properties that are set for a device interface.
 
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to retrieve the requested array of device property keys. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to retrieve the requested array of device property keys. 
 
 
 ### -param PropertyKeyArray [out, optional]
 
-A pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/98986d43-84c0-44e6-83f9-08e872ea5e6d">DEVPROPKEY</a>-typed values, where each value is a device property key for a device property that is set for the device interface. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
+A pointer to a buffer that receives an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a>-typed values, where each value is a device property key for a device property that is set for the device interface. The pointer is optional and can be <b>NULL</b>. For more information, see the <b>Remarks</b> section later in this topic.
 
 
 ### -param PropertyKeyCount [in]
@@ -198,11 +198,11 @@ There was not enough system memory available to complete the operation.
 
 
 
-<b>SetupDiGetDeviceInterfacePropertyKeys</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">unified device property model</a>. 
+<b>SetupDiGetDeviceInterfacePropertyKeys</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
 
 If the <i>PropertyKeyArray</i> buffer is not large enough to hold all the requested property keys, <b>SetupDiGetDeviceInterfacePropertyKeys</b> does not retrieve any property keys and returns ERROR_INSUFFICIENT_BUFFER. If the caller supplied a <i>RequiredPropertyKeyCount</i> pointer, <b>SetupDiGetDeviceInterfacePropertyKeys</b> sets the value of *<i>RequiredPropertyKeyCount</i> to the required size, in DEVPROPKEY-typed values, of the <i>PropertyKeyArray </i>buffer<i>.</i>
 
-To retrieve a device interface property, call <a href="https://msdn.microsoft.com/72a44060-cebc-4690-8776-68db76810732">SetupDiGetDeviceInterfaceProperty</a><b>,</b> and to set a device interface property, call <a href="https://msdn.microsoft.com/5c8da8a3-1c53-42c1-8adc-46743b63f731">SetupDiSetDeviceInterfaceProperty</a>.
+To retrieve a device interface property, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a><b>,</b> and to set a device interface property, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>.
 
 
 
@@ -212,11 +212,11 @@ To retrieve a device interface property, call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/72a44060-cebc-4690-8776-68db76810732">SetupDiGetDeviceInterfaceProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c8da8a3-1c53-42c1-8adc-46743b63f731">SetupDiSetDeviceInterfaceProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinterfacepropertyw">SetupDiSetDeviceInterfaceProperty</a>
  
 
  

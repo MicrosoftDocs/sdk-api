@@ -74,14 +74,14 @@ Pointer to a null-terminated string containing the user name to query. To retrie
 ### -param WTSConfigClass [in]
 
 Specifies the type of information to retrieve. This parameter can be one of the values from the 
-<a href="https://msdn.microsoft.com/623b8a86-aa0d-497c-a2e6-5526f9b13d98">WTS_CONFIG_CLASS</a> enumeration type. The documentation for 
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_class">WTS_CONFIG_CLASS</a> enumeration type. The documentation for 
 <b>WTS_CONFIG_CLASS</b> describes the format of the data returned in <i>ppBuffer</i> for each of the information types.
 
 
 ### -param ppBuffer [out]
 
 Pointer to a variable that receives a pointer to the requested information. The format and contents of the data depend on the information class specified in the <i>WTSConfigClass</i> parameter. To free the returned buffer, call the 
-<a href="https://msdn.microsoft.com/1c325174-ec08-4bbb-8e91-1a3cc9256110">WTSFreeMemory</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function.
 
 
 ### -param pBytesReturned [out]
@@ -96,7 +96,7 @@ Pointer to a variable that receives the size, in bytes, of the data returned in 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -107,12 +107,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 The 
 <b>WTSQueryUserConfig</b> and 
-<a href="https://msdn.microsoft.com/44d027c6-6ebb-4750-a0fa-17fdf31e45cd">WTSSetUserConfig</a> functions are passed a server name instead of a handle because user account information often resides on a domain controller. To set user configuration information, use the primary domain controller. You can call the 
-<a href="https://msdn.microsoft.com/3e32aacc-088e-455a-bc1b-92274e98d2e5">NetGetDCName</a> function to get the name of the primary domain controller. To query user configuration information, you can use the 
-<a href="https://msdn.microsoft.com/64dacbf4-46c2-4f82-b250-b7d338535e7c">NetGetAnyDCName</a> function to get the name of a primary or backup domain controller.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions are passed a server name instead of a handle because user account information often resides on a domain controller. To set user configuration information, use the primary domain controller. You can call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgetdcname">NetGetDCName</a> function to get the name of the primary domain controller. To query user configuration information, you can use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgetanydcname">NetGetAnyDCName</a> function to get the name of a primary or backup domain controller.
 
 Any domain controller can set or query user configuration information. Use the 
-<a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> function to retrieve the name of a domain controller.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function to retrieve the name of a domain controller.
 
 
 
@@ -122,15 +122,15 @@ Any domain controller can set or query user configuration information. Use the
 
 
 
-<a href="https://msdn.microsoft.com/1c325174-ec08-4bbb-8e91-1a3cc9256110">WTSFreeMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/44d027c6-6ebb-4750-a0fa-17fdf31e45cd">WTSSetUserConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/623b8a86-aa0d-497c-a2e6-5526f9b13d98">WTS_CONFIG_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_config_class">WTS_CONFIG_CLASS</a>
  
 
  

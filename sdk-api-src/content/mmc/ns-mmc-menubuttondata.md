@@ -78,11 +78,11 @@ A value that specifies the vertical position, in pixels, at which the snap-in's 
 
 
 
-<a href="https://msdn.microsoft.com/51bbd98a-7017-497a-858a-dd63cefc679a">IMenuButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-imenubutton">IMenuButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0455eb0-a773-4b03-a44a-339b48d5d57d">MMCN_MENU_BTNCLICK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-menu-btnclick">MMCN_MENU_BTNCLICK</a>
  
 
  

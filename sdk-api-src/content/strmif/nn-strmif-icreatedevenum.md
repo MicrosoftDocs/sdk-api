@@ -50,18 +50,18 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ICreateDevEnum</b> interface creates an enumerator for a category of filters, such as video capture devices or audio capture devices. The <a href="https://msdn.microsoft.com/ea98be7f-580d-4986-bd6b-d254a2c075e8">System Device Enumerator</a> exposes this interface.
+The <b>ICreateDevEnum</b> interface creates an enumerator for a category of filters, such as video capture devices or audio capture devices. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-device-enumerator">System Device Enumerator</a> exposes this interface.
 
-Applications can use this interface to enumerate filters within a category. The <a href="https://msdn.microsoft.com/07457acc-51f1-4d1b-b795-e8d980a5531e">CreateClassEnumerator</a> method returns an enumerator object for a specific filter category. The enumerator object supports the <a href="https://msdn.microsoft.com/c8dec22b-946d-48ae-9315-54d353f3b853">IEnumMoniker</a> interface and returns a list of monikers, where each moniker represents a filter.
+Applications can use this interface to enumerate filters within a category. The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icreatedevenum-createclassenumerator">CreateClassEnumerator</a> method returns an enumerator object for a specific filter category. The enumerator object supports the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> interface and returns a list of monikers, where each moniker represents a filter.
 
 In some cases, the same DirectShow filter manages an entire category of hardware devices. In that case, the moniker represents the device, and the moniker is used to initialize the filter. The application can treat each device as a separate filter, regardless of the underlying implementation.
 
-For more information on using this interface, see <a href="https://msdn.microsoft.com/70db139c-2c5b-4574-bec3-dfe758b16715">Using the System Device Enumerator</a>.
+For more information on using this interface, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-system-device-enumerator">Using the System Device Enumerator</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateDevEnum</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICreateDevEnum</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateDevEnum</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateDevEnum</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ICreateDevEnum</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07457acc-51f1-4d1b-b795-e8d980a5531e">CreateClassEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icreatedevenum-createclassenumerator">CreateClassEnumerator</a>
 </td>
 <td align="left" width="63%">
 Creates a class enumerator for a specified device category.
@@ -91,11 +91,11 @@ Creates a class enumerator for a specified device category.
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/70db139c-2c5b-4574-bec3-dfe758b16715">Using the System Device Enumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-system-device-enumerator">Using the System Device Enumerator</a>
  
 
  

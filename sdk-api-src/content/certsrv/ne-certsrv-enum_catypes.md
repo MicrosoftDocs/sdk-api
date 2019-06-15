@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ENUM_CATYPES</b> enumeration specifies a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) type.
+The <b>ENUM_CATYPES</b> enumeration specifies a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) type.
 
 
 ## -enum-fields

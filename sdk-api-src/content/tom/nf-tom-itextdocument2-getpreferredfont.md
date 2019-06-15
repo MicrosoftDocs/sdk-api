@@ -497,7 +497,7 @@ The preferred font options. The low-order word can be a combination of the follo
 
 #### tomMatchMathFont
 
-If the high-order word of <i>Options</i> is <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomUseTwips</a>, the font heights are given in twips.
+If the high-order word of <i>Options</i> is <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomUseTwips</a>, the font heights are given in twips.
 
 
 ### -param curCharRep [in]
@@ -539,7 +539,7 @@ The new font size.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -551,7 +551,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
  
 
  

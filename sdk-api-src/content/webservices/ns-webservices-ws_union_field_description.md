@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Represents serialization information about a field within a union.
-                See <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
             
 
 
@@ -62,12 +62,12 @@ Represents serialization information about a field within a union.
 ### -field value
 
 The enumeration value that field of the union corresponds to.
-                    See <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a> and <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.
+                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 
 
 ### -field field
 
-Information about the field.  See <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>and <a href="https://msdn.microsoft.com/04eddc88-f0ba-4a0b-8078-12c0d955d055">WS_UNION_DESCRIPTION</a>.
+Information about the field.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_union_description">WS_UNION_DESCRIPTION</a>.
                 
 

@@ -66,7 +66,7 @@ A GUID that identifies the manifest provider whose list of events you want to re
 
 ### -param Buffer [out]
 
-A user-allocated buffer to receive the list of events. For details, see the <a href="https://msdn.microsoft.com/CC392841-7436-4543-A846-FB5A27D9A014">PROVIDER_EVENT_INFO</a>  structure.
+A user-allocated buffer to receive the list of events. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_event_info">PROVIDER_EVENT_INFO</a>  structure.
 
 
 ### -param BufferSize [in, out]
@@ -151,15 +151,15 @@ The schema information for supplied provider GUID was not found.
 
 
 
-<a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/CC392841-7436-4543-A846-FB5A27D9A014">PROVIDER_EVENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_event_info">PROVIDER_EVENT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/71702F1F-1708-4CA2-9BFB-3D7332AB6129">TdhGetManifestEventInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetmanifesteventinformation">TdhGetManifestEventInformation</a>
  
 
  

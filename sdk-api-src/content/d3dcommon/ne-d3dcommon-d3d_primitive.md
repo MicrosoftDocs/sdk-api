@@ -423,12 +423,12 @@ Interpret the input primitive as a control point patch.
 
 
 
-The <a href="https://msdn.microsoft.com/df34dc7e-e6aa-442d-905e-4ae11b62a781">ID3D11ShaderReflection::GetGSInputPrimitive</a> method returns a
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getgsinputprimitive">ID3D11ShaderReflection::GetGSInputPrimitive</a> method returns a
           <b>D3D11_PRIMITIVE</b>-typed value.
         
 
 The <b>D3D11_PRIMITIVE</b> enumeration is type defined in the D3D11.h header file as a
-          <a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a> enumeration, which is fully defined in the D3DCommon.h header file.
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_primitive">D3D_PRIMITIVE</a> enumeration, which is fully defined in the D3DCommon.h header file.
         
 
 
@@ -445,7 +445,7 @@ typedef D3D_PRIMITIVE D3D11_PRIMITIVE;
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

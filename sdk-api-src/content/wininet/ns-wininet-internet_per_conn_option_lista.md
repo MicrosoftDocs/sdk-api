@@ -83,7 +83,7 @@ Options that failed, if an error occurs.
 ### -field pOptions
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/35cfc768-1f1d-4be9-8d56-c56c7440513e">INTERNET_PER_CONN_OPTION</a> structures containing the options to query or set. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_per_conn_optiona">INTERNET_PER_CONN_OPTION</a> structures containing the options to query or set. 
 
 
 ## -remarks
@@ -91,12 +91,12 @@ Pointer to an array of
 
 
 In Microsoft Internet Explorer 5, only the ANSI versions of 
-<a href="https://msdn.microsoft.com/b0bafd3d-8f54-429e-b423-dae3d61b0030">InternetQueryOption</a> and 
-<a href="https://msdn.microsoft.com/578c7130-7426-4a2e-ae0f-ed8a84449b06">InternetSetOption</a> will work with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> will work with the 
 <b>INTERNET_PER_CONN_OPTION_LIST</b> structure. The Unicode versions will support using the 
 <b>INTERNET_PER_CONN_OPTION_LIST</b> structure in later versions of Internet Explorer.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -106,15 +106,15 @@ In Microsoft Internet Explorer 5, only the ANSI versions of
 
 
 
-<a href="https://msdn.microsoft.com/35cfc768-1f1d-4be9-8d56-c56c7440513e">INTERNET_PER_CONN_OPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_per_conn_optiona">INTERNET_PER_CONN_OPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0bafd3d-8f54-429e-b423-dae3d61b0030">InternetQueryOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
 
 
 
-<a href="https://msdn.microsoft.com/578c7130-7426-4a2e-ae0f-ed8a84449b06">InternetSetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
  
 
  

@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing  XML for a task, this setting is specified in the  <a href="https://msdn.microsoft.com/2ef3dd19-4d5c-4399-89b8-d737be4ef85e">RunOnlyIfIdle</a> element of the Task Scheduler schema.
+When reading or writing  XML for a task, this setting is specified in the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-runonlyifidle-settingstype-element">RunOnlyIfIdle</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing  XML for a task, this setting is specified in the  <a hr
 
 
 
-<a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

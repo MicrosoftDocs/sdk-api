@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALLHUB_EVENT</b> enum describes CallHub events. The 
-<a href="https://msdn.microsoft.com/a2515583-e564-413d-b93f-6f2dd7776d7b">ITCallHubEvent::get_Event</a> method returns a member of this enum to indicate the type of CallHub event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhubevent-get_event">ITCallHubEvent::get_Event</a> method returns a member of this enum to indicate the type of CallHub event that occurred.
 
 
 ## -enum-fields
@@ -89,7 +89,7 @@ A CallHub has gone idle.
 
 
 
-<a href="https://msdn.microsoft.com/a2515583-e564-413d-b93f-6f2dd7776d7b">ITCallHubEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallhubevent-get_event">ITCallHubEvent::get_Event</a>
  
 
  

@@ -54,13 +54,13 @@ provides similar functionality.]
 
 The 
 <b>IMcastScope</b> interface is obtained by calling 
-<a href="https://msdn.microsoft.com/1845f5f9-be0e-4609-89d8-1a0ed194dd68">IMcastAddressAllocation::EnumerateScopes</a> or 
-<a href="https://msdn.microsoft.com/4fe824fa-2fcb-4f6b-b3de-15dcfc79575c">IMcastAddressAllocation::get_Scopes</a>. It encapsulates all the properties of a multicast scope and provides methods to get information about the scope. This is a "read-only" interface in that it has "get" methods but no "put" methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">IMcastAddressAllocation::EnumerateScopes</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-get_scopes">IMcastAddressAllocation::get_Scopes</a>. It encapsulates all the properties of a multicast scope and provides methods to get information about the scope. This is a "read-only" interface in that it has "get" methods but no "put" methods.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastScope</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMcastScope</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMcastScope</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMcastScope</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMcastScope</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/376ccbe4-ad83-4eef-88bd-11ed95d14359">get_InterfaceID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_interfaceid">get_InterfaceID</a>
 </td>
 <td align="left" width="63%">
 Obtains the interface ID associated with this scope.
@@ -84,7 +84,7 @@ Obtains the interface ID associated with this scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e675ba4a-8e5f-42a6-8edf-9b136cf9dd46">get_ScopeDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_scopedescription">get_ScopeDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains a textual description associated with this scope.
@@ -93,7 +93,7 @@ Obtains a textual description associated with this scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c0ba8ab-1022-40c6-9d89-74250c149681">get_ScopeID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_scopeid">get_ScopeID</a>
 </td>
 <td align="left" width="63%">
 Obtains the scope ID associated with this scope
@@ -102,7 +102,7 @@ Obtains the scope ID associated with this scope
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80c0ecca-647f-4e5e-92d6-fc95368715ad">get_ServerID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_serverid">get_ServerID</a>
 </td>
 <td align="left" width="63%">
 Obtains the server ID associated with this scope.
@@ -111,7 +111,7 @@ Obtains the server ID associated with this scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68e402e5-87ae-49fd-9149-8eb79a0a8aee">get_TTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastscope-get_ttl">get_TTL</a>
 </td>
 <td align="left" width="63%">
 Obtains time to live information for the multicast server.
@@ -126,11 +126,11 @@ Obtains time to live information for the multicast server.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4ad8009-559e-4db9-9ae2-28e4d36cf346">IMcastLeaseInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastleaseinfo">IMcastLeaseInfo</a>
  
 
  

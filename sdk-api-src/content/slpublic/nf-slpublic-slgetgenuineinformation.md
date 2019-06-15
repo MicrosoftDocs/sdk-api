@@ -97,7 +97,7 @@ Get a value that specifies whether the computer is in nongenuine grace period mo
 </dl>
 </td>
 <td width="60%">
-Get the value returned from the last call to the <a href="https://msdn.microsoft.com/028099c8-9116-4212-bc29-1065b22be593">SLAcquireGenuineTicket</a> function.
+Get the value returned from the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slacquiregenuineticket">SLAcquireGenuineTicket</a> function.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Gets the cause of the computer being put into nongenuine grace period mode.
 
 ### -param peDataType [out, optional]
 
-A pointer to a value of the <a href="https://msdn.microsoft.com/245e79de-4823-4af9-926a-088e263cc802">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 
 ### -param pcbValue [out]
@@ -129,7 +129,7 @@ A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
 The address of a pointer to an array of <b>BYTE</b> pointers that specifies the value associated with the name specified by the <i>pwszValueName</i> parameter.
 
-When you have finished using this array, free it by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
+When you have finished using this array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 
 ## -returns
@@ -138,7 +138,7 @@ When you have finished using this array, free it by calling the <a href="https:/
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 This function can return the following values defined in Slerror.h.
 
@@ -182,11 +182,11 @@ The specified name-value pair was not found.
 
 
 
-<a href="https://msdn.microsoft.com/245e79de-4823-4af9-926a-088e263cc802">SLDATATYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsldatatype">SLDATATYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/007b3f3a-c320-4bbc-ab5c-746b513cb815">SLGetWindowsInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a>
  
 
  

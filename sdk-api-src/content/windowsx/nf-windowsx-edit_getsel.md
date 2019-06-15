@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761598(v=VS.85).aspx">EM_GETSEL</a> message explicitly.
+Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getsel">EM_GETSEL</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the starting and ending character positions of the current selection in an 
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,7 +68,7 @@ A handle to the control.
 
 
 
-This macro does not have the complete functionality of the <a href="https://msdn.microsoft.com/en-us/library/Bb761598(v=VS.85).aspx">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>.
+This macro does not have the complete functionality of the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getsel">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>.
 
 
 

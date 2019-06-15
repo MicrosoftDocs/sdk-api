@@ -59,35 +59,35 @@ Contains scope data that maps variable names to debug variables.
 
 ### -field ScopeType
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172426(v=VS.85).aspx">D3D10_SHADER_DEBUG_SCOPETYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ne-d3d10_1shader-_d3d10_shader_debug_scopetype">D3D10_SHADER_DEBUG_SCOPETYPE</a></b>
 
 Specifies the scope type.
 
 
 ### -field Name
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Offset to the name of scope in the strings list.
 
 
 ### -field uNameLen
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Length of the string pointed to by <b>Name</b>.
 
 
 ### -field uVariables
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of variables.
 
 
 ### -field VariableData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Offset an array of UINT values with <b>uVariables</b> members contianing the scope variable list.
 
@@ -96,7 +96,7 @@ Offset an array of UINT values with <b>uVariables</b> members contianing the sco
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/ns-d3d10_1shader-_d3d10_shader_debug_info">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 
@@ -106,7 +106,7 @@ The <b>D3D10_SHADER_DEBUG_SCOPE_INFO</b> structure is used with the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

@@ -76,7 +76,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-<b>D3D_SHADER_CBUFFER_FLAGS</b>-typed values are specified in the <b>uFlags</b> member of the <a href="https://msdn.microsoft.com/deea8d5d-2431-4449-baa8-68a4b9b30307">D3D11_SHADER_BUFFER_DESC</a> structure.
+<b>D3D_SHADER_CBUFFER_FLAGS</b>-typed values are specified in the <b>uFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-_d3d11_shader_buffer_desc">D3D11_SHADER_BUFFER_DESC</a> structure.
 
 
 
@@ -86,7 +86,7 @@ This value is not used by a programmer; it exists to force the enumeration to co
 
 
 
-<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
  
 
  

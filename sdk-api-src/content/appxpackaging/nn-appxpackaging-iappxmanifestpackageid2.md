@@ -54,7 +54,7 @@ Provides access to the app package identity.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageId2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxManifestPackageId2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageId2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestPackageId2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestPackageId2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FBC34FBA-C6BB-45AD-8005-5C2B91A1369D">GetArchitecture2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid2-getarchitecture2">GetArchitecture2</a>
 </td>
 <td align="left" width="63%">
 Gets the processor architecture as defined in the manifest.
@@ -85,7 +85,7 @@ Gets the processor architecture as defined in the manifest.
 
 Package identity information is specified using the <b>Identity</b> element in the package manifest.
 
-This object can be retrieved using the <a href="https://msdn.microsoft.com/67E1B1A4-E934-4CCF-AF94-A7923B192A21">IAppxManifestReader::GetPackageId</a> method.
+This object can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getpackageid">IAppxManifestReader::GetPackageId</a> method.
 
 
 

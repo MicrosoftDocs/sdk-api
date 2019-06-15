@@ -72,7 +72,7 @@ The default selection key will choose the selection.
 
 
 
-<a href="https://msdn.microsoft.com/D51E27FE-503E-459C-92F1-1826762A5188">GetSelectionStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfintegratablecandidatelistuielement-getselectionstyle">GetSelectionStyle</a>
  
 
  

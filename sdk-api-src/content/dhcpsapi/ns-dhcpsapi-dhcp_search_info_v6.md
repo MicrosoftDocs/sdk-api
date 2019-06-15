@@ -130,7 +130,7 @@ Enumeration value that selects the type of the value on which the DHCPv6 databas
 ### -field SearchInfo.ClientIpAddress
 
 
-<a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structure that specifies the client IPv6 address to search for.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structure that specifies the client IPv6 address to search for.
 
 
 ### -field SearchInfo.ClientDUID
@@ -155,7 +155,7 @@ Unicode string that specifies the client name to search for.
 
 
 
-<a href="https://msdn.microsoft.com/56c2cbda-4af5-4f28-9b1f-be7d6cf0c1f5">DHCP_SEARCH_INFO_TYPE_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_client_search_type_v6">DHCP_SEARCH_INFO_TYPE_V6</a>
  
 
  

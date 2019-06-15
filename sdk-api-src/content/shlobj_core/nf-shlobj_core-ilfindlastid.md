@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to the last <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure in an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Returns a pointer to the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Returns a pointer to the last <a href="https://msdn.microsoft.com/794c8425-2319-
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -returns
@@ -75,7 +75,7 @@ A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f
 
 Type: <b>PUITEMID_CHILD</b>
 
-A pointer to the last <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure in <i>pidl</i>.
+A pointer to the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure in <i>pidl</i>.
 
 
 
@@ -84,7 +84,7 @@ A pointer to the last <a href="https://msdn.microsoft.com/794c8425-2319-4339-881
 
 
 
-This function does not clone the last item, so you do not have to call <a href="https://msdn.microsoft.com/3457f36e-fdfd-44a4-90ca-a86f00bc9f36">ILFree</a> to release the returned pointer.
+This function does not clone the last item, so you do not have to call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to release the returned pointer.
 
 
 

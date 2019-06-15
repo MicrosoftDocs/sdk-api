@@ -84,7 +84,7 @@ The data representation with which the data was marshaled.
 
 ### -param pcontext [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4ecc4646-db3f-4d0e-9c45-b78a288156e1">CALLFRAME_MARSHALCONTEXT</a> structure that contains information about the context in which unmarshaling is to be carried out.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/callobj/ns-callobj-__midl_icallframe_0004">CALLFRAME_MARSHALCONTEXT</a> structure that contains information about the context in which unmarshaling is to be carried out.
 
 
 ### -param pcbUnmarshalled [out]
@@ -141,7 +141,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/66de8d71-c27c-41bd-a741-02de5c779290">ICallUnmarshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
  
 
  

@@ -61,7 +61,7 @@ Registers a callback to be called once OOBE (Windows Welcome) has been completed
 
 ### -param OOBECompletedCallback
 
-Pointer to an application-defined callback function that will be called upon completion of OOBE. For more information, see <a href="https://msdn.microsoft.com/9786D6C3-82B1-4546-9BE9-7705AD3B7DBD">OOBE_COMPLETED_CALLBACK</a>.
+Pointer to an application-defined callback function that will be called upon completion of OOBE. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nc-oobenotification-oobe_completed_callback">OOBE_COMPLETED_CALLBACK</a>.
 
 
 ### -param CallbackContext

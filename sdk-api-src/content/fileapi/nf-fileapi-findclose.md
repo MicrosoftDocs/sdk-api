@@ -57,13 +57,13 @@ ms.custom: 19H1
 
 
 Closes a file search handle opened by the 
-    <a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a>, 
-    <a href="https://msdn.microsoft.com/9f40e98f-153f-4b65-afd9-06742684c100">FindFirstFileEx</a>, 
-    <a href="https://msdn.microsoft.com/9f64aa3e-4c73-47a8-8304-6134f1b4d153">FindFirstFileNameW</a>, 
-    <a href="https://msdn.microsoft.com/79c7d32d-3cb7-4e27-9db1-f24282bf606a">FindFirstFileNameTransactedW</a>, 
-    <a href="https://msdn.microsoft.com/d94bf32b-f14b-44b4-824b-ed453d0424ef">FindFirstFileTransacted</a>, 
-    <a href="https://msdn.microsoft.com/76c64aa9-0501-457d-b774-c209fbac4ccc">FindFirstStreamTransactedW</a>, or 
-    <a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a> functions.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfilenametransactedw">FindFirstFileNameTransactedW</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirststreamtransactedw">FindFirstStreamTransactedW</a>, or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> functions.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ The file search handle.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -94,9 +94,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 After the <b>FindClose</b> function is called, the handle 
     specified by the <i>hFindFile</i> parameter cannot be used in subsequent calls to the 
-    <a href="https://msdn.microsoft.com/db7acb83-2da6-40bf-9962-5cfe54e257a5">FindNextFile</a>, 
-    <a href="https://msdn.microsoft.com/1d2f8041-2744-4f37-afde-ddce49a8bdc5">FindNextFileNameW</a>, 
-    <a href="https://msdn.microsoft.com/2bb0301c-b2be-4056-913c-e4102386135e">FindNextStreamW</a>, or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>, or 
     <b>FindClose</b> functions.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -163,7 +163,7 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/ab0d977d-f71c-4a18-9b1d-2221169324f0">Listing the Files in a Directory</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/FileIO/listing-the-files-in-a-directory">Listing the Files in a Directory</a>.
 
 <div class="code"></div>
 
@@ -174,47 +174,47 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f40e98f-153f-4b65-afd9-06742684c100">FindFirstFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/79c7d32d-3cb7-4e27-9db1-f24282bf606a">FindFirstFileNameTransactedW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfilenametransactedw">FindFirstFileNameTransactedW</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f64aa3e-4c73-47a8-8304-6134f1b4d153">FindFirstFileNameW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>
 
 
 
-<a href="https://msdn.microsoft.com/d94bf32b-f14b-44b4-824b-ed453d0424ef">FindFirstFileTransacted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a>
 
 
 
-<a href="https://msdn.microsoft.com/76c64aa9-0501-457d-b774-c209fbac4ccc">FindFirstStreamTransactedW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirststreamtransactedw">FindFirstStreamTransactedW</a>
 
 
 
-<a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a>
 
 
 
-<a href="https://msdn.microsoft.com/db7acb83-2da6-40bf-9962-5cfe54e257a5">FindNextFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d2f8041-2744-4f37-afde-ddce49a8bdc5">FindNextFileNameW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a>
 
 
 
-<a href="https://msdn.microsoft.com/2bb0301c-b2be-4056-913c-e4102386135e">FindNextStreamW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextstreamw">FindNextStreamW</a>
  
 
  

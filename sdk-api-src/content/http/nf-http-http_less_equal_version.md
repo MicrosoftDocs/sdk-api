@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_LESS_EQUAL_VERSION</b> macro returns a non-zero value if an 
-<a href="https://msdn.microsoft.com/8f97410c-27b5-4225-849e-ee55e4c5f762">HTTP_VERSION</a> structure is less than or equal to a specified major/minor version combination, or zero otherwise.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure is less than or equal to a specified major/minor version combination, or zero otherwise.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param version
 
 The 
-<a href="https://msdn.microsoft.com/8f97410c-27b5-4225-849e-ee55e4c5f762">HTTP_VERSION</a> structure to be examined.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_version">HTTP_VERSION</a> structure to be examined.
 
 
 ### -param major
@@ -80,7 +80,7 @@ The minor portion of the version to be compared.
 
 
 
-<a href="https://msdn.microsoft.com/9c5fb0a4-fda8-4489-8a1e-c232079bd501">HTTP Server API Version 1.0 Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>
  
 
  

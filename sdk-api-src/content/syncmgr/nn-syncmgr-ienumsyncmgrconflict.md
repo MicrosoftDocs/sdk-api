@@ -54,7 +54,7 @@ Exposes conflict enumeration methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncMgrConflict</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumSyncMgrConflict</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncMgrConflict</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncMgrConflict</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumSyncMgrConflict</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2eb0f1c1-71e2-45e6-bef7-1b480efb4ab7">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Not used. Clones an <b>IEnumSyncMgrConflict</b> object.
@@ -78,7 +78,7 @@ Not used. Clones an <b>IEnumSyncMgrConflict</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/486fba93-cdd1-49fd-96a8-cf56d1775a7c">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next batch of conflicts from the conflicts store.
@@ -87,7 +87,7 @@ Gets the next batch of conflicts from the conflicts store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58dece75-8fc3-42ae-89c8-407ebeaa7efb">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current position in the enumeration to zero.
@@ -96,7 +96,7 @@ Resets the current position in the enumeration to zero.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d636dd60-835f-40a8-b2e6-7d7ebf87e897">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrconflict-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips forward the specified number of conflicts in the enumeration.
@@ -110,7 +110,7 @@ Skips forward the specified number of conflicts in the enumeration.
 
 
 
-A conflict store returns a pointer to an <b>IEnumSyncMgrConflict</b> interface from <a href="https://msdn.microsoft.com/b59c679c-7759-4b7a-9a23-f054af99d6a7">ISyncMgrConflictStore::EnumConflicts</a>.
+A conflict store returns a pointer to an <b>IEnumSyncMgrConflict</b> interface from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictstore-enumconflicts">ISyncMgrConflictStore::EnumConflicts</a>.
 
 
 

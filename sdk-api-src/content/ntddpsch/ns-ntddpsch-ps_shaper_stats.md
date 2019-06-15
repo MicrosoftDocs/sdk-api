@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>PS_SHAPER_STATS</b> structure provides statistical packet shaper information about the computer's packet shaper component. Note that the 
 <b>PS_SHAPER_STATS</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/6263d80a-5486-4748-b3a7-4c9d9bb2162f">PS_COMPONENT_STATS</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ntddpsch/ns-ntddpsch-_ps_component_stats">PS_COMPONENT_STATS</a> structure.
 
 
 ## -struct-fields
@@ -75,11 +75,11 @@ Average number of packets that have been in the packet shaper for the flow or in
 
 
 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/6263d80a-5486-4748-b3a7-4c9d9bb2162f">PS_COMPONENT_STATS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ntddpsch/ns-ntddpsch-_ps_component_stats">PS_COMPONENT_STATS</a>
  
 
  

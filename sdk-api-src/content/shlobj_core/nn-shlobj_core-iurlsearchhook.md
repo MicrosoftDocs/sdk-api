@@ -54,7 +54,7 @@ Exposes a method that is used by the browser to translate the address of an unkn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IURLSearchHook</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IURLSearchHook</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IURLSearchHook</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IURLSearchHook</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IURLSearchHook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02fa8ee7-f9cb-4872-895c-7b3078391cc4">Translate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iurlsearchhook-translate">Translate</a>
 </td>
 <td align="left" width="63%">
 Called by the browser when the browser cannot determine the protocol of a URL address.
@@ -83,7 +83,7 @@ Called by the browser when the browser cannot determine the protocol of a URL ad
 
 
 
-When attempting to browse to a URL address that does not contain a protocol, the browser will first attempt to determine the correct protocol from the address. If this is not successful, the browser will create URL Search Hook objects and call each object's <a href="https://msdn.microsoft.com/02fa8ee7-f9cb-4872-895c-7b3078391cc4">Translate</a> method until the address is translated or all of the hooks have been queried.
+When attempting to browse to a URL address that does not contain a protocol, the browser will first attempt to determine the correct protocol from the address. If this is not successful, the browser will create URL Search Hook objects and call each object's <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iurlsearchhook-translate">Translate</a> method until the address is translated or all of the hooks have been queried.
 
 URL Search Hooks are registered by adding a value that contains the object's class identifier (CLSID) string under the following key in the registry: 
 				

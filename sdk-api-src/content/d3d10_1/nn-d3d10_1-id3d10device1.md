@@ -55,7 +55,7 @@ The device interface represents a virtual adapter for Direct3D 10.1; it is used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>. <b>ID3D10Device1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Device1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb694547(v=VS.85).aspx">CreateBlendState1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-id3d10device1-createblendstate1">CreateBlendState1</a>
 </td>
 <td align="left" width="63%">
 Create a blend-state object that encapsules blend state for the output-merger stage.
@@ -79,16 +79,16 @@ Create a blend-state object that encapsules blend state for the output-merger st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb694548(v=VS.85).aspx">CreateShaderResourceView1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-id3d10device1-createshaderresourceview1">CreateShaderResourceView1</a>
 </td>
 <td align="left" width="63%">
-Create a shader-resource <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing data in a resource.
+Create a shader-resource <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a> for accessing data in a resource.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb694549(v=VS.85).aspx">GetFeatureLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-id3d10device1-getfeaturelevel">GetFeatureLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the feature level of the hardware device.
@@ -102,7 +102,7 @@ Gets the feature level of the hardware device.
 
 
 
-A device is created using <a href="https://msdn.microsoft.com/en-us/library/Bb694526(v=VS.85).aspx">D3D10CreateDevice1</a>.
+A device is created using <a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1">D3D10CreateDevice1</a>.
 
 This method requires Windows Vista Service Pack 1.
 
@@ -114,11 +114,11 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device</a>
  
 
  

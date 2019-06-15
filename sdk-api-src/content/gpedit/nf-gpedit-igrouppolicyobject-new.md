@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
     <b>New</b> method creates a new GPO in the Active Directory with the specified display name. The method opens the GPO using the 
-<a href="https://msdn.microsoft.com/362b6229-d73f-424f-b906-05ed43e5e034">OpenDSGPO</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-opendsgpo">OpenDSGPO</a> method.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 
 To open a GPO that already exists, you can call the 
-<a href="https://msdn.microsoft.com/362b6229-d73f-424f-b906-05ed43e5e034">OpenDSGPO</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-opendsgpo">OpenDSGPO</a> method.
 
 
 
@@ -110,21 +110,21 @@ To open a GPO that already exists, you can call the
 
 
 
-<a href="https://msdn.microsoft.com/dc15a69d-a44d-4731-a9e5-6165abd581c4">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3cd31a1-c238-4eb2-8164-9c4891e6227b">IGroupPolicyObject</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/362b6229-d73f-424f-b906-05ed43e5e034">OpenDSGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-opendsgpo">OpenDSGPO</a>
  
 
  

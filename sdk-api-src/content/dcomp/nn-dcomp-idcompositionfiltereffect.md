@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Represents a filter effect.
 
-IDCompositionFilterEffect exposes a subset of Direct2D's image <a href="https://msdn.microsoft.com/1446BDA9-AD4C-472C-8F1D-82ABC1880E13">effects</a> through Direction Composition for use in CSS filters in the browser platform.
+IDCompositionFilterEffect exposes a subset of Direct2D's image <a href="https://docs.microsoft.com/windows/desktop/Direct2D/effects-overview">effects</a> through Direction Composition for use in CSS filters in the browser platform.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionFilterEffect</b> interface inherits from <a href="https://msdn.microsoft.com/9C9DFECD-0EC0-446C-8CCC-BB7979B01575">IDCompositionEffect</a>. <b>IDCompositionFilterEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionFilterEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>. <b>IDCompositionFilterEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDCompositionFilterEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8DFF137E-2979-42D4-A8A5-F831A33468CA">SetInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionfiltereffect-setinput">SetInput</a>
 </td>
 <td align="left" width="63%">
 Sets the the input at an index to the specified filter effect.
@@ -86,11 +86,11 @@ Sets the the input at an index to the specified filter effect.
 
 
 
-<a href="https://msdn.microsoft.com/9C9DFECD-0EC0-446C-8CCC-BB7979B01575">IDCompositionEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
  
 
  

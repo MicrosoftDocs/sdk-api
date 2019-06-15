@@ -62,7 +62,7 @@ The <b>EnumAudioEndpoints</b> method generates a collection of audio endpoint de
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -75,7 +75,7 @@ If the caller specifies eAll, the method includes both rendering and capture end
 
 ### -param dwStateMask [in]
 
-The state or states of the endpoints that are to be included in the collection. The caller should set this parameter to the bitwise OR of one or more of the following <a href="https://msdn.microsoft.com/d03f2fbc-313a-42cf-902a-fd9f6dce2a35">DEVICE_STATE_XXX</a> constants:
+The state or states of the endpoints that are to be included in the collection. The caller should set this parameter to the bitwise OR of one or more of the following <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-state-xxx-constants">DEVICE_STATE_XXX</a> constants:
 
 DEVICE_STATE_ACTIVE
 
@@ -90,7 +90,7 @@ For example, if the caller sets the <i>dwStateMask</i> parameter to DEVICE_STATE
 
 ### -param ppDevices [out]
 
-Pointer to a pointer variable into which the method writes the address of the <a href="https://msdn.microsoft.com/4769b0a6-a319-4605-8742-5e7c285679cf">IMMDeviceCollection</a> interface of the device-collection object. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>EnumAudioEndpoints</b> call fails,  <i>*ppDevices</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection</a> interface of the device-collection object. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>EnumAudioEndpoints</b> call fails,  <i>*ppDevices</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -164,7 +164,7 @@ In the preceding code fragment, variable <i>hr</i> is of type <b>HRESULT</b>, <i
 
 #### Examples
 
-For a code example that calls the <b>EnumAudioEndpoints</b> method, see <a href="https://msdn.microsoft.com/ad8753ba-ad20-4122-b0f2-eb165f98db67">Device Properties</a>.
+For a code example that calls the <b>EnumAudioEndpoints</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-properties">Device Properties</a>.
 
 <div class="code"></div>
 
@@ -175,11 +175,11 @@ For a code example that calls the <b>EnumAudioEndpoints</b> method, see <a href=
 
 
 
-<a href="https://msdn.microsoft.com/4769b0a6-a319-4605-8742-5e7c285679cf">IMMDeviceCollection Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1abdeac1-c156-40b8-8b8c-5ddb51e410aa">IMMDeviceEnumerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
  
 
  

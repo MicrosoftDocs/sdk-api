@@ -118,7 +118,7 @@ Reserved for future use. At this time, the value should always be <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/d514d0ed-6e99-4a11-a681-2844fced0347">Windows Sync Registration Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-structures">Windows Sync Registration Structures</a>
  
 
  

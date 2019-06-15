@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/5A612002-2B1D-4FC3-B364-AACD9FD44BEC">Discrete transfer effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/discrete-transfer">Discrete transfer effect</a>.
 
 
 ## -enum-fields

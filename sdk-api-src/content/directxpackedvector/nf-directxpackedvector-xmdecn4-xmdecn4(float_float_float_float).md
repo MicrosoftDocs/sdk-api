@@ -52,7 +52,7 @@ ms.custom: 19H1
 Initializes a new instance of <code>XMDECN4</code> from four normalized <code>float</code>arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx">XMDECN4</a> from four
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a> from four
 	normalized <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -152,11 +152,11 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419440(v=VS.85).aspx">XMDECN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdecn4">XMDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415270(v=VS.85).aspx">XMDECN4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmdecn4-ctor">XMDECN4 Constructors</a>
  
 
  

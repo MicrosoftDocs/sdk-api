@@ -54,7 +54,7 @@ The <b>ITfInsertAtSelection</b> interface is implemented by the manager and is u
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInsertAtSelection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfInsertAtSelection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInsertAtSelection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInsertAtSelection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfInsertAtSelection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">InsertEmbeddedAtSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">InsertEmbeddedAtSelection</a>
 </td>
 <td align="left" width="63%">
 Inserts an IDataObject object at the selection or insertion point.
@@ -78,7 +78,7 @@ Inserts an IDataObject object at the selection or insertion point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">InsertTextAtSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">InsertTextAtSelection</a>
 </td>
 <td align="left" width="63%">
 Inserts text at the selection or insertion point.

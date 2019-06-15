@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/adf2e5df-42ca-41dc-aa84-60302c36a494">IUpdateDownloadContent2</a> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://msdn.microsoft.com/829112ab-b240-4cc4-8053-18b484934886">Updating Windows Update Agent</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 
 
@@ -72,7 +72,7 @@ The <a href="https://msdn.microsoft.com/adf2e5df-42ca-41dc-aa84-60302c36a494">IU
 
 
 
-<a href="https://msdn.microsoft.com/adf2e5df-42ca-41dc-aa84-60302c36a494">IUpdateDownloadContent2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>
  
 
  

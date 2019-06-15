@@ -118,7 +118,7 @@ Insufficient memory exists to perform the operation.
 
 
 The application must free the memory allocated for the <i>ppUser</i> parameter through 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the variable is no longer needed.
 
 
 
@@ -128,7 +128,7 @@ The application must free the memory allocated for the <i>ppUser</i> parameter t
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
  
 
  

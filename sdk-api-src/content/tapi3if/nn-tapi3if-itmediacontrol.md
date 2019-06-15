@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITMediaControl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITMediaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITMediaControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d28063cc-12fe-45b1-8f6a-8c2436926e12">get_MediaState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-get_mediastate">get_MediaState</a>
 </td>
 <td align="left" width="63%">
 Gets the current state of the file terminal.
@@ -79,7 +79,7 @@ Gets the current state of the file terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ede287ff-2f13-4258-9afe-f6d0958e53b4">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the action, remaining at the current location in the file.
@@ -88,7 +88,7 @@ Pauses the action, remaining at the current location in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6fdf0da-9e22-4c77-9cd8-6ceccba81221">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the action at the current file location.
@@ -97,7 +97,7 @@ Starts the action at the current file location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c108838-ad31-407a-b9af-bfc8c1c4a577">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediacontrol-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the current action, and sets the current location to the beginning of the file.

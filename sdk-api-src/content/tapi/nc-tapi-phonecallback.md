@@ -108,7 +108,7 @@ This callback function does not return a value.
 
 
 For more information about the parameters passed to this callback function, see 
-<a href="https://msdn.microsoft.com/d302819e-c522-470a-be5e-52625c9223a4">TAPI Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-messages">TAPI Messages</a>.
 
 All callbacks occur in the application's context. The callback function must reside in a dynamic-link library (DLL) or application module and be exported in the module-definition file.
 

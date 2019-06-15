@@ -54,7 +54,7 @@ The <b>ITraceEventCallback</b>  interface is used by ETW to provide information 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITraceEventCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITraceEventCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEventCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/acc6b1c4-9be1-490d-8b82-7ae8e73bd929">OnBeginProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onbeginprocesstrace">OnBeginProcessTrace</a>
 </td>
 <td align="left" width="63%">
 Indicates that a trace is about to begin so that relogging can be started. Invoked before starting to process the events of the specified trace stream.
@@ -78,7 +78,7 @@ Indicates that a trace is about to begin so that relogging can be started. Invok
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2099db80-89fd-4ce1-a7ca-e79abbd7b9e5">OnEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onevent">OnEvent</a>
 </td>
 <td align="left" width="63%">
 Indicates that an event has been received on the trace streams associated with a relogger.
@@ -87,7 +87,7 @@ Indicates that an event has been received on the trace streams associated with a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b152b6fd-4af5-4781-9c88-c71364ef86ff">OnFinalizeProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nf-relogger-itraceeventcallback-onfinalizeprocesstrace">OnFinalizeProcessTrace</a>
 </td>
 <td align="left" width="63%">
 Indicates that a trace is about to end so that relogging can be finalized. Invoked when finished processing the events of the specified trace stream.
@@ -111,11 +111,11 @@ This interface is not supported on Windows 7 for the IA64 architecture.
 
 
 
-<a href="https://msdn.microsoft.com/29b6f72a-ae81-4292-a023-a4bab16ae143">ITraceEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/08073b9a-5ae0-4e88-a502-647567418005">ITraceRelogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
  
 
  

@@ -113,7 +113,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When the audio balance changes, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVENT_BALANCECHANGE</b> event. See <a href="https://msdn.microsoft.com/F6B9E025-53C4-4459-9EC4-EA228065FAD3">IMFMediaEventNotify::EventNotify</a>.
+When the audio balance changes, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVENT_BALANCECHANGE</b> event. See <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginenotify-eventnotify">IMFMediaEventNotify::EventNotify</a>.
 
 
 
@@ -123,7 +123,7 @@ When the audio balance changes, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVE
 
 
 
-<a href="https://msdn.microsoft.com/EE3591FD-4FE8-4F20-A4E2-52C896229571">IMFMediaEngineEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
  
 
  

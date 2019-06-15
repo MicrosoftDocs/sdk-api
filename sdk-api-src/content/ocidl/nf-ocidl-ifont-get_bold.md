@@ -107,11 +107,11 @@ The address in pBold is not valid. For example, it may be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/c25738fe-daf4-4eac-b4b0-354950e29f27">IFont::put_Bold</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_bold">IFont::put_Bold</a>
  
 
  

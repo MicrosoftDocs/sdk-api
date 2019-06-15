@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/F03FC0C8-D589-4C3C-A6C1-AD631839ED26">IWdsTransportServicePolicy2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy2">IWdsTransportServicePolicy2</a>
  
 
  

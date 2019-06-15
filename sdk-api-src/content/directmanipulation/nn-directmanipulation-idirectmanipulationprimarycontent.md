@@ -54,7 +54,7 @@ Encapsulates the primary content inside a viewport. Primary content is the conte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationPrimaryContent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectManipulationPrimaryContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationPrimaryContent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationPrimaryContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDirectManipulationPrimaryContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e38c1445-af4b-463b-8796-d72d69cb19c6">GetCenterPoint</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getcenterpoint">GetCenterPoint</a>
 </td>
 <td align="left" width="63%">
     Retrieves the center point of the manipulation in content coordinates.
@@ -78,7 +78,7 @@ The <b>IDirectManipulationPrimaryContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BCF0E48F-C47E-42BE-90F8-25737301DC9C">GetInertiaEndTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-getinertiaendtransform">GetInertiaEndTransform</a>
 </td>
 <td align="left" width="63%">
 Gets the final transform, including inertia, of the primary content.
@@ -87,7 +87,7 @@ Gets the final transform, including inertia, of the primary content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94716ec8-325e-4e9e-9a30-1d9999bdb9c3">SetHorizontalAlignment</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-sethorizontalalignment">SetHorizontalAlignment</a>
 </td>
 <td align="left" width="63%">
 Sets the horizontal alignment of the primary content relative to the viewport.
@@ -96,7 +96,7 @@ Sets the horizontal alignment of the primary content relative to the viewport.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f9afe1b-20f4-45fa-a63b-25b7a0c597af">SetSnapCoordinate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapcoordinate">SetSnapCoordinate</a>
 </td>
 <td align="left" width="63%">
     Specifies the coordinate system for snap points or snap intervals. 
@@ -105,7 +105,7 @@ Sets the horizontal alignment of the primary content relative to the viewport.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99d039fe-017a-47c5-95a1-5000efe92ba0">SetSnapInterval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapinterval">SetSnapInterval</a>
 </td>
 <td align="left" width="63%">
     Specifies snap points for the inertia end position at uniform intervals.
@@ -114,7 +114,7 @@ Sets the horizontal alignment of the primary content relative to the viewport.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3257952d-903b-455c-9422-9739411a5924">SetSnapPoints</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnappoints">SetSnapPoints</a>
 </td>
 <td align="left" width="63%">
 Specifies the snap points for the inertia rest position.
@@ -123,7 +123,7 @@ Specifies the snap points for the inertia rest position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f1ad54d-8c9a-4b3c-a78b-fe02cb889ca9">SetSnapType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnaptype">SetSnapType</a>
 </td>
 <td align="left" width="63%">
 Specifies the type of snap point.
@@ -132,7 +132,7 @@ Specifies the type of snap point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/111f0358-0955-4ebb-b273-c17d3fb84d75">SetVerticalAlignment</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setverticalalignment">SetVerticalAlignment</a>
 </td>
 <td align="left" width="63%">
 Specifies the vertical alignment of the primary content in the viewport.
@@ -141,7 +141,7 @@ Specifies the vertical alignment of the primary content in the viewport.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77e4054b-637f-4cff-bfab-0e2a0e992c59">SetZoomBoundaries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setzoomboundaries">SetZoomBoundaries</a>
 </td>
 <td align="left" width="63%">
 Specifies the minimum and maximum boundaries for zoom.
@@ -156,7 +156,7 @@ Specifies the minimum and maximum boundaries for zoom.
 
 
 
-<a href="https://msdn.microsoft.com/03680CE5-A858-4876-B41C-6F2E08C02C22">Direct Manipulation Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
  
 
  

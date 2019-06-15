@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertIsRDNAttrsInCertificateName</b> function compares the attributes in the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate name</a> with the specified 
-<a href="https://msdn.microsoft.com/e84254b9-e9a7-4689-a12f-2772282c5433">CERT_RDN</a> to determine whether all attributes are included there. The comparison iterates through the <b>CERT_RDN</b> and looks for an attribute match in any of the <b>CERT_RDN</b>s of the certificate name.
+The <b>CertIsRDNAttrsInCertificateName</b> function compares the attributes in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate name</a> with the specified 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> to determine whether all attributes are included there. The comparison iterates through the <b>CERT_RDN</b> and looks for an attribute match in any of the <b>CERT_RDN</b>s of the certificate name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertIsRDNAttrsInCertificateName</b> function compares the attributes in t
 
 ### -param dwCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -74,7 +74,7 @@ Currently defined encoding types are:
 ### -param dwFlags [in]
 
 CERT_UNICODE_IS_RDN_ATTRS_FLAG must be set if the <i>pRDN</i> was initialized with Unicode strings as in 
-<a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a> with <i>lpszStructType</i> set to X509_UNICODE_NAME.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> with <i>lpszStructType</i> set to X509_UNICODE_NAME.
 
 CERT_CASE_INSENSITIVE_IS_RDN_ATTRS_FLAG is set to do a case insensitive match. Otherwise, an exact, case sensitive match is done.
 
@@ -82,17 +82,17 @@ CERT_CASE_INSENSITIVE_IS_RDN_ATTRS_FLAG is set to do a case insensitive match. O
 ### -param pCertName [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> that contains the encoded subject or issuer name.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> that contains the encoded subject or issuer name.
 
 
 ### -param pRDN [in]
 
 Array of 
-<a href="https://msdn.microsoft.com/e84254b9-e9a7-4689-a12f-2772282c5433">CERT_RDN</a> structures that contain the attributes to be found in the name. The 
-<a href="https://msdn.microsoft.com/4729e824-761c-4115-8b7b-76ffdab8ea62">CERT_RDN_ATTR</a> member of the <b>CERT_RDN</b> structure behaves according to the following rules.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> structures that contain the attributes to be found in the name. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> member of the <b>CERT_RDN</b> structure behaves according to the following rules.
 
 <ul>
-<li>If <b>pszObjId</b> is <b>NULL</b>, the attribute <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) is ignored.</li>
+<li>If <b>pszObjId</b> is <b>NULL</b>, the attribute <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is ignored.</li>
 <li>If <b>dwValueType</b> is CERT_RDN_ANY_TYPE, the value type is ignored.</li>
 <li>If the <b>pbData</b> member of <b>Value</b> is  <b>NULL</b>, any value can be a match.</li>
 </ul>
@@ -101,10 +101,10 @@ Array of
 
 
 
-If the function succeeds and all of the RDN values in the specified <a href="https://msdn.microsoft.com/e84254b9-e9a7-4689-a12f-2772282c5433">CERT_RDN</a> are in the certificate name, the return value is nonzero (<b>TRUE</b>).
+If the function succeeds and all of the RDN values in the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> are in the certificate name, the return value is nonzero (<b>TRUE</b>).
 
-If the function fails, or if there are  RDN values in the specified <a href="https://msdn.microsoft.com/e84254b9-e9a7-4689-a12f-2772282c5433">CERT_RDN</a> that are not in the certificate name, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, or if there are  RDN values in the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn">CERT_RDN</a> that are not in the certificate name, the return value is zero (<b>FALSE</b>). For extended error information, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table lists some possible error codes.
 
@@ -138,8 +138,8 @@ Invalid certificate encoding type. Currently only X509_ASN_ENCODING is supported
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -158,11 +158,11 @@ Currently, only an exact, case-sensitive match is supported.
 
 
 
-<a href="https://msdn.microsoft.com/20b3fcfb-55df-46ff-80a5-70f31a3d03b2">CertFindCertificateInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

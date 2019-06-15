@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ASSEMBLY_INFO</b> structure contains information about an assembly in the side-by-side assembly store.  The information is used by the <a href="https://msdn.microsoft.com/fc13e5ac-60cf-43f2-b50e-00be3a1ad270">QueryAssemblyInfo</a> method.
+The <b>ASSEMBLY_INFO</b> structure contains information about an assembly in the side-by-side assembly store.  The information is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo">QueryAssemblyInfo</a> method.
 
 
 ## -struct-fields

@@ -61,7 +61,7 @@ Gets a value that indicates whether a property is canonical according to the def
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure that contains the type and value of the property.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure that contains the type and value of the property.
 
 
 ## -returns

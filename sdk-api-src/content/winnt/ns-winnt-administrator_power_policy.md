@@ -60,7 +60,7 @@ Represents the administrator override power policy settings.
 ### -field MinSleep
 
 The minimum system power sleep state. This member must be one of the 
-      <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values between 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values between 
       <b>PowerSystemSleeping1</b> (power state S1) and 
       <b>PowerSystemHibernate</b> (power state S4).
 
@@ -68,7 +68,7 @@ The minimum system power sleep state. This member must be one of the
 ### -field MaxSleep
 
 The maximum system power sleep state. This member must be one of the 
-      <a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values between 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values between 
       <b>PowerSystemSleeping1</b> (power state S1) and 
       <b>PowerSystemHibernate</b> (power state S4).
 
@@ -105,7 +105,7 @@ The <b>ADMINISTRATOR_POWER_POLICY</b>
     structure override any settings selected by the user in the Power Options control panel program.
 
 To set an administrator override policy, call the 
-    <a href="https://msdn.microsoft.com/adc0052d-e2dd-4c55-996c-6af8f5987d79">CallNtPowerInformation</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a> function.
 
 
 
@@ -115,7 +115,7 @@ To set an administrator override policy, call the
 
 
 
-<a href="https://msdn.microsoft.com/adc0052d-e2dd-4c55-996c-6af8f5987d79">CallNtPowerInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
  
 
  

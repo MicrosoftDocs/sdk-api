@@ -111,7 +111,7 @@ If set, the mouse button click does not activate the other window.
 </dl>
 </td>
 <td width="60%">
-If set, this enables the caller to receive <a href="https://msdn.microsoft.com/en-us/library/ms645591(v=VS.85).aspx">WM_INPUT_DEVICE_CHANGE</a> notifications for device arrival and device removal.
+If set, this enables the caller to receive <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input-device-change">WM_INPUT_DEVICE_CHANGE</a> notifications for device arrival and device removal.
 
 <b>Windows XP:  </b>This flag is not supported until Windows Vista
 
@@ -211,7 +211,7 @@ A handle to the target window. If <b>NULL</b> it follows the keyboard focus.
 
 
 
-If <b>RIDEV_NOLEGACY</b> is set for a mouse or a keyboard, the system does not generate any legacy message for that device for the application. For example, if the mouse TLC is set with <b>RIDEV_NOLEGACY</b>, <a href="https://msdn.microsoft.com/en-us/library/ms645607(v=VS.85).aspx">WM_LBUTTONDOWN</a> and related legacy mouse messages are not generated. Likewise, if the keyboard TLC is set with <b>RIDEV_NOLEGACY</b>, <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a> and related legacy keyboard messages are not generated.
+If <b>RIDEV_NOLEGACY</b> is set for a mouse or a keyboard, the system does not generate any legacy message for that device for the application. For example, if the mouse TLC is set with <b>RIDEV_NOLEGACY</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown">WM_LBUTTONDOWN</a> and related legacy mouse messages are not generated. Likewise, if the keyboard TLC is set with <b>RIDEV_NOLEGACY</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> and related legacy keyboard messages are not generated.
 
 If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>NULL</b>, then parameter validation will fail.
 
@@ -227,11 +227,11 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645599(v=VS.85).aspx">GetRegisteredRawInputDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getregisteredrawinputdevices">GetRegisteredRawInputDevices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 
@@ -239,7 +239,7 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx">RegisterRawInputDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerrawinputdevices">RegisterRawInputDevices</a>
  
 
  

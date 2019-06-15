@@ -56,7 +56,7 @@ Provides encryption for media data inside the protected media path (PMP).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleProtection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSampleProtection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSampleProtection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSampleProtection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFSampleProtection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26f92775-f8a0-4b85-8cfc-353349325706">GetInputProtectionVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-getinputprotectionversion">GetInputProtectionVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version of sample protection that the component implements on input.
@@ -80,7 +80,7 @@ Retrieves the version of sample protection that the component implements on inpu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/607e6123-0cfa-4946-b390-1c44e502b2db">GetOutputProtectionVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-getoutputprotectionversion">GetOutputProtectionVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version of sample protection that the component implements on output.
@@ -89,7 +89,7 @@ Retrieves the version of sample protection that the component implements on outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af">GetProtectionCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-getprotectioncertificate">GetProtectionCertificate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the sample protection certificate.
@@ -98,7 +98,7 @@ Retrieves the sample protection certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bd43f33-8528-4e78-97d5-2af39a2ac06b">InitInputProtection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-initinputprotection">InitInputProtection</a>
 </td>
 <td align="left" width="63%">
 Initializes sample protection on the downstream component.
@@ -107,7 +107,7 @@ Initializes sample protection on the downstream component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03bee13d-1c51-4b26-98bb-bac15264aa54">InitOutputProtection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-initoutputprotection">InitOutputProtection</a>
 </td>
 <td align="left" width="63%">
 Retrieves initialization information for sample protection from the upstream component.
@@ -122,7 +122,7 @@ Retrieves initialization information for sample protection from the upstream com
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -77,7 +77,7 @@ Animation is enabled.
 
 
 
-<a href="https://msdn.microsoft.com/b5d6c5f1-1e1c-497f-a556-f419e2c68585">IUIAnimationManager::SetAnimationMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-setanimationmode">IUIAnimationManager::SetAnimationMode</a>
  
 
  

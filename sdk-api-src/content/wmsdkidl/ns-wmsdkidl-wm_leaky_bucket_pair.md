@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_LEAKY_BUCKET_PAIR </b>structure describes the buffering requirements for a VBR file. This structure is used with the <a href="https://msdn.microsoft.com/d1b3e8cc-c082-4283-88bc-172f58adf2d9">ASFLeakyBucketPairs</a> attribute.
+The <b>WM_LEAKY_BUCKET_PAIR </b>structure describes the buffering requirements for a VBR file. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/wmformat/asfleakybucketpairs">ASFLeakyBucketPairs</a> attribute.
 
 
 
@@ -84,7 +84,7 @@ The <b>ASFLeakyBucketPairs</b> attribute gives a list of bit rates and correspon
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

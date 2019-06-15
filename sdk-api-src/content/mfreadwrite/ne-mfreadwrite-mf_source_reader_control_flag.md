@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags for the <a href="https://msdn.microsoft.com/99bd9bd7-d8d1-433a-bc5a-4b9761de5048">IMFSourceReader::ReadSample</a> method.
+Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Contains flags for the <a href="https://msdn.microsoft.com/99bd9bd7-d8d1-433a-bc
 
 ### -field MF_SOURCE_READER_CONTROLF_DRAIN
 
-Retrieve any pending samples, but do not request any more samples from the media source. To get all of the pending samples, call <a href="https://msdn.microsoft.com/99bd9bd7-d8d1-433a-bc5a-4b9761de5048">ReadSample</a> with this flag until the method returns a <b>NULL</b> media sample pointer.
+Retrieve any pending samples, but do not request any more samples from the media source. To get all of the pending samples, call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">ReadSample</a> with this flag until the method returns a <b>NULL</b> media sample pointer.
 
 
 ## -see-also
@@ -67,11 +67,11 @@ Retrieve any pending samples, but do not request any more samples from the media
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
  
 
  

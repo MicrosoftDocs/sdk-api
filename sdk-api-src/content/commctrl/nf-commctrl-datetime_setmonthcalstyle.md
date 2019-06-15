@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the style for a specified date and time picker (DTP) control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761778(v=VS.85).aspx">DTM_SETMCSTYLE</a> message explicitly.
+Sets the style for a specified date and time picker (DTP) control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setmcstyle">DTM_SETMCSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -59,13 +59,13 @@ Sets the style for a specified date and time picker (DTP) control. Use this macr
 
 ### -param hdp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the DTP.
 
 
 ### -param dwStyle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760919(v=VS.85).aspx">Month Calendar Control Styles</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/month-calendar-control-styles">Month Calendar Control Styles</a>

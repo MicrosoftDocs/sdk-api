@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 				<b>NetLocalGroupAddMember</b> function is obsolete. You should use the 
-<a href="https://msdn.microsoft.com/3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857">NetLocalGroupAddMembers</a> function instead.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupaddmembers">NetLocalGroupAddMembers</a> function instead.
 
 
 ## -parameters

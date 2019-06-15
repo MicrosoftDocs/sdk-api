@@ -61,32 +61,32 @@ Creates a linked object from a data transfer object retrieved either from the cl
 
 ### -param pSrcDataObj [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface on the data transfer object from which the linked object is to be created.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data transfer object from which the linked object is to be created.
 
 
 ### -param riid [in]
 
-Reference to the identifier of interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface identifier for <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>).
+Reference to the identifier of interface the caller later uses to communicate with the new object (usually IID_IOleObject, defined in the OLE headers as the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>).
 
 
 ### -param renderopt [in]
 
-Value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. Additional considerations are described in the following Remarks section.
+Value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. Additional considerations are described in the following Remarks section.
 
 
 ### -param pFormatEtc [in]
 
- Pointer to a value from the enumeration <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
+ Pointer to a value from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a> that indicates the locally cached drawing or data-retrieval capabilities the newly created object is to have. The <b>OLERENDER</b> value chosen affects the possible values for the <i>pFormatEtc</i> parameter.
 
 
 ### -param pClientSite [in]
 
- Pointer to an instance of <a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
+ Pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>, the primary interface through which the object will request services from its container. This parameter can be <b>NULL</b>.
 
 
 ### -param pStg [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object. This parameter cannot be <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object. This parameter cannot be <b>NULL</b>.
 
 
 ### -param ppvObj [out]
@@ -149,11 +149,11 @@ Not able to bind to source. Binding is necessary to get the cache's initializati
 
 
 
-The <b>OleCreateLinkFromData</b> function is used to implement either a paste-link or a drag-link operation. Its operation is similar to that of the <a href="https://msdn.microsoft.com/aa5e997e-60d4-472d-9c81-5359c277bde3">OleCreateFromData</a> function, except that it creates a link, and looks for different data formats. If the CF_LINKSOURCE format is not present, and either the FileName or FileNameW clipboard format is present in the data transfer object, <b>OleCreateLinkFromData</b> creates a package containing the link to the indicated file.
+The <b>OleCreateLinkFromData</b> function is used to implement either a paste-link or a drag-link operation. Its operation is similar to that of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> function, except that it creates a link, and looks for different data formats. If the CF_LINKSOURCE format is not present, and either the FileName or FileNameW clipboard format is present in the data transfer object, <b>OleCreateLinkFromData</b> creates a package containing the link to the indicated file.
 
 
 
-You use the renderopt and <i>pFormatetc</i> parameters to control the caching capability of the newly created object. For general information on how to determine what is to be cached, refer to the <a href="https://msdn.microsoft.com/bab871ba-4ec4-49fd-854a-585732b91290">OLERENDER</a> enumeration for a description of the interaction between renderopt and <i>pFormatetc</i>. There are, however, some additional specific effects of these parameters on the way <b>OleCreateLinkFromData</b> initializes the cache, as follows.
+You use the renderopt and <i>pFormatetc</i> parameters to control the caching capability of the newly created object. For general information on how to determine what is to be cached, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolerender">OLERENDER</a> enumeration for a description of the interaction between renderopt and <i>pFormatetc</i>. There are, however, some additional specific effects of these parameters on the way <b>OleCreateLinkFromData</b> initializes the cache, as follows.
 
 <table>
 <tr>
@@ -195,7 +195,7 @@ Nothing is to be cached in the newly created object.
 
 
 
-<a href="https://msdn.microsoft.com/ef52dc37-aa63-47f3-a04f-f9d22178690f">OleCreateLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatelink">OleCreateLink</a>
  
 
  

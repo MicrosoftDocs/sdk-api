@@ -55,7 +55,7 @@ This shader-reflection interface provides access to a variable.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ShaderReflectionVariable</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D12ShaderReflectionVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ShaderReflectionVariable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12ShaderReflectionVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,17 +70,17 @@ The <b>ID3D12ShaderReflectionVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/433FABE2-D0BB-4E97-84BB-D20566D32571">GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/4102AF77-3EC7-42CD-8B9C-6D0CC999529A">ID3D12ShaderReflectionConstantBuffer</a> of the present <b>ID3D12ShaderReflectionVariable</b>.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionconstantbuffer">ID3D12ShaderReflectionConstantBuffer</a> of the present <b>ID3D12ShaderReflectionVariable</b>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21CF98AF-5645-4059-992A-FFF778576C93">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a shader-variable description.
@@ -90,7 +90,7 @@ Gets a shader-variable description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6CD169C7-0C6B-4EC8-BF57-96EE5065CC9D">GetInterfaceSlot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-getinterfaceslot">GetInterfaceSlot</a>
 </td>
 <td align="left" width="63%">
 Gets the corresponding interface slot for a variable that represents an interface pointer.
@@ -100,7 +100,7 @@ Gets the corresponding interface slot for a variable that represents an interfac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DE2BBC9F-3519-4896-96E1-40C2E726D8A1">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets a shader-variable type.
@@ -115,7 +115,7 @@ Gets a shader-variable type.
 
 
 
-To get a shader-reflection-variable interface, call a method like <a href="https://msdn.microsoft.com/E79DACF1-2C89-42BB-BB04-DFA8280987C7">ID3D12ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+To get a shader-reflection-variable interface, call a method like <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflection-getvariablebyname">ID3D12ShaderReflection::GetVariableByName</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
           
 
 
@@ -126,7 +126,7 @@ To get a shader-reflection-variable interface, call a method like <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/791d2c91-3791-47fe-b887-8117ecc798ba">Shader Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>
  
 
  

@@ -168,7 +168,7 @@ Alternatively, you can allocate an array that is equal to the total number of st
 
 Before calling this method, initialize <code>*pwNumStreams</code>  to the number of elements in <i>pwStreamNumbers</i>. If <i>pwStreamNumbers</i> is <b>NULL</b>, set <code>*pwNumStreams</code> to zero.
 
-By default, no streams are selected by the splitter. Select streams by calling the <a href="https://msdn.microsoft.com/a241f8a4-7609-4a6c-825f-a7b882bfc25f">IMFASFSplitter::SelectStreams</a> method.
+By default, no streams are selected by the splitter. Select streams by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-selectstreams">IMFASFSplitter::SelectStreams</a> method.
       
 
 
@@ -179,11 +179,11 @@ By default, no streams are selected by the splitter. Select streams by calling t
 
 
 
-<a href="https://msdn.microsoft.com/383b1cc6-4a77-4e0e-a766-6213c64b025c">ASF Splitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d8b2a3-7c50-4dd5-8927-b11eb9f12602">IMFASFSplitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
  
 
  

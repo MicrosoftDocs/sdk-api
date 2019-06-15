@@ -132,7 +132,7 @@ Not enough memory to complete the task.
 
 This is an asynchronous call that returns immediately.
 
-<b>For silent acquisition: </b>When the license acquisition is complete, <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> is called with the <i>status</i> parameter set to <b>WMT_ACQUIRE_LICENSE</b>. If the license acquisition was successful, the <i>pvalue</i> parameter is set to a byte pointer to a <a href="https://msdn.microsoft.com/7e8053d5-f3f5-4519-97f5-6dbd89982f3a">WM_GET_LICENSE_DATA</a> structure. If there was an error during the license acquisition, the <b>HRESULT</b> from the <b>OnStatus</b> call holds the appropriate error code.
+<b>For silent acquisition: </b>When the license acquisition is complete, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> is called with the <i>status</i> parameter set to <b>WMT_ACQUIRE_LICENSE</b>. If the license acquisition was successful, the <i>pvalue</i> parameter is set to a byte pointer to a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> structure. If there was an error during the license acquisition, the <b>HRESULT</b> from the <b>OnStatus</b> call holds the appropriate error code.
 
 <b>For non-silent acquisition:
           </b><b>OnStatus</b> will return immediately and send a <b>WMT_ACQUIRE_LICENSE</b> event to the application. In that case, the <b>WM_GET_LICENSE_DATA</b> structure contains information about the URL to be used to acquire the license.
@@ -145,19 +145,19 @@ This is an asynchronous call that returns immediately.
 
 
 
-<a href="https://msdn.microsoft.com/e118bf09-1fa6-41b6-a6bb-3e8cb6097994">Handling License Acquisition Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/handling-license-acquisition-events">Handling License Acquisition Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798349(v=VS.85).aspx">IWMDRMReader::CancelLicenseAcquisition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition">IWMDRMReader::CancelLicenseAcquisition</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>
  
 
  

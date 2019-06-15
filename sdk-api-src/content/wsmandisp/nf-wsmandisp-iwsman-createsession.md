@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object that can then be used for subsequent network operations.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/WinRM/session">Session</a> object that can then be used for subsequent network operations.
 
 
 ## -parameters
@@ -65,13 +65,13 @@ The protocol and service to connect to, including either IPv4 or IPv6. The forma
 ### -param flags [in]
 
 The session flags that specify the authentication method, such as 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">Negotiate authentication</a> 
+     <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">Negotiate authentication</a> 
      or 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">Digest authentication</a>, 
+     <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">Digest authentication</a>, 
      for connecting to a remote computer. These flags also specify other session connection information, such as 
      encoding or encryption. This parameter must contain one or more of the flags in 
      <b>__WSManSessionFlags</b> for a remote connection. For more information, see 
-     <a href="https://msdn.microsoft.com/5df52696-ac2c-42b7-8b0f-99a27b58575b">Session Constants</a>. No flag settings are required for a 
+     <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-constants">Session Constants</a>. No flag settings are required for a 
      connection to the WinRM service on the local computer.
 
 If no  authentication flags are specified, Kerberos is used unless one of the following conditions is true, 
@@ -82,17 +82,17 @@ If no  authentication flags are specified, Kerberos is used unless one of the fo
 <li>the destination host is "localhost", "127.0.0.1" or "[::1]"</li>
 <li>the client computer is in a workgroup and the destination host is trusted</li>
 </ul>
-For more information, see <a href="https://msdn.microsoft.com/97a13b07-ae7a-4d2f-8841-77a22c91b204">Authentication for Remote Connections</a> and the <i>connectionOptions</i> parameter.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/authentication-for-remote-connections">Authentication for Remote Connections</a> and the <i>connectionOptions</i> parameter.
 
 
 ### -param connectionOptions [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a> object that contains a user name and password. The default is <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object that contains a user name and password. The default is <b>NULL</b>.
 
 
 ### -param session [out]
 
-A pointer to a new <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object.
+A pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object.
 
 
 ## -returns
@@ -144,11 +144,11 @@ Uses HTTPS and IPv6 with the given port.
 
 
 
-<a href="https://msdn.microsoft.com/4e5acfa6-9883-4716-ac69-92161c926c66">IWSMan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
 
 
 
-<a href="https://msdn.microsoft.com/299d9a95-bd30-414c-996d-6633e8b7ce52">WSMan.CreateSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>
  
 
  

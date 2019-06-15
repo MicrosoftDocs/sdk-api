@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_BitsPerSample</b> method returns the value for the <b>wBitsPerSample</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value of the <b>wBitsPerSample</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -returns
@@ -109,11 +109,11 @@ The <i>pVal</i> argument is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/6b5d069a-044f-4bd4-b661-6100a2607107">ITScriptableAudioFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e1038d6-122f-40c9-a6ab-57ae583ff9bc">put_BitsPerSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_bitspersample">put_BitsPerSample</a>
  
 
  

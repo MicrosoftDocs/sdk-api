@@ -65,7 +65,7 @@ The <b>GetTSDT</b> method retrieves the transport stream description table (TSDT
 
 ### -param ppTSDT [out]
 
-Receives an <a href="https://msdn.microsoft.com/en-us/library/Dd694980(v=VS.85).aspx">ITSDT</a> interface pointer. The caller must release the interface.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-itsdt">ITSDT</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -154,7 +154,7 @@ The method fails if the filter does not receive a matching table within a predet
 
 
 
-<a href="https://msdn.microsoft.com/dbe922b3-b843-4eaa-807d-5608cfbb9686">IAtscPsipParser Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
  
 
  

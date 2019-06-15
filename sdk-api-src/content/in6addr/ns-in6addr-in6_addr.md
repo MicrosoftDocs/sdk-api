@@ -87,7 +87,7 @@ All members of the IN6_ADDR structure must be specified in network-byte-order (b
 
 
 
-<a href="https://msdn.microsoft.com/ef2955d2-5dc1-420b-a9e0-32a584059d5a">SOCKADDR_IN6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_in6">SOCKADDR_IN6</a>
  
 
  

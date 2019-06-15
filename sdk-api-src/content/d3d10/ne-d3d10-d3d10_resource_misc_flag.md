@@ -59,9 +59,9 @@ Identifies other, less common options for resources.
 
 ### -field D3D10_RESOURCE_MISC_GENERATE_MIPS
 
-Enables an application to call <a href="https://msdn.microsoft.com/en-us/library/Bb173569(v=VS.85).aspx">ID3D10Device::GenerateMips</a> on 
-        a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">texture resource</a>. The resource must be created 
-        with the <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">bind flags</a> that specify that the resource is a render target and a shader resource.
+Enables an application to call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-generatemips">ID3D10Device::GenerateMips</a> on 
+        a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">texture resource</a>. The resource must be created 
+        with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_bind_flag">bind flags</a> that specify that the resource is a render target and a shader resource.
 
 
 ### -field D3D10_RESOURCE_MISC_SHARED
@@ -75,7 +75,7 @@ WARP and REF devices do not support shared resources. Attempting to create a res
 ### -field D3D10_RESOURCE_MISC_TEXTURECUBE
 
 Enables an application to create a cube texture from a 
-        <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">Texture2DArray</a> that contains 6 textures.
+        <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">Texture2DArray</a> that contains 6 textures.
 
 
 ### -field D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX
@@ -108,8 +108,8 @@ Enables a surface to be used for GDI interoperability.  Setting this flag enable
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172479(v=VS.85).aspx">D3D10_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172480(v=VS.85).aspx">D3D10_TEXTURE2D_DESC</a>, 
-      <a href="https://msdn.microsoft.com/en-us/library/Bb172481(v=VS.85).aspx">D3D10_TEXTURE3D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172695(v=VS.85).aspx">D3DX10_IMAGE_INFO</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb172696(v=VS.85).aspx">D3DX10_IMAGE_LOAD_INFO</a>.
+This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_buffer_desc">D3D10_BUFFER_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture1d_desc">D3D10_TEXTURE1D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture2d_desc">D3D10_TEXTURE2D_DESC</a>, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-cd3d10_texture3d_desc">D3D10_TEXTURE3D_DESC</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10-image-info">D3DX10_IMAGE_INFO</a>, and <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10-image-load-info">D3DX10_IMAGE_LOAD_INFO</a>.
 
 These flags can be combined by bitwise OR.
 
@@ -124,7 +124,7 @@ D3D10_RESOURCE_MISC_SHARED and D3D10_RESOURCE_MISC_SHARED_KEYEDMUTEX are mutuall
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_ENCODE_PARA</b> structure is used by the <a href="https://msdn.microsoft.com/45134db8-059b-43d3-90c2-9b6cc970fca0">CryptEncodeObjectEx</a> function to provide access to memory allocation and memory freeing callback functions.
+The <b>CRYPT_ENCODE_PARA</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function to provide access to memory allocation and memory freeing callback functions.
 
 
 ## -struct-fields

@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Inherits all the functionality of the <a href="https://msdn.microsoft.com/en-us/library/ms689110(v=VS.85).aspx">IFaxServer</a> interface and adds read-only properties for the server's configuration, account management, security objects, and the current account. 
+Inherits all the functionality of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a> interface and adds read-only properties for the server's configuration, account management, security objects, and the current account. 
 
 
 ## -remarks
 
 
 
-In Windows Vista and later, the <a href="https://msdn.microsoft.com/en-us/library/ms689109(v=VS.85).aspx">FaxServer</a> object provides a default implementation of the interface.
+In Windows Vista and later, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a> object provides a default implementation of the interface.
 
 
 

@@ -75,7 +75,7 @@ Point that represents the end of the line segment. The point is in ink space coo
 
 
 
-<a href="https://msdn.microsoft.com/1317badb-38e1-41fe-9918-c28da88aa511">LINE_METRICS Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ne-rectypes-enumline_metrics">LINE_METRICS Enumeration</a>
  
 
  

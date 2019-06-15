@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-See  <a href="https://msdn.microsoft.com/B16BEFFD-26CF-4598-96A4-098C3E3AA51C">MFCreateProtectedEnvironmentAccess</a> for an example of how to create an <a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4">IMFProtectedEnvironmentAccess</a> object and use the <b>Call</b> method.
+See  <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreateprotectedenvironmentaccess">MFCreateProtectedEnvironmentAccess</a> for an example of how to create an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a> object and use the <b>Call</b> method.
 
 
 
@@ -119,11 +119,11 @@ See  <a href="https://msdn.microsoft.com/B16BEFFD-26CF-4598-96A4-098C3E3AA51C">M
 
 
 
-<a href="https://msdn.microsoft.com/2cd93bc9-4a42-4e16-80aa-4ecf5900f5e4">IMFProtectedEnvironmentAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfprotectedenvironmentaccess">IMFProtectedEnvironmentAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/B16BEFFD-26CF-4598-96A4-098C3E3AA51C">MFCreateProtectedEnvironmentAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreateprotectedenvironmentaccess">MFCreateProtectedEnvironmentAccess</a>
  
 
  

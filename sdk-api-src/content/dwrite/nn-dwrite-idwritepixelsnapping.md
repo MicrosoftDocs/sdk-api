@@ -54,7 +54,7 @@ Defines the pixel snapping properties such as pixels per DIP(device-independent 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWritePixelSnapping</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWritePixelSnapping</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWritePixelSnapping</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWritePixelSnapping</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWritePixelSnapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3cfbea6-c240-47e9-a072-a59626e39ee9">GetCurrentTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritepixelsnapping-getcurrenttransform">GetCurrentTransform</a>
 </td>
 <td align="left" width="63%">
  Gets a transform that maps abstract coordinates to DIPs.
@@ -78,7 +78,7 @@ The <b>IDWritePixelSnapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41b07197-e50c-4145-a931-e35e778541cc">GetPixelsPerDip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritepixelsnapping-getpixelsperdip">GetPixelsPerDip</a>
 </td>
 <td align="left" width="63%">
  Gets the number of physical pixels per DIP.
@@ -87,7 +87,7 @@ The <b>IDWritePixelSnapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ad3f61e-99b7-4c29-9ba4-694b962a5023">IsPixelSnappingDisabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371281(v=vs.85)">IsPixelSnappingDisabled</a>
 </td>
 <td align="left" width="63%">
  Determines whether pixel snapping is disabled. The recommended default is <b>FALSE</b>, unless doing animation that requires subpixel vertical placement.

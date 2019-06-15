@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 		
-<div class="alert"><b>Note</b>  This function is superseded by the <a href="https://msdn.microsoft.com/415da310-de56-4d58-8959-231426867526">PdhExpandWildCardPath</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -85,8 +85,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 <table>
 <tr>
@@ -247,11 +247,11 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/415da310-de56-4d58-8959-231426867526">PdhExpandWildCardPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2dc5f77-9f9e-4290-95fa-ce2f1e81fc69">PdhMakeCounterPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
  
 
  

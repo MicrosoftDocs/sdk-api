@@ -55,7 +55,7 @@ Represents an instance of a filter to be applied to an enumeration. For a comple
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItemFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesItemFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesItemFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesItemFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesItemFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75466fc7-d14c-4ce7-82e9-9622287a50d1">GetFilterFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-getfilterflags">GetFilterFlags</a>
 </td>
 <td align="left" width="63%">
 Provides flags to control flag-based filtering of items.
@@ -79,7 +79,7 @@ Provides flags to control flag-based filtering of items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/570cf25c-d4a4-42d6-8f33-bb660a7e99ab">GetPatternFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-getpatternfilter">GetPatternFilter</a>
 </td>
 <td align="left" width="63%">
 Provides a filter pattern string to limit enumerated items based on item name patterns.
@@ -88,7 +88,7 @@ Provides a filter pattern string to limit enumerated items based on item name pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">GetTimeFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">GetTimeFilter</a>
 </td>
 <td align="left" width="63%">
 Provides time-value-comparison semantics to control filtering of items based on time.
@@ -103,7 +103,7 @@ Provides time-value-comparison semantics to control filtering of items based on 
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
  
 
  

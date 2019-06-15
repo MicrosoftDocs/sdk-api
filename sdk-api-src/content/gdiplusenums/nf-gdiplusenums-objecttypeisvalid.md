@@ -61,7 +61,7 @@ The <b>ObjectTypeIsValid</b> function determines whether an element of the Objec
 
 ### -param type
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534156(v=VS.85).aspx">ObjectType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-objecttype">ObjectType</a></b>
 
 Element of the ObjectType enumeration to be tested.
 

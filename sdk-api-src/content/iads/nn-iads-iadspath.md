@@ -59,11 +59,11 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/6fc7ce1a-575b-48c4-9f66-3ea22d60c96b">IADsPath Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspath-property-methods">IADsPath Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

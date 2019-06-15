@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the shape in which sound is emitted by an <a href="https://msdn.microsoft.com/E69F1D09-B937-4BCC-A040-18EF8A838289">ISpatialAudioObjectForHrtf</a>.
+Specifies the shape in which sound is emitted by an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 
 ## -enum-fields

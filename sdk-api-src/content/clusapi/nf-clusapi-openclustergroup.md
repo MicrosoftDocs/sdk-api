@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens a failover cluster <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> and returns a handle to 
+Opens a failover cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> and returns a handle to 
     it.
 
 
@@ -88,7 +88,7 @@ Name of the group to open.
 </td>
 <td width="60%">
 The operation was not successful. For information about the error, call the function 
-        <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -106,15 +106,15 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/5bbacf45-2e1a-402a-8592-c8f60034c4ad">CloseClusterGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/240defbb-b9e9-4455-b863-c9b2192f12b7">OpenClusterGroupEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroupex">OpenClusterGroupEx</a>
  
 
  

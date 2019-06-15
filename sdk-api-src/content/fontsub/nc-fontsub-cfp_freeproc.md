@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Client-provided callback function, used by <a href="https://msdn.microsoft.com/aeea47c7-af55-46c4-b701-e00ec7540d24">CreateFontPackage</a> and <a href="https://msdn.microsoft.com/c51110a0-286c-4d97-9da5-4186ebf8f9b8">MergeFontPackage</a> to free memory.
+Client-provided callback function, used by <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to free memory.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Previously allocated memory block to be freed.
 
 
 
-Deallocates a memory block (<i>memblock</i>) that was previously allocated by a call to a <a href="https://msdn.microsoft.com/f6a98721-ebd1-4d83-bc9d-adde2e3ce525">CFP_ALLOCPROC</a> or <a href="https://msdn.microsoft.com/06c45ea3-1776-4f9c-a931-461d0b697535">CFP_REALLOCPROC</a> callback function. If memblock is <b>NULL</b>, the pointer should be ignored and the function should return immediately. The function is not required to correctly handle being passed an invalid pointer (a pointer to a memory block that was not allocated by the appropriate <a href="https://msdn.microsoft.com/f6a98721-ebd1-4d83-bc9d-adde2e3ce525">CFP_ALLOCPROC</a> or <a href="https://msdn.microsoft.com/06c45ea3-1776-4f9c-a931-461d0b697535">CFP_REALLOCPROC</a> callback function).
+Deallocates a memory block (<i>memblock</i>) that was previously allocated by a call to a <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a> callback function. If memblock is <b>NULL</b>, the pointer should be ignored and the function should return immediately. The function is not required to correctly handle being passed an invalid pointer (a pointer to a memory block that was not allocated by the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a> callback function).
 
 
 
@@ -85,7 +85,7 @@ Deallocates a memory block (<i>memblock</i>) that was previously allocated by a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd318652(v=VS.85).aspx">free</a> conforms to this type; the application can either use <b>free</b> or a more specialized function. Whatever function is chosen, there must also be appropriate functions to allocate and to reallocate this memory. 
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbaseallocator-free">free</a> conforms to this type; the application can either use <b>free</b> or a more specialized function. Whatever function is chosen, there must also be appropriate functions to allocate and to reallocate this memory. 
       
 
 
@@ -96,19 +96,19 @@ Deallocates a memory block (<i>memblock</i>) that was previously allocated by a 
 
 
 
-<a href="https://msdn.microsoft.com/f6a98721-ebd1-4d83-bc9d-adde2e3ce525">CFP_ALLOCPROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_allocproc">CFP_ALLOCPROC</a>
 
 
 
-<a href="https://msdn.microsoft.com/06c45ea3-1776-4f9c-a931-461d0b697535">CFP_REALLOCPROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a>
 
 
 
-<a href="https://msdn.microsoft.com/aeea47c7-af55-46c4-b701-e00ec7540d24">CreateFontPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c51110a0-286c-4d97-9da5-4186ebf8f9b8">MergeFontPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a>
  
 
  

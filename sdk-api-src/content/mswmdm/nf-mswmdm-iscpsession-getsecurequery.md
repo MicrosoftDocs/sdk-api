@@ -89,7 +89,7 @@ This method should be used to obtain a secure query object when using secure con
 
 
 
-<a href="https://msdn.microsoft.com/4efd8e5a-490b-435b-b34d-7099198891b1">ISCPSession Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession Interface</a>
  
 
  

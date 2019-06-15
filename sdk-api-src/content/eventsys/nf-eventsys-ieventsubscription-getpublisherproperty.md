@@ -91,11 +91,11 @@ Publisher filters should call this method to obtain filter properties stored by 
 
 
 
-<a href="https://msdn.microsoft.com/ce3f9f7e-3d0a-445f-b3db-671ee595aedf">IEventSubscription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/94f335be-aeb5-4d24-b475-e2aaae2b0a17">PublisherID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_publisherid">PublisherID</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms536266(v=VS.85).aspx">CharacterRange</a> object specifies a range of character positions within a string.
+A <a href="https://docs.microsoft.com/previous-versions//ms536266(v=vs.85)">CharacterRange</a> object specifies a range of character positions within a string.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CharacterRange</b> has these types of members:
 <ul>
@@ -63,19 +63,19 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms536266(v=VS.85).aspx">Char
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange()</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange~r2">CharacterRange::CharacterRange()</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536268(v=VS.85).aspx">CharacterRange::CharacterRange</a> object with the data members set to zero.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange~r2">CharacterRange::CharacterRange</a> object with the data members set to zero.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange(INT,INT)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)">CharacterRange::CharacterRange(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536269(v=VS.85).aspx">CharacterRange::CharacterRange</a> object and initializes the data members to the values specified.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-characterrange(int_int)">CharacterRange::CharacterRange</a> object and initializes the data members to the values specified.
 
 </td>
 </tr>
@@ -88,10 +88,10 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536269(v=VS.85).as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-operator=">CharacterRange::operator=</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536267(v=VS.85).aspx">CharacterRange::operator=</a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-characterrange-operator=">CharacterRange::operator=</a> method sets this <b>CharacterRange</b> object equal to the specified <b>CharacterRange</b> object.
 
 </td>
 </tr>

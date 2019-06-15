@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> appears to be available 
+Determines whether a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> appears to be available 
     for use. The <b>PLOOKS_ALIVE_ROUTINE</b> type defines a pointer to this 
     function.
 
@@ -109,12 +109,12 @@ The resource may not be functioning properly.
 
 For effective implementation strategies of the 
      <i>LooksAlive</i> entry-point function, see 
-     <a href="https://msdn.microsoft.com/436d99c7-91ab-4ecd-9ee3-f42887c00407">Implementing LooksAlive</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-looksalive">Implementing LooksAlive</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="https://docs.microsoft.com/previous-versions//aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
@@ -125,7 +125,7 @@ See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

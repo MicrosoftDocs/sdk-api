@@ -67,7 +67,7 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/2324DCD0-DAE1-4AC2-AB36-23D114803138">Macros</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/macros">Macros</a>
  
 
  

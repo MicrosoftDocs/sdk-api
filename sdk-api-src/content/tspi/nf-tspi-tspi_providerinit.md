@@ -61,8 +61,8 @@ The
 ### -param dwTSPIVersion
 
 The version of the TSPI definition under which this function must operate. The caller can use 
-<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a> with the special <i>dwDeviceID</i>
-<a href="https://msdn.microsoft.com/ce978913-47a1-4387-bd1b-1795aaf82dd7">INITIALIZE_NEGOTIATION</a> to negotiate a version that is guaranteed to be acceptable to the service provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a> with the special <i>dwDeviceID</i>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a> to negotiate a version that is guaranteed to be acceptable to the service provider.
 
 
 ### -param dwPermanentProviderID
@@ -83,13 +83,13 @@ The lowest device identifier for the phone devices supported by this service pro
 ### -param dwNumLines
 
 The number of line devices this service provider supports. The value returned is the number of line devices reported in 
-<a href="https://msdn.microsoft.com/5c7c578d-7200-4807-b89b-5bc39ee83e45">TSPI_providerEnumDevices</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerenumdevices">TSPI_providerEnumDevices</a>.
 
 
 ### -param dwNumPhones
 
 The number of phone devices this service provider supports. The value returned is the number of phone devices reported in 
-<a href="https://msdn.microsoft.com/5c7c578d-7200-4807-b89b-5bc39ee83e45">TSPI_providerEnumDevices</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerenumdevices">TSPI_providerEnumDevices</a>.
 
 
 ### -param lpfnCompletionProc
@@ -110,12 +110,12 @@ At this time, only one bit is defined to be returned through this pointer: LINET
 <div class="alert"><b>Note</b>  <b>Important:</b> It must be emphasized that setting this bit degrades performance. It is strongly recommended that this be used only for development but not a shipped production service provider.</div>
 <div> </div>
 TAPI does not serialize access to TSPI functions that display a dialog box (
-<a href="https://msdn.microsoft.com/405af7aa-eb0b-49a1-9712-2f86357fc720">TUISPI_lineConfigDialog</a>, 
-<a href="https://msdn.microsoft.com/05169974-31f3-445b-b55f-5931bace6505">TUISPI_lineConfigDialogEdit</a>, 
-<a href="https://msdn.microsoft.com/6bdd4206-0028-43f0-8da8-2fc11779f7d2">TUISPI_phoneConfigDialog</a>, 
-<a href="https://msdn.microsoft.com/9730f61a-8da7-4693-9fd2-94650e36ce8a">TUISPI_providerConfig</a>, 
-<a href="https://msdn.microsoft.com/4b133336-7cd1-4af4-bc8d-4defce97559d">TUISPI_providerInstall</a>, 
-<a href="https://msdn.microsoft.com/217d1f40-7f3f-49a0-b29e-e2da85ba47f1">TUISPI_providerRemove</a>) so that they do not block other TSPI functions from being called; the service provider must include internal protection on these functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit">TUISPI_lineConfigDialogEdit</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog">TUISPI_phoneConfigDialog</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>) so that they do not block other TSPI functions from being called; the service provider must include internal protection on these functions.
 
 
 ## -returns
@@ -134,8 +134,8 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_
 
 
 This function is guaranteed to be called before any of the other functions prefixed with <b>TSPI_line</b> or <b>TSPI_phone</b> except 
-<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a>. It is strictly paired with a subsequent call to 
-<a href="https://msdn.microsoft.com/b13e0ed6-c053-4290-bc4c-5f66e4a376b7">TSPI_providerShutdown</a> These pairs may overlap, for example, when the Telephony Control Panel utility supplied with Windows Telephony in versions 1.4 and earlier is used while telephony operations are in progress. The call to this function must be ignored (returning success) if there is already an outstanding pair.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>. It is strictly paired with a subsequent call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a> These pairs may overlap, for example, when the Telephony Control Panel utility supplied with Windows Telephony in versions 1.4 and earlier is used while telephony operations are in progress. The call to this function must be ignored (returning success) if there is already an outstanding pair.
 
 A service provider should perform as many consistency checks as is practical at the time. 
 <b>TSPI_providerInit</b> is called to ensure that it is ready to run. Some consistency or installation errors, however, cannot be detected until the operation is attempted. The error LINEERR_NODRIVER can be used to report such nonspecific errors at the time they are detected.
@@ -150,35 +150,35 @@ There is no directly corresponding function at the TAPI level. At that level, mu
 
 
 
-<a href="https://msdn.microsoft.com/d92fbf18-282d-485b-9d56-22e4896ece57">TSPI_lineNegotiateTSPIVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/b13e0ed6-c053-4290-bc4c-5f66e4a376b7">TSPI_providerShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/405af7aa-eb0b-49a1-9712-2f86357fc720">TUISPI_lineConfigDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog">TUISPI_lineConfigDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/05169974-31f3-445b-b55f-5931bace6505">TUISPI_lineConfigDialogEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit">TUISPI_lineConfigDialogEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bdd4206-0028-43f0-8da8-2fc11779f7d2">TUISPI_phoneConfigDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_phoneconfigdialog">TUISPI_phoneConfigDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/9730f61a-8da7-4693-9fd2-94650e36ce8a">TUISPI_providerConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b133336-7cd1-4af4-bc8d-4defce97559d">TUISPI_providerInstall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerinstall">TUISPI_providerInstall</a>
 
 
 
-<a href="https://msdn.microsoft.com/217d1f40-7f3f-49a0-b29e-e2da85ba47f1">TUISPI_providerRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerremove">TUISPI_providerRemove</a>
  
 
  

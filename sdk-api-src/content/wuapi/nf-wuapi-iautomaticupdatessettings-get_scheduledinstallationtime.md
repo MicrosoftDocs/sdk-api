@@ -174,7 +174,7 @@ The time is set by using the following values.
 </table>
  
 
-The value of this property is ignored if the value of the <a href="https://msdn.microsoft.com/da4fdb8a-8df8-468f-afde-292bbcf6696b">NotificationLevel</a> property is not <b>aunlScheduledInstallation</b>. 
+The value of this property is ignored if the value of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a> property is not <b>aunlScheduledInstallation</b>. 
 
 <div class="alert"><b>Note</b>  Starting with Windows 8 and Windows Server 2012, <b>ScheduledInstallationTime</b> is not supported and will return unreliable values. If you try to modify <b>ScheduledInstallationTime</b>, the operation will appear to succeed but will have no effect.</div>
 <div> </div>
@@ -186,7 +186,7 @@ The value of this property is ignored if the value of the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/c4672df5-9e47-45f5-9504-1ebb0bf3c6a6">IAutomaticUpdatesSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
  
 
  

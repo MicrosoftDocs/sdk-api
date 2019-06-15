@@ -49,15 +49,15 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSignAndEncodeCertificate</b> function encodes and signs a certificate, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL), <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL), or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>.
+The <b>CryptSignAndEncodeCertificate</b> function encodes and signs a certificate, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
 This function performs the following operations:
 <ul>
 <li>Calls 
-<a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a> using <i>lpszStructType</i> to encode the "to be signed" information.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> using <i>lpszStructType</i> to encode the "to be signed" information.</li>
 <li>Calls 
-<a href="https://msdn.microsoft.com/27578149-e5c0-47e5-8309-0d0ed7075d13">CryptSignCertificate</a> to sign this encoded information.</li>
-<li>Calls <a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a> again, with <i>lpszStructType</i> set to X509_CERT, to further encode the resulting signed, encoded information.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsigncertificate">CryptSignCertificate</a> to sign this encoded information.</li>
+<li>Calls <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> again, with <i>lpszStructType</i> set to X509_CERT, to further encode the resulting signed, encoded information.</li>
 </ul>
 
 ## -parameters
@@ -67,13 +67,13 @@ This function performs the following operations:
 
 ### -param hBCryptKey [in]
 
-A handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) to do the signature. This handle is an <a href="https://msdn.microsoft.com/8ec6b392-06bc-4717-8657-7ea9a43d03fb">HCRYPTPROV</a> handle that has been created by using the 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://msdn.microsoft.com/581c5d89-730d-4d8c-b3bb-a28edec25910">NCryptOpenKey</a> function. New applications should always pass in a <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
+A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to do the signature. This handle is an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in a <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
 
 
 ### -param dwKeySpec [in]
 
-Identifies the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> to use from the provider's container. This must be one of the following values. This parameter is ignored if a CNG key is passed in the <i>hCryptProvOrNCryptKey</i> parameter.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to use from the provider's container. This must be one of the following values. This parameter is ignored if a CNG key is passed in the <i>hCryptProvOrNCryptKey</i> parameter.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ Specifies the encoding type used. This can be the following value.
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://msdn.microsoft.com/06a28de3-dd7c-4efe-9baa-20aac69d63f3">CRL_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a> structure.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://msdn.microsoft.com/6edeed33-16e1-4295-90e9-769929ab916a">CERT_REQUEST_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a> structure.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> structure.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ A pointer to a null-terminated ANSI string that contains the type of data to be 
 </dl>
 </td>
 <td width="60%">
-<i>pvStructInfo</i> is the address of a <a href="https://msdn.microsoft.com/44cbe4de-a9cc-48b2-ad04-9acd42fac07c">CERT_KEYGEN_REQUEST_INFO</a> structure.
+<i>pvStructInfo</i> is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_keygen_request_info">CERT_KEYGEN_REQUEST_INFO</a> structure.
 
 </td>
 </tr>
@@ -189,14 +189,14 @@ The address of a structure that contains the data to be signed and encoded. The 
 ### -param pSignatureAlgorithm [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the signature algorithm and any additional parameters needed. This function uses the following algorithm OIDs:
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the signature algorithm and any additional parameters needed. This function uses the following algorithm OIDs:
 
 <ul>
 <li>szOID_RSA_MD5RSA</li>
 <li>szOID_RSA_SHA1RSA</li>
 <li>szOID_X957_SHA1DSA</li>
 </ul>
-If the signature algorithm is a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> algorithm, the signature contains only the unencrypted hash octets. A private key is not used to encrypt the hash. <i>dwKeySpec</i> is not used and <i>hCryptProvOrNCryptKey</i> can be <b>NULL</b> if an appropriate default CSP can be used for hashing.
+If the signature algorithm is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm, the signature contains only the unencrypted hash octets. A private key is not used to encrypt the hash. <i>dwKeySpec</i> is not used and <i>hCryptProvOrNCryptKey</i> can be <b>NULL</b> if an appropriate default CSP can be used for hashing.
 
 
 ### -param pvHashAuxInfo [in]
@@ -209,7 +209,7 @@ Reserved. Must be <b>NULL</b>.
 A pointer to a buffer to receive the signed and encoded output.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbEncoded [in, out]
@@ -229,12 +229,12 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a>, 
-<a href="https://msdn.microsoft.com/9cf0de04-fdad-457d-8137-16d98f915cd5">CryptSignHash</a> and 
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> might be propagated to this function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> might be propagated to this function.</div>
 <div> </div>
 Possible error codes include, but are not limited to, the following.
 
@@ -290,8 +290,8 @@ An error was encountered while encoding or decoding. The most likely cause of th
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -301,11 +301,11 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/27578149-e5c0-47e5-8309-0d0ed7075d13">CryptSignCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsigncertificate">CryptSignCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

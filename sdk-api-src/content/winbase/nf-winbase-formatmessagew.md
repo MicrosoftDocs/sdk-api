@@ -97,12 +97,12 @@ The function allocates a buffer large enough to hold the formatted message, and 
          cast the pointer to an <b>LPTSTR</b> (for example, 
          <code>(LPTSTR)&amp;lpBuffer</code>). The <i>nSize</i> 
          parameter specifies the minimum number of <b>TCHARs</b> to allocate for an output 
-         message buffer. The caller should use the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> 
+         message buffer. The caller should use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> 
          function to free the buffer when it is no longer needed.
 
 If the length of the formatted message exceeds 128K bytes, then 
          <b>FormatMessage</b> will fail and a subsequent call to 
-         <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return 
+         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
          <b>ERROR_MORE_DATA</b>.
 
 In previous versions of Windows, this value was not available for use when compiling Windows Store apps. As of Windows 10 this value can be used. 
@@ -179,7 +179,7 @@ The function should search the system message-table resource(s) for the requeste
          flag cannot be used with <b>FORMAT_MESSAGE_FROM_STRING</b>.
 
 If this flag is specified, an application can pass the result of the 
-         <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to retrieve the message text 
+         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the message text 
          for a system-defined error.
 
 </td>
@@ -291,7 +291,7 @@ The message identifier for the requested message. This parameter is ignored if
 
 ### -param dwLanguageId [in]
 
-The <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> for the requested 
+The <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the requested 
        message. This parameter is ignored if <i>dwFlags</i> includes 
        <b>FORMAT_MESSAGE_FROM_STRING</b>.
 
@@ -319,7 +319,7 @@ If <b>FormatMessage</b> does not locate a message for any
 
 A pointer to a buffer that receives the null-terminated string that specifies the formatted message. If 
        <i>dwFlags</i> includes <b>FORMAT_MESSAGE_ALLOCATE_BUFFER</b>, the 
-       function allocates a buffer using the <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> 
+       function allocates a buffer using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> 
        function, and places the pointer to the buffer at the address specified in 
        <i>lpBuffer</i>.
 
@@ -366,7 +366,7 @@ If the function succeeds, the return value is the number of <b>TCHARs</b> stored
        output buffer, excluding the terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -426,13 +426,13 @@ Repeating insert numbers when the source string contains width and precision spe
         resulting in an access violation).
 
 Floating-point format specifiers—e, E, f, and g—are not supported. 
-        The workaround is to use the <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> 
+        The workaround is to use the <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> 
         function to format the floating-point number into a temporary buffer, then use that buffer as the insert 
         string.
 
 Inserts that use the I64 prefix are treated as two 32-bit arguments. They must be used before subsequent 
         arguments are used. Note that it may be easier for you to use 
-        <a href="https://msdn.microsoft.com/en-us/library/ms647541(v=VS.85).aspx">StringCchPrintf</a> instead of this prefix.
+        <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> instead of this prefix.
 
 </td>
 </tr>
@@ -498,8 +498,8 @@ If this function is called without <b>FORMAT_MESSAGE_IGNORE_INSERTS</b>, the
 
 The <b>FormatMessage</b> function can be used to obtain 
      error message strings for the system error codes returned by 
-     <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. For an example, see 
-     <a href="https://msdn.microsoft.com/4cc626ac-7574-44ce-8377-e0bdd8e74b7e">Retrieving the Last-Error Code</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+     <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>.
 
 <div class="code"></div>
 The following example shows how to use an argument array and the width and precision specifiers.
@@ -611,11 +611,11 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 
 
-<a href="https://msdn.microsoft.com/ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5">Error Handling Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9de35f1-6d31-4f4b-b2c4-8474d6fce9e0">Message Compiler</a>
+<a href="https://docs.microsoft.com/windows/desktop/WES/message-compiler--mc-exe-">Message Compiler</a>
 
 
 

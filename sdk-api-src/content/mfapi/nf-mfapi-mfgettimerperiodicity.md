@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Retrieves the timer interval for the <a href="https://msdn.microsoft.com/e5898fc8-72e9-45cc-8e85-4410ed7cc512">MFAddPeriodicCallback</a> function.
+Retrieves the timer interval for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 
 
 
@@ -99,11 +99,11 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

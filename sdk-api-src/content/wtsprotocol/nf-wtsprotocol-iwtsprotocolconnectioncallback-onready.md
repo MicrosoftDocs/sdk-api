@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback::OnReady</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/88134a34-c494-48ea-9063-206e7d0c5139">IWRdsProtocolConnectionCallback::OnReady</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback::OnReady</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-onready">IWRdsProtocolConnectionCallback::OnReady</a>.]
 
 Requests that the Remote Desktop Services service continue the connection process for that client.
 
@@ -67,7 +67,7 @@ Requests that the Remote Desktop Services service continue the connection proces
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -76,7 +76,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-The protocol must call this method after the Remote Desktop Services service calls <a href="https://msdn.microsoft.com/b3fcc213-8257-433f-b304-ce19bc209591">SendPolicyData</a>. The Remote Desktop Services service will not call <a href="https://msdn.microsoft.com/5be00911-f68a-410d-8d56-81458b5ff44e">AcceptConnection</a> to continue the connection process until <b>OnReady</b> has been called.
+The protocol must call this method after the Remote Desktop Services service calls <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-sendpolicydata">SendPolicyData</a>. The Remote Desktop Services service will not call <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-acceptconnection">AcceptConnection</a> to continue the connection process until <b>OnReady</b> has been called.
 
 
 
@@ -86,7 +86,7 @@ The protocol must call this method after the Remote Desktop Services service cal
 
 
 
-<a href="https://msdn.microsoft.com/ac8a2a66-fa1f-48bd-9502-def833e26f31">IWTSProtocolConnectionCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>
  
 
  

@@ -61,7 +61,7 @@ The
 ### -param pEventSink [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/bcf64c78-aad2-4b53-b938-cc1fd373c8b4">ITPluggableTerminalEventSink</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsink">ITPluggableTerminalEventSink</a> interface.
 
 
 ## -returns
@@ -78,15 +78,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/bcf64c78-aad2-4b53-b938-cc1fd373c8b4">ITPluggableTerminalEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsink">ITPluggableTerminalEventSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c8924bd-468e-458c-b16a-ac378fb4b69a">ITPluggableTerminalEventSinkRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration">ITPluggableTerminalEventSinkRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/261ea39e-485f-4039-94b0-cd92f614c0a9">UnregisterSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsinkregistration-unregistersink">UnregisterSink</a>
  
 
  

@@ -95,7 +95,7 @@ Specifies the display rotation mode as a member of the <b>D3DDISPLAYROTATION</b>
 
 ### -param pOverlayCaps [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/4d9e031d-af01-4b8a-b90c-9d83b09c24da">D3DOVERLAYCAPS</a> structure. If the driver supports the overlay settings specified in the input parameters, the method fills this structure with the capabilities of the overlay hardware.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3doverlaycaps">D3DOVERLAYCAPS</a> structure. If the driver supports the overlay settings specified in the input parameters, the method fills this structure with the capabilities of the overlay hardware.
 
 
 ## -returns
@@ -153,11 +153,11 @@ The device does not support overlay for the specified surface format.
 
 
 
-<a href="https://msdn.microsoft.com/fa9d5bf5-4c0f-471a-b639-d329b0cd89a4">Hardware Overlay Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/hardware-overlay-support">Hardware Overlay Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/57591794-96d3-40e6-a4fb-3bb195fd1396">IDirect3D9ExOverlayExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9exoverlayextension">IDirect3D9ExOverlayExtension</a>
  
 
  

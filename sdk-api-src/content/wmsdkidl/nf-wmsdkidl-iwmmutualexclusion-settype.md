@@ -65,7 +65,7 @@ The <b>SetType</b> method specifies the GUID of the type of mutual exclusion req
 
 ### -param guidType [in]
 
-GUID specifying the type of mutual exclusion. For a list of values, see <a href="https://msdn.microsoft.com/en-us/library/Dd757250(v=VS.85).aspx">IWMMutualExclusion::GetType</a>
+GUID specifying the type of mutual exclusion. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-gettype">IWMMutualExclusion::GetType</a>
 
 
 
@@ -112,7 +112,7 @@ Invalid type.
 
 
 
-If you create a multiple bit rate audio file, you may encounter problems streaming the file from Windows Media Services 4.1. To avoid problems, disable auto indexing by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798757(v=VS.85).aspx">IWMWriterFileSink3::SetAutoIndexing</a> before writing the file.
+If you create a multiple bit rate audio file, you may encounter problems streaming the file from Windows Media Services 4.1. To avoid problems, disable auto indexing by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setautoindexing">IWMWriterFileSink3::SetAutoIndexing</a> before writing the file.
 
 
 
@@ -122,11 +122,11 @@ If you create a multiple bit rate audio file, you may encounter problems streami
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757238(v=VS.85).aspx">IWMMutualExclusion Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757250(v=VS.85).aspx">IWMMutualExclusion::GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-gettype">IWMMutualExclusion::GetType</a>
  
 
  

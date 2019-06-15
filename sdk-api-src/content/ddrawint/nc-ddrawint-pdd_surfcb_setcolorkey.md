@@ -68,7 +68,7 @@ The <i>DdSetColorKey</i> callback function sets the color key value for the spec
 
 #### - lpSetColorKey
 
-Points to a <a href="https://msdn.microsoft.com/08d17ac7-a5d4-47ed-9ee4-896471b46769">DD_SETCOLORKEYDATA</a> structure that contains the information required to set the color key for the specified surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setcolorkeydata">DD_SETCOLORKEYDATA</a> structure that contains the information required to set the color key for the specified surface.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Points to a <a href="https://msdn.microsoft.com/08d17ac7-a5d4-47ed-9ee4-896471b4
 
 
 
-<a href="https://msdn.microsoft.com/08d17ac7-a5d4-47ed-9ee4-896471b46769">DD_SETCOLORKEYDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setcolorkeydata">DD_SETCOLORKEYDATA</a>
  
 
  

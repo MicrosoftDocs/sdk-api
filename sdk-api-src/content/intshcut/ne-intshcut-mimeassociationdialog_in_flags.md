@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/0f8ee95a-3f95-47ee-822b-740ba134cd3c">MIMEAssociationDialog</a> function to determine how it executes.
+Used with the <a href="https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-mimeassociationdialoga">MIMEAssociationDialog</a> function to determine how it executes.
 
 
 ## -enum-fields

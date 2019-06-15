@@ -59,7 +59,7 @@ The <b>QOSSetFlow</b> function is called by an application to request the QOS su
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 
 ### -param FlowId [in]
@@ -69,7 +69,7 @@ A flow identifier. A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
 
 ### -param Operation [in]
 
-A <a href="https://msdn.microsoft.com/986652bc-df2f-4210-bf9c-1a5d8c3ee773">QOS_SET_FLOW</a> enumerated type that identifies what will be changed in the flow.  This parameter specifies what structure the <i>Buffer</i> will contain.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_set_flow">QOS_SET_FLOW</a> enumerated type that identifies what will be changed in the flow.  This parameter specifies what structure the <i>Buffer</i> will contain.
 
 <table>
 <tr>
@@ -83,7 +83,7 @@ A <a href="https://msdn.microsoft.com/986652bc-df2f-4210-bf9c-1a5d8c3ee773">QOS_
 </dl>
 </td>
 <td width="60%">
-The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a pointer to a <a href="https://msdn.microsoft.com/89145c7f-0b67-4eff-b462-049b047e6602">QOS_TRAFFIC_TYPE</a> constant.
+The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ne-qos2-_qos_traffic_type">QOS_TRAFFIC_TYPE</a> constant.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The traffic type of the flow will be changed.  The <i>Buffer</i> will contain a 
 </dl>
 </td>
 <td width="60%">
-The flow rate will be changed. The <i>Buffer</i> will contain a pointer to a <a href="https://msdn.microsoft.com/6f0408fa-842c-4c6c-954b-cdc8a77b4bd3">QOS_FLOWRATE_OUTGOING</a> structure.
+The flow rate will be changed. The <i>Buffer</i> will contain a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a> structure.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -334,15 +334,15 @@ The network connection with the remote host failed.
 
 
 
-If <a href="https://msdn.microsoft.com/36e4a71f-fb6b-42b6-a770-8cbcf98e7eb3">QOSStartTrackingClient</a> has not already been called, calling <b>QOSSetFlow</b> will cause the QOS subsystem to perform the following.<ul>
+If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> has not already been called, calling <b>QOSSetFlow</b> will cause the QOS subsystem to perform the following.<ul>
 <li>Discover whether the end-to-end network path supports prioritization.</li>
 <li>Track end-to-end network characteristics by way of network experiments.  These experiments do not place any noteworthy stress on the network.</li>
 </ul>
 
 
 If <b>QOSSetFlow</b> returns <b>ERROR_NETWORK_BUSY</b> there is insufficient bandwidth for the specified flow rate and network priority cannot be granted.  The application can still transmit a data stream but the flow will not receive priority marking.  Ideally an application would not attempt to stream at the requested rate if there is insufficient bandwidth. If <b>ERROR_NETWORK_BUSY</b> is returned the following safe strategy is available:<ol>
-<li>Query the QoS subsystem with <a href="https://msdn.microsoft.com/e6d541fe-2aeb-4969-b138-869754dbdaa3">QOSNotifyFlow</a> in order to determine the current available bandwidth and begin to stream at the received lower rate with priority if the network supports it.</li>
-<li>Request notification with <a href="https://msdn.microsoft.com/e6d541fe-2aeb-4969-b138-869754dbdaa3">QOSNotifyFlow</a> for when the originally desired amount of bandwidth is available.  When notification is received call  <b>QOSSetFlow</b> with the new bandwidth request and send at the new rate again with prioritization if supported.</li>
+<li>Query the QoS subsystem with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> in order to determine the current available bandwidth and begin to stream at the received lower rate with priority if the network supports it.</li>
+<li>Request notification with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosnotifyflow">QOSNotifyFlow</a> for when the originally desired amount of bandwidth is available.  When notification is received call  <b>QOSSetFlow</b> with the new bandwidth request and send at the new rate again with prioritization if supported.</li>
 </ol>
 
 
@@ -353,7 +353,7 @@ This function may optionally be called asynchronously.
 
 The following code snippet demonstrates the use of QOSSetFlow in an application. Input parameters <i>QOSHandle</i>, <i>FlowId</i>, <i>FlowId</i>, <i>QOSSetOutgoingRate</i>, and <b>sizeof</b>(<i>QoSOutgoingFlowrate</i>) must be  previously initialized by other QoS functions and calculations within the application.
 
-Other QoS function examples that show initialization of parameters include <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>, <a href="https://msdn.microsoft.com/44136284-b553-446e-a95f-1eac476a7143">QOSAddSocketToFlow</a>, and <a href="https://msdn.microsoft.com/8cae3ba2-beca-45e2-9526-2d917abc2606">QOSQueryFlow</a>.
+Other QoS function examples that show initialization of parameters include <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosqueryflow">QOSQueryFlow</a>.
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
@@ -402,7 +402,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

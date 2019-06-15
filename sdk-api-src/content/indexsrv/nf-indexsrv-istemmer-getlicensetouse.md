@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the license information for this <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation.
+Gets the license information for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the license information for this <a href="https://msdn.microsoft.com/en-us/
 
 Type: <b>const WCHAR**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation.
 
 
 ## -returns

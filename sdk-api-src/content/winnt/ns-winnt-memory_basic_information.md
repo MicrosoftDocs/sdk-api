@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Contains information about a range of pages in the virtual address space of a process. The 
-<a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a> and 
-<a href="https://msdn.microsoft.com/19e1d875-f661-47cd-bba7-4327a2bbfacc">VirtualQueryEx</a> functions use this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a> functions use this structure.
 
 
 ## -struct-fields
@@ -67,13 +67,13 @@ A pointer to the base address of the region of pages.
 ### -field AllocationBase
 
 A pointer to the base address of a range of pages allocated by the 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function. The page pointed to by the <b>BaseAddress</b> member is contained within this allocation range.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function. The page pointed to by the <b>BaseAddress</b> member is contained within this allocation range.
 
 
 ### -field AllocationProtect
 
 The memory protection option when the region was initially allocated. This member can be one of the 
-<a href="https://msdn.microsoft.com/09839db7-2118-4a7d-a707-a08c92bd600c">memory protection constants</a> or 0 if the caller does not have access.
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a> or 0 if the caller does not have access.
 
 
 ### -field RegionSize
@@ -222,15 +222,15 @@ typedef struct DECLSPEC_ALIGN(16) _MEMORY_BASIC_INFORMATION64 {
 
 
 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/19e1d875-f661-47cd-bba7-4327a2bbfacc">VirtualQueryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualqueryex">VirtualQueryEx</a>
  
 
  

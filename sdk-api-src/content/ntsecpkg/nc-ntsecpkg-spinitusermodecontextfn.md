@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SpInitUserModeContext</b> function creates a user-mode <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a> from a packed <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA)-mode context.
+The <b>SpInitUserModeContext</b> function creates a user-mode <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> from a packed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA)-mode context.
 
 
 ## -parameters
@@ -60,15 +60,15 @@ The <b>SpInitUserModeContext</b> function creates a user-mode <a href="https://m
 ### -param ContextHandle [in]
 
 A handle to the LSA-mode context returned from the 
-<a href="https://msdn.microsoft.com/e733d6fb-0ce6-4fd2-a8e2-54aa44602828">SpInitLsaModeContext</a> or 
-<a href="https://msdn.microsoft.com/bf443c15-0039-4ffa-a5ec-e8ef6a24dc80">SpAcceptLsaModeContext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitlsamodecontextfn">SpInitLsaModeContext</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptlsamodecontextfn">SpAcceptLsaModeContext</a> function.
 
 
 ### -param PackedContext [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structure that contains the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">serialized</a> context data. Use the 
-<a href="https://msdn.microsoft.com/3c3d27bb-4f9a-4979-b679-1e10fa1ff221">FreeContextBuffer</a> function to free memory allocated for this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">serialized</a> context data. Use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free memory allocated for this structure.
 
 
 ## -returns
@@ -106,14 +106,14 @@ Insufficient memory to create the context.
 
 
 The <b>SpInitUserModeContext</b> function is called after a security context has been created by the security package, if the <i>MappedContext</i> parameter of the 
-<a href="https://msdn.microsoft.com/e733d6fb-0ce6-4fd2-a8e2-54aa44602828">SpInitLsaModeContext</a> or 
-<a href="https://msdn.microsoft.com/bf443c15-0039-4ffa-a5ec-e8ef6a24dc80">SpAcceptLsaModeContext</a> is set to <b>TRUE</b>. The package-specific context data should contain the information required to determine which function resulted in the call to <b>SpInitUserModeContext</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitlsamodecontextfn">SpInitLsaModeContext</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptlsamodecontextfn">SpAcceptLsaModeContext</a> is set to <b>TRUE</b>. The package-specific context data should contain the information required to determine which function resulted in the call to <b>SpInitUserModeContext</b>.
 
 SSP/APs must implement the <b>SpInitUserModeContext</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpInitUserModeContext</b> function is available in the 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 
 
@@ -123,19 +123,19 @@ A pointer to the <b>SpInitUserModeContext</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/2b3fc6d1-2f55-4053-9271-f5cb5c318555">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf443c15-0039-4ffa-a5ec-e8ef6a24dc80">SpAcceptLsaModeContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptlsamodecontextfn">SpAcceptLsaModeContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/e733d6fb-0ce6-4fd2-a8e2-54aa44602828">SpInitLsaModeContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitlsamodecontextfn">SpInitLsaModeContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/e260db29-995b-4f32-b389-4ef62b3b29bc">SpUserModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
  
 
  

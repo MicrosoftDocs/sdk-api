@@ -61,13 +61,13 @@ GetVerbState method enables a snap-in to obtain a given verb's current state.
 ### -param eCmdID [in]
 
 A value that specifies the command identifier of the verb. Taken from the 
-<a href="https://msdn.microsoft.com/153d89f4-03de-429a-9f52-36a5f6a9762f">MMC_CONSOLE_VERB</a> enumeration. This value cannot be MMC_VERB_NONE.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration. This value cannot be MMC_VERB_NONE.
 
 
 ### -param nState [in]
 
 A value that identifies the possible states of the button. Taken from the 
-<a href="https://msdn.microsoft.com/b08c8905-1a6d-485f-9136-d63efd0e8194">MMC_BUTTON_STATE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_button_state">MMC_BUTTON_STATE</a> enumeration.
 
 
 ### -param pState [out]
@@ -98,11 +98,11 @@ When an item is selected, the verb states for all the commands are reset to disa
 
 
 
-<a href="https://msdn.microsoft.com/9c4338c1-eb5e-47f3-8b5b-0623690bd5f6">IConsoleVerb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf9c9fe9-f58f-47f0-9051-86a514df0c6d">IToolbar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
  
 
  

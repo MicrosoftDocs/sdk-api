@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetDistPointCount</b> method returns the number of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution points in a CRL distribution information array.
+The <b>GetDistPointCount</b> method returns the number of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution points in a CRL distribution information array.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A pointer to a <b>LONG</b> that will represent the number of CRL distribution po
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of CRL distribution points in the array. 
@@ -83,15 +83,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/e9c0053f-263f-4d7b-9356-bc33af989dbe">ICertEncodeCRLDistInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/64102b89-defe-4f26-b6b2-8c3903e08347">ICertEncodeCRLDistInfo::GetNameCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getnamecount">ICertEncodeCRLDistInfo::GetNameCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/899de888-918f-4202-a324-0e603eba2324">ICertEncodeCRLDistInfo::Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-reset">ICertEncodeCRLDistInfo::Reset</a>
  
 
  

@@ -70,7 +70,7 @@ The latency coefficient for the audio          device. This value is used to cal
 <div class="alert"><b>Note</b>  The device that the endpoint represents has a minimum latency
     value. If the value of this parameter is less than the minimum latency of the device or is zero, the
      endpoint object applies the minimum latency.  The audio engine can obtain the
-    actual latency of the endpoint by calling the <a href="https://msdn.microsoft.com/9afca6b7-2e0e-40a1-bb4a-932dad21b9eb">IAudioEndpoint::GetLatency</a> method.</div>
+    actual latency of the endpoint by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getlatency">IAudioEndpoint::GetLatency</a> method.</div>
 <div> </div>
 
 ## -returns
@@ -98,7 +98,7 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/3112bc7e-e138-4b42-8f82-61fdf19f7e94">IAudioDeviceEndpoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>CryptXmlDllCreateDigest</b> function creates a digest object for the specified method.
 
-The <b>CryptXmlDllCreateDigest</b> function is exposed through the exported <a href="https://msdn.microsoft.com/a547e869-3c9f-4408-9895-29fae0cc6066">CryptXmlDllGetInterface</a>  function.
+The <b>CryptXmlDllCreateDigest</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptXmlDllCreateDigest</b> function is exposed through the exported <a h
 
 ### -param *pDigestMethod [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm to use to create the  digest.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm to use to create the  digest.
 
 
 ### -param *pcbSize [out]
@@ -73,7 +73,7 @@ A pointer to a <b>ULONG</b> variable that receives the size, in bytes, of the di
 
 A pointer to a <b>CRYPT_XML_DIGEST</b> variable  that receives a pointer to the digest.
 
-When you have finished using the resources allocated by the call to this function, you must free them by calling the <a href="https://msdn.microsoft.com/97f720b9-f937-4469-abe9-62bf35ebdd7a">CryptXmlDllCloseDigest</a> function.
+When you have finished using the resources allocated by the call to this function, you must free them by calling the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllclosedigest">CryptXmlDllCloseDigest</a> function.
 
 
 ## -returns

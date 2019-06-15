@@ -61,9 +61,9 @@ Creates and displays a shortcut menu, tracks the selection of items on that menu
 
 ### -param punkContextMenu [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the shortcut menu's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> implementation.
+A pointer to the shortcut menu's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation.
 
 
 ### -param fFlags [in]
@@ -156,7 +156,7 @@ This value is not available.
 
 #### CMF_OPTIMIZEFORINVOKE (0x00000800)
 
-0x00000800. Informs context menu handlers that do not support the invocation of a verb through a canonical verb name to bypass that processing in their <a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">IContextMenu::QueryContextMenu</a> implementation.
+0x00000800. Informs context menu handlers that do not support the invocation of a verb through a canonical verb name to bypass that processing in their <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a> implementation.
 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not available.
@@ -186,7 +186,7 @@ This value is not available.
 
 ### -param pt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 Location where you want the shortcut menu to appear. This point specifies the location of the menu's upper left corner in screen coordinates.
 

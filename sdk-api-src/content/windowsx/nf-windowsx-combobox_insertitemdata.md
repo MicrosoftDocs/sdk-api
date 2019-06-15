@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts item data in a list in a combo box at the specified location. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a> message explicitly.
+Inserts item data in a list in a combo box at the specified location. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Inserts item data in a list in a combo box at the specified location. You can us
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -73,7 +73,7 @@ The zero-based index in the list at which to insert the item data, or –1 to ad
 
 ### -param data
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The item data to insert.
 
@@ -82,7 +82,7 @@ The item data to insert.
 
 
 
-Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_HASSTRINGS</a> style. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775875(v=VS.85).aspx">CB_INSERTSTRING</a>.
+Use this macro for a list in a combo box with an owner-drawn style but without the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_HASSTRINGS</a> style. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-insertstring">CB_INSERTSTRING</a>.
 	
 
 

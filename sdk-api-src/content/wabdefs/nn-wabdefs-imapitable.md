@@ -55,7 +55,7 @@ Do not use. This interface is used for content tables of Windows Address Book (W
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMAPITable</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMAPITable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMAPITable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMAPITable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMAPITable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629475(v=VS.85).aspx">Abort</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629475(v=vs.85)">Abort</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -79,7 +79,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629476(v=VS.85).aspx">Advise</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629476(v=vs.85)">Advise</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -88,7 +88,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629477(v=VS.85).aspx">CollapseRow</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629477(v=vs.85)">CollapseRow</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -97,7 +97,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629478(v=VS.85).aspx">CreateBookmark</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629478(v=vs.85)">CreateBookmark</a>
 </td>
 <td align="left" width="63%">
 Marks the current position of the table cursor.
@@ -106,7 +106,7 @@ Marks the current position of the table cursor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629479(v=VS.85).aspx">ExpandRow</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629479(v=vs.85)">ExpandRow</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -115,7 +115,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629480(v=VS.85).aspx">FindRow</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629480(v=vs.85)">FindRow</a>
 </td>
 <td align="left" width="63%">
 Finds the next row in a table that contains a property matching 
@@ -125,17 +125,17 @@ Finds the next row in a table that contains a property matching
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629481(v=VS.85).aspx">FreeBookmark</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629481(v=vs.85)">FreeBookmark</a>
 </td>
 <td align="left" width="63%">
 Frees a bookmark created by 
-		<a href="https://msdn.microsoft.com/en-us/library/ms629478(v=VS.85).aspx">CreateBookmark</a>.
+		<a href="https://docs.microsoft.com/previous-versions//ms629478(v=vs.85)">CreateBookmark</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629482(v=VS.85).aspx">GetCollapseState</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629482(v=vs.85)">GetCollapseState</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -144,7 +144,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629483(v=VS.85).aspx">GetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629483(v=vs.85)">GetLastError</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -153,7 +153,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629484(v=VS.85).aspx">GetRowCount</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629484(v=vs.85)">GetRowCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of rows in a table.
@@ -162,7 +162,7 @@ Retrieves the total number of rows in a table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629485(v=VS.85).aspx">GetStatus</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629485(v=vs.85)">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -171,7 +171,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629487(v=VS.85).aspx">QueryColumns</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629487(v=vs.85)">QueryColumns</a>
 </td>
 <td align="left" width="63%">
 Retrieves either the current list of columns for a table view or 
@@ -181,7 +181,7 @@ Retrieves either the current list of columns for a table view or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629488(v=VS.85).aspx">QueryPosition</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629488(v=vs.85)">QueryPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current table row position of the cursor, 
@@ -191,7 +191,7 @@ Retrieves the current table row position of the cursor,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629489(v=VS.85).aspx">QueryRows</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629489(v=vs.85)">QueryRows</a>
 </td>
 <td align="left" width="63%">
 Retrieves rows of data from a table.
@@ -200,7 +200,7 @@ Retrieves rows of data from a table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629490(v=VS.85).aspx">QuerySortOrder</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629490(v=vs.85)">QuerySortOrder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current sort order for the table.
@@ -209,7 +209,7 @@ Retrieves the current sort order for the table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629491(v=VS.85).aspx">Restrict</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629491(v=vs.85)">Restrict</a>
 </td>
 <td align="left" width="63%">
 Applies a restriction to a table, reducing the visible rows 
@@ -219,7 +219,7 @@ Applies a restriction to a table, reducing the visible rows
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629492(v=VS.85).aspx">SeekRow</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629492(v=vs.85)">SeekRow</a>
 </td>
 <td align="left" width="63%">
 Moves the table cursor to a specific position.
@@ -228,7 +228,7 @@ Moves the table cursor to a specific position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629493(v=VS.85).aspx">SeekRowApprox</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629493(v=vs.85)">SeekRowApprox</a>
 </td>
 <td align="left" width="63%">
 Moves the cursor to an approximate position 
@@ -238,7 +238,7 @@ Moves the cursor to an approximate position
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629494(v=VS.85).aspx">SetCollapseState</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629494(v=vs.85)">SetCollapseState</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -247,7 +247,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629495(v=VS.85).aspx">SetColumns</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629495(v=vs.85)">SetColumns</a>
 </td>
 <td align="left" width="63%">
 Sets the order of property values returned by query operations.
@@ -257,7 +257,7 @@ Sets the order of property values returned by query operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629496(v=VS.85).aspx">SortTable</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629496(v=vs.85)">SortTable</a>
 </td>
 <td align="left" width="63%">
 Sorts the table rows according to the criteria provided.
@@ -266,7 +266,7 @@ Sorts the table rows according to the criteria provided.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629497(v=VS.85).aspx">Unadvise</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629497(v=vs.85)">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -275,7 +275,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629498(v=VS.85).aspx">WaitForCompletion</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629498(v=vs.85)">WaitForCompletion</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

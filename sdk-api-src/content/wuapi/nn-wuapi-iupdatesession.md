@@ -54,7 +54,7 @@ Represents a session in which the caller can perform operations that involve upd
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IUpdateSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,28 +70,28 @@ The <b>IUpdateSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d410114-2327-489c-84b6-c3f5367008c2">CreateUpdateDownloader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdatedownloader">CreateUpdateDownloader</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/8f9f3430-fc78-46cb-9dc8-b97e9d35d91c">IUpdateDownloader</a> interface for this session.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a> interface for this session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5b5f760-0d25-4506-95d3-63ff4a0b9188">CreateUpdateInstaller</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdateinstaller">CreateUpdateInstaller</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/7f1c272f-73ef-43ee-b1ac-ef97a4791313">IUpdateInstaller</a> interface for this session.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface for this session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e7a4aa9-7952-4080-9ac0-9544f959475f">CreateUpdateSearcher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-createupdatesearcher">CreateUpdateSearcher</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b592c7">IUpdateSearcher</a> interface for this session.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface for this session.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Returns an <a href="https://msdn.microsoft.com/f41b1689-d9fe-4697-91e9-a176d3b59
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9e025c75-5884-4a45-ab11-24a8b66ab838">ClientApplicationID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_clientapplicationid">ClientApplicationID</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Identifies the current client application.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ba1e5092-33b1-4a03-b4f5-08b435706f49">ReadOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_readonly">ReadOnly</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Gets a Boolean value that indicates whether the session object is read-only.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/33611ac4-9471-45c5-91cc-0a07251c74a5">WebProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession-get_webproxy">WebProxy</a>
 
 
 </td>

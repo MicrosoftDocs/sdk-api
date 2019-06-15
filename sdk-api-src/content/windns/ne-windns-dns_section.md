@@ -82,7 +82,7 @@ The DNS section specified is additional DNS information.
 
 
 
-<a href="https://msdn.microsoft.com/6ab53b19-7838-4e9f-9923-96a9267d2dbb">DNS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
  
 
  

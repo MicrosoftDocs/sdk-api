@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pProp [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/72bd92f9-d82e-4994-82ad-0989e987903b">ITfProperty</a> object that specifies the property to load.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that specifies the property to load.
 
 
 ## -returns
@@ -125,16 +125,16 @@ The application must be able to grant a synchronous read-only lock before callin
 
 
 
-<a href="https://msdn.microsoft.com/fb77bd6a-ae34-4e21-8f09-fc8c6a1ade86">ITfContextOwnerServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownerservices">ITfContextOwnerServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/b02ffedf-83c5-48ff-8116-801aaec6dc71">ITfContextOwnerServices::Unserialize
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">ITfContextOwnerServices::Unserialize
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/72bd92f9-d82e-4994-82ad-0989e987903b">ITfProperty
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
       </a>
  
 

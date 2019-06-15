@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NCRYPT_UI_POLICY</b> structure is used with the <a href="https://msdn.microsoft.com/407f0e42-07c8-4ec6-81c6-f8bde005adb0">NCRYPT_UI_POLICY_PROPERTY</a> property to contain strong key user interface information for a key. This structure is used with the <a href="https://msdn.microsoft.com/ad1148aa-5f64-4867-9e17-6b41cc0c20b7">NCryptSetProperty</a> and <a href="https://msdn.microsoft.com/7b857ce0-8525-489b-9987-ef40081a5577">NCryptGetProperty</a> functions with the <a href="https://msdn.microsoft.com/407f0e42-07c8-4ec6-81c6-f8bde005adb0">NCRYPT_UI_POLICY_PROPERTY</a> property.
+The <b>NCRYPT_UI_POLICY</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property to contain strong key user interface information for a key. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsetproperty">NCryptSetProperty</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptgetproperty">NCryptGetProperty</a> functions with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property.
 
 
 ## -struct-fields

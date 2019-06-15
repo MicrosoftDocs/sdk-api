@@ -122,7 +122,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/ce10ae94-5bd5-4f97-a341-8d5f894bda59">IAttributeSet Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeset">IAttributeSet Interface</a>
  
 
  

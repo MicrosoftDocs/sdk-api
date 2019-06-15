@@ -83,7 +83,7 @@ This function does not return a value.
 
 If the caller passes a pointer that is not valid, the behavior is undefined.
 
-<b>FwpmFreeMemory0</b> is a specific implementation of FwpmFreeMemory. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmFreeMemory0</b> is a specific implementation of FwpmFreeMemory. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -93,11 +93,11 @@ If the caller passes a pointer that is not valid, the behavior is undefined.
 
 
 
-<a href="https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead">WFP  Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e63db9e6-af26-4511-99fa-7d0b13d409d8">Windows Filtering Platform  API Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-reference">Windows Filtering Platform  API Reference</a>
  
 
  

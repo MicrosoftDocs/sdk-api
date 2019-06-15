@@ -67,7 +67,7 @@ The index of the input that will have the input description applied.
 
 ### -param inputDescription
 
-Type: <b><a href="https://msdn.microsoft.com/ba900ef8-a71a-4aac-a884-38917b78b8df">D2D1_INPUT_DESCRIPTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_input_description">D2D1_INPUT_DESCRIPTION</a></b>
 
 The description of the input to be applied to the transform.
 
@@ -116,19 +116,19 @@ The input description must be matched correctly by the effect shader code.
 
 
 
-<a href="https://msdn.microsoft.com/a2a4b4fd-685d-4068-b1f5-609e6ab024e2">D2D1_BUFFER_PRECISION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a>
 
 
 
-<a href="https://msdn.microsoft.com/78129b15-a770-49c0-b58b-8cb850f80006">D2D1_CHANNEL_DEPTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_channel_depth">D2D1_CHANNEL_DEPTH</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a066126-89d0-4372-bc01-6b6fa1d65440">ID2D1DeviceContext::SetRenderingControls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setrenderingcontrols(constd2d1_rendering_controls_)">ID2D1DeviceContext::SetRenderingControls</a>
 
 
 
-<a href="https://msdn.microsoft.com/26FB6D27-7EE0-43DA-A575-D9FF77846A16">ID2D1RenderInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a>
  
 
  

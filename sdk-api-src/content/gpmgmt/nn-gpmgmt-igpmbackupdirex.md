@@ -52,17 +52,17 @@ ms.custom: 19H1
 
 The 
 <b>IGPMBackupDirEx</b> interface supports methods that allow you to query 
-<a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">GPMBackup</a>,  
-<a href="https://msdn.microsoft.com/cd9e6b58-6fbc-449a-9941-b33761797199">GPMBackupCollection</a>, <b>GPMStarterGPOBackup</b>,  
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a>,  
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">GPMBackupCollection</a>, <b>GPMStarterGPOBackup</b>,  
 and <b>GPMStarterGPOBackupCollection</b>    objects when you are using the Group Policy Management Console (GPMC) interfaces.
 
 To create a <b>GPMBackupDirEx</b> object, call the 
-<a href="https://msdn.microsoft.com/4ffc8827-8427-4ee5-ad89-21f821d16d97">IGPM2::GetBackupDirEx</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getbackupdir">IGPM2::GetBackupDirEx</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDirEx</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMBackupDirEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMBackupDirEx</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMBackupDirEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -78,20 +78,20 @@ The <b>IGPMBackupDirEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1c6ead9-882d-4041-9586-f08a83f4c9b0">GetBackup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdirex-getbackup">GetBackup</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <b>GPMBackup</b> or a Starter Group Policy object (GPO) backup <a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">GPMStarterGPOBackup</a> object with the specified backup ID (GUID).
+Retrieves the <b>GPMBackup</b> or a Starter Group Policy object (GPO) backup <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMStarterGPOBackup</a> object with the specified backup ID (GUID).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e45f012e-ce88-4baf-88a2-bd61e365b291">SearchBackups</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdirex-searchbackups">SearchBackups</a>
 </td>
 <td align="left" width="63%">
 Executes a search for <b>GPMBackup</b> or <b>GPMStarterGPOBackup</b> objects according to the specified search criteria, and returns a 
-<a href="https://msdn.microsoft.com/847aea86-48e9-428e-ae4d-e6a7e1e13428">GPMBackupCollection</a> or <b>GPMStarterGPOBackupCollection</b> object.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">GPMBackupCollection</a> or <b>GPMStarterGPOBackupCollection</b> object.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Executes a search for <b>GPMBackup</b> or <b>GPMStarterGPOBackup</b> objects acc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/303bdd12-9c45-4722-a737-da318e84a735">BackupDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackupdir-property-methods">BackupDirectory</a>
 
 
 </td>
@@ -117,12 +117,12 @@ Pointer to the  path of the file system directory for Group Policy object (GPO) 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/303bdd12-9c45-4722-a737-da318e84a735">BackupType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackupdir-property-methods">BackupType</a>
 
 
 </td>
 <td align="left" width="63%">
-Value that specifies whether the  specified backup is a Group Policy object (GPO) backup  <a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">GPMBackup</a> or a Starter Group Policy object (GPO) backup <b>GPMStarterGPOBackup</b>.
+Value that specifies whether the  specified backup is a Group Policy object (GPO) backup  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or a Starter Group Policy object (GPO) backup <b>GPMStarterGPOBackup</b>.
 
 </td>
 </tr>
@@ -134,19 +134,19 @@ Value that specifies whether the  specified backup is a Group Policy object (GPO
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">IGPMBackup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd9e6b58-6fbc-449a-9941-b33761797199">IGPMBackupCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
 
 
 

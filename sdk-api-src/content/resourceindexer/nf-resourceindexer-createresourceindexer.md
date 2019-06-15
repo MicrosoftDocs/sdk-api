@@ -86,7 +86,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/42DCE463-B883-4564-9B7E-DEFF0A17CC1C">DestroyResourceIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-destroyresourceindexer">DestroyResourceIndexer</a>
  
 
  

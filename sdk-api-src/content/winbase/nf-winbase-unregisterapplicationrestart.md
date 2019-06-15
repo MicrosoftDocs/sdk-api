@@ -101,7 +101,7 @@ You do not need to call this function before exiting. You need to remove the reg
 
 
 
-<a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>
  
 
  

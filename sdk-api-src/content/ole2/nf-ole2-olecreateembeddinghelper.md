@@ -64,7 +64,7 @@ CLSID of the class to be helped.
 
 ### -param pUnkOuter [in]
 
-If the embedding helper is to be aggregated, pointer to the outer object's controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. If it is not to be aggregated, although this is rare, the value should be <b>NULL</b>.
+If the embedding helper is to be aggregated, pointer to the outer object's controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. If it is not to be aggregated, although this is rare, the value should be <b>NULL</b>.
 
 
 ### -param flags [in]
@@ -74,7 +74,7 @@ DWORD containing flags that specify the role and creation context for the embedd
 
 ### -param pCF [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a> interface on the class object the function uses to create the secondary object. In some situations, this value may be <b>NULL</b>. For more information, see the following Remarks section.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> interface on the class object the function uses to create the secondary object. In some situations, this value may be <b>NULL</b>. For more information, see the following Remarks section.
 
 
 ### -param riid [in]
@@ -160,7 +160,7 @@ The <b>OleCreateEmbeddingHelper</b> function creates an object that supports the
     EMBDHLP_CREATENOW, NULL, iid, ppvObj) 
  
 OleCreateDefaultHandler(clsid, pUnkOuter, iid, ppvObj) </code></pre>
-The embedding helper is aggregatable; <i>pUnkOuter</i> is the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the aggregate of which the embedding helper is to be a part. It is used to create a new instance of the OLE default handler, which can be used to support objects in various roles. The caller passes a pointer to its <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a> implementation to <b>OleCreateEmbeddingHelper</b>. This object and the default handler are then aggregated to create the new embedding helper object.
+The embedding helper is aggregatable; <i>pUnkOuter</i> is the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the aggregate of which the embedding helper is to be a part. It is used to create a new instance of the OLE default handler, which can be used to support objects in various roles. The caller passes a pointer to its <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> implementation to <b>OleCreateEmbeddingHelper</b>. This object and the default handler are then aggregated to create the new embedding helper object.
 
 
 
@@ -170,7 +170,7 @@ The <b>OleCreateEmbeddingHelper</b> function is usually used to support one of t
 
 <ul>
 <li>
-An EXE object application that is being used as both a container and a server, and which supports inserting objects into itself. For this case, <b>CreateEmbeddingHelper</b> allows the object to support the interfaces usually supported only in the handler. To accomplish this, the application must first register its CLSID for different contexts, making two registration calls to the <a href="https://msdn.microsoft.com/d27bfa6c-194a-41f1-8fcf-76c4dff14a8a">CoRegisterClassObject</a> function, rather than one, as follows: 
+An EXE object application that is being used as both a container and a server, and which supports inserting objects into itself. For this case, <b>CreateEmbeddingHelper</b> allows the object to support the interfaces usually supported only in the handler. To accomplish this, the application must first register its CLSID for different contexts, making two registration calls to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> function, rather than one, as follows: 
 
 <pre class="syntax" xml:space="preserve"><code>CoRegisterClassObject(clsidMe, pUnkCfLocal, CLSCTX_LOCAL_SERVER, 
         REGCLS_MULTI_SEPARATE...) 
@@ -183,7 +183,7 @@ In these calls, you would pass along different class factory implementations to 
 
 </li>
 <li>
-A custom in-process object handler, in which case, the DLL creates the embedding helper by passing in a pointer to a private implementation of <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a> in <i>pCF</i>.
+A custom in-process object handler, in which case, the DLL creates the embedding helper by passing in a pointer to a private implementation of <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> in <i>pCF</i>.
 
 
 </li>
@@ -249,7 +249,7 @@ Delays creation of the secondary object until it is needed (when the helper is p
 
 
 
-<a href="https://msdn.microsoft.com/ffe87012-b000-4ed7-b0b2-78ffdc794d3b">OleCreateDefaultHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatedefaulthandler">OleCreateDefaultHandler</a>
  
 
  

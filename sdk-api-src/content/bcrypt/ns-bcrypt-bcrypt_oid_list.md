@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCRYPT_OID_LIST</b> structure is used to contain a collection of <a href="https://msdn.microsoft.com/00143883-88f7-4b15-bdba-128ee255abf6">BCRYPT_OID</a> structures. Use this structure with the <a href="https://msdn.microsoft.com/ebcc8202-94b4-47ad-9918-e5bc843a258f">BCRYPT_HASH_OID_LIST</a> property to retrieve the list of hashing <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) that have been encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) encoding.
+The <b>BCRYPT_OID_LIST</b> structure is used to contain a collection of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oid">BCRYPT_OID</a> structures. Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">BCRYPT_HASH_OID_LIST</a> property to retrieve the list of hashing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) that have been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoding.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The number of elements in the <b>pOIDs</b> array.
 
 ### -field pOIDs
 
-The address of an array of <a href="https://msdn.microsoft.com/00143883-88f7-4b15-bdba-128ee255abf6">BCRYPT_OID</a> structures that contains OIDs.
+The address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oid">BCRYPT_OID</a> structures that contains OIDs.
 
 
 ## -remarks
@@ -89,7 +89,7 @@ For example, the SHA-1 encoding would be:
 </ul>
 
 
-The following snippet describes an <b>AlgorithmIdentifier</b> in <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) notation.  <b>SEQUENCE</b>, <b>OBJECT IDENTIFIER</b>, and <b>ANY</b> are DER encoded. The <b>ANY</b> BLOB is <b>NULL</b>.
+The following snippet describes an <b>AlgorithmIdentifier</b> in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) notation.  <b>SEQUENCE</b>, <b>OBJECT IDENTIFIER</b>, and <b>ANY</b> are DER encoded. The <b>ANY</b> BLOB is <b>NULL</b>.
 
 <pre class="syntax" xml:space="preserve"><code>AlgorithmIdentifier ::= SEQUENCE {
    algorithm            OBJECT IDENTIFIER,
@@ -104,15 +104,15 @@ The following snippet describes an <b>AlgorithmIdentifier</b> in <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/00143883-88f7-4b15-bdba-128ee255abf6">BCRYPT_OID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oid">BCRYPT_OID</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c62ca3a-843e-41a7-9340-41785fbb15f4">BCryptGetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgetproperty">BCryptGetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebcc8202-94b4-47ad-9918-e5bc843a258f">Cryptography Primitive Property Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>
  
 
  

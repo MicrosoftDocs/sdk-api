@@ -67,7 +67,7 @@ Set to <b>TRUE</b> to enable or <b>FALSE</b> to disable maintenance
 
 ### -field MaintainenceModeType
 
-Unless the resource in question is in a type of maintenance mode, this member is set to 0.  Otherwise this member  takes an <b>enumerator</b> from the  <a href="https://msdn.microsoft.com/b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169">MAINTENANCE_MODE_TYPE_ENUM</a> enumeration as its value.  The possible values of this member are as follows.
+Unless the resource in question is in a type of maintenance mode, this member is set to 0.  Otherwise this member  takes an <b>enumerator</b> from the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_maintenance_mode_type_enum">MAINTENANCE_MODE_TYPE_ENUM</a> enumeration as its value.  The possible values of this member are as follows.
 
 
 
@@ -96,14 +96,14 @@ Indicates the server has released ownership of the storage resource.
 
 ### -field InternalState
 
-This member represents the internal resource state. This field is valid only when written by the server.  This member takes an enumerator from the <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration.  The possible values of this member are as follows.
+This member represents the internal resource state. This field is valid only when written by the server.  This member takes an enumerator from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration.  The possible values of this member are as follows.
 
 
 
 #### ClusterResourceStateUnknown (–1)
 
 The operation was not successful. For more information about the error, call the function 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -127,7 +127,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
+The resource has <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
 
 
 
@@ -152,15 +152,15 @@ A 32-bit integer that must contain the value 0xABBAF00F.
 
 
 
-<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169">MAINTENANCE_MODE_TYPE_ENUM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_maintenance_mode_type_enum">MAINTENANCE_MODE_TYPE_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
  
 
  

@@ -66,7 +66,7 @@ A handle to the key for which to retrieve values. The handle must be opened with
 
 ### -param ValueEntries [in, out]
 
-A pointer to an array of <a href="http://go.microsoft.com/fwlink/p/?linkid=119324">KEY_VALUE_ENTRY</a> structures containing the names of values to retrieve.
+A pointer to an array of [**KEY_VALUE_ENTRY**] structures containing the names of values to retrieve.
 
 
 ### -param EntryCount [in]
@@ -106,7 +106,7 @@ The forms and significance of <b>NTSTATUS</b> error codes are listed in the Ntst
 
 
 
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="https://msdn.microsoft.com/191fcbd8-4542-4cad-955e-6951f3005fc5">LoadLibrary</a> and <a href="https://msdn.microsoft.com/e425948c-5588-4a4f-994c-4e608af18439">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 
 
@@ -116,7 +116,7 @@ This function has no associated header file. The associated import library, Ntdl
 
 
 
-<a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>
  
 
  

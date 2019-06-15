@@ -80,7 +80,7 @@ This method returns S_OK if the interface is supported, and E_NOINTERFACE otherw
 
 
 
-This method is similar to the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a> method, except that the COM proxy manager, when aggregated, will not expose some interfaces through <b>QueryInterface</b>. Instead, those internal interfaces must be exposed through <b>QueryInternalInterface</b>.
+This method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a> method, except that the COM proxy manager, when aggregated, will not expose some interfaces through <b>QueryInterface</b>. Instead, those internal interfaces must be exposed through <b>QueryInternalInterface</b>.
 
 
 
@@ -91,11 +91,11 @@ This method is similar to the <a href="https://msdn.microsoft.com/54d5ff80-18db-
 
 
 
-<a href="https://msdn.microsoft.com/d2f4c8bc-80b9-4ba0-9f30-f0864144902b">IInternalUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinternalunknown">IInternalUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
  
 
  

@@ -66,7 +66,7 @@ The version of the Energy Metering Interface (EMI) that is supported by a device
 
 
 
-This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/6B27B70C-DB3C-4EF9-B8FF-8074B0285F87">IOCTL_EMI_GET_VERSION</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_version">IOCTL_EMI_GET_VERSION</a> IOCTL request.
 
 
 
@@ -76,11 +76,11 @@ This structure is returned through a successful completion of an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/D11C97E8-8E7F-41D7-A8A9-0B5426B20818">Energy Metering Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B27B70C-DB3C-4EF9-B8FF-8074B0285F87">IOCTL_EMI_GET_VERSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_version">IOCTL_EMI_GET_VERSION</a>
  
 
  

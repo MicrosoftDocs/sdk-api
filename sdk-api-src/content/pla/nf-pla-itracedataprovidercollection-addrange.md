@@ -59,7 +59,7 @@ Adds one or more trace providers to the collection.
 
 ### -param providers [in]
 
-An <a href="https://msdn.microsoft.com/74300222-dca4-4871-bae3-0c3182fbc539">ITraceDataProviderCollection</a> interface to a collection of one or more trace providers to add to this collection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a> interface to a collection of one or more trace providers to add to this collection.
 
 
 ## -returns
@@ -76,15 +76,15 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/74300222-dca4-4871-bae3-0c3182fbc539">ITraceDataProviderCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/3214f25d-1991-439a-b237-61249a531a2b">ITraceDataProviderCollection::Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-add">ITraceDataProviderCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/553ec66e-d38a-46cc-9b01-f4d7947eda91">ITraceDataProviderCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-remove">ITraceDataProviderCollection::Remove</a>
  
 
  

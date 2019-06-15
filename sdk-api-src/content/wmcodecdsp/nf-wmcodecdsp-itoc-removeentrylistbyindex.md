@@ -96,11 +96,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/273e1c38-7f1a-4f04-b1a8-ba27b5babf94">AddEntryListByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264281(v%3dvs.85)">AddEntryListByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

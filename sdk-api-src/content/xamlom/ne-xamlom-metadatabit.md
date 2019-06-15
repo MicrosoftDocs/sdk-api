@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines constants that are used to define the <a href="https://msdn.microsoft.com/111D10AB-2C16-4D21-A716-968C810B928F">PropertyChainValue</a> returned from XAML Diagnostics.
+Defines constants that are used to define the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainvalue">PropertyChainValue</a> returned from XAML Diagnostics.
 
 
 ## -enum-fields

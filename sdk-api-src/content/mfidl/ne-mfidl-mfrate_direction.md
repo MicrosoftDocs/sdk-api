@@ -75,15 +75,15 @@ Reverse playback.
 
 
 
-<a href="https://msdn.microsoft.com/00413771-21cb-48a7-9080-2c3d195c366b">IMFRateSupport::GetFastestRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate">IMFRateSupport::GetFastestRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/e10125e9-8bc7-4fb6-8a10-ba5717f1596f">IMFRateSupport::GetSlowestRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate">IMFRateSupport::GetSlowestRate</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

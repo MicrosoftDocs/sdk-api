@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs operations required after calling <a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-9745-30a45ad030b7">IMalloc::GetSize</a>.
+Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Performs operations required after calling <a href="https://msdn.microsoft.com/a
 
 ### -param cbActual [in]
 
-The number of bytes in the allocation, as returned by <a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-9745-30a45ad030b7">GetSize</a>.
+The number of bytes in the allocation, as returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a>.
 
 
 ### -param fSpyed [in]
@@ -71,7 +71,7 @@ Indicates whether the block of memory was allocated while the current spy was ac
 
 
 
-The value returned by <a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-9745-30a45ad030b7">IMalloc::GetSize</a>, which is the size of the allocated block of memory, in bytes.
+The value returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>, which is the size of the allocated block of memory, in bytes.
 
 
 
@@ -80,7 +80,7 @@ The value returned by <a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-974
 
 
 
-The size determined by <a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-9745-30a45ad030b7">GetSize</a> is the value returned by the <a href="https://msdn.microsoft.com/a8fcfd99-7b04-4aa3-8619-272b254551a3">HeapSize</a> function. This is the size originally requested. For example, a memory allocation request of 27 bytes returns an allocation of 32 bytes and <b>GetSize</b> returns 27.
+The size determined by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">GetSize</a> is the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsize">HeapSize</a> function. This is the size originally requested. For example, a memory allocation request of 27 bytes returns an allocation of 32 bytes and <b>GetSize</b> returns 27.
 
 
 
@@ -90,15 +90,15 @@ The size determined by <a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-97
 
 
 
-<a href="https://msdn.microsoft.com/abf8cb53-7c1b-4dde-9745-30a45ad030b7">IMalloc::GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bebc327-490e-4a41-8043-5d7211e645f5">IMallocSpy::PreGetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-pregetsize">IMallocSpy::PreGetSize</a>
  
 
  

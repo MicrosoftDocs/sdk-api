@@ -67,17 +67,17 @@ The <b>RatingChange</b> method is called when the current rating changes.
 
 ### -param PrevRatingSystem [in]
 
-The previous rating system, as an <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration type.
+The previous rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
 
 
 ### -param PrevLevel [in]
 
-The previous rating level, as an <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
+The previous rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
 
 
 ### -param PrevAttributes [in]
 
-The previous rating attributes. This value is a bitwise OR of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
+The previous rating attributes. This value is a bitwise OR of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. These flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
 
 
 ### -param NewRatingSystem [in]
@@ -109,7 +109,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694770(v=VS.85).aspx">IMSVidXDSEvent Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidxdsevent">IMSVidXDSEvent Interface</a>
  
 
  

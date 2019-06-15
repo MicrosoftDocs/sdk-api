@@ -78,7 +78,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-This method is provided so that scripting and Visual Basic applications can iterate through the collection in a <code>For...Each</code> loop. C++ applications should use the <a href="https://msdn.microsoft.com/214030ff-8aec-46df-8b59-f31fe926d8aa">IComponents::EnumComponents</a> method.
+This method is provided so that scripting and Visual Basic applications can iterate through the collection in a <code>For...Each</code> loop. C++ applications should use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-enumcomponents">IComponents::EnumComponents</a> method.
 
 The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is intended primarily for use by Automation clients. Clients should not call methods on the interface from more than one thread.
 
@@ -90,7 +90,7 @@ The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is int
 
 
 
-<a href="https://msdn.microsoft.com/670b47ba-bcbd-4281-95e3-a5d784f0610b">IComponents Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents Interface</a>
  
 
  

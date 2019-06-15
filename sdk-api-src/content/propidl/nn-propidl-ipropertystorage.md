@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPropertyStorage</b> interface manages the persistent properties of a single property set. Persistent properties consist of information that can be stored persistently in a property set, such as the summary information associated with a file. This contrasts with run-time properties associated with Controls and Automation, which can be used to affect system behavior. Use the methods of the 
-<a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface to create or open a persistent property set. An instance of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface to create or open a persistent property set. An instance of the 
 <b>IPropertySetStorage</b> interface can manage zero or more 
 <b>IPropertyStorage</b> instances.
 
@@ -61,16 +61,16 @@ Property IDs differ from the dispatch IDs used in Automation <b>dispid</b> prope
 <b>IPropertyStorage</b>, while no such restriction exists in <b>IDispatch</b>. In addition, while there is significant overlap among the data types for property values that may be used in 
 <b>IPropertyStorage</b> and <b>IDispatch</b>, the property sets are not identical. Persistent property data types used in 
 <b>IPropertyStorage</b> methods are defined in the 
-<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 The 
 <b>IPropertyStorage</b> interface can be used to access both simple and nonsimple property sets. Nonsimple property sets can hold several complex property types that cannot be held in a simple property set. For more information see 
-<a href="https://msdn.microsoft.com/d0ca649a-d405-4c34-af02-9c2ca8b2790e">Storage and Stream Objects for a Property Set</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Stg/storage-vs--stream-for-a-property-set">Storage and Stream Objects for a Property Set</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStorage</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPropertyStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,16 +85,16 @@ The <b>IPropertyStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00efae8b-023e-425d-b7cd-c40c17d7948e">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-commit">Commit</a>
 </td>
 <td align="left" width="63%">
-As in <a href="https://msdn.microsoft.com/72831f2c-1e07-429b-af4c-2aaced3f3888">IStorage::Commit</a>, flushes or commits changes to the property storage object.
+As in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>, flushes or commits changes to the property storage object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95c218f1-2bf7-4946-ae9c-934e5916395a">DeleteMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-deletemultiple">DeleteMultiple</a>
 </td>
 <td align="left" width="63%">
 Deletes properties in a property set.
@@ -103,7 +103,7 @@ Deletes properties in a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fedeb7fb-b84a-44a4-82d8-3a365296af69">DeletePropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-deletepropertynames">DeletePropertyNames</a>
 </td>
 <td align="left" width="63%">
 Deletes string names for given property identifiers.
@@ -112,7 +112,7 @@ Deletes string names for given property identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73f834cf-b6e4-4a48-bbdc-0c4ba87aacaf">Enum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-enum">Enum</a>
 </td>
 <td align="left" width="63%">
 Creates and gets a pointer to an enumerator for properties within this set.
@@ -121,7 +121,7 @@ Creates and gets a pointer to an enumerator for properties within this set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3d708fe-53af-4f1b-94ac-edc40d59a034">ReadMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a>
 </td>
 <td align="left" width="63%">
 Reads property values in a property set.
@@ -130,7 +130,7 @@ Reads property values in a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42b0bf7e-0402-425c-8a5f-09eaa16d93fe">ReadPropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readpropertynames">ReadPropertyNames</a>
 </td>
 <td align="left" width="63%">
 Gets corresponding string names for given property identifiers.
@@ -139,7 +139,7 @@ Gets corresponding string names for given property identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31e0d3e7-8575-4788-b42e-606221cf5a4c">Revert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-revert">Revert</a>
 </td>
 <td align="left" width="63%">
 When the property storage is opened in transacted mode, discards all changes since the last commit.
@@ -148,7 +148,7 @@ When the property storage is opened in transacted mode, discards all changes sin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88c916e5-b7f0-4f4d-b049-df2b0e1c2423">SetClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-setclass">SetClass</a>
 </td>
 <td align="left" width="63%">
 Assigns a CLSID to the property set.
@@ -157,7 +157,7 @@ Assigns a CLSID to the property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23c7040a-e648-4898-806d-ad01d7027cc6">SetTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-settimes">SetTimes</a>
 </td>
 <td align="left" width="63%">
 Sets modification, creation, and access times for the property set.
@@ -166,7 +166,7 @@ Sets modification, creation, and access times for the property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46985c49-cb9b-4f67-8dff-e6fad9e188da">Stat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">Stat</a>
 </td>
 <td align="left" width="63%">
 Receives statistics about this property set.
@@ -175,7 +175,7 @@ Receives statistics about this property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/480a2be3-ccb0-4135-a085-733f6ab48ccd">WriteMultiple</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a>
 </td>
 <td align="left" width="63%">
 Writes property values in a property set.
@@ -184,7 +184,7 @@ Writes property values in a property set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3612bf29-344a-4389-bd3b-56b9fa297362">WritePropertyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">WritePropertyNames</a>
 </td>
 <td align="left" width="63%">
 Creates or changes string names corresponding to given property identifiers.
@@ -199,53 +199,53 @@ Creates or changes string names corresponding to given property identifiers.
 
 
 
-<a href="https://msdn.microsoft.com/8d5e658f-312c-4c91-8794-808b2e8dd182">IEnumSTATPROPSETSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a>
 
 
 
-<a href="https://msdn.microsoft.com/e625e52a-5628-4d18-9282-aa1c141c83af">IEnumSTATPROPSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropstg">IEnumSTATPROPSTG</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b4f313-de58-44f2-8ce1-a07cc187d8ca">IPropertyStorage-Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertystorage-compound-file-implementation">IPropertyStorage-Compound File Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0ffd975-5bc2-4de3-b0c1-c9188541f46a">IPropertyStorage-NTFS File System Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertystorage-ntfs-file-system-implementation">IPropertyStorage-NTFS File System Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/8de32538-de11-4e4d-9269-145b2accb099">IPropertyStorage-Stand-alone Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertystorage-stand-alone-implementation">IPropertyStorage-Stand-alone Implementation</a>
 
 
 
-<a href="https://msdn.microsoft.com/d220ecb4-b014-4ac9-a636-9a493187cc87">Managing
+<a href="https://docs.microsoft.com/windows/desktop/Stg/managing-properties">Managing
 		  Properties</a>
 
 
 
-<a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>
 
 
 
-<a href="https://msdn.microsoft.com/7540966f-a3b2-46c9-9e04-b15133a517eb">Property
+<a href="https://docs.microsoft.com/windows/desktop/Stg/property-storage-considerations">Property
 		  Storage Considerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg">STATPROPSETSTG</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b8de6d3-18a3-4c0a-94d1-04bcec05d41a">STATPROPSTG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropstg">STATPROPSTG</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c48da47-b718-48fe-8ad0-39686bb83283">Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
  
 
  

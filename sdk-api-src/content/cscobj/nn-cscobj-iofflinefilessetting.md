@@ -55,7 +55,7 @@ Represents a setting that controls the behavior the Offline Files service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSetting</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesSetting</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSetting</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesSetting</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesSetting</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/815791e8-3e41-4511-9789-9b9258e5fcf4">DeletePreference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-deletepreference">DeletePreference</a>
 </td>
 <td align="left" width="63%">
 Removes a preference setting.
@@ -79,7 +79,7 @@ Removes a preference setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e4591b5-c8a9-4645-8001-8ac09c706ee2">GetName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a name associated with a particular Offline Files setting.
@@ -88,7 +88,7 @@ Retrieves a name associated with a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7f7f8f5-2640-4770-a7ba-230cca8a9575">GetPolicy</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getpolicy">GetPolicy</a>
 </td>
 <td align="left" width="63%">
 Retrieves a policy associated with a particular Offline Files setting.
@@ -97,7 +97,7 @@ Retrieves a policy associated with a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29f6d96f-c873-4cc3-88f2-cd075b3ec004">GetPolicyScope</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getpolicyscope">GetPolicyScope</a>
 </td>
 <td align="left" width="63%">
 Indicates the scope of the policy associated with this setting.
@@ -106,7 +106,7 @@ Indicates the scope of the policy associated with this setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80bc64f2-2787-42ba-9c36-742964440f74">GetPreference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getpreference">GetPreference</a>
 </td>
 <td align="left" width="63%">
 Retrieves a per-machine or per-user preference associated with a particular Offline Files setting.
@@ -115,7 +115,7 @@ Retrieves a per-machine or per-user preference associated with a particular Offl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/618a83b7-a86d-4356-8312-7aba8923e8a4">GetPreferenceScope</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getpreferencescope">GetPreferenceScope</a>
 </td>
 <td align="left" width="63%">
 Retrieves the scope of the preference associated with this setting.
@@ -124,7 +124,7 @@ Retrieves the scope of the preference associated with this setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39560ca6-62d7-467b-bc52-1dd769e7e860">GetValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a particular Offline Files setting.
@@ -133,7 +133,7 @@ Retrieves the value of a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">GetValueType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">GetValueType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data type of a particular Offline Files setting.
@@ -142,7 +142,7 @@ Retrieves the data type of a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5dc0522-4a1b-450f-bddb-17e67007f809">SetPreference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-setpreference">SetPreference</a>
 </td>
 <td align="left" width="63%">
 Sets a per-computer or per-user preference associated with an Offline Files setting.
@@ -157,7 +157,7 @@ Sets a per-computer or per-user preference associated with an Offline Files sett
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSendString</b> macro sends an MCI command in string form to the device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/0e999a0e-588d-4f06-a1bc-fd3f245d8980">MCIWNDM_SENDSTRING</a> message.
+The <b>MCIWndSendString</b> macro sends an MCI command in string form to the device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-sendstring">MCIWNDM_SENDSTRING</a> message.
 
 
 
@@ -76,7 +76,7 @@ String command to send to the MCI device.
 
 The message handler for <b>MCIWndSendString</b> (and <b>MCIWNDM_SENDSTRING</b>) appends a device alias to the MCI command you send to the device. Therefore, you should not use any alias in an MCI command that you issue with <b>MCIWndSendString</b>.
 
-To get the return string, which contains the result of the command, use the <a href="https://msdn.microsoft.com/8e7d54ec-882b-4896-a493-3ed61aec6184">MCIWndReturnString</a> macro.
+To get the return string, which contains the result of the command, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndreturnstring">MCIWndReturnString</a> macro.
 
 
 
@@ -86,7 +86,7 @@ To get the return string, which contains the result of the command, use the <a h
 
 
 
-<a href="https://msdn.microsoft.com/f8edfdbd-1334-4323-aec5-73c0a56f9b4d">Multimedia Command Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-command-strings">Multimedia Command Strings</a>
  
 
  

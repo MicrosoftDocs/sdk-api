@@ -59,7 +59,7 @@ The <b>PeerCollabSetObject</b> function creates or updates a peer data object us
 
 ### -param pcObject [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/6babceaf-9648-4226-a0ce-6f4ae831e4a7">PEER_OBJECT</a> structure that contains the peer object on the peer collaboration network.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object_tag">PEER_OBJECT</a> structure that contains the peer object on the peer collaboration network.
 
 
 ## -returns
@@ -149,11 +149,11 @@ There is one object with a given <i>GUID</i> published at any given time.
 
 
 
-<a href="https://msdn.microsoft.com/6babceaf-9648-4226-a0ce-6f4ae831e4a7">PEER_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object_tag">PEER_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

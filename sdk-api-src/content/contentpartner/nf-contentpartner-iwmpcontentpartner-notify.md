@@ -64,7 +64,7 @@ The <b>Notify</b> method provides the content partner plug-in with event notific
 
 ### -param type [in]
 
-The notification type, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564879(v=VS.85).aspx">WMPPartnerNotification</a> enumeration.
+The notification type, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmppartnernotification">WMPPartnerNotification</a> enumeration.
 
 
 ### -param pContext [in]
@@ -114,11 +114,11 @@ The data type for <i>pContext</i> is <b>VT_EMPTY</b> for all notifications excep
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564879(v=VS.85).aspx">WMPPartnerNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmppartnernotification">WMPPartnerNotification</a>
  
 
  

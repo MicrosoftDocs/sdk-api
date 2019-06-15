@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>MetafileType</b> enumeration specifies types of metafiles. The 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a> method returns an element of this enumeration.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype">MetafileHeader::GetType</a> method returns an element of this enumeration.
 
 
 ## -enum-fields
@@ -94,7 +94,7 @@ Specifies an EMF+ Dual file. Such a file contains GDI+ records along with altern
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535112(v=VS.85).aspx">MetafileHeader::GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nf-gdiplusmetaheader-metafileheader-gettype">MetafileHeader::GetType</a>
  
 
  

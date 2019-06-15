@@ -82,11 +82,11 @@ The specified location is within the image of the object.
 
 
 
-<a href="https://msdn.microsoft.com/a9ee26c4-cf5f-4ca9-b40a-0522097a2f07">IViewObjectEx::QueryHitPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitpoint">IViewObjectEx::QueryHitPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb155424-e74c-497f-a9c0-33ed3b2b5513">IViewObjectEx::QueryHitRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitrect">IViewObjectEx::QueryHitRect</a>
  
 
  

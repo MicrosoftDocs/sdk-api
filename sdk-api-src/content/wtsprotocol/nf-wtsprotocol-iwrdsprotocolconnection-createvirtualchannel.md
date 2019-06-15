@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Virtual channels are software extensions that can be created to enhance a Remote Desktop Services application. Examples include support for additional hardware or additions to the functionality provided by a given protocol. For more information, see <a href="https://msdn.microsoft.com/f7bdebec-ecc3-4f28-9327-f0d2f169c142">Remote Desktop Services Virtual 
+Virtual channels are software extensions that can be created to enhance a Remote Desktop Services application. Examples include support for additional hardware or additions to the functionality provided by a given protocol. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-virtual-channels">Remote Desktop Services Virtual 
       Channels</a>.
 
 
@@ -113,7 +113,7 @@ Virtual channels are software extensions that can be created to enhance a Remote
 
 
 
-<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
  
 
  

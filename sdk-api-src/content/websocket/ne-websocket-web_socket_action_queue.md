@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WEB_SOCKET_ACTION_QUEUE</b> enumeration specifies the action types returned by <a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a>.
+The <b>WEB_SOCKET_ACTION_QUEUE</b> enumeration specifies the action types returned by <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>.
 
 
 ## -enum-fields
@@ -60,19 +60,19 @@ The <b>WEB_SOCKET_ACTION_QUEUE</b> enumeration specifies the action types return
 ### -field WEB_SOCKET_SEND_ACTION_QUEUE
 
 
-<a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a> will return only send-related actions.
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> will return only send-related actions.
 
 
 ### -field WEB_SOCKET_RECEIVE_ACTION_QUEUE
 
 
-<a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a> will return receive-related actions as well as internal send actions (reply to a ping frame).
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> will return receive-related actions as well as internal send actions (reply to a ping frame).
 
 
 ### -field WEB_SOCKET_ALL_ACTION_QUEUE
 
 
-<a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a> will return all actions.
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a> will return all actions.
 
 
 ## -see-also
@@ -80,15 +80,15 @@ The <b>WEB_SOCKET_ACTION_QUEUE</b> enumeration specifies the action types return
 
 
 
-<a href="https://msdn.microsoft.com/46d22fb5-adc3-4d1c-81b8-480f1c6de327">WEB_SOCKET_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ne-websocket-_web_socket_action">WEB_SOCKET_ACTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9b90176-c76f-42c2-b378-834a690bfe72">WebSocketCompleteAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcompleteaction">WebSocketCompleteAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/566cff2d-15dd-45c6-bc41-550be1f45cfd">WebSocketGetAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketgetaction">WebSocketGetAction</a>
  
 
  

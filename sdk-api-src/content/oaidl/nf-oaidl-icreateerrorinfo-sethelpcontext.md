@@ -106,7 +106,7 @@ Insufficient memory to complete the operation.
 
 
 
-This method sets the Help context ID for the error. To establish the Help file to which it applies, use <a href="https://msdn.microsoft.com/bb439d74-fd52-4c95-afc5-d57e2fe5029d">ICreateErrorInfo::SetHelpFile</a>.
+This method sets the Help context ID for the error. To establish the Help file to which it applies, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpfile">ICreateErrorInfo::SetHelpFile</a>.
 
 
 
@@ -117,7 +117,7 @@ This method sets the Help context ID for the error. To establish the Help file t
 
 
 
-<a href="https://msdn.microsoft.com/2e7c5ad5-9018-413e-8826-ef752ebf302c">ICreateErrorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
  
 
  

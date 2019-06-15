@@ -70,13 +70,13 @@ A variable for alignment.
 ### -field ExceptionRecord
 
 A 
-<a href="https://msdn.microsoft.com/edbb87a7-1b99-46bd-8797-c806861ec73a">MINIDUMP_EXCEPTION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception">MINIDUMP_EXCEPTION</a> structure.
 
 
 ### -field ThreadContext
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
 
 
 ## -remarks
@@ -93,15 +93,15 @@ In this context, a data stream is a set of data in a minidump file.
 
 
 
-<a href="https://msdn.microsoft.com/edbb87a7-1b99-46bd-8797-c806861ec73a">MINIDUMP_EXCEPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception">MINIDUMP_EXCEPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

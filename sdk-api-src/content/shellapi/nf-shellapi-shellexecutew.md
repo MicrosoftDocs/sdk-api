@@ -174,7 +174,7 @@ Activates the window and displays it in its current size and position.
 
 #### SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function by the program that started the application. An application should call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 
@@ -270,7 +270,7 @@ Activates the window and displays it in its current size and position.
 
 ##### - nShowCmd.SW_SHOWDEFAULT (10)
 
-Sets the show state based on the SW_ flag specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure passed to the <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function by the program that started the application. An application should call <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> with this flag to set the initial show state of its main window.
+Sets the show state based on the SW_ flag specified in the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-_startupinfoa">STARTUPINFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function by the program that started the application. An application should call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> with this flag to set the initial show state of its main window.
 
 
 ##### - nShowCmd.SW_SHOWMAXIMIZED (3)
@@ -543,7 +543,7 @@ ShellExecute(handle, "find", <fully_qualified_path_to_folder>, NULL, NULL, 0);
 
 If <i>lpOperation</i> is <b>NULL</b>, the function opens the file specified by <i>lpFile</i>. If <i>lpOperation</i> is "open" or "explore", the function  attempts to open or explore the folder.
 
-To obtain information about the application that is launched as a result of calling <b>ShellExecute</b>, use <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a>.
+To obtain information about the application that is launched as a result of calling <b>ShellExecute</b>, use <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>.
 
 <div class="alert"><b>Note</b>  The <b>Launch folder windows in a separate process</b> setting in Folder Options affects <b>ShellExecute</b>. If that option is disabled (the default setting), <b>ShellExecute</b> uses an open Explorer window rather than launch a new one. If no Explorer window is open, <b>ShellExecute</b> launches a new one.</div>
 <div> </div>
@@ -555,19 +555,19 @@ To obtain information about the application that is launched as a result of call
 
 
 
-<a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/48af59ec-d646-454e-b699-389033812638">IShellExecuteHook</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application">IShellExecuteHook</a>
 
 
 
-<a href="https://msdn.microsoft.com/d774c3b2-4caf-460a-ac32-0ed603491d5f">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/launch">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a>
 
 
 
-<a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>
  
 
  

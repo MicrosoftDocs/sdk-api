@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects.
+The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects.
 

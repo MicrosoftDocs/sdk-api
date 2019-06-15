@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unsupported. <b>LoadStringByReference</b> may be altered or unavailable. Instead, use <a href="https://msdn.microsoft.com/f0265cd8-deb8-4bca-b379-39aff49c7df1">SHLoadIndirectString</a>.
+Unsupported. <b>LoadStringByReference</b> may be altered or unavailable. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shloadindirectstring">SHLoadIndirectString</a>.
 
 
 ## -parameters
@@ -108,7 +108,7 @@ A <b>BOOL</b> datatype.
 
 
 
-<b>LoadStringByReference</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/f0265cd8-deb8-4bca-b379-39aff49c7df1">SHLoadIndirectString</a>.
+<b>LoadStringByReference</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shloadindirectstring">SHLoadIndirectString</a>.
 
 
 

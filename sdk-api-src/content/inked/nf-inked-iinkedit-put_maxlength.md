@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
- Gets or sets a value indicating whether there is a maximum number of characters an <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control can hold and, if so, specifies the maximum number of characters.
+ Gets or sets a value indicating whether there is a maximum number of characters an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control can hold and, if so, specifies the maximum number of characters.
 
 
 This property is read/write.
@@ -69,11 +69,11 @@ This property is read/write.
 
 The default for the <b>MaxLength</b> property is 0, indicating no maximum other than that created by memory constraints on the user's system. Any number greater than 0 indicates the maximum number of characters.
 
-Use the <b>MaxLength</b> property to limit the number of characters a user can enter in an <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control.
+Use the <b>MaxLength</b> property to limit the number of characters a user can enter in an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 
 
-If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control from code, no error occurs; however, only the maximum number of characters is assigned to the <a href="https://msdn.microsoft.com/en-us/library/Dd374074(v=VS.85).aspx">Text</a> property, and extra characters are truncated. Changing this property doesn't affect the current contents of an InkEdit control, but will affect any subsequent changes to the contents.
+If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control from code, no error occurs; however, only the maximum number of characters is assigned to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-text">Text</a> property, and extra characters are truncated. Changing this property doesn't affect the current contents of an InkEdit control, but will affect any subsequent changes to the contents.
 
 
 
@@ -89,7 +89,7 @@ If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a 
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

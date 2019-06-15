@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 Exposes methods to enable and query translucency effects in a deskband object.
-<div class="alert"><b>Important</b>  You should use <a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
+<div class="alert"><b>Important</b>  You should use <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeskBand2</b> interface inherits from <a href="https://msdn.microsoft.com/eb9f7f2a-a6be-4527-8a32-325dad4c8000">IDeskBand</a>. <b>IDeskBand2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeskBand2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>. <b>IDeskBand2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDeskBand2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af42c03f-04aa-42b2-9be4-b3bfa0a8c47e">CanRenderComposited</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-canrendercomposited">CanRenderComposited</a>
 </td>
 <td align="left" width="63%">
 Indicates the deskband's ability to be displayed as translucent.
@@ -78,7 +78,7 @@ Indicates the deskband's ability to be displayed as translucent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77c9203b-39a1-4923-a5df-68861e19e9f1">GetCompositionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-getcompositionstate">GetCompositionState</a>
 </td>
 <td align="left" width="63%">
 Gets the composition state.
@@ -87,7 +87,7 @@ Gets the composition state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/183cc6fa-4dc4-4272-8d61-a0a426aeefda">SetCompositionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-setcompositionstate">SetCompositionState</a>
 </td>
 <td align="left" width="63%">
 Sets the composition state.
@@ -101,7 +101,7 @@ Sets the composition state.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>, <a href="https://msdn.microsoft.com/9e80fd5e-f57d-4801-b198-73b8f5ffff6e">IDockingWindow</a>, and <a href="https://msdn.microsoft.com/eb9f7f2a-a6be-4527-8a32-325dad4c8000">IDeskBand</a> interfaces, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow">IDockingWindow</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a> interfaces, from which it inherits.
 
 If implemented in all active deskbands, this interface allows the taskbar to be displayed using translucent effects. If an active deskband does not implement <b>IDeskBand2</b>, then translucency is disabled for the entire taskbar.
 
@@ -110,10 +110,10 @@ A deskband can implement <b>IDeskBand2</b> as a communication conduit between it
                 
 
 <ul>
-<li>Taskbar calls <a href="https://msdn.microsoft.com/af42c03f-04aa-42b2-9be4-b3bfa0a8c47e">IDeskBand2::CanRenderComposited</a> to learn if a deskband supports translucency. If one or more do not, the entire taskbar is rendered opaque.</li>
-<li>Taskbar calls <a href="https://msdn.microsoft.com/183cc6fa-4dc4-4272-8d61-a0a426aeefda">IDeskBand2::SetCompositionState</a> as appropriate in response to a user turning translucent effects on or off. The taskbar should attempt to render itself translucent or opaque in response to this call.</li>
+<li>Taskbar calls <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-canrendercomposited">IDeskBand2::CanRenderComposited</a> to learn if a deskband supports translucency. If one or more do not, the entire taskbar is rendered opaque.</li>
+<li>Taskbar calls <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-setcompositionstate">IDeskBand2::SetCompositionState</a> as appropriate in response to a user turning translucent effects on or off. The taskbar should attempt to render itself translucent or opaque in response to this call.</li>
 <li>
-<a href="https://msdn.microsoft.com/77c9203b-39a1-4923-a5df-68861e19e9f1">IDeskBand2::GetCompositionState</a> is the counterpart of <a href="https://msdn.microsoft.com/183cc6fa-4dc4-4272-8d61-a0a426aeefda">IDeskBand2::SetCompositionState</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-getcompositionstate">IDeskBand2::GetCompositionState</a> is the counterpart of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ideskband2-setcompositionstate">IDeskBand2::SetCompositionState</a>.</li>
 </ul>
 
 

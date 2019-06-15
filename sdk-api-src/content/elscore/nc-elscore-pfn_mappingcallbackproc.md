@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined callback function that asynchronously processes data produced by the <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a> function. The <b>MAPPINGCALLBACKPROC</b> type defines a pointer to this callback function. <b>MappingCallbackProc</b> is a placeholder for the application-defined function name.
+An application-defined callback function that asynchronously processes data produced by the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> function. The <b>MAPPINGCALLBACKPROC</b> type defines a pointer to this callback function. <b>MappingCallbackProc</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -59,22 +59,22 @@ An application-defined callback function that asynchronously processes data prod
 
 ### -param *pBag [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a> structure containing the results of the call to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure containing the results of the call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>.
 
 
 ### -param data [in]
 
-Pointer to private application data. This pointer is the same as that passed in the <b>pRecognizeCallerData</b> member of the <a href="https://msdn.microsoft.com/228625b3-928c-451f-9a3f-7eb3130ac622">MAPPING_OPTIONS</a> structure.
+Pointer to private application data. This pointer is the same as that passed in the <b>pRecognizeCallerData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_options">MAPPING_OPTIONS</a> structure.
 
 
 ### -param dwDataSize [in]
 
-Size, in bytes, of the private application data. This size is the same as that passed in the <b>dwRecognizeCallerDataSize</b> member of the <a href="https://msdn.microsoft.com/228625b3-928c-451f-9a3f-7eb3130ac622">MAPPING_OPTIONS</a> structure when the application calls <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a> asynchronuously.
+Size, in bytes, of the private application data. This size is the same as that passed in the <b>dwRecognizeCallerDataSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_options">MAPPING_OPTIONS</a> structure when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> asynchronuously.
 
 
 ### -param Result [in]
 
-Return code from <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>. The return code is S_OK if the function succeeded, or an error code otherwise.
+Return code from <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>. The return code is S_OK if the function succeeded, or an error code otherwise.
 
 
 ## -returns
@@ -90,9 +90,9 @@ This callback function does not return a value.
 
 
 
-A <b>MappingCallbackProc</b> function consumes the results retrieved by <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>. The application registers the callback function by passing its address to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a> in a <a href="https://msdn.microsoft.com/228625b3-928c-451f-9a3f-7eb3130ac622">MAPPING_OPTIONS</a> structure.
+A <b>MappingCallbackProc</b> function consumes the results retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>. The application registers the callback function by passing its address to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a> in a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_options">MAPPING_OPTIONS</a> structure.
 
-The application should check the <i>Result</i> parameter before using the data in the <i>pBag</i> parameter. When it is done using the data from the property bag, the application must call <a href="https://msdn.microsoft.com/7e06e85d-109a-4c5f-be18-3750e25c4986">MappingFreePropertyBag</a> because the property bag can contain pointers into the original text. For more information about the property bag, see the remarks for the <a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a> structure.
+The application should check the <i>Result</i> parameter before using the data in the <i>pBag</i> parameter. When it is done using the data from the property bag, the application must call <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingfreepropertybag">MappingFreePropertyBag</a> because the property bag can contain pointers into the original text. For more information about the property bag, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure.
 
 
 
@@ -102,27 +102,27 @@ The application should check the <i>Result</i> parameter before using the data i
 
 
 
-<a href="https://msdn.microsoft.com/90bc1757-ec94-425e-927f-9ae2e1ab8af8">Extended Linguistic Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/d62ab664-a75a-4d06-aefb-a3311ea7d4a7">Extended Linguistic Services Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/228625b3-928c-451f-9a3f-7eb3130ac622">MAPPING_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_options">MAPPING_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>
 
 
 
-<a href="https://msdn.microsoft.com/48609c55-9e82-4407-ae28-41b07b1e1161">Providing Callbacks for ELS Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/providing-callbacks-for-els-services">Providing Callbacks for ELS Services</a>
  
 
  

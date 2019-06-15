@@ -90,7 +90,7 @@ The settings for each configuration mode can be found in the Event Collector reg
                   <b>ConfigurationModes</b></pre>
 
 
-For more information about the subscription delivery mode and properties see, <a href="https://msdn.microsoft.com/ece884d6-df3c-44d0-a10c-affcf3107148">EC_SUBSCRIPTION_DELIVERY_MODE</a> and  <a href="https://msdn.microsoft.com/c70dca98-1c14-4c0c-9f2e-6241c463fe4e">EC_SUBSCRIPTION_PROPERTY_ID</a>.
+For more information about the subscription delivery mode and properties see, <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_delivery_mode">EC_SUBSCRIPTION_DELIVERY_MODE</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a>.
 
 
 

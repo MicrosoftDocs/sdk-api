@@ -74,13 +74,13 @@ Pointer to a <b>null</b>-terminated string that specifies the name of the phone-
 ### -param lpInfo [in, out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/fa5843ec-1f39-40b2-8c5a-9b72f3cc3539">RASPBDLG</a> structure that specifies additional input and output parameters. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure that specifies additional input and output parameters. 
 
 
 
 
 On input, the <b>dwSize</b> member of this structure must specify the sizeof(
-<a href="https://msdn.microsoft.com/fa5843ec-1f39-40b2-8c5a-9b72f3cc3539">RASPBDLG</a>).
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a>).
 
 If an error occurs, the <b>dwError</b> member of the structure receives, on output, an error code; otherwise, it receives zero.
 
@@ -92,7 +92,7 @@ If an error occurs, the <b>dwError</b> member of the structure receives, on outp
 If the user selects the <b>Connect</b> button and the function establishes a connection, the return value is <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b>.
 
  If an error occurs, the <b>dwError</b> member of the 
-<a href="https://msdn.microsoft.com/fa5843ec-1f39-40b2-8c5a-9b72f3cc3539">RASPBDLG</a> structure returns a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure returns a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 The following sample code brings up the <b>Dial-Up Networking</b> dialog. The dialog  displays dialing information for the first entry from the default phonebook file.
 
@@ -147,15 +147,15 @@ int main (){
 
 
 
-<a href="https://msdn.microsoft.com/fa5843ec-1f39-40b2-8c5a-9b72f3cc3539">RASPBDLG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

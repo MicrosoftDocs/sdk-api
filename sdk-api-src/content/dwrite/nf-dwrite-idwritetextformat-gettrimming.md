@@ -59,14 +59,14 @@ ms.custom: 19H1
 
 ### -param trimmingOptions [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c252b936-8a09-45b4-8138-84cf54058f72">DWRITE_TRIMMING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_trimming">DWRITE_TRIMMING</a>*</b>
 
-When this method returns, it contains a pointer to a <a href="https://msdn.microsoft.com/c252b936-8a09-45b4-8138-84cf54058f72">DWRITE_TRIMMING</a> structure that holds the text trimming options for the overflowing text.
+When this method returns, it contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_trimming">DWRITE_TRIMMING</a> structure that holds the text trimming options for the overflowing text.
 
 
 ### -param trimmingSign [out]
 
-Type: <b><a href="https://msdn.microsoft.com/cf915458-acbc-4a37-be5c-b1337153f386">IDWriteInlineObject</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>**</b>
 
 When this method returns, contains an address of a pointer to a trimming omission sign. This parameter may be <b>NULL</b>.
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

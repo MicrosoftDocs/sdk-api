@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees the memory allocated for the specified <a href="https://msdn.microsoft.com/9B0F7BE3-BDCD-437E-9157-9A646A2A20E2">DSREG_JOIN_INFO</a> structure, which contains join information for a tenant and which you retrieved by calling the <a href="https://msdn.microsoft.com/C63B3AA7-FC7E-4CB9-9318-BD25560591AB">NetGetAadJoinInformation</a> function.
+Frees the memory allocated for the specified <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_join_info">DSREG_JOIN_INFO</a> structure, which contains join information for a tenant and which you retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Frees the memory allocated for the specified <a href="https://msdn.microsoft.com
 
 ### -param pJoinInfo [in, optional]
 
-Pointer to the <a href="https://msdn.microsoft.com/9B0F7BE3-BDCD-437E-9157-9A646A2A20E2">DSREG_JOIN_INFO</a> structure for which you want to free the memory. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_join_info">DSREG_JOIN_INFO</a> structure for which you want to free the memory. 
 
 
 ## -returns
@@ -76,11 +76,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/9B0F7BE3-BDCD-437E-9157-9A646A2A20E2">DSREG_JOIN_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-_dsreg_join_info">DSREG_JOIN_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/C63B3AA7-FC7E-4CB9-9318-BD25560591AB">NetGetAadJoinInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetaadjoininformation">NetGetAadJoinInformation</a>
  
 
  

@@ -70,7 +70,7 @@ The <b>IFeedClockVector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8cf6b0f-2049-4047-b72d-34530ae82605">GetUpdateCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvector-getupdatecount">GetUpdateCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of updates that have been made to the FeedSync item.
@@ -80,7 +80,7 @@ Gets the number of updates that have been made to the FeedSync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d43d193b-d0c4-4b01-be90-a322fcc8b672">IsNoConflictsSpecified</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ifeedclockvector-isnoconflictsspecified">IsNoConflictsSpecified</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether conflicts are preserved for the FeedSync item.
@@ -100,7 +100,7 @@ Gets a value that indicates whether conflicts are preserved for the FeedSync ite
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

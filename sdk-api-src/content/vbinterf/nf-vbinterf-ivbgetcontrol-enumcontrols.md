@@ -61,7 +61,7 @@ Enumerates the controls on the form.
 ### -param dwOleContF [in]
 
 Specifies the type of OLE objects to be enumerated. This parameter can be one of the following 
-      values enumerated by the <a href="https://msdn.microsoft.com/9c70fc86-7166-47dd-a424-741f18e381e3">OLECONTF</a> enumeration.
+      values enumerated by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolecontf">OLECONTF</a> enumeration.
 
 <table>
 <tr>
@@ -278,11 +278,11 @@ When migrating a VBX control to an OLE control,
 
 
 
-<a href="https://msdn.microsoft.com/22309920-f32c-4639-8869-b915a337d86f">IVBGetControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-ivbgetcontrol">IVBGetControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c70fc86-7166-47dd-a424-741f18e381e3">OLECONTF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolecontf">OLECONTF</a>
  
 
  

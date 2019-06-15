@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Defines status flags for the <a href="https://msdn.microsoft.com/7c2410ce-e70b-4303-9dbc-caff4a355d6b">MF_TOPOLOGY_RESOLUTION_STATUS</a> attribute.
+Defines status flags for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-topology-resolution-status-attribute">MF_TOPOLOGY_RESOLUTION_STATUS</a> attribute.
 
 
 
@@ -80,7 +80,7 @@ An optional topology node was rejected because it could not be loaded into a pro
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

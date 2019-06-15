@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OpenScope</b> method opens an <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object with the specified name.
+The <b>OpenScope</b> method opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>OpenScope</b> method opens an <a href="https://msdn.microsoft.com/f7abe7c
 
 ### -param bstrScopeName [in]
 
-Name of the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object to open.
+Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object to open.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppScope [out]
 
-A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object.
+A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object.
 
 
 ## -returns

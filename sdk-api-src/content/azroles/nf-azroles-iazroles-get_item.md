@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Item</b> property retrieves the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object at the specified index into the <a href="https://msdn.microsoft.com/bc69ec52-ea73-4a0c-a9a2-913a6725489e">IAzRoles</a> collection.
+The <b>Item</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object at the specified index into the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroles">IAzRoles</a> collection.
 
 This property is read-only.
 

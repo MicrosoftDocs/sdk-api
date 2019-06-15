@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</b> structure specifies a template for application layer enforcement
   (ALE) endpoints to be enumerated.
-<div class="alert"><b>Note</b>  <b>FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</b> is a specific version of <b>FWPS_ALE_ENDPOINT_ENUM_TEMPLATE</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</b> is a specific version of <b>FWPS_ALE_ENDPOINT_ENUM_TEMPLATE</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -89,9 +89,9 @@ The remote port portion of the enumeration template.
 
 This structure can be used to narrow the results when enumerating endpoints. If used, it is specified
     when the enumeration handle is created by calling 
-    <a href="https://msdn.microsoft.com/5daa3dd4-e499-4a72-b784-8a0e1ef3e92b">FwpsAleEndpointCreateEnumHandle0</a>. Any populated members are used to limit the enumeration results
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">FwpsAleEndpointCreateEnumHandle0</a>. Any populated members are used to limit the enumeration results
     returned by 
-    <a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>.
 
 
 
@@ -101,11 +101,11 @@ This structure can be used to narrow the results when enumerating endpoints. If 
 
 
 
-<a href="https://msdn.microsoft.com/5daa3dd4-e499-4a72-b784-8a0e1ef3e92b">FwpsAleEndpointCreateEnumHandle0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointcreateenumhandle0">FwpsAleEndpointCreateEnumHandle0</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b3257ea-9eeb-426b-8c82-a4f0242861a8">FwpsAleEndpointEnum0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
  
 
  

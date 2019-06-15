@@ -113,7 +113,7 @@ The Internet Protocol version 6 (IPv6) address family.
 
 ### -field InterfaceLuid
 
-Type: <b><a href="https://msdn.microsoft.com/c4956c5a-3c6c-4f1c-b9d7-2e377b66f197">NET_LUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a></b>
 
 The locally unique identifier (LUID) for the network interface.
 
@@ -395,7 +395,7 @@ A value of 255 is commonly used to represent an illegal value.
 
 Type: <b>ULONG</b>
 
-The interface metric. Note the actual route metric used to compute the route preference is the summation of the route metric offset specified in the <b>Metric</b> member of the  <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure and the interface metric specified in this member.
+The interface metric. Note the actual route metric used to compute the route preference is the summation of the route metric offset specified in the <b>Metric</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface metric specified in this member.
 
 
 ### -field NlMtu
@@ -444,14 +444,14 @@ The reachable timeout, in milliseconds.
 
 Type: <b>NL_INTERFACE_OFFLOAD_ROD</b>
 
-A set of flags that indicate the transmit offload capabilities for the IP interface. The <a href="https://msdn.microsoft.com/764c7f5a-00df-461d-99ee-07f9e1f77ec7">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
+A set of flags that indicate the transmit offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
 
 
 ### -field ReceiveOffload
 
 Type: <b>NL_INTERFACE_OFFLOAD_ROD</b>
 
-A set of flags that indicate the receive offload capabilities for the IP interface. The <a href="https://msdn.microsoft.com/764c7f5a-00df-461d-99ee-07f9e1f77ec7">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
+A set of flags that indicate the receive offload capabilities for the IP interface. The <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a> structure is defined in the <i>Nldef.h</i> header file.
 
 
 ### -field DisableDefaultRoutes
@@ -485,18 +485,18 @@ A metric is a value that is assigned to an IP route for a particular network int
 The automatic metric feature can be useful when the routing table contains multiple routes for the same destination. For example, a computer with a 10 megabit network interface and a 100 megabit network interface has a default gateway that is configured on both network interfaces. When <b>UseAutomaticMetric</b> is <b>TRUE</b>, this feature can force all of the traffic that is destined for the Internet, for example, to use the fastest network interface that is available.
 
 
-The interface metric specified in the <b>Metric</b> member represents just the metric for the interface. The complete routing metric is a combination of this interface metric  added to the route metric offset specified in the <b>Metric</b> member of the <a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a> structure of a route entry specified on this interface.  
+The interface metric specified in the <b>Metric</b> member represents just the metric for the interface. The complete routing metric is a combination of this interface metric  added to the route metric offset specified in the <b>Metric</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure of a route entry specified on this interface.  
 
 Unprivileged simultaneous access to multiple networks of different security requirements creates a security hole and allows an unprivileged application to accidentally relay data between the two networks. A typical example is simultaneous access to a virtual private network (VPN) and the internet. Windows Server 2003 and Windows XP use a weak host model, where RAS prevents such simultaneous access by increasing the route metric of all default routes over other interfaces. Thus all traffic is routed through the VPN interface, disrupting other network connectivity. 
 
-On Windows Vista and later, a strong host model is used by default. If a source IP address is specified in the route lookup using <a href="https://msdn.microsoft.com/7bc16824-c98f-4cd5-a589-e198b48b637c">GetBestRoute2</a> or <a href="https://msdn.microsoft.com/5e507d14-f603-467d-9c37-bb048658d0b1">GetBestRoute</a>, the route lookup is restricted to the interface of the source IP address. The route metric modification by RAS has no effect as the list of potential routes does not even have the route for the VPN interface thereby allowing traffic to the internet. The <b>DisableDefaultRoutes</b> member of the <b>MIB_IPINTERFACE_ROW</b> structure can be used to disable using the default route on an interface. This member can be used as a security measure by VPN clients to restrict split tunneling when split tunneling is not required by the VPN client. A VPN client can call the <a href="https://msdn.microsoft.com/8e6d2c14-29c3-47a7-9eb8-0989df9da68c">SetIpInterfaceEntry</a> function to set the <b>DisableDefaultRoutes</b> member to <b>TRUE</b> when required. A VPN client can query the current state of the <b>DisableDefaultRoutes</b> member by calling  the <a href="https://msdn.microsoft.com/604e33fd-ab12-4861-a083-544045f46ef4">GetIpInterfaceEntry</a> function. 
+On Windows Vista and later, a strong host model is used by default. If a source IP address is specified in the route lookup using <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getbestroute2">GetBestRoute2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>, the route lookup is restricted to the interface of the source IP address. The route metric modification by RAS has no effect as the list of potential routes does not even have the route for the VPN interface thereby allowing traffic to the internet. The <b>DisableDefaultRoutes</b> member of the <b>MIB_IPINTERFACE_ROW</b> structure can be used to disable using the default route on an interface. This member can be used as a security measure by VPN clients to restrict split tunneling when split tunneling is not required by the VPN client. A VPN client can call the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a> function to set the <b>DisableDefaultRoutes</b> member to <b>TRUE</b> when required. A VPN client can query the current state of the <b>DisableDefaultRoutes</b> member by calling  the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a> function. 
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
 
 #### Examples
 
-To view an example that retrieves the <a href="https://msdn.microsoft.com/c4bbb949-5573-42cd-bb03-e308ac40d569">MIB_IPINTERFACE_TABLE</a> structure and then prints out a few members of the <b>MIB_IPINTERFACE_ROW</b> structure entries in this table, see the <a href="https://msdn.microsoft.com/09f2bbff-3281-41ae-878f-61c5afa20ec5">GetIpInterfaceTable</a> function.
+To view an example that retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a> structure and then prints out a few members of the <b>MIB_IPINTERFACE_ROW</b> structure entries in this table, see the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a> function.
 
 <div class="code"></div>
 
@@ -507,39 +507,39 @@ To view an example that retrieves the <a href="https://msdn.microsoft.com/c4bbb9
 
 
 
-<a href="https://msdn.microsoft.com/5e507d14-f603-467d-9c37-bb048658d0b1">GetBestRoute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bc16824-c98f-4cd5-a589-e198b48b637c">GetBestRoute2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getbestroute2">GetBestRoute2</a>
 
 
 
-<a href="https://msdn.microsoft.com/604e33fd-ab12-4861-a083-544045f46ef4">GetIpInterfaceEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/09f2bbff-3281-41ae-878f-61c5afa20ec5">GetIpInterfaceTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfacetable">GetIpInterfaceTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/3678315d-b6ab-48c8-8522-a57deb63f8c9">MIB_IPFORWARD_ROW2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipforward_row2">MIB_IPFORWARD_ROW2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4bbb949-5573-42cd-bb03-e308ac40d569">MIB_IPINTERFACE_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_ipinterface_table">MIB_IPINTERFACE_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4956c5a-3c6c-4f1c-b9d7-2e377b66f197">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/764c7f5a-00df-461d-99ee-07f9e1f77ec7">NL_INTERFACE_OFFLOAD_ROD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ns-nldef-_nl_interface_offload_rod">NL_INTERFACE_OFFLOAD_ROD</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6d2c14-29c3-47a7-9eb8-0989df9da68c">SetIpInterfaceEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setipinterfaceentry">SetIpInterfaceEntry</a>
  
 
  

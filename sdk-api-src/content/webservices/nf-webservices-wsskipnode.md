@@ -52,7 +52,7 @@ ms.custom: 19H1
 Advances the reader in the input stream.  If the current node is an element, 
         all of the children of that element are skipped, and the reader is positioned 
         on the node following its end element.  Otherwise, the reader is positioned 
-        on the next node in the same manner as <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+        on the next node in the same manner as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
       
 
 
@@ -117,9 +117,9 @@ A quota was exceeded.
 
 
 If there is an error parsing the input, the function will return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
       
 
 

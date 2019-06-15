@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-This property is equivalent to  specifying this child element in a call to the <a href="https://msdn.microsoft.com/e75d21da-129f-4209-b51b-777ca5880946">IUIAutomationTextPattern::RangeFromChild</a> method.
+This property is equivalent to  specifying this child element in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild">IUIAutomationTextPattern::RangeFromChild</a> method.
 
 
 
@@ -72,7 +72,7 @@ This property is equivalent to  specifying this child element in a call to the <
 
 
 
-<a href="https://msdn.microsoft.com/0669C1F6-8C82-474E-B697-B3C4EA2D60CB">IUIAutomationTextChildPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextchildpattern">IUIAutomationTextChildPattern</a>
  
 
  

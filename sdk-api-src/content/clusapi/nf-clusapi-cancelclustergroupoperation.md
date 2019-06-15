@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Enables a client to cancel a 
-    <a href="https://msdn.microsoft.com/32408600-5118-47fb-890b-9c31faef2299">MoveClusterGroup</a> or 
-    <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a> operation that is pending for a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> or 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a> operation that is pending for a 
     group. The group is then returned to its persistent state.
 
 
@@ -93,8 +93,8 @@ This parameter is reserved for future use and must be set to zero.
 
 <b>CancelClusterGroupOperation</b> attempts to 
     cancel a pending move operation on a cluster group that was issued through a 
-    <a href="https://msdn.microsoft.com/32408600-5118-47fb-890b-9c31faef2299">MoveClusterGroup</a> or 
-    <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a> call that returned 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> or 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a> call that returned 
     <b>ERROR_IO_PENDING</b> and is still in progress. The call attempts to cancel the pending move 
     operation and bring the group to its persistent state.
 

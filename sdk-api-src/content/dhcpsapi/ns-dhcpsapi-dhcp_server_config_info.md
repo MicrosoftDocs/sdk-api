@@ -186,15 +186,15 @@ Reserved. This field should be set to 0x00000000.
 
 
 
-<a href="https://msdn.microsoft.com/a2a78c19-3161-431a-b1af-31dac994c3f6">DHCP_SERVER_CONFIG_INFO_V4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 
-<a href="https://msdn.microsoft.com/79fa7f78-35ae-4f40-bf3d-3c8f6f323776">DhcpServerGetConfig</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfig">DhcpServerGetConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/06f0c6b2-a916-4b1b-9956-22dcaafcad1b">DhcpServerSetConfig</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserversetconfig">DhcpServerSetConfig</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This method has been deprecated. Use <a href="https://msdn.microsoft.com/1687a162-f81c-422b-afc2-0b5b8b6951ad">IFolderView2::IsMoveInSameFolder</a> instead.]
+<p class="CCE_Message">[This method has been deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-ismoveinsamefolder">IFolderView2::IsMoveInSameFolder</a> instead.]
 
 Checks whether the destination of the current drag-and-drop or cut-and-paste operation is the same as the source.
 
@@ -61,7 +61,7 @@ Checks whether the destination of the current drag-and-drop or cut-and-paste ope
 
 ### -param pDropTarget [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>*</b>
 
 A pointer to a destination drop target object.
 

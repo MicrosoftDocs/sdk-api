@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>LockBuffer</b> method locks a string in the buffer.
@@ -70,7 +70,7 @@ The <b>LockBuffer</b> method locks a string in the buffer.
 
 
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object or a <b>NULL</b>-terminated string.
+Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object or a <b>NULL</b>-terminated string.
 
 
 
@@ -89,7 +89,7 @@ When the reference count is set to -1, the string in the buffer is considered to
 </ul>
 By locking the string in the buffer, you ensure that the string's exclusive hold on the buffer remains intact.
 
-After you have finished with <b>LockBuffer</b>, call <a href="https://msdn.microsoft.com/cde732ea-b2de-4eb7-bef6-bed01137d76a">UnlockBuffer</a> to reset the reference count to 1 (one).
+After you have finished with <b>LockBuffer</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">UnlockBuffer</a> to reset the reference count to 1 (one).
 
 
 
@@ -99,11 +99,11 @@ After you have finished with <b>LockBuffer</b>, call <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://msdn.microsoft.com/cde732ea-b2de-4eb7-bef6-bed01137d76a">CHString::UnlockBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">CHString::UnlockBuffer</a>
  
 
  

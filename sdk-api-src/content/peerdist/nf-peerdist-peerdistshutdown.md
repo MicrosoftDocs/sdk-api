@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerDistShutdown</b> function releases resources allocated by a call to <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>. Each handle returned by a <b>PeerDistStartup</b> call must be closed by a matching call to <b>PeerDistShutdown</b>
+The <b>PeerDistShutdown</b> function releases resources allocated by a call to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>. Each handle returned by a <b>PeerDistStartup</b> call must be closed by a matching call to <b>PeerDistShutdown</b>
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>PeerDistShutdown</b> function releases resources allocated by a call to <
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned  by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned  by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ This function will remove all publications that were created  with the specified
 
 
 
-<a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
  
 
  

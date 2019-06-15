@@ -74,11 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4c8924bd-468e-458c-b16a-ac378fb4b69a">ITPluggableTerminalEventSinkRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration">ITPluggableTerminalEventSinkRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/4887d299-8c63-4ead-b456-e80417e6ec56">RegisterSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itpluggableterminaleventsinkregistration-registersink">RegisterSink</a>
  
 
  

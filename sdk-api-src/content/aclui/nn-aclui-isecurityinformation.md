@@ -50,15 +50,15 @@ ms.custom: 19H1
 
 
 The <b>ISecurityInformation</b> interface enables the access control editor to communicate with the caller of the 
-<a href="https://msdn.microsoft.com/52cb20fd-7f3a-4984-a898-f4b9e9738e1a">CreateSecurityPage</a> and 
-<a href="https://msdn.microsoft.com/756c94b0-946f-47eb-b4b4-db3e6e89fe46">EditSecurity</a> functions. The editor calls the interface methods to retrieve information that is used to initialize its pages and to determine the editing options available to the user. The editor also calls the interface methods to pass the user's input back to the application.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a> functions. The editor calls the interface methods to retrieve information that is used to initialize its pages and to determine the editing options available to the user. The editor also calls the interface methods to pass the user's input back to the application.
 
 The <b>LPSECURITYINFO</b> type is a pointer to an <b>ISecurityInformation</b> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISecurityInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ISecurityInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a40b3ded-9a75-476b-bc7e-38794a98261c">GetAccessRights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">GetAccessRights</a>
 </td>
 <td align="left" width="63%">
 Requests information about the access rights supported by the object being edited.
@@ -82,7 +82,7 @@ Requests information about the access rights supported by the object being edite
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dafe6c45-616f-4339-a119-9b88055b5d3a">GetInheritTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">GetInheritTypes</a>
 </td>
 <td align="left" width="63%">
 Requests information about how the object's ACEs can be inherited by child objects.
@@ -91,7 +91,7 @@ Requests information about how the object's ACEs can be inherited by child objec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">GetObjectInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">GetObjectInformation</a>
 </td>
 <td align="left" width="63%">
 Requests information that is used to initialize the access control editor and to determine the editing options available to the user.
@@ -100,7 +100,7 @@ Requests information that is used to initialize the access control editor and to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c9e05fd-0b58-4d6d-b33e-067d9e8e2915">GetSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">GetSecurity</a>
 </td>
 <td align="left" width="63%">
 Requests the security descriptor of the object being edited.
@@ -109,7 +109,7 @@ Requests the security descriptor of the object being edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85ad4d42-11e7-4d26-943f-3d7451899c8e">MapGeneric</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-mapgeneric">MapGeneric</a>
 </td>
 <td align="left" width="63%">
 Requests that the generic access rights in an access mask be mapped to their corresponding standard and specific access rights.
@@ -118,7 +118,7 @@ Requests that the generic access rights in an access mask be mapped to their cor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b891e64-e648-44a4-add6-d4c214394be8">PropertySheetPageCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback">PropertySheetPageCallback</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that an access control editor property page is being created or destroyed.
@@ -127,7 +127,7 @@ Notifies the application that an access control editor property page is being cr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c23c5ad-8088-4cfb-9746-99d24cc3bd0e">SetSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">SetSecurity</a>
 </td>
 <td align="left" width="63%">
 Provides a security descriptor containing the security information specified by the user.
@@ -142,23 +142,23 @@ Provides a security descriptor containing the security information specified by 
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/52cb20fd-7f3a-4984-a898-f4b9e9738e1a">CreateSecurityPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/756c94b0-946f-47eb-b4b4-db3e6e89fe46">EditSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cb7a096-5088-424a-82d1-0351ce5bb413">ISecurityInformation2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
  
 
  

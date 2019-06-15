@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a <a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> structure to form a standard template for a dialog box. 
+Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgtemplate">DLGTEMPLATE</a> structure to form a standard template for a dialog box. 
 
 
 ## -struct-fields
@@ -61,14 +61,14 @@ Defines the dimensions and style of a control in a dialog box. One or more of th
 
 Type: <b>DWORD</b>
 
-The style of the control. This member can be a combination of <a href="https://msdn.microsoft.com/library/ms632600(v=VS.85).aspx">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://msdn.microsoft.com/en-us/library/Bb775498(v=VS.85).aspx">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
+The style of the control. This member can be a combination of <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window style values</a> (such as <b>WS_BORDER</b>) and one or more of the <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-styles">control style values</a> (such as <b>BS_PUSHBUTTON</b> and <b>ES_LEFT</b>). 
 
 
 ### -field dwExtendedStyle
 
 Type: <b>DWORD</b>
 
-The extended styles for a window. This member is not used to create controls in dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see <a href="https://msdn.microsoft.com/5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD">Extended Window Styles</a>.
+The extended styles for a window. This member is not used to create controls in dialog boxes, but applications that use dialog box templates can use it to create other types of windows. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">Extended Window Styles</a>.
 
 
 ### -field x
@@ -158,16 +158,16 @@ Following the class array is a title array that contains the initial text or res
 
 The creation data array begins at the next 
 				<b>WORD</b> boundary after the title array. This creation data can be of any size and format. If the first word of the creation data array is nonzero, it indicates the size, in bytes, of the creation data (including the size word). The control's window procedure must be able to interpret the data. When the system creates the control, it passes a pointer to this data in the 
-				<i>lParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message that it sends to the control. 
+				<i>lParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a> message that it sends to the control. 
 
 If you specify character strings in the class and title arrays, you must use Unicode strings. Use the 
-				<a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> function to generate Unicode strings from ANSI strings.
+				<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> function to generate Unicode strings from ANSI strings.
 
 The 
 				<b>x</b>, 
 				<b>y</b>, 
 				<b>cx</b>, and 
-				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="https://msdn.microsoft.com/en-us/library/ms645502(v=VS.85).aspx">MapDialogRect</a> function. 
+				<b>cy</b> members specify values in dialog box units. You can convert these values to screen units (pixels) by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function. 
 
 
 
@@ -181,47 +181,47 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645436(v=VS.85).aspx">CreateDialogIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirecta">CreateDialogIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645441(v=VS.85).aspx">CreateDialogIndirectParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirectparama">CreateDialogIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645389(v=VS.85).aspx">DLGITEMTEMPLATEEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgitemtemplateex">DLGITEMTEMPLATEEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-dlgtemplate">DLGTEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgtemplateex">DLGTEMPLATEEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645457(v=VS.85).aspx">DialogBoxIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirecta">DialogBoxIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645461(v=VS.85).aspx">DialogBoxIndirectParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645502(v=VS.85).aspx">MapDialogRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
@@ -233,7 +233,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a>
  
 
  

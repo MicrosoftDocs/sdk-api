@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains a list of files locked by a transacted writer.
 
@@ -79,7 +79,7 @@ The length of the buffer required to hold the complete list of files at the time
 
 ### -field Offset
 
-The offset from the beginning of this structure to the beginning of the first <a href="https://msdn.microsoft.com/220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
+The offset from the beginning of this structure to the beginning of the first <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
 
 
 ## -see-also
@@ -87,11 +87,11 @@ The offset from the beginning of this structure to the beginning of the first <a
 
 
 
-<a href="https://msdn.microsoft.com/fdef45fd-b197-4428-96c5-ac91b43681b1">FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transaction_locked_files">FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
 
 
 
-<a href="https://msdn.microsoft.com/220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
  
 
  

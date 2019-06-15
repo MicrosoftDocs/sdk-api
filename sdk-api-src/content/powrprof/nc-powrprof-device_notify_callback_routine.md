@@ -88,11 +88,11 @@ This function returns a Windows error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ552972(v=VS.85).aspx">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b39ec3a-417c-4ce4-a581-ed967f1baec9">PowerRegisterSuspendResumeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>
  
 
  

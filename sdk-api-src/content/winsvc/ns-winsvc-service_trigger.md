@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a service trigger event. This structure is used by the <a href="https://msdn.microsoft.com/8de46056-1ea5-46f2-a260-ad140fd77bc1">SERVICE_TRIGGER_INFO</a> structure. 
+Represents a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_info">SERVICE_TRIGGER_INFO</a> structure. 
 
 
 ## -struct-fields
@@ -361,7 +361,7 @@ The event is triggered when the user policy has changed. The <b>dwTriggerType</b
 
 ### -field cDataItems
 
-The number of <a href="https://msdn.microsoft.com/670e6c49-bbc0-4af6-9e47-6c89801ebb45">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures in the array pointed to by <i>pDataItems</i>. 
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures in the array pointed to by <i>pDataItems</i>. 
 
 This member is valid only if the <b>dwDataType</b> member is SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT.
 
@@ -383,7 +383,7 @@ This member is valid only if the <b>dwDataType</b> member is SERVICE_TRIGGER_TYP
 
 ### -field pDataItems
 
-A pointer to an array of <a href="https://msdn.microsoft.com/670e6c49-bbc0-4af6-9e47-6c89801ebb45">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures that contain trigger-specific data. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a> structures that contain trigger-specific data. 
 
 
 ### -field pDataItems.size_is
@@ -402,9 +402,9 @@ A pointer to an array of <a href="https://msdn.microsoft.com/670e6c49-bbc0-4af6-
 
 
 
-On a system that is joined to a domain, security policy settings may prevent the BFE service and its dependent services from being stopped or cause them to restart automatically. In this case, it is necessary to disable the services and then re-enable them after the event is registered. To do this programmatically, store each service's original start type, change the service start type to SERVICE_DISABLED, register the event, and then restore the service's original start type. For information about changing a service's start type, see <a href="https://msdn.microsoft.com/add8a99b-aced-4341-9790-86efac76df6b">ChangeServiceConfig</a>. 
+On a system that is joined to a domain, security policy settings may prevent the BFE service and its dependent services from being stopped or cause them to restart automatically. In this case, it is necessary to disable the services and then re-enable them after the event is registered. To do this programmatically, store each service's original start type, change the service start type to SERVICE_DISABLED, register the event, and then restore the service's original start type. For information about changing a service's start type, see <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>. 
 
-To disable the services using the SC command-line tool, use the  command <b>sc config bfe start= disabled</b>  to disable the BFE service and its dependent services, then use the command <b>net stop bfe /Y</b>  to stop them.  To re-enable the services, use the command <b>sc config bfe start= auto</b>. For more information about the SC command-line tool, see <a href="https://msdn.microsoft.com/7c3e5c39-ec0f-4174-9ecf-239927de3d39">Controlling a Service Using SC</a>.
+To disable the services using the SC command-line tool, use the  command <b>sc config bfe start= disabled</b>  to disable the BFE service and its dependent services, then use the command <b>net stop bfe /Y</b>  to stop them.  To re-enable the services, use the command <b>sc config bfe start= auto</b>. For more information about the SC command-line tool, see <a href="https://docs.microsoft.com/windows/desktop/Services/controlling-a-service-using-sc">Controlling a Service Using SC</a>.
 
 If it is not possible to disable the services, it may be necessary to restart the system after installing the service that is registering the event. In this case, do not disable the BFE service and its dependent services before restarting the system, because the system may not work correctly if these services remain disabled. 
 
@@ -416,23 +416,23 @@ If it is not possible to disable the services, it may be necessary to restart th
 
 
 
-<a href="https://msdn.microsoft.com/6e5b79ed-52e1-460e-b076-01afbd08775c">ChangeServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb090e59-aeff-4420-bb7c-912a4911006f">QueryServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/8de46056-1ea5-46f2-a260-ad140fd77bc1">SERVICE_TRIGGER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_info">SERVICE_TRIGGER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/670e6c49-bbc0-4af6-9e47-6c89801ebb45">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger_specific_data_item">SERVICE_TRIGGER_SPECIFIC_DATA_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca02a3ae-b16a-4427-b6db-b935c9cf23b3">Service Trigger Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
  
 
  

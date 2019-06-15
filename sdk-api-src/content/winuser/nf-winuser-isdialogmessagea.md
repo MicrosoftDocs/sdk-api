@@ -71,7 +71,7 @@ A handle to the dialog box.
 
 Type: <b>LPMSG</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the message to be checked. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the message to be checked. 
 
 
 ## -returns
@@ -95,11 +95,11 @@ Although the <b>IsDialogMessage</b> function is intended for modeless dialog box
 
 When <b>IsDialogMessage</b> processes a message, it checks for keyboard messages and converts them into selections for the corresponding dialog box. For example, the TAB key, when pressed, selects the next control or group of controls, and the DOWN ARROW key, when pressed, selects the next control in a group. 
 
-Because the <b>IsDialogMessage</b> function performs all necessary translating and dispatching of messages, a message processed by <b>IsDialogMessage</b> must not be passed to the <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a> function. 
+Because the <b>IsDialogMessage</b> function performs all necessary translating and dispatching of messages, a message processed by <b>IsDialogMessage</b> must not be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a> function. 
 
-<b>IsDialogMessage</b> sends <a href="https://msdn.microsoft.com/en-us/library/ms645425(v=VS.85).aspx">WM_GETDLGCODE</a> messages to the dialog box procedure to determine which keys should be processed. 
+<b>IsDialogMessage</b> sends <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-getdlgcode">WM_GETDLGCODE</a> messages to the dialog box procedure to determine which keys should be processed. 
 
-<b>IsDialogMessage</b> can send <a href="https://msdn.microsoft.com/en-us/library/ms645406(v=VS.85).aspx">DM_GETDEFID</a> and <a href="https://msdn.microsoft.com/en-us/library/ms645413(v=VS.85).aspx">DM_SETDEFID</a> messages to the window. These messages are defined in the Winuser.h header file as <a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a> and <b>WM_USER</b> + 1, so conflicts are possible with application-defined messages having the same values. 
+<b>IsDialogMessage</b> can send <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dm-getdefid">DM_GETDEFID</a> and <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dm-setdefid">DM_SETDEFID</a> messages to the window. These messages are defined in the Winuser.h header file as <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a> and <b>WM_USER</b> + 1, so conflicts are possible with application-defined messages having the same values. 
 
 
 
@@ -113,23 +113,23 @@ Because the <b>IsDialogMessage</b> function performs all necessary translating a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645406(v=VS.85).aspx">DM_GETDEFID</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dm-getdefid">DM_GETDEFID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645413(v=VS.85).aspx">DM_SETDEFID</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dm-setdefid">DM_SETDEFID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632588(v=VS.85).aspx">Dialog Boxes</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>
 
 
 
@@ -137,15 +137,15 @@ Because the <b>IsDialogMessage</b> function performs all necessary translating a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645425(v=VS.85).aspx">WM_GETDLGCODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-getdlgcode">WM_GETDLGCODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>
  
 
  

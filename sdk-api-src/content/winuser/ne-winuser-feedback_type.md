@@ -122,7 +122,7 @@ Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/FB0B8837-EE4A-48EF-8DAE-B84D7FC3BB15">Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/enumerations">Enumerations</a>
  
 
  

@@ -59,23 +59,23 @@ Enables or disables a scroll bar control.
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Flags that specify the arrows affected and whether they are enabled or disabled. See the <i>wArrows</i> parameter of <a href="https://msdn.microsoft.com/en-us/library/Bb787579(v=VS.85).aspx">EnableScrollBar</a> for more information.
+Flags that specify the arrows affected and whether they are enabled or disabled. See the <i>wArrows</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablescrollbar">EnableScrollBar</a> for more information.
 
 
 ## -remarks
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/en-us/library/Bb787579(v=VS.85).aspx">EnableScrollBar</a> with SB_CTL in the <i>wSBFlags</i> parameter.
+The macro expands to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablescrollbar">EnableScrollBar</a> with SB_CTL in the <i>wSBFlags</i> parameter.
 
 
 

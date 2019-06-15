@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawChangePalette</b> macro notifies a rendering driver that the movie palette is changing. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/974fc0d8-d0c7-4a82-af84-68b53f753259">ICM_DRAW_CHANGEPALETTE</a> message.
+The <b>ICDrawChangePalette</b> macro notifies a rendering driver that the movie palette is changing. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-changepalette">ICM_DRAW_CHANGEPALETTE</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a rendering driver.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure containing the new format and optional color table. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure containing the new format and optional color table. 
 
 
 ## -remarks
@@ -84,11 +84,11 @@ This message should be supported by installable rendering handlers that draw DIB
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

@@ -65,7 +65,7 @@ The number of structures in the <b>Modules</b> array.
 ### -field Modules
 
 An array of 
-<a href="https://msdn.microsoft.com/17e32c6e-29df-4308-b22d-39e13bc6a2a5">MINIDUMP_MODULE</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module">MINIDUMP_MODULE</a> structures.
 
 
 ## -see-also
@@ -73,11 +73,11 @@ An array of
 
 
 
-<a href="https://msdn.microsoft.com/17e32c6e-29df-4308-b22d-39e13bc6a2a5">MINIDUMP_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module">MINIDUMP_MODULE</a>
 
 
 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
  
 
  

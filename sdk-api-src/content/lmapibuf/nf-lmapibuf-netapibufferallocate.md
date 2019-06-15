@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 				<b>NetApiBufferAllocate</b> function allocates memory from the heap. Use this function only when compatibility with the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function is required. Otherwise, use the 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">memory management functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function is required. Otherwise, use the 
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">memory management functions</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Receives a pointer to the allocated buffer.
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -89,20 +89,20 @@ If the function fails, the return value is a system error code. For a list of er
 No special group membership is required to successfully execute the ApiBuffer functions.
 
 For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 #### Examples
 
 The following code sample demonstrates how to use the network management 
-<a href="https://msdn.microsoft.com/bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18">ApiBuffer functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">ApiBuffer functions</a>.
 
 The sample first calls the 
 <b>NetApiBufferAllocate</b> function to allocate memory and then the 
-<a href="https://msdn.microsoft.com/0c28feeb-00a3-4ad5-b85f-96326515fae2">NetApiBufferSize</a> function to retrieve the size of the allocated memory. Following this, the sample calls 
-<a href="https://msdn.microsoft.com/61153de0-33d3-4c83-a8aa-a7179252328c">NetApiBufferReallocate</a> to change the size of the memory allocation. Finally, the sample calls 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> to free the memory. In each case, the sample prints a message indicating success or failure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibuffersize">NetApiBufferSize</a> function to retrieve the size of the allocated memory. Following this, the sample calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate">NetApiBufferReallocate</a> to change the size of the memory allocation. Finally, the sample calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> to free the memory. In each case, the sample prints a message indicating success or failure.
 
 
 ```cpp
@@ -187,25 +187,25 @@ void PrintError(LPSTR lpszApi, DWORD res)
 
 
 
-<a href="https://msdn.microsoft.com/bf2fe8aa-dda6-4f6b-9c52-d7a96b96da18">Api Buffer
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/apibuffer-functions">Api Buffer
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/61153de0-33d3-4c83-a8aa-a7179252328c">NetApiBufferReallocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferreallocate">NetApiBufferReallocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

@@ -60,7 +60,7 @@ Contains virtual hard disk (VHD) storage dependency information.
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323691(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_VERSION</a> enumeration that specifies the version of the information structure being passed to or from  the VHD functions. Can be <a href="https://msdn.microsoft.com/en-us/library/Dd323689(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_1</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd323690(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_storage_dependency_info_version">STORAGE_DEPENDENCY_INFO_VERSION</a> enumeration that specifies the version of the information structure being passed to or from  the VHD functions. Can be <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
 
 
 ### -field NumberEntries
@@ -70,12 +70,12 @@ Number of entries returned in the following unioned members.
 
 ### -field Version1Entries
 
-Variable-length array containing <a href="https://msdn.microsoft.com/en-us/library/Dd323689(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
+Variable-length array containing <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_1">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
 
 
 ### -field Version2Entries
 
-Variable-length array containing <a href="https://msdn.microsoft.com/en-us/library/Dd323690(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
+Variable-length array containing <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_storage_dependency_info_type_2">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
 
 
 ## -see-also
@@ -83,11 +83,11 @@ Variable-length array containing <a href="https://msdn.microsoft.com/en-us/libra
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

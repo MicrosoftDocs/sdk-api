@@ -51,10 +51,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">session keys</a> used in a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. The 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function uses this structure.
+The <b>SecPkgContext_KeyInfo</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a> used in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
-Applications using the Schannel <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="https://msdn.microsoft.com/5380c03b-d2c5-4a0d-96a1-c39305b9c9ac">SecPkgContext_ConnectionInfo</a> structure.
+Applications using the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP) should not use the <b>SecPkgContext_KeyInfo</b> structure. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_connectioninfo">SecPkgContext_ConnectionInfo</a> structure.
 
 
 ## -struct-fields
@@ -79,12 +79,12 @@ Specifies the effective key length, in bits, for the session key. This is typica
 
 ### -field SignatureAlgorithm
 
-Specifies the algorithm identifier (<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a>) used for generating signatures, if available.
+Specifies the algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for generating signatures, if available.
 
 
 ### -field EncryptAlgorithm
 
-Specifies the algorithm identifier (<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a>) used for encrypting messages. Reserved for future use.
+Specifies the algorithm identifier (<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>) used for encrypting messages. Reserved for future use.
 
 
 ## -see-also
@@ -92,7 +92,7 @@ Specifies the algorithm identifier (<a href="https://msdn.microsoft.com/557436b4
 
 
 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
  
 
  

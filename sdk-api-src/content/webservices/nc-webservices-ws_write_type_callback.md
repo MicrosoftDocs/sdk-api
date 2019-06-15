@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invoked to write an element when <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_CUSTOM_TYPE</a>has been specified.  This allows writing of XML constructs which do not easily
+Invoked to write an element when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a>has been specified.  This allows writing of XML constructs which do not easily
                 map to the core serialization model.
             
 
@@ -67,11 +67,11 @@ A  <b>WS_XML_WRITER</b> pointer to the writer that the value should be written t
 
 ### -param typeMapping [in]
 
-Indicates how the XML is being mapped to this type.  See <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>for more information.
+Indicates how the XML is being mapped to this type.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>for more information.
                 
 
 If a mapping does not make sense for this particular type, the callback
-                    should return <b>WS_E_INVALID_OPERATION</b>. (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)  A callback implementation
+                    should return <b>WS_E_INVALID_OPERATION</b>. (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)  A callback implementation
                     should be prepared to be passed new mapping types in future versions and should return
                     <b>WS_E_INVALID_OPERATION</b> for those cases.
                 
@@ -79,7 +79,7 @@ If a mapping does not make sense for this particular type, the callback
 
 ### -param *descriptionData [in]
 
-This is the value of the <b>descriptionData</b> field of the <a href="https://msdn.microsoft.com/7ae3d16c-0755-4226-844e-52cf96fa84fb">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
+This is the value of the <b>descriptionData</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_type_description">WS_CUSTOM_TYPE_DESCRIPTION</a> structure.
                     The callback uses this field to access any additional information about the type.
                 
 
@@ -98,7 +98,7 @@ The size, in bytes, of the value being serialized.
 
 ### -param *error [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> data structure where additional error information should be stored if the function fails.
                 
 
 
@@ -116,7 +116,7 @@ This callback function does not return a value.
 
 
 The callback will be invoked with the same calling sequence as
-                <a href="https://msdn.microsoft.com/cab1b4d6-c18b-4740-b4a4-61e70ea181d9">WsWriteType</a> in the documentation for <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritetype">WsWriteType</a> in the documentation for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>.
                 This defines what parts of the XML that the callback should write.
             
 

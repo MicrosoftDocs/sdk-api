@@ -64,7 +64,7 @@ Pointer to a zero-terminated Unicode string that contains the peer name to regis
 
 ### -param pRegistrationInfo [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/2825cb65-94b4-4bed-acff-7fa35a992284">PEER_PNRP_REGISTRATION_INFO</a> structure that contains the endpoint information for the registering peer node. If <b>NULL</b>, the API will register the peer with all known PNRP clouds, and any registered addresses are automatically selected by the infrastructure. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_pnrp_registration_info_tag">PEER_PNRP_REGISTRATION_INFO</a> structure that contains the endpoint information for the registering peer node. If <b>NULL</b>, the API will register the peer with all known PNRP clouds, and any registered addresses are automatically selected by the infrastructure. 
   
 
 
@@ -120,7 +120,7 @@ The local peer is using an identity that does not exist.
 </table>
  
 
-Additionally, this function can return WSA values. For a complete list of possible values, see <a href="https://msdn.microsoft.com/adf40b1a-c5d6-418d-a012-cf6ba7d4fa24">PNRP NSP Error Codes</a>.
+Additionally, this function can return WSA values. For a complete list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-nsp-error-codes">PNRP NSP Error Codes</a>.
 
 
 
@@ -131,7 +131,7 @@ Additionally, this function can return WSA values. For a complete list of possib
 
 A  handle must be registered in a process separate of the process it will be resolved in. If a handle is registered and resolved within the same process it will not be recognized.
 
-A name cannot be registered with an endpoint more than once. When updates to a registered name are required, use <a href="https://msdn.microsoft.com/628aa553-4a55-452b-bcca-4bb763fa6440">PeerPnrpUpdateRegistration</a>.
+A name cannot be registered with an endpoint more than once. When updates to a registered name are required, use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpupdateregistration">PeerPnrpUpdateRegistration</a>.
 
 When <i>pRegistrationInfo</i> is <b>NULL</b>, or PEER_PNRP_AUTO_ADDRESSES is specified for <i>cAddresses</i>, the infrastructure will keep the addresses registered up to date as addresses change or cloud availability changes.
 
@@ -143,11 +143,11 @@ When <i>pRegistrationInfo</i> is <b>NULL</b>, or PEER_PNRP_AUTO_ADDRESSES is spe
 
 
 
-<a href="https://msdn.microsoft.com/ac032cfb-b1d4-4fe0-8d27-7d378aaa6aff">PeerPnrpUnregister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpunregister">PeerPnrpUnregister</a>
 
 
 
-<a href="https://msdn.microsoft.com/628aa553-4a55-452b-bcca-4bb763fa6440">PeerPnrpUpdateRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpupdateregistration">PeerPnrpUpdateRegistration</a>
  
 
  

@@ -59,16 +59,16 @@ Retrieves the available browser frame view options.
 
 ### -param dwMask [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e1c75a00-304f-44ca-98a0-a6c76a1ef95f">BROWSERFRAMEOPTIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_browserframeoptions">BROWSERFRAMEOPTIONS</a></b>
 
-Specifies the options requested as a bitwise combination of one or more of the constants of enumeration type <a href="https://msdn.microsoft.com/e1c75a00-304f-44ca-98a0-a6c76a1ef95f">BROWSERFRAMEOPTIONS</a>.
+Specifies the options requested as a bitwise combination of one or more of the constants of enumeration type <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_browserframeoptions">BROWSERFRAMEOPTIONS</a>.
 
 
 ### -param pdwOptions [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e1c75a00-304f-44ca-98a0-a6c76a1ef95f">BROWSERFRAMEOPTIONS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_browserframeoptions">BROWSERFRAMEOPTIONS</a>*</b>
 
-When this method returns, contains the options that the view  can enable (for example, <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> ). This value is not optional and is always equal to, or a subset of, the options specified by <i>dwMask</i>.
+When this method returns, contains the options that the view  can enable (for example, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> ). This value is not optional and is always equal to, or a subset of, the options specified by <i>dwMask</i>.
                 
 
 

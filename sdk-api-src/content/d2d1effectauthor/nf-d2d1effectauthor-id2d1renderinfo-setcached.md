@@ -79,11 +79,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/A1600D5A-BEE9-4EBE-BC2E-53B6B80EE4EA">ID2D1ConcreteTransform::SetCached</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1concretetransform-setcached">ID2D1ConcreteTransform::SetCached</a>
 
 
 
-<a href="https://msdn.microsoft.com/26FB6D27-7EE0-43DA-A575-D9FF77846A16">ID2D1RenderInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a>
  
 
  

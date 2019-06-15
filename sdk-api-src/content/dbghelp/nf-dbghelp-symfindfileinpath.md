@@ -63,13 +63,13 @@ Locates a symbol file or executable image.
 ### -param hprocess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param SearchPath [in, optional]
 
 The search path. This can be multiple paths separated by semicolons. It can include both directories and symbol servers. If this parameter is <b>NULL</b>, the function uses the search path set using the 
-<a href="https://msdn.microsoft.com/564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d">SymSetSearchPath</a> or <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param FileName [in]
@@ -145,7 +145,7 @@ A pointer to a buffer that receives the fully qualified path to the symbol file.
 
 ### -param callback [in, optional]
 
-A <a href="https://msdn.microsoft.com/e579158e-053d-4c81-a2c3-ac3af3d3a201">SymFindFileInPathProc</a> callback function.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfindfileinpathcallback">SymFindFileInPathProc</a> callback function.
 
 
 ### -param context [in, optional]
@@ -158,7 +158,7 @@ A user-defined value or <b>NULL</b>. This value is simply passed to the callback
 
 
 If the server locates a valid symbol file, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> and 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns a value that indicates why the symbol file was not returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value that indicates why the symbol file was not returned.
 
 
 
@@ -179,9 +179,9 @@ If DbgHelp is looking for any other type of image, such as an executable file or
 
 </li>
 </ul>
-All of these values can be obtained by calling <a href="https://msdn.microsoft.com/ee5b0821-2746-467e-9d95-90776882ac95">SymSrvGetFileIndexInfo</a>.
+All of these values can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>.
 
-When searching a directory, this function does not verify that the symbol identifiers match by default. To ensure the matching symbol files are located, call the <a href="https://msdn.microsoft.com/15d72415-829f-4ba3-af80-1f3762cbebda">SymSetOptions</a> function with SYMOPT_EXACT_SYMBOLS.
+When searching a directory, this function does not verify that the symbol identifiers match by default. To ensure the matching symbol files are located, call the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function with SYMOPT_EXACT_SYMBOLS.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -195,23 +195,23 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e579158e-053d-4c81-a2c3-ac3af3d3a201">SymFindFileInPathProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfindfileinpathcallback">SymFindFileInPathProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d">SymSetSearchPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee5b0821-2746-467e-9d95-90776882ac95">SymSrvGetFileIndexInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>
  
 
  

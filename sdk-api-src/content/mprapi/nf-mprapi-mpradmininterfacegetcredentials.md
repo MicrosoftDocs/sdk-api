@@ -71,7 +71,7 @@ This parameter is optional. If the calling application specifies <b>NULL</b> for
 ### -param lpwsInterfaceName [in]
 
 Pointer to a <b>null</b>-terminated Unicode string that specifies the name of the demand-dial interface. Use 
-<a href="https://msdn.microsoft.com/a6d353f0-1d68-4a37-89f3-cdab0fc7972a">MprAdminInterfaceGetInfo</a> to obtain the interface name.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a> to obtain the interface name.
 
 
 ### -param lpwsUserName [out]
@@ -159,7 +159,7 @@ The <i>lpwsUserName</i>, <i>lpwsPassword</i>, and <i>lpwsDomainName</i> paramete
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ The constants UNLEN, PWLEN, and DNLEN are the maximum lengths for the user name,
 
 Note that the order of the parameters in 
 <b>MprAdminInterfaceGetCredentials</b> is different from 
-<a href="https://msdn.microsoft.com/a5372bfb-185c-4562-afa3-35399c8e2a46">MprAdminInterfaceSetCredentials</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentials">MprAdminInterfaceSetCredentials</a>.
 
 
 
@@ -190,19 +190,19 @@ Note that the order of the parameters in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5372bfb-185c-4562-afa3-35399c8e2a46">MprAdminInterfaceSetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentials">MprAdminInterfaceSetCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/a61734a7-b171-4e38-8dec-46be9a9c08ee">Router Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

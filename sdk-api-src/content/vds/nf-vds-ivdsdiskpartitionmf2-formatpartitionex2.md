@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Formats an existing OEM, ESP, or unknown partition. This method is identical to the <a href="https://msdn.microsoft.com/9b7015c2-a85d-4a56-8aec-208933640185">IVdsDiskPartitionMF::FormatPartition</a> method, except that formatting options are specified by using the <i>Options</i> parameter.
+Formats an existing OEM, ESP, or unknown partition. This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">IVdsDiskPartitionMF::FormatPartition</a> method, except that formatting options are specified by using the <i>Options</i> parameter.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The byte offset of the partition from the beginning of the disk.  This offset mu
 
 ### -param pwszFileSystemTypeName [in]
 
-A <b>NULL</b>-terminated Unicode string containing the name of the file system with which to format the partition. Must be <b>NULL</b> or one of the following: "NTFS", "FAT","FAT32", "UDF", or "EXFAT". If this parameter is <b>NULL</b>, a default value is used. For more information, see <a href="https://msdn.microsoft.com/78d60240-44dc-48b8-b2a6-5babbd79085f">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>.
+A <b>NULL</b>-terminated Unicode string containing the name of the file system with which to format the partition. Must be <b>NULL</b> or one of the following: "NTFS", "FAT","FAT32", "UDF", or "EXFAT". If this parameter is <b>NULL</b>, a default value is used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>.
 
 
 ### -param usFileSystemRevision [in]
@@ -86,19 +86,19 @@ A <b>NULL</b>-terminated Unicode string containing the label to assign to the ne
 
 ### -param Options [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/75c92a9a-36c9-4c8d-90f2-a2b88cd8a7b5">VDS_FORMAT_OPTION_FLAGS</a> enumeration values that specify formatting options.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a> enumeration values that specify formatting options.
 
 
 ### -param ppAsync [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface that upon successful completion receives the <b>IVdsAsync</b> interface to monitor and control this operation.  Callers must release the interface received when they are done with it.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface that upon successful completion receives the <b>IVdsAsync</b> interface to monitor and control this operation.  Callers must release the interface received when they are done with it.
 
 
 ## -returns
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -191,7 +191,7 @@ The operation is not supported on non-OEM partitions.
 </table>
  
 
-In addition, the <a href="https://msdn.microsoft.com/7814b8ef-84b4-453e-b480-c32b67e5af93">IVdsAsync</a> interface can return the 
+In addition, the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface can return the 
       following related warnings and error codes.
 
 <table>
@@ -366,15 +366,15 @@ The volume size is too small to format.
 
 
 
-<a href="https://msdn.microsoft.com/94a8ef66-3daf-46d4-be5f-dd56739c773a">IVdsDiskPartitionMF2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdiskpartitionmf2">IVdsDiskPartitionMF2</a>
 
 
 
-<a href="https://msdn.microsoft.com/78d60240-44dc-48b8-b2a6-5babbd79085f">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/75c92a9a-36c9-4c8d-90f2-a2b88cd8a7b5">VDS_FORMAT_OPTION_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a>
  
 
  

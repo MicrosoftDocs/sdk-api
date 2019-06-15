@@ -59,7 +59,7 @@ Writes encrypted data to a protected surface.
 
 ### -param pCryptoSession [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/E17F39CB-61E3-44EF-805D-AD386743744E">ID3D11CryptoSession</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a> interface.
 
 
 ### -param pSrcSurface [in]
@@ -74,11 +74,11 @@ A pointer to the protected surface where the encrypted data is written.
 
 ### -param pEncryptedBlockInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/C52E2007-1E2B-4259-BE32-A96BB439F7C0">D3D11_ENCRYPTED_BLOCK_INFO</a> structure, or <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_encrypted_block_info">D3D11_ENCRYPTED_BLOCK_INFO</a> structure, or <b>NULL</b>.
 
 If the driver supports partially encrypted buffers,  <i>pEncryptedBlockInfo</i> indicates which portions of the buffer are encrypted.  If the entire surface is encrypted, set this parameter to <b>NULL</b>. 
 
-To check whether the driver supports partially encrypted buffers, call <a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION 
+To check whether the driver supports partially encrypted buffers, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_PARTIAL_DECRYPTION 
 </b> capabilities flag. If the driver does not support partially encrypted buffers, set this parameter to <b>NULL</b>.
 
 
@@ -89,7 +89,7 @@ The size of the encrypted content key, in bytes.
 
 ### -param pContentKey [in]
 
-A pointer to a buffer that contains a content encryption key, or <b>NULL</b>. To query whether the driver supports the use of content keys, call <a href="https://msdn.microsoft.com/3BF2D2B9-6A12-4E71-9F52-829BABA32EF6">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY</b> capabilities flag. 
+A pointer to a buffer that contains a content encryption key, or <b>NULL</b>. To query whether the driver supports the use of content keys, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps">ID3D11VideoDevice::GetContentProtectionCaps</a> and check for the <b>D3D11_CONTENT_PROTECTION_CAPS_CONTENT_KEY</b> capabilities flag. 
 
 If the driver supports content keys, use the content key to encrypt the surface. Encrypt the content key using the session key, and place the  resulting cipher text in <i>pContentKey</i>. If the driver does not support content keys, use the session key to encrypt the surface and set <i>pContentKey</i> to <b>NULL</b>.
 
@@ -103,7 +103,7 @@ The size of the <i>pIV</i> buffer, in bytes.
 
 A pointer to a buffer that contains the initialization vector (IV). 
 
-For 128-bit AES-CTR encryption, <i>pIV</i> points to a <a href="https://msdn.microsoft.com/2D1B24CA-6386-4406-9195-40913744C9CF">D3D11_AES_CTR_IV</a> structure. The caller allocates the structure and generates the IV. When you generate the first IV, initialize the structure to a random number. For each subsequent IV, simply increment the <b>IV</b> member of the structure, ensuring that the value always increases.  This procedure enables the driver to validate that the same IV is never used more than once with the same key pair.
+For 128-bit AES-CTR encryption, <i>pIV</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-_d3d11_aes_ctr_iv">D3D11_AES_CTR_IV</a> structure. The caller allocates the structure and generates the IV. When you generate the first IV, initialize the structure to a random number. For each subsequent IV, simply increment the <b>IV</b> member of the structure, ensuring that the value always increases.  This procedure enables the driver to validate that the same IV is never used more than once with the same key pair.
 
 For other encryption types, a different structure might be used, or the encryption might not use an IV.
 
@@ -121,7 +121,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Not all hardware or drivers support this functionality for all cryptographic types. This function can only be called when the <a href="https://msdn.microsoft.com/19697660-DDB8-4A4C-888F-018BC5CCFC94">D3D11_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT</a>  cap is reported.
+Not all hardware or drivers support this functionality for all cryptographic types. This function can only be called when the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_content_protection_caps">D3D11_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT</a>  cap is reported.
 
 This method does not support writing to sub-rectangles of the surface.
 
@@ -136,11 +136,11 @@ If the hardware and driver support a content key:
 
 If the driver and hardware support partially encrypted buffers, <i>pEncryptedBlockInfo</i> indicates which portions of the buffer are encrypted and which is not.  If the entire buffer is encrypted, <i>pEncryptedBlockinfo</i> should be <b>NULL</b>.
 
-The <a href="https://msdn.microsoft.com/C52E2007-1E2B-4259-BE32-A96BB439F7C0">D3D11_ENCRYPTED_BLOCK_INFO</a> allows the application to indicate which bytes in the buffer are encrypted.  This is specified in bytes, so the application must ensure that the encrypted blocks match the GPU’s crypto block alignment.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_encrypted_block_info">D3D11_ENCRYPTED_BLOCK_INFO</a> allows the application to indicate which bytes in the buffer are encrypted.  This is specified in bytes, so the application must ensure that the encrypted blocks match the GPU’s crypto block alignment.
 
 This function does not honor a D3D11 predicate that may have been set.
 
-If the application uses <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11 quries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
+If the application uses <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11 quries</a>, this function may not be accounted for with <b>D3D11_QUERY_EVENT</b> and <b>D3D11_QUERY_TIMESTAMP</b> when using feature levels lower than 11.  <b>D3D11_QUERY_PIPELINE_STATISTICS</b> will not include this function for any feature level.
 
 
 
@@ -150,7 +150,7 @@ If the application uses <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a
 
 
 
-<a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
  
 
  

@@ -54,7 +54,7 @@ The
 <b>IsPartialFileSupportEnabled</b> method determines whether partial file support is enabled or disabled.
 
 <b>IsPartialFileSupportEnabled</b> is a protected method implemented by the 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> base class.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 
 ## -parameters
@@ -108,7 +108,7 @@ The requester supports only the backup and restore of entire files.
 
 
 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
  
 
  

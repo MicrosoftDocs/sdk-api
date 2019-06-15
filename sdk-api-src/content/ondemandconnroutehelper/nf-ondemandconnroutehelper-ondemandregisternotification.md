@@ -96,7 +96,7 @@ The <b>ONDEMAND_NOTIFICATION_CALLBACK</b> function is defined as:
 
 
 
-<a href="https://msdn.microsoft.com/A7FA6035-D089-4A65-8F4E-F8722C147B0F">OnDemandUnregisterNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandunregisternotification">OnDemandUnregisterNotification</a>
  
 
  

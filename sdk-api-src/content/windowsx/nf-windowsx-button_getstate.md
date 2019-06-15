@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the state of a button or check box.  You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775988(v=VS.85).aspx">BM_GETSTATE</a> message explicitly. 
+Retrieves the state of a button or check box.  You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-getstate">BM_GETSTATE</a> message explicitly. 
 
 
 
@@ -60,7 +60,7 @@ Retrieves the state of a button or check box.  You can use this macro or send th
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
@@ -70,11 +70,11 @@ A handle to the button control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb849163(v=VS.85).aspx">Button_GetCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-button_getcheck">Button_GetCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb849168(v=VS.85).aspx">Button_SetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-button_setstate">Button_SetState</a>
 
 
 

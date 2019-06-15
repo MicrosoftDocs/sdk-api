@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 Returns the 
-    number of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> associated with a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GET_ENUM_COUNT</b> type defines a pointer to this function.
+    number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> associated with a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GET_ENUM_COUNT</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Returns the
 ### -param hEnum [in]
 
 Handle to a cluster enumeration. This handle is obtained from 
-      <a href="https://msdn.microsoft.com/b6eb5c03-dd6e-42ef-a020-cf0d61143040">ClusterOpenEnum</a>. A valid handle is required. This 
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a>. A valid handle is required. This 
       parameter cannot be NULL.
 
 

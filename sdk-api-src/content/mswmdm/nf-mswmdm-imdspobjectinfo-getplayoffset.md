@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetPlayOffset</b> method retrieves the play offset of the object, in units pertinent to the object. This is the starting point for the next invocation of <a href="https://msdn.microsoft.com/09ca1922-3b33-47a8-a851-a1d221a568b9">IMDSPDeviceControl::Play</a>.
+The <b>GetPlayOffset</b> method retrieves the play offset of the object, in units pertinent to the object. This is the starting point for the next invocation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-play">IMDSPDeviceControl::Play</a>.
 
 
 
@@ -77,7 +77,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -86,7 +86,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-The value retrieved is either zero (if the <a href="https://msdn.microsoft.com/f61ce3b5-3cd9-41e6-9a29-42b9832ec55a">SetPlayOffset</a> method has not been called) or the value set by <b>SetPlayOffset</b> clipped to be no greater than the total play length of the object minus one unit.
+The value retrieved is either zero (if the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">SetPlayOffset</a> method has not been called) or the value set by <b>SetPlayOffset</b> clipped to be no greater than the total play length of the object minus one unit.
 
 For playable files, the value returned is specified in milliseconds. The play offset value does not change when the user starts playing a file on the media device or when an application invokes the <b>IMDSPDeviceControl::Play</b> method.
 
@@ -100,11 +100,11 @@ For folders or file systems containing playable files, the value returned indica
 
 
 
-<a href="https://msdn.microsoft.com/f0003b14-7ae7-4822-befe-6bb1779328ec">IMDSPObjectInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f61ce3b5-3cd9-41e6-9a29-42b9832ec55a">IMDSPObjectInfo::SetPlayOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobjectinfo-setplayoffset">IMDSPObjectInfo::SetPlayOffset</a>
  
 
  

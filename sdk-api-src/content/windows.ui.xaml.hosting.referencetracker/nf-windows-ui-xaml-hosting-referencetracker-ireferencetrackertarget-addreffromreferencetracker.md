@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates that the reference tracker is returning the target XAML object(s) from previous calls to  <a href="https://msdn.microsoft.com/ede8da3a-cef8-4741-950d-4303870ab10e">FindTrackerTargets</a>.  Note that the reference is held by the reference tracker object in lieu of <b>IUnknown::AddRef</b>.
+Indicates that the reference tracker is returning the target XAML object(s) from previous calls to  <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetracker-findtrackertargets">FindTrackerTargets</a>.  Note that the reference is held by the reference tracker object in lieu of <b>IUnknown::AddRef</b>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Indicates that the reference tracker is returning the target XAML object(s) from
 
 
 
-  When the XAML framework keeps this reference in lieu of a COM reference, it indicates that the framework must call your implementation of <a href="https://msdn.microsoft.com/2750e8b1-eeeb-411a-89a8-b63b26f731ac">Peg</a> to ensure that the target does not get collected.
+  When the XAML framework keeps this reference in lieu of a COM reference, it indicates that the framework must call your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-peg">Peg</a> to ensure that the target does not get collected.
 
 
 
@@ -73,7 +73,7 @@ Indicates that the reference tracker is returning the target XAML object(s) from
 
 
 
-<a href="https://msdn.microsoft.com/204c647d-65c0-4b0e-b0fa-1abe9e8fdedd">IReferenceTrackerTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget">IReferenceTrackerTarget</a>
  
 
  

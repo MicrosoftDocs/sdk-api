@@ -110,10 +110,10 @@ One or more arguments are invalid.
 
 
 
-See <a href="https://msdn.microsoft.com/40ca058c-04e1-4358-b330-360a094a8791">WS_XML_NODE_POSITION</a> for more information on using positions.
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
       
 
-It may be useful to call <a href="https://msdn.microsoft.com/56bf55f8-978c-4f03-9ace-f992530927c2">WsWriteEndStartElement</a> to force an element to be committed before
+It may be useful to call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendstartelement">WsWriteEndStartElement</a> to force an element to be committed before
         obtaining the position.
       
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>QOSStartTrackingClient</b> function notifies the QOS subsystem of the existence of a new client. Calling this function increases the likelihood that the QOS subsystem will have gathered sufficient information on the network path to assist when calling <a href="https://msdn.microsoft.com/b30e8887-4445-480d-aba8-79ec36384648">QOSSetFlow</a> to set the flow. <div class="alert"><b>Note</b>  This call is not required to add a flow with the <a href="https://msdn.microsoft.com/44136284-b553-446e-a95f-1eac476a7143">QOSAddSocketToFlow</a> function although it is highly recommended.  Not calling this function may require network experiments to be started during the <a href="https://msdn.microsoft.com/b30e8887-4445-480d-aba8-79ec36384648">QOSSetFlow</a> call and can result in <b>QOSSetFlow</b> failing with <b>ERROR_NETWORK_BUSY</b> on initial use.</div>
+The <b>QOSStartTrackingClient</b> function notifies the QOS subsystem of the existence of a new client. Calling this function increases the likelihood that the QOS subsystem will have gathered sufficient information on the network path to assist when calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> to set the flow. <div class="alert"><b>Note</b>  This call is not required to add a flow with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosaddsockettoflow">QOSAddSocketToFlow</a> function although it is highly recommended.  Not calling this function may require network experiments to be started during the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a> call and can result in <b>QOSSetFlow</b> failing with <b>ERROR_NETWORK_BUSY</b> on initial use.</div>
 <div> </div>
 
 
@@ -61,12 +61,12 @@ The <b>QOSStartTrackingClient</b> function notifies the QOS subsystem of the exi
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 
 ### -param DestAddr [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  Any port number specified in the sockaddr structure will be ignored.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  Any port number specified in the sockaddr structure will be ignored.
 
 
 ### -param Flags
@@ -149,7 +149,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -254,11 +254,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/dcee0bed-dc6f-435d-b292-07e331f6cf5b">QOSCreateHandle</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

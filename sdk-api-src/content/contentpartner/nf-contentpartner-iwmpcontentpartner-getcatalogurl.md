@@ -134,15 +134,15 @@ We recommend that the catalog URL specify the version as part of the path. For e
 
 
 
-<a href="https://msdn.microsoft.com/49c03d3b-3381-4663-83c8-5bc8fa70f7c3">Catalog Compiler for Type 1 Online Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/catalog-compiler-for-type-1-online-stores">Catalog Compiler for Type 1 Online Stores</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7ebf37f-00ae-4978-a63d-9d13741724f5">Music Catalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/music-catalog">Music Catalog</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines which portion of a month calendar control is at a given point on the screen. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760991(v=VS.85).aspx">MCM_HITTEST</a> message explicitly. 
+Determines which portion of a month calendar control is at a given point on the screen. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-hittest">MCM_HITTEST</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Determines which portion of a month calendar control is at a given point on the 
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control. 
 
@@ -68,5 +68,5 @@ Handle to a month calendar control.
 
 Type: <b>PMCHITTESTINFO</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb760927(v=VS.85).aspx">MCHITTESTINFO</a> structure. Upon calling the macro, the <b>cbSize</b> member must be set to the size of the <b>MCHITTESTINFO</b> structure, and <b>pt</b> must be set to the point you want to hit test. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-mchittestinfo">MCHITTESTINFO</a> structure. Upon calling the macro, the <b>cbSize</b> member must be set to the size of the <b>MCHITTESTINFO</b> structure, and <b>pt</b> must be set to the point you want to hit test. 
 

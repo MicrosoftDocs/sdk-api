@@ -85,7 +85,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies the server name, type, and associated software. The <i>buf</i>  parameter points to a 
-<a href="https://msdn.microsoft.com/6e106a51-9f0c-4603-8121-5b0d01a235b4">SERVER_INFO_101</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a> structure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Specifies the server name, type, and associated software. The <i>buf</i>  parame
 </td>
 <td width="60%">
 Specifies the server name, type, associated software, and other attributes. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/4c63fee7-1103-414d-b650-da87f8184e91">SERVER_INFO_102</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a> structure.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Specifies the server name, type, associated software, and other attributes. The 
 </td>
 <td width="60%">
 Specifies detailed information about the server. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/51e5c27e-6a7d-45ac-9cfa-37b1f7f241f9">SERVER_INFO_402</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_402">SERVER_INFO_402</a> structure.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Specifies detailed information about the server. The <i>buf</i> parameter points
 </td>
 <td width="60%">
 Specifies detailed information about the server. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/14309dbe-ad7b-4ae0-8acc-39e9999f411b">SERVER_INFO_403</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_403">SERVER_INFO_403</a> structure.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ In addition, levels 1001-1006, 1009-1011, 1016-1018, 1021, 1022, 1028, 1029, 103
 ### -param buf [in]
 
 Pointer to a buffer that receives the server information. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 
 ### -param ParmError [out]
@@ -210,7 +210,7 @@ Only members of the Administrators or Server Operators local group can successfu
 <b>NetServerSetInfo</b> function.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management server functions. For more information, see 
-<a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
 If the 
 <b>NetServerSetInfo</b> function returns ERROR_INVALID_PARAMETER, you can use the <i>ParmError</i> parameter to indicate the first member of the server information structure that is invalid. (A server information structure begins with SERVER_INFO_ and its format is specified by the <i>level</i> parameter.) The following table lists the values that can be returned in the <i>ParmError</i> parameter and the corresponding structure member that is in error. (The prefix sv*_ indicates that the member can begin with multiple prefixes, for example, sv101_ or sv402_.)
@@ -400,7 +400,7 @@ If the
 
 The following code sample demonstrates how to call the 
 <b>NetServerSetInfo</b> function. The sample calls 
-<b>NetServerSetInfo</b>, specifying the <i>level</i> parameter as 1005 (required) to set the <b>sv1005_comment</b> member of the <a href="https://msdn.microsoft.com/a8ce88ee-2b44-4b12-ba7a-f84249a3621b">SERVER_INFO_1005</a> structure.
+<b>NetServerSetInfo</b>, specifying the <i>level</i> parameter as 1005 (required) to set the <b>sv1005_comment</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_1005">SERVER_INFO_1005</a> structure.
 
 
 ```cpp
@@ -457,37 +457,37 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/ed15e1b5-3fdc-4841-85d1-89269684df0e">NetServerGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e106a51-9f0c-4603-8121-5b0d01a235b4">SERVER_INFO_101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c63fee7-1103-414d-b650-da87f8184e91">SERVER_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e5c27e-6a7d-45ac-9cfa-37b1f7f241f9">SERVER_INFO_402</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_402">SERVER_INFO_402</a>
 
 
 
-<a href="https://msdn.microsoft.com/14309dbe-ad7b-4ae0-8acc-39e9999f411b">SERVER_INFO_403</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_403">SERVER_INFO_403</a>
 
 
 
-<a href="https://msdn.microsoft.com/43e1285b-8c86-4af4-9834-fcd5ee8aceb8">Server
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
  
 

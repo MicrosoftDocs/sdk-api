@@ -64,12 +64,12 @@ The streaming interface type is unknown; do not use this value.
 
 ### -field FsrmFileStreamingInterfaceType_ILockBytes
 
-Use an <a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface to stream the file.
+Use an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface to stream the file.
 
 
 ### -field FsrmFileStreamingInterfaceType_IStream
 
-Use an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface to stream the file.
+Use an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface to stream the file.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ Use an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531"
 
 
 
-<a href="https://msdn.microsoft.com/a2f7de78-7102-43f9-a7b8-b35ac0b7286a">FsrmFileStreamingMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmfilestreamingmode">FsrmFileStreamingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5250f0f-c8b4-4579-a4c2-b4f6ee48acdc">IFsrmPropertyBag::GetFileStreamInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">IFsrmPropertyBag::GetFileStreamInterface</a>
  
 
  

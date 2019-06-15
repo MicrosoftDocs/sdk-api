@@ -112,7 +112,7 @@ If the generated path exceeds MAX_PATH characters, this function may return a tr
 
 
 
-<a href="https://msdn.microsoft.com/8456ae0c-e83c-43d0-a86a-1861a373d237">PathMakeUniqueName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pathmakeuniquename">PathMakeUniqueName</a>
  
 
  

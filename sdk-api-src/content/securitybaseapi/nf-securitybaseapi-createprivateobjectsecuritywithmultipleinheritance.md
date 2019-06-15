@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function allocates and initializes a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative security descriptor</a> for a new private object created by the resource manager calling this function. This function supports private objects (such as Directory Service objects with attached auxiliary classes) composed of multiple object types or classes.
+The <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function allocates and initializes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> for a new private object created by the resource manager calling this function. This function supports private objects (such as Directory Service objects with attached auxiliary classes) composed of multiple object types or classes.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function allocates
 
 ### -param ParentDescriptor [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a>for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
 
 
 ### -param CreatorDescriptor [in, optional]
@@ -77,12 +77,12 @@ A pointer to a security descriptor provided by the creator of the object. If the
 ### -param NewDescriptor [out]
 
 A pointer to a variable to receive a pointer to the newly allocated self-relative security descriptor. When you have finished using the security descriptor, free it by calling the  
-<a href="https://msdn.microsoft.com/4ef10852-8229-41de-a4d7-d2845e4c92ce">DestroyPrivateObjectSecurity</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a> function.
 
 
 ### -param ObjectTypes [in, optional]
 
-An array of pointers to <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structures that identify the object types or classes of the object associated with <i>NewDescriptor</i>. For Active Directory objects, this array contains pointers to the class GUIDs of the object's structural class and all attached auxiliary classes. Set <i>ObjectTypes</i> to <b>NULL</b> if the object does not have a GUID.
+An array of pointers to <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structures that identify the object types or classes of the object associated with <i>NewDescriptor</i>. For Active Directory objects, this array contains pointers to the class GUIDs of the object's structural class and all attached auxiliary classes. Set <i>ObjectTypes</i> to <b>NULL</b> if the object does not have a GUID.
 
 
 ### -param GuidCount [in]
@@ -97,7 +97,7 @@ Specifies whether the new object can contain other objects. A value of <b>TRUE</
 
 ### -param AutoInheritFlags [in]
 
-A set of bit flags that control how <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) are inherited from <i>ParentDescriptor</i>. This parameter can be a combination of the following values.
+A set of bit flags that control how <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) are inherited from <i>ParentDescriptor</i>. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ A set of bit flags that control how <a href="https://msdn.microsoft.com/0baaa937
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
+The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
         <i>ParentDescriptor</i>, as well as any explicit ACEs specified in the DACL of 
         <i>CreatorDescriptor</i>. If this flag is not set, the new DACL does not inherit ACEs.
 
@@ -124,7 +124,7 @@ The new <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
+The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
         <i>ParentDescriptor</i>, as well as any explicit ACEs specified in the SACL of 
         <i>CreatorDescriptor</i>. If this flag is not set, the new SACL does not inherit ACEs.
 
@@ -240,8 +240,8 @@ Any restrictions  specified by the
 
 ### -param Token [in, optional]
 
-A handle to the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a> for the client <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> on whose behalf the object is being created. If this is an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
+A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> for the client <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> on whose behalf the object is being created. If this is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
 
 
 
@@ -260,7 +260,7 @@ If all of the following conditions are true, then the handle must be opened for 
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
 
 
 ## -returns
@@ -270,7 +270,7 @@ A pointer to a
 If the function succeeds, the function returns a nonzero value. 
 
 If the function fails, it returns zero. Call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for extended error information. Some extended error codes and their meanings are listed in the following table.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information. Some extended error codes and their meanings are listed in the following table.
 
 <table>
 <tr>
@@ -295,7 +295,7 @@ The function cannot retrieve a primary group for the new security descriptor.
 </dl>
 </td>
 <td width="60%">
-The function cannot retrieve an owner for the new security descriptor or the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) cannot be assigned as an owner. This occurs when validating the owner SID against the passed-in token.
+The function cannot retrieve an owner for the new security descriptor or the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) cannot be assigned as an owner. This occurs when validating the owner SID against the passed-in token.
 
 </td>
 </tr>
@@ -306,7 +306,7 @@ The function cannot retrieve an owner for the new security descriptor or the <a 
 </dl>
 </td>
 <td width="60%">
-The function received <b>NULL</b> instead of a token for owner validation or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privilege</a> checking.
+The function received <b>NULL</b> instead of a token for owner validation or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privilege</a> checking.
 
 </td>
 </tr>
@@ -332,12 +332,12 @@ A SACL is being set, SEF_AVOID_PRIVILEGE_CHECK was not passed in, and the token 
 
 
 The 
-<a href="https://msdn.microsoft.com/edc62121-2625-4ee1-9450-38cb47574bb9">CreatePrivateObjectSecurityEx</a> function is identical to calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function is identical to calling the 
 <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function with a single GUID in <i>ObjectTypes</i>.
 
 The <i>AutoInheritFlags</i> are distinct from the similarly named bits in the <b>Control</b> member of the 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> structure. For an explanation of the control bits, see 
-<a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> structure. For an explanation of the control bits, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>.
 
 If <i>AutoInheritFlags</i> specifies the SEF_DACL_AUTO_INHERIT bit, the function applies the following rules to the DACL in the new security descriptor:
 
@@ -397,31 +397,31 @@ If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i
 
 
 
-<a href="https://msdn.microsoft.com/edc62121-2625-4ee1-9450-38cb47574bb9">CreatePrivateObjectSecurityEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ef10852-8229-41de-a4d7-d2845e4c92ce">DestroyPrivateObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a4ef57e-c374-4ef6-99dc-1a8dd250f2c2">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

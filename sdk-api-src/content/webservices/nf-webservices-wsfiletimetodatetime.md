@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Takes a reference to a FILETIME object and converts it into a <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> object.
+Takes a reference to a FILETIME object and converts it into a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> object.
        A reference to the WS_DATETIME object is returned by output parameter.
 
 
@@ -72,7 +72,7 @@ A pointer to the new WS_DATETIME object that has the newly converted time.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -119,11 +119,11 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-A <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> cannot represent dates from the year 10000 and beyond.  A FILETIME representing a date
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> cannot represent dates from the year 10000 and beyond.  A FILETIME representing a date
         later than this will cause the function return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-The format field of the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> will be set to <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
+The format field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> will be set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_datetime_format">WS_DATETIME_FORMAT_UTC</a>.
       
 
 

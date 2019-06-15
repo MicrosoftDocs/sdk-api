@@ -163,16 +163,16 @@ If the document window is minimized, or if the specified text is not currently v
 
 
 
-<a href="https://msdn.microsoft.com/d621e96b-d357-4468-8a89-89445fb1ca9e">ITextStoreACP::GetTextExt
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">ITextStoreACP::GetTextExt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/630646df-dd47-4dbf-9787-f9d697ad8d7a">ITfContextOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4ef9180-5568-4e5b-8c37-f750263060d2">ITfContextView::GetTextExt
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
       </a>
  
 

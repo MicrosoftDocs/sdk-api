@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Writes a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> to a writer.
+Writes a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to a writer.
       
 
 
@@ -130,7 +130,7 @@ A quota was exceeded.
 
 
 
-The function will copy the entire contents of the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> to the writer at the current position.
+The function will copy the entire contents of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> to the writer at the current position.
       
 
 

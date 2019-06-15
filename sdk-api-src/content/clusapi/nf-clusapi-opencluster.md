@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Opens a connection to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to 
     it.
 
 
@@ -68,7 +68,7 @@ Specifies one of the following values:
 
 <ul>
 <li>Pointer to a null-terminated Unicode string containing the name of the cluster or one of the cluster 
-        <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> expressed as a NetBIOS name, a fully qualified DNS name, or 
+        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> expressed as a NetBIOS name, a fully qualified DNS name, or 
         an IP address. This produces an RPC cluster handle.</li>
 <li><b>NULL</b>, which produces an LPC handle to the cluster to which the local computer 
         belongs.</li>
@@ -95,7 +95,7 @@ If the operation was successful, <b>OpenCluster</b> returns
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-         <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -113,21 +113,21 @@ A cluster handle is a pointer to an internally defined structure which stores in
      connection to the cluster. Any object handles obtained from the cluster handle will be associated with the RPC or 
      LPC session data stored in the cluster structure. Combining RPC and LPC handles or using handles obtained from 
      different contexts can cause exceptions or other unpredictable results. For more information, see 
-     <a href="https://msdn.microsoft.com/0fdb2024-9b04-4a38-baf9-3cdabba9bf8c">LPC and RPC Handles</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a>.
 
 When finished with a cluster handle, it is important to call 
-     <a href="https://msdn.microsoft.com/cf055fd6-b1e1-4262-b205-c7d926522450">CloseCluster</a> to ensure that all memory is freed and the 
+     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a> to ensure that all memory is freed and the 
      connection is shut down cleanly.
 
 If the cluster is remote, the client must be running a compatible operating system. For example computers running 
      Windows Server 2008 cannot call <b>OpenCluster</b> against a 
      cluster running Windows Server 2016. To remotely manage these clusters, use 
-     <a href="https://msdn.microsoft.com/library/Cc296100(v=VS.85).aspx">the Failover Cluster WMI Provider</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover-cluster-apis-portal">the Failover Cluster WMI Provider</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Using Object Handles</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a>.
 
 <div class="code"></div>
 
@@ -138,15 +138,15 @@ See <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Us
 
 
 
-<a href="https://msdn.microsoft.com/cf055fd6-b1e1-4262-b205-c7d926522450">CloseCluster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/688702b7-7525-48d6-9e44-d7c4969565f8">OpenClusterEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>
  
 
  

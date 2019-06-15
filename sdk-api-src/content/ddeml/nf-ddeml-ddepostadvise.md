@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Causes the system to send an <a href="https://msdn.microsoft.com/en-us/library/ms648715(v=VS.85).aspx">XTYP_ADVREQ</a> transaction to the calling (server) application's Dynamic Data Exchange (DDE) callback function for each client with an active advise loop on the specified topic and item. A server application should call this function whenever the data associated with the topic name or item name pair changes. 
+Causes the system to send an <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advreq">XTYP_ADVREQ</a> transaction to the calling (server) application's Dynamic Data Exchange (DDE) callback function for each client with an active advise loop on the specified topic and item. A server application should call this function whenever the data associated with the topic name or item name pair changes. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Causes the system to send an <a href="https://msdn.microsoft.com/en-us/library/m
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
 
 
 ### -param hszTopic [in]
@@ -88,7 +88,7 @@ If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms648755(v=VS.85).aspx">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddegetlasterror">DdeGetLastError</a> function can be used to get the error code, which can be one of the following values:
 
 
 
@@ -101,7 +101,7 @@ A server that has nonenumerable topics or items should set the
 				<i>hszTopic</i> and 
 				<i>hszItem</i> parameters to <b>NULL</b> so that the system generates transactions for all active advise loops. The server's DDE callback function returns <b>NULL</b> for any advise loops that must not be updated. 
 
-If a server calls <b>DdePostAdvise</b> with a topic, item, and format name set that includes the set currently being handled in an <a href="https://msdn.microsoft.com/en-us/library/ms648715(v=VS.85).aspx">XTYP_ADVREQ</a> callback, a stack overflow can result. 
+If a server calls <b>DdePostAdvise</b> with a topic, item, and format name set that includes the set currently being handled in an <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advreq">XTYP_ADVREQ</a> callback, a stack overflow can result. 
 
 
 
@@ -115,11 +115,11 @@ If a server calls <b>DdePostAdvise</b> with a topic, item, and format name set t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
@@ -127,7 +127,7 @@ If a server calls <b>DdePostAdvise</b> with a topic, item, and format name set t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648715(v=VS.85).aspx">XTYP_ADVREQ</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advreq">XTYP_ADVREQ</a>
  
 
  

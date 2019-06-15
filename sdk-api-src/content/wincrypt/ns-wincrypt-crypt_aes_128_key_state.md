@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_AES_128_KEY_STATE</b> structure specifies the 128-bit <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric key</a> information for an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Advanced Encryption Standard</a> (AES) cipher.
+The <b>CRYPT_AES_128_KEY_STATE</b> structure specifies the 128-bit <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a> information for an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Advanced Encryption Standard</a> (AES) cipher.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The <b>CRYPT_AES_128_KEY_STATE</b> structure specifies the 128-bit <a href="http
 
 ### -field Key
 
-An array of hexadecimal values that specify a 128-bit <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cipher</a> key.
+An array of hexadecimal values that specify a 128-bit <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher</a> key.
 
 
 ### -field IV
 
-An array of hexadecimal values that specify an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">initialization vector</a> (IV) for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cipher</a>.
+An array of hexadecimal values that specify an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> (IV) for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher</a>.
 
 
 ### -field EncryptionState
@@ -86,9 +86,9 @@ An array of hexadecimal values that specify the feedback vector for a stage in t
 
 
 
-The <b>CRYPT_AES_128_KEY_STATE</b> structure is used by the <a href="https://msdn.microsoft.com/5be2a327-61d1-45f6-99ee-45a2f3c4d1f8">CPImportKey</a> and <a href="https://msdn.microsoft.com/6b5114ca-2ec4-4297-9c62-60c2fd623f63">CPExportKey</a> functions when the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a> was created by using the <i>dwBlobType</i>  parameter set to the <b>KEYSTATEBLOB</b> value.
+The <b>CRYPT_AES_128_KEY_STATE</b> structure is used by the <a href="https://docs.microsoft.com/previous-versions//aa379853(v=vs.85)">CPImportKey</a> and <a href="https://docs.microsoft.com/previous-versions//aa378203(v=vs.85)">CPExportKey</a> functions when the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> was created by using the <i>dwBlobType</i>  parameter set to the <b>KEYSTATEBLOB</b> value.
 
-   The Microsoft AES Cryptographic Provider only supports this structure in the context of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Secure Sockets Layer protocol</a> (SSL), where the caller specified <b>PROV_DH_SCHANNEL</b> as the value for the <i>dwProvType</i> parameter of the <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function.
+   The Microsoft AES Cryptographic Provider only supports this structure in the context of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer protocol</a> (SSL), where the caller specified <b>PROV_DH_SCHANNEL</b> as the value for the <i>dwProvType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
 
 
 

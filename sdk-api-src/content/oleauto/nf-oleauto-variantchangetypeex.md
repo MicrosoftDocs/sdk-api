@@ -226,9 +226,9 @@ Insufficient memory to complete the operation.
 
 The <b>VariantChangeTypeEx</b> function handles coercions between the fundamental types (including numeric-to-string and string-to-numeric coercions). A variant that has VT_BYREF set is coerced to a value by obtaining the referenced value. An object is coerced to a value by invoking the object's <b>Value</b> property (DISPID_VALUE).
 
-Typically, the implementor of <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a> determines which member is being accessed, and then calls <a href="https://msdn.microsoft.com/48a51e32-95d7-4eeb-8106-f5043ffa2fd1">VariantChangeType</a> to get the value of one or more arguments. For example, if the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> call specifies a SetTitle member that takes one string argument, the implementor would call <b>VariantChangeTypeEx</b> to attempt to coerce the argument to VT_BSTR. 
+Typically, the implementor of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a> determines which member is being accessed, and then calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetype">VariantChangeType</a> to get the value of one or more arguments. For example, if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> call specifies a SetTitle member that takes one string argument, the implementor would call <b>VariantChangeTypeEx</b> to attempt to coerce the argument to VT_BSTR. 
 
-If <b>VariantChangeTypeEx</b> does not return an error, the argument could then be obtained directly from the <b>bstrVal</b> field of the VARIANTARG. If <b>VariantChangeTypeEx</b> returns DISP_E_TYPEMISMATCH, the implementor would set *puArgErr to 0 (indicating the argument in error) and return DISP_E_TYPEMISMATCH from <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">IDispatch::Invoke</a>.
+If <b>VariantChangeTypeEx</b> does not return an error, the argument could then be obtained directly from the <b>bstrVal</b> field of the VARIANTARG. If <b>VariantChangeTypeEx</b> returns DISP_E_TYPEMISMATCH, the implementor would set *puArgErr to 0 (indicating the argument in error) and return DISP_E_TYPEMISMATCH from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
 
 Arrays of one type cannot be converted to arrays of another type with this function.
 
@@ -242,11 +242,11 @@ Arrays of one type cannot be converted to arrays of another type with this funct
 
 
 
-<a href="https://msdn.microsoft.com/f0940eea-077f-4b68-9dac-d49e3fc62e43">Variant Manipulation Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/variant-manipulation-functions">Variant Manipulation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/48a51e32-95d7-4eeb-8106-f5043ffa2fd1">VariantChangeType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetype">VariantChangeType</a>
  
 
  

@@ -85,7 +85,7 @@ You can specify an interface of a provider or a collection that contains the pro
 
 
 
-<a href="https://msdn.microsoft.com/bd2a49c1-8e18-4a14-a797-07f2b9c25812">ITraceDataProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
  
 
  

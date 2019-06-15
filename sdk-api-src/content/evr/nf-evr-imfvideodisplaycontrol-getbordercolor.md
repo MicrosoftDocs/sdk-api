@@ -109,7 +109,7 @@ The video renderer has been shut down.
 
 The border color is used for areas where the enhanced video renderer (EVR) does not draw any video.
 
-The border color is not used for letterboxing. To get the letterbox color, call <a href="https://msdn.microsoft.com/d9068346-f0b3-4361-a56b-2360ecc3b9d9">IMFVideoProcessor::GetBackgroundColor</a>.
+The border color is not used for letterboxing. To get the letterbox color, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getbackgroundcolor">IMFVideoProcessor::GetBackgroundColor</a>.
 
 
 
@@ -119,15 +119,15 @@ The border color is not used for letterboxing. To get the letterbox color, call 
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/db9b4663-9240-484f-8c47-cb1f5daa238d">IMFVideoDisplayControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/09501d67-effb-41ce-a7b7-d2415acdf3ac">Using the Video Display Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
  
 
  

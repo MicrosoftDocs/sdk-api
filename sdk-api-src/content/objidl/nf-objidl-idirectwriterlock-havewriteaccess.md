@@ -73,11 +73,11 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/849eeb79-60fd-4345-9e04-2ed7a7ede5ca">IDirectWriterLock::ReleaseWriteAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">IDirectWriterLock::ReleaseWriteAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4505bed-325b-494e-93bd-7bf23b3a1215">IDirectWriterLock::WaitForWriteAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>
  
 
  

@@ -50,13 +50,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>IsOk</b> method indicates whether the <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object represents a valid time.
+The <b>IsOk</b> method indicates whether the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object represents a valid time.
 
 
 ## -parameters
@@ -80,11 +80,11 @@ The method returns <b>TRUE</b> if the time is valid and <b>FALSE</b> if the time
 
 
 
-<a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6b3db6c-1cc8-4058-8d8b-c8126a373130">WBEMTime::Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-clear">WBEMTime::Clear</a>
  
 
  

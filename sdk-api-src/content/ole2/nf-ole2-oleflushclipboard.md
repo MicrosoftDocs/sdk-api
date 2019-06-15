@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Carries out the clipboard shutdown sequence. It also releases the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> pointer that was placed on the clipboard by the <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> function.
+Carries out the clipboard shutdown sequence. It also releases the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer that was placed on the clipboard by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ This function returns S_OK on success. Other possible values include the followi
 </dl>
 </td>
 <td width="60%">
-The Windows OpenClipboard function used within <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> failed.
+The Windows OpenClipboard function used within <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a> failed.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ The Windows OpenClipboard function used within <a href="https://msdn.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The Windows CloseClipboard function used within <a href="https://msdn.microsoft.com/18291a91-be7d-42ec-a44a-d1bbfb017c6e">OleFlushClipboard</a> failed.
+The Windows CloseClipboard function used within <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a> failed.
 
 </td>
 </tr>
@@ -106,15 +106,15 @@ The Windows CloseClipboard function used within <a href="https://msdn.microsoft.
 
 
 
-<b>OleFlushClipboard</b> renders the data from a data object onto the clipboard and releases the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> pointer to the data object. While the application that put the data object on the clipboard is running, the clipboard holds only a pointer to the data object, thus saving memory. If you are writing an application that acts as the source of a clipboard operation, you can call the <b>OleFlushClipboard</b> function when your application is closed, such as when the user exits from your application. Calling <b>OleFlushClipboard</b> enables pasting and paste-linking of OLE objects after application shutdown.
+<b>OleFlushClipboard</b> renders the data from a data object onto the clipboard and releases the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer to the data object. While the application that put the data object on the clipboard is running, the clipboard holds only a pointer to the data object, thus saving memory. If you are writing an application that acts as the source of a clipboard operation, you can call the <b>OleFlushClipboard</b> function when your application is closed, such as when the user exits from your application. Calling <b>OleFlushClipboard</b> enables pasting and paste-linking of OLE objects after application shutdown.
 
-Before calling <b>OleFlushClipboard</b>, you can easily determine if your data is still on the clipboard with a call to the <a href="https://msdn.microsoft.com/12844504-ef47-4a4d-b31b-f765e0f2ace6">OleIsCurrentClipboard</a> function.
+Before calling <b>OleFlushClipboard</b>, you can easily determine if your data is still on the clipboard with a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleiscurrentclipboard">OleIsCurrentClipboard</a> function.
 
-<b>OleFlushClipboard</b> leaves all formats offered by the data transfer object, including the OLE 1 compatibility formats, on the clipboard so they are available after application shutdown. In addition to OLE 1 compatibility formats, these include all formats offered on a global handle medium (all except for TYMED_FILE) and formatted with a <b>NULL</b> target device. For example, if a data-source application offers a particular clipboard format (say cfFOO) on an <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> object, and calls the <b>OleFlushClipboard</b> function, the storage object is copied into memory and the hglobal memory handle is put on the clipboard.
+<b>OleFlushClipboard</b> leaves all formats offered by the data transfer object, including the OLE 1 compatibility formats, on the clipboard so they are available after application shutdown. In addition to OLE 1 compatibility formats, these include all formats offered on a global handle medium (all except for TYMED_FILE) and formatted with a <b>NULL</b> target device. For example, if a data-source application offers a particular clipboard format (say cfFOO) on an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> object, and calls the <b>OleFlushClipboard</b> function, the storage object is copied into memory and the hglobal memory handle is put on the clipboard.
 
-To retrieve the information on the clipboard, you can call the <a href="https://msdn.microsoft.com/c5e7badb-339b-48d5-8c9a-3950e2ffe6bf">OleGetClipboard</a> function from another application, which creates a default data object, and the hglobal from the clipboard again becomes a storage object. Furthermore, the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> enumerator and the <a href="https://msdn.microsoft.com/38a1bb4f-7762-4e74-a386-4ae05e59d15f">IDataObject::QueryGetData</a> method would all correctly indicate that the original clipboard format (cfFOO) is again available on a TYMED_ISTORAGE.
+To retrieve the information on the clipboard, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a> function from another application, which creates a default data object, and the hglobal from the clipboard again becomes a storage object. Furthermore, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> enumerator and the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-querygetdata">IDataObject::QueryGetData</a> method would all correctly indicate that the original clipboard format (cfFOO) is again available on a TYMED_ISTORAGE.
 
-To empty the clipboard, call the <a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a> function specifying a <b>NULL</b> value for its parameter. The application should call this when it closes if there is no need to leave data on the clipboard after shutdown, or if data will be placed on the clipboard using the standard Windows clipboard functions.
+To empty the clipboard, call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a> function specifying a <b>NULL</b> value for its parameter. The application should call this when it closes if there is no need to leave data on the clipboard after shutdown, or if data will be placed on the clipboard using the standard Windows clipboard functions.
 
 
 
@@ -124,19 +124,19 @@ To empty the clipboard, call the <a href="https://msdn.microsoft.com/741def10-d2
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5e7badb-339b-48d5-8c9a-3950e2ffe6bf">OleGetClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/12844504-ef47-4a4d-b31b-f765e0f2ace6">OleIsCurrentClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleiscurrentclipboard">OleIsCurrentClipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/741def10-d2b5-4395-8049-1eba2e29b0e8">OleSetClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetclipboard">OleSetClipboard</a>
  
 
  

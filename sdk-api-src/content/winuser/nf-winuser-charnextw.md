@@ -92,7 +92,7 @@ If
 
 
 
-When called as an ANSI function, <b>CharNext</b> uses the system default code-page, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a> specifies a code-page to use.
+When called as an ANSI function, <b>CharNext</b> uses the system default code-page, whereas <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnextexa">CharNextExA</a> specifies a code-page to use.
 
 This function works with default "user" expectations of characters when dealing with diacritics. For example:
 A string that contains U+0061 U+030a "LATIN SMALL LETTER A" + COMBINING RING ABOVE" — which looks like "å", will advance two code points, not one.
@@ -108,11 +108,11 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnextexa">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/v">CharPrev</a>
 
 
 
@@ -124,7 +124,7 @@ and so on.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

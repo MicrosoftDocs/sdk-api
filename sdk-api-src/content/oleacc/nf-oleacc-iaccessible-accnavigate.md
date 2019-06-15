@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IAccessible::accNavigate</b> method traverses to another UI element within a container and retrieves the object. This method is optional.
-<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://msdn.microsoft.com/dc9262d8-f57f-41f8-8945-d95f38d197e9">AccessibleChildren</a>, <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a>, <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>accNavigate</b>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="https://go.microsoft.com/fwlink/p/?linkid=120799">IEnumVARIANT</a>.</div><div> </div>
 
 ## -parameters
 
@@ -61,21 +61,21 @@ The <b>IAccessible::accNavigate</b> method traverses to another UI element withi
 
 Type: <b>long</b>
 
-Specifies the direction to navigate. This direction is in <i>spatial</i> order, such as left or right, or <i>logical</i> order, such as next or previous. This value is one of the <a href="https://msdn.microsoft.com/5859a7a3-bcd3-443e-8ff0-4952f4639517">navigation constants</a>.
+Specifies the direction to navigate. This direction is in <i>spatial</i> order, such as left or right, or <i>logical</i> order, such as next or previous. This value is one of the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-constants">navigation constants</a>.
 
 
 ### -param varStart [in]
 
 Type: <b>VARIANT</b>
 
-Specifies whether the starting object of the navigation is the object itself or one of the object's children. This parameter is either CHILDID_SELF (to start from the object) or a child ID (to start from one of the object's child elements). For more information about initializing the <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>, see <a href="https://msdn.microsoft.com/051ec5ba-540c-4ae1-b917-4c229557ca2f">How Child IDs Are Used in Parameters</a>.
+Specifies whether the starting object of the navigation is the object itself or one of the object's children. This parameter is either CHILDID_SELF (to start from the object) or a child ID (to start from one of the object's child elements). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 
 ### -param pvarEndUpAt [out, retval]
 
 Type: <b>VARIANT*</b>
 
-[out, retval] Address of a <a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a> structure that receives information about the destination object. The following table describes the information that is returned in <i>pvarEnd</i>.
+[out, retval] Address of a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> structure that receives information about the destination object. The following table describes the information that is returned in <i>pvarEnd</i>.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ None. There was no UI element in the specified direction.
 </dl>
 </td>
 <td width="60%">
-<b>pdispVal</b> contains the address of the UI element's <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>.
+<b>pdispVal</b> contains the address of the UI element's <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>.
 
 </td>
 </tr>
@@ -120,11 +120,11 @@ None. There was no UI element in the specified direction.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://msdn.microsoft.com/e6deca92-42da-41ab-bfdb-75cbce3022bb">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://msdn.microsoft.com/0def0349-178b-4be5-aa1d-6602dc015981">Checking IAccessible Return Values</a> and Return Values.
+If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a> and Return Values.
 
 <table>
 <tr>
@@ -178,28 +178,28 @@ Navigation, both spatial and logical, is always restricted to the UI elements wi
 
 The <b>accNavigate</b> method retrieves UI elements that have a defined screen location, and invisible objects that do not have a defined screen location.
 
-This method does not change the selection or focus. To change the focus or to select an object, use <a href="https://msdn.microsoft.com/ae55831c-0dfa-4901-b241-27e2cdf1035f">IAccessible::accSelect</a>.
+This method does not change the selection or focus. To change the focus or to select an object, use <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accselect">IAccessible::accSelect</a>.
 
-To prevent looping when traversing screen elements, <b>accNavigate</b> returns S_FALSE with VT_EMPTY when you specify <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_NEXT</a> on the last element, or <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_PREVIOUS</a> on the first element.
+To prevent looping when traversing screen elements, <b>accNavigate</b> returns S_FALSE with VT_EMPTY when you specify <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-constants">NAVDIR_NEXT</a> on the last element, or <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-constants">NAVDIR_PREVIOUS</a> on the first element.
 
-As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
+As with other <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/receiving-errors-for-iaccessible-interface-pointers">Receiving Errors for IAccessible Interface Pointers</a>.
 
 Some system-defined UI elements such as menus, menu items, and pop-up menus allow navigation to invisible objects. However, other system-defined UI elements do not support this. Servers can choose whether to support navigating to invisible objects and can either skip over or expose them.
 
-Client applications must return post-process return values when using <b>accNavigate</b> to navigate between objects. The goal of the post-processing steps is to give clients an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer and a child ID so that they can use the <b>IAccessible</b> methods and properties for a UI element.
+Client applications must return post-process return values when using <b>accNavigate</b> to navigate between objects. The goal of the post-processing steps is to give clients an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer and a child ID so that they can use the <b>IAccessible</b> methods and properties for a UI element.
 
 The following tables describe possible scenarios for <b>IAccessible::accNavigate</b>, based on the following criteria:
 
 <ul>
 <li>A defined starting point (whether you are starting with a full object or a simple element)</li>
 <li> 
-The result returned (an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> or a VT_I4 child ID)</li>
+The result returned (an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> or a VT_I4 child ID)</li>
 <li> 
-The post-processing that client applications will need to perform to have an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer and a child ID </li>
+The post-processing that client applications will need to perform to have an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer and a child ID </li>
 </ul>
 For these tables, assume that <i>startID</i> and <i>endID</i> are VT_I4 child IDs (simple elements), and <i>pStartAcc</i> and <i>pEndAcc</i> are VT_I4 with CHILDID_SELF (full objects).
 
-This table describes the following NAVDIR_ flags: NEXT, PREVIOUS, LEFT, RIGHT, UP, and DOWN. For more information about navigation flags, see <a href="https://msdn.microsoft.com/5859a7a3-bcd3-443e-8ff0-4952f4639517">Navigation Constants</a>.
+This table describes the following NAVDIR_ flags: NEXT, PREVIOUS, LEFT, RIGHT, UP, and DOWN. For more information about navigation flags, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-constants">Navigation Constants</a>.
 
 <table>
 <tr>
@@ -210,28 +210,28 @@ This table describes the following NAVDIR_ flags: NEXT, PREVIOUS, LEFT, RIGHT, U
 <tr>
 <td><i>pStartAcc, startID</i></td>
 <td>VT_I4 <i>endID</i></td>
-<td>Call <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a> on <i>pStartAcc</i> passing <i>endID</i>. Follow normal procedures outlined in <b>get_accChild</b>.</td>
+<td>Call <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a> on <i>pStartAcc</i> passing <i>endID</i>. Follow normal procedures outlined in <b>get_accChild</b>.</td>
 </tr>
 <tr>
 <td><i>pStartAcc, startID</i></td>
 <td>VT_DISPATCH <i>pEndAcc</i></td>
-<td> Use the standard procedures for converting an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer to an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer for <i>pEndAcc</i>.  </td>
+<td> Use the standard procedures for converting an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer for <i>pEndAcc</i>.  </td>
 </tr>
 <tr>
 <td><i>pStartAcc</i>, CHILDID_SELF</td>
 <td>VT_I4 <i>endID</i></td>
-<td>Call <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a> on <i>pStartAcc</i>, passing CHILDID_SELF to get the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer of the parent for <i>endID</i>. 
-Then, call <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a> on that <b>IAccessible</b> interface pointer, passing <i>endID</i>. Follow normal procedures outlined in <b>get_accChild</b>.</td>
+<td>Call <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a> on <i>pStartAcc</i>, passing CHILDID_SELF to get the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer of the parent for <i>endID</i>. 
+Then, call <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a> on that <b>IAccessible</b> interface pointer, passing <i>endID</i>. Follow normal procedures outlined in <b>get_accChild</b>.</td>
 </tr>
 <tr>
 <td><i>pStartAcc</i>, CHILDID_SELF</td>
 <td>VT_DISPATCH <i>pEndAcc</i></td>
-<td>Use the standard procedures for converting an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer to an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer for <i>pEndAcc</i>.</td>
+<td>Use the standard procedures for converting an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer for <i>pEndAcc</i>.</td>
 </tr>
 </table>
  
 
-The following table describes navigation flags <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_FIRSTCHILD</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd373600(v=VS.85).aspx">NAVDIR_LASTCHILD</a>. It does not include entries for navigating to a first or last child when the starting point is a simple element because simple elements cannot have children.
+The following table describes navigation flags <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-constants">NAVDIR_FIRSTCHILD</a> and <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-constants">NAVDIR_LASTCHILD</a>. It does not include entries for navigating to a first or last child when the starting point is a simple element because simple elements cannot have children.
 
 <table>
 <tr>
@@ -242,17 +242,17 @@ The following table describes navigation flags <a href="https://msdn.microsoft.c
 <tr>
 <td><i>pStartAcc</i>, CHILDID_SELF</td>
 <td>VT_I4 <i>endID</i></td>
-<td>Call <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a> on <i>pStartAcc</i>, passing endID. Follow normal procedures outlined in <b>get_accChild</b>. </td>
+<td>Call <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a> on <i>pStartAcc</i>, passing endID. Follow normal procedures outlined in <b>get_accChild</b>. </td>
 </tr>
 <tr>
 <td><i>pStartAcc</i>, CHILDID_SELF</td>
 <td>VT_DISPATCH <i>pEndAcc</i></td>
-<td>Use the standard procedures for converting an <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface pointer to an <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointer for <i>pEndAcc</i>.</td>
+<td>Use the standard procedures for converting an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer for <i>pEndAcc</i>.</td>
 </tr>
 </table>
  
 
-For more information, see <a href="https://msdn.microsoft.com/c6bcd044-bf70-4eec-92ae-66f9bd836c33">Object Navigation Properties and Methods</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-navigation-properties-and-methods">Object Navigation Properties and Methods</a>.
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example shows a possible implementation of the method for a custom list box whose list items are child elements.
@@ -370,23 +370,23 @@ HRESULT STDMETHODCALLTYPE AccServer::accNavigate(
 
 
 
-<a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae55831c-0dfa-4901-b241-27e2cdf1035f">IAccessible::accSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accselect">IAccessible::accSelect</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6bcd044-bf70-4eec-92ae-66f9bd836c33">Object Navigation Properties and Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-navigation-properties-and-methods">Object Navigation Properties and Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dfac8-e258-4266-b81e-072eb3961fb1">VARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
  
 
  

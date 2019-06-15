@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>AddExtensionsToRequest</b> method adds extensions to the certificate request. This method was first defined in the <a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a> interface.
+The <b>AddExtensionsToRequest</b> method adds extensions to the certificate request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>AddExtensionsToRequest</b> method adds extensions to the certificate requ
 
 ### -param pCertExtensions [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/b393ef08-cedb-4840-a427-10ead315d6ea">CERT_EXTENSIONS</a> structure that represents the extensions to add to the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_extensions">CERT_EXTENSIONS</a> structure that represents the extensions to add to the request.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The return value is an <b>HRESULT</b>, with S_OK returned if the call is success
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
  
 
  

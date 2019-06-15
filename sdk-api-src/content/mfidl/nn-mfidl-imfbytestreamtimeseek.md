@@ -54,7 +54,7 @@ Seeks a byte stream by time position.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamTimeSeek</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFByteStreamTimeSeek</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamTimeSeek</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamTimeSeek</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFByteStreamTimeSeek</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D56E1F06-AA05-430C-BF5C-30B38831B842">GetTimeSeekResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-gettimeseekresult">GetTimeSeekResult</a>
 </td>
 <td align="left" width="63%">
 Gets the result of a time-based seek.
@@ -78,7 +78,7 @@ Gets the result of a time-based seek.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92FCE0EF-046C-4639-958E-731795C5A123">IsTimeSeekSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-istimeseeksupported">IsTimeSeekSupported</a>
 </td>
 <td align="left" width="63%">
 Queries whether the byte stream supports time-based seeking.
@@ -87,7 +87,7 @@ Queries whether the byte stream supports time-based seeking.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/786F1299-A9E2-4B2C-A6AE-F88E6BF022DC">TimeSeek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamtimeseek-timeseek">TimeSeek</a>
 </td>
 <td align="left" width="63%">
 Seeks to a new position in the byte stream.
@@ -103,7 +103,7 @@ Seeks to a new position in the byte stream.
 
 A byte stream can implement this interface if it supports time-based seeking. For example, a byte stream that reads data from a server  might implement the interface. Typically, a local file-based byte stream would not implement it.
 
-To get a pointer to this interface, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the byte stream object.
+To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the byte stream object.
 
 
 
@@ -113,11 +113,11 @@ To get a pointer to this interface, call <a href="https://msdn.microsoft.com/54d
 
 
 
-<a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -71,7 +71,7 @@ A valid path name. If the final component of the path is a directory, not a file
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,7 +84,7 @@ Each directory specified is created, if it does not already exist. If only some 
     created, the function will return <b>FALSE</b>.
 
 This function does not support Unicode strings. To specify a Unicode path, use the 
-    <a href="https://msdn.microsoft.com/7f44f907-cd12-4156-91c0-76e577ae25f6">SHCreateDirectoryEx</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectoryexa">SHCreateDirectoryEx</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
     this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize 
@@ -98,7 +98,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
  
 
  

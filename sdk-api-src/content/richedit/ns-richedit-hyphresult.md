@@ -67,14 +67,14 @@ The type of hyphenation.
 
 ### -field ichHyph
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The index of the WCHAR in the passed string where hyphenation occurred. 
 
 
 ### -field chHyph
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a></b>
 
 The character used when hyphenation requires a replacement or an addition or a change. If no new character is needed, the value is zero. 
 

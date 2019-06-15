@@ -59,7 +59,7 @@ Gets an array of the root items.
 
 ### -param ppsiaRootItems [out]
 
-Type: <b><a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
 
 A pointer to an array of root items.
 

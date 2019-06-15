@@ -68,7 +68,7 @@ The <b>DdControlColor</b> callback function controls the luminance and brightnes
 
 #### - lpColorControl
 
-Points to a <a href="https://msdn.microsoft.com/7c983faa-de9d-4a04-ac8d-d37fb182a662">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontroldata">DD_COLORCONTROLDATA</a> structure that contains the color control information for a specified overlay surface.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Points to a <a href="https://msdn.microsoft.com/7c983faa-de9d-4a04-ac8d-d37fb182
 
 
 
-<a href="https://msdn.microsoft.com/7c983faa-de9d-4a04-ac8d-d37fb182a662">DD_COLORCONTROLDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_colorcontroldata">DD_COLORCONTROLDATA</a>
  
 
  

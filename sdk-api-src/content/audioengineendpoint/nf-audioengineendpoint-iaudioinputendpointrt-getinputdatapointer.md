@@ -59,7 +59,7 @@ The <b>GetInputDataPointer</b> method gets a pointer to the buffer from which da
 
 ### -param pConnectionProperty [in, out]
 
- A pointer to an <a href="https://msdn.microsoft.com/dbf7ed62-445e-4f15-bc21-46117e694dc0">APO_CONNECTION_PROPERTY</a>structure.
+ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a>structure.
 
 The caller sets the member values as follows:
 
@@ -84,7 +84,7 @@ If this call completes successfully, the endpoint must set the member values as 
 
 ### -param pAeTimeStamp [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/2e239114-1af7-455a-a60f-2054b05e1414">AE_CURRENT_POSITION</a> structure that contains the time stamp of the data that is captured in the buffer.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure that contains the time stamp of the data that is captured in the buffer.
     This parameter is optional.
 
 
@@ -104,15 +104,15 @@ This method does not return a value.
 This method returns a pointer from the endpoint to the buffer <i>pConnectionProperty</i>-&gt;<b>pBuffer</b>, which
     contains data that needs to be passed into the engine as input.
     The data and the buffer pointer must remain valid until the
-    <a href="https://msdn.microsoft.com/9dd3f72a-79fe-4d07-a301-d0960e30a2d1">IAudioInputEndpointRT::ReleaseInputDataPointer</a> method is called. The endpoint object must  set  the requested amount of information and insert silence if no
+    <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioinputendpointrt-releaseinputdatapointer">IAudioInputEndpointRT::ReleaseInputDataPointer</a> method is called. The endpoint object must  set  the requested amount of information and insert silence if no
     valid data exists.
     The  buffer pointer, <i>pConnectionProperty</i>-&gt;<b>pBuffer</b>, returned by the endpoint object  must be frame aligned.
     Endpoints do not support the extra space, which may be available in
-    the <a href="https://msdn.microsoft.com/dbf7ed62-445e-4f15-bc21-46117e694dc0">APO_CONNECTION_PROPERTY</a> associated with the connection properties
+    the <a href="https://docs.microsoft.com/windows/desktop/api/audioapotypes/ns-audioapotypes-apo_connection_property">APO_CONNECTION_PROPERTY</a> associated with the connection properties
     passed in the <i>pConnectionProperty</i> parameter.
 
 Passing zero in the <b>u32ValidFrameCount</b> member is a valid request. In this case,
-    the input pointer must be valid but the endpoint does not read from it. The <i>pConnectionProperty</i>-&gt;<b>u32ValidFrameCount</b>value must be less than or equal to the maximum  frame count supported by the endpoint. To get the supported number of frames, call the <a href="https://msdn.microsoft.com/b9e47262-9e6f-4ddf-a74a-b7fa63983a5a">IAudioEndpoint::GetFramesPerPacket</a> method.
+    the input pointer must be valid but the endpoint does not read from it. The <i>pConnectionProperty</i>-&gt;<b>u32ValidFrameCount</b>value must be less than or equal to the maximum  frame count supported by the endpoint. To get the supported number of frames, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getframesperpacket">IAudioEndpoint::GetFramesPerPacket</a> method.
 
 This method can be called from a real-time processing thread. The
     implementation of this method must not block, access
@@ -128,7 +128,7 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 
 
-<a href="https://msdn.microsoft.com/f9638dea-f61d-45f6-b91d-72e4fc1b4a92">IAudioInputEndpointRT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a>
  
 
  

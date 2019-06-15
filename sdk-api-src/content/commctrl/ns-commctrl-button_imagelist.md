@@ -73,7 +73,7 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that specifies t
 
 ### -field uAlign
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A <b>UINT</b> that specifies the alignment to use. This parameter can be one of the following values.
 
@@ -141,23 +141,23 @@ Center the image.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775963(v=VS.85).aspx">BCM_GETIMAGELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getimagelist">BCM_GETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775975(v=VS.85).aspx">BCM_SETIMAGELIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setimagelist">BCM_SETIMAGELIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761853(v=VS.85).aspx">Button_GetImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-button_getimagelist">Button_GetImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761867(v=VS.85).aspx">Button_SetImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-button_setimagelist">Button_SetImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775943(v=VS.85).aspx">Buttons</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/buttons">Buttons</a>
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This method has been deprecated. Use <a href="https://msdn.microsoft.com/6ea81c40-773f-4f53-97c1-99619e46be48">IFolderView::GetSpacing</a> instead.]
+<p class="CCE_Message">[This method has been deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getspacing">IFolderView::GetSpacing</a> instead.]
 
 Gets the spacing for small and large view modes only.
 
@@ -61,7 +61,7 @@ Gets the spacing for small and large view modes only.
 
 ### -param pSpacing [out]
 
-Type: <b><a href="https://msdn.microsoft.com/fcd7f3da-6aba-4683-bd5e-14a6b5f93cb5">ITEMSPACING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_itemspacing">ITEMSPACING</a>*</b>
 
 A pointer to a structure that, when this method returns successfully, receives the information that describes the view mode spacing.
 
@@ -81,11 +81,11 @@ Returns <b>S_OK</b> if the current view mode is positionable; otherwise, <b>S_FA
 
 
 
-This method sends an <a href="https://msdn.microsoft.com/en-us/library/Bb761051(v=VS.85).aspx">LVM_GETITEMSPACING</a> message to get the view mode spacing.
+This method sends an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemspacing">LVM_GETITEMSPACING</a> message to get the view mode spacing.
 
 This method retrieves mode spacing for only the large and small view modes.
 
-In Windows Vista and later, this method stores the small view mode spacing in both pairs of values returned in the <a href="https://msdn.microsoft.com/fcd7f3da-6aba-4683-bd5e-14a6b5f93cb5">ITEMSPACING</a> structure.
+In Windows Vista and later, this method stores the small view mode spacing in both pairs of values returned in the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_itemspacing">ITEMSPACING</a> structure.
 
 
 

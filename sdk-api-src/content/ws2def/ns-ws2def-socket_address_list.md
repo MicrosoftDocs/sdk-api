@@ -98,7 +98,7 @@ The size, in bytes, of the SOCKADDR structure type that is pointed to by the
 
 
 A WSK application passes a buffer to the 
-    <a href="https://msdn.microsoft.com/d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a">WskControlSocket</a> function when the WSK
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a> function when the WSK
     application queries the current list of local transport addresses that match a socket's address family.
     If the call to the 
     <b>WskControlSocket</b> function succeeds, the buffer contains a SOCKET_ADDRESS_LIST structure followed by
@@ -111,7 +111,7 @@ A WSK application passes a buffer to the
     created the socket.
 
 For more information about querying the current list of local transport addresses, see 
-    <a href="https://msdn.microsoft.com/6b23a019-812c-4623-941b-87928acabbd2">SIO_ADDRESS_LIST_QUERY</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)">SIO_ADDRESS_LIST_QUERY</a>.
 
 
 
@@ -121,15 +121,15 @@ For more information about querying the current list of local transport addresse
 
 
 
-<a href="https://msdn.microsoft.com/6b23a019-812c-4623-941b-87928acabbd2">SIO_ADDRESS_LIST_QUERY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd877219(v=vs.85)">SIO_ADDRESS_LIST_QUERY</a>
 
 
 
-<a href="https://msdn.microsoft.com/af5ad9ae-3987-4f16-a8a6-14e3e3d0fa6a">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a">WskControlSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
  
 
  

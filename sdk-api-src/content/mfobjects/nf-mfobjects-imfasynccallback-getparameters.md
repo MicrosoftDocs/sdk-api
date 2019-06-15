@@ -63,7 +63,7 @@ Provides configuration information to the dispatching thread for a callback.
 
 ### -param pdwFlags [out]
 
-Receives a flag indicating the behavior of the callback object's <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method. The following values are defined. The default value is zero.
+Receives a flag indicating the behavior of the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method. The following values are defined. The default value is zero.
 
 <table>
 <tr>
@@ -141,9 +141,9 @@ Reply callback.
 Receives the identifier of the work queue on which the callback is dispatched. 
           
 
-This value can specify one of the standard Media Foundation work queues, or a work queue created by the application. For list of standard Media Foundation work queues, see <a href="https://msdn.microsoft.com/c769f876-83ca-4b04-a054-22fa7146310e">Work Queue Identifiers</a>. To create a new work queue, call <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a>. The default value is <b>MFASYNC_CALLBACK_QUEUE_STANDARD</b>.
+This value can specify one of the standard Media Foundation work queues, or a work queue created by the application. For list of standard Media Foundation work queues, see <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queue-identifiers">Work Queue Identifiers</a>. To create a new work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a>. The default value is <b>MFASYNC_CALLBACK_QUEUE_STANDARD</b>.
 
-If the work queue is not compatible with the value returned in <i>pdwFlags</i>, the Media Foundation platform returns <b>MF_E_INVALID_WORKQUEUE</b> when it tries to dispatch the callback. (See <a href="https://msdn.microsoft.com/b0233589-2a55-4803-9dcb-85d757734dee">MFPutWorkItem</a>.)
+If the work queue is not compatible with the value returned in <i>pdwFlags</i>, the Media Foundation platform returns <b>MF_E_INVALID_WORKQUEUE</b> when it tries to dispatch the callback. (See <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem">MFPutWorkItem</a>.)
 
 
 ## -returns
@@ -194,7 +194,7 @@ Not implemented. Assume the default behavior.
 The <b>GetParameters</b> method returns information about the callback so that the dispatching thread can optimize the process that it uses to invoke the callback.
       
 
-If the method returns a value other than zero in the <i>pdwFlags</i> parameter, your <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">Invoke</a> method must meet the requirements described here. Otherwise, the callback might delay the pipeline.
+If the method returns a value other than zero in the <i>pdwFlags</i> parameter, your <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> method must meet the requirements described here. Otherwise, the callback might delay the pipeline.
 
 If you want default values for both parameters, return <b>E_NOTIMPL</b>. The default values are given in the parameter descriptions on this page.
 
@@ -212,15 +212,15 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/ea778eaa-6460-4a93-bd6a-1857ea8b6230">Asynchronous Callback Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

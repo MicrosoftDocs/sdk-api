@@ -43,7 +43,7 @@ api_name:
 ## -description
 Adds two instances of **XMVECTOR**, returning the result in a new instance.
 
-The `operator +` adds each component of two instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a>, and then returns the result in a new **XMVECTOR** instance.
+The `operator +` adds each component of two instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>, and then returns the result in a new **XMVECTOR** instance.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -77,4 +77,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

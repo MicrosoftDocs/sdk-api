@@ -71,9 +71,9 @@ Pointer to a valid <b>RSOPTOKEN</b> representing the client attempting to gain a
 ### -param dwDesiredAccessMask [in]
 
 Specifies an access mask that indicates the access rights to check. This mask can contain a combination of 
-<a href="https://msdn.microsoft.com/e18cede9-9bf7-4866-850b-5d7fa43a5b0f">generic</a>, 
-<a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd3218a9f84">standard</a>, and specific access rights. For more information, see 
-<a href="https://msdn.microsoft.com/da67c486-d2e7-4632-ac7a-c18aabc3f21d">Access Rights and Access Masks</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">generic</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">standard</a>, and specific access rights. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-and-access-masks">Access Rights and Access Masks</a>.
 
 
 ### -param pdwGrantedAccessMask [out]
@@ -114,17 +114,17 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d63734a0-1a88-4669-828e-de467606fc14">RSoPAccessCheckByType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopaccesscheckbytype">RSoPAccessCheckByType</a>
  
 
  

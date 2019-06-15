@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the state of a tree item. These values are used by methods of the <a href="https://msdn.microsoft.com/2072cb3c-e540-4708-bfe8-33fff3a190bd">INameSpaceTreeControl</a> interface.
+Specifies the state of a tree item. These values are used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a> interface.
 
 
 ## -enum-fields
@@ -92,11 +92,11 @@ The item is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/78bee2db-6a28-4fcb-9c43-ab411196ab04">INameSpaceTreeControl::GetItemState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getitemstate">INameSpaceTreeControl::GetItemState</a>
 
 
 
-<a href="https://msdn.microsoft.com/f57c5abc-0803-409d-9938-3826f9d8058d">INameSpaceTreeControl::SetItemState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-setitemstate">INameSpaceTreeControl::SetItemState</a>
  
 
  

@@ -85,7 +85,7 @@ When drawing multiple DIBs simultaneously, create a DrawDib DC for each of the i
 
 
 
-<a href="https://msdn.microsoft.com/9ba47b8d-5328-477e-9272-21e897e54348">DrawDib Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
  
 
  

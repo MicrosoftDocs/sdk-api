@@ -59,9 +59,9 @@ Gets a value that indicates how the file in use is being used.
 
 ### -param pfut [out]
 
-Type: <b><a href="https://msdn.microsoft.com/32b0e148-499a-401d-837c-8cea74cf9cac">FILE_USAGE_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-file_usage_type">FILE_USAGE_TYPE</a>*</b>
 
-Pointer to a value that, when this method returns successfully, receives one of the <a href="https://msdn.microsoft.com/32b0e148-499a-401d-837c-8cea74cf9cac">FILE_USAGE_TYPE</a> values.
+Pointer to a value that, when this method returns successfully, receives one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-file_usage_type">FILE_USAGE_TYPE</a> values.
 
 
 ## -returns

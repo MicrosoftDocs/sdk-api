@@ -59,9 +59,9 @@ Binds to an object by means of the specified handler.
 
 ### -param pbc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on a bind context object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object.
 
 
 ### -param bhid [in]
@@ -74,19 +74,19 @@ One of the following values, defined in Shlguid.h, that determine the handler.
 
 #### BHID_SFUIObject
 
-Restricts usage to <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">GetUIObjectOf</a>. Use this handler type only for a flat item array, where all items are in the same folder.
+Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a>. Use this handler type only for a flat item array, where all items are in the same folder.
 
 
 
 #### BHID_DataObject
 
-<b>Introduced in Windows Vista</b>: Gets an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> object for use with an item or an array of items. Use this handler type only for flat data objects or item arrays created by <a href="https://msdn.microsoft.com/91e65c9a-0600-42e3-97f5-2a5960e1ec89">SHCreateShellItemArrayFromDataObject</a>.
+<b>Introduced in Windows Vista</b>: Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object for use with an item or an array of items. Use this handler type only for flat data objects or item arrays created by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject">SHCreateShellItemArrayFromDataObject</a>.
 
 
 
 #### BHID_AssociationArray
 
-<b>Introduced in Windows Vista</b>: Gets an <a href="https://msdn.microsoft.com/8edb99d3-5860-4d78-a750-1df34cdfc313">IQueryAssociations</a> object for use with an item or an array of items. This only retrieves the association array object for the first item in the <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>
+<b>Introduced in Windows Vista</b>: Gets an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object for use with an item or an array of items. This only retrieves the association array object for the first item in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
 
 
 

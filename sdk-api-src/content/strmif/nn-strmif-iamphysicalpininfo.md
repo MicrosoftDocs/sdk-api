@@ -59,7 +59,7 @@ This interface enables an application or filter to retrieve information about a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPhysicalPinInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMPhysicalPinInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMPhysicalPinInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMPhysicalPinInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAMPhysicalPinInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e18be591-64c7-4da0-aa28-c51dca7901b7">GetPhysicalType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamphysicalpininfo-getphysicaltype">GetPhysicalType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type and name of the physical pin.
@@ -89,7 +89,7 @@ Retrieves the type and name of the physical pin.
 
 
 
-<a href="https://msdn.microsoft.com/5b798477-9b36-4f59-b9cc-2938b5e4009f">Deprecated Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
  
 
  

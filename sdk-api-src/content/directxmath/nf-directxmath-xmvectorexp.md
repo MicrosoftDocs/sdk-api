@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Computes two raised to the power for each component.<div class="alert"><b>Note</b>  This function is a compatibility alias for <a href="https://msdn.microsoft.com/1B04528B-532B-4555-B027-D5EC33DD9843">XMVectorExp2</a> for existing Windows 8 code. This function is deprecated for Windows 8.1. Don't use it and instead use <b>XMVectorExp2</b> or <a href="https://msdn.microsoft.com/C4A5E4E0-56CC-46E3-87C5-CA99EF512B11">XMVectorExpE</a>.
+Computes two raised to the power for each component.<div class="alert"><b>Note</b>  This function is a compatibility alias for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexp2">XMVectorExp2</a> for existing Windows 8 code. This function is deprecated for Windows 8.1. Don't use it and instead use <b>XMVectorExp2</b> or <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorexpe">XMVectorExpE</a>.
 </div>
 <div> </div>
 
@@ -89,7 +89,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/aae12d4a-7758-83df-5376-99d5d94a28c4">Transcendental Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
  
 
  

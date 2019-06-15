@@ -102,7 +102,7 @@ A pointer to a string value that contains the full path to the dynamic-linked li
 
 ### -param pRefData [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/daa2b625-1522-4239-9c62-65f09b50f74c">FUSION_INSTALL_REFERENCE</a> structure that describes the application that holds the reference to the assembly being installed. If this parameter is null, the assembly files are copied, but no application reference is added to the side-by-side store.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ns-winsxs-_fusion_install_reference_">FUSION_INSTALL_REFERENCE</a> structure that describes the application that holds the reference to the assembly being installed. If this parameter is null, the assembly files are copied, but no application reference is added to the side-by-side store.
 
 
 ## -returns
@@ -149,7 +149,7 @@ The method did not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/6c411ae7-5a8f-47ca-a9c1-e23000f64620">IAssemblyCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
  
 
  

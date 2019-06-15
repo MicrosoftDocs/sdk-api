@@ -54,7 +54,7 @@ Exposes methods to manipulate and query Shell item resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItemResources</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellItemResources</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellItemResources</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellItemResources</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellItemResources</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b854ee5f-ee4c-49e8-b0de-249154ec9b43">CreateResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-createresource">CreateResource</a>
 </td>
 <td align="left" width="63%">
 Creates a specified resource.
@@ -78,7 +78,7 @@ Creates a specified resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29ac8ac9-4bd1-470c-885a-56f860d50a70">EnumResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-enumresources">EnumResources</a>
 </td>
 <td align="left" width="63%">
 Gets a resource enumerator object.
@@ -87,7 +87,7 @@ Gets a resource enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4669ec62-270a-4b75-b073-2f45f11b6f99">GetAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-getattributes">GetAttributes</a>
 </td>
 <td align="left" width="63%">
 Gets resource attributes.
@@ -96,7 +96,7 @@ Gets resource attributes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5e20d50-510d-4d30-903e-6953846957a9">GetResourceDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-getresourcedescription">GetResourceDescription</a>
 </td>
 <td align="left" width="63%">
 Gets a resource description.
@@ -105,7 +105,7 @@ Gets a resource description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03e5f9cf-ad5d-487d-bdef-75255a0d1620">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Gets the source size.
@@ -114,7 +114,7 @@ Gets the source size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4857b824-2b58-4c26-bbab-8a799d20f584">GetTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-gettimes">GetTimes</a>
 </td>
 <td align="left" width="63%">
 Gets file times.
@@ -123,7 +123,7 @@ Gets file times.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15f395a8-70ab-43ba-bb75-6e9b25a19faa">MarkForDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-markfordelete">MarkForDelete</a>
 </td>
 <td align="left" width="63%">
 Marks for delete.
@@ -132,7 +132,7 @@ Marks for delete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abef9009-7e0d-4a09-aba8-2b391e4ab487">OpenResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-openresource">OpenResource</a>
 </td>
 <td align="left" width="63%">
 Opens a specified resource.
@@ -141,7 +141,7 @@ Opens a specified resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5112da8-36a0-4b13-b674-c68eab24266d">SetTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-settimes">SetTimes</a>
 </td>
 <td align="left" width="63%">
 Sets file times.
@@ -150,7 +150,7 @@ Sets file times.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4ef7190-0056-423b-b958-bf746a66462d">SupportsResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemresources-supportsresource">SupportsResource</a>
 </td>
 <td align="left" width="63%">
 Retrieves whether an item supports a specified resource.

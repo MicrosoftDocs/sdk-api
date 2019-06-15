@@ -84,9 +84,9 @@ The <code>RefTimeToSample</code> method converts reference time to sample time. 
 
 The calculation of sample time from reference time depends on the sampling frequency. For example, if the output buffer is in a 44.2 kHz format, a sample time of 44,200 is equivalent to a reference time of one second.
 
-The synth sink manages the timing relationship between the master clock (set with a call to <a href="https://msdn.microsoft.com/91c996cc-04e1-47fb-a82d-1cb17fe191e2">IDirectMusicSynthSink::SetMasterClock</a>) and the audio stream.
+The synth sink manages the timing relationship between the master clock (set with a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>) and the audio stream.
 
-For more information, see the description of reference time and sample time in <a href="https://msdn.microsoft.com/38aca8b7-f895-4b16-aaac-5a13973cf976">Synthesizer Timing</a>.
+For more information, see the description of reference time and sample time in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/synthesizer-timing">Synthesizer Timing</a>.
 
 
 
@@ -96,15 +96,15 @@ For more information, see the description of reference time and sample time in <
 
 
 
-<a href="https://msdn.microsoft.com/a82b33a3-e7bb-46f0-a13d-ba251db19c16">IDirectMusicSynthSink::SampleToRefTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-sampletoreftime">IDirectMusicSynthSink::SampleToRefTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/91c996cc-04e1-47fb-a82d-1cb17fe191e2">IDirectMusicSynthSink::SetMasterClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>
 
 
 
-<a href="https://msdn.microsoft.com/20906bcd-3059-4d10-92cb-8efdef929ccd">ISynthSinkDMus::RefTimeToSample</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nf-dmusicks-isynthsinkdmus-reftimetosample">ISynthSinkDMus::RefTimeToSample</a>
  
 
  

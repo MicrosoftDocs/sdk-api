@@ -76,7 +76,7 @@ The byte stream resumes transferring data to the cache if the application does o
 
 <ul>
 <li>Reads data from the byte stream.</li>
-<li>Calls the byte stream's <a href="https://msdn.microsoft.com/5f7418ff-32e5-49b3-b7b3-6686e6562d51">IMFByteStreamBuffering::EnableBuffering</a> method.</li>
+<li>Calls the byte stream's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-enablebuffering">IMFByteStreamBuffering::EnableBuffering</a> method.</li>
 </ul>
 
 
@@ -86,7 +86,7 @@ The byte stream resumes transferring data to the cache if the application does o
 
 
 
-<a href="https://msdn.microsoft.com/e12a532a-4624-4e06-8e19-6e9daec550ac">IMFByteStreamCacheControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>
  
 
  

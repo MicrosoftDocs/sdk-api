@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Serializes an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> into a buffer in the format specified when the serializer was created.  Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
+Serializes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> into a buffer in the format specified when the serializer was created.  Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Serializes an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244
 
 ### -param serializer [in, out]
 
-Serializer returned from <a href="https://msdn.microsoft.com/9de29d43-0677-4dc9-927f-af7c01179991">MI_Application_NewSerializer</a>.
+Serializer returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>.
 
 
 ### -param flags
@@ -91,7 +91,7 @@ Returned total length the buffer needs to be.  If a buffer is passed in (via the
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -101,7 +101,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-<a href="https://msdn.microsoft.com/9de29d43-0677-4dc9-927f-af7c01179991">MI_Application_NewSerializer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>
  
 
  

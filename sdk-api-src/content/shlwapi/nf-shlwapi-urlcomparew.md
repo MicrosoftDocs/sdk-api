@@ -97,7 +97,7 @@ Returns zero if the two strings are equal. The function will also return zero if
 
 
 
-For best results, you should first canonicalize the URLs with <a href="https://msdn.microsoft.com/70802745-0611-4d37-800e-b50d5ea23426">UrlCanonicalize</a>. Then, compare the canonicalized URLs with <b>UrlCompare</b>.
+For best results, you should first canonicalize the URLs with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlcanonicalizea">UrlCanonicalize</a>. Then, compare the canonicalized URLs with <b>UrlCompare</b>.
 
 
 
@@ -107,7 +107,7 @@ For best results, you should first canonicalize the URLs with <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/12530a04-776c-4506-86d1-07e2c3569a36">StrCmp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpw">StrCmp</a>
  
 
  

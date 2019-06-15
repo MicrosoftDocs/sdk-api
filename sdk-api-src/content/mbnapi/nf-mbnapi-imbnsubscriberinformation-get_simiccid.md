@@ -72,7 +72,7 @@ The International Circuit Card Id of the SIM varies between 15 to 20 digits in l
 
 
 
-<a href="https://msdn.microsoft.com/ef7f5dc5-ed66-450c-9623-0c1d725d82c6">IMbnSubscriberInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a>
  
 
  

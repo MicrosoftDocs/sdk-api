@@ -59,7 +59,7 @@ Gets a handle to a channel or log file that you can then use to get information 
 
 ### -param Session [in]
 
-A remote session handle that the <a href="https://msdn.microsoft.com/26f1745c-dcca-4452-872e-1fffe20f049c">EvtOpenSession</a> function returns. Set to <b>NULL</b> to open a channel or log on the local computer.
+A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to open a channel or log on the local computer.
 
 
 ### -param Path [in]
@@ -69,14 +69,14 @@ The name of the channel or the full path to the exported log file.
 
 ### -param Flags [in]
 
-A flag that determines whether the <i>Path</i> parameter points to a log file or channel. For possible values, see the <a href="https://msdn.microsoft.com/c5badaee-4b3b-448a-9a91-df58be1ec884">EVT_OPEN_LOG_FLAGS</a> enumeration.
+A flag that determines whether the <i>Path</i> parameter points to a log file or channel. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_open_log_flags">EVT_OPEN_LOG_FLAGS</a> enumeration.
 
 
 ## -returns
 
 
 
-If successful, the function returns a handle to the file or channel; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to get the error code.
+If successful, the function returns a handle to the file or channel; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 
 
@@ -87,7 +87,7 @@ If successful, the function returns a handle to the file or channel; otherwise, 
 
 Relative paths and environment variables cannot be used when specifying a file.  A Universal Naming Convention (UNC) path can be used to locate the file.  Any relative path and environment variable expansion needs to be done prior to making API calls.
 
-To get information about the channel or log file, call the <a href="https://msdn.microsoft.com/5261f367-3010-4b6d-9a53-77c908c867d4">EvtGetLogInfo</a> function.
+To get information about the channel or log file, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a> function.
 
 
 
@@ -97,15 +97,15 @@ To get information about the channel or log file, call the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/26d2aabd-96dc-4091-82f4-e5d4c69e09a4">EvtClearLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclearlog">EvtClearLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/c177029f-84e3-41ec-bbdb-26b0c1bf481f">EvtExportLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/5261f367-3010-4b6d-9a53-77c908c867d4">EvtGetLogInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a>
  
 
  

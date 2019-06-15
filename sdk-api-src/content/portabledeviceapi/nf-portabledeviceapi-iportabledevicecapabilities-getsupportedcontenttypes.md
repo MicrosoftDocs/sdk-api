@@ -61,13 +61,13 @@ The <b>GetSupportedContentTypes</b> method retrieves all supported content types
 
 ### -param Category [in]
 
-A <b>REFGUID</b> that specifies a functional object category. To get a list of functional categories on the device, call <a href="https://msdn.microsoft.com/c444f9d6-7bef-4e0a-bcd8-6a6110986208">IPortableDeviceCapabilities::GetFunctionalCategories</a>.
+A <b>REFGUID</b> that specifies a functional object category. To get a list of functional categories on the device, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalcategories">IPortableDeviceCapabilities::GetFunctionalCategories</a>.
           
 
 
 ### -param ppContentTypes [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/41224958-a5a0-4e09-8733-d0ae036f68b9">IPortableDevicePropVariantCollection</a> interface that lists all the supported object types for the specified functional object category. These object types will be <b>GUID</b> values of type VT_CLSID in the retrieved <b>PROPVARIANT</b> items. See <a href="https://msdn.microsoft.com/4c3da994-fe12-4cb8-8f11-c4930cae96af">Requirements for Objects</a> for a list of object types defined by Windows Portable Devices. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that lists all the supported object types for the specified functional object category. These object types will be <b>GUID</b> values of type VT_CLSID in the retrieved <b>PROPVARIANT</b> items. See <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/requirements-for-objects">Requirements for Objects</a> for a list of object types defined by Windows Portable Devices. The caller must release this interface when it is done with it.
           
 
 
@@ -105,11 +105,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cedb8d9-2476-420c-bab4-c8a032af781b">Retrieving the Content Types Supported by a Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-content-types-supported-by-a-device">Retrieving the Content Types Supported by a Device</a>
  
 
  

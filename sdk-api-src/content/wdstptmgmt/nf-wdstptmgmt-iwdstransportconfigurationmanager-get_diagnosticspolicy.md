@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/b86f9bc7-ddee-4d18-b5cb-28d28fa7ae7e">IWdsTransportConfigurationManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/01b52fcf-64f5-4e71-931b-a3a6b4d9b2b2">IWdsTransportDiagnosticsPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportdiagnosticspolicy">IWdsTransportDiagnosticsPolicy</a>
  
 
  

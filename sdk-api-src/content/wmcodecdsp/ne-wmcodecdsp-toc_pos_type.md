@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TOC_POS_TYPE</b> enumeration contains members that specify the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of a table of contents.
+The <b>TOC_POS_TYPE</b> enumeration contains members that specify the <a href="https://docs.microsoft.com/windows/desktop/medfound/the-position-type-of-a-table-of-contents">position type</a> of a table of contents.
 
 
 ## -enum-fields
@@ -81,11 +81,11 @@ Currently, only <b>TOC_POS_TOPLEVELOBJECT</b> is supported.
 
 
 
-<a href="https://msdn.microsoft.com/d414c0d7-e3f1-4697-8ab1-f38815eaf889">Table of Contents Parser Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/toc-parser-enumerations">Table of Contents Parser Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">The Position Type of a Table of Contents</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/the-position-type-of-a-table-of-contents">The Position Type of a Table of Contents</a>
  
 
  

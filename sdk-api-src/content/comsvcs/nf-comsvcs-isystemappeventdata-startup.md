@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/fd88641e-e0ce-44b7-b8b6-59791be48026">ISystemAppEventData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isystemappeventdata">ISystemAppEventData</a>
  
 
  

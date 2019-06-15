@@ -59,12 +59,12 @@ The DD_LOCKDATA structure contains information necessary to do a lock as defined
 
 ### -field lpDD
 
-Points to a <a href="https://msdn.microsoft.com/a59f064b-48cf-4491-82cd-84f59467af87">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 
 ### -field lpDDSurface
 
-Points to a <a href="https://msdn.microsoft.com/45a41cec-0257-4e26-809d-c2fc4c247328">DD_SURFACE_LOCAL</a> structure that describes the surface--in the case of <a href="https://msdn.microsoft.com/8e0714df-1ac8-448c-9f0f-d361640c133a">LockD3DBuffer</a>, a buffer--associated with the memory region to be locked down.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface--in the case of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a>, a buffer--associated with the memory region to be locked down.
 
 
 ### -field bHasRect
@@ -74,7 +74,7 @@ Specifies whether the area in <b>rArea</b> is valid. A value of 0x00000001 indic
 
 ### -field rArea
 
-Specifies a <a href="https://msdn.microsoft.com/709f8262-829e-4cda-bb0b-564307edfd24">RECTL</a> structure that defines the area on the surface to lock down.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that defines the area on the surface to lock down.
 
 
 ### -field lpSurfData
@@ -84,7 +84,7 @@ Specifies the location in which the driver can return a pointer to the memory re
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of either the <a href="https://msdn.microsoft.com/b5256ed8-79be-4c7b-a079-ed3bca954e9e">DdLock</a> or <a href="https://msdn.microsoft.com/8e0714df-1ac8-448c-9f0f-d361640c133a">LockD3DBuffer</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/da4cc7d7-6826-48aa-96c6-004e31fc3e3e">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of either the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 
 ### -field Lock
@@ -157,7 +157,7 @@ DDLOCK_NODIRTYUPDATE
 <td>
 
 <dl>
-<dt>Sent to the driver by the runtime after an application requests to lock down a memory region with the D3DLOCK_NO_DIRTY_UPDATE flag set. In this case, the driver should not consider the memory region that it locks down as dirty when the runtime calls the driver's <a href="https://msdn.microsoft.com/dbb7b34c-5473-42b9-b16f-e71b9c3e1db8">DdUnlock</a> function to update a surface that contains this region. Rather, the driver should only consider the regions specified in previous calls to its <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> function using the D3DDP2OP_ADDDIRTYRECT and D3DDP2OP_ADDDIRTYBOX enumerators as dirty. </dt>
+<dt>Sent to the driver by the runtime after an application requests to lock down a memory region with the D3DLOCK_NO_DIRTY_UPDATE flag set. In this case, the driver should not consider the memory region that it locks down as dirty when the runtime calls the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_unlock">DdUnlock</a> function to update a surface that contains this region. Rather, the driver should only consider the regions specified in previous calls to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> function using the D3DDP2OP_ADDDIRTYRECT and D3DDP2OP_ADDDIRTYBOX enumerators as dirty. </dt>
 <dt>By default, a lock on a surface adds a dirty region to that surface. </dt>
 </dl>
 
@@ -245,7 +245,7 @@ The surface being locked will only be written to. On Windows 2000 and later, thi
 
 ### -field fpProcess
 
-Specifies a pointer to a user-mode mapping of the driver's memory. The driver performs this mapping in <a href="https://msdn.microsoft.com/a05e2ba8-dfe1-447d-acfa-0eb8f4252107">DdMapMemory</a>. Windows 2000 and later only.
+Specifies a pointer to a user-mode mapping of the driver's memory. The driver performs this mapping in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mapmemory">DdMapMemory</a>. Windows 2000 and later only.
 
 
 ## -see-also
@@ -253,15 +253,15 @@ Specifies a pointer to a user-mode mapping of the driver's memory. The driver pe
 
 
 
-<a href="https://msdn.microsoft.com/b5256ed8-79be-4c7b-a079-ed3bca954e9e">DdLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/a05e2ba8-dfe1-447d-acfa-0eb8f4252107">DdMapMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mapmemory">DdMapMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e0714df-1ac8-448c-9f0f-d361640c133a">LockD3DBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a>
  
 
  

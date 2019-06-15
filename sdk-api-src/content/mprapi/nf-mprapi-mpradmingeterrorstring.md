@@ -66,7 +66,7 @@ Specifies the error code for a  router error.
 ### -param lplpwsErrorString [out]
 
 Pointer to an <b>LPWSTR</b> variable that points to the text associated with the <i>dwError</i> code on successful return. Free this memory by calling 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366730(v=VS.85).aspx">LocalFree</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 
 ## -returns
@@ -119,15 +119,15 @@ The error code in <i>dwError</i> is unknown.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366730(v=VS.85).aspx">LocalFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/a61734a7-b171-4e38-8dec-46be9a9c08ee">Router Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

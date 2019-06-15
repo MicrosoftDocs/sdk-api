@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSetActiveTimer</b> macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is active. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/a30c0091-d9bb-44a3-a7b0-d1be30adcd9c">MCIWNDM_SETACTIVETIMER</a> message.
+The <b>MCIWndSetActiveTimer</b> macro sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is active. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setactivetimer">MCIWNDM_SETACTIVETIMER</a> message.
 
 
 

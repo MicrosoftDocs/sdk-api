@@ -52,13 +52,13 @@ A client or host is connected to the ad hoc network.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a73ce24b-24e9-40ad-9ce2-f3071fca9ffe">Native Wifi Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-enumerations">Native Wifi Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0814b2a-ccdc-4bf1-b11e-25f2cf6ba9bd">WLAN_NOTIFICATION_ACM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_notification_acm">WLAN_NOTIFICATION_ACM</a>
 
 
 
-<a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Processes <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
+Processes <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Processes <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).as
 
 ### -param uMsg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Message being processed. This can be either <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> or <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a>. 
+Message being processed. This can be either <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a>. 
 
 
 ### -param wParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
 wParam of the message specified in 
 					<i>uMsg</i>. 
@@ -74,7 +74,7 @@ wParam of the message specified in
 
 ### -param lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 lParam of the message specified in 
 					<i>uMsg</i>. 
@@ -82,21 +82,21 @@ lParam of the message specified in
 
 ### -param hMainMenu
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HMENU</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a></b>
 
 Handle to the application's main menu. 
 
 
 ### -param hInst
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Handle to the module that contains the string resources. 
 
 
 ### -param hwndStatus
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the status window. 
 
@@ -121,7 +121,7 @@ No return value.
 
 
 
-The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages.
+The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages.
 		
 
 

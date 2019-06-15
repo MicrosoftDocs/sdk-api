@@ -79,7 +79,7 @@ Accesses the entire 32 bits of the number. You can use this member to compare <b
 
 
 
-To convert between floating-point numbers and <b>DXVA2_Fixed32</b> values, use the <a href="https://msdn.microsoft.com/f92c1d78-a2a7-469e-926a-7ba5ad8221e1">DXVA2FixedToFloat</a> and <a href="https://msdn.microsoft.com/2537e691-2137-4e4b-90a0-6749a6ceb144">DXVA2FloatToFixed</a> functions.
+To convert between floating-point numbers and <b>DXVA2_Fixed32</b> values, use the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-dxva2fixedtofloat">DXVA2FixedToFloat</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-dxva2floattofixed">DXVA2FloatToFixed</a> functions.
 
 
 
@@ -89,7 +89,7 @@ To convert between floating-point numbers and <b>DXVA2_Fixed32</b> values, use t
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

@@ -60,12 +60,12 @@ Queries whether the specified thread is a UMS scheduler thread, a UMS worker thr
 
 ### -param ThreadHandle [in]
 
-A handle to a thread. The thread handle must have the THREAD_QUERY_INFORMATION access right. For more information, see <a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">Thread Security and Access Rights</a>.
+A handle to a thread. The thread handle must have the THREAD_QUERY_INFORMATION access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 
 ### -param SystemThreadInfo [in, out]
 
-A pointer to an initialized <a href="https://msdn.microsoft.com/eecdc592-5046-47c3-a4c6-ecb10899db3c">UMS_SYSTEM_THREAD_INFORMATION</a> structure that specifies the kind of thread for the query.
+A pointer to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure that specifies the kind of thread for the query.
 
 
 ## -returns

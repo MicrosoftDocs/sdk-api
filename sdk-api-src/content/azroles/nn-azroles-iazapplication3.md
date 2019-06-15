@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAzApplication3</b> interface provides methods to manage <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a>, <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a>, and <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> objects.
+The <b>IAzApplication3</b> interface provides methods to manage <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a>, <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope2">IAzScope2</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplication3</b> interface inherits from <a href="https://msdn.microsoft.com/58f0627e-fa92-4b3b-a0cd-7e437d451606">IAzApplication2</a>. <b>IAzApplication3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplication3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a>. <b>IAzApplication3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,88 +70,88 @@ The <b>IAzApplication3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0646601d-97e6-437a-abfe-99fdb5bb1354">CreateRoleAssignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-createroleassignment">CreateRoleAssignment</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object with the specified name.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/014410be-4b2c-452b-b671-0a9bd9c0a448">CreateRoleDefinition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-createroledefinition">CreateRoleDefinition</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object with the specified name.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1e8bfe6-e074-4e9e-80f8-bcb8bd90f824">CreateScope2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-createscope2">CreateScope2</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object with the specified name.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope2">IAzScope2</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1844e7c5-91ad-4f6d-8f5b-1a174e9653dd">DeleteRoleAssignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-deleteroleassignment">DeleteRoleAssignment</a>
 </td>
 <td align="left" width="63%">
-Removes the specified <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object from the <b>IAzApplication3</b> object.
+Removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object from the <b>IAzApplication3</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34dc0bb8-1a44-418a-9b2c-f506f21f6ab1">DeleteRoleDefinition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-deleteroledefinition">DeleteRoleDefinition</a>
 </td>
 <td align="left" width="63%">
-Removes the specified <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object from the <b>IAzApplication3</b> object.
+Removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> object from the <b>IAzApplication3</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f42f9288-896b-4034-a16c-3d555acea453">DeleteScope2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-deletescope2">DeleteScope2</a>
 </td>
 <td align="left" width="63%">
-Removes the specified <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object from the <b>IAzApplication3</b> object.
+Removes the specified <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope2">IAzScope2</a> object from the <b>IAzApplication3</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d0ec47e-5d5f-43d7-aace-fffca0037ac3">OpenRoleAssignment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-openroleassignment">OpenRoleAssignment</a>
 </td>
 <td align="left" width="63%">
-Opens the specified <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object.
+Opens the specified <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/460b917c-a07b-4f50-b80f-0f6d986b65ff">OpenRoleDefinition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-openroledefinition">OpenRoleDefinition</a>
 </td>
 <td align="left" width="63%">
-Opens an <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> object with the specified name.
+Opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ea9f12e-d00d-4ccd-bfd4-21027610e681">OpenScope2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-openscope2">OpenScope2</a>
 </td>
 <td align="left" width="63%">
-Opens an <a href="https://msdn.microsoft.com/536c563e-7a6b-480d-9e83-1d7cc90a795d">IAzScope2</a> object with the specified name.
+Opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope2">IAzScope2</a> object with the specified name.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/585f8b16-e634-4ac6-a20a-214eea344b0a">ScopeExists</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-scopeexists">ScopeExists</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the scope with the specified name exists in the <b>IAzApplication3</b> object.
@@ -169,7 +169,7 @@ Indicates whether the scope with the specified name exists in the <b>IAzApplicat
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/92303a5d-a705-4003-890e-e75886451c18">BizRulesEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-get_bizrulesenabled">BizRulesEnabled</a>
 
 
 </td>
@@ -185,7 +185,7 @@ Gets or sets a value that indicates whether business rules are enabled for the c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5f70cc85-9275-4ccd-ad53-c22b00a4dea3">RoleAssignments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-get_roleassignments">RoleAssignments</a>
 
 
 </td>
@@ -194,14 +194,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/d38fd7e0-6d0b-4b68-b6e5-f7adc2cfef47">IAzRoleAssignments</a> object that represents the collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects associated with the current <b>IAzApplication3</b> object.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignments">IAzRoleAssignments</a> object that represents the collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects associated with the current <b>IAzApplication3</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9b17c315-4a46-4a74-983f-b07593ff0517">RoleDefinitions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication3-get_roledefinitions">RoleDefinitions</a>
 
 
 </td>
@@ -210,7 +210,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/9d17647c-3ff9-4881-a02f-d7bcb508e102">IAzRoleDefinitions</a> object that represents the collection of <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> objects associated with the current <b>IAzApplication3</b> object.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinitions">IAzRoleDefinitions</a> object that represents the collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects associated with the current <b>IAzApplication3</b> object.
 
 </td>
 </tr>

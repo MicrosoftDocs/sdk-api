@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>HTTP_HEADER_ID</b> enumeration type lists <i>known headers</i> for HTTP requests and responses, and associates an array index with each such header. It is used to size and access the <b>KnownHeaders</b> array members of the 
-<a href="https://msdn.microsoft.com/a87b9c9c-cba1-4453-a300-7af35da944c9">HTTP_REQUEST_HEADERS</a> and 
-<a href="https://msdn.microsoft.com/e783c27e-d215-4f6d-a080-92d915a7fc33">HTTP_RESPONSE_HEADERS</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a> structures.
 
 
 ## -enum-fields
@@ -356,11 +356,11 @@ Not a value that actually designates a header; instead, it is used to count all 
 
 
 
-<a href="https://msdn.microsoft.com/a87b9c9c-cba1-4453-a300-7af35da944c9">HTTP_REQUEST_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e783c27e-d215-4f6d-a080-92d915a7fc33">HTTP_RESPONSE_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_headers">HTTP_RESPONSE_HEADERS</a>
  
 
  

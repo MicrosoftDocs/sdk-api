@@ -73,7 +73,7 @@ If the operation succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
        <b>AddResourceToClusterSharedVolumes</b> 
-       returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       returns one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 
 
@@ -92,7 +92,7 @@ The system crash dump path cannot reside on any cluster shared volumes that use 
 
 
 
-<a href="https://msdn.microsoft.com/696CBC0D-C1F6-4f1a-94D1-71F77B102258">RemoveResourceFromClusterSharedVolumes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-removeresourcefromclustersharedvolumes">RemoveResourceFromClusterSharedVolumes</a>
  
 
  

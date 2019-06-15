@@ -54,7 +54,7 @@ Controls the stream state of an endpoint.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioEndpointControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioEndpointControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f21a245c-b47b-425d-8054-330e265f16f1">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the endpoint stream.
@@ -78,7 +78,7 @@ Resets the endpoint stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9b54618-9750-49be-a966-1a2f02c81af6">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the endpoint stream.
@@ -87,7 +87,7 @@ Starts the endpoint stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/803aec38-abc8-4f55-bb56-3dcc3eeb924a">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the endpoint stream.

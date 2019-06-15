@@ -59,12 +59,12 @@ Defines the authentication method and the credentials used for server or proxy a
 
 ### -field authenticationMechanism
 
-Defines the authentication mechanism. This member can be set to zero. If it is set to zero, the WinRM client will choose between Kerberos and Negotiate. If it is not set to zero, this member must be one of the values of the <a href="https://msdn.microsoft.com/ce5ddaf6-4d81-4dab-a928-819b1fdee6c8">WSManAuthenticationFlags</a> enumeration.
+Defines the authentication mechanism. This member can be set to zero. If it is set to zero, the WinRM client will choose between Kerberos and Negotiate. If it is not set to zero, this member must be one of the values of the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ne-wsman-wsmanauthenticationflags">WSManAuthenticationFlags</a> enumeration.
 
 
 ### -field userAccount
 
-Defines the credentials used for authentication. See <a href="https://msdn.microsoft.com/5cb2b52f-85a7-4760-9f0d-b515fad86d33">WSMAN_USERNAME_PASSWORD_CREDS</a> for more information.
+Defines the credentials used for authentication. See <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_username_password_creds">WSMAN_USERNAME_PASSWORD_CREDS</a> for more information.
 
 
 ### -field certificateThumbprint

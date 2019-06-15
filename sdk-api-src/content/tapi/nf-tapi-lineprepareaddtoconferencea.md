@@ -73,7 +73,7 @@ Pointer to an HCALL handle. This location is then loaded with a handle identifyi
 ### -param lpCallParams
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter can be set to <b>NULL</b> if no special call setup parameters are desired.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a> structure containing call parameters to use when establishing the consultation call. This parameter can be set to <b>NULL</b> if no special call setup parameters are desired.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Pointer to a
 
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_BEARERMODEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_CALLUNAVAIL, LINEERR_INVALRATE, LINEERR_CONFERENCEFULL, LINEERR_NOMEM, LINEERR_INUSE, LINEERR_NOTOWNER, LINEERR_INVALADDRESSMODE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALBEARERMODE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLPARAMS, LINEERR_RATEUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALCONFCALLHANDLE, LINEERR_STRUCTURETOOSMALL, LINEERR_INVALLINESTATE, LINEERR_USERUSERINFOTOOBIG, LINEERR_INVALMEDIAMODE, LINEERR_UNINITIALIZED.
 
@@ -93,20 +93,20 @@ LINEERR_BEARERMODEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_CALLUNAVAIL, LINEERR_IN
 
 
 If LINEERR_INVALLINESTATE is returned, the line is currently not in a state in which this operation can be performed. A list of currently valid operations can be found in the <b>dwLineFeatures</b> member (of the type 
-<a href="https://msdn.microsoft.com/77fa313c-e720-4607-b691-51b5be76ceed">LINEFEATURE</a>) in the 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a> structure. (Calling 
-<a href="https://msdn.microsoft.com/9c0fa2ba-1157-43d2-af56-aa4e0c28bd05">lineGetLineDevStatus</a> updates the information in 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linefeature--constants">LINEFEATURE</a>) in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a> structure. (Calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a> updates the information in 
 <b>LINEDEVSTATUS</b>.)
 
 A conference call handle can be obtained with 
-<a href="https://msdn.microsoft.com/13bf81c6-f7f6-4fd4-b546-15e58f7bc618">lineSetupConference</a> or with 
-<a href="https://msdn.microsoft.com/ebedf664-4c45-49c3-9d86-c3d782077a00">lineCompleteTransfer</a> that is resolved as a three-way conference call. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetupconference">lineSetupConference</a> or with 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linecompletetransfer">lineCompleteTransfer</a> that is resolved as a three-way conference call. The 
 <b>linePrepareAddToConference</b> function typically places the existing conference call in the <i>onHoldPendingConference</i> state and creates a consultation call that can be added later to the existing conference call with 
-<a href="https://msdn.microsoft.com/fbbaea96-727c-46b9-91d1-31d3f89d8ad8">lineAddToConference</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineaddtoconference">lineAddToConference</a>.
 
 The consultation call can be canceled using 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a>. It may also be possible for an application to swap between the consultation call and the held conference call with 
-<a href="https://msdn.microsoft.com/9e575c82-301c-4505-b400-faf4dc291ff8">lineSwapHold</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>. It may also be possible for an application to swap between the consultation call and the held conference call with 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>.
 
 
 
@@ -116,47 +116,47 @@ The consultation call can be canceled using
 
 
 
-<a href="https://msdn.microsoft.com/f685097b-1b54-412b-999f-d9bdb3120ab9">Conference overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/conference-ovr">Conference overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7bc5604-20eb-48d8-a857-df8962c6b2ae">LINECALLPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams_tag">LINECALLPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d565e99-eb90-47ca-9fb9-295236f566fb">LINEDEVSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus_tag">LINEDEVSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbbaea96-727c-46b9-91d1-31d3f89d8ad8">lineAddToConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineaddtoconference">lineAddToConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebedf664-4c45-49c3-9d86-c3d782077a00">lineCompleteTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linecompletetransfer">lineCompleteTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c0fa2ba-1157-43d2-af56-aa4e0c28bd05">lineGetLineDevStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/13bf81c6-f7f6-4fd4-b546-15e58f7bc618">lineSetupConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetupconference">lineSetupConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e575c82-301c-4505-b400-faf4dc291ff8">lineSwapHold</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
  
 
  

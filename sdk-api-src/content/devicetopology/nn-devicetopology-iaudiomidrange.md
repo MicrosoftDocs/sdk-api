@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 
-The <b>IAudioMidrange</b> interface provides access to a hardware midrange-level control. The client obtains a reference to the <b>IAudioMidrange</b> interface of a subunit by calling the <a href="https://msdn.microsoft.com/72e08a30-65c0-437b-9932-110ba48a2376">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioMidrange. The call to <b>IPart::Activate</b> succeeds only if the subunit supports the <b>IAudioMidrange</b> interface. Only a subunit object that represents a hardware function for controlling the level of the mid-range frequencies in each channel will support this interface.
+The <b>IAudioMidrange</b> interface provides access to a hardware midrange-level control. The client obtains a reference to the <b>IAudioMidrange</b> interface of a subunit by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioMidrange. The call to <b>IPart::Activate</b> succeeds only if the subunit supports the <b>IAudioMidrange</b> interface. Only a subunit object that represents a hardware function for controlling the level of the mid-range frequencies in each channel will support this interface.
 
 The <b>IAudioMidrange</b> interface provides per-channel controls for setting and getting the gain or attenuation level of the midrange frequencies in the audio stream. If a midrange-level hardware control can only attenuate the channels in the audio stream, then the maximum midrange level for any channel is 0 dB. If a midrange-level control can provide gain (amplification), then the maximum midrange level is greater than 0 dB.
 
-Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioMidrange</b> interface provides convenient access to the KSPROPERTY_AUDIO_MID property of a subunit that has a subtype GUID value of KSNODETYPE_TONE. To obtain the subtype GUID of a subunit, call the <a href="https://msdn.microsoft.com/456aaafb-1e68-4a3a-b27b-c6f6f89dc17b">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
+Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioMidrange</b> interface provides convenient access to the KSPROPERTY_AUDIO_MID property of a subunit that has a subtype GUID value of KSNODETYPE_TONE. To obtain the subtype GUID of a subunit, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
 
 
 
@@ -64,19 +64,19 @@ Most Windows audio adapter drivers support the Windows Driver Model (WDM) and us
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/051311ef-dd29-4014-bb9c-4cdccf7ce7de">DeviceTopology API</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://msdn.microsoft.com/72e08a30-65c0-437b-9932-110ba48a2376">IPart::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
 
 
 
-<a href="https://msdn.microsoft.com/e70b4518-c9de-4426-b8e5-db80656699a9">IPerChannelDbLevel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iperchanneldblevel">IPerChannelDbLevel Interface</a>
  
 
  

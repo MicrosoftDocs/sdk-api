@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>EnumerateCallHubs</b> method enumerates the currently available call hubs. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://msdn.microsoft.com/57177526-1351-4f59-8f24-74d8b87d27c0">get_Callhubs</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-get_callhubs">get_Callhubs</a> method.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppEnumCallHub [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/f5dcc21d-5ce1-4b10-88c5-e6772b5eb61d">IEnumCallHub</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a> interface.
 
 
 ## -returns
@@ -131,7 +131,7 @@ Insufficient memory exists to perform the operation.
 
 
 TAPI calls the <b>Addref</b> method on the 
-<a href="https://msdn.microsoft.com/f5dcc21d-5ce1-4b10-88c5-e6772b5eb61d">IEnumCallHub</a> interface returned by <b>ITTAPI::EnumerateCallHubs</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a> interface returned by <b>ITTAPI::EnumerateCallHubs</b>. The application must call <b>Release</b> on the 
 <b>IEnumCallHub</b> interface to free resources associated with it.
 
 
@@ -142,15 +142,15 @@ TAPI calls the <b>Addref</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/f5dcc21d-5ce1-4b10-88c5-e6772b5eb61d">IEnumCallHub</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub">IEnumCallHub</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
  
 
  

@@ -50,13 +50,13 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWiaItem</b> interface is used by applications to enumerate <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects in the tree's current folder. The Windows Image Acquisition (WIA) run-time system represents every WIA hardware device to applications as a hierarchical tree of <b>IWiaItem</b> objects.
+The <b>IEnumWiaItem</b> interface is used by applications to enumerate <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects in the tree's current folder. The Windows Image Acquisition (WIA) run-time system represents every WIA hardware device to applications as a hierarchical tree of <b>IWiaItem</b> objects.
 
-<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://msdn.microsoft.com/en-us/library/ms630172(v=VS.85).aspx">IEnumWiaItem2</a> instead of <b>IEnumWiaItem</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  For Windows Vista applications, use <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-ienumwiaitem2">IEnumWiaItem2</a> instead of <b>IEnumWiaItem</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWiaItem</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumWiaItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWiaItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWiaItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,46 +71,46 @@ The <b>IEnumWiaItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629841(v=VS.85).aspx">IEnumWiaItem::Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-clone">IEnumWiaItem::Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629841(v=VS.85).aspx">IEnumWiaItem::Clone</a> method creates an additional instance of the <b>IEnumWiaItem</b> interface and sends back a pointer to it.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-clone">IEnumWiaItem::Clone</a> method creates an additional instance of the <b>IEnumWiaItem</b> interface and sends back a pointer to it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629842(v=VS.85).aspx">IEnumWiaItem::GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-getcount">IEnumWiaItem::GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms629842(v=VS.85).aspx">IEnumWiaItem::GetCount</a> method returns the number of elements stored by this enumerator.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-getcount">IEnumWiaItem::GetCount</a> method returns the number of elements stored by this enumerator.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630177(v=VS.85).aspx">IEnumWiaItem::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-next">IEnumWiaItem::Next</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630177(v=VS.85).aspx">IEnumWiaItem::Next</a> method fills an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> interfaces.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-next">IEnumWiaItem::Next</a> method fills an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interfaces.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630178(v=VS.85).aspx">IEnumWiaItem::Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-reset">IEnumWiaItem::Reset</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630178(v=VS.85).aspx">IEnumWiaItem::Reset</a> method is used by applications to restart the enumeration of item information.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-reset">IEnumWiaItem::Reset</a> method is used by applications to restart the enumeration of item information.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms630179(v=VS.85).aspx">IEnumWiaItem::Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-skip">IEnumWiaItem::Skip</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms630179(v=VS.85).aspx">IEnumWiaItem::Skip</a> method skips the specified number of items during an enumeration of available <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwiaitem-skip">IEnumWiaItem::Skip</a> method skips the specified number of items during an enumeration of available <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects.
 
 </td>
 </tr>
@@ -121,11 +121,11 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms630179(v=VS.85).aspx">IE
 
 
 
-The <b>IEnumWiaItem</b> interface is a specific implementation for WIA of the standard Component Object Model (COM) enumeration interface. For details, see <a href="https://msdn.microsoft.com/library/ms680089(v=VS.85).aspx">IEnumXXXX</a>.
+The <b>IEnumWiaItem</b> interface is a specific implementation for WIA of the standard Component Object Model (COM) enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions//ms680089(v=vs.85)">IEnumXXXX</a>.
 
-Applications obtain a pointer to the <b>IEnumWiaItem</b> interface by invoking the <a href="https://msdn.microsoft.com/en-us/library/ms630101(v=VS.85).aspx">IWiaItem::EnumChildItems</a> method.
+Applications obtain a pointer to the <b>IEnumWiaItem</b> interface by invoking the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumchilditems">IWiaItem::EnumChildItems</a> method.
 
-The <b>IEnumWiaItem</b> interface, like all COM interfaces, inherits the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface methods. 
+The <b>IEnumWiaItem</b> interface, like all COM interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
 <table class="clsStd">
 <tr>
@@ -134,19 +134,19 @@ The <b>IEnumWiaItem</b> interface, like all COM interfaces, inherits the <a href
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
 </td>
 <td>Increments reference count.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
 </td>
 <td>Decrements reference count.</td>
 </tr>
@@ -165,15 +165,15 @@ The <b>IEnumWiaItem</b> interface, like all COM interfaces, inherits the <a href
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms630101(v=VS.85).aspx">EnumChildItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumchilditems">EnumChildItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629850(v=VS.85).aspx">Enumerating Items</a>
+<a href="https://docs.microsoft.com/windows/desktop/wia/-wia-enumerating-items">Enumerating Items</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms680089(v=VS.85).aspx">IEnumXXXX</a>
+<a href="https://docs.microsoft.com/previous-versions//ms680089(v=vs.85)">IEnumXXXX</a>
 
 
 

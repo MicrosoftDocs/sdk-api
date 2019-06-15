@@ -68,8 +68,8 @@ Unmaps a mapped view of a file from the calling process's address space.
 ### -param lpBaseAddress [in]
 
 A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call to the 
-<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a> or 
-<a href="https://msdn.microsoft.com/2ac8a7d6-5c52-41de-acb9-d7f975fd2a94">MapViewOfFileEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a> function.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A pointer to the base address of the mapped view of a file that is to be unmappe
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -90,7 +90,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 Unmapping a mapped view of a file invalidates the range occupied by the view in the address space of the process and makes the range available for other allocations. It removes the working set entry for each unmapped virtual page that was part of the working set of the process and reduces the working set size of the process. It also decrements the share count of the corresponding physical page.
 
-Modified pages in the unmapped view are not written to disk until their share count reaches zero, or in other words, until they are unmapped or trimmed from the working sets of all processes that share the pages. Even then, the modified pages are written "lazily" to disk; that is, modifications may be cached in memory and written to disk at a later time. To minimize the risk of data loss in the event of a power failure or a system crash, applications should explicitly flush modified pages using the <a href="https://msdn.microsoft.com/994fef62-77cf-4c99-be54-b4aff35a10f2">FlushViewOfFile</a> function.
+Modified pages in the unmapped view are not written to disk until their share count reaches zero, or in other words, until they are unmapped or trimmed from the working sets of all processes that share the pages. Even then, the modified pages are written "lazily" to disk; that is, modifications may be cached in memory and written to disk at a later time. To minimize the risk of data loss in the event of a power failure or a system crash, applications should explicitly flush modified pages using the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-flushviewoffile">FlushViewOfFile</a> function.
 
 Although an application may close the file handle used to create a file mapping object, the system holds the corresponding file open until the last view of the file is unmapped.  Files for which the last view has not yet been unmapped are held open with no sharing restrictions.
 
@@ -158,7 +158,7 @@ Yes
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/e47a0e79-3000-479b-afba-dcd36210ea3d">Creating a View Within a File</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-view-within-a-file">Creating a View Within a File</a>.
 
 <div class="code"></div>
 
@@ -169,19 +169,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/d62d068c-9b1d-4dbf-8b21-31a636a41456">Closing a File Mapping Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/closing-a-file-mapping-object">Closing a File Mapping Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">File Mapping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">File Mapping Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ac8a7d6-5c52-41de-acb9-d7f975fd2a94">MapViewOfFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
 
 
 

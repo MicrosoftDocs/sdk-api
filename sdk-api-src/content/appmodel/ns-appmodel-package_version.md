@@ -64,7 +64,7 @@ Represents the package version information.
 
 ### -field DUMMYUNIONNAME.Version
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The full version number of the package represented as a single integral value.
 
@@ -76,28 +76,28 @@ The full version number of the package represented as a single integral value.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Revision
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">USHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">USHORT</a></b>
 
 The revision version number of the package.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Build
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">USHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">USHORT</a></b>
 
 The build version number of the package.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Minor
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">USHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">USHORT</a></b>
 
 The minor version number of the package.
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Major
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">USHORT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">USHORT</a></b>
 
 The major version number of the package.
 
@@ -107,7 +107,7 @@ The major version number of the package.
 
 
 
-<a href="https://msdn.microsoft.com/4B15281A-2227-47B7-A750-0A01DB8543FC">PACKAGE_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a>
  
 
  

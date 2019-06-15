@@ -120,7 +120,7 @@ Versioning is used to determine if metadata exchange should be performed again d
 
 
 
-<a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
  
 
  

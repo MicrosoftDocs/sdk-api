@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[The GetEncSChannel function is no longer available for use as of Windows Server 2003 and Windows XP.]
-<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Instrsa5.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Instrsa5.dll.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param pData [out]
 
-A pointer to a pointer to bytes that receive the encrypted Schannel contents. When you have finished using the Schannel contents, free <i>pData</i> by calling the <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> function.
+A pointer to a pointer to bytes that receive the encrypted Schannel contents. When you have finished using the Schannel contents, free <i>pData</i> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> function.
 
 
 ### -param dwDecSize [out]

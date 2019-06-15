@@ -55,7 +55,7 @@ Provides access to the collection of open Shell windows.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellWindows</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IShellWindows</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellWindows</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IShellWindows</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IShellWindows</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e91b2be7-2be9-4460-9a2a-57090dcfc961">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-_newenum">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection of Shell windows.
@@ -79,16 +79,16 @@ Retrieves an enumerator for the collection of Shell windows.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10eed153-cb0b-4ce0-8cc5-2e7ebf683fda">FindWindowSW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-findwindowsw">FindWindowSW</a>
 </td>
 <td align="left" width="63%">
-Finds a window in the Shell windows collection and returns the window's handle and <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
+Finds a window in the Shell windows collection and returns the window's handle and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50781569-4c80-4304-96f3-8a135cea3b20">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Gets the number of windows in the Shell windows collection.
@@ -97,7 +97,7 @@ Gets the number of windows in the Shell windows collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04157d1a-8a4d-4ffd-882d-41748408ba2b">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-item">Item</a>
 </td>
 <td align="left" width="63%">
 Returns the registered Shell window for a specified index.
@@ -106,7 +106,7 @@ Returns the registered Shell window for a specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccd93f0f-3cd2-4b18-b6d2-834665d8b658">OnActivated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-onactivated">OnActivated</a>
 </td>
 <td align="left" width="63%">
 Occurs when a Shell window's activation state changes.
@@ -115,7 +115,7 @@ Occurs when a Shell window's activation state changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef2f75fe-dc93-403d-af1a-c08c45e2d818">OnCreated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-oncreated">OnCreated</a>
 </td>
 <td align="left" width="63%">
 Occurs when a new Shell window is created for a frame.
@@ -124,7 +124,7 @@ Occurs when a new Shell window is created for a frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b65bc979-db32-48b3-b71f-fd389957b265">OnNavigate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-onnavigate">OnNavigate</a>
 </td>
 <td align="left" width="63%">
 Occurs when a Shell window is navigated to a new location.
@@ -133,7 +133,7 @@ Occurs when a Shell window is navigated to a new location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79bc04f0-7b03-40aa-8324-7b4eccc8c527">ProcessAttachDetach</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-processattachdetach">ProcessAttachDetach</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Always returns S_OK.
@@ -142,7 +142,7 @@ Deprecated. Always returns S_OK.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4545cc34-2209-41a5-ab65-283f2985cce0">Register</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">Register</a>
 </td>
 <td align="left" width="63%">
 Registers an open window as a Shell window; the window is specified by handle.
@@ -151,7 +151,7 @@ Registers an open window as a Shell window; the window is specified by handle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75e8b82c-a94e-4aad-a224-f12b22b8a4b2">RegisterPending</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-registerpending">RegisterPending</a>
 </td>
 <td align="left" width="63%">
 Registers a pending window as a Shell window; the window is specified by an absolute PIDL.
@@ -160,7 +160,7 @@ Registers a pending window as a Shell window; the window is specified by an abso
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66ca2569-b763-445b-b5b5-98ef32c64578">Revoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-revoke">Revoke</a>
 </td>
 <td align="left" width="63%">
 Revokes a Shell window's registration and removes the window from the Shell windows collection.
@@ -174,9 +174,9 @@ Revokes a Shell window's registration and removes the window from the Shell wind
 
 
 
-A <i>Shell window</i> is a window that has been registered by calling <a href="https://msdn.microsoft.com/4545cc34-2209-41a5-ab65-283f2985cce0">IShellWindows::Register</a> or <a href="https://msdn.microsoft.com/75e8b82c-a94e-4aad-a224-f12b22b8a4b2">IShellWindows::RegisterPending</a>. Upon registration, the specified window is added to the collection of Shell windows, and granted a cookie that uniquely identifies the window within the collection. A window can be un-registered by calling <a href="https://msdn.microsoft.com/66ca2569-b763-445b-b5b5-98ef32c64578">IShellWindows::Revoke</a>.
+A <i>Shell window</i> is a window that has been registered by calling <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a> or <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-registerpending">IShellWindows::RegisterPending</a>. Upon registration, the specified window is added to the collection of Shell windows, and granted a cookie that uniquely identifies the window within the collection. A window can be un-registered by calling <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-revoke">IShellWindows::Revoke</a>.
 
-The Shell windows collection includes file explorer windows and web browser windows Internet Explorer and 3rd-party web browsers). Normally each Shell window implements <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>; <a href="https://msdn.microsoft.com/04157d1a-8a4d-4ffd-882d-41748408ba2b">IShellWindows::Item</a> and <a href="https://msdn.microsoft.com/10eed153-cb0b-4ce0-8cc5-2e7ebf683fda">IShellWindows::FindWindowSW</a> provide ways to access a Shell window's <b>IDispatch</b> interface. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms221328(v=VS.85).aspx">Dispatch Interface and Automation Functions</a>.
+The Shell windows collection includes file explorer windows and web browser windows Internet Explorer and 3rd-party web browsers). Normally each Shell window implements <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>; <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-item">IShellWindows::Item</a> and <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-findwindowsw">IShellWindows::FindWindowSW</a> provide ways to access a Shell window's <b>IDispatch</b> interface. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-interfaces">Dispatch Interface and Automation Functions</a>.
 
 
 <table class="clsStd">
@@ -233,23 +233,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/c340296d-f8eb-43a1-809d-912ea7412fe2">DShellWindowsEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/dshellwindowsevents">DShellWindowsEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be48-b664d3de2c60">ShellWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/shellwindows">ShellWindows</a>
  
 
  

@@ -125,7 +125,7 @@ Insufficient memory to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/47561b53-3f7b-4939-8b86-5acb5eaeea5a">ITypeLib2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>
  
 
  

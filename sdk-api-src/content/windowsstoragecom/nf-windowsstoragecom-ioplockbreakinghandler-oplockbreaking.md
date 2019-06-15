@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/76466E25-C3F1-4170-921E-8BE6B36B6BA3">IOplockBreakingHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsstoragecom/nn-windowsstoragecom-ioplockbreakinghandler">IOplockBreakingHandler</a>
  
 
  

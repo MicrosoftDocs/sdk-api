@@ -74,7 +74,7 @@ Write the trace events to a log file and deliver them to a real-time consumer.
 
 ### -field plaBuffering
 
-For details, see the <a href="https://msdn.microsoft.com/d12aaecb-776a-4476-9ba4-16af30fde9c2">EVENT_TRACE_BUFFERING_MODE</a> logging mode in Event Tracing for Windows.
+For details, see the <a href="https://docs.microsoft.com/windows/desktop/ETW/logging-mode-constants">EVENT_TRACE_BUFFERING_MODE</a> logging mode in Event Tracing for Windows.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ For details, see the <a href="https://msdn.microsoft.com/d12aaecb-776a-4476-9ba4
 
 
 
-<a href="https://msdn.microsoft.com/eeca98e2-8da1-44e5-8d43-00b52f51bcae">ITraceDataCollector::StreamMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_streammode">ITraceDataCollector::StreamMode</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 Resets a metadata object state to <b>WS_METADATA_STATE_CREATED</b>.
             
                 In this state the Metadata object can be reused.
-            <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> objects that
+            <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> objects that
                 were retrieved using the Metadata object will be released.
             
 
@@ -66,13 +66,13 @@ Resets a metadata object state to <b>WS_METADATA_STATE_CREATED</b>.
 
 ### -param metadata [in]
 
-A pointer to the <b>Metadata</b> object to reset.  The pointer must reference a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a>.
+A pointer to the <b>Metadata</b> object to reset.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a>.
                 
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

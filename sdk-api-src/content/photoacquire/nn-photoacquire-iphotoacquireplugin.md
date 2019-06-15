@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-Implement the <code>IPhotoAcquirePlugin</code> interface when you want to create a plug-in to run alongside the Windows Vista user interface (UI) for image acquisition. <a href="https://msdn.microsoft.com/18f36e53-11f0-469c-9790-9319a28ae2f2">Registry settings</a> are required to enable the plug-in.
+Implement the <code>IPhotoAcquirePlugin</code> interface when you want to create a plug-in to run alongside the Windows Vista user interface (UI) for image acquisition. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/register-the-plug-in">Registry settings</a> are required to enable the plug-in.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquirePlugin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPhotoAcquirePlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquirePlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquirePlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPhotoAcquirePlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74257374-15c8-4e83-b271-2fd133f4dd7b">DisplayConfigureDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-displayconfiguredialog">DisplayConfigureDialog</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when the configuration dialog is displayed.
@@ -81,7 +81,7 @@ Provides extended functionality when the configuration dialog is displayed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0992e4f0-43a0-49fb-99f4-8713af96ef7e">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when the plug-in is initialized.
@@ -90,7 +90,7 @@ Provides extended functionality when the plug-in is initialized.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8a9144e-a728-48b7-a729-eec6d4db6d9e">ProcessItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-processitem">ProcessItem</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality each time a file is transferred or enumerated.
@@ -99,7 +99,7 @@ Provides extended functionality each time a file is transferred or enumerated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/915e676a-4aaa-4b10-b913-51b856c61dba">TransferComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireplugin-transfercomplete">TransferComplete</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when the transfer completes.
@@ -114,7 +114,7 @@ Provides extended functionality when the transfer completes.
 
 
 
-<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
  
 
  

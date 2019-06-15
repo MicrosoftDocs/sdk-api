@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains the output for the <a href="https://msdn.microsoft.com/17925fe8-ab5a-4bfb-8d9e-cd574c024107">FSCTL_GET_RETRIEVAL_POINTER_BASE</a> control code.
+Contains the output for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a> control code.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The volume-relative sector offset to the first allocatable unit on the file syst
 
 
 
-<a href="https://msdn.microsoft.com/17925fe8-ab5a-4bfb-8d9e-cd574c024107">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a property value to retrieve from the protocol. The <b>WTS_PROPERTY_VALUE</b> structure is used by the <a href="https://msdn.microsoft.com/129b8314-fa84-414d-93c4-f9320650e2de">QueryProperty</a> method.
+Contains information about a property value to retrieve from the protocol. The <b>WTS_PROPERTY_VALUE</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty">QueryProperty</a> method.
 
 
 ## -struct-fields

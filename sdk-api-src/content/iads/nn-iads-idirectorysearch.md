@@ -58,7 +58,7 @@ Of the ADSI system-supplied providers, only the LDAP provider supports this inte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectorySearch</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectorySearch</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectorySearch</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectorySearch</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDirectorySearch</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf220625-0aac-42ce-a15f-c44766693cf8">AbandonSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-abandonsearch">AbandonSearch</a>
 </td>
 <td align="left" width="63%">
 Abandons a search already in process.
@@ -82,7 +82,7 @@ Abandons a search already in process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a233c67b-4747-4417-bec8-86b27147863c">CloseSearchHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-closesearchhandle">CloseSearchHandle</a>
 </td>
 <td align="left" width="63%">
 Releases the search result from memory.
@@ -91,7 +91,7 @@ Releases the search result from memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7514b372-1a7a-4a42-a814-af70a727c477">ExecuteSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">ExecuteSearch</a>
 </td>
 <td align="left" width="63%">
 Executes an individual search.
@@ -100,16 +100,16 @@ Executes an individual search.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72e75429-d22c-490f-a1f7-d771628067c9">FreeColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-freecolumn">FreeColumn</a>
 </td>
 <td align="left" width="63%">
-Frees the  <a href="https://msdn.microsoft.com/9fdb370d-9409-4717-ae10-bb3b5b8a0e02">ADS_SEARCH_COLUMN</a> structure created by the  <a href="https://msdn.microsoft.com/3bcacb24-a4b4-4fad-ab7c-79ef7a67064d">GetColumn</a> method.
+Frees the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_search_column">ADS_SEARCH_COLUMN</a> structure created by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">GetColumn</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3bcacb24-a4b4-4fad-ab7c-79ef7a67064d">GetColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">GetColumn</a>
 </td>
 <td align="left" width="63%">
 Gets the item in a specified column from the current row of the search result.
@@ -118,7 +118,7 @@ Gets the item in a specified column from the current row of the search result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99ece6d1-3963-40bc-993e-f03aa9039c2d">GetFirstRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getfirstrow">GetFirstRow</a>
 </td>
 <td align="left" width="63%">
 Gets the first row of the search result.
@@ -127,7 +127,7 @@ Gets the first row of the search result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3d95cc6-02f0-4a51-8dc5-4007cc8c63c8">GetNextColumnName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextcolumnname">GetNextColumnName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the next column of the search result.
@@ -136,7 +136,7 @@ Gets the name of the next column of the search result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fb0b765-0162-418d-b0cd-7e9b1b53e1b9">GetNextRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">GetNextRow</a>
 </td>
 <td align="left" width="63%">
 Gets the next row of the search result.
@@ -145,7 +145,7 @@ Gets the next row of the search result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fccc9763-c64d-474b-a0c0-9bc9d4e34d65">GetPreviousRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getpreviousrow">GetPreviousRow</a>
 </td>
 <td align="left" width="63%">
 Gets the previous row of the search result.
@@ -154,7 +154,7 @@ Gets the previous row of the search result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c5b3f72-6165-41ad-99d4-d68bc12ac10b">SetSearchPreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">SetSearchPreference</a>
 </td>
 <td align="left" width="63%">
 Sets options for conducting a search.

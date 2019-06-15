@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -68,7 +68,7 @@ The <b>DRMCreateEnablingBitsEncryptor</b> function creates an AD RMS encrypting 
 
 ### -param hBoundLicense [in]
 
-A handle to a bound license, produced by <a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a>.
+A handle to a bound license, produced by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>.
 
 
 ### -param wszRight [in, optional]
@@ -97,7 +97,7 @@ A pointer to the encrypting object.
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -106,15 +106,15 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-Perform the following steps to encrypt content. For more information, see <a href="https://msdn.microsoft.com/30959fa0-54e0-43c7-9b76-8551ac06076f">Encrypting Content</a>.<ul>
-<li>Acquire an end-user license. If the issuance license that you are using for this purpose was signed online, call <a href="https://msdn.microsoft.com/0d4ce794-8384-4f1c-bc8c-1e67fbb5f987">DRMAcquireLicense</a> followed by  <a href="https://msdn.microsoft.com/7a7797f2-d219-4a17-ac3d-96134cd14a55">DRMEnumerateLicense</a>. If the issuance license was signed offline, call <a href="https://msdn.microsoft.com/e657ac08-9635-40ac-8d9f-cc8ab9ed3a6c">DRMGetOwnerLicense</a> instead.</li>
-<li>Call <a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a> to create a license that binds to the EDIT or OWNER right in the end-user license. The bound license includes a symmetric key that can be used for encryption.</li>
+Perform the following steps to encrypt content. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/encrypting-content">Encrypting Content</a>.<ul>
+<li>Acquire an end-user license. If the issuance license that you are using for this purpose was signed online, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a> followed by  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>. If the issuance license was signed offline, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetownerlicense">DRMGetOwnerLicense</a> instead.</li>
+<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a> to create a license that binds to the EDIT or OWNER right in the end-user license. The bound license includes a symmetric key that can be used for encryption.</li>
 <li>Call <b>DRMCreateEnablingBitsEncryptor</b> to create an encrypting object associated with the bound right and content key.</li>
-<li>Call <a href="https://msdn.microsoft.com/1de19409-2b14-4ab0-9853-23ee5741a7ae">DRMEncrypt</a> to use the content key to encrypt the content.</li>
+<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a> to use the content key to encrypt the content.</li>
 </ul>
 
 
-Call the <a href="https://msdn.microsoft.com/422f286c-edf6-488f-8776-359ab2695be3">DRMCloseHandle</a> function to close the encrypting object handle when you are finished with it. Both the encrypting object handle and the bound license handle must remain open until encryption is complete.
+Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosehandle">DRMCloseHandle</a> function to close the encrypting object handle when you are finished with it. Both the encrypting object handle and the bound license handle must remain open until encryption is complete.
 
 
 
@@ -124,19 +124,19 @@ Call the <a href="https://msdn.microsoft.com/422f286c-edf6-488f-8776-359ab2695be
 
 
 
-<a href="https://msdn.microsoft.com/b3b4e7c6-d3d3-4bf7-b6c4-9502a56a7223">AD RMS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9948c2a4-cb42-42c1-bd22-33d39c039391">Creating and Using Issuance Licenses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-and-using-issuance-licenses">Creating and Using Issuance Licenses</a>
 
 
 
-<a href="https://msdn.microsoft.com/133582e2-6396-476f-a28b-37ed0257fb79">DRMCreateEnablingBitsDecryptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsdecryptor">DRMCreateEnablingBitsDecryptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/30959fa0-54e0-43c7-9b76-8551ac06076f">Encrypting Content</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/encrypting-content">Encrypting Content</a>
  
 
  

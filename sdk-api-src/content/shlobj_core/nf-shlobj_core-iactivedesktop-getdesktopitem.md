@@ -61,14 +61,14 @@ Gets the specified desktop item.
 
 Type: <b>int</b>
 
-An unsigned long integer value that contains the desktop item's index. The index values start at zero. Use <a href="https://msdn.microsoft.com/d2bba6f8-4ff0-4978-93ae-46db9ec6ea48">IActiveDesktop::GetDesktopItemCount</a> to retrieve a count on the total number of desktop items. 
+An unsigned long integer value that contains the desktop item's index. The index values start at zero. Use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount">IActiveDesktop::GetDesktopItemCount</a> to retrieve a count on the total number of desktop items. 
 
 
 ### -param pcomp [in, out]
 
 Type: <b>LPCOMPONENT</b>
 
-The address of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure of the retrieved desktop item. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure of the retrieved desktop item. 
 
 
 ### -param dwReserved
@@ -103,7 +103,7 @@ The index values will change as desktop items are added and removed from the Act
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
  
 
  

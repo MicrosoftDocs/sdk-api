@@ -91,7 +91,7 @@ The ancestor to be retrieved. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Retrieves the parent window. This does not include the owner, as it does with the <a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a> function. 
+Retrieves the parent window. This does not include the owner, as it does with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function. 
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Retrieves the root window by walking the chain of parent windows.
 </dl>
 </td>
 <td width="60%">
-Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>. 
+Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>. 
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
 
 
 
@@ -150,7 +150,7 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

@@ -64,7 +64,7 @@ A pointer to a count of elements in the array pointed to by <i>pprgAttributeInfo
 
 ### -param pprgAttributeInfos [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/a4de3031-7199-4537-a97e-f33059383d6b">HelperAttributeInfo</a> structures that contain helper class key parameters.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-taghelperattributeinfo">HelperAttributeInfo</a> structures that contain helper class key parameters.
 
 
 ## -returns
@@ -142,7 +142,7 @@ The key parameter list is used by NDF to determine whether enough information is
 
 
 
-<a href="https://msdn.microsoft.com/815e2338-0055-4078-a9a5-197db449c33d">INetDiagHelperInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperinfo">INetDiagHelperInfo</a>
  
 
  

@@ -318,7 +318,7 @@ The size, in bytes, of the <i>pbEncoded</i> structure.
 
 ### -param pbFormat [out]
 
-A pointer to a buffer that receives the formatted string. When the buffer that is specified is not large enough to receive the decoded structure, the function sets ERROR_MORE_DATA and stores the required buffer size, in bytes, into the variable pointed to by <i>pcbFormat</i>. This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see <a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+A pointer to a buffer that receives the formatted string. When the buffer that is specified is not large enough to receive the decoded structure, the function sets ERROR_MORE_DATA and stores the required buffer size, in bytes, into the variable pointed to by <i>pcbFormat</i>. This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbFormat [in, out]
@@ -335,7 +335,7 @@ A pointer to a variable that specifies the size, in bytes, of the buffer pointed
 
 
 
-If the function succeeds, the return value is <b>TRUE</b>. If it does not succeed, the return value is <b>FALSE</b>. To retrieve extended error information, use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function succeeds, the return value is <b>TRUE</b>. If it does not succeed, the return value is <b>FALSE</b>. To retrieve extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -347,7 +347,7 @@ If the function succeeds, the return value is <b>TRUE</b>. If it does not succee
 The default behavior of this function is to return a single-line display of the encoded data, that is, each subfield is concatenated with a comma (,) on one line. If you prefer to display the data in multiple lines, set the CRYPT_FORMAT_STR_MULTI_LINE flag. Each subfield will then be displayed on a separate line.
 
 If there is no formatting routine installed or registered for the <i>lpszStructType</i> parameter, the hexadecimal dump of the encoded 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> will be returned. A user can set the CRYPT_FORMAT_STR_NO_HEX flag to disable the hexadecimal dump.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> will be returned. A user can set the CRYPT_FORMAT_STR_NO_HEX flag to disable the hexadecimal dump.
 
 
 
@@ -357,7 +357,7 @@ If there is no formatting routine installed or registered for the <i>lpszStructT
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
  
 
  

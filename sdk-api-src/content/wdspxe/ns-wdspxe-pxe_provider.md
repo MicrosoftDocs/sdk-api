@@ -89,15 +89,15 @@ Index of a provider in the list of registered providers.
 
 
 
-<a href="https://msdn.microsoft.com/a76f2d7a-daf4-4258-9c6d-fd0d562f7efe">PxeProviderEnumNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderenumnext">PxeProviderEnumNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7">PxeProviderFreeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderfreeinfo">PxeProviderFreeInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e52a6ae-cecb-45de-b777-108836ed5264">Windows Deployment Services Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>
  
 
  

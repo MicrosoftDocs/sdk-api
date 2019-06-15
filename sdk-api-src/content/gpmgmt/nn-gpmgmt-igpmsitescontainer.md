@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 The 
 <b>IGPMSitesContainer</b> interface provides the methods required to access the scope of management (SOM) objects that represent sites in a forest. The <b>GPMSitesContainer</b> object represents the forest-level container that contains the actual sites in a forest. To create a <b>GPMSitesContainer</b> object, call the 
-<a href="https://msdn.microsoft.com/0a1b8975-cd73-49e6-83b9-f6af296276cb">IGPM::GetSitesContainer</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-getsitescontainer">IGPM::GetSitesContainer</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSitesContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMSitesContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSitesContainer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSitesContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>IGPMSitesContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8b459d0-d0f5-48b1-8870-487a1645ae7a">GetSite</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsitescontainer-getsite">GetSite</a>
 </td>
 <td align="left" width="63%">
 Returns the scope of management (SOM) object that corresponds to the site.
@@ -82,7 +82,7 @@ Returns the scope of management (SOM) object that corresponds to the site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bcbe1d94-ae82-4b33-8831-039896816a2d">SearchSites</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsitescontainer-searchsites">SearchSites</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of SOMs for the specified search criteria.
@@ -99,7 +99,7 @@ Retrieves a collection of SOMs for the specified search criteria.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cc1cb43b-2e18-45a7-9fda-b43e5a674b62">Domain</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmsitescontainer-property-methods">Domain</a>
 
 
 </td>
@@ -111,7 +111,7 @@ Name of the domain being used to perform site operations. This is a full DNS nam
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cc1cb43b-2e18-45a7-9fda-b43e5a674b62">DomainController</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmsitescontainer-property-methods">DomainController</a>
 
 
 </td>
@@ -123,7 +123,7 @@ Name of the domain controller being used to perform site operations. This can be
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cc1cb43b-2e18-45a7-9fda-b43e5a674b62">Forest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmsitescontainer-property-methods">Forest</a>
 
 
 </td>
@@ -140,11 +140,11 @@ Full DNS name of the forest in which the <b>GPMSitesContainer</b> object resides
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
  
 
  

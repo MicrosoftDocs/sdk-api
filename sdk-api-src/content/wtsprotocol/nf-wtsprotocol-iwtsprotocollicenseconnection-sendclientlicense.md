@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolLicenseConnection::SendClientLicense</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/a758f6c8-1f84-4c20-857c-019cde68915c">IWRdsProtocolLicenseConnection::SendClientLicense</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolLicenseConnection::SendClientLicense</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-sendclientlicense">IWRdsProtocolLicenseConnection::SendClientLicense</a>.]
 
 Sends a license to the client.
 
@@ -73,7 +73,7 @@ An integer that contains the size, in bytes, of the license.
 
 
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>. The remote connection manager logs any errors that you return. 
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>. The remote connection manager logs any errors that you return. 
 
 
 
@@ -92,7 +92,7 @@ For more information about the byte arrays exchanged in this call, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/3f6925b6-c712-40c6-8b48-7df8ef4a9872">IWTSProtocolLicenseConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollicenseconnection">IWTSProtocolLicenseConnection</a>
  
 
  

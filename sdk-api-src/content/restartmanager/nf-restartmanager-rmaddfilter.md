@@ -69,7 +69,7 @@ A pointer to a <b>null</b>-terminated string value that contains the full path t
 
 ### -param pProcess [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a> structure for the application.  Modifications to shutdown or restart actions are applied for the application that is referenced by the <b>RM_UNIQUE_PROCESS</b> structure. This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure for the application.  Modifications to shutdown or restart actions are applied for the application that is referenced by the <b>RM_UNIQUE_PROCESS</b> structure. This parameter must be <b>NULL</b> if the <i>strFilename</i>  or <i>strShortServiceName</i> parameter is non-<b>NULL</b>.
 
 
 ### -param strServiceShortName [in, optional]
@@ -79,14 +79,14 @@ A pointer to a <b>null</b>-terminated string value that contains the short servi
 
 ### -param FilterAction [in]
 
-An <a href="https://msdn.microsoft.com/68f77dbc-14cb-4b87-9589-328b1cef38d9">RM_FILTER_ACTION</a> enumeration value that specifies the type of modification to be applied.
+An <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_filter_action">RM_FILTER_ACTION</a> enumeration value that specifies the type of modification to be applied.
 
 
 ## -returns
 
 
 
-This is the most recent error received. The function can return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ This error is returned when a secondary installer calls this function. This func
 
 
 
-<a href="https://msdn.microsoft.com/61427838-8b23-4105-93fd-55f457fd43a7">RmGetFilterList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetfilterlist">RmGetFilterList</a>
  
 
  

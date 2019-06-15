@@ -59,7 +59,7 @@ Sets the recording device to use for the write operation.
 
 ### -param value [in]
 
-An <a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a> interface that identifies the recording device to use in the write operation.
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the write operation.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Value: 0xC0AA0407
 
 
 
-The recorder must be compatible with the format defined by this  interface. To determine compatibility, call the <a href="https://msdn.microsoft.com/1a96283a-a5a3-434a-834a-d539160cfc5c">IDiscFormat2::IsRecorderSupported</a> method.
+The recorder must be compatible with the format defined by this  interface. To determine compatibility, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IDiscFormat2::IsRecorderSupported</a> method.
 
 
 
@@ -119,11 +119,11 @@ The recorder must be compatible with the format defined by this  interface. To d
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/313ba824-b54a-4b3a-a669-49067c71798d">IDiscFormat2Data::get_Recorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_recorder">IDiscFormat2Data::get_Recorder</a>
  
 
  

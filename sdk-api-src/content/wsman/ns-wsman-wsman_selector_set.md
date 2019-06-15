@@ -64,5 +64,5 @@ Specifies the number of keys (selectors).
 
 ### -field keys
 
-An array of <a href="https://msdn.microsoft.com/dbd66ad3-3816-43a3-a8e4-403ff3847da0">WSMAN_KEY</a>  structures that specify key names and values.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_key">WSMAN_KEY</a>  structures that specify key names and values.
 

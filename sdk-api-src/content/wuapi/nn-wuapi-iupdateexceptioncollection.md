@@ -49,6 +49,6 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an ordered read-only list of <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IUpdateException</a> interfaces.
+Represents an ordered read-only list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> interfaces.
 
 

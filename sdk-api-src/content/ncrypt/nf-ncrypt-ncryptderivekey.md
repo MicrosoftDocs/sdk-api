@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NCryptDeriveKey</b> function derives a key from a secret agreement value. This function is intended to be used as part of a secret agreement procedure using persisted secret agreement keys. To derive key material by using a  persisted secret instead, use the <a href="https://msdn.microsoft.com/5D2D61B1-022E-412F-A19E-11057930A615">NCryptKeyDerivation</a> function.
+The <b>NCryptDeriveKey</b> function derives a key from a secret agreement value. This function is intended to be used as part of a secret agreement procedure using persisted secret agreement keys. To derive key material by using a  persisted secret instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptkeyderivation">NCryptKeyDerivation</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>NCryptDeriveKey</b> function derives a key from a secret agreement value.
 
 ### -param hSharedSecret [in]
 
-The secret agreement handle to create the key from. This handle is obtained from the <a href="https://msdn.microsoft.com/b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5">NCryptSecretAgreement</a> function.
+The secret agreement handle to create the key from. This handle is obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsecretagreement">NCryptSecretAgreement</a> function.
 
 
 ### -param pwszKDF [in]
@@ -88,7 +88,7 @@ The parameters identified by the <i>pParameterList</i> parameter either can or m
 
 </td>
 <td>
-A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
+A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
 
 If this parameter is not specified, the SHA1 hash algorithm is used.
 
@@ -149,7 +149,7 @@ KDF-Output = Hash(
 
 #### BCRYPT_KDF_HMAC (L"HMAC")
 
-Use the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">Hash-Based Message Authentication Code</a> (HMAC) key derivation function. 
+Use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) key derivation function. 
 
 If the <i>cbDerivedKey</i> parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the <i>pbDerivedKey</i> buffer. If the <i>cbDerivedKey</i> parameter is greater than the size of the derived key, this function will copy the key to the <i>pbDerivedKey</i> buffer and set the variable pointed to by the <i>pcbResult</i> to the actual number of bytes copied.
 
@@ -167,7 +167,7 @@ The parameters identified by the <i>pParameterList</i> parameter either can or m
 
 </td>
 <td>
-A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
+A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
 
 If this parameter is not specified, the SHA1 hash algorithm is used.
 
@@ -183,7 +183,7 @@ Optional
 
 </td>
 <td>
-The key to use for the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">pseudo-random function</a> (PRF).
+The key to use for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF).
 
 </td>
 <td>
@@ -243,7 +243,7 @@ KDF-Output = HMAC-Hash(
 
 #### BCRYPT_KDF_TLS_PRF (L"TLS_PRF")
 
-Use the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">transport layer security</a> (TLS) <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">pseudo-random function</a> (PRF) key derivation function. The size of the derived key is always 48 bytes, so the <i>cbDerivedKey</i> parameter must be 48.
+Use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">transport layer security</a> (TLS) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF) key derivation function. The size of the derived key is always 48 bytes, so the <i>cbDerivedKey</i> parameter must be 48.
 
 The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column.
 
@@ -396,7 +396,7 @@ The call to the KDF is made as shown in the following pseudocode.
 
 ### -param pParameterList [in, optional]
 
-The address of a <a href="https://msdn.microsoft.com/ae4673ab-81cd-4604-bafa-8d8c66003aba">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
 
 
 ### -param pbDerivedKey [out, optional]
@@ -496,7 +496,7 @@ One or more parameters are not valid.
 
 
 
-The <a href="https://msdn.microsoft.com/7416d417-4b47-4830-aa20-a674d5270428">BCryptBufferDesc</a> structure in the <i>pParameterList</i> parameter can contain more than one of the <b>KDF_SECRET_PREPEND</b> and <b>KDF_SECRET_APPEND</b> parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure in the <i>pParameterList</i> parameter can contain more than one of the <b>KDF_SECRET_PREPEND</b> and <b>KDF_SECRET_APPEND</b> parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
 
 
 ```cpp
@@ -539,7 +539,7 @@ A service must not call this function from its <a href="http://go.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/ae4673ab-81cd-4604-bafa-8d8c66003aba">NCryptBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a>
  
 
  

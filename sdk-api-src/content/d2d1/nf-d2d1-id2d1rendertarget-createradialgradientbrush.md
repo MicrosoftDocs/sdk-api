@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<span>Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> object that can be used to paint areas with a radial gradient.
+<span>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> object that can be used to paint areas with a radial gradient.
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -57,10 +57,10 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/177d0b8c-82ae-4d2a-ae43-246352b92166">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> that contains the specified gradient stops, has no transform, and has a base opacity of 1.0.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> that contains the specified gradient stops, has no transform, and has a base opacity of 1.0.
     
     
 
@@ -68,19 +68,19 @@ Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df87e288-392d-439e-8d03-e4866fde892f">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES&,D2D1_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES&,D2D1_BRUSH_PROPERTIES&,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> that contains the specified gradient stops and has the specified transform and base opacity.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> that contains the specified gradient stops and has the specified transform and base opacity.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d4f4ba0-1d1d-477f-a721-898a259df022">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES*,D2D1_BRUSH_PROPERTIES*,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)">CreateRadialGradientBrush(D2D1_RADIAL_GRADIENT_BRUSH_PROPERTIES*,D2D1_BRUSH_PROPERTIES*,ID2D1GradientStopCollection*,ID2D1RadialGradientBrush**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> that contains the specified gradient stops and has the specified transform and base opacity.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> that contains the specified gradient stops and has the specified transform and base opacity.
     
 
 </td>
@@ -95,15 +95,15 @@ Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e1
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-create-a-radial-gradient-brush">How to Create a Radial Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The <b>IAMChannelInfo</b> interface gets and sets channel information for Windows Media Station (.nsc) files.
 
-This interface is exposed by the <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter only when the filter is reading Windows Media Station (.nsc) files. The Windows Media Source filter uses .nsc files to get the information it needs to receive multicast content over the Internet. These files contain information such as stream location and rollover URL, as well as descriptive information about the station.
+This interface is exposed by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter only when the filter is reading Windows Media Station (.nsc) files. The Windows Media Source filter uses .nsc files to get the information it needs to receive multicast content over the Internet. These files contain information such as stream location and rollover URL, as well as descriptive information about the station.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMChannelInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMChannelInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMChannelInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAMChannelInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389155(v=VS.85).aspx">get_ChannelDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channeldescription">get_ChannelDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description of the channel.
@@ -83,7 +83,7 @@ Gets the description of the channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389156(v=VS.85).aspx">get_ChannelName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelname">get_ChannelName</a>
 </td>
 <td align="left" width="63%">
 Gets the channel name.
@@ -92,7 +92,7 @@ Gets the channel name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389157(v=VS.85).aspx">get_ChannelURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_channelurl">get_ChannelURL</a>
 </td>
 <td align="left" width="63%">
 Gets the channel URL.
@@ -101,7 +101,7 @@ Gets the channel URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389158(v=VS.85).aspx">get_ContactAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactaddress">get_ContactAddress</a>
 </td>
 <td align="left" width="63%">
 Gets the contact address.
@@ -110,7 +110,7 @@ Gets the contact address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389159(v=VS.85).aspx">get_ContactEmail</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactemail">get_ContactEmail</a>
 </td>
 <td align="left" width="63%">
 Gets the contact email address.
@@ -119,7 +119,7 @@ Gets the contact email address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389160(v=VS.85).aspx">get_ContactPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamchannelinfo-get_contactphone">get_ContactPhone</a>
 </td>
 <td align="left" width="63%">
 Gets the contact phone number.
@@ -149,11 +149,11 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

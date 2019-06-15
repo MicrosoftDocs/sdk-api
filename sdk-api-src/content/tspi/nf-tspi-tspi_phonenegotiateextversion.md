@@ -66,7 +66,7 @@ Identifies the phone device for which interface version negotiation is to be per
 ### -param dwTSPIVersion
 
 Specifies an interface version number that is negotiated for this device using 
-<a href="https://msdn.microsoft.com/a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc">TSPI_phoneNegotiateTSPIVersion</a>. This function operates according to the interface specification at this version level.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>. This function operates according to the interface specification at this version level.
 
 
 ### -param dwLowVersion
@@ -109,7 +109,7 @@ This function can be called before or after the device has been opened by TAPI. 
 
 
 
-<a href="https://msdn.microsoft.com/a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc">TSPI_phoneNegotiateTSPIVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>
  
 
  

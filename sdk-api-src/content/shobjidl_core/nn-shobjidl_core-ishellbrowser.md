@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Implemented by hosts of Shell views (objects that implement <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>). Exposes methods that provide services for the view it is hosting and other objects that run in the context of the Explorer window. 
+Implemented by hosts of Shell views (objects that implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>). Exposes methods that provide services for the view it is hosting and other objects that run in the context of the Explorer window. 
 		
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellBrowser</b> interface inherits from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. <b>IShellBrowser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellBrowser</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IShellBrowser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IShellBrowser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e391ca11-25e3-4d97-8efd-0afd74a3e5c2">BrowseObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-browseobject">BrowseObject</a>
 </td>
 <td align="left" width="63%">
 Informs Windows Explorer to browse to another folder.
@@ -79,7 +79,7 @@ Informs Windows Explorer to browse to another folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6bf39e3f-8b17-4307-ba57-7363c006c34b">EnableModelessSB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-enablemodelesssb">EnableModelessSB</a>
 </td>
 <td align="left" width="63%">
 Tells Windows Explorer to enable or disable its modeless dialog boxes.
@@ -88,7 +88,7 @@ Tells Windows Explorer to enable or disable its modeless dialog boxes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ddcdafd-01f6-441c-9cc8-1ca9f1209e25">GetControlWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-getcontrolwindow">GetControlWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the window handle to a browser control.
@@ -97,7 +97,7 @@ Gets the window handle to a browser control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/887ebe9f-8bde-46dd-a7a2-7b2ca66bf905">GetViewStateStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-getviewstatestream">GetViewStateStream</a>
 </td>
 <td align="left" width="63%">
 Gets an 
@@ -107,7 +107,7 @@ Gets an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62cbb593-7459-4a4f-96a2-3ec2287e6a26">InsertMenusSB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb">InsertMenusSB</a>
 </td>
 <td align="left" width="63%">
 Allows the container to insert its menu groups into the composite menu that is displayed when an extended namespace is being viewed or used.
@@ -116,7 +116,7 @@ Allows the container to insert its menu groups into the composite menu that is d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd320262-f383-453b-9028-4e93f0b3761a">OnViewWindowActive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-onviewwindowactive">OnViewWindowActive</a>
 </td>
 <td align="left" width="63%">
 Called by the Shell view when the view window or one of its child windows gets the focus or becomes active.
@@ -125,7 +125,7 @@ Called by the Shell view when the view window or one of its child windows gets t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d03e41dc-72dc-4f34-ae5b-b5ef8b2f146d">QueryActiveShellView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-queryactiveshellview">QueryActiveShellView</a>
 </td>
 <td align="left" width="63%">
 Retrieves the currently active (displayed) Shell view object.
@@ -134,7 +134,7 @@ Retrieves the currently active (displayed) Shell view object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa96ac59-62cd-4010-8a0f-b743527f61da">RemoveMenusSB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-removemenussb">RemoveMenusSB</a>
 </td>
 <td align="left" width="63%">
 Permits the container to remove any of its menu elements from the in-place composite menu and to free all associated resources.
@@ -143,7 +143,7 @@ Permits the container to remove any of its menu elements from the in-place compo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4494870b-45a8-478a-807a-7ed3674f69f3">SendControlMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-sendcontrolmsg">SendControlMsg</a>
 </td>
 <td align="left" width="63%">
 Sends control messages to either the toolbar or the status bar in a Windows Explorer window.
@@ -152,7 +152,7 @@ Sends control messages to either the toolbar or the status bar in a Windows Expl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae6fe864-7fa1-4c74-a27f-d428bdeccc3d">SetMenuSB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setmenusb">SetMenuSB</a>
 </td>
 <td align="left" width="63%">
 Installs the composite menu in the view window.
@@ -161,7 +161,7 @@ Installs the composite menu in the view window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7dd9f17-41e4-4c04-981e-a0bfe7c53fcf">SetStatusTextSB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setstatustextsb">SetStatusTextSB</a>
 </td>
 <td align="left" width="63%">
 Sets and displays status text about the in-place object in the container's frame-window status bar.
@@ -170,7 +170,7 @@ Sets and displays status text about the in-place object in the container's frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ff141d3-e175-464a-9869-317d547e7489">SetToolbarItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-settoolbaritems">SetToolbarItems</a>
 </td>
 <td align="left" width="63%">
 Adds toolbar items to Windows Explorer's toolbar.
@@ -179,7 +179,7 @@ Adds toolbar items to Windows Explorer's toolbar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dda5c085-7199-4b83-b03e-e4c715665157">TranslateAcceleratorSB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a>
 </td>
 <td align="left" width="63%">
 Translates accelerator keystrokes intended for the browser's frame while the view is active.
@@ -193,13 +193,13 @@ Translates accelerator keystrokes intended for the browser's frame while the vie
 
 
 
-Windows Explorer and the <b>Open File</b> common dialog box are examples of implementations of this interface. It is a companion to the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> interface exposed by extensions.
+Windows Explorer and the <b>Open File</b> common dialog box are examples of implementations of this interface. It is a companion to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface exposed by extensions.
 
 
 
-Objects that have access to the site chain of the browser can get a reference to the browser on <b>IShellBrowser</b> using  <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a>, with Service IDs such as SID_STopLevelBrowser and SID_SCommDlgBrowser. See the Knowledge Base article <a href="http://go.microsoft.com/fwlink/p/?linkid=200322">Retrieve the Top-Level IWebBrowser2 Interface from an ActiveX Control</a> for more information on using service IDs.
+Objects that have access to the site chain of the browser can get a reference to the browser on <b>IShellBrowser</b> using  <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">IServiceProvider::QueryService</a>, with Service IDs such as SID_STopLevelBrowser and SID_SCommDlgBrowser. See the Knowledge Base article <a href="http://go.microsoft.com/fwlink/p/?linkid=200322">Retrieve the Top-Level IWebBrowser2 Interface from an ActiveX Control</a> for more information on using service IDs.
 
-<b>Windows 7 and later</b>.  Windows Explorer context menus  can support in-place navigation by using  <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">IServiceProvider::QueryService</a> with the Service ID SID_SlnPlaceBrowser.
+<b>Windows 7 and later</b>.  Windows Explorer context menus  can support in-place navigation by using  <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">IServiceProvider::QueryService</a> with the Service ID SID_SlnPlaceBrowser.
 
 
 
@@ -209,11 +209,11 @@ Objects that have access to the site chain of the browser can get a reference to
 
 
 
-<a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
  
 
  

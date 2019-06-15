@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This enumeration is used by the <a href="https://msdn.microsoft.com/c4b183c7-5118-4752-a3a4-ef594f133288">WdsCliLog</a> function.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclilog">WdsCliLog</a> function.
 
 
 ## -enum-fields

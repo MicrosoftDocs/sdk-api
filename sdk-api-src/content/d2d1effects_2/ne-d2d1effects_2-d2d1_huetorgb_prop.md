@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/hue-to-rgb-effect">Hue to RGB effect</a>.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/18e92535-9
 
 The D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property is an enumeration value which indicates which color space to convert from. 
           The default value for the property is D2D1_HUETORGB_INPUT_COLOR_SPACE_HUE_SATURATION_VALUE.
-          See <a href="https://msdn.microsoft.com/2A8166D8-73F5-4D29-BCD2-7F4FE70AA9A1">D2D1_HUETORGB_INPUT_COLOR_SPACE</a> enumeration for more information.
+          See <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_input_color_space">D2D1_HUETORGB_INPUT_COLOR_SPACE</a> enumeration for more information.
 
 
 ### -field D2D1_HUETORGB_PROP_FORCE_DWORD
@@ -74,15 +74,15 @@ The D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property is an enumeration value which 
 
 
 
-<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfe587f9-e92f-4367-a503-edd446a91cb8">CreateEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>
 
 
 
-<a href="https://msdn.microsoft.com/18e92535-9e89-bf8d-b8c3-a49b645fc417">Hue to RGB effect</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/hue-to-rgb-effect">Hue to RGB effect</a>
  
 
  

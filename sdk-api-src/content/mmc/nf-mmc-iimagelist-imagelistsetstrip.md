@@ -102,7 +102,7 @@ Each pixel of the color used to generate a mask in the specified bitmap is chang
 
 
 
-<a href="https://msdn.microsoft.com/a957239b-6cb2-4101-adeb-e9ba4f876af4">IImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
  
 
  

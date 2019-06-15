@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies information about a security package. This structure is used by the <a href="https://msdn.microsoft.com/35b993d2-87a0-46d0-991f-88358b0cc5e6">AddSecurityPackage</a> function.
+Specifies information about a security package. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-addsecuritypackagea">AddSecurityPackage</a> function.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ The package type is not known.
 </dl>
 </td>
 <td width="60%">
-The security package is an <a href="https://msdn.microsoft.com/a5bc4c5d-6e8e-4cdf-962e-4284997c75e7">LSA authentication</a> package.
+The security package is an <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/lsa-authentication">LSA authentication</a> package.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The security package is an <a href="https://msdn.microsoft.com/a5bc4c5d-6e8e-4cd
 </dl>
 </td>
 <td width="60%">
-The security package is a <a href="https://msdn.microsoft.com/79ed7c51-4191-40b2-8d5f-06157f5b99be">Security Support Provider Interface</a> (SSPI) package.
+The security package is a <a href="https://docs.microsoft.com/windows/desktop/Rpc/security-support-provider-interface-sspi-">Security Support Provider Interface</a> (SSPI) package.
 
 </td>
 </tr>

@@ -54,11 +54,11 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRMCloseHandle</b> function closes handles to objects created with <b>DRMCreate</b>* functions and libraries loaded by using <a href="https://msdn.microsoft.com/b0a95d3f-4252-4685-bc51-547620b5dcf7">DRMLoadLibrary</a>.
+The <b>DRMCloseHandle</b> function closes handles to objects created with <b>DRMCreate</b>* functions and libraries loaded by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmloadlibrary">DRMLoadLibrary</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A handle to close.
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -88,7 +88,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 This function properly clears sensitive data from memory and allows the AD RMS system to keep an accurate reference count on objects used. If an object contains other open objects within it, calling this function will force all contained objects to be closed as well. However, forcing closure of contained objects in this way is not recommended.
 
-If this function fails, an application should destroy the current process after closing the environment with <a href="https://msdn.microsoft.com/3edde872-a863-4c7f-92f0-f7e324aff651">DRMCloseEnvironmentHandle</a>.
+If this function fails, an application should destroy the current process after closing the environment with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcloseenvironmenthandle">DRMCloseEnvironmentHandle</a>.
 
 Closing a handle to a library will cause the library to be unloaded if it has no remaining open objects.
 
@@ -100,11 +100,11 @@ Closing a handle to a library will cause the library to be unloaded if it has no
 
 
 
-<a href="https://msdn.microsoft.com/b3b4e7c6-d3d3-4bf7-b6c4-9502a56a7223">AD RMS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e031dec-ac80-4363-8786-2680d498cb5c">AD RMS Handles and Sessions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-handles-and-sessions">AD RMS Handles and Sessions</a>
  
 
  

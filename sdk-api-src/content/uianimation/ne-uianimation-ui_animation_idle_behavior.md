@@ -73,7 +73,7 @@ The timer is suspended (disabled) when the animation manager is idle.
 
 
 
-<a href="https://msdn.microsoft.com/75d29528-005e-4f49-b8ff-651b58d58fc7">IUIAnimationTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimer">IUIAnimationTimer</a>
  
 
  

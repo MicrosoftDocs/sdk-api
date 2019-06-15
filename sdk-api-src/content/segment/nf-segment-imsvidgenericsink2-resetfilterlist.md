@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 
 
-The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="https://msdn.microsoft.com/en-us/library/Dd694561(v=VS.85).aspx">IMSVidGenericSink2::AddFilter</a>.
+The <b>ResetFilterList</b> method clears the list of filters that were added using <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink2-addfilter">IMSVidGenericSink2::AddFilter</a>.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694560(v=VS.85).aspx">IMSVidGenericSink2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidgenericsink2">IMSVidGenericSink2 Interface</a>
  
 
  

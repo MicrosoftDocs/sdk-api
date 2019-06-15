@@ -60,7 +60,7 @@ Contains the action information returned by an EAP peer method.
 ### -field action
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363618(v=VS.85).aspx">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
 
 
 ### -field fAllowNotifications
@@ -73,7 +73,7 @@ If <b>TRUE</b>, allows EAPHost to raise a notification to the user; otherwise, d
 
 
 
-<a href="https://msdn.microsoft.com/546ef715-8f51-4f5a-a569-8bf64d52de85">EAPHost Peer Method Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-peer-method-structures">EAPHost Peer Method Structures</a>
  
 
  

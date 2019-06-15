@@ -65,7 +65,7 @@ Requests that the Remote Desktop Services service continue the connection proces
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -74,7 +74,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-The protocol must call this method after the Remote Desktop Services service calls <a href="https://msdn.microsoft.com/9613330F-B8DE-48C7-892C-FB8F50739C13">GetLogonErrorRedirector</a>. The Remote Desktop Services service will not call <a href="https://msdn.microsoft.com/ef7e13ad-eeb8-4452-b3d6-a137b766f98f">AcceptConnection</a> to continue the connection process until <b>OnReady</b> has been called.
+The protocol must call this method after the Remote Desktop Services service calls <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getlogonerrorredirector">GetLogonErrorRedirector</a>. The Remote Desktop Services service will not call <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-acceptconnection">AcceptConnection</a> to continue the connection process until <b>OnReady</b> has been called.
 
 
 
@@ -84,7 +84,7 @@ The protocol must call this method after the Remote Desktop Services service cal
 
 
 
-<a href="https://msdn.microsoft.com/81a73688-f39e-4960-8587-602d56c11e7e">IWRdsProtocolConnectionCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnectioncallback">IWRdsProtocolConnectionCallback</a>
  
 
  

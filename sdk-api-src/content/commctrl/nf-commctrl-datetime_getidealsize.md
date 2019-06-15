@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761757(v=VS.85).aspx">DTM_GETIDEALSIZE</a> message explicitly.
+Gets the size needed to display the control without clipping. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getidealsize">DTM_GETIDEALSIZE</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Gets the size needed to display the control without clipping. Use this macro or 
 
 ### -param hdp [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the DTP control.
 
 
 ### -param psize [out]
 
-Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a></b>
 
-A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure to receive the size. The caller is responsible for allocating this structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure to receive the size. The caller is responsible for allocating this structure.
 

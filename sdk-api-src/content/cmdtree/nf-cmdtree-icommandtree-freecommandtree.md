@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
-The <b>ICommandTree::FreeCommandTree</b> method traverses a command tree and deallocates all <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> node structures, as well as all variants in those structures. It then sets the root pointer to a <b>NULL</b> pointer.
+The <b>ICommandTree::FreeCommandTree</b> method traverses a command tree and deallocates all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> node structures, as well as all variants in those structures. It then sets the root pointer to a <b>NULL</b> pointer.
 
 
 ## -parameters
@@ -115,7 +115,7 @@ The <i>ppRoot</i> parameter was a <b>NULL</b> pointer.
 </dl>
 </td>
 <td width="60%">
-The consumer called the <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> method with <i>fCopy</i> = <b>FALSE</b>, thereby relinquishing ownership of the memory to the provider.
+The consumer called the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">ICommandTree::SetCommandTree</a> method with <i>fCopy</i> = <b>FALSE</b>, thereby relinquishing ownership of the memory to the provider.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The consumer called the <a href="https://msdn.microsoft.com/en-us/library/ms6902
 
 
 
-The <b>FreeCommandTree</b> method can be used by a consumer to free its copy of the command tree constructed locally or obtained by <a href="https://msdn.microsoft.com/en-us/library/ms689887(v=VS.85).aspx">ICommandTree::GetCommandTree</a>. It does not free the copy of the tree owned by the command object. When a consumer calls <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">SetCommandTree</a> with <i>fCopy</i> = <b>FALSE</b>, the consumer relinquishes ownership of the memory to the provider. Therefore, if the consumer calls <b>FreeCommandTree</b> after having called <b>SetCommandTree</b> with <i>fCopy</i> = <b>FALSE</b>, <b>FreeCommandTree</b> returns a DB_E_CANNOTFREE error code, meaning the consumer does not have ownership of the tree and is unable to free it.
+The <b>FreeCommandTree</b> method can be used by a consumer to free its copy of the command tree constructed locally or obtained by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-getcommandtree">ICommandTree::GetCommandTree</a>. It does not free the copy of the tree owned by the command object. When a consumer calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">SetCommandTree</a> with <i>fCopy</i> = <b>FALSE</b>, the consumer relinquishes ownership of the memory to the provider. Therefore, if the consumer calls <b>FreeCommandTree</b> after having called <b>SetCommandTree</b> with <i>fCopy</i> = <b>FALSE</b>, <b>FreeCommandTree</b> returns a DB_E_CANNOTFREE error code, meaning the consumer does not have ownership of the tree and is unable to free it.
 
 
 
@@ -139,7 +139,7 @@ The <b>FreeCommandTree</b> method can be used by a consumer to free its copy of 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689746(v=VS.85).aspx">ICommandTree</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
  
 
  

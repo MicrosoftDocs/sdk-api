@@ -73,9 +73,9 @@ A pointer to the sync item ID as a Unicode string.
 
 ### -param ppEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/627f39be-5c9d-49a1-af73-210cdbb7940a">IEnumSyncMgrConflict</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a>**</b>
 
-The address of an <a href="https://msdn.microsoft.com/627f39be-5c9d-49a1-af73-210cdbb7940a">IEnumSyncMgrConflict</a> interface pointer.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrconflict">IEnumSyncMgrConflict</a> interface pointer.
 
 
 ## -returns

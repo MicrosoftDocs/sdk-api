@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-This interface is used to describe a GPU rendering pass on a vertex or pixel shader. It is passed to <a href="https://msdn.microsoft.com/90C49A9A-9297-44E6-9AB8-01C6847CA3F8">ID2D1DrawTransform</a>.
+This interface is used to describe a GPU rendering pass on a vertex or pixel shader. It is passed to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawtransform">ID2D1DrawTransform</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1DrawInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1DrawInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1DrawInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9CB38592-6B49-48FE-AA3F-1FC402489454">SetPixelShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setpixelshader">SetPixelShader</a>
 </td>
 <td align="left" width="63%">
 Set the shader instructions for this transform.
@@ -78,7 +78,7 @@ Set the shader instructions for this transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3A32E831-3754-4EF5-B559-ED02EF747897">SetPixelShaderConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setpixelshaderconstantbuffer">SetPixelShaderConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffer for this transform's pixel shader.
@@ -87,7 +87,7 @@ Sets the constant buffer for this transform's pixel shader.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6E53577B-AD97-4530-8260-4A99B90E0581">SetResourceTexture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setresourcetexture">SetResourceTexture</a>
 </td>
 <td align="left" width="63%">
 Sets the resource texture corresponding to the given shader texture index.
@@ -96,7 +96,7 @@ Sets the resource texture corresponding to the given shader texture index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23DB679B-33E4-4FB1-B356-BBB1BA95E0EB">SetVertexProcessing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setvertexprocessing">SetVertexProcessing</a>
 </td>
 <td align="left" width="63%">
 Sets a vertex buffer, a corresponding vertex shader, and options to control how the vertices are to be handled by the Direct2D context.
@@ -105,7 +105,7 @@ Sets a vertex buffer, a corresponding vertex shader, and options to control how 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1A7991C9-BB3F-4E58-9FA7-5C4B194C33F6">SetVertexShaderConstantBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1drawinfo-setvertexshaderconstantbuffer">SetVertexShaderConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets the constant buffer for this transform's vertex shader.

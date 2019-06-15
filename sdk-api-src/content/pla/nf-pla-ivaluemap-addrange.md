@@ -59,7 +59,7 @@ Adds one or more items to the collection.
 
 ### -param map [in]
 
-An <a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a> interface that contains a collection of items to add to this collection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a> interface that contains a collection of items to add to this collection.
 
 
 ## -returns
@@ -76,15 +76,15 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a6f074d-8d18-44ea-bbbc-8d3a7f6c033a">IValueMap::Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-add">IValueMap::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc674243-ec0f-496f-bffb-faf4262a42c7">IValueMap::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">IValueMap::Remove</a>
  
 
  

@@ -59,7 +59,7 @@ Notification that a set software radio state operation has completed.
 
 ### -param newInterface [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b4b5ccfc-6cbf-4090-aee1-ee97092147f7">IMbnRadio</a> interface representing the device for which a set radio state operation has completed.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a> interface representing the device for which a set radio state operation has completed.
 
 
 ### -param requestID [in]
@@ -106,7 +106,7 @@ This method must return <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/f02fa823-c1ca-4867-981d-cb3107f7291b">IMbnRadioEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a>
  
 
  

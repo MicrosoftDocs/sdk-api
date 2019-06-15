@@ -33,7 +33,7 @@ api_name:
 
 ## -description
 
-The <b>WLAN_NOTIFICATION_ACM</b> enumerated type specifies the possible values of the <b>NotificationCode</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure for Auto Configuration Module  (ACM) notifications.
+The <b>WLAN_NOTIFICATION_ACM</b> enumerated type specifies the possible values of the <b>NotificationCode</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure for Auto Configuration Module  (ACM) notifications.
 
 
 ## -enum-fields
@@ -67,14 +67,14 @@ Background scans are disabled.
 
 The BSS type for an interface has changed.
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a> enumeration value that identifies the new basic service set (BSS) type.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> enumeration value that identifies the new basic service set (BSS) type.
 
 
 ### -field wlan_notification_acm_power_setting_change
 
 The power setting for an interface has changed.
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/f2509c87-8a2a-4e6e-9995-e824a17e7083">WLAN_POWER_SETTING</a> enumeration value that identifies the new power setting of an interface.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_power_setting">WLAN_POWER_SETTING</a> enumeration value that identifies the new power setting of an interface.
 
 
 ### -field wlan_notification_acm_scan_complete
@@ -86,21 +86,21 @@ A scan for networks has completed.
 
 A scan for connectable networks failed. 
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/7b267f0b-b3f7-4729-bab4-de3bdd0a35a2">WLAN_REASON_CODE</a> data type value that identifies the reason the WLAN operation failed.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> data type value that identifies the reason the WLAN operation failed.
 
 
 ### -field wlan_notification_acm_connection_start
 
 A connection has started  to a network in range.
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/005af5ef-994d-425a-be4b-54567a733fb3">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt.
 
 
 ### -field wlan_notification_acm_connection_complete
 
 A connection has completed.
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/005af5ef-994d-425a-be4b-54567a733fb3">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt that completed. The connection succeeded if the <b>wlanReasonCode</b> in <b>WLAN_CONNECTION_NOTIFICATION_DATA</b> is <b>WLAN_REASON_CODE_SUCCESS</b>. Otherwise, the connection has failed.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt that completed. The connection succeeded if the <b>wlanReasonCode</b> in <b>WLAN_CONNECTION_NOTIFICATION_DATA</b> is <b>WLAN_REASON_CODE_SUCCESS</b>. Otherwise, the connection has failed.
 
 
 ### -field wlan_notification_acm_connection_attempt_fail
@@ -109,14 +109,14 @@ A connection attempt has failed.
 
 A connection consists of one or more connection attempts. An application may receive zero or more <b>wlan_notification_acm_connection_attempt_fail </b>notifications between receiving the <b>wlan_notification_acm_connection_start</b> notification and the <b>wlan_notification_acm_connection_complete</b> notification.
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/005af5ef-994d-425a-be4b-54567a733fb3">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt that failed. 
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection attempt that failed. 
 
 
 ### -field wlan_notification_acm_filter_list_change
 
-A change in the filter list has occurred, either through group policy or a call to the <a href="https://msdn.microsoft.com/697682c9-cb26-42d6-86b5-d7adebcedc68">WlanSetFilterList</a> function. 
+A change in the filter list has occurred, either through group policy or a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a> function. 
 
-An application can call the <a href="https://msdn.microsoft.com/3ea88e52-34bb-47a6-b345-c789d1d8047d">WlanGetFilterList</a> function to retrieve the new filter list.   
+An application can call the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetfilterlist">WlanGetFilterList</a> function to retrieve the new filter list.   
 
 
 ### -field wlan_notification_acm_interface_arrival
@@ -133,14 +133,14 @@ A wireless LAN interface is been removed from or disabled on the local computer.
 
 A change in a profile or the profile list has occurred, either through group policy or by calls to Native Wifi functions. 
 
-An application can call the <a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">WlanGetProfileList</a> and <a href="https://msdn.microsoft.com/6486e961-402f-45c8-a806-ab91a4f0f156">WlanGetProfile</a> functions to retrieve the updated profiles. The interface on which the profile list changes is identified by the <b>InterfaceGuid</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure.
+An application can call the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a> functions to retrieve the updated profiles. The interface on which the profile list changes is identified by the <b>InterfaceGuid</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure.
 
 
 ### -field wlan_notification_acm_profile_name_change
 
 A profile name has changed, either through group policy or by calls to Native Wifi functions. 
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a buffer that contains   two NULL-terminated WCHAR strings, the old profile name followed by the new profile name.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a buffer that contains   two NULL-terminated WCHAR strings, the old profile name followed by the new profile name.
 
 
 ### -field wlan_notification_acm_profiles_exhausted
@@ -152,35 +152,35 @@ All profiles were exhausted in an attempt to autoconnect.
 
 The wireless service cannot find any connectable network after a scan. 
 
-The interface on which no connectable network is found is identified by identified by the <b>InterfaceGuid</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure.
+The interface on which no connectable network is found is identified by identified by the <b>InterfaceGuid</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure.
 
 
 ### -field wlan_notification_acm_network_available
 
 The wireless service found a connectable network after a scan, the interface was in the disconnected state, and there is no compatible auto-connect profile that the wireless service can use to connect .
 
-The interface on which connectable networks are found is identified by the <b>InterfaceGuid</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure.
+The interface on which connectable networks are found is identified by the <b>InterfaceGuid</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure.
 
 
 ### -field wlan_notification_acm_disconnecting
 
 The wireless service is disconnecting from a  connectable network.
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/005af5ef-994d-425a-be4b-54567a733fb3">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection that is disconnecting.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection that is disconnecting.
 
 
 ### -field wlan_notification_acm_disconnected
 
 The wireless service has disconnected from a  connectable network.
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/005af5ef-994d-425a-be4b-54567a733fb3">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection that disconnected.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a> structure that identifies the network  information for the connection that disconnected.
 
 
 ### -field wlan_notification_acm_adhoc_network_state_change
 
 A state change has occurred for an adhoc network. 
 
-The <b>pData</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://msdn.microsoft.com/9f233e3b-6905-4b6b-84b4-202076d224f5">WLAN_ADHOC_NETWORK_STATE</a> enumeration value that identifies the new  adhoc network state.
+The <b>pData</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure points to a  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_adhoc_network_state">WLAN_ADHOC_NETWORK_STATE</a> enumeration value that identifies the new  adhoc network state.
 
 
 ### -field wlan_notification_acm_profile_unblocked
@@ -218,40 +218,40 @@ Indicates the end of the range that specifies the possible values for ACM notifi
 
 The <b>WLAN_NOTIFICATION_ACM</b> enumerated type is used by the Auto Configuration Module, the new wireless configuration component supported on Windows Vista and  later.  
 
-The <b>WLAN_NOTIFICATION_ACM</b> specifies the possible values for the <b>NotificationCode</b> member of the <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure for received notifications  when the <b>NotificationSource</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure is <b>WLAN_NOTIFICATION_SOURCE_ACM</b>. 
+The <b>WLAN_NOTIFICATION_ACM</b> specifies the possible values for the <b>NotificationCode</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure for received notifications  when the <b>NotificationSource</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure is <b>WLAN_NOTIFICATION_SOURCE_ACM</b>. 
 
 The starting value for the <b>WLAN_NOTIFICATION_ACM</b> enumeration is defined as L2_NOTIFICATION_CODE_V2_BEGIN in the <i>l2cmn.h</i> header file.  Note that the <i>l2cmn.h</i> header is automatically included by the <i>wlanapi.h</i> header file.
 
 
 
-The <a href="https://msdn.microsoft.com/e24810da-ed3b-41c4-b7b1-290b01e26cd5">WlanRegisterNotification</a> function is used by an application to register and unregister notifications on all wireless interfaces. When registering for notifications, an application must provide a callback function pointed to by the <i>funcCallback</i> parameter passed to the <b>WlanRegisterNotification</b> function. The prototype for this callback function is the <a href="https://msdn.microsoft.com/df721e77-3285-442b-aabd-2dccae85fda5">WLAN_NOTIFICATION_CALLBACK</a>. This callback function will receive notifications that have been registered in the <i>dwNotifSource</i> parameter passed to the <b>WlanRegisterNotification</b> function. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a> function is used by an application to register and unregister notifications on all wireless interfaces. When registering for notifications, an application must provide a callback function pointed to by the <i>funcCallback</i> parameter passed to the <b>WlanRegisterNotification</b> function. The prototype for this callback function is the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>. This callback function will receive notifications that have been registered in the <i>dwNotifSource</i> parameter passed to the <b>WlanRegisterNotification</b> function. 
 
-The callback function is called with a pointer to a <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure as the first parameter that contains detailed information on the notification. The callback function also receives a second parameter that contains a pointer to the client context passed in the <i>pCallbackContext</i> parameter to the <a href="https://msdn.microsoft.com/e24810da-ed3b-41c4-b7b1-290b01e26cd5">WlanRegisterNotification</a> function. This client context can be a <b>NULL</b> pointer if that is what was passed to the <b>WlanRegisterNotification</b> function.
+The callback function is called with a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure as the first parameter that contains detailed information on the notification. The callback function also receives a second parameter that contains a pointer to the client context passed in the <i>pCallbackContext</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a> function. This client context can be a <b>NULL</b> pointer if that is what was passed to the <b>WlanRegisterNotification</b> function.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>Only the <b>wlan_notification_acm_connection_complete</b> and <b>wlan_notification_acm_disconnected</b> notifications are available.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4a5c0085-0e7b-424d-9205-5ec39518a088">About the ACM Architecture</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-acm-architecture">About the ACM Architecture</a>
 
-<a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a>
 
-<a href="https://msdn.microsoft.com/9f233e3b-6905-4b6b-84b4-202076d224f5">WLAN_ADHOC_NETWORK_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_adhoc_network_state">WLAN_ADHOC_NETWORK_STATE</a>
 
-<a href="https://msdn.microsoft.com/005af5ef-994d-425a-be4b-54567a733fb3">WLAN_CONNECTION_NOTIFICATION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a>
 
-<a href="https://msdn.microsoft.com/df721e77-3285-442b-aabd-2dccae85fda5">WLAN_NOTIFICATION_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>
 
-<a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
-<a href="https://msdn.microsoft.com/f2509c87-8a2a-4e6e-9995-e824a17e7083">WLAN_POWER_SETTING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_power_setting">WLAN_POWER_SETTING</a>
 
-<a href="https://msdn.microsoft.com/3ea88e52-34bb-47a6-b345-c789d1d8047d">WlanGetFilterList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetfilterlist">WlanGetFilterList</a>
 
-<a href="https://msdn.microsoft.com/6486e961-402f-45c8-a806-ab91a4f0f156">WlanGetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
-<a href="https://msdn.microsoft.com/f4336113-538f-4161-a71f-64a432e31f1c">WlanGetProfileList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
 
-<a href="https://msdn.microsoft.com/697682c9-cb26-42d6-86b5-d7adebcedc68">WlanSetFilterList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
  

@@ -73,7 +73,7 @@ Specifies the Direct3D surface that all drawing should be performed on.
 
 ### -param pmtRenderTarget [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure that contains the media type of the target surface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that contains the media type of the target surface.
 
 
 ### -param rtStart [in]
@@ -93,7 +93,7 @@ Specifies the background color, as a <b>D3DCOLOR</b> type.
 
 ### -param pVideoStreamInfo [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd407378(v=VS.85).aspx">VMR9VideoStreamInfo</a> structures, which descibe each video stream.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9videostreaminfo">VMR9VideoStreamInfo</a> structures, which descibe each video stream.
 
 
 ### -param cStreams [in]
@@ -143,11 +143,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377381(v=VS.85).aspx">IVMRImageCompositor9 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagecompositor9">IVMRImageCompositor9 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

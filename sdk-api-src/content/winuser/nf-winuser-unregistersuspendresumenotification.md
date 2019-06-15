@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Cancels a registration to receive notification when the system is suspended or resumed. Similar to <a href="https://msdn.microsoft.com/5680e6bd-1694-4d5f-94ea-41b24149c741">PowerUnregisterSuspendResumeNotification</a> but operates in user mode.
+Cancels a registration to receive notification when the system is suspended or resumed. Similar to <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerunregistersuspendresumenotification">PowerUnregisterSuspendResumeNotification</a> but operates in user mode.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Cancels a registration to receive notification when the system is suspended or r
 
 ### -param Handle [in, out]
 
-A handle to a registration obtained by calling the <a href="https://msdn.microsoft.com/6cd42d32-07e9-4cbd-83f9-6146b1cb54db">RegisterSuspendResumeNotification</a> function.
+A handle to a registration obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registersuspendresumenotification">RegisterSuspendResumeNotification</a> function.
 
 
 ## -returns
@@ -69,7 +69,7 @@ A handle to a registration obtained by calling the <a href="https://msdn.microso
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -79,7 +79,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/6cd42d32-07e9-4cbd-83f9-6146b1cb54db">RegisterSuspendResumeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registersuspendresumenotification">RegisterSuspendResumeNotification</a>
  
 
  

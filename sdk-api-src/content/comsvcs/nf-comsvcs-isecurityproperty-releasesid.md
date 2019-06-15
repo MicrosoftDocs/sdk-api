@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the security identifier returned by one of the other <a href="https://msdn.microsoft.com/116715a5-a3e1-48aa-b155-107ea330b7ee">ISecurityProperty</a> methods.
+Releases the security identifier returned by one of the other <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a> methods.
 
 
 ## -parameters
@@ -105,7 +105,7 @@ The argument passed in the pSid parameter is not a reference to a security ID.
 
 
 
-You should always invoke the <b>ReleaseSID</b> method to release any security ID pointers returned by the <a href="https://msdn.microsoft.com/e322df62-25a4-40a3-9b80-da468a265162">GetDirectCallerSID</a>, <a href="https://msdn.microsoft.com/cd06e71b-563a-45d2-91fb-f57375016dc3">GetDirectCreatorSID</a>, <a href="https://msdn.microsoft.com/e8700635-94cb-4d1a-9325-f93d00c5181f">GetOriginalCallerSID</a>, and <a href="https://msdn.microsoft.com/599b0773-feee-4e3d-a23b-cc2c294f49f9">GetOriginalCreatorSID</a> methods.
+You should always invoke the <b>ReleaseSID</b> method to release any security ID pointers returned by the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getdirectcallersid">GetDirectCallerSID</a>, <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getdirectcreatorsid">GetDirectCreatorSID</a>, <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getoriginalcallersid">GetOriginalCallerSID</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getoriginalcreatorsid">GetOriginalCreatorSID</a> methods.
 
 
 
@@ -115,11 +115,11 @@ You should always invoke the <b>ReleaseSID</b> method to release any security ID
 
 
 
-<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/116715a5-a3e1-48aa-b155-107ea330b7ee">ISecurityProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
  
 
  

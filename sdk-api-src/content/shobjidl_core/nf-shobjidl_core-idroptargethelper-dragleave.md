@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the drag-image manager that the drop target's <a href="https://msdn.microsoft.com/2f2f1bdb-e57c-42e2-9afb-65b13cdc22f8">IDropTarget::DragLeave</a> method has been called.
+Notifies the drag-image manager that the drop target's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method has been called.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 
 
-This method is called by a drop target when its <a href="https://msdn.microsoft.com/2f2f1bdb-e57c-42e2-9afb-65b13cdc22f8">IDropTarget::DragLeave</a> method is called. It notifies the drag-image manager that the cursor has left the drop target.
+This method is called by a drop target when its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method is called. It notifies the drag-image manager that the cursor has left the drop target.
 
 
 
@@ -84,7 +84,7 @@ This method is called by a drop target when its <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/b1ddbf7e-edf3-48fb-8983-ae39cb7bb4b0">IDropTargetHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>
  
 
  

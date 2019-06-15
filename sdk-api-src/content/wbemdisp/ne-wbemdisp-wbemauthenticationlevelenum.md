@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>WbemAuthenticationLevelEnum</b> constants define the security authentication levels. These constants are used with 
-<a href="https://msdn.microsoft.com/794587fa-5feb-455b-be28-ecfaa25625ad">SWbemSecurity</a> and in moniker connections to WMI.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a> and in moniker connections to WMI.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library.
 
@@ -93,7 +93,7 @@ The following WSH script sets the authentication level. To run the script, save 
 ```
 
 For more information, see 
-<a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.</li>
 </ul>
 
 ## -enum-fields
@@ -178,23 +178,23 @@ Authenticates all previous impersonation levels and encrypts the argument value 
 
 
 
-<a href="https://msdn.microsoft.com/1aacc523-2a2f-43f5-96a3-aa0387cbae3e">Constructing a Moniker String</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/constructing-a-moniker-string">Constructing a Moniker String</a>
 
 
 
-<a href="https://msdn.microsoft.com/794587fa-5feb-455b-be28-ecfaa25625ad">SWbemSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/f665fc60-68bd-495d-a441-e3a9473f9d89">Setting Security on an Asynchronous Call in VBScript</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call-in-vbscript">Setting Security on an Asynchronous Call in VBScript</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb477224-3117-45e4-9271-613b58e48b6e">Setting the Default Process Security Level Using VBScript</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript">Setting the Default Process Security Level Using VBScript</a>
  
 
  

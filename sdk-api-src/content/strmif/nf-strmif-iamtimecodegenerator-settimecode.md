@@ -63,7 +63,7 @@ The <code>SetTimecode</code> method sets the timecode, userbit value, or both.
 
 ### -param pTimecodeSample [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
 
 
 ## -returns
@@ -89,15 +89,15 @@ To set only timecode, set userbit value to <b>NULL</b>, and vice versa. If gener
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fe74fc2-03bd-43dd-917f-ee0149f1e17f">IAMTimecodeGenerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/40f24a99-5a6b-4aff-b22c-e05811c910f4">IAMTimecodeGenerator::GetTimecode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettimecode">IAMTimecodeGenerator::GetTimecode</a>
  
 
  

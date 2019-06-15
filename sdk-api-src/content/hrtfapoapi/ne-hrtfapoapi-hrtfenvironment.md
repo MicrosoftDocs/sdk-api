@@ -82,11 +82,11 @@ An outdoor space.
 
 
 
-<a href="https://msdn.microsoft.com/7b20bda9-dab2-cfbc-125a-cf46e4ede0c8">Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/enumerations">Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/EDA29173-84B5-4D2F-90B0-546EEEC49539">IXAPOHrtfParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
  
 
  

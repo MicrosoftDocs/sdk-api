@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a property of a <a href="https://msdn.microsoft.com/8d23357b-bff8-45fe-80ef-df3f3b0edde1">WS_SECURITY_CONTEXT</a>
+Defines a property of a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-context">WS_SECURITY_CONTEXT</a>
 
 
 

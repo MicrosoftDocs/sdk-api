@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a descriptive string for the action specified by the <a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageSiloAction</a> object.
+Returns a descriptive string for the action specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a> object.
 
 
 ## -parameters
@@ -117,7 +117,7 @@ When the caller no longer requires access to the string, this buffer must be fre
 
 
 
-<a href="https://msdn.microsoft.com/6deb7e22-f153-45fd-98ea-53a2e5692df7">IEnhancedStorageSiloAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a>
  
 
  

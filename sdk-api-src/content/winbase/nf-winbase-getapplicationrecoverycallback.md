@@ -66,7 +66,7 @@ A handle to the process. This handle must have the PROCESS_VM_READ access right.
 
 ### -param pRecoveryCallback [out]
 
-A pointer to the recovery callback function. For more information, see <a href="https://msdn.microsoft.com/573b1adb-9d9e-4a58-8d02-2addb93626da">ApplicationRecoveryCallback</a>.
+A pointer to the recovery callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373202(v=vs.85)">ApplicationRecoveryCallback</a>.
 
 
 ### -param ppvParameter [out]
@@ -128,7 +128,7 @@ One or more parameters are not valid.
 
 
 
-<a href="https://msdn.microsoft.com/4ff73c2c-a941-4626-ae40-cafbe6e50644">RegisterApplicationRecoveryCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>
  
 
  

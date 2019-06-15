@@ -149,13 +149,13 @@ The minifilter driver has an invalid digital signature.
 
 
 
-<b>FilterLoad</b> is the Win32 equivalent of <a href="https://msdn.microsoft.com/aecf5f5f-c0b7-487a-9db0-d01212aef094">FltLoadFilter</a>. 
+<b>FilterLoad</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a>. 
 
 A user-mode application that has a dependency on a kernel-mode minifilter driver can load the minifilter driver by calling <b>FilterLoad</b>. 
 
 Callers of <b>FilterLoad</b> must have <b>SeLoadDriverPrivilege</b> (the LUID of SE_LOAD_DRIVER_PRIVILEGE) to load or unload a minifilter driver. This privilege is named by the SE_LOAD_DRIVER_NAME name constant. (Privileges are described in the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.) 
 
-To unload the minifilter driver, call <a href="https://msdn.microsoft.com/74de2531-1666-420e-b500-131622f1b76f">FilterUnload</a>. 
+To unload the minifilter driver, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterunload">FilterUnload</a>. 
 
 
 
@@ -165,11 +165,11 @@ To unload the minifilter driver, call <a href="https://msdn.microsoft.com/74de25
 
 
 
-<a href="https://msdn.microsoft.com/74de2531-1666-420e-b500-131622f1b76f">FilterUnload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterunload">FilterUnload</a>
 
 
 
-<a href="https://msdn.microsoft.com/aecf5f5f-c0b7-487a-9db0-d01212aef094">FltLoadFilter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltloadfilter">FltLoadFilter</a>
 
 
 

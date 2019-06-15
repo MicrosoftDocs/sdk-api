@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a> calls this application callback when it needs to
+ IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a> calls this application callback when it needs to
      draw an inline object.
 
 
@@ -62,7 +62,7 @@ ms.custom: 19H1
 
 Type: <b>void*</b>
 
-The application-defined drawing context passed to IDWriteTextLayout::<a href="https://msdn.microsoft.com/cbaa3341-e43a-4d3f-89c7-dda758a63e7d">Draw</a>.
+The application-defined drawing context passed to IDWriteTextLayout::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriteinlineobject-draw">Draw</a>.
 
 
 ### -param originX
@@ -81,9 +81,9 @@ Y-coordinate at the top-left corner of the inline object.
 
 ### -param inlineObject
 
-Type: <b><a href="https://msdn.microsoft.com/cf915458-acbc-4a37-be5c-b1337153f386">IDWriteInlineObject</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>*</b>
 
-The application-defined inline object set using <a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>::<a href="https://msdn.microsoft.com/19fc9dd8-d732-4078-9db3-bad18681c7ea">SetInlineObject</a>.
+The application-defined inline object set using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>::<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-setinlineobject">SetInlineObject</a>.
 
 
 ### -param isSideways
@@ -123,7 +123,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer">IDWriteTextRenderer</a>
  
 
  

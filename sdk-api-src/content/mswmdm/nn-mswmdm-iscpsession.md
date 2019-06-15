@@ -59,7 +59,7 @@ A secure content provider (SCP) session is useful when transferring multiple fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSession</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISCPSession</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSession</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSession</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ISCPSession</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da458458-5828-4ab4-8793-d59a07f46569">BeginSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsession-beginsession">BeginSession</a>
 </td>
 <td align="left" width="63%">
 Indicates the beginning of a session.
@@ -83,7 +83,7 @@ Indicates the beginning of a session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/322794ae-f8cd-4e2d-a329-728d281755cd">EndSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsession-endsession">EndSession</a>
 </td>
 <td align="left" width="63%">
 Indicates the end of a session.
@@ -92,7 +92,7 @@ Indicates the end of a session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c725f0ae-1f37-412d-ac2b-0833989d1bd6">GetSecureQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsession-getsecurequery">GetSecureQuery</a>
 </td>
 <td align="left" width="63%">
 Obtains a secure query object for to the session.
@@ -107,7 +107,7 @@ Obtains a secure query object for to the session.
 
 
 
-<a href="https://msdn.microsoft.com/a3eecdb8-55a9-46e3-95d1-0fb9bd59f393">Interfaces for Secure Content Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
  
 
  

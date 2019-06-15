@@ -60,7 +60,7 @@ Retrieves the local directory path where the reports with the specified context 
 
 ### -param context [in]
 
-The report context (for example, if the report is scheduled or run on demand). For possible values, see the <a href="https://msdn.microsoft.com/02e18cc2-7c5e-473f-8a7f-e310bfb1c57d">FsrmReportGenerationContext</a> enumeration.
+The report context (for example, if the report is scheduled or run on demand). For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportgenerationcontext">FsrmReportGenerationContext</a> enumeration.
 
 
 ### -param path [out]
@@ -82,11 +82,11 @@ The method returns the following return values.
 
 
 
-<a href="https://msdn.microsoft.com/308c5001-b84d-49ab-ae2c-f16466f9abca">FsrmReportManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/112ed457-1083-4550-abd6-933f4b128e9a">IFsrmReportManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
  
 
  

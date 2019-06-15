@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_DSS_PARAMETERS</b> structure contains parameters associated with a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Standard</a> (DSS) <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> algorithm.
+The <b>CERT_DSS_PARAMETERS</b> structure contains parameters associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> algorithm.
 
 
 ## -struct-fields

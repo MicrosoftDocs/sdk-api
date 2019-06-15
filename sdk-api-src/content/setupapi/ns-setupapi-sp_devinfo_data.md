@@ -69,9 +69,9 @@ The GUID of the device's setup class.
 
 ### -field DevInst
 
-An opaque handle to the device instance (also known as a handle to the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>). 
+An opaque handle to the device instance (also known as a handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">devnode</a>). 
 
-Some functions, such as <b>SetupDi</b><i>Xxx</i> functions, take the whole SP_DEVINFO_DATA structure as input to identify a device in a device information set. Other functions, such as <b>CM</b>_<i>Xxx</i> functions like <a href="https://msdn.microsoft.com/7347c142-8bcf-43b3-aef0-5f99e2873560">CM_Get_DevNode_Status</a>, take this <b>DevInst</b> handle as input.
+Some functions, such as <b>SetupDi</b><i>Xxx</i> functions, take the whole SP_DEVINFO_DATA structure as input to identify a device in a device information set. Other functions, such as <b>CM</b>_<i>Xxx</i> functions like <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status">CM_Get_DevNode_Status</a>, take this <b>DevInst</b> handle as input.
 
 
 ### -field Reserved
@@ -83,7 +83,7 @@ Reserved. For internal use only.
 
 
 
-An SP_DEVINFO_DATA structure identifies a device in a device information set. For example, when Windows sends a <a href="https://msdn.microsoft.com/2d369086-c2b6-45a4-a87e-51ff5725938f">DIF_INSTALLDEVICE</a> request to a class installer and co-installers, it includes a handle to a device information set and a pointer to an SP_DEVINFO_DATA that specifies the particular device. In addition to DIF requests, this structure is also used in some <b>SetupDi</b><i>Xxx</i> functions.
+An SP_DEVINFO_DATA structure identifies a device in a device information set. For example, when Windows sends a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-installdevice">DIF_INSTALLDEVICE</a> request to a class installer and co-installers, it includes a handle to a device information set and a pointer to an SP_DEVINFO_DATA that specifies the particular device. In addition to DIF requests, this structure is also used in some <b>SetupDi</b><i>Xxx</i> functions.
 
 <b>SetupDi</b><i>Xxx</i> functions that take an SP_DEVINFO_DATA structure as a parameter verify that the <b>cbSize</b> member of the supplied structure is equal to the size, in bytes, of the structure. If the <b>cbSize</b> member is not set correctly for an input parameter, the function will fail and set an error code of ERROR_INVALID_PARAMETER. If the <b>cbSize</b> member is not set correctly for an output parameter, the function will fail and set an error code of ERROR_INVALID_USER_BUFFER. 
 
@@ -95,7 +95,7 @@ An SP_DEVINFO_DATA structure identifies a device in a device information set. Fo
 
 
 
-<a href="https://msdn.microsoft.com/03e6c137-5a7f-443d-878f-5e5c6642dde9">SP_DEVINFO_LIST_DETAIL_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_list_detail_data_a">SP_DEVINFO_LIST_DETAIL_DATA</a>
  
 
  

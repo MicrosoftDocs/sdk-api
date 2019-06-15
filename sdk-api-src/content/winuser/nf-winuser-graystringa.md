@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>GrayString</b> function draws gray text at the specified location. The function draws the text by copying it into a memory bitmap, graying the bitmap, and then copying the bitmap to the screen. The function grays the text regardless of the selected brush and background. <b>GrayString</b> uses the font currently selected for the specified device context.
 
-If thelpOutputFuncparameter is <b>NULL</b>, GDI uses the <a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6">TextOut</a> function, and thelpDataparameter is assumed to be a pointer to the character string to be output. If the characters to be output cannot be handled by <b>TextOut</b> (for example, the string is stored as a bitmap), the application must supply its own output function.
+If thelpOutputFuncparameter is <b>NULL</b>, GDI uses the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> function, and thelpDataparameter is assumed to be a pointer to the character string to be output. If the characters to be output cannot be handled by <b>TextOut</b> (for example, the string is stored as a bitmap), the application must supply its own output function.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A handle to the brush to be used for graying. If this parameter is <b>NULL</b>, 
 
 ### -param lpOutputFunc [in]
 
-A pointer to the application-defined function that will draw the string, or, if <a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6">TextOut</a> is to be used to draw the string, it is a <b>NULL</b> pointer. For details, see the <a href="https://msdn.microsoft.com/4d9145d2-5be4-4da3-9d03-01ebd74e0d06">OutputProc</a> callback function.
+A pointer to the application-defined function that will draw the string, or, if <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> is to be used to draw the string, it is a <b>NULL</b> pointer. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-graystringproc">OutputProc</a> callback function.
 
 
 ### -param lpData [in]
@@ -112,7 +112,7 @@ The height, in device units, of the rectangle that encloses the string. If this 
 
 If the string is drawn, the return value is nonzero.
 
-If either the <a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6">TextOut</a> function or the application-defined output function returned zero, or there was insufficient memory to create a memory bitmap for graying, the return value is zero.
+If either the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a> function or the application-defined output function returned zero, or there was insufficient memory to create a memory bitmap for graying, the return value is zero.
 
 
 
@@ -121,7 +121,7 @@ If either the <a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4
 
 
 
-Without calling <b>GrayString</b>, an application can draw grayed strings on devices that support a solid gray color. The system color COLOR_GRAYTEXT is the solid-gray system color used to draw disabled text. The application can call the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> function to retrieve the color value of COLOR_GRAYTEXT. If the color is other than zero (black), the application can call the <a href="https://msdn.microsoft.com/3875a247-7c32-4917-bf6d-50b2a49848a6">SetTextColor</a> function to set the text color to the color value and then draw the string directly. If the retrieved color is black, the application must call <b>GrayString</b> to gray the text.
+Without calling <b>GrayString</b>, an application can draw grayed strings on devices that support a solid gray color. The system color COLOR_GRAYTEXT is the solid-gray system color used to draw disabled text. The application can call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function to retrieve the color value of COLOR_GRAYTEXT. If the color is other than zero (black), the application can call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a> function to set the text color to the color value and then draw the string directly. If the retrieved color is black, the application must call <b>GrayString</b> to gray the text.
 
 
 
@@ -131,35 +131,35 @@ Without calling <b>GrayString</b>, an application can draw grayed strings on dev
 
 
 
-<a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
 
 
 
-<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d9145d2-5be4-4da3-9d03-01ebd74e0d06">OutputProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-graystringproc">OutputProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/3875a247-7c32-4917-bf6d-50b2a49848a6">SetTextColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cb78a75-752d-4e06-afdf-cd797f209114">TabbedTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6">TextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
  
 
  

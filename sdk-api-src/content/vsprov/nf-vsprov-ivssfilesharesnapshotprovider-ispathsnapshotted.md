@@ -73,7 +73,7 @@ This parameter receives <b>TRUE</b> if the volume has a shadow copy, or <b>FALSE
 
 ### -param plSnapshotCompatibility [out]
 
-A bitmask of <a href="https://msdn.microsoft.com/105d7bd6-0e95-4803-ae39-f03af40daa8e">VSS_SNAPSHOT_COMPATIBILITY</a> values that indicate whether certain volume control or file I/O operations are disabled for the given volume, if the volume has a shadow copy.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that indicate whether certain volume control or file I/O operations are disabled for the given volume, if the volume has a shadow copy.
 
 
 ## -returns
@@ -150,7 +150,7 @@ The specified volume was not found.
 </td>
 <td width="60%">
 Provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -163,7 +163,7 @@ Provider error. The provider logged the error in the event log. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -180,7 +180,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-<a href="https://msdn.microsoft.com/1af45503-2f6f-4266-a0d2-ffc74a7be16f">IVssFileShareSnapshotProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
  
 
  

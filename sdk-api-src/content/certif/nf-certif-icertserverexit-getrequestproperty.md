@@ -63,9 +63,9 @@ Note that the request is used to hold all associated states for the request and 
 ### -param strPropertyName [in]
 
 Specifies the property to retrieve. There is a stock set of certificate properties, referred to as the name properties, that are always valid and can be retrieved by calling this method. For information about these properties, see 
-<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>.
 
-Other properties valid for <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate requests</a> include the request properties.
+Other properties valid for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a> include the request properties.
 
 <div class="alert"><b>Note</b>  The request's <b>DistinguishedName</b> and <b>RawName</b> properties are accessible by <b>GetRequestProperty</b> only if the certificate is requested by using a PKCS #10 certificate request or another supported request format that contains encoded subject name information. Note that KeyGen requests do not contain encoded subject name information.</div>
 <div> </div>
@@ -108,7 +108,7 @@ Informational disposition message
 </dl>
 </td>
 <td width="60%">
-Certificate for the issuing <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>
+Certificate for the issuing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>
 
 </td>
 </tr>
@@ -314,7 +314,7 @@ A pointer to the <b>VARIANT</b> that will contain the request property type.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and *<i>pvarPropertyValue</i> is set to the <b>VARIANT</b> that contains the request property value.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the request property value.
@@ -327,7 +327,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a> prior to using this method.
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
@@ -372,15 +372,15 @@ if ( NULL != bstrPropName )
 
 
 
-<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/name-properties">Name Properties</a>
  
 
  

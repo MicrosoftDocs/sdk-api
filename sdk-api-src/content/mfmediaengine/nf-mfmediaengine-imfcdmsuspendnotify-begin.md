@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/b2671b66-fa9e-46a4-887e-d3ba9dd9025b">IMFCdmSuspendNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify">IMFCdmSuspendNotify</a>
  
 
  

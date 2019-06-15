@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by methods of the <a href="https://msdn.microsoft.com/4831e62c-45e4-435d-b926-0e140cbfb6fc">IFolderViewOptions</a> interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
+Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ifolderviewoptions">IFolderViewOptions</a> interface to activate Windows Vista options not supported by default in Windows 7 and later systems as well as deactivating new Windows 7 options.
 
 
 ## -enum-fields

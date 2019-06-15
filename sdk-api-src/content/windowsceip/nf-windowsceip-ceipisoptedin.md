@@ -75,7 +75,7 @@ True if SQM data collection is opted in and the machine can send data. Otherwise
 
 
 
-<a href="https://msdn.microsoft.com/68ba8219-7ed2-44a9-9fd5-f6dfa57891c0">CEIPEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/ceipenable">CEIPEnable</a>
 
 
 

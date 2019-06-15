@@ -81,7 +81,7 @@ This function does not return a value.
 
 
 
-If <i>ppunk</i> points to a <b>NULL</b> pointer, no operation is performed. Otherwise, <i>ppunk</i> is assumed to be the address of a COM interface pointer, derived from <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. The function calls the interface's <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method then sets the interface pointer to <b>NULL</b>.
+If <i>ppunk</i> points to a <b>NULL</b> pointer, no operation is performed. Otherwise, <i>ppunk</i> is assumed to be the address of a COM interface pointer, derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The function calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method then sets the interface pointer to <b>NULL</b>.
 
 
 #### Examples

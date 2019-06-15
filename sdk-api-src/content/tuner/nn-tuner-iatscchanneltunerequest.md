@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IATSCChannelTuneRequest</b> interface provides methods for tuning to a channel in an ATSC network. The <a href="https://msdn.microsoft.com/5b252438-88c4-4b61-a64b-f5fbbac45a06">ATSCChannelTuneRequest</a> object implements this interface.
+The <b>IATSCChannelTuneRequest</b> interface provides methods for tuning to a channel in an ATSC network. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atscchanneltunerequest-object">ATSCChannelTuneRequest</a> object implements this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCChannelTuneRequest</b> interface inherits from <a href="https://msdn.microsoft.com/cdb65c1a-bd86-4dc8-a72f-c08e36999880">IChannelTuneRequest</a>. <b>IATSCChannelTuneRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCChannelTuneRequest</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest</a>. <b>IATSCChannelTuneRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IATSCChannelTuneRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b8aa006-faba-472b-836b-0ff1ae134232">get_MinorChannel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-get_minorchannel">get_MinorChannel</a>
 </td>
 <td align="left" width="63%">
 Gets the current minor channel.
@@ -81,7 +81,7 @@ Gets the current minor channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1288d249-58de-410e-852b-233133f56da5">put_MinorChannel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-put_minorchannel">put_MinorChannel</a>
 </td>
 <td align="left" width="63%">
 Sets the minor channel to be tuned.
@@ -100,19 +100,19 @@ ATSC defines a tune request in terms of a <i>major channel</i> and a <i>minor ch
 <ul>
 <li>Major channel: <ul>
 <li>
-<a href="https://msdn.microsoft.com/1a529416-9b7a-41f4-961a-741b1a581d5f">IChannelTuneRequest::get_Channel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-get_channel">IChannelTuneRequest::get_Channel</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/67a08647-a2b5-43b2-b5d2-3917beb6dd27">IChannelTuneRequest::put_Channel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-put_channel">IChannelTuneRequest::put_Channel</a>
 </li>
 </ul>
 </li>
 <li>Minor channel: <ul>
 <li>
-<a href="https://msdn.microsoft.com/2b8aa006-faba-472b-836b-0ff1ae134232">IATSCChannelTuneRequest::get_MinorChannel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-get_minorchannel">IATSCChannelTuneRequest::get_MinorChannel</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1288d249-58de-410e-852b-233133f56da5">IATSCChannelTuneRequest::put_MinorChannel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-put_minorchannel">IATSCChannelTuneRequest::put_MinorChannel</a>
 </li>
 </ul>
 </li>
@@ -127,11 +127,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/cdb65c1a-bd86-4dc8-a72f-c08e36999880">IChannelTuneRequest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines the reparse-point properties of a  <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
+Defines the reparse-point properties of a  <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">volume object</a>.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ A string for a path without a drive letter. For example, "\mount".
 
 
 
-The <a href="https://msdn.microsoft.com/ae79355d-2012-42bf-930d-2915c4ca502c">IVdsVolumeMF::QueryReparsePoints</a>method returns this structure to report the reparse-point properties of a <a href="https://msdn.microsoft.com/92013015-b0f5-4b92-937b-c2637f65810c">volume object</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryreparsepoints">IVdsVolumeMF::QueryReparsePoints</a>method returns this structure to report the reparse-point properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">volume object</a>.
 
 
 
@@ -83,11 +83,11 @@ The <a href="https://msdn.microsoft.com/ae79355d-2012-42bf-930d-2915c4ca502c">IV
 
 
 
-<a href="https://msdn.microsoft.com/ae79355d-2012-42bf-930d-2915c4ca502c">IVdsVolumeMF::QueryReparsePoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryreparsepoints">IVdsVolumeMF::QueryReparsePoints</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
  
 
  

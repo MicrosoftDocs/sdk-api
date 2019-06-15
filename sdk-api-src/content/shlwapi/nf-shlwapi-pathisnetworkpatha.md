@@ -88,7 +88,7 @@ Returns <b>TRUE</b> if the string represents a network resource, or <b>FALSE</b>
 
 <ul>
 <li>Paths that begin with two backslash characters (\\) are interpreted as Universal Naming Convention (UNC) paths.</li>
-<li>Paths that begin with a letter followed by a colon (:) are interpreted as a mounted network drive. However, <b>PathIsNetworkPath</b> cannot recognize a network drive mapped to a drive letter through the Microsoft MS-DOS SUBST command or the <a href="https://msdn.microsoft.com/924b1456-b2c5-4d52-aacf-6172608c73ea">DefineDosDevice</a> function.</li>
+<li>Paths that begin with a letter followed by a colon (:) are interpreted as a mounted network drive. However, <b>PathIsNetworkPath</b> cannot recognize a network drive mapped to a drive letter through the Microsoft MS-DOS SUBST command or the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a> function.</li>
 </ul>
 <div class="alert"><b>Note</b>  The function does not verify that the specified network resource exists, is currently accessible, or that the user has sufficient permissions to access it.</div>
 <div> </div>

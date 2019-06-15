@@ -87,7 +87,7 @@ The request was canceled by this application, by another application, or because
 
 
 
-<a href="https://msdn.microsoft.com/97c123b9-4497-43f3-b747-660d3f9f5848">ITDigitsGatheredEvent::get_GatherTermination</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitsgatheredevent-get_gathertermination">ITDigitsGatheredEvent::get_GatherTermination</a>
  
 
  

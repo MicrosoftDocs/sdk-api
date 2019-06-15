@@ -69,14 +69,14 @@ This property is read/write.
 
 
 
-Column width is determined by the size of the drawn box. To get or set the drawn box, use the <a href="https://msdn.microsoft.com/f99095e1-8e7f-47eb-9234-70f651ebf793">DrawnBox</a> property.
+Column width is determined by the size of the drawn box. To get or set the drawn box, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox</a> property.
 
-Use the values of <b>Columns</b> and <a href="https://msdn.microsoft.com/5b1204ca-40b0-4752-8294-6f94412e8e7c">Rows</a> to control the kind of recognition input that you use. When <b>Columns</b> and <b>Rows</b> are both greater than zero, boxed input is used. The following table lists potential input modes and which values to set the <b>Columns</b> and <b>Rows</b> properties for each mode.
+Use the values of <b>Columns</b> and <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows</a> to control the kind of recognition input that you use. When <b>Columns</b> and <b>Rows</b> are both greater than zero, boxed input is used. The following table lists potential input modes and which values to set the <b>Columns</b> and <b>Rows</b> properties for each mode.
 
 <table>
 <tr>
 <th>For this type of input</th>
-<th>Set the <a href="https://msdn.microsoft.com/5b1204ca-40b0-4752-8294-6f94412e8e7c">Rows</a> property to</th>
+<th>Set the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows</a> property to</th>
 <th>And set the <b>Columns</b> property to</th>
 </tr>
 <tr>
@@ -202,7 +202,7 @@ z
 
 
 
-<a href="https://msdn.microsoft.com/f99095e1-8e7f-47eb-9234-70f651ebf793">DrawnBox Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox Property</a>
 
 
 
@@ -210,11 +210,11 @@ z
 
 
 
-<a href="https://msdn.microsoft.com/c4990aa5-8c8b-4206-8376-b5c0d0c8e0a7">InkRecognizerGuide Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b1204ca-40b0-4752-8294-6f94412e8e7c">Rows Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>
  
 
  

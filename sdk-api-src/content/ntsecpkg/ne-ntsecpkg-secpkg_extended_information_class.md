@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECPKG_EXTENDED_INFORMATION_CLASS</b> enumeration describes the type of information to set or get for a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
+The <b>SECPKG_EXTENDED_INFORMATION_CLASS</b> enumeration describes the type of information to set or get for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 
 This enumeration is used by the 
-<a href="https://msdn.microsoft.com/e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3">SpGetExtendedInformation</a> and 
-<a href="https://msdn.microsoft.com/a6176786-c19b-4ecf-8a7b-2430ff8b56f7">SpSetExtendedInformation</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 
 ## -enum-fields
@@ -69,13 +69,13 @@ GSS OID information used to identify the security package in GSS-compatible nego
 ### -field SecpkgContextThunks
 
 Identifies the calls to the 
-<a href="https://msdn.microsoft.com/67bc087f-7519-4c8a-9b34-b3ecd306a334">QueryContextAttributes (General)</a> function that are handled in the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) process space (LSA mode) rather than being handled in the client process space (user mode).
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function that are handled in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) process space (LSA mode) rather than being handled in the client process space (user mode).
 
 
 ### -field SecpkgMutualAuthLevel
 
 The mutual authentication level used in the system. This value is valid for the 
-<a href="https://msdn.microsoft.com/e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3">SpGetExtendedInformation</a> function only.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> function only.
 
 
 ### -field SecpkgWowClientDll

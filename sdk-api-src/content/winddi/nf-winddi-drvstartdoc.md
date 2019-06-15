@@ -59,7 +59,7 @@ The <b>DrvStartDoc</b> function is called by GDI when it is ready to start sendi
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure.
 
 
 ### -param pwszDocName [in]
@@ -85,9 +85,9 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it
 
 
 
-A <a href="https://msdn.microsoft.com/58e181ff-c792-41a5-967d-a69a8ff5a041">printer graphics DLL</a> must provide a <b>DrvStartDoc</b> function. Typically the function is used for sending control sequences to printer hardware, before a document is printed, by calling GDI's <a href="https://msdn.microsoft.com/c65f09b2-5924-479a-8067-a1ba472348e2">EngWritePrinter</a> function. The function can also perform internal, document-specific initialization operations for the printer graphics DLL.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> must provide a <b>DrvStartDoc</b> function. Typically the function is used for sending control sequences to printer hardware, before a document is printed, by calling GDI's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> function. The function can also perform internal, document-specific initialization operations for the printer graphics DLL.
 
-The <b>DrvStartDoc</b> function is called at the start of a print job, and whenever an application (such as a print processor) calls <b>ResetDC</b> (see <a href="https://msdn.microsoft.com/8e530874-7774-4f8f-852c-001b2ce4a707">DrvResetPDEV</a>). When the call to <b>DrvStartDoc</b> comes from <b>ResetDC</b>, the <i>pwszDocName</i> parameter is set to <b>NULL</b> and the <i>dwJobId</i> parameter is set to zero. When the call comes from an application, these parameters are set, respectively, to the document name and the print job number. 
+The <b>DrvStartDoc</b> function is called at the start of a print job, and whenever an application (such as a print processor) calls <b>ResetDC</b> (see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvresetpdev">DrvResetPDEV</a>). When the call to <b>DrvStartDoc</b> comes from <b>ResetDC</b>, the <i>pwszDocName</i> parameter is set to <b>NULL</b> and the <i>dwJobId</i> parameter is set to zero. When the call comes from an application, these parameters are set, respectively, to the document name and the print job number. 
 
 Because there is not a separate call into the printer graphics DLL when a print job is started, the <b>DrvStartDoc</b> function must also send control sequences to the printer to initialize the job, if required by the printer. (In other words, there is one document per job.)
 
@@ -99,15 +99,15 @@ Because there is not a separate call into the printer graphics DLL when a print 
 
 
 
-<a href="https://msdn.microsoft.com/905813fd-281d-4cc8-b006-a2d284041bb7">DrvEndDoc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenddoc">DrvEndDoc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e530874-7774-4f8f-852c-001b2ce4a707">DrvResetPDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvresetpdev">DrvResetPDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/c65f09b2-5924-479a-8067-a1ba472348e2">EngWritePrinter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>
  
 
  

@@ -210,15 +210,15 @@ A pointer to a <b>NULL</b>-terminated string that is the name of the computer on
 Type: <b>LPSERVICE_ADDRESSES</b>
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/1ed0c634-4f09-49c1-8fbf-9182d6a4bd51">SERVICE_ADDRESSES</a> structure that contains an array of 
-<a href="https://msdn.microsoft.com/5fc99e3a-7316-4950-9249-968bbc4168c2">SERVICE_ADDRESS</a> structures. Each 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_addresses">SERVICE_ADDRESSES</a> structure that contains an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a> structures. Each 
 <b>SERVICE_ADDRESS</b> structure contains information about a network service address. 
 
 
 
 
 A network service can call the 
-<a href="https://msdn.microsoft.com/be20a731-cdfc-48ae-90b2-43f2cf9ecf6d">getsockname</a> function to determine the local address of the system.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockname">getsockname</a> function to determine the local address of the system.
 
 
 ### -field ServiceSpecificInfo
@@ -226,16 +226,16 @@ A network service can call the
 Type: <b>BLOB</b>
 
 A 
-						<a href="https://msdn.microsoft.com/eb1ff7d1-79db-478f-9f3e-48507d333c76">BLOB</a> structure that specifies service-defined information. 
+						<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a> structure that specifies service-defined information. 
 
 
 
 
 <div class="alert"><b>Note</b>  In general, the data pointed to by the 
-<a href="https://msdn.microsoft.com/eb1ff7d1-79db-478f-9f3e-48507d333c76">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
-<a href="https://msdn.microsoft.com/9adf92b0-1268-48c1-91e4-d05ad696ff06">SERVICE_TYPE_INFO_ABS</a> structure. This is possible because both the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a> structure's <b>pBlobData</b> member must not contain any pointers. That is because only the network service knows the format of the data; copying the data without such knowledge would lead to pointer invalidation. If the data pointed to by <b>pBlobData</b> contains variable-sized elements, offsets from <b>pBlobData</b> can be used to indicate the location of those elements. There is one exception to this general rule: when <b>pBlobData</b> points to a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure. This is possible because both the 
 <b>SERVICE_TYPE_INFO_ABS</b> structure, and any 
-<a href="https://msdn.microsoft.com/6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8">SERVICE_TYPE_VALUE_ABS</a> structures it contains are predefined, and thus their formats are known to the operating system.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures it contains are predefined, and thus their formats are known to the operating system.</div>
 <div> </div>
 
 ## -see-also
@@ -243,35 +243,35 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/eb1ff7d1-79db-478f-9f3e-48507d333c76">BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_blob">BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/d09ffe2d-33c3-4ca3-bc99-d7d78fd83620">GetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getservicea">GetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc99e3a-7316-4950-9249-968bbc4168c2">SERVICE_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_address">SERVICE_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ed0c634-4f09-49c1-8fbf-9182d6a4bd51">SERVICE_ADDRESSES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_addresses">SERVICE_ADDRESSES</a>
 
 
 
-<a href="https://msdn.microsoft.com/9adf92b0-1268-48c1-91e4-d05ad696ff06">SERVICE_TYPE_INFO_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8">SERVICE_TYPE_VALUE_ABS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc5e35ef-5c64-41ba-a5f9-5961371c4d08">SetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
  
 
  

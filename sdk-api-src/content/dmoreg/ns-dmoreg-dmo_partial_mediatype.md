@@ -75,7 +75,7 @@ Subtype GUID. Use GUID_NULL to match any subtype.
 
 
 
-<a href="https://msdn.microsoft.com/82c8ea74-1c5e-4370-9075-6db2ed6b2c91">DMO Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
  
 
  

@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The <b>IStreamBufferRecordingAttribute</b> interface sets and retrieves attributes on a stream buffer recording. <i>Attributes</i> are metadata that describe the physical file (such as the bitrate and the duration) or the content of the file (such as the author or title).
 
-This interface is exposed by the <a href="https://msdn.microsoft.com/717a3b99-d998-4e64-aab6-6b06e18991da">Recording</a> object and the <a href="https://msdn.microsoft.com/dfb3e588-cf58-4f0f-a686-3aa7c7869247">RecordingAttributes</a> object.
+This interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/recording-object">Recording</a> object and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/recordingattributes-object">RecordingAttributes</a> object.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecordingAttribute</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStreamBufferRecordingAttribute</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferRecordingAttribute</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamBufferRecordingAttribute</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IStreamBufferRecordingAttribute</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2944d1c4-a4ed-47a7-a0c4-a75cddb9cc99">EnumAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-enumattributes">EnumAttributes</a>
 </td>
 <td align="left" width="63%">
 Enumerates the existing attributes of the stream buffer file.
@@ -83,7 +83,7 @@ Enumerates the existing attributes of the stream buffer file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4d9d25f-1e21-40e5-80c4-a8fe15dbc216">GetAttributeByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd377126(v%3dvs.85)">GetAttributeByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute, specified by index number.
@@ -92,7 +92,7 @@ Retrieves an attribute, specified by index number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1191074-4ded-4e64-9c30-8e4d01390732">GetAttributeByName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-getattributebyname">GetAttributeByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute, specified by name.
@@ -101,7 +101,7 @@ Retrieves an attribute, specified by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44ff4991-f6f2-4f70-bdf5-b8e1dc06611c">GetAttributeCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-getattributecount">GetAttributeCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of attributes that are currently defined for this stream buffer file.
@@ -110,7 +110,7 @@ Returns the number of attributes that are currently defined for this stream buff
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc441a00-e98f-4ea7-b902-d74846fc93cc">SetAttribute</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordingattribute-setattribute">SetAttribute</a>
 </td>
 <td align="left" width="63%">
 Sets an attribute on the stream buffer file.
@@ -134,11 +134,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/6348884b-743b-45e3-b39d-a76c0fa12216">Stream Buffer Engine Attributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-attributes">Stream Buffer Engine Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3e8703a-2b69-4262-9aaa-ff9ac8ca2f28">Stream Buffer Engine Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
  
 
  

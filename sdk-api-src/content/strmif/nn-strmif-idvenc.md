@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IDVEnc</code> interface sets and retrieves properties on the <a href="https://msdn.microsoft.com/ac57bd11-de16-4a58-9f4b-da270a57ad08">DV Video Encoder</a> filter.
+The <code>IDVEnc</code> interface sets and retrieves properties on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-encoder-filter">DV Video Encoder</a> filter.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVEnc</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDVEnc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVEnc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVEnc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDVEnc</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5921e19a-d500-4799-88a0-ff2f67bd81af">get_IFormatResolution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvenc-get_iformatresolution">get_IFormatResolution</a>
 </td>
 <td align="left" width="63%">
 Retrieves the encoding resolution.
@@ -82,7 +82,7 @@ Retrieves the encoding resolution.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9cf2544-1b04-4a77-8a0b-d7820af5ff9f">put_IFormatResolution</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvenc-put_iformatresolution">put_IFormatResolution</a>
 </td>
 <td align="left" width="63%">
 Sets the encoding resolution.

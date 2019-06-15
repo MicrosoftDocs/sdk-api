@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Windows Search 2.x is available for use in the operating system specified in the 
 
-Requirements section. It might be altered or unavailable in later versions. Use the <a href="https://msdn.microsoft.com/en-us/library/Ee872061(v=VS.85).aspx">Windows Search API</a> instead.]
+Requirements section. It might be altered or unavailable in later versions. Use the <a href="https://docs.microsoft.com/windows/desktop/search/-search-reference-entry-page">Windows Search API</a> instead.]
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/Aa965786(v=VS.85).aspx">IResultsViewer::SortOrderProperty</a> to indicate or set how a query is to be sorted.
+Used by <a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-iresultsviewer-sortorderproperty">IResultsViewer::SortOrderProperty</a> to indicate or set how a query is to be sorted.
 
 
 ## -enum-fields

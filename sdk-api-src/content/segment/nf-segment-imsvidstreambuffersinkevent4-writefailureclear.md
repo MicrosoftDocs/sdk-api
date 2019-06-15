@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WriteFailureClear</b> method is called when a write error from the <a href="https://msdn.microsoft.com/1606eab6-84dc-49ba-8fb6-df3b8615bf85">Stream Buffer Sink</a> filter has been cleared.
+The <b>WriteFailureClear</b> method is called when a write error from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink</a> filter has been cleared.
 
 
 ## -parameters
@@ -73,11 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743827(v=VS.85).aspx">IMSVidStreamBufferSinkEvent4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent4">IMSVidStreamBufferSinkEvent4</a>
 
 
 
-<a href="https://msdn.microsoft.com/1606eab6-84dc-49ba-8fb6-df3b8615bf85">Stream Buffer Sink Filter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink Filter</a>
  
 
  

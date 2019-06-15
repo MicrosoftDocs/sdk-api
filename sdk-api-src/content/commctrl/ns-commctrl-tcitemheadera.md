@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies or receives the attributes of a tab. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb760589(v=VS.85).aspx">TCM_GETITEM</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb760631(v=VS.85).aspx">TCM_SETITEM</a> messages. This structure supersedes the
+Specifies or receives the attributes of a tab. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-insertitem">TCM_INSERTITEM</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getitem">TCM_GETITEM</a>, and <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setitem">TCM_SETITEM</a> messages. This structure supersedes the
 	<b>TC_ITEMHEADER</b> structure. 
 
 
@@ -62,7 +62,7 @@ Specifies or receives the attributes of a tab. It is used with the <a href="http
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value that specifies which members to retrieve or set. This member can be a combination of the following values: 
 
@@ -110,21 +110,21 @@ The
 
 ### -field lpReserved1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Reserved member. Do not use. 
 
 
 ### -field lpReserved2
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Reserved member. Do not use. 
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Address of a null-terminated string that contains the tab text if item information is being set. If item information is being retrieved, this member specifies the address of the buffer that receives the tab text. 
 

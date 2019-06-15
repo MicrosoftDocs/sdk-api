@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by a data consumer to obtain data from a source data object. The <b>GetData</b> method renders the data described in the specified <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure and transfers it through the specified <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure. The caller then assumes responsibility for releasing the <b>STGMEDIUM</b> structure.
+Called by a data consumer to obtain data from a source data object. The <b>GetData</b> method renders the data described in the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure and transfers it through the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure. The caller then assumes responsibility for releasing the <b>STGMEDIUM</b> structure.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Called by a data consumer to obtain data from a source data object. The <b>GetDa
 
 ### -param pformatetcIn [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure that defines the format, medium, and target device to use when passing the data. It is possible to specify more than one medium by using the Boolean OR operator, allowing the method to choose the best medium among those specified.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure that defines the format, medium, and target device to use when passing the data. It is possible to specify more than one medium by using the Boolean OR operator, allowing the method to choose the best medium among those specified.
 
 
 ### -param pmedium [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure that indicates the storage medium containing the returned data through its tymed member, and the responsibility for releasing the medium through the value of its <b>pUnkForRelease</b> member. If <b>pUnkForRelease</b> is <b>NULL</b>, the receiver of the medium is responsible for releasing it; otherwise, <b>pUnkForRelease</b> points to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> on the appropriate object so its <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method can be called. The medium must be allocated and filled in by <b>GetData</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure that indicates the storage medium containing the returned data through its tymed member, and the responsibility for releasing the medium through the value of its <b>pUnkForRelease</b> member. If <b>pUnkForRelease</b> is <b>NULL</b>, the receiver of the medium is responsible for releasing it; otherwise, <b>pUnkForRelease</b> points to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> on the appropriate object so its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method can be called. The medium must be allocated and filled in by <b>GetData</b>.
 
 
 ## -returns
@@ -187,7 +187,7 @@ There was insufficient memory available for this operation.
 
 
 
-A data consumer calls <b>GetData</b> to retrieve data from a data object, conveyed through a storage medium (defined through the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure).
+A data consumer calls <b>GetData</b> to retrieve data from a data object, conveyed through a storage medium (defined through the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure).
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 You can specify more than one acceptable <b>tymed</b> medium with the Boolean OR operator. <b>GetData</b> must choose from the OR'd values the medium that best represents the data, do the allocation, and indicate responsibility for releasing the medium.
@@ -195,7 +195,7 @@ You can specify more than one acceptable <b>tymed</b> medium with the Boolean OR
 Data transferred across a stream extends from position zero of the stream pointer through to the position immediately before the current stream pointer (that is, the stream pointer position upon exit).
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-<b>GetData</b> must check all fields in the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure. It is important that <b>GetData</b> render the requested aspect and, if possible, use the requested medium. If the data object cannot comply with the information specified in the <b>FORMATETC</b>, the method should return DV_E_FORMATETC. If an attempt to allocate the medium fails, the method should return STG_E_MEDIUMFULL. It is important to fill in all of the fields in the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure.
+<b>GetData</b> must check all fields in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure. It is important that <b>GetData</b> render the requested aspect and, if possible, use the requested medium. If the data object cannot comply with the information specified in the <b>FORMATETC</b>, the method should return DV_E_FORMATETC. If an attempt to allocate the medium fails, the method should return STG_E_MEDIUMFULL. It is important to fill in all of the fields in the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure.
 
 Although the caller can specify more than one medium for returning the data, <b>GetData</b> can provide only one medium. If the initial transfer fails with the selected medium, this method can be implemented to try one of the other media specified before returning an error.
 
@@ -207,7 +207,7 @@ Although the caller can specify more than one medium for returning the data, <b>
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
  
 
  

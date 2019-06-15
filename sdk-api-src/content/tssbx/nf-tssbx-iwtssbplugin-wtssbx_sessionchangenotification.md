@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/f6959b8c-a8a8-438b-8b6d-31bf0e782bac">IWTSSBPlugin</a> interface is 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a> interface is 
     not supported  after Windows Server 2008 R2. Starting with Windows Server 2012 please use the 
-    <a href="https://msdn.microsoft.com/db3d3ee7-9e53-4bac-9711-4e85f1016db9">ITsSbPlugin</a> interface.]
+    <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a> interface.]
 
 Notifies the plug-in that a change, such as a logon, logoff, disconnect, or reconnect, occurred in the session.
 
@@ -63,7 +63,7 @@ Notifies the plug-in that a change, such as a logon, logoff, disconnect, or reco
 
 ### -param NotificationType [in]
 
-A <a href="https://msdn.microsoft.com/06da6e20-a4de-4e2d-8f42-6d99b738226c">WTSSBX_NOTIFICATION_TYPE</a> type that specifies the type of change that occurred.
+A <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ne-tssbx-__midl_iwtssbplugin_0010">WTSSBX_NOTIFICATION_TYPE</a> type that specifies the type of change that occurred.
 
 
 ### -param MachineId [in]
@@ -78,7 +78,7 @@ The number of elements in the <i>SessionInfo</i> array.
 
 ### -param SessionInfo [in]
 
-An array of <a href="https://msdn.microsoft.com/d0c142a9-2495-46e6-b53b-0c415bddb0b2">WTSSBX_SESSION_INFO</a> structures that contain information about sessions. Only the members that have changed are reported in this structure. The others are set to zero.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/tssbx/ns-tssbx-__midl_iwtssbplugin_0009">WTSSBX_SESSION_INFO</a> structures that contain information about sessions. Only the members that have changed are reported in this structure. The others are set to zero.
 
 
 ## -returns
@@ -106,11 +106,11 @@ Your implementation of this method must return <b>S_OK</b> immediately if succes
 
 
 
-<a href="https://msdn.microsoft.com/db3d3ee7-9e53-4bac-9711-4e85f1016db9">ITsSbPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6959b8c-a8a8-438b-8b6d-31bf0e782bac">IWTSSBPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
  
 
  

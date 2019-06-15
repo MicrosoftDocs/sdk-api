@@ -64,7 +64,7 @@ Offset, in bytes, from the beginning of this structure to the next <b>TRACE_PROV
 
 ### -field EnableCount
 
-Number of <a href="https://msdn.microsoft.com/999dd102-5937-4b1e-b841-623dddaa0df9">TRACE_ENABLE_INFO</a> structures in this block. Each structure represents a session that enabled the provider.
+Number of <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-enable-info">TRACE_ENABLE_INFO</a> structures in this block. Each structure represents a session that enabled the provider.
 
 
 ### -field Pid
@@ -87,7 +87,7 @@ Can be one of the following flags.
 </dl>
 </td>
 <td width="60%">
-The provider used <a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> instead of <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a> to register itself. 
+The provider used <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> to register itself. 
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The provider is not registered; however, one or more sessions have enabled the p
 
 
 
- If more than one provider uses the same GUID, the <a href="https://msdn.microsoft.com/2c484adf-605d-420b-8059-942b35305acd">TRACE_GUID_INFO</a> block contains more than one <b>TRACE_PROVIDER_INSTANCE_INFO</b> structure.
+ If more than one provider uses the same GUID, the <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a> block contains more than one <b>TRACE_PROVIDER_INSTANCE_INFO</b> structure.
 
 
 
@@ -119,11 +119,11 @@ The provider is not registered; however, one or more sessions have enabled the p
 
 
 
-<a href="https://msdn.microsoft.com/999dd102-5937-4b1e-b841-623dddaa0df9">TRACE_ENABLE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-enable-info">TRACE_ENABLE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c484adf-605d-420b-8059-942b35305acd">TRACE_GUID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a>
  
 
  

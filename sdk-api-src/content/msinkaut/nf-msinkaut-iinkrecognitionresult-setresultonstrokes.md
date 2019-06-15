@@ -117,11 +117,11 @@ An exception occurred while processing.
 
 
 
-System performance suffers if recognition results are automatically assigned to every <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection. Therefore results are not attached to an InkStrokes collection by default. To assign results to an InkStrokes collection, you must call <b>SetResultOnStrokes</b>. To return the recognition results for a InkStrokes collection, use the <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult</a> property of the InkStrokes collection. After you assign results to a InkStrokes collection, you can then store the strokes in a <a href="https://msdn.microsoft.com/0b4eb5d6-ccf0-46c1-ae02-a393e67b817e">IInkCustomStrokes</a> collection. These custom strokes, as well as the <b>IInkRecognitionResult</b>, can be persisted and retrieved for later use.
+System performance suffers if recognition results are automatically assigned to every <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection. Therefore results are not attached to an InkStrokes collection by default. To assign results to an InkStrokes collection, you must call <b>SetResultOnStrokes</b>. To return the recognition results for a InkStrokes collection, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> property of the InkStrokes collection. After you assign results to a InkStrokes collection, you can then store the strokes in a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection. These custom strokes, as well as the <b>IInkRecognitionResult</b>, can be persisted and retrieved for later use.
 
-To return the recognition results of a collection of strokes, use the <a href="https://msdn.microsoft.com/5d6e7147-b312-4989-8d8f-88cb2221f6f0">RecognitionResult</a> property.
+To return the recognition results of a collection of strokes, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult">RecognitionResult</a> property.
 
-After you assign results to a collection of strokes, you can then store the strokes in an <a href="https://msdn.microsoft.com/0b4eb5d6-ccf0-46c1-ae02-a393e67b817e">IInkCustomStrokes</a> collection. These custom strokes, as well as the <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult</a>, can be persisted and retrieved for later use.
+After you assign results to a collection of strokes, you can then store the strokes in an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection. These custom strokes, as well as the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a>, can be persisted and retrieved for later use.
 
 
 
@@ -131,15 +131,15 @@ After you assign results to a collection of strokes, you can then store the stro
 
 
 
-<a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d6e7147-b312-4989-8d8f-88cb2221f6f0">RecognitionResult Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult">RecognitionResult Property</a>
  
 
  

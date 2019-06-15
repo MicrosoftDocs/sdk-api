@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 
@@ -61,7 +61,7 @@ Retrieves an interface representing the specified portion of object. Currently r
 
 ### -param origPos [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms691131(v=VS.85).aspx">FILTERREGION</a> structure that contains the position of the text. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-tagfilterregion">FILTERREGION</a> structure that contains the position of the text. 
 
 
 
@@ -133,7 +133,7 @@ If it is impossible for the <b>BindRegion</b> method to bind an interface to the
 
 
 
-Not all filters are capable of supporting the <b>BindRegion</b> method in a rational way. Filters that are implemented by viewing applications will benefit the most from this method. The method is intended to be a way to pass cookies through the search engine and back to the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> interface implementation. 
+Not all filters are capable of supporting the <b>BindRegion</b> method in a rational way. Filters that are implemented by viewing applications will benefit the most from this method. The method is intended to be a way to pass cookies through the search engine and back to the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface implementation. 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 This method is currently reserved for future use. Always return E_NOTIMPL.
@@ -148,7 +148,7 @@ This method is currently reserved for future use. Always return E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
  
 
  

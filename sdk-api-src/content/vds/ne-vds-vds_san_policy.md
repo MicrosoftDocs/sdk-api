@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid disk SAN policy flags.
 
@@ -93,9 +93,9 @@ All newly discovered disks remain offline and read-only.
 
 The SAN policy determines whether a newly discovered disk is brought online or remains offline, and whether it is made read/write or remains read-only. When a disk is offline, the disk layout can be read, but no volume devices are surfaced through Plug and Play (PnP). This means that no file system can be mounted on the disk. When a disk is online, one or more volume devices are installed for the disk.
 
-To query the current SAN policy, use the <a href="https://msdn.microsoft.com/59602d97-2fdf-4d1b-b158-e545619397e0">IVdsServiceSAN::GetSANPolicy</a> method.
+To query the current SAN policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-getsanpolicy">IVdsServiceSAN::GetSANPolicy</a> method.
 
-To set the SAN policy, use the <a href="https://msdn.microsoft.com/e5cb0b5e-d181-44a7-8416-e9f8fb575423">IVdsServiceSAN::SetSANPolicy</a> method.
+To set the SAN policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a> method.
 
 This enumeration supersedes the <b>NoAutoMount</b> registry key, which can be found under the following registry path:
 
@@ -121,11 +121,11 @@ For a clean installation of Windows, the SAN policy determines whether a disk is
 
 
 
-<a href="https://msdn.microsoft.com/59602d97-2fdf-4d1b-b158-e545619397e0">IVdsServiceSAN::GetSANPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-getsanpolicy">IVdsServiceSAN::GetSANPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5cb0b5e-d181-44a7-8416-e9f8fb575423">IVdsServiceSAN::SetSANPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a>
  
 
  

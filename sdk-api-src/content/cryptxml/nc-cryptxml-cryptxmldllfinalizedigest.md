@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>CryptXmlDllFinalizeDigest</b> function retrieves the digest value.
 
-The <b>CryptXmlDllFinalizeDigest</b> function is exposed through the exported <a href="https://msdn.microsoft.com/a547e869-3c9f-4408-9895-29fae0cc6066">CryptXmlDllGetInterface</a>  function.
+The <b>CryptXmlDllFinalizeDigest</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptXmlDllFinalizeDigest</b> function is exposed through the exported <a
 
 ### -param hDigest [in]
 
-The handle of the hash object used to put data into the digest. This handle is obtained by calling the <a href="https://msdn.microsoft.com/9c9b14c8-511b-4e40-b3d3-014d75dc7fe4">CryptXmlDllCreateDigest</a>  function.
+The handle of the hash object used to put data into the digest. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a>  function.
 
 
 ### -param *pbDigest [out]

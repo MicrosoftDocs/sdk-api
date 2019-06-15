@@ -62,7 +62,7 @@ Imports a .wab file into the user's Address Book.
 
 Type: <b>LPSTR</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629457(v=VS.85).aspx">WABIMPORTPARAM</a> 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_wabimportparam">WABIMPORTPARAM</a> 
 				structure.
 
 
@@ -83,18 +83,18 @@ Returns S_OK if successful, or an error value otherwise.
 
 
 When calling this method, pass a pointer to a 
-	<a href="https://msdn.microsoft.com/en-us/library/ms629457(v=VS.85).aspx">WABIMPORTPARAM</a> structure. If the caller specifies 
+	<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_wabimportparam">WABIMPORTPARAM</a> structure. If the caller specifies 
 	<b>MAPI_DIALOG</b> in the 
 	<b>ulFlags</b> member of the structure, 
 	the Windows Address Book (WAB) shows a dialog box with a progress bar indicating 
 	the progress of the import process. The caller can specify a file name 
 	to import. If the caller specifies a <b>NULL</b> file name, the 
-	WAB opens a <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a> 
+	WAB opens a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a> 
 	dialog box to prompt the user to select a .wab file for importing.
 
 For compatibility with previously released versions of the 
 	WAB that expose this method, the pointer to the 
-	<a href="https://msdn.microsoft.com/en-us/library/ms629457(v=VS.85).aspx">WABIMPORTPARAM</a> structure needs to be cast to an 
+	<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/ns-wabapi-_wabimportparam">WABIMPORTPARAM</a> structure needs to be cast to an 
 	<b>LPSTR</b> prior to passing it into this method.
 
 

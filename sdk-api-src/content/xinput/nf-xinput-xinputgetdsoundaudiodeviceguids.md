@@ -59,7 +59,7 @@ Gets the sound rendering and sound capture device GUIDs that are associated with
 
 ### -param dwUserIndex
 
-[in] Index of the user's controller. It can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://msdn.microsoft.com/en-us/library/Ee417001(v=VS.85).aspx">Multiple Controllers</a>.
+[in] Index of the user's controller. It can be a value in the range 0–3. For information about how this value is determined and how the value maps to indicators on the controller, see <a href="https://docs.microsoft.com/windows/desktop/xinput/getting-started-with-xinput">Multiple Controllers</a>.
 
 
 ### -param pDSoundRenderGuid
@@ -98,7 +98,7 @@ If the function fails, it returns a valid Win32 error code.
 
 
 
-Use of legacy <a href="https://msdn.microsoft.com/library/Ee416960(v=VS.85).aspx">DirectSound</a> is not recommended, and DirectSound is not available for Windows Store apps.
+Use of legacy <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ee416960(v=vs.85)">DirectSound</a> is not recommended, and DirectSound is not available for Windows Store apps.
 
 <div class="alert"><b>Note</b>  <b>XInputGetDSoundAudioDeviceGuids</b> is deprecated because it isn't supported by Windows 8 (XInput 1.4).</div>
 <div> </div>
@@ -113,11 +113,11 @@ DirectX SDK (XInput 1.3), Windows Vista (XInput 9.1.0)
 
 
 
-<a href="https://msdn.microsoft.com/c1533555-9094-0030-f025-6f47e9002e1a">XInput Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xinput/functions">XInput Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>
  
 
  

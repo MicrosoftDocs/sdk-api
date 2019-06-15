@@ -71,7 +71,7 @@ Uniquely identifies a layer. If this member is non-NULL, only callouts associate
 
 
 
-<b>FWPM_CALLOUT_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_CALLOUT_ENUM_TEMPLATE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_CALLOUT_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_CALLOUT_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -81,7 +81,7 @@ Uniquely identifies a layer. If this member is non-NULL, only callouts associate
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

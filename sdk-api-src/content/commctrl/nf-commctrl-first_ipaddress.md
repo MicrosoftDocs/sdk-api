@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts the field 0 value from a packed IP address retrieved with the <a href="https://msdn.microsoft.com/en-us/library/Bb761378(v=VS.85).aspx">IPM_GETADDRESS</a> message. 
+Extracts the field 0 value from a packed IP address retrieved with the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipm-getaddress">IPM_GETADDRESS</a> message. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Extracts the field 0 value from a packed IP address retrieved with the <a href="
 
 ### -param x
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The packed IP address value. 
 

@@ -63,7 +63,7 @@ The <b>MsiQueryFeatureStateEx</b> function returns the installed state for a pro
 ### -param szProductCode [in]
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> GUID of the product that contains the feature of interest.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product that contains the feature of interest.
 
 
 ### -param szUserSid [in]
@@ -148,7 +148,7 @@ Retrieves the feature state for the per-machine instance of the product.
 
 ### -param szFeature [in]
 
-Specifies the feature being queried. Identifier of the feature as found in the <b>Feature</b> column of the <a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature table</a>.
+Specifies the feature being queried. Identifier of the feature as found in the <b>Feature</b> column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a>.
 
 
 ### -param pdwState [out, optional]
@@ -286,7 +286,7 @@ An unexpected internal failure.
  
 
  For more information, see 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 
 
@@ -306,27 +306,27 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature Table</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature Table</a>
 
 
 
-<a href="https://msdn.microsoft.com/d84aa7f1-d29a-493d-a065-8f7b680019d7">MsiQueryFeatureState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">System Status Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
  
 
  

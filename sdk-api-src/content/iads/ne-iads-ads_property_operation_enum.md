@@ -83,7 +83,7 @@ Instructs the directory service to delete the specified value(s) from the object
 
 
 
-The elements of this enumeration are used with the  <a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">IADs.PutEx</a> method, the document of which provides an example of how to use these enumerated constants.
+The elements of this enumeration are used with the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs.PutEx</a> method, the document of which provides an example of how to use these enumerated constants.
 
 Because Visual Basic Scripting Edition (VBScript) cannot read data from a type library, VBScript applications do not recognize the symbolic constants as defined. Use the numeric constants instead to set the appropriate flags in your VBScript applications. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done here.
 
@@ -95,12 +95,12 @@ Because Visual Basic Scripting Edition (VBScript) cannot read data from a type l
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
     Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">IADs.PutEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs.PutEx</a>
  
 
  

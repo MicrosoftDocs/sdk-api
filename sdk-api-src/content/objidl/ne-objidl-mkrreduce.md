@@ -83,7 +83,7 @@ Reduces the moniker until it is in its simplest form, that is, reduce it to itse
 
 
 
-<a href="https://msdn.microsoft.com/1d34da7b-e6cb-4daa-a155-45beb36e035b">IMoniker::Reduce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a>
  
 
  

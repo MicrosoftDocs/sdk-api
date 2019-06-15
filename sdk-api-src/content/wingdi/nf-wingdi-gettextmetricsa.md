@@ -72,7 +72,7 @@ A handle to the device context.
 
 ### -param lptm [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c">TEXTMETRIC</a> structure that receives the text metrics.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a> structure that receives the text metrics.
 
 
 ## -returns
@@ -90,12 +90,12 @@ If the function fails, the return value is zero.
 
 
 
-To determine whether a font is a TrueType font, first select it into a DC, then call <b>GetTextMetrics</b>, and then check for TMPF_TRUETYPE in TEXTMETRIC.tmPitchAndFamily. Note that <a href="https://msdn.microsoft.com/50b2387b-c8e4-42a8-8f0f-0bdb355adbfd">GetDC</a> returns an uninitialized DC, which has "System" (a bitmap font) as the default font; thus the need to select a font into the DC.
+To determine whether a font is a TrueType font, first select it into a DC, then call <b>GetTextMetrics</b>, and then check for TMPF_TRUETYPE in TEXTMETRIC.tmPitchAndFamily. Note that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> returns an uninitialized DC, which has "System" (a bitmap font) as the default font; thus the need to select a font into the DC.
 
 
 #### Examples
 
-For an example, see "Displaying Keyboard Input" in <a href="https://msdn.microsoft.com/en-us/library/ms646268(v=VS.85).aspx">Using Keyboard Input</a> or <a href="https://msdn.microsoft.com/d21613ef-1ba4-40bb-b922-afe287556441">Drawing Text from Different Fonts on the Same Line</a>.
+For an example, see "Displaying Keyboard Input" in <a href="https://docs.microsoft.com/windows/desktop/inputdev/using-keyboard-input">Using Keyboard Input</a> or <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-text-from-different-fonts-on-the-same-line">Drawing Text from Different Fonts on the Same Line</a>.
 
 <div class="code"></div>
 
@@ -106,31 +106,31 @@ For an example, see "Displaying Keyboard Input" in <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3ec0350-2eb8-4843-88bb-d72cece710e7">GetTextAlign</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a>
 
 
 
-<a href="https://msdn.microsoft.com/530280ee-dfd8-4905-9b72-6c19efcff133">GetTextExtentPoint32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4c8c8f5-3651-481b-a55f-da7f49d92f3a">GetTextFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextfacea">GetTextFace</a>
 
 
 
-<a href="https://msdn.microsoft.com/55fb5a28-b7da-40d8-8e64-4b42c23fa8b1">SetTextJustification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextjustification">SetTextJustification</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a46da58-5d0f-4db4-bba6-9e1b6c1f892c">TEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagtextmetrica">TEXTMETRIC</a>
  
 
  

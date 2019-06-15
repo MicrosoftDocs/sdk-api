@@ -60,19 +60,19 @@ The
 
 ### -param Row
 
-A pointer to a <a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a> structure for an IPv4 TCP connection. 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> structure for an IPv4 TCP connection. 
 
 
 ### -param EstatsType
 
 The type of extended statistics for TCP to set. This parameter determines the data and format of information that is expected in the <i>Rw</i> parameter.
 
-This parameter can be one of the values from the <a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a> enumeration type defined in the <i>Tcpestats.h</i> header file. 
+This parameter can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a> enumeration type defined in the <i>Tcpestats.h</i> header file. 
 
 
 ### -param Rw
 
-A pointer to a buffer that contains the read/write information to set. The buffer should contain a value from the <a href="https://msdn.microsoft.com/68f8f797-06fb-4286-88bc-220c54977575">TCP_BOOLEAN_OPTIONAL</a> enumeration for each structure member that specifies how each member should be updated. 
+A pointer to a buffer that contains the read/write information to set. The buffer should contain a value from the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-_tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a> enumeration for each structure member that specifies how each member should be updated. 
 
 
 ### -param RwVersion
@@ -166,7 +166,7 @@ The request is not supported. This error is returned if the <i>RwVersion</i> or 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -197,49 +197,49 @@ The structure pointed to by the <i>Rw</i> parameter passed this function depends
 <tr>
 <td><b>TcpConnectionEstatsData</b></td>
 <td>
-<a href="https://msdn.microsoft.com/823cea66-f719-40f6-82bd-572623188446">TCP_ESTATS_DATA_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsSndCong</b></td>
 <td>
-<a href="https://msdn.microsoft.com/7fc7fb6a-4486-450f-b60e-8cf07b33c79a">TCP_ESTATS_SND_CONG_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsPath</b></td>
 <td>
-<a href="https://msdn.microsoft.com/460ad710-06aa-490a-9bac-5a8c731687e9">TCP_ESTATS_PATH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsSendBuff</b></td>
 <td>
-<a href="https://msdn.microsoft.com/1bc88d95-24d2-4ca3-9f4a-298d5c08f4de">TCP_ESTATS_SEND_BUFF_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsRec</b></td>
 <td>
-<a href="https://msdn.microsoft.com/e780ae7b-30c6-4890-8a8b-9e0b2739c176">TCP_ESTATS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsObsRec</b></td>
 <td>
-<a href="https://msdn.microsoft.com/91c2d5d9-3198-42a7-abf7-077281b491f2">TCP_ESTATS_OBS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsBandwidth</b></td>
 <td>
-<a href="https://msdn.microsoft.com/a9bf5ad3-a8db-4194-8e47-5a7409391f4c">TCP_ESTATS_BANDWIDTH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a>
 </td>
 </tr>
 <tr>
 <td><b>TcpConnectionEstatsFineRtt</b></td>
 <td>
-<a href="https://msdn.microsoft.com/35834c9a-2896-4c11-aef7-c55af7f6fef3">TCP_ESTATS_FINE_RTT_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a>
 </td>
 </tr>
 </table>
@@ -247,15 +247,15 @@ The structure pointed to by the <i>Rw</i> parameter passed this function depends
 
 
 
-The <i>Offset</i> parameter is currently unused and must be set to 0. The possible structures pointed to by the <i>Rw</i> parameter all have a single member except for the <a href="https://msdn.microsoft.com/a9bf5ad3-a8db-4194-8e47-5a7409391f4c">TCP_ESTATS_BANDWIDTH_RW_v0</a> structure.  When the <i>EstatsType</i> parameter is set to <b>TcpConnectionEstatsBandwidth</b>, the <b>TCP_ESTATS_BANDWIDTH_RW_v0</b> structure pointed to by the <i>Rw</i> parameter must have both structure members set  to the preferred values in a single call to the  <b>SetPerTcpConnectionEStats</b> function.
+The <i>Offset</i> parameter is currently unused and must be set to 0. The possible structures pointed to by the <i>Rw</i> parameter all have a single member except for the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a> structure.  When the <i>EstatsType</i> parameter is set to <b>TcpConnectionEstatsBandwidth</b>, the <b>TCP_ESTATS_BANDWIDTH_RW_v0</b> structure pointed to by the <i>Rw</i> parameter must have both structure members set  to the preferred values in a single call to the  <b>SetPerTcpConnectionEStats</b> function.
 
 If the <i>RwSize</i> parameter is set to 0, the <b>SetPerTcpConnectionEStats</b> function  returns NO_ERROR and makes no changes tothe extended statistics status.
 
-The <a href="https://msdn.microsoft.com/e90c5aa0-3126-489b-af44-bf86cb45a6d1">GetTcpTable</a> function is used to retrieve the IPv4 TCP connection table on the local computer. This function returns a <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> structure that contain an array of <a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a> entries. The <i>Row</i> parameter passed to the <b>SetPerTcpConnectionEStats</b> function must be an entry for an existing IPv4 TCP connection.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> function is used to retrieve the IPv4 TCP connection table on the local computer. This function returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a> structure that contain an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> entries. The <i>Row</i> parameter passed to the <b>SetPerTcpConnectionEStats</b> function must be an entry for an existing IPv4 TCP connection.
 
-Once extended statistics are enabled on a TCP connection for IPv4, applications call the <a href="https://msdn.microsoft.com/71b9d795-6050-4a1a-9949-2c970801f52c">GetPerTcpConnectionEStats</a> function to retrieve extended statistics on the TCP connection.
+Once extended statistics are enabled on a TCP connection for IPv4, applications call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> function to retrieve extended statistics on the TCP connection.
 
-The <a href="https://msdn.microsoft.com/71b9d795-6050-4a1a-9949-2c970801f52c">GetPerTcpConnectionEStats</a> function is designed to use TCP to diagnose performance
+The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> function is designed to use TCP to diagnose performance
    problems in both the network and the application.  If a network based
    application is performing poorly, TCP can determine if the bottleneck
    is in the sender, the receiver or the network itself.  If the
@@ -263,7 +263,7 @@ The <a href="https://msdn.microsoft.com/71b9d795-6050-4a1a-9949-2c970801f52c">Ge
    about its nature.
 
 
-For information on extended TCP statistics on an IPv6 connection, see the <a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">GetPerTcp6ConnectionEStats</a> and <a href="https://msdn.microsoft.com/89ace750-ec32-46cb-8526-233f847ba9f4">SetPerTcp6ConnectionEStats</a> functions.
+For information on extended TCP statistics on an IPv6 connection, see the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats">SetPerTcp6ConnectionEStats</a> functions.
 
 The <b>SetPerTcpConnectionEStats</b> function can only be called by a user logged on as a member of the Administrators group. If <b>SetPerTcpConnectionEStats</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. This function can also fail because of user account control (UAC) on Windows Vista and Windows Server 2008. If an application that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
@@ -277,63 +277,63 @@ The <b>SetPerTcpConnectionEStats</b> function can only be called by a user logge
 
 
 
-<a href="https://msdn.microsoft.com/291aabe7-a4e7-4cc7-9cf3-4a4bc021e15e">GetPerTcp6ConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/71b9d795-6050-4a1a-9949-2c970801f52c">GetPerTcpConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/e90c5aa0-3126-489b-af44-bf86cb45a6d1">GetTcpTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/89ace750-ec32-46cb-8526-233f847ba9f4">SetPerTcp6ConnectionEStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setpertcp6connectionestats">SetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/68f8f797-06fb-4286-88bc-220c54977575">TCP_BOOLEAN_OPTIONAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-_tcp_boolean_optional">TCP_BOOLEAN_OPTIONAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9bf5ad3-a8db-4194-8e47-5a7409391f4c">TCP_ESTATS_BANDWIDTH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_bandwidth_rw_v0">TCP_ESTATS_BANDWIDTH_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/823cea66-f719-40f6-82bd-572623188446">TCP_ESTATS_DATA_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_data_rw_v0">TCP_ESTATS_DATA_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/35834c9a-2896-4c11-aef7-c55af7f6fef3">TCP_ESTATS_FINE_RTT_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_fine_rtt_rw_v0">TCP_ESTATS_FINE_RTT_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/91c2d5d9-3198-42a7-abf7-077281b491f2">TCP_ESTATS_OBS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_obs_rec_rw_v0">TCP_ESTATS_OBS_REC_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/460ad710-06aa-490a-9bac-5a8c731687e9">TCP_ESTATS_PATH_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_path_rw_v0">TCP_ESTATS_PATH_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e780ae7b-30c6-4890-8a8b-9e0b2739c176">TCP_ESTATS_REC_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_rec_rw_v0">TCP_ESTATS_REC_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bc88d95-24d2-4ca3-9f4a-298d5c08f4de">TCP_ESTATS_SEND_BUFF_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_send_buff_rw_v0">TCP_ESTATS_SEND_BUFF_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fc7fb6a-4486-450f-b60e-8cf07b33c79a">TCP_ESTATS_SND_CONG_RW_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-_tcp_estats_snd_cong_rw_v0">TCP_ESTATS_SND_CONG_RW_v0</a>
 
 
 
-<a href="https://msdn.microsoft.com/96f55528-e74a-4360-a7a2-54ba19c3a284">TCP_ESTATS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
  
 
  

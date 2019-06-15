@@ -59,23 +59,23 @@ Gets the change notification sink interface.
 
 ### -param pISearchNotifyInlineSite [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a>*</b>
 
-A pointer to your <a href="https://msdn.microsoft.com/en-us/library/Bb231458(v=VS.85).aspx">ISearchNotifyInlineSite</a> interface.
+A pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a> interface.
 
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-The UUID of the <a href="https://msdn.microsoft.com/en-us/library/Bb231461(v=VS.85).aspx">ISearchItemsChangedSink</a> interface.
+The UUID of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink">ISearchItemsChangedSink</a> interface.
 
 
 ### -param ppv [out]
 
 Type: <b>void*</b>
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231461(v=VS.85).aspx">ISearchItemsChangedSink</a> interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink">ISearchItemsChangedSink</a> interface.
 
 
 ### -param pGUIDCatalogResetSignature [out]

@@ -61,19 +61,19 @@ Updates the value of a counter whose value is a 4-byte unsigned integer.  Provid
 
 ### -param Provider [in]
 
-The handle of the provider. Use the handle variable that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://msdn.microsoft.com/10112f43-f483-4ecb-aa7d-60efaad149c6">provider</a> element.
+The handle of the provider. Use the handle variable that the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element.
 
-<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a> function returns the handle.
+<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> function returns the handle.
 
 
 ### -param Instance [in]
 
-A <a href="https://msdn.microsoft.com/709d5339-cedd-4b03-9d8e-c125eb3bcac0">PERF_COUNTERSET_INSTANCE</a> structure that contains the counter set instance. The <a href="https://msdn.microsoft.com/73be8588-2c87-4c27-933d-62b8605ed9a3">PerfCreateInstance</a> function returns this pointer.
+A <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure that contains the counter set instance. The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfcreateinstance">PerfCreateInstance</a> function returns this pointer.
 
 
 ### -param CounterId [in]
 
-Identifier that uniquely identifies the counter to update in the instance block. The identifier is defined in the <b>id</b> attribute of the <a href="https://msdn.microsoft.com/library/Ee781346(v=VS.85).aspx">counter</a> element and must match the <b>CounterId</b> member of one of the <a href="https://msdn.microsoft.com/f1fb6ad5-ad38-46d0-b76d-803887ba3d97">PERF_COUNTER_INFO</a> structures in the instance block. Use the counter ID constant that the <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool generated for you. For the name of the constant, see the <b>symbol</b> attribute of the <b>counter</b> element.
+Identifier that uniquely identifies the counter to update in the instance block. The identifier is defined in the <b>id</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counter--counterset--element">counter</a> element and must match the <b>CounterId</b> member of one of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_info">PERF_COUNTER_INFO</a> structures in the instance block. Use the counter ID constant that the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the constant, see the <b>symbol</b> attribute of the <b>counter</b> element.
 
 <b>Windows Vista:  </b>The counter ID constant is not available.
 
@@ -91,7 +91,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -100,9 +100,9 @@ If the function fails, the return value is a
 
 
 
-This is a convenience function for setting raw counter data. To update the raw counter data yourself, use the <b>Offset</b> member of the <a href="https://msdn.microsoft.com/f1fb6ad5-ad38-46d0-b76d-803887ba3d97">PERF_COUNTER_INFO</a> structure to access the raw counter data for a specific counter. The <a href="https://msdn.microsoft.com/709d5339-cedd-4b03-9d8e-c125eb3bcac0">PERF_COUNTERSET_INSTANCE</a> structure block contains one or more counter information structures.
+This is a convenience function for setting raw counter data. To update the raw counter data yourself, use the <b>Offset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_info">PERF_COUNTER_INFO</a> structure to access the raw counter data for a specific counter. The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a> structure block contains one or more counter information structures.
 
-You can use the <a href="https://msdn.microsoft.com/002162a0-d782-4648-949e-178985fd1d44">PerfIncrementULongCounterValue</a> and <a href="https://msdn.microsoft.com/5e8b40d6-b794-4bac-8832-3eb14c49ecec">PerfDecrementULongCounterValue</a> functions to increment or decrement the counter value, respectively.
+You can use the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfincrementulongcountervalue">PerfIncrementULongCounterValue</a> and <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdecrementulongcountervalue">PerfDecrementULongCounterValue</a> functions to increment or decrement the counter value, respectively.
 
 
 
@@ -112,19 +112,19 @@ You can use the <a href="https://msdn.microsoft.com/002162a0-d782-4648-949e-1789
 
 
 
-<a href="https://msdn.microsoft.com/5e8b40d6-b794-4bac-8832-3eb14c49ecec">PerfDecrementULongCounterValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdecrementulongcountervalue">PerfDecrementULongCounterValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/002162a0-d782-4648-949e-178985fd1d44">PerfIncrementULongCounterValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfincrementulongcountervalue">PerfIncrementULongCounterValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/0694ff8c-4c36-4bf7-a2b3-c032bf7a2f65">PerfSetCounterRefValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetcounterrefvalue">PerfSetCounterRefValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/c38f9efc-7ea8-4841-9a31-a88d4f87369c">PerfSetULongLongCounterValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetulonglongcountervalue">PerfSetULongLongCounterValue</a>
  
 
  

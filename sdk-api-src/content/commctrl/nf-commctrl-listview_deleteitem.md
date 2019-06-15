@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes an item from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774895(v=VS.85).aspx">LVM_DELETEITEM</a> message explicitly. 
+Removes an item from a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-deleteitem">LVM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes an item from a list-view control. You can use this macro or send the <a 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 

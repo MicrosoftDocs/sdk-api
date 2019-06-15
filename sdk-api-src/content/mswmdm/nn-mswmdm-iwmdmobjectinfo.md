@@ -50,16 +50,16 @@ ms.custom: 19H1
 
 
 
-The <b>IWMDMObjectInfo</b> interface gets and sets information that controls how playable files on device are handled by the <a href="https://msdn.microsoft.com/e7b58957-4795-461f-ae3d-fb80e6711c9f">IWMDMDeviceControl</a> interface.
+The <b>IWMDMObjectInfo</b> interface gets and sets information that controls how playable files on device are handled by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl</a> interface.
 
-This interface is not intended for non-playable files. If the <b>IWMDMObjectInfo</b> interface is acquired from an <a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage</a> interface that represents a non-playable file, or a folder or a root file system containing no playable files, E_INVALIDTYPE is returned from all of the methods.
+This interface is not intended for non-playable files. If the <b>IWMDMObjectInfo</b> interface is acquired from an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface that represents a non-playable file, or a folder or a root file system containing no playable files, E_INVALIDTYPE is returned from all of the methods.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMObjectInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMDMObjectInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMObjectInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMObjectInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMDMObjectInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5b5cf7c-6969-497e-bf2c-e91ddb85f701">GetLastPlayPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getlastplayposition">GetLastPlayPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last play position of the object.
@@ -83,7 +83,7 @@ Retrieves the last play position of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81c7c30d-f217-4ea6-b785-bcccebd38d16">GetLongestPlayPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getlongestplayposition">GetLongestPlayPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the longest play position of the object.
@@ -92,7 +92,7 @@ Retrieves the longest play position of the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f553513-0928-41b8-858f-c06ec57660d1">GetPlayLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getplaylength">GetPlayLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the play length of the object in units pertinent to the object.
@@ -101,7 +101,7 @@ Retrieves the play length of the object in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8642404a-33ff-40b7-b05a-f193e8feadf5">GetPlayOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-getplayoffset">GetPlayOffset</a>
 </td>
 <td align="left" width="63%">
 Retrieves the play offset of the object, in units pertinent to the object.
@@ -110,7 +110,7 @@ Retrieves the play offset of the object, in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca0e0efc-ff2e-40d6-ace3-5644013bccff">GetTotalLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-gettotallength">GetTotalLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total play length of the object in units pertinent to the object.
@@ -119,7 +119,7 @@ Retrieves the total play length of the object in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dfa6443-4eb8-4a88-8af1-c082750e8d22">SetPlayLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplaylength">SetPlayLength</a>
 </td>
 <td align="left" width="63%">
 Sets the play length of the object, in units pertinent to the object.
@@ -128,7 +128,7 @@ Sets the play length of the object, in units pertinent to the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b47cf5e8-1d5c-4a47-bb9a-0bec7203f497">SetPlayOffset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplayoffset">SetPlayOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the play offset of the object, in units pertinent to the object.
@@ -143,11 +143,11 @@ Sets the play offset of the object, in units pertinent to the object.
 
 
 
-<a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bea867d6-a875-4150-9958-7f683cd215b9">Interfaces for Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
  
 
  

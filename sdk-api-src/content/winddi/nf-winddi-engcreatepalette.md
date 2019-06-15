@@ -158,7 +158,7 @@ The return value is a handle to the new palette if the function is successful. O
 
 
 
-The driver can associate the new palette with a device by returning a pointer to the palette in the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure.
+The driver can associate the new palette with a device by returning a pointer to the palette in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
 
 A PAL_INDEXED palette associated with the device must have its first index entry set to black (red = 0, green = 0, blue = 0) and its last entry set to white (255, 255, 255). All other entries should be set so that entries whose indexes are one's complements of each other have colors that contrast greatly. For example, if entry 0x9 of a 16 entry palette is set to pure green (0,255,0), entry 0x6 (=~0x9) should be set to a color that contrasts well with green, such as dark purple (128,0,128). Setting entries in this way allows XOR raster operations to behave reasonably.
 
@@ -170,15 +170,15 @@ A PAL_INDEXED palette associated with the device must have its first index entry
 
 
 
-<a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7be48e6-188b-4b23-a494-30adcc18f12e">DrvSetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpalette">DrvSetPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebdbbb4e-aaa8-4fb7-9546-545dce803054">EngDeletePalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepalette">EngDeletePalette</a>
  
 
  

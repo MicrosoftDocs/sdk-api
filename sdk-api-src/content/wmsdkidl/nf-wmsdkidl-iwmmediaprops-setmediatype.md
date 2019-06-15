@@ -65,7 +65,7 @@ The <b>SetMediaType</b> method specifies the media type.
 
 ### -param pType [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd757963(v=VS.85).aspx">WM_MEDIA_TYPE</a> structure describing the input, stream, or output.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmmediatype">WM_MEDIA_TYPE</a> structure describing the input, stream, or output.
 
 
 ## -returns
@@ -122,7 +122,7 @@ There is not enough available memory.
 
 
 
-It is possible to successfully set a media type in this method that will ultimately be rejected as invalid when the profile is set on the writer. For a list of tests that the writer performs on the profile, see <a href="https://msdn.microsoft.com/en-us/library/Dd757507(v=VS.85).aspx">IWMWriter::SetProfile</a>.
+It is possible to successfully set a media type in this method that will ultimately be rejected as invalid when the profile is set on the writer. For a list of tests that the writer performs on the profile, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile">IWMWriter::SetProfile</a>.
 
 
 
@@ -132,11 +132,11 @@ It is possible to successfully set a media type in this method that will ultimat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757229(v=VS.85).aspx">IWMMediaProps::GetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype">IWMMediaProps::GetMediaType</a>
  
 
  

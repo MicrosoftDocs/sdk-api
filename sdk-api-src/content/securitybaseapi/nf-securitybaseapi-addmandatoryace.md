@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>AddMandatoryAce</b> function adds a <a href="https://msdn.microsoft.com/77b7716c-b445-4473-a2e3-4a78f9fbebe3">SYSTEM_MANDATORY_LABEL_ACE</a> <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) to the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL).
+ The <b>AddMandatoryAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL).
 
 
 ## -parameters
@@ -68,7 +68,7 @@ ms.custom: 19H1
 
 A pointer to an 
  SACL. This function adds a mandatory ACE to the end of this SACL. The ACE is in the form of a 
-<a href="https://msdn.microsoft.com/77b7716c-b445-4473-a2e3-4a78f9fbebe3">SYSTEM_MANDATORY_LABEL_ACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a> structure.
 
 
 ### -param dwAceRevision [in]
@@ -108,7 +108,7 @@ The SACL contains object-specified ACEs.
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance. This function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure of the new ACE.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure of the new ACE.
 
 This parameter can be a combination of the following values.
 
@@ -234,7 +234,7 @@ A pointer to an SID that specifies the mandatory integrity level of the object a
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following are possible error values.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -264,7 +264,7 @@ The new ACE does not fit into the <i>pAcl</i> buffer.
 
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -274,7 +274,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 
-<a href="https://msdn.microsoft.com/77b7716c-b445-4473-a2e3-4a78f9fbebe3">SYSTEM_MANDATORY_LABEL_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_mandatory_label_ace">SYSTEM_MANDATORY_LABEL_ACE</a>
  
 
  

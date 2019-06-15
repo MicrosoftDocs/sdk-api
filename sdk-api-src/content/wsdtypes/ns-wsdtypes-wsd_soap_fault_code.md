@@ -59,12 +59,12 @@ Represents a generated SOAP fault code.
 
 ### -field Value
 
-A <a href="https://msdn.microsoft.com/9dce71d2-700c-4f86-9308-dee6a69010bb">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault code.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_name">WSDXML_NAME</a> structure that contains the  qualified name of the SOAP fault code.
 
 
 ### -field Subcode
 
-A <a href="https://msdn.microsoft.com/cd8f35e4-7b22-4af0-b6a4-78f43ed8b060">WSD_SOAP_FAULT_SUBCODE</a> structure that contains the fault subcode.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault_subcode">WSD_SOAP_FAULT_SUBCODE</a> structure that contains the fault subcode.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ A <a href="https://msdn.microsoft.com/cd8f35e4-7b22-4af0-b6a4-78f43ed8b060">WSD_
 
 
 
-<a href="https://msdn.microsoft.com/ed5e2575-203a-41a2-b656-50cb82aae088">WSD_SOAP_FAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_soap_fault">WSD_SOAP_FAULT</a>
  
 
  

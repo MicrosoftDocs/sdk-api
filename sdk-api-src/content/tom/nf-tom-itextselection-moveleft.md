@@ -121,7 +121,7 @@ The actual count of units the insertion point or active end is moved left. This 
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -175,7 +175,7 @@ The WordBasic move methods like
 The 
 				<i>Extend</i> argument of 
 				<b>MoveLeft</b> and
-				 <a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a> enables you to be consistent with the first three items above, and the 
+				 <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a> enables you to be consistent with the first three items above, and the 
 				<i>pDelta</i> is a generalization of the fourth. For example, given a selection consisting of a single range, you have the following correspondences (for left-to-right characters).
 
 <table class="clsStd">
@@ -215,7 +215,7 @@ When
 				<i>Count</i> has the default value of 1 and 
 				<i>Extend</i> has the default value of zero. This example corresponds to pressing the Left Arrow key. 
 				<b>MoveLeft</b> and 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a> are related to the <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
+				<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a> are related to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> move methods, but differ in that they explicitly use the active end (the end moved by pressing the Shift key).
 
 
 
@@ -229,15 +229,15 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
 
 
 
@@ -245,7 +245,7 @@ When
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

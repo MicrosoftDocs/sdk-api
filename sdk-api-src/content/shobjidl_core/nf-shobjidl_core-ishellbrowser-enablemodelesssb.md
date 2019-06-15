@@ -79,7 +79,7 @@ Returns <b>S_OK</b> if successful, or a COM-defined error value otherwise.
 
 
 
-This method is similar to the <a href="https://msdn.microsoft.com/4c6ea1ee-861d-45ff-a9d2-d3b241f00c9f">IOleInPlaceFrame::EnableModeless</a> method. Although the current version of Windows Explorer does not have any modeless dialog boxes, the view should call this method when it wants to disable or enable modeless dialog boxes associated with the Windows Explorer window.
+This method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-enablemodeless">IOleInPlaceFrame::EnableModeless</a> method. Although the current version of Windows Explorer does not have any modeless dialog boxes, the view should call this method when it wants to disable or enable modeless dialog boxes associated with the Windows Explorer window.
 
 
 
@@ -89,7 +89,7 @@ This method is similar to the <a href="https://msdn.microsoft.com/4c6ea1ee-861d-
 
 
 
-<a href="https://msdn.microsoft.com/138d90e3-a1f0-4faf-88ca-16c7a46df0ca">IShellBrowser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
  
 
  

@@ -52,9 +52,9 @@ ms.custom: 19H1
 The 
 <b>HttpAddUrl</b> function registers a given URL so that requests that match it are routed to a specified HTTP Server API request queue. An application can register multiple URLs to a single request queue using repeated calls to 
 <b>HttpAddUrl</b>. For more information about how HTTP Server API matches request URLs to registered URLs, see 
-<a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix Strings</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>.
 
-Starting with HTTP Server API Version 2.0,  applications should call <a href="https://msdn.microsoft.com/e6bf68aa-d6a5-4079-b689-49cfc2303ba5">HttpAddUrlToUrlGroup</a> to register a URL; <b>HttpAddUrl</b> should not be used.
+Starting with HTTP Server API Version 2.0,  applications should call <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a> to register a URL; <b>HttpAddUrl</b> should not be used.
 
 
 ## -parameters
@@ -65,15 +65,15 @@ Starting with HTTP Server API Version 2.0,  applications should call <a href="ht
 ### -param RequestQueueHandle [in]
 
 The handle to the request queue to which requests for the specified URL are to be routed. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://msdn.microsoft.com/c3741092-c23a-465f-9a65-5bcbf977fad3">HttpCreateHttpHandle</a> function.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 
 ### -param FullyQualifiedUrl [in]
 
 A pointer to a Unicode string that contains a properly formed 
-<a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix string</a> that identifies the URL to be registered.
+<a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that identifies the URL to be registered.
 
 
 ### -param Reserved
@@ -113,7 +113,7 @@ The calling application does not have permission to register the URL.
 </td>
 <td width="60%">
 The calling application did not call 
-<a href="https://msdn.microsoft.com/bc0648a9-bacf-4b09-aa4e-66aecbbdca3d">HttpInitialize</a> before calling this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpinitialize">HttpInitialize</a> before calling this function.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ Insufficient resources to complete the operation.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">syst
 
 
 
-As stated in the <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix Strings</a> topic, the scheme specification of the UrlPrefix to be registered must be either lower-case "http" or lower-case "https". No other substring is valid.
+As stated in the <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a> topic, the scheme specification of the UrlPrefix to be registered must be either lower-case "http" or lower-case "https". No other substring is valid.
 
 Also, it is not possible to register URLs having different schemes on the same port. That is, "http" and "https" schemes cannot coexist on a port.
 
@@ -180,7 +180,7 @@ Also be aware that
 
 To release the resources allocated as a result of the registration performed by 
 <b>HttpAddUrl</b>, make a matching call to the 
-<a href="https://msdn.microsoft.com/21740d08-c280-44c1-8efb-1d21b4006039">HttpRemoveUrl</a> function when your application has finished with the namespace involved.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a> function when your application has finished with the namespace involved.
 
 
 
@@ -190,15 +190,15 @@ To release the resources allocated as a result of the registration performed by
 
 
 
-<a href="https://msdn.microsoft.com/1da9907d-a09d-41e1-aca1-9a8e2b91296f">HTTP Server API Version 1.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6bf68aa-d6a5-4079-b689-49cfc2303ba5">HttpAddUrlToUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/21740d08-c280-44c1-8efb-1d21b4006039">HttpRemoveUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>
  
 
  

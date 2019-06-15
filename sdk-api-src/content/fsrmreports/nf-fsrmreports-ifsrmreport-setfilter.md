@@ -60,7 +60,7 @@ Sets the current value of the specified report filter.
 ### -param filter [in]
 
 The filter used to  limit the files listed in a report. For possible values, see the 
-      <a href="https://msdn.microsoft.com/6f38ec9a-8876-44ce-9d44-f3982f1880ca">FsrmReportFilter</a> enumeration.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportfilter">FsrmReportFilter</a> enumeration.
 
 
 ### -param filterValue [in]
@@ -84,16 +84,16 @@ The method returns the following return values.
 
 
 The filter value overrides the default value set using the 
-    <a href="https://msdn.microsoft.com/5a3165a9-8161-4dad-b8b9-d0c3f54f1803">IFsrmReportManager::SetDefaultFilter</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setdefaultfilter">IFsrmReportManager::SetDefaultFilter</a> 
     method.
 
 Note that each report type supports a specific set of filters. To determine if the filter is valid for the 
     report type, call the 
-    <a href="https://msdn.microsoft.com/e9f93b97-c8ac-441a-9f6b-87d45bd10cdf">IFsrmReportManager::IsFilterValidForReportType</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-isfiltervalidforreporttype">IFsrmReportManager::IsFilterValidForReportType</a> 
     method.
 
 The following list lists the variant types associated with the 
-    <a href="https://msdn.microsoft.com/6f38ec9a-8876-44ce-9d44-f3982f1880ca">FsrmReportFilter</a> enumeration values used for the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportfilter">FsrmReportFilter</a> enumeration values used for the 
     <i>filter</i> parameter.
 
 <table>
@@ -166,7 +166,7 @@ The following list lists the variant types associated with the
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/2dd5420b-33ab-4831-83b8-a9a4b2201a60">Adding a Report to a Job</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/adding-a-report-to-a-job">Adding a Report to a Job</a>.
 
 <div class="code"></div>
 
@@ -177,7 +177,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/2172a543-b3b7-453e-887b-05c8ee74f197">IFsrmReport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
  
 
  

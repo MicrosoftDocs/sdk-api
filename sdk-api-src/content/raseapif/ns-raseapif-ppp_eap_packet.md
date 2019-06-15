@@ -134,31 +134,31 @@ Specifies the data transmitted by this packet. If the packet is a request or a r
 
 
 
-<a href="https://msdn.microsoft.com/f2f1cf75-18d4-4764-a747-24662f166eb7">EAP Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-structures">EAP Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3cb25ce-6fb9-4fca-8662-3efef14238a5">Extensible Authentication Protocol Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/722e8185-3408-418b-ae80-e2ed261edcd1">PPP_EAP_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_info">PPP_EAP_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a8f118-323d-4040-91f7-202eeee6d227">PPP_EAP_INPUT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_input">PPP_EAP_INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1634973-f6af-4be3-914a-513098c5fccf">PPP_EAP_OUTPUT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/ns-raseapif-_ppp_eap_output">PPP_EAP_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e75964b9-f5d6-494e-8620-07f0e97bcd09">RasEapGetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetinfo">RasEapGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e38c155-2fa0-42c8-a843-c90e4f3f8854">RasEapMakeMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
  
 
  

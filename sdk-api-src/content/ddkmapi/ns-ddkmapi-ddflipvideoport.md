@@ -64,7 +64,7 @@ Specifies the Microsoft DirectDraw handle.
 
 ### -field hVideoPort
 
-Specifies the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object handle.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object handle.
 
 
 ### -field hCurrentSurface
@@ -79,7 +79,7 @@ Specifies the handle of the DirectDrawSurface to which the flip occurs.
 
 ### -field dwFlags
 
-Indicates whether the surfaces represent <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VBI</a> surfaces or regular surfaces. One of the following: 
+Indicates whether the surfaces represent <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> surfaces or regular surfaces. One of the following: 
 
 <table>
 <tr>
@@ -115,11 +115,11 @@ Flips the normal video surface.
 
 
 
-<a href="https://msdn.microsoft.com/b6f3a208-2866-4a57-b428-a0dd4ac3b5d4">DD_DXAPI_FLIP_VP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550618(v=vs.85)">DD_DXAPI_FLIP_VP</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

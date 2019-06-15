@@ -58,12 +58,12 @@ ms.custom: 19H1
 
 ### -param click [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629055(v=VS.85).aspx">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl___midl_itf_ctfutb_0000_0010_0001">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
 
 
 ### -param pt [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
 
 
 ### -param prcArea [in]
@@ -115,11 +115,11 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/619a6f21-fbac-455c-a702-0302ce13112b">ITfLangBarItemBalloon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -127,7 +127,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/7fd151dd-e4be-4ec8-b373-2115717d5ef4">TfLBIClick
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctfutb-__midl___midl_itf_ctfutb_0000_0010_0001">TfLBIClick
       </a>
  
 

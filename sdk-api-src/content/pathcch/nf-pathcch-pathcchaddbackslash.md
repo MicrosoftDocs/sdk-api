@@ -56,10 +56,10 @@ Adds a backslash to the end of a string to create the correct syntax for a path.
 
 This function differs from <b>PathCchAddBackslash</b> in that you are restricted to a final path of length MAX_PATH.
 
-This function differs from <a href="https://msdn.microsoft.com/27d8aec7-8b00-412a-9a42-8ce27e262781">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, or <a href="https://msdn.microsoft.com/89adf45f-f16d-49d1-9e76-b57b73b4d4c3">PathCchAddBackslashEx</a>, should be used in place of <a href="https://msdn.microsoft.com/27d8aec7-8b00-412a-9a42-8ce27e262781">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 
@@ -90,7 +90,7 @@ This function returns S_OK if the function was successful, S_FALSE if the path s
 
 
 
-<a href="https://msdn.microsoft.com/89adf45f-f16d-49d1-9e76-b57b73b4d4c3">PathCchAddBackslashEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>
  
 
  

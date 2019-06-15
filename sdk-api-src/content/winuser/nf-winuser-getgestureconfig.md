@@ -91,7 +91,7 @@ An array of gesture configuration structures that specify the gesture configurat
 
 ### -param cbSize [in]
 
-The size of the gesture configuration (<a href="https://msdn.microsoft.com/4ec5050e-7fef-4f52-89af-5237e8cdbdb8">GESTURECONFIG</a>) structure.
+The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureconfig">GESTURECONFIG</a>) structure.
 
 
 ## -returns
@@ -103,7 +103,7 @@ If the function succeeds, the return value is nonzero.
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="http://msdn.microsoft.com/en-us/library/ms679360.aspx">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -114,7 +114,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 Passing a value other than <code>sizeof(GESTURECONFIG)</code> for the 
       <i>cbSize</i> parameter will cause calls to this function to fail and 
-      <a href="http://msdn.microsoft.com/en-us/library/ms679360.aspx">GetLastError</a> will 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will 
       return <b>ERROR_INVALID_PARAMETER</b> (87 in decimal).    
       
 
@@ -163,15 +163,15 @@ The following table lists the gesture configuration values:
 
 
 
-<a href="https://msdn.microsoft.com/830031d1-eb8d-45d4-b66e-3f4fbb96ae13">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ec5050e-7fef-4f52-89af-5237e8cdbdb8">GESTURECONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taggestureconfig">GESTURECONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/afd61b18-4e54-44c5-9b71-74908c76c7ac">Programming Guide for Gestures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
  
 
  

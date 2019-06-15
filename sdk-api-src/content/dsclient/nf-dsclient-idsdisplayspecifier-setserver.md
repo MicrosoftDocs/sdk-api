@@ -80,19 +80,19 @@ Contains a set of flags used to bind to the directory service. This can be zero 
 
 #### DSSSF_SIMPLEAUTHENTICATE (1 (0x1))
 
-The <a href="https://msdn.microsoft.com/a6ac7006-73b8-4673-89d6-8285453481d3">IDsDisplaySpecifier</a> object uses simple authentication instead of secure authentication.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object uses simple authentication instead of secure authentication.
 
 
 
 #### DSSSF_DONTSIGNSEAL (2 (0x2))
 
-The <a href="https://msdn.microsoft.com/a6ac7006-73b8-4673-89d6-8285453481d3">IDsDisplaySpecifier</a> object does not use signing and sealing when opening objects.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object does not use signing and sealing when opening objects.
 
 
 
 #### DSSSF_DSAVAILABLE (2147483648 (0x80000000))
 
-The <a href="https://msdn.microsoft.com/a6ac7006-73b8-4673-89d6-8285453481d3">IDsDisplaySpecifier</a> object will not check whether the directory server is available.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object will not check whether the directory server is available.
 
 
 ## -returns
@@ -108,7 +108,7 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 
-The server data is cached by the <a href="https://msdn.microsoft.com/a6ac7006-73b8-4673-89d6-8285453481d3">IDsDisplaySpecifier</a> object. The <b>IDsDisplaySpecifier</b> object does not actually bind to the server until a specific method, such as <a href="https://msdn.microsoft.com/c4fc25f6-0157-406d-b523-8542183291ed">IDsDisplaySpecifier::GetDisplaySpecifier</a>,  is called.
+The server data is cached by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a> object. The <b>IDsDisplaySpecifier</b> object does not actually bind to the server until a specific method, such as <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">IDsDisplaySpecifier::GetDisplaySpecifier</a>,  is called.
 
 
 
@@ -118,15 +118,15 @@ The server data is cached by the <a href="https://msdn.microsoft.com/a6ac7006-73
 
 
 
-<a href="https://msdn.microsoft.com/f53d4425-5496-45f8-a09b-f163b63a29c8">Display Interfaces in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6ac7006-73b8-4673-89d6-8285453481d3">IDsDisplaySpecifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4fc25f6-0157-406d-b523-8542183291ed">IDsDisplaySpecifier::GetDisplaySpecifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier">IDsDisplaySpecifier::GetDisplaySpecifier</a>
  
 
  

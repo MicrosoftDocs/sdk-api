@@ -89,7 +89,7 @@ The name of the published remote application.
 
 ### -param pSessionState [in]
 
-A pointer to the  <a href="https://msdn.microsoft.com/en-us/library/Ee351749(v=VS.85).aspx">TSSESSION_STATE</a> value of the sessions to enumerate.
+A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-_tssession_state">TSSESSION_STATE</a> value of the sessions to enumerate.
 
 
 ### -param pdwCount [in, out]
@@ -116,7 +116,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d25b6f73-ee5f-40e4-9c49-fd48dd3990d2">ITsSbGlobalStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbglobalstore">ITsSbGlobalStore</a>
  
 
  

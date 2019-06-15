@@ -63,7 +63,7 @@ Gets application-defined data from a DirectML device object.
 
 ### -param guid [in]
 
-Type: <b><a href="http://msdn.microsoft.com/en-us/library/cc237815(PROT.13).aspx">REFGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
 
 The <b>GUID</b> that is associated with the data.
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IkeextSaEnum2</b> function returns the next page of results from the IKE/AuthIP security association (SA) enumerator.
-<div class="alert"><b>Note</b>  <b>IkeextSaEnum2</b> is the specific implementation of IkeextSaEnum used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/245448b0-f7bb-4890-80c0-04ddc90c96f2">IkeextSaEnum1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/a38e266d-2155-4dd4-b12e-5f1a40ca776e">IkeextSaEnum0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IkeextSaEnum2</b> is the specific implementation of IkeextSaEnum used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsaenum1">IkeextSaEnum1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsaenum0">IkeextSaEnum0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -61,14 +61,14 @@ The <b>IkeextSaEnum2</b> function returns the next page of results from the IKE/
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param enumHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle for an IKE/AuthIP SA enumeration. Call <a href="https://msdn.microsoft.com/c72ec488-0721-406e-8ca0-6a34873e2683">IkeextSaCreateEnumHandle0</a> to obtain an enumeration handle.
+Handle for an IKE/AuthIP SA enumeration. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsacreateenumhandle0">IkeextSaCreateEnumHandle0</a> to obtain an enumeration handle.
 
 
 ### -param numEntriesRequested [in]
@@ -80,7 +80,7 @@ Number of enumeration entries requested.
 
 ### -param entries [out]
 
-Type: <b><a href="https://msdn.microsoft.com/51b8f3a8-bccc-4d1f-871f-9a319ed5c49c">IKEEXT_SA_DETAILS2</a>***</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2_">IKEEXT_SA_DETAILS2</a>***</b>
 
 Addresses of the enumeration entries.
 
@@ -123,7 +123,7 @@ The SAs were enumerated successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Failure to communicate with the remote or local firewall engine.
 
 If the <i>numEntriesReturned</i> is less than the <i>numEntriesRequested</i>, the enumeration is exhausted. 
 
-The returned array of entries (but not the individual entries themselves) must be freed by a call to <a href="https://msdn.microsoft.com/ba9f8c1e-f75c-4bf0-b68b-e21a358575fc">FwpmFreeMemory0</a>.
+The returned array of entries (but not the individual entries themselves) must be freed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
 A subsequent call using the same enumeration handle will return the next set of items following those in the last output buffer.
 
@@ -165,11 +165,11 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-<a href="https://msdn.microsoft.com/51b8f3a8-bccc-4d1f-871f-9a319ed5c49c">IKEEXT_SA_DETAILS2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_sa_details2_">IKEEXT_SA_DETAILS2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c72ec488-0721-406e-8ca0-6a34873e2683">IkeextSaCreateEnumHandle0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ikeextsacreateenumhandle0">IkeextSaCreateEnumHandle0</a>
  
 
  

@@ -60,23 +60,23 @@ Creates a pixel shader.
 
 ### -param pFunction [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to the pixel shader function token array, specifying the blending operations. This value cannot be <b>NULL</b>. 
 
 
 ### -param ppShader [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205869(v=VS.85).aspx">IDirect3DPixelShader9</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9">IDirect3DPixelShader9</a>**</b>
 
-Pointer to the returned pixel shader interface. See <a href="https://msdn.microsoft.com/en-us/library/Bb205869(v=VS.85).aspx">IDirect3DPixelShader9</a>.
+Pointer to the returned pixel shader interface. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dpixelshader9">IDirect3DPixelShader9</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, 
 E_OUTOFMEMORY.
@@ -89,15 +89,15 @@ E_OUTOFMEMORY.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172707(v=VS.85).aspx">D3DXAssembleShader</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxassembleshader">D3DXAssembleShader</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172708(v=VS.85).aspx">D3DXAssembleShaderFromFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dxassembleshaderfromfile">D3DXAssembleShaderFromFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
  
 
  

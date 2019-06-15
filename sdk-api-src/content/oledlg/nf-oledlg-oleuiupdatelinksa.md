@@ -61,7 +61,7 @@ Updates all links in the link container and displays a dialog box that shows the
 
 ### -param lpOleUILinkCntr [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a> interface on the link container.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface on the link container.
 
 
 ### -param hwndParent [in]
@@ -93,11 +93,11 @@ Returns <b>TRUE</b> if the links were successfully updated; otherwise, <b>FALSE<
 
 
 
-<a href="https://msdn.microsoft.com/136894a6-ddf6-4a47-80f5-997625362536">IOleUILinkContainer::GetLinkUpdateOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getlinkupdateoptions">IOleUILinkContainer::GetLinkUpdateOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fccee32a-3a6f-4ef8-9ca7-c5b664ee03cf">IOleUILinkContainer::UpdateLink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-updatelink">IOleUILinkContainer::UpdateLink</a>
  
 
  

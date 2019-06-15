@@ -66,7 +66,7 @@ The index of the interface to be returned.
 
 ### -param ppTInfo [out]
 
-If successful, returns a pointer to the pointer to the <a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> interface.
+If successful, returns a pointer to the pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface.
 
 
 
@@ -100,7 +100,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The <i>index</i> parameter is outside the range of  to <a href="https://msdn.microsoft.com/63436bee-c71b-4d32-bfca-426c8953a75b">GetTypeInfoCount</a> - 1.
+The <i>index</i> parameter is outside the range of  to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfocount">GetTypeInfoCount</a> - 1.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Insufficient memory to complete the operation.
 
 
 
-For dual interfaces, <b>GetTypeInfo</b>returns only the TKIND_DISPATCH type information. To get the TKIND_INTERFACE type information, <a href="https://msdn.microsoft.com/aec61a9a-fa4f-42cd-a74b-100cdf2c2624">GetRefTypeOfImplType</a> can be called on the TKIND_DISPATCH type information, passing an index of –1. Then, the returned type information handle can be passed to <a href="https://msdn.microsoft.com/61d3b31d-6591-4e55-9e82-5246a168be00">GetRefTypeInfo</a>.
+For dual interfaces, <b>GetTypeInfo</b>returns only the TKIND_DISPATCH type information. To get the TKIND_INTERFACE type information, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeofimpltype">GetRefTypeOfImplType</a> can be called on the TKIND_DISPATCH type information, passing an index of –1. Then, the returned type information handle can be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getreftypeinfo">GetRefTypeInfo</a>.
 
 
 #### Examples
@@ -175,7 +175,7 @@ if (FAILED(hr)) {
 
 
 
-<a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
  
 
  

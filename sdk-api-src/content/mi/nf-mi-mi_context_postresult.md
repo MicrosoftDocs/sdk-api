@@ -80,7 +80,7 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 
 
-All calls to the <a href="https://msdn.microsoft.com/1e7fb986-0896-44cb-9b19-e3576911058c">MI_Context_PostIndication</a> and <a href="https://msdn.microsoft.com/b7c5e677-5b49-48b8-8273-4fd04c2f4a90">MI_Context_PostInstance</a> functions must be complete before calling this function. When this function is called, the lifetime of the request context is terminated; the context becomes invalid, and no additional calls can be made on the context.
+All calls to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_postindication">MI_Context_PostIndication</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_postinstance">MI_Context_PostInstance</a> functions must be complete before calling this function. When this function is called, the lifetime of the request context is terminated; the context becomes invalid, and no additional calls can be made on the context.
 
 
 
@@ -90,15 +90,15 @@ All calls to the <a href="https://msdn.microsoft.com/1e7fb986-0896-44cb-9b19-e35
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e7fb986-0896-44cb-9b19-e3576911058c">MI_Context_PostIndication</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_postindication">MI_Context_PostIndication</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7c5e677-5b49-48b8-8273-4fd04c2f4a90">MI_Context_PostInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_postinstance">MI_Context_PostInstance</a>
  
 
  

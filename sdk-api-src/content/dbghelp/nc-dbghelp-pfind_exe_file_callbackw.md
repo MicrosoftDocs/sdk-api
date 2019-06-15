@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/7571e168-2e91-4c97-9139-8225d28cc399">FindExecutableImageEx</a> function. It verifies whether the executable file found by 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a> function. It verifies whether the executable file found by 
 <b>FindExecutableImageEx</b> is the correct executable file.
 
 The <b>PFIND_EXE_FILE_CALLBACK</b> and <b>PFIND_EXE_FILE_CALLBACKW</b> types define a pointer to this callback function. 
@@ -91,11 +91,11 @@ If the executable file is valid, return <b>TRUE</b>. Otherwise, return <b>FALSE<
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7571e168-2e91-4c97-9139-8225d28cc399">FindExecutableImageEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-findexecutableimageex">FindExecutableImageEx</a>
  
 
  

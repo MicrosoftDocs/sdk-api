@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Cancels the registration that was made by calling the <a href="https://msdn.microsoft.com/C57F5758-2BF7-444E-A22C-62C925B899A1">WerRegisterAppLocalDump</a> function to specify that Windows Error Reporting (WER) should  save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
+Cancels the registration that was made by calling the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterapplocaldump">WerRegisterAppLocalDump</a> function to specify that Windows Error Reporting (WER) should  save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/C57F5758-2BF7-444E-A22C-62C925B899A1">WerRegisterAppLocalDump</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterapplocaldump">WerRegisterAppLocalDump</a>
  
 
  

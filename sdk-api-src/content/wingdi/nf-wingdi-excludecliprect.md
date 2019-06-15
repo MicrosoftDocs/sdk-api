@@ -159,15 +159,15 @@ The lower and right edges of the specified rectangle are not excluded from the c
 
 
 
-<a href="https://msdn.microsoft.com/de9e5786-63d8-47be-8522-e96d7c0f8634">Clipping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e966369-9988-4bfa-af37-b1bbb3488880">Clipping Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b3f9bfb-337b-45f0-b9ec-399e5f563638">IntersectClipRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-intersectcliprect">IntersectClipRect</a>
  
 
  

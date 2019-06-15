@@ -100,7 +100,7 @@ The method succeeded.
 
 The dialog box that is created is modal, and runs in its own thread.
 
-To close the dialog, call <a href="https://msdn.microsoft.com/8690c67b-5f96-4e8c-8685-91fe5ed65511">Destroy</a>.
+To close the dialog, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-destroy">Destroy</a>.
 
 
 
@@ -110,11 +110,11 @@ To close the dialog, call <a href="https://msdn.microsoft.com/8690c67b-5f96-4e8c
 
 
 
-<a href="https://msdn.microsoft.com/a3928874-5a15-43d9-9d9c-8b66478b0597">IPhotoProgressDialog Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/8690c67b-5f96-4e8c-8685-91fe5ed65511">IPhotoProgressDialog::Destroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-destroy">IPhotoProgressDialog::Destroy</a>
  
 
  

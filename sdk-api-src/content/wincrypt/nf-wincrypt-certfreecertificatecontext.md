@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertFreeCertificateContext</b> function frees a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a> by decrementing its <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">reference count</a>. When the reference count goes to zero, <b>CertFreeCertificateContext</b> frees the memory used by a certificate context.
+The <b>CertFreeCertificateContext</b> function frees a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> by decrementing its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>. When the reference count goes to zero, <b>CertFreeCertificateContext</b> frees the memory used by a certificate context.
 
 To free a context obtained by a get, duplicate, or create function, call the appropriate free function.  To free a context obtained by a find or enumerate function, either pass it in   as the previous context parameter to a subsequent invocation of the function, or call the appropriate free function.  For more information, see the  reference topic for the function that obtains the context.
 
@@ -62,7 +62,7 @@ To free a context obtained by a get, duplicate, or create function, call the app
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> to be freed.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> to be freed.
 
 
 ## -returns
@@ -79,11 +79,11 @@ The function always returns nonzero.
 
 
 
-<a href="https://msdn.microsoft.com/19a590a5-bd39-4bbe-ad86-4e648baa1ba8">CertFreeCRLContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761761(v=VS.85).aspx">DTM_GETMCFONT</a> message explicitly. 
+Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getmcfont">DTM_GETMCFONT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the font that the date and time picker (DTP) control's child month calendar
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control. 
 

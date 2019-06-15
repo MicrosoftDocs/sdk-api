@@ -86,7 +86,7 @@ The information level of the data. This parameter can be one of the following va
 </td>
 <td width="60%">
 A local group name. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/dfdb4c20-ea4a-45c9-b4f3-d6a844f89bb6">LOCALGROUP_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ A local group name. The <i>buf</i> parameter points to a
 </td>
 <td width="60%">
 A local group name and a comment to associate with the group. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/b96d7ddc-3ffb-4203-88b1-4aa123051695">LOCALGROUP_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -108,13 +108,13 @@ A local group name and a comment to associate with the group. The <i>buf</i> par
 ### -param buf [in]
 
 A pointer to a buffer that contains the local group information structure. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 
 ### -param parm_err [out]
 
 A pointer to a value that receives the index of the first member of the local group information structure to cause the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the Remarks section in the 
-<a href="https://msdn.microsoft.com/c1d2a68b-0910-4815-9547-0f0f3c983164">NetLocalGroupSetInfo</a> topic.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupsetinfo">NetLocalGroupSetInfo</a> topic.
 
 
 ## -returns
@@ -229,9 +229,9 @@ The user name exists. This error is returned if the group name member in the str
 
 
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
-<a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits only Domain Admins and Account Operators to call this function. On a member server or workstation, only Administrators and Power Users can call this function. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the user container is used to perform the access check for this function. The caller must be able to create child objects of the group class.
 
@@ -248,10 +248,10 @@ If the
 <tr>
 <td>LOCALGROUP_NAME_PARMNUM</td>
 <td>
-If the <i>level</i> parameter was 0, the <b>lgrpi0_name</b> member of the <a href="https://msdn.microsoft.com/dfdb4c20-ea4a-45c9-b4f3-d6a844f89bb6">LOCALGROUP_INFO_0</a> 
+If the <i>level</i> parameter was 0, the <b>lgrpi0_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a> 
 		 structure was invalid.
 
-If the <i>level</i> parameter was 1, the <b>lgrpi1_name</b> member of the <a href="https://msdn.microsoft.com/b96d7ddc-3ffb-4203-88b1-4aa123051695">LOCALGROUP_INFO_1</a> 
+If the <i>level</i> parameter was 1, the <b>lgrpi1_name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a> 
 		 structure was invalid.  
 
 </td>
@@ -259,7 +259,7 @@ If the <i>level</i> parameter was 1, the <b>lgrpi1_name</b> member of the <a hre
 <tr>
 <td>LOCALGROUP_COMMENT_PARMNUM</td>
 <td>
-If the <i>level</i> parameter was 1, the <b>lgrpi1_comment</b> member of the <a href="https://msdn.microsoft.com/b96d7ddc-3ffb-4203-88b1-4aa123051695">LOCALGROUP_INFO_1</a> 
+If the <i>level</i> parameter was 1, the <b>lgrpi1_comment</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a> 
 		 structure was invalid.  
 
 </td>
@@ -268,7 +268,7 @@ If the <i>level</i> parameter was 1, the <b>lgrpi1_comment</b> member of the <a 
  
 
 When making requests to a domain controller and Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same results as the network management local group functions. For more information, see 
-<a href="https://msdn.microsoft.com/dbf0c424-e906-4a72-a369-81bf96275bbc">IADsGroup</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>.
 
 
 
@@ -278,42 +278,42 @@ When making requests to a domain controller and Active Directory, you may be abl
 
 
 
-<a href="https://msdn.microsoft.com/dfdb4c20-ea4a-45c9-b4f3-d6a844f89bb6">LOCALGROUP_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_0">LOCALGROUP_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/b96d7ddc-3ffb-4203-88b1-4aa123051695">LOCALGROUP_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_localgroup_info_1">LOCALGROUP_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed4c59d6-6532-4190-9807-95678053fc72">Local Group
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/local-group-functions">Local Group
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857">NetLocalGroupAddMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupaddmembers">NetLocalGroupAddMembers</a>
 
 
 
-<a href="https://msdn.microsoft.com/b26bfd52-c20a-4f6f-9503-87cac5168362">NetLocalGroupDel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupdel">NetLocalGroupDel</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1d2a68b-0910-4815-9547-0f0f3c983164">NetLocalGroupSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupsetinfo">NetLocalGroupSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>
  
 
  

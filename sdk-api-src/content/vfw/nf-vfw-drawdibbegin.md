@@ -86,7 +86,7 @@ Height, in <b>MM_TEXT</b> client units, of the destination rectangle.
 
 ### -param lpbi
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB follows the image format and the <b>biHeight</b> member must be a positive value.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the image format. The color table for the DIB follows the image format and the <b>biHeight</b> member must be a positive value.
           
 
 
@@ -116,7 +116,7 @@ Applicable flags for the function. The following values are defined.
 </tr>
 <tr>
 <td>DDF_ANIMATE</td>
-<td>Allows palette animation. If this value is present, DrawDib reserves as many entries as possible by setting <b>PC_RESERVED</b> in the <b>palPalEntry</b> array entries of the <a href="http://go.microsoft.com/fwlink/p/?linkid=17000">LOGPALETTE</a> structure, and the palette can be animated by using the <a href="https://msdn.microsoft.com/8c94ecac-d12c-45c4-8a11-e17502bd7d5d">DrawDibChangePalette</a> function. If your application uses the <b>DrawDibBegin</b> function with the <a href="https://msdn.microsoft.com/b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4">DrawDibDraw</a> function, set this value with <b>DrawDibBegin</b> rather than <b>DrawDibDraw</b>.</td>
+<td>Allows palette animation. If this value is present, DrawDib reserves as many entries as possible by setting <b>PC_RESERVED</b> in the <b>palPalEntry</b> array entries of the <a href="http://go.microsoft.com/fwlink/p/?linkid=17000">LOGPALETTE</a> structure, and the palette can be animated by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibchangepalette">DrawDibChangePalette</a> function. If your application uses the <b>DrawDibBegin</b> function with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> function, set this value with <b>DrawDibBegin</b> rather than <b>DrawDibDraw</b>.</td>
 </tr>
 <tr>
 <td>DDF_BACKGROUNDPAL</td>
@@ -124,7 +124,7 @@ Applicable flags for the function. The following values are defined.
 </tr>
 <tr>
 <td>DDF_BUFFER</td>
-<td>Causes DrawDib to try to use an off-screen buffer so <b>DDF_UPDATE</b> can be used. This disables decompression and drawing directly to the screen. If DrawDib is unable to create an off-screen buffer, it will decompress or draw directly to the screen. For more information, see the <b>DDF_UPDATE</b> and <b>DDF_DONTDRAW</b> values described for <a href="https://msdn.microsoft.com/b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4">DrawDibDraw</a>.</td>
+<td>Causes DrawDib to try to use an off-screen buffer so <b>DDF_UPDATE</b> can be used. This disables decompression and drawing directly to the screen. If DrawDib is unable to create an off-screen buffer, it will decompress or draw directly to the screen. For more information, see the <b>DDF_UPDATE</b> and <b>DDF_DONTDRAW</b> values described for <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a>.</td>
 </tr>
 <tr>
 <td>DDF_DONTDRAW</td>
@@ -136,15 +136,15 @@ Applicable flags for the function. The following values are defined.
 </tr>
 <tr>
 <td>DDF_HALFTONE</td>
-<td>Always dithers the DIB to a standard palette regardless of the palette of the DIB. If your application uses <b>DrawDibBegin</b> with <a href="https://msdn.microsoft.com/b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4">DrawDibDraw</a>, set this value with <b>DrawDibBegin</b> rather than <b>DrawDibDraw</b>.</td>
+<td>Always dithers the DIB to a standard palette regardless of the palette of the DIB. If your application uses <b>DrawDibBegin</b> with <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a>, set this value with <b>DrawDibBegin</b> rather than <b>DrawDibDraw</b>.</td>
 </tr>
 <tr>
 <td>DDF_JUSTDRAWIT</td>
-<td>Draws the image by using GDI. Prohibits DrawDib functions from decompressing, stretching, or dithering the image. This strips DrawDib of capabilities that differentiate it from the <a href="https://msdn.microsoft.com/3d57a79a-338d-48ab-8161-3ce17739bf20">StretchDIBits</a> function.</td>
+<td>Draws the image by using GDI. Prohibits DrawDib functions from decompressing, stretching, or dithering the image. This strips DrawDib of capabilities that differentiate it from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> function.</td>
 </tr>
 <tr>
 <td>DDF_SAME_DRAW</td>
-<td>Use the current drawing parameters for <a href="https://msdn.microsoft.com/b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4">DrawDibDraw</a>. Use this value only if <i>lpbi</i>, <i>dxDest</i>, <i>dyDest</i>, <i>dxSrc</i>, and <i>dySrc</i> have not changed since using <b>DrawDibDraw</b> or <b>DrawDibBegin</b>. This flag supersedes the <b>DDF_SAME_DIB</b> and <b>DDF_SAME_SIZE</b> flags.</td>
+<td>Use the current drawing parameters for <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a>. Use this value only if <i>lpbi</i>, <i>dxDest</i>, <i>dyDest</i>, <i>dxSrc</i>, and <i>dySrc</i> have not changed since using <b>DrawDibDraw</b> or <b>DrawDibBegin</b>. This flag supersedes the <b>DDF_SAME_DIB</b> and <b>DDF_SAME_SIZE</b> flags.</td>
 </tr>
 <tr>
 <td>DDF_SAME_HDC</td>
@@ -185,7 +185,7 @@ If the parameters of <b>DrawDibBegin</b> have not changed, subsequent calls to t
 
 
 
-<a href="https://msdn.microsoft.com/9ba47b8d-5328-477e-9272-21e897e54348">DrawDib Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
  
 
  

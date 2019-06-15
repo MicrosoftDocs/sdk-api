@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_Language</b> method retrieves the 
-<a href="https://msdn.microsoft.com/9b0608d1-b6e8-4cf9-8119-3c2909156516">Language</a> property of the 
-<a href="https://msdn.microsoft.com/3157f07d-99de-4628-9b03-eb86eb4896a4">Dependency</a> object. This method returns the <b>LANGID</b> of the required module.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. This method returns the <b>LANGID</b> of the required module.
 
 
 ## -parameters
@@ -109,11 +109,11 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/517cf174-418a-4717-a25f-1736225016a1">IMsmDependency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmdependency">IMsmDependency</a>
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

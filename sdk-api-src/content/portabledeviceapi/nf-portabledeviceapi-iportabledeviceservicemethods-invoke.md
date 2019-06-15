@@ -64,12 +64,12 @@ The method to invoke.
 
 ### -param pParameters [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that contains the parameters of the invoked method, or <b>NULL</b> to indicate that the method has no parameters.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that contains the parameters of the invoked method, or <b>NULL</b> to indicate that the method has no parameters.
 
 
 ### -param ppResults [in, out]
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that receives the method results, or <b>NULL</b> to ignore the method results.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that receives the method results, or <b>NULL</b> to ignore the method results.
 
 
 ## -returns
@@ -86,12 +86,12 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-The method invocation is synchronous and will not return until the method has completed. For long-running methods, your application should call the <a href="https://msdn.microsoft.com/0acf416c-4d59-4eb5-b1ce-aef848b54949">InvokeAsync</a> method instead.
+The method invocation is synchronous and will not return until the method has completed. For long-running methods, your application should call the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync">InvokeAsync</a> method instead.
 
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://msdn.microsoft.com/3a2796c8-1a39-49eb-98e1-c9e06c61f397">Invoking Service Methods</a>
+For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/invoking-methods-synchronously">Invoking Service Methods</a>
 
 
 <div class="code"></div>
@@ -103,11 +103,11 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/9d233dea-91b6-4358-830c-6abe466264e5">IPortableDeviceServiceMethods Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a2796c8-1a39-49eb-98e1-c9e06c61f397">Invoking Service Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/invoking-methods-synchronously">Invoking Service Methods</a>
  
 
  

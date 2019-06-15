@@ -73,7 +73,7 @@ The binding for the channel/listener.
 
 ### -field channelType
 
-The <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">type of channel</a> being hosted by the endpoint.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">type of channel</a> being hosted by the endpoint.
                 
 
 

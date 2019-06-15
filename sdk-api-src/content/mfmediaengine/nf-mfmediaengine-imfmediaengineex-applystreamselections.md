@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Applies the stream selections from previous calls to <a href="https://msdn.microsoft.com/12F0FDD0-0D8C-496D-B5C4-3FBCBCAAC6FB">SetStreamSelection</a>.
+Applies the stream selections from previous calls to <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-setstreamselection">SetStreamSelection</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/EE3591FD-4FE8-4F20-A4E2-52C896229571">IMFMediaEngineEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
  
 
  

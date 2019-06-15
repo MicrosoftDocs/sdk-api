@@ -73,11 +73,11 @@ When setting the end IP address, this property validates that it is a valid mult
 
 
 
-<a href="https://msdn.microsoft.com/0a522633-87da-426c-9778-30949257e931">IWdsTransportServicePolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736537(v=VS.85).aspx">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0006">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
  
 
  

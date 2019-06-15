@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Retrieves a <a href="https://msdn.microsoft.com/39f49762-de86-4a1a-ac7b-327b65c3eb54">IInkRecognitionAlternates</a> collection, which are a division of the <a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate</a> object on which this method is called.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection, which are a division of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object on which this method is called.
 
 
 
@@ -63,14 +63,14 @@ Retrieves a <a href="https://msdn.microsoft.com/39f49762-de86-4a1a-ac7b-327b65c3
 
 ### -param PropertyType [in]
 
-Specifies a string value that identifies the property. For a list of the properties that can be used, see <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">RecognitionProperty</a>.
+Specifies a string value that identifies the property. For a list of the properties that can be used, see <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a>.
 
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ### -param AlternatesWithConstantPropertyValues [out, retval]
 
-When this method returns, contains an <a href="https://msdn.microsoft.com/39f49762-de86-4a1a-ac7b-327b65c3eb54">IInkRecognitionAlternates</a> collection which is made up of a division of the alternate on which this method is called. Each <a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate</a> object in the collection contains adjacent recognition segments which have the same property value for the <i>propertyType</i> parameter.
+When this method returns, contains an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection which is made up of a division of the alternate on which this method is called. Each <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object in the collection contains adjacent recognition segments which have the same property value for the <i>propertyType</i> parameter.
 
 
 ## -returns
@@ -158,17 +158,17 @@ For example, you can return alternates that divide the original alternate by:
 <li>Line boundaries.</li>
 <li>Recognition segment boundaries.</li>
 </ul>
-For a complete list of property types, see <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">RecognitionProperty</a>.
+For a complete list of property types, see <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a>.
 
-<div class="alert"><b>Note</b>  The recognizer determines the segmentation of strokes into the recognition segments. Some recognition segments, such as spaces, may correspond to an empty <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.</div>
+<div class="alert"><b>Note</b>  The recognizer determines the segmentation of strokes into the recognition segments. Some recognition segments, such as spaces, may correspond to an empty <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  The recognizer determines the ordering of the recognition segments. Therefore, adjacent recognition segments may be based on the order in which the ink was drawn or based on location, such as whether it is positioned left-to-right, positioned top-to-bottom, and so on.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/ef3ab614-7aff-4660-bb2a-783f14e75b94">ConfidenceAlternates</a> property is an alternative to the <b>AlternatesWithConstantPropertyValues</b> method, where <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">ConfidenceLevel</a> is the RecognitionProperty that separates the alternates in the returned recognition alternates collection.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates">ConfidenceAlternates</a> property is an alternative to the <b>AlternatesWithConstantPropertyValues</b> method, where <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">ConfidenceLevel</a> is the RecognitionProperty that separates the alternates in the returned recognition alternates collection.
 
-The <a href="https://msdn.microsoft.com/ccdf3092-b0a0-4626-b614-164548b1ca72">LineAlternates</a> property is an alternative to the <b>AlternatesWithConstantPropertyValues</b> method, where <a href="https://msdn.microsoft.com/2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8">LineNumber</a> is the RecognitionProperty that separates the alternates in the returned recognition alternates collection.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates</a> property is an alternative to the <b>AlternatesWithConstantPropertyValues</b> method, where <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">LineNumber</a> is the RecognitionProperty that separates the alternates in the returned recognition alternates collection.
 
-<div class="alert"><b>Note</b>  The <b>AlternatesWithConstantPropertyValues</b> method, the <a href="https://msdn.microsoft.com/ccdf3092-b0a0-4626-b614-164548b1ca72">LineAlternates</a> property, and the <a href="https://msdn.microsoft.com/ef3ab614-7aff-4660-bb2a-783f14e75b94">ConfidenceAlternates</a> property of the <a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate</a> object function differently than the <a href="https://msdn.microsoft.com/506b36bc-390c-42ef-9a5e-8f15129d47f8">AlternatesFromSelection</a> method of the <a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult</a> object. <b>AlternatesFromSelection</b> returns a collection of alternates for the requested segments of the recognition result.</div>
+<div class="alert"><b>Note</b>  The <b>AlternatesWithConstantPropertyValues</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates</a> property, and the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates">ConfidenceAlternates</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object function differently than the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">AlternatesFromSelection</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult</a> object. <b>AlternatesFromSelection</b> returns a collection of alternates for the requested segments of the recognition result.</div>
 <div> </div>
 
 
@@ -178,31 +178,31 @@ The <a href="https://msdn.microsoft.com/ccdf3092-b0a0-4626-b614-164548b1ca72">Li
 
 
 
-<a href="https://msdn.microsoft.com/ef3ab614-7aff-4660-bb2a-783f14e75b94">ConfidenceAlternates Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidencealternates">ConfidenceAlternates Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/506b36bc-390c-42ef-9a5e-8f15129d47f8">GetAlternatesFromSelection Method</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms698186(v=vs.85)">GetAlternatesFromSelection Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2ebf45a-b995-4fbc-b86d-b94d1f48f659">GetPropertyValue Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getpropertyvalue">GetPropertyValue Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/39f49762-de86-4a1a-ac7b-327b65c3eb54">IInkRecognitionAlternates Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd7ee250-6f76-419b-8164-0d2717ea288c">IInkRecognitionResult Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult">IInkRecognitionResult Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccdf3092-b0a0-4626-b614-164548b1ca72">LineAlternates Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates Property</a>
  
 
  

@@ -81,7 +81,7 @@ If you set this property while collecting a stroke or strokes, the ink does not 
 
 
 
-<a href="https://msdn.microsoft.com/e39e3fc3-bcdc-4d88-8051-18ed8b183c79">GetFlattenedBezierPoints Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getflattenedbezierpoints">GetFlattenedBezierPoints Method</a>
 
 
 
@@ -89,11 +89,11 @@ If you set this property while collecting a stroke or strokes, the ink does not 
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/10ca7ae5-28dd-42a2-98d9-852d4de5869d">InkDrawingAttributes Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
  
 
  

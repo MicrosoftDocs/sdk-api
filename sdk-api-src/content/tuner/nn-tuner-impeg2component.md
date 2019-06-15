@@ -57,7 +57,7 @@ The <b>IMPEG2Component</b> interface contains methods for getting and setting pr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2Component</b> interface inherits from <a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent</a>. <b>IMPEG2Component</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2Component</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>. <b>IMPEG2Component</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMPEG2Component</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b31f04b6-e2b1-450b-9f1f-2df0c9055da2">get_PCRPID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_pcrpid">get_PCRPID</a>
 </td>
 <td align="left" width="63%">
 Returns the MPEG2 Packet ID (PID) for this substream's time stamps.
@@ -81,7 +81,7 @@ Returns the MPEG2 Packet ID (PID) for this substream's time stamps.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d6b0b2f-fe48-4fc5-bb3b-639bb8ee2df8">get_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_pid">get_PID</a>
 </td>
 <td align="left" width="63%">
 Get the packet identifier for this substream.
@@ -90,7 +90,7 @@ Get the packet identifier for this substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a501c65d-26cf-44f4-b134-2a1080095eaa">get_ProgramNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-get_programnumber">get_ProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the program number, which provides a reverse lookup to PAT.
@@ -99,7 +99,7 @@ Gets the program number, which provides a reverse lookup to PAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cfe55ec9-cf07-40c5-98da-cb23393490d0">put_PCRPID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_pcrpid">put_PCRPID</a>
 </td>
 <td align="left" width="63%">
 Sets the MPEG2 Packet ID for this substream's time stamps.
@@ -108,7 +108,7 @@ Sets the MPEG2 Packet ID for this substream's time stamps.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bc19b79-1586-470d-85d5-3ef1babe60e2">put_PID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_pid">put_PID</a>
 </td>
 <td align="left" width="63%">
 Set the packet identifier for this substream.
@@ -117,7 +117,7 @@ Set the packet identifier for this substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8bc605f-6e3f-427c-a91e-2d4cbb59b65e">put_ProgramNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-impeg2component-put_programnumber">put_ProgramNumber</a>
 </td>
 <td align="left" width="63%">
 Sets the program number, which provides a reverse lookup to PAT.
@@ -141,11 +141,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

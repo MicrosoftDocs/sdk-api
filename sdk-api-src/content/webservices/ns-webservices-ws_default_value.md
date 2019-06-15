@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Defines a default value for a field.  This is used
-                in a <a href="https://msdn.microsoft.com/8b562fab-f3c5-4732-b993-f7f61ca14ab6">WS_FIELD_DESCRIPTION</a>.
+                in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 

@@ -56,7 +56,7 @@ Provides access
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransformProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITransformProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransformProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransformProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ITransformProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5abd6b54-a555-4e6f-9868-9c9b3e2f6e50">Move</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider-move">Move</a>
 </td>
 <td align="left" width="63%">
 Moves the control. 
@@ -81,7 +81,7 @@ Moves the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba22f770-1306-4c15-bc72-a928b91e0eb5">Resize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider-resize">Resize</a>
 </td>
 <td align="left" width="63%">
 Resizes the control.
@@ -90,7 +90,7 @@ Resizes the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e8255de-b28d-4fc4-82ea-4255771f9838">Rotate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider-rotate">Rotate</a>
 </td>
 <td align="left" width="63%">
 Rotates the control.
@@ -108,7 +108,7 @@ Rotates the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/82392d66-2a9d-4951-a687-833737d424ec">CanMove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider-get_canmove">CanMove</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Indicates whether the control can be moved.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fd7cb359-6e71-44c2-b1c0-4fd7e210244e">CanResize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider-get_canresize">CanResize</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Indicates whether the control can be resized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9943a5d7-916d-4546-8aba-fe5abe3e4eb2">CanRotate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itransformprovider-get_canrotate">CanRotate</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Indicates whether the control can be rotated.
 
 
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/e1d862a0-8085-42b4-9710-cf11e1a467cf">Transform</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtransform">Transform</a> control pattern.
             
 
 Support for this  control pattern is not limited to objects on the desktop. 
@@ -176,11 +176,11 @@ Support for this  control pattern is not limited to objects on the desktop.
 
 
 
-<a href="https://msdn.microsoft.com/763F30BC-782A-43ED-9DE4-97A237D7B9F8">ITransformProvider2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider2">ITransformProvider2</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

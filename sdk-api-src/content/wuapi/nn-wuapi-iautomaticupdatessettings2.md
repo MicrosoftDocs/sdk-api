@@ -54,7 +54,7 @@ Contains the settings that are available in Automatic Updates.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdatesSettings2</b> interface inherits from <a href="https://msdn.microsoft.com/c4672df5-9e47-45f5-9504-1ebb0bf3c6a6">IAutomaticUpdatesSettings</a>. <b>IAutomaticUpdatesSettings2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAutomaticUpdatesSettings2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>. <b>IAutomaticUpdatesSettings2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAutomaticUpdatesSettings2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fbf36d9f-98c1-4b9d-b479-a9203b6ce952">CheckPermission</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-checkpermission">CheckPermission</a>
 </td>
 <td align="left" width="63%">
 Determines whether a specific user or type of user has permission to perform a selected action.
@@ -88,7 +88,7 @@ Determines whether a specific user or type of user has permission to perform a s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/502b0490-8834-496a-8691-d9325ad86799">IncludeRecommendedUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-get_includerecommendedupdates">IncludeRecommendedUpdates</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Gets and sets a Boolean value that indicates whether to include optional or reco
 
 
 
-The <b>IAutomaticUpdatesSettings2</b> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://msdn.microsoft.com/829112ab-b240-4cc4-8053-18b484934886">Updating Windows Update Agent</a>.
+The <b>IAutomaticUpdatesSettings2</b> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 
 
@@ -118,7 +118,7 @@ The <b>IAutomaticUpdatesSettings2</b> interface  may require you to update the W
 
 
 
-<a href="https://msdn.microsoft.com/c4672df5-9e47-45f5-9504-1ebb0bf3c6a6">IAutomaticUpdatesSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
  
 
  

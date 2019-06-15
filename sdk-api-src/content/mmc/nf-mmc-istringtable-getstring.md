@@ -100,11 +100,11 @@ If lpBuffer is not large enough to hold the entire string corresponding to Strin
 
 
 
-<a href="https://msdn.microsoft.com/3b4cfc92-4f50-4b62-bb2c-77c8e0e003da">IStringTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/1924c4fa-ecbb-4f03-8c93-e2bb3dc8f4e3">IStringTable::GetStringLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-getstringlength">IStringTable::GetStringLength</a>
  
 
  

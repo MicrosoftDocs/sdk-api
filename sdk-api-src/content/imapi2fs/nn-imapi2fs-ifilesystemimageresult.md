@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Use this interface to get information about the burn image, the image data stream, and progress information.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/6f7d2438-5c80-4461-8b48-646f0ca44498">IFileSystemImage::CreateResultImage</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage">IFileSystemImage::CreateResultImage</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImageResult</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFileSystemImageResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImageResult</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFileSystemImageResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFileSystemImageResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe6d14d7-f3ae-4634-b8b4-1793f8007826">get_BlockSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_blocksize">get_BlockSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size, in bytes, of a block of data.
@@ -80,7 +80,7 @@ Retrieves the size, in bytes, of a block of data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2288b4e4-6f36-4830-a077-dcf710741911">get_DiscId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_discid">get_DiscId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the disc volume name for this file system image.
@@ -89,7 +89,7 @@ Retrieves the disc volume name for this file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87e4bde6-c8c3-43b6-b096-514fdef5e262">get_ImageStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_imagestream">get_ImageStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves the burn image stream.
@@ -98,7 +98,7 @@ Retrieves the burn image stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4ef572d-7e18-4537-847c-419441befe00">get_ProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_progressitems">get_ProgressItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves the progress item block mapping collection.
@@ -107,7 +107,7 @@ Retrieves the progress item block mapping collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e895ed4f-67cb-43c2-aeb2-9a3ddb79c4fd">get_TotalBlocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_totalblocks">get_TotalBlocks</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of blocks in the result image.
@@ -131,11 +131,11 @@ This is an <b>FileSystemImageResult</b> object in script.
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f7d2438-5c80-4461-8b48-646f0ca44498">IFileSystemImage::CreateResultImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage">IFileSystemImage::CreateResultImage</a>
  
 
  

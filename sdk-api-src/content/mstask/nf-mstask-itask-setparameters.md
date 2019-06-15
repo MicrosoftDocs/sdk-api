@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the command-line parameters for the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the command-line parameters for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
 
 
 ## -parameters
@@ -126,7 +126,7 @@ After setting the parameters of the task, be sure to call <b>IPersistFile::Save<
 
 #### Examples
 
-For an example of how to set parameters, see <a href="https://msdn.microsoft.com/cd71379a-7eb2-4966-a28b-5b7d31d60c16">C/C++ Code Example: Setting Task Parameters</a>.
+For an example of how to set parameters, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-setting-task-parameters">C/C++ Code Example: Setting Task Parameters</a>.
 
 <div class="code"></div>
 
@@ -137,7 +137,7 @@ For an example of how to set parameters, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
  
 
  

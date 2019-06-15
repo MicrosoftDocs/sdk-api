@@ -115,7 +115,7 @@ The parameter is of type <b>Out</b> and is returned from a method.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -125,19 +125,19 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-<a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef97bfa4-2e06-44b1-aa50-ce8c6a550c69">MI_Instance_ClearElementAt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_clearelementat">MI_Instance_ClearElementAt</a>
 
 
 
-<a href="https://msdn.microsoft.com/a378bde1-c164-4905-82f8-f771f8da60ba">MI_Instance_GetElementCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_getelementcount">MI_Instance_GetElementCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/4070af24-b7f9-4484-ab13-d3a52c9e55a0">MI_Instance_SetElementAt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_setelementat">MI_Instance_SetElementAt</a>
  
 
  

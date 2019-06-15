@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-Adds members to the <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList Class</a>.
+Adds members to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInkWordList2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkWordList2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,10 +73,10 @@ The <b>IInkWordList2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65afd260-f2ef-4744-a623-bcec4c742d61">AddWords Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist2-addwords">AddWords Method</a>
 </td>
 <td align="left" width="63%">
-Adds more than one word to an <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList</a> in a single operation.
+Adds more than one word to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Adds more than one word to an <a href="https://msdn.microsoft.com/d189fd13-ec69-
 
 
 
-<a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
  
 
  

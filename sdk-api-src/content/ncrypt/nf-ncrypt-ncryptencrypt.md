@@ -126,7 +126,7 @@ If you specify the <b>NCRYPT_NO_PADDING_FLAG</b>, then the <b>NCryptEncrypt</b> 
 </dl>
 </td>
 <td width="60%">
-Use the Optimal Asymmetric Encryption Padding (OAEP) scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/19f48f2d-e952-4a01-8112-f298c79919b2">BCRYPT_OAEP_PADDING_INFO</a> structure.
+Use the Optimal Asymmetric Encryption Padding (OAEP) scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oaep_padding_info">BCRYPT_OAEP_PADDING_INFO</a> structure.
 
 </td>
 </tr>

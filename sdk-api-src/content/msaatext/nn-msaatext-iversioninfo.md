@@ -58,7 +58,7 @@ Exposes methods that supply version information for accessible elements.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVersionInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVersionInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVersionInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVersionInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IVersionInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae54ad59-665c-494c-8054-3f19aec9968f">GetBuildVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getbuildversion">GetBuildVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the build version.
@@ -82,7 +82,7 @@ Retrieves the build version.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb689adb-bd94-4c62-b408-33e1aa694c89">GetComponentDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getcomponentdescription">GetComponentDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the component.
@@ -91,7 +91,7 @@ Retrieves a description of the component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/018834df-bd03-4bf5-8af2-b325f7a6a586">GetImplementationID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getimplementationid">GetImplementationID</a>
 </td>
 <td align="left" width="63%">
 Retrieves an implementation identifier.
@@ -100,7 +100,7 @@ Retrieves an implementation identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8aa3fd3-9869-4c24-8c9a-752947d21002">GetInstanceDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getinstancedescription">GetInstanceDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the instance.
@@ -109,7 +109,7 @@ Retrieves a description of the instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1a169f1-db47-4c5b-9515-1f2660cfae17">GetSubcomponentCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iversioninfo-getsubcomponentcount">GetSubcomponentCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of subcomponents for which version information is returned.

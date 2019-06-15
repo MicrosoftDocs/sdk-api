@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves information about the specified icon or cursor. <b>GetIconInfoEx</b> extends <a href="https://msdn.microsoft.com/en-us/library/ms648070(v=VS.85).aspx">GetIconInfo</a> by using the newer <a href="https://msdn.microsoft.com/en-us/library/ms648053(v=VS.85).aspx">ICONINFOEX</a> structure.
+Retrieves information about the specified icon or cursor. <b>GetIconInfoEx</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a> by using the newer <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfoexa">ICONINFOEX</a> structure.
 
 
 ## -parameters
@@ -300,7 +300,7 @@ Question-mark icon.
 
 Type: <b>PICONINFOEX</b>
 
-When this method returns, contains a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms648053(v=VS.85).aspx">ICONINFOEX</a> structure. The function fills in the structure's members.
+When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfoexa">ICONINFOEX</a> structure. The function fills in the structure's members.
 
 
 ## -returns
@@ -318,7 +318,7 @@ Type: <b>BOOL</b>
 
 
 
-<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="https://msdn.microsoft.com/en-us/library/ms648053(v=VS.85).aspx">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
+<b>GetIconInfoEx</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b> or members of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfoexa">ICONINFOEX</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
@@ -335,43 +335,43 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648059(v=VS.85).aspx">CreateIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648060(v=VS.85).aspx">CreateIconFromResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648062(v=VS.85).aspx">CreateIconIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648064(v=VS.85).aspx">DrawIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648065(v=VS.85).aspx">DrawIconEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648052(v=VS.85).aspx">ICONINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-_iconinfo">ICONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648073(v=VS.85).aspx">LookupIconIdFromDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>
 
 
 

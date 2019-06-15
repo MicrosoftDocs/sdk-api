@@ -53,9 +53,9 @@ Describes a 2D vector consisting of 16-bit signed and normalized integer compone
     
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMSHORT2</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415426(v=VS.85).aspx">XMSHORT2 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
+	using <code>XMSHORT2</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmshort2-extensions">XMSHORT2 Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type
+	Equivalences</a> for information about equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -98,7 +98,7 @@ TBD
 
 
 
-The components are normalized when this structure is loaded into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadshort2">XMLoadShort2</a>. Each component will be divided by 32767.0f.
+The components are normalized when this structure is loaded into an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadshort2">XMLoadShort2</a>. Each component will be divided by 32767.0f.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -114,11 +114,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415426(v=VS.85).aspx">XMSHORT2 Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmshort2-extensions">XMSHORT2 Extensions</a>
  
 
  

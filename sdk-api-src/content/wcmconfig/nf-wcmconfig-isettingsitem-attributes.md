@@ -59,7 +59,7 @@ Gets the dictionary of attributes.
 
 ### -param Attributes [out]
 
-A pointer to an  <a href="https://msdn.microsoft.com/f43245f1-81d9-4b06-8f0c-d490618a99fa">IItemEnumerator</a> object that represents the dictionary of attributes.
+A pointer to an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-iitemenumerator">IItemEnumerator</a> object that represents the dictionary of attributes.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It may retu
 
 
 
-<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
  
 
  

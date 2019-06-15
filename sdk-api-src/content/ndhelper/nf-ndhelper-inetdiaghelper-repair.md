@@ -59,7 +59,7 @@ The <b>Repair</b> method performs a repair specified by the input parameter.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/07639ac5-e586-4ab1-96e8-502c378de940">RepairInfo</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfo">RepairInfo</a> structure.
 
 
 ### -param pDeferredTime [out]
@@ -69,7 +69,7 @@ A pointer to the time, in seconds, to be deferred if the repair cannot be starte
 
 ### -param pStatus [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/efc3b64f-d3f3-41da-ae43-c7d8df9bf8e1">REPAIR_STATUS</a> that is returned from the repair.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagrepair_status">REPAIR_STATUS</a> that is returned from the repair.
 
 
 ## -returns
@@ -169,7 +169,7 @@ This method is not required when building a Helper Class Extension.
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

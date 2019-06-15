@@ -61,7 +61,7 @@ The
 ### -param bstrDeviceIdentifier [in]
 
 Specifies the device identifier of the device. Use the identifier returned by 
-<a href="https://msdn.microsoft.com/1bb99a42-143b-495a-8b02-efa7ca1d4d29">IUPnPRegistrar::RegisterDevice</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdevice">IUPnPRegistrar::RegisterDevice</a>.
 
 
 ### -param bstrXMLDesc [in]
@@ -72,13 +72,13 @@ Specifies the XML device description template of the device to register.
 ### -param bstrProgIDDeviceControlClass [in]
 
 Specifies the ProgID of a device control object that implements the 
-<a href="https://msdn.microsoft.com/c5d68459-f4ba-4df1-a00c-be86e24ce29f">IUPnPDeviceControl</a> interface. This interface must be an in-process COM server (CLSCTX_INPROC_SERVER) and must be accessible to <a href="https://msdn.microsoft.com/5409e2fe-a349-4739-a481-f8a35fd3c9b4">LocalService</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a> interface. This interface must be an in-process COM server (CLSCTX_INPROC_SERVER) and must be accessible to <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.
 
 
 ### -param bstrInitString [in]
 
 Identifies the initialization string specific to the device. This string is later passed to 
-<a href="https://msdn.microsoft.com/0c1ea343-f04b-414d-92cf-044cb117bc9c">IUPnPDeviceControl::Initialize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a>.
 
 
 ### -param bstrContainerId [in]
@@ -114,7 +114,7 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 </dl>
 </td>
 <td width="60%">
-The device has not been registered. Use <a href="https://msdn.microsoft.com/4b494b7e-4fcc-4de0-bdcc-96c68a5e0688">RegisterRunningDevice</a> to register an unregistered device.
+The device has not been registered. Use <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice">RegisterRunningDevice</a> to register an unregistered device.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The device has not been registered. Use <a href="https://msdn.microsoft.com/4b49
 </dl>
 </td>
 <td width="60%">
-The device is currently running. Use <a href="https://msdn.microsoft.com/e5e9257e-1143-416c-8862-a69b726f5e23">ReregisterRunningDevice</a> to reregister a device while it is running.
+The device is currently running. Use <a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpreregistrar-reregisterrunningdevice">ReregisterRunningDevice</a> to reregister a device while it is running.
 
 </td>
 </tr>
@@ -206,17 +206,17 @@ A required element is missing.
 
 
 Use the identifier returned in <i>pbstrDeviceIdentifier</i> when invoking 
-<a href="https://msdn.microsoft.com/76fca00c-8638-4e2f-8dd1-20b24cde0108">IUPnPRegistrar::UnregisterDevice</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">IUPnPRegistrar::UnregisterDevice</a>.
 
 
 Common errors that can occur when invoking this function include:
 
 <ul>
 <li>The necessary COM object was not found.</li>
-<li>There is no access to the COM object for <a href="https://msdn.microsoft.com/5409e2fe-a349-4739-a481-f8a35fd3c9b4">LocalService</a>.</li>
+<li>There is no access to the COM object for <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.</li>
 <li>Subordinate COM interfaces.</li>
 <li>The XML description limits (see 
-<a href="https://msdn.microsoft.com/b2a7d342-958c-439d-8b17-b4fdc5fbad12">Creating a Device Description</a>).</li>
+<a href="https://docs.microsoft.com/windows/desktop/UPnP/creating-a-device-description">Creating a Device Description</a>).</li>
 </ul>
 
 
@@ -228,11 +228,11 @@ Common errors that can occur when invoking this function include:
 
 
 
-<a href="https://msdn.microsoft.com/c851e102-4f03-4a21-9e62-9b5c60a728f3">IUPnPRegistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
 
 
 
-<a href="https://msdn.microsoft.com/e01f325b-8fbd-43f2-a835-41cd3232f62e">IUPnPReregistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpreregistrar">IUPnPReregistrar</a>
  
 
  

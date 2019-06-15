@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called by the fax service when the <a href="https://msdn.microsoft.com/en-us/library/Aa358973(v=VS.85).aspx">IFaxServer2::Configuration</a> property changes.
+Called by the fax service when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver2-configuration-vb">IFaxServer2::Configuration</a> property changes.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Called by the fax service when the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -param pFaxServer
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver2">IFaxServer2</a>*</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa358976(v=VS.85).aspx">IFaxServer2</a> object.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver2">IFaxServer2</a> object.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To implement this functionality in Visual Basic, select and implement the appropriate event procedure. For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms693013(v=VS.85).aspx">Registering for Fax Events</a>.
+To implement this functionality in Visual Basic, select and implement the appropriate event procedure. For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Registering for Fax Events</a>.
 
 
 
@@ -90,7 +90,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358971(v=VS.85).aspx">IFaxServerNotify2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

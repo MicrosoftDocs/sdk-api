@@ -85,7 +85,7 @@ block allocated by <b>WSDAllocateLinkedMemory</b> is linked to a parent memory b
 the parent memory block is freed.
 
  If <i>pParent</i> is <b>NULL</b> the allocated memory block must be explicitly freed by calling 
-<a href="https://msdn.microsoft.com/8fe6f586-a262-4248-9650-dec0fae8cd74">WSDFreeLinkedMemory</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
 
 
 

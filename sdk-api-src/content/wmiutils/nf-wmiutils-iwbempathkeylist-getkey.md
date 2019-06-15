@@ -116,15 +116,15 @@ It is a recommended practice to determine how big a buffer is needed by calling 
 
 
 
-<a href="https://msdn.microsoft.com/71b2597b-d82a-439d-b0b7-af76aefea6a2">IWbemPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b188426-9d7f-4e87-9eed-ce80e5d93c30">IWbemPathKeyList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
 
 
 
-<a href="https://msdn.microsoft.com/009a1778-d2e3-4202-a640-60a55d5f3f8d">IWbemPathKeyList::GetKey2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-getkey2">IWbemPathKeyList::GetKey2</a>
  
 
  

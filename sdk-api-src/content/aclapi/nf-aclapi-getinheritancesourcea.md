@@ -106,7 +106,7 @@ The mapping of generic rights to specific rights for the object.
 
 ### -param pInheritArray [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/6839f67a-6c72-406d-b55e-bc366aaad107">INHERITED_FROM</a> structures that the <b>GetInheritanceSource</b> function fills with the inheritance information. The caller must allocate enough memory for an entry for each ACE in the ACL.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_inherited_froma">INHERITED_FROM</a> structures that the <b>GetInheritanceSource</b> function fills with the inheritance information. The caller must allocate enough memory for an entry for each ACE in the ACL.
 
 
 ## -returns
@@ -124,10 +124,10 @@ If the function fails, it returns a nonzero error code defined in WinError.h.
 
 
 
-The <b>GetInheritanceSource</b> function allocates memory for the names returned in the <a href="https://msdn.microsoft.com/6839f67a-6c72-406d-b55e-bc366aaad107">INHERITED_FROM</a> structure. When the function has finished using this memory, the calling program must free it by calling 
-<a href="https://msdn.microsoft.com/c9c58b9a-1b65-40e2-b518-30e247f9718e">FreeInheritedFromArray</a>. Note that the caller must provide memory for the array itself. If the caller allocated the memory, the caller must free that memory after calling <b>FreeInheritedFromArray</b>.
+The <b>GetInheritanceSource</b> function allocates memory for the names returned in the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_inherited_froma">INHERITED_FROM</a> structure. When the function has finished using this memory, the calling program must free it by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>. Note that the caller must provide memory for the array itself. If the caller allocated the memory, the caller must free that memory after calling <b>FreeInheritedFromArray</b>.
 
-This function does not handle race conditions. If your thread calls this function at the approximate time that another thread changes the object's <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a>, then this function could fail.
+This function does not handle race conditions. If your thread calls this function at the approximate time that another thread changes the object's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>, then this function could fail.
 
 
 
@@ -137,7 +137,7 @@ This function does not handle race conditions. If your thread calls this functio
 
 
 
-<a href="https://msdn.microsoft.com/c9c58b9a-1b65-40e2-b518-30e247f9718e">FreeInheritedFromArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>
  
 
  

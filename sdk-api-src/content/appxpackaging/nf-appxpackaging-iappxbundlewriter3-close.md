@@ -59,7 +59,7 @@ Finalizes the bundle package by writing footprint files at the end of the packag
 
 ### -param hashMethodString [in]
 
-The string value of the <b>HashMethod</b> attribute of the <a href="https://msdn.microsoft.com/75eed334-6c80-4eb3-8776-fc34d7aa5357">BlockMap</a> root element. 
+The string value of the <b>HashMethod</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/blockmapschema/element-blockmap">BlockMap</a> root element. 
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/2596E2DA-D9B6-4BBE-AC05-5CE253CE6DDC">IAppxBundleWriter3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter3">IAppxBundleWriter3</a>
  
 
  

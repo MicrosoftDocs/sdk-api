@@ -60,7 +60,7 @@ The <b>BCryptVerifySignature</b> function verifies that the specified signature 
 
 ### -param hKey [in]
 
-The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <a href="https://msdn.microsoft.com/f402ea9e-89ae-4ccc-9591-aa2328287c0e">BCryptSignHash</a> function.
+The handle of the key to use to decrypt the signature. This must be an identical key or the public key portion of the key pair used to sign the data with the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a> function.
 
 
 ### -param pPaddingInfo [in, optional]
@@ -80,12 +80,12 @@ The size, in bytes, of the <i>pbHash</i> buffer.
 
 ### -param pbSignature [in]
 
-The address of a buffer that contains the signed hash of the data. The <a href="https://msdn.microsoft.com/f402ea9e-89ae-4ccc-9591-aa2328287c0e">BCryptSignHash</a> function is used to create the signature. The <i>cbSignature</i> parameter contains the size of this buffer.
+The address of a buffer that contains the signed hash of the data. The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a> function is used to create the signature. The <i>cbSignature</i> parameter contains the size of this buffer.
 
 
 ### -param cbSignature [in]
 
-The size, in bytes, of the <i>pbSignature</i> buffer. The <a href="https://msdn.microsoft.com/f402ea9e-89ae-4ccc-9591-aa2328287c0e">BCryptSignHash</a> function is used to create the signature.
+The size, in bytes, of the <i>pbSignature</i> buffer. The <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a> function is used to create the signature.
 
 
 ### -param dwFlags [in]
@@ -110,7 +110,7 @@ If the key is an asymmetric key, this can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The PKCS1 padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/920fa461-5b7e-4429-972d-e7c83fb62c64">BCRYPT_PKCS1_PADDING_INFO</a> structure.
+The PKCS1 padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The PKCS1 padding scheme was used when the signature was created. The <i>pPaddin
 </dl>
 </td>
 <td width="60%">
-The Probabilistic Signature Scheme (PSS) padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/28605b34-b1e1-4460-a8f0-b0fe9f9b94d4">BCRYPT_PSS_PADDING_INFO</a> structure.
+The Probabilistic Signature Scheme (PSS) padding scheme was used when the signature was created. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ The algorithm provider used to create the key handle specified by the <i>hKey</i
 
 To use this function, you must hash the data by using the same hashing algorithm that was used to create the hash value that was signed. If applicable, you must also specify the same padding scheme that was specified when the signature was created.
 
-Depending on what processor modes a provider supports, <b>BCryptVerifySignature</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptVerifySignature</b> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptVerifySignature</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptVerifySignature</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
@@ -227,7 +227,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/f402ea9e-89ae-4ccc-9591-aa2328287c0e">BCryptSignHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a Shell item array object from a list of <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structures.
+Creates a Shell item array object from a list of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures.
 
 
 ## -parameters
@@ -70,14 +70,14 @@ The number of elements in the array.
 
 Type: <b>PCIDLIST_ABSOLUTE_ARRAY</b>
 
-A list of <i>cidl</i> constant pointers to <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structures.
+A list of <i>cidl</i> constant pointers to <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structures.
 
 
 ### -param ppsiItemArray [out]
 
-Type: <b><a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
 
-When this function returns, contains an <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a> interface pointer.
+When this function returns, contains an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> interface pointer.
 
 
 ## -returns

@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/en-us/library/ms683580(v=VS.85).aspx">InterlockedDecrement</a> function.
+To operate on 32-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a> function.
 
-To operate on 64-bit values, use the <a href="https://msdn.microsoft.com/073b42ba-90dd-48a1-9661-9b1686c09561">InterlockedDecrement64</a> function.
+To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockeddecrement64">InterlockedDecrement64</a> function.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 16-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/f24ya7ct(v=VS.85).aspx">_InterlockedDecrement16</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions//f24ya7ct(v=vs.85)">_InterlockedDecrement16</a>.
 
 This function generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -99,55 +99,55 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/729c0e68-ef52-4d6c-b771-a89043a937e6">Interlocked Variable Access</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683580(v=VS.85).aspx">InterlockedDecrement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a>
 
 
 
-<a href="https://msdn.microsoft.com/06a24299-827c-4066-9846-4f3b3f2cce2b">InterlockedDecrement16Acquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972649(v=vs.85)">InterlockedDecrement16Acquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/02dc980e-69bc-41d0-bdac-9f87962a5bde">InterlockedDecrement16NoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972650(v=vs.85)">InterlockedDecrement16NoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6b87ae2-69f7-4d83-bb8e-bcce36c408bb">InterlockedDecrement16Release</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972651(v=vs.85)">InterlockedDecrement16Release</a>
 
 
 
-<a href="https://msdn.microsoft.com/073b42ba-90dd-48a1-9661-9b1686c09561">InterlockedDecrement64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockeddecrement64">InterlockedDecrement64</a>
 
 
 
-<a href="https://msdn.microsoft.com/63af8047-1ccf-4cea-9940-584f34e73dcf">InterlockedDecrementAcquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683583(v=vs.85)">InterlockedDecrementAcquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc2de6b6-4a0c-410e-82c9-3064f471b16b">InterlockedDecrementAcquire64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683585(v=vs.85)">InterlockedDecrementAcquire64</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cebfe9a-795c-4934-8064-e2297476e351">InterlockedDecrementNoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972652(v=vs.85)">InterlockedDecrementNoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/d98d5a09-ac36-4d25-ae04-f1a16b628b6a">InterlockedDecrementNoFence64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972653(v=vs.85)">InterlockedDecrementNoFence64</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee5ef016-3d64-4c2d-83f1-47f9ab612836">InterlockedDecrementRelease</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683586(v=vs.85)">InterlockedDecrementRelease</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ad161d9-0252-420f-8c58-2ea8fbf6a117">InterlockedDecrementRelease64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683588(v=vs.85)">InterlockedDecrementRelease64</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

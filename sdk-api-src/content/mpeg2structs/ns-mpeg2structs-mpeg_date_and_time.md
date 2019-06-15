@@ -62,12 +62,12 @@ The <b>MPEG_DATE_AND_TIME</b> structure specifies a date and time.
 
 ### -field D
 
-Specifies the date, as an <a href="https://msdn.microsoft.com/82c58d97-376f-40d0-9511-32361ece8ebb">MPEG_DATE</a> structure.
+Specifies the date, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0025">MPEG_DATE</a> structure.
 
 
 ### -field T
 
-Specifies the time, as an <a href="https://msdn.microsoft.com/b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3">MPEG_TIME</a> structure.
+Specifies the time, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0024">MPEG_TIME</a> structure.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ Specifies the time, as an <a href="https://msdn.microsoft.com/b0a28edb-fcd8-43b4
 
 
 
-<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
  
 
  

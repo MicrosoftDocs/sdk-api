@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Username/password security template information to be filled in by application.
-        Associated with <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE_TYPE</a>.
+        Associated with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE_TYPE</a>.
       
 
 

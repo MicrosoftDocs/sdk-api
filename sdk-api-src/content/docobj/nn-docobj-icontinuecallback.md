@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 Provides a generic callback mechanism for interruptible processes that should periodically ask an object whether to continue.
 
-The <a href="https://msdn.microsoft.com/c84899df-fef1-473d-8278-d715a8ab8ee5">FContinue</a> method is a generic continuation request. <a href="https://msdn.microsoft.com/9031809a-8e5b-48d9-8af9-4a1a07532406">FContinuePrinting</a> carries extra information pertaining to a printing process and is used in the context of <a href="https://msdn.microsoft.com/eb0d15c0-8a34-4211-b840-29d5862cf767">IPrint</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-icontinuecallback-fcontinue">FContinue</a> method is a generic continuation request. <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-icontinuecallback-fcontinueprinting">FContinuePrinting</a> carries extra information pertaining to a printing process and is used in the context of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContinueCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IContinueCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContinueCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContinueCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IContinueCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c84899df-fef1-473d-8278-d715a8ab8ee5">FContinue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-icontinuecallback-fcontinue">FContinue</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a generic operation should continue.
@@ -82,7 +82,7 @@ Indicates whether a generic operation should continue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9031809a-8e5b-48d9-8af9-4a1a07532406">FContinuePrinting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-icontinuecallback-fcontinueprinting">FContinuePrinting</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a lengthy printing operation should continue.

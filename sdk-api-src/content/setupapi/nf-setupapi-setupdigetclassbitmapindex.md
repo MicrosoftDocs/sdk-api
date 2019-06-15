@@ -59,7 +59,7 @@ The <b>SetupDiGetClassBitmapIndex</b> function retrieves the index of the mini-i
 
 ### -param ClassGuid [in, optional]
 
-A pointer to the GUID of the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
+A pointer to the GUID of the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> for which to retrieve the mini-icon. This pointer is optional and can be <b>NULL</b>.
 
 
 ### -param MiniIconIndex [out]
@@ -80,7 +80,7 @@ If there is a min-icon for the specified device setup class, <b>SetupDiGetClassB
 
 
 
-For a list of the device setup class mini-icons and their corresponding indexes, see <a href="https://msdn.microsoft.com/99670376-a338-4001-bede-a4fea57b73a7">SetupDiDrawMiniIcon</a>.
+For a list of the device setup class mini-icons and their corresponding indexes, see <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a>.
 
 
 
@@ -90,11 +90,11 @@ For a list of the device setup class mini-icons and their corresponding indexes,
 
 
 
-<a href="https://msdn.microsoft.com/99670376-a338-4001-bede-a4fea57b73a7">SetupDiDrawMiniIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>
  
 
  

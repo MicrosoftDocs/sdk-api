@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWIA_FORMAT_INFO::Next</b> method returns an array of <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structures.
+The <b>IEnumWIA_FORMAT_INFO::Next</b> method returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_format_info">WIA_FORMAT_INFO</a> structures.
 
 
 ## -parameters
@@ -67,16 +67,16 @@ Specifies the number of elements requested.
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_format_info">WIA_FORMAT_INFO</a>*</b>
 
-Receives the address of the array of <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structures.
+Receives the address of the array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_format_info">WIA_FORMAT_INFO</a> structures.
 
 
 ### -param pceltFetched [in, out]
 
 Type: <b>ULONG*</b>
 
-On output, receives the address of a <b>ULONG</b> that contains the number of <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85).aspx">WIA_FORMAT_INFO</a> structures actually returned in the <i>rgelt</i> parameter.
+On output, receives the address of a <b>ULONG</b> that contains the number of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-_wia_format_info">WIA_FORMAT_INFO</a> structures actually returned in the <i>rgelt</i> parameter.
 
 
 ## -returns

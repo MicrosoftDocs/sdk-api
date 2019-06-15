@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Enables Microsoft UI Automation clients to access the underlying <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> implementation of Microsoft Active Accessibility elements.
+Enables Microsoft UI Automation clients to access the underlying <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation of Microsoft Active Accessibility elements.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILegacyIAccessibleProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ILegacyIAccessibleProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILegacyIAccessibleProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILegacyIAccessibleProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ILegacyIAccessibleProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29aaabba-dafe-400c-9fd6-80e13c0c9097">DoDefaultAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-dodefaultaction">DoDefaultAction</a>
 </td>
 <td align="left" width="63%">
 Performs the default action on the control.
@@ -79,16 +79,16 @@ Performs the default action on the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d156866-d19a-4fd2-8664-d22e8b5434be">GetIAccessible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-getiaccessible">GetIAccessible</a>
 </td>
 <td align="left" width="63%">
-Retrieves an accessible object that corresponds to a UI Automation element that supports the <a href="https://msdn.microsoft.com/4d66b9b8-ddbe-4bbc-b475-72dad1fe9393">LegacyIAccessible</a> control pattern.
+Retrieves an accessible object that corresponds to a UI Automation element that supports the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinglegacyiaccessible">LegacyIAccessible</a> control pattern.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8436e554-2f09-46ed-a32a-0d2612bc60fb">GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the selected item or items in the control.
@@ -97,7 +97,7 @@ Retrieves the selected item or items in the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9cdb3f88-c4aa-4a04-94e3-5549c389ad1f">Select</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-select">Select</a>
 </td>
 <td align="left" width="63%">
 Selects the element.
@@ -106,7 +106,7 @@ Selects the element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca0901af-8d79-4aed-876f-0d719657ef12">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the string value of the control.
@@ -124,7 +124,7 @@ Sets the string value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7dc1e5e8-050b-4a64-9a8e-cb0186878147">ChildId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_childid">ChildId</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Specifies the child identifier of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/10965fa1-1344-42d3-8466-d86bbad1f30d">DefaultAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_defaultaction">DefaultAction</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Contains a description of the default action for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9a6ce358-66ad-40df-8642-759b7cb6208a">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_description">Description</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Contains the description of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7b92f95b-9a75-4f24-b6ed-34ababfbbaa9">Help</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_help">Help</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Specifies a string  that contains help information for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cedb3a14-026f-4d2a-857f-313f4b5efad7">KeyboardShortcut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_keyboardshortcut">KeyboardShortcut</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Specifies the keyboard shortcut for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ec5c4ca5-e40c-4ea4-9765-25b09f7f16d8">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_name">Name</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Specifies the name of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/de2c0101-61fd-4a2d-8bef-dc7e30d0d9f4">Role</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_role">Role</a>
 
 
 </td>
@@ -236,7 +236,7 @@ Specifies the role identifier of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fe1a3ffe-b532-4bb4-850f-032fa32e4c56">State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_state">State</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Specifies the state of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3d54b72d-c13b-4a4d-9517-e828ff8cadb3">Value</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_value">Value</a>
 
 
 </td>

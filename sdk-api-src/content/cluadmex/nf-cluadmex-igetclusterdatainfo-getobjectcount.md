@@ -53,7 +53,7 @@ ms.custom: 19H1
     section. Support for this method was removed in Windows Server 2008.]
 
 Returns a count of the number of selected 
-    <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A count of the number of selected objects.
 
 
 
-Because <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> supports 
+Because <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> supports 
      only one selected object, the 
      <b>GetObjectCount</b> method always returns 
      1.
@@ -89,7 +89,7 @@ Because <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f
 
 
 
-<a href="https://msdn.microsoft.com/a2800ac8-a865-4e66-8147-90e95b54cb0c">IGetClusterDataInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterdatainfo">IGetClusterDataInfo</a>
  
 
  

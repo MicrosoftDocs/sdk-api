@@ -53,14 +53,14 @@ ms.custom: 19H1
 
 The <b>IAMAnalogVideoDecoder</b> interface sets and retrieves information about the analog-to-digital conversion process in a video capture filter.
 
-The <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture</a> filter exposes this interface if the device is an analog video capture device. Applications can use this interface to control aspects of the analog decoding process, such as the analog video format and the horizontal sync lock.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture</a> filter exposes this interface if the device is an analog video capture device. Applications can use this interface to control aspects of the analog decoding process, such as the analog video format and the horizontal sync lock.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAnalogVideoDecoder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMAnalogVideoDecoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMAnalogVideoDecoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMAnalogVideoDecoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMAnalogVideoDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/651f902f-de27-4185-b368-ce2cbf12cfae">get_AvailableTVFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-get_availabletvformats">get_AvailableTVFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the analog video formats that the decoder supports.
@@ -84,7 +84,7 @@ Retrieves the analog video formats that the decoder supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3923440-8770-42f1-a8f3-afa2e8a512d5">get_HorizontalLocked</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-get_horizontallocked">get_HorizontalLocked</a>
 </td>
 <td align="left" width="63%">
 Determines whether the horizontal sync is locked.
@@ -93,7 +93,7 @@ Determines whether the horizontal sync is locked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1c30230-bd47-4bdb-a89a-332c4da7cc00">get_NumberOfLines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-get_numberoflines">get_NumberOfLines</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of scan lines in the video signal.
@@ -102,7 +102,7 @@ Retrieves the number of scan lines in the video signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2379079d-3852-45c7-a290-b3a33ea8af1a">get_OutputEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-get_outputenable">get_OutputEnable</a>
 </td>
 <td align="left" width="63%">
 Determines whether the video port bus is enabled.
@@ -111,7 +111,7 @@ Determines whether the video port bus is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8973281f-2037-487f-9e86-8c7ceca75b23">get_TVFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-get_tvformat">get_TVFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current analog video format.
@@ -120,7 +120,7 @@ Retrieves the current analog video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b527578-1840-4cb1-b94b-9be27b40fcf4">get_VCRHorizontalLocking</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-get_vcrhorizontallocking">get_VCRHorizontalLocking</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the decoder is expecting video from a tape source or a broadcast source
@@ -129,7 +129,7 @@ Indicates whether the decoder is expecting video from a tape source or a broadca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93163db3-ea9a-4383-b382-7d574ef24dfc">put_OutputEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-put_outputenable">put_OutputEnable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the video port bus.
@@ -138,7 +138,7 @@ Enables or disables the video port bus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea1522a0-1f00-40c4-9e50-3638495e209c">put_TVFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-put_tvformat">put_TVFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the analog video format.
@@ -147,7 +147,7 @@ Sets the analog video format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b215f8b-dfd9-40cf-a392-7cc42b17b214">put_VCRHorizontalLocking</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamanalogvideodecoder-put_vcrhorizontallocking">put_VCRHorizontalLocking</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the video is a tape source or a broadcast source.
@@ -161,7 +161,7 @@ Specifies whether the video is a tape source or a broadcast source.
 
 
 
-For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://msdn.microsoft.com/86b581b7-51fd-4662-8291-4c5baf9d3b16">PROPSETID_VIDCAP_VIDEODECODER</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
+For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-videodecoder">PROPSETID_VIDCAP_VIDEODECODER</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
 
 
 
@@ -171,7 +171,7 @@ For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

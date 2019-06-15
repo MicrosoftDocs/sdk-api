@@ -59,7 +59,7 @@ The <b>Add</b> method adds a feature to the collection.
 
 ### -param pDB [in]
 
-Specifies a pointer to the feature's <a href="https://msdn.microsoft.com/0512e1d6-e10e-421e-846c-4bcd7e86d0e7">IMSVidFeature</a> interface.
+Specifies a pointer to the feature's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a> interface.
 
 
 ## -returns
@@ -128,11 +128,11 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/19790fab-0530-4a17-8a3c-a50576fea9ca">IMSVidFeatures Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694550(v=VS.85).aspx">IMSVidFeatures::Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidfeatures-remove">IMSVidFeatures::Remove</a>
  
 
  

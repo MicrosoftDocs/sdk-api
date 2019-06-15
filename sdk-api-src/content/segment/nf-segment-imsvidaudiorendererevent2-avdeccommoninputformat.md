@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates a change in the <a href="https://msdn.microsoft.com/8fddf8c3-268e-4706-9003-e4bfb03d5278">AVDecCommonInputFormat</a> codec property.
+Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdeccommoninputformat-property">AVDecCommonInputFormat</a> codec property.
 
 
 ## -parameters
@@ -73,11 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8fddf8c3-268e-4706-9003-e4bfb03d5278">AVDecCommonInputFormat Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdeccommoninputformat-property">AVDecCommonInputFormat Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694453(v=VS.85).aspx">IMSVidAudioRendererEvent2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>
  
 
  

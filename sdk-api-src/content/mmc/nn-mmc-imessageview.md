@@ -54,12 +54,12 @@ The
 
 The 
 <b>IMessageView</b> interface provides support for specifying the text and icons for error messages displayed using the MMC message OCX control. For details on using the control, see 
-<a href="https://msdn.microsoft.com/bc6db308-d8dd-4868-803d-45c64b951192">Using the MMC Message OCX Control</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageView</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMessageView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMessageView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMessageView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/495b92bf-1629-49f5-917c-290151c9176e">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imessageview-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the title, text, and icon of the result pane message.
@@ -83,7 +83,7 @@ Clears the title, text, and icon of the result pane message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27b3ae83-be3c-4d40-88b8-9253f1c793f6">SetBodyText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imessageview-setbodytext">SetBodyText</a>
 </td>
 <td align="left" width="63%">
 Changes the text for the result pane message.
@@ -92,7 +92,7 @@ Changes the text for the result pane message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61389d5b-cf0a-465e-9b3b-1bcdef4f92b1">SetIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imessageview-seticon">SetIcon</a>
 </td>
 <td align="left" width="63%">
 Changes the icon for the result pane message.
@@ -101,7 +101,7 @@ Changes the icon for the result pane message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e041cf74-9fdd-489c-a251-e5b3e55e1bc5">SetTitleText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imessageview-settitletext">SetTitleText</a>
 </td>
 <td align="left" width="63%">
 Changes the title for the result pane message.
@@ -116,7 +116,7 @@ Changes the title for the result pane message.
 
 
 
-<a href="https://msdn.microsoft.com/bc6db308-d8dd-4868-803d-45c64b951192">Using the MMC Message OCX Control</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
  
 
  

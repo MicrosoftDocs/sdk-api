@@ -112,7 +112,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694470(v=VS.85).aspx">IMSVidClosedCaptioning3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning3">IMSVidClosedCaptioning3 Interface</a>
  
 
  

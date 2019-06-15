@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An optional type description used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_INT8_TYPE</a>  to specify constraints on the set of values
+An optional type description used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_INT8_TYPE</a>  to specify constraints on the set of values
                 which can be deserialized.
             
 

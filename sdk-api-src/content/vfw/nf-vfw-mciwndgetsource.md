@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetSource</b> macro retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/d5f25926-5a3d-412e-8248-fbf307583757">MCIWNDM_GET_SOURCE</a> message.
+The <b>MCIWndGetSource</b> macro retrieves the coordinates of the source rectangle used for cropping the images of an AVI file during playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-get-source">MCIWNDM_GET_SOURCE</a> message.
 
 
 
@@ -75,7 +75,7 @@ Pointer to a RECT structure to contain the coordinates of the source rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/d5f25926-5a3d-412e-8248-fbf307583757">MCIWNDM_GET_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-get-source">MCIWNDM_GET_SOURCE</a>
  
 
  

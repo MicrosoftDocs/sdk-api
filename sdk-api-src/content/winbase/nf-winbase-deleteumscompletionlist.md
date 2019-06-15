@@ -60,7 +60,7 @@ Deletes the specified user-mode scheduling (UMS) completion list. The list must 
 
 ### -param UmsCompletionList [in]
 
-A pointer to the UMS completion list to be deleted. The <a href="https://msdn.microsoft.com/6e77b793-a82e-4e23-8c8b-7aff79d69346">CreateUmsCompletionList</a> function provides this pointer.
+A pointer to the UMS completion list to be deleted. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumscompletionlist">CreateUmsCompletionList</a> function provides this pointer.
 
 
 ## -returns
@@ -69,7 +69,7 @@ A pointer to the UMS completion list to be deleted. The <a href="https://msdn.mi
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 

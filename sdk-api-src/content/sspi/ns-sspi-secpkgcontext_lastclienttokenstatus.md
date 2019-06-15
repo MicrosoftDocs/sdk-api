@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether the token from the most recent call to the <a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538c5c366b0">InitializeSecurityContext</a> function is the last token from the client.
+Specifies whether the token from the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> function is the last token from the client.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Specifies whether the token from the most recent call to the <a href="https://ms
 
 ### -field LastClientTokenStatus
 
-A value of the <a href="https://msdn.microsoft.com/b9067862-2339-4543-a8cd-610e6f921bfd">SECPKG_ATTR_LCT_STATUS</a> enumeration that indicates the status of the token returned by the most recent  call to <a href="https://msdn.microsoft.com/21d965d4-3c03-4e29-a70d-4538c5c366b0">InitializeSecurityContext</a>.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-sspi-_secpkg_attr_lct_status">SECPKG_ATTR_LCT_STATUS</a> enumeration that indicates the status of the token returned by the most recent  call to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a>.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A value of the <a href="https://msdn.microsoft.com/b9067862-2339-4543-a8cd-610e6
 
 
 
-<a href="https://msdn.microsoft.com/b9067862-2339-4543-a8cd-610e6f921bfd">SECPKG_ATTR_LCT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ne-sspi-_secpkg_attr_lct_status">SECPKG_ATTR_LCT_STATUS</a>
  
 
  

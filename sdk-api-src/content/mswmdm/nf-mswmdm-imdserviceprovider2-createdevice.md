@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>CreateDevice</b> method is called by the Windows Media Device Manager to get the <b>IMDSPDevice</b> object(s) corresponding to the canonical device obtained from the PnP subsystem. This method must be implemented for PnP and Windows Explorer support, but otherwise it is optional. For more information, see <a href="https://msdn.microsoft.com/582c9dd5-f8ab-48df-afb3-fba931ee0dea">Mandatory and Optional Interfaces</a>.
+The <b>CreateDevice</b> method is called by the Windows Media Device Manager to get the <b>IMDSPDevice</b> object(s) corresponding to the canonical device obtained from the PnP subsystem. This method must be implemented for PnP and Windows Explorer support, but otherwise it is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 
 
@@ -73,7 +73,7 @@ Pointer to a <b>DWORD</b> containing the number of <b>IMDSPDevice</b> objects th
 
 ### -param pppDeviceArray [out]
 
-An array of <a href="https://msdn.microsoft.com/98f16547-4d8a-4422-ba08-c3c678142492">IMDSPDevice</a> interfaces representing the devices. Typically, there is only one array element, but a service provider can create more than one <b>IMDSPDevice</b> object corresponding to a device path name if it creates an <b>IMDSPDevice</b> object for each top-level storage. This is subject to change in the future, and the count may be restricted to 1.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice</a> interfaces representing the devices. Typically, there is only one array element, but a service provider can create more than one <b>IMDSPDevice</b> object corresponding to a device path name if it creates an <b>IMDSPDevice</b> object for each top-level storage. This is subject to change in the future, and the count may be restricted to 1.
 
 
 ## -returns
@@ -99,11 +99,11 @@ Windows Media Device Manager calls this method when an application starts, or wh
 
 
 
-<a href="https://msdn.microsoft.com/7602da65-4c98-4766-b206-2129dad4cc2a">Enumerating Devices</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices-service-provider">Enumerating Devices</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9ffaea8-5616-4bc2-a27c-8b77ea177b6b">IMDServiceProvider2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2 Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a boolean value indicating whether the <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a> is valid. 
+Gets a boolean value indicating whether the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a> is valid. 
 
 
 ## -parameters
@@ -75,11 +75,11 @@ If the method succeeds, it returns S_OK.
 
 
 
-If this value is false, you should call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> to make the audio object resource available in the future.
+If this value is false, you should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> to make the audio object resource available in the future.
 
-<b>IsActive</b> will be set to false after <a href="https://msdn.microsoft.com/17294E5D-04D7-43B9-AD41-392344309308">SetEndOfStream</a> is called implicitly or explicitly. <b>SetEndOfStream</b> is called implicitly by the system if <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C2D-A475-22BF770DD59D">GetBuffer</a> is not called within an audio processing pass (between calls to <a href="https://msdn.microsoft.com/9D858556-2EBE-4DF6-878B-BE0E12079248">ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects</a> and <a href="https://msdn.microsoft.com/111DB695-66F6-45DD-B3B6-1DFB0D5D29FC">ISpatialAudioObjectRenderStream::EndUpdatingAudioObjects</a>).
+<b>IsActive</b> will be set to false after <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-setendofstream">SetEndOfStream</a> is called implicitly or explicitly. <b>SetEndOfStream</b> is called implicitly by the system if <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer">GetBuffer</a> is not called within an audio processing pass (between calls to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects">ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects</a> and <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-endupdatingaudioobjects">ISpatialAudioObjectRenderStream::EndUpdatingAudioObjects</a>).
 
-The rendering engine will also deactivate the audio object, setting <b>IsActive</b> to false, when audio object resources become unavailable. In this case, a notification is sent via <a href="https://msdn.microsoft.com/3729D985-9040-43AD-A8B0-045509FE2F20">ISpatialAudioObjectRenderStreamNotify</a> before the object is deactivated. The value returned in the <i>availableDynamicObjectCount</i> parameter to <a href="https://msdn.microsoft.com/9D858556-2EBE-4DF6-878B-BE0E12079248">ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects</a> indicates how many objects will be processed for each pass.
+The rendering engine will also deactivate the audio object, setting <b>IsActive</b> to false, when audio object resources become unavailable. In this case, a notification is sent via <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreamnotify">ISpatialAudioObjectRenderStreamNotify</a> before the object is deactivated. The value returned in the <i>availableDynamicObjectCount</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects">ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects</a> indicates how many objects will be processed for each pass.
 
 
 
@@ -89,7 +89,7 @@ The rendering engine will also deactivate the audio object, setting <b>IsActive<
 
 
 
-<a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F">ISpatialAudioObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject">ISpatialAudioObject</a>
 
 
 

@@ -59,7 +59,7 @@ Creates a new transaction manager (TM) object and returns a handle with the spec
 
 ### -param lpTransactionAttributes [in, optional]
 
-The transaction <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
+The transaction <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
 
 
 ### -param LogFileName [in, optional]
@@ -101,7 +101,7 @@ Reserved; specify zero.
 
 If the function succeeds, the return value is a handle to the transaction manager.  
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
  The following list identifies the possible error codes:
 
@@ -112,11 +112,11 @@ If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended
 
 
 
-Immediately after calling this function, you must call <a href="https://msdn.microsoft.com/6f217ebb-3423-41d3-acff-eb21838c9751">RecoverTransactionManager</a>.
+Immediately after calling this function, you must call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recovertransactionmanager">RecoverTransactionManager</a>.
 
 If your transaction manager is volatile, all your your resource managers must also be volatile.
 
-You must call <a href="https://msdn.microsoft.com/6f217ebb-3423-41d3-acff-eb21838c9751">RecoverTransactionManager</a> after creating a TM in order for the TM to function correctly.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recovertransactionmanager">RecoverTransactionManager</a> after creating a TM in order for the TM to function correctly.
 
 
 
@@ -126,19 +126,19 @@ You must call <a href="https://msdn.microsoft.com/6f217ebb-3423-41d3-acff-eb2183
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b53609a-b956-441c-b5b5-9a8e6aa489c9">OpenTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-opentransactionmanager">OpenTransactionManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f217ebb-3423-41d3-acff-eb21838c9751">RecoverTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recovertransactionmanager">RecoverTransactionManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
  
 
  

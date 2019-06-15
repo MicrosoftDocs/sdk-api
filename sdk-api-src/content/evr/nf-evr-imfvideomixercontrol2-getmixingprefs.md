@@ -59,7 +59,7 @@ Gets the current preferences for video deinterlacing.
 
 ### -param pdwMixFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/28dcc8b1-684e-4178-9606-118e77d8ff58">MFVideoMixPrefs</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ne-evr-_mfvideomixprefs">MFVideoMixPrefs</a> enumeration.
 
 
 ## -returns
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a238b050-101d-4b8a-9479-984b889823f4">IMFVideoMixerControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideomixercontrol2">IMFVideoMixerControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3617adf2-ed7b-4788-abce-58bc22a14511">Video Quality Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
  
 
  

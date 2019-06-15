@@ -85,7 +85,7 @@ The app is being activated for design mode, so it can't create its normal window
 
                                 
 
-Note that you must <a href="https://msdn.microsoft.com/a3afae41-b46e-47c8-95bb-a0aa747c6353">enable debug mode</a> on the app's package to succesfully use design mode.
+Note that you must <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package to succesfully use design mode.
 
 
 
@@ -97,7 +97,7 @@ Do not display an error dialog if the app fails to activate.
 
 #### AO_NOSPLASHSCREEN (0x00000004)
 
-Do not display the app's splash screen when the app is activated. You must <a href="https://msdn.microsoft.com/a3afae41-b46e-47c8-95bb-a0aa747c6353">enable debug mode</a> on the app's package when you use this flag; otherwise, the PLM will terminate the app after a few seconds.
+Do not display the app's splash screen when the app is activated. You must <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package when you use this flag; otherwise, the PLM will terminate the app after a few seconds.
 
 
 
@@ -125,11 +125,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/66C8EDC8-AF05-46d6-B29D-B6EE09DF6709">IApplicationActivationManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager">IApplicationActivationManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3afae41-b46e-47c8-95bb-a0aa747c6353">IPackageDebugSettings::EnableDebugging</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">IPackageDebugSettings::EnableDebugging</a>
  
 
  

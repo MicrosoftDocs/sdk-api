@@ -59,7 +59,7 @@ Retrieves state information about the innermost open parent undo unit.
 
 ### -param pdwState [out]
 
-A pointer to the state information. This information is a value taken from the <a href="https://msdn.microsoft.com/cf711180-e38a-4cff-bd2d-2cfca41b376d">UASFLAGS</a> enumeration.
+A pointer to the state information. This information is a value taken from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-taguasflags">UASFLAGS</a> enumeration.
 
 
 ## -returns
@@ -89,7 +89,7 @@ When checking for a normal state, use the UAS_MASK value to mask unused bits in 
 
 
 
-<a href="https://msdn.microsoft.com/4407d673-286a-4221-ae35-09b9865161f8">IOleParentUndoUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleparentundounit">IOleParentUndoUnit</a>
  
 
  

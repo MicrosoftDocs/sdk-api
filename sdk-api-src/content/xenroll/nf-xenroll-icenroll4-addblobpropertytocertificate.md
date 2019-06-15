@@ -52,9 +52,9 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addBlobPropertyToCertificate</b> method adds a <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> property to a certificate.
+The <b>addBlobPropertyToCertificate</b> method adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> property to a certificate.
 
-This property was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ This property was first defined in the <a href="https://msdn.microsoft.com/4e3e3
 
 ### -param lPropertyId [in]
 
-The identifier of the <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> property to add to the certificate.
+The identifier of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> property to add to the certificate.
 
 
 ### -param lReserved [in]
@@ -132,11 +132,11 @@ The hash of the renewed certificate.
 
 
 
-<a href="https://msdn.microsoft.com/7f13549d-811b-496b-abdd-7e52cbc2ed54">CEnroll</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
  
 
  

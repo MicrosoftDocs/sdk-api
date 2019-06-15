@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATCDFClose</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATCDFClose</b> function closes a catalog definition file (CDF) and frees the memory for the corresponding <a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a> structure. <b>CryptCATCDFClose</b> is called by <a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a>.
+The <b>CryptCATCDFClose</b> function closes a catalog definition file (CDF) and frees the memory for the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a> structure. <b>CryptCATCDFClose</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptCATCDFClose</b> function closes a catalog definition file (CDF) and 
 
 ### -param pCDF [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a> structure.
 
 
 ## -returns
@@ -87,11 +87,11 @@ Before closing the catalog output file specified in  <i>pCDF</i>, the <b>CryptCA
 
 
 
-<a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a>
 
 
 
-<a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
  
 
  

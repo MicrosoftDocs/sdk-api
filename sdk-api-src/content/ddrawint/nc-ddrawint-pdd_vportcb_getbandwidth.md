@@ -68,7 +68,7 @@ The <b>DdVideoPortGetBandwidth</b> callback function reports the bandwidth limit
 
 #### - lpGetVideoPortBandwidth
 
-Points to a <a href="https://msdn.microsoft.com/5a24d819-1498-448a-9360-c14d382059cb">DD_GETVPORTBANDWIDTHDATA</a> structure that contains the information required for the driver to return the bandwidth data.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a> structure that contains the information required for the driver to return the bandwidth data.
 
 
 ## -returns
@@ -86,13 +86,13 @@ Points to a <a href="https://msdn.microsoft.com/5a24d819-1498-448a-9360-c14d3820
 
 <b>DdVideoPortGetBandwidth</b> must be implemented in DirectDraw drivers that support VPE.
 
-<b>DdVideoPortGetBandwidth</b> informs clients of bandwidth requirements for any specified format, helping them to choose a format and better understand its limitations. The driver can supply accurate bandwidth information only after the VPE object has been created because the driver needs the information in the <a href="https://msdn.microsoft.com/efd5907c-ed75-40be-b568-7c305310f79b">DDVIDEOPORTDESC</a> structure.
+<b>DdVideoPortGetBandwidth</b> informs clients of bandwidth requirements for any specified format, helping them to choose a format and better understand its limitations. The driver can supply accurate bandwidth information only after the VPE object has been created because the driver needs the information in the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportdesc">DDVIDEOPORTDESC</a> structure.
 
 <b>DdVideoPortGetBandwidth</b> is typically called twice to obtain the bandwidth parameters of the specified hardware video port. Depending on the <b>dwFlags</b> member of the DD_GETVPORTBANDWIDTHDATA structure at <i>lpGetVideoPortBandwidth</i>, the driver should do the following:
 
 <ul>
 <li>
-When the flag is DDVPB_TYPE, the driver should indicate the type of device it is by setting one of the following flags in the <b>dwCaps</b> member of the <a href="https://msdn.microsoft.com/3e13874d-294e-4161-8131-f78799b2e90e">DDVIDEOPORTBANDWIDTH</a> structure to which the <b>lpBandwidth</b> member of DD_GETVPORTBANDWIDTHDATA points:<ul>
+When the flag is DDVPB_TYPE, the driver should indicate the type of device it is by setting one of the following flags in the <b>dwCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a> structure to which the <b>lpBandwidth</b> member of DD_GETVPORTBANDWIDTHDATA points:<ul>
 <li>DDVPBCAPS_DESTINATION indicates that the device will describe its bandwidth capabilities in terms of the overlay stretch factor; that is, that the bandwidth information returned by the driver in the next call to <b>DdVideoPortGetBandwidth</b> will refer to the size of the destination overlay. This flag best describes hardware that refreshes from both the primary and overlay surfaces simultaneously. As the destination video is stretched, the hardware has more time to read the pixels from the overlay surface, decreasing the required memory bandwidth.</li>
 <li>DDVPBCAPS_SOURCE indicates that the device will describe its bandwidth capabilities in terms of the required source overlay size; that is, that the bandwidth information returned by the next call to <b>DdVideoPortGetBandwidth</b> refers to the size of the source overlay. This flag best describes hardware that prefetches the overlay data into a line buffer or large FIFO. Such hardware does not require extra bandwidth, but does require that the source overlay data fit entirely within the buffer/FIFO size supported by the hardware.</li>
 </ul>
@@ -122,19 +122,19 @@ The DDVPB_OVERLAY flag assumes that the device is best described using the DDVPB
 
 
 
-<a href="https://msdn.microsoft.com/3e13874d-294e-4161-8131-f78799b2e90e">DDVIDEOPORTBANDWIDTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportbandwidth">DDVIDEOPORTBANDWIDTH</a>
 
 
 
-<a href="https://msdn.microsoft.com/efd5907c-ed75-40be-b568-7c305310f79b">DDVIDEOPORTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportdesc">DDVIDEOPORTDESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a24d819-1498-448a-9360-c14d382059cb">DD_GETVPORTBANDWIDTHDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportbandwidthdata">DD_GETVPORTBANDWIDTHDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/eeaf3cda-6220-4e8e-8f9e-9f52d1b05ab7">DdVideoPortCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_createvideoport">DdVideoPortCreate</a>
  
 
  

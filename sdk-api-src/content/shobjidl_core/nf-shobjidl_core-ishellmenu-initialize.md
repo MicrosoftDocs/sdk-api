@@ -59,9 +59,9 @@ Initializes a menu band.
 
 ### -param psmc [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/96bfdc52-bd4a-4345-8dd1-7e716a3d9811">IShellMenuCallback</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/96bfdc52-bd4a-4345-8dd1-7e716a3d9811">IShellMenuCallback</a> interface. This interface receives notifications from the menu. This value can be <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a> interface. This interface receives notifications from the menu. This value can be <b>NULL</b>.
 
 
 ### -param uId [in]

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IBackgroundCopyJob1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/72668c9b-e6f3-4f3f-9d4b-50d930d1889d">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyJob1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>GetFile</b> method to retrieve the remote and local file names for the given file in the job.
 
@@ -66,7 +66,7 @@ Zero-based index that identifies the file in the job.
 
 ### -param pFileInfo [out]
 
-A <a href="https://msdn.microsoft.com/1a1d6683-5317-4a34-828d-55142f64f19f">FILESETINFO</a> structure that contains the remote and local names of the file.
+A <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/ns-qmgr-_filesetinfo">FILESETINFO</a> structure that contains the remote and local names of the file.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The specified index is greater than the number of files in the job.
 
 
 
-Use with <a href="https://msdn.microsoft.com/6aec5e9c-2950-4039-99a4-b1884a9a4673">IBackgroundCopyJob1::GetFileCount</a> to iterate through the files of a job.
+Use with <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getfilecount">IBackgroundCopyJob1::GetFileCount</a> to iterate through the files of a job.
 
 
 
@@ -122,7 +122,7 @@ Use with <a href="https://msdn.microsoft.com/6aec5e9c-2950-4039-99a4-b1884a9a467
 
 
 
-<a href="https://msdn.microsoft.com/ccf1b355-c1af-4b5e-b613-181c426ed777">IBackgroundCopyJob1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
  
 
  

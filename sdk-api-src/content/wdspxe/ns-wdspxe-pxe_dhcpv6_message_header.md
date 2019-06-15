@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the fields in common between the  <a href="https://msdn.microsoft.com/FA9CE377-8C66-4873-B6EF-5761FF398164">PXE_DHCPV6_MESSAGE</a> and <a href="https://msdn.microsoft.com/6C27D67D-938B-4357-9664-704FC04DCFBB">PXE_DHCPV6_RELAY_MESSAGE</a> structures.
+Describes the fields in common between the  <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_dhcpv6_message">PXE_DHCPV6_MESSAGE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_dhcpv6_relay_message">PXE_DHCPV6_RELAY_MESSAGE</a> structures.
 
 For more information about the DHCPv6 messages, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="Http://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 

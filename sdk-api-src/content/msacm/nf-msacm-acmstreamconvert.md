@@ -68,7 +68,7 @@ Handle to the open conversion stream.
 
 ### -param pash
 
-Pointer to a stream header that describes source and destination buffers for a conversion. This header must have been prepared previously by using the <a href="https://msdn.microsoft.com/ab90ac5f-6f39-4d26-96fc-5258d4e353cd">acmStreamPrepareHeader</a> function.
+Pointer to a stream header that describes source and destination buffers for a conversion. This header must have been prepared previously by using the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function.
 
 
 ### -param fdwConvert
@@ -127,7 +127,7 @@ The stream header specified in <i>pash</i> is currently in use and cannot be reu
 </dl>
 </td>
 <td width="60%">
-The stream header specified in <i>pash</i> is currently not prepared by the <a href="https://msdn.microsoft.com/ab90ac5f-6f39-4d26-96fc-5258d4e353cd">acmStreamPrepareHeader</a> function.
+The stream header specified in <i>pash</i> is currently not prepared by the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function.
 
 </td>
 </tr>
@@ -174,9 +174,9 @@ At least one parameter is invalid.
 
 
 
-You must use the <a href="https://msdn.microsoft.com/ab90ac5f-6f39-4d26-96fc-5258d4e353cd">acmStreamPrepareHeader</a> function to prepare the source and destination buffers before they are passed to <b>acmStreamConvert</b>.
+You must use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function to prepare the source and destination buffers before they are passed to <b>acmStreamConvert</b>.
 
-If an asynchronous conversion request is successfully queued by the ACM or driver and the conversion is later determined to be impossible, the <a href="https://msdn.microsoft.com/723e96d8-f098-4e08-862a-a9fea8d2fbe3">ACMSTREAMHEADER</a> structure is posted back to the application's callback function with the <b>cbDstLengthUsed</b> member set to zero.
+If an asynchronous conversion request is successfully queued by the ACM or driver and the conversion is later determined to be impossible, the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmstreamheader">ACMSTREAMHEADER</a> structure is posted back to the application's callback function with the <b>cbDstLengthUsed</b> member set to zero.
 
 
 
@@ -186,11 +186,11 @@ If an asynchronous conversion request is successfully queued by the ACM or drive
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

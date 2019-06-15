@@ -131,7 +131,7 @@ A pointer to the function that allows structures to be dumped to a file.
 
 ### -field psUIpfns
 
-A pointer to a <a href="https://msdn.microsoft.com/7cdc32ea-b28a-400f-ad8a-984f86bb95fd">CRYPT_PROVUI_FUNCS</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a> structure.
 
 
 ### -field pfnCleanupPolicy

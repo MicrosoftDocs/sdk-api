@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OSUpdateAssessment</b> structure defines how up-to-date the OS on a targeted device is. This structure is used primarily as a return value by <a href="https://msdn.microsoft.com/3123362E-6A1C-49BD-BE9C-0B8506EA944B">GetOSUpdateAssessment</a>, in order to retrieve an OS assessment in a single structure. 
+The <b>OSUpdateAssessment</b> structure defines how up-to-date the OS on a targeted device is. This structure is used primarily as a return value by <a href="https://docs.microsoft.com/windows/desktop/api/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment">GetOSUpdateAssessment</a>, in order to retrieve an OS assessment in a single structure. 
 
 
 ## -struct-fields
@@ -65,17 +65,17 @@ The <b>OSUpdateAssessment</b> structure defines how up-to-date the OS on a targe
 
 ### -field assessmentForCurrent
 
-An <a href="https://msdn.microsoft.com/BD456DF6-4A29-41B4-8EB4-8F29910981E7">UpdateAssessment</a> structure containing an assessment against the latest update Microsoft has released. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a> structure containing an assessment against the latest update Microsoft has released. 
 
 
 ### -field assessmentForUpToDate
 
-An <a href="https://msdn.microsoft.com/BD456DF6-4A29-41B4-8EB4-8F29910981E7">UpdateAssessment</a> structure containing an assessment against the latest applicable quality update for the device.
+An <a href="https://docs.microsoft.com/windows/desktop/api/waasapitypes/ns-waasapitypes-tagupdateassessment">UpdateAssessment</a> structure containing an assessment against the latest applicable quality update for the device.
 
 
 ### -field securityStatus
 
-An <a href="https://msdn.microsoft.com/157E241E-E8D8-41F8-9565-5C9298DCD1BE">UpdateAssessmentStatus</a> enumeration that details whether the device is on the latest applicable security update.
+An <a href="https://docs.microsoft.com/windows/desktop/SysInfo/updateassessmentstatus">UpdateAssessmentStatus</a> enumeration that details whether the device is on the latest applicable security update.
 
 
 ### -field assessmentTime

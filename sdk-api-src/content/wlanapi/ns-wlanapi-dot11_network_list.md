@@ -88,7 +88,7 @@ This member is not used by the wireless service. Applications can use this membe
 
 ### -field Network
 
-An array of <a href="https://msdn.microsoft.com/95f58433-deef-4c47-8f6c-a9e7b0d52dad">DOT11_NETWORK</a> structures that contain 802.11 wireless network information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network">DOT11_NETWORK</a> structures that contain 802.11 wireless network information.
 
 
 ## -see-also
@@ -96,15 +96,15 @@ An array of <a href="https://msdn.microsoft.com/95f58433-deef-4c47-8f6c-a9e7b0d5
 
 
 
-<a href="https://msdn.microsoft.com/95f58433-deef-4c47-8f6c-a9e7b0d52dad">DOT11_NETWORK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network">DOT11_NETWORK</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ea88e52-34bb-47a6-b345-c789d1d8047d">WlanGetFilterList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetfilterlist">WlanGetFilterList</a>
 
 
 
-<a href="https://msdn.microsoft.com/697682c9-cb26-42d6-86b5-d7adebcedc68">WlanSetFilterList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
  
 
  

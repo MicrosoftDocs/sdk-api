@@ -62,36 +62,36 @@ The <b>RpcBindingCreate</b> function creates a new fast RPC binding handle based
 ### -param Template [in]
 
 
-<a href="https://msdn.microsoft.com/b5712e0b-1751-4e5f-8000-da2a330da202">RPC_BINDING_HANDLE_TEMPLATE</a> structure that describes the binding handle to be created by this call. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_template_v1_a">RPC_BINDING_HANDLE_TEMPLATE</a> structure that describes the binding handle to be created by this call. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
 
 
 ### -param Security [in, optional]
 
 
-<a href="https://msdn.microsoft.com/b8ea2e96-2e7e-428c-a5cd-dfe9dd341063">RPC_BINDING_HANDLE_SECURITY</a> structure that describes the security options for this binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_security_v1_a">RPC_BINDING_HANDLE_SECURITY</a> structure that describes the security options for this binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
 
-This parameter is optional. If this parameter is set to <b>NULL</b>, the default security settings for <a href="https://msdn.microsoft.com/b8ea2e96-2e7e-428c-a5cd-dfe9dd341063">RPC_BINDING_HANDLE_SECURITY</a> will be used.
+This parameter is optional. If this parameter is set to <b>NULL</b>, the default security settings for <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_security_v1_a">RPC_BINDING_HANDLE_SECURITY</a> will be used.
 
 
 ### -param Options [in, optional]
 
 
-<a href="https://msdn.microsoft.com/e2bd03cf-4d45-449f-9434-ec8ef405737b">RPC_BINDING_HANDLE_OPTIONS</a> structure that describes additional options for the binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_options_v1">RPC_BINDING_HANDLE_OPTIONS</a> structure that describes additional options for the binding handle. This data may be overwritten during the call, so the API does not maintain a reference to this data. The caller must free the memory used by this structure when the API returns.
 
-This parameter is optional. If this parameter is set to <b>NULL</b>, the default options for <a href="https://msdn.microsoft.com/e2bd03cf-4d45-449f-9434-ec8ef405737b">RPC_BINDING_HANDLE_OPTIONS</a> will be used.
+This parameter is optional. If this parameter is set to <b>NULL</b>, the default options for <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-_rpc_binding_handle_options_v1">RPC_BINDING_HANDLE_OPTIONS</a> will be used.
 
 
 ### -param Binding [out]
 
 
-<a href="https://msdn.microsoft.com/3e07d9e9-04d8-4f94-8104-cd0ee89a9407">RPC_BINDING_HANDLE</a> structure that contains the newly-created binding handle. If this function did not return RPC_S_OK, then the contents of this structure are undefined. For non-local RPC calls, this handle must be passed to <a href="https://msdn.microsoft.com/dbc73a66-b1ca-4a53-b662-430b611f8c20">RpcBindingBind</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a> structure that contains the newly-created binding handle. If this function did not return RPC_S_OK, then the contents of this structure are undefined. For non-local RPC calls, this handle must be passed to <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>.
 
 
 ## -returns
 
 
 
-This function returns RPC_S_OK on success; otherwise, an RPC_S_* error code is returned. For information on these error codes, see <a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.
+This function returns RPC_S_OK on success; otherwise, an RPC_S_* error code is returned. For information on these error codes, see <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ An obsolete feature of RPC was requested for this binding handle.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -137,7 +137,7 @@ An obsolete feature of RPC was requested for this binding handle.
 
 The RPC binding handle returned by this API can be used with any other functions that accepts a binding handle as a parameter.
 
-However, before any calls can be made on the binding handle, <a href="https://msdn.microsoft.com/dbc73a66-b1ca-4a53-b662-430b611f8c20">RpcBindingBind</a> must be called to make the binding handle available for remote calls. The <b>RpcBindingCreate</b> API does not touch the network or attempt to communicate with the RPC server -- rather, it simply builds an internal data structure based on the values supplied in the template. A successful return does not indicate that the RPC server is available, accessible, or correctly specified.
+However, before any calls can be made on the binding handle, <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a> must be called to make the binding handle available for remote calls. The <b>RpcBindingCreate</b> API does not touch the network or attempt to communicate with the RPC server -- rather, it simply builds an internal data structure based on the values supplied in the template. A successful return does not indicate that the RPC server is available, accessible, or correctly specified.
 
 
 
@@ -147,11 +147,11 @@ However, before any calls can be made on the binding handle, <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/3e07d9e9-04d8-4f94-8104-cd0ee89a9407">RPC_BINDING_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbc73a66-b1ca-4a53-b662-430b611f8c20">RpcBindingBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
  
 
  

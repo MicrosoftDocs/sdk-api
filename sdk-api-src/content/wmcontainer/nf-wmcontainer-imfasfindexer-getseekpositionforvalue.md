@@ -67,7 +67,7 @@ The value of the index entry for which to get the position. The format of this v
 
 ### -param pIndexIdentifier [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/8103a62e-6d1a-4dcd-af91-cedb30523004">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and index type.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ns-wmcontainer-_asf_index_identifier">ASF_INDEX_IDENTIFIER</a> structure that identifies the stream number and index type.
           
 
 
@@ -159,15 +159,15 @@ No index exists of the specified type for the specified stream.
 
 
 
-<a href="https://msdn.microsoft.com/3f95b0ac-d70f-4bc2-8524-c7de1df34afa">ASF Index Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93127fe4-bca9-4674-ae21-012367d7dd2f">IMFASFIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
 
 
 
-<a href="https://msdn.microsoft.com/9273ff1f-382e-4c58-b571-4852545915b3">MFTIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
  
 
  

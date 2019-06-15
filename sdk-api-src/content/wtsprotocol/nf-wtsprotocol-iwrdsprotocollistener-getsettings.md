@@ -64,7 +64,7 @@ The listener setting level to use.
 
 ### -param pWRdsListenerSettings [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/75C9C9AF-9C27-402C-886D-269BF567825F">WRDS_LISTENER_SETTINGS</a> structure that contains the returned listener settings.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_listener_settings">WRDS_LISTENER_SETTINGS</a> structure that contains the returned listener settings.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A pointer to a <a href="https://msdn.microsoft.com/75C9C9AF-9C27-402C-886D-269BF
 
 When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, 
 return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, 
-see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -83,7 +83,7 @@ see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Co
 
 
 
-<a href="https://msdn.microsoft.com/19d3176a-3f47-46c1-8bee-8e0f1d9b466e">IWRdsProtocolListener</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a>
  
 
  

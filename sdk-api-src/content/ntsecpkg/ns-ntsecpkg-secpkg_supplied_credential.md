@@ -79,7 +79,7 @@ The domain name for Unicode only.
 
 ### -field PackedCredentials
 
-The credentials in the <a href="https://msdn.microsoft.com/9a21f0cd-d4e1-4aa8-8d0d-72bc7002ce32">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure.
+The credentials in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure.
 
 
 ### -field CredFlags

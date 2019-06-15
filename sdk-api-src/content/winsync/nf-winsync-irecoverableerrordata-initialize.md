@@ -116,7 +116,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e99779ef-87c9-45ac-93dc-53ee1a201402">IRecoverableErrorData Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerrordata">IRecoverableErrorData Interface</a>
  
 
  

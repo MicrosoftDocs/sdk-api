@@ -66,16 +66,16 @@ The ID of the band object to query.
 
 ### -param ppstb [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/eb9f7f2a-a6be-4527-8a32-325dad4c8000">IDeskBand</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>**</b>
 
-Address of an <a href="https://msdn.microsoft.com/eb9f7f2a-a6be-4527-8a32-325dad4c8000">IDeskBand</a> interface pointer that, when this method returns successfully, points to the <b>IDeskBand</b> object that represents the band. This value can be <b>NULL</b>.
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a> interface pointer that, when this method returns successfully, points to the <b>IDeskBand</b> object that represents the band. This value can be <b>NULL</b>.
 
 
 ### -param pdwState [out, optional]
 
 Type: <b>DWORD*</b>
 
-Pointer to a <b>DWORD</b> value that, when this method returns successfully, receives the state of the band object. This state is a combination of BSSF_VISIBLE, BSSF_NOTITLE, and BSSF_UNDELETEABLE. See <a href="https://msdn.microsoft.com/86e4afce-594a-441e-b6d9-ce05c8234150">BANDSITEINFO</a> for more information on those flags. This value can be <b>NULL</b> if the state information is not needed.
+Pointer to a <b>DWORD</b> value that, when this method returns successfully, receives the state of the band object. This state is a combination of BSSF_VISIBLE, BSSF_NOTITLE, and BSSF_UNDELETEABLE. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagbandsiteinfo">BANDSITEINFO</a> for more information on those flags. This value can be <b>NULL</b> if the state information is not needed.
 
 
 ### -param pszName [out]

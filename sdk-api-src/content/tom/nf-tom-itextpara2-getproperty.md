@@ -75,7 +75,7 @@ The property value.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -86,12 +86,12 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignDefault</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignCenterGroup</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignCenter</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignLeft</a></dd>
-<dd><a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMathParaAlignRight</a></dd>
+The <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomParaPropMathAlign</a> property sets the math alignment for math paragraphs in a text paragraph. It can have one of the following values.<dl>
+<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignDefault</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignCenterGroup</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignCenter</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignLeft</a></dd>
+<dd><a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMathParaAlignRight</a></dd>
 </dl>
 
 
@@ -103,11 +103,11 @@ The <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">to
 
 
 
-<a href="https://msdn.microsoft.com/31a0849f-c651-4178-b1ff-a4333bcde5d9">ITextPara2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a95c055-5118-4c2a-8f63-3a2a3114451e">ITextPara2::SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara2-setproperty">ITextPara2::SetProperty</a>
  
 
  

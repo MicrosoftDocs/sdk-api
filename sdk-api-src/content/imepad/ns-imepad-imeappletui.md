@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/B4F79A20-E69E-4EA0-A992-4415B8AA4790">IImePadApplet::CreateUI</a> to specify applet window style.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-createui">IImePadApplet::CreateUI</a> to specify applet window style.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Window handle created by applet window.
 
 ### -field dwStyle
 
-Applet window style. The style is a combination of <b>IPAWS_*</b> flags; see the Remarks of <a href="https://msdn.microsoft.com/C74B0374-D6C7-44C7-94EF-E97B46534462">IImePad::Request</a> for the possible <b>IPAWS_*</b> flags.
+Applet window style. The style is a combination of <b>IPAWS_*</b> flags; see the Remarks of <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepad-request">IImePad::Request</a> for the possible <b>IPAWS_*</b> flags.
 
 
 ### -field width

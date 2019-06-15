@@ -85,11 +85,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/47b059a9-a18a-4f32-9a02-6566175ca86b">IIsoImageManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iisoimagemanager">IIsoImageManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/0655edb2-5dce-4428-b883-984ef53712cd">IIsoImageManager::get_Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_stream">IIsoImageManager::get_Stream</a>
  
 
  

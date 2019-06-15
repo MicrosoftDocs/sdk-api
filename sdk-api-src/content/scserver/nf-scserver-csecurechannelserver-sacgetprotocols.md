@@ -82,7 +82,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -113,7 +113,7 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-This method is used by the service provider to implement the public <a href="https://msdn.microsoft.com/db01f2a4-5cd5-4acc-be17-37b4c9861cc9">IComponentAuthenticate::SACGetProtocols</a> method. For an example of calling this method, see that method's documentation.
+This method is used by the service provider to implement the public <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols">IComponentAuthenticate::SACGetProtocols</a> method. For an example of calling this method, see that method's documentation.
 
 
 
@@ -123,11 +123,11 @@ This method is used by the service provider to implement the public <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/db01f2a4-5cd5-4acc-be17-37b4c9861cc9">IComponentAuthenticate::SACGetProtocols</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols">IComponentAuthenticate::SACGetProtocols</a>
  
 
  

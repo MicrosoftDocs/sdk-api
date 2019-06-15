@@ -88,11 +88,11 @@ This value is set by Windows Media Player in the <b>IWMPPluginEnable::SetEnable<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563584(v=VS.85).aspx">IWMPPluginEnable Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmppluginenable">IWMPPluginEnable Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563587(v=VS.85).aspx">IWMPPluginEnable::SetEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmppluginenable-setenable">IWMPPluginEnable::SetEnable</a>
  
 
  

@@ -66,7 +66,7 @@ The number of elements in the <b>rgMetaData</b> array.
 
 The zero-based index of the next entry to retrieve if more entries are available. This value is passed for 
       the <i>dwEnumerationContext</i> parameter in the next call to 
-      <a href="https://msdn.microsoft.com/5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d">DsReplicaGetInfo2</a> to retrieve the next block of 
+      <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> to retrieve the next block of 
       entries. If no more entries are available, this member contains -1.
 
 
@@ -82,11 +82,11 @@ The zero-based index of the next entry to retrieve if more entries are available
 
 ### -field rgMetaData
 
-An array of <a href="https://msdn.microsoft.com/2BE0F9C4-D688-4DE6-8DB2-15666D8BD070">DS_REPL_VALUE_META_DATA_EXT</a> 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> 
       structures that contain the attribute replication  values. The <b>cNumEntries</b> member 
       contains the number of elements in this array.
 
-An array of <a href="https://msdn.microsoft.com/2BE0F9C4-D688-4DE6-8DB2-15666D8BD070">DS_REPL_VALUE_META_DATA_EXT</a> 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_ext">DS_REPL_VALUE_META_DATA_EXT</a> 
       structures that contain the attribute replication values. The <b>cNumEntries</b> member 
       contains the number of elements in this array.
 
@@ -96,11 +96,11 @@ An array of <a href="https://msdn.microsoft.com/2BE0F9C4-D688-4DE6-8DB2-15666D8B
 
 
 
-<a href="https://msdn.microsoft.com/88d8a164-2192-4e73-a190-aa5b5dbb1101">DS_REPL_INFO_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ne-ntdsapi-_ds_repl_info_type">DS_REPL_INFO_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b20d3b-1799-4f5f-b74e-fe9284dd8ac3">Domain Controller and Replication Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/domain-controller-and-replication-management-structures">Domain Controller and Replication Management Structures</a>
  
 
  

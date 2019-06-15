@@ -79,7 +79,7 @@ The number of attributes in the array.
 
 This structure is typically used to preserve unknown attributes
                 when deserializing a structure.
-                See <a href="https://msdn.microsoft.com/14f4dbc6-0870-4b1c-8f6b-544f771771e8">WS_ANY_ATTRIBUTES_FIELD_MAPPING</a>and <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ANY_ATTRIBUTES_TYPE</a> for more
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ATTRIBUTES_FIELD_MAPPING</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ANY_ATTRIBUTES_TYPE</a> for more
                 information.
             
 

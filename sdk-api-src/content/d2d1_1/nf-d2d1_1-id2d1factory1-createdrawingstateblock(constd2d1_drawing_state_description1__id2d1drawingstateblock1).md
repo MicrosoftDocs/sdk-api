@@ -61,14 +61,14 @@ Creates a new drawing state block, this can be used in subsequent
 
 ### -param drawingStateDescription [in, ref, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/E1BFF353-8445-435C-8F7A-E93BFE58A794">D2D1_DRAWING_STATE_DESCRIPTION1</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_drawing_state_description1">D2D1_DRAWING_STATE_DESCRIPTION1</a></b>
 
 The drawing state description structure.
 
 
 ### -param drawingStateBlock [out]
 
-Type: <b><a href="https://msdn.microsoft.com/F3A364F6-2C30-4DDE-A5C7-7B58758F111F">ID2D1DrawingStateBlock1</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1drawingstateblock1">ID2D1DrawingStateBlock1</a>**</b>
 
 The address of the newly created drawing state block.
 
@@ -111,7 +111,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/8221c3b4-e331-403c-9406-ee8d3e103825">ID2D1Factory1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
  
 
  

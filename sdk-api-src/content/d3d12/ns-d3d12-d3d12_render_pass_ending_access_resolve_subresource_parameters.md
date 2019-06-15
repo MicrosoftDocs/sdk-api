@@ -79,7 +79,7 @@ A <b>UINT</b>. The y coordinate within the destination subresource.
 
 ### -field SrcRect
 
-A <a href="https://msdn.microsoft.com/39511ACE-7AC5-42A2-896D-7E0977A346C6">D3D12_RECT</a>. The rectangle within the source subresource.
+A <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-rect">D3D12_RECT</a>. The rectangle within the source subresource.
 
 
 ## -see-also
@@ -87,7 +87,7 @@ A <a href="https://msdn.microsoft.com/39511ACE-7AC5-42A2-896D-7E0977A346C6">D3D1
 
 
 
-<a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
  
 
  

@@ -54,7 +54,7 @@ Represents an adapter output (such as a monitor). The <b>IDXGIOutput6</b> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput6</b> interface inherits from <a href="https://msdn.microsoft.com/D75529BD-C572-4137-8F1E-91F7C6902EE0">IDXGIOutput5</a>. <b>IDXGIOutput6</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput6</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgioutput5">IDXGIOutput5</a>. <b>IDXGIOutput6</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDXGIOutput6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC">CheckHardwareCompositionSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-checkhardwarecompositionsupport">CheckHardwareCompositionSupport</a>
 </td>
 <td align="left" width="63%">
 Notifies applications that hardware stretching is supported.
@@ -78,7 +78,7 @@ Notifies applications that hardware stretching is supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DE251D64-BB41-49D7-AC46-791089502286">GetDesc1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-getdesc1">GetDesc1</a>
 </td>
 <td align="left" width="63%">
 Get an extended description of the output that includes color characteristics and connection type.
@@ -93,11 +93,11 @@ Get an extended description of the output that includes color characteristics an
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/D75529BD-C572-4137-8F1E-91F7C6902EE0">IDXGIOutput5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgioutput5">IDXGIOutput5</a>
  
 
  

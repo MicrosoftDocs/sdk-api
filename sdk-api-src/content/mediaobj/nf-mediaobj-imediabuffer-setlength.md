@@ -63,7 +63,7 @@ The <code>SetLength</code> method specifies the length of the data currently in 
 
 ### -param cbLength
 
-Size of the data, in bytes. The value must not exceed the buffer's maximum size. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd390168(v=VS.85).aspx">IMediaBuffer::GetMaxLength</a> method to obtain the maximum size.
+Size of the data, in bytes. The value must not exceed the buffer's maximum size. Call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediabuffer-getmaxlength">IMediaBuffer::GetMaxLength</a> method to obtain the maximum size.
 
 
 ## -returns
@@ -89,11 +89,11 @@ This method sets the size of the valid data currently in the buffer, not the buf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390166(v=VS.85).aspx">IMediaBuffer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bde7cef8-f43e-4a11-8b77-fed5585d390a">Implementing IMediaBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>
  
 
  

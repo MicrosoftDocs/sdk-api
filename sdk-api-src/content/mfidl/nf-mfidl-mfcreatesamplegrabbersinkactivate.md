@@ -62,19 +62,19 @@ Creates an activation object for the sample grabber media sink.
 
 ### -param pIMFMediaType
 
-Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, defining the media type for the sample grabber's input stream.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface, defining the media type for the sample grabber's input stream.
           
 
 
 ### -param pIMFSampleGrabberSinkCallback
 
-Pointer to the <a href="https://msdn.microsoft.com/6635823c-f532-4012-ad3c-382491b61671">IMFSampleGrabberSinkCallback</a> interface of a callback object. The caller must implement this interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a> interface of a callback object. The caller must implement this interface.
           
 
 
 ### -param ppIActivate
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. Use this interface to complete the creation of the sample grabber. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. Use this interface to complete the creation of the sample grabber. The caller must release the interface.
           
 
 
@@ -91,16 +91,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-To create the sample grabber sink, call <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a> on the pointer received in the <i>ppIActivate</i> parameter.
+To create the sample grabber sink, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> on the pointer received in the <i>ppIActivate</i> parameter.
 
-Before calling <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">ActivateObject</a>, you can configure the sample grabber by setting any of the following attributes on the <i>ppIActivate</i> pointer:
+Before calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a>, you can configure the sample grabber by setting any of the following attributes on the <i>ppIActivate</i> pointer:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/780ec4a6-8e14-4b81-9d50-82b2850c70ae">MF_SAMPLEGRABBERSINK_IGNORE_CLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-samplegrabbersink-ignore-clock">MF_SAMPLEGRABBERSINK_IGNORE_CLOCK</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8d06b415-aafc-4276-9a88-4b7262df62f1">MF_SAMPLEGRABBERSINK_SAMPLE_TIME_OFFSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-samplegrabbersink-sample-time-offset-attribute">MF_SAMPLEGRABBERSINK_SAMPLE_TIME_OFFSET</a>
 </li>
 </ul>
 
@@ -111,7 +111,7 @@ Before calling <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

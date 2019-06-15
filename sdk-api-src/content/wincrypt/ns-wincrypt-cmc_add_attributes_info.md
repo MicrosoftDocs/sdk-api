@@ -80,5 +80,5 @@ Count of the elements in the <b>rgAttribute</b> array.
 ### -field rgAttribute
 
 Array of pointers to the 
-<a href="https://msdn.microsoft.com/cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847">CRYPT_ATTRIBUTE</a> certificate attributes to be added.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> certificate attributes to be added.
 

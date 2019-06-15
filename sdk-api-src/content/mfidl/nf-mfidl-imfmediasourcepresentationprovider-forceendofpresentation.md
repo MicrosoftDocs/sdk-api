@@ -63,7 +63,7 @@ Notifies the source when playback has reached the end of a segment. For timeline
 
 ### -param pPresentationDescriptor [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/db03e212-7021-433e-84dc-410b2cf7af87">IMFPresentationDescriptor</a> interface of the presentation descriptor for the segment that has ended.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor for the segment that has ended.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/b6b36324-a315-42a0-bdbf-8d2cec6cde3f">IMFMediaSourcePresentationProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcepresentationprovider">IMFMediaSourcePresentationProvider</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>FWPS_DISCARD_MODULE0</b> enumeration type specifies the type of module that discarded the
   data.
-<div class="alert"><b>Note</b>  <b>FWPS_DISCARD_MODULE0</b> is a specific version of <b>FWPS_DISCARD_MODULE</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_DISCARD_MODULE0</b> is a specific version of <b>FWPS_DISCARD_MODULE</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -enum-fields
 
@@ -84,7 +84,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The 
-    <a href="https://msdn.microsoft.com/f17076d8-b669-4bb4-a871-10c7bdc6e370">FWPS_DISCARD_METADATA0</a> structure
+    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a> structure
     contains a member of type FWPS_DISCARD_MODULE0 that specifies the type of module that discarded the
     data.
 
@@ -96,7 +96,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/f17076d8-b669-4bb4-a871-10c7bdc6e370">FWPS_DISCARD_METADATA0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_discard_metadata0_">FWPS_DISCARD_METADATA0</a>
  
 
  

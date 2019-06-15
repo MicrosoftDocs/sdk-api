@@ -68,7 +68,7 @@ Compares a set of operating system version requirements to the corresponding val
 ### -param lpVersionInformation [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure containing the operating system version requirements to compare. The <i>dwTypeMask</i> parameter indicates the members of this structure that contain information to compare. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a> structure containing the operating system version requirements to compare. The <i>dwTypeMask</i> parameter indicates the members of this structure that contain information to compare. 
 
 
 
@@ -79,7 +79,7 @@ You must set the <b>dwOSVersionInfoSize</b> member of this structure to <code>si
 ### -param dwTypeMask [in]
 
 A mask that indicates the members of the 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> structure to be tested. This parameter can be one or more of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a> structure to be tested. This parameter can be one or more of the following values.
 
 <table>
 <tr>
@@ -183,9 +183,9 @@ If you are testing the major version, you must also test the minor version and t
 ### -param dwlConditionMask [in]
 
 The type of comparison to be used for each <b>lpVersionInfo</b> member being compared. To build this value, call the 
-<a href="https://msdn.microsoft.com/5ee18447-e55f-4d79-9d21-be7a619ea647">VerSetConditionMask</a> function or the 
-<a href="https://msdn.microsoft.com/c93be952-41a8-48c4-b24f-996bf9237727">VER_SET_CONDITION</a> macro once for each 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a> member being compared.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-versetconditionmask">VerSetConditionMask</a> function or the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-ver_set_condition">VER_SET_CONDITION</a> macro once for each 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a> member being compared.
 
 
 ## -returns
@@ -195,9 +195,9 @@ The type of comparison to be used for each <b>lpVersionInfo</b> member being com
 If the currently running operating system satisfies the specified requirements, the return value is a nonzero value.
 
 If the current system does not satisfy the requirements, the return value is zero and 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_OLD_WIN_VERSION.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_OLD_WIN_VERSION.
 
-If the function fails, the return value is zero and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns an error code other than ERROR_OLD_WIN_VERSION.
+If the function fails, the return value is zero and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns an error code other than ERROR_OLD_WIN_VERSION.
 
 
 
@@ -209,7 +209,7 @@ If the function fails, the return value is zero and <a href="https://msdn.micros
 The 
 <b>VerifyVersionInfo</b> function retrieves version information about the currently running operating system and compares it to the valid members of the <b>lpVersionInfo</b> structure. This enables you to easily determine the presence of a required set of operating system version conditions. It is preferable to use 
 <b>VerifyVersionInfo</b> rather than calling the 
-<a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a> function to perform your own comparisons.
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function to perform your own comparisons.
 
 Typically, 
 <b>VerifyVersionInfo</b> returns a nonzero value only if all specified tests succeed. However, major, minor, and service pack versions are tested in a hierarchical manner because the operating system version is a combination of these values. If a condition exists for the major version, it supersedes the conditions specified for minor version and service pack version. (You cannot test for major version greater than 5 and minor version less than or equal to 1. If you specify such a test, the function will change the request to test for a minor version greater than 1 because it is performing a greater than operation on the major version.)
@@ -222,19 +222,19 @@ To verify a range of system versions, you must call
 <b>VerifyVersionInfo</b> again to test that the major version is 5 and the minor version is less than or equal to 1.
 
 Identifying the current operating system is usually not the best way to determine whether a particular operating system feature is present. This is because the operating system may have had new features added in a redistributable DLL. Rather than using 
-<a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a> to determine the operating system platform or version number, test for the presence of the feature itself. For more information, see 
-<a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> to determine the operating system platform or version number, test for the presence of the feature itself. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>.
 
-To verify whether the current operating system is either the Media Center or Tablet PC version of Windows, call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>.
+To verify whether the current operating system is either the Media Center or Tablet PC version of Windows, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>.
 
 <b>Windows 10:  </b><b>VerifyVersionInfo</b> returns false when called by applications that do not have a compatibility manifest for Windows 8.1 or Windows 10 if the <i>lpVersionInfo</i> parameter is set so that it specifies Windows 8.1 or Windows 10, even when the current operating system version is Windows 8.1 or Windows 10. Specifically, <b>VerifyVersionInfo</b> has the following behavior:<ul>
 <li>If  the application has no manifest, <b>VerifyVersionInfo</b> behaves as if the operation system version is Windows 8 (6.2).</li>
 <li>If  the application has a manifest that contains the GUID that corresponds to Windows 8.1, <b>VerifyVersionInfo</b> behaves as if the operation system version is Windows 8.1 (6.3).</li>
 <li>If  the application has a manifest that contains the GUID that corresponds to Windows 10, <b>VerifyVersionInfo</b> behaves as if the operation system version is Windows 10 (10.0).</li>
 </ul>
-The <a href="https://msdn.microsoft.com/2FAF67CD-CEEA-4096-B482-F5E2DF8D6C34">Version Helper functions</a> use the <b>VerifyVersionInfo</b> function, so the behavior <a href="https://msdn.microsoft.com/E391B568-5E43-42C7-B186-8CA524331FFE">IsWindows8Point1OrGreater</a> and <a href="https://msdn.microsoft.com/1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4">IsWindows10OrGreater</a> are similarly affected by the presence and content of the manifest.
+The <a href="https://docs.microsoft.com/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a> use the <b>VerifyVersionInfo</b> function, so the behavior <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows8point1orgreater">IsWindows8Point1OrGreater</a> and <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows10orgreater">IsWindows10OrGreater</a> are similarly affected by the presence and content of the manifest.
 
-To manifest your applications for Windows 8.1 or Windows 10, see <a href="https://msdn.microsoft.com/E7A1A16A-95B3-4B45-81AD-A19E33F15AE4">Targeting your application for Windows</a>.
+To manifest your applications for Windows 8.1 or Windows 10, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/targeting-your-application-at-windows-8-1">Targeting your application for Windows</a>.
 
 
 
@@ -242,7 +242,7 @@ To manifest your applications for Windows 8.1 or Windows 10, see <a href="http
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/f39c35ae-9be5-4a03-9079-6fcc63387f6b">Verifying the System Version</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/verifying-the-system-version">Verifying the System Version</a>.
 
 <div class="code"></div>
 
@@ -253,27 +253,27 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System Information Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93be952-41a8-48c4-b24f-996bf9237727">VER_SET_CONDITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-ver_set_condition">VER_SET_CONDITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ee18447-e55f-4d79-9d21-be7a619ea647">VerSetConditionMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-versetconditionmask">VerSetConditionMask</a>
  
 
  

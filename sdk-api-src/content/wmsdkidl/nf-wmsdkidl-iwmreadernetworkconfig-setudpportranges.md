@@ -126,15 +126,15 @@ If no ranges are specified by the application, port numbers are selected by the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743536(v=VS.85).aspx">IWMReaderNetworkConfig::GetUDPPortRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getudpportranges">IWMReaderNetworkConfig::GetUDPPortRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757979(v=VS.85).aspx">WM_PORT_NUMBER_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmportnumberrange">WM_PORT_NUMBER_RANGE</a>
  
 
  

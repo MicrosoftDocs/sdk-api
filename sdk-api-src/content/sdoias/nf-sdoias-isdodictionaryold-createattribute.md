@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CreateAttribute</b> method creates a new attribute object and returns an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface to it.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface to it.
 
 
 ## -parameters
@@ -62,13 +62,13 @@ The
 ### -param Id [in]
 
 Specifies a value from the enumeration type 
-<a href="https://msdn.microsoft.com/42a74deb-6d6e-493a-b9e0-d9549a5530d3">ATTRIBUTEID</a>. This value specifies the type of attribute to create.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">ATTRIBUTEID</a>. This value specifies the type of attribute to create.
 
 
 ### -param ppAttributeObject [out]
 
 Pointer to a pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer for the created attribute object.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer for the created attribute object.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If the method fails, the return value is one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/42a74deb-6d6e-493a-b9e0-d9549a5530d3">ATTRIBUTEID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_attributeid">ATTRIBUTEID</a>
 
 
 
-<a href="https://msdn.microsoft.com/5aaa4008-3b39-4d1d-90db-79631e5bb6b9">ISdoDictionaryOld</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
  
 
  

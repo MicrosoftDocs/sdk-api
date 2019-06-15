@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
+The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interfaces that can be called by the business rule (BizRule) script associated with this client context.
 
 This property is read-only.
 

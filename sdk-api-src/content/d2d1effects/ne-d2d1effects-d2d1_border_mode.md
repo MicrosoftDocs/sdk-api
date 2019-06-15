@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies how the <a href="https://msdn.microsoft.com/DFB7DE20-F202-4E7F-AE63-94BF817B6E30">Crop effect</a> handles the crop rectangle falling on fractional pixel coordinates.
+Specifies how the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/crop">Crop effect</a> handles the crop rectangle falling on fractional pixel coordinates.
         
 
 

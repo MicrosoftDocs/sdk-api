@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 The <b>GetRecursive</b> method 
     indicates whether the list of files described in a 
-    <a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object with a root directory returned by 
-    <a href="https://msdn.microsoft.com/e646bf76-8779-4095-a022-2d69d5c3bead">IVssWMFiledesc::GetPath</a> contains only files in 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object with a root directory returned by 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getpath">IVssWMFiledesc::GetPath</a> contains only files in 
     that directory or whether the file list contains files from the directory hierarchy as well.
 
 
@@ -65,13 +65,13 @@ The <b>GetRecursive</b> method
 ### -param pbRecursive [out]
 
 A pointer to a Boolean value specifying whether the value returned by 
-      <a href="https://msdn.microsoft.com/e646bf76-8779-4095-a022-2d69d5c3bead">IVssWMFiledesc::GetPath</a> identifies 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getpath">IVssWMFiledesc::GetPath</a> identifies 
       only a single directory or if it indicates a hierarchy of directories to be traversed recursively. The Boolean value receives 
       <b>true</b> if the path is treated as a hierarchy of directories to be traversed recursively, or <b>false</b> if not.
       
 
 For information on traversing over mounted folders, see 
-       <a href="https://msdn.microsoft.com/d0e08598-a8a2-489b-9cb2-e989bed1ce53">Working with Mounted Folders and Reparse Points</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 
 ## -returns
@@ -126,7 +126,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -141,7 +141,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more 
         information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ The XML document is not valid. Check the event log for details. For more
 
 
 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
  
 
  

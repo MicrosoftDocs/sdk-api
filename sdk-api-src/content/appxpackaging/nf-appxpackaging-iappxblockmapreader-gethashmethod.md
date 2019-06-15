@@ -79,9 +79,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of the <a href="https://msdn.microsoft.com/75eed334-6c80-4eb3-8776-fc34d7aa5357">BlockMap</a> root element. 
+The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/blockmapschema/element-blockmap">BlockMap</a> root element. 
 
-<b>GetHashMethod</b> returns supported URIs for <a href="https://msdn.microsoft.com/de7b02d8-8d72-4e94-887f-5f319784e79b">DigestMethod</a>s.
+<b>GetHashMethod</b> returns supported URIs for <a href="https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-digestmethod">DigestMethod</a>s.
 
 
 
@@ -91,7 +91,7 @@ The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of th
 
 
 
-<a href="https://msdn.microsoft.com/233539FD-E3BE-4783-9F23-B34F6397FBBE">IAppxBlockMapReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
  
 
  

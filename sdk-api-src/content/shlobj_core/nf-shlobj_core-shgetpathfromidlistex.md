@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts an item identifier list to a file system path. This function extends <a href="https://msdn.microsoft.com/f043ffa2-37c1-465d-aed6-0475e721fbde">SHGetPathFromIDList</a> by allowing you to set the initial size of the string buffer and declare the options below.
+Converts an item identifier list to a file system path. This function extends <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlista">SHGetPathFromIDList</a> by allowing you to set the initial size of the string buffer and declare the options below.
 
 
 ## -parameters
@@ -134,7 +134,7 @@ If the <i>pidl</i> parameter specifies a shortcut, the <i>pszPath</i> contains t
 
 
 
-<a href="https://msdn.microsoft.com/7bdfeed5-dcd0-40f6-a9d0-08ce816ee055">SHParseDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a>
  
 
  

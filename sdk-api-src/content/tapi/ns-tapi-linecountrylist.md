@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>LINECOUNTRYLIST</b> structure describes a list of countries/regions. This structure can contain an array of 
-<a href="https://msdn.microsoft.com/627ff743-f90b-4bcb-b646-cdbc9f768ad2">LINECOUNTRYENTRY</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a> structures. 
 <b>LINECOUNTRYLIST</b> is returned by the 
-<a href="https://msdn.microsoft.com/4de271b3-d93b-4fc9-b853-e26ef1ae75ae">lineGetCountry</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcountry">lineGetCountry</a> function.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwNumCountries
 
 Number of 
-<a href="https://msdn.microsoft.com/627ff743-f90b-4bcb-b646-cdbc9f768ad2">LINECOUNTRYENTRY</a> structures present in the array defined by <b>dwCountryListSize</b> and <b>dwCountryListOffset</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a> structures present in the array defined by <b>dwCountryListSize</b> and <b>dwCountryListOffset</b>.
 
 
 ### -field dwCountryListSize
@@ -90,7 +90,7 @@ Size of the array of country/region information, in bytes.
 ### -field dwCountryListOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://msdn.microsoft.com/627ff743-f90b-4bcb-b646-cdbc9f768ad2">LINECOUNTRYENTRY</a> structures that provides the information for each country/region. The size of the field is specified by <b>dwCountryListSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a> structures that provides the information for each country/region. The size of the field is specified by <b>dwCountryListSize</b>.
 
 
 ## -remarks
@@ -107,11 +107,11 @@ This structure may not be extended.
 
 
 
-<a href="https://msdn.microsoft.com/627ff743-f90b-4bcb-b646-cdbc9f768ad2">LINECOUNTRYENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecountryentry_tag">LINECOUNTRYENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/4de271b3-d93b-4fc9-b853-e26ef1ae75ae">lineGetCountry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcountry">lineGetCountry</a>
  
 
  

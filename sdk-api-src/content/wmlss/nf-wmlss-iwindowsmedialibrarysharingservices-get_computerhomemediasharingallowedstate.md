@@ -100,7 +100,7 @@ If home media sharing is allowed for the computer and a particular user has enab
 
 <div class="alert"><b>Warning</b>  In Windows 7, a call to <b>get_computerHomeMediaSharingAllowedState</b> from a service account might return an incorrect result.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  Each call to the <a href="https://msdn.microsoft.com/f844f79e-ae6f-4f57-abec-2b6d5951961f">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a> method with the   <i>sharingAllowed</i> parameter set to <b>VARIANT_TRUE</b>   updates the access control list (ACL) and last changed time  for all files in the 
+<div class="alert"><b>Note</b>  Each call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a> method with the   <i>sharingAllowed</i> parameter set to <b>VARIANT_TRUE</b>   updates the access control list (ACL) and last changed time  for all files in the 
 
 computer's Public Music, Public Pictures, and Public Videos folders.</div>
 <div> </div>
@@ -112,11 +112,11 @@ computer's Public Music, Public Pictures, and Public Videos folders.</div>
 
 
 
-<a href="https://msdn.microsoft.com/bbec5687-3c77-4385-a9be-74c6d84db962">IWindowsMediaLibrarySharingServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingservices">IWindowsMediaLibrarySharingServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/f844f79e-ae6f-4f57-abec-2b6d5951961f">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_computerhomemediasharingallowedstate">IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState</a>
  
 
  

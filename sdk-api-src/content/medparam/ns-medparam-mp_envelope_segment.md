@@ -123,7 +123,7 @@ Ignore the specified start value. Start from the current value.
 </dl>
 </td>
 <td width="60%">
-Ignore the specified start value. Start from the neutral value. (See <a href="https://msdn.microsoft.com/en-us/library/Dd390745(v=VS.85).aspx">MP_PARAMINFO</a>.)
+Ignore the specified start value. Start from the neutral value. (See <a href="https://docs.microsoft.com/windows/desktop/api/medparam/ns-medparam-_mp_paraminfo">MP_PARAMINFO</a>.)
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ Ignore the specified start value. Start from the neutral value. (See <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/82c8ea74-1c5e-4370-9075-6db2ed6b2c91">DMO Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
  
 
  

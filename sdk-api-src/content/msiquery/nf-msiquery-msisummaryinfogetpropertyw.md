@@ -53,10 +53,10 @@ ms.custom: 19H1
 
 
 The 
-<b>MsiSummaryInfoGetProperty</b> function gets a single property from the <a href="https://msdn.microsoft.com/c4bedc0e-cd1a-4cdc-8dd1-4a774aaf533e">summary information stream</a>.
+<b>MsiSummaryInfoGetProperty</b> function gets a single property from the <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream">summary information stream</a>.
 
 
-<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="https://msdn.microsoft.com/b44b24b7-7fc4-4c3c-9d10-7e2f3c43cf36">Summary Property Descriptions</a> and <a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
+<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-property-descriptions">Summary Property Descriptions</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
 <div> </div>
 
 
@@ -73,13 +73,13 @@ Handle to summary information.
 
 ### -param uiProperty [in]
 
-Specifies the property ID of the summary property. This parameter can be a property ID  listed in the <a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a>.  This function does not return values for PID_DICTIONARY OR PID_THUMBNAIL property.
+Specifies the property ID of the summary property. This parameter can be a property ID  listed in the <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.  This function does not return values for PID_DICTIONARY OR PID_THUMBNAIL property.
 
 
 ### -param puiDataType [out]
 
 Receives the returned property type. This  parameter can be a type listed in the  
-<a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.
 
 
 ### -param piValue [out]
@@ -119,7 +119,7 @@ The
 If ERROR_MORE_DATA is returned, the parameter which is a pointer gives the size of the buffer required to hold the string. If ERROR_SUCCESS is returned, it gives the number of characters written to the string buffer. Therefore you can get the size of the buffer by passing in an empty string (for example "") for the parameter that specifies the buffer. Do not attempt to determine the size of the buffer by passing in a Null (value=0).
 
 Windows Installer functions that return data in a user provided memory location should not be called with null as the value for the pointer. These functions return a string or return data as integer pointers, but return inconsistent values when passing null as the value for the output argument. For more information, see 
-<a href="https://msdn.microsoft.com/f566c4a4-b90c-4d73-9d7f-f5b836630636">Passing Null as the Argument of Windows Installer Functions</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>.
 
 The property information returned by the <b>MsiSummaryInfoGetProperty</b> function is received by the <i>piValue</i>, <i>pftValue</i>, or  <i>szValueBuf</i> parameter depending upon the type of property value that has been specified in the <i>puiDataType</i> parameter.
 
@@ -131,19 +131,19 @@ The property information returned by the <b>MsiSummaryInfoGetProperty</b> functi
 
 
 
-<a href="https://msdn.microsoft.com/f566c4a4-b90c-4d73-9d7f-f5b836630636">Passing Null as the Argument of Windows Installer Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5dd014f-21af-41f9-be75-1b139946179d">Summary Information Stream Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e8f0987-c92b-43f3-a61a-35099188c629">Summaryinfo.Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/summaryinfo-summaryinfo">Summaryinfo.Property</a>
  
 
  

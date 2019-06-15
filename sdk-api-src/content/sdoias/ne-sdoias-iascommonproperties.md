@@ -96,7 +96,7 @@ The name of the datastore for the object.
 
 ### -field PROPERTY_SDO_START
 
-Indicates the start of <a href="https://msdn.microsoft.com/ce16b0e4-3be1-42fc-a489-d3ddce2ebf3f">USERPROPERTIES</a>.
+Indicates the start of <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_userproperties">USERPROPERTIES</a>.
 
 
 ## -remarks
@@ -104,7 +104,7 @@ Indicates the start of <a href="https://msdn.microsoft.com/ce16b0e4-3be1-42fc-a4
 
 
 The following code snippet retrieves the name of the SDO object, if it exists. The variable pSdo is a pointer to an 
-<a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a> interface.
 
 
 ```cpp
@@ -123,7 +123,7 @@ hr = pSdo->GetProperty(PROPERTY_SDO_NAME, &vtItemName);
 
 
 
-<a href="https://msdn.microsoft.com/9567e731-4240-4b37-8757-2e25824bba0a">ISdo::GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty">ISdo::GetProperty</a>
  
 
  

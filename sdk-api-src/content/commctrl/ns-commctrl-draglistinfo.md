@@ -60,7 +60,7 @@ Contains information about a drag event. The pointer to <b>DRAGLISTINFO</b> is p
 
 ### -field uNotification
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The notification code that specifies the type of drag event. This member can be one of the following values: 
 
@@ -115,14 +115,14 @@ The user has released the left mouse button, completing a drag operation.
 
 ### -field hWnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the drag list box. 
 
 
 ### -field ptCursor
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure that contains the current x- and y-coordinates of the mouse cursor. 
+A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the current x- and y-coordinates of the mouse cursor. 
 

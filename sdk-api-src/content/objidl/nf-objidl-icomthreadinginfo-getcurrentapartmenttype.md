@@ -59,7 +59,7 @@ Retrieves the type of apartment in which the caller is executing.
 
 ### -param pAptType [out]
 
-A points to an <a href="https://msdn.microsoft.com/eae95b1f-3883-4334-aa7e-84e71e05fb24">APTTYPE</a> enumeration value that characterizes the caller's apartment.
+A points to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-_apttype">APTTYPE</a> enumeration value that characterizes the caller's apartment.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The caller is not executing in an apartment.
 
 
 
-<a href="https://msdn.microsoft.com/fa4c7d82-ec5d-43d6-914e-bba60ad19aa2">IComThreadingInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>
  
 
  

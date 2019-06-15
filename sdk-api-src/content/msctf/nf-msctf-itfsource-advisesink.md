@@ -60,9 +60,9 @@ ms.custom: 19H1
 
 Identifies the type of advise sink to install.
 
-This parameter can be one of the following values when the <b>ITfSource</b> object is obtained from an <a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr</a> object.
+This parameter can be one of the following values when the <b>ITfSource</b> object is obtained from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> object.
 
-This parameter can be one of the following values when the <a href="https://msdn.microsoft.com/2ff77f09-1b4c-4115-9bb4-4040097d1f90">ITfSource</a> object is obtained from an <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> object.
+This parameter can be one of the following values when the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object is obtained from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> object.
 
 <table>
 <tr>
@@ -75,7 +75,7 @@ This parameter can be one of the following values when the <a href="https://msdn
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://msdn.microsoft.com/c70141e8-c948-44f4-914e-454327aadf2b">ITfActiveLanguageProfileNotifySink</a> advise sink.
+Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink">ITfActiveLanguageProfileNotifySink</a> advise sink.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Installs an <a href="https://msdn.microsoft.com/c70141e8-c948-44f4-914e-454327aa
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://msdn.microsoft.com/c21ff404-af42-488a-90f0-d3f02277c557">ITfDisplayAttributeNotifySink</a> advise sink.
+Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributenotifysink">ITfDisplayAttributeNotifySink</a> advise sink.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Installs an <a href="https://msdn.microsoft.com/c21ff404-af42-488a-90f0-d3f02277
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://msdn.microsoft.com/29785bae-59b8-4bbb-b899-44f6fc3e83bd">ITfKeyTraceEventSink</a> advise sink.
+Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink</a> advise sink.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Installs an <a href="https://msdn.microsoft.com/29785bae-59b8-4bbb-b899-44f6fc3e
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://msdn.microsoft.com/0bf786b5-efcd-4c58-835b-47e7adf9be63">ITfPreservedKeyNotifySink</a> advise sink.
+Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpreservedkeynotifysink">ITfPreservedKeyNotifySink</a> advise sink.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Installs an <a href="https://msdn.microsoft.com/0bf786b5-efcd-4c58-835b-47e7adf9
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://msdn.microsoft.com/17335fa9-01ee-4585-9454-f326b6281ab1">ITfThreadFocusSink</a> advise sink.
+Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadfocussink">ITfThreadFocusSink</a> advise sink.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Installs an <a href="https://msdn.microsoft.com/17335fa9-01ee-4585-9454-f326b628
 </dl>
 </td>
 <td width="60%">
-Installs an <a href="https://msdn.microsoft.com/be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6">ITfThreadMgrEventSink</a> advise sink.
+Installs an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink</a> advise sink.
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ The advise sink <b>IUnknown</b> pointer.
 
 ### -param pdwCookie [out]
 
-Address of a DWORD value that receives an identifying cookie. This value is used to uninstall the advise sink in a subsequent call to <a href="https://msdn.microsoft.com/e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84">ITfSource::UnadviseSink</a>. Receives (DWORD)-1 if a failure occurs.
+Address of a DWORD value that receives an identifying cookie. This value is used to uninstall the advise sink in a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">ITfSource::UnadviseSink</a>. Receives (DWORD)-1 if a failure occurs.
 
 
 ## -returns
@@ -231,32 +231,32 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/c70141e8-c948-44f4-914e-454327aadf2b">ITfActiveLanguageProfileNotifySink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfactivelanguageprofilenotifysink">ITfActiveLanguageProfileNotifySink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">ITfCompartment
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1bd464e7-9e34-4725-83f9-42e09ddf4778">ITfCompartmentEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmenteventsink">ITfCompartmentEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/26fc5d8a-e24e-414e-a355-c1f89251f6bd">ITfContextKeyEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextkeyeventsink">ITfContextKeyEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c21ff404-af42-488a-90f0-d3f02277c557">ITfDisplayAttributeNotifySink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributenotifysink">ITfDisplayAttributeNotifySink
       </a>
 
 
@@ -265,76 +265,76 @@ ITfEditTransactionSink
 
 
 
-<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">ITfInputProcessorProfiles
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/29785bae-59b8-4bbb-b899-44f6fc3e83bd">ITfKeyTraceEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeytraceeventsink">ITfKeyTraceEventSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1734a011-1ee8-4afd-ace8-334eeaf14518">ITfLangBarItemSink
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemsink">ITfLangBarItemSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c0c8d02a-cc3f-4c1c-96e9-516f49b868e6">ITfLanguageProfileNotifySink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itflanguageprofilenotifysink">ITfLanguageProfileNotifySink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/0bf786b5-efcd-4c58-835b-47e7adf9be63">ITfPreservedKeyNotifySink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpreservedkeynotifysink">ITfPreservedKeyNotifySink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/2ff77f09-1b4c-4115-9bb4-4040097d1f90">ITfSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84">ITfSource::UnadviseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-unadvisesink">ITfSource::UnadviseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc37251-938b-4581-bb54-816749b17001">ITfStatusSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfstatussink">ITfStatusSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/a88b20ec-fc54-4814-9ca1-131664b4f377">ITfSystemLangBarItemSink
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/50f44525-eb3a-4db2-90c2-3e0c6c6146e3">ITfTextEditSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftexteditsink">ITfTextEditSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/370e30a8-6eed-448a-87c7-7fd01e9973c6">ITfTextLayoutSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextlayoutsink">ITfTextLayoutSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/17335fa9-01ee-4585-9454-f326b6281ab1">ITfThreadFocusSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadfocussink">ITfThreadFocusSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3a2ba59c-3565-4f54-ac10-923dcb4882cb">ITfThreadMgr
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6">ITfThreadMgrEventSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink
       </a>
  
 

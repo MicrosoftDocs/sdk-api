@@ -73,7 +73,7 @@ Returns nothing.
 
 
 
-If you are not using a swap chain, get access to an output by calling <a href="https://msdn.microsoft.com/en-us/library/Bb174558(v=VS.85).aspx">IDXGIOutput::TakeOwnership</a> and release it when you are finished by calling <b>IDXGIOutput::ReleaseOwnership</b>. An application that uses a swap chain will typically not call either of these methods.
+If you are not using a swap chain, get access to an output by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-takeownership">IDXGIOutput::TakeOwnership</a> and release it when you are finished by calling <b>IDXGIOutput::ReleaseOwnership</b>. An application that uses a swap chain will typically not call either of these methods.
 
 
 
@@ -83,7 +83,7 @@ If you are not using a swap chain, get access to an output by calling <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
  
 
  

@@ -121,11 +121,11 @@ Size, in wide characters, of the buffer that <i>lpDosName </i>points to.
 
 
 
-<a href="https://msdn.microsoft.com/50815b33-d417-4499-9423-f65697396200">FltGetVolumeName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/8574e5cf-5bbf-4606-931f-e27b2aa7b7fa">IoQueryFileDosDeviceName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioqueryfiledosdevicename">IoQueryFileDosDeviceName</a>
 
 
 

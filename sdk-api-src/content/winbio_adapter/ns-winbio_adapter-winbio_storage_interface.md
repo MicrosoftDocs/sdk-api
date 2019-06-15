@@ -85,127 +85,127 @@ A GUID that uniquely identifies the storage adapter. You must generate this valu
 
 ### -field Attach
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/6abded6b-12e0-4cc6-a011-0b18e8ea747b">StorageAdapterAttach</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_attach_fn">StorageAdapterAttach</a> function.
 
 
 ### -field Detach
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/cebf03d3-e393-437a-81f7-579fea95aa9c">StorageAdapterDetach</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_detach_fn">StorageAdapterDetach</a> function.
 
 
 ### -field ClearContext
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/d7022363-01e9-4675-9bd0-e9369d237c3c">StorageAdapterClearContext</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_clear_context_fn">StorageAdapterClearContext</a> function.
 
 
 ### -field CreateDatabase
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/7b9e034e-51d4-4209-9092-14e21e9fff3c">StorageAdapterCreateDatabase</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_create_database_fn">StorageAdapterCreateDatabase</a> function.
 
 
 ### -field EraseDatabase
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/c1fc2f3f-034b-4546-aeee-1d1a38695793">StorageAdapterEraseDatabase</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_erase_database_fn">StorageAdapterEraseDatabase</a> function.
 
 
 ### -field OpenDatabase
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/4f3dfa67-5020-461a-b3d1-33c948129bdf">StorageAdapterOpenDatabase</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a> function.
 
 
 ### -field CloseDatabase
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/ddb8d0b8-e975-4ee2-bb8c-423b1304c467">StorageAdapterCloseDatabase</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_close_database_fn">StorageAdapterCloseDatabase</a> function.
 
 
 ### -field GetDataFormat
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/e5bf31aa-59d7-410a-bb11-fe4af36fa409">StorageAdapterGetDataFormat</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_get_data_format_fn">StorageAdapterGetDataFormat</a> function.
 
 
 ### -field GetDatabaseSize
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/98e26b32-3e2a-40d9-8463-9bd7e93c636b">StorageAdapterGetDatabaseSize</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_get_database_size_fn">StorageAdapterGetDatabaseSize</a> function.
 
 
 ### -field AddRecord
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/889664e2-00e8-49b4-9754-4ca72dd44bbd">StorageAdapterAddRecord</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_add_record_fn">StorageAdapterAddRecord</a> function.
 
 
 ### -field DeleteRecord
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/f1939410-1c1e-42e4-98d6-d8866d313ca1">StorageAdapterDeleteRecord</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_delete_record_fn">StorageAdapterDeleteRecord</a> function.
 
 
 ### -field QueryBySubject
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/b2c93122-fae1-44ad-97d4-f90115194a31">StorageAdapterQueryBySubject</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_subject_fn">StorageAdapterQueryBySubject</a> function.
 
 
 ### -field QueryByContent
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/773aacd1-a34a-4c5a-b615-2a5485f13ca1">StorageAdapterQueryByContent</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_content_fn">StorageAdapterQueryByContent</a> function.
 
 
 ### -field GetRecordCount
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/dc7891c3-33f7-498c-acb1-4687909debb7">StorageAdapterGetRecordCount</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_get_record_count_fn">StorageAdapterGetRecordCount</a> function.
 
 
 ### -field FirstRecord
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/736688c3-2c2c-4244-9f49-98ad0fe2d141">StorageAdapterFirstRecord</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_first_record_fn">StorageAdapterFirstRecord</a> function.
 
 
 ### -field NextRecord
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/e0025167-0778-474e-baca-ffc767822893">StorageAdapterNextRecord</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_next_record_fn">StorageAdapterNextRecord</a> function.
 
 
 ### -field GetCurrentRecord
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/a06550da-c6ea-44e5-b54f-8005bcbc0364">StorageAdapterGetCurrentRecord</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_get_current_record_fn">StorageAdapterGetCurrentRecord</a> function.
 
 
 ### -field ControlUnit
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/98981278-9d30-4e7d-a9b6-d0427ed8b385">StorageAdapterControlUnit</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_control_unit_fn">StorageAdapterControlUnit</a> function.
 
 
 ### -field ControlUnitPrivileged
 
-A pointer to your implementation of the  <a href="https://msdn.microsoft.com/42e33817-df5f-4598-bc6a-94e49ce5fca4">StorageAdapterControlUnitPrivileged</a> function.
+A pointer to your implementation of the  <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_control_unit_privileged_fn">StorageAdapterControlUnitPrivileged</a> function.
 
 
 ### -field NotifyPowerChange
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/22c2ce7b-6e30-40e1-bbe8-f0e479ddcc77">StorageAdapterNotifyPowerChange</a> function. This member is supported starting in Windows 8.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_notify_power_change_fn">StorageAdapterNotifyPowerChange</a> function. This member is supported starting in Windows 8.
 
 
 ### -field PipelineInit
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/F969AC5A-6760-4904-A04E-F2FEF4290F7A">StorageAdapterPipelineInit</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_pipeline_init_fn">StorageAdapterPipelineInit</a> function. This member is supported starting in Windows 10.
 
 
 ### -field PipelineCleanup
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/4F75BCE0-173F-48F3-B4DD-A6AE1AFD4EA5">StorageAdapterPipelineCleanup</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_pipeline_cleanup_fn">StorageAdapterPipelineCleanup</a> function. This member is supported starting in Windows 10.
 
 
 ### -field Activate
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/2E9B5191-94F2-4954-BE3A-78803ABBAD07">StorageAdapterActivate</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_activate_fn">StorageAdapterActivate</a> function. This member is supported starting in Windows 10.
 
 
 ### -field Deactivate
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/95AAEE98-2DA6-4A2C-BF0C-DBE193346FE1">StorageAdapterDeactivate</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_deactivate_fn">StorageAdapterDeactivate</a> function. This member is supported starting in Windows 10.
 
 
 ### -field QueryExtendedInfo
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/BCA55006-73F4-4845-84B3-34A6255D673F">StorageAdapterQueryExtendedInfo</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_query_extended_info_fn">StorageAdapterQueryExtendedInfo</a> function. This member is supported starting in Windows 10.
 
 
 ### -field NotifyDatabaseChange
@@ -240,15 +240,15 @@ A pointer to your implementation of the <a href="https://msdn.microsoft.com/BCA5
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/64fb908c-72c2-4639-a2f6-77ede080512c">Plug-in Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff7297ee-8d0a-41f4-8abf-66ab5163dae7">WbioQueryStorageInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioquerystorageinterface">WbioQueryStorageInterface</a>
  
 
  

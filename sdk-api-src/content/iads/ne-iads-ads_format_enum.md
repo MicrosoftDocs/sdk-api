@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ADS_FORMAT_ENUM</b> enumeration specifies the available path value types used by the  <a href="https://msdn.microsoft.com/c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa">IADsPathname::Retrieve</a> method.
+The <b>ADS_FORMAT_ENUM</b> enumeration specifies the available path value types used by the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-retrieve">IADsPathname::Retrieve</a> method.
 
 
 ## -enum-fields
@@ -128,11 +128,11 @@ Because Visual Basic Scripting Edition  cannot read data from a type library, VB
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa">IADsPathname::Retrieve</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspathname-retrieve">IADsPathname::Retrieve</a>
  
 
  

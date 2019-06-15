@@ -63,13 +63,13 @@ Retrieves information about the next thread of any process encountered in the sy
 ### -param hSnapshot [in]
 
 A handle to the snapshot returned from a previous call to the 
-<a href="https://msdn.microsoft.com/df643c25-7558-424c-b187-b3f86ba51358">CreateToolhelp32Snapshot</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
 
 ### -param lpte [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/923feca1-8807-4752-8a5a-79075688aabd">THREADENTRY32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagthreadentry32">THREADENTRY32</a> structure.
 
 
 ## -returns
@@ -77,7 +77,7 @@ A pointer to a
 
 
 Returns <b>TRUE</b> if the next entry of the thread list has been copied to the buffer or <b>FALSE</b> otherwise. The <b>ERROR_NO_MORE_FILES</b> error value is returned by the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function if no threads exist or the snapshot does not contain thread information.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function if no threads exist or the snapshot does not contain thread information.
 
 
 
@@ -87,13 +87,13 @@ Returns <b>TRUE</b> if the next entry of the thread list has been copied to the 
 
 
 To retrieve information about the first thread recorded in a snapshot, use the 
-<a href="https://msdn.microsoft.com/d4cb7a19-850e-43b5-bda5-91be48382d2a">Thread32First</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/67194627-8239-46d2-93e7-eb8e5f6c56e6">Traversing the Thread List</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-thread-list">Traversing the Thread List</a>.
 
 <div class="code"></div>
 
@@ -104,23 +104,23 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/df643c25-7558-424c-b187-b3f86ba51358">CreateToolhelp32Snapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/923feca1-8807-4752-8a5a-79075688aabd">THREADENTRY32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagthreadentry32">THREADENTRY32</a>
 
 
 
-<a href="https://msdn.microsoft.com/2440b781-652d-4d73-b173-87504e7b49b5">Thread Walking</a>
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/thread-walking">Thread Walking</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4cb7a19-850e-43b5-bda5-91be48382d2a">Thread32First</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>
 
 
 
-<a href="https://msdn.microsoft.com/83732bd6-f4cf-409d-ad17-86503d408dc3">Tool Help Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
  
 
  

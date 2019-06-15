@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FWPS_FILTER0</b> structure defines a run-time filter in the filter engine.
-<div class="alert"><b>Note</b>  <b>FWPS_FILTER0</b> is the specific version of <b>FWPS_FILTER</b> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/2be2c82b-5b7c-4027-b2a1-f43d2b27b860">FWPS_FILTER2</a> is available. For Windows 7, <a href="https://msdn.microsoft.com/3a5f6f0a-0162-4e64-b3c1-60021ef2dd95">FWPS_FILTER1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_FILTER0</b> is the specific version of <b>FWPS_FILTER</b> used in Windows Vista and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a> is available. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ A run-time identifier that identifies the filter in the filter engine.
 ### -field weight
 
 An 
-     <a href="https://msdn.microsoft.com/0d8557cd-bd11-4786-ba6e-fbbeb2e2b761">FWP_VALUE0</a> structure that contains a value that
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a> structure that contains a value that
      specifies the filter's importance in relation to other filters in the filter engine. Filters with a
      higher 
      <b>weight</b> value are invoked first. The data type specified in the 
@@ -86,7 +86,7 @@ A value that specifies the importance of the filter's sublayer in relation to th
 ### -field flags
 
 Flags that specify actions that a callout's 
-     <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a> callout function should take when
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function should take when
      processing network data. Possible flags are:
      
 
@@ -102,7 +102,7 @@ Flags that specify actions that a callout's
 </td>
 <td width="60%">
 This flag indicates to a callout's 
-       <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a> callout function that it should
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function that it should
        always clear the FWPS_RIGHT_ACTION_WRITE flag when it returns either FWP_ACTION_BLOCK or
        FWP_ACTION_PERMIT for the suggested action. If this flag is not set, a callout's 
        <i>classifyFn0</i> callout function should only
@@ -118,7 +118,7 @@ This flag indicates to a callout's
 </td>
 <td width="60%">
 This flag indicates to a callout's 
-       <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a> callout function that if the
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function that if the
        callout is not registered, the callout should be treated as a permit filter.
 
 </td>
@@ -130,7 +130,7 @@ This flag indicates to a callout's
 ### -field numFilterConditions
 
 The number of 
-     <a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a> structures in
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a> structures in
      the array pointed to by the 
      <b>filterCondition</b> member. This member can be zero.
 
@@ -138,7 +138,7 @@ The number of
 ### -field filterCondition
 
 A pointer to an array of 
-     <a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a> structures.
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a> structures.
      These structures define the run-time filtering conditions for the filter. If the 
      <b>numFilterConditions</b> member is zero, then this pointer will be <b>NULL</b>.
 
@@ -146,7 +146,7 @@ A pointer to an array of
 ### -field action
 
 An 
-     <a href="https://msdn.microsoft.com/1b192efc-e685-48bf-bf61-1419ce03a77a">FWPS_ACTION0</a> structure that specifies the
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0_">FWPS_ACTION0</a> structure that specifies the
      action that the filter should take if all of the filter's filtering conditions are true.
 
 
@@ -154,10 +154,10 @@ An
 
 A context value that is associated with the filter. A callout can set this member to point to a
      callout driver-supplied context structure from within the callout driver's 
-     <a href="https://msdn.microsoft.com/c0f94079-7398-4998-b2b2-471aa8c538a1">notifyFn0</a> callout function when the filter is
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a> callout function when the filter is
      added to the filter engine. This context structure, which is opaque to the filter engine, can be used by
      the callout driver's 
-     <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a> callout function to preserve any
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function to preserve any
      driver-specific data or state information between calls by the filter engine to the callout driver's 
      <i>classifyFn0</i> callout function.
 
@@ -173,8 +173,8 @@ A pointer to the provider context, which is formatted as a <a href="http://go.mi
 
 
 The filter engine passes a pointer to an <b>FWPS_FILTER0</b> structure to a callout's 
-    <a href="https://msdn.microsoft.com/c0f94079-7398-4998-b2b2-471aa8c538a1">notifyFn0</a> and 
-    <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a> callout functions.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a> and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout functions.
 
 A filter's action is performed only if all of the filter's filtering conditions are true. If no
     filtering conditions are specified in the filter, then the specified action is always performed.
@@ -191,35 +191,35 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/a6f19d6d-4fce-4774-86c1-10d1bf77315f">FWPM_CALLOUT0</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550076(v=vs.85)">FWPM_CALLOUT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b192efc-e685-48bf-bf61-1419ce03a77a">FWPS_ACTION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_action0_">FWPS_ACTION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a5f6f0a-0162-4e64-b3c1-60021ef2dd95">FWPS_FILTER1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a>
 
 
 
-<a href="https://msdn.microsoft.com/2be2c82b-5b7c-4027-b2a1-f43d2b27b860">FWPS_FILTER2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4a20939-4866-4402-9b29-d94c2170807c">FWPS_FILTER_CONDITION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter_condition0_">FWPS_FILTER_CONDITION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d8557cd-bd11-4786-ba6e-fbbeb2e2b761">FWP_VALUE0</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff552450(v=vs.85)">FWP_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0f94079-7398-4998-b2b2-471aa8c538a1">notifyFn0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn0">notifyFn0</a>
  
 
  

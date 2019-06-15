@@ -54,7 +54,7 @@ Represents configuration UI information used to build and register a synchroniza
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncProviderConfigUI</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncProviderConfigUI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncProviderConfigUI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncProviderConfigUI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncProviderConfigUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b256431-ed9a-414d-88c2-89f02000410d">CreateAndRegisterNewSyncProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-createandregisternewsyncprovider">CreateAndRegisterNewSyncProvider</a>
 </td>
 <td align="left" width="63%">
 Creates and registers a new  synchronization provider.
@@ -78,7 +78,7 @@ Creates and registers a new  synchronization provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c96091d7-4b80-445b-911a-fde612eafce9">GetRegisteredProperties</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-getregisteredproperties">GetRegisteredProperties</a>
 </td>
 <td align="left" width="63%">
 Obtains configuration UI properties for reading and writing.
@@ -87,7 +87,7 @@ Obtains configuration UI properties for reading and writing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4705bc9-c5ab-46f9-ace8-7e96c16dfb75">Init</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the configuration UI for a synchronization provider.
@@ -96,10 +96,10 @@ Initializes the configuration UI for a synchronization provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16f6d30c-422a-4638-a63b-f9d2a5fdb8b4">ModifySyncProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfigui-modifysyncprovider">ModifySyncProvider</a>
 </td>
 <td align="left" width="63%">
-Updates the <a href="https://msdn.microsoft.com/fe50e34c-6499-4c1e-b891-7b4f797510f2">ISyncProviderInfo</a> of the synchronization provider that is configured by this <b>ISyncProviderConfigUI</b>.
+Updates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> of the synchronization provider that is configured by this <b>ISyncProviderConfigUI</b>.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Updates the <a href="https://msdn.microsoft.com/fe50e34c-6499-4c1e-b891-7b4f7975
 
 The writer of a synchronization provider should implement an <b>ISyncProviderConfigUI</b> (a builder) for a synchronization provider if it requires additional information and properties to be set before it can be created. For example, a synchronization provider may require a user to enter credentials before their data can be synchronized.
 
-If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <b>Init</b>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://msdn.microsoft.com/acf9a557-da4f-4688-9fea-9456947c17b4">Options for Building a Synchronization Provider</a>.
+If the registered synchronization provider is a <a href="http://go.microsoft.com/fwlink/p/?linkid=134798">Microsoft Sync Framework</a> provider, then the <b>Init</b>method will be called by the Sync Framework synchronization session. For more information about the different types of synchronization providers you can write for Windows, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/options-for-building-a-synchronization-provider">Options for Building a Synchronization Provider</a>.
 
 
 
@@ -122,7 +122,7 @@ If the registered synchronization provider is a <a href="http://go.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/8233671e-bf89-448d-8347-9b4f0ae7501f">Windows Sync Registration Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
  
 
  

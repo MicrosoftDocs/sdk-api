@@ -76,11 +76,11 @@ signing the package.
 
 
 
-<a href="https://msdn.microsoft.com/02d07300-e8f2-44fa-a562-5cec03af9a8c">IXpsSigningOptions::GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-getflags">IXpsSigningOptions::GetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/59467fd5-c462-4827-a4f8-e152df981ace">IXpsSigningOptions::SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nf-xpsdigitalsignature-ixpssigningoptions-setflags">IXpsSigningOptions::SetFlags</a>
 
 
 

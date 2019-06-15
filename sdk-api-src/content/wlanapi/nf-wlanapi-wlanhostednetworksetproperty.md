@@ -59,12 +59,12 @@ The <b>WlanHostedNetworkSetProperty</b> function sets static properties of the w
 
 ### -param hClientHandle [in]
 
-The client's session handle, returned by a previous call to the <a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a> function.
+The client's session handle, returned by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 
 ### -param OpCode [in]
 
-The identifier for the property to be set. This identifier can only be the following values in the <a href="https://msdn.microsoft.com/e4acd7ad-c8f2-4ece-8d27-ced879baa9e7">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file:
+The identifier for the property to be set. This identifier can only be the following values in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a> enumeration defined in the <i>Wlanapi.h </i>header file:
 
 
 
@@ -87,7 +87,7 @@ A pointer to a buffer with the static property to set.  The data type associated
 
 ### -param pFailReason [out, optional]
 
-An optional pointer to a value that receives the failure reason,  if the call to the <b>WlanHostedNetworkSetProperty</b> function fails. Possible values for the failure reason are from the <a href="https://msdn.microsoft.com/affca9ab-fcd4-474d-993c-f6bb6b1f967c">WLAN_HOSTED_NETWORK_REASON</a> enumeration type defined in the <i>Wlanapi.h </i>header file.
+An optional pointer to a value that receives the failure reason,  if the call to the <b>WlanHostedNetworkSetProperty</b> function fails. Possible values for the failure reason are from the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a> enumeration type defined in the <i>Wlanapi.h </i>header file.
 
 
 ### -param pvReserved
@@ -150,7 +150,7 @@ A handle is invalid. This error is returned if the handle specified in the <i>hC
 <td width="60%">
 A parameter is incorrect. This error is returned if any of the following conditions occur:<ul>
 <li><i>hClientHandle</i> is <b>NULL</b>.</li>
-<li><i>OpCode</i> is not one of the enumerated values defined in the <a href="https://msdn.microsoft.com/e4acd7ad-c8f2-4ece-8d27-ced879baa9e7">WLAN_HOSTED_NETWORK_OPCODE</a>.</li>
+<li><i>OpCode</i> is not one of the enumerated values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>.</li>
 <li><i>dwDataSize</i> is zero.</li>
 <li><i>pvData</i> is <b>NULL</b>.</li>
 <li><i>pvData</i> does not point to a well- formed static property.</li>
@@ -178,7 +178,7 @@ The resource is not in the correct state to perform the requested operation. Thi
 </dl>
 </td>
 <td width="60%">
-The request is not supported. This error is returned if the application calls the <a href="https://msdn.microsoft.com/88139383-f5d5-4e42-b41e-ea754a89356d">WlanHostedNetworkSetProperty</a> function with the <i>OpCode</i> parameter set to  <b>wlan_hosted_network_opcode_station_profile</b> or <b>wlan_hosted_network_opcode_security_settings</b>. 
+The request is not supported. This error is returned if the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworksetproperty">WlanHostedNetworkSetProperty</a> function with the <i>OpCode</i> parameter set to  <b>wlan_hosted_network_opcode_station_profile</b> or <b>wlan_hosted_network_opcode_security_settings</b>. 
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ The service has not been started. This error is returned if the WLAN AutoConfig 
 </td>
 <td width="60%">
 Various RPC and other error codes. Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 
 </td>
@@ -219,7 +219,7 @@ Various RPC and other error codes. Use
 The <b>WlanHostedNetworkSetProperty</b> function is an extension to native wireless APIs added to support the wireless Hosted Network on Windows 7 and on Windows Server 2008 R2 with the Wireless LAN Service installed. 
 
 A client application calls the <b>WlanHostedNetworkSetProperty</b> function to set the current static properties of the wireless Hosted Network. 
-Any Hosted Network property change caused by this function would not be automatically undone if the calling application closes its calling handle (by calling <a href="https://msdn.microsoft.com/8e944133-2616-4e17-ac38-c17e8d25ccec">WlanCloseHandle</a> with the <i>hClientHandle</i> parameter) or if the process ends.
+Any Hosted Network property change caused by this function would not be automatically undone if the calling application closes its calling handle (by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a> with the <i>hClientHandle</i> parameter) or if the process ends.
 
 
 The data type associated with the buffer pointed to by the <i>pvData</i> parameter depends upon the value of <i>OpCode</i> parameter as follows: 
@@ -237,7 +237,7 @@ The data type associated with the buffer pointed to by the <i>pvData</i> paramet
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd439499(v=VS.85).aspx">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is passed in the <i>pvData</i> parameter.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is passed in the <i>pvData</i> parameter.
 
 </td>
 </tr>
@@ -254,7 +254,7 @@ A pointer to <b>BOOL</b> is passed in the <i>pvData</i> parameter.
 </table>
  
 
-If the <b>WlanHostedNetworkSetProperty</b> function is called with the <i>OpCode</i> parameter set to <b>wlan_hosted_network_opcode_enable</b>, the user must have the appropriate associated privilege. Permissions are stored in a discretionary access control list (DACL) associated with a <a href="https://msdn.microsoft.com/1f6e1460-d27f-4800-8a32-6f9f509753cf">WLAN_SECURABLE_OBJECT</a>.  To call the  <b>WlanHostedNetworkSetProperty</b> function with the <i>OpCode</i> parameter of <b>wlan_hosted_network_opcode_enable</b>, the client access token of the caller must have elevated privileges exposed by the following enumeration in <b>WLAN_SECURABLE_OBJECT</b>: <ul>
+If the <b>WlanHostedNetworkSetProperty</b> function is called with the <i>OpCode</i> parameter set to <b>wlan_hosted_network_opcode_enable</b>, the user must have the appropriate associated privilege. Permissions are stored in a discretionary access control list (DACL) associated with a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_securable_object">WLAN_SECURABLE_OBJECT</a>.  To call the  <b>WlanHostedNetworkSetProperty</b> function with the <i>OpCode</i> parameter of <b>wlan_hosted_network_opcode_enable</b>, the client access token of the caller must have elevated privileges exposed by the following enumeration in <b>WLAN_SECURABLE_OBJECT</b>: <ul>
 <li><b>wlan_secure_hosted_network_elevated_access</b></li>
 </ul>
 
@@ -269,7 +269,7 @@ In order to succeed,  the <b>WlanHostedNetworkSetProperty</b> function must pers
 
 Any user can call this function to set the Hosted Network properties. However, to set the <b>wlan_hosted_network_opcode_enable</b> flag requires elevated privileges. The ability to enable the wireless Hosted Network may also be restricted by group policy in a domain.
 
-On Windows 7 and later, the operating system installs a virtual device if a Hosted Network capable wireless adapter is present on the machine. This virtual device normally shows up in the “Network Connections Folder” as ‘Wireless  Network Connection 2’ with a Device Name of ‘Microsoft Virtual WiFi Miniport adapter’ if the computer has a single wireless network adapter. This virtual device is used exclusively for performing software access point (SoftAP) connections and is not present in the list returned by the <a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a> function. The lifetime of this virtual device is tied to the physical wireless adapter. If the physical wireless adapter is disabled, this virtual device will be removed as well. This feature is also available on Windows Server 2008 R2 with the Wireless LAN Service installed.
+On Windows 7 and later, the operating system installs a virtual device if a Hosted Network capable wireless adapter is present on the machine. This virtual device normally shows up in the “Network Connections Folder” as ‘Wireless  Network Connection 2’ with a Device Name of ‘Microsoft Virtual WiFi Miniport adapter’ if the computer has a single wireless network adapter. This virtual device is used exclusively for performing software access point (SoftAP) connections and is not present in the list returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function. The lifetime of this virtual device is tied to the physical wireless adapter. If the physical wireless adapter is disabled, this virtual device will be removed as well. This feature is also available on Windows Server 2008 R2 with the Wireless LAN Service installed.
 
 
 
@@ -279,55 +279,55 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://msdn.microsoft.com/a6990759-9b84-4644-8f82-75aa63e8197b">About the Wireless Hosted Network</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wireless-hosted-network">About the Wireless Hosted Network</a>
 
 
 
-<a href="https://msdn.microsoft.com/56e86ef8-f759-4e56-a591-74e03430125a">Using Wireless Hosted Network and Internet Connection Sharing</a>
+<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/using-hosted-network-and-internet-connection-sharing">Using Wireless Hosted Network and Internet Connection Sharing</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd439499(v=VS.85).aspx">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_hosted_network_connection_settings">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4acd7ad-c8f2-4ece-8d27-ced879baa9e7">WLAN_HOSTED_NETWORK_OPCODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_opcode">WLAN_HOSTED_NETWORK_OPCODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/affca9ab-fcd4-474d-993c-f6bb6b1f967c">WLAN_HOSTED_NETWORK_REASON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-_wlan_hosted_network_reason">WLAN_HOSTED_NETWORK_REASON</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e944133-2616-4e17-ac38-c17e8d25ccec">WlanCloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f817edf-1b1d-495c-afd9-d97e3ae0caab">WlanEnumInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/aed4db5d-9740-43ee-bf09-7a4a5abae953">WlanHostedNetworkInitSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkinitsettings">WlanHostedNetworkInitSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/bab05629-c921-4639-94db-25f77742dbd3">WlanHostedNetworkQueryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty">WlanHostedNetworkQueryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/5989977a-7a2f-43b8-a958-058db01fd24f">WlanHostedNetworkQuerySecondaryKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkquerysecondarykey">WlanHostedNetworkQuerySecondaryKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/9589e3a6-6e7a-4186-bfd0-a942a39ecafb">WlanHostedNetworkRefreshSecuritySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkrefreshsecuritysettings">WlanHostedNetworkRefreshSecuritySettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/385148fd-b5cd-4221-be25-077f484e93e9">WlanHostedNetworkSetSecondaryKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworksetsecondarykey">WlanHostedNetworkSetSecondaryKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/27bfa0c1-4443-47a4-a374-326f553fa3bb">WlanOpenHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a>
  
 
  

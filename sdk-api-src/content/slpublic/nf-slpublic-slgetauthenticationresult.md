@@ -75,7 +75,7 @@ A pointer to the size, in bytes, of the authentication result.
 
 Type: <b>PBYTE*</b>
 
-A pointer to the authentication result. When finished using the memory, free it by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function.
+A pointer to the authentication result. When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 
 ## -returns
@@ -99,7 +99,7 @@ If this function succeeds, it return <b>S_OK</b>.  Otherwise,  it returns an <b>
 </dl>
 </td>
 <td width="60%">
-The key used in the <a href="https://msdn.microsoft.com/68906873-6c49-4221-ad87-1e1f1463c0d4">SLSetAuthenticationData</a> function call is incorrect.
+The key used in the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slsetauthenticationdata">SLSetAuthenticationData</a> function call is incorrect.
 
 </td>
 </tr>

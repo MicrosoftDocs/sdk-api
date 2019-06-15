@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IXDSCodec</b> interface is exposed by the <a href="https://msdn.microsoft.com/5b04314e-76e4-48af-911f-707a5db2100c">XDS Codec</a> filter. Most applications will not have to use this interface.
+The <b>IXDSCodec</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xds-codec-filter">XDS Codec</a> filter. Most applications will not have to use this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSCodec</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXDSCodec</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSCodec</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXDSCodec</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,43 +72,34 @@ The <b>IXDSCodec</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60523c2c-0d57-46d7-8ab2-eaf065a440d4">get_CCSubstreamService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-get_ccsubstreamservice">get_CCSubstreamService</a>
 </td>
 <td align="left" width="63%">
-Queries which line 21 data channels the XDS Codec filter sends to the <a href="https://msdn.microsoft.com/bda34c12-0eb8-4d3a-867e-f7215f70c7c7">XDSToRat</a> object.
+Queries which line 21 data channels the XDS Codec filter sends to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/846f3f68-8745-416d-9f0e-1e6ef83054b2">get_XDSToRatObjOK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-get_xdstoratobjok">get_XDSToRatObjOK</a>
 </td>
 <td align="left" width="63%">
-Queries whether the <a href="https://msdn.microsoft.com/bda34c12-0eb8-4d3a-867e-f7215f70c7c7">XDSToRat</a> object was created successfully.
+Queries whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object was created successfully.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/725e444c-ecf4-49da-a800-cc3faf627eea">GetContentAdvisoryRating</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getcontentadvisoryrating">GetContentAdvisoryRating</a>
 </td>
 <td align="left" width="63%">
-Retrieves the most recent ratings information parsed by the <a href="https://msdn.microsoft.com/bda34c12-0eb8-4d3a-867e-f7215f70c7c7">XDSToRat</a> object.
+Retrieves the most recent ratings information parsed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d948df6-6cdf-4283-a2af-3acd47937889">GetCurrLicenseExpDate</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57fd833a-00cc-41d5-acf9-6b07aa8dc115">GetLastErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getcurrlicenseexpdate">GetCurrLicenseExpDate</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -117,7 +108,16 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44a74489-4ed7-42f0-b8d5-bf86e0f7072c">GetXDSPacket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getlasterrorcode">GetLastErrorCode</a>
+</td>
+<td align="left" width="63%">
+Not implemented.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-getxdspacket">GetXDSPacket</a>
 </td>
 <td align="left" width="63%">
 Retrieves the most recent XDS packet.
@@ -126,10 +126,10 @@ Retrieves the most recent XDS packet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8e4a43a-3e9f-468a-8df3-7ff05d23b20b">put_CCSubstreamService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodec-put_ccsubstreamservice">put_CCSubstreamService</a>
 </td>
 <td align="left" width="63%">
-Specifies which line 21 data channels the XDS Codec filter sends to the <a href="https://msdn.microsoft.com/bda34c12-0eb8-4d3a-867e-f7215f70c7c7">XDSToRat</a> object.
+Specifies which line 21 data channels the XDS Codec filter sends to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/abe939a3-5f43-4fdf-9d4d-34b7be8893eb">TV Ratings Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
  
 
  

@@ -63,7 +63,7 @@ Pointer to the object type. If <b>NULL</b>, <i>pFormatEtc</i> should be used.
 
 ### -param pFormatEtc [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms682242(v=VS.85).aspx">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/com/the-formatetc-structure">FORMATETC</a> structure that contains format data of the object. This parameter cannot be <b>NULL</b> if the <i>pguidService</i> parameter is <b>NULL</b>.
 
 
 ### -param pfInsertable [out]
@@ -124,20 +124,20 @@ The clipboard formats supported by the document are dependent on the application
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682242(v=VS.85).aspx">FORMATETC</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/the-formatetc-structure">FORMATETC</a>
 
 
 
-<a href="https://msdn.microsoft.com/62730a6d-4dc8-4207-9818-ab95e6537854">ITextStoreAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/414842cc-7c3e-4f5c-93ac-3bd0eda5293e">ITextStoreAnchor::InsertEmbedded
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembedded">ITextStoreAnchor::InsertEmbedded
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/22c804b9-e260-4a8a-bbb3-fcc81fa97c7a">ITextStoreAnchor::InsertEmbeddedAtSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembeddedatselection">ITextStoreAnchor::InsertEmbeddedAtSelection
       </a>
  
 

@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 Serves as a standard header for information related to a device event reported through the 
-<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a> message.
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message.
 
 The members of the 
 <b>DEV_BROADCAST_HDR</b> structure are contained in each device management structure. To determine which structure you have received through 
-<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a>, treat the structure as a 
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>, treat the structure as a 
 <b>DEV_BROADCAST_HDR</b> structure and check its <b>dbch_devicetype</b> member.
 
 
@@ -71,7 +71,7 @@ The size of this structure, in bytes.
 
 
 If this is a user-defined event, this member must be the size of this header, plus the size of the variable-length data in the 
-<a href="https://msdn.microsoft.com/e90fbce2-cae7-4e78-b6f5-82b200390cb7">_DEV_BROADCAST_USERDEFINED</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_userdefined">_DEV_BROADCAST_USERDEFINED</a> structure.
 
 
 ### -field dbch_devicetype
@@ -91,7 +91,7 @@ The device type, which determines the event-specific information that follows th
 </td>
 <td width="60%">
 Class of devices. This structure is a 
-<a href="https://msdn.microsoft.com/23e6b2b9-2053-4dfa-9c0a-283279f086b8">DEV_BROADCAST_DEVICEINTERFACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a> structure.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Class of devices. This structure is a
 </td>
 <td width="60%">
 File system handle. This structure is a 
-<a href="https://msdn.microsoft.com/5e542abc-8db3-4251-8b68-11456aa2da5e">DEV_BROADCAST_HANDLE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_handle">DEV_BROADCAST_HANDLE</a> structure.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ File system handle. This structure is a
 </td>
 <td width="60%">
 OEM- or IHV-defined device type. This structure is a 
-<a href="https://msdn.microsoft.com/32d72002-1e67-4f72-8821-6712eb898e7d">DEV_BROADCAST_OEM</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_oem">DEV_BROADCAST_OEM</a> structure.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ OEM- or IHV-defined device type. This structure is a
 </td>
 <td width="60%">
 Port device (serial or parallel). This structure is a 
-<a href="https://msdn.microsoft.com/b8789f1c-7d82-4637-bdb0-016a22b3bc8a">DEV_BROADCAST_PORT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_port_a">DEV_BROADCAST_PORT</a> structure.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Port device (serial or parallel). This structure is a
 </td>
 <td width="60%">
 Logical volume. This structure is a 
-<a href="https://msdn.microsoft.com/8ce644d9-1e95-458e-924f-67bd37831048">DEV_BROADCAST_VOLUME</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_volume">DEV_BROADCAST_VOLUME</a> structure.
 
 </td>
 </tr>
@@ -157,27 +157,27 @@ Reserved; do not use.
 
 
 
-<a href="https://msdn.microsoft.com/23e6b2b9-2053-4dfa-9c0a-283279f086b8">DEV_BROADCAST_DEVICEINTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_deviceinterface_a">DEV_BROADCAST_DEVICEINTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e542abc-8db3-4251-8b68-11456aa2da5e">DEV_BROADCAST_HANDLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_handle">DEV_BROADCAST_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/32d72002-1e67-4f72-8821-6712eb898e7d">DEV_BROADCAST_OEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_oem">DEV_BROADCAST_OEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8789f1c-7d82-4637-bdb0-016a22b3bc8a">DEV_BROADCAST_PORT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_port_a">DEV_BROADCAST_PORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ce644d9-1e95-458e-924f-67bd37831048">DEV_BROADCAST_VOLUME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_volume">DEV_BROADCAST_VOLUME</a>
 
 
 
-<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
  
 
  

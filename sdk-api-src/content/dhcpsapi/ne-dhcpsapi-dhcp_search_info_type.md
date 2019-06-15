@@ -64,7 +64,7 @@ The search will be performed against the assigned DHCP client IP address, repres
 
 ### -field DhcpClientHardwareAddress
 
-The search will be performed against the MAC address of the DHCP client network interface device, represented as a <a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a> structure.
+The search will be performed against the MAC address of the DHCP client network interface device, represented as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a> structure.
 
 
 ### -field DhcpClientName
@@ -77,11 +77,11 @@ The search will be performed against the DHCP client's network name, represented
 
 
 
-<a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c6f85d7-c156-4379-bad9-0705698f12e5">DHCP_SEARCH_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info">DHCP_SEARCH_INFO</a>
  
 
  

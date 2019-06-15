@@ -66,11 +66,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/b00f4d1f-2920-4ec4-ae90-756b2600198b">FsrmPipelineModuleConnector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmpipelinemoduleconnector">FsrmPipelineModuleConnector</a>
 
 
 
-<a href="https://msdn.microsoft.com/7debbe8c-b687-42e1-b9b7-1b5f6f16a159">IFsrmPipelineModuleConnector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleconnector">IFsrmPipelineModuleConnector</a>
  
 
  

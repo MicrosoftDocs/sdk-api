@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information for the <a href="https://msdn.microsoft.com/en-us/library/Bb761376(v=VS.85).aspx">IPN_FIELDCHANGED</a> notification code. 
+Contains information for the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipn-fieldchanged">IPN_FIELDCHANGED</a> notification code. 
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Contains information for the <a href="https://msdn.microsoft.com/en-us/library/B
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field iField
@@ -76,5 +76,5 @@ The zero-based number of the field that was changed.
 Type: <b>int</b>
 
 The new value of the field specified in the 
-					<b>iField</b> member. While processing the <a href="https://msdn.microsoft.com/en-us/library/Bb761376(v=VS.85).aspx">IPN_FIELDCHANGED</a> notification, this member can be set to any value that is within the range of the field and the control will place this new value in the field. 
+					<b>iField</b> member. While processing the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipn-fieldchanged">IPN_FIELDCHANGED</a> notification, this member can be set to any value that is within the range of the field and the control will place this new value in the field. 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OpenTask</b> method opens an <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object with the specified name.
+The <b>OpenTask</b> method opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>OpenTask</b> method opens an <a href="https://msdn.microsoft.com/90eb19c9
 
 ### -param bstrTaskName [in]
 
-Name of the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object to open.
+Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object to open.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppTask [out]
 
-A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object.
+A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object.
 
 
 ## -returns

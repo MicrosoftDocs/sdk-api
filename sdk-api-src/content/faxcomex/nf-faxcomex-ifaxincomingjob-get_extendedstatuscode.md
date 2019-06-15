@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <b>ExtendedStatusCode</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object. The <b>ExtendedStatusCode</b> property specifies a code describing the job's extended status.
+Retrieves the <b>ExtendedStatusCode</b> property of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob">FaxIncomingJob</a> object. The <b>ExtendedStatusCode</b> property specifies a code describing the job's extended status.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Retrieves the <b>ExtendedStatusCode</b> property of a <a href="https://msdn.micr
 
 ### -param pExtendedStatusCode [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms688631(v=VS.85).aspx">FAX_JOB_EXTENDED_STATUS_ENUM</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_job_extended_status_enum">FAX_JOB_EXTENDED_STATUS_ENUM</a>*</b>
 
-Pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/ms688631(v=VS.85).aspx">FAX_JOB_EXTENDED_STATUS_ENUM</a> enumeration that specifies the extended job status.
+Pointer to a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_job_extended_status_enum">FAX_JOB_EXTENDED_STATUS_ENUM</a> enumeration that specifies the extended job status.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686029(v=VS.85).aspx">ExtendedStatusCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-extendedstatuscode">ExtendedStatusCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingjob">IFaxIncomingJob</a>
  
 
  

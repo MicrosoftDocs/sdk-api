@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/28c5179a-bdfa-40ca-9cf2-239a9fbf5856">InstallationRebootBehavior</a> enumeration that  specifies the restart behavior that occurs when you install or uninstall the update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-taginstallationrebootbehavior">InstallationRebootBehavior</a> enumeration that  specifies the restart behavior that occurs when you install or uninstall the update.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74">IInstallationBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>
  
 
  

@@ -118,7 +118,7 @@ If the function succeeds, the function should return WN_SUCCESS.
 					
 
 If the function fails, it should call 
-<a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to set extended error information, which may include the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set extended error information, which may include the following values.
 
 <table>
 <tr>
@@ -133,7 +133,7 @@ If the function fails, it should call
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/72ea90ce-3493-49bf-beaa-833217495e47">NPFMXEditPerm</a> is not supported in the provider.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npfmxeditperm">NPFMXEditPerm</a> is not supported in the provider.
 
 </td>
 </tr>

@@ -59,7 +59,7 @@ A notification signaling that the radio state of the device has changed.
 
 ### -param newInterface [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b4b5ccfc-6cbf-4090-aee1-ee97092147f7">IMbnRadio</a> interface representing the device for which the radio state has changed.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a> interface representing the device for which the radio state has changed.
 
 
 ## -returns
@@ -85,7 +85,7 @@ New software and hardware radio states can be obtained from the passed <i>newInt
 
 
 
-<a href="https://msdn.microsoft.com/f02fa823-c1ca-4867-981d-cb3107f7291b">IMbnRadioEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a>
  
 
  

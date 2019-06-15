@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969508(v=VS.85).aspx">DwmEnableBlurBehindWindow</a> function.
+Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmenableblurbehindwindow">DwmEnableBlurBehindWindow</a> function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Specifies Desktop Window Manager (DWM) blur-behind properties. Used by the <a hr
 
 ### -field dwFlags
 
-A bitwise combination of <a href="https://msdn.microsoft.com/en-us/library/Aa969533(v=VS.85).aspx">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
+A bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-bb-constants">DWM Blur Behind</a> constant values that indicates which of the members of this structure have been set.
 
 
 ### -field fEnable

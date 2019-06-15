@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sends a response message matching a given request context. This method should be called only from <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>.
+Sends a response message matching a given request context. This method should be called only from <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ## -parameters
@@ -64,12 +64,12 @@ Pointer to the message body to send in the response message.
 
 ### -param pOperation [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structure that contains the type of response to send.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structure that contains the type of response to send.
 
 
 ### -param pMessageParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/fb659a5e-1f55-47a6-b22d-660975d8c0fd">IWSDMessageParameters</a> object that contains the message parameters from the original request message.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a> object that contains the message parameters from the original request message.
 
 
 ## -returns
@@ -149,7 +149,7 @@ The method failed.
 
 
 
-<a href="https://msdn.microsoft.com/06584474-1c55-43db-9c7a-fefea8d16eed">IWSDServiceMessaging</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a>
  
 
  

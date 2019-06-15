@@ -127,7 +127,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Ser
 
 
 
-<a href="https://msdn.microsoft.com/4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40">MIB_IPMCAST_OIF</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
  
 
  

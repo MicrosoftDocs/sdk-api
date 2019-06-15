@@ -70,7 +70,7 @@ Specifies a time-out value, in milliseconds. If the filter does not receive the 
 
 ### -param ppRST [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/deee44cb-92b8-4d10-91d7-c99324ab5832">IDVB_RST</a> interface pointer. The caller must release the interface.
+Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_rst">IDVB_RST</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/092162af-5f88-4ce5-ac2f-89327f094804">IDvbSiParser Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
  
 
  

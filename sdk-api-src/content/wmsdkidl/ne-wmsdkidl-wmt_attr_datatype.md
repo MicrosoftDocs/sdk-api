@@ -100,11 +100,11 @@ The property is a 128-bit (6-byte) GUID.
 
 
 
-<a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
  
 
  

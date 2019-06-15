@@ -197,7 +197,7 @@ Each type of window has a different role in the in-place activation architecture
 
 
 
-<a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
  
 
  

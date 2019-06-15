@@ -63,7 +63,7 @@ Sets or retrieves custom folder settings. This function reads from and writes to
 
 Type: <b>LPSHFOLDERCUSTOMSETTINGS</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/a6357372-80ef-4719-b53f-87eb3fdc1b0d">SHFOLDERCUSTOMSETTINGS</a> structure that provides or receives the custom folder settings.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shfoldercustomsettings">SHFOLDERCUSTOMSETTINGS</a> structure that provides or receives the custom folder settings.
 
 
 ### -param pszPath [in]

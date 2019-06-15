@@ -59,7 +59,7 @@ Initializes a palette using a computed optimized values based on the reference b
 
 ### -param pISurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 Pointer to the source bitmap.
 

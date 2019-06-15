@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-Defines statistics collected by the network source. The values in this enumeration define property identifiers (PIDs) for the <a href="https://msdn.microsoft.com/1948481b-febd-434b-a5dc-faef592ea0ed">MFNETSOURCE_STATISTICS</a> property.
+Defines statistics collected by the network source. The values in this enumeration define property identifiers (PIDs) for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-statistics-property">MFNETSOURCE_STATISTICS</a> property.
 
-To retrieve statistics from the network source, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> with the service identifier <b>MFNETSOURCE_STATISTICS_SERVICE</b> and the interface identifier IID_IPropertyStore. The retrieved pointer is an <b>IPropertyStore</b> pointer. To get the value of a network statistic, construct a <b>PROPERTYKEY</b> with <b>fmtid</b> equal to <b>MFNETSOURCE_STATISTICS</b> and <b>pid</b> equal to a value from this enumeration. Then call <b>IPropertyStore::GetValue</b> with the property key to retrieve the value of the statistic as a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>. 
+To retrieve statistics from the network source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MFNETSOURCE_STATISTICS_SERVICE</b> and the interface identifier IID_IPropertyStore. The retrieved pointer is an <b>IPropertyStore</b> pointer. To get the value of a network statistic, construct a <b>PROPERTYKEY</b> with <b>fmtid</b> equal to <b>MFNETSOURCE_STATISTICS</b> and <b>pid</b> equal to a value from this enumeration. Then call <b>IPropertyStore::GetValue</b> with the property key to retrieve the value of the statistic as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>. 
 
-In the descriptions that follow, the data type and value-type tag for the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> are listed in parentheses.
+In the descriptions that follow, the data type and value-type tag for the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> are listed in parentheses.
 
 
 ## -enum-fields
@@ -123,19 +123,19 @@ The total number of bytes received (<b>ULONGLONG</b>, <b>VT_UI8</b>).
 
 ### -field MFNETSOURCE_PROTOCOL_ID
 
-The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://msdn.microsoft.com/dd628b9e-3c52-4c14-aa0f-5e0b811d3f57">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
+The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
           
 
 
 ### -field MFNETSOURCE_TRANSPORT_ID
 
-The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://msdn.microsoft.com/b3cdb604-15eb-4df7-af30-b21093c93781">MFNETSOURCE_TRANSPORT_TYPE</a> enumeration.
+The type of control protocol used to receive the data (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_transport_type">MFNETSOURCE_TRANSPORT_TYPE</a> enumeration.
           
 
 
 ### -field MFNETSOURCE_CACHE_STATE_ID
 
-The status of cache for a media file or entry (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://msdn.microsoft.com/fc7f2f66-02a3-455a-820b-304a53494ef1">MFNETSOURCE_CACHE_STATE</a> enumeration.
+The status of cache for a media file or entry (<b>LONG</b>, <b>VT_I4</b>). The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_cache_state">MFNETSOURCE_CACHE_STATE</a> enumeration.
           
 
 
@@ -245,11 +245,11 @@ The percentage of the content that has been downloaded. The value is an integer 
 
 
 
-<a href="https://msdn.microsoft.com/f91b48ae-3989-4c1d-929c-8ab28d7c8177">Client Logging</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/client-logging">Client Logging</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

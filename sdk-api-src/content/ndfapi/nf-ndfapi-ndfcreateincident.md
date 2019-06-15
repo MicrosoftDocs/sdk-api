@@ -73,9 +73,9 @@ A count of elements in the attributes array.
 
 ### -param attributes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/bff9303e-7fab-49af-b213-aa0a9c83676e">HELPER_ATTRIBUTE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute">HELPER_ATTRIBUTE</a>*</b>
 
-The applicable <a href="https://msdn.microsoft.com/bff9303e-7fab-49af-b213-aa0a9c83676e">HELPER_ATTRIBUTE</a> structure.
+The applicable <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taghelper_attribute">HELPER_ATTRIBUTE</a> structure.
 
 
 ### -param handle [out]
@@ -153,15 +153,15 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/5e5caf41-ca24-42e0-ac22-3b569400c383">NdfCloseIncident</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcloseincident">NdfCloseIncident</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cb2713-b656-47a8-9de7-9d33e864a811">NdfCreateWinSockIncident</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewinsockincident">NdfCreateWinSockIncident</a>
 
 
 
-<a href="https://msdn.microsoft.com/b65f30c3-53d5-4282-8d38-5723772f15fc">NdfExecuteDiagnosis</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>
  
 
  

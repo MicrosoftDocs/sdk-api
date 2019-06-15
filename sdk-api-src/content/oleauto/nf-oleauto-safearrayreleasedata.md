@@ -75,7 +75,7 @@ This function does not return a value.
 
 
 
-A call to the <b>SafeArrayReleaseData</b> function should match every previous call to the <a href="https://msdn.microsoft.com/0745D2E7-447E-4688-ADCF-1F889BC55BFB">SafeArrayAddRef</a> function that returned a non-null value in the <i>ppDataToRelease</i> parameter.
+A call to the <b>SafeArrayReleaseData</b> function should match every previous call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaddref">SafeArrayAddRef</a> function that returned a non-null value in the <i>ppDataToRelease</i> parameter.
 
 
 
@@ -85,11 +85,11 @@ A call to the <b>SafeArrayReleaseData</b> function should match every previous c
 
 
 
-<a href="https://msdn.microsoft.com/0745D2E7-447E-4688-ADCF-1F889BC55BFB">SafeArrayAddRef</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayaddref">SafeArrayAddRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/D6678B17-B537-46CF-AC64-4D0C0DC4CDF3">SafeArrayReleaseDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedescriptor">SafeArrayReleaseDescriptor</a>
  
 
  

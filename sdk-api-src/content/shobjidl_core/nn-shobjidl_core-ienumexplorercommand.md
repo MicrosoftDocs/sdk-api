@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provided by an <a href="https://msdn.microsoft.com/f39ea1f7-28ba-4a5e-ac19-bcfc6052fdeb">IExplorerCommandProvider</a>. This interface contains the enumeration of commands to be put into the command bar.
+Provided by an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider">IExplorerCommandProvider</a>. This interface contains the enumeration of commands to be put into the command bar.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumExplorerCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumExplorerCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumExplorerCommand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumExplorerCommand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumExplorerCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ef3311a-6c88-463c-8c25-9ccb22f3e4e6">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.
@@ -78,7 +78,7 @@ Not currently implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/809e866d-128b-4a0e-9de0-c2123161134f">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of elements that directly follow the current element.
@@ -87,7 +87,7 @@ Retrieves a specified number of elements that directly follow the current elemen
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/296ff94a-81ec-49ac-95a3-92c7ca76c9bf">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration to 0.
@@ -96,7 +96,7 @@ Resets the enumeration to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/823bf5d4-9017-4f78-8bef-124d403174c5">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumexplorercommand-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Not currently implemented.

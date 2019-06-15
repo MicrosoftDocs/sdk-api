@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/3C2AE448-2EB1-445C-9885-449E02D79EC3">CD3D11_TEXTURE3D_DESC</a> structure.
+Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151706(v=vs.85)">CD3D11_TEXTURE3D_DESC</a> structure.
 
 ## -parameters
 
@@ -58,4 +58,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/3C2AE448-2EB1-445C-9885-449E02D79EC3">CD3D11_TEXTURE3D_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151706(v=vs.85)">CD3D11_TEXTURE3D_DESC</a>

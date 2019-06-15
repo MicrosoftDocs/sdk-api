@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
     <b>ExportRSoPData</b> function exports a WMI namespace that contains RSoP information to a data file. The function writes the information to a data file that can be imported to a WMI namespace with a call to the 
-<a href="https://msdn.microsoft.com/d3b4ef2e-a828-445a-83de-d5c9e4a4d98b">ImportRSoPData</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-importrsopdata">ImportRSoPData</a> function.
 
 
 ## -parameters
@@ -93,17 +93,17 @@ It is recommended that you call the
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3b4ef2e-a828-445a-83de-d5c9e4a4d98b">ImportRSoPData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-importrsopdata">ImportRSoPData</a>
  
 
  

@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[GetMetaFile is no longer available for use as of Windows 2000. Instead, use <a href="https://msdn.microsoft.com/bcb9611e-8e4e-4f87-8a1e-dedbe0042821">GetEnhMetaFile</a>.]
+<p class="CCE_Message">[GetMetaFile is no longer available for use as of Windows 2000. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a>.]
 
 The <b>GetMetaFile</b> function creates a handle that identifies the metafile stored in the specified file.
 
@@ -84,7 +84,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-This function is not implemented in the Win32 API. It is provided for compatibility with 16-bit versions of Windows. In Win32 applications, use the <a href="https://msdn.microsoft.com/bcb9611e-8e4e-4f87-8a1e-dedbe0042821">GetEnhMetaFile</a> function.
+This function is not implemented in the Win32 API. It is provided for compatibility with 16-bit versions of Windows. In Win32 applications, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a> function.
 
 
 
@@ -94,7 +94,7 @@ This function is not implemented in the Win32 API. It is provided for compatibil
 
 
 
-<a href="https://msdn.microsoft.com/bcb9611e-8e4e-4f87-8a1e-dedbe0042821">GetEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilea">GetEnhMetaFile</a>
  
 
  

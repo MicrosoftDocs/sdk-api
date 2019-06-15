@@ -63,7 +63,7 @@ Specifies the number of elements to obtain.
 
 ### -param rgValues [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/50a5930c-ba17-4441-99a7-efc6c4bfc2ab">TF_PROPERTYVAL</a> structures that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_propertyval">TF_PROPERTYVAL</a> structures that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 
 ### -param pcFetched [out]
@@ -126,11 +126,11 @@ The method reached the end of the enumeration before the specified number of ele
 
 
 
-<a href="https://msdn.microsoft.com/7f99df15-777c-46eb-bff3-542eb1fcc428">IEnumTfPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/50a5930c-ba17-4441-99a7-efc6c4bfc2ab">TF_PROPERTYVAL
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_propertyval">TF_PROPERTYVAL
       </a>
  
 

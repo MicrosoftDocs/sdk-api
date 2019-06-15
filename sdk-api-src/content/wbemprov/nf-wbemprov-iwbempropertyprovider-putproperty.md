@@ -101,7 +101,7 @@ This method must return <b>WBEM_S_NO_ERROR</b> if the operation succeeds, or <b>
 
 
 
-<a href="https://msdn.microsoft.com/6ee0e904-7f4c-4b32-8a90-d727340b481e">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty">GetProperty</a>
  
 
  

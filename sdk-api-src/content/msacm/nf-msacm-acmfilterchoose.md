@@ -65,7 +65,7 @@ The <b>acmFilterChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafltrc
 
-Pointer to an <a href="https://msdn.microsoft.com/92ec2a41-e853-4533-b831-43c9d52dc27f">ACMFILTERCHOOSE</a> structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterchoose">ACMFILTERCHOOSE</a> structure that contains information used to initialize the dialog box. When <b>acmFilterChoose</b> returns, this structure contains information about the user's filter selection.
 
 The <b>pwfltr</b> member of this structure must contain a valid pointer to a memory location that will contain the returned filter header structure. The <b>cbwfltr</b> member must be filled in with the size, in bytes, of this memory buffer.
 
@@ -99,7 +99,7 @@ The user chose the Cancel button or the Close command on the System menu to clos
 </dl>
 </td>
 <td width="60%">
-The buffer identified by the <b>pwfltr</b> member of the <a href="https://msdn.microsoft.com/92ec2a41-e853-4533-b831-43c9d52dc27f">ACMFILTERCHOOSE</a> structure is too small to contain the selected filter.
+The buffer identified by the <b>pwfltr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterchoose">ACMFILTERCHOOSE</a> structure is too small to contain the selected filter.
 
 </td>
 </tr>
@@ -158,11 +158,11 @@ A suitable driver is not available to provide valid filter selections.
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

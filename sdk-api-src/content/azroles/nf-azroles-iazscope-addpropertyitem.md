@@ -73,7 +73,7 @@ Property ID of the  list of principals to which to add the principal specified b
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/7aa77615-1f12-4641-877e-87b26343db4d">AddPolicyAdministrator</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyadministrator">AddPolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/7aa77615-1f12-46
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/a160e4cb-e779-413e-9d8a-5fb9684a48f2">AddPolicyAdministratorName</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyadministratorname">AddPolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/a160e4cb-e779-41
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/dd4d3254-8bcf-46b5-8e7b-d3f076988a7c">AddPolicyReader</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyreader">AddPolicyReader</a> method
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/dd4d3254-8bcf-46
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/6beb02cb-7977-4f3f-b806-420c81f6f0b5">AddPolicyReaderName</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyreadername">AddPolicyReaderName</a> method
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Principal to add to the list of principals specified by the <i>lPropId</i> param
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_POLICY_ADMINS or AZ_PROP_POLICY_READERS is specified for the <i>lPropId</i> parameter, the string is the text form of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) of the Windows account to add to the list. If AZ_PROP_POLICY_ADMINS_NAME or AZ_PROP_POLICY_READERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format.
+If AZ_PROP_POLICY_ADMINS or AZ_PROP_POLICY_READERS is specified for the <i>lPropId</i> parameter, the string is the text form of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to add to the list. If AZ_PROP_POLICY_ADMINS_NAME or AZ_PROP_POLICY_READERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format.
 
 
 ### -param varReserved [in, optional]
@@ -138,7 +138,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-You must call the <a href="https://msdn.microsoft.com/c06f1994-71d9-4867-a5ed-8fa90206994f">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
 
 
 

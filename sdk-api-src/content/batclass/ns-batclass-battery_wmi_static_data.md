@@ -69,7 +69,7 @@ A tag that identifies a specific battery.
 
 ### -field Granularity
 
-Specifies the granularity as a <a href="https://msdn.microsoft.com/aea1d82d-39b8-4535-a5c3-fb987be1e43c">BATTERY_REPORTING_SCALE</a> value.
+Specifies the granularity as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a> value.
 
 
 ### -field Capabilities

@@ -59,7 +59,7 @@ Contains information about a parameter of a custom control pattern.
 
 ### -field type
 
-Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType</a></b>
 
 A value indicating the type of the parameter.
 
@@ -76,15 +76,15 @@ A pointer to the parameter data.
 
 
 
-<a href="https://msdn.microsoft.com/a3c1aa20-c512-4752-8da6-c8e86bd56beb">CallMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationpatterninstance-callmethod">CallMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1eca598-1a02-4437-8036-77c8d62032d5">Custom Properties, Events, and Control Patterns</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-custompropertieseventscontrolpatterns">Custom Properties, Events, and Control Patterns</a>
 
 
 
-<a href="https://msdn.microsoft.com/c94d650e-74a8-4d4f-92bf-5402576f8773">Dispatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationpatternhandler-dispatch">Dispatch</a>
 
 
 

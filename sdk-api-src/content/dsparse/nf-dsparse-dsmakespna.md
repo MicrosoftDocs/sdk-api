@@ -54,7 +54,7 @@ ms.custom: 19H1
 The <b>DsMakeSpn</b> function constructs a service principal name (SPN) that identifies a service instance.
 
 A client application uses this function to compose an SPN, which it uses to authenticate the service instance. For example, the client can pass an SPN in the <i>pszTargetName</i> parameter of the 
-<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a> function.
 
 
 ## -parameters
@@ -177,11 +177,11 @@ String parameters cannot include the forward slash (/) character, as it is used 
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a>
  
 
  

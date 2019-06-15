@@ -97,7 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <div> </div>
 The <b>ResolveTypeRef</b> method searches for the type definition in other modules. If the type definition is found, <b>ResolveTypeRef</b> returns an interface to that module scope as well as the TypeDef token for the type.
 
-If the type reference to be resolved has a resolution scope of AssemblyRef, the <b>ResolveTypeRef</b> method searches for a match only in the metadata scopes that have already been opened with calls to either the <a href="https://msdn.microsoft.com/77ba5ee6-082c-478f-83fc-7f6c31ee3c74">IMetaDataDispenser::OpenScope</a> method or the <a href="https://msdn.microsoft.com/4558b229-0fe9-4ff7-a666-e69b47cb8170">IMetaDataDispenser::OpenScopeOnMemory</a> method. This is because <b>ResolveTypeRef</b> cannot determine from only the AssemblyRef scope where on disk or in the global assembly cache the assembly is stored.
+If the type reference to be resolved has a resolution scope of AssemblyRef, the <b>ResolveTypeRef</b> method searches for a match only in the metadata scopes that have already been opened with calls to either the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenser-openscope">IMetaDataDispenser::OpenScope</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenser-openscopeonmemory">IMetaDataDispenser::OpenScopeOnMemory</a> method. This is because <b>ResolveTypeRef</b> cannot determine from only the AssemblyRef scope where on disk or in the global assembly cache the assembly is stored.
 
 
 
@@ -107,7 +107,7 @@ If the type reference to be resolved has a resolution scope of AssemblyRef, the 
 
 
 
-<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
  
 
  

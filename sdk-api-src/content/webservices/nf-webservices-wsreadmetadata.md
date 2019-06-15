@@ -70,13 +70,13 @@ Reads a Metadata element and adds it to the Metadata
 
 ### -param metadata [in]
 
-A pointer to the <b>Metadata</b> object for storing the metadata read.  The pointer must reference a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object.
+A pointer to the <b>Metadata</b> object for storing the metadata read.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object.
                 
 
 
 ### -param reader [in]
 
-A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object and the reader must be positioned
+A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object and the reader must be positioned
                     on the element containing the desired metadata.
                 
 
@@ -84,7 +84,7 @@ A pointer to the <b>XML Reader</b> object used to read the metadata.  The pointe
 ### -param url [in]
 
 A pointer to 
-                    a <a href="https://msdn.microsoft.com/eb6c7397-6b15-4e79-89ec-585861113edf">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
+                    a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_string">WS_STRING</a> object referencing the retrieved metadata URL.  The URL is
                     used to track the metadata documents for resolving URL-based
                     links between documents.
                 <div class="alert"><b>Note</b>  The URL MUST be fully qualified.  The URL can have a fragment identifier.
@@ -120,7 +120,7 @@ http://example.com/document2
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that query and set default applications for specific file <a href="https://msdn.microsoft.com/3dbbe748-5e83-4103-932a-b51a2a55f9fd">Association Type</a>, and protocols at a specific <a href="https://msdn.microsoft.com/846ce9f4-092a-420d-be73-0951efc4368f">Association Level</a>.
+Exposes methods that query and set default applications for specific file <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype">Association Type</a>, and protocols at a specific <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationlevel">Association Level</a>.
 
             
-<div class="alert"><b>Note</b>  As of Windows 8, the only functionality of this interface that is supported is <a href="https://msdn.microsoft.com/af6bd032-1457-4805-9844-87b5efb5ba21">QueryCurrentDefault</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  As of Windows 8, the only functionality of this interface that is supported is <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault">QueryCurrentDefault</a>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationAssociationRegistration</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IApplicationAssociationRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IApplicationAssociationRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IApplicationAssociationRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IApplicationAssociationRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcc0990a-f678-47bb-9462-905940ac87d6">ClearUserAssociations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-clearuserassociations">ClearUserAssociations</a>
 </td>
 <td align="left" width="63%">
 Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist.
@@ -80,7 +80,7 @@ Removes all per-user associations for the current user. This results in a revers
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63127fa4-be09-4dd6-9084-cfde00967279">QueryAppIsDefault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-queryappisdefault">QueryAppIsDefault</a>
 </td>
 <td align="left" width="63%">
 Determines whether an application owns the registered default association for a given application level and type.
@@ -89,7 +89,7 @@ Determines whether an application owns the registered default association for a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71073f30-51bc-4522-9bb2-7eb743bca159">QueryAppIsDefaultAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-queryappisdefaultall">QueryAppIsDefaultAll</a>
 </td>
 <td align="left" width="63%">
 Determines whether an application owns all of the registered default associations for a given application level.
@@ -98,29 +98,29 @@ Determines whether an application owns all of the registered default association
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af6bd032-1457-4805-9844-87b5efb5ba21">QueryCurrentDefault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-querycurrentdefault">QueryCurrentDefault</a>
 </td>
 <td align="left" width="63%">
-Determines the default application for a given association type. This is the default application launched by <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> for that type.
+Determines the default application for a given association type. This is the default application launched by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> for that type.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30870adb-793f-404f-809c-1ec34a1f6b82">SetAppAsDefault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefault">SetAppAsDefault</a>
 </td>
 <td align="left" width="63%">
-Sets an application as the default for a given type. For more information, see <a href="https://msdn.microsoft.com/78cd05a4-df33-42b5-91b9-826ebce04a1d">Default Programs</a>
+Sets an application as the default for a given type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e9ad8ba-0f0e-46e6-ab0b-61c35bfd2dc6">SetAppAsDefaultAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefaultall">SetAppAsDefaultAll</a>
 </td>
 <td align="left" width="63%">
-Sets an application as the default for all of the registered associations of any <a href="https://msdn.microsoft.com/3dbbe748-5e83-4103-932a-b51a2a55f9fd">type</a> for that application.
+Sets an application as the default for all of the registered associations of any <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype">type</a> for that application.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ Because <b>IApplicationAssociationRegistration</b> is only supported for Windows
 
 
 
-<a href="https://msdn.microsoft.com/78cd05a4-df33-42b5-91b9-826ebce04a1d">Default Programs</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
  
 
  

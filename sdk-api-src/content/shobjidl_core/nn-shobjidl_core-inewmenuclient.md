@@ -54,7 +54,7 @@ Exposes methods that allow manipulation of items in a Windows 7 menu.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewMenuClient</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INewMenuClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewMenuClient</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INewMenuClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INewMenuClient</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/666bf93c-cc99-4530-852e-5ef05ea72348">IncludeItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-includeitems">IncludeItems</a>
 </td>
 <td align="left" width="63%">
 Allows the view to filter the items shown in the menu.
@@ -78,7 +78,7 @@ Allows the view to filter the items shown in the menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f731e69f-8ff0-42ff-96f8-04236f53d962">SelectAndEditItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inewmenuclient-selectandedititem">SelectAndEditItem</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a> interface that defines methods for creating a custom interpolator.   <b>IUIAnimationInterpolator2</b> supports interpolation in a given dimension. 
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a> interface that defines methods for creating a custom interpolator.   <b>IUIAnimationInterpolator2</b> supports interpolation in a given dimension. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationInterpolator2</b> interface inherits from <a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a>. <b>IUIAnimationInterpolator2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationInterpolator2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a>. <b>IUIAnimationInterpolator2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IUIAnimationInterpolator2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC6F046E-1A35-4FB9-9016-853AF2B598DE">GetDependencies</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-getdependencies">GetDependencies</a>
 </td>
 <td align="left" width="63%">
-For the given dimension, <a href="https://msdn.microsoft.com/DC6F046E-1A35-4FB9-9016-853AF2B598DE">GetDependencies</a> retrieves the aspects of the interpolator that depend on the initial value or velocity that is passed to the <a href="https://msdn.microsoft.com/F1C0C54D-86C3-4B65-96A4-66D89F2B2084">IUIAnimationInterpolator2::SetInitialValueAndVelocity</a> method or the duration that is passed to the <a href="https://msdn.microsoft.com/C1E6EC87-283A-4C56-96C5-531C5C5F5575">IUIAnimationInterpolator2::SetDuration</a> method.
+For the given dimension, <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-getdependencies">GetDependencies</a> retrieves the aspects of the interpolator that depend on the initial value or velocity that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setinitialvalueandvelocity">IUIAnimationInterpolator2::SetInitialValueAndVelocity</a> method or the duration that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setduration">IUIAnimationInterpolator2::SetDuration</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66CA3AE5-4332-42CC-BD38-A5F19F0F3C89">GetDimension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-getdimension">GetDimension</a>
 </td>
 <td align="left" width="63%">
 Gets the number of dimensions that require interpolation.
@@ -87,7 +87,7 @@ Gets the number of dimensions that require interpolation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/962FAF0A-CFA9-4F0D-AADC-75B42E788151">GetDuration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the duration of a transition for the given dimension.
@@ -96,7 +96,7 @@ Gets the duration of a transition for the given dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/330816C7-1641-41FA-8FB9-56FCE0108593">GetFinalValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-getfinalvalue">GetFinalValue</a>
 </td>
 <td align="left" width="63%">
 Gets the final value at the end of the transition for the given dimension.
@@ -105,7 +105,7 @@ Gets the final value at the end of the transition for the given dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E3CE4D97-08C8-46F4-B8B0-42CA4212DF50">GetPrimitiveInterpolation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-getprimitiveinterpolation">GetPrimitiveInterpolation</a>
 </td>
 <td align="left" width="63%">
 Generates a primitive interpolation of the specified animation curve.
@@ -114,7 +114,7 @@ Generates a primitive interpolation of the specified animation curve.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A512B264-642A-4E4B-9AEA-DE80B9D99A53">InterpolateValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-interpolatevalue">InterpolateValue</a>
 </td>
 <td align="left" width="63%">
 Interpolates the value of an animation variable at the specified offset and for the given dimension.
@@ -123,7 +123,7 @@ Interpolates the value of an animation variable at the specified offset and for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B6BD1B9D-3553-4A83-BB57-629611F9CA18">InterpolateVelocity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-interpolatevelocity">InterpolateVelocity</a>
 </td>
 <td align="left" width="63%">
 Interpolates the velocity, or rate of change, at the specified offset for the given dimension.
@@ -132,7 +132,7 @@ Interpolates the velocity, or rate of change, at the specified offset for the gi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C1E6EC87-283A-4C56-96C5-531C5C5F5575">SetDuration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setduration">SetDuration</a>
 </td>
 <td align="left" width="63%">
 Sets the duration of the transition in the given dimension.
@@ -141,7 +141,7 @@ Sets the duration of the transition in the given dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F1C0C54D-86C3-4B65-96A4-66D89F2B2084">SetInitialValueAndVelocity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator2-setinitialvalueandvelocity">SetInitialValueAndVelocity</a>
 </td>
 <td align="left" width="63%">
 Sets the initial value and velocity of the transition for the given dimension.
@@ -155,11 +155,11 @@ Sets the initial value and velocity of the transition for the given dimension.
 
 
 
-Client applications can use the transitions provided in  the <a href="https://msdn.microsoft.com/7d256937-b191-499f-9711-05a5ef3b8e18">IUIAnimationTransitionLibrary</a> or<a href="https://msdn.microsoft.com/92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA">IUIAnimationTransitionLibrary2</a> interfaces, or in a library provided by a third party; however, custom transitions can be created by implementing the <a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a> or  <b>IUIAnimationInterpolator2</b> interfaces.
+Client applications can use the transitions provided in  the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary">IUIAnimationTransitionLibrary</a> or<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a> interfaces, or in a library provided by a third party; however, custom transitions can be created by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a> or  <b>IUIAnimationInterpolator2</b> interfaces.
 
-Before Windows Animation can use your custom interpolator, you must wrap it in an object that implements the  <a href="https://msdn.microsoft.com/99804a2f-82c9-494c-b75d-69e66f1e49ef">IUIAnimationTransition</a> interface (by calling <a href="https://msdn.microsoft.com/02d28669-0cbd-41e2-b9ca-4ad893f09fc9">IUIAnimationTransitionFactory::CreateTransition</a>) or the <a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">IUIAnimationTransition2</a> interface (by calling  <a href="https://msdn.microsoft.com/EB829B6A-770C-486A-9BA2-4D7C8F073C8F">IUIAnimationTransitionFactory2::CreateTransition</a>)  and passing in the custom  interpolator.  After the interpolator wrapper has been created, client applications interact with your interpolator using the <b>IUIAnimationTransition</b> or <b>IUIAnimationTransition2</b> interfaces.
+Before Windows Animation can use your custom interpolator, you must wrap it in an object that implements the  <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a> interface (by calling <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionfactory-createtransition">IUIAnimationTransitionFactory::CreateTransition</a>) or the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a> interface (by calling  <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionfactory2">IUIAnimationTransitionFactory2::CreateTransition</a>)  and passing in the custom  interpolator.  After the interpolator wrapper has been created, client applications interact with your interpolator using the <b>IUIAnimationTransition</b> or <b>IUIAnimationTransition2</b> interfaces.
 
-Custom interpolators can be reused across applications, but it is recommended that they be exposed using factory interfaces that return an  <a href="https://msdn.microsoft.com/99804a2f-82c9-494c-b75d-69e66f1e49ef">IUIAnimationTransition</a> interface or an <a href="https://msdn.microsoft.com/CACB8053-7716-42E4-9C3B-9CCBBC30808A">IUIAnimationTransition2</a> interface.
+Custom interpolators can be reused across applications, but it is recommended that they be exposed using factory interfaces that return an  <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a> interface or an <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a> interface.
 
 
 
@@ -169,15 +169,15 @@ Custom interpolators can be reused across applications, but it is recommended th
 
 
 
-<a href="https://msdn.microsoft.com/8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc">IUIAnimationInterpolator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator">IUIAnimationInterpolator</a>
 
 
 
-<a href="https://msdn.microsoft.com/6EAE7874-1103-4D2E-A325-37E5A95705F5">IUIAnimationPrimitiveInterpolation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationprimitiveinterpolation">IUIAnimationPrimitiveInterpolation</a>
 
 
 
-<a href="https://msdn.microsoft.com/b54e319c-e140-4fd9-8045-5eb6f4a31326">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
  
 
  

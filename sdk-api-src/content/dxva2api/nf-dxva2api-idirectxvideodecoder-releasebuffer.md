@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.com/db2d4818-8a96-461e-88c4-f25d3200d815">IDirectXVideoDecoder::GetBuffer</a>.
+Releases a buffer that was obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer">IDirectXVideoDecoder::GetBuffer</a>.
         
 
 
@@ -60,7 +60,7 @@ Releases a buffer that was obtained by calling <a href="https://msdn.microsoft.c
 
 ### -param BufferType [in]
 
-The type of buffer to release. Specify the same value that was used in the <i>BufferType</i> parameter of the <a href="https://msdn.microsoft.com/db2d4818-8a96-461e-88c4-f25d3200d815">GetBuffer</a> method.
+The type of buffer to release. Specify the same value that was used in the <i>BufferType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer">GetBuffer</a> method.
 
 
 ## -returns
@@ -96,11 +96,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/acb73b20-89fa-4a48-be4a-846715a239b0">DirectX Video Acceleration 2.0</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://msdn.microsoft.com/116c19a3-39be-4f96-969f-f3d62ed33a70">IDirectXVideoDecoder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
  
 
  

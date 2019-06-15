@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/983652ed-7309-46aa-a6c9-7516411ba5ac">SFVM_GETBUTTONINFO</a> notification to specify the number of buttons to add to the toolbar, as well as how they're added.
+Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-getbuttoninfo">SFVM_GETBUTTONINFO</a> notification to specify the number of buttons to add to the toolbar, as well as how they're added.
 
 
 ## -struct-fields

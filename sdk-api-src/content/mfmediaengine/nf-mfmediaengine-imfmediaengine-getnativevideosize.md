@@ -91,11 +91,11 @@ For example, if the encoded frame is 720 × 420 and the picture aspect ratio is 
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
 
 
 
-<a href="https://msdn.microsoft.com/384bdeaa-5360-42af-9f95-b791af2dcafc">Picture Aspect Ratio</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/picture-aspect-ratio">Picture Aspect Ratio</a>
  
 
  

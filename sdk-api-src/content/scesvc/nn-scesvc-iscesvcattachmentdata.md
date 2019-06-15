@@ -54,7 +54,7 @@ The <b>ISceSvcAttachmentData</b> interface retrieves configuration and analysis 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISceSvcAttachmentData</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISceSvcAttachmentData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISceSvcAttachmentData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISceSvcAttachmentData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>ISceSvcAttachmentData</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e50f5acf-06ef-49bb-bcf1-1fadeb4b808a">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-closehandle">CloseHandle</a>
 </td>
 <td align="left" width="63%">
 Closes the handle to the Security Configuration snap-in.</p> (Inherited from <b>IsceSvcAttachmentData</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3645547e-5d6e-42df-802b-cf8b1a4c1e11">FreeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-freebuffer">FreeBuffer</a>
 </td>
 <td align="left" width="63%">
 Frees a data buffer allocated by the Security Configuration snap-in.</p> (Inherited from <b>IsceSvcAttachmentData</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1">GetData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Retrieves data from the Security Configuration snap-in.</p> (Inherited from <b>IsceSvcAttachmentData</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c5d087d-774b-4cfb-a458-9a5b1c6106c7">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a connection to the Security Configuration snap-in.</p> (Inherited from <b>IsceSvcAttachmentData</b>)</td>
@@ -103,7 +103,7 @@ Initializes a connection to the Security Configuration snap-in.</p> (Inherited f
 
 
 
-<a href="https://msdn.microsoft.com/3cd4bde2-55f6-4ab1-b175-7689b0cc529b">ISceSvcAttachmentPersistInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentpersistinfo">ISceSvcAttachmentPersistInfo</a>
  
 
  

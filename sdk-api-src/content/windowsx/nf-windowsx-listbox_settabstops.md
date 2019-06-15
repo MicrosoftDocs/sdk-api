@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the tab-stop positions in a list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761354(v=VS.85).aspx">LB_SETTABSTOPS</a> message explicitly.
+Sets the tab-stop positions in a list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-settabstops">LB_SETTABSTOPS</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the tab-stop positions in a list box. You can use this macro or send the <a
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -82,7 +82,7 @@ A pointer to an array of integers containing the tab stops. The integers represe
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761354(v=VS.85).aspx">LB_SETTABSTOPS</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-settabstops">LB_SETTABSTOPS</a>.
 	
 
 

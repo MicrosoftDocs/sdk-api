@@ -235,7 +235,7 @@ This property is read/write.
 
 
 
-When reading or writing your own XML for a task, the days of the month are specified using the <a href="https://msdn.microsoft.com/62f28f44-b3d8-414e-80d4-f4d8bd3c4527">DaysOfMonth</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, the days of the month are specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-daysofmonth-monthlyscheduletype-element">DaysOfMonth</a> element of the Task Scheduler schema.
 
 
 
@@ -245,11 +245,11 @@ When reading or writing your own XML for a task, the days of the month are speci
 
 
 
-<a href="https://msdn.microsoft.com/2ed206a6-22e0-4131-92ce-29536ad65c6c">IMonthlyTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger">IMonthlyTrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

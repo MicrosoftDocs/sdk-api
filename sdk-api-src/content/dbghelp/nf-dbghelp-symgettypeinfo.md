@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves type information for the specified type index. For larger queries, use the <a href="https://msdn.microsoft.com/77e0a8ad-8c75-4bb2-869a-670429475ccc">SymGetTypeInfoEx</a> function.
+Retrieves type information for the specified type index. For larger queries, use the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves type information for the specified type index. For larger queries, use
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ### -param ModBase [in]
@@ -72,12 +72,12 @@ The base address of the module.
 ### -param TypeId [in]
 
 The type index. (A number of functions return a type index in the <b>TypeIndex</b> member of the 
-<a href="https://msdn.microsoft.com/785a9702-8b77-4ce1-99df-143ce78490ab">SYMBOL_INFO</a> structure.)
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_symbol_info">SYMBOL_INFO</a> structure.)
 
 
 ### -param GetType [in]
 
-The information type. This parameter can be one of more of the values from the <a href="https://msdn.microsoft.com/1b21c8dc-240f-4202-bd61-8f9dae0d053a">IMAGEHLP_SYMBOL_TYPE_INFO</a> enumeration type. 
+The information type. This parameter can be one of more of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-_imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a> enumeration type. 
 
 
 
@@ -94,7 +94,7 @@ The data. The format of the data depends on the value of the <i>GetType</i> para
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -115,19 +115,19 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b21c8dc-240f-4202-bd61-8f9dae0d053a">IMAGEHLP_SYMBOL_TYPE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ne-dbghelp-_imagehlp_symbol_type_info">IMAGEHLP_SYMBOL_TYPE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a48365f-3b8a-493d-9fd9-dde77be9ced2">SymGetTypeFromName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypefromname">SymGetTypeFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/77e0a8ad-8c75-4bb2-869a-670429475ccc">SymGetTypeInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a>
  
 
  

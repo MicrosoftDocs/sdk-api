@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-For possible values of <i>newVal</i> and <i>pVal</i>, see <a href="https://msdn.microsoft.com/d792283b-dde9-46b7-8483-b3011b4433eb">OCSPServiceProperties</a> or <a href="https://msdn.microsoft.com/60ac0123-9696-4893-ae2a-278b4e70c098">ProviderProperties</a>.
+For possible values of <i>newVal</i> and <i>pVal</i>, see <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspadmin-get_ocspserviceproperties">OCSPServiceProperties</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerproperties">ProviderProperties</a>.
 
 
 
@@ -73,7 +73,7 @@ For possible values of <i>newVal</i> and <i>pVal</i>, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/854848f0-ea89-4c25-a8a5-40f1e4d229be">IOCSPProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
  
 
  

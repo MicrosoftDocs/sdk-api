@@ -131,11 +131,11 @@ DSP plug-ins designed to work with Windows Media Player 11 must call this method
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563424(v=VS.85).aspx">IWMPMediaPluginRegistrar Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpmediapluginregistrar">IWMPMediaPluginRegistrar Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563428(v=VS.85).aspx">IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin">IWMPMediaPluginRegistrar::WMPUnRegisterPlayerPlugin</a>
  
 
  

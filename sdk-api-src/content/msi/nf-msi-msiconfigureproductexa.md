@@ -156,7 +156,7 @@ The product is to be installed with all features installed to run from source.
 </dl>
 </td>
 <td width="60%">
-The product is to be installed with all features installed to the default states specified in the <a href="https://msdn.microsoft.com/1faee1d5-6e39-43ea-bf92-a0b3986a13a1">Feature Table</a>.
+The product is to be installed with all features installed to the default states specified in the <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature Table</a>.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The product is advertised.
 ### -param szCommandLine [in]
 
 Specifies the command-line property settings. This should be a list of the format <i>Property=Setting Property=Setting</i>. For more information, see 
-<a href="https://msdn.microsoft.com/b7b715e7-e92c-4b84-b60d-a0ff8412749b">About Properties</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/about-properties">About Properties</a>.
 
 
 ## -returns
@@ -219,14 +219,14 @@ The function succeeded.
 </td>
 <td width="60%">
 For more information, see 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -245,14 +245,14 @@ An error relating to initialization occurred.
 
 
 The command line passed in as <i>szCommandLine</i> can contain any of the 
-<a href="https://msdn.microsoft.com/c91119b9-59d5-4a33-91cd-d3ba63659d12">Feature Installation Options Properties</a>. In this case, the <i>eInstallState</i> passed must be <b>INSTALLSTATE_DEFAULT</b>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/property-reference">Feature Installation Options Properties</a>. In this case, the <i>eInstallState</i> passed must be <b>INSTALLSTATE_DEFAULT</b>.
 
 The <i>iInstallLevel</i> parameter is ignored and all features of the product are installed if the <i>eInstallState</i> parameter is set to any other value than <b>INSTALLSTATE_DEFAULT</b>. To control the installation of individual features when the <i>eInstallState</i> parameter is not set to <b>INSTALLSTATE_DEFAULT</b> use 
-<a href="https://msdn.microsoft.com/067d6fbb-833f-4e0e-bfdb-18d1b8608f58">MsiConfigureFeature</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
 
 The 
 <b>MsiConfigureProductEx</b> function displays the user interface using the current settings. User interface settings can be changed with 
-<a href="https://msdn.microsoft.com/303c2ea9-4c8f-46d3-b587-7c50e2810c28">MsiSetInternalUI</a>, <a href="https://msdn.microsoft.com/fcbf0607-d048-486f-bec2-f6e9d03e4194">MsiSetExternalUI</a>, or <a href="https://msdn.microsoft.com/f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df">MsiSetExternalUIRecord</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluirecord">MsiSetExternalUIRecord</a>.
 
 
 
@@ -262,23 +262,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Installation and Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4a0f4d8-818d-4e60-908b-adaa2a54de95">Multiple-Package Installations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
  
 
  

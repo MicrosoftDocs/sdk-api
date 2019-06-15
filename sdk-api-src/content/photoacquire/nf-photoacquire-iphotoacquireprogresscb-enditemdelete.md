@@ -68,7 +68,7 @@ Integer value containing the item index.
 
 ### -param pPhotoAcquireItem [in]
 
-Pointer to the deleted <a href="https://msdn.microsoft.com/57e099eb-bf8d-4465-af4d-fcfc3eee3b5b">IPhotoAcquireItem</a> object.
+Pointer to the deleted <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object.
 
 
 ### -param hr [in]
@@ -120,7 +120,7 @@ This method is not yet implemented
 
 
 
-<a href="https://msdn.microsoft.com/c4fcc470-1b05-4d33-8581-80c6e7488e04">IPhotoAcquireProgressCB Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
  
 
  

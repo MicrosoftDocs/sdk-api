@@ -59,21 +59,21 @@ Creates a Direct2D bitmap by copying a WIC bitmap.
 
 ### -param wicBitmapSource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/98BA78CD-4902-43B9-A412-895CA2A112C7">IWICBitmapSource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1__id2d1bitmap1)">IWICBitmapSource</a>*</b>
 
 The WIC bitmap source to copy from.
 
 
 ### -param bitmapProperties [in, ref, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8292da6b-8232-4ef0-967d-a53d586aa9a9">D2D1_BITMAP_PROPERTIES1</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">D2D1_BITMAP_PROPERTIES1</a></b>
 
 A bitmap properties structure that specifies bitmap creation options.
 
 
 ### -param bitmap [out]
 
-Type: <b><a href="https://msdn.microsoft.com/669a9377-248c-4a86-b447-ed117fff43a6">ID2D1Bitmap1</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>**</b>
 
 The address of the newly created bitmap object.
 
@@ -114,7 +114,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
  
 
  

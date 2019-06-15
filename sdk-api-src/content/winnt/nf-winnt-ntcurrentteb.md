@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="https://msdn.microsoft.com/fc77fc09-6319-4daa-ac96-1ded661ef800">TEB</a>) of the current thread. 
+The <b>NtCurrentTeb</b> routine returns a pointer to the Thread Environment Block (<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_teb">TEB</a>) of the current thread. 
 
 
 ## -parameters
@@ -75,7 +75,7 @@ A pointer to the thread environment block of the current thread.
 
 
 
-<a href="https://msdn.microsoft.com/71db6fa6-d1f8-4aed-9de1-bba1f6cee1ce">NtXxx Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntxxx-routines">NtXxx Routines</a>
  
 
  

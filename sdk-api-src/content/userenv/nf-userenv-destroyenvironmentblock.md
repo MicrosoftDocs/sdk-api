@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees environment variables created by the <a href="https://msdn.microsoft.com/bda8879d-d33a-48f4-8b08-e3a279126a07">CreateEnvironmentBlock</a> function.
+Frees environment variables created by the <a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a> function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Frees environment variables created by the <a href="https://msdn.microsoft.com/b
 Type: <b>LPVOID</b>
 
 Pointer to the environment block created by 
-<a href="https://msdn.microsoft.com/bda8879d-d33a-48f4-8b08-e3a279126a07">CreateEnvironmentBlock</a>. The environment block is an array of null-terminated Unicode strings. The list ends with two nulls (\0\0).
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a>. The environment block is an array of null-terminated Unicode strings. The list ends with two nulls (\0\0).
 
 
 ## -returns
@@ -71,7 +71,7 @@ Pointer to the environment block created by
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -81,15 +81,15 @@ Type: <b>BOOL</b>
 
 
 
-<a href="https://msdn.microsoft.com/bda8879d-d33a-48f4-8b08-e3a279126a07">CreateEnvironmentBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-createenvironmentblock">CreateEnvironmentBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/754c6aa9-b431-4d2b-a78b-c4da59ea8354">User Profiles Overview</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/86871866-bb90-4287-9640-0a6cd136a800">User Profiles Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
  
 
  

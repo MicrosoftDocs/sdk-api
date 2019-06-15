@@ -62,22 +62,22 @@ The
 ### -field ClNotifyHandler
 
 Pointer to the client-callback function 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>.
 
 
 ### -field ClAddFlowCompleteHandler
 
-Pointer to the client-callback function <a href="https://msdn.microsoft.com/0aa6f590-f7b2-4312-87a7-3854f883fa22">ClAddFlowComplete</a>.
+Pointer to the client-callback function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a>.
 
 
 ### -field ClModifyFlowCompleteHandler
 
-Pointer to the client-callback function <a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a>.
+Pointer to the client-callback function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a>.
 
 
 ### -field ClDeleteFlowCompleteHandler
 
-Pointer to the client-callback function <a href="https://msdn.microsoft.com/b31bd6e5-2b72-407d-a77e-ff9cee8de238">ClDeleteFlowComplete</a>.
+Pointer to the client-callback function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a>.
 
 
 ## -remarks
@@ -95,19 +95,19 @@ Any member of the
 
 
 
-<a href="https://msdn.microsoft.com/0aa6f590-f7b2-4312-87a7-3854f883fa22">ClAddFlowComplete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_add_flow_complete_handler">ClAddFlowComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/b31bd6e5-2b72-407d-a77e-ff9cee8de238">ClDeleteFlowComplete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_del_flow_complete_handler">ClDeleteFlowComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/61afc465-d942-4db7-96ee-56f3f1c3cafa">ClModifyFlowComplete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_mod_flow_complete_handler">ClModifyFlowComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/cacf4c21-d831-462c-b9e8-fd51fcf8e4e4">ClNotifyHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nc-traffic-tci_notify_handler">ClNotifyHandler</a>
  
 
  

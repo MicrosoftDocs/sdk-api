@@ -54,7 +54,7 @@ Exposes methods that allow a plug-in to manage third-party file name extensions 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceResTypeRegistry</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWorkspaceResTypeRegistry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspaceResTypeRegistry</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWorkspaceResTypeRegistry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWorkspaceResTypeRegistry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f4b82a6-1eca-4890-aa0c-1e4c5821cd33">AddResourceType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nf-workspaceax-iworkspacerestyperegistry-addresourcetype">AddResourceType</a>
 </td>
 <td align="left" width="63%">
 Registers a third-party file name extension with the RemoteApp and Desktop Connections runtime.
@@ -78,7 +78,7 @@ Registers a third-party file name extension with the RemoteApp and Desktop Conne
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a50bd4a0-8f59-4ed9-8f5f-c2522540c41e">DeleteResourceType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nf-workspaceax-iworkspacerestyperegistry-deleteresourcetype">DeleteResourceType</a>
 </td>
 <td align="left" width="63%">
 Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.
@@ -87,7 +87,7 @@ Unregisters a third-party file name extension with the RemoteApp and Desktop Con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e86c93d4-d5da-4d44-b1ea-641cb1fcceb4">GetRegisteredFileExtensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nf-workspaceax-iworkspacerestyperegistry-getregisteredfileextensions">GetRegisteredFileExtensions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the third-party file name extensions that are registered with the RemoteApp and Desktop Connections runtime.
@@ -96,7 +96,7 @@ Retrieves the third-party file name extensions that are registered with the Remo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60fa6676-c098-41b6-bebd-0a600ca37954">GetResourceTypeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nf-workspaceax-iworkspacerestyperegistry-getresourcetypeinfo">GetResourceTypeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
@@ -105,7 +105,7 @@ Retrieves information about a third-party file name extension that is registered
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1feac54-218c-4c17-87d6-27d764d355f9">ModifyResourceType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nf-workspaceax-iworkspacerestyperegistry-modifyresourcetype">ModifyResourceType</a>
 </td>
 <td align="left" width="63%">
 Modifies a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.

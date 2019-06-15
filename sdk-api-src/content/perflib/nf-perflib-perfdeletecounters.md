@@ -80,7 +80,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -89,16 +89,16 @@ If the function fails, the return value is a
 
 
 
-The <i>pCounters</i> parameter should point to a sequence of <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
+The <i>pCounters</i> parameter should point to a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
 <b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
 UTF-16LE instance  name string, followed by padding that makes the size of the block a multiple of 8 bytes.
 
-Configure each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> block in the same way as described in the Remarks for <a href="https://msdn.microsoft.com/FC66E794-EF13-47BB-A704-735924363310">PerfAddCounters</a>.
+Configure each <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> block in the same way as described in the Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfaddcounters">PerfAddCounters</a>.
 
 
 
 <b>PerfDeleteCounters</b> attempts to remove one counter specification from the
-query for each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> block,  and updates the <b>Status</b> member of the <b>PERF_COUNTER_IDENTIFIER</b> structure in each
+query for each <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> block,  and updates the <b>Status</b> member of the <b>PERF_COUNTER_IDENTIFIER</b> structure in each
 block with the result of the attempt. 
 
 
@@ -109,11 +109,11 @@ block with the result of the attempt.
 
 
 
-<a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>
 
 
 
-<a href="https://msdn.microsoft.com/FC66E794-EF13-47BB-A704-735924363310">PerfAddCounters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfaddcounters">PerfAddCounters</a>
  
 
  

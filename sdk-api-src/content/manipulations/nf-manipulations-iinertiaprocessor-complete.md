@@ -72,7 +72,7 @@ Returns <b>S_OK</b> on success, otherwise returns an error code such as <b>E_FAI
 
 
 
-The <b>Complete</b> method raises the <a href="https://msdn.microsoft.com/1284df32-f4e8-43b3-b825-9172ad39f0e6">ManipulationCompleted</a> event	on an <a href="https://msdn.microsoft.com/be392a13-3165-44ff-bcd6-ed0075c669c4">_IManipulationEvents</a> interface implementation.
+The <b>Complete</b> method raises the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event	on an <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a> interface implementation.
 	 
 
 
@@ -105,15 +105,15 @@ The <b>Complete</b> method raises the <a href="https://msdn.microsoft.com/1284df
 
 
 
-<a href="https://msdn.microsoft.com/325e04c2-a477-43c7-9513-36a2a92eef8e">CompleteTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime">CompleteTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc171eb-0c6e-41dd-b506-5f91ea703a53">IInertiaProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4acfcac-06c1-42a5-9722-4534a4492ab8">Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calculate a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> index for a texture.
+Calculate a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> index for a texture.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Calculate a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).
 
 ### -param MipSlice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index into an array of subtextures; 0 indicates the first, most detailed subtexture (or mipmap level).
 
 
 ### -param ArraySlice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The zero-based index of the first texture to use (in an array of textures).
 
 
 ### -param MipLevels [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of mipmap levels (or subtextures) to use.
 
@@ -103,11 +103,11 @@ A buffer is an unstructured resource and is therefore defined as containing a si
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb694532(v=VS.85).aspx">Resource Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-functions">Resource Functions</a>
  
 
  

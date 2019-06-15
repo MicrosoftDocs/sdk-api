@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure has a vector type.
+Specifies whether a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure has a vector type.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Specifies whether a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure being queried.
+Reference to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure being queried.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Reference to the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <i>propvar</i> is a VT_ARRAY | VT_VECTOR <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
+Returns <b>TRUE</b> if <i>propvar</i> is a VT_ARRAY | VT_VECTOR <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>; otherwise, <b>FALSE</b>.
 
 
 

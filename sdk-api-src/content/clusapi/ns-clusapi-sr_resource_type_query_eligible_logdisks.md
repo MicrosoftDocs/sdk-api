@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes a set of retrieved disks that can be used as log disks for the specified data disk.This is a data structure for a value list that is returned by the <a href="https://msdn.microsoft.com/C0D7B513-27F5-4BAC-81E2-6B8290DBAAB9">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_LOGDISKS</a> control code.
+Describes a set of retrieved disks that can be used as log disks for the specified data disk.This is a data structure for a value list that is returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-eligible-logdisks">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_LOGDISKS</a> control code.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ When <b>TRUE</b>, the result set includes all the offline disks in the available
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
  
 
  

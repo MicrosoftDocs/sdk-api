@@ -61,22 +61,22 @@ The <b>MPRAPI_TUNNEL_CONFIG_PARAMS</b> structure is  used to get or set configur
 
 ### -field IkeConfigParams
 
-A <a href="https://msdn.microsoft.com/a494deb0-8f55-46cc-9ca0-a2097459de8b">IKEV2_CONFIG_PARAMS</a> structure that contains Internet Key Exchange version 2 (IKEv2) tunnel parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_config_params">IKEV2_CONFIG_PARAMS</a> structure that contains Internet Key Exchange version 2 (IKEv2) tunnel parameters.
 
 
 ### -field PptpConfigParams
 
-A <a href="https://msdn.microsoft.com/0314c517-75be-4357-90bf-8a2a72d49542">PPTP_CONFIG_PARAMS</a> structure that contains Point-to-Point Tunneling Protocol (PPTP) tunnel parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_pptp_config_params">PPTP_CONFIG_PARAMS</a> structure that contains Point-to-Point Tunneling Protocol (PPTP) tunnel parameters.
 
 
 ### -field L2tpConfigParams
 
-A <a href="https://msdn.microsoft.com/7459054f-62c6-4ead-b969-884efc75ea80">L2TP_CONFIG_PARAMS</a> structure that contains Layer 2 Tunneling Protocol (L2TP) tunnel parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_l2tp_config_params0">L2TP_CONFIG_PARAMS</a> structure that contains Layer 2 Tunneling Protocol (L2TP) tunnel parameters.
 
 
 ### -field SstpConfigParams
 
-A <a href="https://msdn.microsoft.com/6f21d569-af9b-49ba-ab02-4dfc74e87ed2">SSTP_CONFIG_PARAMS</a> structure that contains Secure Socket Tunneling Protocol (SSTP) tunnel parameters.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_sstp_config_params">SSTP_CONFIG_PARAMS</a> structure that contains Secure Socket Tunneling Protocol (SSTP) tunnel parameters.
 
 
 ### -field GREConfigParams
@@ -91,15 +91,15 @@ A <a href="https://msdn.microsoft.com/6f21d569-af9b-49ba-ab02-4dfc74e87ed2">SSTP
 
 
 
-<a href="https://msdn.microsoft.com/6c993c9c-4522-4758-926a-fa7ef2a89418">MPR_SERVER_SET_CONFIG_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/61265bb0-7884-4896-a76a-a2cc11ccccda">Router Management Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-enumerations">Router Management Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SCHEDULE</b> structure is a variable-length structure used with the <a href="https://msdn.microsoft.com/33bd1b61-b9ed-479f-a128-fb7ddbb5e9af">DsReplicaAdd</a> and <a href="https://msdn.microsoft.com/aad20527-1211-41bc-b0e9-02e4ab28ae2e">DsReplicaModify</a> functions to contain replication schedule data for a replication source.
+The <b>SCHEDULE</b> structure is a variable-length structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaadda">DsReplicaAdd</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicamodifya">DsReplicaModify</a> functions to contain replication schedule data for a replication source.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Contains the number of elements in the <b>Schedules</b> array.
 
 ### -field Schedules
 
-Contains an array of <a href="https://msdn.microsoft.com/5453927e-306e-4442-a855-916005dc8e3b">SCHEDULE_HEADER</a> structures that contain the replication schedule data for the replication source. The <b>NumberOfSchedules</b> member contains the number of elements in this array. Currently, this array can only contain one element.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule_header">SCHEDULE_HEADER</a> structures that contain the replication schedule data for the replication source. The <b>NumberOfSchedules</b> member contains the number of elements in this array. Currently, this array can only contain one element.
 
 
 ## -see-also
@@ -82,15 +82,15 @@ Contains an array of <a href="https://msdn.microsoft.com/5453927e-306e-4442-a855
 
 
 
-<a href="https://msdn.microsoft.com/33bd1b61-b9ed-479f-a128-fb7ddbb5e9af">DsReplicaAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaadda">DsReplicaAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/aad20527-1211-41bc-b0e9-02e4ab28ae2e">DsReplicaModify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicamodifya">DsReplicaModify</a>
 
 
 
-<a href="https://msdn.microsoft.com/5453927e-306e-4442-a855-916005dc8e3b">SCHEDULE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-_schedule_header">SCHEDULE_HEADER</a>
  
 
  

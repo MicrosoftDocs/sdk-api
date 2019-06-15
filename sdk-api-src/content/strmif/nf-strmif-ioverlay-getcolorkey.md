@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 
 
-If you change the color key by using the <a href="https://msdn.microsoft.com/dacbaf03-348f-403d-9c2c-aed8ec344879">IOverlay::SetColorKey</a> method, all the advise links receive an <a href="https://msdn.microsoft.com/a1e7fc88-a50a-4832-9b29-21b94184f1c7">IOverlayNotify::OnColorKeyChange</a> callback method with the new color.
+If you change the color key by using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-setcolorkey">IOverlay::SetColorKey</a> method, all the advise links receive an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">IOverlayNotify::OnColorKeyChange</a> callback method with the new color.
 
 If no color key is currently being used, this method returns VFW_E_NO_COLOR_KEY_SET.
 
@@ -91,11 +91,11 @@ If no color key is currently being used, this method returns VFW_E_NO_COLOR_KEY_
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d49888a-7046-4779-9634-d181fa582584">IOverlay Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
  
 
  

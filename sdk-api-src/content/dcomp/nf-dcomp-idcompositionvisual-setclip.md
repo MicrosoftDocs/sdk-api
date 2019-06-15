@@ -61,7 +61,7 @@ Sets the Clip property of this visual to the specified rectangle. The Clip prope
 
 ### -param rect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/84bd7ab0-f273-46f8-b261-86cd1d7f3868">D2D_RECT_F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_f">D2D_RECT_F</a></b>
 
 The rectangle to use to clip this visual. All properties of the rect parameter have a numerical limit of -2^21 to 2^21. 
           The API accepts numbers outside of this range, but they are always clamped to this range.
@@ -71,10 +71,10 @@ The rectangle to use to clip this visual. All properties of the rect parameter h
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
-              See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+              See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
             
 
 
@@ -104,15 +104,15 @@ If the clip rectangle is empty, the visual is fully clipped; that is, the visual
 
 
 
-<a href="https://msdn.microsoft.com/B6E0D8F5-B6B9-40CC-B079-850AC8F2D538">Clipping</a>
+<a href="https://docs.microsoft.com/windows/desktop/directcomp/clipping">Clipping</a>
 
 
 
-<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
  
 
  

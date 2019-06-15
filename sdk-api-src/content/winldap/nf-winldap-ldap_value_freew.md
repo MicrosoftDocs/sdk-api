@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>ldap_value_free</b> function frees a structure returned by 
-<a href="https://msdn.microsoft.com/a633afa1-4a37-4894-ae94-5225d99077fd">ldap_get_values</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ The structure to free.
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/822411b7-fc49-4b93-8e54-353350ed5de9">Return Values</a>.
+If the function fails, it returns an error code. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 
 
@@ -80,7 +80,7 @@ If the function fails, it returns an error code. For more information, see <a hr
 
 
 
-Call <b>ldap_value_free</b> to free a structure returned by <a href="https://msdn.microsoft.com/a633afa1-4a37-4894-ae94-5225d99077fd">ldap_get_values</a>.
+Call <b>ldap_value_free</b> to free a structure returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>.
 
 
 
@@ -90,15 +90,15 @@ Call <b>ldap_value_free</b> to free a structure returned by <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/38482501-faa1-4055-9758-e1e0a4199688">Searching a Directory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/searching-a-directory">Searching a Directory</a>
 
 
 
-<a href="https://msdn.microsoft.com/a633afa1-4a37-4894-ae94-5225d99077fd">ldap_get_values</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>
  
 
  

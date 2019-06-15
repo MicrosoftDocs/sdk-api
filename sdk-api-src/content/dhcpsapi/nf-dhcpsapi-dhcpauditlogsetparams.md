@@ -91,7 +91,7 @@ Specifies the minimum required disk space, in bytes, for  audit log storage.
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 
 
 
-<a href="https://msdn.microsoft.com/3d0f8f06-d6a6-40b0-a3e8-0e155caee883">DhcpAuditLogGetParams</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpauditloggetparams">DhcpAuditLogGetParams</a>
  
 
  

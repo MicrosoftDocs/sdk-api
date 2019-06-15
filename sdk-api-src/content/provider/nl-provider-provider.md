@@ -55,10 +55,10 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>Provider</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>Provider</b> class is the base class for the class or classes that the framework provider supports. The <b>Provider</b> class encapsulates implementations of the methods of <a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> and includes several helper functions. A framework provider overrides one of the methods of the <b>Provider</b> class for each feature that it supports. For example, a provider that supports query processing overrides the <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">Provider::ExecQuery</a> method.
+The <b>Provider</b> class is the base class for the class or classes that the framework provider supports. The <b>Provider</b> class encapsulates implementations of the methods of <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> and includes several helper functions. A framework provider overrides one of the methods of the <b>Provider</b> class for each feature that it supports. For example, a provider that supports query processing overrides the <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a> method.
 
 An instance of the <b>Provider</b> class is created for each WMI class that has a framework provider.
 
@@ -73,7 +73,7 @@ An instance of the <b>Provider</b> class is created for each WMI class that has 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/619adf78-26db-4a90-90ba-bdacb3e55975">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Returns the current instance to WMI.
@@ -82,16 +82,16 @@ Returns the current instance to WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb520b55-9ef8-4f5a-935d-46c2bb01f5dd">CreateNewInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-createnewinstance">CreateNewInstance</a>
 </td>
 <td align="left" width="63%">
-Allocates a new <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object and returns a pointer to it.
+Allocates a new <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> object and returns a pointer to it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/469d2481-95ea-4d17-b0ef-095ced9c8319">DeleteInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-deleteinstance(parsedobjectpath_long_methodcontext)">DeleteInstance</a>
 </td>
 <td align="left" width="63%">
 Deletes an instance. Called by WMI.
@@ -100,7 +100,7 @@ Deletes an instance. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9566acb0-d7bf-4d3d-b7da-5cfbce150a2c">EnumerateInstances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">EnumerateInstances</a>
 </td>
 <td align="left" width="63%">
 Retrieves all instances of a framework provider's class. Called by WMI.
@@ -109,7 +109,7 @@ Retrieves all instances of a framework provider's class. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/590f59ad-ea93-42f0-8b0d-c05a49272b1b">ExecMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execmethod(parsedobjectpath_bstr_long_cinstance_cinstance_methodcontext)">ExecMethod</a>
 </td>
 <td align="left" width="63%">
 Invokes a method on a class or instance. Called by WMI.
@@ -118,7 +118,7 @@ Invokes a method on a class or instance. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">ExecQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">ExecQuery</a>
 </td>
 <td align="left" width="63%">
 Processes a WMI Query Language (WQL) query. Called by WMI.
@@ -127,7 +127,7 @@ Processes a WMI Query Language (WQL) query. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8be35ec-cd2e-45ec-b47f-48acf5e6f51a">Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Called by the provider framework to delete all unnecessary memory in use by the provider.
@@ -136,16 +136,16 @@ Called by the provider framework to delete all unnecessary memory in use by the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20470353-417d-4067-8df1-c2ec6b330853">GetLocalComputerName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getlocalcomputername">GetLocalComputerName</a>
 </td>
 <td align="left" width="63%">
-Returns a constant reference to the computer name in <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> format.
+Returns a constant reference to the computer name in <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> format.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c419205f-d07d-4887-8e36-ccde37c2351f">GetLocalInstancePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getlocalinstancepath">GetLocalInstancePath</a>
 </td>
 <td align="left" width="63%">
 Attempts to build a full object path to a specified instance.
@@ -154,7 +154,7 @@ Attempts to build a full object path to a specified instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8e2633a-cbea-422c-9598-1b1b1104bbc2">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getobject(cinstance_long_cframeworkquery_)">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves an instance of a class. Called by WMI.
@@ -163,7 +163,7 @@ Retrieves an instance of a class. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ea7558d-11bd-4f19-b4d3-a711eca632a8">GetProviderName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-getprovidername">GetProviderName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the provider.
@@ -172,7 +172,7 @@ Retrieves the name of the provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a2476c0-73c0-4a95-8973-e6da451116af">MakeLocalPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-makelocalpath">MakeLocalPath</a>
 </td>
 <td align="left" width="63%">
 Builds a full instance path from a relative path.
@@ -181,7 +181,7 @@ Builds a full instance path from a relative path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9921a00-b966-47d0-a2f3-982812ab249c">PutInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-putinstance(constcinstance__long)">PutInstance</a>
 </td>
 <td align="left" width="63%">
 Updates an instance. Called by WMI.
@@ -190,7 +190,7 @@ Updates an instance. Called by WMI.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a02e767-95b7-42cb-ab82-66e2d28342fc">SetCreationClassName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-setcreationclassname">SetCreationClassName</a>
 </td>
 <td align="left" width="63%">
 Sets the <b>CreationClassName</b> string property of the given instance to the name of this provider.
@@ -199,7 +199,7 @@ Sets the <b>CreationClassName</b> string property of the given instance to the n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eaaf49e3-e768-4494-ba0b-dc2c8c35be47">ValidateDeletionFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validatedeletionflags">ValidateDeletionFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for a delete operation.
@@ -208,7 +208,7 @@ Determines whether a set of flags is valid for a delete operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f5ae240-2314-40c1-a6c8-2c395d284568">ValidateEnumerationFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validateenumerationflags">ValidateEnumerationFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an enumeration.
@@ -217,7 +217,7 @@ Determines whether a set of flags is valid for an enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d6d1006-99b9-4646-a5c4-835940ce3ac0">ValidateFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validateflags">ValidateFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid.
@@ -226,7 +226,7 @@ Determines whether a set of flags is valid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5090c47b-062b-4359-b03b-0d05c225447d">ValidateGetObjFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validategetobjflags">ValidateGetObjFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an instance retrieval operation.
@@ -235,7 +235,7 @@ Determines whether a set of flags is valid for an instance retrieval operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/febc48d8-8952-4e2f-80fc-40344908f8b2">ValidateMethodFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validatemethodflags">ValidateMethodFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an execute method operation.
@@ -244,7 +244,7 @@ Determines whether a set of flags is valid for an execute method operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd7a480e-9569-45ed-a46d-218c1a9cf2db">ValidatePutInstanceFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validateputinstanceflags">ValidatePutInstanceFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for an instance update operation.
@@ -253,7 +253,7 @@ Determines whether a set of flags is valid for an instance update operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b35e6f2f-7d40-4b9b-833d-63efafd06a20">ValidateQueryFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-validatequeryflags">ValidateQueryFlags</a>
 </td>
 <td align="left" width="63%">
 Determines whether a set of flags is valid for a query operation.

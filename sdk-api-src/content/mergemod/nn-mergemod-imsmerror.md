@@ -61,7 +61,7 @@ The <b>IMsmError</b> interface retrieves details about a single merge error.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmError</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmError</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IMsmError</b> interface has these methods.
 <td align="left" width="37%"><b>get_DatabaseKeys</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/416a6cef-4c70-4c06-a8d2-801c9440e25a">DatabaseKeys</a> property of the <a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-databasekeys">DatabaseKeys</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. 
 
 </td>
 </tr>
@@ -86,8 +86,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_DatabaseTable</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/38ff45ca-4bd6-43f3-88ad-db4077daeb77">DatabaseTable</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-databasetable">DatabaseTable</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -95,8 +95,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Language</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/9b0608d1-b6e8-4cf9-8119-3c2909156516">Language</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Retrieves the
 <td align="left" width="37%"><b>get_ModuleKeys</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/b02b609b-4682-4228-b29a-364f079e863c">ModuleKeys</a> property of the <a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-modulekeys">ModuleKeys</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -112,8 +112,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_ModuleTable</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/390f5889-d638-4c1c-b95c-76d38c934e7c">ModuleTable</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-moduletable">ModuleTable</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -121,8 +121,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Path</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/b79dd347-acda-47d7-aa3b-c0f9a6ca1d3b">Path</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-path">Path</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -130,8 +130,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Type</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/5567ba71-c815-4434-962c-aa46cd171712">Type</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-type">Type</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 </td>
 </tr>
@@ -143,11 +143,11 @@ Retrieves the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

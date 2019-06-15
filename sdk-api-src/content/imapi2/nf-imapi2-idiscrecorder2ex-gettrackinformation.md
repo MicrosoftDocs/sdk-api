@@ -64,7 +64,7 @@ Address field. The <i>addressType</i> parameter provides additional context for 
 
 ### -param addressType [in]
 
-Type of address specified in the <i>address</i> parameter, for example, if this is an LBA address or a track number. For possible values, see the <a href="https://msdn.microsoft.com/228bcc7b-603f-420d-a8a9-cde5b0bbf2e3">IMAPI_READ_TRACK_ADDRESS_TYPE</a> enumeration type.
+Type of address specified in the <i>address</i> parameter, for example, if this is an LBA address or a track number. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_read_track_address_type">IMAPI_READ_TRACK_ADDRESS_TYPE</a> enumeration type.
 
 
 ### -param trackInformation [out]
@@ -400,7 +400,7 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
  
 
  

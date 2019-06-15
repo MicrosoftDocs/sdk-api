@@ -55,7 +55,7 @@ Returns the specified object's counter and instance names that exist on the spec
 			
 
 This function is identical to 
-the <a href="https://msdn.microsoft.com/b3efdd31-44e6-47ff-bd0e-d31451c32818">PdhEnumObjectItems</a> function, except that it supports the use of handles to data sources.
+the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsa">PdhEnumObjectItems</a> function, except that it supports the use of handles to data sources.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ the <a href="https://msdn.microsoft.com/b3efdd31-44e6-47ff-bd0e-d31451c32818">Pd
 ### -param hDataSource [in]
 
 Handle to a data source returned by the 
-<a href="https://msdn.microsoft.com/eaed9b28-eb09-4123-9317-5d3d50e2d77a">PdhBindInputDataSource</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function. 
 
 
 ### -param szMachineName [in]
@@ -176,8 +176,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -253,7 +253,7 @@ You should call this function twice, the first time to get the required buffer s
 
 Consecutive calls to this function will return identical lists of counters and instances, because 
 <b>PdhEnumObjectItemsH</b> will always query the list of performance objects defined by the last call to 
-<a href="https://msdn.microsoft.com/8f68a7a8-cc56-4f7f-a86f-4b439738808d">PdhEnumObjectsH</a> or <b>PdhEnumObjectItemsH</b>. To refresh the list of performance objects, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a> or <b>PdhEnumObjectItemsH</b>. To refresh the list of performance objects, call 
 <b>PdhEnumObjectsH</b> with a <i>bRefresh</i> flag value of <b>TRUE</b> before calling 
 <b>PdhEnumObjectItemsH</b> again.
 
@@ -267,11 +267,11 @@ The order of the instance and counter names is undetermined.
 
 
 
-<a href="https://msdn.microsoft.com/eaed9b28-eb09-4123-9317-5d3d50e2d77a">PdhBindInputDataSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f68a7a8-cc56-4f7f-a86f-4b439738808d">PdhEnumObjectsH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
  
 
  

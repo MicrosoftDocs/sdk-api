@@ -59,35 +59,35 @@ Use this method to determine the <b>HWND</b>, object ID, and child ID for the ac
 
 ### -param pIDString [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 Pointer to a buffer containing identity string of an <b>HWND</b>-based accessible element.
 
 
 ### -param dwIDStringLen [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of the identity string specified by <i>pIDString</i>.
 
 
 ### -param phwnd [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>*</b>
 
 Pointer to a buffer that receives the <b>HWND</b> of the accessible element.
 
 
 ### -param pidObject [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to a buffer that receives the object ID of the accessible element.
 
 
 ### -param pidChild [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to a buffer that receives the child ID of the accessible element.
 
@@ -96,7 +96,7 @@ Pointer to a buffer that receives the child ID of the accessible element.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
@@ -111,7 +111,7 @@ May return other error codes under exceptional error conditions such as low memo
 
 
 
-This method succeeds only if the provided identity string is a <b>HWND</b>-based identity string. This method is useful when used in an <a href="https://msdn.microsoft.com/e82dfa58-9b36-4e42-9275-c09bad7bc730">IAccPropServer</a> callback server that was registered with ANNO_CONTAINER scope because it allows the server to determine, from the given identity string, the child element (<i>idChild</i>) for which the client is calling the server.
+This method succeeds only if the provided identity string is a <b>HWND</b>-based identity string. This method is useful when used in an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccpropserver">IAccPropServer</a> callback server that was registered with ANNO_CONTAINER scope because it allows the server to determine, from the given identity string, the child element (<i>idChild</i>) for which the client is calling the server.
 
 
 

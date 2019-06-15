@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
@@ -67,8 +67,8 @@ Applies an audio or video effect to playback.
 Pointer to the <b>IUnknown</b> interface for one of the following: 
 
 <ul>
-<li>A Media Foundation transform (MFT) that implements the effect. MFTs expose the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface.</li>
-<li>An activation object that creates an MFT. Activation objects expose the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface.</li>
+<li>A Media Foundation transform (MFT) that implements the effect. MFTs expose the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.</li>
+<li>An activation object that creates an MFT. Activation objects expose the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</li>
 </ul>
 
 ### -param fOptional [in]
@@ -151,7 +151,7 @@ The object specified in the <i>pEffect</i> parameter can implement either a vide
 
 For each media item, the effect is applied to the first selected stream of the matching type (audio or video). If a media item has two selected streams of the same type, the second stream does not receive the effect. The effect is ignored if the media item does not contain a stream that matches the effect type. For example, if you set a video effect and play a file that contains just audio, the video effect is ignored, although no error is raised.
 
-The effect is applied to all subsequent media items, until the application removes the effect. To remove an effect, call <a href="https://msdn.microsoft.com/ca8507b9-c6c5-4e17-9c18-3ec1514de897">IMFPMediaPlayer::RemoveEffect</a> or <a href="https://msdn.microsoft.com/8745714c-315c-4183-86a2-7c189328dfe6">IMFPMediaPlayer::RemoveAllEffects</a>.
+The effect is applied to all subsequent media items, until the application removes the effect. To remove an effect, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removeeffect">IMFPMediaPlayer::RemoveEffect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-removealleffects">IMFPMediaPlayer::RemoveAllEffects</a>.
 
 If you set multiple effects of the same type (audio or video), they are applied in the same order in which you call <b>InsertEffect</b>.
 
@@ -200,15 +200,15 @@ HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
 
 
 
-<a href="https://msdn.microsoft.com/90f34bf3-899f-46e0-80c8-af83caa4835d">How to Add Audio or Video Effects</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-add-audio-or-video-effects">How to Add Audio or Video Effects</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa57d465-1ee9-4f7a-9be8-66a6d73f65e8">IMFPMediaPlayer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f143c51-ec46-46d4-9a1e-b04fcc0d8bea">Using MFPlay for Audio/Video Playback</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
  
 
  

@@ -124,7 +124,7 @@ Out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -135,10 +135,10 @@ Out of memory.
 
 The 
 <b>MesEncodeIncrementalHandleCreate</b> function is used by applications to create and initialize the handle for the incremental style of encoding or decoding. When using the incremental style of encoding, the user supplies an <b>Alloc</b> function to provide an empty buffer into which the encoded data is placed, and a <b>Write</b> function to call when the buffer is full or the encoding is complete. For additional information on the user-supplied <b>Alloc</b>, <b>Write</b>, and <b>Read</b> functions, see 
-<a href="https://msdn.microsoft.com/36d6ea16-7d01-436e-ac32-610c3ddb8b8d">Serialization Services</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/serialization-services">Serialization Services</a>.
 
 When a stub is compiled using <b>-protocol all</b> or <b>-protocol ndr64</b> and the buffer is to be encoded using the NDR64 transfer syntax, the 
-<a href="https://msdn.microsoft.com/adc9681f-267e-4f6f-88a3-ec913e886dd1">MesIncrementalHandleReset</a> function must be called with its <i>OpCode</i> parameter set to MES_ENCODE_NDR64.
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesIncrementalHandleReset</a> function must be called with its <i>OpCode</i> parameter set to MES_ENCODE_NDR64.
 
 
 
@@ -148,19 +148,19 @@ When a stub is compiled using <b>-protocol all</b> or <b>-protocol ndr64</b> and
 
 
 
-<a href="https://msdn.microsoft.com/c7383b4d-94d1-4edd-ac29-c11fb5343156">Alloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/incremental-serialization">Alloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/adc9681f-267e-4f6f-88a3-ec913e886dd1">MesBufferHandleReset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesBufferHandleReset</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4a4ac59-56fb-4693-9007-f358105f82f0">MesHandleFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/13ca3bd0-0527-4d54-84a1-aa6efca88e8d">MesIncrementalHandleReset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesincrementalhandlereset">MesIncrementalHandleReset</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends <a href="https://msdn.microsoft.com/en-us/library/Bb776516(v=VS.85).aspx">PropVariantCompare</a> by allowing the caller to compare two <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures based on specified comparison units and flags.
+Extends <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompare">PropVariantCompare</a> by allowing the caller to compare two <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structures based on specified comparison units and flags.
 
 
 ## -parameters
@@ -61,21 +61,21 @@ Extends <a href="https://msdn.microsoft.com/en-us/library/Bb776516(v=VS.85).aspx
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the first <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Reference to the first <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ### -param propvar2 [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the second <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
+Reference to the second <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> structure.
 
 
 ### -param unit [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762530(v=VS.85).aspx">PROPVAR_COMPARE_UNIT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit">PROPVAR_COMPARE_UNIT</a></b>
 
-Specifies, where appropriate, one of the comparison units defined in <a href="https://msdn.microsoft.com/en-us/library/Bb762530(v=VS.85).aspx">PROPVAR_COMPARE_UNIT</a>.
+Specifies, where appropriate, one of the comparison units defined in <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/ne-propvarutil-propvar_compare_unit">PROPVAR_COMPARE_UNIT</a>.
 
 
 ### -param flags [in]
@@ -88,7 +88,7 @@ Specifies one of the following:
 
 #### PVCF_DEFAULT (0x00000000)
 
-When comparing strings, use <a href="https://msdn.microsoft.com/013c6db3-7d14-44ef-89af-b3aac28f4e3f">StrCmpLogical</a>.
+When comparing strings, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmplogicalw">StrCmpLogical</a>.
 
 
 
@@ -100,25 +100,25 @@ Regard empty or null values as greater than non-empty values. This value can be 
 
 #### PVCF_USESTRCMP (0x00000002)
 
-When comparing strings, use <a href="https://msdn.microsoft.com/12530a04-776c-4506-86d1-07e2c3569a36">StrCmp</a>.
+When comparing strings, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpw">StrCmp</a>.
 
 
 
 #### PVCF_USESTRCMPC (0x00000004)
 
-When comparing strings, use <a href="https://msdn.microsoft.com/f4c4bc76-1e42-4cb0-bf74-d395743c9b1c">StrCmpC</a>.
+When comparing strings, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpca">StrCmpC</a>.
 
 
 
 #### PVCF_USESTRCMPI (0x00000008)
 
-When comparing strings, use <a href="https://msdn.microsoft.com/d059b6bd-8f03-4273-aa7a-b8b07f84d268">StrCmpI</a>.
+When comparing strings, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpiw">StrCmpI</a>.
 
 
 
 #### PVCF_USESTRCMPIC (0x00000010)
 
-When comparing strings, use <a href="https://msdn.microsoft.com/3f6d1ca1-fbd2-4ce2-b6d4-c3dfb37f1f87">StrCmpIC</a>.
+When comparing strings, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcmpica">StrCmpIC</a>.
 
 
 ## -returns

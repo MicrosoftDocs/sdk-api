@@ -60,7 +60,7 @@ Removes the provided node from the transform graph.
 
 ### -param node [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2ACF65DA-A812-4983-B044-71103A9AA450">ID2D1TransformNode</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>*</b>
 
 The node that will be removed from the transform graph.
 
@@ -100,7 +100,7 @@ The node must already exist in the graph; otherwise, the call fails with <b>D2DE
 
 Any connections to this node will be removed when the node is removed.
 
-After the node is removed, it cannot be used by the interface until it has been added to the graph by <a href="https://msdn.microsoft.com/1937BD5F-C26A-4E67-8E07-688A24DA201E">AddNode</a>.
+After the node is removed, it cannot be used by the interface until it has been added to the graph by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-addnode">AddNode</a>.
 
 
 
@@ -110,7 +110,7 @@ After the node is removed, it cannot be used by the interface until it has been 
 
 
 
-<a href="https://msdn.microsoft.com/6CA29200-9834-4A5B-99E8-434CD6E9B243">ID2D1TransformGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
  
 
  

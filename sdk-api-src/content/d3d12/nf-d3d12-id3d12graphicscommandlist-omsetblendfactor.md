@@ -88,7 +88,7 @@ If you didn't create the blend-state object with D3D11_BLEND_BLEND_FACTOR or D3D
 If you pass NULL, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }.
       
 
-D3D11_BLEND_BLEND_FACTOR and D3D11_BLEND_INV_BLEND_FACTOR are <a href="https://msdn.microsoft.com/BA114E1C-0E0B-4260-ACED-0FF3D426C764">D3D12_BLEND</a> enumeration constants.
+D3D11_BLEND_BLEND_FACTOR and D3D11_BLEND_INV_BLEND_FACTOR are <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_blend">D3D12_BLEND</a> enumeration constants.
       
 
 
@@ -99,7 +99,7 @@ D3D11_BLEND_BLEND_FACTOR and D3D11_BLEND_INV_BLEND_FACTOR are <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
  
 
  

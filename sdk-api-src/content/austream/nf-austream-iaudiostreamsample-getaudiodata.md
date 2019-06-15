@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-Retrieves the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object associated with the sample.
+Retrieves the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object associated with the sample.
 
 
 
@@ -64,7 +64,7 @@ Retrieves the address of a pointer to the <a href="https://msdn.microsoft.com/en
 
 ### -param ppAudio [out]
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData</a> object.
+Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData</a> object.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns S_OK if successful or E_POINTER if the parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389520(v=VS.85).aspx">IAudioStreamSample Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample Interface</a>
  
 
  

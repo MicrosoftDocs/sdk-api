@@ -56,7 +56,7 @@ The <b>IDXGIOutputDuplication</b> interface accesses and manipulates the duplica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutputDuplication</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIOutputDuplication</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutputDuplication</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>. <b>IDXGIOutputDuplication</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDXGIOutputDuplication</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C4F8C462-C8D8-4418-9543-7C8C32CE9498">AcquireNextFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">AcquireNextFrame</a>
 </td>
 <td align="left" width="63%">
 Indicates that the application is ready to process the next desktop image.
@@ -80,7 +80,7 @@ Indicates that the application is ready to process the next desktop image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40D2CF38-1528-48A4-BC0C-5D8CC132D0CB">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of a duplicated output. This description specifies the dimensions of the surface that contains the desktop image.
@@ -89,7 +89,7 @@ Retrieves a description of a duplicated output. This description specifies the d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F242E7C8-6A39-4B39-A811-243E17408577">GetFrameDirtyRects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframedirtyrects">GetFrameDirtyRects</a>
 </td>
 <td align="left" width="63%">
 Gets information about dirty rectangles for the current desktop frame.
@@ -98,7 +98,7 @@ Gets information about dirty rectangles for the current desktop frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7B7BF1A2-5F89-4AE1-BBDE-A298813B3AE7">GetFrameMoveRects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframemoverects">GetFrameMoveRects</a>
 </td>
 <td align="left" width="63%">
 Gets information about the moved rectangles for the current desktop frame.
@@ -107,7 +107,7 @@ Gets information about the moved rectangles for the current desktop frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/321FDB62-BF0E-402E-A00B-6F60B7F132AA">GetFramePointerShape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape">GetFramePointerShape</a>
 </td>
 <td align="left" width="63%">
 Gets information about the new pointer shape for the current desktop frame.
@@ -116,7 +116,7 @@ Gets information about the new pointer shape for the current desktop frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1FFFF954-0AD2-418E-B0CC-D674994C3CCE">MapDesktopSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface">MapDesktopSurface</a>
 </td>
 <td align="left" width="63%">
 Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.
@@ -125,7 +125,7 @@ Provides the CPU with efficient access to a desktop image if that desktop image 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/841858AA-4840-4B04-B54A-F10362D43F5B">ReleaseFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-releaseframe">ReleaseFrame</a>
 </td>
 <td align="left" width="63%">
 Indicates that the application finished processing the frame.
@@ -134,10 +134,10 @@ Indicates that the application finished processing the frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1B9AF088-5856-4F1C-A794-6CF870D62A29">UnMapDesktopSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-unmapdesktopsurface">UnMapDesktopSurface</a>
 </td>
 <td align="left" width="63%">
-Invalidates the pointer to the desktop image that was retrieved by using <a href="https://msdn.microsoft.com/1FFFF954-0AD2-418E-B0CC-D674994C3CCE">IDXGIOutputDuplication::MapDesktopSurface</a>.
+Invalidates the pointer to the desktop image that was retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface">IDXGIOutputDuplication::MapDesktopSurface</a>.
 
 </td>
 </tr>
@@ -157,7 +157,7 @@ An application can use <b>IDXGIOutputDuplication</b> on a separate thread to rec
 <ol>
 <li>Acquire the next desktop image.</li>
 <li>Retrieve the information that describes the image.</li>
-<li>Perform an operation on the image. This operation can be as simple as copying the image to a staging buffer so that the application can read the pixel data on the image. The application reads the pixel data  after the application calls <a href="https://msdn.microsoft.com/en-us/library/Bb174567(v=VS.85).aspx">IDXGISurface::Map</a>. Alternatively, this operation can be more complex. For example, the application can run some pixel shaders on the updated regions of the image to encode those regions for transmission to a client.
+<li>Perform an operation on the image. This operation can be as simple as copying the image to a staging buffer so that the application can read the pixel data on the image. The application reads the pixel data  after the application calls <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgisurface-map">IDXGISurface::Map</a>. Alternatively, this operation can be more complex. For example, the application can run some pixel shaders on the updated regions of the image to encode those regions for transmission to a client.
           </li>
 <li>After the application finishes  processing each desktop image, it releases the image, loops to step 1, and repeats the steps. The application repeats these steps until it is finished processing desktop images.</li>
 </ol>
@@ -181,13 +181,13 @@ Examples of situations in which <b>IDXGIOutputDuplication</b> becomes invalid ar
 <li>Switch from DWM on, DWM off, or other full-screen application
           </li>
 </ul>
-In these situations, the application must release the <b>IDXGIOutputDuplication</b> interface and must create a new <b>IDXGIOutputDuplication</b> interface for the new content.  If the application does not have the appropriate privilege to the new desktop image, its call to the <a href="https://msdn.microsoft.com/32B13906-0920-4891-B1E7-BCB291E78E73">IDXGIOutput1::DuplicateOutput</a> method fails.
+In these situations, the application must release the <b>IDXGIOutputDuplication</b> interface and must create a new <b>IDXGIOutputDuplication</b> interface for the new content.  If the application does not have the appropriate privilege to the new desktop image, its call to the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutput1-duplicateoutput">IDXGIOutput1::DuplicateOutput</a> method fails.
         
 
-While the application processes each desktop image, the operating system accumulates all the desktop image updates into a single update. For more information about desktop updates, see <a href="https://msdn.microsoft.com/en-us/library/Hh404487(v=VS.85).aspx">Updating the desktop image data</a>.
+While the application processes each desktop image, the operating system accumulates all the desktop image updates into a single update. For more information about desktop updates, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/desktop-dup-api">Updating the desktop image data</a>.
         
 
-The desktop image is always in the <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a> format.
+The desktop image is always in the <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_B8G8R8A8_UNORM</a> format.
         
 
 The <b>IDXGIOutputDuplication</b> interface does not exist for Windows Store apps.
@@ -201,11 +201,11 @@ The <b>IDXGIOutputDuplication</b> interface does not exist for Windows Store app
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
  
 
  

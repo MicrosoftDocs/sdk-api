@@ -59,44 +59,44 @@ Describes how a shader resource is bound to a shader input.
 
 ### -field Name
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 Name of the shader resource.
 
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172435(v=VS.85).aspx">D3D10_SHADER_INPUT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_type">D3D10_SHADER_INPUT_TYPE</a></b>
 
-Identifies the type of data in the resource. See <a href="https://msdn.microsoft.com/en-us/library/Bb172435(v=VS.85).aspx">D3D10_SHADER_INPUT_TYPE</a>.
+Identifies the type of data in the resource. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_type">D3D10_SHADER_INPUT_TYPE</a>.
 
 
 ### -field BindPoint
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Starting bind point.
 
 
 ### -field BindCount
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of contiguous bind points for arrays.
 
 
 ### -field uFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Shader input-parameter options. See <a href="https://msdn.microsoft.com/en-us/library/Bb172434(v=VS.85).aspx">D3D10_SHADER_INPUT_FLAGS</a>.
+Shader input-parameter options. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-_d3d_shader_input_flags">D3D10_SHADER_INPUT_FLAGS</a>.
 
 
 ### -field ReturnType
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172413(v=VS.85).aspx">D3D10_RESOURCE_RETURN_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type">D3D10_RESOURCE_RETURN_TYPE</a></b>
 
-If the input is a texture, the return type. See <a href="https://msdn.microsoft.com/en-us/library/Bb172413(v=VS.85).aspx">D3D10_RESOURCE_RETURN_TYPE</a>.
+If the input is a texture, the return type. See <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_resource_return_type">D3D10_RESOURCE_RETURN_TYPE</a>.
 
 
 ### -field Dimension
@@ -108,7 +108,7 @@ Identifies the amount of data in the resource. See <a href="https://docs.microso
 
 ### -field NumSamples
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of samples for a multisampled texture; otherwise 0.
 
@@ -117,7 +117,7 @@ The number of samples for a multisampled texture; otherwise 0.
 
 
 
-Get a shader-input-signature description by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173853(v=VS.85).aspx">ID3D10ShaderReflection::GetResourceBindingDesc</a>.
+Get a shader-input-signature description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflection-getresourcebindingdesc">ID3D10ShaderReflection::GetResourceBindingDesc</a>.
 
 
 
@@ -127,7 +127,7 @@ Get a shader-input-signature description by calling <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

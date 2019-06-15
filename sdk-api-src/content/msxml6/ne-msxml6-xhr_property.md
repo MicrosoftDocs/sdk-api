@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines properties that you can assign to an outgoing HTTP request by calling the <a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">SetProperty</a> method.
+Defines properties that you can assign to an outgoing HTTP request by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a> method.
 
 
 ## -enum-fields
@@ -81,7 +81,7 @@ Suppresses adding default headers to the HTTP request.
 
 ### -field XHR_PROP_REPORT_REDIRECT_STATUS
 
-Causes the HTTP stack to call the <a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable</a> callback method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> will be called again for additional redirects and the final destination status code.
+Causes the HTTP stack to call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a> callback method with an interim redirecting status code.  The <b>OnHeadersAvailable</b> will be called again for additional redirects and the final destination status code.
 
 
 ### -field XHR_PROP_NO_CACHE
@@ -91,7 +91,7 @@ Suppresses cache reads and writes for the HTTP request.
 
 ### -field XHR_PROP_EXTENDED_ERROR
 
-Causes the HTTP stack to provide <b>HRESULTS</b> with the underlying Win32 error code to the <a href="https://msdn.microsoft.com/532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3">OnError</a> callback method in case of failure.
+Causes the HTTP stack to provide <b>HRESULTS</b> with the underlying Win32 error code to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a> callback method in case of failure.
 
 
 ### -field XHR_PROP_QUERY_STRING_UTF8
@@ -120,15 +120,15 @@ Suppresses certain certificate errors.
 
 
 
-<a href="https://msdn.microsoft.com/532C97A7-B952-47BE-A9C7-5B1E5AB4C3D3">OnError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onerror">OnError</a>
 
 
 
-<a href="https://msdn.microsoft.com/EB6580C5-B200-4281-BF1F-FA5C3220689E">OnHeadersAvailable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">SetProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty</a>
  
 
  

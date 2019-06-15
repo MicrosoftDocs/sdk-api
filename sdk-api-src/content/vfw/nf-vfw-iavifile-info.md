@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Info</b> method returns with information about an AVI file. Called when an application uses the <a href="https://msdn.microsoft.com/10d7decf-a133-4d55-93d5-867952307819">AVIFileInfo</a> function.
+The <b>Info</b> method returns with information about an AVI file. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifileinfo">AVIFileInfo</a> function.
 
 
 
@@ -63,7 +63,7 @@ The <b>Info</b> method returns with information about an AVI file. Called when a
 
 ### -param pfi
 
-A pointer to an <a href="https://msdn.microsoft.com/d3fda342-2ade-41b1-b709-c194f132e015">AVIFILEINFO</a> structure. The method fills the structure with information about the file.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-_avifileinfoa">AVIFILEINFO</a> structure. The method fills the structure with information about the file.
 
 
 ### -param lSize
@@ -112,11 +112,11 @@ HRESULT Info(AVIFILEINFO *pfi, LONG lSize)
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

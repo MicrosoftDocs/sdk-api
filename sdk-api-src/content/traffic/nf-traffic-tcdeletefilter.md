@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TcDeleteFilter</b> function deletes a filter previously added with the 
-<a href="https://msdn.microsoft.com/c6d7c346-c353-4224-a8b5-56910e447902">TcAddFilter</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param FilterHandle [in]
 
 Handle to the filter to be deleted, as received in a previous call to the 
-<a href="https://msdn.microsoft.com/c6d7c346-c353-4224-a8b5-56910e447902">TcAddFilter</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a> function.
 
 
 ## -returns
@@ -110,7 +110,7 @@ The filter handle is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/c6d7c346-c353-4224-a8b5-56910e447902">TcAddFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcaddfilter">TcAddFilter</a>
  
 
  

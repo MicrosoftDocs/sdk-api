@@ -54,7 +54,7 @@ Returns error information.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateErrorInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICreateErrorInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateErrorInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateErrorInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICreateErrorInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32d10343-4be4-4ebc-b2fd-43a292c006b2">SetDescription</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Sets the textual description of the error.
@@ -78,7 +78,7 @@ Sets the textual description of the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7570ba3-d738-40d3-aefc-fbf6f4ca633e">SetGUID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-setguid">SetGUID</a>
 </td>
 <td align="left" width="63%">
 Sets the globally unique identifier (GUID) of the interface that defined the error.
@@ -87,7 +87,7 @@ Sets the globally unique identifier (GUID) of the interface that defined the err
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c65f4bd-21ad-4118-bbe8-e2ff65b96213">SetHelpContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpcontext">SetHelpContext</a>
 </td>
 <td align="left" width="63%">
 Sets the Help context identifier (ID) for the error.
@@ -96,7 +96,7 @@ Sets the Help context identifier (ID) for the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb439d74-fd52-4c95-afc5-d57e2fe5029d">SetHelpFile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpfile">SetHelpFile</a>
 </td>
 <td align="left" width="63%">
 Sets the path of the Help file that describes the error.
@@ -105,7 +105,7 @@ Sets the path of the Help file that describes the error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f0e6349-9d31-4ab6-9a91-3822e81188e5">SetSource</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/source">SetSource</a>
 </td>
 <td align="left" width="63%">
 Sets the language-dependent programmatic identifier (ProgID) for the class or application that raised the error.
@@ -120,7 +120,7 @@ Sets the language-dependent programmatic identifier (ProgID) for the class or ap
 
 
 
-<a href="https://msdn.microsoft.com/c258677e-d53e-499d-a414-ce889709b23e">Error Handling Interfaces </a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/error-handling-interfaces">Error Handling Interfaces </a>
  
 
  

@@ -63,7 +63,7 @@ Creates a multiple-document interface (MDI) child window.
 
 Type: <b>LPCTSTR</b>
 
-The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function.
+The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function.
 
 
 ### -param lpWindowName [in]
@@ -77,7 +77,7 @@ The window name. The system displays the name in the title bar of the child wind
 
 Type: <b>DWORD</b>
 
-The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
+The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
 
 <table>
 <tr>
@@ -190,7 +190,7 @@ Type: <strong>Type: <b>HWND</b>
 
 If the function succeeds, the return value is the handle to the created window.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -204,11 +204,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
 
 
 
@@ -216,11 +216,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644913(v=VS.85).aspx">WM_MDICREATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-mdicreate">WM_MDICREATE</a>
  
 
  

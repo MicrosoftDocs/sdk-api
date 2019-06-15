@@ -54,7 +54,7 @@ Docks an application window to the bottom of a monitor when a Windows Store app 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingService</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IAccessibilityDockingService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibilityDockingService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibilityDockingService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAccessibilityDockingService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99C6A82C-A421-4A5E-B23A-167384A7AB90">DockWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-dockwindow">DockWindow</a>
 </td>
 <td align="left" width="63%">
 Docks the specified window handle to the specified monitor handle.
@@ -78,7 +78,7 @@ Docks the specified window handle to the specified monitor handle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1C838B01-EF26-4FCC-878F-A36DEFBA3142">GetAvailableSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/iaccessibilitydockingservice-getavailablesize">GetAvailableSize</a>
 </td>
 <td align="left" width="63%">
 Gets the dimensions available for docking an accessibility window on a monitor.
@@ -87,7 +87,7 @@ Gets the dimensions available for docking an accessibility window on a monitor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8A88D02C-E542-49F0-B423-771E755D506D">UnDockWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-undockwindow">UnDockWindow</a>
 </td>
 <td align="left" width="63%">
 Undocks the specified window handle if it is currently docked.

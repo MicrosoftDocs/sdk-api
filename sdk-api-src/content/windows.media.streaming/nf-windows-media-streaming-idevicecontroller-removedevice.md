@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes the specified device from the list of devices that is returned by the <a href="https://msdn.microsoft.com/94C2A7FF-5AF8-4F13-BBA5-54ED78C3BBF6">CachedDevices</a> method.
+Removes the specified device from the list of devices that is returned by the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes the specified device from the list of devices that is returned by the <a
 
 ### -param device [in]
 
-A reference to an <a href="https://msdn.microsoft.com/E4F99A11-4ED5-44CB-BE16-CBB558412ED4">IBasicDevice</a> that represents the device to remove from the list.
+A reference to an <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> that represents the device to remove from the list.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/18989598-86C5-4BD7-B8F4-27496897DFBA">IDeviceController</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
  
 
  

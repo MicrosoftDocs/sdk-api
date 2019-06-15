@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> structure is used to store credential information specific to certificate authentication.<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> is the specific implementation of IKEEXT_CERTIFICATE_CREDENTIAL used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/926a7e74-a225-4234-8be0-c8731840756a">IKEEXT_CERTIFICATE_CREDENTIAL0</a> is available.</div>
+The <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> structure is used to store credential information specific to certificate authentication.<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> is the specific implementation of IKEEXT_CERTIFICATE_CREDENTIAL used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_certificate_credential0_">IKEEXT_CERTIFICATE_CREDENTIAL0</a> is available.</div>
 <div> </div>
 
 
@@ -61,16 +61,16 @@ The <b>IKEEXT_CERTIFICATE_CREDENTIAL1</b> structure is used to store credential 
 
 ### -field subjectName
 
-Encoded subject name of the certificate used for authentication. Use <a href="https://msdn.microsoft.com/b3d96de8-5cbc-4ccb-b759-6757520bbda3">CertNameToStr</a> to convert the encoded name to string.
+Encoded subject name of the certificate used for authentication. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> to convert the encoded name to string.
 
-See <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
 
 
 ### -field certHash
 
 SHA thumbprint of the certificate.
 
-See <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
 
 
 ### -field flags
@@ -86,9 +86,9 @@ Possible values:
 
 ### -field certificate
 
-The encoded certificate. Use <a href="https://msdn.microsoft.com/a32714c4-ee88-48a8-a40a-bbbfec0613ac">CertCreateCertificateContext</a> to create a certificate context from the encoded certificate.
+The encoded certificate. Use <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> to create a certificate context from the encoded certificate.
 
-See <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
 
 
 ## -see-also
@@ -96,11 +96,11 @@ See <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FW
 
 
 
-<a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

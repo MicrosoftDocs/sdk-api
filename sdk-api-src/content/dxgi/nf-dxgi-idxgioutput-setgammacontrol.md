@@ -60,18 +60,18 @@ Sets the gamma controls.
 
 ### -param pArray [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb173061(v=VS.85).aspx">DXGI_GAMMA_CONTROL</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173061(v=vs.85)">DXGI_GAMMA_CONTROL</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173061(v=VS.85).aspx">DXGI_GAMMA_CONTROL</a> structure that describes the gamma curve to set.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173061(v=vs.85)">DXGI_GAMMA_CONTROL</a> structure that describes the gamma curve to set.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> values.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> values.
 
 
 
@@ -85,7 +85,7 @@ Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=
 <div> </div>
 
 
-For info about using gamma correction, see <a href="https://msdn.microsoft.com/97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A">Using gamma correction</a>. 
+For info about using gamma correction, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/using-gamma-correction">Using gamma correction</a>. 
 
 
 
@@ -95,7 +95,7 @@ For info about using gamma correction, see <a href="https://msdn.microsoft.com/9
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
  
 
  

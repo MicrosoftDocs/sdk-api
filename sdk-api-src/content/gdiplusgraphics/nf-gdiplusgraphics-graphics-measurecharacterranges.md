@@ -76,7 +76,7 @@ Integer that specifies the number of characters in the <i>string</i> array. If t
 
 ### -param font [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>*</b>
 
 Pointer to a <i>Font</i> object that specifies the font characteristics (the family name, size, and style of the font) to be applied to the string. 
 
@@ -90,7 +90,7 @@ Reference to a rectangle that bounds the string.
 
 ### -param stringFormat [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>*</b>
 
 Pointer to a <i>StringFormat</i> object that specifies the character ranges and layout information, such as alignment, trimming, tab stops, and so forth. 
 
@@ -104,7 +104,7 @@ Integer that specifies the number of regions that are expected to be received in
 
 ### -param regions [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
 
 Pointer to an array of <i>Region</i> objects that receives the regions, each of which bounds a range of text. 
 
@@ -113,12 +113,12 @@ Pointer to an array of <i>Region</i> objects that receives the regions, each of 
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -127,7 +127,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-A character range is a range of character positions within a string of text. The area of the display that is occupied by a group of characters that are specified by the character range, is the bounding region. A character range is set by <a href="https://msdn.microsoft.com/en-us/library/ms534729(v=VS.85).aspx">SetMeasurableCharacterRanges</a>. The number of ranges that are currently set can be determined by calling <a href="https://msdn.microsoft.com/en-us/library/ms534720(v=VS.85).aspx">GetMeasurableCharacterRangeCount</a>. This number is also the number of regions expected to be obtained by the <b>MeasureCharacterRanges</b> method.
+A character range is a range of character positions within a string of text. The area of the display that is occupied by a group of characters that are specified by the character range, is the bounding region. A character range is set by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>. The number of ranges that are currently set can be determined by calling <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>. This number is also the number of regions expected to be obtained by the <b>MeasureCharacterRanges</b> method.
 
 
 #### Examples
@@ -227,19 +227,19 @@ VOID MeasureCharRanges(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534426(v=VS.85).aspx">CharacterRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534720(v=VS.85).aspx">GetMeasurableCharacterRangeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534729(v=VS.85).aspx">SetMeasurableCharacterRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
  
 
  

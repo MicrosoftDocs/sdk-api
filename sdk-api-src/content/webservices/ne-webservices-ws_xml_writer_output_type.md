@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The type of <a href="https://msdn.microsoft.com/367e6f98-9351-4a08-b8ce-036e7f2788e4">WS_XML_WRITER_OUTPUT</a> structure.
+The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_output">WS_XML_WRITER_OUTPUT</a> structure.
       
 
 

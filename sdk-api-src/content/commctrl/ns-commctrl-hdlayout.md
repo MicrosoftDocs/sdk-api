@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775353(v=VS.85).aspx">HDM_LAYOUT</a> message. This structure supersedes the 
+Contains information used to set the size and position of a header control. <b>HDLAYOUT</b> is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-layout">HDM_LAYOUT</a> message. This structure supersedes the 
 			<b>HD_LAYOUT</b> structure. 
 
 
@@ -67,7 +67,7 @@ Structure that contains the coordinates of a rectangle that the header control w
 
 ### -field pwpos
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms632612(v=VS.85).aspx">WINDOWPOS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwindowpos">WINDOWPOS</a>*</b>
 
 Structure that receives information about the appropriate size and position of the header control. 
 

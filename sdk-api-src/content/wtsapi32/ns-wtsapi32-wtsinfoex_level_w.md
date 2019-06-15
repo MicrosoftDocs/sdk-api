@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a <a href="https://msdn.microsoft.com/bad4f35a-04a9-42fa-b87e-0f51e9f0f30e">WTSINFOEX_LEVEL1</a> structure that contains extended information about a Remote Desktop Services session.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure that contains extended information about a Remote Desktop Services session.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains a <a href="https://msdn.microsoft.com/bad4f35a-04a9-42fa-b87e-0f51e9f0f
 
 ### -field WTSInfoExLevel1
 
-A <a href="https://msdn.microsoft.com/bad4f35a-04a9-42fa-b87e-0f51e9f0f30e">WTSINFOEX_LEVEL1</a> structure that contains extended session information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure that contains extended session information.
 
 
 ## -see-also
@@ -69,11 +69,11 @@ A <a href="https://msdn.microsoft.com/bad4f35a-04a9-42fa-b87e-0f51e9f0f30e">WTSI
 
 
 
-<a href="https://msdn.microsoft.com/94aa2db0-d7e3-4ff2-bff0-d80983d2e8b2">WTSINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoexa">WTSINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/bad4f35a-04a9-42fa-b87e-0f51e9f0f30e">WTSINFOEX_LEVEL1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a>
  
 
  

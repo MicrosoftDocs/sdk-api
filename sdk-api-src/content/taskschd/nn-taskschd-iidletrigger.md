@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a trigger that starts a task when the computer goes into an idle state. For information about idle conditions, see <a href="https://msdn.microsoft.com/1e480681-b77a-48fe-a732-dd1591eaa08d">Task Idle Conditions</a>.
+Represents a trigger that starts a task when the computer goes into an idle state. For information about idle conditions, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>.
 
 
 ## -remarks
@@ -59,11 +59,11 @@ Represents a trigger that starts a task when the computer goes into an idle stat
 An idle trigger will only trigger a task action if the computer goes into an idle state after the start boundary of the trigger.
 
 
-When creating your own XML for a task, an idle trigger is specified using the <a href="https://msdn.microsoft.com/c3e317b5-d1a7-46de-ace5-e066452583d3">IdleTrigger</a> element of the Task Scheduler schema.
+When creating your own XML for a task, an idle trigger is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-idletrigger-triggergroup-element">IdleTrigger</a> element of the Task Scheduler schema.
 
-If a task is triggered by an idle trigger, then the <a href="https://msdn.microsoft.com/fff7f954-4e57-42bf-ad86-5ddede94279c">WaitTimeout</a> property of the <a href="https://msdn.microsoft.com/a6bd9278-b9ac-4eb3-957a-5191cee12a6f">IIdleSettings</a> interface is ignored.
+If a task is triggered by an idle trigger, then the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout">WaitTimeout</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iidlesettings">IIdleSettings</a> interface is ignored.
 
-If the initial instance of a task with an idle trigger is still running, then the task is only launched once with no repetitions, even if multiple repetition is defined in the <a href="https://msdn.microsoft.com/8c3c5cc8-64aa-4706-a00a-0218fc1ae62b">Repetition</a> property. This behavior does not occur if the task stops by itself.
+If the initial instance of a task with an idle trigger is still running, then the task is only launched once with no repetitions, even if multiple repetition is defined in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_repetition">Repetition</a> property. This behavior does not occur if the task stops by itself.
 
 
 
@@ -73,11 +73,11 @@ If the initial instance of a task with an idle trigger is still running, then th
 
 
 
-<a href="https://msdn.microsoft.com/165297c1-704b-4ab3-a9e3-4aa3f10e07b1">ITrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
  
 
  

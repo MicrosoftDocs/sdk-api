@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The <b>IBDA_Topology</b> interface is implemented on BDA device filters. A single filter may represent multiple hardware devices (called control nodes) which may be connected in various ways within the filter itself. These connections generally represent hardware paths on the card. This interface provides methods that enable a Network Provider to configure or discover the types of nodes within the filter, and how these nodes are connected. The methods correspond closely to the Ring 0 property sets which are documented in the Windows DDK.
 
-<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://msdn.microsoft.com/7b641b94-9854-4ca8-8362-a9e1e49bbdd2">OCUR Devices</a>.
+<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_Topology</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_Topology</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_Topology</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_Topology</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IBDA_Topology</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693448(v=VS.85).aspx">CreatePin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-createpin">CreatePin</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of a specified pin type.
@@ -83,7 +83,7 @@ Creates an instance of a specified pin type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693449(v=VS.85).aspx">CreateTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-createtopology">CreateTopology</a>
 </td>
 <td align="left" width="63%">
 Associates an instance of an input pin with an instance of an output pin.
@@ -92,7 +92,7 @@ Associates an instance of an input pin with an instance of an output pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693450(v=VS.85).aspx">DeletePin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-deletepin">DeletePin</a>
 </td>
 <td align="left" width="63%">
 Deletes a pin from the filter's topology.
@@ -101,7 +101,7 @@ Deletes a pin from the filter's topology.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693451(v=VS.85).aspx">GetControlNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-getcontrolnode">GetControlNode</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <b>IUnknown</b> interface pointer for a specified control node.
@@ -110,7 +110,7 @@ Retrieves an <b>IUnknown</b> interface pointer for a specified control node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693452(v=VS.85).aspx">GetNodeDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-getnodedescriptors">GetNodeDescriptors</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of descriptors for the nodes in the topology.
@@ -119,7 +119,7 @@ Retrieves a list of descriptors for the nodes in the topology.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693453(v=VS.85).aspx">GetNodeInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-getnodeinterfaces">GetNodeInterfaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the interfaces supported by a node type.
@@ -128,7 +128,7 @@ Retrieves a list of the interfaces supported by a node type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693454(v=VS.85).aspx">GetNodeTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-getnodetypes">GetNodeTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the node types in the template topology for this filter and network type.
@@ -137,7 +137,7 @@ Retrieves a list of all the node types in the template topology for this filter 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693455(v=VS.85).aspx">GetPinTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-getpintypes">GetPinTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the pin types in the template topology for this filter and network type.
@@ -146,7 +146,7 @@ Retrieves a list of all the pin types in the template topology for this filter a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693456(v=VS.85).aspx">GetTemplateConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-gettemplateconnections">GetTemplateConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all template connections that appear in the template topology for this filter and network type.
@@ -155,7 +155,7 @@ Retrieves a list of all template connections that appear in the template topolog
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693457(v=VS.85).aspx">SetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-setmediatype">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Configures the media types that can be accepted by a particular pin.
@@ -164,7 +164,7 @@ Configures the media types that can be accepted by a particular pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693458(v=VS.85).aspx">SetMedium</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_topology-setmedium">SetMedium</a>
 </td>
 <td align="left" width="63%">
 Configures the media types that can be accepted by a particular pin.
@@ -188,7 +188,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

@@ -66,13 +66,13 @@ Specifies the XML device description template of the device to register.
 ### -param bstrProgIDDeviceControlClass [in]
 
 Specifies the ProgID of a device control object that implements the 
-<a href="https://msdn.microsoft.com/c5d68459-f4ba-4df1-a00c-be86e24ce29f">IUPnPDeviceControl</a> interface. This interface must be an in-process COM server (CLSCTX_INPROC_SERVER) and must be accessible to <a href="https://msdn.microsoft.com/5409e2fe-a349-4739-a481-f8a35fd3c9b4">LocalService</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a> interface. This interface must be an in-process COM server (CLSCTX_INPROC_SERVER) and must be accessible to <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.
 
 
 ### -param bstrInitString [in]
 
 Identifies the initialization string specific to the device. This string is later passed to 
-<a href="https://msdn.microsoft.com/0c1ea343-f04b-414d-92cf-044cb117bc9c">IUPnPDeviceControl::Initialize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a>.
 
 
 ### -param bstrContainerId [in]
@@ -93,7 +93,7 @@ Specifies the lifetime of the device announcement, in seconds. After the timeout
 ### -param pbstrDeviceIdentifier [out]
 
 Receives the device identifier. Use this identifier when unregistering or re-registering the device. Save this Device ID; you must use it when calling 
-<a href="https://msdn.microsoft.com/76fca00c-8638-4e2f-8dd1-20b24cde0108">UnregisterDevice</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">UnregisterDevice</a>.
 
 
 ## -returns
@@ -173,25 +173,25 @@ A required element is missing.
 
 
 A device is instantiated and 
-<a href="https://msdn.microsoft.com/0c1ea343-f04b-414d-92cf-044cb117bc9c">IUPnPDeviceControl::Initialize</a> is invoked when a control or event request is received.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdevicecontrol-initialize">IUPnPDeviceControl::Initialize</a> is invoked when a control or event request is received.
 
 Use the identifier returned in <i>pbstrDeviceIdentifier</i> when invoking 
-<a href="https://msdn.microsoft.com/76fca00c-8638-4e2f-8dd1-20b24cde0108">UnregisterDevice</a> or 
-<a href="https://msdn.microsoft.com/9f8a0a49-49e4-47b9-93bf-ca32cc80e243">IUPnPReregistrar::ReregisterDevice</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">UnregisterDevice</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpreregistrar-reregisterdevice">IUPnPReregistrar::ReregisterDevice</a>.
 
 
 Common errors that can occur when invoking this function include:
 
 <ul>
 <li>The necessary COM object was not found.</li>
-<li>There is no access to the COM object for <a href="https://msdn.microsoft.com/5409e2fe-a349-4739-a481-f8a35fd3c9b4">LocalService</a>.</li>
+<li>There is no access to the COM object for <a href="https://docs.microsoft.com/windows/desktop/Services/localservice-account">LocalService</a>.</li>
 <li>Subordinate COM interfaces.</li>
 <li>The XML description limits (see 
-<a href="https://msdn.microsoft.com/b2a7d342-958c-439d-8b17-b4fdc5fbad12">Creating a Device Description</a>).</li>
+<a href="https://docs.microsoft.com/windows/desktop/UPnP/creating-a-device-description">Creating a Device Description</a>).</li>
 <li>Evented variables did not return success codes and the device was shut down.</li>
 <li>The service description was invalid. Use validatesd.exe to ensure that service descriptions are valid.</li>
 <li>The service did not implement IUPnPEventSource and did not return a success code to 
-<a href="https://msdn.microsoft.com/ec68f4ff-7549-4d48-b347-0320bc55329c">IUPnPEventSource::Advise</a> and the device was shut down.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-advise">IUPnPEventSource::Advise</a> and the device was shut down.</li>
 </ul>
 
 
@@ -203,15 +203,15 @@ Common errors that can occur when invoking this function include:
 
 
 
-<a href="https://msdn.microsoft.com/c851e102-4f03-4a21-9e62-9b5c60a728f3">IUPnPRegistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
 
 
 
-<a href="https://msdn.microsoft.com/76fca00c-8638-4e2f-8dd1-20b24cde0108">IUPnPRegistrar::UnregisterDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-unregisterdevice">IUPnPRegistrar::UnregisterDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/e01f325b-8fbd-43f2-a835-41cd3232f62e">IUPnPReregistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpreregistrar">IUPnPReregistrar</a>
  
 
  

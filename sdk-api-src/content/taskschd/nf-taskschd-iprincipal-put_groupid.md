@@ -63,9 +63,9 @@ This property is read/write.
 
 
 
-Do not set this property if a user identifier is specified in the <a href="https://msdn.microsoft.com/b85a1f05-acb0-4b3c-bea0-393ad7c6a43d">UserId</a> property.
+Do not set this property if a user identifier is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid">UserId</a> property.
 
-When reading or writing XML for a task, the group identifier for a principal is specified in the <a href="https://msdn.microsoft.com/1e576c31-79a9-42d4-b497-74412e464d60">GroupId</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the group identifier for a principal is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-groupid-principaltype-element">GroupId</a> element of the Task Scheduler schema.
 
 
 
@@ -75,15 +75,15 @@ When reading or writing XML for a task, the group identifier for a principal is 
 
 
 
-<a href="https://msdn.microsoft.com/7aa22af2-7f0a-41c1-89c6-d813780e89bf">IPrincipal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iprincipal">IPrincipal</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://msdn.microsoft.com/b85a1f05-acb0-4b3c-bea0-393ad7c6a43d">UserId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid">UserId</a>
  
 
  

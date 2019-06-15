@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a>.
+Directs the preview handler to return the <b>HWND</b> from calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getfocus">GetFocus Function</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Directs the preview handler to return the <b>HWND</b> from calling the <a href="
 
 Type: <b>HWND*</b>
 
-When this method returns, contains a pointer to the HWND returned from calling the <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a> from the preview handler's foreground thread.
+When this method returns, contains a pointer to the HWND returned from calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getfocus">GetFocus Function</a> from the preview handler's foreground thread.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is necessary because <a href="https://msdn.microsoft.com/en-us/library/ms646294(v=VS.85).aspx">GetFocus Function</a> can only succeed if the focus is on a window created by the calling thread. This method is used by the host to manage the tabbing order and to support tabbing into and out of the preview handler's windows.
+This method is necessary because <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getfocus">GetFocus Function</a> can only succeed if the focus is on a window created by the calling thread. This method is used by the host to manage the tabbing order and to support tabbing into and out of the preview handler's windows.
 
 
 

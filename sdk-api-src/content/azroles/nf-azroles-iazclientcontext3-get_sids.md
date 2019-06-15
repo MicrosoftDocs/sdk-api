@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Sids</b> property gets an array of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs) associated with this client context.
+The <b>Sids</b> property gets an array of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) associated with this client context.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/9435e41b-b2ec-4a2a-9058-82025f2c2e09">IAzClientContext3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext3">IAzClientContext3</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Merges the specified <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList</a> object into this word list.
+Merges the specified <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
 
 
 
@@ -148,7 +148,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
  
 
  

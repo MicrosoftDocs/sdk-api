@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies how an <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control appears on the screen.
+Specifies how an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control appears on the screen.
 
 
 
@@ -75,7 +75,7 @@ Default. 3D. Paints with three-dimensional effects.
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
  
 
  

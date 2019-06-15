@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ReadFmtUserTypeStg</b> function returns the clipboard format and user type previously saved with the 
-<a href="https://msdn.microsoft.com/ef60493c-164e-4633-a248-05c4afade937">WriteFmtUserTypeStg</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-writefmtusertypestg">WriteFmtUserTypeStg</a> function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pstg [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface on the storage object from which the information is to be read.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object from which the information is to be read.
 
 
 ### -param pcf [out]
@@ -72,7 +72,7 @@ Pointer to where the clipboard format is to be written on return. It can be <b>N
 
 ### -param lplpszUserType [out]
 
-Address of <b>LPWSTR</b> pointer variable that receives a pointer to the null-terminated Unicode user-type string. The caller can specify <b>NULL</b> for this parameter, which indicates that the user type is of no interest. This function allocates memory for the string. The caller is responsible for freeing the memory with <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>.
+Address of <b>LPWSTR</b> pointer variable that receives a pointer to the null-terminated Unicode user-type string. The caller can specify <b>NULL</b> for this parameter, which indicates that the user type is of no interest. This function allocates memory for the string. The caller is responsible for freeing the memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Address of <b>LPWSTR</b> pointer variable that receives a pointer to the null-te
 This function supports the standard return values E_FAIL, E_INVALIDARG, and E_OUTOFMEMORY, in addition to the following:
 
 This function also returns any of the error values returned by the 
-<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> method.
 
 
 
@@ -92,7 +92,7 @@ This function also returns any of the error values returned by the
 
 
 <b>ReadFmtUserTypeStg</b> returns the clipboard format and the user type string from the specified storage object. The 
-<a href="https://msdn.microsoft.com/5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e">WriteClassStg</a> function must have been called before calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a> function must have been called before calling the 
 <b>ReadFmtUserTypeStg</b> function.
 
 
@@ -103,11 +103,11 @@ This function also returns any of the error values returned by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef60493c-164e-4633-a248-05c4afade937">WriteFmtUserTypeStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-writefmtusertypestg">WriteFmtUserTypeStg</a>
  
 
  

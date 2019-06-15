@@ -73,7 +73,7 @@ Pointer to the <b>IUnknown</b> interface of a focus object associated with a req
 
 ### -param pConsumer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/dda2b207-dcd8-42df-95a3-d4bfbb4a7fd8">IResourceConsumer</a> interface on the object requesting the resource.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> interface on the object requesting the resource.
 
 
 ## -returns
@@ -89,20 +89,20 @@ Returns an <b>HRESULT</b> value. Returns S_OK if the requested resource is retur
 
 
 
-When there is more than one request for the resource, the resource manager will decide the priority by using the object of focus passed with each request and comparing it to the object of focus passed in the most recent <a href="https://msdn.microsoft.com/3d0a87e1-6774-45cf-9ab5-18ec1d2fff0d">IResourceManager::SetFocus</a> method.
+When there is more than one request for the resource, the resource manager will decide the priority by using the object of focus passed with each request and comparing it to the object of focus passed in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">IResourceManager::SetFocus</a> method.
 
 Requests will be filled in the following order of priority:
 
 <ol>
-<li>Requests made with exactly the same object of focus as the last <a href="https://msdn.microsoft.com/3d0a87e1-6774-45cf-9ab5-18ec1d2fff0d">SetFocus</a> method.</li>
+<li>Requests made with exactly the same object of focus as the last <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a> method.</li>
 <li>Requests whose object of focus shares a common source filter whose object of focus shares a common filter graph.</li>
 <li>Requests in the same process as the focus.</li>
 </ol>
-While checking this priority, the resource manager will use <b>QueryInterface</b> on the focus object for IID_IFilter. If found, the resource manager will use <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> methods to check the filter graph and look for common source filters with the current focus object.
+While checking this priority, the resource manager will use <b>QueryInterface</b> on the focus object for IID_IFilter. If found, the resource manager will use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> methods to check the filter graph and look for common source filters with the current focus object.
 
 A filter should pass the <b>IUnknown</b> interface of the filter in the <i>pFocusObject</i> parameter. The filter graph manager matches filters to the filter graph and will attempt to trace filters to common source filters when checking objects of focus.
 
-The focus object must be valid for the entire lifetime of the request—until either the <a href="https://msdn.microsoft.com/49372654-8e69-4a7a-915e-16e791c63fb2">IResourceManager::CancelRequest</a> method is called, or the <a href="https://msdn.microsoft.com/a3779a8d-fe78-4f9b-af6c-7a25e0f07a86">IResourceManager::NotifyRelease</a> method is called with the <i>bStillWant</i> parameter set to <b>FALSE</b>.
+The focus object must be valid for the entire lifetime of the request—until either the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-cancelrequest">IResourceManager::CancelRequest</a> method is called, or the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyrelease">IResourceManager::NotifyRelease</a> method is called with the <i>bStillWant</i> parameter set to <b>FALSE</b>.
 
 
 
@@ -112,11 +112,11 @@ The focus object must be valid for the entire lifetime of the request—until ei
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cbe908e-5675-4134-81e7-2c5c31b0ffc5">IResourceManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
  
 
  

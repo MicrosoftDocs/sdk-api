@@ -59,7 +59,7 @@ Gets the column used for grouping the folder view.
 
 ### -param pbstrGroupBy [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
 
 When this method returns, contains a pointer to the column name.
 

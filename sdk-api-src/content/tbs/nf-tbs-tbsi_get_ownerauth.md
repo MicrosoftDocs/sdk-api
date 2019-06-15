@@ -59,7 +59,7 @@ Retrieves the owner authorization  of the TPM if the information is available in
 
 ### -param hContext [in]
 
-TBS handle obtained from a previous call to the <a href="https://msdn.microsoft.com/5f19f649-2132-4fd8-a346-4be73fb8917c">Tbsi_Context_Create</a> function.
+TBS handle obtained from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
 
 
 ### -param ownerauthType [in]

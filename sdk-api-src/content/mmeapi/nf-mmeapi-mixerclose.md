@@ -64,7 +64,7 @@ The <b>mixerClose</b> function closes the specified mixer device.
 
 ### -param hmx
 
-Handle to the mixer device. This handle must have been returned successfully by the <a href="https://msdn.microsoft.com/7977680b-0967-4b85-9926-fc2725681de9">mixerOpen</a> function. If <b>mixerClose</b> is successful, <i>hmx</i> is no longer valid.
+Handle to the mixer device. This handle must have been returned successfully by the <a href="https://docs.microsoft.com/previous-versions//dd757308(v=vs.85)">mixerOpen</a> function. If <b>mixerClose</b> is successful, <i>hmx</i> is no longer valid.
 
 
 ## -returns
@@ -100,11 +100,11 @@ Specified device handle is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/19f53a98-1a01-4954-a5d7-c428aa2bfa38">Audio Mixer Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7489fcac-fd4c-46cf-8a1a-e4de576974f0">Audio Mixers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
  
 
  

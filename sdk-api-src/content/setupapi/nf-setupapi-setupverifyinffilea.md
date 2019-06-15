@@ -70,12 +70,12 @@ The name of the INF file to be verified. This name may include a path.
 ### -param AltPlatformInfo [in]
 
 An optional pointer to a 
-<a href="https://msdn.microsoft.com/eb66ef5a-212d-4224-87b5-d64e8e188139">SP_ALTPLATFORM_INFO_V2</a> structure that contains information about the alternate platform to use when validating the INF file. This parameter can be Null.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v2">SP_ALTPLATFORM_INFO_V2</a> structure that contains information about the alternate platform to use when validating the INF file. This parameter can be Null.
 
 
 ### -param InfSignerInfo [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/50ceee47-3a89-4bd7-8508-5a4d75514861">SP_INF_SIGNER_INFO</a> structure that receives information about the INF digital signature, that is, if it is signed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_inf_signer_info_v1_a">SP_INF_SIGNER_INFO</a> structure that receives information about the INF digital signature, that is, if it is signed.
 
 
 ## -returns
@@ -92,11 +92,11 @@ This function returns WINSETUPAPI BOOL.
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
  
 
  

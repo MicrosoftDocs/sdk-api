@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Checks whether a data object has one of the formats that would allow it to become an embedded object through a call to either the <a href="https://msdn.microsoft.com/aa5e997e-60d4-472d-9c81-5359c277bde3">OleCreateFromData</a> or <a href="https://msdn.microsoft.com/847d82f5-149d-48a4-a228-f5551a07a790">OleCreateStaticFromData</a> function.
+Checks whether a data object has one of the formats that would allow it to become an embedded object through a call to either the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdata">OleCreateStaticFromData</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Checks whether a data object has one of the formats that would allow it to becom
 
 ### -param pSrcDataObject [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface on the data transfer object to be queried.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data transfer object to be queried.
 
 
 ## -returns
@@ -107,7 +107,7 @@ Formats that support static-object creation are present.
 
 
 
-When an application retrieves a data transfer object through a call to the <a href="https://msdn.microsoft.com/c5e7badb-339b-48d5-8c9a-3950e2ffe6bf">OleGetClipboard</a> function, the application should call <b>OleQueryCreateFromData</b> as part of the process of deciding to enable or disable the <b>Edit/Paste</b> or <b>Edit/Paste Special...</b> commands. It tests for the presence of the following formats in the data object:
+When an application retrieves a data transfer object through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegetclipboard">OleGetClipboard</a> function, the application should call <b>OleQueryCreateFromData</b> as part of the process of deciding to enable or disable the <b>Edit/Paste</b> or <b>Edit/Paste Special...</b> commands. It tests for the presence of the following formats in the data object:
 
 <ul>
 <li>CF_EMBEDDEDOBJECT</li>
@@ -120,9 +120,9 @@ When an application retrieves a data transfer object through a call to the <a hr
 </ul>
 Determining that the data object has one of these formats does not absolutely guarantee that the object creation will succeed, but is intended to help the process.
 
-If <b>OleQueryCreateFromData</b> finds one of the CF_METAFILEPICT, CF_BITMAP,  CF_DIB, or CF_ENHMETAFILE formats and none of the other formats, it returns OLE_S_STATIC, indicating that you should call the <a href="https://msdn.microsoft.com/847d82f5-149d-48a4-a228-f5551a07a790">OleCreateStaticFromData</a> function to create the embedded object.
+If <b>OleQueryCreateFromData</b> finds one of the CF_METAFILEPICT, CF_BITMAP,  CF_DIB, or CF_ENHMETAFILE formats and none of the other formats, it returns OLE_S_STATIC, indicating that you should call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdata">OleCreateStaticFromData</a> function to create the embedded object.
 
-If <b>OleQueryCreateFromData</b> finds one of the other formats (CF_EMBEDDEDOBJECT, CF_EMBEDSOURCE, or cfFileName), even in combination with the static formats, it returns S_OK, indicating that you should call the <a href="https://msdn.microsoft.com/aa5e997e-60d4-472d-9c81-5359c277bde3">OleCreateFromData</a> function to create the embedded object. 
+If <b>OleQueryCreateFromData</b> finds one of the other formats (CF_EMBEDDEDOBJECT, CF_EMBEDSOURCE, or cfFileName), even in combination with the static formats, it returns S_OK, indicating that you should call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a> function to create the embedded object. 
 
 
 
@@ -133,15 +133,15 @@ If <b>OleQueryCreateFromData</b> finds one of the other formats (CF_EMBEDDEDOBJE
 
 
 
-<a href="https://msdn.microsoft.com/aa5e997e-60d4-472d-9c81-5359c277bde3">OleCreateFromData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
 
 
 
-<a href="https://msdn.microsoft.com/847d82f5-149d-48a4-a228-f5551a07a790">OleCreateStaticFromData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdata">OleCreateStaticFromData</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ebdcd7f-06c1-4464-a66c-4d134a6b5d36">OleQueryLinkFromData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olequerylinkfromdata">OleQueryLinkFromData</a>
  
 
  

@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>GetPhoneCapsBuffer</b> method gets a buffer capability/information about the phone, based on the 
-<a href="https://msdn.microsoft.com/208efd60-58b2-4d0a-b757-29b1db017195">PHONECAPS_BUFFER</a> enum passed in.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_buffer">PHONECAPS_BUFFER</a> enum passed in.
 
 This method is intended for C/C++ applications. Visual Basic and scripting applications must use the 
-<a href="https://msdn.microsoft.com/d9397aa8-2be4-4775-8123-975bdd58a6b5">get_PhoneCapsBuffer</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_phonecapsbuffer">get_PhoneCapsBuffer</a> method.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ This method is intended for C/C++ applications. Visual Basic and scripting appli
 ### -param pcbCaps [in]
 
 The 
-<a href="https://msdn.microsoft.com/208efd60-58b2-4d0a-b757-29b1db017195">PHONECAPS_BUFFER</a> descriptor for the phone capability.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phonecaps_buffer">PHONECAPS_BUFFER</a> descriptor for the phone capability.
 
 
 ### -param pdwSize [out]
@@ -92,11 +92,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
  
 
  

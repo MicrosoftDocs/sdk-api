@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreateColorSpace</b> function creates a logical <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
+The <b>CreateColorSpace</b> function creates a logical <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/c">color space</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>CreateColorSpace</b> function creates a logical <a href="https://msdn.mic
 
 ### -param lplcs
 
-Pointer to the <a href="https://msdn.microsoft.com/b08aec07-6ac0-47be-8dc9-d604d94dedde">LOGCOLORSPACE</a> data structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogcolorspacea">LOGCOLORSPACE</a> data structure.
 
 
 ## -returns
@@ -83,7 +83,7 @@ If this function fails, the return value is <b>NULL</b>.
 
 When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete it.
 
-<b>Windows 95/98/Me: </b><b>CreateColorSpaceW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
+<b>Windows 95/98/Me: </b><b>CreateColorSpaceW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/library?url=/library/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
 
 
 
@@ -93,15 +93,15 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b241224-2994-4533-9629-d2a4b129ce86">DeleteColorSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletecolorspace">DeleteColorSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
  
 
  

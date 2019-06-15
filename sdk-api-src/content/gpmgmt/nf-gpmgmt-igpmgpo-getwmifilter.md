@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Retrieves the 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">GPMWMIFilter</a> object linked to the Group Policy object (GPO).
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object linked to the Group Policy object (GPO).
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Retrieves the
 ### -param ppIGPMWMIFilter [out]
 
 Address of a pointer to the 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">IGPMWMIFilter</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a> interface.
 
 
 ## -returns
@@ -73,10 +73,10 @@ Address of a pointer to the
 Returns <b>S_OK</b> if successful. Returns S_FALSE if no WMI filter is linked to the GPO. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-If the GPO is linked to a WMI filter, the method returns a reference to a <a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
+If the GPO is linked to a WMI filter, the method returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
 
 <h3>VB</h3>
-If the GPO is linked to a WMI filter, the method returns a reference to a <a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
+If the GPO is linked to a WMI filter, the method returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
 
 
 
@@ -86,11 +86,11 @@ If the GPO is linked to a WMI filter, the method returns a reference to a <a hre
 
 
 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">IGPMWMIFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
  
 
  

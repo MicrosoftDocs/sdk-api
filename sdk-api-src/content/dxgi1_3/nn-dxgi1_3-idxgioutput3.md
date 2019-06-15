@@ -55,7 +55,7 @@ Represents an adapter output (such as a monitor). The <b>IDXGIOutput3</b> interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput3</b> interface inherits from <a href="https://msdn.microsoft.com/23585A1F-3F18-4247-91DB-712C0A8D5398">IDXGIOutput2</a>. <b>IDXGIOutput3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutput3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput2">IDXGIOutput2</a>. <b>IDXGIOutput3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGIOutput3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D7B90FF5-5E8B-4F9E-A442-B44449438388">CheckOverlaySupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgioutput3-checkoverlaysupport">CheckOverlaySupport</a>
 </td>
 <td align="left" width="63%">
 Checks for overlay support.
@@ -85,11 +85,11 @@ Checks for overlay support.
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/23585A1F-3F18-4247-91DB-712C0A8D5398">IDXGIOutput2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput2">IDXGIOutput2</a>
  
 
  

@@ -94,7 +94,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a> has already been set for this object.
+The <a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a> has already been set for this object.
               
 
 </td>
@@ -120,15 +120,15 @@ When a node is first created, it is assigned an identifier. Typically there is n
 
 
 
-<a href="https://msdn.microsoft.com/01d7eb7c-a3d3-4924-a8ec-a67e9dc17424">IMFTopologyNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fc19244-0f42-4d23-899d-c79e97018855">Topologies</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
  
 
  

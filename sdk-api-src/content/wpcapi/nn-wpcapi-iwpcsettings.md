@@ -54,7 +54,7 @@ Accesses general settings for the user.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWPCSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWPCSettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWPCSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWPCSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fe5be0c-e6fa-481d-a28d-c5b15257b901">GetLastSettingsChangeTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcsettings-getlastsettingschangetime">GetLastSettingsChangeTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the time at which the configuration settings were last updated.
@@ -78,7 +78,7 @@ Retrieves the time at which the configuration settings were last updated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22350ef3-3068-4d33-a023-74644e5fbb83">GetRestrictions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcsettings-getrestrictions">GetRestrictions</a>
 </td>
 <td align="left" width="63%">
 Determines whether web restrictions, time limits, or game restrictions are on.
@@ -87,7 +87,7 @@ Determines whether web restrictions, time limits, or game restrictions are on.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bfe04843-af23-4146-bc45-f91d6ad36c1a">IsLoggingRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcsettings-isloggingrequired">IsLoggingRequired</a>
 </td>
 <td align="left" width="63%">
 Determines whether activity logging should be performed when obtaining the <b>IWPCSettings</b> interface.

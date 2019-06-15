@@ -62,14 +62,14 @@ Activates the specified Windows Runtime class.
 
 ### -param activatableClassId [in]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The class identifier that is associated with the activatable runtime class.
 
 
 ### -param instance [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 A pointer to the activated instance of the runtime class.
 
@@ -116,7 +116,7 @@ The class was activated successfully.
 </dl>
 </td>
 <td width="60%">
-The thread has not been initialized in the Windows Runtime by calling the <a href="https://msdn.microsoft.com/527A7FF7-749D-4178-A397-5C538F6031F8">RoInitialize</a> function.
+The thread has not been initialized in the Windows Runtime by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a> function.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The thread has not been initialized in the Windows Runtime by calling the <a hre
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/75E30E4B-EE5F-41C4-AC22-91D542E920EB">TrustLevel</a> for the class requires a full-trust process.
+The <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a> for the class requires a full-trust process.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The <a href="https://msdn.microsoft.com/75E30E4B-EE5F-41C4-AC22-91D542E920EB">Tr
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> interface is not implemented by the specified class.
+The <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface is not implemented by the specified class.
 
 </td>
 </tr>
@@ -173,19 +173,19 @@ Use the <b>RoActivateInstance</b> function to activate a Windows Runtime class. 
 
 
 
-<a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/C6A2ED6E-9C45-4CF3-A301-72A5DAEB4DFC">IActivationFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activation/nn-activation-iactivationfactory">IActivationFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
 
 
 
-<a href="https://msdn.microsoft.com/75E30E4B-EE5F-41C4-AC22-91D542E920EB">TrustLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/ne-inspectable-trustlevel">TrustLevel</a>
  
 
  

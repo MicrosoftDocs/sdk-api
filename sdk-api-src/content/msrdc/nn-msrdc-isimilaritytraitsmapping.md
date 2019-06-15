@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 Provides methods that an RDC application can implement for creating and manipulating a file mapping object for  a similarity traits table file.
 
-This interface is used together with the <a href="https://msdn.microsoft.com/48d6d4a0-fbf1-476a-b30f-83176c51cb48">ISimilarityTraitsMappedView</a> interface to allow the application to provide the I/O services needed by the <a href="https://msdn.microsoft.com/0985e27c-aa70-43c1-bcec-00ef14f2df58">ISimilarityTraitsTable</a> and <a href="https://msdn.microsoft.com/fe0cd874-a40c-4d82-99bf-b84008a4995c">ISimilarity</a> interfaces. The implementation model is based on memory mapped files, but the interface is rich enough to support other models as well, such as memory-only arrays or traditional file accesses.
+This interface is used together with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmappedview">ISimilarityTraitsMappedView</a> interface to allow the application to provide the I/O services needed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a> interfaces. The implementation model is based on memory mapped files, but the interface is rich enough to support other models as well, such as memory-only arrays or traditional file accesses.
 
 This interface is used to represent the file on which multiple read-only or read/write views can be created. There can be multiple overlapping read-only mapped views of the same area of a file, and one or more read-only views can overlap a read/write view, but there can be only one read/write view of a given area of a file.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTraitsMapping</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISimilarityTraitsMapping</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTraitsMapping</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTraitsMapping</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ISimilarityTraitsMapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ac20c6b-9fe5-4b59-a9ed-faef97fd76f2">CloseMapping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmapping-closemapping">CloseMapping</a>
 </td>
 <td align="left" width="63%">
 Closes a file mapping object for a similarity traits table file.
@@ -82,7 +82,7 @@ Closes a file mapping object for a similarity traits table file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/222b3682-8ccc-4c52-858a-ad4ac8a65add">CreateView</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmapping-createview">CreateView</a>
 </td>
 <td align="left" width="63%">
 Maps a view of the file mapping for a similarity traits table file.
@@ -91,7 +91,7 @@ Maps a view of the file mapping for a similarity traits table file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/920b9c77-ca45-42ff-801f-cbe1ab3eab2c">GetFileSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmapping-getfilesize">GetFileSize</a>
 </td>
 <td align="left" width="63%">
 Returns the size of a similarity traits table file.
@@ -100,7 +100,7 @@ Returns the size of a similarity traits table file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8189d346-9e8e-40c0-8080-75c36326c917">GetPageSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmapping-getpagesize">GetPageSize</a>
 </td>
 <td align="left" width="63%">
 Returns the page size (disk block size) for a similarity traits table file.
@@ -109,7 +109,7 @@ Returns the page size (disk block size) for a similarity traits table file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/278d7b78-28c6-41ee-9060-5f7d757ef494">OpenMapping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmapping-openmapping">OpenMapping</a>
 </td>
 <td align="left" width="63%">
 Opens the file mapping object for a similarity traits table file.
@@ -118,7 +118,7 @@ Opens the file mapping object for a similarity traits table file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea4fe3f9-7422-4673-90e4-4907fb8dd690">ResizeMapping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmapping-resizemapping">ResizeMapping</a>
 </td>
 <td align="left" width="63%">
 Resizes the file mapping object for a similarity traits table file.
@@ -127,7 +127,7 @@ Resizes the file mapping object for a similarity traits table file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f8afa56-6531-40dd-979f-12506ad8c286">SetFileSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitsmapping-setfilesize">SetFileSize</a>
 </td>
 <td align="left" width="63%">
 Sets the size of a similarity traits table file.

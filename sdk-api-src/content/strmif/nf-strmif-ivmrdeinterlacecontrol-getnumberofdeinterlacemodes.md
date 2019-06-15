@@ -60,7 +60,7 @@ The <b>GetNumberOfDeinterlaceModes</b> method retrieves the deinterlacing modes 
 
 ### -param lpVideoDescription [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/b02683ec-9bf9-4a69-87fb-d37a98f02e61">VMRVideoDesc</a> structure that describes the video.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrvideodesc">VMRVideoDesc</a> structure that describes the video.
 
 
 ### -param lpdwNumDeinterlaceModes [in, out]
@@ -155,7 +155,7 @@ All drivers are required to support the following mode:
 </table>
  
 
-Drivers can support additional modes and should define their own GUIDs to identify them. For each returned mode, call the <a href="https://msdn.microsoft.com/e672f3d4-1009-4c4c-bb1a-08f78c128423">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a> method to get information about that mode.
+Drivers can support additional modes and should define their own GUIDs to identify them. For each returned mode, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrdeinterlacecontrol-getdeinterlacemodecaps">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a> method to get information about that mode.
 
 
 
@@ -165,15 +165,15 @@ Drivers can support additional modes and should define their own GUIDs to identi
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/77abbcd4-6538-491d-b3c2-6a29a391c68a">IVMRDeinterlaceControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

@@ -71,7 +71,7 @@ The window to configure feedback on.
 
 ### -param feedback [in]
 
-One of the values from the <a href="https://msdn.microsoft.com/EEA3024E-D38C-4F4D-A63C-58ECB2B87F20">FEEDBACK_TYPE</a> enumeration.
+One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagfeedback_type">FEEDBACK_TYPE</a> enumeration.
 
 
 ### -param dwFlags [in]
@@ -103,11 +103,11 @@ Returns TRUE if successful; otherwise, returns FALSE.
 
 
 
-<a href="https://msdn.microsoft.com/9CC3EA75-8FD5-4A29-8FD7-785E25ACCBA2">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
  
 
  

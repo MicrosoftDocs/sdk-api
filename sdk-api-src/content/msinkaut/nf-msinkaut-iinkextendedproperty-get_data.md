@@ -79,7 +79,7 @@ The data consists of information that cannot otherwise be set on the object, suc
 
 
 
-<a href="https://msdn.microsoft.com/53146f37-343a-4886-a0bb-d76d50ca96ba">IInkExtended Property Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtended Property Interface</a>
  
 
  

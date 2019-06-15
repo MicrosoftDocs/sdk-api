@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables or disables <a href="https://msdn.microsoft.com/65B9DB67-4EE8-40B5-B465-CA425792C62B">Child Sessions</a>.
+Enables or disables <a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions</a>.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Returns nonzero if the function succeeds or zero otherwise.
 
 
 
-For more information about child sessions, see <a href="https://msdn.microsoft.com/65B9DB67-4EE8-40B5-B465-CA425792C62B">Child Sessions</a>.
+For more information about child sessions, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions</a>.
 
 
 

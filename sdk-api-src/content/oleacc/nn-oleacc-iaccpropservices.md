@@ -55,7 +55,7 @@ Exposes methods for annotating accessible elements and for manipulating identity
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccPropServices</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAccPropServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccPropServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccPropServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAccPropServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7fd3f595-4897-481f-972e-04cf1a4c6046">ClearHwndProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearhwndprops">ClearHwndProps</a>
 </td>
 <td align="left" width="63%">
 Restores default values to properties of <b>HWND</b>-based accessible elements that have been annotated previously.
@@ -79,7 +79,7 @@ Restores default values to properties of <b>HWND</b>-based accessible elements t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a3bce93-1d5d-48cf-84f4-cbca445b5451">ClearProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>
 </td>
 <td align="left" width="63%">
 Restores default values to properties of accessible elements that have been annotated previously. 
@@ -89,7 +89,7 @@ Restores default values to properties of accessible elements that have been anno
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6712e47-7f00-4932-9a12-40ecafdbf584">ComposeHwndIdentityString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-composehwndidentitystring">ComposeHwndIdentityString</a>
 </td>
 <td align="left" width="63%">
 Retrieves an identity string.
@@ -98,7 +98,7 @@ Retrieves an identity string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b14932a1-7585-49e4-80eb-498cf48796ee">DecomposeHwndIdentityString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">DecomposeHwndIdentityString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>HWND</b>, object ID, and child ID for the accessible element identified by an identity string. 
@@ -108,7 +108,7 @@ Retrieves the <b>HWND</b>, object ID, and child ID for the accessible element id
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00387897-5385-467d-9da4-4d71fce742b6">SetHwndProp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndprop">SetHwndProp</a>
 </td>
 <td align="left" width="63%">
 Sets a new value for a property on an <b>HWND</b>-based object.
@@ -117,7 +117,7 @@ Sets a new value for a property on an <b>HWND</b>-based object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05dbdf97-9b1a-439f-b3a1-b517733ec0a8">SetHwndPropServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropserver">SetHwndPropServer</a>
 </td>
 <td align="left" width="63%">
 Specifies a callback object to be used to annotate an arrary of properties for an <b>HWND</b>-based accessible element.
@@ -126,7 +126,7 @@ Specifies a callback object to be used to annotate an arrary of properties for a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68f09a23-56b2-4fae-98a2-616b17fb4e1f">SetHwndPropStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethwndpropstr">SetHwndPropStr</a>
 </td>
 <td align="left" width="63%">
 Sets a new value for a string property on an <b>HWND</b>-based object.
@@ -135,7 +135,7 @@ Sets a new value for a string property on an <b>HWND</b>-based object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15e43a38-4cb3-43ca-a0fc-28faf49057dc">SetPropServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropserver">SetPropServer</a>
 </td>
 <td align="left" width="63%">
 Specifies a callback object to be used to annotate an arrary of properties for the accessible element.
@@ -144,7 +144,7 @@ Specifies a callback object to be used to annotate an arrary of properties for t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c86acb70-fa77-4f95-8a99-e60872cdaa7e">SetPropValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropvalue">SetPropValue</a>
 </td>
 <td align="left" width="63%">
 Sets a new value for a property.

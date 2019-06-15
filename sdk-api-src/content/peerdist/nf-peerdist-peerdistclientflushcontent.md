@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerDistClientFlushContent</b> function allows a client to remove content  added to the local cache with the <a href="https://msdn.microsoft.com/f1fdd398-ed84-4819-b0e8-e9b653bd6848">PeerDistClientAddData</a> function using the associated <a href="https://msdn.microsoft.com/09eab22b-0534-44db-9954-ff5a9c5667f9">PEERDIST_CONTENT_TAG</a>.
+The <b>PeerDistClientFlushContent</b> function allows a client to remove content  added to the local cache with the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientadddata">PeerDistClientAddData</a> function using the associated <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag">PEERDIST_CONTENT_TAG</a>.
 
 
 ## -parameters
@@ -59,22 +59,22 @@ The <b>PeerDistClientFlushContent</b> function allows a client to remove content
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param pContentTag [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/09eab22b-0534-44db-9954-ff5a9c5667f9">PEERDIST_CONTENT_TAG</a> structure that contains the tag supplied when <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a> is called.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag">PEERDIST_CONTENT_TAG</a> structure that contains the tag supplied when <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
 
 
 ### -param hCompletionPort [in, optional]
 
-A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://msdn.microsoft.com/40cb47fc-7b15-47f6-bee2-2611d4686053">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
+A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
 
 
 ### -param ulCompletionKey [in, optional]
 
-Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
+Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
 
 
 ### -param lpOverlapped [in]
@@ -147,7 +147,7 @@ The service is unavailable.
 
 
 
-The <i>pContentTag</i> is a client supplied tag passed to <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>, which labels the content added by the client. This tag is used by the API to selectively flush content from the Peer Distribution cache.
+The <i>pContentTag</i> is a client supplied tag passed to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>, which labels the content added by the client. This tag is used by the API to selectively flush content from the Peer Distribution cache.
 
 
 
@@ -157,15 +157,15 @@ The <i>pContentTag</i> is a client supplied tag passed to <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/09eab22b-0534-44db-9954-ff5a9c5667f9">PEERDIST_CONTENT_TAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ns-peerdist-peerdist_content_tag_tag">PEERDIST_CONTENT_TAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
 
 
 
-<a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
  
 
  

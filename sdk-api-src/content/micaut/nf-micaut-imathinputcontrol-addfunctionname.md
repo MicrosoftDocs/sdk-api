@@ -115,11 +115,11 @@ This function is used to add custom math functions that do not exist in the defa
 
 
 
-<a href="https://msdn.microsoft.com/3d6a6289-7be5-4cf0-8cb7-9095c4ee7149">IMathInputControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c1a16c7-4490-480d-9831-ca297ccdde80">RemoveFunctionName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname">RemoveFunctionName</a>
  
 
  

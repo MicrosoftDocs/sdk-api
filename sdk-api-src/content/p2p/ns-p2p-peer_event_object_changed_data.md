@@ -59,23 +59,23 @@ The <b>PEER_EVENT_OBJECT_CHANGED_DATA</b> structure contains information returne
 
 ### -field pContact
 
-Pointer to a <a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a> structure that contains the peer contact information for the contact whose peer object data changed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a> structure that contains the peer contact information for the contact whose peer object data changed.
 
 
 ### -field pEndpoint
 
-Pointer to a <a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a> structure that contains the peer endpoint information for the contact whose peer object data changed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a> structure that contains the peer endpoint information for the contact whose peer object data changed.
 
 
 ### -field changeType
 
 
-<a href="https://msdn.microsoft.com/ef8f1cc7-e1db-4d6d-9ff6-141746d0787a">PEER_CHANGE_TYPE</a> enumeration value that specifies the type of change that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_change_type_tag">PEER_CHANGE_TYPE</a> enumeration value that specifies the type of change that occurred.
 
 
 ### -field pObject
 
-Pointer to a <a href="https://msdn.microsoft.com/6babceaf-9648-4226-a0ce-6f4ae831e4a7">PEER_OBJECT</a> structure that contains the peer object data whose change raised the event. This most commonly occurs when a new peer object is received by the peer.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object_tag">PEER_OBJECT</a> structure that contains the peer object data whose change raised the event. This most commonly occurs when a new peer object is received by the peer.
 
 
 ## -remarks
@@ -86,9 +86,9 @@ Peer objects are run-time data items associated with a particular application, s
 
 Trusted contacts watching this peer object will have a PEER_EVENT_OBJECT_CHANGED event raised on them signaling the peer object's change in status.
 
-The PEER_EVENT_OBJECT_CHANGED event is raised when an object is changed by calling <a href="https://msdn.microsoft.com/99a3e206-7d76-4773-956c-bbd101766392">PeerCollabSetObject</a>. If it is the first time the object is set then <b>changeType</b> is set to PEER_CHANGE_ADDED. On subsequent calls of PeerCollabSetObject for the same object ID the <b>changeType</b> is set to PEER_CHANGE_UDPATED.
+The PEER_EVENT_OBJECT_CHANGED event is raised when an object is changed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsetobject">PeerCollabSetObject</a>. If it is the first time the object is set then <b>changeType</b> is set to PEER_CHANGE_ADDED. On subsequent calls of PeerCollabSetObject for the same object ID the <b>changeType</b> is set to PEER_CHANGE_UDPATED.
 
-If <a href="https://msdn.microsoft.com/4849f8da-7f8a-4951-94eb-624ee186ec83">PeerCollabDeleteObject</a> is called the PEER_CHANGE_DELETED event is raised.
+If <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabdeleteobject">PeerCollabDeleteObject</a> is called the PEER_CHANGE_DELETED event is raised.
 
 
 
@@ -98,23 +98,23 @@ If <a href="https://msdn.microsoft.com/4849f8da-7f8a-4951-94eb-624ee186ec83">Pee
 
 
 
-<a href="https://msdn.microsoft.com/ef8f1cc7-e1db-4d6d-9ff6-141746d0787a">PEER_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_change_type_tag">PEER_CHANGE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a>
 
 
 
-<a href="https://msdn.microsoft.com/9687b332-14ed-4023-b8c2-437d75fd0298">PEER_ENDPOINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint_tag">PEER_ENDPOINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/6babceaf-9648-4226-a0ce-6f4ae831e4a7">PEER_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object_tag">PEER_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

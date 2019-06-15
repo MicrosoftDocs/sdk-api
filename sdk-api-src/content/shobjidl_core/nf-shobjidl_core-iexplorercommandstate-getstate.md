@@ -59,9 +59,9 @@ Gets the command state associated with a specified Shell item.
 
 ### -param psiItemArray [in]
 
-Type: <b><a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a> with a single element that represents the Shell item.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> with a single element that represents the Shell item.
 
 
 ### -param fOkToBeSlow [in]
@@ -73,9 +73,9 @@ Type: <b>BOOL</b>
 
 ### -param pCmdState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/41e76b6e-9294-40b3-bb8b-bbfe487fd023">EXPCMDSTATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a>*</b>
 
-A pointer to a value that, when this method returns successfully, receives one or more Windows Explorer command states indicated by the <a href="https://msdn.microsoft.com/41e76b6e-9294-40b3-bb8b-bbfe487fd023">EXPCMDSTATE</a> constants.
+A pointer to a value that, when this method returns successfully, receives one or more Windows Explorer command states indicated by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_expcmdstate">EXPCMDSTATE</a> constants.
 
 
 ## -returns
@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method provides the same functionality as <a href="https://msdn.microsoft.com/bb600cb5-9b7e-45dc-beca-0a913c214084">GetState</a>. Use <a href="https://msdn.microsoft.com/020a6f6f-1d45-44bd-a57f-ef8000976b5b">IExplorerCommandState</a> when you only need to know the command state.
+This method provides the same functionality as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getstate">GetState</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate">IExplorerCommandState</a> when you only need to know the command state.
 
 
 

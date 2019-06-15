@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Selects a bitmap picture into a given device context, and returns the device context in which the picture was previously selected as well as the picture's GDI handle. This method works in conjunction with <a href="https://msdn.microsoft.com/a5c13a54-692d-423f-824d-5a96c137dec9">IPicture::get_CurDC</a>.
+Selects a bitmap picture into a given device context, and returns the device context in which the picture was previously selected as well as the picture's GDI handle. This method works in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_curdc">IPicture::get_CurDC</a>.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A pointer to a variable that receives the previous device context. This paramete
 
 ### -param phBmpOut [out]
 
-A pointer to a variable that receives the GDI handle of the picture. This parameter can be <b>NULL</b> if the caller does not need the handle. Ownership of this handle is determined by the <i>fOwn</i> parameter passed to <a href="https://msdn.microsoft.com/fb021348-07d4-4974-a71e-abb1b8d760c4">OleCreatePictureIndirect</a>. Pictures loaded from a stream always own their resources.
+A pointer to a variable that receives the GDI handle of the picture. This parameter can be <b>NULL</b> if the caller does not need the handle. Ownership of this handle is determined by the <i>fOwn</i> parameter passed to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>. Pictures loaded from a stream always own their resources.
 
 
 ## -returns
@@ -86,11 +86,11 @@ This method supports the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEM
 
 
 
-<a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5c13a54-692d-423f-824d-5a96c137dec9">IPicture::get_CurDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_curdc">IPicture::get_CurDC</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Defines the valid object text formats to be used by 
-<a href="https://msdn.microsoft.com/98961d94-8360-4ed7-b1b1-20b4fca45d45">SWbemObjectEx.GetText_</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobjectex-gettext-">SWbemObjectEx.GetText_</a>.
 
 
 ## -enum-fields

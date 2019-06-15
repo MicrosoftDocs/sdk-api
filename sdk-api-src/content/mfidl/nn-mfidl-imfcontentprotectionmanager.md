@@ -57,7 +57,7 @@ Applications that play protected content should implement this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFContentProtectionManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFContentProtectionManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFContentProtectionManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFContentProtectionManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFContentProtectionManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f422135-8e5f-41fb-a709-77636d1b451b">BeginEnableContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">BeginEnableContent</a>
 </td>
 <td align="left" width="63%">
 Begins an asynchronous request to perform a content enabling action.
@@ -81,7 +81,7 @@ Begins an asynchronous request to perform a content enabling action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10893a0c-5476-4b7d-aad7-845a4ba70335">EndEnableContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent">EndEnableContent</a>
 </td>
 <td align="left" width="63%">
 Ends an asynchronous request to perform a content enabling action.
@@ -90,19 +90,19 @@ Ends an asynchronous request to perform a content enabling action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d06f752f-3f9a-4c7c-9c49-c886a675fe3a">RemoteBeginEnableContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/remotebeginenablecontent">RemoteBeginEnableContent</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/2f422135-8e5f-41fb-a709-77636d1b451b">BeginEnableContent</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">BeginEnableContent</a>. (Not used by applications.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa7a2b3a-5982-4fd8-b5de-7439fc374dfa">RemoteEndEnableContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/remoteendenablecontent">RemoteEndEnableContent</a>
 </td>
 <td align="left" width="63%">
-Remotable version of <a href="https://msdn.microsoft.com/10893a0c-5476-4b7d-aad7-845a4ba70335">EndEnableContent</a>. (Not used by applications.)
+Remotable version of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-endenablecontent">EndEnableContent</a>. (Not used by applications.)
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Remotable version of <a href="https://msdn.microsoft.com/10893a0c-5476-4b7d-aad7
 
 
 
-A <i>content enabler</i> is an object that performs some action that is required to play a piece of protected content. For example, the action might be obtaining a DRM license. Content enablers expose the <a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a> interface, which defines a generic mechanism for content enabler. Content enablers are created inside the protected media path (PMP) process. However, they must be invoked from the application process. Therefore, the <b>IMFContentProtectionManager</b> interface provides a way for the PMP Media Session to notify the application.
+A <i>content enabler</i> is an object that performs some action that is required to play a piece of protected content. For example, the action might be obtaining a DRM license. Content enablers expose the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> interface, which defines a generic mechanism for content enabler. Content enablers are created inside the protected media path (PMP) process. However, they must be invoked from the application process. Therefore, the <b>IMFContentProtectionManager</b> interface provides a way for the PMP Media Session to notify the application.
 
 To use this interface, do the following:
 
@@ -123,19 +123,19 @@ Implement the interface in your application.
 
 </li>
 <li>
-Create an attribute store by calling <a href="https://msdn.microsoft.com/a79b1edd-5ca1-4550-a6ce-58073155affd">MFCreateAttributes</a>.
+Create an attribute store by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a>.
 
 </li>
 <li>
-Set the <a href="https://msdn.microsoft.com/66482541-63d4-439b-862f-7507605af5d8">MF_SESSION_CONTENT_PROTECTION_MANAGER</a> attribute on the attribute store. The attribute value is a pointer to your <b>IMFContentProtectionManager</b> implementation.
+Set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-session-content-protection-manager-attribute">MF_SESSION_CONTENT_PROTECTION_MANAGER</a> attribute on the attribute store. The attribute value is a pointer to your <b>IMFContentProtectionManager</b> implementation.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/cb492e68-3d8a-49b2-8c0b-bee8065b53a8">MFCreatePMPMediaSession</a> and pass the attribute store in the <i>pConfiguration</i> parameter.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatepmpmediasession">MFCreatePMPMediaSession</a> and pass the attribute store in the <i>pConfiguration</i> parameter.
 
 </li>
 </ol>
-If the content requires a content enabler, the application's <a href="https://msdn.microsoft.com/2f422135-8e5f-41fb-a709-77636d1b451b">BeginEnableContent</a> method is called. Usually this method called during the <a href="https://msdn.microsoft.com/ea5313f0-b0fd-4945-97a2-b3f17937294f">IMFMediaSession::SetTopology</a> operation, before the Media Session raises the <a href="https://msdn.microsoft.com/22a298b7-d32b-44ed-b0a1-4e0398ecfe04">MESessionTopologySet</a> event. The application might receive multiple <b>BeginEnableContent</b> calls for a single piece of content. The MESessionTopologySet event signals that the content-enabling process is complete for the current topology. The <b>BeginEnableContent</b> method can also be called outside of the <b>SetTopology</b> operation, but less commonly.
+If the content requires a content enabler, the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectionmanager-beginenablecontent">BeginEnableContent</a> method is called. Usually this method called during the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> operation, before the Media Session raises the <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessiontopologyset">MESessionTopologySet</a> event. The application might receive multiple <b>BeginEnableContent</b> calls for a single piece of content. The MESessionTopologySet event signals that the content-enabling process is complete for the current topology. The <b>BeginEnableContent</b> method can also be called outside of the <b>SetTopology</b> operation, but less commonly.
 
 Many content enablers send machine-specific data to the network, which can have privacy implications. One of the purposes of the <b>IMFContentProtectionManager</b> interface is to give applications an opportunity to display information to the user and enable to user to opt in or out of the process.
 
@@ -147,7 +147,7 @@ Many content enablers send machine-specific data to the network, which can have 
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

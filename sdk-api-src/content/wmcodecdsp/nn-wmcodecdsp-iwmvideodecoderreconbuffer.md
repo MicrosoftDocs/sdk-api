@@ -59,7 +59,7 @@ Manages reconstructed video frames.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMVideoDecoderReconBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMVideoDecoderReconBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMVideoDecoderReconBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMVideoDecoderReconBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMVideoDecoderReconBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e952923-2043-4b0d-b936-c570373a3544">GetReconstructedVideoFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframe">GetReconstructedVideoFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current reconstructed video frame. This method is obsolete and should not be used.
@@ -83,7 +83,7 @@ Retrieves the current reconstructed video frame. This method is obsolete and sho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7faadeed-4c89-4b3e-8e08-51de66224aaa">GetReconstructedVideoFrameSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-getreconstructedvideoframesize">GetReconstructedVideoFrameSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the current reconstructed video frame. This method is obsolete and should not be used.
@@ -92,7 +92,7 @@ Retrieves the size of the current reconstructed video frame. This method is obso
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/baffb56f-b2c5-464f-a2ae-1cb9677b8b83">SetReconstructedVideoFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderreconbuffer-setreconstructedvideoframe">SetReconstructedVideoFrame</a>
 </td>
 <td align="left" width="63%">
 Restores the current reconstructed video frame. This method is obsolete and should not be used.
@@ -107,7 +107,7 @@ Restores the current reconstructed video frame. This method is obsolete and shou
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

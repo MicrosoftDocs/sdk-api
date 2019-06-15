@@ -72,11 +72,11 @@ The format can be used as the output from the video processor.
 
 
 
-<a href="https://msdn.microsoft.com/40061AD1-BCD9-4170-A442-34B4C792BB55">Direct3D 11 Video Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/75DE439B-6849-4413-BF7D-0EBADA96F097">ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-checkvideoprocessorformat">ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat</a>
  
 
  

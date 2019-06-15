@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534503(v=VS.85).aspx">Sharpen</a> object. 
+Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object. 
 
 
 ## -parameters
@@ -65,15 +65,15 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534503(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534503(v=VS.85).aspx">Sharpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534758(v=VS.85).aspx">Sharpen::SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534073(v=VS.85).aspx">SharpenParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-sharpenparams">SharpenParams</a>
  
 
  

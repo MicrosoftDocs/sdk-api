@@ -92,7 +92,7 @@ If the <b>Append</b> method fails, the similarity file ID table is marked as cor
 
 
 
-<a href="https://msdn.microsoft.com/539a2e9b-9719-4012-bb7f-4d14723a3695">ISimilarityFileIdTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
  
 
  

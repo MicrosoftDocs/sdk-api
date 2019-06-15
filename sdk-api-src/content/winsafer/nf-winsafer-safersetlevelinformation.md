@@ -64,7 +64,7 @@ The handle of the level to be set.
 
 ### -param dwInfoType [in]
 
-A <a href="https://msdn.microsoft.com/31de9e42-6795-433a-937f-c4243e4961df">SAFER_OBJECT_INFO_CLASS</a> enumeration value that specifies the type of object information that should be set.  The specified value determines the size and type of the <i>lpQueryBuffer</i> parameter. The following table shows the possible values.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ne-winsafer-_safer_object_info_class">SAFER_OBJECT_INFO_CLASS</a> enumeration value that specifies the type of object information that should be set.  The specified value determines the size and type of the <i>lpQueryBuffer</i> parameter. The following table shows the possible values.
 
 <table>
 <tr>
@@ -142,7 +142,7 @@ The size, in bytes, of the <i>lpQueryBuffer</i> parameter.
 
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

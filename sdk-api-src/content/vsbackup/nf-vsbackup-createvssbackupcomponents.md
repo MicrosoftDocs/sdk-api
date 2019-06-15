@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>CreateVssBackupComponents</b> function 
-    creates an <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> 
+    creates an <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> 
     interface object and returns a pointer to it.
 <div class="alert"><b>Note</b>  This function is exported as  <b>CreateVssBackupComponentsInternal</b>, but you should call <b>CreateVssBackupComponents</b>, not <b>CreateVssBackupComponentsInternal</b>.</div><div> </div>
 
@@ -64,7 +64,7 @@ The <b>CreateVssBackupComponents</b> function
 ### -param ppBackup [out]
 
 Doubly indirect pointer to the created 
-      <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> interface object.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface object.
 
 
 ## -returns
@@ -87,7 +87,7 @@ The return values listed here are in addition to the normal COM <b>HRESULT</b>s 
 </td>
 <td width="60%">
 Successfully returned a pointer to an 
-        <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> 
         interface.
 
 </td>
@@ -133,7 +133,7 @@ Out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. <b>E_UNEXPECTED</b> is used instead.
 
@@ -149,9 +149,9 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the 
     resources held by the returned 
-    <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> when it is no 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> when it is no 
     longer needed.
 
 
@@ -162,7 +162,7 @@ The calling application is responsible for calling <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
  
 
  

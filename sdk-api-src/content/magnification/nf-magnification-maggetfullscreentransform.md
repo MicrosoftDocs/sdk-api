@@ -83,7 +83,7 @@ The y-coordinate offset for the upper-left corner of the unmagnified view.  The 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
@@ -127,7 +127,7 @@ The following code snippet retrieves the magnification value and offsets for the
 
 
 
-<a href="https://msdn.microsoft.com/B02C2A37-6BA6-4DF8-92C1-748BF7B25B96">MagSetFullscreenTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetfullscreentransform">MagSetFullscreenTransform</a>
  
 
  

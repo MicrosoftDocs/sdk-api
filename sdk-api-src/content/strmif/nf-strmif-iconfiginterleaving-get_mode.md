@@ -63,7 +63,7 @@ The <code>get_Mode</code> method retrieves the interleaving quality setting.
 
 ### -param pMode [out]
 
-Receives the interleaving quality, specified as a member of the <a href="https://msdn.microsoft.com/4011b1e4-4bcf-4a2e-9d9a-ccdc8e12cd5a">InterleavingMode</a> enumeration.
+Receives the interleaving quality, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-interleavingmode">InterleavingMode</a> enumeration.
 
 
 ## -returns
@@ -80,15 +80,15 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/68594752-a711-4372-95db-10947bd2ce39">IConfigInterleaving Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iconfiginterleaving">IConfigInterleaving Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/62b06dc2-2e71-4a14-82e5-63e921a3c11f">IConfigInterleaving::put_Mode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_mode">IConfigInterleaving::put_Mode</a>
  
 
  

@@ -87,21 +87,21 @@ The ClearType level to be set for the new rendering parameters object.
 
 ### -param pixelGeometry
 
-Type: <b><a href="https://msdn.microsoft.com/de84b37b-bcb1-432c-8876-d84eaa0e30e0">DWRITE_PIXEL_GEOMETRY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_pixel_geometry">DWRITE_PIXEL_GEOMETRY</a></b>
 
 Represents the internal structure of a device pixel (that is, the physical arrangement of red, green, and blue color components) that is assumed for purposes of rendering text.
 
 
 ### -param renderingMode
 
-Type: <b><a href="https://msdn.microsoft.com/c6b2c15a-be22-49ce-affd-1369e23f4d6b">DWRITE_RENDERING_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_rendering_mode">DWRITE_RENDERING_MODE</a></b>
 
 A value that represents the method (for example, ClearType natural quality) for rendering glyphs.
 
 
 ### -param renderingParams [out]
 
-Type: <b><a href="https://msdn.microsoft.com/3A69E77A-5C22-422E-AC50-4EB9A0A472FE">IDWriteRenderingParams1</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwriterenderingparams1">IDWriteRenderingParams1</a>**</b>
 
 When this method returns, contains an address of a pointer to the newly created rendering parameters object.
 
@@ -122,7 +122,7 @@ Standard HRESULT error code.
 
 
 
-<a href="https://msdn.microsoft.com/43FA7E32-FFAD-4F26-A225-811C2CC507DF">IDWriteFactory1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefactory1">IDWriteFactory1</a>
  
 
  

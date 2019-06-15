@@ -100,7 +100,7 @@ For a null pointer value or a nil UUID for this parameter, the returned binding 
 ### -param BindingMaxCount
 
 Maximum number of bindings to return in the <i>BindingVec</i> parameter from the 
-<a href="https://msdn.microsoft.com/068913fb-f9ca-4e03-93d7-3484ba43472e">RpcNsBindingLookupNext</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a> function. 
 
 
 
@@ -111,8 +111,8 @@ Specify a value of zero to use the default count of RPC_C_BINDING_MAX_COUNT_DEFA
 ### -param LookupContext
 
 Returns a pointer to a name-service handle for use with the 
-<a href="https://msdn.microsoft.com/068913fb-f9ca-4e03-93d7-3484ba43472e">RpcNsBindingLookupNext</a> and 
-<a href="https://msdn.microsoft.com/bf272b29-8594-428a-947c-cc91ddfb4538">RpcNsBindingLookupDone</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone">RpcNsBindingLookupDone</a> functions.
 
 
 ## -returns
@@ -205,7 +205,7 @@ Invalid object.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -218,7 +218,7 @@ The
 <b>RpcNsBindingLookupBegin</b> function creates a lookup context for locating client-compatible binding handles to servers that offer the specified interface and object.
 
 Before calling 
-<a href="https://msdn.microsoft.com/068913fb-f9ca-4e03-93d7-3484ba43472e">RpcNsBindingLookupNext</a>, the client application must first call 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>, the client application must first call 
 <b>RpcNsBindingLookupBegin</b> to create a lookup context. The parameters to this function control the operation of the 
 <b>RpcNsBindingLookupNext</b> function.
 
@@ -235,7 +235,7 @@ Note that if the entry exists in the Active Directory, but there is no informati
 </li>
 </ul>
 When finished locating binding handles, the client application calls the 
-<a href="https://msdn.microsoft.com/bf272b29-8594-428a-947c-cc91ddfb4538">RpcNsBindingLookupDone</a> function to delete the lookup context.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone">RpcNsBindingLookupDone</a> function to delete the lookup context.
 
 
 
@@ -245,11 +245,11 @@ When finished locating binding handles, the client application calls the
 
 
 
-<a href="https://msdn.microsoft.com/bf272b29-8594-428a-947c-cc91ddfb4538">RpcNsBindingLookupDone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone">RpcNsBindingLookupDone</a>
 
 
 
-<a href="https://msdn.microsoft.com/068913fb-f9ca-4e03-93d7-3484ba43472e">RpcNsBindingLookupNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext">RpcNsBindingLookupNext</a>
  
 
  

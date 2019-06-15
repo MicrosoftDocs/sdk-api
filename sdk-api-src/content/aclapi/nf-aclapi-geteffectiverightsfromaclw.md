@@ -56,7 +56,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[<b>GetEffectiveRightsFromAcl</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the method demonstrated in the example below.]
 
 The <b>GetEffectiveRightsFromAcl</b> function retrieves the effective access rights that an 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure grants to a specified trustee. The trustee's effective access rights are the access rights that the <b>ACL</b> grants to the trustee or to any groups of which the trustee is a member.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure grants to a specified trustee. The trustee's effective access rights are the access rights that the <b>ACL</b> grants to the trustee or to any groups of which the trustee is a member.
 
 
 ## -parameters
@@ -67,19 +67,19 @@ The <b>GetEffectiveRightsFromAcl</b> function retrieves the effective access rig
 ### -param pacl [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure from which to get the trustee's effective access rights.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure from which to get the trustee's effective access rights.
 
 
 ### -param pTrustee [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure that identifies the trustee. A trustee can be a user, group, or program (such as a Windows service). You can use a name or a security identifier (<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>) to identify a trustee.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure that identifies the trustee. A trustee can be a user, group, or program (such as a Windows service). You can use a name or a security identifier (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>) to identify a trustee.
 
 
 ### -param pAccessRights [out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a> variable that receives the effective access rights of the trustee.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> variable that receives the effective access rights of the trustee.
 
 
 ## -returns
@@ -97,7 +97,7 @@ If the function fails, it returns a nonzero error code defined in WinError.h.
 
 
 
-The <b>GetEffectiveRightsFromAcl</b> function checks all access-allowed and access-denied <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entries</a> (ACEs) in the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL) to determine the effective rights for the trustee. For all ACEs that allow or deny rights to a group, <b>GetEffectiveRightsFromAcl</b> enumerates the members of the group to determine whether the trustee is a member. The function returns an error if it cannot enumerate the members of a group.
+The <b>GetEffectiveRightsFromAcl</b> function checks all access-allowed and access-denied <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) to determine the effective rights for the trustee. For all ACEs that allow or deny rights to a group, <b>GetEffectiveRightsFromAcl</b> enumerates the members of the group to determine whether the trustee is a member. The function returns an error if it cannot enumerate the members of a group.
 
 A trustee's group rights are enumerated by <b>GetEffectiveRightsFromAcl</b> on the local computer, even if the trustee is accessing objects on a remote computer. This function does not evaluate group rights on remote computers.
 
@@ -106,15 +106,15 @@ The <b>GetEffectiveRightsFromAcl</b>  function does not consider  the following:
 <ul>
 <li>Implicitly granted access rights, such as READ_CONTROL and WRITE_DAC, for the owner of an object when determining effective rights.</li>
 <li>Privileges held by the trustee when determining effective access rights.</li>
-<li>Group rights associated with the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>, such as interactive, network, authenticated users, and so forth, in determining effective access rights.</li>
-<li><a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">Resource manager</a> policy. For example, for file objects, Delete and Read attributes can be provided by the parent even if they have been denied on the object.</li>
+<li>Group rights associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>, such as interactive, network, authenticated users, and so forth, in determining effective access rights.</li>
+<li><a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">Resource manager</a> policy. For example, for file objects, Delete and Read attributes can be provided by the parent even if they have been denied on the object.</li>
 </ul>
 The <b>GetEffectiveRightsFromAcl</b> function fails and returns <b>ERROR_INVALID_ACL</b> if the specified ACL contains an inherited access-denied ACE.
 
 
 #### Examples
 
-The following example shows using <a href="https://msdn.microsoft.com/83df96ff-f3d6-43f8-88b2-6387914b3503">Authz API</a> to get effective access rights from an ACL.
+The following example shows using <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/using-authz-api">Authz API</a> to get effective access rights from an ACL.
 
 
 ```cpp
@@ -410,43 +410,43 @@ void wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/002a3fa7-02a3-4832-948e-b048f5f5818f">ACCESS_ALLOWED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d76a92d0-ccd0-4e73-98b6-43bcd661134d">ACCESS_DENIED_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/980b8242-2ba2-469f-b834-da7d3fb22e14">ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4381fe12-5fb3-4f9c-8daa-261cb1a466ec">GetAuditedPermissionsFromAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getauditedpermissionsfromacla">GetAuditedPermissionsFromAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
  
 
  

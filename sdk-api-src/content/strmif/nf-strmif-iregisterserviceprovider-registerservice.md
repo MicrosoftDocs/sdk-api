@@ -164,11 +164,11 @@ The Filter Graph Manager keeps a reference count on the service object until the
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/1097fa4c-d81d-4268-8492-c0d9f4888733">IRegisterServiceProvider Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iregisterserviceprovider">IRegisterServiceProvider Interface</a>
  
 
  

@@ -74,15 +74,15 @@ Vertical position.
 
 
 
-<a href="https://msdn.microsoft.com/d6dca744-634e-420f-a025-5be9d136969f">GetMonitorDisplayAreaPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareaposition">GetMonitorDisplayAreaPosition</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6ab74af-0ac4-4dfe-bbf8-21b8339d2826">Monitor Configuration Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad7604e5-5ede-479b-881e-0a6060182e5b">SetMonitorDisplayAreaPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareaposition">SetMonitorDisplayAreaPosition</a>
  
 
  

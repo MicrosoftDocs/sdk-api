@@ -52,11 +52,11 @@ ms.custom: 19H1
 Encapsulates content inside a viewport, where content represents a visual surface clipped inside the viewport.
 
 The content has a set of transforms that controls the visual movement of the surface during manipulation and inertia.
-<div class="alert"><b>Note</b>  When implementing a <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> object, ensure that the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms683614(v=VS.85).aspx">InterlockedIncrement</a> and <a href="https://msdn.microsoft.com/en-us/library/ms683580(v=VS.85).aspx">InterlockedDecrement</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  When implementing a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> object, ensure that the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implementation supports multithreading through thread-safe reference counting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedincrement">InterlockedIncrement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockeddecrement">InterlockedDecrement</a>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationContent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectManipulationContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationContent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirectManipulationContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26a5736e-633e-4451-a339-c5f88913bcf6">GetContentRect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-getcontentrect">GetContentRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the bounding rectangle of the content, relative to the bounding rectangle of the viewport (if defined).
@@ -80,7 +80,7 @@ Retrieves the bounding rectangle of the content, relative to the bounding rectan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9db4f521-227c-4e2f-8c7d-44ae4a25651e">GetContentTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-getcontenttransform">GetContentTransform</a>
 </td>
 <td align="left" width="63%">
     Retrieves the transform applied to the content.
@@ -89,7 +89,7 @@ Retrieves the bounding rectangle of the content, relative to the bounding rectan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8f746a4-650f-4f6d-8734-2e98f01898f2">GetOutputTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-getoutputtransform">GetOutputTransform</a>
 </td>
 <td align="left" width="63%">
 Gets the final transform applied to the content.
@@ -98,7 +98,7 @@ Gets the final transform applied to the content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11acda14-3932-43e4-b45e-e129886c354f">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tag object set on this content. 
@@ -107,7 +107,7 @@ Retrieves the tag object set on this content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b03545d2-73a4-4638-818a-34f5957408e4">GetViewport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-getviewport">GetViewport</a>
 </td>
 <td align="left" width="63%">
 Retrieves the viewport that contains the content.
@@ -116,7 +116,7 @@ Retrieves the viewport that contains the content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41b14e56-ba24-4ad2-9dac-28daf7d13c6a">SetContentRect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-setcontentrect">SetContentRect</a>
 </td>
 <td align="left" width="63%">
 Specifies the bounding rectangle of the content, relative to its viewport.
@@ -126,7 +126,7 @@ Specifies the bounding rectangle of the content, relative to its viewport.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0dce3dd-3fbf-41ea-ba70-8574701d101e">SetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-settag">SetTag</a>
 </td>
 <td align="left" width="63%">
 Specifies the tag object for the content. 
@@ -135,7 +135,7 @@ Specifies the tag object for the content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e70b208-05b5-4b84-a582-fd835acdd777">SyncContentTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-synccontenttransform">SyncContentTransform</a>
 </td>
 <td align="left" width="63%">
 Modifies the content transform while maintaining the output transform.
@@ -159,7 +159,7 @@ The system provides an implementation of <b>IDirectManipulationContent</b>.
 
 
 
-<a href="https://msdn.microsoft.com/03680CE5-A858-4876-B41C-6F2E08C02C22">Direct Manipulation Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
  
 
  

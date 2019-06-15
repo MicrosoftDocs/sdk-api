@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations. This enumeration is used with the <a href="https://msdn.microsoft.com/a384d24e-07e2-45e7-84b8-e791feb64a83">AVDecAACDownmixMode</a> property.
+Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avdecaacdownmixmode-property">AVDecAACDownmixMode</a> property.
 
 
 ## -enum-fields
@@ -72,11 +72,11 @@ Use the downmix equations defined by ARIB document STD-B21.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

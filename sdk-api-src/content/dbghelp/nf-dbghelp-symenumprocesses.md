@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates each process that has called the <a href="https://msdn.microsoft.com/fb1c98cb-6cd0-4218-aea4-384c24c66395">SymInitialize</a> function.
+Enumerates each process that has called the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Enumerates each process that has called the <a href="https://msdn.microsoft.com/
 
 ### -param EnumProcessesCallback [in]
 
-A <a href="https://msdn.microsoft.com/4748b2a3-0b7b-4d9c-96ed-c4b3ba927107">SymEnumProcessesProc</a> callback function that receives the process information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumprocesses_callback">SymEnumProcessesProc</a> callback function that receives the process information.
 
 
 ### -param UserContext [in]
@@ -75,7 +75,7 @@ If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -94,11 +94,11 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4748b2a3-0b7b-4d9c-96ed-c4b3ba927107">SymEnumProcessesProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumprocesses_callback">SymEnumProcessesProc</a>
  
 
  

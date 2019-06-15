@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Describes the changes found by the 
-    <a href="https://msdn.microsoft.com/90C2F258-094C-4A0E-80E7-3FA241D288EA">ReadDirectoryChangesExW</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a> function.
 
 
 ## -struct-fields
@@ -204,7 +204,7 @@ If there is both a short and long name for the file, the function will return on
 
 
 
-<a href="https://msdn.microsoft.com/90C2F258-094C-4A0E-80E7-3FA241D288EA">ReadDirectoryChangesExW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesexw">ReadDirectoryChangesExW</a>
  
 
  

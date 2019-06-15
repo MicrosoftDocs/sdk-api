@@ -87,7 +87,7 @@ When the <b>CloseTable</b> method returns, the table is always closed, even if t
 
 
 
-<a href="https://msdn.microsoft.com/0985e27c-aa70-43c1-bcec-00ef14f2df58">ISimilarityTraitsTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
  
 
  

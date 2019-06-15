@@ -58,22 +58,22 @@ The <b>IAMExtDevice</b> interface controls an external device, such as a DV came
 This interface controls basic device functions. Several other interfaces exist for controlling more specific functionality in a device:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/4ce48038-bfcf-4b1f-8053-3446929a5f06">IAMExtTransport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/76c3f603-8abc-450a-adb2-f2a90cb1634d">IAMTimecodeReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7fe74fc2-03bd-43dd-917f-ee0149f1e17f">IAMTimecodeGenerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2edfc260-5bb6-475d-b8af-252e7c7a8552">IAMTimecodeDisplay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodedisplay">IAMTimecodeDisplay</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMExtDevice</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMExtDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMExtDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMExtDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,7 +88,7 @@ The <b>IAMExtDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c760669-c494-45bb-994e-5b4599db7de4">Calibrate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-calibrate">Calibrate</a>
 </td>
 <td align="left" width="63%">
 Calibrates the device's transport mechanism.
@@ -97,7 +97,7 @@ Calibrates the device's transport mechanism.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/307ad6ee-1084-4a83-bb19-f766f2328a0d">get_DevicePort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-get_deviceport">get_DevicePort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the communication port to which the device is connected.
@@ -106,7 +106,7 @@ Retrieves the communication port to which the device is connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f25aac8-13ad-4ea2-96df-351da4729666">get_DevicePower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-get_devicepower">get_DevicePower</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device's power mode.
@@ -115,7 +115,7 @@ Retrieves the device's power mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2217b0b1-3663-438b-8951-d2d1d8404e9c">get_ExternalDeviceID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-get_externaldeviceid">get_ExternalDeviceID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the model number of the device.
@@ -124,7 +124,7 @@ Retrieves the model number of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66a98ad3-850a-4b41-a169-f971fde83266">get_ExternalDeviceVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-get_externaldeviceversion">get_ExternalDeviceVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version number of the device's operating software.
@@ -133,7 +133,7 @@ Retrieves the version number of the device's operating software.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4efed2b8-a62c-4a82-bc2d-c6d3a202263c">GetCapability</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-getcapability">GetCapability</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of the device.
@@ -142,7 +142,7 @@ Retrieves the capabilities of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb83ae40-875b-47c4-8e8e-944392ad0782">put_DevicePort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-put_deviceport">put_DevicePort</a>
 </td>
 <td align="left" width="63%">
 Specifies the communication port to which the device is connected.
@@ -151,7 +151,7 @@ Specifies the communication port to which the device is connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9cb0c200-aaf4-44fb-b217-6a44a36089b5">put_DevicePower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamextdevice-put_devicepower">put_DevicePower</a>
 </td>
 <td align="left" width="63%">
 Sets the device's power mode.
@@ -167,7 +167,7 @@ Sets the device's power mode.
 
 The DV device drivers require some additional constants that are defined in the header file Xprtdefs.h.
 
-For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://msdn.microsoft.com/fe1a14dc-b337-462b-ac2a-10eef036ef7f">PROPSETID_EXT_DEVICE</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documtenation.
+For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-ext-device">PROPSETID_EXT_DEVICE</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documtenation.
 
 <h3><a id="Hardware_Requirements"></a><a id="hardware_requirements"></a><a id="HARDWARE_REQUIREMENTS"></a>Hardware Requirements</h3>
 To control an external VCR, certain hardware requirements are recommended. VCRs with an RS-422 serial interface require a special serial port card or an external RS-232-to-RS-422 adapter. In addition, for best performance, your computer should have a serial port card built with a 16550 high-performance UART (Universal Asynchronous Receiver/Transmitter) to sustain higher baud rates, such as 38.4 baud.
@@ -180,7 +180,7 @@ To control an external VCR, certain hardware requirements are recommended. VCRs 
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

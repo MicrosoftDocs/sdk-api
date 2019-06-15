@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Determines how a stroke is removed from an <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+Determines how a stroke is removed from an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 
 
@@ -62,17 +62,17 @@ Determines how a stroke is removed from an <a href="https://msdn.microsoft.com/f
 
 ### -field IEF_CopyFromOriginal
 
-The ink is copied from the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+The ink is copied from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 
 ### -field IEF_RemoveFromOriginal
 
-The ink is cut from the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+The ink is cut from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 
 ### -field IEF_Default
 
-The ink is cut from the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object.
+The ink is cut from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 
 ## -remarks
@@ -89,11 +89,11 @@ This enumeration is a flag.
 
 
 
-<a href="https://msdn.microsoft.com/1cb109e5-5193-4022-a3b1-ade9be1337e8">ExtractStrokes Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b32467a8-a677-4a80-8029-d364e6e372c6">ExtractWithRectangle Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle">ExtractWithRectangle Method</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the type of offline activation for a license. This 	enumeration is used by the <b>type</b> member of the <a href="https://msdn.microsoft.com/8209652d-c40e-419b-9929-647f03fed79c">SL_ACTIVATION_INFO_HEADER</a> structure.
+Represents the type of offline activation for a license. This 	enumeration is used by the <b>type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a> structure.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ The product activation is through Active Directory.
 
 
 
-<a href="https://msdn.microsoft.com/8209652d-c40e-419b-9929-647f03fed79c">SL_ACTIVATION_INFO_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>
  
 
  

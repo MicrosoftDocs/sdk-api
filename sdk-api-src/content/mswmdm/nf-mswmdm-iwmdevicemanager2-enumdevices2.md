@@ -55,7 +55,7 @@ The <b>EnumDevices2</b> method retrieves an enumeration interface that is used t
 
 
 
-Microsoft strongly recommends that applications use the <b>EnumDevices2</b> method instead of <a href="https://msdn.microsoft.com/1daa6d36-9858-4504-a9a2-c0341031829b">IWMDeviceManager::EnumDevices</a>.
+Microsoft strongly recommends that applications use the <b>EnumDevices2</b> method instead of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices">IWMDeviceManager::EnumDevices</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Microsoft strongly recommends that applications use the <b>EnumDevices2</b> meth
 
 ### -param ppEnumDevice [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/fcb93d2a-2107-4aa9-9b3a-130044d7dc96">IWMDMEnumDevice</a> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
 
 
 ## -returns
@@ -79,7 +79,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -90,7 +90,7 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 This method returns an enumerator that takes advantage of the Plug and Play (PnP) system for a faster enumeration and lower memory use. For PnP-complaint service providers, it loads in memory only those service providers that have a device currently connected to the computer, and requests only those service providers to create device objects.
 
-This method returns a snapshot of the devices connected when the underlying object was first created. To ensure that the device list is up to date, call <a href="https://msdn.microsoft.com/9eabf5ff-96e1-426f-ae31-197a2165a743">Reinitialize</a> before calling this method.
+This method returns a snapshot of the devices connected when the underlying object was first created. To ensure that the device list is up to date, call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-reinitialize">Reinitialize</a> before calling this method.
 
 
 #### Examples
@@ -139,15 +139,15 @@ if (hr == S_OK)
 
 
 
-<a href="https://msdn.microsoft.com/c5935681-b530-4446-a026-7ddc74084d23">Enumerating Devices</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
 
 
 
-<a href="https://msdn.microsoft.com/fcb93d2a-2107-4aa9-9b3a-130044d7dc96">IWMDMEnumDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea4bf623-c93a-4c0f-a84f-e3a979b37d60">IWMDeviceManager2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
  
 
  

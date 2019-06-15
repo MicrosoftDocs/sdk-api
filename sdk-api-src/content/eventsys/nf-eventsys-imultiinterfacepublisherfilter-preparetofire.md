@@ -69,7 +69,7 @@ The name of the event method to be fired.
 
 ### -param firingControl [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/1db216b8-f334-4fa2-81db-0f6c1646b320">IFiringControl</a> interface on the firing control object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a> interface on the firing control object.
 
 
 ## -returns
@@ -95,7 +95,7 @@ Prior to invoking the application event interface method, the event object invok
 
 
 
-<a href="https://msdn.microsoft.com/f20f778b-fdd5-4c34-871b-d03cd1cd31cc">IMultiInterfacePublisherFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
  
 
  

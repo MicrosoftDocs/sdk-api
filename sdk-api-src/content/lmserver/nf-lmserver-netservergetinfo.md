@@ -83,7 +83,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the server name and platform information. The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/b027a669-b4d8-4d42-aedc-94834bf099da">SERVER_INFO_100</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_100">SERVER_INFO_100</a> structure.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Return the server name and platform information. The <i>bufptr</i> parameter poi
 </td>
 <td width="60%">
 Return the server name, type, and associated software. The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/6e106a51-9f0c-4603-8121-5b0d01a235b4">SERVER_INFO_101</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a> structure.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Return the server name, type, and associated software. The <i>bufptr</i> paramet
 </td>
 <td width="60%">
 Return the server name, type, associated software, and other attributes. The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/4c63fee7-1103-414d-b650-da87f8184e91">SERVER_INFO_102</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a> structure.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Pointer to the buffer that receives the data. The format of this data depends on
 
 
 This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 
 ## -returns
@@ -195,14 +195,14 @@ Only the Administrators or Server Operators local group, or those with Print or 
 <b>NetServerGetInfo</b> function at level 102. No special group membership is required for level 100 or level 101 calls.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management server functions. For more information, see 
-<a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
 
 #### Examples
 
 The following code sample demonstrates how to retrieve current configuration information for a server using a call to the 
 <b>NetServerGetInfo</b> function. The sample calls 
-<b>NetServerGetInfo</b>, specifying information level 101 (<a href="https://msdn.microsoft.com/6e106a51-9f0c-4603-8121-5b0d01a235b4">SERVER_INFO_101</a>). If the call succeeds, the code attempts to identify the type of server. Finally, the sample frees the memory allocated for the information buffer.
+<b>NetServerGetInfo</b>, specifying information level 101 (<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a>). If the call succeeds, the code attempts to identify the type of server. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -277,37 +277,37 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/e807489a-250e-4d4c-adb6-eff8ac30603b">NetRemoteComputerSupports</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmremutl/nf-lmremutl-netremotecomputersupports">NetRemoteComputerSupports</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a04a43d-34f9-4a08-ac66-750120792af0">NetServerSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserversetinfo">NetServerSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b027a669-b4d8-4d42-aedc-94834bf099da">SERVER_INFO_100</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_100">SERVER_INFO_100</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e106a51-9f0c-4603-8121-5b0d01a235b4">SERVER_INFO_101</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_101">SERVER_INFO_101</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c63fee7-1103-414d-b650-da87f8184e91">SERVER_INFO_102</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-_server_info_102">SERVER_INFO_102</a>
 
 
 
-<a href="https://msdn.microsoft.com/43e1285b-8c86-4af4-9834-fcd5ee8aceb8">Server
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
  
 

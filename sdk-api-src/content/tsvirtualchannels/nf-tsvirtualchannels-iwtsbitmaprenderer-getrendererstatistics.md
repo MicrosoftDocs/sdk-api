@@ -59,10 +59,10 @@ Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 
 ### -param pStatistics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh994460(v=VS.85).aspx">BITMAP_RENDERER_STATISTICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>*</b>
 
 The address of a 
-      <a href="https://msdn.microsoft.com/en-us/library/Hh994460(v=VS.85).aspx">BITMAP_RENDERER_STATISTICS</a> structure 
+      <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a> structure 
       that receives the bitmap rendering statistics.
 
 
@@ -82,11 +82,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh994460(v=VS.85).aspx">BITMAP_RENDERER_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/ns-tsvirtualchannels-__bitmap_renderer_statistics">BITMAP_RENDERER_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6930683e-bb9e-499c-b44f-27938faff3db">IWTSBitmapRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderer">IWTSBitmapRenderer</a>
  
 
  

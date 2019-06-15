@@ -108,11 +108,11 @@ Display the video rectangle by stretching the width and height as much as possib
 
 
 
-<a href="https://msdn.microsoft.com/f3d5ed73-4781-46fb-8df4-a7dc339b755c">IMSVidCtl::get_DisplaySize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_displaysize">IMSVidCtl::get_DisplaySize</a>
 
 
 
-<a href="https://msdn.microsoft.com/1771e66b-e5f3-44f5-a489-e57baaf5cf25">IMSVidCtl::put_DisplaySize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_displaysize">IMSVidCtl::put_DisplaySize</a>
  
 
  

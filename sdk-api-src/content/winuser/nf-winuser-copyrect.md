@@ -90,7 +90,7 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-d237247d1bd7">Using Rectangles</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
 
 <div class="code"></div>
 
@@ -105,19 +105,19 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/b03da8c9-ee6d-4045-8d90-8beceb09ead5">Rectangle Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/23c251d1-b8c5-425f-b2b3-44954cf653e9">Rectangles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/346c573b-eaf7-4ca6-bd36-18074f7eccf5">SetRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setrect">SetRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3c677ae-e45c-4d54-8521-75954a466a68">SetRectEmpty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setrectempty">SetRectEmpty</a>
  
 
  

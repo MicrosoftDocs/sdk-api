@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calculates the wire size of the <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> object, and gets its handle and data.
+Calculates the wire size of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> object, and gets its handle and data.
 
 
 ## -parameters

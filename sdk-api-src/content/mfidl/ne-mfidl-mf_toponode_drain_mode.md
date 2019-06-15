@@ -80,11 +80,11 @@ The transform is never drained.
 
 
 
-<a href="https://msdn.microsoft.com/68332106-d1fe-467b-8baa-1e592b9cc243">MF_TOPONODE_DRAIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-drain-attribute">MF_TOPONODE_DRAIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

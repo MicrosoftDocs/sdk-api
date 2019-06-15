@@ -54,7 +54,7 @@ Represents a geometry resource and defines a set of helper methods for manipulat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Geometry</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1Geometry</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Geometry</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Geometry</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,9 +69,9 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bb45c54-c551-4b54-ae91-41d2c57b9570">CombineWithGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-combinewithgeometry">CombineWithGeometry</a>
 </td>
-<td align="left" width="63%">Overloaded. Combines this geometry with the specified geometry and stores the result in an <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>. 
+<td align="left" width="63%">Overloaded. Combines this geometry with the specified geometry and stores the result in an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>. 
 
 
 
@@ -79,7 +79,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75ddd674-b50b-4d34-b291-9e7e65828304">CompareWithGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-comparewithgeometry">CompareWithGeometry</a>
 </td>
 <td align="left" width="63%">Overloaded. Describes the intersection between this geometry and the specified geometry. 
 
@@ -87,7 +87,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/655f11bc-7435-4d23-b4b1-3d7c2110aa48">ComputeArea</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-computearea">ComputeArea</a>
 </td>
 <td align="left" width="63%">Overloaded. Computes the area of the geometry.
 
@@ -95,7 +95,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4659d880-0aa3-485d-ac71-044d9ace6759">ComputeLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-computelength">ComputeLength</a>
 </td>
 <td align="left" width="63%">Overloaded. Calculates the length of the geometry as though each segment were unrolled into a line.
 
@@ -103,7 +103,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b76aa3db-2967-4baa-a449-f664b080fb74">ComputePointAtLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-computepointatlength">ComputePointAtLength</a>
 </td>
 <td align="left" width="63%">Overloaded. Calculates the point and  tangent vector at the specified distance along the geometry.
 
@@ -111,7 +111,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/533a4423-8494-425f-af8b-674a2abc897c">FillContainsPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-fillcontainspoint">FillContainsPoint</a>
 </td>
 <td align="left" width="63%">Overloaded. Indicates whether the area filled by the geometry would contain the specified point.
 
@@ -119,7 +119,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742751(v=VS.85).aspx">GetBounds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-getbounds">GetBounds</a>
 </td>
 <td align="left" width="63%">Overloaded. Retrieves the bounds of the geometry.
 
@@ -127,7 +127,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1790ff9d-cb30-4cd4-af0d-385a37cad043">GetWidenedBounds</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-getwidenedbounds">GetWidenedBounds</a>
 </td>
 <td align="left" width="63%">Overloaded. Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.
 
@@ -135,9 +135,9 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec92db79-a1aa-4661-9e75-45a1763af370">Outline</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-outline">Outline</a>
 </td>
-<td align="left" width="63%">Overloaded. Computes the outline of the geometry and writes the result to an <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>.
+<td align="left" width="63%">Overloaded. Computes the outline of the geometry and writes the result to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>.
 
 
 
@@ -145,15 +145,15 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6d1d701-c148-4d5b-bf47-00b355bb03ad">Simplify</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-simplify">Simplify</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>.
+<td align="left" width="63%">Overloaded. Creates a simplified version of the geometry that contains only lines and (optionally) cubic Bezier curves and writes the result to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a2b058b-4bab-4fa1-ad98-09d3bd32f5ff">StrokeContainsPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-strokecontainspoint">StrokeContainsPoint</a>
 </td>
 <td align="left" width="63%">Overloaded. Determines whether the geometry's stroke contains the specified point.
 
@@ -163,7 +163,7 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e0af188-d14b-43c0-be11-16577f054b90">Tessellate</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-tessellate">Tessellate</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a set of clockwise-wound triangles that cover the geometry after it has been transformed using the specified matrix and flattened using the specified tolerance.
 
@@ -171,9 +171,9 @@ The <b>ID2D1Geometry</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c951ab85-7980-41e3-95c4-291d2fb046c8">Widen</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1geometry-widen">Widen</a>
 </td>
-<td align="left" width="63%">Overloaded. Widens the geometry by the specified stroke and writes the result to an <a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>.
+<td align="left" width="63%">Overloaded. Widens the geometry by the specified stroke and writes the result to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>.
 
 </td>
 </tr>
@@ -184,11 +184,11 @@ The <b>ID2D1Geometry</b> interface has these methods.
 
 
 
-There are several types of Direct2D geometry objects:  a  simple geometry (<a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>, <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>, or <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a>), a path geometry (<a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>), or a composite geometry (<a href="https://msdn.microsoft.com/15c3800c-b57c-4c3c-995f-407beee4cc99">ID2D1GeometryGroup</a> and <a href="https://msdn.microsoft.com/5d48eab6-1229-4e54-bfab-602b471b23a4">ID2D1TransformedGeometry</a>).
+There are several types of Direct2D geometry objects:  a  simple geometry (<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>), a path geometry (<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>), or a composite geometry (<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>).
 
  Direct2D geometries enable you to  describe two-dimensional figures and also offer  many uses, such as defining  hit-test regions,  clip regions, and even   animation paths.
 
-Direct2D geometries are immutable and device-independent resources created by <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
+Direct2D geometries are immutable and device-independent resources created by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
 
@@ -198,11 +198,11 @@ Direct2D geometries are immutable and device-independent resources created by <a
 
 
 
-<a href="https://msdn.microsoft.com/aaf16fa7-23fd-4020-ae4c-b7832040732d">Geometry Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/geometries">Geometry Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
  
 
  

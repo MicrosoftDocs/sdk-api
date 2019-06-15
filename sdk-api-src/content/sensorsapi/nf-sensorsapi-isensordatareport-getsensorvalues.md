@@ -134,7 +134,7 @@ When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more
 
 
 
-<a href="https://msdn.microsoft.com/c677b956-e3ab-477c-b97b-aceec4e2d235">ISensorDataReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
  
 
  

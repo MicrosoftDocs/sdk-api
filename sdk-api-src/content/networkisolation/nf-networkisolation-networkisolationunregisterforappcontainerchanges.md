@@ -83,7 +83,7 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/2affb2a8-224c-4d2d-86e2-f194d3990dbe">NetworkIsolationRegisterForAppContainerChanges</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges">NetworkIsolationRegisterForAppContainerChanges</a>
  
 
  

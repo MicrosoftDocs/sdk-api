@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptGetObjectUrl</b> function acquires the URL of the remote object from a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL), or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
+The <b>CryptGetObjectUrl</b> function acquires the URL of the remote object from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 The function takes the object, decodes it, and provides a pointer to an array of URLs from the object. For example, from a certificate, a CRL distribution list of URLs would be in the array.
 
@@ -61,7 +61,7 @@ The function takes the object, decodes it, and provides a pointer to an array of
 
 ### -param pszUrlOid [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that identifies the URL being requested. If the <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> of the <i>pszUrlOid</i> parameter is zero, the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that identifies the URL being requested. If the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a> of the <i>pszUrlOid</i> parameter is zero, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> specifies the integer identifier for the type of the specified structure. 
 
 
 
@@ -82,7 +82,7 @@ This parameter can be one of the following values. For information about how the
 Provides the URL of the certificate issuer retrieved from the authority information access extension or property of a certificate.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that was issued by the issuer whose URL is being requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that was issued by the issuer whose URL is being requested.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of URLs of the CRL distribution points retrieved from the CRL distribution point extension or property of a certificate.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure whose CRL distribution point is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose CRL distribution point is requested.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of OCSP and CRL distribution point URLs from the authority information access (AIA)   and CRL distribution point extensions or properties of a certificate. The function returns any CRL distribution point URLs first. Before using any OCSP URLs, you must remove the L"ocsp:" prefix.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides an OCSP URL from the authority information access (AIA)   extension or property of a certificate.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure whose OCSP URL is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP URL is requested.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of OCSP and CRL distribution point URLs from the authority information access (AIA)   and CRL distribution point extensions or properties of a certificate. The function returns any OCSP URLs first. Before using any OCSP URLs, you must remove the L"ocsp:" prefix.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP and CRL distribution point URLs are requested.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides a list of OCSP URLs from the authority information access (AIA)  extension or property of a certificate. Before using any OCSP URLs, you must remove the L"ocsp:" prefix.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure whose OCSP URLs are requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure whose OCSP URLs are requested.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ For the <i>pvPara</i> parameter: A pointer to a
 Provides the URL of the CTL issuer retrieved from an authority information access attribute method encoded in each signer information in the PKCS #7 CTL.
 
 For the <i>pvPara</i> parameter: A pointer to a Signer Index 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure that was issued by the issuer whose URL, identified by the signer index, is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure that was issued by the issuer whose URL, identified by the signer index, is requested.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ For the <i>pvPara</i> parameter: A pointer to a Signer Index
 Provides the URL of the next update of that CTL retrieved from an authority information access CTL extension, property, or signer information attribute method.
 
 For the <i>pvPara</i> parameter: A pointer to a Signer Index 
-<a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure whose next update URL is requested, and an optional signer index, in case it is needed to check the signer information attributes.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure whose next update URL is requested, and an optional signer index, in case it is needed to check the signer information attributes.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ For the <i>pvPara</i> parameter: A pointer to a Signer Index
 Provides the URL of the CRL issuer retrieved from a property on a CRL that was inherited from the subject certificate (either from the subject certificate issuer or the subject certificate distribution point extension). It is encoded as an authority information access extension method.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> structure that was issued by the issuer whose URL is requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> structure that was issued by the issuer whose URL is requested.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ For the <i>pvPara</i> parameter: The PCCERT_CONTEXT of a certificate whose most 
 Retrieves the most recent CRL extension or property of the CRL.
 
 For the <i>pvPara</i> parameter: A pointer to a 
-<a href="https://msdn.microsoft.com/e88781f0-8474-47d3-8218-de95f7eadf04">CERT_CRL_CONTEXT_PAIR</a> structure that contains the base CRL of a certificate whose most recent CRL distribution point is being requested.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_crl_context_pair">CERT_CRL_CONTEXT_PAIR</a> structure that contains the base CRL of a certificate whose most recent CRL distribution point is being requested.
 
 </td>
 </tr>
@@ -307,7 +307,7 @@ A pointer to a buffer to receive the data for the value entry. This parameter ca
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 					
 
 
@@ -319,7 +319,7 @@ A pointer to a <b>DWORD</b> that specifies the size, in bytes, of the buffer poi
 ### -param pUrlInfo [out]
 
 An optional pointer to a 
-<a href="https://msdn.microsoft.com/58289a66-6580-468c-b001-5da08cf6d4a9">CRYPT_URL_INFO</a> structure that receives the data for the value entry.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_url_info">CRYPT_URL_INFO</a> structure that receives the data for the value entry.
 
 
 ### -param pcbUrlInfo [in, out]
@@ -344,7 +344,7 @@ Reserved for future use and must be <b>NULL</b>.
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -354,7 +354,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Remote Object Retrieval Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Remote Object Retrieval Functions</a>
  
 
  

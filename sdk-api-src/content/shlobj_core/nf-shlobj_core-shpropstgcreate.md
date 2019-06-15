@@ -61,16 +61,16 @@ Ensures proper handling of code page retrieval or assignment for the requested p
 
 ### -param psstg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
 
 
 ### -param fmtid [in]
 
 Type: <b>REFFMTID</b>
 
-A property set ID to open. The values for this parameter can be either one of those defined in <a href="https://msdn.microsoft.com/cc99ce1b-beb5-4340-91ed-3aed5bdad2bd">Predefined Property Set Format Identifiers</a> or any other FMTID that you register.
+A property set ID to open. The values for this parameter can be either one of those defined in <a href="https://docs.microsoft.com/windows/desktop/Stg/predefined-property-set-format-identifiers">Predefined Property Set Format Identifiers</a> or any other FMTID that you register.
 
 
 ### -param pclsid [in, optional]
@@ -84,14 +84,14 @@ A pointer to the CLSID associated with the set. This parameter can be <b>NULL</b
 
 Type: <b>DWORD</b>
 
-One or more members of the <a href="https://msdn.microsoft.com/library/Aa380069(v=VS.85).aspx">PROPSETFLAG</a> enumeration that determine how the property set is created and opened. All sets containing ANSI bytes should be created with PROPSETFLAG_ANSI, otherwise PROPSETFLAG_DEFAULT.
+One or more members of the <a href="https://docs.microsoft.com/windows/desktop/Stg/propsetflag-constants">PROPSETFLAG</a> enumeration that determine how the property set is created and opened. All sets containing ANSI bytes should be created with PROPSETFLAG_ANSI, otherwise PROPSETFLAG_DEFAULT.
 
 
 ### -param grfMode
 
 Type: <b>DWORD</b>
 
-The flags from the <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> enumeration that indicate conditions for creating and deleting the object and access modes for the object. Must contain STGM_DIRECT | STGM_SHARE_EXCLUSIVE.
+The flags from the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> enumeration that indicate conditions for creating and deleting the object and access modes for the object. Must contain STGM_DIRECT | STGM_SHARE_EXCLUSIVE.
 
 
 ### -param dwDisposition
@@ -125,9 +125,9 @@ Open the existing set.
 
 ### -param ppstg [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>**</b>
 
-When this method returns, contains an <a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface pointer.
+When this method returns, contains an <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface pointer.
 
 
 ### -param puCodePage [out, optional]

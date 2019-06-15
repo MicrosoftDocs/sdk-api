@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capGetMCIDeviceName</b> macro retrieves the name of an MCI device previously set with the <a href="https://msdn.microsoft.com/2dabc360-7f69-4dbb-9826-0657eec265ff">capSetMCIDeviceName</a> macro. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/c5d7d955-ab6a-4959-b79e-9ff35a282ba2">WM_CAP_GET_MCI_DEVICE</a> message.
+The <b>capGetMCIDeviceName</b> macro retrieves the name of an MCI device previously set with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetmcidevicename">capSetMCIDeviceName</a> macro. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-mci-device">WM_CAP_GET_MCI_DEVICE</a> message.
 
 
 
@@ -80,11 +80,11 @@ Length, in bytes, of the buffer referenced by <i>szName</i> .
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

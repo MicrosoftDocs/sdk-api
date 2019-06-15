@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object for a story, by index, in a stories collection.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object for a story, by index, in a stories collection.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The range.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -86,7 +86,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The first story has an index of 1, and the last story  has an index equal to the count  retrieved by the <a href="https://msdn.microsoft.com/en-us/library/Bb773939(v=VS.85).aspx">ITextStoryRanges::GetCount</a> method. Negative index values count from the last story to the first; that is, an index of –1 gets the last story in the collection, and an index of –<i>count</i> gets the first story.
+The first story has an index of 1, and the last story  has an index equal to the count  retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">ITextStoryRanges::GetCount</a> method. Negative index values count from the last story to the first; that is, an index of –1 gets the last story in the collection, and an index of –<i>count</i> gets the first story.
 
 
 
@@ -96,7 +96,7 @@ The first story has an index of 1, and the last story  has an index equal to the
 
 
 
-<a href="https://msdn.microsoft.com/24e2dd79-8054-44e3-aa68-778a96e2f66a">ITextStoryRanges2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges2">ITextStoryRanges2</a>
  
 
  

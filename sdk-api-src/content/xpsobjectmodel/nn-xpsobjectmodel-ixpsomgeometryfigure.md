@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Describes one portion of the path or clipping region that is specified by an <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface.
+Describes one portion of the path or clipping region that is specified by an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMGeometryFigure</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsOMGeometryFigure</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMGeometryFigure</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMGeometryFigure</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXpsOMGeometryFigure</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97876b95-7b68-4c91-ab15-0708bad3876f">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a deep copy of the interface.
@@ -78,7 +78,7 @@ Makes a deep copy of the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7ab38b8-b378-4804-9d07-4644161b1450">GetIsClosed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getisclosed">GetIsClosed</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the figure is closed.
@@ -87,7 +87,7 @@ Gets a value that indicates whether the figure is closed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22da5239-c79f-4306-ad60-9b3e5bcae988">GetIsFilled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getisfilled">GetIsFilled</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the figure is filled.
@@ -96,17 +96,17 @@ Gets a value that indicates whether the figure is filled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/520e52ff-fb65-430f-972c-40ca2ab959b2">GetOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getowner">GetOwner</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a> interface that contains the geometry figure.
+Gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a> interface that contains the geometry figure.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17b302c0-31e3-460b-9771-3f293c94447a">GetSegmentCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentcount">GetSegmentCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of segments in the figure.
@@ -115,7 +115,7 @@ Gets the number of segments in the figure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2e6be6f-3a9d-4d39-875f-cd23bc82e74b">GetSegmentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata">GetSegmentData</a>
 </td>
 <td align="left" width="63%">
 Gets the segment data points for the geometry figure.
@@ -124,7 +124,7 @@ Gets the segment data points for the geometry figure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42b68a76-e7fe-49d2-9190-4a4d5e763052">GetSegmentDataCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdatacount">GetSegmentDataCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of segment data points in the figure.
@@ -133,17 +133,17 @@ Gets the number of segment data points in the figure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/497701aa-8738-43d1-830f-7a6c00cfa2cc">GetSegmentStrokePattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentstrokepattern">GetSegmentStrokePattern</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0012">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
             
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97832bcb-c193-48e2-84f5-21b9c5a55cc9">GetSegmentStrokes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentstrokes">GetSegmentStrokes</a>
 </td>
 <td align="left" width="63%">
 Gets stroke definitions for the figure's segments.
@@ -152,7 +152,7 @@ Gets stroke definitions for the figure's segments.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a440c227-33c9-42f9-8f4a-4cbe6281f9ad">GetSegmentTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a>
 </td>
 <td align="left" width="63%">
 Gets the types of segments in the figure.
@@ -161,7 +161,7 @@ Gets the types of segments in the figure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dbd829e-eaae-42f4-ae39-9ec35cbd3102">GetStartPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getstartpoint">GetStartPoint</a>
 </td>
 <td align="left" width="63%">
 Gets the starting point of the figure.
@@ -170,7 +170,7 @@ Gets the starting point of the figure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c839d2d-8887-464e-8052-b9092a41eeb3">SetIsClosed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setisclosed">SetIsClosed</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether the figure is closed.
@@ -179,7 +179,7 @@ Sets a value that indicates whether the figure is closed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18054987-35a9-4049-ba0f-1425e2e54ed3">SetIsFilled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setisfilled">SetIsFilled</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether the figure is filled.
@@ -188,7 +188,7 @@ Sets a value that indicates whether the figure is filled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e2a1a80-1eda-458f-b711-de56df7a98ac">SetSegments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setsegments">SetSegments</a>
 </td>
 <td align="left" width="63%">
 Sets the segment information and data points for the segments in the figure.
@@ -197,7 +197,7 @@ Sets the segment information and data points for the segments in the figure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9885c3d-06a0-4d25-81fc-cf0ef466a797">SetStartPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setstartpoint">SetStartPoint</a>
 </td>
 <td align="left" width="63%">
 Sets the starting point of the figure.
@@ -261,15 +261,15 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/d3f74c1e-49ef-40ee-a2f4-b6d198b57624">IXpsOMGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometry">IXpsOMGeometry</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9138dbc-5a9e-4653-bab2-71f6d716eba6">IXpsOMObjectFactory::CreateGeometryFigure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-creategeometryfigure">IXpsOMObjectFactory::CreateGeometryFigure</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316980(v=vs.85)">Interfaces</a>
 
 
 
@@ -277,7 +277,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0012">XPS_SEGMENT_STROKE_PATTERN</a>
  
 
  

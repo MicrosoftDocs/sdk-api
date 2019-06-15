@@ -54,7 +54,7 @@ Represents a font in a font collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont3</b> interface inherits from <a href="https://msdn.microsoft.com/4E3069AE-5882-4A26-A36D-BE7D7EE1B0C3">IDWriteFont2</a>. <b>IDWriteFont3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefont2">IDWriteFont2</a>. <b>IDWriteFont3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFont3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/451B8B33-4EA5-4BE3-A126-AAC01D35CE35">CreateFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefont3-createfontface">CreateFontFace</a>
 </td>
 <td align="left" width="63%">
 Creates a font face object for the font.
@@ -78,7 +78,7 @@ Creates a font face object for the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4C537868-F655-457F-9B70-FA7633CF714C">Equals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefont3-equals">Equals</a>
 </td>
 <td align="left" width="63%">
 Compares two instances of font references for equality.
@@ -87,7 +87,7 @@ Compares two instances of font references for equality.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8939ADA0-B2D9-4489-B9AC-EA37776F6340">GetFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefont3-getfontfacereference">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a font face reference that identifies this font.
@@ -96,7 +96,7 @@ Gets a font face reference that identifies this font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B7CD16AE-77A3-4C3C-91B7-3AD32DCF68C0">GetLocality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefont3-getlocality">GetLocality</a>
 </td>
 <td align="left" width="63%">
 Gets the current locality of the font.
@@ -111,7 +111,7 @@ Gets the current locality of the font.
 
 
 
-<a href="https://msdn.microsoft.com/4E3069AE-5882-4A26-A36D-BE7D7EE1B0C3">IDWriteFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefont2">IDWriteFont2</a>
  
 
  

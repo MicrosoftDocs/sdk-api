@@ -59,7 +59,7 @@ Retrieves the current write protect state of the media in the device.
 
 ### -param value [out]
 
-The current write protect state of the media in the device. For possible values, see the <a href="https://msdn.microsoft.com/fe58b469-0294-49b6-bfcf-7632de36833e">IMAPI_MEDIA_WRITE_PROTECT_STATE</a> enumeration type. 
+The current write protect state of the media in the device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_media_write_protect_state">IMAPI_MEDIA_WRITE_PROTECT_STATE</a> enumeration type. 
 
 Note that more than one state can be set.
 
@@ -359,7 +359,7 @@ Value: 0xC0AA0210
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
  
 
  

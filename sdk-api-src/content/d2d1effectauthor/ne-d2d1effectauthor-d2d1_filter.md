@@ -112,7 +112,7 @@ Use anisotropic interpolation for minification, magnification, and mip-level sam
 
 
 
-This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b36">D3D11_FILTER</a>.
+This enumeration has the same numeric values as <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_filter">D3D11_FILTER</a>.
 
 
 
@@ -122,7 +122,7 @@ This enumeration has the same numeric values as <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/873b7910-4686-4f0c-a674-2aa3585a9b36">D3D11_FILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_filter">D3D11_FILTER</a>
  
 
  

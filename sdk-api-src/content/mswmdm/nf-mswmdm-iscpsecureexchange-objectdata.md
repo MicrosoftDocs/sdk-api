@@ -152,7 +152,7 @@ An unspecified error occurred.
 
 
 
-To transfer data, Windows Media Device Manager calls the <a href="https://msdn.microsoft.com/97b55751-b45e-4204-87e2-1e653d55a718">TransferContainerData</a> method to obtain the container data. <b>ObjectData</b> is then called to transfer blocks of object data from the secure content provider to Windows Media Device Manager. If S_OK is returned with <i>pdwSize</i> set to zero, Windows Media Device Manager will request no further data.
+To transfer data, Windows Media Device Manager calls the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">TransferContainerData</a> method to obtain the container data. <b>ObjectData</b> is then called to transfer blocks of object data from the secure content provider to Windows Media Device Manager. If S_OK is returned with <i>pdwSize</i> set to zero, Windows Media Device Manager will request no further data.
 
 
 
@@ -162,7 +162,7 @@ To transfer data, Windows Media Device Manager calls the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/8c61e1a0-18fc-4ae9-881a-0362166012d9">ISCPSecureExchange Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
  
 
  

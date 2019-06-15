@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Default constructor for <code>XMCOLOR</code>
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.</div><div> </div>
 
@@ -81,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4192
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419292(v=VS.85).aspx">XMCOLOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415264(v=VS.85).aspx">XMCOLOR Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
  
 
  

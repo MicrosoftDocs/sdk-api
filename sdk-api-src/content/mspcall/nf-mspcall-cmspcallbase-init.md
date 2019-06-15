@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Init</b> method is called by the MSP address object (in the method 
-<a href="https://msdn.microsoft.com/56ed10e3-e711-43ae-aad6-65a5992fca0f">CreateMSPCall</a>) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ Reserved.
 ### -param dwMediaType
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">Media type</a> or types of call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
 
 
 ## -see-also
@@ -85,15 +85,15 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726496(v=VS.85).aspx">CMSPCallBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726574(v=VS.85).aspx">CMSPCallMultiGraph::Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-init">CMSPCallMultiGraph::Init</a>
 
 
 
-<a href="https://msdn.microsoft.com/56ed10e3-e711-43ae-aad6-65a5992fca0f">CreateMSPCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>
  
 
  

@@ -70,12 +70,12 @@ The <b>QueryAllTraces</b> function retrieves the properties
 ### -param PropertyArray [out]
 
 An array of pointers to 
-       <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> structures that receive 
+       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structures that receive 
        session properties and statistics for the event tracing sessions.
 
 You only need to set the <b>Wnode.BufferSize</b>, 
        <b>LoggerNameOffset</b> , and <b>LogFileNameOffset</b>  members of the 
-       <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> structure. The other 
+       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. The other 
        members should all be set to zero.
 
 
@@ -97,7 +97,7 @@ Actual number of event tracing sessions started on the computer.
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -153,7 +153,7 @@ This function retrieves the trace sessions that the caller has permissions to qu
 This function does not return private logging sessions.
 
 To retrieve information for a single session, use the 
-    <a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a> function and set the 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function and set the 
     <i>ControlCode</i> parameter to <b>EVENT_TRACE_CONTROL_QUERY</b>.
 
 
@@ -264,15 +264,15 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a9e2f53-9916-4a9c-a08e-c8affd5fc4c9">EnumerateTraceGuids</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>
  
 
  

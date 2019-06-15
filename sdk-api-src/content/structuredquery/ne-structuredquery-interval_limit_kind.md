@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-These values are returned by <a href="https://msdn.microsoft.com/en-us/library/Bb231367(v=VS.85).aspx">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
+These values are returned by <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iinterval-getlimits">IInterval::GetLimits</a> as pairs to specify a range with an upper and lower limit. <b>INTERVAL_LIMIT_KIND</b> identifies whether the ranges include or exclude the upper and lower values of the range, and whether a range begins or ends in infinity.
 
 
 ## -enum-fields

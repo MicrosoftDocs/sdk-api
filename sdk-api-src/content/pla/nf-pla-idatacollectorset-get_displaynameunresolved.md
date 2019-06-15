@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-This property returns the display name as you originally set it in the <a href="https://msdn.microsoft.com/4be6d1a1-54de-45fa-8d00-36f8b95e30a5">IDataCollectorSet::DisplayName</a> property. Typically, you would use this property if you set the display name using the form @<i>binary</i>,#<i>id</i>.
+This property returns the display name as you originally set it in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displayname">IDataCollectorSet::DisplayName</a> property. Typically, you would use this property if you set the display name using the form @<i>binary</i>,#<i>id</i>.
 
 
 
@@ -72,11 +72,11 @@ This property returns the display name as you originally set it in the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/4be6d1a1-54de-45fa-8d00-36f8b95e30a5">IDataCollectorSet::DisplayName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displayname">IDataCollectorSet::DisplayName</a>
  
 
  

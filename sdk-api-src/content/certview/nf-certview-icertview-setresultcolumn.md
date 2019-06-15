@@ -71,7 +71,7 @@ A zero-based index of a column to include in the result set.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -80,13 +80,13 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-Before calling the <b>SetResultColumn</b> method, the <a href="https://msdn.microsoft.com/f98b2f45-be9f-47ba-9c6b-63a2912288ac">SetResultColumnCount</a> method must be called to specify how many columns will be in the result set. Calls to the <b>SetResultColumn</b> method will fail under the following conditions:
+Before calling the <b>SetResultColumn</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a> method must be called to specify how many columns will be in the result set. Calls to the <b>SetResultColumn</b> method will fail under the following conditions:
 
 <ul>
 <li>The number of columns has not been specified.</li>
-<li><b>SetResultColumn</b> is called more times than the number of columns specified by the call to <a href="https://msdn.microsoft.com/f98b2f45-be9f-47ba-9c6b-63a2912288ac">SetResultColumnCount</a>.</li>
+<li><b>SetResultColumn</b> is called more times than the number of columns specified by the call to <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a>.</li>
 <li>
-<a href="https://msdn.microsoft.com/f98b2f45-be9f-47ba-9c6b-63a2912288ac">SetResultColumnCount</a> specified a predefined set of columns.  This method specifies a predefined set of columns when its <i>cResultColumnCount</i> parameter is one of the following values:<ul>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a> specified a predefined set of columns.  This method specifies a predefined set of columns when its <i>cResultColumnCount</i> parameter is one of the following values:<ul>
 <li>CV_COLUMN_LOG_DEFAULT</li>
 <li>CV_COLUMN_LOG_FAILED_DEFAULT</li>
 <li>CV_COLUMN_QUEUE_DEFAULT</li>
@@ -94,9 +94,9 @@ Before calling the <b>SetResultColumn</b> method, the <a href="https://msdn.micr
 </li>
 </ul>
 After a column is specified, an optional call to the 
-<a href="https://msdn.microsoft.com/a2dc8675-1d75-4c15-a9f7-971274ab044c">SetRestriction</a> method can be used to specify sorting and qualifying restrictions for the column.
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setrestriction">SetRestriction</a> method can be used to specify sorting and qualifying restrictions for the column.
 
-The <b>SetResultColumn</b> method must be called for each column that is needed in the result set. On successful completion of these calls, the columns specified in each call will be included in the result set when the <a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">OpenView</a> method is called.
+The <b>SetResultColumn</b> method must be called for each column that is needed in the result set. On successful completion of these calls, the columns specified in each call will be included in the result set when the <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">OpenView</a> method is called.
 
 
 #### Examples
@@ -149,23 +149,23 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
 
 
 
-<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView::OpenView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2dc8675-1d75-4c15-a9f7-971274ab044c">ICertView::SetRestriction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setrestriction">ICertView::SetRestriction</a>
 
 
 
-<a href="https://msdn.microsoft.com/f98b2f45-be9f-47ba-9c6b-63a2912288ac">ICertView::SetResultColumnCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">ICertView::SetResultColumnCount</a>
  
 
  

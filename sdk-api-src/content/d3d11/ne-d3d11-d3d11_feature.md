@@ -59,43 +59,43 @@ Direct3D 11 feature options.
 
 ### -field D3D11_FEATURE_THREADING
 
-The driver supports <a href="https://msdn.microsoft.com/b4bef1e4-8d34-455c-8aed-01af974c66c8">multithreading</a>.
-            To see an example of testing a driver for multithread support, see <a href="https://msdn.microsoft.com/f577357c-c2e5-4e58-9870-2e995bdc6782">How To: Check for Driver Support</a>.
-           Refer to <a href="https://msdn.microsoft.com/1ad7d4c4-9da2-42b0-a461-e514060e3005">D3D11_FEATURE_DATA_THREADING</a>.
+The driver supports <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-intro">multithreading</a>.
+            To see an example of testing a driver for multithread support, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-support">How To: Check for Driver Support</a>.
+           Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_threading">D3D11_FEATURE_DATA_THREADING</a>.
 
 
 ### -field D3D11_FEATURE_DOUBLES
 
-Supports the use of the double-precision shaders in HLSL. Refer to <a href="https://msdn.microsoft.com/3cd4006b-25bd-46b8-9fa7-6b7d7eb82a75">D3D11_FEATURE_DATA_DOUBLES</a>.
+Supports the use of the double-precision shaders in HLSL. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_doubles">D3D11_FEATURE_DATA_DOUBLES</a>.
 
 
 ### -field D3D11_FEATURE_FORMAT_SUPPORT
 
-Supports the formats in <a href="https://msdn.microsoft.com/8c7f62fd-e0fe-4f4d-8c88-ccf1372842f9">D3D11_FORMAT_SUPPORT</a>.
-          Refer to <a href="https://msdn.microsoft.com/153e246e-9e2f-4557-94c4-a9f1a3b926bd">D3D11_FEATURE_DATA_FORMAT_SUPPORT</a>.
+Supports the formats in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support">D3D11_FORMAT_SUPPORT</a>.
+          Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_format_support">D3D11_FEATURE_DATA_FORMAT_SUPPORT</a>.
 
 
 ### -field D3D11_FEATURE_FORMAT_SUPPORT2
 
-Supports the formats in <a href="https://msdn.microsoft.com/40650aae-ec0d-4c44-8abd-32c00343b717">D3D11_FORMAT_SUPPORT2</a>.
-          Refer to <a href="https://msdn.microsoft.com/075cc44a-3c91-4015-af7f-489b3b3c6661">D3D11_FEATURE_DATA_FORMAT_SUPPORT2</a>.
+Supports the formats in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2">D3D11_FORMAT_SUPPORT2</a>.
+          Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_format_support2">D3D11_FEATURE_DATA_FORMAT_SUPPORT2</a>.
 
 
 ### -field D3D11_FEATURE_D3D10_X_HARDWARE_OPTIONS
 
-Supports compute shaders and raw and structured buffers. Refer to <a href="https://msdn.microsoft.com/d41d1d78-21c1-4373-b579-6e051d6e8929">D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS</a>.
+Supports compute shaders and raw and structured buffers. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d10_x_hardware_options">D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS</a>.
 
 
 ### -field D3D11_FEATURE_D3D11_OPTIONS
 
-Supports Direct3D 11.1 feature options. Refer to <a href="https://msdn.microsoft.com/02A3B423-75AB-4F44-BEBE-B8039EF384DC">D3D11_FEATURE_DATA_D3D11_OPTIONS</a>.
+Supports Direct3D 11.1 feature options. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options">D3D11_FEATURE_DATA_D3D11_OPTIONS</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
 
 ### -field D3D11_FEATURE_ARCHITECTURE_INFO
 
-Supports specific adapter architecture. Refer to <a href="https://msdn.microsoft.com/BC815FDB-984C-4857-AF48-8B471F46CDD4">D3D11_FEATURE_DATA_ARCHITECTURE_INFO</a>.
+Supports specific adapter architecture. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_architecture_info">D3D11_FEATURE_DATA_ARCHITECTURE_INFO</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
@@ -103,7 +103,7 @@ Supports specific adapter architecture. Refer to <a href="https://msdn.microsoft
 ### -field D3D11_FEATURE_D3D9_OPTIONS
 
 Supports Direct3D 9 feature options.
-            Refer to <a href="https://msdn.microsoft.com/E5262261-28D7-4F7A-AB9A-A73FEADAE8FD">D3D11_FEATURE_DATA_D3D9_OPTIONS</a>.
+            Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d9_options">D3D11_FEATURE_DATA_D3D9_OPTIONS</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
@@ -111,36 +111,36 @@ Supports Direct3D 9 feature options.
 ### -field D3D11_FEATURE_SHADER_MIN_PRECISION_SUPPORT
 
 Supports minimum precision of shaders.
-              For more info about HLSL minimum precision, see <a href="https://msdn.microsoft.com/en-us/library/Hh404562(v=VS.85).aspx">using HLSL minimum precision</a>.
-            Refer to <a href="https://msdn.microsoft.com/4494A896-E73E-4A41-BC73-F9BD49510276">D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT</a>.
+              For more info about HLSL minimum precision, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-1-features">using HLSL minimum precision</a>.
+            Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_shader_min_precision_support">D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
 
 ### -field D3D11_FEATURE_D3D9_SHADOW_SUPPORT
 
-Supports Direct3D 9 shadowing feature. Refer to <a href="https://msdn.microsoft.com/E30500A0-D77D-4783-A5D5-418770DA1376">D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT</a>.
+Supports Direct3D 9 shadowing feature. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d9_shadow_support">D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
 
 
 ### -field D3D11_FEATURE_D3D11_OPTIONS1
 
-Supports Direct3D 11.2 feature options. Refer to <a href="https://msdn.microsoft.com/940381BB-E8E6-416D-8F36-CC3591E70702">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a>.
+Supports Direct3D 11.2 feature options. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options1">D3D11_FEATURE_DATA_D3D11_OPTIONS1</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
 
 ### -field D3D11_FEATURE_D3D9_SIMPLE_INSTANCING_SUPPORT
 
-Supports Direct3D 11.2 instancing options. Refer to <a href="https://msdn.microsoft.com/940381BB-E8F6-416D-8F36-CC3591E70703">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>.
+Supports Direct3D 11.2 instancing options. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d9_simple_instancing_support">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
 
 ### -field D3D11_FEATURE_MARKER_SUPPORT
 
-Supports Direct3D 11.2 marker options. Refer to <a href="https://msdn.microsoft.com/950381BB-E8F6-416D-8F36-CC3591E71703">D3D11_FEATURE_DATA_MARKER_SUPPORT</a>.
+Supports Direct3D 11.2 marker options. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_marker_support">D3D11_FEATURE_DATA_MARKER_SUPPORT</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
@@ -148,7 +148,7 @@ Supports Direct3D 11.2 marker options. Refer to <a href="https://msdn.microsoft.
 ### -field D3D11_FEATURE_D3D9_OPTIONS1
 
 Supports Direct3D 9 feature options, which includes the Direct3D 9 shadowing feature and instancing support. Refer to 
-            <a href="https://msdn.microsoft.com/4894B4FC-1E95-42B1-B92D-E3B484ABDC74">D3D11_FEATURE_DATA_D3D9_OPTIONS1</a>.
+            <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d9_options1">D3D11_FEATURE_DATA_D3D9_OPTIONS1</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
@@ -156,7 +156,7 @@ Supports Direct3D 9 feature options, which includes the Direct3D 9 shadowing f
 ### -field D3D11_FEATURE_D3D11_OPTIONS2
 
 Supports Direct3D 11.3 conservative rasterization feature options.
-            Refer to <a href="https://msdn.microsoft.com/D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a>.
+            Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options2">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.3.
 
@@ -164,26 +164,26 @@ Supports Direct3D 11.3 conservative rasterization feature options.
 ### -field D3D11_FEATURE_D3D11_OPTIONS3
 
 Supports Direct3D 11.4 conservative rasterization feature options.
-            Refer to <a href="https://msdn.microsoft.com/A8F9AAF5-F1C6-476D-AF14-5BCDEEDAF810">D3D11_FEATURE_DATA_D3D11_OPTIONS3</a>.
+            Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options3">D3D11_FEATURE_DATA_D3D11_OPTIONS3</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.4.
 
 
 ### -field D3D11_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT
 
-Supports GPU virtual addresses. Refer to <a href="https://msdn.microsoft.com/662D9B07-755C-430D-84C6-B1E8876E26B5">D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</a>.
+Supports GPU virtual addresses. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_gpu_virtual_address_support">D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</a>.
 
 
 ### -field D3D11_FEATURE_D3D11_OPTIONS4
 
-Supports a single boolean for NV12 shared textures. Refer to <a href="https://msdn.microsoft.com/BC0DD66C-3452-440D-87EA-1504EFF89E3F">D3D11_FEATURE_DATA_D3D11_OPTIONS4</a>.
+Supports a single boolean for NV12 shared textures. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/ns-d3d11_4-d3d11_feature_data_d3d11_options4">D3D11_FEATURE_DATA_D3D11_OPTIONS4</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.4.
 
 
 ### -field D3D11_FEATURE_SHADER_CACHE
 
-Supports shader cache, described in <a href="https://msdn.microsoft.com/45F1184E-0E82-4AF4-86F7-ED0E4C860026">D3D11_FEATURE_DATA_SHADER_CACHE</a>.
+Supports shader cache, described in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_shader_cache">D3D11_FEATURE_DATA_SHADER_CACHE</a>.
 
 
 ### -field D3D11_FEATURE_D3D11_OPTIONS5
@@ -195,7 +195,7 @@ Supports shader cache, described in <a href="https://msdn.microsoft.com/45F1184E
 
 
 
-This enumeration is used when querying a driver about support for these features by calling <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a>.
+This enumeration is used when querying a driver about support for these features by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport">ID3D11Device::CheckFeatureSupport</a>.
           Each value in this enumeration has a corresponding data structure that is required to be passed to the <i>pFeatureSupportData</i> parameter
           of <b>ID3D11Device::CheckFeatureSupport</b>.
         
@@ -208,7 +208,7 @@ This enumeration is used when querying a driver about support for these features
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

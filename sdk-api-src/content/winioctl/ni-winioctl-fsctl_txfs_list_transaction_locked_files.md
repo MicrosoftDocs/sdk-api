@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Returns a list of all files currently locked by the specified transaction. If the return value is 
     <b>ERROR_MORE_DATA</b>, it returns the length of the buffer required to hold the complete list 
@@ -170,15 +170,15 @@ The number of files returned from one
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/55ef34c5-8d99-457d-b670-8c9efaa2eae2">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
 
 
 
-<a href="https://msdn.microsoft.com/220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
  
 
  

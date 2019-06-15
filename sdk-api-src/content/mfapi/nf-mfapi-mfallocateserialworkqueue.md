@@ -64,7 +64,7 @@ The identifier of an existing work queue. This must be either a multithreaded qu
 <ul>
 <li>The default work queue (<b>MFASYNC_CALLBACK_QUEUE_STANDARD</b>)</li>
 <li>The platform multithreaded queue (<b>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</b>)</li>
-<li>A multithreaded queue returned by the <a href="https://msdn.microsoft.com/1E3AA1EE-83A4-42DE-961E-D93A34CE80CF">MFLockSharedWorkQueue</a>  function.</li>
+<li>A multithreaded queue returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflocksharedworkqueue">MFLockSharedWorkQueue</a>  function.</li>
 <li>A serial queue created by the <b>MFAllocateSerialWorkQueue</b> function.</li>
 </ul>
 
@@ -115,7 +115,7 @@ The application exceeded the maximum number of work queues.
 </dl>
 </td>
 <td width="60%">
-The application did not call <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MFStartup</a>, or the application has already called <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a>.
+The application did not call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>, or the application has already called <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a>.
               
 
 </td>
@@ -130,12 +130,12 @@ The application did not call <a href="https://msdn.microsoft.com/b4472e40-3681-4
 
 
 
-When you are done using the work queue, call <a href="https://msdn.microsoft.com/bbc22fa7-b4d7-47b2-b065-099fbb2ed092">MFUnlockWorkQueue</a>.
+When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfunlockworkqueue">MFUnlockWorkQueue</a>.
 
 Multithreaded queues use a thread pool, which  can reduce the total number of threads in the pipeline. However, they do not serialize work items. A serial work queue enables the application to get the benefits of the thread pool, without needing to perform manual serialization of its own work items.
 
 <h3><a id="Reply_Mode"></a><a id="reply_mode"></a><a id="REPLY_MODE"></a>Reply Mode</h3>
-A serializer queue can also work in "reply" mode. If the caller’s <a href="https://msdn.microsoft.com/374dd139-d3e7-45d0-a7d3-1187b928ef57">IMFAsyncCallback::GetParameters</a> method returns the <b>MFASYNC_REPLY_CALLBACK</b> flag, the serializer queue does not automatically advance to the next work item. Instead, the queue waits for a reply from the caller. The caller signals the reply by invoking the asynchronous result object that the work queue passes to the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">Invoke</a> method. The following code illustrates how the caller signals the work queue.
+A serializer queue can also work in "reply" mode. If the caller’s <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-getparameters">IMFAsyncCallback::GetParameters</a> method returns the <b>MFASYNC_REPLY_CALLBACK</b> flag, the serializer queue does not automatically advance to the next work item. Instead, the queue waits for a reply from the caller. The caller signals the reply by invoking the asynchronous result object that the work queue passes to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">Invoke</a> method. The following code illustrates how the caller signals the work queue.
 
 
 ```cpp
@@ -169,11 +169,11 @@ HRESULT CCallback::GetParameters(DWORD *pdwFlags, DWORD *pdwQueue)
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9E2A1D94-BF82-488E-8297-D524683ABE17">Work Queue and Threading Improvements</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UUID_VECTOR</b> structure contains a list of <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>s.
+<b>UUID_VECTOR</b> structure contains a list of <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s.
 
 
 ## -struct-fields
@@ -60,22 +60,22 @@ The
 
 ### -field Count
 
-Number of <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>s present in the array <b>Uuid</b>.
+Number of <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s present in the array <b>Uuid</b>.
 					
 
 
 ### -field Uuid
 
-Array of pointers to <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>s that contains <b>Count</b> elements.
+Array of pointers to <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s that contains <b>Count</b> elements.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> vector contains a count member containing the total number of <b>UUID</b>s in the vector, followed by an array of pointers to <b>UUID</b>s.
+The <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> vector contains a count member containing the total number of <b>UUID</b>s in the vector, followed by an array of pointers to <b>UUID</b>s.
 
-An application constructs a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> vector to contain object <b>UUID</b>s to be exported or unexported from the name service.
+An application constructs a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> vector to contain object <b>UUID</b>s to be exported or unexported from the name service.
 
 
 
@@ -85,23 +85,23 @@ An application constructs a <a href="https://msdn.microsoft.com/14288352-43c3-4e
 
 
 
-<a href="https://msdn.microsoft.com/35656cdd-b1ae-43d3-a5c7-92bdb7726d5b">RpcEpRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/eaf132a8-0bc2-4201-945a-76b6c2eab559">RpcEpRegisterNoReplace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregisternoreplace">RpcEpRegisterNoReplace</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb0485fc-0b25-4fc0-9a18-921a9de428ce">RpcEpUnregister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepunregister">RpcEpUnregister</a>
 
 
 
-<a href="https://msdn.microsoft.com/c89d04d7-f607-48cc-8cb6-b6aebab41671">RpcNsBindingExport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
 
 
 
-<a href="https://msdn.microsoft.com/70662e7e-7a81-4953-9814-e29b46422c5b">RpcNsBindingUnexport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>
  
 
  

@@ -126,7 +126,7 @@ Extra black weight.
 
 
 
-The <b>DWRITE_PANOSE_WEIGHT</b> values roughly correspond to the <a href="https://msdn.microsoft.com/82396f80-eb62-4865-ba07-9653220c84f2">DWRITE_FONT_WEIGHT</a> values by using (panose_weight - 2) * 100 = font_weight.
+The <b>DWRITE_PANOSE_WEIGHT</b> values roughly correspond to the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_weight">DWRITE_FONT_WEIGHT</a> values by using (panose_weight - 2) * 100 = font_weight.
 
 
 
@@ -136,7 +136,7 @@ The <b>DWRITE_PANOSE_WEIGHT</b> values roughly correspond to the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/B65B4C8E-1CA0-47AC-AA3F-8F2EACC5C11A">DWRITE_PANOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_panose">DWRITE_PANOSE</a>
  
 
  

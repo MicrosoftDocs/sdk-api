@@ -73,10 +73,10 @@ The glyph count.
 
 ### -param justificationOpportunities [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/D7D18462-A0A4-4064-B04D-CA8ACED7E34D">DWRITE_JUSTIFICATION_OPPORTUNITY</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_justification_opportunity">DWRITE_JUSTIFICATION_OPPORTUNITY</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/D7D18462-A0A4-4064-B04D-CA8ACED7E34D">DWRITE_JUSTIFICATION_OPPORTUNITY</a> structure that contains info for the
-    allowed justification expansion/compression for each glyph. Get this info from <a href="https://msdn.microsoft.com/85D3841F-FA2B-4636-B786-DCD68C72209A">IDWriteTextAnalyzer1::GetJustificationOpportunities</a>. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_justification_opportunity">DWRITE_JUSTIFICATION_OPPORTUNITY</a> structure that contains info for the
+    allowed justification expansion/compression for each glyph. Get this info from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">IDWriteTextAnalyzer1::GetJustificationOpportunities</a>. 
 
 
 ### -param glyphAdvances [in]
@@ -88,7 +88,7 @@ An array of glyph advances.
 
 ### -param glyphOffsets [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f5a231c0-78df-4fe0-99a8-81fcad517cda">DWRITE_GLYPH_OFFSET</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
 
 An array of glyph offsets.
 
@@ -102,7 +102,7 @@ The returned array of justified glyph advances.
 
 ### -param justifiedGlyphOffsets [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/f5a231c0-78df-4fe0-99a8-81fcad517cda">DWRITE_GLYPH_OFFSET</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
 
 The returned array of justified glyph offsets.
 
@@ -122,7 +122,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-You call  <b>JustifyGlyphAdvances</b> after you call <a href="https://msdn.microsoft.com/85D3841F-FA2B-4636-B786-DCD68C72209A">IDWriteTextAnalyzer1::GetJustificationOpportunities</a> to collect all the opportunities, and <b>JustifyGlyphAdvances</b>spans across the entire line. The input and output arrays are allowed
+You call  <b>JustifyGlyphAdvances</b> after you call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">IDWriteTextAnalyzer1::GetJustificationOpportunities</a> to collect all the opportunities, and <b>JustifyGlyphAdvances</b>spans across the entire line. The input and output arrays are allowed
     to alias each other, permitting in-place update.
 
 
@@ -133,11 +133,11 @@ You call  <b>JustifyGlyphAdvances</b> after you call <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/7F79BA25-5D79-4491-82E3-F9B96DD0C37D">IDWriteTextAnalyzer1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
 
 
 
-<a href="https://msdn.microsoft.com/85D3841F-FA2B-4636-B786-DCD68C72209A">IDWriteTextAnalyzer1::GetJustificationOpportunities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">IDWriteTextAnalyzer1::GetJustificationOpportunities</a>
  
 
  

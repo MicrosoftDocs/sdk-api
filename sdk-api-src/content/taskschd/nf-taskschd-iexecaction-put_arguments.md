@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML, the command-line operation arguments are specified in the <a href="https://msdn.microsoft.com/37207c4f-941c-4cbf-9a81-5876b224a7c1">Arguments</a> element of the Task Scheduler schema.
+When reading or writing XML, the command-line operation arguments are specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-arguments-exectype-element">Arguments</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing XML, the command-line operation arguments are specified 
 
 
 
-<a href="https://msdn.microsoft.com/46a4cd60-df23-4109-8a86-b7755a6922dd">IExecAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iexecaction">IExecAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

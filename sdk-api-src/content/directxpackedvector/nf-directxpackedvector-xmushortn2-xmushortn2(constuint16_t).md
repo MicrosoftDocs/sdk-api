@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420713(v=VS.85).aspx">XMUSHORTN2</a> from a two element <code>uint16_t</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn2">XMUSHORTN2</a> from a two element <code>uint16_t</code> array argument.
 
 This constructor initializes a new instance of **XMUSHORTN2** from a from a two element <code>uint16_t</code> array argument.
 
@@ -71,6 +71,6 @@ instance.y = pArray[1];
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420713(v=VS.85).aspx">XMUSHORTN2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn2">XMUSHORTN2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415507(v=VS.85).aspx">XMUSHORTN2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmushortn2-ctor">XMUSHORTN2 Constructors</a>

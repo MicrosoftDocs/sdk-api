@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-Used to describe a content provider. A collection of objects of an <b>IWdsTransportContentProvider</b> interface can be obtained from the <a href="https://msdn.microsoft.com/DF78B8D0-C5DF-46D2-AC6E-739266511253">IWdsTransportSetupManager2::ContentProviders</a> property.
+Used to describe a content provider. A collection of objects of an <b>IWdsTransportContentProvider</b> interface can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager2-get_contentproviders">IWdsTransportSetupManager2::ContentProviders</a> property.
 

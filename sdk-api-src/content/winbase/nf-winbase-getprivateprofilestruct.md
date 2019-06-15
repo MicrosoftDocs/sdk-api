@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Retrieves the data associated with a key in the specified section of an initialization file. As it retrieves the data, the function calculates a checksum and compares it with the checksum calculated by the 
-<a href="https://msdn.microsoft.com/21b1927c-40b0-4b79-931b-6d3db176fb71">WritePrivateProfileStruct</a> function when the data was added to the file.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a> function when the data was added to the file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
@@ -143,7 +143,7 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
-<a href="https://msdn.microsoft.com/21b1927c-40b0-4b79-931b-6d3db176fb71">WritePrivateProfileStruct</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a>
  
 
  

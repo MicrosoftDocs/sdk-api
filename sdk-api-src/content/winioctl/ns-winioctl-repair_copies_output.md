@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains output of a repair copies operation returned from the 
-     <a href="https://msdn.microsoft.com/1970ed09-5f37-4cc9-98c5-982629676fe4">FSCTL_REPAIR_COPIES</a> control code.
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_repair_copies">FSCTL_REPAIR_COPIES</a> control code.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Set to <code>sizeof(REPAIR_COPIES_OUTPUT)</code>.
 
 Indicates the status of the repair operation. The value is a <b>NTSTATUS</b> value. 
       See 
-      <a href="http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
+      <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
       for a list of <b>NTSTATUS</b> values.
 
 

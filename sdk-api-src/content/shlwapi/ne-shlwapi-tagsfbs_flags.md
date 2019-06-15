@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies how the <a href="https://msdn.microsoft.com/9ecc6427-e7bb-43ec-ab78-665ef52f8b10">StrFormatByteSizeEx</a> function should handle rounding of undisplayed digits.
+Specifies how the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizeex">StrFormatByteSizeEx</a> function should handle rounding of undisplayed digits.
 
 
 ## -enum-fields

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an accessible object that corresponds to a UI Automation element that supports the <a href="https://msdn.microsoft.com/4d66b9b8-ddbe-4bbc-b475-72dad1fe9393">LegacyIAccessible</a> control pattern.
+Retrieves an accessible object that corresponds to a UI Automation element that supports the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinglegacyiaccessible">LegacyIAccessible</a> control pattern.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves an accessible object that corresponds to a UI Automation element that 
 
 ### -param ppAccessible [out]
 
-Type: <b><a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>**</b>
 
 Receives a pointer to the accessible object.
 
@@ -68,7 +68,7 @@ Receives a pointer to the accessible object.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/9d911238-05d9-4bba-920f-40ca23ab9549">ILegacyIAccessibleProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Creates or opens a  log. The log can  be dedicated or multiplexed, and that depends on 
-   the log name. Use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the 
+   the log name. Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the 
    log.
 
 
@@ -77,7 +77,7 @@ For example: The path "LOG:c:\MyDirectory\MyLog" creates the file
 
 &lt;<i>LogName</i>&gt; corresponds to a valid file path in the file system, and 
        &lt;<i>LogStreamName</i>&gt; is the unique name of a log stream in the log. For more 
-       information, see <a href="https://msdn.microsoft.com/a7099979-346c-434d-8af1-6bf1d5a0512f">Log Types</a>.
+       information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
 
 
 ### -param fDesiredAccess [in]
@@ -186,7 +186,7 @@ Enables open operations on the object to request write access. Without this valu
 
 ### -param psaLogFile [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
       structure that  specifies the security attributes of a log.
 
 It determines whether the returned handle can be 
@@ -194,8 +194,8 @@ It determines whether the returned handle can be
       inherited.
 
 The <b>lpSecurityDescriptor</b> member of 
-      <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> specifies a 
-      <a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">security descriptor</a> for the new log 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> specifies a 
+      <a href="https://docs.microsoft.com/windows/desktop/winstation/desktop-security-and-access-rights">security descriptor</a> for the new log 
       handle. If <i>psaLogFile</i> is <b>NULL</b>, the object gets a default 
       security descriptor. The access control lists (ACL) in the default security descriptor for a log come from the 
       primary or impersonation token of the creator.
@@ -295,7 +295,7 @@ Specifying <b>FILE_FLAG_OVERLAPPED</b> means that a file is opened for overlappe
 If the function succeeds, the return value is a handle to the log.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
-      error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+      error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following list identifies the  possible error codes:
 
@@ -307,31 +307,31 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e886b96-9431-43f6-b888-e0f47c432371">AddLogContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainer">AddLogContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3dec3bd-3e39-42fa-8f73-71784b3d5be2">AddLogContainerSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-addlogcontainerset">AddLogContainerSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/3788fac0-4e99-49e0-bba1-6a6d22299950">CLFS_CONTAINER_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_container_information">CLFS_CONTAINER_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a>
 
 
 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
  
 
  

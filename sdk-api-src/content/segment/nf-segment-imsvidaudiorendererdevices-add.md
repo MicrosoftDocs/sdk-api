@@ -59,7 +59,7 @@ The <b>Add</b> method adds an audio renderer to the collection.
 
 ### -param pDB [in]
 
-Pointer to the audio renderer's <a href="https://msdn.microsoft.com/f822b5a6-c88e-48c9-91f4-611a3f147fe0">IMSVidAudioRenderer</a> interface.
+Pointer to the audio renderer's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer</a> interface.
 
 
 ## -returns
@@ -128,7 +128,7 @@ NULL pointer argument.
 
 
 
-<a href="https://msdn.microsoft.com/2cf03260-7abe-4602-8364-447d076a4f76">IMSVidAudioRendererDevices Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorendererdevices">IMSVidAudioRendererDevices Interface</a>
  
 
  

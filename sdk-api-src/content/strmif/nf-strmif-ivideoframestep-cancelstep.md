@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>CancelStep</code> method cancels the previous <a href="https://msdn.microsoft.com/1366b8b4-ea7a-4528-8a5a-03a3de265d89">IVideoFrameStep::Step</a> operation.
+The <code>CancelStep</code> method cancels the previous <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivideoframestep-step">IVideoFrameStep::Step</a> operation.
 
 
 
@@ -77,11 +77,11 @@ Returns S_OK if the <b>Step</b> operation was successfully canceled, or E_FAIL o
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bf45473-144c-49f8-8178-aff5b60112b6">IVideoFrameStep Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivideoframestep">IVideoFrameStep Interface</a>
  
 
  

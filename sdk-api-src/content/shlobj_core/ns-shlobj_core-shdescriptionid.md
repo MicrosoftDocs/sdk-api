@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Receives item data in response to a call to <a href="https://msdn.microsoft.com/11c041bd-22fd-46a4-b75c-cc86ee771241">SHGetDataFromIDList</a>.
+Receives item data in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdatafromidlista">SHGetDataFromIDList</a>.
 
 
 ## -struct-fields

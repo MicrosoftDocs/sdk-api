@@ -61,7 +61,7 @@ Determines whether there is an installed WinEvent hook that might be notified of
 
 ### -param event [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The event constant that hooks might be notified of. The function checks whether there is an installed hook for this event constant.
 
@@ -70,7 +70,7 @@ The event constant that hooks might be notified of. The function checks whether 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If there is a hook to be notified of the specified event, the return value is <b>TRUE</b>.
 
@@ -95,11 +95,11 @@ Event hooks can be installed at any time, so server developers should not cache 
 
 
 
-<a href="https://msdn.microsoft.com/090bda1b-0635-4aa3-ae33-3987b36e30b8">SetWinEventHook</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cffb279-85e1-4f7a-8bbb-d0d618f6afcd">UnhookWinEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwinevent">UnhookWinEvent</a>
  
 
  

@@ -172,7 +172,7 @@ The identifier of the power setting.
 ### -param Type [in]
 
 The type of data for the value. The possible values are listed in 
-      <a href="https://msdn.microsoft.com/5fd828d6-4d62-4823-a2f1-15782b5cd28c">Registry Value Types</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
 
 
 ### -param PossibleSettingIndex [in]
@@ -205,7 +205,7 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://msdn.microsoft.com/e56bc3f4-2141-4be7-8479-12f8d59971af">PowerSetActiveScheme</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 
 
@@ -215,7 +215,7 @@ Changes to the settings for the active power scheme do not take effect until you
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
  
 
  

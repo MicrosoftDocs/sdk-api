@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Provides the possible values for the syntax structures in a 
-    <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
 
 
 ## -enum-fields
@@ -66,16 +66,16 @@ Marks the end of a value list.
 
 ### -field CLUSPROP_SYNTAX_NAME
 
-Describes a property name, such as the <a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a> 
-       property for resources and the <a href="https://msdn.microsoft.com/a16f245e-6191-428a-acfa-b70294633ecb">NodeName</a> property for 
+Describes a property name, such as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources-name">Name</a> 
+       property for resources and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodename">NodeName</a> property for 
        nodes. A property name is represented by a 
-       <a href="https://msdn.microsoft.com/bb2e904c-2782-45f6-b95d-b1b107fa0060">CLUSPROP_PROPERTY_NAME</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368382(v=vs.85)">CLUSPROP_PROPERTY_NAME</a> structure.
 
 
 ### -field CLUSPROP_SYNTAX_RESCLASS
 
 Describes a resource class value. A resource class value is represented by a 
-       <a href="https://msdn.microsoft.com/9ec01908-3765-4e95-a9d3-fdf6daa5f64d">CLUSPROP_RESOURCE_CLASS</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class">CLUSPROP_RESOURCE_CLASS</a> structure.
 
 
 ### -field CLUSPROP_SYNTAX_LIST_VALUE_SZ
@@ -117,10 +117,10 @@ Describes a null-terminated Unicode string value with expanded references to env
 
 ### -field CLUSPROP_SYNTAX_LIST_VALUE_SECURITY_DESCRIPTOR
 
-Describes a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> in 
-       <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> format 
+Describes a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> in 
+       <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> format 
        in a property list. For more information about self-relative security descriptors, see 
-       <a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">Absolute and Self-Relative Security Descriptors</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>.
 
 
 ### -field CLUSPROP_SYNTAX_LIST_VALUE_LARGE_INTEGER
@@ -147,7 +147,7 @@ Describes a property list.
 
 ### -field CLUSPROP_SYNTAX_LIST_VALUE_FILETIME
 
-Describes a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> value in a property list.
+Describes a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> value in a property list.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported until Windows Server 2016.
 
@@ -155,34 +155,34 @@ Describes a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec91615
 ### -field CLUSPROP_SYNTAX_DISK_SIGNATURE
 
 Describes a master boot record (MBR) disk signature value represented by a 
-       <a href="https://msdn.microsoft.com/38400cce-d84a-4439-9dab-20102c1580ff">CLUSPROP_DISK_SIGNATURE</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368374(v=vs.85)">CLUSPROP_DISK_SIGNATURE</a> structure.
 
 
 ### -field CLUSPROP_SYNTAX_SCSI_ADDRESS
 
-Describes the address for an <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> resource. IP 
+Describes the address for an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> resource. IP 
        Address resources store this address in their 
-       <a href="https://msdn.microsoft.com/514eb8f9-55c7-411b-b6ec-8373903f8f17">Address</a> private property. A SCSI address value 
-       is represented by a <a href="https://msdn.microsoft.com/30907886-0c86-4e8a-9a95-5b62f6ffff76">CLUSPROP_SCSI_ADDRESS</a> 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-addresses-address">Address</a> private property. A SCSI address value 
+       is represented by a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a> 
        structure.
 
 
 ### -field CLUSPROP_SYNTAX_DISK_NUMBER
 
 Describes a disk number value represented by a 
-       <a href="https://msdn.microsoft.com/8230d356-0d5a-4859-ae03-c25d078684b3">CLUSPROP_DISK_NUMBER</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_dword">CLUSPROP_DISK_NUMBER</a> structure.
 
 
 ### -field CLUSPROP_SYNTAX_PARTITION_INFO
 
 Describes a collection of information about a Physical Disk resource, such as its device name and volume 
        label. Partition information is represented by a 
-       <a href="https://msdn.microsoft.com/cda1e334-dba8-4fe9-b035-4e475245869c">CLUSPROP_PARTITION_INFO</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a> structure.
 
 
 ### -field CLUSPROP_SYNTAX_FTSET_INFO
 
-Describes <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> set information.
+Describes <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> set information.
 
 
 ### -field CLUSPROP_SYNTAX_DISK_SERIALNUMBER
@@ -205,14 +205,14 @@ Describes a unsigned large integer value containing the total size of a disk in 
 
 Describes a collection of information about a Physical Disk resource, such as its device name and volume 
        label. Partition information is represented by a 
-       <a href="https://msdn.microsoft.com/b1343a04-b8bd-469a-a620-985eeb89401c">CLUSPROP_PARTITION_INFO_EX</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a> structure.
 
 
 ### -field CLUSPROP_SYNTAX_PARTITION_INFO_EX2
 
 Describes a collection of information about a Physical Disk resource, such as its device name and volume 
        label. The partition information is represented by a 
-       <a href="https://msdn.microsoft.com/D6D26335-80D0-4949-99B4-FE18DD2FFF3C">CLUSPROP_PARTITION_INFO_EX2</a> structure.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex2">CLUSPROP_PARTITION_INFO_EX2</a> structure.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This value is not available until Windows Server 2016 .
 
@@ -229,13 +229,13 @@ Describes descriptor data for a storage class resource.
 
 
 The upper 2 bytes of a <b>CLUSTER_PROPERTY_SYNTAX</b> 
-     must be a valid <a href="https://msdn.microsoft.com/4a10d4f1-2a50-42e7-a143-e9a93d9fcc42">CLUSTER_PROPERTY_TYPE</a>. The lower 2 
+     must be a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_property_type">CLUSTER_PROPERTY_TYPE</a>. The lower 2 
      bytes of a <b>CLUSTER_PROPERTY_SYNTAX</b> must be a 
-     valid <a href="https://msdn.microsoft.com/a5e06aaf-96ef-41e9-ab73-c0edc8f34d12">CLUSTER_PROPERTY_FORMAT</a>.
+     valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_property_format">CLUSTER_PROPERTY_FORMAT</a>.
 
 The client must not specify a syntax value of 
      <b>CLUSPROP_SYNTAX_LIST_VALUE_EXPANDED_SZ</b> when adding a property value to a 
-     <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a> structure. When constructing a 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> structure. When constructing a 
      property list structure to return to the client, the server 
      must return two values for a property's value that is of syntax 
      <b>CLUSPROP_SYNTAX_LIST_VALUE_EXPAND_SZ</b>: the first value is of syntax 
@@ -252,19 +252,19 @@ The client must not specify a syntax value of
 
 
 
-<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5e06aaf-96ef-41e9-ab73-c0edc8f34d12">CLUSTER_PROPERTY_FORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_property_format">CLUSTER_PROPERTY_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a10d4f1-2a50-42e7-a143-e9a93d9fcc42">CLUSTER_PROPERTY_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_property_type">CLUSTER_PROPERTY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

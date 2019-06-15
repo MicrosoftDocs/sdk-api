@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This method returns the target <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> of this reading information UI.
+This method returns the target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> of this reading information UI.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ This method returns the target <a href="https://msdn.microsoft.com/ca98c7bb-7348
 
 ### -param ppic [out]
 
-[out] A pointer to receive the target <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> interface of this UI element.
+[out] A pointer to receive the target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface of this UI element.
 
 
 ## -returns

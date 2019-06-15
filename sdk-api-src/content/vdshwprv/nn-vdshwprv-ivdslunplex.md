@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods for performing query and configuration operations on a LUN plex.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunPlex</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsLunPlex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunPlex</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunPlex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsLunPlex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66299644-4b70-4cd3-ae99-4d4084c3c3c5">ApplyHints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-applyhints">ApplyHints</a>
 </td>
 <td align="left" width="63%">
 Applies a new set of hints to the LUN plex.
@@ -81,7 +81,7 @@ Applies a new set of hints to the LUN plex.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74f9fed5-f33d-4e88-b3d2-7eb8ef33711e">GetLun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getlun">GetLun</a>
 </td>
 <td align="left" width="63%">
 Returns the LUN object to which the plex object belongs.
@@ -90,7 +90,7 @@ Returns the LUN object to which the plex object belongs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ded24edd-fa6a-48f3-a448-690078f034bb">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of the LUN plex.
@@ -99,7 +99,7 @@ Returns the properties of the LUN plex.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9ed5bdd-c696-47cc-84c8-266b230f7970">QueryExtents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryextents">QueryExtents</a>
 </td>
 <td align="left" width="63%">
 Returns an array of the drive extents that contribute to the plex.
@@ -108,7 +108,7 @@ Returns an array of the drive extents that contribute to the plex.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ecb0840-8eaf-47c9-b8a9-98c738ed7daf">QueryHints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryhints">QueryHints</a>
 </td>
 <td align="left" width="63%">
 Returns the hints that are currently applied to the LUN plex.
@@ -123,11 +123,11 @@ Returns the hints that are currently applied to the LUN plex.
 
 
 
-<a href="https://msdn.microsoft.com/db6eabaa-1b84-4613-ab2a-8d5904305e08">LUN Plex Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/lun-plex-object">LUN Plex Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
  
 
  

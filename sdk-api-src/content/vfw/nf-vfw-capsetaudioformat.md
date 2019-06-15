@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetAudioFormat</b> macro sets the audio format to use when performing streaming or step capture. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/8bffa401-3d36-43bb-9f69-988ebc69b860">WM_CAP_SET_AUDIOFORMAT</a> message.
+The <b>capSetAudioFormat</b> macro sets the audio format to use when performing streaming or step capture. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-audioformat">WM_CAP_SET_AUDIOFORMAT</a> message.
 
 
 
@@ -67,7 +67,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> or <a href="https://msdn.microsoft.com/c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c">PCMWAVEFORMAT</a> structure that defines the audio format. 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> or <a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure that defines the audio format. 
 
 
 ### -param wSize
@@ -80,23 +80,23 @@ Size, in bytes, of the structure referenced by <i>psAudioFormat</i>.
 
 
 
-<a href="https://msdn.microsoft.com/c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c">PCMWAVEFORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bffa401-3d36-43bb-9f69-988ebc69b860">WM_CAP_SET_AUDIOFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-audioformat">WM_CAP_SET_AUDIOFORMAT</a>
  
 
  

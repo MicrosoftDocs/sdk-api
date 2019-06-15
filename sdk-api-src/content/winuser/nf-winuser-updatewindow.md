@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>UpdateWindow</b> function updates the client area of the specified window by sending a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message to the window if the window's update region is not empty. The function sends a <b>WM_PAINT</b> message directly to the window procedure of the specified window, bypassing the application queue. If the update region is empty, no message is sent.
+The <b>UpdateWindow</b> function updates the client area of the specified window by sending a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to the window if the window's update region is not empty. The function sends a <b>WM_PAINT</b> message directly to the window procedure of the specified window, bypassing the application queue. If the update region is empty, no message is sent.
 
 
 ## -parameters
@@ -81,35 +81,35 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/408fda82-30c3-4eb4-be42-3085c71ba99e">ExcludeUpdateRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-excludeupdatergn">ExcludeUpdateRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/e54483a1-8738-4b22-a24e-c0b31f6ca9d6">GetUpdateRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getupdaterect">GetUpdateRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/d80c4b44-3f50-46f9-bf5a-fff7868d91ba">GetUpdateRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getupdatergn">GetUpdateRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a823d36-d08b-41c9-8857-540576f54b55">InvalidateRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5b44efe-8045-4e54-89f9-1766689a053d">InvalidateRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
  
 
  

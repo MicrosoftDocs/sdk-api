@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreateAssemblyCache</b> function obtains an instance of the <a href="https://msdn.microsoft.com/6c411ae7-5a8f-47ca-a9c1-e23000f64620">IAssemblyCache</a> interface.
+The <b>CreateAssemblyCache</b> function obtains an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CreateAssemblyCache</b> function obtains an instance of the <a href="http
 
 ### -param ppAsmCache
 
-Pointer the location that receives the <a href="https://msdn.microsoft.com/6c411ae7-5a8f-47ca-a9c1-e23000f64620">IAssemblyCache</a> pointer.
+Pointer the location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a> pointer.
 
 
 ### -param dwReserved

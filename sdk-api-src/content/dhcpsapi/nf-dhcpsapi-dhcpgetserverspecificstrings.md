@@ -64,9 +64,9 @@ Unicode string that specifies the IPv4 address of the DHCPv4 server.
 
 ### -param ServerSpecificStrings [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/5fc52d5c-22b0-454b-bc07-8f9c4ca163e3">DHCP_SERVER_SPECIFIC_STRINGS</a> structure that receives the information for the default vendor class and user class name strings.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_specific_strings">DHCP_SERVER_SPECIFIC_STRINGS</a> structure that receives the information for the default vendor class and user class name strings.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
@@ -75,7 +75,7 @@ Pointer to a <a href="https://msdn.microsoft.com/5fc52d5c-22b0-454b-bc07-8f9c4ca
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -104,7 +104,7 @@ An error occurred while accessing the DHCP server database.
 
 
 
-<a href="https://msdn.microsoft.com/5fc52d5c-22b0-454b-bc07-8f9c4ca163e3">DHCP_SERVER_SPECIFIC_STRINGS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_server_specific_strings">DHCP_SERVER_SPECIFIC_STRINGS</a>
  
 
  

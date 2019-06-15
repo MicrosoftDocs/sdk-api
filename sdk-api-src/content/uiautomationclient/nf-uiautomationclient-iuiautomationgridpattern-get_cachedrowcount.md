@@ -72,7 +72,7 @@ Hidden rows and columns, depending on the provider implementation, may be loaded
 
 
 
-<a href="https://msdn.microsoft.com/36a4893e-5f49-413c-a29a-e58291c7d057">IUIAutomationGridPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgridpattern">IUIAutomationGridPattern</a>
  
 
  

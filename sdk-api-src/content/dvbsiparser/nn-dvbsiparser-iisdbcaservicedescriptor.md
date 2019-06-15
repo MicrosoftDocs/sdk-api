@@ -56,7 +56,7 @@ display message, and the delay time for displaying the "EMM automatic display me
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCAServiceDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbCAServiceDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbCAServiceDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbCAServiceDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IIsdbCAServiceDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc783e34-3544-4bcf-9e76-cb098c89cd65">GetCABroadcasterGroupId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcaservicedescriptor-getcabroadcastergroupid">GetCABroadcasterGroupId</a>
 </td>
 <td align="left" width="63%">
 Gets the broadcaster group identifier from an ISDB CA service descriptor.
@@ -80,7 +80,7 @@ Gets the broadcaster group identifier from an ISDB CA service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48148c5c-30e1-4028-8baf-692141d79fad">GetCASystemId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcaservicedescriptor-getcasystemid">GetCASystemId</a>
 </td>
 <td align="left" width="63%">
 Gets the system identifier from an ISDB CA service descriptor.
@@ -89,7 +89,7 @@ Gets the system identifier from an ISDB CA service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfa6a372-8e9f-4f38-80ea-ad27c9423cc5">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcaservicedescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of an ISDB CA service descriptor.
@@ -98,7 +98,7 @@ Gets the body length of an ISDB CA service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a911c5e-a026-4d35-a6a2-e33ba53f3057">GetMessageControl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcaservicedescriptor-getmessagecontrol">GetMessageControl</a>
 </td>
 <td align="left" width="63%">
 Gets the delay time before the automatic EMM message is displayed from an ISDB CA service descriptor.
@@ -107,7 +107,7 @@ Gets the delay time before the automatic EMM message is displayed from an ISDB C
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2a6d1f2-2cd5-4f8c-97e1-33880ffb0449">GetServiceIds</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcaservicedescriptor-getserviceids">GetServiceIds</a>
 </td>
 <td align="left" width="63%">
 Gets service identifiers from an ISDB CA service descriptor.
@@ -116,7 +116,7 @@ Gets service identifiers from an ISDB CA service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55f7b955-03f6-4c40-bd73-175bf3453ed0">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcaservicedescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB CA service descriptor.

@@ -100,15 +100,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632648(v=VS.85).aspx">WM_STYLECHANGED</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-stylechanged">WM_STYLECHANGED</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632649(v=VS.85).aspx">WM_STYLECHANGING</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-stylechanging">WM_STYLECHANGING</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

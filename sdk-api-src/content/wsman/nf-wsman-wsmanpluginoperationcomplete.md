@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Reports the completion of an operation by all operation entry points except for the <a href="https://msdn.microsoft.com/b3123f52-880b-4d14-a5a2-77c5924de99d">WSManPluginStartup</a> and <a href="https://msdn.microsoft.com/a9f72416-f6a7-4ba0-94d0-48f85393acab">WSManPluginShutdown</a> methods. 
+Reports the completion of an operation by all operation entry points except for the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shutdown">WSManPluginShutdown</a> methods. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Reports the completion of an operation by all operation entry points except for 
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 
 ### -param flags [in]
@@ -91,7 +91,7 @@ The method returns <b>NO_ERROR</b> if it succeeded; otherwise,  it returns an er
 
 
 The <b>WSManPluginOperationComplete</b> function is used to report the completion of the 
-data stream for <a href="https://msdn.microsoft.com/59dff87b-17d5-4875-ad24-1520a04b05d2">WSManPluginReceive</a>.  The <a href="https://msdn.microsoft.com/3016612a-ce99-405b-afae-200bcad9ed20">WSManPluginShell</a> and <a href="https://msdn.microsoft.com/df4b4e7b-cf30-4eb0-b646-49b17c883a16">WSManPluginCommand</a> operations must also call this function when the shell and command operations are complete.
+data stream for <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_receive">WSManPluginReceive</a>.  The <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_shell">WSManPluginShell</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_command">WSManPluginCommand</a> operations must also call this function when the shell and command operations are complete.
 
 
 

@@ -59,7 +59,7 @@ Converts an image to JPEG or bitmap (BMP) image format.
 
 ### -param pShellItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 The Shell Item for the image to convert.
 
@@ -101,7 +101,7 @@ Convert the image to JPEG format.
 
 ### -param pvImage
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A stream to receive the converted image. The stream must be created by the calling code prior to calling <b>TranscodeImage</b>.
 

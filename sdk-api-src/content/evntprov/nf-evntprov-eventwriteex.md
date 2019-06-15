@@ -64,13 +64,13 @@ Use this function to write an event.
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
-      <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 
 ### -param EventDescriptor [in]
 
 A descriptor that contains the metadata that identifies the event to write. For details, see 
-      <a href="https://msdn.microsoft.com/907e6c38-5eaa-49da-9dc0-d055dcc69d1a">EVENT_DESCRIPTOR</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a>.
 
 
 ### -param Filter [in]
@@ -79,7 +79,7 @@ The instance identifiers that identify the session to which the event will not w
       to specify multiple identifiers. Set to zero if you do not support filters or if the event is being written to 
       all sessions (no filters failed). For information on getting the identifier for a session, see the 
       <i>FilterData</i> parameter of your 
-      <a href="https://msdn.microsoft.com/f339323e-9da9-495f-aac5-f44969a018eb">EnableCallback</a> callback.
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a> callback.
 
 
 ### -param Flags [in]
@@ -91,7 +91,7 @@ Reserved. Must be zero.
 
 GUID that uniquely identifies this activity. If <b>NULL</b>, ETW gets the identifier 
       from the thread local storage. For details on getting this identifier, see 
-      <a href="https://msdn.microsoft.com/1c412909-bdff-4181-9750-f3444fda4c8f">EventActivityIdControl</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a>.
 
 
 ### -param RelatedActivityId [in, optional]
@@ -99,20 +99,20 @@ GUID that uniquely identifies this activity. If <b>NULL</b>, ETW gets the identi
 Activity identifier from the previous component. Use this parameter to link your component's events to the 
       previous component's events. To get the activity identifier that was set for the previous component, see the 
       descriptions for the <i>ControlCode</i> parameter of the 
-      <a href="https://msdn.microsoft.com/1c412909-bdff-4181-9750-f3444fda4c8f">EventActivityIdControl</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
       function.
 
 
 ### -param UserDataCount [in]
 
-Number of <a href="https://msdn.microsoft.com/452ce6f6-3857-4f88-b501-44dd6091b97e">EVENT_DATA_DESCRIPTOR</a> structures 
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures 
       in <i>UserData</i>. The maximum number is 128.
 
 
 ### -param UserData [in, optional]
 
 The event data to write. Allocate a block of memory that contains one or more 
-      <a href="https://msdn.microsoft.com/452ce6f6-3857-4f88-b501-44dd6091b97e">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_data_descriptor">EVENT_DATA_DESCRIPTOR</a> structures. Set this 
       parameter to <b>NULL</b> if <i>UserDataCount</i> is zero. The data must be 
       in the order specified in the manifest.
 
@@ -222,11 +222,11 @@ If each component defined their own activity identifier, the components can make
      the events:
 
 <ul>
-<li>Call the <a href="https://msdn.microsoft.com/1c412909-bdff-4181-9750-f3444fda4c8f">EventActivityIdControl</a> 
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> 
       function using the EVENT_ACTIVITY_CTRL_GET_SET_ID control code. The function uses your identifier to set the 
       activity identifier in the thread local storage and returns the activity identifier for the previous component, 
       if set.</li>
-<li>Set the <i>RelatedActivityId</i> parameter of this function to the <i>ActivityId</i> value that the <a href="https://msdn.microsoft.com/1c412909-bdff-4181-9750-f3444fda4c8f">EventActivityIdControl</a> function returned. Note that for the first component, the related identifier will be all zeros (GUID_NULL).</li>
+<li>Set the <i>RelatedActivityId</i> parameter of this function to the <i>ActivityId</i> value that the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventactivityidcontrol">EventActivityIdControl</a> function returned. Note that for the first component, the related identifier will be all zeros (GUID_NULL).</li>
 <li>Set the <i>ActivityId</i> of this function to <b>NULL</b> to use the activity identifier that you set in thread local storage.</li>
 </ul>
 A provider can define filters that a session uses to filter events based on event data. With level and keywords, ETW determines whether the event is written to the session but with filters, the provider uses the filter data to determine whether it writes the event to the session. For example, if your provider generates process events, you could define a data filter that filters process events based on the process identifier. If the identifier of the process did not match the identifier that the session passed as filter data, you would set (perform a bitwise OR) the <i>Filter</i> parameter to the session's instance identifier to prevent the event from being written to that session.
@@ -234,8 +234,8 @@ A provider can define filters that a session uses to filter events based on even
 
 #### Examples
 
-For an example that uses <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>, see 
-     <a href="https://msdn.microsoft.com/76e7202e-74ce-40a3-a04b-9af5117fe20e">Writing Manifest-based Events</a>.
+For an example that uses <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>, see 
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/writing-manifest-based-events">Writing Manifest-based Events</a>.
 
 <div class="code"></div>
 
@@ -246,15 +246,15 @@ For an example that uses <a href="https://msdn.microsoft.com/93070eb7-c167-4419-
 
 
 
-<a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecdb0e92-fcc1-4b4f-99ea-6812b6b49381">EventWriteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritestring">EventWriteString</a>
 
 
 
-<a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
  
 
  

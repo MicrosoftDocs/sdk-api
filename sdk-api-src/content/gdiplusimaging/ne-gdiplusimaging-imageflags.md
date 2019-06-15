@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 The <b>ImageFlags</b> enumeration specifies the attributes of the pixel data contained in an 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object. The 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535376(v=VS.85).aspx">Image::GetFlags</a> method returns an element of this enumeration.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object. The 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getflags">Image::GetFlags</a> method returns an element of this enumeration.
 
 
 ## -enum-fields
@@ -135,7 +135,7 @@ Specifies that the pixel data can be cached for faster access.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535376(v=VS.85).aspx">Image::GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getflags">Image::GetFlags</a>
  
 
  

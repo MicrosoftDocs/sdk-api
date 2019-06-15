@@ -75,7 +75,7 @@ Returns the number of the dashes in the array.
 
 
 
-<a href="https://msdn.microsoft.com/D3C82EC8-4172-48FE-AE8C-5F15BDBBCD30">ID2D1SvgStrokeDashArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray">ID2D1SvgStrokeDashArray</a>
  
 
  

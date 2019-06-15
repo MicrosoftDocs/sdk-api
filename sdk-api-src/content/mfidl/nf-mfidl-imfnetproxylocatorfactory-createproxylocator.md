@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Creates an <a href="https://msdn.microsoft.com/2906b998-f1ca-4c65-b810-cbc360390653">IMFNetProxyLocator</a> interface proxy locator object based on the protocol name.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a> interface proxy locator object based on the protocol name.
 
 
 
@@ -68,7 +68,7 @@ Null-terminated wide-character string containing the protocol name (for example,
 
 ### -param ppProxyLocator [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/2906b998-f1ca-4c65-b810-cbc360390653">IMFNetProxyLocator</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6dd5bf50-2d07-47c7-869e-035d7e92a6bc">IMFNetProxyLocatorFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory">IMFNetProxyLocatorFactory</a>
  
 
  

@@ -100,7 +100,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/146A7D77-034F-4C06-99B8-8EBA6E7F0A40">FSCTL_ENUM_OVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-enum-overlay">FSCTL_ENUM_OVERLAY</a>
  
 
  

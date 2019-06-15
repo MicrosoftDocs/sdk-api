@@ -63,7 +63,7 @@ Creates a full UI Automation element for a virtualized item.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -88,7 +88,7 @@ A virtualized item is represented by a placeholder automation element in the UI 
 
 
 
-<a href="https://msdn.microsoft.com/48f066f3-c78c-47a2-9668-ab79b1438130">IUIAutomationVirtualizedItemPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvirtualizeditempattern">IUIAutomationVirtualizedItemPattern</a>
 
 
 
@@ -96,7 +96,7 @@ A virtualized item is represented by a placeholder automation element in the UI 
 
 
 
-<a href="https://msdn.microsoft.com/e1898ba0-5ffa-4c61-b378-c7ef7c4a2c52">Working with Virtualized Items</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithvirtualizeditems">Working with Virtualized Items</a>
  
 
  

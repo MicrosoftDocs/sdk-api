@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a> calls this callback function to get the measurement of the inline object.
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> calls this callback function to get the measurement of the inline object.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param metrics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/a42d612c-3d16-4c27-a1d8-1cfb9de2f8b1">DWRITE_INLINE_OBJECT_METRICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_inline_object_metrics">DWRITE_INLINE_OBJECT_METRICS</a>*</b>
 
 When this method returns, contains a structure describing the geometric measurement of an
 application-defined inline object.  These metrics are in relation to the baseline of the adjacent text. 
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/cf915458-acbc-4a37-be5c-b1337153f386">IDWriteInlineObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>
  
 
  

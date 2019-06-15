@@ -102,19 +102,19 @@ The default miter limit is 10.0.
 
 
 
-<a href="https://msdn.microsoft.com/a1e81314-4fe6-481f-af96-24ebf56332cf">ExtCreatePen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://msdn.microsoft.com/51b1fb95-dd44-47f8-9311-2c6dc9c57bbc">GetMiterLimit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmiterlimit">GetMiterLimit</a>
 
 
 
-<a href="https://msdn.microsoft.com/68390601-1542-41dc-bea0-78f6c3318806">Path Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbbd3ea0-9b35-4aaf-8498-187957e29cf0">Paths Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
  
 
  

@@ -107,7 +107,7 @@ MMC automatically determines the width of the column based on its title string.
 #### HIDE_COLUMN
 
 Introduced in MMC 1.2. The column is inserted, but it is hidden. Be aware that the user can make the column visible when 
-<a href="https://msdn.microsoft.com/en-us/library/Aa814749(v=VS.85).aspx">customizing a list view</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/how-column-configuration-data-is-used">customizing a list view</a>.
 
 For snap-ins built with the MMC 1.2 SDK, but which are loaded in an older version of MMC, <b>HIDE_COLUMN</b> is interpreted as a zero width. The user can widen the column by dragging it with the mouse.
 
@@ -126,7 +126,7 @@ This method can return one of these values.
 
 
 MMC does not persist in memory any changes made to a column set due to the action of <b>IHeaderCtrl::InsertColumn</b>, so snap-ins must update persisted column configuration data after inserting columns into a column set. See 
-<a href="https://msdn.microsoft.com/acec421f-edd4-49b6-a244-7099c524fe75">IHeaderCtrl2 and Column Persistence</a> for more information.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/iheaderctrl2-and-column-persistence">IHeaderCtrl2 and Column Persistence</a> for more information.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Calls to 
@@ -140,11 +140,11 @@ Calls to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300857(v=VS.85).aspx">IHeaderCtrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl">IHeaderCtrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/acec421f-edd4-49b6-a244-7099c524fe75">IHeaderCtrl2 and Column Persistence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/iheaderctrl2-and-column-persistence">IHeaderCtrl2 and Column Persistence</a>
  
 
  

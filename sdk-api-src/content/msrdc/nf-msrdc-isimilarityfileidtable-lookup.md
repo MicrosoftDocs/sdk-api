@@ -59,7 +59,7 @@ Retrieves the file ID that corresponds to a given file index in the similarity f
 
 ### -param similarityFileIndex [in]
 
-The file index that was previously returned for the file ID by the <a href="https://msdn.microsoft.com/2157d6e6-0d60-45a2-9f5c-4096088cb2bb">ISimilarityFileIdTable::Append</a> method.
+The file index that was previously returned for the file ID by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-append">ISimilarityFileIdTable::Append</a> method.
 
 
 ### -param similarityFileId [out]
@@ -83,7 +83,7 @@ This method can also return the following error code.
 
 
 
-<a href="https://msdn.microsoft.com/539a2e9b-9719-4012-bb7f-4d14723a3695">ISimilarityFileIdTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
  
 
  

@@ -83,15 +83,15 @@ The volume level at which to generate the tone.
 
 
 
-<a href="https://msdn.microsoft.com/fcc5d3c9-a7ab-4467-a948-b9fd68afe7b4">ITLegacyCallMediaControl2::GenerateCustomTones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtones">ITLegacyCallMediaControl2::GenerateCustomTones</a>
 
 
 
-<a href="https://msdn.microsoft.com/5115192e-68de-4779-92dc-7cf63585faae">ITLegacyCallMediaControl2::GenerateCustomTonesByCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">ITLegacyCallMediaControl2::GenerateCustomTonesByCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/e430d944-816b-4072-a40b-b9001c465713">LINEGENERATETONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a>
  
 
  

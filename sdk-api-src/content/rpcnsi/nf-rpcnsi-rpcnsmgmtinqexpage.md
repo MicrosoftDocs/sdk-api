@@ -87,7 +87,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -102,9 +102,9 @@ The
 An expiration age is used by Pointer next operations (which read data from name-service attributes). A next operation typically starts by looking for a local copy of the attribute data being requested by an application. In the absence of a local copy, the next operation creates one with fresh attribute data from the name-service database. If a local copy already exists, the operation compares its actual age to the expiration age being used by the application. If the actual age exceeds the expiration age, the operation automatically tries to update the local copy with fresh attribute data. If updating is impossible, the old local data remains in place and the next operation fails.
 
 Applications typically should use only the default expiration age. For special cases, however, an application can substitute a user-supplied global expiration age for the default by calling 
-<a href="https://msdn.microsoft.com/9433e8c3-2c52-4994-8661-6af089fa9bc9">RpcNsMgmtSetExpAge</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtsetexpage">RpcNsMgmtSetExpAge</a>. The 
 <b>RpcNsMgmtInqExpAge</b> function returns the current global expiration age, whether a default or a user-supplied value. An application can also override the global expiration age temporarily by calling the 
-<a href="https://msdn.microsoft.com/d6607ffb-21a9-41ec-863f-f1514b115d4d">RpcNsMgmtHandleSetExpAge</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmthandlesetexpage">RpcNsMgmtHandleSetExpAge</a> function.
 
 
 
@@ -114,11 +114,11 @@ Applications typically should use only the default expiration age. For special c
 
 
 
-<a href="https://msdn.microsoft.com/d6607ffb-21a9-41ec-863f-f1514b115d4d">RpcNsMgmtHandleSetExpAge</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmthandlesetexpage">RpcNsMgmtHandleSetExpAge</a>
 
 
 
-<a href="https://msdn.microsoft.com/9433e8c3-2c52-4994-8661-6af089fa9bc9">RpcNsMgmtSetExpAge</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtsetexpage">RpcNsMgmtSetExpAge</a>
  
 
  

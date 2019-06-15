@@ -60,8 +60,8 @@ Allows the user to bind to a specific domain controller (DC), overriding the Ker
 ### -field MessageType
 
 A 
-						value of the <a href="https://msdn.microsoft.com/8ad183d2-3fe8-4f52-bfa4-16f2a711f0c3">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration that lists the types of messages that can be sent to the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">Kerberos</a> authentication package by calling 
-the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function. This member must be set to <b>KerbAddBindingCacheEntryExMessage</b>.
+						value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration that lists the types of messages that can be sent to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
+the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function. This member must be set to <b>KerbAddBindingCacheEntryExMessage</b>.
 
 
 ### -field RealmName
@@ -109,7 +109,7 @@ The address is a NetBIOS name of the domain controller, for example, "\\phoenix"
 
 ### -field DcFlags
 
-The domain controller flags that the caller provides. These flags are needed to pass to the <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> function.
+The domain controller flags that the caller provides. These flags are needed to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
 
 
 ## -remarks
@@ -120,26 +120,26 @@ To meet both the user's requirements and Kerberos' requirements, you need  to ma
 
 <ol>
 <li>
-First, you construct a request message type of <a href="https://msdn.microsoft.com/en-us/library/Hh972683(v=VS.85).aspx">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST</a> in which the <b>MessageType</b> member must be set to <b>KerbQueryDomainExtendedPoliciesMessage</b>. The <b>DomainName</b> member is set to the actual domain name for which the extended domain policies are queried. If <b>DomainName</b> is set to null, the local computer's domain is assumed.
+First, you construct a request message type of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_request">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST</a> in which the <b>MessageType</b> member must be set to <b>KerbQueryDomainExtendedPoliciesMessage</b>. The <b>DomainName</b> member is set to the actual domain name for which the extended domain policies are queried. If <b>DomainName</b> is set to null, the local computer's domain is assumed.
 
 </li>
 <li>
-Next, you call the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://msdn.microsoft.com/en-us/library/Hh972684(v=VS.85).aspx">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
+Next, you call the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
 <li>If the local computer has disabled DAC, the <b>Flags</b> member is set to 	KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED.</li>
 <li>If the specified domain has Flexible Authentication Secure Tunneling (FAST) enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_FAST_CAPABLE (0x10000).</li>
 <li>If the specified domain has Claims enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_CLAIMS_CAPABLE (0x40000).</li>
-<li>If the local computer  domain doesn't disable DAC and the specified domain has either FAST or Claims  enabled, the <b>DsFlags</b> member of the <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> function is set to  DS_DIRECTORY_SERVICE_8_REQUIRED. Otherwise, <b>DsFlags</b> is 0.</li>
+<li>If the local computer  domain doesn't disable DAC and the specified domain has either FAST or Claims  enabled, the <b>DsFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function is set to  DS_DIRECTORY_SERVICE_8_REQUIRED. Otherwise, <b>DsFlags</b> is 0.</li>
 <li>If the function returns a failure in the <b>ProtocolStatus</b> member, STATUS_NOT_FOUND indicates that the specified domain cannot be queried because the local computer doesn't have trust to the specified domain. Other error codes indicate the actual failure encountered.</li>
 </ul>
 
 
 </li>
 <li>
-Then you must call <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> with the returned <b>DsFlags</b> set with flags that represent your own requirements, which may be several, so use the  logical operator <b>OR</b>. The <b>DomainControllerInfo</b> member is returned. 
+Then you must call <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> with the returned <b>DsFlags</b> set with flags that represent your own requirements, which may be several, so use the  logical operator <b>OR</b>. The <b>DomainControllerInfo</b> member is returned. 
 
 </li>
 <li>
-Finally, you call the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://msdn.microsoft.com/en-us/library/Hh972684(v=VS.85).aspx">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
+Finally, you call the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_query_domain_extended_policies_response">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
 
 </li>
 </ol>
@@ -151,7 +151,7 @@ Finally, you call the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a9
 
 
 
-<a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
  
 
  

@@ -91,7 +91,7 @@ Specifies the channel mask that is used by the uncompressed audio data.
 
 
 
-This structure provides access to the parameters that describe an uncompressed <a href="http://go.microsoft.com/fwlink/p/?linkid=153892">PCM </a> audio format.
+This structure provides access to the parameters that describe an uncompressed PCM audio format.
 
 
 

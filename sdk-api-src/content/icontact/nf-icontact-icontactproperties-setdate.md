@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Sets the date and time value at a specified property to a given 
-    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
+    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. All times are stored and returned as Coordinated Universal Time (UTC).
 
 
 ## -parameters
@@ -74,10 +74,10 @@ CGD_DEFAULT can be used to create or overwrite value at <i>pszPropertyName</i>.
 
 ### -param ftDateTime [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> structure to use for date. 
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to use for date. 
 
 
 ## -returns

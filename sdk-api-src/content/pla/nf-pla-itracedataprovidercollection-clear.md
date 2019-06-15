@@ -82,11 +82,11 @@ Note that by removing the providers from the collection, you are also removing t
 
 
 
-<a href="https://msdn.microsoft.com/74300222-dca4-4871-bae3-0c3182fbc539">ITraceDataProviderCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/553ec66e-d38a-46cc-9b01-f4d7947eda91">ITraceDataProviderCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-remove">ITraceDataProviderCollection::Remove</a>
  
 
  

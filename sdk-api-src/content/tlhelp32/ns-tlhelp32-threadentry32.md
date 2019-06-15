@@ -60,7 +60,7 @@ Describes an entry from a list of the threads executing in the system when a sna
 ### -field dwSize
 
 The size of the structure, in bytes. Before calling the 
-<a href="https://msdn.microsoft.com/d4cb7a19-850e-43b5-bda5-91be48382d2a">Thread32First</a> function, set this member to <code>sizeof(THREADENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a> function, set this member to <code>sizeof(THREADENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
 <b>Thread32First</b> fails.
 
 
@@ -72,7 +72,7 @@ This member is no longer used and is always set to zero.
 ### -field th32ThreadID
 
 The thread identifier, compatible with the thread identifier returned by the 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.
 
 
 ### -field th32OwnerProcessID
@@ -100,11 +100,11 @@ This member is no longer used and is always set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/d4cb7a19-850e-43b5-bda5-91be48382d2a">Thread32First</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>
 
 
 
-<a href="https://msdn.microsoft.com/5efe514e-626c-4138-97a0-bdad217c424f">Thread32Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32next">Thread32Next</a>
  
 
  

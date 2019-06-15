@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides an interface for the implementation of drawing behaviors when a <a href="https://msdn.microsoft.com/1CABA8F5-2380-45B9-804C-B1DC9FF34B62">VirtualSurfaceImageSource</a> requests an update. 
+Provides an interface for the implementation of drawing behaviors when a <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> requests an update. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualSurfaceUpdatesCallbackNative</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVirtualSurfaceUpdatesCallbackNative</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualSurfaceUpdatesCallbackNative</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualSurfaceUpdatesCallbackNative</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IVirtualSurfaceUpdatesCallbackNative</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D689C977-3182-41FE-A789-8A349AC2FB10">UpdatesNeeded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative-updatesneeded">UpdatesNeeded</a>
 </td>
 <td align="left" width="63%">
-Performs the drawing behaviors when an update to <a href="https://msdn.microsoft.com/1CABA8F5-2380-45B9-804C-B1DC9FF34B62">VirtualSurfaceImageSource</a> is requested.
+Performs the drawing behaviors when an update to <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> is requested.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Performs the drawing behaviors when an update to <a href="https://msdn.microsoft
 
 
 
-This interface is implemented by the developer to provide specific drawing behaviors for updates to a <a href="https://msdn.microsoft.com/1CABA8F5-2380-45B9-804C-B1DC9FF34B62">VirtualSurfaceImageSource</a>. Classes that implement  this interface are provided to the <a href="https://msdn.microsoft.com/D12AE5FD-ED3D-49E5-8E41-B1598C64A108">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>, which calls the <a href="https://msdn.microsoft.com/D689C977-3182-41FE-A789-8A349AC2FB10">UpdatesNeeded</a> method implementation whenever an update is requested.
+This interface is implemented by the developer to provide specific drawing behaviors for updates to a <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a>. Classes that implement  this interface are provided to the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-registerforupdatesneeded">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>, which calls the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative-updatesneeded">UpdatesNeeded</a> method implementation whenever an update is requested.
 
 
 
@@ -93,7 +93,7 @@ This interface is implemented by the developer to provide specific drawing behav
 
 
 
-<a href="https://msdn.microsoft.com/17987EEA-6771-423C-9B68-6B9AEADC7B7F">DirectX and XAML interop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 
@@ -101,11 +101,11 @@ This interface is implemented by the developer to provide specific drawing behav
 
 
 
-<a href="https://msdn.microsoft.com/D12AE5FD-ED3D-49E5-8E41-B1598C64A108">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative-registerforupdatesneeded">IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded</a>
 
 
 
-<a href="https://msdn.microsoft.com/1CABA8F5-2380-45B9-804C-B1DC9FF34B62">VirtualSurfaceImageSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a>
  
 
  

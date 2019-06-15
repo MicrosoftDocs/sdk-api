@@ -59,12 +59,12 @@ Adds a behavior to the viewport and returns a cookie to the caller.
 
 ### -param behavior [in]
 
-A behavior created using the <a href="https://msdn.microsoft.com/8890E44F-595A-4116-B4A4-F10FAEE598B7">CreateBehavior</a> method.
+A behavior created using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager2-createbehavior">CreateBehavior</a> method.
 
 
 ### -param cookie [out, retval]
 
-A cookie is returned so the caller can remove this behavior later. This allows the caller to release any reference on the behavior and let <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> maintain an appropriate lifetime, similar to event handlers. 
+A cookie is returned so the caller can remove this behavior later. This allows the caller to release any reference on the behavior and let <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> maintain an appropriate lifetime, similar to event handlers. 
 
 
 ## -returns
@@ -90,7 +90,7 @@ A behavior takes effect immediately after <b>AddBehavior</b> is called. This mus
 
 
 
-<a href="https://msdn.microsoft.com/6EDFBA93-D2A2-4089-9976-CD1F8421B319">IDirectManipulationViewport2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>
  
 
  

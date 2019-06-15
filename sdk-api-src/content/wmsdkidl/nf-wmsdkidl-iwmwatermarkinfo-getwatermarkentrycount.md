@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd798717(v=VS.85).aspx">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMOs</a>.
+The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed watermarking systems of a specified type. Use this method in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentry">IWMWatermarkInfo::GetWatermarkEntry</a> to enumerate the installed watermarking <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DMOs</a>.
 
 
 
@@ -65,7 +65,7 @@ The <b>GetWatermarkEntryCount</b> method retrieves the total number of installed
 
 ### -param wmetType [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757881(v=VS.85).aspx">WMT_WATERMARK_ENTRY_TYPE</a> enumeration type specifying the type of watermarking system..
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-tagwmt_watermark_entry_type">WMT_WATERMARK_ENTRY_TYPE</a> enumeration type specifying the type of watermarking system..
 
 
 ### -param pdwCount [out]
@@ -115,11 +115,11 @@ No watermarking DMOs are provided with the Windows Media Format SDK. You can ins
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798716(v=VS.85).aspx">IWMWatermarkInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwatermarkinfo">IWMWatermarkInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798717(v=VS.85).aspx">IWMWatermarkInfo::GetWatermarkEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwatermarkinfo-getwatermarkentry">IWMWatermarkInfo::GetWatermarkEntry</a>
  
 
  

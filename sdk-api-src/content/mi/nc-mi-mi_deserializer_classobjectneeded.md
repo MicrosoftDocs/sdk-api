@@ -79,19 +79,19 @@ The class of the object.
 
 #### - **requestedClassObject [out]
 
-A <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> representing the requested class object.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> representing the requested class object.
 
 
 #### - requestedClassObject [out]
 
-A <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> representing the requested class object.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> representing the requested class object.
 
 
 ## -returns
 
 
 
-Returns a <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> indicating the status of the operation.
+Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> indicating the status of the operation.
 
 
 
@@ -101,15 +101,15 @@ Returns a <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA
 
 
 
-<a href="https://msdn.microsoft.com/dcd2b458-7c25-47a8-a324-43fc1456fcec">MI_DeserializerFT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_deserializerft">MI_DeserializerFT</a>
 
 
 
-<a href="https://msdn.microsoft.com/09ad196c-9940-4d10-8a4e-1e06acd5d677">MI_Deserializer_DeserializeClass</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeclass">MI_Deserializer_DeserializeClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/54b24a50-f700-4369-b6dc-8406000a5b30">MI_Deserializer_DeserializeInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_deserializer_deserializeinstance">MI_Deserializer_DeserializeInstance</a>
  
 
  

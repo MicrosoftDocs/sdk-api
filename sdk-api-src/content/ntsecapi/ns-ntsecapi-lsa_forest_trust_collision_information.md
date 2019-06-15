@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LSA_FOREST_TRUST_COLLISION_INFORMATION</b> structure contains information about <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> forest trust collisions.
+The <b>LSA_FOREST_TRUST_COLLISION_INFORMATION</b> structure contains information about <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust collisions.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The <b>LSA_FOREST_TRUST_COLLISION_INFORMATION</b> structure contains information
 
 ### -field RecordCount
 
-Number of <a href="https://msdn.microsoft.com/en-us/library/Aa378331(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
 
 
 ### -field Entries
 
-Pointer to a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa378331(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures, each of which contains information about a single collision.
+Pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures, each of which contains information about a single collision.
 
 
 ### -field Entries.size_is

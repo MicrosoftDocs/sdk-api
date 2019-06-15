@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>DS_SELECTION</b> structure contains data about an object the user selected from an object picker dialog box. The 
-<a href="https://msdn.microsoft.com/15493b8c-014e-4e69-9e67-40b24d44606d">DS_SELECTION_LIST</a> structure contains an array of <b>DS_SELECTION</b> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection_list">DS_SELECTION_LIST</a> structure contains an array of <b>DS_SELECTION</b> structures.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Pointer to a null-terminated Unicode string that contains the object's relative 
 ### -field pwzADsPath
 
 Pointer to a null-terminated Unicode string that contains the object's ADsPath. The format of this string depends on the flags specified in the <b>flScope</b> member of the 
-<a href="https://msdn.microsoft.com/6262b520-1eee-48e0-b3af-636b66d78b3d">DSOP_SCOPE_INIT_INFO</a> structure for the scope from which this object was selected.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure for the scope from which this object was selected.
 
 
 ### -field pwzClass
@@ -82,17 +82,17 @@ Pointer to a null-terminated Unicode string that contains the object's userPrinc
 ### -field pvarFetchedAttributes
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structures. Each <b>VARIANT</b> contains the value of an attribute of the selected object. The attributes retrieved are determined by the attribute names specified in the <b>apwzAttributeNames</b> member of the 
-<a href="https://msdn.microsoft.com/6d070185-e0b6-4c24-9941-95bca2f33192">DSOP_INIT_INFO</a> structure passed to the 
-<a href="https://msdn.microsoft.com/bcf4d283-6709-4425-a122-8f0808502b58">IDsObjectPicker::Initialize</a> method. The order of attributes in the <b>pvarFetchedAttributes</b> array corresponds to the order of attribute names specified in the <b>apwzAttributeNames</b> array.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structures. Each <b>VARIANT</b> contains the value of an attribute of the selected object. The attributes retrieved are determined by the attribute names specified in the <b>apwzAttributeNames</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_init_info">DSOP_INIT_INFO</a> structure passed to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a> method. The order of attributes in the <b>pvarFetchedAttributes</b> array corresponds to the order of attribute names specified in the <b>apwzAttributeNames</b> array.
 
-The object picker dialog box may not be able to retrieve the requested attributes. If the attribute cannot be retrieved, the <b>vt</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure contains <b>VT_EMPTY</b>.
+The object picker dialog box may not be able to retrieve the requested attributes. If the attribute cannot be retrieved, the <b>vt</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> structure contains <b>VT_EMPTY</b>.
 
 
 ### -field flScopeType
 
 Contains one, or more, of the <b>DSOP_SCOPE_TYPE_*</b> that indicate the type of  scope from which this object was selected.  For more information, and a list of <b>DSOP_SCOPE_TYPE_*</b> flags, see the <b>flType</b> member of the 
-<a href="https://msdn.microsoft.com/6262b520-1eee-48e0-b3af-636b66d78b3d">DSOP_SCOPE_INIT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure.
 
 
 ## -see-also
@@ -100,27 +100,27 @@ Contains one, or more, of the <b>DSOP_SCOPE_TYPE_*</b> that indicate the type of
 
 
 
-<a href="https://msdn.microsoft.com/6d070185-e0b6-4c24-9941-95bca2f33192">DSOP_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_init_info">DSOP_INIT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/6262b520-1eee-48e0-b3af-636b66d78b3d">DSOP_SCOPE_INIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/15493b8c-014e-4e69-9e67-40b24d44606d">DS_SELECTION_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-_ds_selection_list">DS_SELECTION_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b3e5d71-afd2-49db-b3a2-f9a49f0b2b3a">Directory Object Picker</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcf4d283-6709-4425-a122-8f0808502b58">IDsObjectPicker::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a>
  
 
  

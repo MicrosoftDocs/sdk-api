@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This function is deprecated. Use <a href="https://msdn.microsoft.com/9361b2c1-ef26-4225-92ff-e0bef0285bc4">CreateClassMoniker</a> instead. Note that the CLSID used in the call to <b>CreateClassMoniker</b> must be application-defined. Do not call <b>CreateClassMoniker</b> with a system-defined CLSID.]
+<p class="CCE_Message">[This function is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a> instead. Note that the CLSID used in the call to <b>CreateClassMoniker</b> must be application-defined. Do not call <b>CreateClassMoniker</b> with a system-defined CLSID.]
 
-Deprecated. Creates a <b>QueryCancelAutoPlay</b> class moniker, which can then be used to register the <a href="https://msdn.microsoft.com/7dd470cd-163b-43e1-80d9-cdaa8b615858">IQueryCancelAutoPlay</a> handler in the running object table (ROT).
+Deprecated. Creates a <b>QueryCancelAutoPlay</b> class moniker, which can then be used to register the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a> handler in the running object table (ROT).
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Deprecated. Creates a <b>QueryCancelAutoPlay</b> class moniker, which can then b
 
 ### -param ppmoniker [out]
 
-Type: <b><a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
 
-The address of a <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface pointer that, when this function returns successfully, receives the <b>QueryCancelAutoPlay</b> class moniker. If this function call fails, this value is <b>NULL</b>.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface pointer that, when this function returns successfully, receives the <b>QueryCancelAutoPlay</b> class moniker. If this function call fails, this value is <b>NULL</b>.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If successful, <b>SHCreateQueryCancelAutoPlayMoniker</b> calls the interface's <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> method and increments the reference count. When you are finished, call the interface's <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> method to release.
+If successful, <b>SHCreateQueryCancelAutoPlayMoniker</b> calls the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method and increments the reference count. When you are finished, call the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method to release.
 
 
 
@@ -91,7 +91,7 @@ If successful, <b>SHCreateQueryCancelAutoPlayMoniker</b> calls the interface's <
 
 
 
-<a href="https://msdn.microsoft.com/9361b2c1-ef26-4225-92ff-e0bef0285bc4">CreateClassMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createclassmoniker">CreateClassMoniker</a>
  
 
  

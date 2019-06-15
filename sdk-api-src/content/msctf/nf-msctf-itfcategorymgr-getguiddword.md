@@ -121,15 +121,15 @@ The specified <i>pdw</i> parameter was <b>NULL</b> on input.
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/674165f4-1624-46fa-b3c6-ee5242fa457b">ITfCategoryMgr::RegisterGUIDDWORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguiddword">ITfCategoryMgr::RegisterGUIDDWORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/37161b4b-7dfc-4b8d-8e0b-3b9f794eb3b0">ITfCategoryMgr::UnregisterGUIDDWORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-unregisterguiddword">ITfCategoryMgr::UnregisterGUIDDWORD</a>
  
 
  

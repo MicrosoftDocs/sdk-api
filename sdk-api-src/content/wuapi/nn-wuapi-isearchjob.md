@@ -54,7 +54,7 @@ Contains properties and methods that are available to a search operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchJob</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISearchJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchJob</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISearchJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ISearchJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35f345ac-cf5b-4ba6-9422-5d9da449bcdd">CleanUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-isearchjob-cleanup">CleanUp</a>
 </td>
 <td align="left" width="63%">
 Waits for an asynchronous operation to complete and then releases all the callbacks.
@@ -79,7 +79,7 @@ Waits for an asynchronous operation to complete and then releases all the callba
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ceedfa28-eef3-4707-8e3a-e59ad45dbea7">RequestAbort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-isearchjob-requestabort">RequestAbort</a>
 </td>
 <td align="left" width="63%">
 Makes a request to cancel an asynchronous search.
@@ -97,7 +97,7 @@ Makes a request to cancel an asynchronous search.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/68d861a3-420d-4a89-ac32-900db6d51036">AsyncState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-isearchjob-get_asyncstate">AsyncState</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the caller-specific state object that is passed to the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">IUpdateSearch.BeginSearch</a> method.
+Gets the caller-specific state object that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearch.BeginSearch</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/32bb990d-89ce-4aca-8a9f-28cbd991e506">IsCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-isearchjob-get_iscompleted">IsCompleted</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a Boolean value that indicates whether the call to the <a href="https://msdn.microsoft.com/8af818b1-7dd8-4f48-b447-5b6dfbfce420">IUpdateSearch.BeginSearch</a> method is completely processed.
+Gets a Boolean value that indicates whether the call to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearch.BeginSearch</a> method is completely processed.
 
 </td>
 </tr>

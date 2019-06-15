@@ -138,7 +138,7 @@ The TCP connection is waiting for enough time to pass to be sure
 
 ### -field TCPSTATE_MAX
 
-The maximum value of the <a href="https://msdn.microsoft.com/225C423E-C820-4E9F-8261-DA1E14F81683">TCPSTATE</a> enumeration.
+The maximum value of the <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-_tcpstate">TCPSTATE</a> enumeration.
 
 
 ## -remarks
@@ -160,11 +160,11 @@ For more information about TCP connection states, see <a href="https://go.micros
 
 
 
-<a href="https://msdn.microsoft.com/AB5F25B6-D2D2-42D7-8189-06CAC4842C66">SIO_TCP_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9A51A059-59EC-4D30-9ECE-C81351C0861F">TCP_INFO_v0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-_tcp_info_v0">TCP_INFO_v0</a>
  
 
  

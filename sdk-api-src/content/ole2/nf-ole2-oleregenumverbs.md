@@ -66,7 +66,7 @@ Class identifier whose verbs are being requested.
 
 ### -param ppenum [out]
 
-Address of <a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a>* pointer variable that receives the interface pointer to the new enumeration object.
+Address of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>* pointer variable that receives the interface pointer to the new enumeration object.
 
 
 ## -returns
@@ -135,9 +135,9 @@ The DataFormats/GetSet key is missing from the registry.
 
 
 
-Object applications can ask OLE to create an enumeration object for <a href="https://msdn.microsoft.com/657e3cc3-67fb-4458-8dad-f2a31df1b631">OLEVERB</a> structures to enumerate supported verbs in one of two ways. One way is to call <b>OleRegEnumVerbs</b>. The other way is to return OLE_S_USEREG in response to calls by the default object handler to <a href="https://msdn.microsoft.com/c67770d0-e478-41dc-9028-1e0a6cb9e3c7">IOleObject::EnumVerbs</a>. OLE_S_USEREG instructs the default handler to call <b>OleRegEnumVerbs</b>. Because DLL object applications cannot return OLE_S_USEREG, they must call <b>OleRegEnumVerbs</b> rather than delegating the job to the object handler. With the supplied <a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a> pointer to the object, you can call the standard enumeration object methods to do the enumeration.
+Object applications can ask OLE to create an enumeration object for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-tagoleverb">OLEVERB</a> structures to enumerate supported verbs in one of two ways. One way is to call <b>OleRegEnumVerbs</b>. The other way is to return OLE_S_USEREG in response to calls by the default object handler to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>. OLE_S_USEREG instructs the default handler to call <b>OleRegEnumVerbs</b>. Because DLL object applications cannot return OLE_S_USEREG, they must call <b>OleRegEnumVerbs</b> rather than delegating the job to the object handler. With the supplied <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a> pointer to the object, you can call the standard enumeration object methods to do the enumeration.
 
-The <b>OleRegEnumVerbs</b> function and its sibling functions, <a href="https://msdn.microsoft.com/492a4084-494e-4d78-8f3a-853ec486a2d6">OleRegGetUserType</a>, <a href="https://msdn.microsoft.com/3166955f-4f7a-4904-a7fb-ebdfb8e56baf">OleRegGetMiscStatus</a>, and <a href="https://msdn.microsoft.com/6caebc68-a136-40f2-92d8-7f8003c18e5c">OleRegEnumFormatEtc</a>, provide a way for developers of custom DLL object applications to emulate the behavior of OLE's default object handler in getting information about objects from the registry. By using these functions, you avoid the considerable work of writing your own, and the pitfalls inherent in working directly in the registry. In addition, you get future enhancements and optimizations of these functions without having to code them yourself.
+The <b>OleRegEnumVerbs</b> function and its sibling functions, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetmiscstatus">OleRegGetMiscStatus</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleregenumformatetc">OleRegEnumFormatEtc</a>, provide a way for developers of custom DLL object applications to emulate the behavior of OLE's default object handler in getting information about objects from the registry. By using these functions, you avoid the considerable work of writing your own, and the pitfalls inherent in working directly in the registry. In addition, you get future enhancements and optimizations of these functions without having to code them yourself.
 
 
 
@@ -147,11 +147,11 @@ The <b>OleRegEnumVerbs</b> function and its sibling functions, <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/fc9b3474-6f56-4274-af7d-72e0920c0457">IEnumOLEVERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
 
 
 
-<a href="https://msdn.microsoft.com/c67770d0-e478-41dc-9028-1e0a6cb9e3c7">IOleObject::EnumVerbs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags to control the execution of the <a href="https://msdn.microsoft.com/7e874e9a-7417-4b3f-95c5-398fe92bfdf8">IWbemClassObject::GetObjectText</a> method.
+Contains flags to control the execution of the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">IWbemClassObject::GetObjectText</a> method.
 
 
 ## -enum-fields
@@ -67,7 +67,7 @@ Present qualifiers without propagation or flavor information.
 
 
 
-<a href="https://msdn.microsoft.com/7e874e9a-7417-4b3f-95c5-398fe92bfdf8">IWbemClassObject::GetObjectText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">IWbemClassObject::GetObjectText</a>
  
 
  

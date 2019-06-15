@@ -54,7 +54,7 @@ Enables getting  the registration info for an in-process server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDllServerActivatableClassRegistration</b> interface inherits from <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>. <b>IDllServerActivatableClassRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDllServerActivatableClassRegistration</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDllServerActivatableClassRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDllServerActivatableClassRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B46BB464-C993-49A7-86C8-4945E69AA9CC">get_DllPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_dllpath">get_DllPath</a>
 </td>
 <td align="left" width="63%">
 Gets the fully qualified path to the in-process server.
@@ -78,7 +78,7 @@ Gets the fully qualified path to the in-process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08F95AD6-B559-4652-A496-84777BF0189D">get_ThreadingType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-idllserveractivatableclassregistration-get_threadingtype">get_ThreadingType</a>
 </td>
 <td align="left" width="63%">
 Gets the apartment threading model for activating the in-process server.
@@ -93,15 +93,15 @@ Gets the apartment threading model for activating the in-process server.
 
 
 
-<a href="https://msdn.microsoft.com/99834A2D-547B-4B04-8703-46B11E0BB812">IActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/1D8F7B12-2883-478D-B83D-84AC47D512E4">IExeServerActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iexeserveractivatableclassregistration">IExeServerActivatableClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
  
 
  

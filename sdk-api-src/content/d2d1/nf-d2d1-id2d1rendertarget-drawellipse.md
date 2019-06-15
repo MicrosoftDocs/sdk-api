@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cd3aad6-72fc-41a3-a792-6ecac838c080">DrawEllipse(D2D1_ELLIPSE&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)">DrawEllipse(D2D1_ELLIPSE&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
 Draws the outline of the specified ellipse using the specified stroke style.
@@ -66,7 +66,7 @@ Draws the outline of the specified ellipse using the specified stroke style.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a760cc1e-4798-449d-bb45-693672d91132">DrawEllipse(D2D1_ELLIPSE*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)">DrawEllipse(D2D1_ELLIPSE*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
 </td>
 <td align="left" width="63%">
 Draws the outline of the specified ellipse using the specified stroke style.
@@ -82,12 +82,12 @@ Draws the outline of the specified ellipse using the specified stroke style.
 
 
 
-The <b>DrawEllipse</b> method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawEllipse</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+The <b>DrawEllipse</b> method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawEllipse</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-05417ae4ef29">How to Draw and Fill a Basic Shape</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>.
 
 <div class="code"></div>
 
@@ -98,11 +98,11 @@ For an example, see <a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742849(v=VS.85).aspx">FillEllipse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillellipse">FillEllipse</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

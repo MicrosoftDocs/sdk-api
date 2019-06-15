@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NetValidatePasswordPolicyFree</b> function frees the memory that the <a href="https://msdn.microsoft.com/be5ce51b-6568-49c8-954d-7b0d4bcb8611">NetValidatePasswordPolicy</a> function allocates for the <i>OutputArg</i> parameter, which is a <a href="https://msdn.microsoft.com/833c89c3-34ba-485b-a310-1d709aa618cd">NET_VALIDATE_OUTPUT_ARG</a> structure.
+The <b>NetValidatePasswordPolicyFree</b> function frees the memory that the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> function allocates for the <i>OutputArg</i> parameter, which is a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-_net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structure.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Pointer to the memory allocated for the <i>OutputArg</i> parameter by a call to 
 
 If the function frees the memory, or if there is no memory to free from a previous call to <b>NetValidatePasswordPolicy</b>, the return value is NERR_Success.
 
-If the function fails, the return value is a system error code. For a list of error codes, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>. 
+If the function fails, the return value is a system error code. For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>. 
 
 
 
@@ -88,16 +88,16 @@ No special group membership is required to successfully execute this function.
 
 
 
-<a href="https://msdn.microsoft.com/be5ce51b-6568-49c8-954d-7b0d4bcb8611">NetValidatePasswordPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

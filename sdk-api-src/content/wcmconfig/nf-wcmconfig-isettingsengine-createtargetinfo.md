@@ -59,7 +59,7 @@ Creates an empty target.
 
 ### -param Target [out]
 
-An <a href="https://msdn.microsoft.com/f1dd3c93-43ca-4804-8330-55acaccf8ea8">ITargetInfo</a> interface pointer to an empty target.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a> interface pointer to an empty target.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It may retu
 
 
 
-<a href="https://msdn.microsoft.com/ba816a00-e238-4dbd-a09a-ad4e191d9c4e">ISettingsEngine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
  
 
  

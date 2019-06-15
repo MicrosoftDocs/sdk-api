@@ -54,7 +54,7 @@ The <b>IAzObjectPicker</b> interface displays a dialog box that allows users to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzObjectPicker</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzObjectPicker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IAzObjectPicker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e03a2160-42bc-44a9-a893-36d2d1de18d4">GetPrincipals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-getprincipals">GetPrincipals</a>
 </td>
 <td align="left" width="63%">
-Displays a dialog box from which users can choose one or more principals, and then returns the chosen list of principals and their corresponding <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs).
+Displays a dialog box from which users can choose one or more principals, and then returns the chosen list of principals and their corresponding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Displays a dialog box from which users can choose one or more principals, and th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b42ebb74-deb0-4182-8447-2c7886963a7e">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazobjectpicker-get_name">Name</a>
 
 
 </td>

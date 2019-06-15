@@ -103,15 +103,15 @@ The members of <b>SYNC_RESOLVE_ACTION</b> specify the action that the change app
 
 
 
-<a href="https://msdn.microsoft.com/b89124fe-200e-4061-974e-2d686de7a932">IChangeConflict::GetResolveActionForChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-getresolveactionforchange">IChangeConflict::GetResolveActionForChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1a26c85-a00d-408e-96ea-5849c6bb99ff">IChangeConflict::SetResolveActionForChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ichangeconflict-setresolveactionforchange">IChangeConflict::SetResolveActionForChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/139266e9-cd22-4548-a2b6-927328e7ce82">Windows Sync Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
  
 
  

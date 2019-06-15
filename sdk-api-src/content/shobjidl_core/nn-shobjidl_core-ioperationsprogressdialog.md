@@ -54,7 +54,7 @@ Exposes methods to get, set, and query a progress dialog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOperationsProgressDialog</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOperationsProgressDialog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOperationsProgressDialog</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOperationsProgressDialog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOperationsProgressDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e1c34cf-1fa2-43b7-91c9-2ec9224b5b39">GetMilliseconds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-getmilliseconds">GetMilliseconds</a>
 </td>
 <td align="left" width="63%">
 Gets elapsed and remaining time for progress dialog.
@@ -78,7 +78,7 @@ Gets elapsed and remaining time for progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd796369-9789-4c69-b699-eb0ec0e571b2">GetOperationStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-getoperationstatus">GetOperationStatus</a>
 </td>
 <td align="left" width="63%">
 Gets operation status for progress dialog.
@@ -87,7 +87,7 @@ Gets operation status for progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fdfd3b1-23fb-4172-a3e4-2142a29c21e3">PauseTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-pausetimer">PauseTimer</a>
 </td>
 <td align="left" width="63%">
 Pauses progress dialog timer.
@@ -96,7 +96,7 @@ Pauses progress dialog timer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a16d1595-c601-45a0-b3f5-35fe31cd0f22">ResetTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-resettimer">ResetTimer</a>
 </td>
 <td align="left" width="63%">
 Resets progress dialog timer to 0.
@@ -105,7 +105,7 @@ Resets progress dialog timer to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2f219f8-75c0-4101-a499-2770bb01ab7b">ResumeTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-resumetimer">ResumeTimer</a>
 </td>
 <td align="left" width="63%">
 Resumes progress dialog timer.
@@ -114,7 +114,7 @@ Resumes progress dialog timer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec731281-c0af-4cf6-aa63-d80a80a18c15">SetMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setmode">SetMode</a>
 </td>
 <td align="left" width="63%">
 Sets progress dialog operations mode.
@@ -123,7 +123,7 @@ Sets progress dialog operations mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6fae1df-1c27-4ce9-a7f6-c5488f080ef3">SetOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setoperation">SetOperation</a>
 </td>
 <td align="left" width="63%">
 Sets which progress dialog operation is occurring, and whether we are in pre-flight or undo mode.
@@ -132,7 +132,7 @@ Sets which progress dialog operation is occurring, and whether we are in pre-fli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d6f44e0-259f-42d3-9912-877d90f0e7fc">StartProgressDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-startprogressdialog">StartProgressDialog</a>
 </td>
 <td align="left" width="63%">
 Starts the specified progress dialog.
@@ -141,7 +141,7 @@ Starts the specified progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1033b197-f11c-49ed-8186-914c1cb04250">StopProgressDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-stopprogressdialog">StopProgressDialog</a>
 </td>
 <td align="left" width="63%">
 Stops current progress dialog.
@@ -150,7 +150,7 @@ Stops current progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df07833a-691c-4d93-a85e-8d21dd04ee64">UpdateLocations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-updatelocations">UpdateLocations</a>
 </td>
 <td align="left" width="63%">
 Called to specify the text elements stating the source and target in the current progress dialog.
@@ -159,7 +159,7 @@ Called to specify the text elements stating the source and target in the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ff2def3-f320-412c-8f98-bd1a58866d03">UpdateProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-updateprogress">UpdateProgress</a>
 </td>
 <td align="left" width="63%">
 Updates the current progress dialog, as specified.

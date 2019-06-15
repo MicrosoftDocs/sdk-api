@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WlxGetConsoleSwitchCredentials</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function to read the currently logged on user's credentials to transparently transfer them to a target session.
+The <b>WlxGetConsoleSwitchCredentials</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function to read the currently logged on user's credentials to transparently transfer them to a target session.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -64,7 +64,7 @@ Pointer to a GINA-specific context.
 
 ### -param pCredInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/f72f3dd3-42a3-4f2b-be36-13c496c396fd">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> to return GINA relevant information.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_consoleswitch_credentials_info">WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0</a> to return GINA relevant information.
 
 
 ## -returns

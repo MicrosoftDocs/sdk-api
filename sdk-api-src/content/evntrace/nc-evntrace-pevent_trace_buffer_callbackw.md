@@ -72,7 +72,7 @@ The <b>PEVENT_TRACE_BUFFER_CALLBACK</b> type defines a pointer to this callback 
 #### - Buffer [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> structure that contains information about the buffer. 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that contains information about the buffer. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ Pointer to an
 
 
 To continue processing events, return <b>TRUE</b>. Otherwise, return <b>FALSE</b>.
-					Returning <b>FALSE</b> will terminate the <a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a> function.
+					Returning <b>FALSE</b> will terminate the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function.
 
 
 
@@ -91,15 +91,15 @@ To continue processing events, return <b>TRUE</b>. Otherwise, return <b>FALSE</b
 
 To specify the function that ETW calls to deliver the buffer statistics, set the 
 <b>BufferCallback</b> member of the 
-<a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> structure that you pass to the 
-<a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that you pass to the 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function.
 
 
 #### Examples
 
 For an example implementation of a 
 <b>BufferCallback</b> function, see 
-<a href="https://msdn.microsoft.com/13512236-c416-43ba-bf36-b05c5c08d6c9">Retrieving Event Data Using MOF</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
@@ -110,11 +110,11 @@ For an example implementation of a
 
 
 
-<a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
  
 
  

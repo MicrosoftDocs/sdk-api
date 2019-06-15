@@ -69,5 +69,5 @@ The number of elements in the array pointed to by the <b>rgpTransformInfo</b> me
 
 ### -field rgpTransformInfo
 
-A pointer to an array of pointers to <a href="https://msdn.microsoft.com/4821dc8f-11d4-4083-bb17-9d9637d99af5">CRYPT_XML_TRANSFORM_INFO</a> structures that contain the transform parameters.
+A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_transform_info">CRYPT_XML_TRANSFORM_INFO</a> structures that contain the transform parameters.
 

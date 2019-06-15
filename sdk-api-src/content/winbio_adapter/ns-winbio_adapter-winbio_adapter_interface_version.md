@@ -75,13 +75,13 @@ This structure is used by the following structures:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401655(v=VS.85).aspx">WINBIO_ENGINE_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401660(v=VS.85).aspx">WINBIO_SENSOR_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a>
 </li>
 </ul>
 
@@ -92,11 +92,11 @@ This structure is used by the following structures:
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/64fb908c-72c2-4639-a2f6-77ede080512c">Plug-in Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>
  
 
  

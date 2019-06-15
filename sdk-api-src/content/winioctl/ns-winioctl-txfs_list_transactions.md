@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains a list of transactions.
 
@@ -77,11 +77,11 @@ The length of the buffer required to hold the complete list of transactions at t
 
 
 
-<a href="https://msdn.microsoft.com/ff319bf0-2bd4-4824-bf97-b9b6eab90915">FSCTL_TXFS_LIST_TRANSACTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_list_transactions">FSCTL_TXFS_LIST_TRANSACTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7de14fb1-1972-4bf0-b0e2-f0344e963eef">TXFS_LIST_TRANSACTIONS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions_entry">TXFS_LIST_TRANSACTIONS_ENTRY</a>
  
 
  

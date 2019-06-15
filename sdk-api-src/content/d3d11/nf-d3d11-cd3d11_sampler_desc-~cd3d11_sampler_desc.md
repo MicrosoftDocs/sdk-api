@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Destroys an instance of a <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a> structure.
+Destroys an instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Destroys an instance of a <a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E
 
 
 
-<a href="https://msdn.microsoft.com/1FE748DB-7DC6-4C6E-94D5-DF88477B3DEC">CD3D11_SAMPLER_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a>
  
 
  

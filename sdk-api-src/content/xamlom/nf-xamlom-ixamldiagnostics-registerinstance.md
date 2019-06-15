@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds an <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> to the XAML Diagnostics cache and returns the newly created
+Adds an <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> to the XAML Diagnostics cache and returns the newly created
     <b>InstanceHandle</b> for the object.
 
 
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://msdn.microsoft.com/1BCE3EC3-8B48-4F16-8E91-78776C07F309">IXamlDiagnostics</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>
  
 
  

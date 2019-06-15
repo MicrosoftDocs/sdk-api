@@ -49,7 +49,7 @@ req.redist:
 
 
 Represents product data for a changer device. It is used by the 
-<a href="https://msdn.microsoft.com/60744666-fb37-4263-8f4a-e7e043e6b71e">IOCTL_CHANGER_GET_PRODUCT_DATA</a> control code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_product_data">IOCTL_CHANGER_GET_PRODUCT_DATA</a> control code.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ The device type of data transports, as defined by SCSI-2. This member must be <b
 
 
 
-<a href="https://msdn.microsoft.com/60744666-fb37-4263-8f4a-e7e043e6b71e">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_product_data">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
  
 
  

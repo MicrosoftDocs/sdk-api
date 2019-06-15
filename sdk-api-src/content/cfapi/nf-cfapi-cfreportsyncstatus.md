@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to <a href="https://msdn.microsoft.com/287DA978-9797-48DF-9C90-BA53BB82475C">CfConnectSyncRoot</a> first. 
+Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconnectsyncroot">CfConnectSyncRoot</a> first. 
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-When a non-null <a href="https://msdn.microsoft.com/en-us/library/Mt845792(v=VS.85).aspx">CF_SYNC_STATUS</a> is provided in the <i>SyncStatus</i> parameter, the information will be remembered on the sync root until it is cleared explicitly by the sync provider or when the machine reboots. The platform will query this information upon any failed operations on a cloud file placeholder, using the following process:
+When a non-null <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_sync_status">CF_SYNC_STATUS</a> is provided in the <i>SyncStatus</i> parameter, the information will be remembered on the sync root until it is cleared explicitly by the sync provider or when the machine reboots. The platform will query this information upon any failed operations on a cloud file placeholder, using the following process:
 
 1.  The platform will first search for sync status at the file level. 
 

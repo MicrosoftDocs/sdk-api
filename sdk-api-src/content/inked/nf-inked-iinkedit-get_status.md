@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Gets a value that specifies whether the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is idle, collecting ink, or recognizing ink.
+Gets a value that specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
 
 
 
@@ -81,11 +81,11 @@ This property is available at run time only.
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/94c3a863-4c8a-4471-be1b-b4d5f8ded374">InkEditStatus Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkeditstatus">InkEditStatus Enumeration</a>
  
 
  

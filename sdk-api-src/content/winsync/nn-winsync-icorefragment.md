@@ -55,7 +55,7 @@ Represents knowledge of all items in the scope for a specific set of change unit
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreFragment</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICoreFragment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoreFragment</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoreFragment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ICoreFragment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f1aff6d-4fdf-48e1-9c7b-c003ec27f354">GetColumnCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-getcolumncount">GetColumnCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of columns that are contained in this knowledge fragment.
@@ -79,7 +79,7 @@ Gets the number of columns that are contained in this knowledge fragment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8eb33224-f017-4f3b-bbf9-14d388d0868f">GetRangeCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-getrangecount">GetRangeCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of ranges that are contained in this knowledge fragment.
@@ -88,7 +88,7 @@ Gets the number of ranges that are contained in this knowledge fragment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d50527cb-00ba-4e7b-9fb3-267eaa6cd6e6">NextColumn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-nextcolumn">NextColumn</a>
 </td>
 <td align="left" width="63%">
 Returns the next change unit ID in the set of change unit IDs that this knowledge fragment applies to.
@@ -98,7 +98,7 @@ Returns the next change unit ID in the set of change unit IDs that this knowledg
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25cfd4f5-2ff1-47eb-8cc0-17e17efa4ec2">NextRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-nextrange">NextRange</a>
 </td>
 <td align="left" width="63%">
 Returns the next range that is contained in this knowledge fragment, and the clock vector that defines what is known about the items in the range.
@@ -108,7 +108,7 @@ Returns the next range that is contained in this knowledge fragment, and the clo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b39e9dee-7437-4480-9050-33bc68b41b00">Reset</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-icorefragment-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets both the column and range enumerators to the beginning of their respective sets.
@@ -133,7 +133,7 @@ An <b>ISyncKnowledge2</b> object contains one or more <b>ICoreFragment</b> objec
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

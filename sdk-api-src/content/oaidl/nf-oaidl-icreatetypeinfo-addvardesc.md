@@ -162,9 +162,9 @@ Type mismatch.
 
 
 
-The index specifies the order of the variables. The first variable has an index of zero. <b>ICreateTypeInfo::AddVarDesc</b> returns an error if the specified index is greater than the number of variables currently in the type information. Calling this function does not pass ownership of the VARDESC structure to <a href="https://msdn.microsoft.com/c8bbb677-2666-4900-8fb9-788742eef656">ICreateTypeInfo</a>. The instance field (oInst) of the VARDESC structure is ignored. This attribute is set only when <a href="https://msdn.microsoft.com/3880aad3-8a6f-43e6-8420-25c4d1b9a71a">ICreateTypeInfo::LayOut</a> is called. Also, the member ID fields within the VARDESCs are ignored unless the TYPEKIND of the class is TKIND_DISPATCH.
+The index specifies the order of the variables. The first variable has an index of zero. <b>ICreateTypeInfo::AddVarDesc</b> returns an error if the specified index is greater than the number of variables currently in the type information. Calling this function does not pass ownership of the VARDESC structure to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>. The instance field (oInst) of the VARDESC structure is ignored. This attribute is set only when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/out">ICreateTypeInfo::LayOut</a> is called. Also, the member ID fields within the VARDESCs are ignored unless the TYPEKIND of the class is TKIND_DISPATCH.
 
-Any HREFTYPE fields in the VARDESC structure must have been produced by the same instance of <a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> for which <b>AddVarDesc</b> is called.
+Any HREFTYPE fields in the VARDESC structure must have been produced by the same instance of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> for which <b>AddVarDesc</b> is called.
 
 
 
@@ -179,7 +179,7 @@ Any HREFTYPE fields in the VARDESC structure must have been produced by the same
 
 
 
-<a href="https://msdn.microsoft.com/c8bbb677-2666-4900-8fb9-788742eef656">ICreateTypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
  
 
  

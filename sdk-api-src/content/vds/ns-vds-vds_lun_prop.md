@@ -50,10 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of 
-   a <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN object</a>.
+   a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-object">LUN object</a>.
 
 
 ## -struct-fields
@@ -105,24 +105,24 @@ For iSCSI networks, each entry is an iSCSI qualified name (IQN) of each initiato
 
 ### -field ulFlags
 
-The LUN flags enumerated by <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a>.
+The LUN flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>.
 
 
 ### -field type
 
-The LUN type enumerated by <a href="https://msdn.microsoft.com/0952db7d-9dd6-4602-82d4-66d773c14463">VDS_LUN_TYPE</a>.
+The LUN type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_type">VDS_LUN_TYPE</a>.
 
 
 ### -field status
 
 The status of the LUN object enumerated by 
-      <a href="https://msdn.microsoft.com/dac82973-d8c0-430b-aeea-163af7d94d24">VDS_LUN_STATUS</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_status">VDS_LUN_STATUS</a>.
 
 
 ### -field health
 
 A 
-      <a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a> enumeration value that specifies the health state of the LUN. The following are the valid values for this member.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a> enumeration value that specifies the health state of the LUN. The following are the valid values for this member.
 
 
 
@@ -160,7 +160,7 @@ A
 ### -field TransitionState
 
 The transition state of the LUN enumerated by
-      <a href="https://msdn.microsoft.com/ef688d1f-136b-4bc8-8209-e30033e752e9">VDS_TRANSITION_STATE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_transition_state">VDS_TRANSITION_STATE</a>.
 
 
 ### -field sRebuildPriority
@@ -172,8 +172,8 @@ The rebuild priority of the LUN object. A value between 0 (lowest priority) and 
 
 
 
-The <a href="https://msdn.microsoft.com/1fec1c8d-7ac9-4b77-830c-930908aac6ef">IVdsLun::GetProperties</a> method returns 
-    this structure to report the properties of a <a href="https://msdn.microsoft.com/ea22bd6d-4a7a-4674-82e9-08460914ff8e">LUN object</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a> method returns 
+    this structure to report the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-object">LUN object</a>.
 
 
 
@@ -183,27 +183,27 @@ The <a href="https://msdn.microsoft.com/1fec1c8d-7ac9-4b77-830c-930908aac6ef">IV
 
 
 
-<a href="https://msdn.microsoft.com/1fec1c8d-7ac9-4b77-830c-930908aac6ef">IVdsLun::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/c65d9266-d691-4711-8225-a442e90d8ba3">VDS_HEALTH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_health">VDS_HEALTH</a>
 
 
 
-<a href="https://msdn.microsoft.com/dac82973-d8c0-430b-aeea-163af7d94d24">VDS_LUN_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_status">VDS_LUN_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0952db7d-9dd6-4602-82d4-66d773c14463">VDS_LUN_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_type">VDS_LUN_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef688d1f-136b-4bc8-8209-e30033e752e9">VDS_TRANSITION_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_transition_state">VDS_TRANSITION_STATE</a>
  
 
  

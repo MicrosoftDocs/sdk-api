@@ -55,10 +55,10 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Do not use this function; it may be unavailable in subsequent versions. Instead, filter 
     for the event trace class in your 
-    <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> function.]
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> function.]
 
 The <b>SetTraceCallback</b> function specifies an 
-    <a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a> function to process events for 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> function to process events for 
     the specified event trace class.
 
 
@@ -71,12 +71,12 @@ The <b>SetTraceCallback</b> function specifies an
 
 Pointer to the class GUID of an event trace class for which you want to receive events. For a list of 
       kernel provider class GUIDs, see 
-      <a href="https://msdn.microsoft.com/f64f05c1-b904-4847-8502-4abb9cf4d37f">NT Kernel Logger Constants</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/ETW/nt-kernel-logger-constants">NT Kernel Logger Constants</a>.
 
 
 ### -param EventCallback [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a> 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> 
       function used to process events belonging to the event trace class.
 
 
@@ -88,7 +88,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
       
 
 If the function fails, the return value is one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -127,13 +127,13 @@ You can only specify one callback function for an event trace class. If you spec
     function for the even trace class, the last callback function receives the events for that event trace class.
 
 To stop the callback function from receiving events for the event trace class, call the 
-    <a href="https://msdn.microsoft.com/da779e8d-4984-44e3-8731-647a422b55b2">RemoveTraceCallback</a> function. The callback 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/removetracecallback">RemoveTraceCallback</a> function. The callback 
     automatically stops receiving callbacks when you close the trace.
 
 You can use this function to receive events written using one of the 
-    <a href="https://msdn.microsoft.com/9b21f6f0-dd9b-4f9c-a879-846901a3bab7">TraceEvent</a> functions. You cannot use this function to 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> functions. You cannot use this function to 
     consume events from a provider that used one of the 
-    <a href="https://msdn.microsoft.com/93070eb7-c167-4419-abff-e861877dad07">EventWrite</a> functions to log events.
+    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> functions to log events.
 
 
 
@@ -143,15 +143,15 @@ You can use this function to receive events written using one of the
 
 
 
-<a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/da779e8d-4984-44e3-8731-647a422b55b2">RemoveTraceCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/removetracecallback">RemoveTraceCallback</a>
  
 
  

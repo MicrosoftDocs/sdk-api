@@ -158,7 +158,7 @@ The function successfully stored all of the information about the active instanc
  
 
 For other types of failures, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 					
 
 
@@ -168,7 +168,7 @@ For other types of failures, the return value is a
 
 
 
-The information about the active instances of the specified counter set is  written to the buffer that <i>pInstances</i> specifies as a sequence of <a href="https://msdn.microsoft.com/58E4062A-0CE4-4FF7-A9B2-CA0947563C7B">PERF_INSTANCE_HEADER</a> blocks. The size in bytes of  
+The information about the active instances of the specified counter set is  written to the buffer that <i>pInstances</i> specifies as a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_instance_header">PERF_INSTANCE_HEADER</a> blocks. The size in bytes of  
 
 the sequence of blocks is written to  <i>pcbInstancesActual</i>. Each <b>PERF_INSTANCE_HEADER</b> block consists  
 
@@ -187,11 +187,11 @@ instance name, followed by padding so that the size of the
 
 
 
-<a href="https://msdn.microsoft.com/58E4062A-0CE4-4FF7-A9B2-CA0947563C7B">PERF_INSTANCE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_instance_header">PERF_INSTANCE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/6C487D11-2DC0-475C-AA0F-4060641C6500">PerfEnumerateCounterSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfenumeratecounterset">PerfEnumerateCounterSet</a>
  
 
  

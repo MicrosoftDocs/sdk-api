@@ -61,7 +61,7 @@ The
 ### -param pus [in]
 
 Reference to an 
-<a href="https://msdn.microsoft.com/48b20b03-62a4-4dcd-8eda-f1bfef1eef38">IUPnPService</a> object that specifies the service about which the UPnP framework is sending the notification.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> object that specifies the service about which the UPnP framework is sending the notification.
 
 
 ### -param pcwszStateVarName [in]
@@ -88,15 +88,15 @@ The application should return S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/48b20b03-62a4-4dcd-8eda-f1bfef1eef38">IUPnPService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5797907-ae65-48e6-adf8-b717bfb5101f">IUPnPService::AddCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-addcallback">IUPnPService::AddCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/44515be4-891b-4f3d-a2c2-1699e468e708">IUPnPServiceCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPServiceCallback</a>
  
 
  

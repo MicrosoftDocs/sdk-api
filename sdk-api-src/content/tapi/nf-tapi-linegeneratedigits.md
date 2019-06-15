@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>lineGenerateDigits</b> function initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode. Calling this function with a <b>NULL</b> value for <i>lpszDigits</i> aborts any digit generation currently in progress. Invoking 
 <b>lineGenerateDigits</b> or 
-<a href="https://msdn.microsoft.com/d5975bd0-2406-45a8-9631-80f40a860204">lineGenerateTone</a> while digit generation is in progress aborts the current digit generation or tone generation and initiates the generation of the most recently specified digits or tone.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a> while digit generation is in progress aborts the current digit generation or tone generation and initiates the generation of the most recently specified digits or tone.
 
 
 ## -parameters
@@ -70,13 +70,13 @@ Handle to the call. The application must be an owner of the call. Call state of 
 ### -param dwDigitMode
 
 Format to be used for signaling these digits. Be aware that <i>dwDigitMode</i> can only have a single flag set. This parameter uses one of the 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>.
 
 
 ### -param lpszDigits
 
 Pointer to a <b>null</b>-terminated character buffer that contains the digits to be generated. Valid characters are those specified for the 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ Constants</a> provided in <i>dwDigitModes</i>. 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a> provided in <i>dwDigitModes</i>. 
 
 
 
@@ -90,7 +90,7 @@ The exclamation (!) is a valid character. This character causes a "hookflash" op
 ### -param dwDuration
 
 Both the duration in milliseconds of DTMF digits and pulse and DTMF inter-digit spacing. A value of 0 uses a default value. The <i>dwDuration</i> parameter must be within the range specified by <b>MinDialParams</b> and <b>MaxDialParams</b> in 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>. If out of range, the actual value is set to the nearest value in the range.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. If out of range, the actual value is set to the nearest value in the range.
 
 
 ## -returns
@@ -110,12 +110,12 @@ LINEERR_INVALCALLHANDLE, LINEERR_NOTOWNER, LINEERR_INVALCALLSTATE, LINEERR_OPERA
 
 The 
 <b>lineGenerateDigits</b> function is considered to have completed successfully when the digit generation has been successfully initiated, not when all digits have been generated. In contrast to 
-<a href="https://msdn.microsoft.com/111e6c11-67a7-4aab-81dd-f1b4316887e7">lineDial</a>, which dials digits in a network-dependent fashion, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>, which dials digits in a network-dependent fashion, 
 <b>lineGenerateDigits</b> guarantees to produce the digits as inband tones over the voice channel using DTMF or hookswitch dial pulses when using pulse. The 
 <b>lineGenerateDigits</b> function is generally not suitable for making calls or dialing. It is intended for end-to-end signaling over an established call.
 
 After all digits in <i>lpszDigits</i> have been generated, or after digit generation has been aborted or canceled, a 
-<a href="https://msdn.microsoft.com/375823c5-22c2-4010-bfb4-5b8b46141c72">LINE_GENERATE</a> message is sent to the application.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-generate">LINE_GENERATE</a> message is sent to the application.
 
 Only one inband generation request (tone generation or digit generation) is allowed to be in progress per call across all applications that are owners of the call. Digit generation on a call is canceled by initiating either another digit generation request or a tone generation request. To cancel the current digit generation, the application can invoke 
 <b>lineGenerateDigits</b> and specify <b>NULL</b> for the <i>lpszDigits</i> parameter.
@@ -130,27 +130,27 @@ Depending on the service provider and hardware, the application can monitor the 
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/375823c5-22c2-4010-bfb4-5b8b46141c72">LINE_GENERATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-generate">LINE_GENERATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/111e6c11-67a7-4aab-81dd-f1b4316887e7">lineDial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5975bd0-2406-45a8-9631-80f40a860204">lineGenerateTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>
  
 
  

@@ -457,11 +457,11 @@ Value: 0x00AA0006
 
 
 
-Before calling this method, you must call the <a href="https://msdn.microsoft.com/49fce259-2b39-4905-a48f-a252537d8360">IDiscFormat2RawCD::put_ClientName</a> method. 
+Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_clientname">IDiscFormat2RawCD::put_ClientName</a> method. 
 
-Also, you must call the <b>IDiscFormat2RawCD::PrepareMedia</b> method before calling either the <a href="https://msdn.microsoft.com/137395f1-b0cf-4bd0-9d3b-a21122eb8b57">IDiscFormat2RawCD::WriteMedia</a> or <a href="https://msdn.microsoft.com/636d04dd-081d-407c-827e-55e443516d9b">IDiscFormat2RawCD::WriteMedia2</a> method. 
+Also, you must call the <b>IDiscFormat2RawCD::PrepareMedia</b> method before calling either the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a> method. 
 
-After the write is complete or you cancel the write operation, you must call the <a href="https://msdn.microsoft.com/5f60c16f-ef40-4bb5-8df2-fa4ae91541b6">IDiscFormat2RawCD::ReleaseMedia</a> method to release the lock.
+After the write is complete or you cancel the write operation, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a> method to release the lock.
 
 
 
@@ -471,11 +471,11 @@ After the write is complete or you cancel the write operation, you must call the
 
 
 
-<a href="https://msdn.microsoft.com/58d9b83c-a528-4b39-b08d-a0fb8c1aece8">IDiscFormat2RawCD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f60c16f-ef40-4bb5-8df2-fa4ae91541b6">IDiscFormat2RawCD::ReleaseMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a>
  
 
  

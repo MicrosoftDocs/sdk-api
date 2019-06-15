@@ -61,7 +61,7 @@ Invokes the standard <b>Insert Object</b> dialog box, which allows the user to s
 
 ### -param Arg1 [in]
 
- Pointer to the in-out <a href="https://msdn.microsoft.com/b14df159-ed62-4745-8cac-c31364d0de7b">OLEUIINSERTOBJECT</a> structure for this dialog box.
+ Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure for this dialog box.
 
 
 ## -returns
@@ -298,7 +298,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -331,7 +331,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -452,9 +452,9 @@ The <b>cchFile</b> or <b>lpszFile</b> value is invalid. The <b>cchFile</b> membe
 <li>The registry entry does not include the NotInsertable key.</li>
 <li>The registry entry includes an OLE 1.0 style Protocol\\StdFileEditing\\Server key.</li>
 <li>The registry entry includes the Insertable key.</li>
-<li>The object's CLSID is not included in the list of objects to exclude (the <b>lpClsidExclude</b> member of <a href="https://msdn.microsoft.com/b14df159-ed62-4745-8cac-c31364d0de7b">OLEUIINSERTOBJECT</a>).</li>
+<li>The object's CLSID is not included in the list of objects to exclude (the <b>lpClsidExclude</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiinsertobjecta">OLEUIINSERTOBJECT</a>).</li>
 </ul>
-By default, <b>OleUIInsertObject</b> does not validate object servers, however, if the IOF_VERIFYSERVEREXIST flag is included in the dwFlags member of the <a href="https://msdn.microsoft.com/b14df159-ed62-4745-8cac-c31364d0de7b">OLEUIINSERTOBJECT</a> structure, <b>OleUIInsertObject</b> verifies that the server exists. If it does not exist, then the server's object is not added to the list of available objects. Server validation is a time-extensive operation and is a significant performance factor.
+By default, <b>OleUIInsertObject</b> does not validate object servers, however, if the IOF_VERIFYSERVEREXIST flag is included in the dwFlags member of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure, <b>OleUIInsertObject</b> verifies that the server exists. If it does not exist, then the server's object is not added to the list of available objects. Server validation is a time-extensive operation and is a significant performance factor.
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows:
 
@@ -483,11 +483,11 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
 
 
 
-<a href="https://msdn.microsoft.com/b14df159-ed62-4745-8cac-c31364d0de7b">OLEUIINSERTOBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiinsertobjecta">OLEUIINSERTOBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
  
 
  

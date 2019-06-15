@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The Microsoft SNMP service calls the 
 <b>SnmpExtensionQueryEx</b> function to process SNMP requests that specify variables in one or more MIB subtrees registered by SNMP extension agents. This function is an element of the SNMP Extension Agent API.
 <div class="alert"><b>Note</b>  It is recommended that you use the 
 <b>SnmpExtensionQueryEx</b> function, which supports SNMP version 2C (SNMPv2C) data types and multiphase SNMP SET operations. The SNMP service does not call the 
-<a href="https://msdn.microsoft.com/5ca25e1d-d0aa-490e-a591-57b25a77b1da">SnmpExtensionQuery</a> function if the extension agent exports the 
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionquery">SnmpExtensionQuery</a> function if the extension agent exports the 
 <b>SnmpExtensionQueryEx</b> function.</div><div> </div>
 
 ## -parameters
@@ -435,23 +435,23 @@ After the UNDO request the service always calls each extension agent with the
 
 
 
-<a href="https://msdn.microsoft.com/d58c54e2-0479-408f-977d-63409e5f500e">AsnOctetString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ca25e1d-d0aa-490e-a591-57b25a77b1da">SnmpExtensionQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionquery">SnmpExtensionQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>
  
 
  

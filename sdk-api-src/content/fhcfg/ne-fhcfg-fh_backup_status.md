@@ -86,7 +86,7 @@ The maximum enumeration value for this enumeration. This value and all values gr
 
 The protection scope is the set of files and folders that  are backed up by the File History feature. The default protection scope includes all folders from all user libraries and the  Contacts, Desktop, and Favorites folders.
 
-The <b>FH_STATUS_DISABLED_BY_GP</b> status can be queried by calling the <a href="https://msdn.microsoft.com/0AC8F205-B593-4117-9059-0DDA5BBE3124">IFhConfigMgr::GetBackupStatus</a> method, but it cannot be set by calling the <a href="https://msdn.microsoft.com/17FF01A1-028D-4A22-A64C-F24C98F86663">IFhConfigMgr::SetBackupStatus</a> method. This is because it can only be set by Group Policy.
+The <b>FH_STATUS_DISABLED_BY_GP</b> status can be queried by calling the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getbackupstatus">IFhConfigMgr::GetBackupStatus</a> method, but it cannot be set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">IFhConfigMgr::SetBackupStatus</a> method. This is because it can only be set by Group Policy.
 
 
 
@@ -96,11 +96,11 @@ The <b>FH_STATUS_DISABLED_BY_GP</b> status can be queried by calling the <a href
 
 
 
-<a href="https://msdn.microsoft.com/0AC8F205-B593-4117-9059-0DDA5BBE3124">IFhConfigMgr::GetBackupStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getbackupstatus">IFhConfigMgr::GetBackupStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/17FF01A1-028D-4A22-A64C-F24C98F86663">IFhConfigMgr::SetBackupStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">IFhConfigMgr::SetBackupStatus</a>
  
 
  

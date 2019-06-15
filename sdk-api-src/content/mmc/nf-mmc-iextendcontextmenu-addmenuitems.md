@@ -60,13 +60,13 @@ The <b>IExtendContextMenu::AddMenuItems</b> method enables a snap-in to add item
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object of the menu to which items are added.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object of the menu to which items are added.
 
 
 ### -param piCallback [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/141a650f-a829-47b1-abf9-427302d98444">IContextMenuCallback</a> that can add items to the context menu.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a> that can add items to the context menu.
 
 
 ### -param pInsertionAllowed [in, out]
@@ -114,7 +114,7 @@ This method can return one of these values.
 
 An implementation of <b>IExtendContextMenu::AddMenuItems</b> typically reads the node type and any other parameters required by calling 
 IDataObject::GetDataHere on piDataObject, then adds context menu items as appropriate by calling 
-<a href="https://msdn.microsoft.com/7186f201-13aa-4357-9b89-b435d244229c">IContextMenuCallback::AddItem</a> on piCallback.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> on piCallback.
 
 Your snap-in should check the pInsertionsAllowed flags for permission before attempting to add menu items at the MMC-defined insertion points. For example, a snap-in should not add menu items to CCM_INSERTIONPOINTID_PRIMARY_NEW or CCM_INSERTIONPOINTID_3RDPARTY_NEW unless the CCM_INSERTIONALLOWED_NEW flag is set.
 
@@ -139,7 +139,7 @@ IComponentData implementation the opportunity to add menu items to all menus exc
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The 
 AddMenuItems method should not call AddRef on either the piDataObject pointer or the piCallback pointer, nor should it call the methods of those interfaces after returning. Instead, it should make all necessary calls to the methods of those interfaces before returning. If any of these items is selected, you will be given back the pointer to IDataObject in 
-<a href="https://msdn.microsoft.com/ee91a737-c6b4-48a1-88a2-57bef3730f5e">IExtendContextMenu::Command</a>, so do not keep this pointer after this method returns. You will not be notified if the menu is dismissed without any of your items being selected. In addition, do not query for alternate interfaces from piCallback because the one method, IContextMenuCallback::AddItem, should be sufficient.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>, so do not keep this pointer after this method returns. You will not be notified if the menu is dismissed without any of your items being selected. In addition, do not query for alternate interfaces from piCallback because the one method, IContextMenuCallback::AddItem, should be sufficient.
 
 
 
@@ -149,23 +149,23 @@ AddMenuItems method should not call AddRef on either the piDataObject pointer or
 
 
 
-<a href="https://msdn.microsoft.com/58a0b4cf-0379-48a1-80c6-5245022cf891">CONTEXTMENUITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_contextmenuitem">CONTEXTMENUITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/141a650f-a829-47b1-abf9-427302d98444">IContextMenuCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fa4434e-ccdc-43fb-877e-a6f6a5fc95b2">IExtendContextMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/b76b40da-1ab7-4b43-9c7e-03b901a6db3f">Working with Context Menus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
  
 
  

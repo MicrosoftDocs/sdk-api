@@ -85,7 +85,7 @@ A <b>null</b>-terminated string to be written to the file. If this parameter is 
 If the function successfully copies the string to the Win.ini file, the return value is nonzero.
 
 If the function fails, or if it flushes the cached version of Win.ini, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -136,11 +136,11 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
-<a href="https://msdn.microsoft.com/70987969-7ad5-4eb6-bcd0-ce8709864ee7">GetProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilestringa">GetProfileString</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0799092-c6c1-4800-a17a-fcf744b1228f">WritePrivateProfileString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
  
 
  

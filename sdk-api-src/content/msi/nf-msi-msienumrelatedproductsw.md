@@ -53,8 +53,8 @@ ms.custom: 19H1
 
 The 
 <b>MsiEnumRelatedProducts</b> function enumerates products with a specified upgrade code. This function lists the currently installed and advertised products that have the specified 
-<a href="https://msdn.microsoft.com/6cdee5d8-8aa0-4fad-9338-152ee33b8077">UpgradeCode</a> property in their 
-<a href="https://msdn.microsoft.com/1f4215b2-dc71-4e6e-bc2e-3b43316806b9">Property table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/upgradecode">UpgradeCode</a> property in their 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/property-table">Property table</a>.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ The zero-based index into the registered products.
 ### -param lpProductBuf [out]
 
 A buffer to receive the product code GUID. This buffer must be 39 characters long. The first 38 characters are for the 
-<a href="https://msdn.microsoft.com/9e5e2a49-ecf5-43e8-ba6d-42ceaf0beba8">GUID</a>, and the last character is for the terminating null character.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/guid">GUID</a>, and the last character is for the terminating null character.
 
 
 ## -returns
@@ -158,7 +158,7 @@ A value was enumerated.
 
 
 See 
-<a href="https://msdn.microsoft.com/6cdee5d8-8aa0-4fad-9338-152ee33b8077">UpgradeCode</a> property.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/upgradecode">UpgradeCode</a> property.
 
 To enumerate currently installed and advertised products that have a specific upgrade code, an application should initially call the 
 <b>MsiEnumRelatedProducts</b> function with the <i>iProductIndex</i> parameter set to zero. The application should then increment the <i>iProductIndex</i> parameter and call 

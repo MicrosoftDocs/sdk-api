@@ -52,7 +52,7 @@ ms.custom: 19H1
 Contains the metrics associated with text after layout.All coordinates are in device independent pixels (DIPs).
       
 
-<b>DWRITE_TEXT_METRICS1</b> extends <a href="https://msdn.microsoft.com/4524ace3-fca6-4daf-9ecb-516771e53fc9">DWRITE_TEXT_METRICS</a> 
+<b>DWRITE_TEXT_METRICS1</b> extends <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_metrics">DWRITE_TEXT_METRICS</a> 
         to include the height of the formatted text.
       
 

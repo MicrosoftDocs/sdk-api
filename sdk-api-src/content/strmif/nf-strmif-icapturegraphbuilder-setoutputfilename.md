@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Note</b>  The <b>ICaptureGraphBuilder</b> interface is deprecated. Use <a href="https://msdn.microsoft.com/abdf6fb2-e98f-4df8-98ec-06d33798abb5">ICaptureGraphBuilder2</a> instead.</div>
+<div class="alert"><b>Note</b>  The <b>ICaptureGraphBuilder</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2</a> instead.</div>
 <div> </div>
 Creates the rendering section of the filter graph, which will save bits to disk with the specified file name.
 
@@ -74,12 +74,12 @@ Pointer to a wide-character string containing the output file name.
 
 ### -param ppf [out]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface representing the multiplexer filter. This method increments the reference count on the <b>IBaseFilter</b> interface so you must decrement the reference count by using the <b>Release</b> method on this parameter when done using the filter.
+Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface representing the multiplexer filter. This method increments the reference count on the <b>IBaseFilter</b> interface so you must decrement the reference count by using the <b>Release</b> method on this parameter when done using the filter.
 
 
 ### -param ppSink [out]
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/aa1d3f8e-9790-4442-ba7e-896981bf1b96">IFileSinkFilter</a> interface representing the file writer. This method increments the reference count on the IFileSinkFilter interface so you must decrement the reference count using <b>Release</b> when done using the filter.
+Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter">IFileSinkFilter</a> interface representing the file writer. This method increments the reference count on the IFileSinkFilter interface so you must decrement the reference count using <b>Release</b> when done using the filter.
 
 
 ## -returns
@@ -180,11 +180,11 @@ Instance of the AVI multiplexer filter was successfully created.
 
 
 
-This method inserts the multiplexer and the file writer into the filter graph and calls <a href="https://msdn.microsoft.com/d202be46-0a7a-4097-adf6-6ec9c6274449">IFileSinkFilter::SetFileName</a> to set the output file name.
+This method inserts the multiplexer and the file writer into the filter graph and calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-setfilename">IFileSinkFilter::SetFileName</a> to set the output file name.
 
-You can use the <i>ppf</i> parameter returned by this method as the <i>pfRenderer</i> parameter in calls to <a href="https://msdn.microsoft.com/2b174f31-d7bb-4934-9d5b-2e4fd6ae8bf5">RenderStream</a>.
+You can use the <i>ppf</i> parameter returned by this method as the <i>pfRenderer</i> parameter in calls to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder-renderstream">RenderStream</a>.
 
-You can use the <i>pSink</i> parameter from this method in a call to <a href="https://msdn.microsoft.com/d202be46-0a7a-4097-adf6-6ec9c6274449">SetFileName</a> to change the file name set by <code>ICaptureGraphBuilder::SetOutputFileName</code>.
+You can use the <i>pSink</i> parameter from this method in a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesinkfilter-setfilename">SetFileName</a> to change the file name set by <code>ICaptureGraphBuilder::SetOutputFileName</code>.
 
 
 
@@ -194,11 +194,11 @@ You can use the <i>pSink</i> parameter from this method in a call to <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/64ee80cd-9f63-4f38-853a-1ecfc03e6076">ICaptureGraphBuilder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
  
 
  

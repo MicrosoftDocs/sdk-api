@@ -107,7 +107,7 @@ Run every day of the week.
 
 
 
-<a href="https://msdn.microsoft.com/2986032f-647a-457a-ac7b-48439fd229a6">ISchedule::Days</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_days">ISchedule::Days</a>
  
 
  

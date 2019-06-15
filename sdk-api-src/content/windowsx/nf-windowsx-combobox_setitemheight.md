@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the height of list items or the selection field in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775911(v=VS.85).aspx">CB_SETITEMHEIGHT</a> message explicitly.
+Sets the height of list items or the selection field in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setitemheight">CB_SETITEMHEIGHT</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the height of list items or the selection field in a combo box. You can use
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,7 +68,7 @@ A handle to the control.
 
 Type: <b>int</b>
 
-The component of the combo box for which to set the height. This parameter must be –1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_OWNERDRAWVARIABLE</a> style. In that case, the <i>index</i> parameter is the zero-based index of a specific list item.
+The component of the combo box for which to set the height. This parameter must be –1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_OWNERDRAWVARIABLE</a> style. In that case, the <i>index</i> parameter is the zero-based index of a specific list item.
 
 
 ### -param cyItem
@@ -82,7 +82,7 @@ The height in pixels.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775911(v=VS.85).aspx">CB_SETITEMHEIGHT</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setitemheight">CB_SETITEMHEIGHT</a>.
 	
 
 

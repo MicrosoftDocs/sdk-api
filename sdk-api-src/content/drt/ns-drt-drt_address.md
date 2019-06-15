@@ -82,7 +82,7 @@ Round trip time to this node.
 
 
 
-<a href="https://msdn.microsoft.com/a795dff7-4182-42ad-b14b-142a6c1312c7">DRT_ADDRESS_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-_drt_address_list">DRT_ADDRESS_LIST</a>
  
 
  

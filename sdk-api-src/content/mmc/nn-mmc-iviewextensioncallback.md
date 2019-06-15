@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The 
 <b>IViewExtensionCallback</b> interface is used to add a view to the result pane. During the call to the view extension's 
-<a href="https://msdn.microsoft.com/447b51b1-e206-43c8-8536-049c831dedb7">IExtendView::GetViews</a> method, MMC provides an <b>IViewExtensionCallback</b> interface pointer; this pointer is valid only during the call and should not be saved for later use.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendview-getviews">IExtendView::GetViews</a> method, MMC provides an <b>IViewExtensionCallback</b> interface pointer; this pointer is valid only during the call and should not be saved for later use.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewExtensionCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IViewExtensionCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IViewExtensionCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IViewExtensionCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IViewExtensionCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e794787-d328-4cbf-822e-8846fed81a57">AddView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iviewextensioncallback-addview">AddView</a>
 </td>
 <td align="left" width="63%">
 Adds a view to the result pane, and optionally removes the standard view.
@@ -86,19 +86,19 @@ Adds a view to the result pane, and optionally removes the standard view.
 
 
 
-<a href="https://msdn.microsoft.com/3c626853-a9f1-4961-97d0-a12d0bf8b9ed">Extending Views</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/extending-views">Extending Views</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6ea8735-4cad-4c04-be97-dfad01b00388">IExtendView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendview">IExtendView</a>
 
 
 
-<a href="https://msdn.microsoft.com/447b51b1-e206-43c8-8536-049c831dedb7">IExtendView::GetViews</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendview-getviews">IExtendView::GetViews</a>
 
 
 
-<a href="https://msdn.microsoft.com/410f8a6a-7df2-4610-97e9-108e185d52a6">View Extension Mechanism</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-extension-mechanism">View Extension Mechanism</a>
  
 
  

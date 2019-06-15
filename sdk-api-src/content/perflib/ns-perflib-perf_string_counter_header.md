@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates where in the <a href="https://msdn.microsoft.com/874A97BA-708E-4001-A7CA-1C3114577D7D">PERF_STRING_BUFFER_HEADER</a> block that the string that contains the name or help string  for the indicated performance counter starts. The <b>PERF_STRING_COUNTER_HEADER</b> structure is part of the
-<a href="https://msdn.microsoft.com/874A97BA-708E-4001-A7CA-1C3114577D7D">PERF_STRING_BUFFER_HEADER</a> block
+Indicates where in the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_buffer_header">PERF_STRING_BUFFER_HEADER</a> block that the string that contains the name or help string  for the indicated performance counter starts. The <b>PERF_STRING_COUNTER_HEADER</b> structure is part of the
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_buffer_header">PERF_STRING_BUFFER_HEADER</a> block
 
 
 ## -struct-fields
@@ -66,16 +66,16 @@ The identifier of the  performance counter.
 ### -field dwOffset
 
 The number of bytes from the start of the
-<a href="https://msdn.microsoft.com/874A97BA-708E-4001-A7CA-1C3114577D7D">PERF_STRING_BUFFER_HEADER</a> block to the null-terminated UTF-16LE data. A value of 0xFFFFFFFF indicates that the string is not present; in other words, that the value of the string is NULL.
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_buffer_header">PERF_STRING_BUFFER_HEADER</a> block to the null-terminated UTF-16LE data. A value of 0xFFFFFFFF indicates that the string is not present; in other words, that the value of the string is NULL.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to
 <b>PERF_REG_COUNTER_NAME_STRINGS</b> or <b>PERF_REG_COUNTER_HELP_STRINGS</b> gets a
-<a href="https://msdn.microsoft.com/874A97BA-708E-4001-A7CA-1C3114577D7D">PERF_STRING_BUFFER_HEADER</a> block that contains one or more
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_buffer_header">PERF_STRING_BUFFER_HEADER</a> block that contains one or more
 <b>PERF_STRING_COUNTER_HEADER</b> structures.
 
 
@@ -86,11 +86,11 @@ The <a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">Pe
 
 
 
-<a href="https://msdn.microsoft.com/874A97BA-708E-4001-A7CA-1C3114577D7D">PERF_STRING_BUFFER_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_string_buffer_header">PERF_STRING_BUFFER_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">PerfQueryCounterSetRegistrationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>
  
 
  

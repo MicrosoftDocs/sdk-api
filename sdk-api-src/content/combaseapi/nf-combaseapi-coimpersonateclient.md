@@ -85,7 +85,7 @@ This method allows the server to impersonate the client of the current call for 
     pss-&gt;ImpersonateClient();
     pss-&gt;Release();
 </code></pre>
-<b>CoImpersonateClient</b> encapsulates the process of getting a pointer to an instance of <a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a> that contains data about the current call, calling its <a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">ImpersonateClient</a> method, and then releasing the pointer. One call to <a href="https://msdn.microsoft.com/8061ddbe-ed21-47f7-9ac4-b3ec910ff89d">CoRevertToSelf</a> (or <a href="https://msdn.microsoft.com/21952f54-439e-446f-a206-4b35759b1090">IServerSecurity::RevertToSelf</a>) will undo any number of  calls to impersonate the client.
+<b>CoImpersonateClient</b> encapsulates the process of getting a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a> that contains data about the current call, calling its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">ImpersonateClient</a> method, and then releasing the pointer. One call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself">CoRevertToSelf</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself">IServerSecurity::RevertToSelf</a>) will undo any number of  calls to impersonate the client.
 
 
 
@@ -95,23 +95,23 @@ This method allows the server to impersonate the client of the current call for 
 
 
 
-<a href="https://msdn.microsoft.com/5b97d9d6-8fa9-4da2-8351-64772227d9a2">Cloaking</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/cloaking">Cloaking</a>
 
 
 
-<a href="https://msdn.microsoft.com/20398b63-0fcb-40ab-93ed-f4c75760eb9e">IServerSecurity::ImpersonateClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient">IServerSecurity::ImpersonateClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/b33ca3b0-0423-4338-b3d6-4bb3db3d3e1b">Impersonation</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/impersonation">Impersonation</a>
 
 
 
-<a href="https://msdn.microsoft.com/7eaa0a66-7a80-4831-b0b6-b8eff4abd036">Impersonation and Asynchronous Calls</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/impersonation-and-asynchronous-calls">Impersonation and Asynchronous Calls</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/security-in-com">Security in COM</a>
  
 
  

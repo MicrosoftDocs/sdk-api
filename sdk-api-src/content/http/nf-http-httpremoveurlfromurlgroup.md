@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HttpRemoveUrlFromUrlGroup</b> function removes the specified URL from  the group identified by the URL Group ID. This function removes one, or all, of the URLs from the group. 
 
-This function replaces the HTTP version 1.0 <a href="https://msdn.microsoft.com/21740d08-c280-44c1-8efb-1d21b4006039">HttpRemoveUrl</a> function.
+This function replaces the HTTP version 1.0 <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a> function.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The ID of the URL group from which the URL specified in <i>pFullyQualifiedUrl</i
 
 ### -param pFullyQualifiedUrl [in]
 
-A pointer to a Unicode string that contains a properly formed <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix String</a> that identifies the URL to be removed.
+A pointer to a Unicode string that contains a properly formed <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix String</a> that identifies the URL to be removed.
 
 When <b>HTTP_URL_FLAG_REMOVE_ALL</b> is passed in the <i>Flags</i> parameter, all of the existing URL registrations for the URL Group identified in <i>UrlGroupId</i> are removed from the group. In this case, <i>pFullyQualifiedUrl</i> must be <b>NULL</b>.
 
@@ -156,9 +156,9 @@ The specified URL is not registered with the URL Group.
 
 
 
-The HTTP Server API supports existing applications using the version 1.0 URL registrations, however, new development with the HTTP Server API should use <b>HttpRemoveUrlFromUrlGroup</b>; do not use <a href="https://msdn.microsoft.com/21740d08-c280-44c1-8efb-1d21b4006039">HttpRemoveUrl</a>.
+The HTTP Server API supports existing applications using the version 1.0 URL registrations, however, new development with the HTTP Server API should use <b>HttpRemoveUrlFromUrlGroup</b>; do not use <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>.
 
-Applications should remove the URL added to the group by <a href="https://msdn.microsoft.com/e6bf68aa-d6a5-4079-b689-49cfc2303ba5">HttpAddUrlToUrlGroup</a>, when the URL is no longer required.
+Applications should remove the URL added to the group by <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>, when the URL is no longer required.
 
 
 
@@ -168,31 +168,31 @@ Applications should remove the URL added to the group by <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6bf68aa-d6a5-4079-b689-49cfc2303ba5">HttpAddUrlToUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b8e4ec9-3d85-4d64-98dc-86e5fd093e93">HttpCloseUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f2b14bb-ecb9-4a63-9bef-e2ceaf09f97a">HttpCreateUrlGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3e8fde0-5a78-46aa-8c6c-cea957d12356">HttpQueryUrlGroupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/21740d08-c280-44c1-8efb-1d21b4006039">HttpRemoveUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurl">HttpRemoveUrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0826a25-1c50-4757-9355-69eb4946e8dd">HttpSetUrlGroupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
  
 
  

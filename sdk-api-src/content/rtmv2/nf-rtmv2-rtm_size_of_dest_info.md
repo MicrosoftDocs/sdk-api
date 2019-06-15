@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>RTM_SIZE_OF_DEST_INFO</b> macro returns the size of the destination information structure (<a href="https://msdn.microsoft.com/6712ed2f-c5b4-416b-b345-a3d0c5d26820">RTM_DEST_INFO</a>). The size of this structure is variable, and is based on the number of views for which it contains information. Use this macro when allocating memory for destination information.
+<b>RTM_SIZE_OF_DEST_INFO</b> macro returns the size of the destination information structure (<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_dest_info">RTM_DEST_INFO</a>). The size of this structure is variable, and is based on the number of views for which it contains information. Use this macro when allocating memory for destination information.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Specifies the number of views in the destination structure.
 
 
 If the client  only uses one view per destination, the client can allocate an 
-<a href="https://msdn.microsoft.com/6712ed2f-c5b4-416b-b345-a3d0c5d26820">RTM_DEST_INFO</a> structure statically.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_dest_info">RTM_DEST_INFO</a> structure statically.
 
 The macro is defined as follows:
 

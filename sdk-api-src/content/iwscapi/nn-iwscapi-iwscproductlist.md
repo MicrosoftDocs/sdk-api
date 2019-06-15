@@ -54,7 +54,7 @@ Provides methods  to collect product information for the selected type of provid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSCProductList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWSCProductList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSCProductList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSCProductList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSCProductList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A28A6D3B-DC11-418B-987F-04711358B6EE">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_count">Count</a>
 </td>
 <td align="left" width="63%">
 Gathers the total number of all security product providers of the specified type on the computer.
@@ -78,7 +78,7 @@ Gathers the total number of all security product providers of the specified type
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0D003510-BCFE-45E9-A34E-58036C382157">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Gathers information on all of the providers of the specified type on the computer.
@@ -87,7 +87,7 @@ Gathers information on all of the providers of the specified type on the compute
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/041F45EF-BE1E-4C37-9BD7-ED9F45587ADA">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iwscapi/nf-iwscapi-iwscproductlist-get_item">Item</a>
 </td>
 <td align="left" width="63%">
 Returns one of the  types of providers on the computer.

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DDGAMMARAMP</b> structure contains red, green, and blue ramp data for the <a href="https://msdn.microsoft.com/ba83605c-c388-42c0-9297-1666c80a278e">IDirectDrawGammaControl::GetGammaRamp</a> and <a href="https://msdn.microsoft.com/3bde7ba7-8498-42e5-bd5a-625e162fc1db">IDirectDrawGammaControl::SetGammaRamp</a> methods.
+The <b>DDGAMMARAMP</b> structure contains red, green, and blue ramp data for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp">IDirectDrawGammaControl::GetGammaRamp</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp">IDirectDrawGammaControl::SetGammaRamp</a> methods.
 
 
 

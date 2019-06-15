@@ -52,9 +52,9 @@ ms.custom: 19H1
 The 
 <i>PFREEMEM</i> function is a memory-freeing function provided by the PCM. 
 <i>PFREEMEM</i> frees memory buffers that were allocated using 
-<a href="https://msdn.microsoft.com/e7b38820-4a7e-4f17-a67d-b94caa9037f5">PALLOCMEM</a>. The 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>. The 
 <i>PFREEMEM</i> function is supplied as a parameter of the 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a> function. The combination of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function. The combination of 
 <i>PALLOCMEM</i> and 
 <i>PFREEMEM</i> allows the SBM to experiment with different memory-management schemes without requiring recompilation of LPMs.
 
@@ -104,11 +104,11 @@ LPMs do not need to use this function to manage their local buffers. LPMs need t
 
 
 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7b38820-4a7e-4f17-a67d-b94caa9037f5">PALLOCMEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>
  
 
  

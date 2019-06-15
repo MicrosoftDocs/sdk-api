@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>CertEnumSystemStoreCallback</b> 
 	callback function formats and presents information on each system store found by a call to 
-	<a href="https://msdn.microsoft.com/fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac">CertEnumSystemStore</a>.
+	<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>CertEnumSystemStoreCallback</b>
 ### -param *pvSystemStore [in]
 
 A pointer to information on the system store found by a call to 
-	<a href="https://msdn.microsoft.com/fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac">CertEnumSystemStore</a>. Where appropriate, this argument will contain a leading computer name or service name prefix.
+	<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a>. Where appropriate, this argument will contain a leading computer name or service name prefix.
 
 
 ### -param dwFlags [in]
@@ -101,7 +101,7 @@ If set, the <i>pvSystemStore</i> parameter points to a CERT_SYSTEM_STORE_RELOCAT
 ### -param pStoreInfo [in]
 
 A pointer to a 
-	    <a href="https://msdn.microsoft.com/9c17ebd9-423b-4063-bdc3-6be70ceb8623">CERT_SYSTEM_STORE_INFO</a> structure that contains information about the store.
+	    <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_info">CERT_SYSTEM_STORE_INFO</a> structure that contains information about the store.
 
 
 ### -param *pvReserved [in]
@@ -112,7 +112,7 @@ Reserved for future use.
 ### -param *pvArg [in]
 
 A pointer to information passed to the callback function in the <i>pvArg</i> 
-	 passed to <a href="https://msdn.microsoft.com/fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac">CertEnumSystemStore</a>.
+	 passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstore">CertEnumSystemStore</a>.
 
 
 ## -returns

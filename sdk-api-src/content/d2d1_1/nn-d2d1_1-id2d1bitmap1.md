@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a bitmap that can be used as a surface for an <a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a> or mapped into system memory, and can contain additional color context information.
+Represents a bitmap that can be used as a surface for an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a> or mapped into system memory, and can contain additional color context information.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Bitmap1</b> interface inherits from <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>. <b>ID2D1Bitmap1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Bitmap1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>. <b>ID2D1Bitmap1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Bitmap1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ab8bed5-c124-4e14-8a05-3a71f07f5fd1">GetColorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getcolorcontext">GetColorContext</a>
 </td>
 <td align="left" width="63%">
 Gets the color context information associated with the bitmap.
@@ -78,7 +78,7 @@ Gets the color context information associated with the bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63e13172-7c6a-49af-aef9-83bf12a1f7d5">GetOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the options used in creating the bitmap.
@@ -87,7 +87,7 @@ Gets the options used in creating the bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82d41172-bc24-48eb-ae0e-60947751eec6">GetSourceStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh404353(v=vs.85)">GetSourceStream</a>
 </td>
 <td align="left" width="63%">
 Gets any image stream that is associated with the bitmap.
@@ -96,7 +96,7 @@ Gets any image stream that is associated with the bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9cb3830-7c1a-4254-a3fd-f1c056bec0c0">GetSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getsurface">GetSurface</a>
 </td>
 <td align="left" width="63%">
 Gets either the surface that was specified when the bitmap was created, or the default surface created when the bitmap was created. 
@@ -105,7 +105,7 @@ Gets either the surface that was specified when the bitmap was created, or the d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/284c16ea-1a9f-4f13-b359-214178650add">Map</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-map">Map</a>
 </td>
 <td align="left" width="63%">
 Maps  the given bitmap into memory.
@@ -114,7 +114,7 @@ Maps  the given bitmap into memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/471c6e8a-4412-4efc-a7bf-688b1da7e367">Unmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-unmap">Unmap</a>
 </td>
 <td align="left" width="63%">
 Unmaps the bitmap from memory. 
@@ -129,19 +129,19 @@ Unmaps the bitmap from memory.
 
 
 <h3><a id="Creating_ID2D1Bitmap_Objects"></a><a id="creating_id2d1bitmap_objects"></a><a id="CREATING_ID2D1BITMAP_OBJECTS"></a>Creating ID2D1Bitmap Objects</h3>
-Use one of these methods to create an <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a> object. <ul>
+Use one of these methods to create an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> object. <ul>
 <li>
-<a href="https://msdn.microsoft.com/8292da6b-8232-4ef0-967d-a53d586aa9a9">ID2D1DeviceContext::CreateBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1_id2d1bitmap1)">ID2D1DeviceContext::CreateBitmap</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/98BA78CD-4902-43B9-A412-895CA2A112C7">ID2D1DeviceContext::CreateBitmapFromWicBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1__id2d1bitmap1)">ID2D1DeviceContext::CreateBitmapFromWicBitmap</a>
 </li>
 </ul>
 
 
-For information about the pixel formats supported by Direct2D bitmaps, see <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a>.
+For information about the pixel formats supported by Direct2D bitmaps, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>.
 
-An <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a> is a device-dependent resource: your application should create bitmaps after it initializes the render target with which the bitmap will be used, and recreate the bitmap whenever the render target needs recreated. (For more information about resources, see <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.)
+An <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> is a device-dependent resource: your application should create bitmaps after it initializes the render target with which the bitmap will be used, and recreate the bitmap whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
 
@@ -151,7 +151,7 @@ An <a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2
 
 
 
-<a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
  
 
  

@@ -59,22 +59,22 @@ The <b>PeerGraphCreate</b> function creates a  new peer graph.  An application c
 
 ### -param pGraphProperties [in]
 
-All of the properties of a peer graph in the <a href="https://msdn.microsoft.com/15b4eeb4-1040-4f07-8e79-2c09aab9f926">PEER_GRAPH_PROPERTIES</a> structure.
+All of the properties of a peer graph in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a> structure.
 
 
 ### -param pwzDatabaseName [in]
 
-The name of a record database to associate with a peer graph when it is created. The record database name must be a valid file name. Do not include a path with the file name.  For a complete list of rules regarding file names, see  the Naming a File item in the list of  <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">Graphing Reference_Links</a>.
+The name of a record database to associate with a peer graph when it is created. The record database name must be a valid file name. Do not include a path with the file name.  For a complete list of rules regarding file names, see  the Naming a File item in the list of  <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">Graphing Reference_Links</a>.
 
 
 ### -param pSecurityInterface [in]
 
-The information about a security provider for a peer graph in the <a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">PEER_SECURITY_INTERFACE</a> structure.
+The information about a security provider for a peer graph in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a> structure.
 
 
 ### -param phGraph [out]
 
-Receives a handle to the peer graph that is created. When this handle is not required anymore, free it by calling <a href="https://msdn.microsoft.com/7600da14-7641-4b5c-b5ba-e33ffc28097c">PeerGraphClose</a>.
+Receives a handle to the peer graph that is created. When this handle is not required anymore, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a>.
 
 
 ## -returns
@@ -128,7 +128,7 @@ A database with a specified peer graph ID that already exists.
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The peer graph must be  initialized with a call to <a href="https://msdn.microso
 
 If you develop your own Security Service Provider (SSP), your application must not call the Peer Graphing API to access data in the peer graphing database, because that can cause a deadlock situation.  Instead, the application must use a cached copy of the information. The cached copy is not created by the Peer Graphing API. The application must provide a mechanism for caching this data.
 
-After   <b>PeerGraphCreate</b> is called, the  application can subscribe to events before it calls <a href="https://msdn.microsoft.com/bac893d4-8f4d-4e1f-953b-1b289c5f18be">PeerGraphListen</a>.
+After   <b>PeerGraphCreate</b> is called, the  application can subscribe to events before it calls <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a>.
 
 
 
@@ -154,27 +154,27 @@ After   <b>PeerGraphCreate</b> is called, the  application can subscribe to even
 
 
 
-<a href="https://msdn.microsoft.com/15b4eeb4-1040-4f07-8e79-2c09aab9f926">PEER_GRAPH_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties_tag">PEER_GRAPH_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4331cfc-dc1a-490b-b21d-0550f1d3fe33">PEER_SECURITY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_security_interface_tag">PEER_SECURITY_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7600da14-7641-4b5c-b5ba-e33ffc28097c">PeerGraphClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphclose">PeerGraphClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/76a2c54d-4424-4aa3-9b62-3ebe88b63c9f">PeerGraphConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/bac893d4-8f4d-4e1f-953b-1b289c5f18be">PeerGraphListen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphlisten">PeerGraphListen</a>
 
 
 
-<a href="https://msdn.microsoft.com/a34656f1-3e29-4bcb-a8a7-0eed19368184">PeerGraphOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a>
  
 
  

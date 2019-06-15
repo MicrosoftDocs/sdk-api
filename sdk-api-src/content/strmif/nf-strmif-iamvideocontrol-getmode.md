@@ -68,7 +68,7 @@ Pointer to the pin to retrieve the video control mode from.
 
 ### -param Mode [out]
 
-Pointer to a value representing a combination of the flags from the <a href="https://msdn.microsoft.com/9d7feb46-fb07-46d8-a9a5-511578873cf3">VideoControlFlags</a> enumeration, which specify the video control mode.
+Pointer to a value representing a combination of the flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagvideocontrolflags">VideoControlFlags</a> enumeration, which specify the video control mode.
 
 
 ## -returns
@@ -94,11 +94,11 @@ Possible modes of operation include one or more of the following: flipping the p
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd114977-c76c-4429-a835-98601b350a93">IAMVideoControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>
  
 
  

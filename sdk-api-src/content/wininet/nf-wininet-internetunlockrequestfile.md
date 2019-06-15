@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Unlocks a file that was locked using 
-<a href="https://msdn.microsoft.com/5924d117-1dcd-43d8-817e-02bda302bdd4">InternetLockRequestFile</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetlockrequestfile">InternetLockRequestFile</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Unlocks a file that was locked using
 ### -param hLockRequestInfo [in]
 
 Handle to a lock request that was returned by 
-<a href="https://msdn.microsoft.com/5924d117-1dcd-43d8-817e-02bda302bdd4">InternetLockRequestFile</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetlockrequestfile">InternetLockRequestFile</a>.
 
 
 ## -returns
@@ -69,7 +69,7 @@ Handle to a lock request that was returned by
 
 
 Returns TRUE if successful, or FALSE otherwise. To get a specific error message, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -78,7 +78,7 @@ Returns TRUE if successful, or FALSE otherwise. To get a specific error message,
 
 
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -88,11 +88,11 @@ Returns TRUE if successful, or FALSE otherwise. To get a specific error message,
 
 
 
-<a href="https://msdn.microsoft.com/c80768cf-c8c0-4bdf-9ea2-f82c92ade05a">Common Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/common-functions">Common Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97">WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
  
 
  

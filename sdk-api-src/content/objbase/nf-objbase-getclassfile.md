@@ -122,7 +122,7 @@ The specified extension in the registry is invalid.
 
 
 
-When given a file name, <b>GetClassFile</b> finds the CLSID associated with that file. Examples of its use are in the <a href="https://msdn.microsoft.com/98c63646-6617-46b6-8c3e-82d1c4d0adb6">OleCreateFromFile</a> function, which is passed a file name and requires an associated CLSID, and in the OLE implementation of <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a>, which, when a link to a file-based document is activated, calls <b>GetClassFile</b> to locate the object application that can open the file. 
+When given a file name, <b>GetClassFile</b> finds the CLSID associated with that file. Examples of its use are in the <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a> function, which is passed a file name and requires an associated CLSID, and in the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>, which, when a link to a file-based document is activated, calls <b>GetClassFile</b> to locate the object application that can open the file. 
 
 
 
@@ -130,7 +130,7 @@ When given a file name, <b>GetClassFile</b> finds the CLSID associated with that
 
 <ol>
 <li>
-If the file contains a storage object, as determined by a call to the <a href="https://msdn.microsoft.com/6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc">StgIsStorageFile</a> function, <b>GetClassFile</b> returns the CLSID that was written with the <a href="https://msdn.microsoft.com/02ab2708-fc8b-4941-939a-a819cf823108">IStorage::SetClass</a> method.
+If the file contains a storage object, as determined by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile">StgIsStorageFile</a> function, <b>GetClassFile</b> returns the CLSID that was written with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setclass">IStorage::SetClass</a> method.
 
 </li>
 <li>
@@ -167,7 +167,7 @@ If all strategies fail, the function returns MK_E_INVALIDEXTENSION.
 
 
 
-<a href="https://msdn.microsoft.com/5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e">WriteClassStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>
  
 
  

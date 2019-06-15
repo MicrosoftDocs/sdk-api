@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes how chroma values are positioned relative to the luma samples in a YUV video frame. These flags are used in the <a href="https://msdn.microsoft.com/eba2c56b-8951-4dc5-91ae-1371793ce787">DXVA2_ExtendedFormat</a> structure.
+Describes how chroma values are positioned relative to the luma samples in a YUV video frame. These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 
 ## -enum-fields
@@ -155,7 +155,7 @@ Example: MPEG-2 interlaced.
 This enumeration is equivalent to the DXVA_VideoChromaSubsampling enumeration used in DXVA 1.0.
       
 
-If you are using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface to describe the video format, chroma siting is specified in the <a href="https://msdn.microsoft.com/0c930348-8669-42cc-9d74-df9ef475bdc8">MF_MT_VIDEO_CHROMA_SITING</a> attribute.
+If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, chroma siting is specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-chroma-siting-attribute">MF_MT_VIDEO_CHROMA_SITING</a> attribute.
       
 
 
@@ -166,11 +166,11 @@ If you are using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020
 
 
 
-<a href="https://msdn.microsoft.com/05ca73c6-d105-47bc-96bc-b784f669febe">Extended Color Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

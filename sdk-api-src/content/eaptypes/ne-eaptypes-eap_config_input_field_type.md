@@ -116,11 +116,11 @@ The <b>EAP_CONFIG_INPUT_FIELD_TYPE</b> enumeration can be employed to support Si
 
 
 
-<a href="https://msdn.microsoft.com/2bf991f2-44b8-4815-b6c7-582f51087c83">Common EAPHost API Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/common-eap-host-api-enumerations">Common EAPHost API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/126ef6cc-aa65-4770-b81a-82d25213618c">SSO and PLAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/understanding-sso-and-plap">SSO and PLAP</a>
  
 
  

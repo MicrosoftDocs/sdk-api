@@ -54,7 +54,7 @@ The <b>IAzApplicationGroup</b> interface defines a collection of principals.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroup</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzApplicationGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplicationGroup</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzApplicationGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAzApplicationGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35b6c928-0c11-420d-8ba7-f28b0c67f55d">AddAppMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappmember">AddAppMember</a>
 </td>
 <td align="left" width="63%">
 Adds the specified <b>IAzApplicationGroup</b> object to the list of application groups that belong to this application group.
@@ -79,7 +79,7 @@ Adds the specified <b>IAzApplicationGroup</b> object to the list of application 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31b8538f-afe1-4fd3-bf6f-6f3f0641fc2a">AddAppNonMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addappnonmember">AddAppNonMember</a>
 </td>
 <td align="left" width="63%">
 Adds the specified <b>IAzApplicationGroup</b> object to the list of application groups that are refused membership in this application group.
@@ -88,16 +88,16 @@ Adds the specified <b>IAzApplicationGroup</b> object to the list of application 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/934ca397-2067-451a-bccd-103ab4db3b1f">AddMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmember">AddMember</a>
 </td>
 <td align="left" width="63%">
-Adds the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) in text form to the list of  accounts that belong to the application group.
+Adds the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form to the list of  accounts that belong to the application group.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/148be96b-be8d-4ad7-a5ad-f22599114cfa">AddMemberName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addmembername">AddMemberName</a>
 </td>
 <td align="left" width="63%">
 Adds the specified account name to the list of  accounts that belong to the application group.
@@ -106,7 +106,7 @@ Adds the specified account name to the list of  accounts that belong to the appl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a61f0b97-cd8a-40e5-b2ef-8eb48359fead">AddNonMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmember">AddNonMember</a>
 </td>
 <td align="left" width="63%">
 Adds the specified SID in text form to the list of  accounts that are refused membership in the application group.
@@ -115,7 +115,7 @@ Adds the specified SID in text form to the list of  accounts that are refused me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56bde3d9-f4f7-449d-a080-5215dda940a0">AddNonMemberName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addnonmembername">AddNonMemberName</a>
 </td>
 <td align="left" width="63%">
 Adds the specified account name to the list of accounts that are refused membership in the application group.
@@ -124,7 +124,7 @@ Adds the specified account name to the list of accounts that are refused members
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a7a11ad-42f9-4d3f-8d55-6e8b3e1bea7e">AddPropertyItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-addpropertyitem">AddPropertyItem</a>
 </td>
 <td align="left" width="63%">
 Adds the specified entity to the specified list.
@@ -133,7 +133,7 @@ Adds the specified entity to the specified list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/856d9b18-927a-462a-b238-78b704bcc58b">DeleteAppMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deleteappmember">DeleteAppMember</a>
 </td>
 <td align="left" width="63%">
 Removes the specified <b>IAzApplicationGroup</b> object from the list of application groups that belong to this application group.
@@ -142,7 +142,7 @@ Removes the specified <b>IAzApplicationGroup</b> object from the list of applica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d78f3cd9-4ccb-47b7-98bd-5e69ebbb178c">DeleteAppNonMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deleteappnonmember">DeleteAppNonMember</a>
 </td>
 <td align="left" width="63%">
 Removes the specified <b>IAzApplicationGroup</b> object from the list of application groups that are refused membership in this application group.
@@ -151,7 +151,7 @@ Removes the specified <b>IAzApplicationGroup</b> object from the list of applica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9db3b162-b37d-4a86-a3c0-cb594370238b">DeleteMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletemember">DeleteMember</a>
 </td>
 <td align="left" width="63%">
 Removes  the specified SID in text form from the list of  accounts that belong to the application group.
@@ -160,7 +160,7 @@ Removes  the specified SID in text form from the list of  accounts that belong t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b3a8aee-b1ef-464a-9b67-80b703d41d69">DeleteMemberName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletemembername">DeleteMemberName</a>
 </td>
 <td align="left" width="63%">
 Removes  the specified account name from the list of   accounts that belong to the application group.
@@ -169,7 +169,7 @@ Removes  the specified account name from the list of   accounts that belong to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05d58f62-fa34-4829-a535-65ea0f5144ab">DeleteNonMember</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletenonmember">DeleteNonMember</a>
 </td>
 <td align="left" width="63%">
 Removes the specified SID in text form from the list of  accounts that are refused membership in the application group.
@@ -178,7 +178,7 @@ Removes the specified SID in text form from the list of  accounts that are refus
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8011e55a-1e62-45a6-a91c-07a488384d84">DeleteNonMemberName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletenonmembername">DeleteNonMemberName</a>
 </td>
 <td align="left" width="63%">
 Removes the specified account name from the list of  accounts that are refused membership in the application group.
@@ -187,7 +187,7 @@ Removes the specified account name from the list of  accounts that are refused m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63ed036a-ad1d-47a8-a4c7-f23fc060c2db">DeletePropertyItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-deletepropertyitem">DeletePropertyItem</a>
 </td>
 <td align="left" width="63%">
 Removes the specified entity from the specified list.
@@ -196,7 +196,7 @@ Removes the specified entity from the specified list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b91c21c0-3042-457b-9f53-b03d9805f255">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>IAzApplicationGroup</b> object property  with the specified property ID.
@@ -205,7 +205,7 @@ Returns the <b>IAzApplicationGroup</b> object property  with the specified prope
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1af01f2-bd86-4404-a281-2024777dafaa">SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified value to the <b>IAzApplicationGroup</b> object property  with the specified property ID.
@@ -214,7 +214,7 @@ Sets the specified value to the <b>IAzApplicationGroup</b> object property  with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51a855dd-4a90-4f7a-b32f-f91e3941655b">Submit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a>
 </td>
 <td align="left" width="63%">
 Persists changes made to the <b>IAzApplicationGroup</b> object.
@@ -232,7 +232,7 @@ Persists changes made to the <b>IAzApplicationGroup</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/74239ac2-b6ea-4839-b4c5-7a77d454aa0b">AppMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appmembers">AppMembers</a>
 
 
 </td>
@@ -248,7 +248,7 @@ Retrieves the application groups that belong to this application group.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a85a9004-f3f5-44ce-a0d7-fa450af74917">AppNonMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appnonmembers">AppNonMembers</a>
 
 
 </td>
@@ -264,7 +264,7 @@ Retrieves the application groups that are refused membership in this application
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b2ef8988-b4de-423f-b727-f69a789b98cf">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_description">Description</a>
 
 
 </td>
@@ -280,7 +280,7 @@ Sets or retrieves a comment that describes the application group.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/963ee516-6dd5-419f-9186-578b7fe9c5bc">LdapQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_ldapquery">LdapQuery</a>
 
 
 </td>
@@ -289,14 +289,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Lightweight Directory Access Protocol</a> (LDAP) query used to define membership for an LDAP query application group.
+Sets or retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Lightweight Directory Access Protocol</a> (LDAP) query used to define membership for an LDAP query application group.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1370fe81-a729-477e-a500-1823abb713e1">Members</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_members">Members</a>
 
 
 </td>
@@ -312,7 +312,7 @@ Retrieves the SIDs (in text form) of  accounts that belong to the application gr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bdd6f88f-ea06-4075-b563-d0c7707107f8">MembersName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a>
 
 
 </td>
@@ -328,7 +328,7 @@ Retrieves the account names of accounts that belong to the application group.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a42fb625-d04e-4884-b644-2007f6dc52ba">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a>
 
 
 </td>
@@ -344,7 +344,7 @@ Sets or retrieves the name of the application group.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/43bdd205-4750-4ff6-8063-8de2c5962b09">NonMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembers">NonMembers</a>
 
 
 </td>
@@ -360,7 +360,7 @@ Retrieves the SIDs (in text form) of  accounts that are refused membership in  t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d78556ae-0d22-4df0-b850-dd7077fa3f85">NonMembersName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembersname">NonMembersName</a>
 
 
 </td>
@@ -376,7 +376,7 @@ Retrieves the account names of accounts that are refused membership in  the appl
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dc100895-4cfb-4e02-97bc-5c99bf26fbe2">Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a>
 
 
 </td>
@@ -392,7 +392,7 @@ Sets or retrieves the group type of the application group.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c0d88a7c-2df7-4f8e-94c2-75690d9758e7">Writable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_writable">Writable</a>
 
 
 </td>

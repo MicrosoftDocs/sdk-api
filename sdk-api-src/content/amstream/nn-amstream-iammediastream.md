@@ -61,7 +61,7 @@ This interface isn't intended for implementation or use by application developer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaStream</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>. <b>IAMMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMMediaStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>. <b>IAMMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IAMMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319658(v=VS.85).aspx">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediastream-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Creates and initializes a new media stream with the specified stream type and purpose ID.
@@ -85,16 +85,16 @@ Creates and initializes a new media stream with the specified stream type and pu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319659(v=VS.85).aspx">JoinAMMultiMediaStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediastream-joinammultimediastream">JoinAMMultiMediaStream</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/Dd319689(v=VS.85).aspx">IAMMultiMediaStream::AddMediaStream</a> method calls this method, which adds the specified media stream to the current multimedia stream.
+The <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammultimediastream-addmediastream">IAMMultiMediaStream::AddMediaStream</a> method calls this method, which adds the specified media stream to the current multimedia stream.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319660(v=VS.85).aspx">JoinFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediastream-joinfilter">JoinFilter</a>
 </td>
 <td align="left" width="63%">
 Connects a media stream to a media stream filter in the underlying filter graph.
@@ -103,7 +103,7 @@ Connects a media stream to a media stream filter in the underlying filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319661(v=VS.85).aspx">JoinFilterGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediastream-joinfiltergraph">JoinFilterGraph</a>
 </td>
 <td align="left" width="63%">
 Connects a media stream filter to a filter graph.
@@ -112,7 +112,7 @@ Connects a media stream filter to a filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319662(v=VS.85).aspx">SetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-iammediastream-setstate">SetState</a>
 </td>
 <td align="left" width="63%">
 Sets the filter state.
@@ -127,7 +127,7 @@ Sets the filter state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407041(v=VS.85).aspx">IMediaStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>
  
 
  

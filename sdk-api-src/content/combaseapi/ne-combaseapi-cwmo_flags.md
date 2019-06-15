@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides flags for the <a href="https://msdn.microsoft.com/7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F">CoWaitForMultipleObjects</a> function.
+Provides flags for the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects">CoWaitForMultipleObjects</a> function.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ No call dispatch.
 
 ### -field CWMO_DISPATCH_CALLS
 
-Dispatch calls from <a href="https://msdn.microsoft.com/7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F">CoWaitForMultipleObjects</a> (default is no call dispatch).
+Dispatch calls from <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects">CoWaitForMultipleObjects</a> (default is no call dispatch).
 
 
 ### -field CWMO_DISPATCH_WINDOW_MESSAGES
@@ -74,5 +74,5 @@ Dispatch calls from <a href="https://msdn.microsoft.com/7A14E4F4-20F0-43FF-8D64-
 
 #### - CWMO_DISPATCH_WINDOW_MESSAGE
 
-Enable dispatch of window messages from <a href="https://msdn.microsoft.com/7A14E4F4-20F0-43FF-8D64-9AAC34B8D56F">CoWaitForMultipleObjects</a> in a ASTA or STA (default in ASTA is no window messages dispatched, default in STA is only a small set of special-cased messages dispatched). The value has no meaning in MTA and is ignored.
+Enable dispatch of window messages from <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects">CoWaitForMultipleObjects</a> in a ASTA or STA (default in ASTA is no window messages dispatched, default in STA is only a small set of special-cased messages dispatched). The value has no meaning in MTA and is ignored.
 

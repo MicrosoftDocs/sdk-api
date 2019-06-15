@@ -50,11 +50,11 @@ ms.custom: 19H1
 ## -description
 
 
-Controls how the <a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a> (EVR) mixes video substreams. Applications can use this interface to control video mixing during playback.
+Controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR) mixes video substreams. Applications can use this interface to control video mixing during playback.
 
-The EVR mixer implements this interface. To get a pointer to the interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a>. The service identifier GUID is MR_VIDEO_MIXER_SERVICE. Call <b>GetService</b> on any of the following objects:
+The EVR mixer implements this interface. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service identifier GUID is MR_VIDEO_MIXER_SERVICE. Call <b>GetService</b> on any of the following objects:
 <ul>
-<li>The <a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a>, if the topology contains an instance of the EVR.
+<li>The <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>, if the topology contains an instance of the EVR.
             </li>
 <li>The EVR media sink.
             </li>
@@ -67,7 +67,7 @@ The EVR mixer implements this interface. To get a pointer to the interface, call
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFVideoMixerControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMixerControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoMixerControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IMFVideoMixerControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6de631cd-f85e-4f53-b14c-8ca3cd65b719">GetStreamOutputRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideomixercontrol-getstreamoutputrect">GetStreamOutputRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position of a video stream within the composition rectangle.
@@ -91,7 +91,7 @@ Retrieves the position of a video stream within the composition rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e0ba97c-c960-4e26-a89c-ea1a4e91e907">GetStreamZOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideomixercontrol-getstreamzorder">GetStreamZOrder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the z-order of a video stream.
@@ -100,7 +100,7 @@ Retrieves the z-order of a video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7075b8cf-2106-4b13-abc7-8aedae18bb62">SetStreamOutputRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideomixercontrol-setstreamoutputrect">SetStreamOutputRect</a>
 </td>
 <td align="left" width="63%">
 Sets the position of a video stream within the composition rectangle.
@@ -109,7 +109,7 @@ Sets the position of a video stream within the composition rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6187724a-6345-4feb-90a0-097b6d21180f">SetStreamZOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideomixercontrol-setstreamzorder">SetStreamZOrder</a>
 </td>
 <td align="left" width="63%">
 Sets the z-order of a video stream.
@@ -124,11 +124,11 @@ Sets the z-order of a video stream.
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

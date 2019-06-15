@@ -59,7 +59,7 @@ Gets a profile that is supported by the driver.
 
 ### -param Index [in]
 
-The zero-based index of the profile. To get the number of profiles that the driver supports, call <a href="https://msdn.microsoft.com/6DCAD69B-3C00-4B3A-97AA-69DF26EF5CD4">ID3D11VideoDevice::GetVideoDecoderProfileCount</a>.
+The zero-based index of the profile. To get the number of profiles that the driver supports, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofilecount">ID3D11VideoDevice::GetVideoDecoderProfileCount</a>.
 
 
 ### -param pDecoderProfile [out]
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/420DE3C4-15A9-4EEB-A1FD-6350DE109CFF">ID3D11VideoDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
  
 
  

@@ -62,9 +62,9 @@ Establishes or terminates a connection between a client's sink and a connection 
 
 ### -param punk [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the object to be connected to the connection point container. If you set <i>fConnect</i> to <b>FALSE</b> to indicate that you are disconnecting the object, this parameter is ignored and can be set to <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object to be connected to the connection point container. If you set <i>fConnect</i> to <b>FALSE</b> to indicate that you are disconnecting the object, this parameter is ignored and can be set to <b>NULL</b>.
 
 
 ### -param riidEvent [in]
@@ -83,9 +83,9 @@ Type: <b>BOOL</b>
 
 ### -param punkTarget [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the connection point container's <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+A pointer to the connection point container's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 
 ### -param pdwCookie [out]
@@ -97,9 +97,9 @@ A connection token. If you set <i>fConnect</i> to <b>TRUE</b> to make a new conn
 
 ### -param ppcpOut [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/ef5a917c-b57f-4000-8daa-86fdbfb47579">IConnectionPoint</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>**</b>
 
-A pointer to the connection point container's <a href="https://msdn.microsoft.com/ef5a917c-b57f-4000-8daa-86fdbfb47579">IConnectionPoint</a> interface, if the operation was successful. The calling application must release this pointer when it is no longer needed. If the request is unsuccessful, the pointer receives <b>NULL</b>. This parameter is optional and can be <b>NULL</b>.
+A pointer to the connection point container's <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface, if the operation was successful. The calling application must release this pointer when it is no longer needed. If the request is unsuccessful, the pointer receives <b>NULL</b>. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns

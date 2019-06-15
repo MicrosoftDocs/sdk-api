@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calls a function that processes the <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a> message. 
+Calls a function that processes the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message. 
 
 
 ## -parameters
@@ -59,30 +59,30 @@ Calls a function that processes the <a href="https://msdn.microsoft.com/en-us/li
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that received <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>. 
+A handle to the window that received <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>. 
 
 
 ### -param wParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
-The first parameter of <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>. 
+The first parameter of <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>. 
 
 
 ### -param lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-The second parameter of <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>. 
+The second parameter of <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>. 
 
 
 ### -param fn
 
 Type: <b>function</b>
 
-The function that is to process <a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>. 
+The function that is to process <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>. 
 
 
 ## -remarks
@@ -94,7 +94,7 @@ The <b>HANDLE_WM_NOTIFY</b> macro is defined as follows.
 <pre class="syntax" xml:space="preserve"><code>#define HANDLE_WM_NOTIFY(hwnd, wParam, lParam, fn) \ 
 
     (fn)((hwnd), (int)(wParam), (NMHDR*)(lParam))</code></pre>
-The macro can be used inside a dialog window procedure to simplify the calling of an application-defined function that requires an <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> parameter.
+The macro can be used inside a dialog window procedure to simplify the calling of an application-defined function that requires an <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> parameter.
 
 
 

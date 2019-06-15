@@ -146,7 +146,7 @@ An error that is not critical has occurred. This type of report shows no UI; the
 
 ### -param pReportInformation [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/3efe2b43-53ac-48e3-bc39-4a9fe6041fca">WER_REPORT_INFORMATION</a> structure that specifies information for the report.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_report_information">WER_REPORT_INFORMATION</a> structure that specifies information for the report.
 
 
 ### -param phReportHandle [out]
@@ -169,12 +169,12 @@ This function returns <b>S_OK</b> on success or an error code on failure.
 
 Use the following functions to specify additional information to be submitted:
 
-<a href="https://msdn.microsoft.com/b40dac44-f7c5-43f0-876d-6f97c26bf461">WerReportAddDump</a>
-<a href="https://msdn.microsoft.com/4b2c2060-a193-4168-90fc-afb95c160569">WerReportAddFile</a>
-<a href="https://msdn.microsoft.com/accf423d-6f03-41e2-b5e9-4a0b630bc918">WerReportSetParameter</a>
-To submit the information, call the <a href="https://msdn.microsoft.com/1433862e-5cf6-4d31-9fd9-137b7b86ec57">WerReportSubmit</a> function. When you have finished with the report handle, call the <a href="https://msdn.microsoft.com/b7326003-cd25-4988-9ed4-31c2e030beec">WerReportCloseHandle</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportaddfile">WerReportAddFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsetparameter">WerReportSetParameter</a>
+To submit the information, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function. When you have finished with the report handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportclosehandle">WerReportCloseHandle</a> function.
 
-Applications can also indicate that they would like the opportunity to recover data or restart on failure. For more information, see <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">Application Recovery and Restart</a>.
+Applications can also indicate that they would like the opportunity to recover data or restart on failure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Application Recovery and Restart</a>.
 
 To view the reports submitted by your application, go to Windows Quality Online Services.
 
@@ -186,27 +186,27 @@ To view the reports submitted by your application, go to Windows Quality Online 
 
 
 
-<a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">Application Recovery and Restart</a>
+<a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Application Recovery and Restart</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3efe2b43-53ac-48e3-bc39-4a9fe6041fca">WER_REPORT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_report_information">WER_REPORT_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7326003-cd25-4988-9ed4-31c2e030beec">WerReportCloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportclosehandle">WerReportCloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/1433862e-5cf6-4d31-9fd9-137b7b86ec57">WerReportSubmit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

@@ -83,7 +83,7 @@ If the text host hasn't received this notification when the text host is shuttin
 
 
 
-<a href="https://msdn.microsoft.com/A715E70C-E8BB-4796-BDA6-90B745EC7761">ITextHost2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICGetDefaultQuality</b> macro queries a video compression driver to provide its default quality setting. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/bba7f451-52c2-4684-a7c9-e4b05cb946c5">ICM_GETDEFAULTQUALITY</a> message.
+The <b>ICGetDefaultQuality</b> macro queries a video compression driver to provide its default quality setting. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getdefaultquality">ICM_GETDEFAULTQUALITY</a> message.
 
 
 
@@ -84,11 +84,11 @@ The <b>ICGetDefaultQuality</b> macro returns the default quality value.
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndClose</b> macro closes an MCI device or file associated with an MCIWnd window. Although the MCI device closes, the MCIWnd window is still open and can be associated with another MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/62dadd90-e8fc-4bdd-9f8c-f9ea9ff5550f">MCI_CLOSE</a> command.
+The <b>MCIWndClose</b> macro closes an MCI device or file associated with an MCIWnd window. Although the MCI device closes, the MCIWnd window is still open and can be associated with another MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-close">MCI_CLOSE</a> command.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/62dadd90-e8fc-4bdd-9f8c-f9ea9ff5550f">MCI_CLOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-close">MCI_CLOSE</a>
  
 
  

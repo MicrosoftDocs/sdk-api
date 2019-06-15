@@ -76,11 +76,11 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/a983af02-ee0e-4a62-8ae0-fb9a1e0c2571">IMultisession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
 
 
 
-<a href="https://msdn.microsoft.com/35ebf336-0d67-422c-b6f7-2fd6ee3e7226">IMultisession::get_InUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_inuse">IMultisession::get_InUse</a>
  
 
  

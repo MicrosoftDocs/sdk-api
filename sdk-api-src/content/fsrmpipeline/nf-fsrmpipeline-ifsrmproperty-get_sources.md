@@ -72,7 +72,7 @@ The format of the source string is  "<i>module_name</i>,<i>rule_name</i>".
 
 
 
-<a href="https://msdn.microsoft.com/feffccd1-cf72-45c0-97b3-d6efd736223e">IFsrmProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmproperty">IFsrmProperty</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>IPX_NETNUM_DATA</b> structure provides information about a specified IPX network number. Used in conjunction with 
-<a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function calls that specify IPX_GETNETINFO in the <i>optname</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_GETNETINFO in the <i>optname</i> parameter.
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ If information about the IPX network is in the computer's IPX cache, the call wi
 
 
 
-<a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
  
 
  

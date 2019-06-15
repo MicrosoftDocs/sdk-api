@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e7cfc572-f727-41f4-b4a5-b15f3f3cd4e1">IWebApplicationUIEvents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationuievents">IWebApplicationUIEvents</a>
  
 
  

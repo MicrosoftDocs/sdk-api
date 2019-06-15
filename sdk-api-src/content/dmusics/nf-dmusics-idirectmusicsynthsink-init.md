@@ -59,7 +59,7 @@ The <code>Init</code> method initializes the synth-sink object.
 
 ### -param pSynth
 
-Pointer to the synth object that the synth-sink object is to connect to. This parameter is a valid, non-NULL pointer to a <a href="https://msdn.microsoft.com/08f1056a-fead-475b-a13a-ee11b9709241">IDirectMusicSynth</a> object.
+Pointer to the synth object that the synth-sink object is to connect to. This parameter is a valid, non-NULL pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a> object.
 
 
 ## -returns
@@ -75,15 +75,15 @@ Pointer to the synth object that the synth-sink object is to connect to. This pa
 
 
 
-When a synthesizer is connected to a synth sink by a call to <a href="https://msdn.microsoft.com/51153ea3-7c61-458a-8879-10efbd678b53">IDirectMusicSynth::SetSynthSink</a>, the synthesizer calls the synth sink's <code>Init</code> method.
+When a synthesizer is connected to a synth sink by a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setsynthsink">IDirectMusicSynth::SetSynthSink</a>, the synthesizer calls the synth sink's <code>Init</code> method.
 
-In order to avoid cyclical references, the <b>IDirectMusicSynthSink</b> does not increment the reference count of the <a href="https://msdn.microsoft.com/08f1056a-fead-475b-a13a-ee11b9709241">IDirectMusicSynth</a> synth object. Instead, it abides by the rule that <b>IDirectMusicSynth</b> object is always the parent and always releases the <b>IDirectMusicSynthSink</b> object when it is done with it.
+In order to avoid cyclical references, the <b>IDirectMusicSynthSink</b> does not increment the reference count of the <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a> synth object. Instead, it abides by the rule that <b>IDirectMusicSynth</b> object is always the parent and always releases the <b>IDirectMusicSynthSink</b> object when it is done with it.
 
-Once connected, the synth sink needs to be activated with a call to <a href="https://msdn.microsoft.com/49b66410-23bd-4c4d-929c-b7e82fb45a9c">IDirectMusicSynthSink::Activate</a>. At this point it starts generating wave buffers, which it passes to the synthesizer by calling <a href="https://msdn.microsoft.com/c0aea93c-df92-46e6-9cd7-38235f513924">IDirectMusicSynth::Render</a>.
+Once connected, the synth sink needs to be activated with a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-activate">IDirectMusicSynthSink::Activate</a>. At this point it starts generating wave buffers, which it passes to the synthesizer by calling <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-render">IDirectMusicSynth::Render</a>.
 
-The <i>pSynth</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <i>pSynth</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-For more information, see <a href="https://msdn.microsoft.com/ddcb847e-d46e-4860-9be9-4480e5a6b710">Synthesizers and Wave Sinks</a>. Also see the description of the <b>IDirectMusic</b> interface in the Microsoft Windows SDK documentation.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/synthesizers-and-wave-sinks">Synthesizers and Wave Sinks</a>. Also see the description of the <b>IDirectMusic</b> interface in the Microsoft Windows SDK documentation.
 
 
 
@@ -93,23 +93,23 @@ For more information, see <a href="https://msdn.microsoft.com/ddcb847e-d46e-4860
 
 
 
-<a href="https://msdn.microsoft.com/08f1056a-fead-475b-a13a-ee11b9709241">IDirectMusicSynth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynth">IDirectMusicSynth</a>
 
 
 
-<a href="https://msdn.microsoft.com/9efdb079-ed24-43b4-844b-344571399de7">IDirectMusicSynth::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-activate">IDirectMusicSynth::Activate</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0aea93c-df92-46e6-9cd7-38235f513924">IDirectMusicSynth::Render</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-render">IDirectMusicSynth::Render</a>
 
 
 
-<a href="https://msdn.microsoft.com/51153ea3-7c61-458a-8879-10efbd678b53">IDirectMusicSynth::SetSynthSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setsynthsink">IDirectMusicSynth::SetSynthSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/49b66410-23bd-4c4d-929c-b7e82fb45a9c">IDirectMusicSynthSink::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-activate">IDirectMusicSynthSink::Activate</a>
  
 
  

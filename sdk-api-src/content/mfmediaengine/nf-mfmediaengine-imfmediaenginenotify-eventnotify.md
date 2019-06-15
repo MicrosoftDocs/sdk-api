@@ -59,7 +59,7 @@ Notifies the application when a playback event occurs.
 
 ### -param event [in]
 
-A member of the <a href="https://msdn.microsoft.com/05790FF8-0720-474B-AFF1-362E7A1B7C34">MF_MEDIA_ENGINE_EVENT</a> enumeration that specifies the event.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_event">MF_MEDIA_ENGINE_EVENT</a> enumeration that specifies the event.
 
 
 ### -param param1 [in]
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/85D702D4-3C9B-4848-81F2-3634C2B6AE1A">IMFMediaEngineNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginenotify">IMFMediaEngineNotify</a>
  
 
  

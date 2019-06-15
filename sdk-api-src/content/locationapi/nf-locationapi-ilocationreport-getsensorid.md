@@ -105,7 +105,7 @@ The following example demonstrates how to call <b>GetSensorID</b>.
 
 
 
-<a href="https://msdn.microsoft.com/6dc78c26-36b3-4545-b5ba-7f04f6e67706">ILocationReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>
  
 
  

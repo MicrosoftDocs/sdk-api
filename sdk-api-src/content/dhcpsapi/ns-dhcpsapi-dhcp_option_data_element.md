@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHCP_OPTION_DATA_ELEMENT</b> structure defines a data element present (either singly or as a member of an array) within a <a href="https://msdn.microsoft.com/6b2e5866-f65f-4ff0-a531-3d07b972f55e">DHCP_OPTION_DATA</a> structure. 
+The <b>DHCP_OPTION_DATA_ELEMENT</b> structure defines a data element present (either singly or as a member of an array) within a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data">DHCP_OPTION_DATA</a> structure. 
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>DHCP_OPTION_DATA_ELEMENT</b> structure defines a data element present (ei
 
 ### -field OptionType
 
-A <a href="https://msdn.microsoft.com/1f215915-07f0-4327-bb42-d5af09cd07c5">DHCP_OPTION_DATA_TYPE</a> enumeration value that indicates the type of data that is present in the subsequent field, <b>Element</b>.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_option_data_type">DHCP_OPTION_DATA_TYPE</a> enumeration value that indicates the type of data that is present in the subsequent field, <b>Element</b>.
 
 
 ### -field Element.ByteOption.case
@@ -192,12 +192,12 @@ Specifies the data as a DWORD value. This field will be present if the <b>Option
 
 ### -field Element.DWordDWordOption
 
-Specifies the data as a <a href="https://msdn.microsoft.com/a7e61aa6-a8ab-4792-bb93-b492e904b098">DWORD_DWORD</a> value. This field will be present if the <b>OptionType</b> is <b>DhcpDWordDWordOption</b>.
+Specifies the data as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dword_dword">DWORD_DWORD</a> value. This field will be present if the <b>OptionType</b> is <b>DhcpDWordDWordOption</b>.
 
 
 ### -field Element.IpAddressOption
 
-Specifies the data as a <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> (DWORD) value. This field will be present if the <b>OptionType</b> is <b>IpAddressOption</b>.
+Specifies the data as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> (DWORD) value. This field will be present if the <b>OptionType</b> is <b>IpAddressOption</b>.
 
 
 ### -field Element.StringDataOption
@@ -207,12 +207,12 @@ Specifies the data as a Unicode string  value. This field will be present if the
 
 ### -field Element.BinaryDataOption
 
-Specifies the data as a <a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a> structure. This field will be present if the <b>OptionType</b> is <b>DhcpBinaryDataOption</b>.
+Specifies the data as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a> structure. This field will be present if the <b>OptionType</b> is <b>DhcpBinaryDataOption</b>.
 
 
 ### -field Element.EncapsulatedDataOption
 
-Specifies the data as encapsulated within a <a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a> structure. The application must know the format of the opaque data capsule in order to read it from the <b>Data</b> field of <b>DHCP_BINARY_DATA</b>. This field will be present if the <b>OptionType</b> is <b>DhcpEncapsulatedDataOption</b>.
+Specifies the data as encapsulated within a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a> structure. The application must know the format of the opaque data capsule in order to read it from the <b>Data</b> field of <b>DHCP_BINARY_DATA</b>. This field will be present if the <b>OptionType</b> is <b>DhcpEncapsulatedDataOption</b>.
 
 
 ### -field Element.Ipv6AddressDataOption
@@ -232,19 +232,19 @@ Specifies the data as a Unicode string value. This field will be present if the 
 
 
 
-<a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b2e5866-f65f-4ff0-a531-3d07b972f55e">DHCP_OPTION_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data">DHCP_OPTION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f215915-07f0-4327-bb42-d5af09cd07c5">DHCP_OPTION_DATA_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_option_data_type">DHCP_OPTION_DATA_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7e61aa6-a8ab-4792-bb93-b492e904b098">DWORD_DWORD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dword_dword">DWORD_DWORD</a>
  
 
  

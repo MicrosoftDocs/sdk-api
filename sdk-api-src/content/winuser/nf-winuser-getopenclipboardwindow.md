@@ -65,7 +65,7 @@ Retrieves the handle to the window that currently has the clipboard open.
 
 Type: <b>HWND</b>
 
-If the function succeeds, the return value is the handle to the window that has the clipboard open. If no window has the clipboard open, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function succeeds, the return value is the handle to the window that has the clipboard open. If no window has the clipboard open, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -74,7 +74,7 @@ If the function succeeds, the return value is the handle to the window that has 
 
 
 
-If an application or DLL specifies a <b>NULL</b> window handle when calling the <a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a> function, the clipboard is opened but is not associated with a window. In such a case, <b>GetOpenClipboardWindow</b> returns <b>NULL</b>. 
+If an application or DLL specifies a <b>NULL</b> window handle when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a> function, the clipboard is opened but is not associated with a window. In such a case, <b>GetOpenClipboardWindow</b> returns <b>NULL</b>. 
 
 
 
@@ -84,7 +84,7 @@ If an application or DLL specifies a <b>NULL</b> window handle when calling the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -92,15 +92,15 @@ If an application or DLL specifies a <b>NULL</b> window handle when calling the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649041(v=VS.85).aspx">GetClipboardOwner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardowner">GetClipboardOwner</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649043(v=VS.85).aspx">GetClipboardViewer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardviewer">GetClipboardViewer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a>
 
 
 

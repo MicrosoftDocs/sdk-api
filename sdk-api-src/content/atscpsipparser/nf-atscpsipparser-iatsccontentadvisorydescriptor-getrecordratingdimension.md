@@ -65,12 +65,12 @@ The <b>GetRecordRatingDimension</b> method returns the dimension index into the 
 
 ### -param bIndexOuter [in]
 
-Zero-based index of the rating region. To get the number of rating regions, call <a href="https://msdn.microsoft.com/e9571bdb-5b0b-4798-b4dc-37ccee51a8b3">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
+Zero-based index of the rating region. To get the number of rating regions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
 
 
 ### -param bIndexInner [in]
 
-Zero-based index of the rating dimension. To get the number of rating dimensions, call <a href="https://msdn.microsoft.com/6f0a8073-0361-4320-a5d9-7c536a07e9c3">IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions</a>.
+Zero-based index of the rating dimension. To get the number of rating dimensions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordrateddimensions">IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions</a>.
 
 
 ### -param pbVal [out]
@@ -122,7 +122,7 @@ The <i>bIndexOuter</i> or <i>bIndexInner</i> parameter is out of bounds.
 
 
 
-<a href="https://msdn.microsoft.com/b7379d66-c57b-45e0-9c63-901bf3637f21">IAtscContentAdvisoryDescriptor Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
  
 
  

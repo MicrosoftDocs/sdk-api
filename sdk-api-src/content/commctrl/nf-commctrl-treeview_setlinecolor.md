@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the current line color. You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb773764(v=VS.85).aspx">TVM_SETLINECOLOR</a> message directly. 
+Sets the current line color. You can also use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setlinecolor">TVM_SETLINECOLOR</a> message directly. 
 
 
 ## -parameters
@@ -59,23 +59,23 @@ Sets the current line color. You can also use the <a href="https://msdn.microsof
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
 
 ### -param clr
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-A <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> that specifies the new line color. Use the CLR_DEFAULT value to restore the system default colors. 
+A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> that specifies the new line color. Use the CLR_DEFAULT value to restore the system default colors. 
 
 
 ## -remarks
 
 
 
-This message only changes line colors. To change the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://msdn.microsoft.com/en-us/library/Bb760131(v=VS.85).aspx">TreeView_SetTextColor</a> macro.
+This message only changes line colors. To change the colors of the plus sign (+) and minus sign (-) inside the buttons, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_settextcolor">TreeView_SetTextColor</a> macro.
 
 
 
@@ -85,7 +85,7 @@ This message only changes line colors. To change the colors of the plus sign (+)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773764(v=VS.85).aspx">TVM_SETLINECOLOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setlinecolor">TVM_SETLINECOLOR</a>
  
 
  

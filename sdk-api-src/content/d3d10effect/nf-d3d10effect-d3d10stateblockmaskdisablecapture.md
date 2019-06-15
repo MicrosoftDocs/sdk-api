@@ -59,28 +59,28 @@ Disable state capturing with a state-block mask.
 
 ### -param pMask [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>*</b>
 
-A state block mask (see <a href="https://msdn.microsoft.com/en-us/library/Bb172453(v=VS.85).aspx">D3D10_STATE_BLOCK_MASK</a>).
+A state block mask (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ns-d3d10effect-_d3d10_state_block_mask">D3D10_STATE_BLOCK_MASK</a>).
 
 
 ### -param StateType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205039(v=VS.85).aspx">D3D10_DEVICE_STATE_TYPES</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ne-d3d10effect-_d3d10_device_state_types">D3D10_DEVICE_STATE_TYPES</a></b>
 
-The type of device state to disable (see <a href="https://msdn.microsoft.com/en-us/library/Bb205039(v=VS.85).aspx">D3D10_DEVICE_STATE_TYPES</a>).
+The type of device state to disable (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/ne-d3d10effect-_d3d10_device_state_types">D3D10_DEVICE_STATE_TYPES</a>).
 
 
 ### -param RangeStart [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The lower end of the range of values to set to false.
 
 
 ### -param RangeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The upper end of the range of values to set to false.
 
@@ -89,9 +89,9 @@ The upper end of the range of values to set to false.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -121,11 +121,11 @@ D3D10StateBlockMaskDisableCapture(&stateBlockMask,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205151(v=VS.85).aspx">Core Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205177(v=VS.85).aspx">Effect Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-functions">Effect Functions</a>
  
 
  

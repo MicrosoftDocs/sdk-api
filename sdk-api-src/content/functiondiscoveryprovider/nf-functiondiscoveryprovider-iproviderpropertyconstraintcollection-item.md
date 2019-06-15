@@ -123,7 +123,7 @@ The <i>ppropVar</i> or <i>pdwPropertyConstraint</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/d2e3bc10-e45f-43de-abc5-c5e35d366d87">IProviderPropertyConstraintCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection">IProviderPropertyConstraintCollection</a>
  
 
  

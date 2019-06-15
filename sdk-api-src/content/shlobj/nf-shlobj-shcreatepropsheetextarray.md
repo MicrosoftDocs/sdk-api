@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>SHCreatePropSheetExtArray</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Loads all the Shell <a href="https://msdn.microsoft.com/72233ab5-212d-498c-8df1-1a96c8eda892">property sheet extension handlers</a> located under a specified registry key.
+Loads all the Shell <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144106(v=vs.85)">property sheet extension handlers</a> located under a specified registry key.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ The maximum number of property sheet handlers to be returned.
 
 Type: <b>HPSXA</b>
 
-Returns a handle to an array of property sheet handlers. Pass this value to <a href="https://msdn.microsoft.com/e0570cd6-dda2-43e4-8540-58baef37bf18">SHAddFromPropSheetExtArray</a>. You do not access this value directly.
+Returns a handle to an array of property sheet handlers. Pass this value to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray">SHAddFromPropSheetExtArray</a>. You do not access this value directly.
 
 
 
@@ -109,9 +109,9 @@ Returns a handle to an array of property sheet handlers. Pass this value to <a h
 
 
 
-When you are finished with the returned HPSXA handle, destroy it by calling <a href="https://msdn.microsoft.com/beb3c1b1-deef-440d-8cf7-f76b3f396efa">SHDestroyPropSheetExtArray</a>.
+When you are finished with the returned HPSXA handle, destroy it by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray">SHDestroyPropSheetExtArray</a>.
 
-This function loads up to <i>max_iface</i> property sheet extensions into an array that is then passed to <a href="https://msdn.microsoft.com/e0570cd6-dda2-43e4-8540-58baef37bf18">SHAddFromPropSheetExtArray</a>.
+This function loads up to <i>max_iface</i> property sheet extensions into an array that is then passed to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddfrompropsheetextarray">SHAddFromPropSheetExtArray</a>.
 
 
 

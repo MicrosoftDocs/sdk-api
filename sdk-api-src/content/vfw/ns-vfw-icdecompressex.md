@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDECOMPRESSEX</b> structure contains decompression parameters used with the <a href="https://msdn.microsoft.com/ed253280-c246-4e86-91f1-ad1e1132d732">ICM_DECOMPRESSEX</a> message
+The <b>ICDECOMPRESSEX</b> structure contains decompression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex">ICM_DECOMPRESSEX</a> message
 
 
 
@@ -192,15 +192,15 @@ Height of the source rectangle.
 
 
 
-<a href="https://msdn.microsoft.com/ed253280-c246-4e86-91f1-ad1e1132d732">ICM_DECOMPRESSEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex">ICM_DECOMPRESSEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/129a65a7-cac3-47e0-9e9c-6e5a4a260c73">Video Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
  
 
  

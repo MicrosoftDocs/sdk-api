@@ -107,7 +107,7 @@ The maximum buffer size that can be obtained is 1500 bytes.
 
 The custom-scripting DLL calls 
 <i>RasGetBuffer</i> through a function pointer. The function pointer is passed to the custom-scripting DLL as a parameter when RAS calls the DLL's implementation of 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
 
 
 
@@ -117,15 +117,15 @@ The custom-scripting DLL calls
 
 
 
-<a href="https://msdn.microsoft.com/c27b8b02-6018-4441-a355-1fb890b9001c">RAS Custom-Scripting</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://msdn.microsoft.com/e31ab530-cb60-4bb0-be44-3ba90fdf71f1">RasCustomScriptExecute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
 
 
 
-<a href="https://msdn.microsoft.com/aba43ef9-7f62-48ab-a790-c8592a57f2c2">RasFreeBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasfreebuffer">RasFreeBuffer</a>
  
 
  

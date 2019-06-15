@@ -59,9 +59,9 @@ Retrieves the enumeration mode of the parsed item.
 
 ### -param pfeMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a">FOLDER_ENUM_MODE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folder_enum_mode">FOLDER_ENUM_MODE</a>*</b>
 
-Pointer to a value that, when this method returns successfully, receives one of the <a href="https://msdn.microsoft.com/ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a">FOLDER_ENUM_MODE</a> values specifying the enumeration mode.
+Pointer to a value that, when this method returns successfully, receives one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folder_enum_mode">FOLDER_ENUM_MODE</a> values specifying the enumeration mode.
 
 
 ## -returns

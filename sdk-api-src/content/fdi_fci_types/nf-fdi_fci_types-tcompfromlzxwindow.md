@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TCOMPfromLZXWindow</b> macro converts window size into an LXZTCOMP value for <a href="https://msdn.microsoft.com/f99e8718-853b-4d35-98ae-61a8333dbaba">FCIAddFile</a>.
+The <b>TCOMPfromLZXWindow</b> macro converts window size into an LXZTCOMP value for <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a>.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The LZX window size. Possible value range is 15-21.
 
 
 
-<a href="https://msdn.microsoft.com/f99e8718-853b-4d35-98ae-61a8333dbaba">FCIAddFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a>
  
 
  

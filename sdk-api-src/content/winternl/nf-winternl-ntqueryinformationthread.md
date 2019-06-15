@@ -68,18 +68,18 @@ A handle to the thread about which information is being requested.
 
 If this parameter is the <b>ThreadIsIoPending</b> value of the  <b>THREADINFOCLASS</b> enumeration, the function determines whether the thread has any I/O operations pending.
 
-Use the public  function <a href="https://msdn.microsoft.com/5502f735-38f5-44a4-908d-1b421ee66aec">GetThreadIOPendingFlag</a> instead to obtain this information.
+Use the public  function <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadiopendingflag">GetThreadIOPendingFlag</a> instead to obtain this information.
 
 If this parameter is the <b>ThreadQuerySetWin32StartAddress</b> value of the <b>THREADINFOCLASS</b> enumeration, the function returns the start address of the thread. Note that on versions of Windows prior to Windows Vista, the returned start address is only reliable before the thread starts running.
 
-If this parameter is the <b>ThreadSubsystemInformation</b> value of the  <b>THREADINFOCLASS</b> enumeration, the function retrieves a <a href="https://msdn.microsoft.com/B1E334BF-AAB3-410D-8D10-A750E8459E42">SUBSYSTEM_INFORMATION_TYPE</a> value indicating the subsystem type of the thread. The buffer pointed to by the <i>ThreadInformation</i> parameter should be large enough to hold a single <b>SUBSYSTEM_INFORMATION_TYPE</b> enumeration.
+If this parameter is the <b>ThreadSubsystemInformation</b> value of the  <b>THREADINFOCLASS</b> enumeration, the function retrieves a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a> value indicating the subsystem type of the thread. The buffer pointed to by the <i>ThreadInformation</i> parameter should be large enough to hold a single <b>SUBSYSTEM_INFORMATION_TYPE</b> enumeration.
 
 
 ### -param ThreadInformation [in, out]
 
 A pointer to a buffer in which the function writes the requested information. If <b>ThreadIsIoPending</b> is specified for the <i>ThreadInformationClass</i> parameter, this buffer must be large enough to hold a <b>ULONG</b> value, which indicates whether  the specified thread has I/O requests pending. If this value is equal to zero, then there are no I/O operations pending; otherwise, if the value is nonzero, then the thread does have I/O operations pending.
 
-Use the public  function <a href="https://msdn.microsoft.com/5502f735-38f5-44a4-908d-1b421ee66aec">GetThreadIOPendingFlag</a> instead to obtain this information.
+Use the public  function <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadiopendingflag">GetThreadIOPendingFlag</a> instead to obtain this information.
 
 If <b>ThreadQuerySetWin32StartAddress</b> is specified for the <i>ThreadInformationClass</i> parameter, this buffer must be large enough to hold a PVOID value, which is the start address of the thread.
 
@@ -111,9 +111,9 @@ The forms and significance of NTSTATUS error codes are listed in the Ntstatus.h 
 
 The <b>NtQueryInformationThread</b> function is internal to the operating system and  subject to change from one  release of Windows to another.  To maintain the    compatibility of your application, it is better to use the public  function previously mentioned instead.
 
-If you do use <b>NtQueryInformationThread</b>, access the function through <a href="https://msdn.microsoft.com/0ffce2b1-ce50-4550-aa68-6628fdcac01a">run-time dynamic linking</a>.  This gives  your code an opportunity to respond gracefully if the function has been   changed or removed from the operating system. Signature changes, however, may not be detectable.
+If you do use <b>NtQueryInformationThread</b>, access the function through <a href="https://docs.microsoft.com/windows/desktop/Dlls/using-run-time-dynamic-linking">run-time dynamic linking</a>.  This gives  your code an opportunity to respond gracefully if the function has been   changed or removed from the operating system. Signature changes, however, may not be detectable.
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 
 
@@ -123,7 +123,7 @@ This function has no associated import library. You must use the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/5502f735-38f5-44a4-908d-1b421ee66aec">GetThreadIOPendingFlag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadiopendingflag">GetThreadIOPendingFlag</a>
  
 
  

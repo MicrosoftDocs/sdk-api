@@ -61,14 +61,14 @@ Gets information about the biometric enrollments that the specified user has on 
 
 ### -param AccountOwner [in]
 
-A <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure for the user whose biometric enrollments you want to get. For example:
+A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure for the user whose biometric enrollments you want to get. For example:
 
 <pre class="syntax" xml:space="preserve"><code>WINBIO_IDENTITY identity = {};
 identity.Type = WINBIO_ID_TYPE_SID;
 
 // Move an account SID into identity.Value.AccountSid.Data.
 // For example, CopySid(...)</code></pre>
-To see the enrollments for every user on the computer, specify the  <b>WINBIO_ID_TYPE_WILDCARD</b> identity type for the <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that you specify for the <i>AccountOwner</i> parameter. For example:
+To see the enrollments for every user on the computer, specify the  <b>WINBIO_ID_TYPE_WILDCARD</b> identity type for the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that you specify for the <i>AccountOwner</i> parameter. For example:
 
 <pre class="syntax" xml:space="preserve"><code>WINBIO_IDENTITY identity = {};
 identity.Type = WINBIO_ID_TYPE_WILDCARD;
@@ -76,18 +76,18 @@ identity.Type = WINBIO_ID_TYPE_WILDCARD;
 
 ### -param EnrolledFactors [out]
 
-A set of <a href="https://msdn.microsoft.com/DCBDB5F9-FF81-44C1-B439-2B8C02483212">WINBIO_BIOMETRIC_TYPE</a> flags that indicate the biometric enrollments that the specified user has on the computer. A value of 0 indicates that the user has no biometric enrollments.
+A set of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-biometric-type-constants">WINBIO_BIOMETRIC_TYPE</a> flags that indicate the biometric enrollments that the specified user has on the computer. A value of 0 indicates that the user has no biometric enrollments.
 
 These enrollments represent system pool enrollments only, such as enrollments that you can use to authenticate a user for sign-in, unlock, and so on.          This value does not include private pool enrollments.
 
-If you specify the wildcard identity type for the  <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that you use for the <i>AccountOwner</i> parameter, this set of flags represents the combined set of enrollments for all users with accounts on the computer.
+If you specify the wildcard identity type for the  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that you use for the <i>AccountOwner</i> parameter, this set of flags represents the combined set of enrollments for all users with accounts on the computer.
 
 
 ## -returns
 
 
 
-If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ The <i>AccountOwner</i> and <i>EnrolledFactors</i> parameters cannot be <b>NULL<
 </dl>
 </td>
 <td width="60%">
-The <b>Type</b> member of the <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that the  <i>AccountOnwer</i> parameter specified was not <b>WINBIO_ID_TYPE_SID</b> or <b>WINBIO_ID_TYPE_WILDCARD</b>, or the <b>AccountSid</b> member of the <b>WINBIO_IDENTITY</b> structure was not valid.
+The <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that the  <i>AccountOnwer</i> parameter specified was not <b>WINBIO_ID_TYPE_SID</b> or <b>WINBIO_ID_TYPE_WILDCARD</b>, or the <b>AccountSid</b> member of the <b>WINBIO_IDENTITY</b> structure was not valid.
 
 </td>
 </tr>
@@ -151,11 +151,11 @@ HRESULT hr = WinBioGetEnrolledFactors(&amp;identity, &amp;enrolledFactors);
 
 
 
-<a href="https://msdn.microsoft.com/DCBDB5F9-FF81-44C1-B439-2B8C02483212">WINBIO_BIOMETRIC_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-biometric-type-constants">WINBIO_BIOMETRIC_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a>
  
 
  

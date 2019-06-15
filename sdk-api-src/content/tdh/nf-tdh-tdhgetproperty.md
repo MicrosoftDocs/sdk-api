@@ -65,7 +65,7 @@ Retrieves a property value from the event data.
 
 ### -param pEvent [in]
 
-The event record passed to your <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback. For details, see the <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure.
+The event record passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure.
 
 
 ### -param TdhContextCount [in]
@@ -75,7 +75,7 @@ Number of elements in <i>pTdhContext</i>.
 
 ### -param pTdhContext [in]
 
-Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="https://msdn.microsoft.com/184df0af-3ac5-406f-a298-4f23826ad85e">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
+Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_tdh_context">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
 
 
 ### -param PropertyDataCount [in]
@@ -85,16 +85,16 @@ Number of data descriptor structures in <i>pPropertyData</i>.
 
 ### -param pPropertyData [in]
 
-Array of <a href="https://msdn.microsoft.com/38e6f5b1-fce5-45e4-ac7a-09ba40d29837">PROPERTY_DATA_DESCRIPTOR</a> structures that defines the property to retrieve. 
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_property_data_descriptor">PROPERTY_DATA_DESCRIPTOR</a> structures that defines the property to retrieve. 
 
-If you called  the <a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a> function to retrieve the required buffer size for the property, you can use the same data descriptors.
+If you called  the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a> function to retrieve the required buffer size for the property, you can use the same data descriptors.
 
 If you are retrieving a property that is not a member of a structure, you can specify a single data descriptor. If you are retrieving a property that is a member of a structure, specify an array of two  data descriptors (structures cannot contain or reference other structures).
 
 
 ### -param BufferSize [in]
 
-Size of the <i>pBuffer</i> buffer, in bytes. You can get this value from the <i>pPropertySize</i> parameter when calling <a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a> function.
+Size of the <i>pBuffer</i> buffer, in bytes. You can get this value from the <i>pPropertySize</i> parameter when calling <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a> function.
 
 
 ### -param pBuffer [out]
@@ -131,7 +131,7 @@ The schema for the event was not found or the specified property was not found.
 </dl>
 </td>
 <td width="60%">
-The pBuffer buffer is too small. To get the required buffer size, call <a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a>.
+The pBuffer buffer is too small. To get the required buffer size, call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>.
 
 </td>
 </tr>
@@ -178,14 +178,14 @@ The WMI service is not available.
 
 
 
-If the event is a WPP or classic ETW event, you can specify context information that is used to help parse the event information. The event is a WPP event if the EVENT_HEADER_FLAG_TRACE_MESSAGE flag is set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/479091ae-7229-433b-b93b-8da6cc18df89">EVENT_HEADER</a> (see the <b>EventHeader</b> member of <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a>). The event is a legacy ETW event if the EVENT_HEADER_FLAG_CLASSIC_HEADER flag is set.
+If the event is a WPP or classic ETW event, you can specify context information that is used to help parse the event information. The event is a WPP event if the EVENT_HEADER_FLAG_TRACE_MESSAGE flag is set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_header">EVENT_HEADER</a> (see the <b>EventHeader</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>). The event is a legacy ETW event if the EVENT_HEADER_FLAG_CLASSIC_HEADER flag is set.
 
-For a list of properties for WPP events and their data types, see <a href="https://msdn.microsoft.com/38e6f5b1-fce5-45e4-ac7a-09ba40d29837">PROPERTY_DATA_DESCRIPTOR</a>.
+For a list of properties for WPP events and their data types, see <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_property_data_descriptor">PROPERTY_DATA_DESCRIPTOR</a>.
 
 
 #### Examples
 
-For an example that shows how to call this function to retrieve the value of a top-level property or the member of a structure, see <a href="https://msdn.microsoft.com/16b36718-087f-4be9-9ca2-fc083358017b">Using TdhGetProperty to Consume Event Data</a>.
+For an example that shows how to call this function to retrieve the value of a top-level property or the member of a structure, see <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhgetproperty-to-consume-event-data">Using TdhGetProperty to Consume Event Data</a>.
 
 <div class="code"></div>
 
@@ -196,11 +196,11 @@ For an example that shows how to call this function to retrieve the value of a t
 
 
 
-<a href="https://msdn.microsoft.com/81542550-79aa-4d67-a472-ac3ee3a3ce63">TdhGetEventInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
  
 
  

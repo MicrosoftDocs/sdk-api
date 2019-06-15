@@ -54,7 +54,7 @@ Exposes methods used by a wizard extension to navigate the borders between itsel
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWizardSite</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWizardSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWizardSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWizardSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>IWizardSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/682f5624-5fec-4bc9-9455-150e8e951538">GetCancelledPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardsite-getcancelledpage">GetCancelledPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
+Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61f9b288-40d0-4e36-84e7-6b7bd5d3f5f1">GetNextPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardsite-getnextpage">GetNextPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
+Called when the user navigates forward past the wizard extension pages. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page immediately following the wizard extension page.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/998eabc5-a0d4-450f-92bf-cf81f74c48d2">GetPreviousPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardsite-getpreviouspage">GetPreviousPage</a>
 </td>
 <td align="left" width="63%">
-Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
+Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
 
 </td>
 </tr>

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/05
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ Property ID of the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/d4d22aae-6ca3-4a97-aa44-fa07674dc556">ApplicationData</a> property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a> property
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/9f39032d-7624-43f8-91a4-6e616e691156">Description</a>  property
+Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>  property
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/9f39032d-7624-43f8
 </dl>
 </td>
 <td width="60%">
-Also accessed through the   <a href="https://msdn.microsoft.com/e1ebacda-513c-49f7-bb36-15229fdb0b3b">Name</a> property
+Also accessed through the   <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a> property
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Also accessed through the   <a href="https://msdn.microsoft.com/e1ebacda-513c-49
 </dl>
 </td>
 <td width="60%">
-Also accessed through the  <a href="https://msdn.microsoft.com/3466dea1-b005-40fc-87d1-29b5e033f6a0">OperationID</a> property
+Also accessed through the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a> property
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Also accessed through the  <a href="https://msdn.microsoft.com/3466dea1-b005-40f
 </dl>
 </td>
 <td width="60%">
-Also accessed through the  <a href="https://msdn.microsoft.com/16745237-23d9-4818-b8f8-de93405ae9ac">Writable</a> property
+Also accessed through the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_writable">Writable</a> property
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object property.
+A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object property.
 
 
 ## -returns

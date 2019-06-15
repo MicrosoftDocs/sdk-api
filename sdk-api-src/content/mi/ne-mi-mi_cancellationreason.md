@@ -82,7 +82,7 @@ The service is being stopped.
 
 
 
-<a href="https://msdn.microsoft.com/f2296852-ac09-447c-8088-5639f1e48efd">MI_CancelCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792316(v=vs.85)">MI_CancelCallback</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndCanRecord</b> macro determines if an MCI device supports recording. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/b5a789fa-6a88-487d-a374-8f4798ee5a62">MCIWNDM_CAN_RECORD</a> message.
+The <b>MCIWndCanRecord</b> macro determines if an MCI device supports recording. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-record">MCIWNDM_CAN_RECORD</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/b5a789fa-6a88-487d-a374-8f4798ee5a62">MCIWNDM_CAN_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-record">MCIWNDM_CAN_RECORD</a>
  
 
  

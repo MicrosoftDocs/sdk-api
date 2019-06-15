@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Gets access to the <a href="https://msdn.microsoft.com/6b05c0c7-6f38-42cf-bf7b-2a54a4302b68">IVBFormat</a> interface.
+Gets access to the <a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-ivbformat">IVBFormat</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetVBAObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGetVBAObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGetVBAObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGetVBAObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IGetVBAObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0701c4e7-9a35-42fe-893c-ca898b3716ea">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nf-vbinterf-igetvbaobject-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to an interface.

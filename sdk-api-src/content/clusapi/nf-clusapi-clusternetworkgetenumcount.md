@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the number of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> associated with a 
-    <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT</b> type defines a pointer to this function.
+Returns the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> associated with a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_NETWORK_GET_ENUM_COUNT</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Returns the number of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a80
 ### -param hNetworkEnum [in]
 
 Handle to a network enumeration. This handle is obtained from 
-      <a href="https://msdn.microsoft.com/59f6fd26-1d96-4b04-858d-bfd3e4d25d01">ClusterNetworkOpenEnum</a>. A valid handle is 
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a>. A valid handle is 
       required. This parameter cannot be <b>NULL</b>.
 
 

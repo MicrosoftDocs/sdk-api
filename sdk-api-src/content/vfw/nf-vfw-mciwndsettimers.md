@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSetTimers</b> macro sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/06407c67-b620-4f80-9fe9-456cdf3d0666">MCIWNDM_SETTIMERS</a> message.
+The <b>MCIWndSetTimers</b> macro sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-settimers">MCIWNDM_SETTIMERS</a> message.
 
 
 

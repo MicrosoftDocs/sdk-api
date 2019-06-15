@@ -64,7 +64,7 @@ A full path to the volume containing the files to enumerate.
 
 ### -param Algorithm [in]
 
-The compression algorithm to enumerate.  For a list of valid compression algorithms, see <a href="https://msdn.microsoft.com/84FC5525-43BC-436C-AADC-C58882D48C1F">WOF_FILE_COMPRESSION_INFO_V1</a>.  If this value is MAX_ULONG, files compressed with any supported compression algorithm will be returned.
+The compression algorithm to enumerate.  For a list of valid compression algorithms, see <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/ns-wofapi-_wof_file_compression_info_v1">WOF_FILE_COMPRESSION_INFO_V1</a>.  If this value is MAX_ULONG, files compressed with any supported compression algorithm will be returned.
 
 
 ### -param EnumProc [in]
@@ -91,7 +91,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/86B07858-2F10-48EF-AEB5-7F4A23A55F7F">FSCTL_ENUM_EXTERNAL_BACKING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-enum-external-backing">FSCTL_ENUM_EXTERNAL_BACKING</a>
  
 
  

@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/2fe4de87-e7ea-4120-8e37-5a26d836fcea">IObjectContextTip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontexttip">IObjectContextTip</a>
  
 
  

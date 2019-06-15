@@ -113,12 +113,12 @@ Include resource information.
 ### -param DigestFunction [in]
 
 A pointer to a callback routine to process the data. For more information, see 
-<a href="https://msdn.microsoft.com/4d5d2593-d9e2-43e8-914b-11f578192085">DigestFunction</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nc-imagehlp-digest_function">DigestFunction</a>.
 
 
 ### -param DigestHandle [in]
 
- A user-supplied handle to the digest. This parameter is passed to <a href="https://msdn.microsoft.com/4d5d2593-d9e2-43e8-914b-11f578192085">DigestFunction</a> as the first argument.
+ A user-supplied handle to the digest. This parameter is passed to <a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nc-imagehlp-digest_function">DigestFunction</a> as the first argument.
 
 
 ## -returns
@@ -128,7 +128,7 @@ A pointer to a callback routine to process the data. For more information, see
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -161,7 +161,7 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
-<a href="https://msdn.microsoft.com/926f412e-25ba-4f9c-a118-b5a1bc723379">ImageHlp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
  
 
  

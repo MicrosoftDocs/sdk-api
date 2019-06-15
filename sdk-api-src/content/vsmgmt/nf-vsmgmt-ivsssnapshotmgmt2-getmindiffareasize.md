@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The shadow copy storage area minimum size is a per-computer setting that is specified by the <b>MinDiffAreaFileSize</b> registry key. For more information, see the entry for <b>MinDiffAreaFileSize</b> in <a href="https://msdn.microsoft.com/83449f78-cca1-449b-8c5f-3c8a91c8b3e7">Registry Keys and Values for Backup and Restore</a>.
+The shadow copy storage area minimum size is a per-computer setting that is specified by the <b>MinDiffAreaFileSize</b> registry key. For more information, see the entry for <b>MinDiffAreaFileSize</b> in <a href="https://docs.microsoft.com/windows/desktop/Backup/registry-keys-for-backup-and-restore">Registry Keys and Values for Backup and Restore</a>.
 
 
 
@@ -85,7 +85,7 @@ The shadow copy storage area minimum size is a per-computer setting that is spec
 
 
 
-<a href="https://msdn.microsoft.com/92c8c960-d548-4a44-8b10-b6180c974473">IVssSnapshotMgmt2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivsssnapshotmgmt2">IVssSnapshotMgmt2</a>
  
 
  

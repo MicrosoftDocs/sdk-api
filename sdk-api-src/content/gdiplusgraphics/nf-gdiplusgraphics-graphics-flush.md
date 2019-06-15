@@ -60,9 +60,9 @@ The <b>Graphics::Flush</b> method flushes all pending graphics operations.
 
 ### -param intention [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-flushintention">FlushIntention</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a> enumeration that specifies whether pending operations are flushed immediately (not executed) or executed as soon as possible. 
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-flushintention">FlushIntention</a> enumeration that specifies whether pending operations are flushed immediately (not executed) or executed as soon as possible. 
 
 
 ## -returns
@@ -79,11 +79,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534122(v=VS.85).aspx">FlushIntention</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-flushintention">FlushIntention</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
  
 
  

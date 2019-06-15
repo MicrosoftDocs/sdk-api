@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods to create Advanced Systems Format (ASF) data packets. The methods of this interface process input samples into the packets that make up an ASF data section. The ASF multiplexer exposes this interface. To create the ASF multiplexer, call <a href="https://msdn.microsoft.com/4c3ded7e-51ef-4141-98f2-48b318ba9453">MFCreateASFMultiplexer</a>.
+Provides methods to create Advanced Systems Format (ASF) data packets. The methods of this interface process input samples into the packets that make up an ASF data section. The ASF multiplexer exposes this interface. To create the ASF multiplexer, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmultiplexer">MFCreateASFMultiplexer</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFMultiplexer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFASFMultiplexer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFMultiplexer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFMultiplexer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFASFMultiplexer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a106ea5-976a-40df-a554-1b76d9a07286">End</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end">End</a>
 </td>
 <td align="left" width="63%">
 Collects data from the multiplexer and updates the ASF ContentInfo object to include that information.
@@ -79,7 +79,7 @@ Collects data from the multiplexer and updates the ASF ContentInfo object to inc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44a66374-ad9d-4c76-8c95-21a15e071c6d">Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Signals the multiplexer to process all queued samples. Call this method after passing the last sample to the multiplexer.
@@ -88,7 +88,7 @@ Signals the multiplexer to process all queued samples. Call this method after pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0aeefb5-6996-4abb-b869-855aaa7fcde2">GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves flags indicating the configured multiplexer options.
@@ -97,7 +97,7 @@ Retrieves flags indicating the configured multiplexer options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39b9f8a0-fb26-4f46-98fd-b4636f8f88c7">GetNextPacket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket">GetNextPacket</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next output ASF packet from the multiplexer.
@@ -106,7 +106,7 @@ Retrieves the next output ASF packet from the multiplexer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56083ceb-3d39-4fda-995a-f91fa0e16853">GetStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getstatistics">GetStatistics</a>
 </td>
 <td align="left" width="63%">
 Retrieves multiplexer statistics.
@@ -115,7 +115,7 @@ Retrieves multiplexer statistics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61c37bd5-3f6f-434b-ae5b-c25c5213d49f">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the multiplexer with the data from an ASF ContentInfo object.
@@ -124,7 +124,7 @@ Initializes the multiplexer with the data from an ASF ContentInfo object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30a693bb-255c-47a4-8102-1543872b0a5e">ProcessSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample">ProcessSample</a>
 </td>
 <td align="left" width="63%">
 Delivers input samples to the multiplexer.
@@ -133,7 +133,7 @@ Delivers input samples to the multiplexer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dac4f9b0-e83a-4e99-9a4a-ec1154c929a7">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets multiplexer options.
@@ -142,7 +142,7 @@ Sets multiplexer options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54aea995-2beb-4c38-a79f-43a539031d95">SetSyncTolerance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setsynctolerance">SetSyncTolerance</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum time by which samples from various streams can be out of synchronization.
@@ -157,11 +157,11 @@ Sets the maximum time by which samples from various streams can be out of synchr
 
 
 
-<a href="https://msdn.microsoft.com/007a6da5-47cf-476a-b0f7-566a68ad19ce">ASF Multiplexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-multiplexer">ASF Multiplexer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

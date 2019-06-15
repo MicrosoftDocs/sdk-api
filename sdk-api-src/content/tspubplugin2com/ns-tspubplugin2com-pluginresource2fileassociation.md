@@ -93,7 +93,7 @@ A byte array that contains the icon to display for files with the specified exte
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh436957(v=VS.85).aspx">pluginResource2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/ns-tspubplugin2com-__midl_itspubplugin2_0002">pluginResource2</a>
  
 
  

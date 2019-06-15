@@ -59,7 +59,7 @@ Adds a single arc to the path geometry.
 
 ### -param arc [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/3f391265-20b4-4897-aa0b-d14b71cd5f0a">D2D1_ARC_SEGMENT</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_arc_segment">D2D1_ARC_SEGMENT</a></b>
 
 The arc segment to add to the figure.
 
@@ -78,7 +78,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
  
 
  

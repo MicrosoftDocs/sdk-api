@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates a change in the <a href="https://msdn.microsoft.com/9819d6bb-751b-4b47-aa2d-23d7f86c1d3d">AVAudioSampleRate</a> codec property.
+Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiosamplerate-property">AVAudioSampleRate</a> codec property.
 
 
 ## -parameters
@@ -73,11 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/9819d6bb-751b-4b47-aa2d-23d7f86c1d3d">AVAudioSampleRate Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiosamplerate-property">AVAudioSampleRate Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694453(v=VS.85).aspx">IMSVidAudioRendererEvent2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>
  
 
  

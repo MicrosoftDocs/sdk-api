@@ -80,11 +80,11 @@ True if multithread protection was already turned on prior to calling this metho
 
 
 
-<a href="https://msdn.microsoft.com/1BCB0021-9C92-425D-97C1-6EDB1D2127A8">GetMultithreadProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-getmultithreadprotected">GetMultithreadProtected</a>
 
 
 
-<a href="https://msdn.microsoft.com/1A07694E-7D61-4A59-82E3-048F04C8D57A">ID3D11Multithread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11multithread">ID3D11Multithread</a>
  
 
  

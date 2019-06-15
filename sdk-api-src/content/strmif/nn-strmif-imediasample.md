@@ -55,14 +55,14 @@ The <code>IMediaSample</code> interface sets and retrieves properties on media s
 
 Typically, applications do not call methods on this interface. Filters use this interface to set properties on samples, and deliver the samples to a downstream filter. The downstream filter uses the interface to retrieve the properties and read the data. The filter can modify the data in place, or it can copy the sample, modify the copy, and pass the copy downstream.
 
-The <a href="https://msdn.microsoft.com/638cb75d-9be6-4ba1-a116-47e2d62b689d">IMediaSample2</a> interface inherits this interface.
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample2">IMediaSample2</a> interface inherits this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMediaSample</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaSample</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMediaSample</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d89dbaef-01ff-4379-b696-cdd1a6a9801b">GetActualDataLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getactualdatalength">GetActualDataLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of the valid data in the buffer.
@@ -86,7 +86,7 @@ Retrieves the length of the valid data in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb2a8fd4-4a25-482c-8509-f43461c708d6">GetMediaTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getmediatime">GetMediaTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media times for this sample.
@@ -95,7 +95,7 @@ Retrieves the media times for this sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abccec09-c5a0-4192-9bdf-9240d1b73357">GetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getmediatype">GetMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type, if the media type differs from the previous sample.
@@ -104,7 +104,7 @@ Retrieves the media type, if the media type differs from the previous sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3c69dfb-6ee4-401b-8dcb-4e42a8cd8156">GetPointer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getpointer">GetPointer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a read/write pointer to this buffer's memory.
@@ -113,7 +113,7 @@ Retrieves a read/write pointer to this buffer's memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6dc50db2-dc75-4c04-ac30-78275ee35ce8">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the buffer.
@@ -122,7 +122,7 @@ Retrieves the size of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5e95ef3-a101-41c4-8947-f099fcd2490e">GetTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-gettime">GetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream times at which this sample should begin and finish.
@@ -131,7 +131,7 @@ Retrieves the stream times at which this sample should begin and finish.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bab511e-a744-4b6e-afe3-0ceb473dfcae">IsDiscontinuity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-isdiscontinuity">IsDiscontinuity</a>
 </td>
 <td align="left" width="63%">
 Determines if this sample represents a break in the data stream.
@@ -140,7 +140,7 @@ Determines if this sample represents a break in the data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7df1d34f-ba55-42bd-b61b-272ef72e13a8">IsPreroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-ispreroll">IsPreroll</a>
 </td>
 <td align="left" width="63%">
 Determines if this sample is a preroll sample.
@@ -149,7 +149,7 @@ Determines if this sample is a preroll sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eed64bd9-1300-4db3-a3ed-c7e8ff9c7c8f">IsSyncPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-issyncpoint">IsSyncPoint</a>
 </td>
 <td align="left" width="63%">
 Determines if the beginning of this sample is a synchronization point.
@@ -158,7 +158,7 @@ Determines if the beginning of this sample is a synchronization point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db8a768e-7550-4165-8f87-308ec7f2e07f">SetActualDataLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setactualdatalength">SetActualDataLength</a>
 </td>
 <td align="left" width="63%">
 Sets the length of the valid data in the buffer.
@@ -167,7 +167,7 @@ Sets the length of the valid data in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57041c71-4c7e-463a-92f5-c77a76aa545a">SetDiscontinuity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setdiscontinuity">SetDiscontinuity</a>
 </td>
 <td align="left" width="63%">
 Specifies whether this sample represents a break in the data stream.
@@ -176,7 +176,7 @@ Specifies whether this sample represents a break in the data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ae9db99-828d-4ac9-aa51-668b84d4dfab">SetMediaTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setmediatime">SetMediaTime</a>
 </td>
 <td align="left" width="63%">
 Sets the media times for this sample.
@@ -185,7 +185,7 @@ Sets the media times for this sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5be0997a-ae70-45fb-94e4-cb5e0a36d71a">SetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setmediatype">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for the sample.
@@ -194,7 +194,7 @@ Sets the media type for the sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a92f2774-19ac-4630-ad66-2299336d1338">SetPreroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setpreroll">SetPreroll</a>
 </td>
 <td align="left" width="63%">
 Specifies whether this sample is a preroll sample.
@@ -203,7 +203,7 @@ Specifies whether this sample is a preroll sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2770045-c18b-4dbc-b104-873e07c0b5aa">SetSyncPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-setsyncpoint">SetSyncPoint</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the beginning of this sample is a synchronization point.
@@ -212,7 +212,7 @@ Specifies whether the beginning of this sample is a synchronization point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/531eef13-8b04-48d2-9070-7f6e34cacd9e">SetTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-settime">SetTime</a>
 </td>
 <td align="left" width="63%">
 Sets the stream time when this sample should begin and finish.

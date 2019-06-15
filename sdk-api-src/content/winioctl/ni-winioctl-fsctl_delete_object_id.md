@@ -210,31 +210,31 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/78a2dfa0-a095-4ca3-bfbb-4535086dee4a">FSCTL_CREATE_OR_GET_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_or_get_object_id">FSCTL_CREATE_OR_GET_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/60eb4218-424e-4101-a012-3fde66f4f4fe">FSCTL_GET_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_object_id">FSCTL_GET_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb131a33-96c8-40fc-92be-05522676541a">FSCTL_SET_OBJECT_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id">FSCTL_SET_OBJECT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e17dc58f-3fa7-4069-b8ec-16331438b832">FSCTL_SET_OBJECT_ID_EXTENDED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_object_id_extended">FSCTL_SET_OBJECT_ID_EXTENDED</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f438c72-f23d-4ca4-83bd-fe3bc433ceeb">Object Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers">Object Identifiers</a>
  
 
  

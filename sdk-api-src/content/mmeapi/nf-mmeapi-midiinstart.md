@@ -101,7 +101,7 @@ The specified device handle is invalid.
 
 This function resets the time stamp to zero; time stamp values for subsequently received messages are relative to the time that this function was called.
 
-All messages except system-exclusive messages are sent directly to the client when they are received. System-exclusive messages are placed in the buffers supplied by the <a href="https://msdn.microsoft.com/b673e252-91d0-45b9-a528-079868b47157">midiInAddBuffer</a> function. If there are no buffers in the queue, the system-exclusive data is thrown away without notification to the client and input continues. Buffers are returned to the client when they are full, when a complete system-exclusive message has been received, or when the <a href="https://msdn.microsoft.com/74df14c2-df28-40c0-81f2-aed2147f7072">midiInReset</a> function is used. The <b>dwBytesRecorded</b> member of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure will contain the actual length of data received.
+All messages except system-exclusive messages are sent directly to the client when they are received. System-exclusive messages are placed in the buffers supplied by the <a href="https://docs.microsoft.com/previous-versions//dd798450(v=vs.85)">midiInAddBuffer</a> function. If there are no buffers in the queue, the system-exclusive data is thrown away without notification to the client and input continues. Buffers are returned to the client when they are full, when a complete system-exclusive message has been received, or when the <a href="https://docs.microsoft.com/previous-versions//dd798461(v=vs.85)">midiInReset</a> function is used. The <b>dwBytesRecorded</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure will contain the actual length of data received.
 
 Calling this function when input is already started has no effect, and the function returns zero.
 
@@ -113,7 +113,7 @@ Calling this function when input is already started has no effect, and the funct
 
 
 
-<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
  
 
  

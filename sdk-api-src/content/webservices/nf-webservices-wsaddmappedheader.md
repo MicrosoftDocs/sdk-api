@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Adds a specified mapped header to the <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">message</a>.
+Adds a specified mapped header to the <a href="https://docs.microsoft.com/windows/desktop/wsw/message">message</a>.
 
 
 
@@ -62,35 +62,35 @@ Adds a specified mapped header to the <a href="https://msdn.microsoft.com/edc810
 
 ### -param message [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure representing the  <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">message</a> to to which to add the mapped header.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure representing the  <a href="https://docs.microsoft.com/windows/desktop/wsw/message">message</a> to to which to add the mapped header.
                 
 
-The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> enumeration.
+The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> enumeration.
                 
 
 
 ### -param headerName [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> containing the name of the header.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> containing the name of the header.
                 
 
 
 ### -param valueType [in]
 
-The type of header value to deserialize.  For possible types and the corresponding headers, see the <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a>
+The type of header value to deserialize.  For possible types and the corresponding headers, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a>
 
 
 
 ### -param writeOption [in]
 
 Whether the header is required, and how the value is allocated.
-                    For more information, see the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
+                    For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> enumeration.
                 
 
 
 ### -param value [in]
 
-The header value to serialize.  For more information, see  the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
+The header value to serialize.  For more information, see  the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> enumeration.
                 
 
 
@@ -102,7 +102,7 @@ The size of the value being serialized, in bytes.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -169,10 +169,10 @@ A message may contain additional transport-specific information that is
                 transport-specific location.
             
 
-When you use the HTTP channel, you must specify the required mappings  before before you call this function to add the headers.  For more information, see <a href="https://msdn.microsoft.com/dff8217e-769d-4f0b-acf2-02d6e43589cf">WS_HTTP_MESSAGE_MAPPING</a>.
+When you use the HTTP channel, you must specify the required mappings  before before you call this function to add the headers.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
             
 
-If you are replacing a header, call the <a href="https://msdn.microsoft.com/aa662c92-4fb4-47af-b260-a3dedf4c6c9a">WsRemoveMappedHeader</a> function to remove
+If you are replacing a header, call the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovemappedheader">WsRemoveMappedHeader</a> function to remove
                 the existing instances of the header before you call <b>WsAddMappedHeader</b>.
             
 

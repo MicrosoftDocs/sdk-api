@@ -57,7 +57,7 @@ A predicate interface determines whether geometry should be processed depending 
 
 
 
-To create a predicate object, call <a href="https://msdn.microsoft.com/5af4e63b-ba85-4c73-82e3-b09579d7ce78">ID3D11Device::CreatePredicate</a>. To set the predicate object, call <a href="https://msdn.microsoft.com/ceac248a-31c9-4e14-892f-f047e288daae">ID3D11DeviceContext::SetPredication</a>.
+To create a predicate object, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createpredicate">ID3D11Device::CreatePredicate</a>. To set the predicate object, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-setpredication">ID3D11DeviceContext::SetPredication</a>.
 
 There are two types of predicates: stream-output-overflow predicates and occlusion predicates. Stream-output-overflow predicates cause any geometry residing in stream-output buffers that were overflowed to not be processed. Occlusion predicates cause any geometry that did not have a single sample pass the depth/stencil tests to not be processed.
 
@@ -69,11 +69,11 @@ There are two types of predicates: stream-output-overflow predicates and occlusi
 
 
 
-<a href="https://msdn.microsoft.com/e96804db-0987-49ca-b1b1-321f36c13024">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d296a5aa-147c-460d-acc6-e097ea503378">ID3D11Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11query">ID3D11Query</a>
  
 
  

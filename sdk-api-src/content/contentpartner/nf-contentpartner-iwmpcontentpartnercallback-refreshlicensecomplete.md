@@ -64,7 +64,7 @@ The <b>RefreshLicenseComplete</b> method notifies Windows Media Player that the 
 
 ### -param dwCookie [in]
 
-A cookie that represents a request to update a license for a media file. Windows Media Player previously supplied this cookie to the online store's plug-in by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563173(v=VS.85).aspx">IWMPContentPartner::RefreshLicense</a>.
+A cookie that represents a request to update a license for a media file. Windows Media Player previously supplied this cookie to the online store's plug-in by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-refreshlicense">IWMPContentPartner::RefreshLicense</a>.
 
 
 ### -param contentID [in]
@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-Windows Media Player requests a license update by calling the plug-in's <a href="https://msdn.microsoft.com/en-us/library/Dd563173(v=VS.85).aspx">RefreshLicense</a> method, which initiates the update and returns immediately. When the online store has finished processing the update request, the plug-in calls <b>RefreshLicenseComplete</b>.
+Windows Media Player requests a license update by calling the plug-in's <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-refreshlicense">RefreshLicense</a> method, which initiates the update and returns immediately. When the online store has finished processing the update request, the plug-in calls <b>RefreshLicenseComplete</b>.
 
 
 
@@ -119,11 +119,11 @@ Windows Media Player requests a license update by calling the plug-in's <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563173(v=VS.85).aspx">IWMPContentPartner::RefreshLicense</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-refreshlicense">IWMPContentPartner::RefreshLicense</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
  
 
  

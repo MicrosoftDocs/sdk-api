@@ -60,7 +60,7 @@ The
 
 ### -param pbstrId [out]
 
-Receives a reference to the service ID. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required..
+Receives a reference to the service ID. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required..
 
 
 ## -returns
@@ -77,7 +77,7 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 
 
-<a href="https://msdn.microsoft.com/48b20b03-62a4-4dcd-8eda-f1bfef1eef38">IUPnPService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
  
 
  

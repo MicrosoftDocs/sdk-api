@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Allocates a packet to be sent with the 
-    <a href="https://msdn.microsoft.com/b4809f0b-b8a5-45d1-b6ef-8f812379e706">PxeSendReply</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function.
 
 
 ## -parameters
@@ -61,13 +61,13 @@ Allocates a packet to be sent with the
 ### -param hProvider [in]
 
 <b>HANDLE</b> passed to the 
-      <a href="https://msdn.microsoft.com/433b051c-9fde-4589-92e2-58d3774826ac">PxeProviderInitialize</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
 
 
 ### -param hClientRequest [in]
 
 Handle to the client request received in the 
-      <a href="https://msdn.microsoft.com/704972d5-177a-490e-881f-d2b3025babda">PxeProviderRecvRequest</a> callback.
+      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
 
 
 ### -param uSize [in]
@@ -80,7 +80,7 @@ Size of the buffer to be allocated.
 
 
 Address of allocated buffer, or <b>NULL</b> if the allocation failed. For extended error 
-      information, use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+      information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -90,23 +90,23 @@ Address of allocated buffer, or <b>NULL</b> if the allocation failed. For extend
 
 
 
-<a href="https://msdn.microsoft.com/de93d42d-9c46-4944-a6e9-5dd72b8a3278">PxePacketFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketfree">PxePacketFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/433b051c-9fde-4589-92e2-58d3774826ac">PxeProviderInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/704972d5-177a-490e-881f-d2b3025babda">PxeProviderRecvRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4809f0b-b8a5-45d1-b6ef-8f812379e706">PxeSendReply</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

@@ -52,13 +52,13 @@ ms.custom: 19H1
 The <b>NCRYPT_ALLOC_PARA</b> structure enables you to specify custom functions that can be used to allocate and free data. This structure is used in the following functions:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/EF4777D5-E218-4868-8D25-58E0EF8C9D30">NCryptGetProtectionDescriptorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8726F92B-34D5-4696-8803-3D7F50F1006D">NCryptProtectSecret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/F532F0ED-36F4-47E3-B478-089CC083E5D1">NCryptUnprotectSecret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
 </li>
 </ul>
 
@@ -87,15 +87,15 @@ Address of a function that can free memory allocated by the function specified b
 
 
 
-<a href="https://msdn.microsoft.com/EF4777D5-E218-4868-8D25-58E0EF8C9D30">NCryptGetProtectionDescriptorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptgetprotectiondescriptorinfo">NCryptGetProtectionDescriptorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8726F92B-34D5-4696-8803-3D7F50F1006D">NCryptProtectSecret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>
 
 
 
-<a href="https://msdn.microsoft.com/F532F0ED-36F4-47E3-B478-089CC083E5D1">NCryptUnprotectSecret</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptunprotectsecret">NCryptUnprotectSecret</a>
  
 
  

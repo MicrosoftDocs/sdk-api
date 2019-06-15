@@ -58,7 +58,7 @@ Represents the result of an asynchronous
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteAsyncResult</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteAsyncResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteAsyncResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteAsyncResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDWriteAsyncResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40588741-958D-4D7E-8E39-206D7CFCBFB6">GetResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteasyncresult-getresult">GetResult</a>
 </td>
 <td align="left" width="63%">
 Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
@@ -82,7 +82,7 @@ Returns the result of the asynchronous operation. The return value is E_PENDING 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BF7F7A94-AD3E-48DB-9A01-D4E615063A8F">GetWaitHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteasyncresult-getwaithandle">GetWaitHandle</a>
 </td>
 <td align="left" width="63%">
 Returns a handle that can be used to wait for the asynchronous operation to complete. The handle remains valid until the interface is released.
@@ -96,7 +96,7 @@ Returns a handle that can be used to wait for the asynchronous operation to comp
 
 
 
-IDWriteAsyncResult is returned by <a href="https://msdn.microsoft.com/A0EE8383-81A8-4974-B213-142704EFA210">IDWriteRemoteFontFileStream::BeginDownload</a> for signaling completion of a font download operation.
+IDWriteAsyncResult is returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-begindownload">IDWriteRemoteFontFileStream::BeginDownload</a> for signaling completion of a font download operation.
 
 
 

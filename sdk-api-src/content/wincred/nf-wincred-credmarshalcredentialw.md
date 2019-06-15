@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CredMarshalCredential</b> function transforms a credential into a text string. Historically, many functions, such as <a href="https://msdn.microsoft.com/22550c17-003a-4f59-80f0-58fa3e286844">NetUseAdd</a>, take a domain name, user name, and password as credentials. These functions do not accept certificates as credentials. The <b>CredMarshalCredential</b> function converts such credentials into a form that can be passed into these APIs.
+The <b>CredMarshalCredential</b> function transforms a credential into a text string. Historically, many functions, such as <a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>, take a domain name, user name, and password as credentials. These functions do not accept certificates as credentials. The <b>CredMarshalCredential</b> function converts such credentials into a form that can be passed into these APIs.
 
 The marshaled credential should be passed as the user name string to any API that is currently passed credentials. The domain name, if applicable, passed to that API should be passed as <b>NULL</b> or empty. For certificate credentials, the PIN of the certificate should be passed to that API as the password.
 
@@ -76,24 +76,24 @@ Type of the credential to marshal.
 Credential to marshal. 
 
 
-This is one of the <a href="https://msdn.microsoft.com/612fdd6f-2b4c-4f41-a00b-250f90eb85d3">CRED_MARSHAL_TYPE</a> values.
+This is one of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_marshal_type">CRED_MARSHAL_TYPE</a> values.
 
-If <i>CredType</i> is <i>CertCredential</i>, <i>Credential</i> points to a <a href="https://msdn.microsoft.com/acaa94c3-0562-420a-95c7-44a71374d5ea">CERT_CREDENTIAL_INFO</a> structure.
+If <i>CredType</i> is <i>CertCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_cert_credential_info">CERT_CREDENTIAL_INFO</a> structure.
 
-If <i>CredType</i> is <i>UsernameTargetCredential</i>, <i>Credential</i> points to a <a href="https://msdn.microsoft.com/1cb56a85-fafd-4471-b0e9-660ac0dc0219">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
+If <i>CredType</i> is <i>UsernameTargetCredential</i>, <i>Credential</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a> structure.
 
 
 ### -param MarshaledCredential [out]
 
 Pointer to a <b>null</b>-terminated 
-						string that contains the marshaled credential. The caller should free the returned buffer using <a href="https://msdn.microsoft.com/bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada">CredFree</a>.
+						string that contains the marshaled credential. The caller should free the returned buffer using <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
 
 ## -returns
 
 
 
-This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
+This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
 
 ERROR_INVALID_PARAMETER
 
@@ -107,27 +107,27 @@ ERROR_INVALID_PARAMETER
 
 
 
-<a href="https://msdn.microsoft.com/acaa94c3-0562-420a-95c7-44a71374d5ea">CERT_CREDENTIAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_cert_credential_info">CERT_CREDENTIAL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/612fdd6f-2b4c-4f41-a00b-250f90eb85d3">CRED_MARSHAL_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_marshal_type">CRED_MARSHAL_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada">CredFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/65757235-d92c-479f-8e2b-1f8d8564792b">CredUnmarshalCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunmarshalcredentiala">CredUnmarshalCredential</a>
 
 
 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cb56a85-fafd-4471-b0e9-660ac0dc0219">USERNAME_TARGET_CREDENTIAL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_username_target_credential_info">USERNAME_TARGET_CREDENTIAL_INFO</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Shuts down the platform. Call this function once for every call to <a href="https://msdn.microsoft.com/101e73ec-34ec-49af-999d-5410f46ff319">RtwqStartup</a>. Do not call this function from work queue threads.
+Shuts down the platform. Call this function once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqstartup">RtwqStartup</a>. Do not call this function from work queue threads.
 
 
 ## -parameters

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/938a6a06-31c5-44d1-b87b-a108995ae9a1">Transfer</a> method retrieves an interface that is used to read from or write to the content data of an existing object resource.
+The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-move">Transfer</a> method retrieves an interface that is used to read from or write to the content data of an existing object resource.
       
 
 
@@ -61,7 +61,7 @@ The <a href="https://msdn.microsoft.com/938a6a06-31c5-44d1-b87b-a108995ae9a1">Tr
 
 ### -param ppResources [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/fce2d6db-13f0-4c1d-ba55-16139c6acbb7">IPortableDeviceResources</a> interface that is used to modify an object's resources. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources</a> interface that is used to modify an object's resources. The caller must release this interface when it is done with it.
           
 
 
@@ -115,7 +115,7 @@ This method is typically used to read from an existing object.
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://msdn.microsoft.com/81476f50-5ea0-4e02-9e38-2b1dfcc32c4f">Adding a Resource to an Object</a>.
+For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>.
 
 <div class="code"></div>
 
@@ -126,11 +126,11 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/81476f50-5ea0-4e02-9e38-2b1dfcc32c4f">Adding a Resource to an Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/adding-a-resource-to-an-object">Adding a Resource to an Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
  
 
  

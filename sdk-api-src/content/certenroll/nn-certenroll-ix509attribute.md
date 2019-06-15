@@ -51,21 +51,21 @@ ms.custom: 19H1
 
 The <b>IX509Attribute</b> interface can be used to represent an attribute in a PKCS #7, PKCS #10, or CMC certificate request. For more information, see the following topics:<ul>
 <li>
-<a href="https://msdn.microsoft.com/6116e61e-3ec5-4992-90ab-e3c7ced291b6">Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/attributes">Attributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fd4e2a13-f257-4ba9-a11d-35f49c5a6c00">PKCS #7 Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--7-attributes">PKCS #7 Attributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5f00f638-9edb-474b-a7e4-f6f7b62c89a4">PKCS #10 Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-attributes">PKCS #10 Attributes</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/faeee338-bce4-4b35-9be9-72a6568fa259">CMC Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-attributes">CMC Attributes</a>
 </li>
 </ul>
 
 
-Attributes are added to a certificate request to provide a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> with additional information that it can use when creating and issuing a certificate. Each attribute is a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) encoded <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) structure that contains an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and zero or more values as shown by the following syntax.
+Attributes are added to a certificate request to provide a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> with additional information that it can use when creating and issuing a certificate. Each attribute is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and zero or more values as shown by the following syntax.
 <pre class="syntax" xml:space="preserve"><code>
 Attributes ::= SET OF Attribute
 
@@ -80,7 +80,7 @@ Attribute ::= SEQUENCE
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/82b773e3-7d47-4c85-a6b3-c8ef3e67630a">IX509AttributeClientId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a>
 (XCN_OID_REQUEST_CLIENT_INFO)
 
 </td>
@@ -88,7 +88,7 @@ Attribute ::= SEQUENCE
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a>
 (XCN_OID_RSA_certExtensions)
 
 </td>
@@ -96,15 +96,15 @@ Attribute ::= SEQUENCE
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b42111e9-e39e-4192-9aba-47403fb627dc">IX509AttributeArchiveKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekey">IX509AttributeArchiveKey</a>
 (XCN_OID_ARCHIVED_KEY_ATTR)
 
 </td>
-<td> Represents an attribute that contains an encrypted <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> to be archived by a certification authority.</td>
+<td> Represents an attribute that contains an encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to be archived by a certification authority.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/52c92629-4c9e-4996-80a2-30e2212b3009">IX509AttributeArchiveKeyHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekeyhash">IX509AttributeArchiveKeyHash</a>
 (XCN_OID_ENCRYPTED_KEY_HASH)
 
 </td>
@@ -112,15 +112,15 @@ Attribute ::= SEQUENCE
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/08954c87-f63b-4e1a-91b4-3773e392999b">IX509AttributeCspProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributecspprovider">IX509AttributeCspProvider</a>
 (XCN_OID_ENROLLMENT_CSP_PROVIDER)
 
 </td>
-<td>Represents an attribute that identifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) used by the entity requesting the certificate. </td>
+<td>Represents an attribute that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) used by the entity requesting the certificate. </td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/2ae84d47-2bda-4954-9165-902634d09da9">IX509AttributeOSVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeosversion">IX509AttributeOSVersion</a>
 (XCN_OID_OS_VERSION)
 
 </td>
@@ -128,7 +128,7 @@ Attribute ::= SEQUENCE
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/fc432a7a-6ef7-4359-bb53-1ed5df6bc0ab">IX509AttributeRenewalCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributerenewalcertificate">IX509AttributeRenewalCertificate</a>
 (XCN_OID_RENEWAL_CERTIFICATE)
 
 </td>
@@ -142,7 +142,7 @@ Attribute ::= SEQUENCE
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Attribute</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509Attribute</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Attribute</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509Attribute</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -158,7 +158,7 @@ The <b>IX509Attribute</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82457ca3-4aae-4f47-950c-1146c8614a5b">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from  an OID and a value.
@@ -175,7 +175,7 @@ Initializes the object from  an OID and a value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a65c7989-5e6e-4253-8ddc-1d1207fecaf8">ObjectId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-get_objectid">ObjectId</a>
 
 
 </td>
@@ -187,7 +187,7 @@ Retrieves an OID for the attribute.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a8e67f3c-4c05-4742-8251-a03335054b2e">RawData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-get_rawdata">RawData</a>
 
 
 </td>
@@ -204,23 +204,23 @@ Retrieves the attribute value.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
  
 
  

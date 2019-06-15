@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WINUSB_PIPE_INFORMATION_EX</b> structure contains pipe information that the <a href="https://msdn.microsoft.com/73C291EC-2345-454B-BC7C-8A443DDFF57C">WinUsb_QueryPipeEx</a> routine retrieves.
+The <b>WINUSB_PIPE_INFORMATION_EX</b> structure contains pipe information that the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querypipeex">WinUsb_QueryPipeEx</a> routine retrieves.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>WINUSB_PIPE_INFORMATION_EX</b> structure contains pipe information that t
 
 ### -field PipeType
 
-A <a href="https://msdn.microsoft.com/4522a7d0-d297-4668-bb4e-e4ceae18f52a">USBD_PIPE_TYPE</a>-type enumeration value that specifies the pipe type.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>-type enumeration value that specifies the pipe type.
 
 
 ### -field PipeId
@@ -87,15 +87,15 @@ The maximum number of bytes that can be transmitted in single interval.  This va
 
 
 
-<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4522a7d0-d297-4668-bb4e-e4ceae18f52a">USBD_PIPE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ne-usb-_usbd_pipe_type">USBD_PIPE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc0a988-27ee-46f5-be03-fe79eedd128a">WinUsb_QueryPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_querypipe">WinUsb_QueryPipe</a>
  
 
  

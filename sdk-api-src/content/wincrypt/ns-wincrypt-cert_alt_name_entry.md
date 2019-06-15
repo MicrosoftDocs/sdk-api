@@ -49,10 +49,10 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_ALT_NAME_ENTRY</b> structure contains an alternative name in one of a variety of name forms. These names are bound by a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) to a certificate's public key.
+The <b>CERT_ALT_NAME_ENTRY</b> structure contains an alternative name in one of a variety of name forms. These names are bound by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) to a certificate's public key.
 
 A  structure can be <b>CERT_ALT_NAME_ENTRY</b> member of a 
-<a href="https://msdn.microsoft.com/f9a20827-3333-4ce2-b074-2e8ce903fad2">CERT_ALT_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure.
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ This can be one of the following values:
 
 ### -field DUMMYUNIONNAME.pOtherName
 
-A pointer to a <b>CERT_OTHER_NAME</b> structure, which includes an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and a <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> containing the name.
+A pointer to a <b>CERT_OTHER_NAME</b> structure, which includes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> containing the name.
 
 
 ### -field DUMMYUNIONNAME.pwszRfc822Name
@@ -98,7 +98,7 @@ DNS name as an IA5 string.
 
 ### -field DUMMYUNIONNAME.DirectoryName
 
-A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> structure that contains a directory name.
+A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> structure that contains a directory name.
 
 
 ### -field DUMMYUNIONNAME.pwszURL
@@ -121,15 +121,15 @@ Object identifier (OID) of any registered object.
 
 
 
-<a href="https://msdn.microsoft.com/f9a20827-3333-4ce2-b074-2e8ce903fad2">CERT_ALT_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_info">CERT_ALT_NAME_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/84057581-d0a9-464a-9399-ba806e37516f">CRYPT_ATTRIBUTE_TYPE_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Encrypted Windows app package settings. This structure expands on <a href="https://msdn.microsoft.com/B5502C1D-2C92-4AE6-BC01-50A853D25CE5">APPX_ENCRYPTED_PACKAGE_SETTINGS</a>.
+Encrypted Windows app package settings. This structure expands on <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ns-appxpackaging-appx_encrypted_package_settings">APPX_ENCRYPTED_PACKAGE_SETTINGS</a>.
 
 
 ## -struct-fields
@@ -74,5 +74,5 @@ The Uri of the block map hash algorithm.
 
 ### -field options
 
-Additional options for encrypted packages. Options come from the <a href="https://msdn.microsoft.com/BEF0AA21-AC0F-4DA5-BA5C-404E54B67953">APPX_ENCRYPTED_PACKAGE_OPTIONS</a> enum.
+Additional options for encrypted packages. Options come from the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_encrypted_package_options">APPX_ENCRYPTED_PACKAGE_OPTIONS</a> enum.
 

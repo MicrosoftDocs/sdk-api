@@ -57,7 +57,7 @@ The <b>IUserInputString</b> interface represents the object created when asking 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserInputString</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUserInputString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUserInputString</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUserInputString</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IUserInputString</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9e967f9-47ed-4b55-a728-fe6432b44efd">GetDefault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getdefault">GetDefault</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default string used to initialize an edit control.
@@ -81,7 +81,7 @@ Retrieves the default string used to initialize an edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a626c53d-b9dd-483b-924d-6f5d2d1c2663">GetImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getimage">GetImage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default image used to initialize an edit control.
@@ -90,7 +90,7 @@ Retrieves the default image used to initialize an edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/474b32f5-e8b3-49d2-a2de-a78244b9066e">GetMaxLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getmaxlength">GetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum string length the user interface (UI) should allow.
@@ -99,7 +99,7 @@ Retrieves the maximum string length the user interface (UI) should allow.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47f1a916-2d1e-4fe8-837b-3e9bf4e51c0b">GetMruCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getmrucount">GetMruCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the list of most recently used items.
@@ -108,7 +108,7 @@ Retrieves the number of items in the list of most recently used items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d03c3eba-e55c-421d-acfa-fea6aa645cc5">GetMruEntryAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getmruentryat">GetMruEntryAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves the entry at the given index in the most recently used list.
@@ -117,7 +117,7 @@ Retrieves the entry at the given index in the most recently used list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2fdb18d-5af8-45c8-8f92-7fc8c836082d">GetPrompt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getprompt">GetPrompt</a>
 </td>
 <td align="left" width="63%">
 Retrieves the title of a prompt if the prompt is a modal dialog box.
@@ -126,7 +126,7 @@ Retrieves the title of a prompt if the prompt is a modal dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29c4b592-fa6a-4f9b-a390-e8bc0928a26d">GetStringId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getstringid">GetStringId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unlocalized canonical name for the requested string.
@@ -135,7 +135,7 @@ Retrieves the unlocalized canonical name for the requested string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57f0c750-9c66-4c30-adc1-0cfd23d878d1">GetStringType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getstringtype">GetStringType</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the type of string to obtain from the user.
@@ -144,7 +144,7 @@ Retrieves a value indicating the type of string to obtain from the user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00cb081a-9077-4ecc-9a1f-002072e6ddda">GetSubmitButtonText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getsubmitbuttontext">GetSubmitButtonText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text for the submit button.
@@ -153,7 +153,7 @@ Retrieves the text for the submit button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f57b247c-bd6d-46ea-be95-a239c1b087ce">GetTooltipText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-gettooltiptext">GetTooltipText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tooltip text displayed for a control.
@@ -168,7 +168,7 @@ Retrieves the tooltip text displayed for a control.
 
 
 
-<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
  
 
  

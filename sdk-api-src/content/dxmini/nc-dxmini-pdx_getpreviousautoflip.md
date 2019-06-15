@@ -74,12 +74,12 @@ The<i> DxGetPreviousAutoflip</i> callback function is called when the device is 
 
 #### - GetPreviousAutoflipInInfo
 
-Points to a <a href="https://msdn.microsoft.com/44816bbe-9ec2-4f96-a18c-442359aa36ad">DDGETPREVIOUSAUTOFLIPININFO</a> structure that contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpreviousautoflipininfo">DDGETPREVIOUSAUTOFLIPININFO</a> structure that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object information.
 
 
 #### - GetPreviousAutoflipOutInfo
 
-Points to a <a href="https://msdn.microsoft.com/3009425c-00ba-4be5-be81-65905abf4a2a">DDGETPREVIOUSAUTOFLIPOUTINFO</a> structure that contains the index of the autoflip chain.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpreviousautoflipoutinfo">DDGETPREVIOUSAUTOFLIPOUTINFO</a> structure that contains the index of the autoflip chain.
 
 
 #### - HwDeviceExtension
@@ -112,11 +112,11 @@ If interleaving, the surface that received the previous field may be the same su
 
 
 
-<a href="https://msdn.microsoft.com/44816bbe-9ec2-4f96-a18c-442359aa36ad">DDGETPREVIOUSAUTOFLIPININFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpreviousautoflipininfo">DDGETPREVIOUSAUTOFLIPININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3009425c-00ba-4be5-be81-65905abf4a2a">DDGETPREVIOUSAUTOFLIPOUTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpreviousautoflipoutinfo">DDGETPREVIOUSAUTOFLIPOUTINFO</a>
  
 
  

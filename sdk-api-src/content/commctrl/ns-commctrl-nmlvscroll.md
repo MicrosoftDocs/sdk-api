@@ -60,10 +60,10 @@ Provides information about a scrolling operation.
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about a <a href="https://msdn.microsoft.com/en-us/library/Bb774816(v=VS.85).aspx">LVN_ENDSCROLL</a> or a <a href="https://msdn.microsoft.com/en-us/library/Bb774802(v=VS.85).aspx">LVN_BEGINSCROLL</a> notification code. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about a <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-endscroll">LVN_ENDSCROLL</a> or a <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-beginscroll">LVN_BEGINSCROLL</a> notification code. 
 
 
 ### -field dx

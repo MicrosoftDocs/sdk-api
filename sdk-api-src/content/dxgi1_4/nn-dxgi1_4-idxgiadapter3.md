@@ -54,7 +54,7 @@ This interface adds some memory residency methods, for budgeting and reserving p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter3</b> interface inherits from <a href="https://msdn.microsoft.com/9AAD133C-CE40-498B-827F-2B35C7C15B8C">IDXGIAdapter2</a>. <b>IDXGIAdapter3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiadapter2">IDXGIAdapter2</a>. <b>IDXGIAdapter3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDXGIAdapter3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC">QueryVideoMemoryInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo">QueryVideoMemoryInfo</a>
 </td>
 <td align="left" width="63%">
 This method informs the process of the current budget and process usage.
@@ -79,7 +79,7 @@ This method informs the process of the current budget and process usage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/789E6EA1-C590-44F6-A474-851E5CF437A5">RegisterHardwareContentProtectionTeardownStatusEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-registerhardwarecontentprotectionteardownstatusevent">RegisterHardwareContentProtectionTeardownStatusEvent</a>
 </td>
 <td align="left" width="63%">
 Registers to receive notification of hardware content protection teardown events.
@@ -88,7 +88,7 @@ Registers to receive notification of hardware content protection teardown events
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58ACCDE6-CB33-4BCE-9B15-84F60AC7B905">RegisterVideoMemoryBudgetChangeNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-registervideomemorybudgetchangenotificationevent">RegisterVideoMemoryBudgetChangeNotificationEvent</a>
 </td>
 <td align="left" width="63%">
 This method establishes a correlation between a CPU synchronization object and the budget change event.
@@ -97,7 +97,7 @@ This method establishes a correlation between a CPU synchronization object and t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5D17F57F-9FFA-4B5C-98B6-33E5B3982A63">SetVideoMemoryReservation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-setvideomemoryreservation">SetVideoMemoryReservation</a>
 </td>
 <td align="left" width="63%">
 This method sends the minimum required physical memory for an application, to the OS.
@@ -107,7 +107,7 @@ This method sends the minimum required physical memory for an application, to th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/821F8BFA-FD11-4E3E-BE5A-05A1F1002EE6">UnregisterHardwareContentProtectionTeardownStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-unregisterhardwarecontentprotectionteardownstatus">UnregisterHardwareContentProtectionTeardownStatus</a>
 </td>
 <td align="left" width="63%">
 Unregisters an event to stop it from receiving notification of hardware content protection teardown events.
@@ -116,7 +116,7 @@ Unregisters an event to stop it from receiving notification of hardware content 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11695B9E-75B5-44BF-BC09-D377BCEDA341">UnregisterVideoMemoryBudgetChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-unregistervideomemorybudgetchangenotification">UnregisterVideoMemoryBudgetChangeNotification</a>
 </td>
 <td align="left" width="63%">
 This method stops notifying a CPU synchronization object whenever a budget change occurs. An application may switch back to polling the information regularly.
@@ -130,7 +130,7 @@ This method stops notifying a CPU synchronization object whenever a budget chang
 
 
 
-For more details, refer to the <a href="https://msdn.microsoft.com/956F80D7-EEC8-4D88-B251-EE325614F31E">Residency</a> section of the D3D12 documentation.
+For more details, refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/residency">Residency</a> section of the D3D12 documentation.
 
 
 
@@ -140,11 +140,11 @@ For more details, refer to the <a href="https://msdn.microsoft.com/956F80D7-EEC8
 
 
 
-<a href="https://msdn.microsoft.com/b561b26b-961c-4d5e-8483-56b51b989bf7">DXGI Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/9AAD133C-CE40-498B-827F-2B35C7C15B8C">IDXGIAdapter2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiadapter2">IDXGIAdapter2</a>
  
 
  

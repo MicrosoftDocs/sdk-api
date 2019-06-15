@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Sets a dictionary header in a dictionary file.
 
-This method sets or modifies the dictionary header of this <a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a> object.
+This method sets or modifies the dictionary header of this <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ This method sets or modifies the dictionary header of this <a href="https://msdn
 
 ### -param pshf [in]
 
-The <a href="https://msdn.microsoft.com/CFFEFEDC-F614-4DD4-B1A1-4D236339E817">IMESHF</a> header to set.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a> header to set.
 
 
 ## -returns
@@ -78,11 +78,11 @@ The <a href="https://msdn.microsoft.com/CFFEFEDC-F614-4DD4-B1A1-4D236339E817">IM
 
 
 
-<a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://msdn.microsoft.com/CFFEFEDC-F614-4DD4-B1A1-4D236339E817">IMESHF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-_imeshf">IMESHF</a>
  
 
  

@@ -66,8 +66,8 @@ structure.
 As indicated above, the validation of the received SAML is limited to
 making sure that it was signed correctly by one of the specified
 certificates.  The application may then extract the SAML assertion
-using <a href="https://msdn.microsoft.com/369f7690-6d70-401a-84aa-e5761dc874b5">WsGetMessageProperty</a> with the key 
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_SAML_ASSERTION</a> and do
+using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmessageproperty">WsGetMessageProperty</a> with the key 
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_SAML_ASSERTION</a> and do
 additional validator or processing.
             
 

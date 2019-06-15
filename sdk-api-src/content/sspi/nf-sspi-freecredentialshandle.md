@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FreeCredentialsHandle</b> function notifies the security system that the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">credentials</a> are no longer needed. An application calls this function to free the credential handle acquired in the call to the 
-<a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle (General)</a> function after calling the <a href="https://msdn.microsoft.com/2a4dd697-ef90-4c37-ab74-0e5ab92794cd">DeleteSecurityContext</a> function to free any context handles associated with the credential. When all references to this credential set have been removed, the credentials themselves can be removed.
+The <b>FreeCredentialsHandle</b> function notifies the security system that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> are no longer needed. An application calls this function to free the credential handle acquired in the call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a> function after calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritycontext">DeleteSecurityContext</a> function to free any context handles associated with the credential. When all references to this credential set have been removed, the credentials themselves can be removed.
 
 Failure to free credentials handles will result in memory leaks.
 
@@ -62,8 +62,8 @@ Failure to free credentials handles will result in memory leaks.
 
 ### -param phCredential [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/94b622d0-7c04-4513-841f-0df9b5d49136">CredHandle</a> handle obtained by using the 
-<a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle (General)</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-handles">CredHandle</a> handle obtained by using the 
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a> function.
 
 
 ## -returns
@@ -101,11 +101,11 @@ The handle passed to the function is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/acda4cf3-39a6-4bd2-91a0-db1f191b57b5">AcquireCredentialsHandle (General)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle (General)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
  
 
  

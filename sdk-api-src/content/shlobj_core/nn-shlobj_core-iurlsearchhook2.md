@@ -54,7 +54,7 @@ Exposes a method that is used by the browser to translate the address of an unkn
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IURLSearchHook2</b> interface inherits from <a href="https://msdn.microsoft.com/6073ad95-03b5-4c06-9742-836719211e24">IURLSearchHook</a>. <b>IURLSearchHook2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IURLSearchHook2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook">IURLSearchHook</a>. <b>IURLSearchHook2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IURLSearchHook2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6143a642-e003-4268-b146-0d3d5cc907df">TranslateWithSearchContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iurlsearchhook2-translatewithsearchcontext">TranslateWithSearchContext</a>
 </td>
 <td align="left" width="63%">
 Called by the browser when the browser cannot determine the protocol of a URL address. This method uses a search context to determine the protocol.
@@ -83,9 +83,9 @@ Called by the browser when the browser cannot determine the protocol of a URL ad
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/6073ad95-03b5-4c06-9742-836719211e24">IURLSearchHook</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook">IURLSearchHook</a> interface, from which it inherits.
 
-When attempting to browse to a URL address, if the browser retrieves an <b>IURLSearchHook2</b> interface, a search context is passed to the browser. If no <b>IURLSearchHook2</b> interface is available the browser uses <a href="https://msdn.microsoft.com/6073ad95-03b5-4c06-9742-836719211e24">IURLSearchHook</a> to determine the address of the unknown URL.
+When attempting to browse to a URL address, if the browser retrieves an <b>IURLSearchHook2</b> interface, a search context is passed to the browser. If no <b>IURLSearchHook2</b> interface is available the browser uses <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iurlsearchhook">IURLSearchHook</a> to determine the address of the unknown URL.
 
 
 

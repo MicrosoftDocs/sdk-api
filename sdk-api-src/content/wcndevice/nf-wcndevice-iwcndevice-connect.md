@@ -59,7 +59,7 @@ The <b>IWCNDevice::Connect</b> method initiates the session.
 
 ### -param pNotify [in]
 
-A pointer to the implemented <a href="https://msdn.microsoft.com/63ea2b5a-4bec-4050-9a61-962a1faef0a0">IWCNConnectNotify</a> callback interface which specifies if a connection has been successfully established.
+A pointer to the implemented <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a> callback interface which specifies if a connection has been successfully established.
 
 
 ## -returns
@@ -116,9 +116,9 @@ The device could not be located on the network.
 
 
 
-After calling this method you may not call any other <a href="https://msdn.microsoft.com/a092406d-7af4-436d-9755-5a9b87aa6ca9">IWCNDevice</a> 'Set' methods.  There is no way to cancel or roll back device settings once a connection has been established.
+After calling this method you may not call any other <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> 'Set' methods.  There is no way to cancel or roll back device settings once a connection has been established.
 
-<b>NULL</b>  can be passed via pNotify, in place of  the <a href="https://msdn.microsoft.com/63ea2b5a-4bec-4050-9a61-962a1faef0a0">IWCNConnectNotify</a> callback interface to prevent  notification from being sent when the connect operation is complete.
+<b>NULL</b>  can be passed via pNotify, in place of  the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a> callback interface to prevent  notification from being sent when the connect operation is complete.
 
 
 
@@ -128,11 +128,11 @@ After calling this method you may not call any other <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/63ea2b5a-4bec-4050-9a61-962a1faef0a0">IWCNConnectNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/a092406d-7af4-436d-9755-5a9b87aa6ca9">IWCNDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
  
 
  

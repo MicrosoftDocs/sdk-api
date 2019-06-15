@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>DS_REPL_QUEUE_STATISTICSW</b> structure is used to contain replication queue statistics.
 
-Reserved. Obtain this data using the <a href="https://msdn.microsoft.com/13fe2237-d20c-4314-ab9a-5bf790742da0">DS_REPL_QUEUE_STATISTICSW_BLOB</a> structure with the <a href="https://msdn.microsoft.com/32bc9909-e476-423c-bbb5-3978234457fd">Lightweight Directory Access Protocol API</a> functions to obtain binary data for the <b>msDS-ReplQueueStatistics</b> attribute.
+Reserved. Obtain this data using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a> structure with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a> functions to obtain binary data for the <b>msDS-ReplQueueStatistics</b> attribute.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Reserved. Obtain this data using the <a href="https://msdn.microsoft.com/13fe223
 
 ### -field ftimeCurrentOpStarted
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time that the currently running operation started.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time that the currently running operation started.
 
 
 ### -field cNumPendingOps
@@ -71,27 +71,27 @@ Contains the number of currently pending operations.
 
 ### -field ftimeOldestSync
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time of the oldest synchronization operation.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest synchronization operation.
 
 
 ### -field ftimeOldestAdd
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time of the oldest add operation.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest add operation.
 
 
 ### -field ftimeOldestMod
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time of the oldest modification operation.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest modification operation.
 
 
 ### -field ftimeOldestDel
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time of the oldest delete operation.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest delete operation.
 
 
 ### -field ftimeOldestUpdRefs
 
-Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the date and time of the oldest reference update operation.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the oldest reference update operation.
 
 
 ## -remarks
@@ -99,7 +99,7 @@ Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec916152
 
 
 
-<a href="https://msdn.microsoft.com/13fe2237-d20c-4314-ab9a-5bf790742da0">DS_REPL_QUEUE_STATISTICSW_BLOB</a> is an alias for this structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a> is an alias for this structure.
 
 
 
@@ -109,11 +109,11 @@ Contains a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec916152
 
 
 
-<a href="https://msdn.microsoft.com/13fe2237-d20c-4314-ab9a-5bf790742da0">DS_REPL_QUEUE_STATISTICSW_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms676274(v=vs.85)">DS_REPL_QUEUE_STATISTICSW_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
  
 
  

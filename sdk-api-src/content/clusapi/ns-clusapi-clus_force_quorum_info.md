@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Specifies information about the list of 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> sufficient to establish quorum in a majority-of-nodes 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> sufficient to establish quorum in a majority-of-nodes 
     cluster.
 
 
@@ -84,7 +84,7 @@ The names of the nodes that are sufficient to establish quorum in a majority-of-
 
 
 
-<a href="https://msdn.microsoft.com/ab957c9c-fe05-424f-80e7-48d74acca6ed">CLUSCTL_RESOURCE_FORCE_QUORUM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-force-quorum">CLUSCTL_RESOURCE_FORCE_QUORUM</a>
  
 
  

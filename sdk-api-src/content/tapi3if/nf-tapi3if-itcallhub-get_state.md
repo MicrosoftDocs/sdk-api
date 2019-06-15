@@ -61,7 +61,7 @@ The
 ### -param pState [out]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/8ddfe1f5-2f4a-4b41-83ce-858a669afc31">CALLHUB_STATE</a> indicator of state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_state">CALLHUB_STATE</a> indicator of state.
 
 
 ## -returns
@@ -119,15 +119,15 @@ The <i>pState</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/8ddfe1f5-2f4a-4b41-83ce-858a669afc31">CALLHUB_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_state">CALLHUB_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea23ae25-2fbb-4060-8273-cd7921d49e52">CallHub Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdc91cac-c0ec-4484-a415-8cd1aa1e18e8">ITCallHub</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
  
 
  

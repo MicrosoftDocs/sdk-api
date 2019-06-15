@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The abstract base type for all URL schemes used with <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a> and <a href="https://msdn.microsoft.com/8253b062-072b-4d37-8b82-407df1bea6b4">WsEncodeUrl</a> APIs.
+The abstract base type for all URL schemes used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsencodeurl">WsEncodeUrl</a> APIs.
             
 
 
@@ -60,5 +60,5 @@ The abstract base type for all URL schemes used with <a href="https://msdn.micro
 
 ### -field scheme
 
-A <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> structure that describes the type of URL scheme.
+A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> structure that describes the type of URL scheme.
 

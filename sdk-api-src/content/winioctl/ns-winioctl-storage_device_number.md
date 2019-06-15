@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains information about a device. This structure is used by the <a href="https://msdn.microsoft.com/2cd9610b-aa83-4d0a-a7a9-1d4dab8be331">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> control code.
+Contains information about a device. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a> control code.
 
 
 ## -struct-fields
@@ -463,7 +463,7 @@ The values in the <b>STORAGE_DEVICE_NUMBER</b> structure are guaranteed to remai
 
 
 
-<a href="https://msdn.microsoft.com/2cd9610b-aa83-4d0a-a7a9-1d4dab8be331">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
  
 
  

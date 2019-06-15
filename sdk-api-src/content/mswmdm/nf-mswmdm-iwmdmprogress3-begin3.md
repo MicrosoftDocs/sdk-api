@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Begin3</b> method is called by Windows Media Device Manager to indicate that an operation is about to begin. An estimate of the duration of the operation is provided when possible. This method extends <a href="https://msdn.microsoft.com/207b7cb5-4471-4be9-8252-9d467d67d7a2">IWMDMProgress::Begin</a> by providing additional input parameters for the identification (ID) of the event and for a pointer to the optional context of the commands. The operation is identified by an event ID. The method allows the caller to pass an opaque data structure to the application.
+The <b>Begin3</b> method is called by Windows Media Device Manager to indicate that an operation is about to begin. An estimate of the duration of the operation is provided when possible. This method extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-begin">IWMDMProgress::Begin</a> by providing additional input parameters for the identification (ID) of the event and for a pointer to the optional context of the commands. The operation is identified by an event ID. The method allows the caller to pass an opaque data structure to the application.
 
 
 
@@ -112,7 +112,7 @@ WMDM_SCP_DRMINFO_V2HEADER
 
 ### -param pContext [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/5b39cf07-2816-4615-a754-e3f0c57bf4ce">OPAQUECOMMAND</a> structure containing a command sent to the device without being handled by Windows Media Device Manager. This parameter is optional and can be <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing a command sent to the device without being handled by Windows Media Device Manager. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -188,15 +188,15 @@ HRESULT Begin3(GUID  EventId, DWORD  dwEstimatedTicks, OPAQUECOMMAND*  pContext)
 
 
 
-<a href="https://msdn.microsoft.com/b4fc7714-a7d0-409f-a47c-4903bab883cc">Enabling Notifications</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc3a7031-ac1b-45cf-889b-2d40d50b347d">IWMDMProgress3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3">IWMDMProgress3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/207b7cb5-4471-4be9-8252-9d467d67d7a2">IWMDMProgress::Begin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-begin">IWMDMProgress::Begin</a>
  
 
  

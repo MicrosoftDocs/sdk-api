@@ -138,12 +138,12 @@ A quota was exceeded.
 
 
 
-<a href="https://msdn.microsoft.com/1fa9ecfc-c791-459f-ae11-ffcdc82b7145">WsWriteBytes</a> and <a href="https://msdn.microsoft.com/295eb530-00f1-4e80-bd8a-ffb3eb1fad5b">WsPushBytes</a> require the buffer of data to be provided to the writer.
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wspushbytes">WsPushBytes</a> require the buffer of data to be provided to the writer.
         In some usage patterns, this may require an extra copy of the data.  For those scenarios, <b>WsPullBytes</b>offers a way to request the writer to provide the buffer that must be filled with data.
       
 
 If the encoding cannot take advantage of this behavior, then <b>WsPullBytes</b> will invoke the
-        callback immediately and operate as if <a href="https://msdn.microsoft.com/1fa9ecfc-c791-459f-ae11-ffcdc82b7145">WsWriteBytes</a> was called on the resulting data.
+        callback immediately and operate as if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a> was called on the resulting data.
       
 
 

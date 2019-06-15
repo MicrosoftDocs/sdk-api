@@ -454,7 +454,7 @@ The address of the page in the virtual address space.
 
 
 
-<a href="https://msdn.microsoft.com/59ca42c0-ca88-4153-b061-980d961a8ca2">PSAPI_WORKING_SET_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>
  
 
  

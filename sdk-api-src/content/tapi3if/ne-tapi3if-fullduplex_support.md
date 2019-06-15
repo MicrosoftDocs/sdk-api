@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>FULLDUPLEX_SUPPORT</b> enum is used by applications interacting with legacy TSPs to indicate whether a specified terminal supports full duplex operations. This enum is returned by the 
-<a href="https://msdn.microsoft.com/117586d7-8214-4fc8-9c7d-08865582cc2a">ITLegacyWaveSupport::IsFullDuplex</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacywavesupport-isfullduplex">ITLegacyWaveSupport::IsFullDuplex</a> method.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The TSP cannot determine whether the device is full duplex.
 
 
 
-<a href="https://msdn.microsoft.com/117586d7-8214-4fc8-9c7d-08865582cc2a">ITLegacyWaveSupport::IsFullDuplex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacywavesupport-isfullduplex">ITLegacyWaveSupport::IsFullDuplex</a>
  
 
  

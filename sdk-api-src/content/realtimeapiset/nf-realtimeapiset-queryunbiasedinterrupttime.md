@@ -91,14 +91,14 @@ The interrupt-time count begins at zero when the system starts and is incremente
 
 The interrupt-time count retrieved by the <b>QueryUnbiasedInterruptTime</b> function reflects only the time that the system is in the working state. Therefore, the interrupt-time count is not "biased" by time the system spends in sleep or hibernation. The system uses biased interrupt time for some operations, such as ensuring that relative timers that would have expired during sleep expire immediately upon waking.
 
-Unlike system time, the interrupt-time count is not subject to adjustments by users or the Windows time service. Applications can use the interrupt-time count to measure finer durations than are possible with system time. Applications that require greater precision than the interrupt-time count should use a <a href="https://msdn.microsoft.com/library/ms644900(v=VS.85).aspx">high-resolution timer</a>. Use the <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> function to retrieve the frequency of the high-resolution timer and the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> function to retrieve the counter's value.
+Unlike system time, the interrupt-time count is not subject to adjustments by users or the Windows time service. Applications can use the interrupt-time count to measure finer durations than are possible with system time. Applications that require greater precision than the interrupt-time count should use a <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-timers">high-resolution timer</a>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a> function to retrieve the frequency of the high-resolution timer and the <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function to retrieve the counter's value.
 
-The  timer resolution set by the <a href="https://msdn.microsoft.com/7168981c-9af8-4665-88a2-7d96a8f2b273">timeBeginPeriod</a> and <a href="https://msdn.microsoft.com/b06531f9-4fd7-4051-80d4-5a175fdd37e7">timeEndPeriod</a> functions affects the resolution of  the <b>QueryUnbiasedInterruptTime</b> function. However, increasing the timer resolution is not recommended because it can reduce overall system performance and   increase system power consumption by preventing the processor from entering power-saving states. Instead, applications should use a high-resolution timer.
+The  timer resolution set by the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a> and <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timeendperiod">timeEndPeriod</a> functions affects the resolution of  the <b>QueryUnbiasedInterruptTime</b> function. However, increasing the timer resolution is not recommended because it can reduce overall system performance and   increase system power consumption by preventing the processor from entering power-saving states. Instead, applications should use a high-resolution timer.
 
 <div class="alert"><b>Note</b>  The <b>QueryUnbiasedInterruptTime</b> function produces different results on debug ("checked") builds of Windows, because the interrupt-time count and tick count are advanced by approximately 49 days. This helps to identify bugs that might not occur until the system has been running for a long time. The checked build is available to MSDN subscribers through the <a href="http://go.microsoft.com/fwlink/p/?linkid=8714">Microsoft Developer Network (MSDN)</a> Web site.</div>
 <div> </div>
 To compile an application that uses this function, define _WIN32_WINNT as 0x0601 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -108,27 +108,27 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0601
 
 
 
-<a href="https://msdn.microsoft.com/56fe322e-53ea-4186-9b5e-352f69b09109">Interrupt Time</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/interrupt-time">Interrupt Time</a>
 
 
 
-<a href="https://msdn.microsoft.com/FB2B179B-5E44-4201-86E2-DB386607FD90">QueryInterruptTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime">QueryInterruptTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/0F65A707-0899-4F79-B7CD-16C9143C4173">QueryInterruptTimePrecise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise">QueryInterruptTimePrecise</a>
 
 
 
-<a href="https://msdn.microsoft.com/FADFC168-A3CF-4676-9B6E-7A4028049423">QueryUnbiasedInterruptTimePrecise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise">QueryUnbiasedInterruptTimePrecise</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d897a88-125e-457f-9ea7-ac2056b0767a">System Power States</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/system-power-states">System Power States</a>
 
 
 
-<a href="https://msdn.microsoft.com/95c00204-bfdf-4376-9aae-8d8139ba6750">Windows Time</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/windows-time">Windows Time</a>
  
 
  

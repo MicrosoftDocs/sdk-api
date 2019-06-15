@@ -54,7 +54,7 @@ Provides the tools for creating and administering the type information defined t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICreateTypeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICreateTypeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICreateTypeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICreateTypeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6816778-86f6-4e59-8eb2-444fd7bd6354">AddFuncDesc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addfuncdesc">AddFuncDesc</a>
 </td>
 <td align="left" width="63%">
 Adds a function description to the type description.
@@ -78,7 +78,7 @@ Adds a function description to the type description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fef8421f-67de-402b-8efd-7a104c84ca6e">AddImplType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addimpltype">AddImplType</a>
 </td>
 <td align="left" width="63%">
 Specifies an inherited interface, or an interface implemented by a component object class (coclass).
@@ -87,7 +87,7 @@ Specifies an inherited interface, or an interface implemented by a component obj
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb7f41f1-81a6-406f-916f-d1d1a8c093b5">AddRefTypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">AddRefTypeInfo</a>
 </td>
 <td align="left" width="63%">
 Adds a type description to those referenced by the type description being created.
@@ -96,7 +96,7 @@ Adds a type description to those referenced by the type description being create
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db576528-fefc-4a22-bc24-d5ea037eae26">AddVarDesc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addvardesc">AddVarDesc</a>
 </td>
 <td align="left" width="63%">
 Adds a variable or data member description to the type description.
@@ -105,7 +105,7 @@ Adds a variable or data member description to the type description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47ec09af-0642-4645-b946-acabbb7c028a">DefineFuncAsDllEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-definefuncasdllentry">DefineFuncAsDllEntry</a>
 </td>
 <td align="left" width="63%">
 Associates a DLL entry point with the function that has the specified index.
@@ -114,7 +114,7 @@ Associates a DLL entry point with the function that has the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3880aad3-8a6f-43e6-8420-25c4d1b9a71a">LayOut</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/out">LayOut</a>
 </td>
 <td align="left" width="63%">
 Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
@@ -123,7 +123,7 @@ Assigns VTBL offsets for virtual functions and instance offsets for per-instance
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db21ab80-ea2f-4f9e-a43c-0d202e235516">SetAlignment</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setalignment">SetAlignment</a>
 </td>
 <td align="left" width="63%">
 Specifies the data alignment for an item of TYPEKIND=TKIND_RECORD.
@@ -132,7 +132,7 @@ Specifies the data alignment for an item of TYPEKIND=TKIND_RECORD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/927c449b-1d38-4449-a1fd-63fb82c0d660">SetDocString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/string">SetDocString</a>
 </td>
 <td align="left" width="63%">
 Sets the documentation string displayed by type browsers.
@@ -141,7 +141,7 @@ Sets the documentation string displayed by type browsers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3764917-43ea-4151-95da-e01946a2ebb7">SetFuncAndParamNames</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setfuncandparamnames">SetFuncAndParamNames</a>
 </td>
 <td align="left" width="63%">
 Sets the name of a function and the names of its parameters to the specified names.
@@ -150,7 +150,7 @@ Sets the name of a function and the names of its parameters to the specified nam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2377502-b26f-401f-82f1-d65f739a684f">SetFuncDocString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setfuncdocstring">SetFuncDocString</a>
 </td>
 <td align="left" width="63%">
 Sets the documentation string for the function with the specified index.
@@ -159,7 +159,7 @@ Sets the documentation string for the function with the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/945d2faa-f35d-488f-a0df-ace3fbb85971">SetFuncHelpContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setfunchelpcontext">SetFuncHelpContext</a>
 </td>
 <td align="left" width="63%">
 Sets the Help context ID for the function with the specified index.
@@ -168,7 +168,7 @@ Sets the Help context ID for the function with the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/031bc83d-8e0c-49da-aa15-cd44af469592">SetGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setguid">SetGuid</a>
 </td>
 <td align="left" width="63%">
 Sets the globally unique identifier (GUID) associated with the type description.
@@ -177,7 +177,7 @@ Sets the globally unique identifier (GUID) associated with the type description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8f61500a-29b5-48e4-b8ee-584cf5430274">SetHelpContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-sethelpcontext">SetHelpContext</a>
 </td>
 <td align="left" width="63%">
 Sets the Help context ID of the type information.
@@ -186,7 +186,7 @@ Sets the Help context ID of the type information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/712b7d02-0181-4a21-9221-514c062af171">SetImplTypeFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/impltypeflags">SetImplTypeFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the attributes for an implemented or inherited interface of a type.
@@ -195,7 +195,7 @@ Sets the attributes for an implemented or inherited interface of a type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e775c2f9-2886-4aa0-a30c-445f317d0e02">SetMops</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setmops">SetMops</a>
 </td>
 <td align="left" width="63%">
 Sets the marshaling opcode string associated with the type description or the function.
@@ -204,7 +204,7 @@ Sets the marshaling opcode string associated with the type description or the fu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63435592-9fc8-4d49-a388-87f1d15f2603">SetTypeDescAlias</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-settypedescalias">SetTypeDescAlias</a>
 </td>
 <td align="left" width="63%">
 Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
@@ -213,7 +213,7 @@ Sets the type description for which this type description is an alias, if TYPEKI
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dfc1673-6242-4beb-978f-85f2000fab8e">SetTypeFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-settypeflags">SetTypeFlags</a>
 </td>
 <td align="left" width="63%">
 Sets type flags of the type description being created.
@@ -222,7 +222,7 @@ Sets type flags of the type description being created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6bea2b52-30d8-454c-ad96-f94417640ce5">SetVarDocString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setvardocstring">SetVarDocString</a>
 </td>
 <td align="left" width="63%">
 Sets the documentation string for the variable with the specified index.
@@ -231,7 +231,7 @@ Sets the documentation string for the variable with the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab15e7fc-63fa-433f-9191-c7087143a7c1">SetVarHelpContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setvarhelpcontext">SetVarHelpContext</a>
 </td>
 <td align="left" width="63%">
 Sets the Help context ID for the variable with the specified index.
@@ -240,7 +240,7 @@ Sets the Help context ID for the variable with the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f51fc2a-74cc-4aab-89b7-0237c14ff7f5">SetVarName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setvarname">SetVarName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of a variable.
@@ -249,7 +249,7 @@ Sets the name of a variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffa4d287-44c4-40ec-984a-70cbc0928274">SetVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-setversion">SetVersion</a>
 </td>
 <td align="left" width="63%">
 Sets the major and minor version number of the type information.
@@ -264,7 +264,7 @@ Sets the major and minor version number of the type information.
 
 
 
-<a href="https://msdn.microsoft.com/aad137b1-b747-4d74-8d6c-5ec9b6e6983d">Type Building Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/using-type-building-interfaces-and-functions">Type Building Interfaces and Functions </a>
  
 
  

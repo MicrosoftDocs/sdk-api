@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 
 
-The <code>IDMOWrapperFilter</code> interface enables an application to use a DirectX Media Object (DMO) inside a filter graph. The <a href="https://msdn.microsoft.com/ffa6234d-9040-4838-8f51-0cf87df40a5c">DMO Wrapper</a> filter exposes this interface.
+The <code>IDMOWrapperFilter</code> interface enables an application to use a DirectX Media Object (DMO) inside a filter graph. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-wrapper-filter">DMO Wrapper</a> filter exposes this interface.
 
-To add a DMO to the filter graph, create an instance of the DMO Wrapper filter and query it for the <code>IDMOWrapperFilter</code> interface. Then call the <a href="https://msdn.microsoft.com/en-us/library/Dd406849(v=VS.85).aspx">IDMOWrapperFilter::Init</a> method to initialize the filter with the DMO.
+To add a DMO to the filter graph, create an instance of the DMO Wrapper filter and query it for the <code>IDMOWrapperFilter</code> interface. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/dmodshow/nf-dmodshow-idmowrapperfilter-init">IDMOWrapperFilter::Init</a> method to initialize the filter with the DMO.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOWrapperFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDMOWrapperFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOWrapperFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOWrapperFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDMOWrapperFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406849(v=VS.85).aspx">Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmodshow/nf-dmodshow-idmowrapperfilter-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the DMO Wrapper filter with the specified DMO.
@@ -90,7 +90,7 @@ Initializes the DMO Wrapper filter with the specified DMO.
 
 
 
-<a href="https://msdn.microsoft.com/e4424740-31b9-4317-8791-6a9aebb0c7e6">DirectX Media Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directx-media-objects">DirectX Media Objects</a>
  
 
  

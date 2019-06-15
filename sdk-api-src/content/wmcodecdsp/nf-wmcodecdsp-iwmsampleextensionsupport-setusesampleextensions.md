@@ -96,7 +96,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3c6dd1c2-4692-4176-b164-bb90d661defc">IWMSampleExtensionSupport Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmsampleextensionsupport">IWMSampleExtensionSupport Interface</a>
  
 
  

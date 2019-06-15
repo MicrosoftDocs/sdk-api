@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets folder logical view mode. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="https://msdn.microsoft.com/a9b09dc6-751e-4d5f-b016-0b26c15c68f6">ISearchFolderItemFactory::SetFolderTypeID</a> method.
+Sets folder logical view mode. The default settings are based on the <code>FolderTypeID</code> which is set by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-isearchfolderitemfactory-setfoldertypeid">ISearchFolderItemFactory::SetFolderTypeID</a> method.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Sets folder logical view mode. The default settings are based on the <code>Folde
 
 ### -param flvm [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4b30a335-ed80-4774-82d4-bc93c95ee80c">FOLDERLOGICALVIEWMODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a></b>
 
-The <a href="https://msdn.microsoft.com/4b30a335-ed80-4774-82d4-bc93c95ee80c">FOLDERLOGICALVIEWMODE</a> value.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a> value.
         
 
 

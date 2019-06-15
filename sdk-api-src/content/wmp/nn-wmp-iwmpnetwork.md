@@ -57,7 +57,7 @@ The <b>IWMPNetwork</b> interface provides methods relating to the network connec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPNetwork</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPNetwork</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPNetwork</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPNetwork</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPNetwork</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563468(v=VS.85).aspx">get_bandWidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bandwidth">get_bandWidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current bandwidth of the media item.
@@ -81,7 +81,7 @@ Retrieves the current bandwidth of the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563469(v=VS.85).aspx">get_bitRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bitrate">get_bitRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current bit rate being received.
@@ -90,7 +90,7 @@ Retrieves the current bit rate being received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563470(v=VS.85).aspx">get_bufferingCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingcount">get_bufferingCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of times buffering occurred during playback.
@@ -99,7 +99,7 @@ Retrieves the number of times buffering occurred during playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563471(v=VS.85).aspx">get_bufferingProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingprogress">get_bufferingProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of buffering completed.
@@ -108,7 +108,7 @@ Retrieves the percentage of buffering completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563472(v=VS.85).aspx">get_bufferingTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingtime">get_bufferingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of buffering time in milliseconds before playback begins.
@@ -117,7 +117,7 @@ Retrieves the amount of buffering time in milliseconds before playback begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563473(v=VS.85).aspx">get_downloadProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_downloadprogress">get_downloadProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of downloading completed.
@@ -126,7 +126,7 @@ Retrieves the percentage of downloading completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563474(v=VS.85).aspx">get_encodedFrameRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_encodedframerate">get_encodedFrameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video frame rate specified by the content author.
@@ -135,7 +135,7 @@ Retrieves the video frame rate specified by the content author.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563475(v=VS.85).aspx">get_frameRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_framerate">get_frameRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current video frame rate.
@@ -144,7 +144,7 @@ Retrieves the current video frame rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563476(v=VS.85).aspx">get_framesSkipped</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_framesskipped">get_framesSkipped</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of frames skipped during playback.
@@ -153,7 +153,7 @@ Retrieves the total number of frames skipped during playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563477(v=VS.85).aspx">get_lostPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_lostpackets">get_lostPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of packets lost.
@@ -162,7 +162,7 @@ Retrieves the number of packets lost.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563478(v=VS.85).aspx">get_maxBandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_maxbandwidth">get_maxBandwidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum allowed bandwidth.
@@ -171,7 +171,7 @@ Retrieves the maximum allowed bandwidth.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563479(v=VS.85).aspx">get_maxBitRate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_maxbitrate">get_maxBitRate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum possible video bit rate.
@@ -180,7 +180,7 @@ Retrieves the maximum possible video bit rate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563480(v=VS.85).aspx">get_receivedPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_receivedpackets">get_receivedPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of packets received.
@@ -189,7 +189,7 @@ Retrieves the number of packets received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563481(v=VS.85).aspx">get_receptionQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_receptionquality">get_receptionQuality</a>
 </td>
 <td align="left" width="63%">
 Retrieves the percentage of packets received in the last 30 seconds.
@@ -198,7 +198,7 @@ Retrieves the percentage of packets received in the last 30 seconds.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563482(v=VS.85).aspx">get_recoveredPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_recoveredpackets">get_recoveredPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of recovered packets.
@@ -207,7 +207,7 @@ Retrieves the number of recovered packets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563483(v=VS.85).aspx">get_sourceProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_sourceprotocol">get_sourceProtocol</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source protocol used to receive the data.
@@ -216,7 +216,7 @@ Retrieves the source protocol used to receive the data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563462(v=VS.85).aspx">getProxyBypassForLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxybypassforlocal">getProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the proxy server should be bypassed if the origin server is on a local network.
@@ -225,7 +225,7 @@ Retrieves a value indicating whether the proxy server should be bypassed if the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563464(v=VS.85).aspx">getProxyExceptionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyexceptionlist">getProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy exception list.
@@ -234,7 +234,7 @@ Retrieves the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563465(v=VS.85).aspx">getProxyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyname">getProxyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a proxy server to use.
@@ -243,7 +243,7 @@ Retrieves the name of a proxy server to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563466(v=VS.85).aspx">getProxyPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxyport">getProxyPort</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy port to use.
@@ -252,7 +252,7 @@ Retrieves the proxy port to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563467(v=VS.85).aspx">getProxySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-getproxysettings">getProxySettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the proxy settings for a given protocol.
@@ -261,7 +261,7 @@ Retrieves the proxy settings for a given protocol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563484(v=VS.85).aspx">put_bufferingTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-put_bufferingtime">put_bufferingTime</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of buffering time in milliseconds before playback begins.
@@ -270,7 +270,7 @@ Specifies the amount of buffering time in milliseconds before playback begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563485(v=VS.85).aspx">put_maxBandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-put_maxbandwidth">put_maxBandwidth</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum allowed bandwidth.
@@ -279,7 +279,7 @@ Specifies the maximum allowed bandwidth.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563486(v=VS.85).aspx">setProxyBypassForLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxybypassforlocal">setProxyBypassForLocal</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the proxy server is bypassed if the origin server is on a local network.
@@ -288,7 +288,7 @@ Specifies whether the proxy server is bypassed if the origin server is on a loca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563487(v=VS.85).aspx">setProxyExceptionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxyexceptionlist">setProxyExceptionList</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy exception list.
@@ -297,7 +297,7 @@ Specifies the proxy exception list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563488(v=VS.85).aspx">setProxyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxyname">setProxyName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of a proxy server to use.
@@ -306,7 +306,7 @@ Specifies the name of a proxy server to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563489(v=VS.85).aspx">setProxyPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxyport">setProxyPort</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy port to use.
@@ -315,7 +315,7 @@ Specifies the proxy port to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563491(v=VS.85).aspx">setProxySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxysettings">setProxySettings</a>
 </td>
 <td align="left" width="63%">
 Specifies the proxy settings for a given protocol.
@@ -333,10 +333,10 @@ Retrieve a pointer to an <b>IWMPNetwork</b> interface with the following method.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563216(v=VS.85).aspx">IWMPCore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd563232(v=VS.85).aspx">get_network</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_network">get_network</a>
 </td>
 </tr>
 </table> 
@@ -347,7 +347,7 @@ Retrieve a pointer to an <b>IWMPNetwork</b> interface with the following method.
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

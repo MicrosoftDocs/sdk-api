@@ -69,7 +69,7 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 ### -param UncClientName [in]
 
 Pointer to a string that specifies the name of the computer session for which information is to be returned. This parameter is required and cannot be <b>NULL</b>. For more information, see 
-<a href="https://msdn.microsoft.com/5923a8cc-bf7a-4ffa-b089-fd7f26ee42d2">NetSessionEnum</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>.
 
 
 ### -param username [in]
@@ -98,7 +98,7 @@ Return the name of the computer that established the session.
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/6b39df47-f25c-41dd-ba15-6e6806c4ec89">SESSION_INFO_0</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0">SESSION_INFO_0</a> structure.
 							
 
 </td>
@@ -113,7 +113,7 @@ Return the name of the computer, name of the user, and open files, pipes, and de
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/bc1c985e-b8af-4134-9ae4-511d82e3909b">SESSION_INFO_1</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1">SESSION_INFO_1</a> structure.
 							
 
 </td>
@@ -128,7 +128,7 @@ In addition to the information indicated for level 1, return the type of client 
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/c3429eba-4277-4dc7-9255-cd2ff18dc583">SESSION_INFO_2</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2">SESSION_INFO_2</a> structure.
 							
 
 </td>
@@ -143,7 +143,7 @@ Return the name of the computer; name of the user; and active and idle times for
 
 
 The <i>bufptr</i> parameter points to a 
-<a href="https://msdn.microsoft.com/a23a5647-f99d-4cb8-9d84-93653a3e7428">SESSION_INFO_10</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a> structure.
 							
 
 </td>
@@ -155,14 +155,14 @@ The <i>bufptr</i> parameter points to a
 ### -param bufptr [out]
 
 Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>. 
 
 
 
 
 This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 
 ## -returns
@@ -269,8 +269,8 @@ Only members of the Administrators or Server Operators local group can successfu
 <b>NetSessionGetInfo</b> function at level 1 or level 2. No special group membership is required for level 0 or level 10 calls.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see 
-<a href="https://msdn.microsoft.com/54621f0d-7478-4a6f-a96f-f3f93e64b281">IADsSession</a> and 
-<a href="https://msdn.microsoft.com/91335658-8efb-4945-9862-f72e78d749d6">IADsFileServiceOperations</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
 
 If you call this function at information level 1 or 2 on a member server or workstation, all authenticated users can view the information.
 
@@ -280,7 +280,7 @@ If you call this function at information level 1 or 2 on a member server or work
 The following code sample demonstrates how to retrieve information about a session using a call to the 
 <b>NetSessionGetInfo</b> function. The sample calls 
 <b>NetSessionGetInfo</b>, specifying information level 10 (
-<a href="https://msdn.microsoft.com/a23a5647-f99d-4cb8-9d84-93653a3e7428">SESSION_INFO_10</a>). If the call succeeds, the code prints information about the session. Finally, the sample frees the memory allocated for the information buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a>). If the call succeeds, the code prints information about the session. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -369,41 +369,41 @@ int wmain(int argc, wchar_t *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/a1360f5d-9fd0-44af-b9f5-ab9bc057dfe6">NetSessionDel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiondel">NetSessionDel</a>
 
 
 
-<a href="https://msdn.microsoft.com/5923a8cc-bf7a-4ffa-b089-fd7f26ee42d2">NetSessionEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b39df47-f25c-41dd-ba15-6e6806c4ec89">SESSION_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_0">SESSION_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc1c985e-b8af-4134-9ae4-511d82e3909b">SESSION_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_1">SESSION_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/a23a5647-f99d-4cb8-9d84-93653a3e7428">SESSION_INFO_10</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_10">SESSION_INFO_10</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3429eba-4277-4dc7-9255-cd2ff18dc583">SESSION_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_session_info_2">SESSION_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/931455e3-1301-4a68-93c3-2674b3d4c491">Session
+<a href="https://docs.microsoft.com/windows/desktop/NetShare/session-functions">Session
 		  Functions</a>
  
 

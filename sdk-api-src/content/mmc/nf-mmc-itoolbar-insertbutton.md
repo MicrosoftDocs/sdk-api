@@ -60,13 +60,13 @@ The <b>IToolbar::InsertButton</b> method enables a snap-in to add a single butto
 ### -param nIndex [in]
 
 An internal index at which the button will be inserted. The button is always placed at the end of the toolbar; the internal index is required if the button is to be deleted (by means of 
-<a href="https://msdn.microsoft.com/c893b3a6-a0f8-42ce-bf82-2e45f6458500">IToolbar::DeleteButton</a>).
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-itoolbar-deletebutton">IToolbar::DeleteButton</a>).
 
 
 ### -param lpButton [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/340fed49-3003-4dd6-80c9-6cefc8c5b750">MMCBUTTON</a> structure that defines the button to be inserted.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmcbutton">MMCBUTTON</a> structure that defines the button to be inserted.
 
 
 ## -returns
@@ -83,7 +83,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/cf9c9fe9-f58f-47f0-9051-86a514df0c6d">IToolbar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
  
 
  

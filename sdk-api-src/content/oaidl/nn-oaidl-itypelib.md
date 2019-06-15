@@ -54,7 +54,7 @@ Represents a type library, the data that describes a set of objects. A type libr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeLib</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITypeLib</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeLib</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeLib</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITypeLib</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/932014a8-3a35-487a-b035-788fc28dacc2">FindName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-findname">FindName</a>
 </td>
 <td align="left" width="63%">
 Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.
@@ -78,7 +78,7 @@ Finds occurrences of a type description in a type library. This may be used to q
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa65e143-47db-4241-9c66-fe3a1dcf1f0a">GetDocumentation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getdocumentation">GetDocumentation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the documentation string for the library, the complete Help file name and path, and the context identifier for the library Help topic in the Help file.
@@ -87,7 +87,7 @@ Retrieves the documentation string for the library, the complete Help file name 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/edc35364-99dc-438b-81de-4f129c0cf50f">GetLibAttr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getlibattr">GetLibAttr</a>
 </td>
 <td align="left" width="63%">
 Retrieves the structure that contains the library's attributes.
@@ -96,7 +96,7 @@ Retrieves the structure that contains the library's attributes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11c22e52-b0d5-4251-b8fa-ea3efae555e6">GetTypeComp</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypecomp">GetTypeComp</a>
 </td>
 <td align="left" width="63%">
 Enables a client compiler to bind to the types, variables, constants, and global functions for a library.
@@ -105,7 +105,7 @@ Enables a client compiler to bind to the types, variables, constants, and global
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7661faa8-eb06-4bbe-88e9-9662a0d6984b">GetTypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfo">GetTypeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified type description in the library.
@@ -114,7 +114,7 @@ Retrieves the specified type description in the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63436bee-c71b-4d32-bfca-426c8953a75b">GetTypeInfoCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfocount">GetTypeInfoCount</a>
 </td>
 <td align="left" width="63%">
 Provides the number of type descriptions that are in a type library.
@@ -123,7 +123,7 @@ Provides the number of type descriptions that are in a type library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58f96322-f1cd-448c-906d-b7faa65ab9a0">GetTypeInfoOfGuid</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfoofguid">GetTypeInfoOfGuid</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type description that corresponds to the specified GUID.
@@ -132,7 +132,7 @@ Retrieves the type description that corresponds to the specified GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e0924ee-41f1-4f0a-a491-40b92bd0711e">GetTypeInfoType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfotype">GetTypeInfoType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of a type description.
@@ -141,7 +141,7 @@ Retrieves the type of a type description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9cd5cc8-f65f-43de-9dd4-c617b56ecadf">IsName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-isname">IsName</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a passed-in string contains the name of a type or member described in the library.
@@ -150,10 +150,10 @@ Indicates whether a passed-in string contains the name of a type or member descr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c">ReleaseTLibAttr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-releasetlibattr">ReleaseTLibAttr</a>
 </td>
 <td align="left" width="63%">
-Releases the TLIBATTR originally obtained from <a href="https://msdn.microsoft.com/edc35364-99dc-438b-81de-4f129c0cf50f">GetLibAttr</a>.
+Releases the TLIBATTR originally obtained from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getlibattr">GetLibAttr</a>.
 
 </td>
 </tr>
@@ -191,7 +191,7 @@ General information, including a user-readable name for the library and help for
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221172(v=VS.85).aspx">Type Description Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions//ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
  
 
  

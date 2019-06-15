@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the encoder with an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> which tells the encoder where to encode the bits.
+Initializes the encoder with an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> which tells the encoder where to encode the bits.
 
 
 ## -parameters
@@ -59,16 +59,16 @@ Initializes the encoder with an <a href="https://msdn.microsoft.com/c6f60e37-ead
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The output stream.
 
 
 ### -param cacheOption [in]
 
-Type: <b><a href="https://msdn.microsoft.com/cc23cd53-f29b-4e4e-a3d9-038c6f0c5629">WICBitmapEncoderCacheOption</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapencodercacheoption">WICBitmapEncoderCacheOption</a></b>
 
-The <a href="https://msdn.microsoft.com/cc23cd53-f29b-4e4e-a3d9-038c6f0c5629">WICBitmapEncoderCacheOption</a> used on initialization.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapencodercacheoption">WICBitmapEncoderCacheOption</a> used on initialization.
 
 
 ## -returns

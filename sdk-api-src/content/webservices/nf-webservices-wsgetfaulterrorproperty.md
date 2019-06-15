@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">Fault</a> error property of an <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object referenced by the <i>error</i> parameter.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">Fault</a> error property of an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object referenced by the <i>error</i> parameter.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7
 
 ### -param error [in]
 
-A pointer to the  <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object with the property to retrieve.  
+A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object with the property to retrieve.  
                     
                 
 

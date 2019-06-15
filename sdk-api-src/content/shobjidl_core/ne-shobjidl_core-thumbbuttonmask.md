@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by the <a href="https://msdn.microsoft.com/c13657b2-5b96-45ae-b339-b06b13aca65d">THUMBBUTTON</a> structure to specify which members of that structure contain valid data.
+Used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a> structure to specify which members of that structure contain valid data.
 
 
 ## -enum-fields
@@ -82,11 +82,11 @@ The <b>dwFlags</b> member contains valid information.
 
 
 
-<a href="https://msdn.microsoft.com/c13657b2-5b96-45ae-b339-b06b13aca65d">THUMBBUTTON</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a>
 
 
 
-<a href="https://msdn.microsoft.com/601a2517-cfce-4edb-b2ca-e2ed8a365a0d">THUMBBUTTONFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonflags">THUMBBUTTONFLAGS</a>
  
 
  

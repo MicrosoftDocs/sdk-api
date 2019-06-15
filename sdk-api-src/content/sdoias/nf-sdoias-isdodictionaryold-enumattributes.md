@@ -60,7 +60,7 @@ The
 
 ### -param Id [in, out]
 
-On input, a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> 
+On input, a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagvariant">VARIANT</a> 
        that specifies the attributes to enumerate. If the type of this 
        <b>VARIANT</b>, given by 
        <b>V_VT</b>(Id), is 
@@ -71,14 +71,14 @@ On input, a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221
        to enumerate.
 
 On output, pointer to a 
-       <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> that contains the IDs of 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> that contains the IDs of 
        the enumerated attributes.
 
 
 ### -param pValues [out]
 
 Pointer to a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> that contains 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> that contains 
       the values of the enumerated attributes.
 
 
@@ -101,7 +101,7 @@ The parameters must not be <b>NULL</b>.
 
 If VT(Id) = VT_EMPTY then all the attributes are returned. Otherwise VT(Id) should be <b>VT_I4</b> and only the attributes designed are retrieved.
 
-When the method returns, Id is a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> of the Ids returned, and <i>pValues</i> is a <b>SAFEARRAY</b> of the values returned.
+When the method returns, Id is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> of the Ids returned, and <i>pValues</i> is a <b>SAFEARRAY</b> of the values returned.
 
 
 
@@ -111,7 +111,7 @@ When the method returns, Id is a <a href="https://msdn.microsoft.com/en-us/libra
 
 
 
-<a href="https://msdn.microsoft.com/5aaa4008-3b39-4d1d-90db-79631e5bb6b9">ISdoDictionaryOld</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
  
 
  

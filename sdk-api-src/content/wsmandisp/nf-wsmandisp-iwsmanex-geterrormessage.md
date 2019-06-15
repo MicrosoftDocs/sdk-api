@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The corresponding scripting method is <a href="https://msdn.microsoft.com/5f0a5259-8356-4406-8612-34f4921184f0">WSMan.GetErrorMessage</a>.
+The corresponding scripting method is <a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-geterrormessage">WSMan.GetErrorMessage</a>.
 
 
 
@@ -90,11 +90,11 @@ The corresponding scripting method is <a href="https://msdn.microsoft.com/5f0a52
 
 
 
-<a href="https://msdn.microsoft.com/23fdd9d9-4a78-4c01-8e5d-c8007f39d5d6">IWSManEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
  
 
  

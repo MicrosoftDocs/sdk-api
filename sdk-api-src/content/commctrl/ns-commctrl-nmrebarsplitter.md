@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used to handle an <a href="https://msdn.microsoft.com/en-us/library/Bb774427(v=VS.85).aspx">RBN_SPLITTERDRAG</a> notification code.
+Contains information used to handle an <a href="https://docs.microsoft.com/windows/desktop/Controls/rbn-splitterdrag">RBN_SPLITTERDRAG</a> notification code.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Contains information used to handle an <a href="https://msdn.microsoft.com/en-us
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field rcSizing

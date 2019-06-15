@@ -75,7 +75,7 @@ The video miniport driver is managing the interrupt.
 
 
 
-<a href="https://msdn.microsoft.com/bc7463ab-1cb1-4ce5-a929-1513507a16ff">DxGetIRQInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_getirqinfo">DxGetIRQInfo</a>
  
 
  

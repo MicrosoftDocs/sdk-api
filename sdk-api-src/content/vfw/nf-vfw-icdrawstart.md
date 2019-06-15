@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawStart</b> macro notifies a rendering driver to start its internal clock for the timing of drawing frames. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/d49e0d97-5a29-46f7-82d7-e3d4b4f7666f">ICM_DRAW_START</a> message.
+The <b>ICDrawStart</b> macro notifies a rendering driver to start its internal clock for the timing of drawing frames. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-start">ICM_DRAW_START</a> message.
 
 
 
@@ -71,9 +71,9 @@ Handle to a driver.
 
 This message is used by hardware that performs its own asynchronous decompression, timing, and drawing.
 
-When the driver receives this message, it should start rendering data at the rate specified with the <a href="https://msdn.microsoft.com/e5ecd7dd-376b-422c-bbb8-4e7c41e3cac8">ICM_DRAW_BEGIN</a> message.
+When the driver receives this message, it should start rendering data at the rate specified with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message.
 
-The <b>ICDrawStart</b> and <a href="https://msdn.microsoft.com/c8608410-da45-4953-b16a-050870f85af9">ICDrawStop</a> macros do not nest. If your driver receives <b>ICDrawStart</b> before rendering is stopped with <b>ICDrawStop</b>, it should restart rendering with new parameters.
+The <b>ICDrawStart</b> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdrawstop">ICDrawStop</a> macros do not nest. If your driver receives <b>ICDrawStart</b> before rendering is stopped with <b>ICDrawStop</b>, it should restart rendering with new parameters.
 
 
 
@@ -83,11 +83,11 @@ The <b>ICDrawStart</b> and <a href="https://msdn.microsoft.com/c8608410-da45-495
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with 
-    <a href="https://msdn.microsoft.com/15f6f617-969d-4a40-9038-b902a3c2518b">ReadEncryptedFileRaw</a>. The system calls 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. The system calls 
     <b>ExportCallback</b> one or more times, each time with a block 
     of the encrypted file's data, until it has received all of the file data. 
     <b>ExportCallback</b> writes the encrypted file's data to 
@@ -76,7 +76,7 @@ A pointer to a block of the encrypted file's data to be backed up. This block of
 ### -param pvCallbackContext [in, optional]
 
 A pointer to an application-defined and allocated context block. The application passes this pointer to 
-      <a href="https://msdn.microsoft.com/15f6f617-969d-4a40-9038-b902a3c2518b">ReadEncryptedFileRaw</a>, and 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, and 
       <b>ReadEncryptedFileRaw</b> passes this pointer to the 
       callback function so that it can have access to application-specific data. This data can be a structure and can 
       contain any data the application needs, such as the handle to the file that contains the backup copy of the 
@@ -96,7 +96,7 @@ If the function succeeds, it must set the return value to <b>ERROR_SUCCESS</b>.
 
 If the function fails, set the return value to a nonzero error code defined in WinError.h. For 
        example, if this function fails because an API that it calls fails, you can set the return value to the value 
-       returned by <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for the failed API.
+       returned by <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for the failed API.
 
 
 
@@ -116,31 +116,31 @@ You can use the application-defined context block for internal tracking of infor
 
 
 
-<a href="https://msdn.microsoft.com/54bf7114-0ebb-4d9c-bc67-2ac351dbe55d">CloseEncryptedFileRaw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c951e44-15d8-43c8-bd3d-293a1ec9d444">ImportCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pfe_import_func">ImportCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/f792f38d-783e-4f39-a9d8-0c378d508d97">OpenEncryptedFileRaw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a>
 
 
 
-<a href="https://msdn.microsoft.com/15f6f617-969d-4a40-9038-b902a3c2518b">ReadEncryptedFileRaw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
 
 
 
-<a href="https://msdn.microsoft.com/f44e291e-dbc6-4a44-92ba-92a81e043764">WriteEncryptedFileRaw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
  
 
  

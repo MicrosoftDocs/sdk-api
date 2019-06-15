@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure.
+Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure.
 
 
 ## -struct-fields
@@ -117,9 +117,9 @@ A value that is set to <b>TRUE</b> if the component is scrollable, or <b>FALSE</
 
 ### -field cpPos
 
-Type: <b><a href="https://msdn.microsoft.com/622bdf51-d605-4eb9-a692-09be028bbff8">COMPPOS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a></b>
 
-A <a href="https://msdn.microsoft.com/622bdf51-d605-4eb9-a692-09be028bbff8">COMPPOS</a> structure containing position and size information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a> structure containing position and size information.
 
 
 ### -field wszFriendlyName

@@ -62,7 +62,7 @@ The <b>AUDIO_VOLUME_NOTIFICATION_DATA</b> structure describes a change in the vo
 
 ### -field guidEventContext
 
-Context value for the <a href="https://msdn.microsoft.com/a8ffad44-c621-4335-a312-16e7d6af2c18">IAudioEndpointVolumeCallback::OnNotify</a> method. This member is the value of the event-context GUID that was provided as an input parameter to the <a href="https://msdn.microsoft.com/5e3e7ffc-8822-4b1b-b9af-206ec1e767e2">IAudioEndpointVolume</a> method call that changed the endpoint volume level or muting state. For more information, see Remarks.
+Context value for the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a> method. This member is the value of the event-context GUID that was provided as an input parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume</a> method call that changed the endpoint volume level or muting state. For more information, see Remarks.
 
 
 ### -field bMuted
@@ -72,7 +72,7 @@ Specifies whether the audio stream is currently muted. If <b>bMuted</b> is <b>TR
 
 ### -field fMasterVolume
 
-Specifies the current master volume level of the audio stream. The volume level is normalized to the range from 0.0 to 1.0, where 0.0 is the minimum volume level and 1.0 is the maximum level. Within this range, the relationship of the normalized volume level to the attenuation of signal amplitude is described by a nonlinear, audio-tapered curve. For more information about audio tapers, see <a href="https://msdn.microsoft.com/3b1adef5-40e9-4527-aa79-5a71f201fdfc">Audio-Tapered Volume Controls</a>.
+Specifies the current master volume level of the audio stream. The volume level is normalized to the range from 0.0 to 1.0, where 0.0 is the minimum volume level and 1.0 is the maximum level. Within this range, the relationship of the normalized volume level to the attenuation of signal amplitude is described by a nonlinear, audio-tapered curve. For more information about audio tapers, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-tapered-volume-controls">Audio-Tapered Volume Controls</a>.
 
 
 ### -field nChannels
@@ -95,25 +95,25 @@ A client can register to be notified when the volume level or muting state of an
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/51f3b4dd-be9d-4b83-8605-a9962c6709a3">IAudioEndpointVolume::SetChannelVolumeLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel">IAudioEndpointVolume::SetChannelVolumeLevel</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2e1f0d1c-060f-45b7-9194-591e45668b52">IAudioEndpointVolume::SetChannelVolumeLevelScalar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevelscalar">IAudioEndpointVolume::SetChannelVolumeLevelScalar</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/776d7667-f48b-44c0-9441-177b86b52da9">IAudioEndpointVolume::SetMasterVolumeLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel">IAudioEndpointVolume::SetMasterVolumeLevel</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d592c197-32fc-4a48-8f37-1cd140895c5e">IAudioEndpointVolume::SetMasterVolumeLevelScalar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevelscalar">IAudioEndpointVolume::SetMasterVolumeLevelScalar</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a0ab4fef-8333-4f21-ae8e-74285788ae0e">IAudioEndpointVolume::SetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmute">IAudioEndpointVolume::SetMute</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c334d780-784b-4fa3-bf4f-ea5d65459baf">IAudioEndpointVolume::VolumeStepDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown">IAudioEndpointVolume::VolumeStepDown</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/35ed44cd-ba91-4b6a-b528-0e22df389d31">IAudioEndpointVolume::VolumeStepUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IAudioEndpointVolume::VolumeStepUp</a>
 </li>
 </ul>
 When a call to one of these methods causes a volume-change event (that is, a change in the volume level or muting state), the method sends notifications to all clients that have registered to receive them. The method notifies a client by calling the client's <b>IAudioEndpointVolumeCallback::OnNotify</b> method. Through the <b>OnNotify</b> call, the client receives a pointer to an <b>AUDIO_VOLUME_NOTIFICATION_DATA</b> structure that describes the change.
@@ -130,47 +130,47 @@ In its implementation of the <b>OnNotify</b> method, a client can inspect the ev
 
 
 
-<a href="https://msdn.microsoft.com/92585cd4-baa9-4f75-816e-b83f5badad37">Core Audio Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e3e7ffc-8822-4b1b-b9af-206ec1e767e2">IAudioEndpointVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/51f3b4dd-be9d-4b83-8605-a9962c6709a3">IAudioEndpointVolume::SetChannelVolumeLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevel">IAudioEndpointVolume::SetChannelVolumeLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e1f0d1c-060f-45b7-9194-591e45668b52">IAudioEndpointVolume::SetChannelVolumeLevelScalar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setchannelvolumelevelscalar">IAudioEndpointVolume::SetChannelVolumeLevelScalar</a>
 
 
 
-<a href="https://msdn.microsoft.com/776d7667-f48b-44c0-9441-177b86b52da9">IAudioEndpointVolume::SetMasterVolumeLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevel">IAudioEndpointVolume::SetMasterVolumeLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/d592c197-32fc-4a48-8f37-1cd140895c5e">IAudioEndpointVolume::SetMasterVolumeLevelScalar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevelscalar">IAudioEndpointVolume::SetMasterVolumeLevelScalar</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0ab4fef-8333-4f21-ae8e-74285788ae0e">IAudioEndpointVolume::SetMute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmute">IAudioEndpointVolume::SetMute</a>
 
 
 
-<a href="https://msdn.microsoft.com/c334d780-784b-4fa3-bf4f-ea5d65459baf">IAudioEndpointVolume::VolumeStepDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepdown">IAudioEndpointVolume::VolumeStepDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/35ed44cd-ba91-4b6a-b528-0e22df389d31">IAudioEndpointVolume::VolumeStepUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IAudioEndpointVolume::VolumeStepUp</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b631d1b-f89c-4789-a09c-875b24a48a89">IAudioEndpointVolumeCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback">IAudioEndpointVolumeCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8ffad44-c621-4335-a312-16e7d6af2c18">IAudioEndpointVolumeCallback::OnNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a>
  
 
  

@@ -78,7 +78,7 @@ A handle to the module whose executable file contains the accelerator table to b
 
 Type: <b>LPCTSTR</b>
 
-The name of the accelerator table to be loaded. Alternatively, this parameter can specify the resource identifier of an accelerator-table resource in the low-order word and zero in the high-order word. To create this value, use the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.
+The name of the accelerator table to be loaded. Alternatively, this parameter can specify the resource identifier of an accelerator-table resource in the low-order word and zero in the high-order word. To create this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.
 
 
 ## -returns
@@ -89,7 +89,7 @@ Type: <b>HACCEL</b>
 
 If the function succeeds, the return value is a handle to the loaded accelerator table.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -105,7 +105,7 @@ Accelerator tables loaded from resources are freed automatically when the applic
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646337(v=VS.85).aspx">Creating Accelerators for Font Attributes</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-keyboard-accelerators">Creating Accelerators for Font Attributes</a>.
 
 <div class="code"></div>
 
@@ -120,23 +120,23 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646337(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646364(v=VS.85).aspx">CopyAcceleratorTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyacceleratortablea">CopyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646365(v=VS.85).aspx">CreateAcceleratorTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createacceleratortablea">CreateAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646368(v=VS.85).aspx">DestroyAcceleratorTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 

@@ -49,28 +49,28 @@ ms.custom: 19H1
 ## -description
 
 
-Frees memory allocated to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure.  An  <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP ERROR</a> structure is created whenever an <a href="https://msdn.microsoft.com/92a1df11-10f9-4e55-a7ec-db026aaf5c24">EAPHost supplicant configuration function</a> fails. 
+Frees memory allocated to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure.  An  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP ERROR</a> structure is created whenever an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost supplicant configuration function</a> fails. 
 
-The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="https://msdn.microsoft.com/36f9b5dd-821d-4cc5-a1dd-587098635d17">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
+The  <b>EapHostPeerFreeErrorMemory</b> function is used only for freeing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structures returned by EAPHost configuration APIs, while the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a> function is used for freeing <b>EAP_ERROR</b> structures returned by EAPHost run-time APIs.
 
-If any  of the following configuration APIs functions are called, and an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> is returned, <b>EapHostPeerFreeErrorMemory</b> must be called to free the memory:<ul>
+If any  of the following configuration APIs functions are called, and an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> is returned, <b>EapHostPeerFreeErrorMemory</b> must be called to free the memory:<ul>
 <li>
-<a href="https://msdn.microsoft.com/158750ec-cc26-4740-add6-2135b9aa294c">EapHostPeerConfigBlob2Xml</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigblob2xml">EapHostPeerConfigBlob2Xml</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/728fab9e-6aa4-49c0-ab1f-89686543524c">EapHostPeerConfigXml2Blob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerconfigxml2blob">EapHostPeerConfigXml2Blob</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ef8475f0-047d-4858-b3c1-3ddf41c1847f">EapHostPeerCredentialsXml2Blob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeercredentialsxml2blob">EapHostPeerCredentialsXml2Blob</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/afb20482-a439-437d-9c8f-c4e87e440113">EapHostPeerInvokeConfigUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui">EapHostPeerInvokeConfigUI</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f71aad69-89f3-463b-afd7-9873d582d03b">EapHostPeerQueryCredentialsInputFields</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields">EapHostPeerQueryCredentialsInputFields</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/bd4fafce-7ece-4cdc-9307-4d41538a4f49">EapHostPeerQueryUserBlobFromCredentialsInputFields</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuserblobfromcredentialinputfields">EapHostPeerQueryUserBlobFromCredentialsInputFields</a>
 </li>
 </ul>
 
@@ -83,7 +83,7 @@ If any  of the following configuration APIs functions are called, and an <a href
 
 ### -param pEapError
 
-A pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that  contains the error data to free.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that  contains the error data to free.
 
 
 ## -returns
@@ -100,15 +100,15 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/92a1df11-10f9-4e55-a7ec-db026aaf5c24">EAPHost Supplicant Configuration Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-configuration-functions">EAPHost Supplicant Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf8db711-386e-47c2-be47-4cfd6c4d8d9e">EAPHost Supplicant Frequently Asked Questions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eaphost-supplicant-frequently-asked-questions">EAPHost Supplicant Frequently Asked Questions</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f9b5dd-821d-4cc5-a1dd-587098635d17">EapHostFreeEapError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostFreeEapError</a>
  
 
  

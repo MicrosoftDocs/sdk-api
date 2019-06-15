@@ -77,12 +77,12 @@ The <i>numVertices</i> parameter specifies the number of coordinates.
 
 ### -param pHitTestingInput [in]
 
-The <a href="https://msdn.microsoft.com/d2103f6e-6aa9-4260-bef9-cfcbec35e675">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouch_hit_testing_input">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area. 
 
 
 ### -param pProximityEval [out]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh437256(v=VS.85).aspx">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Hh437256(v=VS.85).aspx">TO
 
 If this function succeeds, it returns TRUE.
  
-Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -101,7 +101,7 @@ Otherwise, it returns FALSE. To retrieve extended error information, call the <a
 
 
 
-For consistency with Windows, frameworks that handle <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a> should use the following principles for targeting:
+For consistency with Windows, frameworks that handle <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> should use the following principles for targeting:
 
 <ul>
 <li>Inclusion: If the touch point is within the boundaries of a control, the touch point is not changed. 
@@ -120,7 +120,7 @@ For consistency with Windows, frameworks that handle <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/C7275A12-4F76-485D-896F-3CCB8CE92F8E">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/functions">Functions</a>
  
 
  

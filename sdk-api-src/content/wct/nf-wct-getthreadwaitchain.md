@@ -61,7 +61,7 @@ Retrieves the wait chain for the specified thread.
 
 ### -param WctHandle [in]
 
-A handle to the WCT session created by the <a href="https://msdn.microsoft.com/405d9f3d-c11b-4e20-acc8-9c4f7989685d">OpenThreadWaitChainSession</a> function.
+A handle to the WCT session created by the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
 
 
 ### -param Context [in, optional]
@@ -119,14 +119,14 @@ The identifier of the thread.
 
 ### -param NodeCount [in, out]
 
-On input, a number from 1 to WCT_MAX_NODE_COUNT that specifies the number of nodes in the wait chain. On return, the number of nodes retrieved. If the array cannot contain all the nodes of the wait chain, the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_MORE_DATA, and this parameter receives the number of array elements required to contain all the nodes.
+On input, a number from 1 to WCT_MAX_NODE_COUNT that specifies the number of nodes in the wait chain. On return, the number of nodes retrieved. If the array cannot contain all the nodes of the wait chain, the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA, and this parameter receives the number of array elements required to contain all the nodes.
 
 For asynchronous sessions, check the value that is passed to the callback function. Do not free the variable until the callback function has returned.
 
 
 ### -param NodeInfoArray [out]
 
-An array of <a href="https://msdn.microsoft.com/7a333924-79a3-4522-aa5a-4fc60690667d">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-_waitchain_node_info">WAITCHAIN_NODE_INFO</a> structures that receives the wait chain.
 
 For asynchronous sessions, check the value that is passed to the callback function. Do not free the array until the callback function has returned.
 
@@ -145,7 +145,7 @@ For asynchronous sessions, check the value that is passed to the callback functi
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To retrieve extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <table>
 <tr>
@@ -181,7 +181,7 @@ One of the input parameters is invalid.
 </dl>
 </td>
 <td width="60%">
-The WCT session was opened in asynchronous mode. The results will be returned through the <a href="https://msdn.microsoft.com/07d987b4-3ee4-4957-a6e8-542c427b94dd">WaitChainCallback</a> callback function.
+The WCT session was opened in asynchronous mode. The results will be returned through the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a> callback function.
 
 </td>
 </tr>
@@ -239,7 +239,7 @@ The number of nodes exceeds WCT_MAX_NODE_COUNT. The wait chain returned is still
 
 
 
-If the session is asynchronous, the function returns <b>FALSE</b> and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_IO_PENDING. To obtain the results, see the <a href="https://msdn.microsoft.com/07d987b4-3ee4-4957-a6e8-542c427b94dd">WaitChainCallback</a> callback function.
+If the session is asynchronous, the function returns <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_IO_PENDING. To obtain the results, see the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a> callback function.
 
 If the specified thread is not blocked or is blocked on an unsupported synchronization element, the function returns a single item in <i>NodeInfoArray</i>.
 
@@ -253,7 +253,7 @@ Wait chain information is dynamic; it was correct when the function was called b
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/7c5fa606-6e9b-41da-bfa9-1f066449d813">Using WCT</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/using-wct">Using WCT</a>.
 
 <div class="code"></div>
 
@@ -264,19 +264,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/405d9f3d-c11b-4e20-acc8-9c4f7989685d">OpenThreadWaitChainSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a333924-79a3-4522-aa5a-4fc60690667d">WAITCHAIN_NODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/ns-wct-_waitchain_node_info">WAITCHAIN_NODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d266a663-b101-4936-9574-f6ce223419ae">Wait Chain Traversal</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/wait-chain-traversal">Wait Chain Traversal</a>
 
 
 
-<a href="https://msdn.microsoft.com/07d987b4-3ee4-4957-a6e8-542c427b94dd">WaitChainCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>
  
 
  

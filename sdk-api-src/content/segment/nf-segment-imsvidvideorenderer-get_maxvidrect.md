@@ -59,7 +59,7 @@ The <b>get_MaxVidRect</b> method retrieves the maximum ideal size of the video r
 
 ### -param ppVidRect [out]
 
-Receives an <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460fc0f1b">IMSVidRect</a> interface pointer.
+Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface pointer.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 The maximum ideal image size is the maximum video size that can be displayed without significantly degrading performance or image quality.
 
-The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460fc0f1b">IMSVidRect</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface has an outstanding reference count. The caller must release the interface.
 
 
 
@@ -87,11 +87,11 @@ The returned <a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460f
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694738(v=VS.85).aspx">IMSVidVideoRenderer::get_MinVidRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_minvidrect">IMSVidVideoRenderer::get_MinVidRect</a>
  
 
  

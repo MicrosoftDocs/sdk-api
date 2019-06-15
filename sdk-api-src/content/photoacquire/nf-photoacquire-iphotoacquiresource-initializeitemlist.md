@@ -68,7 +68,7 @@ Flag that, if set to <b>TRUE</b>, indicates that enumeration will be repeated ev
 
 ### -param pPhotoAcquireProgressCB [in]
 
-Optional. Pointer to an <a href="https://msdn.microsoft.com/c4fcc470-1b05-4d33-8581-80c6e7488e04">IPhotoAcquireProgressCB</a> object.
+Optional. Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB</a> object.
 
 
 ### -param pnItemCount [out]
@@ -119,9 +119,9 @@ Non-<b>NULL</b> pointer was expected.
 
 
 
-If <a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">IPhotoAcquire::Acquire</a> is called without first calling <code>InitializeItemList</code>, initialization of the item list is done implicitly.
+If <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a> is called without first calling <code>InitializeItemList</code>, initialization of the item list is done implicitly.
 
-The first time the item list is initialized—either implicitly through <a href="https://msdn.microsoft.com/1000511f-40a6-4d5e-a55f-97e25f6c1e11">IPhotoAcquire::Acquire</a> or explicitly by calling <code>InitializeItemList</code>—each item is enumerated. During enumeration, if an <a href="https://msdn.microsoft.com/c4fcc470-1b05-4d33-8581-80c6e7488e04">IPhotoAcquireProgressCB</a> object is passed to <code>InitializeItemList</code>, its implementation of <a href="https://msdn.microsoft.com/ef42722d-ca39-4d22-8de1-6b3926669abf">StartEnumeration</a>, <a href="https://msdn.microsoft.com/b80fb2f2-57b7-4333-891e-32eba0347a17">FoundItem</a>, and <a href="https://msdn.microsoft.com/dac16ca2-bd80-4771-9e81-09d07958a4bb">EndEnumeration</a> may be used to apply further filtering or control to the list of items to be transferred.
+The first time the item list is initialized—either implicitly through <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a> or explicitly by calling <code>InitializeItemList</code>—each item is enumerated. During enumeration, if an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB</a> object is passed to <code>InitializeItemList</code>, its implementation of <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-startenumeration">StartEnumeration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-founditem">FoundItem</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-endenumeration">EndEnumeration</a> may be used to apply further filtering or control to the list of items to be transferred.
 
 
 
@@ -131,15 +131,15 @@ The first time the item list is initialized—either implicitly through <a href=
 
 
 
-<a href="https://msdn.microsoft.com/94f41290-bbc4-4a2f-9787-831004bde3c7">IPhotoAcquire Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4fcc470-1b05-4d33-8581-80c6e7488e04">IPhotoAcquireProgressCB Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
  
 
  

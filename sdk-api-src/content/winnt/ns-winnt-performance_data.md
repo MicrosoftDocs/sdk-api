@@ -99,16 +99,16 @@ Reserved. Set to zero.
 
 ### -field HwCounters
 
-An array of <a href="https://msdn.microsoft.com/7224b623-c097-44e8-b9da-5fdfad3fb505">HARDWARE_COUNTER_DATA</a> structures that contain the counter values. The elements of the array that contain counter data relate directly to the bits set in the <i>HardwareCounters</i> bitmask that you specified when you called the <a href="https://msdn.microsoft.com/dbbe5b01-cabf-42cb-9ed9-c2c143f9923b">EnableThreadProfiling</a> function. For example, if you set bit 3 in the <i>HardwareCounters</i> bitmask, HwCounters[3] will contain the counter data for that counter.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_hardware_counter_data">HARDWARE_COUNTER_DATA</a> structures that contain the counter values. The elements of the array that contain counter data relate directly to the bits set in the <i>HardwareCounters</i> bitmask that you specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function. For example, if you set bit 3 in the <i>HardwareCounters</i> bitmask, HwCounters[3] will contain the counter data for that counter.
 
 
 ## -remarks
 
 
 
-You must initialize the <b>Size</b> and <b>Version</b> members before calling the <a href="https://msdn.microsoft.com/e7335caf-d89b-45b4-831d-9ead4448a6a3">ReadThreadProfilingData</a> function to read the profiling data.
+You must initialize the <b>Size</b> and <b>Version</b> members before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a> function to read the profiling data.
 
-The profile data contained in this structure depends on the data that you requested when you called the <a href="https://msdn.microsoft.com/e7335caf-d89b-45b4-831d-9ead4448a6a3">ReadThreadProfilingData</a> function. The following members are set when you specify the READ_THREAD_PROFILING_FLAG_DISPATCHING flag:
+The profile data contained in this structure depends on the data that you requested when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a> function. The following members are set when you specify the READ_THREAD_PROFILING_FLAG_DISPATCHING flag:
 
 <ul>
 <li><b>ContextSwitchCount</b></li>
@@ -130,7 +130,7 @@ The following members are set when you specify the READ_THREAD_PROFILING_FLAG_HA
 
 
 
-<a href="https://msdn.microsoft.com/e7335caf-d89b-45b4-831d-9ead4448a6a3">ReadThreadProfilingData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a>
  
 
  

@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param tid [in]
 
-Contains a <a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">TfClientId</a> value that identifies the client.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
 
 ### -param pvarValue [in]
@@ -117,7 +117,7 @@ An unspecified error occurred.
 </dl>
 </td>
 <td width="60%">
-The compartment was cleared by a call to <a href="https://msdn.microsoft.com/862ec077-b192-412a-b80c-6105f503ed21">ITfCompartmentMgr::ClearCompartment</a>, this method was called during a <a href="https://msdn.microsoft.com/1756754c-6353-4296-bdb5-1cbef1d29ec5">ITfCompartmentEventSink::OnChange</a> notification or only the owner can clear this compartment.
+The compartment was cleared by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ITfCompartmentMgr::ClearCompartment</a>, this method was called during a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmenteventsink-onchange">ITfCompartmentEventSink::OnChange</a> notification or only the owner can clear this compartment.
 
 </td>
 </tr>
@@ -132,11 +132,11 @@ The compartment was cleared by a call to <a href="https://msdn.microsoft.com/862
 
 
 
-<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">ITfCompartment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a>
 
 
 
-<a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">TfClientId
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
       </a>
  
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains information about <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains information about <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Obtains information about <a href="https://msdn.microsoft.com/en-us/library/Aa38
 
 ### -param iFile [in]
 
-An index for an excluded <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file set</a>. The value of this parameter is an integer from 0 
+An index for an excluded <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file set</a>. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of <i>file sets</i> explicitly excluded from a given shadow copy. The value of <i>n</i> is returned by 
 the <b>IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</b> method.
 
@@ -68,7 +68,7 @@ the <b>IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</b> method.
 ### -param ppFiledesc [out]
 
 A doubly indirect pointer to an 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object containing the file element information.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the file element information.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 The pointer to an 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> interface was successfully returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> interface was successfully returned.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -140,10 +140,10 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller is responsible for calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to release the resources of the returned 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> object.
+The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
-The <b>GetExcludeFromSnapshotFile</b> method is intended to report information about <a href="https://msdn.microsoft.com/en-us/library/Aa384656(v=VS.85).aspx">file sets</a> excluded from a shadow copy. Requesters should not exclude files from backup based on the information returned by this method.
+The <b>GetExcludeFromSnapshotFile</b> method is intended to report information about <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> excluded from a shadow copy. Requesters should not exclude files from backup based on the information returned by this method.
 
 
 
@@ -153,15 +153,15 @@ The <b>GetExcludeFromSnapshotFile</b> method is intended to report information a
 
 
 
-<a href="https://msdn.microsoft.com/6be4c63c-c36a-4ff4-92b7-63b69a030b86">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef5a83c-8f63-4884-8b70-a8241ba4857b">IVssExamineWriterMetadataEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3df57749-9a26-4187-b1fc-aeb68a4d1d06">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
  
 
  

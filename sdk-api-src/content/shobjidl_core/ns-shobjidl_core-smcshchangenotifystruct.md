@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about change notification. It is used by <a href="https://msdn.microsoft.com/06809b61-041b-41bd-82dd-0d64edf8bbae">IShellMenuCallback::CallbackSM</a>.
+Contains information about change notification. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">IShellMenuCallback::CallbackSM</a>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Contains information about change notification. It is used by <a href="https://m
 
 Type: <b>long</b>
 
-An SHCNE value that specifies the type of change that took place. See <a href="https://msdn.microsoft.com/a9222ce9-0d06-4fd0-af3a-fd0e979713ce">SHChangeNotify</a> for a complete list of these values.
+An SHCNE value that specifies the type of change that took place. See <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> for a complete list of these values.
 
 
 ### -field pidl1

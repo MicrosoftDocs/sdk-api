@@ -66,7 +66,7 @@ The display name of the object to be created.
 
 ### -param pBindOptions [in, optional]
 
-The binding options used to create a moniker that creates the actual object. For details, see <a href="https://msdn.microsoft.com/764f09c9-ff20-4ae2-b94f-4b0a1e117e49">BIND_OPTS</a>. This parameter can be <b>NULL</b>.
+The binding options used to create a moniker that creates the actual object. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>. This parameter can be <b>NULL</b>.
 
 
 ### -param riid [in]
@@ -130,7 +130,7 @@ The object identified by this moniker, or some object identified by the composit
 </dl>
 </td>
 <td width="60%">
-The binding operation could not be completed within the time limit specified by the <a href="https://msdn.microsoft.com/764f09c9-ff20-4ae2-b94f-4b0a1e117e49">BIND_OPTS</a> structure passed in <i>pBindOptions</i>.
+The binding operation could not be completed within the time limit specified by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a> structure passed in <i>pBindOptions</i>.
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ The binding operation requires assistance from the end user. The most common rea
 </dl>
 </td>
 <td width="60%">
-An intermediate object was found but it did not support an interface required to complete the binding operation. For example, an item moniker returns this value if its container does not support the <a href="https://msdn.microsoft.com/fe306a36-da24-4b1e-ab42-359d37962d36">IOleItemContainer</a> interface.
+An intermediate object was found but it did not support an interface required to complete the binding operation. For example, an item moniker returns this value if its container does not support the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a> interface.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ An intermediate object was found but it did not support an interface required to
 
 
 
-<b>CoGetObject</b> encapsulates calls to the COM library functions <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a>, <a href="https://msdn.microsoft.com/ada46dd3-e2c5-4ff5-89bd-3805f98b247b">MkParseDisplayName</a>, and <a href="https://msdn.microsoft.com/b5ce39ff-3387-4f72-9aea-5a26eed3810c">IMoniker::BindToObject</a>. 
+<b>CoGetObject</b> encapsulates calls to the COM library functions <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createbindctx">CreateBindCtx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>. 
 
 
 
@@ -177,7 +177,7 @@ An intermediate object was found but it did not support an interface required to
 
 
 
-<a href="https://msdn.microsoft.com/764f09c9-ff20-4ae2-b94f-4b0a1e117e49">BIND_OPTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagbind_opts">BIND_OPTS</a>
  
 
  

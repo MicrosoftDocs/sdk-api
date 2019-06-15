@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMSVidAnalogTuner</b> interface represents an analog-only tuner card that does not support the Broadcast Driver Architecture (BDA). This interface provides Automation access to the <a href="https://msdn.microsoft.com/en-us/library/Dd375971(v=VS.85).aspx">IAMTVTuner</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd375962(v=VS.85).aspx">IAMTVAudio</a> interfaces.
+The <b>IMSVidAnalogTuner</b> interface represents an analog-only tuner card that does not support the Broadcast Driver Architecture (BDA). This interface provides Automation access to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> interfaces.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAnalogTuner</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner</a>. <b>IMSVidAnalogTuner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAnalogTuner</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner</a>. <b>IMSVidAnalogTuner</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidAnalogTuner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694426(v=VS.85).aspx">ChannelAvailable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-channelavailable">ChannelAvailable</a>
 </td>
 <td align="left" width="63%">
 Queries whether a specified channel is available for viewing.
@@ -81,7 +81,7 @@ Queries whether a specified channel is available for viewing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694427(v=VS.85).aspx">get_AudioFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_audiofrequency">get_AudioFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuner's audio frequency.
@@ -90,7 +90,7 @@ Retrieves the tuner's audio frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694428(v=VS.85).aspx">get_Channel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_channel">get_Channel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuner's channel setting.
@@ -99,7 +99,7 @@ Retrieves the tuner's channel setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694429(v=VS.85).aspx">get_CountryCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_countrycode">get_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuner's country/region code.
@@ -108,7 +108,7 @@ Retrieves the tuner's country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694430(v=VS.85).aspx">get_SAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_sap">get_SAP</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuner's SAP setting to enable secondary audio components.
@@ -117,7 +117,7 @@ Retrieves the tuner's SAP setting to enable secondary audio components.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694431(v=VS.85).aspx">get_VideoFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_videofrequency">get_VideoFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tuner's video frequency.
@@ -126,7 +126,7 @@ Retrieves the tuner's video frequency.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694432(v=VS.85).aspx">put_Channel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_channel">put_Channel</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuner's channel setting.
@@ -135,7 +135,7 @@ Specifies the tuner's channel setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694433(v=VS.85).aspx">put_CountryCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_countrycode">put_CountryCode</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuner's country/region code.
@@ -144,7 +144,7 @@ Specifies the tuner's country/region code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694434(v=VS.85).aspx">put_SAP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-put_sap">put_SAP</a>
 </td>
 <td align="left" width="63%">
 Specifies the tuner's SAP setting to enable secondary audio components.
@@ -168,11 +168,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

@@ -89,7 +89,7 @@ The y-coordinate of the lower-right corner of the rectangle.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a></b>
 
 The RECT structure defines the coordinates of the upper-left and lower-right corners of a rectangle.
 

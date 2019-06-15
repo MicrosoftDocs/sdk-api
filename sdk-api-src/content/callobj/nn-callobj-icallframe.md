@@ -58,7 +58,7 @@ An instance of the <b>ICallFrame</b> interface can perform various transformatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrame</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICallFrame</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrame</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallFrame</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ICallFrame</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf2d2e55-d9d1-48d6-817c-382c739d1acd">Copy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of this call frame and all of its associated data.
@@ -82,7 +82,7 @@ Creates a copy of this call frame and all of its associated data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">Free</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-free">Free</a>
 </td>
 <td align="left" width="63%">
 Frees the frame copy to avoid a memory leak.
@@ -91,7 +91,7 @@ Frees the frame copy to avoid a memory leak.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b141bfc4-de1b-4251-b88f-551d0805e9b6">FreeParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-freeparam">FreeParam</a>
 </td>
 <td align="left" width="63%">
 Frees the specified parameter in the frame.
@@ -100,7 +100,7 @@ Frees the specified parameter in the frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/938798ef-ddc8-4182-9216-d130c4f0e4ae">GetIIDAndMethod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getiidandmethod">GetIIDAndMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves the interface ID or the method number.
@@ -109,7 +109,7 @@ Retrieves the interface ID or the method number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/807b4542-c18d-48e4-8493-c40a85e5e1de">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the call frame.
@@ -118,7 +118,7 @@ Retrieves information about the call frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e564b29-8b21-4e65-981e-4ceda1d7774d">GetMarshalSizeMax</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getmarshalsizemax">GetMarshalSizeMax</a>
 </td>
 <td align="left" width="63%">
 Retrieves an upper bound on the number of bytes needed to marshal the call frame.
@@ -127,7 +127,7 @@ Retrieves an upper bound on the number of bytes needed to marshal the call frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3efb0819-51db-419b-a9f1-710bb3abae2d">GetNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getnames">GetNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves the method or interface name of this call.
@@ -136,7 +136,7 @@ Retrieves the method or interface name of this call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43662600-841c-4237-80ac-3822eb47be88">GetParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getparam">GetParam</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a specified parameter in the call frame.
@@ -145,7 +145,7 @@ Retrieves the value of a specified parameter in the call frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb75930d-8e1b-4e97-87f2-bb9d171658a8">GetParamInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getparaminfo">GetParamInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the information for the specified parameter.
@@ -154,7 +154,7 @@ Retrieves the information for the specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb03e968-37af-46fd-b2ed-08c5ef8eb265">GetReturnValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getreturnvalue">GetReturnValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the return value stored in the call frame.
@@ -163,7 +163,7 @@ Retrieves the return value stored in the call frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e6b5e52-78bb-47cd-9019-efb5c0860a6d">GetStackLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getstacklocation">GetStackLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stack location onto which this call frame is bound.
@@ -172,7 +172,7 @@ Retrieves the stack location onto which this call frame is bound.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75cb7b96-55c9-4aee-b507-a549e2af38bc">Invoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Applies this activation record to an object.
@@ -181,7 +181,7 @@ Applies this activation record to an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cab40c31-1f89-4da9-a1e0-ef946b34665c">Marshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-marshal">Marshal</a>
 </td>
 <td align="left" width="63%">
 Marshals the call frame by turning its reachable data into a flat buffer without disturbing the frame.
@@ -190,7 +190,7 @@ Marshals the call frame by turning its reachable data into a flat buffer without
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c82107ad-68d1-4a46-ba78-37592d445c57">ReleaseMarshalData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-releasemarshaldata">ReleaseMarshalData</a>
 </td>
 <td align="left" width="63%">
 Releases resources that are held by interface pointers residing in a packet of marshaled data.
@@ -199,7 +199,7 @@ Releases resources that are held by interface pointers residing in a packet of m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec828206-d49f-49da-91fc-554d703b53db">SetParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-setparam">SetParam</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a specified parameter in the call frame.
@@ -208,7 +208,7 @@ Sets the value of a specified parameter in the call frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/848cccc7-19c8-4ce6-b609-bcf798ec8c76">SetReturnValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-setreturnvalue">SetReturnValue</a>
 </td>
 <td align="left" width="63%">
 Sets the return value within the call frame.
@@ -217,7 +217,7 @@ Sets the return value within the call frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/689f3819-488b-4679-a401-f1500db22461">SetStackLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-setstacklocation">SetStackLocation</a>
 </td>
 <td align="left" width="63%">
 Sets the stack location onto which this call frame is bound.
@@ -226,7 +226,7 @@ Sets the stack location onto which this call frame is bound.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f604366-0e1f-4e04-9843-13c77ea573ab">Unmarshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-unmarshal">Unmarshal</a>
 </td>
 <td align="left" width="63%">
 Unmarshals a packet of data containing the previously marshaled [out] parameters of a call into this already existing activation record.
@@ -235,7 +235,7 @@ Unmarshals a packet of data containing the previously marshaled [out] parameters
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64e4967b-6b54-4416-ae10-04987f13d39a">WalkFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-walkframe">WalkFrame</a>
 </td>
 <td align="left" width="63%">
 Searches for interface pointers that are reachable from [in], [in, out], or [out] parameters of the frame.

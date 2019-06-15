@@ -55,7 +55,7 @@ Use this interface to retrieve a list of continuous sector ranges on the media. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRangeList</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBlockRangeList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBlockRangeList</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBlockRangeList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBlockRangeList</b> interface has these methods.
 <tr data="declared;">
 <td align="left" width="37%"><b>get_BlockRanges</b></td>
 <td align="left" width="63%">
-Retrieves a safe array of <a href="https://msdn.microsoft.com/abebc651-0575-4b76-9fe8-2cea3d617582">IBlockRange</a> interfaces describing the sector ranges in the list.
+Retrieves a safe array of <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a> interfaces describing the sector ranges in the list.
 
 </td>
 </tr>
@@ -82,9 +82,9 @@ Retrieves a safe array of <a href="https://msdn.microsoft.com/abebc651-0575-4b76
 
 
 
-<b>IBlockRangeList</b> is returned by the <a href="https://msdn.microsoft.com/2148ba3f-f334-43cb-965a-37b078419e0c">IFileSystemImageResult2::ModifiedBlocks</a> method. Alternatively, IUnknown::QueryInterface can be called on the object returned by <a href="https://msdn.microsoft.com/87e4bde6-c8c3-43b6-b096-514fdef5e262">IFileSystemImageResult::get_ImageStream</a> to get the list of modified sectors in the result image represented by that object.
+<b>IBlockRangeList</b> is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult2-get_modifiedblocks">IFileSystemImageResult2::ModifiedBlocks</a> method. Alternatively, IUnknown::QueryInterface can be called on the object returned by <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_imagestream">IFileSystemImageResult::get_ImageStream</a> to get the list of modified sectors in the result image represented by that object.
 
-The order of sector ranges in <b>IBlockRangeList</b> is taken into account during burning. The sector ranges having lower indexes in the safe array returned by <a href="https://msdn.microsoft.com/b9c7e4ee-0fb2-4a15-8277-8db82a4f3afe">IBlockRangeList::get_BlockRanges</a> are written before those with higher indexes.
+The order of sector ranges in <b>IBlockRangeList</b> is taken into account during burning. The sector ranges having lower indexes in the safe array returned by <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iblockrangelist-get_blockranges">IBlockRangeList::get_BlockRanges</a> are written before those with higher indexes.
 
 
 
@@ -94,11 +94,11 @@ The order of sector ranges in <b>IBlockRangeList</b> is taken into account durin
 
 
 
-<a href="https://msdn.microsoft.com/abebc651-0575-4b76-9fe8-2cea3d617582">IBlockRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

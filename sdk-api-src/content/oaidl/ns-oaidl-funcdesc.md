@@ -114,7 +114,7 @@ The function return type.
 
 ### -field wFuncFlags
 
-The function flags. See <a href="https://msdn.microsoft.com/290f8769-dde4-47b9-b3bb-680efc95f532">FUNCFLAGS</a>.
+The function flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-tagfuncflags">FUNCFLAGS</a>.
 
 
 ## -remarks

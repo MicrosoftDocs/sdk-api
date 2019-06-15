@@ -62,7 +62,7 @@ Copies events from the specified channel or log file and writes them to the targ
 
 ### -param Session [in, optional]
 
-A remote session handle that the <a href="https://msdn.microsoft.com/26f1745c-dcca-4452-872e-1fffe20f049c">EvtOpenSession</a> function returns. Set to <b>NULL</b> for local channels.
+A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> for local channels.
 
 
 ### -param Path [in]
@@ -82,7 +82,7 @@ The full path to the target log file that will receive the events. The target lo
 
 ### -param Flags [in]
 
-Flags that indicate whether the events come from a channel or log file. For possible values, see the <a href="https://msdn.microsoft.com/02a63a3c-5c9b-485f-bd52-a97c40cb83d1">EVT_EXPORTLOG_FLAGS</a> enumeration.
+Flags that indicate whether the events come from a channel or log file. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_exportlog_flags">EVT_EXPORTLOG_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. Use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to get the error code.
+The function failed. Use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 </td>
 </tr>
@@ -128,9 +128,9 @@ The function failed. Use the <a href="https://msdn.microsoft.com/d852e148-985c-4
 
 
 
-You can export events from multiple channels using a structured XML query (see <a href="https://msdn.microsoft.com/17204d3f-0875-42c5-9af4-caca6349a67d">Consuming Events</a>); however, you cannot use this function to merge events from multiple log files. If the query result is empty, the service creates a file that contains header information but no events.
+You can export events from multiple channels using a structured XML query (see <a href="https://docs.microsoft.com/windows/desktop/WES/consuming-events">Consuming Events</a>); however, you cannot use this function to merge events from multiple log files. If the query result is empty, the service creates a file that contains header information but no events.
 
-To remove events from a channel and write them to a target log file, call the <a href="https://msdn.microsoft.com/26d2aabd-96dc-4091-82f4-e5d4c69e09a4">EvtClearLog</a> function. To include localized strings with the events in the log file, call the <a href="https://msdn.microsoft.com/0a8f9958-03af-4310-9f9e-b79e84a30a04">EvtArchiveExportedLog</a> function.
+To remove events from a channel and write them to a target log file, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclearlog">EvtClearLog</a> function. To include localized strings with the events in the log file, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtarchiveexportedlog">EvtArchiveExportedLog</a> function.
 
 You must specify the absolute path to the target log file; you cannot use relative paths and environment variables to specifying the target log file.  The path can be a Universal Naming Convention (UNC) path. You should use .evtx as the file name extension.
 
@@ -139,7 +139,7 @@ This function  affects only the specified channel or log file—if the channel u
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://msdn.microsoft.com/6d71ed15-97e3-4888-b161-c7e31bf3fc6d">Saving Events to a Log File</a>.
+For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/saving-events-to-a-log-file">Saving Events to a Log File</a>.
 
 <div class="code"></div>
 
@@ -150,11 +150,11 @@ For an example that shows how to use this function, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/0a8f9958-03af-4310-9f9e-b79e84a30a04">EvtArchiveExportedLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtarchiveexportedlog">EvtArchiveExportedLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/26d2aabd-96dc-4091-82f4-e5d4c69e09a4">EvtClearLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclearlog">EvtClearLog</a>
  
 
  

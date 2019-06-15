@@ -98,11 +98,11 @@ This function causes a window message to be sent to all top-level windows. This 
 
 
 
-<a href="https://msdn.microsoft.com/29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a">Joysticks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://msdn.microsoft.com/84e47ac3-b40f-48bc-8f59-cc678d7d521e">Multimedia Joystick Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
  
 
  

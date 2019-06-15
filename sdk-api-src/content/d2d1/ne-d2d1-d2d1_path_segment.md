@@ -59,7 +59,7 @@ Indicates whether a segment should be stroked and whether the join between this 
 
 ### -field D2D1_PATH_SEGMENT_NONE
 
-The segment is joined  as specified by the <a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a> interface, and it is stroked. 
+The segment is joined  as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a> interface, and it is stroked. 
 
 
 ### -field D2D1_PATH_SEGMENT_FORCE_UNSTROKED
@@ -69,7 +69,7 @@ The segment is not stroked.
 
 ### -field D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN
 
-The segment is always joined with the one preceding it using a round line join, regardless of which <a href="https://msdn.microsoft.com/4368e93e-af69-4555-ac2b-c9c576c81372">D2D1_LINE_JOIN</a>enumeration is specified by the <a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a> interface. If this segment is the first segment and the figure is closed, a round line join is used to connect the closing segment with the first segment. If the figure is not closed, this setting has no effect on the first segment of the figure. If <a href="https://msdn.microsoft.com/e1162564-a39b-4c16-887e-ec06dd37301c">ID2D1SimplifiedGeometrySink::SetSegmentFlags</a> is called just before <a href="https://msdn.microsoft.com/31f6aeba-2e81-4b8d-b734-0c501eae331f">ID2D1SimplifiedGeometrySink::EndFigure</a>, the join between the closing segment and the last explicitly specified segment is affected.
+The segment is always joined with the one preceding it using a round line join, regardless of which <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN</a>enumeration is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a> interface. If this segment is the first segment and the figure is closed, a round line join is used to connect the closing segment with the first segment. If the figure is not closed, this setting has no effect on the first segment of the figure. If <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setsegmentflags">ID2D1SimplifiedGeometrySink::SetSegmentFlags</a> is called just before <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-endfigure">ID2D1SimplifiedGeometrySink::EndFigure</a>, the join between the closing segment and the last explicitly specified segment is affected.
 
 
 ### -field D2D1_PATH_SEGMENT_FORCE_DWORD
@@ -82,11 +82,11 @@ The segment is always joined with the one preceding it using a round line join, 
 
 
 
-<a href="https://msdn.microsoft.com/e1162564-a39b-4c16-887e-ec06dd37301c">ID2D1SimplifiedGeometrySink::SetSegmentFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-setsegmentflags">ID2D1SimplifiedGeometrySink::SetSegmentFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

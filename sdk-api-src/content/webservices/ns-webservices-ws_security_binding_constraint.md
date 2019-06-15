@@ -69,7 +69,7 @@ This value depends on which type of security binding constraint that is used.
 A set of binding-specific security property constraints.
                 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd323385(v=VS.85).aspx">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_binding_property_constraint">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
                 
 
 

@@ -157,11 +157,11 @@ Specifies configuration of the full host name (fully qualified domain name) in U
 
 
 
-<a href="https://msdn.microsoft.com/6ab53b19-7838-4e9f-9923-96a9267d2dbb">DNS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/83de7df8-7e89-42fe-b609-1dc173afc9df">DnsQueryConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsqueryconfig">DnsQueryConfig</a>
  
 
  

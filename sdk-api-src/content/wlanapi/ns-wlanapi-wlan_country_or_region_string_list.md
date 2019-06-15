@@ -87,7 +87,7 @@ A list of supported country or region strings. In Windows, a <b>DOT11_COUNTRY_OR
 
 
 
-<a href="https://msdn.microsoft.com/e20eb9a3-5824-48ee-b13e-b0252bbf495e">WlanQueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
  
 
  

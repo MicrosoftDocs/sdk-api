@@ -70,7 +70,7 @@ A pointer to a <b>null</b>-terminated string that specifies a destination. The d
 ### -param lpQOCInfo [in, out]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/1f78a7c5-b3c7-4f21-8848-58cfb481f4bb">QOCINFO</a> structure that receives the Quality of Connection (QOC) information. You can supply a <b>NULL</b> pointer if you do not want to receive the QOC information.
+<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/ns-sensapi-tagqocinfo">QOCINFO</a> structure that receives the Quality of Connection (QOC) information. You can supply a <b>NULL</b> pointer if you do not want to receive the QOC information.
 
 
 ## -returns
@@ -101,7 +101,7 @@ A destination can be reached.
 </td>
 <td width="60%">
 A destination cannot be reached. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -129,9 +129,9 @@ This function is not available on Windows Vista.
 Client applications use this function to determine the QOC information before proceeding with network operations. For standalone computers that are directly connected to a network through a network card or remote access server (RAS), this function generates minimal network traffic with RPC calls to the nearest router. For computers that are part of a network where a destination can be reached by using RAS or a network gateway, this function pings a destination to generate accurate QOC information.
 
 This function is only available for TCP/IP connections. A caller supplies the buffer for the 
-<a href="https://msdn.microsoft.com/1f78a7c5-b3c7-4f21-8848-58cfb481f4bb">QOCINFO</a> structure, and must release the memory when it is not needed.
+<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/ns-sensapi-tagqocinfo">QOCINFO</a> structure, and must release the memory when it is not needed.
 
-Starting with applications designed for Windows Vista and Windows Server 2008, developers should consider using the <a href="https://msdn.microsoft.com/a30741ff-5d9a-4ebb-8373-97e9116fc64b">Network List Manager</a> instead of this function.
+Starting with applications designed for Windows Vista and Windows Server 2008, developers should consider using the <a href="https://docs.microsoft.com/windows/desktop/NLA/portal">Network List Manager</a> instead of this function.
 
 
 
@@ -143,15 +143,15 @@ Starting with applications designed for Windows Vista and Windows Server 2008,
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a2f3acd-0626-4fb2-8c5f-f3a0704cc0b4">IsNetworkAlive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/nf-sensapi-isnetworkalive">IsNetworkAlive</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f78a7c5-b3c7-4f21-8848-58cfb481f4bb">QOCINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensapi/ns-sensapi-tagqocinfo">QOCINFO</a>
  
 
  

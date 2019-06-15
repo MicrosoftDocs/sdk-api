@@ -118,7 +118,7 @@ The <i>ppName</i> parameter is not a valid pointer.
 
 
 The application must free the memory allocated for the <i>ppName</i> parameter through 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the variable is no longer needed.
 
 
 
@@ -128,7 +128,7 @@ The application must free the memory allocated for the <i>ppName</i> parameter t
 
 
 
-<a href="https://msdn.microsoft.com/11861d77-39ad-4d85-bf68-ba0f4321ba7c">ITAgentHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
  
 
  

@@ -68,10 +68,10 @@ Retrieves information about the specified window station or desktop object.
 ### -param hObj [in]
 
 A handle to the window station or desktop object. This handle is returned by the 
-<a href="https://msdn.microsoft.com/c1aee546-decd-46c9-8d02-d6792f5a6a0d">CreateWindowStation</a>, 
-<a href="https://msdn.microsoft.com/78ee7100-1bad-4c2d-b923-c5e67191bd41">OpenWindowStation</a>, 
-<a href="https://msdn.microsoft.com/c6ed40c5-13a9-4697-a727-730adc6a912d">CreateDesktop</a>, or 
-<a href="https://msdn.microsoft.com/7f805f47-1737-4f4b-a74a-9c1423b65f2c">OpenDesktop</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a> function.
 
 
 ### -param nIndex [in]
@@ -91,7 +91,7 @@ The information to be retrieved. The parameter can be one of the following value
 </td>
 <td width="60%">
 The handle flags. The <i>pvInfo</i> parameter must point to a 
-<a href="https://msdn.microsoft.com/5a973d45-5ff4-47e7-a927-72d3fdd61dc9">USEROBJECTFLAGS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taguserobjectflags">USEROBJECTFLAGS</a> structure.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ The type name of the object, as a string.
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that identifies the user that is currently associated with the specified object. If no user is associated with the object, the value returned in the buffer pointed to by <i>lpnLengthNeeded</i> is zero. Note that <b>SID</b> is a variable length structure. You will usually make a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that identifies the user that is currently associated with the specified object. If no user is associated with the object, the value returned in the buffer pointed to by <i>lpnLengthNeeded</i> is zero. Note that <b>SID</b> is a variable length structure. You will usually make a call to 
 <b>GetUserObjectInformation</b> to determine the length of the <b>SID</b> before retrieving its value.
 
 </td>
@@ -182,7 +182,7 @@ A pointer to a variable receiving the number of bytes required to store the requ
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -192,43 +192,43 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/c6ed40c5-13a9-4697-a727-730adc6a912d">CreateDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1aee546-decd-46c9-8d02-d6792f5a6a0d">CreateWindowStation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowstationa">CreateWindowStation</a>
 
 
 
-<a href="https://msdn.microsoft.com/998c2520-7833-4efd-a794-b13b528f0485">GetUserObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f805f47-1737-4f4b-a74a-9c1423b65f2c">OpenDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
 
 
 
-<a href="https://msdn.microsoft.com/78ee7100-1bad-4c2d-b923-c5e67191bd41">OpenWindowStation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/42ce6946-1659-41a3-8ba7-21588583b4bd">SetUserObjectInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/219e41b8-9ac7-4747-a585-b6b9df6a1c9c">SetUserObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a973d45-5ff4-47e7-a927-72d3fdd61dc9">USEROBJECTFLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taguserobjectflags">USEROBJECTFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6214c28f-1035-446c-8c79-5d1dd638af2a">Window Station and Desktop Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
  
 
  

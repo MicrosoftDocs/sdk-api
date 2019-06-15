@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<a href="https://msdn.microsoft.com/37187f6f-388e-47d6-83a8-92c2f69f71d9">MprAdminIsDomainRasServer</a> function returns information regarding whether the given machine is registered as the remote access server in the domain. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> function returns information regarding whether the given machine is registered as the remote access server in the domain. 
 
 
 ## -parameters
@@ -145,7 +145,7 @@ This function must be executed only on a machine joined to a domain.
 
 #### Examples
 
-The follow example code shows the use of the <a href="https://msdn.microsoft.com/37187f6f-388e-47d6-83a8-92c2f69f71d9">MprAdminIsDomainRasServer</a> and <b>MprAdminEstablishDomainRasServer</b> functions.
+The follow example code shows the use of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> and <b>MprAdminEstablishDomainRasServer</b> functions.
 
 
 ```cpp
@@ -210,11 +210,11 @@ int __cdecl main(){
 
 
 
-<a href="https://msdn.microsoft.com/a61734a7-b171-4e38-8dec-46be9a9c08ee">Router Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

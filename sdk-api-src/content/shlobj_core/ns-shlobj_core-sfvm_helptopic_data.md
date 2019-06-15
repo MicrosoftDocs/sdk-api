@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the name of an HTML Help file and a topic in that file. Used with the <a href="https://msdn.microsoft.com/bbe92e9f-4074-4101-a945-072866ab20a8">SFVM_GETHELPTOPIC</a> notification. This structure requires Unicode strings.
+Contains the name of an HTML Help file and a topic in that file. Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-gethelptopic">SFVM_GETHELPTOPIC</a> notification. This structure requires Unicode strings.
 
 
 ## -struct-fields

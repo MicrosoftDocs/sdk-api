@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the formatted WPP message embedded into an <a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a> structure.
+Retrieves the formatted WPP message embedded into an <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a> structure.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ A valid decoding handle.
 
 ### -param EventRecord [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">PEVENT_RECORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">PEVENT_RECORD</a></b>
 
-The event record passed to your <a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a> callback.
+The event record passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback.
 
 
 ### -param BufferSize [in, out]
@@ -117,7 +117,7 @@ The specified property was not found.
 </dl>
 </td>
 <td width="60%">
-<i>BufferSize</i> is too small. To get the required buffer size, call <a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a>.
+<i>BufferSize</i> is too small. To get the required buffer size, call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ One or more of the parameters is not valid.
 
 
 
-To retrieve a specific property instead of the decoded event message without specifying a property name, call <a href="https://msdn.microsoft.com/a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0">TdhGetWppProperty</a>.
+To retrieve a specific property instead of the decoded event message without specifying a property name, call <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetwppproperty">TdhGetWppProperty</a>.
 
 
 
@@ -152,19 +152,19 @@ To retrieve a specific property instead of the decoded event message without spe
 
 
 
-<a href="https://msdn.microsoft.com/e352c1a7-39a2-43e3-a723-5fc6a3921ee8">EVENT_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-_event_record">EVENT_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a30faf-af1f-4440-8a17-9df44bdb2291">EventRecordCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0">TdhGetWppProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetwppproperty">TdhGetWppProperty</a>
  
 
  

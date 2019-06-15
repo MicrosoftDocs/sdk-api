@@ -105,7 +105,7 @@ Success.
 
 
 
-The filter passes this call through to the <b>EvalRat</b> object. For more information, see <a href="https://msdn.microsoft.com/f558c87e-59ac-40d3-bfab-2835d59a730b">IEvalRat::get_BlockUnRated</a>.
+The filter passes this call through to the <b>EvalRat</b> object. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-get_blockunrated">IEvalRat::get_BlockUnRated</a>.
 
 
 
@@ -115,7 +115,7 @@ The filter passes this call through to the <b>EvalRat</b> object. For more infor
 
 
 
-<a href="https://msdn.microsoft.com/15acf764-7e4d-40c3-b907-ff5dfaa69dae">IDTFilter Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
  
 
  

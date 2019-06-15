@@ -104,9 +104,9 @@ Normal priority.
 
 ### -param prgSize [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure with the desired width and height of the image. Must not be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure with the desired width and height of the image. Must not be <b>NULL</b>.
 
 
 ### -param dwRecClrDepth [in]
@@ -173,15 +173,15 @@ Used to tell the object to use only local content for rendering.
 #### IEIFLAG_ORIGSIZE
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Version 5.0</a>. Used to tell the object to render the image to the approximate size passed in <i>prgSize</i>, but crop it if necessary.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Used to tell the object to render the image to the approximate size passed in <i>prgSize</i>, but crop it if necessary.
 
 
 
 #### IEIFLAG_QUALITY (0x0200)
 
-Passed to the <a href="https://msdn.microsoft.com/7c40e2cf-c706-4a4a-819f-a416d6846158">IExtractImage::Extract</a> method to indicate that a higher quality image is requested.
+Passed to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract">IExtractImage::Extract</a> method to indicate that a higher quality image is requested.
 
-If  this flag is not set, <a href="https://msdn.microsoft.com/28a13749-89e7-407e-89cb-95464859ce3e">IExtractImage</a> retrieves an embedded thumbnail if the file has one, no matter what size the user requests. For example, if the file is 2000x2000 pixels but the embedded thumbnail is only 100x100 pixels and the user does not set this flag, yet requests a 1000x1000 pixel thumbnail, <b>IExtractImage</b> always returns the 100x100 pixel thumbnail. This is by design, since <b>IExtractImage</b> does not scale up. If a larger thumbnail is desired (usually embedded thumbnails are 160x160), this flag must be set.
+If  this flag is not set, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage">IExtractImage</a> retrieves an embedded thumbnail if the file has one, no matter what size the user requests. For example, if the file is 2000x2000 pixels but the embedded thumbnail is only 100x100 pixels and the user does not set this flag, yet requests a 1000x1000 pixel thumbnail, <b>IExtractImage</b> always returns the 100x100 pixel thumbnail. This is by design, since <b>IExtractImage</b> does not scale up. If a larger thumbnail is desired (usually embedded thumbnails are 160x160), this flag must be set.
 
 
 
@@ -241,7 +241,7 @@ Success
 
 
 
-<b>Microsoft Windows XP and earlier:</b> This method returns the path to an image and specifies how the image should be rendered. <b>IExtractImage::GetLocation</b> is free-threaded—that is, supports the Multithreaded Apartment Model (MTA)— therefore it can be placed in a background thread. The object must also expose an <a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a> interface, so the calling application can start and stop the extraction process as needed.
+<b>Microsoft Windows XP and earlier:</b> This method returns the path to an image and specifies how the image should be rendered. <b>IExtractImage::GetLocation</b> is free-threaded—that is, supports the Multithreaded Apartment Model (MTA)— therefore it can be placed in a background thread. The object must also expose an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a> interface, so the calling application can start and stop the extraction process as needed.
 
 You should return images that fit within the boundaries defined by <i>prgSize</i>. With Windows 2000 and later systems, you can set <b>IEIFLAG_ORIGSIZE</b> to use objects that do not have a standard aspect ratio, and they will be displayed properly. You do not need to fill in the unused part of the rectangle. If you try to use a nonstandard aspect ratio image with earlier versions of the Shell, it will be stretched to fit the <i>prgSize</i> rectangle. Depending on how much the aspect ratio differs from what is specified, the image may be badly distorted.
 

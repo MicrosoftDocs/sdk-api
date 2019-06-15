@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertOpenStore</b> function opens a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> by using a specified store provider type. While this function can open a certificate store for most purposes, 
-<a href="https://msdn.microsoft.com/23699439-1a6c-4907-93fa-651024856be7">CertOpenSystemStore</a> is recommended to open the most common certificate stores. <b>CertOpenStore</b> is required for more complex options and special cases.
+The <b>CertOpenStore</b> function opens a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> by using a specified store provider type. While this function can open a certificate store for most purposes, 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a> is recommended to open the most common certificate stores. <b>CertOpenStore</b> is required for more complex options and special cases.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ The <b>CertOpenStore</b> function opens a <a href="https://msdn.microsoft.com/db
 A pointer to a null-terminated ANSI string that contains the store provider type.
 
 The following values  represent the predefined store types. The store provider type determines the contents of the <i>pvPara</i> parameter and the use and meaning of the high word of the <i>dwFlags</i> parameter. Additional store providers can be installed or registered by using 
-the <a href="https://msdn.microsoft.com/934e8278-0e0b-4402-a2b6-ff1e913d54c9">CryptInstallOIDFunctionAddress</a> or 
-<a href="https://msdn.microsoft.com/b625597d-28fd-4a40-afbe-a09201d36512">CryptRegisterOIDFunction</a> function. For more information about adding store providers, see 
-<a href="https://msdn.microsoft.com/e5c7c882-cbfc-4343-952c-b13c67326756">Extending CertOpenStore Functionality</a>.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress">CryptInstallOIDFunctionAddress</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a> function. For more information about adding store providers, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/extending-certopenstore-functionality">Extending CertOpenStore Functionality</a>.
 
 
 
@@ -83,7 +83,7 @@ the <a href="https://msdn.microsoft.com/934e8278-0e0b-4402-a2b6-ff1e913d54c9">Cr
 </dl>
 </td>
 <td width="60%">
-Opens a store that will be a collection of other stores. Stores are added to or removed from the collection by using <a href="https://msdn.microsoft.com/ea848d74-c3ec-4166-90ea-121b33f7f318">CertAddStoreToCollection</a> and <a href="https://msdn.microsoft.com/e1564848-8b39-4ea9-9148-142ceaaaed15">CertRemoveStoreFromCollection</a>. When a store is added to a collection, all certificates, CRLs, and CTLs in that store become available to searches or enumerations of the collection store.
+Opens a store that will be a collection of other stores. Stores are added to or removed from the collection by using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certremovestorefromcollection">CertRemoveStoreFromCollection</a>. When a store is added to a collection, all certificates, CRLs, and CTLs in that store become available to searches or enumerations of the collection store.
 
 The high word of <i>dwFlags</i> is set to zero.
 
@@ -103,7 +103,7 @@ Initializes the store with certificates, CRLs, and CTLs read from a specified op
 
 The file pointer must be positioned at the beginning of the serialized store information. After the data in the serialized store has been loaded into the certificate store, the file pointer is positioned at the beginning of any data that can follow the serialized store data in the file. If CERT_FILE_STORE_COMMIT_ENABLE is set in <i>dwFlags</i>, the file handle is duplicated and the store is always committed as a serialized store. The file is not closed when the store is closed.
 
-<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter must contain a pointer to the handle of a file opened by using <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>.
+<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter must contain a pointer to the handle of a file opened by using <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 
 
@@ -119,14 +119,14 @@ The file pointer must be positioned at the beginning of the serialized store inf
 Initializes the store with certificates, CRLs, and CTLs from a file. The provider opens the file and first attempts to read the file as a serialized store, then as a PKCS #7 signed message, and finally as a single encoded certificate.
 
 
-The <i>dwEncodingType</i> parameter must contain the encoding types to be used with both messages and certificates. If the file contains an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> encoded certificate, the open operation fails and a call to the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function will return <b>ERROR_ACCESS_DENIED</b>.
-         If the <b>CERT_FILE_STORE_COMMIT_ENABLE</b> flag is set in <i>dwFlags</i>, the <i>dwCreationDisposition</i> value passed to <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> is as follows:
+The <i>dwEncodingType</i> parameter must contain the encoding types to be used with both messages and certificates. If the file contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> encoded certificate, the open operation fails and a call to the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function will return <b>ERROR_ACCESS_DENIED</b>.
+         If the <b>CERT_FILE_STORE_COMMIT_ENABLE</b> flag is set in <i>dwFlags</i>, the <i>dwCreationDisposition</i> value passed to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> is as follows:
 
 <ul>
 <li>If the <b>CERT_STORE_CREATE_NEW_FLAG</b> flag is set, 
-         <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> uses <b>CREATE_NEW</b>.</li>
-<li>If the <b>CERT_STORE_OPEN_EXISTING_FLAG</b> flag is set, <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> uses <b>OPEN_EXISTING</b>.</li>
-<li>For all other settings of <i>dwFlags</i>, <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> uses <b>OPEN_ALWAYS</b>.</li>
+         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> uses <b>CREATE_NEW</b>.</li>
+<li>If the <b>CERT_STORE_OPEN_EXISTING_FLAG</b> flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> uses <b>OPEN_EXISTING</b>.</li>
+<li>For all other settings of <i>dwFlags</i>, <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> uses <b>OPEN_ALWAYS</b>.</li>
 </ul>
 
 
@@ -164,9 +164,9 @@ Initializes the store with certificates, CRLs, and CTLs from the results of an L
 
 To perform write operations on the store, the query string must specify a BASE query with no filter and a single attribute.
 
-<b><i>pvPara</i> value:  </b>If the <i>dwFlags</i> parameter contains  <b>CERT_LDAP_STORE_OPENED_FLAG</b>, set  <i>pvPara</i> to the address of a <a href="https://msdn.microsoft.com/f13b8181-6173-44f8-ab30-4311042cd1b5">CERT_LDAP_STORE_OPENED_PARA</a> structure that specifies the established LDAP session to use.
+<b><i>pvPara</i> value:  </b>If the <i>dwFlags</i> parameter contains  <b>CERT_LDAP_STORE_OPENED_FLAG</b>, set  <i>pvPara</i> to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_ldap_store_opened_para">CERT_LDAP_STORE_OPENED_PARA</a> structure that specifies the established LDAP session to use.
 
-Otherwise,  set  <i>pvPara</i> to point to a null-terminated Unicode string that contains the LDAP query string. For more information about LDAP query strings, see <a href="https://msdn.microsoft.com/29aca7e6-3ed5-4efd-8b03-6a2ee0571f1f">LDAP Dialect</a>.
+Otherwise,  set  <i>pvPara</i> to point to a null-terminated Unicode string that contains the LDAP query string. For more information about LDAP query strings, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-dialect">LDAP Dialect</a>.
 
 
 
@@ -179,9 +179,9 @@ Otherwise,  set  <i>pvPara</i> to point to a null-terminated Unicode string that
 </dl>
 </td>
 <td width="60%">
-Creates a certificate store in cached memory. No certificates, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs), or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust lists</a> (CTLs) are initially loaded into the store. Typically used to create a temporary store.
+Creates a certificate store in cached memory. No certificates, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs) are initially loaded into the store. Typically used to create a temporary store.
 
-Any addition of certificates, CRLs, or CTLs or changes in properties of certificates, CRLs, or CTLs in a memory store are not automatically saved. They can be saved to a file or to a memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> by using <a href="https://msdn.microsoft.com/5cc818d7-b079-4962-aabc-fc512d4e92ac">CertSaveStore</a>.
+Any addition of certificates, CRLs, or CTLs or changes in properties of certificates, CRLs, or CTLs in a memory store are not automatically saved. They can be saved to a file or to a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> by using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore">CertSaveStore</a>.
 
 <b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter is not used.
 
@@ -195,7 +195,7 @@ Any addition of certificates, CRLs, or CTLs or changes in properties of certific
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from the specified cryptographic message. The <i>dwEncodingType</i> parameter must contain the encoding types used with both messages and certificates.
 
-<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter contains an <b>HCRYPTMSG</b> handle of the encoded message, returned by a call to <a href="https://msdn.microsoft.com/b3df6312-c866-4faa-8b89-bda67c697631">CryptMsgOpenToDecode</a>.
+<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter contains an <b>HCRYPTMSG</b> handle of the encoded message, returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>.
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ Initializes the store with certificates, CRLs, and CTLs from the specified crypt
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from a specified physical store that is a member of a logical system store.
 
-Two names are separated with an intervening backslash (\), for example "Root\.Default". Here, "Root" is the name of the system store and ".Default" is the name of the physical store. The system and physical store names cannot contain any backslashes. The high word of <i>dwFlags</i> indicates the system store location, usually CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic and see <a href="https://msdn.microsoft.com/41fe9366-4c17-43bb-91d6-934c7aa87a2d">System Store Locations</a>. Some physical store locations can be opened remotely.
+Two names are separated with an intervening backslash (\), for example "Root\.Default". Here, "Root" is the name of the system store and ".Default" is the name of the physical store. The system and physical store names cannot contain any backslashes. The high word of <i>dwFlags</i> indicates the system store location, usually CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic and see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/system-store-locations">System Store Locations</a>. Some physical store locations can be opened remotely.
 
 <b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a null-terminated Unicode string that contains both the system store name and physical names.
 
@@ -223,7 +223,7 @@ Two names are separated with an intervening backslash (\), for example "Root\.De
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from an encoded PKCS #7 signed message. The <i>dwEncodingType</i> parameter must specify the encoding types to be used with both messages and certificates.
 
-<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that represents the encoded message.
+<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the encoded message.
 
 </td>
 </tr>
@@ -234,15 +234,15 @@ Initializes the store with certificates, CRLs, and CTLs from an encoded PKCS #7 
 </dl>
 </td>
 <td width="60%">
-Initializes the store with the contents of a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">PKCS #12</a> packet.
+Initializes the store with the contents of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a> packet.
 
 If the PKCS #12 packet is protected with a NULL or empty password, this function will succeed in opening the store.
 
-Beginning with Windows 8 and Windows Server 2012, if the password embedded in the PFX packet was protected to an Active Directory (AD) principal and the current user, as a member of that principal, has permission to decrypt the password, this function will succeed in opening the store. For more information, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="https://msdn.microsoft.com/e8bd54b1-946f-4c65-8a86-96f0dbec07ff">PFXExportCertStoreEx</a> function.
+Beginning with Windows 8 and Windows Server 2012, if the password embedded in the PFX packet was protected to an Active Directory (AD) principal and the current user, as a member of that principal, has permission to decrypt the password, this function will succeed in opening the store. For more information, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.
 
 You can protect PFX passwords to an AD principal beginning in Windows 8 and Windows Server 2012.
 
-<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that represents the PKCS #12 packet.
+<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the PKCS #12 packet.
 
 </td>
 </tr>
@@ -254,7 +254,7 @@ You can protect PFX passwords to an AD principal beginning in Windows 8 and Win
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from a registry subkey.
 
-This provider opens or creates the registry subkeys <b>Certificates</b>, <b>CRLs</b>, and <b>CTLs</b> under the key passed in <i>pvPara</i>. The input key is not closed by the provider. Before returning, the provider opens its own copy of the key passed in <i>pvPara</i>. If CERT_STORE_READONLY_FLAG is set in the low word of <i>dwFlags</i>, registry subkeys are opened by using the <a href="https://msdn.microsoft.com/bad0a0f8-1889-4eff-98be-084c95d69f3b">RegOpenKey</a> with KEY_READ_ACCESS. Otherwise, registry subkeys are created by using <a href="https://msdn.microsoft.com/cb4d30f4-e288-41e8-86e0-807c313db53d">RegCreateKey</a> with KEY_ALL_ACCESS. Any changes to the contents of the opened store are immediately persisted to the registry. However, if CERT_STORE_READONLY_FLAG is set in the low word of <i>dwFlags</i>, any attempt to add to the contents of the store or to change a context's property results in an error with <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returning the E_ACCESSDENIED code.
+This provider opens or creates the registry subkeys <b>Certificates</b>, <b>CRLs</b>, and <b>CTLs</b> under the key passed in <i>pvPara</i>. The input key is not closed by the provider. Before returning, the provider opens its own copy of the key passed in <i>pvPara</i>. If CERT_STORE_READONLY_FLAG is set in the low word of <i>dwFlags</i>, registry subkeys are opened by using the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeya">RegOpenKey</a> with KEY_READ_ACCESS. Otherwise, registry subkeys are created by using <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeya">RegCreateKey</a> with KEY_ALL_ACCESS. Any changes to the contents of the opened store are immediately persisted to the registry. However, if CERT_STORE_READONLY_FLAG is set in the low word of <i>dwFlags</i>, any attempt to add to the contents of the store or to change a context's property results in an error with <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the E_ACCESSDENIED code.
 
 <b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter contains the handle of an open registry key.
 
@@ -269,7 +269,7 @@ This provider opens or creates the registry subkeys <b>Certificates</b>, <b>CRLs
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from a memory location that contains a serialized store.
 
-<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains the serialized memory BLOB.
+<b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the serialized memory BLOB.
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Not currently used.
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from the specified system store.
 
-The system store is a logical, collection store that consists of one or more physical stores. A physical store associated with a system store is registered with the <a href="https://msdn.microsoft.com/e301c76d-cacd-441a-b925-754b07e4bfa9">CertRegisterPhysicalStore</a> function. After the system store is opened, all of the physical stores that are associated with it are also opened by calls to <b>CertOpenStore</b> and are added to the system store collection by using the <a href="https://msdn.microsoft.com/ea848d74-c3ec-4166-90ea-121b33f7f318">CertAddStoreToCollection</a> function. The high word of <i>dwFlags</i> indicates the system store location, usually set to CERT_SYSTEM_STORE_CURRENT_USER. For details about registry locations, see <i>dwFlags</i> later in this topic and <a href="https://msdn.microsoft.com/41fe9366-4c17-43bb-91d6-934c7aa87a2d">System Store Locations</a>. Some system store locations can be opened remotely; for more information, see System Store Locations.
+The system store is a logical, collection store that consists of one or more physical stores. A physical store associated with a system store is registered with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certregisterphysicalstore">CertRegisterPhysicalStore</a> function. After the system store is opened, all of the physical stores that are associated with it are also opened by calls to <b>CertOpenStore</b> and are added to the system store collection by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a> function. The high word of <i>dwFlags</i> indicates the system store location, usually set to CERT_SYSTEM_STORE_CURRENT_USER. For details about registry locations, see <i>dwFlags</i> later in this topic and <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/system-store-locations">System Store Locations</a>. Some system store locations can be opened remotely; for more information, see System Store Locations.
 
 <b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a null-terminated ANSI string that contains a system store name, such as "My" or "Root".
 
@@ -319,7 +319,7 @@ Same as <b>CERT_STORE_PROV_SYSTEM_A</b>.
 <td width="60%">
 Initializes the store with certificates, CRLs, and CTLs from a physical registry store. The physical store is not opened as a collection store. Enumerations and searches go through only the certificates, CRLs, and CTLs in that one physical store.
 
-The high word of <i>dwFlags</i> indicates the system store location, usually set to CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic. Some system store locations can be open remotely; for more information, see <a href="https://msdn.microsoft.com/41fe9366-4c17-43bb-91d6-934c7aa87a2d">System Store Locations</a>.
+The high word of <i>dwFlags</i> indicates the system store location, usually set to CERT_SYSTEM_STORE_CURRENT_USER. For more information, see <i>dwFlags</i> later in this topic. Some system store locations can be open remotely; for more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/system-store-locations">System Store Locations</a>.
 
 <b><i>pvPara</i> value:  </b>The <i>pvPara</i> parameter points to a null-terminated ANSI string that contains a system store name, such as "My" or "Root".
 
@@ -344,7 +344,7 @@ Same as <b>CERT_STORE_PROV_SYSTEM_REGISTRY_A</b>.
 
 ### -param dwEncodingType [in]
 
-Specifies the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate encoding type</a> and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding type</a>. Encoding is used only when the <i>dwSaveAs</i> parameter of  the <a href="https://msdn.microsoft.com/5cc818d7-b079-4962-aabc-fc512d4e92ac">CertSaveStore</a> function contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a>. Encoding is used only when the <i>dwSaveAs</i> parameter of  the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore">CertSaveStore</a> function contains <b>CERT_STORE_SAVE_AS_PKCS7</b>. Otherwise, the <i>dwMsgAndCertEncodingType</i> parameter is not used.
 
 This parameter is only applicable  when the <b>CERT_STORE_PROV_MSG</b>, <b>CERT_STORE_PROV_PKCS7</b>, or <b>CERT_STORE_PROV_FILENAME</b> provider type is specified in the <i>lpszStoreProvider</i> parameter. For all other provider types, this parameter is unused and should be set to zero.
 
@@ -398,7 +398,7 @@ This parameter is not used and should be set to <b>NULL</b>.
 These values consist of high-word and low-word values combined by using a bitwise-<b>OR</b> operation.
 
 
-The low-word portion of <i>dwFlags</i> controls a variety of general characteristics of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> opened. This portion can be used with all store provider types. The low-word portion of <i>dwFlags</i> can be one of the following values.
+The low-word portion of <i>dwFlags</i> controls a variety of general characteristics of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> opened. This portion can be used with all store provider types. The low-word portion of <i>dwFlags</i> can be one of the following values.
 
 
 
@@ -413,7 +413,7 @@ The low-word portion of <i>dwFlags</i> controls a variety of general characteris
 </dl>
 </td>
 <td width="60%">
-Use the thread's SE_BACKUP_NAME and SE_RESTORE_NAME <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> to open registry or file-based system stores. If the thread does not have these privileges, this function must fail with an access denied error.
+Use the thread's SE_BACKUP_NAME and SE_RESTORE_NAME <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> to open registry or file-based system stores. If the thread does not have these privileges, this function must fail with an access denied error.
 
 </td>
 </tr>
@@ -435,7 +435,7 @@ If neither <b>CERT_STORE_OPEN_EXISTING_FLAG</b> nor <b>CERT_STORE_CREATE_NEW_FLA
 </dl>
 </td>
 <td width="60%">
-Defer closing of the store's provider until all certificates, CRLs, or CTLs obtained from the store are no longer in use. The store is actually closed when the last certificate, CRL, or CTL obtained from the store is freed. Any changes made to properties of these certificates, CRLs, and CTLs, even after the call to <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a>, are persisted.
+Defer closing of the store's provider until all certificates, CRLs, or CTLs obtained from the store are no longer in use. The store is actually closed when the last certificate, CRL, or CTL obtained from the store is freed. Any changes made to properties of these certificates, CRLs, and CTLs, even after the call to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>, are persisted.
 
 If this flag is not set and certificates, CRLs, or CTLs obtained from the store are still in use, any changes to the properties of those certificates, CRLs, and CTLs will not be persisted.
 
@@ -453,7 +453,7 @@ this function.
 </td>
 <td width="60%">
 The store is deleted instead of being opened. This function returns <b>NULL</b> for both success and failure of the deletion. To determine the success of the deletion, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which returns zero if the store was deleted and a nonzero value if it was not deleted.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns zero if the store was deleted and a nonzero value if it was not deleted.
 
 </td>
 </tr>
@@ -503,7 +503,7 @@ Only open an existing store. If the store does not exist, the function fails.
 </dl>
 </td>
 <td width="60%">
-Open the store in read-only mode. Any attempt to change the contents of the store will result in an error. When this flag is set and a registry based store provider is being used, the registry subkeys are opened by using <a href="https://msdn.microsoft.com/bad0a0f8-1889-4eff-98be-084c95d69f3b">RegOpenKey</a> with <b>KEY_READ_ACCESS</b>. Otherwise, the registry subkeys are created by using <a href="https://msdn.microsoft.com/cb4d30f4-e288-41e8-86e0-807c313db53d">RegCreateKey</a> with <b>KEY_ALL_ACCESS</b>.
+Open the store in read-only mode. Any attempt to change the contents of the store will result in an error. When this flag is set and a registry based store provider is being used, the registry subkeys are opened by using <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeya">RegOpenKey</a> with <b>KEY_READ_ACCESS</b>. Otherwise, the registry subkeys are created by using <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeya">RegCreateKey</a> with <b>KEY_ALL_ACCESS</b>.
 
 </td>
 </tr>
@@ -514,7 +514,7 @@ Open the store in read-only mode. Any attempt to change the contents of the stor
 </td>
 <td width="60%">
 If this flag is supported, the provider sets the store's <b>CERT_STORE_LOCALIZED_NAME_PROP_ID</b> property. The localized name can be retrieved by calling 
-the <a href="https://msdn.microsoft.com/0df4f18b-3b0f-498e-90a5-74d686af83e0">CertGetStoreProperty</a> function with <i>dwPropID</i> set to 
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetstoreproperty">CertGetStoreProperty</a> function with <i>dwPropID</i> set to 
 <b>CERT_STORE_LOCALIZED_NAME_PROP_ID</b>. This flag is supported for providers of types <b>CERT_STORE_PROV_FILENAME</b>, <b>CERT_STORE_PROV_SYSTEM</b>, <b>CERT_STORE_PROV_SYSTEM_REGISTRY</b>, and <b>CERT_STORE_PROV_PHYSICAL_W</b>.
 
 </td>
@@ -599,7 +599,7 @@ The <b>CERT_STORE_PROV_SYSTEM</b>,
 
 
 By default, a system store location is opened relative to the <b>HKEY_CURRENT_USER</b>, <b>HKEY_LOCAL_MACHINE</b>, or <b>HKEY_USERS</b> predefined registry key. For more information, see 
-<a href="https://msdn.microsoft.com/41fe9366-4c17-43bb-91d6-934c7aa87a2d">System Store Locations</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/system-store-locations">System Store Locations</a>.
 
 The following high-word flags override this default behavior.
 
@@ -617,7 +617,7 @@ The following high-word flags override this default behavior.
 </td>
 <td width="60%">
 When set, <i>pvPara</i> must contain a pointer to a 
-<a href="https://msdn.microsoft.com/3bcb9b64-b9cf-48b2-bfd1-0836b3d221af">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure rather than a string. The structure indicates both the name of the store and its location in the registry.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a> structure rather than a string. The structure indicates both the name of the store and its location in the registry.
 
 </td>
 </tr>
@@ -665,8 +665,8 @@ The <b>CERT_STORE_PROV_REG</b> provider saves certificates, CRLs, and CTLs in a 
 This flag is mainly used for stores downloaded from the group policy template (GPT), such as the CurrentUserGroupPolicy and LocalMachineGroupPolicy stores.
 
 When <b>CERT_REGISTRY_STORE_SERIALIZED_FLAG</b> is set, store additions, deletions, or property changes are not persisted until there is a call to either 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> or 
-<a href="https://msdn.microsoft.com/04cd9349-50c1-44b4-b080-631a24a80d70">CertControlStore</a> using <b>CERT_STORE_CTRL_COMMIT</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a> using <b>CERT_STORE_CTRL_COMMIT</b>.
 
 </td>
 </tr>
@@ -690,8 +690,8 @@ The <b>CERT_STORE_PROV_FILE</b> and <b>CERT_STORE_PROV_FILENAME</b> provider typ
 </td>
 <td width="60%">
 Setting this flag commits any additions to the store or any changes made to properties of contexts in the store to the file store either when 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> is called or when 
-<a href="https://msdn.microsoft.com/04cd9349-50c1-44b4-b080-631a24a80d70">CertControlStore</a> is called with <b>CERT_STORE_CONTROL_COMMIT</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> is called or when 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcontrolstore">CertControlStore</a> is called with <b>CERT_STORE_CONTROL_COMMIT</b>.
 
 <b>CertOpenStore</b> fails with <b>E_INVALIDARG</b> if both <b>CERT_FILE_STORE_COMMIT_ENABLE</b> and <b>CERT_STORE_READONLY_FLAG</b> are set in <i>dwFlags</i>.
 
@@ -726,7 +726,7 @@ Performs an A-Record-only DNS lookup on the URL named in the <i>pvPara</i> param
 </dl>
 </td>
 <td width="60%">
-Use this flag to use an existing LDAP session. When this flag is specified, the <i>pvPara</i> parameter is the address of a <a href="https://msdn.microsoft.com/f13b8181-6173-44f8-ab30-4311042cd1b5">CERT_LDAP_STORE_OPENED_PARA</a> structure that contains information about the LDAP session to use.
+Use this flag to use an existing LDAP session. When this flag is specified, the <i>pvPara</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_ldap_store_opened_para">CERT_LDAP_STORE_OPENED_PARA</a> structure that contains information about the LDAP session to use.
 
 </td>
 </tr>
@@ -746,7 +746,7 @@ To provide integrity required by some applications, digitally sign all LDAP traf
 </dl>
 </td>
 <td width="60%">
-Use this flag with the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag to cause the LDAP session to be unbound when the store is closed. The system will unbind the LDAP session by using the <a href="https://msdn.microsoft.com/5d8b3198-3935-4305-b0f1-eaf1a9355cf3">ldap_unbind</a> function when the store is closed.
+Use this flag with the <b>CERT_LDAP_STORE_OPENED_FLAG</b> flag to cause the LDAP session to be unbound when the store is closed. The system will unbind the LDAP session by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> function when the store is closed.
 
 </td>
 </tr>
@@ -763,13 +763,13 @@ A 32-bit value that can contain additional information for this function. The co
 
 
 
-If the function succeeds, the function returns a handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>. When you have finished using the store, release the handle by calling the <a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a> function.
+If the function succeeds, the function returns a handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. When you have finished using the store, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 If the function fails, it returns <b>NULL</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>, <a href="https://msdn.microsoft.com/4ad4580d-c002-44a4-a5f6-757e83ed8732">ReadFile</a>, or registry errors might be propagated and their error codes returned. <b>CertOpenStore</b> has a single error code of its own, the ERROR_FILE_NOT_FOUND code, which indicates that the function was unable to find the provider specified by the <i>lpszStoreProvider</i> parameter.</div>
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>, or registry errors might be propagated and their error codes returned. <b>CertOpenStore</b> has a single error code of its own, the ERROR_FILE_NOT_FOUND code, which indicates that the function was unable to find the provider specified by the <i>lpszStoreProvider</i> parameter.</div>
 <div> </div>
 
 
@@ -781,7 +781,7 @@ If the function fails, it returns <b>NULL</b>. For extended error information, c
 
 
 A system store is a collection that consists of one or more physical sibling stores. For each system store, there are predefined physical sibling stores. After opening a system store such as "My" at CERT_SYSTEM_STORE_CURRENT_USER, <b>CertOpenStore</b> is called to open all of the physical stores in the system store collection. Each of these physical stores is added to the system store collection by using 
-the <a href="https://msdn.microsoft.com/ea848d74-c3ec-4166-90ea-121b33f7f318">CertAddStoreToCollection</a> function. All certificates, CRLs, and CTLs in those physical stores are available through the logical system store collection.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddstoretocollection">CertAddStoreToCollection</a> function. All certificates, CRLs, and CTLs in those physical stores are available through the logical system store collection.
 
 <div class="alert"><b>Note</b>  The order of the certificate context may not be preserved within the store. 
 To access a specific certificate you must iterate across the certificates in the store.</div>
@@ -809,15 +809,15 @@ System store locations are opened remotely by prefixing the store name in the st
 
 
 For more information about system stores, see 
-<a href="https://msdn.microsoft.com/41fe9366-4c17-43bb-91d6-934c7aa87a2d">System Store Locations</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/system-store-locations">System Store Locations</a>.
 
-For more information about the stores that are automatically migrated, see <a href="https://msdn.microsoft.com/fe81d578-f2f6-41f0-9ebf-e7bd5532bed9">Certificate Store Migration</a>.
+For more information about the stores that are automatically migrated, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certificate-store-migration">Certificate Store Migration</a>.
 
 
 #### Examples
 
-The following example shows opening several certificate stores of different store provider types.  The example uses the <b>CreateMyDACL</b> function, defined in the <a href="https://msdn.microsoft.com/f8ec202f-4f34-4123-8f3c-cfc5960b4dc2">Creating a DACL</a> topic, to ensure  the open file is created with a proper DACL. For more examples of opening other store provider types, see 
-<a href="https://msdn.microsoft.com/975a56d1-aa45-470e-b385-753baa1911ff">Example C Code for Opening Certificate Stores</a>.
+The following example shows opening several certificate stores of different store provider types.  The example uses the <b>CreateMyDACL</b> function, defined in the <a href="https://docs.microsoft.com/windows/desktop/SecBP/creating-a-dacl">Creating a DACL</a> topic, to ensure  the open file is created with a proper DACL. For more examples of opening other store provider types, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-code-for-opening-certificate-stores">Example C Code for Opening Certificate Stores</a>.
 
 
 ```cpp
@@ -996,19 +996,19 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/3bcb9b64-b9cf-48b2-bfd1-0836b3d221af">CERT_SYSTEM_STORE_RELOCATE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_system_store_relocate_para">CERT_SYSTEM_STORE_RELOCATE_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/a93fdd65-359e-4046-910d-347c3af01280">CertCloseStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cc818d7-b079-4962-aabc-fc512d4e92ac">CertSaveStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsavestore">CertSaveStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
  
 
  

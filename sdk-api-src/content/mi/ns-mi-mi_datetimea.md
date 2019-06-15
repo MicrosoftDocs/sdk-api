@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents an array of <a href="https://msdn.microsoft.com/2f7d857f-5115-40a2-84d9-a4429d935de1">MI_Datetime</a> types.
+Represents an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_datetime">MI_Datetime</a> types.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Represents an array of <a href="https://msdn.microsoft.com/2f7d857f-5115-40a2-84
 
 ### -field data
 
-An array of <a href="https://msdn.microsoft.com/2f7d857f-5115-40a2-84d9-a4429d935de1">MI_Datetime</a> types.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_datetime">MI_Datetime</a> types.
 
 
 ### -field size

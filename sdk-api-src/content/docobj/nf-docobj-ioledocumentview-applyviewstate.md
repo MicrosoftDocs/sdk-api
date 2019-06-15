@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a view with view state previously saved in call to <a href="https://msdn.microsoft.com/d270b441-d0d5-4dd5-995b-6ca5738747c5">IOleDocumentView::SaveViewState</a>.
+Initializes a view with view state previously saved in call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>.
 
 
 ## -parameters
@@ -115,15 +115,15 @@ Typically, this function is called after an existing view has been created in th
 
 
 
-<a href="https://msdn.microsoft.com/709d7ff4-d32d-405f-8839-b05df49ef751">IOleDocument::CreateView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-createview">IOleDocument::CreateView</a>
 
 
 
-<a href="https://msdn.microsoft.com/07948c08-f047-4ae0-a41b-5410b4bbf4d6">IOleDocumentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
 
 
-<a href="https://msdn.microsoft.com/d270b441-d0d5-4dd5-995b-6ca5738747c5">IOleDocumentView::SaveViewState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>
  
 
  

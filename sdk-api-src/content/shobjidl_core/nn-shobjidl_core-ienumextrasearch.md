@@ -54,7 +54,7 @@ A standard OLE enumerator used by a client to determine the available search obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumExtraSearch</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumExtraSearch</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumExtraSearch</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumExtraSearch</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumExtraSearch</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d766cf9-784b-4e89-ad58-bab6415630fe">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Used to request a duplicate of the enumerator object to preserve its current state.
@@ -78,7 +78,7 @@ Used to request a duplicate of the enumerator object to preserve its current sta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/915f1cd5-5429-4080-8357-753dd1744d93">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-next">Next</a>
 </td>
 <td align="left" width="63%">
 Used to request information on one or more search objects.
@@ -87,7 +87,7 @@ Used to request information on one or more search objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5b74037-1188-4979-8acf-6994ceb15719">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Used to reset the enumeration index to zero.
@@ -96,7 +96,7 @@ Used to reset the enumeration index to zero.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f77983e2-bae4-4350-8950-b4e76fc46365">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumextrasearch-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skip a specified number of objects.
@@ -112,9 +112,9 @@ Skip a specified number of objects.
 
 Implement <b>IEnumExtraSearch</b> if your namespace extension supports one or more search objects.
 
-You do not call this interface directly. An <b>IEnumExtraSearch</b> interface is requested by a client only after it has determined that the <a href="https://msdn.microsoft.com/9b008034-3576-429e-b67c-e2222592ca46">IShellFolder2</a> interface is exposed. Clients retrieve a pointer to this interface by calling <a href="https://msdn.microsoft.com/ed7b0e3c-f679-491b-98a2-542fcf5d2077">IShellFolder2::EnumSearches</a>.
+You do not call this interface directly. An <b>IEnumExtraSearch</b> interface is requested by a client only after it has determined that the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> interface is exposed. Clients retrieve a pointer to this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-enumsearches">IShellFolder2::EnumSearches</a>.
 
-<b>IEnumExtraSearch</b> implements <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> and the standard OLE enumeration methods.
+<b>IEnumExtraSearch</b> implements <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and the standard OLE enumeration methods.
 
 
 

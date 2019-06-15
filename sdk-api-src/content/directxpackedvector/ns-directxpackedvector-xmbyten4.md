@@ -55,9 +55,9 @@ A 3D vector for storing signed, normalized values as signed 8-bits (1 byte) inte
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMBYTEN4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415262(v=VS.85).aspx">XMBYTEN4 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://msdn.microsoft.com/en-us/library/Bb172533(v=VS.85).aspx">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb172558(v=VS.85).aspx">D3DFORMAT</a>,and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> objects.
+	using <code>XMBYTEN4</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmbyten4-extensions">XMBYTEN4 Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type
+	Equivalences</a> for information about equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>,and <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -122,13 +122,13 @@ Those <code>XMBYTEN4</code> constructors using floating point arguments require 
 
 	
 
-<code>XMBYTEN4</code> can be used to load instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> from
+<code>XMBYTEN4</code> can be used to load instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> from
 	    normalized values, by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadbyten4">XMLoadByteN4</a>, which divides each
 	    component 127.0f, rounds the result, and then assigns the components to an
 	    <code>XMVECTOR</code> instance.
 	
 
-<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMBYTEN4</code>using <a href="https://msdn.microsoft.com/en-us/library/Ee420225(v=VS.85).aspx">XMStoreByteN4</a>, which multiplies each component by 127.0f,
+<code>XMVECTOR</code> instances containing normalized values can be stored into <code>XMBYTEN4</code>using <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorebyten4">XMStoreByteN4</a>, which multiplies each component by 127.0f,
 	    rounding the result, before assigning the values to the appropriate <code>XMBYTEN4</code> members.
 	
 
@@ -145,11 +145,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415262(v=VS.85).aspx">XMBYTEN4 Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmbyten4-extensions">XMBYTEN4 Extensions</a>
  
 
  

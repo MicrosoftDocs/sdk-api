@@ -72,7 +72,7 @@ The adjusted touch point that hits the closest object that's identified by the v
 
 
 
-The <a href="https://msdn.microsoft.com/269ef4c1-9c9f-4bd7-9852-e82c4a707d3c">EvaluateProximityToRect</a> or <a href="https://msdn.microsoft.com/443d12f2-9f26-4e1e-9bf3-cd97b4026399">EvaluateProximityToPolygon</a> function returns the values.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytorect">EvaluateProximityToRect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytopolygon">EvaluateProximityToPolygon</a> function returns the values.
 
 
 
@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/269ef4c1-9c9f-4bd7-9852-e82c4a707d3c">Ev
 
 
 
-<a href="https://msdn.microsoft.com/75528CC6-0637-4CAB-9187-AEC4291C119D">Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/structures">Structures</a>
  
 
  

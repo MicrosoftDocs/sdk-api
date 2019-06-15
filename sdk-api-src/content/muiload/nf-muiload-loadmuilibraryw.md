@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Returns a handle to the language-specific resources associated with a particular language-neutral (LN) file.
-<div class="alert"><b>Note</b>  To ensure that the DLL is unloaded correctly, your applications should match each call to <b>LoadMUILibrary</b> with a corresponding call to <a href="https://msdn.microsoft.com/38a0d7cb-46a9-449b-8f7e-4c573e400e75">FreeMUILibrary</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  To ensure that the DLL is unloaded correctly, your applications should match each call to <b>LoadMUILibrary</b> with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary">FreeMUILibrary</a>.</div><div> </div>
 
 ## -parameters
 
@@ -79,7 +79,7 @@ Flags specifying the naming convention on pre-Windows Vista operating systems t
 </dl>
 </td>
 <td width="60%">
-Interpret the name of the folder containing the language-specific resource files using <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a> format.
+Interpret the name of the folder containing the language-specific resource files using <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Interpret the name of the folder containing the language-specific resource files
 </dl>
 </td>
 <td width="60%">
-Interpret the name of the folder containing the language-specific resource files using <a href="https://msdn.microsoft.com/e8c54168-22b3-435e-b19a-9b34adcdb018">language name</a> format.
+Interpret the name of the folder containing the language-specific resource files using <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -125,19 +125,19 @@ Language identifier for the user interface resources on a pre-Windows Vista ope
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/57de328c-3afc-4fbb-882c-fa35d3552c13">LOCALE_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9ccb489b-24d0-42e5-a01a-2cdb7c3267eb">LOCALE_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 
@@ -147,7 +147,7 @@ Language identifier for the user interface resources on a pre-Windows Vista ope
 
 Returns a handle to the appropriate language-specific resource file if successful.
 
-This function returns <b>NULL</b> if it fails. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+This function returns <b>NULL</b> if it fails. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -156,7 +156,7 @@ This function returns <b>NULL</b> if it fails. To get extended error information
 
 
 
-This function allows applications developed using the Win32 MUI resource technology to determine correctly the language-specific resource file to load on pre-Windows Vista operating systems. Applications using this function do not specifically have to be built on Windows Vista, but they do have to link statically with the MUILoad library provided in the Microsoft Windows SDK for Windows Vista. This function requires the executable and language-specific resource files to be stored using standard conventions. See <a href="https://msdn.microsoft.com/6c10b355-9bdd-4dba-8446-91034d4fe9b8">Application Deployment</a> for further information about file placement.
+This function allows applications developed using the Win32 MUI resource technology to determine correctly the language-specific resource file to load on pre-Windows Vista operating systems. Applications using this function do not specifically have to be built on Windows Vista, but they do have to link statically with the MUILoad library provided in the Microsoft Windows SDK for Windows Vista. This function requires the executable and language-specific resource files to be stored using standard conventions. See <a href="https://docs.microsoft.com/windows/desktop/Intl/application-deployment">Application Deployment</a> for further information about file placement.
 
 The following items influence the loading of satellite binaries by this function.
 
@@ -171,9 +171,9 @@ The application uses the <i>dwLangConvention</i> parameter to specify the way th
 
 as "0409" and en as "0009".) If the application sets the parameter to MUI_LANGUAGE_NAME, the function uses Windows Vista resource loading, which uses language name-based folder probes to find a satellite file.
 
-The state of the language identifier in the <i>LangID</i> parameter affects resource probing. If the application sets this parameter to 0, the function uses the predefined fallback logic, dependent on the operating system, to locate the appropriate language-specific resource file. When the application sets <i>LangID</i> to a nonzero value, the probing mechanism only searches the appropriately named folder and its associated neutral equivalent. For more information, see <a href="https://msdn.microsoft.com/ae8ab98f-dc3b-414d-85c9-6bf204c2f776">User Interface Language Management</a>.
+The state of the language identifier in the <i>LangID</i> parameter affects resource probing. If the application sets this parameter to 0, the function uses the predefined fallback logic, dependent on the operating system, to locate the appropriate language-specific resource file. When the application sets <i>LangID</i> to a nonzero value, the probing mechanism only searches the appropriately named folder and its associated neutral equivalent. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
-<b>LoadMUILibrary</b> is built on the function <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a>, and similar considerations need to be applied to its usage. In particular, <a href="https://msdn.microsoft.com/38a0d7cb-46a9-449b-8f7e-4c573e400e75">FreeMUILibrary</a> should be called for any handle returned by <b>LoadMUILibrary</b>. Also, <b>LoadMUILibrary</b> should not be called from <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a>. For more information see the Remarks sections of <a href="https://msdn.microsoft.com/4fc699ca-6ffb-4954-9b72-1b827d558563">LoadLibraryEx</a> and <a href="https://msdn.microsoft.com/823d3147-4ba8-4fe5-ade4-e5604f47eb0a">FreeLibrary</a>.
+<b>LoadMUILibrary</b> is built on the function <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>, and similar considerations need to be applied to its usage. In particular, <a href="https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary">FreeMUILibrary</a> should be called for any handle returned by <b>LoadMUILibrary</b>. Also, <b>LoadMUILibrary</b> should not be called from <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a>. For more information see the Remarks sections of <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-freelibrary">FreeLibrary</a>.
 
 
 
@@ -183,15 +183,15 @@ The state of the language identifier in the <i>LangID</i> parameter affects reso
 
 
 
-<a href="https://msdn.microsoft.com/38a0d7cb-46a9-449b-8f7e-4c573e400e75">FreeMUILibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/muiload/nf-muiload-freemuilibrary">FreeMUILibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/918d1f04-78fe-4b60-bee7-08d2f131437e">Multilingual User Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
  
 
  

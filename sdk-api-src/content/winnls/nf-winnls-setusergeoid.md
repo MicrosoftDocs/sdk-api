@@ -55,11 +55,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SetUserGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/0E5934DE-F526-45B4-9DAF-C8941F00C162">SetUserGeoName</a>.
+<p class="CCE_Message">[<b>SetUserGeoID</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoname">SetUserGeoName</a>.
 
 ]
 
-Sets the geographical location identifier for the user. This identifier should have one of the values described in <a href="https://msdn.microsoft.com/6e424bd4-389c-4f51-9898-f60a8a818f89">Table of Geographical Locations</a>.
+Sets the geographical location identifier for the user. This identifier should have one of the values described in <a href="https://docs.microsoft.com/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>.
 
 
 ## -parameters
@@ -78,9 +78,9 @@ Identifier for the geographical location of the user.
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
-<b>Windows XP, Windows Server 2003</b>: This function does not supply extended error information. Thus it is not appropriate for an application to call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> after this function. If the application does call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, it can return a value set by some previously called function.
+<b>Windows XP, Windows Server 2003</b>: This function does not supply extended error information. Thus it is not appropriate for an application to call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> after this function. If the application does call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, it can return a value set by some previously called function.
 
-If this function does not succeed, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+If this function does not succeed, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_ACCESS_DISABLED_BY_POLICY. The group policy of the computer or the user has forbidden this operation.</li>
@@ -106,23 +106,23 @@ This function writes to the registry the geographical location for a particular 
 
 
 
-<a href="https://msdn.microsoft.com/9d4d196d-4000-4866-a4c7-e7b9cb669c6f">GetUserGeoID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getusergeoid">GetUserGeoID</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0E5934DE-F526-45B4-9DAF-C8941F00C162">SetUserGeoName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setusergeoname">SetUserGeoName</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e424bd4-389c-4f51-9898-f60a8a818f89">Table of Geographical Locations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/table-of-geographical-locations">Table of Geographical Locations</a>
  
 
  

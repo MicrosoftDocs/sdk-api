@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-The <b>LibraryID</b> attribute retrieved by this method is the same as the <b>LibraryID</b> attribute that <a href="https://msdn.microsoft.com/en-us/library/Dd563431(v=VS.85).aspx">IWMPMedia::getItemInfo</a> retrieves for each media item in the library.
+The <b>LibraryID</b> attribute retrieved by this method is the same as the <b>LibraryID</b> attribute that <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo">IWMPMedia::getItemInfo</a> retrieves for each media item in the library.
 
 
 
@@ -109,7 +109,7 @@ The <b>LibraryID</b> attribute retrieved by this method is the same as the <b>Li
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798602(v=VS.85).aspx">IWMPLibrary2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibrary2">IWMPLibrary2</a>
  
 
  

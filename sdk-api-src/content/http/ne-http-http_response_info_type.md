@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HTTP_RESPONSE_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://msdn.microsoft.com/29422116-0a33-4553-98aa-785bb926dee0">HTTP_RESPONSE_INFO</a> structure.
+The <b>HTTP_RESPONSE_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structure.
 
-This enumeration is used  in the <a href="https://msdn.microsoft.com/29422116-0a33-4553-98aa-785bb926dee0">HTTP_RESPONSE_INFO</a> structure.
+This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structure.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ This enumeration is used  in the <a href="https://msdn.microsoft.com/29422116-0a
 
 The response information type is authentication.
 
-The <b>pInfo</b> member of the <a href="https://msdn.microsoft.com/29422116-0a33-4553-98aa-785bb926dee0">HTTP_RESPONSE_INFO</a> structure points to a <a href="https://msdn.microsoft.com/b5e68d55-43a4-422f-b7e3-163739628720">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure.
+The <b>pInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_multiple_known_headers">HTTP_MULTIPLE_KNOWN_HEADERS</a> structure.
 
 
 ### -field HttpResponseInfoTypeAuthenticationProperty
@@ -76,12 +76,12 @@ Reserved for future use.
 
 ### -field HttpResponseInfoTypeChannelBind
 
-Pointer to an <a href="https://msdn.microsoft.com/60428e66-9c08-418b-99e1-6824c638f2be">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a> structure that contains information on the channel binding token.
 
 
 #### - HttpResponseInfoTypeQosProperty
 
-Pointer to an <a href="https://msdn.microsoft.com/6c220063-02d0-44c0-b3a3-e7bfd5c57e1f">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure that contains information about a QOS setting.
 
 
 ## -see-also
@@ -89,11 +89,11 @@ Pointer to an <a href="https://msdn.microsoft.com/6c220063-02d0-44c0-b3a3-e7bfd5
 
 
 
-<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/29422116-0a33-4553-98aa-785bb926dee0">HTTP_RESPONSE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a>
  
 
  

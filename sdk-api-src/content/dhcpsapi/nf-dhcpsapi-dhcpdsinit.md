@@ -63,7 +63,7 @@ The <b>DhcpDsInit</b> function initializes memory within the directory service f
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -82,7 +82,7 @@ This function is called once per process.
 
 
 
-<a href="https://msdn.microsoft.com/7d722ca5-a779-4481-b2c7-6d9d7bb5fcfe">DhcpDsCleanup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdscleanup">DhcpDsCleanup</a>
  
 
  

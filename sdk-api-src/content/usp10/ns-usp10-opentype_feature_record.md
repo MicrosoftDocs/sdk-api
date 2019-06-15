@@ -63,7 +63,7 @@ Contains information about a single OpenType feature to apply to a run.
 ### -field tagFeature
 
 
-<a href="https://msdn.microsoft.com/188ad9a1-e0eb-411f-b6df-8c394d122d6f">OPENTYPE_TAG</a> structure containing a registered or private OpenType feature tag. For information on feature tags, see <a href="http://www.microsoft.com/typography/otspec/featuretags.htm">http://www.microsoft.com/typography/otspec/featuretags.htm</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure containing a registered or private OpenType feature tag. For information on feature tags, see <a href="http://www.microsoft.com/typography/otspec/featuretags.htm">http://www.microsoft.com/typography/otspec/featuretags.htm</a>.
 
 
 ### -field lParameter
@@ -96,19 +96,19 @@ Value indicating how to apply the feature tag. Possible values are defined in th
 
 
 
-<a href="https://msdn.microsoft.com/188ad9a1-e0eb-411f-b6df-8c394d122d6f">OPENTYPE_TAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/f43a0873-f499-4d66-9fce-57f332c1dc77">TEXTRANGE_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-textrange_properties">TEXTRANGE_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/243438fd-5bb2-4b2a-8b33-803029085adb">Uniscribe Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
  
 
  

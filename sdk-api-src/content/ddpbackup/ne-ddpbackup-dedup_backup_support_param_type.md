@@ -72,7 +72,7 @@ Reserved for future use. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/library/Hh449224(v=VS.85).aspx">IDedupBackupSupport::RestoreFiles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a>
  
 
  

@@ -129,7 +129,7 @@ This value is returned when the user clicks the <b>Cancel</b> button on the disk
 
 
 
-This method is typically called by the handler's <a href="https://msdn.microsoft.com/c8ec2f70-f327-49d4-babb-a9640f105003">GetSpaceUsed</a> method while the handler is scanning for deletable files. 
+This method is typically called by the handler's <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">GetSpaceUsed</a> method while the handler is scanning for deletable files. 
 
 
 

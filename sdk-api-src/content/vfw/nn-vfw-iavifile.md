@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 
 
-The <b>IAVIFile</b> interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses <a href="https://msdn.microsoft.com/6db0af58-51ee-499a-81c4-4bce8aae0f06">IUnknown::QueryInterface</a>, <a href="https://msdn.microsoft.com/14ffd2ab-ac0c-4de7-adb8-4fe800c9bda9">IUnknown::AddRef</a>, and <a href="https://msdn.microsoft.com/61d760e3-72bf-462e-bfd5-5578b53860ba">IUnknown::Release</a> in addition to the following custom methods:
+The <b>IAVIFile</b> interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses <a href="https://docs.microsoft.com/previous-versions//dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions//dd757100(v=vs.85)">IUnknown::AddRef</a>, and <a href="https://docs.microsoft.com/previous-versions//dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIFile</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAVIFile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAVIFile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAVIFile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAVIFile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c922bb0-53ca-4285-861a-4701503b0445">CreateStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavifile-createstream">CreateStream</a>
 </td>
 <td align="left" width="63%">
 Creates a stream for writing.
@@ -83,7 +83,7 @@ Creates a stream for writing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43c4edbf-d736-4d85-9726-123f92145134">EndRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavifile-endrecord">EndRecord</a>
 </td>
 <td align="left" width="63%">
 Writes the "REC" chunk in a tightly interleaved AVI file.
@@ -92,7 +92,7 @@ Writes the "REC" chunk in a tightly interleaved AVI file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66ab2d8f-39f5-4eec-a873-c6f554e3b8ff">GetStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavifile-getstream">GetStream</a>
 </td>
 <td align="left" width="63%">
 Opens a stream by accessing it in a file.
@@ -101,16 +101,16 @@ Opens a stream by accessing it in a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cac01da4-b979-4386-8fc7-f47a7771e6f4">Info</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavifile-info">Info</a>
 </td>
 <td align="left" width="63%">
-Fills and returns an <a href="https://msdn.microsoft.com/10d7decf-a133-4d55-93d5-867952307819">AVIFileInfo</a> structure with information about a file.
+Fills and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifileinfo">AVIFileInfo</a> structure with information about a file.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52071d08-1e95-4b4b-b85c-3fcca2c666aa">ReadData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavifile-readdata">ReadData</a>
 </td>
 <td align="left" width="63%">
 Reads file headers data, format data, or nonaudio and nonvideo data.
@@ -119,7 +119,7 @@ Reads file headers data, format data, or nonaudio and nonvideo data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b693a98-a91a-4fba-99da-e3bac71c1b22">WriteData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iavifile-writedata">WriteData</a>
 </td>
 <td align="left" width="63%">
 Writes file headers data, format data, or nonaudio and nonvideo data.
@@ -134,11 +134,11 @@ Writes file headers data, format data, or nonaudio and nonvideo data.
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

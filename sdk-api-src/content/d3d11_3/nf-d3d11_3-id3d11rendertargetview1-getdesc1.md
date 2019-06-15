@@ -60,9 +60,9 @@ Gets the properties of a render-target view.
 
 ### -param pDesc1 [out]
 
-Type: <b><a href="https://msdn.microsoft.com/D87F06B4-7574-4BBD-A481-653CA35B8FB2">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_render_target_view_desc1">D3D11_RENDER_TARGET_VIEW_DESC1</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/D87F06B4-7574-4BBD-A481-653CA35B8FB2">D3D11_RENDER_TARGET_VIEW_DESC1</a> structure that receives the description of the render-target view.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_render_target_view_desc1">D3D11_RENDER_TARGET_VIEW_DESC1</a> structure that receives the description of the render-target view.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/6063229D-A85A-46E8-9034-D1C2C26A5274">ID3D11RenderTargetView1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11rendertargetview1">ID3D11RenderTargetView1</a>
  
 
  

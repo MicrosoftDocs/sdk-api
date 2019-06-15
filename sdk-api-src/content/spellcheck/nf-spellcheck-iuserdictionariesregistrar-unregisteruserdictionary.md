@@ -64,7 +64,7 @@ The path of the dictionary file to be unregistered.
 
 ### -param languageTag [in]
 
-The language for which this dictionary was used. It must match the language passed to <a href="https://msdn.microsoft.com/5dd64e20-af2d-4d84-9e66-01ac19f34212">RegisterUserDictionary</a>.
+The language for which this dictionary was used. It must match the language passed to <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-iuserdictionariesregistrar-registeruserdictionary">RegisterUserDictionary</a>.
 
 
 ## -returns
@@ -120,7 +120,7 @@ Successful.
 
 
 
-<a href="https://msdn.microsoft.com/eca9446a-268e-4318-a5e7-8bb8592c9660">IUserDictionariesRegistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>
  
 
  

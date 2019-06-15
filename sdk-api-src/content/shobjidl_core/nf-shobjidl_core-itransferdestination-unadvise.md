@@ -61,7 +61,7 @@ Terminates an advisory connection.
 
 Type: <b>DWORD</b>
 
-A connection token previously returned from <a href="https://msdn.microsoft.com/e25040dd-bb51-45cc-99fb-9113e26d0baa">ITransferDestination::Advise</a>. Identifies the connection to be terminated.
+A connection token previously returned from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a>. Identifies the connection to be terminated.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The value in <i>dwCookie</i> does not represent a valid connection.
 
 
 
-Terminates an advisory connection previously established through the <a href="https://msdn.microsoft.com/e25040dd-bb51-45cc-99fb-9113e26d0baa">ITransferDestination::Advise</a> method.
+Terminates an advisory connection previously established through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a> method.
 
 
 

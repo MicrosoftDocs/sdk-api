@@ -89,13 +89,13 @@ If true, the contact is watched by the peer; if false, it is not.
 ### -field WatcherPermissions
 
 
-<a href="https://msdn.microsoft.com/e3f4a1e6-6ac8-48f8-8480-0cf60c9b4ce9">PEER_WATCH_PERMISSION</a> enumeration value that specifies the watch permissions for this contact.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_watch_permission_tag">PEER_WATCH_PERMISSION</a> enumeration value that specifies the watch permissions for this contact.
 
 
 ### -field credentials
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a> structure that contains the security credentials for the contact in an opaque byte buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a> structure that contains the security credentials for the contact in an opaque byte buffer.
 
 
 ## -remarks
@@ -112,11 +112,11 @@ If true, the contact is watched by the peer; if false, it is not.
 
 
 
-<a href="https://msdn.microsoft.com/e3f4a1e6-6ac8-48f8-8480-0cf60c9b4ce9">PEER_WATCH_PERMISSION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_watch_permission_tag">PEER_WATCH_PERMISSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

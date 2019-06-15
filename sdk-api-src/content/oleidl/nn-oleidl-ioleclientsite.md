@@ -54,7 +54,7 @@ Provides the primary means by which an embedded object obtains information about
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleClientSite</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleClientSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOleClientSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOleClientSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8f0caf07-f059-4e0c-9c28-c7ad0cc149e3">GetContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getcontainer">GetContainer</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the object's container.
@@ -78,7 +78,7 @@ Retrieves a pointer to the object's container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ca3e997-9a96-43c3-a213-de8c8440cd54">GetMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-getmoniker">GetMoniker</a>
 </td>
 <td align="left" width="63%">
 Retrieves a moniker for the object's client site.
@@ -87,7 +87,7 @@ Retrieves a moniker for the object's client site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9185add8-02d1-4bf3-99ff-82f64ba12ef4">OnShowWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-onshowwindow">OnShowWindow</a>
 </td>
 <td align="left" width="63%">
 Notifies a container when an embedded object's window is about to become visible or invisible.
@@ -96,7 +96,7 @@ Notifies a container when an embedded object's window is about to become visible
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68867ddd-fad0-4eef-8e5c-8198366e8e64">RequestNewObjectLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-requestnewobjectlayout">RequestNewObjectLayout</a>
 </td>
 <td align="left" width="63%">
 Asks a container to resize the display site for embedded objects.
@@ -105,7 +105,7 @@ Asks a container to resize the display site for embedded objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef1a0085-f4fa-4d77-adab-0386f354dfe7">SaveObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-saveobject">SaveObject</a>
 </td>
 <td align="left" width="63%">
 Saves the embedded object associated with the client site.
@@ -114,7 +114,7 @@ Saves the embedded object associated with the client site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba502a3d-2042-4978-a152-636a887c61fc">ShowObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleclientsite-showobject">ShowObject</a>
 </td>
 <td align="left" width="63%">
 Asks a container to display its object to the user.
@@ -129,19 +129,19 @@ Asks a container to display its object to the user.
 
 
 
-<a href="https://msdn.microsoft.com/8b022f2c-d4b4-44ca-8e69-46e9aa20b3f9">IOleControlSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac435c9-caee-4751-9ad8-df48b6d4c7e0">IOleDocumentSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentsite">IOleDocumentSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d37e022-8c19-48b3-affb-e0eca19b5e05">IOleInPlaceSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf26b989-445c-48d3-b279-29e4cef0ad97">IOleObject::GetClientSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclientsite">IOleObject::GetClientSite</a>
  
 
  

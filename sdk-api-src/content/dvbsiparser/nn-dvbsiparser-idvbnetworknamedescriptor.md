@@ -54,7 +54,7 @@ Implements methods that get data from a Digital Video Broadcast (DVB) network na
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbNetworkNameDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b> IDvbNetworkNameDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbNetworkNameDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b> IDvbNetworkNameDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbNetworkNameDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22841428-c223-4385-97c3-bd1819468866">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbnetworknamedescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a DVB network name descriptor.
@@ -78,7 +78,7 @@ Gets the body length of a DVB network name descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/261a6c65-65a5-43ed-aaed-12968b996c5a">GetNetworkName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbnetworknamedescriptor-getnetworkname">GetNetworkName</a>
 </td>
 <td align="left" width="63%">
 Gets the network name in ASCII text format from a DVB network name descriptor.
@@ -87,7 +87,7 @@ Gets the network name in ASCII text format from a DVB network name descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c7e1507-2b55-468d-b83d-643a45118429">GetNetworkNameW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbnetworknamedescriptor-getnetworknamew">GetNetworkNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the network name in Unicode text format from a DVB network name descriptor.
@@ -96,7 +96,7 @@ Gets the network name in Unicode text format from a DVB network name descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9bc0ffea-ef18-488e-adeb-a5fd19b343a6">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbnetworknamedescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a DVB network name descriptor.

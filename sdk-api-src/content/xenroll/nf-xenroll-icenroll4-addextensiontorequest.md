@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addExtensionToRequest</b> method adds an extension to the request. This method was first defined in the <a href="https://msdn.microsoft.com/4e3e3792-aa41-46fe-bf75-26c2b8959f7a">ICEnroll4</a> interface.
+The <b>addExtensionToRequest</b> method adds an extension to the request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Note that <b>TRUE</b> is defined (in a Microsoft header file) for C/C++ programm
 
 ### -param strName [in]
 
-The <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that represents the extension name.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that represents the extension name.
 
 
 ### -param strValue [in]

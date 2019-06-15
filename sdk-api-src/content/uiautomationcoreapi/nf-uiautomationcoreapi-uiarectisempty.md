@@ -59,9 +59,9 @@ ms.custom: 19H1
 
 ### -param rc [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/99cf7e3e-6b36-41ca-ac27-a7b332e7c91e">UiaRect</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a></b>
 
-A reference to a <a href="https://msdn.microsoft.com/99cf7e3e-6b36-41ca-ac27-a7b332e7c91e">UiaRect</a> structure that contains the coordinates of the rectangle.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure that contains the coordinates of the rectangle.
 
 
 ## -returns

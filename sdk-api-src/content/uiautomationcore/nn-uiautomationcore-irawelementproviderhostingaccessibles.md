@@ -54,7 +54,7 @@ This interface is implemented by a Microsoft UI Automation provider when the pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderHostingAccessibles</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRawElementProviderHostingAccessibles</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderHostingAccessibles</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderHostingAccessibles</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IRawElementProviderHostingAccessibles</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E428B87C-25FE-437B-AAE8-7E3BC79BBE6B">GetEmbeddedAccessibles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderhostingaccessibles-getembeddedaccessibles">GetEmbeddedAccessibles</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface pointers of the windowless ActiveX controls that are hosted by this provider.   
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointers of the windowless ActiveX controls that are hosted by this provider.   
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Retrieves the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43
 
 
 
-<a href="https://msdn.microsoft.com/8D974311-25CB-4D49-B907-2984D0DA58D7">IAccessibleHostingElementProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a>
  
 
  

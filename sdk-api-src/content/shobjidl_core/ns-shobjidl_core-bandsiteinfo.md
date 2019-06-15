@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a band site. This structure is used with the <a href="https://msdn.microsoft.com/5831de51-f785-430e-b7e6-f1f40a83357b">IBandSite::GetBandSiteInfo</a> and <a href="https://msdn.microsoft.com/2658a49d-d60f-483b-bbe1-e1390e9dc35e">IBandSite::SetBandSiteInfo</a> methods.
+Contains information about a band site. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo">IBandSite::GetBandSiteInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo">IBandSite::SetBandSiteInfo</a> methods.
 
 
 ## -struct-fields
@@ -147,7 +147,7 @@ Disables the band-specific context menu (typically "Close Toolbar").
 
 #### BSIS_NODROPTARGET
 
-Prevents wrapping of the <a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a> interface provided by the band.
+Prevents wrapping of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface provided by the band.
 
 
 

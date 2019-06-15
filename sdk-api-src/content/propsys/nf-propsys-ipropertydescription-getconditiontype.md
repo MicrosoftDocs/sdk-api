@@ -59,14 +59,14 @@ Gets the condition type and default condition operation to use when displaying t
 
 ### -param pcontype [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762523(v=VS.85).aspx">PROPDESC_CONDITION_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_condition_type">PROPDESC_CONDITION_TYPE</a>*</b>
 
 A pointer to a value that indicates the condition type.
 
 
 ### -param popDefault [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/ne-structuredquerycondition-tagcondition_operation">CONDITION_OPERATION</a>*</b>
 
 When this method returns, contains a pointer to a value that indicates the default condition operation.
 
@@ -86,7 +86,7 @@ Always returns <b>S_OK</b>.
 
 
 
-For more information, see the <i>conditionType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
+For more information, see the <i>conditionType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -96,11 +96,11 @@ For more information, see the <i>conditionType</i> attribute of the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">Property Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
  
 
  

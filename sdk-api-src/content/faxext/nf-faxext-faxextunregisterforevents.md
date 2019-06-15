@@ -66,7 +66,7 @@ Specifies a <b>HANDLE</b> that indicates the registration handle from which the 
 
 
 
-The handle must be the return value from a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a> function.
+The handle must be the return value from a previous call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a> function.
 
 
 ## -returns
@@ -182,11 +182,11 @@ The server cannot process a request for notifications while it is sending a noti
 
 
 
-When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function.
+When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function.
 
-The fax extension can call the <b>FaxExtUnregisterForEvents</b> function to stop receiving notifications about device configuration data changes. An extension registers for notifications by calling the fax service's callback function <a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a>.
+The fax extension can call the <b>FaxExtUnregisterForEvents</b> function to stop receiving notifications about device configuration data changes. An extension registers for notifications by calling the fax service's callback function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>.
 
-The fax service passes a pointer to the <b>FaxExtUnregisterForEvents</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function. The PFAX_EXT_UNREGISTER_FOR_EVENTS data type is a pointer to a <b>FaxExtUnregisterForEvents</b> function.
+The fax service passes a pointer to the <b>FaxExtUnregisterForEvents</b> callback function when the fax service calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function. The PFAX_EXT_UNREGISTER_FOR_EVENTS data type is a pointer to a <b>FaxExtUnregisterForEvents</b> function.
 
 
 
@@ -196,11 +196,11 @@ The fax service passes a pointer to the <b>FaxExtUnregisterForEvents</b> callbac
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684532(v=VS.85).aspx">FaxExtRegisterForEvents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextregisterforevents">FaxExtRegisterForEvents</a>
  
 
  

@@ -74,7 +74,7 @@ The XPS data format to write to outputStream. The value of this parameter cannot
 
 The method returns an <b>HRESULT</b>.
 
-For information about  XPS document API return values, see <a href="https://msdn.microsoft.com/9e6db1e3-7151-4538-8607-b7185ebc0110">XPS Document Errors</a>.
+For information about  XPS document API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 
 
@@ -84,11 +84,11 @@ For information about  XPS document API return values, see <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/4B8DEDC7-4D7A-408F-9B2B-67B6FC87372F">IXpsOMRemoteDictionaryResource1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomremotedictionaryresource1">IXpsOMRemoteDictionaryResource1</a>
  
 
  

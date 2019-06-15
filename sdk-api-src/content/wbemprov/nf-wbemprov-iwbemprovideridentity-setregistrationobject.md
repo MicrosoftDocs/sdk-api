@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>IWbemProviderIdentity::SetRegistrationObject</b> method is called by the Windows Management service prior to initializing an event provider (if the provider implements 
-<a href="https://msdn.microsoft.com/872daa72-c6ff-4c6d-a870-c32e3688eb13">IWbemProviderIdentity</a>). The method is used to pass to the provider the 
-<a href="https://msdn.microsoft.com/41e0d938-00c6-4f4c-8027-8b8512398dee">__Win32Provider</a> instance by which the provider is being initialized. This method is only used if you have more than one provider sharing the same <b>CLSID</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemprovideridentity">IWbemProviderIdentity</a>). The method is used to pass to the provider the 
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider">__Win32Provider</a> instance by which the provider is being initialized. This method is only used if you have more than one provider sharing the same <b>CLSID</b>.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Reserved. This parameter must be 0 (zero).
 ### -param pProvReg [in]
 
 Instance of 
-<a href="https://msdn.microsoft.com/41e0d938-00c6-4f4c-8027-8b8512398dee">__Win32Provider</a> that announces the provider's name and <b>CLSID</b>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--win32provider">__Win32Provider</a> that announces the provider's name and <b>CLSID</b>.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Any <b>HRESULT</b> return code other than <b>WBEM_S_NO_ERROR</b> indicates a pro
 
 
 
-<a href="https://msdn.microsoft.com/872daa72-c6ff-4c6d-a870-c32e3688eb13">IWbemProviderIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemprovideridentity">IWbemProviderIdentity</a>
  
 
  

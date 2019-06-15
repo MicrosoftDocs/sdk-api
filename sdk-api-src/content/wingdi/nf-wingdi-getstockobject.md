@@ -96,7 +96,7 @@ Dark gray brush.
 </dl>
 </td>
 <td width="60%">
-Solid color brush. The default color is white. The color can be changed by using the <a href="https://msdn.microsoft.com/4feed536-2f1d-4a25-8311-7cae303167ca">SetDCBrushColor</a> function. For more information, see the Remarks section.
+Solid color brush. The default color is white. The color can be changed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCBrushColor</a> function. For more information, see the Remarks section.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ Black pen.
 </dl>
 </td>
 <td width="60%">
-Solid pen color. The default color is white. The color can be changed by using the <a href="https://msdn.microsoft.com/057608eb-7209-4714-bf02-660a13d59016">SetDCPenColor</a> function. For more information, see the Remarks section.
+Solid pen color. The default color is white. The color can be changed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> function. For more information, see the Remarks section.
 
 </td>
 </tr>
@@ -293,20 +293,20 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-It is not recommended that you employ this method to obtain the current font used by dialogs and windows. Instead, use the <a href="http://msdn.microsoft.com/en-us/library/ms724947.aspx">SystemParametersInfo</a> function with the SPI_GETNONCLIENTMETRICS parameter to retrieve the current font. <a href="http://msdn.microsoft.com/en-us/library/ms724947.aspx">SystemParametersInfo</a> will take into account the current theme and provides font information for captions, menus, and message dialogs. 
+It is not recommended that you employ this method to obtain the current font used by dialogs and windows. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the SPI_GETNONCLIENTMETRICS parameter to retrieve the current font. <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> will take into account the current theme and provides font information for captions, menus, and message dialogs. 
 
 Use the DKGRAY_BRUSH, GRAY_BRUSH, and LTGRAY_BRUSH stock objects only in windows with the CS_HREDRAW and CS_VREDRAW styles. Using a gray stock brush in any other style of window can lead to misalignment of brush patterns after a window is moved or sized. The origins of stock brushes cannot be adjusted.
 
 The HOLLOW_BRUSH and NULL_BRUSH stock objects are equivalent.
 
-It is not necessary (but it is not harmful) to delete stock objects by calling <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>.
+It is not necessary (but it is not harmful) to delete stock objects by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.
 
-Both DC_BRUSH and DC_PEN can be used interchangeably with other stock objects like BLACK_BRUSH and BLACK_PEN. For information on retrieving the current pen or brush color, see <a href="https://msdn.microsoft.com/98844fb1-7ad8-4fbd-be59-9a19065253da">GetDCBrushColor</a> and <a href="https://msdn.microsoft.com/3a1d579f-fbc6-4021-a37e-0184b2cc7d5d">GetDCPenColor</a>. See <a href="https://msdn.microsoft.com/d1be1db8-e6b6-4d60-8a4a-ce218f8d52fc">Setting the Pen or Brush Color</a> for an example of setting colors. The <b>GetStockObject</b> function with an argument of DC_BRUSH or DC_PEN can be used interchangeably with the <a href="https://msdn.microsoft.com/057608eb-7209-4714-bf02-660a13d59016">SetDCPenColor</a> and <a href="https://msdn.microsoft.com/4feed536-2f1d-4a25-8311-7cae303167ca">SetDCBrushColor</a> functions.
+Both DC_BRUSH and DC_PEN can be used interchangeably with other stock objects like BLACK_BRUSH and BLACK_PEN. For information on retrieving the current pen or brush color, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdcbrushcolor">GetDCBrushColor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdcpencolor">GetDCPenColor</a>. See <a href="https://docs.microsoft.com/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a> for an example of setting colors. The <b>GetStockObject</b> function with an argument of DC_BRUSH or DC_PEN can be used interchangeably with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCBrushColor</a> functions.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/d1be1db8-e6b6-4d60-8a4a-ce218f8d52fc">Setting the Pen or Brush Color</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a>.
 
 <div class="code"></div>
 
@@ -317,19 +317,19 @@ For an example, see <a href="https://msdn.microsoft.com/d1be1db8-e6b6-4d60-8a4a-
 
 
 
-<a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ff68d16-0f27-4cc8-932a-b2063cfed135">Device Context Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fa97368-8931-4687-b37f-ed4db949a150">Device Contexts Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a89b875e-923d-4048-bc61-8dea132cc56d">SelectObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
  
 
  

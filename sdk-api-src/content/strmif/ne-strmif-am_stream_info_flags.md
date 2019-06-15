@@ -89,11 +89,11 @@ Indicates that the pin will send one extra sample after it reaches the stop time
 
 
 
-<a href="https://msdn.microsoft.com/63b62f03-1973-41af-b6a4-e1bcb6ab803f">AM_STREAM_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_stream_info">AM_STREAM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9993534c-ec93-4c15-b977-6a0933d23a72">IAMStreamControl::GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamcontrol-getinfo">IAMStreamControl::GetInfo</a>
  
 
  

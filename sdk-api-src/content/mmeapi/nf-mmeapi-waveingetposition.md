@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>waveInGetPosition</b> is no longer supported for use as of Windows Vista. Instead, use <a href="https://msdn.microsoft.com/2271bd73-8cb6-4048-a16c-f765d0fae6bd">IAudioClock::GetPosition</a>.]
+<p class="CCE_Message">[<b>waveInGetPosition</b> is no longer supported for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">IAudioClock::GetPosition</a>.]
 
 The <b>waveInGetPosition</b> function retrieves the current input position of the given waveform-audio input device.
 
@@ -69,13 +69,13 @@ Handle to the waveform-audio input device.
 
 ### -param pmmt
 
-Pointer to an <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
 ### -param cbmmt
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
@@ -134,7 +134,7 @@ Unable to allocate or lock memory.
 
 
 
-Before calling this function, set the <b>wType</b> member of the <a href="https://msdn.microsoft.com/94bb7235-2477-4923-add8-f0c8ac8195c2">MMTIME</a> structure to indicate the time format you want. After calling this function, check <b>wType</b> to determine whether the desired time format is supported. If the format is not supported, the member will specify an alternative format.
+Before calling this function, set the <b>wType</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure to indicate the time format you want. After calling this function, check <b>wType</b> to determine whether the desired time format is supported. If the format is not supported, the member will specify an alternative format.
 
 The position is set to zero when the device is opened or reset.
 
@@ -146,11 +146,11 @@ The position is set to zero when the device is opened or reset.
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

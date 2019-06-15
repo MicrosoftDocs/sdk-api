@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>MsiEnumPatches</b> function enumerates all of the patches that have been applied to a product. The function returns the patch code GUID for each patch that has been applied to the product and returns a list of transforms from each patch that apply to the product. Note that patches may have many transforms only some of which are applicable to a particular product. The list of transforms are returned in the same format as the value of the 
-<a href="https://msdn.microsoft.com/da20f99e-3022-4382-97bb-8f1206072347">TRANSFORMS</a> property.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/transforms">TRANSFORMS</a> property.
 <div class="alert"><b>Note</b>  <i>pcchTransformsBuf</i> is not set to the number of characters copied to <i>lpTransformsBuf</i> upon a successful return of 
 <b>MsiEnumPatches</b>.</div><div> </div>
 

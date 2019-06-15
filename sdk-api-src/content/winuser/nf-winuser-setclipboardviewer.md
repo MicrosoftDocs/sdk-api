@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds the specified window to the chain of clipboard viewers. Clipboard viewer windows receive a <a href="https://msdn.microsoft.com/en-us/library/ms649025(v=VS.85).aspx">WM_DRAWCLIPBOARD</a> message whenever the content of the clipboard changes. This function is used for backward compatibility with earlier versions of Windows.
+Adds the specified window to the chain of clipboard viewers. Clipboard viewer windows receive a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-drawclipboard">WM_DRAWCLIPBOARD</a> message whenever the content of the clipboard changes. This function is used for backward compatibility with earlier versions of Windows.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the window to be added to the clipboard chain.
 
 Type: <b>HWND</b>
 
-If the function succeeds, the return value identifies the next window in the clipboard viewer chain. If an error occurs or there are no other windows in the clipboard viewer chain, the return value is NULL. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function succeeds, the return value identifies the next window in the clipboard viewer chain. If an error occurs or there are no other windows in the clipboard viewer chain, the return value is NULL. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -80,16 +80,16 @@ If the function succeeds, the return value identifies the next window in the cli
 
 
 
-The windows that are part of the clipboard viewer chain, called clipboard viewer windows, must process the clipboard messages <a href="https://msdn.microsoft.com/en-us/library/ms649019(v=VS.85).aspx">WM_CHANGECBCHAIN</a> and <a href="https://msdn.microsoft.com/en-us/library/ms649025(v=VS.85).aspx">WM_DRAWCLIPBOARD</a>. Each clipboard viewer window calls the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function to pass these messages to the next window in the clipboard viewer chain.
+The windows that are part of the clipboard viewer chain, called clipboard viewer windows, must process the clipboard messages <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-changecbchain">WM_CHANGECBCHAIN</a> and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-drawclipboard">WM_DRAWCLIPBOARD</a>. Each clipboard viewer window calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function to pass these messages to the next window in the clipboard viewer chain.
 
-A clipboard viewer window must eventually remove itself from the clipboard viewer chain by calling the <a href="https://msdn.microsoft.com/en-us/library/ms649034(v=VS.85).aspx">ChangeClipboardChain</a> function — for example, in response to the <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message.
+A clipboard viewer window must eventually remove itself from the clipboard viewer chain by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changeclipboardchain">ChangeClipboardChain</a> function — for example, in response to the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> message.
 
-The <b>SetClipboardViewer</b> function exists to provide backward compatibility with earlier versions of Windows. The clipboard viewer chain can be broken by an application that fails to handle the clipboard chain messages properly. New applications should use more robust techniques such as the clipboard sequence number or the registration of a clipboard format listener. For further details on these alternatives techniques, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Monitoring Clipboard Contents</a>.
+The <b>SetClipboardViewer</b> function exists to provide backward compatibility with earlier versions of Windows. The clipboard viewer chain can be broken by an application that fails to handle the clipboard chain messages properly. New applications should use more robust techniques such as the clipboard sequence number or the registration of a clipboard format listener. For further details on these alternatives techniques, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Monitoring Clipboard Contents</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Adding a Window to the Clipboard Viewer Chain</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Adding a Window to the Clipboard Viewer Chain</a>.
 
 <div class="code"></div>
 
@@ -100,11 +100,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649034(v=VS.85).aspx">ChangeClipboardChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changeclipboardchain">ChangeClipboardChain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -112,7 +112,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649043(v=VS.85).aspx">GetClipboardViewer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardviewer">GetClipboardViewer</a>
 
 
 
@@ -120,7 +120,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
  
 
  

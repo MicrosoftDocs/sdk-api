@@ -116,10 +116,10 @@ Pointer to DWORD that receives  the number of certificates successfully imported
 
 #### - **prgpCertOut [out, optional]
 
-Pointer to a pointer that receives a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure (can be nullptr).
+Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure (can be nullptr).
 
 
 #### - prgpCertOut [out, optional]
 
-Pointer to a pointer that receives a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure (can be nullptr).
+Pointer to a pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure (can be nullptr).
 

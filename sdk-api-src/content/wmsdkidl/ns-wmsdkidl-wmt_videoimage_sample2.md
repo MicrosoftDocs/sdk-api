@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WMT_VIDEOIMAGE_SAMPLE2</b> structure describes a sample for a Video Image stream. This structure must be used, either alone or with an accompanying image, in each sample passed to the writer for a Video Image stream. For more information, see <a href="https://msdn.microsoft.com/1d375186-230a-4a18-a995-b331c72a76e7">Writing Video Image Samples</a>.
+The <b>WMT_VIDEOIMAGE_SAMPLE2</b> structure describes a sample for a Video Image stream. This structure must be used, either alone or with an accompanying image, in each sample passed to the writer for a Video Image stream. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-video-image-samples">Writing Video Image Samples</a>.
 
 
 
@@ -185,7 +185,7 @@ Blending coefficient for the previous image. This value specifies the transparen
 
 ### -field dwEffectType
 
-The effect identifier of the transition between the previous image and the current image. For more information, see <a href="https://msdn.microsoft.com/201ddbfb-567b-4893-b754-569f1e7d8466">Video Image Transitions</a>.
+The effect identifier of the transition between the previous image and the current image. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/video-image-transitions">Video Image Transitions</a>.
 
 
 ### -field dwNumEffectParas
@@ -237,7 +237,7 @@ When creating an input Video Image sample, the values for the current image desc
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

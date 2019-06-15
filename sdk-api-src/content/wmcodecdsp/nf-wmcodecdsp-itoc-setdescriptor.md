@@ -59,7 +59,7 @@ The <b>SetDescriptor</b> method associates a descriptor with the table of conten
 
 ### -param pDescriptor [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/a79f75c5-be98-4120-85be-71bedbcc0ea2">TOC_DESCRIPTOR</a> structure that contains the descriptor.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-_toc_descriptor">TOC_DESCRIPTOR</a> structure that contains the descriptor.
 
 
 ## -returns
@@ -95,11 +95,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/4568b50f-a777-4c3d-8c71-66737d24b7cd">GetDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-getdescriptor">GetDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

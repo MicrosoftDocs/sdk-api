@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_TAPIObject</b> method gets a pointer to the 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI object</a> on which the event occurred.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI object</a> on which the event occurred.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param ppTAPIObject [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a> interface of the TAPI object on which the event occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a> interface of the TAPI object on which the event occurred.
 
 
 ## -returns
@@ -120,7 +120,7 @@ Insufficient memory exists to perform the operation.
 
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://msdn.microsoft.com/75d641c7-dbf8-4ae2-b16b-2757e890d32b">ITTAPI</a> interface returned by <b>ITTAPIObjectEvent::get_TAPIObject</b>. The application must call <b>Release</b> on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a> interface returned by <b>ITTAPIObjectEvent::get_TAPIObject</b>. The application must call <b>Release</b> on the 
 <b>ITTAPI</b> interface to free resources associated with it.
 
 
@@ -131,11 +131,11 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 
-<a href="https://msdn.microsoft.com/73be7109-0d3a-4ac5-adb7-e1577d8640b5">ITTAPIObjectEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
  
 
  

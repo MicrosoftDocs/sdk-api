@@ -102,7 +102,7 @@ The provided handle is invalid.
 </dl>
 </td>
 <td width="60%">
-The application did not make a previous call to <a href="https://msdn.microsoft.com/b3f4ac2a-c722-4609-b893-c4b9667ae559">PeerCollabStartup</a>.
+The application did not make a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The handle specified is invalid.
 <li>If the connection to the receiver is not yet established, it will cancel the connection creation process and the receiver will not see the invitation.</li>
 <li>If the invitation has been received, but not responded to, it will notify the recipient contact that the invitation has been canceled. As a result, the receiver will not be able to respond to the invitation.</li>
 <li>If the receiver has already responded to the invitation, the call performs a no-op.
-After canceling the invitation, you must call <a href="https://msdn.microsoft.com/fbcf65c7-a133-44b9-b5bb-309b1c257a90">PeerCollabCloseHandle</a>.
+After canceling the invitation, you must call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabclosehandle">PeerCollabCloseHandle</a>.
 </li>
 </ul>
 
@@ -145,11 +145,11 @@ After canceling the invitation, you must call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbcf65c7-a133-44b9-b5bb-309b1c257a90">PeerCollabCloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabclosehandle">PeerCollabCloseHandle</a>
  
 
  

@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-Currently, this interface contains no methods other than those inherited from <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>.
+Currently, this interface contains no methods other than those inherited from <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>.
 

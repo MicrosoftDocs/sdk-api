@@ -69,25 +69,25 @@ The number of items in the <b>wlanBssEntries</b> member.
 
 ### -field wlanBssEntries
 
-An array of <a href="https://msdn.microsoft.com/25a76128-13d9-47dd-9c73-1fbf06a908be">WLAN_BSS_ENTRY</a> structures that contains information about a BSS.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a> structures that contains information about a BSS.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/62f51b6e-3db1-48cd-8853-0dbe522c5e82">WlanGetNetworkBssList</a> function retrieves the BSS list of the wireless network or networks on a given interface and returns this information in a <b>WLAN_BSS_LIST</b> structure. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> function retrieves the BSS list of the wireless network or networks on a given interface and returns this information in a <b>WLAN_BSS_LIST</b> structure. 
 
 
 
-The <b>WLAN_BSS_LIST</b> structure may contain padding for alignment between the <b>dwTotalSize</b> member, the  <b>dwNumberOfItems</b> member, and the first <a href="https://msdn.microsoft.com/25a76128-13d9-47dd-9c73-1fbf06a908be">WLAN_BSS_ENTRY</a>  array entry in the <b>wlanBssEntries</b>  member. Padding for alignment may also be present between the <b>WLAN_BSS_ENTRY</b> array entries in the <b>wlanBssEntries</b> member. Any access to a <b>WLAN_BSS_ENTRY</b> array entry should assume padding may exist.
+The <b>WLAN_BSS_LIST</b> structure may contain padding for alignment between the <b>dwTotalSize</b> member, the  <b>dwNumberOfItems</b> member, and the first <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a>  array entry in the <b>wlanBssEntries</b>  member. Padding for alignment may also be present between the <b>WLAN_BSS_ENTRY</b> array entries in the <b>wlanBssEntries</b> member. Any access to a <b>WLAN_BSS_ENTRY</b> array entry should assume padding may exist.
 
 
 When the wireless LAN interface is also operating as  a Wireless Hosted Network , the BSS list will contain an entry for the BSS created for the Wireless Hosted Network.
 
 
 
-Since the information is returned by the access point for an infrastructure BSS network or by the network peer for an independent BSS network (ad hoc network), the information returned should not be trusted. The <b>ulIeOffset</b> and <b>ulIeSize</b>  members in the <a href="https://msdn.microsoft.com/25a76128-13d9-47dd-9c73-1fbf06a908be">WLAN_BSS_ENTRY</a> structure should be used to determine the maximum size of the information element data blob in the <b>WLAN_BSS_ENTRY</b> structure, not the data in the information element data blob. 
+Since the information is returned by the access point for an infrastructure BSS network or by the network peer for an independent BSS network (ad hoc network), the information returned should not be trusted. The <b>ulIeOffset</b> and <b>ulIeSize</b>  members in the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a> structure should be used to determine the maximum size of the information element data blob in the <b>WLAN_BSS_ENTRY</b> structure, not the data in the information element data blob. 
 
 
 
@@ -97,23 +97,23 @@ Since the information is returned by the access point for an infrastructure BSS 
 
 
 
-<a href="https://msdn.microsoft.com/82883cea-515b-426d-9961-c144ce99b3db">WLAN_AVAILABLE_NETWORK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ac508b2-9117-423d-89d3-982f070c70e2">WLAN_AVAILABLE_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/25a76128-13d9-47dd-9c73-1fbf06a908be">WLAN_BSS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/27353a1b-2a3c-4c3b-b512-917d010ee8dd">WlanGetAvailableNetworkList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist">WlanGetAvailableNetworkList</a>
 
 
 
-<a href="https://msdn.microsoft.com/62f51b6e-3db1-48cd-8853-0dbe522c5e82">WlanGetNetworkBssList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a>
  
 
  

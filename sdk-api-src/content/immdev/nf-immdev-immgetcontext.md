@@ -79,7 +79,7 @@ Returns the handle to the input context.
 
 An application should routinely use this function to retrieve the current input context before attempting to access information in the context.
 
-The application must call <a href="https://msdn.microsoft.com/e14b087a-58ef-4360-9368-3fdd088c14f6">ImmReleaseContext</a> when it is finished with the input context.
+The application must call <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immreleasecontext">ImmReleaseContext</a> when it is finished with the input context.
 
 
 
@@ -89,15 +89,15 @@ The application must call <a href="https://msdn.microsoft.com/e14b087a-58ef-4360
 
 
 
-<a href="https://msdn.microsoft.com/e14b087a-58ef-4360-9368-3fdd088c14f6">ImmReleaseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immreleasecontext">ImmReleaseContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

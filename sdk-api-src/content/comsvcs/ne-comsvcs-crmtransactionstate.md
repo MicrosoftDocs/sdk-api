@@ -82,7 +82,7 @@ The transaction is in doubt.
 
 
 
-<a href="https://msdn.microsoft.com/9aaa3d6c-41b9-4661-8e7e-ef1d1abba4aa">ICrmMonitorLogRecords::get_TransactionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_transactionstate">ICrmMonitorLogRecords::get_TransactionState</a>
  
 
  

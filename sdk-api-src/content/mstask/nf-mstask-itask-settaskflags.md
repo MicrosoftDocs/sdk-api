@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the flags that modify the behavior of a scheduled <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the flags that modify the behavior of a scheduled <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
 
 
 ## -parameters
@@ -123,7 +123,7 @@ Applications must call the <b>IPersistFile::Save</b> method after calling
 <b>SetTaskFlags</b> to update the task flags.
 
 This method is designed to set the flags that only apply to scheduled tasks. In contrast, 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a> is used to set the flags that apply to all types of scheduled work items.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a> is used to set the flags that apply to all types of scheduled work items.
 
 
 
@@ -133,15 +133,15 @@ This method is designed to set the flags that only apply to scheduled tasks. In 
 
 
 
-<a href="https://msdn.microsoft.com/fd919375-c903-45eb-a8f4-45baf5b42203">GetTaskFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">GetTaskFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
  
 
  

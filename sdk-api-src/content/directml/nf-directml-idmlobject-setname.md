@@ -65,7 +65,7 @@ Associates a name with the DirectML device object.
 
 ### -param name
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
 A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associate with the DirectML device object.
           

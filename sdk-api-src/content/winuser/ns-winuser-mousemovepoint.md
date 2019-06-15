@@ -94,11 +94,11 @@ Additional information associated with this coordinate.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646259(v=VS.85).aspx">GetMouseMovePointsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmousemovepointsex">GetMouseMovePointsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 

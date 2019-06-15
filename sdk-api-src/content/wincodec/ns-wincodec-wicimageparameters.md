@@ -99,7 +99,7 @@ The height in pixels of the part of the image to write.
 If this parameter is not passed to the encoding API, the encoder uses these settings.
 
 <ul>
-<li>A pixel format of (<a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a>, <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_PREMULTIPLIED</a>).</li>
+<li>A pixel format of (<a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_B8G8R8A8_UNORM</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_PREMULTIPLIED</a>).</li>
 <li>An x and y DPI of 96.</li>
 <li>The entire image bounds will be used for encoding.</li>
 </ul>
@@ -113,7 +113,7 @@ If this parameter is not passed to the encoding API, the encoder uses these sett
 
 
 
-<a href="https://msdn.microsoft.com/D9854D82-0226-4DD8-AE54-93E5B6544B46">IWICImageEncoder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder">IWICImageEncoder</a>
  
 
  

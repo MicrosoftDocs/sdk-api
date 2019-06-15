@@ -59,7 +59,7 @@ The DDADDVPCAPTUREBUFF structure contains the information required to add a new 
 
 ### -field hCapture
 
-Handle to the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object.
+Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
 
 ### -field dwFlags
@@ -107,7 +107,7 @@ The destination buffer exists in system memory.
 
 ### -field pMDL
 
-Points to an <a href="https://msdn.microsoft.com/a1ec4764-4e11-4fb2-b439-ad6b721eb504">MDL</a> (defined in <i>wdm.h</i>) that describes the physical pages of the destination buffer.
+Points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/">MDL</a> (defined in <i>wdm.h</i>) that describes the physical pages of the destination buffer.
 
 
 ### -field pKEvent
@@ -117,7 +117,7 @@ Points to a KEVENT that the kernel-mode video transport sets when the destinatio
 
 ### -field lpBuffInfo
 
-Points to a <a href="https://msdn.microsoft.com/8286c433-2183-4751-be8a-30cb9cd9146d">DDCAPBUFFINFO</a> structure that the kernel-mode video transport fills in before setting the KEVENT.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddcapbuffinfo">DDCAPBUFFINFO</a> structure that the kernel-mode video transport fills in before setting the KEVENT.
 
 
 ## -see-also
@@ -125,15 +125,15 @@ Points to a <a href="https://msdn.microsoft.com/8286c433-2183-4751-be8a-30cb9cd9
 
 
 
-<a href="https://msdn.microsoft.com/8286c433-2183-4751-be8a-30cb9cd9146d">DDCAPBUFFINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-_ddcapbuffinfo">DDCAPBUFFINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7e6fd1c-8865-4f55-868c-856b2f875053">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

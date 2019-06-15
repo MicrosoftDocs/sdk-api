@@ -59,12 +59,12 @@ Describes a resource to resolve to at the conclusion of a render pass.
 
 ### -field pSrcResource
 
-A pointer to an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>. The source resource.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>. The source resource.
 
 
 ### -field pDstResource
 
-A pointer to an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>. The destination resource.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>. The destination resource.
 
 
 ### -field SubresourceCount
@@ -79,12 +79,12 @@ A pointer to a constant array of <a href="https://docs.microsoft.com/en-us/windo
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>. The data format of the resources.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>. The data format of the resources.
 
 
 ### -field ResolveMode
 
-A <a href="https://msdn.microsoft.com/1E14F62A-E6B9-4C88-AC28-2322C4662E1F">D3D12_RESOLVE_MODE</a>. The resolve operation.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resolve_mode">D3D12_RESOLVE_MODE</a>. The resolve operation.
 
 
 ### -field PreserveResolveSource
@@ -97,7 +97,7 @@ A <b>BOOL</b>. <b>TRUE</b> to preserve the resolve source, otherwise <b>FALSE</b
 
 
 
-<a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/rendering">Rendering</a>
  
 
  

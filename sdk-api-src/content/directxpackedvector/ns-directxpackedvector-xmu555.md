@@ -56,7 +56,7 @@ A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer 
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMU555</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415438(v=VS.85).aspx">XMU555 Extensions</a>.
+	using <code>XMU555</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu555-extensions">XMU555 Extensions</a>.
 
 
 ## -struct-fields
@@ -139,11 +139,11 @@ Unsigned 5-bit integer value in the range [0,31] describing the
 
 
 
-<code>XMU555</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by
+<code>XMU555</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by
 	    using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadu555">XMLoadU555</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMU555</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420374(v=VS.85).aspx">XMStoreU555</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMU555</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreu555">XMStoreU555</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -159,11 +159,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415438(v=VS.85).aspx">XMU555 Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu555-extensions">XMU555 Extensions</a>
  
 
  

@@ -64,7 +64,7 @@ Specifies the number of option values listed in <b>Values</b>.
 
 ### -field Values
 
-Pointer to a list of <a href="https://msdn.microsoft.com/6a11cb60-2690-45d4-a5e6-a3ebdc1efe3d">DHCP_OPTION_VALUE</a> structures containing DHCP  option values.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_value">DHCP_OPTION_VALUE</a> structures containing DHCP  option values.
 
 
 ### -field Values.size_is

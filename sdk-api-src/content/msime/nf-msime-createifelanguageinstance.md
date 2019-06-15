@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to an   <a href="https://msdn.microsoft.com/9EE1BD9E-2D58-4720-841C-39865375BFE0">IFELanguage</a> interface.
+Returns a pointer to an   <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> interface.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ### -param ppvObj [out]
 
-Address of the pointer variable that receives the <a href="https://msdn.microsoft.com/9EE1BD9E-2D58-4720-841C-39865375BFE0">IFELanguage</a> interface pointer of the object created.
+Address of the pointer variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> interface pointer of the object created.
 
 
 ## -returns

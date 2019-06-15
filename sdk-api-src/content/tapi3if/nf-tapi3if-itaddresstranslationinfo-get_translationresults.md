@@ -61,7 +61,7 @@ The
 ### -param plResults [out]
 
 Indicates the information derived from the translation process, which may assist the application in presenting user-interface elements. This value uses one of the 
-<a href="https://msdn.microsoft.com/7b834c57-d862-4fe6-828c-9e8fa20f3ec7">LINETRANSLATERESULT_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetranslateresult--constants">LINETRANSLATERESULT_ Constants</a>.
 
 
 ## -returns
@@ -119,7 +119,7 @@ Insufficient memory exists to perform the operation.
 
 
 Corresponds to the <b>dwTranslateResults</b> member of TAPI 2's 
-<a href="https://msdn.microsoft.com/bcf094ad-8098-4e45-9131-25dbdb7e4093">LINETRANSLATEOUTPUT</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput_tag">LINETRANSLATEOUTPUT</a> structure.
 
 
 
@@ -129,11 +129,11 @@ Corresponds to the <b>dwTranslateResults</b> member of TAPI 2's
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/b59454a0-315f-4160-b969-d930c13bb4de">ITAddressTranslationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
  
 
  

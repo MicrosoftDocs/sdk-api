@@ -113,15 +113,15 @@ Use this method to provide a seed value greater than 32 bits.
 
 
 
-<a href="https://msdn.microsoft.com/7630b8ac-41f9-4cc7-95e7-4172a876673f">IStreamPseudoRandomBased</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
 
 
 
-<a href="https://msdn.microsoft.com/e15e47aa-e5c4-4944-a3c4-14e459a31bb5">IStreamPseudoRandomBased::get_ExtendedSeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_extendedseed">IStreamPseudoRandomBased::get_ExtendedSeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/455d087d-a6f5-45ab-9c0d-c46e721cba6e">IStreamPseudoRandomBased::put_Seed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_seed">IStreamPseudoRandomBased::put_Seed</a>
  
 
  

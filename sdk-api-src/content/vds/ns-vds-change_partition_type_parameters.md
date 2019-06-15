@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Describes parameters to be used when changing a partition's type.
 
@@ -61,7 +61,7 @@ Describes parameters to be used when changing a partition's type.
 
 ### -field style
 
-A value from the <a href="https://msdn.microsoft.com/31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb">VDS_PARTITION_STYLE</a> enumeration that describes the disk's partition style.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_partition_style">VDS_PARTITION_STYLE</a> enumeration that describes the disk's partition style.
 
 
 ### -field MbrPartInfo
@@ -90,7 +90,7 @@ Contains information for a GUID Partitioning Table partition.
 
 
 
-For information about partition types, see <a href="https://msdn.microsoft.com/7c0311df-0995-4100-babb-481fa3f7dd71">CREATE_PARTITION_PARAMETERS</a>.
+For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-_create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 
 
@@ -100,7 +100,7 @@ For information about partition types, see <a href="https://msdn.microsoft.com/7
 
 
 
-<a href="https://msdn.microsoft.com/808a1e5a-d225-4b74-9764-3ad8cdc52ebe">IVdsAdvancedDisk2::ChangePartitionType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk2-changepartitiontype">IVdsAdvancedDisk2::ChangePartitionType</a>
  
 
  

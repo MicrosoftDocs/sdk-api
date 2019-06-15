@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function. Specify a pointer to this function when calling the 
-<a href="https://msdn.microsoft.com/04c161ed-d1b0-4995-b246-cb64cb67ae47">InitOnceExecuteOnce</a> function. The <b>PINIT_ONCE_FN</b> type defines a pointer to this callback function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a> function. The <b>PINIT_ONCE_FN</b> type defines a pointer to this callback function. 
 <b>InitOnceCallback</b> is a placeholder for the application-defined function name.
 
 
@@ -80,7 +80,7 @@ The data to be stored with the one-time initialization structure. If  <i>Context
 
 If the function returns <b>TRUE</b>, the block is marked as initialized.
 
-If the function returns <b>FALSE</b>, the block is not marked as initialized and the call to <a href="https://msdn.microsoft.com/04c161ed-d1b0-4995-b246-cb64cb67ae47">InitOnceExecuteOnce</a> fails. To communicate additional error information, call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> before returning <b>FALSE</b>.
+If the function returns <b>FALSE</b>, the block is not marked as initialized and the call to <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a> fails. To communicate additional error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> before returning <b>FALSE</b>.
 
 
 
@@ -92,14 +92,14 @@ If the function returns <b>FALSE</b>, the block is not marked as initialized and
 This function can create a synchronization object and return it in the <i>lpContext</i> parameter.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
 For an example that uses 
 this function, see 
-<a href="https://msdn.microsoft.com/47e68fbb-29f8-4930-beba-01d44263eb1e">Using One-Time Initialization</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/using-one-time-initialization">Using One-Time Initialization</a>.
 
 <div class="code"></div>
 
@@ -110,15 +110,15 @@ this function, see
 
 
 
-<a href="https://msdn.microsoft.com/04c161ed-d1b0-4995-b246-cb64cb67ae47">InitOnceExecuteOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2943ac5-0e43-4f07-8941-952383e2fa08">InitOnceInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceinitialize">InitOnceInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

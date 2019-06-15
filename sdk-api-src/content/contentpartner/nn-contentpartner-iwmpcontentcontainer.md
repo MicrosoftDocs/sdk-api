@@ -59,7 +59,7 @@ The <b>IWMPContentContainer</b> interface represents a container for information
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPContentContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentContainer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPContentContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPContentContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563135(v=VS.85).aspx">GetContentCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainer-getcontentcount">GetContentCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of digital media content items in the container.
@@ -83,7 +83,7 @@ Retrieves the count of digital media content items in the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563136(v=VS.85).aspx">GetContentID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainer-getcontentid">GetContentID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the media item at the specified index in the content container.
@@ -92,7 +92,7 @@ Retrieves the ID of the media item at the specified index in the content contain
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563137(v=VS.85).aspx">GetContentPrice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainer-getcontentprice">GetContentPrice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the price of the media item at the specified index in the content container.
@@ -101,7 +101,7 @@ Retrieves the price of the media item at the specified index in the content cont
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563138(v=VS.85).aspx">GetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainer-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the album or list represented by the content container.
@@ -110,7 +110,7 @@ Retrieves the ID of the album or list represented by the content container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563139(v=VS.85).aspx">GetPrice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainer-getprice">GetPrice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total price of the album or list represented by the content container.
@@ -119,7 +119,7 @@ Retrieves the total price of the album or list represented by the content contai
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563140(v=VS.85).aspx">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainer-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of the content container.
@@ -134,7 +134,7 @@ Retrieves the type of the content container.
 
 
 
-<a href="https://msdn.microsoft.com/e6f45a50-029e-4347-9b25-10e9e32a56eb">Reference for Type 1 Online Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-1-online-stores">Reference for Type 1 Online Stores</a>
  
 
  

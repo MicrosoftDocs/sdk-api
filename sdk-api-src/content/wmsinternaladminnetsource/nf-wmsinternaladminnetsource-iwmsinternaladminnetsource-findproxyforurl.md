@@ -138,7 +138,7 @@ When calling this method multiple times to find all proxies configured, this val
 
 
 
-When you have finished making calls to <b>FindProxyForURL</b>, you must call <a href="https://msdn.microsoft.com/en-us/library/Dd798543(v=VS.85).aspx">IWMSInternalAdminNetSource::ShutdownProxyContext</a> to free the internal resources used.
+When you have finished making calls to <b>FindProxyForURL</b>, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-shutdownproxycontext">IWMSInternalAdminNetSource::ShutdownProxyContext</a> to free the internal resources used.
 
 
 
@@ -148,7 +148,7 @@ When you have finished making calls to <b>FindProxyForURL</b>, you must call <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743717(v=VS.85).aspx">IWMSInternalAdminNetSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
  
 
  

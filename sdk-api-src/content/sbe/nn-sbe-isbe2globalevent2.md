@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Offers  access to global spanning events and their data from the <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filters.  A <i>global spanning event</i> contains state information that applies to all the streams in a pipeline. This interface extends the <a href="https://msdn.microsoft.com/18bb9f8a-df97-468c-acb2-be7fa61a4789">ISBE2GlobalEvent</a> interface.
+Offers  access to global spanning events and their data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filters.  A <i>global spanning event</i> contains state information that applies to all the streams in a pipeline. This interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2globalevent">ISBE2GlobalEvent</a> interface.
 
 
 ## -inheritance
@@ -69,10 +69,10 @@ The <b>ISBE2GlobalEvent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44c30d8a-d62b-4e0f-8ff9-a4159df6d724">GetEventEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2globalevent2-geteventex">GetEventEx</a>
 </td>
 <td align="left" width="63%">
-Gets an global spanning event and its data from a <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
+Gets an global spanning event and its data from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 
 

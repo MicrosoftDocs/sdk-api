@@ -59,7 +59,7 @@ Specifies the volumes to be included in a LUN resynchronization operation. This 
 
 ### -param snapshotId [in]
 
-The identifier of the shadow copy that was returned by the <a href="https://msdn.microsoft.com/6c20e386-7cd8-45d9-92d6-96d0a458db50">IVssBackupComponents::AddToSnapshotSet</a> method during backup. This parameter is required and cannot be GUID_NULL.
+The identifier of the shadow copy that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method during backup. This parameter is required and cannot be GUID_NULL.
 
 
 
@@ -182,7 +182,7 @@ LUN resynchronization is not supported on this volume, because it is a dynamic v
 
 
 
-<a href="https://msdn.microsoft.com/56c8e7c2-2d94-4674-bd20-bf036991474f">IVssBackupComponentsEx3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
  
 
  

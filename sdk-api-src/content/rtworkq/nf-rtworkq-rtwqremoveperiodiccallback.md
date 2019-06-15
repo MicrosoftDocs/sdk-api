@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Cancels a callback function that was set by the <a href="https://msdn.microsoft.com/5f472e42-7c62-462a-91a8-240c395ad765">RtwqAddPeriodicCallback</a> function.
+Cancels a callback function that was set by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqaddperiodiccallback">RtwqAddPeriodicCallback</a> function.
 
 
 
@@ -62,7 +62,7 @@ Cancels a callback function that was set by the <a href="https://msdn.microsoft.
 
 ### -param dwKey [in]
 
-Key that identifies the callback. This value is retrieved by the <a href="https://msdn.microsoft.com/5f472e42-7c62-462a-91a8-240c395ad765">RtwqAddPeriodicCallback</a> function.
+Key that identifies the callback. This value is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqaddperiodiccallback">RtwqAddPeriodicCallback</a> function.
 
 
 ## -returns

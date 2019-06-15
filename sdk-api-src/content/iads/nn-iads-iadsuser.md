@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsUser</b> interface is a dual interface that inherits from  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. It is designed to represent and manage an end-user account on a network. Call the methods of this interface to access and manipulate end-user account data. Such data includes names of the user, telephone numbers, job title, and so on. This interface supports features for determining the group association of the user, and for setting or changing the password.
+The <b>IADsUser</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent and manage an end-user account on a network. Call the methods of this interface to access and manipulate end-user account data. Such data includes names of the user, telephone numbers, job title, and so on. This interface supports features for determining the group association of the user, and for setting or changing the password.
    
 
 To bind to a domain user through a WinNT provider, use the domain name as part of the ADsPath, as shown in the following code example.
@@ -75,7 +75,7 @@ However, local accounts reside in the local SAM database and the LDAP provider d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsUser</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsUser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsUser</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsUser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -91,7 +91,7 @@ The <b>IADsUser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/279087b1-450a-4089-a5f6-257849ae583f">ChangePassword</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-changepassword">ChangePassword</a>
 </td>
 <td align="left" width="63%">
 Changes password from the specified existing value to a new value.
@@ -100,7 +100,7 @@ Changes password from the specified existing value to a new value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -109,7 +109,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cda6b8e7-fadc-4e0b-8217-66b37bf7efbd">GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -118,7 +118,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -127,7 +127,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">GetInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -136,7 +136,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d250815-a7d8-4e61-b125-a66f1c2fde43">Groups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-groups">Groups</a>
 </td>
 <td align="left" width="63%">
 Determines the groups to which this end-user belongs.
@@ -145,7 +145,7 @@ Determines the groups to which this end-user belongs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -154,7 +154,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">PutEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -163,7 +163,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">SetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -172,7 +172,7 @@ Persists the changes on this object to the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cad38632-9f0a-4707-9086-b1248d6f31a6">SetPassword</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsuser-setpassword">SetPassword</a>
 </td>
 <td align="left" width="63%">
 Sets the password.
@@ -190,7 +190,7 @@ Sets the password.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">AccountDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">AccountDisabled</a>
 
 
 </td>
@@ -206,7 +206,7 @@ Gets and sets the flag to indicate whether the account is disabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">AccountExpirationDate</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">AccountExpirationDate</a>
 
 
 </td>
@@ -222,7 +222,7 @@ Gets and sets the expiration date and time of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">AdsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -238,7 +238,7 @@ Gets the object's ADsPath that uniquely identifies this object from all others.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">BadLoginAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">BadLoginAddress</a>
 
 
 </td>
@@ -254,7 +254,7 @@ Gets the address of the last node, considered an "Intruder".
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">BadLoginCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">BadLoginCount</a>
 
 
 </td>
@@ -270,7 +270,7 @@ Gets the number of the bad logon attempts since last reset.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -286,7 +286,7 @@ Gets the name of the object's schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Department</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Department</a>
 
 
 </td>
@@ -302,7 +302,7 @@ Gets and sets the organizational unit within the organization.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Description</a>
 
 
 </td>
@@ -318,7 +318,7 @@ Gets and sets the description of the user account.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Division</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Division</a>
 
 
 </td>
@@ -334,7 +334,7 @@ Gets and sets the division within a company (organization).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">EmailAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">EmailAddress</a>
 
 
 </td>
@@ -350,7 +350,7 @@ Gets and sets the email address of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">EmployeeID</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">EmployeeID</a>
 
 
 </td>
@@ -366,7 +366,7 @@ Gets and sets employee identification number of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">FaxNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">FaxNumber</a>
 
 
 </td>
@@ -382,7 +382,7 @@ Gets and sets the list of fax phone numbers. In Active Directory the list has a 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">FirstName</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">FirstName</a>
 
 
 </td>
@@ -398,7 +398,7 @@ Gets and sets the first name of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">FullName</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">FullName</a>
 
 
 </td>
@@ -414,7 +414,7 @@ Gets and sets the full name of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">GraceLoginsAllowed</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">GraceLoginsAllowed</a>
 
 
 </td>
@@ -430,7 +430,7 @@ Gets and sets the number of times user can log on after password has expired.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">GraceLoginsRemaining</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">GraceLoginsRemaining</a>
 
 
 </td>
@@ -446,7 +446,7 @@ Gets and sets the number of grace logins left before locking account.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">GUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -462,7 +462,7 @@ Gets the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">HomeDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">HomeDirectory</a>
 
 
 </td>
@@ -478,7 +478,7 @@ Gets and sets the home directory of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">HomePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">HomePage</a>
 
 
 </td>
@@ -494,7 +494,7 @@ Gets and sets the URL to the home page of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">IsAccountLocked</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">IsAccountLocked</a>
 
 
 </td>
@@ -510,7 +510,7 @@ Gets and sets a flag to indicate whether an account is locked.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Languages</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Languages</a>
 
 
 </td>
@@ -526,7 +526,7 @@ Gets and sets the array of language names for the end-user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">LastFailedLogin</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">LastFailedLogin</a>
 
 
 </td>
@@ -542,7 +542,7 @@ Gets the date and time of the last failed network login.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">LastLogin</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">LastLogin</a>
 
 
 </td>
@@ -558,7 +558,7 @@ Gets the date and time of the last network login.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">LastLogoff</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">LastLogoff</a>
 
 
 </td>
@@ -574,7 +574,7 @@ Gets the date and time of the last network logoff.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">LastName</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">LastName</a>
 
 
 </td>
@@ -590,7 +590,7 @@ Gets and sets the last name of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">LoginHours</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">LoginHours</a>
 
 
 </td>
@@ -606,7 +606,7 @@ Gets and sets the time periods during each day of week that indicate valid login
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">LoginScript</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">LoginScript</a>
 
 
 </td>
@@ -622,7 +622,7 @@ Gets and sets the end-user's login script path.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">LoginWorkstations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">LoginWorkstations</a>
 
 
 </td>
@@ -638,7 +638,7 @@ Gets and set the workstations and their net addresses for this end-user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Manager</a>
 
 
 </td>
@@ -654,7 +654,7 @@ Gets and sets the manager of the  user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">MaxLogins</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">MaxLogins</a>
 
 
 </td>
@@ -670,7 +670,7 @@ Gets and sets the maximum number of simultaneous logins.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">MaxStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">MaxStorage</a>
 
 
 </td>
@@ -686,7 +686,7 @@ Gets and set the maximum amount of disk space allotted for the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -702,7 +702,7 @@ Gets the object's relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">NamePrefix</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">NamePrefix</a>
 
 
 </td>
@@ -718,7 +718,7 @@ Gets and sets the name prefix, such as Mr., Ms., or Hon., of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">NameSuffix</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">NameSuffix</a>
 
 
 </td>
@@ -734,7 +734,7 @@ Gets and sets the name suffix, such as Jr. or III, of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">OfficeLocations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">OfficeLocations</a>
 
 
 </td>
@@ -750,7 +750,7 @@ Gets and sets the array of end-user locations. In Active Directory the array has
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">OtherName</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">OtherName</a>
 
 
 </td>
@@ -766,7 +766,7 @@ Gets and sets the additional name, such as the nickname, or the middle name of t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Parent</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -782,7 +782,7 @@ Gets the ADsPath string for the parent of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">PasswordExpirationDate</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">PasswordExpirationDate</a>
 
 
 </td>
@@ -798,7 +798,7 @@ Gets and sets the date and time when password expires.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">PasswordLastChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">PasswordLastChanged</a>
 
 
 </td>
@@ -814,7 +814,7 @@ Gets the date and time of the last password change.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">PasswordMinimumLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">PasswordMinimumLength</a>
 
 
 </td>
@@ -830,7 +830,7 @@ Gets and sets the minimum number of characters allowed in a password.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">PasswordRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">PasswordRequired</a>
 
 
 </td>
@@ -846,7 +846,7 @@ Gets and sets a flag to indicate whether a password is required.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Picture</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Picture</a>
 
 
 </td>
@@ -862,7 +862,7 @@ Gets and sets the picture of the user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">PostalAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">PostalAddresses</a>
 
 
 </td>
@@ -878,7 +878,7 @@ Gets and sets the array of end-user post office addresses.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">PostalCodes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">PostalCodes</a>
 
 
 </td>
@@ -894,7 +894,7 @@ Gets and sets the array of postal codes for the Postal Addresses. In Active Dire
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Profile</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Profile</a>
 
 
 </td>
@@ -910,7 +910,7 @@ Gets and sets the end-user's profile path.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">RequireUniquePassword</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">RequireUniquePassword</a>
 
 
 </td>
@@ -926,7 +926,7 @@ Gets and sets a flag to indicate whether  a new password must be different from 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -942,7 +942,7 @@ Gets the ADsPath string to the schema class object for this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">SeeAlso</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">SeeAlso</a>
 
 
 </td>
@@ -958,7 +958,7 @@ Gets and sets the array of ADsPaths of other objects related to this user.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">TelephoneHome</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">TelephoneHome</a>
 
 
 </td>
@@ -974,7 +974,7 @@ Gets and sets the list of home phone numbers of the user. In Active Directory th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">TelephoneMobile</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">TelephoneMobile</a>
 
 
 </td>
@@ -990,7 +990,7 @@ Gets and sets the list of mobile phone numbers of the user. In Active Directory 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">TelephoneNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">TelephoneNumber</a>
 
 
 </td>
@@ -1006,7 +1006,7 @@ Gets and sets the list of work-related phone numbers. In Active Directory the li
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">TelephonePager</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">TelephonePager</a>
 
 
 </td>
@@ -1022,7 +1022,7 @@ Gets and sets the list of pager phone numbers.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">Title</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">Title</a>
 
 
 </td>
@@ -1042,9 +1042,9 @@ Gets and sets the user's title within the organization.
 
 
 
-As with any other ADSI object, the container object creates a Windows user account object. First, bind to a container object. Then, call the  <a href="https://msdn.microsoft.com/9498ef4d-7a03-487f-91a7-189f17a38a24">IADsContainer::Create</a> method and specify mandatory or optional attributes.
+As with any other ADSI object, the container object creates a Windows user account object. First, bind to a container object. Then, call the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create">IADsContainer::Create</a> method and specify mandatory or optional attributes.
 
-With WinNT, you do not have to specify any additional attributes when creating a user. You may call the <a href="https://msdn.microsoft.com/9498ef4d-7a03-487f-91a7-189f17a38a24">IADsContainer::Create</a> method to create the user object directly.
+With WinNT, you do not have to specify any additional attributes when creating a user. You may call the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create">IADsContainer::Create</a> method to create the user object directly.
 
 
 ```vb
@@ -1199,20 +1199,20 @@ The newly created local user will have the same default properties as the domain
 
 
 
-<a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://msdn.microsoft.com/9498ef4d-7a03-487f-91a7-189f17a38a24">IADsContainer::Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create">IADsContainer::Create</a>
 
 
 
-<a href="https://msdn.microsoft.com/02d0e5f1-8bc9-4ef6-962d-432654ca8433">IADsUser
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsuser-property-methods">IADsUser
     Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

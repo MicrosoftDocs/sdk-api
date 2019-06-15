@@ -122,15 +122,15 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377318(v=VS.85).aspx">IVideoWindow::put_BorderColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_bordercolor">IVideoWindow::put_BorderColor</a>
  
 
  

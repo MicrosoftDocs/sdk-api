@@ -54,7 +54,7 @@ Deprecated. Exposes methods that allow the retrieval of properties, translation 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupportXP</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IExpDispSupportXP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpDispSupportXP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpDispSupportXP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExpDispSupportXP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fca737b-d381-4feb-9c5d-c038eecdadb7">FindCIE4ConnectionPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-findcie4connectionpoint">FindCIE4ConnectionPoint</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Gets a connection point for browser events.
@@ -78,7 +78,7 @@ Deprecated. Gets a connection point for browser events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92ae2e5c-466e-4f73-a2e3-7d040e756a50">OnInvoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-oninvoke">OnInvoke</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -87,7 +87,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7afdcd4d-76c6-41ff-b754-83068d5ca5cd">OnTranslateAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-iexpdispsupportxp-ontranslateaccelerator">OnTranslateAccelerator</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

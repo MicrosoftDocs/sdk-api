@@ -103,15 +103,15 @@ The attribute is a 128-bit <b>GUID</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/7c46413f-3e51-4d72-b7f7-a8239c61b161">IStreamBufferRecordingAttribute Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordingattribute">IStreamBufferRecordingAttribute Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b17626a-9268-4192-8acf-ed46bf632163">STREAMBUFFER_ATTRIBUTE Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-streambuffer_attribute">STREAMBUFFER_ATTRIBUTE Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/36cd9e1c-daca-428b-96c7-f50c31d5ba4c">Stream Buffer Engine Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-types">Stream Buffer Engine Enumeration Types</a>
  
 
  

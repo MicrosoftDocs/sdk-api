@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains information about a registry value. The 
-<a href="https://msdn.microsoft.com/e718534a-6e68-40f5-9cdd-170ce9b5e6e5">RegQueryMultipleValues</a> function uses this structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a> function uses this structure.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Contains information about a registry value. The
 ### -field ve_valuename
 
 The name of the value to be retrieved. Be sure to set this member before calling 
-<a href="https://msdn.microsoft.com/e718534a-6e68-40f5-9cdd-170ce9b5e6e5">RegQueryMultipleValues</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
 
 
 ### -field ve_valuelen
@@ -74,13 +74,13 @@ The size of the data pointed to by <b>ve_valueptr</b>, in bytes.
 ### -field ve_valueptr
 
 A pointer to the data for the value entry. This is a pointer to the value's data returned in the <b>lpValueBuf</b> buffer filled in by 
-<a href="https://msdn.microsoft.com/e718534a-6e68-40f5-9cdd-170ce9b5e6e5">RegQueryMultipleValues</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
 
 
 ### -field ve_type
 
 The type of data pointed to by <b>ve_valueptr</b>. For a list of the possible types, see 
-<a href="https://msdn.microsoft.com/5fd828d6-4d62-4823-a2f1-15782b5cd28c">Registry Value Types</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ The type of data pointed to by <b>ve_valueptr</b>. For a list of the possible ty
 
 
 
-<a href="https://msdn.microsoft.com/e718534a-6e68-40f5-9cdd-170ce9b5e6e5">RegQueryMultipleValues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>
  
 
  

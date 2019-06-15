@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Saves the <a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">ICreateTypeLib</a> instance following the layout of type information.
+Saves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> instance following the layout of type information.
 
 
 ## -parameters
@@ -146,7 +146,7 @@ The state of the type library is not valid for this operation.
 
 
 
-You should not call any other <a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">ICreateTypeLib</a> methods after calling <b>SaveAllChanges</b>.
+You should not call any other <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> methods after calling <b>SaveAllChanges</b>.
 
 
 
@@ -157,7 +157,7 @@ You should not call any other <a href="https://msdn.microsoft.com/d245cd25-ce31-
 
 
 
-<a href="https://msdn.microsoft.com/d245cd25-ce31-42da-a42d-dc412d5b98e7">ICreateTypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
  
 
  

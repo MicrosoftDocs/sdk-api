@@ -63,7 +63,7 @@ Get the preferred orientation of glyphs when using a vertical reading direction.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/F13CD254-0D6A-4549-A2C2-3D3126E7B2EB">DWRITE_VERTICAL_GLYPH_ORIENTATION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_orientation">DWRITE_VERTICAL_GLYPH_ORIENTATION</a></b>
 
 The preferred orientation of glyphs when using a vertical reading direction.
 
@@ -75,7 +75,7 @@ The preferred orientation of glyphs when using a vertical reading direction.
 
 
 
-<a href="https://msdn.microsoft.com/15295A17-E542-4071-AE38-02014A1235D5">IDWriteTextFormat1</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
  
 
  

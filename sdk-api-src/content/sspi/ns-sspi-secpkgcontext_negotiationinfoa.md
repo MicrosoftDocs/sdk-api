@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_NegotiationInfo</b> structure contains information on the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
+The <b>SecPkgContext_NegotiationInfo</b> structure contains information on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The <b>SecPkgContext_NegotiationInfo</b> structure contains information on the <
 ### -field PackageInfo
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure that provides general information about the security package chosen in the negotiate process, such as the name and capabilities of the package.
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure that provides general information about the security package chosen in the negotiate process, such as the name and capabilities of the package.
 
 
 ### -field NegotiationState

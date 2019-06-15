@@ -72,26 +72,26 @@ Pointer to a buffer used to contain a string of wide characters.
 
 ## -remarks
 
-The **UNICODE_STRING** structure is used to pass Unicode strings. Use [RtlUnicodeStringInit](https://msdn.microsoft.com/library/windows/hardware/ff562954) or [RtlUnicodeStringInitEx](https://msdn.microsoft.com/library/windows/hardware/ff562958) to initialize a **UNICODE_STRING** structure.
+The **UNICODE_STRING** structure is used to pass Unicode strings. Use [RtlUnicodeStringInit](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringinit) or [RtlUnicodeStringInitEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex) to initialize a **UNICODE_STRING** structure.
 
 If the string is null-terminated, **Length** does not include the trailing null character.
 
-The **MaximumLength** is used to indicate the length of **Buffer** so that if the string is passed to a conversion routine such as [RtlAnsiStringToUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561729) the returned string does not exceed the buffer size.
+The **MaximumLength** is used to indicate the length of **Buffer** so that if the string is passed to a conversion routine such as [RtlAnsiStringToUnicodeString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodestring) the returned string does not exceed the buffer size.
 
 ## -see-also
 
-[ANSI_STRING](https://msdn.microsoft.com/library/windows/hardware/ff540605)
+[ANSI_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string)
 
-[OEM_STRING](https://msdn.microsoft.com/library/windows/hardware/ff558741)
+[OEM_STRING](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff558741(v=vs.85))
 
-[RtlAnsiStringToUnicodeSize](https://msdn.microsoft.com/library/windows/hardware/ff561725)
+[RtlAnsiStringToUnicodeSize](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodesize)
 
-[RtlAnsiStringToUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561729)
+[RtlAnsiStringToUnicodeString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodestring)
 
-[RtlFreeUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561903)
+[RtlFreeUnicodeString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfreeunicodestring)
 
-[RtlInitUnicodeString](https://msdn.microsoft.com/library/windows/hardware/ff561934)
+[RtlInitUnicodeString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitunicodestring)
 
-[RtlUnicodeStringToAnsiSize](https://msdn.microsoft.com/library/windows/hardware/ff553248)
+[RtlUnicodeStringToAnsiSize](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansisize)
 
-[RtlUnicodeStringToAnsiString](https://msdn.microsoft.com/library/windows/hardware/ff562969)
+[RtlUnicodeStringToAnsiString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtoansistring)

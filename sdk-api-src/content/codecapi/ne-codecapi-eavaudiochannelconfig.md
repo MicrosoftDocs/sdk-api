@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the <a href="https://msdn.microsoft.com/ec13bb55-47af-4d79-9560-d297bce8e236">AVAudioChannelConfig</a> property.
+Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelconfig-property">AVAudioChannelConfig</a> property.
 
 
 
@@ -154,7 +154,7 @@ Top, back right
 
 
 
-These values correspond to the flags used for the <b>dwChannelMask</b> member of the <a href="https://msdn.microsoft.com/b16cdcab-fa4f-4c9a-b1f3-af459bd33245">WAVEFORMATEXTENSIBLE</a> structure.
+These values correspond to the flags used for the <b>dwChannelMask</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)">WAVEFORMATEXTENSIBLE</a> structure.
 
 
 
@@ -164,11 +164,11 @@ These values correspond to the flags used for the <b>dwChannelMask</b> member of
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

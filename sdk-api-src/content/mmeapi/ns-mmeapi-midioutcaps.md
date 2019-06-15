@@ -62,12 +62,12 @@ The <b>MIDIOUTCAPS</b> structure describes the capabilities of a MIDI output dev
 
 ### -field wMid
 
-Manufacturer identifier of the device driver for the MIDI output device. Manufacturer identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
+Manufacturer identifier of the device driver for the MIDI output device. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 
 ### -field wPid
 
-Product identifier of the MIDI output device. Product identifiers are defined in <a href="https://msdn.microsoft.com/ab68ffd2-208f-445b-9f5c-37159edb4d4b">Manufacturer and Product Identifiers</a>.
+Product identifier of the MIDI output device. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 
 ### -field vDriverVersion
@@ -213,7 +213,7 @@ Supports separate left and right volume control.
 </dl>
 </td>
 <td width="60%">
-Provides direct support for the <a href="https://msdn.microsoft.com/f2ebc646-7d8b-4fde-a6fc-2455b02d3d8b">midiStreamOut</a> function.
+Provides direct support for the <a href="https://docs.microsoft.com/previous-versions//dd798487(v=vs.85)">midiStreamOut</a> function.
 
 </td>
 </tr>
@@ -238,15 +238,15 @@ If a device supports volume changes, the MIDICAPS_VOLUME flag will be set for th
 
 
 
-<a href="https://msdn.microsoft.com/48c775df-a7f9-49f7-a2e3-74210cf1af4a">MIDI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c81e1dc-ee6b-4a59-8992-8ec869264d4f">Musical Instrument Digital Interface (MIDI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2ebc646-7d8b-4fde-a6fc-2455b02d3d8b">midiStreamOut</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798487(v=vs.85)">midiStreamOut</a>
  
 
  

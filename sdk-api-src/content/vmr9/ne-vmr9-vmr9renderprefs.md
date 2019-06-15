@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering preferences for the VMR-9. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd377368(v=VS.85).aspx">IVMRFilterConfig9::GetRenderingPrefs</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd377372(v=VS.85).aspx">IVMRFilterConfig9::SetRenderingPrefs</a> methods.
+The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering preferences for the VMR-9. It is used with the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-getrenderingprefs">IVMRFilterConfig9::GetRenderingPrefs</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">IVMRFilterConfig9::SetRenderingPrefs</a> methods.
 
 
 
@@ -75,7 +75,7 @@ Bitwise <b>OR</b> of all flags; not used by applications.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

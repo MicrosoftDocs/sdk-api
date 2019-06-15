@@ -71,7 +71,7 @@ Specifies the device's physical adapter for which the video memory information i
 
 ### -param MemorySegmentGroup [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2FE35513-040E-41BF-866E-A13679C4F322">DXGI_MEMORY_SEGMENT_GROUP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/ne-dxgi1_4-dxgi_memory_segment_group">DXGI_MEMORY_SEGMENT_GROUP</a></b>
 
 Specifies a DXGI_MEMORY_SEGMENT_GROUP that identifies the group as local or non-local.
           
@@ -79,7 +79,7 @@ Specifies a DXGI_MEMORY_SEGMENT_GROUP that identifies the group as local or non-
 
 ### -param pVideoMemoryInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/E710F3A9-CB12-43B0-B56C-789350BCAE59">DXGI_QUERY_VIDEO_MEMORY_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/ns-dxgi1_4-dxgi_query_video_memory_info">DXGI_QUERY_VIDEO_MEMORY_INFO</a>*</b>
 
 Fills in a DXGI_QUERY_VIDEO_MEMORY_INFO structure with the current values.
           
@@ -89,10 +89,10 @@ Fills in a DXGI_QUERY_VIDEO_MEMORY_INFO structure with the current values.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
           
 
 
@@ -114,7 +114,7 @@ Applications must explicitly manage their usage of physical memory explicitly an
 
 
 
-<a href="https://msdn.microsoft.com/547840B4-4AAB-4049-8D79-BD34BA4D32CD">IDXGIAdapter3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
  
 
  

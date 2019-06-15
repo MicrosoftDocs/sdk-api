@@ -59,12 +59,12 @@ Retrieves the time that an object was last modified.
 
 ### -param pmkObjectName [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface on the moniker.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker.
 
 
 ### -param pfiletime [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that receives the object's last change time.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the object's last change time.
 
 
 
@@ -111,12 +111,12 @@ There is no entry for <i>pmkObjectName</i> in the ROT, or that the object it ide
 
 
 
-This method returns the change time that was last reported for this object by a call to <a href="https://msdn.microsoft.com/7bc410f8-3a39-478d-bc4d-adcd976f305b">IRunningObjectTable::NoteChangeTime</a>. If <b>NoteChangeTime</b> has not been called previously, the method returns the time that was recorded when the object was registered.
+This method returns the change time that was last reported for this object by a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-notechangetime">IRunningObjectTable::NoteChangeTime</a>. If <b>NoteChangeTime</b> has not been called previously, the method returns the time that was recorded when the object was registered.
 
-This method is provided to enable checking whether a connection between two objects (represented by one object holding a moniker that identifies the other) is up-to-date. For example, if one object is holding cached information about the other object, this method can be used to check whether the object has been modified since the cache was last updated. See <a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a>.
+This method is provided to enable checking whether a connection between two objects (represented by one object holding a moniker that identifies the other) is up-to-date. For example, if one object is holding cached information about the other object, this method can be used to check whether the object has been modified since the cache was last updated. See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a>.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Generally, you call <b>GetTimeOfLastChange</b> only if you are writing your own moniker class (that is, implementing the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface). You typically call this method from your implementation of <a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a>. However, you should do so only if the <i>pmkToLeft</i> parameter of <b>IMoniker::GetTimeOfLastChange</b> is <b>NULL</b>. Otherwise, you should call <b>IMoniker::GetTimeOfLastChange</b> on your <i>pmkToLeft</i> parameter instead.
+Generally, you call <b>GetTimeOfLastChange</b> only if you are writing your own moniker class (that is, implementing the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface). You typically call this method from your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a>. However, you should do so only if the <i>pmkToLeft</i> parameter of <b>IMoniker::GetTimeOfLastChange</b> is <b>NULL</b>. Otherwise, you should call <b>IMoniker::GetTimeOfLastChange</b> on your <i>pmkToLeft</i> parameter instead.
 
 
 
@@ -126,11 +126,11 @@ Generally, you call <b>GetTimeOfLastChange</b> only if you are writing your own 
 
 
 
-<a href="https://msdn.microsoft.com/120cc951-6797-4ef6-890b-57ff8d3d23ba">IMoniker::GetTimeOfLastChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-gettimeoflastchange">IMoniker::GetTimeOfLastChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff89bcb5-df6d-4325-b0e8-613217a68f42">IRunningObjectTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
  
 
  

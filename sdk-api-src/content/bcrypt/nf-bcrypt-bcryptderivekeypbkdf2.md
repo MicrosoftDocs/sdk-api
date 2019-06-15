@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="http://go.microsoft.com/fwlink/p/?linkid=133482">RFC 2898</a>.
+The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> value by using the PBKDF2 key derivation algorithm as defined by <a href="http://go.microsoft.com/fwlink/p/?linkid=133482">RFC 2898</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>BCryptDeriveKeyPBKDF2</b> function derives a key from a <a href="https://
 
 ### -param hPrf [in]
 
-The handle of an algorithm provider that provides the pseudo-random function. This should be an algorithm provider that performs a <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">Message Authentication Code</a> computation. When you use the default Microsoft algorithm provider, any <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing algorithm</a> opened by using the  <b>BCRYPT_ALG_HANDLE_HMAC_FLAG</b> flag can be used.
+The handle of an algorithm provider that provides the pseudo-random function. This should be an algorithm provider that performs a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> computation. When you use the default Microsoft algorithm provider, any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a> opened by using the  <b>BCRYPT_ALG_HANDLE_HMAC_FLAG</b> flag can be used.
 
 <div class="alert"><b>Note</b>  Only algorithms that implement the BCRYPT_IS_KEYED_HASH  property can be used to populate this parameter.</div>
 <div> </div>

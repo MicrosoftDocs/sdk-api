@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>ICertEncodeStringArray</b> interface provides methods for handling string arrays used in certificate extensions.
 
  A certificate extension can be created by using a string array stored in an 
-<a href="https://msdn.microsoft.com/fb106cab-8a61-4a83-8fb4-7c045d905575">extension handler</a> COM object instantiated by the policy module. Each element in the array is a string value.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/extension-handlers">extension handler</a> COM object instantiated by the policy module. Each element in the array is a string value.
 
 This interface is provided mainly as a demonstration for encoding custom extensions. The Certificate Services sample programs in the Platform Software Development Kit (SDK) contain source code for this interface.
 
@@ -63,7 +63,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeStringArray</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeStringArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeStringArray</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertEncodeStringArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,16 +78,16 @@ The <b>ICertEncodeStringArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35799b54-2c04-4bb4-a227-d2902b2379ec">Decode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-decode">Decode</a>
 </td>
 <td align="left" width="63%">
-Decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded string array and stores the resulting array of strings in the COM object.
+Decodes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded string array and stores the resulting array of strings in the COM object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8fc51ea-4d83-402a-a4ac-ce55d385905c">Encode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-encode">Encode</a>
 </td>
 <td align="left" width="63%">
 Performs ASN.1 encoding on a string array stored in the COM object and returns the ASN.1-encoded string array.
@@ -96,7 +96,7 @@ Performs ASN.1 encoding on a string array stored in the COM object and returns t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c02a23ea-87c2-4458-8b1a-b010e8103a90">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of values in a string array.
@@ -105,7 +105,7 @@ Returns the number of values in a string array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7020f364-4f92-46b8-a8e8-360d8e0fa051">GetStringType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-getstringtype">GetStringType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of values contained in a string array.
@@ -114,7 +114,7 @@ Returns the type of values contained in a string array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93f827c6-4dc6-462f-8865-eb631d7fe7bc">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Returns the value at a specified index of a string array.
@@ -123,7 +123,7 @@ Returns the value at a specified index of a string array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/125524ae-236d-4507-9c00-76a016bf6c62">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a string array to a specified type and number of elements, and clears the values.
@@ -132,7 +132,7 @@ Resets a string array to a specified type and number of elements, and clears the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a value at a specified index of a string array.

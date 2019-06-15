@@ -73,7 +73,7 @@ The number of the highest node.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,12 +85,12 @@ If the function fails, the return value is zero. To get extended error informati
 The number of the highest node is not guaranteed to be the total number of nodes.
 
 To retrieve a list of all processors in a node, use the 
-<a href="https://msdn.microsoft.com/bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8">GetNumaNodeProcessorMask</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/df025b35-fb6b-4987-806e-9c76e6b130a1">Allocating Memory from a NUMA Node</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/allocating-memory-from-a-numa-node">Allocating Memory from a NUMA Node</a>.
 
 <div class="code"></div>
 
@@ -101,15 +101,15 @@ For an example, see <a href="https://msdn.microsoft.com/df025b35-fb6b-4987-806e-
 
 
 
-<a href="https://msdn.microsoft.com/bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8">GetNumaNodeProcessorMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
  
 
  

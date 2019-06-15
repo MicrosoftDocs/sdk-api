@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMRPRESENTATIONINFO</code> structure is used in the <a href="https://msdn.microsoft.com/df6bf45d-df92-4655-862c-704a12a62ff9">IVMRImagePresenter::PresentImage</a> method (VMR-7 only).
+The <code>VMRPRESENTATIONINFO</code> structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenter-presentimage">IVMRImagePresenter::PresentImage</a> method (VMR-7 only).
 
 
 
@@ -63,7 +63,7 @@ The <code>VMRPRESENTATIONINFO</code> structure is used in the <a href="https://m
 
 ### -field dwFlags
 
-A bitwise combination of flags from the <a href="https://msdn.microsoft.com/27aab657-802e-4967-a5bd-3907637e1cfe">VMRPresentationFlags</a> enumeration, which describe the status of the video sample with respect to its presentation time.
+A bitwise combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmrpresentationflags">VMRPresentationFlags</a> enumeration, which describe the status of the video sample with respect to its presentation time.
 
 
 ### -field lpSurf
@@ -103,12 +103,12 @@ The destination rectangle.
 
 ### -field dwTypeSpecificFlags
 
-Bitwise combination of flags, as defined for the <b>dwTypeSpecificFlags</b> member of the <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a> structure.
+Bitwise combination of flags, as defined for the <b>dwTypeSpecificFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagam_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure.
 
 
 ### -field dwInterlaceFlags
 
-Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member of the <a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a> structure.
+Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a> structure.
 
 
 ## -see-also
@@ -116,11 +116,11 @@ Bitwise combination of flags, as defined for the <b>dwInterlaceFlags</b> member 
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-tagvideoinfoheader2">VIDEOINFOHEADER2</a>
  
 
  

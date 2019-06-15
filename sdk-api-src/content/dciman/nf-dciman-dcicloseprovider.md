@@ -62,7 +62,7 @@ Closes a device context of a display.
 
 ### -param hdc [in]
 
-The device context handle to be closed.  The handle was created with <a href="https://msdn.microsoft.com/en-us/library/ms648432(v=VS.85).aspx">DCIOpenProvider</a>.
+The device context handle to be closed.  The handle was created with <a href="https://docs.microsoft.com/windows/desktop/api/dciman/nf-dciman-dciopenprovider">DCIOpenProvider</a>.
  
 
 
@@ -82,7 +82,7 @@ If the function succeeds, the return value is nonzero.  Otherwise, it returns ze
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
  
 
  

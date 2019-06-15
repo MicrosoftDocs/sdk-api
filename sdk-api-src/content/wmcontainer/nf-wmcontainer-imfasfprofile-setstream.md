@@ -63,7 +63,7 @@ Adds a stream to the profile or reconfigures an existing stream.
 
 ### -param pIStream [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/7bb63396-21c2-400d-b9de-c00b90f46d62">IMFASFStreamConfig</a> interface of a configured ASF stream configuration object.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a> interface of a configured ASF stream configuration object.
 
 
 ## -returns
@@ -108,31 +108,31 @@ If the stream number in the ASF stream configuration object is already included 
 
 
 
-<a href="https://msdn.microsoft.com/03a0981b-29c3-450d-aa58-bc56a76e6cb6">ASF Profile</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe441c61-1be7-4fda-a2a3-bd79ecf4e54c">IMFASFProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/918f6534-811e-42f6-9836-1c77816007fa">IMFASFProfile::GetStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream">IMFASFProfile::GetStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e3fadf0-1549-4d51-b263-727b15c55023">IMFASFProfile::GetStreamByNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber">IMFASFProfile::GetStreamByNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf8c6157-3420-4097-8ab6-f307a69d418a">IMFASFProfile::GetStreamCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount">IMFASFProfile::GetStreamCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfe404d3-66ea-407b-a2e0-caa065f41afe">IMFASFProfile::RemoveStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removestream">IMFASFProfile::RemoveStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bb63396-21c2-400d-b9de-c00b90f46d62">IMFASFStreamConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
  
 
  

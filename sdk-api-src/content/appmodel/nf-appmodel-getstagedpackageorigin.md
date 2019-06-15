@@ -71,9 +71,9 @@ The full name of the package.
 
 ### -param origin [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0CB9CE97-8A54-4BE7-B054-00F29D36CAB2">PackageOrigin</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>*</b>
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/0CB9CE97-8A54-4BE7-B054-00F29D36CAB2">PackageOrigin</a>-typed value that indicates the origin of the package specified by <i>packageFullName</i>.
+A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ne-appmodel-packageorigin">PackageOrigin</a>-typed value that indicates the origin of the package specified by <i>packageFullName</i>.
 
 
 ## -returns

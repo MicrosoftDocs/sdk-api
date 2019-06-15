@@ -60,13 +60,13 @@ Sends a packet to a client request.
 ### -param hClientRequest [in]
 
 Handle to the client request received in the 
-      <a href="https://msdn.microsoft.com/704972d5-177a-490e-881f-d2b3025babda">PxeProviderRecvRequest</a> callback.
+      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
 
 
 ### -param pPacket [in]
 
 Pointer to packet allocated by the 
-      <a href="https://msdn.microsoft.com/f3a664a8-565c-4894-bea7-6664df0ecd9b">PxePacketAllocate</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
 
 
 ### -param uPacketLen [in]
@@ -76,7 +76,7 @@ Length of the packet pointed to by the <i>pPacket</i> parameter.
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ee961e38-331c-4da0-80d1-68d5503f07ea">PXE_ADDRESS</a> structure that contains the 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_address">PXE_ADDRESS</a> structure that contains the 
       destination address of the packet. If the <i>pAddress</i> parameter is 
       <b>NULL</b>, then the packet is sent to the source address of the client request.
 
@@ -95,19 +95,19 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://msdn.microsoft.com/ee961e38-331c-4da0-80d1-68d5503f07ea">PXE_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_address">PXE_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3a664a8-565c-4894-bea7-6664df0ecd9b">PxePacketAllocate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/704972d5-177a-490e-881f-d2b3025babda">PxeProviderRecvRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

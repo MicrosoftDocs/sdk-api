@@ -69,7 +69,7 @@ A string that contains a MIME type with an optional codecs parameter, as defined
 
 ### -param pAnswer [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/AABABB09-D45F-474C-B692-DC3592ED164F">MF_MEDIA_ENGINE_CANPLAY</a> enumeration.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_canplay">MF_MEDIA_ENGINE_CANPLAY</a> enumeration.
 
 
 ## -returns
@@ -95,7 +95,7 @@ Implement this method if your Media Engine extension supports one or more MIME t
 
 
 
-<a href="https://msdn.microsoft.com/A032E0D0-2201-4B81-9FE0-8E9CE2707FDB">IMFMediaEngineExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
  
 
  

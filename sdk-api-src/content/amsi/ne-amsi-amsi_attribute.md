@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-The <b>AMSI_ATTRIBUTE</b> enumeration specifies the types of attributes that can be requested by <a href="https://msdn.microsoft.com/7AD74D85-1A1E-4AFD-91C1-670AC7280285">IAmsiStream::GetAttribute</a>.
+The <b>AMSI_ATTRIBUTE</b> enumeration specifies the types of attributes that can be requested by <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-iamsistream-getattribute">IAmsiStream::GetAttribute</a>.
 
 ## -enum-fields
 

@@ -117,7 +117,7 @@ The current side-by-side assembly does not have the specified configuration.
 
 
 
-<a href="https://msdn.microsoft.com/34c97d61-694e-4ee3-92ed-55b0a787b747">ICheckSxsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ichecksxsconfig">ICheckSxsConfig</a>
  
 
  

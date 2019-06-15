@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <b>IConfigInterleaving</b> interface controls how the <a href="https://msdn.microsoft.com/31d30c91-fc6a-45ec-a2e0-34e6a1e902a4">AVI Mux</a> filter interleaves audio and video samples. Video-authoring applications that handle capturing should use this interface when they need to control how audio samples and video frames will be saved on a disk.
+The <b>IConfigInterleaving</b> interface controls how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter interleaves audio and video samples. Video-authoring applications that handle capturing should use this interface when they need to control how audio samples and video frames will be saved on a disk.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigInterleaving</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConfigInterleaving</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigInterleaving</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigInterleaving</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IConfigInterleaving</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/659aa136-c7fd-4955-913b-26f7c05325a8">get_Interleaving</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_interleaving">get_Interleaving</a>
 </td>
 <td align="left" width="63%">
 Gets the audio preroll time and the frequency of interleaving
@@ -82,7 +82,7 @@ Gets the audio preroll time and the frequency of interleaving
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02136798-1c49-4181-ad08-d128f580dbd4">get_Mode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_mode">get_Mode</a>
 </td>
 <td align="left" width="63%">
 Gets the interleaving quality setting.
@@ -91,7 +91,7 @@ Gets the interleaving quality setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b1363c4-9cdd-4b28-a5ea-e5e554597be2">put_Interleaving</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_interleaving">put_Interleaving</a>
 </td>
 <td align="left" width="63%">
 Sets the audio preroll time and the frequency of interleaving
@@ -100,7 +100,7 @@ Sets the audio preroll time and the frequency of interleaving
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62b06dc2-2e71-4a14-82e5-63e921a3c11f">put_Mode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_mode">put_Mode</a>
 </td>
 <td align="left" width="63%">
 Sets how audio samples and video frames will be saved on disk by specifying quality of interleaving.
@@ -115,7 +115,7 @@ Sets how audio samples and video frames will be saved on disk by specifying qual
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

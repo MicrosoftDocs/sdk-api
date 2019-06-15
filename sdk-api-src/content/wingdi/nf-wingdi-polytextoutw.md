@@ -68,12 +68,12 @@ A handle to the device context.
 
 ### -param ppt [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/6f03e2ff-c15f-498c-8c3d-33106222279e">POLYTEXT</a> structures describing the strings to be drawn. The array contains one structure for each string to be drawn.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpolytexta">POLYTEXT</a> structures describing the strings to be drawn. The array contains one structure for each string to be drawn.
 
 
 ### -param nstrings [in]
 
-The number of <a href="https://msdn.microsoft.com/6f03e2ff-c15f-498c-8c3d-33106222279e">POLYTEXT</a> structures in the <i>pptxt</i> array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpolytexta">POLYTEXT</a> structures in the <i>pptxt</i> array.
 
 
 ## -returns
@@ -91,9 +91,9 @@ If the function fails, the return value is zero.
 
 
 
-Each <a href="https://msdn.microsoft.com/6f03e2ff-c15f-498c-8c3d-33106222279e">POLYTEXT</a> structure contains the coordinates of a reference point that Windows uses to align the corresponding string of text. An application can specify how the reference point is used by calling the <a href="https://msdn.microsoft.com/422868c5-14c9-4374-9cc5-b7bf91ab9eb4">SetTextAlign</a> function. An application can determine the current text-alignment setting for the specified device context by calling the <a href="https://msdn.microsoft.com/d3ec0350-2eb8-4843-88bb-d72cece710e7">GetTextAlign</a> function.
+Each <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpolytexta">POLYTEXT</a> structure contains the coordinates of a reference point that Windows uses to align the corresponding string of text. An application can specify how the reference point is used by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function. An application can determine the current text-alignment setting for the specified device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a> function.
 
-To draw a single string of text, the application should call the <a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a> function.
+To draw a single string of text, the application should call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> function.
 
 
 
@@ -103,27 +103,27 @@ To draw a single string of text, the application should call the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/74f8fcb8-8ad4-47f2-a330-fa56713bdb37">ExtTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3ec0350-2eb8-4843-88bb-d72cece710e7">GetTextAlign</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextalign">GetTextAlign</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f03e2ff-c15f-498c-8c3d-33106222279e">POLYTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagpolytexta">POLYTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/422868c5-14c9-4374-9cc5-b7bf91ab9eb4">SetTextAlign</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
  
 
  

@@ -55,8 +55,8 @@ The <b>LevelsParams</b> structure contains members that specify adjustments to t
 You can adjust the light, midtone, or dark areas of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>LevelsParams</b> structure.</li>
-<li>Pass the address of the <b>LevelsParams</b> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms535361(v=VS.85).aspx">Levels::SetParameters</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>LevelsParams</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-levels-setparameters">Levels::SetParameters</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a> object.</li>
+<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a> object to the <a href="https://docs.microsoft.com/previous-versions//ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

@@ -75,7 +75,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-Calling the <a href="https://msdn.microsoft.com/en-us/library/Dd694613(v=VS.85).aspx">IMSVidRect::put_Top</a> method changes the height of the rectangle. For example, if the y-coordinate is zero and the height is 100, setting the y-coordinate to 10 changes the height to 90.
+Calling the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_top">IMSVidRect::put_Top</a> method changes the height of the rectangle. For example, if the y-coordinate is zero and the height is 100, setting the y-coordinate to 10 changes the height to 90.
 
 
 
@@ -85,11 +85,11 @@ Calling the <a href="https://msdn.microsoft.com/en-us/library/Dd694613(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/0b3cf31b-e0cc-4208-a128-b77460fc0f1b">IMSVidRect Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694609(v=VS.85).aspx">IMSVidRect::put_Height</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidrect-put_height">IMSVidRect::put_Height</a>
  
 
  

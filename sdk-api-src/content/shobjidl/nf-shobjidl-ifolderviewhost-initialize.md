@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes the object that hosts an <a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a> object.
+Initializes the object that hosts an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> object.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Initializes the object that hosts an <a href="https://msdn.microsoft.com/3bc2615
 
 Type: <b>HWND</b>
 
-The handle of the window that contains the <a href="https://msdn.microsoft.com/1e3d4a9a-6336-4667-92dd-9dc9678606e9">IFolderViewHost</a> object.
+The handle of the window that contains the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ifolderviewhost">IFolderViewHost</a> object.
 
 
 ### -param pdo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
 The address of a pointer to a data object.
 

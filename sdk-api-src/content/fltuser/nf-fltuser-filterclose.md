@@ -59,7 +59,7 @@ The <b>FilterClose</b> function closes an open minifilter handle.
 
 ### -param hFilter [in]
 
-Minifilter handle returned by a previous call to <a href="https://msdn.microsoft.com/950e0b5b-4ee3-4eed-9039-823a6942cd38">FilterCreate</a>. 
+Minifilter handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>. 
 
 
 ## -returns
@@ -77,9 +77,9 @@ Minifilter handle returned by a previous call to <a href="https://msdn.microsoft
 
 After <b>FilterClose</b> is called, the minifilter handle that the <i>hFilter</i> parameter specifies is no longer valid and cannot safely be used. 
 
-Use <b>FilterClose</b> to close open minifilter handles returned by calls to <a href="https://msdn.microsoft.com/950e0b5b-4ee3-4eed-9039-823a6942cd38">FilterCreate</a>. Use <a href="https://msdn.microsoft.com/053c06b0-3bfd-436c-ab98-14c55e66da53">FilterFindClose</a> to close handles returned by calls to <a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a>. 
+Use <b>FilterClose</b> to close open minifilter handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>. Use <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a> to close handles returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>. 
 
-To close a connection port handle that was opened by calling <a href="https://msdn.microsoft.com/294783f2-2cbf-4eea-82ae-a396c62f911a">FilterConnectCommunicationPort</a>, use <a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>. 
+To close a connection port handle that was opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>, use <a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>. 
 
 
 
@@ -93,19 +93,19 @@ To close a connection port handle that was opened by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/294783f2-2cbf-4eea-82ae-a396c62f911a">FilterConnectCommunicationPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/950e0b5b-4ee3-4eed-9039-823a6942cd38">FilterCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtercreate">FilterCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/053c06b0-3bfd-436c-ab98-14c55e66da53">FilterFindClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindclose">FilterFindClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6a7c5a2-838d-47b1-ab16-aa1d27806f53">FilterFindFirst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterfindfirst">FilterFindFirst</a>
  
 
  

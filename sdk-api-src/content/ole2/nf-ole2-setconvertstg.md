@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>SetConvertStg</b> function sets the convert bit in a storage object to indicate that the object is to be converted to a new class when it is opened. The setting can be retrieved with a call to the 
-<a href="https://msdn.microsoft.com/748649a2-cf75-4ffa-ac1f-4a148b845d21">GetConvertStg</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a> function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pStg
 
 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> pointer to the storage object in which to set the conversion bit.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage object in which to set the conversion bit.
 
 
 ### -param fConvert
@@ -75,10 +75,10 @@ If <b>TRUE</b>, sets the conversion bit for the object to indicate the object is
 
 
 See the 
-<a href="https://msdn.microsoft.com/168f5ac9-8a72-4356-82a4-de3a7ec72c05">IStorage::CreateStream</a>, 
-<a href="https://msdn.microsoft.com/f7bd1f26-e9a3-415d-8cd3-dc34f7ad8feb">IStorage::OpenStream</a>, 
-<a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a>, and 
-<a href="https://msdn.microsoft.com/f0323dda-6c31-4411-bf20-9650162109c0">ISequentialStream::Write</a> methods for possible storage and stream access errors.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-createstream">IStorage::CreateStream</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstream">IStorage::OpenStream</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a> methods for possible storage and stream access errors.
 
 
 
@@ -89,28 +89,28 @@ See the
 
 The 
 <b>SetConvertStg</b> function determines the status of the convert bit in a contained object. It is called by both the container application and the server in the process of converting an object from one class to another. When a user specifies through a <b>Convert To</b> dialog (which the container produces with a call to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680694(v=VS.85).aspx">OleUIConvert</a> function) that an object is to be converted, the container must take the following steps:
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a> function) that an object is to be converted, the container must take the following steps:
 
 <ol>
 <li>Unload the object if it is currently loaded.</li>
 <li>Call 
-<a href="https://msdn.microsoft.com/5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e">WriteClassStg</a> to write the new CLSID to the object storage.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a> to write the new CLSID to the object storage.</li>
 <li>Call 
-<a href="https://msdn.microsoft.com/ef60493c-164e-4633-a248-05c4afade937">WriteFmtUserTypeStg</a> to write the new user-type name and the existing main format to the storage.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-writefmtusertypestg">WriteFmtUserTypeStg</a> to write the new user-type name and the existing main format to the storage.</li>
 <li>Call 
 <b>SetConvertStg</b> with the <i>fConvert</i> parameter set to <b>TRUE</b> to indicate that the object has been tagged for conversion to a new class the next time it is loaded.</li>
 <li>Just before the object is loaded, call 
-<a href="https://msdn.microsoft.com/en-us/library/ms695230(v=VS.85).aspx">OleDoAutoConvert</a> to handle any needed object conversion, unless you call 
-<a href="https://msdn.microsoft.com/en-us/library/ms694338(v=VS.85).aspx">OleLoad</a>, which calls it internally.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a> to handle any needed object conversion, unless you call 
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>, which calls it internally.</li>
 </ol>
 When an object is initialized from a storage object and the server is the destination of a convert-to operation, the object server should do the following:
 
 <ol>
 <li>Call the 
-<a href="https://msdn.microsoft.com/748649a2-cf75-4ffa-ac1f-4a148b845d21">GetConvertStg</a> function to retrieve the value of the conversion bit.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a> function to retrieve the value of the conversion bit.</li>
 <li>If the bit is set, the server reads the data out of the object according to the format associated with the new CLSID.</li>
 <li>When the object is asked to save itself, the object should call the 
-<a href="https://msdn.microsoft.com/ef60493c-164e-4633-a248-05c4afade937">WriteFmtUserTypeStg</a> function using the normal native format and user type of the object.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-writefmtusertypestg">WriteFmtUserTypeStg</a> function using the normal native format and user type of the object.</li>
 <li>The object should then call 
 <b>SetConvertStg</b> with the <i>fConvert</i> parameter set to <b>FALSE</b> to reset the object's conversion bit.</li>
 </ol>
@@ -122,7 +122,7 @@ When an object is initialized from a storage object and the server is the destin
 
 
 
-<a href="https://msdn.microsoft.com/748649a2-cf75-4ffa-ac1f-4a148b845d21">GetConvertStg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a>
  
 
  

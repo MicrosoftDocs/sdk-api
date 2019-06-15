@@ -103,11 +103,11 @@ The event types are not C/C++ language constants; they are literal text strings.
 
 
 
-<a href="https://msdn.microsoft.com/be49322a-99b2-4626-8e9d-29965bbe182d">IHWEventHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ihweventhandler">IHWEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5787ebd-2784-4e86-b749-93258a1a26bd">IHWEventHandler::HandleEventWithContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleeventwithcontent">IHWEventHandler::HandleEventWithContent</a>
  
 
  

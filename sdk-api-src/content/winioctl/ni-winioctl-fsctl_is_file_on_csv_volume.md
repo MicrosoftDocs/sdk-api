@@ -51,7 +51,7 @@ req.redist:
 Determines whether a file is stored on a CSVFS volume, or retrieves namespace 
     information.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -154,7 +154,7 @@ To determine whether a file is stored on a CSVFS volume, simply leave the <i>lpI
     contain <b>ERROR_SUCCESS</b>.
 
 To retrieve namespace information, specify a pointer to the same 
-    <a href="https://msdn.microsoft.com/E6F3D334-6974-40E2-B00A-17CA5F05C3F4">CSV_NAMESPACE_INFO</a> structure that is initially empty 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_namespace_info">CSV_NAMESPACE_INFO</a> structure that is initially empty 
     (except for the <b>Version</b> member) in both the <i>lpInBuffer</i> and 
     <i>lpOutBuffer</i> parameters. The information in that structure is filled in by the function 
     call.
@@ -167,19 +167,19 @@ To retrieve namespace information, specify a pointer to the same
 
 
 
-<a href="https://msdn.microsoft.com/E6F3D334-6974-40E2-B00A-17CA5F05C3F4">CSV_NAMESPACE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_namespace_info">CSV_NAMESPACE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

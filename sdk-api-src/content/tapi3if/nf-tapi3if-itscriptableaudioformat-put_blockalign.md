@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>put_BlockAlign</b> method sets the <b>nBlockAlign</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>nBlockAlign</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -returns
@@ -98,11 +98,11 @@ Method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6b5d069a-044f-4bd4-b661-6100a2607107">ITScriptableAudioFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat">ITScriptableAudioFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f96d37e-af8b-4f0e-9bc0-467e3684fadb">get_BlockAlign</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_blockalign">get_BlockAlign</a>
  
 
  

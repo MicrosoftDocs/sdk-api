@@ -54,7 +54,7 @@ The <b>IMathInputControl</b> interface exposes methods that turn ink input into 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMathInputControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMathInputControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMathInputControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMathInputControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMathInputControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb1c9172-b520-4f6e-ae15-52634aa30007">AddFunctionName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-addfunctionname">AddFunctionName</a>
 </td>
 <td align="left" width="63%">
 Adds a new function-name definition to the list of custom math functions that the recognizer accepts.
@@ -78,7 +78,7 @@ Adds a new function-name definition to the list of custom math functions that th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9482f82-a08a-498d-bad0-3a1438231b23">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears all ink from the control.
@@ -87,7 +87,7 @@ Clears all ink from the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23eae5ee-8f3d-4f54-9c30-b29f0c14ba7f">EnableAutoGrow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableautogrow">EnableAutoGrow</a>
 </td>
 <td align="left" width="63%">
 Determines whether the control automatically grows when input is entered beyond the control's current range.
@@ -96,7 +96,7 @@ Determines whether the control automatically grows when input is entered beyond 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8cdae54-ff0b-4361-bd38-1b99137736ab">EnableExtendedButtons</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableextendedbuttons">EnableExtendedButtons</a>
 </td>
 <td align="left" width="63%">
 Determines whether the extended set of control buttons is shown.
@@ -105,7 +105,7 @@ Determines whether the extended set of control buttons is shown.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/281695e6-295b-42d8-a184-c5a005de10e3">GetHoverIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-gethovericon">GetHoverIcon</a>
 </td>
 <td align="left" width="63%">
 Retrieves the hover target icon.
@@ -114,7 +114,7 @@ Retrieves the hover target icon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4928f92d-7150-434c-abe4-d65a48ce1a56">GetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position and size of the control.
@@ -123,7 +123,7 @@ Retrieves the position and size of the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b3404f5-b775-483f-b3a9-9467c937226b">GetPreviewHeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getpreviewheight">GetPreviewHeight</a>
 </td>
 <td align="left" width="63%">
 Retrieves the height in pixels of the preview area.
@@ -132,7 +132,7 @@ Retrieves the height in pixels of the preview area.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13b227bf-3ea5-4da1-998e-8809616d88b6">Hide</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-hide">Hide</a>
 </td>
 <td align="left" width="63%">
 Hides the control.
@@ -141,7 +141,7 @@ Hides the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4efc0fd5-5f07-4664-8143-46a5695c04df">IsVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-isvisible">IsVisible</a>
 </td>
 <td align="left" width="63%">
 Determines whether the control is visible.
@@ -150,7 +150,7 @@ Determines whether the control is visible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3313cb16-3400-48d5-8ba0-b3bd593b37ea">LoadInk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-loadink">LoadInk</a>
 </td>
 <td align="left" width="63%">
 Processes ink and triggers recognition.
@@ -159,7 +159,7 @@ Processes ink and triggers recognition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c1a16c7-4490-480d-9831-ca297ccdde80">RemoveFunctionName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname">RemoveFunctionName</a>
 </td>
 <td align="left" width="63%">
 Removes a function-name definition from the list of custom math functions that the recognizer accepts.
@@ -168,7 +168,7 @@ Removes a function-name definition from the list of custom math functions that t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8790fb9b-38df-42a4-9125-2c04d46aef0b">SetCaptionText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcaptiontext">SetCaptionText</a>
 </td>
 <td align="left" width="63%">
 Modifies the string that will be used as the control's caption when the window is created.
@@ -177,7 +177,7 @@ Modifies the string that will be used as the control's caption when the window i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f734b73c-88a9-45d0-a657-ff048d1f5ffe">SetCustomPaint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setcustompaint">SetCustomPaint</a>
 </td>
 <td align="left" width="63%">
 Determines whether a button or background has custom painting.
@@ -186,7 +186,7 @@ Determines whether a button or background has custom painting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f92f731-3297-4da3-a2b9-18e1583c8b1d">SetOwnerWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setownerwindow">SetOwnerWindow</a>
 </td>
 <td align="left" width="63%">
 Modifies the window that owns this control.
@@ -195,7 +195,7 @@ Modifies the window that owns this control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b5fc988-7c93-47d4-8661-4cef56cab0d0">SetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a>
 </td>
 <td align="left" width="63%">
 Modifies the location and size of the control.
@@ -204,7 +204,7 @@ Modifies the location and size of the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5e011f6-cd51-4016-ba15-c47c152bfa99">SetPreviewHeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setpreviewheight">SetPreviewHeight</a>
 </td>
 <td align="left" width="63%">
 Modifies the preview-area height in pixels.
@@ -213,7 +213,7 @@ Modifies the preview-area height in pixels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d45d1e73-eace-4611-a4a4-28706a19766c">Show</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show">Show</a>
 </td>
 <td align="left" width="63%">
 Shows the control.

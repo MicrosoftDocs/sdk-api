@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Retrieves the smallest <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection that contains a known input InkStrokes collection and for which the <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer</a> object can provide alternates.
+Retrieves the smallest <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that contains a known input InkStrokes collection and for which the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object can provide alternates.
 
 
 
@@ -149,9 +149,9 @@ An unspecified error occurred.
 
 The returned collection may match the input collection, or it may be larger if the input collection matches only part of the smallest recognition result that includes all of the input strokes.
 
-This method is most useful for single-click word selection. For example, to return the strokes that make up the word you clicked, you can click a stroke, call the <a href="https://msdn.microsoft.com/b87a1bc0-b17b-419b-947e-48746f4903e8">HitTest</a> method of the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object to retrieve the stroke that was clicked, and then call <b>GetStrokesFromStrokeRanges</b>.
+This method is most useful for single-click word selection. For example, to return the strokes that make up the word you clicked, you can click a stroke, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-hittestcircle">HitTest</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object to retrieve the stroke that was clicked, and then call <b>GetStrokesFromStrokeRanges</b>.
 
-The stroke ranges are valid until the <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object is modified.
+The stroke ranges are valid until the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object is modified.
 
 
 
@@ -161,19 +161,19 @@ The stroke ranges are valid until the <a href="https://msdn.microsoft.com/f942d6
 
 
 
-<a href="https://msdn.microsoft.com/7dd8fa24-191f-465d-abd2-9a489df0324a">GetStrokesFromTextRange Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromtextrange">GetStrokesFromTextRange Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b481e356-0a3c-4437-9700-6d8badcb0b0b">GetTextRangeFromStrokes Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-gettextrangefromstrokes">GetTextRangeFromStrokes Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognition Alternate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognition Alternate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

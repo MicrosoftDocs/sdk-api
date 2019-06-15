@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used in the <i>pConfigInformation</i> parameter of the <a href="https://msdn.microsoft.com/b0a6d442-2ff4-4e00-8301-696fb0864d8c">HttpSetServiceConfiguration</a> function.
+Used in the <i>pConfigInformation</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a> function.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ Configuration cache parameter.
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
  
 
  

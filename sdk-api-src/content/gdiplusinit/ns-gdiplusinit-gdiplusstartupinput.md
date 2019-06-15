@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GdiplusStartupInput</b> structure holds a block of arguments that are required by the <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a> function.
+The <b>GdiplusStartupInput</b> structure holds a block of arguments that are required by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a> function.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Pointer to a callback function that GDI+ can call, on debug builds, for assertio
 
 Type: <b>BOOL</b>
 
-Boolean value that specifies whether to suppress the GDI+ background thread. If you set this member to <b>TRUE</b>, <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a> returns (in its <i>output</i> parameter) a pointer to a hook function and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you do not want to be responsible for calling the hook and unhook functions, set this member to <b>FALSE</b>. The default value is <b>FALSE</b>.
+Boolean value that specifies whether to suppress the GDI+ background thread. If you set this member to <b>TRUE</b>, <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a> returns (in its <i>output</i> parameter) a pointer to a hook function and a pointer to an unhook function. You must call those functions appropriately to replace the background thread. If you do not want to be responsible for calling the hook and unhook functions, set this member to <b>FALSE</b>. The default value is <b>FALSE</b>.
 
 
 ### -field SuppressExternalCodecs
@@ -99,7 +99,7 @@ TBD
 
 The <b>GdiplusStartupInput</b> structure provides a constructor that sets the <b>GdiplusVersion</b> member to 1 and allows you to specify values for the other three members. All of the constructor parameters are optional, so you can declare a variable of type <b>GdiplusStartupInput</b> without passing any arguments to the constructor, and all of the members will be initialized with appropriate default values.
 
-If you set the <b>SuppressBackgroundThread</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>Â <i>input</i> parameter to <b>TRUE</b>, you must call the hook and unhook functions returned in the <i>output</i> parameter. Call those functions before and after the application's main message loop; that is, a message loop that is active for the lifetime of GDI+. Call the hook function before the loop starts, and call the unhook function after the loop ends.
+If you set the <b>SuppressBackgroundThread</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>Â <i>input</i> parameter to <b>TRUE</b>, you must call the hook and unhook functions returned in the <i>output</i> parameter. Call those functions before and after the application's main message loop; that is, a message loop that is active for the lifetime of GDI+. Call the hook function before the loop starts, and call the unhook function after the loop ends.
 
 
 
@@ -109,19 +109,19 @@ If you set the <b>SuppressBackgroundThread</b> member of the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown">GdiplusShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup">GdiplusStartup</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534068(v=VS.85).aspx">GdiplusStartupOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput">GdiplusStartupOutput</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533807(v=VS.85).aspx">Getting Started</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-getting-started-use">Getting Started</a>
  
 
  

@@ -83,7 +83,7 @@ If this parameter is <b>TRUE</b>, the system disables all wake events. If the pa
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -94,17 +94,17 @@ If the function fails, the return value is zero. To get extended error informati
 
 The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. To enable the 
     <b>SE_SHUTDOWN_NAME</b> privilege, use the 
-    <a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function. For more 
-    information, see <a href="https://msdn.microsoft.com/b8e47d04-07c1-4d57-8209-6b0c397476e5">Changing Privileges in a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function. For more 
+    information, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a 
     Token</a>.
 
 An application may use <b>SetSuspendState</b> to 
     transition the system from the working state to the standby (sleep), or optionally, hibernate (S4) state. This 
-    function is similar to the <a href="https://msdn.microsoft.com/58cf4e29-2a2e-499a-85ce-0034f4323cfe">SetSystemPowerState</a> 
+    function is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setsystempowerstate">SetSystemPowerState</a> 
     function.
 
 For more information on using PowrProf.h, see 
-    <a href="https://msdn.microsoft.com/36052517-a85c-4512-8772-8aec31551c77">Power Schemes</a>. For information about events that can wake the system, see <a href="https://msdn.microsoft.com/b7326b09-0829-4e76-80d0-e4ecdf7f556e">System Wake-up Events</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>. For information about events that can wake the system, see <a href="https://docs.microsoft.com/windows/desktop/Power/system-wake-up-events">System Wake-up Events</a>.
 
 
 
@@ -114,15 +114,15 @@ For more information on using PowrProf.h, see
 
 
 
-<a href="https://msdn.microsoft.com/83cb0fdc-437e-4d03-87f0-6a416281c0d5">PBT_APMQUERYSUSPEND</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmquerysuspend">PBT_APMQUERYSUSPEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/61b177a0-4cff-4740-bed8-a46c06c43be8">PBT_APMSUSPEND</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmsuspend">PBT_APMSUSPEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
  
 
  

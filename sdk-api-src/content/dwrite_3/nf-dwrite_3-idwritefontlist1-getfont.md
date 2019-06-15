@@ -66,9 +66,9 @@ Zero-based index of the font in the font list.
 
 ### -param font [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefont3">IDWriteFont3</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a> interface for the newly created font object.
+A pointer to a memory block that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefont3">IDWriteFont3</a> interface for the newly created font object.
 
 
 ## -returns
@@ -91,7 +91,7 @@ This method returns <b>DWRITE_E_REMOTEFONT</b> if it could not construct a remot
 
 
 
-<a href="https://msdn.microsoft.com/68B6B1E3-9463-4A45-853A-CCC9501E4301">IDWriteFontList1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontlist1">IDWriteFontList1</a>
  
 
  

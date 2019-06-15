@@ -52,33 +52,33 @@ ms.custom: 19H1
 
 The <b>IVssWriterComponents</b> interface is a C++ (not 
     COM) interface that contains methods used to obtain and modify component information (in the 
-    form of <a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a> objects) associated with a given 
+    form of <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> objects) associated with a given 
     writer but stored in a requester's Backup Components Document.
 
-The <a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> base class is responsible for passing an 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class is responsible for passing an 
     instance of the <b>IVssWriterComponents</b> interface to 
     the following event handlers:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/4e88d92b-48f3-42f9-bf66-61337a745902">CVssWriter::OnPrepareBackup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/77d0621d-81bd-4d53-8e5d-f5d3bfd86013">CVssWriter::OnBackupComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5f4a6168-4102-4790-81d6-d195a440471f">CVssWriter::OnPreRestore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ad07753c-1592-4fc8-9899-a73e798c158c">CVssWriter::OnPostRestore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CVssWriter::OnPostRestore</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d97d4246-882e-49c3-a214-d8d3887c1508">CVssWriter::OnPostSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>
 </li>
 </ul>In addition, an instance of the 
-    <a href="https://msdn.microsoft.com/29772c1f-1cc4-4ee7-8e1d-f1a6cbebf470">IVssWriterComponentsExt</a> interface, which 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext">IVssWriterComponentsExt</a> interface, which 
     implements a requester-side version of the 
     <b>IVssWriterComponents</b> interface, is returned by 
-    <a href="https://msdn.microsoft.com/b99e7e41-1c88-462c-b6d8-734f7a6e24d4">IVssBackupComponents::GetWriterComponents</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents">IVssBackupComponents::GetWriterComponents</a>.
 
 <b>IVssWriterComponents</b> defines the following methods.<table>
 <tr>
@@ -87,19 +87,19 @@ The <a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CV
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/ee816d83-31f3-47ff-b581-cc4dcd878f22">GetComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getcomponent">GetComponent</a>
 </td>
 <td>Returns the components belonging to a given writer instance.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/ec89438f-4811-42f7-bda0-6df6d1b98f18">GetComponentCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getcomponentcount">GetComponentCount</a>
 </td>
 <td>Returns the number of components belonging to a given writer instance.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/22a539ac-1440-4fe9-b68e-feec97cab6c8">GetWriterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswritercomponents-getwriterinfo">GetWriterInfo</a>
 </td>
 <td>Returns the instance and class identifier of the writer responsible for the components.</td>
 </tr>

@@ -65,7 +65,7 @@ Specifies the number of entries in the <b>Domains</b> array.
 ### -field Domains
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/2b5e6f79-b97a-4018-a45a-37c300c3dc0d">LSA_TRUST_INFORMATION</a> structures that identify the referenced domains.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_trust_information">LSA_TRUST_INFORMATION</a> structures that identify the referenced domains.
 
 
 ## -see-also
@@ -73,15 +73,15 @@ Pointer to an array of
 
 
 
-<a href="https://msdn.microsoft.com/2b5e6f79-b97a-4018-a45a-37c300c3dc0d">LSA_TRUST_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_trust_information">LSA_TRUST_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/867604aa-7a39-4da7-b189-a9183461e9a0">LsaLookupNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/69051bad-91e7-469d-9010-48ac3d20f8af">LsaLookupSids</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a>
  
 
  

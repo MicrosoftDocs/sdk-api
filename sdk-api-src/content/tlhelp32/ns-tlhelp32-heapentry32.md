@@ -60,7 +60,7 @@ Describes one entry (block) of a heap that is being examined.
 ### -field dwSize
 
 The size of the structure, in bytes. Before calling the 
-<a href="https://msdn.microsoft.com/79d01e3a-b11b-46b5-99d0-b445000288a7">Heap32First</a> function, set this member to <code>sizeof(HEAPENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32first">Heap32First</a> function, set this member to <code>sizeof(HEAPENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
 <b>Heap32First</b> fails.
 
 
@@ -147,11 +147,11 @@ The heap identifier. This is not a handle, and has meaning only to the tool help
 
 
 
-<a href="https://msdn.microsoft.com/79d01e3a-b11b-46b5-99d0-b445000288a7">Heap32First</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32first">Heap32First</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc3becd0-edba-47cf-ac2d-26a5d98390e7">Heap32Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32next">Heap32Next</a>
  
 
  

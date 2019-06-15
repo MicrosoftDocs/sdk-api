@@ -127,7 +127,7 @@ If <b>INIT_ONCE_CHECK_ONLY</b> is not specified and the function succeeds, the r
 If <b>INIT_ONCE_CHECK_ONLY</b> is specified and initialization has completed, the return value is <b>TRUE</b>.
 
 Otherwise, the return value is <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -136,12 +136,12 @@ Otherwise, the return value is <b>FALSE</b>. To get extended error information, 
 
 
 
-This function can be used for either synchronous or asynchronous one-time initialization. For asynchronous one-time initialization, use the <b>INIT_ONCE_ASYNC</b> flag. To specify a callback function to execute during synchronous one-time initialization, see the <a href="https://msdn.microsoft.com/04c161ed-d1b0-4995-b246-cb64cb67ae47">InitOnceExecuteOnce</a> function.
+This function can be used for either synchronous or asynchronous one-time initialization. For asynchronous one-time initialization, use the <b>INIT_ONCE_ASYNC</b> flag. To specify a callback function to execute during synchronous one-time initialization, see the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a> function.
 
-If this function succeeds, the thread can create a synchronization object and specify in the <i>lpContext</i> parameter of the <a href="https://msdn.microsoft.com/aad1d1f6-5415-443a-94d2-f4a4d9b68750">InitOnceComplete</a> function.
+If this function succeeds, the thread can create a synchronization object and specify in the <i>lpContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete">InitOnceComplete</a> function.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 A one-time initialization object cannot be moved or copied. The process must not modify the initialization object, and must instead treat it as logically opaque. Only use the one-time initialization functions to manage one-time initialization objects.
 
@@ -150,7 +150,7 @@ A one-time initialization object cannot be moved or copied. The process must not
 
 For an example that uses 
 this function, see 
-<a href="https://msdn.microsoft.com/47e68fbb-29f8-4930-beba-01d44263eb1e">Using One-Time Initialization</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/using-one-time-initialization">Using One-Time Initialization</a>.
 
 <div class="code"></div>
 
@@ -161,19 +161,19 @@ this function, see
 
 
 
-<a href="https://msdn.microsoft.com/aad1d1f6-5415-443a-94d2-f4a4d9b68750">InitOnceComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete">InitOnceComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/04c161ed-d1b0-4995-b246-cb64cb67ae47">InitOnceExecuteOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/404c083c-7bee-44c2-b8e7-da1901b6ab2f">One-Time Initialization</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/one-time-initialization">One-Time Initialization</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

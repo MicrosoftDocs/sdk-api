@@ -64,12 +64,12 @@ Not used.
 
 ### -param pParameters [in]
 
-The <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface specifying the command parameters.
+The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the command parameters.
 
 
 ### -param ppResults [out]
 
-The <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface specifying the command results.
+The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the command results.
 
 
 ## -returns
@@ -86,19 +86,19 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-This method should only be used to send standard WPD commands to the service. To invoke service methods, use the <a href="https://msdn.microsoft.com/9d233dea-91b6-4358-830c-6abe466264e5">IPortableDeviceServiceMethods</a> interface.
+This method should only be used to send standard WPD commands to the service. To invoke service methods, use the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods</a> interface.
 
 This method may fail even though it returns <b>S_OK</b> as its <b>HRESULT</b> value. To determine if a command succeeded, an application should always examine the properties referenced by the <i>ppResults</i> parameter:
 
 <ul>
-<li>The <a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
-<li>If the command failed, the <a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
+<li>The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_HRESULT</a> property indicates if the command succeeded.</li>
+<li>If the command failed, the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_DRIVER_ERROR_CODE</a> property will contain driver-specific error codes.</li>
 </ul>
 The object referenced by the <i>pParameters</i> parameter must specify at least these properties:
 
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Dd319305(v=VS.85).aspx">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
+<li><a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_COMMAND_CATEGORY</a>, which should contain a command category, such as the <b>fmtid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-common-reset-device-command">WPD_COMMAND_COMMON_RESET_DEVICE</a> property</li>
+<li><a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/common-properties">WPD_PROPERTY_COMMON_COMMAND_ID</a>, which should contain a command identifier, such as the <b>pid</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-common-reset-device-command">WPD_COMMAND_COMMON_RESET_DEVICE</a> property.</li>
 </ul>
 
 
@@ -108,7 +108,7 @@ The object referenced by the <i>pParameters</i> parameter must specify at least 
 
 
 
-<a href="https://msdn.microsoft.com/f57344d5-c978-4c27-b8a9-b42492bd9312">IPortableDeviceService Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
  
 
  

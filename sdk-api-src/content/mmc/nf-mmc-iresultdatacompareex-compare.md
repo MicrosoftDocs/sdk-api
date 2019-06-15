@@ -60,7 +60,7 @@ The <b>IResultDataCompareEx::Compare</b> method provides a way for a primary sna
 ### -param prdc [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/78f0648b-1d1b-4786-89fa-ef51b7743a2d">RDCOMPARE</a> structure that holds information about the items being compared and which column in the result pane list view is being sorted.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_rdcompare">RDCOMPARE</a> structure that holds information about the items being compared and which column in the result pane list view is being sorted.
 
 
 ### -param pnResult [out]
@@ -92,7 +92,7 @@ The comparison should be based on an ascending sort order. If the user toggles t
 
 The 
 IResultDataCompareEx interface is not called for virtual list sorting. This is because the snap-in maintains all the item data storage for a virtual list, the snap-in must sort the items itself. A snap-in must implement the 
-<a href="https://msdn.microsoft.com/184f3783-9000-45aa-867b-580800b560b3">IResultOwnerData</a> interface to provide sorting for virtual lists.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface to provide sorting for virtual lists.
 
 
 

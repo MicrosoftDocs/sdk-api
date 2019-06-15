@@ -79,11 +79,11 @@ When <b>IWMPPlugin::GetCaps</b> returns <b>WMPPlugin_Caps_CannotConvertFormats</
 
 
 
-<a href="https://msdn.microsoft.com/7b1b74e6-19de-450a-be89-41277c1cb823">DSP Plug-in Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-enumeration-types">DSP Plug-in Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/69858dc9-0faa-480b-933d-2bff888a117c">IWMPPlugin::GetCaps</a>
+<a href="https://docs.microsoft.com/previous-versions/aa391071(v%3dvs.85)">IWMPPlugin::GetCaps</a>
  
 
  

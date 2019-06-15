@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Gets the entitlement token in a protected-content license from a <b>LicenseRenewalResult</b> event. Clients can call the <a href="https://msdn.microsoft.com/e1c8f12c-c2f1-48c1-90fc-051ac87863d5">GetEntitlementTokenLength</a> method to get the number of bytes to read from this buffer.
+ Gets the entitlement token in a protected-content license from a <b>LicenseRenewalResult</b> event. Clients can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getentitlementtokenlength">GetEntitlementTokenLength</a> method to get the number of bytes to read from this buffer.
 
 
 ## -parameters
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e1c8f12c-c2f1-48c1-90fc-051ac87863d5">GetEntitlementTokenLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getentitlementtokenlength">GetEntitlementTokenLength</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f9cbec4-7934-41fc-b387-3f45aa273a72">IESLicenseRenewalResultEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
  
 
  

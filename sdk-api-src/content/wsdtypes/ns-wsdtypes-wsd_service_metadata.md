@@ -59,20 +59,20 @@ Provides metadata regarding a service hosted by a device.
 
 ### -field EndpointReference
 
-Reference to a <a href="https://msdn.microsoft.com/fc9fed5c-8a5b-4960-836b-e083154b7d90">WSD_ENDPOINT_REFERENCE_LIST</a> structure that specifies the endpoints at which the service is available. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference_list">WSD_ENDPOINT_REFERENCE_LIST</a> structure that specifies the endpoints at which the service is available. 
 
 
 ### -field Types
 
-Reference to a <a href="https://msdn.microsoft.com/f573365d-100f-4df9-b1af-a484680436eb">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_name_list">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
 
 
 ### -field ServiceId
 
-The URI of the service. This URI must be valid when a <b>WSD_SERVICE_METADATA</b> structure is passed to <a href="https://msdn.microsoft.com/dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424">IWSDDeviceHost::SetMetadata</a>. Applications are responsible for URI validation.
+The URI of the service. This URI must be valid when a <b>WSD_SERVICE_METADATA</b> structure is passed to <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-setmetadata">IWSDDeviceHost::SetMetadata</a>. Applications are responsible for URI validation.
 
 
 ### -field Any
 
-Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 

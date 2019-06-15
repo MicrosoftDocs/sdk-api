@@ -74,7 +74,7 @@ Number of axes for a specified multiple master font.
 
 ### -field axlAxisInfo
 
-An array of <a href="https://msdn.microsoft.com/a947618e-4b50-453a-82d5-5a6f825faebb">AXISINFO</a> structures. Each <b>AXISINFO</b> structure contains information on an axis of a specified multiple master font. This corresponds to the <b>dvValues</b> array in the <a href="https://msdn.microsoft.com/aeff9901-2405-44aa-ba46-8d784afd6b76">DESIGNVECTOR</a> structure.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxisinfoa">AXISINFO</a> structures. Each <b>AXISINFO</b> structure contains information on an axis of a specified multiple master font. This corresponds to the <b>dvValues</b> array in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdesignvector">DESIGNVECTOR</a> structure.
 
 
 ## -remarks
@@ -83,7 +83,7 @@ An array of <a href="https://msdn.microsoft.com/a947618e-4b50-453a-82d5-5a6f825f
 
 The PostScript Open Type Font does not support multiple master functionality.
 
-The information on the axes of a multiple master font are specified by the <a href="https://msdn.microsoft.com/a947618e-4b50-453a-82d5-5a6f825faebb">AXISINFO</a> structures. The <b>axlNumAxes</b> member specifies the actual size of <b>axlAxisInfo</b>, while MM_MAX_NUMAXES, which equals 16, is the maximum allowed size of <b>axlAxisInfo</b>.
+The information on the axes of a multiple master font are specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxisinfoa">AXISINFO</a> structures. The <b>axlNumAxes</b> member specifies the actual size of <b>axlAxisInfo</b>, while MM_MAX_NUMAXES, which equals 16, is the maximum allowed size of <b>axlAxisInfo</b>.
 
 
 
@@ -93,23 +93,23 @@ The information on the axes of a multiple master font are specified by the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/a947618e-4b50-453a-82d5-5a6f825faebb">AXISINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagaxisinfoa">AXISINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/aeff9901-2405-44aa-ba46-8d784afd6b76">DESIGNVECTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagdesignvector">DESIGNVECTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/deb81846-3ada-4c88-8c26-74224538d282">ENUMTEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenumtextmetrica">ENUMTEXTMETRIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
  
 
  

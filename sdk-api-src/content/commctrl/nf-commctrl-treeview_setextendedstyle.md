@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the extended style for a specified TreeView control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773744(v=VS.85).aspx">TVM_SETEXTENDEDSTYLE</a> message explicitly.
+Sets the extended style for a specified TreeView control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setextendedstyle">TVM_SETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Sets the extended style for a specified TreeView control. Use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the TreeView control.
 
 
 ### -param dw
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Value that indicates the extended style. For more information on styles, see <a href="https://msdn.microsoft.com/en-us/library/Bb759981(v=VS.85).aspx">Tree-View Control Extended Styles</a>.
+Value that indicates the extended style. For more information on styles, see <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">Tree-View Control Extended Styles</a>.
 
 
 ### -param mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Mask used to select the styles to be set.
 

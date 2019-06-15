@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>RTM_EVENT_TYPE</b> enumeration enumerates the events that the routing table manager can notify the client about using the 
-<a href="https://msdn.microsoft.com/57179cea-d92b-4199-bb61-b34d980532cf">RTM_EVENT_CALLBACK</a> callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> callback.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ A change notification has been made.
 
 
 
-<a href="https://msdn.microsoft.com/57179cea-d92b-4199-bb61-b34d980532cf">RTM_EVENT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a>
  
 
  

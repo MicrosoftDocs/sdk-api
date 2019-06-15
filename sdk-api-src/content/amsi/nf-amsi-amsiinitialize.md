@@ -85,7 +85,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-When the app is finished with the AMSI API it must call <a href="https://msdn.microsoft.com/DAC1AAE6-3160-4A82-8E81-9CB245AFD653">AmsiUninitialize</a>.
+When the app is finished with the AMSI API it must call <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>.
 
 
 
@@ -95,7 +95,7 @@ When the app is finished with the AMSI API it must call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/DAC1AAE6-3160-4A82-8E81-9CB245AFD653">AmsiUninitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiuninitialize">AmsiUninitialize</a>
  
 
  

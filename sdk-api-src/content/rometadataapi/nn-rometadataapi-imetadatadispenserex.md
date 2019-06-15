@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/3454193d-9068-4032-ae9e-b3087509b0b8">IMetaDataDispenser</a> interface to provide the capability to control how the metadata APIs operate on the current metadata scope.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a> interface to provide the capability to control how the metadata APIs operate on the current metadata scope.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IMetaDataDispenserEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f691157-9f3d-4e04-91ee-9d62c23569d8">FindAssembly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-findassembly">FindAssembly</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the assembly.
@@ -78,7 +78,7 @@ Gets the name of the assembly.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/258d670b-6a94-4151-8746-a3df69677c5b">FindAssemblyModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-findassemblymodule">FindAssemblyModule</a>
 </td>
 <td align="left" width="63%">
 Finds the name of the assembly module.
@@ -87,7 +87,7 @@ Finds the name of the assembly module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f061c7f-bcb8-4b1e-b84b-0398f08a6d69">GetCORSystemDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-getcorsystemdirectory">GetCORSystemDirectory</a>
 </td>
 <td align="left" width="63%">
 Gets the directory that holds the current common language runtime (CLR). This method is supported only for use by out-of-process debuggers. If called from another component, it will return E_NOTIMPL.
@@ -96,7 +96,7 @@ Gets the directory that holds the current common language runtime (CLR). This me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/862948bd-6fce-4af9-9c68-1d3291e13053">GetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-getoption">GetOption</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified option for the current metadata scope. The option controls how calls to the current metadata scope are handled.
@@ -105,7 +105,7 @@ Gets the value of the specified option for the current metadata scope. The optio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e76d295a-bce9-42c2-9a9b-a4d31741f47f">OpenScopeOnITypeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-openscopeonitypeinfo">OpenScopeOnITypeInfo</a>
 </td>
 <td align="left" width="63%">
 Opens the specified scope type.
@@ -114,7 +114,7 @@ Opens the specified scope type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb84abf1-0bba-4f9d-98fb-3ed67819a9dc">SetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenserex-setoption">SetOption</a>
 </td>
 <td align="left" width="63%">
 Sets the specified option to a given value for the current metadata scope. The option controls how calls to the current metadata scope are handled.

@@ -64,7 +64,7 @@ The <b>midiConnect</b> function connects a MIDI input device to a MIDI thru or o
 
 ### -param hmi
 
-Handle to a MIDI input device or a MIDI thru device. (For thru devices, this handle must have been returned by a call to the <a href="https://msdn.microsoft.com/929cd4d1-6912-4456-a6c7-24a819799e46">midiOutOpen</a> function.)
+Handle to a MIDI input device or a MIDI thru device. (For thru devices, this handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions//dd798476(v=vs.85)">midiOutOpen</a> function.)
 
 
 ### -param hmo
@@ -132,7 +132,7 @@ A thru driver is a special form of MIDI output driver. The system will allow onl
 
 
 
-<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
  
 
  

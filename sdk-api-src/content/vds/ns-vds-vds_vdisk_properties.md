@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of a virtual disk.
 
@@ -66,12 +66,12 @@ Unique VDS-specific session identifier of the disk.
 
 ### -field State
 
-A <a href="https://msdn.microsoft.com/62906f28-f6ae-488c-bf1f-655de5c7b95e">VDS_VDISK_STATE</a> enumeration value that specifies the virtual disk state.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_vdisk_state">VDS_VDISK_STATE</a> enumeration value that specifies the virtual disk state.
 
 
 ### -field VirtualDeviceType
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure that specifies the storage device type of the virtual disk.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure that specifies the storage device type of the virtual disk.
 
 
 ### -field VirtualSize
@@ -98,7 +98,7 @@ A <b>NULL</b>-terminated wide-character string containing the name and device pa
 
 ### -field DiskFlag
 
-A bitmask of <a href="https://msdn.microsoft.com/en-us/library/Dd323663(v=VS.85).aspx">DEPENDENT_DISK_FLAG</a> enumeration values that specify disk dependency information.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_dependent_disk_flag">DEPENDENT_DISK_FLAG</a> enumeration values that specify disk dependency information.
 
 
 ### -field bIsChild
@@ -116,7 +116,7 @@ A <b>NULL</b>-terminated wide-character string that contains an optional path to
 
 
 
-<a href="https://msdn.microsoft.com/0ecfbd1f-2f67-4d79-b081-7df071b070a4">IVdsVDisk::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">IVdsVDisk::GetProperties</a>
  
 
  

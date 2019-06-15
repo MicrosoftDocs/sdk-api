@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerDistClientAddContentInformation</b> function adds the content information associated with a content handle opened by <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>.
+The <b>PeerDistClientAddContentInformation</b> function adds the content information associated with a content handle opened by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>PeerDistClientAddContentInformation</b> function adds the content informa
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ### -param hContentHandle [in]
 
-A <b>PEERDIST_CONTENT_HANDLE</b> opened by <a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>.
+A <b>PEERDIST_CONTENT_HANDLE</b> opened by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>.
 
 
 ### -param cbNumberOfBytes
@@ -147,11 +147,11 @@ The service is unavailable.
 
 
 
-In order to retrieve content data from Peer Distribution service the client must add content information that it received from the content server by calling the <b>PeerDistClientAddContentInformation</b> function. When all content information data has been added, the <a href="https://msdn.microsoft.com/0951e5e5-ad00-463e-8aa8-21b11a8acedc">PeerDistClientCompleteContentInformation</a> function must be called. Once <b>PeerDistClientCompleteContentInformation</b> is complete, the client can call <a href="https://msdn.microsoft.com/7c73e9e2-c723-4472-84e5-b0d25eb3b283">PeerDistClientStreamRead</a> or <a href="https://msdn.microsoft.com/ee64c0a8-7a07-4045-96fa-855b31c2e5b1">PeerDistClientBlockRead</a> to retrieve the data from the Peer Distribution system.
+In order to retrieve content data from Peer Distribution service the client must add content information that it received from the content server by calling the <b>PeerDistClientAddContentInformation</b> function. When all content information data has been added, the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a> function must be called. Once <b>PeerDistClientCompleteContentInformation</b> is complete, the client can call <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientstreamread">PeerDistClientStreamRead</a> or <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientblockread">PeerDistClientBlockRead</a> to retrieve the data from the Peer Distribution system.
 
 When calling this function multiple times on a single content handle, the caller must wait for each operation to complete before the next call is made.
 
-An application is  not limited  to adding  content information with a single <b>PeerDistClientAddContentInformation</b> API call, as it is possible to add portions of that content information as it is made available. When more content information is available, the application can again call <b>PeerDistClientAddContentInformation</b>. When the application is done adding the entire content information, it must then call <a href="https://msdn.microsoft.com/0951e5e5-ad00-463e-8aa8-21b11a8acedc">PeerDistClientCompleteContentInformation</a>.
+An application is  not limited  to adding  content information with a single <b>PeerDistClientAddContentInformation</b> API call, as it is possible to add portions of that content information as it is made available. When more content information is available, the application can again call <b>PeerDistClientAddContentInformation</b>. When the application is done adding the entire content information, it must then call <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a>.
 
 
 
@@ -162,15 +162,15 @@ An application is  not limited  to adding  content information with a single <b>
 
 
 
-<a href="https://msdn.microsoft.com/0951e5e5-ad00-463e-8aa8-21b11a8acedc">PeerDistClientCompleteContentInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientcompletecontentinformation">PeerDistClientCompleteContentInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf9d4eb2-e939-42c6-8d71-669a949ca77a">PeerDistClientOpenContent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
 
 
 
-<a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_MEDIA_TYPE </b>structure is the primary structure used to describe media formats for the objects of the Windows Media Format SDK. For more information about media formats and what they are used for, see <a href="https://msdn.microsoft.com/7c602643-f1fc-4fbd-a739-4296dc758bc9">Formats</a>.
+The <b>WM_MEDIA_TYPE </b>structure is the primary structure used to describe media formats for the objects of the Windows Media Format SDK. For more information about media formats and what they are used for, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/formats">Formats</a>.
 
 
 
@@ -62,12 +62,12 @@ The <b>WM_MEDIA_TYPE </b>structure is the primary structure used to describe med
 
 ### -field majortype
 
-Major type of the media sample. For example, WMMEDIATYPE_Video specifies a video stream. For a list of possible major media types, see <a href="https://msdn.microsoft.com/00dcbb20-09ed-44c5-992c-20f3d17ad47c">Media Types</a>.
+Major type of the media sample. For example, WMMEDIATYPE_Video specifies a video stream. For a list of possible major media types, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>.
 
 
 ### -field subtype
 
-Subtype of the media sample. The subtype defines a specific format (usually an encoding scheme) within a major media type. For example, WMMEDIASUBTYPE_WMV3 specifies a video stream encoded with the Windows Media Video 9 codec. Subtypes can be uncompressed or compressed. For lists of possible media subtypes, see <a href="https://msdn.microsoft.com/5586e62a-d0f5-45cc-a690-4efa244b3f32">Uncompressed Media Subtypes</a> and <a href="https://msdn.microsoft.com/0ed6b4e8-6450-4484-90d6-efa2f9101782">Compressed Media Subtypes</a>.
+Subtype of the media sample. The subtype defines a specific format (usually an encoding scheme) within a major media type. For example, WMMEDIASUBTYPE_WMV3 specifies a video stream encoded with the Windows Media Video 9 codec. Subtypes can be uncompressed or compressed. For lists of possible media subtypes, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/uncompressed-media-subtypes">Uncompressed Media Subtypes</a> and <a href="https://docs.microsoft.com/windows/desktop/wmformat/compressed-media-subtypes">Compressed Media Subtypes</a>.
 
 
 ### -field bFixedSizeSamples
@@ -110,31 +110,31 @@ Pointer to the format structure of the media type. The structure referenced is d
 <tr>
 <td>WMFORMAT_VideoInfo</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757885(v=VS.85).aspx">WMVIDEOINFOHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader">WMVIDEOINFOHEADER</a>
 </td>
 </tr>
 <tr>
 <td>WMFORMAT_WaveFormatEx</td>
 <td>
-<a href="https://msdn.microsoft.com/a25fef3b-8d0c-42de-8008-245f9560da44">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd757720(v=vs.85)">WAVEFORMATEX</a>
 </td>
 </tr>
 <tr>
 <td>WMFORMAT_MPEG2Video</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757831(v=VS.85).aspx">WMMPEG2VIDEOINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-tagwmmpeg2videoinfo">WMMPEG2VIDEOINFO</a>
 </td>
 </tr>
 <tr>
 <td>WMFORMAT_WebStream</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757882(v=VS.85).aspx">WMT_WEBSTREAM_FORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmt_webstream_format">WMT_WEBSTREAM_FORMAT</a>
 </td>
 </tr>
 <tr>
 <td>WMFORMAT_Script</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757833(v=VS.85).aspx">WMSCRIPTFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-tagwmscriptformat">WMSCRIPTFORMAT</a>
 </td>
 </tr>
 </table>
@@ -157,23 +157,23 @@ This is the same as the DirectShow structure <b>AM_MEDIA_TYPE</b> but is redefin
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757229(v=VS.85).aspx">IWMMediaProps::GetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype">IWMMediaProps::GetMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757231(v=VS.85).aspx">IWMMediaProps::SetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-setmediatype">IWMMediaProps::SetMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d903953-cd6b-4fba-b877-8c7ad3aeb87d">Media Type Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/media-type-identifiers">Media Type Identifiers</a>
 
 
 
-<a href="https://msdn.microsoft.com/00dcbb20-09ed-44c5-992c-20f3d17ad47c">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

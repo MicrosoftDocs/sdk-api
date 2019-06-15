@@ -89,19 +89,19 @@ In C++, explicit casting is required when trying to set more than one flag at a 
 
 
 
-<a href="https://msdn.microsoft.com/ff776b2b-7dd8-4d3d-b0f6-714b186d447e">MouseDown Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousedown">MouseDown Event [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4c703da-0e4a-4d4c-9a6c-0e002344fb2f">MouseMove Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousemove">MouseMove Event [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e49acc8-1ce1-45ff-b87c-04bdc653156a">MouseUp Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mouseup">MouseUp Event [InkPicture Control]</a>
 
 
 
-<a href="https://msdn.microsoft.com/f56a8af9-7618-4fa3-8dd5-aa81a7f817e4">MouseWheel Event [InkPicture Control]</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-mousewheel">MouseWheel Event [InkPicture Control]</a>
  
 
  

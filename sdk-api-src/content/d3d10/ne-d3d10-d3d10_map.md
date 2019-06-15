@@ -59,34 +59,34 @@ Identifies a resource to be accessed for reading and writing by the CPU. Applica
 
 ### -field D3D10_MAP_READ
 
-Resource is mapped for reading. The resource must have been created with read access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_READ</a>).
+Resource is mapped for reading. The resource must have been created with read access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_READ</a>).
 
 
 ### -field D3D10_MAP_WRITE
 
-Resource is mapped for writing. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>).
+Resource is mapped for writing. The resource must have been created with write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>).
 
 
 ### -field D3D10_MAP_READ_WRITE
 
-Resource is mapped for reading and writing. The resource must have been created with read and write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_READ and D3D10_CPU_ACCESS_WRITE</a>).
+Resource is mapped for reading and writing. The resource must have been created with read and write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_READ and D3D10_CPU_ACCESS_WRITE</a>).
 
 
 ### -field D3D10_MAP_WRITE_DISCARD
 
-Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>).
+Resource is mapped for writing; the previous contents of the resource will be undefined. The resource must have been created with write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>).
 
 
 ### -field D3D10_MAP_WRITE_NO_OVERWRITE
 
-Resource is mapped for writing; the existing contents of the resource cannot be overwritten (see Remarks). This flag is only valid on vertex and index buffers. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_WRITE</a>). Cannot be used on a resource created with the <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">D3D10_BIND_CONSTANT_BUFFER</a> flag.
+Resource is mapped for writing; the existing contents of the resource cannot be overwritten (see Remarks). This flag is only valid on vertex and index buffers. The resource must have been created with write access (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_WRITE</a>). Cannot be used on a resource created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_bind_flag">D3D10_BIND_CONSTANT_BUFFER</a> flag.
 
 
 ## -remarks
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173865(v=VS.85).aspx">ID3D10Texture1D::Map</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb173869(v=VS.85).aspx">ID3D10Texture2D::Map</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173873(v=VS.85).aspx">ID3D10Texture3D::Map</a>.
+This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10buffer-map">ID3D10Buffer::Map</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture1d-map">ID3D10Texture1D::Map</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">ID3D10Texture2D::Map</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture3d-map">ID3D10Texture3D::Map</a>.
 
 These remarks are divided into the following topics:
 
@@ -98,7 +98,7 @@ These remarks are divided into the following topics:
 
 
 <h3><a id="NO_OVERWRITE_DETAILS"></a><a id="no_overwrite_details"></a>Meaning of D3D10_MAP_WRITE_NO_OVERWRITE</h3>
-D3D10_MAP_WRITE_NO_OVERWRITE signifies that the application promises not to write to data that the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">Input Assembler</a> (IA) stage is using. In exchange, the GPU allows the application to write to other parts of the same buffer.  The application must ensure that it does not write over any data in use by the IA stage.
+D3D10_MAP_WRITE_NO_OVERWRITE signifies that the application promises not to write to data that the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">Input Assembler</a> (IA) stage is using. In exchange, the GPU allows the application to write to other parts of the same buffer.  The application must ensure that it does not write over any data in use by the IA stage.
 
 For example, consider the buffer illustrated in the following diagram. If a Draw call has been issued that uses vertices 4-6, an application that calls Map on this buffer must ensure that it does not write to the vertices that the Draw call will access during rendering.
 
@@ -120,7 +120,7 @@ Subsequent writes to the buffer within the same frame should use D3D10_MAP_WRITE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

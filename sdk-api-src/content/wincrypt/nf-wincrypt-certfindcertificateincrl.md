@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertFindCertificateInCRL</b> function searches the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) for the specified certificate.
+The <b>CertFindCertificateInCRL</b> function searches the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) for the specified certificate.
 		
 
 
@@ -61,13 +61,13 @@ The <b>CertFindCertificateInCRL</b> function searches the <a href="https://msdn.
 ### -param pCert [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> of the certificate to be searched for in the CRL.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> of the certificate to be searched for in the CRL.
 
 
 ### -param pCrlContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/cf7cabcd-b469-492a-b855-8870465ea1cc">CRL_CONTEXT</a> to be searched.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_context">CRL_CONTEXT</a> to be searched.
 
 
 ### -param dwFlags [in]

@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 The <b>ADS_AUTHENTICATION_ENUM</b> enumeration 
    specifies authentication options used in ADSI for binding to directory service objects. When 
-   calling <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> or 
-   <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> to bind to an ADSI object, provide at least 
+   calling <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> or 
+   <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> to bind to an ADSI object, provide at least 
    one of the options. In general, different providers will have different implementations. The options documented 
    here apply to the providers supplied by Microsoft included with the ADSI SDK. For more information, see 
-   <a href="https://msdn.microsoft.com/419d7953-a879-4d6c-be74-173d76c3f932">ADSI System Providers</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI System Providers</a>.
 
 
 ## -enum-fields
@@ -127,7 +127,7 @@ When this flag is set, ADSI will not attempt to query the <b>objectClass</b>
        support. A user can use this option to increase the performance in a series of object manipulations that involve 
        only methods of the base interfaces. However, ADSI will not verify that any of the requested objects actually 
        exist on the server. For more information, see 
-       <a href="https://msdn.microsoft.com/cf41b0c4-7459-49cf-945b-8462c7d19947">Fast Binding Options for Batch Write/Modify Operations</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/ADSI/fast-binding-option-for-batch-writemodify-operations">Fast Binding Options for Batch Write/Modify Operations</a>.
 
 This option is also useful for binding to non-Active Directory directory services, for example Exchange 5.5, 
        where the <b>objectClass</b> query would fail.
@@ -167,11 +167,11 @@ If an Active Directory DNS server name is passed in the LDAP path, this forces a
 Specify this flag to turn referral chasing off for the life of the connection. However, even when this flag 
        is specified, ADSI still allows the setting of referral chasing behavior for container enumeration when set 
        using <b>ADS_OPTION_REFERRALS</b> in 
-       <a href="https://msdn.microsoft.com/afb32e03-7e4e-4df9-87c7-db962d62e5f0">ADS_OPTION_ENUM</a> (as documented in container enumeration 
+       <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a> (as documented in container enumeration 
        with referral chasing in 
-       <a href="https://msdn.microsoft.com/e6e43c99-fc8b-4f34-82cf-8cf30c506859">IADsObjectOptions::SetOption</a>) and 
+       <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>) and 
        searching separately (as documented in 
-       <a href="https://msdn.microsoft.com/ef97eafd-5227-4dd7-9f8a-6b4591261f79">Referral Chasing with IDirectorySearch</a>).
+       <a href="https://docs.microsoft.com/windows/desktop/ADSI/referral-chasing-with-idirectorysearch">Referral Chasing with IDirectorySearch</a>).
 
 <div class="alert"><b>Note</b>  This option is not supported by the WinNT provider.</div>
 <div> </div>
@@ -205,7 +205,7 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 #### Examples
 
 The following code example shows how to use 
-     <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> to open an object on fabrikam with 
+     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> to open an object on fabrikam with 
      secure authentication for the WinNT provider.
 
 
@@ -221,7 +221,7 @@ Set domain = dso.OpenDSObject("WinNT://Fabrikam", vbNullString, vbNullString, AD
 
 
 The following code example shows how the <b>ADS_SECURE_AUTHENTICATION</b> flag is used 
-     with <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> for validating the user bound as 
+     with <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> for validating the user bound as 
      "JeffSmith". The user name can be of the UPN format: "JeffSmith@Fabrikam.com", as well as the distinguished name 
      format: "CN=JeffSmith,DC=Fabrikam,DC=COM".
 
@@ -250,23 +250,23 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/419d7953-a879-4d6c-be74-173d76c3f932">ADSI System Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI System Providers</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d2cd45b-0dc6-4bb3-9c41-014bec71f258">IADsAccessControlEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a>
  
 
  

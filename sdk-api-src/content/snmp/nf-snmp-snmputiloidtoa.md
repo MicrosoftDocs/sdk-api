@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOidToA</b> function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
@@ -63,7 +63,7 @@ The
 ### -param Oid [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure to convert.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to convert.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The
 <b>SnmpUtilOidToA</b> function can assist with the debugging of SNMP applications.
 
 For more information, see the 
-<a href="https://msdn.microsoft.com/0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14">SnmpUtilIdsToA</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilidstoa">SnmpUtilIdsToA</a> function. 
 <b>SnmpUtilOidToA</b> calls 
 <b>SnmpUtilIdsToA</b> internally to format the string.
 
@@ -95,19 +95,19 @@ For more information, see the
 
 
 
-<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14">SnmpUtilIdsToA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilidstoa">SnmpUtilIdsToA</a>
  
 
  

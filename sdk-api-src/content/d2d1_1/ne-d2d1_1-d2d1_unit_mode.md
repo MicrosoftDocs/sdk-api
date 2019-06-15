@@ -76,7 +76,7 @@ Units will be interpreted as pixels.
 
 
 
-Setting the unit mode to <b>D2D1_UNIT_MODE_PIXELS</b> is similar to setting the <a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a> dots per inch (dpi) to 96. However, Direct2D still checks the dpi to determine the threshold for enabling vertical antialiasing for text, and when the unit mode is restored, the dpi will be remembered.
+Setting the unit mode to <b>D2D1_UNIT_MODE_PIXELS</b> is similar to setting the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a> dots per inch (dpi) to 96. However, Direct2D still checks the dpi to determine the threshold for enabling vertical antialiasing for text, and when the unit mode is restored, the dpi will be remembered.
 
 
 
@@ -86,11 +86,11 @@ Setting the unit mode to <b>D2D1_UNIT_MODE_PIXELS</b> is similar to setting the 
 
 
 
-<a href="https://msdn.microsoft.com/d1c6476d-151b-4f2a-9aae-726de219567c">ID2D1DeviceContext::GetUnitMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-getunitmode">ID2D1DeviceContext::GetUnitMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5774b9a-4458-47e7-821a-4ac4b70468e3">ID2D1DeviceContext::SetUnitMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode">ID2D1DeviceContext::SetUnitMode</a>
  
 
  

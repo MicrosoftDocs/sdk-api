@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases a drawing that was previously frozen using <a href="https://msdn.microsoft.com/943faf31-7de4-45da-887b-7ded479ac732">IViewObject::Freeze</a>. The most common use of this method is for banded printing.
+Releases a drawing that was previously frozen using <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">IViewObject::Freeze</a>. The most common use of this method is for banded printing.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Releases a drawing that was previously frozen using <a href="https://msdn.micros
 
 ### -param dwFreeze [in]
 
-Contains a key previously returned from <a href="https://msdn.microsoft.com/943faf31-7de4-45da-887b-7ded479ac732">IViewObject::Freeze</a> that determines which view object to unfreeze.
+Contains a key previously returned from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">IViewObject::Freeze</a> that determines which view object to unfreeze.
 
 
 ## -returns
@@ -95,11 +95,11 @@ Error in the unfreezing process or the object is currently not frozen.
 
 
 
-<a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/943faf31-7de4-45da-887b-7ded479ac732">IViewObject::Freeze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-freeze">IViewObject::Freeze</a>
  
 
  

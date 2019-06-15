@@ -60,7 +60,7 @@ The <b>IMSVidAnalogTuner2</b> interface represents an analog-only tuner card tha
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAnalogTuner2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner</a>. <b>IMSVidAnalogTuner2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidAnalogTuner2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner</a>. <b>IMSVidAnalogTuner2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMSVidAnalogTuner2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694422(v=VS.85).aspx">get_NumAuxInputs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner2-get_numauxinputs">get_NumAuxInputs</a>
 </td>
 <td align="left" width="63%">
 The number of auxiliary inputs.
@@ -84,7 +84,7 @@ The number of auxiliary inputs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694423(v=VS.85).aspx">get_TunerModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner2-get_tunermodes">get_TunerModes</a>
 </td>
 <td align="left" width="63%">
 Which tuner modes the tuner supports.
@@ -93,7 +93,7 @@ Which tuner modes the tuner supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694424(v=VS.85).aspx">get_TVFormats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner2-get_tvformats">get_TVFormats</a>
 </td>
 <td align="left" width="63%">
 Which TV formats the tuner supports.
@@ -117,11 +117,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

@@ -113,7 +113,7 @@ INKRECOGNITIONPROPERTY_LINEMETRICS
 
 </td>
 <td>
-Contains a <a href="https://msdn.microsoft.com/4fdeaaf9-9026-4bf1-8e78-d03a98d44b32">LATTICE_METRICS</a> structure that holds details about the baseline and midline for the element. To set this property, your recognizer must also set the INKRECOGNITIONPROPERTY_LINENUMBER property.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-taglattice_metrics">LATTICE_METRICS</a> structure that holds details about the baseline and midline for the element. To set this property, your recognizer must also set the INKRECOGNITIONPROPERTY_LINENUMBER property.
 
 </td>
 </tr>
@@ -138,19 +138,19 @@ A ULONG value containing the line that the element belongs to as determined by t
 
 
 
-<a href="https://msdn.microsoft.com/5695cae1-2bbf-48d4-a044-b2bd81c362d0">RECO_LATTICE_COLUMN Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_column">RECO_LATTICE_COLUMN Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4100cb9-d666-4e74-ac12-7f242b3c60d4">RECO_LATTICE_ELEMENT Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element">RECO_LATTICE_ELEMENT Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c3501a9-398d-4db1-82b2-82908e132a4a">RECO_LATTICE_PROPERTIES Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties">RECO_LATTICE_PROPERTIES Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/628ca677-31eb-47d9-bcc6-d7777f8aaf7c">Recognizer Lattice Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
  
 
  

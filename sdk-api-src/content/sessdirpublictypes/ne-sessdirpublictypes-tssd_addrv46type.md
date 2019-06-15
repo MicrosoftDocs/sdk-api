@@ -77,7 +77,7 @@ The address is in IPv6 format.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351748(v=VS.85).aspx">TSSD_ConnectionPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sessdirpublictypes/ns-sessdirpublictypes-__midl___midl_itf_sessdirpublictypes_0000_0000_0002">TSSD_ConnectionPoint</a>
  
 
  

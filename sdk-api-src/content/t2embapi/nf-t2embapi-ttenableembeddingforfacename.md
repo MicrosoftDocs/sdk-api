@@ -75,7 +75,7 @@ If successful, returns E_NONE.
 
 The facename indicated by <i>lpszFacename</i> will be added or removed from the typeface exclusion list.
 
-Otherwise, returns an error code described in <a href="https://msdn.microsoft.com/71effafe-55a9-40ed-81c7-07278eba32d3">Embedding-Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding-Function Error Messages</a>.
 
 
 
@@ -95,7 +95,7 @@ An authoring client can embed fonts without referencing the typeface exclusion l
 <li>Makes a document less readable by other applications.</li>
 <li>Can leave copyright issues unmanaged, if the type exclusion list is not used.</li>
 </ul>
-Two additional functions, <a href="https://msdn.microsoft.com/f1e3112b-d840-45eb-bb99-416319ed9e15">TTIsEmbeddingEnabled</a> and <a href="https://msdn.microsoft.com/1f494bb1-62c4-45c4-b1a5-df6842d94dcc">TTIsEmbeddingEnabledForFacename</a>, access the typeface exclusion list to provide enabling status.
+Two additional functions, <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttisembeddingenabled">TTIsEmbeddingEnabled</a> and <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttisembeddingenabledforfacename">TTIsEmbeddingEnabledForFacename</a>, access the typeface exclusion list to provide enabling status.
 
 The typeface exclusion list is stored in the registry key <b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\t2embed</b>. The default typeface exclusion list should contain the following named value entries representing the Microsoft Windows core fonts.
 
@@ -176,11 +176,11 @@ The typeface exclusion list is stored in the registry key <b>HKEY_LOCAL_MACHINE\
 
 
 
-<a href="https://msdn.microsoft.com/f1e3112b-d840-45eb-bb99-416319ed9e15">TTIsEmbeddingEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttisembeddingenabled">TTIsEmbeddingEnabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f494bb1-62c4-45c4-b1a5-df6842d94dcc">TTIsEmbeddingEnabledForFacename</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttisembeddingenabledforfacename">TTIsEmbeddingEnabledForFacename</a>
  
 
  

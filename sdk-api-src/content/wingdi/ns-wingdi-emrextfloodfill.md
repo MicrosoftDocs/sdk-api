@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMREXTFLOODFILL</b> structure contains members for the <a href="https://msdn.microsoft.com/b996d47d-5aaf-4b13-8643-209744e5a04b">ExtFloodFill</a> enhanced metafile record.
+The <b>EMREXTFLOODFILL</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill</a> enhanced metafile record.
 
 
 
@@ -72,7 +72,7 @@ Coordinates, in logical units, where filling begins.
 
 ### -field crColor
 
-Color of fill. To make a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
+Color of fill. To make a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 
 ### -field iMode
@@ -85,23 +85,23 @@ Type of fill operation to be performed. This member must be either the FLOODFILL
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://msdn.microsoft.com/b996d47d-5aaf-4b13-8643-209744e5a04b">ExtFloodFill</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
  
 
  

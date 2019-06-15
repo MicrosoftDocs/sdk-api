@@ -115,14 +115,14 @@ This member is ignored.
 
 Type: <b>LONG_PTR</b>
 
-A pointer to data defined by the application. When the Control Panel sends the <a href="https://msdn.microsoft.com/68d74372-2fc2-45ed-8f77-574b943d28fa">CPL_DBLCLK</a> and <a href="https://msdn.microsoft.com/4f632b91-8200-42a3-90cc-a98889704ca4">CPL_STOP</a> messages, it passes this value back to your application.
+A pointer to data defined by the application. When the Control Panel sends the <a href="https://docs.microsoft.com/windows/desktop/shell/fa-associationarray">CPL_DBLCLK</a> and <a href="https://docs.microsoft.com/windows/desktop/shell/library-functions-bumper">CPL_STOP</a> messages, it passes this value back to your application.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/23063e34-9d77-4167-83cd-8561accf0a8d">CPlApplet</a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="https://msdn.microsoft.com/af52889c-7180-4690-8ed1-a0eb0a9dff35">CPL_NEWINQUIRE</a> message.
+The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc">CPlApplet</a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="https://docs.microsoft.com/windows/desktop/shell/glossary">CPL_NEWINQUIRE</a> message.
 
 
 
@@ -132,7 +132,7 @@ The <a href="https://msdn.microsoft.com/23063e34-9d77-4167-83cd-8561accf0a8d">CP
 
 
 
-<a href="https://msdn.microsoft.com/707950c9-c242-43b2-b665-c97a89e632c5">CPLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cpl/ns-cpl-tagcplinfo">CPLINFO</a>
  
 
  

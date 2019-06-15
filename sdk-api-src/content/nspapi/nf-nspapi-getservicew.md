@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>GetService</b> function retrieves information about a network service in the context of a set of default namespaces or a specified namespace. The network service is specified by its type and name. The information about the service is obtained as a set of 
-<a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a> data structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> data structures.
 
 
 <div class="alert"><b>Note</b>  The 
@@ -63,7 +63,7 @@ The
 
 
 <div class="alert"><b>Note</b>  The functions detailed in 
-<a href="https://msdn.microsoft.com/f55219b9-1518-4b49-a0da-6a3fa025cca3">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
 
@@ -166,7 +166,7 @@ A pointer to a zero-terminated string that uniquely represents the service name.
 ### -param dwProperties [in]
 
 A set of bit flags that specify the service information that the function retrieves. Each of these bit flag constants, other than PROP_ALL, corresponds to a particular member of the 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a> data structure. If the flag is set, the function puts information into the corresponding member of the data structures stored in *<i>lpBuffer</i>. The following bit flags are defined.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> data structure. If the flag is set, the function puts information into the corresponding member of the data structures stored in *<i>lpBuffer</i>. The following bit flags are defined.
 
 <table>
 <tr>
@@ -270,17 +270,17 @@ If this flag is set, the function stores data in all of the members of the data 
 ### -param lpBuffer [out]
 
 A pointer to a buffer to receive an array of 
-<a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a> structures and associated service information. Each 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structures and associated service information. Each 
 <b>NS_SERVICE_INFO</b> structure contains service information in the context of a particular namespace. Note that if <i>dwNameSpace</i> is NS_DEFAULT, the function stores more than one structure into the buffer; otherwise, just one structure is stored.
 
 Each 
-<a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a> structure contains a 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a> structure. The members of these 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structure contains a 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure. The members of these 
 <b>SERVICE_INFO</b> structures will contain valid data based on the bit flags that are set in the <i>dwProperties</i> parameter. If a member's corresponding bit flag is not set in <i>dwProperties</i>, the member's value is undefined.
 
 The function stores the 
-<a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a> structures in a consecutive array, starting at the beginning of the buffer. The pointers in the contained 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a> structures point to information that is stored in the buffer between the end of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structures in a consecutive array, starting at the beginning of the buffer. The pointers in the contained 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structures point to information that is stored in the buffer between the end of the 
 <b>NS_SERVICE_INFO</b> structures and the end of the buffer.
 
 
@@ -299,10 +299,10 @@ Reserved for future use. Must be set to <b>NULL</b>.
 
 
 If the function succeeds, the return value is the number of 
-<a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a> structures stored in *<i>lpBuffer</i>. Zero indicates that no structures were stored.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a> structures stored in *<i>lpBuffer</i>. Zero indicates that no structures were stored.
 
 If the function fails, the return value is SOCKET_ERROR ( – 1). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which returns one of the following extended error values.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns one of the following extended error values.
 
 <table>
 <tr>
@@ -342,23 +342,23 @@ The specified service was not found, or the specified namespace is not in use. T
 
 
 
-<a href="https://msdn.microsoft.com/5bcdeddf-2971-491b-9cf4-70595d3a7ff1">NS_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_ns_service_infoa">NS_SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1910dd6-4b83-4152-9753-9b04b04be5c0">SetService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/qos-structures">SetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
  
 
  

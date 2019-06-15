@@ -54,11 +54,11 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRM_CLIENT_VERSION_INFO</b> structure receives information about the version of the Active Directory Rights Management Services (AD RMS) client and the hierarchy, such as Production or Pre-production. This structure is used by the <a href="https://msdn.microsoft.com/51f15900-4d7a-414e-ab2a-9120cd23a03b">DRMGetClientVersion</a> function.
+The <b>DRM_CLIENT_VERSION_INFO</b> structure receives information about the version of the Active Directory Rights Management Services (AD RMS) client and the hierarchy, such as Production or Pre-production. This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 
 
 ## -struct-fields
@@ -112,7 +112,7 @@ Array of type <b>WCHAR</b> that receives the hierarchy information, such as Prod
 
 ### -field wszProductDescription
 
-Array of type <b>WCHAR</b> that receives the product description. This member is not currently filled by the <a href="https://msdn.microsoft.com/51f15900-4d7a-414e-ab2a-9120cd23a03b">DRMGetClientVersion</a> function.
+Array of type <b>WCHAR</b> that receives the product description. This member is not currently filled by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 
 
 ### -field _DRM_CLIENT_VERSION_INFO
@@ -124,7 +124,7 @@ TBD
 
 #### - wszProductID
 
-Array of type <b>WCHAR</b> that receives the product ID. This member  is not currently filled by the <a href="https://msdn.microsoft.com/51f15900-4d7a-414e-ab2a-9120cd23a03b">DRMGetClientVersion</a> function.
+Array of type <b>WCHAR</b> that receives the product ID. This member  is not currently filled by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a> function.
 
 
 ## -see-also
@@ -132,11 +132,11 @@ Array of type <b>WCHAR</b> that receives the product ID. This member  is not cur
 
 
 
-<a href="https://msdn.microsoft.com/06a0c6d2-108d-4c72-9ae6-8959304602c5">AD RMS Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-structures">AD RMS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/51f15900-4d7a-414e-ab2a-9120cd23a03b">DRMGetClientVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetclientversion">DRMGetClientVersion</a>
  
 
  

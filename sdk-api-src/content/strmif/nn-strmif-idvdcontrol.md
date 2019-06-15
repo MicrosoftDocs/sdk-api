@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use <a href="https://msdn.microsoft.com/eda43b20-1c4d-4769-bb87-3942716af13c">IDvdControl2</a>.</div>
+<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a>.</div>
 <div> </div>
 The <code>IDvdControl</code> interface controls the playback and search mechanisms of a DVD title that contains one or more video movies. Use this interface to control playback (set root drive, play, stop, and so forth) or use DVD-specific functionality such as menus and buttons when playing DVD-Video files.
 
@@ -59,7 +59,7 @@ The <code>IDvdControl</code> interface controls the playback and search mechanis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvdControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDvdControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a91f05d-1ded-4ecb-8850-5ee7faad134d">AngleChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-anglechange">AngleChange</a>
 </td>
 <td align="left" width="63%">
 Sets the new display angle.
@@ -83,7 +83,7 @@ Sets the new display angle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08fca00b-e187-40db-99c0-8b978dd0f10e">AudioStreamChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-audiostreamchange">AudioStreamChange</a>
 </td>
 <td align="left" width="63%">
 Sets the current audio stream.
@@ -92,7 +92,7 @@ Sets the current audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d2b1635-9b02-465a-a725-8b7985b651fb">BackwardScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-backwardscan">BackwardScan</a>
 </td>
 <td align="left" width="63%">
 Searches backward through the current disc at the specified speed.
@@ -101,7 +101,7 @@ Searches backward through the current disc at the specified speed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a5ee6ed-2baa-45d6-a874-5df4e5c56841">ButtonActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-buttonactivate">ButtonActivate</a>
 </td>
 <td align="left" width="63%">
 Activates the selected button.
@@ -110,7 +110,7 @@ Activates the selected button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15ed6a4e-d798-49c9-bff3-c77207658d31">ButtonSelectAndActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-buttonselectandactivate">ButtonSelectAndActivate</a>
 </td>
 <td align="left" width="63%">
 Selects and activates the specified button.
@@ -119,7 +119,7 @@ Selects and activates the specified button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c51524d0-5935-4e14-bcaf-4739fd0f21bb">ChapterPlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chapterplay">ChapterPlay</a>
 </td>
 <td align="left" width="63%">
 Plays the media file with the specified title index and chapter value.
@@ -128,7 +128,7 @@ Plays the media file with the specified title index and chapter value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c599647-c894-47b9-a62d-3ffd22843f7c">ChapterPlayAutoStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chapterplayautostop">ChapterPlayAutoStop</a>
 </td>
 <td align="left" width="63%">
 Start playing at the specified chapter within the specified title and play the number of chapters specified.
@@ -137,7 +137,7 @@ Start playing at the specified chapter within the specified title and play the n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1389df65-e269-4c2b-b276-a29da33fe515">ChapterSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-chaptersearch">ChapterSearch</a>
 </td>
 <td align="left" width="63%">
 Halts playback of the current chapter and starts playback from the specified chapter value in the same media file.
@@ -146,7 +146,7 @@ Halts playback of the current chapter and starts playback from the specified cha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dedeec1c-8565-491e-ab2c-4cdc17d988a9">ForwardScan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-forwardscan">ForwardScan</a>
 </td>
 <td align="left" width="63%">
 Searches forward through the current disc at the specified speed.
@@ -155,7 +155,7 @@ Searches forward through the current disc at the specified speed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a553a5f-f221-4161-95f1-cb1629abb87a">GoUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-goup">GoUp</a>
 </td>
 <td align="left" width="63%">
 Halts playback of the current media file and starts playback of the designated previous program chain (PGC).
@@ -164,7 +164,7 @@ Halts playback of the current media file and starts playback of the designated p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a724af67-6aac-4307-97bc-a79e73621ce1">KaraokeAudioPresentationModeChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-karaokeaudiopresentationmodechange">KaraokeAudioPresentationModeChange</a>
 </td>
 <td align="left" width="63%">
 Sets the audio playback mode to karaoke.
@@ -173,7 +173,7 @@ Sets the audio playback mode to karaoke.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62c35cb1-f1e0-4852-9a59-555cf979615f">LeftButtonSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-leftbuttonselect">LeftButtonSelect</a>
 </td>
 <td align="left" width="63%">
 Selects the left directional button from the displayed menu.
@@ -182,7 +182,7 @@ Selects the left directional button from the displayed menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eba476a5-c949-4ce1-b296-314e36afc912">LowerButtonSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-lowerbuttonselect">LowerButtonSelect</a>
 </td>
 <td align="left" width="63%">
 Selects the lower directional button from the displayed menu.
@@ -191,7 +191,7 @@ Selects the lower directional button from the displayed menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0e27b7a-cf14-4b4c-849e-0fa7f6b1c0ed">MenuCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menucall">MenuCall</a>
 </td>
 <td align="left" width="63%">
 Displays the specified menu on the screen.
@@ -200,7 +200,7 @@ Displays the specified menu on the screen.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b5c660c-3d3f-4f78-8eca-3a42982eb0ae">MenuLanguageSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-menulanguageselect">MenuLanguageSelect</a>
 </td>
 <td align="left" width="63%">
 Sets the displayed language for navigation menus.
@@ -209,7 +209,7 @@ Sets the displayed language for navigation menus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed84c7c8-0ae4-47f5-8a73-c975923722ab">MouseActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-mouseactivate">MouseActivate</a>
 </td>
 <td align="left" width="63%">
 Selects and activates a DVD button in response to a mouse click.
@@ -218,7 +218,7 @@ Selects and activates a DVD button in response to a mouse click.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c843bf51-ae05-4045-b517-52daeda6bc07">MouseSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-mouseselect">MouseSelect</a>
 </td>
 <td align="left" width="63%">
 Selects a DVD button in response to mouse movement.
@@ -227,7 +227,7 @@ Selects a DVD button in response to mouse movement.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a509f63f-a3e9-4b49-bbf0-f59051db119a">NextPGSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-nextpgsearch">NextPGSearch</a>
 </td>
 <td align="left" width="63%">
 Halts playback of the current program and starts playback from the next program within the program chain (PGC).
@@ -236,7 +236,7 @@ Halts playback of the current program and starts playback from the next program 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc79ad9b-4044-4a33-83b4-f3033283058a">ParentalCountrySelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-parentalcountryselect">ParentalCountrySelect</a>
 </td>
 <td align="left" width="63%">
 Sets the current country/region for controlling parental access levels.
@@ -245,7 +245,7 @@ Sets the current country/region for controlling parental access levels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca572d89-b188-442d-884f-0cffa71c2892">ParentalLevelSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-parentallevelselect">ParentalLevelSelect</a>
 </td>
 <td align="left" width="63%">
 Sets the parental access level for the current media file.
@@ -254,7 +254,7 @@ Sets the parental access level for the current media file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ec442dd-74ca-4b0b-901f-8efb7e77c5bf">PauseOff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-pauseoff">PauseOff</a>
 </td>
 <td align="left" width="63%">
 Unpauses the current media file playback.
@@ -263,7 +263,7 @@ Unpauses the current media file playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d67a7a16-41f9-4718-a6ad-d48ba77fb1d4">PauseOn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-pauseon">PauseOn</a>
 </td>
 <td align="left" width="63%">
 Pauses the current media file playback.
@@ -272,7 +272,7 @@ Pauses the current media file playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e2d0531-23be-471b-8094-d21771209c79">PrevPGSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-prevpgsearch">PrevPGSearch</a>
 </td>
 <td align="left" width="63%">
 Halts playback of the current program and starts playback from the previous program within the program chain (PGC).
@@ -281,7 +281,7 @@ Halts playback of the current program and starts playback from the previous prog
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/336908bb-369e-449d-a94a-dd22fa72f20a">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Returns to playing back a title from a menu.
@@ -290,7 +290,7 @@ Returns to playing back a title from a menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67ca86cd-37a7-48ce-80d9-585d345e83fc">RightButtonSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-rightbuttonselect">RightButtonSelect</a>
 </td>
 <td align="left" width="63%">
 Selects the right directional button from the displayed menu.
@@ -299,7 +299,7 @@ Selects the right directional button from the displayed menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3068edc0-c052-4f44-9f62-453320af20a3">SetRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-setroot">SetRoot</a>
 </td>
 <td align="left" width="63%">
 Sets the root directory containing the DVD-Video volume.
@@ -308,7 +308,7 @@ Sets the root directory containing the DVD-Video volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f466728-027e-40d6-b8f8-ed0aad02dd1e">StillOff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-stilloff">StillOff</a>
 </td>
 <td align="left" width="63%">
 Resumes playback, canceling still mode.
@@ -317,7 +317,7 @@ Resumes playback, canceling still mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61c5b863-038b-4c4a-a7a4-d1fd1801f843">StopForResume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-stopforresume">StopForResume</a>
 </td>
 <td align="left" width="63%">
 Transitions playback to the DVD_DOMAIN_Stop state after saving resume information.
@@ -326,7 +326,7 @@ Transitions playback to the DVD_DOMAIN_Stop state after saving resume informatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/527031fa-bab9-49f5-89b1-f0c5c5812a76">SubpictureStreamChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-subpicturestreamchange">SubpictureStreamChange</a>
 </td>
 <td align="left" width="63%">
 Selects the new subpicture stream and enables or disables it for display.
@@ -335,7 +335,7 @@ Selects the new subpicture stream and enables or disables it for display.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56b4b086-e315-486c-8dbd-97960f5b76d1">TimePlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-timeplay">TimePlay</a>
 </td>
 <td align="left" width="63%">
 Plays the media file with the specified title index, starting at the specified time.
@@ -344,7 +344,7 @@ Plays the media file with the specified title index, starting at the specified t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2e6848e-569e-44f0-b676-e22e4df07d8d">TimeSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-timesearch">TimeSearch</a>
 </td>
 <td align="left" width="63%">
 Halts playback of the current chapter and starts playback from the specified time in the same media file.
@@ -353,7 +353,7 @@ Halts playback of the current chapter and starts playback from the specified tim
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ca710f0-8f08-43d6-8cc1-a25068d5e0ef">TitlePlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-titleplay">TitlePlay</a>
 </td>
 <td align="left" width="63%">
 Finds the media file with the specified title index and plays it back.
@@ -362,7 +362,7 @@ Finds the media file with the specified title index and plays it back.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35a621de-5110-4999-8475-ae84a4dc9ee1">TopPGSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-toppgsearch">TopPGSearch</a>
 </td>
 <td align="left" width="63%">
 Halts playback of the current program and restarts playback of the current program within the program chain (PGC).
@@ -371,7 +371,7 @@ Halts playback of the current program and restarts playback of the current progr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd0e4086-087b-460f-a6af-fa073644f1bb">UpperButtonSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-upperbuttonselect">UpperButtonSelect</a>
 </td>
 <td align="left" width="63%">
 Selects the upper directional button from the displayed menu.
@@ -380,7 +380,7 @@ Selects the upper directional button from the displayed menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e68b09c-534c-46d2-bda0-72f3d1d86b66">VideoModePreferrence</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-videomodepreferrence">VideoModePreferrence</a>
 </td>
 <td align="left" width="63%">
 Sets the video display mode the user prefers.
@@ -395,7 +395,7 @@ Sets the video display mode the user prefers.
 
 
 
-<a href="https://msdn.microsoft.com/5b798477-9b36-4f59-b9cc-2938b5e4009f">Deprecated Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases an input context returned by the <a href="https://msdn.microsoft.com/en-us/library/Bb787702(v=VS.85).aspx">ITextHost::TxImmGetContext</a> method and unlocks the memory associated with the context. 
+Releases an input context returned by the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-tximmgetcontext">ITextHost::TxImmGetContext</a> method and unlocks the memory associated with the context. 
 
 This method is used only in Asian-language versions of the operating system.
 
@@ -84,7 +84,7 @@ This method has no return value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -92,11 +92,11 @@ This method has no return value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787702(v=VS.85).aspx">TxImmGetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-tximmgetcontext">TxImmGetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

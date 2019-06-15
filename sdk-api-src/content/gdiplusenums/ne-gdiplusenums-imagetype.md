@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>ImageType</b> enumeration indicates whether an image is a bitmap or a metafile. The 
-			<a href="https://msdn.microsoft.com/en-us/library/ms535395(v=VS.85).aspx">Image::GetType</a> method returns an element of this enumeration.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-gettype">Image::GetType</a> method returns an element of this enumeration.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Indicates a metafile image.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535395(v=VS.85).aspx">Image::GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-gettype">Image::GetType</a>
  
 
  

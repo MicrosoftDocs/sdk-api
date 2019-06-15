@@ -102,7 +102,7 @@ If this value is set to <b>TRUE</b>, the current cabinet is linked to the next c
 
 
 
-<a href="https://msdn.microsoft.com/01d223ca-56c6-49fa-b9e6-e5eeda88936a">FDIIsCabinet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdiiscabinet">FDIIsCabinet</a>
  
 
  

@@ -91,11 +91,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/25fada4c-0ddc-0b79-9b8a-e9edfefce19a">DirectXMath Library 4D Vector Transformation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector4-transformation">DirectXMath Library 4D Vector Transformation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404783(v=VS.85).aspx">XMVector4TransformStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4transformstream">XMVector4TransformStream</a>
  
 
  

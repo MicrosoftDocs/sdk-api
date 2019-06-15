@@ -71,7 +71,7 @@ If the operation succeeds, the location pointed to by <i>MappingCount</i> receiv
 
 ### -param Mappings [out]
 
-A pointer to an array of type <a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a> that, on output, is filled with the active target mappings for all initiators.
+A pointer to an array of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a> that, on output, is filled with the active target mappings for all initiators.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Target mappings associate bus, target and LUN numbers with the LUNs on a target 
 
 
 
-<a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
  
 
  

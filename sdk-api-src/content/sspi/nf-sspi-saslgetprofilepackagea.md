@@ -66,7 +66,7 @@ Unicode or ANSI string that contains the name of the SASL package.
 
 ### -param PackageInfo [out]
 
-Pointer to a pointer to a <a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure that returns the package information for the package specified by the <i>ProfileName</i> parameter.
+Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure that returns the package information for the package specified by the <i>ProfileName</i> parameter.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The SASL profile specified by the <i>ProfileName</i> parameter could not be foun
 </dl>
 </td>
 <td width="60%">
-Memory could not be allocated for the <a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a> structure.
+Memory could not be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a> structure.
 
 </td>
 </tr>

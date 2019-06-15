@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetTrusteeForm</b> function retrieves the trustee name from the specified <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure. This value indicates whether the structure uses a name string or a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) to identify the trustee.
+The <b>GetTrusteeForm</b> function retrieves the trustee name from the specified <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure. This value indicates whether the structure uses a name string or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to identify the trustee.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>GetTrusteeForm</b> function retrieves the trustee name from the specified
 ### -param pTrustee [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A pointer to a
 
 
 The return value is one of the constants from the 
-<a href="https://msdn.microsoft.com/991ac6cb-3fc9-4915-b5c9-ae73efb25d68">TRUSTEE_FORM</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_form">TRUSTEE_FORM</a> enumeration.
 					
 
 
@@ -81,27 +81,27 @@ The return value is one of the constants from the
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d3ce528-fb28-4e2e-bf7f-7d84c697fcb6">GetTrusteeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-gettrusteenamea">GetTrusteeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/19777929-43cf-45ea-8283-e42bf9ce8d7a">GetTrusteeType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-gettrusteetypea">GetTrusteeType</a>
 
 
 
-<a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a>
 
 
 
-<a href="https://msdn.microsoft.com/991ac6cb-3fc9-4915-b5c9-ae73efb25d68">TRUSTEE_FORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_form">TRUSTEE_FORM</a>
  
 
  

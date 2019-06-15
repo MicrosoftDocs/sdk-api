@@ -76,7 +76,7 @@ At least some of the resource has been paged out to the hard drive.
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Bb174533(v=VS.85).aspx">QueryResourceResidency</a>.
+This enum is used by <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-queryresourceresidency">QueryResourceResidency</a>.
 
 
 
@@ -86,7 +86,7 @@ This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Bb174533(
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
  
 
  

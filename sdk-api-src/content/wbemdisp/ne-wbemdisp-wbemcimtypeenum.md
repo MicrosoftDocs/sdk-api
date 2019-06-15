@@ -53,7 +53,7 @@ The
 WbemCimtypeEnum constants define the valid CIM types of a property value.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use the Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 
 ## -enum-fields
@@ -146,11 +146,11 @@ CIM object
 
 
 
-<a href="https://msdn.microsoft.com/ab67954c-ead2-4906-9680-503612d3f12d">CIMTYPE_ENUMERATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/ne-wbemcli-tag_cimtype_enumeration">CIMTYPE_ENUMERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
  
 
  

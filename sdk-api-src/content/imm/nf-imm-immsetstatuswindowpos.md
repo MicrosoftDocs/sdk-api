@@ -64,7 +64,7 @@ Handle to the input context.
 
 ### -param lpptPos [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure containing the new position of the status window, in screen coordinates relative to the upper left corner of the display screen.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure containing the new position of the status window, in screen coordinates relative to the upper left corner of the display screen.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 
 
-This function causes an <a href="https://msdn.microsoft.com/15e65aff-67d9-4d1a-a6a7-b921cecb3aec">IMN_SETSTATUSWINDOWPOS</a> command to be sent to the application.
+This function causes an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setstatuswindowpos">IMN_SETSTATUSWINDOWPOS</a> command to be sent to the application.
 
 
 
@@ -90,15 +90,15 @@ This function causes an <a href="https://msdn.microsoft.com/15e65aff-67d9-4d1a-a
 
 
 
-<a href="https://msdn.microsoft.com/15e65aff-67d9-4d1a-a6a7-b921cecb3aec">IMN_SETSTATUSWINDOWPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setstatuswindowpos">IMN_SETSTATUSWINDOWPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

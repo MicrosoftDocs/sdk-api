@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information about a heap element. The 
-    <a href="https://msdn.microsoft.com/ba4b7372-973b-4dea-9a93-faf847a047e5">HeapWalk</a> function uses a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> function uses a 
     <b>PROCESS_HEAP_ENTRY</b> structure to enumerate the 
     elements of a heap.
 
@@ -64,7 +64,7 @@ Contains information about a heap element. The
 
 A pointer to the data portion of the heap element.
 
-To initiate a <a href="https://msdn.microsoft.com/ba4b7372-973b-4dea-9a93-faf847a047e5">HeapWalk</a> heap enumeration, set 
+To initiate a <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> heap enumeration, set 
        <b>lpData</b> to <b>NULL</b>.
 
 If <b>PROCESS_HEAP_REGION</b> is used in the <b>wFlags</b> member, 
@@ -107,18 +107,18 @@ A handle to the heap region that contains the heap element. A heap consists of o
        memory, each with a unique region index.
 
 In the first heap entry returned for most heap regions, 
-       <a href="https://msdn.microsoft.com/ba4b7372-973b-4dea-9a93-faf847a047e5">HeapWalk</a> uses the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> uses the 
        <b>PROCESS_HEAP_REGION</b> in the <b>wFlags</b> member. When this value 
        is used, the members of the <b>Region</b> structure contain additional information 
        about the region.
 
-The <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> function sometimes uses the 
-       <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function to allocate large blocks from a 
+The <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function sometimes uses the 
+       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function to allocate large blocks from a 
        growable heap. The heap manager treats such a large block allocation as a separate region with a unique region 
-       index. <a href="https://msdn.microsoft.com/ba4b7372-973b-4dea-9a93-faf847a047e5">HeapWalk</a> does not use 
+       index. <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a> does not use 
        <b>PROCESS_HEAP_REGION</b> in the heap entry returned for a large block region, so the 
        members of the <b>Region</b> structure are not valid. You can use the 
-       <a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a> function to get additional information 
+       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a> function to get additional information 
        about a large block region.
 
 
@@ -276,23 +276,23 @@ Pointer to the first invalid memory block in this heap region.
 
 
 
-<a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba4b7372-973b-4dea-9a93-faf847a047e5">HeapWalk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapwalk">HeapWalk</a>
 
 
 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
  
 
  

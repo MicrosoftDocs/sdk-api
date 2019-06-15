@@ -62,7 +62,7 @@ The <b>put_SpectralInversion</b> method specifies the spectral inversion value f
 
 ### -param pSpectralInversion [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/d8781e01-37cc-4c8c-8ff9-61e9c9b95fbd">SpectralInversion</a> variable.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/spectralinversion">SpectralInversion</a> variable.
 
 
 ## -returns
@@ -79,15 +79,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/eaab17e3-8070-4f70-a31c-cd130edf1a4a">IBDA_DigitalDemodulator::get_SpectralInversion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/spectralinversion">IBDA_DigitalDemodulator::get_SpectralInversion</a>
  
 
  

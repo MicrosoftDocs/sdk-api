@@ -63,23 +63,23 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/1f57aa92-81f0-445f-baa3-274714e8291e">ITraceDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/e150a68f-da6d-4ee1-9ac8-d19d0cae62cc">ITraceDataCollector::BuffersWritten</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_bufferswritten">ITraceDataCollector::BuffersWritten</a>
 
 
 
-<a href="https://msdn.microsoft.com/f11cf095-405b-4129-aaad-d1558f01606e">ITraceDataCollector::EventsLost</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_eventslost">ITraceDataCollector::EventsLost</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e6d3c7d-4c73-452f-98fa-6c9d1bc912ff">ITraceDataCollector::FreeBuffers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_freebuffers">ITraceDataCollector::FreeBuffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/d18169fd-4196-4844-b110-3747244b148c">ITraceDataCollector::RealTimeBuffersLost</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_realtimebufferslost">ITraceDataCollector::RealTimeBuffersLost</a>
  
 
  

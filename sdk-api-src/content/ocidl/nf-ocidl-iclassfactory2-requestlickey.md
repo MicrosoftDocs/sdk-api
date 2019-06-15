@@ -132,13 +132,13 @@ This class factory supports run-time licensing, but the current machine itself i
 
 
 
-The caller can save the license key for subsequent calls to <a href="https://msdn.microsoft.com/f33c7223-da7d-4582-9a23-7dc34be97a9f">IClassFactory2::CreateInstanceLic</a> to create objects on an otherwise unlicensed machine.
+The caller can save the license key for subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-createinstancelic">IClassFactory2::CreateInstanceLic</a> to create objects on an otherwise unlicensed machine.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-The caller must free the <b>BSTR</b> with the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function when the key is no longer needed. The value of <i>fRuntimeKeyAvail</i> is returned through a previous call to <a href="https://msdn.microsoft.com/e55d1089-b1df-4de0-9a19-cbd255b36126">IClassFactory2::GetLicInfo</a>.
+The caller must free the <b>BSTR</b> with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function when the key is no longer needed. The value of <i>fRuntimeKeyAvail</i> is returned through a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">IClassFactory2::GetLicInfo</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-This method allocates the <b>BSTR</b> key with <a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> or <a href="https://msdn.microsoft.com/en-us/library/ms221639(v=VS.85).aspx">SysAllocStringLen</a>, and the caller becomes responsible for this <b>BSTR</b> after this method returns successfully.
+This method allocates the <b>BSTR</b> key with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstringlen">SysAllocStringLen</a>, and the caller becomes responsible for this <b>BSTR</b> after this method returns successfully.
 
 This method need not be implemented when a class factory does not support run-time license keys.
 
@@ -150,7 +150,7 @@ This method need not be implemented when a class factory does not support run-ti
 
 
 
-<a href="https://msdn.microsoft.com/c49c7612-3b1f-4535-baf3-8458b3f34f95">IClassFactory2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
  
 
  

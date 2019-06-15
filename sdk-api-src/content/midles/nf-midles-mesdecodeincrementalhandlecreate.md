@@ -119,7 +119,7 @@ Out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -130,7 +130,7 @@ Out of memory.
 
 The 
 <b>MesDecodeIncrementalHandleCreate</b> function is used by applications to create the handle and initialize it for the incremental style of decoding. When using the incremental style of decoding, the user supplies a <b>Read</b> function to provide a buffer containing the next part of the data to be decoded. The buffer must be aligned at 8, and the size of the buffer must be a multiple of 8. For additional information on the user-supplied <b>Alloc</b>, <b>Write</b>, and <b>Read</b> functions, see 
-<a href="https://msdn.microsoft.com/36d6ea16-7d01-436e-ac32-610c3ddb8b8d">Serialization Services</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/serialization-services">Serialization Services</a>.
 
 
 
@@ -140,15 +140,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/c7383b4d-94d1-4edd-ac29-c11fb5343156">Alloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/incremental-serialization">Alloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4a4ac59-56fb-4693-9007-f358105f82f0">MesHandleFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/13ca3bd0-0527-4d54-84a1-aa6efca88e8d">MesIncrementalHandleReset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesincrementalhandlereset">MesIncrementalHandleReset</a>
  
 
  

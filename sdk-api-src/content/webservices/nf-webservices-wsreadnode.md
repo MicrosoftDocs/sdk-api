@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-This operation advances the Reader to the next <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">node</a> in the input stream.
+This operation advances the Reader to the next <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">node</a> in the input stream.
       If there is an error parsing the input the function will return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 ## -parameters
@@ -62,13 +62,13 @@ This operation advances the Reader to the next <a href="https://msdn.microsoft.c
 ### -param reader [in]
 
 A pointer to the <b>XML Reader</b> object to advance.
-          The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> and it may not be <b>NULL</b>.
+          The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> and it may not be <b>NULL</b>.
                 
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -119,7 +119,7 @@ Other exception conditions include: <ul>
 <li>If an XML declaration is found and <b>WS_XML_READER_PROPERTY_READ_DECLARATION</b> is <b>FALSE</b>,
         <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>
-<li>If the Reader is using <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
+<li>If the Reader is using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> and there was insufficient data buffered the reader will return
         <b>WS_E_QUOTA_EXCEEDED</b>.
       </li>
 </ul>

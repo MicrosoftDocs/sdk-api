@@ -59,12 +59,12 @@ The <b>DNS_WIRE_QUESTION</b> structure contains information about a DNS question
 
 ### -field QuestionType
 
-A value that represents the question section's <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Question Type</a>.
+A value that represents the question section's <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Question Type</a>.
 
 
 ### -field QuestionClass
 
-A value that represents the question section's <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Question Class</a>.
+A value that represents the question section's <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Question Class</a>.
 
 
 ## -remarks
@@ -81,7 +81,7 @@ When constructing a DNS message, the question name must precede the <b>DNS_WIRE_
 
 
 
-<a href="https://msdn.microsoft.com/fb36930c-dd43-427a-8034-078c99497a3e">DNS_WIRE_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_wire_record">DNS_WIRE_RECORD</a>
  
 
  

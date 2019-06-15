@@ -82,7 +82,7 @@ This function does not return a value.
     value.
 
 For more information on special folders, see the <i>Special Folders and CSIDLs</i> section 
-    of <a href="https://msdn.microsoft.com/54225481-a147-4d29-a642-24c9b59fc3ac">Getting a Folder's ID</a>.
+    of <a href="https://docs.microsoft.com/windows/desktop/shell/folder-id">Getting a Folder's ID</a>.
 
 
 

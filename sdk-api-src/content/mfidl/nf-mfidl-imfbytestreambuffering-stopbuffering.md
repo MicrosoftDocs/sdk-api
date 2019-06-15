@@ -106,7 +106,7 @@ No buffering was in progress.
 
 
 
-If the byte stream is currently buffering data, it stops and sends an <a href="https://msdn.microsoft.com/11b1290d-d462-4aa0-a358-b3f6447c99d8">MEBufferingStopped</a> event. If the byte stream is not currently buffering, this method has no effect.
+If the byte stream is currently buffering data, it stops and sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstopped">MEBufferingStopped</a> event. If the byte stream is not currently buffering, this method has no effect.
 
 
 
@@ -116,7 +116,7 @@ If the byte stream is currently buffering data, it stops and sends an <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/bbf9cdb1-5ec7-498a-aa59-85c24779547e">IMFByteStreamBuffering</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
  
 
  

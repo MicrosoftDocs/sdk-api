@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a>.</div><div> </div>The Windows Sockets 
+<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The Windows Sockets 
 <b>WSC_PROVIDER_INFO_TYPE</b>enumeration type is used to specify the information class of a layered service protocol (LSP) in Windows Sockets 2.
 
 
@@ -65,7 +65,7 @@ The LSP category information for a protocol entry in a layered protocol. The inf
 
 ### -field ProviderInfoAudit
 
-The LSP class information for audit information for the LSP entry. The information class should point to a <a href="https://msdn.microsoft.com/de2e643f-08d5-4cbb-bd12-843478856011">WSC_PROVIDER_AUDIT_INFO</a> structure containing an audit record for the LSP.
+The LSP class information for audit information for the LSP entry. The information class should point to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a> structure containing an audit record for the LSP.
 
 
 ## -remarks
@@ -73,7 +73,7 @@ The LSP class information for audit information for the LSP entry. The informati
 
 
 The 
-<a href="https://msdn.microsoft.com/de2e643f-08d5-4cbb-bd12-843478856011">WSC_PROVIDER_AUDIT_INFO</a> structure is not currently used.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a> structure is not currently used.
 
 
 
@@ -83,23 +83,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6">WSCGetProviderInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/91686b38-3cde-4979-8bf6-45e805dd37ff">WSCGetProviderInfo32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo32">WSCGetProviderInfo32</a>
 
 
 
-<a href="https://msdn.microsoft.com/10eed3e6-d5a0-4ba4-964e-3d924a231afb">WSCSetProviderInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/adb2737f-5327-4306-bd57-f165f339f911">WSCSetProviderInfo32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo32">WSCSetProviderInfo32</a>
 
 
 
-<a href="https://msdn.microsoft.com/de2e643f-08d5-4cbb-bd12-843478856011">WSC_PROVIDER_AUDIT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsc_provider_audit_info">WSC_PROVIDER_AUDIT_INFO</a>
  
 
  

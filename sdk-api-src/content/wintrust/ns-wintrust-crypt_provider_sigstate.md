@@ -129,7 +129,7 @@ Identifies the portion of the policy provider that  supports cryptographic polic
 
 
 
-<a href="https://msdn.microsoft.com/E0F526B4-AFDE-4481-B49F-EE7467F97A46">WINTRUST_SIGNATURE_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings_">WINTRUST_SIGNATURE_SETTINGS</a>
  
 
  

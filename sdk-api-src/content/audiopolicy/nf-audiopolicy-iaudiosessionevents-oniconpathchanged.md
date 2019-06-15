@@ -67,7 +67,7 @@ The path for the new display icon for the session. This parameter points to a st
 
 ### -param EventContext [in]
 
-The event context value. This is the same value that the caller passed to <a href="https://msdn.microsoft.com/25b27a65-7204-4a12-ae4e-ad216a22e4e1">IAudioSessionControl::SetIconPath</a> in the call that changed the display icon for the session. For more information, see Remarks.
+The event context value. This is the same value that the caller passed to <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath">IAudioSessionControl::SetIconPath</a> in the call that changed the display icon for the session. For more information, see Remarks.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-The session manager calls this method each time a call to the <a href="https://msdn.microsoft.com/25b27a65-7204-4a12-ae4e-ad216a22e4e1">IAudioSessionControl::SetIconPath</a> method changes the display icon for the session. The Sndvol program uses a session's display icon to label the volume slider for the session.
+The session manager calls this method each time a call to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath">IAudioSessionControl::SetIconPath</a> method changes the display icon for the session. The Sndvol program uses a session's display icon to label the volume slider for the session.
 
-The <i>EventContext</i> parameter provides a means for a client to distinguish between a display-icon change that it initiated and one that some other client initiated. When calling the <a href="https://msdn.microsoft.com/25b27a65-7204-4a12-ae4e-ad216a22e4e1">IAudioSessionControl::SetIconPath</a> method, a client passes in an <i>EventContext</i> parameter value that its implementation of the <b>OnIconPathChanged</b> method can recognize.
+The <i>EventContext</i> parameter provides a means for a client to distinguish between a display-icon change that it initiated and one that some other client initiated. When calling the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath">IAudioSessionControl::SetIconPath</a> method, a client passes in an <i>EventContext</i> parameter value that its implementation of the <b>OnIconPathChanged</b> method can recognize.
 
-For a code example that implements the methods in the <a href="https://msdn.microsoft.com/fd287ef7-8a37-4342-b4c2-79b84a56c30e">IAudioSessionEvents</a> interface, see <a href="https://msdn.microsoft.com/6943b405-0807-412b-a149-fc3a8ece1b48">Audio Session Events</a>.
+For a code example that implements the methods in the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents</a> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>.
 
 
 
@@ -97,11 +97,11 @@ For a code example that implements the methods in the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/25b27a65-7204-4a12-ae4e-ad216a22e4e1">IAudioSessionControl::SetIconPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath">IAudioSessionControl::SetIconPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd287ef7-8a37-4342-b4c2-79b84a56c30e">IAudioSessionEvents Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
  
 
  

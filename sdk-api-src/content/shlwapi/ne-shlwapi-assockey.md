@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of key to be returned by <a href="https://msdn.microsoft.com/7f380a9e-fda0-46be-88a1-fd73b0a4b7b7">IQueryAssociations::GetKey</a>.
+Specifies the type of key to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey">IQueryAssociations::GetKey</a>.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Specifies the type of key to be returned by <a href="https://msdn.microsoft.com/
 
 ### -field ASSOCKEY_SHELLEXECCLASS
 
-A key that is passed to <a href="https://msdn.microsoft.com/7850d19c-dadb-44a1-85d9-d5b897edb39f">ShellExecuteEx</a> through a <a href="https://msdn.microsoft.com/50e0dac3-b5dc-4d9f-8fd7-3a53a428166b">SHELLEXECUTEINFO</a> structure.
+A key that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
 
 
 ### -field ASSOCKEY_APP

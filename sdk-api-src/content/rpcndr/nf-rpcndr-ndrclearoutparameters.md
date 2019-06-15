@@ -59,7 +59,7 @@ The <b>NdrClearOutParameters</b> function frees resources of the out parameter a
 
 ### -param pStubMsg [in]
 
-Pointer to <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The structure is for internal use only and should not be modified.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The structure is for internal use only and should not be modified.
 
 
 ### -param pFormat [in]

@@ -88,7 +88,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-This method was called while the thread was activated or this call had no corresponding <a href="https://msdn.microsoft.com/FD1548F5-15F6-4BBC-A7D1-B0F4B881D9F8">Activate</a> call.
+This method was called while the thread was activated or this call had no corresponding <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-activate">Activate</a> call.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Each call to this method must be matched with a previous call to <b>Activate</b>
 
 
 
-<a href="https://msdn.microsoft.com/B80A0DBA-349A-450D-BD9D-14BD36308590">ITfThreadMgr2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
  
 
  

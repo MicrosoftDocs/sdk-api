@@ -82,7 +82,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 
 
-This function causes an <a href="https://msdn.microsoft.com/cc6fa7f4-b85a-486a-985d-53c071321bd1">IMN_SETOPENSTATUS</a> command to be sent to the application.
+This function causes an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a> command to be sent to the application.
 
 
 
@@ -92,15 +92,15 @@ This function causes an <a href="https://msdn.microsoft.com/cc6fa7f4-b85a-486a-9
 
 
 
-<a href="https://msdn.microsoft.com/cc6fa7f4-b85a-486a-985d-53c071321bd1">IMN_SETOPENSTATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

@@ -87,7 +87,7 @@ The handle returned in <i>hPort</i> is for synchronous I/O. This flag is availab
 
 ### -param lpContext [in, optional]
 
-Pointer to caller-supplied context information to be passed to the kernel-mode minifilter's connect notification routine. (See the <i>ConnectNotifyCallback</i> parameter in the reference page for <a href="https://msdn.microsoft.com/9987ed6b-7792-4035-9640-9ee9595e854a">FltCreateCommunicationPort</a>.) This parameter is optional and can be <b>NULL</b>. 
+Pointer to caller-supplied context information to be passed to the kernel-mode minifilter's connect notification routine. (See the <i>ConnectNotifyCallback</i> parameter in the reference page for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>.) This parameter is optional and can be <b>NULL</b>. 
 
 
 ### -param wSizeOfContext [in]
@@ -120,7 +120,7 @@ Pointer to a caller-allocated variable that receives a handle for the newly crea
 
 <b>FilterConnectCommunicationPort</b> opens a connection to a minifilter's communication server port on behalf of a user-mode application. The application uses the resulting connection port handle to communicate with the minifilter. 
 
-After it successfully calls <b>FilterConnectCommunicationPort</b>, the application can send messages to the minifilter through the connection port by calling <a href="https://msdn.microsoft.com/e0a5d790-280d-43ff-a170-14b28b3da02a">FilterSendMessage</a>. It can also receive and reply to messages from the minifilter by calling <a href="https://msdn.microsoft.com/2738e237-835c-471f-9129-26c4da5fe839">FilterGetMessage</a> and <a href="https://msdn.microsoft.com/e0a0033c-2ea8-4e5b-bcae-680247ea6157">FilterReplyMessage</a>, respectively. The connection port handle returned in the <i>hPort</i> parameter is passed as the first parameter to <b>FilterSendMessage</b>, <b>FilterGetMessage</b>, and <b>FilterReplyMessage</b>. 
+After it successfully calls <b>FilterConnectCommunicationPort</b>, the application can send messages to the minifilter through the connection port by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>. It can also receive and reply to messages from the minifilter by calling <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>, respectively. The connection port handle returned in the <i>hPort</i> parameter is passed as the first parameter to <b>FilterSendMessage</b>, <b>FilterGetMessage</b>, and <b>FilterReplyMessage</b>. 
 
 Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must eventually be released by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=139078">CloseHandle</a>. 
 
@@ -136,35 +136,35 @@ Any handle that is obtained from <b>FilterConnectCommunicationPort</b> must even
 
 
 
-<a href="https://msdn.microsoft.com/2738e237-835c-471f-9129-26c4da5fe839">FilterGetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a0033c-2ea8-4e5b-bcae-680247ea6157">FilterReplyMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a5d790-280d-43ff-a170-14b28b3da02a">FilterSendMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtersendmessage">FilterSendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e886c08-38dd-4960-9b79-4c6e68ac488d">FltBuildDefaultSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltbuilddefaultsecuritydescriptor">FltBuildDefaultSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a23b8f6-688f-4aa4-9bf3-f8bda0458566">FltCloseClientPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcloseclientport">FltCloseClientPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ab0d74-2c97-43da-8bee-82caa3d91c98">FltCloseCommunicationPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltclosecommunicationport">FltCloseCommunicationPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/9987ed6b-7792-4035-9640-9ee9595e854a">FltCreateCommunicationPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebf7ad37-6c3b-4216-87e6-ea5d6a0cba20">FltFreeSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfreesecuritydescriptor">FltFreeSecurityDescriptor</a>
 
 
 

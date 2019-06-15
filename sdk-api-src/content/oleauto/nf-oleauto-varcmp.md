@@ -236,15 +236,15 @@ The full-width form is a formatting distinction used in Chinese and Japanese scr
 
 
 
-<a href="https://msdn.microsoft.com/75622ac1-a458-4e74-9e7f-371f8c7dbe19">Automation Programming Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/automation-programming-reference">Automation Programming Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ecb0c1f-4e4d-4e8b-bd55-9ac6568d027b">Conversion and Manipulation Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/conversion-and-manipulation-functions">Conversion and Manipulation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d8e0845-285d-40e1-9b00-d36380d81b9b">Variant Arithmetic Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/variant-arithmetic-functions">Variant Arithmetic Functions</a>
  
 
  

@@ -73,9 +73,9 @@ True if the current OS version matches, or is greater than, the Windows Vista w
 
 
 
-This function does not differentiate between client and server releases.  It will return <b>true</b> if the current OS version number is equal to or higher than the version of the client named in the call. For example, a call to <a href="https://msdn.microsoft.com/06DC8FF0-8652-4652-855F-600AC53C6301">IsWindowsXPSP3OrGreater</a> will return <b>true</b> on Windows Server 2008. Applications that need to distinguish between server and client versions of Windows should call <a href="https://msdn.microsoft.com/7CC1DD25-762B-489F-AC20-1B57764923A2">IsWindowsServer</a>.
+This function does not differentiate between client and server releases.  It will return <b>true</b> if the current OS version number is equal to or higher than the version of the client named in the call. For example, a call to <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a> will return <b>true</b> on Windows Server 2008. Applications that need to distinguish between server and client versions of Windows should call <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsserver">IsWindowsServer</a>.
 
-For situations where a Windows Server version number isn't shared with a Windows client release, you can use <a href="https://msdn.microsoft.com/B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5">IsWindowsVersionOrGreater</a> to confirm.
+For situations where a Windows Server version number isn't shared with a Windows client release, you can use <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsversionorgreater">IsWindowsVersionOrGreater</a> to confirm.
 
 
 #### Examples
@@ -104,47 +104,47 @@ For example, if your application requires Windows Vista with SP1 or later, use 
 
 
 
-<a href="https://msdn.microsoft.com/5C475B5E-1412-4F60-AB81-00BE83E204BF">IsWindows7OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows7orgreater">IsWindows7OrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/E8AD3423-91EF-4ECE-9EF2-808C68CEA861">IsWindows7SP1OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows7sp1orgreater">IsWindows7SP1OrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/D11971C8-2E8F-4AD2-BE0B-FEFEC8949125">IsWindows8OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows8orgreater">IsWindows8OrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/E391B568-5E43-42C7-B186-8CA524331FFE">IsWindows8Point1OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows8point1orgreater">IsWindows8Point1OrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/7CC1DD25-762B-489F-AC20-1B57764923A2">IsWindowsServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsserver">IsWindowsServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/556C70DC-6A44-4D85-BDBF-C1110D63DC69">IsWindowsVistaOrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsvistaorgreater">IsWindowsVistaOrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/8D7F5DA2-8927-4453-A5E3-35A345B099EC">IsWindowsVistaSP2OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsvistasp2orgreater">IsWindowsVistaSP2OrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/48B7FAD6-569F-4CF5-A413-857679363736">IsWindowsXPOrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxporgreater">IsWindowsXPOrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/F8921444-B13D-4522-84F2-4792F4F37EA5">IsWindowsXPSP1OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp1orgreater">IsWindowsXPSP1OrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/DA957BA8-AD28-4096-8BE5-B77CA55B9324">IsWindowsXPSP2OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp2orgreater">IsWindowsXPSP2OrGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/06DC8FF0-8652-4652-855F-600AC53C6301">IsWindowsXPSP3OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the values used by the <a href="https://msdn.microsoft.com/825dcbed-3248-4d2e-bf5f-5d51f8f0529b">IFileDialogEvents::OnOverwrite</a> method to indicate an application's response to an overwrite request during a save operation using the common file dialog.
+Specifies the values used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onoverwrite">IFileDialogEvents::OnOverwrite</a> method to indicate an application's response to an overwrite request during a save operation using the common file dialog.
 
 
 ## -enum-fields

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The type of the certificate credential, used as a selector for
-subtypes of <a href="https://msdn.microsoft.com/729e27f4-354c-4ae9-a527-52c444206ef0">WS_CERT_CREDENTIAL</a>.
+subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_cert_credential">WS_CERT_CREDENTIAL</a>.
             
 
 
@@ -61,18 +61,18 @@ subtypes of <a href="https://msdn.microsoft.com/729e27f4-354c-4ae9-a527-52c44420
 
 ### -field WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://msdn.microsoft.com/en-us/library/Dd323455(v=VS.85).aspx">WS_SUBJECT_NAME_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_subject_name_cert_credential">WS_SUBJECT_NAME_CERT_CREDENTIAL</a>.
                 
 
 
 ### -field WS_THUMBPRINT_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://msdn.microsoft.com/en-us/library/Dd323473(v=VS.85).aspx">WS_THUMBPRINT_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_thumbprint_cert_credential">WS_THUMBPRINT_CERT_CREDENTIAL</a>.
                 
 
 
 ### -field WS_CUSTOM_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://msdn.microsoft.com/822dd067-803c-4e72-bfd0-fd9f9f36d390">WS_CUSTOM_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
                 
 

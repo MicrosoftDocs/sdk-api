@@ -124,7 +124,7 @@ Insufficient memory to complete the operation.
 
 
 
-To free the VARDESC structure, use <a href="https://msdn.microsoft.com/a0f734d8-9b14-474a-b701-df8ba7641501">ReleaseVarDesc</a>.
+To free the VARDESC structure, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasevardesc">ReleaseVarDesc</a>.
 
 
 
@@ -151,7 +151,7 @@ ptypeinfo->ReleaseVarDesc(pvardesc);
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

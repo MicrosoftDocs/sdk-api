@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/869c10c3-a4d1-4001-86f1-30ebf2abe96f">IImageInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iimageinformation">IImageInformation</a>
  
 
  

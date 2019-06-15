@@ -77,7 +77,7 @@ A bitmask of all valid attribute bits for the MPAA rating system.
 
 
 
-This enumeration type maps <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> flags to the MPAA rating system. The only valid flag is MPAA_IsBlocked.
+This enumeration type maps <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> flags to the MPAA rating system. The only valid flag is MPAA_IsBlocked.
 
 
 
@@ -87,7 +87,7 @@ This enumeration type maps <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f
 
 
 
-<a href="https://msdn.microsoft.com/5406cb4b-e843-463c-95e0-0da7e4152978">TV Ratings Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-enumerations">TV Ratings Enumerations</a>
  
 
  

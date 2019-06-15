@@ -59,7 +59,7 @@ Creates a moniker that is the inverse of this moniker. When composed to the righ
 
 ### -param ppmk [out]
 
-The address of an <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> pointer variable that receives the interface pointer to a moniker that is the inverse of this moniker. When successful, the implementation must call <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on the new inverse moniker. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>. If an error occurs, the implementation should set *<i>ppmk</i> to <b>NULL</b>.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to a moniker that is the inverse of this moniker. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new inverse moniker. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the implementation should set *<i>ppmk</i> to <b>NULL</b>.
 
 
 ## -returns
@@ -114,14 +114,14 @@ Inv( Comp( A, B, C ) ) is equal to Comp( Inv( C ), Inv( B ), Inv( A ) ).
 Not all monikers have inverses. Most monikers that are themselves inverses, such as anti-monikers, do not have inverses. Monikers that have no inverse cannot have relative monikers formed from inside the objects they identify to other objects outside.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-An object that is using a moniker to locate another object usually does not know the class of the moniker it is using. To get the inverse of a moniker, you should always call <b>IMoniker::Inverse</b> rather than the <a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a> function, because you cannot be certain that the moniker you're using considers an anti-moniker to be its inverse. 
+An object that is using a moniker to locate another object usually does not know the class of the moniker it is using. To get the inverse of a moniker, you should always call <b>IMoniker::Inverse</b> rather than the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a> function, because you cannot be certain that the moniker you're using considers an anti-moniker to be its inverse. 
 
 
 
-The <b>Inverse</b> method is also called by the implementation of the <a href="https://msdn.microsoft.com/92e2e7d7-043e-4e95-8540-5a895b5a54f9">IMoniker::RelativePathTo</a> method, to assist in constructing a relative moniker.
+The <b>Inverse</b> method is also called by the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-relativepathto">IMoniker::RelativePathTo</a> method, to assist in constructing a relative moniker.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If your monikers have no internal structure, you can call the <a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a> function in to get an anti-moniker in your implementation of <b>IMoniker::Inverse</b>. In your implementation of <a href="https://msdn.microsoft.com/6e41d79c-1a57-4270-aa84-160e0639852b">IMoniker::ComposeWith</a>, you need to check for the inverse you supply in the implementation of <b>Inverse</b>.
+If your monikers have no internal structure, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a> function in to get an anti-moniker in your implementation of <b>IMoniker::Inverse</b>. In your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-composewith">IMoniker::ComposeWith</a>, you need to check for the inverse you supply in the implementation of <b>Inverse</b>.
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
 <table>
@@ -135,11 +135,11 @@ If your monikers have no internal structure, you can call the <a href="https://m
 </tr>
 <tr>
 <td>Class moniker</td>
-<td>This method returns an anti-moniker (that is, the results of calling <a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a>).</td>
+<td>This method returns an anti-moniker (that is, the results of calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>).</td>
 </tr>
 <tr>
 <td>File moniker</td>
-<td>This method returns an anti-moniker (that is, the results of calling <a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a>).</td>
+<td>This method returns an anti-moniker (that is, the results of calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>).</td>
 </tr>
 <tr>
 <td>Generic composite moniker</td>
@@ -147,15 +147,15 @@ If your monikers have no internal structure, you can call the <a href="https://m
 </tr>
 <tr>
 <td>Item moniker</td>
-<td>This method returns an anti-moniker (that is, the results of calling <a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a>).</td>
+<td>This method returns an anti-moniker (that is, the results of calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>).</td>
 </tr>
 <tr>
 <td>OBJREF moniker</td>
-<td>This method returns an anti-moniker (that is, the results of calling <a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a>).</td>
+<td>This method returns an anti-moniker (that is, the results of calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>).</td>
 </tr>
 <tr>
 <td>Pointer moniker</td>
-<td>This method returns an anti-moniker (that is, the results of calling <a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a>).</td>
+<td>This method returns an anti-moniker (that is, the results of calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>).</td>
 </tr>
 <tr>
 <td>URL moniker</td>
@@ -172,11 +172,11 @@ If your monikers have no internal structure, you can call the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf">CreateAntiMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createantimoniker">CreateAntiMoniker</a>
 
 
 
-<a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
  
 
  

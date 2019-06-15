@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CERT_CHAIN_POLICY_PARA</b> structure contains information used in 
-<a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> to establish policy criteria for the verification of certificate chains.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> to establish policy criteria for the verification of certificate chains.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The size, in bytes, of this structure.
 A set of flags that indicate conditions that could potentially be not valid and that are to be ignored in building certificate chains.
 
 
-The <i>pszPolicyOID</i> parameter of the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function can contain one of the following values:
+The <i>pszPolicyOID</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function can contain one of the following values:
 
 <ul>
 <li><b>CERT_CHAIN_POLICY_BASE</b></li>
@@ -102,7 +102,7 @@ Ignore not time valid errors.
 </dl>
 </td>
 <td width="60%">
-Ignore <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL) not time valid errors.
+Ignore <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) not time valid errors.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Ignores errors in obtaining  valid CTL revocation information.
 </dl>
 </td>
 <td width="60%">
-Ignores errors in obtaining  valid <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) revocation information.
+Ignores errors in obtaining  valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) revocation information.
 
 </td>
 </tr>
@@ -270,7 +270,7 @@ Ignore peer trusts.
  
 
 
-If the <i>pszPolicyOID</i> parameter of the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function contains <b>CERT_CHAIN_POLICY_BASIC_CONSTRAINTS</b>, this member can be zero or a combination of one or more of the following values.
+If the <i>pszPolicyOID</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function contains <b>CERT_CHAIN_POLICY_BASIC_CONSTRAINTS</b>, this member can be zero or a combination of one or more of the following values.
 
 
 
@@ -313,7 +313,7 @@ Checks if the first certificate element is an end entity.
  
 
 
-If the <i>pszPolicyOID</i> parameter of the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function contains <b>CERT_CHAIN_POLICY_MICROSOFT_ROOT</b>, this member can be zero or the following value.
+If the <i>pszPolicyOID</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function contains <b>CERT_CHAIN_POLICY_MICROSOFT_ROOT</b>, this member can be zero or the following value.
 
 
 

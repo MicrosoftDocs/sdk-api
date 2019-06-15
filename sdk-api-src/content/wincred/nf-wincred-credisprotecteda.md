@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>CredIsProtected</b> function specifies whether the specified credentials are encrypted by a previous call to the <a href="https://msdn.microsoft.com/1e299dfb-2ffe-463c-9e2c-b7774a2216e3">CredProtect</a> function.
+ The <b>CredIsProtected</b> function specifies whether the specified credentials are encrypted by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credprotecta">CredProtect</a> function.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A pointer to a null-terminated string that specifies the credentials to test.
 
 ### -param pProtectionType [out]
 
-A pointer to a value from the <a href="https://msdn.microsoft.com/6d8d8ad6-1b44-4482-a9a2-9c50d522b8d9">CRED_PROTECTION_TYPE</a> enumeration that specifies whether the credentials specified in the <i>pszProtectedCredentials</i> parameter are protected.
+A pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ne-wincred-_cred_protection_type">CRED_PROTECTION_TYPE</a> enumeration that specifies whether the credentials specified in the <i>pszProtectedCredentials</i> parameter are protected.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A pointer to a value from the <a href="https://msdn.microsoft.com/6d8d8ad6-1b44-
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 For extended error information, call the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 

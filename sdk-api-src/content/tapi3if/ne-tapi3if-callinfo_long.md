@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>CALLINFO_LONG</b> enum is used by 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> methods that set and get call information of type <b>LONG</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> methods that set and get call information of type <b>LONG</b>.
 
 
 ## -enum-fields
@@ -62,55 +62,55 @@ The
 ### -field CIL_MEDIATYPESAVAILABLE
 
 The 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media types</a> available on the call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media types</a> available on the call.
 
 
 ### -field CIL_BEARERMODE
 
 The bearer mode of a call is described by the 
-<a href="https://msdn.microsoft.com/87e46ec9-ed5f-4ff5-a382-34eb164f4e66">LINEBEARERMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebearermode--constants">LINEBEARERMODE_ Constants</a>.
 
 
 ### -field CIL_CALLERIDADDRESSTYPE
 
 The 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">address type</a> of the caller.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">address type</a> of the caller.
 
 
 ### -field CIL_CALLEDIDADDRESSTYPE
 
 The 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">address type</a> of the called party.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">address type</a> of the called party.
 
 
 ### -field CIL_CONNECTEDIDADDRESSTYPE
 
 The 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">address type</a> of the connected party.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">address type</a> of the connected party.
 
 
 ### -field CIL_REDIRECTIONIDADDRESSTYPE
 
 The 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">address type</a> of the destination to which a call has been redirected.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">address type</a> of the destination to which a call has been redirected.
 
 
 ### -field CIL_REDIRECTINGIDADDRESSTYPE
 
 The 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">address type</a> of the location that redirected the call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">address type</a> of the location that redirected the call.
 
 
 ### -field CIL_ORIGIN
 
 The origin of a call is described by the 
-<a href="https://msdn.microsoft.com/b830a40e-62d9-4a6c-b43f-8318f30a7cd4">LINECALLORIGIN_ Constants</a>, such as LINECALLORIGIN_EXTERNAL.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallorigin--constants">LINECALLORIGIN_ Constants</a>, such as LINECALLORIGIN_EXTERNAL.
 
 
 ### -field CIL_REASON
 
 The reason for a call is described by the 
-<a href="https://msdn.microsoft.com/16278146-886f-433a-afe5-64f4894b1428">LINECALLREASON_ Constants</a>, such as LINECALLREASON_FWDUNCOND.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallreason--constants">LINECALLREASON_ Constants</a>, such as LINECALLREASON_FWDUNCOND.
 
 
 ### -field CIL_APPSPECIFIC
@@ -121,13 +121,13 @@ Application-specific information is used to pass information between application
 ### -field CIL_CALLPARAMSFLAGS
 
 Call parameter flags are described by 
-<a href="https://msdn.microsoft.com/f323ec9f-5bab-4b5d-93ef-8a552ee0d591">LINECALLPARAMFLAGS_ Constants</a>, such as LINECALLPARAMFLAGS_BLOCKID. These flags are normally set during the creation of an outgoing call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallparamflags--constants">LINECALLPARAMFLAGS_ Constants</a>, such as LINECALLPARAMFLAGS_BLOCKID. These flags are normally set during the creation of an outgoing call.
 
 
 ### -field CIL_CALLTREATMENT
 
 Call treatment identifies how a call that is on hold or unanswered gets handled, and is described by 
-<a href="https://msdn.microsoft.com/c28c9200-dd51-48b2-905c-fbe37c83b00f">LINECALLTREATMENT_ Constants</a>, such as LINECALLTREATMENT_MUSIC.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecalltreatment--constants">LINECALLTREATMENT_ Constants</a>, such as LINECALLTREATMENT_MUSIC.
 
 
 ### -field CIL_MINRATE
@@ -196,11 +196,11 @@ The current rate for a call's data stream in bps (bits per second).
 
 
 
-<a href="https://msdn.microsoft.com/0c00e672-7bad-4a44-a76a-efd222f763d7">ITCallInfo::get_CallInfoLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfolong">ITCallInfo::get_CallInfoLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5198b78-56f7-4964-970a-1068f2db4743">ITCallInfo::put_CallInfoLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-put_callinfolong">ITCallInfo::put_CallInfoLong</a>
  
 
  

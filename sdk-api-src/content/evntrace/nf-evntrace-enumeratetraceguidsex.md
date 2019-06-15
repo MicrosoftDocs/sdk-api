@@ -63,7 +63,7 @@ Use this function to retrieve information about trace providers that are registe
 
 ### -param TraceQueryInfoClass [in]
 
-Determines the type of information to include with the list of registered providers. For possible values, see the <a href="https://msdn.microsoft.com/451f1d28-bee1-4a41-a63b-693c2a831db7">TRACE_QUERY_INFO_CLASS</a> enumeration.
+Determines the type of information to include with the list of registered providers. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a> enumeration.
 
 
 ### -param InBuffer [in]
@@ -99,7 +99,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some common errors and their causes.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -145,10 +145,10 @@ The <i>OutBuffer</i> buffer is too small to receive information for all register
 
 Event trace controllers call this function.
 
-If <i>TraceQueryInfoClass</i> is <b>TraceGuidQueryInfo</b>, ETW returns the data in a <a href="https://msdn.microsoft.com/2c484adf-605d-420b-8059-942b35305acd">TRACE_GUID_INFO</a> block that is a header to the information. The info block contains a <a href="https://msdn.microsoft.com/49c11cd5-2cb1-474a-8b51-2d86b4501da1">TRACE_PROVIDER_INSTANCE_INFO</a> block for each provider that uses the same GUID. Each instance info block contains a <a href="https://msdn.microsoft.com/999dd102-5937-4b1e-b841-623dddaa0df9">TRACE_ENABLE_INFO</a> structure for each session that enabled the provider.
+If <i>TraceQueryInfoClass</i> is <b>TraceGuidQueryInfo</b>, ETW returns the data in a <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a> block that is a header to the information. The info block contains a <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a> block for each provider that uses the same GUID. Each instance info block contains a <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-enable-info">TRACE_ENABLE_INFO</a> structure for each session that enabled the provider.
 
 For information on registering event trace providers, see 
-<a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a> and <a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>.
 
 
 #### Examples
@@ -374,7 +374,7 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/451f1d28-bee1-4a41-a63b-693c2a831db7">TRACE_QUERY_INFO_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a>
  
 
  

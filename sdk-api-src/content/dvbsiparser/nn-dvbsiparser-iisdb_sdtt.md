@@ -58,8 +58,8 @@ Implements methods that get data
 To obtain a pointer to this interface, first make sure that the media graph is in a running state and that the stream you are tuned to contains an SDTT. Then:
 
 <ol>
-<li>Query the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694840(v=VS.85).aspx">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
-<li>Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694841(v=VS.85).aspx">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
+<li>Query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a> to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface. (You can also go through the graph and query each filter until you find one that supports <b>IPSITables</b>.)</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipsitables-gettable">IPSITables::GetTable</a> method. The interface pointer for the desired table is returned in the <i>ppIUnknown</i> output parameter.
 </li>
 </ol>
 
@@ -67,7 +67,7 @@ To obtain a pointer to this interface, first make sure that the media graph is i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_SDTT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IISDB_SDTT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IISDB_SDTT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IISDB_SDTT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IISDB_SDTT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e445eed-907c-4a9b-80b7-b16460bc131c">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of records in an
@@ -92,7 +92,7 @@ Gets the number of records in an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49368eaf-3115-4fdf-ac7a-39459d199ce0">GetOriginalNetworkId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getoriginalnetworkid">GetOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier for the network that originated the broadcast from an SDTT. 
@@ -101,7 +101,7 @@ Gets an identifier for the network that originated the broadcast from an SDTT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04f32111-4c4b-4f5b-81d1-fa7c19841cd8">GetRecordCountOfDescriptors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in
@@ -111,7 +111,7 @@ Returns the number of descriptors for a record in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8f757de-779c-43df-9f24-caf527e91f03">GetRecordCountOfSchedules</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecordcountofschedules">GetRecordCountOfSchedules</a>
 </td>
 <td align="left" width="63%">
 Returns the number of schedules from a
@@ -121,7 +121,7 @@ Returns the number of schedules from a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8aab681-4858-4ad2-84a7-15a9b8310d6f">GetRecordDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694356(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record
@@ -131,7 +131,7 @@ Returns a descriptor for a specified record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0260e4fb-06d0-489c-8526-f5c2dd62b146">GetRecordDescriptorByTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in
@@ -141,7 +141,7 @@ Searches a record in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22903a8d-effc-422b-bca2-907b19703b6d">GetRecordDownloadLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecorddownloadlevel">GetRecordDownloadLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the download level from an SDTT.
@@ -150,7 +150,7 @@ Gets the download level from an SDTT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7021a9e-4266-4c17-8874-4b10cf7d6428">GetRecordDurationByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694359(v=vs.85)">GetRecordDurationByIndex</a>
 </td>
 <td align="left" width="63%">
 Receives the event duration from a schedule record
@@ -160,7 +160,7 @@ Receives the event duration from a schedule record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6798e477-754d-49a3-84f1-04d1a60094a7">GetRecordGroup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecordgroup">GetRecordGroup</a>
 </td>
 <td align="left" width="63%">
 Receives the recording download level from a record
@@ -170,7 +170,7 @@ Receives the recording download level from a record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a121a8b-10fd-4f78-922a-6be704c2cab4">GetRecordNewVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecordnewversion">GetRecordNewVersion</a>
 </td>
 <td align="left" width="63%">
 Returns a new version_number field value from a subtable
@@ -181,7 +181,7 @@ Returns a new version_number field value from a subtable
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caf9f0b1-5529-4e8e-ab03-45d7d3268113">GetRecordScheduleTimeShiftInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecordscheduletimeshiftinformation">GetRecordScheduleTimeShiftInformation</a>
 </td>
 <td align="left" width="63%">
 Receives event time shift information from a schedule record in
@@ -191,7 +191,7 @@ Receives event time shift information from a schedule record in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccbeb664-6c84-4f50-9376-dfa0492aa9e1">GetRecordStartTimeByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694363(v=vs.85)">GetRecordStartTimeByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets an event start time from a schedule record in
@@ -201,7 +201,7 @@ Gets an event start time from a schedule record in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8e85c5b-e577-45b9-b377-c21700c818bb">GetRecordTargetVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecordtargetversion">GetRecordTargetVersion</a>
 </td>
 <td align="left" width="63%">
 Receives the target version from a record 
@@ -211,7 +211,7 @@ Receives the target version from a record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b4b4b4b-84b3-4181-bc84-389e72b66053">GetRecordVersionIndicator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getrecordversionindicator">GetRecordVersionIndicator</a>
 </td>
 <td align="left" width="63%">
 Receives the version indicator from a record
@@ -221,7 +221,7 @@ Receives the version indicator from a record
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36e9d2b7-f89a-47ad-9fd2-d9aa8d76949c">GetServiceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getserviceid">GetServiceId</a>
 </td>
 <td align="left" width="63%">
 Receives the service_id field that uniquely identifies a service from
@@ -231,7 +231,7 @@ Receives the service_id field that uniquely identifies a service from
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b77ce3b-c706-4820-88dc-08b37978664b">GetTableIdExt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-gettableidext">GetTableIdExt</a>
 </td>
 <td align="left" width="63%">
 Gets the table_id_extension field value from
@@ -241,7 +241,7 @@ Gets the table_id_extension field value from
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d73b705f-8409-438e-9f30-3bf2bbf86404">GetTransportStreamId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-gettransportstreamid">GetTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the transport stream identifier (TSID) for
@@ -251,7 +251,7 @@ Returns the transport stream identifier (TSID) for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/269b96c7-7748-44b3-9e6d-2089bcc56664">GetVersionHash</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getversionhash">GetVersionHash</a>
 </td>
 <td align="left" width="63%">
 Returns a hash value for this SDTT instance.
@@ -261,7 +261,7 @@ Returns a hash value for this SDTT instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19b2234b-6836-42b7-9e64-a8212946c77b">GetVersionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Gets the version number for an SDTT.
@@ -270,7 +270,7 @@ Gets the version number for an SDTT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1018e3a-00dd-4964-b491-0193a71e7d51">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_sdtt-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object by using captured table section data from

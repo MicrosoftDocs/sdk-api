@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Begins an asynchronous request to create an object from a URL.
 
-When the <a href="https://msdn.microsoft.com/93eecf10-308b-4bb4-92f9-fd32d6ecdb04">Source Resolver</a> creates a media source from a URL, it passes the request to a scheme handler. The scheme handler might create a media source directly from the URL, or it might return a byte stream. If it returns a byte stream, the source resolver use a byte-stream handler to create the media source from the byte stream.
+When the <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a> creates a media source from a URL, it passes the request to a scheme handler. The scheme handler might create a media source directly from the URL, or it might return a byte stream. If it returns a byte stream, the source resolver use a byte-stream handler to create the media source from the byte stream.
 
 
 
@@ -71,25 +71,25 @@ A null-terminated string that contains the URL to resolve.
 
 ### -param dwFlags [in]
 
-A bitwise <b>OR</b> of one or more flags. See <a href="https://msdn.microsoft.com/fe0b9090-5d2a-41a4-a806-57c874d3b3a2">Source Resolver Flags</a>.
+A bitwise <b>OR</b> of one or more flags. See <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver-flags">Source Resolver Flags</a>.
           
 
 
 ### -param pProps [in]
 
-A pointer to the <b>IPropertyStore</b> interface of a property store. The scheme handler can use this property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/1378bbe6-be94-4be1-b428-5ec58dabd1fa">Configuring a Media Source</a>.
+A pointer to the <b>IPropertyStore</b> interface of a property store. The scheme handler can use this property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/configuring-a-media-source">Configuring a Media Source</a>.
           
 
 
 ### -param ppIUnknownCancelCookie [out]
 
-Receives an <b>IUnknown</b> pointer or the value <b>NULL</b>. If the value is not <b>NULL</b>, you can cancel the asynchronous operation by passing this pointer to the <a href="https://msdn.microsoft.com/662a4c47-95f8-4a84-ab2b-96e51d13906c">IMFSchemeHandler::CancelObjectCreation</a> method. The caller must release the interface. This parameter can be <b>NULL</b>, in which case the <b>IUnknown</b> pointer is not returned to the caller.
+Receives an <b>IUnknown</b> pointer or the value <b>NULL</b>. If the value is not <b>NULL</b>, you can cancel the asynchronous operation by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-cancelobjectcreation">IMFSchemeHandler::CancelObjectCreation</a> method. The caller must release the interface. This parameter can be <b>NULL</b>, in which case the <b>IUnknown</b> pointer is not returned to the caller.
           
 
 
 ### -param pCallback [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
           
 
 
@@ -157,7 +157,7 @@ Unsupported byte stream type.
 
 
 
-The <i>dwFlags</i> parameter must contain the <b>MF_RESOLUTION_MEDIASOURCE</b> flag or the <b>MF_RESOLUTION_BYTESTREAM</b> flag. If the <b>MF_RESOLUTION_MEDIASOURCE</b> flag is set, the scheme handler might create the media source directly from the URL, or it might create a byte stream. The type of object is returned in the <i>pObjectType</i> parameter of the <a href="https://msdn.microsoft.com/e3f88904-c30f-4d40-ac79-c83b0a06f1fa">IMFSchemeHandler::EndCreateObject</a> method. If the scheme handler returns a byte stream, the source resolver will pass the byte stream to a byte-stream handler, which will create the media source from the byte stream.
+The <i>dwFlags</i> parameter must contain the <b>MF_RESOLUTION_MEDIASOURCE</b> flag or the <b>MF_RESOLUTION_BYTESTREAM</b> flag. If the <b>MF_RESOLUTION_MEDIASOURCE</b> flag is set, the scheme handler might create the media source directly from the URL, or it might create a byte stream. The type of object is returned in the <i>pObjectType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-endcreateobject">IMFSchemeHandler::EndCreateObject</a> method. If the scheme handler returns a byte stream, the source resolver will pass the byte stream to a byte-stream handler, which will create the media source from the byte stream.
 
 If the <b>MF_RESOLUTION_BYTESTREAM</b> flag is set, the scheme handler will attempt to create a byte stream from the URL. However, if the scheme handler is designed to create a media source directly, rather than a byte stream, the method will fail.
 
@@ -181,7 +181,7 @@ The following table summarizes the behavior of these two flags when passed to th
 
 The <b>MF_RESOLUTION_MEDIASOURCE</b> and <b>MF_RESOLUTION_BYTESTREAM</b> flags can be combined, although in this case it is redundant.
 
-When the operation completes, the scheme handler calls the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method. The Invoke method should call <a href="https://msdn.microsoft.com/e3f88904-c30f-4d40-ac79-c83b0a06f1fa">IMFSchemeHandler::EndCreateObject</a> to get a pointer to the created object.
+When the operation completes, the scheme handler calls the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method. The Invoke method should call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-endcreateobject">IMFSchemeHandler::EndCreateObject</a> to get a pointer to the created object.
 
 
 
@@ -191,11 +191,11 @@ When the operation completes, the scheme handler calls the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/a342054e-2cb5-494a-a2f7-d144c72d1fa5">IMFSchemeHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0113527-f22c-4519-b1cf-fea54bff4090">Scheme Handlers and Byte-Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
  
 
  

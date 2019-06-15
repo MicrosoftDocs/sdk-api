@@ -59,7 +59,7 @@ Describes a descriptor range.
 
 ### -field RangeType
 
-A <a href="https://msdn.microsoft.com/A72AAEA7-D812-41D0-B9AD-8A219EC9A88A">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_type">D3D12_DESCRIPTOR_RANGE_TYPE</a>-typed value that specifies the type of descriptor range.
           
 
 
@@ -91,7 +91,7 @@ The offset in descriptors, from the start of the descriptor table which was set 
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/5A0A04AB-2053-40E0-9CD5-E344BFE9001E">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure.
+This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure.
       
 
 
@@ -102,11 +102,11 @@ This structure is a member of the <a href="https://msdn.microsoft.com/5A0A04AB-2
 
 
 
-<a href="https://msdn.microsoft.com/F066ECA5-5E52-4483-B773-B43C5F12809B">CD3DX12_DESCRIPTOR_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-descriptor-range">CD3DX12_DESCRIPTOR_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

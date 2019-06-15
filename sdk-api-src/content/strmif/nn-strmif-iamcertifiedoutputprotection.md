@@ -53,14 +53,14 @@ ms.custom: 19H1
 
 The <code>IAMCertifiedOutputProtection</code> interface sends Certified Output Protection Protocol (COPP) messages to the graphics driver. This interface is exposed by the Video Mixing Renderer 7 (VMR-7) and Video Mixing Renderer 9 (VMR-9) filters.
 
-For information about using COPP, see <a href="https://msdn.microsoft.com/23eebe93-416b-48c8-a05f-019e38b9a660">Using Certified Output Protection Protocol (COPP)</a>.
+For information about using COPP, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCertifiedOutputProtection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMCertifiedOutputProtection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMCertifiedOutputProtection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMCertifiedOutputProtection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMCertifiedOutputProtection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/163164a2-e2a2-447d-b443-f92972197aff">KeyExchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-keyexchange">KeyExchange</a>
 </td>
 <td align="left" width="63%">
 Returns the graphics driver's certificate.
@@ -84,7 +84,7 @@ Returns the graphics driver's certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/facf13b2-6650-4e81-97ba-eadacc514ef0">ProtectionCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-protectioncommand">ProtectionCommand</a>
 </td>
 <td align="left" width="63%">
 Sends a COPP command to the graphics driver.
@@ -93,7 +93,7 @@ Sends a COPP command to the graphics driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c93ebbcc-ce44-4d77-b088-7112ddaf41b2">ProtectionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-protectionstatus">ProtectionStatus</a>
 </td>
 <td align="left" width="63%">
 Sends a COPP status request to the graphics driver
@@ -102,7 +102,7 @@ Sends a COPP status request to the graphics driver
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0321e315-b53c-487f-a015-80f7ed581737">SessionSequenceStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-sessionsequencestart">SessionSequenceStart</a>
 </td>
 <td align="left" width="63%">
 Initiates the COPP session with the graphics driver.
@@ -117,7 +117,7 @@ Initiates the COPP session with the graphics driver.
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

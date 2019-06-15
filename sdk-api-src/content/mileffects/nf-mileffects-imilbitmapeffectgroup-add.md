@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds an effect to the <a href="https://msdn.microsoft.com/en-us/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>.
+Adds an effect to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectgroup">IMILBitmapEffectGroup</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Adds an effect to the <a href="https://msdn.microsoft.com/en-us/library/ms735291
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffect">IMILBitmapEffect</a>*</b>
 
 A pointer to the effect to add to the group.
 

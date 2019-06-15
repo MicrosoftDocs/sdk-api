@@ -120,11 +120,11 @@ Each sensor event is represented by a <b>GUID</b>. This method returns the list 
 
 
 
-<a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0cfb884e0">ISensor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3c2d8b9-6511-41ff-9734-92f47825bbcd">SetEventInterest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides error information for use in the <a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">ISyncMgrSynchronizeCallback::LogError</a> method.
+Provides error information for use in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a> method.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The size of the structure.
 
 Type: <b>DWORD</b>
 
-The mask value. The synchronization manager handler implemented by your application can set any combination of the following bits to indicate which fields of <b>SYNCMGRLOGERRORINFO</b> it has filled in when calling <a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">ISyncMgrSynchronizeCallback::LogError</a>.
+The mask value. The synchronization manager handler implemented by your application can set any combination of the following bits to indicate which fields of <b>SYNCMGRLOGERRORINFO</b> it has filled in when calling <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>.
 
 
 
@@ -99,7 +99,7 @@ Error flags. At this time only the following value is recognized.
 
 #### SYNCMGRERRORFLAG_ENABLEJUMPTEXT
 
-The <a href="https://msdn.microsoft.com/0e313c61-6482-4396-b4b8-824fba0226ac">ISyncMgrSynchronize::ShowError</a> method should be called on this item.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-showerror">ISyncMgrSynchronize::ShowError</a> method should be called on this item.
 
 
 ### -field ErrorID
@@ -121,7 +121,7 @@ The item where the error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">ISyncMgrSynchronizeCallback::LogError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>
  
 
  

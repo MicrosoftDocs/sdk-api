@@ -64,7 +64,7 @@ The URL of the media resource.
 
 ### -param pByteStream [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface.
 
 If the <i>type</i> parameter equals  <b>MF_OBJECT_BYTESTREAM</b>, this parameter is <b>NULL</b>. 
 
@@ -73,7 +73,7 @@ If <i>type</i> equals <b>MF_OBJECT_MEDIASOURCE</b>, this parameter either contai
 
 ### -param type [in]
 
-A member of the <a href="https://msdn.microsoft.com/e919ae78-e3a5-42c5-b4e0-186e7e4fe54a">MF_OBJECT_TYPE</a> enumeration that specifies which type of object to create.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration that specifies which type of object to create.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ A member of the <a href="https://msdn.microsoft.com/e919ae78-e3a5-42c5-b4e0-186e
 </dl>
 </td>
 <td width="60%">
-Create a byte stream. The byte stream must support the <a href="https://msdn.microsoft.com/690035b7-2855-4714-938f-f8250ec70d24">IMFByteStream</a> interface.
+Create a byte stream. The byte stream must support the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Create a byte stream. The byte stream must support the <a href="https://msdn.mic
 </dl>
 </td>
 <td width="60%">
-Create a media source. The media source must support the <a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a> interface.
+Create a media source. The media source must support the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface.
 
 </td>
 </tr>
@@ -106,19 +106,19 @@ Create a media source. The media source must support the <a href="https://msdn.m
 
 ### -param ppIUnknownCancelCookie [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.  This pointer can be used to cancel the asynchronous operation, by passing the pointer to the <a href="https://msdn.microsoft.com/E2FEC865-221E-41B5-8271-32A53D60619E">IMFMediaEngineExtension::CancelObjectCreation</a> method. 
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.  This pointer can be used to cancel the asynchronous operation, by passing the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-cancelobjectcreation">IMFMediaEngineExtension::CancelObjectCreation</a> method. 
 
 The caller must release the interface. This parameter can be NULL.
 
 
 ### -param pCallback [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/7edff985-da59-4cc0-96de-1a92e03a7d41">IMFAsyncCallback</a> interface. This interface is used to signal the completion of the asynchronous operation.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface. This interface is used to signal the completion of the asynchronous operation.
 
 
 ### -param punkState [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of an object impemented by the caller. You can use this object to hold state information for the callback. The object is returned to the caller when the callback is invoked. This parameter can be <b>NULL</b>. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of an object impemented by the caller. You can use this object to hold state information for the callback. The object is returned to the caller when the callback is invoked. This parameter can be <b>NULL</b>. 
 
 
 ## -returns
@@ -140,7 +140,7 @@ This method requests the object to create either a byte stream or a media source
 <li>If <i>type</i> is <b>MF_OBJECT_BYTESTREAM</b>, the method creates a byte stream for the URL that is specified in <i>bstrURL</i>. In this case, the <i>pByteStream</i> parameter is <b>NULL</b>. </li>
 <li>If <i>type</i> is <b>MF_OBJECT_MEDIASOURCE</b>, the method creates a media source, using the byte stream that is specified in the <i>pByteStream</i> parameter. Note that <i>pByteStream</i> can also be <b>NULL</b> in this case.</li>
 </ul>
-The method is performed asynchronously. The Media Engine calls the <a href="https://msdn.microsoft.com/F2B19870-7529-4C8C-9FE6-B312F6A2D2ED">IMFMediaEngineExtension::EndCreateObject</a> method to complete the operation.
+The method is performed asynchronously. The Media Engine calls the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-endcreateobject">IMFMediaEngineExtension::EndCreateObject</a> method to complete the operation.
 
 <h3><a id="Implemention_Notes"></a><a id="implemention_notes"></a><a id="IMPLEMENTION_NOTES"></a>Implemention Notes</h3>
 A Media Engine extension can be used to support a custom byte stream object, a custom media source, or both. For a byte stream, create the byte stream object when <i>type</i> equals <b>MF_OBJECT_BYTESTREAM</b>. For a media source, create the source when the type equals <b>MF_OBJECT_MEDIASOURCE</b>.
@@ -152,7 +152,7 @@ To load a URL, the Media Engine performs the following steps:<ol>
 </ol>
 
 
-At each step, the Media Engine calls <b>IMFMediaEngineExtension::BeginCreateObject</b> on the extension object. If the <b>BeginCreateObject</b> method fails, the Media Engine tries the <a href="https://msdn.microsoft.com/93eecf10-308b-4bb4-92f9-fd32d6ecdb04">Source Resolver</a>.
+At each step, the Media Engine calls <b>IMFMediaEngineExtension::BeginCreateObject</b> on the extension object. If the <b>BeginCreateObject</b> method fails, the Media Engine tries the <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a>.
 
 In your <b>BeginCreateObject</b> method, you can choose to handle any of the following cases:<ul>
 <li>The <i>type</i> parameter is <b>MF_OBJECT_BYTESTREAM</b>. Create a byte stream from the URL.</li>
@@ -169,7 +169,7 @@ Examples:<ul>
 </ul>
 
 
-If the <b>BeginCreateObject</b> method succeeds, the operation should be performed asynchronously. When the operation completes, call the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> method on the callback interface specified in <i>pCallback</i>. The Media Engine completes the operation by calling <a href="https://msdn.microsoft.com/F2B19870-7529-4C8C-9FE6-B312F6A2D2ED">IMFMediaEngineExtension::EndCreateObject</a>.
+If the <b>BeginCreateObject</b> method succeeds, the operation should be performed asynchronously. When the operation completes, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method on the callback interface specified in <i>pCallback</i>. The Media Engine completes the operation by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineextension-endcreateobject">IMFMediaEngineExtension::EndCreateObject</a>.
 
 
 
@@ -179,7 +179,7 @@ If the <b>BeginCreateObject</b> method succeeds, the operation should be perform
 
 
 
-<a href="https://msdn.microsoft.com/A032E0D0-2201-4B81-9FE0-8E9CE2707FDB">IMFMediaEngineExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
  
 
  

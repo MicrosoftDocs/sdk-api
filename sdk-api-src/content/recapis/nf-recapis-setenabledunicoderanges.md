@@ -72,7 +72,7 @@ The number of ranges in the <i>pRanges</i> buffer.
 
 ### -param pcr
 
-An array of <a href="https://msdn.microsoft.com/51d13adf-170e-4172-b752-c9dac5a96fa5">CHARACTER_RANGE</a> structures. Each structure identifies a range of Unicode points that you want to enable in the recognizer. The order of the array is arbitrary.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range">CHARACTER_RANGE</a> structures. Each structure identifies a range of Unicode points that you want to enable in the recognizer. The order of the array is arbitrary.
 
 
 ## -returns
@@ -155,9 +155,9 @@ The <b>SetEnabledUnicodeRanges</b> function is optional.
 
 Some recognizers do not support enabling and disabling specific code points, but may still include the <b>SetEnabledUnicodeRanges</b> function. For such recognizers, the <b>SetEnabledUnicodeRanges</b> function returns E_NOTIMPL.
 
-Each recognizer supports one or more Unicode point ranges. To determine which Unicode point ranges the recognizer supports, call the <a href="https://msdn.microsoft.com/4a354073-e971-43ba-93c9-84fa2e8c59aa">GetUnicodeRanges</a> function. If you do not call this function, the recognizer uses a default set of Unicode point ranges. The default ranges are recognizer specific.
+Each recognizer supports one or more Unicode point ranges. To determine which Unicode point ranges the recognizer supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges</a> function. If you do not call this function, the recognizer uses a default set of Unicode point ranges. The default ranges are recognizer specific.
 
-The Microsoft gesture recognizer uses Unicode characters from 0xF000 to 0xF0FF. Each single Unicode value in this range represents a single gesture. For a complete list of Unicode values for gestures, see <a href="https://msdn.microsoft.com/931fc69a-1f7a-492c-8158-0691cd2fe57a">Unicode Range Values of Gestures</a>.
+The Microsoft gesture recognizer uses Unicode characters from 0xF000 to 0xF0FF. Each single Unicode value in this range represents a single gesture. For a complete list of Unicode values for gestures, see <a href="https://docs.microsoft.com/windows/desktop/tablet/unicode-range-values-of-gestures">Unicode Range Values of Gestures</a>.
 
 
 
@@ -167,15 +167,15 @@ The Microsoft gesture recognizer uses Unicode characters from 0xF000 to 0xF0FF. 
 
 
 
-<a href="https://msdn.microsoft.com/51d13adf-170e-4172-b752-c9dac5a96fa5">CHARACTER_RANGE Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagcharacter_range">CHARACTER_RANGE Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/047a72f9-a627-4c8b-b271-13d3c873abc9">GetEnabledUnicodeRanges Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getenabledunicoderanges">GetEnabledUnicodeRanges Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a354073-e971-43ba-93c9-84fa2e8c59aa">GetUnicodeRanges Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getunicoderanges">GetUnicodeRanges Function</a>
  
 
  

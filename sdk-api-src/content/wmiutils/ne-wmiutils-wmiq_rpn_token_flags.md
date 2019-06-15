@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags that describe query tokens used in the <a href="https://msdn.microsoft.com/06cd2593-58f5-46b9-9100-debad0280d90">GetAnalysis</a> method. 
+Contains flags that describe query tokens used in the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a> method. 
 
 
 ## -enum-fields

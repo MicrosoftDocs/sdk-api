@@ -53,7 +53,7 @@ This function initializes the headers for the message in preparation for
                 processing.
             After a message has been initialized an application can
                 add additional headers.
-            On success the message is in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_INITIALIZED</a> state.
+            On success the message is in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_INITIALIZED</a> state.
                 If the function fails, then no state transitions occurs.
             
 
@@ -65,8 +65,8 @@ This function initializes the headers for the message in preparation for
 
 ### -param message [in]
 
-A pointer to the Message object to initialize.  The Message must be a valid <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> object instance returned
-                    by <a href="https://msdn.microsoft.com/1c48647e-9e77-4b7a-add3-e035c7f9f27e">WsCreateMessage</a> or <a href="https://msdn.microsoft.com/0a4f076b-6725-45a9-8817-5dec3b647c4f">WsCreateMessageForChannel</a> and may not be NULL.
+A pointer to the Message object to initialize.  The Message must be a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object instance returned
+                    by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessage">WsCreateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemessageforchannel">WsCreateMessageForChannel</a> and may not be NULL.
                 
 
 
@@ -91,7 +91,7 @@ A pointer to a message object that is used to initialize the <i>message</i> para
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -150,11 +150,11 @@ This function may return other errors not listed above.
 
 
 The initial sender of a message should add an action header
-                to the message using <a href="https://msdn.microsoft.com/34671c47-d21e-47c4-9fb0-10b036fb4f70">WsSetHeader</a>.
+                to the message using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetheader">WsSetHeader</a>.
             
 
-This API must be called before <a href="https://msdn.microsoft.com/213fe780-82f2-4140-92f2-2665317a5cb6">WsWriteEnvelopeStart</a> or
-                <a href="https://msdn.microsoft.com/43cc43a5-7853-4170-911d-e514ac722da5">WsWriteMessageStart</a> is called for the message.
+This API must be called before <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteenvelopestart">WsWriteEnvelopeStart</a> or
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a> is called for the message.
             
 
 

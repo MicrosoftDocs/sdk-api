@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/b936c479-a5f1-47a3-bd5a-f1b83cd84dc0">IEnumTfInputProcessorProfiles::Skip</a> method moves the current position forward in the enumeration sequence by the specified number of elements.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Skip</a> method moves the current position forward in the enumeration sequence by the specified number of elements.
 
 
 ## -parameters

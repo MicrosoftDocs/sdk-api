@@ -140,7 +140,7 @@ If a method that returns an <b>HRESULT</b> is canceled, the return value will be
 
 
 
-<a href="https://msdn.microsoft.com/5e31f706-1c9c-4510-845c-4e47093780a1">ICancelMethodCalls</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
  
 
  

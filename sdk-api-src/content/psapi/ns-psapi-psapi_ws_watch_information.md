@@ -72,7 +72,7 @@ A pointer to the page that was added to the working set.
 
 
 
-<a href="https://msdn.microsoft.com/ace5106c-9c7b-4d5f-a69a-c3a8bff0bb2d">GetWsChanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getwschanges">GetWsChanges</a>
  
 
  

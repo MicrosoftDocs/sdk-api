@@ -54,7 +54,7 @@ Represents a 2D transformation that affects the scale of a visual along the x-ax
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionScaleTransform</b> interface inherits from <a href="https://msdn.microsoft.com/22f0d199-5162-4869-909e-d0ed0059b773">IDCompositionTransform</a>. <b>IDCompositionScaleTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionScaleTransform</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>. <b>IDCompositionScaleTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionScaleTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5258F0D5-0034-4E02-8975-C5A530099727">SetCenterX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449036(v=vs.85)">SetCenterX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 2D scale transform.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionScaleTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18A755E6-C6E8-437C-BBB5-58F36F754BE7">SetCenterY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449042(v=vs.85)">SetCenterY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a 2D scale transform.
 
@@ -85,7 +85,7 @@ The <b>IDCompositionScaleTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/114C4907-280C-4060-9157-30E0E8989251">SetScaleX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449048(v=vs.85)">SetScaleX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleX property of a 2D scale transform.
 
@@ -93,7 +93,7 @@ The <b>IDCompositionScaleTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/651F98F6-5674-4FB8-A180-FE02B7A1E4B1">SetScaleY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449055(v=vs.85)">SetScaleY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleY property of a 2D scale transform.
 
@@ -120,11 +120,11 @@ The effect is to scale the coordinate system up or down and apply the correspond
 
 
 
-<a href="https://msdn.microsoft.com/22f0d199-5162-4869-909e-d0ed0059b773">IDCompositionTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform">IDCompositionTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/DA3CBBB6-DB0A-4FCE-9DAC-7A767783A18D">IDCompositionVisual::SetTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
  
 
  

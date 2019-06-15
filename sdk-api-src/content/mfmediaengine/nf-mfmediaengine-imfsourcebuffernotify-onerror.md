@@ -74,7 +74,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/4a823d37-f55a-4810-aaed-4e04f5371d3b">IMFSourceBufferNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
  
 
  

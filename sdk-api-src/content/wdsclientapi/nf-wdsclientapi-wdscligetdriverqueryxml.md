@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function generates an XML string which can be used to query a WDS server for driver packages using the <a href="https://msdn.microsoft.com/C9AA3036-8E34-4F57-829C-F5D8CDA2EAA7">WdsCliObtainDriverPackagesEx</a> function.  The target OS information section of the WDS driver query XML is generated if the path to the Windows directory of the applied image is specified. 
+This function generates an XML string which can be used to query a WDS server for driver packages using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliobtaindriverpackagesex">WdsCliObtainDriverPackagesEx</a> function.  The target OS information section of the WDS driver query XML is generated if the path to the Windows directory of the applied image is specified. 
 
 
 ## -parameters

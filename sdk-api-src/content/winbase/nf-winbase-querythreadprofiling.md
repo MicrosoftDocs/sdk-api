@@ -81,11 +81,11 @@ Is <b>TRUE</b> if thread profiling is enabled for the specified thread; otherwis
 
 
 
-<a href="https://msdn.microsoft.com/650631a6-fd90-46e1-8f2d-84aaaed05bac">DisableThreadProfiling</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-disablethreadprofiling">DisableThreadProfiling</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbbe5b01-cabf-42cb-9ed9-c2c143f9923b">EnableThreadProfiling</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a>
  
 
  

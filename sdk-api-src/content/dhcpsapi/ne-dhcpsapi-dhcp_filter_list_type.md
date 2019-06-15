@@ -72,7 +72,7 @@ The filter list is an allow list.
 
 
 
-<a href="https://msdn.microsoft.com/eed7fffa-a48c-4ebc-ba3a-a118d2b0e20b">DHCP_FILTER_ADD_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_add_infov4">DHCP_FILTER_ADD_INFO</a>
  
 
  

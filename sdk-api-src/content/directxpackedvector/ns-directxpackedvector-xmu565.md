@@ -53,7 +53,7 @@ A 3D vector with x- and z- components represented as 5-bit unsigned integer valu
     and the y- component as a 6-bit unsigned integer value.
 
 For a list of more functionality such as constructors and operators that are available
-	using <code>XMU565</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415441(v=VS.85).aspx">XMU565 Extensions</a>.
+	using <code>XMU565</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu565-extensions">XMU565 Extensions</a>.
 
 
 ## -struct-fields
@@ -122,10 +122,10 @@ The 5-bit z component.
 
 
 You can use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadu565">XMLoadU565</a> to load <code>XMU565</code> into instances 
-      of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a>.
+      of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a>.
 	
 
-You can use <a href="https://msdn.microsoft.com/en-us/library/Ee420375(v=VS.85).aspx">XMStoreU565</a> to store instances of <code>XMVECTOR</code> 
+You can use <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreu565">XMStoreU565</a> to store instances of <code>XMVECTOR</code> 
     into an instance of <code>XMU565</code>.
 	
 
@@ -142,11 +142,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415441(v=VS.85).aspx">XMU565 Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu565-extensions">XMU565 Extensions</a>
  
 
  

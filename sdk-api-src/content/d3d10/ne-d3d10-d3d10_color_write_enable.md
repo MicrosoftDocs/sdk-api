@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identify which components of each pixel of a render target are writable during <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blending</a>.
+Identify which components of each pixel of a render target are writable during <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">blending</a>.
 
 
 ## -enum-fields
@@ -96,7 +96,7 @@ These flags can be combined with a bitwise OR.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

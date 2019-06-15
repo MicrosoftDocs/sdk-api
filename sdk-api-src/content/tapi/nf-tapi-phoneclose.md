@@ -79,7 +79,7 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_OPERATIONFAILED, PHONEERR_RE
 
 
 After the open phone device has been successfully closed, the implementation sends a 
-<a href="https://msdn.microsoft.com/84650abf-235e-4792-a67d-2f0f08b85a32">PHONE_CLOSE</a> message to the application. These messages can also be sent unsolicited as a result of the phone device being reclaimed somehow. An application should therefore be prepared to handle these unsolicited close messages. At the time the phone device is closed, any outstanding asynchronous replies are suppressed.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-close">PHONE_CLOSE</a> message to the application. These messages can also be sent unsolicited as a result of the phone device being reclaimed somehow. An application should therefore be prepared to handle these unsolicited close messages. At the time the phone device is closed, any outstanding asynchronous replies are suppressed.
 
 
 
@@ -89,15 +89,15 @@ After the open phone device has been successfully closed, the implementation sen
 
 
 
-<a href="https://msdn.microsoft.com/84650abf-235e-4792-a67d-2f0f08b85a32">PHONE_CLOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-close">PHONE_CLOSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5">Supplementary Phone Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

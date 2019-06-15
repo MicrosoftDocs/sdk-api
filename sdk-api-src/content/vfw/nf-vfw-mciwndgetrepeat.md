@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetRepeat</b> macro determines if continuous playback has been activated. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/6d644117-e705-421f-b45f-9f0e833e6bc8">MCIWNDM_GETREPEAT</a> message.
+The <b>MCIWndGetRepeat</b> macro determines if continuous playback has been activated. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getrepeat">MCIWNDM_GETREPEAT</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/6d644117-e705-421f-b45f-9f0e833e6bc8">MCIWNDM_GETREPEAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getrepeat">MCIWNDM_GETREPEAT</a>
  
 
  

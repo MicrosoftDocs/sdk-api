@@ -55,16 +55,16 @@ This is the primary interface for conditions used in filtering when searching fo
 The following interfaces inherit from <b>IUIAutomationCondition</b>:
         <ul>
 <li>
-<a href="https://msdn.microsoft.com/f9808c48-dc98-465b-958d-223a8b7cc371">IUIAutomationAndCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationandcondition">IUIAutomationAndCondition</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a2f9d994-a0fa-4ff5-90b2-8212469f0ced">IUIAutomationBoolCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationboolcondition">IUIAutomationBoolCondition</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/63745e87-1571-47cb-b4d2-6909d834e97b">IUIAutomationNotCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationnotcondition">IUIAutomationNotCondition</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fedf003e-0921-4f9e-b1a8-c8faae9e95a4">IUIAutomationPropertyCondition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationpropertycondition">IUIAutomationPropertyCondition</a>
 </li>
 </ul>
 
@@ -75,11 +75,11 @@ The following interfaces inherit from <b>IUIAutomationCondition</b>:
 
 
 
-<a href="https://msdn.microsoft.com/8675851a-4a72-4cbe-ab71-ed6fc891be17">Obtaining UI Automation Elements</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-obtainingelements">Obtaining UI Automation Elements</a>
 
 
 
-<a href="https://msdn.microsoft.com/cea34e47-03a9-4ff9-9019-427a2a3e13d6">Property Condition Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>
  
 
  

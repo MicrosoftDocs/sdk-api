@@ -92,9 +92,9 @@ A pointer to the object that contains the notification data and its size and typ
 
 The return values are COM error codes. Because this function might complete the operation successfully yet return an HRESULT other than S_OK you should use the SUCCEEDED or FAILED macro to determine the success of the call. To get the specific HRESULT that was returned by the function, use the HRESULT_CODE macro.
 
-See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
+See <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 The following code example shows how these macros can be used to evaluate the return value.
 
@@ -132,7 +132,7 @@ if (FAILED(hr)) {
 
 
 
-To deliver a notification, the print spooler will call the <b>OnEventNotify</b> method of the <a href="https://msdn.microsoft.com/e2b021cd-1cfd-42b7-b6e4-7f8671b013f6">IPrintAsyncNotifyCallback</a> object provided by the listening application at the time it registered for notifications. For unidirectional notifications, <i>pChannel</i> is <b>NULL</b>. For bidirectional channels, <i>pChannel</i> points to an <a href="https://msdn.microsoft.com/8973cf5a-bbce-43c2-b418-2807842d43c0">IPrintAsyncNotifyChannel</a> to be used by a listening application to send a notification in response. The listener will do this by calling the <a href="https://msdn.microsoft.com/729286d4-75ee-441e-b63d-fef72d41533a">SendNotification</a> method of the <b>IPrintAsyncNotifyChannel</b>.
+To deliver a notification, the print spooler will call the <b>OnEventNotify</b> method of the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifycallback">IPrintAsyncNotifyCallback</a> object provided by the listening application at the time it registered for notifications. For unidirectional notifications, <i>pChannel</i> is <b>NULL</b>. For bidirectional channels, <i>pChannel</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifychannel">IPrintAsyncNotifyChannel</a> to be used by a listening application to send a notification in response. The listener will do this by calling the <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">SendNotification</a> method of the <b>IPrintAsyncNotifyChannel</b>.
 
 
 
@@ -142,19 +142,19 @@ To deliver a notification, the print spooler will call the <b>OnEventNotify</b> 
 
 
 
-<a href="https://msdn.microsoft.com/e96c957f-3972-4afc-9d76-a4725b8688f8">Asynchronous Printing Notification Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2b021cd-1cfd-42b7-b6e4-7f8671b013f6">IPrintAsyncNotifyCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nn-prnasnot-iprintasyncnotifycallback">IPrintAsyncNotifyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

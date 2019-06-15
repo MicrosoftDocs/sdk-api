@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Defines the release shell callback for the plug-in. This function is called to delete the plug-in shell context.
 
-The DLL entry point name must be <a href="https://msdn.microsoft.com/9a81f8da-1c71-4eab-aa21-002cee4f1164">WSManPluginReleaseCommandContext</a>.
+The DLL entry point name must be <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_release_command_context">WSManPluginReleaseCommandContext</a>.
 
 
 ## -parameters

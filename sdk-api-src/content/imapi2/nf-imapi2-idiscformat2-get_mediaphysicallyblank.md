@@ -370,11 +370,11 @@ The device associated with this recorder during the last operation has been excl
 
 
 
-<a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
 
 
 
-<a href="https://msdn.microsoft.com/28c410cc-5135-4443-8b86-e34676f14f51">IDiscFormat2::get_MediaHeuristicallyBlank</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank">IDiscFormat2::get_MediaHeuristicallyBlank</a>
  
 
  

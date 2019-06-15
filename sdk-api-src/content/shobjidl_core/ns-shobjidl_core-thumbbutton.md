@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by methods of the <a href="https://msdn.microsoft.com/a5eb4e5a-df17-4aca-96fb-d8475e266b92">ITaskbarList3</a> interface to define buttons used in a toolbar embedded in a window's thumbnail representation.
+Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a> interface to define buttons used in a toolbar embedded in a window's thumbnail representation.
 
 
 ## -struct-fields
@@ -59,9 +59,9 @@ Used by methods of the <a href="https://msdn.microsoft.com/a5eb4e5a-df17-4aca-96
 
 ### -field dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/12c6a535-6a23-4b41-b4fd-4ed4e192d629">THUMBBUTTONMASK</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonmask">THUMBBUTTONMASK</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/12c6a535-6a23-4b41-b4fd-4ed4e192d629">THUMBBUTTONMASK</a> values that specify which members of this structure contain valid data; other members are ignored, with the exception of <b>iId</b>, which is always required.
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonmask">THUMBBUTTONMASK</a> values that specify which members of this structure contain valid data; other members are ignored, with the exception of <b>iId</b>, which is always required.
 
 
 ### -field iId
@@ -75,7 +75,7 @@ The application-defined identifier of the button, unique within the toolbar.
 
 Type: <b>UINT</b>
 
-The zero-based index of the button image within the image list set through <a href="https://msdn.microsoft.com/5c288b64-8630-42ca-9821-8e131f11f76d">ITaskbarList3::ThumbBarSetImageList</a>.
+The zero-based index of the button image within the image list set through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist">ITaskbarList3::ThumbBarSetImageList</a>.
 
 
 ### -field hIcon
@@ -94,16 +94,16 @@ A wide character array that contains the text of the button's tooltip, displayed
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/601a2517-cfce-4edb-b2ca-e2ed8a365a0d">THUMBBUTTONFLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonflags">THUMBBUTTONFLAGS</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/601a2517-cfce-4edb-b2ca-e2ed8a365a0d">THUMBBUTTONFLAGS</a> values that control specific states and behaviors of the button.
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonflags">THUMBBUTTONFLAGS</a> values that control specific states and behaviors of the button.
 
 
 ## -remarks
 
 
 
-When a button is clicked, a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message that contains the button ID is sent to the associated application window. The application handles whatever action it has assigned to the button.
+When a button is clicked, a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message that contains the button ID is sent to the associated application window. The application handles whatever action it has assigned to the button.
 
 <h3><a id="Button_Images"></a><a id="button_images"></a><a id="BUTTON_IMAGES"></a>Button Images</h3>
 When using an icon, specified through the <b>hIcon</b> member, the taskbar makes its own copy of the icon. It is the caller's responsibility to free the handle it passed in <b>hIcon</b> when it is no longer needed.
@@ -120,7 +120,7 @@ Applications must provide these button images:
 </ul>
 
 
-Images must be 32-bit and of dimensions <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>(SM_CXICON) x <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>(SM_CYICON). The toolbar itself provides visuals for a button's clicked, disabled, and hover states.
+Images must be 32-bit and of dimensions <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_CXICON) x <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>(SM_CYICON). The toolbar itself provides visuals for a button's clicked, disabled, and hover states.
 
 
 
@@ -130,19 +130,19 @@ Images must be 32-bit and of dimensions <a href="https://msdn.microsoft.com/d063
 
 
 
-<a href="https://msdn.microsoft.com/5d573879-aa90-41d9-a9b7-b813dafa78ae">ITaskbarList3::ThumbBarAddButtons</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbaraddbuttons">ITaskbarList3::ThumbBarAddButtons</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bb38b1e-dc09-4868-b424-f11beca6e64f">ITaskbarList3::ThumbBarUpdateButtons</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarupdatebuttons">ITaskbarList3::ThumbBarUpdateButtons</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbf2b07d-d67c-4755-888c-d40692d13cae">Taskbar Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4936FF67-19EE-4963-BE4C-3D40350C64A9">Taskbar Thumbnail Toolbar Sample</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee663597(v=vs.85)">Taskbar Thumbnail Toolbar Sample</a>
  
 
  

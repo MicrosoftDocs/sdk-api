@@ -59,9 +59,9 @@ Creates a new item enumeration object with the same contents and state as the cu
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1350e914-7935-42dd-b1b0-e447589dfb12">IEnumFullIDList</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumfullidlist">IEnumFullIDList</a>**</b>
 
-On success, contains the address of an <a href="https://msdn.microsoft.com/1350e914-7935-42dd-b1b0-e447589dfb12">IEnumFullIDList</a> interface pointer.
+On success, contains the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumfullidlist">IEnumFullIDList</a> interface pointer.
 
 
 ## -returns

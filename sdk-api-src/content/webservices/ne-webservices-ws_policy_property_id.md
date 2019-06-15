@@ -61,20 +61,20 @@ Identifies each policy property and its associated
 
 ### -field WS_POLICY_PROPERTY_STATE
 
-This property is used with <a href="https://msdn.microsoft.com/eebf1729-8492-47d3-90b2-6700d886de4a">WsGetPolicyProperty</a>.
-                 It is of type <a href="https://msdn.microsoft.com/0f6252f4-ab99-4244-be77-92144eed4e3a">WS_POLICY_STATE</a>.
+This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetpolicyproperty">WsGetPolicyProperty</a>.
+                 It is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_policy_state">WS_POLICY_STATE</a>.
 
 The current state of the policy object.
 
 
 ### -field WS_POLICY_PROPERTY_MAX_ALTERNATIVES
 
-This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a7-8180-36762abf63d7">WsCreateMetadata</a> when
-                    specifying <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a> as part of the <a href="https://msdn.microsoft.com/72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4">WS_METADATA_PROPERTY*</a> parameter.  It is of type <b>ULONG</b>.
+This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> when
+                    specifying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_metadata_property">WS_METADATA_PROPERTY*</a> parameter.  It is of type <b>ULONG</b>.
                 
 
 This property controls the maximum number of alternatives
-                    allowed for a given <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> object.
+                    allowed for a given <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object.
                 
 
 When a policy is processed, the amount of memory allocated 
@@ -92,8 +92,8 @@ The default value is 32.
 
 ### -field WS_POLICY_PROPERTY_MAX_DEPTH
 
-This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a7-8180-36762abf63d7">WsCreateMetadata</a> when
-                    specifying <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
+This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> when
+                    specifying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
                   It is of type <b>ULONG</b>.
 
 This property controls the maximum depth of any policy that is
@@ -114,15 +114,15 @@ The default value is 32.
 
 ### -field WS_POLICY_PROPERTY_MAX_EXTENSIONS
 
-This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a7-8180-36762abf63d7">WsCreateMetadata</a> when
-                    specifying <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
+This property is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatemetadata">WsCreateMetadata</a> when
+                    specifying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_property_id">WS_METADATA_PROPERTY_POLICY_PROPERTIES</a>.
                  It is of type <b>ULONG</b>.
 
 This property controls the maximum number of policy extensions 
-                    (unknown assertions) allowed for a given <a href="https://msdn.microsoft.com/04623686-5065-4e97-8685-c72f848b92ab">WS_POLICY</a> object. 
-                    Policy extensions can be retrieved by supplying <a href="https://msdn.microsoft.com/85a3fa35-b574-4091-9ef2-486ac751ef82">WS_POLICY_EXTENSION</a> 
-                    array in <a href="https://msdn.microsoft.com/2cf65426-336f-4148-ab3b-063a229db99f">WS_POLICY_CONSTRAINTS</a> structure when using the 
-                    <a href="https://msdn.microsoft.com/6e5f352b-5422-4bba-9525-7850bdddf0a5">WsMatchPolicyAlternative</a> API.
+                    (unknown assertions) allowed for a given <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object. 
+                    Policy extensions can be retrieved by supplying <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_extension">WS_POLICY_EXTENSION</a> 
+                    array in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_constraints">WS_POLICY_CONSTRAINTS</a> structure when using the 
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> API.
                 
 
 The default value is 8.

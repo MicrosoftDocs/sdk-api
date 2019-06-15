@@ -73,7 +73,7 @@ Pointer to a <b>null</b>-terminated string. If this pointer parameter is non-<b>
 ### -param dwMediaMode
 
 Media mode used to identify the target for the indirect handoff. The <i>dwMediaMode</i> parameter indirectly identifies the target application that is to receive ownership of the call. This parameter is ignored if <i>lpszFileName</i> is not <b>NULL</b>. This parameter uses one and only one of the 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
 
 
 ## -returns
@@ -93,7 +93,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALMEDIAMODE, LINEER
 
 The 
 <b>lineHandoff</b> function returns LINEERR_TARGETSELF if the calling application attempted an indirect handoff (that is, set the <i>lpszFileName</i> parameter to <b>NULL</b>) and TAPI determined that the application is itself the highest priority application for the given media mode. If LINEERR_TARGETNOTFOUND is returned, a target for the call handoff was not found. This can occur if the named application did not open the same line with the LINECALLPRIVILEGE_OWNER bit in the <i>dwPrivileges</i> parameter of 
-<a href="https://msdn.microsoft.com/7dd39866-0b3e-47be-8aa8-adfb66df6644">lineOpen</a>. Or, in the case of media-mode handoff, no application has opened the same line with the LINECALLPRIVILEGE_OWNER bit in the <i>dwPrivileges</i> parameter of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>. Or, in the case of media-mode handoff, no application has opened the same line with the LINECALLPRIVILEGE_OWNER bit in the <i>dwPrivileges</i> parameter of 
 <b>lineOpen</b> and with the media mode specified in the <i>dwMediaModes</i> parameter of 
 <b>lineOpen</b>.
 
@@ -103,30 +103,30 @@ The second type of handoff is based on media mode. In this case, the application
 
 The 
 <b>lineHandoff</b> function does not change the media mode of a call. To change the media mode of a call, the application should use 
-<a href="https://msdn.microsoft.com/4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226">lineSetMediaMode</a> on the call, specifying the new media mode. This changes the call's media mode as stored in the call's 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a> on the call, specifying the new media mode. This changes the call's media mode as stored in the call's 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure.
 
 If handoff succeeds, the receiving application receives a 
-<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a> message for the call. This message indicates that the receiving application has owner privilege to the call (<i>dwParam3</i>). In addition, the number of owners and/or monitors for the call may have changed. This is reported by the 
-<a href="https://msdn.microsoft.com/eb882409-6842-434e-9f93-61cf0c11d1d0">LINE_CALLINFO</a> message, and the receiving application can then invoke 
-<a href="https://msdn.microsoft.com/88bcd211-0993-4703-b43f-4e0b93e3eb7e">lineGetCallStatus</a> and 
-<a href="https://msdn.microsoft.com/e69722cb-9c45-4f1a-a855-64afa3c33276">lineGetCallInfo</a> to retrieve more information about the received call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message for the call. This message indicates that the receiving application has owner privilege to the call (<i>dwParam3</i>). In addition, the number of owners and/or monitors for the call may have changed. This is reported by the 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callinfo">LINE_CALLINFO</a> message, and the receiving application can then invoke 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> to retrieve more information about the received call.
 
 The receiving application should first check the media mode in 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>. If only a single media mode flag is set, the call is officially of that media mode, and the application can act accordingly. If UNKNOWN and other media mode flags are set, then the media mode of the call is officially UNKNOWN but is assumed to be of one of the media modes for which a flag is set in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>. If only a single media mode flag is set, the call is officially of that media mode, and the application can act accordingly. If UNKNOWN and other media mode flags are set, then the media mode of the call is officially UNKNOWN but is assumed to be of one of the media modes for which a flag is set in 
 <b>LINECALLINFO</b>. The application should assume that it ought to probe for the highest priority media mode.
 
 If the probe succeeds (either for that media mode or for another one), the application should set the media mode member in 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> to the single media mode that was recognized. If the media mode flag matches the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> to the single media mode that was recognized. If the media mode flag matches the 
 <b>LINECALLINFO</b> media mode, the application can act accordingly. If it makes a determination for another media mode, it must first hand off the call to that media mode.
 
 If the probe fails, the application should clear the corresponding media mode flag in 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> and hand off the call, specifying <i>dwMediaMode</i> as LINEMEDIAMODE_UNKNOWN. It should also deallocate its call handle (or revert back to monitoring).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> and hand off the call, specifying <i>dwMediaMode</i> as LINEMEDIAMODE_UNKNOWN. It should also deallocate its call handle (or revert back to monitoring).
 
 If none of the media modes succeeded in making a determination, only the UNKNOWN flag remains set in the media mode field of 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> at the time the media application attempts to hand off the call to UNKNOWN. The final 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> at the time the media application attempts to hand off the call to UNKNOWN. The final 
 <b>lineHandoff</b> fails if the application is the only remaining owner of the call. This informs the application that it should drop the call and deallocate its handle, in which case the call is abandoned. The privileges of the invoking application to the call are unchanged by this operation, but the application can change its privileges to a call with 
-<a href="https://msdn.microsoft.com/a13d7cfd-3709-43fb-88b9-291928f2c0d8">lineSetCallPrivilege</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a>.
 
 
 
@@ -136,35 +136,35 @@ If none of the media modes succeeded in making a determination, only the UNKNOWN
 
 
 
-<a href="https://msdn.microsoft.com/09d10789-bc36-47c7-b77d-8698ae75541a">Basic Telephony Services Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6d188c9-9cbd-45af-93f0-b78850374919">Handoffs Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/handoffs-ovr">Handoffs Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/88bcd211-0993-4703-b43f-4e0b93e3eb7e">lineGetCallStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/7dd39866-0b3e-47be-8aa8-adfb66df6644">lineOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/a13d7cfd-3709-43fb-88b9-291928f2c0d8">lineSetCallPrivilege</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetcallprivilege">lineSetCallPrivilege</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226">lineSetMediaMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a>
  
 
  

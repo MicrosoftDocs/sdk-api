@@ -209,7 +209,7 @@ The DNS message is a response.
 
 ### -field ResponseCode
 
-The <a href="https://msdn.microsoft.com/95bc9193-7962-498a-9abd-c4718ac35f0f">DNS Response Code</a> of the message.
+The <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Response Code</a> of the message.
 
 
 ### -field CheckingDisabled
@@ -347,7 +347,7 @@ Reserved. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
  
 
  

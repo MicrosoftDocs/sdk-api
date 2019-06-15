@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The level of performance optimization for the <a href="https://msdn.microsoft.com/53525584-10CF-46C2-9400-C4FB225D4693">Shadow effect</a>.
+The level of performance optimization for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/drop-shadow">Shadow effect</a>.
 
 
 ## -enum-fields

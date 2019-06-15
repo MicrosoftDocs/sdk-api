@@ -72,9 +72,9 @@ This method returns S_OK to indicate that the method completed successfully.
 
 
 
-The <a href="https://msdn.microsoft.com/1abed0be-b4e3-41f4-af6c-e327ce934b59">ISynchronize::Wait</a> method implemented on a standard event object (CLSID_StdEvent) automatically calls <b>Reset</b> when the synchronization object has been signaled.
+The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">ISynchronize::Wait</a> method implemented on a standard event object (CLSID_StdEvent) automatically calls <b>Reset</b> when the synchronization object has been signaled.
 
-The implementation of <a href="https://msdn.microsoft.com/1abed0be-b4e3-41f4-af6c-e327ce934b59">ISynchronize::Wait</a> on the manual reset event object (CLSID_ManualResetEvent) does not automatically call <b>Reset</b>. A server object usually calls <b>Reset</b> from a method that clients call after they detect that the synchronization object was signaled.
+The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">ISynchronize::Wait</a> on the manual reset event object (CLSID_ManualResetEvent) does not automatically call <b>Reset</b>. A server object usually calls <b>Reset</b> from a method that clients call after they detect that the synchronization object was signaled.
 
 In general, it is the server's responsibility to call <b>Reset</b>. If, however, the client needs to begin with the synchronization object in an unsignaled state, the client should call <b>Reset</b>.
 
@@ -86,7 +86,7 @@ In general, it is the server's responsibility to call <b>Reset</b>. If, however,
 
 
 
-<a href="https://msdn.microsoft.com/2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6">ISynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
  
 
  

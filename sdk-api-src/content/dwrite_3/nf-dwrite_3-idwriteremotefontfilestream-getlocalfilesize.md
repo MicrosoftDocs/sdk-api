@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 GetLocalFileSize returns the number of bytes of the font file that are currently local, which should always be less than or equal to the full
-          file size returned by <a href="https://msdn.microsoft.com/52186ddb-ea08-4615-a3df-35ea7288270c">GetFileSize</a>. 
+          file size returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-getfilesize">GetFileSize</a>. 
          If the locality is remote, the return value is zero. If the file is fully local, the return value must be the
-          same as <a href="https://msdn.microsoft.com/52186ddb-ea08-4615-a3df-35ea7288270c">GetFileSize</a>.
+          same as <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-getfilesize">GetFileSize</a>.
       
 
 
@@ -73,7 +73,7 @@ Receives the local size of the file.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -85,7 +85,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/2CC73CE0-162A-4808-ACB6-A9599FD4D09F">IDWriteRemoteFontFileStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream">IDWriteRemoteFontFileStream</a>
  
 
  

@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/46af5ba7-c362-4cfd-ae6d-b698c6403a65">IMFRemoteProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfremoteproxy">IMFRemoteProxy</a>
  
 
  

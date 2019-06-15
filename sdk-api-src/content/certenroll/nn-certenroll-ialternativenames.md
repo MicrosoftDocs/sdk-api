@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAlternativeNames</b> interface contains methods and properties that enable you to manage a collection of <a href="https://msdn.microsoft.com/2a6cfda8-b3cb-4a0f-bb65-b182c16207be">IAlternativeName</a> objects.
+The <b>IAlternativeNames</b> interface contains methods and properties that enable you to manage a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAlternativeNames</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAlternativeNames</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAlternativeNames</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAlternativeNames</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAlternativeNames</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02085a1c-0821-4b11-95ad-e1c3a69f4e80">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -79,7 +79,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/babeb53a-b2db-420c-85fe-dacb9176ec70">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -88,7 +88,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1507d03b-2c1d-416e-b346-16795902f5e2">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection by index number.
@@ -105,7 +105,7 @@ Removes an object from the collection by index number.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/66656bf5-3258-4888-8c1d-0fde33275504">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -117,7 +117,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ef7f588a-f877-4626-ada6-782db6202c65">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get_count">Count</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves the number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/778ea065-9a92-4244-be16-23e716ccbb8a">ItemByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativenames-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -146,15 +146,15 @@ Retrieves an object from the collection by index number.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a6cfda8-b3cb-4a0f-bb65-b182c16207be">IAlternativeName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

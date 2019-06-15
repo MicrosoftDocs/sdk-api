@@ -59,7 +59,7 @@ Retrieves the CLSID of the object handler to be used in the destination process 
 
 ### -param dwDestContext [in]
 
-The destination context, that is, the process in which the unmarshaling will be done. Possible values are taken from the enumeration <a href="https://msdn.microsoft.com/d7d09ab2-96e7-48da-9292-0e4ca6cebe64">MSHCTX</a>.
+The destination context, that is, the process in which the unmarshaling will be done. Possible values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx">MSHCTX</a>.
 
 
 ### -param pvDestContext [in]
@@ -96,7 +96,7 @@ Your implementation of <b>IStdMarshalInfo::GetClassForHandler</b> must return yo
 
 
 
-<a href="https://msdn.microsoft.com/f034436f-e24e-4b99-9fb9-b0400d3ebb72">IStdMarshalInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>
  
 
  

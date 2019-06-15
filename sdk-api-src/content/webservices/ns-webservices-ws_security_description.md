@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The top-level structure used to specify the security requirements for
-a <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">channel</a> (on the client side) or a <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">listener</a> (on the server side).
+a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">channel</a> (on the client side) or a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">listener</a> (on the server side).
 
             
 
@@ -77,8 +77,8 @@ The count of elements in the securityBindings array.
 ### -field properties
 
 The array of properties specifying the optional channel-wide security
-settings.  Each <a href="https://msdn.microsoft.com/676079cd-6ca8-486b-9604-172423210ad5">WS_SECURITY_PROPERTY</a> in the array is a key-value
-pair and must use a key defined in <a href="https://msdn.microsoft.com/98a824c9-11dd-4433-ae8f-2e6b6f6a520f">WS_SECURITY_PROPERTY_ID</a>.  This field can be <b>NULL</b>,
+settings.  Each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_security_property">WS_SECURITY_PROPERTY</a> in the array is a key-value
+pair and must use a key defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_security_property_id">WS_SECURITY_PROPERTY_ID</a>.  This field can be <b>NULL</b>,
 and if it is <b>NULL</b>, the default value will be used for each security
 channel setting.
                 

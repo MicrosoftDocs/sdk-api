@@ -64,7 +64,7 @@ The <code>put_CopyProtection</code> method sets the level of copy protection for
 
 ### -param lVideoCopyProtection [in]
 
-Specifies the level of copy protection as a <b>long</b> integer with a value as defined in the <a href="https://msdn.microsoft.com/d71f78f4-1107-46ba-afa8-7de87e20d814">AM_COPY_MACROVISION_LEVEL</a> enumeration.
+Specifies the level of copy protection as a <b>long</b> integer with a value as defined in the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ne-dvdmedia-am_copy_macrovision_level">AM_COPY_MACROVISION_LEVEL</a> enumeration.
 
 
 ## -returns
@@ -81,11 +81,11 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb2927cf-c979-411f-a896-d010b684acf2">IAMAnalogVideoEncoder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideoencoder">IAMAnalogVideoEncoder Interface</a>
  
 
  

@@ -64,12 +64,12 @@ The size of structure, in bytes.
 
 ### -field clsid
 
-The CLSID of the object being transferred. The clsid is used to obtain the icon for the <b>Display As Icon</b> option in the <b>Paste Special</b> dialog box and is applicable only if the Embed Source or Embedded Object formats are offered. If neither is offered, the value of clsid should be CLSID_NULL. The clsid can be retrieved by the source by loading the object and calling the <a href="https://msdn.microsoft.com/4b3c0292-0476-4f56-abd2-2f3a82195c67">IOleObject::GetUserClassID</a> method. Note that for link objects, this value is not the same as the value returned by the <a href="https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e">IPersist::GetClassID</a> method.
+The CLSID of the object being transferred. The clsid is used to obtain the icon for the <b>Display As Icon</b> option in the <b>Paste Special</b> dialog box and is applicable only if the Embed Source or Embedded Object formats are offered. If neither is offered, the value of clsid should be CLSID_NULL. The clsid can be retrieved by the source by loading the object and calling the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getuserclassid">IOleObject::GetUserClassID</a> method. Note that for link objects, this value is not the same as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> method.
 
 
 ### -field dwDrawAspect
 
-The display aspect of the object. Typically, this value is DVASPECT_CONTENT or DVASPECT_ICON. If the source application did not draw the object originally, the <b>dwDrawAspect</b> field contains a zero value (which is not the same as DVASPECT_CONTENT). For more information, see <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a>.
+The display aspect of the object. Typically, this value is DVASPECT_CONTENT or DVASPECT_ICON. If the source application did not draw the object originally, the <b>dwDrawAspect</b> field contains a zero value (which is not the same as DVASPECT_CONTENT). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>.
 
 
 ### -field sizel
@@ -84,7 +84,7 @@ The offset in <b>HIMETRIC</b> units from the upper-left corner of the object whe
 
 ### -field dwStatus
 
-The copy of the status flags for the object. These flags are defined by the <a href="https://msdn.microsoft.com/0a90d126-fc28-460c-8eaf-cf98ae998f95">OLEMISC</a> enumeration. If an embedded object is being transferred, they are returned by calling the <a href="https://msdn.microsoft.com/0c5e9f73-8eec-48e0-a172-4d3d49e56071">IOleObject::GetMiscStatus</a> method.
+The copy of the status flags for the object. These flags are defined by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-tagolemisc">OLEMISC</a> enumeration. If an embedded object is being transferred, they are returned by calling the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a> method.
 
 
 ### -field dwFullUserTypeName
@@ -102,11 +102,11 @@ The offset, in bytes, from the beginning of the data structure to the null-termi
 
 
 
-<a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
  
 
  

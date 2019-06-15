@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.
-<div class="alert"><b>Note</b>  This structure has been superseded by the <a href="https://msdn.microsoft.com/635091FE-2756-4648-958E-0C13BDD50851">D3D12_FEATURE_DATA_ARCHITECTURE1</a> structure. If your application targets Windows 10, version 1703 (Creators' Update) or higher, then use <b>D3D12_FEATURE_DATA_ARCHITECTURE1</b> (and <a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE_ARCHITECTURE1</a>) instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This structure has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture1">D3D12_FEATURE_DATA_ARCHITECTURE1</a> structure. If your application targets Windows 10, version 1703 (Creators' Update) or higher, then use <b>D3D12_FEATURE_DATA_ARCHITECTURE1</b> (and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE_ARCHITECTURE1</a>) instead.</div><div> </div>
 
 ## -struct-fields
 
@@ -60,8 +60,8 @@ Provides detail about the adapter architecture, so that your application can bet
 ### -field NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device is relevant.
-            See <a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>.
-            <b>NodeIndex</b> is filled out by the application before calling <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>, as the application can retrieve details about the architecture of each adapter.
+            See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
+            <b>NodeIndex</b> is filled out by the application before calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a>, as the application can retrieve details about the architecture of each adapter.
           
 
 
@@ -92,8 +92,8 @@ Specifies whether the hardware and driver support cache-coherent UMA.
 
 <h3><a id="How_to_use_UMA_and_CacheCoherentUMA"></a><a id="how_to_use_uma_and_cachecoherentuma"></a><a id="HOW_TO_USE_UMA_AND_CACHECOHERENTUMA"></a>How to use UMA and CacheCoherentUMA</h3>
 D3D12 apps should be concerned about managing memory residency and providing the optimal heap properties.
-            D3D12 apps can stay simplified and run reasonably well across many GPU architectures by only managing the residency for resources in <a href="https://msdn.microsoft.com/5B1EA8A6-BD59-4B92-B6C4-A5C26D0B16D4">D3D12_HEAP_TYPE</a>_DEFAULT heaps.
-            Those apps only need to call <a href="https://msdn.microsoft.com/A2F95FE5-CF8D-4F17-8CC8-62AAA40B71FC">IDXGIAdapter3::QueryVideoMemoryInfo</a> for DXGI_MEMORY_SEGMENT_GROUP_LOCAL, 
+            D3D12 apps can stay simplified and run reasonably well across many GPU architectures by only managing the residency for resources in <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE</a>_DEFAULT heaps.
+            Those apps only need to call <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nf-dxgi1_4-idxgiadapter3-queryvideomemoryinfo">IDXGIAdapter3::QueryVideoMemoryInfo</a> for DXGI_MEMORY_SEGMENT_GROUP_LOCAL, 
             and they must be tolerant that D3D12_HEAP_TYPE_UPLOAD and D3D12_HEAP_TYPE_READBACK come from that same memory segment group.
           
 
@@ -121,7 +121,7 @@ When <b>CacheCoherentUMA</b> is <b>false</b>, a single residency budget is avail
             The feasibility of success is likely dependent on how often each processor either reads or writes the data, the size and locality of data accesses, etc.
             For advanced developers: when <b>UMA</b> is true and <b>CacheCoherentUMA</b> is <b>false</b>, the most unique characteristic for these adapters is that upload heaps are still write-combined.
             However, some UMA adapters benefit from both the no-CPU-access and write-combine properties of default and upload heaps.
-            See <a href="https://msdn.microsoft.com/FD1A7C77-24C3-49D5-8F20-01D5FF7FC895">GetCustomHeapProperties</a> for more details.
+            See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a> for more details.
           
 
 When <b>CacheCoherentUMA</b> is true, applications can more strongly entertain abandoning the attribution of heaps and using the custom heap equivalent of upload heaps everywhere.
@@ -147,11 +147,11 @@ The low-level details should be ignored by a vast majority of single-adapter app
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/165ECFE0-1B18-4A26-8B9C-3CE53776A349">D3D12_FEATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
  
 
  

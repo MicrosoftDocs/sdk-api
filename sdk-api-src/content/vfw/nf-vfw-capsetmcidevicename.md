@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capSetMCIDeviceName</b> macro specifies the name of the MCI video device to be used to capture data. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/83fdf567-ceb2-45aa-8529-433a5c64ac0a">WM_CAP_SET_MCI_DEVICE</a> message.
+The <b>capSetMCIDeviceName</b> macro specifies the name of the MCI video device to be used to capture data. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-mci-device">WM_CAP_SET_MCI_DEVICE</a> message.
 
 
 
@@ -84,11 +84,11 @@ This message stores the MCI device name in an internal structure. It does not op
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

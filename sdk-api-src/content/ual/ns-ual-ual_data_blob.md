@@ -64,12 +64,12 @@ The size, in bytes, of this structure.
 
 ### -field RoleGuid
 
-A <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that represents the role or minor product name associated with a UAL session.
+A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that represents the role or minor product name associated with a UAL session.
 
 
 ### -field TenantId
 
-A <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies a tenant of a hosted environment. This can be used to differentiate client tenants when more than one tenant uses the same host service.
+A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies a tenant of a hosted environment. This can be used to differentiate client tenants when more than one tenant uses the same host service.
 
 
 ### -field Address
@@ -87,15 +87,15 @@ The name of the client user that accompanies the UAL payload from installed role
 
 
 
-<a href="https://msdn.microsoft.com/C7A0340F-3250-4570-9672-FC78AFC9ECC6">UalInstrument</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualinstrument">UalInstrument</a>
 
 
 
-<a href="https://msdn.microsoft.com/800E8BCF-39A1-490A-9B6A-12EE900B8D17">UalStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstart">UalStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/142A0C96-2D53-4C31-9847-D6D5313C841E">UalStop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ual/nf-ual-ualstop">UalStop</a>
  
 
  

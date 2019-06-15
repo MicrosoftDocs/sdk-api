@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-When transmitted with <a href="https://msdn.microsoft.com/83c23928-86ce-421d-bb84-5c41a770bf60">WM_GESTURENOTIFY</a> messages, 
+When transmitted with <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages, 
       passes information about a gesture.
   
 
@@ -89,11 +89,11 @@ A specific gesture instance with gesture messages starting with <b>GID_START</b>
 
 
 
-<a href="https://msdn.microsoft.com/3735cfa1-095b-416c-a863-84fd7de4ba03">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtstructures">Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/83c23928-86ce-421d-bb84-5c41a770bf60">WM_GESTURENOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>
  
 
  

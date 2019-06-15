@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 A structure that is used to specify the custom proxy for the channel, using 
-                the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a>.
+                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a>.
             
 
 

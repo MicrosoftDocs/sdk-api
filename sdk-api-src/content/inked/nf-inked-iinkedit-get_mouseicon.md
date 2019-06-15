@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Gets or sets the custom mouse icon for the
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control.
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 This property is read/write.
 
@@ -68,7 +68,7 @@ This property is read/write.
 
 
 
-This property provides a custom icon that is used when the <a href="https://msdn.microsoft.com/a5d9a6cc-d777-4619-b28b-17cc79584171">MousePointer</a> property is set to <a href="https://msdn.microsoft.com/74f489f2-d568-4133-96e6-de15cbfabfe7">IMP_Custom</a>.
+This property provides a custom icon that is used when the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer">MousePointer</a> property is set to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer">IMP_Custom</a>.
 
 You can use the <b>MouseIcon</b> property to load either cursor or icon files. The <b>MouseIcon</b> property provides your application with access to custom cursors of any size with any desired hot spot location.
 
@@ -84,7 +84,7 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

@@ -69,7 +69,7 @@ If this string is zero-length, then
                     the URL is assumed to be the anonymous address.  The anonymous
                     address string is automatically mapped to/from the zero-length string
                     when the endpoint address is serialized or deserialized
-                    using <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_ENDPOINT_ADDRESS_TYPE</a>.
+                    using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENDPOINT_ADDRESS_TYPE</a>.
                 
 
 The value of this field corresponds to the Address element of the 
@@ -79,7 +79,7 @@ The value of this field corresponds to the Address element of the
 
 ### -field headers
 
-A <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> handle to a set of header elements
+A <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> handle to a set of header elements
                     that represent the reference parameters for the endpoint address.
                 
 
@@ -91,7 +91,7 @@ The headers should be treated as opaque values to the user of
                     the endpoint address.
                 
 
-See <a href="https://msdn.microsoft.com/30b2dbd1-7232-4ff1-b30a-920df8bfe423">WsAddressMessage</a> for information on how to 
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsaddressmessage">WsAddressMessage</a> for information on how to 
                     add the headers to a message being sent.
                 
 
@@ -105,7 +105,7 @@ This value of this field corresponds to the content of the
 
 ### -field extensions
 
-A <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> handle to a set of extension elements.
+A <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> handle to a set of extension elements.
                     Extension elements are used to include additional information within an
                     endpoint address.  This field may be <b>NULL</b> if there are no extension elements.
                 
@@ -119,8 +119,8 @@ This value of this field corresponds to the other elements
                 
 
 If the ReferenceProperties element is present (as defined by
-                    <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_0_9</a>), it must be the first element 
-                    within the <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_0_9</a>), it must be the first element 
+                    within the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
                 
 
 

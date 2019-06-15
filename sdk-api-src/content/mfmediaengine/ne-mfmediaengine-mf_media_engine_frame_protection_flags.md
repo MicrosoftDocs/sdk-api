@@ -77,15 +77,15 @@ Direct3D anti-screen-scrape protection must be applied to any surface that conta
 
 
 
-<a href="https://msdn.microsoft.com/4D67813D-F222-4EB1-B059-6DB5EC642DA2">IMFMediaEngineProtectedContent::GetRequiredProtections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineprotectedcontent-getrequiredprotections">IMFMediaEngineProtectedContent::GetRequiredProtections</a>
 
 
 
-<a href="https://msdn.microsoft.com/3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3">IMFMediaEngineProtectedContent::TransferVideoFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineprotectedcontent-transfervideoframe">IMFMediaEngineProtectedContent::TransferVideoFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

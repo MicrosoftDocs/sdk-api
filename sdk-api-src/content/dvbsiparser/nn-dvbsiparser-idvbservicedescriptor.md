@@ -54,7 +54,7 @@ Implements methods that get data from a Digital Video Broadcast (DVB) service de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbServiceDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbServiceDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbServiceDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbServiceDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbServiceDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8c35777-0a54-4b26-b5a2-629ba3cb3928">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length from a DVB service descriptor.
@@ -78,7 +78,7 @@ Gets the body length from a DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0441e70-270e-4685-9107-865c2b6398e9">GetProcessedServiceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getprocessedservicename">GetProcessedServiceName</a>
 </td>
 <td align="left" width="63%">
 Gets the processed service name from a DVB service descriptor.
@@ -87,7 +87,7 @@ Gets the processed service name from a DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3c59ebc-fc32-49ba-86b3-5737c3af2225">GetServiceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getservicename">GetServiceName</a>
 </td>
 <td align="left" width="63%">
 Gets the service name from a DVB service descriptor.
@@ -96,7 +96,7 @@ Gets the service name from a DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/232bdf11-b9f5-48cd-8cd5-f03cd589d43e">GetServiceNameEmphasized</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getservicenameemphasized">GetServiceNameEmphasized</a>
 </td>
 <td align="left" width="63%">
 Gets the emphasized service name from a DVB service descriptor.
@@ -105,7 +105,7 @@ Gets the emphasized service name from a DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea5d358f-7da3-47c4-9172-7e5c60a61f84">GetServiceProviderName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getserviceprovidername">GetServiceProviderName</a>
 </td>
 <td align="left" width="63%">
 Gets the service provider name from a DVB service descriptor.
@@ -114,7 +114,7 @@ Gets the service provider name from a DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4c6f1f1-8cf8-4848-bb88-e1d11f4fe045">GetServiceProviderNameW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getserviceprovidernamew">GetServiceProviderNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the service provider name string from a DVB service descriptor.
@@ -123,7 +123,7 @@ Gets the service provider name string from a DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f13b6b0e-d4bb-42a6-9bab-dc3e13bc26e9">GetServiceType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-getservicetype">GetServiceType</a>
 </td>
 <td align="left" width="63%">
 Gets the service type from a DVB service descriptor.
@@ -132,7 +132,7 @@ Gets the service type from a DVB service descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0cdf6279-3156-43eb-97e3-58a4f9d93cc6">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbservicedescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the identifying tag from a DVB service descriptor.

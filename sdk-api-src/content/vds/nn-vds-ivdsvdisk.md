@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines methods for managing a virtual disk.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVDisk</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsVDisk</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsVDisk</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsVDisk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ce60f7f-a7f2-4e1e-aae0-bd082b62480f">GetDeviceName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-getdevicename">GetDeviceName</a>
 </td>
 <td align="left" width="63%">
 Returns the device name for the volume where the virtual disk resides.
@@ -81,7 +81,7 @@ Returns the device name for the volume where the virtual disk resides.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8ab5d3a-775d-4c80-9c18-d25b5dd169e6">GetHostVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-gethostvolume">GetHostVolume</a>
 </td>
 <td align="left" width="63%">
 Returns an interface pointer to the volume object for the volume where the virtual disk resides.
@@ -90,7 +90,7 @@ Returns an interface pointer to the volume object for the volume where the virtu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ecfbd1f-2f67-4d79-b081-7df071b070a4">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns disk property information for the volume where the virtual disk resides.
@@ -99,10 +99,10 @@ Returns disk property information for the volume where the virtual disk resides.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e633f934-8f2d-4614-b34c-87bb74ebf385">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvdisk-open">Open</a>
 </td>
 <td align="left" width="63%">
-Opens a handle to the specified virtual disk file and returns an <a href="https://msdn.microsoft.com/3d5f080f-3e83-437e-8cbc-9730988f5dcc">IVdsOpenVDisk</a> interface pointer to the object that represents the opened handle.
+Opens a handle to the specified virtual disk file and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a> interface pointer to the object that represents the opened handle.
 
 </td>
 </tr>
@@ -114,11 +114,11 @@ Opens a handle to the specified virtual disk file and returns an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/812e8ac5-91c5-455a-94e7-2edf55d92cdc">IVdsVdProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvdprovider">IVdsVdProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bddfd62-881d-4fda-b303-ed38d434af55">VDS Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
  
 
  

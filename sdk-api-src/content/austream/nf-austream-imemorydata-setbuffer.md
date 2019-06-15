@@ -90,7 +90,7 @@ Returns S_OK if successful or E_INVALIDARG if <i>cbSize</i> is zero or <i>pbData
 
 
 
-This method can be called as often as needed. When using <a href="https://msdn.microsoft.com/en-us/library/Dd377148(v=VS.85).aspx">IStreamSample::Update</a> to update samples asynchronously, make sure that SetBuffer is never called before an update is completed.
+This method can be called as often as needed. When using <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-update">IStreamSample::Update</a> to update samples asynchronously, make sure that SetBuffer is never called before an update is completed.
 
 
 
@@ -100,7 +100,7 @@ This method can be called as often as needed. When using <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407080(v=VS.85).aspx">IMemoryData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
  
 
  

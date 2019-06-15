@@ -70,19 +70,19 @@ An array of handles.
 
 
 
-<a href="https://msdn.microsoft.com/c9f04b38-18bc-4b52-8c56-d9475bc30202">EnhMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebef5a3f-0dd7-49df-a07d-c55c5e8c868c">EnumMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)">EnumMetaFileProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

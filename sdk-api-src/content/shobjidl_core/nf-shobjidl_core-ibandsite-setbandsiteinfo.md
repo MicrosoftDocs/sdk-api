@@ -59,9 +59,9 @@ Sets information about the band site.
 
 ### -param pbsinfo [in]
 
-Type: <b><a href="https://msdn.microsoft.com/86e4afce-594a-441e-b6d9-ce05c8234150">BANDSITEINFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagbandsiteinfo">BANDSITEINFO</a>*</b>
 
-The address of a <a href="https://msdn.microsoft.com/86e4afce-594a-441e-b6d9-ce05c8234150">BANDSITEINFO</a> structure that receives
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-tagbandsiteinfo">BANDSITEINFO</a> structure that receives
 				the band site information for the object. The
 				<b>dwMask</b> member of this structure
 				specifies what information is being set.
@@ -83,11 +83,11 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/d7893136-a1a3-4c4b-b8f3-e4679710d827">IBandSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ibandsite">IBandSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb9f7f2a-a6be-4527-8a32-325dad4c8000">IDeskBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>
  
 
  

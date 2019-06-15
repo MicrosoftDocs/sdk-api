@@ -52,10 +52,10 @@ ms.custom: 19H1
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>AddCertTypeToRequestWStrEx</b> method, like the 
-<a href="https://msdn.microsoft.com/d9bf51db-375e-4230-953c-d9893228d7e1">AddCertTypeToRequestWStr</a> method, adds a certificate template (also known as certificate type) to a request.
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addcerttypetorequestwstr">AddCertTypeToRequestWStr</a> method, adds a certificate template (also known as certificate type) to a request.
 
 This method is associated with the Certificate Services enterprise 
-<a href="https://msdn.microsoft.com/23d920ea-af62-42ce-ad48-c7a03ab55fc9">policy module</a>. This method is specialized, and its use is not recommended for most applications. This version can add a V2 template extension into a request. This method was first defined in the <a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/policy-modules">policy module</a>. This method is specialized, and its use is not recommended for most applications. This version can add a V2 template extension into a request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ Uses a version 2 extension
 
 ### -param pwszOIDOrName [in]
 
-A pointer to a null-terminated character string that represents the fully qualified name of the certificate template that is being added to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This value is interpreted by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>.
+A pointer to a null-terminated character string that represents the fully qualified name of the certificate template that is being added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
 
 ### -param lMajorVersion [in]
@@ -130,8 +130,8 @@ The return value is an <b>HRESULT</b>, with S_OK returned if the call is success
 
 
 This method supports only the new request method, 
-<a href="https://msdn.microsoft.com/bc2b875c-96f8-453e-8f72-f9032d5aa773">createRequestWStr</a>. It does not support the 
-<a href="https://msdn.microsoft.com/ebbcc9ad-9f87-4abe-963b-38c57a60e45e">createPKCS10WStr</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll4-createrequestwstr">createRequestWStr</a>. It does not support the 
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a> method.
 
 This method can be called multiple times to establish multiple certificate templates for the request.
 
@@ -143,7 +143,7 @@ This method can be called multiple times to establish multiple certificate templ
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
  
 
  

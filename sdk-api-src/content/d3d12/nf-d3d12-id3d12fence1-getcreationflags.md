@@ -63,7 +63,7 @@ Gets the flags used to create the fence represented by the current instance.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/EF725566-B77A-40EE-B5E3-86C5D13CC7D5">D3D12_FENCE_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_fence_flags">D3D12_FENCE_FLAGS</a></b>
 
 The flags used to create the fence.
 
@@ -84,11 +84,11 @@ The flags returned by <b>GetCreationFlags</b> are used mainly for opening a shar
 
 
 
-<a href="https://msdn.microsoft.com/292FA25B-7C72-4092-8822-DB15951A8309">Id3d12fence1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence1">Id3d12fence1</a>
 
 
 
-<a href="https://msdn.microsoft.com/93903F50-A6CA-41C2-863D-68D645586B4C">Synchronization and Multi-Engine</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/user-mode-heap-synchronization">Synchronization and Multi-Engine</a>
  
 
  

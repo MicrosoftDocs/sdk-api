@@ -81,7 +81,7 @@ Specifies the y-coordinate, in logical units, of the line's ending point.
 
 ### -param lpProc [in]
 
-Pointer to an application-defined callback function. For more information, see the <a href="https://msdn.microsoft.com/4a8b1120-4b0b-4029-8b49-4371c0627bba">LineDDAProc</a> callback function.
+Pointer to an application-defined callback function. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nc-wingdi-lineddaproc">LineDDAProc</a> callback function.
 
 
 ### -param data [in]
@@ -116,15 +116,15 @@ The coordinates passed to the callback function match pixels on a video display 
 
 
 
-<a href="https://msdn.microsoft.com/90f123e2-c3c7-4ba1-a42b-7d6bc0074d5b">Line and Curve Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a8b1120-4b0b-4029-8b49-4371c0627bba">LineDDAProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nc-wingdi-lineddaproc">LineDDAProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c65c185-8346-459e-bdf7-1cf3f7419736">Lines and Curves Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
  
 
  

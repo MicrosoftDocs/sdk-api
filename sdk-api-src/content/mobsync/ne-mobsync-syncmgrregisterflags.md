@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SYNCMGRREGISTERFLAGS</b> enumeration values are used in methods of the <a href="https://msdn.microsoft.com/1feed230-5a50-4ff5-a8a9-e0ce15ba8f1c">ISyncMgrRegister</a> interface to identify events for which the handler is registered to be notified.
+The <b>SYNCMGRREGISTERFLAGS</b> enumeration values are used in methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a> interface to identify events for which the handler is registered to be notified.
 
 
 ## -enum-fields

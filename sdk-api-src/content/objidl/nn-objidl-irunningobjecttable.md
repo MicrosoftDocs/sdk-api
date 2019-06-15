@@ -54,7 +54,7 @@ Manages access to the running object table (ROT), a globally accessible look-up 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunningObjectTable</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IRunningObjectTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRunningObjectTable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRunningObjectTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRunningObjectTable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09ff0d05-627b-4e47-8534-25cd8735c6e5">EnumRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-enumrunning">EnumRunning</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a pointer to an enumerator that can list the monikers of all the objects currently registered in the running object table (ROT).
@@ -78,7 +78,7 @@ Creates and returns a pointer to an enumerator that can list the monikers of all
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d74b3ee-323d-43f9-8eab-0866432659de">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Determines whether the object identified by the specified moniker is running, and if it is, retrieves a pointer to that object.
@@ -87,7 +87,7 @@ Determines whether the object identified by the specified moniker is running, an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fef6f7e5-7d91-4737-98a4-c9779c6c2be5">GetTimeOfLastChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-gettimeoflastchange">GetTimeOfLastChange</a>
 </td>
 <td align="left" width="63%">
 Retrieves the time that an object was last modified.
@@ -96,7 +96,7 @@ Retrieves the time that an object was last modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44564e70-b157-4f60-9b51-337613f6a4c9">IsRunning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-isrunning">IsRunning</a>
 </td>
 <td align="left" width="63%">
 Determines whether the object identified by the specified moniker is currently running.
@@ -105,7 +105,7 @@ Determines whether the object identified by the specified moniker is currently r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bc410f8-3a39-478d-bc4d-adcd976f305b">NoteChangeTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-notechangetime">NoteChangeTime</a>
 </td>
 <td align="left" width="63%">
 Records the time that a running object was last modified.
@@ -114,7 +114,7 @@ Records the time that a running object was last modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">Register</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">Register</a>
 </td>
 <td align="left" width="63%">
 Registers an object and its identifying moniker in the running object table (ROT).
@@ -123,10 +123,10 @@ Registers an object and its identifying moniker in the running object table (ROT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3d83966-035d-4077-a770-cb62c8011132">Revoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-revoke">Revoke</a>
 </td>
 <td align="left" width="63%">
-Removes an entry from the running object table (ROT) that was previously registered by a call to <a href="https://msdn.microsoft.com/40f815b2-dfea-416c-aae1-7ba3a710ad91">IRunningObjectTable::Register</a>.
+Removes an entry from the running object table (ROT) that was previously registered by a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-register">IRunningObjectTable::Register</a>.
 
 </td>
 </tr>
@@ -151,15 +151,15 @@ Objects that can be named by monikers must be registered with the ROT when they 
 
 
 
-<a href="https://msdn.microsoft.com/65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d">GetRunningObjectTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-getrunningobjecttable">GetRunningObjectTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/26938d07-d772-4e72-a6aa-57dd2f2cece1">IBindCtx::GetRunningObjectTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-getrunningobjecttable">IBindCtx::GetRunningObjectTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/44ae8377-c375-4dc3-9f54-a5674e24763f">IROTData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
  
 
  

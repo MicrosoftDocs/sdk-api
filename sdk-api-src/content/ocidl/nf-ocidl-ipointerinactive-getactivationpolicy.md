@@ -59,7 +59,7 @@ Retrieves the current activation policy for the object. This method is called by
 
 ### -param pdwPolicy [out]
 
-A pointer to a variable that receives the activation policy. Possible values come from the <a href="https://msdn.microsoft.com/b955af46-14bd-45b0-a4ef-b705e5d45a38">POINTERINACTIVE</a> enumeration.
+A pointer to a variable that receives the activation policy. Possible values come from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagpointerinactive">POINTERINACTIVE</a> enumeration.
 
 
 ## -returns
@@ -81,7 +81,7 @@ An object can also use this method to request activation when the mouse is dragg
 
 If the object returns one of these values, the container should activate the object immediately and forward the Window message that triggered the call. The object then stays active and processes subsequent messages through its own window until the container gets another WM_SETCURSOR or WM_MOUSEMOVE. At this point, the container should deactivate the object.
 
-For windowless OLE objects this mechanism is slightly different. See <a href="https://msdn.microsoft.com/4ad83599-99d2-4b35-95de-cff845a8d5e4">IOleInPlaceSiteWindowless</a> for more information on drag and drop operations for windowless objects.
+For windowless OLE objects this mechanism is slightly different. See <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a> for more information on drag and drop operations for windowless objects.
 
 If the object returns both the POINTERINACTIVE_ACTIVATEONENTRY and the POINTERINACTIVE_DEACTIVATEONLEAVE values, the object is activated only when the mouse is over the object. If the POINTERINACTIVE_ACTIVATEONENTRY value alone is set, the object is activated once when the mouse first enters it, and it remains active.
 
@@ -96,11 +96,11 @@ The activation policy should not be cached. The container should call this metho
 
 
 
-<a href="https://msdn.microsoft.com/4ad83599-99d2-4b35-95de-cff845a8d5e4">IOleInPlaceSiteWindowless</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc08d512-6994-419a-a460-6274ce74e40f">IPointerInactive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipointerinactive">IPointerInactive</a>
  
 
  

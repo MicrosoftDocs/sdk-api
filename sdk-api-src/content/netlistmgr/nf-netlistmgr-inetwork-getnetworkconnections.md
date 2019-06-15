@@ -59,7 +59,7 @@ The <b>GetNetworkConnections</b> method returns an enumeration of all network co
 
 ### -param ppEnumNetworkConnection [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/f7e69ede-c567-4285-a017-096c94fb3fe4">IEnumNetworkConnections</a> interface instance that enumerates the list of local connections to this network.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> interface instance that enumerates the list of local connections to this network.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Returns S_OK if the method succeeds.
 
 
 
-<a href="https://msdn.microsoft.com/6d483058-f7c4-4a6c-a1a8-816c2fab9994">INetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
  
 
  

@@ -77,7 +77,7 @@ Maximum value for testing purposes.
 
 
 
-<a href="https://msdn.microsoft.com/a81df783-72d8-4374-a3f8-44c3491a98db">IPSEC_SA_CONTEXT_CHANGE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0_">IPSEC_SA_CONTEXT_CHANGE0</a>
  
 
  

@@ -65,7 +65,7 @@ This property is read-only.
 Hidden rows and columns, depending on the provider implementation, may be loaded 
             in the logical tree and will therefore be reflected in the 
             <b>IGridProvider::RowCount</b> and 
-            <a href="https://msdn.microsoft.com/8d180781-d797-4db4-82bd-92f3646da495">IGridProvider::ColumnCount</a> properties. 
+            <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-igridprovider-get_columncount">IGridProvider::ColumnCount</a> properties. 
             If the hidden rows and columns have not yet been loaded they will not be counted.
             
 
@@ -77,11 +77,11 @@ Hidden rows and columns, depending on the provider implementation, may be loaded
 
 
 
-<a href="https://msdn.microsoft.com/37e2cc95-d765-4c2c-ae8a-5a072a43ad5a">IGridProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

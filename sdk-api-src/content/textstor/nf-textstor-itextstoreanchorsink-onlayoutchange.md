@@ -59,12 +59,12 @@ The <b>ITextStoreAnchorSink::OnLayoutChange</b> method is called when the layout
 
 ### -param lcode [in]
 
-Contains a <a href="https://msdn.microsoft.com/en-us/library/ms629200(v=VS.85).aspx">TsLayoutCode</a> value that defines the type of change.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0002">TsLayoutCode</a> value that defines the type of change.
 
 
 ### -param vcView [in]
 
-Contains an application-defined cookie that identifies the document. For more information, see <a href="https://msdn.microsoft.com/b1940cac-7295-41c5-bd26-8be1d1fa4da9">ITextStoreAnchor::GetActiveView</a>.
+Contains an application-defined cookie that identifies the document. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getactiveview">ITextStoreAnchor::GetActiveView</a>.
 
 
 ## -returns
@@ -101,7 +101,7 @@ The method was successful.
 
 A layout change can be in response to a change to the text, font size, window movement, window resizing, or other change that affects the displayed text.
 
-If a call to <a href="https://msdn.microsoft.com/b8e21544-e5d2-4048-93aa-82a87562a70a">ITextStoreAnchor::GetTextExt</a> or <a href="https://msdn.microsoft.com/5567b53e-540e-41ce-b890-f2e4c5b06c57">ITextStoreAnchor::GetAnchorFromPoint</a> returns TS_E_NOLAYOUT because the application has not calculated the layout, the application must call <b>ITextStoreAnchorSink::OnLayoutChange</b> when the layout is available.
+If a call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettextext">ITextStoreAnchor::GetTextExt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getanchorfrompoint">ITextStoreAnchor::GetAnchorFromPoint</a> returns TS_E_NOLAYOUT because the application has not calculated the layout, the application must call <b>ITextStoreAnchorSink::OnLayoutChange</b> when the layout is available.
 
 
 
@@ -111,26 +111,26 @@ If a call to <a href="https://msdn.microsoft.com/b8e21544-e5d2-4048-93aa-82a8756
 
 
 
-<a href="https://msdn.microsoft.com/b1940cac-7295-41c5-bd26-8be1d1fa4da9">ITextStoreAnchor::GetActiveView
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getactiveview">ITextStoreAnchor::GetActiveView
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/5567b53e-540e-41ce-b890-f2e4c5b06c57">ITextStoreAnchor::GetAnchorFromPoint
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getanchorfrompoint">ITextStoreAnchor::GetAnchorFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8e21544-e5d2-4048-93aa-82a87562a70a">ITextStoreAnchor::GetTextExt
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-gettextext">ITextStoreAnchor::GetTextExt
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/fb96b4fb-864f-4f32-bf7c-cf7f199e552a">ITextStoreAnchorSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/879f83ba-211b-49f6-93b2-6cde5f50fc24">TsLayoutCode
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl___midl_itf_textstor_0000_0000_0002">TsLayoutCode
       </a>
  
 

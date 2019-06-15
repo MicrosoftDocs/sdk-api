@@ -59,7 +59,7 @@ Gets a variable by name.
 
 ### -param Name [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a>*</b>
 
 A pointer to a string containing the variable name.
 
@@ -68,9 +68,9 @@ A pointer to a string containing the variable name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectionvariable">ID3D10ShaderReflectionVariable</a>*</b>
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Bb173845(v=VS.85).aspx">ID3D10ShaderReflectionVariable Interface</a> interface.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectionvariable">ID3D10ShaderReflectionVariable Interface</a> interface.
 
 
 
@@ -89,7 +89,7 @@ This method requires Windows Vista Service Pack 1.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb694550(v=VS.85).aspx">ID3D10ShaderReflection1 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10_1shader/nn-d3d10_1shader-id3d10shaderreflection1">ID3D10ShaderReflection1 Interface</a>
  
 
  

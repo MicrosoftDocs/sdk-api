@@ -67,7 +67,7 @@ The Server Call that this function dispatches or fails.
 Specifies an RPC status. If this value is not <b>RPC_S_OK</b>, the Server Call is failed with a value of <b>RPC_S_ACCESS_DENIED</b>.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -returns

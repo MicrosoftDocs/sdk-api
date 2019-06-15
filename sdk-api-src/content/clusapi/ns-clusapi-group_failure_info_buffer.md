@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a buffer for a <a href="https://msdn.microsoft.com/C3E7585B-21F8-4E4C-A970-C07F72C80E76">GROUP_FAILURE_INFO</a> structure.
+Represents a buffer for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-group_failure_info">GROUP_FAILURE_INFO</a> structure.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ The version of this structure. Set this parameter to <b>GROUP_FAILURE_INFO_VERSI
 
 ### -field Info
 
-The <a href="https://msdn.microsoft.com/C3E7585B-21F8-4E4C-A970-C07F72C80E76">GROUP_FAILURE_INFO</a> structure that contains information about the failover attempts for the group failure.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-group_failure_info">GROUP_FAILURE_INFO</a> structure that contains information about the failover attempts for the group failure.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ The <a href="https://msdn.microsoft.com/C3E7585B-21F8-4E4C-A970-C07F72C80E76">GR
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
  
 
  

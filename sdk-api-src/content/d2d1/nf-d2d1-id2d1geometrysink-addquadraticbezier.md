@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/452d1cb8-be2c-4019-afbc-d4b632e7ee78">AddQuadraticBezier(D2D1_QUADRATIC_BEZIER_SEGMENT&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrysink-addquadraticbezier(constd2d1_quadratic_bezier_segment_)">AddQuadraticBezier(D2D1_QUADRATIC_BEZIER_SEGMENT&)</a>
 </td>
 <td align="left" width="63%">
 Creates  a quadratic Bezier curve between the current point and the specified end point.
@@ -66,7 +66,7 @@ Creates  a quadratic Bezier curve between the current point and the specified en
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48bc52c7-36ba-4099-8ffd-1ac72a275ad0">AddQuadraticBezier(D2D1_QUADRATIC_BEZIER_SEGMENT*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrysink-addquadraticbezier(constd2d1_quadratic_bezier_segment_)">AddQuadraticBezier(D2D1_QUADRATIC_BEZIER_SEGMENT*)</a>
 </td>
 <td align="left" width="63%">
 Creates  a quadratic Bezier curve between the current point and the specified endpoint.
@@ -83,7 +83,7 @@ Creates  a quadratic Bezier curve between the current point and the specified en
 
 
 
-<a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
  
 
  

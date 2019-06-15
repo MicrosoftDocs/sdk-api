@@ -80,7 +80,7 @@ The number of filter structures that the <i>pBuffer</i> buffer contains. Is zero
 
 ### -param Buffer [out, optional]
 
-User-allocated buffer to receive the filter information. For details, see the <a href="https://msdn.microsoft.com/0541b24a-8531-4828-8c3b-d889e58b0b38">PROVIDER_FILTER_INFO</a> structure.
+User-allocated buffer to receive the filter information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_filter_info">PROVIDER_FILTER_INFO</a> structure.
 
 
 ### -param BufferSize [in, out]

@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a>). The most recent input is included in the returned history and is the same as the most recent input returned by the <a href="https://msdn.microsoft.com/97d93754-fc7e-4400-a6ee-6bab53e421cf">GetPointerTouchInfo</a> function.
+Gets the touch-based information associated with the individual inputs, if any, that were coalesced into the current message for the specified pointer (of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>). The most recent input is included in the returned history and is the same as the most recent input returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a> function.
 
 
 ## -parameters
@@ -71,12 +71,12 @@ An identifier of the pointer for which to retrieve information.
 
 ### -param entriesCount [in, out]
 
-A pointer to a variable that specifies the count of structures in the buffer to which touchInfo points. If <b>GetPointerTouchInfoHistory</b> succeeds, <i>entriesCount</i> is updated with the total count of structures available. The total count of structures available is the same as the <i>historyCount</i> field in the <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-0b4d-1b8c335fd102">POINTER_INFO</a> structure returned by a call to <a href="https://msdn.microsoft.com/75faea24-91cd-448b-b67a-19fe530f1800">GetPointerInfo</a> or <a href="https://msdn.microsoft.com/97d93754-fc7e-4400-a6ee-6bab53e421cf">GetPointerTouchInfo</a>.
+A pointer to a variable that specifies the count of structures in the buffer to which touchInfo points. If <b>GetPointerTouchInfoHistory</b> succeeds, <i>entriesCount</i> is updated with the total count of structures available. The total count of structures available is the same as the <i>historyCount</i> field in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_info">POINTER_INFO</a> structure returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinfo">GetPointerInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a>.
 
 
 ### -param touchInfo [out, optional]
 
-Address of an array of <a href="https://msdn.microsoft.com/fee176ba-ad07-3141-ab4d-1b8c335fd102">POINTER_TOUCH_INFO</a> structures to receive the pointer information. This parameter can be NULL if *entriesCount is zero.
+Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_touch_info">POINTER_TOUCH_INFO</a> structures to receive the pointer information. This parameter can be NULL if *entriesCount is zero.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Address of an array of <a href="https://msdn.microsoft.com/fee176ba-ad07-3141-ab
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -94,9 +94,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-If the application does not process pointer input messages as fast as they are generated, some moves may be coalesced. When an application receives a coalescable pointer (of type <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a>) message, it can use the <b>GetPointerTouchInfoHistory</b> function to retrieve information for all the individual inputs, if any, that were coalesced into the message. Note that the information retrieved is associated with the pointer message most recently retrieved by the calling thread. Once the calling thread retrieves its next message, the information associated with the previous message may no longer be available.
+If the application does not process pointer input messages as fast as they are generated, some moves may be coalesced. When an application receives a coalescable pointer (of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>) message, it can use the <b>GetPointerTouchInfoHistory</b> function to retrieve information for all the individual inputs, if any, that were coalesced into the message. Note that the information retrieved is associated with the pointer message most recently retrieved by the calling thread. Once the calling thread retrieves its next message, the information associated with the previous message may no longer be available.
 
-The information retrieved appears in reverse chronological order, with the most recent entry in the first row of the returned array. The most recent entry is the same as that returned by the <a href="https://msdn.microsoft.com/97d93754-fc7e-4400-a6ee-6bab53e421cf">GetPointerTouchInfo</a> function.
+The information retrieved appears in reverse chronological order, with the most recent entry in the first row of the returned array. The most recent entry is the same as that returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a> function.
 
 If the count of rows in the buffer provided is insufficient to hold all available history entries, this function succeeds with the buffer containing the most recent entries and <i>*entriesCount</i> containing the total count of entries available.
 
@@ -107,7 +107,7 @@ If the information associated with the pointer frame is no longer available, thi
 
 If the calling thread does not own the window (where the input was originally delivered or where the message was forwarded) to which the pointer message has been delivered, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>. 
 
-If the specified pointer is not of type <a href="https://msdn.microsoft.com/3334DCD0-DAE1-4AC2-AB36-23D114803100">PT_TOUCH</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
+If the specified pointer is not of type <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
 
 
 
@@ -119,19 +119,19 @@ If the specified pointer is not of type <a href="https://msdn.microsoft.com/3334
 
 
 
-<a href="https://msdn.microsoft.com/0123DCD0-DAE1-4AC2-AB36-23D114803138">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a100cc7a-62fc-4ace-8d35-e77aff98d944">GetPointerFrameTouchInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfo">GetPointerFrameTouchInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2521a67-9850-46e9-bc8b-75bf5b6cc263">GetPointerFrameTouchInfoHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfohistory">GetPointerFrameTouchInfoHistory</a>
 
 
 
-<a href="https://msdn.microsoft.com/97d93754-fc7e-4400-a6ee-6bab53e421cf">GetPointerTouchInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfo">GetPointerTouchInfo</a>
  
 
  

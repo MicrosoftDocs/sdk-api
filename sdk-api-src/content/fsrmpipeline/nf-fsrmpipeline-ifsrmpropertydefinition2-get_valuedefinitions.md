@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://msdn.microsoft.com/1CE772FA-CE33-4900-A499-058175A7C37E">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://msdn.microsoft.com/2221a226-60cd-45db-86c1-eae11ad41ff0">MSFT_FSRMClassificationPropertyDefinition</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationpropertydefinition">MSFT_FSRMClassificationPropertyDefinition</a> 
     class.]
 
 This property contains the possible value definitions of the property definition.
@@ -68,15 +68,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/6a0c5d8b-5fed-4c55-971c-43430e3c6a8d">IFsrmCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/b16e1d43-1d7d-4e6c-b0e7-60386ba9c2b5">IFsrmPropertyDefinition2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition2">IFsrmPropertyDefinition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/2221a226-60cd-45db-86c1-eae11ad41ff0">MSFT_FSRMClassificationPropertyDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationpropertydefinition">MSFT_FSRMClassificationPropertyDefinition</a>
  
 
  

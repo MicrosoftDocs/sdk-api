@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Notifies an implementing plug-in when an <a href="https://msdn.microsoft.com/31e11f7d-5610-4c49-9203-2dc322fbef95">ITablet</a> object is removed from the system.
+Notifies an implementing plug-in when an <a href="https://docs.microsoft.com/windows/desktop/tablet/itablet">ITablet</a> object is removed from the system.
 
 
 
@@ -62,7 +62,7 @@ Notifies an implementing plug-in when an <a href="https://msdn.microsoft.com/31e
 
 ### -param piRtsSrc [in]
 
-The <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> (RTS) object that sent the notification.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
 
 ### -param iTabletIndex [in]
@@ -74,7 +74,7 @@ The tablet index.
 
 
 
-For a description of return values, see <a href="https://msdn.microsoft.com/fc0900b4-f08b-4a93-bbc0-d3db067d7917">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 
 
@@ -83,7 +83,7 @@ For a description of return values, see <a href="https://msdn.microsoft.com/fc09
 
 
 
-This method is called by the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object, whether the RTS object is enabled or disabled.
+This method is called by the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object, whether the RTS object is enabled or disabled.
 
 
 
@@ -93,19 +93,19 @@ This method is called by the <a href="https://msdn.microsoft.com/fd686a78-b0a8-4
 
 
 
-<a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbc971ad-7cfb-4f75-8d63-a210a7967424">IStylusPlugin::TabletAdded Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-tabletadded">IStylusPlugin::TabletAdded Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
  
 
  

@@ -59,7 +59,7 @@ Sets a complex option, such as a specified condition generator, to use when pars
 
 ### -param option [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a></b>
 
 The complex option to be set.
         
@@ -69,15 +69,15 @@ The complex option to be set.
 
 Type: <b>LPCWSTR</b>
 
-A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a>.
+A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 
 ### -param pOptionValue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa965706(v=VS.85).aspx">STRUCTURED_QUERY_MULTIOPTION</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagstructured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
         
 
 

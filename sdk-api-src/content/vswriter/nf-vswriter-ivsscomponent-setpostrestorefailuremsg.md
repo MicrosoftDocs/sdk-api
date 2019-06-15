@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>SetPostRestoreFailureMsg</b> method is used to create a message describing a failure in processing a 
-<a href="https://msdn.microsoft.com/01cf3931-59ef-4572-9f2e-aa210da0ac2d">PostRestore</a> event.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
 
 Only a writer can call this method, and only during a restore operation.
 
@@ -65,7 +65,7 @@ Only a writer can call this method, and only during a restore operation.
 ### -param wszPostRestoreFailureMsg [in]
 
 A caller-allocated <b>NULL</b>-terminated wide character string containing the failure message that describes an error that occurred while processing a 
-<a href="https://msdn.microsoft.com/01cf3931-59ef-4572-9f2e-aa210da0ac2d">PostRestore</a> event.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event.
 
 
 ## -returns
@@ -144,19 +144,19 @@ The failure message set by
 
 
 
-<a href="https://msdn.microsoft.com/c686a424-b0b9-4efc-8dc6-b92193de2a5d">IVssComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7d236e9-bd83-4685-b249-4e5b8ada535a">IVssComponent::GetPostRestoreFailureMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg">IVssComponent::GetPostRestoreFailureMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/58c007a8-8414-4e2d-8042-d249a723780a">IVssComponent::GetPreRestoreFailureMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg">IVssComponent::GetPreRestoreFailureMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b273cba-9878-4494-81ef-af1367f1e0a5">IVssComponent::SetPreRestoreFailureMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setprerestorefailuremsg">IVssComponent::SetPreRestoreFailureMsg</a>
  
 
  

@@ -118,15 +118,15 @@ The Line 21 decoder supports CC1 and CC2 only.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389387(v=VS.85).aspx">IAMLine21Decoder::GetCurrentService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">IAMLine21Decoder::GetCurrentService</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389394(v=VS.85).aspx">IAMLine21Decoder::SetCurrentService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setcurrentservice">IAMLine21Decoder::SetCurrentService</a>
  
 
  

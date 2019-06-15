@@ -49,18 +49,18 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Scans documents for text and properties (also called attributes). It extracts chunks of text from these documents, filtering out embedded formatting and retaining information about the position of the text. It also extracts chunks of values, which are properties of an entire document or of well-defined parts of a document. <b>IFilter</b> provides the foundation for building higher-level applications such as document indexers and application-independent viewers.
 
-For introductory information about how the <b>IFilter</b> interface works with documents and document properties, see <a href="https://msdn.microsoft.com/en-us/library/ms689715(v=VS.85).aspx">Properties of Documents</a>. For a synopsis and an example of how the <b>IFilter</b> interface processes a document, see <a href="https://msdn.microsoft.com/en-us/library/ms689681(v=VS.85).aspx">Property Filtering</a> and <a href="https://msdn.microsoft.com/en-us/library/ms689661(v=VS.85).aspx">Property Indexing</a>.
+For introductory information about how the <b>IFilter</b> interface works with documents and document properties, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/properties-of-documents">Properties of Documents</a>. For a synopsis and an example of how the <b>IFilter</b> interface processes a document, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/property-filtering">Property Filtering</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/property-indexing">Property Indexing</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms691053(v=VS.85).aspx">BindRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-bindregion">BindRegion</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface representing the specified portion of object. Currently reserved for future use.
@@ -84,7 +84,7 @@ Retrieves an interface representing the specified portion of object. Currently r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">GetChunk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getchunk">GetChunk</a>
 </td>
 <td align="left" width="63%">
 Positions filter at beginning of first or next chunk and returns a descriptor.
@@ -93,7 +93,7 @@ Positions filter at beginning of first or next chunk and returns a descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms690992(v=VS.85).aspx">GetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Retrieves text from the current chunk.
@@ -102,7 +102,7 @@ Retrieves text from the current chunk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms690927(v=VS.85).aspx">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves values from the current chunk.
@@ -111,7 +111,7 @@ Retrieves values from the current chunk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms690965(v=VS.85).aspx">Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes a filtering session.
@@ -135,15 +135,15 @@ Initializes a filtering session.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690929(v=VS.85).aspx">BindIFilterFromStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstorage">BindIFilterFromStorage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690827(v=VS.85).aspx">BindIFilterFromStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-bindifilterfromstream">BindIFilterFromStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691002(v=VS.85).aspx">LoadIFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-loadifilter">LoadIFilter</a>
  
 
  

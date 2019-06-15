@@ -82,15 +82,15 @@ Use Kerberos authentication during RPC login.
 
 
 
-<a href="https://msdn.microsoft.com/8d53402b-2d2c-4f93-8e98-4449701052b0">EVT_LOGIN_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_login_class">EVT_LOGIN_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/38f74619-1643-461f-b04b-c15567c06ca8">EVT_RPC_LOGIN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_rpc_login">EVT_RPC_LOGIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/26f1745c-dcca-4452-872e-1fffe20f049c">EvtOpenSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>
  
 
  

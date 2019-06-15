@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2262707-b5d5-4697-9634-72fd2a72000a">GetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontlist-getfont">GetFont</a>
 </td>
 <td align="left" width="63%">
  Gets a font given its zero-based index.
@@ -78,7 +78,7 @@ The <b>IDWriteFontList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3c13a33-7bf7-4027-af10-f4863008cef2">GetFontCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontlist-getfontcollection">GetFontCollection</a>
 </td>
 <td align="left" width="63%">
  Gets the font collection that contains the fonts in
@@ -88,7 +88,7 @@ The <b>IDWriteFontList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62755704-f4bf-423c-b19b-781529dd9718">GetFontCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontlist-getfontcount">GetFontCount</a>
 </td>
 <td align="left" width="63%">
  Gets the number of fonts in the font list.

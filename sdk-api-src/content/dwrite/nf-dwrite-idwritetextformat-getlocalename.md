@@ -68,7 +68,7 @@ Contains a character array that receives the current locale name.
 
 Type: <b>UINT32</b>
 
-The size of the character array, in character count, including the terminated <b>NULL</b> character. Use <a href="https://msdn.microsoft.com/197926ad-ff96-48b3-872b-22a683725ef8">GetLocaleNameLength</a> to get the size of the locale name character array.
+The size of the character array, in character count, including the terminated <b>NULL</b> character. Use <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextformat-getlocalenamelength">GetLocaleNameLength</a> to get the size of the locale name character array.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/64b2cac3-c4cb-4213-b808-7b279d296939">IDWriteTextFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
  
 
  

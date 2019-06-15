@@ -59,7 +59,7 @@ Registers the active instance of an application for recovery.
 
 ### -param pRecoveyCallback [in]
 
-A pointer to the recovery callback function. For more information, see <a href="https://msdn.microsoft.com/573b1adb-9d9e-4a58-8d02-2addb93626da">ApplicationRecoveryCallback</a>.
+A pointer to the recovery callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373202(v=vs.85)">ApplicationRecoveryCallback</a>.
 
 
 ### -param pvParameter [in, optional]
@@ -71,7 +71,7 @@ A pointer to a variable to be passed to the callback function. Can be <b>NULL</b
 
 The recovery ping interval, in milliseconds. By default, the interval is 5 seconds (RECOVERY_DEFAULT_PING_INTERVAL). The maximum interval is 5 minutes. If you specify zero, the default interval is used. 
 
-You must call the <a href="https://msdn.microsoft.com/9c765f72-10ad-4d16-a9e5-d73ea5c4f59b">ApplicationRecoveryInProgress</a> function within the specified interval to indicate to ARR that you are still actively recovering; otherwise, WER terminates recovery. Typically, you perform recovery in a loop with each iteration lasting no longer than the ping interval. Each iteration performs a block of recovery work followed by a call to <b>ApplicationRecoveryInProgress</b>. Since you also use <b>ApplicationRecoveryInProgress</b> to determine if the user wants to cancel recovery, you should consider a smaller interval, so you do not perform a lot of work unnecessarily.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryinprogress">ApplicationRecoveryInProgress</a> function within the specified interval to indicate to ARR that you are still actively recovering; otherwise, WER terminates recovery. Typically, you perform recovery in a loop with each iteration lasting no longer than the ping interval. Each iteration performs a block of recovery work followed by a call to <b>ApplicationRecoveryInProgress</b>. Since you also use <b>ApplicationRecoveryInProgress</b> to determine if the user wants to cancel recovery, you should consider a smaller interval, so you do not perform a lot of work unnecessarily.
 
 
 ### -param dwFlags [in]
@@ -122,11 +122,11 @@ The ping interval cannot be more than five minutes.
 
 
 
-If the  application encounters an unhandled exception or becomes unresponsive, Windows Error Reporting (WER) calls the specified recovery callback. You should use the callback to save data and state information. You can use the information if you also call  the <a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a> function to request that WER restart the application.
+If the  application encounters an unhandled exception or becomes unresponsive, Windows Error Reporting (WER) calls the specified recovery callback. You should use the callback to save data and state information. You can use the information if you also call  the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function to request that WER restart the application.
 
-WER will not call your recovery callback if an installer wants to  update a component of your application. To save data and state information in the update case, you should handle the <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> and <a href="https://msdn.microsoft.com/9bf04f24-da1e-4680-a47b-28e9c500635e">WM_ENDSESSION</a> messages. For details, see each message. The timeout for responding to these messages is five seconds. Most of the available recovery time is in the <a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a> message for which you have 30 seconds.
+WER will not call your recovery callback if an installer wants to  update a component of your application. To save data and state information in the update case, you should handle the <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> and <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-endsession">WM_ENDSESSION</a> messages. For details, see each message. The timeout for responding to these messages is five seconds. Most of the available recovery time is in the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-close">WM_CLOSE</a> message for which you have 30 seconds.
 
-A console application that can be updated uses the CTRL_C_EVENT notification to initiate recovery (for details, see the <a href="https://msdn.microsoft.com/library/ms683242(v=VS.85).aspx">HandlerRoutine</a> callback function). The timeout for the handler to complete is 30 seconds.
+A console application that can be updated uses the CTRL_C_EVENT notification to initiate recovery (for details, see the <a href="https://docs.microsoft.com/windows/console/handlerroutine">HandlerRoutine</a> callback function). The timeout for the handler to complete is 30 seconds.
 
 Applications should consider saving data and state information on a periodic bases to shorten the amount of time required for recovery.
 
@@ -138,19 +138,19 @@ Applications should consider saving data and state information on a periodic bas
 
 
 
-<a href="https://msdn.microsoft.com/573b1adb-9d9e-4a58-8d02-2addb93626da">ApplicationRecoveryCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa373202(v=vs.85)">ApplicationRecoveryCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c765f72-10ad-4d16-a9e5-d73ea5c4f59b">ApplicationRecoveryInProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryinprogress">ApplicationRecoveryInProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>
 
 
 
-<a href="https://msdn.microsoft.com/473e24d6-fddb-4935-b454-8cddfb53a02a">UnregisterApplicationRecoveryCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-unregisterapplicationrecoverycallback">UnregisterApplicationRecoveryCallback</a>
  
 
  

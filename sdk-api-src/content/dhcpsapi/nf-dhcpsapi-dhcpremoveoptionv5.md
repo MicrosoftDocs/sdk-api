@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DhcpRemoveOptionV5</b> function removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server.  This extends the functionality in <a href="https://msdn.microsoft.com/a165d88c-113c-41ed-920e-f8f434578158">DhcpRemoveOption</a> with support for specific class and vendor names.
+The <b>DhcpRemoveOptionV5</b> function removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server.  This extends the functionality in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremoveoption">DhcpRemoveOption</a> with support for specific class and vendor names.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ This flag should be set if the option is removed for a specific vendor class..
 ### -param OptionID [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_OPTION_ID</a> value that specifies the code for the option  to remove.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for the option  to remove.
 
 
 ### -param ClassName [in]
@@ -117,7 +117,7 @@ Unicode string that specifies the vendor of the option. This parameter is option
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -179,7 +179,7 @@ The supplied class name is either unknown or incorrect.
 
 
 
-<a href="https://msdn.microsoft.com/de6e8f87-af4b-4e7f-8468-54359c5a8907">DhcpCreateOptionV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateoptionv5">DhcpCreateOptionV5</a>
  
 
  

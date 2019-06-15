@@ -61,14 +61,14 @@ The <b>FwpmConnectionUnsubscribe0</b> function is used to cancel a connection ob
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param eventsHandle [in, out]
 
 Type: <b>HANDLE</b>
 
-Handle of the subscribed event notification. This is the returned handle from the call to <a href="https://msdn.microsoft.com/86fe40b0-aada-44e1-91dd-0e825589159d">FwpmConnectionSubscribe0</a>.
+Handle of the subscribed event notification. This is the returned handle from the call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a>.
 
 This may be <b>NULL</b>, in which case the function will have no effect.
 
@@ -104,7 +104,7 @@ The subscription was deleted successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ If the callback is currently being invoked, this function will not return until 
 It is not necessary to unsubscribe before closing a session; all subscriptions are automatically canceled when the subscribing session terminates.
 
 This function cannot be called from within a transaction. It will fail
-with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
+with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
 
 
@@ -145,7 +145,7 @@ with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://msdn.microsoft.com/2625e
 
 
 
-<a href="https://msdn.microsoft.com/86fe40b0-aada-44e1-91dd-0e825589159d">FwpmConnectionSubscribe0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a>
  
 
  

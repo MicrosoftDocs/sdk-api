@@ -132,7 +132,7 @@ Error writing to registration database.
 
 
 
-This function sets the <b>TreatAs</b> entry in the registry for the specified object, allowing the object to be emulated by another application. Emulation allows an application to open and edit an object of a different format, while retaining the original format of the object. After this entry is set, whenever any function such as <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> specifies the object's original CLSID (<i>clsidOld</i>), it is transparently forwarded to the new CLSID (<i>clsidNew</i>), thus launching the application associated with the <b>TreatAs</b> CLSID. When the object is saved, it can be saved in its native format, which may result in loss of edits not supported by the original format.
+This function sets the <b>TreatAs</b> entry in the registry for the specified object, allowing the object to be emulated by another application. Emulation allows an application to open and edit an object of a different format, while retaining the original format of the object. After this entry is set, whenever any function such as <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> specifies the object's original CLSID (<i>clsidOld</i>), it is transparently forwarded to the new CLSID (<i>clsidNew</i>), thus launching the application associated with the <b>TreatAs</b> CLSID. When the object is saved, it can be saved in its native format, which may result in loss of edits not supported by the original format.
 
 If your application supports emulation, call <b>CoTreatAsClass</b> in the following situations:
 
@@ -152,7 +152,7 @@ An example of the first case is that an end user might wish to edit a spreadshee
 
 An example of the use of <b>CoTreatAsClass</b> in a setup program would be in an updated version of an application. When the application is updated, the objects created with the earlier version can be activated and treated as objects of the new version, while retaining the previous format information. This would allow you to give the user the option to convert when they save, or to save it in the previous format, possibly losing format information not available in the older version.
 
-One result of setting an emulation is that when you enumerate verbs, as in the <a href="https://msdn.microsoft.com/c67770d0-e478-41dc-9028-1e0a6cb9e3c7">IOleObject::EnumVerbs</a> method implementation in the default handler, this would enumerate the verbs from <i>clsidNew</i> instead of <i>clsidOld</i>.
+One result of setting an emulation is that when you enumerate verbs, as in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-enumverbs">IOleObject::EnumVerbs</a> method implementation in the default handler, this would enumerate the verbs from <i>clsidNew</i> instead of <i>clsidOld</i>.
 
 
 
@@ -173,7 +173,7 @@ If there is no CLSID assigned to the <b>AutoTreatAs</b> key in the registry, set
 
 
 
-<a href="https://msdn.microsoft.com/f95fefe6-dc37-45f4-93be-87c996990ab9">CoGetTreatAsClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogettreatasclass">CoGetTreatAsClass</a>
  
 
  

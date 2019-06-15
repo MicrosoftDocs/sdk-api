@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CQAddFormsProc</b> callback function is called by a query form extension to add a form to the query dialog box. A pointer to this function is supplied to the query form extension in the <i>pAddFormsProc</i> parameter of the <a href="https://msdn.microsoft.com/fadaa7e6-ccf2-42cd-a26e-19db107ce56c">IQueryForm::AddForms</a> method. <b>CQAddFormsProc</b> is a placeholder for the query handler-defined function name.
+The <b>CQAddFormsProc</b> callback function is called by a query form extension to add a form to the query dialog box. A pointer to this function is supplied to the query form extension in the <i>pAddFormsProc</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">IQueryForm::AddForms</a> method. <b>CQAddFormsProc</b> is a placeholder for the query handler-defined function name.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>CQAddFormsProc</b> callback function is called by a query form extension 
 
 ### -param lParam
 
-Contains a 32-bit value defined by the query handler. This value is passed to the query form extension as the <i>lParam</i> parameter in the <a href="https://msdn.microsoft.com/fadaa7e6-ccf2-42cd-a26e-19db107ce56c">IQueryForm::AddForms</a> call.
+Contains a 32-bit value defined by the query handler. This value is passed to the query form extension as the <i>lParam</i> parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">IQueryForm::AddForms</a> call.
 
 
 ### -param pForm
 
-Pointer to a <a href="https://msdn.microsoft.com/65cf2e9c-8f88-4e84-8bf2-2b0fd246a835">CQFORM</a> structure that defines the form to add.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqform">CQFORM</a> structure that defines the form to add.
 
 
 ## -returns
@@ -81,11 +81,11 @@ Returns an <b>HRESULT</b> value that indicates the success, or failure, of the f
 
 
 
-<a href="https://msdn.microsoft.com/65cf2e9c-8f88-4e84-8bf2-2b0fd246a835">CQFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqform">CQFORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/fadaa7e6-ccf2-42cd-a26e-19db107ce56c">IQueryForm::AddForms</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms">IQueryForm::AddForms</a>
  
 
  

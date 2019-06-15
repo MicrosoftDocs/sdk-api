@@ -64,7 +64,7 @@ A pointer to the path.
 
 ### -param Setting [out]
 
-A pointer to the newly created <a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a> item.
+A pointer to the newly created <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> item.
 
 
 ## -returns
@@ -154,7 +154,7 @@ Indicates that the path contains an unrecognized XML escape sequence.
 
 
 
-<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
+<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
 <div> </div>
 
 
@@ -164,7 +164,7 @@ Indicates that the path contains an unrecognized XML escape sequence.
 
 
 
-<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
  
 
  

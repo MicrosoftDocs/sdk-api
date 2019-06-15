@@ -81,7 +81,7 @@ Specifies the name of the client on the private network that uses this port mapp
 ### -param bEnabled [in]
 
 Specifies whether the port is 
-<a href="https://msdn.microsoft.com/66aa27b4-83a5-4c20-b964-084dd0e48a54">enabled</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-enable">enabled</a>.
 
 
 ### -param bstrDescription [in]
@@ -92,7 +92,7 @@ Specifies a description for this port mapping.
 ### -param ppSPM [out]
 
 Pointer to an interface pointer that, on successful return, receives a pointer to an 
-<a href="https://msdn.microsoft.com/5013fea2-e767-4600-a10c-6859b7be42e4">IStaticPortMapping</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a> interface.
 
 
 ## -returns
@@ -216,23 +216,23 @@ The NAT API with UPnP technology uses the combination of the external port and t
 
 
 
-<a href="https://msdn.microsoft.com/5013fea2-e767-4600-a10c-6859b7be42e4">IStaticPortMapping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/4858c474-b57e-4baa-8e82-10bc41e026cd">IStaticPortMappingCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/c82a145d-7b85-419b-b64b-36f1ac7a2631">IStaticPortMappingCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmappingcollection-remove">IStaticPortMappingCollection::Remove</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf14d633-4b91-4570-b4c9-fd524923914a">Network Address Translation Traversal Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/49c5642e-346f-488d-92fb-ae214eb41b4f">Network Address Translation Traversal Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the data type returned by the <a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">IOfflineFilesSetting::GetValueType</a> method.
+Identifies the data type returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">IOfflineFilesSetting::GetValueType</a> method.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ A 2-dimensional array.  Each row is a <i>name,value</i> pair. Used to represent 
 
 
 
-<a href="https://msdn.microsoft.com/2b5567bf-a7c6-40b3-ac16-9da805ddb3b3">IOfflineFilesSetting::GetValueType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessetting-getvaluetype">IOfflineFilesSetting::GetValueType</a>
  
 
  

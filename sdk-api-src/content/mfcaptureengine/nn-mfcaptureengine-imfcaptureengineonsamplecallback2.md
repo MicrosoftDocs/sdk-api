@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extensions for the <a href="https://msdn.microsoft.com/7C621525-CCD2-45EC-9E7A-3A774B96EA6F">IMFCaptureEngineOnSampleCallback</a> callback interface that is used to receive data from the capture engine.
+Extensions for the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineonsamplecallback">IMFCaptureEngineOnSampleCallback</a> callback interface that is used to receive data from the capture engine.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IMFCaptureEngineOnSampleCallback2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f82a657a-bc6a-407b-ad72-1e9c6ec17bed">OnSynchronizedEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineonsamplecallback2-onsynchronizedevent">OnSynchronizedEvent</a>
 </td>
 <td align="left" width="63%">
 Called by the capture sink when the format of the sample is changed.
@@ -84,7 +84,7 @@ Called by the capture sink when the format of the sample is changed.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -68,7 +68,7 @@ Pointer to the newly created copy of the existing ACL.
 
 This method supports the standard return values, as well as the following:
 
-For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -78,7 +78,7 @@ For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-
 
 
 
-<a href="https://msdn.microsoft.com/71aebf28-f906-4a86-8bdb-ecb0626a350f">IADsAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsacl">IADsAcl</a>
  
 
  

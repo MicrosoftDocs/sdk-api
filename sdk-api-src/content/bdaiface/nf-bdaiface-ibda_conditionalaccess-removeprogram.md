@@ -78,15 +78,15 @@ Returns <b>E_NOTIMPL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693268(v=VS.85).aspx">AddProgram</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-addprogram">AddProgram</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693276(v=VS.85).aspx">SetProgram</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-setprogram">SetProgram</a>
  
 
  

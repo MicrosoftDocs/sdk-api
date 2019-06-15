@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d3d1f39-454a-4131-b6f8-90e333f2b7c4">AddArc(D2D1_ARC_SEGMENT&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrysink-addarc(constd2d1_arc_segment_)">AddArc(D2D1_ARC_SEGMENT&)</a>
 </td>
 <td align="left" width="63%">
 Adds a single arc to the path geometry.
@@ -66,7 +66,7 @@ Adds a single arc to the path geometry.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8627e30d-59b2-47e2-bd6d-ed8c6124b95c">AddArc(D2D1_ARC_SEGMENT*)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1geometrysink-addarc(constd2d1_arc_segment_)">AddArc(D2D1_ARC_SEGMENT*)</a>
 </td>
 <td align="left" width="63%">
 Adds a single arc to the path geometry. 
@@ -83,7 +83,7 @@ Adds a single arc to the path geometry.
 
 
 
-<a href="https://msdn.microsoft.com/6d2c1959-1309-45d8-8204-19ffea03375b">ID2D1GeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrysink">ID2D1GeometrySink</a>
  
 
  

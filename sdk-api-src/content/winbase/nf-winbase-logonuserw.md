@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LogonUser</b> function attempts to log a user on to the local computer. The local computer is the computer from which <b>LogonUser</b> was called. You cannot use <b>LogonUser</b> to log on to a remote computer. You specify the user with a user name and domain and <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authenticate</a> the user with a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> password. If the function succeeds, you receive a handle to a token that represents the logged-on user. You can then use this token handle to impersonate the specified user or, in most cases, to create a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> that runs in the context of the specified user.
+The <b>LogonUser</b> function attempts to log a user on to the local computer. The local computer is the computer from which <b>LogonUser</b> was called. You cannot use <b>LogonUser</b> to log on to a remote computer. You specify the user with a user name and domain and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authenticate</a> the user with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> password. If the function succeeds, you receive a handle to a token that represents the logged-on user. You can then use this token handle to impersonate the specified user or, in most cases, to create a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> that runs in the context of the specified user.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>LogonUser</b> function attempts to log a user on to the local computer. T
 
 ### -param lpszUsername [in]
 
-A pointer to a null-terminated string that specifies the name of the user. This is the name of the user account to log on to. If you use the <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN) format, <i>User</i><b>@</b><i>DNSDomainName</i>, the <i>lpszDomain</i> parameter must be <b>NULL</b>.
+A pointer to a null-terminated string that specifies the name of the user. This is the name of the user account to log on to. If you use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) format, <i>User</i><b>@</b><i>DNSDomainName</i>, the <i>lpszDomain</i> parameter must be <b>NULL</b>.
      
 
 
@@ -74,7 +74,7 @@ A pointer to a null-terminated string that specifies the name of the domain or s
 
 ### -param lpszPassword [in, optional]
 
-A pointer to a null-terminated string that specifies the plaintext password for the user account specified by <i>lpszUsername</i>.  When you have finished using the password, clear the password from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+A pointer to a null-terminated string that specifies the plaintext password for the user account specified by <i>lpszUsername</i>.  When you have finished using the password, clear the password from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ### -param dwLogonType [in]
@@ -102,7 +102,7 @@ This logon type is intended for batch servers, where processes may be executing 
 </dl>
 </td>
 <td width="60%">
-This logon type is intended for users who will be interactively using the computer, such as a user being logged on by a <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">terminal</a> server, remote shell, or similar process. This logon type has the additional expense of caching logon information for disconnected operations; therefore, it is inappropriate for some client/server applications, such as a mail server.
+This logon type is intended for users who will be interactively using the computer, such as a user being logged on by a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">terminal</a> server, remote shell, or similar process. This logon type has the additional expense of caching logon information for disconnected operations; therefore, it is inappropriate for some client/server applications, such as a mail server.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ This logon type is intended for high performance servers to authenticate plainte
 </dl>
 </td>
 <td width="60%">
-This logon type preserves the name and password in the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authentication package</a>, which allows the server to make connections to other network servers while impersonating the client. A server can accept plaintext credentials from a client, call <b>LogonUser</b>, verify that the user can access the system across the network, and still communicate with other servers.
+This logon type preserves the name and password in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a>, which allows the server to make connections to other network servers while impersonating the client. A server can accept plaintext credentials from a client, call <b>LogonUser</b>, verify that the user can access the system across the network, and still communicate with other servers.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Indicates a service-type logon. The account provided must have the service privi
 <td width="60%">
 GINAs are no longer supported.
 
-<b>Windows Server 2003 and Windows XP:  </b>This logon type is for <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLLs that log on users who will be interactively using the computer. This logon type can generate a unique audit record that shows when the workstation was unlocked.
+<b>Windows Server 2003 and Windows XP:  </b>This logon type is for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLLs that log on users who will be interactively using the computer. This logon type can generate a unique audit record that shows when the workstation was unlocked.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ Specifies the logon provider. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Use the standard logon provider for the system. The default <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security provider</a> is negotiate, unless you pass <b>NULL</b> for the domain name and the user name is not in UPN format. In this case, the default provider is NTLM.
+Use the standard logon provider for the system. The default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security provider</a> is negotiate, unless you pass <b>NULL</b> for the domain name and the user name is not in UPN format. In this case, the default provider is NTLM.
 
 </td>
 </tr>
@@ -213,13 +213,13 @@ Use the NTLM logon provider.
 A pointer to a handle variable that receives a handle to a token that represents the specified user.
 
 You can use the returned handle in calls to the 
-<a href="https://msdn.microsoft.com/cf5c31ae-6749-45c2-888f-697060cc8c75">ImpersonateLoggedOnUser</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser">ImpersonateLoggedOnUser</a> function.
 
-In most cases, the returned handle is a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> that you can use in calls to the 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function. However, if you specify the LOGON32_LOGON_NETWORK flag, <b>LogonUser</b> returns an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a> that you cannot use in <b>CreateProcessAsUser</b> unless you call <a href="https://msdn.microsoft.com/96b13826-0ac7-4d70-9c21-eeb343f6b823">DuplicateTokenEx</a> to convert it to a primary token.
+In most cases, the returned handle is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary token</a> that you can use in calls to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function. However, if you specify the LOGON32_LOGON_NETWORK flag, <b>LogonUser</b> returns an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a> that you cannot use in <b>CreateProcessAsUser</b> unless you call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a> to convert it to a primary token.
 
 When you no longer need this handle, close it by calling the 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 
 ## -returns
@@ -229,7 +229,7 @@ When you no longer need this handle, close it by calling the
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -242,22 +242,22 @@ If the function fails, it returns zero. To get extended error information, call
 The LOGON32_LOGON_NETWORK logon type is fastest, but it has the following limitations:
 
 <ul>
-<li>The function returns an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>, not a primary token. You cannot use this token directly in the 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function. However, you can call the 
-<a href="https://msdn.microsoft.com/96b13826-0ac7-4d70-9c21-eeb343f6b823">DuplicateTokenEx</a> function to convert the token to a primary token, and then use it in <b>CreateProcessAsUser</b>.</li>
-<li>If you convert the token to a primary token and use it in <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> to start a process, the new process cannot access other network resources, such as remote servers or printers, through the redirector. An exception is that if the network resource is not access controlled, then the new process will be able to access it.</li>
+<li>The function returns an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>, not a primary token. You cannot use this token directly in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function. However, you can call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a> function to convert the token to a primary token, and then use it in <b>CreateProcessAsUser</b>.</li>
+<li>If you convert the token to a primary token and use it in <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> to start a process, the new process cannot access other network resources, such as remote servers or printers, through the redirector. An exception is that if the network resource is not access controlled, then the new process will be able to access it.</li>
 </ul>
 
 
 The SE_TCB_NAME privilege is not required for this function unless you are logging onto a Passport account.
 
 The account specified by <i>lpszUsername</i>, must have the necessary account rights. For example, to log on a user with the LOGON32_LOGON_INTERACTIVE flag, the user (or a group to which the user belongs) must have the SE_INTERACTIVE_LOGON_NAME account right. For a list of the account rights that affect the various logon operations, see 
-<a href="https://msdn.microsoft.com/42139d33-2d56-4d29-998f-5512bb795d44">Account Rights Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/account-rights-constants">Account Rights Constants</a>.
 
 A user is considered logged on if at least one token exists. If you call 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> and then close the token, the system considers the user as still logged on until the process (and all child processes) have ended.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> and then close the token, the system considers the user as still logged on until the process (and all child processes) have ended.
 
-If the <b>LogonUser</b> call is successful, the system notifies network providers that the logon occurred by calling the provider's <a href="https://msdn.microsoft.com/9b0e5646-ac57-4eae-bad7-a16c07b51f4b">NPLogonNotify</a> entry-point function.
+If the <b>LogonUser</b> call is successful, the system notifies network providers that the logon occurred by calling the provider's <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a> entry-point function.
 
 
 #### Examples
@@ -279,27 +279,27 @@ LogonUser(L"LocalServer", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32_
 
 
 
-<a href="https://msdn.microsoft.com/8301ed4f-9458-410b-af19-4f055656005a">Client/Server Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/c236f335-b5de-4e8b-851d-45e008791271">Client/Server Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>
 
 
 
-<a href="https://msdn.microsoft.com/96b13826-0ac7-4d70-9c21-eeb343f6b823">DuplicateTokenEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex">DuplicateTokenEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf5c31ae-6749-45c2-888f-697060cc8c75">ImpersonateLoggedOnUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser">ImpersonateLoggedOnUser</a>
  
 
  

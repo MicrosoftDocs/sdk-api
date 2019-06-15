@@ -74,11 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea7b0dd2-2eff-4a37-826b-6f87fbea5785">IEVRVideoStreamControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol">IEVRVideoStreamControl</a>
  
 
  

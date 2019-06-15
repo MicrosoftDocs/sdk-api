@@ -59,9 +59,9 @@ Creates a duplicate font object with a state identical to the current font.
 
 ### -param ppFont [out]
 
-Address of <a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a> pointer variable that receives the interface 
+Address of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a> pointer variable that receives the interface 
        pointer to the new font object. The caller must call 
-       <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IFont::Release</a> when this new font object is no longer 
+       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IFont::Release</a> when this new font object is no longer 
        needed.
 
 
@@ -133,7 +133,7 @@ The new font object is entirely independent of the first. The caller is responsi
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
  
 
  

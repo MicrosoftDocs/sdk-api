@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes a stub function used to handle an incoming message. This function should only be implemented in and used by <a href="https://msdn.microsoft.com/76dffca8-bb84-4384-a9e8-120a4cf2acac">generated code</a>.
+Describes a stub function used to handle an incoming message. This function should only be implemented in and used by <a href="https://docs.microsoft.com/windows/desktop/WsdApi/web-services-for-devices-code-generator">generated code</a>.
 
 
 ## -parameters
@@ -59,17 +59,17 @@ Describes a stub function used to handle an incoming message. This function shou
 
 ### -param *server
 
-Pointer to the service object that was registered as a handler for messages of this type. Service objects are registered by calling one of the following methods:  <a href="https://msdn.microsoft.com/8e125e72-4060-4be6-b370-b2f6b24d9da7">IWSDDeviceHost::RegisterService</a>, <a href="https://msdn.microsoft.com/0ef7760d-39eb-48fe-a7e9-043c2b9ba5a4">IWSDDeviceHost::AddDynamicService</a>, or <a href="https://msdn.microsoft.com/d3294bd7-f3df-4571-92f6-eb6bc57240fb">IWSDServiceProxy::SubscribeToOperation</a>.
+Pointer to the service object that was registered as a handler for messages of this type. Service objects are registered by calling one of the following methods:  <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">IWSDDeviceHost::RegisterService</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-adddynamicservice">IWSDDeviceHost::AddDynamicService</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-subscribetooperation">IWSDServiceProxy::SubscribeToOperation</a>.
 
 
 ### -param *session
 
-Pointer to an <a href="https://msdn.microsoft.com/06584474-1c55-43db-9c7a-fefea8d16eed">IWSDServiceMessaging</a> object used for sending a fault or message response.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a> object used for sending a fault or message response.
 
 
 ### -param *event
 
-Pointer to a <a href="https://msdn.microsoft.com/d8697474-bfe5-4704-b1ac-15cf96f2ca92">WSD_EVENT</a> structure that contains the data for the current request.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_event">WSD_EVENT</a> structure that contains the data for the current request.
 
 
 ## -returns

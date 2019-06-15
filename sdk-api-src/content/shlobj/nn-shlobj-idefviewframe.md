@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used only for its <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> functionality. It has no methods of its own.
+Used only for its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> functionality. It has no methods of its own.
 
 
 ## -remarks
@@ -58,7 +58,7 @@ Used only for its <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e0
 
 <div class="alert"><b>Note</b>  This interface is supported through Windows XP Service Pack 3 (SP3) and Windows Server 2003. It is not supported in Windows Vista and later versions of Windows.</div>
 <div> </div>
-The IID for this interface is IID_IDefViewFrame. Use the service ID SID_DefView (defined in shlguid.h) in a call to <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> as shown in this example.
+The IID for this interface is IID_IDefViewFrame. Use the service ID SID_DefView (defined in shlguid.h) in a call to <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> as shown in this example.
 
                 
 

@@ -54,7 +54,7 @@ The <b>ICertProperties</b> interface contains methods and properties that enable
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ICertProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53ea895d-0c41-445e-bfcc-2b2e53e10ff8">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a property to the collection.
@@ -81,7 +81,7 @@ Adds a property to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b75f6ed2-7f7e-48d6-b5f3-a49dfac68d08">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all properties from the collection.
@@ -90,7 +90,7 @@ Removes all properties from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74de47cb-44fd-45d7-ba32-03824fc0995d">InitializeFromCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-initializefromcertificate">InitializeFromCertificate</a>
 </td>
 <td align="left" width="63%">
 Initializes the collection from the properties contained in a certificate.
@@ -99,7 +99,7 @@ Initializes the collection from the properties contained in a certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ee9e624-6f27-4177-9711-7062cb10f77b">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a property from the collection by index value.
@@ -116,7 +116,7 @@ Removes a property from the collection by index value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a903113a-5d68-4a8e-b2ba-9993c927415e">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -128,7 +128,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a01672b6-f2d1-43ad-a8bf-a052d6435572">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get_count">Count</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Retrieves the number of properties in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d0e92e8a-2153-440e-829f-3c9cda8c8de4">ItemByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -161,11 +161,11 @@ Retrieves a property from the collection by index number.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

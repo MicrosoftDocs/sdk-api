@@ -51,18 +51,18 @@ ms.custom: 19H1
 
 The 
 <b>ITLegacyCallMediaControl</b> interface supports legacy applications that must communicate directly with a device. This interface is exposed on the 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a> and can be created by calling <b>QueryInterface</b> on 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a> and can be created by calling <b>QueryInterface</b> on 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>.
 
 The 
-<a href="https://msdn.microsoft.com/47fa5669-1c74-4c18-8370-3efe35b3573e">ITLegacyCallMediaControl2</a> interface is an extension of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a> interface is an extension of the 
 <b>ITLegacyCallMediaControl</b> interface. 
 <b>ITLegacyCallMediaControl2</b> provides additional methods, primarily for tone detection and generation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyCallMediaControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITLegacyCallMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyCallMediaControl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITLegacyCallMediaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,17 +77,17 @@ The <b>ITLegacyCallMediaControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09adb3fb-cf77-4c8b-beab-85d173cbb242">DetectDigits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-detectdigits">DetectDigits</a>
 </td>
 <td align="left" width="63%">
 Sets 
-<a href="https://msdn.microsoft.com/69663f27-10e6-4dc1-bcab-728c83648912">mode</a> for digit detection.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-digitmode--constants">mode</a> for digit detection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4dcdce0-4df5-43bb-a5ea-ea72782d5f04">GenerateDigits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-generatedigits">GenerateDigits</a>
 </td>
 <td align="left" width="63%">
 Sends digits to call destination.
@@ -96,19 +96,19 @@ Sends digits to call destination.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7516f929-d782-499b-a9fb-24c44a85aa9e">GetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Gets identifier for device associated with the current call. This method is intended for Visual Basic and scripting applications.
 
 This method is intended for C/C++ applications.  Visual Basic and scripting applications should use the 
-<a href="https://msdn.microsoft.com/6c28889f-3768-4136-ac73-80c6c5ffeac3">ITLegacyCallMediaControl2::GetIDAsVariant</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-getidasvariant">ITLegacyCallMediaControl2::GetIDAsVariant</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82efd729-fbbf-449f-a347-24bceada140c">MonitorMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-monitormedia">MonitorMedia</a>
 </td>
 <td align="left" width="63%">
 Sets monitoring for a given media type.
@@ -117,11 +117,11 @@ Sets monitoring for a given media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/627fe465-40f6-481e-9fd6-3fc3e2931e18">SetMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-setmediatype">SetMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> for call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> for call.
 
 </td>
 </tr>
@@ -133,11 +133,11 @@ Sets
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/47fa5669-1c74-4c18-8370-3efe35b3573e">ITLegacyCallMediaControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
  
 
  

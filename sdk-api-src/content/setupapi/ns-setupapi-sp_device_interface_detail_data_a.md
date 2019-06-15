@@ -64,7 +64,7 @@ The size, in bytes, of the SP_DEVICE_INTERFACE_DETAIL_DATA structure. For more i
 
 ### -field DevicePath
 
-A NULL-terminated string that contains the device interface path. This path can be passed to Win32 functions such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>. 
+A NULL-terminated string that contains the device interface path. This path can be passed to Win32 functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>. 
 
 
 ## -remarks
@@ -83,7 +83,7 @@ An SP_DEVICE_INTERFACE_DETAIL_DATA structure identifies the path for a device in
 
 
 
-<a href="https://msdn.microsoft.com/fb4963f1-0ed4-483d-9f39-dcbac493bf1d">SetupDiGetDeviceInterfaceDetail</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila">SetupDiGetDeviceInterfaceDetail</a>
  
 
  

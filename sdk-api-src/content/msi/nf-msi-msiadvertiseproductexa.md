@@ -55,7 +55,7 @@ The
 <b>MsiAdvertiseProductEx</b> function generates an advertise script or advertises a product to the computer. This 
 function enables Windows Installer to write to a script  the registry and shortcut information used to assign or publish a product. The script can be written to be consistent with a specified platform by using 
 <b>MsiAdvertiseProductEx</b>. The <b>MsiAdvertiseProductEx</b> function provides the same functionality as 
-<a href="https://msdn.microsoft.com/b28736cb-7097-4f6e-a158-a525a32d9b58">MsiAdvertiseProduct</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproducta">MsiAdvertiseProduct</a>. 
 
 
 ## -parameters
@@ -108,7 +108,7 @@ Set to advertise a per-user installation of the product available to a particula
 ### -param szTransforms [in]
 
 A semicolon–delimited list of transforms to be applied. The list of transforms can be prefixed with the @ or | character to specify the secure caching of transforms. The @ prefix specifies secure-at-source transforms and the | prefix indicates secure full path–transforms. For more information, see 
-<a href="https://msdn.microsoft.com/c6019b28-b0a7-4104-9d78-b4b4228635b8">Secured Transforms</a>. This parameter may be null.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/secured-transforms">Secured Transforms</a>. This parameter may be null.
 
 
 ### -param lgidLanguage [in]
@@ -119,7 +119,7 @@ The language to use if the source supports multiple languages.
 ### -param dwPlatform [in]
 
 Bit flags that control for which platform the installer should create the script. This parameter is ignored if <i>szScriptfilePath</i> is null. If <i>dwPlatform</i> is zero (0), then the script is created based on the current platform. This is the same functionality as 
-<a href="https://msdn.microsoft.com/b28736cb-7097-4f6e-a158-a525a32d9b58">MsiAdvertiseProduct</a>. If <i>dwPlatform</i> is 1 or 2, the installer creates script for the specified platform. 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproducta">MsiAdvertiseProduct</a>. If <i>dwPlatform</i> is 1 or 2, the installer creates script for the specified platform. 
 
 
 
@@ -192,7 +192,7 @@ Bit flags that specify extra advertisement options. Nonzero value is only availa
 </dl>
 </td>
 <td width="60%">
-Multiple instances through product code changing transform support flag. Advertises a new instance of the product. Requires that the <i>szTransforms</i> parameter includes the instance transform that changes the product code. For more information, see <a href="https://msdn.microsoft.com/5147ecbd-c395-4a8f-972d-f5c5b2173eff">Installing Multiple Instances of Products and Patches</a>.
+Multiple instances through product code changing transform support flag. Advertises a new instance of the product. Requires that the <i>szTransforms</i> parameter includes the instance transform that changes the product code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/installing-multiple-instances-of-products-and-patches">Installing Multiple Instances of Products and Patches</a>.
 
 </td>
 </tr>
@@ -228,14 +228,14 @@ The function completes successfully.
 </td>
 <td width="60%">
 For more information, see 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -274,11 +274,11 @@ Multiple instances through product code–changing transforms is only available 
 
 
 
-<a href="https://msdn.microsoft.com/c4a0f4d8-818d-4e60-908b-adaa2a54de95">Multiple-Package Installations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
 
 
 
-<a href="https://msdn.microsoft.com/850b598a-338e-4f84-8336-01e962256a08">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
  
 
  

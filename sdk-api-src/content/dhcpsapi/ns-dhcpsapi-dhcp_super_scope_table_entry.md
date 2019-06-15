@@ -60,7 +60,7 @@ The <b>DHCP_SUPER_SCOPE_TABLE_ENTRY</b> structure defines a subnet entry within 
 ### -field SubnetAddress
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value that specifies the IP address of the gateway for the subnet. This address is used to uniquely identify a subnet served by the DHCP server.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the IP address of the gateway for the subnet. This address is used to uniquely identify a subnet served by the DHCP server.
 
 
 ### -field SuperScopeNumber
@@ -83,7 +83,7 @@ Unicode string that contains the name assigned to this subnet entry within the s
 
 
 
-<a href="https://msdn.microsoft.com/ed7ad090-b13a-464b-af03-04944f018b36">DHCP_SUPER_SCOPE_TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_super_scope_table">DHCP_SUPER_SCOPE_TABLE</a>
  
 
  

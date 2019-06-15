@@ -59,9 +59,9 @@ Attempts to resolve the target location of a library folder that has been moved 
 
 ### -param plib [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>*</b>
 
-The <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a> object for which to resolve the target location.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a> object for which to resolve the target location.
 
 
 ### -param pszFolderPath [in]
@@ -100,7 +100,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This is an inline helper function that wraps the <a href="https://msdn.microsoft.com/f3d867a1-7396-4fba-87ea-45b02f86d681">IShellLibrary::ResolveFolder</a> method.
+This is an inline helper function that wraps the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-resolvefolder">IShellLibrary::ResolveFolder</a> method.
 
 
 
@@ -110,11 +110,11 @@ This is an inline helper function that wraps the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-93a2-5d1b75c327ba">IShellLibrary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3d867a1-7396-4fba-87ea-45b02f86d681">IShellLibrary::ResolveFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-resolvefolder">IShellLibrary::ResolveFolder</a>
  
 
  

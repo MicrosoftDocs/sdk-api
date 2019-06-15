@@ -76,7 +76,7 @@ Returns whether the timed-text track is inband. If <b>TRUE</b>, the timed-text t
 
 
 
-<a href="https://msdn.microsoft.com/55232D19-F3D0-42C7-8B24-C2A7768B2C7E">IMFTimedTextTrack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
  
 
  

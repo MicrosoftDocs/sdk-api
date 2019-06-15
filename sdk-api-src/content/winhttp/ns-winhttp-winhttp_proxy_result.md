@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WINHTTP_PROXY_RESULT</b> structure contains  collection of proxy result entries provided by <a href="https://msdn.microsoft.com/f594e588-b3da-4afb-a5f9-552759bca148">WinHttpGetProxyResult</a>.
+The <b>WINHTTP_PROXY_RESULT</b> structure contains  collection of proxy result entries provided by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The number of entries in the <b>pEntries</b> array.
 
 ### -field pEntries
 
-A pointer to an array of <a href="https://msdn.microsoft.com/d1652b34-67a9-40ad-a495-836147e5cc88">WINHTTP_PROXY_RESULT_ENTRY</a> structures.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a> structures.
 
 
 ## -see-also
@@ -72,15 +72,15 @@ A pointer to an array of <a href="https://msdn.microsoft.com/d1652b34-67a9-40ad-
 
 
 
-<a href="https://msdn.microsoft.com/d1652b34-67a9-40ad-a495-836147e5cc88">WINHTTP_PROXY_RESULT_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-_winhttp_proxy_result_entry">WINHTTP_PROXY_RESULT_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/0484bf54-066f-4a7f-8d1a-079eb4b001bd">WinHttpFreeProxyResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpfreeproxyresult">WinHttpFreeProxyResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/f594e588-b3da-4afb-a5f9-552759bca148">WinHttpGetProxyResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>
  
 
  

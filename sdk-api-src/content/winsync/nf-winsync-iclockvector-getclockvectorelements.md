@@ -130,7 +130,7 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/31aef38d-a6df-4645-a192-9145d3ec90ad">IClockVector Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iclockvector">IClockVector Interface</a>
  
 
  

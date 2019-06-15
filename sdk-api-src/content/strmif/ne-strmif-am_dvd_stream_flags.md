@@ -83,11 +83,11 @@ DVD subpicture stream.
 
 
 
-<a href="https://msdn.microsoft.com/6d11332e-86db-4649-af77-2906c6cbba7a">AM_DVD_RENDERSTATUS Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-__midl___midl_itf_strmif_0000_0138_0001">AM_DVD_RENDERSTATUS Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

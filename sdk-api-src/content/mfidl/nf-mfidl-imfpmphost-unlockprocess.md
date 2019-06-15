@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://msdn.microsoft.com/45c533ca-d8ca-43f9-91d2-011a0b0d63a6">IMFPMPHost::LockProcess</a>.
+Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-lockprocess">IMFPMPHost::LockProcess</a>.
         
 
 
@@ -75,15 +75,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/fab1fb42-07c5-4a74-b6f5-0950b2c3ba46">IMFPMPHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphost">IMFPMPHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/CF3A427D-31D2-45FF-BE87-F192B758204E">PMP Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://msdn.microsoft.com/e88806ae-0041-4b4a-a8df-69718a651e82">Protected Media Path</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
  
 
  

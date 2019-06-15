@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>SecPkgContext_SessionAppData</b> structure stores application data for a session context.
 
-This attribute is supported only by the Schannel <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> (SSP).
+This attribute is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 
 ## -struct-fields

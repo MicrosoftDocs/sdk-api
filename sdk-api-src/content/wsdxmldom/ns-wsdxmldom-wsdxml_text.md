@@ -59,7 +59,7 @@ Describes the text in an XML node.
 
 ### -field Node
 
-The current node in a linked list of <a href="https://msdn.microsoft.com/10c918b2-a7b9-4ebb-a884-64877bebb973">WSDXML_NODE</a> structures.
+The current node in a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_node">WSDXML_NODE</a> structures.
 
 
 ### -field Text

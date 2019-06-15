@@ -154,23 +154,23 @@ The extrinsic function that implements this method.
 
 
 
-<a href="https://msdn.microsoft.com/7C669B89-C6D7-45E5-AAD8-A884F4E87659">MI_FeatureDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_featuredecl">MI_FeatureDecl</a>
 
 
 
-<a href="https://msdn.microsoft.com/E35A291C-AB4F-4DF4-948E-14D1AF11D2FE">MI_MethodDecl_Invoke</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792321(v=vs.85)">MI_MethodDecl_Invoke</a>
 
 
 
-<a href="https://msdn.microsoft.com/09ad6ea4-09ae-428b-9df9-414043044d6a">MI_ParameterDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterdecl">MI_ParameterDecl</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BEBE8AB-90D3-4BBA-A544-7722309160A1">MI_Qualifier</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_qualifier">MI_Qualifier</a>
 
 
 
-<a href="https://msdn.microsoft.com/70f1a14e-abd4-43e9-a7b4-fa00e07a125c">MI_SchemaDecl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_schemadecl">MI_SchemaDecl</a>
  
 
  

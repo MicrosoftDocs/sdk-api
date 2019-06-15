@@ -80,7 +80,7 @@ When setting <i>scAddress</i>, the calling application must use either of these 
 
 
 
-<a href="https://msdn.microsoft.com/ee261c32-aa17-496a-a568-d9da43e1e23a">IMbnSmsConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>
  
 
  

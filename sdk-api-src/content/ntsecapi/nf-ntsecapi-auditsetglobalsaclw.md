@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AuditSetGlobalSacl</b> function sets a global <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) that delegates access to the audit messages. Updating the global SACL requires the <b>SeSecurityPrivilege</b> which protects the global SACL from being updated by any user without administrator privileges.
+The <b>AuditSetGlobalSacl</b> function sets a global <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) that delegates access to the audit messages. Updating the global SACL requires the <b>SeSecurityPrivilege</b> which protects the global SACL from being updated by any user without administrator privileges.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A pointer to a null-terminated string specifying the type of object being create
 
 ### -param Acl [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a> structure. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a> structure. 
 
 
 ## -returns
@@ -78,7 +78,7 @@ A pointer to an <a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea59
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
 
 <table>
 <tr>

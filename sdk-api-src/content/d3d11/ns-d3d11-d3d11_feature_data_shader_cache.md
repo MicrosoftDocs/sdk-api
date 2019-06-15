@@ -66,9 +66,9 @@ Indicates the level of caching supported.
 
 
 
-Use this structure with <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">CheckFeatureSupport</a> to determine the level of support offered for the optional shader-caching features.
+Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkfeaturesupport">CheckFeatureSupport</a> to determine the level of support offered for the optional shader-caching features.
 
-See the enumeration constant D3D11_FEATURE_SHADER_CACHE in the <a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a> enumeration.
+See the enumeration constant D3D11_FEATURE_SHADER_CACHE in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_feature">D3D11_FEATURE</a> enumeration.
 
 
 
@@ -78,7 +78,7 @@ See the enumeration constant D3D11_FEATURE_SHADER_CACHE in the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

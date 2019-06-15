@@ -59,7 +59,7 @@ Puts an asynchronous operation on a work queue.
 
 ### -param dwQueue [in]
 
-The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To create a new work queue, call <a href="https://msdn.microsoft.com/B8FF907A-1448-43A4-B249-9D3D859D8F95">RtwqAllocateWorkQueue</a> or <b>RtwqAllocateWorkQueueEx</b>. 
+The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To create a new work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> or <b>RtwqAllocateWorkQueueEx</b>. 
 
 
 ### -param lPriority [in]

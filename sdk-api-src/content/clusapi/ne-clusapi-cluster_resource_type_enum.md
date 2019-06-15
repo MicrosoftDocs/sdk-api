@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 Describes the type of cluster object being enumerated by the 
-    <a href="https://msdn.microsoft.com/956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21">ClusterResourceTypeEnum</a> and 
-    <a href="https://msdn.microsoft.com/fa05875a-26c7-401d-ae81-1d204bfd7df1">ClusterResourceTypeOpenEnum</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a> 
     functions.
 
 
@@ -72,8 +72,8 @@ The object is a resource that is an instance of the resource type.
 
 <b>Windows Server 2008:  </b>This value is not supported before Windows Server 2008 R2. To emulate this on earlier platforms, 
        enumerate all resources in the cluster (see the 
-       <a href="https://msdn.microsoft.com/b6eb5c03-dd6e-42ef-a020-cf0d61143040">ClusterOpenEnum</a> function) and filter the results 
-       using the <a href="https://msdn.microsoft.com/716d2174-5fa7-4868-9f33-ab6f815e6335">ResUtilResourceTypesEqual</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a> function) and filter the results 
+       using the <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilresourcetypesequal">ResUtilResourceTypesEqual</a> 
        function. If the call is made on a system without ResUtils.dll, then use the steps mentioned in the Remarks 
        section of the <b>ResUtilResourceTypesEqual</b> 
        function.
@@ -82,8 +82,8 @@ The object is a resource that is an instance of the resource type.
 ### -field CLUSTER_RESOURCE_TYPE_ENUM_ALL
 
 All cluster objects identified by the 
-       <a href="https://msdn.microsoft.com/956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21">ClusterResourceTypeEnum</a> and 
-       <a href="https://msdn.microsoft.com/fa05875a-26c7-401d-ae81-1d204bfd7df1">ClusterResourceTypeOpenEnum</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a> and 
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a> 
        functions.
 
 
@@ -92,15 +92,15 @@ All cluster objects identified by the
 
 
 
-<a href="https://msdn.microsoft.com/956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21">ClusterResourceTypeEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa05875a-26c7-401d-ae81-1d204bfd7df1">ClusterResourceTypeOpenEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeopenenum">ClusterResourceTypeOpenEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

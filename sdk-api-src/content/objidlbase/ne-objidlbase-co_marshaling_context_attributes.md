@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies one of the marshaling context attributes that you can query by using the <a href="https://msdn.microsoft.com/60B401C8-1ACA-412D-B754-997C39454821">GetMarshalingContextAttribute</a> method.
+Identifies one of the marshaling context attributes that you can query by using the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a> method.
 
 
 ## -enum-fields
@@ -111,11 +111,11 @@ The source of the marshaling data is an app container process.
 
 
 
-<a href="https://msdn.microsoft.com/60B401C8-1ACA-412D-B754-997C39454821">GetMarshalingContextAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/7C4A3982-3623-4F1F-929C-6D0503700450">IMarshalingStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
  
 
  

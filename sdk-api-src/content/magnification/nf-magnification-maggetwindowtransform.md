@@ -59,14 +59,14 @@ Retrieves the transformation matrix associated with a magnifier control.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
 
 ### -param pTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692385(v=VS.85).aspx">PMAGTRANSFORM</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/ns-magnification-tagmagtransform">PMAGTRANSFORM</a></b>
 
 The transformation matrix.
 
@@ -75,7 +75,7 @@ The transformation matrix.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
@@ -96,7 +96,7 @@ The transformation matrix specifies the magnification factor that the magnifier 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692398(v=VS.85).aspx">MagSetWindowTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetwindowtransform">MagSetWindowTransform</a>
  
 
  

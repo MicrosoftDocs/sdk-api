@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains the integrity information for a file or directory. Returned from the <a href="https://msdn.microsoft.com/5e003b2f-d38a-45f1-9b50-40af4087b0ce">FSCTL_GET_INTEGRITY_INFORMATION</a> control code.
+Contains the integrity information for a file or directory. Returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information">FSCTL_GET_INTEGRITY_INFORMATION</a> control code.
 
 
 ## -struct-fields
@@ -147,15 +147,15 @@ Size in bytes of a cluster for this volume. This value must be a power of 2, mus
 
 
 
-<a href="https://msdn.microsoft.com/5e003b2f-d38a-45f1-9b50-40af4087b0ce">FSCTL_GET_INTEGRITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information">FSCTL_GET_INTEGRITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-An array of entries to be specified in the <a href="https://msdn.microsoft.com/bb346fa7-03ae-458d-8488-64db7a9c48e1">OLEUIPASTESPECIAL</a> structure for the <b>Paste Special</b> dialog box. Each entry includes a <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure which specifies the formats that are acceptable, a string that is to represent the format in the dialog box's listbox, a string to customize the result text of the dialog box, and a set of flags from the <a href="https://msdn.microsoft.com/4467f82b-34be-4d10-816c-b3e4231c92a1">OLEUIPASTEFLAG</a> enumeration. The flags indicate if the entry is valid for pasting only, linking only or both pasting and linking. If the entry is valid for linking, the flags indicate which link types are acceptable by OR'ing together the appropriate OLEUIPASTE_LINKTYPE<i>n</i> values.
+An array of entries to be specified in the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipastespeciala">OLEUIPASTESPECIAL</a> structure for the <b>Paste Special</b> dialog box. Each entry includes a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure which specifies the formats that are acceptable, a string that is to represent the format in the dialog box's listbox, a string to customize the result text of the dialog box, and a set of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a> enumeration. The flags indicate if the entry is valid for pasting only, linking only or both pasting and linking. If the entry is valid for linking, the flags indicate which link types are acceptable by OR'ing together the appropriate OLEUIPASTE_LINKTYPE<i>n</i> values.
 
 
 ## -struct-fields
@@ -76,12 +76,12 @@ Pointer to the string used to customize the resulting text of the dialog box whe
 
 ### -field dwFlags
 
-Values from <a href="https://msdn.microsoft.com/4467f82b-34be-4d10-816c-b3e4231c92a1">OLEUIPASTEFLAG</a> enumeration.
+Values from <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a> enumeration.
 
 
 ### -field dwScratchSpace
 
-Scratch space available to routines that loop through an <a href="https://msdn.microsoft.com/4d180fdd-2d58-4d26-9242-6552dda0d3e6">IEnumFORMATETC</a> to mark if the PasteEntry format is available. This field can be left uninitialized.
+Scratch space available to routines that loop through an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> to mark if the PasteEntry format is available. This field can be left uninitialized.
 
 
 
@@ -90,15 +90,15 @@ Scratch space available to routines that loop through an <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/4467f82b-34be-4d10-816c-b3e4231c92a1">OLEUIPASTEFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb346fa7-03ae-458d-8488-64db7a9c48e1">OLEUIPASTESPECIAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipastespeciala">OLEUIPASTESPECIAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1335da-a863-4d15-8a8d-289d8cccd13f">OleUIPasteSpecial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a>
  
 
  

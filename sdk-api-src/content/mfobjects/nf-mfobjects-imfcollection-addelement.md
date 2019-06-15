@@ -108,7 +108,7 @@ If <i>pUnkElement</i> is <b>NULL</b>, a <b>NULL</b> pointer is added to the coll
 
 
 
-<a href="https://msdn.microsoft.com/fec6aa17-2770-4f53-b36d-b94236093d23">IMFCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>
  
 
  

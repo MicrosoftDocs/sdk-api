@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Obtains a <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> in the desired pixel format from a given <b>IWICBitmapSource</b>.
+Obtains a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> in the desired pixel format from a given <b>IWICBitmapSource</b>.
 
 
 ## -parameters
@@ -60,21 +60,21 @@ Obtains a <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff425
 
 ### -param dstFormat [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee719797(v=VS.85).aspx">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
 
 The pixel format to convert to.
 
 
 ### -param pISrc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
 The source bitmap.
 
 
 ### -param ppIDst [out]
 
-Type: <b><a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>**</b>
 
 A pointer to the <b>null</b>-initialized destination bitmap pointer.
 
@@ -99,7 +99,7 @@ If the <i>pISrc</i> bitmap is already in the desired format, <i>pISrc</i> is cop
 
 #### Examples
 
-The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
+The following example converts an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
 
 
 ```cpp

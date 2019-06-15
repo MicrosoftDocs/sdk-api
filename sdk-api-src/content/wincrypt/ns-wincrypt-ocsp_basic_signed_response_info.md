@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> structure contains a basic <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response with a signature.
+ The <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> structure contains a basic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response with a signature.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -field ToBeSigned
 
-A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> that has been encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) and that contains an encoded <a href="https://msdn.microsoft.com/f067bfa0-114b-4295-bbee-a963d8b64332">OCSP_BASIC_RESPONSE_INFO</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that has been encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and that contains an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> structure.
 
 
 ### -field SignatureInfo
@@ -71,9 +71,9 @@ A pointer to signature information for the <b>ToBeSigned</b> data.
 
 
 
-In an OCSP responder service, this structure receives an encoded <a href="https://msdn.microsoft.com/f067bfa0-114b-4295-bbee-a963d8b64332">OCSP_BASIC_RESPONSE_INFO</a> structure as its <b>ToBeSigned</b> member. The signature  of the <b>ToBeSigned</b>  member is stored in the <b>SignatureInfo</b> member. The encoded <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> structure is stored in an <a href="https://msdn.microsoft.com/e3829739-dd10-4886-8048-cd1b1b712d56">OCSP_RESPONSE_INFO</a> structure.
+In an OCSP responder service, this structure receives an encoded <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> structure as its <b>ToBeSigned</b> member. The signature  of the <b>ToBeSigned</b>  member is stored in the <b>SignatureInfo</b> member. The encoded <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> structure is stored in an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_response_info">OCSP_RESPONSE_INFO</a> structure.
 
-On the receiving end, an OCSP client application must decode the <a href="https://msdn.microsoft.com/e3829739-dd10-4886-8048-cd1b1b712d56">OCSP_RESPONSE_INFO</a> <b>Value</b> member to obtain this structure and subsequently decode the <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> <b>ToBeSigned</b> member to obtain an <a href="https://msdn.microsoft.com/f067bfa0-114b-4295-bbee-a963d8b64332">OCSP_BASIC_RESPONSE_INFO</a> structure.
+On the receiving end, an OCSP client application must decode the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_response_info">OCSP_RESPONSE_INFO</a> <b>Value</b> member to obtain this structure and subsequently decode the <b>OCSP_BASIC_SIGNED_RESPONSE_INFO</b> <b>ToBeSigned</b> member to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> structure.
 
 OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCODING</b> or <b>PKCS_7_ASN_ENCODING</b>.
 
@@ -85,11 +85,11 @@ OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCOD
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/1489e2a4-36f3-4e8c-9b99-7c2e396b3814">OCSP_SIGNATURE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ocsp_signature_info">OCSP_SIGNATURE_INFO</a>
  
 
  

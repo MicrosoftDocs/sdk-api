@@ -90,15 +90,15 @@ Bitwise <b>OR</b> of all the previous flags. This value is used internally by th
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407372(v=VS.85).aspx">VMR9ProcAmpControl Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9procampcontrol">VMR9ProcAmpControl Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407374(v=VS.85).aspx">VMR9ProcAmpControlRange Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9procampcontrolrange">VMR9ProcAmpControlRange Structure</a>
  
 
  

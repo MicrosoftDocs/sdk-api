@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDREGISTERCALLBACK structure contains the register callback information. This structure is used by both the <a href="https://msdn.microsoft.com/62132334-8989-48cb-919e-a236d2c53683">DD_DXAPI_REGISTER_CALLBACK</a> and <a href="https://msdn.microsoft.com/f6850d7d-3e46-4dc6-b8fd-ddb3dc7994d1">DD_DXAPI_UNREGISTER_CALLBACK</a> function identifiers of the <b>DxApi</b> function. 
+The DDREGISTERCALLBACK structure contains the register callback information. This structure is used by both the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551502(v=vs.85)">DD_DXAPI_REGISTER_CALLBACK</a> and <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551514(v=vs.85)">DD_DXAPI_UNREGISTER_CALLBACK</a> function identifiers of the <b>DxApi</b> function. 
 
 
 ## -struct-fields
@@ -211,7 +211,7 @@ Called each time a hardware video port V-sync occurs.
 
 ### -field pfnCallback
 
-Points to a <a href="https://msdn.microsoft.com/ee581d7b-c3b8-47e5-bae8-348b22ea0f95">pfnCallback</a> callback function that is called when the event that is specified by the <b>dwEvents</b> member occurs.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnCallback</a> callback function that is called when the event that is specified by the <b>dwEvents</b> member occurs.
 
 
 ### -field dwParam1
@@ -234,15 +234,15 @@ Contains client data that is passed back to the client if the <b>pfnCallback</b>
 
 
 
-<a href="https://msdn.microsoft.com/62132334-8989-48cb-919e-a236d2c53683">DD_DXAPI_REGISTER_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551502(v=vs.85)">DD_DXAPI_REGISTER_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6850d7d-3e46-4dc6-b8fd-ddb3dc7994d1">DD_DXAPI_UNREGISTER_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551514(v=vs.85)">DD_DXAPI_UNREGISTER_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

@@ -88,7 +88,7 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 The <b>CreateResource</b> method is called by the Dispenser Manager in the following cases:
 
 <ul>
-<li>When a resource is needed and there is no inventory to satisfy an <a href="https://msdn.microsoft.com/2b6c5d54-4917-460f-9740-abe4b578761f">IHolder::AllocResource</a> call when none were found in inventory.</li>
+<li>When a resource is needed and there is no inventory to satisfy an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-allocresource">IHolder::AllocResource</a> call when none were found in inventory.</li>
 <li>When the Dispenser Manager is setting up initial inventory.</li>
 </ul>
 
@@ -99,7 +99,7 @@ The <b>CreateResource</b> method is called by the Dispenser Manager in the follo
 
 
 
-<a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
  
 
  

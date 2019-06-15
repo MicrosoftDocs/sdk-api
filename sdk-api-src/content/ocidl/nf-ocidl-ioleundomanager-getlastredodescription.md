@@ -115,11 +115,11 @@ This method provides a convenient shortcut for the host application to add a des
 
 
 
-<a href="https://msdn.microsoft.com/0f507506-3589-4d5b-b1b3-010bce9ae42f">IOleUndoManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/65679f9e-2ea8-4462-bdd3-fa12c1904c51">IOleUndoManager::GetLastUndoDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastundodescription">IOleUndoManager::GetLastUndoDescription</a>
  
 
  

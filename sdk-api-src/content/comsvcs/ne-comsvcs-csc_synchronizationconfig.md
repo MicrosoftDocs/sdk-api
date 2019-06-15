@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates how synchronization is configured for <a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a>.
+Indicates how synchronization is configured for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Indicates how synchronization is configured for <a href="https://msdn.microsoft.
 
 ### -field CSC_NoSynchronization
 
-The code is forced to run unsynchronized. This is the default synchronization setting for <a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Ignore.
+The code is forced to run unsynchronized. This is the default synchronization setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 
 
 ### -field CSC_IfContainerIsSynchronized
 
-The code runs in the containing synchronization domain if one exists. This is the default synchronization setting for <a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Inherit.
+The code runs in the containing synchronization domain if one exists. This is the default synchronization setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Inherit.
 
 
 ### -field CSC_NewSynchronizationIfNecessary
@@ -81,11 +81,11 @@ A new synchronization domain is always created.
 
 
 
-This enumeration is used to configure synchronization through <a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>.
+This enumeration is used to configure synchronization through <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a>.
 
-Synchronization can affect the components created by the contained code even if it has no immediate impact on the contained code itself. For example, if the same code is running on two different threads and this code calls <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a> asking for synchronization services, each thread is contained in its own synchronization domain.
+Synchronization can affect the components created by the contained code even if it has no immediate impact on the contained code itself. For example, if the same code is running on two different threads and this code calls <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> asking for synchronization services, each thread is contained in its own synchronization domain.
 
-If it is incompatible with the transaction setting from <a href="https://msdn.microsoft.com/3524d7b3-4bcd-4e92-afc2-ddac98a23b7c">CSC_TransactionConfig</a>, the synchronization setting is increased to the minimum that is required for the transaction.
+If it is incompatible with the transaction setting from <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_transactionconfig">CSC_TransactionConfig</a>, the synchronization setting is increased to the minimum that is required for the transaction.
 
 
 
@@ -95,23 +95,23 @@ If it is incompatible with the transaction setting from <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/a348959a-fa23-495c-ba1c-85bc3ae92396">COM+ Synchronization</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--synchronization">COM+ Synchronization</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/83fe6958-6639-4468-a3f5-3322316ccbc4">IServiceSynchronizationConfig::ConfigureSynchronization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicesynchronizationconfig-configuresynchronization">IServiceSynchronizationConfig::ConfigureSynchronization</a>
  
 
  

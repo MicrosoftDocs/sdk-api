@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Updates the <a href="https://msdn.microsoft.com/fe50e34c-6499-4c1e-b891-7b4f797510f2">ISyncProviderInfo</a> of the synchronization provider that is configured by this <b>ISyncProviderConfigUI</b>.
+Updates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> of the synchronization provider that is configured by this <b>ISyncProviderConfigUI</b>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Updates the <a href="https://msdn.microsoft.com/fe50e34c-6499-4c1e-b891-7b4f7975
 ### -param hwndParent [in]
 
 HWND serving as the parent for the configuration UI that needs to be presented before the synchronization provider can be created. 
-    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd317251(v=VS.85).aspx">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
+    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/ns-syncregistration-_syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
 
 
 ### -param pUnkContext [in]
@@ -70,7 +70,7 @@ Pointer to an interface containing additional information needed to generate the
 
 ### -param pProviderInfo [in]
 
-An <a href="https://msdn.microsoft.com/fe50e34c-6499-4c1e-b891-7b4f797510f2">ISyncProviderInfo</a> that provides information about the synchronization provider that is being modified.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> that provides information about the synchronization provider that is being modified.
 
 
 ## -returns
@@ -117,7 +117,7 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/27757aa1-a42d-4f66-99a8-bf66385fbec1">ISyncProviderConfigUI Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
  
 
  

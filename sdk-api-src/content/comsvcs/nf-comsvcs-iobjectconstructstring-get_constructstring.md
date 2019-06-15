@@ -78,7 +78,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-You can use this method when implementing <a href="https://msdn.microsoft.com/6bbb25c7-bd60-46cb-baed-114c50feb1f3">IObjectConstruct::Construct</a>, which is called by the COM+ environment when your component is marked as supporting object construction. 
+You can use this method when implementing <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectconstruct-construct">IObjectConstruct::Construct</a>, which is called by the COM+ environment when your component is marked as supporting object construction. 
 
 
 
@@ -89,19 +89,19 @@ You can use this method when implementing <a href="https://msdn.microsoft.com/6b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681739(v=VS.85).aspx">COM+ Object Constructor Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--object-constructor-strings">COM+ Object Constructor Strings</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fc84c37-f38d-4ff1-bdb1-f5d298802b64">IObjectConstruct</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstruct">IObjectConstruct</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebfa8384-1efd-4775-b66f-b8048af33abc">IObjectConstructString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectconstructstring">IObjectConstructString</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c5aaaae-368e-4b3e-a483-b3a23c353e6e">Specifying an Object Constructor String for a Component</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/specifying-an-object-constructor-string-for-a-component">Specifying an Object Constructor String for a Component</a>
  
 
  

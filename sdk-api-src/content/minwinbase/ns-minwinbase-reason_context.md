@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 Contains information about a power request. This structure is used by the 
-    <a href="https://msdn.microsoft.com/2122bf00-9e6b-48ab-89b0-f53dd6804902">PowerCreateRequest</a> and 
-    <a href="https://msdn.microsoft.com/2facde72-6e04-4a2f-9ee6-059f36932539">SetWaitableTimerEx</a> functions.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a> functions.
 
 
 ## -struct-fields
@@ -144,11 +144,11 @@ A non-localized string that describes the reason for the power request.
 
 
 
-<a href="https://msdn.microsoft.com/2122bf00-9e6b-48ab-89b0-f53dd6804902">PowerCreateRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/2facde72-6e04-4a2f-9ee6-059f36932539">SetWaitableTimerEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="https://msdn.microsoft.com/87666275-8752-4EC8-9C01-16D36AE4C5E8">QueryTraceProcessingHandle</a>.
+Contains partition information pulled from an ETW trace. Most commonly used as a return structure for <a href="https://docs.microsoft.com/windows/desktop/ETW/querytraceprocessinghandle">QueryTraceProcessingHandle</a>.
 
 
 ## -struct-fields
@@ -123,7 +123,7 @@ For events originating from a “Hyper-V Container” template virtual machine.
 </dl>
 </td>
 <td width="60%">
-For events originating from applications running with  <a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows Defender Application Guard</a>.
+For events originating from applications running with  <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Defender Application Guard</a>.
 
 </td>
 </tr>

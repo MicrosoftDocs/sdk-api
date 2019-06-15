@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ScopeExists</b> method indicates whether the specified scope exists in this <a href="https://msdn.microsoft.com/9d0b2c3b-b8b6-4fae-9308-9dd29da0724f">IAzApplication3</a> object.
+The <b>ScopeExists</b> method indicates whether the specified scope exists in this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication3">IAzApplication3</a> object.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ A string that contains the name of the scope to be checked.
 
 ### -param pbExist [out]
 
-<b>VARIANT_TRUE</b> if the specified scope exists in this <a href="https://msdn.microsoft.com/9d0b2c3b-b8b6-4fae-9308-9dd29da0724f">IAzApplication3</a> object; otherwise, <b>VARIANT_FALSE</b>.
+<b>VARIANT_TRUE</b> if the specified scope exists in this <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication3">IAzApplication3</a> object; otherwise, <b>VARIANT_FALSE</b>.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A string that contains the name of the scope to be checked.
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

@@ -61,7 +61,7 @@ The
 ### -param hMprServer [in]
 
 Handle to the router on which to set the information. Obtain this handle by calling 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 
 ### -param dwTransportId [in]
@@ -105,7 +105,7 @@ Pointer to a <b>null</b>-terminated Unicode string that specifies the name of th
 ### -param pGlobalInfo [in]
 
 Pointer to a buffer that specifies global information for the transport. Use the 
-<a href="https://msdn.microsoft.com/e88720aa-080b-4d87-a442-1b436c256ca6">Information Header Functions</a> to manipulate information headers.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
 
 
 ### -param dwGlobalInfoSize [in]
@@ -212,11 +212,11 @@ The <i>dwTransportId</i> value does not match any supported transport protocol.
 
 
 
-<a href="https://msdn.microsoft.com/47fbe483-8a1b-4747-9555-931dd63e2db8">MprAdminTransportGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmintransportgetinfo">MprAdminTransportGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac0be570-e484-481b-9b16-ccdd4870deda">MprAdminTransportSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmintransportsetinfo">MprAdminTransportSetInfo</a>
  
 
  

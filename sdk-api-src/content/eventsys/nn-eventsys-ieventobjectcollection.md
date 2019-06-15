@@ -54,7 +54,7 @@ Manages objects in an event objects collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventObjectCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEventObjectCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventObjectCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventObjectCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IEventObjectCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca08e56a-2ade-4209-a61a-b9dae021e888">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectcollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an event object to the collection.
@@ -79,7 +79,7 @@ Adds an event object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5092b1e1-bbf2-493c-92be-41196b43d4f2">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectcollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an event object from the collection.
@@ -97,7 +97,7 @@ Removes an event object from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bdf2bcb0-42c2-4904-b36b-73ee27f4c188">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectcollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -113,7 +113,7 @@ An enumerator for the objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/eb4558e3-60bb-4fcb-b998-b812e76bd8d0">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectcollection-get_count">Count</a>
 
 
 </td>
@@ -129,7 +129,7 @@ The number of objects in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6d037759-3b13-4f4d-b27d-a3a20be0f0aa">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectcollection-get_item">Item</a>
 
 
 </td>
@@ -145,7 +145,7 @@ An item in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5e4e0749-bf23-4174-af80-0b708dbaf432">NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventobjectcollection-get_newenum">NewEnum</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-An enumeration object that implements <a href="https://msdn.microsoft.com/a42d0791-28d0-4d83-b94d-ff2f8ef9a614">IEnumEventObject</a>.
+An enumeration object that implements <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ An enumeration object that implements <a href="https://msdn.microsoft.com/a42d07
 
 
 
-<a href="https://msdn.microsoft.com/a42d0791-28d0-4d83-b94d-ff2f8ef9a614">IEnumEventObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies how the CPU should respond when an application calls the <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> method on a resource that is being used by the GPU.
+Specifies how the CPU should respond when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">ID3D11DeviceContext::Map</a> method on a resource that is being used by the GPU.
 
 
 ## -enum-fields
@@ -59,16 +59,16 @@ Specifies how the CPU should respond when an application calls the <a href="http
 
 ### -field D3D11_MAP_FLAG_DO_NOT_WAIT
 
-Specifies that <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> should return DXGI_ERROR_WAS_STILL_DRAWING when the GPU blocks the CPU from accessing a resource. For more information about this error code, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Specifies that <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">ID3D11DeviceContext::Map</a> should return DXGI_ERROR_WAS_STILL_DRAWING when the GPU blocks the CPU from accessing a resource. For more information about this error code, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
 
 ## -remarks
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a>.
+This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-map">ID3D11DeviceContext::Map</a>.
 
-D3D11_MAP_FLAG_DO_NOT_WAIT cannot be used with <a href="https://msdn.microsoft.com/916b00bd-2711-4ebd-a36d-d75b3a59a528">D3D11_MAP_WRITE_DISCARD</a> or <a href="https://msdn.microsoft.com/916b00bd-2711-4ebd-a36d-d75b3a59a528">D3D11_MAP_WRITE_NOOVERWRITE</a>.
+D3D11_MAP_FLAG_DO_NOT_WAIT cannot be used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP_WRITE_DISCARD</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_map">D3D11_MAP_WRITE_NOOVERWRITE</a>.
 
 
 
@@ -78,7 +78,7 @@ D3D11_MAP_FLAG_DO_NOT_WAIT cannot be used with <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

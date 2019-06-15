@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the conflict resolution code returned by the <a href="https://msdn.microsoft.com/eb6fbdcf-1833-4ada-880e-f2dbfce64d99">IOfflineFilesSyncConflictHandler::ResolveConflict</a> method.
+Identifies the conflict resolution code returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncconflicthandler-resolveconflict">IOfflineFilesSyncConflictHandler::ResolveConflict</a> method.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ Keep the remote state.  This overwrites the local copy with the remote copy's co
 
 Keeps both copies.  Note that this resolution is valid only for sync conflict states where both the server and client copies exist and where at least one of the items is a file.  The <b>OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES</b> resolution is not available when one of the items has been deleted or both items are directories.
 
-The list of applicable <a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a> values is as follows:
+The list of applicable <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a> values is as follows:
 
 <b>OFFLINEFILES_SYNC_STATE_DirChangedOnClient_FileChangedOnServer</b>
 <b>OFFLINEFILES_SYNC_STATE_DirChangedOnClient_FileOnServer</b>
@@ -125,11 +125,11 @@ Cancel the synchronization operation.
 
 
 
-<a href="https://msdn.microsoft.com/eb6fbdcf-1833-4ada-880e-f2dbfce64d99">IOfflineFilesSyncConflictHandler::ResolveConflict</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncconflicthandler-resolveconflict">IOfflineFilesSyncConflictHandler::ResolveConflict</a>
 
 
 
-<a href="https://msdn.microsoft.com/05d1e03e-2db4-4f1e-8813-98c8cf6d03b6">OFFLINEFILES_SYNC_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_state">OFFLINEFILES_SYNC_STATE</a>
  
 
  

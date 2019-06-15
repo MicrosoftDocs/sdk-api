@@ -57,7 +57,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOBackup</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMStarterGPOBackup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOBackup</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStarterGPOBackup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>IGPMStarterGPOBackup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32a1388a-b8b9-455b-af94-0a09e98f9108">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpobackup-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Removes the GPO backup from the backup directory.
@@ -82,7 +82,7 @@ Removes the GPO backup from the backup directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce0dd44f-dfd9-4e7c-9854-9decbc25ec54">GenerateReport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpobackup-generatereport">GenerateReport</a>
 </td>
 <td align="left" width="63%">
 Gets the report for the backup GPO.
@@ -91,7 +91,7 @@ Gets the report for the backup GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7d05436-acd7-4b80-93e4-ea80e3eb1fff">GenerateReportToFile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpobackup-generatereporttofile">GenerateReportToFile</a>
 </td>
 <td align="left" width="63%">
 Gets the report for the backup GPO and saves it to a file at a specified path.
@@ -108,7 +108,7 @@ Gets the report for the backup GPO and saves it to a file at a specified path.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">BackupDir</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">BackupDir</a>
 
 
 </td>
@@ -120,7 +120,7 @@ The directory in which the <b>GPMStarterGPOBackup</b> object exists.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">Comment</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">Comment</a>
 
 
 </td>
@@ -132,7 +132,7 @@ Comment associated with the <b>GPMStarterGPOBackup</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d12b7893-00d2-42cb-8fa4-b200a2d4b340">DisplayName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpobackup-property-methods">DisplayName</a>
 
 
 </td>
@@ -144,7 +144,7 @@ Friendly display name of the backed-up GPO. Note that it is possible to have mor
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d12b7893-00d2-42cb-8fa4-b200a2d4b340">Domain</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstartergpobackup-property-methods">Domain</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Name of the domain in which the GPO existed when it was backed up. This is a ful
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">ID</a>
 
 
 </td>
@@ -168,7 +168,7 @@ GUID that uniquely identifies the <b>GPMStarterGPOBackup</b> object within its b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">StarterGPOID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">StarterGPOID</a>
 
 
 </td>
@@ -180,7 +180,7 @@ ID of the backed-up GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">Timestamp</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">Timestamp</a>
 
 
 </td>
@@ -192,7 +192,7 @@ Date and time when the <b>GPMStarterGPOBackup</b> object was created, in local t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5393a50a-ce4c-436d-9e86-2f9540652d6a">Type</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmbackup-property-methods">Type</a>
 
 
 </td>
@@ -209,19 +209,19 @@ Retrieves the value of the <b>Type</b> property representing a system or custom 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9cd432a-3974-4fc4-9e32-1d8e2df1601c">IGPM2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm2">IGPM2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3008e70c-cc34-45b0-bdfc-17f2e9cd5de0">IGPMBackupDirEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd9e6b58-6fbc-449a-9941-b33761797199">IGPMStarterGPOBackupCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMStarterGPOBackupCollection</a>
  
 
  

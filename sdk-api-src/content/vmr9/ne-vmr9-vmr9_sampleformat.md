@@ -101,15 +101,15 @@ The sample contains a single field, and each line in the sample corresponds to t
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407377(v=VS.85).aspx">VMR9VideoDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9videodesc">VMR9VideoDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407378(v=VS.85).aspx">VMR9VideoStreamInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ns-vmr9-_vmr9videostreaminfo">VMR9VideoStreamInfo</a>
  
 
  

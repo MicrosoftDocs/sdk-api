@@ -80,14 +80,14 @@ The method returns the following return values.
 
 
 
-To run the job, call the <a href="https://msdn.microsoft.com/74f369d1-2e3d-49a5-bf54-c1b7c13efbd7">IFsrmReportJob::Run</a> method.
+To run the job, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-run">IFsrmReportJob::Run</a> method.
 
-After <b>WaitForCompletion</b> returns, access the <a href="https://msdn.microsoft.com/7a610d10-8e43-49b7-b85b-bb0ec122fda8">IFsrmReportJob::LastError</a> property to determine if the reports completed successfully.
+After <b>WaitForCompletion</b> returns, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_lasterror">IFsrmReportJob::LastError</a> property to determine if the reports completed successfully.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/8087542d-5873-414b-8903-544c2e57cba1">Running a Report Job</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/running-a-report-job">Running a Report Job</a>.
 
 <div class="code"></div>
 
@@ -98,11 +98,11 @@ For an example, see <a href="https://msdn.microsoft.com/8087542d-5873-414b-8903-
 
 
 
-<a href="https://msdn.microsoft.com/ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f">IFsrmReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/74f369d1-2e3d-49a5-bf54-c1b7c13efbd7">IFsrmReportJob::Run</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-run">IFsrmReportJob::Run</a>
  
 
  

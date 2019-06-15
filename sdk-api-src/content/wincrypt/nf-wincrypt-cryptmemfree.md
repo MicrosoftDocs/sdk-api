@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>CryptMemFree</b> function frees memory allocated by 
-<a href="https://msdn.microsoft.com/ac7588b1-ff8c-4f8d-a8ab-f0e8a18e5614">CryptMemAlloc</a> or 
-<a href="https://msdn.microsoft.com/74bdd2dd-9f05-4d36-8323-79d547820068">CryptMemRealloc</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc">CryptMemAlloc</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc">CryptMemRealloc</a>.
 
 
 ## -parameters
@@ -78,11 +78,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/ac7588b1-ff8c-4f8d-a8ab-f0e8a18e5614">CryptMemAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc">CryptMemAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/74bdd2dd-9f05-4d36-8323-79d547820068">CryptMemRealloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc">CryptMemRealloc</a>
  
 
  

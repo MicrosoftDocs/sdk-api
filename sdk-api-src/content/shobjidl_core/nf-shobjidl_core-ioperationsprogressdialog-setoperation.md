@@ -59,9 +59,9 @@ Sets which progress dialog operation is occurring, and whether we are in pre-fli
 
 ### -param action [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fc5a0f96-e8c2-483f-86b0-d8c870a9f77a">SPACTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a></b>
 
-Specifies operation. See <a href="https://msdn.microsoft.com/fc5a0f96-e8c2-483f-86b0-d8c870a9f77a">SPACTION</a>.
+Specifies operation. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_spaction">SPACTION</a>.
 
 
 ## -returns

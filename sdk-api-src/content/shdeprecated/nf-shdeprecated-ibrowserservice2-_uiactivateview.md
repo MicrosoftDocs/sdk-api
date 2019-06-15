@@ -62,7 +62,7 @@ Deprecated. Allows a derived class to request that the base class update the bro
 
 Type: <b>UINT</b>
 
-A member of the <a href="https://msdn.microsoft.com/04cb4259-4d16-44d0-8186-bce21ceab887">SVUIA_STATUS</a> enumeration declaring the browser view's state value.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration declaring the browser view's state value.
 
 
 ## -returns

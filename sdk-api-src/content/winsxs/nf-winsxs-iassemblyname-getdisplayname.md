@@ -69,7 +69,7 @@ When calling this method, set this parameter to the size of the buffer specified
 
 ### -param dwDisplayFlags [in]
 
-One or more of the options of the <a href="https://msdn.microsoft.com/8f4c00b9-2684-44eb-9a68-bef6da87c396">ASM_DISPLAY_FLAGS</a> enumeration to specify which portions of the assembly's name to include in the string representation of the assembly name. The default for <i>dwDisplayFlags</i> is 0, which returns all portions of the assembly's display name.
+One or more of the options of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ne-winsxs-__midl_iassemblyname_0003">ASM_DISPLAY_FLAGS</a> enumeration to specify which portions of the assembly's name to include in the string representation of the assembly name. The default for <i>dwDisplayFlags</i> is 0, which returns all portions of the assembly's display name.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The method did not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>EjectNtmsMedia</b> function ejects the specified medium from the port of the current library. If the library is busy, RSM queues 
@@ -64,7 +64,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param lpMediaId [in]
@@ -287,7 +287,7 @@ The NTMS_EJECT_QUEUE flag is used to bundle or batch media marked for ejection i
 If the media is currently in use (mounted or opened), this function returns an error.
 
 If the library does not have a port, use the 
-<a href="https://msdn.microsoft.com/c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e">AccessNtmsLibraryDoor</a> function to insert and eject media.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-accessntmslibrarydoor">AccessNtmsLibraryDoor</a> function to insert and eject media.
 
 The 
 <b>EjectNtmsMedia</b> function does not work with the offline library.
@@ -300,11 +300,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/c4274c9c-f052-42dd-859b-85606d455001">InjectNtmsMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmsmedia">InjectNtmsMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
  
 
  

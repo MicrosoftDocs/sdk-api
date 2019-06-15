@@ -49,7 +49,7 @@ req.redist:
 
 
 Input buffer passed with the 
-     <a href="https://msdn.microsoft.com/bd5be96d-6fdc-4fad-9d01-81b913a5b653">FSCTL_SET_INTEGRITY_INFORMATION</a> control 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a> control 
      code.
 
 
@@ -163,15 +163,15 @@ If <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b> is specified and the fil
 
 
 
-<a href="https://msdn.microsoft.com/ab87f987-b734-4ad0-af16-1ba967db48d7">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fsctl_get_integrity_information_buffer">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd5be96d-6fdc-4fad-9d01-81b913a5b653">FSCTL_SET_INTEGRITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_integrity_information">FSCTL_SET_INTEGRITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

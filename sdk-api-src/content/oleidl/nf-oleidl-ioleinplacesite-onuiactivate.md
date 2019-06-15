@@ -98,7 +98,7 @@ The in-place object calls <b>IOleInPlaceSite::OnUIActivate</b> just before activ
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 The container should remove any user interface associated with its own activation. If the container is itself an embedded object, it should remove its document-level user interface.
 
-If there is already an object active in place in the same document, the container should call <a href="https://msdn.microsoft.com/cc42e313-b290-4806-bbad-b49abd937b63">IOleInPlaceObject::UIDeactivate</a> before calling <a href="https://msdn.microsoft.com/926c02b4-0bfa-4509-b5bc-4e5007e4db1a">OnUIDeactivate</a>.
+If there is already an object active in place in the same document, the container should call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-uideactivate">IOleInPlaceObject::UIDeactivate</a> before calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onuideactivate">OnUIDeactivate</a>.
 
 
 
@@ -108,11 +108,11 @@ If there is already an object active in place in the same document, the containe
 
 
 
-<a href="https://msdn.microsoft.com/cc42e313-b290-4806-bbad-b49abd937b63">IOleInPlaceObject::UIDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-uideactivate">IOleInPlaceObject::UIDeactivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d37e022-8c19-48b3-affb-e0eca19b5e05">IOleInPlaceSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
  
 
  

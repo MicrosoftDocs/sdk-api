@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the number of entries in the  file list that was returned by the <a href="https://msdn.microsoft.com/70a205fc-d90a-43fc-88f4-2f3a573c5a82">ISimilarity::FindSimilarFileId</a> method.
+Retrieves the number of entries in the  file list that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-findsimilarfileid">ISimilarity::FindSimilarFileId</a> method.
 
-The actual number of similarity file IDs that are returned by the <a href="https://msdn.microsoft.com/881e0ae6-311f-4bc4-9660-b0e96b7b9bd2">GetNextFileId</a> method may be less than the number that is  returned by the <b>GetSize</b>  method.  <b>GetNextFileId</b> returns only valid similarity file IDs. However, <b>GetSize</b> counts all entries, even if their similarity file IDs are not valid.
+The actual number of similarity file IDs that are returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-ifindsimilarresults-getnextfileid">GetNextFileId</a> method may be less than the number that is  returned by the <b>GetSize</b>  method.  <b>GetNextFileId</b> returns only valid similarity file IDs. However, <b>GetSize</b> counts all entries, even if their similarity file IDs are not valid.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ This method always returns <b>S_OK</b>.
 
 
 
-<a href="https://msdn.microsoft.com/3118cf53-c544-48bc-ac38-79ca2252f83f">IFindSimilarResults</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a>
  
 
  

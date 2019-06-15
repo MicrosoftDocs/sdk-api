@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees the handle allocated by <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a>.
+Frees the handle allocated by <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a>.
 
 
 ## -parameters

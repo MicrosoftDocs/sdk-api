@@ -54,7 +54,7 @@ Activates the COM+ component load balancing service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelectCOMLBServer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISelectCOMLBServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelectCOMLBServer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelectCOMLBServer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISelectCOMLBServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90b33e42-b26f-4dd8-bd91-939f452b7872">GetLBServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iselectcomlbserver-getlbserver">GetLBServer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of  the load balancing server.
@@ -78,7 +78,7 @@ Retrieves the name of  the load balancing server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b435b7f-9ddc-40c9-afb5-f5e46e782bd7">Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iselectcomlbserver-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the load balancing server object.
@@ -93,7 +93,7 @@ Initializes the load balancing server object.
 
 
 
-<a href="https://msdn.microsoft.com/1eb1c464-9371-420e-afc0-4b18c11a70d4">ICOMLBArguments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomlbarguments">ICOMLBArguments</a>
  
 
  

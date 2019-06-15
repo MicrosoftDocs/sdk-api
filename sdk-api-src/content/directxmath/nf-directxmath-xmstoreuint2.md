@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores unsigned integer data from an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> 
+Stores unsigned integer data from an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> 
   in an <b>XMUINT2</b> structure.
 
 
@@ -60,7 +60,7 @@ Stores unsigned integer data from an <a href="https://msdn.microsoft.com/1a04409
 
 ### -param pDestination [out]
 
-Address of an  <a href="https://msdn.microsoft.com/en-us/library/Ff728761(v=VS.85).aspx">XMUINT2</a> structure in which to store the data.
+Address of an  <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a> structure in which to store the data.
 
 
 ### -param V
@@ -81,7 +81,7 @@ None.
 
 
 
-For 16-byte aligned memory, it may be faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420362(v=VS.85).aspx">XMStoreInt2A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstoreint2a">XMStoreInt2A</a> 
     with a casting operator.
 
 The following pseudocode shows the operation of this function.
@@ -114,7 +114,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/0e7b66bd-bdb0-956d-2962-b33ae52b3016">DirectXMath Library Vector Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-storage">DirectXMath Library Vector Store Functions</a>
  
 
  

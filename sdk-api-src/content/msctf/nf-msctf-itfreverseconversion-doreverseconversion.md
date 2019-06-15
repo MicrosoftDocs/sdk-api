@@ -133,7 +133,7 @@ A reverse conversion provides the keystroke sequences required to create the spe
 
 
 
-<a href="https://msdn.microsoft.com/ca2e036a-d0f8-4372-872a-388217050d15">ITfReverseConversion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a>
  
 
  

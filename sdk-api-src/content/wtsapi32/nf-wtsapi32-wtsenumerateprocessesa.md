@@ -64,7 +64,7 @@ Retrieves information about the active
 ### -param hServer [in]
 
 Handle to an RD Session Host server. Specify a handle opened by the 
-      <a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a> function, or specify 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
       <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application is 
       running.
 
@@ -82,9 +82,9 @@ Specifies the version of the enumeration request. Must be 1.
 ### -param ppProcessInfo [out]
 
 Pointer to a variable that receives a pointer to an array of 
-      <a href="https://msdn.microsoft.com/5df01ad8-71fd-4831-8eba-1d6cabd61348">WTS_PROCESS_INFO</a> structures. Each structure 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_infoa">WTS_PROCESS_INFO</a> structures. Each structure 
       in the array contains information about an active process on the specified RD Session Host server. To free the returned 
-      buffer, call the <a href="https://msdn.microsoft.com/1c325174-ec08-4bbb-8e91-1a3cc9256110">WTSFreeMemory</a> function.
+      buffer, call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function.
 
 
 ### -param pCount [out]
@@ -100,7 +100,7 @@ Pointer to a variable that receives the number of <b>WTS_PROCESS_INFO</b>
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -120,7 +120,7 @@ The caller must be a member of the Administrators group to enumerate processes t
 
 
 
-<a href="https://msdn.microsoft.com/5df01ad8-71fd-4831-8eba-1d6cabd61348">WTS_PROCESS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_infoa">WTS_PROCESS_INFO</a>
  
 
  

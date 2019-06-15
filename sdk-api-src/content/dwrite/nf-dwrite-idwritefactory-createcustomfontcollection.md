@@ -59,10 +59,10 @@ ms.custom: 19H1
 
 ### -param collectionLoader
 
-Type: <b><a href="https://msdn.microsoft.com/898645ce-4bd5-4491-a31c-f60a17578872">IDWriteFontCollectionLoader</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a>*</b>
 
 An application-defined font collection loader, which must have been previously
-     registered using <a href="https://msdn.microsoft.com/495f8f56-42b6-4731-a26e-5da2c56a28ed">RegisterFontCollectionLoader</a>.
+     registered using <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader">RegisterFontCollectionLoader</a>.
 
 
 ### -param collectionKey [in]
@@ -81,7 +81,7 @@ The size, in bytes, of the collection key.
 
 ### -param fontCollection [out]
 
-Type: <b><a href="https://msdn.microsoft.com/2ca7e2d3-d66a-4c57-8fbe-15a5232c3506">IDWriteFontCollection</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontcollection">IDWriteFontCollection</a>**</b>
 
 Contains  an address of a pointer to the system font collection object if the method succeeds, or <b>NULL</b> in case of failure.
 
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

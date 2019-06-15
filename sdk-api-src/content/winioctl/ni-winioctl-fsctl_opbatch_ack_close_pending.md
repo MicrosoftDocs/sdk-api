@@ -50,7 +50,7 @@ req.redist:
 
 Notifies a server that a client application is ready to close a file. Use this operation after notification that an opportunistic lock on a file is ready to be broken. 
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function by using the following parameters.
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function by using the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -146,20 +146,20 @@ Before you call this function do not make assumptions about the number of availa
 			
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 Use the 
 <b>FSCTL_OPBATCH_ACK_CLOSE_PENDING</b> control code when you are notified that an opportunistic lock on a file is ready to be broken, and you intend to close the file soon. This operation does not request a new opportunistic lock.
 
 If you do not intend to close a file, you can use the 
-<a href="https://msdn.microsoft.com/9f8fff44-99b4-4a8d-97f1-854b28fe2eb1">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a> or 
-<a href="https://msdn.microsoft.com/1624fa94-fcf4-4804-b659-84de5ccc77dc">FSCTL_OPLOCK_BREAK_ACK_NO_2</a> control code to respond to the notification. The former, used if the lock being broken is an exclusive opportunistic lock, indicates the file should receive a level 2 opportunistic lock instead. The latter requests the file be kept open but loses all locking.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_acknowledge">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_ack_no_2">FSCTL_OPLOCK_BREAK_ACK_NO_2</a> control code to respond to the notification. The former, used if the lock being broken is an exclusive opportunistic lock, indicates the file should receive a level 2 opportunistic lock instead. The latter requests the file be kept open but loses all locking.
 			
 
 Applications are notified that an opportunistic lock is broken by using the <b>hEvent</b> member of the 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is associated with a file on which an opportunistic lock is broken. Applications can also use functions such as 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> and 
-<a href="https://msdn.microsoft.com/1e2a3bf0-a73e-4406-99ac-32652f7f5b25">HasOverlappedIoCompleted</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure that is associated with a file on which an opportunistic lock is broken. Applications can also use functions such as 
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted">HasOverlappedIoCompleted</a>.
 
 IIn Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -229,35 +229,35 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f8fff44-99b4-4a8d-97f1-854b28fe2eb1">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_acknowledge">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1624fa94-fcf4-4804-b659-84de5ccc77dc">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_oplock_break_ack_no_2">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e2a3bf0-a73e-4406-99ac-32652f7f5b25">HasOverlappedIoCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted">HasOverlappedIoCompleted</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4c2f5f0-a29b-4598-a49b-da99e93d2991">Opportunistic Locks</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks">Opportunistic Locks</a>
  
 
  

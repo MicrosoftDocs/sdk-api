@@ -63,7 +63,7 @@ Loads the specified menu template in memory.
 
 Type: <b>const MENUTEMPLATE*</b>
 
-A pointer to a menu template or an extended menu template. A menu template consists of a <a href="https://msdn.microsoft.com/en-us/library/ms647583(v=VS.85).aspx">MENUITEMTEMPLATEHEADER</a> structure followed by one or more contiguous <a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a> structures. An extended menu template consists of a <a href="https://msdn.microsoft.com/en-us/library/ms647567(v=VS.85).aspx">MENUEX_TEMPLATE_HEADER</a> structure followed by one or more contiguous <a href="https://msdn.microsoft.com/en-us/library/ms647569(v=VS.85).aspx">MENUEX_TEMPLATE_ITEM</a> structures. 
+A pointer to a menu template or an extended menu template. A menu template consists of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplateheader">MENUITEMTEMPLATEHEADER</a> structure followed by one or more contiguous <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplate">MENUITEMTEMPLATE</a> structures. An extended menu template consists of a <a href="https://docs.microsoft.com/windows/desktop/menurc/menuex-template-header">MENUEX_TEMPLATE_HEADER</a> structure followed by one or more contiguous <a href="https://docs.microsoft.com/windows/desktop/menurc/menuex-template-item">MENUEX_TEMPLATE_ITEM</a> structures. 
 
 
 ## -returns
@@ -74,7 +74,7 @@ Type: <b>HMENU</b>
 
 If the function succeeds, the return value is a handle to the menu.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -83,7 +83,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-For both the ANSI and the Unicode version of this function, the strings in the <a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a> structure must be Unicode strings. 
+For both the ANSI and the Unicode version of this function, the strings in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplate">MENUITEMTEMPLATE</a> structure must be Unicode strings. 
 
 
 
@@ -97,27 +97,27 @@ For both the ANSI and the Unicode version of this function, the strings in the <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647990(v=VS.85).aspx">LoadMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenua">LoadMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647567(v=VS.85).aspx">MENUEX_TEMPLATE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menuex-template-header">MENUEX_TEMPLATE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647569(v=VS.85).aspx">MENUEX_TEMPLATE_ITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menuex-template-item">MENUEX_TEMPLATE_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplate">MENUITEMTEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647583(v=VS.85).aspx">MENUITEMTEMPLATEHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplateheader">MENUITEMTEMPLATEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 

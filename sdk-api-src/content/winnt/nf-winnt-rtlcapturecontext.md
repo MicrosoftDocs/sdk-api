@@ -63,7 +63,7 @@ Retrieves a
 
 ### -param ContextRecord [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure.
 
 
 ## -returns
@@ -80,11 +80,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5304d17-bc67-4e0f-a535-efca4e65c74c">RtlRestoreContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlrestorecontext">RtlRestoreContext</a>
  
 
  

@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The 
 <b>CALLINFOCHANGE_CAUSE</b> enum is used by the 
-<a href="https://msdn.microsoft.com/c49a5624-8867-46c0-acf6-5e60667fc969">ITCallInfoChangeEvent::get_Cause</a> method to return a description of the type of call information that has changed.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfochangeevent-get_cause">ITCallInfoChangeEvent::get_Cause</a> method to return a description of the type of call information that has changed.
 
 You can retrieve specific information about the change by using the TAPI 3 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a> interface. TAPI 2 applications use 
-<a href="https://msdn.microsoft.com/e69722cb-9c45-4f1a-a855-64afa3c33276">lineGetCallInfo</a> or 
-<a href="https://msdn.microsoft.com/88bcd211-0993-4703-b43f-4e0b93e3eb7e">lineGetCallStatus</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface. TAPI 2 applications use 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>.
 
 
 ## -enum-fields
@@ -192,13 +192,13 @@ The call data buffer has changed.
 ### -field CIC_PRIVILEGE
 
 
-<a href="https://msdn.microsoft.com/a58b7e9e-696e-4421-9b31-1ba8afe6e03b">Call privilege</a> has changed.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallprivilege--constants">Call privilege</a> has changed.
 
 
 ### -field CIC_MEDIATYPE
 
 The call 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">media type</a> has changed.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> has changed.
 
 
 ### -field CIC_LASTITEM
@@ -211,7 +211,7 @@ The call
 
 
 
-<a href="https://msdn.microsoft.com/c49a5624-8867-46c0-acf6-5e60667fc969">ITCallInfoChangeEvent::get_Cause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfochangeevent-get_cause">ITCallInfoChangeEvent::get_Cause</a>
  
 
  

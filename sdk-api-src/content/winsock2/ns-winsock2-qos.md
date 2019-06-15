@@ -61,19 +61,19 @@ The
 ### -field SendingFlowspec
 
 Specifies QOS parameters for the sending direction of a particular flow. SendingFlowspec is sent in the form of a 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure.
 
 
 ### -field ReceivingFlowspec
 
 Specifies QOS parameters for the receiving direction of a particular flow. ReceivingFlowspec is sent in the form of a 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure.
 
 
 ### -field ProviderSpecific
 
 Pointer to a structure of type 
-<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> that can provide additional provider-specific quality of service parameters to the RSVP SP for a given flow.
 
 
 ## -remarks
@@ -81,7 +81,7 @@ Pointer to a structure of type
 
 
 Most applications can fulfill their quality of service requirements without using the 
-<a href="https://msdn.microsoft.com/16c99de7-be29-4e58-b648-b6719385dc1c">ProviderSpecific</a> buffer. However, if the application must provide information not available with standard Windows 2000 QOS parameters, the ProviderSpecific buffer allows the application to provide additional parameters for RSVP and/or traffic control.
+<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">ProviderSpecific</a> buffer. However, if the application must provide information not available with standard Windows 2000 QOS parameters, the ProviderSpecific buffer allows the application to provide additional parameters for RSVP and/or traffic control.
 
 
 
@@ -91,11 +91,11 @@ Most applications can fulfill their quality of service requirements without usin
 
 
 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/16c99de7-be29-4e58-b648-b6719385dc1c">ProviderSpecific Buffer</a>
+<a href="https://docs.microsoft.com/previous-versions/aa374467(v=vs.80)">ProviderSpecific Buffer</a>
  
 
  

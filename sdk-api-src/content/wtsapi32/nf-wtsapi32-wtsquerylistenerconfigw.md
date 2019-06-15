@@ -81,7 +81,7 @@ A pointer to a null-terminated string that contains the name of the listener to 
 
 ### -param pBuffer [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/051cab0b-701c-4bb9-8728-6b383cdb8e6a">WTSLISTENERCONFIG</a> structure that receives the  retrieved listener configuration information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtslistenerconfiga">WTSLISTENERCONFIG</a> structure that receives the  retrieved listener configuration information.
 
 
 ## -returns
@@ -91,7 +91,7 @@ A pointer to a <a href="https://msdn.microsoft.com/051cab0b-701c-4bb9-8728-6b383
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -100,7 +100,7 @@ the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">Ge
 
 
 
-This function does not retrieve the security descriptor for the listener. To retrieve the security descriptor, call the <a href="https://msdn.microsoft.com/6e49df9a-679d-4cc1-9297-90cf1e3509fa">WTSGetListenerSecurity</a> function.
+This function does not retrieve the security descriptor for the listener. To retrieve the security descriptor, call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsgetlistenersecuritya">WTSGetListenerSecurity</a> function.
 
 
 
@@ -110,11 +110,11 @@ This function does not retrieve the security descriptor for the listener. To ret
 
 
 
-<a href="https://msdn.microsoft.com/6e49df9a-679d-4cc1-9297-90cf1e3509fa">WTSGetListenerSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsgetlistenersecuritya">WTSGetListenerSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/051cab0b-701c-4bb9-8728-6b383cdb8e6a">WTSLISTENERCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wtslistenerconfiga">WTSLISTENERCONFIG</a>
  
 
  

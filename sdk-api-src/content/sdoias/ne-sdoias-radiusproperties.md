@@ -83,11 +83,11 @@ The collection of vendors for this RADIUS server.
 
 
 
-<a href="https://msdn.microsoft.com/bd37acfb-eb92-40de-945b-ebda95f6ae53">CLIENTPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_clientproperties">CLIENTPROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/0449833a-d1a1-4ea0-901e-362557eb481d">VENDORPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_vendorproperties">VENDORPROPERTIES</a>
  
 
  

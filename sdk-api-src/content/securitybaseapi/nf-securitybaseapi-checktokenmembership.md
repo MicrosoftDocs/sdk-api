@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CheckTokenMembership</b> function determines whether a specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) is enabled in an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access token</a>. If you want to determine group membership for app container tokens, you need to use the <a href="https://msdn.microsoft.com/0420FC77-8035-42A5-8907-83D0CE53FB64">CheckTokenMembershipEx</a> function.
+The <b>CheckTokenMembership</b> function determines whether a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) is enabled in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>. If you want to determine group membership for app container tokens, you need to use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembershipex">CheckTokenMembershipEx</a> function.
 
 
 ## -parameters
@@ -66,18 +66,18 @@ The <b>CheckTokenMembership</b> function determines whether a specified <a href=
 
 ### -param TokenHandle [in, optional]
 
-A handle to an access token. The handle must have TOKEN_QUERY access to the token. The token must be an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>. 
+A handle to an access token. The handle must have TOKEN_QUERY access to the token. The token must be an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>. 
 
 
 
 
-If <i>TokenHandle</i> is <b>NULL</b>, <b>CheckTokenMembership</b> uses the impersonation token of the calling thread. If the thread is not impersonating, the function duplicates the thread's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> to create an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>.
+If <i>TokenHandle</i> is <b>NULL</b>, <b>CheckTokenMembership</b> uses the impersonation token of the calling thread. If the thread is not impersonating, the function duplicates the thread's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary token</a> to create an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>.
 
 
 ### -param SidToCheck [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure. The <b>CheckTokenMembership</b> function checks for the presence of this SID in the user and group SIDs of the access token.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure. The <b>CheckTokenMembership</b> function checks for the presence of this SID in the user and group SIDs of the access token.
 
 
 ### -param IsMember [out]
@@ -92,7 +92,7 @@ A pointer to a variable that receives the results of the check. If the SID is pr
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -104,7 +104,7 @@ If the function fails, the return value is zero. To get extended error informati
 The <b>CheckTokenMembership</b> function simplifies the process of determining whether a SID is both present and enabled in an access token.
 
 Even if a SID is present in the token, the system may not use the SID in an access check. The SID may be disabled or have the <b>SE_GROUP_USE_FOR_DENY_ONLY</b> attribute. The system uses only enabled SIDs to grant access when performing an access check. For more information, see 
-<a href="https://msdn.microsoft.com/c902f876-f05e-4b0c-ab65-a0c6cebca933">SID Attributes in an Access Token</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-attributes-in-an-access-token">SID Attributes in an Access Token</a>.
 
 If <i>TokenHandle</i> is a restricted token, or if <i>TokenHandle</i> is <b>NULL</b> and the current effective token of the calling thread is a restricted token, <b>CheckTokenMembership</b> also checks whether the SID is present in the list of restricting SIDs.
 
@@ -160,23 +160,23 @@ return(b);
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9fd2e44-5782-40c9-a1cf-1788ca7afc50">AccessCheck</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0420FC77-8035-42A5-8907-83D0CE53FB64">CheckTokenMembershipEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembershipex">CheckTokenMembershipEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/e087f360-5d1d-4846-b3d6-214a426e5222">CreateRestrictedToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
  
 
  

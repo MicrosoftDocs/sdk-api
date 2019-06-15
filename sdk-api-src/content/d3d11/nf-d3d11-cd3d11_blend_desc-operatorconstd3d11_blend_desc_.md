@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://msdn.microsoft.com/388f862c-58b0-48a8-a865-ba7568484ef5">D3D11_BLEND_DESC</a> structure that contains  the data from the <a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a> instance.
+This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_blend_desc">D3D11_BLEND_DESC</a> structure that contains  the data from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> instance.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ This operator returns the address of a <a href="https://msdn.microsoft.com/388f8
 
 
 
-<a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a>
  
 
  

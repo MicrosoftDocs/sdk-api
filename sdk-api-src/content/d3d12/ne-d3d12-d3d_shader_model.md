@@ -87,7 +87,7 @@ Indicates shader model 6.1.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/17978B9A-D21B-4A8A-B367-12F4ABC43A94">D3D12_FEATURE_DATA_SHADER_MODEL</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_shader_model">D3D12_FEATURE_DATA_SHADER_MODEL</a> structure.
 
 
 
@@ -97,7 +97,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/17978B9A-D21B-4A8A-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

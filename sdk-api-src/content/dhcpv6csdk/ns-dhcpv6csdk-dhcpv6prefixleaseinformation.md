@@ -64,7 +64,7 @@ Number of prefixes.
 
 ### -field prefixArray
 
-Pointer to a list <a href="https://msdn.microsoft.com/e04e3275-e4be-44bc-bd63-c45500971af7">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
+Pointer to a list <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-_dhcpv6prefix">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
 
 
 ### -field iaid

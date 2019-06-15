@@ -144,7 +144,7 @@ Internal failure during execution.
 
 
 
-<a href="https://msdn.microsoft.com/35be6da4-2a20-4a7a-9f6e-0420cd5a227e">Not Supported in Windows Installer 3.0 and earlier</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
  
 
  

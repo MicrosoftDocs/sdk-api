@@ -70,15 +70,15 @@ This topology is the last topology in the sequence.
 
 
 
-<a href="https://msdn.microsoft.com/4ff20d56-6095-495d-89ee-9086c61da8ac">IMFSequencerSource::AppendTopology</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">IMFSequencerSource::AppendTopology</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee71b574-0456-4091-bbb0-da5c57a7506e">IMFSequencerSource::UpdateTopologyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopologyflags">IMFSequencerSource::UpdateTopologyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

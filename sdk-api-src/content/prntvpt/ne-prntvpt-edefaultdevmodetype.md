@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables users to specify which <a href="https://msdn.microsoft.com/85741025-9393-42ab-8a6d-27f1ae2c0f1b">DEVMODE</a> to use as the source of default values when a print ticket does not specify all possible settings.
+Enables users to specify which <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodea">DEVMODE</a> to use as the source of default values when a print ticket does not specify all possible settings.
 
 
 ## -enum-fields

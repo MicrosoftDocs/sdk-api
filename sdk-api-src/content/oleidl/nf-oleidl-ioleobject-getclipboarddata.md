@@ -64,7 +64,7 @@ This parameter is reserved and must be zero.
 
 ### -param ppDataObject [out]
 
-Address of <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> pointer variable that receives the interface pointer to the data object. If an error occurs, <i>ppDataObject</i> must be set to <b>NULL</b>. Each time an object receives a call to <b>IOleObject::GetClipboardData</b>, it must increase the reference count on <i>ppDataObject</i>. It is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> when it is done with <i>ppDataObject</i>.
+Address of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer variable that receives the interface pointer to the data object. If an error occurs, <i>ppDataObject</i> must be set to <b>NULL</b>. Each time an object receives a call to <b>IOleObject::GetClipboardData</b>, it must increase the reference count on <i>ppDataObject</i>. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when it is done with <i>ppDataObject</i>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This method returns S_OK on success. Other possible return values include the fo
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/49f6b26c-76e1-4519-920b-e05279f23112">GetClipboardData</a> is not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getclipboarddata">GetClipboardData</a> is not supported.
 
 </td>
 </tr>
@@ -111,13 +111,13 @@ The object is not running.
 
 
 
-You can use the <b>IOleObject::GetClipboardData</b> method to convert a linked object to an embedded object, in which case the container application would call <b>IOleObject::GetClipboardData</b> and then pass the data received to <a href="https://msdn.microsoft.com/aa5e997e-60d4-472d-9c81-5359c277bde3">OleCreateFromData</a>. This method returns a pointer to a data object that is identical to what would have been passed to the clipboard by a standard copy operation.
+You can use the <b>IOleObject::GetClipboardData</b> method to convert a linked object to an embedded object, in which case the container application would call <b>IOleObject::GetClipboardData</b> and then pass the data received to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>. This method returns a pointer to a data object that is identical to what would have been passed to the clipboard by a standard copy operation.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-If you want a stable snapshot of the current contents of an embedded object, call <b>IOleObject::GetClipboardData</b>. Should the data change, you will need to call the function again for an updated snapshot. If you want the caller to be informed of changes that occur to the data, call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>, then call <a href="https://msdn.microsoft.com/be9891d4-aad3-42a0-8c8e-4b86091ff03b">IDataObject::DAdvise</a>.
+If you want a stable snapshot of the current contents of an embedded object, call <b>IOleObject::GetClipboardData</b>. Should the data change, you will need to call the function again for an updated snapshot. If you want the caller to be informed of changes that occur to the data, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>, then call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If you implement this function, you must return an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> pointer for an object whose data will not change.
+If you implement this function, you must return an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer for an object whose data will not change.
 
 
 
@@ -127,19 +127,19 @@ If you implement this function, you must return an <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bbda602-4421-4f79-a33a-63ded9a8bf90">IOleObject::InitFromData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-initfromdata">IOleObject::InitFromData</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa5e997e-60d4-472d-9c81-5359c277bde3">OleCreateFromData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
  
 
  

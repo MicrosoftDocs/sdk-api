@@ -64,7 +64,7 @@ Use the standard logic. The update will be automatically downloaded if it is imp
 
 ### -field adNeverAutoDownload
 
-The update will not be automatically downloaded; it will  be downloaded only when the user attempts to install the update, or when a Windows Update Agent (WUA) API caller requests that the update be downloaded by using the <a href="https://msdn.microsoft.com/8b860632-3d10-4791-b4b3-d37aad319a0a">IUpdateDownloader::Download</a> or <a href="https://msdn.microsoft.com/9a953240-3d8e-4876-92a9-cc7efca62780">IUpdateDownloader::BeginDownload</a> methods.
+The update will not be automatically downloaded; it will  be downloaded only when the user attempts to install the update, or when a Windows Update Agent (WUA) API caller requests that the update be downloaded by using the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-download">IUpdateDownloader::Download</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">IUpdateDownloader::BeginDownload</a> methods.
 
 
 ### -field adAlwaysAutoDownload
@@ -76,7 +76,7 @@ The update will always be automatically downloaded.
 
 
 
-If Automatic Updates is disabled, or if Automatic Updates is enabled but set to “Check for updates but let me choose whether to download or install them,” updates will never be automatically downloaded, regardless of the value of an update’s <a href="https://msdn.microsoft.com/b8819ba8-7333-488c-b337-0a51f995d942">IUpdate5::AutoDownload</a> property. In earlier versions of the WUA in which <a href="https://msdn.microsoft.com/ff290e39-7d7c-42da-a522-ba9e672721b8">IUpdate5</a> is not available, all updates are processed by using the standard logic.
+If Automatic Updates is disabled, or if Automatic Updates is enabled but set to “Check for updates but let me choose whether to download or install them,” updates will never be automatically downloaded, regardless of the value of an update’s <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate5-get_autodownload">IUpdate5::AutoDownload</a> property. In earlier versions of the WUA in which <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a> is not available, all updates are processed by using the standard logic.
 
 
 

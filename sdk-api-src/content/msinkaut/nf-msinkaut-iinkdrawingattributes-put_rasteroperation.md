@@ -69,13 +69,13 @@ This property is read/write.
 
 
 
-The <a href="https://msdn.microsoft.com/34403724-b883-4c03-8784-fe8f205d3da6">InkRasterOperation</a> enumeration defines values for performing raster operations on drawn ink. For example, if you want to perform subtractive transparency, set the raster value to MaskPen.
+The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation">InkRasterOperation</a> enumeration defines values for performing raster operations on drawn ink. For example, if you want to perform subtractive transparency, set the raster value to MaskPen.
 
-For a complete list of available raster operations, see the <a href="https://msdn.microsoft.com/34403724-b883-4c03-8784-fe8f205d3da6">InkRasterOperation</a> enumeration type.
+For a complete list of available raster operations, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation">InkRasterOperation</a> enumeration type.
 
 <div class="alert"><b>Note</b>  Many printers do not support many of the available raster operations. Because of this, the colors displayed may be different than the colors printed. This is directly related to the printer drivers or printer hardware. You may have to experiment to determine which printers can produce the correct output when various raster operations are set on ink.</div>
 <div> </div>
-When the <b>RasterOperation</b> property is set to anything other than <a href="https://msdn.microsoft.com/34403724-b883-4c03-8784-fe8f205d3da6">InkRasterOperation.IRO_CopyPen</a>, all drawing attributes-anti-aliasing, smoothing, transparency, and pressure-are ignored.
+When the <b>RasterOperation</b> property is set to anything other than <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation">InkRasterOperation.IRO_CopyPen</a>, all drawing attributes-anti-aliasing, smoothing, transparency, and pressure-are ignored.
 
 
 
@@ -89,11 +89,11 @@ When the <b>RasterOperation</b> property is set to anything other than <a href="
 
 
 
-<a href="https://msdn.microsoft.com/10ca7ae5-28dd-42a2-98d9-852d4de5869d">InkDrawingAttributes Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/34403724-b883-4c03-8784-fe8f205d3da6">InkRasterOperation Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation">InkRasterOperation Enumeration</a>
  
 
  

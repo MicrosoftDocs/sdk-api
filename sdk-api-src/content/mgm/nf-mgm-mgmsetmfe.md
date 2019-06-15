@@ -61,13 +61,13 @@ The
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 
 ### -param pmimm [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a> structure that specifies the MFE to change. Specify the new neighbor in the <b>dwUpstreamNeighbor</b> member.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE to change. Specify the new neighbor in the <b>dwUpstreamNeighbor</b> member.
 
 
 ## -returns
@@ -127,7 +127,7 @@ The specified MFE was not found.
 
 
 
-<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
  
 
  

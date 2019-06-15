@@ -186,7 +186,7 @@ The element is in the pressed state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633513(v=VS.85).aspx">GetTitleBarInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettitlebarinfo">GetTitleBarInfo</a>
 
 
 
@@ -194,7 +194,7 @@ The element is in the pressed state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

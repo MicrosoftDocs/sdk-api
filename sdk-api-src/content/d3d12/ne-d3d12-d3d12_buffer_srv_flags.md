@@ -65,7 +65,7 @@ Indicates a default view.
 
 ### -field D3D12_BUFFER_SRV_FLAG_RAW
 
-View the buffer as raw. For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/9e991ab0-9648-484a-9a2c-5391ee5abf20">Raw Views of Buffers</a>.
+View the buffer as raw. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
           
 
 
@@ -73,7 +73,7 @@ View the buffer as raw. For more info about raw viewing of buffers, see <a href=
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/FD5FBA65-4C70-487F-8D93-0EC5668BCE4A">D3D12_BUFFER_SRV</a>.
+This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_buffer_srv">D3D12_BUFFER_SRV</a>.
         
 
 
@@ -84,7 +84,7 @@ This enumeration is used by <a href="https://msdn.microsoft.com/FD5FBA65-4C70-48
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

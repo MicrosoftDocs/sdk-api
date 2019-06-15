@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>PDH_BROWSE_DLG_CONFIG</b> structure is used by the 
-<a href="https://msdn.microsoft.com/4e9e4b20-a573-4f6d-97e8-63bcc675032b">PdhBrowseCounters</a> function to configure the <b>Browse Performance Counters</b> dialog box.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a> function to configure the <b>Browse Performance Counters</b> dialog box.
 		
 
 
@@ -118,7 +118,7 @@ If this flag is <b>TRUE</b>, the user cannot select a computer from  <b>Select c
 
 
 If this flag is <b>FALSE</b>, the user can select a computer from <b>Select counters from computer</b>. This is the default value. 
-The list contains the local computer only unless you call the <a href="https://msdn.microsoft.com/8f8b4651-b550-4b34-bb2f-d2497c56b572">PdhConnectMachine</a> to connect to other computers first.
+The list contains the local computer only unless you call the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhconnectmachinea">PdhConnectMachine</a> to connect to other computers first.
 
 
 ### -field bIncludeCostlyObjects
@@ -132,7 +132,7 @@ If this flag is <b>FALSE</b>, the list will not contain costly counters. This is
 
 ### -field bShowObjectBrowser
 
-If this flag is <b>TRUE</b>, the dialog lists only performance objects. When the user selects an object, the dialog returns a counter path that includes the object and wildcard characters for the instance name and counter if the object is a multiple instance object. For example, if the "Process" object is selected, the dialog returns the string "\Process(*)\*". If the object is a single instance object, the path contains a wildcard character for counter only. For example, "\System\*". You can then pass the path to <a href="https://msdn.microsoft.com/415da310-de56-4d58-8959-231426867526">PdhExpandWildCardPath</a> to retrieve a list of actual paths for the object.
+If this flag is <b>TRUE</b>, the dialog lists only performance objects. When the user selects an object, the dialog returns a counter path that includes the object and wildcard characters for the instance name and counter if the object is a multiple instance object. For example, if the "Process" object is selected, the dialog returns the string "\Process(*)\*". If the object is a single instance object, the path contains a wildcard character for counter only. For example, "\System\*". You can then pass the path to <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> to retrieve a list of actual paths for the object.
 
 
 ### -field bReserved
@@ -163,7 +163,7 @@ Size of the <b>szReturnPathBuffer</b> buffer, in <b>TCHARs</b>. If the callback 
 ### -field pCallBack
 
 Pointer to the callback function that processes the user's selection. For more information, see 
-<a href="https://msdn.microsoft.com/b7a2112e-9f50-4a36-b022-f9609b2827bc">CounterPathCallBack</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nc-pdh-counterpathcallback">CounterPathCallBack</a>.
 
 
 ### -field dwCallBackArg
@@ -248,8 +248,8 @@ Pointer to a <b>null</b>-terminated string that specifies the optional caption t
 
 
 Each time the 
-<a href="https://msdn.microsoft.com/9daecfe6-c2a9-48af-8b59-4f81f0325535">Add</a> button is clicked, the <b>szReturnPathBuffer</b> buffer contains the selected counter and the <b>pCallBack</b> callback function is called. The callback function should call the 
-<a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a> function for each counter in the buffer.
+<a href="https://docs.microsoft.com/windows/desktop/SysMon/counters-add">Add</a> button is clicked, the <b>szReturnPathBuffer</b> buffer contains the selected counter and the <b>pCallBack</b> callback function is called. The callback function should call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function for each counter in the buffer.
 
 
 
@@ -259,15 +259,15 @@ Each time the
 
 
 
-<a href="https://msdn.microsoft.com/b7a2112e-9f50-4a36-b022-f9609b2827bc">CounterPathCallBack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nc-pdh-counterpathcallback">CounterPathCallBack</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8b9a332-ce28-46d4-92e2-91f9f6c24da5">PdhAddCounter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e9e4b20-a573-4f6d-97e8-63bcc675032b">PdhBrowseCounters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a>
  
 
  

@@ -86,7 +86,7 @@ The fence is of the non-monitored type. Non-monitored fences should only be used
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/731A60CA-644A-4FC2-8461-DDD686363BED">ID3D12Device::CreateFence</a> method.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createfence">ID3D12Device::CreateFence</a> method.
       
 
 
@@ -97,7 +97,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/731A60CA-644A-4FC2-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

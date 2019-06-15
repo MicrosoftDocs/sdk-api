@@ -63,7 +63,7 @@ The <code>SyncReadAligned</code> method performs a synchronous read. The method 
 
 ### -param pSample
 
-Pointer to the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface of a media sample provided by the caller.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface of a media sample provided by the caller.
 
 
 ## -returns
@@ -124,7 +124,7 @@ Before calling this method, retrieve a media sample from the pin's allocator. Ti
 
 The start and stop positions should match the alignment that was decided when the pins connected. Otherwise, the method returns VFW_E_BADALIGN. If the agreed alignment is coarser than the actual alignment of the stream, the stop position might exceed the real duration. If so, the method rounds the stop position down to the actual alignment.
 
-This method performs an unbuffered read, so it might be faster than the <a href="https://msdn.microsoft.com/21806449-97b1-4890-9182-a1244c21ba30">IAsyncReader::SyncRead</a> method.
+This method performs an unbuffered read, so it might be faster than the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncread">IAsyncReader::SyncRead</a> method.
 
 
 
@@ -134,11 +134,11 @@ This method performs an unbuffered read, so it might be faster than the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/54a18567-e9d4-4b12-b486-cdd70d719184">IAsyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
  
 
  

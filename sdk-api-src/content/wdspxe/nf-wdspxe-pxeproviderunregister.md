@@ -60,7 +60,7 @@ Removes a provider from the list of registered providers.
 ### -param pszProviderName [in]
 
 Display name for provider from the call to the 
-      <a href="https://msdn.microsoft.com/2b377855-dae7-47cb-925a-9ee0a9265f83">PxeProviderRegister</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a> function.
 
 
 ## -returns
@@ -77,11 +77,11 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://msdn.microsoft.com/2b377855-dae7-47cb-925a-9ee0a9265f83">PxeProviderRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

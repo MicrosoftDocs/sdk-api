@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DRT_SEARCH_RESULT</b> contains the registration entry and the type of match of the search result returned by <a href="https://msdn.microsoft.com/b89ea470-072e-46b6-9f5d-3e05aa012188">DrtGetSearchResult</a> when the <i>hEvent</i> passed into  <a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a> is signaled.
+The <b>DRT_SEARCH_RESULT</b> contains the registration entry and the type of match of the search result returned by <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a> when the <i>hEvent</i> passed into  <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> is signaled.
 
 
 ## -struct-fields
@@ -64,12 +64,12 @@ The size of the <b>DRT_SEARCH_RESULT</b> structure.
 
 ### -field type
 
-Specifies  the exactness of the search. This member corresponds to the <a href="https://msdn.microsoft.com/ab6e3a91-bd40-4a5e-889e-4d9c7279a4a3">DRT_MATCH_TYPE</a> enumeration.
+Specifies  the exactness of the search. This member corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type_tag">DRT_MATCH_TYPE</a> enumeration.
 
 
 ### -field pvContext
 
-Pointer to the context data passed to the <a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a> API.
+Pointer to the context data passed to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a> API.
 
 
 ### -field registration
@@ -87,15 +87,15 @@ The address that the DRT protocol is bound to on the node that corresponds to th
 
 
 
-<a href="https://msdn.microsoft.com/ab6e3a91-bd40-4a5e-889e-4d9c7279a4a3">DRT_MATCH_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_match_type_tag">DRT_MATCH_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b89ea470-072e-46b6-9f5d-3e05aa012188">DrtGetSearchResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/d43634d5-eb0a-4f84-9248-977c544db984">DrtStartSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
  
 
  

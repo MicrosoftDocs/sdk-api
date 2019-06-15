@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMpeg2TableFilter</b> interface controls which tables are parsed by the <a href="https://msdn.microsoft.com/03027748-03da-485c-8787-3cf171fff1e0">MPEG-2 Sections and Tables</a> filter. The <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information</a> filter exposes this interface on its output pins.
+The <b>IMpeg2TableFilter</b> interface controls which tables are parsed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mpeg-2-sections-and-tables-filter">MPEG-2 Sections and Tables</a> filter. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information</a> filter exposes this interface on its output pins.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2TableFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMpeg2TableFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2TableFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2TableFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMpeg2TableFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20484b0e-c6c8-4741-9672-a991ba368e92">AddExtension</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-addextension">AddExtension</a>
 </td>
 <td align="left" width="63%">
 Adds a table extension to the list of MPEG-2 table sections that the filter sends.
@@ -81,7 +81,7 @@ Adds a table extension to the list of MPEG-2 table sections that the filter send
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a811d1f-cb1b-4f45-8dee-ba83efd20709">AddPID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-addpid">AddPID</a>
 </td>
 <td align="left" width="63%">
 Adds a packet identifier (PID) to the list of PIDs that the filter sends.
@@ -90,7 +90,7 @@ Adds a packet identifier (PID) to the list of PIDs that the filter sends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b789bfda-bb7e-4a7b-999e-0e2e798df4d5">AddTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-addtable">AddTable</a>
 </td>
 <td align="left" width="63%">
 Adds a table identifier (TID) to the list of MPEG-2 table sections that the filter sends.
@@ -99,7 +99,7 @@ Adds a table identifier (TID) to the list of MPEG-2 table sections that the filt
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f29f29d-d411-44b7-bedb-6d10c49a0d4d">RemoveExtension</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-removeextension">RemoveExtension</a>
 </td>
 <td align="left" width="63%">
 Removes a table extension from the list.
@@ -108,7 +108,7 @@ Removes a table extension from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9ce49e3-e256-4150-ab73-b57ed34ab30c">RemovePID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-removepid">RemovePID</a>
 </td>
 <td align="left" width="63%">
 Removes a PID from the list.
@@ -117,7 +117,7 @@ Removes a PID from the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8875340-48cf-47eb-a7cc-58e181df37fb">RemoveTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2tablefilter-removetable">RemoveTable</a>
 </td>
 <td align="left" width="63%">
 Removes a TID from the list.
@@ -141,15 +141,15 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-mpeg-2-transport-information-filter">BDA MPEG-2 Transport Information Filter</a>
 
 
 
-<a href="https://msdn.microsoft.com/03027748-03da-485c-8787-3cf171fff1e0">MPEG-2 Sections and Tables Filter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mpeg-2-sections-and-tables-filter">MPEG-2 Sections and Tables Filter</a>
  
 
  

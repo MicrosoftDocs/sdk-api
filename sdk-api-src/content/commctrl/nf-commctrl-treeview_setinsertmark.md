@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the insertion mark in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773753(v=VS.85).aspx">TVM_SETINSERTMARK</a> message explicitly. 
+Sets the insertion mark in a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setinsertmark">TVM_SETINSERTMARK</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the insertion mark in a tree-view control. You can use this macro or send t
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control. 
 
@@ -73,7 +73,7 @@ Type: <b>HTREEITEM</b>
 
 ### -param fAfter
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>BOOL</b> value that specifies if the insertion mark is placed before or after the specified item. If this argument is nonzero, the insertion mark will be placed after the item. If this argument is zero, the insertion mark will be placed before the item. 
 

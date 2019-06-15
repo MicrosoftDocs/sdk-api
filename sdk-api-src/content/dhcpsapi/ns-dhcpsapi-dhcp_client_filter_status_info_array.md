@@ -67,7 +67,7 @@ Integer value that contains the number of DHCPv4 clients in the subsequent field
 
 ### -field Clients
 
-Pointer to an array of  <a href="https://msdn.microsoft.com/71b36ce1-e3de-4904-bbf2-8d305bae06b0">DHCP_CLIENT_FILTER_STATUS_INFO</a> structures that contain the DHCPv4 clients'  information.
+Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a> structures that contain the DHCPv4 clients'  information.
 
 
 
@@ -89,7 +89,7 @@ Pointer to an array of  <a href="https://msdn.microsoft.com/71b36ce1-e3de-4904-b
 
 
 
-<a href="https://msdn.microsoft.com/71b36ce1-e3de-4904-bbf2-8d305bae06b0">DHCP_CLIENT_FILTER_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_filter_status_info">DHCP_CLIENT_FILTER_STATUS_INFO</a>
  
 
  

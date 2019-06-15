@@ -63,7 +63,7 @@ Contains description properties of the resource binding.
 
 ### -field ElementType
 
-A <a href="https://msdn.microsoft.com/A8EB60A1-F769-460F-8C94-5D1DE3A1820F">WINML_TENSOR_DATA_TYPE</a> containing the element tensor data type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_tensor_data_type">WINML_TENSOR_DATA_TYPE</a> containing the element tensor data type.
 
 
 ### -field NumDimensions
@@ -78,5 +78,5 @@ A pointer to the shape of the resource.
 
 ### -field pResource
 
-A pointer to an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> describing the D3D12 resource.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> describing the D3D12 resource.
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines types of I/O statistics reported by CLFS and is used when a client calls <a href="https://msdn.microsoft.com/1d4a5486-8a9e-480a-952c-12fc7386af3e">GetLogIoStatistics</a>.  Currently, log flush rates are the only type of statistic reported, but this enumeration will reflect more types of statistics in the future.
+Defines types of I/O statistics reported by CLFS and is used when a client calls <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>.  Currently, log flush rates are the only type of statistic reported, but this enumeration will reflect more types of statistics in the future.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ The log flush rate.
 
 
 
-<a href="https://msdn.microsoft.com/1d4a5486-8a9e-480a-952c-12fc7386af3e">GetLogIoStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
  
 
  

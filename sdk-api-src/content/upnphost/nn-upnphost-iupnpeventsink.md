@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPEventSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUPnPEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPEventSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPEventSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,20 +70,20 @@ The <b>IUPnPEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb87345e-6a61-48fd-94dc-9a90f756a586">OnStateChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsink-onstatechanged">OnStateChanged</a>
 </td>
 <td align="left" width="63%">
-Method that sends the list of <a href="https://msdn.microsoft.com/en-us/library/ms221242(v=VS.85).aspx">dispids</a> for state variables that have changed and their changed values to the device host. The device host then queries the device for the changed values and sends the event to all subscribed control points.
+Method that sends the list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispid-constants">dispids</a> for state variables that have changed and their changed values to the device host. The device host then queries the device for the changed values and sends the event to all subscribed control points.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95792229-287c-43f1-b03a-45aa63a9682f">OnStateChangedSafe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsink-onstatechangedsafe">OnStateChangedSafe</a>
 </td>
 <td align="left" width="63%">
 The version of 
-<a href="https://msdn.microsoft.com/bb87345e-6a61-48fd-94dc-9a90f756a586">OnStateChanged</a> method that must be used by developers using programming languages that do not support native arrays, such as Visual Basic.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsink-onstatechanged">OnStateChanged</a> method that must be used by developers using programming languages that do not support native arrays, such as Visual Basic.
 
 </td>
 </tr>

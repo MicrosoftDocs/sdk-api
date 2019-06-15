@@ -135,15 +135,15 @@ If the atom specified by the <i>guidatom</i> parameter represents the <b>GUID</b
 
 
 
-<a href="https://msdn.microsoft.com/26139c8c-e1d9-4d7a-a0c0-ef73e572fbe4">ITfCategoryMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5f5a67c-3152-4933-8a35-0a0cd555a0bf">ITfCategoryMgr::GetGUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguid">ITfCategoryMgr::GetGUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0de17d9-be3a-4f68-a77d-880047775952">ITfCategoryMgr::RegisterGUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguid">ITfCategoryMgr::RegisterGUID</a>
  
 
  

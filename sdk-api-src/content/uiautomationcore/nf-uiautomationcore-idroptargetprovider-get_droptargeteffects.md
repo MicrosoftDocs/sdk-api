@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-Some drag operations support a set of different drop effects. For example, a drag operation that is initiated with a right-click might display a menu of options for the action that occurs when the element is dropped.  To find out the set of effects that can happen when the grabbed element is dropped, a client can query the <a href="https://msdn.microsoft.com/66DEC1A0-5AB4-41C7-AA7A-F512AE388999">DropEffects</a> property of the dragged element.  This property can contain short strings such as "move", or longer ones such as "insert into Main group".  The strings are always localized.
+Some drag operations support a set of different drop effects. For example, a drag operation that is initiated with a right-click might display a menu of options for the action that occurs when the element is dropped.  To find out the set of effects that can happen when the grabbed element is dropped, a client can query the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-get_dropeffects">DropEffects</a> property of the dragged element.  This property can contain short strings such as "move", or longer ones such as "insert into Main group".  The strings are always localized.
 
 
 
@@ -72,7 +72,7 @@ Some drag operations support a set of different drop effects. For example, a dra
 
 
 
-<a href="https://msdn.microsoft.com/ECCDC429-4829-46E0-AE77-270024E2DA48">IDropTargetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider">IDropTargetProvider</a>
  
 
  

@@ -60,7 +60,7 @@ The <b>LsaUnregisterPolicyChangeNotification</b> function disables a previously 
 ### -param InformationClass [in]
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/ms721909(v=VS.85).aspx">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the policy changes that your application will stop receiving notifications for. Specify one of the following values. 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_policy_notification_information_class">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the policy changes that your application will stop receiving notifications for. Specify one of the following values. 
 
 
 
@@ -147,10 +147,10 @@ A handle to the notification event to unregister.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 You can use the 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 
 
@@ -160,7 +160,7 @@ You can use the
 
 
 For an example that demonstrates calling this function see 
-<a href="https://msdn.microsoft.com/29c693f5-db2b-4fda-847c-4e5220eadfd3">Receiving Policy Change Events</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/receiving-policy-change-events">Receiving Policy Change Events</a>.
 
 
 
@@ -170,7 +170,7 @@ For an example that demonstrates calling this function see
 
 
 
-<a href="https://msdn.microsoft.com/0c713d2b-e13a-44e0-8b48-68b233d1c562">LsaRegisterPolicyChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification">LsaRegisterPolicyChangeNotification</a>
  
 
  

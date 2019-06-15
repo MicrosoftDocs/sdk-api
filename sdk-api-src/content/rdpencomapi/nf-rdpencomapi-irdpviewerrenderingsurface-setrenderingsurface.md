@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/24d818ec-f58d-4bf1-adf8-c15560595147">IRDPViewerRenderingSurface</a> interface is no longer available for use as of Windows 10, version 1709.]
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface">IRDPViewerRenderingSurface</a> interface is no longer available for use as of Windows 10, version 1709.]
 
 Sets the rendering surface to be used by the viewer.
 
@@ -88,7 +88,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/24d818ec-f58d-4bf1-adf8-c15560595147">IRDPViewerRenderingSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerrenderingsurface">IRDPViewerRenderingSurface</a>
  
 
  

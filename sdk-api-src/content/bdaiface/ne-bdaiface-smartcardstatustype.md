@@ -90,7 +90,7 @@ Firmware upgrade.
 
 
 
-<a href="https://msdn.microsoft.com/13183e2a-6fbb-422c-b93c-53c12cb27423">BDA Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>
  
 
  

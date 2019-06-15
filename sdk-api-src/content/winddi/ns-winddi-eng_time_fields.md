@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The ENG_TIME_FIELDS structure is used by the  <a href="https://msdn.microsoft.com/826993fc-7cf2-4747-a0d9-086e5d7310b6">EngQueryLocalTime</a> function to return the local time. 
+The ENG_TIME_FIELDS structure is used by the  <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engquerylocaltime">EngQueryLocalTime</a> function to return the local time. 
 
 
 ## -struct-fields
@@ -111,7 +111,7 @@ The driver is responsible for allocating the ENG_TIME_FIELDS structure and passi
 
 
 
-<a href="https://msdn.microsoft.com/826993fc-7cf2-4747-a0d9-086e5d7310b6">EngQueryLocalTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engquerylocaltime">EngQueryLocalTime</a>
  
 
  

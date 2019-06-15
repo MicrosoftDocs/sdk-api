@@ -76,7 +76,7 @@ Indicates the query is for high definition GPU and CPU timestamps.
 
 ### -field D3D12_QUERY_TYPE_PIPELINE_STATISTICS
 
-Indicates the query type is for graphics pipeline statistics, refer to <a href="https://msdn.microsoft.com/0A84A3C8-0F6F-420E-88C9-26EC03F03179">D3D12_QUERY_DATA_PIPELINE_STATISTICS</a>.
+Indicates the query type is for graphics pipeline statistics, refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_data_pipeline_statistics">D3D12_QUERY_DATA_PIPELINE_STATISTICS</a>.
 
 
 ### -field D3D12_QUERY_TYPE_SO_STATISTICS_STREAM0
@@ -105,14 +105,14 @@ Video decode statistics. Refer to <a href="direct3d12.d3d12_query_data_video_dec
 
 Use this query type to determine if a video was successfully decoded. If decoding fails due to insufficient BitRate or FrameRate parameters set during creation of the decode heap, then the status field of the query is set to D3D12_VIDEO_DECODE_STATUS_RATE_EXCEEDED and the query also contains new BitRate and FrameRate values that would succeed.
 
-This query type can only be performed on video decode command lists (<a href="https://msdn.microsoft.com/28BC70FF-6818-4B8D-9DE4-8316AB2FB288">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). This query type does not use <a href="direct3d12.id3d12videodecodecommandlist_beginquery">ID3D12VideoDecodeCommandList::BeginQuery</a>, only <a href="direct3d12.id3d12videodecodecommandlist_endquery">ID3D12VideoDecoeCommandList::EndQuery</a>. Statistics are recorded only for the most recent <a href="direct3d12.id3d12videodecodecommandlist_decodeframe">ID3D12VideoDecoeCommandList::DecodeFrame</a> call in the same command list.
+This query type can only be performed on video decode command lists (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type">D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE</a>). This query type does not use <a href="direct3d12.id3d12videodecodecommandlist_beginquery">ID3D12VideoDecodeCommandList::BeginQuery</a>, only <a href="direct3d12.id3d12videodecodecommandlist_endquery">ID3D12VideoDecoeCommandList::EndQuery</a>. Statistics are recorded only for the most recent <a href="direct3d12.id3d12videodecodecommandlist_decodeframe">ID3D12VideoDecoeCommandList::DecodeFrame</a> call in the same command list.
 
 
 ## -remarks
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/38011ED8-C867-4ECE-880F-3963A17790F7">BeginQuery</a>, <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a> and <a href="https://msdn.microsoft.com/E3154DB7-DDA9-4480-A918-19C3A62944F2">ResolveQueryData.</a>
+This enum is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery">BeginQuery</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvequerydata">ResolveQueryData.</a>
 
 
 
@@ -123,7 +123,7 @@ This enum is used by <a href="https://msdn.microsoft.com/38011ED8-C867-4ECE-880F
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

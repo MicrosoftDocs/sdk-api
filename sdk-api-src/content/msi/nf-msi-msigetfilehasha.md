@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>MsiGetFileHash</b> function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use 
 <b>MsiGetFileHash</b> to obtain the file hash needed to populate the 
-<a href="https://msdn.microsoft.com/972a2784-418d-4cb3-b13c-df89b079e94c">MsiFileHash table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>.
 
 Windows Installer uses file hashing as a means to detect and eliminate unnecessary file copying. A file hash stored in the MsiFileHash table may be compared to a hash of an existing file on the user's computer.
 
@@ -148,11 +148,11 @@ Unexpected error has occurred.
 
 The entire 128-bit file hash is returned as four 32-bit fields. The numbering of the four fields is zero-based. The values returned by 
 <b>MsiGetFileHash</b> correspond to the four fields of the 
-<a href="https://msdn.microsoft.com/b4176b5b-149d-4542-9a6c-27281877a3ff">MSIFILEHASHINFO</a> structure. The first field corresponds to the HashPart1 column of the MsiFileHash table, the second field corresponds to the HashPart2 column, the third field corresponds to the HashPart3 column, and the fourth field corresponds to the HashPart4 column.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-_msifilehashinfo">MSIFILEHASHINFO</a> structure. The first field corresponds to the HashPart1 column of the MsiFileHash table, the second field corresponds to the HashPart2 column, the third field corresponds to the HashPart3 column, and the fourth field corresponds to the HashPart4 column.
 
 The hash information entered into the MsiFileHash table must be obtained by calling 
 <b>MsiGetFileHash</b> or the 
-<a href="https://msdn.microsoft.com/065ffde1-4d7c-4e71-9315-7926d4cd38ed">FileHash</a> method. Do not attempt to use other methods to generate the file hash.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-filehash">FileHash</a> method. Do not attempt to use other methods to generate the file hash.
 
 
 
@@ -162,15 +162,15 @@ The hash information entered into the MsiFileHash table must be obtained by call
 
 
 
-<a href="https://msdn.microsoft.com/a09e091c-ee82-4951-b129-d1d4c8948883">Default File Versioning</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/default-file-versioning">Default File Versioning</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4176b5b-149d-4542-9a6c-27281877a3ff">MSIFILEHASHINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-_msifilehashinfo">MSIFILEHASHINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/972a2784-418d-4cb3-b13c-df89b079e94c">MsiFileHash table</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>
  
 
  

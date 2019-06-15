@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Uses <a href="https://msdn.microsoft.com/c254a167-c4e7-4b84-9be3-6862761309f8">CheckTokenMembership</a> to test whether the given token is a member of the local group with the specified RID.
+Uses <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a> to test whether the given token is a member of the local group with the specified RID.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Returns <b>TRUE</b> on success, <b>FALSE</b> on failure.
 
 
 
-This function wraps <a href="https://msdn.microsoft.com/c254a167-c4e7-4b84-9be3-6862761309f8">CheckTokenMembership</a> and only checks local groups.
+This function wraps <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-checktokenmembership">CheckTokenMembership</a> and only checks local groups.
 
 
 

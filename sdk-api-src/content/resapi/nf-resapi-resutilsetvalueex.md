@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a value in the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
+Sets a value in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 
 ## -parameters

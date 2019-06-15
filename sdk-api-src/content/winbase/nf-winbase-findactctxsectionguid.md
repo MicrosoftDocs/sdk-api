@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The 
 <b>FindActCtxSectionGuid</b> function retrieves information on a specific GUID in the current activation context and returns a 
-<a href="https://msdn.microsoft.com/c73160e7-fff5-4ba5-8b3a-895ac944c76d">ACTCTX_SECTION_KEYED_DATA</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure.
 
 
 ## -parameters
@@ -79,8 +79,8 @@ Flags that determine how this function is to operate. Only the following flag is
 </td>
 <td width="60%">
 This function returns the activation context handle where the redirection data was found in the <b>hActCtx</b> member of the 
-<a href="https://msdn.microsoft.com/c73160e7-fff5-4ba5-8b3a-895ac944c76d">ACTCTX_SECTION_KEYED_DATA</a> structure. The caller must use 
-<a href="https://msdn.microsoft.com/aaf58969-06b7-4981-83af-651252339186">ReleaseActCtx</a> to release this activation context.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure. The caller must use 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-releaseactctx">ReleaseActCtx</a> to release this activation context.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ Pointer to a GUID to be used as the search criteria.
 ### -param ReturnedData [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/c73160e7-fff5-4ba5-8b3a-895ac944c76d">ACTCTX_SECTION_KEYED_DATA</a> structure to be filled out with the requested GUID information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a> structure to be filled out with the requested GUID information.
 
 
 ## -returns
@@ -131,9 +131,9 @@ Pointer to an
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. For an example, see 
-<a href="https://msdn.microsoft.com/4cc626ac-7574-44ce-8377-e0bdd8e74b7e">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -152,11 +152,11 @@ This function should only be called by the Side-by-side API functions or COM met
 
 
 
-<a href="https://msdn.microsoft.com/c73160e7-fff5-4ba5-8b3a-895ac944c76d">ACTCTX_SECTION_KEYED_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-tagactctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3f0b057-44ec-47ec-a0aa-69f3540b8900">FindActCtxSectionString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findactctxsectionstringa">FindActCtxSectionString</a>
  
 
  

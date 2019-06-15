@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines a 
    storage device using a particular code set and type.
@@ -63,13 +63,13 @@ Defines a
 ### -field m_CodeSet
 
 The encoding type of <b>m_rgbIdentifier</b> enumerated by 
-      <a href="https://msdn.microsoft.com/6b4a3282-dc0c-4974-8c4c-777a28fb9005">VDS_STORAGE_IDENTIFIER_CODE_SET</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_code_set">VDS_STORAGE_IDENTIFIER_CODE_SET</a>.
 
 
 ### -field m_Type
 
 The type of <b>m_rgbIdentifier</b> enumerated by 
-      <a href="https://msdn.microsoft.com/396ca6c1-fae3-4584-97c9-2c4dfbc170d5">VDS_STORAGE_IDENTIFIER_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_type">VDS_STORAGE_IDENTIFIER_TYPE</a>.
 
 
 ### -field m_cbIdentifier
@@ -86,7 +86,7 @@ Pointer to the identifier data.
 
 
 
-The <a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
     structure includes this structure as a member to specify a particular storage device identifier for a LUN.
 
 
@@ -97,19 +97,19 @@ The <a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VD
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b4a3282-dc0c-4974-8c4c-777a28fb9005">VDS_STORAGE_IDENTIFIER_CODE_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_code_set">VDS_STORAGE_IDENTIFIER_CODE_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/396ca6c1-fae3-4584-97c9-2c4dfbc170d5">VDS_STORAGE_IDENTIFIER_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_identifier_type">VDS_STORAGE_IDENTIFIER_TYPE</a>
  
 
  

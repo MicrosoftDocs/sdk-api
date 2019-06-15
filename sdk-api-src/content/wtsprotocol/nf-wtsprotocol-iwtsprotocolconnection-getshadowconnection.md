@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::GetShadowConnection</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/1b1059af-f673-47fd-85fc-57df76adfbcf">IWRdsProtocolConnection::GetShadowConnection</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::GetShadowConnection</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getshadowconnection">IWRdsProtocolConnection::GetShadowConnection</a>.]
 
-Retrieves a  <a href="https://msdn.microsoft.com/83285a6a-903f-4c23-8f62-b04bbeaa52f9">IWTSProtocolShadowConnection</a> object from the protocol. The method must add a reference to the object before returning. When the Remote Desktop Services service has finished the licensing process, it will release the reference.
+Retrieves a  <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolshadowconnection">IWTSProtocolShadowConnection</a> object from the protocol. The method must add a reference to the object before returning. When the Remote Desktop Services service has finished the licensing process, it will release the reference.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves a  <a href="https://msdn.microsoft.com/83285a6a-903f-4c23-8f62-b04bbea
 
 ### -param ppShadowConnection [out]
 
- The address of a pointer to an <a href="https://msdn.microsoft.com/83285a6a-903f-4c23-8f62-b04bbeaa52f9">IWTSProtocolShadowConnection</a> interface.
+ The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolshadowconnection">IWTSProtocolShadowConnection</a> interface.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Retrieves a  <a href="https://msdn.microsoft.com/83285a6a-903f-4c23-8f62-b04bbea
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

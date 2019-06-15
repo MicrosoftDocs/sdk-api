@@ -70,7 +70,7 @@ Handle to the ACM driver to query for waveform-audio format tag details. If this
 
 ### -param paftd
 
-Pointer to the <a href="https://msdn.microsoft.com/134cccb1-4065-407f-a02b-7bd340b4a8cf">ACMFORMATTAGDETAILS</a> structure that is to receive the format tag details.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure that is to receive the format tag details.
 
 
 ### -param fdwDetails
@@ -86,15 +86,15 @@ Flags for getting the details. The following values are defined.
 </tr>
 <tr>
 <td>ACM_FORMATTAGDETAILSF_FORMATTAG</td>
-<td>A format tag was given in the <b>dwFormatTag</b> member of the <a href="https://msdn.microsoft.com/134cccb1-4065-407f-a02b-7bd340b4a8cf">ACMFORMATTAGDETAILS</a> structure. The format tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the format tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
+<td>A format tag was given in the <b>dwFormatTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure. The format tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the format tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
 </tr>
 <tr>
 <td>ACM_FORMATTAGDETAILSF_INDEX</td>
-<td>A format tag index was given in the <b>dwFormatTagIndex</b> member of the <b>ACMFORMATTAGDETAILS</b> structure. The format tag and details will be returned in the structure defined by <i>paftd</i>. The index ranges from zero to one less than the <b>cFormatTags</b> member returned in the <a href="https://msdn.microsoft.com/b45b26e2-a9c0-4d01-9989-a071d9c73993">ACMDRIVERDETAILS</a> structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving format tag details with this flag.</td>
+<td>A format tag index was given in the <b>dwFormatTagIndex</b> member of the <b>ACMFORMATTAGDETAILS</b> structure. The format tag and details will be returned in the structure defined by <i>paftd</i>. The index ranges from zero to one less than the <b>cFormatTags</b> member returned in the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmdriverdetails">ACMDRIVERDETAILS</a> structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving format tag details with this flag.</td>
 </tr>
 <tr>
 <td>ACM_FORMATTAGDETAILSF_LARGESTSIZE</td>
-<td>Details on the format tag with the largest format size, in bytes, are to be returned. The <b>dwFormatTag</b> member of the <a href="https://msdn.microsoft.com/134cccb1-4065-407f-a02b-7bd340b4a8cf">ACMFORMATTAGDETAILS</a> structure must either be WAVE_FORMAT_UNKNOWN or the format tag to find the largest size for. If an application specifies an ACM driver handle for <i>had</i>, details on the largest format tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds an acceptable driver with the largest format tag requested to return the details.</td>
+<td>Details on the format tag with the largest format size, in bytes, are to be returned. The <b>dwFormatTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformattagdetails">ACMFORMATTAGDETAILS</a> structure must either be WAVE_FORMAT_UNKNOWN or the format tag to find the largest size for. If an application specifies an ACM driver handle for <i>had</i>, details on the largest format tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds an acceptable driver with the largest format tag requested to return the details.</td>
 </tr>
 </table>
  
@@ -166,11 +166,11 @@ At least one parameter is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

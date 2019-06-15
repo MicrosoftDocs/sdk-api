@@ -73,7 +73,7 @@ The index of the MIB object to query.
 
 
 
-<a href="https://msdn.microsoft.com/d364b08b-80b9-4320-b5bb-e1627d3ce889">MIB_OPAQUE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_mib_opaque_info">MIB_OPAQUE_INFO</a>
  
 
  

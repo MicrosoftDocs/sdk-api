@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <i>AutoCorrectProc</i> function is an 
     application-defined  callback function that is used with the 
-    <a href="https://msdn.microsoft.com/2FA48CFC-0D7C-41EF-8207-5EDC644FF3BC">EM_SETAUTOCORRECTPROC</a> message.
+    <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setautocorrectproc">EM_SETAUTOCORRECTPROC</a> message.
 
 <i>AutoCorrectProc</i> is a placeholder for the 
     application-defined function name. It provides application-defined automatic error correction for text entered 
@@ -65,7 +65,7 @@ The <i>AutoCorrectProc</i> function is an
 
 ### -param langid
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LANGID</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LANGID</a></b>
 
 Language ID that identifies the autocorrect file to use for automatic correcting. 
 
@@ -73,7 +73,7 @@ Language ID that identifies the autocorrect file to use for automatic correcting
 
 ### -param *pszBefore
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
 Autocorrect candidate string. 
 
@@ -81,7 +81,7 @@ Autocorrect candidate string.
 
 ### -param *pszAfter
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
 Resulting autocorrect string, if the return value is not <b>ATP_NOCHANGE</b>. 
 
@@ -89,7 +89,7 @@ Resulting autocorrect string, if the return value is not <b>ATP_NOCHANGE</b>.
 
 ### -param cchAfter
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Count of characters in <i>pszAfter</i>. 
 
@@ -97,7 +97,7 @@ Count of characters in <i>pszAfter</i>.
 
 ### -param *pcchReplaced
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 Count of trailing characters in <i>pszBefore</i> to replace with <i>pszAfter</i>.
 
@@ -175,15 +175,15 @@ Replace trailing characters even if they are not changed (uses the same formatti
 
 
 
-<a href="https://msdn.microsoft.com/93116467-B345-4FD9-9162-3E01CF3C6F20">EM_CALLAUTOCORRECTPROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-callautocorrectproc">EM_CALLAUTOCORRECTPROC</a>
 
 
 
-<a href="https://msdn.microsoft.com/90821036-F27D-4AC3-9AB8-40A94486B938">EM_GETAUTOCORRECTPROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-getautocorrectproc">EM_GETAUTOCORRECTPROC</a>
 
 
 
-<a href="https://msdn.microsoft.com/2FA48CFC-0D7C-41EF-8207-5EDC644FF3BC">EM_SETAUTOCORRECTPROC</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-setautocorrectproc">EM_SETAUTOCORRECTPROC</a>
  
 
  

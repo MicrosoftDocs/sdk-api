@@ -54,7 +54,7 @@ Exposes methods that update the queue of tasks for Remote Desktop Connection Bro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbTaskPlugin</b> interface inherits from <a href="https://msdn.microsoft.com/db3d3ee7-9e53-4bac-9711-4e85f1016db9">ITsSbPlugin</a>. <b>ITsSbTaskPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbTaskPlugin</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>. <b>ITsSbTaskPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbTaskPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e8722c4-0070-448a-a97c-aeb1db59ac7b">InitializeTaskPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-initializetaskplugin">InitializeTaskPlugin</a>
 </td>
 <td align="left" width="63%">
 Initializes a task that is in the queue of a Remote Desktop Connection Broker plugin.
@@ -78,7 +78,7 @@ Initializes a task that is in the queue of a Remote Desktop Connection Broker pl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a17e4767-5311-4f9b-9d05-cd9e35f7c5e2">SetTaskQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskplugin-settaskqueue">SetTaskQueue</a>
 </td>
 <td align="left" width="63%">
 Updates a task in the queue of  a Remote Desktop Connection Broker plugin.
@@ -93,11 +93,11 @@ Updates a task in the queue of  a Remote Desktop Connection Broker plugin.
 
 
 
-<a href="https://msdn.microsoft.com/db3d3ee7-9e53-4bac-9711-4e85f1016db9">ITsSbPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a>
 
 
 
-<a href="https://msdn.microsoft.com/150a3c9a-d504-4854-adaa-92e3a7e8ea70">Remote Desktop Virtualization Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
  
 
  

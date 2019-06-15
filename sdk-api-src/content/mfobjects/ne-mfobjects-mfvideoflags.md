@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Contains flags that describe a video stream.
 
-These flags are used in the <a href="https://msdn.microsoft.com/746fd84f-58f8-42ab-bcf7-8fd18dcd02af">MFVideoInfo</a> structure, which is part of the <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure.
+These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoinfo">MFVideoInfo</a> structure, which is part of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 
 ## -enum-fields
@@ -163,7 +163,7 @@ Reserved. This member forces the enumeration type to compile as a <b>QWORD</b> v
 
 
 
-Developers are encouraged to use media type attributes instead of using the <a href="https://msdn.microsoft.com/7fbc4a35-117c-4f0c-9e9b-ff44e30a1618">MFVIDEOFORMAT</a> structure. The following table lists the attributes that correspond to the flags defined in this enumeration.
+Developers are encouraged to use media type attributes instead of using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfvideoformat">MFVIDEOFORMAT</a> structure. The following table lists the attributes that correspond to the flags defined in this enumeration.
 
 <table>
 <tr>
@@ -180,7 +180,7 @@ MFVideoFlag_PAD_TO_16x9
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/d7fec5fb-a1fe-4cc9-aa27-a3af0456ea8d">MF_MT_PAD_CONTROL_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-pad-control-flags-attribute">MF_MT_PAD_CONTROL_FLAGS</a>
 </td>
 </tr>
 <tr>
@@ -193,7 +193,7 @@ MFVideoFlag_SrcContentHint235_1
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/6b32e257-c523-4859-8c8f-661c33810624">MF_MT_SOURCE_CONTENT_HINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-source-content-hint-attribute">MF_MT_SOURCE_CONTENT_HINT</a>
 </td>
 </tr>
 <tr>
@@ -204,18 +204,18 @@ MFVideoFlag_DigitallyProtected
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/fb12ba38-a4f4-44fe-bf31-e731c56bb145">MF_MT_DRM_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-drm-flags-attribute">MF_MT_DRM_FLAGS</a>
 </td>
 </tr>
 <tr>
 <td>MFVideoFlag_PanScanEnabled</td>
 <td>
-<a href="https://msdn.microsoft.com/9e8746c6-13a4-4cf7-9748-82223d9529fa">MF_MT_PAN_SCAN_ENABLED</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-pan-scan-enabled-attribute">MF_MT_PAN_SCAN_ENABLED</a>
 </td>
 </tr>
 <tr>
 <td>MFVideoFlag_BottomUpLinearRep</td>
-<td>Use the <a href="https://msdn.microsoft.com/71fda231-3497-49db-b82e-2fd79f6ade66">MF_MT_DEFAULT_STRIDE</a> attribute to specify a negative stride.</td>
+<td>Use the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-default-stride-attribute">MF_MT_DEFAULT_STRIDE</a> attribute to specify a negative stride.</td>
 </tr>
 </table>
  
@@ -235,7 +235,7 @@ The following flags were defined to describe per-sample interlacing information,
             
           </li>
 </ul>
-Instead, components should use sample attributes to describe per-sample interlacing information, as described in the topic <a href="https://msdn.microsoft.com/2911ae57-1703-4a9d-bd33-94af1e0f8804">Video Interlacing</a>.
+Instead, components should use sample attributes to describe per-sample interlacing information, as described in the topic <a href="https://docs.microsoft.com/windows/desktop/medfound/video-interlacing">Video Interlacing</a>.
 
 
 
@@ -245,15 +245,15 @@ Instead, components should use sample attributes to describe per-sample interlac
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/e84ba3f6-4857-4340-baca-5847650ea7b8">Media Type Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/690fda6e-dcbd-44dc-968d-cc949126da81">Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
  
 
  

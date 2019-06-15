@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<a href="https://msdn.microsoft.com/07d9853f-d38c-4e5b-815a-3dc0157b4d8d">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_cache_policy_type">HTTP_DATA_CHUNK_TYPE</a> enumeration type defines the data source for a data chunk.
 
 
 ## -enum-fields

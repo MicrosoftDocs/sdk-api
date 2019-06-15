@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Opens a 
-    <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The 
     <b>POPEN_ROUTINE</b> type defines a pointer to this function.
 
 
@@ -67,15 +67,15 @@ Name of the resource to open.
 ### -param ResourceKey [in]
 
 
-<a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">Cluster database</a> key for the 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> that includes the resource represented by 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key for the 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> that includes the resource represented by 
        <i>ResourceName</i>.
 
 
 ### -param ResourceHandle [in]
 
-Handle to be passed to the <a href="https://msdn.microsoft.com/8ddb4578-f8c4-462e-af04-8c537d585e8b">SetResourceStatus</a> 
-       callback function in the <a href="https://msdn.microsoft.com/b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3">Startup</a> entry-point function.
+Handle to be passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a> 
+       callback function in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_routine">Startup</a> entry-point function.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If the operation was successful, <i>Open</i> returns a resource
        identifier (<b>RESID</b>).
 
 If the operation was not successful, <i>Open</i> returns 
-       <b>NULL</b>. Call  <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to 
+       <b>NULL</b>. Call  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to 
        specify that an error has occurred.
 
 
@@ -99,20 +99,20 @@ If the operation was not successful, <i>Open</i> returns
 The <i>Open</i> entry-point function opens a resource with the name 
      identified by the <i>ResourceName</i> parameter and returns its resource identifier. The 
      resource identifier can be used in future calls to other 
-     <a href="https://msdn.microsoft.com/764a35dd-a681-4af0-8e2c-281a254a3a30">Resource API</a> entry points to identify the resource.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a> entry points to identify the resource.
 
 Never close the handle represented by the <i>ResourceHandle</i> parameter or use it for any 
-     purpose other than passing it to the <a href="https://msdn.microsoft.com/caebb47f-c2c5-463e-a957-d9eefc7fc33d">Resource Monitor</a> 
-     through either the <a href="https://msdn.microsoft.com/91389083-e007-4d64-885f-e5188e74b9d8">LogEvent</a> callback function or the 
-     <a href="https://msdn.microsoft.com/8ddb4578-f8c4-462e-af04-8c537d585e8b">SetResourceStatus</a> callback function.
+     purpose other than passing it to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> 
+     through either the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> callback function or the 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a> callback function.
 
 For effective implementation strategies of the <i>Open</i> 
-     entry-point function, see <a href="https://msdn.microsoft.com/ba8733dc-ec22-4e21-ab21-a7cbf89273e4">Implementing Open</a>.
+     entry-point function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-open">Implementing Open</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="https://docs.microsoft.com/previous-versions//aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
@@ -123,15 +123,15 @@ See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource
 
 
 
-<a href="https://msdn.microsoft.com/91389083-e007-4d64-885f-e5188e74b9d8">LogEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ddb4578-f8c4-462e-af04-8c537d585e8b">SetResourceStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>
  
 
  

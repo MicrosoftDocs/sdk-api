@@ -52,7 +52,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The 
-<b>MIB_UDPSTATS2</b> structure contains statistics for the User Datagram Protocol (UDP) running on the local computer. This structure is different from <a href="https://msdn.microsoft.com/128bae44-59a2-4e37-a588-a18805b9e340">MIB_UDPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
+<b>MIB_UDPSTATS2</b> structure contains statistics for the User Datagram Protocol (UDP) running on the local computer. This structure is different from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udpstats">MIB_UDPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ The number of entries in the UDP listener table.
 
 
 The 
-			<a href="https://msdn.microsoft.com/en-us/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatisticsex2">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
 
 
 
@@ -100,15 +100,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt803265(v=VS.85).aspx">GetTcpStatisticsEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex2">GetTcpStatisticsEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatisticsex2">GetUdpStatisticsEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/db366802-962f-4e83-838e-1e2f51beab92">MIB_UDPROW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udprow">MIB_UDPROW</a>
  
 
  

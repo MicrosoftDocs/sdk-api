@@ -61,7 +61,7 @@ The
 ### -param pTcpRow [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a> structure. This structure specifies information to identify the TCP connection to modify. It also specifies the new state for the TCP connection. The caller must specify values for all the members in this structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> structure. This structure specifies information to identify the TCP connection to modify. It also specifies the new state for the TCP connection. The caller must specify values for all the members in this structure.
 
 
 ## -returns
@@ -95,7 +95,7 @@ Access is denied. This error is returned on Windows Vista and Windows Server 2
 </dl>
 </td>
 <td width="60%">
-An input parameter is invalid, no action was taken.  This error is returned if the <i>pTcpRow</i> parameter is <b>NULL</b> or the <b>Row</b> member in the <a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a> structure pointed to by the <i>pTcpRow</i> parameter is not set to MIB_TCP_STATE_DELETE_TCB.
+An input parameter is invalid, no action was taken.  This error is returned if the <i>pTcpRow</i> parameter is <b>NULL</b> or the <b>Row</b> member in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a> structure pointed to by the <i>pTcpRow</i> parameter is not set to MIB_TCP_STATE_DELETE_TCB.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The IPv4 transport is not configured on the local computer.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -159,15 +159,15 @@ The <b>SetTcpEntry</b> function can also fail because of user account control (U
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/36364854-caa8-4652-be8e-f741b36d9fd7">MIB_TCPROW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcprow_lh">MIB_TCPROW</a>
  
 
  

@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Obtained by calling <a href="https://msdn.microsoft.com/5e699494-1974-4b9b-8324-9394f7b96fe4">IShellFolder::BindToObject</a> for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.
+Obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.
 
 
 ## -remarks
 
 
 
-This interface provides only the methods of the <a href="https://msdn.microsoft.com/f42d218c-0251-45e0-b05a-f1ccdcaf036c">IRelatedItem</a> interface, from which it inherits.
+This interface provides only the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irelateditem">IRelatedItem</a> interface, from which it inherits.
 
 
 

@@ -156,7 +156,7 @@ Identifies the <b>Version</b> element. The variant type for this property is <b>
 
 
 
-Before accessing these properties, check the variant type to ensure that it is not EvtVarTypeNULL; not all events will contain all system properties. For a list of system properties, see the <a href="https://msdn.microsoft.com/36037697-b777-4e5c-99af-77964200a3e4">Event</a> schema.
+Before accessing these properties, check the variant type to ensure that it is not EvtVarTypeNULL; not all events will contain all system properties. For a list of system properties, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventschema-schema">Event</a> schema.
 
 
 
@@ -166,19 +166,19 @@ Before accessing these properties, check the variant type to ensure that it is n
 
 
 
-<a href="https://msdn.microsoft.com/1c933266-28d9-4ef2-b156-eedf4ccb189b">EVT_RENDER_CONTEXT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_render_context_flags">EVT_RENDER_CONTEXT_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7206481-c734-425f-a2b6-fa0d9a2b66c1">EVT_RENDER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_render_flags">EVT_RENDER_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/729cfd74-c158-463d-9247-ee2c75b259d4">EvtCreateRenderContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/521322b6-3424-4321-bcba-fa8dcdc05a76">EvtRender</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtrender">EvtRender</a>
  
 
  

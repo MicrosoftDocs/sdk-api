@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Retrieves the similarity data that was generated for a file by the signature generator.
 
-This method cannot be called until signature generation is completed. For more information, see the <i>endOfOutput</i> parameter of the <a href="https://msdn.microsoft.com/34d19eee-0fa9-4ac3-a33b-9f01cfa06371">IRdcGenerator::Process</a> method.
+This method cannot be called until signature generation is completed. For more information, see the <i>endOfOutput</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgenerator-process">IRdcGenerator::Process</a> method.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ This method cannot be called until signature generation is completed. For more i
 
 ### -param similarityData [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b1eace1d">SimilarityData</a> structure that will receive the similarity data.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure that will receive the similarity data.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/60133763-9678-4927-9d3a-3e431310b601">IRdcSimilarityGenerator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcsimilaritygenerator">IRdcSimilarityGenerator</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>DsGetSpn</b> function constructs an array of one or more service principal names (SPNs). Each name in the array identifies an instance of a service. These SPNs may be registered with the directory service (DS) using the 
-<a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> function.
 
 
 ## -parameters
@@ -145,7 +145,7 @@ Pointer to a variable that receives the number of SPNs contained in <i>prpszSpn<
 ### -param prpszSpn [out]
 
 Pointer to a variable that receives a pointer to an array of SPNs. This array must be freed with 
-<a href="https://msdn.microsoft.com/1c229933-432d-4ded-be3b-3bd339a0abe4">DsFreeSpnArray</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreespnarraya">DsFreeSpnArray</a>.
 
 
 ##### - ServiceType.DS_SPN_DNS_HOST, DS_SPN_DN_HOST, DS_SPN_NB_HOST
@@ -217,7 +217,7 @@ If the function fails, the return value can be one of the following error codes.
 </ol>
 String parameters cannot include the forward slash  (/), which is used to separate the components of the SPN.
 
-An application with the appropriate privileges, which are usually those of a domain administrator, can call the <a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a> function to register one or more SPNs on the user or computer account where the service is running. Clients can then use the SPNs to authenticate the service.
+An application with the appropriate privileges, which are usually those of a domain administrator, can call the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a> function to register one or more SPNs on the user or computer account where the service is running. Clients can then use the SPNs to authenticate the service.
 
 
 
@@ -227,15 +227,15 @@ An application with the appropriate privileges, which are usually those of a dom
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c229933-432d-4ded-be3b-3bd339a0abe4">DsFreeSpnArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreespnarraya">DsFreeSpnArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b555f6b-643d-4fa0-9aca-701e6b3313fa">DsWriteAccountSpn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>
  
 
  

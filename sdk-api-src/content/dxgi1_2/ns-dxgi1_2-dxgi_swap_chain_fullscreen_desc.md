@@ -59,17 +59,17 @@ Describes full-screen mode for a swap chain.
 
 ### -field RefreshRate
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure that describes the refresh rate in hertz.
 
 
 ### -field ScanlineOrdering
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173067(v=VS.85).aspx">DXGI_MODE_SCANLINE_ORDER</a> enumerated type that describes the scan-line drawing mode.
+A member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173067(v=vs.85)">DXGI_MODE_SCANLINE_ORDER</a> enumerated type that describes the scan-line drawing mode.
 
 
 ### -field Scaling
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173066(v=VS.85).aspx">DXGI_MODE_SCALING</a> enumerated type that describes the scaling mode.
+A member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173066(v=vs.85)">DXGI_MODE_SCALING</a> enumerated type that describes the scaling mode.
 
 
 ### -field Windowed
@@ -81,7 +81,7 @@ A Boolean value that specifies whether the swap chain is in windowed mode. <b>TR
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">CreateSwapChainForHwnd</a> and <a href="https://msdn.microsoft.com/6056239A-B3CA-4C70-9081-499B0AAEFBEF">GetFullscreenDesc</a> methods.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">CreateSwapChainForHwnd</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getfullscreendesc">GetFullscreenDesc</a> methods.
 
 
 
@@ -91,7 +91,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/B78E9F87-C6B0-
 
 
 
-<a href="https://msdn.microsoft.com/22e98880-bcd1-448a-9223-604fff9173fe">DXGI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
  
 
  

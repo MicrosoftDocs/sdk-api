@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The <b>CryptCATEnumerateAttr</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATEnumerateAttr</b> function enumerates the attributes associated with  a member of a catalog. This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATEnumerateAttr</b> function enumerates the attributes associated with  a member of a catalog. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Handle for the catalog that contains the member identified by <i>pCatMember</i>.
 
 ### -param pCatMember [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b">CRYPTCATMEMBER</a> structure that identifies which member of the catalog is being enumerated.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember_">CRYPTCATMEMBER</a> structure that identifies which member of the catalog is being enumerated.
 
 
 ### -param pPrevAttr [in]
@@ -97,7 +97,7 @@ Do not free the returned pointer nor any of the members pointed to by the return
 
 
 
-<a href="https://msdn.microsoft.com/57b6ff5c-e47e-41ac-8ec8-01a47ea77acf">CryptCATEnumerateCatAttr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumeratecatattr">CryptCATEnumerateCatAttr</a>
  
 
  

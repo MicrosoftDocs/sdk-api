@@ -84,11 +84,11 @@ After <b>Close</b> has been called, all subsequent attempts to write data to the
 
 
 
-<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7855015-32db-48ff-8f8d-3d84d2843fde">IXpsPrintJobStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a>
 
 
 

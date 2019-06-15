@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>DSBROWSEINFO</b> structure is used with the 
-<a href="https://msdn.microsoft.com/c95585b3-bf40-4aee-ae47-ca8f43daf0e6">DsBrowseForContainer</a> function to supply and return data about the Active Directory container browser dialog box.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function to supply and return data about the Active Directory container browser dialog box.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The <b>DSBROWSEINFO</b> structure is used with the
 
 ### -field cbStruct
 
-Contains the size, in bytes, of the <b>DSBROWSEINFO</b> structure. This is used by the <a href="https://msdn.microsoft.com/c95585b3-bf40-4aee-ae47-ca8f43daf0e6">DsBrowseForContainer</a> function for versioning purposes.
+Contains the size, in bytes, of the <b>DSBROWSEINFO</b> structure. This is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function for versioning purposes.
 
 
 ### -field hwndOwner
@@ -169,7 +169,7 @@ When determining if the object is displayed in the dialog box, the <b>treatAsLea
 
 #### DSBI_SIMPLEAUTHENTICATE (8388608 (0x800000))
 
-Indicates that secure authentication is not required when calling <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>.
+Indicates that secure authentication is not required when calling <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>.
 
 
 
@@ -186,7 +186,7 @@ Indicates that signing and sealing will not be used when communicating with the 
 
 ### -field pfnCallback
 
-Pointer to an application-defined  <a href="https://msdn.microsoft.com/91cfef29-3e0a-4dd0-be1a-215827c23143">BFFCallBack</a> callback function that receives notifications from the container browser dialog box. Set this member to <b>NULL</b> if it is not used.
+Pointer to an application-defined  <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a> callback function that receives notifications from the container browser dialog box. Set this member to <b>NULL</b> if it is not used.
 
 
 ### -field lParam
@@ -196,7 +196,7 @@ Contains an application-defined 32-bit value passed as the <i>lpData</i> paramet
 
 ### -field dwReturnFormat
 
-Contains one of the <a href="https://msdn.microsoft.com/d0c94f30-6b8c-4c7a-bb74-205b2b658dbb">ADS_FORMAT_ENUM</a> values that specifies the format that the ADSI path returned in <b>pszPath</b> will accept.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a> values that specifies the format that the ADSI path returned in <b>pszPath</b> will accept.
 
 
 ### -field pUserName
@@ -286,7 +286,7 @@ Indicates that the <b>dwReturnFormat</b> member is valid. If this flag is not se
 
 ##### - dwFlags.DSBI_SIMPLEAUTHENTICATE (8388608 (0x800000))
 
-Indicates that secure authentication is not required when calling <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>.
+Indicates that secure authentication is not required when calling <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>.
 
 
 ## -see-also
@@ -294,19 +294,19 @@ Indicates that secure authentication is not required when calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/d0c94f30-6b8c-4c7a-bb74-205b2b658dbb">ADS_FORMAT_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0078_0002">ADS_FORMAT_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/91cfef29-3e0a-4dd0-be1a-215827c23143">BFFCallBack</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a>
 
 
 
-<a href="https://msdn.microsoft.com/c95585b3-bf40-4aee-ae47-ca8f43daf0e6">DsBrowseForContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a>
  
 
  

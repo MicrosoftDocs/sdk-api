@@ -88,7 +88,7 @@ This function copies the session name that you provide to the offset that the
 
 ### -param Properties [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> 
        structure that specifies the behavior of the session. The following are key members of the structure to set:
 
 <ul>
@@ -102,7 +102,7 @@ Pointer to an <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5
 </ul>
 Depending on the type of log file you choose to create, you may also need to specify a value for <b>MaximumFileSize</b>. See the Remarks section for more information on setting the <i>Properties</i> parameter and the behavior of the session.
 
-<b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StartTrace</b> when starting system wide private loggers. You will need to pass in the new <a href="https://msdn.microsoft.com/2EEDB53B-75BC-48AC-A70D-9AEAED526C40">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://msdn.microsoft.com/fb6a3899-194e-4cb7-b9e5-a7ff85fb7891">Configuring and Starting a Private Logger Session</a> for more details.
+<b>Starting with Windows 10, version 1703:  </b>For better performance in cross process scenarios, you can now pass filtering in to <b>StartTrace</b> when starting system wide private loggers. You will need to pass in the new <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties-v2">EVENT_TRACE_PROPERTIES_V2</a> structure to include filtering information. See <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-private-logger-session">Configuring and Starting a Private Logger Session</a> for more details.
 
 
 ## -returns
@@ -113,7 +113,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
       
 
 If the function fails, the return value is one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -256,19 +256,19 @@ Event trace controllers call this function.
 
 The session remains active until you stop the session, the computer is restarted or the maximum file size is 
     reached for non-circular logs. To stop an event tracing session, call the 
-    <a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a> function and set the 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function and set the 
     <i>ControlCode</i> parameter to <b>EVENT_TRACE_CONTROL_STOP</b>.
 
 You cannot start  more than one session with the same session GUID.
 
 <b>Windows Server 2003:  </b>You can start more than one session with the same session GUID.
 
-For the logger to be a system logger and receive events from <a href="https://msdn.microsoft.com/6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8">SystemTraceProvider</a>, any of the following must be true:<ul>
+For the logger to be a system logger and receive events from <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-systemtraceprovider-session">SystemTraceProvider</a>, any of the following must be true:<ul>
 <li>The <i>Properties</i> member <b>Wnode.Guid</b> is set to <b>SystemTraceControlGuid</b> or <b>GlobalLoggerGuid</b>.</li>
 <li>The <i>Properties</i> member <b>LogFileMode</b> includes the <b>EVENT_TRACE_SYSTEM_LOGGER_MODE</b> flag.</li>
 <li><i>SessionName</i> is set to <b>KERNEL_LOGGER_NAME</b>.</li>
 </ul>
-<div class="alert"><b>Note</b>  A system logger must set the <b>EnableFlags</b> member of the <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> structure to indicate which <a href="https://msdn.microsoft.com/6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8">SystemTraceProvider</a> events should be included in the trace.</div>
+<div class="alert"><b>Note</b>  A system logger must set the <b>EnableFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure to indicate which <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-a-systemtraceprovider-session">SystemTraceProvider</a> events should be included in the trace.</div>
 <div> </div>
 
 
@@ -296,13 +296,13 @@ To specify a private logger session, set <b>Wnode.Guid</b> member of
 
 You do not use this function to start a global logger session. For details on starting a global logger 
     session, see 
-    <a href="https://msdn.microsoft.com/1462bbef-ef32-4053-9930-5b4a0ab46b47">Configuring and Starting the Global Logger Session</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-the-global-logger-session">Configuring and Starting the Global Logger Session</a>.
 
 
 #### Examples
 
 For an example that uses <b>StartTrace</b>, see 
-     <a href="https://msdn.microsoft.com/8a6aa39c-ec81-42ac-a26e-29f1f6960220">Configuring and Starting an Event Tracing Session</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/configuring-and-starting-an-event-tracing-session">Configuring and Starting an Event Tracing Session</a>.
 
 <div class="code"></div>
 
@@ -313,11 +313,11 @@ For an example that uses <b>StartTrace</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
  
 
  

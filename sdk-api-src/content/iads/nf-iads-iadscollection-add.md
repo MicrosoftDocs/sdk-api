@@ -59,12 +59,12 @@ The <b>IADsCollection::Add</b> method adds a named item to the collection.
 
 ### -param bstrName [in]
 
-The <b>BSTR</b> value that specifies the item name.  <a href="https://msdn.microsoft.com/04b33451-505e-43de-8db4-3e37f9909ea6">IADsCollection::GetObject</a> and  <a href="https://msdn.microsoft.com/21ce80fe-542b-4350-b66c-fa26f62ca611">IADsCollection::Remove</a> reference the item by this name.
+The <b>BSTR</b> value that specifies the item name.  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-getobject">IADsCollection::GetObject</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a> reference the item by this name.
 
 
 ### -param vItem [in]
 
-Item value. When the item is an object, this parameter holds the  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the object.
+Item value. When the item is an object, this parameter holds the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer on the object.
 
 
 ## -returns
@@ -74,7 +74,7 @@ Item value. When the item is an object, this parameter holds the  <a href="https
 This method supports the standard return values, as well as the following.
       
 
-For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -85,7 +85,7 @@ For more information and other return values, see  <a href="https://msdn.microso
 
 Collections for a directory service can also consist of a set of immutable objects.
 
-This method is not supported in any of the  <a href="https://msdn.microsoft.com/419d7953-a879-4d6c-be74-173d76c3f932">ADSI system providers</a>.
+This method is not supported in any of the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI system providers</a>.
 
 
 
@@ -95,28 +95,28 @@ This method is not supported in any of the  <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/419d7953-a879-4d6c-be74-173d76c3f932">ADSI System
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI System
   Providers</a>
 
 
 
-<a href="https://msdn.microsoft.com/4552552b-c008-439a-95bf-eaf9ffd28b5f">IADsCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/04b33451-505e-43de-8db4-3e37f9909ea6">IADsCollection::GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-getobject">IADsCollection::GetObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/21ce80fe-542b-4350-b66c-fa26f62ca611">IADsCollection::Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

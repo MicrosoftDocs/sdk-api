@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains information used to verify a disk extent. It is the output buffer for the 
-<a href="https://msdn.microsoft.com/156b217d-6cdc-4802-b711-8845934e277b">IOCTL_DISK_VERIFY</a> control code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_verify">IOCTL_DISK_VERIFY</a> control code.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ The length of the disk extent, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/156b217d-6cdc-4802-b711-8845934e277b">IOCTL_DISK_VERIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_verify">IOCTL_DISK_VERIFY</a>
  
 
  

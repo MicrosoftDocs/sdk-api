@@ -90,7 +90,7 @@ The size, in bytes, of the buffer pointed to by the <i>optval</i> parameter.
 
 If no error occurs, 
 <b>setsockopt</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -100,19 +100,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +134,7 @@ The buffer pointed to by the <i>optval</i> parameter is not in a valid part of t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,18 +156,18 @@ The <i>level</i> parameter is not valid, or the information in the buffer pointe
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETRESET</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-The connection has timed out when <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is set.
+The connection has timed out when <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a> is set.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOPROTOOPT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOPROTOOPT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -178,18 +178,18 @@ The option is unknown or unsupported for the specified provider or socket (see S
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-The connection has been reset when <a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a> is set.
+The connection has been reset when <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a> is set.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -212,7 +212,7 @@ The
 
 <div class="alert"><b>Note</b>  If the 
 <b>setsockopt</b> function is called before the 
-<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function, TCP/IP options will not be checked by using TCP/IP until the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function, TCP/IP options will not be checked by using TCP/IP until the 
 <b>bind</b> occurs. In this case, the 
 <b>setsockopt</b> function call will always succeed, but the 
 <b>bind</b> function call can fail because of an early 
@@ -220,12 +220,12 @@ The
 <div> </div>
 <div class="alert"><b>Note</b>  If a socket is opened, a 
 <b>setsockopt</b> call is made, and then a 
-<a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a> call is made, Windows Sockets performs an implicit 
-<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a> function call.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> call is made, Windows Sockets performs an implicit 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function call.</div>
 <div> </div>
 There are two types of socket options: Boolean options that enable or disable a feature or behavior, and options that require an integer value or structure. To enable a Boolean option, the <i>optval</i> parameter points to a nonzero integer. To disable the option <i>optval</i> points to an integer equal to zero. The <i>optlen</i> parameter should be equal to <code>sizeof(int)</code> for Boolean options. For other options, <i>optval</i> points to an integer or structure that contains the desired value for the option, and <i>optlen</i> is the length of the integer or structure.
 
-The following tables list some of the common options supported by the <b>setsockopt</b> function. The Type column identifies the type of data addressed by <i>optval</i> parameter. The  Description column provides some basic information about the socket option. For more complete lists of socket options and more detailed information (default values, for example), see the detailed topics under <a href="https://msdn.microsoft.com/e2831f76-4499-45b6-bc60-2908ec3a246c">Socket Options</a>. 
+The following tables list some of the common options supported by the <b>setsockopt</b> function. The Type column identifies the type of data addressed by <i>optval</i> parameter. The  Description column provides some basic information about the socket option. For more complete lists of socket options and more detailed information (default values, for example), see the detailed topics under <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket Options</a>. 
 
 <i>level</i> = <b>SOL_SOCKET</b>
 
@@ -267,7 +267,7 @@ The following tables list some of the common options supported by the <b>setsock
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/d6da7761-7a09-4c91-9737-550590a773b3">SO_KEEPALIVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a>
 </td>
 <td>BOOL</td>
 <td>Enables sending keep-alive packets for a socket connection. Not supported on ATM sockets (results in an error).</td>
@@ -275,7 +275,7 @@ The following tables list some of the common options supported by the <b>setsock
 <tr>
 <td>SO_LINGER</td>
 <td>
-<a href="https://msdn.microsoft.com/c1dbabcf-b5cd-4a9d-9bf9-b04c62117d74">LINGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-linger">LINGER</a>
 </td>
 <td>Lingers on close if unsent data is present.</td>
 </tr>
@@ -283,7 +283,7 @@ The following tables list some of the common options supported by the <b>setsock
 <td>SO_OOBINLINE</td>
 <td>BOOL</td>
 <td>Indicates that out-of-bound data should be returned in-line with regular data. This option is only valid for connection-oriented protocols that support out-of-band data. For a discussion of this topic, see 
-<a href="https://msdn.microsoft.com/1a517885-2688-421f-9389-2d329e5c3d56">Protocol Independent Out-Of-band Data</a>.</td>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-out-of-band-data-2">Protocol Independent Out-Of-band Data</a>.</td>
 </tr>
 <tr>
 <td>SO_RCVBUF</td>
@@ -294,11 +294,11 @@ The following tables list some of the common options supported by the <b>setsock
 <td>SO_REUSEADDR</td>
 <td>BOOL</td>
 <td>Allows the socket to be bound to an address that is already in use. For more information, see 
-<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>. Not applicable on ATM sockets.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>. Not applicable on ATM sockets.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/ce0d8188-54be-46e8-8753-d0680f690b84">SO_EXCLUSIVEADDRUSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a>
 </td>
 <td>BOOL</td>
 <td>Enables a socket to be bound for exclusive access. Does not require administrative privilege. </td>
@@ -331,7 +331,7 @@ The following tables list some of the common options supported by the <b>setsock
 </table>
  
 
-For more complete and detailed information about socket options for <i>level</i> = <b>SOL_SOCKET</b>, see <a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET Socket Options</a>.
+For more complete and detailed information about socket options for <i>level</i> = <b>SOL_SOCKET</b>, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET Socket Options</a>.
 
 <i>level</i> = <b>IPPROTO_TCP</b>
 
@@ -351,7 +351,7 @@ For more complete and detailed information about socket options for <i>level</i>
 </table>
  
 
-For more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>, see <a href="https://msdn.microsoft.com/2a10498d-0a0b-4a2d-941e-9aa45a1a4428">IPPROTO_TCP Socket Options</a>.
+For more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-tcp-socket-options">IPPROTO_TCP Socket Options</a>.
 
 <i>level</i> = <b>NSPROTO_IPX</b>
 
@@ -404,7 +404,7 @@ For more complete and detailed information about socket options for <i>level</i>
 </table>
  
 
-For more complete and detailed information about socket options for <i>level</i> = <b>NSPROTO_IPX</b>, see <a href="https://msdn.microsoft.com/0d5c8299-14d7-41e5-8ff6-f57a732acb26">NSPROTO_IPX Socket Options</a>.
+For more complete and detailed information about socket options for <i>level</i> = <b>NSPROTO_IPX</b>, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/nsproto-ipx-socket-options">NSPROTO_IPX Socket Options</a>.
 
 BSD options not supported for 
 <b>setsockopt</b> are shown in the following table.
@@ -664,75 +664,75 @@ Many SO_ level socket options are not meaningful to IrDA. Only SO_LINGER is spec
 
 
 
-<a href="https://msdn.microsoft.com/6b06a29e-59cd-4446-bd2f-131dc25bf571">IPPROTO_IP Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IPPROTO_IP Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/65f8f7a4-757b-43a3-9d47-b115754c89d6">IPPROTO_IPV6 Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb99960e-428b-4ef1-a6a5-e4bdb497c771">IPPROTO_RM Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-rm-socket-options">IPPROTO_RM Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a10498d-0a0b-4a2d-941e-9aa45a1a4428">IPPROTO_TCP Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-tcp-socket-options">IPPROTO_TCP Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/579448a1-22af-488f-a1f5-97ba69a15524">IPPROTO_UDP Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-udp-socket-options">IPPROTO_UDP Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d5c8299-14d7-41e5-8ff6-f57a732acb26">NSPROTO_IPX Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/nsproto-ipx-socket-options">NSPROTO_IPX Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a6b18e3-1fea-4ba2-8076-c38e7f679e9e">SOL_APPLETALK Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-appletalk-socket-options">SOL_APPLETALK Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/0457159d-8509-435c-8f57-752530d5df65">SOL_IRLMP Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-irlmp-socket-options">SOL_IRLMP Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cd0056e-0c33-4f6e-9f70-5417f8f8da4b">SOL_SOCKET Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2831f76-4499-45b6-bc60-2908ec3a246c">Socket Options</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4d3f599-358c-4a94-91eb-7e1c80244250">WSAAsyncSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
 
 
-<a href="https://msdn.microsoft.com/f98a71e4-47fb-47a4-b37e-e4cc801a8f98">WSAEventSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
 
 
 
-<a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
 
 
-<a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
 
 
 
-<a href="https://msdn.microsoft.com/048fcb8d-acd3-4917-a997-dd133db399f8">ioctlsocket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ioctlsocket">ioctlsocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf6e6c4-6268-479c-86a6-52e90cf317db">socket</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
  
 
  

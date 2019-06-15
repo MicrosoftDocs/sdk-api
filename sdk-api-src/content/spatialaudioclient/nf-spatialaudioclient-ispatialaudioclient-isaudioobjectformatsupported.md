@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a value indicating whether <a href="https://msdn.microsoft.com/B4D10CC6-62BF-4D20-910F-E39DF812010D">ISpatialAudioObjectRenderStream</a> supports a the specified format. 
+Gets a value indicating whether <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a> supports a the specified format. 
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If the specified format is supported, it returns S_OK. If specified format is un
 
 
 
-<a href="https://msdn.microsoft.com/950778D4-79FE-4222-951F-5A456A633124">ISpatialAudioClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
  
 
  

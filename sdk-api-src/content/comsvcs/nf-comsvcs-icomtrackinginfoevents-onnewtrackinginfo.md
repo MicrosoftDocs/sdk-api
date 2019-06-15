@@ -59,7 +59,7 @@ Generated when the tracking information for a collection changes.
 
 ### -param pToplevelCollection [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface of the collection for which the tracking information has changed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the collection for which the tracking information has changed.
 
 
 ## -returns
@@ -76,7 +76,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/bed709ca-5083-4073-a9f9-2b7b7f14cf87">IComTrackingInfoEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoevents">IComTrackingInfoEvents</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="https://msdn.microsoft.com/0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a">TerminateProcess</a>. The service will try to close the running task by sending the <a href="https://msdn.microsoft.com/en-us/library/ms632617(v=VS.85).aspx">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
+Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using  <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminateprocess">TerminateProcess</a>. The service will try to close the running task by sending the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-close">WM_CLOSE</a> notification, and if the  task does not respond, the task will be terminated only if this property is set to true.
 
 This property is read/write.
 
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://msdn.microsoft.com/093a3cc6-d3e1-48e3-bc9e-0b15df2a54de">AllowHardTerminate</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-allowhardterminate-settingstype-element">AllowHardTerminate</a> element of the Task Scheduler schema.
 
 
 
@@ -74,11 +74,11 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 

@@ -60,12 +60,12 @@ The <b>PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA</b> structure contains information
 ### -field changeType
 
 
-<a href="https://msdn.microsoft.com/ef8f1cc7-e1db-4d6d-9ff6-141746d0787a">PEER_CHANGE_TYPE</a> enumeration value that describes the type of change that occurred for a contact available on the local subnet.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_change_type_tag">PEER_CHANGE_TYPE</a> enumeration value that describes the type of change that occurred for a contact available on the local subnet.
 
 
 ### -field pPeopleNearMe
 
-Pointer to a <a href="https://msdn.microsoft.com/15dae06d-0f44-4e7d-b146-6fcd7cc6912e">PEER_PEOPLE_NEAR_ME</a> structure that contains the peer endpoint information for the contact on the subnet that raised the change event.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_people_near_me_tag">PEER_PEOPLE_NEAR_ME</a> structure that contains the peer endpoint information for the contact on the subnet that raised the change event.
 
 
 ## -remarks
@@ -84,15 +84,15 @@ The information that can be changed in a peer contact include the endpoint's nam
 
 
 
-<a href="https://msdn.microsoft.com/ef8f1cc7-e1db-4d6d-9ff6-141746d0787a">PEER_CHANGE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_change_type_tag">PEER_CHANGE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/15dae06d-0f44-4e7d-b146-6fcd7cc6912e">PEER_PEOPLE_NEAR_ME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_people_near_me_tag">PEER_PEOPLE_NEAR_ME</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

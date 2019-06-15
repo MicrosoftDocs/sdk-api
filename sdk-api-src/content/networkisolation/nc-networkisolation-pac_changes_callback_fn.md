@@ -61,12 +61,12 @@ The <b>PAC_CHANGES_CALLBACK_FN</b>  function is used to add custom behavior to t
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/2affb2a8-224c-4d2d-86e2-f194d3990dbe">NetworkIsolationRegisterForAppContainerChanges</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges">NetworkIsolationRegisterForAppContainerChanges</a> function.
 
 
 ### -param *pChange [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b5f1b85d-3538-4be3-b97b-f9207cc7063b">INET_FIREWALL_AC_CHANGE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>*</b>
 
 The app container change information.
 
@@ -84,7 +84,7 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/2affb2a8-224c-4d2d-86e2-f194d3990dbe">NetworkIsolationRegisterForAppContainerChanges</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges">NetworkIsolationRegisterForAppContainerChanges</a> to register this callback function.
 
 
 
@@ -94,11 +94,11 @@ Call <a href="https://msdn.microsoft.com/2affb2a8-224c-4d2d-86e2-f194d3990dbe">N
 
 
 
-<a href="https://msdn.microsoft.com/b5f1b85d-3538-4be3-b97b-f9207cc7063b">INET_FIREWALL_AC_CHANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ns-netfw-_inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2affb2a8-224c-4d2d-86e2-f194d3990dbe">NetworkIsolationRegisterForAppContainerChanges</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges">NetworkIsolationRegisterForAppContainerChanges</a>
  
 
  

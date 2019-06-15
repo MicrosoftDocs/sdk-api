@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>Log</b> method writes a text string to the currently open log file. For more information, see the 
-<a href="https://msdn.microsoft.com/dbfc9be7-1b0b-417e-9e2b-bf191ea255b6">Log</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-log">Log</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::Log</b>    Mergemod.dll version 2.0 or later.
 			<div> </div><b>IMsmMerge::Log</b>      All Mergemod.dll versions.
@@ -135,7 +135,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

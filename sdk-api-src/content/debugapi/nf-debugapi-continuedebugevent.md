@@ -113,7 +113,7 @@ If the thread specified by <i>dwThreadId</i> previously reported an EXCEPTION_DE
 </dl>
 </td>
 <td width="60%">
-Supported in Windows 10, version 1507 or above, this flag causes <i>dwThreadId</i> to replay the existing breaking event after the target continues. By calling the <a href="https://msdn.microsoft.com/1332abcb-3356-4890-a03c-843358c1a3ce">SuspendThread</a> API against <i>dwThreadId</i>, a debugger can resume other threads in the process and later return to the breaking.
+Supported in Windows 10, version 1507 or above, this flag causes <i>dwThreadId</i> to replay the existing breaking event after the target continues. By calling the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> API against <i>dwThreadId</i>, a debugger can resume other threads in the process and later return to the breaking.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ Supported in Windows 10, version 1507 or above, this flag causes <i>dwThreadId<
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -138,7 +138,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 Only the thread that created <i>dwProcessId</i> with the 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function can call 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can call 
 <b>ContinueDebugEvent</b>.
 
 After the 
@@ -150,7 +150,7 @@ After the
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/5a45854e-2711-49d5-982b-6b85248ec632">Writing the Debugger's Main Loop</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/writing-the-debugger-s-main-loop">Writing the Debugger's Main Loop</a>.
 
 <div class="code"></div>
 
@@ -161,15 +161,15 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/43ca51f1-ba73-4031-96c3-5815311ce6f6">Debugging Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-events">Debugging Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
  
 
  

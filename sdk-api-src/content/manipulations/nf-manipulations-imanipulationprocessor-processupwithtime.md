@@ -91,7 +91,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an HRESULT erro
 
 
 It is possible to receive touch events out of the order they were produced.  To fix this, 
-    you should extract the timestamp from the <a href="https://msdn.microsoft.com/fc382759-3a1e-401e-a6a7-1bf209a5434b">TOUCHINPUT</a> structure when you process events.
+    you should extract the timestamp from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouchinput">TOUCHINPUT</a> structure when you process events.
 
 
 #### Examples
@@ -118,23 +118,23 @@ static void ProcessUp(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipula
 
 
 
-<a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/33736f79-cb61-449c-80b9-1358db2621e9">Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtmethods">Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/a76c9150-49b8-4a74-8ef0-bfa5ce9ec28a">ProcessDownWithTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime">ProcessDownWithTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/0840ef85-9b18-4248-96fe-93653274a89a">ProcessMoveWithTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime">ProcessMoveWithTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93f6729-5e50-41a1-867c-93e4ce9ecda9">ProcessUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup">ProcessUp</a>
  
 
  

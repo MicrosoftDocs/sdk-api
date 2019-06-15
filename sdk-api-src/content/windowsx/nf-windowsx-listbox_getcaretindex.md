@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775193(v=VS.85).aspx">LB_GETCARETINDEX</a> message explicitly.
+Retrieves the index of the list box item that has the focus rectangle in a multiple-selection list box. The item may or may not be selected. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lb-getcaretindex">LB_GETCARETINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the index of the list box item that has the focus rectangle in a multi
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -70,7 +70,7 @@ A handle to the control.
 
 The contents of the list box are scrolled till the item is fully visible.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775193(v=VS.85).aspx">LB_GETCARETINDEX</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/controls/lb-getcaretindex">LB_GETCARETINDEX</a>.
 
 
 

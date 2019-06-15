@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the capabilities of <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>. Its methods provide a variety of information about the contents of a Shell folder.
+Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>. Its methods provide a variety of information about the contents of a Shell folder.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolder2</b> interface inherits from <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>. <b>IShellFolder2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolder2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>. <b>IShellFolder2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IShellFolder2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed7b0e3c-f679-491b-98a2-542fcf5d2077">EnumSearches</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-enumsearches">EnumSearches</a>
 </td>
 <td align="left" width="63%">
 Requests a pointer to an interface that allows a client to enumerate the available search objects.
@@ -79,7 +79,7 @@ Requests a pointer to an interface that allows a client to enumerate the availab
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d1a1273-be67-4bb3-b549-8adacea0cb5f">GetDefaultColumn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultcolumn">GetDefaultColumn</a>
 </td>
 <td align="left" width="63%">
 Gets the default sorting and display columns.
@@ -88,7 +88,7 @@ Gets the default sorting and display columns.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f55acbf-1e15-42c3-a610-c5742e74883d">GetDefaultColumnState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultcolumnstate">GetDefaultColumnState</a>
 </td>
 <td align="left" width="63%">
 Gets the default state for a specified column.
@@ -97,7 +97,7 @@ Gets the default state for a specified column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20acd646-6cb7-420e-84b3-2f9b385a349c">GetDefaultSearchGUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultsearchguid">GetDefaultSearchGUID</a>
 </td>
 <td align="left" width="63%">
 Returns the globally unique identifier (GUID) of the default search object for the folder.
@@ -106,7 +106,7 @@ Returns the globally unique identifier (GUID) of the default search object for t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f006828c-980d-4e36-be68-3b3c238cd884">GetDetailsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex">GetDetailsEx</a>
 </td>
 <td align="left" width="63%">
 Gets detailed information, identified by a property set identifier (FMTID) and a PID, on an item in a Shell folder.
@@ -115,7 +115,7 @@ Gets detailed information, identified by a property set identifier (FMTID) and a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd9e8b6c-ed70-455e-8316-ac0868493802">GetDetailsOf</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof">GetDetailsOf</a>
 </td>
 <td align="left" width="63%">
 Gets detailed information, identified by a column index, on an item in a Shell folder.
@@ -124,7 +124,7 @@ Gets detailed information, identified by a column index, on an item in a Shell f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4bd1f9a1-379b-4488-87d3-c7c7dc47c4d1">MapColumnToSCID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-mapcolumntoscid">MapColumnToSCID</a>
 </td>
 <td align="left" width="63%">
 Converts a column to the appropriate property set ID (FMTID) and property ID (PID).
@@ -138,13 +138,13 @@ Converts a column to the appropriate property set ID (FMTID) and property ID (PI
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface, from which it inherits.
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Implement <b>IShellFolder2</b> if your namespace extension provides services to clients beyond those in <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>.
+Implement <b>IShellFolder2</b> if your namespace extension provides services to clients beyond those in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
-Call <b>IShellFolder2</b> when you need detailed information on items contained by a Shell folder. This interface supersedes <a href="https://msdn.microsoft.com/c31409fd-9350-46bb-a8a0-85d5958c6e49">IShellDetails</a>.
+Call <b>IShellFolder2</b> when you need detailed information on items contained by a Shell folder. This interface supersedes <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelldetails">IShellDetails</a>.
 
 
 

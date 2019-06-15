@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEAPProviderConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEAPProviderConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEAPProviderConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEAPProviderConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IEAPProviderConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d347387-7f8f-478b-a115-f6960e6f856e">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an EAP configuration session.
@@ -77,7 +77,7 @@ Initializes an EAP configuration session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba07f5c6-0b76-489f-b787-2965710cd1c5">RouterInvokeConfigUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokeconfigui">RouterInvokeConfigUI</a>
 </td>
 <td align="left" width="63%">
 Invokes the EAP configuration user interface for router-to-router EAP.
@@ -86,7 +86,7 @@ Invokes the EAP configuration user interface for router-to-router EAP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23b64f95-1f21-4e81-a094-081a95057aef">RouterInvokeCredentialsUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokecredentialsui">RouterInvokeCredentialsUI</a>
 </td>
 <td align="left" width="63%">
 Invokes the EAP credentials user interface for router-to-router EAP.
@@ -95,7 +95,7 @@ Invokes the EAP credentials user interface for router-to-router EAP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95d98664-e108-41d5-8ed0-49867563df43">ServerInvokeConfigUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-serverinvokeconfigui">ServerInvokeConfigUI</a>
 </td>
 <td align="left" width="63%">
 Invokes the EAP configuration user interface.
@@ -104,7 +104,7 @@ Invokes the EAP configuration user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f96ffa3f-cd3c-4979-87b3-1a2afb7a3621">Uninitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Shuts down an EAP configuration session.
@@ -119,11 +119,11 @@ Shuts down an EAP configuration session.
 
 
 
-<a href="https://msdn.microsoft.com/1f720c0c-d490-48af-830f-9a25cbc24014">EAP Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/eap-interfaces">EAP Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3cb25ce-6fb9-4fca-8662-3efef14238a5">Extensible Authentication Protocol Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eap/extensible-authentication-protocol-reference">Extensible Authentication Protocol Reference</a>
  
 
  

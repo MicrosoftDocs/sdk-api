@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WSAPOLLFD</b> structure stores socket information used by the <a href="https://msdn.microsoft.com/3f6f872c-5cee-49f3-bf22-2e8a5d147987">WSAPoll</a> function.
+The <b>WSAPOLLFD</b> structure stores socket information used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a> function.
 
 
 ## -struct-fields
@@ -101,7 +101,7 @@ The POLLIN flag is defined as the combination of the <b>POLLRDNORM</b>  and <b>P
 
 Type: <b>short</b>
 
-A set of flags that indicate, upon return from the <a href="https://msdn.microsoft.com/3f6f872c-5cee-49f3-bf22-2e8a5d147987">WSAPoll</a> function call, the results of the status query. This can a combination of the following flags.
+A set of flags that indicate, upon return from the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a> function call, the results of the status query. This can a combination of the following flags.
 
 <table>
 <tr>
@@ -150,9 +150,9 @@ For sockets that do not satisfy the status query, and have no error, the <b>reve
 
 The <b>WSAPOLLFD</b> structure is defined on Windows Vista and later. 
 
-The <b>WSAPOLLFD</b> structure is used by the <a href="https://msdn.microsoft.com/3f6f872c-5cee-49f3-bf22-2e8a5d147987">WSAPoll</a> function to determine the status of one or more sockets. The set of sockets for which status is requested is specified in <i>fdarray</i> parameter, which is an array of <b>WSAPOLLFD</b> structures.  An application sets the appropriate flags in the <b>events</b> member of the <b>WSAPOLLFD</b> structure to specify the type of status requested for each corresponding socket.  The <b>WSAPoll</b> function returns the status of a socket in the <b>revents</b> member of the <b>WSAPOLLFD</b> structure.
+The <b>WSAPOLLFD</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a> function to determine the status of one or more sockets. The set of sockets for which status is requested is specified in <i>fdarray</i> parameter, which is an array of <b>WSAPOLLFD</b> structures.  An application sets the appropriate flags in the <b>events</b> member of the <b>WSAPOLLFD</b> structure to specify the type of status requested for each corresponding socket.  The <b>WSAPoll</b> function returns the status of a socket in the <b>revents</b> member of the <b>WSAPOLLFD</b> structure.
 
-If the <b>fd</b> member of the <b>WSAPOLLFD</b> structure is set to a negative value, the structure is ignored by the <a href="https://msdn.microsoft.com/3f6f872c-5cee-49f3-bf22-2e8a5d147987">WSAPoll</a> function call, and the <b>revents</b> member is cleared upon return. This is useful to applications that maintain a fixed  allocation for the <i>fdarray</i> parameter of <b>WSAPoll</b>; such applications need not waste resources compacting elements of the array for unused entries or reallocating memory. It is unnecessary to clear the <b>revents</b> member prior to calling the <b>WSAPoll</b> function.
+If the <b>fd</b> member of the <b>WSAPOLLFD</b> structure is set to a negative value, the structure is ignored by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a> function call, and the <b>revents</b> member is cleared upon return. This is useful to applications that maintain a fixed  allocation for the <i>fdarray</i> parameter of <b>WSAPoll</b>; such applications need not waste resources compacting elements of the array for unused entries or reallocating memory. It is unnecessary to clear the <b>revents</b> member prior to calling the <b>WSAPoll</b> function.
 
 
 
@@ -162,19 +162,19 @@ If the <b>fd</b> member of the <b>WSAPOLLFD</b> structure is set to a negative v
 
 
 
-<a href="https://msdn.microsoft.com/3f6f872c-5cee-49f3-bf22-2e8a5d147987">WSAPoll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsapoll">WSAPoll</a>
 
 
 
-<a href="https://msdn.microsoft.com/72246263-4806-4ab2-9b26-89a1782a954b">accept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a>
 
 
 
-<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
  
 
  

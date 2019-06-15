@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::NotifySessionId</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/82bf892e-5e6f-4057-ac36-00e046080c93">IWRdsProtocolConnection::NotifySessionId</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::NotifySessionId</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-notifysessionid">IWRdsProtocolConnection::NotifySessionId</a>.]
 
 Sends the ID of  the new session to the protocol.
 
@@ -61,7 +61,7 @@ Sends the ID of  the new session to the protocol.
 
 ### -param SessionId [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/fe0714ec-c670-40b7-9808-2171abae79a8">WTS_SESSION_ID</a> structure that contains a connection GUID and the associated session ID.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_session_id">WTS_SESSION_ID</a> structure that contains a connection GUID and the associated session ID.
 
 
 ## -remarks
@@ -78,7 +78,7 @@ This is an event notification and you should return immediately from this method
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

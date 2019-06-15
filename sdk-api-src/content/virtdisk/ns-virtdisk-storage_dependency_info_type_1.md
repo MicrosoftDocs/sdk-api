@@ -60,7 +60,7 @@ Contains virtual hard disk (VHD) storage dependency information for type 1.
 
 ### -field DependencyTypeFlags
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323663(v=VS.85).aspx">DEPENDENT_DISK_FLAG</a> enumeration.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_dependent_disk_flag">DEPENDENT_DISK_FLAG</a> enumeration.
 
 
 ### -field ProviderSpecificFlags
@@ -70,7 +70,7 @@ Flags specific to the VHD provider.
 
 ### -field VirtualStorageType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure.
 
 
 ## -see-also
@@ -78,11 +78,11 @@ A <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRT
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

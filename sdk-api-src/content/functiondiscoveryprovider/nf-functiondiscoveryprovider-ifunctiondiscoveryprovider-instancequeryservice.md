@@ -61,7 +61,7 @@ Creates a provider-specific COM object for the function instance. Provider write
 
 ### -param pIFunctionInstance [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
 
 ### -param iProviderInstanceContext [in]
@@ -135,7 +135,7 @@ The method is unable to allocate the memory required to perform this operation.
 </dl>
 </td>
 <td width="60%">
-The provider does not implement the <a href="https://msdn.microsoft.com/04d29632-81b3-47d6-8630-a65677d78b6f">IFunctionInstance::QueryService</a> method, or the service identifier specified by <i>guidService</i> does not match the provider's service identifier.
+The provider does not implement the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">IFunctionInstance::QueryService</a> method, or the service identifier specified by <i>guidService</i> does not match the provider's service identifier.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The provider does not implement the <a href="https://msdn.microsoft.com/04d29632
 
 The provider should return <b>E_NOINTERFACE</b> if the <i>guidService</i> does not belong to this provider, or the <i>riid</i> interface  is not supported.  The provider should return <b>E_NOTIMPL</b> if it simply does not implement this method or does not implement the requested SID.
 
-Any provider that supports embedded services or devices must implement the SID_PNPXServiceCollection service.  If the SID_PNPXServiceCollection service is supported, the client can call <a href="https://msdn.microsoft.com/04d29632-81b3-47d6-8630-a65677d78b6f">IFunctionInstance::QueryService</a> to access the information and metadata associated with the embedded services or devices. For example, the PnP-X providers (that is, the <a href="https://msdn.microsoft.com/41d65b08-7601-430e-9702-6a6fd9854027">SSDP provider</a> and the WSD provider) implement support for the SID_PNPXServiceCollection service. Not all providers implement SID_PNPXServiceCollection service support.
+Any provider that supports embedded services or devices must implement the SID_PNPXServiceCollection service.  If the SID_PNPXServiceCollection service is supported, the client can call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">IFunctionInstance::QueryService</a> to access the information and metadata associated with the embedded services or devices. For example, the PnP-X providers (that is, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/ssdp-provider">SSDP provider</a> and the WSD provider) implement support for the SID_PNPXServiceCollection service. Not all providers implement SID_PNPXServiceCollection service support.
 
 
 
@@ -163,7 +163,7 @@ Any provider that supports embedded services or devices must implement the SID_P
 
 
 
-<a href="https://msdn.microsoft.com/e0019d0d-1495-4a0e-a7d9-7772046a4a26">IFunctionDiscoveryProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
  
 
  

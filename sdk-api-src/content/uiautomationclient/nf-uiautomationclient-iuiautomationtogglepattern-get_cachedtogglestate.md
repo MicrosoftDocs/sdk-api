@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f2e69387-271f-4f85-85d5-19ba5d231f85">IUIAutomationTogglePattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtogglepattern">IUIAutomationTogglePattern</a>
  
 
  

@@ -63,7 +63,7 @@ The <code>GetInfo</code> method retrieves information about the current stream-c
 
 ### -param pInfo [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/63b62f03-1973-41af-b6a4-e1bcb6ab803f">AM_STREAM_INFO</a> structure, allocated by the caller, that receives the current stream-control settings.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_stream_info">AM_STREAM_INFO</a> structure, allocated by the caller, that receives the current stream-control settings.
 
 
 ## -returns
@@ -110,11 +110,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/126c7ed7-acc0-4248-a3ab-c91c9f1c5cee">IAMStreamControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl Interface</a>
  
 
  

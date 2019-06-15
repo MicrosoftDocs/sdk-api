@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the count of spatial audio objects, represented by <a href="https://msdn.microsoft.com/61E9BC6A-2120-4874-9053-E1D232DF1CCA">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
+Gets the count of spatial audio objects, represented by <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
 
 
 ## -parameters
@@ -107,7 +107,7 @@ The supplied pointer is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/EA0277BF-C9C8-42FE-9206-A87FC3C50A9F">IMFSpatialAudioSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a>
  
 
  

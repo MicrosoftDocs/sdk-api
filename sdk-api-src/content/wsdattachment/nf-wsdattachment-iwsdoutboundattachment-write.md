@@ -123,7 +123,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The outbound attachment interface has not been initialized. Call <a href="https://msdn.microsoft.com/92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9">WSDCreateOutboundAttachment</a> to initialize the interface.
+The outbound attachment interface has not been initialized. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-wsdcreateoutboundattachment">WSDCreateOutboundAttachment</a> to initialize the interface.
 
 </td>
 </tr>
@@ -148,14 +148,14 @@ Internal buffers were not available. The data was not accepted and queued for tr
 
 
 
-The <b>Write</b> method allows an application program to send arbitrary data to a remote host as a MIME-encapsulated message attachment. The first call to  <b>Write</b> opens the outbound attachment stream and initiates transmission of the HTTP headers, envelope data, and the MIME-encoded application data. Subsequent calls to <b>Write</b> will send additional blocks of MIME-encoded application data until the application makes a call to <a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a>, which closes the attachment stream and finishes the transmission of the message envelope data and headers.
+The <b>Write</b> method allows an application program to send arbitrary data to a remote host as a MIME-encapsulated message attachment. The first call to  <b>Write</b> opens the outbound attachment stream and initiates transmission of the HTTP headers, envelope data, and the MIME-encoded application data. Subsequent calls to <b>Write</b> will send additional blocks of MIME-encoded application data until the application makes a call to <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a>, which closes the attachment stream and finishes the transmission of the message envelope data and headers.
 
  The <b>Write</b> operation may block under several conditions. On the initial operation, <b>Write</b> will block until the HTTP headers and XML content have been transmitted. When sending multiple attachments in a single message, the first call to <b>Write</b> on any attachment may block until any prior attachment streams have been completely transmitted.
 <b>Write</b> may block for up to 30 seconds (per HTTP transmission timeouts) if the remote host does not reply.
 
-If an error occurs in establishing a connection or transmitting headers, <b>Write</b> will return the error code immediately. If a data transfer error occurs, the error may be delayed to a future call of <b>Write</b> or <a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">Close</a>.
+If an error occurs in establishing a connection or transmitting headers, <b>Write</b> will return the error code immediately. If a data transfer error occurs, the error may be delayed to a future call of <b>Write</b> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a>.
 
- The <b>Write</b> method may return successfully after a failed  <b>Write</b> attempt that returned <b>STG_S_BLOCK</b>.  A subsequent success indicates that the internal buffers were freed for use after the initial failed attempt. When <b>STG_S_BLOCK</b> is received by an application, the application can either resend the same data using the <b>Write</b> method or terminate  the data transfer using the <a href="https://msdn.microsoft.com/add0160c-bbf7-446e-8592-a05fd4d16fac">Abort</a> method.
+ The <b>Write</b> method may return successfully after a failed  <b>Write</b> attempt that returned <b>STG_S_BLOCK</b>.  A subsequent success indicates that the internal buffers were freed for use after the initial failed attempt. When <b>STG_S_BLOCK</b> is received by an application, the application can either resend the same data using the <b>Write</b> method or terminate  the data transfer using the <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">Abort</a> method.
 
 
 
@@ -165,19 +165,19 @@ If an error occurs in establishing a connection or transmitting headers, <b>Writ
 
 
 
-<a href="https://msdn.microsoft.com/1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0">IWSDInboundAttachment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba2f2038-e6ef-4ad4-a1fb-50e225394c60">IWSDOutboundAttachment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a>
 
 
 
-<a href="https://msdn.microsoft.com/add0160c-bbf7-446e-8592-a05fd4d16fac">IWSDOutboundAttachment::Abort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">IWSDOutboundAttachment::Abort</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ab63ed5-7b71-4f28-926d-a24666f0dd15">IWSDOutboundAttachment::Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">IWSDOutboundAttachment::Close</a>
  
 
  

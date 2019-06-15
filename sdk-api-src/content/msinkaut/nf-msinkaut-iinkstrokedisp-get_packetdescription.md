@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Gets an array of globally unique identifiers (GUIDs) that describes the types of packet data stored in the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object.
+Gets an array of globally unique identifiers (GUIDs) that describes the types of packet data stored in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
 
 
 
@@ -67,7 +67,7 @@ This property is read-only.
 
 
 
-For a complete list of available packet properties, see the <a href="https://msdn.microsoft.com/3e8495f6-0860-4ea8-a258-784eaade85c7">PacketProperty</a> constants.
+For a complete list of available packet properties, see the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants.
 
 
 
@@ -77,7 +77,7 @@ For a complete list of available packet properties, see the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
  
 
  

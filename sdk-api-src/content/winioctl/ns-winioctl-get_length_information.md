@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains disk, volume, or partition length information used by the 
-<a href="https://msdn.microsoft.com/8d4bd6e3-f0f3-40d6-b0ba-75155282f64a">IOCTL_DISK_GET_LENGTH_INFO</a> control code.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a> control code.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The length of the disk, volume, or partition, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/8d4bd6e3-f0f3-40d6-b0ba-75155282f64a">IOCTL_DISK_GET_LENGTH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>
  
 
  

@@ -75,22 +75,22 @@ Number of configured local policy modules.
 
 ### -field AllocMemory
 
-Memory allocation function used to initialize memory for local policy modules, in the form of a <a href="https://msdn.microsoft.com/e7b38820-4a7e-4f17-a67d-b94caa9037f5">PALLOCMEM</a> function.
+Memory allocation function used to initialize memory for local policy modules, in the form of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a> function.
 
 
 ### -field FreeMemory
 
-Memory freeing function used to free memory allocated for the local policy module.  See <a href="https://msdn.microsoft.com/b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037">PFREEMEM</a> for more information.
+Memory freeing function used to free memory allocated for the local policy module.  See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pfreemem">PFREEMEM</a> for more information.
 
 
 ### -field PcmAdmitResultCallback
 
-Callback function used to admit results. See <a href="https://msdn.microsoft.com/9040155b-6c6d-4deb-a63a-74e5fc8123ba">cbAdmitResult</a> for more information.
+Callback function used to admit results. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a> for more information.
 
 
 ### -field GetRsvpObjectsCallback
 
-Callback function used to obtain RSVP objects. See <a href="https://msdn.microsoft.com/baedb3e9-7768-4666-8bd7-78dd1d0eb0de">cbGetRsvpObjects</a> for more information.
+Callback function used to obtain RSVP objects. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a> for more information.
 
 
 ## -see-also
@@ -98,19 +98,19 @@ Callback function used to obtain RSVP objects. See <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/e7b38820-4a7e-4f17-a67d-b94caa9037f5">PALLOCMEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037">PFREEMEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pfreemem">PFREEMEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/9040155b-6c6d-4deb-a63a-74e5fc8123ba">cbAdmitResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbadmitresult">cbAdmitResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/baedb3e9-7768-4666-8bd7-78dd1d0eb0de">cbGetRsvpObjects</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>
  
 
  

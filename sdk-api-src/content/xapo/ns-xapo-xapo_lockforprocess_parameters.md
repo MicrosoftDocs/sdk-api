@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines stream buffer parameters that remain constant while an XAPO is locked. Used with the <a href="https://msdn.microsoft.com/e76c9fc5-15ed-497e-a7da-42b8e3642903">IXAPO::LockForProcess</a> method.
+Defines stream buffer parameters that remain constant while an XAPO is locked. Used with the <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-lockforprocess">IXAPO::LockForProcess</a> method.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ A WAVFORMATEX describing the format for the stream buffer.
 
 ### -field MaxFrameCount
 
-Maximum number of frames in the stream buffer that <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
+Maximum number of frames in the stream buffer that <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> would ever be required to handle, irrespective of dynamic parameter settings.
 
 
 ## -remarks
@@ -86,7 +86,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
  
 
  

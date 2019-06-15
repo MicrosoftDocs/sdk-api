@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 You may use the <b>MOF_FIELD</b> structures to append event data to the 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> or 
-<a href="https://msdn.microsoft.com/2a79d937-2a3b-4426-b31f-a1a3ce86a334">EVENT_INSTANCE_HEADER</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structures.
 		
 
 
@@ -83,12 +83,12 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 If you use 
 <b>MOF_FIELD</b> structures, you must set the <b>WNODE_FLAG_USE_MOF_PTR</b> flag in the <b>Flags</b> member of the 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a> or 
-<a href="https://msdn.microsoft.com/2a79d937-2a3b-4426-b31f-a1a3ce86a334">EVENT_INSTANCE_HEADER</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structure.
 
 The event tracing session automatically dereferences 
 <b>MOF_FIELD</b> data pointers before passing the data to event trace consumers using 
-<a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0">EVENT_TRACE</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structures.
 
 
 
@@ -98,15 +98,15 @@ The event tracing session automatically dereferences
 
 
 
-<a href="https://msdn.microsoft.com/2a79d937-2a3b-4426-b31f-a1a3ce86a334">EVENT_INSTANCE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/d8a6b63e-0cd4-4d19-b0b3-16bb0d33e4c0">EVENT_TRACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/33c2de6b-afc2-4323-8d81-2970e66edf5e">EVENT_TRACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>
  
 
  

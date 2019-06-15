@@ -59,7 +59,7 @@ The <b>Unadvise</b> method unregisters a service event callback object.
 
 ### -param pszCookie [in]
 
-The unique context ID for the application-supplied callback object. This value matches that yielded by the <i>ppszCookie</i> parameter of the <a href="https://msdn.microsoft.com/128b1ee9-fd1f-4480-ae9a-b1d0bc86cf1b">Advise</a> method.
+The unique context ID for the application-supplied callback object. This value matches that yielded by the <i>ppszCookie</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-advise">Advise</a> method.
 
 
 ## -returns
@@ -107,7 +107,7 @@ A <b>NULL</b> parameter was specified.
 
 
 
-<a href="https://msdn.microsoft.com/f57344d5-c978-4c27-b8a9-b42492bd9312">IPortableDeviceService Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
  
 
  

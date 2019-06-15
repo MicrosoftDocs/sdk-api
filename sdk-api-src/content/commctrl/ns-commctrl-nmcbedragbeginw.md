@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775758(v=VS.85).aspx">CBEN_DRAGBEGIN</a> notification code. 
+Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/cben-dragbegin">CBEN_DRAGBEGIN</a> notification code. 
 
 
 ## -struct-fields
@@ -61,9 +61,9 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field iItemid
@@ -75,7 +75,7 @@ The zero-based index of the item being dragged. This value will always be -1, in
 
 ### -field szText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">TCHAR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
 
 The character buffer that contains the text of the item being dragged. 
 

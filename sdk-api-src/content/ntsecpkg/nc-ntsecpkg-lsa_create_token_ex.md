@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Creates tokens while processing calls to 
-<a href="https://msdn.microsoft.com/bf443c15-0039-4ffa-a5ec-e8ef6a24dc80">SpAcceptLsaModeContext</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptlsamodecontextfn">SpAcceptLsaModeContext</a>.
 
 
 ## -parameters
@@ -61,25 +61,25 @@ Creates tokens while processing calls to
 ### -param LogonId [in]
 
 A pointer to a logon session identifier for the new token. This identifier is obtained from a previous call to 
-<a href="https://msdn.microsoft.com/383c935c-a1f2-4d1b-bb02-e7e37f154771">CreateLogonSession</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_create_logon_session">CreateLogonSession</a>.
 
 
 ### -param TokenSource [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/9c533327-e4a0-4852-828c-622d190b7d1e">TOKEN_SOURCE</a> structure that specifies the source for this token. Specify the package name.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_source">TOKEN_SOURCE</a> structure that specifies the source for this token. Specify the package name.
 
 
 ### -param LogonType [in]
 
 A 
-<a href="https://msdn.microsoft.com/d775d782-9403-47b2-bb43-8f677db49eb9">SECURITY_LOGON_TYPE</a> value that indicates the type of logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> value that indicates the type of logon.
 
 
 ### -param ImpersonationLevel [in]
 
 A 
-<a href="https://msdn.microsoft.com/a75ad777-c88e-4899-be50-0118c113a600">SECURITY_IMPERSONATION_LEVEL</a> value that indicates the extent to which a server process can impersonate a client process.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> value that indicates the extent to which a server process can impersonate a client process.
 
 
 ### -param TokenInformationType [in]
@@ -103,7 +103,7 @@ Specifies the type of structure in the <i>TokenInformation</i> parameter.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/fbcd0f78-1ad5-4bea-a95f-d19fb3894537">LSA_TOKEN_INFORMATION_NULL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_token_information_null">LSA_TOKEN_INFORMATION_NULL</a>
 
 
 </td>
@@ -115,7 +115,7 @@ Specifies the type of structure in the <i>TokenInformation</i> parameter.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/e4c43828-aa5c-443c-93ad-96bb986533c5">LSA_TOKEN_INFORMATION_V1</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa378721(v=vs.85)">LSA_TOKEN_INFORMATION_V1</a>
 
 
 </td>
@@ -132,17 +132,17 @@ A pointer to the token information. The type of structure pointed to by <i>Token
 ### -param TokenGroups [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure that specifies groups not contained in <i>TokenInformation</i>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure that specifies groups not contained in <i>TokenInformation</i>.
 
 
 ### -param Workstation [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that contains the name of the client's workstation, normally a NetBIOS name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the name of the client's workstation, normally a NetBIOS name.
 
 
 ### -param ProfilePath [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that contains the path to the user's profile, if any.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the path to the user's profile, if any.
 
 
 ### -param SessionInformation [in]
@@ -152,12 +152,12 @@ Data that specifies information about the current logon session. The format of t
 
 ### -param SessionInformationType [in]
 
-A value of the <a href="https://msdn.microsoft.com/462b028a-9f74-4367-b89b-97fd9be301ed">SECPKG_SESSIONINFO_TYPE</a> enumeration that specifies the format of the <i>SessionInformation</i> parameter. Currently, the only defined value is <b>SecSessionPrimaryCred</b>, which specifies that the value of the <i>SessionInformation</i> parameter is a <a href="https://msdn.microsoft.com/e51fd400-6c3c-4861-ab5c-6c1800b12d31">SECPKG_PRIMARY_CRED</a> structure.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_sessioninfo_type">SECPKG_SESSIONINFO_TYPE</a> enumeration that specifies the format of the <i>SessionInformation</i> parameter. Currently, the only defined value is <b>SecSessionPrimaryCred</b>, which specifies that the value of the <i>SessionInformation</i> parameter is a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_primary_cred">SECPKG_PRIMARY_CRED</a> structure.
 
 
 ### -param Token [out]
 
-A pointer that receives the address of a handle to the new token. When you have finished using the handle, close it by calling the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function.
+A pointer that receives the address of a handle to the new token. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 
 ### -param SubStatus [out]
@@ -182,8 +182,8 @@ If the function fails, the return value is an NTSTATUS code that indicates the r
 
 
 A pointer to the <b>CreateTokenEx</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -193,7 +193,7 @@ A pointer to the <b>CreateTokenEx</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

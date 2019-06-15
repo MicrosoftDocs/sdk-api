@@ -86,7 +86,7 @@ A pointer to a string that specifies the short name for the file.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
       <b>GetLastError</b> may return one of the following error 
        codes that are specific to this function.
 
@@ -128,7 +128,7 @@ Either the specified file has been opened in case-sensitive mode or the specifie
 
 
 The caller of this function must have the <b>SE_RESTORE_NAME</b> privilege. For more 
-    information, see <a href="https://msdn.microsoft.com/b25db548-d5ab-4276-9b50-36d030909384">Running with Special Privileges</a>.
+    information, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -201,11 +201,11 @@ SMB 3.0 does not support short names on shares with continuous availability capa
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7">GetShortPathName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getshortpathnamew">GetShortPathName</a>
  
 
  

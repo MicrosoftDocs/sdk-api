@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the value of the authentication flag <b>WSManFlagUseCredSsp</b> for use in the <i>flags</i> parameter of <a href="https://msdn.microsoft.com/0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5">IWSMan::CreateSession</a>.
+Returns the value of the authentication flag <b>WSManFlagUseCredSsp</b> for use in the <i>flags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a>.
 
-<b>WSManFlagUseCredSsp</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="https://msdn.microsoft.com/adfefbc9-c386-48db-a0c2-145aa4f91bfa">Authentication Constants</a>.
+<b>WSManFlagUseCredSsp</b> is a constant in the <b>__WSManSessionFlags</b> enumeration. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/authentication-constants">Authentication Constants</a>.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ If the method succeeds, it returns the authentication flag. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/6d362cdf-0f77-446a-8df9-1d38eca853a2">IWSManEx3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex3">IWSManEx3</a>
  
 
  

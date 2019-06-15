@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by Windows 2000 to hold information about a component. This structure replaces the <a href="https://msdn.microsoft.com/5fcb2853-271b-4fcc-a3ea-0c2c6dd68195">IE4COMPONENT</a> structure.
+Used by Windows 2000 to hold information about a component. This structure replaces the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagie4component">IE4COMPONENT</a> structure.
 
 
 ## -struct-fields
@@ -99,7 +99,7 @@ Website
 
 #### COMP_TYPE_CONTROL
 
-ActiveX control. This value is valid only for <a href="https://msdn.microsoft.com/5a0c61e8-a645-4a32-b97b-8d7b43d0e5e3">IActiveDesktop::AddDesktopItem</a>.
+ActiveX control. This value is valid only for <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem">IActiveDesktop::AddDesktopItem</a>.
 
 
 ### -field fChecked
@@ -125,9 +125,9 @@ A value that is set to <b>TRUE</b> if the component is scrollable, or <b>FALSE</
 
 ### -field cpPos
 
-Type: <b><a href="https://msdn.microsoft.com/622bdf51-d605-4eb9-a692-09be028bbff8">COMPPOS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a></b>
 
-A <a href="https://msdn.microsoft.com/622bdf51-d605-4eb9-a692-09be028bbff8">COMPPOS</a> structure containing position and size information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomppos">COMPPOS</a> structure containing position and size information.
 
 
 ### -field wszFriendlyName
@@ -178,14 +178,14 @@ Split screen
 
 ### -field csiOriginal
 
-Type: <b><a href="https://msdn.microsoft.com/0087e868-0bdd-4ad2-a93f-84ff55b2cb06">COMPSTATEINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a></b>
 
-A <a href="https://msdn.microsoft.com/0087e868-0bdd-4ad2-a93f-84ff55b2cb06">COMPSTATEINFO</a> structure with the state of the component when it was first added.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a> structure with the state of the component when it was first added.
 
 
 ### -field csiRestored
 
-Type: <b><a href="https://msdn.microsoft.com/0087e868-0bdd-4ad2-a93f-84ff55b2cb06">COMPSTATEINFO</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a></b>
 
-A <a href="https://msdn.microsoft.com/0087e868-0bdd-4ad2-a93f-84ff55b2cb06">COMPSTATEINFO</a> structure with the restored state of the component.
+A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcompstateinfo">COMPSTATEINFO</a> structure with the restored state of the component.
 

@@ -59,9 +59,9 @@ Translates a message for a Component Object Model (COM) object.
 
 ### -param pmsg [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the incoming message.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> structure that contains the incoming message.
 
 
 ### -param plRet [out]
@@ -116,7 +116,7 @@ The message was not handled. In this case, *plRet is <b>NULL</b>.
 
 
 
-Typically, <a href="https://msdn.microsoft.com/d30a456c-7c09-4250-8509-353c54d017b9">IMenuBand::IsMenuMessage</a> is called before this method. The parent window proc, not the message pump, must call <b>IMenuBand::TranslateMenuMessage</b> for every message.
+Typically, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-ismenumessage">IMenuBand::IsMenuMessage</a> is called before this method. The parent window proc, not the message pump, must call <b>IMenuBand::TranslateMenuMessage</b> for every message.
 
 This method can change the values of <i>pmsg</i>. If so, the changes should be forwarded on.
 

@@ -145,7 +145,7 @@ A file registered for a language subtag will be picked up for all languages that
 
 
 
-<a href="https://msdn.microsoft.com/eca9446a-268e-4318-a5e7-8bb8592c9660">IUserDictionariesRegistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>
  
 
  

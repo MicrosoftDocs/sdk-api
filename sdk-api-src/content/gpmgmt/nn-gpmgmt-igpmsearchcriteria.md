@@ -52,12 +52,12 @@ ms.custom: 19H1
 
 The 
 <b>IGPMSearchCriteria</b> interface allows you to define the criteria to use for search operations when using the Group Policy Management Console (GPMC) interfaces. To create a <b>GPMSearchCriteria</b> object, call the 
-<a href="https://msdn.microsoft.com/7bb99109-c0d6-47cb-9ea4-6c60c1607b79">IGPM::CreateSearchCriteria</a> method.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createsearchcriteria">IGPM::CreateSearchCriteria</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSearchCriteria</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMSearchCriteria</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSearchCriteria</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSearchCriteria</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IGPMSearchCriteria</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d3f62df-6de1-4871-903f-05ac234db17f">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsearchcriteria-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a criterion for search operations.
@@ -87,11 +87,11 @@ Adds a criterion for search operations.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_PASSWORD_CREDENTIALS</b> structure contains the user name and password credentials to be used in the <a href="https://msdn.microsoft.com/d28b2f52-3258-44ad-a3ab-0743d3afcd62">CRYPT_CREDENTIALS</a> structure as optional input to a remote object retrieval function such as <a href="https://msdn.microsoft.com/2e205f97-be9b-4358-ba22-d475b6a250b7">CryptRetrieveObjectByUrl</a> or <a href="https://msdn.microsoft.com/dd639b43-1560-4e9f-a778-9e20484ae012">CryptGetTimeValidObject</a>.
+The <b>CRYPT_PASSWORD_CREDENTIALS</b> structure contains the user name and password credentials to be used in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_credentials">CRYPT_CREDENTIALS</a> structure as optional input to a remote object retrieval function such as <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgettimevalidobject">CryptGetTimeValidObject</a>.
 
 
 ## -struct-fields

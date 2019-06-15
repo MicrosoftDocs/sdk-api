@@ -90,7 +90,7 @@ The limits returned by this method may include records that have not yet been wr
 
 
 
-<a href="https://msdn.microsoft.com/93f2be99-0799-4047-ae4e-62f0e74d15c3">ILog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
  
 
  

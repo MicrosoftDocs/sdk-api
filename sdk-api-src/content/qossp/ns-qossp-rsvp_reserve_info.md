@@ -69,7 +69,7 @@ The QOS object
 ### -field Style
 
 Specifies the RSVP reservation style for a given flow, and can be used to replace default reservation styles placed on a particular type of flow. More information about RSVP reservation styles, and the default settings for certain QOS-enabled socket sessions, can be found under 
-<a href="https://msdn.microsoft.com/7baa7600-5216-4596-b82c-c780f14a8f5c">Network-Driven QOS Components</a>. This member can be one of the following values. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/network-driven-qos-components">Network-Driven QOS Components</a>. This member can be one of the following values. 
 
 
 
@@ -131,7 +131,7 @@ Can be used by a receiving application to request notification of its reservatio
 
 ### -field PolicyElementList
 
-Pointer to the set of policy elements. Optional policy information, as provided in an <a href="https://msdn.microsoft.com/21ad9446-a22c-4c3f-911d-a263cb85078b">RSVP_POLICY_INFO</a> structure.
+Pointer to the set of policy elements. Optional policy information, as provided in an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_policy_info">RSVP_POLICY_INFO</a> structure.
 
 
 ### -field NumFlowDesc
@@ -149,7 +149,7 @@ Pointer to the list of FLOWDESCRIPTORs.
 
 
 
-<a href="https://msdn.microsoft.com/a2021d70-e7ef-4c2a-8800-1a1d7540ce02">QOS_OBJECT_HDR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
  
 
  

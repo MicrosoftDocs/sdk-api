@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Defines the computer account types under which a command action (see 
-    <a href="https://msdn.microsoft.com/3e34395e-b8e6-4288-a040-dff6cf7f5fe6">FsrmActionType</a>) can run.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a>) can run.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ Defines the computer account types under which a command action (see
 ### -field FsrmAccountType_Unknown
 
 The account type is unknown. Do not use this value to set the 
-      <a href="https://msdn.microsoft.com/24f0bf5c-064c-4f1e-b69f-23374ea78324">IFsrmActionCommand::Account</a> property.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncommand-get_account">IFsrmActionCommand::Account</a> property.
 
 
 ### -field FsrmAccountType_NetworkService
@@ -104,19 +104,19 @@ Run the command or pipeline module under the account that FSRM selects. This is 
 
 
 
-<a href="https://msdn.microsoft.com/93fdf667-8959-40a9-a374-c54ed73bbe89">FSRM Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e34395e-b8e6-4288-a040-dff6cf7f5fe6">FsrmActionType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmactiontype">FsrmActionType</a>
 
 
 
-<a href="https://msdn.microsoft.com/24f0bf5c-064c-4f1e-b69f-23374ea78324">IFsrmActionCommand.Account</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioncommand-get_account">IFsrmActionCommand.Account</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f50bd88-ad16-49a4-b9d8-6c71ef6d9620">IFsrmPipelineModuleDefinition.Account</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_account">IFsrmPipelineModuleDefinition.Account</a>
  
 
  

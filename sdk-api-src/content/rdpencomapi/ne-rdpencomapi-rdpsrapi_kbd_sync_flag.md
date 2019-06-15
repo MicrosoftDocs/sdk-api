@@ -75,7 +75,7 @@ Defines values for the type of keys that control the state of a keyboard, such a
 
 
 
-<a href="https://msdn.microsoft.com/ceda755a-dd9a-4d89-96b2-39e2dca46801">Windows Desktop Sharing Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>
  
 
  

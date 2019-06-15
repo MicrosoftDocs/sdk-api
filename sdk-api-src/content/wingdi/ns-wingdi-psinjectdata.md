@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>PSINJECTDATA</b> structure is a header for the input buffer used with the <a href="https://msdn.microsoft.com/8d58efd4-6515-4ccb-9790-9bb8d02cce89">POSTSCRIPT_INJECTION</a> printer escape function.
+The <b>PSINJECTDATA</b> structure is a header for the input buffer used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162830(v=vs.85)">POSTSCRIPT_INJECTION</a> printer escape function.
 
 
 
@@ -215,15 +215,15 @@ The page number (starting from 1) to which the injection data is applied. Specif
 
 
 
-<a href="https://msdn.microsoft.com/8d58efd4-6515-4ccb-9790-9bb8d02cce89">POSTSCRIPT_INJECTION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162830(v=vs.85)">POSTSCRIPT_INJECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cf3a16b-194a-404e-aba7-d094364c6f05">Print Spooler API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

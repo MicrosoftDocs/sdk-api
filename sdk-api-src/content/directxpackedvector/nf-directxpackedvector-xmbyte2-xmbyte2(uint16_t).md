@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-A constructor for <a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>.
+A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>.
 
 A constructor for <code>XMBYTE2</code>.
 
@@ -63,6 +63,6 @@ A value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449492(v=VS.85).aspx">XMBYTE2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>

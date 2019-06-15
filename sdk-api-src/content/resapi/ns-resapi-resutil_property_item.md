@@ -52,7 +52,7 @@ ms.custom: 19H1
 Contains 
     information about a cluster object property. An array of 
     <b>RESUTIL_PROPERTY_ITEM</b> structures forms a 
-    <a href="https://msdn.microsoft.com/48591d73-606b-42b4-9711-4f7a84e9e971">property table</a> which can be used in property operations.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a> which can be used in property operations.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ The name of the property.
 
 ### -field KeyName
 
-Optional name of the <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> subkey for 
+Optional name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> subkey for 
       the property. This parameter can be <b>NULL</b>.
 
 
@@ -76,7 +76,7 @@ Optional name of the <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a
 Describes the format of the property such as <b>CLUSPROP_FORMAT_BINARY</b> or 
       <b>CLUSPROP_FORMAT_DWORD</b>. For a list of valid format values, see the 
       <b>wFormat</b> member of 
-      <a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>.
 
 
 ### -field DUMMYUNIONNAME
@@ -135,7 +135,7 @@ Bitmask that describes the property.
 
 #### RESUTIL_PROPITEM_READ_ONLY (0x00000001)
 
-The property is <a href="https://msdn.microsoft.com/7df0981b-7253-40c1-9a5d-44cfc4cdf13b">read-only</a>.
+The property is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/read-only-properties">read-only</a>.
 
 
 
@@ -181,14 +181,14 @@ Void pointer to a buffer containing the default value.
 
 #### LargeIntData
 
-Pointer to a <a href="https://msdn.microsoft.com/2498a771-f430-4faa-81c8-78d56905d18b">RESUTIL_LARGEINT_DATA</a> 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_largeint_data">RESUTIL_LARGEINT_DATA</a> 
        structure describing the maximum, minimum, and default values for a signed large integer.
 
 
 
 #### ULargeIntData
 
-Pointer to a <a href="https://msdn.microsoft.com/44b937dc-e2f1-4c2d-9689-35b772103b8d">RESUTIL_ULARGEINT_DATA</a> 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_ulargeint_data">RESUTIL_ULARGEINT_DATA</a> 
        structure describing the maximum, minimum, and default values for an unsigned large integer. The default value 
        must be consistent with the format specified by the <b>Format</b> member.
 
@@ -196,7 +196,7 @@ Pointer to a <a href="https://msdn.microsoft.com/44b937dc-e2f1-4c2d-9689-35b7721
 
 #### FileTimeData
 
-Pointer to a <a href="https://msdn.microsoft.com/47009cac-fcfe-43f5-9676-4e5db863c909">RESUTIL_FILETIME_DATA</a> 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_filetime_data">RESUTIL_FILETIME_DATA</a> 
        structure describing the file data and time data.
 
 
@@ -205,15 +205,15 @@ Pointer to a <a href="https://msdn.microsoft.com/47009cac-fcfe-43f5-9676-4e5db86
 
 
 For more information about building parameter blocks and property tables, see 
-    <a href="https://msdn.microsoft.com/f8f0297a-c050-41b9-a52f-a0265a18b87a">Using Lists and Tables</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-lists-and-tables">Using Lists and Tables</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/f8f0297a-c050-41b9-a52f-a0265a18b87a">Using Lists and Tables</a> and 
-     <a href="https://msdn.microsoft.com/9efe1457-72ab-4e9a-9d92-128e206b0fb3">Building with CLUSPROP_BUFFER_HELPER</a>, 
-     and <a href="https://msdn.microsoft.com/20b150b4-293f-408b-888e-bac2b2fa4fb8">Defining Structures and Constants</a> in 
-     <a href="https://msdn.microsoft.com/400862c3-73c4-443d-bc60-1c1b6b34534f">Implementing Resource DLLs</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-lists-and-tables">Using Lists and Tables</a> and 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/building-with-clusprop-buffer-helper">Building with CLUSPROP_BUFFER_HELPER</a>, 
+     and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/defining-structures-and-constants">Defining Structures and Constants</a> in 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-resource-dlls">Implementing Resource DLLs</a>.
 
 <div class="code"></div>
 
@@ -224,7 +224,7 @@ See <a href="https://msdn.microsoft.com/f8f0297a-c050-41b9-a52f-a0265a18b87a">Us
 
 
 
-<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
  
 
  

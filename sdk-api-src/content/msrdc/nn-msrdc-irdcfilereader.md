@@ -55,7 +55,7 @@ The <b>IRdcFileReader</b> interface is used to provide the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcFileReader</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRdcFileReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcFileReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRdcFileReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,14 +70,14 @@ The <b>IRdcFileReader</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cef6883-29d2-4970-9a96-3500b58449d2">GetFilePosition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilereader-getfileposition">GetFilePosition</a>
 </td>
 <td align="left" width="63%">
 Returns the current file position.</p> (Inherited from <b>IRdcFileReader</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2db66eb0-7213-446a-ad4b-f0df9e48abd4">GetFileSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilereader-getfilesize">GetFileSize</a>
 </td>
 <td align="left" width="63%">
 Returns the 
@@ -85,7 +85,7 @@ Returns the
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/194944c8-94a8-4f9b-9970-012392e069b1">Read</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilereader-read">Read</a>
 </td>
 <td align="left" width="63%">
 Reads the specified amount 
@@ -99,19 +99,19 @@ Reads the specified amount
 
 
 
-<a href="https://msdn.microsoft.com/21e83ed0-974a-470f-8a7f-1776f1575100">IRdcLibrary::CreateComparator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createcomparator">IRdcLibrary::CreateComparator</a>
 
 
 
-<a href="https://msdn.microsoft.com/08627c9d-7470-47ab-9209-32734082c393">IRdcLibrary::CreateSignatureReader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdclibrary-createsignaturereader">IRdcLibrary::CreateSignatureReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3131654-e849-4a88-acec-c49a61653bad">Remote Differential Compression Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-interfaces">Remote Differential Compression Interfaces</a>
  
 
  

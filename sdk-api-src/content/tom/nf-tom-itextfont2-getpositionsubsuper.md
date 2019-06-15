@@ -68,7 +68,7 @@ The subscript or superscript position relative to the baseline.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -81,7 +81,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 The subscript or superscript position is relative to the baseline as a percent of the font height.
 
-Subscripts and superscripts in math zones are handled using the <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSubscript</a>, <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSuperscript</a>, <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomSubSup</a>, and <a href="https://msdn.microsoft.com/en-us/library/Hh768758(v=VS.85).aspx">tomLeftSubSup</a> mathematical objects. See <a href="https://msdn.microsoft.com/0ed4a595-c3e8-4bfa-805f-4c5dfd5e3a56">ITextRange2::GetInlineObject</a>.
+Subscripts and superscripts in math zones are handled using the <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubscript</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSuperscript</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomSubSup</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0002">tomLeftSubSup</a> mathematical objects. See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a>.
 
 
 
@@ -91,11 +91,11 @@ Subscripts and superscripts in math zones are handled using the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f78a91b-17a3-48ff-9ca0-1eb4f9c95be4">ITextFont2::SetPositionSubSuper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-setpositionsubsuper">ITextFont2::SetPositionSubSuper</a>
  
 
  

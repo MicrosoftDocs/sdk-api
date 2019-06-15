@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/08a6307b-3ed5-4d7f-aa22-a666d64371b5">Enumerator.Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/enumerator-error">Enumerator.Error</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7afac5d-946f-49ec-a7d0-de558ed2144b">IWSManEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
  
 
  

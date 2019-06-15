@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_providerGenericDialogData</b> function delivers to the service provider data that was sent from the UI DLL running in an application context through the 
-<a href="https://msdn.microsoft.com/2f4ec748-26ff-49c5-bd88-6c6e64e5bc89">TUISPIDLLCALLBACK</a> function. The contents of the memory block pointed to by <i>lpParams</i> is defined by the service provider and UI DLL. The service provider can modify the contents of the parameter block; when this function returns, TAPI copies the modified data back into the original UI DLL parameter block.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a> function. The contents of the memory block pointed to by <i>lpParams</i> is defined by the service provider and UI DLL. The service provider can modify the contents of the parameter block; when this function returns, TAPI copies the modified data back into the original UI DLL parameter block.
 
 Implementation is mandatory if the UI DLL associated with the service provider calls 
-<a href="https://msdn.microsoft.com/2f4ec748-26ff-49c5-bd88-6c6e64e5bc89">TUISPIDLLCALLBACK</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ An object identifier of the type specified by <i>dwObjectType</i>.
 ### -param dwObjectType
 
 One of the 
-<a href="https://msdn.microsoft.com/bc0f876d-2443-4c3c-b723-3f82dc6bf849">TUISPIDLL_OBJECT_</a> constants, specifying the type of object identified by <i>dwObjectID</i>:
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tuispidll-object-">TUISPIDLL_OBJECT_</a> constants, specifying the type of object identified by <i>dwObjectID</i>:
 
 
 
@@ -97,7 +97,7 @@ One of the
 #### TUISPIDLL_OBJECT_DIALOGINSTANCE
 
 <i>dwObjectID</i> is an HDRVDIALOGINSTANCE, as returned to the service provider when it sent a 
-<a href="https://msdn.microsoft.com/5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75">LINE_CREATEDIALOGINSTANCE</a> message.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a> message.
 
 
 ### -param lpParams
@@ -126,11 +126,11 @@ LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAILED.
 
 
 
-<a href="https://msdn.microsoft.com/5a7e34bc-1dc3-40c4-b07e-de5b88cbcd75">LINE_CREATEDIALOGINSTANCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-createdialoginstance">LINE_CREATEDIALOGINSTANCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f4ec748-26ff-49c5-bd88-6c6e64e5bc89">TUISPIDLLCALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-tuispidllcallback">TUISPIDLLCALLBACK</a>
  
 
  

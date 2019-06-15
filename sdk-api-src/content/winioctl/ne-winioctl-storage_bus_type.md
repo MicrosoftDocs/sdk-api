@@ -164,7 +164,7 @@ iSCSI bus.
 
 
 
-<a href="https://msdn.microsoft.com/90367411-3008-4e37-9884-e586fc5162d9">DEVICE_MEDIA_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_device_media_info">DEVICE_MEDIA_INFO</a>
  
 
  

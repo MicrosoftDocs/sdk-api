@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clones an <a href="https://msdn.microsoft.com/74d0c373-e9b1-4d9c-bdb6-caa743938e32">IEnumSyncMgrEvents</a> object.
+Clones an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a> object.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Clones an <a href="https://msdn.microsoft.com/74d0c373-e9b1-4d9c-bdb6-caa743938e
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/74d0c373-e9b1-4d9c-bdb6-caa743938e32">IEnumSyncMgrEvents</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a>**</b>
 
-The address of the cloned <a href="https://msdn.microsoft.com/74d0c373-e9b1-4d9c-bdb6-caa743938e32">IEnumSyncMgrEvents</a> interface pointer.
+The address of the cloned <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a> interface pointer.
 
 
 ## -returns

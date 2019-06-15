@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_IsIIDSupported is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_IsIIDSupported</b> function implements the <a href="https://msdn.microsoft.com/7025d343-9171-4d0f-9e93-61365075edc0">IRpcStubBuffer::IsIIDSupported</a> method.
+The <b>CStdStubBuffer_IsIIDSupported</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-isiidsupported">IRpcStubBuffer::IsIIDSupported</a> method.
 
 
 ## -parameters

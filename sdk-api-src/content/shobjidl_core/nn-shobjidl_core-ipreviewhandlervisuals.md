@@ -54,7 +54,7 @@ Exposes methods for applying color and font information to preview handlers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandlerVisuals</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPreviewHandlerVisuals</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviewHandlerVisuals</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviewHandlerVisuals</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPreviewHandlerVisuals</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebb261bf-6770-4302-9c0c-09388c07bdf2">SetBackgroundColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setbackgroundcolor">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Sets the background color of the preview handler.
@@ -78,7 +78,7 @@ Sets the background color of the preview handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f329e2ad-ec79-4542-b7ef-ff38bda6e8cc">SetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-setfont">SetFont</a>
 </td>
 <td align="left" width="63%">
 Sets the font attributes to be used for text within the preview handler.
@@ -87,7 +87,7 @@ Sets the font attributes to be used for text within the preview handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07278485-51a6-4729-8569-250478382a1e">SetTextColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlervisuals-settextcolor">SetTextColor</a>
 </td>
 <td align="left" width="63%">
 Sets the color of the text within the preview handler.

@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Allocates physical memory pages to be mapped and unmapped within any 
-    <a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a> (AWE) region of a 
+    <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) region of a 
     specified process  and specifies the NUMA node for the physical memory.
 
 
@@ -72,7 +72,7 @@ A handle to a process.
 The function allocates memory that can later be mapped within the virtual address 
       space of this process. The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For 
       more information, see 
-      <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>. 
+      <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>. 
 
 
 ### -param NumberOfPages [in, out]
@@ -80,7 +80,7 @@ The function allocates memory that can later be mapped within the virtual addres
 The size of the physical memory to allocate, in pages.
 
 To determine the page size of the computer, use the 
-       <a href="https://msdn.microsoft.com/f6d745af-729a-494e-90b4-19fe7d97c7af">GetSystemInfo</a> function. On output, this parameter 
+       <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. On output, this parameter 
        receives the number of pages that are actually allocated, which might be less than the number requested.
 
 
@@ -112,7 +112,7 @@ Fewer pages than requested can be allocated. The caller must check the value of 
        parameter.
 
 If the function fails, the return value is <b>FALSE</b> and no frames are allocated. To get 
-       extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> 
+       extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        function.
 
 
@@ -126,7 +126,7 @@ The <b>AllocateUserPhysicalPagesNuma</b>
     function is used to allocate physical memory within a NUMA node that can later be mapped within the virtual 
     address space of the process. The <b>SeLockMemoryPrivilege</b> privilege must be enabled in the 
     caller's token or the function will fail with <b>ERROR_PRIVILEGE_NOT_HELD</b>. For more 
-    information, see <a href="https://msdn.microsoft.com/973796a6-bc2e-4e64-92db-5e17b9c25460">Privilege Constants</a>.
+    information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 Memory allocated by this function must be physically present in the system. After the memory is allocated, it 
     is locked down and unavailable to the rest of the virtual memory management system.
@@ -147,23 +147,23 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/48a29922-8130-4540-86b0-0faa120566a6">Address Windowing Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf45b24b-0622-4ba1-b485-8429cbf146b6">AllocateUserPhysicalPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpages">AllocateUserPhysicalPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/c01da9f1-1d24-4b7e-8c6b-50aa6f558384">FreeUserPhysicalPages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-freeuserphysicalpages">FreeUserPhysicalPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
  
 
  

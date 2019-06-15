@@ -68,7 +68,7 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 ### -field FmtValue
 
- A <a href="https://msdn.microsoft.com/68ccd722-94d2-4610-ba64-f51318f5436e">PDH_FMT_COUNTERVALUE</a> structure that contains the counter value of the instance.
+ A <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that contains the counter value of the instance.
 
 
 ## -see-also
@@ -76,11 +76,11 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 
 
-<a href="https://msdn.microsoft.com/68ccd722-94d2-4610-ba64-f51318f5436e">PDH_FMT_COUNTERVALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f388c7e-d0c8-461d-908c-48af92166996">PdhGetFormattedCounterArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcounterarraya">PdhGetFormattedCounterArray</a>
  
 
  

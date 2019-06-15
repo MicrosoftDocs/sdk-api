@@ -70,7 +70,7 @@ The table properties.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -81,9 +81,9 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-To select the table when the insertion point is inside a table, call <a href="https://msdn.microsoft.com/en-us/library/Bb787781(v=VS.85).aspx">ITextRange::Expand</a>(tomTable). 
+To select the table when the insertion point is inside a table, call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-expand">ITextRange::Expand</a>(tomTable). 
 
-Note: this method isn't implemented in RichEdit (see <a href="https://msdn.microsoft.com/49f5ffc1-d615-4d07-9f41-1c5f0dd9045b">ITextRow</a> for table functionality).
+Note: this method isn't implemented in RichEdit (see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a> for table functionality).
 
 
 
@@ -93,7 +93,7 @@ Note: this method isn't implemented in RichEdit (see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
  
 
  

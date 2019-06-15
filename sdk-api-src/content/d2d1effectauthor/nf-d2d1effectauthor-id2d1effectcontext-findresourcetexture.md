@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Finds the given resource texture if it has already been created with <a href="https://msdn.microsoft.com/265888DA-03C2-42F0-92D8-FEB542F9BAA4">ID2D1EffectContext::CreateResourceTexture</a> with the same GUID.
+Finds the given resource texture if it has already been created with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createresourcetexture">ID2D1EffectContext::CreateResourceTexture</a> with the same GUID.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The unique id that identifies the resource texture.
 
 ### -param resourceTexture [out]
 
-Type: <b><a href="https://msdn.microsoft.com/516FFBB4-1908-4574-BD4A-884C142204CD">ID2D1ResourceTexture</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1resourcetexture">ID2D1ResourceTexture</a>**</b>
 
 The returned texture that can be used as a resource in a Direct2D effect.
 
@@ -107,7 +107,7 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 
 
 
-<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Discriminator for the union in the 
-    <a href="https://msdn.microsoft.com/9092a701-3b47-4c4c-8221-54fa3220d322">FILE_ID_DESCRIPTOR</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a> structure.
 
 
 ## -enum-fields
@@ -87,15 +87,15 @@ This value is used for comparison only. All valid values are less than this valu
 
 
 
-<a href="https://msdn.microsoft.com/9092a701-3b47-4c4c-8221-54fa3220d322">FILE_ID_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/14b1cfff-5e47-4309-8e62-fb5c8da9ce97">File Management Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations">File Management Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/caa757a2-fc3f-4883-8d3e-b98d28f92517">OpenFileById</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>
  
 
  

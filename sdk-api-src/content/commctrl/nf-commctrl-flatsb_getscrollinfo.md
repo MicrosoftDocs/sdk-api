@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function. 
+Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a> function. 
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Gets the information for a flat scroll bar. If flat scroll bars are not initiali
 
 ### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>. 
 
 
 ### -param code
@@ -103,7 +103,7 @@ Retrieves the information for the vertical scroll bar.
 
 Type: <b>LPSCROLLINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure that will receive the information for the specified scroll bar. The <b>cbSize</b> and <b>fMask</b> members of the structure must be filled out prior to calling <b>FlatSB_GetScrollInfo</b>. The <b>fMask</b> member specifies which properties should be retrieved and can be any combination of the following values: 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure that will receive the information for the specified scroll bar. The <b>cbSize</b> and <b>fMask</b> members of the structure must be filled out prior to calling <b>FlatSB_GetScrollInfo</b>. The <b>fMask</b> member specifies which properties should be retrieved and can be any combination of the following values: 
 
 <table>
 <tr>
@@ -116,7 +116,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.8
 </dl>
 </td>
 <td width="60%">
-Retrieves the page information for the flat scroll bar. This will be placed in the <b>nPage</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. 
+Retrieves the page information for the flat scroll bar. This will be placed in the <b>nPage</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Retrieves the page information for the flat scroll bar. This will be placed in t
 </td>
 <td width="60%">
 Retrieves the position information for the flat scroll bar. This will be placed in the 
-						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. 
+						<b>nPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Retrieves the position information for the flat scroll bar. This will be placed 
 </dl>
 </td>
 <td width="60%">
-Retrieves the range information for the flat scroll bar. This will be placed in the <b>nMin</b> and <b>nMax</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. 
+Retrieves the range information for the flat scroll bar. This will be placed in the <b>nMin</b> and <b>nMax</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagscrollinfo">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ A combination of SIF_PAGE, SIF_POS, and SIF_RANGE.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 

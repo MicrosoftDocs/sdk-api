@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageSiloAction</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnhancedStorageSiloAction</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnhancedStorageSiloAction</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnhancedStorageSiloAction</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnhancedStorageSiloAction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1eb94182-520e-40a6-87e6-6ead2ab2e188">GetDescription</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesiloaction-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptive string for the action specified by the <b>IEnhancedStorageSiloAction</b> object.
@@ -78,7 +78,7 @@ Returns a descriptive string for the action specified by the <b>IEnhancedStorage
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3690d395-c83e-4253-adc2-d30a96a5ce47">GetName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesiloaction-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Returns a string for the name of the action specified by the <b>IEnhancedStorageSiloAction</b> object.
@@ -87,7 +87,7 @@ Returns a string for the name of the action specified by the <b>IEnhancedStorage
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f19cd0a-6d12-4e76-b46e-7c6267914223">Invoke</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nf-ehstorapi-ienhancedstoragesiloaction-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Performs the action specified by an <b>IEnhancedStorageSiloAction</b> object.

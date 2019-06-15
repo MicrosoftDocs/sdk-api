@@ -123,7 +123,7 @@ Passing <b>NULL</b> as <i>pIWMPropertyVault</i> will result in unpredictable err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757416(v=VS.85).aspx">IWMPropertyVault Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
  
 
  

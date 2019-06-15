@@ -61,13 +61,13 @@ The
 ### -param IfcHandle [in]
 
 Handle associated with the interface to be set. This handle is obtained by a previous call to the 
-<a href="https://msdn.microsoft.com/8c7e658c-862f-4715-9ba5-ac079db924a1">TcOpenInterface</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
 
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
-<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
 
 ### -param BufferSize [in]
@@ -167,7 +167,7 @@ The device did not register for this GUID.
 
 <div class="alert"><b>Note</b>  Use of the 
 <b>TcSetInterface</b> function requires administrative privilege. The list of GUIDs that can be set is explained in 
-<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>.</div>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.</div>
 <div> </div>
 
 
@@ -177,11 +177,11 @@ The device did not register for this GUID.
 
 
 
-<a href="https://msdn.microsoft.com/57b803e5-0fa8-43ed-99f1-95152dedab2b">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c7e658c-862f-4715-9ba5-ac079db924a1">TcOpenInterface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
  
 
  

@@ -59,12 +59,12 @@ Called by the Windows Biometric Framework when a client application queries the 
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param EnrollmentStatus [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/2FDDF4D3-6A3E-4DF5-ACA4-423F893C6F2B">WINBIO_EXTENDED_ENROLLMENT_STATUS</a> structure that contains the extended enrollment status information returned by this function.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-extended-enrollment-status">WINBIO_EXTENDED_ENROLLMENT_STATUS</a> structure that contains the extended enrollment status information returned by this function.
 
 
 ### -param EnrollmentStatusSize [in]
@@ -115,7 +115,7 @@ The <i>EnrollmentStatusSize</i> parameter indicates that the output buffer is to
 
 
 
-Enrollment applications can request extended enrollment status information after each call to the <a href="https://msdn.microsoft.com/a50f0c9f-7b9c-4d80-b8fc-8b83bc333578">WinBioEnrollCapture</a> function.
+Enrollment applications can request extended enrollment status information after each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture">WinBioEnrollCapture</a> function.
 
 If the biometric unit is not currently an enrollment template when this routine is called, the engine adapter should set the EnrollmentStatus.TemplateStatus field to <b>WINBIO_E_INVALID_OPERATION</b> and return <b>S_OK</b> as the value of the function.
 

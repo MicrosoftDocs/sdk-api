@@ -63,7 +63,7 @@ Specifies the zero-based index of the candidate string to set the result for. Th
 
 ### -param imcr [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/8b2b4762-f28d-40e0-b162-5e35e8835c8e">TfCandidateResult</a> values that specifies the result of the reconversion operation.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl_itfcandidatelist_0001">TfCandidateResult</a> values that specifies the result of the reconversion operation.
 
 
 ## -returns
@@ -126,11 +126,11 @@ A typical reconversion operation would include the following operations.
 
 
 
-<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b2b4762-f28d-40e0-b162-5e35e8835c8e">TfCandidateResult
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/ne-ctffunc-__midl_itfcandidatelist_0001">TfCandidateResult
       </a>
  
 

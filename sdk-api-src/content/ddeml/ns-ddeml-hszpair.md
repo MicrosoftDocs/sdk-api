@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a DDE service name and topic name. A DDE server application can use this structure during an <a href="https://msdn.microsoft.com/en-us/library/ms648728(v=VS.85).aspx">XTYP_WILDCONNECT</a> transaction to enumerate the service-topic pairs that it supports. 
+Contains a DDE service name and topic name. A DDE server application can use this structure during an <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transaction to enumerate the service-topic pairs that it supports. 
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ A handle to the topic name.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
  
 
  

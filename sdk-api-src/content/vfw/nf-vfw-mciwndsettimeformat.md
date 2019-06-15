@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSetTimeFormat</b> macro sets the time format of an MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/7de82094-6d35-44fd-88e7-ebd18a558cfd">MCIWNDM_SETTIMEFORMAT</a> message.
+The <b>MCIWndSetTimeFormat</b> macro sets the time format of an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-settimeformat">MCIWNDM_SETTIMEFORMAT</a> message.
 
 
 
@@ -74,7 +74,7 @@ Pointer to a buffer containing the null-terminated string indicating the time fo
 
 
 
-An application can specify time formats other than frames or milliseconds as long as the formats are supported by the MCI device. Noncontinuous formats, such as tracks and SMPTE, can cause the trackbar to behave erratically. For these time formats, you might want to turn off the toolbar by using the <a href="https://msdn.microsoft.com/d87da0b0-4217-421d-a9d5-03602fb2b477">MCIWndChangeStyles</a> macro and specifying the MCIWNDF_NOPLAYBAR window style.
+An application can specify time formats other than frames or milliseconds as long as the formats are supported by the MCI device. Noncontinuous formats, such as tracks and SMPTE, can cause the trackbar to behave erratically. For these time formats, you might want to turn off the toolbar by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndchangestyles">MCIWndChangeStyles</a> macro and specifying the MCIWNDF_NOPLAYBAR window style.
 
 If you want to set the time format to frames or milliseconds, you can also use the <b>MCIWndUseFrames</b> or <b>MCIWndUseTime</b> macro. For a list of time formats, see the <b>MCIWndGetTimeFormat</b> macro.
 

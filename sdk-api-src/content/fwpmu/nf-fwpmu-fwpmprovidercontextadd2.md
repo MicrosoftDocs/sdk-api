@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FwpmProviderContextAdd2</b> function adds a new provider context to the system.
-<div class="alert"><b>Note</b>  <b>FwpmProviderContextAdd2</b> is the specific implementation of FwpmProviderContextAdd used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/2a840f23-96e4-4b3d-b92e-53b3d10ab2bb">FwpmProviderContextAdd1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/c31595b8-81e4-4399-b2a3-d228c35875fe">FwpmProviderContextAdd0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmProviderContextAdd2</b> is the specific implementation of FwpmProviderContextAdd used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd1">FwpmProviderContextAdd1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -61,19 +61,19 @@ The <b>FwpmProviderContextAdd2</b> function adds a new provider context to the s
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call  <a href="https://msdn.microsoft.com/5165f219-f3e0-4e84-915b-75912aab02b7">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 
 ### -param providerContext [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/aa397a4e-07cc-4eee-8d0f-798901a5bb29">FWPM_PROVIDER_CONTEXT2</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2_">FWPM_PROVIDER_CONTEXT2</a>*</b>
 
 The provider context object to be added.
 
 
 ### -param sd [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">PSECURITY_DESCRIPTOR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">PSECURITY_DESCRIPTOR</a></b>
 
 Security information associated with the provider context object.
 
@@ -116,7 +116,7 @@ The provider context was successfully added.
 </dl>
 </td>
 <td width="60%">
-The <b>type</b> member of the <i>providerContext</i> parameter is  <a href="https://msdn.microsoft.com/e8eae5e7-9240-47a5-851b-1ec51cb07b63">FWPM_IPSEC_IKE_MM_CONTEXT</a>and     the <b>ikeMmPolicy</b> member of the <i>providerContext</i> parameter contains an <a href="https://msdn.microsoft.com/en-us/library/Aa364977(v=VS.85).aspx">IKEEXT_IPV6_CGA</a> authentication method in the <b>authenticationMethods</b> array, but cryptographically generated address (CGA) is not enabled in
+The <b>type</b> member of the <i>providerContext</i> parameter is  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type_">FWPM_IPSEC_IKE_MM_CONTEXT</a>and     the <b>ikeMmPolicy</b> member of the <i>providerContext</i> parameter contains an <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type_">IKEEXT_IPV6_CGA</a> authentication method in the <b>authenticationMethods</b> array, but cryptographically generated address (CGA) is not enabled in
       the registry.
 
 </td>
@@ -129,7 +129,7 @@ The <b>type</b> member of the <i>providerContext</i> parameter is  <a href="http
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://msdn.microsoft.com/11f3085a-f044-4a78-b47a-59b9086562bf">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -155,14 +155,14 @@ Failure to communicate with the remote or local firewall engine.
 
 
 
-Some fields in the <a href="https://msdn.microsoft.com/aa397a4e-07cc-4eee-8d0f-798901a5bb29">FWPM_PROVIDER_CONTEXT2</a> structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmProviderContextAdd2</b>. 
+Some fields in the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2_">FWPM_PROVIDER_CONTEXT2</a> structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmProviderContextAdd2</b>. 
 
 If the caller supplies a <b>NULL</b> security descriptor, the system will assign a default security descriptor.
 
 This function cannot be called from within a read-only transaction. It will fail
-with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://msdn.microsoft.com/2625ef9a-0e62-4e21-ba93-047965d0d782">Object Management</a> for more information about transactions.
+with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c">FWPM_ACTRL_ADD</a> access to the provider context's container and <b>FWPM_ACTRL_ADD_LINK</b> access to the provider (if any).  See <a href="https://msdn.microsoft.com/936ad5f0-d5cd-47ed-b9e5-a7d82a4da603">Access Control</a> for more information.
+The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_ADD</a> access to the provider context's container and <b>FWPM_ACTRL_ADD_LINK</b> access to the provider (if any).  See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
 
 
@@ -172,7 +172,7 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/aa397a4e-07cc-4eee-8d0f-798901a5bb29">FWPM_PROVIDER_CONTEXT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2_">FWPM_PROVIDER_CONTEXT2</a>
  
 
  

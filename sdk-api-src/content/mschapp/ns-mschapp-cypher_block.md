@@ -67,7 +67,7 @@ An array of CHAR used to store the password hashes and cipher text passed by the
 
 
 
-<a href="https://msdn.microsoft.com/adee58bd-d2aa-4570-8c43-50240be02ed3">MS-CHAP Password Management Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-structures">MS-CHAP Password Management Structures</a>
  
 
  

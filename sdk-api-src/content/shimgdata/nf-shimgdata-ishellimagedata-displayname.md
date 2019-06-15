@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the name of the file if <a href="https://msdn.microsoft.com/935e651c-4dcd-4317-847e-34adf656035c">IShellImageData</a> was initialized on a file path. Otherwise, gets the name of the data stream.
+Gets the name of the file if <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> was initialized on a file path. Otherwise, gets the name of the data stream.
 
 
 ## -parameters

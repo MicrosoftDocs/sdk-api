@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 Continues a stream search started by a previous call to the 
-    <a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function.
 
 
 ## -parameters
@@ -64,13 +64,13 @@ Continues a stream search started by a previous call to the
 ### -param hFindStream [in]
 
 The search handle returned by a previous call to the 
-      <a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function.
 
 
 ### -param lpFindStreamData [out]
 
 A pointer to the 
-      <a href="https://msdn.microsoft.com/f21f5161-10a8-474c-85d8-dde075b9daff">WIN32_FIND_STREAM_DATA</a> structure that 
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure that 
       receives information about the stream.
 
 
@@ -81,7 +81,7 @@ A pointer to the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. If no  more streams can be found, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If no  more streams can be found, 
        <b>GetLastError</b> returns 
        <b>ERROR_HANDLE_EOF</b> (38).
 
@@ -160,15 +160,15 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a>
 
 
 
-<a href="https://msdn.microsoft.com/f21f5161-10a8-474c-85d8-dde075b9daff">WIN32_FIND_STREAM_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
  
 
  

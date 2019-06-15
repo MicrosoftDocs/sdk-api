@@ -63,15 +63,15 @@ The <b>CheckTokenCapability</b> function checks the capabilities of a given toke
 
 ### -param TokenHandle [in, optional]
 
-A handle to an access token. The handle must have TOKEN_QUERY access to the token. The token must be an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>. 
+A handle to an access token. The handle must have TOKEN_QUERY access to the token. The token must be an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>. 
       
 
-If <i>TokenHandle</i> is <b>NULL</b>, <b>CheckTokenCapability</b> uses the impersonation token of the calling thread. If the thread is not impersonating, the function duplicates the thread's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">primary token</a> to create an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">impersonation token</a>.
+If <i>TokenHandle</i> is <b>NULL</b>, <b>CheckTokenCapability</b> uses the impersonation token of the calling thread. If the thread is not impersonating, the function duplicates the thread's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">primary token</a> to create an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>.
 
 
 ### -param CapabilitySidToCheck [in]
 
-A pointer to a capability <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure. The <b>CheckTokenCapability</b> function checks the capabilities of this access token.
+A pointer to a capability <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure. The <b>CheckTokenCapability</b> function checks the capabilities of this access token.
 
 
 ### -param HasCapability [out]
@@ -85,7 +85,7 @@ Receives the results of the check. If the access token has the capability, it re
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 

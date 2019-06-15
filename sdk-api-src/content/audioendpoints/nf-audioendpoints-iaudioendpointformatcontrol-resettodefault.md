@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7FF7DCF2-0580-4B50-8EA9-87DB9478B1E8">IAudioEndpointFormatControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioendpoints/nn-audioendpoints-iaudioendpointformatcontrol">IAudioEndpointFormatControl</a>
  
 
  

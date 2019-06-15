@@ -87,7 +87,7 @@ The client first calls this method with the value <b>NULL</b> for the <i>pddVPCo
 
 The <b>DDVIDEOPORTCONNECT</b> structure is documented in the Windows DDK. The device can translate this method directly into an <i>DdVideoPortGetConnectInfo</i> call.
 
-The client sets the connection information by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd390574(v=VS.85).aspx">IVPBaseConfig::SetConnectInfo</a> method with an index number, which references one of the connection structures returned by this method.
+The client sets the connection information by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setconnectinfo">IVPBaseConfig::SetConnectInfo</a> method with an index number, which references one of the connection structures returned by this method.
 
 Include Dvp.h and Vptype.h before Vpconfig.h.
 
@@ -99,11 +99,11 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390567(v=VS.85).aspx">IVPBaseConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>
  
 
  

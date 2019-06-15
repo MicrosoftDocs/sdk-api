@@ -54,10 +54,10 @@ ms.custom: 19H1
 
 Removes the file name extension from a path, if one is present.
 
-This function differs from <a href="https://msdn.microsoft.com/6e26d005-50af-4376-b734-19ba3d9c470f">PathRemoveExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, should be used in place of <a href="https://msdn.microsoft.com/6e26d005-50af-4376-b734-19ba3d9c470f">PathRemoveExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremoveextensiona">PathRemoveExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 

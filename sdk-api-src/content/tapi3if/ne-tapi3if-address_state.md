@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>ADDRESS_STATE</b> enum is used by the 
-<a href="https://msdn.microsoft.com/f68d0fb0-126d-4464-9d5a-0ffae4d40cb7">ITAddress::get_State</a> method to check the address state.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_state">ITAddress::get_State</a> method to check the address state.
 
 
 ## -enum-fields
@@ -74,15 +74,15 @@ The address is temporarily out of service, but may go back into service at some 
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f2e4cf-013e-4064-88d5-69fddd458274">ITAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/f68d0fb0-126d-4464-9d5a-0ffae4d40cb7">ITAddress::get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_state">ITAddress::get_State</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the MUI module types array element associated with the type identifier size and offset information in a <a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a> structure. The information is provided in the <b>dwTypeIDMUISize</b> and <b>dwTypeIDMUIOffset</b> members of the structure.
+Gets the MUI module types array element associated with the type identifier size and offset information in a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure. The information is provided in the <b>dwTypeIDMUISize</b> and <b>dwTypeIDMUIOffset</b> members of the structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the MUI module types array element associated with the type identifier size
 
 ### -param pInfo
 
-Pointer to the <a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a> structure.
 
 
 ### -param iType
@@ -72,15 +72,15 @@ Index of the array element.
 
 
 
-<a href="https://msdn.microsoft.com/4c757d19-ac66-4ba4-a691-f575f61961be">FILEMUIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_filemuiinfo">FILEMUIINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2980365c-5a83-4c0f-aa37-e212ec9f0408">Multilingual User Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d910d922-33f5-48ff-be0a-1ac11a13383a">Multilingual User Interface Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-macros">Multilingual User Interface Macros</a>
  
 
  

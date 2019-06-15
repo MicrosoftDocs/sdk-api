@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts a sublanguage identifier from a <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">language identifier</a>.
+Extracts a sublanguage identifier from a <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Extracts a sublanguage identifier from a <a href="https://msdn.microsoft.com/076
 
 ### -param lgid
 
-Language identifier. You can supply predefined values for this parameter, or create an identifier using the <a href="https://msdn.microsoft.com/cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3">MAKELANGID</a> macro.
+Language identifier. You can supply predefined values for this parameter, or create an identifier using the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
 
 
 ## -see-also
@@ -67,27 +67,27 @@ Language identifier. You can supply predefined values for this parameter, or cre
 
 
 
-<a href="https://msdn.microsoft.com/e6341460-3c4e-4040-8b49-3eb7d279e571">EnumSystemLocales</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesa">EnumSystemLocales</a>
 
 
 
-<a href="https://msdn.microsoft.com/23392f93-8724-4b58-879e-4f48aaba4084">LANGIDFROMLCID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3">MAKELANGID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/45440464-0628-473b-861a-e8be7452700c">National Language Support Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/e463a2dc-bf36-4fbb-8df6-799ca1d549fa">PRIMARYLANGID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-primarylangid">PRIMARYLANGID</a>
  
 
  

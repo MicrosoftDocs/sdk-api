@@ -131,14 +131,14 @@ The <b>key</b> member specifies a virtual-key code. If this flag is not specifie
 
 Type: <b>WORD</b>
 
-The accelerator key. This member can be either a <a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">virtual-key code</a> or a character code. 
+The accelerator key. This member can be either a <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">virtual-key code</a> or a character code. 
 
 
 ### -field cmd
 
 Type: <b>WORD</b>
 
-The accelerator identifier. This value is placed in the low-order word of the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646360(v=VS.85).aspx">WM_SYSCOMMAND</a> message when the accelerator is pressed. 
+The accelerator identifier. This value is placed in the low-order word of the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> message when the accelerator is pressed. 
 
 
 ## -see-also
@@ -150,7 +150,7 @@ The accelerator identifier. This value is placed in the low-order word of the <i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645526(v=VS.85).aspx">Keyboard Accelerators</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
 
 
 
@@ -158,11 +158,11 @@ The accelerator identifier. This value is placed in the low-order word of the <i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646360(v=VS.85).aspx">WM_SYSCOMMAND</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>DrvSetPixelFormat</b> function sets the pixel format of a window.
 
 ### -param pso
 
-Pointer to the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure with which the window is associated.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure with which the window is associated.
 
 
 ### -param iPixelFormat
@@ -95,11 +95,11 @@ Setting the pixel format more than once can result in complications for Window M
 
 
 
-<a href="https://msdn.microsoft.com/7c630694-e076-4ab2-a2c9-262c7c5da988">DrvDescribePixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdescribepixelformat">DrvDescribePixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a>
  
 
  

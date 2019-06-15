@@ -84,7 +84,7 @@ Values equal to or greater than this value indicate an out of range value.
 
 
 
-<a href="https://msdn.microsoft.com/f78cd97f-586f-4091-ab4a-5f109a0f679a">Power Management Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
  
 
  

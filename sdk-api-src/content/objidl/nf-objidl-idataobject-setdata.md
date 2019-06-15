@@ -59,17 +59,17 @@ Called by an object containing a data source to transfer data to the object that
 
 ### -param pformatetc [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure defining the format used by the data object when interpreting the data contained in the storage medium.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure defining the format used by the data object when interpreting the data contained in the storage medium.
 
 
 ### -param pmedium [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/5d05819a-10db-4d8e-91e4-8a7c05885cde">STGMEDIUM</a> structure defining the storage medium in which the data is being passed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagstgmedium">STGMEDIUM</a> structure defining the storage medium in which the data is being passed.
 
 
 ### -param fRelease [in]
 
-If <b>TRUE</b>, the data object called, which implements <b>SetData</b>, owns the storage medium after the call returns. This means it must free the medium after it has been used by calling the <a href="https://msdn.microsoft.com/da7d7bcb-0b5b-4053-8f0e-ff311c424375">ReleaseStgMedium</a> function. If <b>FALSE</b>, the caller retains ownership of the storage medium and the data object called uses the storage medium for the duration of the call only.
+If <b>TRUE</b>, the data object called, which implements <b>SetData</b>, owns the storage medium after the call returns. This means it must free the medium after it has been used by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-releasestgmedium">ReleaseStgMedium</a> function. If <b>FALSE</b>, the caller retains ownership of the storage medium and the data object called uses the storage medium for the duration of the call only.
 
 
 ## -returns
@@ -206,7 +206,7 @@ The type of medium specified in the <i>pformatetc</i> and <i>pmedium</i> paramet
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
  
 
  

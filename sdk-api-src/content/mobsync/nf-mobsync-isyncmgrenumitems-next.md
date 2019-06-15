@@ -66,7 +66,7 @@ The number of items in the array.
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/84fa1d81-d1b9-44d7-be97-14511ef95528">SYNCMGRITEM</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a>*</b>
 
 The address of array containing items.
 

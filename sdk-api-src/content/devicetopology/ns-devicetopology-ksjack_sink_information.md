@@ -59,7 +59,7 @@ The <b>KSJACK_SINK_INFORMATION</b> structure stores information about an audio j
 
 ### -field ConnType
 
-Specifies the type of connection. The connection type values are defined in the  <a href="https://msdn.microsoft.com/en-us/library/Dd316547(v=VS.85).aspx">KSJACK_SINK_CONNECTIONTYPE</a> enumeration.
+Specifies the type of connection. The connection type values are defined in the  <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ne-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0010">KSJACK_SINK_CONNECTIONTYPE</a> enumeration.
 
 
 ### -field ManufacturerId
@@ -99,7 +99,7 @@ String containing the monitor sink name. The maximum length is defined by the co
 
 ### -field PortId
 
-Specifies the video port identifier in a <a href="https://msdn.microsoft.com/fce02fa7-ce96-417a-b389-cf19e1e3b91c">LUID</a> structure.
+Specifies the video port identifier in a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-_luid">LUID</a> structure.
 
 
 ## -see-also
@@ -107,11 +107,11 @@ Specifies the video port identifier in a <a href="https://msdn.microsoft.com/fce
 
 
 
-<a href="https://msdn.microsoft.com/92585cd4-baa9-4f75-816e-b83f5badad37">Core Audio Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca4165ce-433a-4a8f-9853-bbe812de90ca">IKsJackSinkInformation::GetJackSinkInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation">IKsJackSinkInformation::GetJackSinkInformation</a>
  
 
  

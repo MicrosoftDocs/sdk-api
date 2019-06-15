@@ -116,11 +116,11 @@ You can associate only one description data block with a given entry at a given 
 
 
 
-<a href="https://msdn.microsoft.com/4000b67c-e34e-4bce-9a0d-c56c9fc0f41e">GetDescriptionData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-getdescriptiondata">GetDescriptionData</a>
 
 
 
-<a href="https://msdn.microsoft.com/82a1a390-50b1-4699-9baa-60cea322ce7c">ITocEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
  
 
  

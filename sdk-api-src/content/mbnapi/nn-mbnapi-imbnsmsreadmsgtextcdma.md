@@ -61,7 +61,7 @@ A collection of properties that represent a CDMA format SMS message read from th
 
 This message format is valid only for CDMA devices and cannot be used with GSM devices.
 
- This interface is provided by the <a href="https://msdn.microsoft.com/58478c9d-6df2-466b-85bc-1c571f4429ce">OnSmsReadComplete</a> and <a href="https://msdn.microsoft.com/e6d13393-557c-462c-a640-2228ab0c9c17">OnSmsNewClass0Message</a> methods of the <a href="https://msdn.microsoft.com/06dfb631-fe5a-45d9-89f9-1f13990500ee">IMbnSmsEvents</a> interface.
+ This interface is provided by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete">OnSmsReadComplete</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsnewclass0message">OnSmsNewClass0Message</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.
 
 
 

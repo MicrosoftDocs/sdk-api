@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the resource texture corresponding to the given shader texture index to the given texture resource.  The texture resource must already have been loaded with <a href="https://msdn.microsoft.com/265888DA-03C2-42F0-92D8-FEB542F9BAA4">ID2D1EffectContext::CreateResourceTexture</a> method. This call will fail if the specified index overlaps with any input. The input indices always precede the texture LUT indices.
+Sets the resource texture corresponding to the given shader texture index to the given texture resource.  The texture resource must already have been loaded with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createresourcetexture">ID2D1EffectContext::CreateResourceTexture</a> method. This call will fail if the specified index overlaps with any input. The input indices always precede the texture LUT indices.
 
 
 
@@ -67,7 +67,7 @@ The index to set the resource texture on.
 
 ### -param resourceTexture [in]
 
-Type: <b><a href="https://msdn.microsoft.com/516FFBB4-1908-4574-BD4A-884C142204CD">ID2D1ResourceTexture</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1resourcetexture">ID2D1ResourceTexture</a>*</b>
 
 The resource texture object to set on the shader texture index.
 
@@ -108,7 +108,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/0560BB4B-B837-4DA8-AD68-545224152BA5">ID2D1ComputeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computeinfo">ID2D1ComputeInfo</a>
  
 
  

@@ -73,7 +73,7 @@ Property ID of the  list of principals to which to add the principal specified b
 </dl>
 </td>
 <td width="60%">
-Can also be added by using the <a href="https://msdn.microsoft.com/8d73bc05-1366-4b47-9eaf-4a247ebf8d93">AddPolicyAdministrator</a> method.
+Can also be added by using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyadministrator">AddPolicyAdministrator</a> method.
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Can also be added by using the <a href="https://msdn.microsoft.com/8d73bc05-1366
 </dl>
 </td>
 <td width="60%">
-Can also be added by using the <a href="https://msdn.microsoft.com/b77348c7-4389-47ba-9f4f-e5643cf992aa">AddPolicyAdministratorName</a> method.
+Can also be added by using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyadministratorname">AddPolicyAdministratorName</a> method.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Can also be added by using the <a href="https://msdn.microsoft.com/b77348c7-4389
 </dl>
 </td>
 <td width="60%">
-Can also be added by using the <a href="https://msdn.microsoft.com/52872839-1066-4a43-8549-b7f37a0ebe40">AddPolicyReader</a> method.
+Can also be added by using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyreader">AddPolicyReader</a> method.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Can also be added by using the <a href="https://msdn.microsoft.com/52872839-1066
 </dl>
 </td>
 <td width="60%">
-Can also be added by using the <a href="https://msdn.microsoft.com/3b111542-61d6-4e5d-abf8-0af61161c885">AddPolicyReaderName</a> method.
+Can also be added by using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-addpolicyreadername">AddPolicyReaderName</a> method.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Can also be added by using the <a href="https://msdn.microsoft.com/3b111542-61d6
 </dl>
 </td>
 <td width="60%">
-Can also be added by using the <a href="https://msdn.microsoft.com/0c6714e9-489e-4266-a8b5-35c66b0a14f4">AddDelegatedPolicyUser</a> method.
+Can also be added by using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyuser">AddDelegatedPolicyUser</a> method.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Can also be added by using the <a href="https://msdn.microsoft.com/0c6714e9-489e
 </dl>
 </td>
 <td width="60%">
-Can also be added by using the <a href="https://msdn.microsoft.com/9eeb4670-a3be-46dd-83b4-4ab12a311fe3">AddDelegatedPolicyUserName</a> method.
+Can also be added by using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-adddelegatedpolicyusername">AddDelegatedPolicyUserName</a> method.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Principal to add to the list of principals specified by the <i>lPropId</i> param
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS_NAME, or AZ_PROP_DELEGATED_POLICY_USERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name must be in <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN) format (for example, "someone@example.com").
+If AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS_NAME, or AZ_PROP_DELEGATED_POLICY_USERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) format (for example, "someone@example.com").
 
 
 ### -param varReserved [in, optional]
@@ -151,7 +151,7 @@ Reserved for future use.
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -160,7 +160,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-You must call the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
 
 
 

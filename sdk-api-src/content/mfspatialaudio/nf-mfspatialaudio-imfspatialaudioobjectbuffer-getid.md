@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
-    If <a href="https://msdn.microsoft.com/01979492-2CA1-4DAA-8B03-720B521C2D9A">SetID</a> method was not previously called, this method returns the invalid object ID, -1 
+    If <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-setid">SetID</a> method was not previously called, this method returns the invalid object ID, -1 
     (0xffffffff).  The invalid ID indicates that the object buffer is unused and
     contains invalid data.
 
@@ -110,7 +110,7 @@ The supplied pointer is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/61E9BC6A-2120-4874-9053-E1D232DF1CCA">IMFSpatialAudioObjectBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
  
 
  

@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a collection of style properties to be used by methods like <a href="https://msdn.microsoft.com/d7c27267-c0c3-d21c-7980-3d92396509c7">ID2D1DeviceContext2::DrawInk</a>when rendering ink. The ink style defines the nib (pen tip) shape and transform.
+Represents a collection of style properties to be used by methods like <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-drawink">ID2D1DeviceContext2::DrawInk</a>when rendering ink. The ink style defines the nib (pen tip) shape and transform.
         
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1InkStyle</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1InkStyle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1InkStyle</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1InkStyle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1InkStyle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81A1AA30-9817-422C-A3AD-0BB3F2A02604">GetNibShape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1inkstyle-getnibshape">GetNibShape</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pre-transform nib shape for this style.
@@ -79,7 +79,7 @@ Retrieves the pre-transform nib shape for this style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A5ABCA78-BBA3-48EE-8A5E-BACDD2CDED37">GetNibTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1inkstyle-getnibtransform">GetNibTransform</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transform to be applied to this style's nib shape.
@@ -88,7 +88,7 @@ Retrieves the transform to be applied to this style's nib shape.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/460A037D-5315-4CAE-AB6B-5286B48551F1">SetNibShape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1inkstyle-setnibshape">SetNibShape</a>
 </td>
 <td align="left" width="63%">
 Sets the pre-transform nib shape for this style.
@@ -97,7 +97,7 @@ Sets the pre-transform nib shape for this style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn900433(v=VS.85).aspx">SetNibTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-setnibtransform">SetNibTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the transform to apply to this style's nib shape.
 

@@ -64,7 +64,7 @@ This property is read-only.
 
 This information is typically obtained from tooltips.
 
-<div class="alert"><b>Caution</b>  Do not retrieve the <a href="https://msdn.microsoft.com/39ca5d50-808c-4a8b-a662-0a7724519b2c">CachedHelpText</a> property from a control that is based on the SysListview32 class. Doing so could cause the system to become unstable and data to be lost. A client application can discover whether a control is based on SysListview32 by retrieving the <a href="https://msdn.microsoft.com/7b5e9c75-5190-4cdd-9774-0c883747018c">CachedClassName</a> or <a href="https://msdn.microsoft.com/df019800-7467-48ef-8c16-0cb8c8d05ed5">CurrentClassName</a> property from the control.</div>
+<div class="alert"><b>Caution</b>  Do not retrieve the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext">CachedHelpText</a> property from a control that is based on the SysListview32 class. Doing so could cause the system to become unstable and data to be lost. A client application can discover whether a control is based on SysListview32 by retrieving the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedclassname">CachedClassName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentclassname">CurrentClassName</a> property from the control.</div>
 <div> </div>
 
 
@@ -74,15 +74,15 @@ This information is typically obtained from tooltips.
 
 
 
-<a href="https://msdn.microsoft.com/f7613ad1-0b75-46fb-b9ac-b1ae9eea4193">Automation Element Property IDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/39ca5d50-808c-4a8b-a662-0a7724519b2c">CachedHelpText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext">CachedHelpText</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 

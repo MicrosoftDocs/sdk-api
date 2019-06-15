@@ -73,7 +73,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/8fe9f474-c47b-4b53-8cbc-d658c82d7591">IContextMenuProvider::ShowContextMenu</a> automatically clears the context menu after that displays it. Nevertheless, it is a good practice to call 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">IContextMenuProvider::ShowContextMenu</a> automatically clears the context menu after that displays it. Nevertheless, it is a good practice to call 
 <b>EmptyMenuList</b> before beginning to build a context menu.
 
 
@@ -84,7 +84,7 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/3f9a5945-9b34-41fe-9c91-c782eb7eb739">IContextMenuProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
  
 
  

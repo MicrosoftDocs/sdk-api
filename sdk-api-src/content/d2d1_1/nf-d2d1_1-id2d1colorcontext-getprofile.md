@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the color profile bytes for an <a href="https://msdn.microsoft.com/acdda11e-eb3f-4258-b24e-daa3b7a23fd6">ID2D1ColorContext</a>. 
+Gets the color profile bytes for an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>. 
 
 
 ## -parameters
@@ -112,19 +112,19 @@ If <i>profileSize</i> is insufficient to store the entire profile, <i>profile</i
 
 
 
-<a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab8bed5-c124-4e14-8a05-3a71f07f5fd1">ID2D1Bitmap1::GetColorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getcolorcontext">ID2D1Bitmap1::GetColorContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/acdda11e-eb3f-4258-b24e-daa3b7a23fd6">ID2D1ColorContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/ceae8c7d-80b5-4052-ac43-85f9802c209e">ID2D1ColorContext::GetProfileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofilesize">ID2D1ColorContext::GetProfileSize</a>
  
 
  

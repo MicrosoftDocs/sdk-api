@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ObjectIdPublicKeyFlags</b> enumeration type specifies whether a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> algorithm is used for signing or for <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encryption</a>. Some algorithms, such as <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RSA</a>, can be used for both purposes. This enumeration is used by the <a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a> method on the <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> interface to narrow and disambiguate the algorithm search.
+The <b>ObjectIdPublicKeyFlags</b> enumeration type specifies whether a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> algorithm is used for signing or for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encryption</a>. Some algorithms, such as <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a>, can be used for both purposes. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface to narrow and disambiguate the algorithm search.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ The algorithm is used for encryption.
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>
  
 
  

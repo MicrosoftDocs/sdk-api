@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Provides access to the Task Scheduler service for managing registered tasks.
 
-The <a href="https://msdn.microsoft.com/ba810bac-e587-4eb8-871c-449b4174ab46">ITaskService::Connect</a> method should be called before calling any of the other <b>ITaskService</b> methods.
+The <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect">ITaskService::Connect</a> method should be called before calling any of the other <b>ITaskService</b> methods.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskService</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITaskService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>ITaskService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba810bac-e587-4eb8-871c-449b4174ab46">Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects to a remote machine and associates all subsequent calls on this interface with a remote session.
@@ -81,7 +81,7 @@ Connects to a remote machine and associates all subsequent calls on this interfa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/144b070f-43e9-40d6-8461-832abc7facd3">GetFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-getfolder">GetFolder</a>
 </td>
 <td align="left" width="63%">
 Gets the path to a  folder of registered tasks.
@@ -90,7 +90,7 @@ Gets the path to a  folder of registered tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6248cf51-acd8-4317-9837-99dcf918e816">GetRunningTasks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-getrunningtasks">GetRunningTasks</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of running tasks.
@@ -99,10 +99,10 @@ Gets a collection of running tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/821fc610-cf94-4548-950d-b4fd7b2f90dc">NewTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-newtask">NewTask</a>
 </td>
 <td align="left" width="63%">
-Returns an empty task definition object to be filled in with settings and properties and then registered using the <a href="https://msdn.microsoft.com/a94db861-b24e-476a-810d-2cf3bbfc67d1">ITaskFolder::RegisterTaskDefinition</a> method.
+Returns an empty task definition object to be filled in with settings and properties and then registered using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">ITaskFolder::RegisterTaskDefinition</a> method.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Returns an empty task definition object to be filled in with settings and proper
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/51450195-f11a-469a-a98f-4d1e00343e41">Connected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connected">Connected</a>
 
 
 </td>
@@ -133,7 +133,7 @@ Gets a Boolean value that indicates if you are connected to the Task Scheduler s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/13a67d82-f239-450c-9490-02f07e672a64">ConnectedDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteddomain">ConnectedDomain</a>
 
 
 </td>
@@ -142,14 +142,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the name of the domain to which the <a href="https://msdn.microsoft.com/2b8c55d7-72e2-4b75-8850-3f042ba83c60">TargetServer</a> computer is connected.
+Gets the name of the domain to which the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver">TargetServer</a> computer is connected.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2fdff427-a363-4ce2-b1fe-a1ed945cae8b">ConnectedUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_connecteduser">ConnectedUser</a>
 
 
 </td>
@@ -165,7 +165,7 @@ Gets the name of the user that is connected to the Task Scheduler service.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/27b08a17-fdd9-4c28-b498-e10e80ae49f0">HighestVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_highestversion">HighestVersion</a>
 
 
 </td>
@@ -181,7 +181,7 @@ Gets the highest version of Task Scheduler that a computer supports.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2b8c55d7-72e2-4b75-8850-3f042ba83c60">TargetServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver">TargetServer</a>
 
 
 </td>
@@ -202,11 +202,11 @@ Gets the name of the computer that is running the Task Scheduler service that th
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
  
 
  

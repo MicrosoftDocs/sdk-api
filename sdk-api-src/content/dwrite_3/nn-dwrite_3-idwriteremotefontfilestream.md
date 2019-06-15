@@ -58,7 +58,7 @@ Represents a font file stream, parts of which may be non-local.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRemoteFontFileStream</b> interface inherits from <a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a>. <b>IDWriteRemoteFontFileStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRemoteFontFileStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfilestream">IDWriteFontFileStream</a>. <b>IDWriteRemoteFontFileStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDWriteRemoteFontFileStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A0EE8383-81A8-4974-B213-142704EFA210">BeginDownload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-begindownload">BeginDownload</a>
 </td>
 <td align="left" width="63%">
 Begins downloading all or part of the font file.
@@ -82,7 +82,7 @@ Begins downloading all or part of the font file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24F68EFD-D4D6-442B-97C1-C639F570F56B">GetFileFragmentLocality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-getfilefragmentlocality">GetFileFragmentLocality</a>
 </td>
 <td align="left" width="63%">
 Returns information about the locality of a byte range (i.e., font fragment) within the font file stream.
@@ -91,18 +91,18 @@ Returns information about the locality of a byte range (i.e., font fragment) wit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06FB14D5-19F6-48D3-AEA9-3D622219EF2A">GetLocalFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-getlocalfilesize">GetLocalFileSize</a>
 </td>
 <td align="left" width="63%">
 GetLocalFileSize returns the number of bytes of the font file that are currently local, which should always be less than or equal to the full
-          file size returned by <a href="https://msdn.microsoft.com/52186ddb-ea08-4615-a3df-35ea7288270c">GetFileSize</a>. 
+          file size returned by <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfilestream-getfilesize">GetFileSize</a>. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/395AC591-3D63-4990-98A7-FA154B6A000F">GetLocality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwriteremotefontfilestream-getlocality">GetLocality</a>
 </td>
 <td align="left" width="63%">
 Gets the current locality of the file.

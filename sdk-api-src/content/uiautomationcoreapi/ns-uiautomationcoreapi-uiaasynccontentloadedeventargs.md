@@ -59,23 +59,23 @@ ms.custom: 19H1
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/b62712cc-bb00-44b0-9664-cc8edbfabb0a">EventArgsType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-eventargstype">EventArgsType</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/b62712cc-bb00-44b0-9664-cc8edbfabb0a">EventArgsType</a> enumerated type indicating the type of the event.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-eventargstype">EventArgsType</a> enumerated type indicating the type of the event.
 
 
 ### -field EventId
 
 Type: <b>int</b>
 
-The identifier of the event. For a list of event identifiers, see <a href="https://msdn.microsoft.com/4baf5cb9-c965-4977-ae2b-420e84dc2e94">Event Identifiers</a>.
+The identifier of the event. For a list of event identifiers, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">Event Identifiers</a>.
 
 
 ### -field AsyncContentLoadedState
 
-Type: <b><a href="https://msdn.microsoft.com/7c562d3a-10cc-4d9e-aaad-6729574fcb96">AsyncContentLoadedState</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-asynccontentloadedstate">AsyncContentLoadedState</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/7c562d3a-10cc-4d9e-aaad-6729574fcb96">AsyncContentLoadedState</a> enumerated type indicating the state of asynchronous loading.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-asynccontentloadedstate">AsyncContentLoadedState</a> enumerated type indicating the state of asynchronous loading.
 
 
 ### -field PercentComplete

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Makes an old Contact ID resolve to the same value as a new Contact ID. 
-		Subsequent calls to <a href="https://msdn.microsoft.com/d9addc49-72fd-4b87-bf48-a2a09b1161e9">IContactManager::Load</a> with the old contact ID 
+		Subsequent calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactmanager-load">IContactManager::Load</a> with the old contact ID 
 		now loads the new contact ID contact.
 
 

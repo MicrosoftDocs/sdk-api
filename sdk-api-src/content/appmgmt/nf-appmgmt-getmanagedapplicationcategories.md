@@ -65,7 +65,7 @@ This parameter is reserved. Its value must be 0.
 
 ### -param pAppCategory [out]
 
-A <a href="https://msdn.microsoft.com/640aa5d0-c135-46b7-a25f-03c6325cb561">APPCATEGORYINFOLIST</a> structure that contains a list of application categories. This structure must be freed by calling <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>  when the list is no longer required.
+A <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a> structure that contains a list of application categories. This structure must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>  when the list is no longer required.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A <a href="https://msdn.microsoft.com/640aa5d0-c135-46b7-a25f-03c6325cb561">APPC
 
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, the function returns one of the system error codes. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a> or the header file WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 
 
@@ -82,7 +82,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, t
 
 
 
-The structure returned by <b>GetManagedApplicationCategories</b> must be freed by calling <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> when the list is no longer required.
+The structure returned by <b>GetManagedApplicationCategories</b> must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> when the list is no longer required.
 
 
 
@@ -92,16 +92,16 @@ The structure returned by <b>GetManagedApplicationCategories</b> must be freed b
 
 
 
-<a href="https://msdn.microsoft.com/640aa5d0-c135-46b7-a25f-03c6325cb561">APPCATEGORYINFOLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/ns-appmgmt-appcategoryinfolist">APPCATEGORYINFOLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
  
 

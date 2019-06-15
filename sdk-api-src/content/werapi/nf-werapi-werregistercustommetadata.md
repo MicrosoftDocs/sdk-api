@@ -120,7 +120,7 @@ The maximum number of registered entries (<b>WER_MAX_REGISTERED_ENTRIES</b>) or 
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -144,15 +144,15 @@ This API allows apps to integrate their own app-level telemetry with system-leve
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/29DB2CE5-2A96-450B-96C8-082B786613F9">WerUnregisterCustomMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregistercustommetadata">WerUnregisterCustomMetadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

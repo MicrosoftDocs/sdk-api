@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://msdn.microsoft.com/6ae22de0-b71e-441d-af12-8518a3f474e3">ComDBOpen</a>.
+Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 
 ### -param NewSize [in]
@@ -143,11 +143,11 @@ The routine could not access the database. To get extended error information, ca
 
 
 
-Use <a href="https://msdn.microsoft.com/f1c5fdc5-b84b-4c7f-832a-44151df39721">ComDBGetCurrentPortUsage</a> to obtain the current database size.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbgetcurrentportusage">ComDBGetCurrentPortUsage</a> to obtain the current database size.
 
 <b>ComDBResizeDatabase</b> runs in user mode.
 
-For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2-b682-c141938eb0da">Resizing the COM Port Database</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Resizing the COM Port Database</a>.
 
 
 
@@ -157,7 +157,7 @@ For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2
 
 
 
-<a href="https://msdn.microsoft.com/f1c5fdc5-b84b-4c7f-832a-44151df39721">ComDBGetCurrentPortUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbgetcurrentportusage">ComDBGetCurrentPortUsage</a>
  
 
  

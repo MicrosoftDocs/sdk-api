@@ -66,7 +66,7 @@ The name of the encrypted file.
 ### -param pEncryptionCertificates [in]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/e1914b96-2fba-49ed-9dd2-464659323eda">ENCRYPTION_CERTIFICATE_LIST</a> structure that contains the list of new user keys to be added to the file.
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a> structure that contains the list of new user keys to be added to the file.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A pointer to an
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is a system error code. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a> or the header file WinError.h.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 
 
@@ -150,7 +150,7 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 #### Examples
 
-For example code that uses this function, see <a href="https://msdn.microsoft.com/39260882-dc02-4f08-9d9b-f170c1e391df">Adding Users to an Encrypted File</a>.
+For example code that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/adding-users-to-an-encrypted-file">Adding Users to an Encrypted File</a>.
 
 <div class="code"></div>
 
@@ -161,15 +161,15 @@ For example code that uses this function, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/e1914b96-2fba-49ed-9dd2-464659323eda">ENCRYPTION_CERTIFICATE_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
  
 
  

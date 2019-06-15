@@ -73,7 +73,7 @@ This method returns S_OK to indicate that the method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/2c1e3d27-abb4-4bd0-ad9e-4dc9eda8e4b6">ISynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
  
 
  

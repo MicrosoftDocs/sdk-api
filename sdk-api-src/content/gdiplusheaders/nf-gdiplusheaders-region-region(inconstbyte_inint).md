@@ -63,7 +63,7 @@ Creates a region that is defined by data obtained from another region.
 Type: <b>const BYTE*</b>
 
 Pointer to an array of bytes that specifies a region. The data contained in the bytes is obtained from another region by using the 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534765(v=VS.85).aspx">Region::GetData</a> method. 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdata">Region::GetData</a> method. 
 
 
 ### -param size [in]

@@ -59,7 +59,7 @@ Adds one or more folder actions to the collection.
 
 ### -param Actions [in]
 
-An <a href="https://msdn.microsoft.com/9b0ab26f-7e91-4d7a-9fd7-73332601dd7b">IFolderActionCollection</a> interface to a collection of one or more folder actions to add to this collection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a> interface to a collection of one or more folder actions to add to this collection.
 
 
 ## -returns
@@ -76,15 +76,15 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/9b0ab26f-7e91-4d7a-9fd7-73332601dd7b">IFolderActionCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/39597249-29d5-44a0-9954-01b9b6a62977">IFolderActionCollection::Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-add">IFolderActionCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3ecc5e6-a6d7-4c68-b8c2-8ff94c810545">IFolderActionCollection::Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-addrange">IFolderActionCollection::Remove</a>
  
 
  

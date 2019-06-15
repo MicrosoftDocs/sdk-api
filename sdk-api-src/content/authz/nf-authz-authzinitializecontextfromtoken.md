@@ -93,7 +93,7 @@ A pointer to parameters to be passed to the callback function that computes dyna
 ### -param phAuthzClientContext [out]
 
 A pointer to the <i>AuthzClientContext</i> handle returned. Call 
-<a href="https://msdn.microsoft.com/cad9fff0-9aa6-4cb2-a34f-94cf72f66bca">AuthzFreeContext</a> when done with the client context.
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a> when done with the client context.
 
 
 ## -returns
@@ -103,7 +103,7 @@ A pointer to the <i>AuthzClientContext</i> handle returned. Call
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -112,7 +112,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 
 
-This function calls the  <a href="https://msdn.microsoft.com/c20a02a0-5303-4433-a484-5a89999b32b9">AuthzComputeGroupsCallback</a> callback function to add <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> to the newly created context.
+This function calls the  <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function to add <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> to the newly created context.
 
 
 
@@ -122,11 +122,11 @@ This function calls the  <a href="https://msdn.microsoft.com/c20a02a0-5303-4433-
 
 
 
-<a href="https://msdn.microsoft.com/cad9fff0-9aa6-4cb2-a34f-94cf72f66bca">AuthzFreeContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzfreecontext">AuthzFreeContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
  
 
  

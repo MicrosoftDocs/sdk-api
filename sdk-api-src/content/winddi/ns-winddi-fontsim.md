@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The FONTSIM structure contains offsets to one or more <a href="https://msdn.microsoft.com/c590359b-4652-4673-9e43-bf76a0a45d58">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
+The FONTSIM structure contains offsets to one or more <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontdiff">FONTDIFF</a> structures describing bold, italic, and bold italic font simulations.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ If nonzero, specifies the offset from the beginning of this structure to the FON
 
 
 
-If the <b>dpFontSim</b> member of the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
+If the <b>dpFontSim</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure is nonzero, it holds the offset from the beginning of that structure to the beginning of a FONTSIM structure.
 
 
 
@@ -86,11 +86,11 @@ If the <b>dpFontSim</b> member of the <a href="https://msdn.microsoft.com/fd2606
 
 
 
-<a href="https://msdn.microsoft.com/c590359b-4652-4673-9e43-bf76a0a45d58">FONTDIFF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontdiff">FONTDIFF</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
  
 
  

@@ -62,7 +62,7 @@ The <b>get_SpectralInversion</b> method retrieves the spectral inversion value f
 
 ### -param pSpectralInversion [out]
 
-Pointer that receives a <a href="https://msdn.microsoft.com/d8781e01-37cc-4c8c-8ff9-61e9c9b95fbd">SpectralInversion</a> variable.
+Pointer that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/spectralinversion">SpectralInversion</a> variable.
 
 
 ## -returns
@@ -88,15 +88,15 @@ For more information, see <b>KSPROPERTY_BDA_SPECTRAL_INVERSION</b> in the Window
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693306(v=VS.85).aspx">IBDA_DigitalDemodulator::put_SpectralInversion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_spectralinversion">IBDA_DigitalDemodulator::put_SpectralInversion</a>
  
 
  

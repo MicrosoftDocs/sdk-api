@@ -61,7 +61,7 @@ Specifies an event that should be fired when one or more of a collection of fenc
 
 Type: <b>ID3D12Fence*</b>
 
-An array of length <i>NumFences</i> that specifies the <a href="https://msdn.microsoft.com/2B388352-EF43-4D1E-851C-A670B4681F0F">ID3D12Fence</a> objects.
+An array of length <i>NumFences</i> that specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12fence">ID3D12Fence</a> objects.
 
 
 ### -param pFenceValues [in]
@@ -80,9 +80,9 @@ Specifies the number of fences to be included.
 
 ### -param Flags
 
-Type: <b><a href="https://msdn.microsoft.com/A5C52F58-C082-41C2-99E4-800DFBA250D2">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_multiple_fence_wait_flags">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a></b>
 
-Specifies one  of the <a href="https://msdn.microsoft.com/A5C52F58-C082-41C2-99E4-800DFBA250D2">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a> that determines how to proceed.
+Specifies one  of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_multiple_fence_wait_flags">D3D12_MULTIPLE_FENCE_WAIT_FLAGS</a> that determines how to proceed.
 
 
 ### -param hEvent
@@ -96,7 +96,7 @@ A handle to the event object.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.
 
@@ -107,7 +107,7 @@ This method returns an HRESULT success or error code.
 
 
 
-To specify a single fence refer to the <a href="https://msdn.microsoft.com/DBC5A1FD-F3D0-4C9B-965B-1967151093F7">SetEventOnCompletion</a> method.
+To specify a single fence refer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12fence-seteventoncompletion">SetEventOnCompletion</a> method.
 
 
 
@@ -117,7 +117,7 @@ To specify a single fence refer to the <a href="https://msdn.microsoft.com/DBC5A
 
 
 
-<a href="https://msdn.microsoft.com/7650C695-3F46-405A-9976-A4A50FFAD567">ID3D12Device1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>
  
 
  

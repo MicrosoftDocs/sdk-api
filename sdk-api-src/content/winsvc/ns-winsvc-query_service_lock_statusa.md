@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Contains information about the lock status of a service control manager database. It is used by the 
-<a href="https://msdn.microsoft.com/5139d31b-65f1-41ba-852a-91eab1dc366e">QueryServiceLockStatus</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicelockstatusa">QueryServiceLockStatus</a> function.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ The time since the lock was first acquired, in seconds.
 
 
 
-<a href="https://msdn.microsoft.com/5139d31b-65f1-41ba-852a-91eab1dc366e">QueryServiceLockStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicelockstatusa">QueryServiceLockStatus</a>
  
 
  

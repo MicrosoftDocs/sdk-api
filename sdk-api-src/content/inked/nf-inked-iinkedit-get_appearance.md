@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets or sets a value that determines the appearance of the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects).
+Gets or sets a value that determines the appearance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control - whether it is flat (painted with no visual effects) or 3D (painted with three-dimensional effects).
 
 
 This property is read/write.
@@ -68,7 +68,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/1ec00514-49d0-40dc-a9cf-8ec7d9e6a816">AppearanceConstants</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-appearanceconstants">AppearanceConstants</a>
 
 
 
@@ -76,7 +76,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

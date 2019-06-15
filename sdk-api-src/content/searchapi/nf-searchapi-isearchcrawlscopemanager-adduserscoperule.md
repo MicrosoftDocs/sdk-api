@@ -82,7 +82,7 @@ A <b>BOOL</b> value specifying whether child rules should be overridden. If set 
 
 Type: <b>DWORD</b>
 
-Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa965693(v=VS.85).aspx">FOLLOW_FLAGS</a> to specify whether to follow complex URLs and whether a URL is to be indexed or just followed.
+Sets the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_follow_flags">FOLLOW_FLAGS</a> to specify whether to follow complex URLs and whether a URL is to be indexed or just followed.
 
 
 ## -returns

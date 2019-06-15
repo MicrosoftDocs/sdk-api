@@ -91,7 +91,7 @@ This function does not return a value.
          limits.
 
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>. 
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>. 
 
 
 
@@ -101,7 +101,7 @@ To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602
 
 
 
-<a href="https://msdn.microsoft.com/abb2d5c1-040b-4c36-aae5-3517b6a8c540">Thread Stack Size</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>
  
 
  

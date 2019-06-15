@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extracts the access code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a>.
+Extracts the access code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
 
 
 ## -parameters

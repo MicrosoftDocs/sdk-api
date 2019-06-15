@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-This method returns the same value as if you subtracted <a href="https://msdn.microsoft.com/905c476f-33cd-4eda-a342-c7a20479d63c">IWriteEngine2EventArgs::get_UsedSystemBuffer</a> from <a href="https://msdn.microsoft.com/dfdf4116-0402-4c90-8b9b-0758fd0bb973">IWriteEngine2EventArgs::get_TotalSystemBuffer</a>.
+This method returns the same value as if you subtracted <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a> from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_totalsystembuffer">IWriteEngine2EventArgs::get_TotalSystemBuffer</a>.
 
 
 
@@ -106,15 +106,15 @@ This method returns the same value as if you subtracted <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/1922410a-5871-477f-b778-36b12ad95168">IWriteEngine2EventArgs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfdf4116-0402-4c90-8b9b-0758fd0bb973">IWriteEngine2EventArgs::get_TotalSystemBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_totalsystembuffer">IWriteEngine2EventArgs::get_TotalSystemBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/905c476f-33cd-4eda-a342-c7a20479d63c">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>
  
 
  

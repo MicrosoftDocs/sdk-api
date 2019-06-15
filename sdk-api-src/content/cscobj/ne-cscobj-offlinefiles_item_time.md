@@ -77,7 +77,7 @@ Use the item's last-write time.
 
 
 
-<a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">IOfflineFilesItemFilter::GetTimeFilter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemfilter-gettimefilter">IOfflineFilesItemFilter::GetTimeFilter</a>
  
 
  

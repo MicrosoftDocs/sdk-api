@@ -54,7 +54,7 @@ The <b>IUPnPRemoteEndpointInfo</b> interface allows a hosted device to obtain in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPRemoteEndpointInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUPnPRemoteEndpointInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPRemoteEndpointInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPRemoteEndpointInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUPnPRemoteEndpointInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/efbb0671-cb32-41e1-8405-1d145c247673">GetDwordValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getdwordvalue">GetDwordValue</a>
 </td>
 <td align="left" width="63%">
 Gets a 4-byte value that provides information about either a request or requester.
@@ -78,7 +78,7 @@ Gets a 4-byte value that provides information about either a request or requeste
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cbfaa8c-80f1-49c6-91aa-17764559da8b">GetGuidValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getguidvalue">GetGuidValue</a>
 </td>
 <td align="left" width="63%">
 Currently not supported.
@@ -87,7 +87,7 @@ Currently not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3b0dcd2-2195-4e09-aac4-073a3d848fa9">GetStringValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpremoteendpointinfo-getstringvalue">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Gets a string that provides information about either a request or requester.

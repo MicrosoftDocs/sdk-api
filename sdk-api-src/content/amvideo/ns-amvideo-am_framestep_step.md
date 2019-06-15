@@ -70,7 +70,7 @@ Specifies the number of frames to step.
 
 
 
-<a href="https://msdn.microsoft.com/01abe1fe-fc2f-44cb-9546-45a8d682a179">Frame Stepping Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/frame-stepping-property-set">Frame Stepping Property Set</a>
  
 
  

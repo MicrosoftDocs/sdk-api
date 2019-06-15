@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method is called by <a href="https://msdn.microsoft.com/833acb3f-4c33-4b46-8759-3c08698cd245">IBrowserService2::ActivatePendingView</a>.
+This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-activatependingview">IBrowserService2::ActivatePendingView</a>.
 
 
 

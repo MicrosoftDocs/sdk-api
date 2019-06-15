@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Redraws a specified tree-view control item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the <a href="https://msdn.microsoft.com/en-us/library/Bb773901(v=VS.85).aspx">TreeView_Select</a> macro, or you can send the <a href="https://msdn.microsoft.com/en-us/library/Bb773736(v=VS.85).aspx">TVM_SELECTITEM</a> message explicitly. 
+Redraws a specified tree-view control item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_select">TreeView_Select</a> macro, or you can send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-selectitem">TVM_SELECTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Redraws a specified tree-view control item in the style used to indicate the tar
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -75,9 +75,9 @@ Handle to an item. If the <i>hitem</i> parameter is <b>NULL</b>, the control is 
 
 
 
-If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a> notification codes. 
+If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanding">TVN_ITEMEXPANDING</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanded">TVN_ITEMEXPANDED</a> notification codes. 
 
-Using the <b>TreeView_SelectDropTarget</b> macro is equivalent to sending the <a href="https://msdn.microsoft.com/en-us/library/Bb773736(v=VS.85).aspx">TVM_SELECTITEM</a> message with its 
+Using the <b>TreeView_SelectDropTarget</b> macro is equivalent to sending the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-selectitem">TVM_SELECTITEM</a> message with its 
 				<i>flag</i> parameter set to the TVGN_DROPHILITE value. 
 
 

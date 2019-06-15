@@ -81,11 +81,11 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/3b4cfc92-4f50-4b62-bb2c-77c8e0e003da">IStringTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d23e29d-a80f-4710-8285-c9e64fd580a1">IStringTable::Enumerate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-enumerate">IStringTable::Enumerate</a>
  
 
  

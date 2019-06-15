@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The 
 <b>SetupInitDefaultQueueCallbackEx</b> function initializes the context used by the default queue callback routine included with the Setup API in the same manner as 
-<a href="https://msdn.microsoft.com/3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4">SetupInitDefaultQueueCallback</a>, except that an additional window is provided to the callback function to accept progress messages.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a>, except that an additional window is provided to the callback function to accept progress messages.
 
 
 ## -parameters
@@ -107,10 +107,10 @@ For each file copy operation completed, the default queue callback routine sends
 <b>SetupInitDefaultQueueCallbackEx</b> can be used to get the default behavior for disk prompting, error handling, and so on, and also provide a gauge embedded in a wizard page or other specialized dialog box.
 
 Regardless of whether you initialized the context used by the default queue callback routine with 
-<a href="https://msdn.microsoft.com/3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4">SetupInitDefaultQueueCallback</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
 <b>SetupInitDefaultQueueCallbackEx</b>, after the queued operations have finished processing, call 
-<a href="https://msdn.microsoft.com/de99ee40-9fbb-42e2-b070-d1c25b238135">SetupTermDefaultQueueCallback</a> to release the resources allocated in initializing the context structure. For more information see 
-<a href="https://msdn.microsoft.com/e25a9787-a4a3-4d06-bf55-f6f7cfb23481">Initializing and Terminating the Callback Context</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuptermdefaultqueuecallback">SetupTermDefaultQueueCallback</a> to release the resources allocated in initializing the context structure. For more information see 
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/initializing-and-terminating-the-callback-context">Initializing and Terminating the Callback Context</a>.
 
 
 
@@ -120,15 +120,15 @@ Regardless of whether you initialized the context used by the default queue call
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4">SetupInitDefaultQueueCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a>
  
 
  

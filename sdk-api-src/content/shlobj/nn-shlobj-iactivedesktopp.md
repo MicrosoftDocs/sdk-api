@@ -60,7 +60,7 @@ Exposes methods that manage the Windows Desktop.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveDesktopP</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IActiveDesktopP</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IActiveDesktopP</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IActiveDesktopP</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IActiveDesktopP</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f88cd96-670f-4c54-9a66-2b3748b5e573">SetSafeMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-iactivedesktopp-setsafemode">SetSafeMode</a>
 </td>
 <td align="left" width="63%">
 Sets or updates the Active Desktop to safe mode.
@@ -90,7 +90,7 @@ Sets or updates the Active Desktop to safe mode.
 
 
 
-<a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Using the Active Desktop Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
  
 
  

@@ -61,7 +61,7 @@ Invokes the standard <b>Convert</b> dialog box, allowing the user to change the 
 
 ### -param Arg1 [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/79206f06-b219-48c2-9fb2-74ebc2dbac65">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
 
 
 ## -returns
@@ -298,7 +298,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ A call to <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://msdn.microsoft.com/06886545-bd5c-4d81-b1c3-dfa7e146e43a">GlobalAlloc</a> or the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -331,7 +331,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a> allocator failed.
+A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -419,7 +419,7 @@ A string value (for example, <b>lpszUserType</b> or <b>lpszDefLabel</b>) was inv
 
 Note that you can change the type of all objects of a given class only when CF_CONVERTONLY is not specified.
 
-The convert command, which invokes this function, should only be made available to the user if <a href="https://msdn.microsoft.com/9ecd978e-eded-472b-8d45-525bae56bded">OleUICanConvertOrActivateAs</a> returns S_OK. 
+The convert command, which invokes this function, should only be made available to the user if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a> returns S_OK. 
 
 
 
@@ -430,11 +430,11 @@ The convert command, which invokes this function, should only be made available 
 
 
 
-<a href="https://msdn.microsoft.com/79206f06-b219-48c2-9fb2-74ebc2dbac65">OLEUICONVERT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuiconverta">OLEUICONVERT</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ecd978e-eded-472b-8d45-525bae56bded">OleUICanConvertOrActivateAs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a>
  
 
  

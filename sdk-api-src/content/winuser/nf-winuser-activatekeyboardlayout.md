@@ -69,7 +69,7 @@ Type: <b>HKL</b>
 
 Input locale identifier to be activated.
 
-The input locale identifier must have been loaded by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a> function. This parameter must be either the handle to a keyboard layout or one of the following values.
+The input locale identifier must have been loaded by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a> function. This parameter must be either the handle to a keyboard layout or one of the following values.
 
 <table>
 <tr>
@@ -149,7 +149,7 @@ These two methods are mutually exclusive, and the setting persists as part of th
 </td>
 <td width="60%">
 Activates the specified locale identifier for the entire process and sends the 
-      <a href="https://msdn.microsoft.com/en-us/library/ms632629(v=VS.85).aspx">WM_INPUTLANGCHANGE</a> message to the current thread's focus or active window.
+      <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-inputlangchange">WM_INPUTLANGCHANGE</a> message to the current thread's focus or active window.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ This is used with <b>KLF_RESET</b>. See <b>KLF_RESET</b> for an explanation.
 </dl>
 </td>
 <td width="60%">
-This flag is unsupported. Use the <a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a> function instead.
+This flag is unsupported. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a> function instead.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ Type: <b>HKL</b>
 The return value is of type 
       <b>HKL</b>. If the function succeeds, the return value is the previous input locale identifier. Otherwise, it is zero.
 
-To get extended error information, use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -217,15 +217,15 @@ The <b>KLF_RESET</b> and <b>KLF_SHIFTLOCK</b> flags alter the method by which th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646298(v=VS.85).aspx">GetKeyboardLayoutName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutnamea">GetKeyboardLayoutName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
@@ -233,7 +233,7 @@ The <b>KLF_RESET</b> and <b>KLF_SHIFTLOCK</b> flags alter the method by which th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unloadkeyboardlayout">UnloadKeyboardLayout</a>
  
 
  

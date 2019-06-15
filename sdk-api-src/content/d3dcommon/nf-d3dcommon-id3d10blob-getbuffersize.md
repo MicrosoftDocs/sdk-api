@@ -64,7 +64,7 @@ Gets the size.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 The size of the data, in bytes.
           
@@ -77,7 +77,7 @@ The size of the data, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/7E97B8EB-E674-4B90-9B9B-202552DBD95C">ID3D10Blob</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>
  
 
  

@@ -64,7 +64,7 @@ The GUID associated with the game during install or game scan detection.
 
 ### -param pdwReasons [out]
 
-The reason code. For a list of values, see the <a href="https://msdn.microsoft.com/d8ddea59-04be-4d03-a792-866d8f920e17">WPCFLAG_ISBLOCKED</a> enumeration.
+The reason code. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/wpcevent/ne-wpcevent-tagwpcflag_isblocked">WPCFLAG_ISBLOCKED</a> enumeration.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If <i>guidAppID</i> is not found, the policy will default to unrated and set *<i
 
 
 
-<a href="https://msdn.microsoft.com/7509d9ef-d437-406a-8de6-39733499ca0a">IWPCGamesSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcgamessettings">IWPCGamesSettings</a>
  
 
  

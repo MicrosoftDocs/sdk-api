@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Describes mapped memory from the <a href="https://msdn.microsoft.com/284c16ea-1a9f-4f13-b359-214178650add">ID2D1Bitmap1::Map</a> API.
+ Describes mapped memory from the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-map">ID2D1Bitmap1::Map</a> API.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ The mapped rectangle is used to map a rectangle into the caller's address space.
 
 
 
-<a href="https://msdn.microsoft.com/284c16ea-1a9f-4f13-b359-214178650add">ID2D1Bitmap1::Map</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-map">ID2D1Bitmap1::Map</a>
  
 
  

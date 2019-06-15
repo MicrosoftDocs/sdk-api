@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MGM_ENUM_TYPES</b> enumeration lists the types of group enumerations that the multicast group manager uses. This structure is used by the 
-<a href="https://msdn.microsoft.com/926f4055-becb-4c99-afd2-2d2822626f24">MgmGroupEnumerationStart</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a> function.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ Enumerate all source entries for a group.
 
 
 
-<a href="https://msdn.microsoft.com/926f4055-becb-4c99-afd2-2d2822626f24">MgmGroupEnumerationStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
  
 
  

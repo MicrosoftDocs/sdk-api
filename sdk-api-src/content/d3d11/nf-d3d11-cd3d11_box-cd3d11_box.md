@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/5ACD1DB9-FB35-48F4-8533-3B7464CF5F3D">CD3D11_BOX</a> structure.
+Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a> structure.
 
 
 
@@ -67,7 +67,7 @@ Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/5ACD1DB9-FB35-48F4-8533-3B7464CF5F3D">CD3D11_BOX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a>
  
 
  

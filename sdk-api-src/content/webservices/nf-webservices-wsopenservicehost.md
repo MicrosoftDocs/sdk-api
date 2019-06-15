@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">Service Host</a> for communication and starts the Listeners on all the endpoints. 
+Opens a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">Service Host</a> for communication and starts the Listeners on all the endpoints. 
             Client applications cannot connect to Service endpoints until <b>WsOpenSerivceHost</b> is called.
 
 
@@ -60,8 +60,8 @@ Opens a <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73
 
 ### -param serviceHost [in]
 
-A pointer to the <b>Service Host</b> object to open.  The pointer must reference a valid <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> object
-                    returned by <a href="https://msdn.microsoft.com/412a262a-1706-4101-b154-1804408a5b9f">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
+A pointer to the <b>Service Host</b> object to open.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
+                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
         
                 
 
@@ -73,7 +73,7 @@ A pointer  to A WS_ASYNC_CONTEXT object that has information about how to invoke
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

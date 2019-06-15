@@ -100,7 +100,7 @@ Pointer to a null-terminated string that specifies the DNS name of the domain wh
 ### -param AuthIdentity [in, optional]
 
 Handle to the credentials used to start the RPC session. Use the 
-      <a href="https://msdn.microsoft.com/51aba58b-07c5-4e6d-8568-fa6f1a963d8e">DsMakePasswordCredentials</a> function to create 
+      <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function to create 
       a structure suitable for <i>AuthIdentity</i>.
 
 
@@ -108,7 +108,7 @@ Handle to the credentials used to start the RPC session. Use the
 
 Pointer to a null-terminated string that specifies the Service Principal Name to assign to the client. 
       Passing <b>NULL</b> in <i>ServicePrincipalName</i> is equivalent to a call 
-      to the <a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DsBindWithCred</a> function.
+      to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a> function.
 
 
 ### -param BindFlags [in, optional]
@@ -121,13 +121,13 @@ Contains a set of flags that define the behavior of this function. This paramete
 #### NTDSAPI_BIND_ALLOW_DELEGATION (1)
 
 Causes the bind to use the delegate impersonation level. This enables operations that require 
-         delegation, such as <a href="https://msdn.microsoft.com/36ef8734-717a-4c3a-a839-6591d85c9734">DsAddSidHistory</a>, to succeed. 
-         Specifying this flag also causes <a href="https://msdn.microsoft.com/52a5761d-5244-4bc9-8c09-fd08f10a9fff">DsBindWithSpnEx</a> to 
-         operate similar to <a href="https://msdn.microsoft.com/9a149654-fd94-4b0c-b712-07fb827bef2f">DsBindWithSpn</a>.
+         delegation, such as <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed. 
+         Specifying this flag also causes <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> to 
+         operate similar to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 
@@ -137,7 +137,7 @@ Most operations do not require the delegate impersonation level; this flag shoul
 
 #### NTDSAPI_BIND_FORCE_KERBEROS (4)
 
-<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="https://msdn.microsoft.com/52a5761d-5244-4bc9-8c09-fd08f10a9fff">DsBindWithSpnEx</a> 
+<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> 
           requires Kerberos authentication to be used. If Kerberos authentication cannot be established, 
           <b>DsBindWithSpnEx</b> will not attempt to authenticate 
           with any other mechanism.
@@ -146,19 +146,19 @@ Most operations do not require the delegate impersonation level; this flag shoul
 ### -param phDS [out]
 
 Address of a <b>HANDLE</b> value that receives the bind handle. To close this handle, 
-      call <a href="https://msdn.microsoft.com/7106d67f-d421-4a7c-b775-440e5944f25e">DsUnBind</a>.
+      call <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a>.
 
 
 ##### - BindFlags.NTDSAPI_BIND_ALLOW_DELEGATION (1)
 
 Causes the bind to use the delegate impersonation level. This enables operations that require 
-         delegation, such as <a href="https://msdn.microsoft.com/36ef8734-717a-4c3a-a839-6591d85c9734">DsAddSidHistory</a>, to succeed. 
-         Specifying this flag also causes <a href="https://msdn.microsoft.com/52a5761d-5244-4bc9-8c09-fd08f10a9fff">DsBindWithSpnEx</a> to 
-         operate similar to <a href="https://msdn.microsoft.com/9a149654-fd94-4b0c-b712-07fb827bef2f">DsBindWithSpn</a>.
+         delegation, such as <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed. 
+         Specifying this flag also causes <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> to 
+         operate similar to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
 
 If this flag is not specified, the bind will use the impersonate impersonation level. For more 
          information about impersonation levels, see 
-         <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
 
 Most operations do not require the delegate impersonation level; this flag should only be 
          specified if it is required. Binding to a rogue server with the  delegate impersonation level enables the 
@@ -167,7 +167,7 @@ Most operations do not require the delegate impersonation level; this flag shoul
 
 ##### - BindFlags.NTDSAPI_BIND_FORCE_KERBEROS (4)
 
-<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="https://msdn.microsoft.com/52a5761d-5244-4bc9-8c09-fd08f10a9fff">DsBindWithSpnEx</a> 
+<b>Active Directory Lightweight Directory Services:  </b>If this flag is specified, <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspnexa">DsBindWithSpnEx</a> 
           requires Kerberos authentication to be used. If Kerberos authentication cannot be established, 
           <b>DsBindWithSpnEx</b> will not attempt to authenticate 
           with any other mechanism.

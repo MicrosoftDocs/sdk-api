@@ -59,7 +59,7 @@ Queries the DMR asynchronously to determine if audio is currently muted or unmut
 
 ### -param value [out]
 
-Receives a reference to a  <a href="https://msdn.microsoft.com/691D4936-604A-496F-B62E-FB36B406F0DD">GetMuteOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a  <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/getmuteoperation">GetMuteOperation</a> object that is used to get results from the asynchronous operation.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

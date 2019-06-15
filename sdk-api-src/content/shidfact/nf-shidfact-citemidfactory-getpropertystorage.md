@@ -81,7 +81,7 @@ If this method succeeds, it returns a read only pointer to the serialized proper
 
 
 
-<a href="https://msdn.microsoft.com/8C13F1AF-3328-40B8-B5F8-6CDF753A7FA7">CItemIDFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
  
 
  

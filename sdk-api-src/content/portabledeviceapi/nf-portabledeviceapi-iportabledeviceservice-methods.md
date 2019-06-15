@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Methods</b> method retrieves the <a href="https://msdn.microsoft.com/9d233dea-91b6-4358-830c-6abe466264e5">IPortableDeviceServiceMethods</a> interface that is used to invoke custom functionality on the service.
+The <b>Methods</b> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods</a> interface that is used to invoke custom functionality on the service.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>Methods</b> method retrieves the <a href="https://msdn.microsoft.com/9d23
 
 ### -param ppMethods [out]
 
-The <a href="https://msdn.microsoft.com/9d233dea-91b6-4358-830c-6abe466264e5">IPortableDeviceServiceMethods</a> interface used for invoking methods on the given service.
+The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods</a> interface used for invoking methods on the given service.
 
 
 ## -returns
@@ -107,15 +107,15 @@ A <b>NULL</b> parameter was specified.
 
 
 
-<a href="https://msdn.microsoft.com/f57344d5-c978-4c27-b8a9-b42492bd9312">IPortableDeviceService Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a2796c8-1a39-49eb-98e1-c9e06c61f397">Invoking Service Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/invoking-methods-synchronously">Invoking Service Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3072e34-65f2-4eeb-bcfa-e2db2d34e680">Invoking Service Methods Asynchronously</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/invoking-methods-asynchronously">Invoking Service Methods Asynchronously</a>
  
 
  

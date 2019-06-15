@@ -60,14 +60,14 @@ Contains information about a hit test. This structure supersedes the
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 Position to hit test, in client coordinates. 
 
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Variable that receives the results of a hit test. The tab control sets this member to one of the following values: 
 
@@ -135,7 +135,7 @@ TCHT_ONITEM is a bitwise-OR operation on TCHT_ONITEMICON and TCHT_ONITEMLABEL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760604(v=VS.85).aspx">TCM_HITTEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-hittest">TCM_HITTEST</a>
  
 
  

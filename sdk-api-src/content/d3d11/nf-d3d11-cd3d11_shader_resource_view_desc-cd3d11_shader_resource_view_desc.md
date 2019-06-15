@@ -49,7 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/A6604A04-2D05-4CEB-8D47-C59789EE047E">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure.
+Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure.
 
 ## -parameters
 
@@ -59,4 +59,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A6604A04-2D05-4CEB-8D47-C59789EE047E">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>

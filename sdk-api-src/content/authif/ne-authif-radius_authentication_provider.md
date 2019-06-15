@@ -98,7 +98,7 @@ Access is unauthenticated.
 
 
 The <b>ratProvider</b> extended attribute in 
-<a href="https://msdn.microsoft.com/b0b39062-0622-48f8-a06a-232713ec8c3c">RADIUS_ATTRIBUTE_TYPE</a> uses values from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a> uses values from the 
 <b>RADIUS_AUTHENTICATION_PROVIDER</b> enumeration type.
 
 
@@ -109,23 +109,23 @@ The <b>ratProvider</b> extended attribute in
 
 
 
-<a href="https://msdn.microsoft.com/3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f">About NPS Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01">NPS Extensions Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7a16cb-bc64-4e81-8149-82f51c451312">NPS Extensions Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">RADIUS_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0b39062-0622-48f8-a06a-232713ec8c3c">RADIUS_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
  
 
  

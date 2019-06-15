@@ -93,7 +93,7 @@ The method succeeded.
 
 
 
-To force the encoder to make the current frame a key frame, call this method before calling <b>IMediaObject::ProcessOutput</b> or <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a>.
+To force the encoder to make the current frame a key frame, call this method before calling <b>IMediaObject::ProcessOutput</b> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>.
 
 
 
@@ -109,7 +109,7 @@ Each call to this method applies to a single frame. After processing this frame,
 
 
 
-<a href="https://msdn.microsoft.com/74c8db81-f756-497f-a26e-7fb7563fc2c5">IWMVideoForceKeyFrame Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideoforcekeyframe">IWMVideoForceKeyFrame Interface</a>
  
 
  

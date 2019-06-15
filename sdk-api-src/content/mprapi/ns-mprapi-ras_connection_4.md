@@ -64,7 +64,7 @@ A value that represent the duration of the connection in seconds.
 
 ### -field dwInterfaceType
 
-A <a href="https://msdn.microsoft.com/9b957ab0-0c5d-4478-914a-4837e6bbd56a">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_router_interface_type">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
 
 
 ### -field dwConnectionFlags
@@ -94,7 +94,7 @@ The connection is using Point-to-Point Protocol (PPP).
 </dl>
 </td>
 <td width="60%">
-The messenger service is active on the client and messages can be sent to the client using the <a href="https://msdn.microsoft.com/3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f">MprAdminSendUserMessage</a> function.
+The messenger service is active on the client and messages can be sent to the client using the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminsendusermessage">MprAdminSendUserMessage</a> function.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The messenger service is active on the client and messages can be sent to the cl
 </dl>
 </td>
 <td width="60%">
-The connection is currently in quarantine. For information on how to remove the connection from quarantine, please see <a href="https://msdn.microsoft.com/9d8c33b4-4227-4538-bc0e-f663d1d560f1">MprAdminConnectionRemoveQuarantine</a>.
+The connection is currently in quarantine. For information on how to remove the connection from quarantine, please see <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionremovequarantine">MprAdminConnectionRemoveQuarantine</a>.
 
 </td>
 </tr>
@@ -173,17 +173,17 @@ A GUID that identifies the connection. For incoming connections, this GUID is va
 
 ### -field rasQuarState
 
-A <a href="https://msdn.microsoft.com/df0193c0-a40b-464f-8c82-08d1fe66fdf9">RAS_QUARANTINE_STATE</a> structure that specifies the NAP quarantine state of the connection.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-_ras_quarantine_state">RAS_QUARANTINE_STATE</a> structure that specifies the NAP quarantine state of the connection.
 
 
 ### -field probationTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the time required for the connection to come out of quarantine after which the connection will be dropped. This value is valid only if the <b>rasQuarState</b> member has a value of <b>RAS_QUAR_STATE_PROBATION</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time required for the connection to come out of quarantine after which the connection will be dropped. This value is valid only if the <b>rasQuarState</b> member has a value of <b>RAS_QUAR_STATE_PROBATION</b>.
 
 
 ### -field connectionStartTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the connection start time in UTC.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the connection start time in UTC.
 
 
 ### -field ullBytesXmited
@@ -263,7 +263,7 @@ A null-terminated Unicode string that contains the IP address of the local compu
 
 ### -field ProjectionInfo
 
-A <a href="https://msdn.microsoft.com/820acc2b-38e1-4501-9753-bc250d6a87c9">PROJECTION_INFO2</a> structure that contains either a <a href="https://msdn.microsoft.com/273af594-66f1-4d51-b597-3f09ee5c66cb">PPP_PROJECTION_INFO2</a> structure or a <a href="https://msdn.microsoft.com/577a276e-e2f4-46d6-ae0b-2ba0f0bac67f">IKEV2_PROJECTION_INFO2</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_projection_info2">PROJECTION_INFO2</a> structure that contains either a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_projection_info2">PPP_PROJECTION_INFO2</a> structure or a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ikev2_projection_info2">IKEV2_PROJECTION_INFO2</a> structure.
 
 
 ### -field hConnection

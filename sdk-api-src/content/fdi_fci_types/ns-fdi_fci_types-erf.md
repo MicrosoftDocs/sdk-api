@@ -347,7 +347,7 @@ A flag that indicates an error. If <b>TRUE</b>, an error is present.
 
 
 
-<a href="https://msdn.microsoft.com/c6a79d81-7adf-4b8e-a1ef-fec868f7fdbf">Extract</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/extract">Extract</a>
  
 
  

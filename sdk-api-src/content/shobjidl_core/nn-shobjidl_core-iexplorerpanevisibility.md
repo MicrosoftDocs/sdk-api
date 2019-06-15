@@ -49,18 +49,18 @@ ms.custom: 19H1
 ## -description
 
 
-Used in Windows Explorer by an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> implementation to give suggestions to the view about what panes are visible. Additionally, an <a href="https://msdn.microsoft.com/da2cf5d4-5a68-4d18-807b-b9d4e2712c10">IExplorerBrowser</a> host can use this interface to provide information about pane visibility. The host should implement <a href="https://msdn.microsoft.com/library/Cc678966(v=VS.85).aspx">QueryService</a> with <b>SID_ExplorerPaneVisibility</b> as the service ID. The host must be in the site chain.
+Used in Windows Explorer by an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> implementation to give suggestions to the view about what panes are visible. Additionally, an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> host can use this interface to provide information about pane visibility. The host should implement <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> with <b>SID_ExplorerPaneVisibility</b> as the service ID. The host must be in the site chain.
 
             
 
-The <b>IExplorerPaneVisibility</b> implementation is retrieved from the Shell folder. The Shell folder, in turn, is retrieved from the view. A namespace extension can elect to provide a custom view (<a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>) rather than using the system folder view object (DefView). In that case, the <b>IShellView</b> implementation must include an implementation of <a href="https://msdn.microsoft.com/4fdeb995-2220-4461-a4d6-80bce08153b1">IFolderView::GetFolder</a> to return the <b>IExplorerPaneVisibility</b> object.
+The <b>IExplorerPaneVisibility</b> implementation is retrieved from the Shell folder. The Shell folder, in turn, is retrieved from the view. A namespace extension can elect to provide a custom view (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>) rather than using the system folder view object (DefView). In that case, the <b>IShellView</b> implementation must include an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder">IFolderView::GetFolder</a> to return the <b>IExplorerPaneVisibility</b> object.
 
-A namespace extension can provide a custom view by implementing <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> itself rather than using the system folder view object (DefView). In that case, the <b>IShellView</b> implementation must include an implementation of <a href="https://msdn.microsoft.com/4fdeb995-2220-4461-a4d6-80bce08153b1">IFolderView::GetFolder</a> to make use of <b>IExplorerPaneVisibility</b> .
+A namespace extension can provide a custom view by implementing <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> itself rather than using the system folder view object (DefView). In that case, the <b>IShellView</b> implementation must include an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getfolder">IFolderView::GetFolder</a> to make use of <b>IExplorerPaneVisibility</b> .
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerPaneVisibility</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IExplorerPaneVisibility</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExplorerPaneVisibility</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExplorerPaneVisibility</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IExplorerPaneVisibility</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda">GetPaneState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerpanevisibility-getpanestate">GetPaneState</a>
 </td>
 <td align="left" width="63%">
 Gets the visibility state of the given Windows Explorer pane.
@@ -90,7 +90,7 @@ Gets the visibility state of the given Windows Explorer pane.
 
 
 
-<a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>
  
 
  

@@ -135,19 +135,19 @@ For RTM_CHANGE_NOTIFICATION calls: Contains the handle to the change notificatio
 ### -param Context2
 
 For RTM_ENTITY_REGISTERED calls: Contains a pointer to the 
-<a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated. 
 
 
 
 
 For RTM_ENTITY_DEREGISTERED calls: Contains a pointer to the 
-<a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
 
 For RTM_ROUTE_EXPIRED calls: Contains a pointer to the 
-<a href="https://msdn.microsoft.com/7d9bf8c0-dc09-440a-b60d-97463c70a745">RTM_ROUTE_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_route_info">RTM_ROUTE_INFO</a> structure referred to by the handle in <i>Context1</i>. If the client must retain this information, the client must copy it to a structure it has allocated.
 
 For RTM_CHANGE_NOTIFICATION calls: Contains the notification context that was given to the client by a previous call to 
-<a href="https://msdn.microsoft.com/b6e04984-ac92-44a2-a18c-018c6b1b49a9">RtmRegisterForChangeNotification</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a>.
 
 
 ## -returns
@@ -169,13 +169,13 @@ After a client has registered for change notification, the routing table manager
 
 If a client receives an 
 <b>RTM_EVENT_CALLBACK</b> for the RTM_ENTITY_REGISTERED or RTM_ENTITY_DEREGISTERED events, the client must not make calls to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>, 
-<a href="https://msdn.microsoft.com/dc13022b-e474-4442-a19c-856ee130c383">RtmDeregisterEntity</a>, or 
-<a href="https://msdn.microsoft.com/411e15bc-7f47-4ef7-9400-292203b581af">RtmGetRegisteredEntities</a> in the context of this callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmderegisterentity">RtmDeregisterEntity</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetregisteredentities">RtmGetRegisteredEntities</a> in the context of this callback.
 
 If a client receives an 
 <b>RTM_EVENT_CALLBACK</b> for the RTM_CHANGE_NOTIFICATION event, the client must not call 
-<a href="https://msdn.microsoft.com/b6e04984-ac92-44a2-a18c-018c6b1b49a9">RtmRegisterForChangeNotification</a> in the context of this callback.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a> in the context of this callback.
 
 
 
@@ -185,11 +185,11 @@ If a client receives an
 
 
 
-<a href="https://msdn.microsoft.com/ea19f59c-8de7-4f52-8029-9775526120c9">RTM_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ne-rtmv2-_rtm_event_type">RTM_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>
  
 
  

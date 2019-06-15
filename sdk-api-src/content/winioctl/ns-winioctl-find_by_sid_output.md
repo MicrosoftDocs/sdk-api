@@ -81,7 +81,7 @@ A pointer to a null-terminated string that specifies the file name.
 
 
 
-<a href="https://msdn.microsoft.com/10d46c2e-9403-4c8a-8847-f427fbc6c905">FSCTL_FIND_FILES_BY_SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
  
 
  

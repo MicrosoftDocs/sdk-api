@@ -76,7 +76,7 @@ A handle to the parent window whose child windows are to be examined. If this pa
 Type: <strong>Type: <b>HWND</b>
 </strong>
 
-If the function succeeds, the return value is a handle to the child window at the top of the Z order. If the specified window has no child windows, the return value is <b>NULL</b>. To get extended error information, use the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function. 
+If the function succeeds, the return value is a handle to the child window at the top of the Z order. If the specified window has no child windows, the return value is <b>NULL</b>. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. 
 
 
 
@@ -90,11 +90,11 @@ If the function succeeds, the return value is a handle to the child window at th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633509(v=VS.85).aspx">GetNextWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getnextwindow">GetNextWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -102,7 +102,7 @@ If the function succeeds, the return value is a handle to the child window at th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

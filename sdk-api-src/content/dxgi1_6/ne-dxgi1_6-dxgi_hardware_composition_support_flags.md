@@ -76,7 +76,7 @@ This flag specifies that swapchain composition facilitated using hardware can ca
 
 
 
-Values of this enumeration are returned from the <a href="https://msdn.microsoft.com/1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC">IDXGIOutput6::CheckHardwareCompositionSupport</a> method in the <i>pFlags</i> out parameter.
+Values of this enumeration are returned from the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-checkhardwarecompositionsupport">IDXGIOutput6::CheckHardwareCompositionSupport</a> method in the <i>pFlags</i> out parameter.
 
 
 
@@ -86,11 +86,11 @@ Values of this enumeration are returned from the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/c4574c89-dee2-4841-9318-5383cf417111">DXGI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC">IDXGIOutput6::CheckHardwareCompositionSupport method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-checkhardwarecompositionsupport">IDXGIOutput6::CheckHardwareCompositionSupport method</a>
  
 
  

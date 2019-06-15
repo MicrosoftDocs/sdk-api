@@ -60,7 +60,7 @@ Unregisters the user from the notification of the arrival of new registration
 
 ### -param hEvent [in]
 
-The <b>HANDLE</b> returned by the <a href="https://msdn.microsoft.com/b636a3b4-2ac2-4400-b8ed-4430f598db7b">RegisterForEvent</a> method.
+The <b>HANDLE</b> returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-registerforevent">RegisterForEvent</a> method.
 
 
 ## -returns
@@ -116,7 +116,7 @@ This method closes the specified <b>HANDLE</b> and cleans up any related memory.
 
 
 
-<a href="https://msdn.microsoft.com/e7cf0c05-9d07-4630-ae34-9a9dd81492b2">ISyncProviderRegistration Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
  
 
  

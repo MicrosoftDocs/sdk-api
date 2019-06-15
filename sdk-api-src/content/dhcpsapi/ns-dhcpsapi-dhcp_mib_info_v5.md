@@ -95,7 +95,7 @@ The number of RELEASE messages  received by the DHCP server.
 ### -field ServerStartTime
 
 
-<a href="https://msdn.microsoft.com/2aca69b1-b7e5-4fda-b706-ed659d86cbd5">DATE_TIME</a> structure that contains the most recent time the DHCP server was started.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_date_time">DATE_TIME</a> structure that contains the most recent time the DHCP server was started.
 
 
 ### -field QtnNumLeases
@@ -150,7 +150,7 @@ The total number of scopes configured on the DHCP server
 
 ### -field ScopeInfo
 
-Pointer to a <a href="https://msdn.microsoft.com/5144d83e-f21e-4f68-bf33-c7245b31da01">SCOPE_MIB_INFO_V5</a> structure that contains specific information about the scopes configured on the DHCP server.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_scope_mib_info_v5">SCOPE_MIB_INFO_V5</a> structure that contains specific information about the scopes configured on the DHCP server.
 
 
 ### -field ScopeInfo.size_is
@@ -170,11 +170,11 @@ Pointer to a <a href="https://msdn.microsoft.com/5144d83e-f21e-4f68-bf33-c7245b3
 
 
 
-<a href="https://msdn.microsoft.com/3439198d-5391-4f9b-a6fe-9a600e7dc77b">DhcpGetMibInfoV5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetmibinfov5">DhcpGetMibInfoV5</a>
 
 
 
-<a href="https://msdn.microsoft.com/5144d83e-f21e-4f68-bf33-c7245b31da01">SCOPE_MIB_INFO_V5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_scope_mib_info_v5">SCOPE_MIB_INFO_V5</a>
  
 
  

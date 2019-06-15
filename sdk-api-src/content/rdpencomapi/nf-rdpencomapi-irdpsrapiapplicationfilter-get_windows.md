@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-The window objects are also available through the list returned by <a href="https://msdn.microsoft.com/6e6cf29d-e19a-43bd-a4e7-993c10bac92b">IRDPSRAPIApplication::Windows</a>. The windows are also exposed by the application filter because it provides easy access to all windows in the session, especially for applications that share only at the window level.
+The window objects are also available through the list returned by <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplication-get_windows">IRDPSRAPIApplication::Windows</a>. The windows are also exposed by the application filter because it provides easy access to all windows in the session, especially for applications that share only at the window level.
 
 
 
@@ -73,7 +73,7 @@ The window objects are also available through the list returned by <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/6a08c948-1b25-4a36-93c8-23e7e3f4fb08">IRDPSRAPIApplicationFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a>
  
 
  

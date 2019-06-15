@@ -77,7 +77,7 @@ The request code can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The consumer is adding a counter to the query. PERFLIB calls the callback with this request code for each counter  being added to the query. The  <i>Buffer</i> parameter contains a <a href="https://msdn.microsoft.com/a18d2546-642b-4e83-be05-4b4aae1f2d2c">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being added.
+The consumer is adding a counter to the query. PERFLIB calls the callback with this request code for each counter  being added to the query. The  <i>Buffer</i> parameter contains a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identity">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being added.
 
 Providers can use this notification to start counting.
 
@@ -89,7 +89,7 @@ Providers can use this notification to start counting.
 </dl>
 </td>
 <td width="60%">
-The consumer is removing a counter from the query. PERFLIB calls the callback with this request code for each counter  being removed from the query. The  <i>Buffer</i> parameter contains a <a href="https://msdn.microsoft.com/a18d2546-642b-4e83-be05-4b4aae1f2d2c">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being removed.
+The consumer is removing a counter from the query. PERFLIB calls the callback with this request code for each counter  being removed from the query. The  <i>Buffer</i> parameter contains a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identity">PERF_COUNTER_IDENTITY</a> structure that identifies the counter being removed.
 
 Providers can use this notification to stop counting.
 
@@ -158,9 +158,9 @@ If the callback fails, PERFLIB will return the error code to the consumer if the
 
 
 
-If the <b>callback</b> attribute of the <a href="https://msdn.microsoft.com/10112f43-f483-4ecb-aa7d-60efaad149c6">provider</a> element is "custom" or you used the <b>-NotificationCallback</b> argument when calling <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a>, you must implement this function. You pass the name of your callback function to <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a>.
+If the <b>callback</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element is "custom" or you used the <b>-NotificationCallback</b> argument when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this function. You pass the name of your callback function to <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
 
-<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>. The <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a> tool also generates a skeleton of this callback for you that includes all the request codes. You then add code to the request codes that you want to support and remove the others.
+<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>. The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool also generates a skeleton of this callback for you that includes all the request codes. You then add code to the request codes that you want to support and remove the others.
 
 The callback must complete within one second. If the callback does not complete in time, PERFLIB continues with the consumer's request and ignores the callback's return value when it completes.
 
@@ -168,7 +168,7 @@ The callback must complete within one second. If the callback does not complete 
 #### Examples
 
 The following example shows a simple implementation of a 
-<a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function.
 
 
 ```cpp

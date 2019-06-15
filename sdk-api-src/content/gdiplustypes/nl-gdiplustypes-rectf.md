@@ -63,7 +63,7 @@ A <b>RectF</b> object stores the upper-left corner, width, and height of a recta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534958(v=VS.85).aspx">RectF::RectF()</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inconstpointf__inconstsizef_)">RectF::RectF()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>RectF</b> object and initializes the 
@@ -74,12 +74,12 @@ Creates a <b>RectF</b> object and initializes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534957(v=VS.85).aspx">RectF::RectF(PointF&,SizeF&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inconstpointf__inconstsizef_)">RectF::RectF(PointF&,SizeF&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <b>RectF</b> object by using a <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> object to initialize the 
+Creates a <b>RectF</b> object by using a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object to initialize the 
 			<b>X</b> and 
-			<b>Y</b> data members and uses a <a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object to initialize the 
+			<b>Y</b> data members and uses a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object to initialize the 
 			<b>Width</b> and 
 			<b>Height</b> data members of this rectangle.
 
@@ -87,7 +87,7 @@ Creates a <b>RectF</b> object by using a <a href="https://msdn.microsoft.com/en-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534959(v=VS.85).aspx">RectF::RectF(REAL,REAL,REAL,REAL)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-rectf(inreal_inreal_inreal_inreal)">RectF::RectF(REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>RectF</b> object by using four integers to initialize the 
@@ -107,10 +107,10 @@ Creates a <b>RectF</b> object by using four integers to initialize the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534932(v=VS.85).aspx">RectF::Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-clone">RectF::Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534932(v=VS.85).aspx">RectF::Clone</a> method creates a new 
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-clone">RectF::Clone</a> method creates a new 
 			<b>RectF</b> object and initializes it with the contents of this 
 			<b>RectF</b> object.
 
@@ -118,109 +118,109 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534932(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534955(v=VS.85).aspx">RectF::Contains(PointF&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_)">RectF::Contains(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534955(v=VS.85).aspx">RectF::Contains</a> method determines whether a point is inside this rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstpointf_)">RectF::Contains</a> method determines whether a point is inside this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534956(v=VS.85).aspx">RectF::Contains(REAL,REAL)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534956(v=vs.85)">RectF::Contains(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534956(v=VS.85).aspx">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
+The <a href="https://docs.microsoft.com/previous-versions//ms534956(v=vs.85)">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534954(v=VS.85).aspx">RectF::Contains(RectF&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstrectf_)">RectF::Contains(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534954(v=VS.85).aspx">RectF::Contains</a> method determines whether another rectangle is inside this rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-contains(inconstrectf_)">RectF::Contains</a> method determines whether another rectangle is inside this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534933(v=VS.85).aspx">RectF::Equals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-equals">RectF::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534933(v=VS.85).aspx">RectF::Equals</a> method determines whether two rectangles are the same. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-equals">RectF::Equals</a> method determines whether two rectangles are the same. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534934(v=VS.85).aspx">RectF::GetBottom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbottom">RectF::GetBottom</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534934(v=VS.85).aspx">RectF::GetBottom</a> method gets the y-coordinate of the bottom edge of the rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbottom">RectF::GetBottom</a> method gets the y-coordinate of the bottom edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534935(v=VS.85).aspx">RectF::GetBounds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbounds">RectF::GetBounds</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534935(v=VS.85).aspx">RectF::GetBounds</a> method makes a copy of this rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getbounds">RectF::GetBounds</a> method makes a copy of this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534936(v=VS.85).aspx">RectF::GetLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getleft">RectF::GetLeft</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534936(v=VS.85).aspx">RectF::GetLeft</a> method gets the x-coordinate of the left edge of the rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getleft">RectF::GetLeft</a> method gets the x-coordinate of the left edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534937(v=VS.85).aspx">RectF::GetLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getlocation">RectF::GetLocation</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534937(v=VS.85).aspx">RectF::GetLocation</a> method gets the coordinates of the upper-left corner of this rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getlocation">RectF::GetLocation</a> method gets the coordinates of the upper-left corner of this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534938(v=VS.85).aspx">RectF::GetRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getright">RectF::GetRight</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534938(v=VS.85).aspx">RectF::GetRight</a> method gets the x-coordinate of the right edge of the rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getright">RectF::GetRight</a> method gets the x-coordinate of the right edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534939(v=VS.85).aspx">RectF::GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getsize">RectF::GetSize</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534939(v=VS.85).aspx">RectF::GetSize</a> method gets the width and height of this rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-getsize">RectF::GetSize</a> method gets the width and height of this rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534940(v=VS.85).aspx">RectF::GetTop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-gettop">RectF::GetTop</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534940(v=VS.85).aspx">RectF::GetTop</a> method gets the y-coordinate of the top edge of the rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-gettop">RectF::GetTop</a> method gets the y-coordinate of the top edge of the rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">RectF::Inflate(PointF&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)">RectF::Inflate(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">RectF::Inflate</a> method expands the rectangle by the value of 
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-inflate(inconstpointf_)">RectF::Inflate</a> method expands the rectangle by the value of 
 			<i>point</i>.<b>X</b> on the left and right edges, and by the value of 
 			<i>point</i>.<b>Y</b> on the top and bottom edges.
 
@@ -228,10 +228,10 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534952(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">RectF::Inflate(REAL,REAL)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534953(v=vs.85)">RectF::Inflate(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">RectF::Inflate</a> method expands the rectangle by 
+The <a href="https://docs.microsoft.com/previous-versions//ms534953(v=vs.85)">RectF::Inflate</a> method expands the rectangle by 
 			<i>dx</i> on the left and right edges, and by 
 			<i>dy</i> on the top and bottom edges.
 
@@ -239,47 +239,47 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534953(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534950(v=VS.85).aspx">RectF::Intersect(RectF&)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534950(v=vs.85)">RectF::Intersect(RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534950(v=VS.85).aspx">RectF::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
+The <a href="https://docs.microsoft.com/previous-versions//ms534950(v=vs.85)">RectF::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534951(v=VS.85).aspx">RectF::Intersect(RectF&,RectF&,RectF&)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(outrectf__inconstrectf__inconstrectf_)">RectF::Intersect(RectF&,RectF&,RectF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534951(v=VS.85).aspx">RectF::Intersect</a> method determines the intersection of two rectangles and stores the result in a 
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersect(outrectf__inconstrectf__inconstrectf_)">RectF::Intersect</a> method determines the intersection of two rectangles and stores the result in a 
 			<b>RectF</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534941(v=VS.85).aspx">RectF::IntersectsWith</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersectswith">RectF::IntersectsWith</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534941(v=VS.85).aspx">RectF::IntersectsWith</a> method determines whether this rectangle intersects another rectangle.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-intersectswith">RectF::IntersectsWith</a> method determines whether this rectangle intersects another rectangle.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534942(v=VS.85).aspx">RectF::IsEmptyArea</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-isemptyarea">RectF::IsEmptyArea</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534942(v=VS.85).aspx">RectF::IsEmptyArea</a> method determines whether this rectangle is empty.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-isemptyarea">RectF::IsEmptyArea</a> method determines whether this rectangle is empty.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">RectF::Offset(PointF&)</a>
+<a href="https://docs.microsoft.com/previous-versions//ms534948(v=vs.85)">RectF::Offset(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">RectF::Offset</a> method moves this rectangle horizontally a distance of 
+The <a href="https://docs.microsoft.com/previous-versions//ms534948(v=vs.85)">RectF::Offset</a> method moves this rectangle horizontally a distance of 
 			<i>point</i>.<b>X</b> and vertically a distance of 
 			<i>point</i>.<b>Y</b>.
 
@@ -287,10 +287,10 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534948(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">RectF::Offset(REAL,REAL)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inreal_inreal)">RectF::Offset(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">RectF::Offset</a> method moves the rectangle by 
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-offset(inreal_inreal)">RectF::Offset</a> method moves the rectangle by 
 			<i>dx</i> horizontally and by 
 			<i>dx</i> vertically.
 
@@ -298,10 +298,10 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534949(v=VS.85).aspx">Re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534947(v=VS.85).aspx">RectF::Union</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-union">RectF::Union</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534947(v=VS.85).aspx">RectF::Union</a> method determines the union of two rectangles and stores the result in a 
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rectf-union">RectF::Union</a> method determines the union of two rectangles and stores the result in a 
 			<b>RectF</b> object. 
 
 </td>

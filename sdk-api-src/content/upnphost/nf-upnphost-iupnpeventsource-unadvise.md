@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Unadvise</b> method is invoked by the device host to stop receiving events. The device host passes in the same pointer that it did when it invoked the 
-<a href="https://msdn.microsoft.com/ec68f4ff-7549-4d48-b347-0320bc55329c">IUPnPEventSource::Advise</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-advise">IUPnPEventSource::Advise</a> method.
 
 After this method is invoked, the hosted service releases the reference to the event sink that it held.
 
@@ -64,8 +64,8 @@ After this method is invoked, the hosted service releases the reference to the e
 ### -param pesSubscriber [in]
 
 Pointer to the device host's 
-<a href="https://msdn.microsoft.com/431423c9-2873-422d-a28c-c4ef23109114">IUPnPEventSink</a> interface. This must be the same pointer that was passed when 
-<a href="https://msdn.microsoft.com/ec68f4ff-7549-4d48-b347-0320bc55329c">IUPnPEventSource::Advise</a> was invoked.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a> interface. This must be the same pointer that was passed when 
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-advise">IUPnPEventSource::Advise</a> was invoked.
 
 
 ## -returns
@@ -82,11 +82,11 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 
 
 
-<a href="https://msdn.microsoft.com/f20dfcaa-b8fe-43c8-b353-067dad4cf2b4">IUPnPEventSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsource">IUPnPEventSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec68f4ff-7549-4d48-b347-0320bc55329c">IUPnPEventSource::Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-advise">IUPnPEventSource::Advise</a>
  
 
  

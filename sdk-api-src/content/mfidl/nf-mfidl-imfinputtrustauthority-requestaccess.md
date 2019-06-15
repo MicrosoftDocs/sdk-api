@@ -63,12 +63,12 @@ Requests permission to perform a specified action on the stream.
 
 ### -param Action [in]
 
-The requested action, specified as a member of the <a href="https://msdn.microsoft.com/74cee983-e084-458b-b615-5447cca9abbc">MFPOLICYMANAGER_ACTION</a> enumeration.
+The requested action, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
 
 
 ### -param ppContentEnablerActivate [out]
 
-Receives the value <b>NULL</b> or a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. The <b>IMFActivate</b> interface is used to create a content enabler object. The caller must release the interface. For more information, see Remarks.
+Receives the value <b>NULL</b> or a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. The <b>IMFActivate</b> interface is used to create a content enabler object. The caller must release the interface. For more information, see Remarks.
 
 
 ## -returns
@@ -127,19 +127,19 @@ The user must obtain a license.
 
 This method verifies whether the user has permission to perform a specified action on the stream. The ITA does any work needed to verify the user's right to perform the action, such as checking licenses.
 
-To verify the user's rights, the ITA might need to perform additional steps that require interaction with the user or consent from the user. For example, it might need to acquire a new license or individualize a DRM component. In that case, the ITA creates an activation object for a content enabler and returns the activation object's <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface in the <i>ppContentEnablerActivate</i> parameter. The activation object is responsible for creating a content enabler that exposes the <a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a> interface. The content enabler is used as follows:
+To verify the user's rights, the ITA might need to perform additional steps that require interaction with the user or consent from the user. For example, it might need to acquire a new license or individualize a DRM component. In that case, the ITA creates an activation object for a content enabler and returns the activation object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface in the <i>ppContentEnablerActivate</i> parameter. The activation object is responsible for creating a content enabler that exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> interface. The content enabler is used as follows:
 
 <ol>
 <li>
-The Media Session returns the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointer to the application.
+The Media Session returns the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer to the application.
 
 </li>
 <li>
-The application calls <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a> to activate the content enabler.
+The application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> to activate the content enabler.
 
 </li>
 <li>
-The application calls <a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a> methods to perform whatever actions are needed, such as individualization or obtaining a license. The content enabler object must encapsulate this functionality through the <b>IMFContentEnabler</b> interface.
+The application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a> methods to perform whatever actions are needed, such as individualization or obtaining a license. The content enabler object must encapsulate this functionality through the <b>IMFContentEnabler</b> interface.
 
 </li>
 <li>
@@ -159,11 +159,11 @@ If the user does not have permission, the method returns a failure code and sets
 
 </li>
 <li>
-If the ITA must perform additional steps that require interaction with the user, the method returns a failure code and returns the content enabler's <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointer in <i>ppContentEnablerActivate</i>.
+If the ITA must perform additional steps that require interaction with the user, the method returns a failure code and returns the content enabler's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer in <i>ppContentEnablerActivate</i>.
 
 </li>
 </ul>
-The Media Session will not allow the action unless this method returns S_OK. However, a return value of S_OK does not guarantee that the action will be performed, because some other failure might occur after this method is called. When the action is definitely about to happen, the Media Session calls <a href="https://msdn.microsoft.com/94e447af-9311-4a2c-9ec5-be371684f79d">IMFInputTrustAuthority::BindAccess</a>.
+The Media Session will not allow the action unless this method returns S_OK. However, a return value of S_OK does not guarantee that the action will be performed, because some other failure might occur after this method is called. When the action is definitely about to happen, the Media Session calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-bindaccess">IMFInputTrustAuthority::BindAccess</a>.
 
 A stream can go to multiple outputs, so this method might be called multiple times with different actions, once for every output.
 
@@ -175,7 +175,7 @@ A stream can go to multiple outputs, so this method might be called multiple tim
 
 
 
-<a href="https://msdn.microsoft.com/637e0225-6fd8-4b83-b4fb-119e7a5ef5d2">IMFInputTrustAuthority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
  
 
  

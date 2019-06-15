@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/B0315585-A41C-423C-A059-14C2F04F6652">ITaskSettings3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings3">ITaskSettings3</a>
  
 
  

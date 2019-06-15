@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a new item in a tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773733(v=VS.85).aspx">TVM_INSERTITEM</a> message explicitly. 
+Inserts a new item in a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-insertitem">TVM_INSERTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Inserts a new item in a tree-view control. You can use this macro or send the <a
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -68,7 +68,7 @@ Handle to the tree-view control.
 
 Type: <b>LPTVINSERTSTRUCT</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773452(v=VS.85).aspx">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvinsertstructa">TVINSERTSTRUCT</a> structure that specifies the attributes of the tree-view item. 
 
 
 ## -see-also
@@ -76,7 +76,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773452(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773515(v=VS.85).aspx">TVN_ENDLABELEDIT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-endlabeledit">TVN_ENDLABELEDIT</a>
  
 
  

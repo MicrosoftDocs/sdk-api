@@ -66,7 +66,7 @@ A pointer to a null-terminated string that contains the name of the attribute.
 
 ### -field type
 
-Type: <b><a href="https://msdn.microsoft.com/9064549e-4f30-42f4-a7b4-6072f9c30f60">ATTRIBUTE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-tagattribute_type">ATTRIBUTE_TYPE</a></b>
 
 The type of helper attribute.
 
@@ -150,21 +150,21 @@ A GUID structure. Used when <b>type</b> is <b>AT_GUID</b>.
 
 ### -field LifeTime
 
-Type: <b><a href="https://msdn.microsoft.com/31f038fb-08c1-4057-af61-f3912cfcd4f0">LIFE_TIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taglife_time">LIFE_TIME</a></b>
 
-A <a href="https://msdn.microsoft.com/31f038fb-08c1-4057-af61-f3912cfcd4f0">LIFE_TIME</a> structure. Used when <b>type</b> is <b>AT_LIFE_TIME</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-taglife_time">LIFE_TIME</a> structure. Used when <b>type</b> is <b>AT_LIFE_TIME</b>.
 
 
 ### -field Address
 
-Type: <b><a href="https://msdn.microsoft.com/31da9541-e7d0-4cbc-9d9d-3bcf71acb975">DIAG_SOCKADDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagsock_addr">DIAG_SOCKADDR</a></b>
 
 An IPv4 or IPv6 address. Used when <b>type</b> is <b>AT_SOCKADDR</b>.
 
 
 ### -field OctetString
 
-Type: <b><a href="https://msdn.microsoft.com/6133c69d-45ad-4080-b3e1-f42cbdc6cdf7">OCTET_STRING</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagoctet_string">OCTET_STRING</a></b>
 
 A byte array for undefined types. Used when <b>type</b> is <b>AT_OCTET_STRING</b>.
 
@@ -174,15 +174,15 @@ A byte array for undefined types. Used when <b>type</b> is <b>AT_OCTET_STRING</b
 
 
 
-<a href="https://msdn.microsoft.com/9064549e-4f30-42f4-a7b4-6072f9c30f60">ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ne-ndattrib-tagattribute_type">ATTRIBUTE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff49be29-4cd8-4730-929f-c66a7325704f">CopyHelperAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/NDF/copyhelperattribute">CopyHelperAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/d973bdb9-c1d1-4cea-bcc6-98671349413f">FreeHelperAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/NDF/freehelperattributes">FreeHelperAttributes</a>
  
 
  

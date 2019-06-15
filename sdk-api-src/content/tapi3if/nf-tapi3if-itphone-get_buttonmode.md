@@ -53,7 +53,7 @@ The
 <b>get_ButtonMode</b> method retrieves the button mode associated with a particular button.
 
 The application must call 
-<a href="https://msdn.microsoft.com/d9efe2f7-3628-4e1f-b554-a6889d82a973">ITPhone::Open</a> before invoking this method; otherwise, the invocation fails.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before invoking this method; otherwise, the invocation fails.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Button identifier. For more information, see the following Remarks section.
 ### -param pButtonMode [out]
 
 The 
-<a href="https://msdn.microsoft.com/ae410224-bb01-4d56-95e8-1c2ead544cf1">PHONE_BUTTON_MODE</a> descriptor for the button's mode.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_mode">PHONE_BUTTON_MODE</a> descriptor for the button's mode.
 
 
 ## -returns
@@ -86,17 +86,17 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 See the description of the 
-<a href="https://msdn.microsoft.com/ae410224-bb01-4d56-95e8-1c2ead544cf1">PHONE_BUTTON_MODE</a> enum and the TAPI 2.<i>x</i> documentation for more information about button modes.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_mode">PHONE_BUTTON_MODE</a> enum and the TAPI 2.<i>x</i> documentation for more information about button modes.
 
 The two following 
-<a href="https://msdn.microsoft.com/ae410224-bb01-4d56-95e8-1c2ead544cf1">PHONE_BUTTON_MODE</a> values are of particular interest:
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_mode">PHONE_BUTTON_MODE</a> values are of particular interest:
 
 <ol>
 <li>If the 
-<a href="https://msdn.microsoft.com/ae410224-bb01-4d56-95e8-1c2ead544cf1">PHONE_BUTTON_MODE</a> value is PBM_FEATURE, the application should call the 
-<a href="https://msdn.microsoft.com/a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3">get_ButtonFunction</a> to retrieve the specific meaning of the button.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_mode">PHONE_BUTTON_MODE</a> value is PBM_FEATURE, the application should call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonfunction">get_ButtonFunction</a> to retrieve the specific meaning of the button.</li>
 <li>If the 
-<a href="https://msdn.microsoft.com/ae410224-bb01-4d56-95e8-1c2ead544cf1">PHONE_BUTTON_MODE</a> value is PBM_KEYPAD, the button is a keypad button whose value is indicated by the value of the <i>lButtonID</i> parameter. For example, if <i>lButtonID</i> == 10 then the button is the * (star) key on the keypad.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_button_mode">PHONE_BUTTON_MODE</a> value is PBM_KEYPAD, the button is a keypad button whose value is indicated by the value of the <i>lButtonID</i> parameter. For example, if <i>lButtonID</i> == 10 then the button is the * (star) key on the keypad.</li>
 </ol>
 
 
@@ -106,15 +106,15 @@ The two following
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://msdn.microsoft.com/a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3">get_ButtonFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttonfunction">get_ButtonFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2287c86-5884-4890-956c-fcc26c426cd3">put_ButtonMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttonmode">put_ButtonMode</a>
  
 
  

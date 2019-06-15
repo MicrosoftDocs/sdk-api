@@ -62,7 +62,7 @@ The
 
 
 <div class="alert"><b>Note</b>  The functions detailed in 
-<a href="https://msdn.microsoft.com/f55219b9-1518-4b49-a0da-6a3fa025cca3">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
 
@@ -96,7 +96,7 @@ A pointer to a variable that, on input, specifies the size, in bytes, of the buf
 If the function succeeds, the return value is not SOCKET_ERROR (–1).
 
 If the function fails, the return value is SOCKET_ERROR (–1). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -106,15 +106,15 @@ If the function fails, the return value is SOCKET_ERROR (–1). To get extended 
 
 
 
-<a href="https://msdn.microsoft.com/177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e">GetTypeByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-gettypebynamea">GetTypeByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
  
 
  

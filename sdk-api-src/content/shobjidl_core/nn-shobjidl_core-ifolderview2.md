@@ -54,7 +54,7 @@ Exposes methods that retrieve information about a folder's display options, sele
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderView2</b> interface inherits from <a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a>. <b>IFolderView2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderView2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>. <b>IFolderView2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFolderView2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/194804bc-c446-491b-9452-996132a65fcf">DoRename</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-dorename">DoRename</a>
 </td>
 <td align="left" width="63%">
 Starts a rename operation on the current selection.
@@ -78,7 +78,7 @@ Starts a rename operation on the current selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/334d93c7-79a5-46c0-9042-400504aa2706">GetCurrentFolderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getcurrentfolderflags">GetCurrentFolderFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the currently applied folder flags.
@@ -87,7 +87,7 @@ Gets the currently applied folder flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fabf321-34af-4a5e-b2c0-9ed344e1c782">GetGroupBy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getgroupby">GetGroupBy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property and sort order used for grouping items in the folder display.
@@ -96,7 +96,7 @@ Retrieves the property and sort order used for grouping items in the folder disp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f377b9ec-6421-454f-b2d0-f3d1b537e2c3">GetGroupSubsetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getgroupsubsetcount">GetGroupSubsetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of visible rows displayed for a group's subset.
@@ -105,7 +105,7 @@ Gets the count of visible rows displayed for a group's subset.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/557ff412-2da9-4723-9f84-802e084ebaca">GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves an object that represents a specified item.
@@ -114,7 +114,7 @@ Retrieves an object that represents a specified item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fca9fd45-05ce-4300-aecf-a2843614a11d">GetSelectedItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselecteditem">GetSelectedItem</a>
 </td>
 <td align="left" width="63%">
 Locates the currently selected item at or after a given index.
@@ -123,7 +123,7 @@ Locates the currently selected item at or after a given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8ff0c8f-9678-455b-b7ec-9b651df769bc">GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Gets the current selection as an IShellItemArray.
@@ -132,7 +132,7 @@ Gets the current selection as an IShellItemArray.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc446188-c7f8-4158-a5b4-631fb374e0c4">GetSelectionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselectionstate">GetSelectionState</a>
 </td>
 <td align="left" width="63%">
 Gets the selection state including check state.
@@ -141,7 +141,7 @@ Gets the selection state including check state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26590565-f992-4f14-bbbc-4099a1a3ac11">GetSortColumnCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getsortcolumncount">GetSortColumnCount</a>
 </td>
 <td align="left" width="63%">
 Gets the count of sort columns currently applied to the view.
@@ -150,7 +150,7 @@ Gets the count of sort columns currently applied to the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33d005bd-3ea0-42d0-ae87-417fb7c087d4">GetSortColumns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getsortcolumns">GetSortColumns</a>
 </td>
 <td align="left" width="63%">
 Gets the sort columns currently applied to the view.
@@ -159,7 +159,7 @@ Gets the sort columns currently applied to the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4696d55e-aad7-41f2-b2c0-47d4b507c70c">GetViewModeAndIconSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getviewmodeandiconsize">GetViewModeAndIconSize</a>
 </td>
 <td align="left" width="63%">
 Gets the current view mode and icon size applied to the view.
@@ -168,7 +168,7 @@ Gets the current view mode and icon size applied to the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26749aa8-9c5d-4b6b-b5af-bf52d4e8c8ce">GetViewProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getviewproperty">GetViewProperty</a>
 </td>
 <td align="left" width="63%">
 Gets a property value for a given property key from the view's cache.
@@ -179,7 +179,7 @@ Gets a property value for a given property key from the view's cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b196377-53c4-49a1-be35-39d34b1638e3">GetVisibleItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getvisibleitem">GetVisibleItem</a>
 </td>
 <td align="left" width="63%">
 Gets the next visible item in relation to a given index in the view.
@@ -188,7 +188,7 @@ Gets the next visible item in relation to a given index in the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/085a08f9-c6a2-417c-973a-d0df84d8c821">InvokeVerbOnSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-invokeverbonselection">InvokeVerbOnSelection</a>
 </td>
 <td align="left" width="63%">
 Invokes the given verb on the current selection.
@@ -197,7 +197,7 @@ Invokes the given verb on the current selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1687a162-f81c-422b-afc2-0b5b8b6951ad">IsMoveInSameFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-ismoveinsamefolder">IsMoveInSameFolder</a>
 </td>
 <td align="left" width="63%">
 Checks to see if this view sourced the current drag-and-drop or cut-and-paste operation (used by drop target objects).
@@ -206,7 +206,7 @@ Checks to see if this view sourced the current drag-and-drop or cut-and-paste op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94999ac7-c9dd-439e-8f63-eeb226763200">SetCurrentFolderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setcurrentfolderflags">SetCurrentFolderFlags</a>
 </td>
 <td align="left" width="63%">
 Sets and applies specified folder flags.
@@ -215,13 +215,13 @@ Sets and applies specified folder flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/efb2eb1a-47fa-45b2-8d8d-fc75bbe46c80">SetExtendedTileViewProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setextendedtileviewproperties">SetExtendedTileViewProperties</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d0761cb-7c81-48f7-994d-6dd61062d848">SetGroupBy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setgroupby">SetGroupBy</a>
 </td>
 <td align="left" width="63%">
 Groups the view by the given property key and direction.
@@ -230,7 +230,7 @@ Groups the view by the given property key and direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5aacc63a-d129-4539-a43f-f4dd74ab4fea">SetGroupSubsetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setgroupsubsetcount">SetGroupSubsetCount</a>
 </td>
 <td align="left" width="63%">
 Turns on group subsetting and sets the number of visible rows of items in each group.
@@ -239,7 +239,7 @@ Turns on group subsetting and sets the number of visible rows of items in each g
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/870a72e2-25fc-421f-bd46-961bf71981cc">SetRedraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setredraw">SetRedraw</a>
 </td>
 <td align="left" width="63%">
 Sets redraw on and off.
@@ -248,7 +248,7 @@ Sets redraw on and off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54dfac6b-8355-4064-9f54-4172975b8028">SetSortColumns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setsortcolumns">SetSortColumns</a>
 </td>
 <td align="left" width="63%">
 Sets and sorts the view by the given sort columns.  
@@ -257,7 +257,7 @@ Sets and sorts the view by the given sort columns.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72528831-ec5d-417e-94dd-7345b5fd7de6">SetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-settext">SetText</a>
 </td>
 <td align="left" width="63%">
 Sets the default text to be used when there are no items in the view.
@@ -266,7 +266,7 @@ Sets the default text to be used when there are no items in the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44abbbbb-8d4d-4a09-9c17-a2255467de44">SetTileViewProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-settileviewproperties">SetTileViewProperties</a>
 </td>
 <td align="left" width="63%">
 Set the list of tile properties for an item.
@@ -277,7 +277,7 @@ Set the list of tile properties for an item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52724e5d-074f-4715-9dca-50ed22d8519e">SetViewModeAndIconSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setviewmodeandiconsize">SetViewModeAndIconSize</a>
 </td>
 <td align="left" width="63%">
 Sets and applies the view mode and image size.
@@ -286,7 +286,7 @@ Sets and applies the view mode and image size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76d91df0-8c90-45dc-9637-910b0874e9fa">SetViewProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setviewproperty">SetViewProperty</a>
 </td>
 <td align="left" width="63%">
 Caches a property for an item in the view's property cache.
@@ -302,7 +302,7 @@ Caches a property for an item in the view's property cache.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> interface, from which it inherits.
 
 
 

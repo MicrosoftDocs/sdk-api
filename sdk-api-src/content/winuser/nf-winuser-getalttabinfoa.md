@@ -77,7 +77,7 @@ The index of the icon in the application-switching window. If the <i>pszItemText
 
 Type: <b>PALTTABINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms632601(v=VS.85).aspx">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagalttabinfo">ALTTABINFO</a> structure to receive the status information. Note that you must set the <b>csSize</b> member to <code>sizeof(ALTTABINFO)</code> before calling this function. 
 
 
 ### -param pszItemText [out, optional]
@@ -103,7 +103,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -122,7 +122,7 @@ The application-switching window enables you to switch to the most recently used
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632601(v=VS.85).aspx">ALTTABINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagalttabinfo">ALTTABINFO</a>
 
 
 
@@ -134,7 +134,7 @@ The application-switching window enables you to switch to the most recently used
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

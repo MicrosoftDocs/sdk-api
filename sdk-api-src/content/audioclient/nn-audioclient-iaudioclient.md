@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 
-The <b>IAudioClient</b> interface enables a client to create and initialize an audio stream between an audio application and the audio engine (for a shared-mode stream) or the hardware buffer of an <a href="https://msdn.microsoft.com/773714fb-3b00-4f03-988f-05c5835f87cf">audio endpoint device</a> (for an exclusive-mode stream). A client obtains a reference to an <b>IAudioClient</b> interface for an audio endpoint device by following these steps:<ol>
-<li>By using one of the techniques described in <a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice Interface</a>, obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device.</li>
-<li>Call the <a href="https://msdn.microsoft.com/12e4a117-1fa3-49c8-949b-8973edf7e12e">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioClient.</li>
+The <b>IAudioClient</b> interface enables a client to create and initialize an audio stream between an audio application and the audio engine (for a shared-mode stream) or the hardware buffer of an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint device</a> (for an exclusive-mode stream). A client obtains a reference to an <b>IAudioClient</b> interface for an audio endpoint device by following these steps:<ol>
+<li>By using one of the techniques described in <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>, obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to REFIID IID_IAudioClient.</li>
 </ol>
 
 
@@ -62,13 +62,13 @@ For code examples that use the <b>IAudioClient</b> interface, see the following 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/00bfcfd1-6592-43e3-90ad-730c92aa4cd3">Rendering a Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1d9072dc-4f9b-4111-a747-5eb33ad3ae5b">Capturing a Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/capturing-a-stream">Capturing a Stream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/196cc6fe-91bf-46fa-acc9-38a7a4005875">Exclusive-Mode Streams</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/exclusive-mode-streams">Exclusive-Mode Streams</a>
 </li>
 </ul>
 
@@ -76,7 +76,7 @@ For code examples that use the <b>IAudioClient</b> interface, see the following 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -91,7 +91,7 @@ The <b>IAudioClient</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/562d2db6-ae14-47c9-8b8f-d4d90072b3dd">GetBufferSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getbuffersize">GetBufferSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size (maximum capacity) of the audio buffer associated with the endpoint.
@@ -100,7 +100,7 @@ Retrieves the size (maximum capacity) of the audio buffer associated with the en
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a2c9ddf-f668-41ff-85f0-34de593c0fe2">GetCurrentPadding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getcurrentpadding">GetCurrentPadding</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of frames of padding in the endpoint buffer.
@@ -109,7 +109,7 @@ Retrieves the number of frames of padding in the endpoint buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2f75fce-9eca-488d-b183-87d97d4e599a">GetDevicePeriod</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getdeviceperiod">GetDevicePeriod</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of the periodic interval separating successive processing passes by the audio engine on the data in the endpoint buffer.
@@ -118,7 +118,7 @@ Retrieves the length of the periodic interval separating successive processing p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63f3e593-3904-44f9-a912-78c6c98e7597">GetMixFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getmixformat">GetMixFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams.
@@ -127,7 +127,7 @@ Retrieves the stream format that the audio engine uses for its internal processi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/233d4471-037f-4df9-bef6-57f2544dedb5">GetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">GetService</a>
 </td>
 <td align="left" width="63%">
 Accesses additional services from the audio client object.
@@ -136,7 +136,7 @@ Accesses additional services from the audio client object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccc06e31-e56f-4910-882a-40b1ce0b43aa">GetStreamLatency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getstreamlatency">GetStreamLatency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum latency for the current stream and can be called any time after the stream has been initialized.
@@ -145,7 +145,7 @@ Retrieves the maximum latency for the current stream and can be called any time 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the audio stream.
@@ -154,7 +154,7 @@ Initializes the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92d1fc93-08e2-46d9-bd2f-ce1b2087d2d1">IsFormatSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IsFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the audio endpoint device supports a particular stream format.
@@ -163,7 +163,7 @@ Indicates whether the audio endpoint device supports a particular stream format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1a4f673-ecbf-4855-b8bb-c0f0807dedd4">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the audio stream.
@@ -172,7 +172,7 @@ Resets the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bca0c00-5157-43bf-98bd-3bfb23abe860">SetEventHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-seteventhandle">SetEventHandle</a>
 </td>
 <td align="left" width="63%">
 Sets the event handle that the audio engine will signal each time a buffer becomes ready to be processed by the client.
@@ -181,7 +181,7 @@ Sets the event handle that the audio engine will signal each time a buffer becom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/706f9833-7f06-4bdc-96d5-6872f6effcb9">Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the audio stream.
@@ -190,7 +190,7 @@ Starts the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5824aa9-0b91-4bee-9c0c-26e12a6b96b5">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the audio stream.
@@ -214,15 +214,15 @@ Stops the audio stream.
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/12e4a117-1fa3-49c8-949b-8973edf7e12e">IMMDevice::Activate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>
 
 
 
-<a href="https://msdn.microsoft.com/452b9725-b0b9-4888-bbb5-a23e0067e840">WASAPI</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
  
 
  

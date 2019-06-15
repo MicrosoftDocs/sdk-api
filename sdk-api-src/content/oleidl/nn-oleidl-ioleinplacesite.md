@@ -56,7 +56,7 @@ This interface provides methods that manage in-place objects. With <b>IOleInPlac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceSite</b> interface inherits from <a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>. <b>IOleInPlaceSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleInPlaceSite</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>. <b>IOleInPlaceSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IOleInPlaceSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac960359-7e02-43b6-ac42-0000af15b1a4">CanInPlaceActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-caninplaceactivate">CanInPlaceActivate</a>
 </td>
 <td align="left" width="63%">
 Determines whether the container can activate the object in place.
@@ -80,7 +80,7 @@ Determines whether the container can activate the object in place.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59229720-cd3b-45d5-90c4-391acb124f4d">DeactivateAndUndo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-deactivateandundo">DeactivateAndUndo</a>
 </td>
 <td align="left" width="63%">
 Deactivates the object, ends the in-place session, and reverts to the container's saved undo state.
@@ -89,7 +89,7 @@ Deactivates the object, ends the in-place session, and reverts to the container'
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8fe69aa5-a526-4e95-920b-01f84ae4ca83">DiscardUndoState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-discardundostate">DiscardUndoState</a>
 </td>
 <td align="left" width="63%">
 Instructs the container to discard its undo state.
@@ -98,7 +98,7 @@ Instructs the container to discard its undo state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6cf62b3-5a64-49aa-b0bd-56744ecee313">GetWindowContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-getwindowcontext">GetWindowContext</a>
 </td>
 <td align="left" width="63%">
 Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
@@ -107,7 +107,7 @@ Enables an in-place object to retrieve the window interfaces that form the windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5744911-1ea6-4482-988d-8def16229f4c">OnInPlaceActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">OnInPlaceActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the container that one of its objects is being activated in place.
@@ -116,7 +116,7 @@ Notifies the container that one of its objects is being activated in place.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/070aac4e-94b6-4e23-b132-1dc833774c8b">OnInPlaceDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplacedeactivate">OnInPlaceDeactivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the container that it should reinstall its user interface and take focus, and whether the object has an undoable state.
@@ -125,7 +125,7 @@ Notifies the container that it should reinstall its user interface and take focu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a12d6a2a-6581-41e3-b33d-74af5d772e71">OnPosRectChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onposrectchange">OnPosRectChange</a>
 </td>
 <td align="left" width="63%">
 Notifies the container that the object extents have changed.
@@ -134,7 +134,7 @@ Notifies the container that the object extents have changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d863805c-58c1-4e35-84b5-72f01a4ba205">OnUIActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onuiactivate">OnUIActivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the container that the object is about to be activated in place and that the object is going to replace the container's main menu with an in-place composite menu.
@@ -143,7 +143,7 @@ Notifies the container that the object is about to be activated in place and tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/926c02b4-0bfa-4509-b5bc-4e5007e4db1a">OnUIDeactivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onuideactivate">OnUIDeactivate</a>
 </td>
 <td align="left" width="63%">
 Notifies the container to reinstall its user interface and take focus.
@@ -152,7 +152,7 @@ Notifies the container to reinstall its user interface and take focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a169c4c6-b600-4812-bf71-d7fcd7486ff1">Scroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-scroll">Scroll</a>
 </td>
 <td align="left" width="63%">
 Instructs the container to scroll the view of the object by the specified number of pixels.
@@ -167,11 +167,11 @@ Instructs the container to scroll the view of the object by the specified number
 
 
 
-<a href="https://msdn.microsoft.com/dafee149-926a-4d08-a43d-5847682db645">IOleClientSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d0efbae-4a1c-43b1-9021-8d89377f7282">IOleWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
  
 
  

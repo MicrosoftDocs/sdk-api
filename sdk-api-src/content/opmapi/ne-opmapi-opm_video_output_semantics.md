@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether the <a href="https://msdn.microsoft.com/8bf43577-3535-4f62-ac81-bb7e3c329403">IOPMVideoOutput</a> interface will use Output Protection Manager (OPM) semantics or Certified Output Protection Protocol (COPP) semantics.
+Specifies whether the <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a> interface will use Output Protection Manager (OPM) semantics or Certified Output Protection Protocol (COPP) semantics.
 
 
 ## -enum-fields
@@ -77,15 +77,15 @@ The interface will use OPM semantics.
 
 
 
-<a href="https://msdn.microsoft.com/e72e0a5e-476d-41f0-9139-54c4c488053f">OPM Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-enumerations">OPM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/c034ac81-43d4-482a-9dad-234d33a15046">OPMGetVideoOutputsFromHMONITOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor">OPMGetVideoOutputsFromHMONITOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b287058-9e06-4c40-84f4-506aefce5b8a">OPMGetVideoOutputsFromIDirect3DDevice9Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object">OPMGetVideoOutputsFromIDirect3DDevice9Object</a>
  
 
  

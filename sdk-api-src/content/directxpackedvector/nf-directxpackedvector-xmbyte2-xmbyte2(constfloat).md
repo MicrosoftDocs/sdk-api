@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a> from a two-element <code>float</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a> from a two-element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMBYTE2** from a two-element <code>float</code> array argument.
 
@@ -75,6 +75,6 @@ instance.y = (int8_t)min( max( pArray[1] -127.0 ), 127.0 );
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437840(v=VS.85).aspx">XMBYTE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449492(v=VS.85).aspx">XMBYTE2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>

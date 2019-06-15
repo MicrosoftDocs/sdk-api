@@ -59,7 +59,7 @@ The <b>EngSetEvent</b> function sets the specified event object to the signaled 
 
 ### -param pEvent [in]
 
-Pointer to the event object that is to be set to the signaled state. This event object was returned by a previous call to <a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a> or <a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>.
+Pointer to the event object that is to be set to the signaled state. This event object was returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
 
 
 ## -returns
@@ -85,15 +85,15 @@ Every event object is in either the signaled state or the nonsignaled state. Cal
 
 
 
-<a href="https://msdn.microsoft.com/0fe4c840-ba85-492c-ac3d-b7c8639d1210">EngCreateEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/a48f2367-49da-4d5c-87e5-b5c67e2311eb">EngMapEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2a1c7ad-1e56-45f7-83de-49ebc0d831f9">EngWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwaitforsingleobject">EngWaitForSingleObject</a>
  
 
  

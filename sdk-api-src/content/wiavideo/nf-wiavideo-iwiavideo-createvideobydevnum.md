@@ -82,7 +82,7 @@ Specifies whether the video display is stretched to fit the parent window. Set t
 
 Type: <b>BOOL</b>
 
-Specifies whether the streaming video begins playback as soon as this method returns. Set this parameter to <b>TRUE</b> to cause immediate playback; set it to <b>FALSE</b> to require a call to <a href="https://msdn.microsoft.com/en-us/library/ms629900(v=VS.85).aspx">IWiaVideo::Play</a> before video playback begins.
+Specifies whether the streaming video begins playback as soon as this method returns. Set this parameter to <b>TRUE</b> to cause immediate playback; set it to <b>FALSE</b> to require a call to <a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-play">IWiaVideo::Play</a> before video playback begins.
 
 
 ## -returns

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760997(v=VS.85).aspx">MCM_SETCOLOR</a> message explicitly. 
+Sets the color for a given portion of a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setcolor">MCM_SETCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Sets the color for a given portion of a month calendar control. You can use this
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param iColor
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Value of type <b>int</b> specifying which month calendar color to set. This value can be one of the following: 
 
@@ -141,7 +141,7 @@ Set the color used to display header day and trailing day text. Header and trail
 
 ### -param clr
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 <b>COLORREF</b> value that represents the color that will be set for the specified area of the month calendar. 
 

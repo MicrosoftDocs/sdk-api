@@ -79,9 +79,9 @@ This method can return one of these values.
 
 
 MMC calls the snap-in's <b>ISnapinHelp2::GetLinkedTopics</b> method only if the snap-in returned <b>S_OK</b> from the 
-<a href="https://msdn.microsoft.com/a7157e34-6f38-4589-b85e-8aca2bcd6ee1">ISnapinHelp2::GetHelpTopic</a> method call.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a> method call.
 
-Allocate the <i>lpCompiledHelpFiles</i> string with the COM API function <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it
+Allocate the <i>lpCompiledHelpFiles</i> string with the COM API function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it
 
 
 
@@ -91,15 +91,15 @@ Allocate the <i>lpCompiledHelpFiles</i> string with the COM API function <a href
 
 
 
-<a href="https://msdn.microsoft.com/87387cf5-ff5f-4816-8c96-97a7ae25df94">Adding HTML Help Support</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-html-help-support">Adding HTML Help Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e86a22b-03b0-4ca6-a4e2-96ea365dabdf">ISnapinHelp2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinhelp2">ISnapinHelp2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7157e34-6f38-4589-b85e-8aca2bcd6ee1">ISnapinHelp2::GetHelpTopic</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>
  
 
  

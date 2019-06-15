@@ -54,7 +54,7 @@ Exposes a method that provides an object's creator with the means to notify the 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INotifyReplica</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INotifyReplica</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INotifyReplica</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INotifyReplica</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>INotifyReplica</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6cbdb94-1804-4d6d-890e-d3fd596fec89">YouAreAReplica</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica">YouAreAReplica</a>
 </td>
 <td align="left" width="63%">
-Notifies an object that it may be subject to subsequent reconciliation through the <a href="https://msdn.microsoft.com/6dfeb68e-fd23-4812-8a3c-ab27fc00a4ad">IReconcilableObject::Reconcile</a> method.
+Notifies an object that it may be subject to subsequent reconciliation through the <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">IReconcilableObject::Reconcile</a> method.
 
 </td>
 </tr>

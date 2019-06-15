@@ -116,15 +116,15 @@ The AAUX and VAUX packs are defined in IEC 61834-4.
 
 
 
-<a href="https://msdn.microsoft.com/ae1ec184-afc3-4ec1-9b92-f53656293446">DV Data in the AVI File Format</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-data-in-the-avi-file-format">DV Data in the AVI File Format</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0723da5-4f53-4f83-a657-ae42815a784e">DVINFO Field Settings in the MSDV Driver</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvinfo-field-settings-in-the-msdv-driver">DVINFO Field Settings in the MSDV Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

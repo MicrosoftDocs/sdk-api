@@ -98,11 +98,11 @@ The device context is normalized by this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd564504(v=VS.85).aspx">TimedLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/ns-effects-tagtimedlevel">TimedLevel</a>
  
 
  

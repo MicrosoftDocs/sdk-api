@@ -86,7 +86,7 @@ Specifies a range of samplers.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/6F1C4D05-3E08-4353-B5B9-4C4270FC1403">D3D12_DESCRIPTOR_RANGE</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range">D3D12_DESCRIPTOR_RANGE</a> structure.
       
 
 
@@ -97,7 +97,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/6F1C4D05-3E08-4353-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

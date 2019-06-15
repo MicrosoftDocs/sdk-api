@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>NETCON_PROPERTIES</b> structure stores values that describe the properties of a network connection.
@@ -78,19 +78,19 @@ Name of the device associated with the connection.
 ### -field Status
 
 
-<a href="https://msdn.microsoft.com/feb0aa60-b873-4536-8ec2-2dce4d355fdb">Current status</a> of the connection.
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">Current status</a> of the connection.
 
 
 ### -field MediaType
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366201(v=VS.85).aspx">Media type</a> associated with this connection.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">Media type</a> associated with this connection.
 
 
 ### -field dwCharacter
 
 
-<a href="https://msdn.microsoft.com/fc64c840-7f88-4d81-910b-3cf21dce70fa">Characteristics</a> for this connection.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_characteristic_flags">Characteristics</a> for this connection.
 
 
 ### -field clsidThisObject
@@ -108,29 +108,29 @@ Class identifier for the user-interface object.
 
 
 
-<a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall
 		  Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/483d7cd5-5db6-4af3-964b-3f7cd2e4f8a8">Internet Connection Sharing and Internet Connection Firewall
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-structures">Internet Connection Sharing and Internet Connection Firewall
 		  Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc64c840-7f88-4d81-910b-3cf21dce70fa">NETCON_CHARACTERISTIC_FLAGS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_characteristic_flags">NETCON_CHARACTERISTIC_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9236371c-0e3f-43ba-a02f-0770768008ae">NETCON_MEDIATYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/ne-netcon-tagnetcon_mediatype">NETCON_MEDIATYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/feb0aa60-b873-4536-8ec2-2dce4d355fdb">NETCON_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>
  
 
  

@@ -55,7 +55,7 @@ Supports connection points for connectable objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectionPoint</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IConnectionPoint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectionPoint</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConnectionPoint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IConnectionPoint</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11257f24-096c-4240-8fac-4e42a6161d66">Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">Advise</a>
 </td>
 <td align="left" width="63%">
 Establishes a connection between a connection point object and a client's sink.
@@ -79,7 +79,7 @@ Establishes a connection between a connection point object and a client's sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/424aab99-990e-4b45-9b58-ac22b2cee87c">EnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-enumconnections">EnumConnections</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator object to iterate through the current connections for this connection point.
@@ -88,7 +88,7 @@ Creates an enumerator object to iterate through the current connections for this
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d97bda43-0d4f-4ae2-b3d8-2c47d25de01a">GetConnectionInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-getconnectioninterface">GetConnectionInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves the IID of the outgoing interface managed by this connection point.
@@ -97,16 +97,16 @@ Retrieves the IID of the outgoing interface managed by this connection point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12c0c777-27ce-4e6d-8e9a-f6333e4112bf">GetConnectionPointContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-getconnectionpointcontainer">GetConnectionPointContainer</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/5e2be055-7baa-4c42-bd20-b338da296ab0">IConnectionPointContainer</a> interface pointer for the parent connectable object.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a> interface pointer for the parent connectable object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71641bad-2fd1-4d94-a6d0-116f5687a95b">Unadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Terminates an advisory connection previously established between a connection point object and a client's sink.
@@ -142,15 +142,15 @@ Connectable objects support the following features:
 
 
 
-<a href="https://msdn.microsoft.com/5e2be055-7baa-4c42-bd20-b338da296ab0">IConnectionPointContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/893090f1-a0b4-46f1-a5d0-1da704ca7aa9">IEnumConnectionPoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a>
 
 
 
-<a href="https://msdn.microsoft.com/464966c1-e4e9-4b58-9e41-48de408f572f">IEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[The  <b>WINTRUST_DATA</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>WINTRUST_DATA</b> structure is used when calling 
-<a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> to pass necessary information into the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust providers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to pass necessary information into the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust providers</a>.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ A pointer to a data buffer used to pass policy-specific data to a policy provide
 
 ### -field pSIPClientData
 
-A pointer to a data buffer used to pass <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP)-specific data to a SIP provider. This member can be <b>NULL</b>.
+A pointer to a data buffer used to pass <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP)-specific data to a SIP provider. This member can be <b>NULL</b>.
 
 
 ### -field dwUIChoice
@@ -148,7 +148,7 @@ Certificate revocation check options. This member can be set to add revocation c
 </dl>
 </td>
 <td width="60%">
-No additional revocation checking will be done when the <b>WTD_REVOKE_NONE</b> flag is used in conjunction with the <b>HTTPSPROV_ACTION</b> value set in the <i>pgActionID</i> parameter of the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function. To ensure the <b>WinVerifyTrust</b> function does not attempt any network retrieval when verifying code signatures, <b>WTD_CACHE_ONLY_URL_RETRIEVAL</b> must be set in the <i>dwProvFlags</i> parameter.
+No additional revocation checking will be done when the <b>WTD_REVOKE_NONE</b> flag is used in conjunction with the <b>HTTPSPROV_ACTION</b> value set in the <i>pgActionID</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function. To ensure the <b>WinVerifyTrust</b> function does not attempt any network retrieval when verifying code signatures, <b>WTD_CACHE_ONLY_URL_RETRIEVAL</b> must be set in the <i>dwProvFlags</i> parameter.
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ Use the catalog pointed to by <b>pCatalog</b>.
 </dl>
 </td>
 <td width="60%">
-Use the <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> pointed to by <b>pBlob</b>.
+Use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> pointed to by <b>pBlob</b>.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ Use the <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b
 </dl>
 </td>
 <td width="60%">
-Use the <a href="https://msdn.microsoft.com/04e62bfa-efe4-428a-ae6b-58c2377fd5ba">WINTRUST_SGNR_INFO</a> structure pointed to by <b>pSgnr</b>.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info_">WINTRUST_SGNR_INFO</a> structure pointed to by <b>pSgnr</b>.
 
 </td>
 </tr>
@@ -238,31 +238,31 @@ Use the certificate pointed to by <b>pCert</b>.
 ### -field pFile
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/3c3bef86-a2ed-47d1-a726-90630433358a">WINTRUST_FILE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_file_info_">WINTRUST_FILE_INFO</a> structure.
 
 
 ### -field pCatalog
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/5d095e0f-c8c9-4717-b23a-985737b78431">WINTRUST_CATALOG_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_catalog_info_">WINTRUST_CATALOG_INFO</a> structure.
 
 
 ### -field pBlob
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/8b13d355-4d24-4d8e-aae3-db16467999be">WINTRUST_BLOB_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info_">WINTRUST_BLOB_INFO</a> structure.
 
 
 ### -field pSgnr
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/04e62bfa-efe4-428a-ae6b-58c2377fd5ba">WINTRUST_SGNR_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_sgnr_info_">WINTRUST_SGNR_INFO</a> structure.
 
 
 ### -field pCert
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/6522d1f0-3d96-4499-9220-23288122e0e6">WINTRUST_CERT_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_cert_info_">WINTRUST_CERT_INFO</a> structure.
 
 
 ### -field dwStateAction
@@ -381,7 +381,7 @@ The Internet Explorer 4.0 chain functionality is not used.
 </dl>
 </td>
 <td width="60%">
-The default verification of the policy provider, such as code signing for <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Authenticode</a>, is not performed, and  the certificate is assumed valid for all usages.
+The default verification of the policy provider, such as code signing for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a>, is not performed, and  the certificate is assumed valid for all usages.
 
 </td>
 </tr>
@@ -519,7 +519,7 @@ If this flag is specified it is assumed that the file being verified has been do
 
 ### -field dwUIContext
 
-A <b>DWORD</b> value that specifies the user interface context for the <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function. This causes the text in the Authenticode dialog box to match the action taken on the file. This can be one of the following values.
+A <b>DWORD</b> value that specifies the user interface context for the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function. This causes the text in the Authenticode dialog box to match the action taken on the file. This can be one of the following values.
 
 <table>
 <tr>
@@ -533,7 +533,7 @@ A <b>DWORD</b> value that specifies the user interface context for the <a href="
 </dl>
 </td>
 <td width="60%">
-Use when calling <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> for a file that is  to be run.  This is the default value.
+Use when calling <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> for a file that is  to be run.  This is the default value.
 
 </td>
 </tr>
@@ -544,7 +544,7 @@ Use when calling <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63f
 </dl>
 </td>
 <td width="60%">
-Use when calling <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> for a file that is  to be installed.
+Use when calling <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> for a file that is  to be installed.
 
 </td>
 </tr>
@@ -554,7 +554,7 @@ Use when calling <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63f
 
 ### -field pSignatureSettings
 
-Pointer to a <a href="https://msdn.microsoft.com/E0F526B4-AFDE-4481-B49F-EE7467F97A46">WINTRUST_SIGNATURE_SETTINGS</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_signature_settings_">WINTRUST_SIGNATURE_SETTINGS</a> structure.
 
 <b>Windows 8 and Windows Server 2012:  </b>Support for this member begins.
 

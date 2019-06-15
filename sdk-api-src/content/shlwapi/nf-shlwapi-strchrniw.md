@@ -110,11 +110,11 @@ To help ensure optimal performance, <i>pszStart</i> should be word-aligned.
 
 
 
-<a href="https://msdn.microsoft.com/3e4c20cb-0b46-4f84-bbd1-860fdedde8c8">StrChr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strchra">StrChr</a>
 
 
 
-<a href="https://msdn.microsoft.com/bad606d2-e337-42b5-853e-c7afa8d3d71b">StrChrI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strchria">StrChrI</a>
  
 
  

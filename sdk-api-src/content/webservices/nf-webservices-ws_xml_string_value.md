@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides an initializer for a <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> structure when there is no associated dictionary ID.
+Provides an initializer for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> structure when there is no associated dictionary ID.
       
 
 

@@ -52,8 +52,8 @@ ms.custom: 19H1
 
 
 Contains the constituent parts of a URL. This structure is used with the 
-<a href="https://msdn.microsoft.com/30677071-3eb2-4d9c-a0a3-ff11a077f98a">InternetCrackUrl</a> and 
-<a href="https://msdn.microsoft.com/b01bb684-0b2f-4c17-ab32-9f83fdd89e69">InternetCreateUrl</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcrackurla">InternetCrackUrl</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcreateurla">InternetCreateUrl</a> functions.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Size of the scheme name, in <b>TCHARs</b>.
 ### -field nScheme
 
 
-<a href="https://msdn.microsoft.com/640d0b62-a44f-4115-be27-9976da4bc73a">INTERNET_SCHEME</a> value that indicates the Internet protocol scheme. 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ne-wininet-internet_scheme">INTERNET_SCHEME</a> value that indicates the Internet protocol scheme. 
 
 
 ### -field lpszHostName
@@ -142,14 +142,14 @@ Size of the extra information, in <b>TCHARs</b>.
 
 
 For 
-<a href="https://msdn.microsoft.com/30677071-3eb2-4d9c-a0a3-ff11a077f98a">InternetCrackUrl</a>, if a pointer member and its corresponding length member are both zero, that component is not returned. If the pointer member is <b>NULL</b> but the length member is not zero, both the pointer and length members are returned. If both pointer and corresponding length members are nonzero, the pointer member points to a buffer where the component is copied. The component can be un-escaped, depending on the 
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcrackurla">InternetCrackUrl</a>, if a pointer member and its corresponding length member are both zero, that component is not returned. If the pointer member is <b>NULL</b> but the length member is not zero, both the pointer and length members are returned. If both pointer and corresponding length members are nonzero, the pointer member points to a buffer where the component is copied. The component can be un-escaped, depending on the 
 <i>dwFlags</i> parameter of 
-<a href="https://msdn.microsoft.com/30677071-3eb2-4d9c-a0a3-ff11a077f98a">InternetCrackUrl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcrackurla">InternetCrackUrl</a>.
 
 For 
-<a href="https://msdn.microsoft.com/b01bb684-0b2f-4c17-ab32-9f83fdd89e69">InternetCreateUrl</a>, the pointer members should be <b>NULL</b> if the component is not required. If the corresponding length member is zero, the pointer member is the address of a zero-terminated string. If the length member is not zero, it is the string length of the corresponding pointer member.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcreateurla">InternetCreateUrl</a>, the pointer members should be <b>NULL</b> if the component is not required. If the corresponding length member is zero, the pointer member is the address of a zero-terminated string. If the length member is not zero, it is the string length of the corresponding pointer member.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -159,11 +159,11 @@ For
 
 
 
-<a href="https://msdn.microsoft.com/30677071-3eb2-4d9c-a0a3-ff11a077f98a">InternetCrackUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcrackurla">InternetCrackUrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/b01bb684-0b2f-4c17-ab32-9f83fdd89e69">InternetCreateUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcreateurla">InternetCreateUrl</a>
  
 
  

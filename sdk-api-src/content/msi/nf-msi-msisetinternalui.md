@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The 
 <b>MsiSetInternalUI</b> function enables the installer's internal user interface. Then this user interface is used for all subsequent calls to user-interface-generating installer functions in this process. For more information, see 
-<a href="https://msdn.microsoft.com/9f5796a7-e244-4fc8-af85-52a147bb2c0b">User Interface Levels</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/user-interface-levels">User Interface Levels</a>.
 
 
 ## -parameters
@@ -206,7 +206,7 @@ When Msi.dll is loaded, the user interface level is set to DEFAULT and the user 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
  
 
  

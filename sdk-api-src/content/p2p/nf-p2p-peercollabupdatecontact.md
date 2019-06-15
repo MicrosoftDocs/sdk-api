@@ -59,7 +59,7 @@ The <b>PeerCollabUpdateContact</b> function updates the information associated w
 
 ### -param pContact [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/b84a17fc-35d6-4098-9bb3-18e708541a80">PEER_CONTACT</a> structure that contains the updated information for a specific peer contact.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact_tag">PEER_CONTACT</a> structure that contains the updated information for a specific peer contact.
 
 
 ## -returns
@@ -105,7 +105,7 @@ One of the arguments is invalid.
 
 
 
-If the contact provided is the 'Me' contact, only the nickname, display name and email address can be changed. If a nickname is changed for a contact signed in to "People Near Me", the structure  <a href="https://msdn.microsoft.com/d983a399-17b1-43ea-a8fb-05b5d75e179a">PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA</a> with <i>changeType</i> of PEER_CHANGE_UPDATED will be raised.
+If the contact provided is the 'Me' contact, only the nickname, display name and email address can be changed. If a nickname is changed for a contact signed in to "People Near Me", the structure  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_people_near_me_changed_data_tag">PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA</a> with <i>changeType</i> of PEER_CHANGE_UPDATED will be raised.
 
 The <b>PeerCollabUpdateContact</b> function will timeout at 30 seconds.
 
@@ -117,7 +117,7 @@ The <b>PeerCollabUpdateContact</b> function will timeout at 30 seconds.
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

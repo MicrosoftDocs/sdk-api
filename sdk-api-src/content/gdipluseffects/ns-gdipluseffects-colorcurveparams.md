@@ -52,11 +52,11 @@ ms.custom: 19H1
 
 A <b>ColorCurveParams</b> structure contains members that specify an adjustment to the colors of a bitmap.
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> class encompasses eight separate adjustments: exposure, density, contrast, highlight, shadow, midtone, white saturation, and black saturation. You can apply one of those adjustments to a bitmap by following these steps.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> class encompasses eight separate adjustments: exposure, density, contrast, highlight, shadow, midtone, white saturation, and black saturation. You can apply one of those adjustments to a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>ColorCurveParams</b> structure.</li>
-<li>Pass the address of the <b>ColorCurveParams</b> structure to the <a href="https://msdn.microsoft.com/en-us/library/ms536241(v=VS.85).aspx">ColorCurve::SetParameters</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> object.</li>
-<li>Pass the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">ColorCurve</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536058(v=VS.85).aspx">Graphics::DrawImage</a> method or to the <a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>ColorCurveParams</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorcurve-setparameters">ColorCurve::SetParameters</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> object.</li>
+<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> object to the <a href="https://docs.microsoft.com/previous-versions//ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -66,21 +66,21 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms534429(v=VS.85).aspx">Co
 
 ### -field adjustment
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534098(v=VS.85).aspx">CurveAdjustments</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534098(v=VS.85).aspx">CurveAdjustments</a> enumeration that specifies the adjustment to be applied.
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a> enumeration that specifies the adjustment to be applied.
 
 
 ### -field channel
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534100(v=VS.85).aspx">CurveChannel</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534100(v=VS.85).aspx">CurveChannel</a> enumeration that specifies the color channel to which the adjustment applies.
+Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a> enumeration that specifies the color channel to which the adjustment applies.
 
 
 ### -field adjustValue
 
 Type: <b>INT</b>
 
-Integer that specifies the intensity of the adjustment. The range of acceptable values depends on which adjustment is being applied. To see the range of acceptable values for a particular adjustment, see the <a href="https://msdn.microsoft.com/en-us/library/ms534098(v=VS.85).aspx">CurveAdjustments</a> enumeration.
+Integer that specifies the intensity of the adjustment. The range of acceptable values depends on which adjustment is being applied. To see the range of acceptable values for a particular adjustment, see the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a> enumeration.
 

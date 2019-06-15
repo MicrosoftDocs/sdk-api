@@ -96,11 +96,11 @@ This callback can be invoked at any time. This callback function should advance 
 
 
 
-<a href="https://msdn.microsoft.com/aecdea3b-ac42-43d4-88b3-14cd810a4017">AdvanceLogBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-advancelogbase">AdvanceLogBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/deb5fd90-e987-4e5b-9740-6ecef8705557">WriteLogRestartArea</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-writelogrestartarea">WriteLogRestartArea</a>
  
 
  

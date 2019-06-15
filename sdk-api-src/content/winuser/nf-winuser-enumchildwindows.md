@@ -71,7 +71,7 @@ Enumerates the child windows that belong to the specified parent window by passi
 
 Type: <b>HWND</b>
 
-A handle to the parent window whose child windows are to be enumerated. If this parameter is <b>NULL</b>, this function is equivalent to <a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>.
+A handle to the parent window whose child windows are to be enumerated. If this parameter is <b>NULL</b>, this function is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>.
 
 					
 				
@@ -81,7 +81,7 @@ A handle to the parent window whose child windows are to be enumerated. If this 
 
 Type: <b>WNDENUMPROC</b>
 
-A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms633493(v=VS.85).aspx">EnumChildProc</a>. 
+A pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)">EnumChildProc</a>. 
 
 
 ### -param lParam [in]
@@ -123,19 +123,19 @@ A child window that is moved or repositioned in the Z order during the enumerati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633493(v=VS.85).aspx">EnumChildProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)">EnumChildProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633495(v=VS.85).aspx">EnumThreadWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumthreadwindows">EnumThreadWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -143,7 +143,7 @@ A child window that is moved or repositioned in the Z order during the enumerati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

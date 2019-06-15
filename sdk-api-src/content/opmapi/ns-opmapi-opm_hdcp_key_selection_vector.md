@@ -67,15 +67,15 @@ A buffer that contains the device's KSV. (This is the value named <i>Bksv</i> in
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388940(v=VS.85).aspx">OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_connected_hdcp_device_information">OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

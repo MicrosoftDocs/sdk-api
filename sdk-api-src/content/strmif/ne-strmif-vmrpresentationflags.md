@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>VMRPresentationFlags</b> enumeration type is a member of the <a href="https://msdn.microsoft.com/cddbe3de-c5e2-4161-801f-f3497714922c">VMRPRESENTATIONINFO</a> structure .
+The <b>VMRPresentationFlags</b> enumeration type is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrpresentationinfo">VMRPRESENTATIONINFO</a> structure .
 
 
 
@@ -94,7 +94,7 @@ Indicates that the time stamp on the sample is valid.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

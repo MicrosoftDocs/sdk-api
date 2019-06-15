@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AddAuditAccessObjectAce</b> function adds a system-audit <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) to the end of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL). The new ACE can audit access to an object, or to a property set or property on an object. You can also use <b>AddAuditAccessObjectAce</b> to add an ACE that only a specified type of child object can inherit.
+The <b>AddAuditAccessObjectAce</b> function adds a system-audit <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). The new ACE can audit access to an object, or to a property set or property on an object. You can also use <b>AddAuditAccessObjectAce</b> to add an ACE that only a specified type of child object can inherit.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <b>AddAuditAccessObjectAce</b> function adds a system-audit <a href="https:/
 ### -param pAcl [in, out]
 
 A pointer to a SACL. The <b>AddAuditAccessObjectAce</b> function adds a system-audit ACE to the end of this SACL. The ACE is in the form of a 
-<a href="https://msdn.microsoft.com/de37bef6-e6c8-4455-856a-adebebda4cc7">SYSTEM_AUDIT_OBJECT_ACE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a> structure.
 
 
 ### -param dwAceRevision [in]
@@ -78,7 +78,7 @@ Specifies the revision level of the SACL being modified. This value must be ACL_
 ### -param AceFlags [in]
 
 A set of bit flags that control ACE inheritance and the type of access attempts to audit. The function sets these flags in the <b>AceFlags</b> member of the 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a> structure of the new ACE. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ If you set this flag or specify <b>TRUE</b> for the <i>bAuditFailure</i> paramet
 </dl>
 </td>
 <td width="60%">
-The ACE does not apply to the object to which the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control list</a> (ACL) is assigned, but it can be inherited by child objects.
+The ACE does not apply to the object to which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) is assigned, but it can be inherited by child objects.
 
 </td>
 </tr>
@@ -162,24 +162,24 @@ If you set this flag or specify <b>TRUE</b> for the <i>bAuditSuccess</i> paramet
 ### -param AccessMask [in]
 
 An 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a> that specifies the access rights that the new ACE audits for the specified <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> that specifies the access rights that the new ACE audits for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 
 ### -param ObjectTypeGuid [in, optional]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object, property set, or property protected by the new ACE. If this parameter is <b>NULL</b>, the new ACE protects the object to which the ACL is assigned.
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object, property set, or property protected by the new ACE. If this parameter is <b>NULL</b>, the new ACE protects the object to which the ACL is assigned.
 
 
 ### -param InheritedObjectTypeGuid [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that identifies the type of object that can inherit the new ACE. If this parameter is non-<b>NULL</b>, only the specified object type can inherit the ACE. If <b>NULL</b>, any type of child object can inherit the ACE. In either case, inheritance is also controlled by the value of the <i>AceFlags</i> parameter, as well as by any protection against inheritance placed on the child objects.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> structure that identifies the type of object that can inherit the new ACE. If this parameter is non-<b>NULL</b>, only the specified object type can inherit the ACE. If <b>NULL</b>, any type of child object can inherit the ACE. In either case, inheritance is also controlled by the value of the <i>AceFlags</i> parameter, as well as by any protection against inheritance placed on the child objects.
 
 
 ### -param pSid [in]
 
 A pointer to a 
-SID that identifies the user, group, or <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a> for which the new ACE audits access.
+SID that identifies the user, group, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> for which the new ACE audits access.
 
 
 ### -param bAuditSuccess [in]
@@ -199,7 +199,7 @@ Specifies whether failed attempts to use the specified access rights cause the s
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following are possible error values.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -283,9 +283,9 @@ The ACE was successfully added.
 
 
 If both <i>ObjectTypeGuid</i> and <i>InheritedObjectTypeGuid</i> are <b>NULL</b>, use the 
-<a href="https://msdn.microsoft.com/ddd1d815-c4ce-4572-982c-139e17cda192">AddAuditAccessAceEx</a> function rather than <b>AddAuditAccessObjectAce</b>. This is suggested because a 
-<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a> is smaller and more efficient than a 
-<a href="https://msdn.microsoft.com/de37bef6-e6c8-4455-856a-adebebda4cc7">SYSTEM_AUDIT_OBJECT_ACE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessaceex">AddAuditAccessAceEx</a> function rather than <b>AddAuditAccessObjectAce</b>. This is suggested because a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a> is smaller and more efficient than a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a>.
 
 
 
@@ -295,47 +295,47 @@ If both <i>ObjectTypeGuid</i> and <i>InheritedObjectTypeGuid</i> are <b>NULL</b>
 
 
 
-<a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/d23f15d6-0453-4aaf-a2db-7528b551a992">ACE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccf83e95-ba6f-49f5-a312-52eac90f209a">AddAccessAllowedObjectAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedobjectace">AddAccessAllowedObjectAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/1427c908-92b6-46b2-9189-a2fd93c470b1">AddAccessDeniedObjectAce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedobjectace">AddAccessDeniedObjectAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddd1d815-c4ce-4572-982c-139e17cda192">AddAuditAccessAceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessaceex">AddAuditAccessAceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/16337b77-23c5-4b7a-a344-66a02ee0e8a8">Low-level Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c26b5856-5447-4606-8110-f24a4d235c64">SYSTEM_AUDIT_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/de37bef6-e6c8-4455-856a-adebebda4cc7">SYSTEM_AUDIT_OBJECT_ACE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a>
  
 
  

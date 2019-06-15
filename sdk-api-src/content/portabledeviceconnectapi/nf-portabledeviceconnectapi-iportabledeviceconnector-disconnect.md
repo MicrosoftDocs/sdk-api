@@ -60,7 +60,7 @@ The <b>Disconnect</b> method sends an asynchronous disconnect request to the MTP
 
 ### -param pCallback [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/579f7a29-cd98-4d97-9f8e-9b786897df1c">IConnectionRequestCallback</a> interface.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iconnectionrequestcallback">IConnectionRequestCallback</a> interface.
 
 
 ## -returns
@@ -97,7 +97,7 @@ The method succeeded.
 
 This method will queue a disconnect request and then return immediately.
 
-To be notified when the request is complete, applications should provide a pointer to the <a href="https://msdn.microsoft.com/579f7a29-cd98-4d97-9f8e-9b786897df1c">IConnectionRequestCallback</a> interface. This will disconnect the MTP/Bluetooth link and remove the Windows Portable Devices (WPD) class driver stack for that device.
+To be notified when the request is complete, applications should provide a pointer to the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iconnectionrequestcallback">IConnectionRequestCallback</a> interface. This will disconnect the MTP/Bluetooth link and remove the Windows Portable Devices (WPD) class driver stack for that device.
 
 Once the disconnection completes, the WPD API will no longer enumerate this device.
 
@@ -109,7 +109,7 @@ Once the disconnection completes, the WPD API will no longer enumerate this devi
 
 
 
-<a href="https://msdn.microsoft.com/c6eb1103-2395-431d-9130-1e1f2cc9ae96">IPortableDeviceConnector</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
  
 
  

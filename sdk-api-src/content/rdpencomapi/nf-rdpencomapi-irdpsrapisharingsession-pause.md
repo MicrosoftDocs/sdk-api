@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Pauses the graphics stream that is sent to all viewers from the sharer until <a href="https://msdn.microsoft.com/3e99d514-a6fe-4855-99ab-9ab2b5cbcc9b">IRDPSRAPISharingSession::Resume</a> is called.
+Pauses the graphics stream that is sent to all viewers from the sharer until <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-resume">IRDPSRAPISharingSession::Resume</a> is called.
 
 
 ## -parameters
@@ -74,11 +74,11 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/531382ec-d94f-411e-bd43-86cd3066ac26">IRDPSRAPISharingSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession">IRDPSRAPISharingSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ac68be7-e6fd-42c7-b2f3-b90bb5097b07">IRDPSRAPISharingSession2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
  
 
  

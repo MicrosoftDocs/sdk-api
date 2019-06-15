@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Causes a property sheet to send the <a href="https://msdn.microsoft.com/en-us/library/Bb774599(v=VS.85).aspx">PSM_QUERYSIBLINGS</a> message to each of its pages. You can use this macro or send the <b>PSM_QUERYSIBLINGS</b> message explicitly.
+Causes a property sheet to send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-querysiblings">PSM_QUERYSIBLINGS</a> message to each of its pages. You can use this macro or send the <b>PSM_QUERYSIBLINGS</b> message explicitly.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Causes a property sheet to send the <a href="https://msdn.microsoft.com/en-us/li
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
 
 ### -param wParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
 First application-defined parameter.
 
 
 ### -param lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Second application-defined parameter.
 

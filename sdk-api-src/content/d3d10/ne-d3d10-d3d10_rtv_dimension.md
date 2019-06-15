@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies how to access a resource used in a render-target <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a>.
+Specifies how to access a resource used in a render-target <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">view</a>.
 
 
 ## -enum-fields
@@ -64,12 +64,12 @@ The resource will be accessed according to its type as determined from the actua
 
 ### -field D3D10_RTV_DIMENSION_BUFFER
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer</a>.
+The resource will be accessed as a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">buffer</a>.
 
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE1D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">1D texture</a>.
+The resource will be accessed as a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">1D texture</a>.
 
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE1DARRAY
@@ -79,7 +79,7 @@ The resource will be accessed as an array of 1D textures.
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE2D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">2D texture</a>.
+The resource will be accessed as a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">2D texture</a>.
 
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE2DARRAY
@@ -99,14 +99,14 @@ The resource will be accessed as an array of 2D textures with multisampling.
 
 ### -field D3D10_RTV_DIMENSION_TEXTURE3D
 
-The resource will be accessed as a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">3D texture</a>.
+The resource will be accessed as a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">3D texture</a>.
 
 
 ## -remarks
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a> to create a render-target view.
+This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_render_target_view_desc">D3D10_RENDER_TARGET_VIEW_DESC</a> to create a render-target view.
 
 
 
@@ -116,7 +116,7 @@ This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205275(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

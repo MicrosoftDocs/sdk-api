@@ -59,12 +59,12 @@ Creates a new parameter set.
 
 ### -param application [in]
 
-A pointer to a handle returned from the <a href="https://msdn.microsoft.com/32696A33-820D-4D01-AF71-DDA1F34EFBE0">MI_Application_Initialize</a> function.
+A pointer to a handle returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 
 ### -param classRTTI [in, optional]
 
-A pointer to optional run-time type information (RTTI) that defines the property set.  Generally, this is <b>NULL</b> for parameter sets.  If there is no RTTI, call the <a href="https://msdn.microsoft.com/51a26894-f391-4281-9e06-2e70fb662aa2">MI_Instance_AddElement</a> function to add extra parameters. If RTTI is passed in, use the <a href="https://msdn.microsoft.com/581f8d9f-5421-44ab-a3e2-dfb536a35c2c">MI_Instance_SetElement</a> function to set the values of the parameters.
+A pointer to optional run-time type information (RTTI) that defines the property set.  Generally, this is <b>NULL</b> for parameter sets.  If there is no RTTI, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_addelement">MI_Instance_AddElement</a> function to add extra parameters. If RTTI is passed in, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_setelement">MI_Instance_SetElement</a> function to set the values of the parameters.
 
 
 ### -param instance
@@ -85,7 +85,7 @@ This function returns MI_INLINE MI_Result.
 
 
 
-When you have finished using the parameter set, free the instance by calling the <a href="https://msdn.microsoft.com/6370e464-b262-4c91-a3c8-889911df7965">MI_Instance_Delete</a> function.
+When you have finished using the parameter set, free the instance by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_delete">MI_Instance_Delete</a> function.
 
 
 

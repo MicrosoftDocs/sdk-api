@@ -99,11 +99,11 @@ The <b>EngMultiByteToWideChar</b> function returns the number of bytes it conver
 
 
 
-<a href="https://msdn.microsoft.com/5c36322f-7a88-4c24-9f98-aaf3d30f3be4">EngUnicodeToMultiByteN</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunicodetomultibyten">EngUnicodeToMultiByteN</a>
 
 
 
-<a href="https://msdn.microsoft.com/db0ae856-f414-4ae9-9bc9-c719581873fd">EngWideCharToMultiByte</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwidechartomultibyte">EngWideCharToMultiByte</a>
  
 
  

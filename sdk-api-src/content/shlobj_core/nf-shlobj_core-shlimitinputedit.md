@@ -70,9 +70,9 @@ The handle of the edit control.
 
 ### -param psf [in]
 
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-An <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface pointer. This object must also implement <a href="https://msdn.microsoft.com/2850bdf1-12ea-42cd-a0fb-68491337ae69">IItemNameLimits</a>, which supplies a list of invalid characters and a maximum name length.
+An <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface pointer. This object must also implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iitemnamelimits">IItemNameLimits</a>, which supplies a list of invalid characters and a maximum name length.
 
 
 ## -returns

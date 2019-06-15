@@ -102,7 +102,7 @@ The relative virtual address of the last byte of data.
 
 
 
-<a href="https://msdn.microsoft.com/b88c7a21-933f-450c-97e8-04cf3c5f9b11">ImageHlp Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
  
 
  

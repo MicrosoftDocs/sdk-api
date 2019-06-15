@@ -64,7 +64,7 @@ Specifies an app-defined callback function that notifies the app when the app is
 
 Type: <b>PVOID</b>
 
-A pointer to data that the app can save when suspending and use upon resuming. This value is supplied by the <a href="https://msdn.microsoft.com/EE55F783-BF18-49F0-934E-67A252138565">RegisterAppStateChangeNotification</a> function. This is commonly a "this" pointer.
+A pointer to data that the app can save when suspending and use upon resuming. This value is supplied by the <a href="https://docs.microsoft.com/windows/desktop/api/appnotify/nf-appnotify-registerappstatechangenotification">RegisterAppStateChangeNotification</a> function. This is commonly a "this" pointer.
 
 
 #### - Suspended [in]

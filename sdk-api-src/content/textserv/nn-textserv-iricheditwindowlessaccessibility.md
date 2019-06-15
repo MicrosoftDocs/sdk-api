@@ -54,7 +54,7 @@ Enables the host container of a windowless rich edit control to obtain the Micro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRicheditWindowlessAccessibility</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRicheditWindowlessAccessibility</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRicheditWindowlessAccessibility</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRicheditWindowlessAccessibility</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,11 +84,11 @@ Obtains a UI Automation provider object for the parent of a windowless rich edit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768428(v=VS.85).aspx">IRichEditUiaInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiainformation">IRichEditUiaInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/2590002F-A6B0-4AA7-A54C-A5AB5304D9FA">IRichEditUiaOverrides</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiaoverrides">IRichEditUiaOverrides</a>
  
 
  

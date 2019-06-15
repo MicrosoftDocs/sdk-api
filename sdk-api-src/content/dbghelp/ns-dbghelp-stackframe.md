@@ -61,7 +61,7 @@ Represents a stack frame.
 ### -field AddrPC
 
 An 
-<a href="https://msdn.microsoft.com/f49249e5-ef02-4e1f-9c08-1c7fe25ee71c">ADDRESS64</a> structure that specifies the program counter. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the program counter. 
 
 
 
@@ -76,13 +76,13 @@ An
 ### -field AddrReturn
 
 An 
-<a href="https://msdn.microsoft.com/f49249e5-ef02-4e1f-9c08-1c7fe25ee71c">ADDRESS64</a> structure that specifies the return address.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the return address.
 
 
 ### -field AddrFrame
 
 An 
-<a href="https://msdn.microsoft.com/f49249e5-ef02-4e1f-9c08-1c7fe25ee71c">ADDRESS64</a> structure that specifies the frame pointer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the frame pointer. 
 
 
 
@@ -97,7 +97,7 @@ An
 ### -field AddrStack
 
 An 
-<a href="https://msdn.microsoft.com/f49249e5-ef02-4e1f-9c08-1c7fe25ee71c">ADDRESS64</a> structure that specifies the stack pointer. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the stack pointer. 
 
 
 
@@ -112,7 +112,7 @@ An
 ### -field FuncTableEntry
 
 On x86 computers, this member is an 
-<a href="https://msdn.microsoft.com/916dc7d5-ed88-4573-b696-fd00bbf4e086">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a> structure. If there is no function table entry, this member is <b>NULL</b>.
 
 
 ### -field Params
@@ -133,19 +133,19 @@ This member is <b>TRUE</b> if this is a virtual frame.
 ### -field Reserved
 
 This member is used internally by the 
-<a href="https://msdn.microsoft.com/e2bdaa4c-5474-41a0-bcea-927570c8402c">StackWalk64</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function.
 
 
 ### -field KdHelp
 
 A 
-<a href="https://msdn.microsoft.com/da31c92c-0257-4ae2-8d69-ea8cd58adc10">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_kdhelp">KDHELP64</a> structure that specifies helper data for walking kernel callback frames.
 
 
 ### -field AddrBStore
 
 <b>Intel Itanium:  </b>An 
-<a href="https://msdn.microsoft.com/f49249e5-ef02-4e1f-9c08-1c7fe25ee71c">ADDRESS64</a> structure that specifies the backing store (RsBSP).
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a> structure that specifies the backing store (RsBSP).
 
 
 ## -remarks
@@ -153,7 +153,7 @@ A
 
 
 This structure supersedes the <b>STACKFRAME</b> structure. For more information, see 
-<a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>STACKFRAME</b> is defined as follows in Dbghelp.h. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>STACKFRAME</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -186,23 +186,23 @@ typedef struct _tagSTACKFRAME {
 
 
 
-<a href="https://msdn.microsoft.com/f49249e5-ef02-4e1f-9c08-1c7fe25ee71c">ADDRESS64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagaddress">ADDRESS64</a>
 
 
 
-<a href="https://msdn.microsoft.com/916dc7d5-ed88-4573-b696-fd00bbf4e086">FPO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/ced956ec-7a12-4548-8e38-a1c1057c05e8">IMAGE_FUNCTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/da31c92c-0257-4ae2-8d69-ea8cd58adc10">KDHELP64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_kdhelp">KDHELP64</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2bdaa4c-5474-41a0-bcea-927570c8402c">StackWalk64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
  
 
  

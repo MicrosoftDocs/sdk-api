@@ -99,7 +99,7 @@ Just as an **Graphics::EndContainer** call is paired with a **Graphics::BeginCon
 When you call **Graphics::EndContainer**, all information blocks placed on the stack (by **Graphics::Save** or by **Graphics::BeginContainer**) after the corresponding call to **Graphics::BeginContainer** are removed from the stack.
 Likewise, when you call **Graphics::Restore**, all information blocks placed on the stack (by **Graphics::Save** or by **Graphics::BeginContainer**) after the corresponding call to **Graphics::Save** are removed from the stack.
 
-For more information about graphics containers, see <a href="https://msdn.microsoft.com/en-us/library/ms533848(v=VS.85).aspx">Nested Graphics Containers</a>.
+For more information about graphics containers, see <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-nested-graphics-containers-use">Nested Graphics Containers</a>.
 
 #### Examples
 
@@ -135,14 +135,14 @@ VOID Example_BeginContainer3(HDC hdc)
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536334(v=VS.85).aspx">Graphics Containers</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-graphics-containers-about">Graphics Containers</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer">Graphics::EndContainer</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-restore">Graphics::Restore</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-save">Graphics::Save</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533813(v=VS.85).aspx">Using Graphics Containers</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>

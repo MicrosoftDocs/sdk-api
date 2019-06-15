@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Closes a dictionary file.
 
-This method closes the file associated to this <a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a> object.
+This method closes the file associated to this <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ This method closes the file associated to this <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/4C63FF43-0170-4038-AB01-72441E1BB189">IFEDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
  
 
  

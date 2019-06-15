@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/EAAA22B1-5D8A-4ED8-813B-58671B0EF7AA">IRDPSRAPIPerfCounterLogger</a> object.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> object.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The name of the counter.
 
 ### -param ppLogger [out]
 
-An <a href="https://msdn.microsoft.com/EAAA22B1-5D8A-4ED8-813B-58671B0EF7AA">IRDPSRAPIPerfCounterLogger</a> interface pointer.
+An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> interface pointer.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 
-<a href="https://msdn.microsoft.com/611ABFB6-851F-4A2C-86A0-E26732CD20BE">IRDPSRAPIPerfCounterLoggingManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterloggingmanager">IRDPSRAPIPerfCounterLoggingManager</a>
  
 
  

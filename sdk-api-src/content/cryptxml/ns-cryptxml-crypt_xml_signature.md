@@ -74,7 +74,7 @@ A pointer to a null-terminated Unicode string that contains the value of the <b>
 
 ### -field SignedInfo
 
-A <a href="https://msdn.microsoft.com/34f7f3be-8bf8-4863-9c94-79ee14a7ebea">CRYPT_XML_SIGNED_INFO</a> structure that contains the canonicalization algorithm, 
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_signed_info">CRYPT_XML_SIGNED_INFO</a> structure that contains the canonicalization algorithm, 
     a signature algorithm, and one or more references. 
     The <b>SignedInfo</b> element can contain an optional ID attribute that will allow 
     the structure to be referenced by other signatures and objects. 
@@ -82,12 +82,12 @@ A <a href="https://msdn.microsoft.com/34f7f3be-8bf8-4863-9c94-79ee14a7ebea">CRYP
 
 ### -field SignatureValue
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains a cryptographic signature value  used to populate the <b>Signature</b> element.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains a cryptographic signature value  used to populate the <b>Signature</b> element.
 
 
 ### -field pKeyInfo
 
-Optional. A pointer to a <a href="https://msdn.microsoft.com/0fd4a80f-52c1-4ff8-9e49-87ddc1f2521d">CRYPT_XML_KEY_INFO</a> structure that contains information that is encoded in the <b>KeyInfo</b> element.
+Optional. A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_info">CRYPT_XML_KEY_INFO</a> structure that contains information that is encoded in the <b>KeyInfo</b> element.
 
 
 ### -field cObject
@@ -97,5 +97,5 @@ The number of  items in the array pointed to by the <b>rgpObject</b> member.
 
 ### -field rgpObject
 
-Optional. A pointer to an array of  pointers to <a href="https://msdn.microsoft.com/b151efb2-8801-451a-83ec-e9045c2e0b81">CRYPT_XML_OBJECT</a> structures that  contain information that is encoded in <b>Object</b> elements.
+Optional. A pointer to an array of  pointers to <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_object">CRYPT_XML_OBJECT</a> structures that  contain information that is encoded in <b>Object</b> elements.
 

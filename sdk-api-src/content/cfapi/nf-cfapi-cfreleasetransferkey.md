@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases a transfer key obtained by <a href="https://msdn.microsoft.com/07DDC46A-0C10-4677-A4B0-5A0406BBDAB7">CfGetTransferKey</a>.
+Releases a transfer key obtained by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgettransferkey">CfGetTransferKey</a>.
 
 
 ## -parameters

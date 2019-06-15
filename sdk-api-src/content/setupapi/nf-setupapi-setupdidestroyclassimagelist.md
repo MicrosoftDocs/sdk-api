@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiDestroyClassImageList</b> function destroys a class image list that was built by a call to <a href="https://msdn.microsoft.com/d6b84403-9284-4fba-a419-a013cf68ea1e">SetupDiGetClassImageList</a> or <a href="https://msdn.microsoft.com/f9cf7904-3fda-4f7f-bb05-3634fd1c9af3">SetupDiGetClassImageListEx</a>.
+The <b>SetupDiDestroyClassImageList</b> function destroys a class image list that was built by a call to <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelist">SetupDiGetClassImageList</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelistexa">SetupDiGetClassImageListEx</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>SetupDiDestroyClassImageList</b> function destroys a class image list tha
 
 ### -param ClassImageListData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/89ed9dbd-3c5e-43ff-bbd0-fd6cc8c6e6ab">SP_CLASSIMAGELIST_DATA</a> structure that contains the class image list to destroy.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classimagelist_data">SP_CLASSIMAGELIST_DATA</a> structure that contains the class image list to destroy.
 
 
 ## -returns
@@ -76,11 +76,11 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-<a href="https://msdn.microsoft.com/d6b84403-9284-4fba-a419-a013cf68ea1e">SetupDiGetClassImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelist">SetupDiGetClassImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9cf7904-3fda-4f7f-bb05-3634fd1c9af3">SetupDiGetClassImageListEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelistexa">SetupDiGetClassImageListEx</a>
  
 
  

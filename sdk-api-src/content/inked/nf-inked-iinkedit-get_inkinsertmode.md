@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets a value that specifies how ink is inserted onto the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control, either as text or as ink.
+Gets or sets a value that specifies how ink is inserted onto the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, either as text or as ink.
 
 
 
@@ -74,11 +74,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab15cf9f-c3c8-4cdb-9350-ffa734e4da35">InkInsertMode Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkinsertmode">InkInsertMode Enumeration</a>
  
 
  

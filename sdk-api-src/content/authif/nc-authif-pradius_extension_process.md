@@ -61,7 +61,7 @@ ms.custom: 19H1
 ### -param *pAttrs [in]
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">attributes</a> from the request. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. These attributes should be treated as read-only; they should not be modified by 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">attributes</a> from the request. The array is terminated by an attribute with <b>dwAttrType</b> set to <b>ratMinimum</b>. These attributes should be treated as read-only; they should not be modified by 
 <b>RadiusExtensionProcess</b>. Also, these attributes should not be referenced in any way after 
 <b>RadiusExtensionProcess</b> returns.
 
@@ -69,7 +69,7 @@ Pointer to an array of
 ### -param pfAction [out]
 
 Pointer to a value of type 
-<a href="https://msdn.microsoft.com/c0bd58ca-24e5-4cee-95e9-521d15c44814">RADIUS_ACTION</a>, initially set to <b>raContinue</b>. This parameter specifies the action that NPS should take in response to an Access-Request.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_action">RADIUS_ACTION</a>, initially set to <b>raContinue</b>. This parameter specifies the action that NPS should take in response to an Access-Request.
 
 
 ## -returns
@@ -91,14 +91,14 @@ If the return value is anything other than <b>NO_ERROR</b>, NPS discards the req
 
 NPS supports multiple Extension DLLs. NPS calls 
 <b>RadiusExtensionProcess</b> for each of the DLLs listed in the registry. For more information see 
-<a href="https://msdn.microsoft.com/fbbd9031-3ebe-47b8-8d8b-e359fa7d4b67">Setting Up the Extension DLLs</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-setting-up-the-extension-and-authorization-dlls">Setting Up the Extension DLLs</a>.
 
 The Extension DLL may export 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a> instead of 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> instead of 
 <b>RadiusExtensionProcess</b>. The Extension DLL may export 
-<a href="https://msdn.microsoft.com/993b1ded-9fa9-4834-a37d-4da9e8ed9640">RadiusExtensionProcess2</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>.
 
-For more information on the use of this function, see <a href="https://msdn.microsoft.com/6d738ad7-cce5-4835-97d6-c57173c79a16">NPS Extensions Process</a>.
+For more information on the use of this function, see <a href="https://docs.microsoft.com/windows/desktop/Nps/ias-authentication-and-authorization-process">NPS Extensions Process</a>.
 
 
 
@@ -108,35 +108,35 @@ For more information on the use of this function, see <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f">About NPS Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca217314-00f9-4f9d-a9fe-ed928b3c3b3d">NPS Extensions Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-functions">NPS Extensions Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7a16cb-bc64-4e81-8149-82f51c451312">NPS Extensions Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0bd58ca-24e5-4cee-95e9-521d15c44814">RADIUS_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_action">RADIUS_ACTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">RADIUS_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0b39062-0622-48f8-a06a-232713ec8c3c">RADIUS_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/993b1ded-9fa9-4834-a37d-4da9e8ed9640">RadiusExtensionProcess2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>
  
 
  

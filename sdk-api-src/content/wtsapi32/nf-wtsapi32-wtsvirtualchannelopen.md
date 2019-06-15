@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Opens a handle to the server end of a specified virtual channel.
 
-This function is obsolete. Instead, use the <a href="https://msdn.microsoft.com/5694c4b6-3d0f-4a48-8d15-1e404cbb6164">WTSVirtualChannelOpenEx</a> function.
+This function is obsolete. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopenex">WTSVirtualChannelOpenEx</a> function.
 
 
 ## -parameters
@@ -68,10 +68,10 @@ This parameter must be WTS_CURRENT_SERVER_HANDLE.
 ### -param SessionId [in]
 
 A Remote Desktop Services session identifier. To indicate the current session, specify <b>WTS_CURRENT_SESSION</b>. You can use the 
-<a href="https://msdn.microsoft.com/6f9dd7d4-48dc-411c-85f1-cd1239d1e106">WTSEnumerateSessions</a> function to retrieve the identifiers of all sessions on a specified RD Session Host server.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve the identifiers of all sessions on a specified RD Session Host server.
 
 To open a virtual channel on another user's session, you need to have permission from the Virtual Channel. For more information, see 
-<a href="https://msdn.microsoft.com/448a7f9b-bf12-48eb-a3e7-4512ec288d95">Remote Desktop Services Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration administrative tool.
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration administrative tool.
 
 
 ### -param pVirtualName [in]
@@ -86,7 +86,7 @@ A pointer to a <b>null</b>-terminated string containing the virtual channel name
 If the function succeeds, the return value is a handle to the specified virtual channel.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -95,10 +95,10 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-When you have finished using the handle, release it by calling the <a href="https://msdn.microsoft.com/d82cb1cd-a9bd-45e8-8a86-2c7dd860b987">WTSVirtualChannelClose</a> function.
+When you have finished using the handle, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a> function.
 
 For an example that shows how to gain access to a virtual channel file handle that can be used for asynchronous I/O, see 
-<a href="https://msdn.microsoft.com/68ae8174-d72b-4b1c-b8e9-ae5fed51d385">WTSVirtualChannelQuery</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelquery">WTSVirtualChannelQuery</a>.
 
 If you try to use this function to open the same virtual channel multiple times, it can cause a 10-second delay and disrupt the established channel.
 
@@ -110,15 +110,15 @@ If you try to use this function to open the same virtual channel multiple times,
 
 
 
-<a href="https://msdn.microsoft.com/6f9dd7d4-48dc-411c-85f1-cd1239d1e106">WTSEnumerateSessions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0b7dce7-59eb-41b8-9a61-65a69d1cc1f3">WTSOpenServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/d82cb1cd-a9bd-45e8-8a86-2c7dd860b987">WTSVirtualChannelClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannelClose</a>
  
 
  

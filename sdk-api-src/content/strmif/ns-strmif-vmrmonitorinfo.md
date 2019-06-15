@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMRMONITORINFO</code> structure is used in the <a href="https://msdn.microsoft.com/8a44ca7d-a195-4fcf-b09c-01f8176e0aa2">IVMRMonitorConfig::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system (VMR-7 only).
+The <code>VMRMONITORINFO</code> structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getavailablemonitors">IVMRMonitorConfig::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system (VMR-7 only).
 
 
 
@@ -63,7 +63,7 @@ The <code>VMRMONITORINFO</code> structure is used in the <a href="https://msdn.m
 
 ### -field guid
 
-A <a href="https://msdn.microsoft.com/e05d986a-c044-47c9-8430-7190ad29c7ec">VMRGUID</a> structure that specifies the monitor.
+A <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrguid">VMRGUID</a> structure that specifies the monitor.
 
 
 ### -field rcMonitor
@@ -79,7 +79,7 @@ A handle to the monitor.
 
 ### -field dwFlags
 
-Flags as defined for the <a href="https://msdn.microsoft.com/f296ce29-3fc8-41c9-a201-56e222aa2219">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
+Flags as defined for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfoexa">MONITORINFOEX</a> structure. Currently the only valid flag is <b>MONITORINFOF_PRIMARY</b>, which indicates the primary display monitor.
           
 
 
@@ -127,7 +127,7 @@ Null-terminated string containing the device description.
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

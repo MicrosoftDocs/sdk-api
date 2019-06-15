@@ -59,14 +59,14 @@ Describes a meta command.
 
 ### -field Id
 
-Type: <b><a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a></b>
 
-A <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> uniquely identifying the meta command.
+A <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> uniquely identifying the meta command.
 
 
 ### -field Name
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The meta command name.
 
@@ -75,12 +75,12 @@ The meta command name.
 
 Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ne-d3d12-d3d12_graphics_states">D3D12_GRAPHICS_STATES</a></b>
 
-Declares the command list states that are modified by the call to initialize the meta command. If all state bits are set, then that's equivalent to calling <a href="https://msdn.microsoft.com/F7C230CE-0E28-466A-8A54-601ECEC6CDC9">ID3D12GraphicsCommandList::ClearState</a>.
+Declares the command list states that are modified by the call to initialize the meta command. If all state bits are set, then that's equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearstate">ID3D12GraphicsCommandList::ClearState</a>.
 
 
 ### -field ExecutionDirtyState
 
 Type: <b><a href="https://docs.microsoft.com/en-us/windows/desktop/api/d3d12/ne-d3d12-d3d12_graphics_states">D3D12_GRAPHICS_STATES</a></b>
 
-Declares the command list states that are modified by the call to execute the meta command. If all state bits are set, then that's equivalent to calling <a href="https://msdn.microsoft.com/F7C230CE-0E28-466A-8A54-601ECEC6CDC9">ID3D12GraphicsCommandList::ClearState</a>.
+Declares the command list states that are modified by the call to execute the meta command. If all state bits are set, then that's equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearstate">ID3D12GraphicsCommandList::ClearState</a>.
 

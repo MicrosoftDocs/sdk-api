@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>WSAMSG</b> structure is used with the 
-<a href="https://msdn.microsoft.com/a46449f7-3206-45e9-9df0-f272b8cdcc4b">WSARecvMsg</a>  and <a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a> functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used  to store message data.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a> functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used  to store message data.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ The
 Type: <b>LPSOCKADDR</b>
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structure that stores information about the remote address. Used only with unconnected sockets.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a> structure that stores information about the remote address. Used only with unconnected sockets.
 
 
 ### -field namelen
@@ -73,7 +73,7 @@ A pointer to a
 Type: <b>INT</b>
 
 The length, in bytes, of the 
-<a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structure pointed to in the <b>pAddr</b> member. Used only with unconnected sockets.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a> structure pointed to in the <b>pAddr</b> member. Used only with unconnected sockets.
 
 
 ### -field lpBuffers
@@ -81,7 +81,7 @@ The length, in bytes, of the
 Type: <b>LPWSABUF</b>
 
 An array of 
-<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> structures used to receive the message data. The capability of the <b>lpBuffers</b> member to contain multiple buffers enables the use of scatter/gather I/O.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> structures used to receive the message data. The capability of the <b>lpBuffers</b> member to contain multiple buffers enables the use of scatter/gather I/O.
 
 
 ### -field dwBufferCount
@@ -96,7 +96,7 @@ The number of buffers pointed to in the <b>lpBuffers</b> member.
 Type: <b>WSABUF</b>
 
 A structure of 
-<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> type used to specify optional control data. See Remarks.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a> type used to specify optional control data. See Remarks.
 
 
 ### -field dwFlags
@@ -184,7 +184,7 @@ On the Windows SDK released for Windows Vista and later, the <b>WSAMSG</b> stru
 
 If the datagram or control data is truncated during the transmission, the function being used in association with the 
 <b>WSAMSG</b> structure returns SOCKET_ERROR and a call to the 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function returns WSAEMSGSIZE. It is up to the application to determine what was truncated by checking for MSG_TRUNC and/or MSG_CTRUNC flags.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function returns WSAEMSGSIZE. It is up to the application to determine what was truncated by checking for MSG_TRUNC and/or MSG_CTRUNC flags.
 
 <h3><a id="Use_of_the_Control_Member"></a><a id="use_of_the_control_member"></a><a id="USE_OF_THE_CONTROL_MEMBER"></a>Use of the Control Member</h3>
 The following table summarizes the various uses of control data available for use in the <b>Control</b> member for IPv4 and IPv6.
@@ -206,7 +206,7 @@ Receives the original IPv4 arrival interface where the packet was received for d
 
 The cmsg_data[] member in the <b>WSAMSG</b> structure is a <b>ULONG</b> that contains the IF_INDEX defined in the Ifdef.h header file.
 
-For more information, see the <a href="https://msdn.microsoft.com/6b06a29e-59cd-4446-bd2f-131dc25bf571">IPPROTO_IP Socket Options</a> for the IP_ORIGINAL_ARRIVAL_IF socket option.
+For more information, see the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IPPROTO_IP Socket Options</a> for the IP_ORIGINAL_ARRIVAL_IF socket option.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>The IP_ORIGINAL_ARRIVAL_IF   <b>cmsg_type</b> is not supported.
 
@@ -216,12 +216,12 @@ For more information, see the <a href="https://msdn.microsoft.com/6b06a29e-59cd-
 <td>IPv4</td>
 <td>IPPROTO_IP</td>
 <td>
-<a href="https://msdn.microsoft.com/C6246899-0220-4F88-B43B-CED1B1FF7DC3">IP_PKTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ip-pktinfo">IP_PKTINFO</a>
 </td>
 <td>
 Specifies/receives packet information for an IPv4 socket.
 
-For more information, see the <a href="https://msdn.microsoft.com/C6246899-0220-4F88-B43B-CED1B1FF7DC3">IP_PKTINFO</a> socket option.
+For more information, see the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ip-pktinfo">IP_PKTINFO</a> socket option.
 
 </td>
 </tr>
@@ -241,7 +241,7 @@ Specifies/receives destination options.
 <td>
 Specifies/receives hop limit.
 
-For more information, see the <a href="https://msdn.microsoft.com/65f8f7a4-757b-43a3-9d47-b115754c89d6">IPPROTO_IPV6 Socket Options</a> for the IPV6_HOPLIMIT socket option.
+For more information, see the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a> for the IPV6_HOPLIMIT socket option.
 
 </td>
 </tr>
@@ -267,12 +267,12 @@ Specifies next-hop address.
 <td>IPv6</td>
 <td>IPPROTO_IPV6</td>
 <td>
-<a href="https://msdn.microsoft.com/7BF17538-BE92-44FE-BA3C-6B44F61D478A">IPV6_PKTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipv6-pktinfo">IPV6_PKTINFO</a>
 </td>
 <td>
 Specifies/receives packet information for an IPv6 socket.
 
-For more information, see the <a href="https://msdn.microsoft.com/7BF17538-BE92-44FE-BA3C-6B44F61D478A">IPV6_PKTINFO</a> socket option.
+For more information, see the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipv6-pktinfo">IPV6_PKTINFO</a> socket option.
 
 </td>
 </tr>
@@ -416,35 +416,35 @@ Returns the value in <b>cmsg_len</b> given the amount of data. Includes alignmen
 
 
 
-<a href="https://msdn.microsoft.com/7BF17538-BE92-44FE-BA3C-6B44F61D478A">IPV6_PKTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipv6-pktinfo">IPV6_PKTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/C6246899-0220-4F88-B43B-CED1B1FF7DC3">IP_PKTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ip-pktinfo">IP_PKTINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_wsabuf">WSABUF</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfe66e11-e9a7-4321-ad55-3141113e9a03">WSARecv</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>
 
 
 
-<a href="https://msdn.microsoft.com/8617dbb8-0e4e-4cd3-9597-5d20de6778f6">WSARecvFrom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>
 
 
 
-<a href="https://msdn.microsoft.com/a46449f7-3206-45e9-9df0-f272b8cdcc4b">WSARecvMsg</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08">WSASendMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>
  
 
  

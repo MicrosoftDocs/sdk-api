@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICQueryAbout</b> macro queries a video compression driver to determine if it has an About dialog box. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/6eca69a3-0463-48e6-befb-5003b7515e7d">ICM_ABOUT</a> message.
+The <b>ICQueryAbout</b> macro queries a video compression driver to determine if it has an About dialog box. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-about">ICM_ABOUT</a> message.
 
 
 
@@ -70,11 +70,11 @@ Handle of the compressor.
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

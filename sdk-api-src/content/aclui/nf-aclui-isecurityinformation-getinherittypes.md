@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>GetInheritTypes</b> method requests information about how ACEs can be inherited by child objects. For more information, see 
-<a href="https://msdn.microsoft.com/a9e5ad4d-61c6-43ed-a162-460683bcdb16">ACE Inheritance</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace-inheritance">ACE Inheritance</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>GetInheritTypes</b> method requests information about how ACEs can be inh
 ### -param ppInheritTypes [out]
 
 A pointer to a variable you should set to a pointer to an array of 
-<a href="https://msdn.microsoft.com/e8382c14-d3b4-4a7e-aeaa-06ef44d6ace2">SI_INHERIT_TYPE</a> structures. The array should include one entry for each combination of inheritance flags and child object type that you support.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_inherit_type">SI_INHERIT_TYPE</a> structures. The array should include one entry for each combination of inheritance flags and child object type that you support.
 
 
 ### -param pcInheritTypes [out]
@@ -94,27 +94,27 @@ The access control editor does not free the pointer returned in <i>ppInheritType
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/52cb20fd-7f3a-4984-a898-f4b9e9738e1a">CreateSecurityPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-createsecuritypage">CreateSecurityPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/756c94b0-946f-47eb-b4b4-db3e6e89fe46">EditSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8382c14-d3b4-4a7e-aeaa-06ef44d6ace2">SI_INHERIT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_si_inherit_type">SI_INHERIT_TYPE</a>
  
 
  

@@ -80,7 +80,7 @@ Returns the packed <b>UINT64</b> value.
 
 
 
-This function stores two 32-bit values in a 64-bit value that is suitable for the <a href="https://msdn.microsoft.com/817ed1c1-16ad-4520-a1a0-a93563936b50">IMFAttributes::SetUINT64</a> method.
+This function stores two 32-bit values in a 64-bit value that is suitable for the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64">IMFAttributes::SetUINT64</a> method.
 
 
 
@@ -90,15 +90,15 @@ This function stores two 32-bit values in a 64-bit value that is suitable for th
 
 
 
-<a href="https://msdn.microsoft.com/04e8c89e-115e-41d4-b8cb-953f68ddd14e">MFSetAttributeRatio</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfsetattributeratio">MFSetAttributeRatio</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf7b3cfe-fdce-417d-8c0b-198d026b8768">MFSetAttributeSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfsetattributesize">MFSetAttributeSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Handles the <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">WsCreateListener</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a> call
+                for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
 
 
 ## -parameters
@@ -67,10 +67,10 @@ The type of channel the listener listens for.
 ### -param *listenerParameters
 
 The pointer to the value that was specified by the
-                    <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property when the custom listener is created using <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">WsCreateListener</a>.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property when the custom listener is created using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a>.
                 
 
-If the <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property was not specified, the value will be <b>NULL</b>.
                 
 
 
@@ -79,7 +79,7 @@ If the <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1"
 The size in bytes of the value pointed to by listenerParameters.
                 
 
-If the <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property was not specified, the size will be 0.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_property_id">WS_LISTENER_PROPERTY_CUSTOM_LISTENER_PARAMETERS</a>property was not specified, the size will be 0.
                 
 
 
@@ -91,7 +91,7 @@ A pointer to an allocated structure that represents
                     for this particular listener instance.
                 
 
-If this callback is successful, then the <a href="https://msdn.microsoft.com/fd60ae42-5b3f-4482-b785-541f7379ab3e">WS_FREE_LISTENER_CALLBACK</a>will be used to free the listener instance.
+If this callback is successful, then the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_listener_callback">WS_FREE_LISTENER_CALLBACK</a>will be used to free the listener instance.
                 
 
 
@@ -109,7 +109,7 @@ A pointer to an allocated structure that represents
                     for this particular listener instance.
                 
 
-If this callback is successful, then the <a href="https://msdn.microsoft.com/fd60ae42-5b3f-4482-b785-541f7379ab3e">WS_FREE_LISTENER_CALLBACK</a>will be used to free the listener instance.
+If this callback is successful, then the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_free_listener_callback">WS_FREE_LISTENER_CALLBACK</a>will be used to free the listener instance.
                 
 
 

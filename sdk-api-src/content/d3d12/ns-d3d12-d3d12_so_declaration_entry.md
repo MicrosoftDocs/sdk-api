@@ -98,7 +98,7 @@ The associated stream output buffer that is bound to the pipeline.
 
 
 
-Specify an array of <b>D3D12_SO_DECLARATION_ENTRY</b> structures in the <b>pSODeclaration</b> member of a <a href="https://msdn.microsoft.com/9EFAA901-857B-40E3-B4B7-7C04D53BCA67">D3D12_STREAM_OUTPUT_DESC</a> structure. 
+Specify an array of <b>D3D12_SO_DECLARATION_ENTRY</b> structures in the <b>pSODeclaration</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_stream_output_desc">D3D12_STREAM_OUTPUT_DESC</a> structure. 
 
 
 
@@ -108,7 +108,7 @@ Specify an array of <b>D3D12_SO_DECLARATION_ENTRY</b> structures in the <b>pSODe
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

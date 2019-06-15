@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the XAML object reference marked in a previous call to <a href="https://msdn.microsoft.com/91c02fd8-a210-4e6a-ab60-43ea7c1312be">AddRefFromReferenceTracker</a>.
+Releases the XAML object reference marked in a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nf-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget-addreffromreferencetracker">AddRefFromReferenceTracker</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Releases the XAML object reference marked in a previous call to <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/204c647d-65c0-4b0e-b0fa-1abe9e8fdedd">IReferenceTrackerTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackertarget">IReferenceTrackerTarget</a>
  
 
  

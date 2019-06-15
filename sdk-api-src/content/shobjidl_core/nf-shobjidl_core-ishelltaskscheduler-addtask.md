@@ -59,16 +59,16 @@ Adds a task to the scheduler's background queue.
 
 ### -param prt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a>*</b>
 
-A pointer to an instance of an <a href="https://msdn.microsoft.com/158a6688-949b-4075-a790-fd6efb88792c">IRunnableTask</a> interface representing the task to add to the queue.
+A pointer to an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a> interface representing the task to add to the queue.
 
 
 ### -param rtoid [in]
 
 Type: <b>REFTASKOWNERID</b>
 
-A GUID identifying the owner of the task. This information can be used to group tasks for later <a href="https://msdn.microsoft.com/41c0af40-35c2-4ce2-b9c3-246ee6268f49">counting</a> or <a href="https://msdn.microsoft.com/a160cfcf-f989-4a7c-9da0-97d658c151b9">removal</a> by owner.
+A GUID identifying the owner of the task. This information can be used to group tasks for later <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-counttasks">counting</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-removetasks">removal</a> by owner.
 
 
 ### -param lParam [in]

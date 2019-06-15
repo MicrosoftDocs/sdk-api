@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>AddBandwidthSharing</b> method adds an existing bandwidth sharing object to the profile. Bandwidth sharing objects are created with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd757270(v=VS.85).aspx">CreateNewBandwidthSharing</a>. You must configure the bandwidth sharing object before adding it to the profile.
+The <b>AddBandwidthSharing</b> method adds an existing bandwidth sharing object to the profile. Bandwidth sharing objects are created with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing">CreateNewBandwidthSharing</a>. You must configure the bandwidth sharing object before adding it to the profile.
 
 
 
@@ -65,7 +65,7 @@ The <b>AddBandwidthSharing</b> method adds an existing bandwidth sharing object 
 
 ### -param pBS [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743298(v=VS.85).aspx">IWMBandwidthSharing</a> interface of a bandwidth sharing object.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing</a> interface of a bandwidth sharing object.
 
 
 ## -returns
@@ -158,19 +158,19 @@ Making a call to <b>AddBandwidthSharing</b> without first using the methods of <
 
 
 
-<a href="https://msdn.microsoft.com/9dc863da-1842-41e7-b66c-c97e0140046d">Bandwidth Sharing Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/bandwidth-sharing-object">Bandwidth Sharing Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757268(v=VS.85).aspx">IWMProfile3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757272(v=VS.85).aspx">IWMProfile3::GetBandwidthSharing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing">IWMProfile3::GetBandwidthSharing</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757381(v=VS.85).aspx">IWMProfile3::RemoveBandwidthSharing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removebandwidthsharing">IWMProfile3::RemoveBandwidthSharing</a>
  
 
  

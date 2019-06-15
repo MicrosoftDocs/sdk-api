@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>sockaddr_gen</b> union provides generic socket address information, and is used with the <a href="https://msdn.microsoft.com/fe1bf38d-70a7-4f0a-b76a-c0c9443d1782">INTERFACE_INFO</a> structure.
+The <b>sockaddr_gen</b> union provides generic socket address information, and is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_interface_info">INTERFACE_INFO</a> structure.
 
 
 ## -struct-fields
@@ -60,17 +60,17 @@ The <b>sockaddr_gen</b> union provides generic socket address information, and i
 
 ### -field Address
 
-IP address information expressed in a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure.
+IP address information expressed in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure.
 
 
 ### -field AddressIn
 
-IP address information expressed in a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a> structure.
+IP address information expressed in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a> structure.
 
 
 ### -field AddressIn6
 
-IP address information expressed in a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in6_old</a> structure.
+IP address information expressed in a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in6_old</a> structure.
 
 
 ## -remarks
@@ -87,15 +87,15 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr_in6_old</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr_in6_old</a>
  
 
  

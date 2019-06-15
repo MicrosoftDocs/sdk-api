@@ -99,8 +99,8 @@ If the specified name forms a valid 8.3 FAT file system name in the current OEM 
 
 
 This function does not have an associated import library. You must use the 
-    <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and 
-    <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to
     NtDll.dll.
 
 
@@ -111,7 +111,7 @@ This function does not have an associated import library. You must use the
 
 
 
-<a href="https://msdn.microsoft.com/bb0edcc5-4991-47d0-9ade-6c6776a36f39">CheckNameLegalDOS8Dot3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-checknamelegaldos8dot3a">CheckNameLegalDOS8Dot3</a>
  
 
  

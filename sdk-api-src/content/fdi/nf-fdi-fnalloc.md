@@ -89,7 +89,7 @@ FNALLOC(fnMemAlloc)
 
 
 
-<a href="https://msdn.microsoft.com/646a0cb4-1f3a-42a1-a508-12d80bdb4a01">FNFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfree">FNFree</a>
  
 
  

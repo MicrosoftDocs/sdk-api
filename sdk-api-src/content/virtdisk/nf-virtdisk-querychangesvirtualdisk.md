@@ -62,7 +62,7 @@ Retrieves information about changes  to the specified areas of a virtual hard di
 A handle to the open VHD, which must have been opened using the 
       <b>VIRTUAL_DISK_ACCESS_GET_INFO</b> flag set in the 
       <i>VirtualDiskAccessMask</i> parameter to the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function. For information on how to 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
       open a VHD, see the <b>OpenVirtualDisk</b> function.
 
 
@@ -88,12 +88,12 @@ Reserved. Set to <b>QUERY_CHANGES_VIRTUAL_DISK_FLAG_NONE</b>.
 
 ### -param Ranges [out]
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Mt162231(v=VS.85).aspx">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that indicates the areas of the virtual disk within the area that the <i>ByteOffset</i> and <i>ByteLength</i> parameters specify that have changed since the change tracking identifier that the <i>ChangeTrackingId</i>  parameter specifies was sealed.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_query_changes_virtual_disk_range">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that indicates the areas of the virtual disk within the area that the <i>ByteOffset</i> and <i>ByteLength</i> parameters specify that have changed since the change tracking identifier that the <i>ChangeTrackingId</i>  parameter specifies was sealed.
 
 
 ### -param RangeCount [in, out]
 
-An address of an unsigned long integer. On input, the value indicates the number of <a href="https://msdn.microsoft.com/en-us/library/Mt162231(v=VS.85).aspx">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that the array that the <i>Ranges</i> parameter points to can hold. On output, the value contains the number of <b>QUERY_CHANGES_VIRTUAL_DISK_RANGE</b> structures that the method placed in the array.
+An address of an unsigned long integer. On input, the value indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_query_changes_virtual_disk_range">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a> structures that the array that the <i>Ranges</i> parameter points to can hold. On output, the value contains the number of <b>QUERY_CHANGES_VIRTUAL_DISK_RANGE</b> structures that the method placed in the array.
 
 
 ### -param ProcessedLength [out]
@@ -111,7 +111,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
        <i>Ranges</i> parameter contains the requested information.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -121,15 +121,15 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt162231(v=VS.85).aspx">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_query_changes_virtual_disk_range">QUERY_CHANGES_VIRTUAL_DISK_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

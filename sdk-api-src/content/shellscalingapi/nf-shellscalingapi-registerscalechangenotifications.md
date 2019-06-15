@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 Registers a window to receive callbacks when scaling information changes.
-<div class="alert"><b>Note</b>  This function is not supported as of Windows 8.1. Use <a href="https://msdn.microsoft.com/05FAFC9B-DCB7-464A-9933-7166C7E53D40">RegisterScaleChangeEvent</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is not supported as of Windows 8.1. Use <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Registers a window to receive callbacks when scaling information changes.
 
 ### -param displayDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-display_device_type">DISPLAY_DEVICE_TYPE</a></b>
 
 The enum value that indicates which display device to receive notifications about.
 
@@ -79,14 +79,14 @@ The handle of the window that will receive the notifications.
 
 Type: <b>UINT</b>
 
-An application-defined message that is passed to the window specified by <i>hwndNotify</i> when scaling information changes.  Typically, this should be set to <a href="https://msdn.microsoft.com/en-us/library/ms644930(v=VS.85).aspx">WM_APP</a>+<i>x</i>, where <i>x</i> is an integer value.
+An application-defined message that is passed to the window specified by <i>hwndNotify</i> when scaling information changes.  Typically, this should be set to <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-app">WM_APP</a>+<i>x</i>, where <i>x</i> is an integer value.
 
 
 ### -param pdwCookie [out]
 
 Type: <b>DWORD*</b>
 
-Pointer to a value that, when this function returns successfully, receives a registration token. This token is used to revoke notifications by calling <a href="https://msdn.microsoft.com/95F1D147-D364-4b11-AE2B-CD1FCEA07B5D">RevokeScaleChangeNotifications</a>.
+Pointer to a value that, when this function returns successfully, receives a registration token. This token is used to revoke notifications by calling <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-revokescalechangenotifications">RevokeScaleChangeNotifications</a>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-This message specified by <i>uMsgNotify</i> is posted to the registered window through <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>. The <i>wParam</i> of the message can contain a combination of <a href="https://msdn.microsoft.com/18B3E8F1-C9A9-4CE4-8982-C552486EA9B1">SCALE_CHANGE_FLAGS</a> that describe  the change that occurred.
+This message specified by <i>uMsgNotify</i> is posted to the registered window through <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>. The <i>wParam</i> of the message can contain a combination of <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-scale_change_flags">SCALE_CHANGE_FLAGS</a> that describe  the change that occurred.
 
 
 
@@ -114,15 +114,15 @@ This message specified by <i>uMsgNotify</i> is posted to the registered window t
 
 
 
-<a href="https://msdn.microsoft.com/2F214512-704D-41A2-86A6-1EF880CD3DB4">GetScaleFactorForMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor">GetScaleFactorForMonitor</a>
 
 
 
-<a href="https://msdn.microsoft.com/05FAFC9B-DCB7-464A-9933-7166C7E53D40">RegisterScaleChangeEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-registerscalechangeevent">RegisterScaleChangeEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/4BF2F912-857A-4122-A9E1-6704F92240E6">UnregisterScaleChangeEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-unregisterscalechangeevent">UnregisterScaleChangeEvent</a>
  
 
  

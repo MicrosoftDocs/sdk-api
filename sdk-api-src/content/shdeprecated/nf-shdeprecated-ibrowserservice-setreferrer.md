@@ -62,7 +62,7 @@ Deprecated. Sets the pointer to an item identifier list (PIDL) used for zone che
 
 Type: <b>LPITEMIDLIST</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure (PIDL) used for zone checking.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure (PIDL) used for zone checking.
 
 
 ## -returns

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the  statistics that are reported by  <a href="https://msdn.microsoft.com/1d4a5486-8a9e-480a-952c-12fc7386af3e">GetLogIoStatistics</a>.  Initially, statistics packets report only flush statistics, including the frequency of data and metadata flushes on a physical log and the amount of data and metadata flushed.  The flush statistics are defined by the following I/O statistics packet types.
+Defines the  statistics that are reported by  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>.  Initially, statistics packets report only flush statistics, including the frequency of data and metadata flushes on a physical log and the amount of data and metadata flushed.  The flush statistics are defined by the following I/O statistics packet types.
 
 
 ## -struct-fields
@@ -87,11 +87,11 @@ The cumulative number of bytes of metadata flushed in the logging session.
 
 
 
-<a href="https://msdn.microsoft.com/ebf3f962-5c15-4caf-910a-13bf02137046">CLFS_IO_STATISTICS_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d4a5486-8a9e-480a-952c-12fc7386af3e">GetLogIoStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
  
 
  

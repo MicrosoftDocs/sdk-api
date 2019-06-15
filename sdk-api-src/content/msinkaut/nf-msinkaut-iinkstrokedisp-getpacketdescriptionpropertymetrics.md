@@ -63,9 +63,9 @@ Retrieves the metrics for a given packet description type.
 
 ### -param PropertyName [in]
 
-The globally unique identifier (GUID) from the <a href="https://msdn.microsoft.com/3e8495f6-0860-4ea8-a258-784eaade85c7">PacketProperty</a> constants that identifies the property for which to obtain metrics.
+The globally unique identifier (GUID) from the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants that identifies the property for which to obtain metrics.
 
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ### -param Minimum [out]
@@ -80,7 +80,7 @@ The maximum value, in logical units, that the tablet reports for this property. 
 
 ### -param Units [out]
 
-The physical units of the property, such as inches or degrees. For a list of property units, see the <a href="https://msdn.microsoft.com/c2258c48-4062-4528-9ebb-21cdbecf70ab">TabletPropertyMetricUnit</a> enumeration type.
+The physical units of the property, such as inches or degrees. For a list of property units, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit</a> enumeration type.
 
 
 ### -param Resolution [out]
@@ -176,23 +176,23 @@ An exception occurred while processing.
 
 
 
-<a href="https://msdn.microsoft.com/135dcd06-f533-4470-b5b0-ea559c20e3c4">GetPacketValuesByProperty Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketvaluesbyproperty">GetPacketValuesByProperty Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb">GetPropertyMetrics Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics">GetPropertyMetrics Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d90e93e-4c4a-43bd-a431-59522e332f2a">SetPacketValuesByProperty Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2258c48-4062-4528-9ebb-21cdbecf70ab">TabletPropertyMetricUnit Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit Enumeration</a>
  
 
  

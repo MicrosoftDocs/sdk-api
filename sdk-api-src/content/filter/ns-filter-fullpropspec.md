@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Specifies a property set and a property within the property set.
 
@@ -66,7 +66,7 @@ The globally unique identifier (GUID) that identifies the property set.
 
 ### -field psProperty
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS.85).aspx">PROPSPEC</a> structure that specifies a property either by its property identifier (propid) or by the associated string name (<b>lpwstr</b>).
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropspec">PROPSPEC</a> structure that specifies a property either by its property identifier (propid) or by the associated string name (<b>lpwstr</b>).
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa380070(v=VS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690965(v=VS.85).aspx">IFilter::Init</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-init">IFilter::Init</a>
  
 
  

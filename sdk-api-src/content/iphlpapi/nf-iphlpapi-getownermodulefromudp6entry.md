@@ -59,18 +59,18 @@ The <b>GetOwnerModuleFromUdp6Entry</b> function retrieves data about the module 
 
 ### -param pUdpEntry [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/dcc80b3c-d4d5-44f4-9c7f-df6be2e21889">MIB_UDP6ROW_OWNER_MODULE</a> structure that contains the IPv6 UDP endpoint entry used to obtain the owner module.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/udpmib/ns-udpmib-_mib_udp6row_owner_module">MIB_UDP6ROW_OWNER_MODULE</a> structure that contains the IPv6 UDP endpoint entry used to obtain the owner module.
 
 
 ### -param Class [in]
 
 
-<a href="https://msdn.microsoft.com/8529dd62-8516-47d0-8118-95e6d33fc799">TCPIP_OWNER_MODULE_INFO_CLASS</a> enumeration value that indicates the type of data to obtain regarding the owner module.
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ne-iprtrmib-_tcpip_owner_module_info_class">TCPIP_OWNER_MODULE_INFO_CLASS</a> enumeration value that indicates the type of data to obtain regarding the owner module.
 
 
 ### -param pBuffer [out]
 
-The buffer that contains a <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure with the owner module data. The type of data returned in this buffer is indicated by the value of the <i>Class</i> parameter.
+The buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure with the owner module data. The type of data returned in this buffer is indicated by the value of the <i>Class</i> parameter.
 
 The following structures are used for the data in <i>Buffer</i> when  <i>Class</i> is set to the corresponding value.
 
@@ -82,7 +82,7 @@ The following structures are used for the data in <i>Buffer</i> when  <i>Class</
 <tr>
 <td>TCPIP_OWNER_MODULE_BASIC_INFO</td>
 <td>
-<a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a>
 </td>
 </tr>
 </table>
@@ -128,9 +128,9 @@ An insufficient amount of space was allocated for the table. The size of the tab
 
 The <i>Buffer</i> parameter contains not only a structure with pointers to specific data, for example, pointers to the zero-terminated strings that contain the name and path of the owner module, but the actual data itself; that is the name and path strings. Therefore, when calculating the buffer size, ensure that you have enough space for both the structure as well as the data the members of the structure point to.
 
-The resolution of UDP table entries to owner modules is a best practice. In a few cases, the owner module name returned in the <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure can be a process name, such as "svchost.exe", a service name, such as "RPC", or a component name, such as "timer.dll".
+The resolution of UDP table entries to owner modules is a best practice. In a few cases, the owner module name returned in the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure can be a process name, such as "svchost.exe", a service name, such as "RPC", or a component name, such as "timer.dll".
 
-For computers running on Windows Vista or later, accessing the <b>pModuleName</b> and <b>pModulePath</b> members of the <a href="https://msdn.microsoft.com/cce3e0ff-31f2-454b-8aae-3b35f72f47ed">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure is limited  by user account control (UAC). If an application that calls this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will succeed but access to these members returns an empty string unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application on Windows Vista or later lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for access to the protected <b>pModuleName</b> and <b>pModulePath</b> members to be allowed. 
+For computers running on Windows Vista or later, accessing the <b>pModuleName</b> and <b>pModulePath</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-_tcpip_owner_module_basic_info">TCPIP_OWNER_MODULE_BASIC_INFO</a> structure is limited  by user account control (UAC). If an application that calls this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will succeed but access to these members returns an empty string unless the application has been marked in the manifest file with a <b>requestedExecutionLevel</b> set to requireAdministrator. If the application on Windows Vista or later lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for access to the protected <b>pModuleName</b> and <b>pModulePath</b> members to be allowed. 
 
 
 

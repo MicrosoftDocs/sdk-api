@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>UnregisterDeviceProvider</b> method permanently unregisters and unloads the device provider from the device host. The 
-<a href="https://msdn.microsoft.com/c8e4cd95-a6dc-4bf9-921e-63fbac743028">IUPnPDeviceProvider::Stop</a> method is invoked.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-stop">IUPnPDeviceProvider::Stop</a> method is invoked.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param bstrProviderName [in]
 
 Specifies the provider name. Use the same name that was used in the call to 
-<a href="https://msdn.microsoft.com/40f91b29-b535-46e7-834f-97f1a46084f7">RegisterDeviceProvider</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpregistrar-registerdeviceprovider">RegisterDeviceProvider</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 
-<a href="https://msdn.microsoft.com/c851e102-4f03-4a21-9e62-9b5c60a728f3">IUPnPRegistrar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpregistrar">IUPnPRegistrar</a>
  
 
  

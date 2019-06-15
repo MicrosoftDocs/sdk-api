@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to <a href="https://msdn.microsoft.com/1235dd6d-8495-4a92-96b7-4d741d9e296f">ID2D1DeviceContext::DrawImage</a>.  You should call the method after it has been attached to an <a href="https://msdn.microsoft.com/a54dd628-c2a2-4b04-9ced-7749a395f187">ID2D1DeviceContext</a>  and written to but before the command list is used.
+Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-drawimage">ID2D1DeviceContext::DrawImage</a>.  You should call the method after it has been attached to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>  and written to but before the command list is used.
 
 
 ## -parameters
@@ -107,7 +107,7 @@ If the <b>Close</b> method returns an error, any future use of the command list 
 
 
 
-<a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a>
  
 
  

@@ -57,7 +57,7 @@ The <b>IWMPPlayerServices</b> interface provides methods used by the host of a r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPPlayerServices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlayerServices</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPPlayerServices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWMPPlayerServices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563536(v=VS.85).aspx">activateUIPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-activateuiplugin">activateUIPlugin</a>
 </td>
 <td align="left" width="63%">
 Activates the specified user interface (UI) plug-in in the full mode of Windows Media Player.
@@ -81,7 +81,7 @@ Activates the specified user interface (UI) plug-in in the full mode of Windows 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563537(v=VS.85).aspx">setTaskPane</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpane">setTaskPane</a>
 </td>
 <td align="left" width="63%">
 Displays the specified task pane in the full mode of Windows Media Player.
@@ -90,7 +90,7 @@ Displays the specified task pane in the full mode of Windows Media Player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563538(v=VS.85).aspx">setTaskPaneURL (deprecated)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpaneurl">setTaskPaneURL (deprecated)</a>
 </td>
 <td align="left" width="63%">
 Displays the specified URL in the specified task pane of the full mode of Windows Media Player.
@@ -108,11 +108,11 @@ Retrieve a pointer to an <b>IWMPPlayerServices</b> interface by calling the COM 
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/d543b2a0-a2cb-47e2-b50e-4513fc061b46">Remoting the Windows Media Player Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
  
 
  

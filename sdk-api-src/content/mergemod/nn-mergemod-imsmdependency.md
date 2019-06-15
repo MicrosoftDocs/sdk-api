@@ -58,7 +58,7 @@ dependency.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmDependency</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmDependency</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmDependency</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmDependency</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,8 +75,8 @@ The <b>IMsmDependency</b> interface has these methods.
 <td align="left" width="37%"><b>get_Language</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/9b0608d1-b6e8-4cf9-8119-3c2909156516">Language</a> property of the 
-<a href="https://msdn.microsoft.com/3157f07d-99de-4628-9b03-eb86eb4896a4">Dependency</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object.
 
 </td>
 </tr>
@@ -84,8 +84,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Module</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/22aae1b6-59b6-4842-9523-d1e064511380">Module</a> property of the 
-<a href="https://msdn.microsoft.com/3157f07d-99de-4628-9b03-eb86eb4896a4">Dependency</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-module">Module</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. 
 
 </td>
 </tr>
@@ -93,8 +93,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Version</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://msdn.microsoft.com/784fb75c-2ed2-411a-b441-9c81297b487d">Version</a> property of the 
-<a href="https://msdn.microsoft.com/3157f07d-99de-4628-9b03-eb86eb4896a4">Dependency</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-version">Version</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object.
 
 </td>
 </tr>
@@ -106,11 +106,11 @@ Retrieves the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

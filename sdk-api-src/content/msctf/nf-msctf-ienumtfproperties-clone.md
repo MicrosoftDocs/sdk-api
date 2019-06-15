@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/99d8564f-98bc-4f30-bff9-923a4016a5fe">IEnumTfProperties</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a> interface pointer that receives the new enumerator.
 
 
 ## -returns
@@ -116,7 +116,7 @@ The method is not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/99d8564f-98bc-4f30-bff9-923a4016a5fe">IEnumTfProperties
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties
       </a>
  
 

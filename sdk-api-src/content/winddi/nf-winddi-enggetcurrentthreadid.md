@@ -82,11 +82,11 @@ Callers of <b>EngGetCurrentThreadId</b> should treat the returned ID as a read-o
 
 
 
-<a href="https://msdn.microsoft.com/63ed7f38-6874-4d33-80e4-fdd00175e039">EngGetCurrentProcessId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetcurrentprocessid">EngGetCurrentProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/51e39335-8ad7-4cd9-b46b-6fdd7a4de0bf">EngGetProcessHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetprocesshandle">EngGetProcessHandle</a>
  
 
  

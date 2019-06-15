@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WSCEnableNSProvider32</b> function enables or disables a specified 32-bit namespace provider. It is intended to give the end-user the ability to change the state of the namespace providers.<div class="alert"><b>Note</b>  This call is a strictly 32-bit version of <a href="https://msdn.microsoft.com/2dff5af6-3011-4e3f-b812-fffaca8fa2d9">WSCEnableNSProvider</a> for use on 64-bit computers. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
+The <b>WSCEnableNSProvider32</b> function enables or disables a specified 32-bit namespace provider. It is intended to give the end-user the ability to change the state of the namespace providers.<div class="alert"><b>Note</b>  This call is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenablensprovider">WSCEnableNSProvider</a> for use on 64-bit computers. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
 
@@ -75,7 +75,7 @@ A Boolean value that, if <b>TRUE</b>, the namespace provider is set to the activ
 
 If no error occurs, the 
 <b>WSCEnableNSProvider32</b> function returns <b>NO_ERROR</b> (zero). Otherwise, it returns <b>SOCKET_ERROR</b> if the function fails, and you must retrieve the appropriate error code using the 
-<a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
 
 <table>
 <tr>
@@ -85,7 +85,7 @@ If no error occurs, the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The <i>lpProviderId</i> parameter points to memory that is not in a valid part o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ The specified namespace provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -118,7 +118,7 @@ The specified namespace provider identifier is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,7 +139,7 @@ The specified namespace provider identifier is invalid.
 The 
 <b>WSCEnableNSProvider32</b> function is intended to be used to change the state of the namespace providers. An independent software vendor (ISV) should not normally de-activate another ISV's namespace provider in order to activate its own. The choice should be left to the user.    
 
-<b>WSCEnableNSProvider32</b> is a strictly 32-bit version of <a href="https://msdn.microsoft.com/2dff5af6-3011-4e3f-b812-fffaca8fa2d9">WSCEnableNSProvider</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
+<b>WSCEnableNSProvider32</b> is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenablensprovider">WSCEnableNSProvider</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
 The namespace configuration functions do not affect applications that are already running. Newly installed namespace providers will not be visible to applications nor will the changes in a namespace provider's activation state. Applications launched after the call to 
 <b>WSCEnableNSProvider32</b> will see the changes.
@@ -156,23 +156,23 @@ For computers running on Windows Vista or Windows Server 2008, this function c
 
 
 
-<a href="https://msdn.microsoft.com/2dff5af6-3011-4e3f-b812-fffaca8fa2d9">WSCEnableNSProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenablensprovider">WSCEnableNSProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/f46042f6-0b14-4a14-abc1-4e40c34b1599">WSCEnumProtocols32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
 
 
 
-<a href="https://msdn.microsoft.com/b107fbe6-bbfb-45be-8419-4d85d3c4e80c">WSCInstallNameSpace32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespace32">WSCInstallNameSpace32</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2a08159-6ac0-493d-8f9f-d19aa199a65f">WSCUnInstallNameSpace32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscuninstallnamespace32">WSCUnInstallNameSpace32</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5b15d28-8137-42bf-8f2a-7c6b5a8a63c2">WSCWriteNameSpaceOrder32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sporder/nf-sporder-wscwritenamespaceorder32">WSCWriteNameSpaceOrder32</a>
  
 
  

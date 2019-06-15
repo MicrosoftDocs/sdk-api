@@ -75,7 +75,7 @@ A pointer to the null-terminated string to be copied.
 
 Type: <b>LPTSTR*</b>
 
-A pointer to an allocated Unicode string that contains the result. <b>SHStrDup</b> allocates memory for this string with <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>. You should free the string with <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when it is no longer needed.
+A pointer to an allocated Unicode string that contains the result. <b>SHStrDup</b> allocates memory for this string with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. You should free the string with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
 
                     
 
@@ -99,7 +99,7 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 This function will take either Unicode or ANSI strings as input, but the copied string is always Unicode.
 
-This function uses <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> to allocate memory for the copied string. You must free this memory with <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> when it is no longer needed.
+This function uses <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the copied string. You must free this memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
 
 
 
@@ -109,7 +109,7 @@ This function uses <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-7
 
 
 
-<a href="https://msdn.microsoft.com/fa77f0b3-8a9b-4221-87e3-9aebff4409fb">StrDup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strdupa">StrDup</a>
  
 
  

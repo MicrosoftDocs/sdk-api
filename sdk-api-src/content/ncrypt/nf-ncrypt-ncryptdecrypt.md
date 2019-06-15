@@ -124,7 +124,7 @@ No padding was used when the data was encrypted. The <i>pPaddingInfo</i> paramet
 </dl>
 </td>
 <td width="60%">
-The Optimal Asymmetric Encryption Padding (OAEP) scheme was used when the data was encrypted. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://msdn.microsoft.com/19f48f2d-e952-4a01-8112-f298c79919b2">BCRYPT_OAEP_PADDING_INFO</a> structure.
+The Optimal Asymmetric Encryption Padding (OAEP) scheme was used when the data was encrypted. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcrypt_oaep_padding_info">BCRYPT_OAEP_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -266,7 +266,7 @@ A service must not call this function from its <a href="http://go.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/837fc720-2167-4ead-86ea-2c3d438f2530">NCryptEncrypt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptencrypt">NCryptEncrypt</a>
  
 
  

@@ -83,11 +83,11 @@ The SDO computer is part of a Windows domain running in mixed mode.
 
 
 
-<a href="https://msdn.microsoft.com/83a3d4cf-e0ab-467a-8c5a-b7372c76cca3">IASOSTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_iasostype">IASOSTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c22ec67-4a12-4487-bac5-8f0e666b8029">ISdoMachine::GetDomainType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getdomaintype">ISdoMachine::GetDomainType</a>
  
 
  

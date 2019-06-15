@@ -64,7 +64,7 @@ A handle to the transaction. The handle must have  the TRANSACTION_QUERY_INFORMA
 
 ### -param Outcome [out, optional]
 
-A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://msdn.microsoft.com/d4315a62-b65f-4744-8084-2317ad39c32c">TRANSACTION_OUTCOME</a> enumeration values.
+A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_transaction_outcome">TRANSACTION_OUTCOME</a> enumeration values.
 
 
 ### -param IsolationLevel [out, optional]
@@ -98,7 +98,7 @@ A pointer to a buffer that receives the user-defined description of the transact
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 The following list identifies the possible error codes:
@@ -113,15 +113,15 @@ The following list identifies the possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/578bda35-bd35-4f6d-8366-a4bfb4dbfe42">CreateTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e33d221b-cd06-4f20-a4b5-407a04362ba0">SetTransactionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-settransactioninformation">SetTransactionInformation</a>
  
 
  

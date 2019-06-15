@@ -112,7 +112,7 @@ The channel contains sound effect B.
 
 
 
-This enumeration is used in the <a href="https://msdn.microsoft.com/dffb0b0e-edce-47e7-b9c0-983fdd2c4746">DVD_KaraokeAttributes</a> structure.
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_karaokeattributes">DVD_KaraokeAttributes</a> structure.
 
 
 
@@ -122,7 +122,7 @@ This enumeration is used in the <a href="https://msdn.microsoft.com/dffb0b0e-edc
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

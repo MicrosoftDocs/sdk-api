@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::SetErrorInfo</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/114abaf1-fe67-4d80-ad5d-f49aac9dd587">IWRdsProtocolConnection::SetErrorInfo</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::SetErrorInfo</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-seterrorinfo">IWRdsProtocolConnection::SetErrorInfo</a>.]
 
 Sends an error code to the client.
 
@@ -69,7 +69,7 @@ An integer that contains the error code.
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

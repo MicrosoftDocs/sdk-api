@@ -73,7 +73,7 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://msdn.microsoft.com/434e2eb2-b149-46e6-b7d0-0d07c44bcec2">IWdsTransportNamespaceScheduledCast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast">IWdsTransportNamespaceScheduledCast</a>
  
 
  

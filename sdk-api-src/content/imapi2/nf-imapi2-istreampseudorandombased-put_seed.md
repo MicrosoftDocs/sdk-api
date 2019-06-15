@@ -76,15 +76,15 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/7630b8ac-41f9-4cc7-95e7-4172a876673f">IStreamPseudoRandomBased</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5362760-84c6-4e93-b3cd-2ce568b13102">IStreamPseudoRandomBased::get_Seed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">IStreamPseudoRandomBased::get_Seed</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6edf21f-b89a-4780-8065-4d09758fe701">IStreamPseudoRandomBased::put_ExtendedSeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">IStreamPseudoRandomBased::put_ExtendedSeed</a>
  
 
  

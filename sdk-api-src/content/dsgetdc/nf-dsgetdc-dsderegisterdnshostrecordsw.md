@@ -107,11 +107,11 @@ This function deregisters SRV and CNAME records only. It leaves type A records i
 
 
 
-<a href="https://msdn.microsoft.com/e0f757d9-36b6-40f8-a1db-fb5b9862b46a">DsGetDcSiteCoverage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcsitecoveragea">DsGetDcSiteCoverage</a>
 
 
 
-<a href="https://msdn.microsoft.com/2dfffd9a-af4f-4a93-8b3c-966e4f7c455f">DsGetSiteName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
  
 
  

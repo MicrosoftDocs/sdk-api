@@ -117,11 +117,11 @@ The argument passed in the parameter is not a valid Variant type.
 
 
 
-<a href="https://msdn.microsoft.com/d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a">ISharedProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/19ed8d50-3ac1-408e-9f25-09f284d025f1">SharedProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a>
  
 
  

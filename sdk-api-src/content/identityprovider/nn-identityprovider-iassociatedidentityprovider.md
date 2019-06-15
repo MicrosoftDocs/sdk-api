@@ -55,7 +55,7 @@ The <b>IAssociatedIdentityProvider</b> interface allows an identity provider to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssociatedIdentityProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAssociatedIdentityProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAssociatedIdentityProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAssociatedIdentityProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAssociatedIdentityProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d1d1da9-c1d0-4970-aad2-928bf6a4aaf0">AssociateIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iassociatedidentityprovider-associateidentity">AssociateIdentity</a>
 </td>
 <td align="left" width="63%">
 Associates an identity with a local user account.
@@ -79,7 +79,7 @@ Associates an identity with a local user account.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a4361a8-8054-434e-9852-fcc20b1086cd">ChangeCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iassociatedidentityprovider-changecredential">ChangeCredential</a>
 </td>
 <td align="left" width="63%">
 Changes the credentials associated with the specified identity.
@@ -89,7 +89,7 @@ Changes the credentials associated with the specified identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e89b558-bb58-4ef9-86f5-447d5cb0a946">DisassociateIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iassociatedidentityprovider-disassociateidentity">DisassociateIdentity</a>
 </td>
 <td align="left" width="63%">
 Disassociates the specified identity from a local user account.

@@ -67,7 +67,7 @@ Globally unique identifier (GUID) of the writer class that exported the componen
 ### -param componentType [in]
 
 Type of the component. The possible values of this parameter are defined by the 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> enumeration.
 
 
 ### -param wszLogicalPath [in]
@@ -75,7 +75,7 @@ Type of the component. The possible values of this parameter are defined by the
 <b>Null</b>-terminated wide character string containing the logical path to the component. 
 
 
-For more information, see <a href="https://msdn.microsoft.com/663c8ca9-8f5b-48bd-af2d-b2d90de9e492">Logical Pathing of Components</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 The logical path can be <b>NULL</b>.
 
@@ -122,7 +122,7 @@ A Boolean value that indicates whether the path specified by the <i>wszPath</i> 
 
 
 For information on traversing mounted folders, see 
-<a href="https://msdn.microsoft.com/d0e08598-a8a2-489b-9cb2-e989bed1ce53">Working with Mounted Folders and Reparse Points</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 
 ### -param wszDestination [in]
@@ -193,7 +193,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ The specified component does not exist.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -238,9 +238,9 @@ The <i>writerId</i>, <i>componentType</i>, <i>wszLogicalPath</i>, and <i>wszComp
 
 The combination of path, file specification, and recursion flag (<i>wszPath</i>, <i>wszFilespec</i>, and <i>bRecursive</i>, respectively) provided to 
 <b>AddAlternativeLocationMapping</b> to be mapped must match that of one of the file sets added to a component using either 
-<a href="https://msdn.microsoft.com/5d5a0155-467c-4c42-876e-a1b245cf6f8e">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
-<a href="https://msdn.microsoft.com/37ef5e50-127d-4bd0-9d26-04dc7781b3ff">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
-<a href="https://msdn.microsoft.com/09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>.
 
 Because 
 <b>AddAlternativeLocationMapping</b> is used to notify a writer that an alternate location was used to restore all the files in a component, it should not be called for any component or files in a component that have not had an alternate location mapping specified.
@@ -252,11 +252,11 @@ A typical usage of
 
 <ol>
 <li>Retrieve stored Writer Metadata Documents from the backup media and load that information with 
-<a href="https://msdn.microsoft.com/8a508a2c-1c42-4414-9c54-a78d1e1564a0">IVssExamineWriterMetadata::LoadFromXML</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml">IVssExamineWriterMetadata::LoadFromXML</a>.</li>
 <li>Call 
-<a href="https://msdn.microsoft.com/1264d4bc-dd45-41e7-9f95-c6e9aebd4d22">IVssExamineWriterMetadata::GetAlternateLocationMapping</a> to get an 
-<a href="https://msdn.microsoft.com/0b86882d-af1b-4a09-8c25-5b806c9ca909">IVssWMFiledesc</a> interface with the mapping information and use 
-<a href="https://msdn.microsoft.com/3bb787eb-ac15-40d0-9901-b869442399c5">IVssWMFiledesc::GetAlternateLocation</a> to get the alternate location.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getalternatelocationmapping">IVssExamineWriterMetadata::GetAlternateLocationMapping</a> to get an 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> interface with the mapping information and use 
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getalternatelocation">IVssWMFiledesc::GetAlternateLocation</a> to get the alternate location.</li>
 <li>Examine filedesc information to heuristically determine which component this alternate location mapping should be applied to.</li>
 <li>Call 
 <b>IVssBackupComponents::AddAlternativeLocationMapping</b> to communicate where files were restored.</li>
@@ -287,15 +287,15 @@ An alternate location mapping is used only during a restore operation and should
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bb787eb-ac15-40d0-9901-b869442399c5">IVssWMFiledesc::GetAlternateLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsswmfiledesc-getalternatelocation">IVssWMFiledesc::GetAlternateLocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
  
 
  

@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/3a0add24-74bb-4645-8ea2-ec14ecfa8fb5">IDVBTLocator2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator2">IDVBTLocator2</a>
  
 
  

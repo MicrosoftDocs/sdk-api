@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the current selection from a combo box filled by using the <a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a> function. The selection is interpreted as a drive letter, a file, or a directory name. 
+Retrieves the current selection from a combo box filled by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlistcomboboxa">DlgDirListComboBox</a> function. The selection is interpreted as a drive letter, a file, or a directory name. 
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Retrieves the current selection from a combo box filled by using the <a href="ht
 
 ### -param hwndDlg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the combo box. 
 
 
 ### -param lpString [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to the buffer that receives the selected path. 
 
@@ -91,13 +91,13 @@ The integer identifier of the combo box control in the dialog box.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the current selection is a directory name, the return value is nonzero.
                 
                     
 
-If the current selection is not a directory name, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the current selection is not a directory name, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -112,11 +112,11 @@ The <b>DlgDirSelectComboBoxEx</b> function does not allow more than one file nam
 
 If the string is as long or longer than the buffer, the buffer contains the truncated string with a terminating null character.
 
-<b>DlgDirSelectComboBoxEx</b> sends <a href="https://msdn.microsoft.com/en-us/library/Bb775845(v=VS.85).aspx">CB_GETCURSEL</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a> messages to the combo box. 
+<b>DlgDirSelectComboBoxEx</b> sends <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getcursel">CB_GETCURSEL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a> messages to the combo box. 
 
-You can use this function with all three types of combo boxes (<a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_SIMPLE</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_DROPDOWN</a>, and CBS_DROPDOWNLIST). 
+You can use this function with all three types of combo boxes (<a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_SIMPLE</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_DROPDOWN</a>, and CBS_DROPDOWNLIST). 
 
-<b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="https://msdn.microsoft.com/en-us/library/Bb773171(v=VS.85).aspx">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="https://docs.microsoft.com/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 <b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href="http://go.microsoft.com/fwlink/p/?linkid=198351">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
@@ -128,15 +128,15 @@ You can use this function with all three types of combo boxes (<a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775845(v=VS.85).aspx">CB_GETCURSEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getcursel">CB_GETCURSEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775862(v=VS.85).aspx">CB_GETLBTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775935(v=VS.85).aspx">DlgDirListComboBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlistcomboboxa">DlgDirListComboBox</a>
 
 
 

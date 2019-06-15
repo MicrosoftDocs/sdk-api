@@ -66,7 +66,7 @@ The index of the type description within the type library.
 
 ### -param pTKind [out]
 
-The <a href="https://msdn.microsoft.com/ea7ae5cf-9572-4174-bfcb-63aabba26ed8">TYPEKIND</a> enumeration value for the type description.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ne-oaidl-tagtypekind">TYPEKIND</a> enumeration value for the type description.
 
 
 ## -returns
@@ -99,7 +99,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The <i>index</i> parameter is outside the range of  to <a href="https://msdn.microsoft.com/63436bee-c71b-4d32-bfca-426c8953a75b">GetTypeInfoCount</a> - 1.
+The <i>index</i> parameter is outside the range of  to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-gettypeinfocount">GetTypeInfoCount</a> - 1.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ The <i>index</i> parameter is outside the range of  to <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
  
 
  

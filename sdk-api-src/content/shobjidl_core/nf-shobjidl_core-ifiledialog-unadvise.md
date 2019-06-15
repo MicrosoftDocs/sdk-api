@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes an event handler that was attached through the <a href="https://msdn.microsoft.com/f5664a52-f26c-475d-84ef-0c657ae46e2e">IFileDialog::Advise</a> method.
+Removes an event handler that was attached through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-advise">IFileDialog::Advise</a> method.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Removes an event handler that was attached through the <a href="https://msdn.mic
 
 Type: <b>DWORD</b>
 
-The <b>DWORD</b> value that represents the event handler. This value is obtained through the <i>pdwCookie</i> parameter of the <a href="https://msdn.microsoft.com/f5664a52-f26c-475d-84ef-0c657ae46e2e">IFileDialog::Advise</a> method.
+The <b>DWORD</b> value that represents the event handler. This value is obtained through the <i>pdwCookie</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-advise">IFileDialog::Advise</a> method.
 
 
 ## -returns

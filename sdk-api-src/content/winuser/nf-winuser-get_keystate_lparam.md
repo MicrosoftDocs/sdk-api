@@ -66,7 +66,7 @@ The value to be converted.
 
 
 
-This macro is identical to the <a href="https://msdn.microsoft.com/en-us/library/ms646249(v=VS.85).aspx">GET_FLAGS_LPARAM</a> macro.
+This macro is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_flags_lparam">GET_FLAGS_LPARAM</a> macro.
 
 
 
@@ -80,11 +80,11 @@ This macro is identical to the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646249(v=VS.85).aspx">GET_FLAGS_LPARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_flags_lparam">GET_FLAGS_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 

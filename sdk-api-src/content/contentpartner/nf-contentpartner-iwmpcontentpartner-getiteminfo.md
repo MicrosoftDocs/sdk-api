@@ -121,7 +121,7 @@ g_szItemInfo_ALTLoginURL
 
 The <i>pContext</i> parameter has type <b>VT_EMPTY</b> and supplies no information.
 
-The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of a webpage that Windows Media Player will display as an alternative to the standard log-in dialog box. Windows Media Player requests the alternative log-in URL only if the <b>SUBSCRIPTION_CAP_ALTLOGIN</b> flag is set in the <b>Capabilities</b> registry entry for the online store's plug-in. For more information about the <b>Capabilities</b> registry entry, see <a href="https://msdn.microsoft.com/cf25a004-e0c3-407c-8704-54be3601528b">Registry Keys and Entries for a Type 1 Online Store</a>.
+The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of a webpage that Windows Media Player will display as an alternative to the standard log-in dialog box. Windows Media Player requests the alternative log-in URL only if the <b>SUBSCRIPTION_CAP_ALTLOGIN</b> flag is set in the <b>Capabilities</b> registry entry for the online store's plug-in. For more information about the <b>Capabilities</b> registry entry, see <a href="https://docs.microsoft.com/windows/desktop/WMP/registry-keys-and-entries-for-a-type-1-online-store">Registry Keys and Entries for a Type 1 Online Store</a>.
 
 The online store can specify the size of the window that hosts the alternative log-in page by appending the parameter string ?DlgX=<i>width</i>&amp;DlgY=<i>height</i> to the URL. In the parameter string, <i>width</i> and <i>height</i> are the width and height of the window in pixels. For example <b>GetItemInfo</b> could return the following string to specify that AltLogin.htm should be displayed in a window that has a width of 800 pixels and a height of 400 pixels:
 
@@ -147,7 +147,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webp
 
 g_szItemInfo_ErrorDescription
 
-The <i>pContext</i> parameter supplies a <b>VT_ERROR</b> that is an <b>HRESULT</b> that the plug-in previously supplied to the Player. For example, the plug-in supplies an <b>HRESULT</b> when it calls <a href="https://msdn.microsoft.com/en-us/library/Dd563144(v=VS.85).aspx">IWMPContentPartnerCallback::BuyComplete</a>.
+The <i>pContext</i> parameter supplies a <b>VT_ERROR</b> that is an <b>HRESULT</b> that the plug-in previously supplied to the Player. For example, the plug-in supplies an <b>HRESULT</b> when it calls <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">IWMPContentPartnerCallback::BuyComplete</a>.
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the error description created by the online store and associated with the <b>HRESULT</b>. Windows Media Player displays the error message but does not interpret it.
 
@@ -189,7 +189,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art 
 
 g_szItemInfo_HTMLViewURL
 
-The <i>pContext</i> parameter supplies a <b>VT_BSTR</b> that is a string that Windows Media Player obtained from a <a href="https://msdn.microsoft.com/d905a42a-ac89-4c99-94ca-b3b7060ebbdc">PARAM</a> element in a Windows Media metafile (ASX file).
+The <i>pContext</i> parameter supplies a <b>VT_BSTR</b> that is a string that Windows Media Player obtained from a <a href="https://docs.microsoft.com/windows/desktop/WMP/param-element">PARAM</a> element in a Windows Media metafile (ASX file).
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webpage that Windows Media Player will display.
 
@@ -207,7 +207,7 @@ The <i>pContext</i> parameter supplies a <b>VT_UI4</b> that is the index of a we
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the webpage.
 
-Windows Media Player previously obtained the index when the online store's plug-in called <a href="https://msdn.microsoft.com/en-us/library/Dd563150(v=VS.85).aspx">IWMPContentPartnerCallback::Notify</a>, passing wmpcnLoginStateChange in the <i>type</i> parameter. The indexes of log-in failure webpages are not interpreted by Windows Media Player; they have meaning only to the online store.
+Windows Media Player previously obtained the index when the online store's plug-in called <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">IWMPContentPartnerCallback::Notify</a>, passing wmpcnLoginStateChange in the <i>type</i> parameter. The indexes of log-in failure webpages are not interpreted by Windows Media Player; they have meaning only to the online store.
 
 g_szItemInfo_PopupURL
 
@@ -241,7 +241,7 @@ The <i>pData</i> parameter receives a <b>VT_BSTR</b> that is the URL of the art 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
  
 
  

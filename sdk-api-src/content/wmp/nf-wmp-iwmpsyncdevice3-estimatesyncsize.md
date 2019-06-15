@@ -62,12 +62,12 @@ The <b>estimateSyncSize</b> method initiates the estimation of the size required
 
 ### -param pNonRulePlaylist [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified the estimation will return the size of <i>pNonRulePlaylist</i> and the current sync rules, if any.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified the estimation will return the size of <i>pNonRulePlaylist</i> and the current sync rules, if any.
 
 
 ### -param pRulesPlaylist [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified then the current sync rules will be excluded from the estimation so that the estimation will return the size of <i>pNonRulePlaylist</i> and <i>pRulesPlaylist</i>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist</a> interface that represents the playlist for which the size will be estimated. This parameter can be set to <b>NULL</b>. If this argument is specified then the current sync rules will be excluded from the estimation so that the estimation will return the size of <i>pNonRulePlaylist</i> and <i>pRulesPlaylist</i>.
 
 
 ## -returns
@@ -124,7 +124,7 @@ A synchronization session is already in progress for the device.
 
 
 
-The estimation of required size is done asynchronously. That is, this method initiates the estimation and then returns immediately. When the estimation is complete, Windows Media Player raises the <a href="https://msdn.microsoft.com/2fb45a13-d82b-48b6-b9bb-46409f33a33f">IWMPEvents4::SyncEstimationComplete</a> event.
+The estimation of required size is done asynchronously. That is, this method initiates the estimation and then returns immediately. When the estimation is complete, Windows Media Player raises the <a href="https://docs.microsoft.com/windows/desktop/WMP/iwmpevents4-syncestimationcomplete">IWMPEvents4::SyncEstimationComplete</a> event.
 
 The estimation cannot occur if a synchronization session is currently in progress for the device.
 
@@ -138,7 +138,7 @@ If you call this method and then call it again before the first estimation is co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563713(v=VS.85).aspx">IWMPSyncDevice3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>
  
 
  

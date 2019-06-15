@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.
 
-The <b>WlxDisplayLockedNotice</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function when the workstation is placed in the locked state.
+The <b>WlxDisplayLockedNotice</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function when the workstation is placed in the locked state.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>WlxDisplayLockedNotice</b> function must be implemented by a replacement 
 ### -param pWlxContext [in]
 
 Pointer to the GINA context associated with this window station. This is the context value that the GINA returns when Winlogon calls 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> for this station.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 
 ## -returns
@@ -81,7 +81,7 @@ This function has no return values.
 
 
 To display lock information, the GINA must display a dialog box that will be interrupted by a WLX_WM_SAS message. For more information, see 
-<a href="https://msdn.microsoft.com/3da1c3d2-5116-47c3-98e4-f29b33693c69">Sending Messages to the GINA</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sending-messages-to-the-gina">Sending Messages to the GINA</a>.
 
 Before calling <b>WlxDisplayLockedNotice</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
@@ -93,11 +93,11 @@ Before calling <b>WlxDisplayLockedNotice</b>, Winlogon sets the desktop state so
 
 
 
-<a href="https://msdn.microsoft.com/2b56c037-aae6-4cb7-932f-15cf18c4444a">WlxDisplaySASNotice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxdisplaysasnotice">WlxDisplaySASNotice</a>
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

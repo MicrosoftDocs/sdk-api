@@ -54,7 +54,7 @@ The <b>IADsObjectOptions</b> interface provides a direct mechanism to specify an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsObjectOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsObjectOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsObjectOptions</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsObjectOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IADsObjectOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77a994d2-81ae-4afb-be5c-be8d7159a2c2">GetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">GetOption</a>
 </td>
 <td align="left" width="63%">
 Gets a provider-specific option for a directory object.
@@ -78,7 +78,7 @@ Gets a provider-specific option for a directory object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6e43c99-fc8b-4f34-82cf-8cf30c506859">SetOption</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">SetOption</a>
 </td>
 <td align="left" width="63%">
 Sets a provider-specific option for manipulating a directory object.
@@ -93,23 +93,23 @@ Sets a provider-specific option for manipulating a directory object.
 
 
 
-<a href="https://msdn.microsoft.com/afb32e03-7e4e-4df9-87c7-db962d62e5f0">ADS_OPTION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0001">ADS_OPTION_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/9cd1bb86-313d-4499-97ae-0b53a13a804b">ADS_SECURITY_INFO_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0002">ADS_SECURITY_INFO_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf41b0c4-7459-49cf-945b-8462c7d19947">Fast Binding Option for Batch Write/Modify Operations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/fast-binding-option-for-batch-writemodify-operations">Fast Binding Option for Batch Write/Modify Operations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4ac114f-1a23-4be6-af02-0c0d34a8f78f">IADsObjectOptions Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsobjectoptions-interface">IADsObjectOptions Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

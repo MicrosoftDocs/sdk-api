@@ -83,7 +83,7 @@ It is important to note that if <i>fPublish</i> is set to <b>TRUE</b>, the <i>Pu
 
 ### -param ppResolver [out]
 
-A pointer to the created PNRP bootstrap resolver which is used in the <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> structure.
+A pointer to the created PNRP bootstrap resolver which is used in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
 
 
 ## -returns
@@ -126,14 +126,14 @@ The system cannot allocate memory for the provider.
 </dl>
 </td>
 <td width="60%">
-Underlying calls to <a href="https://msdn.microsoft.com/27d8d6ab-679d-4b7b-bf90-7b0859e7e048">PeerPnrpStartup</a> or <a href="https://msdn.microsoft.com/27a1b563-7bbe-4117-8bc3-19dd47360308">PeerIdentityGetCryptKey</a> return a transient error.  Try calling this function again.
+Underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetcryptkey">PeerIdentityGetCryptKey</a> return a transient error.  Try calling this function again.
 
 </td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  This function may also surface errors returned by underlying calls to <a href="https://msdn.microsoft.com/27d8d6ab-679d-4b7b-bf90-7b0859e7e048">PeerPnrpStartup</a> or <a href="https://msdn.microsoft.com/27a1b563-7bbe-4117-8bc3-19dd47360308">PeerIdentityGetCryptKey</a>.</div>
+<div class="alert"><b>Note</b>  This function may also surface errors returned by underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetcryptkey">PeerIdentityGetCryptKey</a>.</div>
 <div> </div>
 
 
@@ -152,11 +152,11 @@ The default PNRP Bootstrap Resolver created by this function is specific to the 
 
 
 
-<a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ff7bcc6-548b-475a-8a83-1ca50dbe333d">DrtDeletePnrpBootstrapResolver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletepnrpbootstrapresolver">DrtDeletePnrpBootstrapResolver</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/2acabcc2-242d-4b3d-b5b4-680c7973201f">IMFMediaSourceExtension</a>.
+Creates an instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
 
 
 ## -parameters
@@ -68,19 +68,19 @@ This method supports the following  Media Foundation attributes:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/A5783F9B-6261-4384-9484-275F550709E2">MF_MSE_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mse-callback">MF_MSE_CALLBACK</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9A68B650-97C0-4323-ACBF-5C8E496E8566">MF_MSE_BUFFERLIST_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mse-bufferlist-callback">MF_MSE_BUFFERLIST_CALLBACK</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/703A7BF0-A89F-40E9-9440-B8C8E03FDE1A">MF_MSE_ACTIVELIST_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mse-activelist-callback">MF_MSE_ACTIVELIST_CALLBACK</a>
 </li>
 </ul>
 
 ### -param ppMSE [out]
 
-The <a href="https://msdn.microsoft.com/2acabcc2-242d-4b3d-b5b4-680c7973201f">IMFMediaSourceExtension</a> which was created.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a> which was created.
 
 
 ## -returns
@@ -97,7 +97,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d672ee59-f702-49c7-8ccf-5ba0260c9b23">IMFMediaEngineClassFactoryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactoryex">IMFMediaEngineClassFactoryEx</a>
  
 
  

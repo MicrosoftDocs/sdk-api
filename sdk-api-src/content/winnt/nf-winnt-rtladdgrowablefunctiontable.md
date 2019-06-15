@@ -67,7 +67,7 @@ A pointer to a variable that receives an opaque reference to the newly-added tab
 ### -param FunctionTable
 
 A pointer to a partially-filled array of 
-       <a href="https://msdn.microsoft.com/9ed16f9a-3403-4ba9-9968-f51f6788a1f8">RUNTIME_FUNCTION</a> entries which provides 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_runtime_function_entry">RUNTIME_FUNCTION</a> entries which provides 
        unwind information for the region of code. The entries in this array must remain sorted in ascending order of 
        the <b>BeginAddress</b> members.
 
@@ -99,7 +99,7 @@ The end of the memory range described by the function table.
 This function returns zero on success. (More detail).
 
 See 
-      <a href="http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
+      <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55">http://msdn.microsoft.com/en-us/library/cc704588(PROT.10).aspx</a> 
       for a list of <b>NTSTATUS</b> values.
 
 

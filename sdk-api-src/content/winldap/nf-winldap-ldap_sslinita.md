@@ -79,10 +79,10 @@ If nonzero, the function uses SSL encryption. If the value is 0, the function es
 
 
 If the function succeeds, it returns a session handle, in the form of a pointer to an 
-<a href="https://msdn.microsoft.com/844093e1-daba-494d-91b3-67455ff2e456">LDAP</a> structure. The session handle must be freed with a call to <a href="https://msdn.microsoft.com/5d8b3198-3935-4305-b0f1-eaf1a9355cf3">ldap_unbind</a> when it is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> structure. The session handle must be freed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> when it is no longer needed.
 
 If the function fails, the return value is <b>NULL</b>. Use 
-<a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a> to retrieve the error code.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a> to retrieve the error code.
 
 
 
@@ -95,7 +95,7 @@ Call <b>ldap_sslinit</b> to create a connection block to a secured LDAP server. 
 
 If the <i>HostName</i> was set to either <b>NULL</b> or the domain name, automatic reconnect applies. If the connected DC stops functioning for some reason during the connection's lifetime, LDAP will automatically reconnect to another DC in the specified domain. This behavior can be toggled off or on using the <b>LDAP_OPT_AUTO_RECONNECT</b> session option, which is on by default.
 
-If a Global Catalog port number is passed to <b>ldap_sslinit</b> as one of the arguments, then the <i>HostName</i> passed for that port number must be the name of the forest for the underlying call to <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> to correctly find the GC in the enterprise.
+If a Global Catalog port number is passed to <b>ldap_sslinit</b> as one of the arguments, then the <i>HostName</i> passed for that port number must be the name of the forest for the underlying call to <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> to correctly find the GC in the enterprise.
 
 The function allocates an LDAP structure to maintain state information for the session, and returns a handle to this structure. You pass this handle to subsequent LDAP function calls during the course of the session.
 
@@ -111,27 +111,27 @@ Microsoft implements security features, like SSL, through its SSPI capabilities.
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/218b4cf2-e582-4052-8206-35c2ba2fe302">Initializing a Session</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/initializing-a-session">Initializing a Session</a>
 
 
 
-<a href="https://msdn.microsoft.com/844093e1-daba-494d-91b3-67455ff2e456">LDAP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/04bcdd90-344a-4f2d-a700-e725584e49d9">LdapGetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldapgetlasterror">LdapGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/e67cc054-7e48-43e7-a4b0-d1d90e9511f2">SSPI Options for Distributed Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-options-for-distributed-applications">SSPI Options for Distributed Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d8b3198-3935-4305-b0f1-eaf1a9355cf3">ldap_unbind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
  
 
  

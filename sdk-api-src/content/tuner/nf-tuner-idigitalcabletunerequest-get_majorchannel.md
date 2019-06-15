@@ -79,7 +79,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/75c3c80f-2f02-4cb7-a9e0-aad4076793e4">IDigitalCableTuneRequest Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitalcabletunerequest">IDigitalCableTuneRequest Interface</a>
  
 
  

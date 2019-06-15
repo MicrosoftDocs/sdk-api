@@ -96,7 +96,7 @@ The method succeeded.
 
 
 
-The plug-in must call <a href="https://msdn.microsoft.com/en-us/library/Dd563150(v=VS.85).aspx">IWMPContentPartnerCallback::Notify</a> to notify Windows Media Player when the log-in state changes.
+The plug-in must call <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">IWMPContentPartnerCallback::Notify</a> to notify Windows Media Player when the log-in state changes.
 
 The <b>Logout</b> method should delete any cached credentials.
 
@@ -108,11 +108,11 @@ The <b>Logout</b> method should delete any cached credentials.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563170(v=VS.85).aspx">IWMPContentPartner::Login</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login">IWMPContentPartner::Login</a>
  
 
  

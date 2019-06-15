@@ -64,7 +64,7 @@ Caller-supplied pointer to a NULL-terminated string representing a displayable d
 
 ### -param pDevHTAdjData [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/a90f2283-7bc3-48e4-bb1c-172d9776a284">DEVHTADJDATA</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_devhtadjdata">DEVHTADJDATA</a> structure.
 
 
 ## -returns
@@ -121,7 +121,7 @@ An error occurred.
 
 
 
-A graphics driver interface, such as a printer interface DLL, can call the <b>HTUI_DeviceColorAdjustment</b> function to display a dialog box that allows a user to view and modify the device's halftoning properties. Depending on member values specified for the <a href="https://msdn.microsoft.com/a90f2283-7bc3-48e4-bb1c-172d9776a284">DEVHTADJDATA</a> structure, the function will either enable the dialog box for user modification or just display caller-specified default values. If user modification is allowed, the function returns the modified parameters to the caller (using the DEVHTAJDATA structure), so the driver can pass them to the device.
+A graphics driver interface, such as a printer interface DLL, can call the <b>HTUI_DeviceColorAdjustment</b> function to display a dialog box that allows a user to view and modify the device's halftoning properties. Depending on member values specified for the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_devhtadjdata">DEVHTADJDATA</a> structure, the function will either enable the dialog box for user modification or just display caller-specified default values. If user modification is allowed, the function returns the modified parameters to the caller (using the DEVHTAJDATA structure), so the driver can pass them to the device.
 
 
 
@@ -131,7 +131,7 @@ A graphics driver interface, such as a printer interface DLL, can call the <b>HT
 
 
 
-<a href="https://msdn.microsoft.com/a90f2283-7bc3-48e4-bb1c-172d9776a284">DEVHTADJDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_devhtadjdata">DEVHTADJDATA</a>
  
 
  

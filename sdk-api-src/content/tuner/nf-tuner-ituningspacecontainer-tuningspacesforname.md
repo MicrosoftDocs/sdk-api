@@ -67,7 +67,7 @@ String that contains a regular expression to match against either the friendly n
 
 ### -param NewColl [out]
 
-Address of variable that receives an <a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces</a> interface pointer. Use this interface to enumerate the collection. The caller must release the interface.
+Address of variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces</a> interface pointer. Use this interface to enumerate the collection. The caller must release the interface.
 
 
 ## -returns
@@ -126,7 +126,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/8f053c53-2a2b-4d98-a510-c516faa21611">ITuningSpaceContainer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
  
 
  

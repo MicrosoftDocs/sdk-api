@@ -67,7 +67,7 @@ Specifies the index to assign to the component. This parameter is a value of typ
 
 ### -param ppComponent [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent</a> interface of the component object. The method creates a clone of the component and inserts the clone into the collection.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a> interface of the component object. The method creates a clone of the component and inserts the clone into the collection.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 This method allows the client to replace an existing item in the collection.
 
-If the collection contains <i>n</i> items, valid indexes are in the range 0 to <i>n</i>-1. To determine the number of items in the collection, call <a href="https://msdn.microsoft.com/ba198e27-c699-4c93-aa2d-b8be8c40380c">get_Count</a>.
+If the collection contains <i>n</i> items, valid indexes are in the range 0 to <i>n</i>-1. To determine the number of items in the collection, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-get_count">get_Count</a>.
 
 
 
@@ -95,11 +95,11 @@ If the collection contains <i>n</i> items, valid indexes are in the range 0 to <
 
 
 
-<a href="https://msdn.microsoft.com/670b47ba-bcbd-4281-95e3-a5d784f0610b">IComponents Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/12716c7c-3156-401e-8f1c-be3100afb912">get_Item</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponents-get_item">get_Item</a>
  
 
  

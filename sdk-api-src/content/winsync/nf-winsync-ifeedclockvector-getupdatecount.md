@@ -106,7 +106,7 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/9acee83e-a16c-4511-a1e3-ce653ed09535">IFeedClockVector Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvector">IFeedClockVector Interface</a>
  
 
  

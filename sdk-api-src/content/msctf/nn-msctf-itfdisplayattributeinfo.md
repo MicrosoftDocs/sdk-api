@@ -54,7 +54,7 @@ The <b>ITfDisplayAttributeInfo</b> interface is implemented by a text service to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfDisplayAttributeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfDisplayAttributeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32e28feb-1186-4848-a9d4-70b27f865d3c">GetAttributeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getattributeinfo">GetAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains the display attribute data.
@@ -78,7 +78,7 @@ Obtains the display attribute data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e65aedac-284d-4e2a-b574-fc469f66e06e">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains the description string of the display attribute.
@@ -87,7 +87,7 @@ Obtains the description string of the display attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5202bf19-ae24-44f4-98f0-1f9d64d383a6">GetGUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getguid">GetGUID</a>
 </td>
 <td align="left" width="63%">
 Obtains the GUID for the display attribute.
@@ -96,7 +96,7 @@ Obtains the GUID for the display attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7a95bb4-a2f1-4734-8a71-286591544984">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the display attribute data to its default value.
@@ -105,7 +105,7 @@ Resets the display attribute data to its default value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e9a472c-7992-48fc-be47-993f6d53f043">SetAttributeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-setattributeinfo">SetAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the new attribute data.
@@ -119,9 +119,9 @@ Sets the new attribute data.
 
 
 
-An application obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/41bc183f-013f-4e68-bb72-d9a30d5ea48e">ITfDisplayAttributeMgr::GetDisplayAttributeInfo</a> or <a href="https://msdn.microsoft.com/db374ba3-8a65-4933-85cb-320c294d6041">IEnumTfDisplayAttributeInfo::Next</a>.
+An application obtains an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next</a>.
 
-A text service supplies an instance of this interface in its <a href="https://msdn.microsoft.com/2081f1b4-45b4-43bd-ba20-392a5ad0a30e">ITfDisplayAttributeProvider::GetDisplayAttributeInfo</a> method.
+A text service supplies an instance of this interface in its <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">ITfDisplayAttributeProvider::GetDisplayAttributeInfo</a> method.
 
 
 
@@ -131,22 +131,22 @@ A text service supplies an instance of this interface in its <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/db374ba3-8a65-4933-85cb-320c294d6041">IEnumTfDisplayAttributeInfo::Next
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/41bc183f-013f-4e68-bb72-d9a30d5ea48e">ITfDisplayAttributeMgr::GetDisplayAttributeInfo
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/2081f1b4-45b4-43bd-ba20-392a5ad0a30e">ITfDisplayAttributeProvider::GetDisplayAttributeInfo
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">ITfDisplayAttributeProvider::GetDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

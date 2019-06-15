@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSignAndEncryptMessage</b> function creates a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash. The result is the same as if the hash were first signed and then encrypted.
+The <b>CryptSignAndEncryptMessage</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the specified content, signs the hash, encrypts the content, hashes the encrypted contents and the signed hash, and then encodes both the encrypted content and the signed hash. The result is the same as if the hash were first signed and then encrypted.
 
 
 ## -parameters
@@ -60,13 +60,13 @@ The <b>CryptSignAndEncryptMessage</b> function creates a <a href="https://msdn.m
 ### -param pSignPara [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/1601d860-6054-4650-a033-ea088655b7e4">CRYPT_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a> structure that contains the signature parameters.
 
 
 ### -param pEncryptPara [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c683c515-3061-48e3-a64a-2798bd1245b0">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure containing encryption parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a> structure containing encryption parameters.
 
 
 ### -param cRecipientCert [in]
@@ -78,7 +78,7 @@ Number of array elements in <i>rgpRecipientCert</i>.
 ### -param rgpRecipientCert [in]
 
 Array of pointers to 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structures. Each structure is the certificate of an intended recipients of the message.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structures. Each structure is the certificate of an intended recipients of the message.
 
 
 ### -param pbToBeSignedAndEncrypted [in]
@@ -99,7 +99,7 @@ A pointer to a buffer to receive the encrypted and encoded message.
 
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbSignedAndEncryptedBlob [in, out]
@@ -121,10 +121,10 @@ If the function succeeds, the return value is nonzero (TRUE).
 If the function fails, the return value is zero (FALSE).
 
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 The following lists the error code most commonly returned by the 
-		       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+		       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -146,8 +146,8 @@ If the buffer specified by the <i>pbSignedAndEncryptedBlob</i> parameter is not 
  
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://msdn.microsoft.com/f14f7c7b-14ac-40a7-9a49-d1a899ecc52a">CryptSignMessage</a> and 
-<a href="https://msdn.microsoft.com/927f2e9a-96cf-4744-bd57-420b5034d28d">CryptEncryptMessage</a> might be propagated to this function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencryptmessage">CryptEncryptMessage</a> might be propagated to this function.</div>
 <div> </div>
 
 
@@ -157,15 +157,15 @@ If the buffer specified by the <i>pbSignedAndEncryptedBlob</i> parameter is not 
 
 
 
-<a href="https://msdn.microsoft.com/0864a187-617f-4a21-9809-d2dbbc54ab9c">CryptDecryptAndVerifyMessageSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecryptandverifymessagesignature">CryptDecryptAndVerifyMessageSignature</a>
 
 
 
-<a href="https://msdn.microsoft.com/f14f7c7b-14ac-40a7-9a49-d1a899ecc52a">CryptSignMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

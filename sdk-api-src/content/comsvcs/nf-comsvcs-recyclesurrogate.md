@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Recycles the calling process.
 
-For similar functionality, see <a href="https://msdn.microsoft.com/1f4ba9d6-2e71-48d7-8746-4cacee5968bb">IMTxAS::RecycleSurrogate</a>.
+For similar functionality, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms679243(v=vs.85)">IMTxAS::RecycleSurrogate</a>.
 
 
 ## -parameters
@@ -152,7 +152,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/0d2d6255-54c7-4110-9ee0-7019e9c7cb83">ICOMAdminCatalog2::RecycleApplicationInstances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-recycleapplicationinstances">ICOMAdminCatalog2::RecycleApplicationInstances</a>
  
 
  

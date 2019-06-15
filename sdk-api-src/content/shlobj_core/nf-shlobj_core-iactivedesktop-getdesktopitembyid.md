@@ -68,7 +68,7 @@ An unsigned long integer value that contains the desktop item's identification.
 
 Type: <b>LPCOMPONENT</b>
 
-The address of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure of the retrieved desktop item. 
+The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure of the retrieved desktop item. 
 
 
 ### -param dwReserved
@@ -93,7 +93,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The desktop item's identification is returned in the <b>dwID</b> member of the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure that is returned from the <a href="https://msdn.microsoft.com/b9d4a771-023f-4a31-b9b7-39b8b4a8695a">IActiveDesktop::GetDesktopItem</a> method. This identification is only valid until the <a href="https://msdn.microsoft.com/3bac5af5-f4a6-4822-83de-11633beef88a">IActiveDesktop::ApplyChanges</a> method is called. Applications that must retrieve the same desktop item consistently should enumerate the desktop items using the <b>IActiveDesktop::GetDesktopItem</b> and <a href="https://msdn.microsoft.com/d2bba6f8-4ff0-4978-93ae-46db9ec6ea48">IActiveDesktop::GetDesktopItemCount</a> methods. 
+The desktop item's identification is returned in the <b>dwID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure that is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem">IActiveDesktop::GetDesktopItem</a> method. This identification is only valid until the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> method is called. Applications that must retrieve the same desktop item consistently should enumerate the desktop items using the <b>IActiveDesktop::GetDesktopItem</b> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount">IActiveDesktop::GetDesktopItemCount</a> methods. 
 
 
 
@@ -103,7 +103,7 @@ The desktop item's identification is returned in the <b>dwID</b> member of the <
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
  
 
  

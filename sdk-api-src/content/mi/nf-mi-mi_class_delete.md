@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deletes an <a href="https://msdn.microsoft.com/7f02e0fa-9e58-455d-9cf4-1d1244c44422">MI_Class</a> object.
+Deletes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_class">MI_Class</a> object.
 
 
 ## -parameters

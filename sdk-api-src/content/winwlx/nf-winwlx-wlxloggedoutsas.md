@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxLoggedOutSAS function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxLoggedOutSAS</b> function must be implemented by a replacement <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> calls this function when it receives a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">secure attention sequence</a> (SAS) event while no user is logged on.
+The <b>WlxLoggedOutSAS</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function when it receives a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event while no user is logged on.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>WlxLoggedOutSAS</b> function must be implemented by a replacement <a href
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> for this station.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 
 ### -param dwSasType [in]
@@ -92,7 +92,7 @@ Indicates that a user has typed the standard CTRL+ALT+DEL SAS.
 </dl>
 </td>
 <td width="60%">
-Indicates that a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> has been inserted into a compatible device.
+Indicates that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> has been inserted into a compatible device.
 
 </td>
 </tr>
@@ -122,14 +122,14 @@ Indicates that no user input was received within the specified time-out period.
 
 ### -param pAuthenticationId [out]
 
-Specifies the authentication identifier associated with the current <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>. You can get this value by calling <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a> to obtain a <a href="https://msdn.microsoft.com/7fcc4a46-1bac-49c1-a239-b466d3bf31d9">TOKEN_STATISTICS</a> structure for the token returned by the <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> function.
+Specifies the authentication identifier associated with the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>. You can get this value by calling <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> to obtain a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_statistics">TOKEN_STATISTICS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function.
 
 
 ### -param pLogonSid [in, out]
 
-On input, this parameter points to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) that is unique to the current logon session. <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> uses this SID to change the protection on the window station and application desktop so that the new logged-on user can access them.
+On input, this parameter points to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) that is unique to the current logon session. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> uses this SID to change the protection on the window station and application desktop so that the new logged-on user can access them.
 
-On output, Winlogon provides a SID. You can also get the SID by using the <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a> function to retrieve a <a href="https://msdn.microsoft.com/387dd7f8-4177-40fa-b5fd-bb4b371a0e64">TOKEN_GROUPS</a> structure for the token returned by the <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> function. To do this, search the array returned in the <b>TOKEN_GROUPS</b> structure for the group with the SE_GROUP_LOGON_ID attribute.
+On output, Winlogon provides a SID. You can also get the SID by using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function to retrieve a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_groups">TOKEN_GROUPS</a> structure for the token returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function. To do this, search the array returned in the <b>TOKEN_GROUPS</b> structure for the group with the SE_GROUP_LOGON_ID attribute.
 
 
 ### -param pdwOptions [out]
@@ -158,29 +158,29 @@ Indicates that Winlogon must not load a profile for the logged-on user. Either t
 
 ### -param phToken [out]
 
-A pointer to a handle variable. When the logon operation succeeds, set this handle to a token that represents the logged-on user. Use the <a href="https://msdn.microsoft.com/a6d880a0-0aed-4bdb-89c9-4f667ecb510e">LogonUser</a> function to get this token, then, when the user logs off, Winlogon closes this handle and calls the 
-<a href="https://msdn.microsoft.com/bbeafd41-fe01-497d-8514-a6c088a11d73">WlxLogoff</a> function.
+A pointer to a handle variable. When the logon operation succeeds, set this handle to a token that represents the logged-on user. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a> function to get this token, then, when the user logs off, Winlogon closes this handle and calls the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function.
 
-If you need this handle after calling the <a href="https://msdn.microsoft.com/bbeafd41-fe01-497d-8514-a6c088a11d73">WlxLogoff</a> function, make a duplicate of the handle before returning it to Winlogon.
+If you need this handle after calling the <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function, make a duplicate of the handle before returning it to Winlogon.
 
 
 ### -param pNprNotifyInfo [out]
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/68098b26-c58d-45fb-aebe-780a73cded80">WLX_MPR_NOTIFY_INFO</a> structure that contains domain, user name, and password information for the user. Winlogon will use this information to provide identification and authentication information to network providers.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_mpr_notify_info">WLX_MPR_NOTIFY_INFO</a> structure that contains domain, user name, and password information for the user. Winlogon will use this information to provide identification and authentication information to network providers.
 
-The GINA is not required to return password information. Any <b>NULL</b> fields within the structure will be ignored by Winlogon. Use <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> to allocate each string; Winlogon will free them when they are no longer needed.
+The GINA is not required to return password information. Any <b>NULL</b> fields within the structure will be ignored by Winlogon. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate each string; Winlogon will free them when they are no longer needed.
 
 The GINA should provide domain, user, and password values for  complete Session Directory functionality.  If the password is not provided, Session Directory will require the user to input the password twice before the user is connected to the server.
 
-For information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+For information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ### -param pProfile [out]
 
 On return from a successful authentication, the <i>pProfile</i> parameter points to either a 
-<a href="https://msdn.microsoft.com/3b75cf38-e1d7-48dd-8319-d4daf508a3e9">WLX_PROFILE_V1_0</a> or a 
-<a href="https://msdn.microsoft.com/6ecec95f-e663-4fb3-b2d4-82984f31cb62">WLX_PROFILE_V2_0</a> structure. The first <b>DWORD</b> in the structure indicates which structure it is. Winlogon uses this structure to load the profile of the logged-on user, and frees the memory associated with the structure when it no longer needs it.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_profile_v1_0">WLX_PROFILE_V1_0</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-_wlx_profile_v2_0">WLX_PROFILE_V2_0</a> structure. The first <b>DWORD</b> in the structure indicates which structure it is. Winlogon uses this structure to load the profile of the logged-on user, and frees the memory associated with the structure when it no longer needs it.
 
 
 ## -returns
@@ -242,7 +242,7 @@ Indicates the user requested that the system be shut down.
 Before calling <b>WlxLoggedOutSAS</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
 Do not activate the user shell program in <b>WlxLoggedOutSAS</b>. The user shell program should always be activated in 
-<a href="https://msdn.microsoft.com/0db6653b-ec6f-4b2b-9371-b73d73be1f7b">WlxActivateUserShell</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a>.
 
 
 
@@ -252,11 +252,11 @@ Do not activate the user shell program in <b>WlxLoggedOutSAS</b>. The user shell
 
 
 
-<a href="https://msdn.microsoft.com/0db6653b-ec6f-4b2b-9371-b73d73be1f7b">WlxActivateUserShell</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxactivateusershell">WlxActivateUserShell</a>
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

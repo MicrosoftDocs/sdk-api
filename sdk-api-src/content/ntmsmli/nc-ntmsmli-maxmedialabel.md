@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <i>MaxMediaLabel</i> callback function determines the maximum size of the media label for the applications supported by the media label library.
@@ -63,7 +63,7 @@ The
 ### -param pMaxSize [out]
 
 Pointer to a buffer that receives the maximum size of the buffer sent to the 
-<a href="https://msdn.microsoft.com/ac957769-0513-436b-94f0-e3894f7a703b">ClaimMediaLabel</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsmli/nc-ntmsmli-claimmedialabel">ClaimMediaLabel</a> function.
 
 
 ## -returns
@@ -109,7 +109,7 @@ When the media format of the media specified in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Label Library Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Label Library Functions</a>
  
 
  

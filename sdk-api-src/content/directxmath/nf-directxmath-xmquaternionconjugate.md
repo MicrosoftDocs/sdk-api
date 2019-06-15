@@ -88,7 +88,7 @@ Given a quaternion (
    <i>z</i>,
    <i>w</i>).
 
-Use the <a href="https://msdn.microsoft.com/en-us/library/Ee420168(v=VS.85).aspx">XMQuaternionNormalize</a> function for any quaternion input
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionnormalize">XMQuaternionNormalize</a> function for any quaternion input
    that is not already normalized.
 
 
@@ -103,7 +103,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/2d397c98-d0cd-08e0-6104-cca31bb6bd11">DirectXMath Library Quaternion Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
  
 
  

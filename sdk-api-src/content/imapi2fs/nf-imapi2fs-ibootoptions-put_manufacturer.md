@@ -110,11 +110,11 @@ Value: 0xC0AAB101
 
 
 
-<a href="https://msdn.microsoft.com/446b535c-d576-4f96-8b74-305e34cb99d4">IBootOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9c75760-42e8-4ad0-aa5c-82bfdc1327af">IBootOptions::get_Manufacturer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_manufacturer">IBootOptions::get_Manufacturer</a>
  
 
  

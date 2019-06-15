@@ -60,16 +60,16 @@ ms.custom: 19H1
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The handle of the window served by the provider.
 
 
 ### -param providerType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/442dcda2-046d-4203-aa55-ddf83983cb26">ProviderType</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-providertype">ProviderType</a></b>
 
-A value from the <a href="https://msdn.microsoft.com/442dcda2-046d-4203-aa55-ddf83983cb26">ProviderType</a> enumerated type specifying the type of provider that is being requested.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-providertype">ProviderType</a> enumerated type specifying the type of provider that is being requested.
 
 
 ## -returns

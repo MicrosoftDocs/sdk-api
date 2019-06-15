@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>RPC_POLICY</b> structure contains flags that determine binding on multihomed computers, and port allocations when using the 
-<a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a> and 
-<a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a> protocols.
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a> protocols.
 
 
 ## -struct-fields
@@ -95,8 +95,8 @@ Specifies the system default.
 </td>
 <td width="60%">
 Allocates the endpoint from one of the ports defined in the registry as "Internet Available." Valid only with 
-<a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a> and 
-<a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a> protocol sequences.
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a> protocol sequences.
 
 </td>
 </tr>
@@ -107,8 +107,8 @@ Allocates the endpoint from one of the ports defined in the registry as "Interne
 </td>
 <td width="60%">
 Allocates the endpoint from one of the ports defined in the registry as "Intranet Available." Valid only with 
-<a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a> and 
-<a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a> protocol sequences.
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a> protocol sequences.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Allocates the endpoint from one of the ports defined in the registry as "Intrane
 </td>
 <td width="60%">
 The server process–receive queue will be deleted automatically when the RPC server exits. Any outstanding calls still in the queue will be lost. This is the default. Valid only with the 
-<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> protocol sequence.
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a> protocol sequence.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Calls to server are encrypted. The default is that both encrypted and unencrypte
 </td>
 <td width="60%">
 The server's receive queue accepts all calls from clients. This is the default authentication level. Valid only with the 
-<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> protocol.
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a> protocol.
 
 </td>
 </tr>
@@ -212,9 +212,9 @@ Sets the server's receive queue to only accept client calls that have authentica
 
 
 <div class="alert"><b>Note</b>  If the registry does not contain any of the keys that specify the default policies, then the <b>EndpointFlags</b> member will have no effect at run time. If a key is missing or contains an invalid value, then the entire configuration for that protocol (
-<a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a>, 
-<a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a> or 
-<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>) is marked as invalid and all calls to <b>RpcServerUseProtseq*</b> functions over that protocol will fail.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a>) is marked as invalid and all calls to <b>RpcServerUseProtseq*</b> functions over that protocol will fail.</div>
 <div> </div>
 
 ### -field NICFlags
@@ -246,7 +246,7 @@ Binds to NICs on the basis of the registry settings. Always use this value when 
 </td>
 <td width="60%">
 Overrides the registry settings and binds to all NICs. If the Bind key is missing from the registry, then the <b>NICFlags</b> member will have no effect at run time. If the key contains an invalid value, then the entire configuration is marked as invalid and all calls to 
-<a href="https://msdn.microsoft.com/9b2c9cf0-fe96-4063-a893-f2793595af57">RpcServerUseProtseq</a>* will fail.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>* will fail.
 
 </td>
 </tr>
@@ -266,9 +266,9 @@ You can use the <b>RPC_Policy</b> structure to set policies for remote procedure
 <li>Selective binding: Allows multihomed machines to bind selectively to NICs.</li>
 </ul>
 <div class="alert"><b>Note</b>  Port allocation and selective binding policies are effective only for remote calls over TCP (
-<a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a>) and UDP (
-<a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a>) connections. For more information, see 
-<a href="https://msdn.microsoft.com/a33b51e7-2ded-46bd-aadb-27cbd99e1029">Configuring the Registry for Port Allocations and Selective Binding</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a>) and UDP (
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a>) connections. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>.</div>
 <div> </div>
 
 
@@ -278,31 +278,31 @@ You can use the <b>RPC_Policy</b> structure to set policies for remote procedure
 
 
 
-<a href="https://msdn.microsoft.com/a33b51e7-2ded-46bd-aadb-27cbd99e1029">Configuring the Registry for Port Allocations and Selective Binding</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1c8665b-3754-4c2e-b3ac-bba1f4b329e1">RPC Message Queuing</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-message-queuing">RPC Message Queuing</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fc2ccbe-1b01-4157-b3e7-2c61397d78f7">RpcServerUseAllProtseqsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/118c931e-29ca-4ffb-aa32-24c6f4289cc8">RpcServerUseAllProtseqsIfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5bc52c5-9799-4fab-89fa-a680639a229f">RpcServerUseProtseqEpEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex">RpcServerUseProtseqEpEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8cedfe9-9c16-4c35-9cc4-5ccaa9e130a8">RpcServerUseProtseqEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqex">RpcServerUseProtseqEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/28238ff2-0ed0-4cb5-8117-b6c544d8c098">RpcServerUseProtseqIfEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
  
 
  

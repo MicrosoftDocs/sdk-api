@@ -67,7 +67,7 @@ Currently not used; specify zero.
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that specifies the command and parameters to call on the device. This interface must include the following two values to indicate the command. Additional parameters vary depending on the command. For a list of the parameters that are required for each command, see <a href="https://msdn.microsoft.com/f579745a-5327-4c8b-bfa7-fe81d9657a3b">Commands</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that specifies the command and parameters to call on the device. This interface must include the following two values to indicate the command. Additional parameters vary depending on the command. For a list of the parameters that are required for each command, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/commands">Commands</a>.
             
 
 <table>
@@ -89,7 +89,7 @@ Pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a
 
 ### -param ppResults [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface that indicates the results of the command results, including success or failure, and any command values returned by the device. The caller must release this interface when it is done with it. The retrieved values vary by command; see the appropriate command documentation in <a href="https://msdn.microsoft.com/f579745a-5327-4c8b-bfa7-fe81d9657a3b">Commands</a> to learn what values are returned by each command call.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that indicates the results of the command results, including success or failure, and any command values returned by the device. The caller must release this interface when it is done with it. The retrieved values vary by command; see the appropriate command documentation in <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/commands">Commands</a> to learn what values are returned by each command call.
           
 
 
@@ -137,7 +137,7 @@ At least one of the arguments was a NULL pointer.
 
 
 
-This function is used to send a command directly to the driver. A command is a <b>PROPERTYKEY</b> that is sent to the driver to indicate the expected action, along with a list of required parameters. Each command has a list of required and optional parameters and results that must be packaged with the command for the driver to perform the requested action. A list of commands defined by Windows Portable Devices, with the required parameters and return values, is given in <a href="https://msdn.microsoft.com/f579745a-5327-4c8b-bfa7-fe81d9657a3b">Commands</a>.
+This function is used to send a command directly to the driver. A command is a <b>PROPERTYKEY</b> that is sent to the driver to indicate the expected action, along with a list of required parameters. Each command has a list of required and optional parameters and results that must be packaged with the command for the driver to perform the requested action. A list of commands defined by Windows Portable Devices, with the required parameters and return values, is given in <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/commands">Commands</a>.
       
 
 Most Windows Portable Devices methods actually work by sending one or more of the Windows Portable Devices commands for you and wrapping the parameters for you. Some commands have no corresponding Windows Portable Devices methods. The only way to call these commands is by using <b>SendCommand</b>. The following commands have no corresponding method:
@@ -145,37 +145,37 @@ Most Windows Portable Devices methods actually work by sending one or more of th
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7a630cc9-02ea-46be-9645-8a0306606139">WPD_COMMAND_COMMON_RESET_DEVICE</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-common-reset-device-command">WPD_COMMAND_COMMON_RESET_DEVICE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/85de64cc-44ee-4536-b658-49d5936351e4">WPD_COMMAND_DEVICE_HINTS_GET_CONTENT_LOCATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-device-hints-get-content-location-command">WPD_COMMAND_DEVICE_HINTS_GET_CONTENT_LOCATION</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/507d3237-f2dd-499c-85e4-3c6857a15f6f">WPD_COMMAND_SMS_SEND</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-sms-send-command">WPD_COMMAND_SMS_SEND</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2968b96e-c9d8-42a7-a32a-dea5fdf064b5">WPD_COMMAND_STILL_IMAGE_CAPTURE_INITIATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-still-image-capture-initiate-command">WPD_COMMAND_STILL_IMAGE_CAPTURE_INITIATE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/38d4dd56-e898-4890-8328-eb2b03cdbd12">WPD_COMMAND_STORAGE_EJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-storage-eject-command">WPD_COMMAND_STORAGE_EJECT</a>
 </li>
 </ul>
 You also must call <b>SendCommand</b> to send any custom driver commands driver.
       
 
-Some custom commands may require a specific Input/Output Control Code (IOCTL) access level. Your application sets this access level by calling the <a href="https://msdn.microsoft.com/9b5d1b8c-7863-4807-a34b-56d30a47bd5c">IPortableDeviceValues::SetUnsignedIntegerValue</a> method on the command parameters that it passes to the <b>SendCommand</b> method. For example, if a custom command requires read-only access, you would call <b>SetUnsignedIntegerValue</b> and pass WPD_API_OPTION_IOCTL_ACCESS as the first argument and FILE_READ_ACCESS as the second argument. By updating these command parameters, your application ensures that the Windows Portable Devices API issues the command with the read-only IOCTL.
+Some custom commands may require a specific Input/Output Control Code (IOCTL) access level. Your application sets this access level by calling the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues-setunsignedintegervalue">IPortableDeviceValues::SetUnsignedIntegerValue</a> method on the command parameters that it passes to the <b>SendCommand</b> method. For example, if a custom command requires read-only access, you would call <b>SetUnsignedIntegerValue</b> and pass WPD_API_OPTION_IOCTL_ACCESS as the first argument and FILE_READ_ACCESS as the second argument. By updating these command parameters, your application ensures that the Windows Portable Devices API issues the command with the read-only IOCTL.
       
 
 Errors that are encountered by the driver while processing a command are retrieved by the <i>ppResults</i> parameter, not by the <b>SendCommand</b> return value. The return value of this method is any error (or success) code that is encountered while sending the command to the driver.
       
 
-If a driver does not support the specified command, this method will succeed, but the only guaranteed element in the returned <i>ppResults</i> parameter will be WPD_PROPERTY_COMMON_HRESULT, which will contain E_NOTIMPL. You can verify whether a driver supports a command by calling <a href="https://msdn.microsoft.com/974b16c7-27a0-40a6-8941-e93293a69b48">IPortableDeviceCapabilities::GetSupportedCommands</a> before calling a command.
+If a driver does not support the specified command, this method will succeed, but the only guaranteed element in the returned <i>ppResults</i> parameter will be WPD_PROPERTY_COMMON_HRESULT, which will contain E_NOTIMPL. You can verify whether a driver supports a command by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedcommands">IPortableDeviceCapabilities::GetSupportedCommands</a> before calling a command.
       
 
-If a command supports options (such as delete recursively or delete nonrecursively), you can query for supported options by calling <a href="https://msdn.microsoft.com/d222968f-3ca7-4a4d-bdc6-89a6ca98c7b0">IPortableDeviceCapabilities::GetCommandOptions</a>.
+If a command supports options (such as delete recursively or delete nonrecursively), you can query for supported options by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions">IPortableDeviceCapabilities::GetCommandOptions</a>.
       
 
-There is no option to set a timeout in a call to <b>SendCommand</b> but the developer can attempt to cancel the command by calling <a href="https://msdn.microsoft.com/dcda2e43-ee12-44a4-a7ab-a2a542082d07">IPortableDevice::Cancel</a> from a separate thread.
+There is no option to set a timeout in a call to <b>SendCommand</b> but the developer can attempt to cancel the command by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-cancel">IPortableDevice::Cancel</a> from a separate thread.
 
 
 #### Examples
@@ -236,7 +236,7 @@ void ResetDevice(IPortableDevice* pDevice)
 
 
 
-<a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
  
 
  

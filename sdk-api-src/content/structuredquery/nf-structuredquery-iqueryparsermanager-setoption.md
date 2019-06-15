@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Changes a single option in this <a href="https://msdn.microsoft.com/en-us/library/Bb231349(v=VS.85).aspx">IQueryParserManager</a> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
+Changes a single option in this <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparsermanager">IQueryParserManager</a> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Changes a single option in this <a href="https://msdn.microsoft.com/en-us/librar
 
 ### -param option [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965700(v=VS.85).aspx">QUERY_PARSER_MANAGER_OPTION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagquery_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa965700(v=VS.85).aspx">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
+The <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-tagquery_parser_manager_option">QUERY_PARSER_MANAGER_OPTION</a> to be changed.
 
 
 ### -param pOptionValue [in]

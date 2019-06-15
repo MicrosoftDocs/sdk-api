@@ -115,7 +115,7 @@ The EVR, custom presenters, activation objects, and the <b>IMFActivate</b> inter
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563755(v=VS.85).aspx">IWMPVideoRenderConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig">IWMPVideoRenderConfig Interface</a>
  
 
  

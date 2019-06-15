@@ -79,12 +79,12 @@ Points to the miniport driver's device extension.
 
 #### - SetStateInInfo
 
-Points to a <a href="https://msdn.microsoft.com/85fdf0eb-3253-4370-b1b5-ade85c5c992f">DDSETSTATEININFO</a> structure that contains the surface and VPE object information.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsetstateininfo">DDSETSTATEININFO</a> structure that contains the surface and VPE object information.
 
 
 #### - SetStateOutInfo
 
-Points to a <a href="https://msdn.microsoft.com/11cd0d5e-6fe2-47eb-a410-0aa7ada30f87">DDSETSTATEOUTINFO</a> structure that contains the state information for the hardware video port.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsetstateoutinfo">DDSETSTATEOUTINFO</a> structure that contains the state information for the hardware video port.
 
 
 ## -returns
@@ -122,11 +122,11 @@ The <b>dwSurfaceIndex</b> member equal to the current position in the auto-flip 
 
 
 
-<a href="https://msdn.microsoft.com/85fdf0eb-3253-4370-b1b5-ade85c5c992f">DDSETSTATEININFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsetstateininfo">DDSETSTATEININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/11cd0d5e-6fe2-47eb-a410-0aa7ada30f87">DDSETSTATEOUTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddsetstateoutinfo">DDSETSTATEOUTINFO</a>
  
 
  

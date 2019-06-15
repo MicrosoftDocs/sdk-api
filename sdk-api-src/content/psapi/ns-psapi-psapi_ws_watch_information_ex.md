@@ -59,7 +59,7 @@ Contains extended information about a page added to a process working set.
 
 ### -field BasicInfo
 
-A <a href="https://msdn.microsoft.com/61083366-2a55-431c-807a-3eb85ba0b347">PSAPI_WS_WATCH_INFORMATION</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a> structure.
 
 
 ### -field FaultingThreadId
@@ -77,11 +77,11 @@ This member is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/8572db5c-2ffc-424f-8cec-b6a6902fed62">GetWsChangesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getwschangesex">GetWsChangesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/61083366-2a55-431c-807a-3eb85ba0b347">PSAPI_WS_WATCH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_ws_watch_information">PSAPI_WS_WATCH_INFORMATION</a>
  
 
  

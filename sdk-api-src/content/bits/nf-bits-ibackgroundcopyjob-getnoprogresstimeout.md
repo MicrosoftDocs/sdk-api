@@ -106,11 +106,11 @@ Must pass the address of <i>pRetryPeriod</i>.
 
 
 
-<a href="https://msdn.microsoft.com/af599174-44f8-4d5e-b9ff-61ddbb330580">IBackgroundCopyJob::GetMinimumRetryDelay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getminimumretrydelay">IBackgroundCopyJob::GetMinimumRetryDelay</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fcf46ed-197f-46ad-ac62-2c4a2e8b27ef">IBackgroundCopyJob::SetNoProgressTimeout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">IBackgroundCopyJob::SetNoProgressTimeout</a>
  
 
  

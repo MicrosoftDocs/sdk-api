@@ -60,18 +60,18 @@ The <b>GetDeinterlaceModeCaps</b> method retrieves the capabilities of a specifi
 
 ### -param lpDeinterlaceMode [in]
 
-Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="https://msdn.microsoft.com/0e6abb00-95fb-453d-9427-178058b217b8">GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
+Pointer to a GUID that identifies the deinterlacing mode. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrdeinterlacecontrol-getnumberofdeinterlacemodes">GetNumberOfDeinterlaceModes</a> method to obtain a list of GUIDs supported by the driver.
           
 
 
 ### -param lpVideoDescription [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/b02683ec-9bf9-4a69-87fb-d37a98f02e61">VMRVideoDesc</a> structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrvideodesc">VMRVideoDesc</a> structure describing the video to deinterlace. Set the <b>dwSize</b> member of the structure before calling the method. 
 
 
 ### -param lpDeinterlaceCaps [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/e6152130-d574-4c9e-9d35-a42de709f9ae">VMRDeinterlaceCaps</a> structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrdeinterlacecaps">VMRDeinterlaceCaps</a> structure. Set the <b>dwSize</b> member of the structure before calling the method. The method fills the structure with information about the specified deinterlacing mode.
 
 
 ## -returns
@@ -161,7 +161,7 @@ The VMR is not in mixer mode.
 
 
 
-The method returns <b>E_INVALIDARG</b> if you do not set the <b>dwSize</b> member in the <a href="https://msdn.microsoft.com/b02683ec-9bf9-4a69-87fb-d37a98f02e61">VMRVideoDesc</a> and <a href="https://msdn.microsoft.com/e6152130-d574-4c9e-9d35-a42de709f9ae">VMRDeinterlaceCaps</a> structures.
+The method returns <b>E_INVALIDARG</b> if you do not set the <b>dwSize</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrvideodesc">VMRVideoDesc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmrdeinterlacecaps">VMRDeinterlaceCaps</a> structures.
 
 
 
@@ -171,15 +171,15 @@ The method returns <b>E_INVALIDARG</b> if you do not set the <b>dwSize</b> membe
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/77abbcd4-6538-491d-b3c2-6a29a391c68a">IVMRDeinterlaceControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

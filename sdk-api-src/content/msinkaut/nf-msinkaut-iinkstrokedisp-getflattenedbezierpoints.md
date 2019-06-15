@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Retrieves the bounding box in <b>ink space</b> coordinates for either all of the strokes in an <a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp</a> object, an individual stroke, or a <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
+Retrieves the bounding box in <b>ink space</b> coordinates for either all of the strokes in an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, an individual stroke, or a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 
 
@@ -68,9 +68,9 @@ Optional. The maximum distance (accuracy), using ink space units, between the Be
 
 ### -param FlattenedBezierPoints [out, retval]
 
-When this method returns, contains a point array that indicates the points that were used to draw the Bezier curve representation of the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object. The Variant result contains an array in the form x1, y1, x2, y2, and so on, of the Bezier points.
+When this method returns, contains a point array that indicates the points that were used to draw the Bezier curve representation of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object. The Variant result contains an array in the form x1, y1, x2, y2, and so on, of the Bezier points.
 
-For more information about the VARIANT structure, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ## -returns
@@ -192,11 +192,11 @@ You should ideally set the <i>fittingError</i> parameter between 0 and 500. If t
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/76bb749d-76cd-4c40-add3-4065d46ed6cb">IInkStrokeDisp::BezierPoints Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_bezierpoints">IInkStrokeDisp::BezierPoints Property</a>
  
 
  

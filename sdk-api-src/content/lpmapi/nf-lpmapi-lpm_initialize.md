@@ -76,7 +76,7 @@ Version of LPM being requested.
 ### -param pSupportedPeType [out]
 
 Valid policy element (PE) type that the LPM uses to make policy based–admission control decisions. Each LPM can only support one PE type, though future versions may allow an LPM to support multiple PE types. Reserved PE types are defined in Lpmapi.h. For more information about policy element types, see 
-<a href="https://msdn.microsoft.com/72eeb985-85e2-48c6-b79f-73f48295740a">Policy Elements</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>.
 
 It is possible for a single DLL to support multiple PE types by having the DLL name entered multiple times in the PCM configuration data. Under such circumstances, the PCM will load and call the same LPM_Initialize routine multiple times; it is the LPM's responsibility to return different PE types for these additional calls.
 
@@ -102,19 +102,19 @@ If the LPM is initialized successfully, and a valid PE type is returned in <i>pS
 
 
 
-<a href="https://msdn.microsoft.com/0bf84c25-312c-4b4a-8bb1-e8f00711dbe3">LPM_AdmitRsvpMsg</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_admitrsvpmsg">LPM_AdmitRsvpMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ae417e9-3180-4fd4-90f6-6e91c12d523b">LPM_GetRsvpObjects</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_getrsvpobjects">LPM_GetRsvpObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7b38820-4a7e-4f17-a67d-b94caa9037f5">PALLOCMEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pallocmem">PALLOCMEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/b700b5c1-9fd7-4fc9-a5ed-f8ac75d22037">PFREEMEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-pfreemem">PFREEMEM</a>
  
 
  

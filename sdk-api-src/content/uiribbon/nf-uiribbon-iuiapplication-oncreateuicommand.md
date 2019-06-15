@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
+Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>.
 		
 
 
@@ -69,18 +69,18 @@ The ID for the Command, which is specified in the markup resource file.
 
 ### -param typeID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">UI_COMMANDTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">UI_COMMANDTYPE</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">Command type</a> that is associated with a specific control.
+The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">Command type</a> that is associated with a specific control.
 				
 
 
 ### -param commandHandler [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>**</b>
 
 When this method returns, contains the address of a pointer to an 
-					<a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a> object. This object is a host application 
+					<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a> object. This object is a host application 
 					Command handler that is bound to one or more Commands.
 				
 
@@ -169,11 +169,11 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

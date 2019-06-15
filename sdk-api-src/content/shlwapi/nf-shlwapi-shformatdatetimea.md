@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>SHFormatDateTime</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Produces a string representation of a time specified as a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+Produces a string representation of a time specified as a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Produces a string representation of a time specified as a <a href="https://msdn.
 
 Type: <b>const FILETIME UNALIGNED*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure whose time is to be converted to a string.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure whose time is to be converted to a string.
 
 
 ### -param pdwFlags [in, out, optional]
@@ -127,7 +127,7 @@ The long time was successfully formatted.
 
 #### FDTF_RELATIVE (0x00000010)
 
-0x00000010. If the FDTF_LONGDATE flag is set and the date in the <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure is the same date that <b>SHFormatDateTime</b> is called, then the day of the week (if present) is changed to "Today". If the date in the structure is the previous day, then the day of the week (if present) is changed to "Yesterday".
+0x00000010. If the FDTF_LONGDATE flag is set and the date in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure is the same date that <b>SHFormatDateTime</b> is called, then the day of the week (if present) is changed to "Today". If the date in the structure is the previous day, then the day of the week (if present) is changed to "Yesterday".
 
 Relative notation was used for the date.
 
@@ -187,11 +187,11 @@ Returns the number of TCHARs written to the buffer, including the terminating nu
 
 
 
-<a href="https://msdn.microsoft.com/546cede1-1702-403a-bba3-b5cd3b35a1bf">GetDateFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformata">GetDateFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/3db91d29-df97-4660-b3cd-0db5b42cfd01">GetTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a>
  
 
  

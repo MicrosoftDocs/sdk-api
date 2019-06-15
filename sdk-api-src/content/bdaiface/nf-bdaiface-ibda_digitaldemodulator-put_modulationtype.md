@@ -62,7 +62,7 @@ The <b>put_ModulationType</b> method specifies the modulation type for the signa
 
 ### -param pModulationType [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/fd8691d3-a862-4294-8b0b-9723a080d722">ModulationType</a> variable that specifies the modulation type.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/modulationtype">ModulationType</a> variable that specifies the modulation type.
 
 
 ## -returns
@@ -79,15 +79,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f00553f-c0b1-4ff5-9c92-fe3a1990ef20">IBDA_DigitalDemodulator::get_ModulationType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/modulationtype">IBDA_DigitalDemodulator::get_ModulationType</a>
  
 
  

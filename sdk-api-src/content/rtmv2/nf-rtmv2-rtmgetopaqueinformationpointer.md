@@ -61,7 +61,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 
 ### -param DestHandle [in]
@@ -129,7 +129,7 @@ No opaque pointer was reserved by the client.
 
 
 For sample code using this function, see 
-<a href="https://msdn.microsoft.com/9bf420a1-2d9b-4be9-bd96-c92023b0ed41">Access the Opaque Pointer in a Destination</a>.
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/access-the-opaque-pointer-in-a-destination">Access the Opaque Pointer in a Destination</a>.
 
 
 
@@ -139,7 +139,7 @@ For sample code using this function, see
 
 
 
-<a href="https://msdn.microsoft.com/5666dc47-811f-481e-8bda-bf814a4028de">RtmLockDestination</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmlockdestination">RtmLockDestination</a>
  
 
  

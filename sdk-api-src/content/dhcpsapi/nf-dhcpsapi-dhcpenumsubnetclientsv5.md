@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DhcpEnumSubnetClientsV5</b> function returns an enumerated list of clients with served IP addresses in the specified subnet. This function extends the features  provided in the <a href="https://msdn.microsoft.com/04ef441e-0638-4ee7-a6a6-a35ab5cf7a44">DhcpEnumSubnetClients</a> function by returning a list  of <a href="https://msdn.microsoft.com/52003a41-8905-4f42-80e6-172c0df61ed7">DHCP_CLIENT_INFO_V5</a> structures that contain the specific client type (DHCP and/or BOOTP) and the IP address state.
+The <b>DhcpEnumSubnetClientsV5</b> function returns an enumerated list of clients with served IP addresses in the specified subnet. This function extends the features  provided in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclients">DhcpEnumSubnetClients</a> function by returning a list  of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_v5">DHCP_CLIENT_INFO_V5</a> structures that contain the specific client type (DHCP and/or BOOTP) and the IP address state.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ The preferred maximum number of bytes of subnet client information structures to
 
 ### -param ClientInfo [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/2188f187-d8d3-4579-bb04-4c4712903a91">DHCP_CLIENT_INFO_ARRAY_V5</a> structure containing information on the clients served under this specific subnet. If no clients are available, this field will be null.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array_v5">DHCP_CLIENT_INFO_ARRAY_V5</a> structure containing information on the clients served under this specific subnet. If no clients are available, this field will be null.
 
 
 ### -param ClientsRead [out]
@@ -98,7 +98,7 @@ A pointer to a value that specifies the total number of clients for the specifie
 
 The <b>DhcpEnumSubnetClientsV5</b> function returns <b>ERROR_SUCCESS</b> upon success. 
 
-On error, the function returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+On error, the function returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -148,7 +148,7 @@ There are still un-enumerated client lease records on the DHCP server for the pr
 
 
 
-The caller of this function must release the memory used by the <a href="https://msdn.microsoft.com/2188f187-d8d3-4579-bb04-4c4712903a91">DHCP_CLIENT_INFO_ARRAY_V5</a> structure returned in buffer pointed to by the <i>ClientInfo</i> parameter when the information is no longer needed.
+The caller of this function must release the memory used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array_v5">DHCP_CLIENT_INFO_ARRAY_V5</a> structure returned in buffer pointed to by the <i>ClientInfo</i> parameter when the information is no longer needed.
 
 
 
@@ -158,11 +158,11 @@ The caller of this function must release the memory used by the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/2188f187-d8d3-4579-bb04-4c4712903a91">DHCP_CLIENT_INFO_ARRAY_V5</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_info_array_v5">DHCP_CLIENT_INFO_ARRAY_V5</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a>
 
 
 
@@ -170,7 +170,7 @@ The caller of this function must release the memory used by the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/04ef441e-0638-4ee7-a6a6-a35ab5cf7a44">DhcpEnumSubnetClients</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclients">DhcpEnumSubnetClients</a>
  
 
  

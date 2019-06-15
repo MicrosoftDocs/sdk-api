@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/99804a2f-82c9-494c-b75d-69e66f1e49ef">IUIAnimationTransition</a> interface that defines a transition. An  <b>IUIAnimationTransition2</b> transition determines how an animation variable  changes over time in a given dimension.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a> interface that defines a transition. An  <b>IUIAnimationTransition2</b> transition determines how an animation variable  changes over time in a given dimension.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationTransition2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAnimationTransition2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAnimationTransition2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAnimationTransition2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAnimationTransition2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0C5B6B70-B400-466E-BB6A-1BF9313C106D">GetDimension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-getdimension">GetDimension</a>
 </td>
 <td align="left" width="63%">
 Gets the number of dimensions in which the animation variable has a transition specified.
@@ -78,7 +78,7 @@ Gets the number of dimensions in which the animation variable has a transition s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07B5C7D7-80B1-4458-93A7-39F61121B618">GetDuration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-getduration">GetDuration</a>
 </td>
 <td align="left" width="63%">
 Gets the duration of the transition.
@@ -87,7 +87,7 @@ Gets the duration of the transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A73065A7-B191-4CB9-A75A-827CFC040C92">IsDurationKnown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-isdurationknown">IsDurationKnown</a>
 </td>
 <td align="left" width="63%">
 Determines whether the duration of a transition is known.
@@ -96,7 +96,7 @@ Determines whether the duration of a transition is known.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/813224BE-369D-4D65-AA12-AEE590627F40">SetInitialValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-setinitialvalue">SetInitialValue</a>
 </td>
 <td align="left" width="63%">
 Sets the initial value of the transition.
@@ -105,7 +105,7 @@ Sets the initial value of the transition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B46F15F2-8C2A-4F15-9BBE-20FB8E5C84C6">SetInitialVectorValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-setinitialvectorvalue">SetInitialVectorValue</a>
 </td>
 <td align="left" width="63%">
 Sets the initial value of the transition for each specified dimension in the animation variable.
@@ -114,7 +114,7 @@ Sets the initial value of the transition for each specified dimension in the ani
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29EFBBE0-E877-4521-B4A7-E1828E0493B9">SetInitialVectorVelocity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-setinitialvectorvelocity">SetInitialVectorVelocity</a>
 </td>
 <td align="left" width="63%">
 Sets the initial velocity of the transition for each specified dimension in the animation variable.
@@ -123,7 +123,7 @@ Sets the initial velocity of the transition for each specified dimension in the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1CE8A3BD-9DDC-4FDE-BE2B-29804B3754B1">SetInitialVelocity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition2-setinitialvelocity">SetInitialVelocity</a>
 </td>
 <td align="left" width="63%">
 Sets the initial velocity of the transition.
@@ -138,11 +138,11 @@ Sets the initial velocity of the transition.
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/b54e319c-e140-4fd9-8045-5eb6f4a31326">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/UIAnimation/-interfaces-main">Interfaces</a>
  
 
  

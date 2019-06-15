@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 <b>CVssWriter</b> is the constructor of the 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> class object.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class object.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ ms.custom: 19H1
 
 
 
-<a href="https://msdn.microsoft.com/5ae3f144-24c4-4833-ac8f-44e12df6fbc3">CVssWriter::~CVssWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-~cvsswriter">CVssWriter::~CVssWriter</a>
  
 
  

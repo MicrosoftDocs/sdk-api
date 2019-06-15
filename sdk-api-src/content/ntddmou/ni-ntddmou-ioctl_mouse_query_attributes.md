@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The IOCTL_MOUSE_QUERY_ATTRIBUTES request returns information about the mouse attributes.
 
-Mouclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://msdn.microsoft.com/fb3d4534-9c6f-4956-b702-5752f9798600">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
+Mouclass copies the current stack location, sets the <b>MajorFunction</b> member of the new stack location to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, and sends this request down the device stack.
 
-For more information about this request, see <a href="https://msdn.microsoft.com/29427f60-b584-48ef-ba3c-a83bc845b51e">I8042prt Mouse Internal Device Control Requests</a>.
+For more information about this request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I8042prt Mouse Internal Device Control Requests</a>.
 
 
 ## -ioctlparameters
@@ -63,26 +63,26 @@ For more information about this request, see <a href="https://msdn.microsoft.com
 
 ### -input-buffer
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to zero or a value greater than or equal to the size, in bytes, of a <a href="https://msdn.microsoft.com/c121e9af-29c3-4638-9c21-2dc45c572858">MOUSE_UNIT_ID_PARAMETER</a>. A value of zero specifies a default unit ID of zero.
+The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to zero or a value greater than or equal to the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_unit_id_parameter">MOUSE_UNIT_ID_PARAMETER</a>. A value of zero specifies a default unit ID of zero.
 
 The <b>AssociatedIrp.SystemBuffer </b>member points to a client-allocated buffer that is used to input and output information. On input, <b>AssociatedIrp.SystemBuffer</b> points to a MOUSE_UNIT_ID_PARAMETER structure. The client sets the <b>UnitId</b> member of the input structure.
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of an output buffer, which must be greater than or equal to the size in bytes of a <a href="https://msdn.microsoft.com/e1054d4c-e149-4ebd-9336-2a1060e1e53d">MOUSE_ATTRIBUTES</a> structure.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of an output buffer, which must be greater than or equal to the size in bytes of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_attributes">MOUSE_ATTRIBUTES</a> structure.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/c121e9af-29c3-4638-9c21-2dc45c572858">MOUSE_UNIT_ID_PARAMETER</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_unit_id_parameter">MOUSE_UNIT_ID_PARAMETER</a> structure.
 
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to the client-allocated buffer that the lower-level drivers use to output a <a href="https://msdn.microsoft.com/e1054d4c-e149-4ebd-9336-2a1060e1e53d">MOUSE_ATTRIBUTES</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to the client-allocated buffer that the lower-level drivers use to output a <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_attributes">MOUSE_ATTRIBUTES</a> structure.
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/e1054d4c-e149-4ebd-9336-2a1060e1e53d">MOUSE_ATTRIBUTES</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_attributes">MOUSE_ATTRIBUTES</a> structure.
 
 
 ### -in-out-buffer
@@ -137,11 +137,11 @@ The request completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/e1054d4c-e149-4ebd-9336-2a1060e1e53d">MOUSE_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_attributes">MOUSE_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/c121e9af-29c3-4638-9c21-2dc45c572858">MOUSE_UNIT_ID_PARAMETER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_unit_id_parameter">MOUSE_UNIT_ID_PARAMETER</a>
  
 
  

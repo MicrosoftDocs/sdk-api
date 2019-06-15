@@ -59,12 +59,12 @@ The <b>DOT11_NETWORK</b> structure contains information about an available wirel
 
 ### -field dot11Ssid
 
-A <a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a> structure that contains the SSID of a visible wireless network.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that contains the SSID of a visible wireless network.
 
 
 ### -field dot11BssType
 
-A <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a> value that indicates the BSS type of the network.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> value that indicates the BSS type of the network.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ A <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT1
 
 
 
-<a href="https://msdn.microsoft.com/607c5795-8168-4c6b-a2f3-65f31aea5cf5">DOT11_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_dot11_network_list">DOT11_NETWORK_LIST</a>
  
 
  

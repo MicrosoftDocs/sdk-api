@@ -169,7 +169,7 @@ Specifies the client monitor vertical resolution.
 
 ### -field ColorDepth
 
-Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="https://msdn.microsoft.com/0d5e0a9d-23b0-4302-ade3-eb9fbd7f787d">WTS_CLIENT_DISPLAY</a> structure.
+Specifies the client monitor color depth. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_display">WTS_CLIENT_DISPLAY</a> structure.
 
 
 ### -field DisplayDriverName
@@ -234,7 +234,7 @@ A string value that contains the name of the audio driver to load.
 
 ### -field ClientTimeZone
 
-A <a href="https://msdn.microsoft.com/7d0e75b1-0a9b-47b1-8bf7-192966e3d19a">WTS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_time_zone_information">WTS_TIME_ZONE_INFORMATION</a> structure that contains client time zone information.
 
 
 ### -field ClientName
@@ -259,7 +259,7 @@ A string value that contains the client IP address in dotted decimal format.
 
 ### -field ClientSockAddress
 
-A <a href="https://msdn.microsoft.com/03fb0225-20d1-491a-a052-0a23fa09d01a">WTS_SOCKADDR</a> structure that contains information about the client socket.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_sockaddr">WTS_SOCKADDR</a> structure that contains information about the client socket.
 
 
 ### -field ClientDirectory

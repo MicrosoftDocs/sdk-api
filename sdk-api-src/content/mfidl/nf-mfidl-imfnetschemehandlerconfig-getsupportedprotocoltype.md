@@ -63,12 +63,12 @@ Retrieves a supported protocol by index
 
 ### -param nProtocolIndex [in]
 
-Zero-based index of the protocol to retrieve. To get the number of supported protocols, call <a href="https://msdn.microsoft.com/a0cbb01c-c86c-4186-81ca-6055aab5d361">IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols</a>.
+Zero-based index of the protocol to retrieve. To get the number of supported protocols, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getnumberofsupportedprotocols">IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols</a>.
 
 
 ### -param pnProtocolType [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/dd628b9e-3c52-4c14-aa0f-5e0b811d3f57">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
+Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfnetsource_protocol_type">MFNETSOURCE_PROTOCOL_TYPE</a> enumeration.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>nProtocolIndex</i> parameter was greater than the total number of supported protocols, returned by <a href="https://msdn.microsoft.com/a0cbb01c-c86c-4186-81ca-6055aab5d361">GetNumberOfSupportedProtocols</a>.
+The value passed in the <i>nProtocolIndex</i> parameter was greater than the total number of supported protocols, returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetschemehandlerconfig-getnumberofsupportedprotocols">GetNumberOfSupportedProtocols</a>.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The value passed in the <i>nProtocolIndex</i> parameter was greater than the tot
 
 
 
-<a href="https://msdn.microsoft.com/91bdcdbd-d621-42e3-8e0f-f8eeab489d35">IMFNetSchemeHandlerConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetschemehandlerconfig">IMFNetSchemeHandlerConfig</a>
  
 
  

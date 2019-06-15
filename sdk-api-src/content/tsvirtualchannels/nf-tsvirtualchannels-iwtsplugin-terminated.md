@@ -73,7 +73,7 @@ Returns <b>S_OK</b> if the call completes successfully. Results in no action if 
 
 
 
-<a href="https://msdn.microsoft.com/e34caf2c-1eb6-40eb-9407-20ed4fde9cdb">IWTSPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>
  
 
  

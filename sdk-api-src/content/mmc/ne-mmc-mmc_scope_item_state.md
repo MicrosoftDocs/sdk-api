@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 MMC_SCOPE_ITEM_STATE enumeration is used to specify the <b>nState</b> member of the 
-<a href="https://msdn.microsoft.com/c392f25c-80e7-4c91-9063-36143320b9aa">SCOPEDATAITEM</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_scopedataitem">SCOPEDATAITEM</a> structure.
 
 
 ## -enum-fields

@@ -79,7 +79,7 @@ This parameter is ignored and should be set to <b>NULL</b>.
 
 ### -param ppszCookie [out]
 
-A string that represents a unique context ID. This is used to unregister for callbacks when calling <a href="https://msdn.microsoft.com/6720e92b-35cd-4e3f-bd21-36337cf80140">Unadvise</a>.
+A string that represents a unique context ID. This is used to unregister for callbacks when calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-unadvise">Unadvise</a>.
           
 
 
@@ -117,11 +117,11 @@ The application-defined callback was successfully registered.
 
 
 
-<a href="https://msdn.microsoft.com/529a8b7a-08b4-47de-8ed3-28e8fff0ede2">Handling Events from the Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/handling-events-from-the-device">Handling Events from the Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information associated with audio descriptions. This structure is used with the 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ If this member is <b>TRUE</b>, audio descriptions are enabled; Otherwise, this m
 ### -field Locale
 
 The locale identifier (LCID) of the language for the audio description. For more information, see 
-       <a href="https://msdn.microsoft.com/8214c00d-4ec6-4597-8088-7819a160f0dc">Locales and Languages</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Intl/locales-and-languages">Locales and Languages</a>.
 
 
 ## -remarks
@@ -79,7 +79,7 @@ The locale identifier (LCID) of the language for the audio description. For more
 
 
 To compile an application that uses this structure, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -89,7 +89,7 @@ To compile an application that uses this structure, define _WIN32_WINNT as 0x060
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
  
 
  

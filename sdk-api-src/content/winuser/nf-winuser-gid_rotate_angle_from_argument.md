@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>GID_ROTATE_ANGLE_FROM_ARGUMENT</b> macro is used to interpret the 
         <b>GID_ROTATE</b> <i>ullArgument</i> value when receiving
-  the value in the <a href="https://msdn.microsoft.com/4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8">WM_GESTURE</a> structure.
+  the value in the <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>GID_ROTATE_ANGLE_FROM_ARGUMENT</b> macro is used to interpret the
 
 ### -param _arg_
 
-A value from a <a href="https://msdn.microsoft.com/4167aeb0-2c31-4b7b-ad1b-e6d37da09ef8">WM_GESTURE</a> message.
+A value from a <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a> message.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ A value from a <a href="https://msdn.microsoft.com/4167aeb0-2c31-4b7b-ad1b-e6d37
 
 
 
-<a href="https://msdn.microsoft.com/00877809-e8c7-41a5-928b-2cf66364d42a">Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/macros">Macros</a>
  
 
  

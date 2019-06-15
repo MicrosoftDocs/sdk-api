@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetStart</b> macro retrieves the location of the beginning of the content of an MCI device or file. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/2350616c-2aac-4ff6-b074-bb785a97cdfb">MCIWNDM_GETSTART</a> message.
+The <b>MCIWndGetStart</b> macro retrieves the location of the beginning of the content of an MCI device or file. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getstart">MCIWNDM_GETSTART</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/2350616c-2aac-4ff6-b074-bb785a97cdfb">MCIWNDM_GETSTART</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getstart">MCIWNDM_GETSTART</a>
  
 
  

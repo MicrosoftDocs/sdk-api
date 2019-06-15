@@ -59,17 +59,17 @@ Specifies the type of structure that a Remote Desktop Services function has retu
 
 ### -field WTSTypeProcessInfoLevel0
 
-The buffer contains one or more <a href="https://msdn.microsoft.com/5df01ad8-71fd-4831-8eba-1d6cabd61348">WTS_PROCESS_INFO</a> structures.
+The buffer contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_infoa">WTS_PROCESS_INFO</a> structures.
 
 
 ### -field WTSTypeProcessInfoLevel1
 
-The buffer contains one or more <a href="https://msdn.microsoft.com/a678d249-4943-4d2b-9cea-87ce20177c75">WTS_PROCESS_INFO_EX</a> structures.
+The buffer contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_process_info_exa">WTS_PROCESS_INFO_EX</a> structures.
 
 
 ### -field WTSTypeSessionInfoLevel1
 
-The buffer contains one or more <a href="https://msdn.microsoft.com/29d76033-d61d-4bc5-b47a-f7dea9543f23">WTS_SESSION_INFO_1</a> structures.
+The buffer contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_session_info_1a">WTS_SESSION_INFO_1</a> structures.
 
 
 ## -see-also
@@ -77,11 +77,11 @@ The buffer contains one or more <a href="https://msdn.microsoft.com/29d76033-d61
 
 
 
-<a href="https://msdn.microsoft.com/1c325174-ec08-4bbb-8e91-1a3cc9256110">WTSFreeMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/d84a4fe3-a829-4cf3-b217-157391d0c495">WTSFreeMemoryEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememoryexa">WTSFreeMemoryEx</a>
  
 
  

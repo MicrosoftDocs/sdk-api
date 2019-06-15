@@ -61,7 +61,7 @@ Creates a new function instance.
 
 ### -param enumVisibilityFlags [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa364818(v=VS.85).aspx">SystemVisibilityFlags</a> enumeration value that specifies the visibility of the function instance which the provider is about to create.  It is up to the provider whether or not to honor this flag, however the current user visibility can be used to allow processes running in a non-Administrator security context to still be able to add function instances.
+A <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/ne-functiondiscoveryapi-tagsystemvisibilityflags">SystemVisibilityFlags</a> enumeration value that specifies the visibility of the function instance which the provider is about to create.  It is up to the provider whether or not to honor this flag, however the current user visibility can be used to allow processes running in a non-Administrator security context to still be able to add function instances.
 
 
 ### -param pszSubCategory [in]
@@ -76,7 +76,7 @@ The provider instance identifier.
 
 ### -param ppIFunctionInstance [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface pointer used to return the newly created function instance.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer used to return the newly created function instance.
 
 
 ## -returns
@@ -134,7 +134,7 @@ One of the parameters contains an invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/7647db1b-88c8-44f3-b2af-a61dad4790f6">IProviderPublishing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpublishing">IProviderPublishing</a>
  
 
  

@@ -59,7 +59,7 @@ Closes the package writer object's output stream.
 
 ### -param manifest [in]
 
-The stream that provides the contents of the manifest for the package. The stream must support <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">Read</a>, <a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">Seek</a>, and <a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">Stat</a>.
+The stream that provides the contents of the manifest for the package. The stream must support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
 
 
 ### -param contentGroupMap [in]
@@ -111,7 +111,7 @@ The input stream contains a manifest that is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/CB3F2FBC-7CCA-45F9-A384-D5458EBA1A7B">IAppxPackageWriter2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter2">IAppxPackageWriter2</a>
  
 
  

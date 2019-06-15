@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsComputer</b> interface is a dual interface that inherits from  <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. It is designed to represent and manage a computer, such as a server, client, workstation, and so on, on a network. You can manipulate the properties of this interface to access data about a computer. The data includes the operating system, the make and model, processor, computer identifier, its network addresses, and so on.
+The <b>IADsComputer</b> interface is a dual interface that inherits from  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. It is designed to represent and manage a computer, such as a server, client, workstation, and so on, on a network. You can manipulate the properties of this interface to access data about a computer. The data includes the operating system, the make and model, processor, computer identifier, its network addresses, and so on.
   
-<div class="alert"><b>Note</b>  The <b>IADsComputer</b> interface is not implemented by the LDAP ADSI provider. For more information, see <a href="https://msdn.microsoft.com/658d47ec-731e-492b-b341-38c699d8c064">ADSI Objects of LDAP</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>IADsComputer</b> interface is not implemented by the LDAP ADSI provider. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-objects-of-ldap">ADSI Objects of LDAP</a>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsComputer</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsComputer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsComputer</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>. <b>IADsComputer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IADsComputer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a property by name.
@@ -80,7 +80,7 @@ Gets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cda6b8e7-fadc-4e0b-8217-66b37bf7efbd">GetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">GetEx</a>
 </td>
 <td align="left" width="63%">
 Gets the value for a single or multi-valued property by name.
@@ -89,7 +89,7 @@ Gets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73ceaeb1-9a6b-449a-9851-3756736dbad7">GetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Loads the property values of this object from the underlying directory store.
@@ -98,7 +98,7 @@ Loads the property values of this object from the underlying directory store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">GetInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">GetInfoEx</a>
 </td>
 <td align="left" width="63%">
 Loads specific property values of this object from the underlying directory store.
@@ -107,7 +107,7 @@ Loads specific property values of this object from the underlying directory stor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b543220d-939b-4ca5-9a27-90b04f14be5d">Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">Put</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a property by name.
@@ -116,7 +116,7 @@ Sets the value for a property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb9d9b2c-9efc-4462-ac4b-9a2fbf0b5ec7">PutEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">PutEx</a>
 </td>
 <td align="left" width="63%">
 Sets the value for a single or multi-valued property by name.
@@ -125,7 +125,7 @@ Sets the value for a single or multi-valued property by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">SetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">SetInfo</a>
 </td>
 <td align="left" width="63%">
 Persists the changes on this object to the underlying directory store.
@@ -143,7 +143,7 @@ Persists the changes on this object to the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">AdsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">AdsPath</a>
 
 
 </td>
@@ -159,7 +159,7 @@ Gets the object ADsPath that uniquely identifies this object from all others.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Class</a>
 
 
 </td>
@@ -175,7 +175,7 @@ Gets the name of the object schema class.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">ComputerID</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">ComputerID</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Gets the globally unique identifier for this computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Department</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Department</a>
 
 
 </td>
@@ -207,7 +207,7 @@ Gets and sets the department to which this computer belongs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Description</a>
 
 
 </td>
@@ -223,7 +223,7 @@ Gets and sets the description of this computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Division</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Division</a>
 
 
 </td>
@@ -239,7 +239,7 @@ Gets and sets the division to which this computer belongs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">GUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">GUID</a>
 
 
 </td>
@@ -255,7 +255,7 @@ Gets the GUID of the object as stored in the underlying directory store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Location</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Location</a>
 
 
 </td>
@@ -271,7 +271,7 @@ Gets and sets the physical location of this computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">MemorySize</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">MemorySize</a>
 
 
 </td>
@@ -287,7 +287,7 @@ Gets and sets the amount of RAM in MB.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Model</a>
 
 
 </td>
@@ -303,7 +303,7 @@ Gets and sets the make and model of this computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Name</a>
 
 
 </td>
@@ -319,7 +319,7 @@ Gets the object relative name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">NetAddresses</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">NetAddresses</a>
 
 
 </td>
@@ -335,7 +335,7 @@ Gets and sets binding data.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">OperatingSystem</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">OperatingSystem</a>
 
 
 </td>
@@ -351,7 +351,7 @@ Gets and sets the installed operating system in use.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">OperatingSystemVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">OperatingSystemVersion</a>
 
 
 </td>
@@ -367,7 +367,7 @@ Gets and sets the version of installed operating system in use.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Owner</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Owner</a>
 
 
 </td>
@@ -383,7 +383,7 @@ Gets and sets the registered user of this computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Parent</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Parent</a>
 
 
 </td>
@@ -399,7 +399,7 @@ Gets the ADsPath string for the parent of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">PrimaryUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">PrimaryUser</a>
 
 
 </td>
@@ -415,7 +415,7 @@ Gets and sets the contact person for this computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Processor</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Processor</a>
 
 
 </td>
@@ -431,7 +431,7 @@ Gets and sets type of processor.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">ProcessorCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">ProcessorCount</a>
 
 
 </td>
@@ -447,7 +447,7 @@ Gets and sets the number of processors installed in this computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Role</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Role</a>
 
 
 </td>
@@ -463,7 +463,7 @@ Gets and sets the  role of this computer; that is server or workstation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">Schema</a>
 
 
 </td>
@@ -479,7 +479,7 @@ Gets the ADsPath string to the schema class object for this object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">Site</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">Site</a>
 
 
 </td>
@@ -495,7 +495,7 @@ Gets the globally unique identifier for this site.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">StorageCapacity</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">StorageCapacity</a>
 
 
 </td>
@@ -516,16 +516,16 @@ Gets and sets, in MB, the size of the hard disk drive.
 
 
 
-<a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://msdn.microsoft.com/c990b6bb-6256-4216-9435-c85c67db4d13">IADsComputer Property
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscomputer-property-methods">IADsComputer Property
     Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

@@ -337,11 +337,11 @@ The file has been replaced and deleted on the client. The directory has changed 
 
 
 
-<a href="https://msdn.microsoft.com/eb6fbdcf-1833-4ada-880e-f2dbfce64d99">IOfflineFilesSyncConflictHandler::ResolveConflict</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncconflicthandler-resolveconflict">IOfflineFilesSyncConflictHandler::ResolveConflict</a>
 
 
 
-<a href="https://msdn.microsoft.com/2082b476-cb98-4845-885a-56731f8a4762">OFFLINEFILES_SYNC_CONFLICT_RESOLVE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/ne-cscobj-tagofflinefiles_sync_conflict_resolve">OFFLINEFILES_SYNC_CONFLICT_RESOLVE</a>
  
 
  

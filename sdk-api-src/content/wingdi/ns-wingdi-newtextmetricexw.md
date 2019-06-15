@@ -64,12 +64,12 @@ The <b>NEWTEXTMETRICEX</b> structure contains information about a physical font.
 
 ### -field ntmTm
 
-A <a href="https://msdn.microsoft.com/0dd7fee0-0771-4c72-9843-0fee308da5cc">NEWTEXTMETRIC</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagnewtextmetrica">NEWTEXTMETRIC</a> structure.
 
 
 ### -field ntmFontSig
 
-A <a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONTSIGNATURE</a> structure indicating the coverage of the font.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a> structure indicating the coverage of the font.
 
 
 ## -see-also
@@ -77,19 +77,19 @@ A <a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONT
 
 
 
-<a href="https://msdn.microsoft.com/5331da53-7e3d-46e9-a922-da04fedc8382">FONTSIGNATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagfontsignature">FONTSIGNATURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/0dd7fee0-0771-4c72-9843-0fee308da5cc">NEWTEXTMETRIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagnewtextmetrica">NEWTEXTMETRIC</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/EA8AD89B-A710-468F-A6F3-474DA29586F1">DPI compensation effect</a> uses to scale the image.
+The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/dpi-compensation">DPI compensation effect</a> uses to scale the image.
         
 
 

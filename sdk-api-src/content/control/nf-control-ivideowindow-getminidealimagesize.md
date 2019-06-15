@@ -143,10 +143,10 @@ The maximum ideal size may differ from the native video size, because the video 
 This method returns S_FALSE under various circumstances:
 
 <ul>
-<li>The filter is using an <a href="https://msdn.microsoft.com/en-us/library/Dd390357(v=VS.85).aspx">IOverlay</a> transport.</li>
-<li>UseWhenFullScreen mode is on. (See <a href="https://msdn.microsoft.com/en-us/library/Dd406831(v=VS.85).aspx">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
-<li>Video playback is using a stretchable offscreen surface. (The <b>dwCaps</b> member of the DDCAPS structure includes the DDCAPS_BLTSTRETCH flag. See <a href="https://msdn.microsoft.com/en-us/library/Dd406819(v=VS.85).aspx">IDirectDrawVideo::GetCaps</a>.)</li>
-<li>The video surface has no minimum overlay stretch. (The <b>dwMinOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://msdn.microsoft.com/en-us/library/Dd406819(v=VS.85).aspx">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>The filter is using an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> transport.</li>
+<li>UseWhenFullScreen mode is on. (See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">IDirectDrawVideo::UseWhenFullScreen</a>.)</li>
+<li>Video playback is using a stretchable offscreen surface. (The <b>dwCaps</b> member of the DDCAPS structure includes the DDCAPS_BLTSTRETCH flag. See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
+<li>The video surface has no minimum overlay stretch. (The <b>dwMinOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>
 
 
@@ -156,15 +156,15 @@ This method returns S_FALSE under various circumstances:
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377282(v=VS.85).aspx">IVideoWindow::GetMaxIdealImageSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-getmaxidealimagesize">IVideoWindow::GetMaxIdealImageSize</a>
  
 
  

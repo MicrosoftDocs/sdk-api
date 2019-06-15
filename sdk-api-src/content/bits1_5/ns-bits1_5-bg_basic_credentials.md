@@ -84,4 +84,4 @@ You can specify the user name like this.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/c16c616c-f4cb-483d-8a15-6ff9d45762ae">BG_AUTH_CREDENTIALS_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0004">BG_AUTH_CREDENTIALS_UNION</a>

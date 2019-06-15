@@ -418,13 +418,13 @@ Value: 0xC0AA050F
 
 
 
-Before calling this method, you must call the <a href="https://msdn.microsoft.com/9140aa9f-f592-4ef4-85c7-321e5503b0b8">IDiscFormat2TrackAtOnce::put_ClientName</a> method. 
+Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname">IDiscFormat2TrackAtOnce::put_ClientName</a> method. 
 
-Also, you must call the <b>IDiscFormat2TrackAtOnce::PrepareMedia</b> method before calling the <a href="https://msdn.microsoft.com/3ac74b91-b0c7-471f-b6a9-1393d677e0c1">IDiscFormat2TrackAtOnce::AddAudioTrack</a> method. 
+Also, you must call the <b>IDiscFormat2TrackAtOnce::PrepareMedia</b> method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">IDiscFormat2TrackAtOnce::AddAudioTrack</a> method. 
 
-After the write is complete or you cancel the write operation, you must call the <a href="https://msdn.microsoft.com/0d6f85a9-94cc-426c-8442-14eb6e4024f3">IDiscFormat2TrackAtOnce::ReleaseMedia</a> method to release the lock.
+After the write is complete or you cancel the write operation, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a> method to release the lock.
 
-Note that Media Change Notification (MCN) and the <a href="https://msdn.microsoft.com/ffde10f9-259a-400d-b83e-f8c81bbe8f94">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a> property become read-only until the session is closed.
+Note that Media Change Notification (MCN) and the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a> property become read-only until the session is closed.
 
 
 
@@ -434,27 +434,27 @@ Note that Media Change Notification (MCN) and the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/27f2d248-1c83-4784-82f9-75ce0a038b87">IDiscFormat2TrackAtOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d6f85a9-94cc-426c-8442-14eb6e4024f3">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f33bbc2-531a-472a-8e2a-b7e9fb4d6bba">IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffde10f9-259a-400d-b83e-f8c81bbe8f94">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a>
 
 
 
-<a href="https://msdn.microsoft.com/3111863e-64bf-467c-ac73-7a16c9aeb3df">IDiscRecorder2::DisableMcn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">IDiscRecorder2::DisableMcn</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce848ba1-86b4-44cc-8f41-8b8eaba20521">IDiscRecorder2::EnableMcn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>
  
 
  

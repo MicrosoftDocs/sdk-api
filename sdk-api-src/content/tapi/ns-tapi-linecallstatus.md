@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINECALLSTATUS</b> structure describes the current status of a call. The information in this structure depends on the device capabilities of the address, the ownership of the call by the invoking application, and the current state of the call being queried. The 
-<a href="https://msdn.microsoft.com/88bcd211-0993-4703-b43f-4e0b93e3eb7e">lineGetCallStatus</a> and 
-<a href="https://msdn.microsoft.com/7124ef73-148f-41df-afd6-ebfa29d5cf1c">TSPI_lineGetCallStatus</a> functions return the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallstatus">TSPI_lineGetCallStatus</a> functions return the 
 <b>LINECALLSTATUS</b> structure.
 
 
@@ -79,7 +79,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwCallState
 
 Current call state of the call using one of the 
-<a href="https://msdn.microsoft.com/18d881ee-cf98-4dec-a561-333c2518935d">LINECALLSTATE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ constants</a>.
 
 
 ### -field dwCallStateMode
@@ -100,7 +100,7 @@ Interpretation of the <b>dwCallStateMode</b> member is call-state-dependent. In 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/4a3fa79f-7a7a-4f9b-9353-e6c5ca4fcb4e">LINEBUSYMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebusymode--constants">LINEBUSYMODE_ Constants</a>
 
 
 </td>
@@ -112,7 +112,7 @@ Interpretation of the <b>dwCallStateMode</b> member is call-state-dependent. In 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/d75a5989-3f4e-4e5d-90b1-4e450def017e">LINECONNECTEDMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineconnectedmode--constants">LINECONNECTEDMODE_ Constants</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Interpretation of the <b>dwCallStateMode</b> member is call-state-dependent. In 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/0b040482-35cf-42e8-84bc-33002635b591">LINEDIALTONEMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedialtonemode--constants">LINEDIALTONEMODE_ Constants</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Interpretation of the <b>dwCallStateMode</b> member is call-state-dependent. In 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1b26f13c-b0bf-4d2c-8514-f0c376e36bcd">LINEDISCONNECTMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedisconnectmode--constants">LINEDISCONNECTMODE_ Constants</a>
 
 
 </td>
@@ -148,7 +148,7 @@ Interpretation of the <b>dwCallStateMode</b> member is call-state-dependent. In 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/a6c6d30f-fdc4-4ba5-b1a2-3c709445aedc">LINEOFFERINGMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineofferingmode--constants">LINEOFFERINGMODE_ Constants</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Interpretation of the <b>dwCallStateMode</b> member is call-state-dependent. In 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/b94f8a6f-b84d-4976-b4d4-10dee5a1a4d8">LINESPECIALINFO_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linespecialinfo--constants">LINESPECIALINFO_ Constants</a>
 
 
 </td>
@@ -172,13 +172,13 @@ Interpretation of the <b>dwCallStateMode</b> member is call-state-dependent. In 
 ### -field dwCallPrivilege
 
 Application's privilege for this call. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/a58b7e9e-696e-4421-9b31-1ba8afe6e03b">LINECALLPRIVILEGE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallprivilege--constants">LINECALLPRIVILEGE_ constants</a>.
 
 
 ### -field dwCallFeatures
 
 Flags that indicate the Telephony API functions that can be invoked on the call, given the availability of the feature in the device capabilities, the current call state, and call ownership of the invoking application. A zero indicates the corresponding feature cannot be invoked by the application on the call in its current state; a one indicates the feature can be invoked. This member uses 
-<a href="https://msdn.microsoft.com/8bb1d678-079c-4c83-b4a2-08fd7afdca9b">LINECALLFEATURE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallfeature--constants">LINECALLFEATURE_ Constants</a>.
 
 
 ### -field dwDevSpecificSize
@@ -194,7 +194,7 @@ Offset from the beginning of the structure to the variably sized device-specific
 ### -field dwCallFeatures2
 
 Indicates additional functions can be invoked on the call, given the availability of the feature in the device capabilities, the current call state, and call ownership of the invoking application. An extension of the <b>dwCallFeatures</b> member. This member uses 
-<a href="https://msdn.microsoft.com/67a3b587-dd5b-4ccf-ab69-2137604706b8">LINECALLFEATURE2_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallfeature2--constants">LINECALLFEATURE2_ Constants</a>.
 
 
 ### -field tStateEntryTime
@@ -209,8 +209,8 @@ Coordinated Universal Time at which the current call state was entered.
 Device-specific extensions should use the DevSpecific (<b>dwDevSpecificSize</b> and <b>dwDevSpecificOffset</b>) variably sized area of this data structure.
 
 The application is sent a 
-<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a> message whenever the call state of a call changes. This message only provides the new call state of the call. Additional status about a call is available with 
-<a href="https://msdn.microsoft.com/88bcd211-0993-4703-b43f-4e0b93e3eb7e">lineGetCallStatus</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a> message whenever the call state of a call changes. This message only provides the new call state of the call. Additional status about a call is available with 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>.
 
 The members <b>dwCallFeatures2</b> and <b>tStateEntryTime</b> are available only to applications that open the line device with an API version of 2.0 or later.
 
@@ -222,19 +222,19 @@ The members <b>dwCallFeatures2</b> and <b>tStateEntryTime</b> are available only
 
 
 
-<a href="https://msdn.microsoft.com/efb65462-abe5-46db-9299-97871e0d011e">LINEDIALPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedialparams_tag">LINEDIALPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7124ef73-148f-41df-afd6-ebfa29d5cf1c">TSPI_lineGetCallStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallstatus">TSPI_lineGetCallStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/88bcd211-0993-4703-b43f-4e0b93e3eb7e">lineGetCallStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>
  
 
  

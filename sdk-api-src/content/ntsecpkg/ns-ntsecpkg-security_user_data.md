@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecurityUserData</b> structure contains information about the user of a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a>/<a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authentication package</a>. This structure is used by the 
-<a href="https://msdn.microsoft.com/ee37fab0-5ee5-4cc5-9fcc-5c74cb0b2b26">SpGetUserInfo</a> function.
+The <b>SecurityUserData</b> structure contains information about the user of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a>/<a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a>. This structure is used by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetuserinfofn">SpGetUserInfo</a> function.
 
 
 ## -struct-fields
@@ -75,5 +75,5 @@ The name of the server that logged the user on.
 
 ### -field pSid
 
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) of the user.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the user.
 

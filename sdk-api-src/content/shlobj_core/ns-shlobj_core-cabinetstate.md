@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>CABINETSTATE</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Holds the global configuration for Windows Explorer and Windows Internet Explorer. This structure is used in the <a href="https://msdn.microsoft.com/0f0c6a10-588f-4c79-b73b-cf0bf9336ffc">ReadCabinetState</a> and <a href="https://msdn.microsoft.com/cbd08812-eedc-4ba7-827e-1e5d1e3e6368">WriteCabinetState</a> functions.
+Holds the global configuration for Windows Explorer and Windows Internet Explorer. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-readcabinetstate">ReadCabinetState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-writecabinetstate">WriteCabinetState</a> functions.
 
 
 ## -struct-fields

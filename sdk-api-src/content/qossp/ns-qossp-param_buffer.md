@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PARAM_BUFFER</b> structure describes the format of the parameter buffer that can be included in the <a href="https://msdn.microsoft.com/604d7be8-955b-40a3-9cb4-6cbfbeeaa105">CONTROL_SERVICE</a> structure.
+The <b>PARAM_BUFFER</b> structure describes the format of the parameter buffer that can be included in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_control_service">CONTROL_SERVICE</a> structure.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ Buffer containing the parameter.
 
 
 
-<a href="https://msdn.microsoft.com/604d7be8-955b-40a3-9cb4-6cbfbeeaa105">CONTROL_SERVICE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_control_service">CONTROL_SERVICE</a>
  
 
  

@@ -64,14 +64,14 @@ The number of types in the array.
 
 ### -field types
 
-A <a href="https://msdn.microsoft.com/9a1d5431-fe83-468e-bc0e-8e55342ae205">FWPM_SYSTEM_PORTS_BY_TYPE0</a> structure that specifies the array of system port types.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports_by_type0_">FWPM_SYSTEM_PORTS_BY_TYPE0</a> structure that specifies the array of system port types.
 
 
 ## -remarks
 
 
 
-<b>FWPM_SYSTEM_PORTS0</b> is a specific implementation of FWPM_SYSTEM_PORTS. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_SYSTEM_PORTS0</b> is a specific implementation of FWPM_SYSTEM_PORTS. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -81,11 +81,11 @@ A <a href="https://msdn.microsoft.com/9a1d5431-fe83-468e-bc0e-8e55342ae205">FWPM
 
 
 
-<a href="https://msdn.microsoft.com/9a1d5431-fe83-468e-bc0e-8e55342ae205">FWPM_SYSTEM_PORTS_BY_TYPE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_system_ports_by_type0_">FWPM_SYSTEM_PORTS_BY_TYPE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

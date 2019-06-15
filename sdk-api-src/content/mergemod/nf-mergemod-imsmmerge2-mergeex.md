@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MergeEx</b> method executes a merge of the current database and current module. The merge attaches the components in the module to the feature identified by <i>Feature</i>. The root of the module's directory tree is redirected to the location given by <i>RedirectDir</i>. For more information, see the 
-<a href="https://msdn.microsoft.com/83b6d62b-d176-42ac-b513-d1c2e562965c">MergeEx</a> method of the <a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.  
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-mergeex">MergeEx</a> method of the <a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.  
 			
 
 
@@ -152,17 +152,17 @@ The function succeeded.
 
 
 This function executes a merge of the current database and current module. The root of the module's directory tree is redirected to the location given by <i>RedirectDir</i>. If any merge conflicts occur, including exclusions, they are placed in the error enumerator for later retrieval, but does not cause the merge to fail. Errors may be retrieved using 
-<a href="https://msdn.microsoft.com/81bf84f6-d469-47b1-9097-8a3ee9c8550d">get_Errors</a> function. Errors and informational messages will be posted to the current log file.
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-get_errors">get_Errors</a> function. Errors and informational messages will be posted to the current log file.
 
 Once the merge is complete, components in the module are attached to the feature identified by <i>Feature</i>. This feature must already exist and is not created. The module may be attached to additional features using 
-<a href="https://msdn.microsoft.com/f491beb8-90f7-4e41-891d-ef674306339d">Connect</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect">Connect</a> function.
 
 Changes made to the database will not be saved to disk unless 
-<a href="https://msdn.microsoft.com/efbb6238-e9e3-4603-896a-75fcff2bb362">CloseDatabase</a> function is called with <i>bCommit</i> set to <b>TRUE</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">CloseDatabase</a> function is called with <i>bCommit</i> set to <b>TRUE</b>.
 
 When the merge fails because of an incorrect module configuration the function returns E_FAIL. This includes these msmErrorType errors: msmErrorBadNullSubstitution, msmErrorBadSubstitutionType, msmErrorBadNullResponse, msmErrorMissingConfigItem, and msmErrorDataRequestFailed. These errors cause the merge to stop immediately when the error is encountered. The error object is still added to the enumerator when 
 <b>MergeEx</b> returns E_FAIL. For more information about msmErrorType errors, see 
-<a href="https://msdn.microsoft.com/733a5390-419d-414a-b50e-8400d179bfb6">get_Type Function (Error Object)</a>. All other errors cause 
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">get_Type Function (Error Object)</a>. All other errors cause 
 <b>MergeEx</b> to return S_FALSE and cause the merge to continue.
 
 
@@ -173,7 +173,7 @@ When the merge fails because of an incorrect module configuration the function r
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

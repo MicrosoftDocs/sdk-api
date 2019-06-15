@@ -74,11 +74,11 @@ Indicates if the property bag should include the volume <b>GUID</b> name of the
 
 
 
-<a href="https://msdn.microsoft.com/93fdf667-8959-40a9-a374-c54ed73bbe89">FSRM Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccd52bbc-998e-435f-bea5-ed456adf3ff9">IFsrmPropertyBag2::GetFieldValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag2-getfieldvalue">IFsrmPropertyBag2::GetFieldValue</a>
  
 
  

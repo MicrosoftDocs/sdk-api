@@ -98,7 +98,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694647(v=VS.85).aspx">IMSVidStreamBufferSinkEvent2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent2">IMSVidStreamBufferSinkEvent2 Interface</a>
  
 
  

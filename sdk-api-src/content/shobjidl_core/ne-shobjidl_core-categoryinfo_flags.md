@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a set of flags for use with the <a href="https://msdn.microsoft.com/6198cd31-94db-4d31-9cc9-f8b90e661809">CATEGORY_INFO</a> structure.
+Provides a set of flags for use with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-category_info">CATEGORY_INFO</a> structure.
 
 
 ## -enum-fields

@@ -54,7 +54,7 @@ Represents a resource domain whose objects and device contexts can be used toget
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1Device</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Device</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Device</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Device</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/310817b7-0548-4846-9d36-98842c06a450">ClearResources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1device-clearresources">ClearResources</a>
 </td>
 <td align="left" width="63%">
 Clears all of the rendering resources used by Direct2D. 
@@ -78,7 +78,7 @@ Clears all of the rendering resources used by Direct2D.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d14255d4-ae59-42b4-ada9-bd7a3c5e8024">CreateDeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1device-createdevicecontext">CreateDeviceContext</a>
 </td>
 <td align="left" width="63%">
 Creates a new device context from a Direct2D device.
@@ -87,15 +87,15 @@ Creates a new device context from a Direct2D device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/JJ841160(v=VS.85).aspx">CreatePrintControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-createprintcontrol">CreatePrintControl</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
+<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a> object that converts <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> primitives stored in <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandlist">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0EAF3618-61A8-4332-8B62-1F37335A47A8">GetMaximumTextureMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1device-getmaximumtexturememory">GetMaximumTextureMemory</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum amount of texture memory Direct2D accumulates before it purges the image caches and cached texture allocations.
@@ -104,7 +104,7 @@ Sets the maximum amount of texture memory Direct2D accumulates before it purges 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8B714995-8837-4605-8CA3-7D7941D2C10D">SetMaximumTextureMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1device-setmaximumtexturememory">SetMaximumTextureMemory</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum amount of texture memory Direct2D accumulates before it purges the image caches and cached texture allocations.
@@ -119,15 +119,15 @@ Sets the maximum amount of texture memory Direct2D accumulates before it purges 
 
 
 
-<a href="https://msdn.microsoft.com/5ed3ec21-b609-41b6-9568-6ede460bc395">D2D1CreateDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-d2d1createdevice">D2D1CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/d16569c1-e366-45fe-9079-ed9eb894547b">ID2D1Factory1::CreateDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-createdevice">ID2D1Factory1::CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
  
 
  

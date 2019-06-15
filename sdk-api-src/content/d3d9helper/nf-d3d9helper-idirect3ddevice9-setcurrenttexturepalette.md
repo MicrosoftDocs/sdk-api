@@ -60,7 +60,7 @@ Sets the current texture palette.
 
 ### -param PaletteNumber [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value that specifies the texture palette to set as the current texture palette. 
 
@@ -69,7 +69,7 @@ Value that specifies the texture palette to set as the current texture palette.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -90,15 +90,15 @@ A single logical palette is associated with the device, and is shared by all tex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174383(v=VS.85).aspx">IDirect3DDevice9::GetCurrentTexturePalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getcurrenttexturepalette">IDirect3DDevice9::GetCurrentTexturePalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb206252(v=VS.85).aspx">Texture Palettes (Direct3D 9)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/texture-palettes">Texture Palettes (Direct3D 9)</a>
  
 
  

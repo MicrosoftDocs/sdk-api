@@ -59,7 +59,7 @@ The <b>CertSetStoreProperty</b> function sets a store property.
 
 ### -param hCertStore [in]
 
-Handle for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
+Handle for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 					
 
 
@@ -76,12 +76,12 @@ Reserved for future use and must be zero.
 ### -param pvData [in]
 
 The type definition for <i>pvData</i> depends on the <i>dwPropId</i> value. If <i>dwPropId</i> is CERT_STORE_LOCALIZED_NAME_PROP_ID, <i>pvData</i> points to a 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure. The <b>pbData</b> member of that structure is a pointer to a <b>null</b>-terminated Unicode character string. The <b>cbData</b> member of that structure is a <b>DWORD</b> value holding the length of the string. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure. The <b>pbData</b> member of that structure is a pointer to a <b>null</b>-terminated Unicode character string. The <b>cbData</b> member of that structure is a <b>DWORD</b> value holding the length of the string. 
 
 
 
 
-For user-defined <i>dwPropId</i> values, <i>pvData</i> is a pointer to an encoded <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a>.
+For user-defined <i>dwPropId</i> values, <i>pvData</i> is a pointer to an encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a>.
 
 If a value already exists for the selected property, the old value is replaced.
 
@@ -103,7 +103,7 @@ If the function fails, the return value is <b>FALSE</b>.
 
 
 
-Store property identifiers are properties applicable to an entire store. They are not properties for an individual <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>, <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CRL</a>, or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CTL</a> context. Currently, no store properties are persisted.
+Store property identifiers are properties applicable to an entire store. They are not properties for an individual <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRL</a>, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CTL</a> context. Currently, no store properties are persisted.
 
 
 #### Examples
@@ -172,7 +172,7 @@ if (!CertCloseStore(
 ```
 
 
-For another  example that uses this function, see <a href="https://msdn.microsoft.com/9fb368c9-a0d7-4c5f-9a38-7ef8f7283354">Example C Program: Setting and Getting Certificate Store Properties</a>.
+For another  example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
 <div class="code"></div>
 
@@ -183,11 +183,11 @@ For another  example that uses this function, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/0df4f18b-3b0f-498e-90a5-74d686af83e0">CertGetStoreProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetstoreproperty">CertGetStoreProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
  
 
  

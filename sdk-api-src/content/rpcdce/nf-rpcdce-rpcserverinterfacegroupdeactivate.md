@@ -59,7 +59,7 @@ The <b>RpcServerInterfaceGroupDeactivate</b> function tells the RPC runtime to a
 
 ### -param IfGroup [in]
 
-A <b>RPC_INTERFACE_GROUP</b> from <a href="https://msdn.microsoft.com/7B648221-8256-42C9-B200-0EFD3B0DBA91">RpcServerInterfaceGroupCreate</a> that defines the interface group to deactivate
+A <b>RPC_INTERFACE_GROUP</b> from <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a> that defines the interface group to deactivate
 
 
 ### -param ForceDeactivation [in]
@@ -102,7 +102,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -123,7 +123,7 @@ If <i>ForceDeactivation</i> is <b>FALSE</b>, <b>RpcServerInterfaceGroupDeactivat
 
 If <i>ForceDeactivation</i> is <b>TRUE</b>, <b>RpcServerInterfaceGroupDeactivate</b> does not fail.
 
-Service applications can call <b>RpcServerInterfaceGroupDeactivate</b> with <i>ForceDeactivation</i> set to <b>FALSE</b> from their idle callback function <a href="https://msdn.microsoft.com/7B648221-8256-42C9-B200-0EFD3B0DBA91">RpcServerInterfaceGroupCreate</a>.  When used in conjunction with RPC service start triggers, this enables them to safely idle stop without missing calls from potential clients.
+Service applications can call <b>RpcServerInterfaceGroupDeactivate</b> with <i>ForceDeactivation</i> set to <b>FALSE</b> from their idle callback function <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a>.  When used in conjunction with RPC service start triggers, this enables them to safely idle stop without missing calls from potential clients.
 
 
 
@@ -133,19 +133,19 @@ Service applications can call <b>RpcServerInterfaceGroupDeactivate</b> with <i>F
 
 
 
-<a href="https://msdn.microsoft.com/A467DDEC-BEB1-4050-B540-4A1E819E7373">RpcServerInterfaceGroupActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/DD7F12FC-EDB3-48C3-A87D-9ABAB4EFA009">RpcServerInterfaceGroupClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupclose">RpcServerInterfaceGroupClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/7B648221-8256-42C9-B200-0EFD3B0DBA91">RpcServerInterfaceGroupCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/90535A05-9835-45F2-A62F-718736A80ED3">RpcServerInterfaceGroupInqBindings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInterfaceGroupInqBindings</a>
  
 
  

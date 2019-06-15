@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Marshals data from the specified <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object to the user's RPC buffer on the client or server side. 
+Marshals data from the specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side. 
 
 
 ## -parameters

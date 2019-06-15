@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies application information to return from <a href="https://msdn.microsoft.com/8842c12e-2b59-49d6-8140-5a402509a0dd">IShellApp::GetAppInfo</a>. These flags are bitmasks used in the <a href="https://msdn.microsoft.com/3560b088-d899-4fb2-a47c-101f8f5e3bf7">dwMask</a> member of the <b>APPINFODATA</b> structure.
+Specifies application information to return from <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getappinfo">IShellApp::GetAppInfo</a>. These flags are bitmasks used in the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-_appinfodata">dwMask</a> member of the <b>APPINFODATA</b> structure.
 
 
 ## -enum-fields

@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains information that the 
-<a href="https://msdn.microsoft.com/c8215a00-ea39-4268-bb66-68cf3d37baef">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize master boot record (MBR) disks.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> control code uses to initialize master boot record (MBR) disks.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ The disk signature of the MBR disk to be initialized.
 
 The 
 <b>CREATE_DISK_MBR</b> structure is part of the 
-<a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a> structure.
 
 
 
@@ -79,15 +79,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ec4a1ef9-ff2e-41b3-951b-241c545f256b">CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk">CREATE_DISK</a>
 
 
 
-<a href="https://msdn.microsoft.com/526a265b-e15e-4cd2-adaf-c955a8cb92e5">CREATE_DISK_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_create_disk_gpt">CREATE_DISK_GPT</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8215a00-ea39-4268-bb66-68cf3d37baef">IOCTL_DISK_CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
  
 
  

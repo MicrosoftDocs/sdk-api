@@ -63,7 +63,7 @@ Sets the time source for the presentation clock. The time source is the object t
 
 ### -param pTimeSource [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/e5fab6b7-0abc-4ad7-89a9-33c673e97ce2">IMFPresentationTimeSource</a> interface of the time source.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a> interface of the time source.
 
 
 ## -returns
@@ -122,9 +122,9 @@ The time source has not been initialized.
 
 The presentation clock cannot start until it has a time source.
 
-The time source is automatically registered to receive state change notifications from the clock, through the time source's <a href="https://msdn.microsoft.com/9aa0d2cd-a687-4b3a-834d-ccc8d3a03196">IMFClockStateSink</a> interface, which all time sources must implement.
+The time source is automatically registered to receive state change notifications from the clock, through the time source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a> interface, which all time sources must implement.
 
-This time source have a frequency of 10 MHz. See <a href="https://msdn.microsoft.com/50a81e8b-9aa8-484c-afb7-950068feefc4">IMFClock::GetClockCharacteristics</a>. If not, the method returns MF_E_CLOCK_NOT_SIMPLE.
+This time source have a frequency of 10 MHz. See <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getclockcharacteristics">IMFClock::GetClockCharacteristics</a>. If not, the method returns MF_E_CLOCK_NOT_SIMPLE.
 
 
 
@@ -134,11 +134,11 @@ This time source have a frequency of 10 MHz. See <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5">Presentation Clock</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
  
 
  

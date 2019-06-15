@@ -73,11 +73,11 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632654(v=VS.85).aspx">GET_X_LPARAM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-get_x_lparam">GET_X_LPARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a>
 
 
 
@@ -85,7 +85,7 @@ The value to be converted.
 
 
 
-<a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">Windows Data Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
  
 
  

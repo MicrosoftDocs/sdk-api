@@ -50,7 +50,7 @@ req.redist:
 
 Searches a directory for a file whose creator owner matches the specified SID.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -149,7 +149,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-This control code requires the use of <a href="https://msdn.microsoft.com/42efbd5b-6455-4319-a76e-cdb666fc36b8">disk quotas</a> on 
+This control code requires the use of <a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">disk quotas</a> on 
      the volume.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
@@ -220,19 +220,19 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd0294a1-be43-4353-8edc-dff8bf0b0787">FIND_BY_SID_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-find_by_sid_data">FIND_BY_SID_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc616f88-c8c9-43de-8b17-2b8c38e5cdbb">FIND_BY_SID_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-find_by_sid_output">FIND_BY_SID_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File  Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File  Management Control Codes</a>
  
 
  

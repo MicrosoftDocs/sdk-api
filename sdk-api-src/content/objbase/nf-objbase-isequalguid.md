@@ -73,7 +73,7 @@ The second GUID.
 
 
 
-<b>IsEqualGUID</b> is used by the <a href="https://msdn.microsoft.com/f55ae128-8667-45df-a93e-37812a3409b5">IsEqualCLSID</a> and <a href="https://msdn.microsoft.com/4753a5f2-78a0-4622-bf4c-fd19731fa9e4">IsEqualIID</a> functions.
+<b>IsEqualGUID</b> is used by the <a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a> and <a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a> functions.
 
 
 
@@ -84,11 +84,11 @@ The second GUID.
 
 
 
-<a href="https://msdn.microsoft.com/f55ae128-8667-45df-a93e-37812a3409b5">IsEqualCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequalclsid">IsEqualCLSID</a>
 
 
 
-<a href="https://msdn.microsoft.com/4753a5f2-78a0-4622-bf4c-fd19731fa9e4">IsEqualIID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/guiddef/nf-guiddef-isequaliid">IsEqualIID</a>
  
 
  

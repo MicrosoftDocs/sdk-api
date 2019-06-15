@@ -93,7 +93,7 @@ Method succeeded.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1">Call state</a> must be CS_IDLE.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">Call state</a> must be CS_IDLE.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Insufficient memory exists to perform the operation.
 
 
 If the call is asynchronous, the application will receive information about the call's progress through the 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a> outgoing interface. The application must register the outgoing interface before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a> outgoing interface. The application must register the outgoing interface before calling 
 <b>Connect</b>. 
 <b>Connect</b> may return S_OK, but the actual connection may fail (and the application will be notified through the outgoing interface).
 
@@ -144,19 +144,19 @@ If the call is synchronous, this method will not return until the call is in the
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/71e61376-7913-42a9-a8e2-2ea6e4918f30">Complete a Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/complete-a-session-ovr">Complete a Session</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b5a755c-fdaf-42ca-9747-9b34efbd0ac3">ITAddress::CreateCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
  
 
  

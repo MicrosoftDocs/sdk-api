@@ -59,7 +59,7 @@ The <b>EndSCPDDownload</b> method retrieves the results of  a previous asynchron
 
 ### -param ullRequestID
 
-Pointer to a 64-bit <b>ULONG</b> value that corresponds to the <a href="https://msdn.microsoft.com/CA573855-6D86-4C6C-B557-F8E8776BDBD3">BeginSCPDDownload</a> operation requested prior to this call.
+Pointer to a 64-bit <b>ULONG</b> value that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">BeginSCPDDownload</a> operation requested prior to this call.
 
 
 ### -param pbstrSCPDDoc [out]
@@ -111,11 +111,11 @@ Failed to finalize the SCPD download and retrieve the document string.
 
 
 
-<a href="https://msdn.microsoft.com/B77025D6-26C7-46C9-84FE-69685C61735D">IUPnPServiceAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/CA573855-6D86-4C6C-B557-F8E8776BDBD3">IUPnPServiceAsync::BeginSCPDDownload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">IUPnPServiceAsync::BeginSCPDDownload</a>
  
 
  

@@ -59,14 +59,14 @@ The IPSEC_KEY_MANAGER_NOTIFY_KEY0 function is used to notify Trusted Intermediar
 
 ### -param *inboundSa [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
 
 Information about the inbound SA.
 
 
 ### -param *outboundSa [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/257e7ac0-9cb4-45aa-b7e5-107bb3483ab9">IPSEC_SA_DETAILS1</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
 
 Information about the outbound SA.
 
@@ -84,7 +84,7 @@ This function pointer does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/9606A611-6C55-4548-B9C4-688580338F08">IPsecKeyManagerAddAndRegister</a> to register this function pointer.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister</a> to register this function pointer.
 
 
 
@@ -94,11 +94,11 @@ Call <a href="https://msdn.microsoft.com/9606A611-6C55-4548-B9C4-688580338F08">I
 
 
 
-<a href="https://msdn.microsoft.com/26a69710-9981-40a4-8b1e-dca709624ead">WFP  Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e63db9e6-af26-4511-99fa-7d0b13d409d8">Windows Filtering Platform  API Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-reference">Windows Filtering Platform  API Reference</a>
  
 
  

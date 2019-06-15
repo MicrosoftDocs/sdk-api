@@ -89,13 +89,13 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 
-The <i>Param</i> parameter is a flag that specifies which property to retrieve. Some properties are numeric; these are returned in the <i>pValue</i> parameter. Other properties are string values; these are returned in the <i>ppszData</i> parameter. For a list of flags and expected values, see <a href="https://msdn.microsoft.com/798fa8d0-3834-4168-86a6-069cae3c3e8e">IAMExtTransport::SetTransportBasicParameters</a>.
+The <i>Param</i> parameter is a flag that specifies which property to retrieve. Some properties are numeric; these are returned in the <i>pValue</i> parameter. Other properties are string values; these are returned in the <i>ppszData</i> parameter. For a list of flags and expected values, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a>.
 
-If the method returns a string, the caller must free the string, using the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
+If the method returns a string, the caller must free the string, using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 <h3><a id="DV_and_MPEG_Camcorder_Implementation"></a><a id="dv_and_mpeg_camcorder_implementation"></a><a id="DV_AND_MPEG_CAMCORDER_IMPLEMENTATION"></a>DV and MPEG Camcorder Implementation</h3>
 
-<a href="https://msdn.microsoft.com/146ca753-fe41-49d3-8b1c-077e10a28192">MSDV</a> supports the following additional flags:
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> supports the following additional flags:
 
 <ul>
 <li>
@@ -103,7 +103,7 @@ ED_RAW_EXT_DEV_CMD: Invokes a raw AV/C command. Specify the AV/C command as an a
 
 The response payload might be larger than the command. It is the caller's responsibility to allocate enough space in the buffer for the response. The maximum payload size is 512 bytes.
 
-For more information, see <a href="https://msdn.microsoft.com/18081652-962f-4605-84b7-1fa60f61ad05">Issuing Raw AV/C Commands</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/issuing-raw-av-c-commands">Issuing Raw AV/C Commands</a>.
 
 </li>
 <li>
@@ -142,7 +142,7 @@ ED_TRANSBASIC_INPUT_SIGNAL: Retrieves the signal format that the DV camcorder is
 </li>
 </ul>
 
-<a href="https://msdn.microsoft.com/aa59f322-09b1-4b0a-be6f-d865c20f76e5">MSTape</a> supports additional values for ED_TRANSBASIC_INPUT_SIGNAL and ED_TRANSBASIC_OUTPUT_SIGNAL.
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports additional values for ED_TRANSBASIC_INPUT_SIGNAL and ED_TRANSBASIC_OUTPUT_SIGNAL.
 
 <table>
 <tr>
@@ -226,11 +226,11 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ce48038-bfcf-4b1f-8053-3446929a5f06">IAMExtTransport Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
  
 
  

@@ -107,7 +107,7 @@ The <i>pdwCount</i> parameter is <b>NULL</b>.
 
 
 
-The <b>GetCount</b> and <a href="https://msdn.microsoft.com/b79b7cb2-c02a-4474-bd48-8907ebb118fa">Item</a> methods enables you to enumerate all of the function instances contained in a collection using a simple <b>for</b> or <b>while</b> loop.
+The <b>GetCount</b> and <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollection-item">Item</a> methods enables you to enumerate all of the function instances contained in a collection using a simple <b>for</b> or <b>while</b> loop.
 
 
 
@@ -117,7 +117,7 @@ The <b>GetCount</b> and <a href="https://msdn.microsoft.com/b79b7cb2-c02a-4474-b
 
 
 
-<a href="https://msdn.microsoft.com/8ac1a406-92f3-4e39-985e-ab8fa7d28751">IFunctionInstanceCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a response from the <a href="https://msdn.microsoft.com/4E059358-E1FD-4EDB-B1D4-982802385232">ID3D11VideoContext::QueryAuthenticatedChannel</a> method.
+Contains a response from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-queryauthenticatedchannel">ID3D11VideoContext::QueryAuthenticatedChannel</a> method.
 
 
 ## -struct-fields
@@ -59,18 +59,18 @@ Contains a response from the <a href="https://msdn.microsoft.com/4E059358-E1FD-4
 
 ### -field omac
 
-A <a href="https://msdn.microsoft.com/68AEC018-1DFE-4811-A511-176E82C2E9E2">D3D11_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses AESbased one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_omac">D3D11_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses AESbased one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
 
 
 ### -field QueryType
 
-A GUID that specifies the query. For a list of possible values, see <a href="https://msdn.microsoft.com/D1FE4B31-A29D-4079-ABAE-8EB7DB0A0B42">D3D11_AUTHENTICATED_QUERY_INPUT</a>
+A GUID that specifies the query. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_query_input">D3D11_AUTHENTICATED_QUERY_INPUT</a>
 
 
 
 ### -field hChannel
 
-A handle to the authenticated channel. To get the handle, call the <a href="https://msdn.microsoft.com/CA32D01B-B0B7-4F4F-8F48-747448DEC735">ID3D11AuthenticatedChannel::GetChannelHandle</a> method.
+A handle to the authenticated channel. To get the handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11authenticatedchannel-getchannelhandle">ID3D11AuthenticatedChannel::GetChannelHandle</a> method.
 
 
 ### -field SequenceNumber
@@ -88,7 +88,7 @@ The result code for the query.
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
  
 
  

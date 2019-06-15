@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Enumerates the possible values of the status of a node drain. This enumeration is used in the 
-    <a href="https://msdn.microsoft.com/B68E19D2-2B81-496A-B090-06B6B3495268">NodeDrainStatus</a> property.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodedrainstatus">NodeDrainStatus</a> property.
 
 
 ## -enum-fields
@@ -89,11 +89,11 @@ Defines the maximum number of drain statuses.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/B68E19D2-2B81-496A-B090-06B6B3495268">NodeDrainStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes-nodedrainstatus">NodeDrainStatus</a>
  
 
  

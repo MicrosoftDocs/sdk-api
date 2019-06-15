@@ -87,9 +87,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 The icons of the class are either predefined and loaded from the device installer's internal cache, or they are loaded directly from the class installer's executable. This function queries the registry value <b>ICON</b> in the specified class's section. If the <b>ICON</b> value is specified, it indicates which mini-icon to load. 
 
-If the <b>ICON</b> value is negative, the absolute value represents a predefined icon in the class's registry. See <a href="https://msdn.microsoft.com/99670376-a338-4001-bede-a4fea57b73a7">SetupDiDrawMiniIcon</a> for a list of the predefined mini-icons. 
+If the <b>ICON</b> value is negative, the absolute value represents a predefined icon in the class's registry. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a> for a list of the predefined mini-icons. 
 
-If the <b>ICON</b> value is positive, it represents an icon in the class installer's executable image that will be extracted. The value 1 is reserved. This function also uses the <b>INSTALLER32</b> registry value and then the <b>ENUMPROPPAGES32</b> registry value to determine which executable image to extract the icons from. For more information about these registry values, see <a href="https://msdn.microsoft.com/library/Ff546335(v=VS.85).aspx">INF ClassInstall32 Section</a>.
+If the <b>ICON</b> value is positive, it represents an icon in the class installer's executable image that will be extracted. The value 1 is reserved. This function also uses the <b>INSTALLER32</b> registry value and then the <b>ENUMPROPPAGES32</b> registry value to determine which executable image to extract the icons from. For more information about these registry values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>.
 
 When a caller is finished using the icon, the caller must call <b>DestroyIcon</b> (which is described in the Microsoft Windows SDK documentation).
 
@@ -103,11 +103,11 @@ If the <i>LargeIcon </i>parameter is specified, but the <i>ClassGuid</i> paramet
 
 
 
-<a href="https://msdn.microsoft.com/99670376-a338-4001-bede-a4fea57b73a7">SetupDiDrawMiniIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidrawminiicon">SetupDiDrawMiniIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e64d387-701c-42eb-87a8-ba2f51c8552d">SetupDiGetClassBitmapIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>
  
 
  

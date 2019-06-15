@@ -51,7 +51,7 @@ req.redist:
 Marks the indicated file as sparse or  not sparse. In a sparse file, large ranges of zeros may not 
     require disk allocation. Space for nonzero data will be allocated as needed as the file is written.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -145,7 +145,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 For the implications of overlapped I/O on this operation, see the Remarks section of 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>.
 
 The <b>FSCTL_SET_SPARSE</b> control code sets or clears the 
     <b>FILE_ATTRIBUTE_SPARSE_FILE</b> attribute of the specified file.
@@ -155,25 +155,25 @@ The <b>FSCTL_SET_SPARSE</b> control code sets or clears the
 
  
     You can determine whether there are any sparse regions in a file by using the 
-    <a href="https://msdn.microsoft.com/053e26ec-1529-41b3-aeb6-128b3085bafc">FSCTL_QUERY_ALLOCATED_RANGES</a> control 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges">FSCTL_QUERY_ALLOCATED_RANGES</a> control 
     code.
 
 If the <i>lpInBuffer</i> parameter is <b>NULL</b>, the operation will 
      behave the same as if the <b>SetSparse</b> member of the 
-     <a href="https://msdn.microsoft.com/f9c24156-bcd6-423e-b055-18651f4e185e">FILE_SET_SPARSE_BUFFER</a> structure were 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a> structure were 
      <b>TRUE</b>. In other words, the operation sets the file to a sparse file.
 
-<b>Windows Server 2003 and Windows XP:  </b>If a <a href="https://msdn.microsoft.com/f9c24156-bcd6-423e-b055-18651f4e185e">FILE_SET_SPARSE_BUFFER</a> structure is 
+<b>Windows Server 2003 and Windows XP:  </b>If a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a> structure is 
       passed in the <i>lpInBuffer</i> parameter, the only valid value for the 
       <b>SetSparse</b> member is <b>TRUE</b>, which sets the file to a sparse 
       file. Passing <b>FALSE</b> in the 
       <b>FILE_SET_SPARSE_BUFFER</b> structure will cause this 
       function call to fail. The only way to clear this attribute is to overwrite the file (for example, by calling 
-      the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function with the 
+      the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with the 
       <b>CREATE_ALWAYS</b> flag).
 
 You cannot create a sparse file by calling 
-    <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> with 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with 
     <b>FILE_ATTRIBUTE_SPARSE_FILE</b> in the <i>dwFlagsAndAttributes</i> 
     parameter. You must use the <b>FSCTL_SET_SPARSE</b> control 
     code.
@@ -253,27 +253,27 @@ CsvFs will do redirected IO for sparse files. CsvFs allows making file sparse on
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9c24156-bcd6-423e-b055-18651f4e185e">FILE_SET_SPARSE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_set_sparse_buffer">FILE_SET_SPARSE_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/053e26ec-1529-41b3-aeb6-128b3085bafc">FSCTL_QUERY_ALLOCATED_RANGES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges">FSCTL_QUERY_ALLOCATED_RANGES</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee32f836-682e-4c26-b7d6-82e3b7b234f9">FSCTL_SET_ZERO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7326041d-f11e-4b80-ac4e-07173e418ce7">Sparse Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">Sparse Files</a>
  
 
  

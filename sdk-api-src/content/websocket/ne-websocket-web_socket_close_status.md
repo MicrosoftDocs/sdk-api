@@ -129,7 +129,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/05EC3940-4A17-4FBB-9446-15B511E18FF2">WEB_SOCKET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_buffer">WEB_SOCKET_BUFFER</a>
  
 
  

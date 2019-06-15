@@ -116,7 +116,7 @@ The number of elements returned is less than the number specified in the <i>celt
 
 
 
-<a href="https://msdn.microsoft.com/9f70b554-3cdd-4a4b-b180-c6de6182a46a">IEnumNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
  
 
  

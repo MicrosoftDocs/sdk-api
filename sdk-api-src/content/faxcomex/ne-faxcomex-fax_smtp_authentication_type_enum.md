@@ -77,7 +77,7 @@ The server sends fax transmission receipts using an NTLM-authenticated SMTP prot
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689591(v=VS.85).aspx">IFaxReceiptOptions::get_AuthenticationType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxreceiptoptions-authenticationtype-vb">IFaxReceiptOptions::get_AuthenticationType</a>
  
 
  

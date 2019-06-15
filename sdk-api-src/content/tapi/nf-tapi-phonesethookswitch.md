@@ -66,7 +66,7 @@ Handle to the open phone device. The application must be the owner of the phone.
 ### -param dwHookSwitchDevs
 
 Device whose hookswitch mode is to be set. This parameter uses one and only one of the 
-<a href="https://msdn.microsoft.com/b3272a75-87b0-4afc-b2e2-2d65e4b49300">PHONEHOOKSWITCHDEV_ Constants</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>. 
 
 
 
@@ -94,7 +94,7 @@ The phone's headset.
 ### -param dwHookSwitchMode
 
 Hookswitch mode to set. This parameter uses one and only one of the 
-<a href="https://msdn.microsoft.com/532bf089-d5ca-4a04-847d-69e48990ff5c">PHONEHOOKSWITCHMODE_ Constants</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>. 
 
 
 
@@ -130,7 +130,7 @@ The device's microphone and speaker are both active.
 
 
 Returns a positive request identifier if the function is completed asynchronously or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://msdn.microsoft.com/434f37d6-f385-4cc9-9658-2b683cab532c">PHONE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 PHONEERR_INVALPHONEHANDLE, PHONEERR_OPERATIONUNAVAIL, PHONEERR_NOTOWNER, PHONEERR_NOMEM, PHONEERR_INVALHOOKSWITCHDEV, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALHOOKSWITCHMODE, PHONEERR_OPERATIONFAILED, PHONEERR_INVALPHONESTATE, PHONEERR_UNINITIALIZED.
 
@@ -142,7 +142,7 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_OPERATIONUNAVAIL, PHONEERR_NOTOWNER, PHONEER
 
 
 The hookswitch mode is the same for all specified devices. If different settings are desired, this function can be invoked multiple times with a different set of parameters. A 
-<a href="https://msdn.microsoft.com/74e74b62-8387-4056-83e6-2350b3da4077">PHONE_STATE</a> message is sent to the application after the hookswitch state has changed.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a> message is sent to the application after the hookswitch state has changed.
 
 
 
@@ -152,19 +152,19 @@ The hookswitch mode is the same for all specified devices. If different settings
 
 
 
-<a href="https://msdn.microsoft.com/434f37d6-f385-4cc9-9658-2b683cab532c">PHONE_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/74e74b62-8387-4056-83e6-2350b3da4077">PHONE_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5">Supplementary Phone Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicate the activation policy of the object and are used in the <a href="https://msdn.microsoft.com/bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a">IPointerInactive::GetActivationPolicy</a> method.
+Indicate the activation policy of the object and are used in the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a> method.
 
 
 ## -enum-fields
@@ -76,20 +76,20 @@ The object should be in-place activated when the mouse is dragged over it during
 
 
 
-For more information on using the <b>POINTERINACTIVE_ACTIVATEONENTRY</b> and <b>POINTERINACTIVE_DEACTIVATEONLEAVE</b> values, see the <a href="https://msdn.microsoft.com/bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a">IPointerInactive::GetActivationPolicy</a> method.
+For more information on using the <b>POINTERINACTIVE_ACTIVATEONENTRY</b> and <b>POINTERINACTIVE_DEACTIVATEONLEAVE</b> values, see the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a> method.
 
 <b>The POINTERINACTIVE_ACTIVATEONDRAG</b> value can be used to support drag and drop operations on an inactive object. An inactive object has no window to register itself as a potential drop target. Most containers ignore embedded, inactive objects as drop targets because of the overhead associated with activating them.
 
-As an alternative to activating an object when the mouse pointer is over it during a drag and drop operation, the container can first <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> to determine if the inactive object supports <a href="https://msdn.microsoft.com/dc08d512-6994-419a-a460-6274ce74e40f">IPointerInactive</a>. Then, if the object does not support IPointerInactive, the container can assume that it is not a drop target. If the object does support <b>IPointerInactive</b>, the container calls the <a href="https://msdn.microsoft.com/bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a">IPointerInactive::GetActivationPolicy</a> method. If the <b>POINTERINACTIVE_ACTIVATEONDRAG</b> value is set, the container activates the object in-place so the object can register its own <a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a> interface.
+As an alternative to activating an object when the mouse pointer is over it during a drag and drop operation, the container can first <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> to determine if the inactive object supports <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipointerinactive">IPointerInactive</a>. Then, if the object does not support IPointerInactive, the container can assume that it is not a drop target. If the object does support <b>IPointerInactive</b>, the container calls the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a> method. If the <b>POINTERINACTIVE_ACTIVATEONDRAG</b> value is set, the container activates the object in-place so the object can register its own <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface.
 
-The container is processing its own <a href="https://msdn.microsoft.com/31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e">IDropTarget::DragOver</a> method when all these actions occur. To complete that method, the container returns <b>DROPEFFECT_NONE</b> for the <i>pdwEffect</i> parameter. Then, the drag and drop operation continues by calling the container's <a href="https://msdn.microsoft.com/2f2f1bdb-e57c-42e2-9afb-65b13cdc22f8">IDropTarget::DragLeave</a> and then calling the object's <a href="https://msdn.microsoft.com/2e4d7013-910c-4a6e-8eee-818e1f2302ac">IDropTarget::DragEnter</a>.
+The container is processing its own <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method when all these actions occur. To complete that method, the container returns <b>DROPEFFECT_NONE</b> for the <i>pdwEffect</i> parameter. Then, the drag and drop operation continues by calling the container's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> and then calling the object's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>.
 
 
-<div class="alert"><b>Important</b>  For windowless OLE objects this mechanism is slightly different. See I<a href="https://msdn.microsoft.com/4ad83599-99d2-4b35-95de-cff845a8d5e4">OleInPlaceSiteWindowless</a> for more information on drag and drop operations for windowless objects.</div>
+<div class="alert"><b>Important</b>  For windowless OLE objects this mechanism is slightly different. See I<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">OleInPlaceSiteWindowless</a> for more information on drag and drop operations for windowless objects.</div>
 <div> </div>
 
 
-If the drop occurs on the embedded object, the object is UI-activated and will get UI-deactivated when the focus changes again. If the drop does not occur on the object, the container should deactivate the object the next time it gets a call to its own <a href="https://msdn.microsoft.com/2e4d7013-910c-4a6e-8eee-818e1f2302ac">IDropTarget::DragEnter</a>. It is possible for the drop to occur on a third active object without an intervening call to the container's IDropTarget::DragEnter. In this case, the container should try to deactivate the object as soon as it can, for example, when it UI-activates another object.
+If the drop occurs on the embedded object, the object is UI-activated and will get UI-deactivated when the focus changes again. If the drop does not occur on the object, the container should deactivate the object the next time it gets a call to its own <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>. It is possible for the drop to occur on a third active object without an intervening call to the container's IDropTarget::DragEnter. In this case, the container should try to deactivate the object as soon as it can, for example, when it UI-activates another object.
 
 
 
@@ -99,15 +99,15 @@ If the drop occurs on the embedded object, the object is UI-activated and will g
 
 
 
-<a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc08d512-6994-419a-a460-6274ce74e40f">IPointerInactive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipointerinactive">IPointerInactive</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a">IPointerInactive::GetActivationPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a>
  
 
  

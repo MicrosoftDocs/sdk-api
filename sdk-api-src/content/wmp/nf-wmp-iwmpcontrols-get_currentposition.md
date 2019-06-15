@@ -98,15 +98,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563179(v=VS.85).aspx">IWMPControls Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563200(v=VS.85).aspx">IWMPControls::get_currentPositionString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring">IWMPControls::get_currentPositionString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563210(v=VS.85).aspx">IWMPControls::put_currentPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition">IWMPControls::put_currentPosition</a>
  
 
  

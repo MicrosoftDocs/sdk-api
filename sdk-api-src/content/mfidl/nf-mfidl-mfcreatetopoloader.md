@@ -62,7 +62,7 @@ Creates a new instance of the topology loader.
 
 ### -param ppObj
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/5ebf117c-e60a-40f2-a24b-c4f9dbdae942">IMFTopoLoader</a> interface of the topology loader. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopoloader">IMFTopoLoader</a> interface of the topology loader. The caller must release the interface.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

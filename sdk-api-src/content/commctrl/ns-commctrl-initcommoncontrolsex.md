@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775697(v=VS.85).aspx">InitCommonControlsEx</a> function. 
+Carries information used to load common control classes from the dynamic-link library (DLL). This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initcommoncontrolsex">InitCommonControlsEx</a> function. 
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Carries information used to load common control classes from the dynamic-link li
 
 ### -field dwSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The size of the structure, in bytes. 
 
 
 ### -field dwICC
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The set of bit flags that indicate which common control classes will be loaded from the DLL. This can be a combination of the following values. 
 

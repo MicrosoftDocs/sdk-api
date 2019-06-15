@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DiUninstallDriver</b> function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver if no other matching driver is available.  Then the specified driver is removed from the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store.</a> 
+The <b>DiUninstallDriver</b> function removes a driver from any devices it is installed on by installing those devices with another matching driver, if available, or the null driver if no other matching driver is available.  Then the specified driver is removed from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store.</a> 
 
 
 ## -parameters
@@ -65,7 +65,7 @@ A handle to the top-level window that <b>DiUninstallDriver</b> should use to dis
 
 ### -param InfPath [in]
 
-A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a>.
+A pointer to a NULL-terminated string that supplies the fully qualified path of the INF file for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
 
 
 ### -param Flags [in]
@@ -88,7 +88,7 @@ A pointer to a value of type BOOL that <b>DiUninstallDriver</b> sets to indicate
 
 
 
-<b>DiUninstallDriver</b> returns <b>TRUE</b> if the function successfully removes the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> from any devices it is installed on and is successfully removed from the driver store of the system.  If the driver package is not successfully uninstalled from the driver store, <b>DiUninstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
+<b>DiUninstallDriver</b> returns <b>TRUE</b> if the function successfully removes the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> from any devices it is installed on and is successfully removed from the driver store of the system.  If the driver package is not successfully uninstalled from the driver store, <b>DiUninstallDriver</b> returns <b>FALSE</b> and the logged error can be retrieved by making a call to <b>GetLastError</b>. Some of the more common error values that <b>GetLastError</b> might return are as follows:
 
 <table>
 <tr>
@@ -102,7 +102,7 @@ A pointer to a value of type BOOL that <b>DiUninstallDriver</b> sets to indicate
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to uninstall a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a> from the <a href="https://msdn.microsoft.com/library/Ff544868(v=VS.85).aspx">driver store</a>. 
+The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to uninstall a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-store">driver store</a>. 
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The value specified for <i>Flags</i> is not equal to zero or DIURFLAG_NO_REMOVE_
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://msdn.microsoft.com/library/Ff541255(v=VS.85).aspx">Installing Devices on 64-Bit Systems</a>.
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
 
 </td>
 </tr>
@@ -169,4 +169,4 @@ The application must perform required operations, other than calling <b>DiUninst
 
 
 
-<a href="https://msdn.microsoft.com/e107fc37-02cb-4d50-822c-1c6fd80d7532">DiUninstallDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldevice">DiUninstallDevice</a>

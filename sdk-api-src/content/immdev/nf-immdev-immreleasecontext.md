@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the <a href="https://msdn.microsoft.com/2b7502ac-fa1e-4104-a7ad-051303131a73">ImmGetContext</a> function.
+Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcontext">ImmGetContext</a> function.
 
 
 ## -parameters
@@ -83,15 +83,15 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/2b7502ac-fa1e-4104-a7ad-051303131a73">ImmGetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcontext">ImmGetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

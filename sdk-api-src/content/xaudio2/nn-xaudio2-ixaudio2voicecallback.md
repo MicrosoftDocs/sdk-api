@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IXAudio2VoiceCallback</b> interface contains methods that notify the client when certain events happen in a given <a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>. 
+The <b>IXAudio2VoiceCallback</b> interface contains methods that notify the client when certain events happen in a given <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>. 
 
-This interface should be implemented by the XAudio2 client. XAudio2 calls these methods through an interface pointer provided by the client in the <a href="https://msdn.microsoft.com/en-us/library/Ee418607(v=VS.85).aspx">IXAudio2::CreateSourceVoice</a> method. Methods in this interface return void, rather than an HRESULT. 
+This interface should be implemented by the XAudio2 client. XAudio2 calls these methods through an interface pointer provided by the client in the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a> method. Methods in this interface return void, rather than an HRESULT. 
 
 
-See the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a> topic for restrictions on callback implementation.
+See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a> topic for restrictions on callback implementation.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>IXAudio2VoiceCallback</b> interface has these methods.
@@ -66,7 +66,7 @@ See the <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice finishes processing a buffer. 
@@ -75,7 +75,7 @@ Called when the voice finishes processing a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418475(v=VS.85).aspx">OnBufferStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart">OnBufferStart</a>
 </td>
 <td align="left" width="63%">
 Called when the voice is about to start processing a new audio buffer.
@@ -84,7 +84,7 @@ Called when the voice is about to start processing a new audio buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418476(v=VS.85).aspx">OnLoopEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend">OnLoopEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice reaches the end position of a loop.
@@ -93,7 +93,7 @@ Called when the voice reaches the end position of a loop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend">OnStreamEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice has just finished playing a contiguous audio stream.
@@ -102,7 +102,7 @@ Called when the voice has just finished playing a contiguous audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418478(v=VS.85).aspx">OnVoiceError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror">OnVoiceError</a>
 </td>
 <td align="left" width="63%">
 Called when a critical error occurs during voice processing.
@@ -111,7 +111,7 @@ Called when a critical error occurs during voice processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418479(v=VS.85).aspx">OnVoiceProcessingPassEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend">OnVoiceProcessingPassEnd</a>
 </td>
 <td align="left" width="63%">
 Called just after the processing pass for the voice ends.
@@ -120,7 +120,7 @@ Called just after the processing pass for the voice ends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418480(v=VS.85).aspx">OnVoiceProcessingPassStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart">OnVoiceProcessingPassStart</a>
 </td>
 <td align="left" width="63%">
 Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
@@ -140,7 +140,7 @@ The <b>IXAudio2VoiceCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418474(v=VS.85).aspx">OnBufferEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice finishes processing a buffer. 
@@ -149,7 +149,7 @@ Called when the voice finishes processing a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418475(v=VS.85).aspx">OnBufferStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart">OnBufferStart</a>
 </td>
 <td align="left" width="63%">
 Called when the voice is about to start processing a new audio buffer.
@@ -158,7 +158,7 @@ Called when the voice is about to start processing a new audio buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418476(v=VS.85).aspx">OnLoopEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend">OnLoopEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice reaches the end position of a loop.
@@ -167,7 +167,7 @@ Called when the voice reaches the end position of a loop.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418477(v=VS.85).aspx">OnStreamEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend">OnStreamEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice has just finished playing a contiguous audio stream.
@@ -176,7 +176,7 @@ Called when the voice has just finished playing a contiguous audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418478(v=VS.85).aspx">OnVoiceError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror">OnVoiceError</a>
 </td>
 <td align="left" width="63%">
 Called when a critical error occurs during voice processing.
@@ -185,7 +185,7 @@ Called when a critical error occurs during voice processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418479(v=VS.85).aspx">OnVoiceProcessingPassEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend">OnVoiceProcessingPassEnd</a>
 </td>
 <td align="left" width="63%">
 Called just after the processing pass for the voice ends.
@@ -194,7 +194,7 @@ Called just after the processing pass for the voice ends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418480(v=VS.85).aspx">OnVoiceProcessingPassStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart">OnVoiceProcessingPassStart</a>
 </td>
 <td align="left" width="63%">
 Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
@@ -235,19 +235,19 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/48b80a66-91c1-973f-069b-6f63422d7154">How to: Stream a Sound from Disk</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--stream-a-sound-from-disk">How to: Stream a Sound from Disk</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bace0c5-9171-efd8-9a38-2c2b3452f73f">How to: Use Source Voice Callbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--use-source-voice-callbacks">How to: Use Source Voice Callbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">XAudio2 Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
  
 
  

@@ -278,7 +278,7 @@ Desktop.
 </td>
 <td width="60%">
 Right side color in the color gradient of an active window's title bar. COLOR_ACTIVECAPTION specifies the left side color. Use SPI_GETGRADIENTCAPTIONS with the 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function to determine whether the gradient effect is enabled.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function to determine whether the gradient effect is enabled.
 
 </td>
 </tr>
@@ -416,7 +416,7 @@ Menu background. The associated foreground color is COLOR_MENUTEXT.
 </td>
 <td width="60%">
 The color used to highlight menu items when the menu appears as a flat menu (see 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>). The highlighted menu item is outlined with COLOR_HIGHLIGHT.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>). The highlighted menu item is outlined with COLOR_HIGHLIGHT.
 
 <b>Windows 2000:  </b>This value is not supported.
 
@@ -430,7 +430,7 @@ The color used to highlight menu items when the menu appears as a flat menu (see
 </td>
 <td width="60%">
 The background color for the menu bar when menus appear as flat menus (see 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>). However, COLOR_MENU continues to specify the background color of the menu popup.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>). However, COLOR_MENU continues to specify the background color of the menu popup.
 
 <b>Windows 2000:  </b>This value is not supported.
 
@@ -506,7 +506,7 @@ The function returns the red, green, blue (RGB) color value of the given element
 
 If the <i>nIndex</i> parameter is out of range, the return value is zero. Because zero is also a valid RGB value, you cannot use 
 <b>GetSysColor</b> to determine whether a system color is supported by the current platform. Instead, use the 
-<a href="https://msdn.microsoft.com/07a1d8e3-eae8-40ab-9d0f-4efa9fac0117">GetSysColorBrush</a> function, which returns <b>NULL</b> if the color is not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> function, which returns <b>NULL</b> if the color is not supported.
 
 
 
@@ -515,12 +515,12 @@ If the <i>nIndex</i> parameter is out of range, the return value is zero. Becaus
 
 
 
-To display the component of the RGB  value, use the <a href="https://msdn.microsoft.com/c183b671-20f8-468c-af0d-9f03cbc4b170">GetRValue</a>, <a href="https://msdn.microsoft.com/be989b36-8acb-435b-8d71-1c388c7884f0">GetGValue</a>, and <a href="https://msdn.microsoft.com/97e2644c-5298-4dea-b35a-fc0e2c74f9c8">GetBValue</a> macros.
+To display the component of the RGB  value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrvalue">GetRValue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getgvalue">GetGValue</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbvalue">GetBValue</a> macros.
 
 System colors for monochrome displays are usually interpreted as shades of gray.
 
 To paint with a system color brush, an application should use <code>GetSysColorBrush(nIndex)</code>, instead of 
-<code>CreateSolidBrush(GetSysColor(nIndex))</code>, because <a href="https://msdn.microsoft.com/07a1d8e3-eae8-40ab-9d0f-4efa9fac0117">GetSysColorBrush</a> returns a cached brush, instead of allocating a new one.
+<code>CreateSolidBrush(GetSysColor(nIndex))</code>, because <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a> returns a cached brush, instead of allocating a new one.
 
 Color is an important visual element of most user interfaces. For guidelines about using color in your applications, see <a href="http://go.microsoft.com/fwlink/p/?linkid=112188">Color</a>.
 
@@ -528,7 +528,7 @@ Color is an important visual element of most user interfaces. For guidelines abo
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a>.
 
 <div class="code"></div>
 
@@ -539,19 +539,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/e39b5f77-97d8-4ea6-8277-7da12b3367f3">CreateSolidBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/07a1d8e3-eae8-40ab-9d0f-4efa9fac0117">GetSysColorBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush">GetSysColorBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
  
 
  

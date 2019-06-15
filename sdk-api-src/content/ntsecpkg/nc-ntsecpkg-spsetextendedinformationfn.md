@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets extended information about the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
+Sets extended information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 
 
 ## -parameters
@@ -60,13 +60,13 @@ Sets extended information about the <a href="https://msdn.microsoft.com/3e9d7672
 ### -param Class [in]
 
 A 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380113(v=VS.85).aspx">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration value indicating the type of extended information.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration value indicating the type of extended information.
 
 
 ### -param Info [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/3d80dfc0-c35b-4d14-8196-02944c3db8d2">SECPKG_EXTENDED_INFORMATION</a> structure containing the extended information set.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_extended_information">SECPKG_EXTENDED_INFORMATION</a> structure containing the extended information set.
 
 
 ## -returns
@@ -85,13 +85,13 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 
 
 To retrieve extended information, the 
-<a href="https://msdn.microsoft.com/e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3">SpGetExtendedInformation</a> function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> function is called.
 
 An SSP/AP must implement the <b>SpSetExtendedInformation</b> function; however, the actual name given to the implementation is up to the package developer.
 
 A pointer to the <b>SpSetExtendedInformation</b> function is available in the 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 
 
@@ -101,27 +101,27 @@ A pointer to the <b>SpSetExtendedInformation</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/3d80dfc0-c35b-4d14-8196-02944c3db8d2">SECPKG_EXTENDED_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_extended_information">SECPKG_EXTENDED_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380113(v=VS.85).aspx">SECPKG_EXTENDED_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ne-ntsecpkg-_secpkg_extended_information_class">SECPKG_EXTENDED_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/43ca0f9b-1393-48aa-9d9c-4dd19963a66d">SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0bff3d8-63f1-4a4e-851f-177040af6bd2">SecPkgInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkginfoa">SecPkgInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3">SpGetExtendedInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef3770b-197f-4d5b-9933-b7f6f63e5627">SpLsaModeInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
  
 
  

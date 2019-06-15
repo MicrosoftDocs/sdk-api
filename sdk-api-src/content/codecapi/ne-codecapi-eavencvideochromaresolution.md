@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies chroma resolution. This enumeration is used with the <a href="https://msdn.microsoft.com/1e405def-2958-4f4f-9c15-db186e0df52f">AVEncVideoInputChromaResolution</a> and <a href="https://msdn.microsoft.com/b0614cdb-1eef-486d-85c1-d5644853fa94">AVEncVideoOutputChromaResolution</a> properties.
+Specifies chroma resolution. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoinputchromaresolution-property">AVEncVideoInputChromaResolution</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputchromaresolution-property">AVEncVideoOutputChromaResolution</a> properties.
 
 
 
@@ -90,11 +90,11 @@ Use the same chroma resolution as the input video. This flag applies to the <b>A
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined function used with the <a href="https://msdn.microsoft.com/281b83ff-8375-4edb-8a10-97af5dbdc87b">SymEnumProcesses</a> function.
+An application-defined function used with the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumprocesses">SymEnumProcesses</a> function.
 
 The <b>PSYM_ENUMPROCESSES_CALLBACK</b> type defines a pointer to this callback function. 
 <b>SymEnumProcessesProc</b> is a placeholder for the application-defined function name.
@@ -68,7 +68,7 @@ A handle to the process.
 ### -param UserContext [in]
 
 The user-defined value passed from the 
-<a href="https://msdn.microsoft.com/281b83ff-8375-4edb-8a10-97af5dbdc87b">SymEnumProcesses</a> function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumprocesses">SymEnumProcesses</a> function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context information for the callback function.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 
-<a href="https://msdn.microsoft.com/281b83ff-8375-4edb-8a10-97af5dbdc87b">SymEnumProcesses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumprocesses">SymEnumProcesses</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the interpretation of the data passed by <a href="https://msdn.microsoft.com/84e065e6-b68d-4303-b98b-3f8507539468">SHAddToRecentDocs</a> in its <i>pv</i> parameter to identify the item whose usage statistics are being tracked.
+Indicates the interpretation of the data passed by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a> in its <i>pv</i> parameter to identify the item whose usage statistics are being tracked.
 
 
 ## -enum-fields
@@ -74,27 +74,27 @@ The <i>pv</i> parameter points to a null-terminated Unicode string with the path
 
 ### -field SHARD_APPIDINFO
 
-<b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://msdn.microsoft.com/bb2b7e86-04ca-4dd0-944b-a95e8a0be1e0">SHARDAPPIDINFO</a> structure that pairs an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> that identifies the item with an AppUserModelID that associates it with a particular process or application.
+<b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfo">SHARDAPPIDINFO</a> structure that pairs an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that identifies the item with an AppUserModelID that associates it with a particular process or application.
 
 
 ### -field SHARD_APPIDINFOIDLIST
 
-<b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://msdn.microsoft.com/11c69ff9-b8a0-4168-8036-f45a9f7813ba">SHARDAPPIDINFOIDLIST</a> structure that pairs an absolute PIDL that identifies the item with an AppUserModelID that associates it with a particular process or application.
+<b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfoidlist">SHARDAPPIDINFOIDLIST</a> structure that pairs an absolute PIDL that identifies the item with an AppUserModelID that associates it with a particular process or application.
 
 
 ### -field SHARD_LINK
 
-<b>Windows 7 and later</b>. The <i>pv</i> parameter is an interface pointer to an <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> object.
+<b>Windows 7 and later</b>. The <i>pv</i> parameter is an interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> object.
 
 
 ### -field SHARD_APPIDINFOLINK
 
-<b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://msdn.microsoft.com/01613dc9-4516-4995-bd31-feee2eb650b2">SHARDAPPIDINFOLINK</a> structure that pairs an <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> that identifies the item with an AppUserModelID that associates it with a particular process or application.
+<b>Windows 7 and later</b>. The <i>pv</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfolink">SHARDAPPIDINFOLINK</a> structure that pairs an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> that identifies the item with an AppUserModelID that associates it with a particular process or application.
 
 
 ### -field SHARD_SHELLITEM
 
-<b>Windows 7 and later</b>. The <i>pv</i> parameter is an interface pointer to an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> object.
+<b>Windows 7 and later</b>. The <i>pv</i> parameter is an interface pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object.
 
 
 ## -remarks
@@ -103,18 +103,18 @@ The <i>pv</i> parameter points to a null-terminated Unicode string with the path
 
 Before Windows 7, SHARD_PIDL, SHARD_PATHA, and SHARD_PATHW were defined as individual constants, not as enumeration members.
 
-When providing an <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> through either <b><b>SHARD_LINK</b></b> or <b><b>SHARD_APPIDINFOLINK</b></b>, the <b>IShellLink</b> instance must provide the following:
+When providing an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> through either <b><b>SHARD_LINK</b></b> or <b><b>SHARD_APPIDINFOLINK</b></b>, the <b>IShellLink</b> instance must provide the following:
 
                 
 
 <ul>
-<li>Either a PIDL (<a href="https://msdn.microsoft.com/4c0571a5-1615-4c3f-b9a6-0667df07165b">IShellLink::SetIDList</a>) or the target path (<a href="https://msdn.microsoft.com/032610ba-d6ff-4200-8fd3-455460587dec">IShellLink::SetPath</a> or <a href="https://msdn.microsoft.com/f9cbd1db-253b-4ce8-a8ea-cfc48759c9d3">IShellLink::SetRelativePath</a>)</li>
-<li>Command-line arguments (<a href="https://msdn.microsoft.com/5ad5fabd-be12-40bc-a6b3-498bcde7223a">IShellLink::SetArguments</a>)</li>
-<li>Icon location  (<a href="https://msdn.microsoft.com/1ba267f2-ae05-4a6d-be3c-382a89e17d92">IShellLink::SetIconLocation</a>)</li>
+<li>Either a PIDL (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">IShellLink::SetIDList</a>) or the target path (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">IShellLink::SetPath</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">IShellLink::SetRelativePath</a>)</li>
+<li>Command-line arguments (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">IShellLink::SetArguments</a>)</li>
+<li>Icon location  (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">IShellLink::SetIconLocation</a>)</li>
 </ul>
-The display name must be set through the item's <a href="https://msdn.microsoft.com/8fb948d6-2677-4e5d-b283-8757c3df574d">System.Title (PKEY_Title)</a> property. The property can directly hold the display name or it can be an indirect string representation, such as "@shell32.dll,-1324", to use a stored string. An indirect string enables the item name to be displayed in the user's selected language.
+The display name must be set through the item's <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-title">System.Title (PKEY_Title)</a> property. The property can directly hold the display name or it can be an indirect string representation, such as "@shell32.dll,-1324", to use a stored string. An indirect string enables the item name to be displayed in the user's selected language.
 
-Optionally, the description field (<a href="https://msdn.microsoft.com/4bec482e-04e6-4cde-ab8e-23c5a1463bdf">IShellLink::SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
+Optionally, the description field (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">IShellLink::SetDescription</a>) can be set to provide a custom tooltip for the item in the Jump List.
 
 
 
@@ -124,7 +124,7 @@ Optionally, the description field (<a href="https://msdn.microsoft.com/4bec482e-
 
 
 
-<a href="https://msdn.microsoft.com/84e065e6-b68d-4303-b98b-3f8507539468">SHAddToRecentDocs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs">SHAddToRecentDocs</a>
  
 
  

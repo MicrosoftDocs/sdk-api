@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IWMPacketSize</b> interface controls the maximum size of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">packets</a> in an ASF file. Its methods are used to control the size of <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">UDP</a> datagrams when the content, live or on-demand, is streamed across a network.
+The <b>IWMPacketSize</b> interface controls the maximum size of <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packets</a> in an ASF file. Its methods are used to control the size of <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">UDP</a> datagrams when the content, live or on-demand, is streamed across a network.
 
 An <b>IWMPacketSize</b> interface can be obtained for either a profile object, a reader object, or a synchronous reader object. You can obtain a pointer to <b>IWMPacketSize</b> by calling the <b>QueryInterface</b> method of any of the other interfaces in one of the supported objects.
 
@@ -59,7 +59,7 @@ An <b>IWMPacketSize</b> interface can be obtained for either a profile object, a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPacketSize</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPacketSize</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPacketSize</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPacketSize</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPacketSize</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757259(v=VS.85).aspx">GetMaxPacketSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize-getmaxpacketsize">GetMaxPacketSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum size of a packet in an ASF file.
@@ -83,7 +83,7 @@ Retrieves the maximum size of a packet in an ASF file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757260(v=VS.85).aspx">SetMaxPacketSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize-setmaxpacketsize">SetMaxPacketSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum size of a packet in an ASF file.
@@ -98,15 +98,15 @@ Specifies the maximum size of a packet in an ASF file.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757385(v=VS.85).aspx">IWMProfileManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d174243-334e-418e-a1c8-77486b940de7">Profile Manager Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/profile-manager-object">Profile Manager Object</a>
  
 
  

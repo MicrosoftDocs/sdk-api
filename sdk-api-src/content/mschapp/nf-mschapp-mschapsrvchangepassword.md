@@ -75,22 +75,22 @@ A <b>BOOLEAN</b> that specifies whether the password designated by <i>LmOldOwfPa
 
 ### -param LmOldOwfPassword [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/db155f34-fa57-4449-9319-d46561fd18c0">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's current LM  password. This parameter is ignored if <i>LmOldPresent</i> is <b>FALSE</b>.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's current LM  password. This parameter is ignored if <i>LmOldPresent</i> is <b>FALSE</b>.
 
 
 ### -param LmNewOwfPassword [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/db155f34-fa57-4449-9319-d46561fd18c0">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's new LM password.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/ns-mschapp-_lm_owf_password">LM_OWF_PASSWORD</a> structure that contains the OWF of the user's new LM password.
 
 
 ### -param NtOldOwfPassword [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7edba7de-e3b8-4a93-b70b-19c68541da1e">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's current NT password.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325731(v=vs.85)">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's current NT password.
 
 
 ### -param NtNewOwfPassword [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7edba7de-e3b8-4a93-b70b-19c68541da1e">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's new NT password.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325731(v=vs.85)">NT_OWF_PASSWORD</a> structure that contains the OWF of the user's new NT password.
 
 
 ## -returns
@@ -226,11 +226,11 @@ This function fails with <b>STATUS_PASSWORD_RESTRICTION</b> if the attempt to ch
 
 
 
-<a href="https://msdn.microsoft.com/eef2a339-1b9c-4575-92a6-0e6575711243">MS-CHAP Password Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-functions">MS-CHAP Password Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/91ea4b98-79e4-4764-a580-a622d1491943">MSChapSrvChangePassword2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword2">MSChapSrvChangePassword2</a>
  
 
  

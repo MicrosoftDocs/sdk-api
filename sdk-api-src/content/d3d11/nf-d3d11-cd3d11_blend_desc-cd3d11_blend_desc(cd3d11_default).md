@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a> structure that is initialized with default blend-state values.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> structure that is initialized with default blend-state values.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ TBD
 
 
 
-Here are the default depth-stencil-state values for the members of <a href="https://msdn.microsoft.com/388f862c-58b0-48a8-a865-ba7568484ef5">D3D11_BLEND_DESC</a>:
+Here are the default depth-stencil-state values for the members of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_blend_desc">D3D11_BLEND_DESC</a>:
 
 
 ```
@@ -98,7 +98,7 @@ AlphaToCoverageEnable = FALSE;
 
 
 
-<a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a>
  
 
  

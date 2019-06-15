@@ -82,7 +82,7 @@ The
 <b>DestroyElement</b>, any open instance of the destroyed element from the parent storage becomes invalid.
 
 If a storage object is opened in the transacted mode, destruction of an element requires that the call to 
-<b>DestroyElement</b> be followed by a call to <a href="https://msdn.microsoft.com/72831f2c-1e07-429b-af4c-2aaced3f3888">IStorage::Commit</a>.
+<b>DestroyElement</b> be followed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>.
 
 <div class="alert"><b>Note</b>  The <b>DestroyElement</b> method does not shrink the directory stream.  It only marks the deleted directory entry as invalid.  Invalid entries are reused when creating a new storage or stream.  <p class="note">For content streams, the deleted stream sectors are marked as free. If the free sectors are at the end of the file, the document file should shrink.  To compact a document file, call <b>IStorage::CopyTo</b> on the root storage object and copy to a new storage object.
 
@@ -96,7 +96,7 @@ If a storage object is opened in the transacted mode, destruction of an element 
 
 
 
-<a href="https://msdn.microsoft.com/2a2253f6-d3d3-403e-a9ba-53a541c7a31e">IStorage - Compound File Implementation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
  
 
  

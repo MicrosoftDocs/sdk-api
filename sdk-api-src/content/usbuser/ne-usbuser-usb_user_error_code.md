@@ -117,7 +117,7 @@ The device was not connected.
 
 
 
-<a href="https://msdn.microsoft.com/ec09faaa-d2d3-459c-9ff2-083f0fdbbadf">USB Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Constants and Enumerations</a>
  
 
  

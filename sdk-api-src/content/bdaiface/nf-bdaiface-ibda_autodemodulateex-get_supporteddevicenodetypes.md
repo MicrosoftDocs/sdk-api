@@ -95,7 +95,7 @@ If <i>pguidDeviceNodeTypes</i> is <b>NULL</b>, the method returns the number of 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693253(v=VS.85).aspx">IBDA_AutoDemodulateEx Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulateex">IBDA_AutoDemodulateEx Interface</a>
  
 
  

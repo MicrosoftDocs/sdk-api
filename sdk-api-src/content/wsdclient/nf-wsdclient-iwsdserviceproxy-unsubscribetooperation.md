@@ -59,7 +59,7 @@ Cancels a subscription to a notification or solicit/response event.
 
 ### -param pOperation [in]
 
-Reference to a <a href="https://msdn.microsoft.com/fcd4895d-5357-4b73-90b9-e506e3d7f16e">WSD_OPERATION</a> structure that specifies the operation subscribed to. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_operation">WSD_OPERATION</a> structure that specifies the operation subscribed to. 
 
 
 
@@ -118,7 +118,7 @@ The proxy is not subscribed to the notification specified by <i>pOperation</i>.
 
 
 
-<a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
  
 
  

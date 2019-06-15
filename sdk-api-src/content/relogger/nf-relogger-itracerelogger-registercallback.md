@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>RegisterCallback</b> method registers an implementation of <a href="https://msdn.microsoft.com/70139402-86e6-43b4-9016-42854ef998fd">IEventCallback</a> with the relogger in order to signal trace activity (starting, stopping, and logging new events).
+The <b>RegisterCallback</b> method registers an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a> with the relogger in order to signal trace activity (starting, stopping, and logging new events).
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>RegisterCallback</b> method registers an implementation of <a href="https
 
 ### -param Callback [in]
 
-Type: <b><a href="https://msdn.microsoft.com/70139402-86e6-43b4-9016-42854ef998fd">IEventCallback</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceeventcallback">IEventCallback</a>*</b>
 
 The trace activity information.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/08073b9a-5ae0-4e88-a502-647567418005">ITraceRelogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
  
 
  

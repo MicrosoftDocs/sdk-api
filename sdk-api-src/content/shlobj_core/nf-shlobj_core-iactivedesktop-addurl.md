@@ -75,7 +75,7 @@ A pointer to a string that contains the URL of the desktop item.
 
 Type: <b>LPCOMPONENT</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/2692a2d6-1d33-410f-987c-8388c636cae6">COMPONENT</a> structure that contains the details of the desktop item to be added. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_tagcomponent">COMPONENT</a> structure that contains the details of the desktop item to be added. 
 
 
 ### -param dwFlags
@@ -141,7 +141,7 @@ If the ADDURL_SILENT flag has been set, the desktop item has either been added s
 
 
 
-By default, this method will display some user interface and then add the desktop item to the Active Desktop. Like <a href="https://msdn.microsoft.com/5a0c61e8-a645-4a32-b97b-8d7b43d0e5e3">IActiveDesktop::AddDesktopItem</a>, the client application must call <a href="https://msdn.microsoft.com/3bac5af5-f4a6-4822-83de-11633beef88a">IActiveDesktop::ApplyChanges</a> to have the changes saved to the registry.
+By default, this method will display some user interface and then add the desktop item to the Active Desktop. Like <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-adddesktopitem">IActiveDesktop::AddDesktopItem</a>, the client application must call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> to have the changes saved to the registry.
 
 
 
@@ -151,11 +151,11 @@ By default, this method will display some user interface and then add the deskto
 
 
 
-<a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
 
 
 
-<a href="https://msdn.microsoft.com/68d72b0f-f5e9-4fff-bb13-4c60d1dd7009">Using the Active Desktop Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
  
 
  

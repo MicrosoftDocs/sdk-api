@@ -67,7 +67,7 @@ The <code>GetMiscFlags</code> method returns the filter's type, either source or
 
 
 
-This method returns a member of the <a href="https://msdn.microsoft.com/7acc160c-0da8-4b85-b88c-82b59ec38106">_AM_FILTER_MISC_FLAGS</a> enumeration.
+This method returns a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_filter_misc_flags">_AM_FILTER_MISC_FLAGS</a> enumeration.
 
 
 
@@ -77,11 +77,11 @@ This method returns a member of the <a href="https://msdn.microsoft.com/7acc160c
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9f3eaf9-4afa-412f-aa8f-b75e787cfecb">IAMFilterMiscFlags Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags Interface</a>
  
 
  

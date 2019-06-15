@@ -61,13 +61,13 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 
 ### -param EntityInfo [in]
 
 Pointer to the handle to release. The handle was obtained with a previous call to 
-<a href="https://msdn.microsoft.com/6062369c-22c7-48e4-9dd3-91efba22df34">RtmGetEntityInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetentityinfo">RtmGetEntityInfo</a>.
 
 
 ## -returns
@@ -109,11 +109,11 @@ The handle is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-_rtm_entity_info">RTM_ENTITY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/6062369c-22c7-48e4-9dd3-91efba22df34">RtmGetEntityInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetentityinfo">RtmGetEntityInfo</a>
  
 
  

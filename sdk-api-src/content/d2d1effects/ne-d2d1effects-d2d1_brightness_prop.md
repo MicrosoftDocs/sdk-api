@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for the properties of the <a href="https://msdn.microsoft.com/5088D4D4-DFC8-45D3-B1C3-D576742D931C">Brightness effect</a>.
+Identifiers for the properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/brightness">Brightness effect</a>.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ The upper portion of the brightness transfer curve. The white point adjusts the 
           This property is for both the x value and the y value, in that order. Each of the values of this property are between 0 and 1, inclusive.
           
 
-The type is <a href="https://msdn.microsoft.com/DD180090-D2F4-4DF3-8652-101713C01AE4">D2D1_VECTOR_2F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is (1.0f, 1.0f).
 
@@ -74,7 +74,7 @@ The lower portion of the brightness transfer curve. The black point adjusts the 
           This property is for both the x value and the y value, in that order. Each of the values of this property are between 0 and 1, inclusive.
           
 
-The type is <a href="https://msdn.microsoft.com/DD180090-D2F4-4DF3-8652-101713C01AE4">D2D1_VECTOR_2F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
 
 The default value is (0.0f, 0.0f).
 

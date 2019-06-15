@@ -165,11 +165,11 @@ Port number for the packet. For more information, see the description for the
 
 
 
-<a href="https://msdn.microsoft.com/b4809f0b-b8a5-45d1-b6ef-8f812379e706">PxeSendReply</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e52a6ae-cecb-45de-b777-108836ed5264">Windows Deployment Services Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>
  
 
  

@@ -59,7 +59,7 @@ Specifies the vertical alignment of the primary content in the viewport.
 
 ### -param alignment [in]
 
-One or more values from <a href="https://msdn.microsoft.com/37e9a604-f713-4203-928c-0799206b76fe">DIRECTMANIPULATION_VERTICALALIGNMENT</a>.
+One or more values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_verticalalignment">DIRECTMANIPULATION_VERTICALALIGNMENT</a>.
 
 <div class="alert"><b>Note</b>  You cannot combine <b>DIRECTMANIPULATION_VERTICALALIGNMENT_TOP</b>, <b>DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER</b>, or <b>DIRECTMANIPULATION_VERTICALALIGNMENT_BOTTOM</b>. <b>DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER</b> can be combined with any option but cannot be configured by itself.</div>
 <div> </div>
@@ -99,7 +99,7 @@ HRESULT hr = pContent->SetVerticalAlignment(
 
 
 
-<a href="https://msdn.microsoft.com/9910F5F5-950F-4099-9808-B46FA5BBA6FB">IDirectManipulationPrimaryContent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationprimarycontent">IDirectManipulationPrimaryContent</a>
  
 
  

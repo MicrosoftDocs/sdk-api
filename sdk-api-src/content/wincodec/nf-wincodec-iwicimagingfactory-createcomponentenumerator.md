@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a> object of the specified component types.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> object of the specified component types.
 
 
 ## -parameters
@@ -61,19 +61,19 @@ Creates an <a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).a
 
 Type: <b>DWORD</b>
 
-The types of <a href="https://msdn.microsoft.com/eff6b77c-ea4b-4476-8d75-dec5bb2e1745">WICComponentType</a> to enumerate.
+The types of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccomponenttype">WICComponentType</a> to enumerate.
 
 
 ### -param options [in]
 
 Type: <b>DWORD</b>
 
-The <a href="https://msdn.microsoft.com/52cc0860-6164-4400-8e81-03eb0c44904e">WICComponentEnumerateOptions</a> used to enumerate the given component types. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccomponentenumerateoptions">WICComponentEnumerateOptions</a> used to enumerate the given component types. 
 
 
 ### -param ppIEnumUnknown [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>**</b>
 
 A pointer that receives a pointer to a new component enumerator.
 

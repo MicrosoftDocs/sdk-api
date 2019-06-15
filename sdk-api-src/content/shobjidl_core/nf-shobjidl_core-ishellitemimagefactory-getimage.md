@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <b>HBITMAP</b> that represents an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>. The default behavior is to load a thumbnail. If there is no thumbnail for the current <b>IShellItem</b>, it retrieves an <b>HBITMAP</b> for the icon of the item. The thumbnail or icon is extracted if it is not currently cached.
+Gets an <b>HBITMAP</b> that represents an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>. The default behavior is to load a thumbnail. If there is no thumbnail for the current <b>IShellItem</b>, it retrieves an <b>HBITMAP</b> for the icon of the item. The thumbnail or icon is extracted if it is not currently cached.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets an <b>HBITMAP</b> that represents an <a href="https://msdn.microsoft.com/59
 
 ### -param size [in]
 
-Type: <b><a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a></b>
 
 A structure that specifies the size of the image to be received.
 
@@ -80,7 +80,7 @@ Shrink the bitmap as necessary to fit, preserving its aspect ratio.
 
 #### SIIGBF_BIGGERSIZEOK (0x00000001)
 
-Passed by callers if they want to stretch the returned image themselves. For example, if the caller passes an icon size of 80x80, a 96x96 thumbnail could be returned. This action can be used as a performance optimization if the caller expects that they will need to stretch the image. Note that the Shell implementation of <a href="https://msdn.microsoft.com/a6eea412-553a-4bdd-afc2-cc002c4500a4">IShellItemImageFactory</a> performs a GDI stretch blit. If the caller wants a higher quality image stretch than provided through that mechanism, they should pass this flag and perform the stretch themselves.
+Passed by callers if they want to stretch the returned image themselves. For example, if the caller passes an icon size of 80x80, a 96x96 thumbnail could be returned. This action can be used as a performance optimization if the caller expects that they will need to stretch the image. Note that the Shell implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory">IShellItemImageFactory</a> performs a GDI stretch blit. If the caller wants a higher quality image stretch than provided through that mechanism, they should pass this flag and perform the stretch themselves.
 
 
 
@@ -135,7 +135,7 @@ Allows access to the disk, but only to retrieve a cached item. This returns a ca
 
 Type: <b>HBITMAP*</b>
 
-Pointer to a value that, when this method returns successfully, receives the handle of the retrieved bitmap. It is the responsibility of the caller to free this retrieved resource through <a href="https://msdn.microsoft.com/cc679af0-6839-4c83-9c42-39d7ededda40">DeleteObject</a> when it is no longer needed.
+Pointer to a value that, when this method returns successfully, receives the handle of the retrieved bitmap. It is the responsibility of the caller to free this retrieved resource through <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> when it is no longer needed.
 
 
 ## -returns
@@ -155,7 +155,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Icon extraction can be time consuming. This method generally should not be called from a UI thread to avoid causing that thread to become unresponsive. You can call <b>IShellItemImageFactory::GetImage</b> on a UI thread if you set the <b>SIIGBF_INCACHEONLY</b> flag. However, if the image is not found in the cache, the calling application should be prepared to launch a background thread to extract the image. An extraction should never be done on a UI thread.
 
-See the <a href="https://msdn.microsoft.com/63B1D242-A52A-4796-90D7-A5AC8E3002B4">Using Image Factory</a> sample for a full example of how to use this method.
+See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940383(v=vs.85)">Using Image Factory</a> sample for a full example of how to use this method.
 
 
 

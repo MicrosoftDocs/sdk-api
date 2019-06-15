@@ -86,15 +86,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/40cf28ab-aa5a-396d-2f9e-2206651966af">DirectXMath Library 4D Vector Geometric Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector4-geometric">DirectXMath Library 4D Vector Geometric Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420970(v=VS.85).aspx">XMVector4Length</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4length">XMVector4Length</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420971(v=VS.85).aspx">XMVector4LengthEst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4lengthest">XMVector4LengthEst</a>
  
 
  

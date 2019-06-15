@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flags used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to specify the non-client area rendering policy.
+Flags used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a> function to specify the non-client area rendering policy.
 
 
 ## -enum-fields
@@ -74,14 +74,14 @@ The non-client area rendering is enabled; the window style is ignored.
 
 ### -field DWMNCRP_LAST
 
-The maximum recognized <a href="https://msdn.microsoft.com/en-us/library/Aa969529(v=VS.85).aspx">DWMNCRENDERINGPOLICY</a> value, used for validation purposes.
+The maximum recognized <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ne-dwmapi-dwmncrenderingpolicy">DWMNCRENDERINGPOLICY</a> value, used for validation purposes.
 
 
 ## -remarks
 
 
 
-To use a <b>DWMNCRENDERINGPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Aa969524(v=VS.85).aspx">DwmSetWindowAttribute</a> function to <b>DWMWA_NCRENDERING_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMNCRENDERINGPOLICY</b> value.
+To use a <b>DWMNCRENDERINGPOLICY</b> value, set the <i>dwAttribute</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute">DwmSetWindowAttribute</a> function to <b>DWMWA_NCRENDERING_POLICY</b>. Set the <i>pvAttribute</i> parameter to the <b>DWMNCRENDERINGPOLICY</b> value.
 
 
 

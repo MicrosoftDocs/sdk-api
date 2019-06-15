@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>midiInUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://msdn.microsoft.com/26895526-2c1e-4335-8b45-511ca56696ab">midiInPrepareHeader</a> function.
+The <b>midiInUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a> function.
 
 
 
@@ -69,12 +69,12 @@ Handle to the MIDI input device.
 
 ### -param pmh
 
-Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure identifying the buffer to be cleaned up.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure identifying the buffer to be cleaned up.
 
 
 ### -param cbmh
 
-Size of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
+Size of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 
 ## -returns
@@ -131,7 +131,7 @@ The specified device handle is invalid.
 
 
 
-This function is complementary to <a href="https://msdn.microsoft.com/26895526-2c1e-4335-8b45-511ca56696ab">midiInPrepareHeader</a>. You must use this function before freeing the buffer. After passing a buffer to the device driver by using the <a href="https://msdn.microsoft.com/b673e252-91d0-45b9-a528-079868b47157">midiInAddBuffer</a> function, you must wait until the driver is finished with the buffer before using <b>midiInUnprepareHeader</b>. Unpreparing a buffer that has not been prepared has no effect, and the function returns MMSYSERR_NOERROR.
+This function is complementary to <a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a>. You must use this function before freeing the buffer. After passing a buffer to the device driver by using the <a href="https://docs.microsoft.com/previous-versions//dd798450(v=vs.85)">midiInAddBuffer</a> function, you must wait until the driver is finished with the buffer before using <b>midiInUnprepareHeader</b>. Unpreparing a buffer that has not been prepared has no effect, and the function returns MMSYSERR_NOERROR.
 
 
 
@@ -141,11 +141,11 @@ This function is complementary to <a href="https://msdn.microsoft.com/26895526-2
 
 
 
-<a href="https://msdn.microsoft.com/b3a70441-e8f9-4886-bf22-426ebd74d045">Allocating and Preparing MIDI Data Blocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/allocating-and-preparing-midi-data-blocks">Allocating and Preparing MIDI Data Blocks</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
  
 
  

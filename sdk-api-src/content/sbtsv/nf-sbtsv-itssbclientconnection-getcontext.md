@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves context information that was stored by a plug-in by using the <a href="https://msdn.microsoft.com/654714ef-cc86-41e8-8759-bbb66bd61cd2">PutContext</a> method.
+Retrieves context information that was stored by a plug-in by using the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a> method.
 
 
 ## -parameters
@@ -81,11 +81,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/6649f43d-0e2a-42d7-8111-862bb28e3dbc">ITsSbClientConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/654714ef-cc86-41e8-8759-bbb66bd61cd2">PutContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbclientconnection-putcontext">PutContext</a>
  
 
  

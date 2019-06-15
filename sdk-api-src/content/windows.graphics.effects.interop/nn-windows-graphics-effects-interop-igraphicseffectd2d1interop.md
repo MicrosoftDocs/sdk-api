@@ -56,7 +56,7 @@ Native interoperation interface that provides a counterpart to <a href="https://
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphicsEffectD2D1Interop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGraphicsEffectD2D1Interop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphicsEffectD2D1Interop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphicsEffectD2D1Interop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IGraphicsEffectD2D1Interop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75870414-23B4-4157-94DC-F03E0A978EF3">GetEffectId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-geteffectid">GetEffectId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the effect.
@@ -80,7 +80,7 @@ Retrieves the ID of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72185CB5-6D8A-4F9F-B913-C9216CECEC90">GetNamedPropertyMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getnamedpropertymapping">GetNamedPropertyMapping</a>
 </td>
 <td align="left" width="63%">
 Retrieves the mapping for an effect property.
@@ -89,7 +89,7 @@ Retrieves the mapping for an effect property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/415C12FA-C779-4F00-A83F-AB5D4EC0B8C2">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the effect property at the specified index.
@@ -98,7 +98,7 @@ Retrieves the effect property at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B1A89551-72B3-4C30-B75F-5159DD774E04">GetPropertyCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getpropertycount">GetPropertyCount</a>
 </td>
 <td align="left" width="63%">
 Retrieve the property count for the effect.
@@ -107,7 +107,7 @@ Retrieve the property count for the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C4A212ED-EE68-40D7-B6E0-977F748942BB">GetSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getsource">GetSource</a>
 </td>
 <td align="left" width="63%">
 Retrieves the effect source at the specified index.
@@ -116,7 +116,7 @@ Retrieves the effect source at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C2287E81-4CCC-471B-833C-84B37F245084">GetSourceCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.effects.interop/nf-windows-graphics-effects-interop-igraphicseffectd2d1interop-getsourcecount">GetSourceCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source count for the effect.

@@ -44,34 +44,34 @@ The <b>PEER_GROUP_EVENT_DATA</b> structure contains information about a specific
 
 ### -field eventType
 
-<a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_TYPE</a> enumeration value that specifies  the type of peer group event that occurred. The type of event dictates the subsequent structure chosen from the union; for example, if this value is set to PEER_GROUP_EVENT_INCOMING_DATA, the populated union member is  <b>incomingData</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_TYPE</a> enumeration value that specifies  the type of peer group event that occurred. The type of event dictates the subsequent structure chosen from the union; for example, if this value is set to PEER_GROUP_EVENT_INCOMING_DATA, the populated union member is  <b>incomingData</b>.
 
 
 ### -field __unnamed_union_03e8_3
 
 ### -field dwStatus
 
-Specifies the <a href="https://msdn.microsoft.com/ed3fa9a6-5180-419f-b5d1-02889bbcdd0d">PEER_GROUP_STATUS</a> flag values that indicate the new status of the peer group. This field is populated  if a PEER_GROUP_EVENT_STATUS_CHANGED event is raised.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status_tag">PEER_GROUP_STATUS</a> flag values that indicate the new status of the peer group. This field is populated  if a PEER_GROUP_EVENT_STATUS_CHANGED event is raised.
 
 
 ### -field incomingData
 
-Specifies the <a href="https://msdn.microsoft.com/93104ca5-b3de-492c-965e-3acd12d05ea6">PEER_EVENT_INCOMING_DATA</a> structure that contains information on incoming data from a peer. This structure is populated if a PEER_GROUP_EVENT_INCOMING_DATA  event is raised.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data_tag">PEER_EVENT_INCOMING_DATA</a> structure that contains information on incoming data from a peer. This structure is populated if a PEER_GROUP_EVENT_INCOMING_DATA  event is raised.
 
 
 ### -field recordChangeData
 
-Specifies the <a href="https://msdn.microsoft.com/01404fff-3488-43aa-bc59-3e08ff925ea5">PEER_EVENT_RECORD_CHANGE_DATA</a> structure that contains data that describes a record change. This structure is populated if a PEER_GROUP_EVENT_RECORD_CHANGED event is raised.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data_tag">PEER_EVENT_RECORD_CHANGE_DATA</a> structure that contains data that describes a record change. This structure is populated if a PEER_GROUP_EVENT_RECORD_CHANGED event is raised.
 
 
 ### -field connectionChangeData
 
-<a href="https://msdn.microsoft.com/0d73432c-c1e5-4fa9-a812-377b22a47440">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure that contains information when a direct or neighbor connection has changed. This structure is populated if a  PEER_GROUP_EVENT_DIRECT_CONNECTION or PEER_GROUP_EVENT_NEIGHBOR_CONNECTION event is raised.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data_tag">PEER_EVENT_CONNECTION_CHANGE_DATA</a> structure that contains information when a direct or neighbor connection has changed. This structure is populated if a  PEER_GROUP_EVENT_DIRECT_CONNECTION or PEER_GROUP_EVENT_NEIGHBOR_CONNECTION event is raised.
 
 
 ### -field memberChangeData
 
-<a href="https://msdn.microsoft.com/5ba37006-1ded-4996-a190-d789e5cc0755">PEER_EVENT_MEMBER_CHANGE_DATA</a> structure that contains data when the status of a peer group member changes. This structure is populated if a PEER_GROUP_EVENT_MEMBER_CHANGED event is raised.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data_tag">PEER_EVENT_MEMBER_CHANGE_DATA</a> structure that contains data when the status of a peer group member changes. This structure is populated if a PEER_GROUP_EVENT_MEMBER_CHANGED event is raised.
 
 
 ### -field hrConnectionFailedReason
@@ -130,18 +130,18 @@ An attempt has been made to perform an unauthorized operation. For example, atte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0d73432c-c1e5-4fa9-a812-377b22a47440">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_connection_change_data_tag">PEER_EVENT_CONNECTION_CHANGE_DATA</a>
 
-<a href="https://msdn.microsoft.com/93104ca5-b3de-492c-965e-3acd12d05ea6">PEER_EVENT_INCOMING_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_incoming_data_tag">PEER_EVENT_INCOMING_DATA</a>
 
-<a href="https://msdn.microsoft.com/5ba37006-1ded-4996-a190-d789e5cc0755">PEER_EVENT_MEMBER_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data_tag">PEER_EVENT_MEMBER_CHANGE_DATA</a>
 
-<a href="https://msdn.microsoft.com/01404fff-3488-43aa-bc59-3e08ff925ea5">PEER_EVENT_RECORD_CHANGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_event_record_change_data_tag">PEER_EVENT_RECORD_CHANGE_DATA</a>
 
-<a href="https://msdn.microsoft.com/9c28eb24-f158-4313-9a7c-0f271013d03a">PEER_GROUP_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_event_type_tag">PEER_GROUP_EVENT_TYPE</a>
 
-<a href="https://msdn.microsoft.com/ed3fa9a6-5180-419f-b5d1-02889bbcdd0d">PEER_GROUP_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status_tag">PEER_GROUP_STATUS</a>
 
-<a href="https://msdn.microsoft.com/bc742c09-190d-412e-ae1a-f1350b3748f5">PeerGroupGetEventData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgeteventdata">PeerGroupGetEventData</a>
 
 

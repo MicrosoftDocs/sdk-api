@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about the completion of an asynchronous search. It also acts as a parameter to the <a href="https://msdn.microsoft.com/f228808d-7f7e-4107-a4b6-4bac5b48d1b4">SearchCompletedCallback</a> delegate.
+Contains information about the completion of an asynchronous search. It also acts as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchcompletedcallback">SearchCompletedCallback</a> delegate.
 
 
 ## -remarks

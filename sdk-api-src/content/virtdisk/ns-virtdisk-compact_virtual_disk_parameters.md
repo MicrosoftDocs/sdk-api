@@ -60,7 +60,7 @@ Contains virtual hard disk (VHD)  compacting parameters.
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323658(v=VS.85).aspx">COMPACT_VIRTUAL_DISK_VERSION</a> 
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_compact_virtual_disk_version">COMPACT_VIRTUAL_DISK_VERSION</a> 
      enumeration that specifies the version of the 
      <b>COMPACT_VIRTUAL_DISK_PARAMETERS</b> 
      structure being passed to or from the VHD functions.
@@ -81,11 +81,11 @@ Reserved. Must be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

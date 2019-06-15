@@ -66,7 +66,7 @@ Reports whether the current application's user interface displays using visual s
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns one of the following values.
 
@@ -112,7 +112,7 @@ Prior to Windows 8, a visual style can be turned off in Control Panel, so that a
  In Windows 8, it is not possible to turn off visual styles.
 
 
-Do not call this function during <a href="https://msdn.microsoft.com/0c3e3083-9297-4626-b2a7-0062d1c2cf9e">DllMain</a> or global objects contructors. This may cause invalid return values.
+Do not call this function during <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> or global objects contructors. This may cause invalid return values.
 
 
 

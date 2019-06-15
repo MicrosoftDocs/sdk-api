@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePowerSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConsolePowerSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePowerSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsolePowerSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IConsolePowerSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69589335-4b80-4f2b-a8d6-74805969c85c">OnPowerBroadcast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolepowersink-onpowerbroadcast">OnPowerBroadcast</a>
 </td>
 <td align="left" width="63%">
 Handles 
@@ -86,7 +86,7 @@ WM_POWERBROADCAST messages.
 
 
 To receive power management notifications, your snap-in must use the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83932">AtlAdvise</a> function to associate an instance of the 
-<a href="https://msdn.microsoft.com/d34e8da0-2689-4514-be10-4c11008432b3">IConsolePower</a> interface with your implementation of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a> interface with your implementation of the 
 <b>IConsolePowerSink</b> interface. The following code example shows how to use the <a href="Http://go.microsoft.com/fwlink/p/?linkid=83932">AtlAdvise</a> function.
 
 
@@ -128,7 +128,7 @@ hr = AtlUnadvise(m_ipConsolePower,
 
 
 
-<a href="https://msdn.microsoft.com/d34e8da0-2689-4514-be10-4c11008432b3">IConsolePower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolepower">IConsolePower</a>
  
 
  

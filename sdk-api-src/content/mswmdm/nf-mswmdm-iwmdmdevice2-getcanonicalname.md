@@ -136,7 +136,7 @@ An unspecified error occurred.
 
 
 
-The application can use the retrieved canonical name to call <a href="https://msdn.microsoft.com/cfa0fe8d-668a-443b-be50-cf1f83362a14">IWMDeviceManager2::GetDeviceFromCanonicalName</a> to find this device again.
+The application can use the retrieved canonical name to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">IWMDeviceManager2::GetDeviceFromCanonicalName</a> to find this device again.
 
 The returned canonical name is in the format &lt; <i>PnP Device Path</i> &gt;$&lt; <i>index</i> &gt;, where <i>index</i> is a zero-based index into the device objects returned by the service provider for the specified PnP device path.
 
@@ -179,11 +179,11 @@ if (pIWMDMDevice2 != NULL)
 
 
 
-<a href="https://msdn.microsoft.com/d8dcbde1-24ae-4ca6-aaf4-2d1511102ae9">IWMDMDevice2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfa0fe8d-668a-443b-be50-cf1f83362a14">IWMDeviceManager2::GetDeviceFromCanonicalName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">IWMDeviceManager2::GetDeviceFromCanonicalName</a>
  
 
  

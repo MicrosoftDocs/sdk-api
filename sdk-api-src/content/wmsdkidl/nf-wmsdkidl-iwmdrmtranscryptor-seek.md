@@ -54,7 +54,7 @@ ms.custom: 19H1
 ]
 
 
-The <b>Seek</b> method sets the DRM transcryptor to read from the specified point in the data stream of the loaded file. Subsequent <a href="https://msdn.microsoft.com/en-us/library/Dd798370(v=VS.85).aspx">Read</a> calls generate data beginning at that point.
+The <b>Seek</b> method sets the DRM transcryptor to read from the specified point in the data stream of the loaded file. Subsequent <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">Read</a> calls generate data beginning at that point.
 
 
 
@@ -112,7 +112,7 @@ There is no file loaded in the transcryptor.
 
 
 
-This method is asynchronous. It returns immediately, but processing is not complete until a WMT_TRANSCRYPTOR_SEEKED message is sent to the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method.
+This method is asynchronous. It returns immediately, but processing is not complete until a WMT_TRANSCRYPTOR_SEEKED message is sent to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method.
 
 If the seek operation fails, no message is sent.
 
@@ -128,11 +128,11 @@ To convert the entire file, call <b>Seek</b> with a presentation time of 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798367(v=VS.85).aspx">IWMDRMTranscryptor Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798370(v=VS.85).aspx">IWMDRMTranscryptor::Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">IWMDRMTranscryptor::Read</a>
  
 
  

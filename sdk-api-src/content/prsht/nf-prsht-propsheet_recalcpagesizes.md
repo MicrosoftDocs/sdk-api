@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Recalculates the page size of a standard or wizard property sheet after pages have been added or removed. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774603(v=VS.85).aspx">PSM_RECALCPAGESIZES</a> message explicitly.
+Recalculates the page size of a standard or wizard property sheet after pages have been added or removed. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-recalcpagesizes">PSM_RECALCPAGESIZES</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Recalculates the page size of a standard or wizard property sheet after pages ha
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet's dialog box.
 
@@ -68,9 +68,9 @@ Handle to the property sheet's dialog box.
 
 
 
-When a property sheet is created, it is sized to fit its initial collection of pages. To maintain compatibility with previous versions of the common controls, property sheets and wizards do not automatically resize themselves when pages are subsequently added or removed. With common controls <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">version 5.80</a> and later, applications should use the <b>PropSheet_RecalcPageSizes</b> macro after adding or removing pages with <a href="https://msdn.microsoft.com/en-us/library/Bb774634(v=VS.85).aspx">PropSheet_AddPage</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774660(v=VS.85).aspx">PropSheet_InsertPage</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774675(v=VS.85).aspx">PropSheet_RemovePage</a>, or their equivalent messages. It ensures that the property sheet is properly sized for its current collection of pages. If this macro or the equivalent message is not used, some property sheet pages may be truncated or too large.
+When a property sheet is created, it is sized to fit its initial collection of pages. To maintain compatibility with previous versions of the common controls, property sheets and wizards do not automatically resize themselves when pages are subsequently added or removed. With common controls <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">version 5.80</a> and later, applications should use the <b>PropSheet_RecalcPageSizes</b> macro after adding or removing pages with <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_addpage">PropSheet_AddPage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_insertpage">PropSheet_InsertPage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_removepage">PropSheet_RemovePage</a>, or their equivalent messages. It ensures that the property sheet is properly sized for its current collection of pages. If this macro or the equivalent message is not used, some property sheet pages may be truncated or too large.
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 

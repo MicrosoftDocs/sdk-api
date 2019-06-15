@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TRANSLATEURL_IN_FLAGS</b> enumerated values are used with the <a href="https://msdn.microsoft.com/2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7">TranslateURL</a> function to determine how it will execute.
+The <b>TRANSLATEURL_IN_FLAGS</b> enumerated values are used with the <a href="https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-translateurla">TranslateURL</a> function to determine how it will execute.
 
 
 ## -enum-fields
@@ -59,10 +59,10 @@ The <b>TRANSLATEURL_IN_FLAGS</b> enumerated values are used with the <a href="ht
 
 ### -field TRANSLATEURL_FL_GUESS_PROTOCOL
 
-If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a href="https://msdn.microsoft.com/2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7">TranslateURL</a>, the system automatically chooses a scheme and adds it to the URL.
+If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-translateurla">TranslateURL</a>, the system automatically chooses a scheme and adds it to the URL.
 
 
 ### -field TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL
 
-If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a href="https://msdn.microsoft.com/2f089f5a-4d7c-4bb7-961c-5c6e3e73c7b7">TranslateURL</a>, the system adds the default protocol to the URL.
+If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/intshcut/nf-intshcut-translateurla">TranslateURL</a>, the system adds the default protocol to the URL.
 

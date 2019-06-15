@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-When reading or writing XML, the class of a COM handler is specified in the <a href="https://msdn.microsoft.com/38ebcc39-85f2-4f61-8cb6-556c242a63d9">ClassId</a> element of the Task Scheduler schema.
+When reading or writing XML, the class of a COM handler is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-classid-comhandlertype-element">ClassId</a> element of the Task Scheduler schema.
 
 
 
@@ -73,11 +73,11 @@ When reading or writing XML, the class of a COM handler is specified in the <a h
 
 
 
-<a href="https://msdn.microsoft.com/fb5cc2c3-ba86-401a-b51f-b28d1f5be58f">IComHandlerAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

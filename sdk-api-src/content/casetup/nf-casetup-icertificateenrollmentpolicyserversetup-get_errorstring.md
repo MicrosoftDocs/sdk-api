@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-Calling any method on the <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> interface resets this property value to an empty error string.
+Calling any method on the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a> interface resets this property value to an empty error string.
 
 
 
@@ -72,7 +72,7 @@ Calling any method on the <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99
 
 
 
-<a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
  
 
  

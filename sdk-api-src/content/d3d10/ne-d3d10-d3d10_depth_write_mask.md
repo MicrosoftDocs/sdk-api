@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identify the portion of a <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> buffer for writing depth data.
+Identify the portion of a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil</a> buffer for writing depth data.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ Turn on writes to the depth-stencil buffer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
  
 
  

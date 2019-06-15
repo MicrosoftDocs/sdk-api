@@ -73,9 +73,9 @@ The number of UTF16 units of the reported range.
 
 ### -param numberSubstitution
 
-Type: <b><a href="https://msdn.microsoft.com/bf8caeea-6ede-4cd3-84f7-2e8314af50db">IDWriteNumberSubstitution</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritenumbersubstitution">IDWriteNumberSubstitution</a>*</b>
 
-An object that holds the appropriate digits and numeric punctuation for a given locale. Use <a href="https://msdn.microsoft.com/a2778bfd-c721-44e8-ac0a-79aaa2b323a8">IDWriteFactory::CreateNumberSubstitution</a> to create this object.
+An object that holds the appropriate digits and numeric punctuation for a given locale. Use <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createnumbersubstitution">IDWriteFactory::CreateNumberSubstitution</a> to create this object.
 
 
 ## -returns
@@ -94,7 +94,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1fd2ca46-006c-4b01-8258-6c24f4be1641">IDWriteTextAnalysisSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissink">IDWriteTextAnalysisSink</a>
  
 
  

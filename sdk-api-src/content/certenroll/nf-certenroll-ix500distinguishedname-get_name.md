@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/da0d4479-dc58-4719-886e-5ce610764305">Encode</a> method to encode a distinguished name. Call the <a href="https://msdn.microsoft.com/52cc0595-b825-4bf3-805c-21afc468b91e">Decode</a> method to decode a distinguished name. Call the <a href="https://msdn.microsoft.com/c3b2966c-5149-462d-908b-f6eca6a0409d">EncodedName</a> property to retrieve the name as an encoded string.
+Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-encode">Encode</a> method to encode a distinguished name. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-decode">Decode</a> method to decode a distinguished name. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix500distinguishedname-get_encodedname">EncodedName</a> property to retrieve the name as an encoded string.
 
 
 
@@ -72,7 +72,7 @@ Call the <a href="https://msdn.microsoft.com/da0d4479-dc58-4719-886e-5ce61076430
 
 
 
-<a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a>
  
 
  

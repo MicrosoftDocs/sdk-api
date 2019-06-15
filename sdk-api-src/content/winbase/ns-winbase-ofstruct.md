@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information about a file that the 
-<a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a> function opened or attempted to open.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function opened or attempted to open.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ If this member is nonzero, the file is on a hard (fixed) disk. Otherwise, it is 
 ### -field nErrCode
 
 The MS-DOS error code if the 
-<a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a> function failed.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function failed.
 
 
 ### -field Reserved1
@@ -94,7 +94,7 @@ The path and file name of the file.
 
 
 
-<a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
  
 
  

@@ -58,7 +58,7 @@ The <b>IWMPMediaCollection</b> interface provides methods that can be used to or
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWMPMediaCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPMediaCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMPMediaCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563412(v=VS.85).aspx">add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-add">add</a>
 </td>
 <td align="left" width="63%">
 Adds a new media item to the library.
@@ -82,7 +82,7 @@ Adds a new media item to the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563413(v=VS.85).aspx">getAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getall">getAll</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface that corresponds to the playlist that contains all media items in the library.
@@ -100,7 +100,7 @@ Retrieves a pointer to an <b>IWMPStringCollection</b> interface that represents 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563415(v=VS.85).aspx">getByAlbum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyalbum">getByAlbum</a>
 </td>
 <td align="left" width="63%">
 Retries a pointer to an <b>IWMPPlaylist</b> interface to an object containing media items from the specified album.
@@ -109,7 +109,7 @@ Retries a pointer to an <b>IWMPPlaylist</b> interface to an object containing me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563416(v=VS.85).aspx">getByAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyattribute">getByAttribute</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface that corresponds to the specified attribute having the specified value.
@@ -118,7 +118,7 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface that corresponds to the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563417(v=VS.85).aspx">getByAuthor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyauthor">getByAuthor</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains the media items for the specified author.
@@ -127,7 +127,7 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains the media 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563418(v=VS.85).aspx">getByGenre</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbygenre">getByGenre</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface to an object containing media items with the specified genre.
@@ -136,7 +136,7 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface to an object containing 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563419(v=VS.85).aspx">getByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getbyname">getByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains the media items with the specified name.
@@ -145,7 +145,7 @@ Retrieves a pointer to an <b>IWMPPlaylist</b> interface that contains the media 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563420(v=VS.85).aspx">getMediaAtom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getmediaatom">getMediaAtom</a>
 </td>
 <td align="left" width="63%">
 Retrieves the index at which a given attribute resides.
@@ -161,7 +161,7 @@ No longer supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563421(v=VS.85).aspx">remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-remove">remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified media item from the media collection.
@@ -170,7 +170,7 @@ Removes the specified media item from the media collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563422(v=VS.85).aspx">setDeleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-setdeleted">setDeleted</a>
 </td>
 <td align="left" width="63%">
 Moves the specified media item to the deleted items folder.
@@ -185,11 +185,11 @@ Moves the specified media item to the deleted items folder.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563547(v=VS.85).aspx">IWMPPlaylist Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

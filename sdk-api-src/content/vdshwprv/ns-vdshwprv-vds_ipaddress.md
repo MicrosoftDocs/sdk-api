@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines an IP 
   address and port.
@@ -64,7 +64,7 @@ Defines an IP
 ### -field type
 
 The type of address as enumerated by 
-     <a href="https://msdn.microsoft.com/9121957f-1626-4d52-9749-0a769fece5fa">VDS_IPADDRESS_TYPE</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_ipaddress_type">VDS_IPADDRESS_TYPE</a>.
 
 
 ### -field ipv4Address
@@ -109,31 +109,31 @@ The TCP port number.
 
 
 
-<a href="https://msdn.microsoft.com/c815856f-94a2-4748-b9ac-54a2ef69c97e">IVdsIscsiPortal::GetIpsecSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getipsecsecurity">IVdsIscsiPortal::GetIpsecSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/73209e3c-f1c9-411e-b272-4d4a2b168824">IVdsIscsiPortal::SetIpsecSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setipsecsecurity">IVdsIscsiPortal::SetIpsecSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/200ac111-7029-4bfa-a08b-b4bce3c86bb7">IVdsIscsiPortal::SetIpsecTunnelAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-setipsectunneladdress">IVdsIscsiPortal::SetIpsecTunnelAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9121957f-1626-4d52-9749-0a769fece5fa">VDS_IPADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_ipaddress_type">VDS_IPADDRESS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/da2d19ca-88a8-4a6a-bbe7-98a9d8af5b1b">VDS_ISCSI_PORTAL_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_iscsi_portal_prop">VDS_ISCSI_PORTAL_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/14444252-11ca-4614-81d1-9a15e76d0186">VDS_PATH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_path_info">VDS_PATH_INFO</a>
  
 
  

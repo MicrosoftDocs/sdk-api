@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_OID_INFO</b> structure contains information about an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID). These structures give the relationship among an OID identifier, its name, its group, and other information about the OID. These structures can be listed by using 
-the <a href="https://msdn.microsoft.com/6af23bb4-3a27-425a-90bb-9a69ea081b25">CryptEnumOIDInfo</a> function. New CRYPT_OID_STRUCTURES can be added by using 
-the <a href="https://msdn.microsoft.com/7a5b4800-3182-4cd4-b17a-c6d4e11f7047">CryptRegisterOIDInfo</a> function.
+The <b>CRYPT_OID_INFO</b> structure contains information about an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). These structures give the relationship among an OID identifier, its name, its group, and other information about the OID. These structures can be listed by using 
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> function. New CRYPT_OID_STRUCTURES can be added by using 
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a> function.
 
 
 ## -struct-fields
@@ -244,7 +244,7 @@ The following values are used for the flags in the <b>ExtraInfo</b> member.
 <td width="60%">
 This flag is no longer used.
 
-Stop the reformatting of the signature before the <a href="https://msdn.microsoft.com/3119eabc-90ff-42c6-b3fa-e8be625f6d1e">CryptVerifySignature</a> function is called or after the <a href="https://msdn.microsoft.com/9cf0de04-fdad-457d-8137-16d98f915cd5">CryptSignHash</a> function is called.
+Stop the reformatting of the signature before the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a> function is called or after the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function is called.
 
 </td>
 </tr>
@@ -300,7 +300,7 @@ Include the parameters of the public key algorithm in the <i>digestEncryptionAlg
 
 ### -field pwszCNGAlgid
 
-The algorithm identifier string passed to the CNG functions (the BCrypt* and NCrypt* functions that are defined in Bcrypt.h and Ncrypt.h). CNG functions use algorithm identifier strings, such as L"SHA1", instead of the <a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> data type constants, such as <b>CALG_SHA1</b>.<b>Windows Server 2003 and Windows XP:  </b>This member is not available.
+The algorithm identifier string passed to the CNG functions (the BCrypt* and NCrypt* functions that are defined in Bcrypt.h and Ncrypt.h). CNG functions use algorithm identifier strings, such as L"SHA1", instead of the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> data type constants, such as <b>CALG_SHA1</b>.<b>Windows Server 2003 and Windows XP:  </b>This member is not available.
 
 
 
@@ -433,15 +433,15 @@ For the other values of <b>dwGroupId</b>, set the <b>pwszCNGExtraAlgid</b> membe
 
 
 
-<a href="https://msdn.microsoft.com/87acf207-d109-4173-9530-8cbbebb473b2">CryptFindOIDInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a5b4800-3182-4cd4-b17a-c6d4e11f7047">CryptRegisterOIDInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/1217397b-2af9-4f58-8616-5a18ee2f4b8c">CryptUnregisterOIDInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DDOVERLAYFX</b> structure passes overlay information to the <a href="https://msdn.microsoft.com/8706c6ca-cd17-490a-8ff9-9470a7d7a150">IDirectDrawSurface7::UpdateOverlay</a> method.
+The <b>DDOVERLAYFX</b> structure passes overlay information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a> method.
 
 
 

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes a method that adds functionality to <a href="https://msdn.microsoft.com/d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28">IDragSourceHelper</a>. This method sets the characteristics of a drag-and-drop operation over an <b>IDragSourceHelper</b> object.
+Exposes a method that adds functionality to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. This method sets the characteristics of a drag-and-drop operation over an <b>IDragSourceHelper</b> object.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragSourceHelper2</b> interface inherits from <a href="https://msdn.microsoft.com/d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28">IDragSourceHelper</a>. <b>IDragSourceHelper2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragSourceHelper2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. <b>IDragSourceHelper2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IDragSourceHelper2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fe9b753-5ac1-4b6f-9538-5259870404ec">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idragsourcehelper2-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the characteristics of a drag-and-drop operation over an <a href="https://msdn.microsoft.com/d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28">IDragSourceHelper</a> object.
+Sets the characteristics of a drag-and-drop operation over an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
 
 </td>
 </tr>
@@ -83,9 +83,9 @@ Sets the characteristics of a drag-and-drop operation over an <a href="https://m
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28">IDragSourceHelper</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> interface, from which it inherits.
 
-If you want to adjust the behavior of the drag image by calling <a href="https://msdn.microsoft.com/1fe9b753-5ac1-4b6f-9538-5259870404ec">IDragSourceHelper2::SetFlags</a>, that call should be made before you call <a href="https://msdn.microsoft.com/0bcdfe92-cec0-44f3-a345-5b560d52fae9">InitializeFromWindow</a> or <a href="https://msdn.microsoft.com/d50be9c9-f407-4386-bb8f-04c849205359">InitializeFromBitmap</a>.
+If you want to adjust the behavior of the drag image by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idragsourcehelper2-setflags">IDragSourceHelper2::SetFlags</a>, that call should be made before you call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">InitializeFromWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">InitializeFromBitmap</a>.
 
 
 

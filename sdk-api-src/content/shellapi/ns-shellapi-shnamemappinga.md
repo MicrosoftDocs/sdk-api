@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the old and new path names for each file that was moved, copied, or renamed by the <a href="https://msdn.microsoft.com/7807015f-52c5-46f5-9e90-4e3e60ddf705">SHFileOperation</a> function.
+Contains the old and new path names for each file that was moved, copied, or renamed by the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.
 
 
 ## -struct-fields
@@ -99,7 +99,7 @@ There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and 
 
 
 
-<a href="https://msdn.microsoft.com/590d87c2-0c75-44b9-a9b5-f7c37728512b">SHFILEOPSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a>
  
 
  

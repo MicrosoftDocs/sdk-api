@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>IResultDataCompare::Compare</b> method provides a way for a primary snap-in to compare cookies for the purpose of sorting the result items that it inserts in the result pane.
 
 The <b>IResultDataCompare::Compare</b> method cannot be used for scope items. However, this functionality is provided by the 
-<a href="https://msdn.microsoft.com/0e3a8094-0d09-4a9c-8211-a0eb6a89ad55">IResultDataCompareEx::Compare</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompareex-compare">IResultDataCompareEx::Compare</a> method.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>IResultDataCompare::Compare</b> method cannot be used for scope items. Ho
 ### -param lUserParam [in]
 
 A value that specifies user-provided information that is passed into 
-<a href="https://msdn.microsoft.com/457eccaf-3727-4b29-a38b-9f009749673e">IResultData::Sort</a>. MMC does not interpret this parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>. MMC does not interpret this parameter.
 
 
 ### -param cookieA [in]
@@ -105,7 +105,7 @@ The comparison should be based on an ascending sort order. If the user toggles t
 
 This 
 IResultDataCompare interface is not called for virtual list sorting. Because the snap-in maintains all the item data storage for a virtual list, the snap-in must sort the items itself. A snap-in must implement the 
-<a href="https://msdn.microsoft.com/184f3783-9000-45aa-867b-580800b560b3">IResultOwnerData</a> interface to provide sorting for virtual lists.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface to provide sorting for virtual lists.
 
 
 
@@ -115,11 +115,11 @@ IResultDataCompare interface is not called for virtual list sorting. Because the
 
 
 
-<a href="https://msdn.microsoft.com/457eccaf-3727-4b29-a38b-9f009749673e">IResultData::Sort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">IResultData::Sort</a>
 
 
 
-<a href="https://msdn.microsoft.com/5326e935-cb6c-4f76-8c9b-87d910dbbb0d">IResultOwnerData::SortItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>
  
 
  

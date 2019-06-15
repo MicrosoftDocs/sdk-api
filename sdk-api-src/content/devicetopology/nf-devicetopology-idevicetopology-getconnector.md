@@ -62,12 +62,12 @@ The <b>GetConnector</b> method gets the connector that is specified by a connect
 
 ### -param nIndex [in]
 
-The connector number. If a device topology contains n connectors, the connectors are numbered 0 to n – 1. To get the number of connectors in the device topology, call the <a href="https://msdn.microsoft.com/0b7f3b14-4c99-497b-a00e-a24535a621b7">IDeviceTopology::GetConnectorCount</a> method.
+The connector number. If a device topology contains n connectors, the connectors are numbered 0 to n – 1. To get the number of connectors in the device topology, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getconnectorcount">IDeviceTopology::GetConnectorCount</a> method.
 
 
 ### -param ppConnector [out]
 
-Pointer to a pointer variable into which the method writes the address of the <a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector</a> interface of the connector object. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetConnector</b> call fails,  <i>*ppConnector</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector</a> interface of the connector object. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetConnector</b> call fails,  <i>*ppConnector</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -113,7 +113,7 @@ Pointer <i>ppConnector</i> is <b>NULL</b>.
 
 
 
-For code examples that call the <b>GetConnector</b> method, see the implementations of the GetHardwareDeviceTopology and SelectCaptureDevice functions in <a href="https://msdn.microsoft.com/5ac421e5-74a4-40e8-af6f-a99a05ebc3e0">Device Topologies</a>.
+For code examples that call the <b>GetConnector</b> method, see the implementations of the GetHardwareDeviceTopology and SelectCaptureDevice functions in <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 
 
@@ -123,15 +123,15 @@ For code examples that call the <b>GetConnector</b> method, see the implementati
 
 
 
-<a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b509f69-6277-40c0-a293-02afc30d464a">IDeviceTopology Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b7f3b14-4c99-497b-a00e-a24535a621b7">IDeviceTopology::GetConnectorCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getconnectorcount">IDeviceTopology::GetConnectorCount</a>
  
 
  

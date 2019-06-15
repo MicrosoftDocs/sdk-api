@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>SYNCMGRLOGLEVEL</b> enumeration values specify an error level for use in the 
-<a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">ISyncMgrSynchronizeCallback::LogError</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a> method.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ An error message was logged.
 
 ### -field SYNCMGRLOGLEVEL_LOGLEVELMAX
 
-The largest valid <a href="https://msdn.microsoft.com/df3c3300-e203-4664-b8d5-9dc4835b33d8">SYNCMGRLOGLEVEL</a> value.
+The largest valid <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-_tagsyncmgrloglevel">SYNCMGRLOGLEVEL</a> value.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ The largest valid <a href="https://msdn.microsoft.com/df3c3300-e203-4664-b8d5-9d
 
 
 
-<a href="https://msdn.microsoft.com/7c25ef21-9815-41ad-bcc0-b41a62dc0fe5">ISyncMgrSynchronizeCallback::LogError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>
  
 
  

@@ -114,12 +114,12 @@ A pointer to the image bits, which are stored as an array of bytes. For more inf
 
 ### -param lpbmi [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure that contains information about the DIB.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
 
 
 ### -param iUsage [in]
 
-Specifies whether the <b>bmiColors</b> member of the <a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO</a> structure was provided and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or indexes. The <i>iUsage</i> parameter must be one of the following values.
+Specifies whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure was provided and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or indexes. The <i>iUsage</i> parameter must be one of the following values.
 
 <table>
 <tr>
@@ -154,7 +154,7 @@ For more information, see the Remarks section.
 
 ### -param rop [in]
 
-A raster-operation code that specifies how the source pixels, the destination device context's current brush, and the destination pixels are to be combined to form the new image. For a list of some common raster operation codes, see <a href="https://msdn.microsoft.com/d6a181e4-b6cf-44b7-bf47-4900272d6d72">BitBlt</a>.
+A raster-operation code that specifies how the source pixels, the destination device context's current brush, and the destination pixels are to be combined to form the new image. For a list of some common raster operation codes, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>.
 
 
 ## -returns
@@ -178,20 +178,20 @@ The origin of a bottom-up DIB is the lower-left corner; the origin of a top-down
 
 <b>StretchDIBits</b> creates a mirror image of a bitmap if the signs of the <i>nSrcWidth</i> and <i>nDestWidth</i> parameters, or if the <i>nSrcHeight</i> and <i>nDestHeight</i> parameters differ. If <i>nSrcWidth</i> and <i>nDestWidth</i> have different signs, the function creates a mirror image of the bitmap along the x-axis. If <i>nSrcHeight</i> and <i>nDestHeight</i> have different signs, the function creates a mirror image of the bitmap along the y-axis.
 
-<b>StretchDIBits</b> creates a top-down image if the sign of the <b>biHeight</b> member of the <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> structure for the DIB is negative. For a code example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-2244c39b200e">Sizing a JPEG or PNG Image</a>.
+<b>StretchDIBits</b> creates a top-down image if the sign of the <b>biHeight</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure for the DIB is negative. For a code example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/sizing-a-jpeg-or-png-image">Sizing a JPEG or PNG Image</a>.
 
 This function allows a JPEG or PNG image to be passed as the source image. How each parameter is used remains the same, except:
 
 <ul>
-<li>If the <b>biCompression</b> member of <a href="https://msdn.microsoft.com/02f8ed65-8fed-4dda-9b94-7343a0cfa8c1">BITMAPINFOHEADER</a> is BI_JPEG or BI_PNG, <i>lpBits</i> points to a buffer containing a JPEG or PNG image, respectively. The <b>biSizeImage</b> member of the <b>BITMAPINFOHEADER</b> structure specifies the size of the buffer. The <i>iUsage</i> parameter must be set to DIB_RGB_COLORS. The <i>dwRop</i> parameter must be set to SRCCOPY.</li>
+<li>If the <b>biCompression</b> member of <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> is BI_JPEG or BI_PNG, <i>lpBits</i> points to a buffer containing a JPEG or PNG image, respectively. The <b>biSizeImage</b> member of the <b>BITMAPINFOHEADER</b> structure specifies the size of the buffer. The <i>iUsage</i> parameter must be set to DIB_RGB_COLORS. The <i>dwRop</i> parameter must be set to SRCCOPY.</li>
 <li>To ensure proper metafile spooling while printing, applications must call the CHECKJPEGFORMAT or CHECKPNGFORMAT escape to verify that the printer recognizes the JPEG or PNG image, respectively, before calling <b>StretchDIBits</b>.</li>
 </ul>
-<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://msdn.microsoft.com/40d70c1f-c580-43c4-b44b-6c9388e138fb">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpBitsInfo</i> has a <a href="https://msdn.microsoft.com/17c50d55-1c95-4178-82ba-7f504aa63c83">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
+<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpBitsInfo</i> has a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-2244c39b200e">Sizing a JPEG or PNG Image</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/sizing-a-jpeg-or-png-image">Sizing a JPEG or PNG Image</a>.
 
 <div class="code"></div>
 
@@ -202,25 +202,25 @@ For an example, see <a href="https://msdn.microsoft.com/d4e3f631-3852-4cee-8e97-
 
 
 
-<a href="https://msdn.microsoft.com/84cc51e8-78f3-4ee6-bc08-94feff89afb0">BITMAPINFO
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4d6a63a-6d2d-4bd9-9e71-4cd1b5f145a4">SetMapMode
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3e5a48dc-ccd5-41ea-a24b-5c40213abf38">SetStretchBltMode
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode
       </a>
  
 

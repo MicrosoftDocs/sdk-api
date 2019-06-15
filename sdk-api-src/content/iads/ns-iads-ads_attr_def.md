@@ -67,7 +67,7 @@ The null-terminated Unicode string that contains the name of the attribute.
 
 ### -field dwADsType
 
-Data type of the attribute as defined by  <a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a>.
+Data type of the attribute as defined by  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>.
 
 
 ### -field dwMinRange
@@ -99,11 +99,11 @@ In ADSI, attributes and properties are used interchangeably.
 
 
 
-<a href="https://msdn.microsoft.com/3ee0e469-9932-4135-8798-27d318011786">ADSI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e601bae5-80bf-43f5-846f-11327889419a">ADSTYPEENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001">ADSTYPEENUM</a>
  
 
  

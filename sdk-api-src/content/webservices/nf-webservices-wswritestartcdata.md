@@ -53,7 +53,7 @@ This operation starts a CDATA section in the writer.
       CDATA sections cannot be nested and cannot appear at the root of the document.  <div class="alert"><b>Note</b>  Some encodings do not support CDATA
         and will generate text instead.
       </div>
-<div> </div>The CDATA section is completed by calling <a href="https://msdn.microsoft.com/7b8c27b8-4540-4d47-9622-904428233d30">WsWriteEndCData</a>.
+<div> </div>The CDATA section is completed by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendcdata">WsWriteEndCData</a>.
       
 
 
@@ -64,13 +64,13 @@ This operation starts a CDATA section in the writer.
 
 ### -param writer [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> object to which the CDATA section is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the CDATA section is written.  The pointer must reference a valid <b>XML Writer</b> object.
                 
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

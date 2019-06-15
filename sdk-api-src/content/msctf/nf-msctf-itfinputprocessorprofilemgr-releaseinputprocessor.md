@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfInputProcessorProfileMgr::ReleaseInputProcessor</b> method deactivates the profiles belonging to the text services of the specified CLSID and releases the instance of  <a href="https://msdn.microsoft.com/fc762a6f-8d15-4082-9588-fc77fa565549">ITfTextInputProcessorEx</a> interface.
+The <b>ITfInputProcessorProfileMgr::ReleaseInputProcessor</b> method deactivates the profiles belonging to the text services of the specified CLSID and releases the instance of  <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itftextinputprocessorex">ITfTextInputProcessorEx</a> interface.
 
 
 ## -parameters

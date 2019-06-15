@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMSVidGraphSegmentContainer</b> interface is exposed by the Video Control and contains one supported method, <a href="https://msdn.microsoft.com/en-us/library/Dd694567(v=VS.85).aspx">get_Graph</a>, which obtains a pointer to the Filter Graph Manager. 
+The <b>IMSVidGraphSegmentContainer</b> interface is exposed by the Video Control and contains one supported method, <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph">get_Graph</a>, which obtains a pointer to the Filter Graph Manager. 
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGraphSegmentContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMSVidGraphSegmentContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGraphSegmentContainer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMSVidGraphSegmentContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidGraphSegmentContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694567(v=VS.85).aspx">get_Graph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgraphsegmentcontainer-get_graph">get_Graph</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the Filter Graph Manager.
@@ -98,7 +98,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

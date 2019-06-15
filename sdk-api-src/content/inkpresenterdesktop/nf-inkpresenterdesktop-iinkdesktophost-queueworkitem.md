@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Add an ink operation to a work queue for execution on the <a href="https://msdn.microsoft.com/7a577536-405b-400d-89bc-c3b3894b448d">IInkDesktopHost</a> thread.
+Add an ink operation to a work queue for execution on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkdesktophost">IInkDesktopHost</a> thread.
 
 The app is responsible for synchronizing the work queue with the UI thread.
 
@@ -61,7 +61,7 @@ The app is responsible for synchronizing the work queue with the UI thread.
 
 ### -param workItem [in]
 
-An <a href="https://msdn.microsoft.com/812026bf-74d0-49c2-851c-de64a6417bff">IInkHostWorkItem</a> object representing an ink operation.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkhostworkitem">IInkHostWorkItem</a> object representing an ink operation.
 
 
 ## -returns
@@ -82,7 +82,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://msdn.microsoft.com/7a577536-405b-400d-89bc-c3b3894b448d">IInkDesktopHost</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkdesktophost">IInkDesktopHost</a>
 
 
 
@@ -90,7 +90,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://msdn.microsoft.com/3DA4F2D2-5405-42A1-9ED9-3A87BCD84C43">Pen and stylus interactions</a>
+<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 

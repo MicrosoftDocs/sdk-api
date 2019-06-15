@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Compares two <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
+Compares two <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> objects for equality.  The operation performs an ordinal comparison
         of the character values contained by the String objects.
       
 
@@ -73,7 +73,7 @@ A pointer to the second string to compare.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

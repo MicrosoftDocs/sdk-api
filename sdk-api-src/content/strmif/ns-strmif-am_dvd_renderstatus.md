@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the <a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
+The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
 
 
 
@@ -97,7 +97,7 @@ Number of streams that failed to render.
 
 ### -field dwFailedStreamsFlag
 
-Combination of <a href="https://msdn.microsoft.com/3fb3e57f-7c0b-4a49-b83d-798c84b2d5d1">AM_DVD_STREAM_FLAGS</a> flags indicating which streams failed.
+Combination of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a> flags indicating which streams failed.
 
 
 ## -see-also
@@ -105,11 +105,11 @@ Combination of <a href="https://msdn.microsoft.com/3fb3e57f-7c0b-4a49-b83d-798c8
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">IDvdGraphBuilder::RenderDvdVideoVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a>
  
 
  

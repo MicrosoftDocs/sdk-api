@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of <b>SERVICE_STOPPED</b> to the service controller.
 
-To configure additional circumstances under which the failure actions are to be executed, see <a href="https://msdn.microsoft.com/49736b26-9565-4d56-abcd-1585b692ff12">SERVICE_FAILURE_ACTIONS_FLAG</a>.
+To configure additional circumstances under which the failure actions are to be executed, see <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ This member can specify a localized string using the following format:
 
 @[<i>path</i>\]<i>dllname</i>,-<i>strID</i>
 
-The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="https://msdn.microsoft.com/76ffc77f-a1bc-4e01-858f-4a76563a2bbc">RegLoadMUIString</a>.
+The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Localized strings are not supported until Windows Vista.
 
@@ -87,7 +87,7 @@ The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>pa
 ### -field lpCommand
 
 The command line of the process for the 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function to execute in response to the <b>SC_ACTION_RUN_COMMAND</b> service controller action. This process runs under the same account as the service. 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function to execute in response to the <b>SC_ACTION_RUN_COMMAND</b> service controller action. This process runs under the same account as the service. 
 
 
 
@@ -123,7 +123,7 @@ If this value is 0, but <b>lpsaActions</b> is not NULL, the reset period and arr
 ### -field lpsaActions
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/e2c355a6-affe-46bf-a3e6-f8c420422d46">SC_ACTION</a> structures. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_sc_action">SC_ACTION</a> structures. 
 
 
 
@@ -157,23 +157,23 @@ The service control manager counts the number of times each service has failed s
 
 
 
-<a href="https://msdn.microsoft.com/6e5b79ed-52e1-460e-b076-01afbd08775c">ChangeServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb090e59-aeff-4420-bb7c-912a4911006f">QueryServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c355a6-affe-46bf-a3e6-f8c420422d46">SC_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_sc_action">SC_ACTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/49736b26-9565-4d56-abcd-1585b692ff12">SERVICE_FAILURE_ACTIONS_FLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
  
 
  

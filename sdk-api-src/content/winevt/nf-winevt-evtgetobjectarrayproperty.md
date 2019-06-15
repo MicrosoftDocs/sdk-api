@@ -59,12 +59,12 @@ Gets a provider metadata property from the specified object in the array.
 
 ### -param ObjectArray [in]
 
-A handle to an array of objects that the <a href="https://msdn.microsoft.com/f85a46ef-873c-4dd9-8b5c-3763fd67fc06">EvtGetPublisherMetadataProperty</a> function returns.
+A handle to an array of objects that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a> function returns.
 
 
 ### -param PropertyId [in]
 
-The property identifier of the metadata property that you want to get from the  specified object. For possible values, see the Remarks section of <a href="https://msdn.microsoft.com/10f4917d-68a1-4e90-ad7f-6bc19471ec38">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>.
+The property identifier of the metadata property that you want to get from the  specified object. For possible values, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>.
 
 
 ### -param ArrayIndex [in]
@@ -84,7 +84,7 @@ The size of the <i>PropertyValueBuffer</i> buffer, in bytes.
 
 ### -param PropertyValueBuffer [in]
 
-A caller-allocated buffer that will receive the metadata property. The buffer contains an <a href="https://msdn.microsoft.com/4b0f338b-0b66-4ba5-9e29-b15afe15a2d3">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
+A caller-allocated buffer that will receive the metadata property. The buffer contains an <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ns-winevt-_evt_variant">EVT_VARIANT</a> object. You can set this parameter to <b>NULL</b> to determine the required buffer size.
 
 
 ### -param PropertyValueBufferUsed [out]
@@ -121,7 +121,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The function failed. To get the error code, call the <a href="https://msdn.micro
 
 
 
-When you call the <a href="https://msdn.microsoft.com/f85a46ef-873c-4dd9-8b5c-3763fd67fc06">EvtGetPublisherMetadataProperty</a> function with the following IDs, the function returns a handle to an array of objects of that type:
+When you call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a> function with the following IDs, the function returns a handle to an array of objects of that type:
 
 <ul>
 <li>EvtPublisherMetadataChannelReferences</li>
@@ -144,14 +144,14 @@ When you call the <a href="https://msdn.microsoft.com/f85a46ef-873c-4dd9-8b5c-37
 <li>EvtPublisherMetadataOpcodes</li>
 <li>EvtPublisherMetadataKeywords</li>
 </ul>
-For example, if you pass <b>EvtPublisherMetadataKeywords</b> to <a href="https://msdn.microsoft.com/f85a46ef-873c-4dd9-8b5c-3763fd67fc06">EvtGetPublisherMetadataProperty</a>, the function returns a handle to an array of keyword objects.
+For example, if you pass <b>EvtPublisherMetadataKeywords</b> to <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a>, the function returns a handle to an array of keyword objects.
 
-To determine the size of the array, call the <a href="https://msdn.microsoft.com/fc4043ac-48eb-400b-8cf6-b83cbbb2765c">EvtGetObjectArraySize</a> function.
+To determine the size of the array, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetobjectarraysize">EvtGetObjectArraySize</a> function.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://msdn.microsoft.com/c9442dc1-3599-4e81-a144-943c2843a2f7">Getting a Provider's Metadata</a>.
+For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-a-provider-s-metadata-">Getting a Provider's Metadata</a>.
 
 <div class="code"></div>
 
@@ -162,11 +162,11 @@ For an example that shows how to use this function, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/10f4917d-68a1-4e90-ad7f-6bc19471ec38">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-_evt_publisher_metadata_property_id">EVT_PUBLISHER_METADATA_PROPERTY_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/f85a46ef-873c-4dd9-8b5c-3763fd67fc06">EvtGetPublisherMetadataProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a>
  
 
  

@@ -65,7 +65,7 @@ The <b>GetRecordCentreFrequency</b> method returns the frequency at a specified 
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the frequency to return. To get the number of frequencies in the descriptor, call <a href="https://msdn.microsoft.com/9bce2abf-2673-49c6-8b87-7c8825544156">IDvbFrequencyListDescriptor::GetCountOfRecords</a>.
+Zero-based index of the frequency to return. To get the number of frequencies in the descriptor, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbfrequencylistdescriptor-getcountofrecords">IDvbFrequencyListDescriptor::GetCountOfRecords</a>.
 
 
 ### -param pdwVal [out]
@@ -106,7 +106,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/fadf7114-b9e4-4f61-816b-10725b83169a">IDvbFrequencyListDescriptor Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbfrequencylistdescriptor">IDvbFrequencyListDescriptor Interface</a>
  
 
  

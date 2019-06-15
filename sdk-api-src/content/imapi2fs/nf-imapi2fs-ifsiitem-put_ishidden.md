@@ -110,11 +110,11 @@ Value: 0x8007000E
 
 
 
-<a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/1aec5bbc-d602-40c1-80e4-cad9dd8a2ab5">IFsiItem::get_IsHidden</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_ishidden">IFsiItem::get_IsHidden</a>
  
 
  

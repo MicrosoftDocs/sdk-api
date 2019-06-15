@@ -76,7 +76,7 @@ Changes the password for the Cluster service user account on all available clust
 ### -param dwFlags [in, optional]
 
 Optional bitfield of values enumerated from the 
-       <a href="https://msdn.microsoft.com/8d202e08-c8ff-4bc6-a1ea-6bdb7ba4937e">CLUSTER_SET_PASSWORD_FLAGS</a> enumeration 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc512182(v=vs.85)">CLUSTER_SET_PASSWORD_FLAGS</a> enumeration 
        containing flags that describe how the password update is to be applied to the cluster.
 
 By default (<i>dwFlags</i> = 0), the function will not proceed unless all cluster nodes 
@@ -91,13 +91,13 @@ Causes the
          function to proceed even if all nodes are not available. The function will attempt to change the password on 
          as many nodes as it can, but any nodes not in the <b>ClusterNodeUp</b> or 
          <b>ClusterNodePaused</b> states (see 
-         <a href="https://msdn.microsoft.com/94c83582-3d99-4a20-ad58-1af4e8190781">GetClusterNodeState</a>) will not be updated.
+         <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>) will not be updated.
 
 
 ### -param lpReturnStatusBuffer [out]
 
 Pointer to an output buffer that receives an array of 
-       <a href="https://msdn.microsoft.com/a9e0e99f-b57b-4bf1-93d5-6f09d907aed1">CLUSTER_SET_PASSWORD_STATUS</a> structures 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-cluster_set_password_status">CLUSTER_SET_PASSWORD_STATUS</a> structures 
        describing the result of the password update for each cluster node. If this parameter is not 
        <b>NULL</b> and the buffer is not large enough to hold the resulting data, the function 
        returns <b>ERROR_MORE_DATA</b> and sets <i>lpcbReturnStatusBufferSize</i> 
@@ -121,7 +121,7 @@ On input, pointer to a value specifying the size (in bytes) of the output buffer
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
+      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
       codes.
 
 <table>
@@ -192,15 +192,15 @@ Do not call
 
 
 
-<a href="https://msdn.microsoft.com/8d202e08-c8ff-4bc6-a1ea-6bdb7ba4937e">CLUSTER_SET_PASSWORD_FLAGS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc512182(v=vs.85)">CLUSTER_SET_PASSWORD_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9e0e99f-b57b-4bf1-93d5-6f09d907aed1">CLUSTER_SET_PASSWORD_STATUS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-cluster_set_password_status">CLUSTER_SET_PASSWORD_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Cluster Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
  
 
  

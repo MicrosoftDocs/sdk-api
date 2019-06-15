@@ -56,7 +56,7 @@ Triggers tasks for console connect or disconnect, remote connect or disconnect, 
 
 
 
-When reading or writing your own XML for a task, a session state change trigger is specified using the <a href="https://msdn.microsoft.com/38b0da3c-205f-48c5-83e6-ff7c432c02b9">SessionStateChangeTrigger</a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, a session state change trigger is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-sessionstatechangetrigger-triggergroup-element">SessionStateChangeTrigger</a> element of the Task Scheduler schema.
 
 
 
@@ -66,15 +66,15 @@ When reading or writing your own XML for a task, a session state change trigger 
 
 
 
-<a href="https://msdn.microsoft.com/165297c1-704b-4ab3-a9e3-4aa3f10e07b1">ITrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/5985ff67-3aa2-4ade-9d53-da4d640f5f6e">ITriggerCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/70780fca-ba97-42b8-bc00-867c2761953c">ITriggerCollection::Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create">ITriggerCollection::Create</a>
  
 
  

@@ -99,13 +99,13 @@ Retrieves the autohide and always-on-top states of the Windows taskbar.
 
 #### ABM_GETTASKBARPOS (0x00000005)
 
-Retrieves the bounding rectangle of the Windows taskbar. Note that this applies only to the system taskbar. Other objects, particularly toolbars supplied with third-party software, also can be present. As a result, some of the screen area not covered by the Windows taskbar might not be visible to the user. To retrieve the area of the screen not covered by both the taskbar and other app bars—the working area available to your application—, use the <a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a> function.
+Retrieves the bounding rectangle of the Windows taskbar. Note that this applies only to the system taskbar. Other objects, particularly toolbars supplied with third-party software, also can be present. As a result, some of the screen area not covered by the Windows taskbar might not be visible to the user. To retrieve the area of the screen not covered by both the taskbar and other app bars—the working area available to your application—, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> function.
 
 
 
 #### ABM_ACTIVATE (0x00000006)
 
-Notifies the system to activate or deactivate an appbar. The <b>lParam</b> member of the <a href="https://msdn.microsoft.com/cf86fe15-4beb-49b7-b73e-2ad61cedc3f8">APPBARDATA</a> pointed to by <i>pData</i> is set to <b>TRUE</b> to activate or <b>FALSE</b> to deactivate.
+Notifies the system to activate or deactivate an appbar. The <b>lParam</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_appbardata">APPBARDATA</a> pointed to by <i>pData</i> is set to <b>TRUE</b> to activate or <b>FALSE</b> to deactivate.
 
 
 
@@ -148,7 +148,7 @@ Notifies the system when an appbar's position has changed.
 
 Type: <b>PAPPBARDATA</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/cf86fe15-4beb-49b7-b73e-2ad61cedc3f8">APPBARDATA</a> structure. The content of the structure on entry and on exit depends on the value set in the <i>dwMessage</i> parameter. See the individual message pages for specifics.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_appbardata">APPBARDATA</a> structure. The content of the structure on entry and on exit depends on the value set in the <i>dwMessage</i> parameter. See the individual message pages for specifics.
 
 
 ## -returns
@@ -167,55 +167,55 @@ This function returns a message-dependent value. For more information, see the W
 
 
 
-<a href="https://msdn.microsoft.com/16011302-7c2d-4c34-9953-51cceb96e4b3">ABM_ACTIVATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-activate">ABM_ACTIVATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/545dd1d9-8cbb-4ff3-b871-4908ecac56db">ABM_GETAUTOHIDEBAR</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/conversion-functions-bumper">ABM_GETAUTOHIDEBAR</a>
 
 
 
-<a href="https://msdn.microsoft.com/538EA230-06DF-4441-A6AA-9DD613521BE1">ABM_GETAUTOHIDEBAREX</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-getautohidebarex">ABM_GETAUTOHIDEBAREX</a>
 
 
 
-<a href="https://msdn.microsoft.com/18e16752-16be-492b-a4fa-c951e18dc86c">ABM_GETSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/creating-shell-data-source-objects-and-extending-the-shell-namespace-bumper">ABM_GETSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8072bb2d-05e6-4baa-a7f4-1377b94fdd45">ABM_GETTASKBARPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-gettaskbarpos">ABM_GETTASKBARPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1da9db13-6fdc-44b3-9985-de32d572675a">ABM_NEW</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-new">ABM_NEW</a>
 
 
 
-<a href="https://msdn.microsoft.com/061a30fb-a68a-464e-ad8c-0bda672b57d9">ABM_QUERYPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-querypos">ABM_QUERYPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3da73a52-3dbb-4133-a9bd-86540e1c4154">ABM_REMOVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/customizing-file-types-bumper">ABM_REMOVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cbd6c9c-e83f-41f8-91ed-81afaa24f524">ABM_SETAUTOHIDEBAR</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/dialogs-bumper">ABM_SETAUTOHIDEBAR</a>
 
 
 
-<a href="https://msdn.microsoft.com/C437727C-3FF6-4598-9D81-A39FCC2EF1C4">ABM_SETAUTOHIDEBAREX</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-setautohidebarex">ABM_SETAUTOHIDEBAREX</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3c56278-b9a2-4e08-bf98-7b3e4c8bd082">ABM_SETPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-setpos">ABM_SETPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a60e156d-19ef-49b9-83fc-138d1a2169f2">ABM_SETSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/drag-and-drop-handlers-and-custom-clipboard-format-bumper">ABM_SETSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ca51f5f-b6cf-4f2c-98f4-69c992679320">ABM_WINDOWPOSCHANGED</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/abm-windowposchanged">ABM_WINDOWPOSCHANGED</a>
  
 
  

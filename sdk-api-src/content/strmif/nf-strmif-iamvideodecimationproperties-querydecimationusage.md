@@ -63,7 +63,7 @@ The <code>QueryDecimationUsage</code> method retrieves the current decimation st
 
 ### -param lpUsage [out]
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/4c39f7f9-2d9c-4db5-9a2b-cf221ddedf80">DECIMATION_USAGE</a> that receives the decimation setting.
+Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_decimation_usage">DECIMATION_USAGE</a> that receives the decimation setting.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd435eff-a4bc-40b3-8aa7-50d78d17e4ce">IAMVideoDecimationProperties Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties Interface</a>
  
 
  

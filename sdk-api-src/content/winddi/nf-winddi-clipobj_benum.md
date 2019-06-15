@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CLIPOBJ_bEnum</b> function enumerates a batch of rectangles from a specified <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">clip region</a>; a prior call to <a href="https://msdn.microsoft.com/e719f856-04a9-480d-b79a-df2307a48162">CLIPOBJ_cEnumStart</a> determines the order of enumeration.
+The <b>CLIPOBJ_bEnum</b> function enumerates a batch of rectangles from a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a>; a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> determines the order of enumeration.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CLIPOBJ_bEnum</b> function enumerates a batch of rectangles from a specif
 
 ### -param pco [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a> structure describing the clip region that is to be enumerated.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a> structure describing the clip region that is to be enumerated.
 
 
 ### -param cj [in]
@@ -69,7 +69,7 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pv</i>.
 
 ### -param pul [out]
 
-Pointer to the buffer that will receive data about the clip region in an <a href="https://msdn.microsoft.com/f7b8787f-f383-4cae-970e-8f4eb34b00da">ENUMRECTS</a> structure.
+Pointer to the buffer that will receive data about the clip region in an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_enumrects">ENUMRECTS</a> structure.
 
 
 ## -returns
@@ -110,15 +110,15 @@ The count of objects written to the buffer is written to the buffer itself.
 
 
 
-<a href="https://msdn.microsoft.com/c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63">CLIPOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/e719f856-04a9-480d-b79a-df2307a48162">CLIPOBJ_cEnumStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7b8787f-f383-4cae-970e-8f4eb34b00da">ENUMRECTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_enumrects">ENUMRECTS</a>
  
 
  

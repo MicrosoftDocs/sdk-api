@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDot11AdHocNetwork</b> interface represents an available ad hoc network destination within connection range. Before an application can connect to a network, the network must have been created using <a href="https://msdn.microsoft.com/1d9930b3-7bc4-4015-b096-a21fe01f54f5">IDot11AdHocManager::CreateNetwork</a> and committed using <a href="https://msdn.microsoft.com/45beb340-1c19-4b91-8e5c-8849e690e988">IDot11AdHocManager::CommitCreatedNetwork</a>.
-<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/A649EBBA-1076-4426-9C4D-85AB8C415C66">Wi-Fi Direct</a> instead.</div><div> </div>
+The <b>IDot11AdHocNetwork</b> interface represents an available ad hoc network destination within connection range. Before an application can connect to a network, the network must have been created using <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-createnetwork">IDot11AdHocManager::CreateNetwork</a> and committed using <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanager-commitcreatednetwork">IDot11AdHocManager::CommitCreatedNetwork</a>.
+<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocNetwork</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDot11AdHocNetwork</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocNetwork</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocNetwork</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDot11AdHocNetwork</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3272e0fe-0844-4e02-bd5f-a1e1c656074d">IDot11AdHocNetwork::Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-connect">IDot11AdHocNetwork::Connect</a>
 </td>
 <td align="left" width="63%">
 Connects to a previously created wireless ad hoc network.
@@ -78,7 +78,7 @@ Connects to a previously created wireless ad hoc network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f2c007c-4d24-44d7-be30-0fa7c5fbce4a">IDot11AdHocNetwork::DeleteProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
 </td>
 <td align="left" width="63%">
 Deletes any profile associated with the network.
@@ -87,7 +87,7 @@ Deletes any profile associated with the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5c96776-6bb2-43b0-86b9-c3bc058d5d84">IDot11AdHocNetwork::Disconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-disconnect">IDot11AdHocNetwork::Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects from an ad hoc network.
@@ -96,7 +96,7 @@ Disconnects from an ad hoc network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a7e7a75-b070-4d57-ae88-6bfc3568c3c9">IDot11AdHocNetwork::GetContextGuid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getcontextguid">IDot11AdHocNetwork::GetContextGuid</a>
 </td>
 <td align="left" width="63%">
 Gets the context identifier associated with the network.
@@ -105,7 +105,7 @@ Gets the context identifier associated with the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c14c7fd-625b-48f7-b404-50da0db170f9">IDot11AdHocNetwork::GetInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getinterface">IDot11AdHocNetwork::GetInterface</a>
 </td>
 <td align="left" width="63%">
 Gets the interface associated with a network.
@@ -114,7 +114,7 @@ Gets the interface associated with a network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abd25741-25ad-4109-a07e-4146824695b5">IDot11AdHocNetwork::GetProfileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getprofilename">IDot11AdHocNetwork::GetProfileName</a>
 </td>
 <td align="left" width="63%">
 Gets the profile name associated with the network.
@@ -123,7 +123,7 @@ Gets the profile name associated with the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e5fa757-41fd-4541-a16e-15c2fb66e15a">IDot11AdHocNetwork::GetSecuritySetting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsecuritysetting">IDot11AdHocNetwork::GetSecuritySetting</a>
 </td>
 <td align="left" width="63%">
 Gets the security settings for the network.
@@ -132,7 +132,7 @@ Gets the security settings for the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be31a2ed-c9ba-4894-a295-a88e01639891">IDot11AdHocNetwork::GetSignalQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignalquality">IDot11AdHocNetwork::GetSignalQuality</a>
 </td>
 <td align="left" width="63%">
 Gets the signal quality values associated with the network's radio.
@@ -141,7 +141,7 @@ Gets the signal quality values associated with the network's radio.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a59a8bd-d2eb-48c6-8480-dc4dea335d22">IDot11AdHocNetwork::GetSignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature">IDot11AdHocNetwork::GetSignature</a>
 </td>
 <td align="left" width="63%">
 Gets the unique signature associated with the ad hoc network.
@@ -150,7 +150,7 @@ Gets the unique signature associated with the ad hoc network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1a190a2-038b-4353-8dc9-76950b1da9ff">IDot11AdHocNetwork::GetSSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getssid">IDot11AdHocNetwork::GetSSID</a>
 </td>
 <td align="left" width="63%">
 Gets the SSID of the network.
@@ -159,7 +159,7 @@ Gets the SSID of the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd627a36-92b7-478b-8fd5-c328b8e54924">IDot11AdHocNetwork::GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getstatus">IDot11AdHocNetwork::GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the connection status of the network.
@@ -168,7 +168,7 @@ Gets the connection status of the network.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/252f32ef-0a54-445f-94ca-113a67a3e6dd">IDot11AdHocNetwork::HasProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile">IDot11AdHocNetwork::HasProfile</a>
 </td>
 <td align="left" width="63%">
 Returns a boolean value that specifies whether there is a saved profile associated with the network.
@@ -183,7 +183,7 @@ Returns a boolean value that specifies whether there is a saved profile associat
 
 
 
-<a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
  
 
  

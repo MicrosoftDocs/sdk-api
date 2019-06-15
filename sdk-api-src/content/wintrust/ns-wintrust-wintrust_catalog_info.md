@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>WINTRUST_CATALOG_INFO</b> structure is used when calling 
-<a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> to verify a member of a Microsoft catalog.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a member of a Microsoft catalog.
 
 
 ## -struct-fields
@@ -100,7 +100,7 @@ The size, in bytes, of the value passed in the <b>pbCalculatedFileHash</b> membe
 
 ### -field pcCatalogContext
 
-A pointer to a <a href="https://msdn.microsoft.com/780edddf-1b44-4292-9156-4dfd5100adb8">CTL_CONTEXT</a> structure that represents  a catalog context to be used instead of a catalog file.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_context">CTL_CONTEXT</a> structure that represents  a catalog context to be used instead of a catalog file.
 
 
 ### -field hCatAdmin

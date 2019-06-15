@@ -59,7 +59,7 @@ Implements a set of property names.
 
 ### -field ft
 
-Pointer to the <a href="https://msdn.microsoft.com/d71c0378-0b97-44ea-9f42-e533b93f195e">MI_PropertySetFT</a> function table.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_propertysetft">MI_PropertySetFT</a> function table.
 
 
 ### -field reserved

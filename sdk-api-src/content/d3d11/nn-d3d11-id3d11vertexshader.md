@@ -59,7 +59,7 @@ A vertex-shader interface manages an executable program (a vertex shader) that c
 
 The vertex-shader interface has no methods; use HLSL to implement your shader functionality. All shaders are implemented from a common set of features referred to as the common-shader core..
 
-To create a vertex shader interface, call <a href="https://msdn.microsoft.com/06e5105a-ff7e-430a-ab9a-2aefb161894c">ID3D11Device::CreateVertexShader</a>. Before using a vertex shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/d6207779-7477-4e74-beb8-065949abce06">ID3D11DeviceContext::VSSetShader</a>.
+To create a vertex shader interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createvertexshader">ID3D11Device::CreateVertexShader</a>. Before using a vertex shader you must bind it to the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetshader">ID3D11DeviceContext::VSSetShader</a>.
 
 This interface is defined in D3D11.h.
 
@@ -71,11 +71,11 @@ This interface is defined in D3D11.h.
 
 
 
-<a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
  
 
  

@@ -65,7 +65,7 @@ An RVA to a
 
 ### -field InfoType
 
-The object information type. This member is one of the values from the <a href="https://msdn.microsoft.com/en-us/library/ms680376(v=VS.85).aspx">MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE</a> enumeration.
+The object information type. This member is one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_handle_object_information_type">MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE</a> enumeration.
 
 
 ### -field SizeOfInfo
@@ -78,7 +78,7 @@ The size of the information that follows this member, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680373(v=VS.85).aspx">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_descriptor_2">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
  
 
  

@@ -59,12 +59,12 @@ The <b>SetupDiDeleteDevRegKey</b> function deletes specified user-accessible reg
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
 
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 
 ### -param Scope [in]
@@ -101,13 +101,13 @@ The type of registry storage key to delete. Can be one of the following values:
 
 #### DIREG_DEV
 
-Delete the device's <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware key</a>.
+Delete the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware key</a>.
 
 
 
 #### DIREG_DRV
 
-Delete the device's <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a>.
+Delete the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">software key</a>.
 
 
 
@@ -141,11 +141,11 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 
 
-<a href="https://msdn.microsoft.com/8c07db95-eb59-4e01-851d-f6a8da169625">SetupDiCreateDevRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya">SetupDiCreateDevRegKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/59fc7202-0e03-4eaa-b3ca-7d55be767b1a">SetupDiGetHwProfileList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
  
 
  

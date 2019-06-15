@@ -64,7 +64,7 @@ The value to be converted.
 
 ### -param flag
 
-The flag to be set. The value is one of the <a href="https://msdn.microsoft.com/CC3F8E21-F4FF-495C-922E-A3708D3F2093">Pointer_Flags</a> constants.
+The flag to be set. The value is one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/pointer-flags-contants">Pointer_Flags</a> constants.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ The flag to be set. The value is one of the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/2324DCD0-DAE1-4AC2-AB36-23D114803138">Macros</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/macros">Macros</a>
  
 
  

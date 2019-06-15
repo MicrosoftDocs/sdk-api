@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/03A374D9-BED4-49ED-B90E-21193909C8AB">Saturation effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/saturation">Saturation effect</a>.
 
 
 ## -enum-fields

@@ -54,7 +54,7 @@ Implements methods that retrieve program and system information protocol (PSIP) 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDASiParser</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPBDASiParser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPBDASiParser</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPBDASiParser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPBDASiParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab7df40a-6a1c-4017-bece-618fb75797cf">GetEIT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdasiparser-geteit">GetEIT</a>
 </td>
 <td align="left" width="63%">
 Retrieves the event information table (EIT).
@@ -78,7 +78,7 @@ Retrieves the event information table (EIT).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d6848f2-6fcd-4e7c-b1fc-b8f56e6c65b6">GetServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdasiparser-getservices">GetServices</a>
 </td>
 <td align="left" width="63%">
 Retrieves services from the IPBDA PSIP parser.
@@ -87,7 +87,7 @@ Retrieves services from the IPBDA PSIP parser.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb161e1a-ae10-4d5e-907a-91c7e80c11d8">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbdasiparser-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the IPBDA PSIP parser.

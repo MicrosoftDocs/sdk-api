@@ -50,9 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Contains the automagic hints for a LUN in a <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool</a>.
+Contains the automagic hints for a LUN in a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 
 ## -struct-fields
@@ -180,7 +180,7 @@ The provider configures the LUN so that the drives that contribute to it can be 
 </dl>
 </td>
 <td width="60%">
-The provider allocates a hot spare for the LUN. For more information, see <a href="https://msdn.microsoft.com/2faf2f3f-f459-4e41-9c8e-042c7b72281b">Hot Sparing</a>, <a href="https://msdn.microsoft.com/50ddb9d1-32c9-4fee-bb88-498380a34c85">VDS_DRIVE_FLAG</a>, and <a href="https://msdn.microsoft.com/a421a1c1-a82c-4e07-846c-10aa2082ab86">VDS_DISK_FLAG</a>.
+The provider allocates a hot spare for the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VDS/hot-sparing">Hot Sparing</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_drive_flag">VDS_DRIVE_FLAG</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-_vds_disk_flag">VDS_DISK_FLAG</a>.
 
 </td>
 </tr>
@@ -191,7 +191,7 @@ The provider allocates a hot spare for the LUN. For more information, see <a hre
 </dl>
 </td>
 <td width="60%">
-The provider uses the specified bus type on the LUN. For more information, see <a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_STORAGE_BUS_TYPE</a>.
+The provider uses the specified bus type on the LUN. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ The provider uses the specified bus type on the LUN. For more information, see <
 </dl>
 </td>
 <td width="60%">
-The provider uses a mirrored cache on the LUN. See the <b>VDS_SF_SUPPORTS_MIRRORED_CACHE</b>  value of the <a href="https://msdn.microsoft.com/17a07d21-a10a-4f18-a975-def6db073256">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider uses a mirrored cache on the LUN. See the <b>VDS_SF_SUPPORTS_MIRRORED_CACHE</b>  value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -213,7 +213,7 @@ The provider uses a mirrored cache on the LUN. See the <b>VDS_SF_SUPPORTS_MIRROR
 </dl>
 </td>
 <td width="60%">
-The provider enables read caching on the LUN. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_READ_CACHING_CAPABLE</b> value of the <a href="https://msdn.microsoft.com/17a07d21-a10a-4f18-a975-def6db073256">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables read caching on the LUN. See the <b>VDS_LF_READ_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_READ_CACHING_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -224,7 +224,7 @@ The provider enables read caching on the LUN. See the <b>VDS_LF_READ_CACHE_ENABL
 </dl>
 </td>
 <td width="60%">
-The provider enables write caching on the LUN. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_WRITE_CACHING_CAPABLE</b> value of the <a href="https://msdn.microsoft.com/17a07d21-a10a-4f18-a975-def6db073256">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables write caching on the LUN. See the <b>VDS_LF_WRITE_CACHE_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_WRITE_CACHING_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -235,7 +235,7 @@ The provider enables write caching on the LUN. See the <b>VDS_LF_WRITE_CACHE_ENA
 </dl>
 </td>
 <td width="60%">
-The provider enables media scanning on the LUN. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_MEDIA_SCAN_CAPABLE</b> value of the <a href="https://msdn.microsoft.com/17a07d21-a10a-4f18-a975-def6db073256">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables media scanning on the LUN. See the <b>VDS_LF_MEDIA_SCAN_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_MEDIA_SCAN_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -246,7 +246,7 @@ The provider enables media scanning on the LUN. See the <b>VDS_LF_MEDIA_SCAN_ENA
 </dl>
 </td>
 <td width="60%">
-The provider enables consistency checking on the LUN. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://msdn.microsoft.com/977ee10c-c91f-4510-bf00-6b7d4da6c1c0">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_CONSISTENCY_CHECK_CAPABLE</b> value of the <a href="https://msdn.microsoft.com/17a07d21-a10a-4f18-a975-def6db073256">VDS_SUB_SYSTEM_FLAG</a> enumeration.
+The provider enables consistency checking on the LUN. See the <b>VDS_LF_CONSISTENCY_CHECK_ENABLED</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_lun_flag">VDS_LUN_FLAG</a>  enumeration and the <b>VDS_SF_CONSISTENCY_CHECK_CAPABLE</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_sub_system_flag">VDS_SUB_SYSTEM_FLAG</a> enumeration.
 
 </td>
 </tr>
@@ -258,7 +258,7 @@ The provider enables consistency checking on the LUN. See the <b>VDS_LF_CONSISTE
 
 The maximum size to which the LUN is expected to grow, in bytes. The value can be equal to, greater than, or 
       less than the value specified in the <i>ullSizeInBytes</i> parameter when the 
-      <a href="https://msdn.microsoft.com/17377671-1a30-4aeb-bc89-3c1e3823d3fe">IVdsHwProviderStoragePools::CreateLunInStoragePool</a> method is called.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-createluninstoragepool">IVdsHwProviderStoragePools::CreateLunInStoragePool</a> method is called.
       Some providers use this value to reserve space for the LUN. Providers that are unable to reserve space 
       typically ignore this parameter.
 
@@ -425,7 +425,7 @@ If this member is <b>TRUE</b>, the drives that contribute to the LUN can be phys
 ### -field BusType
 
 A 
-      <a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_STORAGE_BUS_TYPE</a> enumeration value that specifies the bus type for the LUN. Set the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a> enumeration value that specifies the bus type for the LUN. Set the 
       <b>VDS_HINT_BUSTYPE</b> flag in the <b>ullHintMask</b> member to indicate 
       interest in this member.
 
@@ -454,10 +454,10 @@ The rebuild priority for the LUN. The value can range from 0 (lowest priority) t
 
 
 
-The <a href="https://msdn.microsoft.com/17377671-1a30-4aeb-bc89-3c1e3823d3fe">IVdsHwProviderStoragePools::CreateLunInStoragePool</a> method passes 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderstoragepools-createluninstoragepool">IVdsHwProviderStoragePools::CreateLunInStoragePool</a> method passes 
     this structure as a parameter to provide hints for creating a LUN in a storage pool. It is passed as a parameter in the 
-    <a href="https://msdn.microsoft.com/0032dce3-876c-4a02-8e06-203b3f83ca08">IVdsLun2::ApplyHints2</a> method to apply a new set of hints to a 
-    LUN. Further, it is returned by the <a href="https://msdn.microsoft.com/077d200a-2eab-4dbe-b7b9-873061fa2c4b">IVdsLun2::QueryHints2</a> method  to report hints currently applied 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun2-applyhints2">IVdsLun2::ApplyHints2</a> method to apply a new set of hints to a 
+    LUN. Further, it is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun2-queryhints2">IVdsLun2::QueryHints2</a> method  to report hints currently applied 
     to a LUN or LUN plex, respectively.
     
 
@@ -473,11 +473,11 @@ Hints are not directives to implementers. While implementers are in general expe
 
 
 
-<a href="https://msdn.microsoft.com/0032dce3-876c-4a02-8e06-203b3f83ca08">IVdsLun2::ApplyHints2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun2-applyhints2">IVdsLun2::ApplyHints2</a>
 
 
 
-<a href="https://msdn.microsoft.com/077d200a-2eab-4dbe-b7b9-873061fa2c4b">IVdsLun2::QueryHints2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun2-queryhints2">IVdsLun2::QueryHints2</a>
  
 
  

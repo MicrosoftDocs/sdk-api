@@ -54,7 +54,7 @@ Enables two threads to share the same Direct3D 9 device, and provides access to 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDeviceManager9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirect3DDeviceManager9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDeviceManager9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDeviceManager9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDirect3DDeviceManager9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a">CloseDeviceHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-closedevicehandle">CloseDeviceHandle</a>
 </td>
 <td align="left" width="63%">
 Closes a Direct3D device handle.
@@ -78,7 +78,7 @@ Closes a Direct3D device handle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e62a750-3017-4dd7-9fbc-e2c641f6cf10">GetVideoService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice">GetVideoService</a>
 </td>
 <td align="left" width="63%">
 Gets a DirectX Video Acceleration (DXVA) service interface.
@@ -88,7 +88,7 @@ Gets a DirectX Video Acceleration (DXVA) service interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51631747-04af-448e-97cf-25a329d4fbb4">LockDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-lockdevice">LockDevice</a>
 </td>
 <td align="left" width="63%">
 Gives the caller exclusive access to the Direct3D device.
@@ -98,7 +98,7 @@ Gives the caller exclusive access to the Direct3D device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74cd2260-279a-4956-8fce-40f8008b6797">OpenDeviceHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">OpenDeviceHandle</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to the Direct3D device.
@@ -108,7 +108,7 @@ Gets a handle to the Direct3D device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33">ResetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">ResetDevice</a>
 </td>
 <td align="left" width="63%">
 Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
@@ -117,7 +117,7 @@ Sets the Direct3D device or notifies the device manager that the Direct3D device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e97acc5d-1b6a-43ae-a057-9c650d7126ab">TestDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-testdevice">TestDevice</a>
 </td>
 <td align="left" width="63%">
 Tests whether a Direct3D device handle is valid.
@@ -127,7 +127,7 @@ Tests whether a Direct3D device handle is valid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5be74bc-55a2-4c8a-86eb-97b96a4091e7">UnlockDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-unlockdevice">UnlockDevice</a>
 </td>
 <td align="left" width="63%">
 Unlocks the Direct3D device.
@@ -141,13 +141,13 @@ Unlocks the Direct3D device.
 
 
 
-This interface is exposed by the <a href="https://msdn.microsoft.com/d82fd82d-510e-4004-b18b-8f2372e29701">Direct3D Device Manager</a>. To create the Direct3D device manager, call <a href="https://msdn.microsoft.com/b06e9c68-80ee-4997-bcf7-f05879aa5776">DXVA2CreateDirect3DDeviceManager9</a>.
+This interface is exposed by the <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>. To create the Direct3D device manager, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-dxva2createdirect3ddevicemanager9">DXVA2CreateDirect3DDeviceManager9</a>.
 
-To get this interface from the <a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a> (EVR), call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a>. The service GUID is <b>MR_VIDEO_ACCELERATION_SERVICE</b>. For the DirectShow EVR filter, call <b>GetService</b> on the filter's pins.
+To get this interface from the <a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a> (EVR), call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a>. The service GUID is <b>MR_VIDEO_ACCELERATION_SERVICE</b>. For the DirectShow EVR filter, call <b>GetService</b> on the filter's pins.
 
 The Direct3D Device Manager supports Direct3D 9 devices only. It does not support DXGI devices.
 
-Windows Store apps must use <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4ECD-AC78-CF429839486D">IMFDXGIDeviceManager</a> and <a href="https://msdn.microsoft.com/7C91BEB9-53D2-4799-98F8-2B92128E37C3">Direct3D 11 Video APIs</a>. 
+Windows Store apps must use <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> and <a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-apis">Direct3D 11 Video APIs</a>. 
 
 
 
@@ -157,11 +157,11 @@ Windows Store apps must use <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4E
 
 
 
-<a href="https://msdn.microsoft.com/d82fd82d-510e-4004-b18b-8f2372e29701">Direct3D Device Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

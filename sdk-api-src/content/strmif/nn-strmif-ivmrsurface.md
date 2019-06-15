@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IVMRSurface</code> interface is implemented on the media samples used by the <a href="https://msdn.microsoft.com/c83e6c50-76f2-4aeb-944b-5b244c6bf776">Video Mixing Renderer Filter 7</a> (VMR-7). Filters can use this interface to access the underlying DirectDraw surface on which the media sample is based. Filters must always lock and unlock the surface using the methods available on this interface. Filters must never call lock or unlock directly on the DirectDraw surface interface returned from the <a href="https://msdn.microsoft.com/2fba7818-6395-47d3-98b3-347f1d4a7c6f">GetSurface</a> method. Applications do not use this interface.
+The <code>IVMRSurface</code> interface is implemented on the media samples used by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). Filters can use this interface to access the underlying DirectDraw surface on which the media sample is based. Filters must always lock and unlock the surface using the methods available on this interface. Filters must never call lock or unlock directly on the DirectDraw surface interface returned from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurface-getsurface">GetSurface</a> method. Applications do not use this interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurface</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVMRSurface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurface</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRSurface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IVMRSurface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fba7818-6395-47d3-98b3-347f1d4a7c6f">GetSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurface-getsurface">GetSurface</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attached DirectDraw surface interface.
@@ -82,7 +82,7 @@ Retrieves the attached DirectDraw surface interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/690194c2-2f40-414f-9130-f2f9c44fe71e">IsSurfaceLocked</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurface-issurfacelocked">IsSurfaceLocked</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the DirectDraw surface attached to this media sample is locked.
@@ -91,7 +91,7 @@ Indicates whether the DirectDraw surface attached to this media sample is locked
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/119a6983-3639-4047-b8b4-7a8b0cb5583d">LockSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurface-locksurface">LockSurface</a>
 </td>
 <td align="left" width="63%">
 Locks the attached DirectDraw surface.
@@ -100,7 +100,7 @@ Locks the attached DirectDraw surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6acaf96-925c-46b9-8d56-11d94f3dbda3">UnlockSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurface-unlocksurface">UnlockSurface</a>
 </td>
 <td align="left" width="63%">
 Unlocks the attached DirectDraw surface.
@@ -115,7 +115,7 @@ Unlocks the attached DirectDraw surface.
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

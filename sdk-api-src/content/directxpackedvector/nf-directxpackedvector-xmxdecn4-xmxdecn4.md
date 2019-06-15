@@ -52,7 +52,7 @@ ms.custom: 19H1
 Default constructor for <code>XMXDECN4</code>.
     
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4 </a>.
+Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4 </a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -81,11 +81,11 @@ Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee4214
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415544(v=VS.85).aspx">XMXDECN4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdecn4-ctor">XMXDECN4 Constructors</a>
  
 
  

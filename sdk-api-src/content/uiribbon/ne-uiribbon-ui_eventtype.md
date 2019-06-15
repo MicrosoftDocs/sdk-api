@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the types of events associated with a <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a>.
+Identifies the types of events associated with a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a>.
 
 
 ## -enum-fields
@@ -59,27 +59,27 @@ Identifies the types of events associated with a <a href="https://msdn.microsoft
 
 ### -field UI_EVENTTYPE_ApplicationMenuOpened
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371601(v=VS.85).aspx">ApplicationMenu</a> opened.
+The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-applicationmenu">ApplicationMenu</a> opened.
 
 
 ### -field UI_EVENTTYPE_RibbonMinimized
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> minimized.
+The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> minimized.
 
 
 ### -field UI_EVENTTYPE_RibbonExpanded
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> expanded.
+The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> expanded.
 
 
 ### -field UI_EVENTTYPE_ApplicationModeSwitched
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd940486(v=VS.85).aspx">application mode</a> changed.
+The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-applicationmodes">application mode</a> changed.
 
 
 ### -field UI_EVENTTYPE_TabActivated
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd316894(v=VS.85).aspx">Tab</a> activated.
+A <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-tab">Tab</a> activated.
 
 
 ### -field UI_EVENTTYPE_MenuOpened
@@ -89,23 +89,23 @@ A menu opened.
 
 ### -field UI_EVENTTYPE_CommandExecuted
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> executed.
+A <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> executed.
 
 
 ### -field UI_EVENTTYPE_TooltipShown
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> tooltip displayed.
+A <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command">Command</a> tooltip displayed.
 
 
 ## -remarks
 
 
 
-<b>UI_EVENTTYPE_TabActivated</b> is fired for both core tabs and contextual tabs; the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> event system does not distinguish between the two.
+<b>UI_EVENTTYPE_TabActivated</b> is fired for both core tabs and contextual tabs; the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> event system does not distinguish between the two.
 
 <b>UI_EVENTTYPE_MenuOpened</b> and <b>UI_EVENTTYPE_MenuClosed</b> are fired when either a regular menu or a gallery menu is opened or closed.
 
-No event is fired when the <a href="https://msdn.microsoft.com/en-us/library/Dd371713(v=VS.85).aspx">QuickAccessToolbar</a> menu is opened or closed.
+No event is fired when the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-quickaccesstoolbar">QuickAccessToolbar</a> menu is opened or closed.
 
 
 
@@ -116,15 +116,15 @@ No event is fired when the <a href="https://msdn.microsoft.com/en-us/library/Dd3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BE6F914-C57D-4A8F-A286-C47BFD48B310">OnUIEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent">OnUIEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/EA278262-8CA7-42A3-9F66-0C7B4D3AA525">UI_EVENTLOCATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventlocation">UI_EVENTLOCATION</a>
  
 
  

@@ -89,11 +89,11 @@ If the game is running in an emulation mode, the type of device being emulated i
 
 
 
-<a href="https://msdn.microsoft.com/0D5A6358-0F82-4414-BD17-BDE22EDBBB15">GAMING_DEVICE_MODEL_INFORMATION structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gamingdeviceinformation/ns-gamingdeviceinformation-gaming_device_model_information">GAMING_DEVICE_MODEL_INFORMATION structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf210289-5963-4327-828b-98a0d14b5bfa">Gaming Device Information</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gamingdvcinfo/gaming-device-information-portal">Gaming Device Information</a>
  
 
  

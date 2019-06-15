@@ -59,12 +59,12 @@ The <b>FWPM_CLASSIFY_OPTION0</b> structure is used to define unicast and multica
 
 ### -field type
 
-An <a href="https://msdn.microsoft.com/5c757bf6-a4ea-42f0-ad87-74855703a041">FWP_CLASSIFY_OPTION_TYPE</a> value.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type_">FWP_CLASSIFY_OPTION_TYPE</a> value.
 
 
 ### -field value
 
-An <a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0_">FWP_VALUE0</a> structure.
 
 
 ## -remarks
@@ -126,7 +126,7 @@ The following table lists possible values for the members of a <b>FWPM_CLASSIFY_
 </table>
  
 
-<b>FWPM_CLASSIFY_OPTION0</b> is a specific implementation of FWPM_CLASSIFY_OPTION. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_CLASSIFY_OPTION0</b> is a specific implementation of FWPM_CLASSIFY_OPTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -136,19 +136,19 @@ The following table lists possible values for the members of a <b>FWPM_CLASSIFY_
 
 
 
-<a href="https://msdn.microsoft.com/5d1f7807-4188-4a57-83fc-99683254e3a5">FWPM_CLASSIFY_OPTIONS0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0_">FWPM_CLASSIFY_OPTIONS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c757bf6-a4ea-42f0-ad87-74855703a041">FWP_CLASSIFY_OPTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_classify_option_type_">FWP_CLASSIFY_OPTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3ffe19b-2c9b-4c7b-82c1-f9b846546212">FWP_VALUE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0_">FWP_VALUE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

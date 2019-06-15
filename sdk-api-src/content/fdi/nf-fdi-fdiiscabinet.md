@@ -59,17 +59,17 @@ The <b>FDIIsCabinet</b> function determines whether a file is a cabinet and, if 
 
 ### -param hfdi [in]
 
-A valid FDI context handle returned  by <a href="https://msdn.microsoft.com/90634725-b7a8-4369-8a91-684debee9548">FDICreate</a>.
+A valid FDI context handle returned  by <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>.
 
 
 ### -param hf [in]
 
-An application-defined value to keep track of the opened file. This value must be of the same type as values used by the File I/O functions passed to <a href="https://msdn.microsoft.com/90634725-b7a8-4369-8a91-684debee9548">FDICreate</a>.
+An application-defined value to keep track of the opened file. This value must be of the same type as values used by the File I/O functions passed to <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>.
 
 
 ### -param pfdici [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1">FDICABINETINFO</a> structure that receives the cabinet details, in the event the file is actually a cabinet.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fdi/ns-fdi-fdicabinetinfo">FDICABINETINFO</a> structure that receives the cabinet details, in the event the file is actually a cabinet.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Pointer to an <a href="https://msdn.microsoft.com/fde1a2ca-60cd-4a4d-9872-681e2f
 
 If the file is a cabinet, the function returns <b>TRUE</b> ; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FDI context.
+Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
 
 
 
@@ -88,15 +88,15 @@ Extended error information is provided in the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1">FDICABINETINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/ns-fdi-fdicabinetinfo">FDICABINETINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/90634725-b7a8-4369-8a91-684debee9548">FDICreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/c923b0a5-1a8d-42aa-bd05-0d318199756d">FDITruncateCabinet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fditruncatecabinet">FDITruncateCabinet</a>
  
 
  

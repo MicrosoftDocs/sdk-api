@@ -73,7 +73,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -82,7 +82,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-To destroy a window, an application must use the <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a> function. 
+To destroy a window, an application must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a> function. 
 
 
 
@@ -92,7 +92,7 @@ To destroy a window, an application must use the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632671(v=VS.85).aspx">ArrangeIconicWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-arrangeiconicwindows">ArrangeIconicWindows</a>
 
 
 
@@ -100,15 +100,15 @@ To destroy a window, an application must use the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633527(v=VS.85).aspx">IsIconic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633535(v=VS.85).aspx">OpenIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openicon">OpenIcon</a>
 
 
 
@@ -116,7 +116,7 @@ To destroy a window, an application must use the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

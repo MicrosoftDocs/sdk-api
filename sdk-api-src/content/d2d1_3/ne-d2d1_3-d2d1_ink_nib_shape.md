@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the appearance of the ink nib (pen tip) as part of an <a href="https://msdn.microsoft.com/81B9E108-D0A6-4F7E-8BE9-76A570B1D050">D2D1_INK_STYLE_PROPERTIES</a> structure.
+Specifies the appearance of the ink nib (pen tip) as part of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ns-d2d1_3-d2d1_ink_style_properties">D2D1_INK_STYLE_PROPERTIES</a> structure.
         
 
 

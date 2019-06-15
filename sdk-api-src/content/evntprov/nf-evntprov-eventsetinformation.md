@@ -66,12 +66,12 @@ Performs operations on a registration
 Type: <b>REGHANDLE</b>
 
 Registration handle returned by 
-      <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 
 ### -param InformationClass [in]
 
-Type: <b><a href="https://msdn.microsoft.com/76ac2b93-d5df-4504-b36d-1530bbb12ab4">EVENT_INFO_CLASS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ne-evntprov-_event_info_class">EVENT_INFO_CLASS</a></b>
 
 Type of operation to be performed on the registration object.
 
@@ -135,7 +135,7 @@ The request is not supported.
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string 
+Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string 
         for the returned error.
 
 </td>
@@ -151,11 +151,11 @@ Use <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">Fo
 
 
 
-<a href="https://msdn.microsoft.com/76ac2b93-d5df-4504-b36d-1530bbb12ab4">EVENT_INFO_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ne-evntprov-_event_info_class">EVENT_INFO_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>
  
 
  

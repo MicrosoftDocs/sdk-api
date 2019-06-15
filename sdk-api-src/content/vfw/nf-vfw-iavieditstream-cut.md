@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Cut</b> method removes a portion of a stream and places it in a temporary stream. Called when an application uses the <a href="https://msdn.microsoft.com/201f977c-926b-470c-b1ae-62946e6f691e">EditStreamCut</a> function.
+The <b>Cut</b> method removes a portion of a stream and places it in a temporary stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-editstreamcut">EditStreamCut</a> function.
 
 
 
@@ -114,11 +114,11 @@ HRESULT Cut(LONG *plStart, LONG *plLength,
 
 
 
-<a href="https://msdn.microsoft.com/ced6f7d1-5f27-47f4-a912-8c17ea5fa685">Custom File and Stream Handler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61e0118-d405-4c1e-9ae8-ed6a145a5d6b">Custom File and Stream Handlers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
  
 
  

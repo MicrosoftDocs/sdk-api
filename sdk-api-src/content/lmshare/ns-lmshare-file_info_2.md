@@ -67,27 +67,27 @@ Specifies a DWORD value that contains the identification number assigned to the 
 
 
 
-<a href="https://msdn.microsoft.com/67f5fa89-12c7-46fb-a118-de4bfed96923">FILE_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-_file_info_3">FILE_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbcdad6e-80dd-49f0-9d69-a82a7010f10b">NetFile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetShare/netfile-functions">NetFile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1375b337-efb0-4be1-94f7-473456a825b5">NetFileEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/d50c05e7-7ddd-4a7d-96f6-51878e52373c">NetFileGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfilegetinfo">NetFileGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
  
 
  

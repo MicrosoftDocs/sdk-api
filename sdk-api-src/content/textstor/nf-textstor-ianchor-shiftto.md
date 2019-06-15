@@ -91,7 +91,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-An <a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a> interface pointer to the <i>paSite</i> anchor could not be obtained, or memory is too low to safely complete the operation.
+An <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> interface pointer to the <i>paSite</i> anchor could not be obtained, or memory is too low to safely complete the operation.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ An <a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAn
 
 
 
-Implementing this method is usually more efficient than an equivalent <a href="https://msdn.microsoft.com/e57a78e6-42e6-4a2b-b4e1-20bb64add872">IAnchor::Shift</a> operation.
+Implementing this method is usually more efficient than an equivalent <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift</a> operation.
 
 
 
@@ -126,11 +126,11 @@ Implementing this method is usually more efficient than an equivalent <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e57a78e6-42e6-4a2b-b4e1-20bb64add872">IAnchor::Shift
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
       </a>
  
 

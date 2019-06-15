@@ -78,7 +78,7 @@ Information about the recipient of the notification. This parameter can be one o
 </dl>
 </td>
 <td width="60%">
-The <i>Recipient</i> parameter is a handle to a service.Use the <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> or <a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a> function to obtain this handle.
+The <i>Recipient</i> parameter is a handle to a service.Use the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> function to obtain this handle.
 
 </td>
 </tr>
@@ -129,11 +129,11 @@ Immediately after registration, the callback will be invoked with the current va
 
 
 
-<a href="https://msdn.microsoft.com/39D432A7-54F8-4135-B98C-7290F95B054A">Power Setting GUIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-setting-guids">Power Setting GUIDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/9853c347-4528-43bb-8326-13bcd819b8a6">PowerSettingUnregisterNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersettingunregisternotification">PowerSettingUnregisterNotification</a>
  
 
  

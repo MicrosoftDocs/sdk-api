@@ -59,12 +59,12 @@ Called by the Windows Biometric Framework to make the current contents of the sa
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param Purpose [in]
 
-A value that specifies the properties of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that will be passed to the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
+A value that specifies the properties of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that will be passed to the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
 
 <ul>
@@ -154,7 +154,7 @@ The sample data is not suitable for use. If you return this error code, you must
 </dl>
 </td>
 <td width="60%">
-The <b>SensorContext</b> member of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b>.
+The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b>.
 
 </td>
 </tr>
@@ -179,13 +179,13 @@ No capture data exists.
 
 
 
-Your implementation of this function should convert raw data contained in the  sample buffer into a standard <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure and push this structure to the engine  by using the <a href="https://msdn.microsoft.com/fa6c5aa4-a9f4-421e-bc43-ced7fade4144">EngineAdapterAcceptSampleData</a> function. The correct way to do this is to call the <b>WbioEngineAcceptSampleData</b> helper function defined in Winbio_adapter.h header file.
+Your implementation of this function should convert raw data contained in the  sample buffer into a standard <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure and push this structure to the engine  by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a> function. The correct way to do this is to call the <b>WbioEngineAcceptSampleData</b> helper function defined in Winbio_adapter.h header file.
 
 
-If the <a href="https://msdn.microsoft.com/fa6c5aa4-a9f4-421e-bc43-ced7fade4144">EngineAdapterAcceptSampleData</a> function returns WINBIO_E_BAD_CAPTURE, your implementation of <i>SensorAdapterPushDataToEngine</i> should return the <i>RejectDetail</i> value propagated by the engine adapter. 
+If the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a> function returns WINBIO_E_BAD_CAPTURE, your implementation of <i>SensorAdapterPushDataToEngine</i> should return the <i>RejectDetail</i> value propagated by the engine adapter. 
 
 
-The sensor adapter retains ownership of the sample buffer passed to <a href="https://msdn.microsoft.com/fa6c5aa4-a9f4-421e-bc43-ced7fade4144">EngineAdapterAcceptSampleData</a>. The sensor adapter is responsible for releasing this buffer at some point after <i>EngineAdapterAcceptSampleData</i> returns.
+The sensor adapter retains ownership of the sample buffer passed to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a>. The sensor adapter is responsible for releasing this buffer at some point after <i>EngineAdapterAcceptSampleData</i> returns.
 
 
 #### Examples
@@ -289,7 +289,7 @@ SensorAdapterPushDataToEngine(
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
  
 
  

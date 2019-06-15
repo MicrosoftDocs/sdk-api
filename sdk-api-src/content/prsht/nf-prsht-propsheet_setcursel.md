@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Activates the specified page in a property sheet. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774611(v=VS.85).aspx">PSM_SETCURSEL</a> message explicitly.
+Activates the specified page in a property sheet. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-setcursel">PSM_SETCURSEL</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Activates the specified page in a property sheet. You can use this macro or send
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -82,7 +82,7 @@ Zero-based index of the page. An application can specify the index or the handle
 
 
 
-The window that is losing the activation receives the <a href="https://msdn.microsoft.com/en-us/library/Bb774559(v=VS.85).aspx">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="https://msdn.microsoft.com/en-us/library/Bb774568(v=VS.85).aspx">PSN_SETACTIVE</a> notification code.
+The window that is losing the activation receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-killactive">PSN_KILLACTIVE</a> notification code, and the window that is gaining the activation receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/psn-setactive">PSN_SETACTIVE</a> notification code.
 
 
 

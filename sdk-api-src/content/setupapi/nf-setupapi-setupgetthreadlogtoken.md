@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a> for the thread from which this function was called.
+The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">log token</a> for the thread from which this function was called.
 
 
 ## -parameters
@@ -75,11 +75,11 @@ The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://msdn.m
 
 
 
-To set a log token for a thread, call <a href="https://msdn.microsoft.com/c5295bb8-73c8-4516-91fe-ba11aa8a0657">SetupSetThreadLogToken</a>. 
+To set a log token for a thread, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetthreadlogtoken">SetupSetThreadLogToken</a>. 
 
-For more information about log tokens, see <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>.
+For more information about log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>.
 
 
 
@@ -89,15 +89,15 @@ For more information about using log tokens, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">Log Tokens</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>
 
 
 
-<a href="https://msdn.microsoft.com/c5295bb8-73c8-4516-91fe-ba11aa8a0657">SetupSetThreadLogToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupsetthreadlogtoken">SetupSetThreadLogToken</a>
  
 
  

@@ -69,7 +69,7 @@ A pointer to a memory address.
 If the calling process has read access to the specified memory, the return value is zero.
 
 If the calling process does not have read access to the specified memory, the return value is nonzero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the application is compiled as a debugging version, and the process does not have read access to  the specified memory location, the function causes an assertion and breaks into the debugger. Leaving the debugger, the function continues as usual, and returns a nonzero value. This behavior is by design, as a debugging aid.
 
@@ -90,15 +90,15 @@ In a preemptive multitasking environment, it is possible for some other thread t
 
 
 
-<a href="https://msdn.microsoft.com/c1561403-2b77-4c93-80f1-261f26629d4b">IsBadReadPtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadreadptr">IsBadReadPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec708f97-36c8-4484-96d7-b8dfb8578667">IsBadStringPtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadstringptra">IsBadStringPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b353a8e-45cf-4108-9522-bcbde9c71ec4">IsBadWritePtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadwriteptr">IsBadWritePtr</a>
  
 
  

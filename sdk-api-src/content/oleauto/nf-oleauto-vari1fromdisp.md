@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts the default property of an <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> instance to a char value.
+Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a char value.
 
 
 ## -parameters

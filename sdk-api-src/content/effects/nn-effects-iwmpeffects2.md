@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPEffects2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects</a>. <b>IWMPEffects2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IWMPEffects2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563255(v=VS.85).aspx">Create</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">Create</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to instantiate a visualization window.
@@ -77,7 +77,7 @@ Called by Windows Media Player to instantiate a visualization window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563256(v=VS.85).aspx">Destroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to destroy a visualization window instantiated in the <b>Create</b> method.
@@ -86,7 +86,7 @@ Called by Windows Media Player to destroy a visualization window instantiated in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563257(v=VS.85).aspx">NotifyNewMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-notifynewmedia">NotifyNewMedia</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to inform the visualization that a new media item has been loaded.
@@ -95,7 +95,7 @@ Called by Windows Media Player to inform the visualization that a new media item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563258(v=VS.85).aspx">OnWindowMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-onwindowmessage">OnWindowMessage</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to pass window messages to a visualization.
@@ -104,7 +104,7 @@ Called by Windows Media Player to pass window messages to a visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563259(v=VS.85).aspx">RenderWindowed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-renderwindowed">RenderWindowed</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to render a windowed visualization.
@@ -113,7 +113,7 @@ Called by Windows Media Player to render a windowed visualization.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563260(v=VS.85).aspx">SetCore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-setcore">SetCore</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to provide visualization access to the core Windows Media Player APIs.
@@ -128,11 +128,11 @@ Called by Windows Media Player to provide visualization access to the core Windo
 
 
 
-<a href="https://msdn.microsoft.com/b76cd0a2-7c15-468e-9673-7e607a208ddd">Custom Visualization Programming Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/custom-visualization-programming-reference">Custom Visualization Programming Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563253(v=VS.85).aspx">IWMPEffects Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
  
 
  

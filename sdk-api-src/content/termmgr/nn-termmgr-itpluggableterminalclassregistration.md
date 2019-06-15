@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassRegistration</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPluggableTerminalClassRegistration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalClassRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITPluggableTerminalClassRegistration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e5104e1-5276-4c5b-9a1a-404904432982">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds the terminal into the registry.
@@ -80,7 +80,7 @@ Adds the terminal into the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ddc0e33a-d7f4-4380-b53b-e368f7646cbf">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the terminal entry from the registry.
@@ -89,7 +89,7 @@ Deletes the terminal entry from the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/085139b8-3f72-40d5-8323-c6083f06abe7">get_CLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_clsid">get_CLSID</a>
 </td>
 <td align="left" width="63%">
 Gets the CLSID used to <b>CoCreateInstance</b> the terminal.
@@ -98,7 +98,7 @@ Gets the CLSID used to <b>CoCreateInstance</b> the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fea01c2a-e822-441a-89bc-8607762bc2eb">get_Company</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_company">get_Company</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the company that issued this pluggable terminal.
@@ -107,7 +107,7 @@ Gets the name of the company that issued this pluggable terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67f2f241-2389-476f-a412-af456c1c3376">get_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_direction">get_Direction</a>
 </td>
 <td align="left" width="63%">
 Gets the direction supported by the terminal.
@@ -116,7 +116,7 @@ Gets the direction supported by the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa8c0da8-2953-483a-b3b9-7a6f3e35c893">get_MediaTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_mediatypes">get_MediaTypes</a>
 </td>
 <td align="left" width="63%">
 Gets the media types supported by the terminal.
@@ -125,7 +125,7 @@ Gets the media types supported by the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0bbc0862-41d7-40cc-9b9d-57a2238122ee">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal's friendly name.
@@ -134,7 +134,7 @@ Gets the terminal's friendly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8da33c46-a369-4501-8249-48ad5d454c58">get_TerminalClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_terminalclass">get_TerminalClass</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal's terminal class.
@@ -143,7 +143,7 @@ Gets the terminal's terminal class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ce4345b-7d8e-4142-a4ee-df1e8b613a25">get_Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_version">get_Version</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal version.
@@ -152,7 +152,7 @@ Gets the terminal version.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35eed68f-be15-4229-b1be-01734f1831c9">GetTerminalClassInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-getterminalclassinfo">GetTerminalClassInfo</a>
 </td>
 <td align="left" width="63%">
 Gets all information from the registry for a specific terminal.
@@ -161,7 +161,7 @@ Gets all information from the registry for a specific terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9688cdc7-f55d-41c6-8db7-689617a24239">put_CLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_clsid">put_CLSID</a>
 </td>
 <td align="left" width="63%">
 Sets the CLSID used to <b>CoCreateInstance</b> the terminal.
@@ -170,7 +170,7 @@ Sets the CLSID used to <b>CoCreateInstance</b> the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e68539dc-0ebe-41f7-a9fe-941e2f941225">put_Company</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_company">put_Company</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the company that issued this pluggable terminal.
@@ -179,7 +179,7 @@ Sets the name of the company that issued this pluggable terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b68c0697-e889-471d-857a-d11e974c6552">put_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_direction">put_Direction</a>
 </td>
 <td align="left" width="63%">
 Sets the direction supported by the terminal.
@@ -188,7 +188,7 @@ Sets the direction supported by the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5a5fb8b-5b71-4f57-8125-46c482897c21">put_MediaTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_mediatypes">put_MediaTypes</a>
 </td>
 <td align="left" width="63%">
 Sets the media types supported by the terminal.
@@ -197,7 +197,7 @@ Sets the media types supported by the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3d6c585-5592-4ed9-80bb-a55ff151edd1">put_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_name">put_Name</a>
 </td>
 <td align="left" width="63%">
 Sets the terminal's friendly name.
@@ -206,7 +206,7 @@ Sets the terminal's friendly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/257adef8-f578-4c8c-9fe9-df59572b7f6e">put_TerminalClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_terminalclass">put_TerminalClass</a>
 </td>
 <td align="left" width="63%">
 Sets the terminal's terminal class.
@@ -215,7 +215,7 @@ Sets the terminal's terminal class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1fd659d3-869b-4055-bbd2-e567d13f239d">put_Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-put_version">put_Version</a>
 </td>
 <td align="left" width="63%">
 Sets the terminal version.

@@ -66,16 +66,16 @@ The address family (<b>AF_INET</b> or <b>AF_INET6</b>) for the provider address.
 
 ### -field PA
 
-Type: <b><a href="https://msdn.microsoft.com/1FD137B6-74F4-4E75-A77E-65F093938662">WNV_IP_ADDRESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_ip_address">WNV_IP_ADDRESS</a></b>
 
 The IP address object for the provider address, which is the matching IP address used on the physical network for the customer address.
 
 
 ### -field AddressState
 
-Type: <b><a href="https://msdn.microsoft.com/38d88074-efac-475c-b6f6-1c65f21ed4be">NL_DAD_STATE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568758(v=vs.85)">NL_DAD_STATE</a></b>
 
-A value of the <a href="https://msdn.microsoft.com/38d88074-efac-475c-b6f6-1c65f21ed4be">NL_DAD_STATE</a> enumeration that represents the new DAD state. Duplicate address detection is applicable to both IPv4 and IPv6 addresses.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568758(v=vs.85)">NL_DAD_STATE</a> enumeration that represents the new DAD state. Duplicate address detection is applicable to both IPv4 and IPv6 addresses.
 
 <table>
 <tr>
@@ -155,15 +155,15 @@ For a detailed description of network virtualization concepts and terminology, r
 
 
 
-<a href="https://msdn.microsoft.com/70BE564E-A054-4991-ADCD-79E4D219307B">WNV_NOTIFICATION_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_notification_type">WNV_NOTIFICATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/12FF591A-B696-49DF-9E75-B966569A2AAE">WNV_OBJECT_CHANGE_PARAM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ns-wnvapi-_wnv_object_change_param">WNV_OBJECT_CHANGE_PARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/817C86BB-1267-4174-93C2-515288A33055">WNV_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wnvapi/ne-wnvapi-_wnv_object_type">WNV_OBJECT_TYPE</a>
  
 
  

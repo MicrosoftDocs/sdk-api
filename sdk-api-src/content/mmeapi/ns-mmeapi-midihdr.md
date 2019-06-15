@@ -125,7 +125,7 @@ Set to indicate that the buffer is a stream buffer.
 </dl>
 </td>
 <td width="60%">
-Set by Windows to indicate that the buffer has been prepared by using the <a href="https://msdn.microsoft.com/26895526-2c1e-4335-8b45-511ca56696ab">midiInPrepareHeader</a> or <a href="https://msdn.microsoft.com/3e457f08-a885-48f8-97c1-ba1baef97759">midiOutPrepareHeader</a> function.
+Set by Windows to indicate that the buffer has been prepared by using the <a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a> or <a href="https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)">midiOutPrepareHeader</a> function.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Reserved; do not use.
 
 ### -field dwOffset
 
-Offset into the buffer when a callback is performed. (This callback is generated because the MEVT_F_CALLBACK flag is set in the <b>dwEvent</b> member of the <a href="https://msdn.microsoft.com/e83bf111-2075-4cfc-a68b-e0a59a0c53e6">MIDIEVENT</a> structure.) This offset enables an application to determine which event caused the callback.
+Offset into the buffer when a callback is performed. (This callback is generated because the MEVT_F_CALLBACK flag is set in the <b>dwEvent</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a> structure.) This offset enables an application to determine which event caused the callback.
 
 
 ### -field dwReserved
@@ -162,19 +162,19 @@ MIDI Structures
 
 
 
-<a href="https://msdn.microsoft.com/e83bf111-2075-4cfc-a68b-e0a59a0c53e6">MIDIEVENT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c81e1dc-ee6b-4a59-8992-8ec869264d4f">Musical Instrument Digital Interface (MIDI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
 
 
 
-<a href="https://msdn.microsoft.com/26895526-2c1e-4335-8b45-511ca56696ab">midiInPrepareHeader</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e457f08-a885-48f8-97c1-ba1baef97759">midiOutPrepareHeader</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)">midiOutPrepareHeader</a>
  
 
  

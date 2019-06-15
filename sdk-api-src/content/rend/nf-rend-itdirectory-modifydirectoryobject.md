@@ -64,7 +64,7 @@ The
 ### -param pDirectoryObject [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/a48644a4-43e2-4c52-84be-0cb5c49e6436">ITDirectoryObject</a> modified.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> modified.
 
 
 ## -returns
@@ -108,7 +108,7 @@ The <i>pDirectoryObject</i> parameter is not a valid pointer.
 </td>
 <td width="60%">
 The 
-<a href="https://msdn.microsoft.com/b781008b-430a-444e-a700-8cde09e721b4">ITDirectory::Connect</a> method has not been invoked or did not succeed.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
 
 </td>
 </tr>
@@ -134,10 +134,10 @@ This method is not implemented.
 
 
 Changes made to 
-<a href="https://msdn.microsoft.com/a48644a4-43e2-4c52-84be-0cb5c49e6436">ITDirectoryObject</a> will not take effect on the server until this method is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> will not take effect on the server until this method is called.
 
 Some attributes cannot be modified, and an attempt to modify them will fail. For an example, see the Remarks section of 
-<a href="https://msdn.microsoft.com/ba53ea12-7f05-4f68-8a59-915a5906b7be">ITDirectoryObjectUser::put_IPPhonePrimary</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-put_ipphoneprimary">ITDirectoryObjectUser::put_IPPhonePrimary</a>.
 
 
 
@@ -147,7 +147,7 @@ Some attributes cannot be modified, and an attempt to modify them will fail. For
 
 
 
-<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
  
 
  

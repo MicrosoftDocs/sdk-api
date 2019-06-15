@@ -54,14 +54,14 @@ provides similar functionality.]
 
 The 
 <b>ITILSConfig</b> interface allows configuration of the ILS directory. This interface is available only on Directory objects that return DT_ILS from 
-<a href="https://msdn.microsoft.com/3f0ca4c2-4ba9-4a6e-877b-36486086368f">ITDirectory::get_DirectoryType</a>. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_directorytype">ITDirectory::get_DirectoryType</a>. The 
 <b>ITILSConfig</b> interface is created by calling <b>QueryInterface</b> on 
-<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITILSConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITILSConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITILSConfig</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITILSConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ITILSConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7aa0a8e7-6799-4685-92a0-c2ce610d0e06">get_Port</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itilsconfig-get_port">get_Port</a>
 </td>
 <td align="left" width="63%">
 Gets the port number used to connect to the server of a given ILS directory.
@@ -85,7 +85,7 @@ Gets the port number used to connect to the server of a given ILS directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d911a9c-6538-4919-9110-0425c53f91c4">put_Port</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itilsconfig-put_port">put_Port</a>
 </td>
 <td align="left" width="63%">
 Sets the port number used to connect to the server of a given ILS directory.

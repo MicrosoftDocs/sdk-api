@@ -63,7 +63,7 @@ Collects data from the multiplexer and updates the ASF ContentInfo object to inc
 
 ### -param pIContentInfo [in]
 
-Pointer to the  <a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a> interface of the ContentInfo object. This must be the same object that was used to initialize the multiplexer. The ContentInfo object represents the ASF Header Object of the file for which the multiplexer generated data packets.
+Pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the ContentInfo object. This must be the same object that was used to initialize the multiplexer. The ContentInfo object represents the ASF Header Object of the file for which the multiplexer generated data packets.
 
 
 ## -returns
@@ -95,7 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-There are pending output media samples waiting in the multiplexer. Call <a href="https://msdn.microsoft.com/44a66374-ad9d-4c76-8c95-21a15e071c6d">IMFASFMultiplexer::Flush</a> to force the media samples to be packetized.
+There are pending output media samples waiting in the multiplexer. Call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush">IMFASFMultiplexer::Flush</a> to force the media samples to be packetized.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ There are pending output media samples waiting in the multiplexer. Call <a href=
 
 
 
-For non-live encoding scenarios (such as encoding to a file), the user should call <b>End</b> to update the specified ContentInfo object, adding data that the multiplexer has collected during the packet generation process. The user should then call <a href="https://msdn.microsoft.com/972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e">IMFASFContentInfo::GenerateHeader</a> and write the output header at the beginning of the ASF file (overwriting the header obtained at the beginning of the encoding session). For more information, see <a href="https://msdn.microsoft.com/f2a76471-3d93-427b-a316-d0967cd20e77">Writing an ASF Header Object for a New File</a>.
+For non-live encoding scenarios (such as encoding to a file), the user should call <b>End</b> to update the specified ContentInfo object, adding data that the multiplexer has collected during the packet generation process. The user should then call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generateheader">IMFASFContentInfo::GenerateHeader</a> and write the output header at the beginning of the ASF file (overwriting the header obtained at the beginning of the encoding session). For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/writing-an-asf-header-object-for-a-new-file">Writing an ASF Header Object for a New File</a>.
 
 During live encoding, it is usually not possible to rewrite the header, so this call is not required for live encoding. (The header in those cases will simply lack some of the information that was not available until the end of the encoding session.)
 
@@ -121,15 +121,15 @@ During live encoding, it is usually not possible to rewrite the header, so this 
 
 
 
-<a href="https://msdn.microsoft.com/7afa9694-c965-40e2-8549-e32ff48def2a">Generating New ASF Data Packets</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-new-asf-data-packets">Generating New ASF Data Packets</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/bdb549b5-425b-4f77-b413-723ceb7acd11">IMFASFMultiplexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
  
 
  

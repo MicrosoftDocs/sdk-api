@@ -82,11 +82,11 @@ If the current item is the last item in the list, or if the list is empty, this 
 
 
 
-<a href="https://msdn.microsoft.com/E8F993BD-CB53-474A-926D-AED0F5A17073">IFhScopeIterator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhscopeiterator">IFhScopeIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/EB732725-497C-4D58-A05C-373732054BE5">IFhScopeIterator::GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-getitem">IFhScopeIterator::GetItem</a>
  
 
  

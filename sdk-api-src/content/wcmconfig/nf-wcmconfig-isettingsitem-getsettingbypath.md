@@ -64,7 +64,7 @@ Path of the list element or attribute to retrieve. The path is relative to the c
 
 ### -param Setting [out]
 
- An <a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a> interface pointer used to access the item.
+ An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> interface pointer used to access the item.
 
 
 ## -returns
@@ -144,7 +144,7 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 
 
 
-<a href="https://msdn.microsoft.com/a743d942-69f9-426b-be88-adf88b9bb1e0">ISettingsItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
  
 
  

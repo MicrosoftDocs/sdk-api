@@ -59,7 +59,7 @@ The <b>SendScsiReadCapacity</b> function sends a SCSI READ CAPACITY command to t
 
 ### -param UniqueSessionId [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> structure containing the session identifier for the login session specific to the target to which the READ CAPACITY command is sent. 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing the session identifier for the login session specific to the target to which the READ CAPACITY command is sent. 
 
 
 
@@ -102,7 +102,7 @@ Returns ERROR_SUCCESS if the operation succeeds and ERROR_INSUFFICIENT_BUFFER if
 
 
 
-If the device returns a SCSI error while processing the REPORT LUNS request, <a href="https://msdn.microsoft.com/0898daf0-67ae-47a4-90bf-2112b6e6b20c">SendScsiReportLuns</a> returns an error code of ISDSC_SCSI_REQUEST_FAILED, and the locations pointed to by <i>ScsiStatus</i> and <i>SenseBuffer</i> contain information detailing the SCSI error.
+If the device returns a SCSI error while processing the REPORT LUNS request, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a> returns an error code of ISDSC_SCSI_REQUEST_FAILED, and the locations pointed to by <i>ScsiStatus</i> and <i>SenseBuffer</i> contain information detailing the SCSI error.
 
  
 
@@ -118,15 +118,15 @@ Otherwise, this function returns the appropriate Win32 or iSCSI error code on fa
 
 
 
-<a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1339ff0-aa1e-4609-8983-d5f09481bd13">SendScsiIniquiry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsiinquiry">SendScsiIniquiry</a>
 
 
 
-<a href="https://msdn.microsoft.com/0898daf0-67ae-47a4-90bf-2112b6e6b20c">SendScsiReportLuns</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a>
  
 
  

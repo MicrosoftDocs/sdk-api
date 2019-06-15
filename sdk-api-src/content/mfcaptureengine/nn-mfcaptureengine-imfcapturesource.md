@@ -54,7 +54,7 @@ Controls the capture source object. The capture source manages the audio and vid
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureSource</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFCaptureSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFCaptureSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C108360D-0B8C-4539-9D78-A5559100086E">AddEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-addeffect">AddEffect</a>
 </td>
 <td align="left" width="63%">
 Adds an effect to a capture stream.
@@ -78,7 +78,7 @@ Adds an effect to a capture stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B122C2DE-9544-47C7-8F4F-DBD4C1DE54C0">GetAvailableDeviceMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getavailabledevicemediatype">GetAvailableDeviceMediaType</a>
 </td>
 <td align="left" width="63%">
 Gets a format that is supported by one of the capture streams.
@@ -87,25 +87,25 @@ Gets a format that is supported by one of the capture streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f69321f-67df-4d6c-a98a-51a9859f8a22">GetCaptureDeviceActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getcapturedeviceactivate">GetCaptureDeviceActivate</a>
 </td>
 <td align="left" width="63%">
- Gets the current capture device's <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> object pointer.
+ Gets the current capture device's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object pointer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98bce6e3-02f2-449e-aba4-4bfc9de6d1db">GetCaptureDeviceSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getcapturedevicesource">GetCaptureDeviceSource</a>
 </td>
 <td align="left" width="63%">
-Gets the current capture device's <a href="https://msdn.microsoft.com/8b579f61-6fea-4b20-a051-7633fc01fa05">IMFMediaSource</a> object pointer.
+Gets the current capture device's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> object pointer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8F263F5C-D1B4-4DF7-AFCB-E27575FBAAA2">GetCurrentDeviceMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getcurrentdevicemediatype">GetCurrentDeviceMediaType</a>
 </td>
 <td align="left" width="63%">
 Gets the current media type for a capture stream.
@@ -114,7 +114,7 @@ Gets the current media type for a capture stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3caa002-8676-44d3-9696-da5b0db09d9e">GetDeviceStreamCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcategory">GetDeviceStreamCategory</a>
 </td>
 <td align="left" width="63%">
 Gets the stream category for the specified source stream index.
@@ -123,7 +123,7 @@ Gets the stream category for the specified source stream index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0CD466EF-4753-42F6-A9B9-71CBB0668342">GetDeviceStreamCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">GetDeviceStreamCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of device streams.
@@ -132,7 +132,7 @@ Gets the number of device streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3FB15EC5-DE9C-4051-9FBA-7CE332E70078">GetMirrorState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getmirrorstate">GetMirrorState</a>
 </td>
 <td align="left" width="63%">
 Gets the current mirroring state of the video preview stream.
@@ -141,16 +141,16 @@ Gets the current mirroring state of the video preview stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67A77196-A499-4C28-8A35-CFB130B85D79">GetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getservice">GetService</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the underlying <a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a> object.
+Gets a pointer to the underlying <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38bc2ca8-29ff-4a23-9b78-693aaab6767f">GetStreamIndexFromFriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getstreamindexfromfriendlyname">GetStreamIndexFromFriendlyName</a>
 </td>
 <td align="left" width="63%">
 Gets the actual device stream index translated from a friendly stream name.
@@ -159,7 +159,7 @@ Gets the actual device stream index translated from a friendly stream name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C01F7A61-3585-4E8B-B914-7DB1446D1BC1">RemoveAllEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-removealleffects">RemoveAllEffects</a>
 </td>
 <td align="left" width="63%">
 Removes all effects from a capture stream.
@@ -168,7 +168,7 @@ Removes all effects from a capture stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5FF2EF1C-1BF0-4CF7-95AB-1BB10025D66F">RemoveEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-removeeffect">RemoveEffect</a>
 </td>
 <td align="left" width="63%">
 Removes an effect from a capture stream.
@@ -177,7 +177,7 @@ Removes an effect from a capture stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2B88BBAE-E837-4F4A-B697-64772F25C89D">SetCurrentDeviceMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-setcurrentdevicemediatype">SetCurrentDeviceMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the output format for a capture stream.
@@ -186,7 +186,7 @@ Sets the output format for a capture stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E170B262-95CD-4434-925A-3573D35FC1DC">SetMirrorState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-setmirrorstate">SetMirrorState</a>
 </td>
 <td align="left" width="63%">
 Enables or disables mirroring of the video preview stream.
@@ -200,7 +200,7 @@ Enables or disables mirroring of the video preview stream.
 
 
 
-To get a pointer to the capture source, call <a href="https://msdn.microsoft.com/9DED11CA-BDBB-4E1A-BAD1-2EB6216543F9">IMFCaptureEngine::GetSource</a>.
+To get a pointer to the capture source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsource">IMFCaptureEngine::GetSource</a>.
 
 
 
@@ -210,7 +210,7 @@ To get a pointer to the capture source, call <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

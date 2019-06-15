@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the number of times Task Scheduler will try to run the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a> again if an error occurs. This method is not implemented.
+Sets the number of times Task Scheduler will try to run the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a> again if an error occurs. This method is not implemented.
 
 
 ## -parameters
@@ -141,11 +141,11 @@ Programs must call the <b>IPersistFile::Save</b> method after calling
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9935325-124b-4c21-be9c-e9d48fb69791">IScheduledWorkItem::GetErrorRetryCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-geterrorretrycount">IScheduledWorkItem::GetErrorRetryCount</a>
  
 
  

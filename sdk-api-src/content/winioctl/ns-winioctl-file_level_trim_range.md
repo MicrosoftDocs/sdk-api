@@ -82,11 +82,11 @@ Before the trim operation is passed to the underlying storage system the input r
 
 
 
-<a href="https://msdn.microsoft.com/2d466a98-f7b2-4638-942c-1cf9016d0bf9">FILE_LEVEL_TRIM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FILE_LEVEL_TRIM</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d293d09-8d41-495d-9095-f2f24bf6ac6b">FILE_LEVEL_TRIM_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_level_trim_output">FILE_LEVEL_TRIM_OUTPUT</a>
 
 
 

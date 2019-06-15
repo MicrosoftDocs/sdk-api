@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/0377ef07-bf9f-4938-8fc4-ae14373db590">SymEnumSourceFileTokens</a> function which enumerates the <a href="https://msdn.microsoft.com/c7bf51ce-7fb4-49aa-ad33-e551b2c8362b">source server</a> version control information stored in the PDB for a module.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiletokens">SymEnumSourceFileTokens</a> function which enumerates the <a href="https://docs.microsoft.com/windows/desktop/Debug/source-server-and-source-indexing">source server</a> version control information stored in the PDB for a module.
 
 The <b>PENUMSOURCEFILETOKENSCALLBACK</b> type defines a pointer to this callback function. 
 <b>SymEnumSourceFileTokensProc</b> is a placeholder for the application-defined function name.
@@ -87,9 +87,9 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 
-An application can use this token to extract a source file from version control by calling <a href="https://msdn.microsoft.com/67a282c2-99f8-4e35-9323-a81327404d1a">SymGetSourceFileFromToken</a>.  
+An application can use this token to extract a source file from version control by calling <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsourcefilefromtoken">SymGetSourceFileFromToken</a>.  
 
-To get individual variables from the token, call <a href="https://msdn.microsoft.com/05e9005a-aef3-44a3-a73b-21830799a3d5">SymGetSourceVarFromToken</a>.  The names of the variables differ based on the scripts used to create the tokens.  See <a href="https://msdn.microsoft.com/c7bf51ce-7fb4-49aa-ad33-e551b2c8362b">Source Server</a> for details.
+To get individual variables from the token, call <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsourcevarfromtoken">SymGetSourceVarFromToken</a>.  The names of the variables differ based on the scripts used to create the tokens.  See <a href="https://docs.microsoft.com/windows/desktop/Debug/source-server-and-source-indexing">Source Server</a> for details.
 
 
 
@@ -99,23 +99,23 @@ To get individual variables from the token, call <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7bf51ce-7fb4-49aa-ad33-e551b2c8362b">Source Server</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/source-server-and-source-indexing">Source Server</a>
 
 
 
-<a href="https://msdn.microsoft.com/0377ef07-bf9f-4938-8fc4-ae14373db590">SymEnumSourceFileTokens</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcefiletokens">SymEnumSourceFileTokens</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d2115fb-2725-4fae-abb7-ff1b8a802c69">SymGetSourceFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsourcefile">SymGetSourceFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/67a282c2-99f8-4e35-9323-a81327404d1a">SymGetSourceFileFromToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsourcefilefromtoken">SymGetSourceFileFromToken</a>
  
 
  

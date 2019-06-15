@@ -63,7 +63,7 @@ The <b>EngCreatePath</b> function allocates a path for the driver's temporary us
 
 
 
-The return value is a pointer to a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure if the function is successful. Otherwise, it is null, and an error code is logged.
+The return value is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure if the function is successful. Otherwise, it is null, and an error code is logged.
 
 
 
@@ -74,13 +74,13 @@ The return value is a pointer to a <a href="https://msdn.microsoft.com/ceccca92-
 
 The driver should delete the path, allocated by <b>EngCreatePath</b>, before returning to GDI from its current drawing call.
 
-Functions that create and modify paths are provided to assist devices in clipping paths. A driver can create a path, fill it with lines and pass the path to <a href="https://msdn.microsoft.com/edc64b1e-dd3f-4b6a-858c-91c49a819b0a">PATHOBJ_bEnumClipLines</a> for clipping against the complex region.
+Functions that create and modify paths are provided to assist devices in clipping paths. A driver can create a path, fill it with lines and pass the path to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a> for clipping against the complex region.
 
 A PATHOBJ structure is a locked object, and thus should not be locked for a long time by the driver.
 
-If the driver uses <b>EngCreatePath</b> to create a PATHOBJ structure, it should be deleted by using <a href="https://msdn.microsoft.com/65ecf4bc-5180-4b4b-a359-298f385b849e">EngDeletePath</a> as soon as the driver finishes with it.
+If the driver uses <b>EngCreatePath</b> to create a PATHOBJ structure, it should be deleted by using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletepath">EngDeletePath</a> as soon as the driver finishes with it.
 
-The returned PATHOBJ structure is used in calls to <a href="https://msdn.microsoft.com/b734ce8f-7e7e-4c13-a614-cb6b0dc19ead">PATHOBJ_bMoveTo</a>, <a href="https://msdn.microsoft.com/468d20e3-a78b-47b3-9c56-ef355181eb63">PATHOBJ_bPolyLineTo</a>, <a href="https://msdn.microsoft.com/3db437aa-40d1-4703-ab1e-b3e154923d2d">PATHOBJ_vEnumStartClipLines</a>, and <a href="https://msdn.microsoft.com/edc64b1e-dd3f-4b6a-858c-91c49a819b0a">PATHOBJ_bEnumClipLines</a>
+The returned PATHOBJ structure is used in calls to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bmoveto">PATHOBJ_bMoveTo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolylineto">PATHOBJ_bPolyLineTo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
 
 
 
@@ -91,11 +91,11 @@ The returned PATHOBJ structure is used in calls to <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/edc64b1e-dd3f-4b6a-858c-91c49a819b0a">PATHOBJ_bEnumClipLines</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benumcliplines">PATHOBJ_bEnumClipLines</a>
  
 
  

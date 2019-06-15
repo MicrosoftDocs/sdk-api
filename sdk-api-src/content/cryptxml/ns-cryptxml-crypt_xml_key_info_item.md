@@ -112,7 +112,7 @@ The structure specifies an XML encoded element that contains the key retrieval m
 </dl>
 </td>
 <td width="60%">
-The structure specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> data that  contains the key information.
+The structure specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> data that  contains the key information.
 
 </td>
 </tr>
@@ -138,20 +138,20 @@ A pointer to a null-terminated wide character string that contains the name of t
 
 ### -field KeyValue
 
-A <a href="https://msdn.microsoft.com/7aadd268-41bc-4ba3-babb-2ca7b13f378b">CRYPT_XML_KEY_VALUE</a> structure that contains the key value.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure that contains the key value.
 
 
 ### -field RetrievalMethod
 
-A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains XML encoded information about the key retrieval method.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains XML encoded information about the key retrieval method.
 
 
 ### -field X509Data
 
-A <a href="https://msdn.microsoft.com/4895a6e6-ffac-419f-af9b-f2062a1aecd4">CRYPT_XML_X509DATA</a> structure that contains X.509 data that contains the key.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_x509data">CRYPT_XML_X509DATA</a> structure that contains X.509 data that contains the key.
 
 
 ### -field Custom
 
-A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains user defined key information.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains user defined key information.
 

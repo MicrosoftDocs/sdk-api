@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a set of <a href="https://msdn.microsoft.com/a897eb6c-d527-46ec-a710-252679001185">WS_POLICY_PROPERTY</a> structures.
+Specifies a set of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_policy_property">WS_POLICY_PROPERTY</a> structures.
             
 
 

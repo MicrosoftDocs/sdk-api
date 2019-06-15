@@ -91,7 +91,7 @@ This function returns <b>TRUE</b> if the specified class can be converted to ano
 
 
 
-This function is useful for determining if a <b>Convert...</b> menu item should be disabled. If the CF_DISABLEDISPLAYASICON flag is specified in the call to <a href="https://msdn.microsoft.com/3af4b321-cea2-4f88-ae22-2dcefbb2c2ad">OleUIConvert</a>, then the <b>Convert...</b> menu item should be enabled only if <b>OleUICanConvertOrActivateAs</b> returns <b>TRUE</b>.
+This function is useful for determining if a <b>Convert...</b> menu item should be disabled. If the CF_DISABLEDISPLAYASICON flag is specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a>, then the <b>Convert...</b> menu item should be enabled only if <b>OleUICanConvertOrActivateAs</b> returns <b>TRUE</b>.
 
 
 
@@ -102,7 +102,7 @@ This function is useful for determining if a <b>Convert...</b> menu item should 
 
 
 
-<a href="https://msdn.microsoft.com/3af4b321-cea2-4f88-ae22-2dcefbb2c2ad">OleUIConvert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a>
  
 
  

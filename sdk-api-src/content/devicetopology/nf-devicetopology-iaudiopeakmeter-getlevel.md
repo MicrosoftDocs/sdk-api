@@ -62,7 +62,7 @@ The <b>GetLevel</b> method gets the peak level that the peak meter recorded for 
 
 ### -param nChannel [in]
 
-The channel number. If the audio stream has <i>N</i> channels, the channels are numbered from 0 to <i>N</i>– 1. To get the number of channels in the stream, call the <a href="https://msdn.microsoft.com/699b3689-1c3f-434e-97c5-3c5930683ad1">IAudioPeakMeter::GetChannelCount</a> method.
+The channel number. If the audio stream has <i>N</i> channels, the channels are numbered from 0 to <i>N</i>– 1. To get the number of channels in the stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount">IAudioPeakMeter::GetChannelCount</a> method.
 
 
 ### -param pfLevel [out]
@@ -114,11 +114,11 @@ Pointer <i>pfLevel</i> is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/524d83ff-4303-448c-a070-58d17dec03ba">IAudioPeakMeter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/699b3689-1c3f-434e-97c5-3c5930683ad1">IAudioPeakMeter::GetChannelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount">IAudioPeakMeter::GetChannelCount</a>
  
 
  

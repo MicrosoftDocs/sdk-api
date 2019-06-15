@@ -56,7 +56,7 @@ ms.custom: 19H1
 The 
 <b>FlushTrace</b> function causes an event tracing session to immediately deliver buffered events for the specified session. (An event tracing session does not deliver events until an active buffer is full.) 
 
-The <a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a> function supersedes this function.
+The <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">Co
 ### -param TraceHandle [in]
 
 Handle to the event tracing session for whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
-<a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
 
 
 ### -param InstanceName [in]
@@ -80,7 +80,7 @@ To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOG
 ### -param Properties [in, out]
 
 Pointer to an 
-initialized <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> structure. 
+initialized <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
 
 
 
@@ -98,7 +98,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some common errors and their causes.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -175,7 +175,7 @@ Note that it is not safe to flush buffers from DllMain.
 
 
 
-<a href="https://msdn.microsoft.com/c39f669c-ff40-40ed-ba47-798474ec2de4">ControlTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
  
 
  

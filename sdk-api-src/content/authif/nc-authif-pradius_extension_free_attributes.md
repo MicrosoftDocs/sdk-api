@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.  The content of this topic applies to both IAS and NPS. Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.</div><div> </div>The 
 <b>RadiusExtensionFreeAttributes</b> function is an application-defined function and is called by NPS to free the memory occupied by attributes returned by 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Pointer to an array of attributes. The
 <b>RadiusExtensionFreeAttributes</b> function should deallocate the memory occupied by these attributes.
 
 These attributes were returned in the <i>pOutAttrs</i> parameter in a previous call to the 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> function.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This callback function does not return a value.
 
 
 If you implement 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a>, you must also implement 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>, you must also implement 
 <b>RadiusExtensionFreeAttributes</b>.
 
 
@@ -93,19 +93,19 @@ If you implement
 
 
 
-<a href="https://msdn.microsoft.com/3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f">About NPS Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca217314-00f9-4f9d-a9fe-ed928b3c3b3d">NPS Extensions Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-functions">NPS Extensions Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7a16cb-bc64-4e81-8149-82f51c451312">NPS Extensions Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>
  
 
  

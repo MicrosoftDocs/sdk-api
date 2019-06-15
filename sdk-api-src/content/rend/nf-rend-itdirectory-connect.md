@@ -108,7 +108,7 @@ A successful connection has already been made.
 </td>
 <td width="60%">
 The server name is <b>NULL</b>, probably because 
-<a href="https://msdn.microsoft.com/ba492503-90ff-45dd-a39f-6d4451e57339">ITConferenceBlob::Init</a> has not been run or did not succeed.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/itconferenceblob-init">ITConferenceBlob::Init</a> has not been run or did not succeed.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ The server name is <b>NULL</b>, probably because
 
 The 
 <b>Connect</b> method must be successfully called before any other function except 
-<a href="https://msdn.microsoft.com/3f0ca4c2-4ba9-4a6e-877b-36486086368f">get_DirectoryType</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-get_directorytype">get_DirectoryType</a>.
 
 
 
@@ -134,7 +134,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/9ec8c0ed-2fed-4701-acb5-86b69c10f18c">ITDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
  
 
  

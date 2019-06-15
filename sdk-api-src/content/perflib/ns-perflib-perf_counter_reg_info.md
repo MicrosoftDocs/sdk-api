@@ -493,12 +493,12 @@ Reserved.
 
 
 
-The <a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <a href="https://msdn.microsoft.com/D220426F-7849-47DF-A411-5381FC39CA80">PERF_COUNTERSET_REG_INFO</a> block that
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block that
 contains one or more <b>PERF_COUNTER_REG_INFO</b> structures.
 
 
 
-The <a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to 
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to 
 <b>PERF_REG_COUNTER_STRUCT</b> gets a <b>PERF_COUNTER_REG_INFO</b> structure.
 
 
@@ -509,11 +509,11 @@ The <a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">Pe
 
 
 
-<a href="https://msdn.microsoft.com/D220426F-7849-47DF-A411-5381FC39CA80">PERF_COUNTERSET_REG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">PerfQueryCounterSetRegistrationInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>
  
 
  

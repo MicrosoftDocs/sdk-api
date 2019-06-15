@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LsaEnumerateLogonSessions</b> function retrieves the set of existing logon session identifiers (<a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUIDs</a>) and the number of sessions.
+The <b>LsaEnumerateLogonSessions</b> function retrieves the set of existing logon session identifiers (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUIDs</a>) and the number of sessions.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Pointer to a long integer that receives the number of elements returned in the a
 ### -param LogonSessionList [out]
 
 Address of a pointer to a LUID. The pointer receives the first element of an array of logon session identifiers. The memory used by the array is allocated by the LSA. When the array is no longer needed, call the 
-<a href="https://msdn.microsoft.com/e814ed68-07e7-4936-ba96-5411086f43f6">LSAFreeReturnBuffer</a> function to free it.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LSAFreeReturnBuffer</a> function to free it.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the function fails, the return value is an NTSTATUS code indicating the reaso
 
 
 To retrieve information about the logon sessions returned by <b>LsaEnumerateLogonSessions</b>, call the 
-<a href="https://msdn.microsoft.com/b1478a7a-f508-4b98-8c7b-adeb2f07bb86">LsaGetLogonSessionData</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsagetlogonsessiondata">LsaGetLogonSessionData</a> function.
 
 
 

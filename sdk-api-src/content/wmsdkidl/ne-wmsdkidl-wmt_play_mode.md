@@ -85,23 +85,23 @@ The reader will stream files from network locations.
 
 
 
-<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757432(v=VS.85).aspx">IWMReaderAdvanced2::GetDownloadProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getdownloadprogress">IWMReaderAdvanced2::GetDownloadProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757435(v=VS.85).aspx">IWMReaderAdvanced2::GetPlayMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getplaymode">IWMReaderAdvanced2::GetPlayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757440(v=VS.85).aspx">IWMReaderAdvanced2::SaveFileAs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-savefileas">IWMReaderAdvanced2::SaveFileAs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757443(v=VS.85).aspx">IWMReaderAdvanced2::SetPlayMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setplaymode">IWMReaderAdvanced2::SetPlayMode</a>
  
 
  

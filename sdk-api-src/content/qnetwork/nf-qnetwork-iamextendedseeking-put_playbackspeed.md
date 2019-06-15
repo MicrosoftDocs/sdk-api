@@ -79,11 +79,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389331(v=VS.85).aspx">IAMExtendedSeeking Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking">IAMExtendedSeeking Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389338(v=VS.85).aspx">IAMExtendedSeeking::get_PlaybackSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_playbackspeed">IAMExtendedSeeking::get_PlaybackSpeed</a>
  
 
  

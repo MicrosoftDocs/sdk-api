@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the color primaries of the video. This enumeration is used with the <a href="https://msdn.microsoft.com/2134fa6e-9e8e-4a83-9593-b5ae8c6d3e42">AVEncVideoInputColorPrimaries</a> and <a href="https://msdn.microsoft.com/f0369dee-12e4-4403-a0c4-6d840ad2552e">AVEncVideoOutputColorPrimaries</a> properties.
+Specifies the color primaries of the video. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoinputcolorprimaries-property">AVEncVideoInputColorPrimaries</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputcolorprimaries-property">AVEncVideoOutputColorPrimaries</a> properties.
 
 
 
@@ -110,11 +110,11 @@ SPMTE C (NTSC).
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

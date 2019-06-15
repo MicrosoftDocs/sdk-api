@@ -200,12 +200,12 @@ TAPI was not able to complete the operation.
 
 
 The application must use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a> to allocate memory for <i>pAddressIn</i> and use 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for <i>pAddressIn</i> and use 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The 
 <b>TranslateDialog</b> method is a COM wrapper for the TAPI 2.1 
-<a href="https://msdn.microsoft.com/c9fd7abb-3b4b-442b-badc-371a12724f67">LineTranslateDialog</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslatedialog">LineTranslateDialog</a> function.
 
 
 
@@ -215,15 +215,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1cd88f1-1ed7-4e7f-a745-9a9c4af69317">ITAddressTranslation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9fd7abb-3b4b-442b-badc-371a12724f67">LineTranslateDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslatedialog">LineTranslateDialog</a>
  
 
  

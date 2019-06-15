@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MBN_PROVIDER2</b> structure represents a network service provider. It is used by many of the provider-specific methods of the <a href="https://msdn.microsoft.com/E40517CE-3169-4F20-A572-EDBC8FEC2862">IMbnMultiCarrier</a> interface and provides an extension to <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> to support multi-carrier. This extension contains the signal strength of each provider, which helps to determine which provider a user should connect to.
+The <b>MBN_PROVIDER2</b> structure represents a network service provider. It is used by many of the provider-specific methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> interface and provides an extension to <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> to support multi-carrier. This extension contains the signal strength of each provider, which helps to determine which provider a user should connect to.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The <b>MBN_PROVIDER2</b> structure represents a network service provider. It is 
 
 ### -field provider
 
-Contains a single-carrier <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> structure.
+Contains a single-carrier <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
 
 
 ### -field cellularClass
 
-Contains a <a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a007">MBN_CELLULAR_CLASS</a> that specifies which cellular class the provider uses.
+Contains a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a> that specifies which cellular class the provider uses.
 
 
 ### -field signalStrength
@@ -81,12 +81,12 @@ Contains a <a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a
 
 #### - SignalError
 
-Contains the signal error rate as defined by <a href="https://msdn.microsoft.com/028adb54-9c81-4a5b-85f7-5c12ce8d84e4">GetSignalError</a>.
+Contains the signal error rate as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalerror">GetSignalError</a>.
 
 
 #### - SignalStrength
 
-Contains the signal quality received by the device as defined by <a href="https://msdn.microsoft.com/9a580232-4cd2-42f4-a6c7-f777d78241b6">GetSignalStrength</a>.
+Contains the signal quality received by the device as defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignal-getsignalstrength">GetSignalStrength</a>.
 
 
 ## -see-also
@@ -94,7 +94,7 @@ Contains the signal quality received by the device as defined by <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a>
  
 
  

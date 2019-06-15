@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>Open</b> method opens this phone device. The phone device remains open until the application calls 
-<a href="https://msdn.microsoft.com/1eae1a14-dd5e-4ba9-8e6e-71e9956cb3e3">ITPhone::Close</a> or until TAPI is shut down.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-close">ITPhone::Close</a> or until TAPI is shut down.
 
 This method is analogous to the TAPI 2.<i>x</i>
-<a href="https://msdn.microsoft.com/8fba6d5e-0d8c-488f-a17c-4852b487e300">phoneOpen</a> function; please see the TAPI 2.<i>x</i> documentation for more information.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneopen">phoneOpen</a> function; please see the TAPI 2.<i>x</i> documentation for more information.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ This method is analogous to the TAPI 2.<i>x</i>
 ### -param Privilege [in]
 
 The 
-<a href="https://msdn.microsoft.com/f1c162c6-058d-4cf2-a493-17b7752ffeeb">PHONE_PRIVILEGE</a> descriptor for the application's privilege status with respect to the phone device.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-phone_privilege">PHONE_PRIVILEGE</a> descriptor for the application's privilege status with respect to the phone device.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 While a phone is open, the application receives events pertaining to the phone.
 
 Also, a phone must be open with owner privilege for the application to set the state of the phone. Querying the state of the phone can typically be done even if the phone is not open; for more details, see the individual methods of the 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a> interface.
 
 
 
@@ -94,7 +94,7 @@ Also, a phone must be open with owner privilege for the application to set the s
 
 
 
-<a href="https://msdn.microsoft.com/94dff33c-67a1-4df8-9ef5-2b6524438f6f">ITPhone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
  
 
  

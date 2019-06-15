@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/86C1990E-958C-46D7-840A-E4A17F1D1740">Turbulence effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/turbulence">Turbulence effect</a>.
         
 
 
@@ -69,7 +69,7 @@ The algorithm used to generate the Perlin noise is position dependent, so a diff
 
 <div class="alert"><b>Note</b>  The offset does not have the same effect as a translation because the noise function output is infinite and the function will wrap around the tile.</div>
 <div> </div>
-The type is <a href="https://msdn.microsoft.com/DD180090-D2F4-4DF3-8652-101713C01AE4">D2D1_VECTOR_2F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
             
 
 The default value is {0.0f, 0.0f}.
@@ -87,7 +87,7 @@ A value of 1 (1/DIPs) for the base frequency results in the Perlin noise complet
 
 A value of 0.1(1/DIPs) for the base frequency, the Perlin noise function repeats every 10 DIPs. This results in correlation between pixels and the typical turbulence effect is visible.
 
-The type is <a href="https://msdn.microsoft.com/DD180090-D2F4-4DF3-8652-101713C01AE4">D2D1_VECTOR_2F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_2f">D2D1_VECTOR_2F</a>.
             
 
 The default value is {0.01f, 0.01f}.
@@ -118,7 +118,7 @@ The default value is 0.
 The turbulence noise mode. This property can be either fractal sum or turbulence. Indicates whether to generate a bitmap based on Fractal Noise or the Turbulence function. 
             
 
-The type is <a href="https://msdn.microsoft.com/6D2C57B9-AE6E-43CF-AF76-299BC7FCFC06">D2D1_TURBULENCE_NOISE</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_turbulence_noise">D2D1_TURBULENCE_NOISE</a>.
             
 
 The default value is D2D1_TURBULENCE_NOISE_FRACTAL_SUM.

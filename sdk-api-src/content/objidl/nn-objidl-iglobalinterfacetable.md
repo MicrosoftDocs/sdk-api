@@ -54,7 +54,7 @@ Enables any apartment in a process to get access to an interface implemented on 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGlobalInterfaceTable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGlobalInterfaceTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IGlobalInterfaceTable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b37184d-c4e8-47b2-8f3f-008d3ea00759">GetInterfaceFromGlobal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal">GetInterfaceFromGlobal</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface on an object that is usable by the calling apartment.
@@ -78,7 +78,7 @@ Retrieves a pointer to an interface on an object that is usable by the calling a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5282b0b8-4eab-4114-8061-6d74db3756b7">RegisterInterfaceInGlobal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal">RegisterInterfaceInGlobal</a>
 </td>
 <td align="left" width="63%">
 Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.
@@ -87,7 +87,7 @@ Registers the specified interface on an object residing in one apartment of a pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/202bf33a-5827-4cbf-b977-86167a9c633f">RevokeInterfaceFromGlobal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal">RevokeInterfaceFromGlobal</a>
 </td>
 <td align="left" width="63%">
 Revokes the registration of an interface in the global interface table.

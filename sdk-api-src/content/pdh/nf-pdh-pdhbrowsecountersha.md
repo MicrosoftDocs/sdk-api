@@ -55,7 +55,7 @@ Displays a <b>Browse Counters</b> dialog box that the user can use to select one
 			
 
 This function is identical to 
-the <a href="https://msdn.microsoft.com/4e9e4b20-a573-4f6d-97e8-63bcc675032b">PdhBrowseCounters</a> function, except that it supports the use of handles to data sources.
+the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowsecountersa">PdhBrowseCounters</a> function, except that it supports the use of handles to data sources.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ the <a href="https://msdn.microsoft.com/4e9e4b20-a573-4f6d-97e8-63bcc675032b">Pd
 ### -param pBrowseDlgData [in]
 
 A 
-<a href="https://msdn.microsoft.com/db30ff94-3238-45a0-a78e-8b3cd00ec79c">PDH_BROWSE_DLG_CONFIG_H</a> structure that specifies the behavior of the dialog box.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_ha">PDH_BROWSE_DLG_CONFIG_H</a> structure that specifies the behavior of the dialog box.
 
 
 ## -returns
@@ -77,8 +77,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 
 
@@ -98,43 +98,43 @@ Note that the dialog
 
 
 
-<a href="https://msdn.microsoft.com/db30ff94-3238-45a0-a78e-8b3cd00ec79c">PDH_BROWSE_DLG_CONFIG_H</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_browsedlgconfig_ha">PDH_BROWSE_DLG_CONFIG_H</a>
 
 
 
-<a href="https://msdn.microsoft.com/eaed9b28-eb09-4123-9317-5d3d50e2d77a">PdhBindInputDataSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e8dc113-76a7-4a7a-bbad-1a4387831501">PdhEnumMachinesH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenummachinesha">PdhEnumMachinesH</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cea7d0a-cea2-4fee-a087-37663de254e9">PdhEnumObjectItemsH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f68a7a8-cc56-4f7f-a86f-4b439738808d">PdhEnumObjectsH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7d13beb-02ab-4204-808e-d395197f09e1">PdhExpandWildCardPathH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpathha">PdhExpandWildCardPathH</a>
 
 
 
-<a href="https://msdn.microsoft.com/55cfef46-999d-43fa-9b09-9d8916fbf755">PdhGetDataSourceTimeRangeH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetdatasourcetimerangeh">PdhGetDataSourceTimeRangeH</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1b3de9a-99ab-4339-8e9f-906f5a5d291d">PdhGetDefaultPerfCounterH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetdefaultperfcounterha">PdhGetDefaultPerfCounterH</a>
 
 
 
-<a href="https://msdn.microsoft.com/4950d5b7-3a6f-410d-830f-7868aa84f6d5">PdhGetDefaultPerfObjectH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetdefaultperfobjectha">PdhGetDefaultPerfObjectH</a>
 
 
 
-<a href="https://msdn.microsoft.com/068c55da-d7e0-4111-91c8-a2bbd676f99d">PdhOpenQueryH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenqueryh">PdhOpenQueryH</a>
  
 
  

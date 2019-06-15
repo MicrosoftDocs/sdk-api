@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls <a href="https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a> if it exists, otherwise it emulates it.
+Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> if it exists, otherwise it emulates it.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Posts messages when the mouse pointer leaves a window or hovers over a window fo
 
 Type: <b>LPTRACKMOUSEEVENT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a> structure that contains tracking information. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtrackmouseevent">TRACKMOUSEEVENT</a> structure that contains tracking information. 
 
 
 ## -returns
@@ -86,7 +86,7 @@ If the function fails, return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -98,15 +98,15 @@ If the function fails, return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtrackmouseevent">TRACKMOUSEEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a>
  
 
  

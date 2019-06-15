@@ -64,7 +64,7 @@ There are no errors.
 
 ### -field CORRECTIVE_ACTION_GET_SUGGESTIONS
 
-The user should be prompted with a list of suggestions as returned by <a href="https://msdn.microsoft.com/bd6b1d90-8dc0-4640-a43a-678b43e55cb5">ISpellChecker::Suggest</a>.
+The user should be prompted with a list of suggestions as returned by <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-suggest">ISpellChecker::Suggest</a>.
 
 
 ### -field CORRECTIVE_ACTION_REPLACE
@@ -82,11 +82,11 @@ The user should be prompted to delete the indicated erroneous text.
 
 
 
-<a href="https://msdn.microsoft.com/bd6b1d90-8dc0-4640-a43a-678b43e55cb5">ISpellChecker::Suggest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-suggest">ISpellChecker::Suggest</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b28d194-01a3-4ea2-8428-d2e91e6abad8">ISpellingError::CorrectiveAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellingerror-get_correctiveaction">ISpellingError::CorrectiveAction</a>
  
 
  

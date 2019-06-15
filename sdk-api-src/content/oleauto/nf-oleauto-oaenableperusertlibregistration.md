@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables the <a href="https://msdn.microsoft.com/d0559a57-b1a4-4036-97ed-024d775cb595">RegisterTypeLib</a> function to override default registry mappings under Windows Vista Service Pack 1 (SP1), Windows Server 2008, and later operating system versions.
+Enables the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> function to override default registry mappings under Windows Vista Service Pack 1 (SP1), Windows Server 2008, and later operating system versions.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ This function does not return a value.
 
 
 
-Consider the following scenario: You are running an application on a computer that is running Windows Vista SP1 or later. In your application, you have overridden the HKEY_CLASSES_ROOT registry subtree and mapped it to another registry subtree. (For example, perhaps you mapped HKEY_CLASSES_ROOT to HKEY_CURRENT_USER.) You then attempt to register a type library by calling <a href="https://msdn.microsoft.com/d0559a57-b1a4-4036-97ed-024d775cb595">RegisterTypeLib</a>, and you receive an "access denied" error message. Additionally, <b>RegisterTypeLib</b> returns the TYPE_E_REGISTRYACCESS (0x8002801c) value.
+Consider the following scenario: You are running an application on a computer that is running Windows Vista SP1 or later. In your application, you have overridden the HKEY_CLASSES_ROOT registry subtree and mapped it to another registry subtree. (For example, perhaps you mapped HKEY_CLASSES_ROOT to HKEY_CURRENT_USER.) You then attempt to register a type library by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a>, and you receive an "access denied" error message. Additionally, <b>RegisterTypeLib</b> returns the TYPE_E_REGISTRYACCESS (0x8002801c) value.
 
 
 
@@ -86,13 +86,13 @@ You can resolve this problem in one of two ways:
 
 <ul>
 <li>
-Use the <b>OaEnablePerUserTLibRegistration</b> function. Before your application calls <a href="https://msdn.microsoft.com/d0559a57-b1a4-4036-97ed-024d775cb595">RegisterTypeLib</a>, it should call <b>OaEnablePerUserTLibRegistration</b>. This enables <b>RegisterTypeLib</b> to accept the registry override mapping. The <b>OaEnablePerUserTLibRegistration</b> function is exported from the Oleaut32.dll file. You must reference this file by using run-time dynamic linking and the <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> function.
+Use the <b>OaEnablePerUserTLibRegistration</b> function. Before your application calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a>, it should call <b>OaEnablePerUserTLibRegistration</b>. This enables <b>RegisterTypeLib</b> to accept the registry override mapping. The <b>OaEnablePerUserTLibRegistration</b> function is exported from the Oleaut32.dll file. You must reference this file by using run-time dynamic linking and the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function.
 
 
 
 </li>
 <li>
-Set the OAPERUSERTLIBREG environment variable. <a href="https://msdn.microsoft.com/d0559a57-b1a4-4036-97ed-024d775cb595">RegisterTypeLib</a> will check the value of this variable. If the value of OAPERUSERTLIBREG is 1, <b>RegisterTypeLib</b> will use the appropriate override mapping. Because this environment variable is read during the initialization of the <b>DLLMain</b> function, you must set the variable before you run your application. To do this, run one of the following commands at a command prompt:
+Set the OAPERUSERTLIBREG environment variable. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> will check the value of this variable. If the value of OAPERUSERTLIBREG is 1, <b>RegisterTypeLib</b> will use the appropriate override mapping. Because this environment variable is read during the initialization of the <b>DLLMain</b> function, you must set the variable before you run your application. To do this, run one of the following commands at a command prompt:
 
 
 

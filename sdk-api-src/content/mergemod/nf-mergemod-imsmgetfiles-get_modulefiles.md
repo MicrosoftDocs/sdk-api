@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <b>get_ModuleFiles</b> method retrieves the 
-<a href="https://msdn.microsoft.com/e1c8049c-b271-4def-abde-89ea99393574">ModuleFiles</a> property of the 
-<a href="https://msdn.microsoft.com/f3bf64ec-75f7-43a6-bbd8-a51508c57002">GetFiles</a> object. This method returns the primary keys in the 
-<a href="https://msdn.microsoft.com/31d0e727-a9eb-4cd2-a211-ea7b138d0173">File table</a> of the currently open module. The primary keys are returned as a collection of strings. The module must be opened by a call to the 
-<a href="https://msdn.microsoft.com/37225e61-c24f-4a44-8fdf-673590a6e09d">OpenModule</a> function before calling 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/getfiles-modulefiles">ModuleFiles</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/getfiles-object">GetFiles</a> object. This method returns the primary keys in the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/file-table">File table</a> of the currently open module. The primary keys are returned as a collection of strings. The module must be opened by a call to the 
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-openmodule">OpenModule</a> function before calling 
 <b>get_ModuleFiles</b>.
 
 
@@ -66,7 +66,7 @@ The
 ### -param Files [out]
 
 Collection of IMsmStrings that are the primary keys of the 
-<a href="https://msdn.microsoft.com/31d0e727-a9eb-4cd2-a211-ea7b138d0173">File table</a> for the currently open module.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/file-table">File table</a> for the currently open module.
 
 
 ## -returns
@@ -157,7 +157,7 @@ The function failed.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

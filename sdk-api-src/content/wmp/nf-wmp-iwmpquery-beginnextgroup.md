@@ -106,19 +106,19 @@ Beginning a new condition group implies that you have completed the current cond
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563407(v=VS.85).aspx">IWMPMediaCollection2::createQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-createquery">IWMPMediaCollection2::createQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563409(v=VS.85).aspx">IWMPMediaCollection2::getPlaylistByQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getplaylistbyquery">IWMPMediaCollection2::getPlaylistByQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563410(v=VS.85).aspx">IWMPMediaCollection2::getStringCollectionByQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection2-getstringcollectionbyquery">IWMPMediaCollection2::getStringCollectionByQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563630(v=VS.85).aspx">IWMPQuery Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpquery">IWMPQuery Interface</a>
  
 
  

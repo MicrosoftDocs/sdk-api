@@ -71,7 +71,7 @@ Any administrator on the local computer.
 
 
 
-The AutomaticUpdatesUserType is used in conjunction with the <a href="https://msdn.microsoft.com/fbf36d9f-98c1-4b9d-b479-a9203b6ce952">IAutomaticUpdatesSettings2::CheckPermission</a> method.
+The AutomaticUpdatesUserType is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings2-checkpermission">IAutomaticUpdatesSettings2::CheckPermission</a> method.
 
 
 

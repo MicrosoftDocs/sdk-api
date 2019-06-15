@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Optional parameters for configuring the service proxy. With an exception of
                 <b>WS_PROXY_PROPERTY_STATE</b> all the values are only supported for 
-                use with <a href="https://msdn.microsoft.com/9215684b-979e-48ad-b4ee-2ae1db1e3034">WsCreateServiceProxy</a> as part of the <a href="https://msdn.microsoft.com/eb8ce473-bf9e-4eae-8c40-8e2972a26d41">WS_PROXY_PROPERTY*</a> parameter. 
+                use with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateserviceproxy">WsCreateServiceProxy</a> as part of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_proxy_property">WS_PROXY_PROPERTY*</a> parameter. 
             
 
 
@@ -81,7 +81,7 @@ This property allows the user to specify properties of the message
 This property may be specified when the service proxy is created.
                 
 
-The value specified should be of type <a href="https://msdn.microsoft.com/74ad74fd-457a-4408-8032-15d365f98b14">WS_MESSAGE_PROPERTIES</a>.
+The value specified should be of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_message_properties">WS_MESSAGE_PROPERTIES</a>.
                 
 
 The following message properties may be specified:
@@ -89,16 +89,16 @@ The following message properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
 </li>
 </ul>
 
@@ -117,7 +117,7 @@ This property is write only.
 ### -field WS_PROXY_PROPERTY_STATE
 
 The current state of the service proxy.
-                It is of type <a href="https://msdn.microsoft.com/82156e64-ae95-4a4a-aaad-e3dd69832c97">WS_SERVICE_PROXY_STATE</a>.
+                It is of type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_proxy_state">WS_SERVICE_PROXY_STATE</a>.
 
 This property is read only.
                 
@@ -132,7 +132,7 @@ The returned value is a snapshot of the current state, so it is
 
 The maximum number of pending calls allowed on the service proxy. If the 
                     maximum number of calls pending on the service proxy reaches this limit, the
-                    incoming calls will be rejected with <b>WS_E_QUOTA_EXCEEDED</b> (see <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>). The default value 
+                    incoming calls will be rejected with <b>WS_E_QUOTA_EXCEEDED</b> (see <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>). The default value 
                     for this property is 100.
                  It is of type <b>ULONG</b>.
 
@@ -155,7 +155,7 @@ This property is write only.
 
 ### -field WS_PROXY_FAULT_LANG_ID
 
-The LANGID that would be used for returning a fault. If none specified default user locale will be used. It is of type <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">LANGID</a>. 
+The LANGID that would be used for returning a fault. If none specified default user locale will be used. It is of type <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">LANGID</a>. 
                 
 
 This property is write only.

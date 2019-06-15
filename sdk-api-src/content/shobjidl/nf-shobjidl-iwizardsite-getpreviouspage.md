@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
+Called when the user navigates backward out of the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that is before the wizard extension page.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Called when the user navigates backward out of the wizard extension. Gets the ha
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a variable handle of type <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page that comes immediately before the wizard extension page.
+A pointer to a variable handle of type <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page that comes immediately before the wizard extension page.
 
 
 ## -returns

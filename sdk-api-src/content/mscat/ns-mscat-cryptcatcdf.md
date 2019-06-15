@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CRYPTCATCDF</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTCATCDF</b> structure contains information used to create a signed catalog file (.cat) from a  catalog definition file (CDF). This structure is used by the <a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a> tool.
+The <b>CRYPTCATCDF</b> structure contains information used to create a signed catalog file (.cat) from a  catalog definition file (CDF). This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a> tool.
 
 
 ## -struct-fields
@@ -108,27 +108,27 @@ A parser can update <i>dwCurFilePos</i> and <i>dwLastMemberOffset</i> as it read
 
 
 
-<a href="https://msdn.microsoft.com/9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec">CryptCATCDFClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/056a5186-a37c-4255-aaa5-4c6e60f5392e">CryptCATCDFEnumAttributesWithCDFTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptcatcdfenumattributeswithcdftag">CryptCATCDFEnumAttributesWithCDFTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/01889cb9-7bf4-4591-9bb2-b263c4effe0c">CryptCATCDFEnumCatAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfenumcatattributes">CryptCATCDFEnumCatAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/38e17ef2-65dc-45f8-a484-8eedcf4ce3e3">CryptCATCDFEnumMembersByCDFTagEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptcatcdfenummembersbycdftagex">CryptCATCDFEnumMembersByCDFTagEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d400d8bd-c0a0-41dc-9093-8e4fc758d82f">CryptCATCDFOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfopen">CryptCATCDFOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
  
 
  

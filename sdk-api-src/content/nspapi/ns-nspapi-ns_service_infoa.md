@@ -205,7 +205,7 @@ The X.500 directory service namespace.
 Type: <b>SERVICE_INFO</b>
 
 A 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a> structure that contains information about a network service or network service type.
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a> structure that contains information about a network service or network service type.
 
 
 ## -see-also
@@ -213,7 +213,7 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/e76e0c1b-8cbf-45ad-a685-fb672801c24d">SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-_service_infoa">SERVICE_INFO</a>
  
 
  

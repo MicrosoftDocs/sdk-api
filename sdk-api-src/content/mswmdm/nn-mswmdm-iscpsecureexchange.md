@@ -57,7 +57,7 @@ The <b>ISCPSecureExchange</b> interface is used to exchange secured content and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISCPSecureExchange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureExchange</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSecureExchange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ISCPSecureExchange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/825539e4-9162-40b7-bae0-336e728fb34e">ObjectData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata">ObjectData</a>
 </td>
 <td align="left" width="63%">
 Transfers a block of object data to Windows Media Device Manager.
@@ -81,7 +81,7 @@ Transfers a block of object data to Windows Media Device Manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a7a6de0-ab37-4764-8feb-82676e1e62ab">TransferComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">TransferComplete</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Device Manager to signal the end of a secure transfer of data.
@@ -90,7 +90,7 @@ Called by Windows Media Device Manager to signal the end of a secure transfer of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97b55751-b45e-4204-87e2-1e653d55a718">TransferContainerData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">TransferContainerData</a>
 </td>
 <td align="left" width="63%">
 Transfers container file data to the secure content provider.
@@ -105,15 +105,15 @@ Transfers container file data to the secure content provider.
 
 
 
-<a href="https://msdn.microsoft.com/815fd9b9-2186-40e2-8d72-e6bf91fd45c9">ISCPSecureExchange2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange2">ISCPSecureExchange2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2617a6af-c91d-4416-8bef-fe69404e7c3f">ISCPSecureExchange3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange3">ISCPSecureExchange3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3eecdb8-55a9-46e3-95d1-0fb9bd59f393">Interfaces for Secure Content Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
  
 
  

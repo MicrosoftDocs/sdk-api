@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>NotifyRelease</code> method notifies the resource manager that <a href="https://msdn.microsoft.com/dda2b207-dcd8-42df-95a3-d4bfbb4a7fd8">IResourceConsumer</a> has released a resource.
+The <code>NotifyRelease</code> method notifies the resource manager that <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> has released a resource.
 
 
 
@@ -152,7 +152,7 @@ Success.
 
 
 
-Use this method in response to an <a href="https://msdn.microsoft.com/9f0a5830-dcaa-4020-9e78-0cbe64e13360">IResourceConsumer::ReleaseResource</a> method, or when you have finished using the resource.
+Use this method in response to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-releaseresource">IResourceConsumer::ReleaseResource</a> method, or when you have finished using the resource.
 
 
 
@@ -162,11 +162,11 @@ Use this method in response to an <a href="https://msdn.microsoft.com/9f0a5830-d
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cbe908e-5675-4134-81e7-2c5c31b0ffc5">IResourceManager Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
  
 
  

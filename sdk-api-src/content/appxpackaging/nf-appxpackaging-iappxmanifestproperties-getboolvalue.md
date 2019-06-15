@@ -59,7 +59,7 @@ Gets the value of the specified Boolean element in the properties section.
 
 ### -param name [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the Boolean element. Valid values include:
 
@@ -70,7 +70,7 @@ The name of the Boolean element. Valid values include:
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 The value of the specified Boolean element.
 
@@ -100,7 +100,7 @@ If a valid Boolean property with this name is not defined in the manifest, this 
 
 
 
-<a href="https://msdn.microsoft.com/5DA0A805-13D3-4977-8EFB-45E8B51AAF60">IAppxManifestProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestproperties">IAppxManifestProperties</a>
  
 
  

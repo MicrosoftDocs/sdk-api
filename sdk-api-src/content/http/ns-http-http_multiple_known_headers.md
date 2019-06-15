@@ -59,7 +59,7 @@ The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure specifies the headers that are 
 
 ### -field HeaderId
 
-A member of the <a href="https://msdn.microsoft.com/6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc">HTTP_HEADER_ID</a> enumeration specifying the response header ID.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_header_id">HTTP_HEADER_ID</a> enumeration specifying the response header ID.
 
 
 ### -field Flags
@@ -92,7 +92,7 @@ The number of elements in  the array specified in the  <b>KnownHeaders</b> membe
 
 ### -field KnownHeaders
 
-A pointer to the first element in the array of <a href="https://msdn.microsoft.com/3f6c295c-f2c1-4070-a79e-9bb1e684ef92">HTTP_KNOWN_HEADER</a> structures.
+A pointer to the first element in the array of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_known_header">HTTP_KNOWN_HEADER</a> structures.
 
 
 ## -remarks
@@ -101,7 +101,7 @@ A pointer to the first element in the array of <a href="https://msdn.microsoft.c
 
 The HTTP version 1.0 API allows applications to send only one known response header with the response. Starting with the HTTP version 2.0 API, applications are enabled to send multiple known response headers.
 
-The <b>pInfo</b>  member of the <a href="https://msdn.microsoft.com/29422116-0a33-4553-98aa-785bb926dee0">HTTP_RESPONSE_INFO</a> structure points to this structure when the application provides multiple known headers on a response. The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a> structure starting with HTTP version 2.0.
+The <b>pInfo</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a> structure points to this structure when the application provides multiple known headers on a response. The <b>HTTP_RESPONSE_INFO</b> structure extends the <a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a> structure starting with HTTP version 2.0.
 
 The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure enables server applications to send multiple authentication challenges to the client. 
 
@@ -113,15 +113,15 @@ The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure enables server applications to 
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/29422116-0a33-4553-98aa-785bb926dee0">HTTP_RESPONSE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_info">HTTP_RESPONSE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/1900741e-f466-4826-b376-36170176c30a">HTTP_RESPONSE_V2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_response_v2">HTTP_RESPONSE_V2</a>
  
 
  

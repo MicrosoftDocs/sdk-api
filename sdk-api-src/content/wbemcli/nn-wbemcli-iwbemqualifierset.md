@@ -54,13 +54,13 @@ ms.custom: 19H1
 
 The 
 <b>IWbemQualifierSet</b> interface acts as a container for the entire set of named qualifiers for a single property or entire object (a class or instance). The contents of the container depend on how the pointer was obtained. If the pointer was obtained from 
-<a href="https://msdn.microsoft.com/da86b723-8126-44b9-95ec-120d88390ef3">IWbemClassObject::GetQualifierSet</a>, the object consists of the set of qualifiers for an entire object. If the pointer was obtained from 
-<a href="https://msdn.microsoft.com/4bfca42e-7688-42e1-afa3-24b7eaaad9fe">IWbemClassObject::GetPropertyQualifierSet</a>, then the object represents the qualifiers for a particular property.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getqualifierset">IWbemClassObject::GetQualifierSet</a>, the object consists of the set of qualifiers for an entire object. If the pointer was obtained from 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset">IWbemClassObject::GetPropertyQualifierSet</a>, then the object represents the qualifiers for a particular property.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemQualifierSet</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemQualifierSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemQualifierSet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemQualifierSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWbemQualifierSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57fa60d1-54d2-412d-b39b-c35dfd709d0c">BeginEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">BeginEnumeration</a>
 </td>
 <td align="left" width="63%">
 Resets prior to an enumeration of all qualifiers.
@@ -84,7 +84,7 @@ Resets prior to an enumeration of all qualifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77e61fd1-a835-4ed7-8880-9eab65611ebc">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes the specified named qualifier.
@@ -93,7 +93,7 @@ Deletes the specified named qualifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/317409e9-b098-404b-bc09-78b5b5ae7fc7">EndEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-endenumeration">EndEnumeration</a>
 </td>
 <td align="left" width="63%">
 Ends an enumeration of qualifiers.
@@ -102,7 +102,7 @@ Ends an enumeration of qualifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4663cd1-0dc9-4021-918e-d5eda1648429">Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-get">Get</a>
 </td>
 <td align="left" width="63%">
 Reads a particular named qualifier.
@@ -111,7 +111,7 @@ Reads a particular named qualifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1e7f6b2-a204-4e00-87eb-686bf8696082">GetNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-getnames">GetNames</a>
 </td>
 <td align="left" width="63%">
 Gets the names of qualifiers subject to certain filters.
@@ -120,7 +120,7 @@ Gets the names of qualifiers subject to certain filters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76afa293-1bd9-442b-bc9b-2247459bd49c">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next qualifier during an enumeration of all qualifiers.
@@ -129,7 +129,7 @@ Gets the next qualifier during an enumeration of all qualifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad602440-dc19-45cf-bf10-a30f514e00bb">Put</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-put">Put</a>
 </td>
 <td align="left" width="63%">
 Writes a particular named qualifier.
@@ -144,10 +144,10 @@ Writes a particular named qualifier.
 
 
 It is strongly recommended that Windows Management dynamic providers never implement this interface because  WMI provides the implementation. For more information, see 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>.
 
 Within WMI, this interface is always in-process. Put operations only affect the local copy of the object. Get operations retrieve values from the local copy. Updates are performed only when entire objects are read or written using methods on the 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface.
 
 
 
@@ -157,7 +157,7 @@ Within WMI, this interface is always in-process. Put operations only affect the 
 
 
 
-<a href="https://msdn.microsoft.com/5fa8f1b5-fd19-4d45-9b53-bc7089eecdb1">COM API for WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
  
 
  

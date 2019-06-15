@@ -51,7 +51,7 @@ ms.custom: 19H1
 
  Analyzes a text range for potential breakpoint opportunities, reading
      attributes from the source and reporting breakpoint opportunities to
-     the sink callback <a href="https://msdn.microsoft.com/423f1f0e-b2bd-48b6-aa3b-c79a2b542d5d">SetLineBreakpoints</a>.
+     the sink callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalysissink-setlinebreakpoints">SetLineBreakpoints</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ ms.custom: 19H1
 
 ### -param analysisSource
 
-Type: <b><a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissource">IDWriteTextAnalysisSource</a>*</b>
 
 A pointer to the source object to analyze.
 
@@ -82,7 +82,7 @@ The text length to analyze.
 
 ### -param analysisSink
 
-Type: <b><a href="https://msdn.microsoft.com/1fd2ca46-006c-4b01-8258-6c24f4be1641">IDWriteTextAnalysisSink</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalysissink">IDWriteTextAnalysisSink</a>*</b>
 
 A pointer to the  sink callback object that receives the text analysis.
 
@@ -116,7 +116,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e832ffc4-31db-41b1-a008-04696d9a975e">IDWriteTextAnalyzer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>
  
 
  

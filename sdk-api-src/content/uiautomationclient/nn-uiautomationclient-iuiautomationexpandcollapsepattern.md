@@ -54,7 +54,7 @@ Provides access to a control  that can visually expand to display content, and c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationExpandCollapsePattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationExpandCollapsePattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationExpandCollapsePattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationExpandCollapsePattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationExpandCollapsePattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9337d2dd-08db-4af7-ad65-e113811dd7ba">Collapse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationexpandcollapsepattern-collapse">Collapse</a>
 </td>
 <td align="left" width="63%">
 Hides all child nodes, controls, or content of the element.
@@ -79,7 +79,7 @@ Hides all child nodes, controls, or content of the element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc21cffc-63fe-4c5d-9c4d-35e1bab67a7c">Expand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationexpandcollapsepattern-expand">Expand</a>
 </td>
 <td align="left" width="63%">
 Displays all child nodes, controls, or content of the element. 
@@ -97,7 +97,7 @@ Displays all child nodes, controls, or content of the element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fa95dcb8-487b-49ef-b04d-8a84eb2334e0">CachedExpandCollapseState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationexpandcollapsepattern-get_cachedexpandcollapsestate">CachedExpandCollapseState</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Retrieves a cached value that indicates the state, expanded or collapsed, of the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/abd21a19-c7a0-44db-ad5b-64c476efa400">CurrentExpandCollapseState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationexpandcollapsepattern-get_currentexpandcollapsestate">CurrentExpandCollapseState</a>
 
 
 </td>
@@ -134,7 +134,7 @@ Retrieves a value that indicates the state, expanded or collapsed, of the elemen
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

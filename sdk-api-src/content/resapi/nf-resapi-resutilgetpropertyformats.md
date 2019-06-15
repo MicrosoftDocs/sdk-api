@@ -59,7 +59,7 @@ Returns a property format list describing the format of a specified set of prope
 
 ### -param pPropertyTable [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/f65ee50f-59f7-44db-ad69-b29b3e693c7e">RESUTIL_PROPERTY_ITEM</a> property 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> property 
        table specifying the properties whose formats are to be retrieved.
 
 
@@ -101,15 +101,15 @@ Returns <b>ERROR_SUCCESS</b> if the operation was successful.
 
 
 
-<a href="https://msdn.microsoft.com/29f87a9c-98e2-46c0-94a0-634924e07930">CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cluster-get-common-property-fmts">CLUSCTL_CLUSTER_GET_COMMON_PROPERTY_FMTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/03ba13be-39ea-4352-8218-18f4ed52bd99">General Utility Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/general-utility-functions">General Utility Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f65ee50f-59f7-44db-ad69-b29b3e693c7e">RESUTIL_PROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
  
 
  

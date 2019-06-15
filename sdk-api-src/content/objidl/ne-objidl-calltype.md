@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the call types used by <a href="https://msdn.microsoft.com/7e31b518-ef4f-4bdd-b5c7-e1b16383a5be">IMessageFilter::HandleInComingCall</a>. 
+Specifies the call types used by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>. 
 
 
 
@@ -89,7 +89,7 @@ An asynchronous call has arrived with a new logical thread identifier and the ob
 
 
 
-<a href="https://msdn.microsoft.com/7e31b518-ef4f-4bdd-b5c7-e1b16383a5be">IMessageFilter::HandleInComingCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>
  
 
  

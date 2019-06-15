@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the data type of the buffer returned by the <a href="https://msdn.microsoft.com/007b3f3a-c320-4bbc-ab5c-746b513cb815">SLGetWindowsInformation</a> function.
+Specifies the data type of the buffer returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> function.
 
 
 ## -enum-fields

@@ -59,7 +59,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates the locales in a specified language group. <div class="alert"><b>Note</b>  For custom locales, your application should call <a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a> in preference to <b>EnumLanguageGroupLocales</b>.</div>
+Enumerates the locales in a specified language group. <div class="alert"><b>Note</b>  For custom locales, your application should call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> in preference to <b>EnumLanguageGroupLocales</b>.</div>
 <div> </div>
 
 
@@ -71,7 +71,7 @@ Enumerates the locales in a specified language group. <div class="alert"><b>Note
 
 ### -param lpLangGroupLocaleEnumProc [in]
 
-Pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/e422c61f-7a97-4f95-8592-22a1eb5f616b">EnumLanguageGroupLocalesProc</a>.
+Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca">EnumLanguageGroupLocalesProc</a>.
 
 
 ### -param LanguageGroup [in]
@@ -128,7 +128,7 @@ An application-defined value to pass to the callback function. This value can be
 
 
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_BADDB. The function could not access the data. This situation should not normally occur, and typically indicates a bad installation, a disk problem, or the like.</li>
@@ -152,27 +152,27 @@ This function enumerates locales in the specified language group by passing loca
 
 
 
-<a href="https://msdn.microsoft.com/e422c61f-7a97-4f95-8592-22a1eb5f616b">EnumLanguageGroupLocalesProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-langgrouplocale_enumproca">EnumLanguageGroupLocalesProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cc2335e-b222-44d9-a966-4b6803639071">EnumSystemLanguageGroups</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlanguagegroupsa">EnumSystemLanguageGroups</a>
 
 
 
-<a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/68cf09f8-fe97-4035-94b6-886ca26bbf3e">IsValidLanguageGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlanguagegroup">IsValidLanguageGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

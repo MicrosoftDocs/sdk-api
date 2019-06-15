@@ -102,8 +102,8 @@ A read or write failure occurred during the copy-on-write operation when data wa
 This failure means that either the shadow copy storage area is full or the shadow copy storage area volume is full. After clearing the protection fault, you can do one of the following:
 
 <ul>
-<li>Delete unused shadow copy storage areas by calling the <a href="https://msdn.microsoft.com/daa23f2c-8342-4387-800a-def5951896ee">IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas</a> method.</li>
-<li>Increase the shadow copy storage area maximum size for the volume by calling the <a href="https://msdn.microsoft.com/c7773fa8-6b43-46bf-b644-0016b261c080">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> method or the <a href="https://msdn.microsoft.com/9ba621d5-32ec-4512-a18f-dbdadbd3ff09">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> method.</li>
+<li>Delete unused shadow copy storage areas by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-deleteunuseddiffareas">IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas</a> method.</li>
+<li>Increase the shadow copy storage area maximum size for the volume by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> method.</li>
 </ul>
 
 ### -field VSS_PROTECTION_FAULT_GROW_TOO_SLOW
@@ -151,15 +151,15 @@ Another application attempted to write  to the shadow copy storage area.
 
 
 
-<a href="https://msdn.microsoft.com/07257d34-23b1-47bf-b613-f65f5d2a977e">IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-clearvolumeprotectfault">IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault</a>
 
 
 
-<a href="https://msdn.microsoft.com/65310c38-9fad-49ed-acf4-dacfa3947130">VSS_PROTECTION_FAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_protection_fault">VSS_PROTECTION_FAULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/46cdc46e-fc44-452a-8aae-e47c12deedb4">VSS_VOLUME_PROTECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a>
  
 
  

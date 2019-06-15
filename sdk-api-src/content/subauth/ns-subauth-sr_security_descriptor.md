@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">privileges</a> of the user.
+The <b>SR_SECURITY_DESCRIPTOR</b> structure contains information about the security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> of the user.
 
 
 ## -struct-fields

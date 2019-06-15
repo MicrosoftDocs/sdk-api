@@ -78,19 +78,19 @@ Returns S_OK on success.
 
 
 
-<a href="https://msdn.microsoft.com/65B9DB67-4EE8-40B5-B465-CA425792C62B">Child Sessions (Windows)</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions (Windows)</a>
 
 
 
-<a href="https://msdn.microsoft.com/DD89717F-4BFD-4283-A9F4-A74BB6E8E8D6">ClearSimulatedProfileInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9f76b6a-ea15-47b7-a4ef-14ea60b7810d">INetworkListManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/1DC80EB0-E63A-4352-8269-D795E1573851">NLM_SIMULATED_PROFILE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_simulated_profile_info">NLM_SIMULATED_PROFILE_INFO</a>
  
 
  

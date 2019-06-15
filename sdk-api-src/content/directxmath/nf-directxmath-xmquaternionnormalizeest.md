@@ -66,7 +66,7 @@ A quaternion for which to estimate the normalized version.
 
 
 
-An <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> union that is the estimate of the normalized version of a quaternion.
+An <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> union that is the estimate of the normalized version of a quaternion.
 
 
 
@@ -78,7 +78,7 @@ An <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMV
 The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quaternions, 
     where the X, Y, and Z components are the vector part and the W component is the scalar part.
 
-This function internally calls the <a href="https://msdn.microsoft.com/en-us/library/Ee420977(v=VS.85).aspx">XMVector4NormalizeEst</a>function.
+This function internally calls the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4normalizeest">XMVector4NormalizeEst</a>function.
 
 <code>Est</code> functions offer increased performance at the expense of reduced accuracy.
     <code>Est</code> functions are appropriate for non-critical calculations where accuracy can be sacrificed for speed.
@@ -95,11 +95,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/2d397c98-d0cd-08e0-6104-cca31bb6bd11">DirectXMath Library Quaternion Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420168(v=VS.85).aspx">XMQuaternionNormalize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionnormalize">XMQuaternionNormalize</a>
  
 
  

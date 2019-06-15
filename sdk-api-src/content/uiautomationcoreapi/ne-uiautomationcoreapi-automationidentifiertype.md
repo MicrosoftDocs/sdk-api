@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains values used in the <a href="https://msdn.microsoft.com/9906acea-5246-4f01-8d76-03b89ff2f789">UiaLookupId</a> function.
+Contains values used in the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uialookupid">UiaLookupId</a> function.
 
 
 ## -enum-fields

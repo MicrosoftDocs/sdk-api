@@ -89,7 +89,7 @@ The size of the <i>lpFilename</i> buffer, in characters. If the buffer is not la
 If the function succeeds, the return value specifies the length of the string copied to the buffer, not including any terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -112,15 +112,15 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 
-<a href="https://msdn.microsoft.com/4f4ec15b-5592-4fe3-b754-fda25ab24159">Device Driver Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/device-driver-information">Device Driver Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/55925741-da23-44b1-93e8-0e9468434a61">EnumDeviceDrivers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumdevicedrivers">EnumDeviceDrivers</a>
 
 
 
-<a href="https://msdn.microsoft.com/e158792b-fec2-498d-aae3-d5679fa55783">PSAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
  
 
  

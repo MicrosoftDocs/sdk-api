@@ -80,7 +80,7 @@ A <i>FieldIndex</i> of 0 can be used to retrieve an integer key (For example, co
 ### -param IntegerValue [out]
 
 Pointer to a variable that receives the integer. If the field is not an integer, the function fails and a call to 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_INVALID_DATA.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_DATA.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Pointer to a variable that receives the integer. If the field is not an integer,
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -109,23 +109,23 @@ The integer field may start with a positive (+) or negative (-) sign. It will be
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6dfd4c8b-0197-4c6d-a780-084b428805b2">SetupGetBinaryField</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetbinaryfield">SetupGetBinaryField</a>
 
 
 
-<a href="https://msdn.microsoft.com/d884037c-a8d0-47a8-8b3f-70408866be05">SetupGetMultiSzField</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetmultiszfielda">SetupGetMultiSzField</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc735827-37ae-4d77-a0d4-4d31f0225d69">SetupGetStringField</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetstringfielda">SetupGetStringField</a>
  
 
  

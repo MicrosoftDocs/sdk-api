@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Aligns structures properly within  <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value lists</a>.
+Aligns structures properly within  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value lists</a>.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ ClusAPI.h defines  <b>ALIGN_CLUSPROP</b> as follows:
 
 #### Examples
 
-The following example illustrates how to use  <b>ALIGN_CLUSPROP</b> to calculate the size of a value list entry. For additional examples, see  <a href="https://msdn.microsoft.com/f8f0297a-c050-41b9-a52f-a0265a18b87a">Using Lists and Tables</a>.
+The following example illustrates how to use  <b>ALIGN_CLUSPROP</b> to calculate the size of a value list entry. For additional examples, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-lists-and-tables">Using Lists and Tables</a>.
 
 
 ```cpp

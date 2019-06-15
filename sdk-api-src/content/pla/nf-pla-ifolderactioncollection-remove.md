@@ -75,7 +75,7 @@ Returns S_OK if successful.
 
 
 
-If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://msdn.microsoft.com/a3942d5f-9ec4-4461-84f9-f2fae3971e23">IFolderAction</a> interface to be removed.
+If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface to be removed.
 
 
 
@@ -85,15 +85,15 @@ If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <
 
 
 
-<a href="https://msdn.microsoft.com/9b0ab26f-7e91-4d7a-9fd7-73332601dd7b">IFolderActionCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/39597249-29d5-44a0-9954-01b9b6a62977">IFolderActionCollection::Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-add">IFolderActionCollection::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/357934fa-9213-466e-8104-eb9b265a98d3">IFolderActionCollection::Clear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderactioncollection-clear">IFolderActionCollection::Clear</a>
  
 
  

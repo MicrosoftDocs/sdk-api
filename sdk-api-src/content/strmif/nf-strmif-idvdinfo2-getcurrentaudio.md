@@ -111,7 +111,7 @@ Input arguments are invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> is not initialized or not in a valid domain.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized or not in a valid domain.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DV
 
 
 
-To get the available audio languages on the disc, call <code>GetCurrentAudio</code> and then call <a href="https://msdn.microsoft.com/c95afa36-879b-4fd5-bf92-0b9b93c708ef">GetAudioLanguage</a> for each stream, starting from zero through (<i>pulStreamsAvailable</i> - 1) to get the language content.
+To get the available audio languages on the disc, call <code>GetCurrentAudio</code> and then call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudiolanguage">GetAudioLanguage</a> for each stream, starting from zero through (<i>pulStreamsAvailable</i> - 1) to get the language content.
 
 
 
@@ -135,19 +135,19 @@ To get the available audio languages on the disc, call <code>GetCurrentAudio</co
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab626c6b-765a-4b2e-be96-f45260d1a078">EC_DVD_AUDIO_STREAM_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-audio-stream-change">EC_DVD_AUDIO_STREAM_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/da30d3dc-feec-4f54-b2db-a771ce404286">IDvdInfo2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
  
 
  

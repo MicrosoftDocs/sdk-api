@@ -97,7 +97,7 @@ This function is used if two enclaves run on the same system and need to establi
 
 
 
-<a href="https://msdn.microsoft.com/FEE8F05B-540F-4C10-A90C-55607A4E9293">EnclaveGetAttestationReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport">EnclaveGetAttestationReport</a>
  
 
  

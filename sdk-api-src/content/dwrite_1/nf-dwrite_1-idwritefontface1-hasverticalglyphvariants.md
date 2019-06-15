@@ -75,7 +75,7 @@ Returns TRUE if the font contains vertical glyph variants, otherwise FALSE.
 For OpenType fonts, <b>HasVerticalGlyphVariants</b> returns TRUE if the font contains a "vert"feature. 
 
 
-<a href="https://msdn.microsoft.com/91CD924E-A664-45C6-B787-61129C31501B">IDWriteFontFace1::GetVerticalGlyphVariants</a> retrieves the vertical forms of the nominal glyphs that are retrieved from <a href="https://msdn.microsoft.com/2dbaec8c-464e-45a5-b420-fa1ec3d224bd">IDWriteFontFace::GetGlyphIndices</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getverticalglyphvariants">IDWriteFontFace1::GetVerticalGlyphVariants</a> retrieves the vertical forms of the nominal glyphs that are retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getglyphindices">IDWriteFontFace::GetGlyphIndices</a>. 
 
 
 
@@ -85,15 +85,15 @@ For OpenType fonts, <b>HasVerticalGlyphVariants</b> returns TRUE if the font con
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
 
 
 
-<a href="https://msdn.microsoft.com/91CD924E-A664-45C6-B787-61129C31501B">IDWriteFontFace1::GetVerticalGlyphVariants</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getverticalglyphvariants">IDWriteFontFace1::GetVerticalGlyphVariants</a>
 
 
 
-<a href="https://msdn.microsoft.com/2dbaec8c-464e-45a5-b420-fa1ec3d224bd">IDWriteFontFace::GetGlyphIndices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getglyphindices">IDWriteFontFace::GetGlyphIndices</a>
  
 
  

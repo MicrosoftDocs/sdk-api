@@ -124,7 +124,7 @@ The VARIANT that you pass in contains a copy of the field's value upon return. I
 
 The caller allocates memory of the VARIANT.
 
-The method <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> is called for <i>pvarField</i> before copying.
+The method <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> is called for <i>pvarField</i> before copying.
 
 
 
@@ -134,11 +134,11 @@ The method <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13
 
 
 
-<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
  
 
  

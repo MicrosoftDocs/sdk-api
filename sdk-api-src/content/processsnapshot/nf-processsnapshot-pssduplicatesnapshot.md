@@ -81,7 +81,7 @@ A handle to the duplicate snapshot that this function creates, in the context of
 
 ### -param Flags [in, optional]
 
-The duplication flags. For more information, see <a href="https://msdn.microsoft.com/CAD06441-750F-42FC-A95A-7CAA79F31348">PSS_DUPLICATE_FLAGS</a>.
+The duplication flags. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_duplicate_flags">PSS_DUPLICATE_FLAGS</a>.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The specified handle is invalid.
 </table>
  
 
-All error codes are defined in winerror.h. Use <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
+All error codes are defined in winerror.h. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
 
 
 
@@ -119,7 +119,7 @@ All error codes are defined in winerror.h. Use <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
  
 
  

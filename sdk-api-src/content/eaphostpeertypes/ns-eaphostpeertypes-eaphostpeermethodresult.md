@@ -119,22 +119,22 @@ A pointer to a  byte buffer that contains information on the supplicant user tha
 
 ### -field pAttribArray
 
-Pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c676619">EAP_ATTRIBUTES</a> array structure that contains attributes of the authentication session.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_attributes">EAP_ATTRIBUTES</a> array structure that contains attributes of the authentication session.
 
 
 ### -field isolationState
 
-An <a href="https://msdn.microsoft.com/460e447b-87c6-41df-8e8b-055e95426ca6">ISOLATION_STATE</a>link value that indicates the isolation state of the authentication session connection.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-_isolation_state">ISOLATION_STATE</a>link value that indicates the isolation state of the authentication session connection.
 
 
 ### -field pEapMethodInfo
 
-A pointer to an <a href="https://msdn.microsoft.com/89b5dcbd-afa9-40a8-ab04-2caee01ce0a3">EAP_METHOD_INFO</a> structure that contains information about the EAP method that performed authentication for the supplicant.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_method_info">EAP_METHOD_INFO</a> structure that contains information about the EAP method that performed authentication for the supplicant.
 
 
 ### -field pEapError
 
-A pointer to the <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df10b6b7f46d">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://msdn.microsoft.com/36f9b5dd-821d-4cc5-a1dd-587098635d17">EapHostPeerFreeEapError</a>.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-_eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a>.
 
 
 ## -see-also
@@ -142,11 +142,11 @@ A pointer to the <a href="https://msdn.microsoft.com/6af8cb67-da77-491a-98de-df1
 
 
 
-<a href="https://msdn.microsoft.com/77595f36-140d-4d8e-af8e-63e9de0031c4">EAPHost Supplicant Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/eaphost/eap-host-supplicant-structures">EAPHost Supplicant Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1f0fc05-d9cd-4a37-ba74-89ac9948a292">EapHostPeerGetResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetresult">EapHostPeerGetResult</a>
  
 
  

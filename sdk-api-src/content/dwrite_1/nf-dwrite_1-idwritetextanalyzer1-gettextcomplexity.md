@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the complexity of text, and whether you need to call <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a> for full script
+Determines the complexity of text, and whether you need to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a> for full script
     shaping. 
 
 
@@ -76,7 +76,7 @@ Length of the text to check.
 
 ### -param fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace</a>*</b>
 
 The font face to read.
 
@@ -87,7 +87,7 @@ Type: <b>BOOL*</b>
 
 If true, the text is simple, and the
     <i>glyphIndices</i> array will already have the nominal glyphs for you.
-    Otherwise, you need to call <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a> to properly shape complex
+    Otherwise, you need to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a> to properly shape complex
     scripts and OpenType features.
 
 
@@ -107,7 +107,7 @@ Type: <b>UINT16*</b>
 Optional glyph indices for the text. If the
     function returned that the text was simple, you already have the
     glyphs you need. Otherwise the glyph indices are not meaningful,
-    and you need to call <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a> for shaping instead.
+    and you need to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a> for shaping instead.
 
 
 ## -returns
@@ -139,11 +139,11 @@ Text is not simple if the characters are part of a script that has
 
 
 
-<a href="https://msdn.microsoft.com/7F79BA25-5D79-4491-82E3-F9B96DD0C37D">IDWriteTextAnalyzer1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a>
  
 
  

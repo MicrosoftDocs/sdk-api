@@ -62,7 +62,7 @@ Opens a Control Panel item.
 
 Type: <b>PCWSTR</b>
 
-Pointer to a string that contains the command line that opens the Control Panel item. This command line includes at least the name of the .cpl file. It can also contain any other necessary information such as the property sheet page within the item (either by ordinal or by name). For more information, see <a href="https://msdn.microsoft.com/c17167ab-e9a0-4290-955c-484d038b82af">Executing Control Panel Items</a>.
+Pointer to a string that contains the command line that opens the Control Panel item. This command line includes at least the name of the .cpl file. It can also contain any other necessary information such as the property sheet page within the item (either by ordinal or by name). For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/executing-control-panel-items">Executing Control Panel Items</a>.
 
 
 ### -param hwndMsgParent [in, optional]

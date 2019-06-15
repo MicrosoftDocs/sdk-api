@@ -62,7 +62,7 @@ The
 
 ### -param hDatabase [in]
 
-Handle to the database obtained from <a href="https://msdn.microsoft.com/984996e3-aa2c-49ff-9067-ebefd3afdecb">MsiOpenDatabase</a> to the transform.
+Handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to the transform.
 
 
 ### -param szTransformFile [in]
@@ -155,7 +155,7 @@ Transform and database code pages do not match and neither has a neutral code pa
 </td>
 <td width="60%">
 Create the temporary 
-<a href="https://msdn.microsoft.com/4763ac0e-900f-45f1-bee5-34d413c5e401">_TransformView table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/-transformview-table">_TransformView table</a>.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ Because the list delimiter for transforms, sources and patches is a semicolon, t
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can obtain extended error information by using <a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -197,11 +197,11 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/525feb70-27aa-4fe2-a19f-9438168ca046">Database Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
  
 
  

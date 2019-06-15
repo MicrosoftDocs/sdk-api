@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <code>IAMNetworkStatus</code> interface reports the quality of the network connection for the legacy Windows Media Player 6.4 source filter. The <a href="https://msdn.microsoft.com/e59b3086-4f62-4541-8bef-b0581f01906f">Windows Media Source</a> filter implements this interface. It enables clients to retrieve information about the quality of the network connection.
+The <code>IAMNetworkStatus</code> interface reports the quality of the network connection for the legacy Windows Media Player 6.4 source filter. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter implements this interface. It enables clients to retrieve information about the quality of the network connection.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetworkStatus</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAMNetworkStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMNetworkStatus</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMNetworkStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAMNetworkStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319733(v=VS.85).aspx">get_BufferingCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_bufferingcount">get_BufferingCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of times the network source has buffered the data.
@@ -81,7 +81,7 @@ Retrieves the number of times the network source has buffered the data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319734(v=VS.85).aspx">get_BufferingProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_bufferingprogress">get_BufferingProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the buffering progress.
@@ -90,7 +90,7 @@ Retrieves the buffering progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319735(v=VS.85).aspx">get_IsBroadcast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_isbroadcast">get_IsBroadcast</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether the current clip is a broadcast clip.
@@ -99,7 +99,7 @@ Retrieves a value indicating whether the current clip is a broadcast clip.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319736(v=VS.85).aspx">get_LostPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_lostpackets">get_LostPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of lost packets.
@@ -108,7 +108,7 @@ Retrieves the number of lost packets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319737(v=VS.85).aspx">get_ReceivedPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_receivedpackets">get_ReceivedPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of received packets.
@@ -117,7 +117,7 @@ Retrieves the number of received packets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319738(v=VS.85).aspx">get_ReceptionQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_receptionquality">get_ReceptionQuality</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating the reception quality.
@@ -126,7 +126,7 @@ Retrieves a value indicating the reception quality.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd319739(v=VS.85).aspx">get_RecoveredPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetworkstatus-get_recoveredpackets">get_RecoveredPackets</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of recovered packets.
@@ -156,7 +156,7 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

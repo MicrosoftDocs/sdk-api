@@ -59,7 +59,7 @@ Initiates a recursive walk of the namespace from the specified root to the given
 
 ### -param punkToWalk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 The root node from which to begin the walk. This can be represented by one of the following objects.
 
@@ -67,28 +67,28 @@ The root node from which to begin the walk. This can be represented by one of th
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5cca426f-73fb-4b39-8eb0-16c01673c311">IParentAndItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparentanditem">IParentAndItem</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1350e914-7935-42dd-b1b0-e447589dfb12">IEnumFullIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumfullidlist">IEnumFullIDList</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
 </li>
 </ul>
-Specifying the desktop's <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> as the root allows the possibility of walking the entire Windows namespace if <i>cDepth</i> is sufficiently large.
+Specifying the desktop's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> as the root allows the possibility of walking the entire Windows namespace if <i>cDepth</i> is sufficiently large.
 
 
 ### -param dwFlags [in]
@@ -112,7 +112,7 @@ Collect all of the items in the folder if both of these criteria are met:
                                 
 
 <ul>
-<li><i>punkToWalk</i> is a folder (<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> or <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>).</li>
+<li><i>punkToWalk</i> is a folder (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>).</li>
 <li>None of the items in the folder are currently selected.</li>
 </ul>
 
@@ -124,7 +124,7 @@ Collect all of the items in the folder if both of these criteria are met:
                                 
 
 <ul>
-<li><i>punkToWalk</i> is a folder (<a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> or <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>).</li>
+<li><i>punkToWalk</i> is a folder (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>).</li>
 <li>One of the items in the folder is currently selected.</li>
 </ul>
 
@@ -161,13 +161,13 @@ Display a dialog box with a progress bar while walking the namespace.
 
 #### NSWF_FLAG_VIEWORDER (0x00000080)
 
-Return items in view order. This applies only when <i>punkToWalk</i> is an <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> object.
+Return items in view order. This applies only when <i>punkToWalk</i> is an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object.
 
 
 
 #### NSWF_IGNORE_AUTOPLAY_HIDA (0x00000100)
 
-Do not use the AutoPlay HIDA in the data object. This applies only when <i>punkToWalk</i> is an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> object.
+Do not use the AutoPlay HIDA in the data object. This applies only when <i>punkToWalk</i> is an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
 
 
 
@@ -179,7 +179,7 @@ Perform the walk asynchronously by running it on a background thread.
 
 #### NSWF_DONT_RESOLVE_LINKS (0x00000400)
 
-Traverse links to return their targets (for .lnk, .url and folder shortcuts) but do not verify that those targets exist (<a href="https://msdn.microsoft.com/a31f1d6d-7b87-4777-89a8-a032b7629b7e">Resolve</a>). This is an optimization and does not affect the results except in the case where a missing or moved target could be found and returned.
+Traverse links to return their targets (for .lnk, .url and folder shortcuts) but do not verify that those targets exist (<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve">Resolve</a>). This is an optimization and does not affect the results except in the case where a missing or moved target could be found and returned.
 
 
 
@@ -215,10 +215,10 @@ The maximum depth to descend through the namespace hierarchy. This depth is zero
 
 ### -param pnswcb [in]
 
-Type: <b><a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>*</b>
 
 
-<a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a> callback function used by <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a>. This parameter can be <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a> callback function used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -237,11 +237,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalk">INamespaceWalk</a>
 
 
 
-<a href="https://msdn.microsoft.com/15244d6e-6cd7-4dee-8e4e-2533d5a60ae7">INamespaceWalkCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacewalkcb">INamespaceWalkCB</a>
  
 
  

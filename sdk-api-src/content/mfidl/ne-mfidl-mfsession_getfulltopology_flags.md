@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines flags for the <a href="https://msdn.microsoft.com/6899dbe2-a684-487f-ab56-8631b3d5a033">IMFMediaSession::GetFullTopology</a> method.
+Defines flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">IMFMediaSession::GetFullTopology</a> method.
         
 
 
@@ -68,11 +68,11 @@ Get the full topology for the presentation that the Media Session is currently p
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/dac99908-be90-415d-8837-2f97d573feb5">Media Session</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a>
  
 
  

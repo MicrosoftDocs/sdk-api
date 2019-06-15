@@ -62,12 +62,12 @@ Contains information identifying the code pages and Unicode subranges for which 
 
 ### -field fsUsb
 
-A 128-bit Unicode subset bitfield (USB) identifying up to 126 Unicode subranges. Each bit, except the two most significant bits, represents a single subrange. The most significant bit is always 1 and identifies the bitfield as a font signature; the second most significant bit is reserved and must be 0. Unicode subranges are numbered in accordance with the ISO 10646 standard. For more information, see <a href="https://msdn.microsoft.com/f897dfc7-3e78-48dc-8d3d-6929e2f4ec4d">Unicode Subset Bitfields</a>.
+A 128-bit Unicode subset bitfield (USB) identifying up to 126 Unicode subranges. Each bit, except the two most significant bits, represents a single subrange. The most significant bit is always 1 and identifies the bitfield as a font signature; the second most significant bit is reserved and must be 0. Unicode subranges are numbered in accordance with the ISO 10646 standard. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-subset-bitfields">Unicode Subset Bitfields</a>.
 
 
 ### -field fsCsb
 
-A 64-bit, code-page bitfield (CPB) that identifies a specific character set or code page. Code pages are in the lower 32 bits of this bitfield. The high 32 are used for non-Windows code pages. For more information, see <a href="https://msdn.microsoft.com/830b1a88-cb0c-4719-b857-4cc2cd67dd5d">Code Page Bitfields</a>.
+A 64-bit, code-page bitfield (CPB) that identifies a specific character set or code page. Code pages are in the lower 32 bits of this bitfield. The high 32 are used for non-Windows code pages. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-bitfields">Code Page Bitfields</a>.
 
 
 ## -remarks
@@ -84,11 +84,11 @@ GDI relies on Windows code pages fitting within a 32-bit value. Furthermore, the
 
 
 
-<a href="https://msdn.microsoft.com/54510d73-f2a2-4176-8080-cdf855e99217">LOCALESIGNATURE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglocalesignature">LOCALESIGNATURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c8120dd-3270-4343-8b0c-b91ff555f276">Unicode and Character Set Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>
  
 
  

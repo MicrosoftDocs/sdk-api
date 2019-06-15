@@ -79,7 +79,7 @@ The <b>DeleteSynchronizationBarrier</b> function always returns <b>TRUE</b>.
 
 
 
-<b>DeleteSynchronizationBarrier</b> releases a synchronization barrier when it is no longer needed. It is safe to call <b>DeleteSynchronizationBarrier</b> immediately after calling <a href="https://msdn.microsoft.com/cd938370-b046-4369-931d-5c7c8db7303a">EnterSynchronizationBarrier</a> because that function ensures that all threads in the barrier have finished using it before allowing the barrier to be released. 
+<b>DeleteSynchronizationBarrier</b> releases a synchronization barrier when it is no longer needed. It is safe to call <b>DeleteSynchronizationBarrier</b> immediately after calling <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a> because that function ensures that all threads in the barrier have finished using it before allowing the barrier to be released. 
 
 If a synchronization barrier will never be deleted, threads can specify the <b>SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE</b> flag when they enter the barrier. This flag causes the function to skip the extra work required for deletion safety, which can improve performance. All threads using the barrier must specify this flag; if any thread does not, the flag is ignored. Be careful when using <b>SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE</b>, because deleting a barrier while this flag is in effect  may result in an invalid handle access and cause one or more threads to become permanently blocked. 
 
@@ -91,15 +91,15 @@ If a synchronization barrier will never be deleted, threads can specify the <b>S
 
 
 
-<a href="https://msdn.microsoft.com/cd938370-b046-4369-931d-5c7c8db7303a">EnterSynchronizationBarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a>
 
 
 
-<a href="https://msdn.microsoft.com/f69934a1-ee1f-4400-ae3e-cb9a19feff93">InitializeSynchronizationBarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializesynchronizationbarrier">InitializeSynchronizationBarrier</a>
 
 
 
-<a href="https://msdn.microsoft.com/3A76E6F7-C38B-4843-9496-36F3C78B700C">Synchronization Barriers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>
  
 
  

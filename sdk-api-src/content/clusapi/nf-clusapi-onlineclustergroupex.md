@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Brings a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> online.
+Brings a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> online.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ A handle to the group to be brought online.
 
 ### -param hDestinationNode [in, optional]
 
-A handle to the  <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> that is to host the group.
+A handle to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> that is to host the group.
 
 
 ### -param dwOnlineFlags [in]
@@ -117,7 +117,7 @@ The size of the <i>lpInBuffer</i> parameter, in bytes.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -157,7 +157,7 @@ The operation is in progress.
 
 
 
-<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
  
 
  

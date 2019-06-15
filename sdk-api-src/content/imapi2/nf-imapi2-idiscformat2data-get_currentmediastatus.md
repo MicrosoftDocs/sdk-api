@@ -59,7 +59,7 @@ Retrieves the current state of the media in the device.
 
 ### -param value [out]
 
-State of the media in the disc device. For possible values, see the <a href="https://msdn.microsoft.com/985001b9-e930-41fb-9a4c-94631c4aca70">IMAPI_FORMAT2_DATA_MEDIA_STATE</a> enumeration type. Note that more than one state can be set.
+State of the media in the disc device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_format2_data_media_state">IMAPI_FORMAT2_DATA_MEDIA_STATE</a> enumeration type. Note that more than one state can be set.
 
 
 ## -returns
@@ -356,7 +356,7 @@ Value: 0xC0AA0210
 
 
 
-For an example that uses this property, see <a href="https://msdn.microsoft.com/05d88612-ff4c-4894-b838-a1d76923430c">Checking Media Support</a>.
+For an example that uses this property, see <a href="https://docs.microsoft.com/windows/desktop/imapi/checking-media-support">Checking Media Support</a>.
 
 
 
@@ -366,7 +366,7 @@ For an example that uses this property, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
  
 
  

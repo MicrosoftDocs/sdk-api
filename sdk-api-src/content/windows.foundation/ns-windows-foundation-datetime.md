@@ -76,19 +76,19 @@ The number of 100-nanosecond intervals that have elapsed since 12:00:00 midnight
 
 
 
-<a href="https://msdn.microsoft.com/d7191a38-df9e-4e19-a128-35260bbbfba9">CreateDateTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetime">CreateDateTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c0beb76-0089-46b9-bcc5-ed07320859a3">CreateDateTimeArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdatetimearray">CreateDateTimeArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ffe8778-ce0e-46bb-9387-48c20d5dddfc">IPropertyValue::GetDateTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetime">IPropertyValue::GetDateTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/76d18ef4-676c-4130-90e3-e74776e47f33">IPropertyValue::GetDateTimeArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getdatetimearray">IPropertyValue::GetDateTimeArray</a>
  
 
  

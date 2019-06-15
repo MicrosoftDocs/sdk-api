@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid subsystem maintenance operations.
 
@@ -89,7 +89,7 @@ Pings a drive.
 
 
 
-The  <a href="https://msdn.microsoft.com/8d2e1022-ae79-4f71-a488-2c86b43b2a7f">IVdsMaintenance::StartMaintenance</a>, <a href="https://msdn.microsoft.com/542f84d7-eb97-4738-b7c0-1c95bc5e063c">IVdsMaintenance::StopMaintenance</a>, and <a href="https://msdn.microsoft.com/057424eb-c491-4295-b2a7-cf983902c667">IVdsMaintenance::PulseMaintenance</a> methods pass a <b>VDS_MAINTENANCE_OPERATION</b> value as an argument to specify operation details.
+The  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-startmaintenance">IVdsMaintenance::StartMaintenance</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">IVdsMaintenance::StopMaintenance</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">IVdsMaintenance::PulseMaintenance</a> methods pass a <b>VDS_MAINTENANCE_OPERATION</b> value as an argument to specify operation details.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_MAINTENANCE_OPERATION</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_MAINTENANCE_OPERATION</b> enumeration constant.</div>
 <div> </div>
@@ -101,19 +101,19 @@ The  <a href="https://msdn.microsoft.com/8d2e1022-ae79-4f71-a488-2c86b43b2a7f">I
 
 
 
-<a href="https://msdn.microsoft.com/057424eb-c491-4295-b2a7-cf983902c667">IVdsMaintenance::PulseMaintenance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">IVdsMaintenance::PulseMaintenance</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d2e1022-ae79-4f71-a488-2c86b43b2a7f">IVdsMaintenance::StartMaintenance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-startmaintenance">IVdsMaintenance::StartMaintenance</a>
 
 
 
-<a href="https://msdn.microsoft.com/542f84d7-eb97-4738-b7c0-1c95bc5e063c">IVdsMaintenance::StopMaintenance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">IVdsMaintenance::StopMaintenance</a>
 
 
 
-<a href="https://msdn.microsoft.com/30ee6e39-c1e5-4173-a3dd-5644632140d1">VDS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
  
 
  

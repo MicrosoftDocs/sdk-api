@@ -82,11 +82,11 @@ The name of the replication group..
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/913367E0-B3C2-40D0-B516-6C2F834152BB">SR_REPLICATED_DISK_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-_sr_replicated_disk_type">SR_REPLICATED_DISK_TYPE</a>
  
 
  

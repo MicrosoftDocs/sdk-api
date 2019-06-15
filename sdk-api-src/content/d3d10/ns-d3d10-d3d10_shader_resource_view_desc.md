@@ -59,9 +59,9 @@ Describes a shader-resource view.
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-The viewing <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">format</a>. See remarks.
+The viewing <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">format</a>. See remarks.
 
 
 ### -field ViewDimension
@@ -73,77 +73,77 @@ The resource type of the view. See <a href="https://docs.microsoft.com/en-us/win
 
 ### -field Buffer
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204898(v=VS.85).aspx">D3D10_BUFFER_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_BUFFER_SRV</a></b>
 
-View the resource as a buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb204898(v=VS.85).aspx">D3D10_BUFFER_SRV</a>).
+View the resource as a buffer using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_buffer_srv">D3D10_BUFFER_SRV</a>).
 
 
 ### -field Texture1D
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172463(v=VS.85).aspx">D3D10_TEX1D_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_srv">D3D10_TEX1D_SRV</a></b>
 
-View the resource as a 1D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172463(v=VS.85).aspx">D3D10_TEX1D_SRV</a>).
+View the resource as a 1D texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_srv">D3D10_TEX1D_SRV</a>).
 
 
 ### -field Texture1DArray
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172460(v=VS.85).aspx">D3D10_TEX1D_ARRAY_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_srv">D3D10_TEX1D_ARRAY_SRV</a></b>
 
-View the resource as a 1D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172460(v=VS.85).aspx">D3D10_TEX1D_ARRAY_SRV</a>.
+View the resource as a 1D-texture array using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex1d_array_srv">D3D10_TEX1D_ARRAY_SRV</a>.
 
 
 ### -field Texture2D
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172475(v=VS.85).aspx">D3D10_TEX2D_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_srv">D3D10_TEX2D_SRV</a></b>
 
-View the resource as a 2D-texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172475(v=VS.85).aspx">D3D10_TEX2D_SRV</a>.
+View the resource as a 2D-texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_srv">D3D10_TEX2D_SRV</a>.
 
 
 ### -field Texture2DArray
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172472(v=VS.85).aspx">D3D10_TEX2D_ARRAY_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_srv">D3D10_TEX2D_ARRAY_SRV</a></b>
 
-View the resource as a 2D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172472(v=VS.85).aspx">D3D10_TEX2D_ARRAY_SRV</a>.
+View the resource as a 2D-texture array using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2d_array_srv">D3D10_TEX2D_ARRAY_SRV</a>.
 
 
 ### -field Texture2DMS
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172469(v=VS.85).aspx">D3D10_TEX2DMS_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_srv">D3D10_TEX2DMS_SRV</a></b>
 
-View the resource as a 2D-multisampled texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172469(v=VS.85).aspx">D3D10_TEX2DMS_SRV</a>.
+View the resource as a 2D-multisampled texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_srv">D3D10_TEX2DMS_SRV</a>.
 
 
 ### -field Texture2DMSArray
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172466(v=VS.85).aspx">D3D10_TEX2DMS_ARRAY_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_srv">D3D10_TEX2DMS_ARRAY_SRV</a></b>
 
-View the resource as a 2D-multisampled-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172466(v=VS.85).aspx">D3D10_TEX2DMS_ARRAY_SRV</a>.
+View the resource as a 2D-multisampled-texture array using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex2dms_array_srv">D3D10_TEX2DMS_ARRAY_SRV</a>.
 
 
 ### -field Texture3D
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172477(v=VS.85).aspx">D3D10_TEX3D_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex3d_srv">D3D10_TEX3D_SRV</a></b>
 
-View the resource as a 3D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172477(v=VS.85).aspx">D3D10_TEX3D_SRV</a>.
+View the resource as a 3D texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_tex3d_srv">D3D10_TEX3D_SRV</a>.
 
 
 ### -field TextureCube
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172478(v=VS.85).aspx">D3D10_TEXCUBE_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_texcube_srv">D3D10_TEXCUBE_SRV</a></b>
 
-View the resource as a 3D-cube texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/en-us/library/Bb172478(v=VS.85).aspx">D3D10_TEXCUBE_SRV</a>).
+View the resource as a 3D-cube texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_texcube_srv">D3D10_TEXCUBE_SRV</a>).
 
 
 ## -remarks
 
 
 
-A view is a format-specific way to look at the data in a resource. The view determines what data to look at, and how it is cast when read. For more information about how views work, see <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">Views</a>
+A view is a format-specific way to look at the data in a resource. The view determines what data to look at, and how it is cast when read. For more information about how views work, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-access-views">Views</a>
 
 
 When viewing a resource, the resource-view description must specify a typed format, that is compatible with the resource format. So that means that you cannot create a resource-view description using any format with _TYPELESS in the name. You can however view a typeless resource by specifying a typed format for the view. For example, a DXGI_FORMAT_R32G32B32_TYPELESS resource can be viewed with one of these typed formats: DXGI_FORMAT_R32G32B32_FLOAT, DXGI_FORMAT_R32G32B32_UINT, and DXGI_FORMAT_R32G32B32_SINT, since these typed formats are compatible with the typeless resource.
 
-Create a shader-resource-view description by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173558(v=VS.85).aspx">ID3D10Device::CreateShaderResourceView</a>. To view a shader-resource-view description, call <a href="https://msdn.microsoft.com/en-us/library/Bb173855(v=VS.85).aspx">ID3D10ShaderResourceView::GetDesc</a>.
+Create a shader-resource-view description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createshaderresourceview">ID3D10Device::CreateShaderResourceView</a>. To view a shader-resource-view description, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10shaderresourceview-getdesc">ID3D10ShaderResourceView::GetDesc</a>.
 
 
 
@@ -153,11 +153,11 @@ Create a shader-resource-view description by calling <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
  
 
  

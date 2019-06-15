@@ -52,7 +52,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>CryptCATOpen</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>CryptCATOpen</b> function opens a catalog and returns a context handle to the open catalog.
-<div class="alert"><b>Note</b>  Some older versions of Wintrust.lib do not contain the export information for this function. In this case, you must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  Some older versions of Wintrust.lib do not contain the export information for this function. In this case, you must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
 
 ## -parameters
 
@@ -148,7 +148,7 @@ Encoding type used for the file. If this value is 0, then the encoding type is s
 
 
 
-Upon success, this function returns a handle to the open catalog. When you have finished using the handle, close it by calling the <a href="https://msdn.microsoft.com/f6fa2d10-0049-4d5e-9688-566e5c11d64e">CryptCATClose</a> function. The <b>CryptCATOpen</b> function returns INVALID_HANDLE_VALUE if it fails.
+Upon success, this function returns a handle to the open catalog. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatclose">CryptCATClose</a> function. The <b>CryptCATOpen</b> function returns INVALID_HANDLE_VALUE if it fails.
 
 
 
@@ -158,7 +158,7 @@ Upon success, this function returns a handle to the open catalog. When you have 
 
 
 
-<a href="https://msdn.microsoft.com/f6fa2d10-0049-4d5e-9688-566e5c11d64e">CryptCATClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatclose">CryptCATClose</a>
  
 
  

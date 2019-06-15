@@ -61,7 +61,7 @@ Requests that the specified transaction be committed.
 
 A handle to the transaction to be committed. 
 
-This handle must have been opened with the TRANSACTION_COMMIT access right. For more information, see <a href="https://msdn.microsoft.com/c9d51d4d-9f07-44d6-a2e1-4a47367cc4ae">KTM Security and Access Rights</a>.
+This handle must have been opened with the TRANSACTION_COMMIT access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Ktm/ktm-security-and-access-rights">KTM Security and Access Rights</a>.
 
 
 ## -returns
@@ -70,7 +70,7 @@ This handle must have been opened with the TRANSACTION_COMMIT access right. For 
 
 If the function succeeds, the return value is nonzero. Success means that the function completed synchronously, and the calling application does not need to wait for pending results.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 The following list identifies the possible error codes:
@@ -85,19 +85,19 @@ The following list identifies the possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/578bda35-bd35-4f6d-8366-a4bfb4dbfe42">CreateTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d95f15e4-d0fd-4665-849d-eecac8fc542b">OpenTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-opentransaction">OpenTransaction</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d3522b8-ddf0-449e-8ab4-09e679ba1f15">RollbackTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-rollbacktransaction">RollbackTransaction</a>
  
 
  

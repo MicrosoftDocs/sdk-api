@@ -69,7 +69,7 @@ The command to be executed. This command must belong to the group specified with
 
 ### -param nCmdexecopt [in]
 
-Specifies how the object should execute the command. Possible values are taken from the <a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a> and <a href="https://msdn.microsoft.com/31331c73-1f26-436d-8fa7-83f13ef51f0e">OLECMDID_WINDOWSTATE_FLAG</a> enumerations.
+Specifies how the object should execute the command. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdexecopt">OLECMDEXECOPT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdid_windowstate_flag">OLECMDID_WINDOWSTATE_FLAG</a> enumerations.
 
 
 ### -param pvaIn [in]
@@ -158,10 +158,10 @@ The user canceled the execution of the command.
 
 
 
-The list of input and output arguments of a command and how they are packaged is unique to each command. Such information should be documented with the specification of the command group. (See the description of OLECMDID_ZOOM in the <a href="https://msdn.microsoft.com/ae1592b6-2afd-4379-a18e-d46b226bc9e2">OLECMDID</a> enumeration.) In the absence of any specific information the command is assumed to take no arguments and have no return value.
+The list of input and output arguments of a command and how they are packaged is unique to each command. Such information should be documented with the specification of the command group. (See the description of OLECMDID_ZOOM in the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a> enumeration.) In the absence of any specific information the command is assumed to take no arguments and have no return value.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-The <i>pguidCmdGroup</i> and <i>nCmdID</i> parameters together uniquely identify the command to invoke. The <i>nCmdExecOpt</i> parameter specifies the exact action to be taken. (See the <a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a> enumeration for more details.)
+The <i>pguidCmdGroup</i> and <i>nCmdID</i> parameters together uniquely identify the command to invoke. The <i>nCmdExecOpt</i> parameter specifies the exact action to be taken. (See the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdexecopt">OLECMDEXECOPT</a> enumeration for more details.)
 
 Most commands neither take arguments nor return values. For such commands, the caller can pass <b>NULL</b> in <i>pvaIn</i> and <i>pvaOut</i>. For commands that expect one or more input values, the caller can declare and initialize a VARIANTARG variable and pass a pointer to that variable in pvaIn. If the input to the command is a single value, the argument can be stored directly in the VARIANTARG structure and passed to the function. If the command expects multiple arguments, those arguments must be packaged appropriately within the VARIANTARG, using one of the supported types (such as <b>IDispatch</b> or <b>SAFEARRAY</b>).
 
@@ -181,11 +181,11 @@ A command target must implement this function; E_NOTIMPL is not a valid return v
 
 
 
-<a href="https://msdn.microsoft.com/5c8b455e-7740-4f71-aef6-27390a11a1a3">IOleCommandTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-iolecommandtarget">IOleCommandTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdexecopt">OLECMDEXECOPT</a>
  
 
  

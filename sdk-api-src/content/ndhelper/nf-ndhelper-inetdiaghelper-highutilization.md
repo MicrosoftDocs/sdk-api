@@ -74,7 +74,7 @@ A pointer to the time, in seconds, to be deferred if the diagnosis cannot be sta
 
 ### -param pStatus [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/2ad72ac5-3f33-4206-be39-1cfe11ee840d">DIAGNOSIS_STATUS</a> that is returned from the diagnosis.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a> that is returned from the diagnosis.
 
 
 ## -returns
@@ -174,7 +174,7 @@ This method is not required when building a Helper Class Extension.
 
 
 
-<a href="https://msdn.microsoft.com/7f1b8a5b-389b-4276-a49d-94a39be3c35c">INetDiagHelper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>lineSetCallData</b> function sets the <b>CallData</b> member in 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>. Depending on the service provider implementation, the <b>CallData</b> member can be propagated to all applications having handles to the call, including those on other machines (through the server), and can travel with the call when it is transferred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>. Depending on the service provider implementation, the <b>CallData</b> member can be propagated to all applications having handles to the call, including those on other machines (through the server), and can travel with the call when it is transferred.
 
 
 ## -parameters
@@ -67,8 +67,8 @@ Handle to the call. The application must have OWNER privilege.
 ### -param lpCallData
 
 Address of the data to be copied to the <b>CallData</b> member in 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>, replacing any existing data. For more information, see the 
-<a href="https://msdn.microsoft.com/8b7a674f-ba78-4830-bb20-7fa74e202a1a">call data</a> topic.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>, replacing any existing data. For more information, see the 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-data-ovr">call data</a> topic.
 
 
 ### -param dwSize
@@ -97,15 +97,15 @@ LINEERR_INVALCALLHANDLE, LINEERR_INVALCALLSTATE, LINEERR_INVALPARAM, LINEERR_INV
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

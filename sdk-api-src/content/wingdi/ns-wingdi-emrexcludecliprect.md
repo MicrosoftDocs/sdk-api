@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMREXCLUDECLIPRECT</b> and <b>EMRINTERSECTCLIPRECT</b> structures contain members for the <a href="https://msdn.microsoft.com/5b29c44a-3959-498e-8327-c42ef16a8609">ExcludeClipRect</a> and <a href="https://msdn.microsoft.com/9b3f9bfb-337b-45f0-b9ec-399e5f563638">IntersectClipRect</a> enhanced metafile records.
+The <b>EMREXCLUDECLIPRECT</b> and <b>EMRINTERSECTCLIPRECT</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-excludecliprect">ExcludeClipRect</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-intersectcliprect">IntersectClipRect</a> enhanced metafile records.
 
 
 
@@ -75,11 +75,11 @@ Clipping rectangle in logical units.
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

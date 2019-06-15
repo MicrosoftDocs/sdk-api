@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAzRoleDefinitions</b> interface represents a collection of <a href="https://msdn.microsoft.com/d951f5cc-85da-4898-a70f-9e50ab66ade5">IAzRoleDefinition</a> objects.
+The <b>IAzRoleDefinitions</b> interface represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects.
 

@@ -59,7 +59,7 @@ The <b>PeerGroupCreate</b> function creates a new peer group.
 
 ### -param pProperties [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">PEER_GROUP_PROPERTIES</a> structure that specifies the specific details of the group, such as the peer group names, invitation lifetimes, and presence lifetimes. This parameter is required.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> structure that specifies the specific details of the group, such as the peer group names, invitation lifetimes, and presence lifetimes. This parameter is required.
 
 The following members must be set:<ul>
 <li><b>pwzCreatorPeerName</b></li>
@@ -201,7 +201,7 @@ The peer identity specified as the Group Creator has been deleted or is in the p
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -211,11 +211,11 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/240bcba7-29f9-4043-8203-e71175bee69a">PeerGroupConnect</a> must be called by the group creator immediately after creation. If this does not take place, users given an invitation will call PeerGroupConnect successfully but they will not be able to listen and will eventually receive the connection failed event. 
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a> must be called by the group creator immediately after creation. If this does not take place, users given an invitation will call PeerGroupConnect successfully but they will not be able to listen and will eventually receive the connection failed event. 
 
-An application  obtains an identity by calling <a href="https://msdn.microsoft.com/24600215-afa0-4e6b-8455-b19b0de60b65">PeerIdentityCreate</a>, or any other method that returns an identity name string. This identity  serves as the owner of the group, and is the initial member of the peer group when created.
+An application  obtains an identity by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitycreate">PeerIdentityCreate</a>, or any other method that returns an identity name string. This identity  serves as the owner of the group, and is the initial member of the peer group when created.
 
-For applications that utilize passwords, it is recommended the passwords are handled securely  by calling the <a href="https://msdn.microsoft.com/6b372552-87d4-4047-afa5-0d1113348289">CryptoProtectMemory</a> and <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> functions.
+For applications that utilize passwords, it is recommended the passwords are handled securely  by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory">CryptoProtectMemory</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> functions.
 
 
 
@@ -225,19 +225,19 @@ For applications that utilize passwords, it is recommended the passwords are han
 
 
 
-<a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc"> PEER_GROUP_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag"> PEER_GROUP_PROPERTIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/4438e6c1-8c25-4656-bac5-dda43421ee43">PeerGroupClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclose">PeerGroupClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/240bcba7-29f9-4043-8203-e71175bee69a">PeerGroupConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>
  
 
  

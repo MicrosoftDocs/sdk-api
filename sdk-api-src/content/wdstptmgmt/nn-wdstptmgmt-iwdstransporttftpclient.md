@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-This interface is used to specify information of a TFTP client session currently active in the server.  A collection of objects of the <b>IWdsTransportTftpClient</b> interface can be obtained using the <a href="https://msdn.microsoft.com/48527950-A29D-4BC0-AD85-7B40E9C19133">IWdsTransportTftpManager::RetrieveTftpClients</a> method.
+This interface is used to specify information of a TFTP client session currently active in the server.  A collection of objects of the <b>IWdsTransportTftpClient</b> interface can be obtained using the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransporttftpmanager-retrievetftpclients">IWdsTransportTftpManager::RetrieveTftpClients</a> method.
 

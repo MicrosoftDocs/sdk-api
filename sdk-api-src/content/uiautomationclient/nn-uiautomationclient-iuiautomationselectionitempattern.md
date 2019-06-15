@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides access to the selectable child items of a container control that supports <a href="https://msdn.microsoft.com/10e0c9c3-ed42-4ffa-b0a8-25a1c760a583">IUIAutomationSelectionPattern</a>.
+Provides access to the selectable child items of a container control that supports <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSelectionItemPattern</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationSelectionItemPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationSelectionItemPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationSelectionItemPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationSelectionItemPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3d90861-1926-4294-b14b-f4c61a4f9176">AddToSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-addtoselection">AddToSelection</a>
 </td>
 <td align="left" width="63%">
 Adds the current element to the collection of selected items.
@@ -79,7 +79,7 @@ Adds the current element to the collection of selected items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25f9a8da-4bc9-496e-888c-a270a2bf8fb3">RemoveFromSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-removefromselection">RemoveFromSelection</a>
 </td>
 <td align="left" width="63%">
 Removes this element from the selection.
@@ -88,7 +88,7 @@ Removes this element from the selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/676d3fef-77b8-4f02-9a89-a7471898598f">Select</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-select">Select</a>
 </td>
 <td align="left" width="63%">
 Clears any selected items and then selects the current element.
@@ -106,7 +106,7 @@ Clears any selected items and then selects the current element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dafa51b9-7dfd-46ad-89cc-8c3af3df8ea0">CachedIsSelected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-get_cachedisselected">CachedIsSelected</a>
 
 
 </td>
@@ -122,7 +122,7 @@ A cached value that indicates whether this item is selected.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/58664ca5-1188-44a5-99d8-741c08eaf3f3">CachedSelectionContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-get_cachedselectioncontainer">CachedSelectionContainer</a>
 
 
 </td>
@@ -131,14 +131,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the cached element that supports <a href="https://msdn.microsoft.com/10e0c9c3-ed42-4ffa-b0a8-25a1c760a583">IUIAutomationSelectionPattern</a> and acts as the container for this item.
+Retrieves the cached element that supports <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a> and acts as the container for this item.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5a81509b-b09b-482c-bf1f-5d85665c0d82">CurrentIsSelected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-get_currentisselected">CurrentIsSelected</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Indicates whether this item is selected.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e4e9ac5f-15d2-491f-9f23-3da7a5bf8fe2">CurrentSelectionContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-get_currentselectioncontainer">CurrentSelectionContainer</a>
 
 
 </td>
@@ -163,7 +163,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the element that supports <a href="https://msdn.microsoft.com/10e0c9c3-ed42-4ffa-b0a8-25a1c760a583">IUIAutomationSelectionPattern</a> and acts as the container for this item.
+Retrieves the element that supports <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern">IUIAutomationSelectionPattern</a> and acts as the container for this item.
 
 
 
@@ -177,7 +177,7 @@ Retrieves the element that supports <a href="https://msdn.microsoft.com/10e0c9c3
 
 
 
-<a href="https://msdn.microsoft.com/14358ef0-aa54-42c1-a3da-0f835f5f5ef6">Control Pattern Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
  
 
  

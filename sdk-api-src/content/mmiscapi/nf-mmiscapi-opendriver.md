@@ -73,7 +73,7 @@ Address of a null-terminated, wide-character string that specifies the name of t
 
 ### -param lParam2 [in]
 
-32-bit driver-specific value. This value is passed as the <i>lParam2</i> parameter to the <a href="https://msdn.microsoft.com/d9a5535f-6b80-40cc-a20b-b7a342414d7f">DriverProc</a> function of the installable driver.
+32-bit driver-specific value. This value is passed as the <i>lParam2</i> parameter to the <a href="https://docs.microsoft.com/previous-versions//dd797918(v=vs.85)">DriverProc</a> function of the installable driver.
 
 
 ## -returns
@@ -90,11 +90,11 @@ Returns the handle of the installable driver instance if successful or <b>NULL</
 
 
 
-<a href="https://msdn.microsoft.com/f3acbfa0-66d4-452b-b1df-ef6b46d1eb39">Installable Driver Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-driver-functions">Installable Driver Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b628a4d-48fa-4388-9d7c-0c901c45b7f3">Installable Drivers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>
  
 
  

@@ -54,7 +54,7 @@ Provides access to the list of IME plug-in dictionaries.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePlugInDictDictionaryList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IImePlugInDictDictionaryList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImePlugInDictDictionaryList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImePlugInDictDictionaryList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IImePlugInDictDictionaryList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38A17092-E545-4018-9D16-2C0406234D62">DeleteDictionary</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msimeapi/nf-msimeapi-iimeplugindictdictionarylist-deletedictionary">DeleteDictionary</a>
 </td>
 <td align="left" width="63%">
 Deletes a dictionary from the IME's plug-in dictionary list.
@@ -78,7 +78,7 @@ Deletes a dictionary from the IME's plug-in dictionary list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/145F403E-7A7D-4336-96CD-620FA61DFCBF">GetDictionariesInUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msimeapi/nf-msimeapi-iimeplugindictdictionarylist-getdictionariesinuse">GetDictionariesInUse</a>
 </td>
 <td align="left" width="63%">
 Obtains the list of Dictionay IDs (<b>GUID</b>) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.

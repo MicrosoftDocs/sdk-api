@@ -88,7 +88,7 @@ The bandwidth is determined by the bandwidth field in the DVB terrestrial delive
 
 
 
-<a href="https://msdn.microsoft.com/f5a95a68-fee0-404c-b9c6-6b808977f8d2">IDVBTLocator Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>
  
 
  

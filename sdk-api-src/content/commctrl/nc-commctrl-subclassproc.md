@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the prototype for the callback function used by <a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a> and <a href="https://msdn.microsoft.com/0b11144d-eb4e-462c-96d3-38c4bac48f2a">SetWindowSubclass</a>.
+Defines the prototype for the callback function used by <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>.
 
 
 ## -parameters
@@ -96,7 +96,7 @@ The subclass ID.
 
 Type: <b>DWORD_PTR</b>
 
-The reference data provided to the <a href="https://msdn.microsoft.com/0b11144d-eb4e-462c-96d3-38c4bac48f2a">SetWindowSubclass</a> function. This can be used to associate the subclass instance with a "this" pointer.
+The reference data provided to the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a> function. This can be used to associate the subclass instance with a "this" pointer.
 
 
 ## -returns

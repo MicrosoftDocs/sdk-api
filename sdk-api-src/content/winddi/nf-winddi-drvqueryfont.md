@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DrvQueryFont</b> function is used by GDI to get the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure for a given font. 
+The <b>DrvQueryFont</b> function is used by GDI to get the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure for a given font. 
 
 
 ## -parameters
@@ -59,29 +59,29 @@ The <b>DrvQueryFont</b> function is used by GDI to get the <a href="https://msdn
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> that identifies a physical device. The PDEV was returned from a previous call to <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
+Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that identifies a physical device. The PDEV was returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 
 ### -param iFile
 
-Pointer to a driver-defined value that identifies a driver font file. This pointer is returned by <a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>. This parameter is zero for device-resident fonts.
+Pointer to a driver-defined value that identifies a driver font file. This pointer is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>. This parameter is zero for device-resident fonts.
 
 
 ### -param iFace
 
-Specifies the one-based index of the driver font. GDI can query the number of fonts from the <a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a> structure.
+Specifies the one-based index of the driver font. GDI can query the number of fonts from the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a> structure.
 
 
 ### -param pid
 
-Pointer to a memory location holding the address of a driver-defined value that GDI passes to <a href="https://msdn.microsoft.com/829e8128-f57f-433c-9c09-7e4dc0ef54be">DrvFree</a> when the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure is no longer needed. Depending on how the driver manages memory, this value can identify the structure, identify the way it was allocated, or do nothing at all.
+Pointer to a memory location holding the address of a driver-defined value that GDI passes to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a> when the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure is no longer needed. Depending on how the driver manages memory, this value can identify the structure, identify the way it was allocated, or do nothing at all.
 
 
 ## -returns
 
 
 
-The return value is a pointer to the <a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a> structure that describes the given font if the function is successful. Otherwise, it is <b>NULL</b>, and an error code is logged.
+The return value is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a> structure that describes the given font if the function is successful. Otherwise, it is <b>NULL</b>, and an error code is logged.
 
 
 
@@ -106,23 +106,23 @@ If the number of fonts in DEVINFO is -1 and <i>iFace</i> is zero, the driver sho
 
 
 
-<a href="https://msdn.microsoft.com/5ba3e521-2e70-4a5b-979d-30a061275d42">DEVINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdevinfo">DEVINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/829e8128-f57f-433c-9c09-7e4dc0ef54be">DrvFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvfree">DrvFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9bcf8f8-40bc-48dc-85b7-67773c8a4ded">DrvLoadFontFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd2606ed-ec61-430a-aaad-38a4c3a207b6">IFIMETRICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_ifimetrics">IFIMETRICS</a>
  
 
  

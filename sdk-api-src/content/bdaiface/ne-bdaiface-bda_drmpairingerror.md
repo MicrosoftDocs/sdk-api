@@ -125,11 +125,11 @@ The handshake was successful but will soon time out. The client should refresh t
 
 
 
-<a href="https://msdn.microsoft.com/f6df89f3-6611-4aa3-ae74-babff88e23fa">BDA Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-reference">BDA Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693319(v=VS.85).aspx">IBDA_DRM::GetDRMPairingStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_drm-getdrmpairingstatus">IBDA_DRM::GetDRMPairingStatus</a>
  
 
  

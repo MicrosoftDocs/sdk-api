@@ -78,7 +78,7 @@ Null-terminated Unicode string into which the Windows Sockets provider copies a 
 
 
 
-<a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>
  
 
  

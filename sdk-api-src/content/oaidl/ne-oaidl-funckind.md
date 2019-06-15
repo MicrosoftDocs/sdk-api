@@ -81,6 +81,6 @@ The function is accessed by static address and does not take an implicit this po
 
 ### -field FUNC_DISPATCH
 
-The function can be accessed only through <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>.
+The function can be accessed only through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>.
 
 

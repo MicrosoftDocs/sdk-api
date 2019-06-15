@@ -81,7 +81,7 @@ The index of the subresource for the tiled resource.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-4102-BEFD-3E46B9957F5E">CopyTiles</a>, <a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">CopyTileMappings</a> and <a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a> methods.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles">CopyTiles</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">CopyTileMappings</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings">UpdateTileMappings</a> methods.
       
 
 
@@ -92,11 +92,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/F770CE6B-DD70-
 
 
 
-<a href="https://msdn.microsoft.com/B337ED04-E2C6-4B89-80F1-92C0854A6AF2">CD3DX12_TILED_RESOURCE_COORDINATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-tiled-resource-coordinate">CD3DX12_TILED_RESOURCE_COORDINATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

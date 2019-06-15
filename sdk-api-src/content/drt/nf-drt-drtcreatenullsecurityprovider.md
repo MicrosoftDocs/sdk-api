@@ -59,7 +59,7 @@ The <b>DrtCreateNullSecurityProvider</b> function creates a null security provid
 
 ### -param ppSecurityProvider [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/1eedfff3-d561-462e-bad0-45e7bc46fb1a">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="https://msdn.microsoft.com/22408b8e-b114-43cd-8f84-3eaf8508f441">DRT_SETTINGS</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider_tag">DRT_SECURITY_PROVIDER</a> module to be included in the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings_tag">DRT_SETTINGS</a> structure.
 
 
 ## -returns
@@ -106,11 +106,11 @@ The system cannot allocate memory for the provider.
 
 
 
-<a href="https://msdn.microsoft.com/1eedfff3-d561-462e-bad0-45e7bc46fb1a">DRT_SECURITY_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider_tag">DRT_SECURITY_PROVIDER</a>
 
 
 
-<a href="https://msdn.microsoft.com/950a43f3-1c1d-4fb3-988b-d58ac9eff2f8">DrtDeleteNullSecurityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletenullsecurityprovider">DrtDeleteNullSecurityProvider</a>
  
 
  

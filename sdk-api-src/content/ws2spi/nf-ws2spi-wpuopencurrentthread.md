@@ -61,7 +61,7 @@ The
 ### -param lpThreadId [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure that can then be passed to an overlapped function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function.
 
 
 ### -param lpErrno [out]
@@ -86,12 +86,12 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://msdn.microsoft.com/9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf">WSPStartup</a> call must occur before using this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> call must occur before using this function.
 
 </td>
 </tr>
@@ -111,19 +111,19 @@ A successful
 
 The 
 <b>WPUOpenCurrentThread</b> function provides a pointer to a 
-<a href="https://msdn.microsoft.com/eeea1139-1d14-4f53-bd64-833539b53bed">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
-<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a> or 
-<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> or 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
 <b>WPUOpenCurrentThread</b> to pass a 
 <b>WSATHREADID</b> pointer to the lower layer that is administering overlapped functions.
 
 Overlapped functions such as 
-<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a> and 
-<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a> can then be used in the same way as a regular service provider.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a> can then be used in the same way as a regular service provider.
 
 Every call to 
 <b>WPUOpenCurrentThread</b> must have a corresponding call to 
-<a href="https://msdn.microsoft.com/1a5e7a99-484f-4862-bd28-edf85debc8e5">WPUCloseThread</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>.
 
 
 
@@ -133,15 +133,15 @@ Every call to
 
 
 
-<a href="https://msdn.microsoft.com/1a5e7a99-484f-4862-bd28-edf85debc8e5">WPUCloseThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/5304a5d6-bc99-4a6f-8eeb-668bbd93fc84">WSPRecv</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d741663-34f5-41b9-ba8f-77d45382d50b">WSPSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>
  
 
  

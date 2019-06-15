@@ -60,37 +60,37 @@ Describes the format of a video stream.
 
 ### -field SampleFormat
 
-Describes the interlacing of the video frames. Contains a value from the <a href="https://msdn.microsoft.com/7d2d38c0-249d-47c3-acda-ba1bec721a5c">DXVA2_SampleFormat</a> enumeration.
+Describes the interlacing of the video frames. Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_sampleformat">DXVA2_SampleFormat</a> enumeration.
 
 
 ### -field VideoChromaSubsampling
 
-Describes the chroma siting. Contains a value from the <a href="https://msdn.microsoft.com/0f9d63fd-46fa-498c-8703-1beeaf09ce86">DXVA2_VideoChromaSubSampling</a> enumeration.
+Describes the chroma siting. Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videochromasubsampling">DXVA2_VideoChromaSubSampling</a> enumeration.
 
 
 ### -field NominalRange
 
-Describes the nominal range of the Y'CbCr or RGB color data. Contains a value from the <a href="https://msdn.microsoft.com/ebc146e4-517f-4413-93dc-66cf4b3a04c3">DXVA2_NominalRange</a> enumeration.
+Describes the nominal range of the Y'CbCr or RGB color data. Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_nominalrange">DXVA2_NominalRange</a> enumeration.
 
 
 ### -field VideoTransferMatrix
 
-Describes the transform from Y'PbPr (component video) to studio R'G'B'. Contains a value from the <a href="https://msdn.microsoft.com/682fa0c7-8f17-457f-9f8a-dc9190866152">DXVA2_VideoTransferMatrix</a> enumeration.
+Describes the transform from Y'PbPr (component video) to studio R'G'B'. Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videotransfermatrix">DXVA2_VideoTransferMatrix</a> enumeration.
 
 
 ### -field VideoLighting
 
-Describes the intended viewing conditions. Contains a value from the <a href="https://msdn.microsoft.com/d70e7aa7-f68f-4ee3-bb75-dbe369e68f0e">DXVA2_VideoLighting</a> enumeration.
+Describes the intended viewing conditions. Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videolighting">DXVA2_VideoLighting</a> enumeration.
 
 
 ### -field VideoPrimaries
 
-Describes the color primaries. Contains a value from the <a href="https://msdn.microsoft.com/4534a198-cf6c-4689-9fe4-0e5cdc7ce26a">DXVA2_VideoPrimaries</a> enumeration.
+Describes the color primaries. Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videoprimaries">DXVA2_VideoPrimaries</a> enumeration.
 
 
 ### -field VideoTransferFunction
 
-Describes the gamma correction transfer function. Contains a value from the <a href="https://msdn.microsoft.com/43b99d5f-ea28-4de2-b118-e2277f283dee">DXVA2_VideoTransferFunction</a> enumeration.
+Describes the gamma correction transfer function. Contains a value from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videotransferfunction">DXVA2_VideoTransferFunction</a> enumeration.
 
 
 ### -field value
@@ -102,7 +102,7 @@ Use this member to access all of the bits in the union.
 
 
 
-Most of the values in this structure can be translated directly to and from <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> attributes. For a code example that fills in the values from an <b>IMFMediaType</b> pointer, see <a href="https://msdn.microsoft.com/0e500a08-a3b5-475c-8bbc-e4b30cce247d">DXVA2_VideoDesc</a>.
+Most of the values in this structure can be translated directly to and from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> attributes. For a code example that fills in the values from an <b>IMFMediaType</b> pointer, see <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videodesc">DXVA2_VideoDesc</a>.
 
 
 
@@ -112,15 +112,15 @@ Most of the values in this structure can be translated directly to and from <a h
 
 
 
-<a href="https://msdn.microsoft.com/05ca73c6-d105-47bc-96bc-b784f669febe">Extended Color Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

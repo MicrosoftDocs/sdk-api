@@ -69,7 +69,7 @@ If this flag is set, the server will fail any IO operation that violates the fil
 
 
 
-<a href="https://msdn.microsoft.com/af888368-36a8-401e-b4df-6b0cc0dfb422">IFsrmFileScreenBase::FileScreenFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_filescreenflags">IFsrmFileScreenBase::FileScreenFlags</a>
  
 
  

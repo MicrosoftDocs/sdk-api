@@ -50,10 +50,10 @@ ms.custom: 19H1
 
 
 Releases the memory resource associated with a Listener object.
-            The Listener state represented in <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a> must be set to either <b>WS_LISTENER_STATE_CREATED</b> 
+            The Listener state represented in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_state">WS_LISTENER_STATE</a> must be set to either <b>WS_LISTENER_STATE_CREATED</b> 
                 or <b>WS_LISTENER_STATE_CLOSED</b> to be released.
             If a Listener has been successfully opened, then it must be closed 
-                using <a href="https://msdn.microsoft.com/6023595a-ac52-4619-a824-df49da887fc5">WsCloseListener</a> before it is released.
+                using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscloselistener">WsCloseListener</a> before it is released.
 
 
 ## -parameters
@@ -63,8 +63,8 @@ Releases the memory resource associated with a Listener object.
 
 ### -param listener [in]
 
-A pointer to the <b>Listener</b> object to release.  The pointer must reference a valid <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> returned
-                    by <a href="https://msdn.microsoft.com/2e592fd2-cf88-4f87-a71b-1c3416917fa7">WsCreateListener</a>.  The referenced value may not be <b>NULL</b>.
+A pointer to the <b>Listener</b> object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> returned
+                    by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatelistener">WsCreateListener</a>.  The referenced value may not be <b>NULL</b>.
                 
 
 

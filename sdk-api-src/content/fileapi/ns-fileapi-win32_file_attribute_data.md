@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains attribute information for a file or directory. The 
-    <a href="https://msdn.microsoft.com/e5d84000-17c1-4517-97a7-6bd240d73814">GetFileAttributesEx</a> function uses this 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> function uses this 
     structure.
 
 
@@ -64,12 +64,12 @@ Contains attribute information for a file or directory. The
 The file system attribute information for a file or directory.
       
 
-For possible values and their descriptions, see <a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>.
+For possible values and their descriptions, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 
 ### -field ftCreationTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies when the file or 
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies when the file or 
       directory is created.
       
 
@@ -78,7 +78,7 @@ If the underlying file system does not support creation time, this member is zer
 
 ### -field ftLastAccessTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
       
 
 For a file, the structure specifies when the file is last read from or written to.
@@ -91,7 +91,7 @@ For both files and directories, the specified date is correct, but the time of d
 
 ### -field ftLastWriteTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
       
 
 For a file, the structure specifies when the file is last written to.
@@ -126,7 +126,7 @@ Not all file systems can record creation and last access time, and not all file 
     same manner. For example, on the FAT file system, create time has a resolution of 10 milliseconds, write time has 
     a resolution of 2 seconds, and access time has a resolution of 1 day. On the NTFS file 
     system, access time has a resolution of 1 hour. For more information, see 
-    <a href="https://msdn.microsoft.com/52d80b82-9ab0-4631-9e70-85df21da4946">File Times</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
 
 
 
@@ -136,11 +136,11 @@ Not all file systems can record creation and last access time, and not all file 
 
 
 
-<a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d84000-17c1-4517-97a7-6bd240d73814">GetFileAttributesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a>
  
 
  

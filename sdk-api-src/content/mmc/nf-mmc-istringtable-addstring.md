@@ -81,8 +81,8 @@ This method can return one of these values.
 
 
 Strings in the string table are reference counted. For example, adding the string "My Text" to the string table will return an ID, say 1234. Adding "My Text" to the string table a second time will return an ID of 1234 again, and the internal reference count for the string will be incremented. Two calls to 
-<a href="https://msdn.microsoft.com/57d04890-5dd8-45e5-9b46-b982ea3a4f36">IStringTable::DeleteString</a>, or a single call to 
-<a href="https://msdn.microsoft.com/9a0b02f6-3c15-4687-a1b8-2beba40dd1dc">IStringTable::DeleteAllStrings</a>, will be required to completely remove "My Text" from the snap-in's string table.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deletestring">IStringTable::DeleteString</a>, or a single call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deleteallstrings">IStringTable::DeleteAllStrings</a>, will be required to completely remove "My Text" from the snap-in's string table.
 
 <b>IStringTable::AddString</b> returns a nonzero string ID if the call to it was successful. Snap-ins therefore can safely use 0 to indicate an unassigned ID.
 
@@ -94,15 +94,15 @@ Strings in the string table are reference counted. For example, adding the strin
 
 
 
-<a href="https://msdn.microsoft.com/3b4cfc92-4f50-4b62-bb2c-77c8e0e003da">IStringTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a0b02f6-3c15-4687-a1b8-2beba40dd1dc">IStringTable::DeleteAllStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deleteallstrings">IStringTable::DeleteAllStrings</a>
 
 
 
-<a href="https://msdn.microsoft.com/57d04890-5dd8-45e5-9b46-b982ea3a4f36">IStringTable::DeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deletestring">IStringTable::DeleteString</a>
  
 
  

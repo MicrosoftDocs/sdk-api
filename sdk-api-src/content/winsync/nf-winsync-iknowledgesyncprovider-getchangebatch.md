@@ -64,7 +64,7 @@ The requested number of changes to include in the change batch.
 
 ### -param pSyncKnowledge [in]
 
-The knowledge from the destination provider. This knowledge must be mapped by calling  <a href="https://msdn.microsoft.com/9325ff3e-4f8e-4a18-bc95-57af30ccd437">ISyncKnowledge::MapRemoteToLocal</a> on the source knowledge before it can be used for change enumeration.
+The knowledge from the destination provider. This knowledge must be mapped by calling  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-mapremotetolocal">ISyncKnowledge::MapRemoteToLocal</a> on the source knowledge before it can be used for change enumeration.
 
 
 ### -param ppSyncChangeBatch [out]
@@ -74,7 +74,7 @@ Returns a change batch that contains item metadata for items that are not contai
 
 ### -param ppUnkDataRetriever [out]
 
-Returns an object that can be used to retrieve change data. It can be an <a href="https://msdn.microsoft.com/d59a5198-5878-4a48-b6c4-042afc36054d">ISynchronousDataRetriever</a> object or a provider-specific object.
+Returns an object that can be used to retrieve change data. It can be an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The method succeeded.
 Be aware that <i>dwBatchSize</i> is a requested number only. A smaller or larger batch can be returned.
 
 
-<div class="alert"><b>Note</b>  If there are no more changes to send after this batch, <a href="https://msdn.microsoft.com/14ca01a1-04eb-4282-adf0-e775d6ff0801">ISyncChangeBatchBase::SetLastBatch</a> must be called on the returned change batch before <b>GetChangeBatch</b> is called again.</div>
+<div class="alert"><b>Note</b>  If there are no more changes to send after this batch, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase::SetLastBatch</a> must be called on the returned change batch before <b>GetChangeBatch</b> is called again.</div>
 <div> </div>
 
 
@@ -130,7 +130,7 @@ Be aware that <i>dwBatchSize</i> is a requested number only. A smaller or larger
 
 
 
-<a href="https://msdn.microsoft.com/396bbf7e-7fd0-4a2e-8304-f87097cd5e50">IKnowledgeSyncProvider Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
  
 
  

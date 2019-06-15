@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Synchronously queries the computer for the history of update events. This method method returns a pointer to an <a href="https://msdn.microsoft.com/c3bc764b-c9cc-4567-963e-2e481bdda611">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the  computer.
+Synchronously queries the computer for the history of update events. This method method returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the  computer.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ The number of events to retrieve.
 
 ### -param retval [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/c3bc764b-c9cc-4567-963e-2e481bdda611">IUpdateHistoryEntryCollection</a> interface that contains the matching event records on the computer in descending chronological order.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains the matching event records on the computer in descending chronological order.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The string that is used for  the <i>criteria</i> parameter must match the custom
 
 Note that <b>QueryHistory</b> supports per-machine updates only.
 
-For a complete description of search criteria syntax, see <a href="https://msdn.microsoft.com/0511cfd0-f4de-41ab-af35-32d757217386">Search</a>. 
+For a complete description of search criteria syntax, see <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a>. 
 
 The following table identifies all the public support criteria, in the order of evaluation precedence. More criteria may be added to this list in the future.
 
@@ -144,9 +144,9 @@ The following table identifies all the public support criteria, in the order of 
 <td><b>string(UUID)</b></td>
 <td><b>=</b></td>
 <td>
-Finds updates that have an <a href="https://msdn.microsoft.com/072c85a7-bcac-4323-97df-75aa2b89f1ba">UpdateIdentity.UpdateID</a> of the specified value. 
+Finds updates that have an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> of the specified value. 
 
-For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for <a href="https://msdn.microsoft.com/072c85a7-bcac-4323-97df-75aa2b89f1ba">UpdateIdentity.UpdateID</a> that equal 12345678-9abc-def0-1234-56789abcdef0.
+For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that equal 12345678-9abc-def0-1234-56789abcdef0.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for
 
 
 
-<a href="https://msdn.microsoft.com/7caa07ee-ec78-45eb-99a2-0e6682790c88">IUpdateSession3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession3">IUpdateSession3</a>
  
 
  

@@ -61,7 +61,7 @@ When DirectX video acceleration is enabled, the <b>OnSample</b> method is never 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPlayerTimestampHook</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPlayerTimestampHook</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPlayerTimestampHook</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPlayerTimestampHook</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IWMPlayerTimestampHook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757264(v=VS.85).aspx">MapTimestamp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nf-wmdxva-iwmplayertimestamphook-maptimestamp">MapTimestamp</a>
 </td>
 <td align="left" width="63%">
 Provides the decoder with a time stamp that it will apply to the sample before delivering it to the video renderer.
@@ -91,7 +91,7 @@ Provides the decoder with a time stamp that it will apply to the sample before d
 
 
 
-<a href="https://msdn.microsoft.com/5cb2f564-88e3-4b60-bde3-6ccf69c97c48">Enabling DirectX Video Acceleration</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
  
 
  

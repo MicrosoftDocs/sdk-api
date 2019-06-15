@@ -87,7 +87,7 @@ The element is filled using a pattern.
 
 
 
-<a href="https://msdn.microsoft.com/961C2064-F896-4ECD-9529-71A1656EE0EE">VisualEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-visualeffects">VisualEffects</a>
  
 
  

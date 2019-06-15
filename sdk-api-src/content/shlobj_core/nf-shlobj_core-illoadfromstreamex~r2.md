@@ -45,7 +45,7 @@ api_name:
     unavailable in subsequent versions.]
 
 Loads a child pointer to an item identifier list (PIDL) from an 
-    <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 
 
@@ -53,9 +53,9 @@ Loads a child pointer to an item identifier list (PIDL) from an
 
 ### -param pstm
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface from which the child PIDL loads.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface from which the child PIDL loads.
 
 
 ### -param ppidl

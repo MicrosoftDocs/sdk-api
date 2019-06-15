@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Terminates an advisory connection previously established through <a href="https://msdn.microsoft.com/458c24b0-9288-4ed7-9a4b-7534f26dd32e">IFileOperation::Advise</a>.
+Terminates an advisory connection previously established through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Terminates an advisory connection previously established through <a href="https:
 
 Type: <b>DWORD</b>
 
-The connection token that identifies the connection to delete. This value was originally retrieved by <a href="https://msdn.microsoft.com/458c24b0-9288-4ed7-9a4b-7534f26dd32e">Advise</a> when the connection was made.
+The connection token that identifies the connection to delete. This value was originally retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">Advise</a> when the connection was made.
 
 
 ## -returns
@@ -110,11 +110,11 @@ The value in <i>dwCookie</i> does not represent a valid connection.
 
 
 
-<a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
 
 
 
-<a href="https://msdn.microsoft.com/458c24b0-9288-4ed7-9a4b-7534f26dd32e">IFileOperation::Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a>
  
 
  

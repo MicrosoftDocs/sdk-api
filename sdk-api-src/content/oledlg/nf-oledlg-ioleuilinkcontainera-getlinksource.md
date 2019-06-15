@@ -61,7 +61,7 @@ Retrieves information about a link that can be displayed in the <b>Links</b> dia
 
 ### -param dwLink [in]
 
-Container-defined unique identifier for a single link. See <a href="https://msdn.microsoft.com/60246b31-3677-4424-a131-840feeca030f">IOleUILinkContainer::GetNextLink</a>.
+Container-defined unique identifier for a single link. See <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getnextlink">IOleUILinkContainer::GetNextLink</a>.
 
 
 ### -param lplpszDisplayName [out, optional]
@@ -71,17 +71,17 @@ Address of a pointer variable that receives a pointer to the full display name s
 
 ### -param lplenFileName [out]
 
-Pointer to the length of the leading file name portion of the <i>lplpszDisplayName</i> string. If the link source is not stored in a file, then <i>lplenFileName</i> should be 0. For OLE links, call <a href="https://msdn.microsoft.com/a4c5bc82-f423-4a02-b8d4-49b38a9c0f42">IOleLink::GetSourceDisplayName</a>.
+Pointer to the length of the leading file name portion of the <i>lplpszDisplayName</i> string. If the link source is not stored in a file, then <i>lplenFileName</i> should be 0. For OLE links, call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getsourcedisplayname">IOleLink::GetSourceDisplayName</a>.
 
 
 ### -param lplpszFullLinkType [out, optional]
 
-Address of a pointer variable that receives a pointer to the full link type string that is displayed at the bottom of the <b>Links</b> dialog box. The caller allocates this string. The <b>Links</b> dialog box will free this string. For OLE links, this should be the full User Type name. Use <a href="https://msdn.microsoft.com/8ffffa01-d118-4955-84d1-a4659ba9ddc9">IOleObject::GetUserType</a>, specifying USERCLASSTYPE_FULL for <i>dwFormOfType</i>.
+Address of a pointer variable that receives a pointer to the full link type string that is displayed at the bottom of the <b>Links</b> dialog box. The caller allocates this string. The <b>Links</b> dialog box will free this string. For OLE links, this should be the full User Type name. Use <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>, specifying USERCLASSTYPE_FULL for <i>dwFormOfType</i>.
 
 
 ### -param lplpszShortLinkType [out, optional]
 
-Address of a pointer variable that receives a pointer to the short link type string that is displayed in the listbox of the <b>Links</b> dialog box. The caller allocates this string. The <b>Links</b> dialog box will free this string. For OLE links, this should be the short user type name. Use <a href="https://msdn.microsoft.com/8ffffa01-d118-4955-84d1-a4659ba9ddc9">IOleObject::GetUserType</a>, specifying USERCLASSTYPE_SHORT for <i>dwFormOfType</i>.
+Address of a pointer variable that receives a pointer to the short link type string that is displayed in the listbox of the <b>Links</b> dialog box. The caller allocates this string. The <b>Links</b> dialog box will free this string. For OLE links, this should be the short user type name. Use <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>, specifying USERCLASSTYPE_SHORT for <i>dwFormOfType</i>.
 
 
 ### -param lpfSourceAvailable [out]
@@ -91,7 +91,7 @@ Pointer that returns <b>FALSE</b> if it is known that a link is unavailable sinc
 
 ### -param lpfIsSelected [out]
 
-Pointer to a variable that tells the <b>Edit Links</b> dialog box that this link's entry should be selected in the dialog's multi-selection listbox. <a href="https://msdn.microsoft.com/17c7daf8-83bf-4cfd-a67c-a638630ca263">OleUIEditLinks</a> calls this method at least once for each item to be placed in the links list. If none of them return <b>TRUE</b>, then none of them will be selected when the dialog box is first displayed. If all of them return <b>TRUE</b>, then all will be displayed. That is, it returns <b>TRUE</b> if this link is currently part of the selection in the underlying document, <b>FALSE</b> if not. Any links that are selected in the underlying document are selected in the dialog box; this way, the user can select a set of links and use the dialog box to update them or change their source(s) simultaneously.
+Pointer to a variable that tells the <b>Edit Links</b> dialog box that this link's entry should be selected in the dialog's multi-selection listbox. <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a> calls this method at least once for each item to be placed in the links list. If none of them return <b>TRUE</b>, then none of them will be selected when the dialog box is first displayed. If all of them return <b>TRUE</b>, then all will be displayed. That is, it returns <b>TRUE</b> if this link is currently part of the selection in the underlying document, <b>FALSE</b> if not. Any links that are selected in the underlying document are selected in the dialog box; this way, the user can select a set of links and use the dialog box to update them or change their source(s) simultaneously.
 
 
 ## -returns
@@ -170,27 +170,27 @@ Call this method during dialog box initialization, after returning from the <b>C
 
 
 
-<a href="https://msdn.microsoft.com/a4c5bc82-f423-4a02-b8d4-49b38a9c0f42">IOleLink::GetSourceDisplayName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-getsourcedisplayname">IOleLink::GetSourceDisplayName</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ffffa01-d118-4955-84d1-a4659ba9ddc9">IOleObject::GetUserType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/440d120c-a121-471b-bee1-f23af136a664">OLEUICHANGESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangesourcea">OLEUICHANGESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/53ff17aa-3135-462e-885d-3bfbb74ed1c5">OleUIChangeSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuichangesourcea">OleUIChangeSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/f35dd18a-7fde-4954-8315-bc9bfd933827">USERCLASSTYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-taguserclasstype">USERCLASSTYPE</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWIA_DEV_INFO::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/en-us/library/ms630162(v=VS.85).aspx">IEnumWIA_DEV_INFO</a> interface and sends back a pointer to it.
+The <b>IEnumWIA_DEV_INFO::Clone</b> method creates an additional instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info">IEnumWIA_DEV_INFO</a> interface and sends back a pointer to it.
 
 
 
@@ -61,9 +61,9 @@ The <b>IEnumWIA_DEV_INFO::Clone</b> method creates an additional instance of the
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630162(v=VS.85).aspx">IEnumWIA_DEV_INFO</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info">IEnumWIA_DEV_INFO</a>**</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms630162(v=VS.85).aspx">IEnumWIA_DEV_INFO</a> interface. This parameter contains a pointer to the <b>IEnumWIA_DEV_INFO</b> interface instance that <b>IEnumWIA_DEV_INFO::Clone</b> creates.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info">IEnumWIA_DEV_INFO</a> interface. This parameter contains a pointer to the <b>IEnumWIA_DEV_INFO</b> interface instance that <b>IEnumWIA_DEV_INFO::Clone</b> creates.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the pointers they receive through the <i>ppIEnum</i> parameter.
+Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the pointers they receive through the <i>ppIEnum</i> parameter.
 
 
 

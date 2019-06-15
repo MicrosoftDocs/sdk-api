@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context. Values from this enumeration are passed to <a href="https://msdn.microsoft.com/2e534123-6300-4da3-a220-ba0b41a7c9a2">IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig</a>. The COMTI eases the task of wrapping mainframe transactions and business logic as COM components.
+Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context. Values from this enumeration are passed to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig">IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig</a>. The COMTI eases the task of wrapping mainframe transactions and business logic as COM components.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are 
 
 ### -field CSC_NoCOMTIIntrinsics
 
-The current COMTI intrinsics do not propagate to the new context. This is the default setting for <a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Ignore.
+The current COMTI intrinsics do not propagate to the new context. This is the default setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 
 
 ### -field CSC_InheritCOMTIIntrinsics
 
-The current COMTI intrinsics propagate to the new context. This is the default setting for <a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Inherit.
+The current COMTI intrinsics propagate to the new context. This is the default setting for <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> when <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_inheritanceconfig">CSC_InheritanceConfig</a> is set to CSC_Inherit.
 
 
 
@@ -72,7 +72,7 @@ The current COMTI intrinsics propagate to the new context. This is the default s
 
 
 
-This enumeration is used to configure the COMTI intrinsics settings through <a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>.
+This enumeration is used to configure the COMTI intrinsics settings through <a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coleaveservicedomain">CoLeaveServiceDomain</a>.
 
 
 
@@ -83,19 +83,19 @@ This enumeration is used to configure the COMTI intrinsics settings through <a h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688295(v=VS.85).aspx">CServiceConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e534123-6300-4da3-a220-ba0b41a7c9a2">IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig">IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig</a>
  
 
  

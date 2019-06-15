@@ -59,7 +59,7 @@ Gets the content reference identifier (CRID) from a Digital Video Broadcast (DVB
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the service record to return. To get the number of service records in the descriptor, call the <a href="https://msdn.microsoft.com/cd96a052-52e6-4de7-aa44-66c2caa4d5f5">IDvbContentIdentifierDescriptor::GetCountOfRecords</a> method.
+Zero-based index of the service record to return. To get the number of service records in the descriptor, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getcountofrecords">IDvbContentIdentifierDescriptor::GetCountOfRecords</a> method.
 
 
 ### -param pbType [out]
@@ -96,11 +96,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/bdd15b6f-2f1e-438a-a2fd-f3fa4df2a9fd">IDvbContentIdentifierDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentidentifierdescriptor">IDvbContentIdentifierDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd96a052-52e6-4de7-aa44-66c2caa4d5f5">IDvbContentIdentifierDescriptor::GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getcountofrecords">IDvbContentIdentifierDescriptor::GetCountOfRecords</a>
  
 
  

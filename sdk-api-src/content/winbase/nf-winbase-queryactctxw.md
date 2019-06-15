@@ -78,8 +78,8 @@ This parameter should be set to one of the following flag bits.
 </td>
 <td width="60%">
 <b>QueryActCtxW</b> queries the activation context active on the thread instead of the context specified by <i>hActCtx</i>. This is usually the last activation context passed to 
-<a href="https://msdn.microsoft.com/03381d95-1b5d-4b70-8c86-937ab9b2672d">ActivateActCtx</a>. If 
-<b>ActivateActCtx</b> has not been called, the active activation context can be the activation context used by the executable of the current process. In other cases, the operating system  determines the active activation context. For example, when the callback function to a new thread is called, the active activation context may be the context that was active when you created the thread by calling <a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a>. If 
+<b>ActivateActCtx</b> has not been called, the active activation context can be the activation context used by the executable of the current process. In other cases, the operating system  determines the active activation context. For example, when the callback function to a new thread is called, the active activation context may be the context that was active when you created the thread by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>.
 
 </td>
 </tr>
@@ -152,9 +152,9 @@ Pointer to a <b>DWORD</b> that specifies the index of the assembly within the ac
 </td>
 <td width="60%">
 Pointer to an 
-<a href="https://msdn.microsoft.com/eb15895c-07c9-4b68-83ef-2f2b8e3b271c">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://msdn.microsoft.com/7f1e5155-a6c1-4b6a-be47-37fab337186c">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ Not available.
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains detailed information about the activation context. This information is in the form of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374158(v=VS.85).aspx">ACTIVATION_CONTEXT_DETAILED_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_activation_context_detailed_information">ACTIVATION_CONTEXT_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -206,7 +206,7 @@ If
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about the assembly that has the index specified in <i>pvSubInstance</i>. This information is in the form of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374157(v=VS.85).aspx">ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_activation_context_assembly_detailed_information">ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -218,9 +218,9 @@ If
 </td>
 <td width="60%">
 Information about a file in one of the assemblies in Activation Context. The <i>pvSubInstance</i> parameter must point to an 
-<a href="https://msdn.microsoft.com/eb15895c-07c9-4b68-83ef-2f2b8e3b271c">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_query_index">ACTIVATION_CONTEXT_QUERY_INDEX</a> structure. If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains information for a file in the assembly. This information is in the form of the 
-<a href="https://msdn.microsoft.com/7f1e5155-a6c1-4b6a-be47-37fab337186c">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -233,7 +233,7 @@ Information about a file in one of the assemblies in Activation Context. The <i>
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about requested run level of the activation context. This information is in the form of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374168(v=VS.85).aspx">ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_activation_context_run_level_information">ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not available.
 
@@ -248,7 +248,7 @@ If
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about requested compatibility context. This information is in the form of the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd765160(v=VS.85).aspx">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
 
 <b>Windows Server 2008 and earlier, and Windows Vista and earlier:  </b>This value is not available. This option is available beginning with Windows Server 2008 R2 and Windows 7.
 
@@ -281,9 +281,9 @@ Number of bytes written or required. The parameter <i>pcbWrittenOrRequired</i> c
 If the function succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. For an example, see 
-<a href="https://msdn.microsoft.com/4cc626ac-7574-44ce-8377-e0bdd8e74b7e">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 

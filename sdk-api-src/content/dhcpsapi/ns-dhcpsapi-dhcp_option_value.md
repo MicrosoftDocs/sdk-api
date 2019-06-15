@@ -60,13 +60,13 @@ The <b>DHCP_OPTION_VALUE</b> structure defines a DHCP  option value (just the op
 ### -field OptionID
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_OPTION_ID</a> value that specifies a unique ID number for the option.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies a unique ID number for the option.
 
 
 ### -field Value
 
 
-<a href="https://msdn.microsoft.com/6b2e5866-f65f-4ff0-a531-3d07b972f55e">DHCP_OPTION_DATA</a> structure that contains the data for a DHCP server option.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data">DHCP_OPTION_DATA</a> structure that contains the data for a DHCP server option.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ The <b>DHCP_OPTION_VALUE</b> structure defines a DHCP  option value (just the op
 
 
 
-<a href="https://msdn.microsoft.com/6b2e5866-f65f-4ff0-a531-3d07b972f55e">DHCP_OPTION_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_option_data">DHCP_OPTION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/7dca800f-2427-44b1-bc92-f9db54de08a5">DhcpGetOptionValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetoptionvalue">DhcpGetOptionValue</a>
  
 
  

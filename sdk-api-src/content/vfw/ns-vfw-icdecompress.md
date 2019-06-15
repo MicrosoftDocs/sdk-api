@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDECOMPRESS</b> structure contains decompression parameters used with the <a href="https://msdn.microsoft.com/666f2ebf-80a5-4846-861d-c79c3001c5a0">ICM_DECOMPRESS</a> message.
+The <b>ICDECOMPRESS</b> structure contains decompression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress">ICM_DECOMPRESS</a> message.
 
 
 
@@ -130,7 +130,7 @@ Screen is being updated or refreshed.
 
 ### -field lpbiInput
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
           
 
 
@@ -142,7 +142,7 @@ Pointer to a buffer containing the input data.
 
 ### -field lpbiOutput
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
           
 
 
@@ -167,15 +167,15 @@ Chunk identifier from the AVI file.
 
 
 
-<a href="https://msdn.microsoft.com/666f2ebf-80a5-4846-861d-c79c3001c5a0">ICM_DECOMPRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompress">ICM_DECOMPRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/129a65a7-cac3-47e0-9e9c-6e5a4a260c73">Video Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetPhotoAcquireSettings</code> method obtains an <a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings</a> object for working with acquisition settings.
+The <code>GetPhotoAcquireSettings</code> method obtains an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings</a> object for working with acquisition settings.
 
 
 
@@ -110,7 +110,7 @@ Null value passed where non-null is expected.
 
 
 
-<a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
  
 
  

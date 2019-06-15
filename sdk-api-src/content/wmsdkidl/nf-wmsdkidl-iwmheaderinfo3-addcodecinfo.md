@@ -75,7 +75,7 @@ Pointer to a wide-character null-terminated string containing the description.
 
 ### -param codecType [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd757837(v=VS.85).aspx">WMT_CODEC_INFO_TYPE</a> enumeration specifying the codec type.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_codec_info_type">WMT_CODEC_INFO_TYPE</a> enumeration specifying the codec type.
 
 
 ### -param cbCodecInfo [in]
@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
-The parameters passed to this method should be obtained from the original file with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798506(v=VS.85).aspx">IWMHeaderInfo2::GetCodecInfo</a>.
+The parameters passed to this method should be obtained from the original file with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo2-getcodecinfo">IWMHeaderInfo2::GetCodecInfo</a>.
 
 
 
@@ -130,7 +130,7 @@ The parameters passed to this method should be obtained from the original file w
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
  
 
  

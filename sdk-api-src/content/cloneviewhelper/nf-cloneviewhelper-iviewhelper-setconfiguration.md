@@ -128,7 +128,7 @@ The <i>pIStream</i> parameter is set to <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The driver failed to apply settings. In this situation, TMM will resume control and apply settings through a call to the Win32 <b>ChangeDisplaySettingsEx</b> function and the <a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a> method. For more information about <b>ChangeDisplaySettingsEx</b>, see the Windows SDK documentation. 
+The driver failed to apply settings. In this situation, TMM will resume control and apply settings through a call to the Win32 <b>ChangeDisplaySettingsEx</b> function and the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a> method. For more information about <b>ChangeDisplaySettingsEx</b>, see the Windows SDK documentation. 
 
 </td>
 </tr>
@@ -151,31 +151,31 @@ The following data structures are used to format the display modes and topology 
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagsources">Sources</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/c62c6aed-2593-4b5d-884f-99d20e269eb1">Adapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagadapter">Adapter</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/4f91e683-66f6-4667-86d0-d3de28ba64b0">Adapters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagadapters">Adapters</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagdisplaymode">DisplayMode</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagdisplaymodes">DisplayModes</a>
 
 
 </li>
@@ -190,27 +190,27 @@ These structures are defined in the <i>Cloneviewhelper.h</i>.
 
 
 
-<a href="https://msdn.microsoft.com/c62c6aed-2593-4b5d-884f-99d20e269eb1">Adapter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagadapter">Adapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f91e683-66f6-4667-86d0-d3de28ba64b0">Adapters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagadapters">Adapters</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc189bb6-e2c4-422c-8350-4c1632439478">DisplayMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagdisplaymode">DisplayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/0add7a43-571f-4854-b019-d3601f915d48">DisplayModes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagdisplaymodes">DisplayModes</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4a9d98c-834b-4578-9ba3-7c7295989a84">IViewHelper::SetActiveTopology</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fbb12bc-d6e0-4cb7-b9d7-4e28ad85eca2">Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-tagsources">Sources</a>
  
 
  

@@ -137,7 +137,7 @@ Specifies the count of POINTFIX structures pointed to by <b>pptfx</b>.
 
 ### -field pptfx
 
-Pointer to an array of POINTFIX structures that define the control points for the curves. These structures must not be modified. For a description of the POINTFIX structure, see <a href="https://msdn.microsoft.com/2054aa16-6d86-4db3-8b16-4570b0374e23">GDI Data Types</a>.
+Pointer to an array of POINTFIX structures that define the control points for the curves. These structures must not be modified. For a description of the POINTFIX structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 
 ## -remarks
@@ -154,11 +154,11 @@ The PATHDATA structure describes all or part of a subpath. For example, a <b>Mov
 
 
 
-<a href="https://msdn.microsoft.com/40fcd6e2-7ed4-433f-ab8b-cc75a305adb9">LINEATTRS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_lineattrs">LINEATTRS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e8bd76c-5ee6-4fe5-b1e5-64e84d09fc8f">PATHOBJ_bEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
  
 
  

@@ -68,9 +68,9 @@ The IDList of the parent folder of the item being created; the IDList of <i>psfP
 
 ### -param psfParent [in]
 
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> interface that specifies the shell data source of the child item specified by the <i>pidl</i>.This parameter can be <b>NULL</b>, if <i>pidlParent</i> is specified.
+A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface that specifies the shell data source of the child item specified by the <i>pidl</i>.This parameter can be <b>NULL</b>, if <i>pidlParent</i> is specified.
 
 
 ### -param pidl [in]
@@ -91,8 +91,8 @@ A reference to an interface ID.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in riid.  This will typically be <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> or 
-        <a href="https://msdn.microsoft.com/e54d8385-ec67-4825-ad7c-431807a4fcb4">IShellItem2</a>.
+When this function returns, contains the interface pointer requested in riid.  This will typically be <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>.
 
 
 ## -returns

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MPR_DEVICE_1</b> structure stores information about a device used for a link in a multilinked demand dial interface. In addition to the information in 
-<a href="https://msdn.microsoft.com/1814c428-1a3c-45f3-8b15-182e1eceff7b">MPR_DEVICE_0</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a>, 
 <b>MPR_DEVICE_1</b> contains phone-number information.
 
 
@@ -63,7 +63,7 @@ The
 ### -field szDeviceType
 
 Specifies a null-terminated string that indicates the device type referenced by <b>szDeviceName</b>. See 
-<a href="https://msdn.microsoft.com/486f3526-2b0e-4f08-bb85-3aebf10cd52e">MPR_INTERFACE_2</a> for a list of possible device types.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_interface_2">MPR_INTERFACE_2</a> for a list of possible device types.
 
 
 ### -field szDeviceName
@@ -86,15 +86,15 @@ Pointer to a list of consecutive null-terminated Unicode strings. The last strin
 
 
 
-<a href="https://msdn.microsoft.com/1814c428-1a3c-45f3-8b15-182e1eceff7b">MPR_DEVICE_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_mpr_device_0">MPR_DEVICE_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/edff88dd-80ae-4704-b320-925006346dda">MprAdminInterfaceDeviceGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedevicegetinfo">MprAdminInterfaceDeviceGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae8b3762-f176-4f91-97fc-33f7a9dcd424">MprAdminInterfaceDeviceSetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedevicesetinfo">MprAdminInterfaceDeviceSetInfo</a>
  
 
  

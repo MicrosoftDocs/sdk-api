@@ -61,7 +61,7 @@ Contains information about a Remote Desktop Services session.
 
 ### -field State
 
-A value of the <a href="https://msdn.microsoft.com/ee376f5a-3474-4e31-94c1-e760346eb794">WTS_CONNECTSTATE_CLASS</a> enumeration type that indicates the session's current connection state.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-_wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a> enumeration type that indicates the session's current connection state.
 
 
 ### -field SessionId

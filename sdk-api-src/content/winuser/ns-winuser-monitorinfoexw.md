@@ -53,13 +53,13 @@ ms.custom: 19H1
 The <b>MONITORINFOEX</b> structure contains information about a display monitor.
 
 The 
-        <a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a> function stores information into a 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> function stores information into a 
          <b>MONITORINFOEX</b>  structure or a 
-        <a href="https://msdn.microsoft.com/ca8ec86f-69ba-4cf8-a867-67182a3d630d">MONITORINFO</a> structure.
+        <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a> structure.
 
 The 
          <b>MONITORINFOEX</b>  structure is a superset of the 
-         <a href="https://msdn.microsoft.com/ca8ec86f-69ba-4cf8-a867-67182a3d630d">MONITORINFO</a>  structure. The 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a>  structure. The 
          <b>MONITORINFOEX</b>  structure adds a string member to contain a name for the display monitor.
 
 
@@ -72,7 +72,7 @@ The
 
 ### -field szDevice
 
-A string that specifies the device name of the monitor being used.  Most applications have no use for a display monitor name, and so can save some bytes by using a <a href="https://msdn.microsoft.com/ca8ec86f-69ba-4cf8-a867-67182a3d630d">MONITORINFO</a> structure.
+A string that specifies the device name of the monitor being used.  Most applications have no use for a display monitor name, and so can save some bytes by using a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a> structure.
 
 
 ### -field tagMONITORINFO
@@ -86,19 +86,19 @@ A string that specifies the device name of the monitor being used.  Most applica
 
 
 
-<a href="https://msdn.microsoft.com/025a89c2-4bbd-4c8b-8367-3735fb5b872a">GetMonitorInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca8ec86f-69ba-4cf8-a867-67182a3d630d">MONITORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmonitorinfo">MONITORINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/901c8fbe-a29c-4382-80d4-5e3667a031da">Multiple Display Monitors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/871d0608-53a8-4b85-8c03-e7dd464015aa">Multiple Display Monitors Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-structures">Multiple Display Monitors Structures</a>
  
 
  

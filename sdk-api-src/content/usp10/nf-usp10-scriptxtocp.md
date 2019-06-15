@@ -62,7 +62,7 @@ Generates the leading or trailing edge of a logical character cluster from the x
 
 ### -param iX [in]
 
-Offset, in logical units, from the end of the run specified by the <b>fLogicalOrder</b> member of the <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> structure indicated by the <i>psa</i> parameter.
+Offset, in logical units, from the end of the run specified by the <b>fLogicalOrder</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure indicated by the <i>psa</i> parameter.
 
 
 ### -param cChars [in]
@@ -82,7 +82,7 @@ Pointer to an array of logical clusters.
 
 ### -param psva [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/83b77f60-2520-49ee-bc7f-27cb3db02ac8">SCRIPT_VISATTR</a> structures containing the visual attributes for the glyph.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a> structures containing the visual attributes for the glyph.
 
 
 ### -param piAdvance [in]
@@ -92,7 +92,7 @@ Pointer to an array of advance widths.
 
 ### -param psa [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member indicates <b>TRUE</b> to use the leading edge of the run, or <b>FALSE</b> to use the trailing edge.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a> structure. The <b>fLogicalOrder</b> member indicates <b>TRUE</b> to use the leading edge of the run, or <b>FALSE</b> to use the trailing edge.
 
 
 ### -param piCP [out]
@@ -118,7 +118,7 @@ Returns 0 if successful. The function returns a nonzero HRESULT value if it does
 
 
 
-The values passed to this function normally are the results of earlier calls to other Uniscribe functions. See <a href="https://msdn.microsoft.com/50b4b643-af96-4a6f-80f9-27a71ce16b0e">Managing Caret Placement and Hit Testing</a> for details.
+The values passed to this function normally are the results of earlier calls to other Uniscribe functions. See <a href="https://docs.microsoft.com/windows/desktop/Intl/managing-caret-placement-and-hit-testing">Managing Caret Placement and Hit Testing</a> for details.
 
 The leading and trailing edges of the logical character are determined by the direction of text in the run (left-to-right or right-to-left). For the left-to-right direction, the leading edge is the same as the left edge. For the right-to-left direction, the leading edge is the right edge.
 
@@ -156,19 +156,19 @@ When <i>iX</i> indicates a position outside the run, <b>ScriptXtoCP</b> acts as 
 
 
 
-<a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_analysis">SCRIPT_ANALYSIS</a>
 
 
 
-<a href="https://msdn.microsoft.com/83b77f60-2520-49ee-bc7f-27cb3db02ac8">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/876e36f5-a91c-490b-87bd-b7cb4993f8c4">Uniscribe Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
  
 
  

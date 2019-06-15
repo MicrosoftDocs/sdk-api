@@ -53,7 +53,7 @@ Initializes a new instance of <code>XMXDECN4</code> from a <code>uint32_t</code>
 	component data in a packed format.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4 </a> from a
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4 </a> from a
 	<code>uint32_t</code> variable containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -116,11 +116,11 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned, as an unsigned
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421408(v=VS.85).aspx">XMXDECN4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415544(v=VS.85).aspx">XMXDECN4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdecn4-ctor">XMXDECN4 Constructors</a>
  
 
  

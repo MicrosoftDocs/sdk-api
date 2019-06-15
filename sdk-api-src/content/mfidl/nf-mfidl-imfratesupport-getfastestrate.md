@@ -63,12 +63,12 @@ Gets the fastest playback rate supported by the object.
 
 ### -param eDirection [in]
 
-Specifies whether to query to the fastest forward playback rate or reverse playback rate. The value is a member of the <a href="https://msdn.microsoft.com/34cc861c-ab15-48f4-bb6e-736b70383546">MFRATE_DIRECTION</a> enumeration.
+Specifies whether to query to the fastest forward playback rate or reverse playback rate. The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-_mfrate_direction">MFRATE_DIRECTION</a> enumeration.
 
 
 ### -param fThin [in]
 
-If <b>TRUE</b>, the method retrieves the fastest thinned playback rate. Otherwise, the method retrieves the fastest non-thinned playback rate. For information about thinning, see <a href="https://msdn.microsoft.com/509b2cc8-6017-41a9-ae80-9af21dce9367">About Rate Control</a>.
+If <b>TRUE</b>, the method retrieves the fastest thinned playback rate. Otherwise, the method retrieves the fastest non-thinned playback rate. For information about thinning, see <a href="https://docs.microsoft.com/windows/desktop/medfound/about-rate-control">About Rate Control</a>.
 
 
 ### -param pflRate [out]
@@ -144,11 +144,11 @@ If <i>eDirection</i> is MFRATE_REVERSE, the method retrieves the fastest reverse
 
 
 
-<a href="https://msdn.microsoft.com/7f2b64e1-1062-4f77-b8e0-62b6d962ae8b">How to Determine Supported Rates</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-determine-supported-rates">How to Determine Supported Rates</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6c495fa-0f6a-4e4c-8fba-996b22d55053">IMFRateSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfratesupport">IMFRateSupport</a>
  
 
  

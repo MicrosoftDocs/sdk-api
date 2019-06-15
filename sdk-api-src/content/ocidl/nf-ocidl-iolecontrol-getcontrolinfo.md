@@ -59,7 +59,7 @@ Retrieves information about the control's keyboard mnemonics and behavior.
 
 ### -param pCI [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/3f22dc1d-554a-4dd1-a79a-121117f65caf">CONTROLINFO</a> structure that receives the information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcontrolinfo">CONTROLINFO</a> structure that receives the information.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The address in <i>pCI</i> is not valid. For example, it may be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/ef85dce6-b680-4a72-9277-4cfdab27cbbc">IOleControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>FilterSendMessage</b> function sends a message to a kernel-mode minifilte
 
 ### -param hPort [in]
 
-Communication port handle returned by a previous call to <a href="https://msdn.microsoft.com/294783f2-2cbf-4eea-82ae-a396c62f911a">FilterConnectCommunicationPort</a>. This parameter is required and cannot be <b>NULL</b>. 
+Communication port handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ### -param lpInBuffer [in, optional]
@@ -100,17 +100,17 @@ Pointer to a caller-allocated variable that receives the number of bytes returne
 
 
 
-The <b>FilterSendMessage</b> function sends a message to a minifilter. The message is passed to the minifilter's message notification callback routine, which processes the message. (The minifilter registers its message callback notification routine by passing it as the <i>MessageNotifyCallback</i> parameter to <a href="https://msdn.microsoft.com/9987ed6b-7792-4035-9640-9ee9595e854a">FltCreateCommunicationPort</a>.) 
+The <b>FilterSendMessage</b> function sends a message to a minifilter. The message is passed to the minifilter's message notification callback routine, which processes the message. (The minifilter registers its message callback notification routine by passing it as the <i>MessageNotifyCallback</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>.) 
 
 <b>FilterSendMessage</b> is synchronous. The caller is put into a wait state until the message is delivered and the minifilter's reply (if any) is received. 
 
 If the caller expects a reply, it must pass a non-<b>NULL</b> buffer for the <i>lpOutBuffer</i> parameter and a positive value for the <i>dwOutBufferSize</i> parameter. 
 
-To get a message from a minifilter, call <a href="https://msdn.microsoft.com/2738e237-835c-471f-9129-26c4da5fe839">FilterGetMessage</a>. 
+To get a message from a minifilter, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>. 
 
-To reply to a message from a minifilter, call <a href="https://msdn.microsoft.com/e0a0033c-2ea8-4e5b-bcae-680247ea6157">FilterReplyMessage</a>. 
+To reply to a message from a minifilter, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>. 
 
-A minifilter sends a message to a user-mode application by calling <a href="https://msdn.microsoft.com/83e8389f-1960-4fe0-9a33-526311ecba82">FltSendMessage</a>. 
+A minifilter sends a message to a user-mode application by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>. 
 
 
 
@@ -120,23 +120,23 @@ A minifilter sends a message to a user-mode application by calling <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/294783f2-2cbf-4eea-82ae-a396c62f911a">FilterConnectCommunicationPort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterconnectcommunicationport">FilterConnectCommunicationPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/2738e237-835c-471f-9129-26c4da5fe839">FilterGetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetmessage">FilterGetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a0033c-2ea8-4e5b-bcae-680247ea6157">FilterReplyMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/9987ed6b-7792-4035-9640-9ee9595e854a">FltCreateCommunicationPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/83e8389f-1960-4fe0-9a33-526311ecba82">FltSendMessage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsendmessage">FltSendMessage</a>
  
 
  

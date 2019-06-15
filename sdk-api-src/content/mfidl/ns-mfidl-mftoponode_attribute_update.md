@@ -59,7 +59,7 @@ Specifies a new attribute value for a topology node.
 
 ### -field NodeId
 
-The identifier of the topology node to update. To get the identifier of a topology node, call <a href="https://msdn.microsoft.com/9c0e5be9-6481-4132-ad5b-9db13fb07391">IMFTopologyNode::GetTopoNodeID</a>.
+The identifier of the topology node to update. To get the identifier of a topology node, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-gettoponodeid">IMFTopologyNode::GetTopoNodeID</a>.
           
 
 
@@ -71,7 +71,7 @@ GUID that specifies the attribute to update.
 
 ### -field attrType
 
-Attribute type, specified as a member of the <a href="https://msdn.microsoft.com/1844fbe2-0a07-4c0c-9ffe-4c59fc01f793">MF_ATTRIBUTE_TYPE</a> enumeration.
+Attribute type, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attribute_type">MF_ATTRIBUTE_TYPE</a> enumeration.
           
 
 
@@ -97,7 +97,7 @@ Attribute value (floating point). This member is used when <b>attrType</b> equal
 
 
 
-Due to an error in the structure declaration, the <b>u64</b> member is declared as a 32-bit integer, not a 64-bit integer. Therefore, any 64-bit value passed to the <a href="https://msdn.microsoft.com/a769b0bd-a43f-478b-a6e4-bbef05942616">IMFTopologyNodeAttributeEditor::UpdateNodeAttributes</a> method is truncated to 32 bits.
+Due to an error in the structure declaration, the <b>u64</b> member is declared as a 32-bit integer, not a 64-bit integer. Therefore, any 64-bit value passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynodeattributeeditor-updatenodeattributes">IMFTopologyNodeAttributeEditor::UpdateNodeAttributes</a> method is truncated to 32 bits.
       
 
 
@@ -108,15 +108,15 @@ Due to an error in the structure declaration, the <b>u64</b> member is declared 
 
 
 
-<a href="https://msdn.microsoft.com/a769b0bd-a43f-478b-a6e4-bbef05942616">IMFTopologyNodeAttributeEditor::UpdateNodeAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynodeattributeeditor-updatenodeattributes">IMFTopologyNodeAttributeEditor::UpdateNodeAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6d9246a-0cc6-4dbd-affa-e7d0bbddb008">TOPOID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a>
  
 
  

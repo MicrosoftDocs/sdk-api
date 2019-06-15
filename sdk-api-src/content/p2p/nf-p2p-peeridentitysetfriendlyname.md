@@ -133,7 +133,7 @@ A peer identity that matches a specified name cannot be found.
 
 
 
-<a href="https://msdn.microsoft.com/c0d823db-9c2c-46c1-99b8-87fe7fdc9343">PeerIdentityGetFriendlyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetfriendlyname">PeerIdentityGetFriendlyName</a>
  
 
  

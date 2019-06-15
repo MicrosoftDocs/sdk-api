@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f22b21f8-5191-480d-8471-3d5fc82ba060">IWbemObjectSinkEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectsinkex">IWbemObjectSinkEx</a>
  
 
  

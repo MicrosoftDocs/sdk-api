@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>VSS_ALTERNATE_WRITER_STATE</b> enumeration 
     is used to indicate whether a given writer has an associated alternate writer. The existence 
     of an alternate writer is set during writer initialization by 
-    <a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>.
 
 Currently, the only supported value for a method taking a 
     <b>VSS_ALTERNATE_WRITER_STATE</b> argument is 
@@ -91,15 +91,15 @@ The writer in question is an alternate writer. This enumeration value is reserve
 
 
 
-<a href="https://msdn.microsoft.com/a427ebbd-b7c4-46ba-ba16-dd601b1f956e">CVssWriter::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/bec4ea32-e150-468e-9b4d-2405125e5250">CVssWriter::OnVSSApplicationStartup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onvssapplicationstartup">CVssWriter::OnVSSApplicationStartup</a>
 
 
 
-<a href="https://msdn.microsoft.com/97aa20a3-4d58-49e8-83c0-fc33c700c410">VSS_WRITER_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_writer_state">VSS_WRITER_STATE</a>
  
 
  

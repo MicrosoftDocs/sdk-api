@@ -59,37 +59,37 @@ The <b>PEER_GROUP_EVENT_TYPE</b> enumeration contains the specific peer event ty
 
 ### -field PEER_GROUP_EVENT_STATUS_CHANGED
 
-The status of the group has changed. This peer event is fired when one of the flags listed in the <a href="https://msdn.microsoft.com/ed3fa9a6-5180-419f-b5d1-02889bbcdd0d">PEER_GROUP_STATUS</a> enumeration are set or changed for the group.
+The status of the group has changed. This peer event is fired when one of the flags listed in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_status_tag">PEER_GROUP_STATUS</a> enumeration are set or changed for the group.
 
 
 ### -field PEER_GROUP_EVENT_PROPERTY_CHANGED
 
-A member in the <a href="https://msdn.microsoft.com/a1501343-bd84-4dbe-91d0-c64c59e34abc">PEER_GROUP_PROPERTIES</a> structure has changed.   The application already has the change and must use <a href="https://msdn.microsoft.com/6273817f-9698-4c0b-93a9-9bbee2e5dc78">PeerGroupGetProperties</a> to get the updated structure. This peer event does not have associated data present in <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a> to retrieve.
+A member in the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_properties_tag">PEER_GROUP_PROPERTIES</a> structure has changed.   The application already has the change and must use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a> to get the updated structure. This peer event does not have associated data present in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a> to retrieve.
 
 
 ### -field PEER_GROUP_EVENT_RECORD_CHANGED
 
-A group record has changed. Information on this change is provided in the <b>recordChangeData</b> member of <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>.
+A group record has changed. Information on this change is provided in the <b>recordChangeData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
 
 
 ### -field PEER_GROUP_EVENT_DIRECT_CONNECTION
 
-The status of a direct connection has changed. Information on this change is provided in the <b>connectionChangeData</b> member of <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>.
+The status of a direct connection has changed. Information on this change is provided in the <b>connectionChangeData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
 
 
 ### -field PEER_GROUP_EVENT_NEIGHBOR_CONNECTION
 
-The status of a neighbor connection has changed. Information on this change is provided in the <b>connectionChangeData</b>  member of <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>.
+The status of a neighbor connection has changed. Information on this change is provided in the <b>connectionChangeData</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
 
 
 ### -field PEER_GROUP_EVENT_INCOMING_DATA
 
-Incoming direct connection data from a member is detected. Information on this peer event is provided in the <b>incomingData</b>  member of <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>.
+Incoming direct connection data from a member is detected. Information on this peer event is provided in the <b>incomingData</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
 
 
 ### -field PEER_GROUP_EVENT_MEMBER_CHANGED
 
-The status of a member has changed. Information on this change is provided in the <b>memberChangeData</b>  member of <a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>.
+The status of a member has changed. Information on this change is provided in the <b>memberChangeData</b>  member of <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>.
 
 
 ### -field PEER_GROUP_EVENT_CONNECTION_FAILED
@@ -108,11 +108,11 @@ The connection to the peer group has failed. No data is provided when this peer 
 
 
 
-<a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c9c82c3-b02a-49c2-9a8f-eb355ded8480">PEER_GROUP_EVENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration_tag">PEER_GROUP_EVENT_REGISTRATION</a>
  
 
  

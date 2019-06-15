@@ -64,7 +64,7 @@ Specifies the number of elements in <b>Classes</b>.
 
 ### -field Classes
 
-Pointer to an array of <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a> structures that contain DHCP class information.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a> structures that contain DHCP class information.
 
 
 ### -field Classes.size_is
@@ -84,11 +84,11 @@ Pointer to an array of <a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90
 
 
 
-<a href="https://msdn.microsoft.com/62fb9f21-ad21-4525-90f4-48dc5a8b230b">DHCP_CLASS_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_class_info">DHCP_CLASS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f37424-1a81-477e-85da-359885e94349">DhcpEnumClasses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumclasses">DhcpEnumClasses</a>
  
 
  

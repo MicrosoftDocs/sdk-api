@@ -64,7 +64,7 @@ The <code>SetFormat</code> method sets the current data format.
 
 ### -param lpWaveFormat [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure that will contain the current data format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that will contain the current data format.
 
 
 ## -returns
@@ -122,11 +122,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389513(v=VS.85).aspx">IAudioData Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiodata">IAudioData Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389514(v=VS.85).aspx">IAudioData::GetFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-iaudiodata-getformat">IAudioData::GetFormat</a>
  
 
  

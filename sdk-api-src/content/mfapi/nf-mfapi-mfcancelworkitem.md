@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Attempts to cancel an asynchronous operation that was scheduled with <a href="https://msdn.microsoft.com/c14786e4-7fbe-4748-a6ba-e9e68f78b241">MFScheduleWorkItem</a> or <a href="https://msdn.microsoft.com/b698cae1-4f3b-4649-b6f7-583f223eb90c">MFScheduleWorkItemEx</a>.
+Attempts to cancel an asynchronous operation that was scheduled with <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem">MFScheduleWorkItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex">MFScheduleWorkItemEx</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Attempts to cancel an asynchronous operation that was scheduled with <a href="ht
 
 ### -param Key [in]
 
-The key that was received in the <i>pKey</i> parameter of the <a href="https://msdn.microsoft.com/c14786e4-7fbe-4748-a6ba-e9e68f78b241">MFScheduleWorkItem</a>, <a href="https://msdn.microsoft.com/b698cae1-4f3b-4649-b6f7-583f223eb90c">MFScheduleWorkItemEx</a>, or <a href="https://msdn.microsoft.com/BBD80C60-E42F-4B3B-96E3-E01058A27DB8">MFPutWaitingWorkItem</a> functions.
+The key that was received in the <i>pKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem">MFScheduleWorkItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex">MFScheduleWorkItemEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputwaitingworkitem">MFPutWaitingWorkItem</a> functions.
           
 
 
@@ -92,11 +92,11 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

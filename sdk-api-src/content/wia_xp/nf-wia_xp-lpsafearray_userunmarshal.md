@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unmarshals a <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object from the RPC buffer.
+Unmarshals a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> object from the RPC buffer.
 
 
 ## -parameters
@@ -140,7 +140,7 @@ Insufficient memory for this function to perform.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.
 
 </td>
 </tr>

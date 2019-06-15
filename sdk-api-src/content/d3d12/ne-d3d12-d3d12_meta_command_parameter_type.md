@@ -59,12 +59,12 @@ Defines constants that specify the data type of a parameter to a meta command.
 
 ### -field D3D12_META_COMMAND_PARAMETER_TYPE_FLOAT
 
-Specifies that the parameter is of type <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a>.
+Specifies that the parameter is of type <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a>.
 
 
 ### -field D3D12_META_COMMAND_PARAMETER_TYPE_UINT64
 
-Specifies that the parameter is of type <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a>.
+Specifies that the parameter is of type <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a>.
 
 
 ### -field D3D12_META_COMMAND_PARAMETER_TYPE_GPU_VIRTUAL_ADDRESS

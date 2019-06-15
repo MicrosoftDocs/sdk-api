@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Creates the dialog box window for the property page.
 
-The dialog box is created without a frame, caption, or system menu/controls. The text in the dialog should match the locale obtained through <a href="https://msdn.microsoft.com/d569346d-4a40-42a4-ac8e-539588c4dd66">IPropertyPageSite::GetLocaleID</a>.
+The dialog box is created without a frame, caption, or system menu/controls. The text in the dialog should match the locale obtained through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypagesite-getlocaleid">IPropertyPageSite::GetLocaleID</a>.
 
 
 ## -parameters
@@ -117,7 +117,7 @@ The address in <i>prc</i> is not valid. For example, it may be <b>NULL</b>.
 
 
 
-The property page maintains the window handle created in this process, which it uses to destroy the dialog box within <a href="https://msdn.microsoft.com/545f7c3d-3c6f-42c2-b472-3da3bc184200">IPropertyPage::Deactivate</a>.
+The property page maintains the window handle created in this process, which it uses to destroy the dialog box within <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-deactivate">IPropertyPage::Deactivate</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 E_NOTIMPL is not a valid return value.
@@ -130,7 +130,7 @@ E_NOTIMPL is not a valid return value.
 
 
 
-<a href="https://msdn.microsoft.com/ad2cb3ae-dd24-4774-95bd-f5a0773c68b1">IPropertyPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
  
 
  

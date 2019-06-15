@@ -60,7 +60,7 @@ Specifies a proxy property.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/d81944ae-74b9-4eee-b02f-5b1d5c99c358">WS_PROXY_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_proxy_property_id">WS_PROXY_PROPERTY_ID</a>.
             
 
 

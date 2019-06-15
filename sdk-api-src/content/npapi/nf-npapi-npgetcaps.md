@@ -137,7 +137,7 @@ WNet API version supported by the provider.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> of the network provider.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the network provider.
 
 </td>
 </tr>
@@ -180,11 +180,11 @@ When a start time is returned by <b>NPGetCaps</b>, the MPR uses this value to de
 
 
 
-<a href="https://msdn.microsoft.com/9b0e5646-ac57-4eae-bad7-a16c07b51f4b">NPLogonNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c7f5672-f379-4518-ae60-4f7d7e4caffa">NPPasswordChangeNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a>
  
 
  

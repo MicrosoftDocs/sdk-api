@@ -63,7 +63,7 @@ Retrieves the color of the solid color brush.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a></b>
 
 The color of this solid color brush.
 
@@ -75,11 +75,11 @@ The color of this solid color brush.
 
 
 
-<a href="https://msdn.microsoft.com/36f5cf3e-00a4-45d2-816c-85c18eb948f4">COLORF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">COLORF</a>
 
 
 
-<a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a>
  
 
  

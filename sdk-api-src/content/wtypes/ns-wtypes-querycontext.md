@@ -64,12 +64,12 @@ The execution context.
 
 ### -field Platform
 
-The operating system platform and processor architecture. For more information, see <a href="https://msdn.microsoft.com/e9ffa8ba-98a2-431c-a069-20ed4a45e6f8">CSPLATFORM</a>.
+The operating system platform and processor architecture. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-tagcsplatform">CSPLATFORM</a>.
 
 
 ### -field Locale
 
-The locale identifier. For more information, see <a href="https://msdn.microsoft.com/8a6373e0-46c2-4b1b-bc67-543f426ef15a">Language Identifier Constants and Strings</a>.
+The locale identifier. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a>.
 
 
 ### -field dwVersionHi
@@ -87,11 +87,11 @@ The low version number.
 
 
 
-<a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX</a>
 
 
 
-<a href="https://msdn.microsoft.com/9486ef2d-51a1-41b4-85e5-427af9a98cec">CoInstall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinstall">CoInstall</a>
  
 
  

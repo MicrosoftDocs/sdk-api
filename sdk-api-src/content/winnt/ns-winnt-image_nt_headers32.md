@@ -65,13 +65,13 @@ A 4-byte signature identifying the file as a PE image. The bytes are "PE\0\0".
 ### -field FileHeader
 
 An 
-<a href="https://msdn.microsoft.com/1f1fe842-0849-46d0-8dba-831cf5aa02ef">IMAGE_FILE_HEADER</a> structure that specifies the file header.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_file_header">IMAGE_FILE_HEADER</a> structure that specifies the file header.
 
 
 ### -field OptionalHeader
 
 An 
-<a href="https://msdn.microsoft.com/b6a50ffc-49f8-4824-9b51-7e381eaf8852">IMAGE_OPTIONAL_HEADER</a> structure that specifies the optional file header.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a> structure that specifies the optional file header.
 
 
 ## -remarks
@@ -98,39 +98,39 @@ typedef struct _IMAGE_NT_HEADERS64 {
 
 
 
-<a href="https://msdn.microsoft.com/01a99601-64de-412d-991e-b1708286ca8c">CheckSumMappedFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-checksummappedfile">CheckSumMappedFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f1fe842-0849-46d0-8dba-831cf5aa02ef">IMAGE_FILE_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_file_header">IMAGE_FILE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6a50ffc-49f8-4824-9b51-7e381eaf8852">IMAGE_OPTIONAL_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_OPTIONAL_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88c7a21-933f-450c-97e8-04cf3c5f9b11">ImageHlp Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf796c81-84d1-43e6-a2ff-b0be6f4603e0">ImageNtHeader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/a11df748-242b-4dd8-bf57-7ac02548b701">ImageRvaToSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f022054-d98e-44c8-b256-5c34711ce471">ImageRvaToVa</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bfc6b47-23d6-45e1-a733-5b938d6312da">LOADED_IMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_loaded_image">LOADED_IMAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/b29026e2-3063-447c-9449-7105deb3d744">UpdateDebugInfoFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-updatedebuginfofile">UpdateDebugInfoFile</a>
  
 
  

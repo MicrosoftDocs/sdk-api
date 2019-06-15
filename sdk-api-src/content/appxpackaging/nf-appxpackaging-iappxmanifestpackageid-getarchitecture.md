@@ -59,7 +59,7 @@ Gets the processor architecture as defined in the manifest.
 
 ### -param architecture [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/8BC7ABF0-448F-4405-AA82-49C6DB3F230C">APPX_PACKAGE_ARCHITECTURE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_package_architecture">APPX_PACKAGE_ARCHITECTURE</a>*</b>
 
 The architecture specified for the package.
 
@@ -79,9 +79,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Processor architecture information is specified using the <b>ProcessorArchitecture</b> attribute of the <a href="https://msdn.microsoft.com/45524773-3b61-44ac-a417-cfaac92af0a0">Identity</a> element in the package manifest.
+Processor architecture information is specified using the <b>ProcessorArchitecture</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity">Identity</a> element in the package manifest.
 
-If no architecture is defined in the manifest, this method returns the <b>APPX_PACKAGE_ARCHITECTURE_NEUTRAL</b> value of the  <a href="https://msdn.microsoft.com/8BC7ABF0-448F-4405-AA82-49C6DB3F230C">APPX_PACKAGE_ARCHITECTURE</a> enumeration.
+If no architecture is defined in the manifest, this method returns the <b>APPX_PACKAGE_ARCHITECTURE_NEUTRAL</b> value of the  <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_package_architecture">APPX_PACKAGE_ARCHITECTURE</a> enumeration.
 
 
 
@@ -91,7 +91,7 @@ If no architecture is defined in the manifest, this method returns the <b>APPX_P
 
 
 
-<a href="https://msdn.microsoft.com/8665AC2B-4D06-4684-99B1-E22533CA04AA">IAppxManifestPackageId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-This type description is used with <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_DATETIME_TYPE</a> and is optional.
+This type description is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DATETIME_TYPE</a> and is optional.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
             
 
-Only the <b>ticks</b> member of the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> is compared.
+Only the <b>ticks</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> is compared.
             
 
 

@@ -152,11 +152,11 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a2b6faf3-bd24-416a-b7ea-1ef1b48f965b">CM_Delete_DevNode_Key</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_delete_devnode_key">CM_Delete_DevNode_Key</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffa435c8-4a73-454e-be36-cd90ba6e6d11">SetupDiOpenDevRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>
  
 
  

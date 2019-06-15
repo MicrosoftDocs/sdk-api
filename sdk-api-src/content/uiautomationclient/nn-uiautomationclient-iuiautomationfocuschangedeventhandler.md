@@ -54,7 +54,7 @@ Exposes a method to handle events that are raised when the keyboard focus moves 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationFocusChangedEventHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationFocusChangedEventHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationFocusChangedEventHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationFocusChangedEventHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAutomationFocusChangedEventHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d90982f-4805-4ebb-a9f9-e335dc15d519">HandleFocusChangedEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationfocuschangedeventhandler-handlefocuschangedevent">HandleFocusChangedEvent</a>
 </td>
 <td align="left" width="63%">
 Handles the event raised when the keyboard focus moves to a different UI Automation element.
@@ -83,7 +83,7 @@ Handles the event raised when the keyboard focus moves to a different UI Automat
 
 
 
-This interface is implemented by the application to handle events that were subscribed to by using <a href="https://msdn.microsoft.com/469e9c3e-366f-4c13-8c27-58fdb705d4d9">AddFocusChangedEventHandler</a>
+This interface is implemented by the application to handle events that were subscribed to by using <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-addfocuschangedeventhandler">AddFocusChangedEventHandler</a>
 
 
 
@@ -94,7 +94,7 @@ This interface is implemented by the application to handle events that were subs
 
 
 
-<a href="https://msdn.microsoft.com/ce9c4044-f46b-42b7-af44-05aee728a0e8">Event Handling Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-eventhandlinginterfaces">Event Handling Interfaces for Clients</a>
  
 
  

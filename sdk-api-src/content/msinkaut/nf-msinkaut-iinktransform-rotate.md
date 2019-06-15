@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Changes the amount, measured in degrees, to change the rotation factor of the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object and optionally the center point of the rotation.
+Changes the amount, measured in degrees, to change the rotation factor of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object and optionally the center point of the rotation.
 
 
 
@@ -133,7 +133,7 @@ The center point defaults to the origin.
 
 
 
-<a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
  
 
  

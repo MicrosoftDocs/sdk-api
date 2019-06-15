@@ -86,7 +86,7 @@ Use <b>IErrorInfo::GetSource</b> to determine the class or application that is t
 
 
 
-<a href="https://msdn.microsoft.com/4dda6909-2d9a-4727-ae0c-b5f90dcfa447">IErrorInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
  
 
  

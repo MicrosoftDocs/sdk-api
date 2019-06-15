@@ -64,7 +64,7 @@ For stream events, the value is the zero-based index of the stream that sent the
 
 ### -param pEvent [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/b4f686be-9472-433c-b983-6c48dfd3ac76">IMFMediaEvent</a> interface of the event.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of the event.
 
 
 ## -returns
@@ -84,25 +84,25 @@ In the current implementation,  the source reader uses this method to forward th
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/8637dfcd-2e0c-4cf4-a216-4089c201bfc6">MEBufferingStarted</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstarted">MEBufferingStarted</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/11b1290d-d462-4aa0-a358-b3f6447c99d8">MEBufferingStopped</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mebufferingstopped">MEBufferingStopped</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/737aec32-24f4-4825-ad34-8d2fc889bc09">MEConnectEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/meconnectend">MEConnectEnd</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0844ac10-cc5b-4e7f-92df-3a5901c72148">MEConnectStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/meconnectstart">MEConnectStart</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a54a446c-0e96-467b-90f6-0f64a7c1727d">MEExtendedType</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/meextendedtype">MEExtendedType</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/df7bb9a3-5949-4a4a-8835-c5b1d01b5cb3">MESourceCharacteristicsChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcecharacteristicschanged">MESourceCharacteristicsChanged</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6818b0c9-9628-41e6-8dc6-dff26f4fcfd2">MESourceMetadataChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcemetadatachanged">MESourceMetadataChanged</a>
 </li>
 </ul>
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
@@ -115,11 +115,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/fff8b6e6-5d56-4301-b3ce-f3ff49398593">IMFSourceReaderCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
  
 
  

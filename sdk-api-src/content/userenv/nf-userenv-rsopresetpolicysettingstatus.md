@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
     <b>RSoPResetPolicySettingStatus</b> function unlinks the 
-<a href="https://msdn.microsoft.com/b3dfd62a-c461-4f9b-95cb-3ef944c51024">RSOP_PolicySettingStatus</a> instance from its 
-<a href="https://msdn.microsoft.com/131b0f68-5c39-402b-a8e2-c111e852f1cb">RSOP_PolicySetting</a> instance. The function deletes the instances of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysettingstatus">RSOP_PolicySettingStatus</a> instance from its 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance. The function deletes the instances of 
 <b>RSOP_PolicySettingStatus</b> and 
-<a href="https://msdn.microsoft.com/359e7212-a5ba-42eb-b704-8c838cdce24b">RSOP_PolicySettingLink</a>. Optionally, you can also specify that the function delete the instance of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysettinglink">RSOP_PolicySettingLink</a>. Optionally, you can also specify that the function delete the instance of 
 <b>RSOP_PolicySetting</b>.
 
 
@@ -76,7 +76,7 @@ Specifies a WMI services pointer to the RSoP namespace to which the policy data 
 ### -param pSettingInstance [in]
 
 Pointer to an instance of 
-<a href="https://msdn.microsoft.com/131b0f68-5c39-402b-a8e2-c111e852f1cb">RSOP_PolicySetting</a> containing the policy setting. This parameter is required and can also point to the instance's children.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> containing the policy setting. This parameter is required and can also point to the instance's children.
 
 
 ## -returns
@@ -93,9 +93,9 @@ If the function succeeds, the return value is <b>S_OK</b>. Otherwise, the functi
 
 
 To link (associate) the 
-<a href="https://msdn.microsoft.com/b3dfd62a-c461-4f9b-95cb-3ef944c51024">RSOP_PolicySettingStatus</a> instance to its 
-<a href="https://msdn.microsoft.com/131b0f68-5c39-402b-a8e2-c111e852f1cb">RSOP_PolicySetting</a> instance, you can call the 
-<a href="https://msdn.microsoft.com/7ea2f217-4dd2-4c0f-af1b-d4bcb8707519">RSoPSetPolicySettingStatus</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysettingstatus">RSOP_PolicySettingStatus</a> instance to its 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-policysetting">RSOP_PolicySetting</a> instance, you can call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopsetpolicysettingstatus">RSoPSetPolicySettingStatus</a> function.
 
 
 
@@ -105,17 +105,17 @@ To link (associate) the
 
 
 
-<a href="https://msdn.microsoft.com/7c45666e-d7c7-4989-ad19-b1b230757a88">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ea2f217-4dd2-4c0f-af1b-d4bcb8707519">RSoPSetPolicySettingStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-rsopsetpolicysettingstatus">RSoPSetPolicySettingStatus</a>
  
 
  

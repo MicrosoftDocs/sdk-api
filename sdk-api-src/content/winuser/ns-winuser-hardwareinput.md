@@ -87,11 +87,11 @@ The high-order word of the <i>lParam </i> parameter for <b>uMsg</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646270(v=VS.85).aspx">INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput">INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -99,7 +99,7 @@ The high-order word of the <i>lParam </i> parameter for <b>uMsg</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
  
 
  

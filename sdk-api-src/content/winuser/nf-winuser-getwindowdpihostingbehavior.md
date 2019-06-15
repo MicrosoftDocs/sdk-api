@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a> of the specified window.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> of the specified window.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ The handle for the window to examine.
 
 
 
-The <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a> of the specified window.
+The <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a> of the specified window.
 
 
 
@@ -75,7 +75,7 @@ The <a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DP
 
 
 
-This API allows you to examine the hosting behavior of a window after it has been created. A window's hosting behavior is the hosting behavior of the thread in which the window was created, as set by a call to <a href="https://msdn.microsoft.com/CF31D96A-EC84-4911-81A2-82EC90D417B9">SetThreadDpiHostingBehavior</a>. This is a permanent value and cannot be changed after the window is created, even if the thread's hosting behavior is changed.
+This API allows you to examine the hosting behavior of a window after it has been created. A window's hosting behavior is the hosting behavior of the thread in which the window was created, as set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a>. This is a permanent value and cannot be changed after the window is created, even if the thread's hosting behavior is changed.
 
 
 
@@ -85,15 +85,15 @@ This API allows you to examine the hosting behavior of a window after it has bee
 
 
 
-<a href="https://msdn.microsoft.com/4BFBF485-1AD2-4460-A4EE-CB76EF62B8C4">DPI_HOSTING_BEHAVIOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_hosting_behavior">DPI_HOSTING_BEHAVIOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/B9500745-9B53-47FF-9F45-0BFF3A66FD46">GetThreadDpiHostingBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpihostingbehavior">GetThreadDpiHostingBehavior</a>
 
 
 
-<a href="https://msdn.microsoft.com/CF31D96A-EC84-4911-81A2-82EC90D417B9">SetThreadDpiHostingBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a>
  
 
  

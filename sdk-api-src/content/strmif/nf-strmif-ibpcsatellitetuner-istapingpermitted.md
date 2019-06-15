@@ -78,7 +78,7 @@ Returns S_OK if taping is permitted or S_FALSE if taping is not permitted.
 
 
 
-<a href="https://msdn.microsoft.com/61b14331-851b-4579-8995-06c6c4e8c8b7">IBPCSatelliteTuner Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibpcsatellitetuner">IBPCSatelliteTuner Interface</a>
  
 
  

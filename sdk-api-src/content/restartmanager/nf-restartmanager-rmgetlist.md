@@ -64,29 +64,29 @@ A handle to an existing Restart Manager session.
 
 ### -param pnProcInfoNeeded [out]
 
-A pointer to an array size necessary to receive <a href="https://msdn.microsoft.com/27e593f9-8ff0-4de4-87ca-7fa5f324468a">RM_PROCESS_INFO</a> structures required to return information for all affected applications and services.
+A pointer to an array size necessary to receive <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structures required to return information for all affected applications and services.
 
 
 ### -param pnProcInfo [in, out]
 
-A pointer to the total number of <a href="https://msdn.microsoft.com/27e593f9-8ff0-4de4-87ca-7fa5f324468a">RM_PROCESS_INFO</a> structures in an array and number of structures filled.
+A pointer to the total number of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structures in an array and number of structures filled.
 
 
 ### -param rgAffectedApps [in, out, optional]
 
-An array of <a href="https://msdn.microsoft.com/27e593f9-8ff0-4de4-87ca-7fa5f324468a">RM_PROCESS_INFO</a> structures that list the applications and services  using resources that have been registered with the session.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structures that list the applications and services  using resources that have been registered with the session.
 
 
 ### -param lpdwRebootReasons [out]
 
-Pointer to location that receives a value of the  <a href="https://msdn.microsoft.com/f99c1b66-db2f-4520-86cf-19961e511474">RM_REBOOT_REASON</a> enumeration that describes the reason a system restart is needed.
+Pointer to location that receives a value of the  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-_rm_reboot_reason">RM_REBOOT_REASON</a> enumeration that describes the reason a system restart is needed.
 
 
 ## -returns
 
 
 
-This is the most recent error received. The function can return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ The function completed successfully.
 </dl>
 </td>
 <td width="60%">
-This error value is returned by the <a href="https://msdn.microsoft.com/de4feea4-2b45-4430-a4b3-8ca26c455e42">RmGetList</a> function if the <i>rgAffectedApps</i> buffer is too small to hold all application information in the list.
+This error value is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> function if the <i>rgAffectedApps</i> buffer is too small to hold all application information in the list.
 
 </td>
 </tr>
@@ -200,7 +200,7 @@ No Restart Manager session exists for the handle supplied.
 
 
 
-<a href="https://msdn.microsoft.com/58a9a734-667a-48b0-84e2-8cfd85e918bf">RmCancelCurrentTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmcancelcurrenttask">RmCancelCurrentTask</a>
  
 
  

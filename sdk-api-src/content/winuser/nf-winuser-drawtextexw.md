@@ -79,7 +79,7 @@ If <i>dwDTFormat</i> includes DT_MODIFYSTRING, the function could add up to four
 
 ### -param cchText [in]
 
-The <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> pointed to by <i>lpchText</i>. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawTextEx</b> computes the character count automatically.
+The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpchText</i>. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawTextEx</b> computes the character count automatically.
 
 
 ### -param lprc [in, out]
@@ -316,7 +316,7 @@ Displays text on a single line only. Carriage returns and line feeds do not brea
 </dl>
 </td>
 <td width="60%">
-Sets tab stops. The <a href="https://msdn.microsoft.com/d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
+Sets tab stops. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdrawtextparams">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
 
 </td>
 </tr>
@@ -368,7 +368,7 @@ Compare with DT_END_ELLIPSIS and DT_PATH_ELLIPSIS.
 
 ### -param lpdtp [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdrawtextparams">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -398,21 +398,21 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
-<a href="https://msdn.microsoft.com/d3b89ce2-9a05-42af-b03e-24e1c4d6ef1d">DRAWTEXTPARAMS
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagdrawtextparams">DRAWTEXTPARAMS
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
  
 
  

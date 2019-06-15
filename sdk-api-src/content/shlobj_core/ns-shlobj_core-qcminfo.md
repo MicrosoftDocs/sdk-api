@@ -96,7 +96,7 @@ Not used, must be <b>NULL</b>.
 
 
 
-See <a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">IContextMenu::QueryContextMenu</a> as this structure performs the same role as the parameters of that method. Note, however, that the information provided by the return value of that method is not a parallel to the information provided by the return value of an operation involving <b>QCMINFO</b>.
+See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a> as this structure performs the same role as the parameters of that method. Note, however, that the information provided by the return value of that method is not a parallel to the information provided by the return value of an operation involving <b>QCMINFO</b>.
 
 
 
@@ -106,19 +106,19 @@ See <a href="https://msdn.microsoft.com/329fe15b-c1c1-4ffd-812e-9e74451bad6e">IC
 
 
 
-<a href="https://msdn.microsoft.com/2fd779ac-7dd6-4b81-86dc-8930db27ae59">DFM_MERGECONTEXTMENU</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/registering-control-panel-items">DFM_MERGECONTEXTMENU</a>
 
 
 
-<a href="https://msdn.microsoft.com/37414335-4f3c-461e-bd05-d6ef850f972a">DFM_MERGECONTEXTMENU_BOTTOM</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/reg-middleware-apps">DFM_MERGECONTEXTMENU_BOTTOM</a>
 
 
 
-<a href="https://msdn.microsoft.com/eed6aec6-11a0-4738-b5b9-a455d0e35eac">DFM_MERGECONTEXTMENU_TOP</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/samples-aerowizards">DFM_MERGECONTEXTMENU_TOP</a>
 
 
 
-<a href="https://msdn.microsoft.com/59bb99a3-9a5a-4ea5-9830-b04d7d886b3f">SFVM_MERGEMENU</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-mergemenu">SFVM_MERGEMENU</a>
  
 
  

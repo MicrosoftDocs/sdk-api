@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Uses a reader to convert a set of encoded bytes to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+Uses a reader to convert a set of encoded bytes to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
 
 
@@ -66,14 +66,14 @@ The reader to use to parse the encoded bytes.
 
 ### -param encoding [in, optional]
 
-The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://msdn.microsoft.com/en-us/library/Dd323556(v=VS.85).aspx">WS_XML_READER_TEXT_ENCODING</a> 
-          with a charset of <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a> will be used.
+The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_text_encoding">WS_XML_READER_TEXT_ENCODING</a> 
+          with a charset of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> will be used.
         
 
 
 ### -param properties
 
-An array of optional properties of the reader.  See <a href="https://msdn.microsoft.com/8864d679-c321-45bb-b774-f05696d6098e">WS_XML_READER_PROPERTY</a>.
+An array of optional properties of the reader.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_property">WS_XML_READER_PROPERTY</a>.
         
 
 
@@ -166,11 +166,11 @@ A quota was exceeded.
 
 
 
-The function will parse the entire contents according to the specified encoding and store it into a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a>.
+The function will parse the entire contents according to the specified encoding and store it into a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a>.
       
 
-The reader will be left in an undefined state after calling this function.  However, <b>WsReadXmlBufferFromBytes</b>may be used again with such a reader.  Otherwise, <a href="https://msdn.microsoft.com/d7ac5233-266e-4ca1-aa58-e50b385b48bb">WsSetInput</a> or <a href="https://msdn.microsoft.com/0b3ac6ab-8c16-4189-950d-84bdcdabcde0">WsSetInputToBuffer</a> should be
-        used to bring the reader back to a known state, or the reader should be freed using <a href="https://msdn.microsoft.com/31163bea-266f-43a3-bdf5-61386ebc197c">WsFreeReader</a>.
+The reader will be left in an undefined state after calling this function.  However, <b>WsReadXmlBufferFromBytes</b>may be used again with such a reader.  Otherwise, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a> should be
+        used to bring the reader back to a known state, or the reader should be freed using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a>.
       
 
 

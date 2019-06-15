@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a <a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a> structure.
+Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a> structure.
 
 
 
@@ -62,12 +62,12 @@ Contains text recognition results for a recognized text subrange. An array of st
 
 ### -field dwStartIndex
 
-Index of the beginning of the subrange in the text, where 0 indicates the character at the pointer passed to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>, instead of an offset to the index passed to the function in the <i>dwIndex</i> parameter. The value should be less than the entire length of the text.
+Index of the beginning of the subrange in the text, where 0 indicates the character at the pointer passed to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>, instead of an offset to the index passed to the function in the <i>dwIndex</i> parameter. The value should be less than the entire length of the text.
 
 
 ### -field dwEndIndex
 
-Index of the end of the subrange in the text, where 0 indicates the character at the pointer passed to <a href="https://msdn.microsoft.com/49f30bdd-4612-423b-9913-9c35ad8a88d5">MappingRecognizeText</a>, instead of an offset to the index passed to the function in the <i>dwIndex</i> parameter. The value should be less than the entire length of the text.
+Index of the end of the subrange in the text, where 0 indicates the character at the pointer passed to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>, instead of an offset to the index passed to the function in the <i>dwIndex</i> parameter. The value should be less than the entire length of the text.
 
 
 ### -field pszDescription
@@ -99,7 +99,7 @@ Optional. Pointer to a string specifying the MIME content type of the data indic
 
 ### -field prgActionIds
 
-Available action Ids for this subrange. They are usable for calling <a href="https://msdn.microsoft.com/c3903d10-3429-4707-82b5-33efa6b2dc4c">MappingDoAction</a>.
+Available action Ids for this subrange. They are usable for calling <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingdoaction">MappingDoAction</a>.
 
 <div class="alert"><b>Note</b>  In Windows 7, the ELS services do not expose any actions.</div>
 <div> </div>
@@ -132,11 +132,11 @@ Action display names for this subrange. These strings can be localized.
 
 
 
-<a href="https://msdn.microsoft.com/58cdccf8-f052-4bb3-9391-2cc537d820dd">Extended Linguistic Services Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-structures">Extended Linguistic Services Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/08e55e27-5118-40ea-b973-cea0b1c263da">MAPPING_PROPERTY_BAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_property_bag">MAPPING_PROPERTY_BAG</a>
  
 
  

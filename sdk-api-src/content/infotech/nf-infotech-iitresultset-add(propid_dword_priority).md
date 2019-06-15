@@ -131,7 +131,7 @@ This method is used to add a column for numerical properties.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms670054(v=VS.85).aspx">IITResultSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
  
 
  

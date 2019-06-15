@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the attributes of an image to be inserted by the <a href="https://msdn.microsoft.com/147B298B-C4A9-455B-9736-A0B09D72902B">EM_INSERTIMAGE</a> message. 
+Defines the attributes of an image to be inserted by the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-insertimage">EM_INSERTIMAGE</a> message. 
 
 
 ## -struct-fields
@@ -137,7 +137,7 @@ The height, in HIMETRIC units, of the image.
 
 
 
-<a href="https://msdn.microsoft.com/147B298B-C4A9-455B-9736-A0B09D72902B">EM_INSERTIMAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-insertimage">EM_INSERTIMAGE</a>
  
 
  

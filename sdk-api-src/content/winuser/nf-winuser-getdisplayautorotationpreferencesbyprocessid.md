@@ -78,7 +78,7 @@ Pointer to a location in memory that will receive a TRUE or FALSE value indicati
 
 TRUE if the method succeeds, otherwise FALSE.
 
-Applications should use <a href="https://msdn.microsoft.com/48D609CC-3E2B-4E0E-9566-FE02853DD831">GetDisplayAutoRotationPreferences</a> to retrieve their auto-rotation preferences instead of using this API. For an example, see <a href="https://msdn.microsoft.com/48D609CC-3E2B-4E0E-9566-FE02853DD831">GetDisplayAutoRotationPreferences</a>.
+Applications should use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdisplayautorotationpreferences">GetDisplayAutoRotationPreferences</a> to retrieve their auto-rotation preferences instead of using this API. For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdisplayautorotationpreferences">GetDisplayAutoRotationPreferences</a>.
 
 
 

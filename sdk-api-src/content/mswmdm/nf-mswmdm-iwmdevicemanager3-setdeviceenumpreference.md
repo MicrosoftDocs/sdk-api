@@ -77,7 +77,7 @@ Specifies a bitwise <b>OR</b> combination of one or more of the following bit va
 </tr>
 <tr>
 <td>ALLOW_OUTOFBAND_NOTIFICATION</td>
-<td>When this flag is set, the service provider can send device arrival and removal by an additional mechanism, such as by using a window message, as well as the default mechanism of calling any application-implemented <a href="https://msdn.microsoft.com/3089a04d-24f5-4a4c-9df5-b4073fef358a">IWMDMNotification</a> interfaces.</td>
+<td>When this flag is set, the service provider can send device arrival and removal by an additional mechanism, such as by using a window message, as well as the default mechanism of calling any application-implemented <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification</a> interfaces.</td>
 </tr>
 </table>
  
@@ -141,7 +141,7 @@ This method provides clients the ability to override the default device enumerat
 
 After a preference flag is set, it cannot be changed for the lifetime of the application (not just the lifetime of the Windows Media Device Manager object). Attempting to change a preference flag will result in an error. Calling this method again with the same flag settings does not return an error, and also does have any effect on enumeration.
 
-The service provider may not honor the DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES flag. A more robust way to determine if storages are hosted by the same device is to call <a href="https://msdn.microsoft.com/16e18a9e-315f-41a2-b895-e3e478720864">IWMDMDevice2::GetCanonicalName</a>. Storages from the same device will return identical values, except for the final digit after the last "$" character.
+The service provider may not honor the DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES flag. A more robust way to determine if storages are hosted by the same device is to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>. Storages from the same device will return identical values, except for the final digit after the last "$" character.
 
 
 
@@ -151,7 +151,7 @@ The service provider may not honor the DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES fla
 
 
 
-<a href="https://msdn.microsoft.com/16e18a9e-315f-41a2-b895-e3e478720864">IWMDMDevice2::GetCanonicalName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice2-getcanonicalname">IWMDMDevice2::GetCanonicalName</a>
  
 
  

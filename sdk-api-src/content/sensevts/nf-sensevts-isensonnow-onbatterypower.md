@@ -105,27 +105,27 @@ SENS calls this method to notify an application that a computer is using battery
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686510(v=VS.85).aspx">IEventSubscription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685465(v=VS.85).aspx">IEventSubscription::PutPublisherProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/39d483be-8dbd-41f9-9804-af9dc4535c05">ISensOnNow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isensonnow">ISensOnNow</a>
 
 
 
-<a href="https://msdn.microsoft.com/78b305ef-761b-48b8-8f1b-371a75df4edb">ISensOnNow::BatteryLow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-batterylow">ISensOnNow::BatteryLow</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d9e8de9-a329-4f8c-883b-e4baab04729b">ISensOnNow::OnACPower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onacpower">ISensOnNow::OnACPower</a>
  
 
  

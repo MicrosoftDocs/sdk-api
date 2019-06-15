@@ -68,7 +68,7 @@ The FLOATOBJ_XFORM structure describes an arbitrary linear two-dimensional trans
 
 ### -field eM22
 
-Are the four <a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a> elements that comprise a 2x2 row-major matrix. The <b>eM11</b> member specifies the matrix element at row 1, column 1, the <b>eM12</b> member specifies the matrix element at row 1, column2, and so on.
+Are the four <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a> elements that comprise a 2x2 row-major matrix. The <b>eM11</b> member specifies the matrix element at row 1, column 1, the <b>eM12</b> member specifies the matrix element at row 1, column2, and so on.
 
 
 ### -field eDx
@@ -83,7 +83,7 @@ Are the x- and y-translation components of the transform.
 
 
 
-All elements are specified as <a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a> values. The transform can be downloaded to the driver. Structure members can be operated on by the <b>FLOATOBJ_</b><i>Xxx</i> routines.
+All elements are specified as <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a> values. The transform can be downloaded to the driver. Structure members can be operated on by the <b>FLOATOBJ_</b><i>Xxx</i> routines.
 
 
 
@@ -93,11 +93,11 @@ All elements are specified as <a href="https://msdn.microsoft.com/5f8c401b-7487-
 
 
 
-<a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a78663c-15c9-4fed-b758-fea0f2571971">XFORMOBJ_iGetXform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-xformobj_igetxform">XFORMOBJ_iGetXform</a>
  
 
  

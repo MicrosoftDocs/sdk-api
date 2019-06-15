@@ -66,7 +66,7 @@ A number of unknown headers sent with the HTTP request. This number is the size 
 ### -field pUnknownHeaders
 
 A pointer to an array of 
-<a href="https://msdn.microsoft.com/158f2979-58d3-4120-a74a-311b6fc53136">HTTP_UNKNOWN_HEADER</a> structures. This array contains one structure for each of the unknown headers sent in the HTTP request.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_unknown_header">HTTP_UNKNOWN_HEADER</a> structures. This array contains one structure for each of the unknown headers sent in the HTTP request.
 
 
 ### -field TrailerCount
@@ -82,8 +82,8 @@ This member is reserved and must be <b>NULL</b>.
 ### -field KnownHeaders
 
 Fixed-size array of 
-<a href="https://msdn.microsoft.com/3f6c295c-f2c1-4070-a79e-9bb1e684ef92">HTTP_KNOWN_HEADER</a> structures. The 
-<a href="https://msdn.microsoft.com/6c4ccaf0-2a9f-43fe-9f35-cda1dd1fbbdc">HTTP_HEADER_ID</a> enumeration provides a mapping from header types to array indexes. If a known header of a given type is included in the HTTP request, the array element at the index that corresponds to that type specifies the header value. Those elements of the array for which no corresponding headers are present contain a zero-valued <b>RawValueLength</b> member. Use <b>RawValueLength</b> to determine the end of the header string pointed to by <b>pRawValue</b>, rather than relying on the string to have a terminating null.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_known_header">HTTP_KNOWN_HEADER</a> structures. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_header_id">HTTP_HEADER_ID</a> enumeration provides a mapping from header types to array indexes. If a known header of a given type is included in the HTTP request, the array element at the index that corresponds to that type specifies the header value. Those elements of the array for which no corresponding headers are present contain a zero-valued <b>RawValueLength</b> member. Use <b>RawValueLength</b> to determine the end of the header string pointed to by <b>pRawValue</b>, rather than relying on the string to have a terminating null.
 
 
 ## -see-also
@@ -91,19 +91,19 @@ Fixed-size array of
 
 
 
-<a href="https://msdn.microsoft.com/e38f7a05-f966-4853-be3b-5cdbf224719e">HTTP Server API Version 1.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f6c295c-f2c1-4070-a79e-9bb1e684ef92">HTTP_KNOWN_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_known_header">HTTP_KNOWN_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/158f2979-58d3-4120-a74a-311b6fc53136">HTTP_UNKNOWN_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_unknown_header">HTTP_UNKNOWN_HEADER</a>
  
 
  

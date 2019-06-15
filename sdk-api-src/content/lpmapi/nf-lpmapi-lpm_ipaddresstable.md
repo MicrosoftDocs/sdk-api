@@ -67,7 +67,7 @@ Number of addresses in the IP table.
 ### -param pIpAddrTable [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/cbd67aa2-8b87-4e24-8a8e-a6c60cebf31f">LPMIPTABLE</a> structure that contains the IP addresses assigned to the Windows 2000 Server on which the LPM resides.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-lpmiptable">LPMIPTABLE</a> structure that contains the IP addresses assigned to the Windows 2000 Server on which the LPM resides.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/cbd67aa2-8b87-4e24-8a8e-a6c60cebf31f">LPMIPTABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-lpmiptable">LPMIPTABLE</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CERT_CHAIN_POLICY_STATUS</b> structure holds certificate chain status information returned by 
-the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function when the certificate chains are validated.
+the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function when the certificate chains are validated.
 
 
 ## -struct-fields
@@ -65,7 +65,7 @@ The size, in bytes, of this structure.
 
 ### -field dwError
 
-A value that indicates that an error or invalid condition was encountered during the  validation process. The values of this member are specific to the policy type as specified by the value of the   <i>pszPolicyOID</i> parameter of the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function.
+A value that indicates that an error or invalid condition was encountered during the  validation process. The values of this member are specific to the policy type as specified by the value of the   <i>pszPolicyOID</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function.
 
 
 Base Policy errors (<b>CERT_CHAIN_POLICY_BASE</b>)
@@ -108,7 +108,7 @@ The certificate or signature has been revoked.
 </dl>
 </td>
 <td width="60%">
-A certification chain processed correctly but terminated in a root certificate that is not trusted by the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a>.
+A certification chain processed correctly but terminated in a root certificate that is not trusted by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>.
 
 </td>
 </tr>
@@ -327,7 +327,7 @@ These errors are in addition to the Base Policy errors.
 </dl>
 </td>
 <td width="60%">
-A certification chain processed correctly but terminated in a root certificate that is not trusted by the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a>.
+A certification chain processed correctly but terminated in a root certificate that is not trusted by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>.
 
 </td>
 </tr>
@@ -384,7 +384,7 @@ Microsoft Root Policy errors (<b>CERT_CHAIN_POLICY_MICROSOFT_ROOT</b>).
 </dl>
 </td>
 <td width="60%">
-A certification chain processed correctly but terminated in a root certificate that is not trusted by the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a>.
+A certification chain processed correctly but terminated in a root certificate that is not trusted by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>.
 
 </td>
 </tr>
@@ -439,8 +439,8 @@ Index that indicates the element in a chain where an error or condition that is 
 
 ### -field pvExtraPolicyStatus
 
-A pointer to a structure. The structure type is determined by the value of the <b>pszPolicyOID</b> parameter of the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function. In addition to <b>dwError</b> errors, policy OID–specific extra status can also be returned here to provide additional chain status information. This pointer can be optionally set to point to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375589(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
+A pointer to a structure. The structure type is determined by the value of the <b>pszPolicyOID</b> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function. In addition to <b>dwError</b> errors, policy OID–specific extra status can also be returned here to provide additional chain status information. This pointer can be optionally set to point to an 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_authenticode_extra_cert_chain_policy_status">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
 
 
 ## -remarks

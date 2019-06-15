@@ -54,7 +54,7 @@ Creates objects for encrypting, decrypting,  reading, and writing packages and b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptionFactory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxEncryptionFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptionFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptionFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxEncryptionFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1802E721-9320-4B05-9C38-6C3AC3FB413C">CreateEncryptedBundleReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedbundlereader">CreateEncryptedBundleReader</a>
 </td>
 <td align="left" width="63%">
 Creates a read-only bundle object to which encrypted Windows app packages can be added.
@@ -78,7 +78,7 @@ Creates a read-only bundle object to which encrypted Windows app packages can be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01FF3DF1-CCA8-49BF-9876-57A4DDA658D0">CreateEncryptedBundleWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedbundlewriter">CreateEncryptedBundleWriter</a>
 </td>
 <td align="left" width="63%">
 Creates a write-only bundle object to which encrypted Windows app packages can be added.  
@@ -87,7 +87,7 @@ Creates a write-only bundle object to which encrypted Windows app packages can b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/325E4883-69D7-4E2A-A664-3CA3C5559CB3">CreateEncryptedPackageReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedpackagereader">CreateEncryptedPackageReader</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of <b>IAppxEncryptedPackageReader</b>.
@@ -96,16 +96,16 @@ Creates a new instance of <b>IAppxEncryptedPackageReader</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01447B17-E197-4E08-B878-F5487F3E9E92">CreateEncryptedPackageWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-createencryptedpackagewriter">CreateEncryptedPackageWriter</a>
 </td>
 <td align="left" width="63%">
-Creates a new instance of an <a href="https://msdn.microsoft.com/19096DFB-A8CF-4DEF-863B-3DBB9E893A8D">IAppxEncryptedPackageWriter</a>.
+Creates a new instance of an <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedpackagewriter">IAppxEncryptedPackageWriter</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ED10EBD7-F942-4F1D-B2DC-0895022771BE">DecryptBundle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-decryptbundle">DecryptBundle</a>
 </td>
 <td align="left" width="63%">
 Creates an unencrypted Windows app bundle from an encrypted one.
@@ -114,7 +114,7 @@ Creates an unencrypted Windows app bundle from an encrypted one.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FB3BC989-F165-417A-963A-7B78B65930FA">DecryptPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-decryptpackage">DecryptPackage</a>
 </td>
 <td align="left" width="63%">
 Creates an unencrypted Windows app package from an encrypted one.
@@ -123,7 +123,7 @@ Creates an unencrypted Windows app package from an encrypted one.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F2FFBB18-4E62-4704-B252-1749058A0A5E">EncryptBundle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-encryptbundle">EncryptBundle</a>
 </td>
 <td align="left" width="63%">
 Creates an encrypted Windows app bundle from an unencrypted one.
@@ -132,7 +132,7 @@ Creates an encrypted Windows app bundle from an unencrypted one.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2C77A9F9-340C-4846-8EDA-26FAB7E53D60">EncryptPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptionfactory-encryptpackage">EncryptPackage</a>
 </td>
 <td align="left" width="63%">
 Creates an encrypted Windows app package from an unencrypted one.
@@ -147,11 +147,11 @@ Creates an encrypted Windows app package from an unencrypted one.
 
 
 
-<a href="https://msdn.microsoft.com/E88355DA-F7BE-45C7-9DDB-EC39DB2AD280">IAppxEncryptedBundleWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedbundlewriter">IAppxEncryptedBundleWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/19096DFB-A8CF-4DEF-863B-3DBB9E893A8D">IAppxEncryptedPackageWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptedpackagewriter">IAppxEncryptedPackageWriter</a>
  
 
  

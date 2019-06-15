@@ -84,7 +84,7 @@ The command-line string passed to the process.
 
 
 
-<a href="https://msdn.microsoft.com/836a6b82-d3e8-4de6-808d-5476dfb51356">PEB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb">PEB</a>
  
 
  

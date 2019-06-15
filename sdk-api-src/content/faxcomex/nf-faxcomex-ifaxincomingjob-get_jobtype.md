@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <b>JobType</b> property of a <a href="https://msdn.microsoft.com/en-us/library/ms684876(v=VS.85).aspx">FaxIncomingJob</a> object. The <a href="https://msdn.microsoft.com/en-us/library/ms687471(v=VS.85).aspx">JobType</a> property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.
+Retrieves the <b>JobType</b> property of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob">FaxIncomingJob</a> object. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-jobtype">JobType</a> property describes the type of fax job; for example, the job can be a receive job, a send job, or a routing job.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Retrieves the <b>JobType</b> property of a <a href="https://msdn.microsoft.com/e
 
 ### -param pJobType [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms689184(v=VS.85).aspx">FAX_JOB_TYPE_ENUM</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_job_type_enum">FAX_JOB_TYPE_ENUM</a>*</b>
 
-Pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/ms689184(v=VS.85).aspx">FAX_JOB_TYPE_ENUM</a> enumeration that specifies the fax job type.
+Pointer to a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_job_type_enum">FAX_JOB_TYPE_ENUM</a> enumeration that specifies the fax job type.
 
 
 ## -returns
@@ -80,15 +80,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684878(v=VS.85).aspx">IFaxIncomingJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingjob">IFaxIncomingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687471(v=VS.85).aspx">JobType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-jobtype">JobType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692952(v=VS.85).aspx">Visual Basic Example</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
  
 
  

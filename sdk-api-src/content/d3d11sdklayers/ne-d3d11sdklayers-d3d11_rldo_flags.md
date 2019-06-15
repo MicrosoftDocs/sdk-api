@@ -80,7 +80,7 @@ Do not use this enumeration constant.
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/a4e5f3c1-8b67-488b-8476-464c5ea5abc6">ID3D11Debug::ReportLiveDeviceObjects</a>.
+This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-reportlivedeviceobjects">ID3D11Debug::ReportLiveDeviceObjects</a>.
         
 
 Several inline functions exist to combine the options using operators, see the D3D11SDKLayers.h header file for details.
@@ -94,7 +94,7 @@ Several inline functions exist to combine the options using operators, see the D
 
 
 
-<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-enums">Core Enumerations</a>
  
 
  

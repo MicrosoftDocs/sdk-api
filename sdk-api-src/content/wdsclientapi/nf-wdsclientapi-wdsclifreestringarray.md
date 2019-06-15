@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function can be used to free the array of string values that gets allocated by the <a href="https://msdn.microsoft.com/2fb6bf5a-a46f-4664-be0a-6b4f2563986c">WdsCliObtainDriverPackages</a> function. 
+This function can be used to free the array of string values that gets allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliobtaindriverpackages">WdsCliObtainDriverPackages</a> function. 
 
 
 ## -parameters

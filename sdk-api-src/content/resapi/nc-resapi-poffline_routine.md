@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Marks a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> as unavailable for use after cleanup 
+Marks a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use after cleanup 
     processing is complete. The <b>POFFLINE_ROUTINE</b> type defines a pointer to 
     this function.
 
@@ -102,7 +102,7 @@ The request is still pending, and a thread has been activated to process the off
 
 If the operation was not successful for other reasons, 
        <i>Offline</i> should return one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 
 
@@ -113,16 +113,16 @@ If the operation was not successful for other reasons,
 
 If <i>Offline</i> returns an error code other than 
      <b>ERROR_IO_PENDING</b>, the 
-     <a href="https://msdn.microsoft.com/caebb47f-c2c5-463e-a957-d9eefc7fc33d">Resource Monitor</a> logs an event and calls 
-     <a href="https://msdn.microsoft.com/b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3">Terminate</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> logs an event and calls 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>.
 
 For effective implementation strategies of the <i>Offline</i> 
-     entry-point function, see <a href="https://msdn.microsoft.com/d6459783-cb94-4fbc-b76d-da811db379ce">Implementing Offline</a>.
+     entry-point function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-offline">Implementing Offline</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource DLL Examples</a>.
+See <a href="https://docs.microsoft.com/previous-versions//aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 
@@ -133,11 +133,11 @@ See <a href="https://msdn.microsoft.com/library/Aa372246(v=VS.85).aspx">Resource
 
 
 
-<a href="https://msdn.microsoft.com/374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c">NetShareDel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedel">NetShareDel</a>
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry Point Functions</a>
  
 
  

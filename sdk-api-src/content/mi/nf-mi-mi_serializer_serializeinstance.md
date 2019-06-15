@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Serializes an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> into a buffer in the format specified when the serializer was created.  Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
+Serializes an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> into a buffer in the format specified when the serializer was created.  Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Serializes an <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496
 
 ### -param serializer [in, out]
 
-Serializer returned from <a href="https://msdn.microsoft.com/9de29d43-0677-4dc9-927f-af7c01179991">MI_Application_NewSerializer</a>.
+Serializer returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>.
 
 
 ### -param flags
@@ -91,7 +91,7 @@ Returned total length the buffer needs to be.  If a buffer is passed in (via the
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -101,7 +101,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-<a href="https://msdn.microsoft.com/9de29d43-0677-4dc9-927f-af7c01179991">MI_Application_NewSerializer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>
  
 
  

@@ -66,14 +66,14 @@ Address family of the socket. This member is always AF_BTH.
 ### -field btAddr
 
 Address of the target Bluetooth device. When used with the 
-<a href="https://msdn.microsoft.com/308d2680-de51-49e6-a0da-7aba494d9572">bind</a> function, must be zero or a valid local radio address. If zero, a valid local Bluetooth device address is assigned when the 
-<a href="https://msdn.microsoft.com/f9ab3934-7698-4f5e-8194-cca86685a4f8">connect</a> or 
-<a href="https://msdn.microsoft.com/79708118-2f70-4759-b5d6-cf5cfc33c27e">accept</a> function is called. When used with the <b>connect</b> function, a valid remote radio address must be specified.
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-bind">bind</a> function, must be zero or a valid local radio address. If zero, a valid local Bluetooth device address is assigned when the 
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-connect">connect</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-accept">accept</a> function is called. When used with the <b>connect</b> function, a valid remote radio address must be specified.
 
 
 ### -field serviceClassId
 
-Service Class Identifier of the socket. When used with the <a href="https://msdn.microsoft.com/308d2680-de51-49e6-a0da-7aba494d9572">bind</a> function, <i>serviceClassId</i> is ignored. Also ignored if the port is specified. For the <a href="https://msdn.microsoft.com/f9ab3934-7698-4f5e-8194-cca86685a4f8">connect</a> function, specifies the unique Bluetooth service class ID of the service to which it wants to connect. If the peer device has more than one port that corresponds to the service class identifier, the <b>connect</b> function attempts to connect to the first valid service; this mechanism can be used without prior SDP queries.
+Service Class Identifier of the socket. When used with the <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-bind">bind</a> function, <i>serviceClassId</i> is ignored. Also ignored if the port is specified. For the <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-connect">connect</a> function, specifies the unique Bluetooth service class ID of the service to which it wants to connect. If the peer device has more than one port that corresponds to the service class identifier, the <b>connect</b> function attempts to connect to the first valid service; this mechanism can be used without prior SDP queries.
 
 
 ### -field port
@@ -85,9 +85,9 @@ RFCOMM channel associated with the socket. See Remarks.
 
 
 
-When used with the <a href="https://msdn.microsoft.com/308d2680-de51-49e6-a0da-7aba494d9572">bind</a> function on client applications, the <b>port</b> member must be zero to enable an appropriate local endpoint to be assigned. When used with <b>bind</b> on server applications, the <b>port</b> member must be a valid port number or BT_PORT_ANY; ports automatically assigned using BT_PORT_ANY may be queried subsequently with a call to the <a href="https://msdn.microsoft.com/3892bd59-97ac-4b76-bff9-7329f22a66cc">getsockname</a> function. The valid range for requesting a specific RFCOMM port is 1 through 30.
+When used with the <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-bind">bind</a> function on client applications, the <b>port</b> member must be zero to enable an appropriate local endpoint to be assigned. When used with <b>bind</b> on server applications, the <b>port</b> member must be a valid port number or BT_PORT_ANY; ports automatically assigned using BT_PORT_ANY may be queried subsequently with a call to the <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-getsockname">getsockname</a> function. The valid range for requesting a specific RFCOMM port is 1 through 30.
 
-When using the <a href="https://msdn.microsoft.com/f9ab3934-7698-4f5e-8194-cca86685a4f8">connect</a> function when <b>serviceClassId</b> is not provided, the port should directly specify the remote port number to which a <b>connect</b> operation is requested. Using the <b>port</b> member instead of the <b>serviceClassId</b> member requires the application  to perform its own service (SDP) search before attempting the <b>connect</b> operation.
+When using the <a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-connect">connect</a> function when <b>serviceClassId</b> is not provided, the port should directly specify the remote port number to which a <b>connect</b> operation is requested. Using the <b>port</b> member instead of the <b>serviceClassId</b> member requires the application  to perform its own service (SDP) search before attempting the <b>connect</b> operation.
 
 
 
@@ -97,22 +97,22 @@ When using the <a href="https://msdn.microsoft.com/f9ab3934-7698-4f5e-8194-cca86
 
 
 
-<a href="https://msdn.microsoft.com/308d2680-de51-49e6-a0da-7aba494d9572">Bluetooth
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-bind">Bluetooth
 		  and bind</a>
 
 
 
-<a href="https://msdn.microsoft.com/3892bd59-97ac-4b76-bff9-7329f22a66cc">Bluetooth
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-getsockname">Bluetooth
 		  and getsockname</a>
 
 
 
-<a href="https://msdn.microsoft.com/79708118-2f70-4759-b5d6-cf5cfc33c27e">Bluetooth and
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-accept">Bluetooth and
 		  accept</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9ab3934-7698-4f5e-8194-cca86685a4f8">Bluetooth and
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-connect">Bluetooth and
 		  connect</a>
  
 

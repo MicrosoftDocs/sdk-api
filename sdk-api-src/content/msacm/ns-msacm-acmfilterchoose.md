@@ -62,12 +62,12 @@ The <b>ACMFILTERCHOOSE</b> structure contains information the ACM uses to initia
 
 ### -field cbStruct
 
-Size, in bytes, of the <b>ACMFILTERCHOOSE</b> structure. This member must be initialized before an application calls the <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function. The size specified in this member must be large enough to contain the base <b>ACMFILTERCHOOSE</b> structure.
+Size, in bytes, of the <b>ACMFILTERCHOOSE</b> structure. This member must be initialized before an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function. The size specified in this member must be large enough to contain the base <b>ACMFILTERCHOOSE</b> structure.
 
 
 ### -field fdwStyle
 
-Optional style flags for the <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function. This member must be initialized to a valid combination of the following flags before an application calls the <b>acmFilterChoose</b> function. The following values are defined:
+Optional style flags for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function. This member must be initialized to a valid combination of the following flags before an application calls the <b>acmFilterChoose</b> function. The following values are defined:
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ Context-sensitive help will be available in the dialog box. To use this feature,
 </dl>
 </td>
 <td width="60%">
-Enables the hook function specified in the <b>pfnHook</b> member. An application can use hook functions for a variety of customizations, including answering the <a href="https://msdn.microsoft.com/f3c68240-a9aa-4771-96b9-1cb3bb5ea906">MM_ACM_FILTERCHOOSE</a> message.
+Enables the hook function specified in the <b>pfnHook</b> member. An application can use hook functions for a variety of customizations, including answering the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-acm-filterchoose">MM_ACM_FILTERCHOOSE</a> message.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <b>hInstance</b> member identifies a data block that contains a preloaded di
 </dl>
 </td>
 <td width="60%">
-The buffer pointed to by <b>pwfltr</b> contains a valid <a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a> structure that the dialog box will use as the initial selection.
+The buffer pointed to by <b>pwfltr</b> contains a valid <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure that the dialog box will use as the initial selection.
 
 </td>
 </tr>
@@ -140,17 +140,17 @@ A help button will appear in the dialog box. To use a custom Help file, an appli
 
 ### -field hwndOwner
 
-Handle to the window that owns the dialog box. This member can be any valid window handle or <b>NULL</b> if the dialog box has no owner. This member must be initialized before calling the <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function.
+Handle to the window that owns the dialog box. This member can be any valid window handle or <b>NULL</b> if the dialog box has no owner. This member must be initialized before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function.
 
 
 ### -field pwfltr
 
-Pointer to a <a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a> structure. If the ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid filter. When the <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function returns, this buffer contains the selected filter. If the user cancels the dialog box, no changes will be made to this buffer.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure. If the ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid filter. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns, this buffer contains the selected filter. If the user cancels the dialog box, no changes will be made to this buffer.
 
 
 ### -field cbwfltr
 
-Size, in bytes, of the buffer pointed to by the <b>pwfltr</b> member. The <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function returns ACMERR_NOTPOSSIBLE if the buffer is too small to contain the filter information; the ACM also copies the required size into this member. An application can use the <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> and <a href="https://msdn.microsoft.com/6b1fd113-5753-4a45-974c-ecf3f5d27866">acmFilterTagDetails</a> functions to determine the largest size required for this buffer.
+Size, in bytes, of the buffer pointed to by the <b>pwfltr</b> member. The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns ACMERR_NOTPOSSIBLE if the buffer is too small to contain the filter information; the ACM also copies the required size into this member. An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a> functions to determine the largest size required for this buffer.
 
 
 ### -field pszTitle
@@ -160,17 +160,17 @@ Pointer to a string to be placed in the title bar of the dialog box. If this mem
 
 ### -field szFilterTag
 
-Buffer containing a null-terminated string describing the filter tag of the filter selection when the <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function returns. This string is equivalent to the <b>szFilterTag</b> member of the <a href="https://msdn.microsoft.com/94b31090-74ed-42ac-b904-0a90f055e03a">ACMFILTERTAGDETAILS</a> structure returned by <a href="https://msdn.microsoft.com/6b1fd113-5753-4a45-974c-ecf3f5d27866">acmFilterTagDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the filter tag of the filter selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns. This string is equivalent to the <b>szFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field szFilter
 
-Buffer containing a null-terminated string describing the filter attributes of the filter selection when the <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function returns. This string is equivalent to the <b>szFilter</b> member of the <a href="https://msdn.microsoft.com/c0423701-b957-4f77-a565-f6f761614389">ACMFILTERDETAILS</a> structure returned by <a href="https://msdn.microsoft.com/ab29362e-fa85-4833-a2c8-df5cfacc6140">acmFilterDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the filter attributes of the filter selection when the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns. This string is equivalent to the <b>szFilter</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field pszName
 
-Pointer to a string for a user-defined filter name. If this is a non-null-terminated string, the ACM attempts to match the name with a previously saved user-defined filter name. If a match is found, the dialog box is initialized to that filter. If a match is not found or this member is a null-terminated string, this member is ignored for input. When the <a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a> function returns, this buffer contains a null-terminated string describing the user-defined filter. If the filter name is untitled (that is, the user has not given a name for the filter), this member will be a null-terminated string on return. If the user cancels the dialog box, no changes will be made to this buffer.
+Pointer to a string for a user-defined filter name. If this is a non-null-terminated string, the ACM attempts to match the name with a previously saved user-defined filter name. If a match is found, the dialog box is initialized to that filter. If a match is not found or this member is a null-terminated string, this member is ignored for input. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a> function returns, this buffer contains a null-terminated string describing the user-defined filter. If the filter name is untitled (that is, the user has not given a name for the filter), this member will be a null-terminated string on return. If the user cancels the dialog box, no changes will be made to this buffer.
 
 If the ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT flag is specified by the <b>fdwStyle</b> member, the <b>pszName</b> member is ignored as an input member.
 
@@ -182,7 +182,7 @@ Size, in characters, of the buffer identified by the <b>pszName</b> member. This
 
 ### -field fdwEnum
 
-Optional flags for restricting the type of filters listed in the dialog box. These flags are identical to the <i>fdwEnum</i> flags for the <a href="https://msdn.microsoft.com/ee8154d6-3aa1-49ce-96c5-7b8526f02a8a">acmFilterEnum</a> function. If <b>pwfltrEnum</b> is <b>NULL</b>, this member should be zero.
+Optional flags for restricting the type of filters listed in the dialog box. These flags are identical to the <i>fdwEnum</i> flags for the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a> function. If <b>pwfltrEnum</b> is <b>NULL</b>, this member should be zero.
 
 <table>
 <tr>
@@ -195,7 +195,7 @@ Optional flags for restricting the type of filters listed in the dialog box. The
 </dl>
 </td>
 <td width="60%">
-The <b>dwFilterTag</b> member of the <a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a> structure pointed to by the <b>pwfltrEnum</b> member is valid. The enumerator will only enumerate a filter that conforms to this attribute.
+The <b>dwFilterTag</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure pointed to by the <b>pwfltrEnum</b> member is valid. The enumerator will only enumerate a filter that conforms to this attribute.
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ The <b>dwFilterTag</b> member of the <a href="https://msdn.microsoft.com/dea3df4
 
 ### -field pwfltrEnum
 
-Pointer to a <a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a> structure that will be used to restrict the filters listed in the dialog box. The <b>fdwEnum</b> member defines which members of this structure should be used for the enumeration restrictions. The <b>cbStruct</b> member of this <b>WAVEFILTER</b> structure must be initialized to the size of the <b>WAVEFILTER</b> structure. If no special restrictions are desired, this member can be <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a> structure that will be used to restrict the filters listed in the dialog box. The <b>fdwEnum</b> member defines which members of this structure should be used for the enumeration restrictions. The <b>cbStruct</b> member of this <b>WAVEFILTER</b> structure must be initialized to the size of the <b>WAVEFILTER</b> structure. If no special restrictions are desired, this member can be <b>NULL</b>.
 
 
 ### -field hInstance
@@ -225,7 +225,7 @@ Application-defined data that the ACM passes to the hook function identified by 
 
 ### -field pfnHook
 
-Pointer to a callback function that processes messages intended for the dialog box. An application must specify the ACMFILTERCHOOSE_STYLEF_ENABLEHOOK flag in the <b>fdwStyle</b> member to enable the hook; otherwise, this member should be <b>NULL</b>. The hook function should return <b>FALSE</b> to pass a message to the standard dialog box procedure or <b>TRUE</b> to discard the message. The callback function type is <a href="https://msdn.microsoft.com/974bdf53-cd1e-433b-9d49-8dfc20254ebf">acmFilterChooseHookProc</a>.
+Pointer to a callback function that processes messages intended for the dialog box. An application must specify the ACMFILTERCHOOSE_STYLEF_ENABLEHOOK flag in the <b>fdwStyle</b> member to enable the hook; otherwise, this member should be <b>NULL</b>. The hook function should return <b>FALSE</b> to pass a message to the standard dialog box procedure or <b>TRUE</b> to discard the message. The callback function type is <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nc-msacm-acmfilterchoosehookproc">acmFilterChooseHookProc</a>.
 
 
 ## -see-also
@@ -233,19 +233,19 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/c0423701-b957-4f77-a565-f6f761614389">ACMFILTERDETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfilterdetails">ACMFILTERDETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/94b31090-74ed-42ac-b904-0a90f055e03a">ACMFILTERTAGDETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmfiltertagdetails">ACMFILTERTAGDETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/19ef4569-e6fc-480a-8659-98df3d36d05f">Audio Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
 
 
 
@@ -253,7 +253,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/f3c68240-a9aa-4771-96b9-1cb3bb5ea906">MM_ACM_FILTERCHOOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-acm-filterchoose">MM_ACM_FILTERCHOOSE</a>
 
 
 
@@ -261,7 +261,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/dea3df47-88a2-439f-bf07-b5c592bf23e8">WAVEFILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-wavefilter_tag">WAVEFILTER</a>
 
 
 
@@ -269,23 +269,23 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://msdn.microsoft.com/9d8f659f-46f7-4399-a538-24c887c0fbee">acmFilterChoose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterchoose">acmFilterChoose</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab29362e-fa85-4833-a2c8-df5cfacc6140">acmFilterDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee8154d6-3aa1-49ce-96c5-7b8526f02a8a">acmFilterEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b1fd113-5753-4a45-974c-ecf3f5d27866">acmFilterTagDetails</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
  
 
  

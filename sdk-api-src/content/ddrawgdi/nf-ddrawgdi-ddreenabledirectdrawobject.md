@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/en-us/library/ms648695(v=VS.85).aspx">NtGdiDdReenableDirectDrawObject</a> function. It re-enables a Microsoft DirectDraw driver instance after a mode switch-style event such as a true mode switch, appearance of a full-screen Microsoft MS-DOS box, or change of display driver.
+Wrapper for the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-ntgdiddreenabledirectdrawobject">NtGdiDdReenableDirectDrawObject</a> function. It re-enables a Microsoft DirectDraw driver instance after a mode switch-style event such as a true mode switch, appearance of a full-screen Microsoft MS-DOS box, or change of display driver.
 
 
 
@@ -90,11 +90,11 @@ If successful (the device can be re-enabled), this function returns <b>TRUE</b>.
 
 
 
-Once the object has been re-enabled, the capabilities for the device can be re-queried using a call to <a href="https://msdn.microsoft.com/en-us/library/ms648441(v=VS.85).aspx">DdQueryDirectDrawObject</a> or GdiEntry2.
+Once the object has been re-enabled, the capabilities for the device can be re-queried using a call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject">DdQueryDirectDrawObject</a> or GdiEntry2.
 
 
 Applications are advised to use the 
-DirectDraw or <a href="http://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx">Direct3D</a>APIs, which automate and abstract this process in a manner independent of the operating system.
+DirectDraw or <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference">Direct3D</a>APIs, which automate and abstract this process in a manner independent of the operating system.
 
 
 
@@ -105,7 +105,7 @@ DirectDraw or <a href="http://msdn.microsoft.com/en-us/library/bb205147(VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
  
 
  

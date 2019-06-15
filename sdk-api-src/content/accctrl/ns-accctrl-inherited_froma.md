@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>INHERITED_FROM</b> structure provides information about an object's inherited <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE).
+The <b>INHERITED_FROM</b> structure provides information about an object's inherited <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 
 ## -struct-fields
@@ -74,11 +74,11 @@ Name of the ancestor from which the ACE was inherited. For an explicit ACE, set 
 
 
 
-<a href="https://msdn.microsoft.com/c9c58b9a-1b65-40e2-b518-30e247f9718e">FreeInheritedFromArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-freeinheritedfromarray">FreeInheritedFromArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccc1702b-e414-4831-ae8b-fd92499bec94">GetInheritanceSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>
  
 
  

@@ -73,7 +73,7 @@ When the PsfLocationGroupPolicy and PsfLocationRegistry flags are combined, this
 
 
 
-<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
  
 
  

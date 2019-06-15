@@ -64,15 +64,15 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomNoAnimation</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomLasVegasLights</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomBlinkingBackground</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomSparkleText</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMarchingBlackAnts</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomMarchingRedAnts</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomShimmer</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomWipeDown</a>
-<a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomWipeRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomNoAnimation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomLasVegasLights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomBlinkingBackground</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomSparkleText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingBlackAnts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomMarchingRedAnts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomShimmer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomWipeRight</a>
 
 ## -returns
 
@@ -80,7 +80,7 @@ One of the following animation types.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -132,11 +132,11 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774127(v=VS.85).aspx">SetAnimation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setanimation">SetAnimation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

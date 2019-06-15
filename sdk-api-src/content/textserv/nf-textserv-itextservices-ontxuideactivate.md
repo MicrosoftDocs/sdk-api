@@ -63,7 +63,7 @@ Informs the text services object that the control is no longer UI active.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The method always returns <b>S_OK</b>.
 
@@ -74,7 +74,7 @@ The method always returns <b>S_OK</b>.
 
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">ITextServices::OnTxInPlaceActivate</a> for a detailed description of deactivation.
+See <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">ITextServices::OnTxInPlaceActivate</a> for a detailed description of deactivation.
 
 
 
@@ -88,11 +88,11 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">IT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">OnTxInPlaceActivate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplaceactivate">OnTxInPlaceActivate</a>
 
 
 
@@ -100,7 +100,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Bb787621(v=VS.85).aspx">IT
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

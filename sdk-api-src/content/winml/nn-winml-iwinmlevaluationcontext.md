@@ -58,7 +58,7 @@ Represents the context to bind inputs and outputs to a WinML model.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLEvaluationContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWinMLEvaluationContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLEvaluationContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLEvaluationContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWinMLEvaluationContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3D417952-92DD-4111-9060-C7F8CCA456AB">BindValue </a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-bindvalue">BindValue </a>
 </td>
 <td align="left" width="63%">
 Binds the input/output to the given model.
@@ -82,7 +82,7 @@ Binds the input/output to the given model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DBA33BEB-0843-463C-8EB8-BF86C7D106AC">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the bindings for a model.
@@ -91,7 +91,7 @@ Clears the bindings for a model.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/750A799F-A5A7-48D2-958B-D03423C0CE09">GetValueByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlevaluationcontext-getvaluebyname">GetValueByName</a>
 </td>
 <td align="left" width="63%">
 Returns the input/output description for the specific binding name.

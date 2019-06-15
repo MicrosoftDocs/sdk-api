@@ -59,7 +59,7 @@ Copies information into a buffer that should be added to your DHCP packet option
 
 ### -param hHandle [in]
 
-A handle to the packet. This handle must have been returned by the <a href="https://msdn.microsoft.com/a77cbdf5-9025-4e98-8edd-1b9bae8493e7">WdsBpInitialize</a> function.
+A handle to the packet. This handle must have been returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> function.
 
 
 ### -param uBufferLen [in]

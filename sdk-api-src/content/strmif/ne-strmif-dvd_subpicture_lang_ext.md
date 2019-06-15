@@ -121,15 +121,15 @@ Indicates that the specified stream contains director's comments for children.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/f49698cd-cc83-4f05-991d-2b3bba77c33a">IDvdControl2::SelectDefaultSubpictureLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectdefaultsubpicturelanguage">IDvdControl2::SelectDefaultSubpictureLanguage</a>
 
 
 
-<a href="https://msdn.microsoft.com/ada423a5-90ef-48e1-80fa-04d0a24da8f7">IDvdInfo2::GetDefaultSubpictureLanguage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultsubpicturelanguage">IDvdInfo2::GetDefaultSubpictureLanguage</a>
  
 
  

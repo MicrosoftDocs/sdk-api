@@ -84,7 +84,7 @@ The length, in bytes, of arbitrary data to associate with the name.
 
 ### -param pGenericMapping [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a> structure to associate with the name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a> structure to associate with the name.
 
 
 ### -param pSecurityDescriptor [in]
@@ -115,7 +115,7 @@ Returns <b>TRUE</b> if the function succeeds; otherwise, it returns <b>FALSE</b>
 
 
 
-If the name is already present in the cache, this call fails and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_DUP_NAME.
+If the name is already present in the cache, this call fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_DUP_NAME.
 
 
 
@@ -129,7 +129,7 @@ If the name is already present in the cache, this call fails and <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/e3c49b47-9bc7-4000-a131-449345ebb9cd">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_generic_mapping">GENERIC_MAPPING</a>
  
 
  

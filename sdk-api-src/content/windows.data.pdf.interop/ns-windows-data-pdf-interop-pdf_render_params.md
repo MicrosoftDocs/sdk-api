@@ -113,7 +113,7 @@ Outputs a rectangular portion of the original page, as defined by the <b>D2D_REC
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/5ec97d21-3160-48e7-9486-a8ea9ca9df92">RenderPageToDeviceContext</a> and <a href="https://msdn.microsoft.com/d4688c23-0122-40a7-908e-793c3f03fb37">RenderPageToSurface</a> methods.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetodevicecontext">RenderPageToDeviceContext</a> and <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface">RenderPageToSurface</a> methods.
 
 
 

@@ -54,7 +54,7 @@ This interface is not supported.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaLogEx</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaLogEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaLogEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaLogEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWiaLogEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629953(v=VS.85).aspx">hResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresult">hResult</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -78,7 +78,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629955(v=VS.85).aspx">hResultEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-hresultex">hResultEx</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -87,7 +87,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629957(v=VS.85).aspx">InitializeLogEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-initializelogex">InitializeLogEx</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -96,7 +96,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629960(v=VS.85).aspx">Log</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-log">Log</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -105,7 +105,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629962(v=VS.85).aspx">LogEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwialogex-logex">LogEx</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.

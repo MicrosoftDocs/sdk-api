@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEQUEUEINFO</b> structure provides information about a queue on a line device. The 
-<a href="https://msdn.microsoft.com/f7bd6922-a9cd-43ab-96f7-5abf4c6a5b16">lineGetQueueInfo</a> function returns the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetqueueinfo">lineGetQueueInfo</a> function returns the 
 <b>LINEQUEUEINFO</b> structure. This structure requires TAPI 3.0 version negotiation.
 
 
@@ -130,11 +130,11 @@ Final disposition of the queue.
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7bd6922-a9cd-43ab-96f7-5abf4c6a5b16">lineGetQueueInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetqueueinfo">lineGetQueueInfo</a>
  
 
  

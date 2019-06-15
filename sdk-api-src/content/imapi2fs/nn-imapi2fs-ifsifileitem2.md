@@ -54,7 +54,7 @@ Use this interface to add, remove and enumerate named streams associated with a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiFileItem2</b> interface inherits from <a href="https://msdn.microsoft.com/13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108">IFsiFileItem</a>. <b>IFsiFileItem2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiFileItem2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>. <b>IFsiFileItem2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFsiFileItem2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5235fc56-4ab6-4ecb-95b4-2498c7463bf2">AddStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-addstream">AddStream</a>
 </td>
 <td align="left" width="63%">
 Associates a named stream with a file.
@@ -78,7 +78,7 @@ Associates a named stream with a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/011c6241-4989-41ca-9876-d6810797a382">get_FsiNamedStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams">get_FsiNamedStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves the named streams associated with a file.
@@ -87,7 +87,7 @@ Retrieves the named streams associated with a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56e89b63-6fb5-4509-b90f-f25ec0cf2bd2">get_IsNamedStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_isnamedstream">get_IsNamedStream</a>
 </td>
 <td align="left" width="63%">
 Determines if the item is a named stream.
@@ -96,7 +96,7 @@ Determines if the item is a named stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8b8fca4-f24c-4698-b84d-7b79ad81d467">get_IsRealTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_isrealtime">get_IsRealTime</a>
 </td>
 <td align="left" width="63%">
 Determines if a file item is a 'Real-Time' or a standard file.
@@ -105,7 +105,7 @@ Determines if a file item is a 'Real-Time' or a standard file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69ec720a-67b3-4cd7-b291-feb303ab1803">put_IsRealTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-put_isrealtime">put_IsRealTime</a>
 </td>
 <td align="left" width="63%">
 Sets the 'Real-Time' attribute of a file.
@@ -114,7 +114,7 @@ Sets the 'Real-Time' attribute of a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b758048-31e5-43af-a4ae-8916982e90a9">RemoveStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-removestream">RemoveStream</a>
 </td>
 <td align="left" width="63%">
 Removes a named stream association with a file.
@@ -147,7 +147,7 @@ This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), 
 
 
 
-<a href="https://msdn.microsoft.com/13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108">IFsiFileItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>
  
 
  

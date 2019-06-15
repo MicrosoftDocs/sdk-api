@@ -55,7 +55,7 @@ A 3*3 floating point matrix.
 
 For a list of additional functionality such as constructors and operators that are available using <code>XMFLOAT3X3</code> when you
   are programming in C++, see <a href="https://msdn.microsoft.com/aae5e2b4-bc80-4919-80a6-02230796f57e">XMFLOAT3X3 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/31512657-c413-9e6e-e343-1ea677a02b8c">DirectXMath Library Type Equivalences</a> for information about
+<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
   equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and
   <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.</div><div> </div>
 
@@ -142,7 +142,7 @@ Scalar members of <code>XMFLOAT3X3</code> are of the form <b>_</b><i>RowCol</i>,
 The two dimensional 3*3 array member of <code>XMFLOAT3X3</code>, <b>m</b>, provides zero based indexing of the structure's
    matrix. When accessing <code>XMFLOAT3X3</code><b>m[</b><i>Row</i><b>,</b><i>Col</i><b>]</b>, <i>Row</i> can run from 0 to 2 and <i>Col</i> can run from 0 to 2.
 
-<code>XMFLOAT3X3</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by using
+<code>XMFLOAT3X3</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using
    <a href="https://msdn.microsoft.com/95bb219a-a3ef-42b1-8046-97b18dda21a1">XMLoadFloat3x3</a>.
 
 Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3X3</code> with
@@ -161,7 +161,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 

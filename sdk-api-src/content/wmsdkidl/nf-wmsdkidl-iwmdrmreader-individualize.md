@@ -132,9 +132,9 @@ A null or invalid argument has been passed in.
 
 This is an asynchronous call that returns immediately. To abandon the attempt, call <b>CancelIndividualization</b>.
 
-<div class="alert"><b>Important</b>  Because this operation will cause the user's system to be modified, you should display a message that explains what this operation will do and let the user choose whether or not to individualize. For more information and suggested message text, see <a href="https://msdn.microsoft.com/8f129bc1-3db9-4b41-9d60-daff037237ff">DRM Individualization</a>.</div>
+<div class="alert"><b>Important</b>  Because this operation will cause the user's system to be modified, you should display a message that explains what this operation will do and let the user choose whether or not to individualize. For more information and suggested message text, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-individualization">DRM Individualization</a>.</div>
 <div> </div>
-Individualization is the process of making the DRM client unique by downloading and installing an individualized component from the Microsoft Individualization Service. The entire process is performed automatically after an application calls the <b>Individualize</b> method. The application is informed of the progress of the individualization process through repeated <b>WMT_INDIVIDUALIZE</b> events, each of which has an associated <a href="https://msdn.microsoft.com/3779ed6f-c133-4a9d-b60c-ef8c41fcc4af">WM_INDIVIDUALIZE_STATUS</a> structure which is sent to the application's <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> callback method.
+Individualization is the process of making the DRM client unique by downloading and installing an individualized component from the Microsoft Individualization Service. The entire process is performed automatically after an application calls the <b>Individualize</b> method. The application is informed of the progress of the individualization process through repeated <b>WMT_INDIVIDUALIZE</b> events, each of which has an associated <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-individualize-status">WM_INDIVIDUALIZE_STATUS</a> structure which is sent to the application's <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method.
 
 There are two times to initiate the individualization process: the first is when a piece of content requires it, and the second is when a player individualizes the client as part of the setup. In the latter case, there is no reason to individualize the client again.
 
@@ -146,23 +146,23 @@ There are two times to initiate the individualization process: the first is when
 
 
 
-<a href="https://msdn.microsoft.com/8f129bc1-3db9-4b41-9d60-daff037237ff">DRM Individualization</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-individualization">DRM Individualization</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798339(v=VS.85).aspx">IWMDRMReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798348(v=VS.85).aspx">IWMDRMReader::CancelIndividualization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelindividualization">IWMDRMReader::CancelIndividualization</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d87c663-bc54-4928-9eee-d09c358e61f8">Individualizing DRM Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/individualizing-drm-applications">Individualizing DRM Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/3779ed6f-c133-4a9d-b60c-ef8c41fcc4af">WM_INDIVIDUALIZE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-individualize-status">WM_INDIVIDUALIZE_STATUS</a>
  
 
  

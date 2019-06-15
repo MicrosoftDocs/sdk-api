@@ -59,7 +59,7 @@ Configures the synchronization for the enclosed work.
 
 ### -param synchConfig [in]
 
- A value from the <a href="https://msdn.microsoft.com/en-us/library/ms686964(v=VS.85).aspx">CSC_SynchronizationConfig</a> enumeration.
+ A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_synchronizationconfig">CSC_SynchronizationConfig</a> enumeration.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/c4856738-66bf-4982-9440-83b72148c85c">IServiceSynchronizationConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicesynchronizationconfig">IServiceSynchronizationConfig</a>
  
 
  

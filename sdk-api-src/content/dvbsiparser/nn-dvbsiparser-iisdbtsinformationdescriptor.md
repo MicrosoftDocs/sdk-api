@@ -56,7 +56,7 @@ hierarchical transmission.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbTSInformationDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbTSInformationDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbTSInformationDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbTSInformationDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IIsdbTSInformationDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97e0d307-f41d-44e3-8f42-d00fecbcd61e">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
  Gets the number of records in an ISDB TS information descriptor.
@@ -80,7 +80,7 @@ The <b>IIsdbTSInformationDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17c74b77-0754-47de-97f8-db1c15707276">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
  Gets the body length of an ISDB TS information descriptor.
@@ -89,7 +89,7 @@ The <b>IIsdbTSInformationDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf9ec856-951e-4a75-a136-9fa6eaf9e8cd">GetRecordNumberOfServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getrecordnumberofservices">GetRecordNumberOfServices</a>
 </td>
 <td align="left" width="63%">
 Gets the number of service records in an ISDB TS information descriptor. 
@@ -98,7 +98,7 @@ Gets the number of service records in an ISDB TS information descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40738938-226d-4220-8092-a029bd6c038d">GetRecordServiceIdByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd694281(v=vs.85)">GetRecordServiceIdByIndex</a>
 </td>
 <td align="left" width="63%">
  Gets a service identifier from a specified service record in an ISDB TS information descriptor.
@@ -107,7 +107,7 @@ Gets the number of service records in an ISDB TS information descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/992ef7de-ccf8-42a1-bb83-4b5f396164ce">GetRecordTransmissionTypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getrecordtransmissiontypeinfo">GetRecordTransmissionTypeInfo</a>
 </td>
 <td align="left" width="63%">
  Gets the transmission type from an ISDB TS information descriptor.
@@ -116,7 +116,7 @@ Gets the number of service records in an ISDB TS information descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51162c5e-9ece-4c3d-9ab1-03d03a326efe">GetRemoteControlKeyId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-getremotecontrolkeyid">GetRemoteControlKeyId</a>
 </td>
 <td align="left" width="63%">
  Gets the remote control key ID from an ISDB TS information descriptor.
@@ -125,7 +125,7 @@ Gets the number of service records in an ISDB TS information descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77a7b225-2e7e-4fa2-a8f0-a5f18850cde6">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB TS information descriptor.
@@ -134,7 +134,7 @@ Gets the tag that identifies an ISDB TS information descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c8900d1-1047-4b11-87e0-da1a72f511f7">GetTSNameW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbtsinformationdescriptor-gettsnamew">GetTSNameW</a>
 </td>
 <td align="left" width="63%">
  Gets the transport stream name from  an ISDB TS information descriptor, in Unicode text format.

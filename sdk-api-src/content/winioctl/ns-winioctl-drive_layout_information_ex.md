@@ -59,7 +59,7 @@ Contains extended information about a drive's partitions.
 ### -field PartitionStyle
 
 The style of the partitions on the drive enumerated by the 
-      <a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a> enumeration.
 
 <table>
 <tr>
@@ -108,9 +108,9 @@ Partition not formatted in either of the recognized formats—MBR or GPT.
 The number of partitions on the drive. On hard disks with the MBR layout, this value will always be a 
       multiple of 4. Any partitions that are actually unused will have a partition type of 
       <b>PARTITION_ENTRY_UNUSED</b> (0) set in the <b>PartitionType</b> member 
-      of the <a href="https://msdn.microsoft.com/5b74b06f-ef4c-44ab-95c6-49c050faf1f4">PARTITION_INFORMATION_MBR</a> structure 
+      of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_mbr">PARTITION_INFORMATION_MBR</a> structure 
       of the <b>Mbr</b> member of the 
-      <a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a> structure of the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a> structure of the 
       <b>PartitionEntry</b> member of this structure.
 
 
@@ -121,20 +121,20 @@ The number of partitions on the drive. On hard disks with the MBR layout, this v
 
 ### -field DUMMYUNIONNAME.Mbr
 
-A <a href="https://msdn.microsoft.com/71c361fe-8c85-4915-9776-8ad3f5837e11">DRIVE_LAYOUT_INFORMATION_MBR</a> 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a> 
        structure containing information about the master boot record type partitioning on the drive.
 
 
 ### -field DUMMYUNIONNAME.Gpt
 
-A <a href="https://msdn.microsoft.com/763b0d64-6dcc-411c-aca1-3beea0890124">DRIVE_LAYOUT_INFORMATION_GPT</a> 
+A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a> 
        structure containing information about the GUID disk partition type partitioning on the drive.
 
 
 ### -field PartitionEntry
 
 A variable-sized array of 
-      <a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a> structures, one 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a> structures, one 
       structure for each partition on the drive.
 
 
@@ -143,27 +143,27 @@ A variable-sized array of
 
 
 
-<a href="https://msdn.microsoft.com/763b0d64-6dcc-411c-aca1-3beea0890124">DRIVE_LAYOUT_INFORMATION_GPT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a>
 
 
 
-<a href="https://msdn.microsoft.com/71c361fe-8c85-4915-9776-8ad3f5837e11">DRIVE_LAYOUT_INFORMATION_MBR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a>
 
 
 
-<a href="https://msdn.microsoft.com/21507182-5a33-4e58-b5ed-3724feefa4ed">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cace6a5-666a-4d35-a557-6bf0564dbe58">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c88ebae-274e-403a-8f57-58fdf863f511">PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information_ex">PARTITION_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8">PARTITION_STYLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_partition_style">PARTITION_STYLE</a>
  
 
  

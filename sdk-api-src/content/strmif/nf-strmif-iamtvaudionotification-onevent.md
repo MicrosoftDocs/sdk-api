@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  The <b>IAMTVAudioNotification</b> interface is deprecated.</div>
 <div> </div>
-The <code>OnEvent</code> method handles events from a TV tuner card controlled by the <a href="https://msdn.microsoft.com/de340594-4410-4896-b206-0f47d4035bc1">IAMTVAudio</a> interface.
+The <code>OnEvent</code> method handles events from a TV tuner card controlled by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> interface.
 
 
 
@@ -81,11 +81,11 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f84586f-7384-4dd7-99ce-325fb609daae">IAMTVAudioNotification Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudionotification">IAMTVAudioNotification Interface</a>
  
 
  

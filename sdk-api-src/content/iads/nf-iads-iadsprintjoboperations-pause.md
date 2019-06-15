@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsPrintJobOperations::Pause</b> method halts the processing of the current print job. Call the  <a href="https://msdn.microsoft.com/aed5f1be-36b6-413a-a1c0-c61823a31571">IADsPrintJobOperations::Resume</a> method to continue the processing.
+The <b>IADsPrintJobOperations::Pause</b> method halts the processing of the current print job. Call the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-resume">IADsPrintJobOperations::Resume</a> method to continue the processing.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>IADsPrintJobOperations::Pause</b> method halts the processing of the curr
 
 
 
-This method supports standard return values. For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports standard return values. For other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -73,11 +73,11 @@ This method supports standard return values. For other return values, see  <a hr
 
 
 
-<a href="https://msdn.microsoft.com/259f6c3d-73ec-4110-801a-c83ffca0f830">IADsPrintJobOperations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintjoboperations">IADsPrintJobOperations</a>
 
 
 
-<a href="https://msdn.microsoft.com/aed5f1be-36b6-413a-a1c0-c61823a31571">IADsPrintJobOperations::Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-resume">IADsPrintJobOperations::Resume</a>
  
 
  

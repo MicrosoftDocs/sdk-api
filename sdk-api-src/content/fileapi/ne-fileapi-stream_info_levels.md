@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Defines values that are used with the 
-    <a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a> function to specify the information 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function to specify the information 
     level of the returned data.
 
 
@@ -61,9 +61,9 @@ Defines values that are used with the
 
 ### -field FindStreamInfoStandard
 
-The <a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a> function retrieves standard 
+The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a> function retrieves standard 
       stream information. The data is returned in a 
-      <a href="https://msdn.microsoft.com/f21f5161-10a8-474c-85d8-dde075b9daff">WIN32_FIND_STREAM_DATA</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a> structure.
 
 
 ### -field FindStreamInfoMaxInfoLevel
@@ -77,11 +77,11 @@ Used to determine valid enumeration values. All supported enumeration values are
 
 
 
-<a href="https://msdn.microsoft.com/aab3af94-a2e0-45ad-a846-f457408a19d5">FindFirstStreamW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirststreamw">FindFirstStreamW</a>
 
 
 
-<a href="https://msdn.microsoft.com/f21f5161-10a8-474c-85d8-dde075b9daff">WIN32_FIND_STREAM_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-_win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
  
 
  

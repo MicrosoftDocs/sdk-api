@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flags that specify the current redirection capabilities of a known folder. Used by <a href="https://msdn.microsoft.com/5abc4944-1fd7-400a-817d-b58a7f4989ea">IKnownFolder::GetRedirectionCapabilities</a>.
+Flags that specify the current redirection capabilities of a known folder. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getredirectioncapabilities">IKnownFolder::GetRedirectionCapabilities</a>.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ The folder cannot be redirected because the calling application does not have su
 
 
 
-<a href="https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6">Known Folders Sample</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
  
 
  

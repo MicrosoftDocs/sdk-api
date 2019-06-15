@@ -119,9 +119,9 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 
 
 
-These flags are used with the <a href="https://msdn.microsoft.com/0c930348-8669-42cc-9d74-df9ef475bdc8">MF_MT_VIDEO_CHROMA_SITING</a> attribute.
+These flags are used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-chroma-siting-attribute">MF_MT_VIDEO_CHROMA_SITING</a> attribute.
 
-For more information about these values, see the remarks for the <a href="https://msdn.microsoft.com/0f9d63fd-46fa-498c-8703-1beeaf09ce86">DXVA2_VideoChromaSubSampling</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
+For more information about these values, see the remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ne-dxva2api-_dxva2_videochromasubsampling">DXVA2_VideoChromaSubSampling</a> enumeration, which is the DirectX Video Acceleration (DXVA) equivalent of this enumeration.
 
 
 
@@ -131,15 +131,15 @@ For more information about these values, see the remarks for the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/05ca73c6-d105-47bc-96bc-b784f669febe">Extended Color Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8cfe0d1-013d-4706-bb76-6d426836ab6a">Video Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>
  
 
  

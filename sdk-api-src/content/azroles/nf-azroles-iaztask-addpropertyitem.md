@@ -73,7 +73,7 @@ Property ID of the  list to which to add the entity specified by the <i>varProp<
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/73da7094-440c-4e68-8d43-9f4ba26dd14b">AddOperation</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-addoperation">AddOperation</a> method
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ Can also be added using the <a href="https://msdn.microsoft.com/73da7094-440c-4e
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://msdn.microsoft.com/6b3057d1-26aa-443c-857f-0057ef9d2072">AddTask</a> method
+Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-addtask">AddTask</a> method
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 
 
 
-You must call the <a href="https://msdn.microsoft.com/a6f01573-c1ee-421d-8591-e1c9fa6c3d68">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
 
 
 

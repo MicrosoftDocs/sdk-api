@@ -126,7 +126,7 @@ The security descriptor is of self-relative format with all the security informa
 
 
 
-For more information, see  <a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a> under Security in the Platform Software Development Kit (SDK).
+For more information, see  <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> under Security in the Platform Software Development Kit (SDK).
 
 Since VBScript cannot read information from a type library, VBScript applications do not understand the symbolic constants as defined above. You should use the numerical constants instead to set the appropriate flags in your VBScript applications. If you want to use the symbolic constants as a good programming practice, you should make explicit declarations of such constants, as done here, in your VBScript applications.
 
@@ -138,11 +138,11 @@ Since VBScript cannot read information from a type library, VBScript application
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
  
 
  

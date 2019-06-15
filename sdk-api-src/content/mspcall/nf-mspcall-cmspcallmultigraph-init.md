@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>Init</b> method is called by the MSP address object (in the method 
-<a href="https://msdn.microsoft.com/56ed10e3-e711-43ae-aad6-65a5992fca0f">CreateMSPCall</a>) to initialize the MSP call object. The 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a> implementation initializes its members using the passed-in information. It calls 
-<a href="https://msdn.microsoft.com/en-us/library/ms726447(v=VS.85).aspx">MSPAddressAddRef</a> on the MSP address object. Derived MSPs will want to override this method and call it in the overridden method; the overridden method should create the default streams based on the passed-in media types.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>) to initialize the MSP call object. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a> implementation initializes its members using the passed-in information. It calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-mspaddressaddref">MSPAddressAddRef</a> on the MSP address object. Derived MSPs will want to override this method and call it in the overridden method; the overridden method should create the default streams based on the passed-in media types.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param pMSPAddress
 
 Pointer to 
-<a href="https://msdn.microsoft.com/en-us/library/ms726419(v=VS.85).aspx">CMSPAddress</a> for call being initialized.
+<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a> for call being initialized.
 
 
 ### -param htCall
@@ -80,7 +80,7 @@ Reserved parameter.
 ### -param dwMediaType
 
 
-<a href="https://msdn.microsoft.com/3e418c9a-a008-4b94-b5d2-7c2eccb3bf87">Media type</a> or types of call.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
 
 
 ## -see-also
@@ -88,7 +88,7 @@ Reserved parameter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms726558(v=VS.85).aspx">CMSPCallMultiGraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
  
 
  

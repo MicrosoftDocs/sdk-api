@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes a connection between a data object and an advisory sink that was set up through a previous call to <a href="https://msdn.microsoft.com/3b72a50b-a18f-4ec0-9d1d-52b07eb84faf">IDataAdviseHolder::Advise</a>. This method is typically called in the implementation of <a href="https://msdn.microsoft.com/bb9ae4c5-8655-4553-9a1c-ce52c6c86299">IDataObject::DUnadvise</a>.
+Removes a connection between a data object and an advisory sink that was set up through a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a>. This method is typically called in the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes a connection between a data object and an advisory sink that was set up 
 
 ### -param dwConnection [in]
 
-A token that specifies the connection to be removed. This value was returned by <a href="https://msdn.microsoft.com/3b72a50b-a18f-4ec0-9d1d-52b07eb84faf">IDataAdviseHolder::Advise</a> when the connection was originally established.
+A token that specifies the connection to be removed. This value was returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a> when the connection was originally established.
 
 
 ## -returns
@@ -95,11 +95,11 @@ The <i>dwConnection</i> parameter does not specify a valid connection.
 
 
 
-<a href="https://msdn.microsoft.com/740a6366-6ab1-4a20-82df-1efdd62211eb">IDataAdviseHolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb9ae4c5-8655-4553-9a1c-ce52c6c86299">IDataObject::DUnadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>
  
 
  

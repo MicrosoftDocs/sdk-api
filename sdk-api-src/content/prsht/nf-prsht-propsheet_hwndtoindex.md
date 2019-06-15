@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774581(v=VS.85).aspx">PSM_HWNDTOINDEX</a> message explicitly.
+Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/psm-hwndtoindex">PSM_HWNDTOINDEX</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Takes a window handle of the property sheet page and returns its zero-based inde
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet's window.
 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the page's window.
 
@@ -76,7 +76,7 @@ Handle to the page's window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633510(v=VS.85).aspx">GetParent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
 
 
 
@@ -84,7 +84,7 @@ Handle to the page's window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774645(v=VS.85).aspx">PropSheet_GetCurrentPageHwnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_getcurrentpagehwnd">PropSheet_GetCurrentPageHwnd</a>
 
 
 

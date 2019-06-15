@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the dots per inch (dpi) occupied by a <a href="https://msdn.microsoft.com/40919C36-228A-4909-A517-8B152BE47D36">SHELL_UI_COMPONENT</a> based on the current scale factor and <a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a>.
+Retrieves the dots per inch (dpi) occupied by a <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-shell_ui_component">SHELL_UI_COMPONENT</a> based on the current scale factor and <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>.
 
 
 ## -parameters

@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 Invitations enable a person or group of persons to connect to a session. When an attendee connects to a session, the client sends a ticket and a password. These two pieces of information are used to authenticate an attendee.
 
-Applications obtain access to this object using <a href="https://msdn.microsoft.com/169d220b-3a2a-490e-9c1c-03a707d59f6c">IRDPSRAPIInvitationManager::CreateInvitation</a>.
+Applications obtain access to this object using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-createinvitation">IRDPSRAPIInvitationManager::CreateInvitation</a>.
 
 An attendee can join a session if the invitation list contains and invitation with the following properties:
 <ul>
-<li>The ticket string in <a href="https://msdn.microsoft.com/46f44927-c29e-401c-b81e-d009c1ad3c97">ConnectionString</a> matches the one sent by the client.</li>
-<li>The password string in <a href="https://msdn.microsoft.com/53d55a81-73c3-4196-b23e-b4719a1ceced">Password</a> matches the one sent by the client.</li>
-<li>The number of attendees has not exceeded the maximum number in <a href="https://msdn.microsoft.com/ab16039f-210a-46ba-aaa8-0dcc840123b2">AttendeeLimit</a>.</li>
-<li>The invitation has not been revoked using <a href="https://msdn.microsoft.com/a5a2d1a4-a51b-4fd4-b79c-3381f296d072">Revoked</a>.</li>
+<li>The ticket string in <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitation-get_connectionstring">ConnectionString</a> matches the one sent by the client.</li>
+<li>The password string in <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitation-get_password">Password</a> matches the one sent by the client.</li>
+<li>The number of attendees has not exceeded the maximum number in <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitation-get_attendeelimit">AttendeeLimit</a>.</li>
+<li>The invitation has not been revoked using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitation-get_revoked">Revoked</a>.</li>
 </ul>
 
 ## -see-also
@@ -66,11 +66,11 @@ An attendee can join a session if the invitation list contains and invitation wi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/300940ef-e8a6-4dd9-a078-d4325e20ae91">IRDPSRAPIInvitationManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitationmanager">IRDPSRAPIInvitationManager</a>
  
 
  

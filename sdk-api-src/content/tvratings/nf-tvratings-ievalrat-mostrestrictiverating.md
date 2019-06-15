@@ -59,36 +59,36 @@ The <b>MostRestrictiveRating</b> method compares two ratings and returns the mor
 
 ### -param enSystem1 [in]
 
-The rating system of the first rating to compare, specified as a member of the <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration.
+The rating system of the first rating to compare, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration.
 
 
 ### -param enEnLevel1 [in]
 
-The rating level of the first rating, specified as a member of the <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration.
+The rating level of the first rating, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration.
           
 
 
 ### -param lbfEnAttr1 [in]
 
-Specifies the content attributes of the first rating, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
+Specifies the content attributes of the first rating, as a bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
           
 
 
 ### -param enSystem2 [in]
 
-The rating system of the second rating to compare, specified as a member of the <a href="https://msdn.microsoft.com/646927ad-569a-4484-a3ce-6d121210b6be">EnTvRat_System</a> enumeration.
+The rating system of the second rating to compare, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration.
           
 
 
 ### -param enEnLevel2 [in]
 
-The rating level of the second rating, specified as a member of the <a href="https://msdn.microsoft.com/f96a8f1a-d8e2-4976-92e3-719f0039d2a8">EnTvRat_GenericLevel</a> enumeration.
+The rating level of the second rating, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration.
           
 
 
 ### -param lbfEnAttr2 [in]
 
-Specifies the content attributes of the second rating, as a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
+Specifies the content attributes of the second rating, as a bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
           
 
 
@@ -106,7 +106,7 @@ Receives the rating level of the more restrictive rating.
 
 ### -param plbfEnAttr [out]
 
-Receives a bitwise combination of flags from the <a href="https://msdn.microsoft.com/eb7f56c4-1d48-43f9-a691-c08aee3cd537">BfEnTvRat_GenericAttributes</a> enumeration.
+Receives a bitwise combination of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration.
           
 
 
@@ -178,7 +178,7 @@ The method returns S_FALSE if the ratings systems are not the same. There may no
 
 
 
-<a href="https://msdn.microsoft.com/b37c7e7d-80fd-4a42-a698-c20ffb2a5052">IEvalRat Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>
  
 
  

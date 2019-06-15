@@ -270,7 +270,7 @@ The color that corresponds to the specified index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -281,7 +281,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-The first 16 index values are for special underline colors. If an index between 1 and 16 hasn't been defined by a call to the <a href="https://msdn.microsoft.com/6371b525-96da-42a7-8cee-228b47208f46">ITextDocument2:SetEffectColor</a> method, <b>GetEffectColor</b> returns the corresponding Microsoft Word default color. 
+The first 16 index values are for special underline colors. If an index between 1 and 16 hasn't been defined by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-seteffectcolor">ITextDocument2:SetEffectColor</a> method, <b>GetEffectColor</b> returns the corresponding Microsoft Word default color. 
 
 
 
@@ -291,11 +291,11 @@ The first 16 index values are for special underline colors. If an index between 
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://msdn.microsoft.com/6371b525-96da-42a7-8cee-228b47208f46">ITextDocument2::SetEffectColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-seteffectcolor">ITextDocument2::SetEffectColor</a>
  
 
  

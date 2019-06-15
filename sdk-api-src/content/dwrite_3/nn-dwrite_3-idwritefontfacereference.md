@@ -59,7 +59,7 @@ Represents a reference to a font face.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFaceReference</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontFaceReference</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFaceReference</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFaceReference</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDWriteFontFaceReference</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9bc5933-c766-5b30-e2cf-b276a80aecda">CreateFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontface">CreateFontFace</a>
 </td>
 <td align="left" width="63%">
 Creates a font face from the reference for use with layout, shaping, or rendering.
@@ -83,7 +83,7 @@ Creates a font face from the reference for use with layout, shaping, or renderin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99b6fb24-2f66-8132-b66e-ca711bb0c7e0">CreateFontFaceWithSimulations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-createfontfacewithsimulations">CreateFontFaceWithSimulations</a>
 </td>
 <td align="left" width="63%">
 Creates a font face with alternate font simulations, for example, to explicitly simulate a bold font face out of a regular variant.
@@ -92,43 +92,43 @@ Creates a font face with alternate font simulations, for example, to explicitly 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ca1b6c7-46c2-2440-35e4-0bcdc375d74e">EnqueueCharacterDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuecharacterdownloadrequest">EnqueueCharacterDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6dfc2793-7960-5c13-950d-9ba14900c3e0">EnqueueFileFragmentDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefilefragmentdownloadrequest">EnqueueFileFragmentDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94b1adb2-42d5-bdfa-ce99-52e67e0f7cf5">EnqueueFontDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefontdownloadrequest">EnqueueFontDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e35c011-8d5b-0bb5-fea2-4034b8e379aa">EnqueueGlyphDownloadRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueueglyphdownloadrequest">EnqueueGlyphDownloadRequest</a>
 </td>
 <td align="left" width="63%">
-Adds a request to the font download queue (<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>).
+Adds a request to the font download queue (<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritefontdownloadqueue">IDWriteFontDownloadQueue</a>).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7988e724-2ccb-b182-8262-dacee1aa1f96">GetFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfilesize">GetFileSize</a>
 </td>
 <td align="left" width="63%">
 Get the total size of the font face in bytes.  
@@ -137,7 +137,7 @@ Get the total size of the font face in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98de8a3d-073e-78df-2e2c-8ab64632091c">GetFileTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfiletime">GetFileTime</a>
 </td>
 <td align="left" width="63%">
 Get the last modified date.
@@ -146,7 +146,7 @@ Get the last modified date.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/963ec564-8a7e-5916-f630-844bd37af051">GetFontFaceIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfaceindex">GetFontFaceIndex</a>
 </td>
 <td align="left" width="63%">
 Obtains the zero-based index of the font face in its font file or files. If the font files contain a single face,  
@@ -156,7 +156,7 @@ Obtains the zero-based index of the font face in its font file or files. If the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ceef760-32af-5b55-62ca-88adcc23696f">GetFontFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getfontfile">GetFontFile</a>
 </td>
 <td align="left" width="63%">
 Obtains the font file representing a font face.
@@ -165,7 +165,7 @@ Obtains the font file representing a font face.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6dc5cf5-131f-a451-7979-3ae8613577bb">GetLocalFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocalfilesize">GetLocalFileSize</a>
 </td>
 <td align="left" width="63%">
 Get the local size of the font face in bytes, which will always be   
@@ -176,7 +176,7 @@ Get the local size of the font face in bytes, which will always be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/533f30a7-bf54-670e-63be-ffb9b07fb9d8">GetLocality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getlocality">GetLocality</a>
 </td>
 <td align="left" width="63%">
 Get the locality of this font face reference.
@@ -185,7 +185,7 @@ Get the locality of this font face reference.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/537e7a1a-894b-a569-b365-1d563a46eca7">GetSimulations</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-getsimulations">GetSimulations</a>
 </td>
 <td align="left" width="63%">
 Obtains the algorithmic style simulation flags of a font face.

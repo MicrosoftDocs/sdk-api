@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 The 
 <b>ClDeleteFlowComplete</b> function is used by traffic control to notify the client of the completion of its previous call to the 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a> function.
 
 The 
 <b>ClDeleteFlowComplete</b> callback function is optional. If this function is not specified, 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a> will block until it completes.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a> will block until it completes.
 
 
 ## -parameters
@@ -66,13 +66,13 @@ The
 ### -param ClFlowCtx [in]
 
 Client provided–flow context handle. This can be the container used to hold an arbitrary client-defined context for this instance of the client. This value will be the same as the value provided by the client during its corresponding call to 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a>.
 
 
 ### -param Status [in]
 
 Completion status for the 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a> request. This value may be any of the return values possible for the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a> request. This value may be any of the return values possible for the 
 <b>TcDeleteFlow</b> function, with the exception of ERROR_SIGNAL_PENDING. 
 
 
@@ -96,7 +96,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/6e62b55e-9919-44be-a9ae-f1319cc82d76">TcDeleteFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcdeleteflow">TcDeleteFlow</a>
  
 
  

@@ -117,9 +117,9 @@ Buffer requirements were not set.
 
 
 
-Before calling this method, call the <a href="https://msdn.microsoft.com/c68f2e2f-c70f-447d-804b-dfdfe8ae8a52">IMemAllocator::SetProperties</a> method to specify the buffer requirements.
+Before calling this method, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-setproperties">IMemAllocator::SetProperties</a> method to specify the buffer requirements.
 
-You must call this method before calling the <a href="https://msdn.microsoft.com/a5d015c8-ef15-4bac-906f-5d064fbff11f">IMemAllocator::GetBuffer</a> method.
+You must call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-getbuffer">IMemAllocator::GetBuffer</a> method.
 
 
 
@@ -129,11 +129,11 @@ You must call this method before calling the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/77a161c4-706c-4270-a343-9e16c03cd590">IMemAllocator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
  
 
  

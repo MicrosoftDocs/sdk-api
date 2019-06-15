@@ -61,7 +61,7 @@ The
 ### -field ui3_ui2
 
 
-<a href="https://msdn.microsoft.com/4cc36108-085a-47c4-9dfa-b46f7e208c8b">USE_INFO_2</a> structure that contains 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/ns-lmuse-_use_info_2">USE_INFO_2</a> structure that contains 
 
 
 ### -field ui3_flags
@@ -106,7 +106,7 @@ Force a connection to the server, bypassing the CSC.
 </dl>
 </td>
 <td width="60%">
-No explicit credentials are supplied in the call to <a href="https://msdn.microsoft.com/22550c17-003a-4f59-80f0-58fa3e286844">NetUseAdd</a>.
+No explicit credentials are supplied in the call to <a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>.
 
 </td>
 </tr>
@@ -119,23 +119,23 @@ No explicit credentials are supplied in the call to <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/fb527f85-baea-48e8-b837-967870834ec5">NetUseEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/257875db-5ed9-4569-8dbb-5dcc7a6af95c">NetUseGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddf1b8dc-f13b-402a-9e4e-e4944a29ac31">Use Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
  
 
  

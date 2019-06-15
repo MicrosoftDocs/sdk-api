@@ -81,7 +81,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -90,29 +90,29 @@ If the function fails, the return value is a
 
 
 
-The <i>pCounters</i> parameter should point to a sequence of <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
+The <i>pCounters</i> parameter should point to a sequence of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>blocks. Each <b>PERF_COUNTER_IDENTIFIER</b> block consists of a
 <b>PERF_COUNTER_IDENTIFIER</b> structure, optionally followed by a null-terminated
 UTF-16LE instance  name string, followed by padding that makes the size of the block a multiple of 8 bytes.
 
-For each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> block:
+For each <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> block:
 
 <ul>
-<li>Set the <b>CounterSetGuid</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to the identifier of the counter set to be queried.
+<li>Set the <b>CounterSetGuid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to the identifier of the counter set to be queried.
 </li>
-<li>Set the <b>Status</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to 0.</li>
-<li>Set <b>Size</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to the size of the <b>PERF_COUNTER_IDENTIFIER</b> block in bytes, including the
+<li>Set the <b>Status</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to 0.</li>
+<li>Set <b>Size</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to the size of the <b>PERF_COUNTER_IDENTIFIER</b> block in bytes, including the
   <b>PERF_COUNTER_IDENTIFIER</b> structure, the instance name, and the padding. The
   value of <b>Size</b> must be a multiple of 8.</li>
-<li>Set the <b>CounterId</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to the identifier of the counter that should be returned by the query.
+<li>Set the <b>CounterId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to the identifier of the counter that should be returned by the query.
   To return all counters, set <b>CounterId</b> to <b>PERF_WILDCARD_COUNTER</b>.</li>
-<li>Set the <b>InstanceId</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to the identifier of the instance that should be returned by the
+<li>Set the <b>InstanceId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to the identifier of the instance that should be returned by the
   query. If no filtering should be done based on instance identifier, set
   <b>InstanceId</b> to <b>PERF_WILDCARD_COUNTER</b>.</li>
-<li>Set the <b>Index</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to 0.</li>
-<li>Set the <b>Reserved</b> member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure to 0.
+<li>Set the <b>Index</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to 0.</li>
+<li>Set the <b>Reserved</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure to 0.
 </li>
-<li>Include the instance name immediately after the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>structure. <ul>
-<li>If the counter set is single-instance, do not set the instance name. In this case, the value of the Size member of the <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> structure must be  the size of the <b>PERF_COUNTER_IDENTIFIER</b> structure. </li>
+<li>Include the instance name immediately after the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>structure. <ul>
+<li>If the counter set is single-instance, do not set the instance name. In this case, the value of the Size member of the <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> structure must be  the size of the <b>PERF_COUNTER_IDENTIFIER</b> structure. </li>
 <li>If the
   counter set is multiple-instance, you must set the instance name. If you do not want to filter the performance counter specifications based on instance name, use <b>PERF_WILDCARD_INSTANCE</b> as the
   instance name.
@@ -122,7 +122,7 @@ For each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B
 </li>
 </ul>
 <b>PerfAddCounters</b> attempts to add one counter specification to the query for
-each <a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a> block, and updates the <b>Status</b> member of the <b>PERF_COUNTER_IDENTIFIER</b> structure in each
+each <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a> block, and updates the <b>Status</b> member of the <b>PERF_COUNTER_IDENTIFIER</b> structure in each
 block with the result of the attempt. 
 
 
@@ -133,11 +133,11 @@ block with the result of the attempt.
 
 
 
-<a href="https://msdn.microsoft.com/4BBAB831-9A7F-407E-A7D6-9123192C12B4">PERF_COUNTER_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_identifier">PERF_COUNTER_IDENTIFIER</a>
 
 
 
-<a href="https://msdn.microsoft.com/330CA041-41CA-4C48-B88B-C48A0143505E">PerfDeleteCounters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfdeletecounters">PerfDeleteCounters</a>
  
 
  

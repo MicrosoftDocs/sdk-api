@@ -61,7 +61,7 @@ Retrieves the pixel format of the bitmap source..
 
 Type: <b>WICPixelFormatGUID*</b>
 
-Receives the pixel format GUID the bitmap is stored in. For a list of available pixel formats, see the <a href="https://msdn.microsoft.com/348b6d15-e339-4dce-99f3-4d639ee9bf7d">Native Pixel Formats</a> topic.
+Receives the pixel format GUID the bitmap is stored in. For a list of available pixel formats, see the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">Native Pixel Formats</a> topic.
 
 
 ## -returns

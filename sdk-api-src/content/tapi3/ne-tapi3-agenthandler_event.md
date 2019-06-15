@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>AGENTHANDLER_EVENT</b> enum describes agent handler events. The 
-<a href="https://msdn.microsoft.com/3362964c-15d3-497c-876b-46e8d26389c0">ITAgentHandlerEvent::get_Event</a> method returns a member of this enum to indicate the type of agent handler event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event">ITAgentHandlerEvent::get_Event</a> method returns a member of this enum to indicate the type of agent handler event that occurred.
 
 
 ## -enum-fields
@@ -74,11 +74,11 @@ An AgentHandler object has been removed.
 
 
 
-<a href="https://msdn.microsoft.com/3362964c-15d3-497c-876b-46e8d26389c0">ITAgentHandlerEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event">ITAgentHandlerEvent::get_Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
  
 
  

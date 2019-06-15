@@ -64,7 +64,7 @@ Gets the initialization flags associated with the current deferred context.
 
 
 
-The GetContextFlags method gets the flags that were supplied to the <i>ContextFlags</i> parameter of <a href="https://msdn.microsoft.com/fbf01844-eaf1-4360-833e-c95ba686fff5">ID3D11Device::CreateDeferredContext</a>; however, the context flag is reserved for future use.
+The GetContextFlags method gets the flags that were supplied to the <i>ContextFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">ID3D11Device::CreateDeferredContext</a>; however, the context flag is reserved for future use.
 
 
 
@@ -74,7 +74,7 @@ The GetContextFlags method gets the flags that were supplied to the <i>ContextFl
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
 
  

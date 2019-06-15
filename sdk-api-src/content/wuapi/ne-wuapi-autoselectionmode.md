@@ -81,7 +81,7 @@ The update will always be automatically selected.
 
 
 
-In versions of the Windows Update Agent (WUA) in which <a href="https://msdn.microsoft.com/ff290e39-7d7c-42da-a522-ba9e672721b8">IUpdate5</a> is not available, all updates are processed by using the standard logic.
+In versions of the Windows Update Agent (WUA) in which <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a> is not available, all updates are processed by using the standard logic.
 
 
 

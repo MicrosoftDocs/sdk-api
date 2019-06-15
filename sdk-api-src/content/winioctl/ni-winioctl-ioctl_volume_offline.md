@@ -52,7 +52,7 @@ Takes a volume offline.
 
 <b>Windows Server 2003 and Windows XP:  </b>This control code is not supported for dynamic disks.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -150,7 +150,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-Applications must first successfully dismount the file system - via <a href="https://msdn.microsoft.com/8828760c-9635-4c69-9867-c2f5314841e6">FSCTL_DISMOUNT_VOLUME</a> - before using <b>IOCTL_VOLUME_OFFLINE</b>.
+Applications must first successfully dismount the file system - via <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_dismount_volume">FSCTL_DISMOUNT_VOLUME</a> - before using <b>IOCTL_VOLUME_OFFLINE</b>.
 
 When a volume that is online is dismounted, the next call to open the volume causes it to be mounted.  Taking the volume offline using the same volume handle as was used for the dismount prevents the dismounted volume from being mounted again.
 
@@ -161,7 +161,7 @@ When a volume that is online
     dismounted volume from being mounted again.
 
 To bring a volume online, use the 
-    <a href="https://msdn.microsoft.com/fa857959-c10e-4c64-8249-4bbf44e15eb9">IOCTL_VOLUME_ONLINE</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_online">IOCTL_VOLUME_ONLINE</a> control code.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -221,15 +221,15 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa857959-c10e-4c64-8249-4bbf44e15eb9">IOCTL_VOLUME_ONLINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_online">IOCTL_VOLUME_ONLINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

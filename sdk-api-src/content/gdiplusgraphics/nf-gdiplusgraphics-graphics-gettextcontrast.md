@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Graphics::GetTextContrast</b> method gets the contrast value currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The contrast value is used for antialiasing text. 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The contrast value is used for antialiasing text. 
 
 
 ## -parameters

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a  <a href="https://msdn.microsoft.com/58d3d016-ae29-4090-9b88-e1125db59c95">ProbeMatches</a> message.
+Represents a  <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probematches-message">ProbeMatches</a> message.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Represents a  <a href="https://msdn.microsoft.com/58d3d016-ae29-4090-9b88-e1125d
 
 ### -field ProbeMatch
 
-Reference to a <a href="https://msdn.microsoft.com/b7922300-1dc7-487f-b703-736cb0393f17">WSD_PROBE_MATCH_LIST</a> structure that contains the list of matches to the <a href="https://msdn.microsoft.com/a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7">Probe</a> message.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe_match_list">WSD_PROBE_MATCH_LIST</a> structure that contains the list of matches to the <a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe</a> message.
 
 
 ### -field Any
 
-Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 
 
 ## -see-also
@@ -72,23 +72,23 @@ Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773
 
 
 
-<a href="https://msdn.microsoft.com/a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7">Probe Message</a>
+<a href="https://docs.microsoft.com/windows/desktop/WsdApi/probe-message">Probe Message</a>
 
 
 
-<a href="https://msdn.microsoft.com/58d3d016-ae29-4090-9b88-e1125db59c95">ProbeMatches Message</a>
+<a href="https://docs.microsoft.com/windows/desktop/WsdApi/probematches-message">ProbeMatches Message</a>
 
 
 
-<a href="https://msdn.microsoft.com/f84f7e77-ffe2-41af-a10f-a626466e9847">WSD_PROBE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe">WSD_PROBE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a30b11c8-df26-495d-87c3-aa67e400ec28">WSD_PROBE_MATCH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe_match">WSD_PROBE_MATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7922300-1dc7-487f-b703-736cb0393f17">WSD_PROBE_MATCH_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_probe_match_list">WSD_PROBE_MATCH_LIST</a>
  
 
  

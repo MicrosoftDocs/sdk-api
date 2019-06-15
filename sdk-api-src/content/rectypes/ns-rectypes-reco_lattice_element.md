@@ -93,7 +93,7 @@ Count of strokes used by this alternate.
 
 Properties structure. These are properties that are applicable to this element only.
 
-For details about properties, see the <a href="https://msdn.microsoft.com/1c3501a9-398d-4db1-82b2-82908e132a4a">RECO_LATTICE_PROPERTIES</a> structure.
+For details about properties, see the <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties">RECO_LATTICE_PROPERTIES</a> structure.
 
 
 ## -see-also
@@ -101,11 +101,11 @@ For details about properties, see the <a href="https://msdn.microsoft.com/1c3501
 
 
 
-<a href="https://msdn.microsoft.com/1c3501a9-398d-4db1-82b2-82908e132a4a">RECO_LATTICE_PROPERTIES Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_properties">RECO_LATTICE_PROPERTIES Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/628ca677-31eb-47d9-bcc6-d7777f8aaf7c">Recognizer Lattice Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
  
 
  

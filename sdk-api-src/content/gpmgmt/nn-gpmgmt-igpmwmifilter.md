@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMWMIFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMWMIFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMWMIFilter</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMWMIFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IGPMWMIFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea20dc00-fb6d-44dc-81ad-e9aa2040f3ed">GetQueryList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmwmifilter-getquerylist">GetQueryList</a>
 </td>
 <td align="left" width="63%">
 Returns the query list stored in the WMI filter.
@@ -81,7 +81,7 @@ Returns the query list stored in the WMI filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c576c842-53ce-40af-8dba-4f15e25cf493">GetSecurityInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmwmifilter-getsecurityinfo">GetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Returns the list of permissions for the WMI filter.
@@ -90,7 +90,7 @@ Returns the list of permissions for the WMI filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e03af7ce-dec8-4390-9880-6f5ff050ca0c">SetSecurityInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmwmifilter-setsecurityinfo">SetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the list of permissions for the WMI filter.
@@ -107,7 +107,7 @@ Sets the list of permissions for the WMI filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/237f235f-f6b1-41b5-95cf-73f512484a68">Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmwmifilter-property-methods">Description</a>
 
 
 </td>
@@ -119,7 +119,7 @@ Description of the WMI filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/237f235f-f6b1-41b5-95cf-73f512484a68">Name</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmwmifilter-property-methods">Name</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Name of the WMI filter.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/237f235f-f6b1-41b5-95cf-73f512484a68">Path</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmwmifilter-property-methods">Path</a>
 
 
 </td>
@@ -148,8 +148,8 @@ WMI path to the instance of the WMI filter; for example, MSFT_SomFilter.ID="{&lt
 
 
 For information about importing, exporting, and copying WMI filters, see the 
-<a href="https://msdn.microsoft.com/7e874e9a-7417-4b3f-95c5-398fe92bfdf8">IWbemClassObject::GetObjectText</a> and 
-<a href="https://msdn.microsoft.com/7f3cc061-839e-49c2-a225-452719f155a9">IMofCompiler::CompileBuffer</a> methods in the WMI SDK.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">IWbemClassObject::GetObjectText</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">IMofCompiler::CompileBuffer</a> methods in the WMI SDK.
 
 
 
@@ -159,15 +159,15 @@ For information about importing, exporting, and copying WMI filters, see the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f65e6f6-fca3-46b7-aa0d-804470feb5bb">IGPMWMIFilterCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
  
 
  

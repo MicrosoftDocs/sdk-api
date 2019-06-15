@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a> from three <code>int8_t</code> and one <code>bool</code> arguments.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a> from three <code>int8_t</code> and one <code>bool</code> arguments.
 
 This constructor initializes a new instance of **XMU555** from three <code>int8_t</code> (specifying x-, y-, and z-components) and one <code>bool</code> (specifying a w-component) arguments.
 
@@ -98,6 +98,6 @@ instance.v =  (((uint16_t)_w1) ? 0x8000 : 0) |
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415437(v=VS.85).aspx">XMU555 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>

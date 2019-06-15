@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a <a href="https://msdn.microsoft.com/59541fc2-0063-41ca-bcfe-536bb1742c6e">FilterPluginStore</a> instance of the  filter plugin store.
+Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">FilterPluginStore</a> instance of the  filter plugin store.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a <a href="https://msdn.microsoft.com/59541fc2-0063-41ca-bcfe-536bb174
 
 ### -param ppStore [out]
 
-The address of an <a href="https://msdn.microsoft.com/59541fc2-0063-41ca-bcfe-536bb1742c6e">ITsSbFilterPluginStore</a> interface pointer.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">ITsSbFilterPluginStore</a> interface pointer.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/a8574750-d86e-4b0d-a534-d005596e2a33">ITsSbProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
  
 
  

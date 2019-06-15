@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the temporary property for the given item. A temporary property is a read/write store that holds properties only for the lifetime of the <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> object, rather than being persisted back into the item.
+Retrieves the temporary property for the given item. A temporary property is a read/write store that holds properties only for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object, rather than being persisted back into the item.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Retrieves the temporary property for the given item. A temporary property is a r
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the item for which the temporary property is to be retrieved.
 
@@ -74,7 +74,7 @@ The property key.
 
 ### -param ppropvar [out]
 
-Type: <b><a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagpropvariant">PROPVARIANT</a>*</b>
 
 A pointer to the temporary property for the item.
 

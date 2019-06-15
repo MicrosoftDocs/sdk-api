@@ -74,7 +74,7 @@ The fractional part of the number.
 
 
 
-The <b>FIXED</b> structure is used to describe the elements of the <a href="https://msdn.microsoft.com/841883d6-bc4d-46ef-abf4-f179771d255b">MAT2</a> structure.
+The <b>FIXED</b> structure is used to describe the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_mat2">MAT2</a> structure.
 
 
 
@@ -84,15 +84,15 @@ The <b>FIXED</b> structure is used to describe the elements of the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/841883d6-bc4d-46ef-abf4-f179771d255b">MAT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_mat2">MAT2</a>
  
 
  

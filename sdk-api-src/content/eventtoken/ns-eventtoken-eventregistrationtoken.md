@@ -80,11 +80,11 @@ You acquire an <b>EventRegistrationToken</b> when you subscribe to an event.
 
 
 
-<a href="https://msdn.microsoft.com/E9F74A4B-8678-4C40-8D6D-4779D7E5869E">IEventHandler<T></a>
+<a href="https://docs.microsoft.com/previous-versions//hh438385(v=vs.85)">IEventHandler<T></a>
 
 
 
-<a href="https://msdn.microsoft.com/94B238FB-24F0-43FC-9F84-E30FE9081B50">ITypedEventHandler<TSender, TArgs></a>
+<a href="https://docs.microsoft.com/previous-versions//hh438424(v=vs.85)">ITypedEventHandler<TSender, TArgs></a>
  
 
  

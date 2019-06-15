@@ -72,7 +72,7 @@ A pointer to a variable that receives the current performance-counter frequency,
 
 If the installed hardware supports a high-resolution performance counter, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. On systems that run Windows XP or later, the function will always succeed and will thus never return zero.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. On systems that run Windows XP or later, the function will always succeed and will thus never return zero.
 
 
 
@@ -81,7 +81,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-For more info about this function and its usage, see <a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>. 
+For more info about this function and its usage, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>. 
 
 
 
@@ -91,7 +91,7 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>
 
 
 
@@ -99,11 +99,11 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/8949C2D4-AE5A-4E18-9B06-F2F13EFA8A5E">GetSystemTimePreciseAsFileTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime">GetSystemTimePreciseAsFileTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee1dbd20-5502-4448-b39a-4629ddc73d01">KeQueryPerformanceCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
 
 
 
@@ -115,7 +115,7 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/ffa71fb2-e343-455b-a853-324cc66a40c6">Time</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time">Time</a>
 
 
 

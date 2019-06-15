@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a> interface by providing methods that enable clients to add and remove objects that support <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> in a collection.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> interface by providing methods that enable clients to add and remove objects that support <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in a collection.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCollection</b> interface inherits from <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a>. <b>IObjectCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCollection</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>. <b>IObjectCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IObjectCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc51b2e0-a5e0-4440-a279-e94640b5dda7">AddFromArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-addfromarray">AddFromArray</a>
 </td>
 <td align="left" width="63%">
-Adds the objects contained in an <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a> to the collection.
+Adds the objects contained in an <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0898160d-46e5-4b38-9fc9-f74bd6a0385b">AddObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-addobject">AddObject</a>
 </td>
 <td align="left" width="63%">
 Adds a single object to the collection.
@@ -87,7 +87,7 @@ Adds a single object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b32ce885-aafe-4c81-8e7a-74f67fa15180">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the collection.
@@ -96,7 +96,7 @@ Removes all objects from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0e526c0-a374-4952-8fe1-2a5aa53d9c41">RemoveObjectAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nf-objectarray-iobjectcollection-removeobjectat">RemoveObjectAt</a>
 </td>
 <td align="left" width="63%">
 Removes a single, specified object from the collection.

@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Loads the application policies set with the <a href="https://msdn.microsoft.com/a4bf2bcc-3ea5-4288-9bad-b74efdd9969c">SLPersistApplicationPolicies</a> function   
-	for use by the <a href="https://msdn.microsoft.com/4d4b30bb-8548-4656-9fd9-553e8f8fb248">SLGetApplicationPolicy</a> function.
+Loads the application policies set with the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slpersistapplicationpolicies">SLPersistApplicationPolicies</a> function   
+	for use by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function.
 
 
 ## -parameters
@@ -83,8 +83,8 @@ Additional flags.
 
 Type: <b>HSLP*</b>
 
-A pointer to a policy context for use in the <a href="https://msdn.microsoft.com/4d4b30bb-8548-4656-9fd9-553e8f8fb248">SLGetApplicationPolicy</a> function and    
-		the <a href="https://msdn.microsoft.com/56dae943-659a-4e75-81ef-0d58fa3cd6d2">SLUnloadApplicationPolicies</a> function.
+A pointer to a policy context for use in the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetapplicationpolicy">SLGetApplicationPolicy</a> function and    
+		the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slunloadapplicationpolicies">SLUnloadApplicationPolicies</a> function.
 
 
 ## -returns

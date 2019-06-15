@@ -241,7 +241,7 @@ Interface pointer.
 
 
 
-<b>D3D11_TRACE_REGISTER_TYPE</b> identifies the type of trace register in a <a href="https://msdn.microsoft.com/32A51FC7-375D-40BE-95F2-65C5057F002C">D3D11_TRACE_REGISTER</a> structure.
+<b>D3D11_TRACE_REGISTER_TYPE</b> identifies the type of trace register in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_register">D3D11_TRACE_REGISTER</a> structure.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
@@ -253,7 +253,7 @@ Interface pointer.
 
 
 
-<a href="https://msdn.microsoft.com/068ce652-8596-4492-992c-658d1fcf8a2c">Shader Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
  
 
  

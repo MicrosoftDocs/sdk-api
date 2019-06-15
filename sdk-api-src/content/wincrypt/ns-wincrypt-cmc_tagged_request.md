@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CMC_TAGGED_REQUEST</b> structure is used in the 
-<a href="https://msdn.microsoft.com/6245af5a-7a19-4665-bf6c-ad803998d840">CMC_DATA_INFO</a> structures to request a certificate. In the future, it may be used for other requests.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_data_info">CMC_DATA_INFO</a> structures to request a certificate. In the future, it may be used for other requests.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ The <b>CMC_TAGGED_REQUEST</b> structure is used in the
 ### -field DUMMYUNIONNAME.pTaggedCertRequest
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/a90ec8c8-bda5-47a8-a1bb-f70f2eda01b7">CMC_TAGGED_CERT_REQUEST</a> structure containing the signed <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmc_tagged_cert_request">CMC_TAGGED_CERT_REQUEST</a> structure containing the signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
 
 ## -remarks

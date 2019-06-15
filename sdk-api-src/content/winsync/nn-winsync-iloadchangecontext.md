@@ -55,7 +55,7 @@ Represents information about a change to be loaded from the item store.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILoadChangeContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ILoadChangeContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILoadChangeContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILoadChangeContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ILoadChangeContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ac425bc-f6ec-4a95-b351-01f9eb27a744">GetSyncChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-getsyncchange">GetSyncChange</a>
 </td>
 <td align="left" width="63%">
 Gets the change item for which the change data should be retrieved from the item store.
@@ -80,7 +80,7 @@ Gets the change item for which the change data should be retrieved from the item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e557889-a4f6-4e05-99ce-bb05013dc4cd">SetRecoverableErrorOnChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchange">SetRecoverableErrorOnChange</a>
 </td>
 <td align="left" width="63%">
 Indicates that a recoverable error occurred when data for this item was loaded from the item store.
@@ -90,7 +90,7 @@ Indicates that a recoverable error occurred when data for this item was loaded f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0489a26c-5760-4e41-84c9-45868d27b67c">SetRecoverableErrorOnChangeUnit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iloadchangecontext-setrecoverableerroronchangeunit">SetRecoverableErrorOnChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Indicates that a recoverable error occurred when data for the specified change unit was loaded from the item store.
@@ -106,7 +106,7 @@ Indicates that a recoverable error occurred when data for the specified change u
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

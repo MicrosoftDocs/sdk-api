@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="https://msdn.microsoft.com/en-us/library/Dd798049(v=VS.85).aspx">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
+The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
 
 
 
@@ -74,7 +74,7 @@ Address of an array of <b>DRM_VIDEO_OUTPUT_PROTECTION</b> structures.
 
 
 
-This structure is used as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd798032(v=VS.85).aspx">DRM_PLAY_OPL</a> structure.
+This structure is used as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_play_opl">DRM_PLAY_OPL</a> structure.
 
 
 
@@ -84,11 +84,11 @@ This structure is used as a member of the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798049(v=VS.85).aspx">DRM_VIDEO_OUTPUT_PROTECTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-__tagdrm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

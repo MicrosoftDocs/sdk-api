@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains statistical information from the file system.
-<div class="alert"><b>Tip</b>  Applications targeting Windows 10 can access additional statistics through <a href="https://msdn.microsoft.com/E869CF11-E321-478A-948F-226B04D61492">FILESYSTEM_STATISTICS_EX</a>.  </div><div> </div>
+<div class="alert"><b>Tip</b>  Applications targeting Windows 10 can access additional statistics through <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics_ex">FILESYSTEM_STATISTICS_EX</a>.  </div><div> </div>
 
 ## -struct-fields
 
@@ -77,7 +77,7 @@ This member can be one of the following values.
 The file system is an exFAT file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://msdn.microsoft.com/fc33e967-fbc0-4f98-9b6c-2d6ac103a256">EXFAT_STATISTICS</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_exfat_statistics">EXFAT_STATISTICS</a> structure.
 
 <b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Vista with SP1.
 
@@ -93,7 +93,7 @@ If this value is set, this structure is followed by an
 The file system is a FAT file system.
 
 If this value is set, this structure is followed by a 
-         <a href="https://msdn.microsoft.com/98d293e8-e708-48f5-99b1-603f27e6ef16">FAT_STATISTICS</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a> structure.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ If this value is set, this structure is followed by a
 The file system is the NTFS file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://msdn.microsoft.com/9b5cffc5-386d-4333-9a37-cc27b8f9b187">NTFS_STATISTICS</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics">NTFS_STATISTICS</a> structure.
 
 </td>
 </tr>
@@ -127,13 +127,13 @@ The size of this structure plus the size of the file system-specific structure t
 
 This value must be a multiple of 64. For example, if the size of 
        <b>FILESYSTEM_STATISTICS</b> is 0x38, the size of 
-       <a href="https://msdn.microsoft.com/9b5cffc5-386d-4333-9a37-cc27b8f9b187">NTFS_STATISTICS</a> is 0xD8, and if there are 2 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics">NTFS_STATISTICS</a> is 0xD8, and if there are 2 
        processors, the buffer allocated must be 0x280.
 
 sizeof(<b>FILESYSTEM_STATISTICS</b>) = 
        0x38
 
-sizeof(<a href="https://msdn.microsoft.com/9b5cffc5-386d-4333-9a37-cc27b8f9b187">NTFS_STATISTICS</a>) = 0xD8
+sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics">NTFS_STATISTICS</a>) = 0xD8
 
 Total Size = 0x110
 
@@ -227,19 +227,19 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://msdn.microsoft.com/fc33e967-fbc0-4f98-9b6c-2d6ac103a256">EXFAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_exfat_statistics">EXFAT_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/98d293e8-e708-48f5-99b1-603f27e6ef16">FAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d975d32c-1290-4397-8c05-6c515af4c450">FSCTL_FILESYSTEM_GET_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics">FSCTL_FILESYSTEM_GET_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b5cffc5-386d-4333-9a37-cc27b8f9b187">NTFS_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics">NTFS_STATISTICS</a>
  
 
  

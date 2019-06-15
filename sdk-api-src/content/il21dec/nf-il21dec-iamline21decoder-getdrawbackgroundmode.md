@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>GetDrawBackgroundMode</code> method indicates whether the <a href="https://msdn.microsoft.com/48fa5484-1f8c-4133-b2e1-888cb1834402">Line 21 Decoder</a> filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
+The <code>GetDrawBackgroundMode</code> method indicates whether the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
 
 
 
@@ -63,7 +63,7 @@ The <code>GetDrawBackgroundMode</code> method indicates whether the <a href="htt
 
 ### -param lpMode
 
-Pointer a variable that receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd373476(v=VS.85).aspx">AM_LINE21_DRAWBGMODE</a> enumeration.
+Pointer a variable that receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/il21dec/ne-il21dec-_am_line21_drawbgmode">AM_LINE21_DRAWBGMODE</a> enumeration.
 
 
 ## -returns
@@ -110,15 +110,15 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389385(v=VS.85).aspx">IAMLine21Decoder Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389395(v=VS.85).aspx">IAMLine21Decoder::SetDrawBackgroundMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setdrawbackgroundmode">IAMLine21Decoder::SetDrawBackgroundMode</a>
  
 
  

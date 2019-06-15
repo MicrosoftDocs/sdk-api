@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets an application as the default for a given type. For more information, see <a href="https://msdn.microsoft.com/78cd05a4-df33-42b5-91b9-826ebce04a1d">Default Programs</a>. Not intended for use in Windows 8.
+Sets an application as the default for a given type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>. Not intended for use in Windows 8.
 
 
 ## -parameters
@@ -73,9 +73,9 @@ A pointer to a <b>null</b>-terminated Unicode string that contains the file name
 
 ### -param atSetType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3dbbe748-5e83-4103-932a-b51a2a55f9fd">ASSOCIATIONTYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype">ASSOCIATIONTYPE</a></b>
 
-One of the <a href="https://msdn.microsoft.com/3dbbe748-5e83-4103-932a-b51a2a55f9fd">ASSOCIATIONTYPE</a> enumeration values that specifies the type of the application named in <i>pszSet</i>, such as file name extension or MIME type.
+One of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-associationtype">ASSOCIATIONTYPE</a> enumeration values that specifies the type of the application named in <i>pszSet</i>, such as file name extension or MIME type.
 
 
 ## -returns
@@ -94,11 +94,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/78cd05a4-df33-42b5-91b9-826ebce04a1d">Default Programs</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
 
 
 
-<a href="https://msdn.microsoft.com/015a3be4-2e74-4a2b-8c02-54dcbf0ecacd">IApplicationAssociationRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>
  
 
  

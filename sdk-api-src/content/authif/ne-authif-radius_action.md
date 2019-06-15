@@ -61,19 +61,19 @@ ms.custom: 19H1
 ### -field raContinue
 
 NPS continues to process the request. NPS also continues to call 
-<a href="https://msdn.microsoft.com/75af0d43-f866-4769-8221-45e47c588bb0">RadiusExtensionProcess</a> in other Extension DLLs.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in other Extension DLLs.
 
 
 ### -field raReject
 
 Return an Access-Reject packet. The Access-Request is declined. In this case, NPS does not call 
-<a href="https://msdn.microsoft.com/75af0d43-f866-4769-8221-45e47c588bb0">RadiusExtensionProcess</a> in any other Extension DLLs.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in any other Extension DLLs.
 
 
 ### -field raAccept
 
 NPS accepts the Access-Request. NPS does not continue to call 
-<a href="https://msdn.microsoft.com/75af0d43-f866-4769-8221-45e47c588bb0">RadiusExtensionProcess</a> in this case. However, it does continue to obtain authorizations for the user requesting access.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> in this case. However, it does continue to obtain authorizations for the user requesting access.
 
 
 ## -remarks
@@ -81,8 +81,8 @@ NPS accepts the Access-Request. NPS does not continue to call
 
 
 Use the values for this enumeration only as the actions for the 
-<a href="https://msdn.microsoft.com/75af0d43-f866-4769-8221-45e47c588bb0">RadiusExtensionProcess</a> and 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a> functions.
 
 
 
@@ -92,23 +92,23 @@ Use the values for this enumeration only as the actions for the
 
 
 
-<a href="https://msdn.microsoft.com/3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f">About NPS Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01">NPS Extensions Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7a16cb-bc64-4e81-8149-82f51c451312">NPS Extensions Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/75af0d43-f866-4769-8221-45e47c588bb0">RadiusExtensionProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process">RadiusExtensionProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/7525b719-5741-4256-8759-421a407b9e44">RadiusExtensionProcessEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>
  
 
  

@@ -69,7 +69,7 @@ Layer whose fields are to be enumerated.
 
 ### -field enumType
 
-A <a href="https://msdn.microsoft.com/842ddac3-52d0-4c29-9db3-8534a0c84659">FWP_FILTER_ENUM_TYPE</a> value that determines how the filter conditions are interpreted. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type_">FWP_FILTER_ENUM_TYPE</a> value that determines how the filter conditions are interpreted. 
 
 
 ### -field flags
@@ -135,7 +135,7 @@ Include disabled filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</
 
 ### -field providerContextTemplate
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-<b>NULL</b>, only enumerate filters whose provider context matches the
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0_">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-<b>NULL</b>, only enumerate filters whose provider context matches the
    template. 
 
 
@@ -146,7 +146,7 @@ Number of filter conditions. If zero, then all filters match.
 
 ### -field filterCondition
 
-An array of <a href="https://msdn.microsoft.com/4dfed9d7-e51b-425c-9f27-014229c140be">FWPM_FILTER_CONDITION0</a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). 
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). 
 
 
 ### -field actionMask
@@ -196,7 +196,7 @@ Uniquely identifies the callout.
 
 
 
-<b>FWPM_FILTER_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_FILTER_ENUM_TEMPLATE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_FILTER_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_FILTER_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -206,19 +206,19 @@ Uniquely identifies the callout.
 
 
 
-<a href="https://msdn.microsoft.com/4dfed9d7-e51b-425c-9f27-014229c140be">FWPM_FILTER_CONDITION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0_">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/842ddac3-52d0-4c29-9db3-8534a0c84659">FWP_FILTER_ENUM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type_">FWP_FILTER_ENUM_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

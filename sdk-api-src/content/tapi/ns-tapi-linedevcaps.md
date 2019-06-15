@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEDEVCAPS</b> structure describes the capabilities of a line device. The 
-<a href="https://msdn.microsoft.com/c0900c5b-8791-4653-8bfc-d32e51d10c50">lineGetDevCaps</a> function and the 
-<a href="https://msdn.microsoft.com/6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2">TSPI_lineGetDevCaps</a> function return the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a> function and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a> function return the 
 <b>LINEDEVCAPS</b> structure.
 
 
@@ -124,13 +124,13 @@ Offset from the beginning of this data structure to the name for this line devic
 ### -field dwStringFormat
 
 String format used with this line device. This member uses one of the 
-<a href="https://msdn.microsoft.com/ca67c9d1-d3e0-4a55-9be7-6760edea96ee">STRINGFORMAT_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/stringformat--constants">STRINGFORMAT_ Constants</a>.
 
 
 ### -field dwAddressModes
 
 Mode by which the originating address is specified. This member uses the 
-<a href="https://msdn.microsoft.com/f0f132a0-2e8e-478f-909b-c100aa360daa">LINEADDRESSMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressmode--constants">LINEADDRESSMODE_ Constants</a>.
 
 
 ### -field dwNumAddresses
@@ -141,7 +141,7 @@ Number of addresses associated with this line device. Individual addresses are r
 ### -field dwBearerModes
 
 Flag array that indicates the different bearer modes that the address is able to support. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/87e46ec9-ed5f-4ff5-a382-34eb164f4e66">LINEBEARERMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebearermode--constants">LINEBEARERMODE_ Constants</a>.
 
 
 ### -field dwMaxRate
@@ -152,87 +152,87 @@ Maximum data rate for information exchange over the call, in bits per second.
 ### -field dwMediaModes
 
 Flag array that indicates the different media types the address is able to support. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
 
 
 ### -field dwGenerateToneModes
 
 Tones that can be generated on this line. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/7bfc7d4e-2ab3-44ec-a936-f2d7dcfce263">LINETONEMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_ Constants</a>.
 
 
 ### -field dwGenerateToneMaxNumFreq
 
 Maximum number of frequencies that can be specified in describing a general tone using the 
-<a href="https://msdn.microsoft.com/e430d944-816b-4072-a40b-b9001c465713">LINEGENERATETONE</a> data structure when generating a tone using 
-<a href="https://msdn.microsoft.com/d5975bd0-2406-45a8-9631-80f40a860204">lineGenerateTone</a>. A value of 0 indicates that tone generation is not available.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a> data structure when generating a tone using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>. A value of 0 indicates that tone generation is not available.
 
 
 ### -field dwGenerateDigitModes
 
 Digit modes than can be generated on this line. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>.
 
 
 ### -field dwMonitorToneMaxNumFreq
 
 Maximum number of frequencies that can be specified in describing a general tone using the 
-<a href="https://msdn.microsoft.com/f2d37591-2f1e-458f-b4d4-ab63eb31d33a">LINEMONITORTONE</a> data structure when monitoring a general tone using 
-<a href="https://msdn.microsoft.com/47fe21f2-7896-4ccf-8c26-33430b2081ac">lineMonitorTones</a>. A value of 0 indicates that tone monitor is not available.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a> data structure when monitoring a general tone using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a>. A value of 0 indicates that tone monitor is not available.
 
 
 ### -field dwMonitorToneMaxNumEntries
 
 Maximum number of entries that can be specified in a tone list to 
-<a href="https://msdn.microsoft.com/47fe21f2-7896-4ccf-8c26-33430b2081ac">lineMonitorTones</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a>.
 
 
 ### -field dwMonitorDigitModes
 
 Digit modes than can be detected on this line. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>.
 
 
 ### -field dwGatherDigitsMinTimeout
 
 Minimum value that can be specified for both the first digit and inter-digit timeout values used by 
-<a href="https://msdn.microsoft.com/87d5f777-e536-46be-8ad4-437386f04c9b">lineGatherDigits</a>, in milliseconds. If both <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b> are zero, timeouts are not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a>, in milliseconds. If both <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b> are zero, timeouts are not supported.
 
 
 ### -field dwGatherDigitsMaxTimeout
 
 Maximum value that can be specified for both the first digit and inter-digit timeout values used by 
-<a href="https://msdn.microsoft.com/87d5f777-e536-46be-8ad4-437386f04c9b">lineGatherDigits</a>, in milliseconds. If both <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b> are zero, timeouts are not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a>, in milliseconds. If both <b>dwGatherDigitsMinTimeout</b> and <b>dwGatherDigitsMaxTimeout</b> are zero, timeouts are not supported.
 
 
 ### -field dwMedCtlDigitMaxListSize
 
 Maximum number of entries that can be specified in the digit list parameter of 
-<a href="https://msdn.microsoft.com/5a4fc83a-6bc9-4081-b374-ddb912fb2242">lineSetMediaControl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>.
 
 
 ### -field dwMedCtlMediaMaxListSize
 
 Maximum number of entries that can be specified in the media list parameter of 
-<a href="https://msdn.microsoft.com/5a4fc83a-6bc9-4081-b374-ddb912fb2242">lineSetMediaControl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>.
 
 
 ### -field dwMedCtlToneMaxListSize
 
 Maximum number of entries that can be specified in the tone list parameter of 
-<a href="https://msdn.microsoft.com/5a4fc83a-6bc9-4081-b374-ddb912fb2242">lineSetMediaControl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>.
 
 
 ### -field dwMedCtlCallStateMaxListSize
 
 Maximum number of entries that can be specified in the call state list parameter of 
-<a href="https://msdn.microsoft.com/5a4fc83a-6bc9-4081-b374-ddb912fb2242">lineSetMediaControl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>.
 
 
 ### -field dwDevCapFlags
 
 Boolean device capabilities. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/0c537488-9fb9-4961-bd0a-1937aefc0b08">LINEDEVCAPFLAGS_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevcapflags--constants">LINEDEVCAPFLAGS_ Constants</a>.
 
 
 ### -field dwMaxNumActiveCalls
@@ -243,19 +243,19 @@ Maximum number of (minimum bandwidth) calls that can be active (connected) on th
 ### -field dwAnswerMode
 
 Effect on the active call when answering another offering call on a line device. This member uses one of the 
-<a href="https://msdn.microsoft.com/35f63d92-970f-4fb8-aba9-179fc7de70f4">LINEANSWERMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineanswermode--constants">LINEANSWERMODE_ Constants</a>.
 
 
 ### -field dwRingModes
 
 Number of different ring modes that can be reported in the 
-<a href="https://msdn.microsoft.com/15f616de-db47-4577-9a47-94f9292253dd">LINE_LINEDEVSTATE</a> message with the <i>ringing</i> indication. Different ring modes range from one to <b>dwRingModes</b>. Zero indicates no ring.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a> message with the <i>ringing</i> indication. Different ring modes range from one to <b>dwRingModes</b>. Zero indicates no ring.
 
 
 ### -field dwLineStates
 
 Different line status components for which the application may be notified in a LINE_LINEDEVSTATE message on this line. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/41e8a777-a57a-4d6c-850f-e21b58081b0d">LINEDEVSTATE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a>.
 
 
 ### -field dwUUIAcceptSize
@@ -281,13 +281,13 @@ Maximum size of user-user information, including the <b>null</b> terminator, tha
 ### -field dwUUISendUserUserInfoSize
 
 Maximum size of user-user information, including the <b>null</b> terminator, that can be sent separately any time during a call with 
-<a href="https://msdn.microsoft.com/833827a0-bbb2-4df9-87a0-3b2eb1904611">lineSendUserUserInfo</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesenduseruserinfo">lineSendUserUserInfo</a>. 
 
 
 ### -field dwUUICallInfoSize
 
 Maximum size of user-user information, including the <b>null</b> terminator, that can be received in the 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure. 
 
 
 ### -field MinDialParams
@@ -313,13 +313,13 @@ Number of terminals that can be set for this line device, its addresses, or its 
 ### -field dwTerminalCapsSize
 
 Size of the variably sized device field containing an array with entries of type 
-<a href="https://msdn.microsoft.com/54d36126-a032-4baa-8484-6ebeb9c4adf9">LINETERMCAPS</a>, in bytes.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a>, in bytes.
 
 
 ### -field dwTerminalCapsOffset
 
 Offset from the beginning of this structure to the variably sized device field containing an array with entries of type 
-<a href="https://msdn.microsoft.com/54d36126-a032-4baa-8484-6ebeb9c4adf9">LINETERMCAPS</a>. This array is indexed by terminal IDs, in the range from zero to <b>dwNumTerminals</b> minus one. Each entry in the array specifies the terminal device capabilities of the corresponding terminal. The size of the field is specified by <b>dwTerminalCapsSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a>. This array is indexed by terminal IDs, in the range from zero to <b>dwNumTerminals</b> minus one. Each entry in the array specifies the terminal device capabilities of the corresponding terminal. The size of the field is specified by <b>dwTerminalCapsSize</b>.
 
 
 ### -field dwTerminalTextEntrySize
@@ -350,14 +350,14 @@ Offset from the beginning of this structure to the device-specific field, in byt
 ### -field dwLineFeatures
 
 Features available for this line using the 
-<a href="https://msdn.microsoft.com/77fa313c-e720-4607-b691-51b5be76ceed">LINEFEATURE_ Constants</a>. Invoking a supported feature requires the line to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the line is in the appropriate state for the operation to be meaningful. This member allows an application to discover which line features can be (and which can never be) supported by the device.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linefeature--constants">LINEFEATURE_ Constants</a>. Invoking a supported feature requires the line to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the line is in the appropriate state for the operation to be meaningful. This member allows an application to discover which line features can be (and which can never be) supported by the device.
 
 
 ### -field dwSettableDevStatus
 
 
-<a href="https://msdn.microsoft.com/5fa754d3-07b2-4b75-91ef-1bf961d9fef4">LINEDEVSTATUSFLAGS</a> values that can be modified using 
-<a href="https://msdn.microsoft.com/c8eb142d-5160-49f3-81c1-61094c180df8">lineSetLineDevStatus</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstatusflags--constants">LINEDEVSTATUSFLAGS</a> values that can be modified using 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetlinedevstatus">lineSetLineDevStatus</a>.
 
 
 ### -field dwDeviceClassesSize
@@ -368,7 +368,7 @@ Size of a string containing the device class identifiers supported on one or mor
 ### -field dwDeviceClassesOffset
 
 Offset from the beginning of this structure to a string containing the device class identifiers supported on one or more addresses on this line, in bytes. These strings are for use with 
-<a href="https://msdn.microsoft.com/e9981574-0058-420f-9627-6d5a1745a739">lineGetID</a>; they are separated by <b>NULL</b>s, and the last identifier in the list is followed by two <b>NULL</b>s. The size of the field is specified by <b>dwDeviceClassesSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>; they are separated by <b>NULL</b>s, and the last identifier in the list is followed by two <b>NULL</b>s. The size of the field is specified by <b>dwDeviceClassesSize</b>.
 
 
 ### -field PermanentLineGuid
@@ -379,19 +379,19 @@ GUID permanently associated with the line device.
 ### -field dwAddressTypes
 
 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">Address type</a> used for the call. This member of the structure is available only if the negotiated TAPI version is 3.0 or higher.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> used for the call. This member of the structure is available only if the negotiated TAPI version is 3.0 or higher.
 
 
 ### -field ProtocolGuid
 
 Current 
-<a href="https://msdn.microsoft.com/4704eedb-12e7-440e-b1ca-2afd78d2499d">TAPI protocol</a>. This member of the structure is available only if the negotiated TAPI version is 3.0 or higher. The protocols are declared in tapi3.h.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapiprotocol--constants">TAPI protocol</a>. This member of the structure is available only if the negotiated TAPI version is 3.0 or higher. The protocols are declared in tapi3.h.
 
 
 ### -field dwAvailableTracking
 
 Available tracking, as represented by a 
-<a href="https://msdn.microsoft.com/ad3c8d2e-f074-4db0-bb72-fb2181cbf687">LINECALLHUBTRACKING</a>.constant. This member of the structure is available only if the negotiated TAPI version is 3.0 or higher.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallhubtracking--constants">LINECALLHUBTRACKING</a>.constant. This member of the structure is available only if the negotiated TAPI version is 3.0 or higher.
 
 
 ## -remarks
@@ -402,8 +402,8 @@ Device-specific extensions should use the DevSpecific (<b>dwDevSpecificSize</b> 
 
 Older applications are compiled without new members in the 
 <b>LINEDEVCAPS</b> structure, and using a SIZEOF LINEDEVCAPS smaller than the new size. The application passes in a <i>dwAPIVersion</i> parameter with the 
-<a href="https://msdn.microsoft.com/c0900c5b-8791-4653-8bfc-d32e51d10c50">lineGetDevCaps</a> function, which can be used for guidance by TAPI in handling this situation. If the application passes in a <b>dwTotalSize</b> member less than the size of the fixed portion of the structure as defined in the specified <b>dwAPIVersion</b>, LINEERR_STRUCTURETOOSMALL is returned. If sufficient memory has been allocated by the application, before calling 
-<a href="https://msdn.microsoft.com/6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2">TSPI_lineGetDevCaps</a>, TAPI sets the <b>dwNeededSize</b> and <b>dwUsedSize</b> members to the fixed size of the structure as it existed in the specified API version.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a> function, which can be used for guidance by TAPI in handling this situation. If the application passes in a <b>dwTotalSize</b> member less than the size of the fixed portion of the structure as defined in the specified <b>dwAPIVersion</b>, LINEERR_STRUCTURETOOSMALL is returned. If sufficient memory has been allocated by the application, before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>, TAPI sets the <b>dwNeededSize</b> and <b>dwUsedSize</b> members to the fixed size of the structure as it existed in the specified API version.
 
 New applications must be cognizant of the API version negotiated, and not examine the contents of members in the fixed portion beyond the original end of the fixed portion of the structure for the negotiated API version.
 
@@ -427,83 +427,83 @@ The members <b>dwSettableDevStatus</b> through <b>dwDeviceClassesOffset</b> are 
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e430d944-816b-4072-a40b-b9001c465713">LINEGENERATETONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linegeneratetone_tag">LINEGENERATETONE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2d37591-2f1e-458f-b4d4-ab63eb31d33a">LINEMONITORTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone_tag">LINEMONITORTONE</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d36126-a032-4baa-8484-6ebeb9c4adf9">LINETERMCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetermcaps_tag">LINETERMCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b4dcbe6-41e9-4b9c-9150-d0c7edef5a19">LINETRANSLATECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps_tag">LINETRANSLATECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/15f616de-db47-4577-9a47-94f9292253dd">LINE_LINEDEVSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2">TSPI_lineGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec47a351-c693-4e71-bf23-c31110ca90a1">lineClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineclose">lineClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/111e6c11-67a7-4aab-81dd-f1b4316887e7">lineDial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
 
 
 
-<a href="https://msdn.microsoft.com/87d5f777-e536-46be-8ad4-437386f04c9b">lineGatherDigits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegatherdigits">lineGatherDigits</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5975bd0-2406-45a8-9631-80f40a860204">lineGenerateTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0900c5b-8791-4653-8bfc-d32e51d10c50">lineGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevcaps">lineGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9981574-0058-420f-9627-6d5a1745a739">lineGetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
 
 
 
-<a href="https://msdn.microsoft.com/77437b06-fb02-44b5-8642-b3de700853ef">lineGetTranslateCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/47fe21f2-7896-4ccf-8c26-33430b2081ac">lineMonitorTones</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a>
 
 
 
-<a href="https://msdn.microsoft.com/833827a0-bbb2-4df9-87a0-3b2eb1904611">lineSendUserUserInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesenduseruserinfo">lineSendUserUserInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a4fc83a-6bc9-4081-b374-ddb912fb2242">lineSetMediaControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/0347d526-9596-4b42-8075-07318bf39634">lineTranslateAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6b87d84-071c-4b75-afbf-569a5a861e3a">lineUncompleteCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineuncompletecall">lineUncompleteCall</a>
  
 
  

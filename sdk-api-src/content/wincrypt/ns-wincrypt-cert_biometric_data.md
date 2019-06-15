@@ -130,12 +130,12 @@ The biometric data is a signature.
 
 ### -field DUMMYUNIONNAME.pszObjId
 
-The address of a null-terminated ANSI string that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the biometric data type. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_OID_DATA_CHOICE</b>. 
+The address of a null-terminated ANSI string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the biometric data type. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_OID_DATA_CHOICE</b>. 
 
 
 ### -field HashedUrl
 
-A <a href="https://msdn.microsoft.com/961feb88-b924-4834-bc68-d87f410259f1">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
 
 
 ## -see-also
@@ -143,7 +143,7 @@ A <a href="https://msdn.microsoft.com/961feb88-b924-4834-bc68-d87f410259f1">CERT
 
 
 
-<a href="https://msdn.microsoft.com/b2a877e1-2be2-428c-bc47-ec5ce6cef7e6">CERT_BIOMETRIC_EXT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>
  
 
  

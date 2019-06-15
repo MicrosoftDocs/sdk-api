@@ -64,7 +64,7 @@ The opacity mask contains graphics. The opacity mask is blended in the gamma 2.2
 
 ### -field D2D1_OPACITY_MASK_CONTENT_TEXT_NATURAL
 
-The opacity mask contains non-GDI text. The gamma space used for blending is obtained from the render target's text rendering parameters. (<a href="https://msdn.microsoft.com/ab4b29a5-72a7-49dc-9131-696f888b0355">ID2D1RenderTarget::SetTextRenderingParams</a>).
+The opacity mask contains non-GDI text. The gamma space used for blending is obtained from the render target's text rendering parameters. (<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams">ID2D1RenderTarget::SetTextRenderingParams</a>).
 
 
 ### -field D2D1_OPACITY_MASK_CONTENT_TEXT_GDI_COMPATIBLE
@@ -82,7 +82,7 @@ The opacity mask contains text rendered using the GDI-compatible rendering mode.
 
 
 
-<a href="https://msdn.microsoft.com/b55cc9f3-7378-4ffd-bc71-8e06a2fb9f9e">FillOpacityMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillopacitymask(id2d1bitmap_id2d1brush_d2d1_opacity_mask_content_constd2d1_rect_f__constd2d1_rect_f_)">FillOpacityMask</a>
  
 
  

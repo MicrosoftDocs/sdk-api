@@ -92,7 +92,7 @@ If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/ed701930-fae7-4c42-9e6b-b1cb3fac861c">IRadialControllerInterop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nn-radialcontrollerinterop-iradialcontrollerinterop">IRadialControllerInterop</a>
 
 
 

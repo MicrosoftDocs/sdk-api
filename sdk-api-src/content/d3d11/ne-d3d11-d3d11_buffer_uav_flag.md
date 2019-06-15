@@ -60,20 +60,20 @@ Identifies unordered-access view options for a buffer resource.
 ### -field D3D11_BUFFER_UAV_FLAG_RAW
 
 Resource contains raw, unstructured data.  Requires the UAV format to be DXGI_FORMAT_R32_TYPELESS.
-        For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+        For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 
 ### -field D3D11_BUFFER_UAV_FLAG_APPEND
 
 Allow data to be appended to the end of the buffer.  <b>D3D11_BUFFER_UAV_FLAG_APPEND</b> flag must also be used for 
-        any view that will be used as a <a href="https://msdn.microsoft.com/377b0358-0f9d-4021-9140-19c3d1bfed38">AppendStructuredBuffer</a> or a <a href="https://msdn.microsoft.com/373bdd97-6186-4bce-99bf-738a153234f6">ConsumeStructuredBuffer</a>. 
+        any view that will be used as a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-appendstructuredbuffer">AppendStructuredBuffer</a> or a <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-consumestructuredbuffer">ConsumeStructuredBuffer</a>. 
         Requires the UAV format to be DXGI_FORMAT_UNKNOWN.
 
 
 ### -field D3D11_BUFFER_UAV_FLAG_COUNTER
 
 Adds a counter to the unordered-access-view buffer.  <b>D3D11_BUFFER_UAV_FLAG_COUNTER</b> can only be used on a UAV that is a 
-        <a href="https://msdn.microsoft.com/8dd93b81-135d-4f28-898f-38510dc39af1">RWStructuredBuffer</a> and it enables the functionality needed for the <a href="https://msdn.microsoft.com/66385d4f-6db8-49ae-a73a-49089695f5ee">IncrementCounter</a>and <a href="https://msdn.microsoft.com/24bc0b63-a482-4fa5-9898-2d43bca20cf4">DecrementCounter</a> methods in HLSL.  Requires the UAV format to be DXGI_FORMAT_UNKNOWN.
+        <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer">RWStructuredBuffer</a> and it enables the functionality needed for the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer-incrementcounter">IncrementCounter</a>and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer-decrementcounter">DecrementCounter</a> methods in HLSL.  Requires the UAV format to be DXGI_FORMAT_UNKNOWN.
 
 
 ## -see-also
@@ -81,11 +81,11 @@ Adds a counter to the unordered-access-view buffer.  <b>D3D11_BUFFER_UAV_FLAG_CO
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

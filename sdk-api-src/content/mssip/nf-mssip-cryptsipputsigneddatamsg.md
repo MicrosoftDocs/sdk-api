@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptSIPPutSignedDataMsg</b> function stores an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Authenticode</a> signature in the target file.
+The <b>CryptSIPPutSignedDataMsg</b> function stores an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> signature in the target file.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CryptSIPPutSignedDataMsg</b> function stores an <a href="https://msdn.mic
 
 ### -param pSubjectInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure that contains information about the message subject.
 
 
 ### -param dwEncodingType [in]
@@ -78,7 +78,7 @@ The encoding type of the message. This can be a combination of one or more of th
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">PKCS #7</a> message encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> message encoding.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Specifies <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa9
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Pointer to the buffer that contains the message.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 
 
@@ -135,7 +135,7 @@ If the function fails, it returns  <b>FALSE</b>. For extended error information,
 </dl>
 </td>
 <td width="60%">
-The specified data or file format of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface package</a> (SIP) is not valid.
+The specified data or file format of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) is not valid.
 
 </td>
 </tr>
@@ -153,8 +153,8 @@ This code can be returned for the following reasons:
 <li>The <i>pdwIndex</i> is <b>NULL</b>.</li>
 <li>The <i>pbSignedDataMsg</i> is <b>NULL</b>.</li>
 <li>The value of the <i>cbSignedDataMsg</i> parameter is less than one.</li>
-<li>The <i>cbSignedDataMsg</i> value is greater than the <b>cbSize</b> member of the <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure.</li>
-<li>The <i>dwEncodingType</i> parameter value is greater than the <b>dwEncodingType</b> member of the <a href="https://msdn.microsoft.com/6274cd08-d67f-410d-9303-3a42b7f1edc6">SIP_SUBJECTINFO</a> structure.</li>
+<li>The <i>cbSignedDataMsg</i> value is greater than the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure.</li>
+<li>The <i>dwEncodingType</i> parameter value is greater than the <b>dwEncodingType</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo_">SIP_SUBJECTINFO</a> structure.</li>
 </ul>
 </td>
 </tr>
@@ -189,11 +189,11 @@ Each subject type uses a different subset of its data for hash calculation and r
 
 
 
-<a href="https://msdn.microsoft.com/e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5">CryptSIPGetSignedDataMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a">CryptSIPRemoveSignedDataMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>
  
 
  

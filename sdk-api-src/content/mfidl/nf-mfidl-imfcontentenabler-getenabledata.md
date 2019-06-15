@@ -63,7 +63,7 @@ Retrieves the data for a manual content enabling action.
 
 ### -param ppbData [out]
 
-Receives a pointer to a buffer that contains the data. The caller must free the buffer by calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+Receives a pointer to a buffer that contains the data. The caller must free the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ### -param pcbData [out]
@@ -114,7 +114,7 @@ No data is available.
 
 
 
-The purpose of the data depends on the content enabler type, which is obtained by calling <a href="https://msdn.microsoft.com/9fe597d8-788c-48c4-a21a-0b91a890710f">IMFContentEnabler::GetEnableType</a>.
+The purpose of the data depends on the content enabler type, which is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabletype">IMFContentEnabler::GetEnableType</a>.
 
 <table>
 <tr>
@@ -132,7 +132,7 @@ The purpose of the data depends on the content enabler type, which is obtained b
 <tr>
 <td>Revocation</td>
 <td>
-<a href="https://msdn.microsoft.com/df12e64b-92e3-4446-bade-3ad55cbedf51">MFRR_COMPONENTS</a> structure.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfrr_components">MFRR_COMPONENTS</a> structure.</td>
 </tr>
 </table>
  
@@ -145,11 +145,11 @@ The purpose of the data depends on the content enabler type, which is obtained b
 
 
 
-<a href="https://msdn.microsoft.com/85d98f49-8af2-42ce-9b36-a025aee93f73">How to Play Protected Media Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://msdn.microsoft.com/45d02bd0-1104-47ec-8559-8cc51590fc62">IMFContentEnabler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
  
 
  

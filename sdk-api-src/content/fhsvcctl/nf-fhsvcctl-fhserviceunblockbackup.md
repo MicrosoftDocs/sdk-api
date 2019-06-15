@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function unblocks backups blocked via <a href="https://msdn.microsoft.com/32B5E241-5A5F-4440-9B47-07D5849FA393">FhServiceBlockBackup</a>.
+This function unblocks backups blocked via <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ This function unblocks backups blocked via <a href="https://msdn.microsoft.com/3
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 
 ## -returns
@@ -76,7 +76,7 @@ The communication channel handle returned by an earlier <a href="https://msdn.mi
 
 
 
-This function removes the effects of a prior <a href="https://msdn.microsoft.com/32B5E241-5A5F-4440-9B47-07D5849FA393">FhServiceBlockBackup</a> call issued via a given communication channel with the File History Service.
+This function removes the effects of a prior <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a> call issued via a given communication channel with the File History Service.
 
 
 
@@ -86,11 +86,11 @@ This function removes the effects of a prior <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/32B5E241-5A5F-4440-9B47-07D5849FA393">FhServiceBlockBackup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a>
 
 
 
-<a href="https://msdn.microsoft.com/D0927124-0568-4897-9169-445C252E8ED4">FhServiceOpenPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
  
 
  

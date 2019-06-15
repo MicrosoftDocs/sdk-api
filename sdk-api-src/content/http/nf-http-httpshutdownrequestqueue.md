@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HttpShutdownRequestQueue</b> function stops queuing requests for the specified request queue process. Outstanding calls to <a href="https://msdn.microsoft.com/ad9e80f7-04c4-4108-a7ab-40eb57d00e3b">HttpReceiveHttpRequest</a> are canceled.
+The <b>HttpShutdownRequestQueue</b> function stops queuing requests for the specified request queue process. Outstanding calls to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> are canceled.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>HttpShutdownRequestQueue</b> function stops queuing requests for the spec
 ### -param RequestQueueHandle [in]
 
 The handle to the request queue that is shut down. A request queue is created and its handle returned by a call to the 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
 
 ## -returns
@@ -104,11 +104,11 @@ The application does not have permission to shut down the request queue.
 
 <ol>
 <li>The request queue process is marked  for cleanup and no new requests are routed to the request queue process.</li>
-<li>If the calling process is a controller, outstanding <a href="https://msdn.microsoft.com/e6bc4d24-5495-44cc-81ee-e5213095f3e4">HttpWaitForDemandStart</a> calls are canceled.</li>
-<li>Pending <a href="https://msdn.microsoft.com/ad9e80f7-04c4-4108-a7ab-40eb57d00e3b">HttpReceiveHttpRequest</a> calls from the calling process are canceled.</li>
+<li>If the calling process is a controller, outstanding <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordemandstart">HttpWaitForDemandStart</a> calls are canceled.</li>
+<li>Pending <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> calls from the calling process are canceled.</li>
 <li>Requests that are already bound to the calling process are canceled.</li>
 <li>The unreceived pending requests that are queued to the request queue process rerouted to another  request queue process. If no other request queue process is available, the pending requests are saved until the request queue is closed, or another non-controller request queue process launches.</li>
-<li>Pending <a href="https://msdn.microsoft.com/1f1c16c1-43ef-4e29-8d3d-8592ce6a6bf0">HttpWaitForDisconnect</a> calls initiated by the calling process are canceled.</li>
+<li>Pending <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> calls initiated by the calling process are canceled.</li>
 <li>Outstanding responses indicated by the calling process are not affected, they are properly completed.</li>
 </ol>
 
@@ -125,23 +125,23 @@ Be aware that if the request queue handle is shared by multiple processes,  <b>H
 
 
 
-<a href="https://msdn.microsoft.com/12daffca-b403-4f06-8037-206f90e33252">HTTP Server API Version 2.0 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1">HttpCloseRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3b1e85e-f152-4038-a56a-3d5985757c45">HttpQueryRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
  
 
  

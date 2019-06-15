@@ -54,7 +54,7 @@ The <b>IAzOperation</b> interface defines a low-level operation supported by an 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzOperation</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzOperation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzOperation</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzOperation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAzOperation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/211def10-d696-4b23-b54c-21f1f9b8f7ff">GetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>IAzOperation</b> object property  with the specified property ID.
@@ -79,7 +79,7 @@ Returns the <b>IAzOperation</b> object property  with the specified property ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f510fdb4-922d-488c-ad3d-3468da6a2fb6">SetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified value to the <b>IAzOperation</b> object property  with the specified property ID.
@@ -88,7 +88,7 @@ Sets the specified value to the <b>IAzOperation</b> object property  with the sp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f6265bfa-c856-47db-a688-f5de25ef7157">Submit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-submit">Submit</a>
 </td>
 <td align="left" width="63%">
 Persists changes made to the <b>IAzOperation</b> object.
@@ -106,7 +106,7 @@ Persists changes made to the <b>IAzOperation</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d4d22aae-6ca3-4a97-aa44-fa07674dc556">ApplicationData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_applicationdata">ApplicationData</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Sets or retrieves an opaque field that can be used by the application to store i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9f39032d-7624-43f8-91a4-6e616e691156">Description</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_description">Description</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Sets or retrieves a comment that describes the operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e1ebacda-513c-49f7-bb36-15229fdb0b3b">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_name">Name</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Sets or retrieves the name of the operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3466dea1-b005-40fc-87d1-29b5e033f6a0">OperationID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_operationid">OperationID</a>
 
 
 </td>
@@ -170,7 +170,7 @@ Sets or retrieves an application-specific value that uniquely identifies the ope
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/16745237-23d9-4818-b8f8-de93405ae9ac">Writable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperation-get_writable">Writable</a>
 
 
 </td>

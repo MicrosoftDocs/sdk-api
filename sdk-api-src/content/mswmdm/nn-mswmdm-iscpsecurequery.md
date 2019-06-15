@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>ISCPSecureQuery</b> interface is queried by Windows Media Device Manager to determine ownership of secured content. Windows Media Device Manager passes information about the content to the secure content provider, which uses that information to determine whether it is responsible for the content. Windows Media Device Manager consults this interface whenever an application downloads content to a media device.
 
-The <a href="https://msdn.microsoft.com/fe5ae201-355d-4402-8d57-a721aecfdbde">ISCPSecureQuery2</a> interface extends <b>ISCPSecureQuery</b> through functionality that determines whether the secure content provider is responsible for the content, and if so, providing a URL for updating revoked components and determining which components have been revoked.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2</a> interface extends <b>ISCPSecureQuery</b> through functionality that determines whether the secure content provider is responsible for the content, and if so, providing a URL for updating revoked components and determining which components have been revoked.
 
 The secure content provider implements this interface and secure Windows Media Device Manager implementations call its methods.
 
@@ -61,7 +61,7 @@ The secure content provider implements this interface and secure Windows Media D
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureQuery</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISCPSecureQuery</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISCPSecureQuery</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISCPSecureQuery</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>ISCPSecureQuery</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e12d8b55-5600-4178-8b2b-8afe8ade6818">ExamineData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ExamineData</a>
 </td>
 <td align="left" width="63%">
 Determines whether the secure content provider is responsible for the content by examining data that Windows Media Device Manager passes to this method.
@@ -85,7 +85,7 @@ Determines whether the secure content provider is responsible for the content by
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4ed4da1-9378-4c35-8f03-b028e37c1707">GetDataDemands</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a>
 </td>
 <td align="left" width="63%">
 Reports what data the secure content provider needs to determine rights and responsibility for a specified piece of content.
@@ -94,7 +94,7 @@ Reports what data the secure content provider needs to determine rights and resp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d9991f4-ce20-45c4-a408-d7a846b019ef">GetRights</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getrights">GetRights</a>
 </td>
 <td align="left" width="63%">
 Retrieves rights information for a piece of content. Rights are file-specific.
@@ -103,7 +103,7 @@ Retrieves rights information for a piece of content. Rights are file-specific.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cbcc8999-d7e4-4b67-a5ba-dd850ff7a07a">MakeDecision</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision">MakeDecision</a>
 </td>
 <td align="left" width="63%">
 Determines whether transferring the content to a specified device is allowed.
@@ -118,15 +118,15 @@ Determines whether transferring the content to a specified device is allowed.
 
 
 
-<a href="https://msdn.microsoft.com/fe5ae201-355d-4402-8d57-a721aecfdbde">ISCPSecureQuery2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d600ae9-5d5b-48f6-a162-e52f78beb983">ISCPSecureQuery3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery3">ISCPSecureQuery3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3eecdb8-55a9-46e3-95d1-0fb9bd59f393">Interfaces for Secure Content Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-secure-content-providers">Interfaces for Secure Content Providers</a>
  
 
  

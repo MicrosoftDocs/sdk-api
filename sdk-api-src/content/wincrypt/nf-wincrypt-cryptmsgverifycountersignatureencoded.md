@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CryptMsgVerifyCountersignatureEncoded</b> function verifies a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">countersignature</a> in terms of the SignerInfo structure (as defined by PKCS #7).
+The <b>CryptMsgVerifyCountersignatureEncoded</b> function verifies a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">countersignature</a> in terms of the SignerInfo structure (as defined by PKCS #7).
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CryptMsgVerifyCountersignatureEncoded</b> function verifies a <a href="ht
 
 This parameter is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b><b>NULL</b> or the handle of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic provider</a> to use to <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> the encryptedDigest field of <i>pbSignerInfo</i>.This parameter's data type is <b>HCRYPTPROV</b>.
+<b>Windows Server 2003 and Windows XP:  </b><b>NULL</b> or the handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic provider</a> to use to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> the encryptedDigest field of <i>pbSignerInfo</i>.This parameter's data type is <b>HCRYPTPROV</b>.
 
 Unless there is a strong reason for passing in a specific cryptographic provider in <i>hCryptProv</i>, pass <b>NULL</b> to cause the default RSA or DSS provider to be used.
 
@@ -78,7 +78,7 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING.
 
 ### -param pbSignerInfo [in]
 
-A pointer to the encoded <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> that contains the signer of the contents of a message to be countersigned.
+A pointer to the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the signer of the contents of a message to be countersigned.
 
 
 ### -param cbSignerInfo [in]
@@ -99,7 +99,7 @@ Count, in bytes, of the encoded BLOB for the countersigner of the message.
 ### -param pciCountersigner [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a> that includes with the issuer and serial number of the countersigner. For more information, see Remarks.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a> that includes with the issuer and serial number of the countersigner. For more information, see Remarks.
 
 
 ## -returns
@@ -109,9 +109,9 @@ A pointer to a
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-The following table lists the error codes most commonly returned by the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+The following table lists the error codes most commonly returned by the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -191,23 +191,23 @@ Propagated errors from the following functions might be returned.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ed008c07-1a40-4075-bdaa-eb7f7e12d9c3">CryptGetHashParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f48b6ec9-e03b-43b0-9f22-120ae93d934c">CryptImportKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3119eabc-90ff-42c6-b3fa-e8be625f6d1e">CryptVerifySignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/05e3db57-8d83-48e2-8590-68039ea27253">CryptCreateHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 </li>
 </ul>
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -218,13 +218,13 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 Countersigner verification is done using the PKCS #7 <b>SIGNERINFO</b> structure. The signature must contain the encrypted hash of the encryptedDigest field of <i>pbSignerInfo</i>.
 
-The issuer and serial number of the countersigner must match the countersigner information from <i>pbSignerInfoCountersignature</i>. The only fields referenced from <i>pciCountersigner</i> are SerialNumber, Issuer, and SubjectPublicKeyInfo. The SubjectPublicKeyInfo is used to access the public key that is then used to encrypt the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> from the <i>pciCountersigner</i> so compare it with the hash from the <i>pbSignerInfo</i>.
+The issuer and serial number of the countersigner must match the countersigner information from <i>pbSignerInfoCountersignature</i>. The only fields referenced from <i>pciCountersigner</i> are SerialNumber, Issuer, and SubjectPublicKeyInfo. The SubjectPublicKeyInfo is used to access the public key that is then used to encrypt the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> from the <i>pciCountersigner</i> so compare it with the hash from the <i>pbSignerInfo</i>.
 
 
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://msdn.microsoft.com/12930d4d-2ea5-4d95-b9cf-4f0dd351ce05">Example C Program: Encoding and Decoding a CounterSigned Message</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-encoding-and-decoding-a-countersigned-message">Example C Program: Encoding and Decoding a CounterSigned Message</a>.
 
 <div class="code"></div>
 
@@ -235,19 +235,19 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/ebf76664-bca6-462d-b519-2b60f435d8ef">CryptMsgCountersign</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersign">CryptMsgCountersign</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9fd734b-e14d-4392-ac88-5565aefbedb4">CryptMsgCountersignEncoded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
  
 
  

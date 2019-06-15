@@ -77,7 +77,7 @@ The new value of the attribute.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 This method returns an HRESULT success or error code.    Returns an error if the attribute name is not valid on this element.
             Returns an error if the attribute cannot be expressed as the specified interface type.
@@ -92,7 +92,7 @@ This method returns an HRESULT success or error code.    Returns an error if the
 
 
 
-<a href="https://msdn.microsoft.com/19099DC9-EA14-41C5-A9DF-5EBB12696C79">ID2D1SvgElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
  
 
  

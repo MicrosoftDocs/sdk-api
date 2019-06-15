@@ -98,15 +98,15 @@ OleTranslateColor(ocKey, 0, &clrKey);
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2896f062-4ff9-4652-89b9-5fe55c6fe472">IMSVidCtl::put_ColorKey</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_colorkey">IMSVidCtl::put_ColorKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390554(v=VS.85).aspx">IVMRWindowlessControl::GetColorKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-getcolorkey">IVMRWindowlessControl::GetColorKey</a>
  
 
  

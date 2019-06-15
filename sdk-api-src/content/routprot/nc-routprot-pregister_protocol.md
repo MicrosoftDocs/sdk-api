@@ -61,7 +61,7 @@ The
 ### -param pRoutingChar [in, out]
 
 On input, pointer to an 
-<a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">MPR_ROUTING_CHARACTERISTICS</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure. 
 
 
 
@@ -69,14 +69,14 @@ On input, pointer to an
 On output, receives pointers to functions implemented for the routing protocol.
 
 See the reference page for the 
-<a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">MPR_ROUTING_CHARACTERISTICS</a> structure for more information on how to use it with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure for more information on how to use it with the 
 <b>RegisterProtocol</b> function.
 
 
 ### -param pServiceChar [in, out]
 
 On input, pointer to an 
-<a href="https://msdn.microsoft.com/92a117ae-3a5f-4702-a936-8e23bc575763">MPR_SERVICE_CHARACTERISTICS</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure. 
 
 
 
@@ -84,7 +84,7 @@ On input, pointer to an
 On output, receives pointers to functions implemented for the routing protocol.
 
 See the reference page for the 
-<a href="https://msdn.microsoft.com/92a117ae-3a5f-4702-a936-8e23bc575763">MPR_SERVICE_CHARACTERISTICS</a> structure for more information on how to use it with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure for more information on how to use it with the 
 <b>RegisterProtocol</b> function.
 
 
@@ -104,10 +104,10 @@ If the function fails, the return value is ERROR_NOT_SUPPORTED.
 
 
 All routing protocol DLLs must fill in values for the 
-<a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">MPR_ROUTING_CHARACTERISTICS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure.
 
 Routing protocol DLLs that provide services must fill in values for the 
-<a href="https://msdn.microsoft.com/92a117ae-3a5f-4702-a936-8e23bc575763">MPR_SERVICE_CHARACTERISTICS</a> structure. If a routing protocol DLL does not provide services, it should fill in zero for the <b>fSupportedFunctionality</b> member of this structure, but need not fill in values for the other members.
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure. If a routing protocol DLL does not provide services, it should fill in zero for the <b>fSupportedFunctionality</b> member of this structure, but need not fill in values for the other members.
 
 Routing protocols are implemented in user-mode DLLs. A single DLL may implement multiple routing protocols. Therefore, router manager may call 
 <b>RegisterProtocol</b> multiple times, once for each routing protocol implemented in the DLL.
@@ -120,19 +120,19 @@ Routing protocols are implemented in user-mode DLLs. A single DLL may implement 
 
 
 
-<a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/92a117ae-3a5f-4702-a936-8e23bc575763">MPR_SERVICE_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-_mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd780458-ef23-4ef2-8fe8-29b32100917f">Routing Protocol Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0429f5ca-6574-48f5-85ab-70b4677ca539">Routing Protocol Interface Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
  
 
  

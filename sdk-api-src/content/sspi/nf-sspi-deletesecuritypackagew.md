@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deletes a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security support provider</a> from the list of providers supported by <a href="https://msdn.microsoft.com/3aa7e979-8b55-416d-bed1-28296055d38e">Microsoft Negotiate</a>.
+Deletes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> from the list of providers supported by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ If the function fails, it returns a nonzero error code.
 
 
 
-<a href="https://msdn.microsoft.com/35b993d2-87a0-46d0-991f-88358b0cc5e6">AddSecurityPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-addsecuritypackagea">AddSecurityPackage</a>
  
 
  

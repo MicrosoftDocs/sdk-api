@@ -59,7 +59,7 @@ Called when the user clicks a command button.
 
 ### -param pfdc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f1c29688-3538-40ff-a1da-6211cc5dded7">IFileDialogCustomize</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogcustomize">IFileDialogCustomize</a>*</b>
 
 A pointer to the interface through which the application added controls to the dialog.
 

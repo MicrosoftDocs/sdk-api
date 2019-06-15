@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a> interface.
+The <b>GetField</b> method gets a specific field from the current record of the configuration database. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> interface.
 
 
 ## -parameters
@@ -174,8 +174,8 @@ Organizational unit.
 </dl>
 </td>
 <td width="60%">
-CA name that is <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">sanitized</a> according to the rules described in 
-<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>.
+CA name that is <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized</a> according to the rules described in 
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ CA name that is <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0a
 </td>
 <td width="60%">
 CA name that is sanitized and shortened according to the rules described in 
-<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Reference computer name.
 </td>
 <td width="60%">
 SanitizedShortName, but with the '!xxx' sequences, as described in 
-<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>, translated back into the original text.
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>, translated back into the original text.
 
 </td>
 </tr>
@@ -217,7 +217,7 @@ SanitizedShortName, but with the '!xxx' sequences, as described in
 </dl>
 </td>
 <td width="60%">
-Name of the file that contains the CA certificate (also known as the CA <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">signature certificate</a>); this may or may not be a <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">root certificate</a>.
+Name of the file that contains the CA certificate (also known as the CA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature certificate</a>); this may or may not be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificate</a>.
 
 </td>
 </tr>
@@ -249,7 +249,7 @@ An array of certificate enrollment Web service URLs for a specific CA configurat
 
 ### -param pstrOut [out, retval]
 
-A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the data from the field. When you have finished using the <b>BSTR</b>, free <i>pbstrOut</i> by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 ## -returns
@@ -259,7 +259,7 @@ A pointer to a <b>BSTR</b> that receives the data from the field. When you have 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a string that represents the data for the field.
@@ -321,11 +321,11 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">CCertConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">CCertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
  
 
  

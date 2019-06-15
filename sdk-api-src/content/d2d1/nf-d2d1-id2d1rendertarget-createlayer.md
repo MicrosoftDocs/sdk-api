@@ -57,7 +57,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a3377fb-f847-454f-9716-70a7b65fe96c">CreateLayer(ID2D1Layer**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)">CreateLayer(ID2D1Layer**)</a>
 </td>
 <td align="left" width="63%">
 Creates a layer resource that can be used with this render target and its compatible render targets. 
@@ -66,7 +66,7 @@ Creates a layer resource that can be used with this render target and its compat
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c21596a3-2b10-4a96-9a01-cf9325e51fe3">CreateLayer(D2D1_SIZE_F,ID2D1Layer**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(d2d1_size_f_id2d1layer)">CreateLayer(D2D1_SIZE_F,ID2D1Layer**)</a>
 </td>
 <td align="left" width="63%">
 Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size. 
@@ -75,7 +75,7 @@ Creates a layer resource that can be used with this render target and its compat
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/943fbff6-1ad1-4d4b-9d52-e9605691e1ad">CreateLayer(D2D1_SIZE_F*,ID2D1Layer**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(d2d1_size_f_id2d1layer)">CreateLayer(D2D1_SIZE_F*,ID2D1Layer**)</a>
 </td>
 <td align="left" width="63%">
 Creates a layer resource that can be used with this render target and its compatible render targets. The new layer has the specified initial size. 
@@ -96,7 +96,7 @@ The layer automatically resizes itself, as needed.
 
 #### Examples
 
-The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
+The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-clip-with-layers">How to Clip to a Geometric Mask</a>.
 
 
 ```cpp
@@ -147,11 +147,11 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-layers-overview">Layers Overview</a>
  
 
  

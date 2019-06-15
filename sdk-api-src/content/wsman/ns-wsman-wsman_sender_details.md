@@ -123,7 +123,7 @@ All other types are queried directly from the security package.  For Internet In
 
 ### -field certificateDetails
 
-A pointer to a <a href="https://msdn.microsoft.com/82b723fd-c9bb-4ddd-bd2a-4b6d1186846b">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>is set to ClientCertificate.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_certificate_details">WSMAN_CERTIFICATE_DETAILS</a> structure that specifies the details of the client's certificate. This parameter is valid only if the <i>authenticationMechanism</i>is set to ClientCertificate.
 
 
 ### -field clientToken

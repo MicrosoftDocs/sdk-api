@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/2cba47fd-a049-4e50-99dd-20ccf91c9e0f">XML Dictionary</a> object. The retrieved Dictionary is returned by the <i>dictionary</i> reference parameter.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_dictionary">XML Dictionary</a> object. The retrieved Dictionary is returned by the <i>dictionary</i> reference parameter.
 
 
 ## -parameters
@@ -65,13 +65,13 @@ Indicates an enumeration of the Dictionary encoding.
 
 ### -param dictionary
 
-A reference to a <a href="https://msdn.microsoft.com/2cba47fd-a049-4e50-99dd-20ccf91c9e0f">WS_XML_DICTIONARY</a> structure for the retrieved <b>Dictionary</b>.
+A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_dictionary">WS_XML_DICTIONARY</a> structure for the retrieved <b>Dictionary</b>.
         
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

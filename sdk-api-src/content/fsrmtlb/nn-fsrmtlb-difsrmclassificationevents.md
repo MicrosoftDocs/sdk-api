@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Handles events that are received while processing a 
-    <a href="https://msdn.microsoft.com/1dee9185-f83c-4e49-bf29-143271445046">ClassifyFiles</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager2-classifyfiles">ClassifyFiles</a> 
     call.
 
 
@@ -59,11 +59,11 @@ Handles events that are received while processing a
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dee9185-f83c-4e49-bf29-143271445046">IFsrmClassificationManager2::ClassifyFiles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager2-classifyfiles">IFsrmClassificationManager2::ClassifyFiles</a>
  
 
  

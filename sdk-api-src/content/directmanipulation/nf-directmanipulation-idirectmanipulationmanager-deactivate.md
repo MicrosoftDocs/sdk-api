@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deactivates <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> for processing input and  handling callbacks on the specified window. 
+Deactivates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-portal">Direct Manipulation</a> for processing input and  handling callbacks on the specified window. 
 
 
 ## -parameters
@@ -75,9 +75,9 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 
-The manipulation manager is deactivated by default. The manager does not receive or respond to input until <a href="https://msdn.microsoft.com/49a5eccd-16a9-4dca-af78-224fd5acb611">Activate</a> is called. The manipulation manager should be deactivated when the app does not receive or respond to input. For example, when the app is minimized.
+The manipulation manager is deactivated by default. The manager does not receive or respond to input until <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager-activate">Activate</a> is called. The manipulation manager should be deactivated when the app does not receive or respond to input. For example, when the app is minimized.
 
-Calls to <a href="https://msdn.microsoft.com/49a5eccd-16a9-4dca-af78-224fd5acb611">Activate</a> and <b>Deactivate</b> are reference counted.
+Calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager-activate">Activate</a> and <b>Deactivate</b> are reference counted.
 
 
 
@@ -88,7 +88,7 @@ Calls to <a href="https://msdn.microsoft.com/49a5eccd-16a9-4dca-af78-224fd5acb61
 
 
 
-<a href="https://msdn.microsoft.com/d730a446-984e-4be0-aa7f-6d3dc93b2e34">IDirectManipulationManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Wrapper macro for use in <a href="https://msdn.microsoft.com/4515652D-86B0-4274-8523-27292F5F6815">TRACELOGGING_DEFINE_PROVIDER</a> to declare the
+Wrapper macro for use in <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider">TRACELOGGING_DEFINE_PROVIDER</a> to declare the
 GUID of the provider group that the provider is a member of.
 
 

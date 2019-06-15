@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 This method retrieves one or more property sheet pages associated with a task object.
 
@@ -62,7 +62,7 @@ This method retrieves one or more property sheet pages associated with a task ob
 ### -param tpType [in]
 
 One of the following 
-<a href="https://msdn.microsoft.com/6c822d4c-9d42-48a2-b378-06670acc39cf">TASKPAGE</a> enumeration values that specify the page to return. 
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-_taskpage">TASKPAGE</a> enumeration values that specify the page to return. 
 
 
 
@@ -111,14 +111,14 @@ Returns S_OK if the method was successful, or STG_E_NOTFILEBASEDSTORAGE if the t
 
 
 To retrieve the 
-<a href="https://msdn.microsoft.com/58be7ea9-022f-46a0-9f27-9b226000a8cc">IProvideTaskPage</a> interface, call <b>ITask::QueryInterface</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-iprovidetaskpage">IProvideTaskPage</a> interface, call <b>ITask::QueryInterface</b>.
 
 The following code shows the variable declaration and calling syntax for using this method and for calling <b>ITask::QueryInterface</b>.
 
 
 #### Examples
 
-For a complete example of retrieving and displaying the general task page of a known task, see <a href="https://msdn.microsoft.com/97525419-c480-465a-97c6-e701043c0af2">Retrieving a Task Page Example</a>
+For a complete example of retrieving and displaying the general task page of a known task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/retrieving-a-task-page-example">Retrieving a Task Page Example</a>
 
 
 <div class="code"></div>
@@ -130,11 +130,11 @@ For a complete example of retrieving and displaying the general task page of a k
 
 
 
-<a href="https://msdn.microsoft.com/58be7ea9-022f-46a0-9f27-9b226000a8cc">IProvideTaskPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-iprovidetaskpage">IProvideTaskPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c822d4c-9d42-48a2-b378-06670acc39cf">TASKPAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-_taskpage">TASKPAGE</a>
  
 
  

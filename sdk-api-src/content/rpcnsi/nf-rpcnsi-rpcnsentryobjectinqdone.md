@@ -61,7 +61,7 @@ The
 ### -param InquiryContext
 
 Pointer to a name-service handle specifying the object UUIDs exported to the <i>EntryName</i> parameter specified in the 
-<a href="https://msdn.microsoft.com/dc667dc3-0812-43d5-adc2-aa29ee67f045">RpcNsEntryObjectInqBegin</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a> function. 
 
 
 
@@ -93,7 +93,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -104,11 +104,11 @@ The call succeeded.
 
 The 
 <b>RpcNsEntryObjectInqDone</b> function frees an inquiry context created by calling the 
-<a href="https://msdn.microsoft.com/dc667dc3-0812-43d5-adc2-aa29ee67f045">RpcNsEntryObjectInqBegin</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a> function.
 
 An application calls 
 <b>RpcNsEntryObjectInqDone</b> after viewing exported object UUIDs using the 
-<a href="https://msdn.microsoft.com/95648480-5b53-4a8c-ba82-6c7f204520d2">RpcNsEntryObjectInqNext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqnext">RpcNsEntryObjectInqNext</a> function.
 
 
 
@@ -118,11 +118,11 @@ An application calls
 
 
 
-<a href="https://msdn.microsoft.com/dc667dc3-0812-43d5-adc2-aa29ee67f045">RpcNsEntryObjectInqBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina">RpcNsEntryObjectInqBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/95648480-5b53-4a8c-ba82-6c7f204520d2">RpcNsEntryObjectInqNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsentryobjectinqnext">RpcNsEntryObjectInqNext</a>
  
 
  

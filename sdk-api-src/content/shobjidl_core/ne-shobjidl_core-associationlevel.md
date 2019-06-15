@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the source of the default association for a file name extension. Used by methods of the <a href="https://msdn.microsoft.com/015a3be4-2e74-4a2b-8c02-54dcbf0ecacd">IApplicationAssociationRegistration</a> interface.
+Specifies the source of the default association for a file name extension. Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> interface.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ The per-user default application association. If this value is used and no per-u
 
 
 
-<a href="https://msdn.microsoft.com/40e6f80d-a778-4d5f-bb1b-db294815f8b5">HRESULT_FROM_WIN32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
  
 
  

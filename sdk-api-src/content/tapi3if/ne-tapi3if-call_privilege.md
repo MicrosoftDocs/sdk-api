@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 A 
 <b>CALL_PRIVILEGE</b> member is returned by the 
-<a href="https://msdn.microsoft.com/64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53">ITCallInfo::get_Privilege</a> method, and indicates when the current application owns or is monitoring the current call.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">ITCallInfo::get_Privilege</a> method, and indicates when the current application owns or is monitoring the current call.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ The application is a monitor of the call.
 
 
 
-<a href="https://msdn.microsoft.com/64a80fb6-b5bc-45c5-9f1d-a89ac95b9c53">ITCallInfo::get_Privilege</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">ITCallInfo::get_Privilege</a>
  
 
  

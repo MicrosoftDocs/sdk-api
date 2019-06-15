@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a keyboard event in a tree-view control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773540(v=VS.85).aspx">TVN_KEYDOWN</a> notification code. The structure is identical to the 
+Contains information about a keyboard event in a tree-view control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-keydown">TVN_KEYDOWN</a> notification code. The structure is identical to the 
 			<b>TV_KEYDOWN</b> structure, but it has been renamed to follow current naming conventions. 
 
 
@@ -60,22 +60,22 @@ Contains information about a keyboard event in a tree-view control. This structu
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about this notification. 
 
 
 ### -field wVKey
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Virtual key code. 
 
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Always zero. 
 
@@ -85,7 +85,7 @@ Always zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775583(v=VS.85).aspx">WM_NOTIFY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
  
 
  

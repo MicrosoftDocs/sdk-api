@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/4f7a9dd3-0bf4-4c23-acdb-a5e0389120cc">ITaskVariables</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskvariables">ITaskVariables</a>
  
 
  

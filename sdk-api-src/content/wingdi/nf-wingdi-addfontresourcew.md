@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The <b>AddFontResource</b> function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application.
 
-To mark a font as private or not enumerable, use the <a href="https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117">AddFontResourceEx</a> function.
+To mark a font as private or not enumerable, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> function.
 
 
 ## -parameters
@@ -183,13 +183,13 @@ If the function fails, the return value is zero. No extended error information i
 
 
 
-Any application that adds or removes fonts from the system font table should notify other windows of the change by sending a <a href="https://msdn.microsoft.com/4774308e-2f18-4a35-a769-56871f3c29a2">WM_FONTCHANGE</a> message to all top-level windows in the operating system. The application should send this message by calling the <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> function and setting the <i>hwnd</i> parameter to HWND_BROADCAST.
+Any application that adds or removes fonts from the system font table should notify other windows of the change by sending a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-fontchange">WM_FONTCHANGE</a> message to all top-level windows in the operating system. The application should send this message by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a> function and setting the <i>hwnd</i> parameter to HWND_BROADCAST.
 
-When an application no longer needs a font resource that it loaded by calling the <b>AddFontResource</b> function, it must remove that resource by calling the <a href="https://msdn.microsoft.com/ccc0ac8b-e373-47a9-a362-64fd79a33d0c">RemoveFontResource</a> function.
+When an application no longer needs a font resource that it loaded by calling the <b>AddFontResource</b> function, it must remove that resource by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourcea">RemoveFontResource</a> function.
 
 This function installs the font only for the current session. When the system restarts, the font will not be present. To have the font installed even after restarting the system, the font must be listed in the registry.
 
-A font listed in the registry and installed to a location other than the %windir%\fonts\ folder cannot be modified, deleted, or replaced as long as it is loaded in any session. In order to change one of these fonts, it must first be removed by calling <a href="https://msdn.microsoft.com/ccc0ac8b-e373-47a9-a362-64fd79a33d0c">RemoveFontResource</a>, removed from the font registry (<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</b>), and the system restarted. After restarting the system, the font will no longer be loaded and can be changed.
+A font listed in the registry and installed to a location other than the %windir%\fonts\ folder cannot be modified, deleted, or replaced as long as it is loaded in any session. In order to change one of these fonts, it must first be removed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourcea">RemoveFontResource</a>, removed from the font registry (<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</b>), and the system restarted. After restarting the system, the font will no longer be loaded and can be changed.
 
 
 
@@ -199,25 +199,25 @@ A font listed in the registry and installed to a location other than the %windir
 
 
 
-<a href="https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117">AddFontResourceEx
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccc0ac8b-e373-47a9-a362-64fd79a33d0c">RemoveFontResource
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourcea">RemoveFontResource
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
  
 
  

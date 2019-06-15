@@ -56,7 +56,7 @@ Provides the methods and properties needed to configure and send HTTP requests a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLHTTPRequest2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXMLHTTPRequest2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLHTTPRequest2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXMLHTTPRequest2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IXMLHTTPRequest2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B051D464-2328-44A2-A2BC-D0CDDCA79C64">IXMLHTTPRequest2::Abort</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-abort">IXMLHTTPRequest2::Abort</a>
 </td>
 <td align="left" width="63%">
 Cancels the current HTTP request.
@@ -80,7 +80,7 @@ Cancels the current HTTP request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6452812B-0E0F-4140-8E3C-25592A9C6C48">IXMLHTTPRequest2::GetAllResponseHeaders</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getallresponseheaders">IXMLHTTPRequest2::GetAllResponseHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the values of all the HTTP response headers.
@@ -89,7 +89,7 @@ Retrieves the values of all the HTTP response headers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A2A9C54B-92A2-41EA-A741-797BA219BCDA">IXMLHTTPRequest2::GetCookie</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getcookie">IXMLHTTPRequest2::GetCookie</a>
 </td>
 <td align="left" width="63%">
 Gets a cookie associated with the specified URL from the HTTP cookie jar.
@@ -98,7 +98,7 @@ Gets a cookie associated with the specified URL from the HTTP cookie jar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5D68DAAA-D359-4FDF-8250-14A8D732FFFA">IXMLHTTPRequest2::GetResponseHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-getresponseheader">IXMLHTTPRequest2::GetResponseHeader</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of an HTTP header from the response headers.
@@ -107,25 +107,25 @@ Retrieves the value of an HTTP header from the response headers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8723F24B-0739-44D6-8443-1A378B585F42">IXMLHTTPRequest2::Open</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">IXMLHTTPRequest2::Open</a>
 </td>
 <td align="left" width="63%">
-Initializes an <b>IXMLHTTPRequest2</b> request and specifies the method, URL, and authentication information for the request.  After calling this method, you must call the <a href="https://msdn.microsoft.com/E46DB550-8346-41F2-9B35-4DFD9732B0D8">Send</a>  method to send the request and data, if any, to the server.
+Initializes an <b>IXMLHTTPRequest2</b> request and specifies the method, URL, and authentication information for the request.  After calling this method, you must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">Send</a>  method to send the request and data, if any, to the server.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E46DB550-8346-41F2-9B35-4DFD9732B0D8">IXMLHTTPRequest2::Send</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-send">IXMLHTTPRequest2::Send</a>
 </td>
 <td align="left" width="63%">
-Sends an HTTP request to the server asynchronously. On success, methods on the <a href="https://msdn.microsoft.com/AA4B3F4C-6E28-458B-BE25-6CCE8865FC71">IXMLHTTPRequest2Callback</a> interface implemented by the app are called to process the response.
+Sends an HTTP request to the server asynchronously. On success, methods on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a> interface implemented by the app are called to process the response.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E150B7CA-A881-4CD5-896F-7E3B6770E105">IXMLHTTPRequest2::SetCookie</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcookie">IXMLHTTPRequest2::SetCookie</a>
 </td>
 <td align="left" width="63%">
 Sets a cookie associated with the specified URL in the HTTP cookie jar.
@@ -134,7 +134,7 @@ Sets a cookie associated with the specified URL in the HTTP cookie jar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64341C82-85EC-402F-A875-85706DFD7B25">IXMLHTTPRequest2::SetCustomResponseStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setcustomresponsestream">IXMLHTTPRequest2::SetCustomResponseStream</a>
 </td>
 <td align="left" width="63%">
 Provides a custom stream to replace the standard stream for receiving an HTTP response.
@@ -143,7 +143,7 @@ Provides a custom stream to replace the standard stream for receiving an HTTP re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4BBA4E21-29ED-413D-90D6-161D31CC13C9">IXMLHTTPRequest2::SetProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">IXMLHTTPRequest2::SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property on an outgoing HTTP request.
@@ -152,7 +152,7 @@ Sets a property on an outgoing HTTP request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FBEEB04C-7976-4017-B56C-17815FC01831">IXMLHTTPRequest2::SetRequestHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setrequestheader">IXMLHTTPRequest2::SetRequestHeader</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of an HTTP header to be sent to the server along with the default request headers.
@@ -166,7 +166,7 @@ Specifies the name of an HTTP header to be sent to the server along with the def
 
 
 
-The <b>IXMLHTTPRequest2</b> interface is extended by the <a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a> interface. The <b>IXMLHTTPRequest3</b> inherits all the methods and properties of the <b>IXMLHTTPRequest2</b> interface.
+The <b>IXMLHTTPRequest2</b> interface is extended by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a> interface. The <b>IXMLHTTPRequest3</b> inherits all the methods and properties of the <b>IXMLHTTPRequest2</b> interface.
 
 The <b>IXMLHTTPRequest2</b> interface configures and sends HTTP request operations and uses  callbacks  to receive notifications  during response processing. The <b>IXMLHTTPRequest2</b> allows applications to run in a Multi Threaded Apartment (MTA), a requirement for running under the Windows Runtime (WinRT).
 
@@ -182,7 +182,7 @@ The <b>IXMLHTTPRequest2</b> interface supports the following features:
 </ul>
 
 
-<b>IXMLHTTPRequest2</b> implements a callback model for event handling. Because <b>IXMLHTTPRequest2</b> methods allow only asynchronous method calls, to receive completion callbacks an application must pass a pointer to an <a href="https://msdn.microsoft.com/AA4B3F4C-6E28-458B-BE25-6CCE8865FC71">IXMLHTTPRequest2Callback</a> object when it calls the <a href="https://msdn.microsoft.com/8723F24B-0739-44D6-8443-1A378B585F42">IXMLHTTPRequest2::Open</a> method to create an HTTP request.
+<b>IXMLHTTPRequest2</b> implements a callback model for event handling. Because <b>IXMLHTTPRequest2</b> methods allow only asynchronous method calls, to receive completion callbacks an application must pass a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a> object when it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">IXMLHTTPRequest2::Open</a> method to create an HTTP request.
 
 
 
@@ -192,19 +192,19 @@ The <b>IXMLHTTPRequest2</b> interface supports the following features:
 
 
 
-<a href="https://msdn.microsoft.com/AA4B3F4C-6E28-458B-BE25-6CCE8865FC71">IXMLHTTPRequest2Callback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
 
 
 
-<a href="https://msdn.microsoft.com/66af3f84-585c-441e-b9be-4ec188d72a19">IXMLHTTPRequest3</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3">IXMLHTTPRequest3</a>
 
 
 
-<a href="https://msdn.microsoft.com/f745669a-a594-457d-ae6b-952a55576bae">IXMLHTTPRequest3Callback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest3callback">IXMLHTTPRequest3Callback</a>
 
 
 
-<a href="https://msdn.microsoft.com/CC7AED53-B2C5-4D83-B85D-CFF2F5BA7B35">Quickstart: Connecting using XML HTTP Request (IXHR2)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh770550(v=win.10)">Quickstart: Connecting using XML HTTP Request (IXHR2)</a>
 
 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/cabf21b8-790b-401b-9de2-0d8c5fa858e1">AutoDownloadMode</a> value that indicates the automatic download mode of update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagautodownloadmode">AutoDownloadMode</a> value that indicates the automatic download mode of update.
 
 This property is read-only.
 
@@ -72,7 +72,7 @@ The AutoDownload property indicates whether the update will be automatically dow
 
 
 
-<a href="https://msdn.microsoft.com/ec25e83b-2bd0-4ec4-99db-7a9877c4a42f">IWindowsDriverUpdate5</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsDriverUpdate5</a>
  
 
  

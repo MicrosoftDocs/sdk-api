@@ -81,7 +81,7 @@ The length, in characters, of the domain string, not including the terminating n
 
 ### -field Password
 
-A string that contains the password of the user in the domain or workgroup. When you have finished using the password, remove the sensitive information from memory by calling <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a>. For more information about protecting the password, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+A string that contains the password of the user in the domain or workgroup. When you have finished using the password, remove the sensitive information from memory by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a>. For more information about protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ### -field PasswordLength
@@ -114,7 +114,7 @@ The strings in this structure are in ANSI format.
 </dl>
 </td>
 <td width="60%">
-The strings in this structure are in <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> format.
+The strings in this structure are in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> format.
 
 </td>
 </tr>

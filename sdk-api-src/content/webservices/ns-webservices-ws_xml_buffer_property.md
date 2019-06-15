@@ -60,7 +60,7 @@ Specifies an XML buffer–specific setting.
 
 ### -field id
 
-Identifies the <a href="https://msdn.microsoft.com/580a72d3-6800-48b3-9345-4e3b20bb4066">WS_XML_BUFFER_PROPERTY_ID</a>.
+Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-__unnamed_enum_0">WS_XML_BUFFER_PROPERTY_ID</a>.
         
 
 

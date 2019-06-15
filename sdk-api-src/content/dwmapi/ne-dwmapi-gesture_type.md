@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the gesture type specified in <a href="https://msdn.microsoft.com/2daad062-dd7f-4a0b-a31e-134980f5bebd">DwmRenderGesture</a>.
+Identifies the gesture type specified in <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmrendergesture">DwmRenderGesture</a>.
 
 
 ## -enum-fields

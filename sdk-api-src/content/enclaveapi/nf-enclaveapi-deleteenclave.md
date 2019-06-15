@@ -68,9 +68,9 @@ The base address of the enclave that you want to delete.
 
 
 <b>TRUE</b> if the enclave was deleted successfully; otherwise <b>FALSE</b>. To get extended error information, 
-       call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
-For a list of common error codes, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
 
 <table>
 <tr>
@@ -84,7 +84,7 @@ For a list of common error codes, see <a href="https://msdn.microsoft.com/4a3a8f
 </dl>
 </td>
 <td width="60%">
-The execution of threads running with the enclave was not ended, because either <a href="https://msdn.microsoft.com/D2BAF02F-AE05-43F2-BDB1-013EAF3AC653">TerminateEnclave</a> was not called, or the execution of the threads has not yet ended in response to an earlier call to <b>TerminateEnclave</b>.
+The execution of threads running with the enclave was not ended, because either <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-terminateenclave">TerminateEnclave</a> was not called, or the execution of the threads has not yet ended in response to an earlier call to <b>TerminateEnclave</b>.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The execution of threads running with the enclave was not ended, because either 
 
 
 
-<a href="https://msdn.microsoft.com/2193AE42-D9CC-4A9C-8676-7DE432ED58C3">CreateEnclave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
  
 
  

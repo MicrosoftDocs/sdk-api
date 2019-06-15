@@ -54,7 +54,7 @@ Exposes methods that are used to persist item identifier lists.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistIDList</b> interface inherits from <a href="https://msdn.microsoft.com/932eb0e2-35a6-482e-9138-00cff30508a9">IPersist</a>. <b>IPersistIDList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersistIDList</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersist">IPersist</a>. <b>IPersistIDList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPersistIDList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c05c2f5-5f72-436e-9b71-83749d3217b0">GetIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistidlist-getidlist">GetIDList</a>
 </td>
 <td align="left" width="63%">
 Gets an item identifier list.
@@ -78,7 +78,7 @@ Gets an item identifier list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f509a36-e9be-46ab-8c01-067e44379615">SetIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistidlist-setidlist">SetIDList</a>
 </td>
 <td align="left" width="63%">
 Sets a persisted item identifier list.

@@ -109,27 +109,27 @@ The packet was discarded.
 
 
 
-<a href="https://msdn.microsoft.com/3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f">About NPS Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c82797fb-7ff9-496e-9744-28825529156a">GetResponse</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01">NPS Extensions Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-enumerations">NPS Extensions Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7a16cb-bc64-4e81-8149-82f51c451312">NPS Extensions Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/13ff0645-d3f8-4220-a5bc-11bb515bca95">RADIUS_EXTENSION_CONTROL_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_extension_control_block">RADIUS_EXTENSION_CONTROL_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/96e88037-1131-4f7a-9c34-0e86762361db">SetResponseType</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85)">SetResponseType</a>
  
 
  

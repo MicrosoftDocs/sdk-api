@@ -72,7 +72,7 @@ The name of the environment variable. The operating system creates the environme
 ### -param lpValue [in, optional]
 
 The contents of the environment variable. The maximum size of a user-defined environment variable is 32,767 characters. For more information, see 
-<a href="https://msdn.microsoft.com/6732b12f-ced1-4769-b947-79da8fd2237a">Environment Variables</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The total size of the environment block for a process may not exceed 32,767 characters.
 
@@ -86,7 +86,7 @@ If this parameter is NULL, the variable is deleted from the current process's en
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -101,7 +101,7 @@ This function has no effect on the system environment variables or the environme
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/b428688c-7b16-48c7-8d89-55d066496d1c">Changing Environment Variables</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
 
 <div class="code"></div>
 
@@ -112,11 +112,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/6732b12f-ced1-4769-b947-79da8fd2237a">Environment Variables</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d4cc328-12e6-4aae-9f58-58675116ad54">GetEnvironmentVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
  
 
  

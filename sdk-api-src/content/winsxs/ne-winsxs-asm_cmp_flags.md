@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The values of the <b>ASM_CMP_FLAGS</b> enumeration are used by the <a href="https://msdn.microsoft.com/798102ce-b696-4940-941d-c3fd3054c584">IsEqual</a> method to specify which portions of two assembly names to compare.
+The values of the <b>ASM_CMP_FLAGS</b> enumeration are used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-isequal">IsEqual</a> method to specify which portions of two assembly names to compare.
 
 
 ## -enum-fields

@@ -56,7 +56,7 @@ ms.custom: 19H1
 Sends a control code to a service.
 
 To specify additional information when stopping a service, use the 
-    <a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> function.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ To specify additional information when stopping a service, use the
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-      <a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a> or 
-      <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> function. The 
-      <a href="https://msdn.microsoft.com/23d1c382-6ba4-49e2-8039-c2a91471076c">access rights</a> required for this handle 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The 
+      <a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">access rights</a> required for this handle 
       depend on the <i>dwControl</i> code requested.
 
 
@@ -239,7 +239,7 @@ The service defines the action associated with the control code. The <i>hService
 
 ### -param lpServiceStatus [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/d268609b-d442-4d0f-9d49-ed23fee84961">SERVICE_STATUS</a> structure that 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a> structure that 
       receives the latest service status information. The information returned reflects the most recent status that 
       the service reported to the service control manager.
       
@@ -258,7 +258,7 @@ The service control manager fills in the structure only when
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the 
        registry functions that are called by the service control manager.
@@ -298,8 +298,8 @@ The service cannot be stopped because other running services are dependent on it
 </td>
 <td width="60%">
 The specified handle was not obtained using 
-        <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a> or 
-        <a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a>, or the handle is no longer 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>, or the handle is no longer 
         valid.
 
 </td>
@@ -358,7 +358,7 @@ The service has not been started.
 </td>
 <td width="60%">
 The process for the service was started, but it did not call 
-        <a href="https://msdn.microsoft.com/8e275eb7-a8af-4bd7-bb39-0eac4f3735ad">StartServiceCtrlDispatcher</a>, or the 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>, or the 
         thread that called 
         <b>StartServiceCtrlDispatcher</b> may be 
         blocked in a control handler function.
@@ -398,19 +398,19 @@ The SCM processes service control notifications in a serial fashion—it will wa
     <b>ERROR_SERVICE_REQUEST_TIMEOUT</b>.
 
 To stop and start a service requires a security descriptor that allows you to do so. The default security 
-    descriptor allows the <a href="https://msdn.microsoft.com/692bceb6-f5bd-4b83-ab3b-ef8099dc84e1">LocalSystem account</a>, and members 
+    descriptor allows the <a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, and members 
     of the Administrators and Power Users groups to stop and start services. To change the security descriptor of a 
     service, see 
-    <a href="https://msdn.microsoft.com/24bfb2b5-34be-4d38-a690-90d29f5d4f9c">Modifying the DACL for a Service</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/Services/modifying-the-dacl-for-a-service">Modifying the DACL for a Service</a>.
 
-The <a href="https://msdn.microsoft.com/3fe02245-97b1-49f3-8f35-2dcd6f221547">QueryServiceStatusEx</a> function returns a 
-    <a href="https://msdn.microsoft.com/303986a0-c51e-4078-a3ca-d59e5a302b36">SERVICE_STATUS_PROCESS</a> structure 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> function returns a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status_process">SERVICE_STATUS_PROCESS</a> structure 
     whose <b>dwCurrentState</b> and <b>dwControlsAccepted</b> members indicate 
     the current state and controls accepted by a running service. All running services accept the 
     <b>SERVICE_CONTROL_INTERROGATE</b> control code by default. Drivers do not accept control codes 
     other than <b>SERVICE_CONTROL_STOP</b> and 
     <b>SERVICE_CONTROL_INTERROGATE</b>. Each service specifies the other control codes that it 
-    accepts when it calls the <a href="https://msdn.microsoft.com/bb5943ff-2814-40f2-bee0-ae7132befde9">SetServiceStatus</a> function 
+    accepts when it calls the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function 
     to report its status. A service should always accept these codes when it is running, no matter what it is 
     doing.
 
@@ -465,7 +465,7 @@ The following table shows the action of the SCM  in each of the possible service
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/fe16d2a8-3e66-49cc-b9c7-fffbc206e8d3">Stopping a Service</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/Services/stopping-a-service">Stopping a Service</a>.
 
 <div class="code"></div>
 
@@ -476,39 +476,39 @@ For an example, see <a href="https://msdn.microsoft.com/fe16d2a8-3e66-49cc-b9c7-
 
 
 
-<a href="https://msdn.microsoft.com/de249903-7545-4fb6-925a-aa647f862f93">ControlServiceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0a42613-95ad-4d0f-a464-c6df33014064">OpenService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://msdn.microsoft.com/3fe02245-97b1-49f3-8f35-2dcd6f221547">QueryServiceStatusEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d268609b-d442-4d0f-9d49-ed23fee84961">SERVICE_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_status">SERVICE_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6cdc876-8b74-460e-ad43-6455ddf428dd">Service Control Requests</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-requests">Service Control Requests</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/39481d9a-79d5-4bbf-8480-4095a34dddb6">SetServiceObjectSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb5943ff-2814-40f2-bee0-ae7132befde9">SetServiceStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
  
 
  

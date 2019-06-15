@@ -63,7 +63,7 @@ A multicast routing protocol calls this function after it is notified that there
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 
 ### -param dwSourceAddr [in]
@@ -220,7 +220,7 @@ The specified interface was not found.
 This version of the MGM API supports only wildcard sources or specific sources, not a range of sources. The same restriction applies to groups (that is, no group ranges are permitted).
 
 When this function is called, the multicast group manager may invoke the 
-<a href="https://msdn.microsoft.com/1c23df04-2a31-475e-a8da-783796a60e00">PMGM_PRUNE_ALERT_CALLBACK</a> callback to notify other routing protocols that no more receivers are present for the specified group.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_prune_alert_callback">PMGM_PRUNE_ALERT_CALLBACK</a> callback to notify other routing protocols that no more receivers are present for the specified group.
 
 
 
@@ -230,11 +230,11 @@ When this function is called, the multicast group manager may invoke the
 
 
 
-<a href="https://msdn.microsoft.com/b767961e-0935-4662-9f54-d82dfa0e7bd0">MgmAddGroupMembershipEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c23df04-2a31-475e-a8da-783796a60e00">PMGM_PRUNE_ALERT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_prune_alert_callback">PMGM_PRUNE_ALERT_CALLBACK</a>
  
 
  

@@ -55,7 +55,7 @@ Exposes methods that determine whether a system has hardware for writing to CD, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICDBurn</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICDBurn</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICDBurn</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICDBurn</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ICDBurn</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e081973a-e923-45de-93ba-3281be73cc93">Burn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-burn">Burn</a>
 </td>
 <td align="left" width="63%">
 Instructs data to be copied from the staging area to a writable CD.
@@ -79,7 +79,7 @@ Instructs data to be copied from the staging area to a writable CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ee10152-6823-49bb-836d-3e0cf6c2bb0b">GetRecorderDriveLetter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-getrecorderdriveletter">GetRecorderDriveLetter</a>
 </td>
 <td align="left" width="63%">
 Gets the drive letter of a CD drive that has been marked as write-enabled.
@@ -88,7 +88,7 @@ Gets the drive letter of a CD drive that has been marked as write-enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b20b5242-2d38-4f86-9267-a2211ef07a00">HasRecordableDrive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-hasrecordabledrive">HasRecordableDrive</a>
 </td>
 <td align="left" width="63%">
 Scans the system for a CD drive with write-capability, returning <b>TRUE</b> if one is found.

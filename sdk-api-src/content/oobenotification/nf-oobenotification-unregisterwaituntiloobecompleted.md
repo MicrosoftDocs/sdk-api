@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unregisters the callback previously registered via <a href="https://msdn.microsoft.com/D1581B09-06A7-483F-929D-1AF93832942D">RegisterWaitUntilOOBECompleted</a>.
+Unregisters the callback previously registered via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a>.
 
 
 ## -parameters

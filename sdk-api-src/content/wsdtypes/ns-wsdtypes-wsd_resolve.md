@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a <a href="https://msdn.microsoft.com/b963bd2a-47cb-4f8d-8272-a586e6d6a047">Resolve</a> message.
+Represents a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/resolve-message">Resolve</a> message.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ Represents a <a href="https://msdn.microsoft.com/b963bd2a-47cb-4f8d-8272-a586e6d
 
 ### -field EndpointReference
 
-Reference to a <a href="https://msdn.microsoft.com/97d6870e-3633-4bea-9a50-984e6b0ba3a1">WSD_ENDPOINT_REFERENCE</a> structure that specifies the endpoint to match. 
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the endpoint to match. 
 
 
 ### -field Any
 
-Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773edb171e">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-_wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 
 
 ## -see-also
@@ -72,15 +72,15 @@ Reference to a <a href="https://msdn.microsoft.com/727149b4-31b0-4fd8-b0fa-eb773
 
 
 
-<a href="https://msdn.microsoft.com/b963bd2a-47cb-4f8d-8272-a586e6d6a047">Resolve Message</a>
+<a href="https://docs.microsoft.com/windows/desktop/WsdApi/resolve-message">Resolve Message</a>
 
 
 
-<a href="https://msdn.microsoft.com/eabcc3af-282c-4299-8061-6cddf14eca6b">WSD_RESOLVE_MATCH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_resolve_match">WSD_RESOLVE_MATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6094069-af17-4921-b2c3-4ec89cbbb6f6">WSD_RESOLVE_MATCHES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_resolve_matches">WSD_RESOLVE_MATCHES</a>
  
 
  

@@ -83,7 +83,7 @@ If no worker threads are available before the time-out specified by the <i>WaitT
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Possible error values include the following.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ No threads became available before the specified time-out interval elapsed.
 
 
 
-The system queues a UMS worker thread to a completion list when the worker thread is created or when a previously blocked worker thread becomes unblocked. The <b>DequeueUmsCompletionListItems</b> function retrieves a pointer to a list of all thread contexts in the specified completion list. The <a href="https://msdn.microsoft.com/fb2c8420-12f4-4bd7-ac00-b53bab760db0">GetNextUmsListItem</a> function can be used to pop UMS thread contexts off the list into the scheduler's own ready thread queue. The scheduler is responsible for selecting threads to run based on priorities chosen by the application.
+The system queues a UMS worker thread to a completion list when the worker thread is created or when a previously blocked worker thread becomes unblocked. The <b>DequeueUmsCompletionListItems</b> function retrieves a pointer to a list of all thread contexts in the specified completion list. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnextumslistitem">GetNextUmsListItem</a> function can be used to pop UMS thread contexts off the list into the scheduler's own ready thread queue. The scheduler is responsible for selecting threads to run based on priorities chosen by the application.
 
 Do not run UMS threads directly from the list provided by <b>DequeueUmsCompletionListItems</b>, or run a thread transferred from the list to  the ready thread queue before the list is completely empty. This can cause unpredictable behavior in the application.
 
@@ -125,7 +125,7 @@ If more than one caller attempts to retrieve threads from a shared completion li
 
 
 
-<a href="https://msdn.microsoft.com/fb2c8420-12f4-4bd7-ac00-b53bab760db0">GetNextUmsListItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnextumslistitem">GetNextUmsListItem</a>
  
 
  

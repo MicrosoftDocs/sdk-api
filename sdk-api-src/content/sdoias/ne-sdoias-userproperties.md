@@ -106,7 +106,7 @@ Specifies whether dial-in allowed, denied, or determined by policy.
 ### -field PROPERTY_USER_SERVICE_TYPE
 
 Specifies whether callback is enabled for this user. See 
-<a href="https://msdn.microsoft.com/4699346e-0ed0-4091-a8d5-8a12cd6bfbcf">RAS_USER_1</a> for more information about the possible values for this property.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_user_1">RAS_USER_1</a> for more information about the possible values for this property.
 
 
 ### -field PROPERTY_USER_RADIUS_FRAMED_IPV6_ROUTE
@@ -158,11 +158,11 @@ The properties that are available for a user object depend on where the user obj
 
 
 
-<a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
 
 
 
-<a href="https://msdn.microsoft.com/c416c0db-836a-4056-bcd7-819f10923446">ISdoMachine::GetUserSDO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo">ISdoMachine::GetUserSDO</a>
  
 
  

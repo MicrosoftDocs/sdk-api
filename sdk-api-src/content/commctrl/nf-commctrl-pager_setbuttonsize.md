@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the current button size for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760882(v=VS.85).aspx">PGM_SETBUTTONSIZE</a> message explicitly. 
+Sets the current button size for the pager control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-setbuttonsize">PGM_SETBUTTONSIZE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sets the current button size for the pager control. You can use this macro or se
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control. 
 
@@ -75,7 +75,7 @@ Value of type <b>int</b> that contains the new button size, in pixels.
 
 
 
-If the pager control has the <a href="https://msdn.microsoft.com/en-us/library/Bb760859(v=VS.85).aspx">PGS_HORZ</a> style, the button size determines the width of the pager buttons. If the pager control has the <a href="https://msdn.microsoft.com/en-us/library/Bb760859(v=VS.85).aspx">PGS_VERT</a> style, the button size determines the height of the pager buttons. By default, the pager control sets its button size to three-fourths of the width of the scroll bar. 
+If the pager control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/pager-control-styles">PGS_HORZ</a> style, the button size determines the width of the pager buttons. If the pager control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/pager-control-styles">PGS_VERT</a> style, the button size determines the height of the pager buttons. By default, the pager control sets its button size to three-fourths of the width of the scroll bar. 
 
 
 
@@ -85,7 +85,7 @@ If the pager control has the <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760894(v=VS.85).aspx">Pager_GetButtonSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-pager_getbuttonsize">Pager_GetButtonSize</a>
  
 
  

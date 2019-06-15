@@ -82,7 +82,7 @@ The channel depth is 4.
 
 
 
-<a href="https://msdn.microsoft.com/4267FCA0-10AF-4731-8B68-B3425FA00185">ID2D1RenderInfo::SetOutputBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1renderinfo-setoutputbuffer">ID2D1RenderInfo::SetOutputBuffer</a>
  
 
  

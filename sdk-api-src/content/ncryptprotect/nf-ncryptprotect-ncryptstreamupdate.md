@@ -59,7 +59,7 @@ The <b>NCryptStreamUpdate</b> function encrypts and decrypts blocks of data.
 
 ### -param hStream [in]
 
-Handle to the stream object created by calling <a href="https://msdn.microsoft.com/7DE74BB1-1B84-4721-BE4A-4D2661E93E00">NCryptStreamOpenToProtect</a> or <a href="https://msdn.microsoft.com/9848082E-EDDA-4DA1-9896-42EAF2ADFAB4">NCryptStreamOpenToUnprotect</a>.
+Handle to the stream object created by calling <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>.
 
 
 ### -param pbData [in]
@@ -142,11 +142,11 @@ There was insufficient memory available to process the content.
 
 
 
-You must call <a href="https://msdn.microsoft.com/7DE74BB1-1B84-4721-BE4A-4D2661E93E00">NCryptStreamOpenToProtect</a> or <a href="https://msdn.microsoft.com/9848082E-EDDA-4DA1-9896-42EAF2ADFAB4">NCryptStreamOpenToUnprotect</a> to open a stream before calling <b>NCryptStreamUpdate</b>
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> to open a stream before calling <b>NCryptStreamUpdate</b>
 
 Messages can be so large that processing them all at once by storing the entire message in memory can be difficult. It is possible, however,  to process large messages by partitioning the data to be processed into manageable blocks.
 
-To do this, use <b>NCryptStreamUpdate</b> in a loop that advances through the file block by block. As the streamed message is processed, the resulting output data is passed back to your application by using a callback function that you specify. This is shown by the following example. For more information about the callback function, see  <a href="https://msdn.microsoft.com/D07B2B63-306B-4C41-AA14-320EFEFFB939">PFNCryptStreamOutputCallback</a>.
+To do this, use <b>NCryptStreamUpdate</b> in a loop that advances through the file block by block. As the streamed message is processed, the resulting output data is passed back to your application by using a callback function that you specify. This is shown by the following example. For more information about the callback function, see  <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nc-ncryptprotect-pfncryptstreamoutputcallback">PFNCryptStreamOutputCallback</a>.
 
 <div class="alert"><b>Note</b>  We recommend against using too small of a block size. Small blocks require more calls and therefore more calling overhead. Further, the streaming APIs are optimized for larger blocks. You should experiment to find the best block size for the data  you must process.</div>
 <div> </div>
@@ -210,19 +210,19 @@ CleanUp:
 
 
 
-<a href="https://msdn.microsoft.com/591C7361-334E-4A65-8616-C0ED3BBC2297">CNG DPAPI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/77FADFC1-6C66-4801-B0BD-263963555C3C">NCRYPT_PROTECT_STREAM_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7DE74BB1-1B84-4721-BE4A-4D2661E93E00">NCryptStreamOpenToProtect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a>
 
 
 
-<a href="https://msdn.microsoft.com/9848082E-EDDA-4DA1-9896-42EAF2ADFAB4">NCryptStreamOpenToUnprotect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>
  
 
  

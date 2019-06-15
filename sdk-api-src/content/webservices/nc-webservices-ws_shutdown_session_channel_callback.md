@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Handles the <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5fdb7">WsShutdownSessionChannel</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsshutdownsessionchannel">WsShutdownSessionChannel</a> call
+                for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 
@@ -62,7 +62,7 @@ Handles the <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5
 ### -param *channelInstance [in]
 
 The pointer to the state specific to this channel instance,
-                    as created by the <a href="https://msdn.microsoft.com/440114f9-2258-4c33-93cd-7185ccf36f76">WS_CREATE_CHANNEL_CALLBACK</a>.
+                    as created by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
                 
 
 
@@ -94,7 +94,7 @@ Specifies where additional error information should be stored if the function fa
 </dl>
 </td>
 <td width="60%">
-This is returned if the channel is not in the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a> state.
+This is returned if the channel is not in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_OPEN</a> state.
                 
 
 </td>
@@ -109,7 +109,7 @@ This is returned if the channel is not in the <a href="https://msdn.microsoft.co
 
 
 
-See <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5fdb7">WsShutdownSessionChannel</a> for information about the contract
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsshutdownsessionchannel">WsShutdownSessionChannel</a> for information about the contract
                 of this API.
             
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sends an HTTP request to the server asynchronously. On success, methods on the <a href="https://msdn.microsoft.com/AA4B3F4C-6E28-458B-BE25-6CCE8865FC71">IXMLHTTPRequest2Callback</a> interface implemented by the app are called to process the response.
+Sends an HTTP request to the server asynchronously. On success, methods on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a> interface implemented by the app are called to process the response.
 
 
 ## -parameters
@@ -80,11 +80,11 @@ Returns <b>S_OK</b> on success.
 
 
 
-The <a href="https://msdn.microsoft.com/8723F24B-0739-44D6-8443-1A378B585F42">Open</a> method must be called before <b>Send</b> can be called successfully.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a> method must be called before <b>Send</b> can be called successfully.
 
-Because this method is asynchronous, it returns immediately before the request has started processing.  The application will be notified through the <a href="https://msdn.microsoft.com/AA4B3F4C-6E28-458B-BE25-6CCE8865FC71">IXMLHTTPRequest2Callback</a> interface as progress is made in the request processing.
+Because this method is asynchronous, it returns immediately before the request has started processing.  The application will be notified through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a> interface as progress is made in the request processing.
 
-Alternatives to using <a href="https://msdn.microsoft.com/c1d33800-d2f1-4942-92fa-e115f524c23c">ISequentialStream</a>  for a POST request include <a href="https://msdn.microsoft.com/f3ae8241-f3a6-4007-a10f-ff05960c5de8">SHCreateMemStream</a>/<a href="https://msdn.microsoft.com/9b1fd6c4-d7b0-40b9-bc9f-ea062a1079c1">SHCreateStreamOnFile</a> for desktop apps, and <a href="https://msdn.microsoft.com/F9AB8A34-8AB1-4EF1-8659-DAD5713A89BF">CreateStreamOverRandomAccessStream</a> for Windows Store apps.
+Alternatives to using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream</a>  for a POST request include <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatememstream">SHCreateMemStream</a>/<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfilea">SHCreateStreamOnFile</a> for desktop apps, and <a href="https://docs.microsoft.com/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream">CreateStreamOverRandomAccessStream</a> for Windows Store apps.
 
 
 
@@ -94,7 +94,7 @@ Alternatives to using <a href="https://msdn.microsoft.com/c1d33800-d2f1-4942-92f
 
 
 
-<a href="https://msdn.microsoft.com/BBC11C4A-AECF-4D6D-8275-3E852E309908">IXMLHTTPRequest2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
  
 
  

@@ -59,12 +59,12 @@ The <b>ITfRange::AdjustForInsert</b> method expands or contracts a range of text
 
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext</a> or <a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession</a>.
+Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 
 ### -param cchInsert [in]
 
-Character count of the inserted text. This count is used in a futurecall to <a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText</a>. If the character count is unknown, 0 can be used.
+Character count of the inserted text. This count is used in a futurecall to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-settext">ITfRange::SetText</a>. If the character count is unknown, 0 can be used.
 
 
 ### -param pfInsertOk [out]
@@ -148,13 +148,13 @@ The value in the <i>ec</i> parameter is an invalid cookie, or the caller does no
 
 
 
-This method should be used to prepare a range to initiate a new composition, before editing begins. It should be used only when the text is not inserted at the current selection. <a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">ITFInsertAtSelection:InsertTextAtSelection</a> or <a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection</a> are the correct methods to use when text is inserted at the current selection.
+This method should be used to prepare a range to initiate a new composition, before editing begins. It should be used only when the text is not inserted at the current selection. <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection</a> are the correct methods to use when text is inserted at the current selection.
 
 The context owner can use this method to preserve behavior and help maintain a consistent user experience. For example, certain characters or objects in the context can be preserved from modifications, or overtyping can be supported.
 
 This method is not necessary when modifying an existing composition. It is acceptable to call <b>ITfRange::SetText</b> directly to modify text previously entered by the caller.
 
-On exit, if <i>*pfInsertOk</i> is set to <b>FALSE</b>, a future call to <b>ITfRange::SetText</b> or <a href="https://msdn.microsoft.com/95b8622d-c934-4293-abb4-9eface451be5">ITfRange::InsertEmbedded</a> with this range is likely to fail. Otherwise, <i>*pfInsertOk</i> will be set to <b>TRUE</b>, and the range start anchor or end anchor can be repositioned at the discretion of the context owner.
+On exit, if <i>*pfInsertOk</i> is set to <b>FALSE</b>, a future call to <b>ITfRange::SetText</b> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded</a> with this range is likely to fail. Otherwise, <i>*pfInsertOk</i> will be set to <b>TRUE</b>, and the range start anchor or end anchor can be repositioned at the discretion of the context owner.
 
 
 
@@ -164,41 +164,41 @@ On exit, if <i>*pfInsertOk</i> is set to <b>FALSE</b>, a future call to <b>ITfRa
 
 
 
-<a href="https://msdn.microsoft.com/1373fe9b-6c51-4514-a7da-c1f872d9b1ce">ITFInsertAtSelection:InsertTextAtSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-inserttextatselection">ITFInsertAtSelection:InsertTextAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1415f338-731c-44c5-b798-edf823174272">ITfDocumentMgr::CreateContext
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f89b2676-9a69-492f-be8a-96e4436d594c">ITfEditSession::DoEditSession
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/13fa9955-0087-4dd9-8a1d-814ab801e956">ITfInsertAtSelection::InsertEmbeddedAtSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/95b8622d-c934-4293-abb4-9eface451be5">ITfRange::InsertEmbedded
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-insertembedded">ITfRange::InsertEmbedded
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/797d96a1-0250-4e8d-a4bd-31152fd6eca7">ITfRange::SetText
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-settext">ITfRange::SetText
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c827999a-0b74-4e5d-901e-4c2fa1d74929">Text Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
  
 
  

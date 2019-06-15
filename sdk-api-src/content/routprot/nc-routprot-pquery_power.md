@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 <i>QueryPower</i> function is reserved for future use. It is not currently called by the router manager. Routing protocols should pass <b>NULL</b> as the pointer value for this function in 
-<a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
-The <a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">PQUERY_POWER</a> type defines a pointer to this callback function. <i>QueryPower</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PQUERY_POWER</a> type defines a pointer to this callback function. <i>QueryPower</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/595e1743-04eb-4490-8548-1ce5ce00e144">SetPower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_power">SetPower</a>
  
 
  

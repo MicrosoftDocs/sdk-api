@@ -54,7 +54,7 @@ Removes the node at the specified position from the xml buffer.  If positioned
         corresponding end element, otherwise it will remove a single node.
       
 
-The use of any API with a <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> or <a href="https://msdn.microsoft.com/8f413e60-8a30-492c-8f2d-80be511fee11">WS_XML_WRITER</a> that 
+The use of any API with a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> or <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> that 
         currently depends on this position or a child of this position will fail. The 
         WS_XML_READER or WS_XML_WRITER must be repositioned 
         before using further.
@@ -62,9 +62,9 @@ The use of any API with a <a href="https://msdn.microsoft.com/7acbe407-e91b-435a
 
 It will return <b>WS_E_INVALID_OPERATION</b> if the node is positioned on an end 
         element or the root of the document.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-Calling <a href="https://msdn.microsoft.com/cc879cc0-c8ca-457e-9ff1-ae220e31cb04">WsSetReaderPosition</a> or <a href="https://msdn.microsoft.com/1d23bda1-d1da-44d4-9a9d-258bba200b29">WsSetWriterPosition</a> after calling <b>WsRemoveNode</b> will fail.
+Calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a> after calling <b>WsRemoveNode</b> will fail.
       
 
 

@@ -57,7 +57,7 @@ The
 
 <div class="alert"><b>Note</b>  The 
 <b>GetTypeByName</b> function is a Microsoft-specific extension to the Windows Sockets 1.1 specification. This function is obsolete. For the convenience of Windows Sockets 1.1 developers, this reference material is included. The functions detailed in 
-<a href="https://msdn.microsoft.com/f55219b9-1518-4b49-a0da-6a3fa025cca3">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-name-resolution-2">Protocol-Independent Name Resolution</a> provide equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
 
@@ -86,7 +86,7 @@ The <i>Svcguid.h</i> header file is not automatically included by the <i>Winsock
 If the function succeeds, the return value is zero.
 
 If the function fails, the return value is SOCKET_ERROR( – 1). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which returns the following extended error value.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error value.
 
 <table>
 <tr>
@@ -115,15 +115,15 @@ The specified service type is unknown.
 
 
 
-<a href="https://msdn.microsoft.com/74d747f0-5f5e-4f54-8b2f-7ea96d4043ee">GetNameByType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getnamebytypea">GetNameByType</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/baae2bf9-f505-4365-b60e-e3247a0218c8">Winsock Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
  
 
  

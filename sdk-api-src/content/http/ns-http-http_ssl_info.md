@@ -91,7 +91,7 @@ A pointer to a null-terminated string of octets that specifies the name of the e
 ### -field pClientCertInfo
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a> structure that specifies the client certificate.
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a> structure that specifies the client certificate.
 
 
 ### -field SslClientCertNegotiated
@@ -105,7 +105,7 @@ If non-zero, indicates that the client certificate is already present locally.
 
 An 
 <b>HTTP_SSL_INFO</b> structure can be pointed to by the <b>pSslInfo</b> member of an 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure.
 
 
 
@@ -115,15 +115,15 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/e38f7a05-f966-4853-be3b-5cdbf224719e">HTTP Server API Version 1.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfe6a9a9-6117-4403-a83f-e9448615500b">HTTP_SSL_CLIENT_CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_ssl_client_cert_info">HTTP_SSL_CLIENT_CERT_INFO</a>
  
 
  

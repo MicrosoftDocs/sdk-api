@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an object that implements <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>.
+Creates an object that implements <a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates an object that implements <a href="https://msdn.microsoft.com/en-us/libr
 
 ### -param ppChannel
 
-Address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a> interface of the newly created secure channel object.
+Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a> interface of the newly created secure channel object.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743705(v=VS.85).aspx">IWMSecureChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmsecurechannel">IWMSecureChannel</a>
  
 
  

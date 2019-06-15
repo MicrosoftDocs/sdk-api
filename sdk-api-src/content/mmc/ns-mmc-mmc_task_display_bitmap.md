@@ -54,7 +54,7 @@ The
 
 The 
 <b>MMC_TASK_DISPLAY_BITMAP</b> structure is used for the <b>uBitmap</b> member of the 
-<a href="https://msdn.microsoft.com/ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad">MMC_TASK_DISPLAY_OBJECT</a> structure to specify all the data required to display a GIF or bitmap image for a task or background on a taskpad.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a> structure to specify all the data required to display a GIF or bitmap image for a task or background on a taskpad.
 
 
 ## -struct-fields
@@ -94,7 +94,7 @@ If <b>szMouseOffBitmap</b> points to a <b>NULL</b> string, <b>szMouseOverBitmap<
 
 
 
-Allocate the <b>szMouseOverBitmap</b> and <b>szMouseOffBitmap</b> strings used in the structure with the COM API function <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> (or the equivalent) and MMC will release them.
+Allocate the <b>szMouseOverBitmap</b> and <b>szMouseOffBitmap</b> strings used in the structure with the COM API function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release them.
 
 If both <b>szMouseOverBitmap</b> and <b>szMouseOffBitmap</b> point to a <b>NULL</b> string, the task does not appear on the taskpad. If one of these strings is <b>NULL</b>, the other string is used for both.
 
@@ -106,23 +106,23 @@ If both <b>szMouseOverBitmap</b> and <b>szMouseOffBitmap</b> point to a <b>NULL<
 
 
 
-<a href="https://msdn.microsoft.com/cb568307-7172-4941-a888-ff059f5256b6">IEnumTASK::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/e34fc088-61d7-46a8-b493-8255a733d521">IExtendTaskPad::GetBackground</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getbackground">IExtendTaskPad::GetBackground</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff43f0ea-2f33-4ed9-b5a5-484db2ffe3ad">MMC_TASK_DISPLAY_OBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_object">MMC_TASK_DISPLAY_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/a46f1b86-883e-4eca-a3f8-d18c6a4d64e5">MMC_TASK_DISPLAY_SYMBOL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
 
 
 
-<a href="https://msdn.microsoft.com/55d90530-5cd0-42ae-8a5d-417f7f49edac">MMC_TASK_DISPLAY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-_mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
  
 
  

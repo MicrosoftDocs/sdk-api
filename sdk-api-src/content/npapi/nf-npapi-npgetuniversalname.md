@@ -87,7 +87,7 @@ Retrieves the UNC form of the name, for example: "file:\\server\share"
 
 
 If this value is set, the data returned in <i>lpBuffer</i> is stored as a 
-<a href="https://msdn.microsoft.com/505bcd3e-4043-4856-9a6f-a6f074dc6076">UNIVERSAL_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Retrieves the remote form of the name, for example: "\\server\share"
 
 
 If this value is set, the data returned in <i>lpBuffer</i> is stored as a 
-<a href="https://msdn.microsoft.com/5dec0c40-757e-4c3b-8442-23f6d0f0e670">REMOTE_NAME_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_remote_name_infoa">REMOTE_NAME_INFO</a> structure.
 
 </td>
 </tr>

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> from the specified <a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> from the specified <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>.
 
 
 ## -parameters
@@ -61,16 +61,16 @@ Creates an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C
 
 ### -param bufferHandle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a></b>
 
-The buffer to use for the new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>. You must use the <a href="https://msdn.microsoft.com/83ebde70-458c-4617-a7fd-a281915f6206">WindowsPreallocateStringBuffer</a> function to create the <a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a>.
+The buffer to use for the new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function to create the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>.
 
 
 ### -param string [out]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
-The newly created <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> that contains the contents of <i>bufferHandle</i>.
+The newly created <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> that contains the contents of <i>bufferHandle</i>.
 
 
 ## -returns
@@ -93,7 +93,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> was created successfully.
+The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">H
 </dl>
 </td>
 <td width="60%">
-<i>bufferHandle</i> was not created by calling the <a href="https://msdn.microsoft.com/83ebde70-458c-4617-a7fd-a281915f6206">WindowsPreallocateStringBuffer</a> function, or the caller has overwritten the   terminating NUL character in  <i>bufferHandle</i>.
+<i>bufferHandle</i> was not created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function, or the caller has overwritten the   terminating NUL character in  <i>bufferHandle</i>.
 
 </td>
 </tr>
@@ -129,11 +129,11 @@ The  <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">H
 
 
 
-Use the <b>WindowsPromoteStringBuffer</b> function to create a new <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> from an <a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a>. Calling the <b>WindowsPromoteStringBuffer</b> function converts the mutable    buffer to an immutable <b>HSTRING</b>. Use the <a href="https://msdn.microsoft.com/83ebde70-458c-4617-a7fd-a281915f6206">WindowsPreallocateStringBuffer</a> function to create the <b>HSTRING_BUFFER</b>.
+Use the <b>WindowsPromoteStringBuffer</b> function to create a new <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> from an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>. Calling the <b>WindowsPromoteStringBuffer</b> function converts the mutable    buffer to an immutable <b>HSTRING</b>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a> function to create the <b>HSTRING_BUFFER</b>.
 
-If the <b>WindowsPromoteStringBuffer</b> call fails, you can call the <a href="https://msdn.microsoft.com/c543b2ff-56be-48b5-8b44-3d7549c75df2">WindowsDeleteStringBuffer</a> function to discard the mutable buffer.
+If the <b>WindowsPromoteStringBuffer</b> call fails, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a> function to discard the mutable buffer.
 
-Each call to the <b>WindowsPromoteStringBuffer</b> function must be matched with a corresponding call to <a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>.
+Each call to the <b>WindowsPromoteStringBuffer</b> function must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
 
 
 #### Examples
@@ -184,23 +184,23 @@ int main()
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/D173CE70-ABF3-4703-A229-0753F2AF6F70">HSTRING_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/79B9E5CF-396C-45FB-931B-7B50281A0446">WindowsDeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
 
 
 
-<a href="https://msdn.microsoft.com/c543b2ff-56be-48b5-8b44-3d7549c75df2">WindowsDeleteStringBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/83ebde70-458c-4617-a7fd-a281915f6206">WindowsPreallocateStringBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspreallocatestringbuffer">WindowsPreallocateStringBuffer</a>
  
 
  

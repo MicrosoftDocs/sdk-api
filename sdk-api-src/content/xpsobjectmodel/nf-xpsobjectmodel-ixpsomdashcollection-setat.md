@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Replaces an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure at a specified location in the collection.
+Replaces an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure at a specified location in the collection.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Replaces an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).
 
 ### -param index [in]
 
-The zero-based index in the collection where an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure is to be replaced.
+The zero-based index in the collection where an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure is to be replaced.
 
 
 ### -param dash [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure that will replace the current contents at the location specified by <i>index</i>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure that will replace the current contents at the location specified by <i>index</i>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-At the location specified by <i>index</i>, this method frees the existing <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure then replaces it with the structure that is passed in <i>dash</i>.
+At the location specified by <i>index</i>, this method frees the existing <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure then replaces it with the structure that is passed in <i>dash</i>.
 
 The figure that follows illustrates how the collection is changed by the <b>SetAt</b> method.
 
@@ -93,7 +93,7 @@ The figure that follows illustrates how the collection is changed by the <b>SetA
 
 
 
-<a href="https://msdn.microsoft.com/02a152a1-e117-42fb-8428-a2b28e6540a9">IXpsOMDashCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a>
 
 
 
@@ -101,7 +101,7 @@ The figure that follows illustrates how the collection is changed by the <b>SetA
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the type of <a href="https://msdn.microsoft.com/b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7">device context</a>.
+Gets the type of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-intro">device context</a>.
 
 
 ## -parameters
@@ -64,9 +64,9 @@ Gets the type of <a href="https://msdn.microsoft.com/b9b45d18-f7b7-40f9-ae4e-576
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/1c2e6ed9-63d5-4ea0-bd98-7604c0ee7021">D3D11_DEVICE_CONTEXT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_device_context_type">D3D11_DEVICE_CONTEXT_TYPE</a></b>
 
-A member of <a href="https://msdn.microsoft.com/1c2e6ed9-63d5-4ea0-bd98-7604c0ee7021">D3D11_DEVICE_CONTEXT_TYPE</a> that indicates the type of device context.
+A member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_device_context_type">D3D11_DEVICE_CONTEXT_TYPE</a> that indicates the type of device context.
 
 
 
@@ -76,7 +76,7 @@ A member of <a href="https://msdn.microsoft.com/1c2e6ed9-63d5-4ea0-bd98-7604c0ee
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
 
  

@@ -119,11 +119,11 @@ Buffer underrun can be an issue if the data stream does not enter the buffer fas
 
 
 
-<a href="https://msdn.microsoft.com/27f2d248-1c83-4784-82f9-75ce0a038b87">IDiscFormat2TrackAtOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/8223c46b-b754-47a1-aab9-0ebb949e79f8">IDiscFormat2TrackAtOnce::get_BufferUnderrunFreeDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_bufferunderrunfreedisabled">IDiscFormat2TrackAtOnce::get_BufferUnderrunFreeDisabled</a>
  
 
  

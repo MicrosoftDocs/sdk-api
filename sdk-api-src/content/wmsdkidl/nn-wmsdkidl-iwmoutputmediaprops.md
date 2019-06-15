@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 The <b>IWMOutputMediaProps</b> interface is used to retrieve the properties of an output stream.
 
-An <b>IWMOutputMediaProps</b> object is created by a call to <a href="https://msdn.microsoft.com/en-us/library/Dd743592(v=VS.85).aspx">IWMReader::GetOutputFormat</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd743595(v=VS.85).aspx">IWMReader::GetOutputProps</a>.
+An <b>IWMOutputMediaProps</b> object is created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat">IWMReader::GetOutputFormat</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops">IWMReader::GetOutputProps</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMOutputMediaProps</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>. <b>IWMOutputMediaProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMOutputMediaProps</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMOutputMediaProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMOutputMediaProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757253(v=VS.85).aspx">GetConnectionName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getconnectionname">GetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the connection to be used for output.
@@ -83,7 +83,7 @@ Retrieves the name of the connection to be used for output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd757254(v=VS.85).aspx">GetStreamGroupName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getstreamgroupname">GetStreamGroupName</a>
 </td>
 <td align="left" width="63%">
 Returns an empty string.
@@ -92,7 +92,7 @@ Returns an empty string.
 </tr>
 </table> 
 
-For information on which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://msdn.microsoft.com/96fa7c66-59a0-4eb3-ace4-a827b139f978">Output Media Properties Object</a>.
+For information on which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/output-media-properties-object">Output Media Properties Object</a>.
 
 
 
@@ -101,23 +101,23 @@ For information on which interfaces can be obtained by using the QueryInterface 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757228(v=VS.85).aspx">IWMMediaProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743605(v=VS.85).aspx">IWMReader::SetOutputProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops">IWMReader::SetOutputProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743585(v=VS.85).aspx">IWMReaderTypeNegotiation::TryOutputProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadertypenegotiation-tryoutputprops">IWMReaderTypeNegotiation::TryOutputProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61a0739-09f2-497f-a2cd-d3f2472738e3">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
  
 
  

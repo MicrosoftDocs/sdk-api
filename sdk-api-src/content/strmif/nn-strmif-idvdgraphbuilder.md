@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 
-The <code>IDvdGraphBuilder</code> interface builds a filter graph for DVD-Video playback. The <a href="https://msdn.microsoft.com/c74cf1d8-2560-4302-ba68-8a1693f7ca6f">DVD Graph Builder</a> object implements this interface.
+The <code>IDvdGraphBuilder</code> interface builds a filter graph for DVD-Video playback. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-graph-builder">DVD Graph Builder</a> object implements this interface.
 
-The <a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">RenderDvdVideoVolume</a> method builds a DVD playback graph from the available software and hardware on the system. For information on how to build the DVD filter graph and obtain the pointers to all the necessary interfaces, see <a href="https://msdn.microsoft.com/1d2f8284-2deb-4207-b067-24a54d6b286c">Building the DVD Filter Graph</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">RenderDvdVideoVolume</a> method builds a DVD playback graph from the available software and hardware on the system. For information on how to build the DVD filter graph and obtain the pointers to all the necessary interfaces, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/building-the-dvd-filter-graph">Building the DVD Filter Graph</a>.
 
 <div class="alert"><b>Note</b>  A DVD filter graph requires either a hardware or software MPEG-2 decoder.</div>
 <div> </div>
@@ -64,7 +64,7 @@ Generally, you should not add, remove, connect, disconnect, or access individual
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdGraphBuilder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvdGraphBuilder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdGraphBuilder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdGraphBuilder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -79,7 +79,7 @@ The <b>IDvdGraphBuilder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e16cb767-87a9-49f6-a3a7-88166f2abe73">GetDvdInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-getdvdinterface">GetDvdInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves interfaces from the DVD-Video playback graph to make DVD-Video playback development easier.
@@ -88,16 +88,16 @@ Retrieves interfaces from the DVD-Video playback graph to make DVD-Video playbac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f12140b-d10d-47d9-8bac-33fab084bff4">GetFiltergraph</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-getfiltergraph">GetFiltergraph</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/54ed8ac8-4821-4c0c-9fb9-789c70dbca37">IGraphBuilder</a> interface for the filter graph used by the DVD-Video graph builder object.
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface for the filter graph used by the DVD-Video graph builder object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/731d2f4b-2a54-451a-8d98-b5fdf47c1dc8">RenderDvdVideoVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">RenderDvdVideoVolume</a>
 </td>
 <td align="left" width="63%">
 Completes building a filter graph according to user specifications for playing a DVD-Video volume.
@@ -112,7 +112,7 @@ Completes building a filter graph according to user specifications for playing a
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
  
 
  

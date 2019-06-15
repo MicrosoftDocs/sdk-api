@@ -99,12 +99,12 @@ Reserved for future use.
 
 ### -field Offset
 
-The offset in this buffer of where the Image file begins. This should be aligned to <b>ImagePayloadAlignment</b> from <a href="https://msdn.microsoft.com/7BDACD50-0FD1-4F00-BAE5-884D8C1485BC">STORAGE_HW_FIRMWARE_INFO</a>.
+The offset in this buffer of where the Image file begins. This should be aligned to <b>ImagePayloadAlignment</b> from <a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field BufferSize
 
-The buffer size of the ImageBuffer. This should be a multiple of <b>ImagePayloadAlignment</b> from <a href="https://msdn.microsoft.com/7BDACD50-0FD1-4F00-BAE5-884D8C1485BC">STORAGE_HW_FIRMWARE_INFO</a>.
+The buffer size of the ImageBuffer. This should be a multiple of <b>ImagePayloadAlignment</b> from <a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field ImageBuffer
@@ -117,31 +117,31 @@ The firmware image file.
 
 
 
-<a href="https://msdn.microsoft.com/000BEB58-D91E-4859-AC31-A4C72B84A982">IOCTL_STORAGE_FIRMWARE_ACTIVATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_activate">IOCTL_STORAGE_FIRMWARE_ACTIVATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/77E50787-1E71-4D90-A1D3-E6665CE0EFDC">IOCTL_STORAGE_FIRMWARE_DOWNLOAD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_download">IOCTL_STORAGE_FIRMWARE_DOWNLOAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/DBF40C42-2282-4F0E-B83A-D3154D7EF332">IOCTL_STORAGE_FIRMWARE_GET_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_get_info">IOCTL_STORAGE_FIRMWARE_GET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2DAAC1FE-2503-4820-9718-9A653B0A05CA">STORAGE_HW_FIRMWARE_ACTIVATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_hw_firmware_activate">STORAGE_HW_FIRMWARE_ACTIVATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7BDACD50-0FD1-4F00-BAE5-884D8C1485BC">STORAGE_HW_FIRMWARE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info">STORAGE_HW_FIRMWARE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/1A2D30F3-F2DE-40CB-BFFC-8BAD19793AE1">STORAGE_HW_FIRMWARE_INFO_QUERY</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info-query">STORAGE_HW_FIRMWARE_INFO_QUERY</a>
 
 
 
-<a href="https://msdn.microsoft.com/37475351-DE0F-4B80-B26B-1482FBCC16CD">STORAGE_HW_FIRMWARE_SLOT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-slot-info">STORAGE_HW_FIRMWARE_SLOT_INFO</a>
  
 
  

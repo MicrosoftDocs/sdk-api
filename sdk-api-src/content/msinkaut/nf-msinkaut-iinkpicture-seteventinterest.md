@@ -63,7 +63,7 @@ Modifies a value that indicates whether an object or control has interest in a s
 
 ### -param EventId [in]
 
-The event to be listened for. Possible values for <i>eventID</i> appear in the <a href="https://msdn.microsoft.com/db575790-345b-48da-b509-927eb2f47987">InkCollectorEventInterest</a> enumeration type.
+The event to be listened for. Possible values for <i>eventID</i> appear in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest</a> enumeration type.
 
 
 ### -param Listen [in]
@@ -136,9 +136,9 @@ An exception occurred during processing.
 
 
 
-All ink collector  events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="https://msdn.microsoft.com/2829b65a-6120-402e-91e3-5587d1f456f9">Stroke</a>, <a href="https://msdn.microsoft.com/e921e175-a2cf-45e6-bb81-dc82e384d3b1">CursorInRange</a>, and <a href="https://msdn.microsoft.com/0c71a4ad-3c09-4134-b0e7-82f29e8913ed">CursorOutOfRange</a>.
+All ink collector  events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-stroke">Stroke</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursoroutofrange">CursorOutOfRange</a>.
 
-Use the <a href="https://msdn.microsoft.com/7d120198-c016-4452-b8a8-22c4ad87d526">NewPackets</a>, <a href="https://msdn.microsoft.com/30bc423d-0642-4515-9e51-a8b8b36aecad">NewInAirPackets</a> and <a href="https://msdn.microsoft.com/6d524400-1341-45da-86b2-098e34ed5a1c">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
+Use the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newinairpackets">NewInAirPackets</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursordown">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
 
 
 
@@ -148,15 +148,15 @@ Use the <a href="https://msdn.microsoft.com/7d120198-c016-4452-b8a8-22c4ad87d526
 
 
 
-<a href="https://msdn.microsoft.com/6d524400-1341-45da-86b2-098e34ed5a1c">CursorDown Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursordown">CursorDown Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/e921e175-a2cf-45e6-bb81-dc82e384d3b1">CursorInRange Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-cursorinrange">CursorInRange Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/e025a118-acf1-4b52-ace9-85a3a5a558fa">GetEventInterest Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-geteventinterest">GetEventInterest Method</a>
 
 
 
@@ -164,19 +164,19 @@ Use the <a href="https://msdn.microsoft.com/7d120198-c016-4452-b8a8-22c4ad87d526
 
 
 
-<a href="https://msdn.microsoft.com/db575790-345b-48da-b509-927eb2f47987">InkCollectorEventInterest Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9fa6807-6e2a-44ec-9b8f-a560185e4367">InkPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d120198-c016-4452-b8a8-22c4ad87d526">NewPackets Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-newpackets">NewPackets Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/2829b65a-6120-402e-91e3-5587d1f456f9">Stroke Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-stroke">Stroke Event</a>
  
 
  

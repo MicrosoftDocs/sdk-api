@@ -81,7 +81,7 @@ S_OK indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/336e7e68-0903-42f7-9810-53ccceed32de">IDsObjectPickerCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nn-objsel-idsobjectpickercredentials">IDsObjectPickerCredentials</a>
  
 
  

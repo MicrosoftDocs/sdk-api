@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-If this property changes, the provider must notify clients by calling <a href="https://msdn.microsoft.com/ec9da198-eb1d-4883-9b5c-539c92bd530b">UiaRaiseAutomationPropertyChangedEvent</a> and specifying a property identifier of <a href="https://msdn.microsoft.com/en-us/library/Ee671200(v=VS.85).aspx">UIA_DragIsGrabbedPropertyId</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671200(v=VS.85).aspx">UIA_DragDropEffectPropertyId</a>.
+If this property changes, the provider must notify clients by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraiseautomationpropertychangedevent">UiaRaiseAutomationPropertyChangedEvent</a> and specifying a property identifier of <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-control-pattern-propids">UIA_DragIsGrabbedPropertyId</a> or <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-control-pattern-propids">UIA_DragDropEffectPropertyId</a>.
 
 
 
@@ -72,7 +72,7 @@ If this property changes, the provider must notify clients by calling <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/FAC4A56D-17BC-42E6-A03E-EE45D717DE37">IDragProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider">IDragProvider</a>
  
 
  

@@ -52,18 +52,18 @@ ms.custom: 19H1
 
 The 
 <b>IWbemHiPerfEnum</b> interface is used in refresher operations to provide rapid access to enumerations of instance objects. WMI provides an implementation of this interface, which it passes to providers when 
-<a href="https://msdn.microsoft.com/086a1717-b6e8-45c1-9397-ec894ee900a0">IWbemHiPerfProvider::CreateRefreshableEnum</a> is called, and it returns to clients when 
-<a href="https://msdn.microsoft.com/5b013267-78bc-4372-b55a-58e330acf927">IWbemConfigureRefresher::AddEnum</a> is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum">IWbemHiPerfProvider::CreateRefreshableEnum</a> is called, and it returns to clients when 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemconfigurerefresher-addenum">IWbemConfigureRefresher::AddEnum</a> is called.
 
 Client applications can call only the 
-<a href="https://msdn.microsoft.com/27dd9c2c-236e-41be-bfaa-90ebf8dfb1bc">GetObjects</a> method of this interface. Attempts by client applications to call the other 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects">GetObjects</a> method of this interface. Attempts by client applications to call the other 
 <b>IWbemHiPerfEnum</b> methods return WBEM_E_ACCESS_DENIED. Providers call these other methods to update the enumerators whenever a client calls 
-<a href="https://msdn.microsoft.com/6de85040-c938-41dc-8240-0e21e89c7716">Refresh</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemrefresher-refresh">Refresh</a>.
 <div class="alert"><b>Note</b>  This interface is not implemented by the user or by a provider under any circumstances. The implementation provided by WMI is the only one supported.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemHiPerfEnum</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemHiPerfEnum</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemHiPerfEnum</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemHiPerfEnum</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IWbemHiPerfEnum</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a6cd0f9-c6ed-4c9c-aa0f-7af2ac0fe73a">AddObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-addobjects">AddObjects</a>
 </td>
 <td align="left" width="63%">
 Adds objects with assigned identifiers.
@@ -87,7 +87,7 @@ Adds objects with assigned identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27dd9c2c-236e-41be-bfaa-90ebf8dfb1bc">GetObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-getobjects">GetObjects</a>
 </td>
 <td align="left" width="63%">
 Retrieves objects from the enumerator.
@@ -96,7 +96,7 @@ Retrieves objects from the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51692902-0b92-4a25-b42b-3802be19eba5">RemoveAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all objects from the enumerator.
@@ -105,7 +105,7 @@ Removes all objects from the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a4f25be2-8450-4e4c-ba6a-8d78c1fefca1">RemoveObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemhiperfenum-removeobjects">RemoveObjects</a>
 </td>
 <td align="left" width="63%">
 Remove objects with the specified identifiers.
@@ -120,19 +120,19 @@ Remove objects with the specified identifiers.
 
 
 
-<a href="https://msdn.microsoft.com/ee0a2ead-f53a-4651-a287-04a62eba3f84">Accessing Performance Data in C++</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-performance-data-in-c--">Accessing Performance Data in C++</a>
 
 
 
-<a href="https://msdn.microsoft.com/2158385f-d0dc-4102-84db-ce02d2b0ee53">Accessing WMI Preinstalled Performance Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/accessing-wmi-preinstalled-performance-classes">Accessing WMI Preinstalled Performance Classes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fa8f1b5-fd19-4d45-9b53-bc7089eecdb1">COM API for WMI</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd1d652a-f0ce-401c-9a5e-074e6bb4d9ed">IWbemRefresher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemrefresher">IWbemRefresher</a>
  
 
  

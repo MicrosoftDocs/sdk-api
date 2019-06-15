@@ -76,11 +76,11 @@ Number of channels being processed.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Ee418586(v=VS.85).aspx">XAudio2 IXAudio2Voice::GetEffectParameters</a> method.
+This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">XAudio2 IXAudio2Voice::GetEffectParameters</a> method.
 
 
 
-<i>pPeakLevels</i> and <i>pRMSLevels</i> are not returned by <a href="https://msdn.microsoft.com/en-us/library/Ee418586(v=VS.85).aspx">IXAudio2Voice::GetEffectParameters</a>, the arrays are only filled out if they are present. If <i>pPeakLevels</i> and <i>pRMSLevels</i> are used they must be allocated by the application. The application is responsible for freeing the arrays when they are no longer needed.
+<i>pPeakLevels</i> and <i>pRMSLevels</i> are not returned by <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">IXAudio2Voice::GetEffectParameters</a>, the arrays are only filled out if they are present. If <i>pPeakLevels</i> and <i>pRMSLevels</i> are used they must be allocated by the application. The application is responsible for freeing the arrays when they are no longer needed.
 
 
 
@@ -97,23 +97,23 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/4c33bd83-2654-cd6f-ea6c-bbc0d5872638">How to: Create an Effect Chain</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418595(v=VS.85).aspx">IXAudio2Voice::SetEffectParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">IXAudio2Voice::SetEffectParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fe88a0f-0234-462f-b575-e592f2c8401e">XAPO Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">XAudio Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419214(v=VS.85).aspx">XAudio2CreateVolumeMeter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/nf-xaudio2fx-xaudio2createvolumemeter">XAudio2CreateVolumeMeter</a>
  
 
  

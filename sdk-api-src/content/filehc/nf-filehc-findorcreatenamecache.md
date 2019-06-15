@@ -76,19 +76,19 @@ A pointer to a function that is provided by clients to compute a hash value on k
 
 ### -param pfnKeyDestroy [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/daf85def-20ed-4162-b133-f730c50bf98a">CACHE_DESTROY_CALLBACK</a> function. This parameter can be <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nc-filehc-cache_destroy_callback">CACHE_DESTROY_CALLBACK</a> function. This parameter can be <b>NULL</b>.
 
 
 ### -param pfnDataDestroy [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/daf85def-20ed-4162-b133-f730c50bf98a">CACHE_DESTROY_CALLBACK</a> function. This parameter can be <b>NULL</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nc-filehc-cache_destroy_callback">CACHE_DESTROY_CALLBACK</a> function. This parameter can be <b>NULL</b>.
 
 
 ## -returns
 
 
 
-Returns a <a href="https://msdn.microsoft.com/2d2a6066-b59a-418c-a726-0a1a39243988">NAME_CACHE_CONTEXT</a> structure that represents the name cache. 
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a> structure that represents the name cache. 
 
 
 
@@ -99,7 +99,7 @@ Returns a <a href="https://msdn.microsoft.com/2d2a6066-b59a-418c-a726-0a1a392439
 
 Name caches are reference counted. If this function is called twice with the same name, a reference is added to an existing name cache.
 
-The <a href="https://msdn.microsoft.com/2d2a6066-b59a-418c-a726-0a1a39243988">NAME_CACHE_CONTEXT</a> structure does not contain any fields that are useful to a client, but it must be passed back into all of the name cache functions.
+The <a href="https://docs.microsoft.com/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a> structure does not contain any fields that are useful to a client, but it must be passed back into all of the name cache functions.
 
 
 
@@ -109,11 +109,11 @@ The <a href="https://msdn.microsoft.com/2d2a6066-b59a-418c-a726-0a1a39243988">NA
 
 
 
-<a href="https://msdn.microsoft.com/daf85def-20ed-4162-b133-f730c50bf98a">CACHE_DESTROY_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filehc/nc-filehc-cache_destroy_callback">CACHE_DESTROY_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d2a6066-b59a-418c-a726-0a1a39243988">NAME_CACHE_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a>
  
 
  

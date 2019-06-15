@@ -54,7 +54,7 @@ The <b>ITfCandidateListUIElement</b> interface is implemented by a text service 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateListUIElement</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfCandidateListUIElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateListUIElement</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateListUIElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfCandidateListUIElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9009203a-71d1-49b2-823d-d6f04bf3743b">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the count of the candidate strings.
@@ -78,7 +78,7 @@ Returns the count of the candidate strings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/551c73ff-8fbd-47e5-a6e8-90d58141c7c0">GetCurrentPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getcurrentpage">GetCurrentPage</a>
 </td>
 <td align="left" width="63%">
 Returns the current page.
@@ -87,7 +87,7 @@ Returns the current page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/def8e85d-8180-4ad4-9d70-07adef0ce5fb">GetDocumentMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getdocumentmgr">GetDocumentMgr</a>
 </td>
 <td align="left" width="63%">
 Returns the target document manager of this UI.
@@ -105,7 +105,7 @@ Returns the page index of the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac7530cd-eac8-4b2b-89e1-e05c14a81c7d">GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Returns the current selection of the candidate list.
@@ -114,7 +114,7 @@ Returns the current selection of the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85cf60e3-f068-499f-b726-9ccea3cd8503">GetString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Returns the string of the index.
@@ -123,7 +123,7 @@ Returns the string of the index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/618bf940-3145-4da5-a253-620b17b045c8">GetUpdatedFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-getupdatedflags">GetUpdatedFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the flag that tells which part of this element was updated.
@@ -132,7 +132,7 @@ Returns the flag that tells which part of this element was updated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e7a5185-2e4b-4f8e-b7c0-d9462d61b113">SetPageIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcandidatelistuielement-setpageindex">SetPageIndex</a>
 </td>
 <td align="left" width="63%">
 Set the page index.

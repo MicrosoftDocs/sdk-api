@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolShadowConnection::Start</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c">IWRdsProtocolShadowConnection::Start</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolShadowConnection::Start</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolshadowconnection-start">IWRdsProtocolShadowConnection::Start</a>.]
 
 Notifies the protocol that shadowing has started.
 
@@ -81,14 +81,14 @@ The virtual modifier that specifies the modifier key to press to stop shadowing.
 
 ### -param pShadowCallback [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/ce224b9f-161c-4133-97d9-05c339eefb77">IWTSProtocolShadowCallback</a> interface that the protocol can use to call back into the Remote Desktop Services service.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolshadowcallback">IWTSProtocolShadowCallback</a> interface that the protocol can use to call back into the Remote Desktop Services service.
 
 
 ## -returns
 
 
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>. 
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>. 
 
 
 
@@ -107,7 +107,7 @@ The Remote Desktop Services service also changes the session state on the shadow
 
 
 
-<a href="https://msdn.microsoft.com/83285a6a-903f-4c23-8f62-b04bbeaa52f9">IWTSProtocolShadowConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolshadowconnection">IWTSProtocolShadowConnection</a>
  
 
  

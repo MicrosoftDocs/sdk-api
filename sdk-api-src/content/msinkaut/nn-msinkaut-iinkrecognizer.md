@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-Represents the ability to process ink, or handwriting, and translate the stroke into text or gesture. The recognizer creates an <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext</a> object, which is used to perform the actual handwriting recognition.
+Represents the ability to process ink, or handwriting, and translate the stroke into text or gesture. The recognizer creates an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object, which is used to perform the actual handwriting recognition.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInkRecognizer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,10 +74,10 @@ The <b>IInkRecognizer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6aeec3f-8d57-4667-b171-1d8cad95f45c">CreateRecognizerContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-createrecognizercontext">CreateRecognizerContext</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext</a> for the <b>IInkRecognizer</b>.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> for the <b>IInkRecognizer</b>.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ Creates a new <a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c8662817-0a33-4828-8de7-c4ce259738a7">Capabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities">Capabilities</a>
 
 
 </td>
@@ -103,7 +103,7 @@ Gets the capabilities of the <b>IInkRecognizer</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/96419ffa-6af1-4e45-a831-f11564501975">Languages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_languages">Languages</a>
 
 
 </td>
@@ -115,7 +115,7 @@ Gets an array of language identifiers for the languages that the <b>IInkRecogniz
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/701951fd-ffb9-40fd-bb2c-7cdeb330f9b7">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name">Name</a>
 
 
 </td>
@@ -127,7 +127,7 @@ Gets the name of the <b>IInkRecognizer</b> object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3486f667-a050-4063-99bf-09865d6edbda">PreferredPacketDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_preferredpacketdescription">PreferredPacketDescription</a>
 
 
 </td>
@@ -139,7 +139,7 @@ Gets an array of globally unique identifiers (GUIDs) that represents the preferr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/11153c7f-5284-483b-b1d5-01e670d924b4">SupportedProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_supportedproperties">SupportedProperties</a>
 
 
 </td>
@@ -151,7 +151,7 @@ Gets an array of globally unique identifiers (GUIDs) that describe the propertie
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6b302453-ec9e-474b-b9ee-5776d464f4f8">Vendor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_vendor">Vendor</a>
 
 
 </td>
@@ -171,7 +171,7 @@ A recognizer has specific attributes and properties that allow it to perform rec
 
 A recognizer also has built-in functionality that automatically manages many aspects of handwriting. For instance, it determines the metrics for the lines on which strokes are drawn. You can return the line number of a stroke, but you never need to specify how those line metrics are determined because of the built-in functionality of the recognizer.
 
-For more information about recognition, see <a href="https://msdn.microsoft.com/614971a8-2b56-40d4-abb6-aba5ded01883">About Handwriting Recognition</a>.
+For more information about recognition, see <a href="https://docs.microsoft.com/windows/desktop/tablet/about-handwriting-recognition">About Handwriting Recognition</a>.
 
 If you define a class that implements this interface, the new class will not interact correctly with the Tablet PC application programming interfaces (APIs).
 
@@ -183,11 +183,11 @@ If you define a class that implements this interface, the new class will not int
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/b916e53f-9acd-40dc-961b-ebbecb15bd21">InkRecognizers Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>
  
 
  

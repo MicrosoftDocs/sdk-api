@@ -73,9 +73,9 @@ The vertical (y) dimension. If this value is 0, the y dimension is set to a scal
 
 ### -param hints [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-interpolationmode">InterpolationMode</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/ms534141(v=VS.85).aspx">InterpolationMode</a> enumeration, specifying the algorithm that is used when the image is scaled.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-interpolationmode">InterpolationMode</a> enumeration, specifying the algorithm that is used when the image is scaled.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Returns <b>S_OK</b> if successful or an error value otherwise, including the fol
 </dl>
 </td>
 <td width="60%">
-The image was not previously decoded or the call to <a href="https://msdn.microsoft.com/954424d6-cb90-46c1-a850-4e1113dfe2e4">IShellImageData::Decode</a> failed. Other internal calls also can cause this error to be returned.
+The image was not previously decoded or the call to <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-decode">IShellImageData::Decode</a> failed. Other internal calls also can cause this error to be returned.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ The internal object cannot be instantiated.
 </dl>
 </td>
 <td width="60%">
-The process was stopped by the calling application through a registered instance of <a href="https://msdn.microsoft.com/98a79c41-a384-4486-af51-a33cd5f0750e">IShellImageDataAbort</a>.
+The process was stopped by the calling application through a registered instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedataabort">IShellImageDataAbort</a>.
 
 </td>
 </tr>

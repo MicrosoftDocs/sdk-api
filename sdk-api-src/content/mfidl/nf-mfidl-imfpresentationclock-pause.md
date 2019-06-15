@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's <a href="https://msdn.microsoft.com/31037b75-9fa5-48e0-a58c-a451b445147f">IMFPresentationClock::GetTime</a> returns the time at which the clock was paused.
+Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> returns the time at which the clock was paused.
 
 
 
@@ -130,7 +130,7 @@ The clock is stopped. This request is not valid when the clock is stopped.
 
 This method is valid when the clock is running. It is not valid when the clock is paused or stopped.
 
-The presentation clock initiates the state change by calling <a href="https://msdn.microsoft.com/d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f">IMFClockStateSink::OnClockPause</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockPause</b> methods. These calls are made asynchronously.
+The presentation clock initiates the state change by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause">IMFClockStateSink::OnClockPause</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockPause</b> methods. These calls are made asynchronously.
 
 
 
@@ -140,11 +140,11 @@ The presentation clock initiates the state change by calling <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5">Presentation Clock</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
  
 
  

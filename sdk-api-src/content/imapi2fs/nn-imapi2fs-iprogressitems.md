@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Use this interface to enumerate the progress items in a result image. A progress item represents a segment of the result image.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/c4ef572d-7e18-4537-847c-419441befe00">IFileSystemImageResult::get_ProgressItems</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_progressitems">IFileSystemImageResult::get_ProgressItems</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItems</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IProgressItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressItems</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProgressItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProgressItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24528fad-b88c-429a-b5c9-e232e62d3aeb">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of progress items from the collection.
@@ -80,7 +80,7 @@ Retrieves the list of progress items from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/370386fe-17b0-4cf3-9c28-880a85456e19">get_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of progress items in the collection.
@@ -89,7 +89,7 @@ Retrieves the number of progress items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/746b05b7-ddba-458c-bc9b-4913da5fa8b5">get_EnumProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_enumprogressitems">get_EnumProgressItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of progress items from the collection.
@@ -98,7 +98,7 @@ Retrieves the list of progress items from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74d8e74d-0af6-457a-a16b-f959757b5a86">get_Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified progress item from the collection.
@@ -107,7 +107,7 @@ Retrieves the specified progress item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b37cf63-24be-42ff-a439-157703db9604">ProgressItemFromBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromblock">ProgressItemFromBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves a progress item based on the specified block number.
@@ -116,7 +116,7 @@ Retrieves a progress item based on the specified block number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c27e9f30-e3f1-4436-b33a-fa3130baf374">ProgressItemFromDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromdescription">ProgressItemFromDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves a progress item based on the specified file name.
@@ -140,11 +140,11 @@ This is a <b>ProgressItems</b> object in script.
 
 
 
-<a href="https://msdn.microsoft.com/c4238fbe-762a-492f-9eb5-d927e64436e1">IEnumProgressItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/30ec514c-97b8-41fc-b814-11f50cacaa25">IFileSystemImageResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
  
 
  

@@ -62,7 +62,7 @@ The <b>DisplayConfigGetDeviceInfo</b> function retrieves display configuration i
 
 ### -param requestPacket [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type. 
 
 
 ## -returns
@@ -105,7 +105,7 @@ The combination of parameters and flags specified are invalid.
 </dl>
 </td>
 <td width="60%">
-The system is not running a graphics driver that was written according to the <a href="https://msdn.microsoft.com/d9dc0d48-aea4-4614-a23b-e2449800469f">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
+The system is not running a graphics driver that was written according to the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
 
 </td>
 </tr>
@@ -164,19 +164,19 @@ The caller can call <b>DisplayConfigGetDeviceInfo</b>to obtain more friendly nam
 
 
 
-<a href="https://msdn.microsoft.com/2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/85507b69-8ce0-4f39-a4d3-7d67f515b451">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0318dd3-4350-4de3-84c8-2c998254c68c">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4050b1f0-a588-427c-a0df-eefdc488fc20">DisplayConfigSetDeviceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a>
  
 
  

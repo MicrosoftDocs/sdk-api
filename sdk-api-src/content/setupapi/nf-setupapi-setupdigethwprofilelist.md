@@ -90,7 +90,7 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 
 
-Call <a href="https://msdn.microsoft.com/add700ee-48aa-47dd-8b55-6338dea05bfb">SetupDiGetHwProfileListEx</a> to retrieve the hardware profile IDs for a remote computer. 
+Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelistexa">SetupDiGetHwProfileListEx</a> to retrieve the hardware profile IDs for a remote computer. 
 
 
 
@@ -100,11 +100,11 @@ Call <a href="https://msdn.microsoft.com/add700ee-48aa-47dd-8b55-6338dea05bfb">S
 
 
 
-<a href="https://msdn.microsoft.com/8c07db95-eb59-4e01-851d-f6a8da169625">SetupDiCreateDevRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya">SetupDiCreateDevRegKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffa435c8-4a73-454e-be36-cd90ba6e6d11">SetupDiOpenDevRegKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>
  
 
  

@@ -65,7 +65,7 @@ The name of the remote computer. To connect to the local computer, use an empty 
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a> interface for the root collection on the remote computer.
+The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the root collection on the remote computer.
 
 
 ## -returns
@@ -83,9 +83,9 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 The <b>Connect</b> method also retrieves a root collection that is bound to the remote computer. A root collection serves as a starting point to locate top-level collections and does not contain any objects or properties.
 
-You can use the <a href="https://msdn.microsoft.com/6f01a7a7-d8f3-470f-8eb3-aa698b353af1">GetCollection</a> method to get a top-level collection on the local computer without first using the <b>Connect</b> method.
+You can use the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog-getcollection">GetCollection</a> method to get a top-level collection on the local computer without first using the <b>Connect</b> method.
 
-When you use the <b>Connect</b> method, the <a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a> interface you are holding works on the computer to which you have connected.
+When you use the <b>Connect</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a> interface you are holding works on the computer to which you have connected.
 
 
 
@@ -95,7 +95,7 @@ When you use the <b>Connect</b> method, the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
  
 
  

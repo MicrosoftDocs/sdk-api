@@ -62,7 +62,7 @@ The <b>GetSignalPath</b> method gets a list of parts in the signal path that lin
 
 ### -param pIPartFrom [in]
 
-Pointer to the "from" part. This parameter is a pointer to the <a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart</a> interface of the part at the beginning of the signal path.
+Pointer to the "from" part. This parameter is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of the part at the beginning of the signal path.
 
 
 ### -param pIPartTo [in]
@@ -77,7 +77,7 @@ Specifies whether to reject paths that contain mixed data. If <i>bRejectMixedPat
 
 ### -param ppParts [out]
 
-Pointer to a pointer variable into which the method writes the address of an <a href="https://msdn.microsoft.com/3ac48781-90c2-4b23-aa68-3453091bde61">IPartsList</a> interface instance. This interface encapsulates the list of parts in the signal path that connects the "from" part to the "to" part. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetSignalPath</b> call fails,  <i>*ppParts</i> is <b>NULL</b>.
+Pointer to a pointer variable into which the method writes the address of an <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList</a> interface instance. This interface encapsulates the list of parts in the signal path that connects the "from" part to the "to" part. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <b>Release</b> method. If the <b>GetSignalPath</b> call fails,  <i>*ppParts</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -147,7 +147,7 @@ Out of memory.
 
 This method creates an <b>IPartsList</b> interface instance that contains a list of the parts that lie along the specified signal path. The parts in the parts list are ordered according to their relative positions in the signal path. The "to" part is the first item in the list and the "from" part is the last item in the list.
 
-If the list contains <i>n</i> parts, the "to" and "from" parts are identified by list indexes 0 and <i>n</i>– 1, respectively. To get the number of parts in a parts list, call the <a href="https://msdn.microsoft.com/78ca8592-f687-4194-873b-83640c6e72da">IPartsList::GetCount</a> method. To retrieve a part by its index, call the <a href="https://msdn.microsoft.com/505e2412-2849-4e64-9751-ce68831823b8">IPartsList::GetPart</a> method.
+If the list contains <i>n</i> parts, the "to" and "from" parts are identified by list indexes 0 and <i>n</i>– 1, respectively. To get the number of parts in a parts list, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getcount">IPartsList::GetCount</a> method. To retrieve a part by its index, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getpart">IPartsList::GetPart</a> method.
 
 The parts in the signal path must all be part of the same device topology. The path cannot span boundaries between device topologies.
 
@@ -159,23 +159,23 @@ The parts in the signal path must all be part of the same device topology. The p
 
 
 
-<a href="https://msdn.microsoft.com/1b509f69-6277-40c0-a293-02afc30d464a">IDeviceTopology Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ac48781-90c2-4b23-aa68-3453091bde61">IPartsList Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/78ca8592-f687-4194-873b-83640c6e72da">IPartsList::GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getcount">IPartsList::GetCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/505e2412-2849-4e64-9751-ce68831823b8">IPartsList::GetPart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getpart">IPartsList::GetPart</a>
  
 
  

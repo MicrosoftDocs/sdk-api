@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Notifies an application that a call to 
-<a href="https://msdn.microsoft.com/61a9cada-a9f4-462d-ab73-a9319308ff01">IDiscRecorder::Erase</a> has finished.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-erase">IDiscRecorder::Erase</a> has finished.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Notifies an application that a call to
 ### -param status [in]
 
 Status code to be returned from 
-<a href="https://msdn.microsoft.com/61a9cada-a9f4-462d-ab73-a9319308ff01">IDiscRecorder::Erase</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-erase">IDiscRecorder::Erase</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/68f7edbd-4a06-4e8d-a562-21a65767aff6">IDiscMasterProgressEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
  
 
  

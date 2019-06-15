@@ -113,11 +113,11 @@ Calls to <b>DisableSystemKeystrokeFeed</b> are cumulative, so every call to <b>D
 
 
 
-<a href="https://msdn.microsoft.com/9b15d628-87aa-4e20-b9c3-fb29a79683cb">ITfConfigureSystemKeystrokeFeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfconfiguresystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bdca5cc-84b4-4184-a8cc-76dddc573b35">ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfconfiguresystemkeystrokefeed-disablesystemkeystrokefeed">ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
       </a>
  
 

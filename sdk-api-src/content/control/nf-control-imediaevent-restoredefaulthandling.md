@@ -109,7 +109,7 @@ No default handling for this event.
 
 
 
-By default, the Filter Graph Manager handles some events (such as <a href="https://msdn.microsoft.com/2e756dea-366c-4024-8fc8-6feabaef1954">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://msdn.microsoft.com/en-us/library/Dd406903(v=VS.85).aspx">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
+By default, the Filter Graph Manager handles some events (such as <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-repaint">EC_REPAINT</a>) without passing them to the application. If you call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-canceldefaulthandling">IMediaEvent::CancelDefaultHandling</a> method to override the default handling for an event, you can restore the default behavior by calling <code>RestoreDefaultHandling</code> with the same event code.
 
 
 
@@ -119,11 +119,11 @@ By default, the Filter Graph Manager handles some events (such as <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
  
 
  

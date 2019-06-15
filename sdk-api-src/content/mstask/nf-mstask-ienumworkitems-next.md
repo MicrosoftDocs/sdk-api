@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Retrieves the next specified number of tasks in the enumeration sequence.
 
@@ -68,7 +68,7 @@ The number of tasks to retrieve.
 
 ### -param rgpwszNames [out]
 
-A pointer to an array of pointers (<b>LPWSTR</b>) to <b>null</b>-terminated character strings containing the file names of the tasks returned from the enumeration sequence. These file names are taken from the <a href="https://msdn.microsoft.com/en-us/library/Aa382137(v=VS.85).aspx">Scheduled Tasks folder</a> and have the ".job" extension.
+A pointer to an array of pointers (<b>LPWSTR</b>) to <b>null</b>-terminated character strings containing the file names of the tasks returned from the enumeration sequence. These file names are taken from the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/s">Scheduled Tasks folder</a> and have the ".job" extension.
 
 After processing the names returned in <i>rgpwszNames</i>, you must first free each character string in the array and then the array itself using <b>CoTaskMemFree</b>.
 
@@ -144,12 +144,12 @@ Not enough memory is available.
 
 
 The 
-<a href="https://msdn.microsoft.com/1af162e5-8ba1-4d2e-9451-39c80ac0eecf">IEnumWorkItems</a> interface also provides methods for resetting the enumeration, skipping tasks, and making a copy of the current state of the enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface also provides methods for resetting the enumeration, skipping tasks, and making a copy of the current state of the enumeration.
 
 
 #### Examples
 
-For an example of how to use <b>Next</b> to enumerate the tasks in the Scheduled Tasks folder, see <a href="https://msdn.microsoft.com/65a8a8af-f4d8-4948-8dd4-b592f1381bfe">Enumerating Tasks Example</a>.
+For an example of how to use <b>Next</b> to enumerate the tasks in the Scheduled Tasks folder, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/enumerating-tasks-example">Enumerating Tasks Example</a>.
 
 <div class="code"></div>
 
@@ -160,19 +160,19 @@ For an example of how to use <b>Next</b> to enumerate the tasks in the Scheduled
 
 
 
-<a href="https://msdn.microsoft.com/1af162e5-8ba1-4d2e-9451-39c80ac0eecf">IEnumWorkItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/c42550df-33ad-49cc-ab89-5f952cce2a83">IEnumWorkItems::Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">IEnumWorkItems::Clone</a>
 
 
 
-<a href="https://msdn.microsoft.com/920ba47b-41cd-462b-9b72-73898a5cd4d0">IEnumWorkItems::Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-reset">IEnumWorkItems::Reset</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f4c7c98-a802-4fc3-b88f-bb37826f8199">IEnumWorkItems::Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>
  
 
  

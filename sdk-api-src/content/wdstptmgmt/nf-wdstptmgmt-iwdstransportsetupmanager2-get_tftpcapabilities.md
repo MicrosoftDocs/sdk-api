@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Receives a mask of <a href="https://msdn.microsoft.com/en-us/library/Hh448723(v=VS.85).aspx">WDSTRANSPORT_TFTP_CAPABILITY</a> values that indicates which WDS TFTP features are supported by the WDS TFTP server.
+Receives a mask of <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0012">WDSTRANSPORT_TFTP_CAPABILITY</a> values that indicates which WDS TFTP features are supported by the WDS TFTP server.
 
 This property is read-only.
 
@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/C16D037D-8E6C-4789-8947-D3BAC73D86FF">IWdsTransportSetupManager2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager2">IWdsTransportSetupManager2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448723(v=VS.85).aspx">WDSTRANSPORT_TFTP_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0012">WDSTRANSPORT_TFTP_CAPABILITY</a>
  
 
  

@@ -65,7 +65,7 @@ Creates a copy of the ASF stream prioritization object.
 
 ### -param ppIStreamPrioritization [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/6eb79c52-dc81-406c-9000-d25ad380e6b2">IMFASFStreamPrioritization</a> interface of the new object. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a> interface of the new object. The caller must release the interface.
 
 
 ## -returns
@@ -110,7 +110,7 @@ The new object is completely independent of the original.
 
 
 
-<a href="https://msdn.microsoft.com/6eb79c52-dc81-406c-9000-d25ad380e6b2">IMFASFStreamPrioritization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>
  
 
  

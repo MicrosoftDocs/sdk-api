@@ -63,7 +63,7 @@ A logical container file may be stored in a single segment or multiple segments 
 ### -field ContainerIndex
 
 The index in the container list passed to 
-      <a href="https://msdn.microsoft.com/25871056-5833-40DA-9C5B-690DCAB16E5C">IDedupReadFileCallback::OrderContainersRestore</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">IDedupReadFileCallback::OrderContainersRestore</a> 
       to which this container extent structure corresponds.
 
 
@@ -93,7 +93,7 @@ For example, in an incremental backup scheme, the container may reside in the st
 
 
 
-<a href="https://msdn.microsoft.com/25871056-5833-40DA-9C5B-690DCAB16E5C">IDedupReadFileCallback::OrderContainersRestore</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">IDedupReadFileCallback::OrderContainersRestore</a>
  
 
  

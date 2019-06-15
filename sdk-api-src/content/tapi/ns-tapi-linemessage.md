@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEMESSAGE</b> structure contains parameter values specifying a change in status of the line the application currently has open. The 
-<a href="https://msdn.microsoft.com/ed6df53e-b01d-40bc-8676-b0f7e0eacfd1">lineGetMessage</a> function returns the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetmessage">lineGetMessage</a> function returns the 
 <b>LINEMESSAGE</b> structure.
 
 
@@ -73,7 +73,7 @@ Line or call device message.
 ### -field dwCallbackInstance
 
 Instance data passed back to the application, which was specified by the application in the <i>dwCallBackInstance</i> parameter of 
-<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a>. This <b>DWORD</b> is not interpreted by TAPI.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. This <b>DWORD</b> is not interpreted by TAPI.
 
 
 ### -field dwParam1
@@ -96,7 +96,7 @@ Parameter for the message.
 
 
 For information about parameter values passed in this structure, see 
-<a href="https://msdn.microsoft.com/dc11134e-6c20-426e-834e-508bf855e5da">Line Device Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-device-messages">Line Device Messages</a>.
 
 
 
@@ -106,11 +106,11 @@ For information about parameter values passed in this structure, see
 
 
 
-<a href="https://msdn.microsoft.com/ed6df53e-b01d-40bc-8676-b0f7e0eacfd1">lineGetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetmessage">lineGetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/18cd145d-e434-433a-ab10-91bf5b060c21">lineInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
  
 
  

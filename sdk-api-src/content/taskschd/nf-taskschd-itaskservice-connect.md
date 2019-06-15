@@ -177,14 +177,14 @@ The <i>user</i>, <i>password</i>, or <i>domain</i> parameters cannot be specifie
 
 
 
-The <b>ITaskService::Connect</b> method should be called before calling any of the other <a href="https://msdn.microsoft.com/2459aaae-4c3a-458a-ad2c-bfff3a0322d3">ITaskService</a> methods.
+The <b>ITaskService::Connect</b> method should be called before calling any of the other <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a> methods.
 
 If you are to connecting to a remote Windows Vista computer from a Windows Vista, you need to allow the Remote Scheduled Tasks Management firewall exception on the remote computer. To allow this exception click <b>Start</b>, <b>Control Panel</b>, <b>Security</b>, <b>Allow a program through Windows Firewall</b>, and then select the <b>Remote Scheduled Tasks Management</b> check box. Then click the <b>Ok</b> button in the Windows Firewall Settings dialog box.
 
 If you are connecting to a remote Windows XP or Windows Server 2003 computer from a Windows Vista computer, you need to allow the File and Printer Sharing firewall exception on the remote computer. To allow this exception click <b>Start</b>, <b>Control Panel</b>, double-click <b>Windows Firewall</b>, select the <b>Exceptions</b> tab, and then select the <b>File and Printer Sharing</b> firewall exception. Then click the <b>OK</b> button in the Windows Firewall dialog box. The Remote Registry service must also be running on the remote computer.
 
 
-<div class="alert"><b>Note</b>  The <b>ITaskService::Connect</b> may return an  error <b>SCHED_E_INVALIDVALUE</b> while reading the task definition if the schema of the remote task is not supported by the current machine. To verify the highest schema version supported by the current machine, check the <a href="https://msdn.microsoft.com/b4e55e46-6f33-4224-811b-06bf218dd1ac"> ITaskService::HighestVersion</a> property.</div>
+<div class="alert"><b>Note</b>  The <b>ITaskService::Connect</b> may return an  error <b>SCHED_E_INVALIDVALUE</b> while reading the task definition if the schema of the remote task is not supported by the current machine. To verify the highest schema version supported by the current machine, check the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskservice-highestversion"> ITaskService::HighestVersion</a> property.</div>
 <div> </div>
 
 
@@ -196,11 +196,11 @@ If you are connecting to a remote Windows XP or Windows Server 2003 computer f
 
 
 
-<a href="https://msdn.microsoft.com/2459aaae-4c3a-458a-ad2c-bfff3a0322d3">ITaskService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4e55e46-6f33-4224-811b-06bf218dd1ac"> ITaskService::HighestVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskservice-highestversion"> ITaskService::HighestVersion</a>
  
 
  

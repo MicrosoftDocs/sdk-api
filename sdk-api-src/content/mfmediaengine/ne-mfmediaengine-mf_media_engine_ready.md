@@ -96,11 +96,11 @@ These values correspond to constants defined for the  <b>HTMLMediaElement.readyS
 
 
 
-<a href="https://msdn.microsoft.com/B8C9B600-87FD-4DE6-8794-5C1E41449554">IMFMediaEngine::GetReadyState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-getreadystate">IMFMediaEngine::GetReadyState</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an instance of the <a href="https://msdn.microsoft.com/0D3FD8BA-ABEF-4FCC-AE3F-EC035007BC07">ISystemMediaTransportControls</a> interface for the specified window. 
+Gets an instance of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface for the specified window. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets an instance of the <a href="https://msdn.microsoft.com/0D3FD8BA-ABEF-4FCC-A
 
 ### -param appWindow
 
-The top-level app window for which the <a href="https://msdn.microsoft.com/0D3FD8BA-ABEF-4FCC-AE3F-EC035007BC07">ISystemMediaTransportControls</a> interface is retrieved.
+The top-level app window for which the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface is retrieved.
 
 
 ### -param riid
@@ -69,7 +69,7 @@ A reference to the IID of the interface to retrieve.
 
 ### -param mediaTransportControl [out]
 
-The top-level app window for which the <a href="https://msdn.microsoft.com/0D3FD8BA-ABEF-4FCC-AE3F-EC035007BC07">ISystemMediaTransportControls</a> interface is retrieved.
+The top-level app window for which the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface is retrieved.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/451A65AD-BF03-47F3-B2F1-30484A1B14F3">ISystemMediaTransportControlsInterop</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop">ISystemMediaTransportControlsInterop</a>
  
 
  

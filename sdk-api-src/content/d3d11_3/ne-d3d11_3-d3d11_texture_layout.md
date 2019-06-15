@@ -76,7 +76,7 @@ A default texture uses the standardized swizzle pattern.
 
 
 
-This enumeration controls the swizzle pattern of default textures and enable map support on default textures.  Callers must query <a href="https://msdn.microsoft.com/D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a> to ensure that each option is supported.
+This enumeration controls the swizzle pattern of default textures and enable map support on default textures.  Callers must query <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_feature_data_d3d11_options2">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a> to ensure that each option is supported.
 
 The standard swizzle formats applies within each page-sized chunk, and pages are laid out in linear order with respect to one another.  A 16-bit interleave pattern defines the conversion from pre-swizzled intra-page location to the post-swizzled location.  
 
@@ -100,7 +100,7 @@ To compute the swizzled address, the following code could be used (where the _pd
 
 
 
-<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

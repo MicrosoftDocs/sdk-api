@@ -56,7 +56,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates all nonchild windows associated with a thread by passing the handle to each window, in turn, to an application-defined callback function. <b>EnumThreadWindows</b> continues until the last window is enumerated or the callback function returns <b>FALSE</b>. To enumerate child windows of a particular window, use the <a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a> function. 
+Enumerates all nonchild windows associated with a thread by passing the handle to each window, in turn, to an application-defined callback function. <b>EnumThreadWindows</b> continues until the last window is enumerated or the callback function returns <b>FALSE</b>. To enumerate child windows of a particular window, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a> function. 
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The identifier of the thread whose windows are to be enumerated.
 
 Type: <b>WNDENUMPROC</b>
 
-A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms633496(v=VS.85).aspx">EnumThreadWndProc</a>. 
+A pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633496(v=vs.85)">EnumThreadWndProc</a>. 
 
 
 ### -param lParam [in]
@@ -106,15 +106,15 @@ If the callback function returns <b>TRUE</b> for all windows in the thread speci
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633496(v=VS.85).aspx">EnumThreadWndProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633496(v=vs.85)">EnumThreadWndProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
 
 
 
@@ -122,7 +122,7 @@ If the callback function returns <b>TRUE</b> for all windows in the thread speci
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

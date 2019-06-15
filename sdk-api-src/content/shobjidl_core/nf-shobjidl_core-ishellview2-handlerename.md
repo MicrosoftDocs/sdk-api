@@ -61,7 +61,7 @@ Used to change an item's identifier.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure. The current identifier is passed in and is replaced by the new one.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. The current identifier is passed in and is replaced by the new one.
 
 
 ## -returns

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Compile an effect.
 
-<div class="alert"><b>Note</b>  Use <a href="https://msdn.microsoft.com/en-us/library/Bb310587(v=VS.85).aspx">D3DX10CompileFromMemory</a> instead of this function.</div><div> </div>
+<div class="alert"><b>Note</b>  Use <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3dx10compilefrommemory">D3DX10CompileFromMemory</a> instead of this function.</div><div> </div>
 
 ## -parameters
 
@@ -62,72 +62,72 @@ Compile an effect.
 
 Type: <b>void*</b>
 
-A pointer to effect data; either ASCII <a href="https://msdn.microsoft.com/en-us/library/Bb509638(v=VS.85).aspx">HLSL</a> code or a compiled effect.
+A pointer to effect data; either ASCII <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-reference">HLSL</a> code or a compiled effect.
 
 
 ### -param DataLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Length of <i>pData</i>.
 
 
 ### -param pSrcFileName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The name of the effect file.
 
 
 ### -param pDefines [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx">D3D10_SHADER_MACRO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D10_SHADER_MACRO</a>*</b>
 
-Optional. An array of NULL-terminated macro definitions (see <a href="https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx">D3D10_SHADER_MACRO</a>).
+Optional. An array of NULL-terminated macro definitions (see <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ns-d3dcommon-_d3d_shader_macro">D3D10_SHADER_MACRO</a>).
 
 
 ### -param pInclude [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx">ID3D10Include</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85)">ID3D10Include</a>*</b>
 
-Optional. A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx">ID3D10Include Interface</a> for handling include files. Setting this to <b>NULL</b> will cause a compile error if a shader contains a #include.
+Optional. A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173775(v=vs.85)">ID3D10Include Interface</a> for handling include files. Setting this to <b>NULL</b> will cause a compile error if a shader contains a #include.
 
 
 ### -param HLSLFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Shader <a href="https://msdn.microsoft.com/en-us/library/Bb172416(v=VS.85).aspx">compile options</a>.
+Shader <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-shader">compile options</a>.
 
 
 ### -param FXFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Effect <a href="https://msdn.microsoft.com/en-us/library/Bb205176(v=VS.85).aspx">compile options</a>.
+Effect <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-constants">compile options</a>.
 
 
 ### -param ppCompiledEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>**</b>
 
-The address of a <a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob Interface</a> that contains the compiled effect.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob Interface</a> that contains the compiled effect.
 
 
 ### -param ppErrors [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>**</b>
 
-Optional. A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob Interface</a> that contains compiler error messages, or <b>NULL</b> if there were no errors.
+Optional. A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob Interface</a> that contains compiler error messages, or <b>NULL</b> if there were no errors.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 
 
@@ -138,7 +138,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 This function uses the version of the HLSL compiler released in the November 2006 DirectX SDK.
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb205078(v=VS.85).aspx">Compile an Effect (Direct3D 10)</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-effects-compile">Compile an Effect (Direct3D 10)</a>.
 
 
 
@@ -148,7 +148,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb205078(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205177(v=VS.85).aspx">Effect Functions (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-functions">Effect Functions (Direct3D 10)</a>
  
 
  

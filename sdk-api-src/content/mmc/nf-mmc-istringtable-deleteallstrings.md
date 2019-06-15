@@ -82,15 +82,15 @@ This method deletes all strings from the snap-in's string table, regardless of e
 
 
 
-<a href="https://msdn.microsoft.com/3b4cfc92-4f50-4b62-bb2c-77c8e0e003da">IStringTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd4672fb-89d1-4542-b917-58c01290c928">IStringTable::AddString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-addstring">IStringTable::AddString</a>
 
 
 
-<a href="https://msdn.microsoft.com/57d04890-5dd8-45e5-9b46-b982ea3a4f36">IStringTable::DeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deletestring">IStringTable::DeleteString</a>
  
 
  

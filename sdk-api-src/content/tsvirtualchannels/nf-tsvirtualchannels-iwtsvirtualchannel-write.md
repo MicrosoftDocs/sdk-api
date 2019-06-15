@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Starts a write request on the channel. All writes are considered asynchronous. Calling this method copies the contents of <i>pBuffer</i> and returns immediately, so  the buffer can be reclaimed. Because of the memory copy, too many <b>Write()</b> calls may result in allocating too much memory by the client.
 
-A <a href="https://msdn.microsoft.com/b900789d-c7da-4974-8c46-72ea8ffd6892">Close()</a> call on this channel will cancel any pending writes.
+A <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">Close()</a> call on this channel will cancel any pending writes.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ Returns <b>S_OK</b> if successful.
 
 
 
-<a href="https://msdn.microsoft.com/8a5b093f-5756-400f-9442-b95d6010ee46">IWTSVirtualChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannel">IWTSVirtualChannel</a>
  
 
  

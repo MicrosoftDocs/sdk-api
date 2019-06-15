@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMessage</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMStatusMessage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStatusMessage</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStatusMessage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IGPMStatusMessage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87a50523-1acb-4b58-b867-ec19b0cf960a">ErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-errorcode">ErrorCode</a>
 </td>
 <td align="left" width="63%">
 Returns the actual error that occurred during the GPMC operation.
@@ -81,7 +81,7 @@ Returns the actual error that occurred during the GPMC operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f99dc90a-fabe-40fb-8289-36501a68b11d">OperationCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstatusmessage-operationcode">OperationCode</a>
 </td>
 <td align="left" width="63%">
 Returns a code related to the GPMC operation indicating a specific failure or warning for the operation.
@@ -98,7 +98,7 @@ Returns a code related to the GPMC operation indicating a specific failure or wa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8d736e30-760d-43fa-ab5d-d05dc679bfbb">ExtensionName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">ExtensionName</a>
 
 
 </td>
@@ -110,7 +110,7 @@ Name of the extension that was being processed when the message was generated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8d736e30-760d-43fa-ab5d-d05dc679bfbb">Message</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">Message</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Message, in human-readable format.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8d736e30-760d-43fa-ab5d-d05dc679bfbb">ObjectPath</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">ObjectPath</a>
 
 
 </td>
@@ -134,7 +134,7 @@ Path of the object to which the message applies.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8d736e30-760d-43fa-ab5d-d05dc679bfbb">SettingsName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmstatusmessage-property-methods">SettingsName</a>
 
 
 </td>
@@ -151,15 +151,15 @@ Name of the policy setting that was being processed when the message was generat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">IGPMStatusMsgCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
  
 
  

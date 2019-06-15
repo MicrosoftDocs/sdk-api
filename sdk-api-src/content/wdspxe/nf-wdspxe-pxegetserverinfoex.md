@@ -87,7 +87,7 @@ Returns a <b>BOOL</b> that indicates whether tracing is enabled for the
 </dl>
 </td>
 <td width="60%">
- Returns a byte array that corresponds to the DHCPv6 DUID that is sent to DHCPv6 PXE clients in response packets in the OPTION_SERVERID option.  <b>PXE_GSI_SERVER_DUID</b> cannot be used with <a href="https://msdn.microsoft.com/68fb12ff-c73c-4e36-8f62-de8a04a9afb0">PxeGetServerInfo</a>.
+ Returns a byte array that corresponds to the DHCPv6 DUID that is sent to DHCPv6 PXE clients in response packets in the OPTION_SERVERID option.  <b>PXE_GSI_SERVER_DUID</b> cannot be used with <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxegetserverinfo">PxeGetServerInfo</a>.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 
 
-<a href="https://msdn.microsoft.com/b6089ff9-4d74-4f5d-957f-4a741c09f4b9">Windows Deployment Services Server Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
  
 
  

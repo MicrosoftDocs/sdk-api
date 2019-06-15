@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CertVerifySubjectCertificateContext</b> function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a> are recommended instead of this function.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>CertVerifySubjectCertificateContext</b> function performs the enabled ver
 ### -param pSubject [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure containing the subject's certificate.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure containing the subject's certificate.
 
 
 ### -param pIssuer [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> containing the issuer's certificate. When checking just CERT_STORE_TIME_VALIDITY_FLAG, <i>pIssuer</i> can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> containing the issuer's certificate. When checking just CERT_STORE_TIME_VALIDITY_FLAG, <i>pIssuer</i> can be <b>NULL</b>.
 
 
 ### -param pdwFlags [in, out]
@@ -127,7 +127,7 @@ If the function fails, the return value is <b>FALSE</b>.
 For a verification check failure, <b>TRUE</b> is still returned. <b>FALSE</b> is returned only when a bad parameter is passed in.
 
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. One possible error code is the following.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One possible error code is the following.
 
 <table>
 <tr>
@@ -169,15 +169,15 @@ is placed in the <i>pdwFlags</i> <b>DWORD</b> value as an input parameter. If CE
 
 
 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/b57982d0-cba8-43cd-a544-3635fdf599e2">CertGetIssuerCertificateFromStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
  
 
  

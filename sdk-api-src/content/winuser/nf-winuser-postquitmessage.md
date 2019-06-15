@@ -58,7 +58,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates to the system that a thread has made a request to terminate (quit). It is typically used in response to a <a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a> message.
+Indicates to the system that a thread has made a request to terminate (quit). It is typically used in response to a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a> message.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Indicates to the system that a thread has made a request to terminate (quit). It
 
 Type: <b>int</b>
 
-The application exit code. This value is used as the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message.
+The application exit code. This value is used as the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message.
 
 
 ## -returns
@@ -86,14 +86,14 @@ This function does not return a value.
 
 
 
-The <b>PostQuitMessage</b> function posts a <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message to the thread's message queue and returns immediately; the function simply indicates to the system that the thread is requesting to quit at some time in the future. 
+The <b>PostQuitMessage</b> function posts a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message to the thread's message queue and returns immediately; the function simply indicates to the system that the thread is requesting to quit at some time in the future. 
 
-When the thread retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a> message from its message queue, it should exit its message loop and return control to the system. The exit value returned to the system must be the <i>wParam</i> parameter of the <b>WM_QUIT</b> message. 
+When the thread retrieves the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a> message from its message queue, it should exit its message loop and return control to the system. The exit value returned to the system must be the <i>wParam</i> parameter of the <b>WM_QUIT</b> message. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Posting a Message</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-messages-and-message-queues">Posting a Message</a>.
 
 <div class="code"></div>
 
@@ -108,19 +108,19 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
 
 
 
@@ -128,11 +128,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632620(v=VS.85).aspx">WM_DESTROY</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632641(v=VS.85).aspx">WM_QUIT</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-quit">WM_QUIT</a>
  
 
  

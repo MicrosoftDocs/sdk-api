@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_ModuleTable</b> method retrieves the 
-<a href="https://msdn.microsoft.com/390f5889-d638-4c1c-b95c-76d38c934e7c">ModuleTable</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object. This method returns the name of the table in the module that caused the error.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-moduletable">ModuleTable</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object. This method returns the name of the table in the module that caused the error.
 
 
 ## -parameters
@@ -121,7 +121,7 @@ The function succeeded.
 
 The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
-The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://msdn.microsoft.com/733a5390-419d-414a-b50e-8400d179bfb6">IMsmError::get_Type</a>.
+The collection is empty if the values do not apply to the type of the error. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 
 
@@ -131,7 +131,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

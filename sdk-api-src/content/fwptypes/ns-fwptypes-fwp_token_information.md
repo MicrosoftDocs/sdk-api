@@ -59,20 +59,20 @@ The <b>FWP_TOKEN_INFORMATION</b> structure defines a set of security identifiers
 
 ### -field sidCount
 
-The number of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures stored in the <b>sids</b> array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures stored in the <b>sids</b> array.
 
 
 ### -field sids
 
-An array of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures containing user and group security information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures containing user and group security information.
 
 
 ### -field restrictedSidCount
 
-The number of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures stored in the <b>restrictedSids</b> array.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures stored in the <b>restrictedSids</b> array.
 
 
 ### -field restrictedSids
 
-An array of <a href="https://msdn.microsoft.com/d15d5a3f-6b38-4b92-b59c-ff0d27d111d9">SID_AND_ATTRIBUTES</a> structures containing restricted SIDs security information.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid_and_attributes">SID_AND_ATTRIBUTES</a> structures containing restricted SIDs security information.
 

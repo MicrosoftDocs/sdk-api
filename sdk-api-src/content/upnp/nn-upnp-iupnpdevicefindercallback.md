@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceFinderCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUPnPDeviceFinderCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceFinderCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceFinderCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPDeviceFinderCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a61ca43-cbc6-4db2-9706-23cadbae9c3e">DeviceAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefindercallback-deviceadded">DeviceAdded</a>
 </td>
 <td align="left" width="63%">
 Invoked by the UPnP framework to notify the application that a device has been added to the network.
@@ -79,7 +79,7 @@ Invoked by the UPnP framework to notify the application that a device has been a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6ff7bdd-3fdf-4ee4-84c9-e3527988fea2">DeviceRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefindercallback-deviceremoved">DeviceRemoved</a>
 </td>
 <td align="left" width="63%">
 Invoked by the UPnP framework to notify the application that a device has been removed from the network.
@@ -88,7 +88,7 @@ Invoked by the UPnP framework to notify the application that a device has been r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fcce487-1cfb-47ec-9ea1-7df04985d506">SearchComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefindercallback-searchcomplete">SearchComplete</a>
 </td>
 <td align="left" width="63%">
 Invoked by the UPnP framework to notify the application that the initial search for network devices has been completed.

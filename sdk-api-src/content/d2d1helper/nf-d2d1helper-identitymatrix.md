@@ -63,7 +63,7 @@ Creates an identity matrix.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 An identity matrix.
 
@@ -78,7 +78,7 @@ The identity matrix is the 3x2 matrix with ones on the main diagonal and zeros e
 
 
 
-Calling this function is the same as calling <a href="https://msdn.microsoft.com/c4596d43-fbc8-489e-a8fd-d33fb26461cc">D2D1::Matrix3x2F::Identity()</a>.
+Calling this function is the same as calling <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-matrix3x2f-identity">D2D1::Matrix3x2F::Identity()</a>.
 	 
 	 
 
@@ -90,7 +90,7 @@ Calling this function is the same as calling <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>
  
 
  

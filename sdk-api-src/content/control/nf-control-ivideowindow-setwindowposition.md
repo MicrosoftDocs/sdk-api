@@ -139,9 +139,9 @@ The video renderer filter is not connected.
 
 
 
-This method has the same effect as calling the <a href="https://msdn.microsoft.com/en-us/library/Dd377322(v=VS.85).aspx">IVideoWindow::put_Left</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd377325(v=VS.85).aspx">IVideoWindow::put_Top</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd377327(v=VS.85).aspx">IVideoWindow::put_Width</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd377321(v=VS.85).aspx">IVideoWindow::put_Height</a> methods.
+This method has the same effect as calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_left">IVideoWindow::put_Left</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_top">IVideoWindow::put_Top</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_width">IVideoWindow::put_Width</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_height">IVideoWindow::put_Height</a> methods.
 
-If resizing the window to the specified dimensions is impossible, this method modifies the window's size and location to make the window fit. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd377288(v=VS.85).aspx">IVideoWindow::GetWindowPosition</a> method to determine the result.
+If resizing the window to the specified dimensions is impossible, this method modifies the window's size and location to make the window fit. Call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-getwindowposition">IVideoWindow::GetWindowPosition</a> method to determine the result.
 
 
 
@@ -151,11 +151,11 @@ If resizing the window to the specified dimensions is impossible, this method mo
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
  
 
  

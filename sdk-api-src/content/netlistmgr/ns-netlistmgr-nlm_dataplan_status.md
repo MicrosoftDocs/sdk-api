@@ -64,9 +64,9 @@ The unique ID of the interface associated with the data plan. This GUID is deter
 
 ### -field UsageData
 
-An <a href="https://msdn.microsoft.com/1D917CD0-4D71-4780-9720-A1F3FDCBBB16">NLM_USAGE_DATA</a> structure containing  current data usage value expressed in megabytes, as well as the  system time at the moment this value was last synced. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a> structure containing  current data usage value expressed in megabytes, as well as the  system time at the moment this value was last synced. 
 
-If this value is not supplied, <a href="https://msdn.microsoft.com/1D917CD0-4D71-4780-9720-A1F3FDCBBB16">NLM_USAGE_DATA</a> will indicate <b>NLM_UNKNOWN_DATAPLAN_STATUS</b> for <b>UsageInMegabytes</b> and a value of '0' will be set for <b>LastSyncTime.</b>
+If this value is not supplied, <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a> will indicate <b>NLM_UNKNOWN_DATAPLAN_STATUS</b> for <b>UsageInMegabytes</b> and a value of '0' will be set for <b>LastSyncTime.</b>
 
 
 ### -field DataLimitInMegabytes
@@ -104,15 +104,15 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/861ED7D2-569A-4B62-BAB6-CA649CA9B524">INetworkConnectionCost::GetDataPlanStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkconnectioncost-getdataplanstatus">INetworkConnectionCost::GetDataPlanStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/A9908F22-A9E9-4C05-A434-57D0C433EA3E">INetworkCostManagerEvents::DataPlanStatusChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanagerevents-dataplanstatuschanged">INetworkCostManagerEvents::DataPlanStatusChanged</a>
 
 
 
-<a href="https://msdn.microsoft.com/1D917CD0-4D71-4780-9720-A1F3FDCBBB16">NLM_USAGE_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_usage_data">NLM_USAGE_DATA</a>
  
 
  

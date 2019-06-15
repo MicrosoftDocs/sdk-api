@@ -54,7 +54,7 @@ The <b>ITypeComp</b> interface provides a fast way to access information that co
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeComp</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITypeComp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeComp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITypeComp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITypeComp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04814179-2555-4ba5-a08c-bff776c03ca3">Bind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a>
 </td>
 <td align="left" width="63%">
 Maps a name to a member of a type, or binds global variables and functions contained in a type library.
@@ -78,7 +78,7 @@ Maps a name to a member of a type, or binds global variables and functions conta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e1b6eb9c-aa5a-41b9-bc97-afa82206ccef">BindType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bindtype">BindType</a>
 </td>
 <td align="left" width="63%">
 Binds to the type descriptions contained within a type library.
@@ -93,7 +93,7 @@ Binds to the type descriptions contained within a type library.
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221172(v=VS.85).aspx">Type Description Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions//ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
  
 
  

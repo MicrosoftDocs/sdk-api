@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UuidFromString</b> function converts a string to a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<b>UuidFromString</b> function converts a string to a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ The
 ### -param StringUuid
 
 Pointer to a string representation of a 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ### -param Uuid
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> in binary form.
+Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> in binary form.
 
 
 ## -returns
@@ -98,7 +98,7 @@ The call succeeded.
 </dl>
 </td>
 <td width="60%">
-The string <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> is invalid.
+The string <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is invalid.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The string <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -116,7 +116,7 @@ The string <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261
 
 
 An application calls the 
-<b>UuidFromString</b> function to convert a string <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> to a binary <b>UUID</b>.
+<b>UuidFromString</b> function to convert a string <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to a binary <b>UUID</b>.
 
 
 
@@ -126,7 +126,7 @@ An application calls the
 
 
 
-<a href="https://msdn.microsoft.com/49235b28-a0c5-4f69-9932-85350d7bcbb8">UuidToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
  
 
  

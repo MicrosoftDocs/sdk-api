@@ -65,11 +65,11 @@ Time the job was created. The time is specified as
 ### -field ModificationTime
 
 Time the job was last modified or bytes were transferred. Adding files or calling any of the set methods in the 
-<a href="https://msdn.microsoft.com/68909710-f749-487e-b064-9f8630929c53">IBackgroundCopyJob*</a> interfaces changes this value. In addition, changes to the state of the job and calling the 
-<a href="https://msdn.microsoft.com/88429730-b8e5-4969-934c-f0945fdd46a6">Suspend</a>, 
-<a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">Resume</a>, 
-<a href="https://msdn.microsoft.com/bb3f32d9-298a-4099-8d87-4057ddefb0ba">Cancel</a>, and 
-<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> methods change this value. The time is specified as 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob*</a> interfaces changes this value. In addition, changes to the state of the job and calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">Suspend</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">Resume</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">Cancel</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">Complete</a> methods change this value. The time is specified as 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=128776">FILETIME</a>.
 
 
@@ -84,7 +84,7 @@ Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified a
 
 
 
-<a href="https://msdn.microsoft.com/acc29cc2-b437-4799-9cdb-388a60f117e9">IBackgroundCopyJob::GetTimes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-gettimes">IBackgroundCopyJob::GetTimes</a>
  
 
  

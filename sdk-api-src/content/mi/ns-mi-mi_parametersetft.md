@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A support structure used in the <a href="https://msdn.microsoft.com/14b5773c-4741-453b-824a-226aab9b8a10">MI_ParameterSet</a> structure.  Use the functions with the name prefix MI_ParameterSet_ to manipulate these structures.
+A support structure used in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_parameterset">MI_ParameterSet</a> structure.  Use the functions with the name prefix MI_ParameterSet_ to manipulate these structures.
 
 
 ## -struct-fields
@@ -66,20 +66,20 @@ TBD
 
 #### - GetMethodReturnType
 
-Gets the method return type and qualifier set for a specified parameter set. See <a href="https://msdn.microsoft.com/8d2e881a-72a8-4819-a407-b7381ab7a94a">MI_ParameterSet_GetMethodReturnType</a>.
+Gets the method return type and qualifier set for a specified parameter set. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getmethodreturntype">MI_ParameterSet_GetMethodReturnType</a>.
 
 
 #### - GetParameter
 
-Gets a method's parameter information based on a parameter name. See <a href="https://msdn.microsoft.com/ff895beb-8354-488d-9c97-2d0448da954a">MI_ParameterSet_GetParameter</a>.
+Gets a method's parameter information based on a parameter name. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getparameter">MI_ParameterSet_GetParameter</a>.
 
 
 #### - GetParameterAt
 
-Gets a method's parameter information at the specified index. See <a href="https://msdn.microsoft.com/fcfd7104-dd63-4a48-9a20-dcec0dc33242">MI_ParameterSet_GetParameterAt</a>.
+Gets a method's parameter information at the specified index. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getparameterat">MI_ParameterSet_GetParameterAt</a>.
 
 
 #### - GetParameterCount
 
-Gets the number of parameters in a parameter set. See <a href="https://msdn.microsoft.com/4b1ca06f-426c-483f-a571-b49eb06991e1">MI_ParameterSet_GetParameterCount</a>.
+Gets the number of parameters in a parameter set. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_parameterset_getparametercount">MI_ParameterSet_GetParameterCount</a>.
 

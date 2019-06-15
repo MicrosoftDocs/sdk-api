@@ -55,7 +55,7 @@ Provides
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWindowProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWindowProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IWindowProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3bfd7801-c296-4f59-8094-c13c8f044038">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-close">Close</a>
 </td>
 <td align="left" width="63%">
 Attempts to close the window.
@@ -80,7 +80,7 @@ Attempts to close the window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89239900-5ee4-4f3a-a398-6ceb4846caf9">SetVisualState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-setvisualstate">SetVisualState</a>
 </td>
 <td align="left" width="63%">
 Changes the visual state of the window. For example, minimizes or maximizes it.
@@ -89,7 +89,7 @@ Changes the visual state of the window. For example, minimizes or maximizes it.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/787f8309-09aa-4e6a-bfbc-fc03b917ead4">WaitForInputIdle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-waitforinputidle">WaitForInputIdle</a>
 </td>
 <td align="left" width="63%">
 Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first. 
@@ -108,7 +108,7 @@ Causes the calling code to block for the specified time or until the associated 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d3ff456a-c17d-4500-a141-87e9dd3fbfd0">CanMaximize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_canmaximize">CanMaximize</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Indicates whether the window can be maximized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0dc62d89-adf7-4fb5-b77d-07c9682c11af">CanMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_canminimize">CanMinimize</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Indicates whether the window can be minimized.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/16b1adb3-2816-4f7d-a805-8fc238ad78e4">IsModal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_ismodal">IsModal</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Indicates whether the window is modal.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/53181d04-112f-4e38-a2ab-760f215defc6">IsTopmost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_istopmost">IsTopmost</a>
 
 
 </td>
@@ -173,7 +173,7 @@ Indicates whether the window is the topmost element in the z-order.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b7fcd5e6-1232-4096-a913-5fd870c83e62">WindowInteractionState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_windowinteractionstate">WindowInteractionState</a>
 
 
 </td>
@@ -189,7 +189,7 @@ Specifies the current state of the window for the purposes of user interaction.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c65e8687-51b7-45ea-8183-6d9674f77012">WindowVisualState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iwindowprovider-get_windowvisualstate">WindowVisualState</a>
 
 
 </td>
@@ -209,7 +209,7 @@ Specifies the visual state of the window; that is, whether the window is normal 
 
 
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/bfd37d27-fcec-4d25-841c-63e14e48c6c8">Window</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingwindow">Window</a> control pattern.
 
 
 
@@ -220,7 +220,7 @@ Implemented on a Microsoft UI Automation provider that must support the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

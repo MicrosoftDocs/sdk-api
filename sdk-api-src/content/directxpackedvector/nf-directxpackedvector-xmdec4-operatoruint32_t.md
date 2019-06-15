@@ -54,7 +54,7 @@ Assigns the vector component data packed in an instance of <code>uint32_t</code>
     
 
 This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to
-	the current instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a>.
+	the current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
@@ -124,7 +124,7 @@ The last 2 bits (bits 30-31) of <b>Packed</b> assigned to the <b>w</b>member of 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>
 
 
 

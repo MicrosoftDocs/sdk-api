@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to free memory that it allocated using <a href="https://msdn.microsoft.com/09af7e56-2174-4a82-b45b-59f4180e4aab">AllocateMemory</a>. 
+Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to free memory that it allocated using <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perf_mem_alloc">AllocateMemory</a>. 
 
 The <b>PERF_MEM_FREE</b> type defines a pointer to this callback function. The <b>FreeMemory</b> function is a placeholder for the application-defined function name.
 
@@ -66,7 +66,7 @@ Memory to free.
 
 ### -param pContext [in]
 
-Context information set in the <b>pMemContext</b> member of <a href="https://msdn.microsoft.com/9bfab8aa-f44b-4515-8a2a-764583080f57">PERF_PROVIDER_CONTEXT</a>.
+Context information set in the <b>pMemContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a>.
 
 
 ## -returns
@@ -82,9 +82,9 @@ This callback function does not return a value.
 
 
 
-If you used the <b>-MemoryRoutines</b> when calling <a href="https://msdn.microsoft.com/3939f6a1-0a94-429d-a71e-b37f045fea13">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a>.
+If you used the <b>-MemoryRoutines</b> when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
 
-<b>Windows Vista:  </b>The <a href="https://msdn.microsoft.com/edcf8df3-0f6d-4849-b41d-270509499b8e">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
+<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
 
 
 
@@ -94,11 +94,11 @@ If you used the <b>-MemoryRoutines</b> when calling <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/09af7e56-2174-4a82-b45b-59f4180e4aab">AllocateMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perf_mem_alloc">AllocateMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bfab8aa-f44b-4515-8a2a-764583080f57">PERF_PROVIDER_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_provider_context">PERF_PROVIDER_CONTEXT</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using the given credentials, and retrieves an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer to the specified object.
+The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using the given credentials, and retrieves an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the specified object.
 <div class="alert"><b>Important</b>  It is not recommended that you use this method with the WinNT Provider. For more information, please see KB article 218497, <a href="http://go.microsoft.com/fwlink/p/?linkid=83981">User Authentication Issues with the Active Directory Service Interfaces WinNT Provider</a>.</div><div> </div>
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using 
 
 ### -param lpszDNName [in]
 
-The null-terminated Unicode string that specifies the ADsPath of the ADSI object. For more information and examples of binding strings for this parameter, see  <a href="https://msdn.microsoft.com/adacf6af-8683-4c3c-91bf-9489f2d5d817">LDAP ADsPath</a>. When using the LDAP provider with an ADsPath that includes a specific server name, the <i>lnReserved</i> parameter should include the <b>ADS_SERVER_BIND</b> flag.
+The null-terminated Unicode string that specifies the ADsPath of the ADSI object. For more information and examples of binding strings for this parameter, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>. When using the LDAP provider with an ADsPath that includes a specific server name, the <i>lnReserved</i> parameter should include the <b>ADS_SERVER_BIND</b> flag.
 
 
 ### -param lpszUserName [in]
@@ -74,22 +74,22 @@ The null-terminated Unicode string that specifies the password to be used to obt
 
 ### -param lnReserved [in]
 
-Authentication flags used to define the binding options. For more information, see  <a href="https://msdn.microsoft.com/3a45e0c2-5392-456d-80c9-ebd17d056a85">ADS_AUTHENTICATION_ENUM</a>.
+Authentication flags used to define the binding options. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018">ADS_AUTHENTICATION_ENUM</a>.
 
 
 ### -param ppOleDsObj [out]
 
-Pointer to a pointer to an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the requested object.
+Pointer to a pointer to an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the requested object.
 
 
 ## -returns
 
 
 
-This method supports the standard return values, including <b>S_OK</b> when the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface has been successfully retrieved using these credentials.
+This method supports the standard return values, including <b>S_OK</b> when the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface has been successfully retrieved using these credentials.
       
 
-For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -166,11 +166,11 @@ With a serverless binding, the server name, "server1", is not stated explicitly.
 
 For credential caching to work properly, it is important to keep an object reference outstanding to maintain the cache handle. In the example given above, an attempt to open "obj2" after releasing "obj1" will result in an authentication failure.
 
-The <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> method uses the default credentials when <i>lpszUserName</i> and <i>lpszPassword</i> are set to <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> method uses the default credentials when <i>lpszUserName</i> and <i>lpszPassword</i> are set to <b>NULL</b>.
 
 If Kerberos authentication is required for the successful completion of a specific directory request using the LDAP provider, the <i>lpszDNName</i> binding string must use either a serverless ADsPath, such as "LDAP://CN=Jeff Smith,CN=admin,DC=Fabrikam,DC=com", or it must use an ADsPath with a fully qualified DNS server name, such as "LDAP://central3.corp.Fabrikam.com/CN=Jeff Smith,CN=admin,DC=Fabrikam,DC=com". Binding to the server using a flat NETBIOS name or a short DNS name, for example, using the short name "central3" instead of "central3.corp.Fabrikam.com", may or may not yield Kerberos authentication.
 
-The  <a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a> helper function offers the same features as the <b>IADsOpenDSObject::OpenDSObject</b> method.
+The  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> helper function offers the same features as the <b>IADsOpenDSObject::OpenDSObject</b> method.
 
 With the LDAP provider for Active Directory, you may pass in <i>lpszUserName</i> as one of the following strings:
 
@@ -183,7 +183,7 @@ With the LDAP provider for Active Directory, you may pass in <i>lpszUserName</i>
 
 #### Examples
 
-The following code example shows how to use <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> to open the "Administrator" user object on "Fabrikam" with Secure Authentication through the LDAP provider.
+The following code example shows how to use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> to open the "Administrator" user object on "Fabrikam" with Secure Authentication through the LDAP provider.
 
 
 ```vb
@@ -210,7 +210,7 @@ Cleanup:
 ```
 
 
-The following code example uses <a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a> to open an Active Directory object through the LDAP provider.
+The following code example uses <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> to open an Active Directory object through the LDAP provider.
 
 
 ```cpp
@@ -250,40 +250,40 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a45e0c2-5392-456d-80c9-ebd17d056a85">ADS_AUTHENTICATION_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0000_0000_0018">ADS_AUTHENTICATION_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b85d8e-b33b-47a4-b7d7-5f901f80dce9">ADsOpenObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/82d465c5-b23d-4403-b360-8c710fbc6e1c">Binding</a>
+<a href="https://docs.microsoft.com/windows/desktop/wsw/binding">Binding</a>
 
 
 
-<a href="https://msdn.microsoft.com/15d8116a-8ec1-48b5-bf62-411fdff7c8b8">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/binding-with-getobject-and-adsgetobject">GetObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/9daf6f91-6c58-46a8-ba05-149f28b53829">IADsOpenDSObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/adacf6af-8683-4c3c-91bf-9489f2d5d817">LDAP ADsPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/faec728c-f19e-418c-9bdb-cde93e7d98fb">WNetAddConnetion2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnetion2</a>
  
 
  

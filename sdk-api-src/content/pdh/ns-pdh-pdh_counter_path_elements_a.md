@@ -94,7 +94,7 @@ Pointer to a null-terminated string that specifies the counter name.
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/f2dc5f77-9f9e-4290-95fa-ce2f1e81fc69">PdhMakeCounterPath</a> to create a counter path and by <a href="https://msdn.microsoft.com/760b94e9-88df-4f7d-92e9-333d682779f6">PdhParseCounterPath</a> to parse a counter path.
+This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a> to create a counter path and by <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhparsecounterpatha">PdhParseCounterPath</a> to parse a counter path.
 
 When you allocate memory for this structure, allocate enough memory for the member strings, such as <b>szCounterName</b>, that are appended to the end of this structure.
 
@@ -106,11 +106,11 @@ When you allocate memory for this structure, allocate enough memory for the memb
 
 
 
-<a href="https://msdn.microsoft.com/f2dc5f77-9f9e-4290-95fa-ce2f1e81fc69">PdhMakeCounterPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/760b94e9-88df-4f7d-92e9-333d682779f6">PdhParseCounterPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhparsecounterpatha">PdhParseCounterPath</a>
  
 
  

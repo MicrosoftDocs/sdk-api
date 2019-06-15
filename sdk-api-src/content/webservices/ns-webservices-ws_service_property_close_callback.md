@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Specifies the callback which is called when a channel is about to be closed. 
-                See, <a href="https://msdn.microsoft.com/e2860015-219b-46be-921d-7ced0d95fc60">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a> for details.
+                See, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a> for details.
             
 
 

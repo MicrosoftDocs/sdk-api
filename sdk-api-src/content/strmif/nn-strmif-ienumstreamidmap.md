@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <code>IEnumStreamIdMap</code> interface is implemented on a standard COM collection of Stream ID maps that have been created by the <a href="https://msdn.microsoft.com/99bfc55d-6519-4e85-98ce-cad27bd71ffb">MPEG-2 Demultiplexer</a>'s <a href="https://msdn.microsoft.com/e74a1e62-1bc4-43e1-9017-85012b2ece01">IMPEG2StreamIdMap::MapStreamId</a> method. To obtain a pointer to this interface, use the <a href="https://msdn.microsoft.com/2c42f042-c9fb-4cb9-90bb-4050a61b18da">IMPEG2StreamIdMap::EnumStreamIdMap</a> method. Typically, an output pin will never have more than one stream ID mapped to it at any given time. This collection represents a snapshot of the Stream IDs mapped at the time the collection is created. The collection is not updated automatically.
+The <code>IEnumStreamIdMap</code> interface is implemented on a standard COM collection of Stream ID maps that have been created by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a>'s <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-mapstreamid">IMPEG2StreamIdMap::MapStreamId</a> method. To obtain a pointer to this interface, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-impeg2streamidmap-enumstreamidmap">IMPEG2StreamIdMap::EnumStreamIdMap</a> method. Typically, an output pin will never have more than one stream ID mapped to it at any given time. This collection represents a snapshot of the Stream IDs mapped at the time the collection is created. The collection is not updated automatically.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumStreamIdMap</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumStreamIdMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumStreamIdMap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumStreamIdMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IEnumStreamIdMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c6ef2a8-a5d7-434f-8de2-221502b7c5cf">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the collection and all its sub-objects.
@@ -82,7 +82,7 @@ Creates a new copy of the collection and all its sub-objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49e7ab23-e57e-4437-a195-88bccb6002de">Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next <i>n</i> elements in the collection.
@@ -91,7 +91,7 @@ Retrieves the next <i>n</i> elements in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e8bc22c-8a13-4a5a-a15d-af4e1ed699bd">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves the iterator to the beginning of the collection.
@@ -100,7 +100,7 @@ Moves the iterator to the beginning of the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54502cd5-50b2-4bd2-a13f-180bddac178a">Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumstreamidmap-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the specified element in the collection.

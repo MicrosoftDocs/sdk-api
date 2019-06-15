@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation). For the Microsoft .NET Framework version of this control, see WebBrowser Control (Windows Forms). 
-<div class="alert"><b>Important</b>  <p class="note">The documentation in this section is a partial listing of IWebBrowswer2 interface members. The complete <a href="https://msdn.microsoft.com/en-us/library/aa752127%28v=vs.85%29.aspx">IWebBrowser2 interface</a> is documented in the <a href="https://msdn.microsoft.com/en-us/library/hh801968(v=vs.85).aspx">MSHTML Reference</a> content. 
+<div class="alert"><b>Important</b>  <p class="note">The documentation in this section is a partial listing of IWebBrowswer2 interface members. The complete <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752127(v=vs.85)">IWebBrowser2 interface</a> is documented in the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/hh801968(v=vs.85)">MSHTML Reference</a> content. 
 
 </div><div> </div>
 
@@ -60,7 +60,7 @@ Exposes methods that are implemented by the WebBrowser control (Microsoft Active
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=vs.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

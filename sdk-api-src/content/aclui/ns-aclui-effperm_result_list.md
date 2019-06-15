@@ -69,10 +69,10 @@ The number of elements in both the <b>pObjectTypeList</b> and <b>pGrantedAccessL
 
 ### -field pObjectTypeList
 
-A pointer to an array of <a href="https://msdn.microsoft.com/c729ff1a-65f3-4f6f-84dd-5700aead75ce">OBJECT_TYPE_LIST</a> structures that specifies the properties and property sets for which access was evaluated.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_object_type_list">OBJECT_TYPE_LIST</a> structures that specifies the properties and property sets for which access was evaluated.
 
 
 ### -field pGrantedAccessList
 
-A pointer to an array of <a href="https://msdn.microsoft.com/f115ee54-3333-4109-8004-d71904a7a943">ACCESS_MASK</a> values that specifies the access rights granted for each corresponding object type.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> values that specifies the access rights granted for each corresponding object type.
 

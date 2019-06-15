@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a one-to-one mapping to a sharable window. A sharable window is usually a top-level window that does not have an owner. Sharing the content of a window can be enabled or disabled by setting the <a href="https://msdn.microsoft.com/e07ebdbc-79ce-4a85-9960-197c4c7ca445">Shared</a> property on the window object to <b>TRUE</b> or <b>FALSE</b>. Applications can use this window object to display a list of windows that can be shared.
+Represents a one-to-one mapping to a sharable window. A sharable window is usually a top-level window that does not have an owner. Sharing the content of a window can be enabled or disabled by setting the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_shared">Shared</a> property on the window object to <b>TRUE</b> or <b>FALSE</b>. Applications can use this window object to display a list of windows that can be shared.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIWindow</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRDPSRAPIWindow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIWindow</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIWindow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IRDPSRAPIWindow</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b7aa5e7-7981-41c4-bb47-30b3d0d54bc1">Show</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-show">Show</a>
 </td>
 <td align="left" width="63%">
 Brings the current window to the foreground.
@@ -88,7 +88,7 @@ Brings the current window to the foreground.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a9c30288-c471-459e-b0df-a3da1fc58032">Application</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_application">Application</a>
 
 
 </td>
@@ -104,7 +104,7 @@ An application object that owns the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/64215325-fb94-4708-9391-5ef86c2c0076">Flags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_flags">Flags</a>
 
 
 </td>
@@ -120,7 +120,7 @@ The flags on the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4defca24-d9f0-4131-86c6-795d6b2e45de">Id</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_id">Id</a>
 
 
 </td>
@@ -136,7 +136,7 @@ The ID of the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/14086504-2f67-4ca2-a56c-b5866426e7a4">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_name">Name</a>
 
 
 </td>
@@ -152,7 +152,7 @@ The name of the window.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e07ebdbc-79ce-4a85-9960-197c4c7ca445">Shared</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiwindow-get_shared">Shared</a>
 
 
 </td>
@@ -173,11 +173,11 @@ The shared state of the window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ea90838-6de3-4b21-8db8-ff96e026505a">IRDPSRAPIWindowList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindowlist">IRDPSRAPIWindowList</a>
  
 
  

@@ -85,11 +85,11 @@ If the previous session is imported, the session start block cannot be changed m
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f1faea7-4272-42da-afdf-3399c9dd629f">IFileSystemImage::get_SessionStartBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_sessionstartblock">IFileSystemImage::get_SessionStartBlock</a>
  
 
  

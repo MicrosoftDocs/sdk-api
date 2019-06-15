@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 The
 				<b>WNetConnectionDialog1</b> function brings up a general browsing dialog for connecting to network resources. The function requires a 
-<a href="https://msdn.microsoft.com/fb2a4b5a-ad8a-4ebf-8430-349d821eee20">CONNECTDLGSTRUCT</a> to establish the dialog box parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_connectdlgstructa">CONNECTDLGSTRUCT</a> to establish the dialog box parameters.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If the user cancels the dialog box, the function returns –1. If the function i
 <b>CONNECTDLGSTRUCT</b> structure contains the number of the connected device.
 
 Typically this dialog returns an error only if the user cannot enter a dialog session. This is because errors that occur after a dialog session are reported to the user directly. If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ Typically this dialog returns an error only if the user cannot enter a dialog se
 </td>
 <td width="60%">
 Both the CONNDLG_RO_PATH and the CONNDLG_USE_MRU dialog box options are set. (Dialog box options are specified by the <b>dwFlags</b> member of the 
-<a href="https://msdn.microsoft.com/fb2a4b5a-ad8a-4ebf-8430-349d821eee20">CONNECTDLGSTRUCT</a> structure.) 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_connectdlgstructa">CONNECTDLGSTRUCT</a> structure.) 
 
 
 
@@ -103,7 +103,7 @@ Both the CONNDLG_PERSIST and the CONNDLG_NOT_PERSIST dialog box options are set.
 -or-
 
 The CONNDLG_RO_PATH dialog box option is set and the <b>lpRemoteName</b> member of the 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a> structure does not point to a remote network. (The 
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure does not point to a remote network. (The 
 <b>CONNECTDLGSTRUCT</b> structure points to a 
 <b>NETRESOURCE</b> structure.)
 
@@ -162,7 +162,7 @@ There is insufficient memory to display the dialog box.
 </td>
 <td width="60%">
 A network-specific error occurred. Call 
-<a href="https://msdn.microsoft.com/8e13c467-adcf-4e97-b51a-1f5fc919b51e">WNetGetLastError</a> to obtain a description of the error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> to obtain a description of the error.
 
 </td>
 </tr>
@@ -177,28 +177,28 @@ A network-specific error occurred. Call
 
 
 
-<a href="https://msdn.microsoft.com/fb2a4b5a-ad8a-4ebf-8430-349d821eee20">CONNECTDLGSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_connectdlgstructa">CONNECTDLGSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2dc383bb-0a1a-4612-88f9-f92c8e2a398d">WNetConnectionDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog">WNetConnectionDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/76e0f38a-e057-4496-9c2f-7ea73d19bd76">WNetDisconnectDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog">WNetDisconnectDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
  
 

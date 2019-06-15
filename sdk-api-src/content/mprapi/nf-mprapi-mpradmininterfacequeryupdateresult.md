@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MprAdminInterfaceQueryUpdateResult</b> function returns the result of the last request to a specified router manager to update its routes for an interface. For more information, see 
-<a href="https://msdn.microsoft.com/b06ce009-c52f-4d3b-a452-785c75638c89">MprAdminInterfaceUpdateRoutes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceupdateroutes">MprAdminInterfaceUpdateRoutes</a>.
 
 
 ## -parameters
@@ -62,13 +62,13 @@ The
 ### -param hMprServer [in]
 
 Handle to the router from which information is being retrieved. Obtain this handle by calling 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 
 ### -param hInterface [in]
 
 Handle to the interface. This handle is obtained from a previous call to 
-<a href="https://msdn.microsoft.com/c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4">MprAdminInterfaceCreate</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
 
 
 ### -param dwProtocolId [in]
@@ -107,7 +107,7 @@ A <b>DWORD</b> value that specifies which router manager is being queried. The r
 ### -param lpdwUpdateResult [out]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the result of the last call to 
-<a href="https://msdn.microsoft.com/b06ce009-c52f-4d3b-a452-785c75638c89">MprAdminInterfaceUpdateRoutes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceupdateroutes">MprAdminInterfaceUpdateRoutes</a>.
 
 
 ## -returns
@@ -209,23 +209,23 @@ The <i>dwProtocolId</i> parameter specifies both a transport and a router manage
 
 
 
-<a href="https://msdn.microsoft.com/c9590ebe-7e49-4ad1-bd9b-0d9c51938bc4">MprAdminInterfaceCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/b06ce009-c52f-4d3b-a452-785c75638c89">MprAdminInterfaceUpdateRoutes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceupdateroutes">MprAdminInterfaceUpdateRoutes</a>
 
 
 
-<a href="https://msdn.microsoft.com/f93b37bc-d3d1-40f0-aef6-839bb43c88e2">MprAdminServerConnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/a61734a7-b171-4e38-8dec-46be9a9c08ee">Router Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
  
 
  

@@ -58,7 +58,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2Erase</b> interface inherits from <a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>. <b>IDiscFormat2Erase</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2Erase</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>. <b>IDiscFormat2Erase</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IDiscFormat2Erase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc71d1bf-b068-42c0-a87d-ae8fac279a58">EraseMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-erasemedia">EraseMedia</a>
 </td>
 <td align="left" width="63%">
 Erases the media in the active disc recorder.
@@ -82,7 +82,7 @@ Erases the media in the active disc recorder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be52c76d-3c6a-44b7-a948-4d0b02a7a7bb">get_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_clientname">get_ClientName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the friendly name of the client.
@@ -91,7 +91,7 @@ Retrieves the friendly name of the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6eda2c28-3dc6-4ca0-9806-0b9621bfe940">get_CurrentPhysicalMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_currentphysicalmediatype">get_CurrentPhysicalMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of media in the disc device.
@@ -100,7 +100,7 @@ Retrieves the type of media in the disc device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56b4db17-1699-4e09-9a6d-ef5e998621c5">get_FullErase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase">get_FullErase</a>
 </td>
 <td align="left" width="63%">
 Determines the quality of the disc erasure.
@@ -109,7 +109,7 @@ Determines the quality of the disc erasure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f41ea99-e467-45ef-8f78-8b0637adf5be">get_Recorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_recorder">get_Recorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the recording device to use in the erase operation.
@@ -118,7 +118,7 @@ Retrieves the recording device to use in the erase operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/641395b1-724b-42d1-b230-a4d6f3844077">put_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_clientname">put_ClientName</a>
 </td>
 <td align="left" width="63%">
 Sets the friendly name of the client.
@@ -127,7 +127,7 @@ Sets the friendly name of the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a76ebbe-69c5-46a4-b620-220957220e53">put_FullErase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase">put_FullErase</a>
 </td>
 <td align="left" width="63%">
 Determines the quality of the disc erasure.
@@ -136,7 +136,7 @@ Determines the quality of the disc erasure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d38c0d75-eb9c-4b8c-bf0e-7f05eb2f5116">put_Recorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_recorder">put_Recorder</a>
 </td>
 <td align="left" width="63%">
 Sets the recording device to use in the erase operation.
@@ -160,7 +160,7 @@ To create the <b>MsftDiscFormat2Erase</b> object in a script, use IMAPI2.MsftDis
 
 
 
-<a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
  
 
  

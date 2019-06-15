@@ -60,7 +60,7 @@ To use this interface, implement the interface in your application or client obj
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMFilterGraphCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMFilterGraphCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMFilterGraphCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMFilterGraphCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMFilterGraphCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7fa0eae-f950-423a-8a89-9a7619b27ce6">UnableToRender</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamfiltergraphcallback-unabletorender">UnableToRender</a>
 </td>
 <td align="left" width="63%">
 Informs the client that no combination of filters could be found to render the specified pin.
@@ -90,7 +90,7 @@ Informs the client that no combination of filters could be found to render the s
 
 
 
-<a href="https://msdn.microsoft.com/4d8e45e3-7144-44ad-b79e-5acc0cec6ed4">IAMGraphBuilderCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphbuildercallback">IAMGraphBuilderCallback Interface</a>
  
 
  

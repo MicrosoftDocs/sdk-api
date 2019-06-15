@@ -69,7 +69,7 @@ Modifies the shutdown or restart actions for an application identified by its   
 
 ### -field RmFilterTriggerProcess
 
-Modifies the shutdown or restart actions for an application identified by a <a href="https://msdn.microsoft.com/5e3698c7-1ea8-4f9d-8fae-e69055a000fc">RM_UNIQUE_PROCESS</a> structure.
+Modifies the shutdown or restart actions for an application identified by a <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_unique_process">RM_UNIQUE_PROCESS</a> structure.
 
 
 ### -field RmFilterTriggerService
@@ -82,7 +82,7 @@ Modifies the shutdown or restart actions for a service identified by a service s
 
 
 
-<a href="https://msdn.microsoft.com/b0fd12e4-20e3-48d1-a2db-c1e0334ed427">RM_FILTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_filter_info">RM_FILTER_INFO</a>
  
 
  

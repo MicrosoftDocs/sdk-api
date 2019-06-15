@@ -222,7 +222,7 @@ Requires Windows Media Player 12.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563710(v=VS.85).aspx">IWMPSyncDevice2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2 Interface</a>
  
 
  

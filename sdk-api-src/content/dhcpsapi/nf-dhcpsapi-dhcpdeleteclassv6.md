@@ -76,7 +76,7 @@ Unicode string that specifies the name of the DHCPv6 class to delete.
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ The class is a built-in class and cannot be deleted.
 
 
 
-<a href="https://msdn.microsoft.com/5ab20ec9-c809-4d89-8fe6-a5a966e5bff2">DhcpCreateClassV6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateclassv6">DhcpCreateClassV6</a>
  
 
  

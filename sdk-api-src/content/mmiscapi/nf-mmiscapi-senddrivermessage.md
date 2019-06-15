@@ -62,7 +62,7 @@ Sends the specified message to the installable driver.
 
 ### -param hDriver [in]
 
-Handle of the installable driver instance. The handle must been previously created by using the <a href="https://msdn.microsoft.com/882146f7-cd42-45fd-8a5f-7078b64c7ea8">OpenDriver</a> function.
+Handle of the installable driver instance. The handle must been previously created by using the <a href="https://docs.microsoft.com/previous-versions//dd743639(v=vs.85)">OpenDriver</a> function.
 
 
 ### -param message [in]
@@ -76,7 +76,7 @@ Driver message value. It can be a custom message value or one of these standard 
 </tr>
 <tr>
 <td width="40%"><a id="DRV_QUERYCONFIGURE"></a><a id="drv_queryconfigure"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/fb2e36a7-8d6b-4b08-b2d7-e128ca7082dc">DRV_QUERYCONFIGURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-queryconfigure">DRV_QUERYCONFIGURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -86,17 +86,17 @@ Queries an installable driver about whether it supports the <b>DRV_CONFIGURE</b>
 </tr>
 <tr>
 <td width="40%"><a id="DRV_CONFIGURE"></a><a id="drv_configure"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/0d99fad7-ce79-4574-9fd8-262f7e758866">DRV_CONFIGURE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-configure">DRV_CONFIGURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-Notifies an installable driver that it should display a configuration dialog box. (This message should only be sent if the driver returns a nonzero value when the <a href="https://msdn.microsoft.com/fb2e36a7-8d6b-4b08-b2d7-e128ca7082dc">DRV_QUERYCONFIGURE</a> message is processed.)
+Notifies an installable driver that it should display a configuration dialog box. (This message should only be sent if the driver returns a nonzero value when the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-queryconfigure">DRV_QUERYCONFIGURE</a> message is processed.)
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="DRV_INSTALL"></a><a id="drv_install"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/8ee7b30b-600b-49f3-93a7-8faa7b87cfd8">DRV_INSTALL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-install">DRV_INSTALL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ Notifies an installable driver that it has been successfully installed.
 </tr>
 <tr>
 <td width="40%"><a id="DRV_REMOVE"></a><a id="drv_remove"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/e4f6ce7c-29e5-4256-b08a-13571256207c">DRV_REMOVE</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-remove">DRV_REMOVE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -142,11 +142,11 @@ Returns nonzero if successful or zero otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/f3acbfa0-66d4-452b-b1df-ef6b46d1eb39">Installable Driver Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-driver-functions">Installable Driver Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b628a4d-48fa-4388-9d7c-0c901c45b7f3">Installable Drivers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/installable-drivers">Installable Drivers</a>
  
 
  

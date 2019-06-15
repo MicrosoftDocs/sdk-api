@@ -82,7 +82,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 This transform contains the default overpan and bounce curves during manipulation and inertia.
 
-This transform does not contain the sync transform set with <a href="https://msdn.microsoft.com/3e70b208-05b5-4b84-a582-fd835acdd777">SyncContentTransform</a>.
+This transform does not contain the sync transform set with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationcontent-synccontenttransform">SyncContentTransform</a>.
 
 
 
@@ -102,7 +102,7 @@ When this method returns, the format of <i>matrix</i> is:
 
 
 
-<a href="https://msdn.microsoft.com/4d69a503-f998-4197-824f-4df48825c941">IDirectManipulationContent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
  
 
  

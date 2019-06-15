@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -73,7 +73,7 @@ A handle to an issuance license.
 
 ### -param eUsagePolicyType [in]
 
-One of the <a href="https://msdn.microsoft.com/b7486f70-36da-4868-9b50-caa37f7a7539">DRM_USAGEPOLICY_TYPE</a> values that specifies the type of usage policy to be added or deleted. Only one type may be selected.
+One of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/ne-msdrmdefs-_drm_usagepolicy_type">DRM_USAGEPOLICY_TYPE</a> values that specifies the type of usage policy to be added or deleted. Only one type may be selected.
 
 
 ### -param fDelete [in]
@@ -127,7 +127,7 @@ The number of bytes in the <i>pbDigest</i> array.  This parameter is required wh
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -185,11 +185,11 @@ The version comparison is a case-sensitive, character-by-character string compar
 
 
 
-<a href="https://msdn.microsoft.com/b3b4e7c6-d3d3-4bf7-b6c4-9502a56a7223">AD RMS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/135ed2d0-17a9-46a2-9495-4102115f7bad">DRMGetUsagePolicy</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetusagepolicy">DRMGetUsagePolicy</a>
  
 
  

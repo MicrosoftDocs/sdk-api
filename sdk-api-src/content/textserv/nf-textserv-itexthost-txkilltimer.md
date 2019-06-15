@@ -59,9 +59,9 @@ Requests the text host to destroy the specified timer.
 
 ### -param idTimer [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Identifier of the timer created by the <a href="https://msdn.microsoft.com/en-us/library/Bb787686(v=VS.85).aspx">ITextHost::TxSetTimer</a> method. 
+Identifier of the timer created by the <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsettimer">ITextHost::TxSetTimer</a> method. 
 
 
 ## -returns
@@ -91,7 +91,7 @@ This method may be called at any time, whether the control is active or inactive
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -99,11 +99,11 @@ This method may be called at any time, whether the control is active or inactive
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787686(v=VS.85).aspx">TxSetTimer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsettimer">TxSetTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

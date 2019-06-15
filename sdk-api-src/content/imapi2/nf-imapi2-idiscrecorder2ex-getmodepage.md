@@ -59,12 +59,12 @@ Retrieves the specified mode page from the device.
 
 ### -param requestedModePage [in]
 
-Mode page to retrieve. For possible values, see the <a href="https://msdn.microsoft.com/da6262a0-2b21-4568-9da1-dc8ca1ba2b4a">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
+Mode page to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
 
 
 ### -param requestType [in]
 
-Type of mode page data to retrieve, for example, the current settings or the settings that are write enabled. For possible values, see the <a href="https://msdn.microsoft.com/f27cd003-34a0-4aee-81d5-74fb02d9427c">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
+Type of mode page data to retrieve, for example, the current settings or the settings that are write enabled. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
 
 
 ### -param modePageData [out]
@@ -389,19 +389,19 @@ Value: 0xC0AA0201
 
 
 
-<a href="https://msdn.microsoft.com/37e65b57-ec53-405c-a7bd-34c2df15d5d7">IDiscRecorder2Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/343d976e-97f3-4231-a417-4ebe7967f99c">IDiscRecorder2Ex::GetSupportedModePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ca1e8c0-d75d-40a7-8b2e-5c240c410031">IDiscRecorder2Ex::SetModePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-setmodepage">IDiscRecorder2Ex::SetModePage</a>
 
 
 
-<a href="https://msdn.microsoft.com/f27cd003-34a0-4aee-81d5-74fb02d9427c">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
 
 
 

@@ -55,7 +55,7 @@ ms.custom: 19H1
 <div class="alert"><b>Note</b>  Windows Information Protection (WIP) policy can be applied on Windows 10, version 1607.</div>
 <div> </div>Disables permissive mode for file encryption on the current thread. 
 
-Use <a href="https://msdn.microsoft.com/4CC6D174-55FC-40D7-BE7B-5F56B27DA225">SrpEnablePermissiveModeFileEncryption</a> to enable the mode. 
+Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/srpapi/nf-srpapi-srpenablepermissivemodefileencryption">SrpEnablePermissiveModeFileEncryption</a> to enable the mode. 
 
 This API does not attempt to handle nested calls by reference counting or such. The first call to <b>SrpDisablePermissiveModeFileEncryption</b> will disable the permissive mode.
 

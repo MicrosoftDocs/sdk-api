@@ -64,17 +64,17 @@ Not used.
 
 ### -param pCallback [in]
 
-The  <a href="https://msdn.microsoft.com/1fb2d5d8-82b8-4c51-a086-bdcad33da190">IPortableDeviceEventCallback</a> interface specifying the callback object to register.
+The  <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceeventcallback">IPortableDeviceEventCallback</a> interface specifying the callback object to register.
 
 
 ### -param pParameters [in]
 
-The <a href="https://msdn.microsoft.com/a73cbb4e-15d2-4c8d-9267-aaec9a0fd09f">IPortableDeviceValues</a> interface specifying the event-registration parameters, or <b>NULL</b> if the callback object is to receive all service events.
+The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the event-registration parameters, or <b>NULL</b> if the callback object is to receive all service events.
 
 
 ### -param ppszCookie [out]
 
-The unique context ID for the callback object. This value matches that used by the <a href="https://msdn.microsoft.com/4982efa9-82f2-457b-acf4-c6f7d48cf6f7">Unadvise</a> method to unregister the callback object.
+The unique context ID for the callback object. This value matches that used by the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-unadvise">Unadvise</a> method to unregister the callback object.
 
 
 ## -returns
@@ -120,7 +120,7 @@ A <b>NULL</b> value was specified for the <i>pCallback</i> parameter or the <i>p
 
 
 
-During cleanup, an application should unregister the callback object by calling the <a href="https://msdn.microsoft.com/4982efa9-82f2-457b-acf4-c6f7d48cf6f7">Unadvise</a> method, and then release the memory referenced by the <i>ppszCookie</i> parameter by calling the <b>CoTaskMemFree</b> function.
+During cleanup, an application should unregister the callback object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-unadvise">Unadvise</a> method, and then release the memory referenced by the <i>ppszCookie</i> parameter by calling the <b>CoTaskMemFree</b> function.
 
 
 
@@ -130,7 +130,7 @@ During cleanup, an application should unregister the callback object by calling 
 
 
 
-<a href="https://msdn.microsoft.com/f57344d5-c978-4c27-b8a9-b42492bd9312">IPortableDeviceService Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
  
 
  

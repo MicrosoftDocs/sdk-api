@@ -62,13 +62,13 @@ Retrieves information about the next heap that has been allocated by a process.
 ### -param hSnapshot [in]
 
 A handle to the snapshot returned from a previous call to the 
-<a href="https://msdn.microsoft.com/df643c25-7558-424c-b187-b3f86ba51358">CreateToolhelp32Snapshot</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
 
 ### -param lphl [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/61e01d23-9f15-44c5-9f6d-45df4809ccad">HEAPLIST32</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheaplist32">HEAPLIST32</a> structure.
 
 
 ## -returns
@@ -76,7 +76,7 @@ A pointer to a
 
 
 Returns <b>TRUE</b> if the next entry of the heap list has been copied to the buffer or <b>FALSE</b> otherwise. The <b>ERROR_NO_MORE_FILES</b> error value is returned by the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function when no more entries in the heap list exist.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function when no more entries in the heap list exist.
 
 
 
@@ -86,13 +86,13 @@ Returns <b>TRUE</b> if the next entry of the heap list has been copied to the bu
 
 
 To retrieve information about the first heap in a heap list, use the 
-<a href="https://msdn.microsoft.com/b9a2992b-0dc1-41c3-aa23-796def674831">Heap32ListFirst</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/cfa1d2a4-fec0-4089-9351-e0a26f9ecfe3">Traversing the Heap List</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-heap-list">Traversing the Heap List</a>.
 
 <div class="code"></div>
 
@@ -103,23 +103,23 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/df643c25-7558-424c-b187-b3f86ba51358">CreateToolhelp32Snapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/61e01d23-9f15-44c5-9f6d-45df4809ccad">HEAPLIST32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagheaplist32">HEAPLIST32</a>
 
 
 
-<a href="https://msdn.microsoft.com/631096fd-cb2c-4b19-aa71-d47060e2715c">Heap Lists and Heap Walking</a>
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/heap-lists-and-heap-walking">Heap Lists and Heap Walking</a>
 
 
 
-<a href="https://msdn.microsoft.com/b9a2992b-0dc1-41c3-aa23-796def674831">Heap32ListFirst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>
 
 
 
-<a href="https://msdn.microsoft.com/83732bd6-f4cf-409d-ad17-86503d408dc3">Tool Help Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
  
 
  

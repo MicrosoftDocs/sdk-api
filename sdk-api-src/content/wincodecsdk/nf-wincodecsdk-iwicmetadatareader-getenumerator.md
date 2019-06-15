@@ -59,7 +59,7 @@ Gets an enumerator of all the metadata items.
 
 ### -param ppIEnumMetadata [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4fe0e47f-9ef4-4aa1-a3ae-578b3759f9ef">IWICEnumMetadataItem</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicenummetadataitem">IWICEnumMetadataItem</a>**</b>
 
 Pointer that receives a pointer to the metadata enumerator.
 

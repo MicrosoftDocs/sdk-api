@@ -54,22 +54,22 @@ Used to manage a collection of FSRM objects that can have objects added to or re
 The following properties return this interface:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/242a86ab-9dec-4106-9a49-70c12cc6de91">IFsrmFileGroup::Members</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroup-get_members">IFsrmFileGroup::Members</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c3c2ff78-db1a-44df-a7af-15c4a6c4b22d">IFsrmFileGroup::NonMembers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroup-get_nonmembers">IFsrmFileGroup::NonMembers</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1f75fa45-8de8-42ca-a0f5-5ffe8acea6b8">IFsrmFileScreenBase::BlockedFileGroups</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_blockedfilegroups">IFsrmFileScreenBase::BlockedFileGroups</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e02070dd-a51d-4572-a282-4e5a151cd987">IFsrmFileScreenException::AllowedFileGroups</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenexception-get_allowedfilegroups">IFsrmFileScreenException::AllowedFileGroups</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmMutableCollection</b> interface inherits from <a href="https://msdn.microsoft.com/6a0c5d8b-5fed-4c55-971c-43430e3c6a8d">IFsrmCollection</a>. <b>IFsrmMutableCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmMutableCollection</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>. <b>IFsrmMutableCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +84,7 @@ The <b>IFsrmMutableCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/916f01de-c87c-450c-859a-c349a165f91d">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -93,7 +93,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d673a7c-c8c3-409c-881f-58b87bf0809f">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate <b>IFsrmMutableCollection</b> collection.
@@ -102,7 +102,7 @@ Creates a duplicate <b>IFsrmMutableCollection</b> collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d28bfc7-82d4-4c74-bac9-f9ef9111279f">Remove</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes the specified object from the collection using an index value.
@@ -111,7 +111,7 @@ Removes the specified object from the collection using an index value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42f6fc4c-72fe-47c8-91c5-21987fa91848">RemoveById</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmmutablecollection-removebyid">RemoveById</a>
 </td>
 <td align="left" width="63%">
 Removes the specified object from the collection using an object identifier.
@@ -126,7 +126,7 @@ Removes the specified object from the collection using an object identifier.
 
 
 
-<a href="https://msdn.microsoft.com/6a0c5d8b-5fed-4c55-971c-43430e3c6a8d">IFsrmCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
  
 
  

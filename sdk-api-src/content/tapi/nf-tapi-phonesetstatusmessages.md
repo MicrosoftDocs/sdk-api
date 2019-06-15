@@ -66,19 +66,19 @@ Handle to the open phone device to be monitored.
 ### -param dwPhoneStates
 
 Set of phone status changes and events for which the application can receive notification messages. This parameter can have zero, one, or more of the 
-<a href="https://msdn.microsoft.com/5db53dd4-606a-40b9-9159-b67a0ea1e400">PHONESTATE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonestate--constants">PHONESTATE_ Constants</a>.
 
 
 ### -param dwButtonModes
 
 Set of phone-button modes for which the application can receive notification messages. This parameter can have zero, one, or more of the 
-<a href="https://msdn.microsoft.com/7bf337ee-acda-42fe-b50b-370aad50dc03">PHONEBUTTONMODE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonmode--constants">PHONEBUTTONMODE_ Constants</a>.
 
 
 ### -param dwButtonStates
 
 Set of phone-button state changes for which the application can receive notification messages. If the <i>dwButtonModes</i> parameter is zero, <i>dwButtonStates</i> is ignored. If <i>dwButtonModes</i> has one or more bits set, this parameter must also have at least one bit set. This parameter uses the 
-<a href="https://msdn.microsoft.com/f1196e31-65c6-4ade-a0b7-c7758ce97be1">PHONEBUTTONSTATE_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonstate--constants">PHONEBUTTONSTATE_ Constants</a>.
 
 
 ## -returns
@@ -107,39 +107,39 @@ An application can use the
 
 
 
-<a href="https://msdn.microsoft.com/9549e30c-9425-4fb1-8ce5-f180a32f8e1f">PHONECAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps_tag">PHONECAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/84650abf-235e-4792-a67d-2f0f08b85a32">PHONE_CLOSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-close">PHONE_CLOSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/74e74b62-8387-4056-83e6-2350b3da4077">PHONE_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d1a81d2-aa9e-4a85-85d3-aa4eabb26eb5">Supplementary Phone Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bfef6d7-d5fd-4887-afb8-b1d850df050d">phoneGetDevCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetdevcaps">phoneGetDevCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/e06153c1-707e-45a9-8d26-747d53e16cf2">phoneInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitialize">phoneInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fba6d5e-0d8c-488f-a17c-4852b487e300">phoneOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneopen">phoneOpen</a>
  
 
  

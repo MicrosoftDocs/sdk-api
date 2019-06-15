@@ -64,13 +64,13 @@ The length of this structure, in bytes.
 
 ### -field pUserSid
 
-The <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> of the user who created the certificate. This member is optional and can be <b>NULL</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> of the user who created the certificate. This member is optional and can be <b>NULL</b>.
 
 
 ### -field pHash
 
 A pointer to an 
-<a href="https://msdn.microsoft.com/23a172be-6e94-4a1f-afde-fc9437443c7a">EFS_HASH_BLOB</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_efs_hash_blob">EFS_HASH_BLOB</a> structure.
 
 
 ### -field lpDisplayInformation
@@ -90,15 +90,15 @@ User-displayable information for the certificate.  This is usually the user's co
 
 
 
-<a href="https://msdn.microsoft.com/23a172be-6e94-4a1f-afde-fc9437443c7a">EFS_HASH_BLOB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_efs_hash_blob">EFS_HASH_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/988159b3-3cb9-4a4d-9c68-ebfb309cff25">ENCRYPTION_CERTIFICATE_HASH_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_hash_list">ENCRYPTION_CERTIFICATE_HASH_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
  
 
  

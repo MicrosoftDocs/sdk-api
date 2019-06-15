@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>GetAddrInfoExCancel</b> function cancels an asynchronous operation by the <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function.
+<b>GetAddrInfoExCancel</b> function cancels an asynchronous operation by the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The
 
 ### -param lpHandle [in]
 
-The handle of the asynchronous operation to cancel. This is the handle returned in the <i>lpNameHandle</i> parameter by the <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> function. 
+The handle of the asynchronous operation to cancel. This is the handle returned in the <i>lpNameHandle</i> parameter by the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> function. 
 
 
 ## -returns
@@ -68,7 +68,7 @@ The handle of the asynchronous operation to cancel. This is the handle returned 
 
 
 On success,  <b>GetAddrInfoExCancel</b> returns <b>NO_ERROR</b> (0). Failure returns a nonzero Windows Sockets error code, as found in the 
-<a href="https://msdn.microsoft.com/50b924f3-2c88-443b-8a90-4293fe5c3048">Windows Sockets Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
 
 
 
@@ -77,7 +77,7 @@ On success,  <b>GetAddrInfoExCancel</b> returns <b>NO_ERROR</b> (0). Failure ret
 
 
 
-The <b>GetAddrInfoExCancel</b> function cancels an asynchronous <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> operation. The result is that the user's completion
+The <b>GetAddrInfoExCancel</b> function cancels an asynchronous <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> operation. The result is that the user's completion
     mechanism, either a callback or an event, is immediately invoked. No results are returned,
     and the error code returned for the <b>GetAddrInfoEx</b> asynchronous operation is set to <b>WSA_E_CANCELLED</b>. If the <b>GetAddrInfoEx</b> request has already completed or timed out,
     or the handle is invalid, and <b>WSA_INVALID_HANDLE</b> will be returned by <b>GetAddrInfoExCancel</b> function.
@@ -97,7 +97,7 @@ Since many of the underlying operations (legacy name service providers, for exam
 
 
 
-<a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
  
 
  

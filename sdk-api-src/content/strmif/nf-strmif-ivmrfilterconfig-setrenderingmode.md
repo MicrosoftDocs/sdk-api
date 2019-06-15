@@ -63,7 +63,7 @@ The <code>SetRenderingMode</code> method sets the rendering mode used by the VMR
 
 ### -param Mode [in]
 
-Specifies the rendering mode as a <a href="https://msdn.microsoft.com/cc924b1a-561f-4d62-8cc8-03ba5e5e8d5b">VMRMode</a> value.
+Specifies the rendering mode as a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmrmode">VMRMode</a> value.
 
 
 ## -returns
@@ -119,19 +119,19 @@ The VMR is in <b>VMRMode_Windowed</b> by default. Use this method only if you ar
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ea7bb41-1f5f-496f-bdf4-776ec9f28876">IVMRFilterConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrfilterconfig">IVMRFilterConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/139b0326-2ab1-4fa4-91ae-9115b4368660">IVMRFilterConfig::GetRenderingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-getrenderingmode">IVMRFilterConfig::GetRenderingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

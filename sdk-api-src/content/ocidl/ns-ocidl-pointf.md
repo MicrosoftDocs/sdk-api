@@ -75,7 +75,7 @@ The y coordinates of the point in units that the container finds convenient.
 
 
 
-<a href="https://msdn.microsoft.com/c7add062-4b42-43be-a982-c881c947f8f0">IOleControlSite::TransformCoords</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-transformcoords">IOleControlSite::TransformCoords</a>
  
 
  

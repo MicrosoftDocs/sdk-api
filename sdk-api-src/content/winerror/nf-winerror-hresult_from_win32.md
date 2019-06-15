@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Maps a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> to an <b>HRESULT</b> value. 
+Maps a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> to an <b>HRESULT</b> value. 
 
 
 ## -parameters
@@ -91,7 +91,7 @@ FORCEINLINE HRESULT HRESULT_FROM_WIN32(unsigned long x) {
 
 
 
-<a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
  
 
  

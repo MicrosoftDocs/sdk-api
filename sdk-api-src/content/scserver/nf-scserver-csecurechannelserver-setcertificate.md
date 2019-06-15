@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetCertificate</b> method specifies the certificate and private key of the secure authenticated channel (SAC) server. Information about where to get this certificate is given in <a href="https://msdn.microsoft.com/7932f599-a073-4fc8-82da-c0e7001c1809">Tools for Development</a>.
+The <b>SetCertificate</b> method specifies the certificate and private key of the secure authenticated channel (SAC) server. Information about where to get this certificate is given in <a href="https://docs.microsoft.com/windows/desktop/WMDM/tools-for-development">Tools for Development</a>.
 
 
 
@@ -97,7 +97,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -162,7 +162,7 @@ if (g_pSCWMDM)
 
 
 
-<a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
  
 
  

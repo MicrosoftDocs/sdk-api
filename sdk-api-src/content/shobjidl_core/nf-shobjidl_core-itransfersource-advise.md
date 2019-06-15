@@ -60,16 +60,16 @@ Sets up an advisory connection for notifications on the status of file operation
 
 ### -param psink [in]
 
-Type: <b><a href="https://msdn.microsoft.com/70866a03-2b22-4518-a9e6-2f06edaa4b5d">ITransferAdviseSink</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink">ITransferAdviseSink</a>*</b>
 
-A pointer to notification interface <a href="https://msdn.microsoft.com/70866a03-2b22-4518-a9e6-2f06edaa4b5d">ITransferAdviseSink</a> to update the calling application using methods on this interface.
+A pointer to notification interface <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink">ITransferAdviseSink</a> to update the calling application using methods on this interface.
 
 
 ### -param pdwCookie [out]
 
 Type: <b>DWORD*</b>
 
-A pointer to a returned token that uniquely identifies this connection. The calling application uses this token later to delete the connection by passing it to the <a href="https://msdn.microsoft.com/4f71134e-dfbf-40e7-b72b-c4913c876689">ITransferSource::Unadvise</a> method. If the connection was not successfully established, this value is zero.
+A pointer to a returned token that uniquely identifies this connection. The calling application uses this token later to delete the connection by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-unadvise">ITransferSource::Unadvise</a> method. If the connection was not successfully established, this value is zero.
 
 
 ## -returns

@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the priority for the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the priority for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
 
 
 ## -parameters
@@ -122,7 +122,7 @@ After setting the priority of a task, call <b>IPersistFile::Save</b> to save the
 
 #### Examples
 
-For more information and an example of how to set the priority of  a task, see <a href="https://msdn.microsoft.com/498dc438-3703-4d5c-a8b1-609d5776942d">C/C++ Code Example: Setting Task Priority</a>.
+For more information and an example of how to set the priority of  a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-setting-task-priority">C/C++ Code Example: Setting Task Priority</a>.
 
 <div class="code"></div>
 
@@ -133,11 +133,11 @@ For more information and an example of how to set the priority of  a task, see <
 
 
 
-<a href="https://msdn.microsoft.com/4ace8ab8-e629-4cf9-9bdf-416b2f67c4cd">GetPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-getpriority">GetPriority</a>
 
 
 
-<a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ber_next_element</b> function is used along with 
-<a href="https://msdn.microsoft.com/079ac0a6-1b73-433e-88b3-1ce16ddc2851">ber_first_element</a> to traverse a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure. It returns the tag and length of the next element in the constructed type.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_first_element">ber_first_element</a> to traverse a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. It returns the tag and length of the next element in the constructed type.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>ber_next_element</b> function is used along with
 
 ### -param pBerElement [in]
 
-Pointer to the source <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure.
+Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 
 ### -param pLen [in, out]
@@ -71,14 +71,14 @@ Returns the length of the next element to be parsed.
 ### -param opaque [in, out]
 
 An opaque cookie used internally that was returned by the initial call to the 
-<a href="https://msdn.microsoft.com/079ac0a6-1b73-433e-88b3-1ce16ddc2851">ber_first_element</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_first_element">ber_first_element</a> function.
 
 
 ## -returns
 
 
 
-Returns the tag of the next element to be read in the <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to be read.
+Returns the tag of the next element to be read in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure. LBER_DEFAULT is returned if there is no further data to be read.
 
 
 
@@ -97,15 +97,15 @@ The <i>pLen</i> and <i>opaque</i> pointer values returned by the function are in
 
 
 
-<a href="https://msdn.microsoft.com/079ac0a6-1b73-433e-88b3-1ce16ddc2851">ber_first_element</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_first_element">ber_first_element</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c6f24fa-47df-401c-afe8-84bf2987dd36">ber_peek_tag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_peek_tag">ber_peek_tag</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7548db-7752-4ce5-9f24-434abe77b000">ber_skip_tag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_skip_tag">ber_skip_tag</a>
  
 
  

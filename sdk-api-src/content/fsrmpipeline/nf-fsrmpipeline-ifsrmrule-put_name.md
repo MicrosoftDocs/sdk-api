@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-The name must be unique for its type (see the <a href="https://msdn.microsoft.com/a1aa2c94-b2f0-4620-8589-27360f5bdf05">IFsrmRule.RuleType</a> property).
+The name must be unique for its type (see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmrule-get_ruletype">IFsrmRule.RuleType</a> property).
 
 
 
@@ -73,7 +73,7 @@ The name must be unique for its type (see the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/e1de871f-a2c9-4787-a3e8-8c3428e9249e">IFsrmRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
  
 
  

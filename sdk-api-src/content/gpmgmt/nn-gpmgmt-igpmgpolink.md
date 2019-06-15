@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMGPOLink</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMGPOLink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMGPOLink</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMGPOLink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IGPMGPOLink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f4151a5-6c65-4257-a2f2-28f8395968ed">Delete</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpolink-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Removes the GPO link from the SOM.
@@ -89,7 +89,7 @@ Removes the GPO link from the SOM.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4197b502-c797-4cba-a3f6-339af9208348">Enabled</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpolink-property-methods">Enabled</a>
 
 
 </td>
@@ -101,7 +101,7 @@ Value that specifies whether the GPO link is enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4197b502-c797-4cba-a3f6-339af9208348">Enforced</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpolink-property-methods">Enforced</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Value that specifies whether the GPO link is enforced. If this property is equal
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4197b502-c797-4cba-a3f6-339af9208348">GPODomain</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpolink-property-methods">GPODomain</a>
 
 
 </td>
@@ -125,7 +125,7 @@ Domain in which the GPO resides. This is a full DNS name, for example, example.m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4197b502-c797-4cba-a3f6-339af9208348">GPOID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpolink-property-methods">GPOID</a>
 
 
 </td>
@@ -137,20 +137,20 @@ ID of the GPO.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4197b502-c797-4cba-a3f6-339af9208348">SOM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpolink-property-methods">SOM</a>
 
 
 </td>
 <td align="left" width="63%">
 
-<a href="https://msdn.microsoft.com/e3252dba-403d-486d-b666-9bb04ec0aa90">GPMSOM</a> object to which the GPO link is attached.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">GPMSOM</a> object to which the GPO link is attached.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4197b502-c797-4cba-a3f6-339af9208348">SOMLinkOrder</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmgpolink-property-methods">SOMLinkOrder</a>
 
 
 </td>
@@ -167,15 +167,15 @@ Position of the GPO link in relation to other GPO links for the SOM.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/37753a31-0ef8-4fb9-b542-a91ae47ed417">IGPMGPOLinksCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a>
  
 
  

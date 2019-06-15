@@ -59,7 +59,7 @@ Ripping a CD by using the <b>IWMPCdromRip</b> interface has the same effect as r
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCdromRip</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPCdromRip</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPCdromRip</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPCdromRip</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPCdromRip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563103(v=VS.85).aspx">get_ripProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripprogress">get_ripProgress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the CD ripping progress as percent complete.
@@ -83,7 +83,7 @@ Retrieves the CD ripping progress as percent complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563104(v=VS.85).aspx">get_ripState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-get_ripstate">get_ripState</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration value that indicates the current state of the ripping process.
@@ -92,7 +92,7 @@ Retrieves an enumeration value that indicates the current state of the ripping p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563105(v=VS.85).aspx">startRip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-startrip">startRip</a>
 </td>
 <td align="left" width="63%">
 Rips the CD.
@@ -101,7 +101,7 @@ Rips the CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563106(v=VS.85).aspx">stopRip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromrip-stoprip">stopRip</a>
 </td>
 <td align="left" width="63%">
 Stops the CD ripping process.
@@ -116,11 +116,11 @@ Stops the CD ripping process.
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5c1b5bf-d616-48cb-8690-e0237c56e402">Ripping a CD</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
  
 
  

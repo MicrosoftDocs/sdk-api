@@ -68,13 +68,13 @@ The filter uses its own rate-matching mechanism; the renderer should therefore n
 
 ### -field AM_PUSHSOURCECAPS_NOT_LIVE
 
-The filter is not live. Do not treat it as a live source, even though it exposes the <a href="https://msdn.microsoft.com/5ab294a8-f250-405c-a589-68998bc04cdf">IAMPushSource</a> interface.
+The filter is not live. Do not treat it as a live source, even though it exposes the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource</a> interface.
           
 
 
 ### -field AM_PUSHSOURCECAPS_PRIVATE_CLOCK
 
-The filter time stamps the samples using a private clock. The clock is not available to the rest of the graph through <a href="https://msdn.microsoft.com/9818c67d-dfbe-4498-a744-d2efaa4bfb58">IReferenceClock</a>.
+The filter time stamps the samples using a private clock. The clock is not available to the rest of the graph through <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a>.
           
 
 
@@ -103,7 +103,7 @@ If no flags are set (the default case), the source filter is assumed to be live 
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
  
 
  

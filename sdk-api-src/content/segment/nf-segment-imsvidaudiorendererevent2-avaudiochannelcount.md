@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates a change in the <a href="https://msdn.microsoft.com/e395ce9c-3f11-41e9-8c8c-48c17b217ebc">AVAudioChannelCount</a> codec  property.
+Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount</a> codec  property.
 
 
 ## -parameters
@@ -73,11 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e395ce9c-3f11-41e9-8c8c-48c17b217ebc">AVAudioChannelCount Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avaudiochannelcount-property">AVAudioChannelCount Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694453(v=VS.85).aspx">IMSVidAudioRendererEvent2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>
  
 
  

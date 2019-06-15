@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags that define the comparison to perform when using the <a href="https://msdn.microsoft.com/246e5c2e-8d89-4ab5-b9ae-21a41eefa2e2">IWbemClassObject::CompareTo</a> method.
+Contains flags that define the comparison to perform when using the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-compareto">IWbemClassObject::CompareTo</a> method.
 
 
 ## -enum-fields
@@ -90,5 +90,5 @@ Compare string values in a case-insensitive manner. This applies both to strings
 ### -field WBEM_FLAG_IGNORE_FLAVOR
 
 Ignore qualifier flavors. This flag still takes qualifier values into account, but ignores flavor distinctions such as propagation rules and override restrictions (for more information, see 
-<a href="https://msdn.microsoft.com/6a0769ac-e16c-45e1-92b6-26e4969bf23d">Qualifier Flavors</a>).
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>).
 

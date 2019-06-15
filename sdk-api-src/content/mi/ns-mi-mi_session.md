@@ -78,11 +78,11 @@ This is the function table for accessing carrying out
 
 
 
-<a href="https://msdn.microsoft.com/76010766-aa20-4632-940d-48d9769803da">MI_Application_NewSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsession">MI_Application_NewSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/275657b1-9e74-456e-9ef9-28b621d27fc7">MI_Context_GetLocalSession</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocalsession">MI_Context_GetLocalSession</a>
  
 
  

@@ -61,7 +61,7 @@ Gets the date and time that the file was last modified on the server.
 ### -param pVal [out]
 
 Date and time that the file was last modified on the server. The time is specified as 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 
 ## -returns
@@ -97,7 +97,7 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/61db33de-a38c-4c52-9f1b-66d46f25c297">IBitsPeerCacheRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
  
 
  

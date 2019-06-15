@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs operations required after calling <a href="https://msdn.microsoft.com/b57e32eb-a637-47d8-b136-05cb193e9f73">IMalloc::HeapMinimize</a>.
+Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ This method does not return a value.
 
 
 
-When a spy object implementing <a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a> is registered using the <a href="https://msdn.microsoft.com/28623c1f-e158-4cc5-8c7f-c13d7a65aa76">CoRegisterMallocSpy</a> function, COM calls this method immediately after any call to <a href="https://msdn.microsoft.com/d65411ea-13d5-4932-a757-d897311e9e28">IMalloc::Free</a>. This method is included for completeness and consistencyâ€”it is not anticipated that developers will implement significant functionality in this method.
+When a spy object implementing <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a> is registered using the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a> function, COM calls this method immediately after any call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>. This method is included for completeness and consistencyâ€”it is not anticipated that developers will implement significant functionality in this method.
 
 
 
@@ -82,15 +82,15 @@ When a spy object implementing <a href="https://msdn.microsoft.com/8ba500f7-c070
 
 
 
-<a href="https://msdn.microsoft.com/b57e32eb-a637-47d8-b136-05cb193e9f73">IMalloc::HeapMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ba500f7-c070-4788-b7fe-58b6a4e6a94c">IMallocSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imallocspy">IMallocSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e80f555-5382-4bd9-ab56-a67f42b13cae">IMallocSpy::PreHeapMinimize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-preheapminimize">IMallocSpy::PreHeapMinimize</a>
  
 
  

@@ -64,7 +64,7 @@ The virtual address.
 
 ### -field VirtualAttributes
 
-A <a href="https://msdn.microsoft.com/4ba17fa0-2aed-4099-9380-fc13f1b826ca">PSAPI_WORKING_SET_EX_BLOCK</a> union that indicates the attributes of the page at <b>VirtualAddress</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_block">PSAPI_WORKING_SET_EX_BLOCK</a> union that indicates the attributes of the page at <b>VirtualAddress</b>.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ A <a href="https://msdn.microsoft.com/4ba17fa0-2aed-4099-9380-fc13f1b826ca">PSAP
 
 
 
-<a href="https://msdn.microsoft.com/4ba17fa0-2aed-4099-9380-fc13f1b826ca">PSAPI_WORKING_SET_EX_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-_psapi_working_set_ex_block">PSAPI_WORKING_SET_EX_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/59ae76c9-e954-4648-9c9f-787136375b02">QueryWorkingSetEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-queryworkingsetex">QueryWorkingSetEx</a>
  
 
  

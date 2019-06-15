@@ -70,7 +70,7 @@ Pointer to a wide-character null-terminated string containing the protocol.
 
 ### -param pProxySetting [out]
 
-Pointer to one member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757852(v=VS.85).aspx">WMT_PROXY_SETTINGS</a> enumeration type.
+Pointer to one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_proxy_settings">WMT_PROXY_SETTINGS</a> enumeration type.
 
 
 ## -returns
@@ -117,11 +117,11 @@ NULL or invalid argument passed in.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743550(v=VS.85).aspx">IWMReaderNetworkConfig::SetProxySettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">IWMReaderNetworkConfig::SetProxySettings</a>
  
 
  

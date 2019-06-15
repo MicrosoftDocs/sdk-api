@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/462AC12E-C856-4D8F-83AF-FAC3221425C2">IDWriteFontFallbackBuilder</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontfallbackbuilder">IDWriteFontFallbackBuilder</a>
  
 
  

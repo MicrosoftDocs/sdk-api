@@ -154,7 +154,7 @@ The function successfully stored all of the content set identifiers in the buffe
  
 
 For other types of failures, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 					
 
 
@@ -165,7 +165,7 @@ For other types of failures, the return value is a
 
 
 
-<a href="https://msdn.microsoft.com/83DCEAB7-5F79-4A55-8BAC-D20F545FF76D">PerfEnumerateCounterSetInstances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfenumeratecountersetinstances">PerfEnumerateCounterSetInstances</a>
  
 
  

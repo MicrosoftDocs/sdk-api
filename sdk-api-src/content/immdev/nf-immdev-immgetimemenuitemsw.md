@@ -89,17 +89,17 @@ Retrieve the menu items for the context menu, obtained by a right mouse click.
 
 ### -param lpImeParentMenu [out, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
 
 
 ### -param lpImeMenu [out, optional]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
 
 
 ### -param dwSize [in]
 
-Size of the buffer to receive the <a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a> structure.
+Size of the buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a> structure.
 
 
 #### - dwType [in]
@@ -199,15 +199,15 @@ Returns the number of menu items copied into <i>lpImeMenu</i>. If <i>lpImeMenu</
 
 
 
-<a href="https://msdn.microsoft.com/2e00993f-6720-4139-8097-a3d830e661ca">IMEMENUITEMINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-tagimemenuiteminfoa">IMEMENUITEMINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

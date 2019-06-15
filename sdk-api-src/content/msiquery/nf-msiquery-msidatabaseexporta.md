@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<b>MsiDatabaseExport</b> function exports a Microsoft Installer table from an open database to a <a href="https://msdn.microsoft.com/49210242-bd32-4e5c-b782-a132d670fdfe">Text Archive File</a>.
+<b>MsiDatabaseExport</b> function exports a Microsoft Installer table from an open database to a <a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">Text Archive File</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 
 ### -param hDatabase [in]
 
-The handle to a database  from <a href="https://msdn.microsoft.com/984996e3-aa2c-49ff-9067-ebefd3afdecb">MsiOpenDatabase</a>.
+The handle to a database  from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
 
 ### -param szTableName [in]
@@ -161,11 +161,11 @@ If a table contains streams,
 <b>MsiDatabaseExport</b> exports each stream to a separate file.
 
 For more information, see 
-<a href="https://msdn.microsoft.com/df277641-393e-4202-bb92-4b813ddaa0ca">MsiDatabaseImport</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabaseimporta">MsiDatabaseImport</a>.
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can get extended error information by using <a href="https://msdn.microsoft.com/0d6f4506-367b-43d7-ba1c-2a93c1d0cc51">MsiGetLastErrorRecord</a>.
+If the function fails, you can get extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -175,11 +175,11 @@ If the function fails, you can get extended error information by using <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/49210242-bd32-4e5c-b782-a132d670fdfe">Text Archive Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">Text Archive Files</a>
  
 
  

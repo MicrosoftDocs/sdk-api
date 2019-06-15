@@ -54,7 +54,7 @@ Exposes methods to obtain folder view settings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewSettings</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFolderViewSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFolderViewSettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFolderViewSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFolderViewSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30678ace-e6b2-4655-b92f-fc8a1899e3e0">GetColumnPropertyList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getcolumnpropertylist">GetColumnPropertyList</a>
 </td>
 <td align="left" width="63%">
 Gets an ordered list of columns that corresponds to the column enumerated.
@@ -78,7 +78,7 @@ Gets an ordered list of columns that corresponds to the column enumerated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3b21d20-179c-4d6c-ac2e-9001d6358e52">GetFolderFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getfolderflags">GetFolderFlags</a>
 </td>
 <td align="left" width="63%">
 Gets folder view options flags.
@@ -87,7 +87,7 @@ Gets folder view options flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a5fb679-f2e7-457f-9624-64ed993c2d74">GetGroupByProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getgroupbyproperty">GetGroupByProperty</a>
 </td>
 <td align="left" width="63%">
 Gets a grouping property.
@@ -96,7 +96,7 @@ Gets a grouping property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b71eb420-3ec3-4dfd-a00e-3b56bb59fa5c">GetGroupSubsetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getgroupsubsetcount">GetGroupSubsetCount</a>
 </td>
 <td align="left" width="63%">
 Gets group count for visible rows.
@@ -105,7 +105,7 @@ Gets group count for visible rows.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69fa2ce6-7f44-42e8-b4b9-4eb9adb35b54">GetIconSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-geticonsize">GetIconSize</a>
 </td>
 <td align="left" width="63%">
 Gets the folder icon size.
@@ -114,7 +114,7 @@ Gets the folder icon size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6115e72-1abc-46fe-b829-0ae1a436b26e">GetSortColumns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getsortcolumns">GetSortColumns</a>
 </td>
 <td align="left" width="63%">
 Gets sort column information.
@@ -123,7 +123,7 @@ Gets sort column information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b050a69-39df-41f8-8d54-8c576bad3c2d">GetViewMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderviewsettings-getviewmode">GetViewMode</a>
 </td>
 <td align="left" width="63%">
 Gets a folder's logical view mode.

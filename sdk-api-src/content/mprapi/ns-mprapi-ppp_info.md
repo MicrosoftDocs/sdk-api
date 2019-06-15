@@ -61,25 +61,25 @@ The
 ### -field nbf
 
 A 
-<a href="https://msdn.microsoft.com/376c662d-c0e1-4136-937c-47a4681c14ec">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_nbfcp_info">PPP_NBFCP_INFO</a> structure that contains PPP NetBEUI Framer (NBF) projection information.
 
 
 ### -field ip
 
 A 
-<a href="https://msdn.microsoft.com/c77f54d2-eac4-4e0a-92c5-c46d521a272d">PPP_IPCP_INFO</a> structure that contains PPP Internet Protocol (IP) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_ipcp_info">PPP_IPCP_INFO</a> structure that contains PPP Internet Protocol (IP) projection information.
 
 
 ### -field ipx
 
 A 
-<a href="https://msdn.microsoft.com/6e269c4e-8014-4d59-a7dc-3314a67a4d12">PPP_IPXCP_INFO</a> structure that contains PPP Internetwork Packet Exchange (IPX) projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_ipxcp_info">PPP_IPXCP_INFO</a> structure that contains PPP Internetwork Packet Exchange (IPX) projection information.
 
 
 ### -field at
 
 A 
-<a href="https://msdn.microsoft.com/48d2404b-df8d-4ed0-9203-921474c88551">PPP_ATCP_INFO</a> structure that contains PPP AppleTalk projection information.
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_atcp_info">PPP_ATCP_INFO</a> structure that contains PPP AppleTalk projection information.
 
 
 ## -see-also
@@ -87,23 +87,23 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/5fe87e87-6199-4a96-8e76-1838e515116e">PPP_INFO_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info_2">PPP_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc231775-83bc-45d5-8bd8-7ac4cf5f09ff">PPP_INFO_3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ppp_info_3">PPP_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/858fcdd8-6587-41c4-a2d7-c871722562e7">RAS Administration Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f6c6895-4baf-46d7-865a-b95342b70abb">RAS_CONNECTION_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-_ras_connection_1">RAS_CONNECTION_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

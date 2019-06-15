@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>SECPKG_EVENT_NOTIFY</b> structure contains information about security events. This structure is passed to a function registered to receive event notifications. Event notification functions are registered by calling the 
-<a href="https://msdn.microsoft.com/689a1956-5eab-4eec-93ef-5ddcef6546ee">RegisterNotification</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a> function.
 
 
 ## -struct-fields
@@ -80,5 +80,5 @@ The event details.
 
 ### -field PackageParameter
 
-Information specified as the <i>Parameter</i> value when <a href="https://msdn.microsoft.com/689a1956-5eab-4eec-93ef-5ddcef6546ee">RegisterNotification</a> is called to register for notification.
+Information specified as the <i>Parameter</i> value when <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a> is called to register for notification.
 

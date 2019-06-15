@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Saves an object with the <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> interface on it to the specified stream.
+Saves an object with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on it to the specified stream.
 
 
 ## -parameters
@@ -76,12 +76,12 @@ TBD
 
 #### - pPStm [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface on the object to be saved to the stream. The <i>pPStm</i> parameter cannot be <b>NULL</b>.
 
 
 #### - pStm [in]
 
- Pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface on the stream in which the object is to be saved.
+ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream in which the object is to be saved.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The <i>pPStm</i> parameter is <b>NULL</b>.
 </table>
  
 
-This function can also return any of the error values returned by the <a href="https://msdn.microsoft.com/c08bfbc8-f7ac-4534-8c98-c732c6daa2f7">WriteClassStm</a> function or the <a href="https://msdn.microsoft.com/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7">IPersistStream::Save</a> method.
+This function can also return any of the error values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstm">WriteClassStm</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method.
 
 
 
@@ -129,14 +129,14 @@ This function can also return any of the error values returned by the <a href="h
 
 
 
-This function simplifies saving an object that implements the <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a> interface to a stream. In this stream, the object's CLSID precedes its data. When the stream is retrieved, the CLSID permits the proper code to be associated with the data. The <b>OleSaveToStream</b> function does the following:
+This function simplifies saving an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface to a stream. In this stream, the object's CLSID precedes its data. When the stream is retrieved, the CLSID permits the proper code to be associated with the data. The <b>OleSaveToStream</b> function does the following:
 
 <ul>
-<li>Calls the <a href="https://msdn.microsoft.com/921a3b86-a240-454e-9411-8d653e02b90e">IPersist::GetClassID</a> method to get the object's CLSID.</li>
-<li>Writes the CLSID to the stream with the <a href="https://msdn.microsoft.com/c08bfbc8-f7ac-4534-8c98-c732c6daa2f7">WriteClassStm</a> function.</li>
-<li>Calls the <a href="https://msdn.microsoft.com/b748b4f9-ef9c-486b-bdc4-4d23c4640ff7">IPersistStream::Save</a> method with <i>fClearDirty</i> set to <b>TRUE</b>, which clears the dirty bit in the object.</li>
+<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> method to get the object's CLSID.</li>
+<li>Writes the CLSID to the stream with the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstm">WriteClassStm</a> function.</li>
+<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method with <i>fClearDirty</i> set to <b>TRUE</b>, which clears the dirty bit in the object.</li>
 </ul>
-The companion helper, <a href="https://msdn.microsoft.com/2d54a0ef-906b-4886-a095-4ff2f3d4e634">OleLoadFromStream</a>, loads objects saved in this way.
+The companion helper, <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a>, loads objects saved in this way.
 
 
 
@@ -146,15 +146,15 @@ The companion helper, <a href="https://msdn.microsoft.com/2d54a0ef-906b-4886-a09
 
 
 
-<a href="https://msdn.microsoft.com/97ea64ee-d950-4872-add6-1f532a6eb33f">IPersistStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d54a0ef-906b-4886-a095-4ff2f3d4e634">OleLoadFromStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a>
  
 
  

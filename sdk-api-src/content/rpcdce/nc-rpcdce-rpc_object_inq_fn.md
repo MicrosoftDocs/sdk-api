@@ -88,7 +88,7 @@ This callback function does not return a value.
 
 
 You can replace the default mapping function that maps object UUIDs to type UUIDs by calling 
-<a href="https://msdn.microsoft.com/358d3ab3-df16-486b-aeac-56a0ffc78272">RpcObjectSetInqFn</a> and supplying a pointer to a function of type RPC_OBJECT_INQ_FN. The supplied function must match the function prototype specified by the type definition: a function with three parameters and the function return value of void.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a> and supplying a pointer to a function of type RPC_OBJECT_INQ_FN. The supplied function must match the function prototype specified by the type definition: a function with three parameters and the function return value of void.
 
 
 
@@ -98,7 +98,7 @@ You can replace the default mapping function that maps object UUIDs to type UUID
 
 
 
-<a href="https://msdn.microsoft.com/358d3ab3-df16-486b-aeac-56a0ffc78272">RpcObjectSetInqFn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>
  
 
  

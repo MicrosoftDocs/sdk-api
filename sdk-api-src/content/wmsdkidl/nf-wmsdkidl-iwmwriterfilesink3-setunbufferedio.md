@@ -130,11 +130,11 @@ This method dynamically allocates a set of buffers to prepare data for unbuffere
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798751(v=VS.85).aspx">IWMWriterFileSink3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798755(v=VS.85).aspx">IWMWriterFileSink3::GetUnbufferedIO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-getunbufferedio">IWMWriterFileSink3::GetUnbufferedIO</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetIdentityEnum</b> method retrieves an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> interface pointer that can be used to enumerate identities.
+The <b>GetIdentityEnum</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface pointer that can be used to enumerate identities.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>GetIdentityEnum</b> method retrieves an <a href="https://msdn.microsoft.c
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401667(v=VS.85).aspx">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/identitycommon/ne-identitycommon-_identitytype">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]
@@ -74,7 +74,7 @@ A pointer to a property value. If the values of this parameter and the <i>pFilte
 
 ### -param ppIdentityEnum [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> interface pointer that can be used to enumerate identities.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface pointer that can be used to enumerate identities.
 
 
 ## -returns
@@ -83,7 +83,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/windows/deskto
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -93,7 +93,7 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-<a href="https://msdn.microsoft.com/0f23e369-1501-4e72-94d1-dadb9dac5be6">IIdentityProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iidentityprovider">IIdentityProvider</a>
  
 
  

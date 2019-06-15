@@ -56,7 +56,7 @@ A command signature object enables apps to specify indirect drawing, including t
 
 
 
-To create a command signature, call <a href="https://msdn.microsoft.com/5A44F907-C6E0-4548-A227-84F0CF2EE837">ID3D12Device::CreateCommandSignature</a>, as described in <a href="https://msdn.microsoft.com/F8D6C88A-101E-4F66-999F-43206F6527B6">Indirect Drawing</a>.
+To create a command signature, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandsignature">ID3D12Device::CreateCommandSignature</a>, as described in <a href="https://docs.microsoft.com/windows/desktop/direct3d12/indirect-drawing">Indirect Drawing</a>.
         
 
 
@@ -67,15 +67,15 @@ To create a command signature, call <a href="https://msdn.microsoft.com/5A44F907
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/99FB088D-F3EB-4BAD-A945-51A1ED6F9288">ExecuteIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect">ExecuteIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/89DC88B4-9DFD-413D-8EB9-91087CC90D18">ID3D12Pageable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
  
 
  

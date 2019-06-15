@@ -79,7 +79,7 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 
 
-You must call <a href="https://msdn.microsoft.com/f1113429-ea89-4650-b345-db9e275232e6">IExtractImage::GetLocation</a> prior to calling <b>Extract</b>.
+You must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation">IExtractImage::GetLocation</a> prior to calling <b>Extract</b>.
 
 
 

@@ -71,9 +71,9 @@ This property is read/write.
 
 The <b>RecognitionFlags</b> property gets or sets flags that specify things such as whether the recognizer treats all ink as a single word or whether the recognizer coerces the result based on the factoid that you specified for the context.
 
-Setting the <b>RecognitionFlags</b> property succeeds only if the <a href="https://msdn.microsoft.com/af31559b-741e-4af2-8c35-9e34ad1af85f">Strokes</a> property is <b>NULL</b>.
+Setting the <b>RecognitionFlags</b> property succeeds only if the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_strokes">Strokes</a> property is <b>NULL</b>.
 
-For a list of modes that you can use, see the <a href="https://msdn.microsoft.com/ab9f4164-ea07-41d1-be6a-50009fa9464d">InkRecognitionModes</a> enumeration type.
+For a list of modes that you can use, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionmodes">InkRecognitionModes</a> enumeration type.
 
 <div class="alert"><b>Note</b>  You can combine modes using the bitwise <b>OR</b> operator.</div>
 <div> </div>
@@ -89,11 +89,11 @@ For a list of modes that you can use, see the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/ab9f4164-ea07-41d1-be6a-50009fa9464d">InkRecognitionModes Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkrecognitionmodes">InkRecognitionModes Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
  
 
  

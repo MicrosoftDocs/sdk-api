@@ -66,7 +66,7 @@ The index of the property in the store.
 
 ### -param pbstrName [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
 
 When this method returns, contains a pointer to the property's name. It is the calling application's responsibility to free this resource when it is no longer needed.
 

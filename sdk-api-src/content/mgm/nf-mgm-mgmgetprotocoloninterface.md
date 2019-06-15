@@ -143,11 +143,11 @@ The specified interface was not found by the multicast group manager.
 
 
 
-<a href="https://msdn.microsoft.com/501970f7-7728-4a83-8f4b-207579d65d01">MgmReleaseInterfaceOwnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>
 
 
 
-<a href="https://msdn.microsoft.com/b072c884-0b84-4dd9-a14c-185f5d327017">MgmTakeInterfaceOwnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmtakeinterfaceownership">MgmTakeInterfaceOwnership</a>
  
 
  

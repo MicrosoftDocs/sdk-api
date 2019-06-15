@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the shell startup parameters to be used with the <a href="https://msdn.microsoft.com/901c0a2d-d25f-451c-8d6c-83662f1f1061">WSManCreateShell</a> function. The structure must be allocated by the client and passed to the <b>WSManCreateShell</b> function. 
+Defines the shell startup parameters to be used with the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> function. The structure must be allocated by the client and passed to the <b>WSManCreateShell</b> function. 
 
-The configuration passed to the <a href="https://msdn.microsoft.com/901c0a2d-d25f-451c-8d6c-83662f1f1061">WSManCreateShell</a> function can directly affect the behavior of a command executed within the shell. A typical example is the <i>workingDirectory</i> argument that describes the working directory associated with each process, which the operating system uses when attempting to locate files specified by using a relative path. 
+The configuration passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> function can directly affect the behavior of a command executed within the shell. A typical example is the <i>workingDirectory</i> argument that describes the working directory associated with each process, which the operating system uses when attempting to locate files specified by using a relative path. 
 
 In the absence of specific requirements for stream naming, clients and services should attempt to use <b>STDIN</b> for input streams, <b>STDOUT</b> for the default output stream, and <b>STDERR</b> for the error or status output stream.
 
@@ -63,13 +63,13 @@ In the absence of specific requirements for stream naming, clients and services 
 
 ### -field inputStreamSet
 
-A pointer to a <a href="https://msdn.microsoft.com/a5705afa-e0b3-4a74-8c13-5abf3f53a209">WSMAN_STREAM_ID_SET</a> structure that specifies a set of input streams for the shell. Streams not present in the filter can be ignored by the shell implementation.  For the Windows Cmd.exe shell, this value should be L"stdin".
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_stream_id_set">WSMAN_STREAM_ID_SET</a> structure that specifies a set of input streams for the shell. Streams not present in the filter can be ignored by the shell implementation.  For the Windows Cmd.exe shell, this value should be L"stdin".
 If the value is <b>NULL</b>, the implementation uses an array with L"stdin" as the default value.
 
 
 ### -field outputStreamSet
 
-A pointer to a <a href="https://msdn.microsoft.com/a5705afa-e0b3-4a74-8c13-5abf3f53a209">WSMAN_STREAM_ID_SET</a> structure that specifies a set of output streams for the shell.  Streams not present in the filter can be ignored by the shell implementation. For the Windows cmd.exe shell, this value should be L"stdout stderr".
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_stream_id_set">WSMAN_STREAM_ID_SET</a> structure that specifies a set of output streams for the shell.  Streams not present in the filter can be ignored by the shell implementation. For the Windows cmd.exe shell, this value should be L"stdout stderr".
 If the value is <b>NULL</b>, the implementation uses an array with L"stdout" and L"stderr" as the default value.
 
 
@@ -85,7 +85,7 @@ Specifies the starting directory for a shell. It is  used with any execution com
 
 ### -field variableSet
 
-A pointer to a <a href="https://msdn.microsoft.com/3d9b4374-241f-489e-946a-9c180d77de3b">WSMAN_ENVIRONMENT_VARIABLE_SET</a> structure that specifies an array of variable name and value pairs, which describe the starting environment for the shell. The content of these elements is shell specific and can be defined in terms of other environment variables. If a <b>NULL</b> value is passed, the default environment is used on the server side.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_environment_variable_set">WSMAN_ENVIRONMENT_VARIABLE_SET</a> structure that specifies an array of variable name and value pairs, which describe the starting environment for the shell. The content of these elements is shell specific and can be defined in terms of other environment variables. If a <b>NULL</b> value is passed, the default environment is used on the server side.
 
 
 #### - name

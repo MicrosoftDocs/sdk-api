@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Queue Manager (QMGR) is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/ce91f87c-8273-4a1c-99e0-ef55e2a50334">Background Intelligent Transfer Service (BITS)</a>.]
+<p class="CCE_Message">[Queue Manager (QMGR) is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/background-intelligent-transfer-service-portal">Background Intelligent Transfer Service (BITS)</a>.]
 
 The <b>FILESETINFO</b> structure identifies the remote and local names of the file to download.
 

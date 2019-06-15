@@ -89,7 +89,7 @@ An interface identification is a subset of the data contained in the interface-s
 
 
 
-<a href="https://msdn.microsoft.com/1b91e88c-b242-472f-b719-60f96599cb67">RpcIfInqId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
  
 
  

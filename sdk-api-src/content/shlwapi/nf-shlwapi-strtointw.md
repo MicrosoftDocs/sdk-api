@@ -101,7 +101,7 @@ If the string pointed to by <i>pszSrc</i> contains an invalid character, that ch
 
 
 
-<a href="https://msdn.microsoft.com/2e8286c7-585f-441b-904b-f3b4e8cf95f9">StrToIntEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strtointexa">StrToIntEx</a>
  
 
  

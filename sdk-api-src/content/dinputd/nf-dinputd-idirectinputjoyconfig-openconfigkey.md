@@ -90,7 +90,7 @@ Returns DI_OK if successful; otherwise, returns one of the following COM error v
 </dl>
 </td>
 <td width="60%">
-Joystick configuration has not been acquired. You must call <a href="https://msdn.microsoft.com/1df2eb92-9c55-4371-84c7-a4fb879efb7e">IDirectInputJoyConfig8::Acquire</a> before you can open a joystick type configuration key for writing. 
+Joystick configuration has not been acquired. You must call <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-acquire">IDirectInputJoyConfig8::Acquire</a> before you can open a joystick type configuration key for writing. 
 
 </td>
 </tr>

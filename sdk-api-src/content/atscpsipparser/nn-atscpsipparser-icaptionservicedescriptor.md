@@ -60,7 +60,7 @@ The <b>ICaptionServiceDescriptor</b> interface enables the client to get caption
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptionServiceDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICaptionServiceDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICaptionServiceDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICaptionServiceDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ICaptionServiceDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e8ca631-45fd-462c-bab9-4a242751f212">GetCaptionServiceNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getcaptionservicenumber">GetCaptionServiceNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the Service Number for a specified caption service.
@@ -84,7 +84,7 @@ Returns the Service Number for a specified caption service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d245118a-3ff2-4ea7-9ff9-f8c1991f2073">GetCCType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getcctype">GetCCType</a>
 </td>
 <td align="left" width="63%">
 Queries whether a caption service contains Digital Television Closed Captioning (DTVCC) or line-21 closed captioning.
@@ -93,7 +93,7 @@ Queries whether a caption service contains Digital Television Closed Captioning 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ecf31c8-b93e-4c6c-991c-33ce942757ec">GetEasyReader</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-geteasyreader">GetEasyReader</a>
 </td>
 <td align="left" width="63%">
 Queries whether a caption service contains "Easy Reader" captions.
@@ -102,7 +102,7 @@ Queries whether a caption service contains "Easy Reader" captions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b3b31dd-83cc-4067-a46f-929e1a75087a">GetLanguageCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getlanguagecode">GetLanguageCode</a>
 </td>
 <td align="left" width="63%">
 Returns the language code for a specified caption service.
@@ -111,7 +111,7 @@ Returns the language code for a specified caption service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50c2baff-a355-45a4-8a05-a193e695c448">GetNumberOfServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getnumberofservices">GetNumberOfServices</a>
 </td>
 <td align="left" width="63%">
 Returns the number of caption services.
@@ -120,7 +120,7 @@ Returns the number of caption services.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/921d919a-5e23-4c09-abff-3ed1e7dbec01">GetWideAspectRatio</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getwideaspectratio">GetWideAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Queries whether a caption service is formatted for wide-screen displays.
@@ -137,8 +137,8 @@ Queries whether a caption service is formatted for wide-screen displays.
 To obtain a pointer to this interface, do the following:
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/b88a6728-d772-48b8-aebc-7d4cc133320a">IAtscPsipParser::GetEIT</a> to get the <a href="https://msdn.microsoft.com/ab3fd79f-4ca6-418e-8e7c-a5fa196c09e6">IATSC_EIT</a> interface.</li>
-<li>Call <a href="https://msdn.microsoft.com/fdd7f03f-8e03-436f-bfe2-bb46a6a4b415">IATSC_EIT::GetRecordDescriptorByTag</a> and pass in the caption service descriptor tag (0x86). If the descriptor is present, the method returns an <a href="https://msdn.microsoft.com/en-us/library/Dd694093(v=VS.85).aspx">IGenericDescriptor</a> pointer.</li>
+<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-geteit">IAtscPsipParser::GetEIT</a> to get the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT</a> interface.</li>
+<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_eit-getrecorddescriptorbytag">IATSC_EIT::GetRecordDescriptorByTag</a> and pass in the caption service descriptor tag (0x86). If the descriptor is present, the method returns an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> pointer.</li>
 <li>Query the returned <b>IGenericDescriptor</b> pointer for the <b>ICaptionServiceDescriptor</b> interface.</li>
 </ol>
 
@@ -149,7 +149,7 @@ To obtain a pointer to this interface, do the following:
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

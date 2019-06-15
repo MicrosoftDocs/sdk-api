@@ -50,16 +50,16 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Provides a method to set the SAN mode of a disk to offline  or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this interface is supserseded by the <a href="https://msdn.microsoft.com/f30ceaa0-ff4b-49fb-b140-b6725810cd06">IVdsDiskOnline</a> interface.</div>
+Provides a method to set the SAN mode of a disk to offline  or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this interface is supserseded by the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdiskonline">IVdsDiskOnline</a> interface.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDisk2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsDisk2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDisk2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDisk2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IVdsDisk2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17bdb6f4-7d85-4aa6-b89b-a752332cc224">SetSANMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk2-setsanmode">SetSANMode</a>
 </td>
 <td align="left" width="63%">
 Sets the SAN mode of a disk to offline or online.

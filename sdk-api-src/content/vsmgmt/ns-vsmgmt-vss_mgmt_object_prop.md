@@ -61,16 +61,16 @@ The <b>VSS_MGMT_OBJECT_PROP</b> structure
 
 ### -field Type
 
-Object type. For more information, see <a href="https://msdn.microsoft.com/ea28ff2c-6603-4193-9d5f-b41fffe28a90">VSS_MGMT_OBJECT_TYPE</a>.
+Object type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_mgmt_object_type">VSS_MGMT_OBJECT_TYPE</a>.
 
 
 ### -field Obj
 
 Management object properties: a union of 
-       <a href="https://msdn.microsoft.com/f17765d5-ccb4-4ede-86e4-36ac80022da0">VSS_VOLUME_PROP</a>, 
-       <a href="https://msdn.microsoft.com/c4a20583-7fee-4ae1-97ed-d80b2a7539e3">VSS_DIFF_VOLUME_PROP</a>, and  
-       <a href="https://msdn.microsoft.com/9627d7b0-e9d0-425f-9051-cf4ab6b75a8c">VSS_DIFF_AREA_PROP</a> structures. (For more information, see 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>.)
+       <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_prop">VSS_VOLUME_PROP</a>, 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_diff_volume_prop">VSS_DIFF_VOLUME_PROP</a>, and  
+       <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures. (For more information, see 
+       <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>.)
 
 It contains information for an object of the type specified by the <b>Type</b> member. 
        Management objects can be volumes, shadow copy storage volumes, or shadow copy storage areas.
@@ -81,31 +81,31 @@ It contains information for an object of the type specified by the <b>Type</b> m
 
 
 
-<a href="https://msdn.microsoft.com/0ddcf25d-dc3e-4522-a98e-98d867230d42">IVssEnumMgmtObject::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssenummgmtobject-next">IVssEnumMgmtObject::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/9627d7b0-e9d0-425f-9051-cf4ab6b75a8c">VSS_DIFF_AREA_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_diff_area_prop">VSS_DIFF_AREA_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4a20583-7fee-4ae1-97ed-d80b2a7539e3">VSS_DIFF_VOLUME_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_diff_volume_prop">VSS_DIFF_VOLUME_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea28ff2c-6603-4193-9d5f-b41fffe28a90">VSS_MGMT_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-_vss_mgmt_object_type">VSS_MGMT_OBJECT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>
 
 
 
-<a href="https://msdn.microsoft.com/f17765d5-ccb4-4ede-86e4-36ac80022da0">VSS_VOLUME_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_volume_prop">VSS_VOLUME_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/20cf12e4-4611-4e39-9f6f-e29f15e58b36">Volume Shadow Copy API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
  
 
  

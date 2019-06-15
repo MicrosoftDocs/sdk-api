@@ -52,7 +52,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Returns the name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 
 ## -parameters
@@ -120,7 +120,7 @@ One or more of the parameters are invalid.
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpszName</i> is too small to hold the requested name. 
-         <a href="https://msdn.microsoft.com/2c892250-80b7-4bf8-9514-64833d0e3450">GetClusterName</a> returns the 
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusteruiinfo-getclustername">GetClusterName</a> returns the 
          required number of characters in the content of <i>pcchName</i>.
 
 </td>
@@ -148,7 +148,7 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 
 
 
-<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusteruiinfo">IGetClusterUIInfo</a>
  
 
  

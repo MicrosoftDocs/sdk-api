@@ -111,11 +111,11 @@ This method applies to the Windows Media Player control only when embedded in a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563515(v=VS.85).aspx">IWMPPlayer2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer2">IWMPPlayer2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563516(v=VS.85).aspx">IWMPPlayer2::get_stretchToFit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_stretchtofit">IWMPPlayer2::get_stretchToFit</a>
  
 
  

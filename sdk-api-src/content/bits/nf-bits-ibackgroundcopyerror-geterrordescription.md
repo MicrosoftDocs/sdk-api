@@ -144,7 +144,7 @@ No string is available for the locale.
 
 
 You can also call the 
-<a href="https://msdn.microsoft.com/e62e2bde-485d-42d4-b824-a682ab9e16ca">IBackgroundCopyManager::GetErrorDescription</a> method to retrieve the error text associated with an error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a> method to retrieve the error text associated with an error code.
 
 Descriptions for HTTP errors are  localized.
 
@@ -154,7 +154,7 @@ Descriptions for HTTP errors are  localized.
 #### Examples
 
 See the example code in the 
-<a href="https://msdn.microsoft.com/cbc182ce-c853-492e-8953-21c54500875b">Handling Errors</a> topic.
+<a href="https://docs.microsoft.com/windows/desktop/Bits/handling-errors">Handling Errors</a> topic.
 
 <div class="code"></div>
 
@@ -165,19 +165,19 @@ See the example code in the
 
 
 
-<a href="https://msdn.microsoft.com/abdf115d-3ff2-4664-b053-f55872ad24ab">IBackgroundCopyError::GetError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f5ae62-c171-4637-bebb-3a5c5aa546b3">IBackgroundCopyError::GetErrorContextDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrorcontextdescription">IBackgroundCopyError::GetErrorContextDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b6d4bd4-2102-4e6b-b250-1d73fae94cf9">IBackgroundCopyError::GetFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/e62e2bde-485d-42d4-b824-a682ab9e16ca">IBackgroundCopyManager::GetErrorDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a>
  
 
  

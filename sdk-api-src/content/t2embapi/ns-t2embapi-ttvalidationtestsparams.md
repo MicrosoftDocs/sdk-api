@@ -116,11 +116,11 @@ Pointer to array of Unicode characters.
 
 
 
-<a href="https://msdn.microsoft.com/fe60938b-c728-49a9-89b4-495b2364091a">TTRunValidationTests</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttrunvalidationtests">TTRunValidationTests</a>
 
 
 
-<a href="https://msdn.microsoft.com/03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc">TTVALIDATIONTESTSPARAMSEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttvalidationtestsparamsex">TTVALIDATIONTESTSPARAMSEX</a>
  
 
  

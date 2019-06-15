@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Point::Equals</b> method determines whether two 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects are equal. Two points are considered equal if they have the same 
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
 
@@ -66,7 +66,7 @@ The <b>Point::Equals</b> method determines whether two
 Type: <b>const Point&amp;</b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object that is compared to this 
+					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object that is compared to this 
 					<b>Point</b> object. 
 
 
@@ -78,7 +78,7 @@ Type: <strong>Type: <b>BOOL</b>
 </strong>
 
 If the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -88,19 +88,19 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535008(v=VS.85).aspx">Point::operator+</a>
+<a href="https://docs.microsoft.com/previous-versions//ms535008(v=vs.85)">Point::operator+</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535009(v=VS.85).aspx">Point::operator-</a>
+<a href="https://docs.microsoft.com/previous-versions//ms535009(v=vs.85)">Point::operator-</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
  
 
  

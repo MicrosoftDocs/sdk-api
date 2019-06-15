@@ -59,19 +59,19 @@ Contains information about changes in the state of the Remote Desktop Services s
 
 ### -field RcmServiceState
 
-A value of the <a href="https://msdn.microsoft.com/5f022d92-b048-4c87-918c-6e8f297cc1a6">WTS_RCM_SERVICE_STATE</a> enumeration type that specifies whether the service is starting or stopping.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-wts_rcm_service_state">WTS_RCM_SERVICE_STATE</a> enumeration type that specifies whether the service is starting or stopping.
 
 
 ### -field RcmDrainState
 
-A value of the <a href="https://msdn.microsoft.com/bb033bef-e325-42d0-8879-9a2151e43e91">WTS_RCM_DRAIN_STATE</a> enumeration type that specifies whether the  RD Session Host server is changing its drain state.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-wts_rcm_drain_state">WTS_RCM_DRAIN_STATE</a> enumeration type that specifies whether the  RD Session Host server is changing its drain state.
 
 
 ## -remarks
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/303a53b3-b297-486c-9422-706ec60441f2">NotifyServiceStateChange</a> method.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolmanager-notifyservicestatechange">NotifyServiceStateChange</a> method.
 
 
 

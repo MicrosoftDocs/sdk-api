@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TSPI_lineSetMediaMode</b> function changes the call's media as stored in the call's 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The handle to the call undergoing a change in media type. The call state of <i>h
 ### -param dwMediaMode
 
 The new media type(s) for the call. As long as the LINEMEDIAMODE_UNKNOWN media type flag is set, multiple other media type flags can be set as well. This is used to identify a call's media type as not fully determined, but narrowed down to one of just a small set of specified media types. If the LINEMEDIAMODE_UNKNOWN flag is not set, only a single media type can be specified. This parameter uses one (or more) of the 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ constants</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALMEDIAMODE, LINEE
 
 
 Other than changing the call's media as stored in the call's 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a> structure, this procedure is simply advisory in the sense that it indicates an expected media change that is about to occur, rather than forcing a specific change to the call. Typical usage is to set a call's media type to a specific known media type, or to exclude possible media types as long as the call's media type is not fully known (the UNKNOWN media type flag is set).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a> structure, this procedure is simply advisory in the sense that it indicates an expected media change that is about to occur, rather than forcing a specific change to the call. Typical usage is to set a call's media type to a specific known media type, or to exclude possible media types as long as the call's media type is not fully known (the UNKNOWN media type flag is set).
 
 TAPI makes the following guarantees regarding the passed media type: (1) there is at least one bit set, (2) there are no reserved bits set, and (3) if more than one bit is set, "Unknown" is also set. The service provider must perform any further validity checks on the media types, such as checking whether any media types are indeed supported by the service provider.
 
@@ -98,15 +98,15 @@ TAPI makes the following guarantees regarding the passed media type: (1) there i
 
 
 
-<a href="https://msdn.microsoft.com/b077546b-cc95-44ce-99ee-f0007fd916b2">LINECALLINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo_tag">LINECALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbb758be-3ecd-4ac4-b1b5-57136a1aad8e">LINEMEDIAMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ef43928-05aa-4ec6-bc44-f07a63d8ecdf">TSPI_lineGetCallInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetcallinfo">TSPI_lineGetCallInfo</a>
  
 
  

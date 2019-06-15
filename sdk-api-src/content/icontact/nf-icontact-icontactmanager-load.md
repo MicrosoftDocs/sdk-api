@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/9dc97b84-ede9-4ec1-939a-2b13e0d68486">IContact</a> object with the data from the contact 
+Loads an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object with the data from the contact 
 		referenced by the computer-local contact ID.
 
 
@@ -67,9 +67,9 @@ Specifies the contact ID to load.
 
 ### -param ppContact [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9dc97b84-ede9-4ec1-939a-2b13e0d68486">IContact</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
 
-Specifies the destination <a href="https://msdn.microsoft.com/9dc97b84-ede9-4ec1-939a-2b13e0d68486">IContact</a> object.
+Specifies the destination <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object.
 
 
 ## -returns
@@ -118,11 +118,11 @@ Could not find this contact ID.
 
 
 
-<a href="https://msdn.microsoft.com/25daa44f-2042-4116-b0dd-4f16857cbb0b">GetContactID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-getcontactid">GetContactID</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0102659-488c-45db-931b-345013e21eed">IContactManager</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>
  
 
  

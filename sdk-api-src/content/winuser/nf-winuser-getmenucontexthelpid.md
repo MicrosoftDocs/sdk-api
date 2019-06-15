@@ -80,7 +80,7 @@ Returns the Help context identifier if the menu has one, or zero otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/55d944db-d889-468a-991a-b9779c90b44f">SetMenuContextHelpId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenucontexthelpid">SetMenuContextHelpId</a>
  
 
  

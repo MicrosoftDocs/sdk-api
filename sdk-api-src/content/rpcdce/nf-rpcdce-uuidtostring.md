@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The 
-<b>UuidToString</b> function converts a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> to a string.
+<b>UuidToString</b> function converts a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to a string.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ The
 ### -param Uuid [in]
 
 Pointer to a binary 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ### -param StringUuid [out]
 
-Pointer to the null-terminated string into which the <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> specified in the <i>Uuid</i> parameter will be placed.
+Pointer to the null-terminated string into which the <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> specified in the <i>Uuid</i> parameter will be placed.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -116,8 +116,8 @@ The system is out of memory.
 
 
 An application calls 
-<b>UuidToString</b> to convert a binary <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> to a string <b>UUID</b>. The RPC run-time library allocates memory for the string returned in the <i>StringUuid</i> parameter. The application is responsible for calling 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a> to deallocate that memory.
+<b>UuidToString</b> to convert a binary <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to a string <b>UUID</b>. The RPC run-time library allocates memory for the string returned in the <i>StringUuid</i> parameter. The application is responsible for calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> to deallocate that memory.
 
 
 
@@ -127,11 +127,11 @@ An application calls
 
 
 
-<a href="https://msdn.microsoft.com/07226282-1091-4479-adc8-b2f604c645e7">RpcStringFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/90b3cf6b-a15b-4f91-9ba2-0e43fe3374df">UuidFromString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
  
 
  

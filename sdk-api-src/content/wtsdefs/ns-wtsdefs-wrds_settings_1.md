@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Contains policy-related settings for a remote session.
 
-This structure is mostly a subset of the <a href="https://msdn.microsoft.com/93D4C843-7974-4287-9222-B90206DE6B75">WRDS_CONNECTION_SETTINGS_1</a> structure. The settings correspond to policy settings that can be found in the group policy editor (Gpedit.exe). The settings in this structure overwrite the initial policy settings.
+This structure is mostly a subset of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure. The settings correspond to policy settings that can be found in the group policy editor (Gpedit.exe). The settings in this structure overwrite the initial policy settings.
 
 
 ## -struct-fields
@@ -136,7 +136,7 @@ The color depth state (not applicable, disabled, enabled, or not configured). Fo
 
 ### -field WRdsColorDepthValue
 
-The color depth value. For possible values, see the <b>ColorDepth</b> member of the <a href="https://msdn.microsoft.com/0d5e0a9d-23b0-4302-ade3-eb9fbd7f787d">WTS_CLIENT_DISPLAY</a> structure. This value only takes effect if the <b>WRdsColorDepthStatus</b> member is set to enabled.
+The color depth value. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_display">WTS_CLIENT_DISPLAY</a> structure. This value only takes effect if the <b>WRdsColorDepthStatus</b> member is set to enabled.
 
 
 ### -field WRdsDisableAutoReconnecetStatus

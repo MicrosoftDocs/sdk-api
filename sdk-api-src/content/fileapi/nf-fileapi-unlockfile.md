@@ -59,7 +59,7 @@ ms.custom: 19H1
 Unlocks a region in an open file. Unlocking a region enables other processes to access the region.
 
 For an alternate way to specify the region, use the 
-<a href="https://msdn.microsoft.com/78e2a75e-ff67-4039-b609-fb5004718c45">UnlockFileEx</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a> function.
 
 
 ## -parameters
@@ -70,8 +70,8 @@ For an alternate way to specify the region, use the
 ### -param hFile [in]
 
 A handle to the file that contains a region locked with 
-<a href="https://msdn.microsoft.com/c88e7b6c-c339-443b-adf9-0325807203dc">LockFile</a>. The file handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>. The file handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 
 ### -param dwFileOffsetLow [in]
@@ -101,7 +101,7 @@ The high-order word of the length of the byte range to be unlocked.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -184,19 +184,19 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c88e7b6c-c339-443b-adf9-0325807203dc">LockFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/78e2a75e-ff67-4039-b609-fb5004718c45">UnlockFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>
  
 
  

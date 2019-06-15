@@ -65,7 +65,7 @@ The <b>GetAttribIndexed</b> method returns an attribute value, specified by inde
 
 ### -param lIndex [in]
 
-Zero-based index of the attribute. To get the number of attributes, call <a href="https://msdn.microsoft.com/340a0a0d-26e9-4c63-8552-15f7c841c759">IAttributeGet::GetCount</a>.
+Zero-based index of the attribute. To get the number of attributes, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nf-dsattrib-iattributeget-getcount">IAttributeGet::GetCount</a>.
 
 
 ### -param pguidAttribute [out]
@@ -127,7 +127,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/561267ac-8720-4aba-b812-784ab1e42114">IAttributeGet Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeget">IAttributeGet Interface</a>
  
 
  

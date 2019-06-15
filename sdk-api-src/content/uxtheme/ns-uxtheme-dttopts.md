@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the options for the <a href="https://msdn.microsoft.com/en-us/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a> function.
+Defines the options for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a> function.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Defines the options for the <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 ### -field dwSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Size of the structure.
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A combination of flags that specify whether certain values of the <b>DTTOPTS</b> structure have been specified, and how to interpret these values. This member can be a combination of the following.
 
@@ -171,7 +171,7 @@ The <b>iStateId</b> member value is valid.
 </dl>
 </td>
 <td width="60%">
-The <i>pRect</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a> function that uses this structure will be used as both an in and an out parameter. After the function returns, the <i>pRect</i> parameter will contain the rectangle that corresponds to the region calculated to be drawn.
+The <i>pRect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a> function that uses this structure will be used as both an in and an out parameter. After the function returns, the <i>pRect</i> parameter will contain the rectangle that corresponds to the region calculated to be drawn.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ The <b>pfnDrawTextCallback</b> member value is valid.
 </dl>
 </td>
 <td width="60%">
-Draws text with antialiased alpha. Use of this flag requires a top-down DIB section. This flag works only if the HDC passed to function <a href="https://msdn.microsoft.com/en-us/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a> has a top-down DIB section currently selected in it. For more information, see <a href="https://msdn.microsoft.com/56b39a3d-48a4-4620-9652-ec41ea4d6423">Device-Independent Bitmaps</a>.
+Draws text with antialiased alpha. Use of this flag requires a top-down DIB section. This flag works only if the HDC passed to function <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a> has a top-down DIB section currently selected in it. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>.
 
 </td>
 </tr>
@@ -232,21 +232,21 @@ DTT_TEXTCOLOR |  DTT_BORDERCOLOR | DTT_SHADOWCOLOR | DTT_SHADOWTYPE |
 
 ### -field crText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the text that will be drawn.
 
 
 ### -field crBorder
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the outline that will be drawn around the text.
 
 
 ### -field crShadow
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the shadow that will be drawn behind the text.
 
@@ -298,7 +298,7 @@ The shadow will be drawn to appear blurred underneath text.
 
 ### -field ptShadowOffset
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 Specifies the amount of offset, in logical coordinates, between the shadow and the text.
 
@@ -314,26 +314,26 @@ Specifies the radius of the outline that will be drawn around the text.
 
 Type: <b>int</b>
 
-Specifies an alternate font property to use when drawing text. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb759783(v=VS.85).aspx">GetThemeSysFont</a>.
+Specifies an alternate font property to use when drawing text. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemesysfont">GetThemeSysFont</a>.
 
 
 ### -field iColorPropId
 
 Type: <b>int</b>
 
-Specifies an alternate color property to use when drawing text. If this value is valid and the corresponding flag is set in <b>dwFlags</b>, this value will override the value of <b>crText</b>. See the values listed in <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> for the <i>nIndex</i> parameter.
+Specifies an alternate color property to use when drawing text. If this value is valid and the corresponding flag is set in <b>dwFlags</b>, this value will override the value of <b>crText</b>. See the values listed in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> for the <i>nIndex</i> parameter.
 
 
 ### -field iStateId
 
 Type: <b>int</b>
 
-Specifies an alternate state to use. This member is not used by <a href="https://msdn.microsoft.com/en-us/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a>.
+Specifies an alternate state to use. This member is not used by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a>.
 
 
 ### -field fApplyOverlay
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If <b>TRUE</b>, text will be drawn on top of the shadow and outline effects. If <b>FALSE</b>, just the shadow and outline effects will be drawn.
 
@@ -349,12 +349,12 @@ Specifies the size of a glow that will be drawn on the background prior to any t
 
 Type: <b>DTT_CALLBACK_PROC</b>
 
-Pointer to callback function for <a href="https://msdn.microsoft.com/en-us/library/Bb773317(v=VS.85).aspx">DrawThemeTextEx</a>.
+Pointer to callback function for <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemetextex">DrawThemeTextEx</a>.
 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Parameter for callback back function specified by <b>pfnDrawTextCallback</b>.
 

@@ -50,15 +50,15 @@ ms.custom: 19H1
 
 
 The 
-<b>IGPM2</b> interface extends the <a href="https://msdn.microsoft.com/2d44cf6d-a3fa-43db-b28e-3d48f6d13625">GPMBackupDir</a> and <a href="https://msdn.microsoft.com/6e9f6ac5-d6d7-4360-b722-0b22e2391d20">InitializeReporting</a> methods of the <a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a> interface of the Group Policy Management Console (GPMC).
+<b>IGPM2</b> interface extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">GPMBackupDir</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-initializereporting">InitializeReporting</a> methods of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a> interface of the Group Policy Management Console (GPMC).
 
 The <b>GPM</b> object is the only object used with 
-the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPM2</b> interface inherits from <a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>. <b>IGPM2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPM2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>. <b>IGPM2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,20 +73,20 @@ The <b>IGPM2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fe4ea93-6668-4534-b72e-71b1062db627">GetBackupDirEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm2-getbackupdirex">GetBackupDirEx</a>
 </td>
 <td align="left" width="63%">
 Creates and returns a 
-<a href="https://msdn.microsoft.com/2d44cf6d-a3fa-43db-b28e-3d48f6d13625">GPMBackupDir</a> object which you can use to access 
-<a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">GPMBackup</a> and  
-<a href="https://msdn.microsoft.com/cd9e6b58-6fbc-449a-9941-b33761797199">GPMBackupCollection</a> objects or <a href="https://msdn.microsoft.com/b062da03-6d9c-42b3-a4aa-5a7a6a38e4c9">GPMStarterGPOBackup</a> and  
-<a href="https://msdn.microsoft.com/df9f29d0-8636-4393-8f7e-c9e22f3692f5">GPMStarterGPOBackupCollection</a> objects.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">GPMBackupDir</a> object which you can use to access 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> and  
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">GPMBackupCollection</a> objects or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">GPMStarterGPOBackup</a> and  
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackupcollection">GPMStarterGPOBackupCollection</a> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3de74745-d9b3-47a7-8ba7-08b4e57d2ab7">InitializeReportingEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm2-initializereportingex">InitializeReportingEx</a>
 </td>
 <td align="left" width="63%">
 Sets the location of the .adm files specified by user and initiates reporting with options.
@@ -101,11 +101,11 @@ Sets the location of the .adm files specified by user and initiates reporting wi
 
 
 
-<a href="https://msdn.microsoft.com/a02e9261-8bf5-4e1e-ae3f-64a763f93751">GPMC Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/gpmc-interfaces">GPMC Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
  
 
  

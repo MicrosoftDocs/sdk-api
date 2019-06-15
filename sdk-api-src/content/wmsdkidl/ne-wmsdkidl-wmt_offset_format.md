@@ -89,7 +89,7 @@ Used to specify approximate seeking. This type of offset seeks to the closest ke
 
 
 
-<b>WMT_OFFSET_FORMAT</b> is used as an input parameter to <a href="https://msdn.microsoft.com/en-us/library/Dd757448(v=VS.85).aspx">IWMReaderAdvanced3::StartAtPosition</a>. The value passed specifies whether the reader should begin playback at a specified presentation time, frame number, or offset into a playlist.
+<b>WMT_OFFSET_FORMAT</b> is used as an input parameter to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced3-startatposition">IWMReaderAdvanced3::StartAtPosition</a>. The value passed specifies whether the reader should begin playback at a specified presentation time, frame number, or offset into a playlist.
 
 
 
@@ -99,7 +99,7 @@ Used to specify approximate seeking. This type of offset seeks to the closest ke
 
 
 
-<a href="https://msdn.microsoft.com/cd28f608-25ba-44a7-868b-b1cd4dfcfa45">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
  
 
  

@@ -72,7 +72,7 @@ Specifies the number of arguments in the command signature.
 
 ### -field pArgumentDescs
 
-An array of <a href="https://msdn.microsoft.com/2B51E4B1-F48A-4937-A92D-6AE9449018B4">D3D12_INDIRECT_ARGUMENT_DESC</a> structures,
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc">D3D12_INDIRECT_ARGUMENT_DESC</a> structures,
             containing details of the arguments, including whether the argument is a vertex buffer, constant, constant buffer view, shader resource view, or unordered access view.
           
 
@@ -81,14 +81,14 @@ An array of <a href="https://msdn.microsoft.com/2B51E4B1-F48A-4937-A92D-6AE94490
 
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) for which the command signature is to apply.
             Each bit in the mask corresponds to a single node.
-            Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>.
+            Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/mulit-engine">Multi-Adapter</a>.
 
 
 ## -remarks
 
 
 
-Use this structure by <a href="https://msdn.microsoft.com/5A44F907-C6E0-4548-A227-84F0CF2EE837">CreateCommandSignature</a>.
+Use this structure by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandsignature">CreateCommandSignature</a>.
         
 
 
@@ -99,7 +99,7 @@ Use this structure by <a href="https://msdn.microsoft.com/5A44F907-C6E0-4548-A22
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

@@ -61,7 +61,7 @@ Gets a video sample from the allocator.
 
 ### -param ppSample [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface. The caller must release the interface.
           
 
 
@@ -95,7 +95,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The allocator was not initialized. Call <a href="https://msdn.microsoft.com/b1e4557e-990c-4239-b9ec-5c7c46072e54">IMFVideoSampleAllocator::InitializeSampleAllocator</a> or <a href="https://msdn.microsoft.com/0AE0826D-058C-4A2F-94F2-A761CA885E67">InitializeSampleAllocatorEx::InitializeSampleAllocatorEx</a>.
+The allocator was not initialized. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocator-initializesampleallocator">IMFVideoSampleAllocator::InitializeSampleAllocator</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideosampleallocatorex-initializesampleallocatorex">InitializeSampleAllocatorEx::InitializeSampleAllocatorEx</a>.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ No samples are available.
 
 
 
-<a href="https://msdn.microsoft.com/bef92133-ae6c-4013-9210-5e0f0be2002c">IMFVideoSampleAllocator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
  
 
  

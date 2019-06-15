@@ -136,7 +136,7 @@ This value is returned when the user clicks the <b>Cancel</b> button on the disk
 
 
 
-This method is typically called by the handler's <a href="https://msdn.microsoft.com/c42430da-9d6a-42e9-bc4f-325d986c7c48">Purge</a> method while the handler is purging deletable files. Handlers should call <b>PurgeProgress</b> periodically to keep the user informed of progress, especially if the purge will take a long time. Calling this method frequently also allows the handler to shut down promptly if a user cancels a purge. 
+This method is typically called by the handler's <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">Purge</a> method while the handler is purging deletable files. Handlers should call <b>PurgeProgress</b> periodically to keep the user informed of progress, especially if the purge will take a long time. Calling this method frequently also allows the handler to shut down promptly if a user cancels a purge. 
 
 
 

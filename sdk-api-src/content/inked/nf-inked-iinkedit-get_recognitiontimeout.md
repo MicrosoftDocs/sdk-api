@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the length of time, in milliseconds, between the last <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object collected and the beginning of text recognition.
+Gets or sets the length of time, in milliseconds, between the last <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object collected and the beginning of text recognition.
 
 
 
@@ -83,7 +83,7 @@ Setting this property equal to zero prevents the ink from being replaced by the 
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

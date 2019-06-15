@@ -64,7 +64,7 @@ The
 ### -param AdvertisingScope [in]
 
 Pointer to 
-<a href="https://msdn.microsoft.com/e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a">RND_ADVERTISING_SCOPE</a> enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-rnd_advertising_scope">RND_ADVERTISING_SCOPE</a> enumeration.
 
 
 ## -returns
@@ -153,15 +153,15 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-<a href="https://msdn.microsoft.com/bab167cf-2726-4423-87b3-69227404bddc">ITDirectoryObjectConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/25e155ad-c809-4ff4-85cb-ca43cb203368">ITDirectoryObjectConference::get_AdvertisingScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_advertisingscope">ITDirectoryObjectConference::get_AdvertisingScope</a>
 
 
 
-<a href="https://msdn.microsoft.com/e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a">RND_ADVERTISING_SCOPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-rnd_advertising_scope">RND_ADVERTISING_SCOPE</a>
  
 
  

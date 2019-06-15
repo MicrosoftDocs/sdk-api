@@ -61,11 +61,11 @@ Contains information about the placement of a window on the screen.
 
 Type: <b>UINT</b>
 
-The length of the structure, in bytes. Before calling the <a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a> or <a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a> functions, set this member to <code>sizeof(WINDOWPLACEMENT)</code>. 
+The length of the structure, in bytes. Before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a> functions, set this member to <code>sizeof(WINDOWPLACEMENT)</code>. 
                     
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a> and <a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a> fail if this member is not set correctly.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a> fail if this member is not set correctly.
 
 
 ### -field flags
@@ -269,14 +269,14 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 
 ### -field ptMinPosition
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is minimized. 
 
 
 ### -field ptMaxPosition
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is maximized. 
 
@@ -303,7 +303,7 @@ If the window is a top-level window that does not have the <b>WS_EX_TOOLWINDOW</
 
 Workspace coordinates differ from screen coordinates in that they take the locations and sizes of application toolbars (including the taskbar) into account. Workspace coordinate (0,0) is the upper-left corner of the workspace area, the area of the screen not being used by application toolbars.
 
-The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only by the <a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a> and <a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a> functions. Passing workspace coordinates to functions which expect screen coordinates (such as <a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>) will result in the window appearing in the wrong location. For example, if the taskbar is at the top of the screen, saving window coordinates using <b>GetWindowPlacement</b> and restoring them using <b>SetWindowPos</b> causes the window to appear to "creep" up the screen. 
+The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a> functions. Passing workspace coordinates to functions which expect screen coordinates (such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>) will result in the window appearing in the wrong location. For example, if the taskbar is at the top of the screen, saving window coordinates using <b>GetWindowPlacement</b> and restoring them using <b>SetWindowPos</b> causes the window to appear to "creep" up the screen. 
 
 
 
@@ -317,11 +317,11 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633518(v=VS.85).aspx">GetWindowPlacement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -333,19 +333,19 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

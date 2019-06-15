@@ -59,9 +59,9 @@ Retrieves information about which capabilities are supported for a raw image.
 
 ### -param pInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1466cd90-8eab-4c5c-bb77-c75d35fe586b">WICRawCapabilitiesInfo</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawcapabilitiesinfo">WICRawCapabilitiesInfo</a>*</b>
 
-A pointer that receives <a href="https://msdn.microsoft.com/1466cd90-8eab-4c5c-bb77-c75d35fe586b">WICRawCapabilitiesInfo</a> that provides the capabilities supported by the raw image.
+A pointer that receives <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawcapabilitiesinfo">WICRawCapabilitiesInfo</a> that provides the capabilities supported by the raw image.
 
 
 ## -returns

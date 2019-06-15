@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-This interface performs all the same functions as the existing <a href="https://msdn.microsoft.com/bd1a22a8-bbf3-d515-5596-1797e261cd1e">ID2D1CommandSink2</a> interface.
+This interface performs all the same functions as the existing <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a> interface.
         It also enables access to sprite batch rendering.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink3</b> interface inherits from <a href="https://msdn.microsoft.com/bd1a22a8-bbf3-d515-5596-1797e261cd1e">ID2D1CommandSink2</a>. <b>ID2D1CommandSink3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1CommandSink3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>. <b>ID2D1CommandSink3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID2D1CommandSink3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9227A78E-B53A-4191-87F8-BA239E0CF8ED">DrawSpriteBatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1commandsink3-drawspritebatch">DrawSpriteBatch</a>
 </td>
 <td align="left" width="63%">
 Renders part or all of the given sprite batch to the device context using the specified drawing options.
@@ -85,7 +85,7 @@ Renders part or all of the given sprite batch to the device context using the sp
 
 
 
-<a href="https://msdn.microsoft.com/bd1a22a8-bbf3-d515-5596-1797e261cd1e">ID2D1CommandSink2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>
  
 
  

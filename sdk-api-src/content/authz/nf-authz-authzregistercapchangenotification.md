@@ -59,7 +59,7 @@ The <b>AuthzRegisterCapChangeNotification</b> function registers a CAP update no
 
 ### -param phCapChangeSubscription [out]
 
-Pointer to the CAP change notification subscription handle. When you have finished using the handle, unsubscribe by passing this parameter to the <a href="https://msdn.microsoft.com/79374C66-CD50-4351-A16B-AF79A579AF74">AuthzUnregisterCapChangeNotification</a> function.
+Pointer to the CAP change notification subscription handle. When you have finished using the handle, unsubscribe by passing this parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzunregistercapchangenotification">AuthzUnregisterCapChangeNotification</a> function.
 
 
 ### -param pfnCapChangeCallback [in]
@@ -79,7 +79,7 @@ The context of the user to be passed to the callback function.
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -98,15 +98,15 @@ This function is intended for applications that manually manage CAP usage to get
 
 
 
-<a href="https://msdn.microsoft.com/79374C66-CD50-4351-A16B-AF79A579AF74">AuthzUnregisterCapChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzunregistercapchangenotification">AuthzUnregisterCapChangeNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/E3E43D9F-6826-468A-86E9-AC8F9A381FD4">Central Access Policies</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/central-authorization-policies">Central Access Policies</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc98b23e-ce42-4d4a-a285-c0b7b5e2a478">How AccessCheck Works</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>
  
 
  

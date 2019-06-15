@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDOPENDIRECTDRAWOUT structure contains a new Microsoft DirectDraw handle for the <a href="https://msdn.microsoft.com/57e543e3-071c-4d3f-80ee-99648d34737d">DD_DXAPI_OPENDIRECTDRAW</a> function identifier of the <b>DxApi</b> function if the <b>ddRVal</b> member of DDOPENDIRECTDRAWOUT is set to DD_OK. This new handle must be used on all subsequent calls that require a DirectDraw handle. 
+The DDOPENDIRECTDRAWOUT structure contains a new Microsoft DirectDraw handle for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a> function identifier of the <b>DxApi</b> function if the <b>ddRVal</b> member of DDOPENDIRECTDRAWOUT is set to DD_OK. This new handle must be used on all subsequent calls that require a DirectDraw handle. 
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The DDOPENDIRECTDRAWOUT structure contains a new Microsoft DirectDraw handle for
 
 ### -field ddRVal
 
-Specifies the location in which DirectDraw writes the return value of the <a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a> function for <a href="https://msdn.microsoft.com/57e543e3-071c-4d3f-80ee-99648d34737d">DD_DXAPI_OPENDIRECTDRAW</a> operations. A return code of DD_OK indicates success.
+Specifies the location in which DirectDraw writes the return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a> operations. A return code of DD_OK indicates success.
 
 
 ### -field hDirectDraw
@@ -72,11 +72,11 @@ Handle to the new DirectDraw object.
 
 
 
-<a href="https://msdn.microsoft.com/57e543e3-071c-4d3f-80ee-99648d34737d">DD_DXAPI_OPENDIRECTDRAW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

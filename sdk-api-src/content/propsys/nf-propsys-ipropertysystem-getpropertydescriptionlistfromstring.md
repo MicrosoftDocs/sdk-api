@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an instance of the subsystem object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
+Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>, to obtain an ordered collection of property descriptions, based on the provided string.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface pointer.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a> interface pointer.
 
 
 ## -returns
@@ -125,7 +125,7 @@ Indicates <i>ppv</i> is <b>NULL</b>.
 
 The property description list string ("proplist") syntax consists of a sequence of canonical property names, with flags associated with each property name. The string starts with "prop:". The syntax looks like this: <code>prop:[flags]propertyname[endflags];</code>
 
-The flags are optional and can be any of those below. Note: These flags translate to the <a href="https://msdn.microsoft.com/en-us/library/Bb762528(v=VS.85).aspx">PROPDESC_VIEW_FLAGS</a> enum.
+The flags are optional and can be any of those below. Note: These flags translate to the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_view_flags">PROPDESC_VIEW_FLAGS</a> enum.
 
 <table class="clsStd">
 <tr>
@@ -226,7 +226,7 @@ The endflags are also optional and can be the following:
 It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, eliminating the possibility of a coding error.
 
 For more information about property schemas, see 
-            <a href="https://msdn.microsoft.com/library/Cc144135(v=VS.85).aspx">Property Schemas</a>.
+            <a href="https://docs.microsoft.com/windows/desktop/properties/building-property-handlers-property-schemas">Property Schemas</a>.
 
 
 
@@ -236,7 +236,7 @@ For more information about property schemas, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
  
 
  

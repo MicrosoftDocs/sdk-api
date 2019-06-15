@@ -61,7 +61,7 @@ Initializes the color context from a memory block.
 
 Type: <b>const BYTE*</b>
 
-The buffer used to initialize the <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a>.
+The buffer used to initialize the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a>.
 
 
 ### -param cbBufferSize [in]

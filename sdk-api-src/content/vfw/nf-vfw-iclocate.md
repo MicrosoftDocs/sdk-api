@@ -74,13 +74,13 @@ Preferred handler of the specified type. Typically, the handler type is stored i
 
 ### -param lpbiIn
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure defining the input format. A compressor handle is not returned unless it supports this format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure defining the input format. A compressor handle is not returned unless it supports this format.
           
 
 
 ### -param lpbiOut
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure defining an optional decompressed format. You can also specify zero to use the default output format associated with the input format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure defining an optional decompressed format. You can also specify zero to use the default output format associated with the input format.
 
 If this parameter is nonzero, a compressor handle is not returned unless it can create this output format.
 
@@ -167,11 +167,11 @@ Returns a handle to a compressor or decompressor if successful or zero otherwise
 
 
 
-<a href="https://msdn.microsoft.com/193961a5-b882-4769-bce7-a53d625fc9dd">Video Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

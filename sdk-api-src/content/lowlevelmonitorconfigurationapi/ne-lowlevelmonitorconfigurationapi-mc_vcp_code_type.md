@@ -74,15 +74,15 @@ Set Parameter VCP code. Sending a command of this type changes some aspect of th
 
 
 
-<a href="https://msdn.microsoft.com/b0b06137-8f67-46fc-ba6b-3022f3331fa5">GetVCPFeatureAndVCPFeatureReply</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lowlevelmonitorconfigurationapi/nf-lowlevelmonitorconfigurationapi-getvcpfeatureandvcpfeaturereply">GetVCPFeatureAndVCPFeatureReply</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6ab74af-0ac4-4dfe-bbf8-21b8339d2826">Monitor Configuration Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-enumeration-types">Monitor Configuration Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c3acb13-c5db-44ce-937d-b0b001a08062">SetMonitorDisplayAreaSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareasize">SetMonitorDisplayAreaSize</a>
  
 
  

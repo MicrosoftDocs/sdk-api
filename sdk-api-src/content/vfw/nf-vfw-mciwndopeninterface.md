@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndOpenInterface</b> macro attaches the data stream or file associated with the specified interface to an MCIWnd window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/73cbd637-d315-4b39-a978-2b72aed1f303">MCIWNDM_OPENINTERFACE</a> message.
+The <b>MCIWndOpenInterface</b> macro attaches the data stream or file associated with the specified interface to an MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-openinterface">MCIWNDM_OPENINTERFACE</a> message.
 
 
 

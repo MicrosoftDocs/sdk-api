@@ -69,9 +69,9 @@ A null-terminated string that represents the prompt message for the client.
 
 ### -param promptType
 
-Prompt type as defined by <a href="https://msdn.microsoft.com/183f40ed-214f-4468-8036-7753ae18575b">MI_PromptType</a>. The 
+Prompt type as defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_prompttype">MI_PromptType</a>. The 
       provider should try to use the locale that the client has specified (retrieved through the 
-      <a href="https://msdn.microsoft.com/7d2271e8-de76-4629-aedc-0ab882ab58eb">MI_Context_GetLocale</a> function).
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a> function).
 
 
 ### -param flag [out]
@@ -85,7 +85,7 @@ Return value from the client. <b>MI_TRUE</b> indicates that the process should c
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the 
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the 
       function return code. This can be one of the following codes.
 
 
@@ -107,23 +107,23 @@ If the client has an auto-result specified, then the message will be reported, b
 
 
 
-<a href="https://msdn.microsoft.com/51d6c510-f9fd-4ab7-a669-b2a5776b496d">MI_Context</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_context">MI_Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d2271e8-de76-4629-aedc-0ab882ab58eb">MI_Context_GetLocale</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_getlocale">MI_Context_GetLocale</a>
 
 
 
-<a href="https://msdn.microsoft.com/5548b75d-2d71-4ef1-828c-ae8fb5e9c165">MI_Context_ShouldContinue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_shouldcontinue">MI_Context_ShouldContinue</a>
 
 
 
-<a href="https://msdn.microsoft.com/adfa899c-f65a-4aac-b82d-5bc7b776713a">MI_Context_ShouldProcess</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_shouldprocess">MI_Context_ShouldProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/183f40ed-214f-4468-8036-7753ae18575b">MI_PromptType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_prompttype">MI_PromptType</a>
  
 
  

@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 Encapsulates a list of graphics commands for rendering, extending the interface to support writing immediate values directly to a buffer.
-<div class="alert"><b>Note</b>  This interface was introduced in the Windows 10 Fall Creators Update, and  as such is the latest version of the <b>ID3D12GraphicsCommandList</b> interface. Applications targeting the Windows 10 Fall Creators Update and later should use this interface instead of <a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a> or <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface was introduced in the Windows 10 Fall Creators Update, and  as such is the latest version of the <b>ID3D12GraphicsCommandList</b> interface. Applications targeting the Windows 10 Fall Creators Update and later should use this interface instead of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList2</b> interface inherits from <a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>. <b>ID3D12GraphicsCommandList2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>. <b>ID3D12GraphicsCommandList2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12GraphicsCommandList2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EB1FD3E0-5785-40D1-961B-AF22F9911653">WriteBufferImmediate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist2-writebufferimmediate">WriteBufferImmediate</a>
 </td>
 <td align="left" width="63%">
 Writes a number of 32-bit immediate values to the specified buffer locations directly from the command stream.
@@ -84,15 +84,15 @@ Writes a number of 32-bit immediate values to the specified buffer locations dir
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 
 
-<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
  
 
  

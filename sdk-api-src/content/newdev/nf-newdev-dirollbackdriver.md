@@ -59,12 +59,12 @@ The <b>DiRollbackDriver</b> function rolls back the driver that is installed on 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which driver rollback is performed.
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which driver rollback is performed.
 
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the specific device in the specified device information set for which driver rollback is performed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the specific device in the specified device information set for which driver rollback is performed.
 
 
 ### -param hwndParent [in, optional]
@@ -108,7 +108,7 @@ For more information about this parameter, see the following <b>Remarks</b> sect
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to roll back a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a>.
+The caller does not have Administrator privileges. By default, Windows requires that the caller have Administrator privileges to roll back a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The caller does not have Administrator privileges. By default, Windows requires 
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://msdn.microsoft.com/library/Ff541255(v=VS.85).aspx">Installing Devices on 64-Bit Systems</a>.
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ The application must perform required operations, other than calling <b>DiRollba
 
 </li>
 </ul>
-To install a new driver for a device instead of rolling back the driver for the device, call <a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a> or <a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a>.
+To install a new driver for a device instead of rolling back the driver for the device, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>.
 
 
 
@@ -197,11 +197,11 @@ To install a new driver for a device instead of rolling back the driver for the 
 
 
 
-<a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>
  
 
  

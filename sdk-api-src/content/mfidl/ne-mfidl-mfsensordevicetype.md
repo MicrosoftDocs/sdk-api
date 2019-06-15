@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of a sensor device. A value from this enumeration is returned by <a href="https://msdn.microsoft.com/6714B5A8-83F2-44CD-B061-749EA6BFBF20">IMFSensorDevice::GetDeviceType</a>.
+Specifies the type of a sensor device. A value from this enumeration is returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdevicetype">IMFSensorDevice::GetDeviceType</a>.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The sensor device type is unknown.
 
 ### -field MFSensorDeviceType_Device
 
-The sensor device is a physical device. Physical cameras may register as <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548567(v=vs.85).aspx">KSCATEGORY_VIDEO_CAMERA</a>  or both.
+The sensor device is a physical device. Physical cameras may register as <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a>  or both.
 
 
 ### -field MFSensorDeviceType_MediaSource

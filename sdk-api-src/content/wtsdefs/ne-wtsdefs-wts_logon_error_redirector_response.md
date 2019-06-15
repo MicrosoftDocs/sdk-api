@@ -90,13 +90,13 @@ This enumeration is used by the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a333db5a-3564-4d33-bfd6-244975cc3c4f">RedirectStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectstatus">RedirectStatus</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8db3657c-f64f-4e38-832e-5808557f479d">RedirectMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectmessage">RedirectMessage</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/10cd07c3-9617-4ef8-9b30-541a3206e7e4">RedirectLogonError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectlogonerror">RedirectLogonError</a>
 </li>
 </ul>
 

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> based on the specified index.
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a> based on the specified index.
 
 
 ## -parameters
@@ -62,12 +62,12 @@ Retrieves an <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DE
 
 ### -param Index [in]
 
-The index of the <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> to retrieve. This value must be less than the value returned by <a href="https://msdn.microsoft.com/459A0898-ED5F-479F-8DDC-EA67C04F7BF9">GetCount</a>. 
+The index of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a> to retrieve. This value must be less than the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getcount">GetCount</a>. 
 
 
 ### -param sensorActivityReport [out]
 
-A pointer to the  <a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a> associated with the specified index.
+A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a> associated with the specified index.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The <i>sensorActivityReport</i> parameter is null.
 </dl>
 </td>
 <td width="60%">
-The <i>Index</i> parameter is not less than value returned by <a href="https://msdn.microsoft.com/459A0898-ED5F-479F-8DDC-EA67C04F7BF9">GetCount</a>. 
+The <i>Index</i> parameter is not less than value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreport-getcount">GetCount</a>. 
 
 </td>
 </tr>
@@ -127,11 +127,11 @@ The <i>Index</i> parameter is not less than value returned by <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/CECDE9D5-B5D4-4DF3-80A8-F4B0B37CC5C3">IMFSensorActivitiesReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreport">IMFSensorActivitiesReport</a>
 
 
 
-<a href="https://msdn.microsoft.com/06612B8E-5C1E-487C-B6EF-15F65DEA27D0">IMFSensorActivityReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
  
 
  

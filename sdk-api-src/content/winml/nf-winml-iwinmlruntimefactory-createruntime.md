@@ -63,12 +63,12 @@ Creates a WinML runtime.
 
 ### -param RuntimeType [in]
 
-A <a href="https://msdn.microsoft.com/5F522511-6186-4C1F-9315-3E382E87F62C">WINML_RUNTIME_TYPE</a> that decribes the type of WinML runtime.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winml/ne-winml-winml_runtime_type">WINML_RUNTIME_TYPE</a> that decribes the type of WinML runtime.
 
 
 ### -param ppRuntime [out]
 
-A pointer to the created <a href="https://msdn.microsoft.com/C2FD74A1-EE38-46B1-98A8-43557485F92E">IWinMLRuntime</a>.
+A pointer to the created <a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlruntime">IWinMLRuntime</a>.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7817A028-031C-49AA-A17A-4364DC0E78D0">IWinMLRuntimeFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlruntimefactory">IWinMLRuntimeFactory</a>
  
 
  

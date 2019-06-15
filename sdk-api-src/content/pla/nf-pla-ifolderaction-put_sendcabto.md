@@ -73,7 +73,7 @@ The data manager does not fail if it is not able to send the file.
 
 
 
-<a href="https://msdn.microsoft.com/a3942d5f-9ec4-4461-84f9-f2fae3971e23">IFolderAction</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>
  
 
  

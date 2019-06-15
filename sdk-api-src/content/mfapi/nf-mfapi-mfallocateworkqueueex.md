@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new work queue. This function extends the capabilities of the  <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a> function by making it possible to create a  work queue that has a message loop.
+Creates a new work queue. This function extends the capabilities of the  <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function by making it possible to create a  work queue that has a message loop.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates a new work queue. This function extends the capabilities of the  <a href
 
 ### -param WorkQueueType [in]
 
-A member of the <a href="https://msdn.microsoft.com/a3627dbc-1794-4e2e-b7ed-869ed50ca893">MFASYNC_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-mfasync_workqueue_type">MFASYNC_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ A member of the <a href="https://msdn.microsoft.com/a3627dbc-1794-4e2e-b7ed-869e
 </dl>
 </td>
 <td width="60%">
-Create a multithreaded work queue. Generally, applications should not create private multithreaded queues. Use the platform multithreaded queues instead. For more information, see <a href="https://msdn.microsoft.com/9E2A1D94-BF82-488E-8297-D524683ABE17">Work Queue and Threading Improvements</a>.
+Create a multithreaded work queue. Generally, applications should not create private multithreaded queues. Use the platform multithreaded queues instead. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>.
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Create a multithreaded work queue. Generally, applications should not create pri
 </dl>
 </td>
 <td width="60%">
-Create a work queue without a message loop. Using this flag is equivalent to calling <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a>.
+Create a work queue without a message loop. Using this flag is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a>.
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ Create a work queue without a message loop. Using this flag is equivalent to cal
 </dl>
 </td>
 <td width="60%">
-Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> and <a href="https://msdn.microsoft.com/en-us/library/ms644934(v=VS.85).aspx">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
+Create a work queue with a message loop. The thread that dispatches the work items for this queue will also call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>. Use this option if your callback performs any actions that require a message loop.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The application did not call <a href="https://msdn.microsoft.com/b4472e40-3681-4b26-9385-4df7bf19c2d8">MFStartup</a>, or the application has already called <a href="https://msdn.microsoft.com/10be2361-b5b4-4c10-92a1-527ca22c74e4">MFShutdown</a>.
+The application did not call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a>, or the application has already called <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a>.
 
 </td>
 </tr>
@@ -170,9 +170,9 @@ The application did not call <a href="https://msdn.microsoft.com/b4472e40-3681-4
 
 
 
-When you are done using the work queue, call <a href="https://msdn.microsoft.com/bbc22fa7-b4d7-47b2-b065-099fbb2ed092">MFUnlockWorkQueue</a>.
+When you are done using the work queue, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfunlockworkqueue">MFUnlockWorkQueue</a>.
 
-The <a href="https://msdn.microsoft.com/8def4375-919c-4619-9484-9ce2708a3886">MFAllocateWorkQueue</a> function is equivalent to calling <b>MFAllocateWorkQueueEx</b> with the value MF_STANDARD_WORKQUEUE for the <i>WorkQueueType</i> parameter.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function is equivalent to calling <b>MFAllocateWorkQueueEx</b> with the value MF_STANDARD_WORKQUEUE for the <i>WorkQueueType</i> parameter.
 
 This function is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
@@ -184,19 +184,19 @@ This function is available on Windows Vista if Platform Update Supplement for W
 
 
 
-<a href="https://msdn.microsoft.com/b0233589-2a55-4803-9dcb-85d757734dee">MFPutWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitem">MFPutWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/67b4f7c6-0d49-4ed0-9bc3-e583451884af">MFPutWorkItemEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfputworkitemex">MFPutWorkItemEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

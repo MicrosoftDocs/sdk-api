@@ -53,12 +53,12 @@ The <b>ITfCandidateList</b> interface is implemented by a text service and is us
 
 The TSF manager implements this interface to provide access to this interface to other clients. This enables the TSF manager to function as a mediator between the client and the text service.
 
-To obtain an instance of this interface the TSF manager or client can call <a href="https://msdn.microsoft.com/ed696088-c599-4c83-968e-d09d9ae81c10">ITfFnReconversion::GetReconversion</a>.
+To obtain an instance of this interface the TSF manager or client can call <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-getreconversion">ITfFnReconversion::GetReconversion</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfCandidateList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITfCandidateList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f63799a1-2284-4da8-933c-f3616c1cb295">EnumCandidates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-enumcandidates">EnumCandidates</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains all the candidate string objects in the candidate list.
@@ -82,7 +82,7 @@ Obtains an enumerator that contains all the candidate string objects in the cand
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cb2127c-cce5-4815-b40b-e6e15058eab5">GetCandidate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-getcandidate">GetCandidate</a>
 </td>
 <td align="left" width="63%">
 Obtains a specific candidate string object.
@@ -91,7 +91,7 @@ Obtains a specific candidate string object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53b8f8cc-776c-454a-86fa-6fa3b6ac097b">GetCandidateNum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-getcandidatenum">GetCandidateNum</a>
 </td>
 <td align="left" width="63%">
 Obtains the number of candidate string objects in the candidate list.
@@ -100,7 +100,7 @@ Obtains the number of candidate string objects in the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcc172f9-4fc3-46f4-a1db-0e75fceafb28">SetResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">SetResult</a>
 </td>
 <td align="left" width="63%">
 Specifies the result of a reconversion operation for s specific candidate string.
@@ -124,12 +124,12 @@ When a text service must interpret text before it is inserted into a context, th
 
 
 
-<a href="https://msdn.microsoft.com/ed696088-c599-4c83-968e-d09d9ae81c10">ITfFnReconversion::GetReconversion
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-getreconversion">ITfFnReconversion::GetReconversion
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

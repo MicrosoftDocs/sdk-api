@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761309(v=VS.85).aspx">LB_GETSELCOUNT</a> message explicitly.
+Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getselcount">LB_GETSELCOUNT</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the count of selected items in a multiple-selection list box. You can use t
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,7 +68,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761309(v=VS.85).aspx">LB_GETSELCOUNT</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getselcount">LB_GETSELCOUNT</a>.
 	
 
 

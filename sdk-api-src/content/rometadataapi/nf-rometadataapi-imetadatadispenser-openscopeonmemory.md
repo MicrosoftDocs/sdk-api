@@ -69,7 +69,7 @@ The size of the memory area, in bytes.
 
 ### -param dwOpenFlags [in]
 
-A value of the <a href="http://msdn.microsoft.com/en-us/library/ms233112.aspx">CorOpenFlags</a> enumeration to specify the mode (read, write, and so on) for opening.
+A value of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/coropenflags-enumeration">CorOpenFlags</a> enumeration to specify the mode (read, write, and so on) for opening.
 
 
 ### -param riid [in]
@@ -101,7 +101,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The in-memory copy of the metadata can be queried using methods from one of the "import" interfaces, or added to using methods from the one of the "emit" interfaces.
 
-The <b>OpenScopeOnMemory</b>  method is similar to the <a href="https://msdn.microsoft.com/77ba5ee6-082c-478f-83fc-7f6c31ee3c74">OpenScope</a> method, except that the metadata of interest already exists in memory, rather than in a file on disk.
+The <b>OpenScopeOnMemory</b>  method is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadatadispenser-openscope">OpenScope</a> method, except that the metadata of interest already exists in memory, rather than in a file on disk.
 
 If the target area of memory does not contain common language runtime (CLR) metadata, the <b>OpenScopeOnMemory</b> method will fail.
 
@@ -113,7 +113,7 @@ If the target area of memory does not contain common language runtime (CLR) meta
 
 
 
-<a href="https://msdn.microsoft.com/3454193d-9068-4032-ae9e-b3087509b0b8">IMetaDataDispenser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenser">IMetaDataDispenser</a>
  
 
  

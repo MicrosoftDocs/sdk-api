@@ -74,5 +74,5 @@ Variable of type <b>ULONG</b> that specifies the count of properties in the prop
 
 Type: <b>LPSPropValue</b>
 
-Pointer to a variable of type <a href="https://msdn.microsoft.com/en-us/library/ms629450(v=VS.85).aspx">SPropValue</a> that specifies the property value array describing the properties for the recipient. The <b>rgPropVals</b> member can be <b>NULL</b>.
+Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropvalue">SPropValue</a> that specifies the property value array describing the properties for the recipient. The <b>rgPropVals</b> member can be <b>NULL</b>.
 

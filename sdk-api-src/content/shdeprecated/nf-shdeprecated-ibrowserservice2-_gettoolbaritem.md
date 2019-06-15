@@ -71,7 +71,7 @@ The index of the toolbar item to retrieve.
 
 Type: <b>LPTOOLBARITEM</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/7378f2f3-c164-46fe-9989-a7a57fceb48a">TOOLBARITEM</a> structure that represents a toolbar item.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-stoolbaritem">TOOLBARITEM</a> structure that represents a toolbar item.
 
 
 

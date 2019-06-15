@@ -70,7 +70,7 @@ The size of the buffer that the <i>tokenBindingMessage</i> parameter points to, 
 
 ### -param keyType [in]
 
-The negotiated key algorithm to use. Use a value from the list of key types that you retrieved by calling the <a href="https://msdn.microsoft.com/8ABAC0AF-AF68-4742-9C36-3FB17D303409">TokenBindingGetKeyTypesServer</a> function.
+The negotiated key algorithm to use. Use a value from the list of key types that you retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesserver">TokenBindingGetKeyTypesServer</a> function.
 
 
 ### -param tlsEKM [in]
@@ -87,7 +87,7 @@ The size of the buffer that the <i>tlsUnique</i> parameter points to, in bytes.
 
 A pointer that receives the address for the buffer that contains the results for each of the token bindings that <b>TokenBindingVerifyMessage</b>   verifies.
 
-In user mode, use <a href="https://msdn.microsoft.com/9a176312-0312-4cc1-baf5-949b346d983e">HeapAlloc</a> to allocate the memory for the buffer, and <a href="https://msdn.microsoft.com/6139e55f-9dda-42b5-bc9b-8d9bbfeaa619">HeapFree</a> to free that memory. In kernel mode, use <a href="https://msdn.microsoft.com/a9951e7b-60a2-4bf2-913c-b7291d7c3173">ExAllocatePoolWithTag</a>  to allocate the memory for the buffer, and <a href="https://msdn.microsoft.com/c26f9b28-396d-40de-bdc3-287fc3ac4113">ExFreePool</a> to free that memory.
+In user mode, use <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> to allocate the memory for the buffer, and <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> to free that memory. In kernel mode, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>  to allocate the memory for the buffer, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a> to free that memory.
 
 
 ## -returns
@@ -113,23 +113,23 @@ You can call <b>TokenBindingVerifyMessage</b> from both user mode and kernel mod
 
 
 
-<a href="https://msdn.microsoft.com/a9951e7b-60a2-4bf2-913c-b7291d7c3173">ExAllocatePoolWithTag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/c26f9b28-396d-40de-bdc3-287fc3ac4113">ExFreePool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
 
 
-<a href="https://msdn.microsoft.com/D14CBEA3-5F46-4C45-8C11-407D6E70FD56">TOKENBINDING_RESULT_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_result_list">TOKENBINDING_RESULT_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/7A268C6D-952B-482A-835D-89D6452D986D">TokenBindingGenerateMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggeneratemessage">TokenBindingGenerateMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ABAC0AF-AF68-4742-9C36-3FB17D303409">TokenBindingGetKeyTypesServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesserver">TokenBindingGetKeyTypesServer</a>
  
 
  

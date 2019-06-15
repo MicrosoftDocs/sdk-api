@@ -75,7 +75,7 @@ The reason the scheduler entry point is being called. This parameter can be one 
 </dl>
 </td>
 <td width="60%">
-A UMS scheduler thread was created. The entry point is called with this reason once each time  <a href="https://msdn.microsoft.com/792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b">EnterUmsSchedulingMode</a> is called.
+A UMS scheduler thread was created. The entry point is called with this reason once each time  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> is called.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ A UMS worker thread blocked.
 </dl>
 </td>
 <td width="60%">
-An executing UMS worker thread yielded control by calling the <a href="https://msdn.microsoft.com/d7c94ed5-9536-4c39-8658-27e4237cc9ba">UmsThreadYield</a> function. 
+An executing UMS worker thread yielded control by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-umsthreadyield">UmsThreadYield</a> function. 
 
 </td>
 </tr>
@@ -144,9 +144,9 @@ If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b>, this parameter
 
 ### -param SchedulerParam [in]
 
-If the <i>Reason</i> parameter is <b>UmsSchedulerStartup</b>, this parameter is the <b>SchedulerParam</b> member of the <a href="https://msdn.microsoft.com/e3f7b1b7-d2b8-432d-bce7-3633292e855b">UMS_SCHEDULER_STARTUP_INFO</a> structure passed to the <a href="https://msdn.microsoft.com/792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b">EnterUmsSchedulingMode</a> function that triggered the entry point call. 
+If the <i>Reason</i> parameter is <b>UmsSchedulerStartup</b>, this parameter is the <b>SchedulerParam</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ums_scheduler_startup_info">UMS_SCHEDULER_STARTUP_INFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> function that triggered the entry point call. 
 
-If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b> this parameter is the SchedulerParam parameter passed to the <a href="https://msdn.microsoft.com/d7c94ed5-9536-4c39-8658-27e4237cc9ba">UmsThreadYield</a> function that triggered the entry point call. 
+If the <i>Reason</i> parameter is <b>UmsSchedulerThreadYield</b> this parameter is the SchedulerParam parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-umsthreadyield">UmsThreadYield</a> function that triggered the entry point call. 
 
 If the <i>Reason</i> parameter is <b>UmsSchedulerThreadBlocked</b>, this parameter is NULL.
 
@@ -166,13 +166,13 @@ This function does not return a value.
 
 The <i>UmsSchedulerProc</i> function pointer type is defined as <b>PUMS_SCHEDULER_ENTRY_POINT</b> in WinBase.h. The underlying function type is defined as <b>RTL_UMS_SCHEDULER_ENTRY_POINT</b> in WinNT.h
 
-Each UMS scheduler thread has an associated <i>UmsSchedulerProc</i> entry point function that is specified when the thread calls the <a href="https://msdn.microsoft.com/792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b">EnterUmsSchedulingMode</a> function. The system calls the scheduler entry point function with a reason of <b>UmsSchedulerStartup</b> when the scheduler thread is converted for UMS.  
+Each UMS scheduler thread has an associated <i>UmsSchedulerProc</i> entry point function that is specified when the thread calls the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a> function. The system calls the scheduler entry point function with a reason of <b>UmsSchedulerStartup</b> when the scheduler thread is converted for UMS.  
 
 Subsequently, when a UMS worker thread that is running on the scheduler thread yields or blocks, the system calls the scheduler thread's entry point function with a pointer to the UMS thread context of the worker thread.
 
 The application's scheduler is responsible for selecting the next UMS worker thread to run. The scheduler implements all policies that influence execution of its UMS threads, including processor affinity and thread priority. For example, a scheduler might give priority to I/O-intensive threads, or it might run threads on a first-come, first-served basis. This logic can be implemented in the scheduler entry point function or elsewhere in the application.
 
-When a blocked UMS worker thread becomes unblocked, the system queues the unblocked thread to the associated completion list and signals the completion list event. To retrieve UMS worker threads from the completion list, use the <a href="https://msdn.microsoft.com/91499eb9-9fc5-4135-95f6-1bced78f1e07">DequeueUmsCompletionListItems</a> function.
+When a blocked UMS worker thread becomes unblocked, the system queues the unblocked thread to the associated completion list and signals the completion list event. To retrieve UMS worker threads from the completion list, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a> function.
 
 
 
@@ -182,15 +182,15 @@ When a blocked UMS worker thread becomes unblocked, the system queues the unbloc
 
 
 
-<a href="https://msdn.microsoft.com/91499eb9-9fc5-4135-95f6-1bced78f1e07">DequeueUmsCompletionListItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-dequeueumscompletionlistitems">DequeueUmsCompletionListItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b">EnterUmsSchedulingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enterumsschedulingmode">EnterUmsSchedulingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7c94ed5-9536-4c39-8658-27e4237cc9ba">UmsThreadYield</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-umsthreadyield">UmsThreadYield</a>
  
 
  

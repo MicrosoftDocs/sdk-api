@@ -82,7 +82,7 @@ Object handlers and link objects normally implement <b>IAdviseSink::OnSave</b> t
 
 
 
-<a href="https://msdn.microsoft.com/bc9f217a-75bd-4155-9d00-df44b00cf0e5">IAdviseSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
  
 
  

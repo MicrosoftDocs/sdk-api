@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of identities to enumerate. This enumeration is used by the <a href="https://msdn.microsoft.com/9e216959-7038-43cf-a57d-bee85d521f58">IIdentityProvider::GetIdentityEnum</a> and <a href="https://msdn.microsoft.com/df1a53e0-6296-49ed-b0f0-85e9dc9ab947">IIdentityStore::EnumerateIdentities</a> methods.
+Specifies the type of identities to enumerate. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iidentityprovider-getidentityenum">IIdentityProvider::GetIdentityEnum</a> and <a href="https://docs.microsoft.com/windows/desktop/api/identitystore/nf-identitystore-iidentitystore-enumerateidentities">IIdentityStore::EnumerateIdentities</a> methods.
 
 
 ## -enum-fields

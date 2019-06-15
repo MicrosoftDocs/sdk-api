@@ -61,7 +61,7 @@ The
 ### -param hDevice [in]
 
 Handle to the device on which to get the tape position. This handle is created by using 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 
 ### -param dwPositionType [in]
@@ -322,7 +322,7 @@ The media is write protected.
 A logical block address is relative to a partition. The first logical block address on each partition is zero.
 
 Call the 
-<a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a>function to obtain information about the status, capabilities, and capacities of tape drives and media.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function to obtain information about the status, capabilities, and capacities of tape drives and media.
 
 
 
@@ -332,15 +332,15 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1962aa5-c187-4fef-886c-36a8b096829f">SetTapePosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeposition">SetTapePosition</a>
  
 
  

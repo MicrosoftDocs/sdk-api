@@ -51,15 +51,15 @@ ms.custom: 19H1
 
 The 
 <b>IMsmMerge</b> interface and the 
-<a href="https://msdn.microsoft.com/cda5698d-4aee-4771-9989-628162b433ef">IMsmMerge2</a> interface provide interfaces to the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmmerge2">IMsmMerge2</a> interface provide interfaces to the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. The 
 Merge object provides access to other top-level objects. A 
 <b>Merge</b> object must be created before loading the automation support required by COM to access the functions in Mergemod.dll.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmMerge</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IMsmMerge</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmMerge</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmMerge</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IMsmMerge</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a89fe77a-0099-4c49-b484-c05ee351a66a">CloseDatabase method</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closedatabase">CloseDatabase method</a>
 </td>
 <td align="left" width="63%">
 Closes the current database.
@@ -84,7 +84,7 @@ Closes the current database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09a40de4-d92f-4fc8-8556-a50f5dbe856b">CloseLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closelog">CloseLog</a>
 </td>
 <td align="left" width="63%">
 Closes the current log file.
@@ -93,7 +93,7 @@ Closes the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a11f72cf-4c4e-4650-95f9-549169452622">CloseModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closemodule">CloseModule</a>
 </td>
 <td align="left" width="63%">
 Closes the current module
@@ -102,7 +102,7 @@ Closes the current module
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c1ef664-792c-4cdc-b468-1ffe0b7810a5">Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Connects the components in a module to the specified feature.
@@ -111,7 +111,7 @@ Connects the components in a module to the specified feature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6fe8b69-8f4a-45f7-b7e6-7620a00500bb">ExtractCAB</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-extractcab">ExtractCAB</a>
 </td>
 <td align="left" width="63%">
 Extracts the embedded CAB of a Merge Module to a disk file.
@@ -120,7 +120,7 @@ Extracts the embedded CAB of a Merge Module to a disk file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa369815(v=VS.85).aspx">ExtractFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/advpub/nf-advpub-extractfilesa">ExtractFiles</a>
 </td>
 <td align="left" width="63%">
 Creates a source image of the Merge Module beneath the specified path.
@@ -129,7 +129,7 @@ Creates a source image of the Merge Module beneath the specified path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dbfc9be7-1b0b-417e-9e2b-bf191ea255b6">Log</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-log">Log</a>
 </td>
 <td align="left" width="63%">
 Logs a string to the current log file.
@@ -138,7 +138,7 @@ Logs a string to the current log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b580b1f-5071-42f1-8022-a152817f9fdc">Merge</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-merge">Merge</a>
 </td>
 <td align="left" width="63%">
 Merges the current module into the current database.
@@ -147,7 +147,7 @@ Merges the current module into the current database.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86f168e5-bc76-476d-9757-9b2a21bb9c4b">OpenDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-opendatabase">OpenDatabase</a>
 </td>
 <td align="left" width="63%">
 Opens a database to use as the merge target.
@@ -156,7 +156,7 @@ Opens a database to use as the merge target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97d01ea3-43b6-4529-9706-97b3b0132d9c">OpenLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-openlog">OpenLog</a>
 </td>
 <td align="left" width="63%">
 Opens a log file.
@@ -165,7 +165,7 @@ Opens a log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc976899-2c39-4314-b2fb-417e0dfc53b9">OpenModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-openmodule">OpenModule</a>
 </td>
 <td align="left" width="63%">
 Opens a merge module for use as the merge source.
@@ -182,7 +182,7 @@ Opens a merge module for use as the merge source.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d7081ffe-3d9e-486e-84b6-b45e92fff5f0">Dependencies</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-dependencies">Dependencies</a>
 
 
 </td>
@@ -194,7 +194,7 @@ Returns a collection of all unsatisfied dependencies in the database.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/619f17cc-131a-4262-ad48-9ab1318142aa">Errors</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-errors">Errors</a>
 
 
 </td>

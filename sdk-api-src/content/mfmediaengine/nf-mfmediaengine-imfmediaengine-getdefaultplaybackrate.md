@@ -74,7 +74,7 @@ Returns the default playback rate, as a multiple of normal (1×) playback. A neg
 
 This method corresponds to getting the <b>defaultPlaybackRate</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5. 
 
-The default playback rate is used for the next call to the <a href="https://msdn.microsoft.com/2D6083F5-734A-4350-8E54-56C79038389D">IMFMediaEngine::Play</a> method. To change the current playback rate, call <a href="https://msdn.microsoft.com/648BF1CC-BFAC-4874-808B-F8B46E3E9989">IMFMediaEngine::SetPlaybackRate</a>.
+The default playback rate is used for the next call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-play">IMFMediaEngine::Play</a> method. To change the current playback rate, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setplaybackrate">IMFMediaEngine::SetPlaybackRate</a>.
 
 
 
@@ -84,7 +84,7 @@ The default playback rate is used for the next call to the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
  
 
  

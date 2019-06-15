@@ -57,7 +57,7 @@ The <b>IPortableDeviceContent</b> interface provides methods to create, enumerat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceContent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceContent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPortableDeviceContent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/adc63916-5d41-4772-9c78-72fdd8dcf1a8">Cancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending call on this interface.
@@ -81,7 +81,7 @@ Cancels a pending call on this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46d6abad-457c-47d7-a83a-b5ba2b84b064">Copy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-copy">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies objects from one location on a device to another.
@@ -90,7 +90,7 @@ Copies objects from one location on a device to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea3445cc-69af-40a6-a5a4-695e0f2e1fb6">CreateObjectWithPropertiesAndData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">CreateObjectWithPropertiesAndData</a>
 </td>
 <td align="left" width="63%">
 Creates an object with both properties and data on the device.
@@ -100,7 +100,7 @@ Creates an object with both properties and data on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0695d3d6-1f0d-45b4-8461-a76d759b6c09">CreateObjectWithPropertiesOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesonly">CreateObjectWithPropertiesOnly</a>
 </td>
 <td align="left" width="63%">
  Creates an object with only properties on the device.
@@ -110,7 +110,7 @@ Creates an object with both properties and data on the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7315c869-d2b6-4ccf-9315-ec1fc1d827ac">Delete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes one or more objects from the device.
@@ -119,7 +119,7 @@ Deletes one or more objects from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72526019-58c9-4a18-a925-e0a900f3e35a">EnumObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-enumobjects">EnumObjects</a>
 </td>
 <td align="left" width="63%">
 Rretrieves an interface that is used to enumerate the immediate child objects of an object. It has an optional filter that can enumerate objects with specific properties.
@@ -129,7 +129,7 @@ Rretrieves an interface that is used to enumerate the immediate child objects of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee2aa718-0616-44b8-a9c6-cc835636500c">GetObjectIDsFromPersistentUniqueIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-getobjectidsfrompersistentuniqueids">GetObjectIDsFromPersistentUniqueIDs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current object ID of one or more objects, given their persistent unique IDs (PUIDs).
@@ -138,7 +138,7 @@ Retrieves the current object ID of one or more objects, given their persistent u
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/938a6a06-31c5-44d1-b87b-a108995ae9a1">Move</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-move">Move</a>
 </td>
 <td align="left" width="63%">
 Moves one or more objects from one location on the device to another.
@@ -148,7 +148,7 @@ Moves one or more objects from one location on the device to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc3ba717-1be3-4f29-ac27-6bdcbc5ed94f">Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-properties">Properties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the interface that is required to get or set properties on an object on the device.
@@ -158,7 +158,7 @@ Retrieves the interface that is required to get or set properties on an object o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52fd2ca7-56ba-4e7a-9dcc-5b28f344c1df">Transfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-transfer">Transfer</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface that is used to read from or write to the content data of an existing object resource.
@@ -173,7 +173,7 @@ Retrieves an interface that is used to read from or write to the content data of
 
 
 
-<a href="https://msdn.microsoft.com/fbe53f17-940a-485e-82b2-c11ae39b3300">Client Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
  
 
  

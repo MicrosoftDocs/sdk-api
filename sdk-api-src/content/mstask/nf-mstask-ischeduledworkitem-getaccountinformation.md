@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the account name for the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Retrieves the account name for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
 
 ## -parameters
@@ -152,7 +152,7 @@ The
 
 #### Examples
 
-For more information and an example of how to retrieve the account information of a task, see <a href="https://msdn.microsoft.com/ef330276-a063-42c6-a837-fddb4723091b">C/C++ Code Example: Retrieving Task Account Information</a>.
+For more information and an example of how to retrieve the account information of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-account-information">C/C++ Code Example: Retrieving Task Account Information</a>.
 
 <div class="code"></div>
 
@@ -163,11 +163,11 @@ For more information and an example of how to retrieve the account information o
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/fae1299f-2f3f-48cf-91d9-1057ce62172b">IScheduledWorkItem::SetAccountInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>
  
 
  

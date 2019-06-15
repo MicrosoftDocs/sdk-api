@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WlxDialogBox function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by the <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> to create a modal dialog box from a dialog box template.
+Called by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to create a modal dialog box from a dialog box template.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -62,7 +62,7 @@ Called by the <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 
 ### -param hInst [in]
@@ -73,7 +73,7 @@ Specifies an instance of the module whose executable file contains the dialog bo
 ### -param lpszTemplate [in]
 
 Specifies the dialog box template. This parameter is either the address of a null-terminated character string that specifies the name of the dialog box template, or an integer value that specifies the resource identifier of the dialog box template. If the parameter specifies a resource identifier, its high-order word must be zero and its low-order word must contain the identifier. You can use the 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro to create this value.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to create this value.
 
 
 ### -param hwndOwner [in]
@@ -84,7 +84,7 @@ Specifies the window that owns the dialog box.
 ### -param dlgprc [in]
 
 Points to the dialog box procedure. For more information about the dialog box procedure, see the 
-<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a> callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a> callback function.
 
 
 ## -returns
@@ -92,7 +92,7 @@ Points to the dialog box procedure. For more information about the dialog box pr
 
 
 If the <b>WlxDialogBox</b> function succeeds, the return value is the <i>nResult</i> parameter given in the call to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ Input timed out.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">secure attention sequence</a> (SAS) event occurred.
+A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event occurred.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ If the function fails, the return value is –1.
 
 
 
-GINA must use the Winlogon <b>WlxDialogBox</b> function, not the Windows <a href="https://msdn.microsoft.com/en-us/library/ms645452(v=VS.85).aspx">DialogBox</a> macro. <b>WlxDialogBox</b> duplicates the Windows <b>DialogBox</b> macro, and also allows Winlogon to terminate the dialog box. For more information, see 
+GINA must use the Winlogon <b>WlxDialogBox</b> function, not the Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a> macro. <b>WlxDialogBox</b> duplicates the Windows <b>DialogBox</b> macro, and also allows Winlogon to terminate the dialog box. For more information, see 
 <b>DialogBox</b>.
 
 
@@ -166,23 +166,23 @@ GINA must use the Winlogon <b>WlxDialogBox</b> function, not the Windows <a href
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645452(v=VS.85).aspx">DialogBox</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms645469(v=VS.85).aspx">DialogProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog">EndDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

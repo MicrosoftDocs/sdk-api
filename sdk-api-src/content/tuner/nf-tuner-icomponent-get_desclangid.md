@@ -80,7 +80,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 The returned language identifer identifies the language of the description property, which is obtained by calling the <b>get_Description</b> method.
 
-To get the language of the stream content, call the <a href="https://msdn.microsoft.com/f70dcc70-701a-4465-ad40-1ddc5e697f46">ILanguageComponentType::get_LangID</a> method (only if the component object exposes the <a href="https://msdn.microsoft.com/775b5e8d-d9ed-4371-a651-bfeed6fa0ad5">ILanguageComponentType</a> interface).
+To get the language of the stream content, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-get_langid">ILanguageComponentType::get_LangID</a> method (only if the component object exposes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilanguagecomponenttype">ILanguageComponentType</a> interface).
 
 
 
@@ -90,11 +90,11 @@ To get the language of the stream content, call the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef7d1308-27ff-4d4d-b88d-58a9f89abc7f">IComponent::get_Description</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_description">IComponent::get_Description</a>
  
 
  

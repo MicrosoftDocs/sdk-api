@@ -54,7 +54,7 @@ Represents a 3D transformation effect that affects the scale of a visual along t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionScaleTransform3D</b> interface inherits from <a href="https://msdn.microsoft.com/81239AB4-C2A3-4E37-95E3-B3C10532EE15">IDCompositionTransform3D</a>. <b>IDCompositionScaleTransform3D</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionScaleTransform3D</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>. <b>IDCompositionScaleTransform3D</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/959F8530-D2D5-46BC-9F29-F1DFC8029C12">SetCenterX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448998(v=vs.85)">SetCenterX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterX property of a 3D scale transform.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C650032E-3344-4BE8-9018-F57EFECEBF61">SetCenterY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449006(v=vs.85)">SetCenterY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterY property of a 3D scale transform.
 
@@ -85,7 +85,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1A5C63FE-2378-4274-8ADD-04A88B60FF8F">SetCenterZ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh449012(v=vs.85)">SetCenterZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the CenterZ property of a 3D scale transform.
 
@@ -93,7 +93,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449018(v=VS.85).aspx">SetScaleX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setscalex">SetScaleX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleX property of a 3D scale transform.
 
@@ -101,7 +101,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449024(v=VS.85).aspx">SetScaleY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setscaley">SetScaleY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleY property of a scale transform.
 
@@ -109,7 +109,7 @@ The <b>IDCompositionScaleTransform3D</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449030(v=VS.85).aspx">SetScaleZ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setscalez">SetScaleZ</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the ScaleZ property of a scale transform.
 
@@ -136,15 +136,15 @@ The effect is to scale the blending of the visual's subtree up or down, and appl
 
 
 
-<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/81239AB4-C2A3-4E37-95E3-B3C10532EE15">IDCompositionTransform3D</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositiontransform3d">IDCompositionTransform3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
  
 
  

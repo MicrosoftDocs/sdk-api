@@ -98,13 +98,13 @@ Specifies the size, in bytes, of extra format information appended to the end of
 
 
 
-The WAVEFORMATEX structure can describe only a subset of the formats that can be described by the <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a> structure. For example, WAVEFORMATEX can describe mono or (two-channel) stereo pulse-code modulated (PCM) streams with 8-bit or 16-bit integer sample values, or with 32-bit floating-point sample values. In addition, WAVEFORMATEX can describe popular non-PCM formats such as AC-3 and WMA Pro.
+The WAVEFORMATEX structure can describe only a subset of the formats that can be described by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a> structure. For example, WAVEFORMATEX can describe mono or (two-channel) stereo pulse-code modulated (PCM) streams with 8-bit or 16-bit integer sample values, or with 32-bit floating-point sample values. In addition, WAVEFORMATEX can describe popular non-PCM formats such as AC-3 and WMA Pro.
 
 WAVEFORMATEX can unambiguously describe mono or stereo PCM formats for which the number of valid bits per sample is the same as the sample container size. To describe a PCM format with more than two channels requires WAVEFORMATEXTENSIBLE, which has a channel mask to specify the speaker configuration (that is, the mapping of channels to physical speaker positions). To describe a PCM format for which the number of valid bits per sample is less than the sample container size (for example, a 20-bit sample stored in a three-byte container) requires WAVEFORMATEXTENSIBLE, which specifies both the number of valid sample bits and the sample container size.
 
 WAVEFORMATEX can describe non-PCM formats for which 16-bit format tags are defined in header file Mmreg.h (for example, WAVE_FORMAT_MPEG). The <b>wFormatTag</b> member of WAVEFORMATEX contains the format tag. Specify a non-PCM format for which a format tag is not defined in Mmreg.h  by a WAVEFORMATEXTENSIBLE structure, which contains a GUID that identifies the format. If necessary, a hardware vendor can independently generate a GUID value to identify a new format. Registering the GUID with Microsoft is unnecessary.
 
-For more information about the differences between WAVEFORMATEX and WAVEFORMATEXTENSIBLE, see <a href="https://msdn.microsoft.com/b80e651b-fb97-4502-8526-e844425805dc">Extensible Wave-Format Descriptors</a>.
+For more information about the differences between WAVEFORMATEX and WAVEFORMATEXTENSIBLE, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/extensible-wave-format-descriptors">Extensible Wave-Format Descriptors</a>.
 
 The <b>wFormatTag</b> member is set to one of the wave format tags that are defined in Mmreg.h. Tags for some of the more common nonproprietary formats are listed in the following table.
 
@@ -139,7 +139,7 @@ WAVE_FORMAT_DRM
 
 </td>
 <td>
-DRM-encoded format (for digital-audio content protected by Microsoft <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management</a>).
+DRM-encoded format (for digital-audio content protected by Microsoft <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/digital-rights-management">Digital Rights Management</a>).
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ WAVE_FORMAT_EXTENSIBLE
 
 </td>
 <td>
-Extensible WAVEFORMATEX structure (see <a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>).
+Extensible WAVEFORMATEX structure (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>).
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ If <b>wFormatTag</b> = WAVE_FORMAT_EXTENSIBLE, set <b>cbSize</b> to <code>sizeof
 
 
 
-<a href="https://msdn.microsoft.com/54bcb18e-df4b-471c-b121-4db75ce5c49b">WAVEFORMATEXTENSIBLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
  
 
  

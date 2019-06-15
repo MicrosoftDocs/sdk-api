@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new instance of an <a href="https://msdn.microsoft.com/a21fb11f-8622-46d6-8612-875ac59d3fbf">IWICBitmapClipper</a> object.
+Creates a new instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapclipper">IWICBitmapClipper</a> object.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Creates a new instance of an <a href="https://msdn.microsoft.com/a21fb11f-8622-4
 
 ### -param ppIBitmapClipper [out]
 
-Type: <b><a href="https://msdn.microsoft.com/a21fb11f-8622-46d6-8612-875ac59d3fbf">IWICBitmapClipper</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapclipper">IWICBitmapClipper</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/a21fb11f-8622-46d6-8612-875ac59d3fbf">IWICBitmapClipper</a>.
+A pointer that receives a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapclipper">IWICBitmapClipper</a>.
 
 
 ## -returns

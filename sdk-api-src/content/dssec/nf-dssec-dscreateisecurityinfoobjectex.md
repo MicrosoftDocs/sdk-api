@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSCreateISecurityInfoObjectEx</b> function creates an instance of the <a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a> interface associated with the specified directory service (DS) object on the specified server.
+The <b>DSCreateISecurityInfoObjectEx</b> function creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface associated with the specified directory service (DS) object on the specified server.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>DSCreateISecurityInfoObjectEx</b> function creates an instance of the <a 
 
 ### -param pwszObjectPath [in]
 
-The full path of the DS object for which to create an instance of the <a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a> interface.
+The full path of the DS object for which to create an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface.
 
 
 ### -param pwszObjectClass [in]
@@ -74,17 +74,17 @@ The server of the object specified by the <i>pwszObjectPath</i> parameter. If th
 
 ### -param pwszUserName [in]
 
-A user name to be associated with the new <b>ISecurityInformation</b> object. If the value of this parameter is <b>NULL</b>, the <a href="https://msdn.microsoft.com/b24f9789-b9f5-49c4-9812-298bae8b28a9">Active Directory Services Interfaces</a> (ADSI) default is used.
+A user name to be associated with the new <b>ISecurityInformation</b> object. If the value of this parameter is <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi">Active Directory Services Interfaces</a> (ADSI) default is used.
 
 
 ### -param pwszPassword [in]
 
-A password to be associated with the new <b>ISecurityInformation</b> object. If the value of this parameter is <b>NULL</b>, the <a href="https://msdn.microsoft.com/b24f9789-b9f5-49c4-9812-298bae8b28a9">Active Directory Services Interfaces</a> (ADSI) default is used.
+A password to be associated with the new <b>ISecurityInformation</b> object. If the value of this parameter is <b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/ADSI/active-directory-service-interfaces-adsi">Active Directory Services Interfaces</a> (ADSI) default is used.
 
 
 ### -param dwFlags [in]
 
-Flags used for the security property page associated with the new instance of the <a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a> interface. This parameter can be any combination of the following flags.
+Flags used for the security property page associated with the new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. This parameter can be any combination of the following flags.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ No access check is performed.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">system access control list</a> (SACL) property is read-only.
+The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) property is read-only.
 
 </td>
 </tr>
@@ -174,17 +174,17 @@ Suppress read-only popup messages.
 
 ### -param ppSI [out]
 
-A pointer to the instance of the <a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a> interface this function creates.
+A pointer to the instance of the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface this function creates.
 
 
 ### -param pfnReadSD [in, optional]
 
-A pointer to a function used to read the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> of the object. This value can be <b>NULL</b>. If <i>pfnReadSD</i> is not <b>NULL</b>, <a href="https://msdn.microsoft.com/44cd8d55-7232-478a-a3d3-bbf5fc764bcd">DSCreateISecurityInfoObject</a>  calls the function referenced by <i>pfnReadSD</i> to retrieve the security descriptor of the object.
+A pointer to a function used to read the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of the object. This value can be <b>NULL</b>. If <i>pfnReadSD</i> is not <b>NULL</b>, <a href="https://docs.microsoft.com/windows/desktop/api/dssec/nf-dssec-dscreateisecurityinfoobject">DSCreateISecurityInfoObject</a>  calls the function referenced by <i>pfnReadSD</i> to retrieve the security descriptor of the object.
 
 
 ### -param pfnWriteSD [in, optional]
 
-A pointer to  a function used to write the security descriptor of the object. This value can be <b>NULL</b>. If <i>pfnWriteSD</i> is not <b>NULL</b>, <a href="https://msdn.microsoft.com/44cd8d55-7232-478a-a3d3-bbf5fc764bcd">DSCreateISecurityInfoObject</a>  calls the function referenced by <i>pfnWriteSD</i> to write the security descriptor of the object.
+A pointer to  a function used to write the security descriptor of the object. This value can be <b>NULL</b>. If <i>pfnWriteSD</i> is not <b>NULL</b>, <a href="https://docs.microsoft.com/windows/desktop/api/dssec/nf-dssec-dscreateisecurityinfoobject">DSCreateISecurityInfoObject</a>  calls the function referenced by <i>pfnWriteSD</i> to write the security descriptor of the object.
 
 
 ### -param lpContext [in]
@@ -198,7 +198,7 @@ Context to pass to the functions identified by the <i>pfnReadSD</i> and <i>pfnWr
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

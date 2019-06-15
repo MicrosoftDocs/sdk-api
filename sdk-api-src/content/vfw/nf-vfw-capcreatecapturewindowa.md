@@ -70,7 +70,7 @@ Null-terminated string containing the name used for the capture window.
 
 ### -param dwStyle
 
-Window styles used for the capture window. Window styles are described with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function.
+Window styles used for the capture window. Window styles are described with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
           
 
 
@@ -125,15 +125,15 @@ Returns a handle of the capture window if successful or <b>NULL</b> otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/a727ce14-9b12-4f21-bab4-fa2eb245dce7">Creating a Capture Window</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/creating-a-capture-window">Creating a Capture Window</a>
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/0fe87fa7-9f07-48f7-958b-da385d9ddaf0">Video Capture Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
  
 
  

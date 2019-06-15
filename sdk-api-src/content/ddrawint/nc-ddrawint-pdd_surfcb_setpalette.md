@@ -68,7 +68,7 @@ The <b>DdSetPalette</b> callback function attaches a palette to the specified su
 
 #### - lpSetPalette
 
-Points to a <a href="https://msdn.microsoft.com/943af430-19b2-481a-9cac-cd4cb767d96a">DD_SETPALETTEDATA</a> structure that contains the information required to set a palette to the specified surface.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setpalettedata">DD_SETPALETTEDATA</a> structure that contains the information required to set a palette to the specified surface.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Points to a <a href="https://msdn.microsoft.com/943af430-19b2-481a-9cac-cd4cb767
 
 
 
-<a href="https://msdn.microsoft.com/943af430-19b2-481a-9cac-cd4cb767d96a">DD_SETPALETTEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setpalettedata">DD_SETPALETTEDATA</a>
  
 
  

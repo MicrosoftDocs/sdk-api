@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>LINEADDRESSSTATUS</b> structure describes the current status of an address. The 
-<a href="https://msdn.microsoft.com/8d747aa5-05cc-4426-9d46-24bce6b4af26">lineGetAddressStatus</a> function and the 
-<a href="https://msdn.microsoft.com/e3afd959-a0cb-4f0a-a700-d50cf7a4c386">TSPI_lineGetAddressStatus</a> function return the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a> function and the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a> function return the 
 <b>LINEADDRESSSTATUS</b> structure.
 
 
@@ -99,7 +99,7 @@ Number of calls on the address in the <i>onholdpendingtransfer</i> or <i>onholdp
 ### -field dwAddressFeatures
 
 Address-related functions that can be invoked on the address in its current state. This member uses one or more of the 
-<a href="https://msdn.microsoft.com/dedeee7b-578b-4b19-8b99-5cd23779d661">LINEADDRFEATURE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrfeature--constants">LINEADDRFEATURE_ constants</a>.
 
 
 ### -field dwNumRingsNoAnswer
@@ -120,7 +120,7 @@ Size of the forwarding information array, in bytes.
 ### -field dwForwardOffset
 
 Offset from the beginning of the structure to the variably sized field that describes the address's forwarding information. This information is an array of <b>dwForwardNumEntries</b> elements, of type 
-<a href="https://msdn.microsoft.com/cbdb4409-a51a-4ddf-b3ec-c5b958fc2527">LINEFORWARD</a>. The offsets of the addresses in the array are relative to the beginning of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a>. The offsets of the addresses in the array are relative to the beginning of the 
 <b>LINEADDRESSSTATUS</b> structure. The offsets <b>dwCallerAddressOffset</b> and <b>dwDestAddressOffset</b> in the variably sized field of type 
 <b>LINEFORWARD</b> pointed to by <i>dwForwardOffset</i> are relative to the beginning of the 
 <b>LINEADDRESSSTATUS</b> data structure (the "root" container). The size of the array is specified by <b>dwForwardSize</b>.
@@ -134,8 +134,8 @@ Size of the terminal modes array, in bytes.
 ### -field dwTerminalModesOffset
 
 Offset from the beginning of the structure to the variably sized device field containing an array with <b>DWORD</b>-sized entries, that use one or more of the 
-<a href="https://msdn.microsoft.com/60af1687-8958-4918-be21-a13780c60974">LINETERMMODE_ constants</a>. This array is indexed by terminal identifiers, in the range from zero to one less than <b>dwNumTerminals</b>. Each entry in the array specifies the current terminal modes for the corresponding terminal set with the 
-<a href="https://msdn.microsoft.com/362114d9-c5b6-4b78-bb31-811eb89fe82d">lineSetTerminal</a> function for this address. The size of the array is specified by <b>dwTerminalModesSize</b>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ constants</a>. This array is indexed by terminal identifiers, in the range from zero to one less than <b>dwNumTerminals</b>. Each entry in the array specifies the current terminal modes for the corresponding terminal set with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a> function for this address. The size of the array is specified by <b>dwTerminalModesSize</b>.
 
 
 ### -field dwDevSpecificSize
@@ -155,9 +155,9 @@ Offset from the beginning of this structure to the variably sized device-specifi
 Device-specific extensions should use the DevSpecific (<b>dwDevSpecificSize</b> and <b>dwDevSpecificOffset</b>) variably sized area of this data structure.
 
 This data structure is returned by the 
-<a href="https://msdn.microsoft.com/8d747aa5-05cc-4426-9d46-24bce6b4af26">lineGetAddressStatus</a> function. When items in this data structure change as a consequence of activities on the address, a 
-<a href="https://msdn.microsoft.com/af211fa1-79f8-49ac-a1d8-b62981f50519">LINE_ADDRESSSTATE</a> message is sent to the application. A parameter to this message is the address state, one of the 
-<a href="https://msdn.microsoft.com/f06140d0-f41a-4228-93c5-21d609af5473">LINEADDRESSSTATE_ constants</a>, which indicates that the status item in this record changed.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a> function. When items in this data structure change as a consequence of activities on the address, a 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a> message is sent to the application. A parameter to this message is the address state, one of the 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ constants</a>, which indicates that the status item in this record changed.
 
 
 
@@ -167,23 +167,23 @@ This data structure is returned by the
 
 
 
-<a href="https://msdn.microsoft.com/cbdb4409-a51a-4ddf-b3ec-c5b958fc2527">LINEFORWARD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforward_tag">LINEFORWARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/af211fa1-79f8-49ac-a1d8-b62981f50519">LINE_ADDRESSSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-addressstate">LINE_ADDRESSSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3afd959-a0cb-4f0a-a700-d50cf7a4c386">TSPI_lineGetAddressStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetaddressstatus">TSPI_lineGetAddressStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d747aa5-05cc-4426-9d46-24bce6b4af26">lineGetAddressStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetaddressstatus">lineGetAddressStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/362114d9-c5b6-4b78-bb31-811eb89fe82d">lineSetTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
  
 
  

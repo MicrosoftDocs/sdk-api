@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CMSG_SIGNED_ENCODE_INFO</b> structure contains information to be passed to 
-<a href="https://msdn.microsoft.com/b0d2610b-05ba-4fb6-8f38-10f970a52091">CryptMsgOpenToEncode</a> if <i>dwMsgType</i> is CMSG_SIGNED.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> if <i>dwMsgType</i> is CMSG_SIGNED.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ Number of elements in the <b>rgSigners</b> array.
 ### -field rgSigners
 
 Array of pointers to 
-			   <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>structures each holding signer information.
+			   <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>structures each holding signer information.
 
 
 ### -field cCertEncoded
@@ -82,7 +82,7 @@ Number of elements in the <b>rgCertEncoded</b> array.
 ### -field rgCertEncoded
 
 Array of pointers to 
-              <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_BLOB</a> 
+              <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_BLOB</a> 
 				  structures, each containing an encoded certificate.
 
 
@@ -94,7 +94,7 @@ Number of elements in the <b>rgCrlEncoded</b> array.
 ### -field rgCrlEncoded
 
 Array of pointers to 
-                <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRL_BLOB</a> structures, each containing an encoded CRL.
+                <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRL_BLOB</a> structures, each containing an encoded CRL.
 
 
 ### -field cAttrCertEncoded
@@ -114,11 +114,11 @@ Array of encoded attribute certificates.
 
 
 
-<a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
  
 
  

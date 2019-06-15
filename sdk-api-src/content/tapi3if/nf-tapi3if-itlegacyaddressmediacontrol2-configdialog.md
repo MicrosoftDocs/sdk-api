@@ -82,10 +82,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 This method translates to a TAPI 2.<i>x</i>
-<a href="https://msdn.microsoft.com/52f23647-e9f5-48a3-95f4-1ac52898cb5a">lineConfigDialog</a> function call. The 
-<a href="https://msdn.microsoft.com/ff3e1cd4-bbd6-43c1-ad55-4787269821da">ITLegacyAddressMediaControl2::ConfigDialogEdit</a> method translates to a 
-<a href="https://msdn.microsoft.com/417016c3-8053-4a70-bce4-b96cce5e09a5">lineConfigDialogEdit</a> call. These methods differ in their source of parameters to edit and the result of the editing on an active connection. For a discussion about these differences, see 
-<a href="https://msdn.microsoft.com/417016c3-8053-4a70-bce4-b96cce5e09a5">lineConfigDialogEdit</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineconfigdialog">lineConfigDialog</a> function call. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialogedit">ITLegacyAddressMediaControl2::ConfigDialogEdit</a> method translates to a 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineconfigdialogedit">lineConfigDialogEdit</a> call. These methods differ in their source of parameters to edit and the result of the editing on an active connection. For a discussion about these differences, see 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineconfigdialogedit">lineConfigDialogEdit</a>.
 
 
 
@@ -95,7 +95,7 @@ This method translates to a TAPI 2.<i>x</i>
 
 
 
-<a href="https://msdn.microsoft.com/38e5f1ba-b31e-47c9-a24a-2e4d37a0961b">ITLegacyAddressMediaControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2">ITLegacyAddressMediaControl2</a>
  
 
  

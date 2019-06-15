@@ -59,9 +59,9 @@ The <b>PeerCollabGetAppLaunchInfo</b> function obtains the peer application laun
 
 ### -param ppLaunchInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/98c7f7b8-438f-4ce3-86ab-0e824ff08dc4">PEER_APP_LAUNCH_INFO</a> structure that receives the peer application launch data.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_app_launch_info_tag">PEER_APP_LAUNCH_INFO</a> structure that receives the peer application launch data.
 
-Free the memory associated with this structure by passing it to <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+Free the memory associated with this structure by passing it to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 ## -returns
@@ -128,11 +128,11 @@ When an application invite is accepted, the application is launched with  the in
 
 
 
-<a href="https://msdn.microsoft.com/98c7f7b8-438f-4ce3-86ab-0e824ff08dc4">PEER_APP_LAUNCH_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_app_launch_info_tag">PEER_APP_LAUNCH_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

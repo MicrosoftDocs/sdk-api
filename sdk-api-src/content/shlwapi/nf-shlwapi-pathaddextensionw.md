@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Adds a file name extension to a path string.
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://msdn.microsoft.com/c37b438b-39e7-4f24-b076-2401900dab71">PathCchAddExtension</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddextension">PathCchAddExtension</a> function in its place.</div><div> </div>
 
 ## -parameters
 

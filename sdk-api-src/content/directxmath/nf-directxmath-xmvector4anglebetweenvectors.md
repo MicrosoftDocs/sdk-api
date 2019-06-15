@@ -80,7 +80,7 @@ Returns a vector. The radian angle between <i>V1</i> and <i>V2</i> is replicated
 
 
 
-If V1 and V2 are normalized 4D vectors, it is faster to use <a href="https://msdn.microsoft.com/en-us/library/Ee420951(v=VS.85).aspx">XMVector4AngleBetweenNormals</a>.
+If V1 and V2 are normalized 4D vectors, it is faster to use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector4anglebetweennormals">XMVector4AngleBetweenNormals</a>.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
@@ -93,7 +93,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/40cf28ab-aa5a-396d-2f9e-2206651966af">DirectXMath Library 4D Vector Geometric Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector4-geometric">DirectXMath Library 4D Vector Geometric Functions</a>
  
 
  

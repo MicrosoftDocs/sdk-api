@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Wraps an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> instance as a Windows Runtime <a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a>.
+Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime <a href="http://go.microsoft.com/fwlink/p/?linkid=267543">DataPackage</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Wraps an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed
 
 ### -param dataObject [in]
 
-An <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface pointer to the data object from which to build the DataPackage object.
+An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer to the data object from which to build the DataPackage object.
 
 
 ## -returns
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/57A5003A-11DF-42c2-9C00-7DE35898B64D">IDataObjectProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider">IDataObjectProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/7F3678B2-4B18-4344-ADEE-F0D0A6CE635E">IDataObjectProvider::GetDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-getdataobject">IDataObjectProvider::GetDataObject</a>
  
 
  

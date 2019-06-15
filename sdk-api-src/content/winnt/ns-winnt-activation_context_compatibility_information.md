@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</b> structure is used by the <a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> function.
+The <b>ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function.
 
 
 
@@ -65,7 +65,7 @@ The number of compatibility elements defined in the application manifest.
 
 ### -field Elements
 
-This is an array of <a href="https://msdn.microsoft.com/3e654f44-43f6-4282-b277-14ed6e25abf2">COMPATIBILITY_CONTEXT_ELEMENT</a> structures. Each structure describes one compatibility element in the application manifest.
+This is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_compatibility_context_element">COMPATIBILITY_CONTEXT_ELEMENT</a> structures. Each structure describes one compatibility element in the application manifest.
 
 
 ## -remarks

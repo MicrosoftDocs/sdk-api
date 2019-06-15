@@ -1515,11 +1515,11 @@ This attribute is reserved for system use.
 
 
 
-<a href="https://msdn.microsoft.com/af7d220d-f920-4480-9cf1-72a2cb542e4e">Attributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-attributes">Attributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5aaa4008-3b39-4d1d-90db-79631e5bb6b9">ISdoDictionaryOld</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
  
 
  

@@ -72,15 +72,15 @@ The null-terminated string.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680374(v=VS.85).aspx">MINIDUMP_HANDLE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_handle_descriptor">MINIDUMP_HANDLE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/17e32c6e-29df-4308-b22d-39e13bc6a2a5">MINIDUMP_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_module">MINIDUMP_MODULE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680523(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a>
  
 
  

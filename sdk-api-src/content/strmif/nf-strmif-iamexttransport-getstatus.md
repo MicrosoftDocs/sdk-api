@@ -87,7 +87,7 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 The <i>StatusItem</i> parameter is a flag that specifies which status information to retrieve. The method returns in the information in the <i>pValue</i> parameter. Not every device supports every status flag. The following flags are defined:
 
 <ul>
-<li>ED_MODE: Returns the current transport mode, such as pause or play. See <a href="https://msdn.microsoft.com/cf941c07-6f42-4c63-9bdf-923f7a5b0b02">IAMExtTransport::put_Mode</a> for a list of constants that define the transport modes. As an alternative, you can set <i>StatusItem</i> equal to one of these constants, and <i>pValue</i> will receive the value OATRUE if the transport is currently in that mode, or OAFALSE otherwise.</li>
+<li>ED_MODE: Returns the current transport mode, such as pause or play. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> for a list of constants that define the transport modes. As an alternative, you can set <i>StatusItem</i> equal to one of these constants, and <i>pValue</i> will receive the value OATRUE if the transport is currently in that mode, or OAFALSE otherwise.</li>
 <li>ED_MEDIA_TYPE: Indicates the format of the media for this transport. Returns one of the following constants.<table>
 <tr>
 <th>Constant</th>
@@ -169,9 +169,9 @@ The <i>StatusItem</i> parameter is a flag that specifies which status informatio
  
 
 </li>
-<li>ED_LINK_MODE: Returns OATRUE if the transport's controls are linked to the filter graph's <b>Run</b>, <b>Stop</b>, and <b>Pause</b> methods, and OAFALSE otherwise. See <a href="https://msdn.microsoft.com/cf941c07-6f42-4c63-9bdf-923f7a5b0b02">IAMExtTransport::put_Mode</a> for more information.</li>
+<li>ED_LINK_MODE: Returns OATRUE if the transport's controls are linked to the filter graph's <b>Run</b>, <b>Stop</b>, and <b>Pause</b> methods, and OAFALSE otherwise. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> for more information.</li>
 <li>ED_MEDIA_PRESENT: Returns OATRUE if the transport's media is present, or OAFALSE otherwise.</li>
-<li>ED_MEDIA_LENGTH: Returns the length of the media, in units of the current time format (see <a href="https://msdn.microsoft.com/798fa8d0-3834-4168-86a6-069cae3c3e8e">IAMExtTransport::SetTransportBasicParameters</a>).</li>
+<li>ED_MEDIA_LENGTH: Returns the length of the media, in units of the current time format (see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a>).</li>
 <li>ED_MEDIA_TRACK_COUNT: Returns the track count.</li>
 <li>ED_MEDIA_TRACK_LENGTH: Returns the track length, in units of the current time format.</li>
 <li>ED_MEDIA_SIDE: Indicates which side of the media is active.</li>
@@ -218,7 +218,7 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
 
-<a href="https://msdn.microsoft.com/146ca753-fe41-49d3-8b1c-077e10a28192">MSDV</a> supports the following status flags: 
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> supports the following status flags: 
 
 <ul>
 <li>ED_MODE: See previous remarks. </li>
@@ -256,7 +256,7 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 </ul>
 <h3><a id="MPEG_Camcorder_Implementation"></a><a id="mpeg_camcorder_implementation"></a><a id="MPEG_CAMCORDER_IMPLEMENTATION"></a>MPEG Camcorder Implementation</h3>
 
-<a href="https://msdn.microsoft.com/aa59f322-09b1-4b0a-be6f-d865c20f76e5">MSTape</a> supports an additional media format for the ED_MEDIA_TYPE flag.
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports an additional media format for the ED_MEDIA_TYPE flag.
 
 <table>
 <tr>
@@ -280,11 +280,11 @@ Some of these flags are defined in the header file Xptrdefs.h.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ce48038-bfcf-4b1f-8053-3446929a5f06">IAMExtTransport Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="https://msdn.microsoft.com/c1a303fd-3625-4051-b6b8-4f83cceec945">AVEncMPACodingMode</a> property.
+Specifies the MPEG audio encoding mode. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpacodingmode-property">AVEncMPACodingMode</a> property.
 
 
 
@@ -94,11 +94,11 @@ Surround audio (5.1 channels).
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

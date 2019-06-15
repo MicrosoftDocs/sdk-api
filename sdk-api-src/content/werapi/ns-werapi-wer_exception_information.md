@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains exception information for the <a href="https://msdn.microsoft.com/b40dac44-f7c5-43f0-876d-6f97c26bf461">WerReportAddDump</a> function.
+Contains exception information for the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains exception information for the <a href="https://msdn.microsoft.com/b40da
 
 ### -field pExceptionPointers
 
-A pointer to an <a href="https://msdn.microsoft.com/57e8cb3a-1b11-45b9-9676-3b6dc600d225">EXCEPTION_POINTERS</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> structure.
 
 
 ### -field bClientPointers
@@ -72,7 +72,7 @@ A process (calling process) can provide error reporting functionality for anothe
 
 
 
-<a href="https://msdn.microsoft.com/b40dac44-f7c5-43f0-876d-6f97c26bf461">WerReportAddDump</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
  
 
  

@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CredFindBestCredential</b> function searches the <a href="https://msdn.microsoft.com/0c44a360-d9c3-448c-a0d5-e33f3c27c58c">Credentials Management</a> (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
+The <b>CredFindBestCredential</b> function searches the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credentials-management">Credentials Management</a> (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
 
 
 ## -parameters
@@ -79,9 +79,9 @@ Reserved.
 
 ### -param Credential [out]
 
-The address of a pointer to a <a href="https://msdn.microsoft.com/6361b93c-4441-4a01-bd39-b95c42962497">CREDENTIAL</a> structure that specifies the set of credentials this function finds.
+The address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credentiala">CREDENTIAL</a> structure that specifies the set of credentials this function finds.
 
-When you have finished using this structure, free it by calling the <a href="https://msdn.microsoft.com/bc33ab1b-dd3f-4e1b-96d2-e32ceff89ada">CredFree</a> function.
+When you have finished using this structure, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a> function.
 
 
 ## -returns
@@ -91,7 +91,7 @@ When you have finished using this structure, free it by calling the <a href="htt
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

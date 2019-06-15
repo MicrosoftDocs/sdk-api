@@ -83,7 +83,7 @@ The value type to use to parse the content of each element.
 ### -param array
 
 The array to populate with parsed values.  The size of the array items is determined by the value type.
-          See <a href="https://msdn.microsoft.com/6075ed1c-ceb5-421a-8a76-3a64b9e6dbe3">WS_VALUE_TYPE</a> for more information.
+          See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
         
 
 
@@ -161,11 +161,11 @@ A quota was exceeded.
 
 
 
-This function is semantically equivalent to using <a href="https://msdn.microsoft.com/88661ae5-2112-4a41-8fcd-03c74f6ec170">WsReadStartElement</a>,
-        <a href="https://msdn.microsoft.com/d2dbeaf1-29cb-4848-8188-7922fdc15091">WsReadValue</a> and <a href="https://msdn.microsoft.com/cd2e0e5a-9c73-4180-9c54-6742d87cb141">WsReadEndElement</a> in a loop, but is more efficient.
+This function is semantically equivalent to using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadstartelement">WsReadStartElement</a>,
+        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadvalue">WsReadValue</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadendelement">WsReadEndElement</a> in a loop, but is more efficient.
       
 
-This function can fail for any of the reasons listed in <a href="https://msdn.microsoft.com/60dacf3e-ebde-4247-be58-835565874ab6">WsReadNode</a>.
+This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
       
 
 

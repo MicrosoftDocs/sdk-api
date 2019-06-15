@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 Allocates the specified number of bytes from the heap.
 <div class="alert"><b>Note</b>  The global functions have greater overhead and provide fewer features than other memory management functions. New applications should use the 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>.</div><div> </div>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a global function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
@@ -108,7 +108,7 @@ Allocates fixed memory. The return value is a pointer.
 Allocates movable memory. Memory blocks are never moved in physical memory, but they can be moved within the default heap.
 
 The return value is a handle to the memory object. To translate the handle into a pointer, use the 
-<a href="https://msdn.microsoft.com/0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c">GlobalLock</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a> function.
 
 This value cannot be combined with <b>GMEM_FIXED</b>.
 
@@ -164,7 +164,7 @@ The number of bytes to allocate. If this parameter is zero and the <i>uFlags</i>
 If the function succeeds, the return value is a handle to the newly allocated memory object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -173,28 +173,28 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-Windows memory management does not provide a separate local heap and global heap. Therefore, the <b>GlobalAlloc</b> and <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> functions are essentially the same. 
+Windows memory management does not provide a separate local heap and global heap. Therefore, the <b>GlobalAlloc</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> functions are essentially the same. 
 
 The movable-memory flags <b>GHND</b> and <b>GMEM_MOVABLE</b> add unnecessary overhead and require locking to be used safely. They should be avoided unless documentation specifically states that they should be used.
 
 New applications should use the 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">heap functions</a> to allocate and manage memory unless the documentation specifically states that a global function should be used. For example, the global functions are still used with Dynamic Data Exchange (DDE), the clipboard functions, and OLE data objects. 
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> to allocate and manage memory unless the documentation specifically states that a global function should be used. For example, the global functions are still used with Dynamic Data Exchange (DDE), the clipboard functions, and OLE data objects. 
 
 If the <b>GlobalAlloc</b> function succeeds, it allocates at least the amount of memory requested. If the actual amount allocated is greater than the amount requested, the process can use the entire amount. To determine the actual number of bytes allocated, use the 
-<a href="https://msdn.microsoft.com/9fd01460-d6fc-41f4-9e0c-209a3d1844c1">GlobalSize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalsize">GlobalSize</a> function.
 
 If the heap does not contain sufficient free space to satisfy the request, 
 <b>GlobalAlloc</b> returns <b>NULL</b>. Because <b>NULL</b> is used to indicate an error, virtual address zero is never allocated. It is, therefore, easy to detect the use of a <b>NULL</b> pointer.
 
-Memory allocated with this function is guaranteed to be aligned on an 8-byte boundary. To execute dynamically generated code, use the <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function to allocate memory and the <a href="https://msdn.microsoft.com/a0018bba-226b-4c18-8ea4-15e69524db11">VirtualProtect</a> function to grant  <b>PAGE_EXECUTE</b> access.
+Memory allocated with this function is guaranteed to be aligned on an 8-byte boundary. To execute dynamically generated code, use the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function to allocate memory and the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect">VirtualProtect</a> function to grant  <b>PAGE_EXECUTE</b> access.
 
 To free the memory, use the 
-<a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> function. It is not safe to free memory allocated with <b>GlobalAlloc</b> using <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function. It is not safe to free memory allocated with <b>GlobalAlloc</b> using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 
 #### Examples
 
-The following code shows a simple use of <b>GlobalAlloc</b> and <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a>.
+The following code shows a simple use of <b>GlobalAlloc</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a>.
 
 
 ```cpp
@@ -237,31 +237,31 @@ void _cdecl main()
 
 
 
-<a href="https://msdn.microsoft.com/97707ce7-4c65-4d0e-ba69-47fdaee73a9b">Global and Local Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/af6160ce-ab7a-4198-bca3-dd5d51cacfa5">GlobalDiscard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globaldiscard">GlobalDiscard</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c">GlobalLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globallock">GlobalLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fd01460-d6fc-41f4-9e0c-209a3d1844c1">GlobalSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalsize">GlobalSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">Heap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
  
 

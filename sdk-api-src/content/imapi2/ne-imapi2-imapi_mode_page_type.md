@@ -82,7 +82,7 @@ The mode page contains parameters to enable or disable caching during read or wr
 
 ### -field IMAPI_MODE_PAGE_TYPE_INFORMATIONAL_EXCEPTIONS
 
-The mode page contains parameters for exception reporting mechanisms that result in specific sense code errors when failures are predicted.  This mode page is related to the <a href="https://msdn.microsoft.com/659ed2c9-7c58-4030-be41-273e597d6f1f">S.M.A.R.T.</a> feature.
+The mode page contains parameters for exception reporting mechanisms that result in specific sense code errors when failures are predicted.  This mode page is related to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-_imapi_feature_page_type">S.M.A.R.T.</a> feature.
 
 
 ### -field IMAPI_MODE_PAGE_TYPE_TIMEOUT_AND_PROTECT
@@ -114,15 +114,15 @@ Note that the range of mode page type values is 0x0000 to 0xFFFF. This enumerati
 
 
 
-<a href="https://msdn.microsoft.com/2a6fe1c3-7ce2-4877-93e6-de4ab87685a0">IDiscRecorder2::get_SupportedModePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedmodepages">IDiscRecorder2::get_SupportedModePages</a>
 
 
 
-<a href="https://msdn.microsoft.com/69e163a6-943d-4626-8120-778c9ca1777f">IDiscRecorder2Ex::GetModePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
 
 
 
-<a href="https://msdn.microsoft.com/343d976e-97f3-4231-a417-4ebe7967f99c">IDiscRecorder2Ex::GetSupportedModePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
  
 
  

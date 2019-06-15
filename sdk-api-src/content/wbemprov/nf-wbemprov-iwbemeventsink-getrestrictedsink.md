@@ -76,7 +76,7 @@ Pointer to callback for event provider.
 ### -param ppSink [out]
 
 Pointer to created 
-<a href="https://msdn.microsoft.com/dd076dd0-ed39-47a2-86fb-a595baf3f464">IWbemEventSink</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemeventsink">IWbemEventSink</a> object.
 
 
 ## -returns

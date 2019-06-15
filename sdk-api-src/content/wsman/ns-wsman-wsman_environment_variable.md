@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines an individual environment variable by using a name and value pair. This structure  is used by the <a href="https://msdn.microsoft.com/901c0a2d-d25f-451c-8d6c-83662f1f1061">WSManCreateShell</a> method. The representation of the <b>value</b> variable is shell specific. The client and server must  agree on the format of the <b>value</b> variable.
+Defines an individual environment variable by using a name and value pair. This structure  is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> method. The representation of the <b>value</b> variable is shell specific. The client and server must  agree on the format of the <b>value</b> variable.
 
 
 ## -struct-fields

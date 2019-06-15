@@ -145,7 +145,7 @@ Pointer to a buffer that contains target URL.
 
 
 This structure is used with options <b>WINHTTP_OPTION_GLOBAL_SERVER_CREDS</b> and <b>WINHTTP_OPTION_GLOBAL_PROXY_CREDS</b>
-<a href="https://msdn.microsoft.com/2d0441f4-ddba-4f2a-8861-8803cad6f1ac">option flags</a>. These options require the registry key <b>HKLM\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ShareCredsWithWinHttp</b>. This registry key is not present by default.
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">option flags</a>. These options require the registry key <b>HKLM\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ShareCredsWithWinHttp</b>. This registry key is not present by default.
 
 When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp gets an authentication challenge and if there are no credentials set on the current handle, it will use the credentials provided by WinINet. In order to share server credentials in addition to proxy credentials, users needs to set  the <b>WINHTTP_OPTION_USE_GLOBAL_SERVER_CREDENTIALS</b>option flag.
 
@@ -157,7 +157,7 @@ When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp
 
 
 
-<a href="https://msdn.microsoft.com/dc4960b6-ca78-4b7d-a012-61fb7b0b1ef2">WINHTTP_CREDS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/ns-winhttp-tagwinhttp_creds">WINHTTP_CREDS</a>
  
 
  

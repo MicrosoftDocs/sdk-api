@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetFileName</b> macro retrieves the filename used by an MCI device. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/d61b1b6d-0fae-4732-993c-41e08a4e05be">MCIWNDM_GETFILENAME</a> message.
+The <b>MCIWndGetFileName</b> macro retrieves the filename used by an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getfilename">MCIWNDM_GETFILENAME</a> message.
 
 
 
@@ -89,7 +89,7 @@ If the null-terminated string containing the filename is longer than the buffer,
 
 
 
-<a href="https://msdn.microsoft.com/d61b1b6d-0fae-4732-993c-41e08a4e05be">MCIWNDM_GETFILENAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getfilename">MCIWNDM_GETFILENAME</a>
  
 
  

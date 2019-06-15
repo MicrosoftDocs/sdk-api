@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An administrator can specify criteria that starts transmission on an object of an <b>IWdsTransportNamespaceScheduledCastAutoStart</b> interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.  This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastAutoStart</b> value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
+An administrator can specify criteria that starts transmission on an object of an <b>IWdsTransportNamespaceScheduledCastAutoStart</b> interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.  This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastAutoStart</b> value of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/ne-wdstptmgmt-__midl___midl_itf_wdstptmgmt_0000_0000_0003">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
 
 
 ## -see-also
@@ -57,7 +57,7 @@ An administrator can specify criteria that starts transmission on an object of a
 
 
 
-<a href="https://msdn.microsoft.com/434e2eb2-b149-46e6-b7d0-0d07c44bcec2">IWdsTransportNamespaceScheduledCast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast">IWdsTransportNamespaceScheduledCast</a>
  
 
  

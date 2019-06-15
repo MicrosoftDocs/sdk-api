@@ -58,7 +58,7 @@ Provides methods used to manage location reports, event registration, and sensor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ILocation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ILocation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/caa34e34-7370-4e42-9c0f-00498f5fc37d">GetDesiredAccuracy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getdesiredaccuracy">GetDesiredAccuracy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current requested accuracy.
@@ -82,7 +82,7 @@ Retrieves the current requested accuracy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69d0fed5-7f02-4d74-bdbd-3a0fd85e76ed">GetReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">GetReport</a>
 </td>
 <td align="left" width="63%">
 Retrieves a location report.
@@ -91,7 +91,7 @@ Retrieves a location report.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c7bcd665-317c-428a-aa20-0d09c8d7a813">GetReportInterval</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportinterval">GetReportInterval</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum amount of time, in milliseconds, between report events.
@@ -100,7 +100,7 @@ Retrieves the minimum amount of time, in milliseconds, between report events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b7c72cc-fa09-44b2-97be-f200fab7b31d">GetReportStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">GetReportStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status for the specified report type.
@@ -109,7 +109,7 @@ Retrieves the status for the specified report type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1aca3e5b-20cb-4fa9-b28d-7d992601df96">RegisterForReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-registerforreport">RegisterForReport</a>
 </td>
 <td align="left" width="63%">
 Requests location report events.
@@ -118,7 +118,7 @@ Requests location report events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eef60203-8705-4f68-be30-c9e7938e5596">RequestPermissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">RequestPermissions</a>
 </td>
 <td align="left" width="63%">
 Opens a system dialog box to request user permission for location-enabled devices.
@@ -127,7 +127,7 @@ Opens a system dialog box to request user permission for location-enabled device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85623570-3b48-42ea-babd-fe4282629d92">SetDesiredAccuracy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-setdesiredaccuracy">SetDesiredAccuracy</a>
 </td>
 <td align="left" width="63%">
 Specifies the requested accuracy.
@@ -136,7 +136,7 @@ Specifies the requested accuracy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b48f64d-47e8-41cc-a7a1-970654896e7e">SetReportInterval</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-setreportinterval">SetReportInterval</a>
 </td>
 <td align="left" width="63%">
 Specifies the minimum amount of time, in milliseconds, between report events.
@@ -145,7 +145,7 @@ Specifies the minimum amount of time, in milliseconds, between report events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/333bd127-2c6a-4f09-9f86-4f8e68a9ea55">UnregisterForReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-unregisterforreport">UnregisterForReport</a>
 </td>
 <td align="left" width="63%">
 Stops event notifications for the specified report type.

@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Expands on the information described in the <a href="https://msdn.microsoft.com/en-us/library/ms632608(v=VS.85).aspx">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
+Expands on the information described in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtitlebarinfo">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
 
-This structure is sent with the <a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+This structure is sent with the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ This structure is sent with the <a href="https://msdn.microsoft.com/en-us/librar
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a> message.
+The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
 
 
 ### -field rcTitleBar
@@ -229,11 +229,11 @@ An array that receives a structure for each element of the title bar. The struct
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969436(v=VS.85).aspx">WM_GETTITLEBARINFOEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

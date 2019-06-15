@@ -154,7 +154,7 @@ Cannot allocate stroke handler helper object.
 
 To further clarify <b>GetStrokesFromTextRange</b>, consider a collection of strokes that has been recognized and for which the best alternate for those strokes is "how are you". The parameter passed to the method is some range within (or possibly all of) this string result. This alternate contains five segments, one for each word and one for each space. The strokes returned correspond to the smallest set of segments that include all of the input range. If the <i>selectionStart</i> parameter is 0, and the <i>selectionLength</i> parameter is 5, creating a range corresponding to the "how a" of the result string, then the strokes returned are all of the recognized strokes that make up the segments "how are". This is the smallest set of segments that includes the input range.
 
-In both word and character based recognizers, spaces are counted as a character. If the input selection corresponds to a space character, then this method returns and empty <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection.
+In both word and character based recognizers, spaces are counted as a character. If the input selection corresponds to a space character, then this method returns and empty <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 
 
@@ -164,19 +164,19 @@ In both word and character based recognizers, spaces are counted as a character.
 
 
 
-<a href="https://msdn.microsoft.com/25079651-4fcd-4f13-b73f-7d5ffefa871e">GetStrokesFromStrokeRanges Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-getstrokesfromstrokeranges">GetStrokesFromStrokeRanges Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b481e356-0a3c-4437-9700-6d8badcb0b0b">GetTextRangeFromStrokes Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-gettextrangefromstrokes">GetTextRangeFromStrokes Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognition Alternate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognition Alternate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

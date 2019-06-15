@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a Boolean value that indicates whether the document sub-tree of the referen
 
 ### -param restrictedFonts [out, retval]
 
-A Boolean value that indicates whether the document sub-tree of the referenced page includes any <a href="https://msdn.microsoft.com/6d2cda65-c719-46f2-97c9-8aee7b5f84b9">IXpsOMGlyphs</a> interfaces that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+A Boolean value that indicates whether the document sub-tree of the referenced page includes any <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a> interfaces that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
 <table>
 <tr>
@@ -72,9 +72,9 @@ A Boolean value that indicates whether the document sub-tree of the referenced p
 </dl>
 </td>
 <td width="60%">
-If the referenced page is loaded,  the page references at least one font resource whose <b>EmbeddingOption</b> property is set to <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+If the referenced page is loaded,  the page references at least one font resource whose <b>EmbeddingOption</b> property is set to <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
-If the referenced page is not loaded, it has a relationship with at least one font resource whose <b>EmbeddingOption</b> property is set to   <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+If the referenced page is not loaded, it has a relationship with at least one font resource whose <b>EmbeddingOption</b> property is set to   <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
 </td>
 </tr>
@@ -84,9 +84,9 @@ If the referenced page is not loaded, it has a relationship with at least one fo
 </dl>
 </td>
 <td width="60%">
-If the referenced page is loaded,  the page does not reference any font resources whose <b>EmbeddingOption</b> property is set to <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+If the referenced page is loaded,  the page does not reference any font resources whose <b>EmbeddingOption</b> property is set to <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
-If the referenced page is not loaded, it does not have a relationship with a font resource whose <b>EmbeddingOption</b> property is set to   <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+If the referenced page is not loaded, it does not have a relationship with a font resource whose <b>EmbeddingOption</b> property is set to   <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ This value is not updated automatically. If fonts or glyphs are added or removed
 
 
 
-<a href="https://msdn.microsoft.com/cdebab24-f918-4235-b4d5-5ee1007ade87">IXpsOMPageReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
@@ -155,7 +155,7 @@ This value is not updated automatically. If fonts or glyphs are added or removed
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ne-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0013">XPS_FONT_EMBEDDING_RESTRICTED</a>
  
 
  

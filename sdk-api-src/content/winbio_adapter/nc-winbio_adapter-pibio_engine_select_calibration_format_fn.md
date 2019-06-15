@@ -59,12 +59,12 @@ Called by the Windows Biometric Framework to determine which of the Sensor Adapt
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 
 ### -param FormatArray [in]
 
-Address of an array of <a href="https://msdn.microsoft.com/ee5cc6ee-c9d4-4295-b0ef-93b12ba8a824">WINBIO_UUID</a> items identifying the calibration data formats supported by the Sensor Adapter. The Engine Adapter is expected to choose one of these formats for its calibration data.
+Address of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_UUID</a> items identifying the calibration data formats supported by the Sensor Adapter. The Engine Adapter is expected to choose one of these formats for its calibration data.
 
 
 ### -param FormatCount [in]
@@ -74,7 +74,7 @@ Value indicating the number of UUIDs in the <i>FormatArray</i> parameter.
 
 ### -param SelectedFormat [out]
 
-Address of a <a href="https://msdn.microsoft.com/ee5cc6ee-c9d4-4295-b0ef-93b12ba8a824">WINBIO_UUID</a> item where the <b>EngineAdapterSelectCalibrationFormat</b> method will store the UUID of the selected calibration format. This must be one of the UUIDs in the <i>FormatArray</i> parameter.
+Address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_parameters">WINBIO_UUID</a> item where the <b>EngineAdapterSelectCalibrationFormat</b> method will store the UUID of the selected calibration format. This must be one of the UUIDs in the <i>FormatArray</i> parameter.
 
 
 ### -param MaxBufferSize [out]

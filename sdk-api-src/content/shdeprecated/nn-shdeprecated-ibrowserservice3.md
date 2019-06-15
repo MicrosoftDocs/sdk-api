@@ -55,7 +55,7 @@ Deprecated. The methods exposed by this interface are analogous to virtual prote
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService3</b> interface inherits from <a href="https://msdn.microsoft.com/5c100b60-ef2e-4044-9f06-c1d01bcd88d2">IBrowserService2</a>. <b>IBrowserService3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>. <b>IBrowserService3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +70,16 @@ The <b>IBrowserService3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/310885e5-b08d-4699-9dee-244efa49dfd1">_PositionViewWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice3-_positionviewwindow">_PositionViewWindow</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Used in view size negotiations. This method is called by <a href="https://msdn.microsoft.com/92860c13-cb67-4499-90fe-2b0254ae25c7">_UpdateViewRectSize</a> after determining the available dimensions.
+Deprecated. Used in view size negotiations. This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_updateviewrectsize">_UpdateViewRectSize</a> after determining the available dimensions.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e36418e-026b-4682-9074-4caec5370f8b">IEParseDisplayNameEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice3-ieparsedisplaynameex">IEParseDisplayNameEx</a>
 </td>
 <td align="left" width="63%">
 Deprecated. Parses a URL into a PIDL.
@@ -93,7 +93,7 @@ Deprecated. Parses a URL into a PIDL.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/e12ada84-0825-4946-8075-731dfc51ef50">IBrowserService</a> and <a href="https://msdn.microsoft.com/5c100b60-ef2e-4044-9f06-c1d01bcd88d2">IBrowserService2</a> interfaces, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a> interfaces, from which it inherits.
 
 
 

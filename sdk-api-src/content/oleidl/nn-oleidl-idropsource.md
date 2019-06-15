@@ -56,12 +56,12 @@ The <b>IDropSource</b> interface is one of the interfaces you implement to provi
 <li>Generating some of the visual feedback during the drag-and-drop operation, such as setting the cursor and highlighting the data selected for the drag-and-drop operation.</li>
 <li>Canceling or completing the drag-and-drop operation based on the user's mouse actions.</li>
 <li>Performing any action on the original data caused by the drop operation, such as deleting the data on a drag move.</li>
-</ul><b>IDropSource</b> contains the methods for generating visual feedback to the end user and for canceling or completing the drag-and-drop operation. You also need to call the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a>, <a href="https://msdn.microsoft.com/00726271-4436-41f5-b7cc-666cd77216bc">RegisterDragDrop</a>, and <a href="https://msdn.microsoft.com/c0fa963c-ed06-426c-8ffc-31b02f083a23">RevokeDragDrop</a> functions in drag-and-drop operations.
+</ul><b>IDropSource</b> contains the methods for generating visual feedback to the end user and for canceling or completing the drag-and-drop operation. You also need to call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a> functions in drag-and-drop operations.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSource</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IDropSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IDropSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dde37299-ad7c-4f59-af99-e75b72ad9188">GiveFeedback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idropsource-givefeedback">GiveFeedback</a>
 </td>
 <td align="left" width="63%">
 Gives visual feedback to an end user during a drag-and-drop operation.
@@ -85,7 +85,7 @@ Gives visual feedback to an end user during a drag-and-drop operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96ea44fc-5046-4e31-abfc-659d8ef3ca8f">QueryContinueDrag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idropsource-querycontinuedrag">QueryContinueDrag</a>
 </td>
 <td align="left" width="63%">
 Determines whether a drag-and-drop operation should continue.
@@ -100,19 +100,19 @@ Determines whether a drag-and-drop operation should continue.
 
 
 
-<a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/62ef4fe6-3871-41ef-9542-6fe9f3bed21c">IDropSourceNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
  
 
  

@@ -59,17 +59,17 @@ The <b>PeerGraphUniversalTimeToPeerTime</b> function converts a universal time v
 
 ### -param hGraph [in]
 
-Handle to the  peer graph this peer participates in. This handle is returned by the <a href="https://msdn.microsoft.com/62e3ec57-378c-4322-9ad4-a40d98e03dab">PeerGraphCreate</a> or <a href="https://msdn.microsoft.com/a34656f1-3e29-4bcb-a8a7-0eed19368184">PeerGraphOpen</a> function.
+Handle to the  peer graph this peer participates in. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphcreate">PeerGraphCreate</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopen">PeerGraphOpen</a> function.
 
 
 ### -param pftUniversalTime [in]
 
-Pointer to the universal time value, represented as a <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">FILETIME</a> structure.
+Pointer to the universal time value, represented as a <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure.
 
 
 ### -param pftPeerTime [out]
 
-Pointer to the returned peer time (UTC)  value, represented as a <a href="https://msdn.microsoft.com/2d72b1bc-4687-4672-9644-85ad9b197a72">FILETIME</a> structure.
+Pointer to the returned peer time (UTC)  value, represented as a <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/graphing-reference-links">FILETIME</a> structure.
 
 
 ## -returns
@@ -112,7 +112,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The graph must be  initialized with a call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a> before using this function.
+The graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The graph must be  initialized with a call to <a href="https://msdn.microsoft.co
 
 Peer time should be  converted to universal time whenever it is necessary to display this value on the peer's computer, such as when displaying the creation time of a record. Likewise, time-sensitive actions, such as setting the expiration time for a record or searching for records based on modification time, should use time values converted from the computer-specific universal time to peer graph-specific peer time.
 
-Peer time can be converted to universal time by calling the converse function <a href="https://msdn.microsoft.com/9cbb0b59-c116-4bd2-932f-2140595f4fad">PeerGraphPeerTimeToUniversalTime</a>.
+Peer time can be converted to universal time by calling the converse function <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphpeertimetouniversaltime">PeerGraphPeerTimeToUniversalTime</a>.
 
 
 
@@ -142,7 +142,7 @@ Peer time can be converted to universal time by calling the converse function <a
 
 
 
-<a href="https://msdn.microsoft.com/9cbb0b59-c116-4bd2-932f-2140595f4fad">PeerGraphPeerTimeToUniversalTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphpeertimetouniversaltime">PeerGraphPeerTimeToUniversalTime</a>
  
 
  

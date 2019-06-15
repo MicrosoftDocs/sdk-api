@@ -74,11 +74,11 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 
 
 
-<a href="https://msdn.microsoft.com/daaa8b55-bcef-4142-8f7b-e6f64e0ac258">IUPnPDeviceProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nn-upnphost-iupnpdeviceprovider">IUPnPDeviceProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/a76c7063-bad5-4f59-a5ca-8a8a4a79787e">IUPnPDeviceProvider::Start</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnphost/nf-upnphost-iupnpdeviceprovider-start">IUPnPDeviceProvider::Start</a>
  
 
  

@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Removes the trailing file name and backslash from a path, if they are present.
-<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://msdn.microsoft.com/c37aeddc-ed24-4828-b92b-bce0e6384726">PathCchRemoveFileSpec</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovefilespec">PathCchRemoveFileSpec</a> function in its place.</div><div> </div>
 
 ## -parameters
 

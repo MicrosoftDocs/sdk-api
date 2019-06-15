@@ -54,7 +54,7 @@ Applications use the methods of the <b>IDirectDrawSurface7</b> interface to crea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawSurface7</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectDrawSurface7</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawSurface7</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawSurface7</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDirectDrawSurface7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d42c5ed-7f05-4450-b1f4-cb9ee6efa7d9">AddAttachedSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-addattachedsurface">AddAttachedSurface</a>
 </td>
 <td align="left" width="63%">
 Attaches the specified z-buffer surface to this surface.
@@ -79,16 +79,16 @@ Attaches the specified z-buffer surface to this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ddd02ff-9e7f-4962-8954-0032f23959cd">AddOverlayDirtyRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-addoverlaydirtyrect">AddOverlayDirtyRect</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/4ddd02ff-9e7f-4962-8954-0032f23959cd">IDirectDrawSurface7::AddOverlayDirtyRect</a> method is not currently implemented.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-addoverlaydirtyrect">IDirectDrawSurface7::AddOverlayDirtyRect</a> method is not currently implemented.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">Blt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">Blt</a>
 </td>
 <td align="left" width="63%">
 Performs a bit block transfer (bitblt). This method does not support z-buffering or alpha blending during bitblt operations.
@@ -97,10 +97,10 @@ Performs a bit block transfer (bitblt). This method does not support z-buffering
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50c071a6-2963-474e-994e-c789b1924d92">BltBatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">BltBatch</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/50c071a6-2963-474e-994e-c789b1924d92">IDirectDrawSurface7::BltBatch</a> method is not currently implemented.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a> method is not currently implemented.
 
 
 
@@ -108,7 +108,7 @@ The <a href="https://msdn.microsoft.com/50c071a6-2963-474e-994e-c789b1924d92">ID
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac882b48-87b2-4b65-99b0-ac9065b5f47f">BltFast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltfast">BltFast</a>
 </td>
 <td align="left" width="63%">
 Performs a source copy bitblt or transparent bitblt by using a source color key or destination color key.
@@ -117,7 +117,7 @@ Performs a source copy bitblt or transparent bitblt by using a source color key 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d714fb7-7e12-45ab-ae40-7fc2a65b9e7e">ChangeUniquenessValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-changeuniquenessvalue">ChangeUniquenessValue</a>
 </td>
 <td align="left" width="63%">
 Manually updates the uniqueness value for this surface.
@@ -127,7 +127,7 @@ Manually updates the uniqueness value for this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39cefecd-2ae0-42ba-8140-842acdaa1ad8">DeleteAttachedSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-deleteattachedsurface">DeleteAttachedSurface</a>
 </td>
 <td align="left" width="63%">
 Detaches one or more attached surfaces.
@@ -136,7 +136,7 @@ Detaches one or more attached surfaces.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f8e9b53-3aff-491c-ab0c-2f414d1ddb27">EnumAttachedSurfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces">EnumAttachedSurfaces</a>
 </td>
 <td align="left" width="63%">
 Enumerates all the surfaces that are attached to this surface.
@@ -145,7 +145,7 @@ Enumerates all the surfaces that are attached to this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fab3212c-c1af-4119-85ff-108594cc64fa">EnumOverlayZOrders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders">EnumOverlayZOrders</a>
 </td>
 <td align="left" width="63%">
 Enumerates the overlay surfaces on the specified destination. You can enumerate the overlays in front-to-back or back-to-front order.
@@ -154,7 +154,7 @@ Enumerates the overlay surfaces on the specified destination. You can enumerate 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6c0c23e7-7567-4e07-9ba0-5e50b758f711">Flip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">Flip</a>
 </td>
 <td align="left" width="63%">
 Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface become associated with the front-buffer surface.
@@ -163,7 +163,7 @@ Makes the surface memory that is associated with the DDSCAPS_BACKBUFFER surface 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66d3f701-735c-4dca-b7b6-47a17d63c23e">FreePrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-freeprivatedata">FreePrivateData</a>
 </td>
 <td align="left" width="63%">
 Frees the specified private data that is associated with this surface.
@@ -172,7 +172,7 @@ Frees the specified private data that is associated with this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0eae7e55-5ff7-41f6-ac6a-ce7fb6d809b9">GetAttachedSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getattachedsurface">GetAttachedSurface</a>
 </td>
 <td align="left" width="63%">
 Obtains the attached surface that has the specified capabilities, and increments the reference count of the retrieved interface.
@@ -181,7 +181,7 @@ Obtains the attached surface that has the specified capabilities, and increments
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f446300-065b-47c1-9778-fb4a5b2ea4bd">GetBltStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getbltstatus">GetBltStatus</a>
 </td>
 <td align="left" width="63%">
 Obtains status about a bit block transfer (bitblt) operation.
@@ -190,7 +190,7 @@ Obtains status about a bit block transfer (bitblt) operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/971290b7-7df6-41c7-8197-b6169ddd092b">GetCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getcaps">GetCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves the capabilities of this surface. These capabilities are not necessarily related to the capabilities of the display device.
@@ -199,7 +199,7 @@ Retrieves the capabilities of this surface. These capabilities are not necessari
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2156dbe-88b5-4ab1-a310-13a38ebdbb4b">GetClipper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getclipper">GetClipper</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
@@ -208,7 +208,7 @@ Retrieves the DirectDrawClipper object that is associated with this surface, and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0df14c63-f962-4823-873a-3fe1d626f4cb">GetColorKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey">GetColorKey</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color key value for this surface.
@@ -217,7 +217,7 @@ Retrieves the color key value for this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/683be1bc-8232-42de-907f-1136ffdd524d">GetDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">GetDC</a>
 </td>
 <td align="left" width="63%">
 Creates a GDI-compatible handle of a device context for this surface.
@@ -226,7 +226,7 @@ Creates a GDI-compatible handle of a device context for this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1ec63614-cdc0-4d07-97e3-97167e7b397c">GetDDInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getddinterface">GetDDInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface to the DirectDraw object that was used to create this surface.
@@ -235,7 +235,7 @@ Retrieves an interface to the DirectDraw object that was used to create this sur
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e337bdde-bf63-414a-88a5-507478476667">GetFlipStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getflipstatus">GetFlipStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves status about whether this surface has finished its flipping process.
@@ -244,7 +244,7 @@ Retrieves status about whether this surface has finished its flipping process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9208372b-47ac-4079-9e4a-28cf51912a93">GetLOD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getlod">GetLOD</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum level of detail (LOD) currently set for a managed mipmap surface. This method succeeds only on managed textures.
@@ -254,7 +254,7 @@ Retrieves the maximum level of detail (LOD) currently set for a managed mipmap s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/008502f7-468f-4d79-a309-75ebdbe29ff3">GetOverlayPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getoverlayposition">GetOverlayPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display coordinates of this surface. This method is used on a visible, active overlay surface (that is, a surface that has the DDSCAPS_OVERLAY flag set).
@@ -263,7 +263,7 @@ Retrieves the display coordinates of this surface. This method is used on a visi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35a667aa-9a69-4c71-9e26-b42359815a0d">GetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpalette">GetPalette</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DirectDrawPalette object that is associated with this surface, and increments the reference count of the returned palette.
@@ -272,7 +272,7 @@ Retrieves the DirectDrawPalette object that is associated with this surface, and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c33c46b-6cd7-4ee7-976c-a81f9d92b379">GetPixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat">GetPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color and pixel format of this surface.
@@ -281,7 +281,7 @@ Retrieves the color and pixel format of this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59a47305-92d5-42a3-9ad1-11c80e3744df">GetPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpriority">GetPriority</a>
 </td>
 <td align="left" width="63%">
 Retrieves the texture-management priority for this texture. This method succeeds only on managed textures.
@@ -291,7 +291,7 @@ Retrieves the texture-management priority for this texture. This method succeeds
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8c0c882-329f-4cce-8cd0-ff71c18b1716">GetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Copies the private data that is associated with this surface to a provided buffer.
@@ -300,7 +300,7 @@ Copies the private data that is associated with this surface to a provided buffe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c36685e-8eb7-4d91-a479-8f099d5e712b">GetSurfaceDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getsurfacedesc">GetSurfaceDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of this surface in its current condition.
@@ -309,7 +309,7 @@ Retrieves a description of this surface in its current condition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/559d9381-1135-47de-9bbe-49aa8d97f5d3">GetUniquenessValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getuniquenessvalue">GetUniquenessValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current uniqueness value for this surface.
@@ -319,7 +319,7 @@ Retrieves the current uniqueness value for this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/98b9a05f-ff61-4c58-9c09-625077eb64ad">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes a DirectDrawSurface object.
@@ -328,7 +328,7 @@ Initializes a DirectDrawSurface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4654478-ca09-4856-8221-ef5454c23535">IsLost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-islost">IsLost</a>
 </td>
 <td align="left" width="63%">
 Determines whether the surface memory that is associated with a DirectDrawSurface object has been freed.
@@ -337,7 +337,7 @@ Determines whether the surface memory that is associated with a DirectDrawSurfac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">Lock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">Lock</a>
 </td>
 <td align="left" width="63%">
 Obtains a pointer to the surface memory.
@@ -346,7 +346,7 @@ Obtains a pointer to the surface memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/018e6539-bb2a-472c-bab4-2c0665cdbe15">PageLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-pagelock">PageLock</a>
 </td>
 <td align="left" width="63%">
 Prevents a system-memory surface from being paged out while a bit block transfer (bitblt) operation that uses direct memory access (DMA) transfers to or from system memory is in progress.
@@ -356,7 +356,7 @@ Prevents a system-memory surface from being paged out while a bit block transfer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a87df37-a53f-4240-a5cb-47b13999c34b">PageUnlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-pageunlock">PageUnlock</a>
 </td>
 <td align="left" width="63%">
 Unlocks a system-memory surface, which then allows it to be paged out.
@@ -365,17 +365,17 @@ Unlocks a system-memory surface, which then allows it to be paged out.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/170d5194-9327-4632-a87f-39aa8a0ccf74">ReleaseDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-releasedc">ReleaseDC</a>
 </td>
 <td align="left" width="63%">
-Releases the handle of a device context that was previously obtained by using the <a href="https://msdn.microsoft.com/683be1bc-8232-42de-907f-1136ffdd524d">IDirectDrawSurface7::GetDC</a> method.
+Releases the handle of a device context that was previously obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ca7abb2-5b9a-4323-9f0b-952e183e794b">Restore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-restore">Restore</a>
 </td>
 <td align="left" width="63%">
 Restores a surface that has been lost. This occurs when the surface memory that is associated with the DirectDrawSurface object has been freed.
@@ -384,7 +384,7 @@ Restores a surface that has been lost. This occurs when the surface memory that 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/18bc8018-b00c-40ef-a54a-e2eecdb835a9">SetClipper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setclipper">SetClipper</a>
 </td>
 <td align="left" width="63%">
 Attaches a clipper object to, or deletes one from, this surface.
@@ -393,7 +393,7 @@ Attaches a clipper object to, or deletes one from, this surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36f2510e-d12a-40af-b65c-aa36ce46a942">SetColorKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey">SetColorKey</a>
 </td>
 <td align="left" width="63%">
 Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.
@@ -402,7 +402,7 @@ Sets the color key value for the DirectDrawSurface object if the hardware suppor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/596b700f-9a16-4ed0-9ea8-8a1da7d841ae">SetLOD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setlod">SetLOD</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum level of detail (LOD) for a managed mipmap surface. This method succeeds only on managed textures.
@@ -411,7 +411,7 @@ Sets the maximum level of detail (LOD) for a managed mipmap surface. This method
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94bd79f8-ded2-4cfa-98c1-a03202d3e678">SetOverlayPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setoverlayposition">SetOverlayPosition</a>
 </td>
 <td align="left" width="63%">
 Changes the display coordinates of an overlay surface.
@@ -421,7 +421,7 @@ Changes the display coordinates of an overlay surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/938906fe-9f5b-468b-8b34-5de16aeb67b3">SetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setpalette">SetPalette</a>
 </td>
 <td align="left" width="63%">
 Attaches a palette object to (or detaches one from) a surface. The surface uses this palette for all subsequent operations. The palette change takes place immediately, without regard to refresh timing.
@@ -430,7 +430,7 @@ Attaches a palette object to (or detaches one from) a surface. The surface uses 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06ab2190-db76-41e5-915e-32a3613505a5">SetPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setpriority">SetPriority</a>
 </td>
 <td align="left" width="63%">
 Assigns the texture-management priority for this texture. This method succeeds only on managed textures.
@@ -439,7 +439,7 @@ Assigns the texture-management priority for this texture. This method succeeds o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/822e4533-9073-4590-844e-8830110e4e33">SetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setprivatedata">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Associates data with the surface that is intended for use by the application, not by DirectDraw. Data is passed by value, and multiple sets of data can be associated with a single surface.
@@ -448,7 +448,7 @@ Associates data with the surface that is intended for use by the application, no
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/541bd833-20c4-4b47-a3ed-c29f228a0626">SetSurfaceDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setsurfacedesc">SetSurfaceDesc</a>
 </td>
 <td align="left" width="63%">
 Sets the characteristics of an existing surface.
@@ -457,7 +457,7 @@ Sets the characteristics of an existing surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1606869a-83b1-4278-a0b5-c183cc7ea285">Unlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-unlock">Unlock</a>
 </td>
 <td align="left" width="63%">
 Notifies DirectDraw that the direct surface manipulations are complete.
@@ -466,7 +466,7 @@ Notifies DirectDraw that the direct surface manipulations are complete.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8706c6ca-cd17-490a-8ff9-9470a7d7a150">UpdateOverlay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">UpdateOverlay</a>
 </td>
 <td align="left" width="63%">
 Repositions or modifies the visual attributes of an overlay surface. These surfaces must have the DDSCAPS_OVERLAY flag set.
@@ -475,16 +475,16 @@ Repositions or modifies the visual attributes of an overlay surface. These surfa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c">UpdateOverlayDisplay</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlaydisplay">UpdateOverlayDisplay</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c">IDirectDrawSurface7::UpdateOverlayDisplay</a> method is not currently implemented.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlaydisplay">IDirectDrawSurface7::UpdateOverlayDisplay</a> method is not currently implemented.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a95f315f-7a1f-4ca0-bb18-9bd54f2cc78d">UpdateOverlayZOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder">UpdateOverlayZOrder</a>
 </td>
 <td align="left" width="63%">
 Sets the z-order of an overlay.
@@ -506,131 +506,131 @@ The methods of the <b>IDirectDrawSurface7</b> interface can be organized into th
 <tr>
 <td>Allocating memory</td>
 <td>
-<a href="https://msdn.microsoft.com/98b9a05f-ff61-4c58-9c09-625077eb64ad">Initialize</a>,  
-  <a href="https://msdn.microsoft.com/f4654478-ca09-4856-8221-ef5454c23535">IsLost</a>,  
-and <a href="https://msdn.microsoft.com/9ca7abb2-5b9a-4323-9f0b-952e183e794b">Restore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-initialize">Initialize</a>,  
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-islost">IsLost</a>,  
+and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-restore">Restore</a>
 </td>
 </tr>
 <tr>
 <td>Attaching surfaces </td>
 <td>
-<a href="https://msdn.microsoft.com/6d42c5ed-7f05-4450-b1f4-cb9ee6efa7d9">AddAttachedSurface</a>,  
-  <a href="https://msdn.microsoft.com/39cefecd-2ae0-42ba-8140-842acdaa1ad8">DeleteAttachedSurface</a>,  
-<a href="https://msdn.microsoft.com/7f8e9b53-3aff-491c-ab0c-2f414d1ddb27">EnumAttachedSurfaces</a>,  
-and <a href="https://msdn.microsoft.com/0eae7e55-5ff7-41f6-ac6a-ce7fb6d809b9">GetAttachedSurface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-addattachedsurface">AddAttachedSurface</a>,  
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-deleteattachedsurface">DeleteAttachedSurface</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces">EnumAttachedSurfaces</a>,  
+and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getattachedsurface">GetAttachedSurface</a>
 </td>
 </tr>
 <tr>
 <td>BitBltting</td>
 <td>
-<a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">Blt</a>,  
-  <a href="https://msdn.microsoft.com/50c071a6-2963-474e-994e-c789b1924d92">BltBatch</a>,  
-<a href="https://msdn.microsoft.com/ac882b48-87b2-4b65-99b0-ac9065b5f47f">BltFast</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">Blt</a>,  
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">BltBatch</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltfast">BltFast</a>,  
  and  
-<a href="https://msdn.microsoft.com/1f446300-065b-47c1-9778-fb4a5b2ea4bd">GetBltStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getbltstatus">GetBltStatus</a>
 </td>
 </tr>
 <tr>
 <td>Color keying</td>
 <td>
-<a href="https://msdn.microsoft.com/0df14c63-f962-4823-873a-3fe1d626f4cb">GetColorKey</a>  
-  and <a href="https://msdn.microsoft.com/36f2510e-d12a-40af-b65c-aa36ce46a942">SetColorKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey">GetColorKey</a>  
+  and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey">SetColorKey</a>
 </td>
 </tr>
 <tr>
 <td>Device contexts </td>
 <td>
-<a href="https://msdn.microsoft.com/683be1bc-8232-42de-907f-1136ffdd524d">GetDC</a>  
-  and <a href="https://msdn.microsoft.com/170d5194-9327-4632-a87f-39aa8a0ccf74">ReleaseDC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">GetDC</a>  
+  and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-releasedc">ReleaseDC</a>
 </td>
 </tr>
 <tr>
 <td>Flipping</td>
 <td>
-<a href="https://msdn.microsoft.com/6c0c23e7-7567-4e07-9ba0-5e50b758f711">Flip</a>  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-flip">Flip</a>  
   and  
-  <a href="https://msdn.microsoft.com/e337bdde-bf63-414a-88a5-507478476667">GetFlipStatus</a>
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getflipstatus">GetFlipStatus</a>
 </td>
 </tr>
 <tr>
 <td>Locking surfaces </td>
 <td>
-<a href="https://msdn.microsoft.com/0267ad70-e7cc-41e8-8325-7ede4a662d13">Lock</a>,  
-  <a href="https://msdn.microsoft.com/018e6539-bb2a-472c-bab4-2c0665cdbe15">PageLock</a>,  
-<a href="https://msdn.microsoft.com/1a87df37-a53f-4240-a5cb-47b13999c34b">PageUnlock</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-lock">Lock</a>,  
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-pagelock">PageLock</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-pageunlock">PageUnlock</a>,  
 and  
-  <a href="https://msdn.microsoft.com/1606869a-83b1-4278-a0b5-c183cc7ea285">Unlock</a>
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-unlock">Unlock</a>
 </td>
 </tr>
 <tr>
 <td>Miscellaneous</td>
 <td>
-<a href="https://msdn.microsoft.com/1ec63614-cdc0-4d07-97e3-97167e7b397c">GetDDInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getddinterface">GetDDInterface</a>
 </td>
 </tr>
 <tr>
 <td>Overlays </td>
 <td>
-<a href="https://msdn.microsoft.com/4ddd02ff-9e7f-4962-8954-0032f23959cd">AddOverlayDirtyRect</a>,  
-  <a href="https://msdn.microsoft.com/fab3212c-c1af-4119-85ff-108594cc64fa">EnumOverlayZOrders</a>,  
-<a href="https://msdn.microsoft.com/008502f7-468f-4d79-a309-75ebdbe29ff3">GetOverlayPosition</a>,  
-<a href="https://msdn.microsoft.com/94bd79f8-ded2-4cfa-98c1-a03202d3e678">SetOverlayPosition</a>,  
-<a href="https://msdn.microsoft.com/8706c6ca-cd17-490a-8ff9-9470a7d7a150">UpdateOverlay</a>,  
-<a href="https://msdn.microsoft.com/50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c">UpdateOverlayDisplay</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-addoverlaydirtyrect">AddOverlayDirtyRect</a>,  
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders">EnumOverlayZOrders</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getoverlayposition">GetOverlayPosition</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setoverlayposition">SetOverlayPosition</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">UpdateOverlay</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlaydisplay">UpdateOverlayDisplay</a>,  
 and 
-<a href="https://msdn.microsoft.com/a95f315f-7a1f-4ca0-bb18-9bd54f2cc78d">UpdateOverlayZOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder">UpdateOverlayZOrder</a>
 </td>
 </tr>
 <tr>
 <td>Private surface data</td>
 <td>
-<a href="https://msdn.microsoft.com/66d3f701-735c-4dca-b7b6-47a17d63c23e">FreePrivateData</a>, 
-  <a href="https://msdn.microsoft.com/f8c0c882-329f-4cce-8cd0-ff71c18b1716">GetPrivateData</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-freeprivatedata">FreePrivateData</a>, 
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata">GetPrivateData</a>, 
 and 
-<a href="https://msdn.microsoft.com/822e4533-9073-4590-844e-8830110e4e33">SetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setprivatedata">SetPrivateData</a>
 </td>
 </tr>
 <tr>
 <td>Surface capabilities </td>
 <td>
-<a href="https://msdn.microsoft.com/4e93612c-9e28-4d51-a640-e8e9b5ed8e7a">GetCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getcaps">GetCaps</a>
 </td>
 </tr>
 <tr>
 <td>Surface clipper</td>
 <td>
-<a href="https://msdn.microsoft.com/f2156dbe-88b5-4ab1-a310-13a38ebdbb4b">GetClipper</a>  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getclipper">GetClipper</a>  
   and 
-<a href="https://msdn.microsoft.com/18bc8018-b00c-40ef-a54a-e2eecdb835a9">SetClipper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setclipper">SetClipper</a>
 </td>
 </tr>
 <tr>
 <td>Surface characteristics</td>
 <td>
-<a href="https://msdn.microsoft.com/4d714fb7-7e12-45ab-ae40-7fc2a65b9e7e">ChangeUniquenessValue</a>, 
-  <a href="https://msdn.microsoft.com/2c33c46b-6cd7-4ee7-976c-a81f9d92b379">GetPixelFormat</a>,  
-<a href="https://msdn.microsoft.com/4c36685e-8eb7-4d91-a479-8f099d5e712b">GetSurfaceDesc</a>,  
-<a href="https://msdn.microsoft.com/559d9381-1135-47de-9bbe-49aa8d97f5d3">GetUniquenessValue</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-changeuniquenessvalue">ChangeUniquenessValue</a>, 
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat">GetPixelFormat</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getsurfacedesc">GetSurfaceDesc</a>,  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getuniquenessvalue">GetUniquenessValue</a>, 
 and 
-<a href="https://msdn.microsoft.com/541bd833-20c4-4b47-a3ed-c29f228a0626">SetSurfaceDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setsurfacedesc">SetSurfaceDesc</a>
 </td>
 </tr>
 <tr>
 <td>Surface palettes</td>
 <td>
-<a href="https://msdn.microsoft.com/35a667aa-9a69-4c71-9e26-b42359815a0d">GetPalette</a>  
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpalette">GetPalette</a>  
   and 
-<a href="https://msdn.microsoft.com/938906fe-9f5b-468b-8b34-5de16aeb67b3">SetPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setpalette">SetPalette</a>
 </td>
 </tr>
 <tr>
 <td>Textures</td>
 <td>
-<a href="https://msdn.microsoft.com/9208372b-47ac-4079-9e4a-28cf51912a93">GetLOD</a>, 
-  <a href="https://msdn.microsoft.com/59a47305-92d5-42a3-9ad1-11c80e3744df">GetPriority</a>, 
-<a href="https://msdn.microsoft.com/596b700f-9a16-4ed0-9ea8-8a1da7d841ae">SetLOD</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getlod">GetLOD</a>, 
+  <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getpriority">GetPriority</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setlod">SetLOD</a>, 
 and 
-<a href="https://msdn.microsoft.com/06ab2190-db76-41e5-915e-32a3613505a5">SetPriority</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setpriority">SetPriority</a>
 </td>
 </tr>
 </table>
@@ -638,7 +638,7 @@ and
 
 
 
-The <b>IDirectDrawSurface7</b> interface extends the features of previous versions of the interface by offering methods that offer better surface management and ease of use. Many methods in this interface accept slightly different parameters than their counterparts in former versions of the interface. Wherever an <b>IDirectDrawSurface3</b> interface method might accept a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structure or an <b>IDirectDrawSurface3</b> interface, the methods in IDirectDrawSurface7 accept a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550340">DDSURFACEDESC2</a> structure or an <b>IDirectDrawSurface7</b> interface, instead.
+The <b>IDirectDrawSurface7</b> interface extends the features of previous versions of the interface by offering methods that offer better surface management and ease of use. Many methods in this interface accept slightly different parameters than their counterparts in former versions of the interface. Wherever an <b>IDirectDrawSurface3</b> interface method might accept a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure or an <b>IDirectDrawSurface3</b> interface, the methods in IDirectDrawSurface7 accept a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure or an <b>IDirectDrawSurface7</b> interface, instead.
 
 
 

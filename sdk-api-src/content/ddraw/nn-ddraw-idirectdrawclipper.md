@@ -54,7 +54,7 @@ Applications use the methods of the <b>IDirectDrawClipper</b> interface to manag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawClipper</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectDrawClipper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawClipper</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawClipper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDirectDrawClipper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0446f8b9-c965-4336-ae78-5bb791861844">GetClipList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-getcliplist">GetClipList</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the clip list that is associated with a DirectDrawClipper object. To select a subset of the clip list, you can pass a rectangle that clips the clip list.
@@ -79,27 +79,27 @@ Retrieves a copy of the clip list that is associated with a DirectDrawClipper ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/025e898f-e160-4485-87cf-f5fbc014e9f1">GetHWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-gethwnd">GetHWnd</a>
 </td>
 <td align="left" width="63%">
-Retrieves the window handle that was previously associated with this DirectDrawClipper object by the <a href="https://msdn.microsoft.com/7683bccd-3f5c-4098-9041-9c66853cda0e">IDirectDrawClipper::SetHWnd</a> method.
+Retrieves the window handle that was previously associated with this DirectDrawClipper object by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-sethwnd">IDirectDrawClipper::SetHWnd</a> method.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0b71af4-f806-4264-bd14-b556b31aab29">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes a DirectDrawClipper object that was created by using the <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> COM function.
+Initializes a DirectDrawClipper object that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> COM function.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d394b638-6015-47d8-89ea-2ed71611ddb3">IsClipListChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-iscliplistchanged">IsClipListChanged</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the clip list if a window handle is associated with a DirectDrawClipper object.
@@ -108,16 +108,16 @@ Retrieves the status of the clip list if a window handle is associated with a Di
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/717f51e0-80cb-4762-b05d-30e30d065d0c">SetClipList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-setcliplist">SetClipList</a>
 </td>
 <td align="left" width="63%">
-Sets or deletes the clip list that is used by the <a href="https://msdn.microsoft.com/e458c430-855c-419b-aa50-144d2b422e78">IDirectDrawSurface7::Blt</a>, <a href="https://msdn.microsoft.com/50c071a6-2963-474e-994e-c789b1924d92">IDirectDrawSurface7::BltBatch</a>, and <a href="https://msdn.microsoft.com/8706c6ca-cd17-490a-8ff9-9470a7d7a150">IDirectDrawSurface7::UpdateOverlay</a> methods on surfaces to which the parent DirectDrawClipper object is attached.
+Sets or deletes the clip list that is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-bltbatch">IDirectDrawSurface7::BltBatch</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a> methods on surfaces to which the parent DirectDrawClipper object is attached.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7683bccd-3f5c-4098-9041-9c66853cda0e">SetHWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-sethwnd">SetHWnd</a>
 </td>
 <td align="left" width="63%">
 Sets the window handle that the clipper object uses to obtain clipping information.
@@ -139,19 +139,19 @@ The methods of the <b>IDirectDrawClipper</b> interface can be organized into the
 <tr>
 <td>Allocating memory</td>
 <td>
-<a href="https://msdn.microsoft.com/b0b71af4-f806-4264-bd14-b556b31aab29">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-initialize">Initialize</a>
 </td>
 </tr>
 <tr>
 <td>Clip list</td>
 <td>
-<a href="https://msdn.microsoft.com/0446f8b9-c965-4336-ae78-5bb791861844">GetClipList</a>, <a href="https://msdn.microsoft.com/d394b638-6015-47d8-89ea-2ed71611ddb3">IsClipListChanged</a>, <a href="https://msdn.microsoft.com/717f51e0-80cb-4762-b05d-30e30d065d0c">SetClipList</a>,  and <a href="https://msdn.microsoft.com/7683bccd-3f5c-4098-9041-9c66853cda0e">SetHWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-getcliplist">GetClipList</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-iscliplistchanged">IsClipListChanged</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-setcliplist">SetClipList</a>,  and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-sethwnd">SetHWnd</a>
 </td>
 </tr>
 <tr>
 <td>Handles</td>
 <td>
-<a href="https://msdn.microsoft.com/025e898f-e160-4485-87cf-f5fbc014e9f1">GetHWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-gethwnd">GetHWnd</a>
 </td>
 </tr>
 </table>

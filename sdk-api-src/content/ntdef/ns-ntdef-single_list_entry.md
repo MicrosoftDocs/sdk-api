@@ -70,7 +70,7 @@ If a <b>SINGLE_LIST_ENTRY</b> structure is used as a list head, initialize the <
 
 A driver can access the <b>Next</b> member of a <b>SINGLE_LIST_ENTRY</b>, but (other than initializing a list head) <b>Next</b> must only be updated by the system routines supplied for this purpose.
 
-For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to implement a singly linked list, see <a href="https://msdn.microsoft.com/3a305f54-7866-4163-a3e4-e078d1927adc">Singly and Doubly Linked Lists</a>.
+For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to implement a singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 
 
@@ -88,11 +88,11 @@ For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to imp
 
 
 
-<a href="https://msdn.microsoft.com/b24ec573-4164-4016-a19d-574ebd75ec8f">PopEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-popentrylist">PopEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/19f387d3-6c00-4c71-8114-61c53654613c">PushEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>
  
 
  

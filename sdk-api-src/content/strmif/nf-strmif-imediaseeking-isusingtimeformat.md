@@ -63,7 +63,7 @@ The <code>IsUsingTimeFormat</code> method determines whether seek operations are
 
 ### -param pFormat [in]
 
-Pointer to a GUID that specifies the time format. See <a href="https://msdn.microsoft.com/510c7146-ff3c-4812-a7ad-b4051aa82ef3">Time Format GUIDs</a>.
+Pointer to a GUID that specifies the time format. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 
 ## -returns
@@ -131,7 +131,7 @@ Not implemented.
 
 
 
-This method is slightly more efficient than the <a href="https://msdn.microsoft.com/aa6dc75e-f124-4404-b8fd-ef227d8cada0">IMediaSeeking::GetTimeFormat</a> method, because it does not require copying the GUID.
+This method is slightly more efficient than the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-gettimeformat">IMediaSeeking::GetTimeFormat</a> method, because it does not require copying the GUID.
 
 
 
@@ -141,15 +141,15 @@ This method is slightly more efficient than the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6f64f8a-67b8-4297-8f0d-389001fa1681">IMediaSeeking::SetTimeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a>
  
 
  

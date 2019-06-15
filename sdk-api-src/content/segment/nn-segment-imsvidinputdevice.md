@@ -54,10 +54,10 @@ The <b>IMSVidInputDevice</b> interface represents any input device that is recog
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694704(v=VS.85).aspx">IMSVidTuner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd694420(v=VS.85).aspx">IMSVidAnalogTuner</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner</a>
 </li>
 </ul>
 When a method returns an <b>IMSVidInputDevice</b> pointer, the object that is returned typically supports one of the derived interfaces.
@@ -67,7 +67,7 @@ When a method returns an <b>IMSVidInputDevice</b> pointer, the object that is re
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidInputDevice</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>. <b>IMSVidInputDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidInputDevice</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a>. <b>IMSVidInputDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IMSVidInputDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694576(v=VS.85).aspx">IsViewable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevice-isviewable">IsViewable</a>
 </td>
 <td align="left" width="63%">
 Determines whether this device can view the specified tune request.
@@ -91,7 +91,7 @@ Determines whether this device can view the specified tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694577(v=VS.85).aspx">View</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevice-view">View</a>
 </td>
 <td align="left" width="63%">
 Configures the input device to view the specified tune request.
@@ -115,11 +115,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

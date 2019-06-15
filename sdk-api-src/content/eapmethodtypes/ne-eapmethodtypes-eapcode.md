@@ -97,7 +97,7 @@ The highest possible value for an EAP packet type code.
 
 
 
-<a href="https://msdn.microsoft.com/a5d78db0-990f-4318-8f1a-4e903221845f">EapPacket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-tageappacket">EapPacket</a>
  
 
  

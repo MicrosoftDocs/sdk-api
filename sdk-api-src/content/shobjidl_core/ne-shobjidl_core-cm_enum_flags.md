@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by members of the <a href="https://msdn.microsoft.com/d01cacd8-1867-4f44-bbc3-876bd727c0fe">IColumnManager</a> interface to specify which set of columns are being requested, either all or only those currently visible.
+Used by members of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager">IColumnManager</a> interface to specify which set of columns are being requested, either all or only those currently visible.
 
 
 ## -enum-fields

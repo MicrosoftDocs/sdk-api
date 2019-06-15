@@ -86,7 +86,7 @@ An internal error occurred.
 
 
 
-This enumeration is used to return error information  from the <a href="https://msdn.microsoft.com/D73D3ACC-BD9C-4340-8572-6D82E96D0BA8">IMFTimedTextTrack::GetErrorCode</a> method.
+This enumeration is used to return error information  from the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttrack-geterrorcode">IMFTimedTextTrack::GetErrorCode</a> method.
 
 
 
@@ -96,7 +96,7 @@ This enumeration is used to return error information  from the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Use a pointer to an integer instance to set the value of one of the four components of an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a>containing integer data referenced by an index.
+Use a pointer to an integer instance to set the value of one of the four components of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>containing integer data referenced by an index.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Use a pointer to an integer instance to set the value of one of the four compone
 
 ### -param V
 
-A <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a> containing integer data.
+A <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data.
 
 
 ### -param x [in]
 
-A pointer to an integer instance used to set the <i>i</i> component of the returned <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a>.
+A pointer to an integer instance used to set the <i>i</i> component of the returned <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>.
 
 
 ### -param i
@@ -76,7 +76,7 @@ The index of the component to be set.
 
 
 
-An instance of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a> whose <i>i</i> component has been set to the integer value provided by
+An instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>i</i> component has been set to the integer value provided by
        the argument <i>f</i>. All other components of the returned <b>XMVECTOR Data Type</b> instance have the
        same value as those of the input vector <i>V</i>.
 
@@ -90,7 +90,7 @@ An instance of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88
 The value of <i>i</i> must be positive and less than or equal to three ( <i>0 </i> &lt;= <i> i </i> &lt;=
    <i> 3</i> ).
 
-The indexes have the following correspondence with <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR Data Type</a> vector components:
+The indexes have the following correspondence with <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> vector components:
 
 <table>
 <tr>
@@ -151,15 +151,15 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6e7453b8-0dee-6fc5-cbac-fe20e4e3ef60">DirectXMath Library Vector Accessor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404789(v=VS.85).aspx">XMVectorGetIntByIndexPtr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorgetintbyindexptr">XMVectorGetIntByIndexPtr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404813(v=VS.85).aspx">XMVectorSetIntByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh404813(v=vs.85)">XMVectorSetIntByIndex</a>
  
 
  

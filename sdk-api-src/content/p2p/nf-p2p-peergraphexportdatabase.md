@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerGraphExportDatabase</b> function exports a peer graph database into a file that you can move to a different computer. By using   <a href="https://msdn.microsoft.com/85f7dc2b-c159-48e0-ac58-8a66eb0ec73b">PeerGraphImportDatabase</a>, a peer graph database can  be  imported to a different computer.
+The <b>PeerGraphExportDatabase</b> function exports a peer graph database into a file that you can move to a different computer. By using   <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphimportdatabase">PeerGraphImportDatabase</a>, a peer graph database can  be  imported to a different computer.
 
 
 ## -parameters
@@ -118,7 +118,7 @@ The handle to a graph is invalid.
 </dl>
 </td>
 <td width="60%">
-A graph must be  initialized with a call to <a href="https://msdn.microsoft.com/00ffdec7-f084-4170-a4a1-e6112bab4d61">PeerGraphStartup</a> before using this function.
+A graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ If the export of a database fails because of file creation errors, a standard Wi
 
 
 
-<a href="https://msdn.microsoft.com/85f7dc2b-c159-48e0-ac58-8a66eb0ec73b">PeerGraphImportDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphimportdatabase">PeerGraphImportDatabase</a>
  
 
  

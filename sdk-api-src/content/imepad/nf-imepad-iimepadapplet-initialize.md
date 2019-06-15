@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> interface to initialize <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a>.
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface to initialize <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B0
 
 ### -param lpIImePad
 
-Pointer to <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> (<b>IUnknown</b> *)
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> (<b>IUnknown</b> *)
 
 
 ## -returns
@@ -75,7 +75,7 @@ Pointer to <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04
 
 
 
-When the ImePad user interface is created, <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> calls this method and sets the IImePad interface pointer as an argument. The applet can save and use this pointer to call the <a href="https://msdn.microsoft.com/C74B0374-D6C7-44C7-94EF-E97B46534462">pIImePad->IImePad::Request</a> method.
+When the ImePad user interface is created, <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls this method and sets the IImePad interface pointer as an argument. The applet can save and use this pointer to call the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepad-request">pIImePad->IImePad::Request</a> method.
 
 
 
@@ -85,7 +85,7 @@ When the ImePad user interface is created, <a href="https://msdn.microsoft.com/6
 
 
 
-<a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
  
 
  

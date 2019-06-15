@@ -59,7 +59,7 @@ Retrieves the burn image stream.
 
 ### -param pVal [out]
 
-An <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface of the burn image.
+An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface of the burn image.
 
 
 ## -returns
@@ -80,7 +80,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 </dl>
 </td>
 <td width="60%">
-Pointer is not valid or the  <i>pstatstgis</i> parameter of the <a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">IStream::Stat</a> method is <b>NULL</b>.
+Pointer is not valid or the  <i>pstatstgis</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method is <b>NULL</b>.
 
 Value: 0x80004003
 
@@ -106,7 +106,7 @@ Value: 0x8007000E
 </dl>
 </td>
 <td width="60%">
-The <i>grfStateFlag</i> parameter of the <a href="https://msdn.microsoft.com/c22ab396-dbc5-43a0-8448-35a2c094464f">IStream::Stat</a> method is invalid.
+The <i>grfStateFlag</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a> method is invalid.
 
 </td>
 </tr>
@@ -121,11 +121,11 @@ The <i>grfStateFlag</i> parameter of the <a href="https://msdn.microsoft.com/c22
 
 
 
-<a href="https://msdn.microsoft.com/9daf31f3-84c2-48b2-ab21-a3809b6ed9af">IDiscFormat2Data::Write</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write">IDiscFormat2Data::Write</a>
 
 
 
-<a href="https://msdn.microsoft.com/30ec514c-97b8-41fc-b814-11f50cacaa25">IFileSystemImageResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
  
 
  

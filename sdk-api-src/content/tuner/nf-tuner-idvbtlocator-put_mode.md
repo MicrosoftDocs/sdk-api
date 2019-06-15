@@ -62,7 +62,7 @@ The <b>put_Mode</b> method sets the transmission mode.
 
 ### -param mode [in]
 
-Specifies the transmission mode as a member of the <a href="https://msdn.microsoft.com/590406e4-8c31-4a8e-b4e3-31160fa821ac">TransmissionMode</a> enumeration.
+Specifies the transmission mode as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/transmissionmode">TransmissionMode</a> enumeration.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/f5a95a68-fee0-404c-b9c6-6b808977f8d2">IDVBTLocator Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>
  
 
  

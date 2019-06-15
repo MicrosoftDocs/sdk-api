@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  The <b>IAMDevMemoryControl</b> interface is deprecated.</div>
 <div> </div>
-Checks if the memory supported by the allocator requires the use of the <a href="https://msdn.microsoft.com/46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf">IAMDevMemoryControl::WriteSync</a> method.
+Checks if the memory supported by the allocator requires the use of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">IAMDevMemoryControl::WriteSync</a> method.
 
 
 
@@ -77,7 +77,7 @@ Returns S_OK if the method is required, or S_FALSE otherwise.
 
 
 
-Not all on-board memory needs to have <a href="https://msdn.microsoft.com/46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf">WriteSync</a> called to synchronize with the completed write. This method is used to check if the call is necessary.
+Not all on-board memory needs to have <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">WriteSync</a> called to synchronize with the completed write. This method is used to check if the call is necessary.
 
 
 
@@ -87,11 +87,11 @@ Not all on-board memory needs to have <a href="https://msdn.microsoft.com/46bf7a
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/9945bffb-6748-4c7d-ba14-91470cf6c651">IAMDevMemoryControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdevmemorycontrol">IAMDevMemoryControl Interface</a>
  
 
  

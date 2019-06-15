@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMRCOLORMATCHTOTARGET</b> structure contains members for the <a href="https://msdn.microsoft.com/eb922411-0808-4404-bdaf-bf29d0cad379">ColorMatchToTarget</a> enhanced metafile record.
+The <b>EMRCOLORMATCHTOTARGET</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-colormatchtotarget">ColorMatchToTarget</a> enhanced metafile record.
 
 
 
@@ -129,15 +129,15 @@ An array containing the target profile name and the raw target profile data.
 
 
 
-<a href="https://msdn.microsoft.com/eb922411-0808-4404-bdaf-bf29d0cad379">ColorMatchToTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-colormatchtotarget">ColorMatchToTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

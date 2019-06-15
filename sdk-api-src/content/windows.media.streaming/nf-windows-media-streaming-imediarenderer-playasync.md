@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instructs the DMR asynchronously to play the content that was specified by calling the <a href="https://msdn.microsoft.com/3062FC13-61FD-4781-9AE6-39576D86B783">SetSourceFromUriAsync</a>, <a href="https://msdn.microsoft.com/BBFEDCE1-A7C4-4F7E-AC22-0F117EA075CE">SetSourceFromStreamAsync</a>, or <a href="https://msdn.microsoft.com/AC30F3C4-30DD-41B1-B2CE-5F908588A779">SetSourceFromMediaSourceAsync</a> method.
+Instructs the DMR asynchronously to play the content that was specified by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a> method.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Instructs the DMR asynchronously to play the content that was specified by calli
 
 ### -param value [out]
 
-Receives a reference to a <a href="https://msdn.microsoft.com/4899254A-C393-4D03-970F-CF272F4761B6">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
+Receives a reference to a <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/playbackoperation">PlaybackOperation</a> object that is used to get results from the asynchronous operation.
 
 
 ## -returns
@@ -94,10 +94,10 @@ The method succeeded.
 
 
 
-Before this method is called, you must call <a href="https://msdn.microsoft.com/3062FC13-61FD-4781-9AE6-39576D86B783">SetSourceFromUriAsync</a>, <a href="https://msdn.microsoft.com/BBFEDCE1-A7C4-4F7E-AC22-0F117EA075CE">SetSourceFromStreamAsync</a>, or <a href="https://msdn.microsoft.com/AC30F3C4-30DD-41B1-B2CE-5F908588A779">SetSourceFromMediaSourceAsync</a> first to specify the content.
+Before this method is called, you must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828949(v=vs.85)">SetSourceFromUriAsync</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828948(v=vs.85)">SetSourceFromStreamAsync</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828947(v=vs.85)">SetSourceFromMediaSourceAsync</a> first to specify the content.
 
 The content will be played at the normal playback rate of "1".
-A different playback rate can be specified by calling the <a href="https://msdn.microsoft.com/368510CF-FC36-4D92-AE92-024D53EE3BAD">PlayAtSpeedAsync</a> method.
+A different playback rate can be specified by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828939(v=vs.85)">PlayAtSpeedAsync</a> method.
 
 
 
@@ -107,7 +107,7 @@ A different playback rate can be specified by calling the <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

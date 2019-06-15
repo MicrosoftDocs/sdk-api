@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/981FD58B-0565-4D0E-957C-3ED81BA8A6EB">Distant-diffuse lighting effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/distant-diffuse">Distant-diffuse lighting effect</a>.
 
 
 ## -enum-fields

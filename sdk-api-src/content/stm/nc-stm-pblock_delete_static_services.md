@@ -113,15 +113,15 @@ The parameter is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3">BlockConvertServicesToStatic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pblock_convert_services_to_static">BlockConvertServicesToStatic</a>
 
 
 
-<a href="https://msdn.microsoft.com/e93e3bf2-80a2-44ec-a067-58220cdd31b4">IPX Service Table Management</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb31f1ad-5761-4112-8c05-51a627b9e0b7">Service Table Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
  
 
  

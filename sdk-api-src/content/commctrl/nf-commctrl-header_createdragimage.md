@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a transparent version of an item image within an existing header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775308(v=VS.85).aspx">HDM_CREATEDRAGIMAGE</a> message explicitly. 
+Creates a transparent version of an item image within an existing header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-createdragimage">HDM_CREATEDRAGIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates a transparent version of an item image within an existing header control
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control. 
 

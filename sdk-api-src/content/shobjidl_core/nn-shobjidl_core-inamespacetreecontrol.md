@@ -54,7 +54,7 @@ Exposes methods used to view and manipulate nodes in a tree of Shell items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INameSpaceTreeControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INameSpaceTreeControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a280d183-9215-43c2-bba3-63c34ba33285">AppendRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-appendroot">AppendRoot</a>
 </td>
 <td align="left" width="63%">
 Appends a Shell item to the list of roots in a tree.
@@ -78,7 +78,7 @@ Appends a Shell item to the list of roots in a tree.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a17f7261-20a9-4c08-871c-b0bec6ce784c">CollapseAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-collapseall">CollapseAll</a>
 </td>
 <td align="left" width="63%">
 Collapses all of the items in the given tree.
@@ -87,7 +87,7 @@ Collapses all of the items in the given tree.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0c40137-e19b-448c-a327-454b12a5604a">EnsureItemVisible</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-ensureitemvisible">EnsureItemVisible</a>
 </td>
 <td align="left" width="63%">
 Ensures that the given item is visible.
@@ -96,7 +96,7 @@ Ensures that the given item is visible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16fb3e3a-1686-4bdf-9112-564bb85fb601">GetItemCustomState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getitemcustomstate">GetItemCustomState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of the checkbox associated with a given Shell item.
@@ -105,7 +105,7 @@ Gets the state of the checkbox associated with a given Shell item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57e7707c-0fe2-4cde-87d8-2d58e7c06bba">GetItemRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getitemrect">GetItemRect</a>
 </td>
 <td align="left" width="63%">
 Gets the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes the size and position of a given item.
@@ -114,7 +114,7 @@ Gets the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78bee2db-6a28-4fcb-9c43-ab411196ab04">GetItemState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getitemstate">GetItemState</a>
 </td>
 <td align="left" width="63%">
 Gets state information about a Shell item.
@@ -123,7 +123,7 @@ Gets state information about a Shell item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71ede595-14b6-4e59-854a-af75c02093f8">GetNextItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getnextitem">GetNextItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next item in the tree according to which method is requested.
@@ -132,7 +132,7 @@ Retrieves the next item in the tree according to which method is requested.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca957f8c-ac8e-472e-b762-ddc45e20462d">GetRootItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getrootitems">GetRootItems</a>
 </td>
 <td align="left" width="63%">
 Gets an array of the root items.
@@ -141,7 +141,7 @@ Gets an array of the root items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfc81922-883a-4749-94be-3630853e38c1">GetSelectedItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getselecteditems">GetSelectedItems</a>
 </td>
 <td align="left" width="63%">
 Gets an array of selected Shell items.
@@ -150,7 +150,7 @@ Gets an array of selected Shell items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2287772d-2c06-4d4b-a11e-727dd5de5326">HitTest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-hittest">HitTest</a>
 </td>
 <td align="left" width="63%">
 Retrieves the item that a given point is in, if any.
@@ -159,7 +159,7 @@ Retrieves the item that a given point is in, if any.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfc602bd-6e4e-492d-8bf4-1499319adee7">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>INameSpaceTreeControl</b> object.
@@ -168,7 +168,7 @@ Initializes an <b>INameSpaceTreeControl</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5d487896-a2ee-4bf3-82d8-90f23a4ff213">InsertRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-insertroot">InsertRoot</a>
 </td>
 <td align="left" width="63%">
 Inserts a Shell item on a root item in a tree.
@@ -177,7 +177,7 @@ Inserts a Shell item on a root item in a tree.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d2eb0c1-c90f-47fb-a322-4267d175df22">RemoveAllRoots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-removeallroots">RemoveAllRoots</a>
 </td>
 <td align="left" width="63%">
 Removes all roots and their children from a tree.
@@ -186,7 +186,7 @@ Removes all roots and their children from a tree.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e27e4eca-60f3-47b7-95cd-c004cda78d77">RemoveRoot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-removeroot">RemoveRoot</a>
 </td>
 <td align="left" width="63%">
 Removes a root and its children from a tree.
@@ -195,7 +195,7 @@ Removes a root and its children from a tree.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a27fa2a3-3e10-4053-b0b6-222c7b517b5a">SetItemCustomState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-setitemcustomstate">SetItemCustomState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the checkbox associated with the Shell item.
@@ -204,7 +204,7 @@ Sets the state of the checkbox associated with the Shell item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f57c5abc-0803-409d-9938-3826f9d8058d">SetItemState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-setitemstate">SetItemState</a>
 </td>
 <td align="left" width="63%">
 Sets state information for a Shell item.
@@ -213,7 +213,7 @@ Sets state information for a Shell item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b518d58-716b-4ae1-8633-e43117363541">SetTheme</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-settheme">SetTheme</a>
 </td>
 <td align="left" width="63%">
 Sets the desktop theme for the current window only.
@@ -222,7 +222,7 @@ Sets the desktop theme for the current window only.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d59b9772-7061-4ea5-964a-75deb293b407">TreeAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-treeadvise">TreeAdvise</a>
 </td>
 <td align="left" width="63%">
 Enables a client to register with the control.
@@ -231,7 +231,7 @@ Enables a client to register with the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a0ba832-503a-48d6-80a7-7f6c51d60215">TreeUnadvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-treeunadvise">TreeUnadvise</a>
 </td>
 <td align="left" width="63%">
 Enables a client to unregister with the control.

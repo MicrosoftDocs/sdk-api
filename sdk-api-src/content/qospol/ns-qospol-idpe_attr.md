@@ -148,7 +148,7 @@ Policy element value.
 
 
 
-<a href="https://msdn.microsoft.com/72eeb985-85e2-48c6-b79f-73f48295740a">Policy Elements</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>
  
 
  

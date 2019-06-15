@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_503_RESPONSE_VERBOSITY</b> enumeration defines the verbosity levels for a 503, service unavailable, error responses.
 
-This structure must be used when setting or querying the <a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HttpServer503ResponseProperty</a> on a request queue.
+This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServer503ResponseProperty</a> on a request queue.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The HTTP Server API sends a 503 response with a detailed reason phrase.
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a>, and <a href="https://msdn.microsoft.com/a3b1e85e-f152-4038-a56a-3d5985757c45">HttpQueryrequestQueueProperty</a> to set and query the 503  response verbosity. The <i>pPropertyInformation</i> parameter points to a member of the <b>HTTP_503_RESPONSE_VERBOSITY</b> enumeration when the <i>Property</i> parameter is <b>HttpServer503VerbosityProperty</b>.
+This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryrequestQueueProperty</a> to set and query the 503  response verbosity. The <i>pPropertyInformation</i> parameter points to a member of the <b>HTTP_503_RESPONSE_VERBOSITY</b> enumeration when the <i>Property</i> parameter is <b>HttpServer503VerbosityProperty</b>.
 
 This enumeration defines the verbosity level for a request queue when sending 503 (Service Unavailable) error responses. Note that the 503 response level set using the <b>HTTP_503_RESPONSE_VERBOSITY</b>  enumeration only affects the error responses generated internally
  by the HTTP Server API.
@@ -97,19 +97,19 @@ This enumeration defines the verbosity level for a request queue when sending 50
 
 
 
-<a href="https://msdn.microsoft.com/849b88a1-e60b-4a1d-a660-cc3fe429d39f">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3b1e85e-f152-4038-a56a-3d5985757c45">HttpQueryRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/56111cc0-94c8-47dc-a3bb-ffc5dae772fe">HttpSetRequestQueueProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
  
 
  

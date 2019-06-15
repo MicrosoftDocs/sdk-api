@@ -54,7 +54,7 @@ Paints an area with a solid color.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SolidColorBrush</b> interface inherits from <a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>. <b>ID2D1SolidColorBrush</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SolidColorBrush</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>. <b>ID2D1SolidColorBrush</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SolidColorBrush</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25eac791-9402-4202-8e00-936d355d8d2b">GetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1solidcolorbrush-getcolor">GetColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color of the solid color brush.
@@ -78,7 +78,7 @@ Retrieves the color of the solid color brush.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2900bf72-9641-419c-b0d7-334f14f8a474">SetColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1solidcolorbrush-setcolor">SetColor</a>
 </td>
 <td align="left" width="63%">Overloaded. Specifies the color of this solid color brush. 
 
@@ -92,14 +92,14 @@ Retrieves the color of the solid color brush.
 
 
 <h3><a id="Creating_ID2D1SolidColorBrush_Objects"></a><a id="creating_id2d1solidcolorbrush_objects"></a><a id="CREATING_ID2D1SOLIDCOLORBRUSH_OBJECTS"></a>Creating ID2D1SolidColorBrush Objects</h3>
-To create a solid color brush, use the <a href="https://msdn.microsoft.com/en-us/library/Dd742843(v=VS.85).aspx">ID2D1RenderTarget::CreateSolidColorBrush</a> method of the render target  on which the brush will be used. The brush can only be used with the render target that created it or with  the compatible targets for that render target.
+To create a solid color brush, use the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush">ID2D1RenderTarget::CreateSolidColorBrush</a> method of the render target  on which the brush will be used. The brush can only be used with the render target that created it or with  the compatible targets for that render target.
 
-A solid color brush is a device-dependent resource. (For more information about resources, see <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.)
+A solid color brush is a device-dependent resource. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
 #### Examples
 
-The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742843(v=VS.85).aspx">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
+The following example uses the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
 
 
 ```cpp
@@ -123,7 +123,7 @@ if (SUCCEEDED(hr))
 ```
 
 
-The next code example calls the <a href="https://msdn.microsoft.com/b5d7ca28-0751-4799-8480-f221fd5fe276">FillRectangle</a> method to paint the interior of a rectangle with the yellow green brush and the <a href="https://msdn.microsoft.com/bc176c12-db06-4f1e-b668-4441723a916a">DrawRectangle</a> method to paint the outline of the rectangle with the black brush:
+The next code example calls the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillrectangle(constd2d1_rect_f__id2d1brush)">FillRectangle</a> method to paint the interior of a rectangle with the yellow green brush and the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)">DrawRectangle</a> method to paint the outline of the rectangle with the black brush:
 
 
 ```cpp
@@ -146,19 +146,19 @@ These examples produce the output shown in the following illustration.
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/36f5cf3e-00a4-45d2-816c-85c18eb948f4">ColorF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-colorf">ColorF</a>
 
 
 
-<a href="https://msdn.microsoft.com/70700b82-2294-46be-b1c0-fc89def441e2">How to Create a Solid Color Brush</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-create-a-solid-color-brush">How to Create a Solid Color Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
  
 
  

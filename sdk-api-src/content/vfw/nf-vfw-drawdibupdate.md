@@ -106,7 +106,7 @@ This macro can be used to refresh an image or a portion of an image displayed by
 
 
 
-<a href="https://msdn.microsoft.com/22c3e86f-8b7b-42f9-afec-8df95f0a8a9e">DrawDib Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-macros">DrawDib Macros</a>
  
 
  

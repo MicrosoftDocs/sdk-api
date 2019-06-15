@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>.
+Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ The East Asian flags.
 </tr>
 <tr>
 <td width="40%"><a id="ES_NOIME"></a><a id="es_noime"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_NOIME</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -80,7 +80,7 @@ IME input is suppressed.
 </tr>
 <tr>
 <td width="40%"><a id="ES_SELFIME"></a><a id="es_selfime"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -96,7 +96,7 @@ The rich edit client handles IME imput.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -108,7 +108,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/A715E70C-E8BB-4796-BDA6-90B745EC7761">ITextHost2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
  
 
  

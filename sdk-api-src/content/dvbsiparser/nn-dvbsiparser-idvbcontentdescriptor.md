@@ -54,7 +54,7 @@ Implements methods that get information from a Digital Video Broadcast (DVB) con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbContentDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbContentDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbContentDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbContentDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbContentDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d4d81b3-d6d8-416b-af6b-2b6ef12cf1d9">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of content elements within the descriptor.
@@ -78,7 +78,7 @@ Gets the number of content elements within the descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e937c51-e143-4b13-a16a-279bd3690feb">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length of the descriptor.
@@ -87,7 +87,7 @@ Gets the length of the descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b05403a-cf9e-4f23-907f-ffb90b6fc5e3">GetRecordContentNibbles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentdescriptor-getrecordcontentnibbles">GetRecordContentNibbles</a>
 </td>
 <td align="left" width="63%">
 Gets the two 4-bit fields that make up a DVB-defined identifier for a content descriptor.
@@ -96,7 +96,7 @@ Gets the two 4-bit fields that make up a DVB-defined identifier for a content de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a071e725-c98d-4061-bda5-d7eca8b4b0e0">GetRecordUserNibbles</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentdescriptor-getrecordusernibbles">GetRecordUserNibbles</a>
 </td>
 <td align="left" width="63%">
 Gets the two 4-bit fields that make up a broadcaster-defined identifier for a content descriptor.
@@ -105,7 +105,7 @@ Gets the two 4-bit fields that make up a broadcaster-defined identifier for a co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cfbda01-ef69-4b69-90f4-04dd3044ae1f">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies the descriptor.

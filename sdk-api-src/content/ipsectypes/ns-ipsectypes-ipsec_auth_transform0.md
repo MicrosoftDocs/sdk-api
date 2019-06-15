@@ -59,7 +59,7 @@ The <b>IPSEC_AUTH_TRANSFORM0</b> structure specifies hash specific information f
 
 ### -field authTransformId
 
-The identifier of the hash algorithm as specified by <a href="https://msdn.microsoft.com/b8474e98-451d-4347-9369-367f16f83cf6">IPSEC_AUTH_TRANSFORM_ID0</a>.
+The identifier of the hash algorithm as specified by <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0_">IPSEC_AUTH_TRANSFORM_ID0</a>.
 
 Possible values:
 
@@ -159,7 +159,7 @@ Unused parameter, always set this to <b>NULL</b>.
 
 
 
-<b>IPSEC_AUTH_TRANSFORM0</b> is a specific implementation of IPSEC_AUTH_TRANSFORM. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_AUTH_TRANSFORM0</b> is a specific implementation of IPSEC_AUTH_TRANSFORM. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -169,11 +169,11 @@ Unused parameter, always set this to <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/b8474e98-451d-4347-9369-367f16f83cf6">IPSEC_AUTH_TRANSFORM_ID0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0_">IPSEC_AUTH_TRANSFORM_ID0</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

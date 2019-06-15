@@ -66,7 +66,7 @@ Server binding into which the <i>ObjectUuid</i> is set.
 ### -param ObjectUuid
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> of the object serviced by the server specified in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> of the object serviced by the server specified in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
 
 
 ## -returns
@@ -115,7 +115,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -126,10 +126,10 @@ This was the wrong kind of binding for the operation.
 
 An application calls the 
 <b>RpcBindingSetObject</b> function to associate an object 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> with a server binding handle. The set-object operation replaces the previously associated object UUID with the UUID in the <i>ObjectUuid</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> with a server binding handle. The set-object operation replaces the previously associated object UUID with the UUID in the <i>ObjectUuid</i> parameter.
 
 To set the object 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> to the nil UUID, specify a null value or the nil UUID for the <i>ObjectUuid</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to the nil UUID, specify a null value or the nil UUID for the <i>ObjectUuid</i> parameter.
 
 
 
@@ -139,11 +139,11 @@ To set the object
 
 
 
-<a href="https://msdn.microsoft.com/fd82fb9f-da0e-46fb-9c11-a75a9b6ee858">RpcBindingFromStringBinding</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2d489f9-d976-4dc3-8a91-dfc04f547165">RpcBindingInqObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqobject">RpcBindingInqObject</a>
  
 
  

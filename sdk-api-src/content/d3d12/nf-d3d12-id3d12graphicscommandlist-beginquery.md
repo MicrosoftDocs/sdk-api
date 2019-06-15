@@ -59,17 +59,17 @@ Starts a query running.
 
 ### -param pQueryHeap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/330DE59A-8098-4255-85DD-0C439DD48250">ID3D12QueryHeap</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
 
-Specifies the <a href="https://msdn.microsoft.com/330DE59A-8098-4255-85DD-0C439DD48250">ID3D12QueryHeap</a> containing the query.
+Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the query.
           
 
 
 ### -param Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
 
-Specifies one member of <a href="https://msdn.microsoft.com/F6FA9ACE-0089-4C7B-99D7-FD286CF4B18D">D3D12_QUERY_TYPE</a>.
+Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
           
 
 
@@ -99,9 +99,9 @@ In Direct3D 12, the usage of queries is more restricted than Direct3D 11.  The f
         
 
 <ul>
-<li>A call to <b>BeginQuery</b> followed by another call to  <b>BeginQuery</b>  without an intervening call to <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a>.
+<li>A call to <b>BeginQuery</b> followed by another call to  <b>BeginQuery</b>  without an intervening call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a>.
           </li>
-<li>A call to <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a> followed by <b>EndQuery</b>  without an intervening call to <b>BeginQuery</b>.
+<li>A call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a> followed by <b>EndQuery</b>  without an intervening call to <b>BeginQuery</b>.
           </li>
 </ul>
 Given these restrictions, there are 3 states that a query can be in:
@@ -113,7 +113,7 @@ Given these restrictions, there are 3 states that a query can be in:
 <li>Predicating</li>
 </ul>
 <b>BeginQuery</b> transitions a query from the inactive state to the querying state.
-          <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a> transitions a query from the querying state to the inactive state. <a href="https://msdn.microsoft.com/21526012-A675-40E8-A11C-4CBA5C12B9CF">SetPredication</a> transitions the previous set query from the predicating state to the inactive state and transitions the newly set query from the inactive state to the predicating state.
+          <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a> transitions a query from the querying state to the inactive state. <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication">SetPredication</a> transitions the previous set query from the predicating state to the inactive state and transitions the newly set query from the inactive state to the predicating state.
         
 
 <h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
@@ -123,24 +123,24 @@ The runtime will issue errors for the following calls:
 <ul>
 <li>Calling <b>BeginQuery</b> on a query which is in the querying or predicating state.
             </li>
-<li>Calling <a href="https://msdn.microsoft.com/591B277C-44C7-4C21-86B1-239F6A71308D">EndQuery</a> on a query which is in the inactive or predicating state.
+<li>Calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a> on a query which is in the inactive or predicating state.
             </li>
-<li>Calling <a href="https://msdn.microsoft.com/21526012-A675-40E8-A11C-4CBA5C12B9CF">SetPredication</a> on a query which is in the querying state.
+<li>Calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication">SetPredication</a> on a query which is in the querying state.
             </li>
 </ul>
-Illegal API calls will result in <a href="https://msdn.microsoft.com/EA9F00AD-8506-4F3C-871E-A51ED69005BB">Close</a> returning an error or <a href="https://msdn.microsoft.com/653C15CD-0996-4B3B-A5F6-3E85CD0516AD">ExecuteCommandList</a> dropping the command list, and the device becoming removed.
+Illegal API calls will result in <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning an error or <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ExecuteCommandList</a> dropping the command list, and the device becoming removed.
             Note that predication state is not inherited by direct command lists.  All direct command lists begin with predication disabled.
           
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
 The debug layer will issue errors whenever the runtime validation fails.
-            Refer also to <a href="https://msdn.microsoft.com/D7403B5D-7E1B-4DD2-AE45-52E1153233C6">Queries</a>.
+            Refer also to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a>.
           
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses 
+The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses 
 			 <b>ID3D12GraphicsCommandList::BeginQuery</b> as follows:
         
 
@@ -222,7 +222,7 @@ void D3D12PredicationQueries::PopulateCommandList()
 ```
 
 
-See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -234,7 +234,7 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
  
 
  

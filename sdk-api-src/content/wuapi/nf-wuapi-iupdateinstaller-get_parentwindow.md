@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-This property can be changed only by a user on the computer. This property can be accessed by using the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface.
+This property can be changed only by a user on the computer. This property can be accessed by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface.
 
 
 
@@ -73,7 +73,7 @@ This property can be changed only by a user on the computer. This property can b
 
 
 
-<a href="https://msdn.microsoft.com/7f1c272f-73ef-43ee-b1ac-ef97a4791313">IUpdateInstaller</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
  
 
  

@@ -61,14 +61,14 @@ Gets a collection of running tasks.<div class="alert"><b>Note</b>  <b>ITaskSer
 
 ### -param flags [in]
 
-A value from the <a href="https://msdn.microsoft.com/c77e597b-c8d9-426c-aa9d-7bb8536b349a">TASK_ENUM_FLAGS</a> enumeration. Pass in 0 to return a collection of running tasks that are not hidden tasks.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_enum_flags">TASK_ENUM_FLAGS</a> enumeration. Pass in 0 to return a collection of running tasks that are not hidden tasks.
 
 
 ### -param ppRunningTasks [out]
 
-An <a href="https://msdn.microsoft.com/f95efba5-563d-49c0-81d3-143aa158ad8f">IRunningTaskCollection</a> interface that contains the currently running tasks.
+An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a> interface that contains the currently running tasks.
 
-Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/f95efba5-563d-49c0-81d3-143aa158ad8f">IRunningTaskCollection</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
+Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 
 ## -returns
@@ -137,19 +137,19 @@ The user has not connected to the service.
 
 
 
-<a href="https://msdn.microsoft.com/f95efba5-563d-49c0-81d3-143aa158ad8f">IRunningTaskCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtaskcollection">IRunningTaskCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/2459aaae-4c3a-458a-ad2c-bfff3a0322d3">ITaskService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
 
 
 
-<a href="https://msdn.microsoft.com/c77e597b-c8d9-426c-aa9d-7bb8536b349a">TASK_ENUM_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_enum_flags">TASK_ENUM_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

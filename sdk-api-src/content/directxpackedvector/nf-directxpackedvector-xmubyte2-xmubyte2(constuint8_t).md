@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">**XMUBYTE2**</a> from a two-element <code>int8_t</code> array argument.
+Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">**XMUBYTE2**</a> from a two-element <code>int8_t</code> array argument.
 
 This constructor initializes a new instance of **XMUBYTE2** from a two-element <code>int8_t</code> array argument.
 
@@ -71,6 +71,6 @@ instance.y = pArray[1];
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404719(v=VS.85).aspx">XMUBYTE2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte2">XMUBYTE2</a>
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449522(v=VS.85).aspx">XMUBYTE2 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyte2-ctor">XMUBYTE2 Constructors</a>

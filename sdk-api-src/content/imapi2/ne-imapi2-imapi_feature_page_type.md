@@ -370,15 +370,15 @@ Other values not defined here may exist. Consumers of this enumeration should no
 
 
 
-<a href="https://msdn.microsoft.com/e2764de1-85cc-4f04-951d-5cb70575ee9f">IDiscRecorder2::get_SupportedFeaturePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">IDiscRecorder2::get_SupportedFeaturePages</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3cf0d33-25ea-4764-8fdb-5ef47c7b1e50">IDiscRecorder2Ex::GetFeaturePage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
 
 
 
-<a href="https://msdn.microsoft.com/64fa8ef5-1298-4fd1-b89d-371f13e50d8c">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
  
 
  

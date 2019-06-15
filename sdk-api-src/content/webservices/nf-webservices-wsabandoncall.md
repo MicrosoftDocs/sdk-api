@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Abandons a specified call  on the specified <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-43e3-981b-7db4caa08bdc">service proxy</a>. 
+Abandons a specified call  on the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a>. 
             
 
 
@@ -63,7 +63,7 @@ Abandons a specified call  on the specified <a href="https://msdn.microsoft.com/
 
 ### -param serviceProxy [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/623766ae-fe82-40f9-93c8-e78fe48bc6d1">WS_SERVICE_PROXY</a> structure representing the service proxy on which to abandon the call.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the service proxy on which to abandon the call.
                 
 
 
@@ -75,7 +75,7 @@ ID of the call to abandon.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure that receives additional error information if the function fails.
                 
 
 
@@ -122,7 +122,7 @@ A <b>NULL</b> service proxy was passed to the function.
 
 
 
-Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://msdn.microsoft.com/d61b6763-9770-4f1d-b16f-c63fc09e8af5">WS_CALL_PROPERTY_ID</a> enumeration. 
+Calls are identified by a call ID. This call ID is associated with the call by the WS_CALL_PROPERTY_CALL_ID  value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_call_property_id">WS_CALL_PROPERTY_ID</a> enumeration. 
               
 
 If the call ID is 0,  all pending calls on the service proxy are abandoned.
@@ -130,10 +130,10 @@ If the call ID is 0,  all pending calls on the service proxy are abandoned.
                     see the following topics:
                     <ul>
 <li>
-<a href="https://msdn.microsoft.com/9d6e2441-91de-4108-b1c4-282fbca5fe7c">Client Side Service Operations</a>
+<a href="https://docs.microsoft.com/windows/desktop/wsw/client-side-service-operations">Client Side Service Operations</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/71253dd6-4f59-4acd-b244-c721834ca381">CallAbandonExample</a>
+<a href="https://docs.microsoft.com/windows/desktop/wsw/callabandonexample">CallAbandonExample</a>
 </li>
 </ul>
 

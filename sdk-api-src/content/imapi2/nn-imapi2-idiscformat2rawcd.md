@@ -56,7 +56,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2RawCD</b> interface inherits from <a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>. <b>IDiscFormat2RawCD</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2RawCD</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>. <b>IDiscFormat2RawCD</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDiscFormat2RawCD</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12cd6797-dcb8-496d-a141-9d3a805266e9">CancelWrite</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">CancelWrite</a>
 </td>
 <td align="left" width="63%">
 Cancels the current write operation. 
@@ -80,7 +80,7 @@ Cancels the current write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85b20760-334e-47a1-9683-be3d76c8958f">get_BufferUnderrunFreeDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_bufferunderrunfreedisabled">get_BufferUnderrunFreeDisabled</a>
 </td>
 <td align="left" width="63%">
 Determines if Buffer Underrun Free Recording is enabled.
@@ -89,7 +89,7 @@ Determines if Buffer Underrun Free Recording is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd706b68-0dde-4a44-b5f5-764fad56844f">get_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_clientname">get_ClientName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the friendly name of the client.
@@ -98,7 +98,7 @@ Retrieves the friendly name of the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76fae45e-c58a-4a25-a2d2-ec99c12374b9">get_CurrentPhysicalMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_currentphysicalmediatype">get_CurrentPhysicalMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of media in the disc device.
@@ -107,7 +107,7 @@ Retrieves the type of media in the disc device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca3ab4e3-e87c-4081-bb65-c1d8c3f1ff37">get_CurrentRotationTypeIsPureCAV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_currentrotationtypeispurecav">get_CurrentRotationTypeIsPureCAV</a>
 </td>
 <td align="left" width="63%">
 Retrieves the rotational-speed control used by the recorder.
@@ -116,7 +116,7 @@ Retrieves the rotational-speed control used by the recorder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f369f719-7db6-4a79-a5fa-d174bf12acbc">get_CurrentWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_currentwritespeed">get_CurrentWriteSpeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the drive's current write speed.
@@ -125,7 +125,7 @@ Retrieves the drive's current write speed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2588f35e-388b-4491-a209-99d34b1d82df">get_LastPossibleStartOfLeadout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_lastpossiblestartofleadout">get_LastPossibleStartOfLeadout</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last possible starting position for the leadout area.  
@@ -134,7 +134,7 @@ Retrieves the last possible starting position for the leadout area.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f36e5b5-4875-4ba1-8084-c0aaf6b170b9">get_Recorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_recorder">get_Recorder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the recording device to use for the write operation.
@@ -143,7 +143,7 @@ Retrieves the recording device to use for the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/884624e2-96d7-491a-add3-a5bd3edc473e">get_RequestedRotationTypeIsPureCAV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedrotationtypeispurecav">get_RequestedRotationTypeIsPureCAV</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested rotational-speed control type.
@@ -152,7 +152,7 @@ Retrieves the requested rotational-speed control type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7964e25e-43ed-4ed0-aeee-dac656700fea">get_RequestedSectorType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype">get_RequestedSectorType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested data sector to use during write of the stream.
@@ -161,7 +161,7 @@ Retrieves the requested data sector to use during write of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b718fe5-197e-4dc7-a8df-f2febf76aaab">get_RequestedWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed">get_RequestedWriteSpeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the requested write speed.
@@ -170,7 +170,7 @@ Retrieves the requested write speed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9ffe037-c7a6-40c2-a809-58dbfd9e7415">get_StartOfNextSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_startofnextsession">get_StartOfNextSession</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first sector of the next session.  
@@ -179,7 +179,7 @@ Retrieves the first sector of the next session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d217e585-3ff4-4f02-8a13-7cfca767f201">get_SupportedSectorTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedsectortypes">get_SupportedSectorTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported data sector types for the current recorder.
@@ -188,7 +188,7 @@ Retrieves the supported data sector types for the current recorder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00a7c10a-7790-4193-928c-d3211047dbbe">get_SupportedWriteSpeedDescriptors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeddescriptors">get_SupportedWriteSpeedDescriptors</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
@@ -197,7 +197,7 @@ Retrieves a list of the detailed write configurations supported by the disc reco
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ebcc42f-d864-407f-a1a6-d4811ca8221c">get_SupportedWriteSpeeds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">get_SupportedWriteSpeeds</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the write speeds supported by the disc recorder and current media.
@@ -206,7 +206,7 @@ Retrieves a list of the write speeds supported by the disc recorder and current 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c393786-0c2d-4244-8ec3-0ac9e47e76c6">PrepareMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-preparemedia">PrepareMedia</a>
 </td>
 <td align="left" width="63%">
 Locks the current media for exclusive access. 
@@ -215,7 +215,7 @@ Locks the current media for exclusive access.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66b35ca9-2bc7-419e-8fff-4449a64f9f5f">put_BufferUnderrunFreeDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_bufferunderrunfreedisabled">put_BufferUnderrunFreeDisabled</a>
 </td>
 <td align="left" width="63%">
 Determines if Buffer Underrun Free Recording is enabled.
@@ -224,7 +224,7 @@ Determines if Buffer Underrun Free Recording is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49fce259-2b39-4905-a48f-a252537d8360">put_ClientName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_clientname">put_ClientName</a>
 </td>
 <td align="left" width="63%">
 Sets the friendly name of the client. 
@@ -233,7 +233,7 @@ Sets the friendly name of the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3deefa8-40be-4cdc-aae1-e5fbe508f16f">put_Recorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">put_Recorder</a>
 </td>
 <td align="left" width="63%">
 Sets the recording device to use for the write operation.
@@ -242,7 +242,7 @@ Sets the recording device to use for the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd9d7e1d-5672-482f-ac83-efcab3adbac4">put_RequestedSectorType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_requestedsectortype">put_RequestedSectorType</a>
 </td>
 <td align="left" width="63%">
 Sets the requested data sector to use for writing of the stream.
@@ -251,7 +251,7 @@ Sets the requested data sector to use for writing of the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f60c16f-ef40-4bb5-8df2-fa4ae91541b6">ReleaseMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">ReleaseMedia</a>
 </td>
 <td align="left" width="63%">
 Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock. 
@@ -260,7 +260,7 @@ Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93021007-6ed8-4322-93bb-c52796a4ab66">SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-setwritespeed">SetWriteSpeed</a>
 </td>
 <td align="left" width="63%">
 Sets the write speed of the attached disc recorder.
@@ -269,7 +269,7 @@ Sets the write speed of the attached disc recorder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/137395f1-b0cf-4bd0-9d3b-a21122eb8b57">WriteMedia</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">WriteMedia</a>
 </td>
 <td align="left" width="63%">
 Writes a DAO-96 raw image to the blank media using MSF 95:00:00 as the starting address.
@@ -278,7 +278,7 @@ Writes a DAO-96 raw image to the blank media using MSF 95:00:00 as the starting 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/636d04dd-081d-407c-827e-55e443516d9b">WriteMedia2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">WriteMedia2</a>
 </td>
 <td align="left" width="63%">
 Writes a DAO-96 raw image to the blank media using a specified starting address.
@@ -294,7 +294,7 @@ Writes a DAO-96 raw image to the blank media using a specified starting address.
 
 To create the <b>MsftDiscFormat2RawCD</b> object in a script, use IMAPI2.MsftDiscFormat2RawCD as the program identifier when calling <b>CreateObject</b>.
 
-It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the  interruption of the burn process and  possible data loss. For programming considerations, see <a href="https://msdn.microsoft.com/5223c9f6-30f6-43ce-b46c-267da0a53d4b">Preventing Logoff or Suspend During a Burn</a>.
+It is possible for a power state transition to take place during a burn operation (i.e. user log-off or system suspend) which leads to the  interruption of the burn process and  possible data loss. For programming considerations, see <a href="https://docs.microsoft.com/windows/desktop/imapi/preventing-logoff-or-suspend-during-a-burn">Preventing Logoff or Suspend During a Burn</a>.
 
 
 
@@ -304,7 +304,7 @@ It is possible for a power state transition to take place during a burn operatio
 
 
 
-<a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
  
 
  

@@ -65,7 +65,7 @@ This value indicates the position of the named stream within the  collection.
 
 ### -param item [out, optional]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/f35d1cd9-8a04-4c12-9af3-38f2c44b8c06">IFsiFileItem2</a> object representing the named stream at the  position specified by <i>index</i>. This parameter is set to <b>NULL</b> if the specified index is not within the collection boundary.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a> object representing the named stream at the  position specified by <i>index</i>. This parameter is set to <b>NULL</b> if the specified index is not within the collection boundary.
 
 
 ## -returns
@@ -115,7 +115,7 @@ The value specified for parameter '<i>%1!ls!</i>' is invalid.
 
 If the index number is negative or out of range, this method returns the <b>IMAPI_E_INVALID_PARAM</b>.
 
-To fetch an <b>IEnumVARIANT</b> enumerator for all named streams associated with a file, use the <a href="https://msdn.microsoft.com/ea1a14fe-91f0-4710-9d15-66a4c415f541">IFsiNamedStreams::get__NewEnum</a> method.
+To fetch an <b>IEnumVARIANT</b> enumerator for all named streams associated with a file, use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum">IFsiNamedStreams::get__NewEnum</a> method.
 
 This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
@@ -127,7 +127,7 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/383a83e4-5dc2-459a-a58f-b6ce7a656348">IFsiNamedStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a>
  
 
  

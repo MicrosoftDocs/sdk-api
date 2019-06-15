@@ -72,7 +72,7 @@ Indicates that the update is a driver update.
 
 
 
-<a href="https://msdn.microsoft.com/2556ee19-b6ff-4e66-9e40-2c0a1d6a0176">IUpdate.Type</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_type">IUpdate.Type</a>
  
 
  

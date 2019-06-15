@@ -77,11 +77,11 @@ Specifies whether or not the node's database is synchronized.
 
 
 
-<a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7d23640-4f69-4ce0-996f-562807db7768">PeerGraphGetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetstatus">PeerGraphGetStatus</a>
  
 
  

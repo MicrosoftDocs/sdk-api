@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Event</b> method gets information concerning an asynchronous event notification. The application uses 
-<a href="https://msdn.microsoft.com/606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e">TAPIOBJECT_EVENT</a> to determine what type of event is being signaled.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapiobject_event">TAPIOBJECT_EVENT</a> to determine what type of event is being signaled.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pEvent [out]
 
 
-<a href="https://msdn.microsoft.com/606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e">TAPIOBJECT_EVENT</a> indicator of the event.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapiobject_event">TAPIOBJECT_EVENT</a> indicator of the event.
 
 
 ## -returns
@@ -120,15 +120,15 @@ Insufficient memory exists to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/73be7109-0d3a-4ac5-adb7-e1577d8640b5">ITTAPIObjectEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent">ITTAPIObjectEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cf358f-2dc8-432a-92ed-68282ddc8a97">TAPI Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e">TAPIOBJECT_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapiobject_event">TAPIOBJECT_EVENT</a>
  
 
  

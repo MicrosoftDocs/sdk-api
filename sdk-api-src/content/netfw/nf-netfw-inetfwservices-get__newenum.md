@@ -51,11 +51,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://msdn.microsoft.com/8F33B96B-AA9A-46d5-8808-0F2D0723935B">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Returns an object supporting <b>IEnumVARIANT</b> that can be used to iterate through all the services in the collection.
 
-Iteration through a collection is done using the <b>for each</b> construct in VBScript. See <a href="https://msdn.microsoft.com/2a502415-c12a-4d07-9f72-a3967e87d37d">Iterating a Collection</a> for an example.
+Iteration through a collection is done using the <b>for each</b> construct in VBScript. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/iterating-a-collection">Iterating a Collection</a> for an example.
 
 This property is read-only.
 
@@ -68,11 +68,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/b99464c5-dabc-405a-ad3e-da06a6faef47">INetFwServices</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a502415-c12a-4d07-9f72-a3967e87d37d">Iterating a Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/iterating-a-collection">Iterating a Collection</a>
  
 
  

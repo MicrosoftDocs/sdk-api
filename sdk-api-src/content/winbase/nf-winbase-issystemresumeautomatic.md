@@ -73,9 +73,9 @@ If the system was restored to the working state automatically and the user is no
 
 
 The 
-<a href="https://msdn.microsoft.com/cd331f79-b64d-479e-aea8-5118ccc87224">PBT_APMRESUMEAUTOMATIC</a> event is broadcast when the system wakes automatically to handle an event. The user is generally not present. If the system detects any user activity after broadcasting the 
+<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumeautomatic">PBT_APMRESUMEAUTOMATIC</a> event is broadcast when the system wakes automatically to handle an event. The user is generally not present. If the system detects any user activity after broadcasting the 
 PBT_APMRESUMEAUTOMATIC event, it will broadcast the 
-<a href="https://msdn.microsoft.com/9058a2ff-9b8e-48e5-accb-4810c8598294">PBT_APMRESUMESUSPEND</a> event to let applications know they can resume full interaction with the user.
+<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumesuspend">PBT_APMRESUMESUSPEND</a> event to let applications know they can resume full interaction with the user.
 
 
 
@@ -85,15 +85,15 @@ PBT_APMRESUMEAUTOMATIC event, it will broadcast the
 
 
 
-<a href="https://msdn.microsoft.com/cd331f79-b64d-479e-aea8-5118ccc87224">PBT_APMRESUMEAUTOMATIC</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumeautomatic">PBT_APMRESUMEAUTOMATIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/9058a2ff-9b8e-48e5-accb-4810c8598294">PBT_APMRESUMESUSPEND</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumesuspend">PBT_APMRESUMESUSPEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
  
 
  

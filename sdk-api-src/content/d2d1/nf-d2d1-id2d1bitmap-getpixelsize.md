@@ -63,7 +63,7 @@ Returns the size, in device-dependent units (pixels), of the bitmap.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/e28da5ee-7d68-4ec5-b477-c6ead0c725e6">D2D1_SIZE_U</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
 
 The size, in pixels, of the bitmap.
 
@@ -75,11 +75,11 @@ The size, in pixels, of the bitmap.
 
 
 
-<a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ab1d67d-d7ee-41a0-a298-738b1520ff3b">ID2D1Bitmap::GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getsize">ID2D1Bitmap::GetSize</a>
  
 
  

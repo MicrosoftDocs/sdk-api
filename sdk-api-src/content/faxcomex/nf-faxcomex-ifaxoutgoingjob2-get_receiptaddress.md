@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-The type of address will vary according to the value of the <a href="https://msdn.microsoft.com/en-us/library/ms689599(v=VS.85).aspx">ReceiptType</a> property as indicated in this table.
+The type of address will vary according to the value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-receipttype-vb">ReceiptType</a> property as indicated in this table.
 
 <table class="clsStd">
 <tr>
-<th>Value of <a href="https://msdn.microsoft.com/en-us/library/ms689599(v=VS.85).aspx">ReceiptType</a> property</th>
+<th>Value of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-receipttype-vb">ReceiptType</a> property</th>
 <th>Type of address</th>
 </tr>
 <tr>
@@ -89,11 +89,11 @@ The type of address will vary according to the value of the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob">FaxOutgoingJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358991(v=VS.85).aspx">IFaxOutgoingJob2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob2">IFaxOutgoingJob2</a>
  
 
  

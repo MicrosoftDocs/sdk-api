@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <code>IVideoProcAmp</code> interface controls the image adjustment (ProcAmp) settings on a capture device.
 
-This interface may be exposed by one or more nodes in a capture filter. It is not exposed at the level of the filter itself. To enumerate the nodes, query the filter for the <a href="https://msdn.microsoft.com/en-us/library/Dd390148(v=VS.85).aspx">IKsTopologyInfo</a> interface. For each node, call <a href="https://msdn.microsoft.com/en-us/library/Dd390153(v=VS.85).aspx">IKsTopologyInfo::get_NodeType</a> to get the node type. The <code>IVideoProcAmp</code> interface is exposed by nodes of type KSNODETYPE_VIDEO_PROCESSING. Get the interface pointer by calling <a href="https://msdn.microsoft.com/en-us/library/Dd390149(v=VS.85).aspx">IKsTopologyInfo::CreateNodeInstance</a> with the value IID_IVideoProcAmp.
+This interface may be exposed by one or more nodes in a capture filter. It is not exposed at the level of the filter itself. To enumerate the nodes, query the filter for the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo</a> interface. For each node, call <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_nodetype">IKsTopologyInfo::get_NodeType</a> to get the node type. The <code>IVideoProcAmp</code> interface is exposed by nodes of type KSNODETYPE_VIDEO_PROCESSING. Get the interface pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-createnodeinstance">IKsTopologyInfo::CreateNodeInstance</a> with the value IID_IVideoProcAmp.
 
 This interface corresponds to the PROPSETID_VIDCAP_VIDEOPROCAMP property set, which is documented in the Windows DDK.
 
@@ -61,7 +61,7 @@ This interface corresponds to the PROPSETID_VIDCAP_VIDEOPROCAMP property set, wh
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoProcAmp</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVideoProcAmp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVideoProcAmp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVideoProcAmp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IVideoProcAmp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377250(v=VS.85).aspx">get_BacklightCompensation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_backlightcompensation">get_BacklightCompensation</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's backlight compensation setting.
@@ -85,7 +85,7 @@ Returns the camera's backlight compensation setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377251(v=VS.85).aspx">get_Brightness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_brightness">get_Brightness</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's brightness setting.
@@ -94,7 +94,7 @@ Returns the camera's brightness setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377252(v=VS.85).aspx">get_ColorEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_colorenable">get_ColorEnable</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's color-enable setting.
@@ -103,7 +103,7 @@ Returns the camera's color-enable setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377253(v=VS.85).aspx">get_Contrast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_contrast">get_Contrast</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's contrast setting.
@@ -112,7 +112,7 @@ Returns the camera's contrast setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377254(v=VS.85).aspx">get_DigitalMultiplier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_digitalmultiplier">get_DigitalMultiplier</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's digital zoom level.
@@ -121,7 +121,7 @@ Returns the camera's digital zoom level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377255(v=VS.85).aspx">get_Gain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_gain">get_Gain</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's gain setting.
@@ -130,7 +130,7 @@ Returns the camera's gain setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377256(v=VS.85).aspx">get_Gamma</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_gamma">get_Gamma</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's gamma setting.
@@ -139,7 +139,7 @@ Returns the camera's gamma setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377257(v=VS.85).aspx">get_Hue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_hue">get_Hue</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's hue setting.
@@ -148,7 +148,7 @@ Returns the camera's hue setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377258(v=VS.85).aspx">get_PowerlineFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_powerlinefrequency">get_PowerlineFrequency</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's power line frequency setting.
@@ -157,7 +157,7 @@ Returns the camera's power line frequency setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377259(v=VS.85).aspx">get_Saturation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_saturation">get_Saturation</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's saturation setting.
@@ -166,7 +166,7 @@ Returns the camera's saturation setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377260(v=VS.85).aspx">get_Sharpness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_sharpness">get_Sharpness</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's sharpness setting.
@@ -175,7 +175,7 @@ Returns the camera's sharpness setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377261(v=VS.85).aspx">get_WhiteBalance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_whitebalance">get_WhiteBalance</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's white balance, specified as a color temperature.
@@ -184,7 +184,7 @@ Returns the camera's white balance, specified as a color temperature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377262(v=VS.85).aspx">get_WhiteBalanceComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-get_whitebalancecomponent">get_WhiteBalanceComponent</a>
 </td>
 <td align="left" width="63%">
 Returns the camera's white balance, specified as red and blue component values.
@@ -193,7 +193,7 @@ Returns the camera's white balance, specified as red and blue component values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377237(v=VS.85).aspx">getRange_BacklightCompensation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_backlightcompensation">getRange_BacklightCompensation</a>
 </td>
 <td align="left" width="63%">
 Returns the range of backlight compensation settings supported by the camera.
@@ -202,7 +202,7 @@ Returns the range of backlight compensation settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377238(v=VS.85).aspx">getRange_Brightness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_brightness">getRange_Brightness</a>
 </td>
 <td align="left" width="63%">
 Returns the range of brightness settings supported by the camera.
@@ -211,7 +211,7 @@ Returns the range of brightness settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377239(v=VS.85).aspx">getRange_ColorEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_colorenable">getRange_ColorEnable</a>
 </td>
 <td align="left" width="63%">
 Returns the range of color-enable settings supported by the camera.
@@ -220,7 +220,7 @@ Returns the range of color-enable settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377240(v=VS.85).aspx">getRange_Contrast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_contrast">getRange_Contrast</a>
 </td>
 <td align="left" width="63%">
 Returns the range of contrast settings supported by the camera.
@@ -229,7 +229,7 @@ Returns the range of contrast settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377241(v=VS.85).aspx">getRange_DigitalMultiplier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_digitalmultiplier">getRange_DigitalMultiplier</a>
 </td>
 <td align="left" width="63%">
 Returns the range of digital zoom levels supported by the camera.
@@ -238,7 +238,7 @@ Returns the range of digital zoom levels supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377242(v=VS.85).aspx">getRange_Gain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_gain">getRange_Gain</a>
 </td>
 <td align="left" width="63%">
 Returns the range of gain settings supported by the camera.
@@ -247,7 +247,7 @@ Returns the range of gain settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377243(v=VS.85).aspx">getRange_Gamma</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_gamma">getRange_Gamma</a>
 </td>
 <td align="left" width="63%">
 Returns the range of gamma settings supported by the camera.
@@ -256,7 +256,7 @@ Returns the range of gamma settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377244(v=VS.85).aspx">getRange_Hue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_hue">getRange_Hue</a>
 </td>
 <td align="left" width="63%">
 Returns the range of hue settings supported by the camera.
@@ -265,7 +265,7 @@ Returns the range of hue settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377245(v=VS.85).aspx">getRange_PowerlineFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_powerlinefrequency">getRange_PowerlineFrequency</a>
 </td>
 <td align="left" width="63%">
 Returns the range of power line frequency settings supported by the camera.
@@ -274,7 +274,7 @@ Returns the range of power line frequency settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377246(v=VS.85).aspx">getRange_Saturation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_saturation">getRange_Saturation</a>
 </td>
 <td align="left" width="63%">
 Returns the range of saturation settings supported by the camera.
@@ -283,7 +283,7 @@ Returns the range of saturation settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377247(v=VS.85).aspx">getRange_Sharpness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_sharpness">getRange_Sharpness</a>
 </td>
 <td align="left" width="63%">
 Returns the range of sharpness settings supported by the camera.
@@ -292,7 +292,7 @@ Returns the range of sharpness settings supported by the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377248(v=VS.85).aspx">getRange_WhiteBalance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_whitebalance">getRange_WhiteBalance</a>
 </td>
 <td align="left" width="63%">
 Returns the range of white balance settings supported by the camera, expressed as color temperature.
@@ -301,7 +301,7 @@ Returns the range of white balance settings supported by the camera, expressed a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377249(v=VS.85).aspx">getRange_WhiteBalanceComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-getrange_whitebalancecomponent">getRange_WhiteBalanceComponent</a>
 </td>
 <td align="left" width="63%">
 Returns the range of white balance settings supported by the camera, expressed as red and blue component values.
@@ -310,7 +310,7 @@ Returns the range of white balance settings supported by the camera, expressed a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377263(v=VS.85).aspx">put_BacklightCompensation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_backlightcompensation">put_BacklightCompensation</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's backlight compensation.
@@ -319,7 +319,7 @@ Sets the camera's backlight compensation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377264(v=VS.85).aspx">put_Brightness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_brightness">put_Brightness</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's brightness setting.
@@ -328,7 +328,7 @@ Sets the camera's brightness setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377265(v=VS.85).aspx">put_ColorEnable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_colorenable">put_ColorEnable</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's color-enable setting.
@@ -337,7 +337,7 @@ Sets the camera's color-enable setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377266(v=VS.85).aspx">put_Contrast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_contrast">put_Contrast</a>
 </td>
 <td align="left" width="63%">
 Sets camera's contrast setting.
@@ -346,7 +346,7 @@ Sets camera's contrast setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377267(v=VS.85).aspx">put_DigitalMultiplier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_digitalmultiplier">put_DigitalMultiplier</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's digital zoom level.
@@ -355,7 +355,7 @@ Sets the camera's digital zoom level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377268(v=VS.85).aspx">put_Gain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_gain">put_Gain</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's gain setting.
@@ -364,7 +364,7 @@ Sets the camera's gain setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377269(v=VS.85).aspx">put_Gamma</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_gamma">put_Gamma</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's gamma setting.
@@ -373,7 +373,7 @@ Sets the camera's gamma setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377270(v=VS.85).aspx">put_Hue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_hue">put_Hue</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's hue setting.
@@ -382,7 +382,7 @@ Sets the camera's hue setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377271(v=VS.85).aspx">put_PowerlineFrequency</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_powerlinefrequency">put_PowerlineFrequency</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's power line frequency setting.
@@ -391,7 +391,7 @@ Sets the camera's power line frequency setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377272(v=VS.85).aspx">put_Saturation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_saturation">put_Saturation</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's saturation setting.
@@ -400,7 +400,7 @@ Sets the camera's saturation setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377273(v=VS.85).aspx">put_Sharpness</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_sharpness">put_Sharpness</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's sharpness setting.
@@ -409,7 +409,7 @@ Sets the camera's sharpness setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377274(v=VS.85).aspx">put_WhiteBalance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_whitebalance">put_WhiteBalance</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's white balance, specified as a color temperature.
@@ -418,7 +418,7 @@ Sets the camera's white balance, specified as a color temperature.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd377275(v=VS.85).aspx">put_WhiteBalanceComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ivideoprocamp-put_whitebalancecomponent">put_WhiteBalanceComponent</a>
 </td>
 <td align="left" width="63%">
 Sets the camera's white balance, specified as red and blue component values.

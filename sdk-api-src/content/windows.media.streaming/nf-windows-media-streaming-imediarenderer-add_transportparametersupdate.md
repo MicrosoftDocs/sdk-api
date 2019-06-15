@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers an event handler for the <a href="https://msdn.microsoft.com/DF9256CA-6C59-462C-B32F-4653546DB384">TransportParametersUpdate</a> event.
+Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/transportparametersupdate">TransportParametersUpdate</a> event.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Registers an event handler for the <a href="https://msdn.microsoft.com/DF9256CA-
 
 ### -param handler [in]
 
-A <a href="https://msdn.microsoft.com/382ef216-8232-4b9d-a487-cd058cc80033">TransportParametersUpdateHandler</a> event handler function.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh829007(v=vs.85)">TransportParametersUpdateHandler</a> event handler function.
 
 
 ### -param token [out, retval]
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://msdn.microsoft.com/7AA7B336-5C51-4774-89A1-F710603A7B23">remove_TransportParametersUpdate</a> method.
+To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828941(v=vs.85)">remove_TransportParametersUpdate</a> method.
 
 
 
@@ -109,7 +109,7 @@ To unregister the event handler that was registered by this method, pass the <i>
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

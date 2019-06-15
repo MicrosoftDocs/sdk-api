@@ -84,9 +84,9 @@ The correction comb is shown in post-insertion expanded mode.
 
 
 
-When used with the <a href="https://msdn.microsoft.com/92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69">ITextInputPanel::CurrentCorrectionMode Property</a> property it allows an application to determine the current configuration of the Correction Comb.
+When used with the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_currentcorrectionmode">ITextInputPanel::CurrentCorrectionMode Property</a> property it allows an application to determine the current configuration of the Correction Comb.
 
-The <a href="https://msdn.microsoft.com/1e719900-db58-430d-9059-efb3f884f6f0">ITextInputPanel Interface</a> object provides detailed information about and control of the correction mode. Knowing the correction mode helps applications determine the current size of the Input Panel. Controlling how the post-insertion correction expands in an application is one way to customize the correction experience in an application.
+The <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a> object provides detailed information about and control of the correction mode. Knowing the correction mode helps applications determine the current size of the Input Panel. Controlling how the post-insertion correction expands in an application is one way to customize the correction experience in an application.
 
 There are two basic modes in which the correction comb may appear; pre-insertion and post-insertion. The pre-insertion correction comb corrects text before inserting it into an application. Activate the pre-insertion mode by tapping on the pending text that appears below the baseline in the Writing Pad as the user inks.
 

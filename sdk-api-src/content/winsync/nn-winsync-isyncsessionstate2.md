@@ -55,7 +55,7 @@ Represents additional information about the current synchronization session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncSessionState2</b> interface inherits from <a href="https://msdn.microsoft.com/9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e">ISyncSessionState</a>. <b>ISyncSessionState2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncSessionState2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState</a>. <b>ISyncSessionState2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISyncSessionState2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74b263c0-ef6a-4159-9ea2-301b7064331d">GetSessionErrorStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate2-getsessionerrorstatus">GetSessionErrorStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the error value that indicates why the synchronization session failed.
@@ -80,7 +80,7 @@ Gets the error value that indicates why the synchronization session failed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcbfcc13-5a8f-4062-baef-899f81413768">SetProviderWithError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncsessionstate2-setproviderwitherror">SetProviderWithError</a>
 </td>
 <td align="left" width="63%">
 Indicates which provider caused synchronization to fail.
@@ -105,11 +105,11 @@ An <b>ISyncSessionState2</b> object can be obtained by passing <b>IID_ISyncSessi
 
 
 
-<a href="https://msdn.microsoft.com/9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e">ISyncSessionState Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

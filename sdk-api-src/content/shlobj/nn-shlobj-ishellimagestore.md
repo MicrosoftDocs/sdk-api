@@ -54,7 +54,7 @@ Deprecated. Exposes methods that manipulate the image cache.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageStore</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellImageStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellImageStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellImageStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellImageStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6228228a-1c12-467c-849c-b360d79ee5ca">Close</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the image cache.
@@ -78,7 +78,7 @@ Closes the image cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99ae5347-b140-4698-9fc5-bd60870d9149">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Writes the contents specified by <i>pdwLoc</i> to storage.
@@ -87,7 +87,7 @@ Writes the contents specified by <i>pdwLoc</i> to storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/580e2901-ae08-4c9f-99ee-7ba2f7fe6e52">GetEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-getentry">GetEntry</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to an image in the cache.
@@ -96,7 +96,7 @@ Gets a handle to an image in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/571df609-9d17-415c-a4e0-23c4e1523993">IsEntryInStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-isentryinstore">IsEntryInStore</a>
 </td>
 <td align="left" width="63%">
 Checks to see if the image is in the store.
@@ -105,7 +105,7 @@ Checks to see if the image is in the store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2aebf791-7681-42b3-8ffe-46e103e7c036">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellimagestore-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the storage and returns a lock.

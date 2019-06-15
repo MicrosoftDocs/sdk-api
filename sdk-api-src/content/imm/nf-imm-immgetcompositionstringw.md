@@ -68,7 +68,7 @@ Handle to the input context.
 
 ### -param DWORD [in]
 
-Index of the information to retrieve, which is one of the values specified in <a href="https://msdn.microsoft.com/14087598-8041-4e02-a168-f5538a437be0">IME Composition String Values</a>. For each value except GCS_CURSORPOS and GCS_DELTASTART, the function copies the requested information to the output buffer. The function returns the cursor and delta position values in the low 16 bits of the return value.
+Index of the information to retrieve, which is one of the values specified in <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-composition-string-values">IME Composition String Values</a>. For each value except GCS_CURSORPOS and GCS_DELTASTART, the function copies the requested information to the output buffer. The function returns the cursor and delta position values in the low 16 bits of the return value.
 
 
 ### -param lpBuf [out, optional]
@@ -103,7 +103,7 @@ This function returns one of the following negative error codes if it does not s
 
 
 
-An application calls this function in response to the <a href="https://msdn.microsoft.com/6de1c4c2-d910-487c-8b82-408cb6e02c44">WM_IME_COMPOSITION</a> or <a href="https://msdn.microsoft.com/2740d009-8685-4f70-9b01-67b71f4ddcbd">WM_IME_STARTCOMPOSITION</a> message. The IMM removes the information when the application calls the <a href="https://msdn.microsoft.com/e14b087a-58ef-4360-9368-3fdd088c14f6">ImmReleaseContext</a> function.
+An application calls this function in response to the <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-composition">WM_IME_COMPOSITION</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-startcomposition">WM_IME_STARTCOMPOSITION</a> message. The IMM removes the information when the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immreleasecontext">ImmReleaseContext</a> function.
 
 <div class="alert"><b>Note</b>  You must write code to handle both full-width Hiragana and half-width Katakana if your application is used with the Soft Input Panel (SIP).</div>
 <div> </div>
@@ -115,23 +115,23 @@ An application calls this function in response to the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/e14b087a-58ef-4360-9368-3fdd088c14f6">ImmReleaseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immreleasecontext">ImmReleaseContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6de1c4c2-d910-487c-8b82-408cb6e02c44">WM_IME_COMPOSITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-composition">WM_IME_COMPOSITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/2740d009-8685-4f70-9b01-67b71f4ddcbd">WM_IME_STARTCOMPOSITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/wm-ime-startcomposition">WM_IME_STARTCOMPOSITION</a>
  
 
  

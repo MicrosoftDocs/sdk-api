@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressCapabilities</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITAddressCapabilities</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressCapabilities</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressCapabilities</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITAddressCapabilities</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34a967ba-7d1f-4841-95be-9e83f927379b">EnumerateCallTreatments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-enumeratecalltreatments">EnumerateCallTreatments</a>
 </td>
 <td align="left" width="63%">
 Gets call treatments. This method is provided for applications written in C/C++ and Java.
@@ -79,7 +79,7 @@ Gets call treatments. This method is provided for applications written in C/C++ 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7a3eb72-6c9f-4164-a082-8b0951733dcb">EnumerateCompletionMessages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-enumeratecompletionmessages">EnumerateCompletionMessages</a>
 </td>
 <td align="left" width="63%">
 Gets completion messages. This method is provided for applications written in C/C++ and Java.
@@ -88,7 +88,7 @@ Gets completion messages. This method is provided for applications written in C/
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/33cc965f-0603-40b0-95bb-9b16025dd2b6">EnumerateDeviceClasses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-enumeratedeviceclasses">EnumerateDeviceClasses</a>
 </td>
 <td align="left" width="63%">
 Gets device classes. This method is provided for applications written in C/C++ and Java.
@@ -97,37 +97,37 @@ Gets device classes. This method is provided for applications written in C/C++ a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76e61d5e-48b6-4b9c-9076-bd20a794859c">get_AddressCapability</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability">get_AddressCapability</a>
 </td>
 <td align="left" width="63%">
 Gets the capability value for a given 
-<a href="https://msdn.microsoft.com/47ddd1fb-dc47-4822-87b8-9944491f8b3e">ADDRESS_CAPABILITY</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability">ADDRESS_CAPABILITY</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ec4c25e-700b-4aed-97ff-e7cb420fdf96">get_AddressCapabilityString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapabilitystring">get_AddressCapabilityString</a>
 </td>
 <td align="left" width="63%">
 Gets the capability string for a given 
-<a href="https://msdn.microsoft.com/c0afe710-ae6d-4f32-a691-956f8d6fea05">ADDRESS_CAPABILITY_STRING</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability_string">ADDRESS_CAPABILITY_STRING</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd6bbbf0-1f33-4e4f-bd81-7854019a0225">get_CallTreatments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_calltreatments">get_CallTreatments</a>
 </td>
 <td align="left" width="63%">
 Gets the 
-<a href="https://msdn.microsoft.com/c28c9200-dd51-48b2-905c-fbe37c83b00f">call treatment</a>. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecalltreatment--constants">call treatment</a>. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b2d9065-e519-4e76-b6a0-b62e19ecaf70">get_CompletionMessages</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_completionmessages">get_CompletionMessages</a>
 </td>
 <td align="left" width="63%">
 Gets completion messages. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
@@ -136,11 +136,11 @@ Gets completion messages. This method is provided for Automation client applicat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34c662c6-4166-470f-aaaf-001da4ed048a">get_DeviceClasses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_deviceclasses">get_DeviceClasses</a>
 </td>
 <td align="left" width="63%">
 Gets 
-<a href="https://msdn.microsoft.com/859979a8-0d16-4b7b-b183-d6e30f3e034d">device classes</a>. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-device-classes">device classes</a>. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 
 </td>
 </tr>
@@ -152,11 +152,11 @@ Gets
 
 
 
-<a href="https://msdn.microsoft.com/ab6db262-f99e-4027-9525-7597fcf02e72">Address Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

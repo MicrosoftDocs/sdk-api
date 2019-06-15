@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates wildcard options on search terms. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231311(v=VS.85).aspx">ISearchQueryHelper::get_QueryTermExpansion</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb231321(v=VS.85).aspx">ISearchQueryHelper::put_QueryTermExpansion</a> methods.
+Indicates wildcard options on search terms. Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querytermexpansion">ISearchQueryHelper::get_QueryTermExpansion</a> and <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querytermexpansion">ISearchQueryHelper::put_QueryTermExpansion</a> methods.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ Stem expansion is applied to all terms.
 
 
 
-While the <b>SEARCH_TERM_EXPANSION</b> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a> interface.
+While the <b>SEARCH_TERM_EXPANSION</b> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> interface.
 
 
 

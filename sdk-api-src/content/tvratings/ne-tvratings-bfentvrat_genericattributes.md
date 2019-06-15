@@ -117,7 +117,7 @@ A bitmask of all valid attribute bits.
 
 
 
-The <b>BfIsBlocked</b> flag specifies that a program should be blocked regardless of the type of content. Flags in the range <b>BfIsAttr_1</b> to <b>BfIsAttr_7</b> represent generic content attributes, such as violence or adult language. Content attributes do not apply to every ratings system. For an example of how these generic attributes map to a particular system, see <a href="https://msdn.microsoft.com/3ad1736f-d27f-4aba-ab68-e7aca407d182">BfEnTvRat_Attributes_US_TV</a>.
+The <b>BfIsBlocked</b> flag specifies that a program should be blocked regardless of the type of content. Flags in the range <b>BfIsAttr_1</b> to <b>BfIsAttr_7</b> represent generic content attributes, such as violence or adult language. Content attributes do not apply to every ratings system. For an example of how these generic attributes map to a particular system, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_attributes_us_tv">BfEnTvRat_Attributes_US_TV</a>.
 
 
 
@@ -127,7 +127,7 @@ The <b>BfIsBlocked</b> flag specifies that a program should be blocked regardles
 
 
 
-<a href="https://msdn.microsoft.com/5406cb4b-e843-463c-95e0-0da7e4152978">TV Ratings Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-enumerations">TV Ratings Enumerations</a>
  
 
  

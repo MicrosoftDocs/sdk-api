@@ -71,7 +71,7 @@ Address on the line device. An address identifier is permanently associated with
 ### -param lpdwNumRings
 
 Number of rings that is the minimum of all current 
-<a href="https://msdn.microsoft.com/d600fd39-4e58-421c-81bf-1555f5745f5e">lineSetNumRings</a> requests.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a> requests.
 
 
 ## -returns
@@ -91,15 +91,15 @@ LINEERR_INVALADDRESSID, LINEERR_OPERATIONFAILED, LINEERR_INVALLINEHANDLE, LINEER
 
 The 
 <b>lineGetNumRings</b> and 
-<a href="https://msdn.microsoft.com/d600fd39-4e58-421c-81bf-1555f5745f5e">lineSetNumRings</a> functions, when used in combination, provide a mechanism to support the implementation of toll-saver features across multiple independent applications.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a> functions, when used in combination, provide a mechanism to support the implementation of toll-saver features across multiple independent applications.
 
 An application that receives a handle for a call in the <i>offering</i> state and a 
-<a href="https://msdn.microsoft.com/15f616de-db47-4577-9a47-94f9292253dd">LINE_LINEDEVSTATE</a> <i>ringing</i> message should wait a number of rings equal to the number returned by 
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a> <i>ringing</i> message should wait a number of rings equal to the number returned by 
 <b>lineGetNumRings</b> before answering the call in order to honor the toll-saver settings across all applications. The 
 <b>lineGetNumRings</b> function returns the minimum of all applications' number of rings specified by 
-<a href="https://msdn.microsoft.com/d600fd39-4e58-421c-81bf-1555f5745f5e">lineSetNumRings</a>. Because this number can vary dynamically, an application should invoke 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>. Because this number can vary dynamically, an application should invoke 
 <b>lineGetNumRings</b> each time it has the option to answer a call. If no application has called 
-<a href="https://msdn.microsoft.com/d600fd39-4e58-421c-81bf-1555f5745f5e">lineSetNumRings</a>, the number of rings returned is 0xFFFFFFFF. A separate LINE_LINEDEVSTATE <i>ringing</i> message is sent to the application for each ring cycle.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>, the number of rings returned is 0xFFFFFFFF. A separate LINE_LINEDEVSTATE <i>ringing</i> message is sent to the application for each ring cycle.
 
 If call classification is performed by TAPI of answering all calls of unknown media mode and filtering the media stream, TAPI honors this number as well.
 
@@ -113,19 +113,19 @@ If call classification is performed by TAPI of answering all calls of unknown me
 
 
 
-<a href="https://msdn.microsoft.com/09d10789-bc36-47c7-b77d-8698ae75541a">Basic Telephony Services Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/15f616de-db47-4577-9a47-94f9292253dd">LINE_LINEDEVSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d600fd39-4e58-421c-81bf-1555f5745f5e">lineSetNumRings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>
  
 
  

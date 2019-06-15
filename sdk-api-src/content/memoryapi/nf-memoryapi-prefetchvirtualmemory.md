@@ -67,7 +67,7 @@ Provides an efficient mechanism to bring into memory potentially discontiguous v
 ### -param hProcess [in]
 
 Handle to the process whose virtual address ranges are to be prefetched. Use the 
-      <a href="https://msdn.microsoft.com/0471790c-3bb9-4180-8676-941e655b1812">GetCurrentProcess</a> function to use the current 
+      <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> function to use the current 
       process.
 
 
@@ -80,7 +80,7 @@ Number of entries in the array pointed to by the <i>VirtualAddresses</i>
 ### -param VirtualAddresses [in]
 
 Pointer to an array of 
-      <a href="https://msdn.microsoft.com/d1372687-c397-4ba8-b0c0-2dcf2ec74fbb">WIN32_MEMORY_RANGE_ENTRY</a> structures which 
+      <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_range_entry">WIN32_MEMORY_RANGE_ENTRY</a> structures which 
       each specify a virtual address range to be prefetched. The virtual address ranges may cover any part of the 
       process address space accessible by the target process.
 
@@ -97,7 +97,7 @@ Reserved. Must be 0.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -134,7 +134,7 @@ Since the <b>PrefetchVirtualMemory</b> function can
 
 To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 
     <b>_WIN32_WINNT_WIN8</b> or higher. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -144,11 +144,11 @@ To compile an application that calls this function, define <b>_WIN32_WINNT</b> a
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1372687-c397-4ba8-b0c0-2dcf2ec74fbb">WIN32_MEMORY_RANGE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_range_entry">WIN32_MEMORY_RANGE_ENTRY</a>
  
 
  

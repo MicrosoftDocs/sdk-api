@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Clones a full, or absolute, <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Clones a full, or absolute, <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Clones a full, or absolute, <a href="https://msdn.microsoft.com/60daf071-4e93-4e
 
 Type: <b>PCUIDLIST_ABSOLUTE</b>
 
-A pointer to the full, or absolute, <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure to be cloned.
+A pointer to the full, or absolute, <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to be cloned.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A pointer to the full, or absolute, <a href="https://msdn.microsoft.com/60daf071
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-A pointer to a copy of the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
+A pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
 
 
 
@@ -79,7 +79,7 @@ A pointer to a copy of the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1
 
 
 
-When you are finished with the cloned <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure, release it with <a href="https://msdn.microsoft.com/3457f36e-fdfd-44a4-90ca-a86f00bc9f36">ILFree</a> to avoid memory leaks.
+When you are finished with the cloned <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure, release it with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to avoid memory leaks.
 
 
 

@@ -77,7 +77,7 @@ Maximum value for testing only.
 
 
 
-<a href="https://msdn.microsoft.com/39029412-18ce-426a-a79d-cf25ff0dfe0d">WFP Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">WFP Enumerated Types</a>
  
 
  

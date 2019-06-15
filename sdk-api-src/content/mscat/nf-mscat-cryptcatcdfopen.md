@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The  <b>CryptCATCDFOpen</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATCDFOpen</b> function opens an existing catalog definition file (CDF) for reading and initializes a <a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a> structure.   <b>CryptCATCDFOpen</b> is called by <a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a>.
+The <b>CryptCATCDFOpen</b> function opens an existing catalog definition file (CDF) for reading and initializes a <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a> structure.   <b>CryptCATCDFOpen</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A pointer to a user-defined function to handle file parse errors.
 
 
 
-Upon success, this function returns a pointer to the newly created <a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a> structure. The <b>CryptCATCDFOpen</b> function returns a <b>NULL</b> pointer if it fails.
+Upon success, this function returns a pointer to the newly created <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a> structure. The <b>CryptCATCDFOpen</b> function returns a <b>NULL</b> pointer if it fails.
 
 
 
@@ -141,11 +141,11 @@ If specified by the caller, the <b>CryptCATCDFOpen</b> function calls the functi
 </tr>
 <tr>
 <td>
-The <b>CryptCATCDFOpen</b> function calls the <a href="https://msdn.microsoft.com/e81f3a3d-d5b7-4266-838d-b83e331c8594">CryptCATOpen</a> function to get a handle to the catalog (.cat) output file, but it gets an invalid or <b>NULL</b> handle.
+The <b>CryptCATCDFOpen</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> function to get a handle to the catalog (.cat) output file, but it gets an invalid or <b>NULL</b> handle.
 
 </td>
 <td>
-Calls the <a href="https://msdn.microsoft.com/9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec">CryptCATCDFClose</a> function and returns a <b>NULL</b> pointer.
+Calls the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a> function and returns a <b>NULL</b> pointer.
 
 </td>
 </tr>
@@ -190,19 +190,19 @@ CAT_MEMBERINFO2_OBJID
 
 
 
-<a href="https://msdn.microsoft.com/15d5710a-d4df-4e45-b161-5d4f7509ba29">CRYPTCATCDF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf_">CRYPTCATCDF</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec">CryptCATCDFClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatcdfclose">CryptCATCDFClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/e81f3a3d-d5b7-4266-838d-b83e331c8594">CryptCATOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a>
 
 
 
-<a href="https://msdn.microsoft.com/233b3644-f2a5-4166-bac0-30bf2f54e957">MakeCat</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
  
 
  

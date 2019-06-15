@@ -53,7 +53,7 @@ Specifies the callback function and state for controlling the HTTP auto redirect
             
 
 See also, <b>WS_HTTP_REDIRECT_CALLBACK_CONTEXT</b> 
-                and <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT</a>.
+                and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT</a>.
             
 
 

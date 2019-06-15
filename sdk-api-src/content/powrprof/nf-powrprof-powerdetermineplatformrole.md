@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008. To specify a different platform, use the <a href="https://msdn.microsoft.com/64b597d3-ca7a-4ff7-8527-72c3625147cd">PowerDeterminePlatformRoleEx</a> function. 
+Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008. To specify a different platform, use the <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a> function. 
 
-To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="https://msdn.microsoft.com/64b597d3-ca7a-4ff7-8527-72c3625147cd">PowerDeterminePlatformRoleEx</a>. 
+To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>. 
 
 
 ## -parameters
@@ -66,7 +66,7 @@ To query additional power platform roles defined after Windows 7 and Windows Se
 
 
 The return value is one of the values from the 
-      <a href="https://msdn.microsoft.com/ec94a0c4-8451-47a5-be48-9d5ed76c3585">POWER_PLATFORM_ROLE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
 
 
 
@@ -79,7 +79,7 @@ This function reads the ACPI Fixed ACPI Description Table (FADT) to determine th
 
 
 
-<div class="alert"><b>Note</b>  This API has a newer version. To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="https://msdn.microsoft.com/64b597d3-ca7a-4ff7-8527-72c3625147cd">PowerDeterminePlatformRoleEx</a>.</div>
+<div class="alert"><b>Note</b>  This API has a newer version. To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>.</div>
 <div> </div>
 
 
@@ -89,15 +89,15 @@ This function reads the ACPI Fixed ACPI Description Table (FADT) to determine th
 
 
 
-<a href="https://msdn.microsoft.com/ec94a0c4-8451-47a5-be48-9d5ed76c3585">POWER_PLATFORM_ROLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_power_platform_role">POWER_PLATFORM_ROLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/64b597d3-ca7a-4ff7-8527-72c3625147cd">PowerDeterminePlatformRoleEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>
  
 
  

@@ -59,7 +59,7 @@ Creates an instance of the licensed object for the specified license key. This m
 
 ### -param pUnkOuter [in]
 
-A pointer to the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the outer unknown if this object is being created as part of an aggregate. If the object is not part of an aggregate, this parameter must be <b>NULL</b>.
+A pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the outer unknown if this object is being created as part of an aggregate. If the object is not part of an aggregate, this parameter must be <b>NULL</b>.
 
 
 ### -param pUnkReserved [in]
@@ -74,7 +74,7 @@ A reference to the identifier of the interface to be used to communicate with th
 
 ### -param bstrKey [in]
 
-Run-time license key previously obtained from <a href="https://msdn.microsoft.com/6c0211d2-1cdd-4d1a-a1fe-44c89b750af6">IClassFactory2::RequestLicKey</a> that is required to create an object.
+Run-time license key previously obtained from <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> that is required to create an object.
 
 
 ### -param ppvObj [out]
@@ -111,7 +111,7 @@ The license was successfully created.
 </dl>
 </td>
 <td width="60%">
-This method is not implemented because objects can only be created on fully licensed machines through <a href="https://msdn.microsoft.com/45d34150-9e0b-4a76-a784-c81434ec73b8">IClassFactory::CreateInstance</a>.
+This method is not implemented because objects can only be created on fully licensed machines through <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ The key provided in <i>bstrKey</i> is not a valid license key.
 
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-If the class factory does not provide a license key (that is, <a href="https://msdn.microsoft.com/6c0211d2-1cdd-4d1a-a1fe-44c89b750af6">IClassFactory2::RequestLicKey</a> returns E_NOTIMPL and the <b>fRuntimeKeyAvail</b> member in <a href="https://msdn.microsoft.com/a90d82f3-8dc4-4b1d-81f7-9d3a19e74314">LICINFO</a> is set to <b>FALSE</b> in <a href="https://msdn.microsoft.com/e55d1089-b1df-4de0-9a19-cbd255b36126">IClassFactory2::GetLicInfo</a>), then this method can also return E_NOTIMPL. In such cases, the class factory is implementing <a href="https://msdn.microsoft.com/c49c7612-3b1f-4535-baf3-8458b3f34f95">IClassFactory2</a> simply to specify whether the machine is licensed at all through the <b>fLicVerified</b> member of <b>LICINFO</b>.
+If the class factory does not provide a license key (that is, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">IClassFactory2::RequestLicKey</a> returns E_NOTIMPL and the <b>fRuntimeKeyAvail</b> member in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-taglicinfo">LICINFO</a> is set to <b>FALSE</b> in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">IClassFactory2::GetLicInfo</a>), then this method can also return E_NOTIMPL. In such cases, the class factory is implementing <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a> simply to specify whether the machine is licensed at all through the <b>fLicVerified</b> member of <b>LICINFO</b>.
 
 
 
@@ -180,11 +180,11 @@ If the class factory does not provide a license key (that is, <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/c49c7612-3b1f-4535-baf3-8458b3f34f95">IClassFactory2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a90d82f3-8dc4-4b1d-81f7-9d3a19e74314">LICINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-taglicinfo">LICINFO</a>
  
 
  

@@ -55,7 +55,7 @@ Represents knowledge that a replica has about its item store.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncKnowledge</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncKnowledge</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncKnowledge</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncKnowledge</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISyncKnowledge</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f8dbe6f-e686-464a-98d0-b6e78bfd405a">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of this object, and copies the data from this object to the new object.
@@ -80,7 +80,7 @@ Creates a new instance of this object, and copies the data from this object to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c304d76-f27a-4382-99ad-1d158da93de6">ContainsChange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containschange">ContainsChange</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the specified item change is known by this knowledge.
@@ -90,7 +90,7 @@ Indicates whether the specified item change is known by this knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67fc3b59-ad82-47a4-9fc6-2d980b9e26fe">ContainsChangeUnit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containschangeunit">ContainsChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the specified change unit change is known by this knowledge.
@@ -100,7 +100,7 @@ Indicates whether the specified change unit change is known by this knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6b58390-84be-48ff-a3b9-3b3c83d4f661">ContainsKnowledge</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containsknowledge">ContainsKnowledge</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the specified knowledge is known by this knowledge.
@@ -110,7 +110,7 @@ Indicates whether the specified knowledge is known by this knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f41edaa3-7c4e-4b2c-9897-474b3e7bfb67">ConvertVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-convertversion">ConvertVersion</a>
 </td>
 <td align="left" width="63%">
 Converts a version from another replica into one that is compatible with the replica that owns this knowledge.
@@ -120,7 +120,7 @@ Converts a version from another replica into one that is compatible with the rep
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0b9e39a8-6610-468a-a0e6-3950b8c17d58">ExcludeChangeUnit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-excludechangeunit">ExcludeChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Removes knowledge about the specified change unit from the knowledge.
@@ -130,7 +130,7 @@ Removes knowledge about the specified change unit from the knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db3cd239-dbc2-4da7-ba3d-3adc9ad1c6f3">ExcludeItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-excludeitem">ExcludeItem</a>
 </td>
 <td align="left" width="63%">
 Removes knowledge about the specified item from the knowledge.
@@ -140,7 +140,7 @@ Removes knowledge about the specified item from the knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5114f66-419f-4fea-87ad-3c2cc43eb2fd">FindClockVectorForChangeUnit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-findclockvectorforchangeunit">FindClockVectorForChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Gets the clock vector that is associated with the specified change unit ID.
@@ -150,7 +150,7 @@ Gets the clock vector that is associated with the specified change unit ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0df840c-c0ca-4fd8-b4bd-d4558e21b083">FindClockVectorForItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-findclockvectorforitem">FindClockVectorForItem</a>
 </td>
 <td align="left" width="63%">
 Gets the clock vector that is associated with the specified item ID.
@@ -160,7 +160,7 @@ Gets the clock vector that is associated with the specified item ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a1a3fb2-b656-4ecf-8fed-dc5f20cd22f1">FindMinTickCountForReplica</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-findmintickcountforreplica">FindMinTickCountForReplica</a>
 </td>
 <td align="left" width="63%">
 Finds the minimum tick count in the knowledge for the specified replica.
@@ -170,7 +170,7 @@ Finds the minimum tick count in the knowledge for the specified replica.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8d12e76-82f3-4291-8c95-757d4838639e">GetChangeUnitExceptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-getchangeunitexceptions">GetChangeUnitExceptions</a>
 </td>
 <td align="left" width="63%">
 Gets an object that can enumerate the <b>IChangeUnitException</b> objects that are stored in the knowledge.
@@ -180,7 +180,7 @@ Gets an object that can enumerate the <b>IChangeUnitException</b> objects that a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/868ed5da-0bcb-43d9-9a43-81186f8b3409">GetOwnerReplicaId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-getownerreplicaid">GetOwnerReplicaId</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the replica that owns this knowledge.
@@ -190,7 +190,7 @@ Gets the ID of the replica that owns this knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9dd945bf-a3e4-408a-bdfe-5163a7dbdc3f">GetRangeExceptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-getrangeexceptions">GetRangeExceptions</a>
 </td>
 <td align="left" width="63%">
 Gets an object that can enumerate the <b>IRangeException</b> objects that are stored in the knowledge.
@@ -200,7 +200,7 @@ Gets an object that can enumerate the <b>IRangeException</b> objects that are st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f4052f8-ad58-4805-be75-5456d2d1e7bc">GetReplicaKeyMap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-getreplicakeymap">GetReplicaKeyMap</a>
 </td>
 <td align="left" width="63%">
 Gets the <b>IReplicaKeyMap</b> object that is associated with this knowledge.
@@ -210,7 +210,7 @@ Gets the <b>IReplicaKeyMap</b> object that is associated with this knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92829da0-d9a3-4a91-a60f-6319163e899a">GetScopeVector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-getscopevector">GetScopeVector</a>
 </td>
 <td align="left" width="63%">
 Gets the clock vector that defines the changes that are contained in the knowledge.
@@ -220,7 +220,7 @@ Gets the clock vector that defines the changes that are contained in the knowled
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d224d2b8-343d-48f9-ac87-cd6e8682987a">GetSingleItemExceptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-getsingleitemexceptions">GetSingleItemExceptions</a>
 </td>
 <td align="left" width="63%">
 Gets an object that can enumerate the <b>ISingleItemException</b> objects that are stored in the knowledge.
@@ -230,7 +230,7 @@ Gets an object that can enumerate the <b>ISingleItemException</b> objects that a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b54114f1-aa54-493d-b449-0b9161004ffa">GetVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-getversion">GetVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the version of this knowledge structure.
@@ -240,7 +240,7 @@ Gets the version of this knowledge structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9325ff3e-4f8e-4a18-bc95-57af30ccd437">MapRemoteToLocal</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-mapremotetolocal">MapRemoteToLocal</a>
 </td>
 <td align="left" width="63%">
 Converts a knowledge object from another replica into one that is compatible with the replica that owns this knowledge.
@@ -250,7 +250,7 @@ Converts a knowledge object from another replica into one that is compatible wit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c09284f-9866-49a4-adeb-561af3351ada">ProjectOntoChangeUnit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontochangeunit">ProjectOntoChangeUnit</a>
 </td>
 <td align="left" width="63%">
 Gets the knowledge for the specified change unit.
@@ -260,7 +260,7 @@ Gets the knowledge for the specified change unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/069fdc90-bea3-42e4-835c-b2a397d13b60">ProjectOntoItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontoitem">ProjectOntoItem</a>
 </td>
 <td align="left" width="63%">
 Gets the knowledge for the specified item.
@@ -270,7 +270,7 @@ Gets the knowledge for the specified item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd82e694-088b-4695-9c5d-c9ed2a25c208">ProjectOntoRange</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-projectontorange">ProjectOntoRange</a>
 </td>
 <td align="left" width="63%">
 Gets the knowledge for the specified range of item IDs.
@@ -280,7 +280,7 @@ Gets the knowledge for the specified range of item IDs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1feb0626-78f0-4d37-b3a0-c87a7fb22753">Serialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes the knowledge object data to a byte array.
@@ -290,7 +290,7 @@ Serializes the knowledge object data to a byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0da3728d-c2b8-4998-bdc4-50642af9e416">SetLocalTickCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-setlocaltickcount">SetLocalTickCount</a>
 </td>
 <td align="left" width="63%">
 Sets the tick count for the replica that owns this knowledge.
@@ -300,7 +300,7 @@ Sets the tick count for the replica that owns this knowledge.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95d88d28-57b7-4b4a-abda-a69f25b1e8b8">Union</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-union">Union</a>
 </td>
 <td align="left" width="63%">
 Combines the specified knowledge with the current knowledge.
@@ -325,23 +325,23 @@ Be aware that there is no single representation of knowledge. Equivalent knowled
 
 
 
-<a href="https://msdn.microsoft.com/3b47abab-0a33-405f-a765-307ab800bad6">IChangeUnitException Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7eea9fe0-80e7-43a9-a797-df12d4d809dc">IRangeException Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irangeexception">IRangeException Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c195842-316a-4c49-ace4-444fa4a38ad2">IReplicaKeyMap Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/623553cb-9dc2-4504-9c49-357a0526b130">ISingleItemException Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isingleitemexception">ISingleItemException Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

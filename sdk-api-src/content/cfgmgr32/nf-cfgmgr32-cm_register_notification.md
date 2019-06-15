@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Use <a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a> instead of <b>CM_Register_Notification</b> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="https://msdn.microsoft.com/06fd10ab-3478-4b01-b678-24944f17fa9d">IoRegisterPlugPlayNotification</a> instead.
+Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> instead of <b>CM_Register_Notification</b> if your code targets Windows 7 or earlier versions of Windows. Kernel mode callers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a> instead.
 
 The <b>CM_Register_Notification</b> function registers an application callback routine to be called when a PnP event of the specified type occurs.
 
@@ -63,7 +63,7 @@ The <b>CM_Register_Notification</b> function registers an application callback r
 
 ### -param pFilter [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/8B6CC440-7B41-4382-9917-6833031D5E1B">CM_NOTIFY_FILTER</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_cm_notify_filter">CM_NOTIFY_FILTER</a> structure.
 
 
 ### -param pContext [in, optional]
@@ -75,7 +75,7 @@ Pointer to a caller-allocated buffer containing the context to be passed to the 
 
 Pointer to the routine to be called when the specified PnP event occurs. See the <b>Remarks</b> section for the callback function's prototype.
 
-The callback routine’s <i>Action</i> parameter will be a value from the <a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a> enumeration.
+The callback routine’s <i>Action</i> parameter will be a value from the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-_cm_notify_action">CM_NOTIFY_ACTION</a> enumeration.
 
 Upon receiving a notification, how the callback examines the notification will depend on the <b>FilterType</b> member of the callback routine's <i>EventData</i> parameter:
 
@@ -120,9 +120,9 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 Be sure to handle Plug and Play device events as quickly as possible.  If your event handler performs any operation that may block execution (such as I/O), it is best to start another thread to perform the operation asynchronously.
 
-The <b>CM_Register_Notification</b> function does not provide notification of existing device interfaces.   To retrieve existing interfaces, first call <b>CM_Register_Notification</b>, and then call <a href="https://msdn.microsoft.com/3f2dfc0f-1bde-40a8-b48c-25b75759e0d8">CM_Get_Device_Interface_List</a>.   If the interface is enabled after your driver calls <b>CM_Register_Notification</b>, but before your driver calls <b>CM_Get_Device_Interface_List</b>, the driver receives a notification for the interface arrival, and the interface also appears in the list of device interface instances returned by <b>CM_Get_Device_Interface_List</b>.
+The <b>CM_Register_Notification</b> function does not provide notification of existing device interfaces.   To retrieve existing interfaces, first call <b>CM_Register_Notification</b>, and then call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>.   If the interface is enabled after your driver calls <b>CM_Register_Notification</b>, but before your driver calls <b>CM_Get_Device_Interface_List</b>, the driver receives a notification for the interface arrival, and the interface also appears in the list of device interface instances returned by <b>CM_Get_Device_Interface_List</b>.
 
-HCMNOTIFICATION handles returned by <b>CM_Register_Notification</b> must be closed by calling the <a href="https://msdn.microsoft.com/1634ECC5-96A2-4B1C-8DCA-64682C8C1444">CM_Unregister_Notification</a> function when they are no longer needed.
+HCMNOTIFICATION handles returned by <b>CM_Register_Notification</b> must be closed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_unregister_notification">CM_Unregister_Notification</a> function when they are no longer needed.
 
 A callback routine uses the following function prototype:
 		  
@@ -139,13 +139,13 @@ typedef __callback DWORD (CALLBACK *PCM_NOTIFY_CALLBACK)(
 ```
 
 
-If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://msdn.microsoft.com/61bd4ea3-9910-4feb-a330-3e0bcdac1ce2">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
+If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-_cm_notify_action">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_cm_notify_event_data">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
 
 
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/library/Dn858592(v=VS.85).aspx">Registering for Notification of Device Interface Arrival and Device Removal</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/install/registering-for-notification-of-device-interface-arrival-and-device-removal">Registering for Notification of Device Interface Arrival and Device Removal</a>.
 
 <div class="code"></div>
 
@@ -156,23 +156,23 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/587AF979-8BA2-45A3-90C2-7E0EBB2390EC">CM_NOTIFY_ACTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ne-cfgmgr32-_cm_notify_action">CM_NOTIFY_ACTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/8B6CC440-7B41-4382-9917-6833031D5E1B">CM_NOTIFY_FILTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-_cm_notify_filter">CM_NOTIFY_FILTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/1634ECC5-96A2-4B1C-8DCA-64682C8C1444">CM_Unregister_Notification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_unregister_notification">CM_Unregister_Notification</a>
 
 
 
-<a href="https://msdn.microsoft.com/82094d95-9af3-4222-9c5e-ce2df9bab5e3">RegisterDeviceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Dn858592(v=VS.85).aspx">Registering for Notification of Device Interface Arrival and Device Removal</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/registering-for-notification-of-device-interface-arrival-and-device-removal">Registering for Notification of Device Interface Arrival and Device Removal</a>
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>RpcMgmtWaitServerListen</b> function performs the <i>wait</i> operation usually associated with 
-<a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>.
 
 
 ## -parameters
@@ -101,7 +101,7 @@ Another thread has called
 </td>
 <td width="60%">
 The server application must call 
-<a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a> before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a> before calling 
 <b>RpcMgmtWaitServerListen</b>.
 
 </td>
@@ -110,7 +110,7 @@ The server application must call
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -120,15 +120,15 @@ The server application must call
 
 
 When the 
-<a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a> flag parameter <i>DontWait</i> has a nonzero value, the 
-<a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a> function returns to the server application without performing the wait operation. In this case, the wait can be performed by 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a> flag parameter <i>DontWait</i> has a nonzero value, the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a> function returns to the server application without performing the wait operation. In this case, the wait can be performed by 
 <b>RpcMgmtWaitServerListen</b>.
 
 Applications must call 
-<a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a> with a nonzero value for the <i>DontWait</i> parameter before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a> with a nonzero value for the <i>DontWait</i> parameter before calling 
 <b>RpcMgmtWaitServerListen</b>. The 
 <b>RpcMgmtWaitServerListen</b> function returns after the server application calls 
-<a href="https://msdn.microsoft.com/aeb6084a-e2ea-4468-85f8-2ae6cc4dbe84">RpcMgmtStopServerListening</a> and all active remote procedure calls complete, or after a fatal error occurs in the RPC run-time library.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a> and all active remote procedure calls complete, or after a fatal error occurs in the RPC run-time library.
 
 <div class="alert"><b>Note</b>  <b>RpcMgmtWaitServerListen</b> is a Microsoft extension to the DCE API set.</div>
 <div> </div>
@@ -140,11 +140,11 @@ Applications must call
 
 
 
-<a href="https://msdn.microsoft.com/aeb6084a-e2ea-4468-85f8-2ae6cc4dbe84">RpcMgmtStopServerListening</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>
 
 
 
-<a href="https://msdn.microsoft.com/430561b2-c74b-423c-8448-339cc71dbd68">RpcServerListen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverlisten">RpcServerListen</a>
  
 
  

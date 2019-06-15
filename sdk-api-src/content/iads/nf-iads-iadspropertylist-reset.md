@@ -63,7 +63,7 @@ The <b>IADsPropertyList::Reset</b> method resets the list to the first item.
 
 
 
-This method supports the standard <b>HRESULT</b> values, including <b>S_OK</b>. For more information and other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard <b>HRESULT</b> values, including <b>S_OK</b>. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -73,19 +73,19 @@ This method supports the standard <b>HRESULT</b> values, including <b>S_OK</b>. 
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://msdn.microsoft.com/3564b61a-5950-4d00-8ea1-86fecd5c6c4e">IADsPropertyList Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a12ba88-363b-41e3-bd05-8a71f5317097">IADsPropertyList::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>
  
 
  

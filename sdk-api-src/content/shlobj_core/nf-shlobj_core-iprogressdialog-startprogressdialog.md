@@ -66,7 +66,7 @@ A handle to the dialog box's parent window.
 
 ### -param punkEnableModless
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 Reserved. Set to <b>NULL</b>.
 
@@ -93,7 +93,7 @@ The progress dialog box will be modal to the window specified by <i>hwndParent</
 
 #### PROGDLG_AUTOTIME
 
-Automatically estimate the remaining time and display the estimate on line 3. If this flag is set, <a href="https://msdn.microsoft.com/2c4441a8-3bb6-4cd8-8f96-423ee8d26113">IProgressDialog::SetLine</a> can be used only to display text on lines 1 and 2.
+Automatically estimate the remaining time and display the estimate on line 3. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setline">IProgressDialog::SetLine</a> can be used only to display text on lines 1 and 2.
 
 
 
@@ -111,7 +111,7 @@ Do not display a minimize button on the dialog box's caption bar.
 
 #### PROGDLG_NOPROGRESSBAR
 
-Do not display a progress bar. Typically, an application can quantitatively determine how much of the operation remains and periodically pass that value to <a href="https://msdn.microsoft.com/50df7b32-e345-4379-809f-6870b53417b8">IProgressDialog::SetProgress</a>. The progress dialog box uses this information to update its progress bar. This flag is typically set when the calling application must wait for an operation to finish, but does not have any quantitative information it can use to update the dialog box.
+Do not display a progress bar. Typically, an application can quantitatively determine how much of the operation remains and periodically pass that value to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iprogressdialog-setprogress">IProgressDialog::SetProgress</a>. The progress dialog box uses this information to update its progress bar. This flag is typically set when the calling application must wait for an operation to finish, but does not have any quantitative information it can use to update the dialog box.
 
 
 
@@ -149,7 +149,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb">IProgressDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
  
 
  

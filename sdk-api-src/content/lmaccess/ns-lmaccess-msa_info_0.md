@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies information about a managed service account. This structure is used by the <a href="https://msdn.microsoft.com/ee253cab-bd53-426e-809a-12a1ccdc010b">NetQueryServiceAccount</a> function.
+Specifies information about a managed service account. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netqueryserviceaccount">NetQueryServiceAccount</a> function.
 
 
 ## -struct-fields
@@ -59,5 +59,5 @@ Specifies information about a managed service account. This structure is used by
 
 ### -field State
 
-A value of the <a href="https://msdn.microsoft.com/3cba6c6a-1d63-4795-b009-1fcdf86cc2ef">MSA_INFO_STATE</a> enumeration that indicates the state of the service account specified in the call to the <a href="https://msdn.microsoft.com/ee253cab-bd53-426e-809a-12a1ccdc010b">NetQueryServiceAccount</a> function.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ne-lmaccess-_msa_info_state">MSA_INFO_STATE</a> enumeration that indicates the state of the service account specified in the call to the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netqueryserviceaccount">NetQueryServiceAccount</a> function.
 

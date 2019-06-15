@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 Removes the permission specified in a given 
-<a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">GPMPermission</a> object from the 
-<a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">GPMSecurityInfo</a> collection.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> object from the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> collection.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 You cannot remove Inherited permissions. To determine if a permission is Inherited, see 
-<a href="https://msdn.microsoft.com/4af04405-66a4-4721-83ff-70ae505b3494">IGPMPermission Property Methods</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmpermission-property-methods">IGPMPermission Property Methods</a>.
 
 The method checks for the existence of the specified <b>GPMPermission</b> object, which is the pairing of a trustee (which is a user, computer, or security group) and a permission that applies to a single object, for example, to a GPO, SOM, or WMI filter. If the object exists in the collection, the method removes it.
 
@@ -97,13 +97,13 @@ If the permission specified for removal represents a higher level than the permi
 If the permission specified for removal represents a lower level than the permission that exists for the trustee, the method returns S_FALSE.
 
 On successful removal of a permission, the method updates all enumerators returned by the 
-<a href="https://msdn.microsoft.com/f8dc2ee1-d1cb-4e7a-abf4-1a388320b681">get__NewEnum</a> method, even if a removal occurs during the enumeration of elements.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsecurityinfo-get__newenum">get__NewEnum</a> method, even if a removal occurs during the enumeration of elements.
 
 For more information about policy-related permissions, see 
-<a href="https://msdn.microsoft.com/8da90ca3-1c81-414f-b1a0-a0dfcae745ba">IGPM::CreatePermission</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpm-createpermission">IGPM::CreatePermission</a>.
 
 For more information about security groups, see 
-<a href="https://msdn.microsoft.com/3236c51f-21c1-4c07-9b76-2668ae72a42f">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
+<a href="https://docs.microsoft.com/windows/desktop/AD/how-security-groups-are-used-in-access-control">How Security Groups are Used in Access Control</a> in the Active Directory Programmer's Guide.
 
 
 
@@ -113,15 +113,15 @@ For more information about security groups, see
 
 
 
-<a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
 
 
 
-<a href="https://msdn.microsoft.com/1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74">IGPMSecurityInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9c24fe6-58c7-4e82-9ac0-1157ed8fffeb">IGPMTrustee</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
  
 
  

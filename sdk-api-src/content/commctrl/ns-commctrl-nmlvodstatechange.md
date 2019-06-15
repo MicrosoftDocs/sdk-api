@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Structure that contains information for use in processing the <a href="https://msdn.microsoft.com/en-us/library/Bb774859(v=VS.85).aspx">LVN_ODSTATECHANGED</a> notification code. 
+Structure that contains information for use in processing the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-odstatechanged">LVN_ODSTATECHANGED</a> notification code. 
 
 
 ## -struct-fields
@@ -59,10 +59,10 @@ Structure that contains information for use in processing the <a href="https://m
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field iFrom
@@ -81,14 +81,14 @@ Zero-based index of the last item in the range of items.
 
 ### -field uNewState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Value indicating the new state for the item or items. This member can be any valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">list-view item states</a>. 
+Value indicating the new state for the item or items. This member can be any valid combination of the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">list-view item states</a>. 
 
 
 ### -field uOldState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Value indicating the old state for the item or items. This member can be any valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">list-view item states</a>. 
+Value indicating the old state for the item or items. This member can be any valid combination of the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">list-view item states</a>. 
 

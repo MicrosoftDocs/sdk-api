@@ -59,12 +59,12 @@ Notification method that signals a change in the state of device services on the
 
 ### -param interfaceID [in]
 
-The <a href="https://msdn.microsoft.com/9828567b-ef5e-44b7-90ce-1788cd8dd947">InterfaceID</a> of the device for which the device services state change notification is sent.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-get_interfaceid">InterfaceID</a> of the device for which the device services state change notification is sent.
 
 
 ### -param stateChange [in]
 
-A <a href="https://msdn.microsoft.com/0EDED390-CB60-4D6C-9E62-87B3BF6F9050">MBN_DEVICE_SERVICES_INTERFACE_STATE</a> enumeration that specifies whether the device service capable device is available or unavailable.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_device_services_interface_state">MBN_DEVICE_SERVICES_INTERFACE_STATE</a> enumeration that specifies whether the device service capable device is available or unavailable.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/66A388D0-C704-45D2-AD56-4F81E1928774">IMbnDeviceServicesEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
  
 
  

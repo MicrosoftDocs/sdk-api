@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SSL_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure, also identified by the name <b>HTTPSPolicyCallbackData</b>,  holds policy information used in the verification of <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Secure Sockets Layer</a> (SSL) client/server certificate chains. 
+The <b>SSL_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure, also identified by the name <b>HTTPSPolicyCallbackData</b>,  holds policy information used in the verification of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer</a> (SSL) client/server certificate chains. 
 
 
 ## -struct-fields
@@ -134,7 +134,7 @@ Ignore errors associated with a revoked certificate.
 </dl>
 </td>
 <td width="60%">
-Ignore errors associated with an unknown <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>.
+Ignore errors associated with an unknown <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
 </td>
 </tr>

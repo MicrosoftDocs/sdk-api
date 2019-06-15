@@ -54,7 +54,7 @@ Defines methods for storing and retrieving per-file similarity data and file IDs
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarity</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISimilarity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISimilarity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8896d9e-ca6a-404f-b80f-ef739ec97b53">Append</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-append">Append</a>
 </td>
 <td align="left" width="63%">
 Adds the file ID and similarity data information to the tables in the similarity file.
@@ -78,7 +78,7 @@ Adds the file ID and similarity data information to the tables in the similarity
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bf16568-ed61-42a3-91b9-79a1aa731bc0">CloseTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-closetable">CloseTable</a>
 </td>
 <td align="left" width="63%">
 Closes the tables in a similarity file.
@@ -87,7 +87,7 @@ Closes the tables in a similarity file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a31530e-da6d-4ac8-9fd4-d91419777ce5">CopyAndSwap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-copyandswap">CopyAndSwap</a>
 </td>
 <td align="left" width="63%">
 Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.
@@ -96,7 +96,7 @@ Creates copies of an existing similarity traits table and an existing similarity
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/808c20f9-054d-475d-8ca3-ee2dde871426">CreateTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-createtable">CreateTable</a>
 </td>
 <td align="left" width="63%">
 Creates or opens a similarity traits table and a similarity file ID table.
@@ -105,16 +105,16 @@ Creates or opens a similarity traits table and a similarity file ID table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84df73f5-0c39-44bd-81d8-d5ca144eb2e8">CreateTableIndirect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-createtableindirect">CreateTableIndirect</a>
 </td>
 <td align="left" width="63%">
-Creates or opens a similarity traits table and a similarity file ID table using the RDC application's implementations of the <a href="https://msdn.microsoft.com/1ddc599b-5a9b-4807-9005-00793f9a6ed4">ISimilarityTraitsMapping</a> and <a href="https://msdn.microsoft.com/8b6ac8d0-37fd-4bd3-aa44-5b57f546364d">IRdcFileWriter</a> interfaces.
+Creates or opens a similarity traits table and a similarity file ID table using the RDC application's implementations of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilewriter">IRdcFileWriter</a> interfaces.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/70a205fc-d90a-43fc-88f4-2f3a573c5a82">FindSimilarFileId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-findsimilarfileid">FindSimilarFileId</a>
 </td>
 <td align="left" width="63%">
 Returns a list of files that are similar to a given file.
@@ -123,7 +123,7 @@ Returns a list of files that are similar to a given file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19dda0ed-0f11-4e17-823b-667a48cf6dc1">GetRecordCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-getrecordcount">GetRecordCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of records that are stored in the similarity file ID table in a similarity file.
@@ -138,7 +138,7 @@ Retrieves the number of records that are stored in the similarity file ID table 
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

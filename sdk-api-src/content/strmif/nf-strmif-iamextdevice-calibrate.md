@@ -133,10 +133,10 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 Use this method on certain external devices that require calibration; for example, rewinding a tape and resetting the counter, or computing the frame offset for a timecode reader.
 
-Filters for various external devices can implement this method differently, depending on the calibration that the device needs. This method assumes the <a href="https://msdn.microsoft.com/50aa04b4-9a04-4d0d-a558-42595a69aef7">IMediaEventSink</a> interface has already established an event sink, or that another event signaling method has been established.
+Filters for various external devices can implement this method differently, depending on the calibration that the device needs. This method assumes the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaeventsink">IMediaEventSink</a> interface has already established an event sink, or that another event signaling method has been established.
 
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
-The <a href="https://msdn.microsoft.com/146ca753-fe41-49d3-8b1c-077e10a28192">MSDV</a> and UVC drivers do not support this method. The method returns E_NOTIMPL.
+The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> and UVC drivers do not support this method. The method returns E_NOTIMPL.
 
 
 
@@ -146,11 +146,11 @@ The <a href="https://msdn.microsoft.com/146ca753-fe41-49d3-8b1c-077e10a28192">MS
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0423e888-39d1-45cb-9bcf-722240a31fbd">IAMExtDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
  
 
  

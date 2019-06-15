@@ -66,23 +66,23 @@ Size of the object-specific data, in bytes. This member is the offset from the b
 ### -field DefinitionLength
 
 Size of this structure plus the size of all the  
-<a href="https://msdn.microsoft.com/faef043b-81e0-49b0-913f-d691bafd17e6">PERF_COUNTER_DEFINITION</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> structures.
 
 If the object is a multiple instance object (the <b>NumInstances</b> member is not zero), this member is the offset from the beginning of this structure to the first 
-<a href="https://msdn.microsoft.com/5ea617d3-857d-4e0a-ad10-4d63044fc927">PERF_INSTANCE_DEFINITION</a> structure. Otherwise, this value is the offset to the <a href="https://msdn.microsoft.com/5cff6142-6d71-46a5-a943-3ec91ebac62b">PERF_COUNTER_BLOCK</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_instance_definition">PERF_INSTANCE_DEFINITION</a> structure. Otherwise, this value is the offset to the <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_block">PERF_COUNTER_BLOCK</a>.
 
 
 ### -field HeaderLength
 
 Size of this structure, in bytes. This member is the offset from the beginning of this structure to the first 
-<a href="https://msdn.microsoft.com/faef043b-81e0-49b0-913f-d691bafd17e6">PERF_COUNTER_DEFINITION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> structure.
 
 
 ### -field ObjectNameTitleIndex
 
-Index to the object's name in the title database. For details on using the index to retrieve the object's name, see <a href="https://msdn.microsoft.com/9ddd1672-61cf-41c2-bec0-0d2b775bf970">Retrieving Counter Names and Help Text</a>.
+Index to the object's name in the title database. For details on using the index to retrieve the object's name, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
 
-Providers specify the index value in their initialization file. For details, see <a href="https://msdn.microsoft.com/6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4">Adding Counter Names and Descriptions to the Registry</a>.
+Providers specify the index value in their initialization file. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a>.
 
 
 ### -field ObjectNameTitle
@@ -92,9 +92,9 @@ Reserved.
 
 ### -field ObjectHelpTitleIndex
 
-Index to the object's help text in the title database.  For details on using the index to retrieve the object's help text, see <a href="https://msdn.microsoft.com/9ddd1672-61cf-41c2-bec0-0d2b775bf970">Retrieving Counter Names and Help Text</a>.
+Index to the object's help text in the title database.  For details on using the index to retrieve the object's help text, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/retrieving-counter-names-and-explanations">Retrieving Counter Names and Help Text</a>.
 
-Providers specify the index value in their initialization file. For details, see <a href="https://msdn.microsoft.com/6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4">Adding Counter Names and Descriptions to the Registry</a>.
+Providers specify the index value in their initialization file. For details, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/adding-counter-names-and-descriptions-to-the-registry">Adding Counter Names and Descriptions to the Registry</a>.
 
 
 ### -field ObjectHelpTitle
@@ -159,7 +159,7 @@ The counter data is provided for system designers.
 
 ### -field NumCounters
 
-Number of <a href="https://msdn.microsoft.com/faef043b-81e0-49b0-913f-d691bafd17e6">PERF_COUNTER_DEFINITION</a> blocks returned by the object.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> blocks returned by the object.
 
 
 ### -field DefaultCounter
@@ -174,21 +174,21 @@ Number of object instances for which counters are being provided. If the object 
 
 ### -field CodePage
 
-This member is zero if the instance strings are Unicode strings. Otherwise, this member is the code-page identifier of the instance names. You can use the code-page value when calling <a href="https://msdn.microsoft.com/a117fdfe-b52b-466f-9300-6455e91ea2a8">MultiByteToWideChar</a> to convert the string to Unicode.
+This member is zero if the instance strings are Unicode strings. Otherwise, this member is the code-page identifier of the instance names. You can use the code-page value when calling <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> to convert the string to Unicode.
 
 
 ### -field PerfTime
 
 Provider generated timestamp that consumers use when calculating counter values. For example, this could be the current value, in counts, of the high-resolution performance counter.
 
-Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfTime</b> value from <a href="https://msdn.microsoft.com/29f89719-7597-4f7b-879e-1670386f8396">PERF_DATA_BLOCK</a>.
+Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfTime</b> value from <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_data_block">PERF_DATA_BLOCK</a>.
 
 
 ### -field PerfFreq
 
 Provider generated frequency value that consumers use when calculating counter values. For example, this could be the current frequency, in counts per second, of the high-resolution performance counter.
 
-Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfFreq</b> value from <a href="https://msdn.microsoft.com/29f89719-7597-4f7b-879e-1670386f8396">PERF_DATA_BLOCK</a>.
+Providers need to provide this value if the counter types of their counters include the <b>PERF_OBJECT_TIMER</b> flag. Otherwise, consumers use the <b>PerfFreq</b> value from <a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_data_block">PERF_DATA_BLOCK</a>.
 
 
 ## -remarks
@@ -198,8 +198,8 @@ Providers need to provide this value if the counter types of their counters incl
 Providers use this structure to provide performance data for objects that they support. Consumers use this structure to consume performance data for objects that they queried.
 
  This structure is followed by a list of 
-<a href="https://msdn.microsoft.com/faef043b-81e0-49b0-913f-d691bafd17e6">PERF_COUNTER_DEFINITION</a> structures, one for each counter defined for the performance object.
-		For details on the layout of the performance data block, see <a href="https://msdn.microsoft.com/a68fa617-834c-4ad9-b922-fac3a648ad75">Performance Data Format</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a> structures, one for each counter defined for the performance object.
+		For details on the layout of the performance data block, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>.
 
 
 
@@ -209,15 +209,15 @@ Providers use this structure to provide performance data for objects that they s
 
 
 
-<a href="https://msdn.microsoft.com/faef043b-81e0-49b0-913f-d691bafd17e6">PERF_COUNTER_DEFINITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_counter_definition">PERF_COUNTER_DEFINITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/29f89719-7597-4f7b-879e-1670386f8396">PERF_DATA_BLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_data_block">PERF_DATA_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/a68fa617-834c-4ad9-b922-fac3a648ad75">Performance Data Format</a>
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>
  
 
  

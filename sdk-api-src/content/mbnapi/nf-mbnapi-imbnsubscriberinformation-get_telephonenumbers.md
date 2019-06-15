@@ -74,7 +74,7 @@ This value is not populated until the ready state reaches <b>MBN_READY_STATE_INI
 
 
 
-<a href="https://msdn.microsoft.com/ef7f5dc5-ed66-450c-9623-0c1d725d82c6">IMbnSubscriberInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsubscriberinformation">IMbnSubscriberInformation</a>
  
 
  

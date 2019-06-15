@@ -89,7 +89,7 @@ Developer Mode must be enabled for this interface to respond.
 
 
 
-<a href="https://msdn.microsoft.com/F192AC22-1FD9-496D-9943-99FB424DD214">ID3D12Tools</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12tools">ID3D12Tools</a>
  
 
  

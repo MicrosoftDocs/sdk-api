@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://msdn.microsoft.com/9a25abfb-5038-4869-ad70-1ae52e8cf599">IMFPMPServer::LockProcess</a>.
+Decrements the lock count on the protected media path (PMP) process. Call this method once for each call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmpserver-lockprocess">IMFPMPServer::LockProcess</a>.
 
 
 
@@ -96,7 +96,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/ba6dc70a-d77d-41de-afe1-65f2efcc4a95">IMFPMPServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a>
  
 
  

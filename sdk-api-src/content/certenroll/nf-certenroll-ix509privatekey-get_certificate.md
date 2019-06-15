@@ -63,9 +63,9 @@ This property is read/write.
 
 
 
-If the key is not open when you specify a  certificate, the certificate will be set when the key is opened. For more information, see the <a href="https://msdn.microsoft.com/965e3bf8-22b9-4015-8fb2-102c5f7b1cb5">Open</a> method.
+If the key is not open when you specify a  certificate, the certificate will be set when the key is opened. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-open">Open</a> method.
 
-The <b>Certificate</b> property compares the public key associated with the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object to the public key included in the certificate. The two keys must match.
+The <b>Certificate</b> property compares the public key associated with the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object to the public key included in the certificate. The two keys must match.
 
 
 
@@ -75,7 +75,7 @@ The <b>Certificate</b> property compares the public key associated with the <a h
 
 
 
-<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
  
 
  

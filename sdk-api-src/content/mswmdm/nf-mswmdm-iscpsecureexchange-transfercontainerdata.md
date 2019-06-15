@@ -84,7 +84,7 @@ Flag indicating which parts of the container file are ready to be read. This par
 </tr>
 <tr>
 <td>WMDM_SCP_TRANSFER_OBJECTDATA</td>
-<td>Data of the object is available by calling the <a href="https://msdn.microsoft.com/825539e4-9162-40b7-bae0-336e728fb34e">ObjectData</a> method.</td>
+<td>Data of the object is available by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-objectdata">ObjectData</a> method.</td>
 </tr>
 <tr>
 <td>WMDM_SCP_NO_MORE_CHANGES</td>
@@ -200,7 +200,7 @@ The <b>TransferComplete</b> method is called by Windows Media Device Manager to 
 
 
 
-<a href="https://msdn.microsoft.com/8c61e1a0-18fc-4ae9-881a-0362166012d9">ISCPSecureExchange Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
  
 
  

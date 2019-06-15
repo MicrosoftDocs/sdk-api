@@ -63,7 +63,7 @@ The <code>Run</code> method is called when the filter graph is entering a runnin
 
 ### -param tStart
 
-Stream-time offset that will be passed to every filter's <a href="https://msdn.microsoft.com/ec422312-bbc2-4b66-b2cd-1a9eebd1eee1">IMediaFilter::Run</a> method.
+Stream-time offset that will be passed to every filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-run">IMediaFilter::Run</a> method.
 
 
 ## -returns
@@ -89,11 +89,11 @@ This method is called before the filters are notified.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7c9ee95-9d68-45c5-a3ca-8d6071782851">IDistributorNotify Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>
  
 
  

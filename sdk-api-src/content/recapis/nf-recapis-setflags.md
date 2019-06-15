@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Specifies how the recognizer interprets the ink and determines the result string.
 
-Call this function before processing the ink for the first time. Therefore, call the <b>SetFlags</b> function before calling the <a href="https://msdn.microsoft.com/564a2734-1a90-4566-a39d-7e16eff870ff">Process</a> function.
+Call this function before processing the ink for the first time. Therefore, call the <b>SetFlags</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
 
 
 
@@ -244,7 +244,7 @@ The context is invalid or one of the parameters is an invalid pointer.
 
 
 
-Prior to Microsoft Windows XP Tablet PC Edition Development Kit 1.7, Tablet PC Input Panel performed smart spacing. Starting with Tablet PC SDK 1.7, Input Panel continues to produce results with preliminary spacing recommendations. Tablet PC Input Panel's spacing results may however be changed by the recognizer's recommendations (results). The recognizer is able to do this by using text contextual information (based on the <a href="https://msdn.microsoft.com/f5461326-3def-4564-81ea-32a63b889da0">SetTextContext</a> call made by Input Panel) and its internal language model rules.
+Prior to Microsoft Windows XP Tablet PC Edition Development Kit 1.7, Tablet PC Input Panel performed smart spacing. Starting with Tablet PC SDK 1.7, Input Panel continues to produce results with preliminary spacing recommendations. Tablet PC Input Panel's spacing results may however be changed by the recognizer's recommendations (results). The recognizer is able to do this by using text contextual information (based on the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext</a> call made by Input Panel) and its internal language model rules.
 
 Input Panel is able to determine whether the recognizer is capable of doing auto-spacing by calling this function with the RECOFLAG_AUTOSPACE flag set. If the recognizer does not support auto-spacing, E_INVALIDARG is returned.
 
@@ -258,11 +258,11 @@ Input Panel is able to determine whether the recognizer is capable of doing auto
 
 
 
-<a href="https://msdn.microsoft.com/f805b364-1e7b-4995-bda9-47bff87fcdfa">SetFactoid Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setfactoid">SetFactoid Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/f5461326-3def-4564-81ea-32a63b889da0">SetTextContext Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext Function</a>
  
 
  

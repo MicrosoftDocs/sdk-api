@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CreateCAConfiguration</b> method creates a new <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configuration and adds it to the configuration set.
+The <b>CreateCAConfiguration</b> method creates a new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration and adds it to the configuration set.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>CreateCAConfiguration</b> method creates a new <a href="https://msdn.micr
 
 ### -param bstrIdentifier [in]
 
-A string that contains a name for the new <a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a> object.
+A string that contains a name for the new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> object.
 
 
 ### -param varCACert [in]
@@ -69,7 +69,7 @@ An X.509 CA certificate.
 
 ### -param ppVal [out]
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a> interface for the newly created object.
+The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a> interface for the newly created object.
 
 
 ## -returns
@@ -79,13 +79,13 @@ The address of a pointer to an <a href="https://msdn.microsoft.com/57900e1e-9c51
 <h3>C++</h3>
 If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
 <h3>VB</h3>
 An 
-<a href="https://msdn.microsoft.com/57900e1e-9c51-4c1b-aa42-634b6c3a9999">IOCSPCAConfiguration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
  interface for the newly created object.
 
 
@@ -95,7 +95,7 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
  
 
  

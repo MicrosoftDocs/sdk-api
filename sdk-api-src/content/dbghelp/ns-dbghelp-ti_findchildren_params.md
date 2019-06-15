@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains type index information. It is used by the 
-<a href="https://msdn.microsoft.com/bc94a5b1-d49d-425a-89a8-c584c3979930">SymGetTypeInfo</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a> function.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ An array of type indexes. There is one index per child.
 
 
 
-<a href="https://msdn.microsoft.com/bc94a5b1-d49d-425a-89a8-c584c3979930">SymGetTypeInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfo">SymGetTypeInfo</a>
  
 
  

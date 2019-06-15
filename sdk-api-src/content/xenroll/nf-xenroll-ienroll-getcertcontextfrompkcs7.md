@@ -56,7 +56,7 @@ The <b>getCertContextFromPKCS7</b> method retrieves a  certificate context based
 
 This method retrieves the context for the single certificate that was issued even though a PKCS #7 message may contain many certificates specifying the certification chain of authority that issued the certificate.
 
-This method was first defined in the <a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a> interface.
+This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 
 ## -parameters
@@ -66,14 +66,14 @@ This method was first defined in the <a href="https://msdn.microsoft.com/5be210b
 
 ### -param pBlobPKCS7 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that represents the PKCS #7.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the PKCS #7.
 
 
 ## -returns
 
 
 
-The return value is a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> representing the certificate context, or <b>NULL</b> if the method fails.
+The return value is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> representing the certificate context, or <b>NULL</b> if the method fails.
 
 
 
@@ -83,11 +83,11 @@ The return value is a pointer to a <a href="https://msdn.microsoft.com/f0a3200e-
 
 
 
-<a href="https://msdn.microsoft.com/5be210b8-475a-4504-9cc0-5b02384e114e">IEnroll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
 
 
 
-<a href="https://msdn.microsoft.com/133529fb-e02a-41a2-83df-646cbc01dbe9">IEnroll2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
  
 
  

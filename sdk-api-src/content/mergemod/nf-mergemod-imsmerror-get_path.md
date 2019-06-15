@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>get_Path</b> method retrieves the 
-<a href="https://msdn.microsoft.com/b79dd347-acda-47d7-aa3b-c0f9a6ca1d3b">Path</a> property of the 
-<a href="https://msdn.microsoft.com/38025e21-2d31-40f8-a088-2d3912c2893e">Error</a> object.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-path">Path</a> property of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-object">Error</a> object.
 
 
 ## -parameters
@@ -122,7 +122,7 @@ The function succeeded.
 The client is responsible for freeing the resulting string using <b>SysFreeString</b>.
 
 In Windows Installer versions 1.0 and 1.1 
-<b>get_Path</b> always returns the empty string. Future versions of the class may use this function to return the path to the file or directory that could not be created. This value is only valid for errors of type msmErrorFileCreate or msmErrorDirCreate. You can determine the type of error by calling <a href="https://msdn.microsoft.com/733a5390-419d-414a-b50e-8400d179bfb6">IMsmError::get_Type</a>.
+<b>get_Path</b> always returns the empty string. Future versions of the class may use this function to return the path to the file or directory that could not be created. This value is only valid for errors of type msmErrorFileCreate or msmErrorDirCreate. You can determine the type of error by calling <a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nf-mergemod-imsmerror-get_type">IMsmError::get_Type</a>.
 
 
 
@@ -132,7 +132,7 @@ In Windows Installer versions 1.0 and 1.1
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

@@ -54,7 +54,7 @@ Exposes properties and methods that UI Automation client applications use to vie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTreeWalker</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationTreeWalker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationTreeWalker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationTreeWalker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationTreeWalker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f1df27c-664b-451a-8a1f-e4dbc70b1845">GetFirstChildElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getfirstchildelement">GetFirstChildElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first child element of the specified UI Automation element.
@@ -79,7 +79,7 @@ Retrieves the first child element of the specified UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42bdc6c4-8ee5-4338-aba1-9740221786c8">GetFirstChildElementBuildCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getfirstchildelementbuildcache">GetFirstChildElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the first child element of the specified UI Automation element, and caches properties and control patterns.
@@ -88,7 +88,7 @@ Retrieves the first child element of the specified UI Automation element, and ca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e59d8f6-1540-4077-9e0e-f75bf8846da9">GetLastChildElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getlastchildelement">GetLastChildElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last child element of the specified UI Automation element.
@@ -97,7 +97,7 @@ Retrieves the last child element of the specified UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a52172c-76d9-4ab7-98db-c880b2d11f68">GetLastChildElementBuildCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getlastchildelementbuildcache">GetLastChildElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last child element of the specified UI Automation element, and caches properties and control patterns.
@@ -106,7 +106,7 @@ Retrieves the last child element of the specified UI Automation element, and cac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1e42cb4-0b87-42c2-9ea5-67630c0b895a">GetNextSiblingElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getnextsiblingelement">GetNextSiblingElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next sibling element of the specified UI Automation element.
@@ -115,7 +115,7 @@ Retrieves the next sibling element of the specified UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71c29a02-11fa-41ee-816e-cb3a0bea3025">GetNextSiblingElementBuildCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getnextsiblingelementbuildcache">GetNextSiblingElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next sibling element of the specified UI Automation element, and caches properties and control patterns.
@@ -124,7 +124,7 @@ Retrieves the next sibling element of the specified UI Automation element, and c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eaff4d83-a614-4559-a357-dc2d241ecf67">GetParentElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getparentelement">GetParentElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parent element of the specified UI Automation element.
@@ -133,7 +133,7 @@ Retrieves the parent element of the specified UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a1d9805-bcd7-4c5d-ac61-138ac75a523e">GetParentElementBuildCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getparentelementbuildcache">GetParentElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parent element of the specified UI Automation element, and caches properties and control patterns.
@@ -142,7 +142,7 @@ Retrieves the parent element of the specified UI Automation element, and caches 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e05f421-d037-4d3b-908e-44ddd818a3f1">GetPreviousSiblingElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getprevioussiblingelement">GetPreviousSiblingElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the previous sibling element of the specified UI Automation element.
@@ -151,7 +151,7 @@ Retrieves the previous sibling element of the specified UI Automation element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09350915-0620-4c51-a4b5-25aa247d8241">GetPreviousSiblingElementBuildCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getprevioussiblingelementbuildcache">GetPreviousSiblingElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the previous sibling element of the specified UI Automation element, and caches properties and control patterns.
@@ -160,7 +160,7 @@ Retrieves the previous sibling element of the specified UI Automation element, a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62616711-a841-4273-8e38-0d2344659d03">NormalizeElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-normalizeelement">NormalizeElement</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ancestor element nearest to the specified UI Automation element in the tree view. 
@@ -169,7 +169,7 @@ Retrieves the ancestor element nearest to the specified UI Automation element in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62306545-1c5f-48ab-87c3-35bb6c3d94fa">NormalizeElementBuildCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-normalizeelementbuildcache">NormalizeElementBuildCache</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ancestor element nearest to the specified UI Automation element in the tree view, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
@@ -187,7 +187,7 @@ Retrieves the ancestor element nearest to the specified UI Automation element in
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e62989ac-6fcf-4648-9b81-40b508ceae71">Condition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-get_condition">Condition</a>
 
 
 </td>
@@ -207,9 +207,9 @@ Retrieves the condition that defines the view of the UI Automation tree.
 
 
 
-UI Automation clients view the elements on the desktop as a set of <a href="https://msdn.microsoft.com/46b31ab6-39aa-4df8-a421-6369c32a9605">IUIAutomation</a> objects arranged in a tree structure. Using the <b>IUIAutomationTreeWalker</b> interface, a client application can navigate by selecting a view of the tree and stepping from one element to another in a specified direction using methods such as <a href="https://msdn.microsoft.com/2f1df27c-664b-451a-8a1f-e4dbc70b1845">GetFirstChildElement</a> and <a href="https://msdn.microsoft.com/a1e42cb4-0b87-42c2-9ea5-67630c0b895a">GetNextSiblingElement</a>.
+UI Automation clients view the elements on the desktop as a set of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a> objects arranged in a tree structure. Using the <b>IUIAutomationTreeWalker</b> interface, a client application can navigate by selecting a view of the tree and stepping from one element to another in a specified direction using methods such as <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getfirstchildelement">GetFirstChildElement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-getnextsiblingelement">GetNextSiblingElement</a>.
 
-Navigating the tree using <b>IUIAutomationTreeWalker</b> can result in cross-process calls and is not as efficient as locating an element using the <a href="https://msdn.microsoft.com/ead73c6d-7fb8-4e00-b027-5d747268af08">IUIAutomationElement::FindAll</a> or <a href="https://msdn.microsoft.com/84098431-46e8-49bd-a258-337ad1d68f91">IUIAutomationElement::FindFirst</a> methods.
+Navigating the tree using <b>IUIAutomationTreeWalker</b> can result in cross-process calls and is not as efficient as locating an element using the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findall">IUIAutomationElement::FindAll</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirst">IUIAutomationElement::FindFirst</a> methods.
 
 If your client application might try to find elements in its own user interface, you must make all UI Automation calls on a separate thread.
 
@@ -221,11 +221,11 @@ If your client application might try to find elements in its own user interface,
 
 
 
-<a href="https://msdn.microsoft.com/c976bf97-656b-4992-b0c5-f442b501ad75">CreateTreeWalker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createtreewalker">CreateTreeWalker</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd7cdcf1-3511-424f-b729-b71a7e11cdd8">UI Automation Element Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
  
 
  

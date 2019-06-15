@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetSecureQuery</b> method is used to obtain a pointer to the <a href="https://msdn.microsoft.com/d5f96629-26a1-4e83-a6a8-2d60c463f407">ISCPSecureQuery</a> interface.
+The <b>GetSecureQuery</b> method is used to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a> interface.
 
 
 
@@ -63,7 +63,7 @@ The <b>GetSecureQuery</b> method is used to obtain a pointer to the <a href="htt
 
 ### -param ppSecureQuery [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/d5f96629-26a1-4e83-a6a8-2d60c463f407">ISCPSecureQuery</a> object.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a> object.
 
 
 ## -returns
@@ -80,11 +80,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/dfe37b41-f80b-4992-84c1-c23581cc4b69">ISCPSecureAuthenticate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate">ISCPSecureAuthenticate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5f96629-26a1-4e83-a6a8-2d60c463f407">ISCPSecureQuery Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
  
 
  

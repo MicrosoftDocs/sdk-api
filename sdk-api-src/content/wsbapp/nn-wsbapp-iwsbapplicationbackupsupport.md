@@ -54,7 +54,7 @@ Defines a method for checking the consistency of the application's VSS writer's 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWsbApplicationBackupSupport</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWsbApplicationBackupSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWsbApplicationBackupSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWsbApplicationBackupSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWsbApplicationBackupSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27ec1ee5-d612-48eb-8a5b-41e01c7f28d3">CheckConsistency</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbapp/nf-wsbapp-iwsbapplicationbackupsupport-checkconsistency">CheckConsistency</a>
 </td>
 <td align="left" width="63%">
 Checks the consistency of the VSS writer's components in the shadow copy after shadow copies are created for the volumes to be backed up.

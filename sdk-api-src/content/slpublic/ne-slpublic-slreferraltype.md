@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents the types of information that can be queried with the <a href="https://msdn.microsoft.com/880ee26d-4deb-415c-b1dd-f17d802ea8e8">SLGetReferralInformation</a> function.
+Represents the types of information that can be queried with the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetreferralinformation">SLGetReferralInformation</a> function.
 
 
 ## -enum-fields

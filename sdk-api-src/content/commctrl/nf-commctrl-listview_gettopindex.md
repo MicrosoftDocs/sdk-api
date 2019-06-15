@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761087(v=VS.85).aspx">LVM_GETTOPINDEX</a> message explicitly. 
+Gets the index of the topmost visible item when in list or report view. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lvm-gettopindex">LVM_GETTOPINDEX</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the index of the topmost visible item when in list or report view. You can 
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 

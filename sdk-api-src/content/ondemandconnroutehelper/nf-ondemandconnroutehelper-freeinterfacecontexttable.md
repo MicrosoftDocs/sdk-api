@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This function frees the interface context table retrieved using the <a href="https://msdn.microsoft.com/BD687853-6242-4A72-BACE-13B681FD4674">GetInterfaceContextTableForHostName</a> function.
+This function frees the interface context table retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a> function.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ This function frees the interface context table retrieved using the <a href="htt
 
 ### -param InterfaceContextTable [in]
 
-The interface context table retrieved using the <a href="https://msdn.microsoft.com/BD687853-6242-4A72-BACE-13B681FD4674">GetInterfaceContextTableForHostName</a> function.
+The interface context table retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a> function.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/BD687853-6242-4A72-BACE-13B681FD4674">GetInterfaceContextTableForHostName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a>
  
 
  

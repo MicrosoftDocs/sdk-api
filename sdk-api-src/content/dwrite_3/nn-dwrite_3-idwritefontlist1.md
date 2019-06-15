@@ -54,7 +54,7 @@ Represents a list of fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontList1</b> interface inherits from <a href="https://msdn.microsoft.com/00c41c5f-4405-45ff-98e5-03858dc3056f">IDWriteFontList</a>. <b>IDWriteFontList1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontList1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontList1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontList1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/206A103C-5847-4388-83EC-BE038DB20A09">GetFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfont">GetFont</a>
 </td>
 <td align="left" width="63%">
 Gets a font given its zero-based index.
@@ -78,7 +78,7 @@ Gets a font given its zero-based index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E8EFDD13-2B6E-4C50-9A5D-AFBB4C0AF08B">GetFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfontfacereference">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a font face reference given its zero-based index.
@@ -87,7 +87,7 @@ Gets a font face reference given its zero-based index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A48641B8-0BFF-42B9-A093-A26404EC22C5">GetFontLocality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontlist1-getfontlocality">GetFontLocality</a>
 </td>
 <td align="left" width="63%">
 Gets the current location of a font given its zero-based index.
@@ -102,7 +102,7 @@ Gets the current location of a font given its zero-based index.
 
 
 
-<a href="https://msdn.microsoft.com/00c41c5f-4405-45ff-98e5-03858dc3056f">IDWriteFontList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>
  
 
  

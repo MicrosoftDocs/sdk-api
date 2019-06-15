@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventProviderQuerySink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemEventProviderQuerySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemEventProviderQuerySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemEventProviderQuerySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWbemEventProviderQuerySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fdb56ea9-bd1a-436e-aaa7-3ae11e10f38e">CancelQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-cancelquery">CancelQuery</a>
 </td>
 <td align="left" width="63%">
 Called whenever a consumer query is canceled or unregistered.
@@ -79,7 +79,7 @@ Called whenever a consumer query is canceled or unregistered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82f76b19-2035-4567-b619-31ce8a35e422">NewQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-newquery">NewQuery</a>
 </td>
 <td align="left" width="63%">
 Called whenever a new consumer query is registered with WMI.
@@ -94,7 +94,7 @@ Called whenever a new consumer query is registered with WMI.
 
 
 Although WMI calls the methods of 
-<a href="https://msdn.microsoft.com/4b92923a-659d-4340-8843-eb42aea69d47">IWbemEventProvider</a> only one time after an event provider becomes active, WMI calls the methods of 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventprovider">IWbemEventProvider</a> only one time after an event provider becomes active, WMI calls the methods of 
 <b>IWbemEventProviderQuerySink</b> continuously, as appropriate. The provider can ignore all calls to 
 <b>IWbemEventProviderQuerySink</b> methods as needed. This point is very important; supporting 
 <b>IWbemEventProviderQuerySink</b> indicates that a provider will supply at least the events requested by queries.

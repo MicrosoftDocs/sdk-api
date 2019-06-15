@@ -59,7 +59,7 @@ The <b>RSVP_FILTERSPEC_V4_GPI</b> structure provides general port identifier inf
 
 ### -field Address
 
-IPv4 address for which the FILTERSPEC general port identifier applies, expressed as an <a href="https://msdn.microsoft.com/7e10cc9c-7ed4-449d-aeb9-21e3d75d0224">IN_ADDR_IPV4</a> union.
+IPv4 address for which the FILTERSPEC general port identifier applies, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv4">IN_ADDR_IPV4</a> union.
 
 
 ### -field GeneralPortId
@@ -71,7 +71,7 @@ General Port Identifier for the FILTERSPEC.
 
 
 
-When working with IPv6 addresses, use <a href="https://msdn.microsoft.com/ede040f4-4858-42d8-a4b5-af6e79c036d7">RSVP_FILTERSPEC_V6_GPI</a>.
+When working with IPv6 addresses, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a>.
 
 
 
@@ -81,11 +81,11 @@ When working with IPv6 addresses, use <a href="https://msdn.microsoft.com/ede040
 
 
 
-<a href="https://msdn.microsoft.com/7e10cc9c-7ed4-449d-aeb9-21e3d75d0224">IN_ADDR_IPV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv4">IN_ADDR_IPV4</a>
 
 
 
-<a href="https://msdn.microsoft.com/ede040f4-4858-42d8-a4b5-af6e79c036d7">RSVP_FILTERSPEC_V6_GPI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6_gpi">RSVP_FILTERSPEC_V6_GPI</a>
  
 
  

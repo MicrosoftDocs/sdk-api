@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string.
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://msdn.microsoft.com/79cd9499-03b7-4482-abd3-a42edd1b2b67">PathCchRenameExtension</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchrenameextension">PathCchRenameExtension</a> function in its place.</div><div> </div>
 
 ## -parameters
 

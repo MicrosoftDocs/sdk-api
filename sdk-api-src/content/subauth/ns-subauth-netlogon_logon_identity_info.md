@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>NETLOGON_LOGON_IDENTITY_INFO</b> structure is used to pass information about a user for logon <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subauthentication</a>.
+The <b>NETLOGON_LOGON_IDENTITY_INFO</b> structure is used to pass information about a user for logon <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication</a>.
 
 It is used by 
-<a href="https://msdn.microsoft.com/18d0da59-026a-4951-8529-f7dbaab20d08">Msv1_0SubAuthenticationRoutine</a> and 
-<a href="https://msdn.microsoft.com/d7162830-8cab-4ec1-afcb-7892f5e435d3">Msv1_0SubAuthenticationFilter</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/nf-subauth-msv1_0subauthenticationroutine">Msv1_0SubAuthenticationRoutine</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/nf-subauth-msv1_0subauthenticationfilter">Msv1_0SubAuthenticationFilter</a>.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ It is used by
 ### -field LogonDomainName
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the name of the logon domain. The specified domain name must be a domain that is trusted by this machine. If the logon domain is unknown, such as a down-level client that does not supply this information, this member should be <b>NULL</b>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the logon domain. The specified domain name must be a domain that is trusted by this machine. If the logon domain is unknown, such as a down-level client that does not supply this information, this member should be <b>NULL</b>. 
 
 
 ### -field ParameterControl
@@ -87,7 +87,7 @@ Specifies attributes of the other function parameters.
 </dl>
 </td>
 <td width="60%">
-Specifies that <b>CaseSensitiveChallengeResponse</b> and <b>CaseInsensitiveChallengeResponse</b> are allowed to be the user's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a> password.
+Specifies that <b>CaseSensitiveChallengeResponse</b> and <b>CaseInsensitiveChallengeResponse</b> are allowed to be the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a> password.
 
 </td>
 </tr>
@@ -97,17 +97,17 @@ Specifies that <b>CaseSensitiveChallengeResponse</b> and <b>CaseInsensitiveChall
 
 ### -field LogonId
 
-Uniquely identifies the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a>.
+Uniquely identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
 					
 
 
 ### -field UserName
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> identifying the account name of the user attempting to log on.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> identifying the account name of the user attempting to log on.
 
 
 ### -field Workstation
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> identifying the workstation from which the user is attempting to log on. <b>NULL</b> indicates that the workstation identity is unknown.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> identifying the workstation from which the user is attempting to log on. <b>NULL</b> indicates that the workstation identity is unknown.
 

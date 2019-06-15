@@ -62,12 +62,12 @@ The <b>TF_SELECTION</b> structure contains text selection data.
 
 ### -field range
 
-Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that specifies the selected text.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the selected text.
 
 
 ### -field style
 
-A <a href="https://msdn.microsoft.com/3a38172b-611b-445f-be24-ea2a19178255">TF_SELECTIONSTYLE</a> structure that contains selection data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE</a> structure that contains selection data.
 
 
 ## -see-also
@@ -75,22 +75,22 @@ A <a href="https://msdn.microsoft.com/3a38172b-611b-445f-be24-ea2a19178255">TF_S
 
 
 
-<a href="https://msdn.microsoft.com/08b67fd5-aebe-49f7-af78-6f49c8f47f64">ITfContext::GetSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getselection">ITfContext::GetSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf50b5e-6ec2-4649-9acc-743a2e3d8096">ITfContext::SetSelection
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-setselection">ITfContext::SetSelection
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/3a38172b-611b-445f-be24-ea2a19178255">TF_SELECTIONSTYLE
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE
       </a>
  
 

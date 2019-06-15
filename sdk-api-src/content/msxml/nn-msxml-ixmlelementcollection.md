@@ -54,7 +54,7 @@ The <b>IXMLElementCollection</b> interface supports collection of XML elements f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLElementCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IXMLElementCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXMLElementCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IXMLElementCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXMLElementCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb9236ad-378e-499e-8ab5-ed5bd327ef95">get_length</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml/nf-msxml-ixmlelementcollection-get_length">get_length</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of elements in the collection.
@@ -78,7 +78,7 @@ Retrieves the number of elements in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3851fe72-b826-4948-ba74-638229429345">item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msxml/nf-msxml-ixmlelementcollection-item">item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the child elements from a collection.

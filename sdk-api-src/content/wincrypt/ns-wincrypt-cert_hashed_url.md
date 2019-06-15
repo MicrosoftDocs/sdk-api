@@ -59,12 +59,12 @@ The <b>CERT_HASHED_URL</b> structure contains a hashed URL.
 
 ### -field HashAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the hash algorithm used to create the URL hash.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the hash algorithm used to create the URL hash.
 
 
 ### -field Hash
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> structure that contains the hash value.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains the hash value.
 
 
 ### -field pwszUrl
@@ -77,15 +77,15 @@ The address of a null-terminated Unicode string that contains the URL. This memb
 
 
 
-<a href="https://msdn.microsoft.com/544297e2-b6a6-4a33-94b6-47066262506a">CERT_BIOMETRIC_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_biometric_data">CERT_BIOMETRIC_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/cde420a8-c755-4c45-ab81-4897b08d9dd6">CERT_LOGOTYPE_DETAILS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_details">CERT_LOGOTYPE_DETAILS</a>
 
 
 
-<a href="https://msdn.microsoft.com/22e6492e-afc2-4160-ad6c-0b65265eafeb">CERT_LOGOTYPE_REFERENCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_logotype_reference">CERT_LOGOTYPE_REFERENCE</a>
  
 
  

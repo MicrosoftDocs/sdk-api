@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param ptid [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/984dc390-6e15-4491-8c06-77c27c5bdd6f">TfClientId</a> value that receives a client identifier.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
 
 
 ## -returns
@@ -116,7 +116,7 @@ This method was called while the thread was deactivated.
 
 
 
-This method can be called more than once from a thread, but each call must be matched with a corresponding call to <a href="https://msdn.microsoft.com/5ED1A430-27C3-44BA-BF17-B5FB9D4C7087">Deactivate</a> from the same thread.
+This method can be called more than once from a thread, but each call must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-deactivate">Deactivate</a> from the same thread.
 
 
 
@@ -126,7 +126,7 @@ This method can be called more than once from a thread, but each call must be ma
 
 
 
-<a href="https://msdn.microsoft.com/B80A0DBA-349A-450D-BD9D-14BD36308590">ITfThreadMgr2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
  
 
  

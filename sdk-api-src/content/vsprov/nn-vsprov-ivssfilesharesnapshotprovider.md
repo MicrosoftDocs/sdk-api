@@ -57,7 +57,7 @@ Contains the methods used by VSS to manage shadow copy volumes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssFileShareSnapshotProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVssFileShareSnapshotProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssFileShareSnapshotProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssFileShareSnapshotProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVssFileShareSnapshotProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16df1cbd-dbb0-41d1-a713-a80e53ea96d0">BeginPrepareSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-beginpreparesnapshot">BeginPrepareSnapshot</a>
 </td>
 <td align="left" width="63%">
 VSS calls this method for each shadow copy that is added to the shadow copy set.
@@ -81,7 +81,7 @@ VSS calls this method for each shadow copy that is added to the shadow copy set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3fd48346-8a85-4ddf-9a6d-ac0cb82d4133">DeleteSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-deletesnapshots">DeleteSnapshots</a>
 </td>
 <td align="left" width="63%">
 Deletes specific snapshots, or all snapshots in a specified snapshot set.
@@ -90,16 +90,16 @@ Deletes specific snapshots, or all snapshots in a specified snapshot set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db133f55-ed26-4e10-8de1-305bb52de84c">GetSnapshotProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-getsnapshotproperties">GetSnapshotProperties</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure for a file share snapshot.  
+Gets the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for a file share snapshot.  
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a885d5d-a441-4567-b562-39820fa7ffc1">IsPathSnapshotted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-ispathsnapshotted">IsPathSnapshotted</a>
 </td>
 <td align="left" width="63%">
 Determines whether the given UNC path currently has any snapshots.
@@ -108,7 +108,7 @@ Determines whether the given UNC path currently has any snapshots.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6a4db9dd-3854-414f-ba5c-83e36de6f19b">IsPathSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-ispathsupported">IsPathSupported</a>
 </td>
 <td align="left" width="63%">
 Determines whether the given UNC path is supported by this provider.  
@@ -117,16 +117,16 @@ Determines whether the given UNC path is supported by this provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/686d2104-f657-4c3b-967b-d6fb9137be17">Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-query">Query</a>
 </td>
 <td align="left" width="63%">
-Gets an enumeration of <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structures for all file share snapshots  that are available to the application server.  
+Gets an enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structures for all file share snapshots  that are available to the application server.  
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28e53076-4d8e-4f24-83b0-d0aaf7260802">SetContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-setcontext">SetContext</a>
 </td>
 <td align="left" width="63%">
 Sets the context for the subsequent shadow copy-related operations.  
@@ -135,7 +135,7 @@ Sets the context for the subsequent shadow copy-related operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62a3a189-b14c-434d-98b9-ea4c247e2439">SetSnapshotProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssfilesharesnapshotprovider-setsnapshotproperty">SetSnapshotProperty</a>
 </td>
 <td align="left" width="63%">
 Requests the provider to set a property value for the specified snapshot.  

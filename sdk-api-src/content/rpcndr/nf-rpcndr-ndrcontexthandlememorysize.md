@@ -59,7 +59,7 @@ The <b>NdrContextHandleMemorySize</b> function returns the size of the supplied 
 
 ### -param pStubMsg
 
-Pointer to a <a href="https://msdn.microsoft.com/9bd021f6-10c9-4e77-be75-9a89a3a016e0">MIDL_STUB_MESSAGE</a> structure that contains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the context handle, in bytes. Structure is for internal use only; do not modify.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-_midl_stub_message">MIDL_STUB_MESSAGE</a> structure that contains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the context handle, in bytes. Structure is for internal use only; do not modify.
 
 
 ### -param pFormat
@@ -81,7 +81,7 @@ Returns the size of the context handle in memory, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/f5f90887-67b2-4796-96b2-2607b9284387">NdrContextHandleSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-ndrcontexthandlesize">NdrContextHandleSize</a>
  
 
  

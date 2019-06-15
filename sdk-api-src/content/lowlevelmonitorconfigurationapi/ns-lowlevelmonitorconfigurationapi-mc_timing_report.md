@@ -80,11 +80,11 @@ Timing status byte. For more information about this value, see the Display Data 
 
 
 
-<a href="https://msdn.microsoft.com/17b5a7e4-936f-451f-b586-032f94a99be5">GetTimingReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lowlevelmonitorconfigurationapi/nf-lowlevelmonitorconfigurationapi-gettimingreport">GetTimingReport</a>
 
 
 
-<a href="https://msdn.microsoft.com/4aca3a00-d2c6-42a6-9143-72e42c1d33bb">Monitor Configuration Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-structures">Monitor Configuration Structures</a>
  
 
  

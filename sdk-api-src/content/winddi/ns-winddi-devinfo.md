@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DEVINFO structure provides information about the driver and its private <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> to the graphics engine. 
+The DEVINFO structure provides information about the driver and its private <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> to the graphics engine. 
 
 
 ## -struct-fields
@@ -162,7 +162,7 @@ GCAPS_DITHERONREALIZE
 
 </td>
 <td>
-Specifies that GDI can call <a href="https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f">DrvRealizeBrush</a> with the RGB to be dithered directly.
+Specifies that GDI can call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a> with the RGB to be dithered directly.
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ GCAPS_HORIZSTRIKE
 
 </td>
 <td>
-This flag is obsolete. In legacy drivers, this flag indicates that the driver handles horizontal strikeouts in <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>.
+This flag is obsolete. In legacy drivers, this flag indicates that the driver handles horizontal strikeouts in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>.
 
 </td>
 </tr>
@@ -262,7 +262,7 @@ GCAPS_LAYERED
 
 </td>
 <td>
-Indicates that this is a layer or <a href="https://msdn.microsoft.com/a1ec4764-4e11-4fb2-b439-ad6b721eb504">mirror driver</a> for remoting. Printer drivers cannot be layer drivers.
+Indicates that this is a layer or <a href="https://docs.microsoft.com/windows-hardware/drivers/">mirror driver</a> for remoting. Printer drivers cannot be layer drivers.
 
 </td>
 </tr>
@@ -302,7 +302,7 @@ GCAPS_OPAQUERECT
 
 </td>
 <td>
-Handles opaque rectangles in <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>.
+Handles opaque rectangles in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>.
 
 </td>
 </tr>
@@ -322,7 +322,7 @@ GCAPS_PANNING
 
 </td>
 <td>
-When GDI is simulating the pointer, it should call <a href="https://msdn.microsoft.com/eb117f39-0823-4eb7-8628-fa4399a13ec6">DrvMovePointer</a> to notify the driver of the current cursor position. This allows the driver to handle panning virtual displays.
+When GDI is simulating the pointer, it should call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvmovepointer">DrvMovePointer</a> to notify the driver of the current cursor position. This allows the driver to handle panning virtual displays.
 
 </td>
 </tr>
@@ -342,7 +342,7 @@ GCAPS_VECTORFONT
 
 </td>
 <td>
-Handles stroking of vector fonts in <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>.
+Handles stroking of vector fonts in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>.
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ GCAPS_VERTSTRIKE
 
 </td>
 <td>
-This flag is obsolete. In legacy drivers, this flag indicated that the driver handled vertical strikeouts in <a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>.
+This flag is obsolete. In legacy drivers, this flag indicated that the driver handled vertical strikeouts in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>.
 
 </td>
 </tr>
@@ -362,7 +362,7 @@ GCAPS_WINDINGFILL
 
 </td>
 <td>
-Handles winding mode fills. See <a href="https://msdn.microsoft.com/fa1fb4b9-5ed6-44a2-8a9e-0c1c82f5ea39">Path Fill Modes</a> for more information.
+Handles winding mode fills. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/path-fill-modes">Path Fill Modes</a> for more information.
 
 </td>
 </tr>
@@ -397,7 +397,7 @@ Is an Extended Logical Font structure that specifies the default fixed-pitch (mo
 
 ### -field cFonts
 
-Specifies the number of device fonts. GDI assumes that the device can draw text with this number of fonts on its own surfaces and that the driver can provide metrics information about the fonts. If the driver sets <b>cFonts</b> to -1, GDI will wait until fonts are needed to query the driver for the actual number of fonts it supports in a call to <a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a>.
+Specifies the number of device fonts. GDI assumes that the device can draw text with this number of fonts on its own surfaces and that the driver can provide metrics information about the fonts. If the driver sets <b>cFonts</b> to -1, GDI will wait until fonts are needed to query the driver for the actual number of fonts it supports in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>.
 
 
 ### -field iDitherFormat
@@ -523,7 +523,7 @@ Specify the dimensions of a dithered brush. If these members are nonzero, then t
 
 ### -field hpalDefault
 
-Handle to the default palette for the device. The driver should create the palette by calling <a href="https://msdn.microsoft.com/99b27e11-5a5f-4fa7-9cd0-422d24425fa1">EngCreatePalette</a>. The driver associates a palette with a device by returning this handle to GDI.
+Handle to the default palette for the device. The driver should create the palette by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>. The driver associates a palette with a device by returning this handle to GDI.
 
 
 ### -field flGraphicsCaps2
@@ -551,7 +551,7 @@ GCAPS2_CHANGEGAMMARAMP
 
 </td>
 <td>
-The display device has a loadable hardware <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">gamma ramp</a>.
+The display device has a loadable hardware <a href="https://docs.microsoft.com/windows-hardware/drivers/">gamma ramp</a>.
 
 </td>
 </tr>
@@ -561,7 +561,7 @@ GCAPS2_EXCLUDELAYERED
 
 </td>
 <td>
-Indicates that this is an accessibility mirror driver. Mirror drivers that do not set this flag will still receive drawing primitives for layered HWNDs. See <a href="https://msdn.microsoft.com/7231375a-969b-4c55-83d4-96ba5caade20">Mirror Drivers</a> for more information.
+Indicates that this is an accessibility mirror driver. Mirror drivers that do not set this flag will still receive drawing primitives for layered HWNDs. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/mirror-drivers">Mirror Drivers</a> for more information.
 
 </td>
 </tr>
@@ -571,7 +571,7 @@ GCAPS2_ICD_MULTIMON
 
 </td>
 <td>
-Informs GDI that the driver intends to handle <a href="https://msdn.microsoft.com/b2211639-13ae-455c-97ef-8145318af591">DrvSetPixelFormat</a>, <a href="https://msdn.microsoft.com/7c630694-e076-4ab2-a2c9-262c7c5da988">DrvDescribePixelFormat</a>, and <a href="https://msdn.microsoft.com/2fee2f9d-85fd-4b21-83be-11469fede71a">DrvSwapBuffers</a> calls in a multimon environment, even when the rectangle in the operation also intersects another device. Only one device is ever given the opportunity to handle those calls. If the capability is not specified and the region involved intersects more than one device, no driver is called.
+Informs GDI that the driver intends to handle <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpixelformat">DrvSetPixelFormat</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdescribepixelformat">DrvDescribePixelFormat</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvswapbuffers">DrvSwapBuffers</a> calls in a multimon environment, even when the rectangle in the operation also intersects another device. Only one device is ever given the opportunity to handle those calls. If the capability is not specified and the region involved intersects more than one device, no driver is called.
 
 </td>
 </tr>
@@ -581,7 +581,7 @@ GCAPS2_INCLUDEAPIBITMAPS
 
 </td>
 <td>
-When drawing calls are made to a device-independent bitmap (DIB), an accessibility mirror driver will be called. See <a href="https://msdn.microsoft.com/7231375a-969b-4c55-83d4-96ba5caade20">Mirror Drivers</a> for more information.
+When drawing calls are made to a device-independent bitmap (DIB), an accessibility mirror driver will be called. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/mirror-drivers">Mirror Drivers</a> for more information.
 
 </td>
 </tr>
@@ -591,7 +591,7 @@ GCAPS2_JPEGSRC
 
 </td>
 <td>
-Device can accept JPEG compressed images (that is, images for which BMF_JPEG is set in the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure).
+Device can accept JPEG compressed images (that is, images for which BMF_JPEG is set in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure).
 
 </td>
 </tr>
@@ -601,7 +601,7 @@ GCAPS2_MOUSETRAILS
 
 </td>
 <td>
-Indicates that the driver supports mouse trails (a succession of cursor images showing the mouse's location during a short period of time). The driver is capable of handling the values GDI sends in the <i>fl</i> parameter of the <a href="https://msdn.microsoft.com/3cc186df-572b-48ed-ac0b-56c8d91a9794">DrvSetPointerShape</a> function. The driver should use the SPS_LENGTHMASK and SPS_FREQMASK masks to obtain values for the length and frequency of the mouse trails. See <b>DrvSetPointerShape</b> for more information about these masks.
+Indicates that the driver supports mouse trails (a succession of cursor images showing the mouse's location during a short period of time). The driver is capable of handling the values GDI sends in the <i>fl</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpointershape">DrvSetPointerShape</a> function. The driver should use the SPS_LENGTHMASK and SPS_FREQMASK masks to obtain values for the length and frequency of the mouse trails. See <b>DrvSetPointerShape</b> for more information about these masks.
 
 </td>
 </tr>
@@ -611,7 +611,7 @@ GCAPS2_PNGSRC
 
 </td>
 <td>
-Device can accept PNG compressed images (that is, images for which BMF_PNG is set in the <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure).
+Device can accept PNG compressed images (that is, images for which BMF_PNG is set in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure).
 
 </td>
 </tr>
@@ -621,7 +621,7 @@ GCAPS2_SYNCFLUSH
 
 </td>
 <td>
-The driver supports a programmatic-based flush mechanism for batched graphics DDI calls. <a href="https://msdn.microsoft.com/717e0738-71a0-45e1-a479-337fab2998ab">DrvSynchronizeSurface</a> will be called whenever GDI must flush any drawing that is being batched by the driver.
+The driver supports a programmatic-based flush mechanism for batched graphics DDI calls. <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a> will be called whenever GDI must flush any drawing that is being batched by the driver.
 
 </td>
 </tr>
@@ -631,7 +631,7 @@ GCAPS2_SYNCTIMER
 
 </td>
 <td>
-The driver supports a timer-based flush mechanism for batched graphics DDI calls. <a href="https://msdn.microsoft.com/717e0738-71a0-45e1-a479-337fab2998ab">DrvSynchronizeSurface</a> will be called periodically, based on a timer interval determined by GDI.
+The driver supports a timer-based flush mechanism for batched graphics DDI calls. <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a> will be called periodically, based on a timer interval determined by GDI.
 
 </td>
 </tr>
@@ -643,17 +643,17 @@ The driver supports a timer-based flush mechanism for batched graphics DDI calls
 
 
 
-The driver's <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a> function fills in a DEVINFO structure; the driver should set only the members that are relevant to it. This structure is zero-initialized by GDI before <b>DrvEnablePDEV</b> is called. Applications do not have direct access to this structure.
+The driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function fills in a DEVINFO structure; the driver should set only the members that are relevant to it. This structure is zero-initialized by GDI before <b>DrvEnablePDEV</b> is called. Applications do not have direct access to this structure.
 
 If a driver sets GCAPS2_JPEGSRC or GCAPS2_PNGSRC in <b>flGraphicsCaps2</b>, the following rules apply:
 
 <ul>
 <li>
-The driver must provide a <a href="https://msdn.microsoft.com/684c5dd5-edf0-4b7d-888c-c01eb9670846">DrvQueryDeviceSupport</a> function.
+The driver must provide a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvquerydevicesupport">DrvQueryDeviceSupport</a> function.
 
 </li>
 <li>
-Every driver-defined graphics DDI function that receives a <a href="https://msdn.microsoft.com/cee7cb50-1e8a-422b-aebe-7030ae96fb34">SURFOBJ</a> structure as input must be able to either support the compressed format or return an error code. In the case of printer drivers, to support the compressed format, the driver must be able to perform either one of the following tasks:
+Every driver-defined graphics DDI function that receives a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure as input must be able to either support the compressed format or return an error code. In the case of printer drivers, to support the compressed format, the driver must be able to perform either one of the following tasks:
 
 
 <ul>
@@ -685,19 +685,19 @@ For driver-defined graphics DDI functions that receive a ROP4 input argument, on
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ba6c8e3-9707-48dd-98d9-072f3eee8cd0">DrvQueryFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/2948f274-cef2-4fcf-9607-79540b6e5a5f">DrvRealizeBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2f61687-d833-4d09-8cd5-99e81436c1c1">DrvTextOut</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
  
 
  

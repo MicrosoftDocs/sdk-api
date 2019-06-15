@@ -70,7 +70,7 @@ A pointer to a variable of type <b>HRESULT</b> that, when this method returns, i
 
 Type: <b>IXMLDOMDocument**</b>
 
-Address of an <a href="https://msdn.microsoft.com/library/Dd892951(v=VS.85).aspx">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
+Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd892951(v=vs.85)">IXMLDOMDocument interface</a> pointer that, when this method returns, points to the <b>IXMLDOMDocument interface</b> object that represents the manifest. This value can be <b>NULL</b>.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The transfer manifest has not yet been created.
 
 
 
-The transfer manifest is not created until the wizard is actually displayed. For information on displaying a publishing wizard, see the <a href="https://msdn.microsoft.com/634dcc04-e2ed-4cde-bb4d-d2e8bcf5ab94">IPublishingWizard</a> topic.
+The transfer manifest is not created until the wizard is actually displayed. For information on displaying a publishing wizard, see the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a> topic.
 
 
 
@@ -117,15 +117,15 @@ The transfer manifest is not created until the wizard is actually displayed. For
 
 
 
-<a href="https://msdn.microsoft.com/634dcc04-e2ed-4cde-bb4d-d2e8bcf5ab94">IPublishingWizard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipublishingwizard">IPublishingWizard</a>
 
 
 
-<a href="https://msdn.microsoft.com/488b6fc9-ff85-4860-9cd5-61d5de7e15e8">Transfer Manifest Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/interfaces">Transfer Manifest Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7bb541c-3bf4-4aab-ac70-c006517e772e">Using the Transfer Manifest</a>
+<a href="https://docs.microsoft.com/windows/desktop/lwef/pubwiz-manifest">Using the Transfer Manifest</a>
  
 
  

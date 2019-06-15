@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-To specify command-line arguments for the task, see the <a href="https://msdn.microsoft.com/3062688f-a612-4824-beae-b75687b4feed">IAlertDataCollector::TaskArguments</a> and <a href="https://msdn.microsoft.com/d432652a-3dea-43f0-a698-bb7ccb1cb79a">IAlertDataCollector::TaskUserTextArguments</a> properties. 
+To specify command-line arguments for the task, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskarguments">IAlertDataCollector::TaskArguments</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">IAlertDataCollector::TaskUserTextArguments</a> properties. 
 
 To start the task in the directory where PLA is collecting the data, set the task's <b>Start in</b> field to $(Arg1).
 
@@ -75,7 +75,7 @@ To start the task in the directory where PLA is collecting the data, set the tas
 
 
 
-<a href="https://msdn.microsoft.com/61907979-fa4a-45da-96c5-7cd12021fbb7">IAlertDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
  
 
  

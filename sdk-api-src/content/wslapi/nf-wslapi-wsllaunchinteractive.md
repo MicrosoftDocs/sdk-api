@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.This differs from <a href="https://msdn.microsoft.com/0C88BCF8-9FFC-4D7C-9A7C-F56F9A4FD7FC">WslLaunch</a> in that the end user will be able to interact with the newly-created process.
+Launches an interactive Windows Subsystem for Linux (WSL) process in the context of a particular distribution.This differs from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wslapi/nf-wslapi-wsllaunch">WslLaunch</a> in that the end user will be able to interact with the newly-created process.
 
 
 ## -parameters

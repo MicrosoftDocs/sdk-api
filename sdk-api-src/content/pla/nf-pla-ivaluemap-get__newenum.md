@@ -66,7 +66,7 @@ This property is read-only.
 
 The enumeration is a snapshot of the collection at the time of the call.
 
-The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="https://msdn.microsoft.com/5fab2a62-d974-49f7-ac81-c704d9d8624c">IValueMapItem</a> interface, use the <b>punkVal</b> member of the variant.
+The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a> interface, use the <b>punkVal</b> member of the variant.
 
 
 
@@ -76,7 +76,7 @@ The items of the enumeration are variants whose type is VT_UNKNOWN. To query for
 
 
 
-<a href="https://msdn.microsoft.com/a7134395-91c6-4ea1-8b76-63830048289f">IValueMap</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
  
 
  

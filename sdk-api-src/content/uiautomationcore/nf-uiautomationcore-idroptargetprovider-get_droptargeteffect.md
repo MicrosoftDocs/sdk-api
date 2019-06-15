@@ -64,7 +64,7 @@ This property is read-only.
 
 This property describes the default effect that happens when the user drops a grabbed element on a target, such as moving or copying the element.  This property can be a short string such as "move", or a longer one such as "insert into Main group".  The string is always localized.
 
-If this property changes, the provider must notify clients by firing a <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_AutomationPropertyChangedEventId</a> event. 
+If this property changes, the provider must notify clients by firing a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_AutomationPropertyChangedEventId</a> event. 
 
 
 
@@ -92,7 +92,7 @@ IFACEMETHODIMP CRegionProvider::get_DropTargetEffect(BSTR * pDefaultDropAction)
 
 
 
-<a href="https://msdn.microsoft.com/ECCDC429-4829-46E0-AE77-270024E2DA48">IDropTargetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider">IDropTargetProvider</a>
  
 
  

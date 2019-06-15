@@ -92,7 +92,7 @@ Failure due to server communication.
 
 
 
-<a href="https://msdn.microsoft.com/dbf2978f-062a-417b-a6df-a82879e10ec8">FailureCategoryMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagfailurecategorymapping">FailureCategoryMapping</a>
  
 
  

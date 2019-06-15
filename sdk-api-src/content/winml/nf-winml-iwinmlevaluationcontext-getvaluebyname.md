@@ -68,7 +68,7 @@ The name of the binding.
 
 ### -param pDescriptor [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/928C2AD0-73DD-4ECA-AC54-36ED84A9E4E6">WINML_BINDING_DESC</a> containing the specified (Name) binding description.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winml/ns-winml-winml_binding_desc">WINML_BINDING_DESC</a> containing the specified (Name) binding description.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/D4C9B16A-B351-41E4-AD42-20C25F3CC404">IWinMLEvaluationContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winml/nn-winml-iwinmlevaluationcontext">IWinMLEvaluationContext</a>
  
 
  

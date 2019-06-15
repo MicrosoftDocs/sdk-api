@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OCSPCAConfigurationCollection</b> property gets an instance of an <b>OCSPCAConfigurationCollection</b> object. This object represents the set of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
+The <b>OCSPCAConfigurationCollection</b> property gets an instance of an <b>OCSPCAConfigurationCollection</b> object. This object represents the set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificates for which an Online Certificate Status Protocol (OCSP) responder service can handle status requests.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
  
 
  

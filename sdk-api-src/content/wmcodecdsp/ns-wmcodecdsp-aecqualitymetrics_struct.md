@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains quality metrics for acoustic echo cancellation (AEC). This structure is used with the <a href="https://msdn.microsoft.com/c44462be-ccdf-4a49-bb77-6e816def4849">MFPKEY_WMAAECMA_RETRIEVE_TS_STATS</a> property.
+Contains quality metrics for acoustic echo cancellation (AEC). This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-retrieve-ts-statsproperty">MFPKEY_WMAAECMA_RETRIEVE_TS_STATS</a> property.
 
 
 
@@ -166,11 +166,11 @@ Reserved
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c77c8f6-289e-4130-b56a-e1f0bcc40f3e">Voice Capture DSP</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/voicecapturedmo">Voice Capture DSP</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides target feedback to the user and communicates the drop's effect to the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function so it can communicate the effect of the drop back to the source.
+Provides target feedback to the user and communicates the drop's effect to the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function so it can communicate the effect of the drop back to the source.
 
 
 ## -parameters
@@ -64,12 +64,12 @@ The current state of the keyboard modifier keys on the keyboard. Valid values ca
 
 ### -param pt [in]
 
-A <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
+A <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
 
 
 ### -param pdwEffect [in, out]
 
-On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function. On return, must contain one of the <a href="https://msdn.microsoft.com/d8e46899-3fbf-4012-8dd3-67fa627526d5">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
+On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. On return, must contain one of the <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
 
 
 ## -returns
@@ -126,9 +126,9 @@ There was insufficient memory available for this operation.
 
 
 
-You do not call <b>DragOver</b> directly. The <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function calls this method each time the user moves the mouse across a given target window. <b>DoDragDrop</b> exits the loop if the drag-and-drop operation is canceled, if the user drags the mouse out of the target window, or if the drop is completed.
+You do not call <b>DragOver</b> directly. The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method each time the user moves the mouse across a given target window. <b>DoDragDrop</b> exits the loop if the drag-and-drop operation is canceled, if the user drags the mouse out of the target window, or if the drop is completed.
 
-In implementing <b>IDropTarget::DragOver</b>, you must provide features similar to those in <a href="https://msdn.microsoft.com/2e4d7013-910c-4a6e-8eee-818e1f2302ac">IDropTarget::DragEnter</a>. You must determine the effect of dropping the data on the target by examining the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> defining the data object's formats and medium, along with the state of the modifier keys. The mouse position may also play a role in determining the effect of a drop. The following modifier keys affect the result of the drop.
+In implementing <b>IDropTarget::DragOver</b>, you must provide features similar to those in <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>. You must determine the effect of dropping the data on the target by examining the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> defining the data object's formats and medium, along with the state of the modifier keys. The mouse position may also play a role in determining the effect of a drop. The following modifier keys affect the result of the drop.
 
 <table>
 <tr>
@@ -162,20 +162,20 @@ In implementing <b>IDropTarget::DragOver</b>, you must provide features similar 
 </table>
  
 
-You communicate the effect of the drop back to the source through <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> in <i>pdwEffect</i>. The <b>DoDragDrop</b> function then calls <a href="https://msdn.microsoft.com/dde37299-ad7c-4f59-af99-e75b72ad9188">IDropSource::GiveFeedback</a> so the source application can display the appropriate visual feedback to the user.
+You communicate the effect of the drop back to the source through <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> in <i>pdwEffect</i>. The <b>DoDragDrop</b> function then calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idropsource-givefeedback">IDropSource::GiveFeedback</a> so the source application can display the appropriate visual feedback to the user.
 
-On entry to <b>IDropTarget::DragOver</b>, the <i>pdwEffect</i> parameter must be set to the allowed effects passed to the <i>pdwOkEffect</i> parameter of the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function. The <b>IDropTarget::DragOver</b> method must be able to choose one of these effects or disable the drop.
+On entry to <b>IDropTarget::DragOver</b>, the <i>pdwEffect</i> parameter must be set to the allowed effects passed to the <i>pdwOkEffect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. The <b>IDropTarget::DragOver</b> method must be able to choose one of these effects or disable the drop.
 
-Upon return, <i>pdwEffect</i> is set to one of the DROPEFFECT flags. This value is then passed to the <i>pdwEffect</i> parameter of <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a>. Reasonable values are DROPEFFECT_COPY to copy the dragged data to the target, DROPEFFECT_LINK to create a link to the source data, or DROPEFFECT_MOVE to allow the dragged data to be permanently moved from the source application to the target.
+Upon return, <i>pdwEffect</i> is set to one of the DROPEFFECT flags. This value is then passed to the <i>pdwEffect</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>. Reasonable values are DROPEFFECT_COPY to copy the dragged data to the target, DROPEFFECT_LINK to create a link to the source data, or DROPEFFECT_MOVE to allow the dragged data to be permanently moved from the source application to the target.
 
-You may also wish to provide appropriate visual feedback in the target window. There may be some target feedback already displayed from a previous call to <b>IDropTarget::DragOver</b> or from the initial <a href="https://msdn.microsoft.com/2e4d7013-910c-4a6e-8eee-818e1f2302ac">IDropTarget::DragEnter</a>. If this feedback is no longer appropriate, you should remove it.
+You may also wish to provide appropriate visual feedback in the target window. There may be some target feedback already displayed from a previous call to <b>IDropTarget::DragOver</b> or from the initial <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a>. If this feedback is no longer appropriate, you should remove it.
 
-For efficiency reasons, a data object is not passed in <b>IDropTarget::DragOver</b>. The data object passed in the most recent call to <a href="https://msdn.microsoft.com/2e4d7013-910c-4a6e-8eee-818e1f2302ac">IDropTarget::DragEnter</a> is available and can be used.
+For efficiency reasons, a data object is not passed in <b>IDropTarget::DragOver</b>. The data object passed in the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a> is available and can be used.
 
-When <b>IDropTarget::DragOver</b> has completed its operation, the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function calls <a href="https://msdn.microsoft.com/dde37299-ad7c-4f59-af99-e75b72ad9188">IDropSource::GiveFeedback</a> so the source application can display the appropriate visual feedback to the user.
+When <b>IDropTarget::DragOver</b> has completed its operation, the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idropsource-givefeedback">IDropSource::GiveFeedback</a> so the source application can display the appropriate visual feedback to the user.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-This function is called frequently during the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> loop so it makes sense to optimize your implementation of the <b>DragOver</b> method as much as possible.
+This function is called frequently during the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> loop so it makes sense to optimize your implementation of the <b>DragOver</b> method as much as possible.
 
 
 
@@ -185,27 +185,27 @@ This function is called frequently during the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/963a36bc-4ad7-4591-bffc-a96b4310177d">IDropSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/62ef4fe6-3871-41ef-9542-6fe9f3bed21c">IDropSourceNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/00726271-4436-41f5-b7cc-666cd77216bc">RegisterDragDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0fa963c-ed06-426c-8ffc-31b02f083a23">RevokeDragDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
  
 
  

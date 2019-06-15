@@ -126,10 +126,10 @@ The strings are Unicode strings.
 
 
 
-COM does not persist the user's password information. For applications that use passwords, please see the documentation on <a href="https://msdn.microsoft.com/c53af815-ee3f-417a-8e62-3a3689715bc6">Cryptography</a> (CryptoAPI). 
+COM does not persist the user's password information. For applications that use passwords, please see the documentation on <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal">Cryptography</a> (CryptoAPI). 
 
 
-This structure is equivalenet to the <a href="https://msdn.microsoft.com/a9c9471b-2134-4173-af86-18b277627d2a">SEC_WINNT_AUTH_IDENTITY</a> structure.
+This structure is equivalenet to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure.
 
 
 
@@ -139,7 +139,7 @@ This structure is equivalenet to the <a href="https://msdn.microsoft.com/a9c9471
 
 
 
-<a href="https://msdn.microsoft.com/8cbe27b6-c676-49f2-8341-9e180c335636">COAUTHINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-_coauthinfo">COAUTHINFO</a>
  
 
  

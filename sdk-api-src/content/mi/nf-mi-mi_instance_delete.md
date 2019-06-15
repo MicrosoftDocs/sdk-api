@@ -66,7 +66,7 @@ Instance to be released.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 
@@ -75,7 +75,7 @@ A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7
 
 
 
-Instances created with the <a href="https://msdn.microsoft.com/9c7a4659-5bc4-4d24-89bc-9da4f2bdf107">MI_Instance_Clone</a>, <a href="https://msdn.microsoft.com/e46adc55-c5dc-4395-b746-2ff13cc1e4bb">MI_Application_NewInstance</a>, <a href="https://msdn.microsoft.com/59571aa0-7fc2-4724-94e8-15b8a62327b6">MI_Context_NewInstance</a>, <a href="https://msdn.microsoft.com/05415945-c804-4056-b4bf-673995c1d6e4">MI_Context_NewDynamicInstance</a>, <a href="https://msdn.microsoft.com/8fb80e6f-627c-4897-9776-7454c0258809">MI_Context_NewParameters</a>, and <a href="https://msdn.microsoft.com/dab6226b-5769-4e2f-abd2-b89cc2d9911e">MI_Utilities_CimErrorFromErrorCode</a> functions should be passed to this function when they are no longer required.
+Instances created with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_clone">MI_Instance_Clone</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newinstance">MI_Application_NewInstance</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_newinstance">MI_Context_NewInstance</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_newdynamicinstance">MI_Context_NewDynamicInstance</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_newparameters">MI_Context_NewParameters</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_utilities_cimerrorfromerrorcode">MI_Utilities_CimErrorFromErrorCode</a> functions should be passed to this function when they are no longer required.
 
 
 
@@ -85,31 +85,31 @@ Instances created with the <a href="https://msdn.microsoft.com/9c7a4659-5bc4-4d2
 
 
 
-<a href="https://msdn.microsoft.com/e46adc55-c5dc-4395-b746-2ff13cc1e4bb">MI_Application_NewInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newinstance">MI_Application_NewInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/05415945-c804-4056-b4bf-673995c1d6e4">MI_Context_NewDynamicInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_newdynamicinstance">MI_Context_NewDynamicInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/59571aa0-7fc2-4724-94e8-15b8a62327b6">MI_Context_NewInstance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_newinstance">MI_Context_NewInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fb80e6f-627c-4897-9776-7454c0258809">MI_Context_NewParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_newparameters">MI_Context_NewParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c7a4659-5bc4-4d24-89bc-9da4f2bdf107">MI_Instance_Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_clone">MI_Instance_Clone</a>
 
 
 
-<a href="https://msdn.microsoft.com/dab6226b-5769-4e2f-abd2-b89cc2d9911e">MI_Utilities_CimErrorFromErrorCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_utilities_cimerrorfromerrorcode">MI_Utilities_CimErrorFromErrorCode</a>
  
 
  

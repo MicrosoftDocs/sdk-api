@@ -56,7 +56,7 @@ This interface adds the ability to check if a color rendering path is potentiall
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont2</b> interface inherits from <a href="https://msdn.microsoft.com/50165292-8C5F-4FD2-A16B-9B8D9DB72F98">IDWriteFont1</a>. <b>IDWriteFont2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFont2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>. <b>IDWriteFont2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteFont2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E21BB773-923E-461B-B966-A186ACD0164A">IsColorFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefont2-iscolorfont">IsColorFont</a>
 </td>
 <td align="left" width="63%">
 Enables determining if a color rendering path is potentially necessary.
@@ -86,7 +86,7 @@ Enables determining if a color rendering path is potentially necessary.
 
 
 
-<a href="https://msdn.microsoft.com/50165292-8C5F-4FD2-A16B-9B8D9DB72F98">IDWriteFont1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefont1">IDWriteFont1</a>
  
 
  

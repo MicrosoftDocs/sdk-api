@@ -54,12 +54,12 @@ ms.custom: 19H1
 
 Concatenates two path fragments into a single path. This function also canonicalizes any relative path elements, replacing path elements such as "." and "..".
 
-This function differs from <a href="https://msdn.microsoft.com/506a4165-f572-4521-958f-56a0296f9c05">PathCchCombine</a> and <a href="https://msdn.microsoft.com/798c2e49-04a5-4270-b584-41faf1519e4b">PathCchCombineEx</a> in that it returns the result on the heap. This means that the caller does not have to declare the size of the returned string and reduces stack use.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a> and <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> in that it returns the result on the heap. This means that the caller does not have to declare the size of the returned string and reduces stack use.
 
-This function differs from <a href="https://msdn.microsoft.com/ed03334b-f688-4993-9685-092135ca29c9">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, <a href="https://msdn.microsoft.com/506a4165-f572-4521-958f-56a0296f9c05">PathCchCombine</a>, or <a href="https://msdn.microsoft.com/798c2e49-04a5-4270-b584-41faf1519e4b">PathCchCombineEx</a>, should be used in place of <a href="https://msdn.microsoft.com/ed03334b-f688-4993-9685-092135ca29c9">PathCombine</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a>.</div><div> </div>
 
 ## -parameters
 
@@ -195,7 +195,7 @@ Disables the normalization of path segments that includes removing trailing dots
 
 ### -param ppszPathOut [out]
 
-The address of a pointer to a buffer that, when this function returns successfully, receives the combined path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> function. This value cannot be <b>NULL</b>.
+The address of a pointer to a buffer that, when this function returns successfully, receives the combined path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. This value cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -230,11 +230,11 @@ This function supports these alternate path forms:
 
 
 
-<a href="https://msdn.microsoft.com/506a4165-f572-4521-958f-56a0296f9c05">PathCchCombine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>
 
 
 
-<a href="https://msdn.microsoft.com/798c2e49-04a5-4270-b584-41faf1519e4b">PathCchCombineEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>
  
 
  

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdAsyncStubBuffer2_Disconnect is not supported and may be altered or unavailable in the future.]
 
-Implements  the <a href="https://msdn.microsoft.com/da0ecd2b-a445-4ecb-a003-ef07fa1d0458">IRpcStubBuffer::Disconnect</a> method and disconnects the server object from the stub.
+Implements  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-disconnect">IRpcStubBuffer::Disconnect</a> method and disconnects the server object from the stub.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Implements  the <a href="https://msdn.microsoft.com/da0ecd2b-a445-4ecb-a003-ef07
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ## -returns

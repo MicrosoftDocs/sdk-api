@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains values that specify the event type described by a <a href="https://msdn.microsoft.com/7598936c-85da-40bc-8e94-94543371d915">UiaEventArgs</a> structure.
+Contains values that specify the event type described by a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiaeventargs">UiaEventArgs</a> structure.
 
 
 ## -enum-fields
@@ -89,12 +89,12 @@ An event raised by a change in editable text.
 
 ### -field EventArgsType_Changes
 
-An event raised by calling <a href="https://msdn.microsoft.com/AA6F1F6E-3EE9-44A6-B1AE-B08013DC1E37">UiaRaiseChangesEvent</a>.
+An event raised by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisechangesevent">UiaRaiseChangesEvent</a>.
 
 
 ### -field EventArgsType_Notification
 
-An event raised by calling <a href="https://msdn.microsoft.com/E9555BC0-A53B-416F-95C3-53696716F61F">UiaRaiseNotificationEvent</a>.
+An event raised by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaraisenotificationevent">UiaRaiseNotificationEvent</a>.
 
 
 ### -field EventArgsType_ActiveTextPositionChanged

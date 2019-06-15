@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Holds an extra data block used by <a href="https://msdn.microsoft.com/ac3279ad-1413-48bf-a830-4ec128352573">IShellLinkDataList</a>. It holds the link's Windows Installer ID.
+Holds an extra data block used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds the link's Windows Installer ID.
 
 
 ## -struct-fields
@@ -59,10 +59,10 @@ Holds an extra data block used by <a href="https://msdn.microsoft.com/ac3279ad-1
 
 ### -field dbh
 
-Type: <b><a href="https://msdn.microsoft.com/06de45c2-8cb5-45e3-9639-d4625c24d27b">DATABLOCK_HEADER</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader">DATABLOCK_HEADER</a></b>
 
 
-<a href="https://msdn.microsoft.com/06de45c2-8cb5-45e3-9639-d4625c24d27b">DATABLOCK_HEADER</a> structure stating the size and signature of the <b>EXP_DARWIN_LINK</b> structure. The following is the only recognized signature value.
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-tagdatablockheader">DATABLOCK_HEADER</a> structure stating the size and signature of the <b>EXP_DARWIN_LINK</b> structure. The following is the only recognized signature value.
 
 
 
@@ -95,7 +95,7 @@ The link's ID in the form of an Unicode string.
 
 
 
-<a href="https://msdn.microsoft.com/d6ebfd84-6ef4-43be-af16-71fc395c4735">IShellLinkDataList::GetFlags</a> returns the flag SLDF_HAS_DARWINID for links that have a darwin signature.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">IShellLinkDataList::GetFlags</a> returns the flag SLDF_HAS_DARWINID for links that have a darwin signature.
 
 
 
@@ -105,7 +105,7 @@ The link's ID in the form of an Unicode string.
 
 
 
-<a href="https://msdn.microsoft.com/d6ebfd84-6ef4-43be-af16-71fc395c4735">IShellLinkDataList::GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">IShellLinkDataList::GetFlags</a>
  
 
  

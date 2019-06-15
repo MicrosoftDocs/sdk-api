@@ -86,7 +86,7 @@ Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if
 
 
 
-The following example shows the usage of <b>ISyncMgrSyncCallback::AddItemToSession</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
+The following example shows the usage of <b>ISyncMgrSyncCallback::AddItemToSession</b> by the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-synchronize">Synchronize</a> method.
 
 
 ```cpp

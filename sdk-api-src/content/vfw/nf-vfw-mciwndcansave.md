@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndCanSave</b> macro determines if an MCI device can save data. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/b4e27190-b095-494b-9ed3-10653bea187b">MCIWNDM_CAN_SAVE</a> message.
+The <b>MCIWndCanSave</b> macro determines if an MCI device can save data. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-save">MCIWNDM_CAN_SAVE</a> message.
 
 
 
@@ -70,7 +70,7 @@ Handle of the MCIWnd window.
 
 
 
-<a href="https://msdn.microsoft.com/b4e27190-b095-494b-9ed3-10653bea187b">MCIWNDM_CAN_SAVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-save">MCIWNDM_CAN_SAVE</a>
  
 
  

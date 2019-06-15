@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of support provided by an object for the command specified in an <a href="https://msdn.microsoft.com/a75ca136-ed6a-43c5-b775-a50535431f1d">OLECMD</a> structure.
+Specifies the type of support provided by an object for the command specified in an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a> structure.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ The command is hidden on the context menu.
 
 
 
-Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>cmdf</b> member of <a href="https://msdn.microsoft.com/a75ca136-ed6a-43c5-b775-a50535431f1d">OLECMD</a> structures passed to <a href="https://msdn.microsoft.com/8acbf788-f113-43d9-800d-aad84db24498">IOleCommandTarget::QueryStatus</a>.
+Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>cmdf</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a> structures passed to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
 
 
 
@@ -102,11 +102,11 @@ Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>
 
 
 
-<a href="https://msdn.microsoft.com/8acbf788-f113-43d9-800d-aad84db24498">IOleCommandTarget::QueryStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/a75ca136-ed6a-43c5-b775-a50535431f1d">OLECMD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-_tagolecmd">OLECMD</a>
  
 
  

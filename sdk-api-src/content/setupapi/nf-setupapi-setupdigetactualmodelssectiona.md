@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupDiGetActualModelsSection</b> function retrieves the appropriate decorated <a href="https://msdn.microsoft.com/library/Ff547456(v=VS.85).aspx">INF Models section</a> to use when installing a device from a device INF file.
+The <b>SetupDiGetActualModelsSection</b> function retrieves the appropriate decorated <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models section</a> to use when installing a device from a device INF file.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>SetupDiGetActualModelsSection</b> function retrieves the appropriate deco
 
 ### -param Context [in]
 
-A pointer to an INF file context that specifies a <i>manufacturer-identifier</i> entry in an <a href="https://msdn.microsoft.com/library/Ff547454(v=VS.85).aspx">INF Manufacturer section</a> of an INF file. The <i>manufacturer-identifier</i> entry specifies an INF <i>Models</i> section name and optionally specifies <i>TargetOSVersion</i> decorations for the <i>Models</i> section name. For information about INF files and an INF file context, see the Platform SDK topics on <a href="http://go.microsoft.com/fwlink/p/?linkid=81350">using INF files</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=81351">INFCONTEXT structure</a>. 
+A pointer to an INF file context that specifies a <i>manufacturer-identifier</i> entry in an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-manufacturer-section">INF Manufacturer section</a> of an INF file. The <i>manufacturer-identifier</i> entry specifies an INF <i>Models</i> section name and optionally specifies <i>TargetOSVersion</i> decorations for the <i>Models</i> section name. For information about INF files and an INF file context, see the Platform SDK topics on <a href="http://go.microsoft.com/fwlink/p/?linkid=81350">using INF files</a> and the <a href="http://go.microsoft.com/fwlink/p/?linkid=81351">INFCONTEXT structure</a>. 
 
 
 ### -param AlternatePlatformInfo [in, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/d9aba6c9-1b23-4ce0-b796-904b39bec3ac">SP_ALTPLATFORM_INFO</a> structure that supplies information about a Windows version and processor architecture. The <b>cbSize</b> member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. This parameter is optional and can be set to <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a> structure that supplies information about a Windows version and processor architecture. The <b>cbSize</b> member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. This parameter is optional and can be set to <b>NULL</b>.
 
 
 ### -param InfSectionWithExt [out, optional]
@@ -103,7 +103,7 @@ Reserved for internal system use. This parameter must be set to <b>NULL</b>.
 
 <b>SetupDiGetActualModelsSection</b> determines which <i>TargetOSVersion</i> fields in the <i>manufacturer-identifier</i> entry (supplied by <i>Context</i>) apply to the current platform, if <i>AlternatePlatformInfo</i> is not supplied, or to an alternative platform, if alternative platform information is supplied. <b>SetupDiGetActualModelsSection</b> selects the most appropriate platform based on all the <i>TargetOSVersion</i> fields, appends the <i>TargetOSVersion</i> string to the INF <i>Models</i> section name, and returns the decorated INF <i>Models</i> section name to the caller. In a <i>manufacturer-identifier</i> entry, the operating system major version is specified by the <i>OSMajorVersion</i> field and the operating system minor version is specified by the <i>OSMinorVersion</i> field.
 
-For information about retrieving an <a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall section</a> for a device, see <a href="https://msdn.microsoft.com/ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7">SetupDiGetActualSectionToInstall</a>.
+For information about retrieving an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall section</a> for a device, see <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstalla">SetupDiGetActualSectionToInstall</a>.
 
 
 
@@ -113,15 +113,15 @@ For information about retrieving an <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall Section</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9aba6c9-1b23-4ce0-b796-904b39bec3ac">SP_ALTPLATFORM_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552338(v=vs.85)">SP_ALTPLATFORM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7">SetupDiGetActualSectionToInstall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstalla">SetupDiGetActualSectionToInstall</a>
  
 
  

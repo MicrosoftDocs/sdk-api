@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="https://msdn.microsoft.com/8e5cc502-9f96-4f4b-8729-cac4a1ffcd6f">STATPROPSETSTG</a> structure array.
+The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-tagstatpropsetstg">STATPROPSETSTG</a> structure array.
 
 
 ## -parameters

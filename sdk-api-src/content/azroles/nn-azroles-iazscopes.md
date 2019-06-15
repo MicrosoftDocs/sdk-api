@@ -50,5 +50,5 @@ ms.custom: 19H1
 
 
 The <b>IAzScopes</b> interface represents a collection of  
-<a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> objects.
 

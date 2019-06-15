@@ -86,7 +86,7 @@ For more information, see Novell NetWare Directory Services Schema Specification
 
 
 
-<a href="https://msdn.microsoft.com/3ee0e469-9932-4135-8798-27d318011786">ADSI Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
  
 
  

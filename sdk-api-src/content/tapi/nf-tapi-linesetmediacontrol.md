@@ -76,13 +76,13 @@ Handle to a call. The application must be an owner of the call. The call state o
 ### -param dwSelect
 
 Whether the media control requested is associated with a single call, is the default for all calls on an address, or is the default for all calls on a line. This parameter one and only one of the 
-<a href="https://msdn.microsoft.com/f19a41bc-403a-4d4b-ab85-240a73514ebb">LINECALLSELECT_ Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ Constants</a>.
 
 
 ### -param lpDigitList
 
 Pointer to the array that contains the digits that are to trigger media control actions, of type 
-<a href="https://msdn.microsoft.com/d31cd365-d6a6-4595-8202-87113035d807">LINEMEDIACONTROLDIGIT</a>. Each time a digit in the digit list is detected, the specified media control action is carried out on the call's media stream. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroldigit_tag">LINEMEDIACONTROLDIGIT</a>. Each time a digit in the digit list is detected, the specified media control action is carried out on the call's media stream. 
 
 
 
@@ -98,7 +98,7 @@ Number of entries in the <i>lpDigitList</i>.
 ### -param lpMediaList
 
 Pointer to an array with entries of type 
-<a href="https://msdn.microsoft.com/5515d510-3827-4da6-975c-ff191bb0ab4e">LINEMEDIACONTROLMEDIA</a>. The array has <i>dwMediaNumEntries</i> entries. Each entry contains a media type to be monitored, media-type specific information (such as duration), and a media control field. If a media type in the list is detected, the corresponding media control action is performed on the call's media stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia_tag">LINEMEDIACONTROLMEDIA</a>. The array has <i>dwMediaNumEntries</i> entries. Each entry contains a media type to be monitored, media-type specific information (such as duration), and a media control field. If a media type in the list is detected, the corresponding media control action is performed on the call's media stream.
 
 
 ### -param dwMediaNumEntries
@@ -109,7 +109,7 @@ Number of entries in <i>lpMediaList</i>.
 ### -param lpToneList
 
 Pointer to an array with entries of type 
-<a href="https://msdn.microsoft.com/0513d580-aaf1-412c-adbf-9342b74025ee">LINEMEDIACONTROLTONE</a>. The array has <i>dwToneNumEntries</i> entries. Each entry contains a description of a tone to be monitored, duration of the tone, and a media-control field. If a tone in the list is detected, the corresponding media control action is performed on the call's media stream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroltone_tag">LINEMEDIACONTROLTONE</a>. The array has <i>dwToneNumEntries</i> entries. Each entry contains a description of a tone to be monitored, duration of the tone, and a media-control field. If a tone in the list is detected, the corresponding media control action is performed on the call's media stream.
 
 
 ### -param dwToneNumEntries
@@ -120,7 +120,7 @@ Number of entries in <i>lpToneList</i>.
 ### -param lpCallStateList
 
 Pointer to an array with entries of type 
-<a href="https://msdn.microsoft.com/c0768c2a-3015-41af-b32f-0b228a0f2ee6">LINEMEDIACONTROLCALLSTATE</a>. The array has <i>dwCallStateNumEntries</i> entries. Each entry contains a call state and a media control action. Whenever the given call transitions into one of the call states in the list, the corresponding media control action is invoked.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate_tag">LINEMEDIACONTROLCALLSTATE</a>. The array has <i>dwCallStateNumEntries</i> entries. Each entry contains a call state and a media control action. Whenever the given call transitions into one of the call states in the list, the corresponding media control action is invoked.
 
 
 ### -param dwCallStateNumEntries
@@ -164,27 +164,27 @@ Whether or not media control is supported by the service provider is a device ca
 
 
 
-<a href="https://msdn.microsoft.com/c0768c2a-3015-41af-b32f-0b228a0f2ee6">LINEMEDIACONTROLCALLSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolcallstate_tag">LINEMEDIACONTROLCALLSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d31cd365-d6a6-4595-8202-87113035d807">LINEMEDIACONTROLDIGIT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroldigit_tag">LINEMEDIACONTROLDIGIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5515d510-3827-4da6-975c-ff191bb0ab4e">LINEMEDIACONTROLMEDIA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontrolmedia_tag">LINEMEDIACONTROLMEDIA</a>
 
 
 
-<a href="https://msdn.microsoft.com/0513d580-aaf1-412c-adbf-9342b74025ee">LINEMEDIACONTROLTONE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemediacontroltone_tag">LINEMEDIACONTROLTONE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4338b3c-cd84-4abb-b74e-9df895c8355b">Supplementary Line Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
  
 
  

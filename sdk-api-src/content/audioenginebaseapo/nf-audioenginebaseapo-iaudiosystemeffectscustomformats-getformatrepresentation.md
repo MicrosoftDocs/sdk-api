@@ -59,7 +59,7 @@ The <code>GetFormatRepresentation</code> method retrieves a string representatio
 
 ### -param nFormat [in]
 
-Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="https://msdn.microsoft.com/70d215e5-e30a-4fbd-b9c3-c988c6bbd941">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
+Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
 
 
 ### -param ppwstrFormatRep [out, optional]
@@ -139,7 +139,7 @@ The sAPO uses <a href="http://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMe
 
 
 
-<a href="https://msdn.microsoft.com/70d215e5-e30a-4fbd-b9c3-c988c6bbd941">GetFormatCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>
  
 
  

@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>ITuningSpace</b> interface provides the common functionality for all network-specific tuning spaces. Applications can obtain tuning spaces from the <a href="https://msdn.microsoft.com/57cdd437-6219-4a72-96d9-642ff79d5879">SystemTuningSpaces</a> collection. A tuning space generally exposes an interface that inherits <b>ITuningSpace</b>, such as <a href="https://msdn.microsoft.com/313508e5-a9b2-42b8-bb2f-d191944d0939">IATSCTuningSpace</a>.
+The <b>ITuningSpace</b> interface provides the common functionality for all network-specific tuning spaces. Applications can obtain tuning spaces from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/systemtuningspaces-object">SystemTuningSpaces</a> collection. A tuning space generally exposes an interface that inherits <b>ITuningSpace</b>, such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsctuningspace">IATSCTuningSpace</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuningSpace</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITuningSpace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITuningSpace</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITuningSpace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITuningSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01dcde87-b043-491e-b5cf-9800c12b5335">Clone</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new copy of the tuning space.
@@ -81,7 +81,7 @@ Creates a new copy of the tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/513d4d3e-47df-4a12-80ce-9fc1400af176">CreateTuneRequest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">CreateTuneRequest</a>
 </td>
 <td align="left" width="63%">
 Creates a COM object representing an empty (uninitialized) tune request.
@@ -90,7 +90,7 @@ Creates a COM object representing an empty (uninitialized) tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9efbbda-fa95-46ea-aedc-7be5b13d16b5">EnumCategoryGUIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-enumcategoryguids">EnumCategoryGUIDs</a>
 </td>
 <td align="left" width="63%">
 (Currently not implemented.) Creates an enumerator for the DirectShow category GUIDs, representing classes of filters that support the tuning space.
@@ -99,7 +99,7 @@ Creates a COM object representing an empty (uninitialized) tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d1f9bcd-de94-4ea5-89a0-84042a514484">EnumDeviceMonikers</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-enumdevicemonikers">EnumDeviceMonikers</a>
 </td>
 <td align="left" width="63%">
 (Currently not implemented.) Creates an enumerator of device monikers representing the tuner inputs (filters) supporting this tuning space.
@@ -108,7 +108,7 @@ Creates a COM object representing an empty (uninitialized) tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54cf0c5b-03fb-4419-976c-acc821dfc7e8">get__NetworkType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get__networktype">get__NetworkType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the network type of the tuning space as a GUID.
@@ -117,7 +117,7 @@ Retrieves the network type of the tuning space as a GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d">get_CLSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_clsid">get_CLSID</a>
 </td>
 <td align="left" width="63%">
 Gets the CLSID of the tuning space as a <b>BSTR</b>.
@@ -126,7 +126,7 @@ Gets the CLSID of the tuning space as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/facc14bd-182e-4b8e-a567-1bf1d3c4ff36">get_DefaultLocator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_defaultlocator">get_DefaultLocator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default locator for a tuning space.
@@ -135,7 +135,7 @@ Retrieves the default locator for a tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a633a94c-e514-46b1-9982-7526ffa89b74">get_DefaultPreferredComponentTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_defaultpreferredcomponenttypes">get_DefaultPreferredComponentTypes</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of the preferred component types, which specify parameters such as the preferred audio stream.
@@ -144,7 +144,7 @@ Returns an enumeration of the preferred component types, which specify parameter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86f6f991-7ba6-4dcc-86bd-03e44c799c22">get_FrequencyMapping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_frequencymapping">get_FrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Retrieves the frequency mapping previously created by the network provider.
@@ -153,7 +153,7 @@ Retrieves the frequency mapping previously created by the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1427aae-49e9-45ce-abd9-902a895e6e44">get_FriendlyName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_friendlyname">get_FriendlyName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the localized, user-friendly name of the tuning space.
@@ -162,7 +162,7 @@ Retrieves the localized, user-friendly name of the tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f264b6b3-98ae-44bc-8922-ab35c3b7a0d1">get_NetworkType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_networktype">get_NetworkType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the network type of the tuning space as a <b>BSTR</b>.
@@ -171,7 +171,7 @@ Retrieves the network type of the tuning space as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c605f8c-7b0c-478d-a823-19e2f396953a">get_UniqueName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-get_uniquename">get_UniqueName</a>
 </td>
 <td align="left" width="63%">
 Retrieves a unique name for the tuning space. Can be either a short name, or a GUID.
@@ -180,7 +180,7 @@ Retrieves a unique name for the tuning space. Can be either a short name, or a G
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02e4ec53-e527-4cd2-a424-66c2f3fe4e43">put__NetworkType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put__networktype">put__NetworkType</a>
 </td>
 <td align="left" width="63%">
 Sets the network type for this tuning space as a CLSID.
@@ -189,7 +189,7 @@ Sets the network type for this tuning space as a CLSID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59065cc9-8a11-4551-ad3d-e7963628aa20">put_DefaultLocator</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_defaultlocator">put_DefaultLocator</a>
 </td>
 <td align="left" width="63%">
 Sets the default locator for a tuning space.
@@ -198,7 +198,7 @@ Sets the default locator for a tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11ab6f15-1f16-42f9-9d7f-f0e51c83cba3">put_DefaultPreferredComponentTypes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_defaultpreferredcomponenttypes">put_DefaultPreferredComponentTypes</a>
 </td>
 <td align="left" width="63%">
 Creates an enumeration of the preferred component types, which specify parameters such as the preferred audio stream.
@@ -207,7 +207,7 @@ Creates an enumeration of the preferred component types, which specify parameter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/665ab139-773c-4e02-896f-2f97063a786f">put_FrequencyMapping</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_frequencymapping">put_FrequencyMapping</a>
 </td>
 <td align="left" width="63%">
 Creates a frequency/channel map, frequency/transponder map, or whatever other mapping from carrier frequencies to frequency identifiers is appropriate for the tuning space.
@@ -216,7 +216,7 @@ Creates a frequency/channel map, frequency/transponder map, or whatever other ma
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97457657-9d28-4c8e-9db6-61271aa127e3">put_FriendlyName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_friendlyname">put_FriendlyName</a>
 </td>
 <td align="left" width="63%">
 Sets the localized, user-friendly name of the tuning space.
@@ -225,7 +225,7 @@ Sets the localized, user-friendly name of the tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6af7062c-41c9-447f-8d92-bd67b8348933">put_NetworkType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_networktype">put_NetworkType</a>
 </td>
 <td align="left" width="63%">
 Sets the network type for this tuning space as a <b>BSTR</b>.
@@ -234,7 +234,7 @@ Sets the network type for this tuning space as a <b>BSTR</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44ce065b-5441-40c9-a987-6eafc04fba3d">put_UniqueName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-put_uniquename">put_UniqueName</a>
 </td>
 <td align="left" width="63%">
 Sets a unique name for the tuning space. Can be either a short name, or a GUID.
@@ -258,7 +258,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/5d956e1d-88b3-4236-9987-f37f674645de">Tuning Model Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
  
 
  

@@ -65,8 +65,8 @@ Pointer to the name of the local device the caller is interested in, or a remote
 ### -param lpUserName [out]
 
 Pointer to a buffer to receive the user name. This should be a name that can be passed into the 
-<a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a> or 
-<a href="https://msdn.microsoft.com/b0d730f7-595e-4ea7-8688-db479dcc40b4">NPAddConnection3</a> function to re-establish the connection with the same user name.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection3">NPAddConnection3</a> function to re-establish the connection with the same user name.
 
 
 ### -param lpnBufferLen [in, out]

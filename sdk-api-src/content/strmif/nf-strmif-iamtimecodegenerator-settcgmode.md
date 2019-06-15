@@ -210,7 +210,7 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 
-For more information on ED_TCG_TIMECODE_TYPE, see the <a href="https://msdn.microsoft.com/dd9f5310-b1c0-46ff-b038-d6a50ac400a2">IAMTimecodeReader::SetTCRMode</a> method.
+For more information on ED_TCG_TIMECODE_TYPE, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-settcrmode">IAMTimecodeReader::SetTCRMode</a> method.
 
 
 
@@ -220,15 +220,15 @@ For more information on ED_TCG_TIMECODE_TYPE, see the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fe74fc2-03bd-43dd-917f-ee0149f1e17f">IAMTimecodeGenerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/76a754e3-4071-437a-bd98-99a94e2594a3">IAMTimecodeGenerator::GetTCGMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">IAMTimecodeGenerator::GetTCGMode</a>
  
 
  

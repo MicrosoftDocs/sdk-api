@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 This identifies a type of extension within the extensions field of the 
-                <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
             
 
 
@@ -64,6 +64,6 @@ This identifies a type of extension within the extensions field of the
 The address that metadata can be downloaded from the endpoint.
                 
 
-The type of the extension value is <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>.
+The type of the extension value is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
                 
 

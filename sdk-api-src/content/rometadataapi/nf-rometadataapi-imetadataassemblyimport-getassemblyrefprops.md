@@ -89,12 +89,12 @@ A  pointer to the number of wide chars actually returned in <i>szName</i>.
 
 ### -param pMetaData [out]
 
-A pointer to an <a href="http://msdn.microsoft.com/en-us/library/ms230277.aspx">ASSEMBLYMETADATA</a> structure that contains the assembly metadata.
+A pointer to an <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/assemblymetadata-structure">ASSEMBLYMETADATA</a> structure that contains the assembly metadata.
 
 
 ### -param ppbHashValue [out]
 
-A pointer to the hash value. This is the hash, using the SHA-1 algorithm, of the PublicKey property of the assembly being referenced, unless the arfFullOriginator flag of the <a href="http://msdn.microsoft.com/en-us/library/ms232921.aspx">AssemblyRefFlags</a> enumeration is set.
+A pointer to the hash value. This is the hash, using the SHA-1 algorithm, of the PublicKey property of the assembly being referenced, unless the arfFullOriginator flag of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/assemblyrefflags-enumeration">AssemblyRefFlags</a> enumeration is set.
 
 
 
@@ -106,7 +106,7 @@ The number of wide chars in the returned hash value.
 
 ### -param pdwAssemblyRefFlags [out]
 
- A pointer to flags that describe the metadata applied to an assembly. The flags value is a combination of one or more <a href="http://msdn.microsoft.com/en-us/library/ms232517.aspx">CorAssemblyFlags</a> values.
+ A pointer to flags that describe the metadata applied to an assembly. The flags value is a combination of one or more <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corassemblyflags-enumeration">CorAssemblyFlags</a> values.
 
 
 ## -returns
@@ -123,7 +123,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c">IMetaDataAssemblyImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
  
 
  

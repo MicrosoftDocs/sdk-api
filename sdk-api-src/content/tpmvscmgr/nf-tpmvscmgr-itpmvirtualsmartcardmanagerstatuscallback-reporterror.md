@@ -60,7 +60,7 @@ Reports any errors from the requested operation.
 
 ### -param Error [in]
 
-Error code of the current error from the possible errors listed in the <a href="https://msdn.microsoft.com/en-us/library/Hh707172(v=VS.85).aspx">TPMVSCMGR_ERROR</a> enumeration.
+Error code of the current error from the possible errors listed in the <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/ne-tpmvscmgr-__midl___midl_itf_tpmvscmgr_0000_0000_0002">TPMVSCMGR_ERROR</a> enumeration.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If the method fails, it returns a Win32 error code. The requested operation on t
 
 
 
-<a href="https://msdn.microsoft.com/6CB62E42-16FD-453F-9566-B4DFCDAC7368">ITpmVirtualSmartCardManagerStatusCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a>
  
 
  

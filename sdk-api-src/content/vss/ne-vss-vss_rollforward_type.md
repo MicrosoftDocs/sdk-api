@@ -86,7 +86,7 @@ The roll-forward operation should roll forward through logs up to a specified re
 
 
 A requester sets the roll-forward operation type and specifies the restore point for partial roll-forward operations using 
-    <a href="https://msdn.microsoft.com/9529284f-2150-4d32-af6c-178ba8681945">IVssBackupComponentsEx2::SetRollForward</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward">IVssBackupComponentsEx2::SetRollForward</a>.
 
 
 
@@ -96,7 +96,7 @@ A requester sets the roll-forward operation type and specifies the restore point
 
 
 
-<a href="https://msdn.microsoft.com/9529284f-2150-4d32-af6c-178ba8681945">IVssBackupComponentsEx2::SetRollForward</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward">IVssBackupComponentsEx2::SetRollForward</a>
  
 
  

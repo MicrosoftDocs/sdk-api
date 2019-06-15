@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a set of flags that indicate the current Shell settings. This structure is used with the <a href="https://msdn.microsoft.com/728a4004-f35d-4592-baf1-456a613a3344">SHGetSettings</a> function.
+Contains a set of flags that indicate the current Shell settings. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings">SHGetSettings</a> function.
 
 
 ## -struct-fields

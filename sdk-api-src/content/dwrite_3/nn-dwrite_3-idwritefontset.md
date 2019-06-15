@@ -54,7 +54,7 @@ Represents a font set.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSet</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcb8ddbd-9c82-cd90-f4bd-490855d93efd">FindFontFace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontface">FindFontFace</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -78,7 +78,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dba55a36-8037-5564-59d8-e01189ff0020">FindFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-findfontfacereference">FindFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -87,7 +87,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15231d40-9de2-54e4-f4ad-0f1ef9b35c47">GetFontCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount">GetFontCount</a>
 </td>
 <td align="left" width="63%">
 Get the number of total fonts in the set.
@@ -96,7 +96,7 @@ Get the number of total fonts in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8cbc1275-29d5-917d-6938-8fb35e5054fb">GetFontFaceReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontfacereference">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a reference to the font at the specified index, which may be local or remote.
@@ -105,7 +105,7 @@ Gets a reference to the font at the specified index, which may be local or remot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f80478e-ed45-58c7-723f-8fe9bd05097b">GetMatchingFonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefontset-getmatchingfonts-overload">GetMatchingFonts</a>
 </td>
 <td align="left" width="63%">Overloaded. Returns a subset of fonts matching the specified criteria.
 
@@ -113,7 +113,7 @@ Gets a reference to the font at the specified index, which may be local or remot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/514359d4-595d-4cac-a784-527b65b53137">GetPropertyOccurrenceCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyoccurrencecount">GetPropertyOccurrenceCount</a>
 </td>
 <td align="left" width="63%">
 Returns how many times a given property value occurs in the set.
@@ -122,7 +122,7 @@ Returns how many times a given property value occurs in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933252(v=VS.85).aspx">GetPropertyValues</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nf-dwrite_3-getpropertyvalues">GetPropertyValues</a>
 </td>
 <td align="left" width="63%">Overloaded. Returns property values for the font set.
 

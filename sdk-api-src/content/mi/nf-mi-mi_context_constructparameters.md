@@ -85,7 +85,7 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 
 
-You are responsible for reserving the memory for the instance (either on the stack or the heap). When you have finished using the instance, delete it by calling the <a href="https://msdn.microsoft.com/2ecbf165-0918-489c-8e70-b48c31263aed">MI_Instance_Destruct</a> function.
+You are responsible for reserving the memory for the instance (either on the stack or the heap). When you have finished using the instance, delete it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_destruct">MI_Instance_Destruct</a> function.
 
 
 

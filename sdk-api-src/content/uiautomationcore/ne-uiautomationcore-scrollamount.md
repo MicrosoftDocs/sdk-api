@@ -89,7 +89,7 @@ Scrolling is done in small increments, equivalent to pressing an arrow key or cl
 
 
 
-<a href="https://msdn.microsoft.com/55e1b899-aa9f-45eb-9cfa-d645ea659988">IScrollProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iscrollprovider">IScrollProvider</a>
  
 
  

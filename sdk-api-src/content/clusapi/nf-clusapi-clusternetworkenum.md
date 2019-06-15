@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> on a 
-    <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>, returning the name of one object with each call. The <b>PCLUSAPI_CLUSTER_NETWORK_ENUM</b> type defines a pointer to this function.
+Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> on a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>, returning the name of one object with each call. The <b>PCLUSAPI_CLUSTER_NETWORK_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Enumerates <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11
 ### -param hNetworkEnum [in]
 
 A handle to an existing enumeration object originally returned by the 
-       <a href="https://msdn.microsoft.com/59f6fd26-1d96-4b04-858d-bfd3e4d25d01">ClusterNetworkOpenEnum</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> function.
 
 
 ### -param dwIndex [in]
@@ -74,14 +74,14 @@ The index used to identify the next entry to be enumerated. This parameter shoul
 ### -param lpdwType [out]
 
 A pointer to the type of object returned. The following value of the 
-       <a href="https://msdn.microsoft.com/f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095">CLUSTER_NETWORK_ENUM</a> enumeration is returned with 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_enum">CLUSTER_NETWORK_ENUM</a> enumeration is returned with 
        each call.
 
 
 
 #### CLUSTER_NETWORK_ENUM_NETINTERFACES (1)
 
-The object is a <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
+The object is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 
 
 ### -param lpszName [out]
@@ -161,12 +161,12 @@ No more data is available. This value is returned if there are no more objects o
 The <b>ClusterNetworkEnum</b> function is typically 
      used to iterate through a collection of objects of one or more types belonging to a network object. If, for 
      example, an application wants to enumerate all of the 
-     <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a> objects on a network, it 
-     calls <a href="https://msdn.microsoft.com/59f6fd26-1d96-4b04-858d-bfd3e4d25d01">ClusterNetworkOpenEnum</a> to 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a> objects on a network, it 
+     calls <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> to 
      open a network enumerator that can process network interface objects. The <i>dwType</i> 
      parameter is set to <b>CLUSTER_NETWORK_ENUM_NETINTERFACES</b> to specify network interfaces 
      as the object type to be enumerated. With the handle that 
-     <a href="https://msdn.microsoft.com/59f6fd26-1d96-4b04-858d-bfd3e4d25d01">ClusterNetworkOpenEnum</a> returns, 
+     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> returns, 
      the application calls <b>ClusterNetworkEnum</b> 
      repeatedly to retrieve each of the objects. The <i>lpdwType</i> parameter points to the type 
      of object that is retrieved.
@@ -174,12 +174,12 @@ The <b>ClusterNetworkEnum</b> function is typically
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
@@ -190,19 +190,19 @@ See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">En
 
 
 
-<a href="https://msdn.microsoft.com/f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095">CLUSTER_NETWORK_ENUM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_enum">CLUSTER_NETWORK_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/7908db54-f432-4aee-aaf4-91f763ffa3a0">Cluster Network Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-management-functions">Cluster Network Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/725164c5-dc6d-42f4-a703-06336711e72e">ClusterNetworkCloseEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkcloseenum">ClusterNetworkCloseEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/59f6fd26-1d96-4b04-858d-bfd3e4d25d01">ClusterNetworkOpenEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a>
  
 
  

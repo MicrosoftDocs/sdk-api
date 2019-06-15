@@ -54,7 +54,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>CHPtrArray</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray</b> is a utility interface for array pointer management used for provider handling of WMI queries.
@@ -72,7 +72,7 @@ The <b>CHPtrArray</b> class is part of the WMI Provider Framework. <b>CHPtrArray
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9435d0e6-bb26-40a9-a13f-a744588cc0b0">CHPtrArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-chptrarray">CHPtrArray</a>
 </td>
 <td align="left" width="63%">
 Constructor.
@@ -88,7 +88,7 @@ Constructor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c2f029f-22a1-4433-971e-35ce48c004e0">GetAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getat">GetAt</a>
 </td>
 <td align="left" width="63%">
 Accesses an element in a <b>CHPtrArray</b> array.
@@ -97,7 +97,7 @@ Accesses an element in a <b>CHPtrArray</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b9bcd3f-06d9-47f1-aecb-1c611c9866bd">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Obtains the pointer array size.
@@ -106,7 +106,7 @@ Obtains the pointer array size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51de0ff1-e8e9-4484-80d6-51179ef82a51">RemoveAll</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chptrarr/nf-chptrarr-chptrarray-removeall">RemoveAll</a>
 </td>
 <td align="left" width="63%">
 Removes all the <b>CHPtrArray</b> members from this array.
@@ -122,7 +122,7 @@ Removes all the <b>CHPtrArray</b> members from this array.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7005130a-bc0d-4058-aba2-d12ed50255cd">operator[]</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa384934(v=vs.85)">operator[]</a>
 </td>
 <td align="left" width="63%">
 Gets the element at the specified index.
@@ -146,7 +146,7 @@ The destructor for the class is <b>CHPtrArray::~CHPtrArray</b>.
 
 
 
-<a href="https://msdn.microsoft.com/d2414a72-3435-4035-bcd9-b3ec87f5709c">Provider Framework Utility Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
  
 
  

@@ -95,9 +95,9 @@ Both descriptors and data are static. This maximizes the potential for driver op
 
 
 
-This enum is used by the  <a href="https://msdn.microsoft.com/EFC36053-6FD1-4D2E-8214-66B50F0CC0D5">D3D12_DESCRIPTOR_RANGE1</a> structure.
+This enum is used by the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_descriptor_range1">D3D12_DESCRIPTOR_RANGE1</a> structure.
 
-To specify the volatility of just the data referenced by descriptors, refer to <a href="https://msdn.microsoft.com/1BF4D1FA-C938-4704-8D82-CFCA6FE954CB">D3D12_ROOT_DESCRIPTOR_FLAGS</a>.
+To specify the volatility of just the data referenced by descriptors, refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_descriptor_flags">D3D12_ROOT_DESCRIPTOR_FLAGS</a>.
 
 
 
@@ -107,11 +107,11 @@ To specify the volatility of just the data referenced by descriptors, refer to <
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8FE42C1C-7F1D-4E70-A7EE-D5EC67237327">Root Signature Version 1.1</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
  
 
  

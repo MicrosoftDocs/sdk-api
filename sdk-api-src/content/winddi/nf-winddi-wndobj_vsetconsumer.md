@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pvConsumer</b> field of the specified <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> structure.
+The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pvConsumer</b> field of the specified <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>WNDOBJ_vSetConsumer</b> function sets a driver-defined value in the <b>pv
 
 ### -param pwo
 
-Pointer to a <a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a> structure created by a prior call to <a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a>.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a> structure created by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>.
 
 
 ### -param pvConsumer
@@ -92,7 +92,7 @@ The callback provided to GDI by a driver's call to <b>EngCreateWnd</b>.
 
 </li>
 <li>
-The WNDOBJ_SETUP escape defined by <a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a> after a new WNDOBJ structure is created.
+The WNDOBJ_SETUP escape defined by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a> after a new WNDOBJ structure is created.
 
 </li>
 </ul>
@@ -104,15 +104,15 @@ The WNDOBJ_SETUP escape defined by <a href="https://msdn.microsoft.com/7b59dc85-
 
 
 
-<a href="https://msdn.microsoft.com/7b59dc85-27f4-4529-847e-6027dae8a45a">DrvEscape</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>
 
 
 
-<a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c47add-82a7-48fd-ae91-7756a6a8d15b">WNDOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_wndobj">WNDOBJ</a>
  
 
  

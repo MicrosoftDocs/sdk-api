@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the color type used by the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure.
+Describes the color type used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure.
 
 
 ## -enum-fields

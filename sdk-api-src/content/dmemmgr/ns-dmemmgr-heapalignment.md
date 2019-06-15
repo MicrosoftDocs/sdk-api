@@ -64,7 +64,7 @@ Specifies the size in bytes of this HEAPALIGNMENT structure.
 
 ### -field ddsCaps
 
-Specifies a <a href="https://msdn.microsoft.com/e1ed1fa2-2f3c-4d04-a601-c11fb77eb5cc">DDSCAPS</a> structure that indicates what alignment fields are valid. 
+Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that indicates what alignment fields are valid. 
 
 
 ### -field dwReserved
@@ -74,7 +74,7 @@ Reserved for system use.
 
 ### -field ExecuteBuffer
 
-Specifies a <a href="https://msdn.microsoft.com/200f4e08-b5d3-484e-b87a-b3069dc3c99f">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_EXECUTEBUFFER. 
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_EXECUTEBUFFER. 
 
 
 ### -field Overlay
@@ -89,7 +89,7 @@ Specifies a SURFACEALIGNMENT structure that contains heap alignment requirements
 
 ### -field ZBuffer
 
-Specifies a <a href="https://msdn.microsoft.com/200f4e08-b5d3-484e-b87a-b3069dc3c99f">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_ZBUFFER. 
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a> structure that contains heap alignment requirements for surfaces tagged with DDSCAPS_ZBUFFER. 
 
 
 ### -field AlphaBuffer
@@ -121,11 +121,11 @@ The driver should verify that the <b>dwSize</b> member is at least as large as <
 
 
 
-<a href="https://msdn.microsoft.com/e1ed1fa2-2f3c-4d04-a601-c11fb77eb5cc">DDSCAPS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/200f4e08-b5d3-484e-b87a-b3069dc3c99f">SURFACEALIGNMENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/ns-dmemmgr-_surfacealignment">SURFACEALIGNMENT</a>
  
 
  

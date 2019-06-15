@@ -60,14 +60,14 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://msdn.microsoft.com/1227493a-58dc-4e41-b6d7-9ecce0b3df40">MsiOpenPackage</a>, <a href="https://msdn.microsoft.com/9e9550e9-9c10-4ef1-a172-dfacaaa37fd0">MsiOpenPackageEx</a>, or <a href="https://msdn.microsoft.com/fdc5a2f5-c44a-4cb3-b206-a598bd60024b">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 
 ### -param eMessageType [in]
 
 The <i>eMessage</i> parameter must be a value specifying one of the following message types. To display a message box with push buttons or icons, use OR-operators to add INSTALLMESSAGE_ERROR, INSTALLMESSAGE_WARNING, or INSTALLMESSAGE_USER to the standard message box styles used by 
-the <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a> functions. For more information, see the Remarks below. 
+the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a> functions. For more information, see the Remarks below. 
 
 
 
@@ -93,7 +93,7 @@ Premature termination, possibly fatal out of memory.
 </td>
 <td width="60%">
 Formatted error message,<div> </div>[1] is message number in 
-<a href="https://msdn.microsoft.com/3c817468-cba7-46bf-9208-5e6699c02fb6">Error table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-table">Error table</a>.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Request to determine a valid source location.
 </dl>
 </td>
 <td width="60%">
-List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer version 4.0. For more information about this message see <a href="https://msdn.microsoft.com/777f8864-b3d2-43c7-9296-1118f3595d7b">Using Restart Manager with an External UI</a>.
+List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer version 4.0. For more information about this message see <a href="https://docs.microsoft.com/windows/desktop/Msi/using-restart-manager-with-an-external-ui-">Using Restart Manager with an External UI</a>.
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ The
 <b>MsiProcessMessage</b> function performs any enabled logging operations and defers execution. You can selectively enable logging for various message types.
 
 For INSTALLMESSAGE_FATALEXIT, INSTALLMESSAGE_ERROR, INSTALLMESSAGE_WARNING, and INSTALLMESSAGE_USER messages, if field 0 is not set field 1 must be set to the error code corresponding to the error message in the 
-<a href="https://msdn.microsoft.com/3c817468-cba7-46bf-9208-5e6699c02fb6">Error table</a>. Then, the message is formatted using the template from the Error table before passing it to the user-interface handler for display.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-table">Error table</a>. Then, the message is formatted using the template from the Error table before passing it to the user-interface handler for display.
 
 <h3><a id="Record_Fields_for_Progress_Bar_Messages"></a><a id="record_fields_for_progress_bar_messages"></a><a id="RECORD_FIELDS_FOR_PROGRESS_BAR_MESSAGES"></a>Record Fields for Progress Bar Messages</h3>
 The following describes the record fields when eMessageType is set to INSTALLMESSAGE_PROGRESS. Field 1 specifies the type of the progress message. The meaning of the other fields depend upon the value in this field. The possible values that can be set into Field 1 are as follows.
@@ -371,10 +371,10 @@ The meaning of Field 4 depends upon the value in Field 1 as follows.
  
 
 For more information and a code sample, see 
-<a href="https://msdn.microsoft.com/101e6b59-3791-450c-9dc6-8930bd665a93">Adding Custom Actions to the ProgressBar</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/adding-custom-actions-to-the-progressbar">Adding Custom Actions to the ProgressBar</a>.
 
 <h3><a id="Display_of_Message_Boxes"></a><a id="display_of_message_boxes"></a><a id="DISPLAY_OF_MESSAGE_BOXES"></a>Display of Message Boxes</h3>
-To display a message box with push buttons or icons, use OR-operators to add INSTALLMESSAGE_ERROR, INSTALLMESSAGE_WARNING, or INSTALLMESSAGE_USER with the message box options used by <a href="https://msdn.microsoft.com/en-us/library/ms645505(v=VS.85).aspx">MessageBox</a> and <a href="https://msdn.microsoft.com/en-us/library/ms645507(v=VS.85).aspx">MessageBoxEx</a>. The available push button options are MB_OK, MB_OKCANCEL, MB_ABORTRETRYIGNORE, MB_YESNOCANCEL, MB_YESNO, and MB_RETRYCANCEL. The available default button options are MB_DEFBUTTON1, MB_DEFBUTTON2, and MB_DEFBUTTON3. The available icon options are MB_ICONERROR, MB_ICONQUESTION, MB_ICONWARNING, and MB_ICONINFORMATION. If no icon options is specified, Windows Installer chooses a default icon style based upon the message type.
+To display a message box with push buttons or icons, use OR-operators to add INSTALLMESSAGE_ERROR, INSTALLMESSAGE_WARNING, or INSTALLMESSAGE_USER with the message box options used by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>. The available push button options are MB_OK, MB_OKCANCEL, MB_ABORTRETRYIGNORE, MB_YESNOCANCEL, MB_YESNO, and MB_RETRYCANCEL. The available default button options are MB_DEFBUTTON1, MB_DEFBUTTON2, and MB_DEFBUTTON3. The available icon options are MB_ICONERROR, MB_ICONQUESTION, MB_ICONWARNING, and MB_ICONINFORMATION. If no icon options is specified, Windows Installer chooses a default icon style based upon the message type.
 
 For example, the following call to 
 <b>MsiProcessMessage</b> sends an INSTALLMESSAGE_ERROR message with the MB_ICONWARNING icon and the MB_ABORTRETRYCANCEL buttons.
@@ -395,7 +395,7 @@ If a custom action calls <b>MsiProcessMessage</b>, the custom action should be c
 
 For more information on sending messages with 
 <b>MsiProcessMessage</b>, see the 
-<a href="https://msdn.microsoft.com/ca73bd0a-6f4e-453c-9e38-14cfd602d42c">Sending Messages to Windows Installer Using MsiProcessMessage</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/sending-messages-to-windows-installer-using-msiprocessmessage">Sending Messages to Windows Installer Using MsiProcessMessage</a>.
 
 
 
@@ -405,11 +405,11 @@ For more information on sending messages with
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Action Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca73bd0a-6f4e-453c-9e38-14cfd602d42c">Sending Messages to Windows Installer Using MsiProcessMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/sending-messages-to-windows-installer-using-msiprocessmessage">Sending Messages to Windows Installer Using MsiProcessMessage</a>
  
 
  

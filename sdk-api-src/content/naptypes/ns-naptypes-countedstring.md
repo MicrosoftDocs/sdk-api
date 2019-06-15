@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -field length
 
-The size, in characters, of the string within the range 0 to <a href="https://msdn.microsoft.com/2727487c-8c6a-4cd9-b6d8-253191a7d7f6">maxStringLength</a>.
+The size, in characters, of the string within the range 0 to <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">maxStringLength</a>.
 
 <div class="alert"><b>Note</b>  <b>length</b> does not include the null terminator.</div>
 <div> </div>
@@ -74,11 +74,11 @@ A pointer to a null-terminated wide character string of size <b>length</b> + 1.
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

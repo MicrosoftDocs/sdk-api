@@ -61,7 +61,7 @@ Informs the schema subsystem of the addition of a property description schema fi
 
 Type: <b>PCWSTR</b>
 
-Pointer to the full file path, as a Unicode string, to the <a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">property description schema</a> (.propdesc) file on the local machine. This can be either a fully-specified full path, or a full path that includes environment variables such as <code>%PROGRAMFILES%</code>.
+Pointer to the full file path, as a Unicode string, to the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">property description schema</a> (.propdesc) file on the local machine. This can be either a fully-specified full path, or a full path that includes environment variables such as <code>%PROGRAMFILES%</code>.
 
 
 ## -returns
@@ -120,7 +120,7 @@ One or more property descriptions in the schema failed to register. The specific
 
 
 
-This function is a wrapper API for the schema subsystem's implementation of <a href="https://msdn.microsoft.com/library/Bb761441(v=VS.85).aspx">IPropertySystem::RegisterPropertySchema</a>. Call this function only when the file is first installed on the computer. Typically, a setup application calls this function after it installs the .propdesc file, which should be stored in the install directory of the application under Program Files. Multiple calls can be made to <b>IPropertySystem::RegisterPropertySchema</b> in order to register multiple schema files.
+This function is a wrapper API for the schema subsystem's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-registerpropertyschema">IPropertySystem::RegisterPropertySchema</a>. Call this function only when the file is first installed on the computer. Typically, a setup application calls this function after it installs the .propdesc file, which should be stored in the install directory of the application under Program Files. Multiple calls can be made to <b>IPropertySystem::RegisterPropertySchema</b> in order to register multiple schema files.
 
 When registering property schema files, remember that they can be read by processes running as different users. Therefore, it is important to place a schema file in a location that grants read access to all users on the machine. Similarly, use the absolute path to the file in this function's <i>pszPath</i> parameter.
 

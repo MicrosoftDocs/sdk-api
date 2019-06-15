@@ -65,7 +65,7 @@ The <b>Close</b> method releases the handle of the cryptographic service provide
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -74,7 +74,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-This method does not delete the key from storage or the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> instance. For more information, see the <a href="https://msdn.microsoft.com/0f319e20-d993-480e-846d-0912bb854415">Delete</a> method.
+This method does not delete the key from storage or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> instance. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-delete">Delete</a> method.
 
 
 
@@ -84,7 +84,7 @@ This method does not delete the key from storage or the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
  
 
  

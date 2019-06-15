@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Retrieves the node number for the specified processor.
 
-Use the <a href="https://msdn.microsoft.com/6b843cd8-eeb5-4aa1-aad4-ce98916346b1">GetNumaProcessorNodeEx</a> function to specify a processor group and retrieve the node number as a <b>USHORT</b> value.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaprocessornodeex">GetNumaProcessorNodeEx</a> function to specify a processor group and retrieve the node number as a <b>USHORT</b> value.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Use the <a href="https://msdn.microsoft.com/6b843cd8-eeb5-4aa1-aad4-ce98916346b1
 
 The processor number.
 
-On a system with more than 64 logical processors, the processor number is relative to the <a href="https://msdn.microsoft.com/c627ac0f-96e8-48b5-9103-4316f487e173">processor group</a> that contains the processor on which the calling thread is running.
+On a system with more than 64 logical processors, the processor number is relative to the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a> that contains the processor on which the calling thread is running.
 
 
 ### -param NodeNumber [out]
@@ -78,7 +78,7 @@ The node number. If the processor does not exist, this parameter is 0xFF.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,12 +88,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 To retrieve the list of processors on the system, use the 
-<a href="https://msdn.microsoft.com/f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f">GetProcessAffinityMask</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/df025b35-fb6b-4987-806e-9c76e6b130a1">Allocating Memory from a NUMA Node</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/Memory/allocating-memory-from-a-numa-node">Allocating Memory from a NUMA Node</a>.
 
 <div class="code"></div>
 
@@ -104,23 +104,23 @@ For an example, see <a href="https://msdn.microsoft.com/df025b35-fb6b-4987-806e-
 
 
 
-<a href="https://msdn.microsoft.com/bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8">GetNumaNodeProcessorMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumanodeprocessormask">GetNumaNodeProcessorMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b843cd8-eeb5-4aa1-aad4-ce98916346b1">GetNumaProcessorNodeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaprocessornodeex">GetNumaProcessorNodeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a2dbfe3-13e7-442d-a5f6-b2632878f618">GetNumaProximityNode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaproximitynode">GetNumaProximityNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f">GetProcessAffinityMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1263968-2b26-45cc-bdd7-6aa354821a5a">NUMA Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
  
 
  

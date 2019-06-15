@@ -69,7 +69,7 @@ The class factory to be registered.
 
 ### -param token [out]
 
-Receives a pointer to a registration token that can be used to unregister the server with <a href="https://msdn.microsoft.com/FF89301E-FE17-4B14-872E-271BDB85A784">UnregisterServerForPMP</a>.
+Receives a pointer to a registration token that can be used to unregister the server with <a href="https://docs.microsoft.com/windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp">UnregisterServerForPMP</a>.
 
 
 ## -returns

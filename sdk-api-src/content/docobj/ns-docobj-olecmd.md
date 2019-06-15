@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Associates command flags from the <a href="https://msdn.microsoft.com/feb493da-0db2-4251-ba6f-ded1fbd3e430">OLECMDF</a> enumeration with a command identifier through a call to <a href="https://msdn.microsoft.com/8acbf788-f113-43d9-800d-aad84db24498">IOleCommandTarget::QueryStatus</a>.
+Associates command flags from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration with a command identifier through a call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
 
 
 
@@ -61,12 +61,12 @@ Associates command flags from the <a href="https://msdn.microsoft.com/feb493da-0
 
 ### -field cmdID
 
-A command identifier; taken from the <a href="https://msdn.microsoft.com/ae1592b6-2afd-4379-a18e-d46b226bc9e2">OLECMDID</a> enumeration.
+A command identifier; taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdid">OLECMDID</a> enumeration.
 
 
 ### -field cmdf
 
-Flags associated with <b>cmdID</b>; taken from the <a href="https://msdn.microsoft.com/feb493da-0db2-4251-ba6f-ded1fbd3e430">OLECMDF</a> enumeration.
+Flags associated with <b>cmdID</b>; taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a> enumeration.
 
 
 
@@ -75,11 +75,11 @@ Flags associated with <b>cmdID</b>; taken from the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/8acbf788-f113-43d9-800d-aad84db24498">IOleCommandTarget::QueryStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/feb493da-0db2-4251-ba6f-ded1fbd3e430">OLECMDF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdf">OLECMDF</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_PROVIDER_CONTEXT0</b> structure stores the state associated with a provider context.
-<div class="alert"><b>Note</b>  <b>FWPM_PROVIDER_CONTEXT0</b> is the specific implementation of FWPM_PROVIDER_CONTEXT used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/34727579-9baf-4d50-b973-e864ddf651b0">FWPM_PROVIDER_CONTEXT1</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/aa397a4e-07cc-4eee-8d0f-798901a5bb29">FWPM_PROVIDER_CONTEXT2</a> is available. </div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_PROVIDER_CONTEXT0</b> is the specific implementation of FWPM_PROVIDER_CONTEXT used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context1_">FWPM_PROVIDER_CONTEXT1</a> is available. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2_">FWPM_PROVIDER_CONTEXT2</a> is available. </div><div> </div>
 
 ## -struct-fields
 
@@ -60,12 +60,12 @@ The <b>FWPM_PROVIDER_CONTEXT0</b> structure stores the state associated with a p
 ### -field providerContextKey
 
 Uniquely identifies the provider context. If the GUID is zero-initialized
-   in the call to <a href="https://msdn.microsoft.com/c31595b8-81e4-4399-b2a3-d228c35875fe">FwpmProviderContextAdd0</a>, Base Filtering Engine (BFE) will generate one.
+   in the call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd0">FwpmProviderContextAdd0</a>, Base Filtering Engine (BFE) will generate one.
 
 
 ### -field displayData
 
-Allows provider contexts to be annotated in a human-readable form. The <b>name</b> member of the <a href="https://msdn.microsoft.com/b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5">FWPM_DISPLAY_DATA0</a> structure is required.
+Allows provider contexts to be annotated in a human-readable form. The <b>name</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0_">FWPM_DISPLAY_DATA0</a> structure is required.
 
 
 ### -field flags
@@ -98,75 +98,75 @@ GUID of the policy provider that manages this object.
 
 ### -field providerData
 
-An <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
 
 
 ### -field type
 
-A <a href="https://msdn.microsoft.com/e8eae5e7-9240-47a5-851b-1ec51cb07b63">FWPM_PROVIDER_CONTEXT_TYPE</a> value specifying the type of provider context..
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_provider_context_type_">FWPM_PROVIDER_CONTEXT_TYPE</a> value specifying the type of provider context..
 
 
 ### -field keyingPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_KEYING_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/6eddafbf-ac57-419f-b2a0-f50a4ab31baf">IPSEC_KEYING_POLICY0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0_">IPSEC_KEYING_POLICY0</a> for more information.
 
 
 ### -field ikeQmTransportPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TRANSPORT_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/c17ebe74-41e3-467c-875a-db43978a5234">IPSEC_TRANSPORT_POLICY0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy0_">IPSEC_TRANSPORT_POLICY0</a> for more information.
 
 
 ### -field ikeQmTunnelPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TUNNEL_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/092b108c-47e1-4b2f-b7ed-184cf8abb392">IPSEC_TUNNEL_POLICY0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0_">IPSEC_TUNNEL_POLICY0</a> for more information.
 
 
 ### -field authipQmTransportPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/c17ebe74-41e3-467c-875a-db43978a5234">IPSEC_TRANSPORT_POLICY0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy0_">IPSEC_TRANSPORT_POLICY0</a> for more information.
 
 
 ### -field authipQmTunnelPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TUNNEL_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/092b108c-47e1-4b2f-b7ed-184cf8abb392">IPSEC_TUNNEL_POLICY0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0_">IPSEC_TUNNEL_POLICY0</a> for more information.
 
 
 ### -field ikeMmPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_MM_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/4c33087a-2736-491c-a89f-e4b9ab136026">IKEEXT_POLICY0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0_">IKEEXT_POLICY0</a> for more information.
 
 
 ### -field authIpMmPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_MM_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/4c33087a-2736-491c-a89f-e4b9ab136026">IKEEXT_POLICY0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy0_">IKEEXT_POLICY0</a> for more information.
 
 
 ### -field dataBuffer
 
 Available when <b>type</b> is <b>FWPM_GENERAL_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/85f360bf-5ee4-4980-b4ce-15ff310d8fbe">FWP_BYTE_BLOB</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob_">FWP_BYTE_BLOB</a> for more information.
 
 
 ### -field classifyOptions
 
 Available when <b>type</b> is <b>FWPM_CLASSIFY_OPTIONS_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/5d1f7807-4188-4a57-83fc-99683254e3a5">FWPM_CLASSIFY_OPTIONS0</a> for more information.
+See <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_classify_options0_">FWPM_CLASSIFY_OPTIONS0</a> for more information.
 
 
 ### -field providerContextId
@@ -190,7 +190,7 @@ The last element is additional information returned when getting/enumerating obj
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

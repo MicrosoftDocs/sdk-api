@@ -52,12 +52,12 @@ ms.custom: 19H1
 Exposes methods that notify Remote Desktop Gateway (RD Gateway) about authentication events. The 
     authentication plug-in should not implement this interface because it is already implemented. A pointer to this 
     interface is passed to the authentication plug-in when RD Gateway calls the 
-    <a href="https://msdn.microsoft.com/a378c28f-ecd1-43db-b998-487176f656f5">AuthenticateUser</a> method.
+    <a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nf-tsgauthenticationengine-itsgauthenticationengine-authenticateuser">AuthenticateUser</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGAuthenticateUserSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITSGAuthenticateUserSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGAuthenticateUserSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGAuthenticateUserSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITSGAuthenticateUserSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03385453-066d-40a9-bcbb-9623e4fdfadc">DisconnectUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nf-tsgauthenticationengine-itsgauthenticateusersink-disconnectuser">DisconnectUser</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Gateway that it should disconnect the user.
@@ -81,7 +81,7 @@ Notifies RD Gateway that it should disconnect the user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f3dd498-661c-4787-8db4-bcc43bd76294">OnUserAuthenticated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nf-tsgauthenticationengine-itsgauthenticateusersink-onuserauthenticated">OnUserAuthenticated</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Gateway that the authentication plug-in has successfully authenticated the user.
@@ -90,7 +90,7 @@ Notifies RD Gateway that the authentication plug-in has successfully authentica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3d1e582-db1d-413d-8ec8-7fdb7c6e3609">OnUserAuthenticationFailed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nf-tsgauthenticationengine-itsgauthenticateusersink-onuserauthenticationfailed">OnUserAuthenticationFailed</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Gateway that the authentication plug-in failed to authenticate the user.
@@ -99,7 +99,7 @@ Notifies RD Gateway that the authentication plug-in failed to authenticate the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3706f72-d23c-49ac-9d81-3a38f8d399c8">ReauthenticateUser</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgauthenticationengine/nf-tsgauthenticationengine-itsgauthenticateusersink-reauthenticateuser">ReauthenticateUser</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Gateway that it should silently reauthenticate and reauthorize the user.

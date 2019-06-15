@@ -55,7 +55,7 @@ Scan context.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11Scan</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3DX11Scan</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DX11Scan</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DX11Scan</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3DX11Scan</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b6c637b-747d-465c-8915-dba13725ee0b">Multiscan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-multiscan">Multiscan</a>
 </td>
 <td align="left" width="63%">
 Performs a multiscan of a sequence.
@@ -79,7 +79,7 @@ Performs a multiscan of a sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42b91efd-3d84-4c76-bb9f-da0f398da6c7">Scan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-scan">Scan</a>
 </td>
 <td align="left" width="63%">
 Performs an unsegmented scan of a sequence.
@@ -88,7 +88,7 @@ Performs an unsegmented scan of a sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f26b0e71-0803-4c57-b1bc-cefad5c449b7">SetScanDirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nf-d3dcsx-id3dx11scan-setscandirection">SetScanDirection</a>
 </td>
 <td align="left" width="63%">
 Sets which direction to perform scans in.
@@ -103,7 +103,7 @@ Sets which direction to perform scans in.
 
 
 
-<a href="https://msdn.microsoft.com/A4F5E487-AA6C-4C64-90CF-88587F2E8B8B">D3DCSX 11 Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-interfaces">D3DCSX 11 Interfaces</a>
  
 
  

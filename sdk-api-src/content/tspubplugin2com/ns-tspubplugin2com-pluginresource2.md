@@ -59,7 +59,7 @@ Contains additional information about a resource that can be assigned to users i
 
 ### -field resourceV1
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee351716(v=VS.85).aspx">pluginResource</a> structure that contains the basic information about the resource.
+A <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/ns-tspubplugincom-__midl_itspubplugin_0001">pluginResource</a> structure that contains the basic information about the resource.
 
 
 ### -field pceFileAssocListSize
@@ -74,7 +74,7 @@ Reserved for future use. This member must be <b>NULL</b>.
 
 ### -field securityDescriptor
 
-A string representation of a security descriptor used to specify the domain users and groups that have access to the resource. For more information about security descriptor strings, see <a href="https://msdn.microsoft.com/0a226629-084c-40c5-bdd4-ad7355c807cf">Security Descriptor String Format</a>.
+A string representation of a security descriptor used to specify the domain users and groups that have access to the resource. For more information about security descriptor strings, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>.
 
 
 ### -field pceFolderListSize
@@ -84,7 +84,7 @@ The number of strings in the <b>folderList</b> array.
 
 ### -field folderList
 
-An array of pointers to null-terminated strings that contain the names of the folders that the resource should be displayed in. You must use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function to allocate these strings. The caller is responsible for freeing these strings.
+An array of pointers to null-terminated strings that contain the names of the folders that the resource should be displayed in. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate these strings. The caller is responsible for freeing these strings.
 
 
 ## -remarks
@@ -103,15 +103,15 @@ The <b>pluginFolderName</b> type is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/8edb3f28-0796-478e-bf0a-b157e1e12dc2">GetResource2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2">GetResource2</a>
 
 
 
-<a href="https://msdn.microsoft.com/58b30088-be32-4aa0-88a4-459df52db7af">GetResource2List</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-getresource2list">GetResource2List</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351716(v=VS.85).aspx">pluginResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/ns-tspubplugincom-__midl_itspubplugin_0001">pluginResource</a>
  
 
  

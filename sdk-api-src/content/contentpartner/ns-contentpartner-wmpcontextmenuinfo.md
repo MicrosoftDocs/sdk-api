@@ -76,7 +76,7 @@ The help text to display for the command.
 
 
 
-This structure is retrieved by a call to <a href="https://msdn.microsoft.com/en-us/library/Dd563163(v=VS.85).aspx">IWMPContentPartner::GetCommands</a>.
+This structure is retrieved by a call to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcommands">IWMPContentPartner::GetCommands</a>.
 
 
 
@@ -86,7 +86,7 @@ This structure is retrieved by a call to <a href="https://msdn.microsoft.com/en-
 
 
 
-<a href="https://msdn.microsoft.com/e1aff1a3-cf24-4292-afcd-92e77b178a3a">Structures for Type 1 Online Stores</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/structures-for-type-1-online-stores">Structures for Type 1 Online Stores</a>
  
 
  

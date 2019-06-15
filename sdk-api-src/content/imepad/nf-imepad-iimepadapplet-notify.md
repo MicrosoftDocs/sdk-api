@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> to pass information with a notify code
+Called from <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> to pass information with a notify code
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Called from <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B0
 
 ### -param lpImePad [in]
 
-Pointer of IUnknown interface. To get the <a href="https://msdn.microsoft.com/6604112A-5BD5-4B2C-AECC-D09180B04D7F">IImePad</a> interface pointer, use <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>.
+Pointer of IUnknown interface. To get the <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> interface pointer, use <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a>.
 
 
 ### -param notify [in]
 
-The <a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a> notify code. See Remarks for the possible codes.
+The <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a> notify code. See Remarks for the possible codes.
 
 
 ### -param wParam [in, out]
@@ -142,7 +142,7 @@ Additional information specific to <i>notify</i>.
 
 
 
-<a href="https://msdn.microsoft.com/F3BC7176-9659-47B6-AFCA-049807394961">IImePadApplet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
     function.
 
 
@@ -62,7 +62,7 @@ Contains the progress and result data for the current virtual hard disk (VHD) op
 
 ### -field OperationStatus
 
-A <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> status value, this member will 
+A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> status value, this member will 
      be <b>ERROR_IO_PENDING</b> if the operation is still in progress; otherwise, the value is the 
      result code of the completed operation.
 
@@ -95,13 +95,13 @@ The <b>CurrentValue</b> and <b>CompletionValue</b> members are
     equals percent complete, up to and including 100 percent, even when <b>OperationStatus</b> is 
     still returning <b>ERROR_IO_PENDING</b>. This percentage is not always guaranteed to increase 
     with subsequent calls to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
     function, and may decrease. These decreased percentages may be safely ignored if progress tracking is desired to 
     be only in the positive by locally storing the current maximum percentage.
 
 The <b>CurrentValue</b> and <b>CompletionValue</b> members can vary in 
     subsequent calls to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a> 
     function, so they must be used together at the same time from the same call. That is, it is not valid to save 
     either of them locally and then make another call to the 
     <b>GetVirtualDiskOperationProgress</b> 
@@ -119,15 +119,15 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskoperationprogress">GetVirtualDiskOperationProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

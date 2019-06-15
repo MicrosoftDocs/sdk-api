@@ -61,7 +61,7 @@ The
 ### -param pimm [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/731e2c88-5c4f-4165-a9f2-287b4c10c76b">MIB_IPMCAST_MFE</a> structure that specifies the MFE for which to retrieve statistics. The information to be returned is indicated by the <b>dwSource</b> and <b>dwGroup</b> members of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE for which to retrieve statistics. The information to be returned is indicated by the <b>dwSource</b> and <b>dwGroup</b> members of the 
 <b>MIB_IPMCAST_MFE</b> structure.
 
 
@@ -100,7 +100,7 @@ Determines the data structure returned.
 </dl>
 </td>
 <td width="60%">
-Include statistics corresponding to <a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a>.
+Include statistics corresponding to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Include statistics corresponding to <a href="https://msdn.microsoft.com/8e277c8d
 </dl>
 </td>
 <td width="60%">
-Include statistics corresponding to <a href="https://msdn.microsoft.com/4d1b35bd-da6c-48a1-ade1-f96148c9eecb">MIB_IPMCAST_MFE_STATS_EX</a>.
+Include statistics corresponding to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>.
 
 </td>
 </tr>
@@ -174,7 +174,7 @@ The specified MFE was not found.
 
 
 
-The MFE statistics are returned in either an <a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a> or <a href="https://msdn.microsoft.com/4d1b35bd-da6c-48a1-ade1-f96148c9eecb">MIB_IPMCAST_MFE_STATS_EX</a> structure determined by the <i>dwFlags</i> parameter.
+The MFE statistics are returned in either an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a> structure determined by the <i>dwFlags</i> parameter.
 
 
 
@@ -184,19 +184,19 @@ The MFE statistics are returned in either an <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/8e277c8d-db7a-4710-87af-ea5311123a71">MIB_IPMCAST_MFE_STATS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4d1b35bd-da6c-48a1-ade1-f96148c9eecb">MIB_IPMCAST_MFE_STATS_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/b546c1a6-31a7-4053-9494-6903faa4df52">MgmGetFirstMfeStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfestats">MgmGetFirstMfeStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/af8dd38e-e66f-459a-a07c-c298154901f6">MgmGetNextMfeStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfestats">MgmGetNextMfeStats</a>
  
 
  

@@ -115,7 +115,7 @@ Indicates a video stream.
 
 ### -field fccHandler
 
-Four-character code of the compressor handler that will compress this video stream when it is saved (for example, <a href="https://msdn.microsoft.com/616c3b43-9305-49c1-bc46-2e1256647c7d">mmioFOURCC</a> ('M','S','V','C')). This member is not used for audio streams.
+Four-character code of the compressor handler that will compress this video stream when it is saved (for example, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a> ('M','S','V','C')). This member is not used for audio streams.
 
 
 ### -field dwFlags
@@ -170,7 +170,7 @@ Language of the stream.
 
 Time scale applicable for the stream. Dividing <b>dwRate</b> by <b>dwScale</b> gives the playback rate in number of samples per second.
 
-For video streams, this rate should be the frame rate. For audio streams, this rate should correspond to the audio block size (the <b>nBlockAlign</b> member of the <a href="https://msdn.microsoft.com/48871868-792a-4479-9e92-95306c25673a">WAVEFORMAT</a> or <a href="https://msdn.microsoft.com/c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c">PCMWAVEFORMAT</a> structure), which for PCM (Pulse Code Modulation) audio reduces to the sample rate.
+For video streams, this rate should be the frame rate. For audio streams, this rate should correspond to the audio block size (the <b>nBlockAlign</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex">WAVEFORMAT</a> or <a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure), which for PCM (Pulse Code Modulation) audio reduces to the sample rate.
 
 
 
@@ -211,7 +211,7 @@ Quality indicator of the video data in the stream. Quality is represented as a n
 
 Size, in bytes, of a single data sample. If the value of this member is zero, the samples can vary in size and each data sample (such as a video frame) must be in a separate chunk. A nonzero value indicates that multiple samples of data can be grouped into a single chunk within the file.
 
-For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://msdn.microsoft.com/48871868-792a-4479-9e92-95306c25673a">WAVEFORMAT</a> or <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure describing the audio.
+For video streams, this number is typically zero, although it can be nonzero if all video frames are the same size. For audio streams, this number should be the same as the <b>nBlockAlign</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex">WAVEFORMAT</a> or <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure describing the audio.
 
 
 ### -field rcFrame
@@ -239,27 +239,27 @@ Null-terminated string containing a description of the stream.
 
 
 
-<a href="https://msdn.microsoft.com/573e24fa-876d-4ce9-be23-d5e448a53e20">AVIFile Functions and Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7cdbb6-8c53-49ad-a171-b58357531887">AVIFile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-structures">AVIFile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c">PCMWAVEFORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/48871868-792a-4479-9e92-95306c25673a">WAVEFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-twaveformatex">WAVEFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/616c3b43-9305-49c1-bc46-2e1256647c7d">mmioFOURCC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a>
  
 
  

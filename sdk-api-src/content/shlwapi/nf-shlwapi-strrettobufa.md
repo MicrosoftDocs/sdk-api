@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts an <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure returned by <a href="https://msdn.microsoft.com/2164bbe6-e030-4a64-85db-9ee1cd3c136d">IShellFolder::GetDisplayNameOf</a> to a string, and places the result in a buffer.
+Converts an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> to a string, and places the result in a buffer.
 
 
 ## -parameters
@@ -62,16 +62,16 @@ Converts an <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db789
 
 ### -param pstr [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure. When the function returns, this pointer will no longer be valid.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_strret">STRRET</a> structure. When the function returns, this pointer will no longer be valid.
 
 
 ### -param pidl [in]
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to the item's <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+A pointer to the item's <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ### -param pszBuf [out]
@@ -113,11 +113,11 @@ If the <b>uType</b> member of the structure pointed to by <i>pstr</i> is set to 
 
 
 
-<a href="https://msdn.microsoft.com/03b0dffb-8ef7-41da-9773-81ed55275802">StrRetToStr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/a816fb5f-8320-4b63-a85d-dd4c59596ead">StrRetToStrN</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/consts-enums-flags">StrRetToStrN</a>
  
 
  

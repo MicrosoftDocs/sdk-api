@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/31ec28fe-8774-48fc-91ba-6fa43108e2cc">RegisterServiceCtrlHandler</a> function. A service program can use it as the control handler function of a particular service.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlera">RegisterServiceCtrlHandler</a> function. A service program can use it as the control handler function of a particular service.
 
 The <b>LPHANDLER_FUNCTION</b> type defines a pointer to this function. 
 <b>Handler</b> is a placeholder for the application-defined name.
 
 This function has been superseded by the 
-<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a> control handler function used with the 
-<a href="https://msdn.microsoft.com/23eea346-9899-4214-88f4-9b7eb7ce1332">RegisterServiceCtrlHandlerEx</a> function. A service can use either control handler, but the new control handler supports user-defined context data and additional extended control codes.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> control handler function used with the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function. A service can use either control handler, but the new control handler supports user-defined context data and additional extended control codes.
 
 
 ## -parameters
@@ -255,12 +255,12 @@ This function does not return a value.
 
 
 When a service is started, its 
-<a href="https://msdn.microsoft.com/d7f3235e-91bd-4107-a30c-4a8f9a6c731e">ServiceMain</a> function should immediately call the 
-<a href="https://msdn.microsoft.com/31ec28fe-8774-48fc-91ba-6fa43108e2cc">RegisterServiceCtrlHandler</a> function to specify a 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a> function should immediately call the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlera">RegisterServiceCtrlHandler</a> function to specify a 
 <b>Handler</b> function to process control requests.
 
 The control dispatcher in the main thread of a service process invokes the control handler function for the specified service whenever it receives a control request from the service control manager. After processing the control request, the control handler must call the 
-<a href="https://msdn.microsoft.com/bb5943ff-2814-40f2-bee0-ae7132befde9">SetServiceStatus</a> function if the service state changes to report its new status to the service control manager.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function if the service state changes to report its new status to the service control manager.
 
 The control handler function is intended to receive notification and return immediately. The callback function should save its parameters and create other threads to perform additional work. (Your application must ensure that such threads have exited before stopping the service.) In particular, a control handler should avoid  operations that might block, such as taking a lock, because this could result  in  a deadlock or cause the system to stop responding. 
 
@@ -275,13 +275,13 @@ If the service requires more time to clean up, it should send <b>STOP_PENDING</b
 
 
 
-Services can also use the <a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
+Services can also use the <a href="https://docs.microsoft.com/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/bf1932bd-496b-46a1-95f4-1581da98299f">Writing a Control Handler Function</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Services/writing-a-control-handler-function">Writing a Control Handler Function</a>.
 
 <div class="code"></div>
 
@@ -292,27 +292,27 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/31ec28fe-8774-48fc-91ba-6fa43108e2cc">RegisterServiceCtrlHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlera">RegisterServiceCtrlHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/437334ed-05fa-4ab6-aab3-dc2739113e19">Service Control Handler Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-handler-function">Service Control Handler Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/63666848-cbac-4853-8b91-89303f9854c0">Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7f3235e-91bd-4107-a30c-4a8f9a6c731e">ServiceMain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb5943ff-2814-40f2-bee0-ae7132befde9">SetServiceStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
  
 
  

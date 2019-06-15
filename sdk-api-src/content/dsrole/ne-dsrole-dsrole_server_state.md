@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSROLE_SERVER_STATE</b> enumeration is used with the <a href="https://msdn.microsoft.com/c368d8d9-a91d-4013-880e-36a47d42a697">DSROLE_UPGRADE_STATUS_INFO</a> structure to indicate the role of a server.
+The <b>DSROLE_SERVER_STATE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a> structure to indicate the role of a server.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ The server was, or is, a backup domain controller.
 
 
 
-<a href="https://msdn.microsoft.com/c368d8d9-a91d-4013-880e-36a47d42a697">DSROLE_UPGRADE_STATUS_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ns-dsrole-_dsrole_upgrade_status_info">DSROLE_UPGRADE_STATUS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/eafa3285-4474-4077-a6ad-b37f8211e7e6">Enumerations in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
  
 
  

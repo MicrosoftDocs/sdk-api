@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/00E9476E-45E0-4D97-9DA4-FD293674BED4">IDllServerActivatableClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/D7D3A6D3-52DF-4634-A6FC-F5081E2E13B0">ThreadingType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/ne-activationregistration-threadingtype">ThreadingType</a>
  
 
  

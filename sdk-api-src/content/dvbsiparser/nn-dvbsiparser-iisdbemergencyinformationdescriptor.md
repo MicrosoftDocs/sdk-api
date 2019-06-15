@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbEmergencyInformationDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbEmergencyInformationDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbEmergencyInformationDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbEmergencyInformationDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbEmergencyInformationDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7bf09adf-6a04-4c3a-8c66-aea4e96c6936">GetAreaCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getareacode">GetAreaCode</a>
 </td>
 <td align="left" width="63%">
 Gets area codes from  an ISDB emergency information descriptor.
@@ -78,7 +78,7 @@ Gets area codes from  an ISDB emergency information descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d23f1cc0-c6b0-4054-80be-36d7675fdec7">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of area code records from an ISDB emergency information descriptor.
@@ -87,7 +87,7 @@ Gets the number of area code records from an ISDB emergency information descript
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22520f2f-8a7f-45f3-86b1-a747fb33d7dc">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of an ISDB emergency information descriptor.
@@ -96,7 +96,7 @@ Gets the body length of an ISDB emergency information descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/298f0637-eea1-4247-a9ff-cbe1a82fb8f6">GetServiceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getserviceid">GetServiceId</a>
 </td>
 <td align="left" width="63%">
 Gets  the identifier for a broadcasting event from an  ISDB emergency information descriptor.
@@ -105,7 +105,7 @@ Gets  the identifier for a broadcasting event from an  ISDB emergency informatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf0c8d51-4ec8-4dad-8ef3-f18339ed0c0c">GetSignalLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getsignallevel">GetSignalLevel</a>
 </td>
 <td align="left" width="63%">
 Gets a flag that indicates the emergency alarm signal type from an ISDB emergency information descriptor.
@@ -114,7 +114,7 @@ Gets a flag that indicates the emergency alarm signal type from an ISDB emergenc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13593be1-073c-41df-b389-f0920d192c92">GetStartEndFlag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getstartendflag">GetStartEndFlag</a>
 </td>
 <td align="left" width="63%">
 Gets a flag from an ISDB emergency information descriptor that indicates whether an emergency alarm signal has started or finished broadcasting.
@@ -123,7 +123,7 @@ Gets a flag from an ISDB emergency information descriptor that indicates whether
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0751a09-0336-48d7-a5f0-1182354774a4">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB emergency information descriptor.

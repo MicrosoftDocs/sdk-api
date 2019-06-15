@@ -82,9 +82,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method can be received by the CRM Compensator multiple times, once for each log record that is written.
 
-For the <a href="https://msdn.microsoft.com/44b80062-b2bb-4c34-b9e1-31229c8e40ca">ICrmCompensatorVariants</a> interface, log records are delivered in the same way that they were written. The CRM flags and sequence number are appended as the last two elements in the array. (See <b>ICrmCompensator::PrepareRecord</b>.)
+For the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a> interface, log records are delivered in the same way that they were written. The CRM flags and sequence number are appended as the last two elements in the array. (See <b>ICrmCompensator::PrepareRecord</b>.)
 
-If no log records are written by the CRM Worker, the <a href="https://msdn.microsoft.com/f0cbfc39-2a29-4b1f-8d6e-87d0b1c68582">BeginPrepareVariants</a> and <a href="https://msdn.microsoft.com/2b9a7e75-5e7c-4f5b-b625-78abb3c5e9b7">EndPrepareVariants</a> methods are received by the CRM Compensator but there are no <b>PrepareRecordVariants</b> method calls. This is to allow for CRM Compensators that write log records at prepare time only.
+If no log records are written by the CRM Worker, the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-beginpreparevariants">BeginPrepareVariants</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-endpreparevariants">EndPrepareVariants</a> methods are received by the CRM Compensator but there are no <b>PrepareRecordVariants</b> method calls. This is to allow for CRM Compensators that write log records at prepare time only.
 
 The CRM Compensator can choose to forget the record that is delivered to it during this phase by setting the forget flag on return from this method.
 
@@ -96,7 +96,7 @@ The CRM Compensator can choose to forget the record that is delivered to it duri
 
 
 
-<a href="https://msdn.microsoft.com/44b80062-b2bb-4c34-b9e1-31229c8e40ca">ICrmCompensatorVariants</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>
  
 
  

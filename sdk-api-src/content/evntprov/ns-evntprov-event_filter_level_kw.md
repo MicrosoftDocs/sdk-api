@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EVENT_FILTER_LEVEL_KW</b> structure defines event IDs used in an <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure for a stack walk level-keyword filter.
+The <b>EVENT_FILTER_LEVEL_KW</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for a stack walk level-keyword filter.
 
 This filter is only applied to events that are otherwise enabled
 on the logging session, via a level/keyword in the enable call.

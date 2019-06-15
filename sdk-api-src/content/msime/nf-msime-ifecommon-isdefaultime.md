@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Determines if the IME specified by the class ID is the default IME on a local computer.
 
-The name of the IME is obtained from the  <a href="https://msdn.microsoft.com/731b8209-1ca8-4667-bd39-7bd0cef45380">Win32 keyboard layout API</a>.
+The name of the IME is obtained from the  <a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input-functions">Win32 keyboard layout API</a>.
 
 
 ## -parameters
@@ -86,11 +86,11 @@ The size of <i>szName</i> in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/9FBECA6F-F162-485D-938F-FADC2D47083E">IFECommon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
 
 
 
-<a href="https://msdn.microsoft.com/731b8209-1ca8-4667-bd39-7bd0cef45380">Win32 keyboard layout API</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input-functions">Win32 keyboard layout API</a>
  
 
  

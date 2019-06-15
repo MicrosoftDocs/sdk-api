@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Option flags controlling primary conversion performed by <a href="https://msdn.microsoft.com/5ea6ba4c-9bd6-a909-82d5-c4690dc9a24e">CreateImageSourceFromDxgi</a>, if any.
+Option flags controlling primary conversion performed by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">CreateImageSourceFromDxgi</a>, if any.
 
 
 ## -enum-fields

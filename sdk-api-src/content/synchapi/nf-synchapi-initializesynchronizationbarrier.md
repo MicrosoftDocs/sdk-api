@@ -78,7 +78,7 @@ The maximum number of threads that can enter this barrier. After the maximum num
 The number of times an individual thread should spin while waiting for other threads to arrive at the 
       barrier. If this parameter is -1, the thread spins 2000 times. If the thread exceeds 
       <i>lSpinCount</i>, the thread blocks unless it called 
-      <a href="https://msdn.microsoft.com/cd938370-b046-4369-931d-5c7c8db7303a">EnterSynchronizationBarrier</a> with 
+      <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a> with 
       <b>SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY</b>.
 
 
@@ -88,7 +88,7 @@ The number of times an individual thread should spin while waiting for other thr
 
 <b>TRUE </b>if the barrier was successfully initialized. If the barrier was not 
       successfully initialized, this function returns <b>FALSE</b>. Use 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to get extended error information.
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
 
 
 
@@ -98,15 +98,15 @@ The number of times an individual thread should spin while waiting for other thr
 
 
 
-<a href="https://msdn.microsoft.com/04626b6f-f5f7-4042-9786-7cabd68636ac">DeleteSynchronizationBarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-deletesynchronizationbarrier">DeleteSynchronizationBarrier</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd938370-b046-4369-931d-5c7c8db7303a">EnterSynchronizationBarrier</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier">EnterSynchronizationBarrier</a>
 
 
 
-<a href="https://msdn.microsoft.com/3A76E6F7-C38B-4843-9496-36F3C78B700C">Synchronization Barriers</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-barriers">Synchronization Barriers</a>
  
 
  

@@ -59,14 +59,14 @@ Retrieves a footprint file from the package.
 
 ### -param type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/AF158108-06E5-45D5-BD64-DA3CEFFB88F0">APPX_FOOTPRINT_FILE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_footprint_file_type">APPX_FOOTPRINT_FILE_TYPE</a></b>
 
 The type of footprint file to be retrieved.
 
 
 ### -param file [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/DB09452D-725C-46EA-B74C-92C5E596BEF8">IAppxFile</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The file object that corresponds to the footprint file of <i>type</i>.
 
@@ -91,7 +91,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 </dl>
 </td>
 <td width="60%">
-The <i>type</i> parameter is not a member of the <a href="https://msdn.microsoft.com/AF158108-06E5-45D5-BD64-DA3CEFFB88F0">APPX_FOOTPRINT_FILE_TYPE</a> enumeration.
+The <i>type</i> parameter is not a member of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_footprint_file_type">APPX_FOOTPRINT_FILE_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The <i>type</i> parameter is not a member of the <a href="https://msdn.microsoft
 The package does not contain a footprint file of the specified type.
 
 
-<a href="https://msdn.microsoft.com/8CCF9135-308F-4BDC-A67F-1E3ED2ACF565">GetFootprintFile</a> can return this error for <a href="https://msdn.microsoft.com/en-us/library/Hh446587(v=VS.85).aspx">APPX_FOOTPRINT_FILE_TYPE_SIGNATURE</a> and <a href="https://msdn.microsoft.com/en-us/library/Hh446587(v=VS.85).aspx">APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY</a> types.
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getfootprintfile">GetFootprintFile</a> can return this error for <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_footprint_file_type">APPX_FOOTPRINT_FILE_TYPE_SIGNATURE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_footprint_file_type">APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY</a> types.
 
 </td>
 </tr>
@@ -120,19 +120,19 @@ The package does not contain a footprint file of the specified type.
 
 
 
-<a href="https://msdn.microsoft.com/DB09452D-725C-46EA-B74C-92C5E596BEF8">IAppxFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/D34D0909-BE2B-4182-8C3D-36A4E8DDC820">IAppxPackageReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/83E6931D-405C-4A93-BE70-F505D484CB7F">IAppxPackageReader::GetPayloadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getpayloadfile">IAppxPackageReader::GetPayloadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/20883A4E-BE7B-4312-978A-3BF9362CA6DA">IAppxPackageReader::GetPayloadFiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles">IAppxPackageReader::GetPayloadFiles</a>
  
 
  

@@ -53,10 +53,10 @@ The security binding template for specifying the use of SSL/TLS
         protocol based transport security. 
       
 
-See also <a href="https://msdn.microsoft.com/en-us/library/Dd323441(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
+See also <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_ssl_transport_security_binding">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
 
 This security binding is supported only with the
-        <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
       
 
 
@@ -76,7 +76,7 @@ Application provided security binding properties that cannot be represented in p
 The local certificate credential to be used with this security binding.
         
 
-Server side: When SSL is used for transport security with <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>, the server certificate must be
+Server side: When SSL is used for transport security with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, the server certificate must be
           registered by the application using the <a href="http://go.microsoft.com/fwlink/p/?linkid=95010">HttpCfg.exe</a> and this field must be set to <b>NULL</b>.  In all other cases, the
           server SSL certificate must be specified using this field.
         

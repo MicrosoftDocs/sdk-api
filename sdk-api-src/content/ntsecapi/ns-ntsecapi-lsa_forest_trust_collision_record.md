@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structure contains information about a <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> forest trust collision.
+The <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust collision.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structure contains information abou
 
 ### -field Index
 
-Index of this collision record in the array of <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structures pointed to by the <b>Entries</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa378330(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure.
+Index of this collision record in the array of <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structures pointed to by the <b>Entries</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_collision_information">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure.
 
 
 ### -field Type
@@ -77,7 +77,7 @@ Type of the collision. The following table shows the possible values.
 </dl>
 </td>
 <td width="60%">
-Collision between <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> objects.
+Collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Collision between cross-references.
 </dl>
 </td>
 <td width="60%">
-Collision that is not a collision between <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> objects or cross-references.
+Collision that is not a collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects or cross-references.
 
 </td>
 </tr>
@@ -143,5 +143,5 @@ The following table lists the possible values for this member when the <b>Type</
 ### -field Name
 
 
-<a href="https://msdn.microsoft.com/9e1cf20f-01f9-4813-bf95-e47c5d57dcdc">LSA_UNICODE_STRING</a> structure that contains the name of the collision record.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-_lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the collision record.
 

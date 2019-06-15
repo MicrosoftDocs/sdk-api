@@ -96,7 +96,7 @@ The method succeeded.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-This method will not work if the disc in the drive is not rewritable. Use <a href="https://msdn.microsoft.com/en-us/library/Dd563089(v=VS.85).aspx">IWMPCdromBurn::isAvailable</a> to determine whether a CD can be erased.
+This method will not work if the disc in the drive is not rewritable. Use <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-isavailable">IWMPCdromBurn::isAvailable</a> to determine whether a CD can be erased.
 
 
 
@@ -106,7 +106,7 @@ This method will not work if the disc in the drive is not rewritable. Use <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563081(v=VS.85).aspx">IWMPCdromBurn Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
  
 
  

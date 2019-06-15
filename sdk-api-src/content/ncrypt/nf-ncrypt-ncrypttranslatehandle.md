@@ -204,7 +204,7 @@ A memory allocation failure occurred.
 
 This is a helper function intended to help applications and system components that currently use the CryptoAPI to make a graceful transition to using CNG.
 
-This function will only be successful if a CNG key storage provider is registered with a name or alias that is identical to the name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) referred to by the <i>hLegacyProv</i> parameter.
+This function will only be successful if a CNG key storage provider is registered with a name or alias that is identical to the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) referred to by the <i>hLegacyProv</i> parameter.
 
 This function will perform the following steps to translate the CSP handle into a CNG key handle:
 

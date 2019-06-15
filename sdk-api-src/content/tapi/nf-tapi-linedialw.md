@@ -80,7 +80,7 @@ Country or region code of the destination. This is used by the implementation to
 
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_ADDRESSBLOCKED, LINEERR_INVALPOINTER, LINEERR_DIALBILLING, LINEERR_NOMEM, LINEERR_DIALDIALTONE, LINEERR_NOTOWNER, LINEERR_DIALPROMPT, LINEERR_OPERATIONFAILED, LINEERR_DIALQUIET, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_UNINITIALIZED, LINEERR_INVALCOUNTRYCODE.
 
@@ -100,20 +100,20 @@ The
 <b>lineDial</b> function can be invoked multiple times in the course of multistage dialing, if the line's device capabilities allow it. Also, multiple addresses can be provided in a single dial string separated by CRLF. Service providers that provide inverse multiplexing can establish individual physical calls with each of the addresses and can return a single call handle to the aggregate of all calls to the application. All addresses would use the same country or region code.
 
 Dialing is considered complete after the address has been passed to the service provider; not after the call is finally connected. Service providers that provide inverse multiplexing can allow multiple addresses to be provided at once. The service provider sends LINE_CALLSTATE messages to the application to inform it about the progress of the call. To abort a call attempt while a call is being established, the invoking application should use 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>.
 
 An application can set the <i>lpszDestAddress</i> parameter of the 
 <b>lineDial</b> function to the address of an empty string to indicate that dialing is complete, but only if the previous calls to the 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> and 
 <b>lineDial</b> functions have had the strings specified by <i>lpszDestAddress</i> terminated with semicolons.
 
-The <b>lineDial</b> function can also be used in partial dialing.  To initiate a call using partial dialing, the application calls <a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a> and specifies a partial dialing string. A partial dial string is any dial string  terminated by a semicolon.  The call will typically transition to LINECALLSTATE_DIALING after which <b>lineDial</b> can be called to specify  more dialing strings, each terminated by a semicolon.  Dialing is completed by calling <b>lineDial</b> with a dial string that is not terminated with a semicolon (such as an empty string).  This technique allows applications to perform interactive partial dialing with the user  or enable  more sophisticated dialing than a TSP may be capable of.
+The <b>lineDial</b> function can also be used in partial dialing.  To initiate a call using partial dialing, the application calls <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> and specifies a partial dialing string. A partial dial string is any dial string  terminated by a semicolon.  The call will typically transition to LINECALLSTATE_DIALING after which <b>lineDial</b> can be called to specify  more dialing strings, each terminated by a semicolon.  Dialing is completed by calling <b>lineDial</b> with a dial string that is not terminated with a semicolon (such as an empty string).  This technique allows applications to perform interactive partial dialing with the user  or enable  more sophisticated dialing than a TSP may be capable of.
 
 
 
-If a null destination string, or an empty string terminated with a semicolon (";") is entered in   <a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a> the application transitions to LINE_CALLSTATE_DIALTONE. The  <b>lineDial</b> function can  be called in this state to enter a single dial string  or  multiple partial dial strings, each separated by a semicolon. The application transitions to the  LINECALLSTATE_DIALING state after the first digit is entered.
+If a null destination string, or an empty string terminated with a semicolon (";") is entered in   <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> the application transitions to LINE_CALLSTATE_DIALTONE. The  <b>lineDial</b> function can  be called in this state to enter a single dial string  or  multiple partial dial strings, each separated by a semicolon. The application transitions to the  LINECALLSTATE_DIALING state after the first digit is entered.
 
-<div class="alert"><b>Note</b>  The <b>lineDial</b> function is  only available when a call is in LINECALLSTATE_DIALING or LINE_CALLSTATE_DIALTONE.  If DTMF is needed while a call is connected  (LINECALLSTATE_CONNECTED), use <a href="https://msdn.microsoft.com/aa407269-06be-43e2-906e-20137e4bdb89">lineGenerateDigits</a>.
+<div class="alert"><b>Note</b>  The <b>lineDial</b> function is  only available when a call is in LINECALLSTATE_DIALING or LINE_CALLSTATE_DIALTONE.  If DTMF is needed while a call is connected  (LINECALLSTATE_CONNECTED), use <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a>.
 </div>
 <div> </div>
 
@@ -124,11 +124,11 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 
-<a href="https://msdn.microsoft.com/09d10789-bc36-47c7-b77d-8698ae75541a">Basic Telephony Services Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dfaefd7-f8dd-451e-af18-249c89bdb517">Dial Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/dial-ovr">Dial Overview</a>
 
 
 
@@ -136,23 +136,23 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 
-<a href="https://msdn.microsoft.com/7b24e3c3-bc69-488b-a698-cf17875bc3c5">LINE_CALLSTATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d98ed8b-b75e-49f8-aba3-c6eee89e91c1">LINE_REPLY</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/d703b414-1389-416c-8e94-c1931979f0c9">TAPI 2.2 Reference Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7dc9cdc-3cc3-4b6a-98c8-e141402c781e">lineMakeCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
  
 
  

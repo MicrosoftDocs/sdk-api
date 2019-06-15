@@ -93,12 +93,12 @@ The
 <i>VarN</i>
 <i>ValueN</i>
 Treat this memory as read-only; do not modify it directly. To add or change an environment variable, use the 
-<a href="https://msdn.microsoft.com/1d4cc328-12e6-4aae-9f58-58675116ad54">GetEnvironmentVariable</a> and 
-<a href="https://msdn.microsoft.com/95bd6fa5-886d-41dc-a5c3-ede86dbfa15d">SetEnvironmentVariable</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a> functions.
 
 When the block returned by 
 <b>GetEnvironmentStrings</b> is no longer needed, it should be freed by calling the 
-<a href="https://msdn.microsoft.com/8ac73f6e-4b42-4730-bf88-4b671f57b63b">FreeEnvironmentStrings</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa">FreeEnvironmentStrings</a> function.
 
 Note that the ANSI version of this function, <b>GetEnvironmentStringsA</b>, returns OEM characters.
 
@@ -106,7 +106,7 @@ Note that the ANSI version of this function, <b>GetEnvironmentStringsA</b>, retu
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/b428688c-7b16-48c7-8d89-55d066496d1c">Changing Environment Variables</a>.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
 
 <div class="code"></div>
 
@@ -117,19 +117,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/6732b12f-ced1-4769-b947-79da8fd2237a">Environment Variables</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ac73f6e-4b42-4730-bf88-4b671f57b63b">FreeEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa">FreeEnvironmentStrings</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d4cc328-12e6-4aae-9f58-58675116ad54">GetEnvironmentVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
 
 
 
-<a href="https://msdn.microsoft.com/95bd6fa5-886d-41dc-a5c3-ede86dbfa15d">SetEnvironmentVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a>
  
 
  

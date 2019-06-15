@@ -64,7 +64,7 @@ The number of component categories to be registered.
 
 ### -param rgCategoryInfo [in]
 
-An array of <a href="https://msdn.microsoft.com/a5f0cb04-595d-4388-8943-79b9da76022b">CATEGORYINFO</a> structures, one for each category to be registered. By providing the same CATID for multiple <b>CATEGORYINFO</b> structures, multiple locales can be registered for the same component category.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/comcat/ns-comcat-tagcategoryinfo">CATEGORYINFO</a> structures, one for each category to be registered. By providing the same CATID for multiple <b>CATEGORYINFO</b> structures, multiple locales can be registered for the same component category.
 
 
 ## -returns
@@ -120,7 +120,7 @@ This method can only be called by the owner of a category, usually as part of th
 
 
 
-<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
  
 
  

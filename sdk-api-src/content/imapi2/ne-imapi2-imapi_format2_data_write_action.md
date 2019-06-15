@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values that indicate the current state of the write operation when using the <a href="https://msdn.microsoft.com/6bf149d3-62ea-4ef5-8d45-44df9ad4982c">IDiscFormat2DataEventArgs</a> interface.
+Defines values that indicate the current state of the write operation when using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2dataeventargs">IDiscFormat2DataEventArgs</a> interface.
 
 
 ## -enum-fields
@@ -102,7 +102,7 @@ Verifying the integrity of the burned media.
 
 
 
-<a href="https://msdn.microsoft.com/ad7db1a4-7ea8-46d7-8c4f-e7b9fb232f63">IDiscFormat2DataEventArgs::get_CurrentAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction">IDiscFormat2DataEventArgs::get_CurrentAction</a>
  
 
  

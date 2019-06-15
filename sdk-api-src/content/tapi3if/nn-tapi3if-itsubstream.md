@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 An 
 <b>ITSubStream</b> is a component of an 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a>, and gives an application finer control over the media streaming. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>, and gives an application finer control over the media streaming. The 
 <b>ITSubStream</b> interface provides methods that start, pause, or stop a substream, select or unselect terminals, and obtain a list of terminals selected on the stream. The 
-<a href="https://msdn.microsoft.com/fa8c4017-09ac-44e9-a7fa-922d0588d92a">IEnumSubStream::Next</a> and 
-<a href="https://msdn.microsoft.com/00fe0f8f-c814-4ae6-a60b-c58f3dc60b67">ITSubStreamControl::CreateSubStream</a> methods create the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-next">IEnumSubStream::Next</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-createsubstream">ITSubStreamControl::CreateSubStream</a> methods create the 
 <b>ITSubStream</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStream</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITSubStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSubStream</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITSubStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITSubStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf5e1f7f-3820-433e-b71f-53798c202593">EnumerateTerminals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-enumerateterminals">EnumerateTerminals</a>
 </td>
 <td align="left" width="63%">
 Enumerates terminals selected on the substream.
@@ -84,17 +84,17 @@ Enumerates terminals selected on the substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec97e621-3789-46a4-b6b6-96639c5e7d4f">get_Stream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-get_stream">get_Stream</a>
 </td>
 <td align="left" width="63%">
 Retrieves pointer to 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a> interface for current substream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface for current substream.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/100854aa-78de-4395-9081-3b1f845c254c">get_Terminals</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-get_terminals">get_Terminals</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of terminals associated with the current substream. Provided for Automation client applications, such as those written in Microsoft Visual Basic.
@@ -103,7 +103,7 @@ Creates a collection of terminals associated with the current substream. Provide
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77bd3726-3996-45a6-88be-cb033f5dddc0">PauseSubStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-pausesubstream">PauseSubStream</a>
 </td>
 <td align="left" width="63%">
 Pauses the substream.
@@ -112,17 +112,17 @@ Pauses the substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5dc558ab-7422-4106-831e-9d2812530e0a">SelectTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-selectterminal">SelectTerminal</a>
 </td>
 <td align="left" width="63%">
 Selects an 
-<a href="https://msdn.microsoft.com/38bc30fa-3e4e-417a-9d04-931ba2451fa4">ITTerminal</a> object onto the substream.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> object onto the substream.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/603cb667-a108-4e47-9808-99fddad5d894">StartSubStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">StartSubStream</a>
 </td>
 <td align="left" width="63%">
 Starts the substream.
@@ -131,7 +131,7 @@ Starts the substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa5028f6-80eb-4076-a81c-c83b462fc27c">StopSubStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">StopSubStream</a>
 </td>
 <td align="left" width="63%">
 Stops the substream.
@@ -140,7 +140,7 @@ Stops the substream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1b84377-bb1f-4e88-aca5-91105ff2ad6a">UnselectTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-unselectterminal">UnselectTerminal</a>
 </td>
 <td align="left" width="63%">
 Unselects the terminal from the substream.
@@ -155,23 +155,23 @@ Unselects the terminal from the substream.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/74a385c8-0c36-4cf0-8983-5ffd7b0e5c4a">ITStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/12b9457a-7afb-4348-93a2-28728c673929">ITStreamControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/17c5f2ba-d526-4b00-9649-8fd73d70bc79">ITSubStreamControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstreamcontrol">ITSubStreamControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

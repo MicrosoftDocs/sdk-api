@@ -69,7 +69,7 @@ The <b>IESValueUpdatedEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc008b4a-fa6f-4b62-90da-417813081344">GetValueNames</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesvalueupdatedevent-getvaluenames">GetValueNames</a>
 </td>
 <td align="left" width="63%">
 For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name that has been updated. 

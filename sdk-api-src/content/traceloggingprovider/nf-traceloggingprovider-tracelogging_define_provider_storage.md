@@ -83,7 +83,7 @@ The GUID of the provider group that your provider is a member of.
 
 Use this macro  to allocate storage but not define a handle for the TraceLogging provider. This is useful for scenarios where you need to have greater control over the way that your app manages registration for global handles.
 
-Use the <a href="https://msdn.microsoft.com/5D794C46-95B2-4111-AFB8-CE488B4D1A42">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
 more than one group. The semantics of group membership are determined by
 the ETW controllers that subscribe a session to a group.
 

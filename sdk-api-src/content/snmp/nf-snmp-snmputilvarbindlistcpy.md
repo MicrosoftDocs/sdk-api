@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The 
 				<b>SnmpUtilVarBindListCpy</b> function copies the specified 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure, and allocates any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure, and allocates any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
 
 
 ## -parameters
@@ -64,13 +64,13 @@ The
 ### -param pVblDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure to receive the copy.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure to receive the copy.
 
 
 ### -param pVblSrc [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure to copy.
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure to copy.
 
 
 ## -returns
@@ -89,7 +89,7 @@ If the function fails, the return value is zero.
 
 
 Call the 
-<a href="https://msdn.microsoft.com/79143aaa-26e1-4142-9c67-508d70034de2">SnmpUtilVarBindListFree</a> function to free memory that the 
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilvarbindlistfree">SnmpUtilVarBindListFree</a> function to free memory that the 
 <b>SnmpUtilVarBindListCpy</b> function allocates for the destination structure.
 
 
@@ -100,23 +100,23 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/8913caa9-6b2c-424c-a778-bd54d6584dac">SNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e912b-0821-452e-81f6-8a8250875979">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/65947bdb-1165-4e5d-b3ca-1c54cd50166e">SnmpUtilOidCpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidcpy">SnmpUtilOidCpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/79143aaa-26e1-4142-9c67-508d70034de2">SnmpUtilVarBindListFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilvarbindlistfree">SnmpUtilVarBindListFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>
  
 
  

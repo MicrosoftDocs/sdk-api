@@ -59,7 +59,7 @@ Enables you to run the enclosed code in the scope of an existing transaction tha
 
 ### -param pTxProxy [in]
 
-The <a href="https://msdn.microsoft.com/58d40456-fd4f-4690-a679-3fa58b2f3cda">ITransactionProxy</a> interface of the existing transaction in which you will run the enclosed code.
+The <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproxy">ITransactionProxy</a> interface of the existing transaction in which you will run the enclosed code.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/8e721496-fc2b-46b8-ae28-432da6c429e6">IServiceSysTxnConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicesystxnconfig">IServiceSysTxnConfig</a>
  
 
  

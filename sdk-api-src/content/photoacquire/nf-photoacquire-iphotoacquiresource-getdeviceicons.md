@@ -120,11 +120,11 @@ A null pointer was passed where non-null was expected.
 
 
 
-<a href="https://msdn.microsoft.com/4c997e76-9109-403f-821f-d73e8577b1ac">GetDeviceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-getdeviceid">GetDeviceId</a>
 
 
 
-<a href="https://msdn.microsoft.com/6671d550-8c12-40e3-bf6f-33203e69cff0">IPhotoAcquireSource Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
  
 
  

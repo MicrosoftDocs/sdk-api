@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>WintrustGetRegPolicyFlags</b> function retrieves policy flags for a policy provider.
-<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
 
 ## -parameters
 
@@ -194,7 +194,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/8aaeecd0-3814-42a0-9e5b-82b0b220bc9a">WintrustSetRegPolicyFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustsetregpolicyflags">WintrustSetRegPolicyFlags</a>
  
 
  

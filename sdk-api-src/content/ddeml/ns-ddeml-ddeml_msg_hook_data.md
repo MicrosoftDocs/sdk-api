@@ -94,31 +94,31 @@ The first 32 bytes of data being passed with the message (<code>8 * sizeof(DWORD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648733(v=VS.85).aspx">MONCBSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmoncbstruct">MONCBSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648734(v=VS.85).aspx">MONCONVSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonconvstruct">MONCONVSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648735(v=VS.85).aspx">MONERRSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonerrstruct">MONERRSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648736(v=VS.85).aspx">MONHSZSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonhszstructa">MONHSZSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648737(v=VS.85).aspx">MONLINKSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonlinkstruct">MONLINKSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648738(v=VS.85).aspx">MONMSGSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-tagmonmsgstruct">MONMSGSTRUCT</a>
 
 
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>AMVABUFFERINFO</b> structure specifies a buffer for the 
-        <a href="https://msdn.microsoft.com/en-us/library/Dd376002(v=VS.85).aspx">IAMVideoAccelerator::Execute</a>  method.
+        <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>  method.
 
 
 ## -struct-fields
@@ -246,11 +246,11 @@ Size of the relevant data in the buffer, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376002(v=VS.85).aspx">IAMVideoAccelerator::Execute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>
  
 
  

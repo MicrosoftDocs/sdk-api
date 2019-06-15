@@ -62,7 +62,7 @@ An application-defined callback method used for raw image parameter change notif
 
 Type: <b>UINT</b>
 
-A set of <a href="https://msdn.microsoft.com/4e94b4f4-abd9-4395-87ec-a08e49a2cf88">IWICDevelopRawNotificationCallback Constants</a> parameter notification flags.
+A set of <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-iwicdeveloprawnotification-constants">IWICDevelopRawNotificationCallback Constants</a> parameter notification flags.
 
 
 ## -returns

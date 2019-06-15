@@ -55,7 +55,7 @@ Provides methods for retrieving information about a schema property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRelationship</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRelationship</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRelationship</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRelationship</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IRelationship</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231337(v=VS.85).aspx">DefaultPhrase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-defaultphrase">DefaultPhrase</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default phrase to use for this relationship in restatements.
@@ -80,17 +80,17 @@ Retrieves the default phrase to use for this relationship in restatements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231338(v=VS.85).aspx">Destination</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-destination">Destination</a>
 </td>
 <td align="left" width="63%">
-Retrieves the destination <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
+Retrieves the destination <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> object of the relationship. The destination of a relationshipo corresponds to the type of a property.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231340(v=VS.85).aspx">IsReal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-isreal">IsReal</a>
 </td>
 <td align="left" width="63%">
 Reports whether a relationship is real.
@@ -99,17 +99,17 @@ Reports whether a relationship is real.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231341(v=VS.85).aspx">MetaData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-metadata">MetaData</a>
 </td>
 <td align="left" width="63%">
-Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this relationship.
+Retrieves an enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-imetadata">IMetaData</a> objects for this relationship.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231342(v=VS.85).aspx">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-irelationship-name">Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the relationship.

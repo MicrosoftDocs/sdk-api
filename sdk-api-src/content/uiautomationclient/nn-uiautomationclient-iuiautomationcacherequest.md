@@ -54,7 +54,7 @@ Exposes properties and methods of a cache request. Client applications use this 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationCacheRequest</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationCacheRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationCacheRequest</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationCacheRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationCacheRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f081d4da-2fba-4846-813c-33e11c09315b">AddPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-addpattern">AddPattern</a>
 </td>
 <td align="left" width="63%">
 Adds a control pattern to the cache request.
@@ -79,7 +79,7 @@ Adds a control pattern to the cache request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61e56133-fb9e-4556-a9be-f7270b1d2bfb">AddProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-addproperty">AddProperty</a>
 </td>
 <td align="left" width="63%">
 Adds a property to the cache request.
@@ -88,7 +88,7 @@ Adds a property to the cache request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e7ba5cb0-a4a5-4556-ba28-899e9635af5d">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the cache request.
@@ -106,7 +106,7 @@ Creates a copy of the cache request.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dd4c6407-d14e-4e67-9681-1f90741da38e">AutomationElementMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_automationelementmode">AutomationElementMode</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Indicates whether returned elements contain full references to the underlying UI
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/da9c9c9a-7ada-4f72-a025-1202e500241d">TreeFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_treefilter">TreeFilter</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Specifies the view of the UI Automation element tree that is used when caching.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3e45f35c-8a24-482f-acb6-9af6ce05d7fd">TreeScope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationcacherequest-get_treescope">TreeScope</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Specifies the scope of caching.
 
 Retrieving properties and control patterns through UI Automation requires cross-process calls that can slow down performance. By caching values of proprieties and control patterns in a batch operation, you can enhance the performance of your application.
 
-Create a new cache request by calling <a href="https://msdn.microsoft.com/e61aecac-8c08-4f83-b3e6-f4baedcb16c6">CreateCacheRequest</a>, and configure the request by calling methods of <b>IUIAutomationCacheRequest</b>.
+Create a new cache request by calling <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-createcacherequest">CreateCacheRequest</a>, and configure the request by calling methods of <b>IUIAutomationCacheRequest</b>.
 
 
 
@@ -170,7 +170,7 @@ Create a new cache request by calling <a href="https://msdn.microsoft.com/e61aec
 
 
 
-<a href="https://msdn.microsoft.com/dd7cdcf1-3511-424f-b729-b71a7e11cdd8">UI Automation Element Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
  
 
  

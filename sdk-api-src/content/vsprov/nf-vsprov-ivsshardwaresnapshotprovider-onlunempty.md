@@ -69,7 +69,7 @@ Device corresponding to the LUN that contains the shadow copy to be deleted.
 
 ### -param pInformation [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structure 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure 
       containing information about the LUN containing the shadow copy to be deleted.
 
 
@@ -151,7 +151,7 @@ Hardware providers should delete a shadow copy and reclaim the LUN if and only i
     emergency or an administrator performing explicit action manually.
 
 In the case of persistent shadow copies, the requester deletes the shadow copy when it is no longer needed. In the case of 
-    nonpersistent auto-release shadow copies, the VSS service deletes the shadow copy when the requester calls <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> on the <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> object. In the case of nonpersistent non-auto-release shadow copies, the VSS service deletes the shadow copy when the computer is restarted. In all cases, the VSS service calls the provider's  <b>OnLunEmpty</b> method as needed for each shadow copy 
+    nonpersistent auto-release shadow copies, the VSS service deletes the shadow copy when the requester calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> object. In the case of nonpersistent non-auto-release shadow copies, the VSS service deletes the shadow copy when the computer is restarted. In all cases, the VSS service calls the provider's  <b>OnLunEmpty</b> method as needed for each shadow copy 
     LUN.
 
 Note that <b>OnLunEmpty</b> is 
@@ -175,7 +175,7 @@ Some examples:
 
 
 
-<a href="https://msdn.microsoft.com/97fbb6bf-110e-4393-bf25-1ec378b91bdc">IVssHardwareSnapshotProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotprovider">IVssHardwareSnapshotProvider</a>
  
 
  

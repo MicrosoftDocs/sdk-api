@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>SHShellFolderView_Message</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Sends a message to the shell's default <a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a> implementation (DefView).
+Sends a message to the shell's default <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a> implementation (DefView).
 
 
 ## -parameters
@@ -81,49 +81,49 @@ The message to send. The following is a list of possible messages.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/90394af6-3809-457c-b2f2-5f35187ed45b">SFVM_ADDOBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/samples-usingimagefactory">SFVM_ADDOBJECT</a>
 </td>
 <td>Adds an object to the shell view.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/9639fbb6-d0ef-49b1-b3c5-e6a1dee0b7ad">SFVM_GETSELECTEDOBJECTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-getselectedobjects">SFVM_GETSELECTEDOBJECTS</a>
 </td>
 <td>Retrieves an array of PIDLs for all selected objects.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/d745bafc-f2f5-40a1-b7e8-e16e4cf0153d">SFVM_REARRANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-rearrange">SFVM_REARRANGE</a>
 </td>
-<td>Notifies the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> to rearrange its items.</td>
+<td>Notifies the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> to rearrange its items.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/5b493cea-dfbd-4aee-8126-b118c058bb4c">SFVM_REMOVEOBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-removeobject">SFVM_REMOVEOBJECT</a>
 </td>
 <td>Removes an object from the shell view.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/6a4cf0c5-2349-4e1e-b6c5-ee9b5430456e">SFVM_SETCLIPBOARD</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-setclipboard">SFVM_SETCLIPBOARD</a>
 </td>
-<td>Notifies the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> when one of its objects is placed on the clipboard as a result of a menu command.</td>
+<td>Notifies the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> when one of its objects is placed on the clipboard as a result of a menu command.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b89f2d62-095b-4cad-a47e-2d41e122cb3e">SFVM_SETITEMPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-setitempos">SFVM_SETITEMPOS</a>
 </td>
 <td>Sets the position of an item in the shell view.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/d2c3e06a-19e4-4b78-9b7c-1a256582786e">SFVM_SETPOINTS</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-setpoints">SFVM_SETPOINTS</a>
 </td>
 <td>Sets the points of the currently selected objects to the data object on <b>copy</b> and <b>cut</b> commands.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/3bd68ace-3ccf-446c-8cf9-52f42444674e">SFVM_UPDATEOBJECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-updateobject">SFVM_UPDATEOBJECT</a>
 </td>
 <td>Updates an object by passing a pointer to an array of two PIDLs.</td>
 </tr>
@@ -154,7 +154,7 @@ The return value depends on the message passed in <i>uMsg</i>. See individual me
 
 
 
-<a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>
  
 
  

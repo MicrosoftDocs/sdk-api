@@ -60,7 +60,7 @@ Sets the type of the spatial audio object represented by the buffer.
 
 ### -param type
 
-A value from the <a href="https://msdn.microsoft.com/DFFE770F-41C0-4048-A38F-FB96353E9216">AudioObjectType</a> enumeration specifying the type of audio object.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ne-spatialaudioclient-audioobjecttype">AudioObjectType</a> enumeration specifying the type of audio object.
 
 
 ## -returns
@@ -86,7 +86,7 @@ A spatial audio object can be of type <b>AudioObjectType_Dynamic</b>, which mean
 
 
 
-<a href="https://msdn.microsoft.com/61E9BC6A-2120-4874-9053-E1D232DF1CCA">IMFSpatialAudioObjectBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
  
 
  

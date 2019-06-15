@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object from a bitmap image.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object from a bitmap image.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ A handle to the bitmap that contains the image.
 
 ### -param options [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371576(v=VS.85).aspx">UI_OWNERSHIP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_ownership">UI_OWNERSHIP</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371576(v=VS.85).aspx">ownership conditions</a> under which 
+The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_ownership">ownership conditions</a> under which 
 					an image is created.
 					
 
@@ -83,7 +83,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd371576(v=VS.85).aspx">ow
 <td>UI_OWNERSHIP_TRANSFER</td>
 <td>If <b>UI_OWNERSHIP_TRANSFER</b> is specified as the value of 
 				<i>options</i>, then the Ribbon framework owns 
-					the handle to the bitmap (HBITMAP) through the <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object and 
+					the handle to the bitmap (HBITMAP) through the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object and 
 					releases it when the framework no longer requires it.
 				<div class="alert"><b>Note</b>  This option prevents the Ribbon host application from safely referencing the same HBITMAP 
 					elsewhere in the application UI.
@@ -109,9 +109,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd371576(v=VS.85).aspx">ow
 
 ### -param image [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a>**</b>
 
-When this method returns, contains the address of a pointer variable that receives the <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object. 
+When this method returns, contains the address of a pointer variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object. 
 				
 
 
@@ -158,11 +158,11 @@ Specify <b>UI_OWNERSHIP_TRANSFER</b> as the value for <i>options</i> to minimize
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371365(v=VS.85).aspx">IUIImageFromBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap">IUIImageFromBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

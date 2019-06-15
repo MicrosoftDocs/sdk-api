@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>TERMINAL_STATE</b> enum describes the current state of a terminal device. This enum is returned by the 
-<a href="https://msdn.microsoft.com/18eebe2c-2c65-4836-a371-146eb76a379c">ITTerminal::get_State</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">ITTerminal::get_State</a> method.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ The terminal is not currently in use.
 
 
 
-<a href="https://msdn.microsoft.com/18eebe2c-2c65-4836-a371-146eb76a379c">ITTerminal::get_State</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_state">ITTerminal::get_State</a>
  
 
  

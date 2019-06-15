@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>MsiAdvertiseProduct</b> function generates an advertise script or advertises a product to the computer. The 
 <b>MsiAdvertiseProduct</b> function enables the installer to write to a script the registry and shortcut information used to assign or publish a product. The script can be written to be consistent with a specified platform by using 
-<a href="https://msdn.microsoft.com/27e8deb6-912f-4103-97a6-ec505340dccc">MsiAdvertiseProductEx</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproductexa">MsiAdvertiseProductEx</a>.
 
 
 ## -parameters
@@ -107,7 +107,7 @@ Set to advertise a per-user installation of the product available to a particula
 ### -param szTransforms [in]
 
 A semicolon-delimited list of transforms to be applied. The list of transforms can be prefixed with the @ or | character to specify the secure caching of transforms. The @ prefix specifies secure-at-source transforms and the | prefix indicates secure full path transforms. For more information, see 
-<a href="https://msdn.microsoft.com/c6019b28-b0a7-4104-9d78-b4b4228635b8">Secured Transforms</a>. This parameter may be null.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/secured-transforms">Secured Transforms</a>. This parameter may be null.
 
 
 ### -param lgidLanguage [in]
@@ -143,14 +143,14 @@ The function completed successfully.
 </td>
 <td width="60%">
 See 
-<a href="https://msdn.microsoft.com/9ea81ef3-a5b5-4d13-b0b8-3da6e919315e">Error Codes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/5cce27ff-1143-4fe6-b4bd-727581431c07">Initialization Error</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -180,7 +180,7 @@ This error is returned if an attempt is made to generate an advertise script on 
 
 
 
-<a href="https://msdn.microsoft.com/c4a0f4d8-818d-4e60-908b-adaa2a54de95">Multiple-Package Installations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
  
 
  

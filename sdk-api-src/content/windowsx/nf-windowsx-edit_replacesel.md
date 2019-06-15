@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761633(v=VS.85).aspx">EM_REPLACESEL</a> message explicitly.
+Replaces the selected text in an edit control or a rich edit control with the specified text. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-replacesel">EM_REPLACESEL</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Replaces the selected text in an edit control or a rich edit control with the sp
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param lpszReplace
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 A pointer to a null-terminated string containing the replacement text.
 
@@ -75,7 +75,7 @@ A pointer to a null-terminated string containing the replacement text.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761633(v=VS.85).aspx">EM_REPLACESEL</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-replacesel">EM_REPLACESEL</a>.
 
 
 

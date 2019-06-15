@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>SetNotify</code> method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's <a href="https://msdn.microsoft.com/96e02a28-af92-41a7-8251-c4ab15190651">IMemAllocator::ReleaseBuffer</a> method is called.
+The <code>SetNotify</code> method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-releasebuffer">IMemAllocator::ReleaseBuffer</a> method is called.
 
 
 
@@ -63,7 +63,7 @@ The <code>SetNotify</code> method sets or removes a callback on the allocator. T
 
 ### -param pNotify
 
-Pointer to the <a href="https://msdn.microsoft.com/63097b58-8197-4354-8b92-25baaf265df2">IMemAllocatorNotifyCallbackTemp</a> interface that will be used for the callback. The caller must implement the interface. Use the value <b>NULL</b> to remove the callback.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocatornotifycallbacktemp">IMemAllocatorNotifyCallbackTemp</a> interface that will be used for the callback. The caller must implement the interface. Use the value <b>NULL</b> to remove the callback.
 
 
 ## -returns
@@ -91,11 +91,11 @@ The allocator holds a reference count on the caller's <b>IMemAllocatorNotifyCall
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6213faaa-86ff-46e7-80da-a043cae40805">IMemAllocatorCallbackTemp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>
  
 
  

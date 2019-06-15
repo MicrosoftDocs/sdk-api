@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LPEVALCOMCALLBACK</b> specification defines a callback function prototype. The <a href="https://msdn.microsoft.com/523334f1-4a82-4981-9c77-fffd2b5b561e">IValidate::SetStatus</a> method enables an authoring tool to receive information about the progress of validation through the registered callback function.
+The <b>LPEVALCOMCALLBACK</b> specification defines a callback function prototype. The <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus">IValidate::SetStatus</a> method enables an authoring tool to receive information about the progress of validation through the registered callback function.
 
 
 ## -parameters
@@ -196,7 +196,7 @@ Validation was canceled.
 
 ### -param pContext
 
-Pointer to an application context passed to the <a href="https://msdn.microsoft.com/523334f1-4a82-4981-9c77-fffd2b5b561e">SetStatus</a> method. This parameter can be used for error checking.
+Pointer to an application context passed to the <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus">SetStatus</a> method. This parameter can be used for error checking.
 
 
 #### - szwData [in]
@@ -247,7 +247,7 @@ Validation was canceled. The callback function return <b>FALSE</b> to stop valid
 
 
 
-The <a href="https://msdn.microsoft.com/523334f1-4a82-4981-9c77-fffd2b5b561e">SetStatus</a> method and <b>LPEVALCOMCALLBACK</b> can be used to provide progress information.  For example, the <b>ieStatusICECount</b> message can provide the overall tick count for a progress bar.  For each <b>ieStatusRunICE</b> message received, the caller can increment the progress bar one tick.
+The <a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus">SetStatus</a> method and <b>LPEVALCOMCALLBACK</b> can be used to provide progress information.  For example, the <b>ieStatusICECount</b> message can provide the overall tick count for a progress bar.  For each <b>ieStatusRunICE</b> message received, the caller can increment the progress bar one tick.
 
 
 
@@ -257,15 +257,15 @@ The <a href="https://msdn.microsoft.com/523334f1-4a82-4981-9c77-fffd2b5b561e">Se
 
 
 
-<a href="https://msdn.microsoft.com/b7c686f8-ed6a-44d6-ab76-f6d6c7d154a0">IValidate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://msdn.microsoft.com/df38e75e-554c-4a6d-b9ad-8eee5123a16f">Using Evalcom2</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c96e5682-d43c-460f-8aee-6ba7b0b9769e">Validation Callback Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
  
 
  

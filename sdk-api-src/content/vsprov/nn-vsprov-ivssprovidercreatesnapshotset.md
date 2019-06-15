@@ -55,7 +55,7 @@ The <b>IVssProviderCreateSnapshotSet</b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssProviderCreateSnapshotSet</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVssProviderCreateSnapshotSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssProviderCreateSnapshotSet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssProviderCreateSnapshotSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVssProviderCreateSnapshotSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/393fd5aa-9934-4918-8699-25c41d0dc982">AbortSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a>
 </td>
 <td align="left" width="63%">
 Ends the prepared shadow copies in this provider.
@@ -79,7 +79,7 @@ Ends the prepared shadow copies in this provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60489142-125f-4deb-afa0-9dae63ea1d46">CommitSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a>
 </td>
 <td align="left" width="63%">
 Quickly commit all the LUNs in this provider.
@@ -88,7 +88,7 @@ Quickly commit all the LUNs in this provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/230666c7-e7e4-4e75-a84d-1786e8cbbb6c">EndPrepareSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-endpreparesnapshots">EndPrepareSnapshots</a>
 </td>
 <td align="left" width="63%">
 Ensure all LUNs in the shadow copy set are prepared.
@@ -97,7 +97,7 @@ Ensure all LUNs in the shadow copy set are prepared.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/191b263b-1bcf-4617-95d4-5b4c1ed714ee">PostCommitSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-postcommitsnapshots">PostCommitSnapshots</a>
 </td>
 <td align="left" width="63%">
 Called after all shadow copies have been committed, after the release-writes, before the 
@@ -107,7 +107,7 @@ Called after all shadow copies have been committed, after the release-writes, be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3b6f7e6e-f1ea-4c90-9d26-fcbe5e104e2c">PostFinalCommitSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-postfinalcommitsnapshots">PostFinalCommitSnapshots</a>
 </td>
 <td align="left" width="63%">
 Called after the writers have finished the auto-recovery of the components to allow the provider to make 
@@ -117,7 +117,7 @@ Called after the writers have finished the auto-recovery of the components to al
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af1caf80-751d-4b0d-8b35-970800d1dee6">PreCommitSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-precommitsnapshots">PreCommitSnapshots</a>
 </td>
 <td align="left" width="63%">
 Ensure the provider is ready to quickly commit the prepared LUNs. 
@@ -127,11 +127,11 @@ Ensure the provider is ready to quickly commit the prepared LUNs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d6895b9-6e6c-4c4c-b7c9-a4eff771567a">PreFinalCommitSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-prefinalcommitsnapshots">PreFinalCommitSnapshots</a>
 </td>
 <td align="left" width="63%">
 Called after the applications are unfrozen to allow the writers to 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> any components so 
+     <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> any components so 
      that they can be used when they are read-only.
 
 </td>
@@ -144,7 +144,7 @@ Called after the applications are unfrozen to allow the writers to
 
 
 
-<a href="https://msdn.microsoft.com/3a0c60df-666c-4e33-a54c-7fa5ddbfde13">Volume Shadow Copy API Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
  
 
  

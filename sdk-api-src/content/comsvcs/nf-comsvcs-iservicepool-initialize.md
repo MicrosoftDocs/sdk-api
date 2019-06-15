@@ -59,7 +59,7 @@ Initializes an object pool.
 
 ### -param pPoolConfig [in]
 
-An object supporting the <a href="https://msdn.microsoft.com/026abfcf-56b5-4821-a9d4-37beeb3a052b">IServicePoolConfig</a> interface that describes the configuration of the object pool.
+An object supporting the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepoolconfig">IServicePoolConfig</a> interface that describes the configuration of the object pool.
 
 
 ## -returns
@@ -92,7 +92,7 @@ The method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/93e88990-1737-4db4-aa37-0fe19a7ca0f3">Initialize</a> has already been called.
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-initialize">Initialize</a> has already been called.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2">IServicePool</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>
  
 
  

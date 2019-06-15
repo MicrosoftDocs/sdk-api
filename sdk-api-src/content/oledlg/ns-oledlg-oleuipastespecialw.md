@@ -154,7 +154,7 @@ Used to disable the change-icon button in the dialog box, which is available to 
 </dl>
 </td>
 <td width="60%">
- Used in conjunction with <b>STAYONCLIPBOARDCHANGE</b> (it doesn't do anything otherwise). If the clipboard changes while the dialog box is up and <b>STAYONCLIPBOARDCHANGE</b> is specified, then <b>NOREFRESHDATAOBJECT</b> indicates that the dialog box should NOT refresh the contents of the dialog box to reflect the new contents of the clipboard. This is useful if the application is using the paste-special dialog box on an <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> besides the one on the clipboard, for example, as part of a right-click drag-and-drop operation. 
+ Used in conjunction with <b>STAYONCLIPBOARDCHANGE</b> (it doesn't do anything otherwise). If the clipboard changes while the dialog box is up and <b>STAYONCLIPBOARDCHANGE</b> is specified, then <b>NOREFRESHDATAOBJECT</b> indicates that the dialog box should NOT refresh the contents of the dialog box to reflect the new contents of the clipboard. This is useful if the application is using the paste-special dialog box on an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> besides the one on the clipboard, for example, as part of a right-click drag-and-drop operation. 
 
 
 </td>
@@ -200,22 +200,22 @@ Customized template handle.
 
 ### -field lpSrcDataObj
 
-Pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface of the data object to be pasted (from the clipboard). This member is filled on input. If <b>lpSrcDataObj</b> is <b>NULL</b> when <a href="https://msdn.microsoft.com/fb1335da-a863-4d15-8a8d-289d8cccd13f">OleUIPasteSpecial</a> is called, then <b>OleUIPasteSpecial</b> will attempt to retrieve a pointer to an <b>IDataObject</b> from the clipboard. If <b>OleUIPasteSpecial</b> succeeds, it is the caller's responsibility to free the <b>IDataObject</b> returned in <b>lpSrcDataObj</b>. 
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface of the data object to be pasted (from the clipboard). This member is filled on input. If <b>lpSrcDataObj</b> is <b>NULL</b> when <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a> is called, then <b>OleUIPasteSpecial</b> will attempt to retrieve a pointer to an <b>IDataObject</b> from the clipboard. If <b>OleUIPasteSpecial</b> succeeds, it is the caller's responsibility to free the <b>IDataObject</b> returned in <b>lpSrcDataObj</b>. 
 
 
 ### -field arrPasteEntries
 
-The <a href="https://msdn.microsoft.com/9c84bb0e-d998-4e35-bf34-2377f5cd0cb7">OLEUIPASTEENTRY</a> array which specifies acceptable formats. This member is filled on input.
+The <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipasteentrya">OLEUIPASTEENTRY</a> array which specifies acceptable formats. This member is filled on input.
 
 
 ### -field cPasteEntries
 
-Number of <a href="https://msdn.microsoft.com/9c84bb0e-d998-4e35-bf34-2377f5cd0cb7">OLEUIPASTEENTRY</a> array entries. This member is filled on input.
+Number of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipasteentrya">OLEUIPASTEENTRY</a> array entries. This member is filled on input.
 
 
 ### -field arrLinkTypes
 
-List of link types that are acceptable. Link types are referred to using <a href="https://msdn.microsoft.com/4467f82b-34be-4d10-816c-b3e4231c92a1">OLEUIPASTEFLAG</a> in <b>arrPasteEntries</b>. This member is filled on input.
+List of link types that are acceptable. Link types are referred to using <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a> in <b>arrPasteEntries</b>. This member is filled on input.
 
 
 ### -field cLinkTypes
@@ -259,15 +259,15 @@ The size of object as displayed in its source, if the display aspect chosen by t
 
 
 
-<a href="https://msdn.microsoft.com/9c84bb0e-d998-4e35-bf34-2377f5cd0cb7">OLEUIPASTEENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuipasteentrya">OLEUIPASTEENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/4467f82b-34be-4d10-816c-b3e4231c92a1">OLEUIPASTEFLAG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-tagoleuipasteflag">OLEUIPASTEFLAG</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb1335da-a863-4d15-8a8d-289d8cccd13f">OleUIPasteSpecial</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a>
  
 
  

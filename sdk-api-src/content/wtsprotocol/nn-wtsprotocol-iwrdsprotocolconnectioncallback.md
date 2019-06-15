@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 Exposes methods that provide information about the status of a client connection and that perform actions for the client. This interface is implemented by the Remote Desktop Services service and called by the protocol.
 
-An instance of this interface is associated with a specific instance of the <a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a> interface. When the following documentation refers to a connection, it is therefore referring to the specific connection for which the  <b>IWRdsProtocolConnection</b> object was created.
+An instance of this interface is associated with a specific instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a> interface. When the following documentation refers to a connection, it is therefore referring to the specific connection for which the  <b>IWRdsProtocolConnection</b> object was created.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolConnectionCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWRdsProtocolConnectionCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolConnectionCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolConnectionCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWRdsProtocolConnectionCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc317e10-e09c-423b-8016-eb1cf49eba43">BrokenConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-brokenconnection">BrokenConnection</a>
 </td>
 <td align="left" width="63%">
 Informs the Remote Desktop Services service that the client connection has been lost.
@@ -80,7 +80,7 @@ Informs the Remote Desktop Services service that the client connection has been 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2EE03CA1-25D5-4B03-A2F1-EC167BD694B3">GetConnectionId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-getconnectionid">GetConnectionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connection identifier.
@@ -89,7 +89,7 @@ Retrieves the connection identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/88134a34-c494-48ea-9063-206e7d0c5139">OnReady</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-onready">OnReady</a>
 </td>
 <td align="left" width="63%">
 Requests that the Remote Desktop Services service continue the connection process for that client.
@@ -98,7 +98,7 @@ Requests that the Remote Desktop Services service continue the connection proces
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92d52015-c5b9-472e-898b-aca6f6e83620">RedrawWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-redrawwindow">RedrawWindow</a>
 </td>
 <td align="left" width="63%">
 Requests that the Remote Desktop Services service redraw the client window.
@@ -107,7 +107,7 @@ Requests that the Remote Desktop Services service redraw the client window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/698b59d3-8391-4101-801c-8d5fd701a757">StopScreenUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a>
 </td>
 <td align="left" width="63%">
 Requests that the Remote Desktop Services service stop updating the client screen.

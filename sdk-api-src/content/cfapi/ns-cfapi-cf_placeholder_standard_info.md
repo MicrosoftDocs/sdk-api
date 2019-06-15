@@ -79,12 +79,12 @@ Total number of bytes on disk that are used by all the property blobs.
 
 ### -field PinState
 
-The pin state of the placeholder. See <a href="https://msdn.microsoft.com/8B279914-E23A-479B-8621-E83DE1978597">CfSetPinState</a> for more details.
+The pin state of the placeholder. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> for more details.
 
 
 ### -field InSyncState
 
-The in-sync state of the placeholder. see <a href="https://msdn.microsoft.com/1CB7955D-E530-4F34-8D67-BC608F8B6AF1">CfSetInSyncState</a> for more details.
+The in-sync state of the placeholder. see <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> for more details.
 
 
 ### -field FileId

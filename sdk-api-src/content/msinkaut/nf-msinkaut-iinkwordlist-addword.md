@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-Adds a single word to the <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList</a> object.
+Adds a single word to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
 
 
 
@@ -64,9 +64,9 @@ Adds a single word to the <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc
 
 ### -param NewWord [in]
 
-The word to add to an <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList</a> object. The word is not added if it already exists in the list.
+The word to add to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object. The word is not added if it already exists in the list.
 
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ## -returns
@@ -170,15 +170,15 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">InkWordList Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d">RemoveWord Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord Method</a>
  
 
  

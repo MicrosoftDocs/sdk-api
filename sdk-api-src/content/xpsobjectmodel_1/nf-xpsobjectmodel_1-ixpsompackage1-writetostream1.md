@@ -99,7 +99,7 @@ XPS_E_INVALID_CONTENT_TYPE: An image resource in the package is of a type that i
 
 
 
-<a href="https://msdn.microsoft.com/455b7f0b-ade4-4e00-bd9d-836335a7982e">IXpsOMPackage1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsompackage1">IXpsOMPackage1</a>
  
 
  

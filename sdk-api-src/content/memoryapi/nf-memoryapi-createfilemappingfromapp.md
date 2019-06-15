@@ -71,7 +71,7 @@ A handle to the file from which to create a file mapping object.
 The file must be opened with access rights that are compatible with the protection flags that the 
        <i>flProtect</i> parameter specifies. It is not required, but it is recommended that files 
        you intend to map be opened for exclusive access. For more information, see 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process 
        must also specify a size for the file mapping object in the <i>dwMaximumSizeHigh</i> and 
@@ -83,7 +83,7 @@ If <i>hFile</i> is <b>INVALID_HANDLE_VALUE</b>, the calling process
 
 ### -param SecurityAttributes [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
        structure that determines whether a returned handle can be inherited by child processes. The 
        <b>lpSecurityDescriptor</b> member of the 
        <b>SECURITY_ATTRIBUTES</b> structure specifies a 
@@ -93,7 +93,7 @@ If <i>SecurityAttributes</i> is <b>NULL</b>, the handle cannot be
        inherited and the file mapping object gets a default security descriptor. The access control lists (ACL) in the 
        default security descriptor for a file mapping object come from the primary or impersonation token of the 
        creator. For more information, see 
-       <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File Mapping Security and Access Rights</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
 
 ### -param PageProtection [in]
@@ -196,7 +196,7 @@ Specifies that the file that the  <i>hFile</i> parameter specifies is an executa
          image file that will not be executed and the loaded image file will have no forced integrity checks run. 
          Additionally, mapping a view of a file mapping object created with the 
          <b>SEC_IMAGE_NO_EXECUTE</b> attribute will not invoke driver callbacks registered using 
-         the <a href="https://msdn.microsoft.com/e90bc043-1b92-474c-b6c7-7e510271118b">PsSetLoadImageNotifyRoutine</a> 
+         the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a> 
          kernel API.
 
 The <b>SEC_IMAGE_NO_EXECUTE</b> attribute must be combined with the 
@@ -218,13 +218,13 @@ Enables large pages to be used for file mapping objects that are backed by the o
          (the <i>hFile</i> parameter is a handle to an executable image or data file).
 
 The maximum size of the file mapping object must be a multiple of the minimum size of a large page returned 
-         by the <a href="https://msdn.microsoft.com/ccde687d-ee8f-4668-93c1-a1fece86c2f6">GetLargePageMinimum</a> function. If it is 
+         by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function. If it is 
          not, <b>CreateFileMappingFromApp</b> fails. 
          When mapping a view of a file mapping object created with <b>SEC_LARGE_PAGES</b>, the base 
          address and view size must also be multiples of the minimum large page size.
 
 <b>SEC_LARGE_PAGES</b> requires the 
-         <a href="https://msdn.microsoft.com/be5637e3-0932-49b6-a5af-a542060545e0">SeLockMemoryPrivilege</a> 
+         <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeLockMemoryPrivilege</a> 
          privilege to be enabled in the caller's token.
 
 If <b>SEC_LARGE_PAGES</b> is specified, <b>SEC_COMMIT</b> must also 
@@ -264,9 +264,9 @@ If the file mapping object is backed by the operating system paging file (the
          later use by the process rather than committed.
 
 Reserved pages can be committed in subsequent calls to the 
-         <a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a> function. After the pages are 
+         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function. After the pages are 
          committed, they cannot be freed or decommitted with the 
-         <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> function.
+         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> function.
 
 This attribute has no effect for file mapping objects that are backed by executable image files or data 
          files (the <i>hfile</i> parameter is a handle to a file).
@@ -318,15 +318,15 @@ If this parameter is <b>NULL</b>, the file mapping object is created without a n
 
 If <i>lpName</i> matches the name of an existing event, semaphore, mutex, waitable timer, 
        or job object, the function fails, and the 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
        <b>ERROR_INVALID_HANDLE</b>. This occurs because these objects share the same namespace.
 
 The name can have a "Global\" or "Local\" prefix to explicitly create the object in the global or session 
        namespace. The remainder of the name can contain any character except the backslash character (\). Creating a 
        file mapping object in the global namespace from a session other than session zero requires the 
-       <a href="https://msdn.microsoft.com/be5637e3-0932-49b6-a5af-a542060545e0">SeCreateGlobalPrivilege</a> 
+       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeCreateGlobalPrivilege</a> 
        privilege. For more information, see 
-       <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 Fast user switching is implemented by using Terminal Services sessions. The first user to log on uses session 
        0 (zero), the next user to log on uses session 1 (one), and so on. Kernel object names must follow the 
@@ -340,11 +340,11 @@ Fast user switching is implemented by using Terminal Services sessions. The firs
 If the function succeeds, the return value is a handle to the newly created file mapping object.
 
 If the object exists before the function call, the function returns a handle to the existing object (with its 
-       current size, not the specified size), and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> 
+       current size, not the specified size), and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        returns <b>ERROR_ALREADY_EXISTS</b>.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -363,7 +363,7 @@ If an application specifies a size for the file mapping object that is larger th
     of the file between the old end of the file and the new end of the file are not guaranteed to be zero; the 
     behavior is defined by the file system. If the file on disk cannot be increased, 
     <b>CreateFileMappingFromApp</b> fails and 
-    <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>  returns 
+    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  returns 
     <b>ERROR_DISK_FULL</b>.
 
 The initial contents of the pages in a file mapping object backed by the operating system paging file are 0 
@@ -377,12 +377,12 @@ Multiple processes can share a view of the same file   by either using a single 
     creating separate file mapping objects backed by the same file. A single file mapping object can be shared by 
     multiple processes through inheriting the handle at process creation, duplicating the handle, or opening the file 
     mapping object by name. For more information, see the 
-    <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>, 
-    <a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a> and 
-    <a href="https://msdn.microsoft.com/4896144c-78fc-4d21-a302-d9ba66fb2f8a">OpenFileMapping</a> functions.
+    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a> functions.
 
 Creating a file mapping object does not actually map the view into a process address space. The 
-    <a href="https://msdn.microsoft.com/2ac8a7d6-5c52-41de-acb9-d7f975fd2a94">MapViewOfFileEx</a> function map a view of a file into a 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a> function map a view of a file into a 
     process address space.
 
 With one important exception, file views derived from any file mapping object that is backed by the same file 
@@ -396,23 +396,23 @@ The exception is related to remote files. Although
     not merged.
 
 A mapped file and a file that is accessed by using the input and output (I/O) functions 
-    (<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>) are not necessarily coherent.
+    (<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>) are not necessarily coherent.
 
 Mapped views of a file mapping object maintain internal references to the object, and a file mapping object 
     does not close until all references to it are released. Therefore, to fully close a file mapping object, an 
     application must unmap all mapped views of the file mapping object by calling 
-    <a href="https://msdn.microsoft.com/2e9c3174-af48-4fa3-9f6a-fb62b23ed994">UnmapViewOfFile</a> and  close the file mapping object 
-    handle by calling <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>. These functions can be 
+    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a> and  close the file mapping object 
+    handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>. These functions can be 
     called in any order.
 
 When modifying a file through a mapped view, the last modification timestamp may not be updated automatically. 
-    If required, the caller should use <a href="https://msdn.microsoft.com/75d988e4-22a3-4084-a5f8-1fca73ccd542">SetFileTime</a> to set the 
+    If required, the caller should use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfiletime">SetFileTime</a> to set the 
     timestamp.
 
 Use structured exception handling to protect any code that writes to or reads from a file view. For more 
     information, see 
-    <a href="https://msdn.microsoft.com/c2a3da09-d116-4c2c-9e6c-ec9e80c88b99">Reading and Writing From a File View</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/Memory/reading-and-writing-from-a-file-view">Reading and Writing From a File View</a>.
 
  You can only successfully request executable protection if your app has the <b>codeGeneration</b> capability.
 
@@ -424,19 +424,19 @@ Use structured exception handling to protect any code that writes to or reads fr
 
 
 
-<a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/e00d8742-b717-419c-902c-9a286d75d8aa">Creating a File Mapping Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-file-mapping-object">Creating a File Mapping Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c8da574-5bda-49f1-a6b6-c026639d6504">DuplicateHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
 
 
 
@@ -444,39 +444,39 @@ File Mapping Functions
 
 
 
-<a href="https://msdn.microsoft.com/df9f54cd-b2de-4107-a1c5-d5a07045851e">MapViewOfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ac8a7d6-5c52-41de-acb9-d7f975fd2a94">MapViewOfFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896144c-78fc-4d21-a302-d9ba66fb2f8a">OpenFileMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e9c3174-af48-4fa3-9f6a-fb62b23ed994">UnmapViewOfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/a720dd89-c47c-4e48-bbc6-f2e02dfc4ed2">VirtualAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
  
 
  

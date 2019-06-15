@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the various types of context operations for the <a href="https://msdn.microsoft.com/682215D9-7965-46D5-ABC7-A37B685C43F5">GET_OPERATION_CONTEXT_PARAMS</a> structure.
+Specifies the various types of context operations for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-get_operation_context_params">GET_OPERATION_CONTEXT_PARAMS</a> structure.
 
 
 ## -enum-fields
@@ -101,7 +101,7 @@ A network connection was disconnected and it is being re-established.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
  
 
  

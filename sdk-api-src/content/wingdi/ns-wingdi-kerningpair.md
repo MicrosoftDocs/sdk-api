@@ -80,15 +80,15 @@ The amount this pair will be kerned if they appear side by side in the same font
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aba629f-afab-4ef3-8e1d-d0b90e122e94">GetKerningPairs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getkerningpairsa">GetKerningPairs</a>
  
 
  

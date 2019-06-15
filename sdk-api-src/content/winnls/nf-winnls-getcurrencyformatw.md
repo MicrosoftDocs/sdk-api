@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 Formats a number string as a currency string for a locale specified by identifier.
-<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://msdn.microsoft.com/72639b31-cd5d-455c-873a-e3cf4051f4cd">GetCurrencyFormatEx</a> function to <b>GetCurrencyFormat</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="https://msdn.microsoft.com/72639b31-cd5d-455c-873a-e3cf4051f4cd">GetCurrencyFormatEx</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformatex">GetCurrencyFormatEx</a> function to <b>GetCurrencyFormat</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformatex">GetCurrencyFormatEx</a>.</div><div> </div>
 
 ## -parameters
 
@@ -66,44 +66,44 @@ Formats a number string as a currency string for a locale specified by identifie
 ### -param Locale [in]
 
 
-<a href="https://msdn.microsoft.com/ea45b0e5-7df7-47fb-8dad-fccfbe53fec0">Locale identifier</a> that specifies the locale for which this function formats the currency string. You can use the <a href="https://msdn.microsoft.com/2f8893a0-f916-4a62-a423-e525cf281fa4">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale for which this function formats the currency string. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d37df17d-8cd5-4481-bee2-062cf9d78e9b">LOCALE_INVARIANT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/57de328c-3afc-4fbb-882c-fa35d3552c13">LOCALE_SYSTEM_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9ccb489b-24d0-42e5-a01a-2cdb7c3267eb">LOCALE_USER_DEFAULT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param dwFlags [in]
 
-Flags controlling currency format. The application must set this parameter to 0 if <i>lpFormat</i> is not set to <b>NULL</b>. In this case, the function formats the string using user overrides to the default currency format for the locale. If <i>lpFormat</i> is set to <b>NULL</b>, the application can specify <a href="https://msdn.microsoft.com/ab68d16b-5e1e-4af3-b048-43975cded00a">LOCALE_NOUSEROVERRIDE</a> to format the string using the system default currency format for the specified locale.
+Flags controlling currency format. The application must set this parameter to 0 if <i>lpFormat</i> is not set to <b>NULL</b>. In this case, the function formats the string using user overrides to the default currency format for the locale. If <i>lpFormat</i> is set to <b>NULL</b>, the application can specify <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> to format the string using the system default currency format for the specified locale.
 
-<div class="alert"><b>Caution</b>  Use of <a href="https://msdn.microsoft.com/ab68d16b-5e1e-4af3-b048-43975cded00a">LOCALE_NOUSEROVERRIDE</a> is strongly discouraged as it disables user preferences.</div>
+<div class="alert"><b>Caution</b>  Use of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> is strongly discouraged as it disables user preferences.</div>
 <div> </div>
 
 ### -param lpValue [in]
 
-For details, see the <i>lpValue</i> parameter of <a href="https://msdn.microsoft.com/72639b31-cd5d-455c-873a-e3cf4051f4cd">GetCurrencyFormatEx</a>.
+For details, see the <i>lpValue</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformatex">GetCurrencyFormatEx</a>.
 
 
 ### -param lpFormat [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/026ac9e0-1f5b-4a42-9c7b-07a127422994">CURRENCYFMT</a> structure that contains currency formatting information. All members of the structure must contain appropriate values. The application can set this parameter to <b>NULL</b> if function is to use the currency format of the specified locale. If this parameter is not set to <b>NULL</b>, the function uses the specified locale only for formatting information not specified in the <a href="https://msdn.microsoft.com/026ac9e0-1f5b-4a42-9c7b-07a127422994">CURRENCYFMT</a> structure, for example, the string value for the negative sign used by the locale.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_currencyfmta">CURRENCYFMT</a> structure that contains currency formatting information. All members of the structure must contain appropriate values. The application can set this parameter to <b>NULL</b> if function is to use the currency format of the specified locale. If this parameter is not set to <b>NULL</b>, the function uses the specified locale only for formatting information not specified in the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_currencyfmta">CURRENCYFMT</a> structure, for example, the string value for the negative sign used by the locale.
 
 
 ### -param lpCurrencyStr [out, optional]
@@ -122,7 +122,7 @@ Size, in characters, of the <i>lpCurrencyStr</i> buffer. The application sets th
 
 Returns the number of characters retrieved in the buffer indicated by <i>lpCurrencyStr</i> if successful. If the <i>cchCurrency</i> parameter is set to 0, the function returns the size of the buffer required to hold the formatted currency string, including a terminating null character.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or  it was incorrectly set to <b>NULL</b>. </li>
@@ -136,7 +136,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 
 
-This function can retrieve data from <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.
+This function can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the call can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 
       
@@ -149,23 +149,23 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 
-<a href="https://msdn.microsoft.com/026ac9e0-1f5b-4a42-9c7b-07a127422994">CURRENCYFMT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-_currencyfmta">CURRENCYFMT</a>
 
 
 
-<a href="https://msdn.microsoft.com/72639b31-cd5d-455c-873a-e3cf4051f4cd">GetCurrencyFormatEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformatex">GetCurrencyFormatEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/acbfebed-71bd-4266-b639-66f453158442">GetNumberFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

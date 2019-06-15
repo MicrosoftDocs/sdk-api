@@ -95,11 +95,11 @@ When you get the path property for a quota, the path is the local path. You use 
 
 
 
-<a href="https://msdn.microsoft.com/19f7f1d1-7d10-4b73-a158-7c8722958ab5">FsrmPathMapper</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmpathmapper">FsrmPathMapper</a>
 
 
 
-<a href="https://msdn.microsoft.com/04e62a10-1719-454b-adfb-6320e31c7a88">IFsrmPathMapper</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmpathmapper">IFsrmPathMapper</a>
  
 
  

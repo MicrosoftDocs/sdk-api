@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 The <b>RdcNeedPointer</b> structure describes an array 
-    of <a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a> structures. The 
+    of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures. The 
     <b>RdcNeedPointer</b> structure is used as both input and output 
-    by the <a href="https://msdn.microsoft.com/cc98a90c-ba82-4b92-a56c-07496a843089">IRdcComparator::Process</a> method.
+    by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method.
 
 
 ## -struct-fields
@@ -62,21 +62,21 @@ The <b>RdcNeedPointer</b> structure describes an array
 
 ### -field m_Size
 
-Contains the number of <a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a> structures in array pointed 
+Contains the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures in array pointed 
       to by <b>m_Data</b>.
 
 
 ### -field m_Used
 
 When the structure is passed to the 
-      <a href="https://msdn.microsoft.com/cc98a90c-ba82-4b92-a56c-07496a843089">IRdcComparator::Process</a> method, this member 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a> method, this member 
       should be zero. On return this member will contain the number of 
-      <a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a> structures that were filled with data.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures that were filled with data.
 
 
 ### -field m_Data
 
-Address of array of <a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a> structures that describe the 
+Address of array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a> structures that describe the 
       chunks required from the source and seed data.
 
 
@@ -85,15 +85,15 @@ Address of array of <a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-
 
 
 
-<a href="https://msdn.microsoft.com/cc98a90c-ba82-4b92-a56c-07496a843089">IRdcComparator::Process</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdccomparator-process">IRdcComparator::Process</a>
 
 
 
-<a href="https://msdn.microsoft.com/086e82f1-b033-48e2-b648-895c04751cc9">RdcNeed</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0004">RdcNeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/5144a94b-4af8-4ac2-b5b3-f0674a51c03b">Remote Differential Compression Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
  
 
  

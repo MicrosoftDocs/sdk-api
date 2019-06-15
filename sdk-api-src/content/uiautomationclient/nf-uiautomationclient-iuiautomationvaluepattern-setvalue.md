@@ -68,7 +68,7 @@ The value to set.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <a href="https://msdn.microsoft.com/65b1311d-479a-4be4-a9fb-7dfe885420b8">CurrentIsEnabled</a> property must be <b>TRUE</b>, and the <a href="https://msdn.microsoft.com/dc5111c4-6fc8-4a4f-b797-6da472fd0533">IUIAutomationValuePattern::CurrentIsReadOnly</a> property must be <b>FALSE</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisenabled">CurrentIsEnabled</a> property must be <b>TRUE</b>, and the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-get_currentisreadonly">IUIAutomationValuePattern::CurrentIsReadOnly</a> property must be <b>FALSE</b>.
 			
 
 

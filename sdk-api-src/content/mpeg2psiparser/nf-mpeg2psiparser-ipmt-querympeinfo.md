@@ -62,7 +62,7 @@ The <b>QueryMPEInfo</b> method returns the multi-protocol encapsulation (MPE) in
 
 ### -param ppMPEList [out]
 
-Address of a variable that receives a pointer to an array of <a href="https://msdn.microsoft.com/2753160b-de52-4d62-960a-c200c6f5f29a">MPE_ELEMENT</a> structures. The client must free the array by calling the <b>CoTaskMemFree</b> function.
+Address of a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-_mpe_element">MPE_ELEMENT</a> structures. The client must free the array by calling the <b>CoTaskMemFree</b> function.
 
 
 ### -param puiCount [out]
@@ -156,7 +156,7 @@ If the method succeeds, it returns one of the two success codes listed in the pr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694820(v=VS.85).aspx">IPMT Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
  
 
  

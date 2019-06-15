@@ -55,7 +55,7 @@ Exposes methods that provide information about a connection in RemoteApp and Des
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace3</b> interface inherits from <a href="https://msdn.microsoft.com/8155cd78-4c6b-47a9-a2c7-f9fffc95f700">IWorkspace2</a>. <b>IWorkspace3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWorkspace3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>. <b>IWorkspace3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWorkspace3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d615b999-0713-4d16-a89b-b5b208a76124">GetClaimsToken2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-getclaimstoken2">GetClaimsToken2</a>
 </td>
 <td align="left" width="63%">
 Sets the claims token.
@@ -79,7 +79,7 @@ Sets the claims token.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/221b0e8f-b43a-4942-9e70-152daf5b1ef0">SetClaimsToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace3-setclaimstoken">SetClaimsToken</a>
 </td>
 <td align="left" width="63%">
 Retrieves the claims token.
@@ -94,11 +94,11 @@ Retrieves the claims token.
 
 
 
-<a href="https://msdn.microsoft.com/8155cd78-4c6b-47a9-a2c7-f9fffc95f700">IWorkspace2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>
 
 
 
-<a href="https://msdn.microsoft.com/4580df05-5e44-40d0-8765-5d9b4e1d339e">RemoteApp and Desktop Connection Runtime interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remoteapp-and-desktop-connection-runtime-interfaces">RemoteApp and Desktop Connection Runtime interfaces</a>
  
 
  

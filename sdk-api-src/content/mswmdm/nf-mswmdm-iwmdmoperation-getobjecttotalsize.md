@@ -125,7 +125,7 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 
 
-This method is called after the <a href="https://msdn.microsoft.com/4e1f4300-057d-40df-8e5c-75765f9ce337">GetObjectAttributes</a> method has been called. When transferring, the object implementing this interface is passed the total size of the content being sent.
+This method is called after the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectattributes">GetObjectAttributes</a> method has been called. When transferring, the object implementing this interface is passed the total size of the content being sent.
 
 
 #### Examples
@@ -160,15 +160,15 @@ HRESULT GetObjectTotalSize(DWORD*  pdwSize,    DWORD*  pdwSizeHigh)
 
 
 
-<a href="https://msdn.microsoft.com/ff94191b-a0f2-4118-996c-d040f214fb9b">Handling File Transfers Manually</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://msdn.microsoft.com/7277a8fe-3006-4456-b2e7-6041d3324f35">IWMDMOperation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/009716e8-6a4e-4373-9a7c-69dad815e743">SetObjectTotalSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjecttotalsize">SetObjectTotalSize</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>CERT_ECC_SIGNATURE</b> structure contains the r and s values for an Ellip
 
 ### -field r
 
-The r value of the ECDSA signature. This value is in <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">little-endian</a> order.
+The r value of the ECDSA signature. This value is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> order.
 
 
 ### -field s

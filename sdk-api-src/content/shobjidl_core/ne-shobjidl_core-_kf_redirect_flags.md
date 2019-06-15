@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flags used by <a href="https://msdn.microsoft.com/0f4fc609-597b-4c72-b875-4b3f051dd056">IKnownFolderManager::Redirect</a> to specify details of a known folder redirection such as permissions and ownership for the redirected folder.
+Flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> to specify details of a known folder redirection such as permissions and ownership for the redirected folder.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Set the owner of a newly created target folder.  If the user belongs to the Admi
 
 ### -field KF_REDIRECT_CHECK_ONLY
 
-Do not perform a redirection, simply check whether redirection has occurred. If so, <a href="https://msdn.microsoft.com/0f4fc609-597b-4c72-b875-4b3f051dd056">IKnownFolderManager::Redirect</a> returns S_OK; if not, or if some actions remain to be completed, it returns S_FALSE.
+Do not perform a redirection, simply check whether redirection has occurred. If so, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> returns S_OK; if not, or if some actions remain to be completed, it returns S_FALSE.
 
 
 ### -field KF_REDIRECT_WITH_UI
@@ -104,7 +104,7 @@ Copy the existing contents—both files and subfolders—of the known folder to 
 
 ### -field KF_REDIRECT_DEL_SOURCE_CONTENTS
 
-Delete the contents of the source folder after they have been copied to the redirected folder. This flag is valid only if <a href="https://msdn.microsoft.com/6016f02f-5480-4fd8-b21d-209ebd863922">KF_REDIRECT_COPY_CONTENTS</a> is set.
+Delete the contents of the source folder after they have been copied to the redirected folder. This flag is valid only if <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_kf_redirect_flags">KF_REDIRECT_COPY_CONTENTS</a> is set.
 
 
 ### -field KF_REDIRECT_EXCLUDE_ALL_KNOWN_SUBFOLDERS
@@ -116,7 +116,7 @@ Reserved. Do not use.
 
 
 
-The <b><b>KF_REDIRECT_OWNER_USER</b></b> and <b><b>KF_REDIRECT_SET_OWNER_EXPLICIT</b></b> flags provide ownership checks for the target folder, if that folder exists. By default, <a href="https://msdn.microsoft.com/0f4fc609-597b-4c72-b875-4b3f051dd056">IKnownFolderManager::Redirect</a> does not perform ownership checks. KF_REDIRECT_OWNER_USER and KF_REDIRECT_SET_OWNER_EXPLICIT are only valid if called together.
+The <b><b>KF_REDIRECT_OWNER_USER</b></b> and <b><b>KF_REDIRECT_SET_OWNER_EXPLICIT</b></b> flags provide ownership checks for the target folder, if that folder exists. By default, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfoldermanager-redirect">IKnownFolderManager::Redirect</a> does not perform ownership checks. KF_REDIRECT_OWNER_USER and KF_REDIRECT_SET_OWNER_EXPLICIT are only valid if called together.
 
 The <b>KF_REDIRECT_FLAGS</b> type is defined in Shobjidl.h as shown here.
 
@@ -134,7 +134,7 @@ typedef DWORD KF_REDIRECT_FLAGS;
 
 
 
-<a href="https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6">Known Folders Sample</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
  
 
  

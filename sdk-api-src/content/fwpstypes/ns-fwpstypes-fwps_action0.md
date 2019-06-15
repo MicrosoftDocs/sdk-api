@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>FWPS_ACTION0</b> structure specifies the run-time action that the filter engine takes if all of
   the filter's filtering conditions are true.
-<div class="alert"><b>Note</b>  <b>FWPS_ACTION0</b> is a specific version of <b>FWPS_ACTION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_ACTION0</b> is a specific version of <b>FWPS_ACTION</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -62,8 +62,8 @@ The <b>FWPS_ACTION0</b> structure specifies the run-time action that the filter 
 
 An <b>FWP_ACTION_TYPE</b> value that represents the action that the filter engine takes if all of
      the filter's filtering conditions are true. For a filter that is passed to a callout's 
-     <a href="https://msdn.microsoft.com/48b4965a-7284-4331-a900-0e3a2a1a0bc9">notifyFn</a> or 
-     <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function, this member will
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">notifyFn</a> or 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function, this member will
      be one of the following values:
      
 
@@ -74,7 +74,7 @@ An <b>FWP_ACTION_TYPE</b> value that represents the action that the filter engin
 #### FWP_ACTION_CALLOUT_TERMINATING
 
 Specifies that the callout driver's 
-       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function must return one
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function must return one
        of the following values for the action to be taken on the data:
        
 
@@ -93,7 +93,7 @@ Block the data from being transmitted or received.
 Permit the data to be transmitted or received.
 
 If the callout driver's 
-       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function returns any
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function returns any
        other value for the action to be taken on the data, it is handled the same as if the callout driver's 
        classifyFn callout function returned
        <b>FWP_ACTION_BLOCK</b>.
@@ -103,7 +103,7 @@ If the callout driver's
 #### FWP_ACTION_CALLOUT_INSPECTION
 
 Specifies that the callout driver's 
-       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function must return the
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function must return the
        following value for the action to be taken on the data.
        
 
@@ -116,7 +116,7 @@ Specifies that the callout driver's
 Continue on to the next filter.
 
 If the callout driver's 
-       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function returns any
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function returns any
        other value for the action to be taken on the data, it is handled the same as if the callout driver's 
        classifyFn callout function returned
        <b>FWP_ACTION_CONTINUE</b>.
@@ -126,7 +126,7 @@ If the callout driver's
 #### FWP_ACTION_CALLOUT_UNKNOWN
 
 Specifies that the callout driver's 
-       <a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a> callout function can return any
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function can return any
        of the following values for the action to be taken on the data:
        
 
@@ -156,7 +156,7 @@ Continue on to the next filter.
 The run-time identifier for the callout that the filter engine calls if all of the filter's
      filtering conditions are true. This is the same identifier that was returned when the callout driver
      called the 
-     <a href="https://msdn.microsoft.com/1f003775-4b93-44cd-8c58-18e0e3fb5656">FwpsCalloutRegister0</a> function to
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> function to
      register the callout with the filter engine.
 
 
@@ -165,7 +165,7 @@ The run-time identifier for the callout that the filter engine calls if all of t
 
 
 An FWPS_ACTION0 structure is contained within an 
-    <a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure.
 
 
 
@@ -175,23 +175,23 @@ An FWPS_ACTION0 structure is contained within an
 
 
 
-<a href="https://msdn.microsoft.com/cf5e3372-466e-44f0-8312-78318c5efb13">FWPS_FILTER0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f003775-4b93-44cd-8c58-18e0e3fb5656">FwpsCalloutRegister0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff570963(v=VS.85).aspx">Types of Callouts</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/types-of-callouts">Types of Callouts</a>
 
 
 
-<a href="https://msdn.microsoft.com/3753daab-a08d-42ce-a284-07538ac538df">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
 
 
 
-<a href="https://msdn.microsoft.com/48b4965a-7284-4331-a900-0e3a2a1a0bc9">notifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">notifyFn</a>
  
 
  

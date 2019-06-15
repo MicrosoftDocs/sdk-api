@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/e451c3a7-aec3-4fa7-9313-730bfac55f19">IDataCollector::LatestOutputLocation</a> property contains the decorated file name used the last time the collector ran.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a> property contains the decorated file name used the last time the collector ran.
 
 
 
@@ -72,11 +72,11 @@ The <a href="https://msdn.microsoft.com/e451c3a7-aec3-4fa7-9313-730bfac55f19">ID
 
 
 
-<a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/e451c3a7-aec3-4fa7-9313-730bfac55f19">IDataCollector::LatestOutputLocation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a>
  
 
  

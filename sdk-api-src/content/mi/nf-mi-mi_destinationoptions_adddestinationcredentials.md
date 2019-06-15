@@ -59,12 +59,12 @@ Sets the credentials for talking to the destination.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/7f835ff4-3917-497c-bfe9-ca335cc35938">MI_DestinationOptions</a> structure that contains the destination options.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> structure that contains the destination options.
 
 
 ### -param credentials [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/30191cd1-00de-42ef-ac95-5e174d273c80">MI_UserCredentials</a> structure that contains the credentials used when communicating with the destination machine.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_usercredentials">MI_UserCredentials</a> structure that contains the credentials used when communicating with the destination machine.
 
 
 ## -returns

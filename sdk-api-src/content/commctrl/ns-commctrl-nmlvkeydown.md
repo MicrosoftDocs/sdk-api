@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used in processing the <a href="https://msdn.microsoft.com/en-us/library/Bb774849(v=VS.85).aspx">LVN_KEYDOWN</a> notification code. This structure is the same as the 
+Contains information used in processing the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-keydown">LVN_KEYDOWN</a> notification code. This structure is the same as the 
 			<b>NMLVKEYDOWN</b> structure but has been renamed to fit standard naming conventions. 
 
 
@@ -60,23 +60,23 @@ Contains information used in processing the <a href="https://msdn.microsoft.com/
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field wVKey
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375731(v=VS.85).aspx">Virtual key code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual key code</a>. 
 
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 This member must always be zero. 
 

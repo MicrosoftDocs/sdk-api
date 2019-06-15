@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a> object.
+The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a> object.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ The <b>ColorLUT::SetParameters</b> method sets the parameters of this <a href="h
 
 ### -param lut [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534061(v=VS.85).aspx">ColorLUTParams</a> structure that specifies the parameters.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a> structure that specifies the parameters.
 
 
 ## -returns
@@ -79,11 +79,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534430(v=VS.85).aspx">ColorLUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorlut">ColorLUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536236(v=VS.85).aspx">ColorLUT::GetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorlut-getparameters">ColorLUT::GetParameters</a>
  
 
  

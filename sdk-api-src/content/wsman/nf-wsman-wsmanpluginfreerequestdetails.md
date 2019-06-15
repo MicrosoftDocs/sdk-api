@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases memory that is allocated for the <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure, which is passed into operation plug-in entry points. This method is optional and can be called at any point after a plug-in entry point is called and before the entry point calls the  <a href="https://msdn.microsoft.com/6cb47762-edfc-48d7-88ec-d62056ea1751">WSManPluginOperationComplete</a> method. After this method is called, the memory will be released and the plug-in will be unable to access any of the parameters in the <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure.
+Releases memory that is allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure, which is passed into operation plug-in entry points. This method is optional and can be called at any point after a plug-in entry point is called and before the entry point calls the  <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method. After this method is called, the memory will be released and the plug-in will be unable to access any of the parameters in the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure.
 
 
 ## -parameters
@@ -59,5 +59,5 @@ Releases memory that is allocated for the <a href="https://msdn.microsoft.com/31
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/3191f2b3-e754-4f2d-ae8b-11da859c94b7">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 

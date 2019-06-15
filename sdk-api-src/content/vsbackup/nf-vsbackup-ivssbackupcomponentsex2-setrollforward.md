@@ -65,14 +65,14 @@ The globally unique identifier (GUID) of the writer class.
 
 ### -param ct [in]
 
-The type of the component. See the <a href="https://msdn.microsoft.com/ba3b726c-448a-46c0-8fa5-5793497aa385">VSS_COMPONENT_TYPE</a> 
+The type of the component. See the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> 
       enumeration for the possible values.
 
 
 ### -param wszLogicalPath [in]
 
 A <b>null</b>-terminated wide character string containing the logical path of the component. 
-      For more information, see <a href="https://msdn.microsoft.com/663c8ca9-8f5b-48bd-af2d-b2d90de9e492">Logical Pathing of Components</a>.
+      For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 The value of the string containing the logical path used here should be the same as the string that was used when the 
        component was added.
@@ -89,12 +89,12 @@ A <b>null</b>-terminated wide character string containing the name of the compon
 
 The string cannot be <b>NULL</b> and should contain the same component name as the string that was used when the component was added 
       to the backup set using 
-      the <a href="https://msdn.microsoft.com/50cb0b16-9ed3-4496-962a-9c845c10986c">IVssBackupComponents::AddComponent</a> method.
+      the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a> method.
 
 
 ### -param rollType [in]
 
-A <a href="https://msdn.microsoft.com/3a1f3123-659f-48e1-864d-d5abee64f819">VSS_ROLLFORWARD_TYPE</a> enumeration value indicating the type of roll-forward operation to be performed.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_rollforward_type">VSS_ROLLFORWARD_TYPE</a> enumeration value indicating the type of roll-forward operation to be performed.
 
 
 ### -param wszRollForwardPoint [in]
@@ -178,7 +178,7 @@ The specified component was not found.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -199,7 +199,7 @@ The <b>SetRollForward</b> method can only be called during a restore operation.
 A writer indicates that it supports this method by setting the <b>VSS_BS_ROLLFORWARD_RESTORE</b> flag in its backup schema mask.
 
 For more 
-      information, see <a href="https://msdn.microsoft.com/364550a1-070a-4f7e-bd62-84672959dc21">Setting VSS Restore 
+      information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/setting-vss-restore-options">Setting VSS Restore 
       Options</a>.
 
 
@@ -210,19 +210,19 @@ For more
 
 
 
-<a href="https://msdn.microsoft.com/69d4d500-0e21-48bd-b90b-d06c88fde136">IVssBackupComponentsEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/4ba52c80-2229-4653-bd5b-85d9f11cd127">IVssComponentEx::GetRollForward</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getrollforward">IVssComponentEx::GetRollForward</a>
 
 
 
-<a href="https://msdn.microsoft.com/3541c8bd-2712-458b-9153-1fffe6bf5688">VSS_BACKUP_SCHEMA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_backup_schema">VSS_BACKUP_SCHEMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a1f3123-659f-48e1-864d-d5abee64f819">VSS_ROLLFORWARD_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_rollforward_type">VSS_ROLLFORWARD_TYPE</a>
  
 
  

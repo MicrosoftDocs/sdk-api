@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains parameters for the <a href="https://msdn.microsoft.com/ea18baba-0e03-4471-af0e-a588773c98d2">OPM_SET_HDCP_SRM</a> command.  This command updates the system renewability message (SRM) for High-Bandwidth Digital Content Protection (HDCP).
+Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-set-hdcp-srm">OPM_SET_HDCP_SRM</a> command.  This command updates the system renewability message (SRM) for High-Bandwidth Digital Content Protection (HDCP).
       
 
 
@@ -68,11 +68,11 @@ Contains the SRM version number in little-endian format. This number is containe
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

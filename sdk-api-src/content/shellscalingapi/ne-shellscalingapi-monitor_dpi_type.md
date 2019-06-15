@@ -81,7 +81,7 @@ The default DPI setting for a monitor is MDT_EFFECTIVE_DPI.
 
 
 
-All of these settings are affected by the <a href="https://msdn.microsoft.com/50130739-E8A8-4B92-9B80-3BBBE57EBE0C">PROCESS_DPI_AWARENESS</a> of your application
+All of these settings are affected by the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> of your application
 
 
 
@@ -91,7 +91,7 @@ All of these settings are affected by the <a href="https://msdn.microsoft.com/50
 
 
 
-<a href="https://msdn.microsoft.com/AB741D14-0BA1-4C33-91D8-1331BE96DE95">GetDpiForMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getdpiformonitor">GetDpiForMonitor</a>
  
 
  

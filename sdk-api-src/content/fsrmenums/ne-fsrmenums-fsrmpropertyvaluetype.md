@@ -79,11 +79,11 @@ The type assigned to the property value is a date expression containing a date v
 
 
 
-<a href="https://msdn.microsoft.com/93fdf667-8959-40a9-a374-c54ed73bbe89">FSRM Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/86086089-936a-428f-bc2b-514c873db1a3">IFsrmFileConditionProperty.ValueType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfileconditionproperty-get_valuetype">IFsrmFileConditionProperty.ValueType</a>
  
 
  

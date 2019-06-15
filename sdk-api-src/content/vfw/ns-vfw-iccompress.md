@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICCOMPRESS</b> structure contains compression parameters used with the <a href="https://msdn.microsoft.com/d95b943f-458d-4a5e-bab1-e3648d323395">ICM_COMPRESS</a> message.
+The <b>ICCOMPRESS</b> structure contains compression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress">ICM_COMPRESS</a> message.
 
 
 
@@ -85,7 +85,7 @@ Input data should be treated as a key frame.
 
 ### -field lpbiOutput
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output (compressed) format. The <b>biSizeImage</b> member must contain the size of the compressed data.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output (compressed) format. The <b>biSizeImage</b> member must contain the size of the compressed data.
 
 
 ### -field lpOutput
@@ -96,7 +96,7 @@ Pointer to the buffer where the driver should write the compressed data.
 
 ### -field lpbiInput
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input (uncompressed) format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input (uncompressed) format.
           
 
 
@@ -138,7 +138,7 @@ Quality setting.
 
 ### -field lpbiPrev
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the format of the previous frame, which is typically the same as the input format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the previous frame, which is typically the same as the input format.
           
 
 
@@ -162,15 +162,15 @@ Drivers that perform temporal compression use data from the previous frame (foun
 
 
 
-<a href="https://msdn.microsoft.com/d95b943f-458d-4a5e-bab1-e3648d323395">ICM_COMPRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress">ICM_COMPRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/129a65a7-cac3-47e0-9e9c-6e5a4a260c73">Video Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
  
 
  

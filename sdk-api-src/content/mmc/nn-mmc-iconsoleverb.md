@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsoleVerb</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConsoleVerb</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsoleVerb</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConsoleVerb</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IConsoleVerb</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e30f3690-361b-4aee-97e7-014e2e8ee6a4">GetDefaultVerb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getdefaultverb">GetDefaultVerb</a>
 </td>
 <td align="left" width="63%">
 Gets the default verb.
@@ -79,7 +79,7 @@ Gets the default verb.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86388a22-5156-45e9-a601-33b7c5ca15f3">GetVerbState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-getverbstate">GetVerbState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of a verb.
@@ -88,7 +88,7 @@ Gets the state of a verb.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/099a5cd7-b1c8-45c0-a109-7e78d1b6ee98">SetDefaultVerb</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setdefaultverb">SetDefaultVerb</a>
 </td>
 <td align="left" width="63%">
 Sets the default verb.
@@ -97,7 +97,7 @@ Sets the default verb.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55cf5f73-a113-430e-be16-d7a88abe15b6">SetVerbState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setverbstate">SetVerbState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of a verb.

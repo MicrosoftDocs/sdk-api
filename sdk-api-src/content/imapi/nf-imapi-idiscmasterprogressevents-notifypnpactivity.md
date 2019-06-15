@@ -73,7 +73,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 An application should respond by calling 
-<a href="https://msdn.microsoft.com/03daab81-11cf-4100-ab5e-3442a5972912">IDiscMaster::EnumDiscRecorders</a> to update its list of valid recorders. If the current active recorder has been invalidated, then a new recorder should be chosen.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-enumdiscrecorders">IDiscMaster::EnumDiscRecorders</a> to update its list of valid recorders. If the current active recorder has been invalidated, then a new recorder should be chosen.
 
 
 
@@ -83,7 +83,7 @@ An application should respond by calling
 
 
 
-<a href="https://msdn.microsoft.com/68f7edbd-4a06-4e8d-a562-21a65767aff6">IDiscMasterProgressEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
  
 
  

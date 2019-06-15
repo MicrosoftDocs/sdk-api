@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetDescription</b> method retrieves the description, set by a previous call to <a href="https://msdn.microsoft.com/718eb8bd-fdf9-434d-b859-3a38cb8fabee">SetDescription</a>, of the table of contents.
+The <b>GetDescription</b> method retrieves the description, set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescription">SetDescription</a>, of the table of contents.
 
 
 ## -parameters
@@ -111,7 +111,7 @@ The method returns this error code if <i>pwszDescription</i> is not <b>NULL</b> 
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

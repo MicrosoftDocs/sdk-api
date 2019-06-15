@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags used with the <a href="https://msdn.microsoft.com/fc75fb17-52a2-40dd-b333-fcd01cae1430">IWbemClassObject::GetNames</a> method.
+Contains flags used with the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getnames">IWbemClassObject::GetNames</a> method.
 
 
 ## -enum-fields

@@ -89,11 +89,11 @@ Specifies that <i>hWnd</i> prefers noncoalesced touch input.
 </dl>
 </td>
 <td width="60%">
-Setting this flag disables palm rejection which reduces delays for getting <a href="https://msdn.microsoft.com/5dee8bab-34fa-4dd9-a65b-35883757ec80">WM_TOUCH</a> messages. 
+Setting this flag disables palm rejection which reduces delays for getting <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-touchdown">WM_TOUCH</a> messages. 
 						     This is useful if you want as quick of a response as possible when a user touches your application.
 						  
 
-By default, palm detection is enabled and some <a href="https://msdn.microsoft.com/5dee8bab-34fa-4dd9-a65b-35883757ec80">WM_TOUCH</a> messages are prevented from being sent 
+By default, palm detection is enabled and some <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-touchdown">WM_TOUCH</a> messages are prevented from being sent 
 						     to your application.  This is useful if you do not want to receive <b>WM_TOUCH</b> messages that are from palm contact.
                     
 
@@ -112,7 +112,7 @@ If the function succeeds, the return value is nonzero.
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="http://msdn.microsoft.com/en-us/library/ms679360.aspx">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -121,10 +121,10 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<div class="alert"><b>Note</b>  <b>RegisterTouchWindow</b> must be called on every window that will be used for touch input.  This means that if you have an application that has multiple windows within it, <b>RegisterTouchWindow</b> must be called on every window in that application that uses touch features. Also, an application can call <b>RegisterTouchWindow</b> any number of times for the same window if it desires to change the modifier flags. A window can be marked as no longer requiring touch input using the <a href="https://msdn.microsoft.com/19b83312-b52b-45a5-9595-23d4621c4342">UnregisterTouchWindow</a> function.
+<div class="alert"><b>Note</b>  <b>RegisterTouchWindow</b> must be called on every window that will be used for touch input.  This means that if you have an application that has multiple windows within it, <b>RegisterTouchWindow</b> must be called on every window in that application that uses touch features. Also, an application can call <b>RegisterTouchWindow</b> any number of times for the same window if it desires to change the modifier flags. A window can be marked as no longer requiring touch input using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregistertouchwindow">UnregisterTouchWindow</a> function.
   </div>
 <div> </div>
-If <b>TWF_WANTPALM</b> is enabled, packets from touch input are not buffered and palm detection is not performed before the packets are sent to your application. Enabling <b>TWF_WANTPALM</b> is most useful if you want minimal latencies when processing <a href="https://msdn.microsoft.com/5dee8bab-34fa-4dd9-a65b-35883757ec80">WM_TOUCH</a> messages.
+If <b>TWF_WANTPALM</b> is enabled, packets from touch input are not buffered and palm detection is not performed before the packets are sent to your application. Enabling <b>TWF_WANTPALM</b> is most useful if you want minimal latencies when processing <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-touchdown">WM_TOUCH</a> messages.
 
 
 #### Examples
@@ -165,11 +165,11 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
 
 
-<a href="https://msdn.microsoft.com/6c64ed75-37ac-47ae-b39e-bdf10d2b5211">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtfunctions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/19b83312-b52b-45a5-9595-23d4621c4342">UnregisterTouchWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregistertouchwindow">UnregisterTouchWindow</a>
  
 
  

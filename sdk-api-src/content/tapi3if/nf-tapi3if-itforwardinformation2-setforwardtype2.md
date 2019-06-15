@@ -61,7 +61,7 @@ The
 ### -param ForwardType [in]
 
 
-<a href="https://msdn.microsoft.com/8cc053bd-1056-42be-b48a-d2312c456893">Line forward type</a> to be set.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">Line forward type</a> to be set.
 
 
 ### -param pDestAddress [in]
@@ -72,7 +72,7 @@ Pointer to the <b>BSTR</b> representation of the destination address.
 ### -param DestAddressType [in]
 
 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">Address type</a> of destination.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of destination.
 
 
 ### -param pCallerAddress [in]
@@ -83,7 +83,7 @@ Pointer to the <b>BSTR</b> representation of the caller address.
 ### -param CallerAddressType [in]
 
 
-<a href="https://msdn.microsoft.com/2c32eda1-e510-40eb-ae75-fc7b9e9953cd">Address type</a> of caller.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of caller.
 
 
 ## -returns
@@ -152,15 +152,15 @@ The <i>pDestAddress</i> or <i>pCallerAddress</i> parameter is not a valid pointe
 
 
 
-<a href="https://msdn.microsoft.com/0e06cd0b-b95b-4853-b883-53146be084f0">ITForwardInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/25c99955-1a9d-49fa-9432-962e19296ad5">ITForwardInformation2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation2">ITForwardInformation2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f7972a8-c9b0-4033-8b00-a107a513ee66">ITForwardInformation::SetForwardType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-setforwardtype">ITForwardInformation::SetForwardType</a>
  
 
  

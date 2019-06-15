@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the metadata for the <a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a> object.
+Retrieves the metadata for the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the metadata for the <a href="https://msdn.microsoft.com/8753bcc8-f0c3
 
 ### -param ppServiceMetadata [out]
 
-Reference to a <a href="https://msdn.microsoft.com/1f80e36f-06ca-41fc-bbd7-b44823c75d4d">WSD_SERVICE_METADATA</a> structure that specifies service metadata. Do not release this object.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_service_metadata">WSD_SERVICE_METADATA</a> structure that specifies service metadata. Do not release this object.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Method completed successfully.
 
 
 
-This metadata is also available as part of the metadata produced by <a href="https://msdn.microsoft.com/e1e81f75-baeb-4406-8de0-f575db573fe8">IWSDDeviceProxy::GetHostMetadata</a>.
+This metadata is also available as part of the metadata produced by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">IWSDDeviceProxy::GetHostMetadata</a>.
 
 
 
@@ -115,7 +115,7 @@ This metadata is also available as part of the metadata produced by <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
  
 
  

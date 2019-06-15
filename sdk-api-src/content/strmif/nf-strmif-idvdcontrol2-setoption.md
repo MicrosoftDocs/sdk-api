@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetOption</b> method enables or disables an internal behavior flag on the <a href="https://msdn.microsoft.com/3b2c01a2-d52c-4497-8fc9-d1113e8507e8">DVD Navigator</a> filter.
+The <b>SetOption</b> method enables or disables an internal behavior flag on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter.
 
 
 
@@ -63,14 +63,14 @@ The <b>SetOption</b> method enables or disables an internal behavior flag on the
 
 ### -param flag [in]
 
-Specifies which behavior to modify, as a member of the <a href="https://msdn.microsoft.com/29e75f58-58f3-4b3f-a3ba-e3451d3a0cae">DVD_OPTION_FLAG</a> enumeration type. 
+Specifies which behavior to modify, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0003">DVD_OPTION_FLAG</a> enumeration type. 
 
 
 ### -param fState [in]
 
 Specifies the new value of the option given in the <i>flag</i> parameter.
 
-<div class="alert"><b>Note</b>  This parameter is a <b>BOOL</b> type, but some options treat this parameter as a numeric value, not a Boolean value. For details, see the <a href="https://msdn.microsoft.com/29e75f58-58f3-4b3f-a3ba-e3451d3a0cae">DVD_OPTION_FLAG</a> reference page.
+<div class="alert"><b>Note</b>  This parameter is a <b>BOOL</b> type, but some options treat this parameter as a numeric value, not a Boolean value. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0003">DVD_OPTION_FLAG</a> reference page.
           </div>
 <div> </div>
 
@@ -145,15 +145,15 @@ The following table shows the Annex J command name to which this method name cor
 
 
 
-<a href="https://msdn.microsoft.com/6f41e0f1-e550-4ca6-9a80-ce4d498289e2">DVD Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/eda43b20-1c4d-4769-bb87-3942716af13c">IDvdControl2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
  
 
  

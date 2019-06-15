@@ -116,7 +116,7 @@ An <b>ICoreFragment</b> object contains one or more ranges. Each range specifies
 
 
 
-<a href="https://msdn.microsoft.com/3e232531-ad44-4ad1-b186-46edbc07291b">ICoreFragment Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragment">ICoreFragment Interface</a>
  
 
  

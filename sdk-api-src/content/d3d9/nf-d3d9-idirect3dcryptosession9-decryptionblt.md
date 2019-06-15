@@ -74,16 +74,16 @@ The size of the surface memory that <i>pSrcSurface</i> points to, in bytes. The 
 
 ### -param pEncryptedBlockInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/076f4f00-e86b-47e2-80dd-4d7434200138">D3DENCRYPTED_BLOCK_INFO</a> structure, or <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/medfound/d3dencrypted-block-info">D3DENCRYPTED_BLOCK_INFO</a> structure, or <b>NULL</b>.
 
 If the driver supports partially encrypted buffers,  <i>pEncryptedBlockInfo</i> indicates which portions of the buffer are encrypted.  If the entire surface is encrypted, set this parameter to <b>NULL</b>. 
 
-To check whether the driver supports partially encrypted buffers, call <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> and check for the <b>D3DCPCAPS_PARTIALDECRYPTION</b> capabilities flag. If the driver does not support partially encrypted buffers, set this parameter to <b>NULL</b>.
+To check whether the driver supports partially encrypted buffers, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> and check for the <b>D3DCPCAPS_PARTIALDECRYPTION</b> capabilities flag. If the driver does not support partially encrypted buffers, set this parameter to <b>NULL</b>.
 
 
 ### -param pContentKey
 
-A pointer to a buffer that contains a content encryption key, or <b>NULL</b>. To query whether the driver supports the use of content keys, call <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> and check for the <b>D3DCPCAPS_CONTENTKEY</b> capabilities flag. 
+A pointer to a buffer that contains a content encryption key, or <b>NULL</b>. To query whether the driver supports the use of content keys, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> and check for the <b>D3DCPCAPS_CONTENTKEY</b> capabilities flag. 
 
 If the driver supports content keys, use the content key to encrypt the surface. Encrypt the content key using the session key, and place the  resulting cipher text in <i>pContentKey</i>. If the driver does not support content keys, use the session key to encrypt the surface and set <i>pContentKey</i> to <b>NULL</b>.
 
@@ -92,7 +92,7 @@ If the driver supports content keys, use the content key to encrypt the surface.
 
 A pointer to a buffer that contains the initialization vector (IV). 
 
-If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the buffer is a <a href="https://msdn.microsoft.com/2ee738c2-d56c-4a50-94b8-b7180918aa8c">D3DAES_CTR_IV</a> structure. The caller allocates the structure and generates the IV. When you generate the first IV, initialize the structure to a random number. For each subsequent IV, simply increment the <b>IV</b> member of the structure, ensuring that the value always increases.  This procedure enables the driver to validate that the same IV is never used more than once with the same key pair.
+If the encryption type is <b>D3DCRYPTOTYPE_AES128_CTR</b>, the buffer is a <a href="https://docs.microsoft.com/windows/desktop/medfound/d3daes-ctr-iv">D3DAES_CTR_IV</a> structure. The caller allocates the structure and generates the IV. When you generate the first IV, initialize the structure to a random number. For each subsequent IV, simply increment the <b>IV</b> member of the structure, ensuring that the value always increases.  This procedure enables the driver to validate that the same IV is never used more than once with the same key pair.
 
 For other encryption types, a different structure might be used, or the encryption might not use an IV.
 
@@ -117,15 +117,15 @@ The source surface must be a system memory surface created with the proper align
 Specifically, you should allocate the source surface as follows:
 
 <ol>
-<li>Call <a href="https://msdn.microsoft.com/7f9f637e-a693-4fc5-9bf9-a6900aa2ed8c">IDirect3DCryptoSession9::GetSurfacePitch</a> to get the stride of the protected surface.</li>
-<li>Call the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method to get the value of the <b>BufferAlignmentStart</b>  and <b>BlockAlignmentSize</b>  members in the <a href="https://msdn.microsoft.com/73ef2e12-d376-4bc2-a940-d421acfdd43e">D3DCONTENTPROTECTIONCAPS</a>  structure. </li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dcryptosession9-getsurfacepitch">IDirect3DCryptoSession9::GetSurfacePitch</a> to get the stride of the protected surface.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method to get the value of the <b>BufferAlignmentStart</b>  and <b>BlockAlignmentSize</b>  members in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-_d3dcontentprotectioncaps">D3DCONTENTPROTECTIONCAPS</a>  structure. </li>
 <li>Calculate the minimum size of the surface memory as <i>SysMemSize</i> = protected surface stride × protected surface height.</li>
 <li>Add padding to accommodate the values of <b>BufferAlignmentStart</b>  and <b>BlockAlignmentSize</b>.</li>
 <li>Allocate a buffer in system memory, with size equal to <i>SysMemSize</i> (including padding). </li>
 <li>If the address of the system memory buffer is not aligned to the value of <b>BufferAlignmentStart</b>, calculate a memory-aligned pointer that is an offset from the start of the buffer.</li>
-<li>Call <a href="https://msdn.microsoft.com/en-us/library/Bb509712(v=VS.85).aspx">IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx</a> to create the source surface. Pass the memory-aligned pointer as the shared-resource handle (<i>pSharedHandle</i>).</li>
+<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex">IDirect3DDevice9Ex::CreateOffscreenPlainSurfaceEx</a> to create the source surface. Pass the memory-aligned pointer as the shared-resource handle (<i>pSharedHandle</i>).</li>
 </ol>
-If you lock the surface, the stride reported in the <a href="https://msdn.microsoft.com/en-us/library/Bb172570(v=VS.85).aspx">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
+If you lock the surface, the stride reported in the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlocked-rect">D3DLOCKED_RECT</a> structure might not match the stride of the protected surface. When you interpret the data, however, always use the stride of the protected surface.
 
 This method does not support writing to subrectangles of the surface.
 
@@ -137,11 +137,11 @@ This method does not support writing to subrectangles of the surface.
 
 
 
-<a href="https://msdn.microsoft.com/FD0625BB-484A-43E6-8931-DB635D4F017F">GPU-Based Content Protection</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://msdn.microsoft.com/2511c9da-e696-4e49-b180-7fc1317c1652">IDirect3DCryptoSession9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
  
 
  

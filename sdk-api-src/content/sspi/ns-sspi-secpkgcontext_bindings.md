@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a structure that contains channel binding information for a security <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a>.
+Specifies a structure that contains channel binding information for a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The size, in bytes, of the structure specified by the <b>Bindings</b> member
 
 ### -field Bindings
 
-A pointer to a <a href="https://msdn.microsoft.com/1cdbe53f-3fa0-46b1-9449-8fd3db6cddce">SEC_CHANNEL_BINDINGS</a> structure that specifies channel binding information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_channel_bindings">SEC_CHANNEL_BINDINGS</a> structure that specifies channel binding information.
 
 
 ## -see-also
@@ -72,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/1cdbe53f-3fa0-46b1-9449-8fd3d
 
 
 
-<a href="https://msdn.microsoft.com/0329e525-a743-4e6c-aac4-9f74274dadd2">QueryContextAttributes (Schannel)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>
  
 
  

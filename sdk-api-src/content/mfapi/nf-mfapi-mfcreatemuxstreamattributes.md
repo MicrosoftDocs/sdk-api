@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> describing the content of multiplexed substreams.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> describing the content of multiplexed substreams.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Creates an <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b
 
 ### -param pAttributesToMux [in]
 
-The collection containing the  <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> for each multiplexed substream.
+The collection containing the  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> for each multiplexed substream.
 
 
 ### -param ppMuxAttribs [out]
 
-The <a href="https://msdn.microsoft.com/e12259f4-b631-4d4a-a296-c1cc6334b962">IMFAttributes</a> containing the attributes for the multiplexed substreams.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> containing the attributes for the multiplexed substreams.
 
 
 ## -returns

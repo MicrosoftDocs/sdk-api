@@ -140,9 +140,9 @@ The meaning of the <i>mpTimeData</i> parameter depends on the value of the <i>gu
 </table>
  
 
-When you call this method, also call the <a href="https://msdn.microsoft.com/en-us/library/Dd406973(v=VS.85).aspx">FlushEnvelope</a> method, to flush any envelopes that were set using the previous time format.
+When you call this method, also call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparams-flushenvelope">FlushEnvelope</a> method, to flush any envelopes that were set using the previous time format.
 
-To determine what time formats an object supports, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406970(v=VS.85).aspx">IMediaParamInfo::GetSupportedTimeFormat</a> method. To retrieve the current format, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406965(v=VS.85).aspx">IMediaParamInfo::GetCurrentTimeFormat</a> method.
+To determine what time formats an object supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getsupportedtimeformat">IMediaParamInfo::GetSupportedTimeFormat</a> method. To retrieve the current format, call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getcurrenttimeformat">IMediaParamInfo::GetCurrentTimeFormat</a> method.
 
 
 
@@ -152,11 +152,11 @@ To determine what time formats an object supports, call the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406971(v=VS.85).aspx">IMediaParams Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/510c7146-ff3c-4812-a7ad-b4051aa82ef3">Time Format GUIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>
  
 
  

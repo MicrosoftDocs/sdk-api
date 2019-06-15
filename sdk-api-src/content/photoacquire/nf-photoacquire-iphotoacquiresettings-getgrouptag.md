@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-The group tag is stored as a keyword in each file's metadata. It is also used in the file name if the <code>$(GroupTag)</code> token is present in the format string passed to <a href="https://msdn.microsoft.com/ca36e3f9-74ad-4704-adeb-d3102668da30">SetOutputFileNameTemplate</a>.
+The group tag is stored as a keyword in each file's metadata. It is also used in the file name if the <code>$(GroupTag)</code> token is present in the format string passed to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getoutputfilenametemplate">SetOutputFileNameTemplate</a>.
 
 
 
@@ -108,11 +108,11 @@ The group tag is stored as a keyword in each file's metadata. It is also used in
 
 
 
-<a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3c8b7dc-5701-412a-a376-498c40017d8f">SetGroupTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setgrouptag">SetGroupTag</a>
  
 
  

@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -71,7 +71,7 @@ The <b>DRMCreateUser</b> function creates a user that
 
 A null-terminated string that identifies a user or group of users (see Remarks). This parameter is often an 
        email address.  When the user created is passed in as <i>hOwner</i> to 
-       <a href="https://msdn.microsoft.com/db2e9aa6-7021-4805-8fd7-94c8d02776b0">DRMCreateIssuanceLicense</a>, this value is 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a>, this value is 
        attached to the Owner node in the license XrML. For more information about possible values for this parameter, 
        see the <i>wszUserIdType</i> parameter.
 
@@ -79,7 +79,7 @@ A null-terminated string that identifies a user or group of users (see Remarks).
 ### -param wszUserId [in]
 
 A null-terminated string that identifies a user that will be granted a right. This parameter can be a 
-       Passport ID (PUID), Windows ID <a href="https://msdn.microsoft.com/en-us/library/Aa362748(v=VS.85).aspx">security ID</a> (SID), or 
+       Passport ID (PUID), Windows ID <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/s-gly">security ID</a> (SID), or 
        <b>NULL</b>. If this parameter is <b>NULL</b>, 
        <i>wszUserIdType</i> must contain "Unspecified". This ID is verified by the 
        Active Directory Rights Management Services system. For more information about possible values for this 
@@ -191,7 +191,7 @@ A license will be granted to anyone who requests one, but it will be attached to
 ###### "Owner"
 
 A license will be granted to the owner, specified in 
-               <a href="https://msdn.microsoft.com/db2e9aa6-7021-4805-8fd7-94c8d02776b0">DRMCreateIssuanceLicense</a>.
+               <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a>.
 
 
 
@@ -220,7 +220,7 @@ Optional SID (used for decorative purposes only; not verified). If not given, th
 ### -param phUser [out]
 
 A pointer to the handle of the created user. Call 
-       <a href="https://msdn.microsoft.com/a263a1a8-01b8-4ca6-aefb-f4374459c0c0">DRMClosePubHandle</a> to close the handle.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosepubhandle">DRMClosePubHandle</a> to close the handle.
 
 
 ## -returns
@@ -231,7 +231,7 @@ If the function succeeds, the function returns <b>S_OK</b>.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For 
        a list of common error codes, see 
-       <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -258,7 +258,7 @@ If you want to create an issuance license for a group of people under an email d
      expand the distribution list when obtaining the use license. Note that this can cause a performance lag if the 
      distribution list contains several nested distribution lists within it.
 
-Call <a href="https://msdn.microsoft.com/a263a1a8-01b8-4ca6-aefb-f4374459c0c0">DRMClosePubHandle</a> to close the handle of the 
+Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmclosepubhandle">DRMClosePubHandle</a> to close the handle of the 
      user object  created by calling this function.
 
 
@@ -269,15 +269,15 @@ Call <a href="https://msdn.microsoft.com/a263a1a8-01b8-4ca6-aefb-f4374459c0c0">D
 
 
 
-<a href="https://msdn.microsoft.com/b3b4e7c6-d3d3-4bf7-b6c4-9502a56a7223">AD RMS Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9948c2a4-cb42-42c1-bd22-33d39c039391">Creating and Using Issuance Licenses</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-and-using-issuance-licenses">Creating and Using Issuance Licenses</a>
 
 
 
-<a href="https://msdn.microsoft.com/19387d86-6dbc-436f-8772-b9f25458460e">OnlineSigning_GetUnsignedIL.cpp</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/onlinesigning-getunsignedil-cpp">OnlineSigning_GetUnsignedIL.cpp</a>
  
 
  

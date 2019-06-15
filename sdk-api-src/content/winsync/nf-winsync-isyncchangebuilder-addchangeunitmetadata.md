@@ -141,11 +141,11 @@ The item change to which to add this change unit to has <b>SYNC_CHANGE_FLAG_DELE
 
 
 
-<a href="https://msdn.microsoft.com/6b9a628d-d0cb-49d1-a667-337b5f7f31ff">ISyncChangeBuilder Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebuilder">ISyncChangeBuilder Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a493a58-3dab-4032-90de-be9f903ae489">SYNC_VERSION Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_version">SYNC_VERSION Structure</a>
  
 
  

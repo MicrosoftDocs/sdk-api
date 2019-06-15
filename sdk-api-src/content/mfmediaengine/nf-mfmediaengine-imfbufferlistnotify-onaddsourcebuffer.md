@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates that a <a href="https://msdn.microsoft.com/f241e232-9013-46d0-be97-2d6b5246cff3">IMFSourceBuffer</a> has been added.
+Indicates that a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been added.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/2a2705b4-fac3-4059-b2c9-c03efaa9c15e">IMFBufferListNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify">IMFBufferListNotify</a>
  
 
  

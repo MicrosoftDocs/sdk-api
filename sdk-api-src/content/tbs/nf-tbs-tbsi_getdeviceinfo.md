@@ -64,7 +64,7 @@ Size of the memory location.
 
 ### -param Info [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/59B8AB6D-82D8-4B15-AB62-AB2B9CA7B5E3">TPM_DEVICE_INFO</a> structure is returned containing the version information about the TPM. The location must be large enough to hold four 32-bit values. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tbs/ns-tbs-_tpm_device_info">TPM_DEVICE_INFO</a> structure is returned containing the version information about the TPM. The location must be large enough to hold four 32-bit values. 
 
 
 ## -returns

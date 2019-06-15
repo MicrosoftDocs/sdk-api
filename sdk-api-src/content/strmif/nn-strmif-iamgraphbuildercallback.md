@@ -62,7 +62,7 @@ The primary use for this interface is to configure the Video Mixing Renderer fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMGraphBuilderCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMGraphBuilderCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMGraphBuilderCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMGraphBuilderCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAMGraphBuilderCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04a20a3f-a4a5-434b-896a-60d36430f390">CreatedFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphbuildercallback-createdfilter">CreatedFilter</a>
 </td>
 <td align="left" width="63%">
 Called after the Filter Graph Manager creates a filter, but before it tries to connect the filter.
@@ -86,7 +86,7 @@ Called after the Filter Graph Manager creates a filter, but before it tries to c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1768857-eb55-4b01-87af-921337a418c3">SelectedFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamgraphbuildercallback-selectedfilter">SelectedFilter</a>
 </td>
 <td align="left" width="63%">
 Called when the Filter Graph Manager finds a candidate filter, but before it creates the filter.
@@ -101,7 +101,7 @@ Called when the Filter Graph Manager finds a candidate filter, but before it cre
 
 
 
-<a href="https://msdn.microsoft.com/064acc6a-ba2f-4394-a3bf-a9b70e30e07e">IAMFilterGraphCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamfiltergraphcallback">IAMFilterGraphCallback Interface</a>
  
 
  

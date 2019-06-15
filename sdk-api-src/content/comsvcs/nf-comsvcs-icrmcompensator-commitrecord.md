@@ -59,7 +59,7 @@ Delivers a log record in forward order during the commit phase.
 
 ### -param crmLogRec [in]
 
-The log record, as a <a href="https://msdn.microsoft.com/0af0eba5-6e8c-4b1d-aec4-f9a1ffe7bce6">CrmLogRecordRead</a> structure.
+The log record, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-tagcrmlogrecordread">CrmLogRecordRead</a> structure.
 
 
 ### -param pfForget [out]
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method can be received by the CRM Compensator multiple times, once for each log record that is written. If no log records are written, the <a href="https://msdn.microsoft.com/350f91f9-b019-4c70-9c3e-0d567479d3d0">BeginCommit</a> and <a href="https://msdn.microsoft.com/83701797-c386-4471-91ed-cbe936b1988e">EndCommit</a> methods are received but there are no <b>CommitRecord</b> method calls.
+This method can be received by the CRM Compensator multiple times, once for each log record that is written. If no log records are written, the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-begincommit">BeginCommit</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-endcommit">EndCommit</a> methods are received but there are no <b>CommitRecord</b> method calls.
 
 The CRM Compensator can choose to forget the record that was delivered to it during this phase by setting the forget flag on return from this method.
 
@@ -92,7 +92,7 @@ The CRM Compensator can choose to forget the record that was delivered to it dur
 
 
 
-<a href="https://msdn.microsoft.com/9e5a8f2c-4115-42bd-a541-d0ce75c45b72">ICrmCompensator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
  
 
  

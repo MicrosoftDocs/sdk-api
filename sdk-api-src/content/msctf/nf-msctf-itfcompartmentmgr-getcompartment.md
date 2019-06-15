@@ -63,7 +63,7 @@ Contains a GUID that identifies the compartment.
 
 ### -param ppcomp [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">ITfCompartment</a> interface pointer that receives the compartment object.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a> interface pointer that receives the compartment object.
 
 
 ## -returns
@@ -121,16 +121,16 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/7bffab6f-be40-4d3a-9342-6f81557a9656">Compartments</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/compartments">Compartments</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3">ITfCompartment
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7cdc5c82-4aac-4ec9-b791-93cea33ba8d2">ITfCompartmentMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a>
  
 
  

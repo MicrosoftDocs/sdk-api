@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 
 Creates a virtual channel in a manner similar to 
-    <a href="https://msdn.microsoft.com/0daaf06f-ba05-469c-b888-3df5d9495364">WTSVirtualChannelOpen</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>.
 
 This API supports both static virtual channel (SVC) and dynamic virtual channel (DVC) creation. If the 
     <i>flags</i> parameter is zero, it behaves the same as 
-    <a href="https://msdn.microsoft.com/0daaf06f-ba05-469c-b888-3df5d9495364">WTSVirtualChannelOpen</a>. A DVC can be opened 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>. A DVC can be opened 
     by specifying the appropriate flag. After a DVC is created, you can use the same functions for Read, Write, Query, 
     or Close that are used for the SVC.
 
@@ -69,12 +69,12 @@ This API supports both static virtual channel (SVC) and dynamic virtual channel 
 
 A Remote Desktop Services session identifier. To indicate the current session, specify 
        <b>WTS_CURRENT_SESSION</b>. You can use the 
-       <a href="https://msdn.microsoft.com/6f9dd7d4-48dc-411c-85f1-cd1239d1e106">WTSEnumerateSessions</a> function to retrieve 
+       <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
        the identifiers of all sessions on a specified RD Session Host server.
 
 To be able to open a virtual channel on another user's session, you must have the Virtual Channels 
        permission. For more information, see 
-       <a href="https://msdn.microsoft.com/448a7f9b-bf12-48eb-a3e7-4512ec288d95">Remote Desktop Services Permissions</a>. 
+       <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>. 
        To modify permissions on a session, use the Remote Desktop Services Configuration administrative tool.
 
 
@@ -139,7 +139,7 @@ Real-time priority. Use this priority level only in cases where the data transfe
 
 
 <b>NULL</b> on error with 
-      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> set.
+      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> set.
 
 
 
@@ -149,15 +149,15 @@ Real-time priority. Use this priority level only in cases where the data transfe
 
 
 
-<a href="https://msdn.microsoft.com/9743ce32-9262-4af3-b013-668e834e279c">DVC Server APIs</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/dvc-server-apis">DVC Server APIs</a>
 
 
 
-<a href="https://msdn.microsoft.com/00cb7813-1d86-4faa-8b46-081959e4acfa">Dynamic Virtual Channels Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/dynamic-virtual-channels-reference">Dynamic Virtual Channels Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/0daaf06f-ba05-469c-b888-3df5d9495364">WTSVirtualChannelOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>
  
 
  

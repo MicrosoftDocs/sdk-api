@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773785(v=VS.85).aspx">TVM_SORTCHILDRENCB</a> message explicitly. 
+Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Sorts tree-view items using an application-defined callback function that compar
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -68,12 +68,12 @@ Handle to the tree-view control.
 
 Type: <b>LPTVSORTCB</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773462(v=VS.85).aspx">TVSORTCB</a> structure. The <b>lpfnCompare</b> member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of <b>TVSORTCB</b>. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvsortcb">TVSORTCB</a> structure. The <b>lpfnCompare</b> member is the address of the application-defined callback function, which is called during the sort operation each time the relative order of two list items needs to be compared. For more information about the callback function, see the description of <b>TVSORTCB</b>. 
 
 
 ### -param recurse
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Reserved. Must be zero. 
 

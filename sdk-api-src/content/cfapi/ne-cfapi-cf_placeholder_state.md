@@ -101,7 +101,7 @@ This is an invalid state when the API fails to parse the information of the file
 
 
 
-Placeholder state information can be obtained by calling: <a href="https://msdn.microsoft.com/D7B4FB60-3388-489F-9F55-153B53BBDA9F">CfGetPlaceholderStateFromAttributeTag</a>, <a href="https://msdn.microsoft.com/33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF">CfGetPlaceholderStateFromFileInfo</a>, or <a href="https://msdn.microsoft.com/1A8104BC-E9D1-4846-B91F-4CBEDB1FC542">CfGetPlaceholderStateFromFindData</a>.
+Placeholder state information can be obtained by calling: <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgetplaceholderstatefromattributetag">CfGetPlaceholderStateFromAttributeTag</a>, <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgetplaceholderstatefromfileinfo">CfGetPlaceholderStateFromFileInfo</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfgetplaceholderstatefromfinddata">CfGetPlaceholderStateFromFindData</a>.
 
 
 

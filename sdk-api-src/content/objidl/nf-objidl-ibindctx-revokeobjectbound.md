@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes the object from the bind context, undoing a previous call to <a href="https://msdn.microsoft.com/84d49231-5fdd-4a89-8e76-1f0e56bc553f">RegisterObjectBound</a>.
+Removes the object from the bind context, undoing a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">RegisterObjectBound</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Removes the object from the bind context, undoing a previous call to <a href="ht
 
 ### -param punk [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/c45f0947-6020-4aa1-9250-561603a46a68">IUnknown</a> interface on the object to be removed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/com/iunknown-and-interface-inheritance">IUnknown</a> interface on the object to be removed.
 
 
 ## -returns
@@ -115,7 +115,7 @@ You would rarely call this method. It is documented primarily for completeness.
 
 
 
-<a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
  
 
  

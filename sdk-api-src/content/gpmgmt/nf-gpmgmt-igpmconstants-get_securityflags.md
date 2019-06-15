@@ -53,8 +53,8 @@ ms.custom: 19H1
 
 Retrieves the value of the 
 <b>SecurityFlags</b> property, which represents the portion of the security descriptor to retrieve or set for a GPO. You can pass the returned value in the <i>ulFlags</i> parameter to the 
-<a href="https://msdn.microsoft.com/4035119b-2688-4326-8d08-825d53c3d8e2">IGPMGPO::GetSecurityDescriptor</a> and 
-<a href="https://msdn.microsoft.com/087cbe19-25d9-4134-8893-1b2906915220">IGPMGPO::SetSecurityDescriptor</a> methods.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor">IGPMGPO::GetSecurityDescriptor</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor">IGPMGPO::SetSecurityDescriptor</a> methods.
 
 This property is read-only.
 
@@ -66,7 +66,7 @@ This property is read-only.
 
 
 
-For more information about access control lists (ACLs) and the security model for controlling access to objects, see <a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a>.
+For more information about access control lists (ACLs) and the security model for controlling access to objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 
 
@@ -76,7 +76,7 @@ For more information about access control lists (ACLs) and the security model fo
 
 
 
-<a href="https://msdn.microsoft.com/e9137167-4a2d-4cc4-940e-20f9991c4187">IGPMConstants</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants</a>
  
 
  

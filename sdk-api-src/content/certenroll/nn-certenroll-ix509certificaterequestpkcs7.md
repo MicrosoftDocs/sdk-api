@@ -53,9 +53,9 @@ The <b>IX509CertificateRequestPkcs7</b> interface represents a  PKCS #7 certific
 
 
 <ul>
-<li>Although a PKCS #7 message is used to wrap a CMC request, an <b>IX509CertificateRequestPkcs7</b> object cannot contain a <a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a> object. Instead, the <b>IX509CertificateRequestCmc</b> interface inherits and implements the <b>IX509CertificateRequestPkcs7</b> interface. As implemented, a CMC request is therefore a PKCS #7 <b>SignedData</b> object that contains CMC content, a primary signature that is either null-signed or key-based, and zero or more certificate-based signatures. By contrast, a PKCS #7 request is a <b>SignedData</b> object that contains PKCS #10 content (see the next item in this list) and has exactly one certificate-based signature.</li>
-<li>An <b>IX509CertificateRequestPkcs7</b> must contain an <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a> object. The main advantage of wrapping a PKCS #10 request in a PKCS #7 message is the ability to add multiple signers. The PKCS #10 request is signed by the associated private key, and the PKCS #7 message that wraps the PKCS #10 request is also signed. This second signer uses the certificate being renewed (for a renewal request) or the enrollment agent certificate (for an enroll-on-behalf-of request).</li>
-<li>You can create and enroll a stand-alone <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a> certificate request without wrapping it in an <b>IX509CertificateRequestPkcs7</b> object.</li>
+<li>Although a PKCS #7 message is used to wrap a CMC request, an <b>IX509CertificateRequestPkcs7</b> object cannot contain a <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> object. Instead, the <b>IX509CertificateRequestCmc</b> interface inherits and implements the <b>IX509CertificateRequestPkcs7</b> interface. As implemented, a CMC request is therefore a PKCS #7 <b>SignedData</b> object that contains CMC content, a primary signature that is either null-signed or key-based, and zero or more certificate-based signatures. By contrast, a PKCS #7 request is a <b>SignedData</b> object that contains PKCS #10 content (see the next item in this list) and has exactly one certificate-based signature.</li>
+<li>An <b>IX509CertificateRequestPkcs7</b> must contain an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> object. The main advantage of wrapping a PKCS #10 request in a PKCS #7 message is the ability to add multiple signers. The PKCS #10 request is signed by the associated private key, and the PKCS #7 message that wraps the PKCS #10 request is also signed. This second signer uses the certificate being renewed (for a renewal request) or the enrollment agent certificate (for an enroll-on-behalf-of request).</li>
+<li>You can create and enroll a stand-alone <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> certificate request without wrapping it in an <b>IX509CertificateRequestPkcs7</b> object.</li>
 </ul>
 
 
@@ -66,7 +66,7 @@ PKCS7ContentTable PKCS7-CONTENT-TYPE ::=
     data | signed-data | enveloped-data | signed-and-enveloped-data |
     digested-data | encrypted-data | authenticated-data, ...
 }
-</code></pre>Of these, the <b>SignedData</b> object shown below is most relevant. The <b>SignerInfo</b> object referenced in the <b>SignedData</b> object contains the signature information. For a more complete discussion, see <a href="https://msdn.microsoft.com/fd4e2a13-f257-4ba9-a11d-35f49c5a6c00">PKCS #7 Attributes</a>.
+</code></pre>Of these, the <b>SignedData</b> object shown below is most relevant. The <b>SignerInfo</b> object referenced in the <b>SignedData</b> object contains the signature information. For a more complete discussion, see <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--7-attributes">PKCS #7 Attributes</a>.
 <pre class="syntax" xml:space="preserve"><code>
 -------------------------------------------------------------------
 -- signed-data
@@ -96,7 +96,7 @@ SignerInfo ::= SEQUENCE
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs7</b> interface inherits from <a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs7</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestPkcs7</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>. <b>IX509CertificateRequestPkcs7</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -112,7 +112,7 @@ The <b>IX509CertificateRequestPkcs7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40084cb0-eb48-485d-aa45-8ddb577f2d4f">InitializeDecode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializedecode">InitializeDecode</a>
 </td>
 <td align="left" width="63%">
 Decodes an existing signed or unsigned PKCS #7 object and uses it to initialize the new PKCS #7  object.
@@ -121,7 +121,7 @@ Decodes an existing signed or unsigned PKCS #7 object and uses it to initialize 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7500b714-4608-4da6-85ad-20cea30853cc">InitializeFromCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate">InitializeFromCertificate</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request or response by using an existing certificate.
@@ -130,7 +130,7 @@ Initializes the certificate request or response by using an existing certificate
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b63bfaaa-a8af-4c72-a191-447230adae72">InitializeFromInnerRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefrominnerrequest">InitializeFromInnerRequest</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request  from the inner content of a PKCS #7 message.
@@ -141,7 +141,7 @@ Initializes the certificate request  from the inner content of a PKCS #7 message
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6c15fcb-1883-4d87-af29-721102676535">InitializeFromTemplateName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromtemplatename">InitializeFromTemplateName</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request by using a template.
@@ -158,7 +158,7 @@ Initializes the certificate request by using a template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/af85e976-cc79-4285-b553-a8001e84ec68">RequesterName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-get_requestername">RequesterName</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Specifies or retrieves a string that contains the Security Account Manager (SAM)
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5d93aad0-6b93-4508-9bf0-82f673585ead">SignerCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-get_signercertificate">SignerCertificate</a>
 
 
 </td>
@@ -189,11 +189,11 @@ Specifies or retrieves a  certificate used to sign the certificate request.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/5425c9ab-565d-449d-87e1-e5765868acfb">IX509CertificateRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
  
 
  

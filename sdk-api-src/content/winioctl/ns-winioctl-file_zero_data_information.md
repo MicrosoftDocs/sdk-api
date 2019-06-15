@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://msdn.microsoft.com/ee32f836-682e-4c26-b7d6-82e3b7b234f9">FSCTL_SET_ZERO_DATA</a> control code
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a> control code
 
 
 ## -struct-fields
@@ -72,11 +72,11 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 
-<a href="https://msdn.microsoft.com/ee32f836-682e-4c26-b7d6-82e3b7b234f9">FSCTL_SET_ZERO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/7326041d-f11e-4b80-ac4e-07173e418ce7">Sparse Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">Sparse Files</a>
  
 
  

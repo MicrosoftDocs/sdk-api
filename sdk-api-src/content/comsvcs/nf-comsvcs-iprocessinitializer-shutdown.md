@@ -82,7 +82,7 @@ The Shutdown method is not called during a failfast or other catastrophic shutdo
 
 
 
-<a href="https://msdn.microsoft.com/7c7edeb7-5bc1-4ede-8fe4-78fc7c6bdd30">IProcessInitializer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iprocessinitializer">IProcessInitializer</a>
  
 
  

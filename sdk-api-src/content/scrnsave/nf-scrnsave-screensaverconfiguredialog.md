@@ -91,7 +91,7 @@ Additional message-specific information.
 
 Type: <b>BOOL</b>
 
-If the function successfully processes the message, it should return <b>TRUE</b>. If not, it should return <b>FALSE</b>, except in response to a <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message. In response to a <b>WM_INITDIALOG</b> message, <b>ScreenSaverConfigureDialog</b> should return <b>FALSE</b> if it calls the <a href="https://msdn.microsoft.com/en-us/library/ms646312(v=VS.85).aspx">SetFocus</a> function to set the keyboard focus to one of the controls in the dialog box. Otherwise, the function should return <b>TRUE</b>, in which case the system sets the keyboard focus to the first control in the dialog box that can be given the focus.
+If the function successfully processes the message, it should return <b>TRUE</b>. If not, it should return <b>FALSE</b>, except in response to a <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. In response to a <b>WM_INITDIALOG</b> message, <b>ScreenSaverConfigureDialog</b> should return <b>FALSE</b> if it calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setfocus">SetFocus</a> function to set the keyboard focus to one of the controls in the dialog box. Otherwise, the function should return <b>TRUE</b>, in which case the system sets the keyboard focus to the first control in the dialog box that can be given the focus.
 
 
 
@@ -102,7 +102,7 @@ If the function successfully processes the message, it should return <b>TRUE</b>
 
 The dialog box template for the configuration dialog box must have the <b>DLG_SCRNSAVECONFIGURE</b> identifier.
 
-The dialog box procedure is used only if the application specifies the default window class (<b>WC_DIALOG</b>) for the dialog box. The application uses the default class if no explicit class is given in the dialog box template. Although the dialog box procedure is similar to a window procedure, it must not call the <a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function to process unwanted messages. Unwanted messages are processed internally by the default dialog box procedure.
+The dialog box procedure is used only if the application specifies the default window class (<b>WC_DIALOG</b>) for the dialog box. The application uses the default class if no explicit class is given in the dialog box template. Although the dialog box procedure is similar to a window procedure, it must not call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to process unwanted messages. Unwanted messages are processed internally by the default dialog box procedure.
 
 The <b>ScreenSaverConfigureDialog</b> function must be exported by including it in the EXPORTS statement in the application's module-definition (.def) file.
 
@@ -114,7 +114,7 @@ The <b>ScreenSaverConfigureDialog</b> function must be exported by including it 
 
 
 
-<a href="https://msdn.microsoft.com/abd3ba28-a5a7-4ace-99b1-c42f5d81930e">RegisterDialogClasses</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-registerdialogclasses">RegisterDialogClasses</a>
  
 
  

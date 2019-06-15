@@ -119,15 +119,15 @@ If a third-party DLL needs to keep track of a given packet and its progress thro
 
 
 
-<a href="https://msdn.microsoft.com/fa57e5c5-2335-44ba-8642-61dcb8b33ffe">DHCP_CALLOUT_TABLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/ns-dhcpssdk-_dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a80c2cd3-291d-4646-9dba-20a42e78dee5">DhcpServerCalloutEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_entry_point_func">DhcpServerCalloutEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/35ec953e-0345-4c18-8790-33da189c6a43">How the
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/how-the-dhcp-server-api-operates">How the
 		  DHCP Server API Operates</a>
  
 

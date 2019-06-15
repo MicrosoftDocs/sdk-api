@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
+The <b>IAnchor</b> interface is implemented by the TSF manager. Clients of <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a> use <b>IAnchor</b> anchor objects to delimit a range of text within a text stream.
 
 The interface ID is IID_IAnchor.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnchor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAnchor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnchor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAnchor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAnchor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3780ab3d-6b77-45bc-9630-747fa5caaecc">ClearChangeHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">ClearChangeHistory</a>
 </td>
 <td align="left" width="63%">
 Clears the change history flags.
@@ -80,7 +80,7 @@ Clears the change history flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2c5e767a-5f66-4ecf-89f1-b27ed38e887b">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.
@@ -89,7 +89,7 @@ Produces a new anchor object positioned at the same location, and with the same 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/227ed0c0-0bdd-49af-b5dc-fdb69913b9c1">Compare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-compare">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares the relative position of two anchors within a text stream.
@@ -98,7 +98,7 @@ Compares the relative position of two anchors within a text stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d373a379-1d27-4438-abaf-2e11f2332790">GetChangeHistory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">GetChangeHistory</a>
 </td>
 <td align="left" width="63%">
 Gets the change history of deletions that have occurred immediately preceding or following the anchor.
@@ -107,7 +107,7 @@ Gets the change history of deletions that have occurred immediately preceding or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c56a4c25-ac43-4fd3-8d6b-943eb0233ed4">GetGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getgravity">GetGravity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the gravity of the anchor.
@@ -116,7 +116,7 @@ Retrieves the gravity of the anchor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2dedce7-f64d-406a-bebc-9a4b51a1ae38">IsEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Specifies the equality or inequality of the positions of two anchors.
@@ -125,7 +125,7 @@ Specifies the equality or inequality of the positions of two anchors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6be9a29-5d39-4719-a7e3-0c0921ecd89a">SetChangeHistoryMask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-setchangehistorymask">SetChangeHistoryMask</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -134,7 +134,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c532abcf-9ae0-4566-80f7-0bb4ae908fce">SetGravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-setgravity">SetGravity</a>
 </td>
 <td align="left" width="63%">
 Sets the gravity of the anchor.
@@ -143,7 +143,7 @@ Sets the gravity of the anchor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e57a78e6-42e6-4a2b-b4e1-20bb64add872">Shift</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">Shift</a>
 </td>
 <td align="left" width="63%">
 Shifts the anchor forward or backward.
@@ -152,7 +152,7 @@ Shifts the anchor forward or backward.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f24f0155-fab6-46fb-9bff-598cd25e17ea">ShiftRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shiftregion">ShiftRegion</a>
 </td>
 <td align="left" width="63%">
 Shifts the anchor into an adjacent region in the text stream.
@@ -161,7 +161,7 @@ Shifts the anchor into an adjacent region in the text stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0fb9a08-3f46-4d2f-8887-e80dc0bade1b">ShiftTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shiftto">ShiftTo</a>
 </td>
 <td align="left" width="63%">
 Shifts the current anchor to the same position as another anchor.
@@ -176,11 +176,11 @@ Shifts the current anchor to the same position as another anchor.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
  
 
  

@@ -59,9 +59,9 @@ Gets the relative description type for a property description.
 
 ### -param prdt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762526(v=VS.85).aspx">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to the relative description type value. See <a href="https://msdn.microsoft.com/en-us/library/Bb762526(v=VS.85).aspx">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
+When this method returns, contains a pointer to the relative description type value. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_relativedescription_type">PROPDESC_RELATIVEDESCRIPTION_TYPE</a> for valid values.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Always returns <b>S_OK</b>.
 
 
 
-The information retrieved by this method comes from the <i>relativeDescriptionType</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773865(v=VS.85).aspx">displayInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>relativeDescriptionType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propdesc file.
 
 
 
@@ -89,11 +89,11 @@ The information retrieved by this method comes from the <i>relativeDescriptionTy
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">Property Description Schema</a>
+<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
  
 
  

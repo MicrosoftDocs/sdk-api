@@ -55,7 +55,7 @@ A 4D vector with four unsigned 4-bit integer components.
 
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMUNIBBLE4</code> when you are programming in C++, see <a href="https://msdn.microsoft.com/en-us/library/Ee415490(v=VS.85).aspx">XMUNIBBLE4 Extensions</a>.
+	using <code>XMUNIBBLE4</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmunibble4-extensions">XMUNIBBLE4 Extensions</a>.
 
 
 ## -struct-fields
@@ -138,11 +138,11 @@ Unsigned 4-bit integer value in the range [0,15] describing the
 
 
 
-<code>XMUNIBBLE4</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> by using
+<code>XMUNIBBLE4</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using
 	    <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadunibble4">XMLoadUNibble4</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUNIBBLE4</code> with <a href="https://msdn.microsoft.com/en-us/library/Ee420386(v=VS.85).aspx">XMStoreUNibble4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMUNIBBLE4</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreunibble4">XMStoreUNibble4</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -158,11 +158,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/58acb05d-e79b-8f42-4cf4-76ae57929739">DirectXMath Library Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415490(v=VS.85).aspx">XMUNIBBLE4 Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmunibble4-extensions">XMUNIBBLE4 Extensions</a>
  
 
  

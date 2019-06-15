@@ -59,7 +59,7 @@ Sets the configuration of the drag-drop interaction for the viewport this behavi
 
 ### -param configuration [in]
 
-Combination  of values from <a href="https://msdn.microsoft.com/F41BD870-002B-4627-85EA-8064B156611D">DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION</a>.
+Combination  of values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_drag_drop_configuration">DIRECTMANIPULATION_DRAG_DROP_CONFIGURATION</a>.
 
 For the configuration to be valid, <i>configuration</i> must contain exactly one of the following three values:
 <ul>
@@ -95,7 +95,7 @@ The configuration of the behavior can be set before or after it has been added t
 
 
 
-<a href="https://msdn.microsoft.com/16c5902d-dddd-4c40-b1f9-cb432940aa3d">IDirectManipulationViewport::ActivateConfiguration</a> should not be called prior to calling <b>IDirectManipulationDragDropBehavior::SetConfiguration</b>. This will result in  unexpected behavior.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">IDirectManipulationViewport::ActivateConfiguration</a> should not be called prior to calling <b>IDirectManipulationDragDropBehavior::SetConfiguration</b>. This will result in  unexpected behavior.
 
 
 
@@ -105,11 +105,11 @@ The configuration of the behavior can be set before or after it has been added t
 
 
 
-<a href="https://msdn.microsoft.com/99D99BB6-1DA1-4B49-88F8-16A9561A9098">IDirectManipulationDragDropBehavior</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior">IDirectManipulationDragDropBehavior</a>
 
 
 
-<a href="https://msdn.microsoft.com/16c5902d-dddd-4c40-b1f9-cb432940aa3d">IDirectManipulationViewport::ActivateConfiguration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-activateconfiguration">IDirectManipulationViewport::ActivateConfiguration</a>
  
 
  

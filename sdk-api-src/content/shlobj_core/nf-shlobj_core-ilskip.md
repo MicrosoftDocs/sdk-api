@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Skips a given number of bytes in a constant, unaligned, relative <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Skips a given number of bytes in a constant, unaligned, relative <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The number of bytes to skip.
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-When this function returns, if <i>pidl</i> and <i>cb</i> are valid, contains a constant pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure that results after the skip. Otherwise, the value is meaningless.
+When this function returns, if <i>pidl</i> and <i>cb</i> are valid, contains a constant pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure that results after the skip. Otherwise, the value is meaningless.
 
 
 

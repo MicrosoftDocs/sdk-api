@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CFSTR_SHELLIDLIST</a> clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.
+Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_SHELLIDLIST</a> clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.
 
 
 ## -struct-fields
@@ -86,7 +86,7 @@ To use this structure to retrieve a particular PIDL, add the <b>aoffset</b> valu
 ```
 
 
-The value that is returned by these macros is a pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure. Since these structures vary in length, you must determine the end of the structure by parsing it. See <a href="https://msdn.microsoft.com/c0d61bc6-6851-4b47-a62d-4c24d2958b98">NameSpace</a> for further discussion of PIDLs and the <b>ITEMIDLIST</b> structure.
+The value that is returned by these macros is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure. Since these structures vary in length, you must determine the end of the structure by parsing it. See <a href="https://docs.microsoft.com/windows/desktop/shell/shell-namespace">NameSpace</a> for further discussion of PIDLs and the <b>ITEMIDLIST</b> structure.
 
 
 

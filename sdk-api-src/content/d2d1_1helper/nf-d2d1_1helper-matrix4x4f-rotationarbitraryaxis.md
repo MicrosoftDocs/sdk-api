@@ -89,7 +89,7 @@ The amount of rotation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a></b>
 
 The result matrix
 
@@ -101,7 +101,7 @@ The result matrix
 
 
 
-<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>
  
 
  

@@ -87,7 +87,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return message aliases. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/bc409abd-8c76-4310-b9e3-05fc4e0d253e">MSG_INFO_0</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-_msg_info_0">MSG_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Return message aliases. The <i>bufptr</i> parameter points to an array of
 </td>
 <td width="60%">
 Return message aliases. The <i>bufptr</i> parameter points to an array of 
-<a href="https://msdn.microsoft.com/6abb2622-6fa4-460a-b300-feaf548ba648">MSG_INFO_1</a> structures. This level exists only for compatibility. Message forwarding is not supported.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-_msg_info_1">MSG_INFO_1</a> structures. This level exists only for compatibility. Message forwarding is not supported.
 
 </td>
 </tr>
@@ -109,14 +109,14 @@ Return message aliases. The <i>bufptr</i> parameter points to an array of
 ### -param bufptr [out]
 
 Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
 
 
 ### -param prefmaxlen [in]
 
 Specifies the preferred maximum length of the returned data, in bytes. If you specify MAX_PREFERRED_LENGTH, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns ERROR_MORE_DATA. For more information, see 
-<a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
-<a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 
 ### -param entriesread [out]
@@ -239,7 +239,7 @@ Only members of the Administrators local group can successfully execute the
 <b>NetMessageNameEnum</b> function on a remote server.
 
 To retrieve information about a particular message alias in the message name table, you can call the 
-<a href="https://msdn.microsoft.com/72129865-2aee-41d5-8a89-53bb815a7f63">NetMessageNameGetInfo</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamegetinfo">NetMessageNameGetInfo</a> function.
 
 
 
@@ -249,29 +249,29 @@ To retrieve information about a particular message alias in the message name tab
 
 
 
-<a href="https://msdn.microsoft.com/bc409abd-8c76-4310-b9e3-05fc4e0d253e">MSG_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-_msg_info_0">MSG_INFO_0</a>
 
 
 
-<a href="https://msdn.microsoft.com/6abb2622-6fa4-460a-b300-feaf548ba648">MSG_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/ns-lmmsg-_msg_info_1">MSG_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9face737-3472-4a53-97b6-e861a60ee96a">Message
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/message-functions">Message
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/72129865-2aee-41d5-8a89-53bb815a7f63">NetMessageNameGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamegetinfo">NetMessageNameGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd159e2e-f37e-46b2-b980-008b73d40b39">Network
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
  
 

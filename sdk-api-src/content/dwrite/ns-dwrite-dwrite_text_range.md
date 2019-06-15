@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a range of text positions where format is applied in the text represented by an <a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a> object.
+Specifies a range of text positions where format is applied in the text represented by an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> object.
 
 
 ## -struct-fields

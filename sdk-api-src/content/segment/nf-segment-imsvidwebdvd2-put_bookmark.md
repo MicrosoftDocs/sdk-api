@@ -66,7 +66,7 @@ Saves or loads the playback position and state information for a DVD.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694767(v=VS.85).aspx">IMSVidWebDVD2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidwebdvd2">IMSVidWebDVD2</a>
  
 
  

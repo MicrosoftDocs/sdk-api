@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Cancels a connection that was previously established by using <a href="https://msdn.microsoft.com/602F46EF-014C-4219-9C1F-C1B4371EA456">Advise</a>.
+Cancels a connection that was previously established by using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Cancels a connection that was previously established by using <a href="https://m
 
 ### -param dwCookie [in]
 
-A token that uniquely identifies the connection to cancel, which is provided by a previous call to to the <a href="https://msdn.microsoft.com/602F46EF-014C-4219-9C1F-C1B4371EA456">Advise</a> method.
+A token that uniquely identifies the connection to cancel, which is provided by a previous call to to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-advise">Advise</a> method.
 
 
 ## -returns
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/89E26D36-3536-45F5-9396-83CCFB26890B">IAppVisibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
 
 
 
-<a href="https://msdn.microsoft.com/F6BABF7D-FA05-4A68-878F-A27A6990EC3F">IAppVisibilityEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
  
 
  

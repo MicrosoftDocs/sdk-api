@@ -115,11 +115,11 @@ Regardless of the value of this property, the filter does not block unrated cont
 
 
 
-<a href="https://msdn.microsoft.com/15acf764-7e4d-40c3-b907-ff5dfaa69dae">IDTFilter Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b8ecc6b-02e8-47e9-a8df-6e73d58dd177">IDTFilter::get_BlockUnRated</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockunrated">IDTFilter::get_BlockUnRated</a>
  
 
  

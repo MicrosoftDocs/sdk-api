@@ -100,7 +100,7 @@ Constriction is a protection mechanism that limits the effective resolution of t
 
 Video constriction can be implemented by either the mixer or the presenter.
 
-If the method returns <b>TRUE</b>, the EVR might call <a href="https://msdn.microsoft.com/f2e9b199-969f-453c-8714-fa85c89a191a">IEVRTrustedVideoPlugin::SetConstriction</a> at any time.
+If the method returns <b>TRUE</b>, the EVR might call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrtrustedvideoplugin-setconstriction">IEVRTrustedVideoPlugin::SetConstriction</a> at any time.
 
 
 
@@ -110,15 +110,15 @@ If the method returns <b>TRUE</b>, the EVR might call <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe">IEVRTrustedVideoPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
 
 
 
-<a href="https://msdn.microsoft.com/e88806ae-0041-4b4a-a8df-69718a651e82">Protected Media Path</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
  
 
  

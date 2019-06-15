@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets  device properties that aren't included in the <a href="https://msdn.microsoft.com/1b909caf-2d69-42b9-8d60-5d89a0286f59">POINTER_DEVICE_INFO</a> structure. 
+Gets  device properties that aren't included in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structure. 
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Gets  device properties that aren't included in the <a href="https://msdn.micros
 
 The pointer device to query properties from. 
 
-A call to the <a href="https://msdn.microsoft.com/91FD5EBA-EDD7-4D7D-ABF3-3CE2461417B0">GetPointerDevices</a> function returns this handle in the <a href="https://msdn.microsoft.com/1b909caf-2d69-42b9-8d60-5d89a0286f59">POINTER_DEVICE_INFO</a> structure.
+A call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerdevices">GetPointerDevices</a> function returns this handle in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagpointer_device_info">POINTER_DEVICE_INFO</a> structure.
 
 
 ### -param propertyCount [in, out]
@@ -87,7 +87,7 @@ The array of properties.
 
 
 
-TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function for more information.
+TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information.
 
 
 
@@ -97,7 +97,7 @@ TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the
 
 
 
-<a href="https://msdn.microsoft.com/44942954-3EA6-4C33-8CF1-E8BF72A914CB">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
  
 
  

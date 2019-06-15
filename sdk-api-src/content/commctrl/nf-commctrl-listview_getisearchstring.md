@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the incremental search string of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774951(v=VS.85).aspx">LVM_GETISEARCHSTRING</a> message explicitly. 
+Gets the incremental search string of a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getisearchstring">LVM_GETISEARCHSTRING</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Gets the incremental search string of a list-view control. You can use this macr
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
 
 ### -param lpsz
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
 A pointer to a buffer that receives the incremental search string. To just retrieve the length of the string, set <i>lpsz</i> to <b>NULL</b>. 
 

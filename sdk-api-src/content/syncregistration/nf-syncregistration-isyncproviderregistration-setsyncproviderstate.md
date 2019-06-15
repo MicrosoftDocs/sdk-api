@@ -136,7 +136,7 @@ A synchronization provider with the specified instance ID was not registered.
 
 
 
-To get the synchronization provider state, call the <a href="https://msdn.microsoft.com/4e2e2e17-e435-4def-9aee-9109e0e06a8c">GetSyncProviderState</a> method.
+To get the synchronization provider state, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-getsyncproviderstate">GetSyncProviderState</a> method.
 
 
 
@@ -146,7 +146,7 @@ To get the synchronization provider state, call the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/e7cf0c05-9d07-4630-ae34-9a9dd81492b2">ISyncProviderRegistration Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
  
 
  

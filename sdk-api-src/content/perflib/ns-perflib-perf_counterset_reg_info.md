@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains information about the <b>PERF_COUNTERSET_REG_INFO</b> block that contains the structure. A <b>PERF_COUNTERSET_REG_INFO</b> block provides registration information for a counter set and the performance counters it contains, and consists of a <b>PERF_COUNTERSET_REG_INFO</b>structure immediately followed by a set
-<a href="https://msdn.microsoft.com/34CA6EA3-DF74-4DB5-8DD0-2B0BB0162F9D">PERF_COUNTER_REG_INFO</a> structures that correspond to the performance counters in the counter set.
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures that correspond to the performance counters in the counter set.
 
 
 
@@ -110,7 +110,7 @@ The counter is complicated and should be displayed only to advanced users.
 
 ### -field NumCounters
 
-The number of <a href="https://msdn.microsoft.com/34CA6EA3-DF74-4DB5-8DD0-2B0BB0162F9D">PERF_COUNTER_REG_INFO</a> structures in this  <b>PERF_COUNTERSET_REG_INFO</b> block.
+The number of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-_perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures in this  <b>PERF_COUNTERSET_REG_INFO</b> block.
 
 
 ### -field InstanceType
@@ -195,7 +195,7 @@ Not implemented.
 
 
 
-The <a href="https://msdn.microsoft.com/E8E83E47-2445-42AE-855F-6710FC8F789E">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to
+The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to
 <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <b>PERF_COUNTERSET_REG_INFO</b> block.
 
 

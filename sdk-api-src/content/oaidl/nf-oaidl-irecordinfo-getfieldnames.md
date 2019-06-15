@@ -131,7 +131,7 @@ One or more of the arguments is not valid.
 
 The caller should allocate memory for the array of BSTRs. If the array is larger than needed, set the unused portion to 0.
 
-On return, the caller will need to free each contained BSTR using <a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
+On return, the caller will need to free each contained BSTR using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 In case of out of memory, <i>pcNames</i> points to error code.
 
@@ -143,11 +143,11 @@ In case of out of memory, <i>pcNames</i> points to error code.
 
 
 
-<a href="https://msdn.microsoft.com/065ebfa8-bfac-4c75-a3f9-9dc0409ea454">IRecordInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
  
 
  

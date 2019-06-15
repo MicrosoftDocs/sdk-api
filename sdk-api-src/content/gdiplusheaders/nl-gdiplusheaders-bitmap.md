@@ -49,5 +49,5 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> class. The <b>Image</b> class provides methods for loading and saving vector images (metafiles) and raster images (bitmaps). The Bitmap class expands on the capabilities of the <b>Image</b> class by providing additional methods for creating and manipulating raster images.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> class. The <b>Image</b> class provides methods for loading and saving vector images (metafiles) and raster images (bitmaps). The Bitmap class expands on the capabilities of the <b>Image</b> class by providing additional methods for creating and manipulating raster images.
 

@@ -102,7 +102,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -118,7 +118,7 @@ The structure of the data in <i>pbDataIn</i> and <i>ppbDataOut</i> is determined
 
 #### Examples
 
-The following C++ code demonstrates a service provider's implementation of <b>SACAuth</b>. It calls <a href="https://msdn.microsoft.com/e32aac59-4b7f-4c0e-a200-0dec50d89cb0">CSecureChannelServer::SACAuth</a> on a previously created private <a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer</a> member.
+The following C++ code demonstrates a service provider's implementation of <b>SACAuth</b>. It calls <a href="/previous-versions/ms868516(v=msdn.10)">CSecureChannelServer::SACAuth</a> on a previously created private <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
 
 
 ```cpp
@@ -157,15 +157,15 @@ HRESULT CMyServiceProvider::SACAuth(
 
 
 
-<a href="https://msdn.microsoft.com/e48a8a7c-0277-4f0c-bad2-5bc9d0286da8">Authenticating the Service Provider</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
 
 
 
-<a href="https://msdn.microsoft.com/e32aac59-4b7f-4c0e-a200-0dec50d89cb0">CSecureChannelServer::SACAuth</a>
+<a href="/previous-versions/ms868516(v=msdn.10)">CSecureChannelServer::SACAuth</a>
 
 
 
-<a href="https://msdn.microsoft.com/5da66dc2-825d-4332-b1cb-2b9d0fabb445">IComponentAuthenticate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
  
 
  

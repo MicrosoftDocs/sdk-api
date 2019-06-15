@@ -82,7 +82,7 @@ GDI handle to the physical device associated with the object.
 
 ### -field dhpdev
 
-Pointer to the driver's private instance data; that is, this member identifies the driver's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a>.
+Pointer to the driver's private instance data; that is, this member identifies the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>.
 
 
 ## -remarks
@@ -103,19 +103,19 @@ This structure provides a locking mechanism for exclusive access to the associat
 
 
 
-<a href="https://msdn.microsoft.com/2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2">EngCreateDriverObj</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatedriverobj">EngCreateDriverObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c4f7f6a-331e-4c5d-9663-6a84245a203f">EngDeleteDriverObj</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletedriverobj">EngDeleteDriverObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ed3142d-2b20-4453-9057-80e6f8f92ff2">EngLockDriverObj</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englockdriverobj">EngLockDriverObj</a>
 
 
 
-<a href="https://msdn.microsoft.com/027bf180-b226-4d88-803d-2839417f727f">EngUnlockDriverObj</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunlockdriverobj">EngUnlockDriverObj</a>
  
 
  

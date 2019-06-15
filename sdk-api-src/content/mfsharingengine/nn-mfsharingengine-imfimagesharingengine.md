@@ -54,7 +54,7 @@ Enables image sharing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFImageSharingEngine</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFImageSharingEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFImageSharingEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFImageSharingEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFImageSharingEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27CAE784-2107-4380-97E4-AE0A7D69C64F">GetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets information about the image sharing device.
@@ -78,7 +78,7 @@ Gets information about the image sharing device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59DFAF26-B1D2-4658-B6E8-A0D14F48C734">SetSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-setsource">SetSource</a>
 </td>
 <td align="left" width="63%">
 Sets the source stream.
@@ -87,7 +87,7 @@ Sets the source stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F394A740-8F86-4113-B6B8-57CC4127E9D0">Shutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfimagesharingengine-shutdown">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the image sharing engine.
@@ -102,7 +102,7 @@ Shuts down the image sharing engine.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

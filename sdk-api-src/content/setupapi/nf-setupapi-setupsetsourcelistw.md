@@ -87,11 +87,11 @@ The list is the per-user MRU list stored in the registry.
 #### SRCLIST_TEMPORARY
 
 The specified list is temporary and will be the only list accessible to the current process until 
-<a href="https://msdn.microsoft.com/87ef9425-5dab-442b-a487-3a4789005411">SetupCancelTemporarySourceList</a> is called or <b>SetSourceList</b> is called again.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcanceltemporarysourcelist">SetupCancelTemporarySourceList</a> is called or <b>SetSourceList</b> is called again.
 
 <div class="alert"><b>Important</b>  If a temporary list is set, sources are not added to or deleted from the system or user lists, even if subsequent calls to 
-<a href="https://msdn.microsoft.com/c1da3f9b-12ea-49f3-a5ca-45a63a56becd">SetupAddToSourceList</a> or 
-<a href="https://msdn.microsoft.com/9e87f481-7d6a-4d8e-8f71-d104de3533f8">SetupRemoveFromSourceList</a> explicitly specify those lists.</div>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddtosourcelista">SetupAddToSourceList</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupremovefromsourcelista">SetupRemoveFromSourceList</a> explicitly specify those lists.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  One of the SRCLIST_SYSTEM, SRCLIST_USER, or SRCLIST_TEMPORARY flags must be specified.</div>
 <div> </div>
@@ -102,7 +102,7 @@ The specified list is temporary and will be the only list accessible to the curr
 #### SRCLIST_NOBROWSE
 
 The user is not allowed to add or change sources when 
-<a href="https://msdn.microsoft.com/65ccd3d1-1846-48cb-9fe6-ab5c69845e01">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuppromptfordiska">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
 
 
 ### -param SourceList [in]
@@ -118,7 +118,7 @@ Number of elements in the array pointed to by <i>SourceList</i>.
 ##### - Flags.SRCLIST_NOBROWSE
 
 The user is not allowed to add or change sources when 
-<a href="https://msdn.microsoft.com/65ccd3d1-1846-48cb-9fe6-ab5c69845e01">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuppromptfordiska">SetupPromptForDisk</a> is used. This flag is typically used in combination with the SRCLIST_TEMPORARY flag.
 
 
 ##### - Flags.SRCLIST_SYSTEM
@@ -129,7 +129,7 @@ The list is the per-system Most Recently Used (MRU) list stored in the registry.
 ##### - Flags.SRCLIST_TEMPORARY
 
 The specified list is temporary and will be the only list accessible to the current process until 
-<a href="https://msdn.microsoft.com/87ef9425-5dab-442b-a487-3a4789005411">SetupCancelTemporarySourceList</a> is called or <b>SetSourceList</b> is called again.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcanceltemporarysourcelist">SetupCancelTemporarySourceList</a> is called or <b>SetSourceList</b> is called again.
 
 
 ##### - Flags.SRCLIST_USER
@@ -144,7 +144,7 @@ The list is the per-user MRU list stored in the registry.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -154,23 +154,23 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1da3f9b-12ea-49f3-a5ca-45a63a56becd">SetupAddToSourceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddtosourcelista">SetupAddToSourceList</a>
 
 
 
-<a href="https://msdn.microsoft.com/87ef9425-5dab-442b-a487-3a4789005411">SetupCancelTemporarySourceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcanceltemporarysourcelist">SetupCancelTemporarySourceList</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e87f481-7d6a-4d8e-8f71-d104de3533f8">SetupRemoveFromSourceList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupremovefromsourcelista">SetupRemoveFromSourceList</a>
  
 
  

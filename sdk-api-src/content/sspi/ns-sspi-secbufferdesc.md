@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecBufferDesc</b> structure describes an array of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structures to pass from a transport application to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
+The <b>SecBufferDesc</b> structure describes an array of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures to pass from a transport application to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 		
 
 
@@ -65,12 +65,12 @@ Specifies the version number of this structure. This member must be SECBUFFER_VE
 
 ### -field cBuffers
 
-Indicates the number of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structures in the <b>pBuffers</b> array.
+Indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures in the <b>pBuffers</b> array.
 
 
 ### -field pBuffers
 
-Pointer to an array of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a> structures.
 
 
 ### -field pBuffers.size_is
@@ -90,7 +90,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a9
 
 
 
-<a href="https://msdn.microsoft.com/75f49d9c-7d3c-4f45-a94e-44cd05773a07">SecBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secbuffer">SecBuffer</a>
  
 
  

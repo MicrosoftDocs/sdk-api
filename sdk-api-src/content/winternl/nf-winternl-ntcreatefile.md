@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Creates a new file or directory, or opens an existing file, device, directory, or 
-    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="https://msdn.microsoft.com/11f09479-e04b-4e5e-bc46-a2d0daf13785">Calling Internal APIs</a>.</div>
+    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="https://docs.microsoft.com/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
 <div> </div>
 
 
@@ -306,7 +306,7 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 ### -param ObjectAttributes [in]
 
 A pointer to a structure already initialized with 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=85316">InitializeObjectAttributes</a>. 
+      <b>InitializeObjectAttributes</b>. 
       Members of this structure for a file object include the following.
 
 <table>
@@ -350,7 +350,7 @@ Points to a buffered Unicode string that names the file to be created or opened.
         fully qualified file specification or the name of a device object, unless it is the name of a file relative to 
         the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat 
         or \??\B:\myfile.dat could be the fully qualified file specification, provided that the floppy driver and 
-        overlying file system are already loaded. For more information, see <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">File Names, Paths, and Namespaces</a>.
+        overlying file system are already loaded. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 </td>
 </tr>
@@ -939,8 +939,8 @@ For more information on oplocks, see <a href="http://go.microsoft.com/fwlink/p/?
 Note that the WDK header file NtDef.h is necessary for many constant definitions 
     as well as the <b>InitializeObjectAttributes</b> macro. The associated import library, 
     NtDll.lib is available in the WDK. To obtain the WDK, see <a href="http://go.microsoft.com/fwlink/p/?linkid=156664">Download kits for Windows hardware development</a>. You can also use the 
-    <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and 
-    <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
     NtDll.dll.
 
 

@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-Invoked by Microsoft Media Foundation to create an object that implements the <a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a> interface, which is used to send a single HTTP, or HTTPS request. Since multiple requests may be needed to fully download a resource, Media Foundation may invoke <b>CreateRequest</b> multiple times on the same <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a> instance. Media Foundation will use each <b>IMFHttpDownloadRequest</b> instance for only a single request. 
+Invoked by Microsoft Media Foundation to create an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface, which is used to send a single HTTP, or HTTPS request. Since multiple requests may be needed to fully download a resource, Media Foundation may invoke <b>CreateRequest</b> multiple times on the same <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> instance. Media Foundation will use each <b>IMFHttpDownloadRequest</b> instance for only a single request. 
 
 
 ## -parameters
@@ -72,7 +72,7 @@ If set to TRUE, indicates that the request should be forwarded to the originatin
 
 ### -param fSecure [in]
 
-If set to TRUE, causes the secure variant of the protocol to be used, if applicable. For example, if the <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a> is for HTTP/HTTPS, setting <i>fSecure</i> to TRUE will cause the request to use HTTPS. Otherwise, the unsecure variant of the protocol (in this example, HTTP) is used.
+If set to TRUE, causes the secure variant of the protocol to be used, if applicable. For example, if the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> is for HTTP/HTTPS, setting <i>fSecure</i> to TRUE will cause the request to use HTTPS. Otherwise, the unsecure variant of the protocol (in this example, HTTP) is used.
 
 
 ### -param szVerb [in, optional]
@@ -89,7 +89,7 @@ Pointer to a string that specifies the URL of the document from which the URL in
 
 ### -param ppRequest
 
-Upon successful return of the method, this parameter is set to an <a href="https://msdn.microsoft.com/A8A37C2F-A662-4FDA-95F6-43D96A8471A8">IMFHttpDownloadRequest</a> interface. 
+Upon successful return of the method, this parameter is set to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface. 
 
 
 ## -returns
@@ -133,7 +133,7 @@ There is insufficient memory to complete the operation.
 </dl>
 </td>
 <td width="60%">
-The method was invoked after <a href="https://msdn.microsoft.com/587D281D-0488-470B-9E20-AE6DE70F33DC">Close</a> or before <a href="https://msdn.microsoft.com/408D4863-D95F-4BBD-9F0B-9796ED08A256">SetServer</a> was invoked.
+The method was invoked after <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-close">Close</a> or before <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-setserver">SetServer</a> was invoked.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ The method was invoked after <a href="https://msdn.microsoft.com/587D281D-0488-4
 
 
 
-<a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>
  
 
  

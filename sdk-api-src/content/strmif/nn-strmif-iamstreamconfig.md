@@ -55,7 +55,7 @@ The <b>IAMStreamConfig</b> interface sets the output format on certain capture a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMStreamConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMStreamConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMStreamConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMStreamConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5443141b-eb2c-412c-8bd1-7175e724b602">GetFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getformat">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current or preferred output format.
@@ -79,7 +79,7 @@ Retrieves the current or preferred output format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd">GetNumberOfCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">GetNumberOfCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of format capabilities that this pin supports.
@@ -88,7 +88,7 @@ Retrieves the number of format capabilities that this pin supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9dd84847-2cae-42f2-a858-7106cd2ac075">GetStreamCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">GetStreamCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves a set of format capabilities.
@@ -97,7 +97,7 @@ Retrieves a set of format capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d64e5b6-e8fa-4678-92d4-3cbf92e13ddf">SetFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the output format on the pin.
@@ -111,10 +111,10 @@ Sets the output format on the pin.
 
 
 
-Filters expose this interface on their output pins. To use the interface, enumerate the filter's pins and query for <b>IAMStreamConfig</b>. Or, if you are using the <a href="https://msdn.microsoft.com/df59afcf-6e11-463f-80ac-8b1fcc496d5b">Capture Graph Builder</a> object to build the filter graph, you can call the <a href="https://msdn.microsoft.com/931b42bf-25d6-4f0a-8c45-baf8ed65e302">ICaptureGraphBuilder2::FindInterface</a> method. Note that a capture filter might have separate pins for capture and preview.
+Filters expose this interface on their output pins. To use the interface, enumerate the filter's pins and query for <b>IAMStreamConfig</b>. Or, if you are using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/capture-graph-builder">Capture Graph Builder</a> object to build the filter graph, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-findinterface">ICaptureGraphBuilder2::FindInterface</a> method. Note that a capture filter might have separate pins for capture and preview.
 
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
-If you are writing a capture filter or compression filter, implement this interface on the video or audio output pin. For more information, see <a href="https://msdn.microsoft.com/f7466cfe-b13e-4ee9-82f9-0528ed97bf99">Exposing Capture and Compression Formats</a>.
+If you are writing a capture filter or compression filter, implement this interface on the video or audio output pin. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/exposing-capture-and-compression-formats">Exposing Capture and Compression Formats</a>.
 
 
 
@@ -124,7 +124,7 @@ If you are writing a capture filter or compression filter, implement this interf
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

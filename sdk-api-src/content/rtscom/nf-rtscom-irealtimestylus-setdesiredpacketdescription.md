@@ -96,7 +96,7 @@ Events receive the actual packet properties in the following order.
 
 </td>
 <td>
-Contains the x-coordinate data for the property regardless of whether X was specified in the <a href="https://msdn.microsoft.com/320cc215-e4e5-4196-8e1b-ca0a30d01d37">DesiredPacketDescription Property</a>.
+Contains the x-coordinate data for the property regardless of whether X was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Contains the x-coordinate data for the property regardless of whether X was spec
 
 </td>
 <td>
-Contains the y-coordinate data for the property regardless of whether Y was specified in the <a href="https://msdn.microsoft.com/320cc215-e4e5-4196-8e1b-ca0a30d01d37">DesiredPacketDescription Property</a>.
+Contains the y-coordinate data for the property regardless of whether Y was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
 
 </td>
 </tr>
@@ -116,20 +116,20 @@ End position
 
 </td>
 <td>
-Contains the packet status when packet status is in the <a href="https://msdn.microsoft.com/320cc215-e4e5-4196-8e1b-ca0a30d01d37">DesiredPacketDescription Property</a>.
+Contains the packet status when packet status is in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
 
 </td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  The result of <a href="https://msdn.microsoft.com/7eff81c6-8ed5-434b-8e78-fcdb952f37e8">IRealTimeStylus::GetPacketDescriptionData Method</a> may not match the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> properties as some of the properties may not be supported by the tablet.</div>
+<div class="alert"><b>Note</b>  The result of <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata">IRealTimeStylus::GetPacketDescriptionData Method</a> may not match the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> properties as some of the properties may not be supported by the tablet.</div>
 <div> </div>
-If the specified packet properties are not supported by the tablet devices, the property data is not returned and is not represented in the packet data array. If the same GUID appears multiple times in the <i>packetDescription</i> argument, only the first appearance is preserved and all following appearances are filtered out. The <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method can be called only while the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> object is disabled.
+If the specified packet properties are not supported by the tablet devices, the property data is not returned and is not represented in the packet data array. If the same GUID appears multiple times in the <i>packetDescription</i> argument, only the first appearance is preserved and all following appearances are filtered out. The <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method can be called only while the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is disabled.
 
 Attempting to pass in 0 for <i>cProperties</i> and <b>NULL</b> for <i>pPropertyGuids</i> returns E_INVALIDARG.
 
-Calls to the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method are immediately reflected in the return value of the <a href="https://msdn.microsoft.com/8799eb17-8ad0-49c1-a278-40b3bff9d281">IRealTimeStylus::GetDesiredPacketDescription Method</a> method.
+Calls to the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method are immediately reflected in the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a> method.
 
 
 #### Examples
@@ -177,15 +177,15 @@ if (SUCCEEDED(g_pRealTimeStylus->GetDesiredPacketDescription(&ulProperties, &pGu
 
 
 
-<a href="https://msdn.microsoft.com/bfd13012-decf-423a-bc1a-39fb9b0eb64e">IRealTimeStylus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://msdn.microsoft.com/8799eb17-8ad0-49c1-a278-40b3bff9d281">IRealTimeStylus::GetDesiredPacketDescription Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/7eff81c6-8ed5-434b-8e78-fcdb952f37e8">IRealTimeStylus::GetPacketDescriptionData Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata">IRealTimeStylus::GetPacketDescriptionData Method</a>
 
 
 

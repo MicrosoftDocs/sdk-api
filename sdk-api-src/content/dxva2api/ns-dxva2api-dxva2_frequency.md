@@ -84,7 +84,7 @@ The value 0/0 indicates an unknown frequency. Values of the form <i>n</i>/0, whe
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

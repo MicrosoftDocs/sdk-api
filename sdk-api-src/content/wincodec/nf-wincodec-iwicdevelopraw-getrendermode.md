@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the current <a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a743b96107">WICRawRenderMode</a>.
+Gets the current <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Gets the current <a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a
 
 ### -param pRenderMode [out]
 
-Type: <b><a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a743b96107">WICRawRenderMode</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>*</b>
 
-A pointer that receives the current <a href="https://msdn.microsoft.com/dc020c78-a018-42ee-a500-65a743b96107">WICRawRenderMode</a>.
+A pointer that receives the current <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicrawrendermode">WICRawRenderMode</a>.
 
 
 ## -returns

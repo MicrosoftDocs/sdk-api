@@ -72,14 +72,14 @@ Contains a <b>GUID</b> value that identifies the language bar item.
 
 ### -field dwStyle
 
-Contains a combination of one or more of the <a href="https://msdn.microsoft.com/9180a666-774f-401b-bea3-68d5396fab30">TF_LBI_STYLE_*</a> values.
+Contains a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-style--constants">TF_LBI_STYLE_*</a> values.
 
 
 ### -field ulSort
 
 Specifies the sort order of the language bar item, relative to other language bar items owned by the text service. A lower number indicates that the item will be displayed prior to an item with a higher sort number.
 
-This value is only used if <b>clsidService</b> identifies a registered text service. For more information about registering a text service, see <a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register</a>.
+This value is only used if <b>clsidService</b> identifies a registered text service. For more information about registering a text service, see <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register">ITfInputProcessorProfiles::Register</a>.
 
 
 ### -field szDescription
@@ -92,12 +92,12 @@ Contains the description string for the item in Unicode format. The description 
 
 
 
-<a href="https://msdn.microsoft.com/264bc32e-60a2-4dff-a212-5682d30a769e">ITfInputProcessorProfiles::Register
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-register">ITfInputProcessorProfiles::Register
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/9180a666-774f-401b-bea3-68d5396fab30">TF_LBI_STYLE_*
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-lbi-style--constants">TF_LBI_STYLE_*
       </a>
  
 

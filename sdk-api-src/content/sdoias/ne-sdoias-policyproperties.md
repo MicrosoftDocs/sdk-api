@@ -133,7 +133,7 @@ To create a new policy, you must specify a unique name for the policy, a profile
 
 
 
-<a href="https://msdn.microsoft.com/09cb8457-9baf-4139-ba80-6eb608db6a65">CONDITIONPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_conditionproperties">CONDITIONPROPERTIES</a>
  
 
  

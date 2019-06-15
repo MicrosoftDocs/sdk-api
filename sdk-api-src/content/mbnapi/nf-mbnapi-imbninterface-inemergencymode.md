@@ -91,7 +91,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The information is not available.  The Mobile Broadband  service is currently probing for this information.  The calling application can be notified when the data is available by registering for the <a href="https://msdn.microsoft.com/637e0f6b-102f-436c-b0ec-edef16245675">OnEmergencyModeChange</a> method of <a href="https://msdn.microsoft.com/3c641f14-9f53-4d69-9faa-2491189083df">IMbnInterfaceEvents</a>.
+The information is not available.  The Mobile Broadband  service is currently probing for this information.  The calling application can be notified when the data is available by registering for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onemergencymodechange">OnEmergencyModeChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ If a device cannot register on the network for any reason, then the device may a
 
 
 
-<a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
  
 
  

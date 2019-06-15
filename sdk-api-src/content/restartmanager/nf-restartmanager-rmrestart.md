@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Restarts applications and services that have been shut down by the <a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a> function and that have been registered to be restarted using the <a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a> function. This function can only be called by the primary installer that called the <a href="https://msdn.microsoft.com/bc79c6e5-49e6-44d3-90f6-b0109fb9611b">RmStartSession</a> function to start the Restart Manager session.
+Restarts applications and services that have been shut down by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a> function and that have been registered to be restarted using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function. This function can only be called by the primary installer that called the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmstartsession">RmStartSession</a> function to start the Restart Manager session.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A pointer to a status message callback function that is used to communicate stat
 
 
 
-This is the most recent error received. The function can return one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ This is the most recent error received. The function can return one of the <a hr
 </dl>
 </td>
 <td width="60%">
-This error value is returned if the <a href="https://msdn.microsoft.com/e0939b31-0233-40d2-96cf-bbabe9488a12">RmRestart</a> function is called with a valid session handle before calling the <a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a> function.
+This error value is returned if the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a> function is called with a valid session handle before calling the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a> function.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ This error value is returned if the <a href="https://msdn.microsoft.com/e0939b31
 </dl>
 </td>
 <td width="60%">
-One or more applications could not be restarted. The <a href="https://msdn.microsoft.com/27e593f9-8ff0-4de4-87ca-7fa5f324468a">RM_PROCESS_INFO</a> structures that are returned by the <a href="https://msdn.microsoft.com/de4feea4-2b45-4430-a4b3-8ca26c455e42">RmGetList</a> function contain updated status information.
+One or more applications could not be restarted. The <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structures that are returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> function contain updated status information.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ A Restart Manager function could not obtain a registry write mutex in the allott
 </dl>
 </td>
 <td width="60%">
-This error value is returned by the <a href="https://msdn.microsoft.com/e0939b31-0233-40d2-96cf-bbabe9488a12">RmRestart</a> function when the request to cancel an operation is successful.
+This error value is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmrestart">RmRestart</a> function when the request to cancel an operation is successful.
 
 </td>
 </tr>
@@ -201,13 +201,13 @@ The function succeeds and returns.
 
 
 
-After calling the <b>RmRestart</b> function, the <a href="https://msdn.microsoft.com/27e593f9-8ff0-4de4-87ca-7fa5f324468a">RM_PROCESS_INFO</a> structures that are returned by the <a href="https://msdn.microsoft.com/de4feea4-2b45-4430-a4b3-8ca26c455e42">RmGetList</a> function contain updated status information.  
+After calling the <b>RmRestart</b> function, the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-_rm_process_info">RM_PROCESS_INFO</a> structures that are returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> function contain updated status information.  
 
 The Restart Manager respects the privileges that separate different user or terminal sessions. An installer that is running as a service with LocalSystem privileges cannot shut down or restart any applications in another user or terminal session.  Installers should implement custom methods to shut down and restart applications that are running in other sessions. One method would be to start a new   installer process  in the other session to perform shutdown and restart operations.
 
 When a console application is shut down and restarted by Restart Manager, the application is restarted in a new console.
 
-Installers should always restart application and services using the <b>RmRestart</b> function even when the <a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a> function returns an error indicating that not all applications and services could be shut down.
+Installers should always restart application and services using the <b>RmRestart</b> function even when the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a> function returns an error indicating that not all applications and services could be shut down.
 
 The <b>RmRestart</b> function does not restart any applications that run with elevated privileges. Even if the application was shutdown by Restart Manager. 
 
@@ -222,15 +222,15 @@ The <b>RmRestart</b> function does not restart any applications that run with el
 
 
 
-<a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>
 
 
 
-<a href="https://msdn.microsoft.com/58a9a734-667a-48b0-84e2-8cfd85e918bf">RmCancelCurrentTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmcancelcurrenttask">RmCancelCurrentTask</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdbc3bb7-0b3c-4fbc-8023-45a309c65bae">RmShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>
  
 
  

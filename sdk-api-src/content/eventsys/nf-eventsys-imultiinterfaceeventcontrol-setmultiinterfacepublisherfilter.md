@@ -61,7 +61,7 @@ This method sets the specified publisher filter for all methods of all event int
 
 ### -param classFilter [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/f20f778b-fdd5-4c34-871b-d03cd1cd31cc">IMultiInterfacePublisherFilter</a> interface on the publisher filter associated with the specified method.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface on the publisher filter associated with the specified method.
 
 
 ## -returns
@@ -128,7 +128,7 @@ An event publisher can install a publisher filter at run time to fire an event o
 
 
 
-<a href="https://msdn.microsoft.com/e603f68a-881c-468d-a3d3-738f43400e01">IMultiInterfaceEventControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
  
 
  

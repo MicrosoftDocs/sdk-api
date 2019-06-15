@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-Handles the mapping between output pins and streams for the <a href="https://msdn.microsoft.com/435081e9-8a3f-42ab-9091-30c7c3dd59c6">Stream Buffer Source</a> filter.
+Handles the mapping between output pins and streams for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 This interface is implemented by the  output pins  of the Stream Buffer Source filter. To get a pointer to the interface, query the output pin.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2StreamMap</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISBE2StreamMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2StreamMap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2StreamMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ISBE2StreamMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb98db94-3aa1-4f29-b98a-7594e27466ef">EnumMappedStreams</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-enummappedstreams">EnumMappedStreams</a>
 </td>
 <td align="left" width="63%">
 Enumerates all SBE2 streams that are mapped to filter output pins.
@@ -81,7 +81,7 @@ Enumerates all SBE2 streams that are mapped to filter output pins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/efe3b21d-9664-4367-9bfe-4c02589370c4">MapStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">MapStream</a>
 </td>
 <td align="left" width="63%">
 Maps an SBE2 stream to an output pin.
@@ -91,7 +91,7 @@ Maps an SBE2 stream to an output pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75736e65-b708-4162-836d-7694899d23d7">UnmapStream</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-unmapstream">UnmapStream</a>
 </td>
 <td align="left" width="63%">
 Removes the mapping between an SBE2 stream and an output pin.
@@ -109,12 +109,12 @@ Removes the mapping between an SBE2 stream and an output pin.
 In version 1 of the Stream Buffer Engine (SBE), each output pin is mapped to a single stream for the lifetime of the filter. Starting in version 2 of SBE,   the application can change the mapping, as follows:
 
 <ol>
-<li>Query the Stream Buffer Source filter for the <a href="https://msdn.microsoft.com/299816e7-2dad-44a5-a44d-9c3efe405d9b">ISBE2Crossbar</a> interface.</li>
-<li>Disable default stream mode by calling the <a href="https://msdn.microsoft.com/5038050b-319d-488a-9cea-a2fc59b90cc8">ISBE2Crossbar::EnableDefaultMode</a> method without the DEF_MODE_STREAMS flag.</li>
+<li>Query the Stream Buffer Source filter for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a> interface.</li>
+<li>Disable default stream mode by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">ISBE2Crossbar::EnableDefaultMode</a> method without the DEF_MODE_STREAMS flag.</li>
 <li>Query the output pin for the <b>ISBE2StreamMap</b> interface.</li>
-<li>Call <a href="https://msdn.microsoft.com/efe3b21d-9664-4367-9bfe-4c02589370c4">ISBE2StreamMap::MapStream</a>.</li>
+<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a>.</li>
 </ol>
-    For more information, see <a href="https://msdn.microsoft.com/af6262c5-391c-4248-9f96-26bd108b0fdf">Stream Buffer Source Filter Enhancements in Windows 7</a>.
+    For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter-enhancements-in-windows-7">Stream Buffer Source Filter Enhancements in Windows 7</a>.
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2StreamMap)</code>.
 

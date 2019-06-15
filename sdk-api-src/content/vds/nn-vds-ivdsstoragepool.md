@@ -50,14 +50,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Provides methods to query information and enumerate related objects for a <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool</a>.
+Provides methods to query information and enumerate related objects for a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsStoragePool</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVdsStoragePool</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsStoragePool</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsStoragePool</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsStoragePool</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/44906c1f-ecb2-4701-9392-a9b5924e9d65">GetAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getattributes">GetAttributes</a>
 </td>
 <td align="left" width="63%">
 Returns the attributes of a storage pool.
@@ -81,7 +81,7 @@ Returns the attributes of a storage pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c37b5b1-4958-4b63-ba30-65b394dd05b7">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of a storage pool.
@@ -90,7 +90,7 @@ Returns the properties of a storage pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46265fca-eabd-4d42-b1fd-6a09c566cde9">GetProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getprovider">GetProvider</a>
 </td>
 <td align="left" width="63%">
 Returns the hardware provider that manages the storage pool.
@@ -99,7 +99,7 @@ Returns the hardware provider that manages the storage pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/348472ac-1b8b-4943-9b80-813616861e01">QueryAllocatedLuns</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-queryallocatedluns">QueryAllocatedLuns</a>
 </td>
 <td align="left" width="63%">
 Returns an object that enumerates the allocated LUNs for a storage pool.
@@ -108,7 +108,7 @@ Returns an object that enumerates the allocated LUNs for a storage pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7b6c447a-35e1-48ff-951c-b13ff5584c76">QueryAllocatedStoragePools</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-queryallocatedstoragepools">QueryAllocatedStoragePools</a>
 </td>
 <td align="left" width="63%">
 Returns an object that enumerates the allocated storage pools that are managed by the provider.BD
@@ -117,7 +117,7 @@ Returns an object that enumerates the allocated storage pools that are managed b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91bae6e6-3718-4d82-ab8c-e489b9a105fe">QueryDriveExtents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-querydriveextents">QueryDriveExtents</a>
 </td>
 <td align="left" width="63%">
 Returns an array of the drive extents that are used by a storage pool.
@@ -132,7 +132,7 @@ Returns an array of the drive extents that are used by a storage pool.
 
 
 
-<a href="https://msdn.microsoft.com/c9db0e33-8cb1-41ba-8716-a8d70990fa3e">IVdsHwProviderStoragePools</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdshwproviderstoragepools">IVdsHwProviderStoragePools</a>
  
 
  

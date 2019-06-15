@@ -96,7 +96,7 @@ If the current node is an element, then moves to its corresponding end element. 
 
 Moves to the element node containing the current node.  End elements are considered the last child of their
           corresponding start element.  If the current position is the root element, then the position will be moved
-          to <a href="https://msdn.microsoft.com/eddef5db-432d-4615-9f0f-a712dffe42ab">WS_XML_NODE_TYPE_BOF</a>.  If the current position is <b>WS_XML_NODE_TYPE_BOF</b>, then
+          to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE_BOF</a>.  If the current position is <b>WS_XML_NODE_TYPE_BOF</b>, then
           current position is left unchanged.
         
 

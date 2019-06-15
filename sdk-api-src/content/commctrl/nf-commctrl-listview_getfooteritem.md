@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets information on a footer item for a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774928(v=VS.85).aspx">LVM_GETFOOTERITEM</a> message explicitly.
+Gets information on a footer item for a specified list-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getfooteritem">LVM_GETFOOTERITEM</a> message explicitly.
 
 
 ## -parameters
@@ -59,21 +59,21 @@ Gets information on a footer item for a specified list-view control. Use this ma
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 
 ### -param iItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An index of the item.
 
 
 ### -param pfi [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774750(v=VS.85).aspx">LVFOOTERITEM</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvfooteritem">LVFOOTERITEM</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774750(v=VS.85).aspx">LVFOOTERITEM</a> structure to receive a value for the <i>state</i> and/or <i>pszText</i> members according to the value of the <i>mask</i> member. The caller is responsible for allocating this structure and setting its members to indicate to the receiver what information to return. For more information, see <b>LVFOOTERITEM</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvfooteritem">LVFOOTERITEM</a> structure to receive a value for the <i>state</i> and/or <i>pszText</i> members according to the value of the <i>mask</i> member. The caller is responsible for allocating this structure and setting its members to indicate to the receiver what information to return. For more information, see <b>LVFOOTERITEM</b>.
 

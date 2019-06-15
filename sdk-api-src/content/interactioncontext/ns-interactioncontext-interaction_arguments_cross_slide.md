@@ -59,7 +59,7 @@ Defines the state of the cross-slide interaction.
 
 ### -field flags
 
-One of the constants from <a href="https://msdn.microsoft.com/3be72ad1-87da-4c08-84fd-a84d4c03d33b">CROSS_SLIDE_FLAGS</a>.
+One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-cross_slide_flags">CROSS_SLIDE_FLAGS</a>.
 
 
 ## -see-also
@@ -67,15 +67,15 @@ One of the constants from <a href="https://msdn.microsoft.com/3be72ad1-87da-4c08
 
 
 
-<a href="https://msdn.microsoft.com/90ba531c-9f97-451d-8781-450dbc248f47">INTERACTION_CONTEXT_OUTPUT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/38C5CE85-405B-455F-809D-19C77B8A217B">Interaction Context Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/87000250-f225-4864-96d2-1e189f5be1a3">RegisterOutputCallbackInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
  
 
  

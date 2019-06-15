@@ -210,7 +210,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://msdn.microsoft.com/0d86f2a4-d046-4d27-b128-40f2a3dd359a">GetInlineObject</a> for more inline object properties.
+If the  <a href="https://docs.microsoft.com/windows/desktop/api/tom/ne-tom-__midl___midl_itf_tom_0000_0000_0001">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
 
 
 
@@ -225,7 +225,7 @@ The differences in these flags over the range. A value of zero indicates that th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -237,11 +237,11 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/d2d43bfd-7cdf-458a-822d-e3965bfe2284">ITextFont2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://msdn.microsoft.com/edfc882e-6f76-498f-ae3f-4978ea728d1b">ITextFont2::SetEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-seteffects">ITextFont2::SetEffects</a>
  
 
  

@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMenuButton</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMenuButton</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMenuButton</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMenuButton</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMenuButton</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75d19e2a-0d3e-4883-852e-983fcee8166a">AddButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imenubutton-addbutton">AddButton</a>
 </td>
 <td align="left" width="63%">
 Adds a button to the menu bar.
@@ -79,7 +79,7 @@ Adds a button to the menu bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0297c54-7aa2-497b-9fe7-1be4fc7517f9">SetButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imenubutton-setbutton">SetButton</a>
 </td>
 <td align="left" width="63%">
 Sets the attributes of a menu bar button.
@@ -88,7 +88,7 @@ Sets the attributes of a menu bar button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28f4faf7-9fb2-4be0-84b6-e3e8f7450c34">SetButtonState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-imenubutton-setbuttonstate">SetButtonState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of a menu bar button.

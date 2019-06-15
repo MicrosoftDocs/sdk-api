@@ -78,7 +78,7 @@ A pointer to a variable that the function sets to <b>TRUE</b> if the specified p
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get  extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get  extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -87,9 +87,9 @@ If the function fails, the return value is zero. To get  extended error informat
 
 
 
-The "remote" in <b>CheckRemoteDebuggerPresent</b> does not imply that the debugger  necessarily resides on a different computer; instead, it indicates that the debugger resides in a separate and parallel process. Use the <a href="https://msdn.microsoft.com/7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f">IsDebuggerPresent</a> function to detect whether the calling process is running under the debugger.
+The "remote" in <b>CheckRemoteDebuggerPresent</b> does not imply that the debugger  necessarily resides on a different computer; instead, it indicates that the debugger resides in a separate and parallel process. Use the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent">IsDebuggerPresent</a> function to detect whether the calling process is running under the debugger.
 
-To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0501 or later. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0501 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -99,11 +99,11 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f">IsDebuggerPresent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-isdebuggerpresent">IsDebuggerPresent</a>
  
 
  

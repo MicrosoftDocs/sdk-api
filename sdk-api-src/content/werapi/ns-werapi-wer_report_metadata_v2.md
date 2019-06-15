@@ -125,7 +125,7 @@ The cab identity value assigned by WER. Use this value to find the corresponding
 
 
 
-<a href="https://msdn.microsoft.com/ADF6619C-1F3E-4AFF-9E25-4F6F83D1353C">WerStoreQueryReportMetadataV2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werstorequeryreportmetadatav2">WerStoreQueryReportMetadataV2</a>
  
 
  

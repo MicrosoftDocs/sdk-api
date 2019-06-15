@@ -63,7 +63,7 @@ Windows Media Device Manager calls <b>GetObjectAttributes</b> when a file is wri
 
 ### -param pdwAttributes [out]
 
-Pointer to a <b>DWORD</b> specifying the storage attributes defined in the <a href="https://msdn.microsoft.com/e43139d2-260a-4f27-a06c-aca741204663">IWMDMStorage::GetAttributes</a> method.
+Pointer to a <b>DWORD</b> specifying the storage attributes defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a> method.
 
 
 ### -param pdwAttributesEx [out]
@@ -73,12 +73,12 @@ Pointer to a <b>DWORD</b> specifying extended attributes. There are currently no
 
 ### -param pAudioFormat [out]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/2128f07a-4858-49b7-b031-16d4a84c9d32">_WAVEFORMATEX</a> structure that specifies audio file attributes.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies audio file attributes.
 
 
 ### -param pVideoFormat [out]
 
-Optional pointer to a <a href="https://msdn.microsoft.com/5a39d66e-8dbc-4572-8370-14f722b6c906">_VIDEOINFOHEADER</a> structure that specifies video object attributes.
+Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structure that specifies video object attributes.
 
 
 ## -returns
@@ -136,11 +136,11 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 
 
-<a href="https://msdn.microsoft.com/b3f7e92a-8feb-47cd-ae50-bc5bf9a37958">IWMDMOperation2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce19bfe5-c8ff-40f4-a152-8a46d2576c63">SetObjectAttributes2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-setobjectattributes2">SetObjectAttributes2</a>
  
 
  

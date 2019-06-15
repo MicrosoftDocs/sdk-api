@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined callback function that processes input contexts provided by the <a href="https://msdn.microsoft.com/b066af9a-5bcc-468b-bc1b-79b549a9e55c">ImmEnumInputContext</a> function. The IMCENUMPROC type defines a pointer to this callback function. <b>EnumInputContext</b> is a placeholder for the application-defined function name.
+An application-defined callback function that processes input contexts provided by the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenuminputcontext">ImmEnumInputContext</a> function. The IMCENUMPROC type defines a pointer to this callback function. <b>EnumInputContext</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Returns a nonzero value to continue enumeration, or 0 to stop enumeration.
 
 
 
-An application must register this function by passing its address to the <a href="https://msdn.microsoft.com/b066af9a-5bcc-468b-bc1b-79b549a9e55c">ImmEnumInputContext</a> function.
+An application must register this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenuminputcontext">ImmEnumInputContext</a> function.
 
 
 
@@ -102,15 +102,15 @@ An application must register this function by passing its address to the <a href
 
 
 
-<a href="https://msdn.microsoft.com/b066af9a-5bcc-468b-bc1b-79b549a9e55c">ImmEnumInputContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenuminputcontext">ImmEnumInputContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

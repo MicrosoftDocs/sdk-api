@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a> to the current instance of **XMUSHORT4**.
+Assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a> to the current instance of **XMUSHORT4**.
 
 This operator assigns the vector component data from one instance of **XMUSHORT4** to the current instance of **XMUSHORT4**.
 
@@ -62,4 +62,4 @@ The current instance of **XMUSHORT4** whose vector component data has been updat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420702(v=VS.85).aspx">XMUSHORT4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>

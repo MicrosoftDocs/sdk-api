@@ -73,8 +73,8 @@ Returns nothing.
 
 
 
-Calling Begin starts the asynchronous collection of GPU data. Calling <a href="https://msdn.microsoft.com/en-us/library/Bb173502(v=VS.85).aspx">ID3D10Asynchronous::End</a> causes data collection to stop.  
-  See <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a> for additional information.
+Calling Begin starts the asynchronous collection of GPU data. Calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">ID3D10Asynchronous::End</a> causes data collection to stop.  
+  See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous Interface</a> for additional information.
 
 
 
@@ -84,7 +84,7 @@ Calling Begin starts the asynchronous collection of GPU data. Calling <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous Interface</a>
  
 
  

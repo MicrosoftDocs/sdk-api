@@ -59,7 +59,7 @@ Retrieves the current input transformation for pen and touch input, represented 
 
 ### -param pfEnabled [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 TRUE  if input translation is enabled, or FALSE if not.
 
@@ -82,7 +82,7 @@ The destination rectangle, in screen coordinates, that defines the area of the s
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
@@ -134,7 +134,7 @@ BOOL GetInputTranform()
 
 
 
-<a href="https://msdn.microsoft.com/B42B59DB-9E21-4769-B605-014173514AEB">MagSetInputTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetinputtransform">MagSetInputTransform</a>
  
 
  

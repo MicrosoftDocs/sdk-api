@@ -100,7 +100,7 @@ The root cause corresponds to a leaf in the diagnostics tree. Root causes that a
 </dl>
 </td>
 <td width="60%">
-The root cause corresponds to a node with a <a href="https://msdn.microsoft.com/2ad72ac5-3f33-4206-be39-1cfe11ee840d">DIAGNOSIS_STATUS</a> value of <b>DS_CONFIRMED</b>. Problems with confirmed low health are more likely to correspond to the problem the user is trying to diagnose. 
+The root cause corresponds to a node with a <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a> value of <b>DS_CONFIRMED</b>. Problems with confirmed low health are more likely to correspond to the problem the user is trying to diagnose. 
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ GUID of the network interface on which the problem occurred. If the problem is n
 
 ### -field pRepairs
 
-Type: <b><a href="https://msdn.microsoft.com/9357f463-946c-47ad-bb8d-ff9de210e7e1">RepairInfoEx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex">RepairInfoEx</a>*</b>
 
 The repairs that are available to try and fix the problem.
 
@@ -145,19 +145,19 @@ The number of repairs available.
 
 
 
-<a href="https://msdn.microsoft.com/6bcd1341-657a-40c1-bebd-1c0f780ae337">CopyRootCauseInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/NDF/copyrootcauseinfo">CopyRootCauseInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ad72ac5-3f33-4206-be39-1cfe11ee840d">DIAGNOSIS_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-tagdiagnosis_status">DIAGNOSIS_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b45fa432-0db4-470b-80ce-ae25c33f88d6">FreeRootCauseInfos</a>
+<a href="https://docs.microsoft.com/windows/desktop/NDF/freerootcauseinfos">FreeRootCauseInfos</a>
 
 
 
-<a href="https://msdn.microsoft.com/9357f463-946c-47ad-bb8d-ff9de210e7e1">RepairInfoEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrepairinfoex">RepairInfoEx</a>
  
 
  

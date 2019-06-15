@@ -60,9 +60,9 @@ Retrieves the color context type.
 
 ### -param pType [out]
 
-Type: <b><a href="https://msdn.microsoft.com/30fab53b-8edf-488c-a6f2-5224b94e0500">WICColorContextType</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextType</a>*</b>
 
-A pointer that receives the <a href="https://msdn.microsoft.com/30fab53b-8edf-488c-a6f2-5224b94e0500">WICColorContextType</a> of the color context.
+A pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccolorcontexttype">WICColorContextType</a> of the color context.
 
 
 ## -returns

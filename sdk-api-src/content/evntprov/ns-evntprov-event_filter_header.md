@@ -76,7 +76,7 @@ Reserved
 
 An identifier that identifies the session that passed the filter. ETW sets this value; the session must set this member to zero. 
 
-Providers use this value to set the <i>Filter</i> parameter of <a href="https://msdn.microsoft.com/00b907cb-45cd-48c7-bea4-4d8a39b4fa24">EventWriteEx</a> to prevent the event from being written to the session if the event data does not match the filter criteria (the provider determines the semantics of how the filter data is used in determining whether the event is written to the session).
+Providers use this value to set the <i>Filter</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwriteex">EventWriteEx</a> to prevent the event from being written to the session if the event data does not match the filter criteria (the provider determines the semantics of how the filter data is used in determining whether the event is written to the session).
 
 
 ### -field Size
@@ -112,23 +112,23 @@ MY_FILTER FilterData;
 
 
 
-<a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c675bf7-f292-49b1-8b60-720499a497fd">EnableTraceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3aceffb6-614f-4cad-bbec-f181f0cbdbff">EnableTraceEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
  
 
  

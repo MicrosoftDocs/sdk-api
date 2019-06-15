@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>get_Event</b> method returns a 
-<a href="https://msdn.microsoft.com/0c05042f-af1e-4657-bb1c-e6741361b11c">CALL_NOTIFICATION_EVENT</a> description of whether the application owns or is monitoring the call on which the event has occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a> description of whether the application owns or is monitoring the call on which the event has occurred.
 
 
 ## -parameters
@@ -62,8 +62,8 @@ The
 ### -param pCallNotificationEvent [out]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/0c05042f-af1e-4657-bb1c-e6741361b11c">CALL_NOTIFICATION_EVENT</a> description of the application's privilege on the call returned by 
-<a href="https://msdn.microsoft.com/6ff82bd1-de69-4ab7-9152-a578b8566755">ITCallNotificationEvent::get_Call</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a> description of the application's privilege on the call returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_call">ITCallNotificationEvent::get_Call</a>.
 
 
 ## -returns
@@ -121,15 +121,15 @@ The <i>pCallNotificationEvent</i> parameter is not a valid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/0c05042f-af1e-4657-bb1c-e6741361b11c">CALL_NOTIFICATION_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_notification_event">CALL_NOTIFICATION_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
  
 
  

@@ -82,7 +82,7 @@ Returns an <b>HRESULT</b>.
 
 
 
-<a href="https://msdn.microsoft.com/90f8ce9b-2a85-43d0-9f2a-a3d248414a2d">IXDSCodecConfig Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodecconfig">IXDSCodecConfig Interface</a>
  
 
  

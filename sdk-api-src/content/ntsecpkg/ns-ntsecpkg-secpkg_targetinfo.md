@@ -59,7 +59,7 @@ Specifies the target of an authentication request.
 
 ### -field DomainSid
 
-A pointer to a <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that specifies the domain of the target computer.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structure that specifies the domain of the target computer.
 
 
 ### -field ComputerName
@@ -72,7 +72,7 @@ The name of the target computer.
 
 
 
-<a href="https://msdn.microsoft.com/01d1b74a-14d9-40cd-bcca-a031f5fc9cbb">SpValidateTargetInfoFn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spvalidatetargetinfofn">SpValidateTargetInfoFn</a>
  
 
  

@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the number of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> associated with a 
-    <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT</b> type defines a pointer to this function.
+Returns the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> associated with a 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Returns the number of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a80
 ### -param hGroupEnum [in]
 
 Handle to a group enumeration. This handle is obtained from 
-      <a href="https://msdn.microsoft.com/d8f9eff0-1784-4b55-8603-c262d5c23f6c">ClusterGroupOpenEnum</a>. A valid handle is 
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pclusapi_cluster_group_open_enum">ClusterGroupOpenEnum</a>. A valid handle is 
       required. This parameter cannot be <b>NULL</b>.
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Image::GetFlags</b> method gets a set of flags that indicate certain attributes of this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
+			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The <b>Image::GetFlags</b> method gets a set of flags that indicate certain attr
 Type: <strong>Type: <b>UINT</b>
 </strong>
 
-This method returns a value that holds a set of single-bit flags. The flags are defined in the <a href="https://msdn.microsoft.com/en-us/library/ms534136(v=VS.85).aspx">ImageFlags</a> enumeration.
+This method returns a value that holds a set of single-bit flags. The flags are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a> enumeration.
 
 
 
@@ -78,19 +78,19 @@ This method returns a value that holds a set of single-bit flags. The flags are 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534136(v=VS.85).aspx">ImageFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
  
 
  

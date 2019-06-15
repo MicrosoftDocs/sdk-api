@@ -91,11 +91,11 @@ The method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/4a1f9a13-54a1-4294-9635-80eef8bcd8d5">ITfDisplayAttributeMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributemgr">ITfDisplayAttributeMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f4cbdca-b2a3-4e14-b4fb-ac65f3cec646">ITfDisplayAttributeNotifySink::OnUpdate
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo">ITfDisplayAttributeNotifySink::OnUpdate
       </a>
  
 

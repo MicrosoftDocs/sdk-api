@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the type of credential that a credential provider should return to associate with the "Other user" tile. Used by <a href="https://msdn.microsoft.com/A274F799-FB0C-40a7-AB9E-9525F6079C9A">ICredentialProviderUserArray_GetAccountOptions</a>.
+Indicates the type of credential that a credential provider should return to associate with the "Other user" tile. Used by <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getaccountoptions">ICredentialProviderUserArray_GetAccountOptions</a>.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ Return a credential to associate with the "Other user" tile. This credential can
 
 
 
-<a href="https://msdn.microsoft.com/A274F799-FB0C-40a7-AB9E-9525F6079C9A">ICredentialProviderUserArray_GetAccountOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getaccountoptions">ICredentialProviderUserArray_GetAccountOptions</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of an iSCSI portal.
 
@@ -73,7 +73,7 @@ The IP address and port of the portal.
 ### -field status
 
 The status of the portal, enumerated by 
-     <a href="https://msdn.microsoft.com/ae39dfb8-6519-4307-8038-3af670553f51">VDS_ISCSI_PORTAL_STATUS</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>.
 
 
 ## -see-also
@@ -81,19 +81,19 @@ The status of the portal, enumerated by
 
 
 
-<a href="https://msdn.microsoft.com/a17597d5-2525-4a0c-acb3-dc69a6ef04ce">IVdsIscsiPortal::GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportal-getproperties">IVdsIscsiPortal::GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/42e8b161-5e47-4aae-aa23-94b5cacb5698">VDS_IPADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-_vds_ipaddress">VDS_IPADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae39dfb8-6519-4307-8038-3af670553f51">VDS_ISCSI_PORTAL_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-_vds_iscsi_portal_status">VDS_ISCSI_PORTAL_STATUS</a>
  
 
  

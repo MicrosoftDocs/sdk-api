@@ -87,7 +87,7 @@ The maximum value of the counter over the sampling period.
 
 
 
-<a href="https://msdn.microsoft.com/add75744-c3ab-48ab-b567-28a072facfdd">SystemMonitor.ReportValueType</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-reportvaluetype">SystemMonitor.ReportValueType</a>
  
 
  

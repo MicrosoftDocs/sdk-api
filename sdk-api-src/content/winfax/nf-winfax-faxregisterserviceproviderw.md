@@ -94,7 +94,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. GetLastError can return one of the following errors.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. GetLastError can return one of the following errors.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-At least one parameter to the <a href="https://msdn.microsoft.com/en-us/library/ms692806(v=VS.85).aspx">FaxRegisterServiceProvider</a> function is <b>NULL</b>.
+At least one parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/winfax/nf-winfax-faxregisterserviceproviderw">FaxRegisterServiceProvider</a> function is <b>NULL</b>.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ Because the <b>FaxRegisterServiceProvider</b> function modifies the registry, th
 
 All parameters to the <b>FaxRegisterServiceProvider</b> function are required.
 
-Local installation of a fax service provider is recommended. The local installation routine for a fax service provider DLL can call <b>FaxRegisterServiceProvider</b> instead of directly accessing the registry. For more information about the steps required to register locally with the fax service, see <a href="https://msdn.microsoft.com/en-us/library/ms691506(v=VS.85).aspx">Registration of a Fax Service Provider</a>.
+Local installation of a fax service provider is recommended. The local installation routine for a fax service provider DLL can call <b>FaxRegisterServiceProvider</b> instead of directly accessing the registry. For more information about the steps required to register locally with the fax service, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registration-of-a-fax-service-provider">Registration of a Fax Service Provider</a>.
 
 
 
@@ -136,15 +136,15 @@ Local installation of a fax service provider is recommended. The local installat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-functions">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a>
  
 
  

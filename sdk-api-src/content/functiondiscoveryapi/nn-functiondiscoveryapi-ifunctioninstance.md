@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-    A function instance is created as the result of calling one of the <a href="https://msdn.microsoft.com/352a8d61-7d3a-423d-8b7e-1163d4fa1e00">IFunctionDiscovery</a>  methods; client program do not create these objects themselves.
+    A function instance is created as the result of calling one of the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>  methods; client program do not create these objects themselves.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IFunctionInstance</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfb5f144-c9b0-455e-aff9-0c07225a21f6">GetCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getcategory">GetCategory</a>
 </td>
 <td align="left" width="63%">
 Gets the category and subcategory strings for the function instance.
@@ -80,7 +80,7 @@ Gets the category and subcategory strings for the function instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d">GetID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier string for the function instance.
@@ -89,7 +89,7 @@ Gets the identifier string for the function instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fad5e3f0-a440-4b09-ba8c-04bae2d14a2a">GetProviderInstanceID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getproviderinstanceid">GetProviderInstanceID</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier string for the provider instance.
@@ -98,7 +98,7 @@ Gets the identifier string for the provider instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e03567b-7bac-4bef-ae62-a040f0c33cfb">OpenPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">OpenPropertyStore</a>
 </td>
 <td align="left" width="63%">
 Opens the property store for the function instance.
@@ -107,7 +107,7 @@ Opens the property store for the function instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04d29632-81b3-47d6-8630-a65677d78b6f">QueryService</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364381(v=vs.85)">QueryService</a>
 </td>
 <td align="left" width="63%">
 Acts as the factory method for any services exposed through an implementation of <b>IFunctionInstance</b>.

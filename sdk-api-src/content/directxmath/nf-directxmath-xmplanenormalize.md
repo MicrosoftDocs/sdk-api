@@ -107,11 +107,11 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/6505e72e-4af5-5db3-4fc0-f83fa77692b1">DirectXMath Library Plane Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-plane">DirectXMath Library Plane Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420149(v=VS.85).aspx">XMPlaneNormalizeEst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmplanenormalizeest">XMPlaneNormalizeEst</a>
  
 
  

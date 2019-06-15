@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDGETCURRENTAUTOFLIPININFO structure contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information. 
+The DDGETCURRENTAUTOFLIPININFO structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object information. 
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The DDGETCURRENTAUTOFLIPININFO structure contains the <a href="https://msdn.micr
 
 ### -field lpVideoPortData
 
-Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a> structure that contains the VPE object information. 
 
 
 ## -see-also
@@ -67,11 +67,11 @@ Points to a <a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b
 
 
 
-<a href="https://msdn.microsoft.com/662ff6ee-d6b1-4cb1-8ff8-b4c1e17b26df">DDVIDEOPORTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVIDEOPORTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/25010ffb-893f-401f-8883-f5a08e7014bf">DxGetCurrentAutoflip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_getcurrentautoflip">DxGetCurrentAutoflip</a>
  
 
  

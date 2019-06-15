@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Manages invitation objects.
 
-Applications obtain access to this object using <a href="https://msdn.microsoft.com/6e5116d9-7b65-4d93-ab1e-caac080e870e">IRDPSRAPISharingSession::get_Invitations</a>
+Applications obtain access to this object using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_invitations">IRDPSRAPISharingSession::get_Invitations</a>
 
 
 This interface provides access to the <b>RDPSRAPIInvitationManager</b> object.
@@ -59,7 +59,7 @@ This interface provides access to the <b>RDPSRAPIInvitationManager</b> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIInvitationManager</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRDPSRAPIInvitationManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIInvitationManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRDPSRAPIInvitationManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IRDPSRAPIInvitationManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/169d220b-3a2a-490e-9c1c-03a707d59f6c">CreateInvitation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-createinvitation">CreateInvitation</a>
 </td>
 <td align="left" width="63%">
 Creates an invitation.
@@ -93,7 +93,7 @@ Creates an invitation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e1959226-04a0-4eae-9abb-b82cdd545975">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -109,7 +109,7 @@ An enumerator interface for the invitation collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5b421537-ce9f-42d3-83b8-f051631c78de">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get_count">Count</a>
 
 
 </td>
@@ -125,7 +125,7 @@ The number of invitations in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0a6acaec-0051-4753-8926-c708e75c3e07">Item</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiinvitationmanager-get_item">Item</a>
 
 
 </td>
@@ -146,11 +146,11 @@ An item in the invitation collection.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/66cd8251-726a-4368-8da5-4d3f6899bdc8">IRDPSRAPIInvitation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
  
 
  

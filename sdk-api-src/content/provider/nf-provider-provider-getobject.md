@@ -52,10 +52,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetObject</b> method is called by WMI to retrieve an instance of a class.
@@ -75,12 +75,12 @@ TBD
 
 Query object that indicates the set of properties to be populated, as requested by a call to <b>Provider::GetObject</b>.
 
-A provider can realize a significant performance gain by filling in only these requested property values. The provider determines which properties are requested by using <a href="https://msdn.microsoft.com/36f5a261-435c-494d-aae5-a420eee030f2">CFrameworkQuery::IsPropertyRequired</a>. Otherwise, the provider must fill in all property values.
+A provider can realize a significant performance gain by filling in only these requested property values. The provider determines which properties are requested by using <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-ispropertyrequired">CFrameworkQuery::IsPropertyRequired</a>. Otherwise, the provider must fill in all property values.
 
 
 #### - pContext
 
-Bitmask of flags with information about the <b>GetObject</b> operation. This is the value specified by the client in the <a href="https://msdn.microsoft.com/68150273-c4ec-46f1-a3e6-d7169824b69d">IWbemServices::GetObject</a> method.
+Bitmask of flags with information about the <b>GetObject</b> operation. This is the value specified by the client in the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> method.
 
 The following flags are handled by (and filtered out) by WMI:
 
@@ -92,14 +92,14 @@ The following flags are handled by (and filtered out) by WMI:
 
 #### - pParsedObjectPath
 
-Pointer to a <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> object to be filled in by the framework provider.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> object to be filled in by the framework provider.
 
 
 ## -returns
 
 
 
-The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="https://msdn.microsoft.com/68150273-c4ec-46f1-a3e6-d7169824b69d">IWbemServices::GetObject</a> method lists the common return values, although you can choose to implement any COM return value.
+The default framework provider implementation of this method returns <b>WBEM_E_PROVIDER_NOT_CAPABLE</b> to the calling method. The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> method lists the common return values, although you can choose to implement any COM return value.
 
 
 
@@ -108,11 +108,11 @@ The default framework provider implementation of this method returns <b>WBEM_E_P
 
 
 
-WMI often invokes <b>GetObject</b> in response to a client call to <a href="https://msdn.microsoft.com/68150273-c4ec-46f1-a3e6-d7169824b69d">IWbemServices::GetObject</a>. The WMI version of <b>Provider::GetObject</b> provides an instance with only the key properties populated. In contrast, an implemented framework provider must fill in all other properties. The following describes a common override of <b>GetObject</b>:
+WMI often invokes <b>GetObject</b> in response to a client call to <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a>. The WMI version of <b>Provider::GetObject</b> provides an instance with only the key properties populated. In contrast, an implemented framework provider must fill in all other properties. The following describes a common override of <b>GetObject</b>:
 
 <ol>
-<li>Determine which instance WMI requested by reading the key properties with a <b>Get</b> method from <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a>, such as <a href="https://msdn.microsoft.com/d9295ba1-19da-41a2-86d1-ec80e18e895b">CInstance::GetCHString</a>.</li>
-<li>Populate the rest of the properties of the instance using the many Set methods of the <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> class, such as <a href="https://msdn.microsoft.com/d6ecbada-4eb6-40ad-9e59-ba77fd3b883a">CInstance::SetByte</a> or <a href="https://msdn.microsoft.com/dcd1e108-4914-43ea-aa41-d38d38e8954a">CInstance::SetStringArray</a>.</li>
+<li>Determine which instance WMI requested by reading the key properties with a <b>Get</b> method from <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>, such as <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getchstring">CInstance::GetCHString</a>.</li>
+<li>Populate the rest of the properties of the instance using the many Set methods of the <a href="https://docs.microsoft.com/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class, such as <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setbyte">CInstance::SetByte</a> or <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-setstringarray">CInstance::SetStringArray</a>.</li>
 </ol>
 
 

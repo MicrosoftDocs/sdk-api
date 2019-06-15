@@ -66,9 +66,9 @@ Class GUID of an event trace class that you are registering.
 
 ### -field RegHandle
 
-Handle to the registered event trace class. The <a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a> function generates this value.
+Handle to the registered event trace class. The <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function generates this value.
 
-Use this handle when you call the <a href="https://msdn.microsoft.com/ab890392-f1e4-4b4e-a46c-8c7c2bfd3897">CreateTraceInstanceId</a> function and to set the <b>RegHandle</b> member of <a href="https://msdn.microsoft.com/2a79d937-2a3b-4426-b31f-a1a3ce86a334">EVENT_INSTANCE_HEADER</a> when calling the <a href="https://msdn.microsoft.com/e8361bdc-21dd-47a0-bdbf-56f4d6195689">TraceEventInstance</a> function.
+Use this handle when you call the <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function and to set the <b>RegHandle</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> when calling the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
 
 
 ## -remarks
@@ -85,11 +85,11 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 
 
-<a href="https://msdn.microsoft.com/ab890392-f1e4-4b4e-a46c-8c7c2bfd3897">CreateTraceInstanceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9158292-281b-4a02-b280-956e340d225c">RegisterTraceGuids</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
  
 
  

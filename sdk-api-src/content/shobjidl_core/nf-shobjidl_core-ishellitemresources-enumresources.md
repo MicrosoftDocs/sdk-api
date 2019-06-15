@@ -59,9 +59,9 @@ Gets a resource enumerator object.
 
 ### -param ppenumr [out]
 
-Type: <b><a href="https://msdn.microsoft.com/28c645cf-8c69-49d7-a95f-ced6467ad682">IEnumResources</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumresources">IEnumResources</a>**</b>
 
-The address of an <a href="https://msdn.microsoft.com/28c645cf-8c69-49d7-a95f-ced6467ad682">IEnumResources</a> interface pointer.
+The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumresources">IEnumResources</a> interface pointer.
         
 
 

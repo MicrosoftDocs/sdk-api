@@ -95,7 +95,7 @@ This function should always succeed except in extraordinary circumstances. Most 
 
 
 
-<a href="https://msdn.microsoft.com/ac9e736c-508b-4048-a958-708264e8045e">PHONE_CLOSE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725255(v=vs.85)">PHONE_CLOSE</a>
  
 
  

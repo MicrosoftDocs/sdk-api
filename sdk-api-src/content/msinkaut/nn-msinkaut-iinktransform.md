@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkTransform</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInkTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkTransform</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,16 +70,16 @@ The <b>IInkTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d6aec579-7fa4-4cfb-8f63-2810b0c40103">GetTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-gettransform">GetTransform</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> member data.
+Gets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebecd285-4dc4-4f4a-9d07-a3287b0438e9">Reflect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reflect">Reflect</a>
 </td>
 <td align="left" width="63%">
 Performs reflection on a transform in either horizontal or vertical directions.
@@ -88,7 +88,7 @@ Performs reflection on a transform in either horizontal or vertical directions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea593b1c-0986-4969-8f6f-726987b7c4a6">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the transform to its default state, the identity transform.
@@ -97,16 +97,16 @@ Resets the transform to its default state, the identity transform.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17d7e4b0-ccde-4ad9-9bdc-0f6a72ee762e">Rotate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-rotate">Rotate</a>
 </td>
 <td align="left" width="63%">
-Changes the amount, measured in degrees, to change the rotation factor of the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object and optionally the center point of the rotation.
+Changes the amount, measured in degrees, to change the rotation factor of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object and optionally the center point of the rotation.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49da109e-afca-4695-94ab-e4ed00d82e5a">ScaleTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-scaletransform">ScaleTransform</a>
 </td>
 <td align="left" width="63%">
 Applies the specified horizontal and vertical factors to the transform or ink.
@@ -115,25 +115,25 @@ Applies the specified horizontal and vertical factors to the transform or ink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b734703-4117-4668-b881-4ba4e1c65189">SetTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform">SetTransform</a>
 </td>
 <td align="left" width="63%">
-Modifies the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> member data.
+Modifies the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> member data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a3d828e-33cc-435f-9276-7c3304cca71d">Shear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-shear">Shear</a>
 </td>
 <td align="left" width="63%">
-Adjusts the shear of the <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> by the specified horizontal and vertical factors.
+Adjusts the shear of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> by the specified horizontal and vertical factors.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3125e27b-a280-43bc-99d7-a6b5697366b2">Translate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-translate">Translate</a>
 </td>
 <td align="left" width="63%">
 Applies a translation to a transform.
@@ -151,7 +151,7 @@ Applies a translation to a transform.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f22c0ef8-8604-4719-bc93-a265a19defd0">Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_data">Data</a>
 
 
 </td>
@@ -167,7 +167,7 @@ Gets or sets access to the <a href="http://go.microsoft.com/fwlink/p/?linkid=969
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f2e6fabc-4a8a-4225-b518-438e1d0ca196">eDx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edx">eDx</a>
 
 
 </td>
@@ -176,14 +176,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the element in the third row, first column of the affine transform matrix that is represented by an <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+Gets or sets the element in the third row, first column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d7f35091-93c0-45aa-87e4-49abf89998e5">eDy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_edy">eDy</a>
 
 
 </td>
@@ -192,14 +192,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the element in the third row, second column of the affine transform matrix that is represented by an <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+Gets or sets the element in the third row, second column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8827b2b2-f2fb-4732-912c-226db8ac9aef">eM11</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em11">eM11</a>
 
 
 </td>
@@ -208,14 +208,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e0cfcd30-49b7-457f-8e1f-faa433b4e8ef">eM12</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em12">eM12</a>
 
 
 </td>
@@ -224,14 +224,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the element in the first row, second column of the affine transform matrix that is represented by an <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+Gets or sets the element in the first row, second column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/66fd4f89-7e50-4594-9010-54baed20f2e6">eM21</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em21">eM21</a>
 
 
 </td>
@@ -240,14 +240,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the element in the second row, first column of the affine transform matrix that is represented by an <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+Gets or sets the element in the second row, first column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/46a50a77-f834-4d75-89db-a9be6e1ed24f">eM22</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-get_em22">eM22</a>
 
 
 </td>
@@ -256,7 +256,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the element in the second row, second column of the affine transform matrix that is represented by an <a href="https://msdn.microsoft.com/79abff2e-d1d3-4a32-9ac2-f46c1b21f742">InkTransform</a> object.
+Gets or sets the element in the second row, second column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 </td>
 </tr>

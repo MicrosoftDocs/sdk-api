@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The RASNAPSTATE structure contains information about the <a href="https://msdn.microsoft.com/f562f5f1-c05a-4e4e-bcd9-a302c61f2a5e">Network Access Protection</a> (NAP) variables for a remote access connection.
+The RASNAPSTATE structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection</a> (NAP) variables for a remote access connection.
 
 
 ## -struct-fields
@@ -64,12 +64,12 @@ Specifies the size of the structure in bytes.
 
 ### -field dwFlags
 
-Contains information about what members of this structure are set on the return from a call to the <a href="https://msdn.microsoft.com/7f36f93f-7e07-4ad8-923f-59146bda4687">RasGetNapStatus</a> function.
+Contains information about what members of this structure are set on the return from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetnapstatus">RasGetNapStatus</a> function.
 
 
 ### -field isolationState
 
-An <a href="https://msdn.microsoft.com/79f81e8e-a105-4cc9-b175-8a364648f3a6">IsolationState</a> value that specifies the isolation NAP state for the RAS connection.
+An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a> value that specifies the isolation NAP state for the RAS connection.
 
 
 ### -field probationTime
@@ -81,7 +81,7 @@ Specifies the time required for the connection to come out of quarantine after w
 
 
 
-The <a href="https://msdn.microsoft.com/79f81e8e-a105-4cc9-b175-8a364648f3a6">IsolationState</a> enumerated type and the ProbationTime structure are declared in naptypes.h.
+The <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-tagisolationstate">IsolationState</a> enumerated type and the ProbationTime structure are declared in naptypes.h.
 
 
 

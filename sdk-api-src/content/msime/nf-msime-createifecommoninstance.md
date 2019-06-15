@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to an   <a href="https://msdn.microsoft.com/9FBECA6F-F162-485D-938F-FADC2D47083E">IFECommon</a> interface.
+Returns a pointer to an   <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a> interface.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Returns a pointer to an   <a href="https://msdn.microsoft.com/9FBECA6F-F162-485D
 
 ### -param ppvObj [out]
 
-Address of the pointer variable that receives the <a href="https://msdn.microsoft.com/9FBECA6F-F162-485D-938F-FADC2D47083E">IFECommon</a> interface pointer of the object created.
+Address of the pointer variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a> interface pointer of the object created.
 
 
 ## -returns
@@ -75,7 +75,7 @@ Address of the pointer variable that receives the <a href="https://msdn.microsof
 
 
 
-There is no import library available that defines this function. It is necessary to manually obtain a pointer to this function using <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>.
+There is no import library available that defines this function. It is necessary to manually obtain a pointer to this function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 
 

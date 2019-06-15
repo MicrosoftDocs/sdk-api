@@ -57,7 +57,7 @@ Be aware that because the image list is shared among many components, the user-s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageList</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IImageList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImageList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImageList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IImageList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3bdb166e-e78a-41a8-9bb7-904d0462f976">ImageListSetIcon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iimagelist-imagelistseticon">ImageListSetIcon</a>
 </td>
 <td align="left" width="63%">
 Sets an icon in the image list.
@@ -81,7 +81,7 @@ Sets an icon in the image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b736a5ab-86a7-4c8d-82b7-bbe9f98bc402">ImageListSetStrip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iimagelist-imagelistsetstrip">ImageListSetStrip</a>
 </td>
 <td align="left" width="63%">
 Sets a strip of icons in the image list.

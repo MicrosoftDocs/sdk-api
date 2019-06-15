@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DDDEVICEIDENTIFIER2</b> structure is passed to the <a href="https://msdn.microsoft.com/1524dae8-e383-47f4-8e18-c8ef235b3176">IDirectDraw7::GetDeviceIdentifier</a> method to obtain information about a device.
+The <b>DDDEVICEIDENTIFIER2</b> structure is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-getdeviceidentifier">IDirectDraw7::GetDeviceIdentifier</a> method to obtain information about a device.
 
 
 ## -struct-fields

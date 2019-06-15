@@ -64,7 +64,7 @@ The size of the array pointed to by <b>pElems</b>.
 
 ### -field pElems
 
-A pointer to an array of values, each of which can be passed to the <a href="https://msdn.microsoft.com/a532ebed-3ed8-4b49-a17f-f542fdbd74ff">IPerPropertyBrowsing::GetPredefinedValue</a> method to obtain the corresponding value for one of the property's predefined strings. This array is allocated by the callee using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> and is freed by the caller using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+A pointer to an array of values, each of which can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a> method to obtain the corresponding value for one of the property's predefined strings. This array is allocated by the callee using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and is freed by the caller using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 
 ## -see-also
@@ -72,15 +72,15 @@ A pointer to an array of values, each of which can be passed to the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/730d5e23-e84a-4629-9b59-492d8536122e">CALPOLESTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagcalpolestr">CALPOLESTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b20585f-2bcd-475e-abee-80158692ae0f">IPerPropertyBrowsing::GetPredefinedStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">IPerPropertyBrowsing::GetPredefinedStrings</a>
 
 
 
-<a href="https://msdn.microsoft.com/a532ebed-3ed8-4b49-a17f-f542fdbd74ff">IPerPropertyBrowsing::GetPredefinedValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue">IPerPropertyBrowsing::GetPredefinedValue</a>
  
 
  

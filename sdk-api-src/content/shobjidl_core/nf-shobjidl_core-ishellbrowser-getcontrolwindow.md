@@ -113,12 +113,12 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 <b>GetControlWindow</b> is used so views can directly manipulate the browser's controls. <b>FCW_TREE</b> should be used only to determine if the tree is present.
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
-<b>GetControlWindow</b> is used to manipulate and test the state of the control windows. Do not send messages directly to these controls; instead, use <a href="https://msdn.microsoft.com/4494870b-45a8-478a-807a-7ed3674f69f3">IShellBrowser::SendControlMsg</a>. Be prepared for this method to return <b>NULL</b>. Later versions of Windows Explorer may not include a toolbar, status bar, or tree window.
+<b>GetControlWindow</b> is used to manipulate and test the state of the control windows. Do not send messages directly to these controls; instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-sendcontrolmsg">IShellBrowser::SendControlMsg</a>. Be prepared for this method to return <b>NULL</b>. Later versions of Windows Explorer may not include a toolbar, status bar, or tree window.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 <b>GetControlWindow</b> returns the window handle to these controls if they exist in your implementation.
 
-See also <a href="https://msdn.microsoft.com/138d90e3-a1f0-4faf-88ca-16c7a46df0ca">IShellBrowser</a>
+See also <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
 
 
 

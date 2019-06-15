@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496665e5c">MI_Instance</a> object based on a class object.
+Creates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instance">MI_Instance</a> object based on a class object.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Creates a new <a href="https://msdn.microsoft.com/3dce1817-7995-49e5-8cc0-ee9496
 
 ### -param application [in]
 
-A pointer to a handle returned from a call to the <a href="https://msdn.microsoft.com/32696A33-820D-4D01-AF71-DDA1F34EFBE0">MI_Application_Initialize</a> function.
+A pointer to a handle returned from a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 
 ### -param className

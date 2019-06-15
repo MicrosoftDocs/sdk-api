@@ -54,7 +54,7 @@ Encapsulates the methods needed to provide information about the current transpo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransportParameters</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITransportParameters</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransportParameters</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransportParameters</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>ITransportParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3EEB94E1-B6BC-4111-AEF1-D5724BD0A2E7">ActionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/itransportparameters-actioninformation">ActionInformation</a>
 </td>
 <td align="left" width="63%">
-Obtains an <a href="https://msdn.microsoft.com/854C7024-D582-405D-8A5F-C152DE8BE0BE">IMediaRendererActionInformation</a> interface that provides information about which  methods can currently be invoked on the DMR.
+Obtains an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828915(v=vs.85)">IMediaRendererActionInformation</a> interface that provides information about which  methods can currently be invoked on the DMR.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C944EFEC-2B4E-4405-8D33-B6AD8DFBEC4E">TrackInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828958(v=vs.85)">TrackInformation</a>
 </td>
 <td align="left" width="63%">
-Obtains a  <a href="https://msdn.microsoft.com/47398d9f-9462-49c1-a02c-985212a07363">TrackInformation</a> structure that provides information about the DMR’s track  parameters.
+Obtains a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh829004(v=vs.85)">TrackInformation</a> structure that provides information about the DMR’s track  parameters.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1DA23EC4-9B52-4E14-86F2-052689EDF5D6">TransportInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828959(v=vs.85)">TransportInformation</a>
 </td>
 <td align="left" width="63%">
-Obtains a  <a href="https://msdn.microsoft.com/c91f84f2-e19b-4bfa-862d-fc5e1dc756d4">TransportInformation</a> structure that provides information about the DMR’s transport parameters.
+Obtains a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh829005(v=vs.85)">TransportInformation</a> structure that provides information about the DMR’s transport parameters.
 
 </td>
 </tr>

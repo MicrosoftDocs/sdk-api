@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a> I/O control request to send a user-mode request to the USB host controller driver.
+The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to send a user-mode request to the USB host controller driver.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="https://ms
 
 ### -field UsbUserRequest
 
-The user-mode request. For a list and description of possible values for this member, see <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>.
+The user-mode request. For a list and description of possible values for this member, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
 
 
 ### -field UsbUserStatusCode
@@ -81,7 +81,7 @@ The size, in bytes, of the data that is retrieved by the request.
 
 
 
-The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a> I/O control request to send a user-mode request to the USB port driver.
+The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to send a user-mode request to the USB port driver.
 
 
 
@@ -91,11 +91,11 @@ The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/6aba5cf4-a9fa-4d10-a212-acc79e00fa9b">IOCTL_USB_USER_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ca7033d-6586-4c34-b940-67ddfbe21af9">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
  
 
  

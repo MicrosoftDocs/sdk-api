@@ -60,17 +60,17 @@ initialization.
 
 ### -field APOInit
 
-An <a href="https://msdn.microsoft.com/15C973AE-B0E8-42FD-9F34-671A6A915B47">APOInitBaseStruct</a> structure.
+An <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitbasestruct">APOInitBaseStruct</a> structure.
 
 
 ### -field pAPOEndpointProperties
 
-A pointer to an <a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a> object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
 
 
 ### -field pAPOSystemEffectsProperties
 
-A pointer to an <a href="https://msdn.microsoft.com/63afd5b1-87cc-4e0a-8964-2138c5fbff46">IPropertyStore</a> object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
 
 
 ### -field pReserved
@@ -108,7 +108,7 @@ Indicates whether the audio system is initializing the APO for effects discovery
 
 
 
-<a href="https://msdn.microsoft.com/E33B1F94-4E3A-4EC1-AFB5-FD803FA391BC">APOInitSystemEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects">APOInitSystemEffects</a>
  
 
  

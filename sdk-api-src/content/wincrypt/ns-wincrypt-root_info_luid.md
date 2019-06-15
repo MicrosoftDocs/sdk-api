@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ROOT_INFO_LUID</b> structure contains a <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">locally unique identifier</a> (<a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a>) for Cryptographic Smart Card Root Information. The <a href="https://msdn.microsoft.com/165a1a9e-e426-4823-8d1b-f13c338964c9">CRYPT_SMART_CARD_ROOT_INFO</a> structure includes a <b>ROOT_INFO_LUID</b> structure.
+The <b>ROOT_INFO_LUID</b> structure contains a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>) for Cryptographic Smart Card Root Information. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_smart_card_root_info">CRYPT_SMART_CARD_ROOT_INFO</a> structure includes a <b>ROOT_INFO_LUID</b> structure.
 
 
 ## -struct-fields
@@ -72,7 +72,7 @@ High-order bits.
 
 
 
-<a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a>
  
 
  

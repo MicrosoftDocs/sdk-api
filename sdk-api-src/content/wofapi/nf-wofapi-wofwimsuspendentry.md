@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Temporarily removes a WIM data source from backing files on a volume until the volume is remounted or the data source is updated with <a href="https://msdn.microsoft.com/91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0">WofWimUpdateEntry</a>. 
+Temporarily removes a WIM data source from backing files on a volume until the volume is remounted or the data source is updated with <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/nf-wofapi-wofwimupdateentry">WofWimUpdateEntry</a>. 
 
 
 ## -parameters
@@ -90,7 +90,7 @@ If the volume currently has files whose data is derived from the WIM file, the d
 
 
 
-<a href="https://msdn.microsoft.com/5BC73E77-86A0-4A7D-BCBA-F3E8DA980701">FSCTL_SUSPEND_OVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-suspend-overlay">FSCTL_SUSPEND_OVERLAY</a>
  
 
  

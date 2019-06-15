@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DDOPENVIDEOPORTIN structure contains the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object information. 
+The DDOPENVIDEOPORTIN structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object information. 
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Specifies the hardware video port ID that was passed down when the VPE object wa
 
 ### -field pfnVideoPortClose
 
-Points to a <a href="https://msdn.microsoft.com/ee581d7b-c3b8-47e5-bae8-348b22ea0f95">pfnVideoPortClose</a> callback function that is called when the VPE object becomes unusable.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnVideoPortClose</a> callback function that is called when the VPE object becomes unusable.
 
 
 ### -field pContext
@@ -82,11 +82,11 @@ Contains a value that is passed if the <b>pfnVideoPortClose</b> callback functio
 
 
 
-<a href="https://msdn.microsoft.com/a54335f1-fc08-447a-ba65-f1d99ba7924d">DD_DXAPI_OPENVIDEOPORT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551498(v=vs.85)">DD_DXAPI_OPENVIDEOPORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

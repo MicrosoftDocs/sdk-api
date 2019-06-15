@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IAdviseSink2</b> interface is an extension of the <a href="https://msdn.microsoft.com/bc9f217a-75bd-4155-9d00-df44b00cf0e5">IAdviseSink</a> interface, adding the method <a href="https://msdn.microsoft.com/753ac9a3-0207-4c98-9d86-5ac16be2c5fa">OnLinkSrcChange</a> to the contract to handle a change in the moniker of a linked object. This avoids overloading the implementation <a href="https://msdn.microsoft.com/ec9926fb-d69e-430c-b67d-24c52d806bb5">IAdviseSink::OnRename</a> to handle the renaming of both embedded objects and linked objects. In applications where different blocks of code might execute depending on which of these two similar events has occurred, using the same method for both events complicates testing and debugging.
+The <b>IAdviseSink2</b> interface is an extension of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface, adding the method <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink2-onlinksrcchange">OnLinkSrcChange</a> to the contract to handle a change in the moniker of a linked object. This avoids overloading the implementation <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a> to handle the renaming of both embedded objects and linked objects. In applications where different blocks of code might execute depending on which of these two similar events has occurred, using the same method for both events complicates testing and debugging.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IAdviseSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/753ac9a3-0207-4c98-9d86-5ac16be2c5fa">OnLinkSrcChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink2-onlinksrcchange">OnLinkSrcChange</a>
 </td>
 <td align="left" width="63%">
 Advises that link source has changed.

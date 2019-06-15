@@ -65,21 +65,21 @@ The <b>midiInPrepareHeader</b> function prepares a buffer for MIDI input.
 ### -param hmi
 
 Handle to the MIDI input device.
-          To get the device handle, call <a href="https://msdn.microsoft.com/230deaef-9473-426f-a0eb-14e259600e68">midiInOpen</a>.
+          To get the device handle, call <a href="https://docs.microsoft.com/previous-versions//dd798458(v=vs.85)">midiInOpen</a>.
 
 
 ### -param pmh
 
-Pointer to a <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure that identifies the buffer to be prepared.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the buffer to be prepared.
            
 
-Before calling the function, set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure. The <b>dwFlags</b> member must be set to zero.
+Before calling the function, set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure. The <b>dwFlags</b> member must be set to zero.
       
 
 
 ### -param cbmh
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/630f0645-555e-4f48-9397-2623a9918b8a">MIDIHDR</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure.
           
 
 
@@ -137,9 +137,9 @@ The system is unable to allocate or lock memory.
 
 
 
-Before you pass a MIDI data block to a device driver, you must prepare the buffer by passing it to the <b>midiInPrepareHeader</b> function. After the header has been prepared, do not modify the buffer. After the driver is done using the buffer, call the <a href="https://msdn.microsoft.com/d78aa6ab-caa7-44ec-8953-c64613b04430">midiInUnprepareHeader</a> function.
+Before you pass a MIDI data block to a device driver, you must prepare the buffer by passing it to the <b>midiInPrepareHeader</b> function. After the header has been prepared, do not modify the buffer. After the driver is done using the buffer, call the <a href="https://docs.microsoft.com/previous-versions//dd798464(v=vs.85)">midiInUnprepareHeader</a> function.
 
-The application can re-use the same buffer, or allocate multiple buffers and  call <b>midiInPrepareHeader</b> for each buffer. If you re-use the same buffer, it is not necessary to prepare the buffer each time. You can call  <b>midiInPrepareHeader</b> once at the beginning and then call <a href="https://msdn.microsoft.com/d78aa6ab-caa7-44ec-8953-c64613b04430">midiInUnprepareHeader</a> once at the end.
+The application can re-use the same buffer, or allocate multiple buffers and  call <b>midiInPrepareHeader</b> for each buffer. If you re-use the same buffer, it is not necessary to prepare the buffer each time. You can call  <b>midiInPrepareHeader</b> once at the beginning and then call <a href="https://docs.microsoft.com/previous-versions//dd798464(v=vs.85)">midiInUnprepareHeader</a> once at the end.
 
 Preparing a header that has already been prepared has no effect, and the function returns zero.
       
@@ -152,15 +152,15 @@ Preparing a header that has already been prepared has no effect, and the functio
 
 
 
-<a href="https://msdn.microsoft.com/b3a70441-e8f9-4886-bf22-426ebd74d045">Allocating and Preparing MIDI Data Blocks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/allocating-and-preparing-midi-data-blocks">Allocating and Preparing MIDI Data Blocks</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d78aa6ab-caa7-44ec-8953-c64613b04430">midiInUnprepareHeader</a>
+<a href="https://docs.microsoft.com/previous-versions//dd798464(v=vs.85)">midiInUnprepareHeader</a>
  
 
  

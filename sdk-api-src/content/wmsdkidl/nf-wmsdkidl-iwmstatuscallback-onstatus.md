@@ -62,17 +62,17 @@ The <b>OnStatus</b> method is called when status information must be communicate
 
 ### -param Status [in]
 
-One member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a> enumeration type. For a description of possible <b>WMT_STATUS</b> values, see the tables in the Remarks section.
+One member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a> enumeration type. For a description of possible <b>WMT_STATUS</b> values, see the tables in the Remarks section.
 
 
 ### -param hr [in]
 
-<b>HRESULT</b> error code. If this indicates failure, you should not process the status as normal, as some error has occurred. Use <code>if (FAILED(hr))</code> to check for a failed value. See the topic <a href="https://msdn.microsoft.com/ea1c129b-c0d7-4a1b-934c-c1c07364d4a8">Error Codes</a> for a list of possible results.
+<b>HRESULT</b> error code. If this indicates failure, you should not process the status as normal, as some error has occurred. Use <code>if (FAILED(hr))</code> to check for a failed value. See the topic <a href="https://docs.microsoft.com/windows/desktop/wmformat/error-codes">Error Codes</a> for a list of possible results.
 
 
 ### -param dwType [in]
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757834(v=VS.85).aspx">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This value specifies the type of data in the buffer at <i>pValue</i>.
 
 
 ### -param pValue [in]
@@ -82,7 +82,7 @@ Pointer to a byte array containing the value. The contents of this array depend 
 
 ### -param pvContext [in]
 
-Generic pointer provided by the application, for its own use. This pointer matches the context pointer given to the <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd757208(v=VS.85).aspx">IWMIndexer::StartIndexing</a>, and other methods. The SDK makes no assumptions about the use of this pointer; it is simply provided by the application and passed back to the application when a callback is made.
+Generic pointer provided by the application, for its own use. This pointer matches the context pointer given to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">IWMIndexer::StartIndexing</a>, and other methods. The SDK makes no assumptions about the use of this pointer; it is simply provided by the application and passed back to the application when a callback is made.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The following <b>WMT_STATUS</b> values can be passed to this method by the reade
 </tr>
 <tr>
 <td>WMT_ACQUIRE_LICENSE</td>
-<td>The license acquisition process is complete. If the license acquisition is unsuccessful, an error is returned in the <i>hr</i> parameter. If the license acquisition is successful, S_OK is returned in the <i>hr</i> parameter, and a <a href="https://msdn.microsoft.com/7e8053d5-f3f5-4519-97f5-6dbd89982f3a">WM_GET_LICENSE_DATA</a> data structure is returned in the <i>pvalue</i> parameter.</td>
+<td>The license acquisition process is complete. If the license acquisition is unsuccessful, an error is returned in the <i>hr</i> parameter. If the license acquisition is successful, S_OK is returned in the <i>hr</i> parameter, and a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> data structure is returned in the <i>pvalue</i> parameter.</td>
 </tr>
 <tr>
 <td>WMT_BUFFERING_START</td>
@@ -151,7 +151,7 @@ The following <b>WMT_STATUS</b> values can be passed to this method by the reade
 </tr>
 <tr>
 <td>WMT_INDIVIDUALIZE</td>
-<td>The individualization process is in progress or has completed. This event is sent repeatedly during the individualization process. <i>pvalue</i> contains a <a href="https://msdn.microsoft.com/3779ed6f-c133-4a9d-b60c-ef8c41fcc4af">WM_INDIVIDUALIZE_STATUS</a> structure that contains status information about the progress of the download.</td>
+<td>The individualization process is in progress or has completed. This event is sent repeatedly during the individualization process. <i>pvalue</i> contains a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-individualize-status">WM_INDIVIDUALIZE_STATUS</a> structure that contains status information about the progress of the download.</td>
 </tr>
 <tr>
 <td>WMT_LOCATING</td>
@@ -255,7 +255,7 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 </tr>
 <tr>
 <td>WMT_CLIENT_CONNECT</td>
-<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Dd757903(v=VS.85).aspx">WM_CLIENT_PROPERTIES</a> structure.</td>
+<td>A client has connected to the broadcast. The <i>dwType</i> parameter is WMT_TYPE_BINARY, and the <i>pValue</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_wmclientproperties">WM_CLIENT_PROPERTIES</a> structure.</td>
 </tr>
 <tr>
 <td>WMT_CLIENT_DISCONNECT</td>
@@ -344,11 +344,11 @@ The following <b>WMT_STATUS</b> enumeration values can be passed to the callback
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798544(v=VS.85).aspx">IWMStatusCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>
  
 
  

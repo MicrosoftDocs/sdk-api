@@ -138,10 +138,10 @@ For code examples that call the <b>OpenPropertyStore</b> method, see the followi
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/ad8753ba-ad20-4122-b0f2-eb165f98db67">Device Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-properties">Device Properties</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7d82d67f-aad8-4e5b-ac65-87d75774e613">Device Roles for DirectSound Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles-for-directsound-applications">Device Roles for DirectSound Applications</a>
 </li>
 </ul>
 
@@ -152,7 +152,7 @@ For code examples that call the <b>OpenPropertyStore</b> method, see the followi
 
 
 
-<a href="https://msdn.microsoft.com/12b05e7e-81b2-49fd-bb9f-d5ad3315c580">IMMDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
  
 
  

@@ -76,13 +76,13 @@ Opens a named file mapping object.
 
 The access to the file mapping object. This access is checked against any security descriptor on the target 
       file mapping object. For a list of values, see 
-      <a href="https://msdn.microsoft.com/8bbf7c98-ff83-4ed9-8b82-f08dcd31295c">File Mapping Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
 
 ### -param bInheritHandle [in]
 
 If this parameter is <b>TRUE</b>, a process created by the 
-      <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> function can inherit the handle; 
+      <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function can inherit the handle; 
       otherwise, the handle cannot be inherited.
 
 
@@ -94,7 +94,7 @@ The name of the file mapping object to be opened. If there is an open handle to 
       "Global\" or "Local\" prefix to explicitly open an object in the global or 
       session namespace. The remainder of the name can contain any character except the backslash character (\). For 
       more information, see 
-      <a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>. Fast user 
+      <a href="https://docs.microsoft.com/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>. Fast user 
       switching is implemented using Terminal Services sessions. The first user to log on uses session 0, the next 
       user to log on uses session 1, and so on. Kernel object names must follow the guidelines outlined for Terminal 
       Services so that applications can support multiple users.
@@ -107,7 +107,7 @@ The name of the file mapping object to be opened. If there is an open handle to 
 If the function succeeds, the return value is an open handle to the specified file mapping object.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -120,12 +120,12 @@ The handle that <b>OpenFileMapping</b> returns can be used
      with any function that requires a handle to a file mapping object.
 
 When modifying a file through a mapped view, the last modification timestamp may not be updated automatically. 
-     If required, the caller should use <a href="https://msdn.microsoft.com/75d988e4-22a3-4084-a5f8-1fca73ccd542">SetFileTime</a> to set the 
+     If required, the caller should use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfiletime">SetFileTime</a> to set the 
      timestamp.
 
 When it is no longer needed, the caller should call release the handle returned by 
      <b>OpenFileMapping</b> with a call to 
-     <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 In Windows Server 2012, this function is supported by the following technologies.
 
@@ -191,7 +191,7 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://msdn.microsoft.com/17458be2-3ef7-42f2-a717-abf73ac4846f">Creating Named Shared Memory</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/Memory/creating-named-shared-memory">Creating Named Shared Memory</a>.
 
 <div class="code"></div>
 
@@ -202,11 +202,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">File Mapping Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">File Mapping Functions</a>
 
 
 
@@ -214,7 +214,7 @@ Memory Management Functions
 
 
 
-<a href="https://msdn.microsoft.com/942cb50d-df07-444f-bba5-58194556ae66">Sharing Files and Memory</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/sharing-files-and-memory">Sharing Files and Memory</a>
  
 
  

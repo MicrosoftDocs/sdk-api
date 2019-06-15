@@ -95,7 +95,7 @@ Because applications can use rectangles for different purposes, the rectangle fu
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-d237247d1bd7">Using Rectangles</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-rectangles">Using Rectangles</a>.
 
 <div class="code"></div>
 
@@ -106,11 +106,11 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/9a52fb7f-cd35-4426-8753-c26cebef30d5">InflateRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-inflaterect">InflateRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/da686f78-e557-4ff2-9f24-b229f0c01563">IntersectRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-intersectrect">IntersectRect</a>
 
 
 
@@ -118,15 +118,15 @@ For an example, see <a href="https://msdn.microsoft.com/e8861240-9345-43e6-820d-
 
 
 
-<a href="https://msdn.microsoft.com/b03da8c9-ee6d-4045-8d90-8beceb09ead5">Rectangle Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-functions">Rectangle Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/23c251d1-b8c5-425f-b2b3-44954cf653e9">Rectangles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2da2df4-3f09-4c54-afd1-c728805f0f64">UnionRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unionrect">UnionRect</a>
  
 
  

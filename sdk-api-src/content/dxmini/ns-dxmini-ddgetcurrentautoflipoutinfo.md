@@ -64,7 +64,7 @@ Specifies the current zero-based index in the autoflip chain of the current surf
 
 ### -field dwVBISurfaceIndex
 
-Specifies the current zero-based index in the autoflip chain of the current <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">vertical blanking interval (VBI)</a> surface. 
+Specifies the current zero-based index in the autoflip chain of the current <a href="https://docs.microsoft.com/windows-hardware/drivers/">vertical blanking interval (VBI)</a> surface. 
 
 
 ## -see-also
@@ -72,7 +72,7 @@ Specifies the current zero-based index in the autoflip chain of the current <a h
 
 
 
-<a href="https://msdn.microsoft.com/25010ffb-893f-401f-8883-f5a08e7014bf">DxGetCurrentAutoflip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_getcurrentautoflip">DxGetCurrentAutoflip</a>
  
 
  

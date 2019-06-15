@@ -54,7 +54,7 @@ ms.custom: 19H1
 Executes a command on a printer object.
             
             
-<div class="alert"><b>Note</b>  This function has been deprecated as of Windows Vista. It is recommended that, in its place, you invoke verbs on printers through <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> or <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been deprecated as of Windows Vista. It is recommended that, in its place, you invoke verbs on printers through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.</div><div> </div>
 
 ## -parameters
 
@@ -169,7 +169,7 @@ When a printer name is specified by <i>lpBuf1</i>, the name can either be the na
 ```
 
 
-This function is implemented in <a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell versions 4.71</a> and later. In order to maintain backward compatibility with previous Shell versions, this function should not be used explicitly. Instead, the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions should be used to obtain the function address.
+This function is implemented in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell versions 4.71</a> and later. In order to maintain backward compatibility with previous Shell versions, this function should not be used explicitly. Instead, the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions should be used to obtain the function address.
 
 
 

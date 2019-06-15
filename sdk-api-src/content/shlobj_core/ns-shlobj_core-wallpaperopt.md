@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the wallpaper display options. Used with members of the <a href="https://msdn.microsoft.com/4d572b86-36e8-417b-857c-eb477c04c691">IActiveDesktop</a> interface.
+Contains the wallpaper display options. Used with members of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> interface.
 
 
 ## -struct-fields

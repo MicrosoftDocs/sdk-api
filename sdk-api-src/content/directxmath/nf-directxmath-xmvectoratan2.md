@@ -136,23 +136,23 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/aae12d4a-7758-83df-5376-99d5d94a28c4">Transcendental Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-transcendental">Transcendental Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee420997(v=VS.85).aspx">XMVectorATan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoratan">XMVectorATan</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421001(v=VS.85).aspx">XMVectorATan2Est</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoratan2est">XMVectorATan2Est</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421002(v=VS.85).aspx">XMVectorATanEst</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectoratanest">XMVectorATanEst</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee421361(v=VS.85).aspx">XMVectorTan</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectortan">XMVectorTan</a>
  
 
  

@@ -61,12 +61,12 @@ Deletes a biometric logon credential for a specified user. Starting with Windows
 
 ### -param Identity [in]
 
-A  <a href="https://msdn.microsoft.com/58a5f4ba-2f58-466c-90fd-9480c3c095db">WINBIO_IDENTITY</a> structure that contains the SID of the user account for which the logon credential will be removed.
+A  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the SID of the user account for which the logon credential will be removed.
 
 
 ### -param Type [in]
 
-A <a href="https://msdn.microsoft.com/7ef2d4b3-e1f9-46a0-8fc2-0e8660805ac3">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. This can be one of the following values:
+A <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-credential-type">WINBIO_CREDENTIAL_TYPE</a> value that specifies the credential type. This can be one of the following values:
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ All logon credentials for the user will be deleted.
 
 
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -273,15 +273,15 @@ e_Exit:
 
 
 
-<a href="https://msdn.microsoft.com/3c3f3bed-531a-4962-8eb3-bebe16bed3a8">WinBioRemoveAllCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremoveallcredentials">WinBioRemoveAllCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/2aee0929-2340-4901-a5d2-f1cd4395624a">WinBioRemoveAllDomainCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremovealldomaincredentials">WinBioRemoveAllDomainCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/c35dd874-c545-418a-b08c-82f9e13e93fb">WinBioSetCredential</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>
  
 
  

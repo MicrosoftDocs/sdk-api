@@ -84,15 +84,15 @@ Windows Media Player 10 Mobile: This enumeration is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/90689fb7-656d-4c06-a0a9-02bbe0e5b5dd">Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/enumeration-types">Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563084(v=VS.85).aspx">IWMPCdromBurn::get_burnFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnformat">IWMPCdromBurn::get_burnFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563090(v=VS.85).aspx">IWMPCdromBurn::put_burnFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat">IWMPCdromBurn::put_burnFormat</a>
  
 
  

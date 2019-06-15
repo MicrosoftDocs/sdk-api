@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by <a href="https://msdn.microsoft.com/fd5c25f4-6e48-494b-9d5b-ba1d846ce4d2">INamespaceWalkCB::EnterFolder</a> or <a href="https://msdn.microsoft.com/d9f86764-6365-432e-9216-57fede3aec83">INamespaceWalkCB::FoundItem</a>.
+Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-enterfolder">INamespaceWalkCB::EnterFolder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-founditem">INamespaceWalkCB::FoundItem</a>.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Called after a namespace walk through a folder. Use this method to perform any n
 
 ### -param psf [in]
 
-Type: <b><a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> object representing the parent of the folder designated by <i>pidl</i>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object representing the parent of the folder designated by <i>pidl</i>.
 
 
 ### -param pidl [in]

@@ -50,9 +50,9 @@ ms.custom: 19H1
 
 
 The 
-<b>AccessCheck</b> method is implemented by an event provider and called by Windows Management Instrumentation (WMI) when a consumer subscribes to an event specified in <i>wszQuery</i>.   A consumer that has access permission for an event can  subscribe to that event. A consumer that does not have access permission for an event cannot  subscribe to that event. For more information, see <a href="https://msdn.microsoft.com/075bdc65-4ea3-4f91-9823-1d2d0dc13423">Writing an Event Provider</a> and <a href="https://msdn.microsoft.com/86eaeb5c-c27e-4794-88e2-e0ffbb885290">Securing WMI Events</a>.
+<b>AccessCheck</b> method is implemented by an event provider and called by Windows Management Instrumentation (WMI) when a consumer subscribes to an event specified in <i>wszQuery</i>.   A consumer that has access permission for an event can  subscribe to that event. A consumer that does not have access permission for an event cannot  subscribe to that event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/writing-an-event-provider">Writing an Event Provider</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>.
 
-For a temporary consumer, WMI sets the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">PSID</a> supplied in the <i>pSid</i> parameter to <b>NULL</b> and the call is made by impersonating the consumer.
+For a temporary consumer, WMI sets the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">PSID</a> supplied in the <i>pSid</i> parameter to <b>NULL</b> and the call is made by impersonating the consumer.
 For a permanent consumer, WMI sets the PSID with the security identifier (SID) of the user who created the subscription.
 
 
@@ -95,19 +95,19 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 
 
-<a href="https://msdn.microsoft.com/4b92923a-659d-4340-8843-eb42aea69d47">IWbemEventProvider </a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventprovider">IWbemEventProvider </a>
 
 
 
-<a href="https://msdn.microsoft.com/892a7a9d-f058-4c4d-870d-c0eb5773949f">IWbemEventProviderSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemeventprovidersecurity">IWbemEventProviderSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/8882fdcb-3768-41e3-82ab-3006d903f3a0">SELECT Statement for Event Queries</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-event-queries">SELECT Statement for Event Queries</a>
 
 
 
-<a href="https://msdn.microsoft.com/86eaeb5c-c27e-4794-88e2-e0ffbb885290">Securing WMI Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>
  
 
  

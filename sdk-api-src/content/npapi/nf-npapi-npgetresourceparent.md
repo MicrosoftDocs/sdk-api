@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Retrieves the parent of a specified network resource in the browse hierarchy. This function is typically called for resources that were returned by the same provider from prior calls to 
-<a href="https://msdn.microsoft.com/286a6865-478a-41e5-a48f-42f9fc117f14">NPEnumResource</a> or 
-<a href="https://msdn.microsoft.com/c256dec0-6e5c-4a67-bc99-c322086a8fc7">NPGetResourceInformation</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetresourceinformation">NPGetResourceInformation</a>.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ Retrieves the parent of a specified network resource in the browse hierarchy. Th
 ### -param lpNetResource [in]
 
 Pointer to the network resource whose parent name is required. The 
-<a href="https://msdn.microsoft.com/c7e22694-2dfd-4a9e-bd40-277611476f97">NETRESOURCE</a> could have been obtained from a previous call to 
-<a href="https://msdn.microsoft.com/286a6865-478a-41e5-a48f-42f9fc117f14">NPEnumResource</a> or 
-<a href="https://msdn.microsoft.com/c256dec0-6e5c-4a67-bc99-c322086a8fc7">NPGetResourceInformation</a>, or constructed by the caller. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> could have been obtained from a previous call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetresourceinformation">NPGetResourceInformation</a>, or constructed by the caller. 
 
 
 
@@ -75,18 +75,18 @@ The <b>lpProvider</b> field specifies the provider to call. This must be supplie
 
 The <b>dwType</b> field is filled in if the calling program knows its value. Otherwise, it is set to <b>NULL</b>.
 
-All other fields in the <a href="https://msdn.microsoft.com/c7e22694-2dfd-4a9e-bd40-277611476f97">NETRESOURCE</a> are ignored and are not initialized.
+All other fields in the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> are ignored and are not initialized.
 
 
 ### -param lpBuffer [out]
 
-Pointer to a buffer to receive the result, which is a single <a href="https://msdn.microsoft.com/c7e22694-2dfd-4a9e-bd40-277611476f97">NETRESOURCE</a> structure representing the parent resource. The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> fields are returned; all other fields are set to <b>NULL</b>. 
+Pointer to a buffer to receive the result, which is a single <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netresourcea">NETRESOURCE</a> structure representing the parent resource. The <b>lpRemoteName</b>, <b>lpProvider</b>, <b>dwType</b>, <b>dwDisplayType</b>, and <b>dwUsage</b> fields are returned; all other fields are set to <b>NULL</b>. 
 
 
 
 
 The output <b>lpRemoteName</b> should be in the same format as that returned from an enumeration by 
-<a href="https://msdn.microsoft.com/286a6865-478a-41e5-a48f-42f9fc117f14">NPEnumResource</a>, so that the caller can perform a case-sensitive string comparison to determine whether the parent resource is the same as one returned by <b>NPEnumResource</b>. If the input resource syntactically has a parent, the provider can return it, without determining whether the input resource or its parent actually exist. If a resource has no browse parent on the network, then <b>lpRemoteName</b> is returned as <b>NULL</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a>, so that the caller can perform a case-sensitive string comparison to determine whether the parent resource is the same as one returned by <b>NPEnumResource</b>. If the input resource syntactically has a parent, the provider can return it, without determining whether the input resource or its parent actually exist. If a resource has no browse parent on the network, then <b>lpRemoteName</b> is returned as <b>NULL</b>.
 
 The RESOURCEUSAGE_CONNECTABLE bit in the returned <b>dwUsage</b> field does not necessarily indicate that the resource can currently be connected to, only that the resource is connectable when it is available on the network.
 

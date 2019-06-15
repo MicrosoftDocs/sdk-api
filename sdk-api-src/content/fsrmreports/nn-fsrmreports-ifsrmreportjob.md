@@ -54,22 +54,22 @@ Used to configure a report job. The job specifies a set of directories that will
     used. The job may also be associated with a scheduled task that will trigger report generation.
 
 To create this interface, call the 
-    <a href="https://msdn.microsoft.com/30274108-a820-409e-ba7c-6971b7726b9b">IFsrmReportManager::CreateReportJob</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-createreportjob">IFsrmReportManager::CreateReportJob</a> 
     method.
 
 The following methods return this interface:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/af66beb6-e82c-47e6-8658-da9702041053">IFsrmReportManager::EnumReportJobs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-enumreportjobs">IFsrmReportManager::EnumReportJobs</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/60a1387f-a25f-4026-a582-71981c26dd1b">IFsrmReportManager::GetReportJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-getreportjob">IFsrmReportManager::GetReportJob</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReportJob</b> interface inherits from <a href="https://msdn.microsoft.com/bb08ea40-6f0e-4ad5-ad57-78f17bbbd4b7">IFsrmObject</a>. <b>IFsrmReportJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmReportJob</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>. <b>IFsrmReportJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -85,7 +85,7 @@ The <b>IFsrmReportJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a8680e4-e5b4-4174-8eae-aad65b1d4f22">Cancel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels the running reports.
@@ -94,7 +94,7 @@ Cancels the running reports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/484941d1-726c-4765-8652-bcb378f277b4">CreateReport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-createreport">CreateReport</a>
 </td>
 <td align="left" width="63%">
 Creates a report object of the specified type.
@@ -103,7 +103,7 @@ Creates a report object of the specified type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1292084-f1b5-43eb-9b59-fa2f3f99557d">EnumReports</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-enumreports">EnumReports</a>
 </td>
 <td align="left" width="63%">
 Enumerates all the reports configured for this report job.
@@ -112,7 +112,7 @@ Enumerates all the reports configured for this report job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74f369d1-2e3d-49a5-bf54-c1b7c13efbd7">Run</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-run">Run</a>
 </td>
 <td align="left" width="63%">
 Runs all the reports in the job.
@@ -121,7 +121,7 @@ Runs all the reports in the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/127027a0-7f05-4de4-a3be-8e3c3ec30910">WaitForCompletion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-waitforcompletion">WaitForCompletion</a>
 </td>
 <td align="left" width="63%">
 Waits for the reports in the job to complete.
@@ -139,7 +139,7 @@ Waits for the reports in the job to complete.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9d0f7a7f-ad25-4d44-bc11-67da7685142a">Formats</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_formats">Formats</a>
 
 
 </td>
@@ -155,7 +155,7 @@ Retrieves or sets an array of formats which determine the content format of the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7a610d10-8e43-49b7-b85b-bb0ec122fda8">LastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_lasterror">LastError</a>
 
 
 </td>
@@ -171,7 +171,7 @@ Retrieves the error message from the last time the reports were run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b72ce871-41e0-4321-8c9c-0ae77a02c7ff">LastGeneratedInDirectory</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_lastgeneratedindirectory">LastGeneratedInDirectory</a>
 
 
 </td>
@@ -187,7 +187,7 @@ Retrieves the local directory path where the reports were stored the last time t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/90acfd1d-9cef-4900-8b67-d44509503809">LastRun</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_lastrun">LastRun</a>
 
 
 </td>
@@ -203,7 +203,7 @@ Retrieves the time stamp for when the reports were last run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8ec5d65a-9729-4d68-bceb-b07a2f56755e">MailTo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_mailto">MailTo</a>
 
 
 </td>
@@ -219,7 +219,7 @@ Retrieves or sets the email addresses of those that will receive the reports via
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/09c767ce-6a81-4c06-93cb-dd1a79d17d97">NamespaceRoots</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_namespaceroots">NamespaceRoots</a>
 
 
 </td>
@@ -235,7 +235,7 @@ Retrieves or sets an array of local directory paths that will be scanned when th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ae87183c-8e82-487c-b774-6b2b802fa645">RunningStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_runningstatus">RunningStatus</a>
 
 
 </td>
@@ -251,7 +251,7 @@ Retrieves the running status of the report job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2c9ceaca-f696-4506-bc25-efd601522560">Task</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_task">Task</a>
 
 
 </td>
@@ -271,14 +271,14 @@ Retrieves or sets the name of the report job.
 
 
 
-To <a href="https://msdn.microsoft.com/81c9b1db-7756-47b2-98e6-8e819d93cd0f">commit</a> the job, you must specify at least one 
-    <a href="https://msdn.microsoft.com/484941d1-726c-4765-8652-bcb378f277b4">report type</a>, at least one 
-    <a href="https://msdn.microsoft.com/09c767ce-6a81-4c06-93cb-dd1a79d17d97">namespace root</a>, and the 
-    <a href="https://msdn.microsoft.com/2c9ceaca-f696-4506-bc25-efd601522560">task name</a>.
+To <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">commit</a> the job, you must specify at least one 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-createreport">report type</a>, at least one 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_namespaceroots">namespace root</a>, and the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_task">task name</a>.
 
-To <a href="https://msdn.microsoft.com/74f369d1-2e3d-49a5-bf54-c1b7c13efbd7">run</a> the job, you must specify at least one 
-   <a href="https://msdn.microsoft.com/484941d1-726c-4765-8652-bcb378f277b4">report type</a> and 
-   <a href="https://msdn.microsoft.com/09c767ce-6a81-4c06-93cb-dd1a79d17d97">namespace root</a>.
+To <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-run">run</a> the job, you must specify at least one 
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-createreport">report type</a> and 
+   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_namespaceroots">namespace root</a>.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401660(v=VS.85).aspx">WINBIO_SENSOR_INTERFACE</a> structure for the sensor adapter.
+Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure for the sensor adapter.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd4
 
 ### -param SensorInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401660(v=VS.85).aspx">WINBIO_SENSOR_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-_winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a> structure.
 
 
 ## -returns
@@ -95,9 +95,9 @@ The <i>SensorInterface</i> parameter cannot be <b>NULL</b>.
 
 
 The Windows Biometric Framework calls this function after loading a sensor adapter DLL into memory.
-Every sensor adapter DLL must therefore implement and export the <a href="https://msdn.microsoft.com/d98da825-ce27-41ec-8f82-6f44e4854018">WbioQueryEngineInterface</a>  function. The function name is case-sensitive, and its spelling and signature must exactly match the description provided in the Syntax section.
+Every sensor adapter DLL must therefore implement and export the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioqueryengineinterface">WbioQueryEngineInterface</a>  function. The function name is case-sensitive, and its spelling and signature must exactly match the description provided in the Syntax section.
 
-To be visible to the Windows Biometric Framework, the <a href="https://msdn.microsoft.com/d98da825-ce27-41ec-8f82-6f44e4854018">WbioQueryEngineInterface</a> function must be named in the EXPORTS section of the export definition linker command file for the DLL.
+To be visible to the Windows Biometric Framework, the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioqueryengineinterface">WbioQueryEngineInterface</a> function must be named in the EXPORTS section of the export definition linker command file for the DLL.
 
 
 
@@ -129,7 +129,7 @@ WbioQuerySensorInterface(
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
  
 
  

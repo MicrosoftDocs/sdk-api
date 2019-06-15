@@ -61,7 +61,7 @@ Not implemented.
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/914f2a4d-a67a-45d9-96ee-d8cae7d08e3c">IEnumObjects</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects">IEnumObjects</a>**</b>
 
 Not used.
 

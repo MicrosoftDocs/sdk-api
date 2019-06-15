@@ -1752,15 +1752,15 @@ Index key attribute for an index entry.
 
 
 
-<a href="https://msdn.microsoft.com/009ad522-35da-4053-a7f6-61d7d240b98c">TAG Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/tag-types">TAG Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ff58e01-cc47-4612-a3bc-a87ccb343bd2">TAGID</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/tagid">TAGID</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7d83dca-13a5-4396-b50b-0d068209c03c">TAGREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/tagref">TAGREF</a>
  
 
  

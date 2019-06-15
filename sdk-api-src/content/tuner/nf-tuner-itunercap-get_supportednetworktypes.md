@@ -75,7 +75,7 @@ Receives a count of the number of network-type GUIDs actually written to the <i>
 
 ### -param pguidNetworkTypes [in, out]
 
-Receives an array of network-type GUIDs. For the list of valid network-type GUIDs, see <a href="https://msdn.microsoft.com/627e8aaf-7638-4d17-97b5-0aeaad304b98">Default Tuning Spaces</a>.
+Receives an array of network-type GUIDs. For the list of valid network-type GUIDs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/default-tuning-spaces">Default Tuning Spaces</a>.
 
 
 ## -returns
@@ -92,7 +92,7 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 
 
 
-<a href="https://msdn.microsoft.com/d7027ff4-4fb9-48c1-b527-92e65009b089">ITunerCap Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap Interface</a>
  
 
  

@@ -61,7 +61,7 @@ Registers a callback function to be called when a secured memory range is freed 
 ### -param pfnCallBack [in]
 
 A pointer to the application-defined 
-      <a href="https://msdn.microsoft.com/abde4b6f-7cd8-4a4b-9b00-f035b2c29054">SecureMemoryCacheCallback</a> function to 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a> function to 
       register.
 
 
@@ -73,7 +73,7 @@ If the function succeeds, it registers the callback function and returns
       <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-      the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+      the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -84,7 +84,7 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 An application that performs I/O directly to a high-performance device typically caches a virtual-to-physical 
     memory mapping for the buffer it uses for the I/O. The device's driver typically secures this memory address range 
-    by calling the <a href="https://msdn.microsoft.com/e5c2d5d5-550e-42e5-b86a-f17e361925dc">MmSecureVirtualMemory</a> routine, 
+    by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> routine, 
     which prevents the memory range from being freed or its protections  changed until the driver unsecures the 
     memory.
 
@@ -92,11 +92,11 @@ An application can use
     <b>AddSecureMemoryCacheCallback</b> to register 
     a callback function that will be called when the memory is freed or its protections are changed, so the 
     application can invalidate its cached memory mapping. For more information, see 
-    <a href="https://msdn.microsoft.com/abde4b6f-7cd8-4a4b-9b00-f035b2c29054">SecureMemoryCacheCallback</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a>.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 
     or later. For more information, see 
-    <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -106,11 +106,11 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/8be6ff04-34c7-4942-a38c-507584c8bbeb">RemoveSecureMemoryCacheCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removesecurememorycachecallback">RemoveSecureMemoryCacheCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/abde4b6f-7cd8-4a4b-9b00-f035b2c29054">SecureMemoryCacheCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-psecure_memory_cache_callback">SecureMemoryCacheCallback</a>
  
 
  

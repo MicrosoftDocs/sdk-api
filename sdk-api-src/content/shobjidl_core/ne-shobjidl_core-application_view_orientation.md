@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the set of display orientation modes for a window (app view). Used by <a href="https://msdn.microsoft.com/D6DF8432-7D37-4D39-9E08-2F5B874A0BCB">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a> and 
-            <a href="https://msdn.microsoft.com/FCD2FDFD-1058-45D6-B9D5-A4B845CF80AA">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>.
+Defines the set of display orientation modes for a window (app view). Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a> and 
+            <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>.
 
 
 ## -enum-fields
@@ -73,11 +73,11 @@ The window is in portrait orientation, with the display height greater than the 
 
 
 
-<a href="https://msdn.microsoft.com/D6DF8432-7D37-4D39-9E08-2F5B874A0BCB">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-getapplicationvieworientation">IApplicationDesignModeSettings2::GetApplicationViewOrientation</a>
 
 
 
-<a href="https://msdn.microsoft.com/FCD2FDFD-1058-45D6-B9D5-A4B845CF80AA">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings2-setapplicationvieworientation">IApplicationDesignModeSettings2::SetApplicationViewOrientation</a>
  
 
  

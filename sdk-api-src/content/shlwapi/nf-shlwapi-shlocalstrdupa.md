@@ -70,7 +70,7 @@ A pointer to a null-terminated, Unicode string to be copied.
 
 Type: <b>PTSTR*</b>
 
-The address of a pointer to an allocated string that, when this function returns successfully, receives the result. <b>SHLocalStrDup</b> allocates memory for this string with <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a>. You should free the string with <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> when it is no longer needed.
+The address of a pointer to an allocated string that, when this function returns successfully, receives the result. <b>SHLocalStrDup</b> allocates memory for this string with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>. You should free the string with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> when it is no longer needed.
 
 
 ## -returns

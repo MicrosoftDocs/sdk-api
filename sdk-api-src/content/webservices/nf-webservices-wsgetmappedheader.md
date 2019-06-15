@@ -63,7 +63,7 @@ Finds a mapped header in the message and deserializes it.
 The message containing the header.
                 
 
-The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -79,12 +79,12 @@ Whether the header may appear more than once in
                     the message.
                 
 
-If <a href="https://msdn.microsoft.com/7bbe5aba-e7b6-483d-8782-714a38ef4a99">WS_REPEATING_HEADER</a> is used, then
+If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_REPEATING_HEADER</a> is used, then
                     the header index indicates which of the headers
                     with the specified headerName to return.
                 
 
-If <a href="https://msdn.microsoft.com/7bbe5aba-e7b6-483d-8782-714a38ef4a99">WS_SINGLETON_HEADER</a> is used, then
+If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_SINGLETON_HEADER</a> is used, then
                     the headerIndex must be zero.
                 
 
@@ -105,11 +105,11 @@ The type of value to deserialize.
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value.
-                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
+                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
                 
 
 If the header is optional (may appear zero or one times), then
-                    <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTIONAL_POINTER</a> can be used.
+                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTIONAL_POINTER</a> can be used.
                 
 
 
@@ -122,13 +122,13 @@ The heap to store the deserialized header data in.
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
                 
 
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
                 
 
 
@@ -163,7 +163,7 @@ The input data was not in the expected format.
                 
 
 
-<a href="https://msdn.microsoft.com/7bbe5aba-e7b6-483d-8782-714a38ef4a99">WS_SINGLETON_HEADER</a> was specified, and there are
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_repeating_header_option">WS_SINGLETON_HEADER</a> was specified, and there are
                     multiple instances of the header with the specified name in the message.
                 
 
@@ -234,7 +234,7 @@ A message may contain additional transport-specific information that is
             
 
 When using the HTTP channel, the required mappings must be specified before headers
-                can be extracted with this function.  For more information, see <a href="https://msdn.microsoft.com/dff8217e-769d-4f0b-acf2-02d6e43589cf">WS_HTTP_MESSAGE_MAPPING</a>.
+                can be extracted with this function.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_message_mapping">WS_HTTP_MESSAGE_MAPPING</a>.
             
 
 

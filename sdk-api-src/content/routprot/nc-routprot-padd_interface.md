@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <b>AddInterface</b> function adds an interface to be managed by the routing protocol. The protocol should consider the interface to be in a disabled state. The router manager enables the interface by calling 
-<a href="https://msdn.microsoft.com/8fd674a6-375e-450c-bd6b-4f252977dd8e">InterfaceStatus</a> with the RIS_INTERFACE_ENABLED flag.
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pinterface_status">InterfaceStatus</a> with the RIS_INTERFACE_ENABLED flag.
 
-When a user calls <a href="https://msdn.microsoft.com/5978a8d3-78ea-4dc2-a957-32f00c81f52d">MprAdminInterfaceTransportAdd</a>, the dynamic interface manager for the transport calls the router manager (for the transport) which calls this function for each of the routing protocols associated with that transport.
+When a user calls <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacetransportadd">MprAdminInterfaceTransportAdd</a>, the dynamic interface manager for the transport calls the router manager (for the transport) which calls this function for each of the routing protocols associated with that transport.
 
 
 ## -parameters
@@ -211,15 +211,15 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, an interface with t
 
 
 
-<a href="https://msdn.microsoft.com/0b4c24d4-2588-412e-b3ec-dd73cbdac921">DeleteInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdelete_interface">DeleteInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd780458-ef23-4ef2-8fe8-29b32100917f">Routing Protocol Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0429f5ca-6574-48f5-85ab-70b4677ca539">Routing Protocol Interface Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
  
 
  

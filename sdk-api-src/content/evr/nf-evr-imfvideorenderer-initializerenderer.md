@@ -63,12 +63,12 @@ Sets a new mixer or presenter for the enhanced video renderer (EVR).
 
 ### -param pVideoMixer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface of the mixer to use. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the EVR uses its default mixer.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of the mixer to use. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the EVR uses its default mixer.
 
 
 ### -param pVideoPresenter [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/8f6e3132-03e9-4a2e-9160-e39d29cf2408">IMFVideoPresenter</a> interface of the presenter to use. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the EVR uses its default presenter.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a> interface of the presenter to use. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the EVR uses its default presenter.
 
 
 ## -returns
@@ -151,11 +151,11 @@ Call this method directly after creating the EVR, before you do any of the follo
 
 <ul>
 <li>
-Call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> on the EVR.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> on the EVR.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/72777c3d-b098-43b9-80ea-ef180b7f1a4a">IEVRFilterConfig::SetNumberOfStreams</a> on the EVR.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-ievrfilterconfig-setnumberofstreams">IEVRFilterConfig::SetNumberOfStreams</a> on the EVR.
 
 </li>
 <li>
@@ -165,7 +165,7 @@ Connect any pins on the EVR filter, or set any media types on EVR media sink.
 </ul>
 The EVR filter returns VFW_E_WRONG_STATE if any of the filter's pins are connected. The EVR media sink returns MF_E_INVALIDREQUEST if a media type is set on any of the streams, or the presentation clock is running or paused.
 
-The device identifiers for the mixer and the presenter must match. The <a href="https://msdn.microsoft.com/e23ebce0-be58-413a-ab71-d94811c96029">IMFVideoDeviceID::GetDeviceID</a> method returns the device identifier. If they do not match, the method returns E_INVALIDARG.
+The device identifiers for the mixer and the presenter must match. The <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodeviceid-getdeviceid">IMFVideoDeviceID::GetDeviceID</a> method returns the device identifier. If they do not match, the method returns E_INVALIDARG.
 
 If the video renderer is in the protected media path (PMP), the mixer and presenter objects must be certified safe components and pass any trust authority verification that is being enforced. Otherwise, this method will fail.
 
@@ -177,15 +177,15 @@ If the video renderer is in the protected media path (PMP), the mixer and presen
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/1135b309-b158-4b70-9f76-5c93d0ad3250">How to Write an EVR Presenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://msdn.microsoft.com/70596630-5131-460f-9cb3-adcea201c3b2">IMFVideoRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideorenderer">IMFVideoRenderer</a>
  
 
  

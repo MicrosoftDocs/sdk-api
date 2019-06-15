@@ -59,7 +59,7 @@ Decrypts a <b>SEC_WINNT_AUTH_IDENTITY_OPAQUE</b> structure.
 
 ### -param Options [in]
 
-Decryption options. This parameter should be the same value as the value passed to the <a href="https://msdn.microsoft.com/9290BEF8-24C9-47F0-B258-56ED7D67620B">SspiEncryptAuthIdentityEx</a> function, which can be one of the following values.
+Decryption options. This parameter should be the same value as the value passed to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function, which can be one of the following values.
 
 <table>
 <tr>
@@ -84,7 +84,7 @@ The encrypted structure can only be decrypted by a security context in the same 
 </dl>
 </td>
 <td width="60%">
-The encrypted structure can only be decrypted by the same process. Calling the function with this option is equivalent to calling <a href="https://msdn.microsoft.com/4460f7ec-35fd-4ad1-8c20-dda9f4d3477a">SspiEncryptAuthIdentity</a>. This option is used to protect an identity buffer that is being persisted in a process's private memory for an extended period.
+The encrypted structure can only be decrypted by the same process. Calling the function with this option is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentity">SspiEncryptAuthIdentity</a>. This option is used to protect an identity buffer that is being persisted in a process's private memory for an extended period.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ The encrypted structure can only be decrypted by the same process. Calling the f
 
 ### -param EncryptedAuthData [in, out]
 
- This buffer is the output of the <a href="https://msdn.microsoft.com/9290BEF8-24C9-47F0-B258-56ED7D67620B">SspiEncryptAuthIdentityEx</a> function. 
+ This buffer is the output of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function. 
 
 
 ## -returns

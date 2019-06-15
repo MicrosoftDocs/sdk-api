@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a reference to the function table <a href="https://msdn.microsoft.com/f090b05e-e99b-47aa-8458-8e2cf9031ac7">MI_FilterFT</a>.
+Contains a reference to the function table <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filterft">MI_FilterFT</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains a reference to the function table <a href="https://msdn.microsoft.com/f
 
 ### -field ft
 
-Pointer to the <a href="https://msdn.microsoft.com/f090b05e-e99b-47aa-8458-8e2cf9031ac7">MI_FilterFT</a> function table.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_filterft">MI_FilterFT</a> function table.
 
 
 ### -field reserved

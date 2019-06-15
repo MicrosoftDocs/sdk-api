@@ -54,7 +54,7 @@ Exposes methods that report status and error messages about tasks to Remote Desk
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbTaskPluginNotifySink</b> interface inherits from <a href="https://msdn.microsoft.com/11ef1bd4-301f-456b-a68b-2f32b75ac5ae">ITsSbBaseNotifySink</a>. <b>ITsSbTaskPluginNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbTaskPluginNotifySink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbTaskPluginNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbTaskPluginNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f78a22c3-45e6-4bb1-9ea0-9958339a4ff3">OnDeleteTaskTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskpluginnotifysink-ondeletetasktime">OnDeleteTaskTime</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Connection Broker that a task has been removed from the queue.
@@ -78,7 +78,7 @@ Notifies RD Connection Broker that a task has been removed from the queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3b722c2-e6fa-46c5-a851-a039553b8e95">OnReportTasks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskpluginnotifysink-onreporttasks">OnReportTasks</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Connection Broker of a new task report.
@@ -87,7 +87,7 @@ Notifies RD Connection Broker of a new task report.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f9b58ba-8cda-4f8d-9c23-19475262148c">OnSetTaskTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskpluginnotifysink-onsettasktime">OnSetTaskTime</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Connection Broker that a task has been scheduled.
@@ -96,7 +96,7 @@ Notifies RD Connection Broker that a task has been scheduled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fc22173-12b2-41a4-a487-8092088ecfe9">OnUpdateTaskStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbtaskpluginnotifysink-onupdatetaskstatus">OnUpdateTaskStatus</a>
 </td>
 <td align="left" width="63%">
 Notifies RD Connection Broker that the status of a task has changed.
@@ -111,11 +111,11 @@ Notifies RD Connection Broker that the status of a task has changed.
 
 
 
-<a href="https://msdn.microsoft.com/11ef1bd4-301f-456b-a68b-2f32b75ac5ae">ITsSbBaseNotifySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
 
 
 
-<a href="https://msdn.microsoft.com/150a3c9a-d504-4854-adaa-92e3a7e8ea70">Remote Desktop Virtualization Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
  
 
  

@@ -63,7 +63,7 @@ The <code>SetScalingFactors</code> method sets the factors by which the decoder 
 
 ### -param pamvpSize [in]
 
-Pointer to the new scaling size structure (<a href="https://msdn.microsoft.com/en-us/library/Dd373452(v=VS.85).aspx">AMVPSIZE</a>) to use to specify the width and height.
+Pointer to the new scaling size structure (<a href="https://docs.microsoft.com/windows/desktop/api/vptype/ns-vptype-_amvpsize">AMVPSIZE</a>) to use to specify the width and height.
 
 
 ## -returns
@@ -91,11 +91,11 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390583(v=VS.85).aspx">IVPConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig Interface</a>
  
 
  

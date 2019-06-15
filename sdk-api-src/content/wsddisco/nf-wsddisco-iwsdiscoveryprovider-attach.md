@@ -116,7 +116,7 @@ A callback interface has already been attached to the provider.
 
 
 
-<div class="alert"><b>Note</b>  Attach must be called before any other <a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>method is used, except for <a href="https://msdn.microsoft.com/33b13cd5-ea60-4928-a220-db563c00a43c">SetAddressFamily</a>.</div>
+<div class="alert"><b>Note</b>  Attach must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>method is used, except for <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-setaddressfamily">SetAddressFamily</a>.</div>
 <div> </div>
 
 
@@ -126,7 +126,7 @@ A callback interface has already been attached to the provider.
 
 
 
-<a href="https://msdn.microsoft.com/e3d3acc2-914b-40bd-9e1e-a3a612821ab7">IWSDiscoveryProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
  
 
  

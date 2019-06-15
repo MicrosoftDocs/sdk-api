@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CertModifyCertificatesToTrust</b> function  modifies the set of certificates in a certificate trust list (CTL) for a given purpose.
-<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to CryptDlg.dll.</div><div> </div>
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The number of modification requests that are in the <i>rgCerts</i> parameter.
 
 ### -param rgCerts [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8">CTL_MODIFY_REQUEST</a> structure that contains an array of modification requests.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-_ctl_modify_request">CTL_MODIFY_REQUEST</a> structure that contains an array of modification requests.
 
 
 ### -param szPurpose [in]
@@ -84,7 +84,7 @@ A handle to the certificate store in which to modify the list of trusted certifi
 
 ### -param pccertSigner [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure that contains a certificate. It is used to sign the trust list. The certificate also restricts the set of trust lists that may be modified. If <b>NULL</b>, the trust list is not signed.
 
 
 ## -returns
@@ -101,7 +101,7 @@ An <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-<a href="https://msdn.microsoft.com/b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8">CTL_MODIFY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/ns-cryptdlg-_ctl_modify_request">CTL_MODIFY_REQUEST</a>
  
 
  

@@ -97,11 +97,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/ff412213-60e5-43d8-8cb1-e7ae8b3ca1bc">IDrawVideoImage Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idrawvideoimage">IDrawVideoImage Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cecc3ae4-f1fa-437e-b967-c54fca10b27c">IDrawVideoImage::DrawVideoImageDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagedraw">IDrawVideoImage::DrawVideoImageDraw</a>
  
 
  

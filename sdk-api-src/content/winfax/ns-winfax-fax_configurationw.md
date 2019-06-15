@@ -63,7 +63,7 @@ The <b>FAX_CONFIGURATION</b> structure contains information about the global con
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_CONFIGURATION</b> structure. The calling application must set this member to <b>sizeof(FAX_CONFIGURATION)</b> before it calls the <a href="https://msdn.microsoft.com/en-us/library/ms692787(v=VS.85).aspx">FaxSetConfiguration</a> function.
+Specifies the size, in bytes, of the <b>FAX_CONFIGURATION</b> structure. The calling application must set this member to <b>sizeof(FAX_CONFIGURATION)</b> before it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetconfigurationa">FaxSetConfiguration</a> function.
 
 
 ### -field Retries
@@ -98,7 +98,7 @@ Specifies a Boolean variable that indicates whether the fax server should genera
 
 Type: <b>BOOL</b>
 
-Specifies a Boolean variable that indicates whether the fax server will use the device's transmitting station identifier instead of the value specified in the <b>Tsid</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms691278(v=VS.85).aspx">FAX_JOB_PARAM</a> structure. If this member is <b>TRUE</b>, the server uses the device's transmitting station identifier.
+Specifies a Boolean variable that indicates whether the fax server will use the device's transmitting station identifier instead of the value specified in the <b>Tsid</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a> structure. If this member is <b>TRUE</b>, the server uses the device's transmitting station identifier.
 
 
 ### -field ServerCp
@@ -117,16 +117,16 @@ Specifies a Boolean variable that indicates whether the fax server has paused th
 
 ### -field StartCheapTime
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms691289(v=VS.85).aspx">FAX_TIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a></b>
 
-Specifies a <a href="https://msdn.microsoft.com/en-us/library/ms691289(v=VS.85).aspx">FAX_TIME</a> structure that indicates the hour and minute at which the discount period begins. The discount period applies only to outgoing transmissions.
+Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a> structure that indicates the hour and minute at which the discount period begins. The discount period applies only to outgoing transmissions.
 
 
 ### -field StopCheapTime
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms691289(v=VS.85).aspx">FAX_TIME</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a></b>
 
-Specifies a <a href="https://msdn.microsoft.com/en-us/library/ms691289(v=VS.85).aspx">FAX_TIME</a> structure that indicates the hour and minute at which the discount period ends. The discount period applies only to outgoing transmissions.
+Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a> structure that indicates the hour and minute at which the discount period ends. The discount period applies only to outgoing transmissions.
 
 
 ### -field ArchiveOutgoingFaxes
@@ -161,7 +161,7 @@ The inbound routing profile used for email.
 
 
 
-The fax client application passes the <b>FAX_CONFIGURATION</b> structure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms692787(v=VS.85).aspx">FaxSetConfiguration</a> function to change the global configuration settings for the fax server of interest. If the application calls the <a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a> function, it returns the current settings in a <b>FAX_CONFIGURATION</b> structure. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms691849(v=VS.85).aspx">Fax Server Configuration Management</a>.
+The fax client application passes the <b>FAX_CONFIGURATION</b> structure in a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetconfigurationa">FaxSetConfiguration</a> function to change the global configuration settings for the fax server of interest. If the application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a> function, it returns the current settings in a <b>FAX_CONFIGURATION</b> structure. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-server-configuration-management">Fax Server Configuration Management</a>.
 
 
 
@@ -171,27 +171,27 @@ The fax client application passes the <b>FAX_CONFIGURATION</b> structure in a ca
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691278(v=VS.85).aspx">FAX_JOB_PARAM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_job_parama">FAX_JOB_PARAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691289(v=VS.85).aspx">FAX_TIME</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_time">FAX_TIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691952(v=VS.85).aspx">Fax Service Client API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692282(v=VS.85).aspx">FaxGetConfiguration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692787(v=VS.85).aspx">FaxSetConfiguration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetconfigurationa">FaxSetConfiguration</a>
  
 
  

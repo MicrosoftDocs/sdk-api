@@ -94,5 +94,5 @@ Use CredSSP authentication for a remote operation. If a certificate from the loc
 
 ### -field WSMAN_FLAG_AUTH_CLIENT_CERTIFICATE
 
-Use client certificate authentication. The certificate thumbprint is passed as part of the <a href="https://msdn.microsoft.com/e9090d88-c76e-4a85-946e-ff46403e6725">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure. The WinRM client will try to find the certificate in the computer store and then, if it is not found, in the current user store. If no matching certificate is found, an error will be reported to the user.
+Use client certificate authentication. The certificate thumbprint is passed as part of the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_authentication_credentials">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure. The WinRM client will try to find the certificate in the computer store and then, if it is not found, in the current user store. If no matching certificate is found, an error will be reported to the user.
 

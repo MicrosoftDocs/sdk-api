@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capCaptureAbort</b> macro stops the capture operation. You can use this macro or explictly send the <a href="https://msdn.microsoft.com/a0479d73-8422-4833-9e8a-c262ec386f58">WM_CAP_ABORT</a> message.
+The <b>capCaptureAbort</b> macro stops the capture operation. You can use this macro or explictly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-abort">WM_CAP_ABORT</a> message.
 
 
 
@@ -73,7 +73,7 @@ The capture operation must yield to use this macro.
 
 In the case of step capture, the image data collected up to the point of the <b>capCaptureAbort</b> macro will be retained in the capture file, but audio will not be captured.
 
-Use the <a href="https://msdn.microsoft.com/79b33f36-1bf9-41f2-827f-d0cfa276113e">capCaptureStop</a> macro to halt step capture at the current position, and then capture audio.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturestop">capCaptureStop</a> macro to halt step capture at the current position, and then capture audio.
 
 
 
@@ -83,15 +83,15 @@ Use the <a href="https://msdn.microsoft.com/79b33f36-1bf9-41f2-827f-d0cfa276113e
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/79b33f36-1bf9-41f2-827f-d0cfa276113e">capCaptureStop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcapturestop">capCaptureStop</a>
  
 
  

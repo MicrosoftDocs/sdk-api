@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Use the 
 <b>PostShell</b> method when a user has logged on and Windows Explorer is running. This method is different from the 
-<a href="https://msdn.microsoft.com/36caaccf-0cb3-47b8-b0bc-68f9bb21f235">Logon</a> method because 
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-logon">Logon</a> method because 
 <b>Logon</b> is called after logon when the Shell may not yet be running.
 
 
@@ -113,19 +113,19 @@ SENS calls this method to notify your application that a user has logged on and 
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://msdn.microsoft.com/be61b5b9-d4f1-40ea-a734-7b02c06e41e8">ISensLogon2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isenslogon2">ISensLogon2</a>
 
 
 
-<a href="https://msdn.microsoft.com/b45658a1-d427-42b2-912c-5e5c36dab280">ISensLogon::Logoff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-logoff">ISensLogon::Logoff</a>
 
 
 
-<a href="https://msdn.microsoft.com/90c40b7a-e324-43fc-a1e6-f29997ed9436">Terminal Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
  
 
  

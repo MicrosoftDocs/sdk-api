@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetBitmapDimensionEx</b> function retrieves the dimensions of a compatible bitmap. The retrieved dimensions must have been set by the <a href="https://msdn.microsoft.com/23960533-de71-4bff-a43f-75e5fe38fbec">SetBitmapDimensionEx</a> function.
+The <b>GetBitmapDimensionEx</b> function retrieves the dimensions of a compatible bitmap. The retrieved dimensions must have been set by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbitmapdimensionex">SetBitmapDimensionEx</a> function.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to a compatible bitmap (DDB).
 
 ### -param lpsize [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a> structure to receive the bitmap dimensions. For more information, see Remarks.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure to receive the bitmap dimensions. For more information, see Remarks.
 
 
 ## -returns
@@ -94,19 +94,19 @@ The function returns a data structure that contains fields for the height and wi
 
 
 
-<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cb0802c-1868-4f3b-8287-c6fb1fa7ab68">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/23960533-de71-4bff-a43f-75e5fe38fbec">SetBitmapDimensionEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbitmapdimensionex">SetBitmapDimensionEx</a>
  
 
  

@@ -70,16 +70,16 @@ Handle to the ACM driver to query for waveform-audio format details. If this par
 
 ### -param pafd
 
-Pointer to an <a href="https://msdn.microsoft.com/a0760541-c083-447d-a812-dd7f05afb622">ACMFORMATDETAILS</a> structure to contain the format details passed to the <b>fnCallback</b> function. This structure must have the <b>cbStruct</b>, <b>pwfx</b>, and <b>cbwfx</b> members of the <b>ACMFORMATDETAILS</b> structure initialized. The <b>dwFormatTag</b> member must also be initialized to either WAVE_FORMAT_UNKNOWN or a valid format tag.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure to contain the format details passed to the <b>fnCallback</b> function. This structure must have the <b>cbStruct</b>, <b>pwfx</b>, and <b>cbwfx</b> members of the <b>ACMFORMATDETAILS</b> structure initialized. The <b>dwFormatTag</b> member must also be initialized to either WAVE_FORMAT_UNKNOWN or a valid format tag.
 
 The <b>fdwSupport</b> member of the structure must be initialized to zero.
 
-To find the required size of the <b>pwfx</b> buffer, call <a href="https://msdn.microsoft.com/30b6dc13-b523-4c42-aa35-c86b3ebe04c3">acmMetrics</a> with the ACM_METRIC_MAX_SIZE_FORMAT flag.
+To find the required size of the <b>pwfx</b> buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> with the ACM_METRIC_MAX_SIZE_FORMAT flag.
 
 
 ### -param fnCallback
 
-Address of an application-defined callback function. See <a href="https://msdn.microsoft.com/58775258-c42c-4d59-8922-c478b5bdf0d7">acmFormatEnumCallback</a>. This parameter cannot be <b>NULL</b>.
+Address of an application-defined callback function. See <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nc-msacm-acmformatenumcb">acmFormatEnumCallback</a>. This parameter cannot be <b>NULL</b>.
 
 
 ### -param dwInstance
@@ -100,7 +100,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_CONVERT</td>
-<td>The <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://msdn.microsoft.com/a0760541-c083-447d-a812-dd7f05afb622">ACMFORMATDETAILS</a> structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+<td>The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NCHANNELS</td>
-<td>The <b>nChannels</b> member of the <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://msdn.microsoft.com/a0760541-c083-447d-a812-dd7f05afb622">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
+<td>The <b>nChannels</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NSAMPLESPERSEC</td>
@@ -126,7 +126,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_SUGGEST</td>
-<td>The <a href="https://msdn.microsoft.com/bd0f96ec-d26a-4e6f-8802-50e8ff207f54">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://msdn.microsoft.com/a0760541-c083-447d-a812-dd7f05afb622">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="https://msdn.microsoft.com/c7618d7e-e41e-4513-9511-2133ef5a1582">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+<td>The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatsuggest">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>
@@ -309,11 +309,11 @@ BOOL CALLBACK acmFormatEnumCallback(
 
 
 
-<a href="https://msdn.microsoft.com/da207a50-9c67-4cf3-920b-5878637060db">Audio Compression Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f9a4540-86c0-40e6-b4da-24a9d31b56bf">Audio Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
  
 
  

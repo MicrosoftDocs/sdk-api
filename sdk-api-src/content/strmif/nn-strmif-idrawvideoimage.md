@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  This interface has been deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IDrawVideoImage</code> interface enables an application to draw the same video image in multiple places simultaneously on the screen. The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Video Renderer</a> filter exposes this interface. The Video Mixing Renderer (VMR) filter provides a better way to accomplish the same effect, through the use of multiple input streams.
+The <code>IDrawVideoImage</code> interface enables an application to draw the same video image in multiple places simultaneously on the screen. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter exposes this interface. The Video Mixing Renderer (VMR) filter provides a better way to accomplish the same effect, through the use of multiple input streams.
 
 To use this interface, call <b>DrawVideoImageBegin</b> to put the Video Renderer into GDI mode. Then the application can call the <b>DrawVideoImageDraw</b> method as often as necessary. The renderer simply takes the current video frame and draws it to the specified rectangle. This process is asynchronous to the delivery of frames to the renderer on the filter graph thread. The application is responsible for the frame rate at which it renders images; this rate will never be the same as the rate of the frames being delivered to the filter. In other words, calling this method is like taking a periodic shapshot of the video and putting it into a device context of your choosing at a rate of your choosing.
 
@@ -61,7 +61,7 @@ To use this interface, call <b>DrawVideoImageBegin</b> to put the Video Renderer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDrawVideoImage</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDrawVideoImage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDrawVideoImage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDrawVideoImage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,16 +76,16 @@ The <b>IDrawVideoImage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a39125b3-15b1-428d-aa64-c1b2bccf616a">DrawVideoImageBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagebegin">DrawVideoImageBegin</a>
 </td>
 <td align="left" width="63%">
-Turns off DirectDraw in preparation for a call to <a href="https://msdn.microsoft.com/cecc3ae4-f1fa-437e-b967-c54fca10b27c">DrawVideoImageDraw</a>.
+Turns off DirectDraw in preparation for a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagedraw">DrawVideoImageDraw</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cecc3ae4-f1fa-437e-b967-c54fca10b27c">DrawVideoImageDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimagedraw">DrawVideoImageDraw</a>
 </td>
 <td align="left" width="63%">
 Draws the specified source rectangle to the specified destination rectangle in the specified GDI device context.
@@ -94,7 +94,7 @@ Draws the specified source rectangle to the specified destination rectangle in t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/051fa283-849d-494c-bebf-d7adabb807a0">DrawVideoImageEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idrawvideoimage-drawvideoimageend">DrawVideoImageEnd</a>
 </td>
 <td align="left" width="63%">
 Turns DirectDraw back on after drawing has been performed.
@@ -109,7 +109,7 @@ Turns DirectDraw back on after drawing has been performed.
 
 
 
-<a href="https://msdn.microsoft.com/5b798477-9b36-4f59-b9cc-2938b5e4009f">Deprecated Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
  
 
  

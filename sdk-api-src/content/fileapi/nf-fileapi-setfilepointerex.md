@@ -69,7 +69,7 @@ Moves the file pointer of the specified file.
 A handle to the file. The file handle must have been created with the 
       <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more 
       information, see 
-      <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 
 ### -param liDistanceToMove [in]
@@ -138,7 +138,7 @@ The starting point is the current end-of-file position.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -150,34 +150,34 @@ If the function fails, the return value is zero. To get extended error informati
 The file pointer returned by this function is not used for overlapped read and write operations. To specify 
     the offset for overlapped operations, use the <b>Offset</b> and 
     <b>OffsetHigh</b> members of the 
-    <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure.
+    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> structure.
 
 You cannot use the <b>SetFilePointerEx</b> function with a handle to a nonseeking 
     device such as a pipe or a communications device. To determine the file type for <i>hFile</i>, 
-    use the <a href="https://msdn.microsoft.com/11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa">GetFileType</a> function.
+    use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a> function.
 
 Use caution when setting the file pointer in a multithreaded application. You must synchronize access to 
     shared resources. For example, an application whose threads share a file handle, update the file pointer, and read 
     from the file must protect this sequence by using a critical section object or a mutex object. For more 
     information about these objects, see 
-    <a href="https://msdn.microsoft.com/2ec11a42-3d12-4d60-9dd7-dc38926d56e1">Critical Section Objects</a> 
-    and <a href="https://msdn.microsoft.com/eca0795a-1fd0-4034-9d61-9416670919cf">Mutex Objects</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a> 
+    and <a href="https://docs.microsoft.com/windows/desktop/Sync/mutex-objects">Mutex Objects</a>.
 
 If the <i>hFile</i> handle was opened with the 
     <b>FILE_FLAG_NO_BUFFERING</b> flag set, an application can move the file pointer only to 
     sector-aligned positions. A sector-aligned position is a position that is a whole number multiple of the volume's 
     sector size. An application can obtain a volume's sector size by calling the 
-    <a href="https://msdn.microsoft.com/4fe14c49-3fd6-48b7-92de-a0c867b2e042">GetDiskFreeSpace</a> function. If an application 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function. If an application 
     calls <b>SetFilePointerEx</b> with distance-to-move values that result in a position 
     that is not sector-aligned and a handle that was opened with <b>FILE_FLAG_NO_BUFFERING</b>, the 
-    function fails, and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+    function fails, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
     <b>ERROR_INVALID_PARAMETER</b>. For additional information, see 
-    <a href="https://msdn.microsoft.com/ae1e5d0f-9b55-4aae-8402-b9c8e33d9363">File Buffering</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a>.
 
 Note that it is not an error to set the file pointer to a position beyond the end of the file. The size of the 
-    file does not increase until you call the <a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a>, 
-    <a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>, or 
-    <a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a> function. A write operation increases the size 
+    file does not increase until you call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>, or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a> function. A write operation increases the size 
     of the file to the file pointer position plus the size of the buffer written, leaving the intervening bytes 
     uninitialized.
 
@@ -185,7 +185,7 @@ You can use <b>SetFilePointerEx</b> to determine the length of a file. To do thi
     use <b>FILE_END</b> for <i>dwMoveMethod</i> and seek to location zero. The 
     file offset returned is the length of the file. However, this practice can have unintended side effects, such as 
     failure to save the current file pointer so that the program can return to that location. It is simpler and safer 
-    to use the <a href="https://msdn.microsoft.com/782457bc-8f37-4eec-8ff3-b148fd0a7345">GetFileSizeEx</a> function instead.
+    to use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a> function instead.
 
 You can also use <b>SetFilePointerEx</b> to query the current file pointer position. 
     To do this, specify a move method of <b>FILE_CURRENT</b> and a distance of zero.
@@ -258,31 +258,31 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/a52f2dbd-bda6-4217-9e72-f100f8bbe334">GetDiskFreeSpaceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa">GetDiskFreeSpaceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/782457bc-8f37-4eec-8ff3-b148fd0a7345">GetFileSizeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesizeex">GetFileSizeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa">GetFileType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletype">GetFileType</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a579609-144a-4b77-8605-87aecf1f0957">SetEndOfFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d6fa723-fe3e-4052-b0b3-2686eee076a7">WriteFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6995c4ee-ba91-41d5-b72d-19dc2eb95945">WriteFileEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
  
 
  

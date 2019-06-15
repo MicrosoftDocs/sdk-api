@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains trigger-specific data for a service trigger event. This structure is used by the <a href="https://msdn.microsoft.com/a57aa702-40a2-4880-80db-6c4f43c3e7ea">SERVICE_TRIGGER</a> structure for SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT trigger events. 
+Contains trigger-specific data for a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger">SERVICE_TRIGGER</a> structure for SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT trigger events. 
 
 
 ## -struct-fields
@@ -218,19 +218,19 @@ The following table lists trigger-specific data by trigger event type.
 
 
 
-<a href="https://msdn.microsoft.com/6e5b79ed-52e1-460e-b076-01afbd08775c">ChangeServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb090e59-aeff-4420-bb7c-912a4911006f">QueryServiceConfig2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/a57aa702-40a2-4880-80db-6c4f43c3e7ea">SERVICE_TRIGGER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-_service_trigger">SERVICE_TRIGGER</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca02a3ae-b16a-4427-b6db-b935c9cf23b3">Service Trigger Events</a>
+<a href="https://docs.microsoft.com/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
  
 
  

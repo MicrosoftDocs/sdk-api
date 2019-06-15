@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 
 
-Deprecated.  The <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> has been replaced by the <a href="https://msdn.microsoft.com/867f2d6f-e63a-4c02-9370-3848a3b5c40a">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Sets the position of the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> object to a static screen position.
+Sets the position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to a static screen position.
 
 
 
@@ -127,13 +127,13 @@ An unspecified error occurred.
 
 
 
-The <b>MoveTo</b> method causes an error if the control to which the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> is attached does not have focus. This method can be safely called if the pen input panel is not visible, as long as the attached control has focus.
+The <b>MoveTo</b> method causes an error if the control to which the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> is attached does not have focus. This method can be safely called if the pen input panel is not visible, as long as the attached control has focus.
 
 If the new position causes the panel to appear outside the boundary of the screen working area, the panel is shifted toward the center of the working area so that the edges of the panel are adjacent to the nearest edges of the screen.
 
-To explicitly override the automatic positioning behavior of the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> object, use the <a href="https://msdn.microsoft.com/99af3767-5bc9-43e3-9413-5886f057cb85">Left</a> and <a href="https://msdn.microsoft.com/718263ae-d6ba-47ec-a18b-50488480b599">Top</a> properties of the <b>PenInputPanel</b> object to determine its current position. If the <b>PenInputPanel</b> is located on a section of the screen that should be visible, use the <b>MoveTo</b> method to relocate the <b>PenInputPanel</b>.
+To explicitly override the automatic positioning behavior of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, use the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left</a> and <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top">Top</a> properties of the <b>PenInputPanel</b> object to determine its current position. If the <b>PenInputPanel</b> is located on a section of the screen that should be visible, use the <b>MoveTo</b> method to relocate the <b>PenInputPanel</b>.
 
-You can also override the automatic positioning behavior of the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a> object by monitoring to the <a href="https://msdn.microsoft.com/99af3767-5bc9-43e3-9413-5886f057cb85">Left</a> and <a href="https://msdn.microsoft.com/718263ae-d6ba-47ec-a18b-50488480b599">Top</a> parameters passed to a <a href="https://msdn.microsoft.com/0c51d875-cef9-4087-b17d-5c5af04f81a5">PanelMoving</a> event handler. If the <b>PenInputPanel</b> is located on a section of the screen that should be visible, use the <b>MoveTo</b> method to relocate the <b>PenInputPanel</b>.
+You can also override the automatic positioning behavior of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object by monitoring to the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left</a> and <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top">Top</a> parameters passed to a <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-panelmoving">PanelMoving</a> event handler. If the <b>PenInputPanel</b> is located on a section of the screen that should be visible, use the <b>MoveTo</b> method to relocate the <b>PenInputPanel</b>.
 
 
 
@@ -147,7 +147,7 @@ You can also override the automatic positioning behavior of the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf-be1129839c33">PenInputPanel</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
  
 
  

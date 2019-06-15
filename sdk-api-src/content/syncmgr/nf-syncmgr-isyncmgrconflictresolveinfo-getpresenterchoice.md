@@ -59,16 +59,16 @@ Gets what kind of choice was made and whether to apply the choice to all subsequ
 
 ### -param pnPresenterChoice [out]
 
-Type: <b><a href="https://msdn.microsoft.com/5e98754b-51d7-4798-9c69-8a9a839c4cda">SYNCMGR_PRESENTER_CHOICE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_choice">SYNCMGR_PRESENTER_CHOICE</a>*</b>
 
-When this method returns, contains a pointer to the choice that was made about the conflict resolution. One of the members of the <a href="https://msdn.microsoft.com/5e98754b-51d7-4798-9c69-8a9a839c4cda">SYNCMGR_PRESENTER_CHOICE</a> enumeration.
+When this method returns, contains a pointer to the choice that was made about the conflict resolution. One of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_choice">SYNCMGR_PRESENTER_CHOICE</a> enumeration.
 
 
 ### -param pfApplyToAll [out]
 
 Type: <b>BOOL*</b>
 
-When this method returns, contains a pointer to a flag. If <b>TRUE</b>, then the given choice is to be applied to all subsequent conflicts in the set, and <a href="https://msdn.microsoft.com/3c857e53-756b-44c2-b3fa-6d57c21939e7">ISyncMgrConflictResolveInfo::GetItemChoice</a> and <a href="https://msdn.microsoft.com/7604455c-35ab-4f94-8e5a-3f6aa83fc9cf">ISyncMgrConflictResolveInfo::GetItemChoiceCount</a> have information on how to apply this choice. Otherwise <b>FALSE</b>.
+When this method returns, contains a pointer to a flag. If <b>TRUE</b>, then the given choice is to be applied to all subsequent conflicts in the set, and <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getitemchoice">ISyncMgrConflictResolveInfo::GetItemChoice</a> and <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getitemchoicecount">ISyncMgrConflictResolveInfo::GetItemChoiceCount</a> have information on how to apply this choice. Otherwise <b>FALSE</b>.
 
 
 ## -returns
@@ -87,11 +87,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/c47d533f-7307-4db3-a025-961f3419203e">ISyncMgrConflictResolveInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo">ISyncMgrConflictResolveInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f4bfe69-1ff3-4d21-9c27-f5d8ecfc8371">ISyncMgrConflictResolveInfo::SetPresenterChoice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenterchoice">ISyncMgrConflictResolveInfo::SetPresenterChoice</a>
  
 
  

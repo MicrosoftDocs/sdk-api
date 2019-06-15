@@ -91,7 +91,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-The application has not implemented this method. This is usually an indication that calculating the end position requires excessive resources. If the end position is necessary, you can use <a href="https://msdn.microsoft.com/c3788e8f-ddb8-4ad6-971c-e9c1f6a21f88">ITextStoreACP::GetText</a> to calculate it, though this can also be a memory-intensive operation, paging in arbitrarily large amounts of memory from disk.
+The application has not implemented this method. This is usually an indication that calculating the end position requires excessive resources. If the end position is necessary, you can use <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettext">ITextStoreACP::GetText</a> to calculate it, though this can also be a memory-intensive operation, paging in arbitrarily large amounts of memory from disk.
 
 </td>
 </tr>
@@ -117,11 +117,11 @@ The caller does not have a read-only lock.
 
 
 
-<a href="https://msdn.microsoft.com/21e011f7-6791-4eb9-85c9-18bd10107119">ITextStoreACP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3788e8f-ddb8-4ad6-971c-e9c1f6a21f88">ITextStoreACP::GetText
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettext">ITextStoreACP::GetText
       </a>
  
 

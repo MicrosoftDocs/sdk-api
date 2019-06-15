@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Is called by the holder of the <a href="https://msdn.microsoft.com/34825538-85dd-4e86-a306-79cd60b3bc0b">COM+ Resource Dispenser</a> to create, enlist, evaluate, prepare, and destroy a resource.
+Is called by the holder of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--resource-dispenser-service">COM+ Resource Dispenser</a> to create, enlist, evaluate, prepare, and destroy a resource.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispenserDriver</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDispenserDriver</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDispenserDriver</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDispenserDriver</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDispenserDriver</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97b49069-3428-48da-a818-737f3bc342d0">CreateResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-createresource">CreateResource</a>
 </td>
 <td align="left" width="63%">
 Creates a resource.
@@ -78,7 +78,7 @@ Creates a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94e3e340-7dde-4b7f-82a9-83cd2400bde5">DestroyResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">DestroyResource</a>
 </td>
 <td align="left" width="63%">
 Destroys a resource.
@@ -87,7 +87,7 @@ Destroys a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c7fe9ca-8a27-4459-a95d-084d717d3a65">DestroyResourceS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresources">DestroyResourceS</a>
 </td>
 <td align="left" width="63%">
 Destroys a resource (string resource version).
@@ -96,7 +96,7 @@ Destroys a resource (string resource version).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87a8b7f4-edf3-4ab5-b75a-f8fda1f4975a">EnlistResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-enlistresource">EnlistResource</a>
 </td>
 <td align="left" width="63%">
 Enlists a resource in a transaction.
@@ -105,7 +105,7 @@ Enlists a resource in a transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fe3ca39-e4cb-4dae-be96-ce1a2099486a">RateResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-rateresource">RateResource</a>
 </td>
 <td align="left" width="63%">
 Evaluates how well a candidate resource matches.
@@ -114,7 +114,7 @@ Evaluates how well a candidate resource matches.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59df0703-90ea-480c-8608-7d43039b48ba">ResetResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-resetresource">ResetResource</a>
 </td>
 <td align="left" width="63%">
 Prepares the resource to be put back into general or enlisted inventory.
@@ -129,7 +129,7 @@ Prepares the resource to be put back into general or enlisted inventory.
 
 
 
-<a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
  
 
  

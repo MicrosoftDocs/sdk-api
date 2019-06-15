@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers an event handler for the <a href="https://msdn.microsoft.com/10451878-E685-4042-9F92-BA3A408C4DA0">DeviceDeparture</a> event.
+Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Registers an event handler for the <a href="https://msdn.microsoft.com/10451878-
 
 ### -param handler [in]
 
-A <a href="https://msdn.microsoft.com/1a75f230-658c-4418-8fbd-f723f0312b8e">DeviceControllerFinderHandler</a> event handler function.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828843(v=vs.85)">DeviceControllerFinderHandler</a> event handler function.
 
 
 ### -param token [out, retval]
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://msdn.microsoft.com/42C7E011-ABC8-493E-853A-0925D2A94118">remove_DeviceDeparture</a> method.
+To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828908(v=vs.85)">remove_DeviceDeparture</a> method.
 
 
 
@@ -109,7 +109,7 @@ To unregister the event handler that was registered by this method, pass the <i>
 
 
 
-<a href="https://msdn.microsoft.com/18989598-86C5-4BD7-B8F4-27496897DFBA">IDeviceController</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
  
 
  

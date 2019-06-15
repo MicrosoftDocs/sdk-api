@@ -73,7 +73,7 @@ The cache can be discarded without saving it.
 
 
 
-<a href="https://msdn.microsoft.com/03fb4bdb-1655-4923-b124-8854419766ec">IOleCache2::DiscardCache</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-discardcache">IOleCache2::DiscardCache</a>
  
 
  

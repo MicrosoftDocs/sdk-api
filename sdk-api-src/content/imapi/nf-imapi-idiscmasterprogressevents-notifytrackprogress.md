@@ -90,7 +90,7 @@ The notification for zero out of <i>nTotalTracks</i> indicates the start of trac
 
 
 
-<a href="https://msdn.microsoft.com/68f7edbd-4a06-4e8d-a562-21a65767aff6">IDiscMasterProgressEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
  
 
  

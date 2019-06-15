@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DSROLE_UPGRADE_STATUS_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/d54876e3-a622-4b44-a597-db0f710f7758">DsRoleGetPrimaryDomainInformation</a> function to contain domain upgrade status data.
+The <b>DSROLE_UPGRADE_STATUS_INFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function to contain domain upgrade status data.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ An upgrade is in progress.
 
 ### -field PreviousServerState
 
-If an upgrade is in progress, this member contains one of the <a href="https://msdn.microsoft.com/cd15aa25-7a73-475f-b163-30e5dc1f52bd">DSROLE_SERVER_STATE</a> values that indicate the previous role of the server.
+If an upgrade is in progress, this member contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/ne-dsrole-_dsrole_server_state">DSROLE_SERVER_STATE</a> values that indicate the previous role of the server.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ If an upgrade is in progress, this member contains one of the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/4df5f356-a39b-40a4-9e62-994ad27df3a9">Directory Service Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-structures">Directory Service Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/d54876e3-a622-4b44-a597-db0f710f7758">DsRoleGetPrimaryDomainInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
  
 
  

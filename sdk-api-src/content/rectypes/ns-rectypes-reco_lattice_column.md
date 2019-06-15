@@ -87,14 +87,14 @@ Number of members in <i>pLatticeElements</i>.
 
 ### -field pLatticeElements
 
-Array of <a href="https://msdn.microsoft.com/c4100cb9-d666-4e74-ac12-7f242b3c60d4">RECO_LATTICE_ELEMENT</a> structures.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element">RECO_LATTICE_ELEMENT</a> structures.
 
 
 ## -remarks
 
 
 
-There is one column per recognition segment. Each column contains one or more elements. An element is usually a word or character that is a recognition alternate. Elements start with the same stroke index, but do not necessarily contain the same number of strokes (for example, see column 0 in the "together" <a href="https://msdn.microsoft.com/628ca677-31eb-47d9-bcc6-d7777f8aaf7c">example</a>). The structure also holds properties that are valid for the whole column.
+There is one column per recognition segment. Each column contains one or more elements. An element is usually a word or character that is a recognition alternate. Elements start with the same stroke index, but do not necessarily contain the same number of strokes (for example, see column 0 in the "together" <a href="https://docs.microsoft.com/windows/desktop/tablet/recognizer-lattice-structure">example</a>). The structure also holds properties that are valid for the whole column.
 
 
 
@@ -104,11 +104,11 @@ There is one column per recognition segment. Each column contains one or more el
 
 
 
-<a href="https://msdn.microsoft.com/1db3dbef-41bf-4b00-8e6c-07c7c414e595">AddStroke Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-addstroke">AddStroke Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4100cb9-d666-4e74-ac12-7f242b3c60d4">RECO_LATTICE_ELEMENT Structure</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rectypes/ns-rectypes-tagreco_lattice_element">RECO_LATTICE_ELEMENT Structure</a>
  
 
  

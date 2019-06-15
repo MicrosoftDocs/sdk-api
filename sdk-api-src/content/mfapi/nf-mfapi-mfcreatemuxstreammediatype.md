@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> describing the media types  of multiplexed substreams.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> describing the media types  of multiplexed substreams.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Creates an <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3
 
 ### -param pMediaTypesToMux [in]
 
-The collection containing the  <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> for each multiplexed substream.
+The collection containing the  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> for each multiplexed substream.
 
 
 ### -param ppMuxMediaType [out]
 
-The <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> containing the media types for the multiplexed substreams.
+The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> containing the media types for the multiplexed substreams.
 
 
 ## -returns

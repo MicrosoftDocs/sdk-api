@@ -68,12 +68,12 @@ Pointer to an interface on a filter, or to an interface on a pin.
 
 ### -param pindir [in]
 
-Member of the <a href="https://msdn.microsoft.com/87f4e2e8-543f-46a3-b385-cc2e6af39770">PIN_DIRECTION</a> enumeration that specifies the pin direction (input or output).
+Member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_pindirection">PIN_DIRECTION</a> enumeration that specifies the pin direction (input or output).
 
 
 ### -param pCategory [in]
 
-A pointer to a GUID that specifies one of the pin categories listed in <a href="https://msdn.microsoft.com/0c01bd51-353d-4f48-b33c-796f740915e2">Pin Property Set</a>. To match any pin, regardless of category, set this parameter to <b>NULL</b>. 
+A pointer to a GUID that specifies one of the pin categories listed in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>. To match any pin, regardless of category, set this parameter to <b>NULL</b>. 
           
 
 
@@ -94,7 +94,7 @@ Zero-based index of the pin to retrieve, from the set of matching pins. If <i>pS
 
 ### -param ppPin [out]
 
-Address of a pointer to receive the <a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin</a> interface of the matching pin.
+Address of a pointer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of the matching pin.
 
 
 ## -returns
@@ -116,7 +116,7 @@ If <i>pSource</i> is a pointer to a pin, the method tests that pin against the s
 
 In either case, if the method succeeds, the <b>IPin</b> interface returned in the <i>ppPin</i> parameter has an outstanding reference count. Be sure to release the interface when you are done using it.
 
-Typically, an application will not need to use this method. It is provided for unusually complex tasks, when the <a href="https://msdn.microsoft.com/2fb5f13c-2bf5-463b-a209-77129a159bd6">ICaptureGraphBuilder2::RenderStream</a> method cannot build the filter graph. Use this method to retrieve a desired pin from a capture filter, and then build the rest of the graph manually.
+Typically, an application will not need to use this method. It is provided for unusually complex tasks, when the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-renderstream">ICaptureGraphBuilder2::RenderStream</a> method cannot build the filter graph. Use this method to retrieve a desired pin from a capture filter, and then build the rest of the graph manually.
 
 
 
@@ -126,11 +126,11 @@ Typically, an application will not need to use this method. It is provided for u
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/abdf6fb2-e98f-4df8-98ec-06d33798abb5">ICaptureGraphBuilder2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
  
 
  

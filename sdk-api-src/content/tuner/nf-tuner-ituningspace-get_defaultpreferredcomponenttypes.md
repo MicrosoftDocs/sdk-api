@@ -62,7 +62,7 @@ The <b>get_DefaultPreferredComponentTypes</b> method returns an list of the defa
 
 ### -param ComponentTypes [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/47c3837b-1348-4359-ad3d-3d82c5fe3781">IComponentTypes</a> interface pointer. Use this interface to enumerate the component types. The caller must release the interface.
+Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes</a> interface pointer. Use this interface to enumerate the component types. The caller must release the interface.
 
 
 ## -returns
@@ -90,7 +90,7 @@ If the tuning space does not have any default preferred types, this method succe
 
 
 
-<a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
  
 
  

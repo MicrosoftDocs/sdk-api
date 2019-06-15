@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue. It inherits all the functionality of the <a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a> interface. Additionally, it provides new read-only properties to indicate whether the outgoing fax has a cover page, the schedule type of the fax, and the address of its recipient.
+Describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue. It inherits all the functionality of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob">IFaxOutgoingJob</a> interface. Additionally, it provides new read-only properties to indicate whether the outgoing fax has a cover page, the schedule type of the fax, and the address of its recipient.
 
 
 
@@ -59,7 +59,7 @@ Describes an object that is used by a fax client application to retrieve informa
 
 
 
-A default implementation of <b>IFaxOutgoingJob2</b> is provided as the <a href="https://msdn.microsoft.com/en-us/library/ms689115(v=VS.85).aspx">FaxOutgoingJob</a> object. On Windows XP and earlier, the <b>FaxOutgoingJob</b> object implements <a href="https://msdn.microsoft.com/en-us/library/ms689116(v=VS.85).aspx">IFaxOutgoingJob</a>.
+A default implementation of <b>IFaxOutgoingJob2</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob">FaxOutgoingJob</a> object. On Windows XP and earlier, the <b>FaxOutgoingJob</b> object implements <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob">IFaxOutgoingJob</a>.
 
 
 

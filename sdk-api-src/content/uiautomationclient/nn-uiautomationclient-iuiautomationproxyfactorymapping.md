@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes properties and methods for a table of proxy factories. Each table entry is represented by an <a href="https://msdn.microsoft.com/0507deef-35dc-45bb-a7c1-82b84344ee17">IUIAutomationProxyFactoryEntry</a> interface. The entries are in the order in which the system will attempt to use the proxies.
+Exposes properties and methods for a table of proxy factories. Each table entry is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationproxyfactoryentry">IUIAutomationProxyFactoryEntry</a> interface. The entries are in the order in which the system will attempt to use the proxies.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationProxyFactoryMapping</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIAutomationProxyFactoryMapping</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationProxyFactoryMapping</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationProxyFactoryMapping</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationProxyFactoryMapping</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00f16e39-557c-4e55-bfbf-49dc0d97ab37">ClearTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-cleartable">ClearTable</a>
 </td>
 <td align="left" width="63%">
 Removes all entries from the proxy factory table.
@@ -79,7 +79,7 @@ Removes all entries from the proxy factory table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1500c5e5-5161-4753-ab3a-7e5b62246411">GetEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-getentry">GetEntry</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entry from the proxy factory table.
@@ -88,7 +88,7 @@ Retrieves an entry from the proxy factory table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e84ec4d-9589-47b0-ae69-5d640141dd8b">GetTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-gettable">GetTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves all entries in the proxy factory table.
@@ -97,7 +97,7 @@ Retrieves all entries in the proxy factory table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f398a1b5-d558-4187-9ee5-147b139d99e0">InsertEntries</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-insertentries">InsertEntries</a>
 </td>
 <td align="left" width="63%">
 Inserts entries into the table of proxy factories.
@@ -106,7 +106,7 @@ Inserts entries into the table of proxy factories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe737909-0331-4c5f-8d38-8dce09bd2e44">InsertEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-insertentry">InsertEntry</a>
 </td>
 <td align="left" width="63%">
 Insert an entry into the table of proxy factories.
@@ -115,7 +115,7 @@ Insert an entry into the table of proxy factories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a09fbda-9e95-4f31-b669-e68310071aa9">RemoveEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-removeentry">RemoveEntry</a>
 </td>
 <td align="left" width="63%">
 Removes an entry from the table of proxy factories.
@@ -124,7 +124,7 @@ Removes an entry from the table of proxy factories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/adf9ca6d-4206-4b7e-b43c-0701fdeb1b23">RestoreDefaultTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-restoredefaulttable">RestoreDefaultTable</a>
 </td>
 <td align="left" width="63%">
 Restores the default table of proxy factories.
@@ -133,7 +133,7 @@ Restores the default table of proxy factories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b3675a4-a4d5-40ed-bb11-7e4d50746019">SetTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-settable">SetTable</a>
 </td>
 <td align="left" width="63%">
 Sets the table of proxy factories.
@@ -151,7 +151,7 @@ Sets the table of proxy factories.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f8a9aa80-edc2-4160-b246-e3be75ff5942">Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationproxyfactorymapping-get_count">Count</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Retrieves the number of entries in the proxy factory table.
 
 
 
-<a href="https://msdn.microsoft.com/46c6720a-19c2-4ddd-893c-1a46af0642fb">Proxy Factory Interfaces for Clients</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-proxyfactoryinterfaces">Proxy Factory Interfaces for Clients</a>
  
 
  

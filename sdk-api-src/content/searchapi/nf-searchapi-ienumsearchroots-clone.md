@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a copy of the <a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object with the same contents and state as the current one.
+Creates a copy of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-ienumsearchroots">IEnumSearchRoots</a> object with the same contents and state as the current one.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Creates a copy of the <a href="https://msdn.microsoft.com/en-us/library/Bb266504
 
 ### -param ppenum [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-ienumsearchroots">IEnumSearchRoots</a>**</b>
 
-Returns a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/Bb266504(v=VS.85).aspx">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Returns a pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-ienumsearchroots">IEnumSearchRoots</a> object. The calling application must free the new object by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
                 
 
 

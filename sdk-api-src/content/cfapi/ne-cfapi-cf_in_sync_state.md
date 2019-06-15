@@ -59,10 +59,10 @@ Specifies the in-sync state for placeholder files and folders.
 
 ### -field CF_IN_SYNC_STATE_NOT_IN_SYNC
 
-The platform clears the placeholder’s in-sync state upon a successful return from the <a href="https://msdn.microsoft.com/1CB7955D-E530-4F34-8D67-BC608F8B6AF1">CfSetInSyncState</a> call.
+The platform clears the placeholder’s in-sync state upon a successful return from the <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> call.
 
 
 ### -field CF_IN_SYNC_STATE_IN_SYNC
 
-The platform sets the placeholder’s in-sync state upon a successful return from the <a href="https://msdn.microsoft.com/1CB7955D-E530-4F34-8D67-BC608F8B6AF1">CfSetInSyncState</a> call.
+The platform sets the placeholder’s in-sync state upon a successful return from the <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> call.
 

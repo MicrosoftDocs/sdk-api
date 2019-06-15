@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MBN_PIN_CONSTANTS</b> enumerated type defines constant values used by the <a href="https://msdn.microsoft.com/c70b45ea-c16b-4d0d-946a-f543c827c458">MBN_PIN_INFO</a> structure.
+The <b>MBN_PIN_CONSTANTS</b> enumerated type defines constant values used by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info">MBN_PIN_INFO</a> structure.
 
 
 ## -enum-fields

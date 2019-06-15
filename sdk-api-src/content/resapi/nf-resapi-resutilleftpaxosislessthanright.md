@@ -59,12 +59,12 @@ Indicates whether a specified Paxos tag contains older cluster configuration inf
 
 ### -param left [in]
 
-The <a href="https://msdn.microsoft.com/732CB125-F43A-4CC4-BC3F-EFB511BB7F2E">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_paxostagcstruct">PaxosTagCStruct</a> structure that represents the first Paxos tag to use in the comparison.
 
 
 ### -param right [in]
 
-The <a href="https://msdn.microsoft.com/732CB125-F43A-4CC4-BC3F-EFB511BB7F2E">PaxosTagCStruct</a> structure that represents the 2nd  Paxos tag to use in the comparison.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-_paxostagcstruct">PaxosTagCStruct</a> structure that represents the 2nd  Paxos tag to use in the comparison.
 
 
 ## -returns
@@ -81,7 +81,7 @@ The <a href="https://msdn.microsoft.com/732CB125-F43A-4CC4-BC3F-EFB511BB7F2E">Pa
 
 
 
-<a href="https://msdn.microsoft.com/42eb7c1b-6bd6-4997-b33e-ed16470c8475">Resource Utility Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
  
 
  

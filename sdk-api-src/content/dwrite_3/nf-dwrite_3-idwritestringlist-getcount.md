@@ -75,7 +75,7 @@ Returns the number of strings in the string list.
 
 
 
-<a href="https://msdn.microsoft.com/07A61B37-C63D-4F7D-888C-96B56F30F477">IDWriteStringList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_3/nn-dwrite_3-idwritestringlist">IDWriteStringList</a>
  
 
  

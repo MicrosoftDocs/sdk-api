@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when an asynchronous error occurs with the <a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a>.
+Called when an asynchronous error occurs with the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ Returns an <b>HRESULT</b> value. Currently, the sink writer ignores the return v
 
 
 
-<a href="https://msdn.microsoft.com/92885A3C-137D-42DD-A65D-D2CE56A69A68">IMFSinkWriterCallback2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback2">IMFSinkWriterCallback2</a>
  
 
  

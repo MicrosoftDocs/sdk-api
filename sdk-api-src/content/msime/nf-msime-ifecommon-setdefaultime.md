@@ -78,7 +78,7 @@ This method only applies when Microsoft IME uses the Input Method Manager (IMM) 
 
 
 
-<a href="https://msdn.microsoft.com/9FBECA6F-F162-485D-938F-FADC2D47083E">IFECommon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761227(v=VS.85).aspx">LVM_SORTITEMS</a> message explicitly. 
+Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Uses an application-defined comparison function to sort the items of a list-view
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -73,7 +73,7 @@ A pointer to the application-defined comparison function. The comparison functio
 
 ### -param _lPrm
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The application-defined value that is passed to the comparison function. 
 
@@ -88,7 +88,7 @@ The comparison function has the following form.
 The 
 				<i>lParam1</i> parameter is the value associated with the first item being compared; and the 
 				<i>lParam2</i> parameter is the value associated with the second item. These are the values that were specified in the 
-				<b>lParam</b> member of the items' <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure when they were inserted into the list. The <i>lParamSort</i> parameter is the same value passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb761227(v=VS.85).aspx">LVM_SORTITEMS</a> message. 
+				<b>lParam</b> member of the items' <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvitema">LVITEM</a> structure when they were inserted into the list. The <i>lParamSort</i> parameter is the same value passed to the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-sortitems">LVM_SORTITEMS</a> message. 
 
 The comparison function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent. 
 

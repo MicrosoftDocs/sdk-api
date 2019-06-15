@@ -57,7 +57,7 @@ The <code>IPhotoAcquireProgressCB</code> interface may be implemented if you wis
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireProgressCB</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPhotoAcquireProgressCB</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireProgressCB</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireProgressCB</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPhotoAcquireProgressCB</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7a37934c-dc0b-433e-99cf-6c26341e582c">Cancelled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-cancelled">Cancelled</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when a cancellation occurs during an acquisition session.
@@ -81,7 +81,7 @@ Provides extended functionality when a cancellation occurs during an acquisition
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c784750c-3f73-4ebb-ad38-cc05aada0fca">DirectoryCreated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-directorycreated">DirectoryCreated</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when a destination directory is created during the acquisition process.
@@ -90,7 +90,7 @@ Provides extended functionality when a destination directory is created during t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc5879a9-851b-4b22-99bb-814464c2712d">EndDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-enddelete">EndDelete</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when deletion of files from the image source is complete.
@@ -99,7 +99,7 @@ Provides extended functionality when deletion of files from the image source is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dac16ca2-bd80-4771-9e81-09d07958a4bb">EndEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-endenumeration">EndEnumeration</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when enumeration of files from the image source is complete.
@@ -108,7 +108,7 @@ Provides extended functionality when enumeration of files from the image source 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2962b170-941f-4cf1-9969-4066ee0c57d9">EndItemDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-enditemdelete">EndItemDelete</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality each time a file is deleted from the image source.
@@ -117,7 +117,7 @@ Provides extended functionality each time a file is deleted from the image sourc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8d2c0773-cb0b-4cc3-b61f-9ad4153bcf96">EndItemTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-enditemtransfer">EndItemTransfer</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality each time a file is transferred from the image source.
@@ -126,7 +126,7 @@ Provides extended functionality each time a file is transferred from the image s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb22709a-c1f8-4608-b984-46181e7c704e">EndSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-endsession">EndSession</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when an acquisition session is completed.
@@ -135,7 +135,7 @@ Provides extended functionality when an acquisition session is completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e0fada0-6c83-4e82-a3ac-c5a4832f053f">EndTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-endtransfer">EndTransfer</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when transfer of all files from an image source is complete.
@@ -144,7 +144,7 @@ Provides extended functionality when transfer of all files from an image source 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60454ae7-9be9-4414-9865-2b874bbe54c1">ErrorAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-erroradvise">ErrorAdvise</a>
 </td>
 <td align="left" width="63%">
 Provides custom error handling for errors that occur during acquisition.
@@ -153,7 +153,7 @@ Provides custom error handling for errors that occur during acquisition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b80fb2f2-57b7-4333-891e-32eba0347a17">FoundItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-founditem">FoundItem</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality each time an item is found during enumeration of items from the device.
@@ -162,7 +162,7 @@ Provides extended functionality each time an item is found during enumeration of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9e3fb54-e152-4fbd-b745-852719aabeec">GetDeleteAfterAcquire</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-getdeleteafteracquire">GetDeleteAfterAcquire</a>
 </td>
 <td align="left" width="63%">
 Returns a value indicating whether files should be deleted after download.
@@ -171,7 +171,7 @@ Returns a value indicating whether files should be deleted after download.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db0d924b-a586-4f81-a367-e8fbdf3e9bd9">GetUserInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-getuserinput">GetUserInput</a>
 </td>
 <td align="left" width="63%">
 Overrides the default functionality that displays a message prompting the user for string input during acquisition.
@@ -180,7 +180,7 @@ Overrides the default functionality that displays a message prompting the user f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/510999eb-068e-41e9-98b7-de6e67dbfe2f">StartDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-startdelete">StartDelete</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when deletion of items from the device begins.
@@ -189,7 +189,7 @@ Provides extended functionality when deletion of items from the device begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef42722d-ca39-4d22-8de1-6b3926669abf">StartEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-startenumeration">StartEnumeration</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when the enumeration of items to acquire begins.
@@ -198,7 +198,7 @@ Provides extended functionality when the enumeration of items to acquire begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f4ab29d-ea9c-410d-94ab-4c4d8ed76b4d">StartItemDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-startitemdelete">StartItemDelete</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality each time the deletion of an individual item from the device begins.
@@ -207,7 +207,7 @@ Provides extended functionality each time the deletion of an individual item fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fffd9313-fbed-493b-a82e-1ccd202859c0">StartItemTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-startitemtransfer">StartItemTransfer</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality each time the transfer of an item begins.
@@ -216,7 +216,7 @@ Provides extended functionality each time the transfer of an item begins.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8fff67d0-5d0a-4d8d-bc59-55cb65b77147">StartTransfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-starttransfer">StartTransfer</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when acquisition of images from the device begins
@@ -225,7 +225,7 @@ Provides extended functionality when acquisition of images from the device begin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b555d9b-1d01-43ad-b267-8d53023390e8">UpdateDeletePercent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-updatedeletepercent">UpdateDeletePercent</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when the percentage of items deleted changes.
@@ -234,7 +234,7 @@ Provides extended functionality when the percentage of items deleted changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a868663d-f926-4b29-9e1f-7df4ec36687b">UpdateTransferPercent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireprogresscb-updatetransferpercent">UpdateTransferPercent</a>
 </td>
 <td align="left" width="63%">
 Provides extended functionality when the percentage of items transferred changes.
@@ -249,7 +249,7 @@ Provides extended functionality when the percentage of items transferred changes
 
 
 
-<a href="https://msdn.microsoft.com/f58529da-f419-445a-879a-2c087b770f0f">Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/interfaces">Interfaces</a>
  
 
  

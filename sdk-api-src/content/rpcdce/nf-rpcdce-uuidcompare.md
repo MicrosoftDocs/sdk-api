@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application calls the  
-<b>UuidCompare</b> function to compare two <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>s and determine their order. The returned value gives the order.
+<b>UuidCompare</b> function to compare two <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>s and determine their order. The returned value gives the order.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ An application calls the
 ### -param Uuid1
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid2</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid2</i> parameter.
 
 
 ### -param Uuid2
 
-Pointer to a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid1</i> parameter.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>. This <b>UUID</b> is compared with the <b>UUID</b> specified in the <i>Uuid1</i> parameter.
 
 
 ### -param Status
@@ -120,7 +120,7 @@ The <i>Uuid1</i> parameter is greater than the <i>Uuid2</i> parameter.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -130,7 +130,7 @@ The <i>Uuid1</i> parameter is greater than the <i>Uuid2</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
  
 
  

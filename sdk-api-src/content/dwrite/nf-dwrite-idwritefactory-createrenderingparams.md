@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
  Creates a rendering parameters object with default settings for the primary monitor.
-    Different monitors may have different rendering parameters, for more information see the <a href="https://msdn.microsoft.com/62274126-49da-4166-8482-73aac2b29c26">How to Add Support for Multiple Monitors</a> topic.
+    Different monitors may have different rendering parameters, for more information see the <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/how-to-add-support-for-multiple-monitors">How to Add Support for Multiple Monitors</a> topic.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ ms.custom: 19H1
 
 ### -param renderingParams [out]
 
-Type: <b><a href="https://msdn.microsoft.com/28b118e4-9a63-46cf-8ab7-e1039126405b">IDWriteRenderingParams</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>**</b>
 
 When this method returns, contains an address of a pointer to the newly created  rendering parameters object.
 
@@ -81,11 +81,11 @@ Standard HRESULT error code.
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddb6839a-9033-423a-a3f0-9352ec03e440">IDWriteFactory::CreateMonitorRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a>
  
 
  

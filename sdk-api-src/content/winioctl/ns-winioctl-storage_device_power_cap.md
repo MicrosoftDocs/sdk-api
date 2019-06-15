@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-This structure is used as an input and output buffer for the <a href="https://msdn.microsoft.com/4BF06CA7-5219-4EE0-9A74-F43035914332">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
+This structure is used as an input and output buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The size of this structure.
 
 ### -field Units
 
-The units of the <i>MaxPower</i> value, of type <a href="https://msdn.microsoft.com/A6C48765-9A18-4F77-8B0F-9653CE6FDE23">STORAGE_DEVICE_POWER_CAP_UNITS</a>.
+The units of the <i>MaxPower</i> value, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_device_power_cap_units">STORAGE_DEVICE_POWER_CAP_UNITS</a>.
 
 
 ### -field MaxPower

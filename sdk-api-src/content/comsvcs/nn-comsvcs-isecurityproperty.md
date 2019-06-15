@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Determines the security identifier of the current object's original caller or direct caller. However, the preferred way to get information about an object's callers is to use the <a href="https://msdn.microsoft.com/cd96ef31-784f-40fa-beb5-92a88823326b">ISecurityCallContext</a> interface.
+Determines the security identifier of the current object's original caller or direct caller. However, the preferred way to get information about an object's callers is to use the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityProperty</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISecurityProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityProperty</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISecurityProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e322df62-25a4-40a3-9b80-da468a265162">GetDirectCallerSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getdirectcallersid">GetDirectCallerSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the security identifier of the external process that called the currently executing method.
@@ -79,7 +79,7 @@ Retrieves the security identifier of the external process that called the curren
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cd06e71b-563a-45d2-91fb-f57375016dc3">GetDirectCreatorSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getdirectcreatorsid">GetDirectCreatorSID</a>
 </td>
 <td align="left" width="63%">
 In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.
@@ -88,7 +88,7 @@ In MTS 2.0, this method retrieves the security identifier of the external proces
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8700635-94cb-4d1a-9325-f93d00c5181f">GetOriginalCallerSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getoriginalcallersid">GetOriginalCallerSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the security identifier of the base process that initiated the call sequence from which the current method was called.
@@ -98,7 +98,7 @@ Retrieves the security identifier of the base process that initiated the call se
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/599b0773-feee-4e3d-a23b-cc2c294f49f9">GetOriginalCreatorSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-getoriginalcreatorsid">GetOriginalCreatorSID</a>
 </td>
 <td align="left" width="63%">
 In MTS 2.0, this method retrieves the security identifier of the base process that initiated the activity in which the current object is executing. Do not use this method in COM+.
@@ -107,7 +107,7 @@ In MTS 2.0, this method retrieves the security identifier of the base process th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/572bf3fd-eb85-40de-b607-26b77b9d9cf8">ReleaseSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty-releasesid">ReleaseSID</a>
 </td>
 <td align="left" width="63%">
 Releases the security identifier returned by one of the other <b>ISecurityProperty</b> methods.
@@ -123,11 +123,11 @@ Releases the security identifier returned by one of the other <b>ISecurityProper
 
 
 
-<a href="https://msdn.microsoft.com/cd96ef31-784f-40fa-beb5-92a88823326b">ISecurityCallContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/6117970c-5dbd-485e-978e-3aa96e42b359">Programmatic Component Security</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>
  
 
  

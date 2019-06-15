@@ -98,7 +98,7 @@ The argument was invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -112,8 +112,8 @@ An application calls the
 <b>RpcIfIdVectorFree</b> frees memory containing the interface identifications and the vector itself. On return, this function sets the <i>IfIdVec</i> parameter to <b>NULL</b>.
 
 An application obtains a vector of interface identifications by calling the 
-<a href="https://msdn.microsoft.com/92f33e1d-a054-4484-903a-c91d3cd549d1">RpcNsMgmtEntryInqIfIds</a> and 
-<a href="https://msdn.microsoft.com/f6d89f2c-ff51-44ab-9f8a-2f76cd3ac6db">RpcMgmtInqIfIds</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa">RpcNsMgmtEntryInqIfIds</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a> functions.
 
 
 
@@ -123,15 +123,15 @@ An application obtains a vector of interface identifications by calling the
 
 
 
-<a href="https://msdn.microsoft.com/1b91e88c-b242-472f-b719-60f96599cb67">RpcIfInqId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6d89f2c-ff51-44ab-9f8a-2f76cd3ac6db">RpcMgmtInqIfIds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>
 
 
 
-<a href="https://msdn.microsoft.com/92f33e1d-a054-4484-903a-c91d3cd549d1">RpcNsMgmtEntryInqIfIds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa">RpcNsMgmtEntryInqIfIds</a>
  
 
  

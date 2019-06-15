@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>PROGRESS_DIALOG_CHECKBOX_ID</code> enumeration type indicates the check box on the <a href="https://msdn.microsoft.com/a3928874-5a15-43d9-9d9c-8b66478b0597">IPhotoProgressDialog</a> object.
+The <code>PROGRESS_DIALOG_CHECKBOX_ID</code> enumeration type indicates the check box on the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog</a> object.
 
 
 
@@ -70,7 +70,7 @@ Specifies PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT .
 
 
 
-<a href="https://msdn.microsoft.com/767d20df-aeb4-4f86-a705-bfbb7dc254ff">Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/acquisition/enumeration-types">Enumeration Types</a>
  
 
  

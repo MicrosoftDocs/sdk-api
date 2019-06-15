@@ -54,7 +54,7 @@ Enables an application to use a Media Foundation transform (MFT) that has restri
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFFieldOfUseMFTUnlock</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFFieldOfUseMFTUnlock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFFieldOfUseMFTUnlock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFFieldOfUseMFTUnlock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFFieldOfUseMFTUnlock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54b15e72-6551-4162-90ca-a9bed68ca62f">Unlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imffieldofusemftunlock-unlock">Unlock</a>
 </td>
 <td align="left" width="63%">
 Unlocks an MFT so that the application can use it.
@@ -83,7 +83,7 @@ Unlocks an MFT so that the application can use it.
 
 
 
-If you register an MFT that requires unlocking, include the <b>MFT_ENUM_FLAG_FIELDOFUSE</b> flag when you call the <a href="https://msdn.microsoft.com/fb3a2b67-d3e4-4d5f-960a-3979f4780904">MFTRegister</a> function.
+If you register an MFT that requires unlocking, include the <b>MFT_ENUM_FLAG_FIELDOFUSE</b> flag when you call the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a> function.
 
 
 
@@ -93,15 +93,15 @@ If you register an MFT that requires unlocking, include the <b>MFT_ENUM_FLAG_FIE
 
 
 
-<a href="https://msdn.microsoft.com/36f28e4c-2baf-4618-9935-5d4615f6bc77">Field of Use Restrictions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/field-of-use-restrictions">Field of Use Restrictions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f48967e-375a-4019-b14f-2f457b616cc0">MFT_FIELDOFUSE_UNLOCK_Attribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mft-fieldofuse-unlock-attribute">MFT_FIELDOFUSE_UNLOCK_Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

@@ -54,14 +54,14 @@ ms.custom: 19H1
 
 Combines two path fragments into a single path. This function also canonicalizes any relative path elements, removing "." and ".." elements to simplify the final path.
 
-This function differs from <a href="https://msdn.microsoft.com/798c2e49-04a5-4270-b584-41faf1519e4b">PathCchCombineEx</a> in that you are restricted to a final path of length MAX_PATH.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> in that you are restricted to a final path of length MAX_PATH.
 
-This function differs from <a href="https://msdn.microsoft.com/dd619138-f867-4517-bc67-a52c598efad0">PathAllocCombine</a> in that the caller must declare the size of the returned string, which is stored on the stack.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> in that the caller must declare the size of the returned string, which is stored on the stack.
 
-This function differs from <a href="https://msdn.microsoft.com/ed03334b-f688-4993-9685-092135ca29c9">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, <a href="https://msdn.microsoft.com/798c2e49-04a5-4270-b584-41faf1519e4b">PathCchCombineEx</a>, or <a href="https://msdn.microsoft.com/dd619138-f867-4517-bc67-a52c598efad0">PathAllocCombine</a> should be used in place of <a href="https://msdn.microsoft.com/ed03334b-f688-4993-9685-092135ca29c9">PathCombine</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 
@@ -163,15 +163,15 @@ If both <i>pszPathIn</i> and <i>pszMore</i> are <b>NULL</b> or point to empty st
 
 
 
-<a href="https://msdn.microsoft.com/25ff08b2-5978-4d44-9877-ba4230ef7d12">PathCchCanonicalize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd7b8ce0-3c67-48fb-8e7e-521a6b438676">PathCchCanonicalizeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/798c2e49-04a5-4270-b584-41faf1519e4b">PathCchCombineEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>
  
 
  

@@ -102,7 +102,7 @@ Ending y-coordinate pixel of the current highlight button.
 
 ### -field ColCon
 
-Color contrast description of type <a href="https://msdn.microsoft.com/en-us/library/Dd373456(v=VS.85).aspx">AM_COLCON</a>.
+Color contrast description of type <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_colcon">AM_COLCON</a>.
 
 
 ## -remarks
@@ -119,7 +119,7 @@ The <b>AM_PROPERTY_DVDSUBPIC_HLI</b> property uses this structure.
 
 
 
-<a href="https://msdn.microsoft.com/ddbfb65c-7630-4e9f-8013-c5d65c62c628">DVD Subpicture Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-subpicture-property-set">DVD Subpicture Property Set</a>
  
 
  

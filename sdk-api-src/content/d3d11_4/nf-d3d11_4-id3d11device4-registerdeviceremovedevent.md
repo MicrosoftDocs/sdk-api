@@ -71,16 +71,16 @@ The handle to the "device removed" event.
 
 Type: <b>DWORD*</b>
 
-A pointer to information about the "device removed" event, which can be used in <a href="https://msdn.microsoft.com/F1B8BBD2-3D7D-4125-953F-D10D073B77AF">UnregisterDeviceRemoved</a> to unregister the event. 
+A pointer to information about the "device removed" event, which can be used in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved">UnregisterDeviceRemoved</a> to unregister the event. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
           
 
 
@@ -90,7 +90,7 @@ See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Di
 
 
 
-Indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism, rather than as an HRESULT from <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">Present</a>. The reason for device removal can be retrieved using <a href="https://msdn.microsoft.com/9e09c954-5c61-49fd-b25a-87dc0051a84d">ID3D11Device::GetDeviceRemovedReason</a> after being notified of the occurrence.
+Indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism, rather than as an HRESULT from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">Present</a>. The reason for device removal can be retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-getdeviceremovedreason">ID3D11Device::GetDeviceRemovedReason</a> after being notified of the occurrence.
 
 Applications register and un-register a Win32 event handle with a particular device.
           That event handle will be signaled when the device becomes removed.
@@ -98,7 +98,7 @@ Applications register and un-register a Win32 event handle with a particular dev
         
 
 
-<a href="https://msdn.microsoft.com/102a0417-5a17-41ee-a470-132562ff51c5">ISignalableNotifier</a> or <a href="https://msdn.microsoft.com/ebd0ecad-a864-43cf-a1cb-e4c2d595ef81">SetThreadpoolWait</a> can be used by UWP apps.
+<a href="https://docs.microsoft.com/uwp/api/Windows.System.Threading.Core">ISignalableNotifier</a> or <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a> can be used by UWP apps.
         
 
 When the graphics device is lost, the app or title will receive the graphics event, so that the app or title knows that its graphics device is no longer valid and it is safe for the app or title to re-create its DirectX devices.
@@ -131,7 +131,7 @@ Each "device removed" event is never signaled, or is signaled only once.
         
 
 The semantics of <b>RegisterDeviceRemovedEvent</b> are similar to
-          <a href="https://msdn.microsoft.com/9DCB6309-C1FF-403F-94E1-ABA769D18170">IDXGIFactory2::RegisterOcclusionStatusEvent</a>.
+          <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatusevent">IDXGIFactory2::RegisterOcclusionStatusEvent</a>.
         
 
 
@@ -142,11 +142,11 @@ The semantics of <b>RegisterDeviceRemovedEvent</b> are similar to
 
 
 
-<a href="https://msdn.microsoft.com/C4971129-C879-470A-ACD7-910D9F522E8C">ID3D11Device4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device4">ID3D11Device4</a>
 
 
 
-<a href="https://msdn.microsoft.com/F1B8BBD2-3D7D-4125-953F-D10D073B77AF">UnregisterDeviceRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-unregisterdeviceremoved">UnregisterDeviceRemoved</a>
  
 
  

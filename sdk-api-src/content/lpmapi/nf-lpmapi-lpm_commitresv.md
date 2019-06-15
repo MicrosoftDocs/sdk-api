@@ -86,7 +86,7 @@ Array of filter specs, listing the senders for whom the flow is created.
 ### -param pMergedFlowSpec [in]
 
 The 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a> structure installed on the specified interface. The 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a> structure installed on the specified interface. The 
 <b>FLOWSPEC</b> structure is a merged flow for all receivers that can be reached by <i>FlowInstalledIntf</i>.
 
 
@@ -131,7 +131,7 @@ When the resources are allocated by the SBM for a new reservation, it calls LPMs
 
 
 
-<a href="https://msdn.microsoft.com/268e0d3a-2b04-40fd-91eb-f1780236b3e4">FLOWSPEC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_flowspec">FLOWSPEC</a>
  
 
  

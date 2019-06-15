@@ -106,7 +106,7 @@ The information was successfully retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/23f47a1a-c2d1-43ed-871a-ca80aab2eed6">IEnhancedStorageACT2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact2">IEnhancedStorageACT2</a>
  
 
  

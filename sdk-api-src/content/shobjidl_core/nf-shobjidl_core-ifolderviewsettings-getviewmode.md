@@ -59,9 +59,9 @@ Gets a folder's logical view mode.
 
 ### -param plvm [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4b30a335-ed80-4774-82d4-bc93c95ee80c">FOLDERLOGICALVIEWMODE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4b30a335-ed80-4774-82d4-bc93c95ee80c">FOLDERLOGICALVIEWMODE</a> value.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderlogicalviewmode">FOLDERLOGICALVIEWMODE</a> value.
         
 
 

@@ -71,9 +71,9 @@ A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associa
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -85,7 +85,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7
 
 This method takes UNICODE names.
         The older Direct3D 11 debug object naming system through
-        <a href="https://msdn.microsoft.com/1B3E8202-7CB3-4D9F-A1AE-70E66652773C">ID3D12Object::SetPrivateData</a>with <b>WKPDID_D3DDebugObjectName</b> used ASCII.
+        <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedata">ID3D12Object::SetPrivateData</a>with <b>WKPDID_D3DDebugObjectName</b> used ASCII.
        
 
 
@@ -96,11 +96,11 @@ This method takes UNICODE names.
 
 
 
-<a href="https://msdn.microsoft.com/B2288866-E95F-46B8-A7A1-19888F029C03">Direct3D 12 Programming Environment Setup</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/directx-12-programming-environment-set-up">Direct3D 12 Programming Environment Setup</a>
 
 
 
-<a href="https://msdn.microsoft.com/D2B2BC74-E89D-4D3A-8808-6E4A94992769">ID3D12Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>
  
 
  

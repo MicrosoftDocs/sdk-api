@@ -73,21 +73,21 @@ Number of container paths in the <i>ContainerPaths</i> array.
 ### -param ContainerPaths [in]
 
 Array of paths to container files that must be read in order to restore the file specified in the 
-      <a href="https://msdn.microsoft.com/library/Hh449224(v=VS.85).aspx">IDedupBackupSupport::RestoreFiles</a> 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a> 
       call. Each element is a full path from the root directory of the volume to a container file.
 
 
 ### -param ReadPlanEntries [out]
 
 Pointer to a ULONG variable that receives the number of 
-      <a href="https://msdn.microsoft.com/D7CEC0C4-0472-467C-87F1-1496C9F08296">DEDUP_CONTAINER_EXTENT</a> structures in the array 
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/ns-ddpbackup-_dedup_container_extent">DEDUP_CONTAINER_EXTENT</a> structures in the array 
       that the <i>ReadPlan</i> parameter points to.
 
 
 ### -param ReadPlan [out]
 
 Pointer to a buffer that receives an array of 
-      <a href="https://msdn.microsoft.com/D7CEC0C4-0472-467C-87F1-1496C9F08296">DEDUP_CONTAINER_EXTENT</a> structures.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/ns-ddpbackup-_dedup_container_extent">DEDUP_CONTAINER_EXTENT</a> structures.
 
 
 ## -returns
@@ -96,8 +96,8 @@ Pointer to a buffer that receives an array of
 
 This method can return standard <b>HRESULT</b> values, such as 
       <b>S_OK</b>. It can also return converted 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using the 
-      <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Possible return values 
+      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> using the 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values 
       include the following.
 
 
@@ -127,11 +127,11 @@ The application may return
 
 
 
-<a href="https://msdn.microsoft.com/D7CEC0C4-0472-467C-87F1-1496C9F08296">DEDUP_CONTAINER_EXTENT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/ns-ddpbackup-_dedup_container_extent">DEDUP_CONTAINER_EXTENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C">IDedupReadFileCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
  
 
  

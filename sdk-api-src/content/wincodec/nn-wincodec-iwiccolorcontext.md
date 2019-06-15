@@ -54,7 +54,7 @@ Exposes methods for color management.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICColorContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWICColorContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICColorContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICColorContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICColorContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebd51090-fabb-4a6e-a77c-f1895bc27e54">GetExifColorSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-getexifcolorspace">GetExifColorSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the EXIF color space color context.
@@ -78,7 +78,7 @@ Retrieves the EXIF color space color context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59427a49-ef68-4680-b6d8-4ffa2a1913b8">GetProfileBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-getprofilebytes">GetProfileBytes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color context profile.
@@ -87,7 +87,7 @@ Retrieves the color context profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34b23e94-bf6a-4440-825f-3997658e0095">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color context type.
@@ -96,7 +96,7 @@ Retrieves the color context type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af85abf2-e1cc-4443-9726-a422ba363f71">InitializeFromExifColorSpace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefromexifcolorspace">InitializeFromExifColorSpace</a>
 </td>
 <td align="left" width="63%">
 Initializes the color context using an EXIF color space.
@@ -105,7 +105,7 @@ Initializes the color context using an EXIF color space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df1f841b-6b01-42d5-967d-47ec402f9b8c">InitializeFromFilename</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefromfilename">InitializeFromFilename</a>
 </td>
 <td align="left" width="63%">
 Initializes the color context from the given file.
@@ -114,7 +114,7 @@ Initializes the color context from the given file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0cadc79b-85d0-495e-8309-8d5e3b246242">InitializeFromMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwiccolorcontext-initializefrommemory">InitializeFromMemory</a>
 </td>
 <td align="left" width="63%">
 Initializes the color context from a memory block.
@@ -128,7 +128,7 @@ Initializes the color context from a memory block.
 
 
 
-A Color Context is an abstraction for a color profile. The profile can either be loaded from a file (like "sRGB Color Space Profile.icm"), read from a memory buffer, or can be defined by an EXIF color space. The system color profile directory can be obtained by calling <a href="https://msdn.microsoft.com/9e26e58b-0497-4879-963c-fae91f5740bf">GetColorDirectory</a>.
+A Color Context is an abstraction for a color profile. The profile can either be loaded from a file (like "sRGB Color Space Profile.icm"), read from a memory buffer, or can be defined by an EXIF color space. The system color profile directory can be obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>.
 
 Once a color context has been initialized, it cannot be re-initialized.
 

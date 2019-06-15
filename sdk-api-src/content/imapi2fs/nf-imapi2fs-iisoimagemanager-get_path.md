@@ -76,11 +76,11 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 
-<a href="https://msdn.microsoft.com/47b059a9-a18a-4f32-9a02-6566175ca86b">IIsoImageManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iisoimagemanager">IIsoImageManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e5ef908-795d-4617-8123-605855b9ddc8">IIsoImageManager::SetPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-setpath">IIsoImageManager::SetPath</a>
  
 
  

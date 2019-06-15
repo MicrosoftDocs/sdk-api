@@ -111,7 +111,7 @@ This error code is defined in the <i>Ntstatus.h</i> header file.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -159,7 +159,7 @@ The <b>DL_EUI48</b> data type is defined in the <i>Mstcpip.h</i>  header file.
 
 
 
-<a href="https://msdn.microsoft.com/5DE1A1EF-86B3-4414-A21F-90635B48242A">RtlEthernetAddressToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlethernetaddresstostringa">RtlEthernetAddressToString</a>
  
 
  

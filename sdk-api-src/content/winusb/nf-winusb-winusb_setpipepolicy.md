@@ -61,7 +61,7 @@ The <b>WinUsb_SetPipePolicy</b> function sets the policy for a specific pipe ass
 
 An opaque handle to an interface that contains the endpoint with which the pipe is associated. 
 
-To set policy for the pipe associated with the endpoint in the first interface, use the handle returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://msdn.microsoft.com/1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c">WinUsb_GetAssociatedInterface</a>.
+To set policy for the pipe associated with the endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 
 ### -param PipeID [in]
@@ -71,7 +71,7 @@ An 8-bit value that consists of a 7-bit address and a direction bit. This parame
 
 ### -param PolicyType [in]
 
-A <b>ULONG</b> variable that specifies the policy parameter to change. The <i>Value</i> parameter contains the new value for the policy parameter, defined in <i>winusbio.h</i>. For information about how to use each of the pipe policies and the resulting behavior, see <a href="https://msdn.microsoft.com/fc7d8916-63ab-45a2-a786-8da8e9f3fe56">WinUSB Functions for Pipe Policy Modification</a>. 
+A <b>ULONG</b> variable that specifies the policy parameter to change. The <i>Value</i> parameter contains the new value for the policy parameter, defined in <i>winusbio.h</i>. For information about how to use each of the pipe policies and the resulting behavior, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>. 
 
 
 ### -param ValueLength [in]
@@ -144,7 +144,7 @@ Indicates that there is insufficient memory to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -152,15 +152,15 @@ Indicates that there is insufficient memory to perform the operation.
 
 
 
-<a href="https://msdn.microsoft.com/fc7d8916-63ab-45a2-a786-8da8e9f3fe56">WinUSB Functions for Pipe Policy Modification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>
 
 
 
-<a href="https://msdn.microsoft.com/adf66b3d-cf63-40f1-837a-d83c353236a3">WinUsb_GetPipePolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

@@ -59,7 +59,7 @@ Opens an existing transaction.
 
 ### -param dwDesiredAccess [in]
 
-The access to the transaction object. You must have read and write access to work with a transaction. See <a href="https://msdn.microsoft.com/93ef3098-b3cc-4b24-ae82-1c10d937f14f">Transaction Access Masks</a> for a list of valid values.   
+The access to the transaction object. You must have read and write access to work with a transaction. See <a href="https://docs.microsoft.com/windows/desktop/Ktm/transaction-access-masks">Transaction Access Masks</a> for a list of valid values.   
 
 
 ### -param TransactionId [in]
@@ -73,7 +73,7 @@ The GUID that identifies the transaction to be opened. This is commonly referred
 
 If the function succeeds, the return value is a handle to the transaction.
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the  possible error codes: 
 
@@ -84,7 +84,7 @@ The following list identifies the  possible error codes:
 
 
 
-Clients close the transaction handle by using the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function. If the last transaction handle is closed without anyone calling the <a href="https://msdn.microsoft.com/17db5e1f-685b-46f0-bac6-dff4c18bb515">CommitTransaction</a> function on the transaction, then the KTM implicitly rolls back the transaction.
+Clients close the transaction handle by using the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function. If the last transaction handle is closed without anyone calling the <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a> function on the transaction, then the KTM implicitly rolls back the transaction.
 
 
 
@@ -94,23 +94,23 @@ Clients close the transaction handle by using the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/17db5e1f-685b-46f0-bac6-dff4c18bb515">CommitTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-committransaction">CommitTransaction</a>
 
 
 
-<a href="https://msdn.microsoft.com/578bda35-bd35-4f6d-8366-a4bfb4dbfe42">CreateTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d3522b8-ddf0-449e-8ab4-09e679ba1f15">RollbackTransaction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-rollbacktransaction">RollbackTransaction</a>
 
 
 
-<a href="https://msdn.microsoft.com/93ef3098-b3cc-4b24-ae82-1c10d937f14f">Transaction Access Masks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/transaction-access-masks">Transaction Access Masks</a>
  
 
  

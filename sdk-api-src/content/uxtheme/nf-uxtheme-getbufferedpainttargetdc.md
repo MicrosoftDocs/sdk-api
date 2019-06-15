@@ -61,14 +61,14 @@ Retrieves the target device context (DC).
 
 Type: <b>HPAINTBUFFER</b>
 
-A handle to the buffered paint context obtained through <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
+A handle to the buffered paint context obtained through <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A handle to the requested DC, or <b>NULL</b> otherwise.
 
@@ -79,7 +79,7 @@ A handle to the requested DC, or <b>NULL</b> otherwise.
 
 
 
-If successful, this function returns the target DC that was passed by the application to <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>. 
+If successful, this function returns the target DC that was passed by the application to <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>. 
 
 
 

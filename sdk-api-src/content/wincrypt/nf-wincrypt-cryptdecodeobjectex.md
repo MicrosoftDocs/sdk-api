@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CryptDecodeObjectEx</b> function decodes a structure of the type indicated by the <i>lpszStructType</i> parameter. <b>CryptDecodeObjectEx</b> offers a significant performance improvement over 
-<a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a> by supporting memory allocation with the CRYPT_DECODE_ALLOC_FLAG value.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> by supporting memory allocation with the CRYPT_DECODE_ALLOC_FLAG value.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CryptDecodeObjectEx</b> function decodes a structure of the type indicate
 
 ### -param dwCertEncodingType [in]
 
-The type of encoding used. It is always acceptable to specify both the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> and <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+The type of encoding used. It is always acceptable to specify both the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -75,10 +75,10 @@ Currently defined encoding types are:
 
 ### -param lpszStructType [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) that defines the structure type. If the high-order word of the <i>lpszStructType</i> parameter is zero, the low-order word specifies the integer identifier for the type of the specified structure. Otherwise, this parameter is a long pointer to a null-terminated string.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that defines the structure type. If the high-order word of the <i>lpszStructType</i> parameter is zero, the low-order word specifies the integer identifier for the type of the specified structure. Otherwise, this parameter is a long pointer to a null-terminated string.
 
 For more information about object identifier strings, their predefined constants, and corresponding structures, see 
-<a href="https://msdn.microsoft.com/f969f2a5-fcbb-4711-8523-ba22952ae952">Constants for CryptEncodeObject and CryptDecodeObject</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
 
 ### -param pbEncoded [in]
@@ -108,7 +108,7 @@ This parameter can be one or more of the following flags. The flags can be combi
 <td width="60%">
 The called decoding function allocates memory for the decoded structure. A pointer to the allocated structure is returned in <i>pvStructInfo</i>.
 
-If <i>pDecodePara</i> or the <b>pfnAlloc</b>  member of <i>pDecodePara</i> is <b>NULL</b>, then <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> is called for the allocation and <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> must be called to free the memory.
+If <i>pDecodePara</i> or the <b>pfnAlloc</b>  member of <i>pDecodePara</i> is <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> is called for the allocation and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> must be called to free the memory.
 
 If <i>pDecodePara</i> and the <b>pfnAlloc</b>  member of <i>pDecodePara</i> are not <b>NULL</b>, then the function pointed to by <b>pfnAlloc</b> is called for the allocation and the function pointed to by the <b>pfnFree</b>  member of <i>pDecodePara</i> must be called to free the memory.
 
@@ -183,7 +183,7 @@ By default, the signature bytes are reversed. If this flag is set, this byte rev
 
 ### -param pDecodePara [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/08ed4627-8cbf-415f-b0d0-2c4b9ed9aed1">CRYPT_DECODE_PARA</a> structure that contains decoding paragraph information. If <i>pDecodePara</i> is set to <b>NULL</b>, then <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8759a58228c9">LocalAlloc</a> and <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> are used to allocate and free memory. If <i>pDecodePara</i> points to a <b>CRYPT_DECODE_PARA</b> structure, that structure passes in callback functions to allocate and free memory. These callback functions override the default memory allocation of <b>LocalAlloc</b> and <b>LocalFree</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_decode_para">CRYPT_DECODE_PARA</a> structure that contains decoding paragraph information. If <i>pDecodePara</i> is set to <b>NULL</b>, then <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> are used to allocate and free memory. If <i>pDecodePara</i> points to a <b>CRYPT_DECODE_PARA</b> structure, that structure passes in callback functions to allocate and free memory. These callback functions override the default memory allocation of <b>LocalAlloc</b> and <b>LocalFree</b>.
 
 
 ### -param pvStructInfo [out]
@@ -193,7 +193,7 @@ If the <i>dwFlags</i> CRYPT_ENCODE_ALLOC_FLAG is set, <i>pvStructInfo</i> is not
 If CRYPT_ENCODE_ALLOC_FLAG is not set, <i>pvStructInfo</i> is a pointer to a buffer that receives the decoded structure. When the buffer that is specified is not large enough to receive the decoded structure, the function sets the ERROR_MORE_DATA code and stores the required buffer size, in bytes, in the variable pointed to by <i>pcbStructInfo</i>.
 
 This parameter can be <b>NULL</b> to retrieve the size of this information for memory allocation purposes. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param pcbStructInfo [in, out]
@@ -212,7 +212,7 @@ When CRYPT_DECODE_ALLOC_FLAG is set, the initial value of *<i>pcbStructInfo</i> 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following table shows some possible error codes.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following table shows some possible error codes.
 
 <table>
 <tr>
@@ -256,8 +256,8 @@ If the buffer specified by the <i>pvStructInfo</i> parameter is not large enough
 </table>
  
 
-If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> may return an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://msdn.microsoft.com/cb1f34dd-dab4-4ffb-a73b-79a214290509">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 
 
@@ -266,9 +266,9 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-When encoding a cryptographic object using the preferred <a href="https://msdn.microsoft.com/45134db8-059b-43d3-90c2-9b6cc970fca0">CryptEncodeObjectEx</a> function, the terminating <b>NULL</b> character is included. When decoding, using the preferred <b>CryptDecodeObjectEx</b> function, the terminating <b>NULL</b> character is not retained.
+When encoding a cryptographic object using the preferred <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function, the terminating <b>NULL</b> character is included. When decoding, using the preferred <b>CryptDecodeObjectEx</b> function, the terminating <b>NULL</b> character is not retained.
 
-Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://msdn.microsoft.com/1353ef56-cae7-43f2-a31f-2bb3b502450e">CERT_ALT_NAME_ENTRY</a> structure.  
+Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure.  
 
 <ul>
 <li>X509_ALTERNATE_NAME
@@ -310,7 +310,7 @@ Each constant in the list below has an associated structure type that is pointed
 <li>szOID_SUBJECT_ALT_NAME2
 			</li>
 </ul>
-The <b>CRYPT_DECODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value of the <b>dwAltNameChoice</b> member of the <a href="https://msdn.microsoft.com/1353ef56-cae7-43f2-a31f-2bb3b502450e">CERT_ALT_NAME_ENTRY</a> structure, determines the manner in which strings are encoded.
+The <b>CRYPT_DECODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value of the <b>dwAltNameChoice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a> structure, determines the manner in which strings are encoded.
 
 <table>
 <tr>
@@ -319,20 +319,20 @@ The <b>CRYPT_DECODE_ENABLE_PUNYCODE_FLAG</b> flag, in conjunction with the value
 </tr>
 <tr>
 <td><b>CERT_ALT_NAME_DNS_NAME</b></td>
-<td>If the host name contains a Punycode encoded <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> string, it is converted  to the  Unicode equivalent.</td>
+<td>If the host name contains a Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string, it is converted  to the  Unicode equivalent.</td>
 </tr>
 <tr>
 <td><b>CERT_ALT_NAME_RFC822_NAME</b></td>
-<td>If the host name portion of the email address contains a Punycode encoded <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> string, it is converted to its Unicode equivalent.</td>
+<td>If the host name portion of the email address contains a Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string, it is converted to its Unicode equivalent.</td>
 </tr>
 <tr>
 <td><b>CERT_ALT_NAME_URL</b></td>
-<td>The URI is decoded. If the server host name of the URI contains a Punycode encoded <a href="https://msdn.microsoft.com/c1268524-4304-4c21-8f7d-f0a2826cd74e">IA5String</a> string, the host name string  is decoded to the Unicode equivalent.</td>
+<td>The URI is decoded. If the server host name of the URI contains a Punycode encoded <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/about-ia5string">IA5String</a> string, the host name string  is decoded to the Unicode equivalent.</td>
 </tr>
 </table>
  
 
-Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://msdn.microsoft.com/961feb88-b924-4834-bc68-d87f410259f1">CERT_HASHED_URL</a> structure. 
+Each constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter. The structure  pointed to, directly or indirectly, has a reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a> structure. 
 
 <ul>
 <li>szOID_LOGOTYPE_EXT</li>
@@ -340,19 +340,19 @@ Each constant in the list below has an associated structure type that is pointed
 <li>szOID_BIOMETRIC_EXT</li>
 <li>X509_BIOMETRIC_EXT</li>
 </ul>
-When decoding the <a href="https://msdn.microsoft.com/961feb88-b924-4834-bc68-d87f410259f1">CERT_HASHED_URL</a>  structure value, the URI is decoded.  If the host name contains a Punycode encoded host name, it is converted to the Unicode equivalent.
+When decoding the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_hashed_url">CERT_HASHED_URL</a>  structure value, the URI is decoded.  If the host name contains a Punycode encoded host name, it is converted to the Unicode equivalent.
 
 Each <b>X509_UNICODE_NAME</b> constant in the list below has an associated structure type that is pointed to by the <i>pvStructInfo</i> parameter.
 
 <ul>
 <li>X509_UNICODE_NAME</li>
 </ul>
-If the <i>pszObjId</i> member of the <a href="https://msdn.microsoft.com/4729e824-761c-4115-8b7b-76ffdab8ea62">CERT_RDN_ATTR</a> structure is set to <b>szOID_RSA_emailAddr</b> and the email address in the <b>Value</b> member contains Punycode encoded string, it is converted to the Unicode equivalent.
+If the <i>pszObjId</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_rdn_attr">CERT_RDN_ATTR</a> structure is set to <b>szOID_RSA_emailAddr</b> and the email address in the <b>Value</b> member contains Punycode encoded string, it is converted to the Unicode equivalent.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://msdn.microsoft.com/78108cd5-531e-4d0c-96cf-6f6264b7716c">Example C Program: ASN.1 Encoding and Decoding</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-asn1-encoding-and-decoding">Example C Program: ASN.1 Encoding and Decoding</a>.
 
 <div class="code"></div>
 
@@ -363,19 +363,19 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/7d5ed4f4-9d76-4a16-9059-27b0edd83459">CryptDecodeObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/9576a2a7-4379-4c1b-8ad5-284720cf7ccc">CryptEncodeObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/45134db8-059b-43d3-90c2-9b6cc970fca0">CryptEncodeObjectEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Object Encoding and Decoding Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Object Encoding and Decoding Functions</a>
  
 
  

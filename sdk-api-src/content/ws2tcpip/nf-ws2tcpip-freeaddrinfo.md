@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>freeaddrinfo</b> function frees address information that the 
-<a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a> function dynamically allocates in <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">addrinfo</a> structures.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function dynamically allocates in <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structures.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param pAddrInfo [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">addrinfo</a> structure or linked list of 
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure or linked list of 
 <b>addrinfo</b> structures to be freed. All dynamic storage pointed to within the 
 <b>addrinfo</b> structure or structures is also freed.
 
@@ -81,22 +81,22 @@ This function does not return a value.
 
 
 The 
-<b>freeaddrinfo</b> function frees <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">addrinfo</a> structures dynamically allocated by the ANSI <a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a> function. The <b>freeaddrinfo</b> function frees the initial 
+<b>freeaddrinfo</b> function frees <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structures dynamically allocated by the ANSI <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function. The <b>freeaddrinfo</b> function frees the initial 
 <b>addrinfo</b> structure pointed to in the <i>ai</i> parameter, including any buffers to which structure members point, then continues freeing any 
 <b>addrinfo</b> structures linked by the <b>ai_next</b> member of the <b>addrinfo</b> structure. The 
 <b>freeaddrinfo</b> function continues freeing linked structures until a <b>NULL</b> <b>ai_next</b> member is encountered.
 
-Macros in the Winsock header file define a mixed-case function name of <b>FreeAddrInfo</b> and an <b>ADDRINFOT</b> structure. This <b>FreeAddrInfo</b> function should be called with the <i>ai</i> parameter of a pointer of type <b>ADDRINFOT</b>. When UNICODE or _UNICODE is not defined, <b>FreeAddrInfo</b> is defined to <b>freeaddrinfo</b>, the ANSI version of the function, and <b>ADDRINFOT</b> is defined to the <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">addrinfo</a> structure. When UNICODE or _UNICODE is defined, <b>FreeAddrInfo</b> is defined to <a href="https://msdn.microsoft.com/0a2a226c-2068-4538-b499-04cfbfd65b8a">FreeAddrInfoW</a>, the Unicode version of the function, and <b>ADDRINFOT</b> is defined to the <a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a> structure.
+Macros in the Winsock header file define a mixed-case function name of <b>FreeAddrInfo</b> and an <b>ADDRINFOT</b> structure. This <b>FreeAddrInfo</b> function should be called with the <i>ai</i> parameter of a pointer of type <b>ADDRINFOT</b>. When UNICODE or _UNICODE is not defined, <b>FreeAddrInfo</b> is defined to <b>freeaddrinfo</b>, the ANSI version of the function, and <b>ADDRINFOT</b> is defined to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure. When UNICODE or _UNICODE is defined, <b>FreeAddrInfo</b> is defined to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfow">FreeAddrInfoW</a>, the Unicode version of the function, and <b>ADDRINFOT</b> is defined to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a> structure.
 
 <h3><a id="Support_for_freeaddrinfo_on_earlier_versions_of_Windows_"></a><a id="support_for_freeaddrinfo_on_earlier_versions_of_windows_"></a><a id="SUPPORT_FOR_FREEADDRINFO_ON_EARLIER_VERSIONS_OF_WINDOWS_"></a>Support for freeaddrinfo on earlier versions of Windows
 </h3>
 The <b>freeaddrinfo</b> function was added to the <i>Ws2_32.dll</i> on Windows XP and later. 
 
-The <a href="https://msdn.microsoft.com/0a2a226c-2068-4538-b499-04cfbfd65b8a">FreeAddrInfoW</a> function is the Unicode version of  <b>freeaddrinfo</b>.  The <b>FreeAddrInfoW</b> function was added to the <i>Ws2_32.dll</i> in Windows XP with Service Pack 2 (SP2). The <b>FreeAddrInfoW</b> function cannot be used on versions of Windows earlier than Windows XP with SP2.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfow">FreeAddrInfoW</a> function is the Unicode version of  <b>freeaddrinfo</b>.  The <b>FreeAddrInfoW</b> function was added to the <i>Ws2_32.dll</i> in Windows XP with Service Pack 2 (SP2). The <b>FreeAddrInfoW</b> function cannot be used on versions of Windows earlier than Windows XP with SP2.
 
 <b>Windows Phone 8:</b> The <b>freeaddrinfo</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
-<b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The <b>freeaddrinfo</b> and  <a href="https://msdn.microsoft.com/0a2a226c-2068-4538-b499-04cfbfd65b8a">FreeAddrInfoW</a> functions are supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
+<b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: The <b>freeaddrinfo</b> and  <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfow">FreeAddrInfoW</a> functions are supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
 
 
@@ -106,27 +106,27 @@ The <a href="https://msdn.microsoft.com/0a2a226c-2068-4538-b499-04cfbfd65b8a">Fr
 
 
 
-<a href="https://msdn.microsoft.com/0a2a226c-2068-4538-b499-04cfbfd65b8a">FreeAddrInfoW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfow">FreeAddrInfoW</a>
 
 
 
-<a href="https://msdn.microsoft.com/82436a88-5b37-4758-a5c9-b60dd1cbc36c">GetAddrInfoW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
 
 
-<a href="https://msdn.microsoft.com/edafb5f9-09fe-4f8e-9651-4002b6f622f4">Winsock Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">addrinfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4896eac-68ae-4a08-8647-36be65fe4478">addrinfoW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a>
 
 
 
-<a href="https://msdn.microsoft.com/7034b866-346e-4a3b-b81b-72816d95b1d6">getaddrinfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
  
 
  

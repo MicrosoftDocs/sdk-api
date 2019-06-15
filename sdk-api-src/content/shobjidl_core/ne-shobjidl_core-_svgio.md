@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/f93e2d30-7b50-48e8-a3e7-6fa29abb8a32">IFolderView::Items</a>, <a href="https://msdn.microsoft.com/dadf91c5-7d27-4b1b-875b-6f0615440f47">IFolderView::ItemCount</a>, and <a href="https://msdn.microsoft.com/249ce8cc-6820-4f0a-a83a-2035e88d0d9c">IShellView::GetItemObject</a> methods to restrict or control the items in their collections.
+Used with the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-items">IFolderView::Items</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-itemcount">IFolderView::ItemCount</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getitemobject">IShellView::GetItemObject</a> methods to restrict or control the items in their collections.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ Used with the <a href="https://msdn.microsoft.com/f93e2d30-7b50-48e8-a3e7-6fa29a
 
 ### -field SVGIO_BACKGROUND
 
-0x00000000. Refers to the background of the view. It is used with IID_IContextMenu to get a shortcut menu for the view background and with IID_IDispatch to get a dispatch interface that represents the <a href="https://msdn.microsoft.com/3b866266-fee0-42f7-a1e0-9adb6cc2e23f">ShellFolderView</a> object for the view.
+0x00000000. Refers to the background of the view. It is used with IID_IContextMenu to get a shortcut menu for the view background and with IID_IDispatch to get a dispatch interface that represents the <a href="https://docs.microsoft.com/windows/desktop/shell/shellfolderview">ShellFolderView</a> object for the view.
 
 
 ### -field SVGIO_SELECTION
@@ -69,17 +69,17 @@ Used with the <a href="https://msdn.microsoft.com/f93e2d30-7b50-48e8-a3e7-6fa29a
 
 ### -field SVGIO_ALLVIEW
 
-0x00000002. Used in the same way as <a href="https://msdn.microsoft.com/06ed616b-8121-4ea0-bd05-632888d0f376">SVGIO_SELECTION</a> but refers to all items in the view.
+0x00000002. Used in the same way as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to all items in the view.
 
 
 ### -field SVGIO_CHECKED
 
-0x00000003. Used in the same way as <a href="https://msdn.microsoft.com/06ed616b-8121-4ea0-bd05-632888d0f376">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="https://msdn.microsoft.com/e471b81a-da4d-48c0-8c7f-996b507d27a1">FOLDERFLAGS</a>.
+0x00000003. Used in the same way as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">SVGIO_SELECTION</a> but refers to checked items in views where checked mode is supported. For more details on checked mode, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a>.
 
 
 ### -field SVGIO_TYPE_MASK
 
-0x0000000F. Masks all bits but those corresponding to the <a href="https://msdn.microsoft.com/06ed616b-8121-4ea0-bd05-632888d0f376">_SVGIO</a> flags.
+0x0000000F. Masks all bits but those corresponding to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_svgio">_SVGIO</a> flags.
 
 
 ### -field SVGIO_FLAG_VIEWORDER

@@ -55,7 +55,7 @@ Returns the specified object's counter and instance names that exist on the spec
 			
 
 To use handles to data sources, use the 
-<a href="https://msdn.microsoft.com/2cea7d0a-cea2-4fee-a087-37663de254e9">PdhEnumObjectItemsH</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a> function.
 
 
 ## -parameters
@@ -179,8 +179,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -256,7 +256,7 @@ You should call this function twice, the first time to get the required buffer s
 
 Consecutive calls to this function will return identical lists of counters and instances, because 
 <b>PdhEnumObjectItems</b> will always query the list of performance objects defined by the last call to 
-<a href="https://msdn.microsoft.com/dfa4b10f-5134-4620-a6b0-0fa2c13a33ec">PdhEnumObjects</a> or <b>PdhEnumObjectItems</b>. To refresh the list of performance objects, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a> or <b>PdhEnumObjectItems</b>. To refresh the list of performance objects, call 
 <b>PdhEnumObjects</b> with a <i>bRefresh</i> flag value of <b>TRUE</b> before calling 
 <b>PdhEnumObjectItems</b> again.
 
@@ -266,7 +266,7 @@ The order of the instance and counter names is undetermined.
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/d7518ba6-a0f1-4985-aa2c-1ca15a0ceb02">Enumerating Process Objects</a>.
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/enumerating-process-objects">Enumerating Process Objects</a>.
 
 <div class="code"></div>
 
@@ -277,11 +277,11 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/2cea7d0a-cea2-4fee-a087-37663de254e9">PdhEnumObjectItemsH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfa4b10f-5134-4620-a6b0-0fa2c13a33ec">PdhEnumObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a>
  
 
  

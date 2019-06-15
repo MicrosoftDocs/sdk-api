@@ -59,7 +59,7 @@ Retrieves the information about each individual text line of the  text string.
 
 ### -param lineMetrics [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/cb589949-2eba-4ebb-ada4-546802fb3d01">DWRITE_LINE_METRICS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_line_metrics">DWRITE_LINE_METRICS</a>*</b>
 
 When this method returns, contains a pointer to an array of structures containing various calculated length values of individual text lines.
 
@@ -105,7 +105,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

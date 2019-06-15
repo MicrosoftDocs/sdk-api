@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the  type of logon message passed in a <a href="https://msdn.microsoft.com/438b5637-d711-419a-a163-a9b014bf0662">PKU2U_CERTIFICATE_S4U_LOGON</a> structure.
+Indicates the  type of logon message passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_pku2u_certificate_s4u_logon">PKU2U_CERTIFICATE_S4U_LOGON</a> structure.
 
 
 ## -enum-fields

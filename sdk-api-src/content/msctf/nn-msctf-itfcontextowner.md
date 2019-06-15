@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfContextOwner</b> interface is implemented by an application or a text service to receive text input without having a text store. An instance of this interface is obtained when the application calls the <a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink</a> method.
+The <b>ITfContextOwner</b> interface is implemented by an application or a text service to receive text input without having a text store. An instance of this interface is obtained when the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwner</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfContextOwner</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextOwner</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextOwner</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfContextOwner</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8091e79-33af-49d5-b3c8-d30952c62010">GetACPFromPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getacpfrompoint">GetACPFromPoint</a>
 </td>
 <td align="left" width="63%">
 Converts a point, in screen coordinates, to an application character position.
@@ -78,7 +78,7 @@ Converts a point, in screen coordinates, to an application character position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a249d529-fdb1-4f5f-84ae-f26dae917609">GetAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getattribute">GetAttribute</a>
 </td>
 <td align="left" width="63%">
 Returns the value of a supported attribute.
@@ -87,7 +87,7 @@ Returns the value of a supported attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/499a446d-1575-4636-b444-dd6078ed8736">GetScreenExt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getscreenext">GetScreenExt</a>
 </td>
 <td align="left" width="63%">
 Returns the bounding box, in screen coordinates, of the display surface where the text stream is rendered.
@@ -96,7 +96,7 @@ Returns the bounding box, in screen coordinates, of the display surface where th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce30ec8a-48fe-4ec7-a7e1-2a0cf084097d">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Obtains the status of a document.
@@ -105,7 +105,7 @@ Obtains the status of a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/edde0ba7-1d88-4c32-b794-761b66d73507">GetTextExt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">GetTextExt</a>
 </td>
 <td align="left" width="63%">
 Returns the bounding box, in screen coordinates, of the text at a specified character position.
@@ -114,7 +114,7 @@ Returns the bounding box, in screen coordinates, of the text at a specified char
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91dfc873-3327-49f4-924a-b013fa90459b">GetWnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getwnd">GetWnd</a>
 </td>
 <td align="left" width="63%">
 Returns the handle to a window that corresponds to the current document.
@@ -129,12 +129,12 @@ Returns the handle to a window that corresponds to the current document.
 
 
 
-<a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

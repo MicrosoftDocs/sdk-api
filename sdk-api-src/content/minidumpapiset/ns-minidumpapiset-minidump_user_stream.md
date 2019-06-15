@@ -60,7 +60,7 @@ Contains user-defined information stored in a data stream.
 ### -field Type
 
 The type of data stream. For more information, see 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>.
 
 
 ### -field BufferSize
@@ -87,15 +87,15 @@ In this context, a data stream refers to a block of data within a minidump file.
 
 
 
-<a href="https://msdn.microsoft.com/495136a0-2fed-47ca-8233-7e813b43b82f">MINIDUMP_STREAM_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680524(v=VS.85).aspx">MINIDUMP_USER_STREAM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Unmarshals an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> object from the RPC buffer.
+Unmarshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
 
 
 ## -parameters
@@ -118,7 +118,7 @@ Insufficient memory for this function to perform.
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
  
 
  

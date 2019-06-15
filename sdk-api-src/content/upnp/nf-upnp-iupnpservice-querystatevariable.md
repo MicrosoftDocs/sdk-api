@@ -70,7 +70,7 @@ Receives a reference to the value of the variable specified by <i>bstrVariableNa
 
 
 
-To free this parameter, use <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a>.
+To free this parameter, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 						
 
 
@@ -78,7 +78,7 @@ To free this parameter, use <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns either one of the COM error codes defined in WinError.h or one of the UPnP-specific return values listed in the following table. Some of these values indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://msdn.microsoft.com/4b18a5d4-f6e8-4670-93dd-ecd012940000">Device Error Codes</a>.
+If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns either one of the COM error codes defined in WinError.h or one of the UPnP-specific return values listed in the following table. Some of these values indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.
 
 <table>
 <tr>
@@ -137,7 +137,7 @@ The query did not complete because of problems at the UPnP protocol level.
 </td>
 <td width="60%">
 The variable is not evented and the remote query for the value failed because of an HTTP problem. To retrieve the HTTP error code, use 
-<a href="https://msdn.microsoft.com/8593b800-ae0a-41b8-9a61-92bdfc106c8b">IUPnPService::LastTransportStatus</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ This method retrieves the values of evented variables from the service object's 
 If an application invokes this method for an evented state variable, between the time a service first initializes itself and the time it processes its first event, <b>UPNP_E_VARIABLE_VALUE_UNKNOWN</b> is returned.
 
 If an application invokes this method for a service that does not use events, and the HTTP request fails, <b>UPNP_E_TRANSPORT_ERROR</b> is returned. To view the status, use 
-<a href="https://msdn.microsoft.com/8593b800-ae0a-41b8-9a61-92bdfc106c8b">IUPnPService::LastTransportStatus</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>.
 
 <div class="alert"><b>Note</b>  The time.tz variable can contain incorrect timezone information on the control point. For example, you can have a device and a control point running in the same timezone, -7.00. When the control point queries a time.tz variable for the current time, the device returns a datestructure with the timezone value set to -8.00 instead of -7.00.<p class="note">To work around this issue, use the dataTime.tz variable type instead time.tz on the control point.
 
@@ -183,11 +183,11 @@ If an application invokes this method for a service that does not use events, an
 
 
 
-<a href="https://msdn.microsoft.com/48b20b03-62a4-4dcd-8eda-f1bfef1eef38">IUPnPService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
 
 
 
-<a href="https://msdn.microsoft.com/8593b800-ae0a-41b8-9a61-92bdfc106c8b">IUPnPService::LastTransportStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
  
 
  

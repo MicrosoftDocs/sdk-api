@@ -75,7 +75,7 @@ The index of the segment at which to begin walking. Note: This index is global t
 
 ### -param worldTransform [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 The transform to apply to the path prior to walking.
 
@@ -91,7 +91,7 @@ The flattening tolerance to use when walking along an arc or Bezier segment. The
 
 ### -param pointDescription [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d6e7a4c1-135f-4ffe-91d7-486de8a9338d">D2D1_POINT_DESCRIPTION</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_point_description">D2D1_POINT_DESCRIPTION</a>*</b>
 
 When this method returns, contains a description of the point that can be found at the given location.
 
@@ -100,7 +100,7 @@ When this method returns, contains a description of the point that can be found 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -132,7 +132,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/21f0a4a3-3c6c-434d-8cfc-767c7654849e">ID2D1PathGeometry1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a>
  
 
  

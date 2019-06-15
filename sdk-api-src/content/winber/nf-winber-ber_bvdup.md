@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ber_bvdup</b> function creates a copy of the supplied 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ The <b>ber_bvdup</b> function creates a copy of the supplied
 
 ### -param pBerVal [in]
 
-Pointer to the source <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structure.
+Pointer to the source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure.
 
 
 ## -returns
 
 
 
-If the function succeeds, the return value is a pointer to the newly allocated <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> structure.
+If the function succeeds, the return value is a pointer to the newly allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> structure.
 
 If the function fails, it returns a <b>NULL</b> pointer.
 
@@ -78,7 +78,7 @@ If the function fails, it returns a <b>NULL</b> pointer.
 
 
 
-The allocated <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a> should be freed with <a href="https://msdn.microsoft.com/9e5a4bb9-568d-48ee-be75-952916c021b1">ber_bvfree</a>.
+The allocated <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a> should be freed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_bvfree">ber_bvfree</a>.
 
 
 
@@ -88,11 +88,11 @@ The allocated <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
  
 
  

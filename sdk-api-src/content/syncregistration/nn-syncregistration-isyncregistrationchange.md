@@ -54,7 +54,7 @@ Represents a change to the registration of a synchronization provider or a synch
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncRegistrationChange</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISyncRegistrationChange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncRegistrationChange</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncRegistrationChange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncRegistrationChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7c96c6ad-13ca-4e00-8e6e-61898206001f">GetEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
 Gets the next pending registration event.
@@ -78,7 +78,7 @@ Gets the next pending registration event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b2655f4-2a67-405d-93dc-dd8242992ce5">GetInstanceId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getinstanceid">GetInstanceId</a>
 </td>
 <td align="left" width="63%">
 Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.
@@ -93,7 +93,7 @@ Gets the instance ID of the synchronization provider or synchronization provider
 
 
 
-<a href="https://msdn.microsoft.com/8233671e-bf89-448d-8347-9b4f0ae7501f">Windows Sync Registration Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
  
 
  

@@ -516,24 +516,24 @@ This reads the start of the next message from the channel, including the headers
                 the message.
             
 
-This function is like <a href="https://msdn.microsoft.com/f2b20e6b-fac0-47b0-8ce9-ad06dc93f0e6">WsReadEnvelopeStart</a> but is used with channels.
+This function is like <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> but is used with channels.
             
 
 Upon success, the headers will be stored in the message and can be accessed in a random-access
-                fashion (for example, using <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>).
+                fashion (for example, using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>).
             
 
-The message must be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> state.  Upon success,
+The message must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> state.  Upon success,
                 the message will have transitioned to <b>WS_MESSAGE_STATE_READING</b> state.
             
 
-To deserialize an element of the message body, use <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a>.  To read
+To deserialize an element of the message body, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.  To read
                 directly from the XML Reader of the message, first get the reader using
-                the <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_READER</a> property.
+                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_READER</a> property.
             
 
-If the channel input is streamed (<a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_INPUT_TRANSFER_MODE</a>), then
-                <a href="https://msdn.microsoft.com/fe70338d-d2bf-4126-96b2-30ef6ebfa74d">WsFillBody</a> must be called to receive the next part of the body before
+If the channel input is streamed (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a>), then
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> must be called to receive the next part of the body before
                 it is actually read.
             
 

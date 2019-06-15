@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbLogoTransmissionDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbLogoTransmissionDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbLogoTransmissionDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbLogoTransmissionDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbLogoTransmissionDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3672458d-0f7d-4264-8362-2ddad3afecab">GetDownloadDataId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getdownloaddataid">GetDownloadDataId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the downloaded data from an ISDB logo transmission descriptor.
@@ -78,7 +78,7 @@ Gets the identifier for the downloaded data from an ISDB logo transmission descr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f3a29c1-44a4-4513-bab9-2cb77abe0419">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of  an ISDB logo transmission descriptor.
@@ -87,7 +87,7 @@ Gets the body length of  an ISDB logo transmission descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb4ba9f1-f633-4cb4-adc4-6671bb5fc239">GetLogoCharW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getlogocharw">GetLogoCharW</a>
 </td>
 <td align="left" width="63%">
 Gets the character string for a simple logo from an ISDB logo transmission descriptor.
@@ -96,7 +96,7 @@ Gets the character string for a simple logo from an ISDB logo transmission descr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f4c11012-5d37-4d8f-944b-edfa50719b12">GetLogoId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getlogoid">GetLogoId</a>
 </td>
 <td align="left" width="63%">
  Gets the logo identifier from an ISDB logo transmission descriptor.
@@ -105,7 +105,7 @@ Gets the character string for a simple logo from an ISDB logo transmission descr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8f824ec-36f7-4af0-bce3-295b8403e431">GetLogoTransmissionType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getlogotransmissiontype">GetLogoTransmissionType</a>
 </td>
 <td align="left" width="63%">
 Gets the logo transmission type from an ISDB logo transmission descriptor.
@@ -114,7 +114,7 @@ Gets the logo transmission type from an ISDB logo transmission descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6cc23b4-b0cf-410c-9c15-03d58e795e6b">GetLogoVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getlogoversion">GetLogoVersion</a>
 </td>
 <td align="left" width="63%">
  Gets the version number for a logo from an ISDB logo transmission descriptor.
@@ -123,7 +123,7 @@ Gets the logo transmission type from an ISDB logo transmission descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ad7d7b5-a20f-4d03-b699-a39fe7ea7568">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB logo transmission descriptor.

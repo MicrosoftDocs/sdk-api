@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>STROBJ_vEnumStart</b> function defines the form, or type, for data that will be returned from GDI in subsequent calls to <a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a>. 
+The <b>STROBJ_vEnumStart</b> function defines the form, or type, for data that will be returned from GDI in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>STROBJ_vEnumStart</b> function defines the form, or type, for data that w
 
 ### -param pstro
 
-Pointer to the <a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a> structure whose data form is to be defined.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a> structure whose data form is to be defined.
 
 
 ## -returns
@@ -75,7 +75,7 @@ None
 
 
 
-This function also restarts the enumeration of the <a href="https://msdn.microsoft.com/1eb80e7a-93f5-474c-bed9-5b19f6657788">GLYPHPOS</a> array.
+This function also restarts the enumeration of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a> array.
 
 This function should be called by the driver prior to calling <b>STROBJ_bEnum</b>.
 
@@ -87,15 +87,15 @@ This function should be called by the driver prior to calling <b>STROBJ_bEnum</b
 
 
 
-<a href="https://msdn.microsoft.com/1eb80e7a-93f5-474c-bed9-5b19f6657788">GLYPHPOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphpos">GLYPHPOS</a>
 
 
 
-<a href="https://msdn.microsoft.com/efe53cb8-39b9-4931-bac2-9c61efd9d457">STROBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_strobj">STROBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/82cb12ff-2baa-4291-849c-dab9d01fa39b">STROBJ_bEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_benum">STROBJ_bEnum</a>
  
 
  

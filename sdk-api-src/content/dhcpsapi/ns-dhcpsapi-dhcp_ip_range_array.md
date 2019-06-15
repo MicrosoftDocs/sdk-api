@@ -64,7 +64,7 @@ Integer that specifies the number of DHCP IPv4 ranges in <b>Elements.</b>
 
 ### -field Elements
 
-Pointer to a list of <a href="https://msdn.microsoft.com/8d3f021d-25ac-44de-9bbc-cc558bc47f91">DHCP_IP_RANGE</a>  structures.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range">DHCP_IP_RANGE</a>  structures.
 
 
 ### -field Elements.size_is
@@ -84,7 +84,7 @@ Pointer to a list of <a href="https://msdn.microsoft.com/8d3f021d-25ac-44de-9bbc
 
 
 
-<a href="https://msdn.microsoft.com/7e62d2f3-275a-45ab-baab-648fe135d0fc">DHCP_POLICY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_policy">DHCP_POLICY</a>
  
 
  

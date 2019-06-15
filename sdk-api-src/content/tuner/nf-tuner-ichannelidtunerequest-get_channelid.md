@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/4ff0e945-b0a3-4b9f-9511-5891b69c72df">IChannelIDTuneRequest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ichannelidtunerequest">IChannelIDTuneRequest</a>
  
 
  

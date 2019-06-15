@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CancelOperation</b> method attempts to cancel a previously issued call by using the <a href="https://msdn.microsoft.com/550eadd0-c03b-40b3-9f08-639085365f4b">DeviceIoControlAsync</a> method.
+The <b>CancelOperation</b> method attempts to cancel a previously issued call by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> method.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CancelOperation</b> method attempts to cancel a previously issued call by
 
 ### -param cancelContext [in]
 
-The cancel context that a previous call to <a href="https://msdn.microsoft.com/550eadd0-c03b-40b3-9f08-639085365f4b">DeviceIoControlAsync</a> returned.
+The cancel context that a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> returned.
 
 
 ## -returns
@@ -116,7 +116,7 @@ Regardless of whether cancellation is successful, the result of the operation is
 
 
 
-<a href="https://msdn.microsoft.com/d285e04e-04d0-4c2a-b9f0-72eebebf4f4b">IDeviceIoControl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
  
 
  

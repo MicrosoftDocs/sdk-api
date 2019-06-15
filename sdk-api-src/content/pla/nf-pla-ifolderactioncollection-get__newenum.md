@@ -66,7 +66,7 @@ C++ programmers use this property.
 
 The enumeration is a snapshot of the collection at the time of the call.
 
-The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="https://msdn.microsoft.com/a3942d5f-9ec4-4461-84f9-f2fae3971e23">IFolderAction</a> interface, use the <b>punkVal</b> member of the variant.
+The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a> interface, use the <b>punkVal</b> member of the variant.
 
 
 
@@ -76,7 +76,7 @@ The items of the enumeration are variants whose type is VT_UNKNOWN. To query for
 
 
 
-<a href="https://msdn.microsoft.com/9b0ab26f-7e91-4d7a-9fd7-73332601dd7b">IFolderActionCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
  
 
  

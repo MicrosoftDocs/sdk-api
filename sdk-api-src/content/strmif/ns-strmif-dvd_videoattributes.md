@@ -92,7 +92,7 @@ The frame height in lines (525 for a frame rate of 60 Hz or 625 for 50 Hz).
 
 ### -field Compression
 
-Variable of type <a href="https://msdn.microsoft.com/e147a860-4c69-4da0-96d1-dfc4957880d9">DVD_VIDEO_COMPRESSION</a> indicating the MPEG compression type used on the disc.
+Variable of type <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagdvd_video_compression">DVD_VIDEO_COMPRESSION</a> indicating the MPEG compression type used on the disc.
 
 
 ### -field fLine21Field1InGOP
@@ -129,7 +129,7 @@ For 625/50 Hz systems, <b>TRUE</b> means "film mode" and <b>FALSE</b> means "cam
 
 
 
-This structure is filled when an application calls the <a href="https://msdn.microsoft.com/92bd3af9-7057-4bf7-9026-d4862c271a03">IDvdInfo2::GetCurrentVideoAttributes</a> method.
+This structure is filled when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getcurrentvideoattributes">IDvdInfo2::GetCurrentVideoAttributes</a> method.
 
 
 
@@ -139,7 +139,7 @@ This structure is filled when an application calls the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

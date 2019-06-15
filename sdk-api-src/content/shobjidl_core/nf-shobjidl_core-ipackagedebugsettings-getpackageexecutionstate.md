@@ -66,7 +66,7 @@ The package full name.
 
 ### -param packageExecutionState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/8BE433AC-34E6-42D7-9F8B-63AECAC96996">PACKAGE_EXECUTION_STATE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-package_execution_state">PACKAGE_EXECUTION_STATE</a>*</b>
 
 
 ## -returns
@@ -94,7 +94,7 @@ Debuggers can use the <b>GetPackageExecutionState</b> to understand if the appli
 
 
 
-<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
  
 
  

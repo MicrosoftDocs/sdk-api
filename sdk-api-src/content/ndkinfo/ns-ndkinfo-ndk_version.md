@@ -85,19 +85,19 @@ To specify version 1.2 (for Windows Server 2012 R2), set the <b>Major</b> memb
 
 
 
-<a href="https://msdn.microsoft.com/AC8D4FA1-59E0-4934-A6C5-EA2E645C53FA">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndisndk/ns-ndisndk-_ndis_open_ndk_adapter_parameters">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3F8EAA7F-20CE-4948-9F10-E23025B174E7">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/439C990E-6978-4D0F-8453-6EB2FED1DB77">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_query_extension_interface">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/12E3ED4A-F078-4489-BC84-69EE735CAEF8">NDK_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
  
 
  

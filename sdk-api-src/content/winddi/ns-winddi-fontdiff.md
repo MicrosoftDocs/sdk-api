@@ -173,7 +173,7 @@ Specifies the maximum character increment of all glyphs in the font.
 
 ### -field ptlCaret
 
-Specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
 
 
 ## -remarks
@@ -182,7 +182,7 @@ Specifies a <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda5278
 
 If a font has already been emboldened, the only possible remaining simulation is italicization, yielding a bold italic simulation. Similarly, an italicized font can only be emboldened, also yielding a bold italic simulation.
 
-For descriptions of the FSHORT and FWORD data types, see <a href="https://msdn.microsoft.com/2054aa16-6d86-4db3-8b16-4570b0374e23">GDI Data Types</a>.
+For descriptions of the FSHORT and FWORD data types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 
 
@@ -192,7 +192,7 @@ For descriptions of the FSHORT and FWORD data types, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/46d4170e-13d6-406f-991f-2024fadd8ddc">FONTSIM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontsim">FONTSIM</a>
  
 
  

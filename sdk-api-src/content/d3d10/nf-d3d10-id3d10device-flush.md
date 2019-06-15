@@ -77,9 +77,9 @@ Most applications will not need to call this method. Calling this method when no
 
 When Direct3D state-setting, present, or draw commands are called by an application, those commands are queued into an internal command buffer. <b>Flush</b> sends those commands to the GPU for processing. Normally, these commands are sent to the GPU automatically whenever Direct3D determines that they need to be, such as when the command buffer is full or when mapping a resource. <b>Flush</b> will send the commands manually.
 
-<b>Flush</b> should be used when the CPU waits for an arbitrary amount of time (such as when calling <a href="http://msdn2.microsoft.com/en-us/library/ms686298.aspx">Sleep</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb205618(v=VS.85).aspx">ID3DX10ThreadPump::WaitForAllItems</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb174559(v=VS.85).aspx">WaitForVBlank</a>.
+<b>Flush</b> should be used when the CPU waits for an arbitrary amount of time (such as when calling <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleep">Sleep</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d10/id3dx10threadpump-waitforallitems">ID3DX10ThreadPump::WaitForAllItems</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-waitforvblank">WaitForVBlank</a>.
 
-For more information about how flushing works, see <a href="https://msdn.microsoft.com/en-us/library/Bb172234(v=VS.85).aspx">Accurately Profiling Direct3D API Calls (Direct3D 9)</a>.
+For more information about how flushing works, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/accurately-profiling-direct3d-api-calls">Accurately Profiling Direct3D API Calls (Direct3D 9)</a>.
 
 
 
@@ -89,7 +89,7 @@ For more information about how flushing works, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

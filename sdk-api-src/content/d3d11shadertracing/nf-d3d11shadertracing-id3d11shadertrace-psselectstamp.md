@@ -74,7 +74,7 @@ The index of the stamp to select.
 <li><b>S_FALSE</b> if the method set the pixel-shader stamp, and if the invocation for the selected stamp falls off the primitive.</li>
 <li><b>E_FAIL</b> if you called the method for a vertex shader or geometry shader;   <b>PSSelectStamp</b> is meaningful only for pixel shaders.</li>
 <li><b>E_INVALIDARG</b> if <i>stampIndex</i> is out of range [0..3].</li>
-<li>Possibly other error codes that are described in <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.</li>
+<li>Possibly other error codes that are described in <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.</li>
 </ul>
 
 
@@ -85,7 +85,7 @@ The index of the stamp to select.
 
 
 
-After you call <b>PSSelectStamp</b> to set the pixel-shader stamp, you can call the <a href="https://msdn.microsoft.com/35BC4F23-64E0-4E45-A621-925A5CA20AFE">ID3D11ShaderTrace::GetInitialRegisterContents</a>,  <a href="https://msdn.microsoft.com/ECEF965F-D046-4F84-A205-F9666ECAE08C">ID3D11ShaderTrace::GetStep</a>, <a href="https://msdn.microsoft.com/360BB797-D5A9-486A-94ED-AF1CD3A4E118">ID3D11ShaderTrace::GetWrittenRegister</a>, and <a href="https://msdn.microsoft.com/2BDA0C25-B5D7-4A8D-A762-2C3FDF113433">ID3D11ShaderTrace::GetReadRegister</a> methods to get trace data for that stamp.
+After you call <b>PSSelectStamp</b> to set the pixel-shader stamp, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getinitialregistercontents">ID3D11ShaderTrace::GetInitialRegisterContents</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getstep">ID3D11ShaderTrace::GetStep</a>, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getwrittenregister">ID3D11ShaderTrace::GetWrittenRegister</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getreadregister">ID3D11ShaderTrace::GetReadRegister</a> methods to get trace data for that stamp.
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
@@ -97,7 +97,7 @@ After you call <b>PSSelectStamp</b> to set the pixel-shader stamp, you can call 
 
 
 
-<a href="https://msdn.microsoft.com/27FF1E53-262A-4642-A4A8-7E21163C6DF9">ID3D11ShaderTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nn-d3d11shadertracing-id3d11shadertrace">ID3D11ShaderTrace</a>
  
 
  

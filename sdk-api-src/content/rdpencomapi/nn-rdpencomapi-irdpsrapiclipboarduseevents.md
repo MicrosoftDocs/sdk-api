@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Implement this interface on the sharer side to track or control use of the clipboard. 
-If you do not enable clipboard sharing, this interface has no effect. You need to set a value for the <b>SetClipboardRedirectCallback</b> property described in <a href="https://msdn.microsoft.com/01aee262-95c0-4065-8f8c-e21db66f2a8c">Property</a>.
+If you do not enable clipboard sharing, this interface has no effect. You need to set a value for the <b>SetClipboardRedirectCallback</b> property described in <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>.
 
 This interface is available starting with Windows 10, version 1511.
 
@@ -59,7 +59,7 @@ This interface is available starting with Windows 10, version 1511.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIClipboardUseEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRDPSRAPIClipboardUseEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIClipboardUseEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPSRAPIClipboardUseEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IRDPSRAPIClipboardUseEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa5fccb9-ca7b-4779-a454-f16be8bca72c">OnPasteFromClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiclipboarduseevents-onpastefromclipboard">OnPasteFromClipboard</a>
 </td>
 <td align="left" width="63%">
 This callback is issued when an attempt to copy data from the sharer computer is made.
@@ -89,7 +89,7 @@ This callback is issued when an attempt to copy data from the sharer computer is
 
 
 
-<a href="https://msdn.microsoft.com/01aee262-95c0-4065-8f8c-e21db66f2a8c">Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>
  
 
  

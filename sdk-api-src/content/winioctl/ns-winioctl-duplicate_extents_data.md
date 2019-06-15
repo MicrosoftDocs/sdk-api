@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains parameters for the <a href="https://msdn.microsoft.com/D66D2172-9308-4138-A321-867589787FED">FSCTL_DUPLICATE_EXTENTS</a> control code that performs the <a href="https://msdn.microsoft.com/E18E8D79-3985-40B8-A4C5-A73A21E5C527">Block Cloning</a> operation.
+Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS</a> control code that performs the <a href="https://docs.microsoft.com/windows/desktop/FileIO/block-cloning">Block Cloning</a> operation.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains parameters for the <a href="https://msdn.microsoft.com/D66D2172-9308-41
 ### -field FileHandle
 
 A handle to the source file from which the byte range is to be copied.
-To retrieve a file handle, use the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+To retrieve a file handle, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 
 
@@ -83,19 +83,19 @@ The length, in bytes, of the range to copy.
 
 
 
-<a href="https://msdn.microsoft.com/E18E8D79-3985-40B8-A4C5-A73A21E5C527">Block Cloning</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/block-cloning">Block Cloning</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/D66D2172-9308-4138-A321-867589787FED">FSCTL_DUPLICATE_EXTENTS_TO_FILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file">FSCTL_DUPLICATE_EXTENTS_TO_FILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
  
 
  

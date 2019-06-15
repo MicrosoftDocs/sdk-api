@@ -54,12 +54,12 @@ ms.custom: 19H1
 
 Adds a backslash to the end of a string to create the correct syntax for a path. If the source path already has a trailing backslash, no backslash will be added.
 
-This function differs from <a href="https://msdn.microsoft.com/b50677cd-8815-4d84-b70a-c83863378c56">PathCchAddBackslash</a> in that it can return a pointer to the new end of the string and report the number of unused characters remaining in the buffer.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslash">PathCchAddBackslash</a> in that it can return a pointer to the new end of the string and report the number of unused characters remaining in the buffer.
 
-This function differs from <a href="https://msdn.microsoft.com/27d8aec7-8b00-412a-9a42-8ce27e262781">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function, or <b>PathCchAddBackslashEx</b>, should be used in place of <a href="https://msdn.microsoft.com/27d8aec7-8b00-412a-9a42-8ce27e262781">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function, or <b>PathCchAddBackslashEx</b>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div><div> </div>
 
 ## -parameters
 
@@ -100,7 +100,7 @@ This function returns S_OK if the function was successful, S_FALSE if the path s
 
 
 
-<a href="https://msdn.microsoft.com/b50677cd-8815-4d84-b70a-c83863378c56">PathCchAddBackslash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslash">PathCchAddBackslash</a>
  
 
  

@@ -54,7 +54,7 @@ Sets properties on the video resizer DSP.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMResizerProps</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMResizerProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMResizerProps</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMResizerProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMResizerProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91c37040-a698-489b-95fd-f3088f62e4c9">GetFullCropRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-getfullcropregion">GetFullCropRegion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the source and destination rectangles.
@@ -78,7 +78,7 @@ Retrieves the source and destination rectangles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51a11e24-a4c3-49fb-86ec-17baa1773caf">SetClipRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setclipregion">SetClipRegion</a>
 </td>
 <td align="left" width="63%">
 Sets the source rectangle.
@@ -87,7 +87,7 @@ Sets the source rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5578b90d-3b18-47a2-b4ae-75a4749f9001">SetFullCropRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setfullcropregion">SetFullCropRegion</a>
 </td>
 <td align="left" width="63%">
 Sets the source and destination rectangles.
@@ -96,7 +96,7 @@ Sets the source and destination rectangles.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5ce36aa-d46c-4c17-bc8d-4840ea496980">SetInterlaceMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setinterlacemode">SetInterlaceMode</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the input video stream is interlaced.
@@ -105,7 +105,7 @@ Specifies whether the input video stream is interlaced.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64a85094-4247-41d8-9bb6-bdaedba62c19">SetResizerQuality</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresizerprops-setresizerquality">SetResizerQuality</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
@@ -120,11 +120,11 @@ Specifies whether to use an algorithm that produces higher-quality video, or a f
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/4acd6366-1abf-43f3-b6c9-4ea17a335cec">Video Resizer DSP</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/videoresizer">Video Resizer DSP</a>
  
 
  

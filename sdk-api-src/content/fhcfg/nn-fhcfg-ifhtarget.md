@@ -54,7 +54,7 @@ The <b>IFhTarget</b> interface allows client applications to read numeric and st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhTarget</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFhTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFhTarget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFhTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFhTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3FA2F3AB-A406-4F19-AA5A-0D5596F1BF2C">GetNumericalProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty">GetNumericalProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a numeric property of the File History backup target that is represented by an <b>IFhTarget</b> interface.
@@ -78,7 +78,7 @@ Retrieves a numeric property of the File History backup target that is represent
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DC5FE023-FA6E-4B97-AD9D-830975A17159">GetStringProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">GetStringProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string property of the File History backup target that is represented by an <b>IFhTarget</b> interface.

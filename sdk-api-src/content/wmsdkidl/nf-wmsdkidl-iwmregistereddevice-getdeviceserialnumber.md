@@ -63,7 +63,7 @@ The <b>GetDeviceID</b> method retrieves the 128-bit value that identifies the de
 
 ### -param pSerialNumber [out]
 
-Address of a <a href="https://msdn.microsoft.com/en-us/library/Dd798047(v=VS.85).aspx">DRM_VAL16</a> structure that receives the device serial number.
+Address of a <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ns-wmsdkidl-_drm_val16">DRM_VAL16</a> structure that receives the device serial number.
 
 
 ## -returns
@@ -110,7 +110,7 @@ Together, the device serial number and the device certificate uniquely identify 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
  
 
  

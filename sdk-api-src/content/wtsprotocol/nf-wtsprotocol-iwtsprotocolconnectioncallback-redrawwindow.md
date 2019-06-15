@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback::RedrawWindow</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/92d52015-c5b9-472e-898b-aca6f6e83620">IWRdsProtocolConnectionCallback::RedrawWindow</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback::RedrawWindow</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-redrawwindow">IWRdsProtocolConnectionCallback::RedrawWindow</a>.]
 
 Requests that the Remote Desktop Services service redraw the client window.
 
@@ -61,7 +61,7 @@ Requests that the Remote Desktop Services service redraw the client window.
 
 ### -param rect [in, optional]
 
-A <a href="https://msdn.microsoft.com/5f139077-8ef4-4c8e-ae33-0dd3aee58ef6">WTS_SMALL_RECT</a> structure that contains the x and y coordinates of the screen to redraw. A value of <b>NULL</b> requests that the entire screen be redrawn.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_small_rect">WTS_SMALL_RECT</a> structure that contains the x and y coordinates of the screen to redraw. A value of <b>NULL</b> requests that the entire screen be redrawn.
 
 
 ## -returns
@@ -70,7 +70,7 @@ A <a href="https://msdn.microsoft.com/5f139077-8ef4-4c8e-ae33-0dd3aee58ef6">WTS_
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -79,7 +79,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-This method is typically called after the <a href="https://msdn.microsoft.com/69fab470-8763-405e-96f1-d3b1c5a26422">StopScreenUpdates</a> method.
+This method is typically called after the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a> method.
 
 To avoid deadlocks when calling this method:
 
@@ -95,11 +95,11 @@ To avoid deadlocks when calling this method:
 
 
 
-<a href="https://msdn.microsoft.com/ac8a2a66-fa1f-48bd-9502-def833e26f31">IWTSProtocolConnectionCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/69fab470-8763-405e-96f1-d3b1c5a26422">StopScreenUpdates</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a>
  
 
  

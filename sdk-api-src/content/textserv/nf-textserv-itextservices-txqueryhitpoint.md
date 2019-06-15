@@ -59,7 +59,7 @@ Tests whether a specified point is within the rectangle of the text services obj
 
 ### -param dwDrawAspect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Draw aspect can be one of the following values.
 
@@ -89,7 +89,7 @@ The <i>hicTargetDev</i> and <i>ptd</i> parameters give information on the target
 Renders the object to the <i>hdcDraw</i> device context as though it were printed to a printer. Thus, the text services object can optimize for the printer (for example, not painting the background color, if white). Also, certain screen-specific elements (such as the selection) should not be rendered.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787672(v=VS.85).aspx">ITextServices::TxGetNaturalSize</a> should render the <i>lprcClient</i> rectangle, starting at the current scrolling position.
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txgetnaturalsize">ITextServices::TxGetNaturalSize</a> should render the <i>lprcClient</i> rectangle, starting at the current scrolling position.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Renders the object to the <i>hdcDraw</i> device context as though it were printe
 
 ### -param lindex
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Not supported. 
 
@@ -113,21 +113,21 @@ Information for drawing optimizations.
 
 ### -param ptd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/724ff714-c170-4d06-92cb-e042e41c0af2">DVTARGETDEVICE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a>*</b>
 
 Information on the target device. 
 
 
 ### -param hdcDraw [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Rendering device context. 
 
 
 ### -param hicTargetDev [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Target information context. 
 
@@ -141,21 +141,21 @@ The control's client rectangle, in client (device) coordinates of the view in wh
 
 ### -param x [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 x-coordinate to check, in client coordinates, of the view in which hit testing is done. 
 
 
 ### -param y [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 y-coordinate to check, in client coordinates, of the view in which hit testing is done. 
 
 
 ### -param pHitResult [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 The result of the hit test. It can be any of the following <b>TXTHITRESULT</b> enumeration values.
 
@@ -212,7 +212,7 @@ The point is in the client rectangle and either not over text or the background 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is an <b>HRESULT</b> code.
 
@@ -225,7 +225,7 @@ The return value is an <b>HRESULT</b> code.
 
 This method allows the host to implement transparent hit testing on text.
 
-For more information, see the Remarks section in <a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">ITextServices::TxDraw</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">ITextServices::OnTxSetCursor</a>.
+For more information, see the Remarks section in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a> and <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">ITextServices::OnTxSetCursor</a>.
 
 
 
@@ -239,11 +239,11 @@ For more information, see the Remarks section in <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787630(v=VS.85).aspx">OnTxSetCursor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxsetcursor">OnTxSetCursor</a>
 
 
 
@@ -251,11 +251,11 @@ For more information, see the Remarks section in <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787690(v=VS.85).aspx">TxDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

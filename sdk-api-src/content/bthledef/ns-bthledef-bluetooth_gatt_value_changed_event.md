@@ -77,7 +77,7 @@ The characteristic value.
 
 
 
-<a href="https://msdn.microsoft.com/AF36BC9A-5EB7-4495-870A-40BF5E0A57A3">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-_bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
  
 
  

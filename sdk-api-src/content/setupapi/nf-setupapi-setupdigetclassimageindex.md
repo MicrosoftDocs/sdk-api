@@ -59,7 +59,7 @@ The <b>SetupDiGetClassImageIndex</b> function retrieves the index within the cla
 
 ### -param ClassImageListData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/89ed9dbd-3c5e-43ff-bbd0-fd6cc8c6e6ab">SP_CLASSIMAGELIST_DATA</a> structure that describes a class image list that includes the image for the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> that is specified by the <i>ClassGuid</i> parameter. 
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_classimagelist_data">SP_CLASSIMAGELIST_DATA</a> structure that describes a class image list that includes the image for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> that is specified by the <i>ClassGuid</i> parameter. 
 
 
 ### -param ClassGuid [in]
@@ -95,11 +95,11 @@ If the specified device setup class is not included in the specified class image
 
 
 
-<a href="https://msdn.microsoft.com/d6b84403-9284-4fba-a419-a013cf68ea1e">SetupDiGetClassImageList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelist">SetupDiGetClassImageList</a>
 
 
 
-<a href="https://msdn.microsoft.com/f9cf7904-3fda-4f7f-bb05-3634fd1c9af3">SetupDiGetClassImageListEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelistexa">SetupDiGetClassImageListEx</a>
  
 
  

@@ -136,7 +136,7 @@ Parental level 1.
 </table>
  
 
-This enumeration is used in the <a href="https://msdn.microsoft.com/00c9d1e5-1b1f-41b3-b06c-0b78e2d2db0b">IDvdInfo2::GetTitleParentalLevels</a> method.
+This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleparentallevels">IDvdInfo2::GetTitleParentalLevels</a> method.
 
 
 
@@ -146,11 +146,11 @@ This enumeration is used in the <a href="https://msdn.microsoft.com/00c9d1e5-1b1
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/00c9d1e5-1b1f-41b3-b06c-0b78e2d2db0b">IDvdInfo2::GetTitleParentalLevels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleparentallevels">IDvdInfo2::GetTitleParentalLevels</a>
  
 
  

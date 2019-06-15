@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</b> structure contains information that describes an IKE/AuthIP Main Mode (MM) failure.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</b> is the specific implementation of FWPM_NET_EVENT_IKEEXT_MM_FAILURE used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/en-us/library/Aa364279(v=VS.85).aspx">FWPM_NET_EVENT_IKEEXT_MM_FAILURE0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</b> is the specific implementation of FWPM_NET_EVENT_IKEEXT_MM_FAILURE used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_mm_failure0_">FWPM_NET_EVENT_IKEEXT_MM_FAILURE0</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Windows error code for the failure.
 
 ### -field failurePoint
 
-An <a href="https://msdn.microsoft.com/750a5643-1157-4d15-9564-127756cd08cd">IPSEC_FAILURE_POINT</a> value that indicates the IPsec state when the failure occurred.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point_">IPSEC_FAILURE_POINT</a> value that indicates the IPsec state when the failure occurred.
 
 
 ### -field flags
@@ -102,22 +102,22 @@ Indicates that multiple failure events have been reported.
 
 ### -field keyingModuleType
 
- An <a href="https://msdn.microsoft.com/a9268b07-343a-4a51-bc70-3e624facf617">IKEEXT_KEY_MODULE_TYPE</a> value that specifies the type of keying module.
+ An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_key_module_type_">IKEEXT_KEY_MODULE_TYPE</a> value that specifies the type of keying module.
 
 
 ### -field mmState
 
-An <a href="https://msdn.microsoft.com/5af48053-23b7-489f-82b7-743153aea641">IKEEXT_MM_SA_STATE</a> value that indicates the Main Mode state when the failure occurred.
+An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_mm_sa_state_">IKEEXT_MM_SA_STATE</a> value that indicates the Main Mode state when the failure occurred.
 
 
 ### -field saRole
 
-An <a href="https://msdn.microsoft.com/6bb1e264-6141-4545-add5-e12f09769e25">IKEEXT_SA_ROLE</a> value that specifies the security association (SA) role when the failure occurred.
+An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role_">IKEEXT_SA_ROLE</a> value that specifies the security association (SA) role when the failure occurred.
 
 
 ### -field mmAuthMethod
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa364977(v=VS.85).aspx">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
+An <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_authentication_method_type_">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
 
 
 ### -field endCertHash
@@ -172,7 +172,7 @@ Groups in the remote security principal's token.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

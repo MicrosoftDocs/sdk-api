@@ -71,7 +71,7 @@ ADSI queries are based on the SQL dialect.
 
 
 
-An ActiveX Data Object (ADO) client can use one of the two ADSI query dialects to query a directory. For more information about the ADSI query dialects, see <a href="https://msdn.microsoft.com/27298f53-a652-49f2-a6e6-d92c7c6022af">Searching with ActiveX Data Objects</a>.
+An ActiveX Data Object (ADO) client can use one of the two ADSI query dialects to query a directory. For more information about the ADSI query dialects, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/searching-with-activex-data-objects-ado">Searching with ActiveX Data Objects</a>.
 
 <div class="alert"><b>Note</b>  Because Visual Basic Script (VBScript) cannot read data from a type library, VBScript applications do not recognize the symbolic constants as defined above. Use the numerical constants to set the appropriate flags in your VBScript applications. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done here.</div>
 <div> </div>
@@ -83,7 +83,7 @@ An ActiveX Data Object (ADO) client can use one of the two ADSI query dialects t
 
 
 
-<a href="https://msdn.microsoft.com/f0ad5ce5-742d-40dc-ac5a-31d779e40bfd">ADSI Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
  
 
  

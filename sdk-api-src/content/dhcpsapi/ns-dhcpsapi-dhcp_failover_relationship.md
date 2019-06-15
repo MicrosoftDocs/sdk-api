@@ -114,7 +114,7 @@ The <b>DHCP_FAILOVER_RELATIONSHIP</b> structure defines information about a DHCP
 
 ### -field pScopes
 
-A pointer to an <a href="https://msdn.microsoft.com/84f42e55-8364-4119-83e4-c03699a9aa0a">LPDHCP_IP_ARRAY</a> structure that contains the list of IPv4 subnet addresses that are part of the failover relationship and define its scope.
+A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_array">LPDHCP_IP_ARRAY</a> structure that contains the list of IPv4 subnet addresses that are part of the failover relationship and define its scope.
 
 
 ### -field Percentage
@@ -137,7 +137,7 @@ A value that specifies the Maximum Client Lead Time (MCLT) in seconds. The MCLT 
 #### - mode
 
 
-<a href="https://msdn.microsoft.com/333f70a5-63bd-47f0-bb56-c5f6060e2a72">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_failover_mode">DHCP_FAILOVER_MODE</a> enumeration that specifies the failover relationship mode.
 
 
 #### - percentage
@@ -148,13 +148,13 @@ Value that specifies the ratio of the client load shared by the primary server i
 #### - prevState
 
 
-<a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_fsm_state">FSM_STATE</a> enumeration that specifies the previous state of the failover relationship.
 
 
 #### - primaryServer
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the primary server IP address.
 
 
 #### - primaryServerName
@@ -169,13 +169,13 @@ Pointer to a null-terminated Unicode string that represents the unique failover 
 
 #### - safePeriod
 
-The time, in seconds, a server will wait before transitioning from the <a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
+The time, in seconds, a server will wait before transitioning from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_fsm_state">COMMUNICATION-INT</a> state to a <b>PARTNER-DOWN</b> state. The timer begins when the server enters the <b>COMMUNICATION-INT</b> state.
 
 
 #### - secondaryServer
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the secondary server IP address.
 
 
 #### - secondaryServerName
@@ -186,7 +186,7 @@ Pointer to a null-terminated Unicode string that represents the secondary server
 #### - serverType
 
 
-<a href="https://msdn.microsoft.com/a75a1132-3c49-44f1-a1f6-c98991ebb8c4">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_failover_server">DHCP_FAILOVER_SERVER</a> enumeration that specifies if the server is the primary or secondary server in the failover relationship
 
 
 #### - sharedSecret
@@ -197,7 +197,7 @@ A pointer to a null-terminated Unicode string that represents the shared secret 
 #### - state
 
 
-<a href="https://msdn.microsoft.com/a8d0a455-77b3-494c-886e-90136569aada">FSM_STATE</a> enumeration that specifies the state of the failover relationship.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_fsm_state">FSM_STATE</a> enumeration that specifies the state of the failover relationship.
 
 
 ## -see-also
@@ -205,31 +205,31 @@ A pointer to a null-terminated Unicode string that represents the shared secret 
 
 
 
-<a href="https://msdn.microsoft.com/A4C951F9-D5C6-4210-B77D-DBBD6FF2766C">DHCP_FAILOVER_RELATIONSHIP_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_failover_relationship_array">DHCP_FAILOVER_RELATIONSHIP_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc54b3dc-86b3-4a18-b05f-7152097f8d5b">DhcpV4FailoverAddScopeToRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoveraddscopetorelationship">DhcpV4FailoverAddScopeToRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e360dd4-b4a0-4652-8754-17c3c284271c">DhcpV4FailoverCreateRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovercreaterelationship">DhcpV4FailoverCreateRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/52420cc6-0a7b-499b-b7fe-35852a03adea">DhcpV4FailoverDeleteScopeFromRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverdeletescopefromrelationship">DhcpV4FailoverDeleteScopeFromRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/b637d1e8-8c61-4382-a5ec-3d5395433f86">DhcpV4FailoverGetRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovergetrelationship">DhcpV4FailoverGetRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/795eb9ff-cc44-4567-b496-1bff559290b2">DhcpV4FailoverGetScopeRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovergetscoperelationship">DhcpV4FailoverGetScopeRelationship</a>
 
 
 
-<a href="https://msdn.microsoft.com/04012953-dca3-426f-99de-798870d1eb97">DhcpV4FailoverSetRelationship</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoversetrelationship">DhcpV4FailoverSetRelationship</a>
  
 
  

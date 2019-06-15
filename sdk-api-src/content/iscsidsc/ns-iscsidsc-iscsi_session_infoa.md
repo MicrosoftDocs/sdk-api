@@ -61,7 +61,7 @@ The <b>ISCSI_SESSION_INFO</b> structure contains session information.
 
 ### -field SessionId
 
-A <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> structure containing a unique identifier that represents the session.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> structure containing a unique identifier that represents the session.
 
 
 ### -field InitiatorName
@@ -96,7 +96,7 @@ The number of connections associated with the session.
 
 ### -field Connections
 
-A pointer to a <a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140baeea80">ISCSI_CONNECTION_INFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_connection_infoa">ISCSI_CONNECTION_INFO</a> structure.
 
 
 ## -see-also
@@ -104,15 +104,15 @@ A pointer to a <a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140
 
 
 
-<a href="https://msdn.microsoft.com/b16b9e52-67af-4745-ac67-a2096dafe94e">GetIScsiSessionList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsisessionlista">GetIScsiSessionList</a>
 
 
 
-<a href="https://msdn.microsoft.com/4bfe2f36-2e68-4093-9660-b0140baeea80">ISCSI_CONNECTION_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_connection_infoa">ISCSI_CONNECTION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
  
 
  

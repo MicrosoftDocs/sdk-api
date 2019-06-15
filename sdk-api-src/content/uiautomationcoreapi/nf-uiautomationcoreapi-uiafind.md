@@ -66,16 +66,16 @@ The node to use as starting-point of the search.
 
 ### -param pParams [in]
 
-Type: <b><a href="https://msdn.microsoft.com/eb3c16d1-3e64-4f8e-aa03-c72c7a87b67f">UiaFindParams</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiafindparams">UiaFindParams</a>*</b>
 
-The address of a <a href="https://msdn.microsoft.com/eb3c16d1-3e64-4f8e-aa03-c72c7a87b67f">UiaFindParams</a> structure that contains the search parameters.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiafindparams">UiaFindParams</a> structure that contains the search parameters.
 
 
 ### -param pRequest [in]
 
-Type: <b><a href="https://msdn.microsoft.com/426355e4-50ce-4189-824d-c2256903224c">UiaCacheRequest</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a>*</b>
 
-The address of a <a href="https://msdn.microsoft.com/426355e4-50ce-4189-824d-c2256903224c">UiaCacheRequest</a> structure that specifies what information is to be cached.
+The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacacherequest">UiaCacheRequest</a> structure that specifies what information is to be cached.
 
 
 ### -param ppRequestedData [out]
@@ -103,7 +103,7 @@ The address of a variable that receives a pointer to a SAFEARRAY containing the 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 

@@ -59,7 +59,7 @@ Registers a COM Server CLSID and a class factory that were previously registered
 
 ### -param token
 
-The registration token obtained from a previous call to <a href="https://msdn.microsoft.com/F18A5596-F21E-427B-8281-544DD7CA9E0B">RegisterServerForPMP</a>.
+The registration token obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp">RegisterServerForPMP</a>.
 
 
 ## -returns

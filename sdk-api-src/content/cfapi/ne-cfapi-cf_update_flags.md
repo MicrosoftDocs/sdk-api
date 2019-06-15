@@ -89,7 +89,7 @@ Applicable to directories only. When specified, it marks the updated placeholder
 
 ### -field CF_UPDATE_FLAG_REMOVE_FILE_IDENTITY
 
-When specified, <i>FileIdentity</i> and <i>FileIdentityLength</i> in <a href="https://msdn.microsoft.com/13F2BF9A-505F-4CFB-B008-7DDE85A3C581">CfUpdatePlaceholder</a> are ignored and the platform will remove the existing file identity blob on the placeholder upon a successful update call.
+When specified, <i>FileIdentity</i> and <i>FileIdentityLength</i> in <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfupdateplaceholder">CfUpdatePlaceholder</a> are ignored and the platform will remove the existing file identity blob on the placeholder upon a successful update call.
 
 
 ### -field CF_UPDATE_FLAG_CLEAR_IN_SYNC

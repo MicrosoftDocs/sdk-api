@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SetNetScheduleAccountInformation</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e"> Task Scheduler 2.0 Interfaces</a>.
+<p class="CCE_Message">[<b>SetNetScheduleAccountInformation</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
 
 ]
 
-The <b>SetNetScheduleAccountInformation</b> function sets the AT Service account name and password. The AT Service account name and password are used as the credentials for scheduled jobs created with <a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">NetScheduleJobAdd</a>.
+The <b>SetNetScheduleAccountInformation</b> function sets the AT Service account name and password. The AT Service account name and password are used as the credentials for scheduled jobs created with <a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ A pointer to a NULL-terminated wide character string for the account. To specify
 
 ### -param pwszPassword [in]
 
-A pointer to a NULL-terminated wide character string for the password. For information about securing password information, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+A pointer to a NULL-terminated wide character string for the password. For information about securing password information, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ## -returns
@@ -145,7 +145,7 @@ The <b>SetNetScheduleAccountInformation</b> impersonates the caller. Only member
 
 
 
-<a href="https://msdn.microsoft.com/935de94a-6791-4ea2-ac39-cf71ef7cb726">GetNetScheduleAccountInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/atacct/nf-atacct-getnetscheduleaccountinformation">GetNetScheduleAccountInformation</a>
  
 
  

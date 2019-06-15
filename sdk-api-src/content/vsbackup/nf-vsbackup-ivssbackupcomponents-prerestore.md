@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>PreRestore</b> method will cause VSS to generate a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PreRestore</a> event, signaling writers to prepare for an upcoming restore operation.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param ppAsync [out]
 
 Doubly indirect pointer to an 
-<a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> object containing status data for the signaled event.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing status data for the signaled event.
 
 
 ## -returns
@@ -85,7 +85,7 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-<a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface. Refer to <a href="https://msdn.microsoft.com/85fb3ae8-dc09-4f6f-a96b-e4dc046ff48a">IVssAsync::QueryStatus</a> for the error codes returned in the <i>pHrResult</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the error codes returned in the <i>pHrResult</i> parameter.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -147,17 +147,17 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 The caller is responsible for releasing the 
-<a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer.
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer.
 
-Special consideration should be given to EFI systems when the requester has selected the Automated System Recovery (ASR) writer for restore.  If you are restoring to a disk that contains the EFI partition, and one of the following conditions exists, you must first clean the disk by calling the <a href="https://msdn.microsoft.com/4052f294-d911-44c6-a57f-0a0a6f24df70">IVdsAdvancedDisk::Clean</a> method:
+Special consideration should be given to EFI systems when the requester has selected the Automated System Recovery (ASR) writer for restore.  If you are restoring to a disk that contains the EFI partition, and one of the following conditions exists, you must first clean the disk by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">IVdsAdvancedDisk::Clean</a> method:
 
 <ul>
 <li>You are restoring to an EFI system disk whose partitioning has changed since the last ASR backup.</li>
 <li>You are restoring to a different physical drive than the one from which the backup was taken.</li>
 </ul>
-Failure to perform this disk-cleaning step may result in unexpected results during <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PreRestore</a>.
+Failure to perform this disk-cleaning step may result in unexpected results during <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PreRestore</a>.
 
-For more information about the ASR writer, see <a href="https://msdn.microsoft.com/e20a303d-9440-42be-b383-85f6fad89157">In-Box VSS Writers</a>.
+For more information about the ASR writer, see <a href="https://docs.microsoft.com/windows/desktop/VSS/in-box-vss-writers">In-Box VSS Writers</a>.
 
 
 
@@ -167,11 +167,11 @@ For more information about the ASR writer, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
  
 
  

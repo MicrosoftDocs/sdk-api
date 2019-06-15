@@ -63,9 +63,9 @@ Defines the property to retrieve.
 
 ### -field PropertyName
 
-Pointer to a null-terminated Unicode string that contains the case-sensitive property name. You can use the <b>NameOffset</b> member of the <a href="https://msdn.microsoft.com/06b82b31-1f0e-45d5-88ec-9b9835af10df">EVENT_PROPERTY_INFO</a> structure to get the property name.
+Pointer to a null-terminated Unicode string that contains the case-sensitive property name. You can use the <b>NameOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_event_property_info">EVENT_PROPERTY_INFO</a> structure to get the property name.
 
-The following table lists the possible values of <i>PropertyName</i> for WPP events. Use the suggested TDH data type when formatting the returned buffer from <a href="https://msdn.microsoft.com/3975792e-cc24-430a-914f-420f3a5ec1d6">TdhGetProperty</a>.
+The following table lists the possible values of <i>PropertyName</i> for WPP events. Use the suggested TDH data type when formatting the returned buffer from <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>.
 
 <table>
 <tr>
@@ -155,11 +155,11 @@ If the structure is an element of an array of structures, set ArrayIndex in the 
 
 
 
-<a href="https://msdn.microsoft.com/3975792e-cc24-430a-914f-420f3a5ec1d6">TdhGetProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/52b034db-b08b-4c79-973f-33800ca866f5">TdhGetPropertySize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
  
 
  

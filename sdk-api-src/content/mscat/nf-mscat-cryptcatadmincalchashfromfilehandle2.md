@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>CryptCATAdminCalcHashFromFileHandle2</b> function calculates the hash for a file by using the specified algorithm.
 
-This function has no associated import library. You must use the <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> and <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ This function has no associated import library. You must use the <a href="https:
 
 ### -param hCatAdmin [in]
 
-Handle of an open catalog administrator context. For more information, see <a href="https://msdn.microsoft.com/B089217A-5C12-4C51-8E46-3A9243347B21">CryptCATAdminAcquireContext2</a>.
+Handle of an open catalog administrator context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadminacquirecontext2">CryptCATAdminAcquireContext2</a>.
 
 
 ### -param hFile [in]
@@ -91,9 +91,9 @@ Reserved. This value must be zero.
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-The following table lists the error codes most commonly returned by the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+The following table lists the error codes most commonly returned by the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -159,11 +159,11 @@ The amount of time this function takes to execute depends on the length of the f
 
 
 
-<a href="https://msdn.microsoft.com/4dc5688f-4b7a-4baf-9671-868cac7f1896">CryptCATAdminCalcHashFromFileHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle">CryptCATAdminCalcHashFromFileHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/CBFA60A8-5E5A-4FAD-8AD3-26539802CD53">CryptCATAdminCalcHashFromFileHandle2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatadmincalchashfromfilehandle2">CryptCATAdminCalcHashFromFileHandle2</a>
  
 
  

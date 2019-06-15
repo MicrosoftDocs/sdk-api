@@ -54,7 +54,7 @@ Controls the RPC stub used to marshal data between COM components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcStubBuffer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcStubBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcStubBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRpcStubBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a452287-b674-4b51-9690-316beeab4482">Connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Initializes a server stub, binding it to the specified interface.
@@ -78,7 +78,7 @@ Initializes a server stub, binding it to the specified interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a2a629a-b935-47a2-a4c6-ba9f20641a03">CountRefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-countrefs">CountRefs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of references that a stub has on the server object to which it is connected.
@@ -87,7 +87,7 @@ Retrieves the total number of references that a stub has on the server object to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c735a99f-c67a-44eb-ae60-950dc4e68e74">DebugServerQueryInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface">DebugServerQueryInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the interface that a stub represents.
@@ -96,16 +96,16 @@ Retrieves a pointer to the interface that a stub represents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/511f6e55-fb1d-4500-80fd-83e3fe2779d1">DebugServerRelease</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverrelease">DebugServerRelease</a>
 </td>
 <td align="left" width="63%">
-Releases an interface pointer that was previously returned by <a href="https://msdn.microsoft.com/c735a99f-c67a-44eb-ae60-950dc4e68e74">DebugServerQueryInterface</a>.
+Releases an interface pointer that was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface">DebugServerQueryInterface</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da0ecd2b-a445-4ecb-a003-ef07fa1d0458">Disconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects a server stub from any interface to which it is connected.
@@ -114,7 +114,7 @@ Disconnects a server stub from any interface to which it is connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78d20830-78d7-4395-aaec-8a86b7c41cc7">Invoke</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Invokes the interface that a stub represents.
@@ -123,7 +123,7 @@ Invokes the interface that a stub represents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7025d343-9171-4d0f-9e93-61365075edc0">IsIIDSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-isiidsupported">IsIIDSupported</a>
 </td>
 <td align="left" width="63%">
 Determines whether a stub is designed to handle the unmarshaling of a particular interface.
@@ -138,15 +138,15 @@ Determines whether a stub is designed to handle the unmarshaling of a particular
 
 
 
-<a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20">IRpcChannelBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1b18997-f99b-4611-8ba6-da28fd8df898">IRpcProxyBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>
  
 
  

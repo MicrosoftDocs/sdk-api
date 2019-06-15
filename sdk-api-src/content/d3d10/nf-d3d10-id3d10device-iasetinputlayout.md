@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Bind an input-layout object to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Bind an input-layout object to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-input-assembler-stage">input-assembler stage</a>.
 
 
 ## -parameters
@@ -60,9 +60,9 @@ Bind an input-layout object to the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -param pInputLayout [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173815(v=VS.85).aspx">ID3D10InputLayout</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10inputlayout">ID3D10InputLayout</a>*</b>
 
-A pointer to the input-layout object (see <a href="https://msdn.microsoft.com/en-us/library/Bb173815(v=VS.85).aspx">ID3D10InputLayout</a>), which describes the input buffers that will be read by the IA stage.
+A pointer to the input-layout object (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10inputlayout">ID3D10InputLayout</a>), which describes the input buffers that will be read by the IA stage.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns nothing.
 
 
 
-Input-layout objects describe how vertex buffer data is streamed into the IA pipeline stage. To create an input-layout object, call <a href="https://msdn.microsoft.com/en-us/library/Bb173550(v=VS.85).aspx">ID3D10Device::CreateInputLayout</a>.
+Input-layout objects describe how vertex buffer data is streamed into the IA pipeline stage. To create an input-layout object, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createinputlayout">ID3D10Device::CreateInputLayout</a>.
 
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
@@ -90,7 +90,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

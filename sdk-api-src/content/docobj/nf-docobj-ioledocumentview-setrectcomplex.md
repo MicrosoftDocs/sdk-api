@@ -123,12 +123,12 @@ The document object that owns this view does not support complex rectangles.
 View frames that support a workbook metaphor, in which a single document comprises multiple sheets or pages, typically call this method to set the coordinates to be used in common by all the sheets or pages.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Calling <b>IOleDocumentView::SetRectComplex</b> is part of the normal activation sequence for document objects that support complex rectangles, usually following a call to <a href="https://msdn.microsoft.com/df92366c-89b3-44b3-bea0-1b6deb321fe4">IOleDocumentView::UIActivate</a> and preceding a call to <a href="https://msdn.microsoft.com/eecc0230-0713-40e9-913c-c51b8a905575">IOleDocumentView::Show</a>.
+Calling <b>IOleDocumentView::SetRectComplex</b> is part of the normal activation sequence for document objects that support complex rectangles, usually following a call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a> and preceding a call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>.
 
-Whenever the window used to display a document object is resized, the container should call <b>IOleDocumentView::SetRectComplex</b> or <a href="https://msdn.microsoft.com/994eddef-65e6-4ccd-92e7-1e76a7c11681">IOleDocumentView::SetRect</a> to tell the view object to resize itself to the new window dimensions.
+Whenever the window used to display a document object is resized, the container should call <b>IOleDocumentView::SetRectComplex</b> or <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrect">IOleDocumentView::SetRect</a> to tell the view object to resize itself to the new window dimensions.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Document objects that support complex rectangles mark themselves with <a href="https://msdn.microsoft.com/e52e022e-dd82-42f0-a3dd-2730ad80613c">DOCMISC</a>_SUPPORTCOMPLEXRECTANGLES, as described in <b>DOCMISC</b> and <a href="https://msdn.microsoft.com/de279d46-057e-4c3a-8af3-14f7b65147fd">IOleDocument::GetDocMiscStatus</a>. Document objects that do not support this method can return E_NOTIMPL.
+Document objects that support complex rectangles mark themselves with <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-__midl_ioledocument_0001">DOCMISC</a>_SUPPORTCOMPLEXRECTANGLES, as described in <b>DOCMISC</b> and <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">IOleDocument::GetDocMiscStatus</a>. Document objects that do not support this method can return E_NOTIMPL.
 
 Upon receiving a call to this method, a view should resize itself to fit the coordinates specified in prcView and fit its scrollbars and size box to the areas described in <i>prcHScroll</i>, <i>prcVScroll</i>, and <i>prcSizeBox</i>.
 
@@ -142,11 +142,11 @@ This method is defined with the [input_sync] attribute, which means that the imp
 
 
 
-<a href="https://msdn.microsoft.com/de279d46-057e-4c3a-8af3-14f7b65147fd">IOleDocument::GetDocMiscStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-getdocmiscstatus">IOleDocument::GetDocMiscStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/07948c08-f047-4ae0-a41b-5410b4bbf4d6">IOleDocumentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
  
 
  

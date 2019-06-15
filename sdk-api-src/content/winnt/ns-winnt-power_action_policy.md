@@ -60,7 +60,7 @@ Contains information used to set the system power state.
 ### -field Action
 
 The requested system power state. This member must be one of the 
-      <a href="https://msdn.microsoft.com/815e1f2d-0fc9-446c-ae83-5d5cfea57ab7">POWER_ACTION</a> enumeration type values.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_action">POWER_ACTION</a> enumeration type values.
 
 
 ### -field Flags
@@ -152,7 +152,7 @@ Has no effect.
 <td width="60%">
 Applications can prompt the user for directions on how to prepare for suspension. Sets bit 0 in the 
         <i>Flags</i> parameter passed in the <i>lParam</i> parameter of 
-        <a href="https://msdn.microsoft.com/46452909-ac0e-4c06-8542-0b94d00e6556">WM_POWERBROADCAST</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>.
 
 </td>
 </tr>
@@ -244,19 +244,19 @@ Indicates a power action of shutdown/off.
 
 
 
-<a href="https://msdn.microsoft.com/0e89ae66-a889-4929-b028-125fcef5c89c">GLOBAL_USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/41dca573-a73d-430c-9bd3-083e72aecbdc">MACHINE_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_machine_power_policy">MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/616c45f6-ec80-42d9-a485-e9e778f2b971">USER_POWER_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_user_power_policy">USER_POWER_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/46452909-ac0e-4c06-8542-0b94d00e6556">WM_POWERBROADCAST</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
  
 
  

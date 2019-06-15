@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawStopPlay</b> macro notifies a rendering driver when a play operation is complete. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/cfe2ee98-80d0-4554-bcbd-9873769da674">ICM_DRAW_STOP_PLAY</a> message.
+The <b>ICDrawStopPlay</b> macro notifies a rendering driver when a play operation is complete. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-stop-play">ICM_DRAW_STOP_PLAY</a> message.
 
 
 
@@ -69,7 +69,7 @@ Handle to a driver.
 
 
 
-Use this message when the play operation is complete. Use the <a href="https://msdn.microsoft.com/c8608410-da45-4953-b16a-050870f85af9">ICDrawStop</a> macro to end timing.
+Use this message when the play operation is complete. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdrawstop">ICDrawStop</a> macro to end timing.
 
 
 
@@ -79,11 +79,11 @@ Use this message when the play operation is complete. Use the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

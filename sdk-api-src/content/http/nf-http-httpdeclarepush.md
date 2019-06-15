@@ -59,7 +59,7 @@ Declares a resource-to-subresource relationship to  use for an HTTP     server p
 
 ### -param RequestQueueHandle [in]
 
-The handle to an HTTP.sys request queue that the  <a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a> function returned.
+The handle to an HTTP.sys request queue that the  <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function returned.
 
 
 ### -param RequestId [in]
@@ -97,7 +97,7 @@ The push request is not allowed to have an entity body, so you cannot include a 
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
-If the function fails, it returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+If the function fails, it returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 
 
@@ -118,15 +118,15 @@ The server application should only use <b>HttpDeclarePush</b> to push resources 
 
 
 
-<a href="https://msdn.microsoft.com/a87b9c9c-cba1-4453-a300-7af35da944c9">HTTP_REQUEST_HEADERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_request_headers">HTTP_REQUEST_HEADERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4aa36eab-eff2-4caa-9bad-15c534c5a5a0">HTTP_VERB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_verb">HTTP_VERB</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0f4112e-db81-4eda-afeb-d00117f7240c">HttpCreateRequestQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
  
 
  

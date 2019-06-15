@@ -108,25 +108,25 @@ You must call <b>BeginWriting</b> before calling any of the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/352e6679-0710-429a-a659-47044ab60773">IMFSinkWriter::Finalize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-finalize">IMFSinkWriter::Finalize</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/997235cb-6ca5-434c-81a6-7a294e0cccca">IMFSinkWriter::Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-flush">IMFSinkWriter::Flush</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/cb5b76b4-ff08-4cac-bd30-d4f3b57acb78">IMFSinkWriter::NotifyEndOfSegment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-notifyendofsegment">IMFSinkWriter::NotifyEndOfSegment</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/93140993-a926-437e-bc40-9b011c4c6832">IMFSinkWriter::PlaceMarker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-placemarker">IMFSinkWriter::PlaceMarker</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3b4b76b7-1a39-4323-94e7-0b2d159a8038">IMFSinkWriter::SendStreamTick</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-sendstreamtick">IMFSinkWriter::SendStreamTick</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1c65a5d0-cc1b-456e-9d88-a24da57ee30a">IMFSinkWriter::WriteSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample">IMFSinkWriter::WriteSample</a>
 </li>
 </ul>
-The underlying media sink must have at least one input stream. Otherwise, <b>BeginWriting</b> returns <b>MF_E_INVALIDREQUEST</b>. To add input streams, call the <a href="https://msdn.microsoft.com/9f9b1216-e915-4188-bcfd-6c41e1821ec4">IMFSinkWriter::AddStream</a> method.
+The underlying media sink must have at least one input stream. Otherwise, <b>BeginWriting</b> returns <b>MF_E_INVALIDREQUEST</b>. To add input streams, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-addstream">IMFSinkWriter::AddStream</a> method.
 
 If <b>BeginWriting</b> succeeds, any further calls to <b>BeginWriting</b> return <b>MF_E_INVALIDREQUEST</b>.
 
@@ -140,11 +140,11 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 
-<a href="https://msdn.microsoft.com/76fb915e-1586-429a-88a5-bd1290799352">IMFSinkWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
-<a href="https://msdn.microsoft.com/23AF25B8-B94C-48BC-83D8-5863ACFFD4CA">Sink Writer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
  
 
  

@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/351c77ec-fb0c-4780-ad43-8ca6716b208f">IDTFilter2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter2">IDTFilter2 Interface</a>
  
 
  

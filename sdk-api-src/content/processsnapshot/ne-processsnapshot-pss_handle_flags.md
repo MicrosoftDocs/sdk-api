@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flags to specify what parts of a <a href="https://msdn.microsoft.com/F56E8C35-949A-4DEE-973F-CF24F6596036">PSS_HANDLE_ENTRY</a> structure are valid.
+Flags to specify what parts of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_handle_entry">PSS_HANDLE_ENTRY</a> structure are valid.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ The <b>TypeSpecificInformation</b> member is valid (either <b>Process</b>, <b>Th
 
 
 
-<a href="https://msdn.microsoft.com/1dc6fe86-3f5a-4810-8e93-a0fe309c54ee">Process Snapshotting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
  
 
  

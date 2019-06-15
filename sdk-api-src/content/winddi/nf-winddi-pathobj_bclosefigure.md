@@ -59,7 +59,7 @@ The <b>PATHOBJ_bCloseFigure</b> function closes an open figure in a path by draw
 
 ### -param ppo
 
-Pointer to a <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure that identifies the path to be closed.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure that identifies the path to be closed.
 
 
 ## -returns
@@ -76,7 +76,7 @@ The return value is <b>TRUE</b> if the function is successful.
 
 
 
-<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
  
 
  

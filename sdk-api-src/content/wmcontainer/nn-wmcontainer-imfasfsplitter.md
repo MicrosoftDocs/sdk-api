@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Provides methods to read data from an Advanced Systems Format (ASF) file. The ASF splitter object exposes this interface. To create the ASF splitter, <a href="https://msdn.microsoft.com/05936a66-ed39-4645-adfb-5816b9981771">MFCreateASFSplitter</a>.
+Provides methods to read data from an Advanced Systems Format (ASF) file. The ASF splitter object exposes this interface. To create the ASF splitter, <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfsplitter">MFCreateASFSplitter</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFSplitter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFASFSplitter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFSplitter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFSplitter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFASFSplitter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/be92c734-2bcb-4a7c-bd62-fb545c3c7762">Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Resets the ASF splitter and releases all pending samples.
@@ -79,7 +79,7 @@ Resets the ASF splitter and releases all pending samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba008e4a-98ad-4633-8b80-1d2ffce04b9c">GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the option flags that are set on the ASF splitter.
@@ -88,7 +88,7 @@ Retrieves the option flags that are set on the ASF splitter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59a6c53c-2cdf-4677-a5a3-4138f107f721">GetLastSendTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getlastsendtime">GetLastSendTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the send time of the last sample received.
@@ -97,7 +97,7 @@ Retrieves the send time of the last sample received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85133059-6710-4fb2-b42b-f54747816f9c">GetNextSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getnextsample">GetNextSample</a>
 </td>
 <td align="left" width="63%">
 Retrieves a sample from the ASF splitter.
@@ -106,7 +106,7 @@ Retrieves a sample from the ASF splitter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2c12e45-f320-43e0-abf1-36993dfed32d">GetSelectedStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getselectedstreams">GetSelectedStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of currently selected streams.
@@ -115,7 +115,7 @@ Retrieves a list of currently selected streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd69c2f9-dabf-4bba-bb3b-75ec3208c189">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Resets the ASF splitter and configures it to receive ASF data.
@@ -124,7 +124,7 @@ Resets the ASF splitter and configures it to receive ASF data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13457c17-ab35-47a3-8e83-00eef7686841">ParseData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-parsedata">ParseData</a>
 </td>
 <td align="left" width="63%">
 Sends packetized ASF data to the ASF splitter for processing.
@@ -133,7 +133,7 @@ Sends packetized ASF data to the ASF splitter for processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a241f8a4-7609-4a6c-825f-a7b882bfc25f">SelectStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-selectstreams">SelectStreams</a>
 </td>
 <td align="left" width="63%">
 Sets the streams to be parsed by the ASF splitter.
@@ -142,7 +142,7 @@ Sets the streams to be parsed by the ASF splitter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c70e5a0-7dd5-49c5-af35-4d9568871b41">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets option flags on the ASF splitter.
@@ -166,11 +166,11 @@ The ASF splitter accepts ASF packets and extracts the samples for individual str
 
 
 
-<a href="https://msdn.microsoft.com/383b1cc6-4a77-4e0e-a766-6213c64b025c">ASF Splitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

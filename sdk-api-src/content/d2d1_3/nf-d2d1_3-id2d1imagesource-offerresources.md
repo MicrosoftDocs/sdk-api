@@ -63,7 +63,7 @@ Allows the operating system to free the video memory of resources by discarding 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 <b>OfferResources</b> returns:
             
@@ -82,7 +82,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/a9ee20db-98cf-bc5f-96d8-232073810cc5">ID2D1ImageSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>
  
 
  

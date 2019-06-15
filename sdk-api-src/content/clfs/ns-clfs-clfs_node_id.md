@@ -72,7 +72,7 @@ The size of the CLFS node, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/716fa005-c801-4a5d-99f1-0babe64dc4a8">CLFS_SCAN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_scan_context">CLFS_SCAN_CONTEXT</a>
  
 
  

@@ -99,11 +99,11 @@ The maximum enumeration value for this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/57a373f9-47b0-48cc-8517-cba87367c64e">IProvideWinSATResultsInfo::get_AssessmentState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">IProvideWinSATResultsInfo::get_AssessmentState</a>
 
 
 
-<a href="https://msdn.microsoft.com/90188fb1-3125-459e-a475-5042c2ee0a5c">IProvideWinSATVisuals::get_Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatvisuals-get_bitmap">IProvideWinSATVisuals::get_Bitmap</a>
  
 
  

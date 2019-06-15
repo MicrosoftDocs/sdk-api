@@ -53,7 +53,7 @@ The
 <b>get_OverallCallRate</b> method gets an agent's call rate across all sessions. 10 *Calls per agent hour (where agent hour represents the time that an agent was active in one or more agent sessions).
 
 The measurement period over which this information is calculated is switch- and/or implementation-specific. (See 
-<a href="https://msdn.microsoft.com/ccc91dfb-83e5-496a-921d-784fcaea5af5">get_MeasurementPeriod</a>.)
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 
 ## -parameters
@@ -141,7 +141,7 @@ The <b>CURRENCY</b> type is used here instead of <b>FLOAT</b> for Visual Basic a
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
  
 
  

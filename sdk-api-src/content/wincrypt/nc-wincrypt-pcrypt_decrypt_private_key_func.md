@@ -52,7 +52,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[The <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> function decrypts
-the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> and returns the decrypted key in the <i>pbClearTextKey</i> parameter.  <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> is a callback function specified in a <a href="https://msdn.microsoft.com/a016e807-60d3-4ae4-829b-43acea2ee8c1">CRYPT_PKCS8_IMPORT_PARAMS</a> structure.  It is used when a  <a href="https://msdn.microsoft.com/5e80d6d1-2e38-4a2d-90df-e6e4000cd626">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure contains a private key that needs to be decrypted. The <a href="https://msdn.microsoft.com/fa3deff9-b4c1-4b63-a59f-738f87e1a409">CryptImportPKCS8</a> function uses this function. The function must be implemented by the developer to suit each application.
+the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> and returns the decrypted key in the <i>pbClearTextKey</i> parameter.  <b>PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</b> is a callback function specified in a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a> structure.  It is used when a  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a> structure contains a private key that needs to be decrypted. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a> function uses this function. The function must be implemented by the developer to suit each application.
 
 
 ## -parameters
@@ -62,18 +62,18 @@ the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">pr
 
 ### -param Algorithm [in]
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that identifies the algorithm used to encrypt the PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that identifies the algorithm used to encrypt the PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 
 
 ### -param EncryptedPrivateKey [in]
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a>  value that identifies the encrypted private key  <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a>  value that identifies the encrypted private key  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 
 ### -param *pbClearTextKey [out]
 
-A pointer to a <b>BYTE</b> buffer to receive the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">plaintext</a>. This parameter can be <b>NULL</b>. For more information, see 
-<a href="https://msdn.microsoft.com/ef99edef-39b2-4d78-9c01-13720215d47f">Retrieving Data of Unknown Length</a>.
+A pointer to a <b>BYTE</b> buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a>. This parameter can be <b>NULL</b>. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 
 ### -param *pcbClearTextKey [in, out]
@@ -103,15 +103,15 @@ If the function fails, it returns zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/5e80d6d1-2e38-4a2d-90df-e6e4000cd626">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypted_private_key_info">CRYPT_ENCRYPTED_PRIVATE_KEY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a016e807-60d3-4ae4-829b-43acea2ee8c1">CRYPT_PKCS8_IMPORT_PARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_pkcs8_import_params">CRYPT_PKCS8_IMPORT_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa3deff9-b4c1-4b63-a59f-738f87e1a409">CryptImportPKCS8</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a>
  
 
  

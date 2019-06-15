@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptFinalizeKeyPair</b> function completes a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public/private key pair</a>. The key cannot be used until this function has been called. After this function has been called, the <a href="https://msdn.microsoft.com/687f3410-d28b-4ce2-a2a1-c564f757c668">BCryptSetProperty</a> function can no longer be used for this key.
+The <b>BCryptFinalizeKeyPair</b> function completes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pair</a>. The key cannot be used until this function has been called. After this function has been called, the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function can no longer be used for this key.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>BCryptFinalizeKeyPair</b> function completes a <a href="https://msdn.micr
 
 ### -param hKey [in, out]
 
-The handle of the key to complete. This handle is obtained by calling the <a href="https://msdn.microsoft.com/cdf0de2e-2445-45e3-91ba-89791a0c0642">BCryptGenerateKeyPair</a> function.
+The handle of the key to complete. This handle is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair">BCryptGenerateKeyPair</a> function.
 
 
 ### -param dwFlags [in]
@@ -138,7 +138,7 @@ The specified provider does not support asymmetric key encryption.
 
 
 
-Depending on what processor modes a provider supports, <b>BCryptFinalizeKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag.
+Depending on what processor modes a provider supports, <b>BCryptFinalizeKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hKey</i> parameter must be derived from an algorithm handle returned by a provider that was opened with the <b>BCRYPT_PROV_DISPATCH</b> flag.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
@@ -152,7 +152,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/cdf0de2e-2445-45e3-91ba-89791a0c0642">BCryptGenerateKeyPair</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair">BCryptGenerateKeyPair</a>
  
 
  

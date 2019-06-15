@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Shows or hides the list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775919(v=VS.85).aspx">CB_SHOWDROPDOWN</a> message explicitly.
+Shows or hides the list in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-showdropdown">CB_SHOWDROPDOWN</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Shows or hides the list in a combo box. You can use this macro or send the <a hr
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param fShow
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to show the dropdown, or <b>FALSE</b> to hide it.
 
@@ -75,7 +75,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-This macro has no effect on a combo box created with the <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_SIMPLE</a> style.
+This macro has no effect on a combo box created with the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_SIMPLE</a> style.
 	
 
 

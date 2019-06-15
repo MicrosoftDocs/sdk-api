@@ -63,7 +63,7 @@ The <code>GetStatParam</code> method retrieves performance information from the 
 
 ### -param dwParam [in]
 
-Specifies a member of the <a href="https://msdn.microsoft.com/ae090ab0-22e2-4407-8c16-feaa4fa20774">_AM_AUDIO_RENDERER_STAT_PARAM</a> enumeration, indicating which information to retrieve.
+Specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_audio_renderer_stat_param">_AM_AUDIO_RENDERER_STAT_PARAM</a> enumeration, indicating which information to retrieve.
 
 
 ### -param pdwParam1 [out]
@@ -153,7 +153,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/f5cca658-73ce-4f4d-8992-afb7824f4117">IAMAudioRendererStats Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
  
 
  

@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 The <b>FloodFill</b> function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the <i>crFill</i> parameter.
-<div class="alert"><b>Note</b>  The <b>FloodFill</b> function is included only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://msdn.microsoft.com/b996d47d-5aaf-4b13-8643-209744e5a04b">ExtFloodFill</a> function with FLOODFILLBORDER specified.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>FloodFill</b> function is included only for compatibility with 16-bit versions of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill</a> function with FLOODFILLBORDER specified.</div><div> </div>
 
 ## -parameters
 
@@ -76,7 +76,7 @@ The y-coordinate, in logical units, of the point where filling is to start.
 
 ### -param color [in]
 
-The color of the boundary or the area to be filled. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro.
+The color of the boundary or the area to be filled. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 
 ## -returns
@@ -109,25 +109,25 @@ The following are reasons this function might fail:
 
 
 
-<a href="https://msdn.microsoft.com/ef3abc8a-5d95-41d0-8eb6-47719d472414">Bitmap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b996d47d-5aaf-4b13-8643-209744e5a04b">ExtFloodFill
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extfloodfill">ExtFloodFill
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB
       </a>
  
 

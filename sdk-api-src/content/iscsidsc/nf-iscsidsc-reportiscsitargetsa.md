@@ -91,7 +91,7 @@ Returns ERROR_SUCCESS if the operation succeeds and ERROR_INSUFFICIENT_BUFFER if
 
 
 
-<a href="https://msdn.microsoft.com/f082acc3-98d6-4758-aded-cb83e150e6d1">ReportIscsiSendTargetPortals</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsisendtargetportalsa">ReportIscsiSendTargetPortals</a>
  
 
  

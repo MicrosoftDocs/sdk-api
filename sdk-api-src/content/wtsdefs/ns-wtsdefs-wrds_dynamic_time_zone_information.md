@@ -69,7 +69,7 @@ A string that contains a descriptive name for standard time on the client. Examp
 
 ### -field StandardDate
 
-A <a href="https://msdn.microsoft.com/3d123666-c13c-4061-9c03-a84cc3ab2a51">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from daylight saving time to standard time occurs on the client. If this field is specified, the <b>DaylightDate</b> member should also be specified.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_systemtime">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from daylight saving time to standard time occurs on the client. If this field is specified, the <b>DaylightDate</b> member should also be specified.
 
 
 ### -field StandardBias
@@ -84,7 +84,7 @@ A string that contains a descriptive name for daylight saving time on the client
 
 ### -field DaylightDate
 
-A <a href="https://msdn.microsoft.com/3d123666-c13c-4061-9c03-a84cc3ab2a51">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from standard time to daylight saving time occurs on the client. If this field is specified, the <b>StandardDate</b> member should also be specified.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wts_systemtime">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from standard time to daylight saving time occurs on the client. If this field is specified, the <b>StandardDate</b> member should also be specified.
 
 
 ### -field DaylightBias
@@ -107,11 +107,11 @@ Whether DynamicDaylightTime is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/2b8a5b2f-5a54-4d60-8b5a-8a914728087c">IWRdsProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/d504a40f-5dc5-4c1b-960f-d41cccef9154">QueryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-queryproperty">QueryProperty</a>
  
 
  

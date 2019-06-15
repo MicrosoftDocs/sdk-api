@@ -64,7 +64,7 @@ The parent window of the access control editor.
 
 ### -param uPage [in]
 
-A value of the <a href="https://msdn.microsoft.com/122b2dcb-5557-4692-a0d6-4a0accf71740">SI_PAGE_TYPE</a> enumeration that indicates the page type on which to display the elevated access control editor.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/ne-aclui-_si_page_type">SI_PAGE_TYPE</a> enumeration that indicates the page type on which to display the elevated access control editor.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A value of the <a href="https://msdn.microsoft.com/122b2dcb-5557-4692-a0d6-4a0ac
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -83,11 +83,11 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 
-<a href="https://msdn.microsoft.com/a22b9a75-6aa8-4b32-8d86-7fb21afd248f">GetFullResourceName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-getfullresourcename">GetFullResourceName</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6cf92da-ebd2-4960-9df1-7124745df616">ISecurityInformation3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a>
  
 
  

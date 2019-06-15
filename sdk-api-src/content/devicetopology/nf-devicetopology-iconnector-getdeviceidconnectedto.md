@@ -119,15 +119,15 @@ Out of memory.
 
 
 
-The device identifier obtained from this method can be used as an input parameter to the <a href="https://msdn.microsoft.com/88cd7acc-a5d7-406d-ac73-bae357ad2ee2">IMMDeviceEnumerator::GetDevice</a> method.
+The device identifier obtained from this method can be used as an input parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a> method.
 
 This method is functionally equivalent to, but more efficient than, the following series of method calls:
 
 <ul>
-<li>Call the <a href="https://msdn.microsoft.com/bee0187c-5650-4b54-89b7-e63874048ed0">IConnector::GetConnectedTo</a> method to obtain the <a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector</a> interface of the "to" connector.</li>
-<li>Call the <b>IConnector::QueryInterface</b> method (with parameter <i>iid</i> set to <b>REFIID</b> IID_IPart) to obtain the <a href="https://msdn.microsoft.com/3bcfab9f-fad8-4605-8780-0b7c2068fcdf">IPart</a> interface of the "to" connector.</li>
-<li>Call the <a href="https://msdn.microsoft.com/5ad5fc66-6452-4d55-8c6a-a20a87431302">IPart::GetTopologyObject</a> method to obtain the <a href="https://msdn.microsoft.com/1b509f69-6277-40c0-a293-02afc30d464a">IDeviceTopology</a> interface of the "to" device (the device that contains the "to" connector).</li>
-<li>Call the <a href="https://msdn.microsoft.com/2ecf8f23-7cfd-447a-ab76-8a23b79f5d6c">IDeviceTopology::GetDeviceId</a> method to obtain the device ID of the "to" device.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-getconnectedto">IConnector::GetConnectedTo</a> method to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector</a> interface of the "to" connector.</li>
+<li>Call the <b>IConnector::QueryInterface</b> method (with parameter <i>iid</i> set to <b>REFIID</b> IID_IPart) to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of the "to" connector.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-gettopologyobject">IPart::GetTopologyObject</a> method to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology</a> interface of the "to" device (the device that contains the "to" connector).</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getdeviceid">IDeviceTopology::GetDeviceId</a> method to obtain the device ID of the "to" device.</li>
 </ul>
 
 
@@ -137,11 +137,11 @@ This method is functionally equivalent to, but more efficient than, the followin
 
 
 
-<a href="https://msdn.microsoft.com/6eb5b439-3ac7-4c0b-84e2-b246c1b946a5">IConnector Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/88cd7acc-a5d7-406d-ac73-bae357ad2ee2">IMMDeviceEnumerator::GetDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a>
  
 
  

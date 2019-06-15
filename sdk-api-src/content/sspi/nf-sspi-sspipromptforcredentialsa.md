@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Allows a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Security Support Provider Interface </a>(SSPI) application to prompt a user to enter credentials.
+Allows a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Support Provider Interface </a>(SSPI) application to prompt a user to enter credentials.
 
 
 ## -parameters
@@ -69,13 +69,13 @@ The name of the target to use.
 
 ### -param pUiInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/b21f8a42-3707-409c-b62a-9bbb29137b9b">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
    
 
 
-If the <b>hwndParent</b> member of the <a href="https://msdn.microsoft.com/b21f8a42-3707-409c-b62a-9bbb29137b9b">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
+If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
 
-If the <b>hwndParent</b> member of the <a href="https://msdn.microsoft.com/b21f8a42-3707-409c-b62a-9bbb29137b9b">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
+If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
 
 This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure. 
 
@@ -99,7 +99,7 @@ An identity structure that is used to populate credential fields in the dialog b
 
 An identity structure that represents the  credentials this function collects.
 
-When you have finished using this structure, free it by calling the <a href="https://msdn.microsoft.com/6199f66e-7adb-4bb9-8e77-a735e31dd5f6">SspiFreeAuthIdentity</a> function.
+When you have finished using this structure, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspifreeauthidentity">SspiFreeAuthIdentity</a> function.
 
 
 ### -param pfSave [in, out, optional]
@@ -138,7 +138,7 @@ The value of the <i>pfSave</i> parameter is ignored, and the credentials collect
 </dl>
 </td>
 <td width="60%">
-The value signifies that password and smart card credential providers  will not display the "Remember my credentials" checkbox to the user. The <b>SspiPromptForCredentials</b> function passes this flag value, SSPIPFC_NO_CHECKBOX,  in the <i>pvInAuthBuffer</i> parameter of <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> function.
+The value signifies that password and smart card credential providers  will not display the "Remember my credentials" checkbox to the user. The <b>SspiPromptForCredentials</b> function passes this flag value, SSPIPFC_NO_CHECKBOX,  in the <i>pvInAuthBuffer</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> function.
 
 </td>
 </tr>

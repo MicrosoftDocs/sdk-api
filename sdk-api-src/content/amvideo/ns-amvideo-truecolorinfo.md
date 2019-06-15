@@ -84,11 +84,11 @@ This structure is not used for some RGB formats. For more information about whic
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a>
  
 
  

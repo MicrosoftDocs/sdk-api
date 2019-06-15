@@ -81,7 +81,7 @@ Use timestamps provided by the hardware.
 
 
 
-By default, touch prediction is activated. For information on getting pointer data without deactivating touch prediction, see <a href="https://msdn.microsoft.com/5BE2748B-0124-4647-A77E-EA2937C7B1AD">GetUnpredictedMessagePos</a>.
+By default, touch prediction is activated. For information on getting pointer data without deactivating touch prediction, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getunpredictedmessagepos">GetUnpredictedMessagePos</a>.
 
 
 
@@ -91,7 +91,7 @@ By default, touch prediction is activated. For information on getting pointer da
 
 
 
-<a href="https://msdn.microsoft.com/2224DCD0-DAE1-4AC2-AB36-23D114801138">Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
  
 
  

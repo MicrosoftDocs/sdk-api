@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -field size
 
-The size, in bytes,  of  <b>data</b> in the range 0 to <a href="https://msdn.microsoft.com/2727487c-8c6a-4cd9-b6d8-253191a7d7f6">maxPrivateDataSize</a>.
+The size, in bytes,  of  <b>data</b> in the range 0 to <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">maxPrivateDataSize</a>.
 
 
 ### -field data
@@ -71,7 +71,7 @@ A pointer to the opaque data blob.
 
 
 
-The <b>PrivateData</b> structure is used to store state information for the NapAgent and enforcement clients. It is queried and set by the <a href="https://msdn.microsoft.com/faa91ff5-49f5-4aec-81d7-02ec59274f23">INapSystemHealthValidationRequest</a> and <a href="https://msdn.microsoft.com/96b94995-24b8-47ed-880e-6182d1bfe925">INapEnforcementClientConnection</a> interfaces.
+The <b>PrivateData</b> structure is used to store state information for the NapAgent and enforcement clients. It is queried and set by the <a href="https://docs.microsoft.com/windows/desktop/NAP/inapsystemhealthvalidationrequest">INapSystemHealthValidationRequest</a> and <a href="https://docs.microsoft.com/windows/desktop/NAP/inapenforcementclientconnection">INapEnforcementClientConnection</a> interfaces.
 
 
 
@@ -81,11 +81,11 @@ The <b>PrivateData</b> structure is used to store state information for the NapA
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

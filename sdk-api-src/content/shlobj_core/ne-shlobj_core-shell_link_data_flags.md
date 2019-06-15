@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies option settings. Used with <a href="https://msdn.microsoft.com/d6ebfd84-6ef4-43be-af16-71fc395c4735">IShellLinkDataList::GetFlags</a> and <a href="https://msdn.microsoft.com/0fca6394-e8ad-4ef3-a7d8-60e85229556b">IShellLinkDataList::SetFlags</a>.
+Specifies option settings. Used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">IShellLinkDataList::GetFlags</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-setflags">IShellLinkDataList::SetFlags</a>.
 
 
 ## -enum-fields
@@ -204,7 +204,7 @@ Specifies option settings. Used with <a href="https://msdn.microsoft.com/d6ebfd8
 
 ### -field SLDF_VALID
 
-<b>Introduced in Windows Vista</b>. A mask for valid <a href="https://msdn.microsoft.com/3b810223-b2d9-40ca-92bd-4d9f31981355">SHELL_LINK_DATA_FLAGS</a> bits.
+<b>Introduced in Windows Vista</b>. A mask for valid <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-shell_link_data_flags">SHELL_LINK_DATA_FLAGS</a> bits.
 
                         
 

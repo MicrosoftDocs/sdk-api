@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/8a7978c1-1919-4b49-9848-6d972e3e94f5">IAdvancedMediaCaptureInitializationSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacaptureinitializationsettings">IAdvancedMediaCaptureInitializationSettings</a>
  
 
  

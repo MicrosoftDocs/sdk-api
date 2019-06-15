@@ -59,12 +59,12 @@ ms.custom: 19H1
 
 ### -param CompareTo [in]
 
-Pointer to the <b>IDispatch</b> interface of the object that is to be compared with the object that implements the <a href="https://msdn.microsoft.com/6f582ae2-d8c6-4d85-a01f-e98c6ee16021">IBDAComparable</a> interface.
+Pointer to the <b>IDispatch</b> interface of the object that is to be compared with the object that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable</a> interface.
 
 
 ### -param dwFlags [in]
 
-Specifies whether to alter the default equivalence comparison. Setting this parameter to 0 invokes the default behavior. Setting this parameter to the bitwise OR of one or more <a href="https://msdn.microsoft.com/3bf4b82d-29d2-442e-ad20-bdb7ef66dfb5">BDA_Comp_Flags</a> enumeration values overrides the default behavior.
+Specifies whether to alter the default equivalence comparison. Setting this parameter to 0 invokes the default behavior. Setting this parameter to the bitwise OR of one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-comp-flags">BDA_Comp_Flags</a> enumeration values overrides the default behavior.
 
 
 ### -param Result [out]
@@ -85,9 +85,9 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-This method compares two objects to determine whether they have equivalent tuning properties. The first object in the comparison is the object that implements the <a href="https://msdn.microsoft.com/6f582ae2-d8c6-4d85-a01f-e98c6ee16021">IBDAComparable</a> interface that the method is called on. The <i>CompareTo</i> parameter specifies the second object.
+This method compares two objects to determine whether they have equivalent tuning properties. The first object in the comparison is the object that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable</a> interface that the method is called on. The <i>CompareTo</i> parameter specifies the second object.
 
-To determine whether the two objects contain equivalent tuning information, this method compares a subset of the tuning properties of the two objects and their associated objects. In contrast, the <a href="https://msdn.microsoft.com/65053d86-4c8c-4c68-90a6-118454cf2eb1">CompareExact</a> method compares all of these properties.
+To determine whether the two objects contain equivalent tuning information, this method compares a subset of the tuning properties of the two objects and their associated objects. In contrast, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-compareexact">CompareExact</a> method compares all of these properties.
 
 The tuning information is <i>equivalent</i> if the information in either object tunes to the same content. The implementation of the equivalence comparison depends on the object type.
 
@@ -101,7 +101,7 @@ For example, DirectShow implements the <b>IBDAComparable::CompareEquivalent</b> 
 
 
 
-<a href="https://msdn.microsoft.com/6f582ae2-d8c6-4d85-a01f-e98c6ee16021">IBDAComparable Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
  
 
  

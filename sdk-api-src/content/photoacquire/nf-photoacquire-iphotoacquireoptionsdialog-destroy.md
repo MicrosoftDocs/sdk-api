@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <code>Destroy</code> method closes and destroys the modeless dialog box created with the <a href="https://msdn.microsoft.com/22eb58d2-f1cf-4115-a5d4-dceb1d3ba4ad">Create</a> method.
+The <code>Destroy</code> method closes and destroys the modeless dialog box created with the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-create">Create</a> method.
 
 
 
@@ -105,7 +105,7 @@ If you destroy the parent window, the child window will automatically be destroy
 
 
 
-<a href="https://msdn.microsoft.com/075e188f-e533-403d-be06-6a3260479f1a">IPhotoAcquireOptionsDialog Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
  
 
  

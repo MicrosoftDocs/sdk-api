@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>SetReceiveSelectionCallbacks</b> method specifies whether stream selection notifications must be sent to <a href="https://msdn.microsoft.com/en-us/library/Dd743501(v=VS.85).aspx">IWMReaderCallbackAdvanced::OnStreamSelection</a>.
+The <b>SetReceiveSelectionCallbacks</b> method specifies whether stream selection notifications must be sent to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamselection">IWMReaderCallbackAdvanced::OnStreamSelection</a>.
 
 
 
@@ -112,11 +112,11 @@ No callback interface has been specified.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757429(v=VS.85).aspx">IWMReaderAdvanced Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743475(v=VS.85).aspx">IWMReaderAdvanced::GetReceiveSelectionCallbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceiveselectioncallbacks">IWMReaderAdvanced::GetReceiveSelectionCallbacks</a>
  
 
  

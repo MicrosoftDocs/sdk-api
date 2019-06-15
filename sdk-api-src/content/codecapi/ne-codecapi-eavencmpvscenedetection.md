@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies how the encoder behaves when it detects a new scene. This enumeration is used with the <a href="https://msdn.microsoft.com/9950a55c-75c5-4b49-bd8a-1ce40ac71ee5">AVEncMPVSceneDetection</a> property.
+Specifies how the encoder behaves when it detects a new scene. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpvscenedetection-property">AVEncMPVSceneDetection</a> property.
 
 
 
@@ -85,11 +85,11 @@ Start a new GOP in which the first consecutive B frames do not reference the pre
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

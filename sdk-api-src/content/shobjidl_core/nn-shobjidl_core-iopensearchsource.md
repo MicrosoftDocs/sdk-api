@@ -54,7 +54,7 @@ Exposes a method to get search results from a custom client-side OpenSearch data
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpenSearchSource</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOpenSearchSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpenSearchSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpenSearchSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOpenSearchSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4fc16c04-cfb6-4f50-8325-bd3fc0b8f557">GetResults</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iopensearchsource-getresults">GetResults</a>
 </td>
 <td align="left" width="63%">
 Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.

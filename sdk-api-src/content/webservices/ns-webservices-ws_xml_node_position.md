@@ -50,12 +50,12 @@ ms.custom: 19H1
 
 
 Represents a position within an XML buffer.  The current position within
-         a reader or writer may be obtained by calling <a href="https://msdn.microsoft.com/91e543f3-7325-4a90-9b99-c98918478853">WsGetReaderPosition</a> or
-         <a href="https://msdn.microsoft.com/0c0fbd78-ed4f-40da-a63d-a2f38136ecb3">WsGetWriterPosition</a>.  The current position within a reader or writer
-        may be set by calling <a href="https://msdn.microsoft.com/cc879cc0-c8ca-457e-9ff1-ae220e31cb04">WsSetReaderPosition</a> or <a href="https://msdn.microsoft.com/1d23bda1-d1da-44d4-9a9d-258bba200b29">WsSetWriterPosition</a>.
+         a reader or writer may be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a> or
+         <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetwriterposition">WsGetWriterPosition</a>.  The current position within a reader or writer
+        may be set by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a>.
       
 
-Using <a href="https://msdn.microsoft.com/955fd0b3-b351-40db-a25f-dd1ed8b55550">WsRemoveNode</a> to remove a node that corresponds to or contains a 
+Using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovenode">WsRemoveNode</a> to remove a node that corresponds to or contains a 
         position will cause subsequent use of the position to fail.  The position itself 
         remains valid, but operations that depend on that position will fail.
       

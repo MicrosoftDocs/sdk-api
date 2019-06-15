@@ -64,7 +64,7 @@ The platform can decide freely when the placeholder’s content needs to present
 
 ### -field CF_PIN_STATE_PINNED
 
-The sync provider will be notified to fetch the placeholder’s content asynchronously after the pin request is received by the platform. There is no guarantee that the placeholders to be pinned will be fully available locally after a <a href="https://msdn.microsoft.com/8B279914-E23A-479B-8621-E83DE1978597">CfSetPinState</a> call completes successfully. However, the platform will fail any dehydration request on pinned placeholders.
+The sync provider will be notified to fetch the placeholder’s content asynchronously after the pin request is received by the platform. There is no guarantee that the placeholders to be pinned will be fully available locally after a <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> call completes successfully. However, the platform will fail any dehydration request on pinned placeholders.
 
 
 ### -field CF_PIN_STATE_UNPINNED

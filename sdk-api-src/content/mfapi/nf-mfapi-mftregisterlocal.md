@@ -64,7 +64,7 @@ A pointer to the <b>IClassFactory</b> interface of a class factory object. The c
 
 ### -param guidCategory [in]
 
-A GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://msdn.microsoft.com/eca3ae3b-e40a-407d-986c-d0a85b891f52">MFT_CATEGORY</a>.
+A GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 
 ### -param pszName [in]
@@ -74,7 +74,7 @@ A wide-character null-terminated string that contains the friendly name of the M
 
 ### -param Flags [in]
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/ba39fb66-d8b6-49c1-8312-18ebdcb012c9">_MFT_ENUM_FLAG</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 
 ### -param cInputTypes [in]
@@ -84,7 +84,7 @@ The number of elements in the <i>pInputTypes</i> array.
 
 ### -param pInputTypes [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. This parameter can be <b>NULL</b> if <i>cInputTypes</i> is zero.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. This parameter can be <b>NULL</b> if <i>cInputTypes</i> is zero.
 
 
 ### -param cOutputTypes [in]
@@ -94,7 +94,7 @@ The number of elements in the <i>pOutputTypes</i> array.
 
 ### -param pOutputTypes [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. This parameter can be <b>NULL</b> if <i>cOutputTypes</i> is zero.
+A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-__midl___midl_itf_mfobjects_0000_0008_0003">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. This parameter can be <b>NULL</b> if <i>cOutputTypes</i> is zero.
 
 
 ## -returns
@@ -112,15 +112,15 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 The primary purpose of this function is to make an MFT available for automatic topology resolution without making the MFT available to other processes or applications.
 
-After you call this function, the MFT can be enumerated by calling the <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> function with the <b>MFT_ENUM_FLAG_LOCALMFT</b> flag. The MFT can be enumerated from within the same process, but is not visible to other processes.
+After you call this function, the MFT can be enumerated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function with the <b>MFT_ENUM_FLAG_LOCALMFT</b> flag. The MFT can be enumerated from within the same process, but is not visible to other processes.
 
-The <i>pClassFactory</i> parameter specifies a class factory object that creates the MFT. The class factory's <b>IClassFactory::CreateInstance</b> method must return an object that supports the <a href="https://msdn.microsoft.com/3cc502d8-d364-43b9-b0b6-d9474c002b20">IMFTransform</a> interface.
+The <i>pClassFactory</i> parameter specifies a class factory object that creates the MFT. The class factory's <b>IClassFactory::CreateInstance</b> method must return an object that supports the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/e065ae51-85dd-48ef-9322-de4ade62c0fe">MFTEnumEx</a> function retrieves a list of <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointers. However, the class factory does not need to support the <b>IMFActivate</b> interface. Instead, the <b>MFTEnumEx</b> function provides an implementation of <b>IMFActivate</b> that wraps the class factory.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> function retrieves a list of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointers. However, the class factory does not need to support the <b>IMFActivate</b> interface. Instead, the <b>MFTEnumEx</b> function provides an implementation of <b>IMFActivate</b> that wraps the class factory.</div>
 <div> </div>
-To unregister the MFT from the current process, call <a href="https://msdn.microsoft.com/e77edce7-0abb-41a3-a65e-fd159173e135">MFTUnregisterLocal</a>.
+To unregister the MFT from the current process, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftunregisterlocal">MFTUnregisterLocal</a>.
 
-If you need to register an MFT in the Protected Media Path (PMP) process, use the <a href="https://msdn.microsoft.com/e540a93a-ecce-4c5b-a121-b0f868a2af41">IMFLocalMFTRegistration</a> interface.
+If you need to register an MFT in the Protected Media Path (PMP) process, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imflocalmftregistration">IMFLocalMFTRegistration</a> interface.
 
 
 
@@ -130,11 +130,11 @@ If you need to register an MFT in the Protected Media Path (PMP) process, use th
 
 
 
-<a href="https://msdn.microsoft.com/80c45ac3-4487-41bf-a5f5-f459db3cd700">MFTRegisterLocalByCLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid">MFTRegisterLocalByCLSID</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

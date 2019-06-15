@@ -59,12 +59,12 @@ The <b>EcGetObjectArrayProperty</b> function retrieves  property values from a h
 
 ### -param ObjectArray [in]
 
-A handle to an array of properties for the event sources for a subscription. An  array handle that is returned by the <a href="https://msdn.microsoft.com/984d986d-1c59-4d0c-88f3-40c66ffe43dd">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>PropertyId</i> parameter.
+A handle to an array of properties for the event sources for a subscription. An  array handle that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/nf-evcoll-ecgetsubscriptionproperty">EcGetSubscriptionProperty</a> method when the <b>EcSubscriptionEventSources</b> value is passed into the <i>PropertyId</i> parameter.
 
 
 ### -param PropertyId [in]
 
-The property identifier for properties in the array. Specify a value from the <a href="https://msdn.microsoft.com/c70dca98-1c14-4c0c-9f2e-6241c463fe4e">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Get  the <b>Address</b>, <b>Enabled</b>, <b>UserName</b>, and <b>Password</b> properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
+The property identifier for properties in the array. Specify a value from the <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ne-evcoll-_ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a> enumeration. Get  the <b>Address</b>, <b>Enabled</b>, <b>UserName</b>, and <b>Password</b> properties in the array by specifying the <b>EcSubscriptionEventSourceAddress</b>, <b>EcSubscriptionEventSourceEnabled</b>, <b>EcSubscriptionEventSourceUserName</b>, or <b>EcSubscriptionEventSourcePassword</b> values.
 
 
 ### -param ArrayIndex [in]
@@ -79,7 +79,7 @@ Reserved. Must be 0.
 
 ### -param PropertyValueBufferSize [in]
 
-The size of the buffer that contains the value of the property. The size must be at least the size of an <a href="https://msdn.microsoft.com/f1f20e33-46b0-458e-ac6c-f890be20c455">EC_VARIANT</a> value.
+The size of the buffer that contains the value of the property. The size must be at least the size of an <a href="https://docs.microsoft.com/windows/desktop/api/evcoll/ns-evcoll-_ec_variant">EC_VARIANT</a> value.
 
 
 ### -param PropertyValueBuffer [in]
@@ -114,7 +114,7 @@ A subscription can have multiple event sources, and each source can have an <b>A
 
 #### Examples
 
-For example code using the <b>EcGetObjectArrayProperty</b> function, see <a href="https://msdn.microsoft.com/984e21cf-3671-4aca-9e8e-bcad1fa2f02c">Displaying the Properties of an Event Collector Subscription</a>.
+For example code using the <b>EcGetObjectArrayProperty</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WEC/displaying-the-properties-of-an-event-collector-subscription">Displaying the Properties of an Event Collector Subscription</a>.
 
 <div class="code"></div>
 
@@ -125,7 +125,7 @@ For example code using the <b>EcGetObjectArrayProperty</b> function, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/48155df6-ba9c-4abe-ba84-6190cee95878">Windows Event Collector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WEC/windows-event-collector-functions">Windows Event Collector Functions</a>
  
 
  

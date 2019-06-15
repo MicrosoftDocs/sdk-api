@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndSetRepeat</b> macro sets the repeat flag associated with continuous playback. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/9a8da201-9ce8-4b6c-8b76-cd9e1356c75d">MCIWNDM_SETREPEAT</a> message.
+The <b>MCIWndSetRepeat</b> macro sets the repeat flag associated with continuous playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setrepeat">MCIWNDM_SETREPEAT</a> message.
 
 
 

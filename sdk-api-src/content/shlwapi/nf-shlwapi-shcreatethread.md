@@ -64,7 +64,7 @@ Creates a thread.
 
 Type: <b>LPTHREAD_START_ROUTINE</b>
 
-A pointer to an application-defined function of the <a href="https://msdn.microsoft.com/f0dc203f-200e-42f1-940c-24e3fe080175">LPTHREAD_START_ROUTINE</a> type. If a new thread was successfully created, this application-defined function is called in the context of that thread. <b>SHCreateThread</b> does not wait for the function pointed to by this parameter to complete before returning to its caller.  The application-defined function's return value is the exit code of the thread.
+A pointer to an application-defined function of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">LPTHREAD_START_ROUTINE</a> type. If a new thread was successfully created, this application-defined function is called in the context of that thread. <b>SHCreateThread</b> does not wait for the function pointed to by this parameter to complete before returning to its caller.  The application-defined function's return value is the exit code of the thread.
 
 
 ### -param pData [in, optional]
@@ -78,7 +78,7 @@ A pointer to an optional application-defined data structure that contains initia
 
 Type: <b>SHCT_FLAGS</b>
 
-The flags that control the behavior of the function. One or more of the <a href="https://msdn.microsoft.com/66cda866-7a39-4c5a-a795-a4c5c64cbab7">CTF</a> constants.
+The flags that control the behavior of the function. One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/ctf">CTF</a> constants.
 
 
 ### -param pfnCallback [in, optional]
@@ -86,7 +86,7 @@ The flags that control the behavior of the function. One or more of the <a href=
 Type: <b>LPTHREAD_START_ROUTINE</b>
 
 A pointer to an optional application-defined function of the 
-				 <a href="https://msdn.microsoft.com/f0dc203f-200e-42f1-940c-24e3fe080175">LPTHREAD_START_ROUTINE</a> type. This function is called 
+				 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">LPTHREAD_START_ROUTINE</a> type. This function is called 
 				 in the context of the created thread before the function pointed to by 
 				 <i>pfnThreadProc</i> is called. It will also receive <i>pData</i> as 
 				 its argument. <b>SHCreateThread</b> will wait for the 
@@ -100,7 +100,7 @@ A pointer to an optional application-defined function of the
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if the thread is successfully created, or <b>FALSE</b> otherwise. On failure, use <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> to retrieve the specific error value as shown here.
+Returns <b>TRUE</b> if the thread is successfully created, or <b>FALSE</b> otherwise. On failure, use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to retrieve the specific error value as shown here.
 
                     
 
@@ -147,31 +147,31 @@ The function name is arbitrary. The <i>pData</i> parameter points to an applicat
 
 
 
-<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/202a4b42-513a-45de-894a-72e56c706a58">CreateThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/6abca2df-832c-410b-93c7-5131e481e595">SHCreateThreadRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatethreadref">SHCreateThreadRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/307b284b-f493-4d24-a7be-17c150d62b34">SHGetThreadRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shgetthreadref">SHGetThreadRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f3fd09b-baad-4019-a060-c68727aee61f">SHReleaseThreadRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreleasethreadref">SHReleaseThreadRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d0d70ca-a0e6-4620-9a01-8d4986990b9c">SHSetThreadRef</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shsetthreadref">SHSetThreadRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecfb6484-a1d6-4ace-8457-3940b111a4d2">Shell and Common Controls Versions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell and Common Controls Versions</a>
  
 
  

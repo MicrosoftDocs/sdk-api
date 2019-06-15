@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Handles the <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2">WsResetListener</a> call
-                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
+Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetlistener">WsResetListener</a> call
+                for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 
@@ -62,7 +62,7 @@ Handles the <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7b
 ### -param *listenerInstance [in]
 
 The pointer to the state specific to this listener instance,
-                    as created by the <a href="https://msdn.microsoft.com/2d8e476d-dc68-44b4-b53b-be440a32efda">WS_CREATE_LISTENER_CALLBACK</a>.
+                    as created by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_listener_callback">WS_CREATE_LISTENER_CALLBACK</a>.
                 
 
 
@@ -103,7 +103,7 @@ The listener was in an inappropriate state.
 
 
 
-See <a href="https://msdn.microsoft.com/c23c8ad4-a193-42f2-9e4a-3e814b7bbdb2">WsResetListener</a> for information about the contract
+See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetlistener">WsResetListener</a> for information about the contract
                 of this API.
             
 

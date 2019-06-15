@@ -80,19 +80,19 @@ All samples from the stream are delivered.
 
 
 
-<a href="https://msdn.microsoft.com/82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c">IMFASFStreamSelector::GetBandwidthStep</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstep">IMFASFStreamSelector::GetBandwidthStep</a>
 
 
 
-<a href="https://msdn.microsoft.com/64413669-bcb9-47fa-9362-b3f6831e55fb">IMFASFStreamSelector::GetOutputOverride</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputoverride">IMFASFStreamSelector::GetOutputOverride</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8affecd-107f-4701-88df-200db06ad49e">IMFASFStreamSelector::SetOutputOverride</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-setoutputoverride">IMFASFStreamSelector::SetOutputOverride</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

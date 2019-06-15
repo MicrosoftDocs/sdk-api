@@ -59,9 +59,9 @@ Initializes a folder and specifies its location in the namespace. If the folder 
 
 ### -param pbc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> object that provides the bind context. This parameter can be <b>NULL</b>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> object that provides the bind context. This parameter can be <b>NULL</b>.
 
 
 ### -param pidlRoot [in]
@@ -73,15 +73,15 @@ A pointer to a fully qualified PIDL that specifies the absolute location of a fo
 
 ### -param ppfti [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb773373(v=VS.85).aspx">PERSIST_FOLDER_TARGET_INFO</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773373(v=VS.85).aspx">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-_persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
 
                     
 
 If <i>ppfti</i> points to a valid structure, <i>pidlRoot</i> represents a folder shortcut.
 
-If <i>ppfti</i> is set to <b>NULL</b>, <i>pidlRoot</i> represents a normal folder. In that case, <b>InitializeEx</b> should behave as if <a href="https://msdn.microsoft.com/179f13c9-7306-4ed5-935e-2620616b46c1">Initialize</a> had been called.
+If <i>ppfti</i> is set to <b>NULL</b>, <i>pidlRoot</i> represents a normal folder. In that case, <b>InitializeEx</b> should behave as if <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize">Initialize</a> had been called.
 
 
 ## -returns
@@ -99,7 +99,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This function is an extended version of <a href="https://msdn.microsoft.com/179f13c9-7306-4ed5-935e-2620616b46c1">IPersistFolder::Initialize</a>. It allows the Shell to initialize folder shortcuts as well as normal folders.
+This function is an extended version of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize">IPersistFolder::Initialize</a>. It allows the Shell to initialize folder shortcuts as well as normal folders.
 
 
 

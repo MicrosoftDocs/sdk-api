@@ -61,7 +61,7 @@ Gets the specified function instance and its index from the collection.
 
 ### -param pszInstanceIdentity [in]
 
-The identifier of the function instance to be retrieved (see <a href="https://msdn.microsoft.com/8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d">GetID</a>).
+The identifier of the function instance to be retrieved (see <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getid">GetID</a>).
 
 
 ### -param pdwIndex [out]
@@ -71,7 +71,7 @@ The index number.
 
 ### -param ppIFunctionInstance [out]
 
- A pointer to an <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface pointer that receives the function instance.
+ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that receives the function instance.
 
 
 ## -returns
@@ -140,7 +140,7 @@ The method is unable to allocate the memory required to perform this operation.
 
 
 
-<a href="https://msdn.microsoft.com/8ac1a406-92f3-4e39-985e-ab8fa7d28751">IFunctionInstanceCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
  
 
  

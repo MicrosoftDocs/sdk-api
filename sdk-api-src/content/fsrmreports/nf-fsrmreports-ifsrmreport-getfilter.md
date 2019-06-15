@@ -59,7 +59,7 @@ Retrieves the value of the specified report filter.
 
 ### -param filter [in]
 
-The filter used to limit the files listed in a report. For possible values, see the <a href="https://msdn.microsoft.com/6f38ec9a-8876-44ce-9d44-f3982f1880ca">FsrmReportFilter</a> enumeration.
+The filter used to limit the files listed in a report. For possible values, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmreportfilter">FsrmReportFilter</a> enumeration.
 
 
 ### -param filterValue [out]
@@ -81,7 +81,7 @@ The method returns the following return values.
 
 
 
-<a href="https://msdn.microsoft.com/2172a543-b3b7-453e-887b-05c8ee74f197">IFsrmReport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
  
 
  

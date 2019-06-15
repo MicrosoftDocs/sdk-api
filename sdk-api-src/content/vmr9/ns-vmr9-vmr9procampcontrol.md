@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>VMR9ProcAmpControl</code> structure specifies the image adjustments to be performed on a video stream. This structure is used with the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9).
+The <code>VMR9ProcAmpControl</code> structure specifies the image adjustments to be performed on a video stream. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9).
 
 
 
@@ -67,7 +67,7 @@ Size of the structure, in bytes. The value must be <code>sizeof(VMR9ProcAmpContr
 
 ### -field dwFlags
 
-Bitwise combination of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd407373(v=VS.85).aspx">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
+Bitwise combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/ne-vmr9-__midl___midl_itf_vmr9_0000_0005_0002">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
 
 
 ### -field Brightness
@@ -94,7 +94,7 @@ Specifies the image saturation. Saturation alters the color intensity of the ima
 
 
 
-The valid range of values for each property depends on the graphics device driver. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd390463(v=VS.85).aspx">IVMRMixerControl9::GetProcAmpControlRange</a> method to get the range for each property.
+The valid range of values for each property depends on the graphics device driver. Call the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getprocampcontrolrange">IVMRMixerControl9::GetProcAmpControlRange</a> method to get the range for each property.
 
 
 
@@ -104,7 +104,7 @@ The valid range of values for each property depends on the graphics device drive
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

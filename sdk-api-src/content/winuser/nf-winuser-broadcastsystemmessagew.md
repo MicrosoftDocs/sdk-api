@@ -54,7 +54,7 @@ Sends a message to the specified recipients. The recipients can be applications,
 
 			
 
-To receive additional information if the request is defined, use the <a href="https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a> function.
+To receive additional information if the request is defined, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a> function.
 
 
 ## -parameters
@@ -168,7 +168,7 @@ Sends the message to one recipient at a time, sending to a subsequent recipient 
 </dl>
 </td>
 <td width="60%">
- Sends the message using <a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
+ Sends the message using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Broadcast to all system components.
 </dl>
 </td>
 <td width="60%">
- Broadcast to all desktops. Requires the <a href="https://msdn.microsoft.com/be5637e3-0932-49b6-a5af-a542060545e0">SE_TCB_NAME</a> privilege.
+ Broadcast to all desktops. Requires the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SE_TCB_NAME</a> privilege.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Type: <b>UINT</b>
 
 The message to be sent. 
 
-For lists of the system-provided messages, see <a href="https://msdn.microsoft.com/en-us/library/ms644927(v=VS.85).aspx">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 
 ### -param wParam [in]
@@ -265,7 +265,7 @@ If the function succeeds, the return value is a positive value.
 
 If the function is unable to broadcast the message, the return value is –1. 
 
-If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient returned <b>BROADCAST_QUERY_DENY</b> to the corresponding message, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient returned <b>BROADCAST_QUERY_DENY</b> to the corresponding message, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -276,12 +276,12 @@ If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient r
 
 If <b>BSF_QUERY</b> is not specified, the function sends the specified message to all requested recipients, ignoring values returned by those recipients.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://msdn.microsoft.com/en-us/library/ms644931(v=VS.85).aspx">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms686722(v=VS.85).aspx">Terminating a Process</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/terminating-a-process">Terminating a Process</a>.
 
 <div class="code"></div>
 
@@ -292,7 +292,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms686722(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644933(v=VS.85).aspx">BroadcastSystemMessageEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessageexa">BroadcastSystemMessageEx</a>
 
 
 
@@ -300,7 +300,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms686722(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
@@ -308,7 +308,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms686722(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644953(v=VS.85).aspx">SendNotifyMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
  
 
  

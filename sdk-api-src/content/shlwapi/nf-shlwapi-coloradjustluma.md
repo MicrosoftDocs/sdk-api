@@ -59,7 +59,7 @@ Changes the luminance of a RGB value. Hue and saturation are not affected.
 
 ### -param clrRGB
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 The initial RGB value.
 
@@ -82,7 +82,7 @@ If <i>fScale</i> is set to <b>TRUE</b>, <i>n</i> specifies how much to increment
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 Returns the modified RGB value.
 

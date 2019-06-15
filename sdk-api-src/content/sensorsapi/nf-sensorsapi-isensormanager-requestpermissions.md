@@ -68,7 +68,7 @@ For Windows 7, <b>HWND</b> is handle to a window that can act as a parent to th
 
 For Windows 8, this value is not used.
 
-For Windows 7, <i>pSensors</i> is a pointer to the <a href="https://msdn.microsoft.com/54d8572a-40a2-49d0-a8bf-2161b63eee42">ISensorCollection</a> interface that contains the list of sensors for which permission is being requested.
+For Windows 7, <i>pSensors</i> is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a> interface that contains the list of sensors for which permission is being requested.
 
 
 ### -param fModal [in]
@@ -238,7 +238,7 @@ Making a synchronous call from the user interface (UI) thread of a Windows appli
 
 #### Examples
 
-The following example code requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will only prompt the user to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the <a href="https://msdn.microsoft.com/fb995dba-23aa-4a09-b411-7e95019535ce">ISensorEvents::OnStateChanged</a> event. For additional examles that demonstrate how to request permissions, see <a href="https://msdn.microsoft.com/e43ad497-86f1-4804-a67a-0aeb56b80d7f">Requesting User Permissions</a>.
+The following example code requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will only prompt the user to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged">ISensorEvents::OnStateChanged</a> event. For additional examles that demonstrate how to request permissions, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>.
 
 
 ```cpp
@@ -264,15 +264,15 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/313742c9-58a7-4ddd-9582-a6ee276e97d0">ISensorManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/c755edcf-18c1-43d5-9dfe-c073e1f96b5f">Managing User Permissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e43ad497-86f1-4804-a67a-0aeb56b80d7f">Requesting User Permissions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>
  
 
  

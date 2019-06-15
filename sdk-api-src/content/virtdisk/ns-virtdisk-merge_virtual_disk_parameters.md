@@ -60,7 +60,7 @@ Contains virtual hard disk (VHD) merge request parameters.
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323679(v=VS.85).aspx">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
+A <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_merge_virtual_disk_version">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
       that specifies the version of the 
       <b>MERGE_VIRTUAL_DISK_PARAMETERS</b> structure 
       being passed to or from the VHD functions.
@@ -79,7 +79,7 @@ Depth of the merge request. This is the number of parent disks in the differenci
 
 <div class="alert"><b>Note</b>  The RWDepth of the virtual disk must be greater than <b>MergeDepth</b>. For more 
          information, see 
-         <a href="https://msdn.microsoft.com/en-us/library/Dd323682(v=VS.85).aspx">OPEN_VIRTUAL_DISK_PARAMETERS</a>.</div>
+         <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a>.</div>
 <div> </div>
 
 ### -field Version2
@@ -106,7 +106,7 @@ Depth from  the leaf to target the merge.  The leaf is at depth 1.
 
 The depth of a merge request specified by the <b>MergeDepth</b> member is the number of  
     parent VHD image files in the differencing chain to be merged.  For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323676(v=VS.85).aspx">MergeVirtualDisk</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mergevirtualdisk">MergeVirtualDisk</a>.
 
 
 
@@ -116,15 +116,15 @@ The depth of a merge request specified by the <b>MergeDepth</b> member is the nu
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323676(v=VS.85).aspx">MergeVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-mergevirtualdisk">MergeVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

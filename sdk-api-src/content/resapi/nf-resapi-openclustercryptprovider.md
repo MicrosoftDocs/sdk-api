@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opens a handle to a Cryptographic Service Provider (CSP) in order to manage the encryption of <a href="https://msdn.microsoft.com/6031fe2b-d5cb-477e-9d0f-c8c4a14ce02b">Checkpointing</a> data for a cluster resource. The <b>POPEN_CLUSTER_CRYPT_PROVIDER</b> type defines a pointer to this function.
+Opens a handle to a Cryptographic Service Provider (CSP) in order to manage the encryption of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data for a cluster resource. The <b>POPEN_CLUSTER_CRYPT_PROVIDER</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Opens a handle to a Cryptographic Service Provider (CSP) in order to manage the 
 
 ### -param lpszResource [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the cluster resource that is associated with the <a href="https://msdn.microsoft.com/6031fe2b-d5cb-477e-9d0f-c8c4a14ce02b">Checkpointing</a> data.
+A pointer to a null-terminated Unicode string that contains the name of the cluster resource that is associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/checkpointing">Checkpointing</a> data.
 
 
 ### -param lpszProvider [in]
@@ -158,7 +158,7 @@ The flags that specify the settings for the operation. This parameter can be set
 
 
 
-If the operation completes successfully, this function returns a <a href="https://msdn.microsoft.com/B1933FA5-CED7-4C11-880E-FC0BAD5DDE45">HCLUSCRYPTPROVIDER</a> structure containing a handle to the CSP.
+If the operation completes successfully, this function returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn823545(v=vs.85)">HCLUSCRYPTPROVIDER</a> structure containing a handle to the CSP.
 
 
 
@@ -168,11 +168,11 @@ If the operation completes successfully, this function returns a <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/844D991A-6B29-4ADE-8CFE-114FD4AF7C9B">CloseClusterCryptProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-closeclustercryptprovider">CloseClusterCryptProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/74677418-CA63-4B4E-9844-A3A47AFFAD49">Cryptography Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>
  
 
  

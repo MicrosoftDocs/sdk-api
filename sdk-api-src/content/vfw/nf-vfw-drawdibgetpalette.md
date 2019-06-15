@@ -78,9 +78,9 @@ Returns a handle to the palette if successful or <b>NULL</b> otherwise.
 
 
 
-This function assumes the DrawDib DC contains a valid palette entry, implying that a call to this function must follow calls to the <a href="https://msdn.microsoft.com/b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4">DrawDibDraw</a> or <a href="https://msdn.microsoft.com/89178e33-e440-49fe-9900-0baea229d289">DrawDibBegin</a> functions.
+This function assumes the DrawDib DC contains a valid palette entry, implying that a call to this function must follow calls to the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibdraw">DrawDibDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibbegin">DrawDibBegin</a> functions.
 
-You should rarely need to call this function because you can realize the correct palette in response to a window message by using the <a href="https://msdn.microsoft.com/4723c8a4-36af-4543-b6df-d51f68a3e94d">DrawDibRealize</a> function.
+You should rarely need to call this function because you can realize the correct palette in response to a window message by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-drawdibrealize">DrawDibRealize</a> function.
 
 
 
@@ -90,7 +90,7 @@ You should rarely need to call this function because you can realize the correct
 
 
 
-<a href="https://msdn.microsoft.com/9ba47b8d-5328-477e-9272-21e897e54348">DrawDib Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/drawdib-functions">DrawDib Functions</a>
  
 
  

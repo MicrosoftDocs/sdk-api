@@ -59,16 +59,16 @@ Sets the color, as specified.
 
 ### -param vpcf [in]
 
-Type: <b><a href="https://msdn.microsoft.com/438fb7ee-c0ce-4c20-9dbb-51593005d3ad">VPCOLORFLAGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-vpcolorflags">VPCOLORFLAGS</a></b>
 
-The color flags. See <a href="https://msdn.microsoft.com/438fb7ee-c0ce-4c20-9dbb-51593005d3ad">VPCOLORFLAGS</a>.
+The color flags. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-vpcolorflags">VPCOLORFLAGS</a>.
 
 
 ### -param cr [in]
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-A value of type <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>
+A value of type <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 

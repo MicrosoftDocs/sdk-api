@@ -92,7 +92,7 @@ Windows Media Player calls <b>startBackgroundProcessing</b> during idle time aft
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563697(v=VS.85).aspx">IWMPSubscriptionService Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Calculates the wire size of the <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object, and gets its handle and data.
+Calculates the wire size of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> object, and gets its handle and data.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The data used by RPC.
 
 ### -param arg2 [in]
 
-Sets the buffer offset so that the <a href="https://msdn.microsoft.com/9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
+Sets the buffer offset so that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/ns-oaidl-tagsafearray">SAFEARRAY</a> object is properly aligned when it is marshaled to the buffer.
 
 
 ### -param arg3 [in]

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables an object to be loaded from or saved to a disk file, rather than a storage object or stream. Because the information needed to open a file varies greatly from one application to another, the implementation of <a href="https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5">IPersistFile::Load</a> on the object must also open its disk file.
+Enables an object to be loaded from or saved to a disk file, rather than a storage object or stream. Because the information needed to open a file varies greatly from one application to another, the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load">IPersistFile::Load</a> on the object must also open its disk file.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IPersistFile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61f1751d-47ce-4b3f-9876-24ddd542dacb">GetCurFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-getcurfile">GetCurFile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current name of the file associated with the object.
@@ -78,7 +78,7 @@ Retrieves the current name of the file associated with the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f3df841-d7fe-472e-a13c-124fdf425a35">IsDirty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-isdirty">IsDirty</a>
 </td>
 <td align="left" width="63%">
 Determines whether an object has changed since it was last saved to its current file.
@@ -87,7 +87,7 @@ Determines whether an object has changed since it was last saved to its current 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8391aa5c-fe6e-4b03-9eef-7958f75910a5">Load</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load">Load</a>
 </td>
 <td align="left" width="63%">
 Opens the specified file and initializes an object from the file contents.
@@ -96,7 +96,7 @@ Opens the specified file and initializes an object from the file contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da9581e8-98c7-4592-8ee1-a1bc8232635b">Save</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">Save</a>
 </td>
 <td align="left" width="63%">
 Saves a copy of the object to the specified file.
@@ -105,7 +105,7 @@ Saves a copy of the object to the specified file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eda29981-0c24-409a-8fb9-2dc2eb96d108">SaveCompleted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted">SaveCompleted</a>
 </td>
 <td align="left" width="63%">
 Notifies the object that it can write to its file.

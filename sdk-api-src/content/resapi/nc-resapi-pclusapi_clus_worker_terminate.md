@@ -59,7 +59,7 @@ Terminates a worker thread. The <b>PCLUSAPI_CLUS_WORKER_TERMINATE</b> type defin
 
 ### -param lpWorker [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/559b147f-8e8a-4bc7-94ea-e2042f288b6d">CLUS_WORKER</a> structure describing the 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure describing the 
        thread to terminate.
 
 
@@ -78,7 +78,7 @@ This function has no return values.
 
 The <i>ClusWorkerTerminate</i> utility function checks 
      the <b>hThread</b> and <b>Terminate</b> members of the 
-     <a href="https://msdn.microsoft.com/559b147f-8e8a-4bc7-94ea-e2042f288b6d">CLUS_WORKER</a> structure pointed to by 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure pointed to by 
      <i>lpWorker</i>. If <b>hThread</b> is not <b>NULL</b> 
      and <b>Terminate</b> is set to <b>FALSE</b>, indicating that this is your 
      first call to <i>ClusWorkerTerminate</i>, the function 
@@ -95,27 +95,27 @@ The <i>ClusWorkerTerminate</i> utility function checks
 
 
 
-<a href="https://msdn.microsoft.com/559b147f-8e8a-4bc7-94ea-e2042f288b6d">CLUS_WORKER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8833961-ac0e-4d8c-a57e-5aabdb2c8c96">ClusWorkerCheckTerminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7e8f8ad-c9de-4c6b-8926-b9a46d85924d">ClusWorkerCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2dda7c0-01d4-49e5-bc57-3fa07495d536">ClusWorkerTerminateEx</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-clusworkerterminateex">ClusWorkerTerminateEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/af9bcdcf-ca92-438b-94f2-f0e7529952fb">ClusWorkersTerminate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkersterminate">ClusWorkersTerminate</a>
 
 
 
-<a href="https://msdn.microsoft.com/47436aab-a513-423b-8287-e467954e1dc1">Thread Management Utility Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/thread-management-utility-functions">Thread Management Utility Functions</a>
  
 
  

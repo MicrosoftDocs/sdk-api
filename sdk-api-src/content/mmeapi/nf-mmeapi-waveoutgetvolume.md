@@ -73,7 +73,7 @@ Pointer to a variable to be filled with the current volume setting. The low-orde
 
 If a device does not support both left and right volume control, the low-order word of the specified location contains the mono volume level.
 
-The full 16-bit setting(s) set with the <a href="https://msdn.microsoft.com/6dcc53ae-b663-4812-8c93-a573b8dc6e57">waveOutSetVolume</a> function is returned, regardless of whether the device supports the full 16 bits of volume-level control.
+The full 16-bit setting(s) set with the <a href="https://docs.microsoft.com/previous-versions//dd743874(v=vs.85)">waveOutSetVolume</a> function is returned, regardless of whether the device supports the full 16 bits of volume-level control.
 
 
 ## -returns
@@ -157,11 +157,11 @@ Volume settings are interpreted logarithmically. This means the perceived increa
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

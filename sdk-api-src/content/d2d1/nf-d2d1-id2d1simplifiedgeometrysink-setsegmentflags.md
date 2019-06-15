@@ -59,7 +59,7 @@ Specifies stroke and join options to be applied to new segments added to the geo
 
 ### -param vertexFlags
 
-Type: <b><a href="https://msdn.microsoft.com/375a0a40-ec98-4f41-9c15-d284f8b17a73">D2D1_PATH_SEGMENT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_path_segment">D2D1_PATH_SEGMENT</a></b>
 
 Stroke and join options to be applied to new segments added to the geometry sink.
 
@@ -87,7 +87,7 @@ After this method is called, the specified segment flags are applied to each seg
 
 
 
-<a href="https://msdn.microsoft.com/cf877a25-7b9f-4db0-ac53-b4a350795a86">ID2D1SimplifiedGeometrySink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
  
 
  

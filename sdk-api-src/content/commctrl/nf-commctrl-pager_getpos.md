@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the current scroll position of the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760874(v=VS.85).aspx">PGM_GETPOS</a> message explicitly. 
+Retrieves the current scroll position of the pager control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-getpos">PGM_GETPOS</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the current scroll position of the pager control. You can use this mac
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control. 
 

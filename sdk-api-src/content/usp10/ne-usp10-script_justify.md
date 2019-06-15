@@ -142,15 +142,15 @@ Highest priority: medial shape of Seen class (U+0633).
 
 
 
-<a href="https://msdn.microsoft.com/83b77f60-2520-49ee-bc7f-27cb3db02ac8">SCRIPT_VISATTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-tag_script_visattr">SCRIPT_VISATTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/de7a882f-ed74-4be2-b66d-59c2e50dc07a">Uniscribe</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2f4e7ee-ee46-4daa-a599-c5da9d133ccf">Uniscribe Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-enumeration-types">Uniscribe Enumeration Types</a>
  
 
  

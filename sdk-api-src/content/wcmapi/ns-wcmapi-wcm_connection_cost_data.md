@@ -166,7 +166,7 @@ The connection is outside of the home network.
 
 ### -field CostSource
 
-Type: <b><a href="https://msdn.microsoft.com/cd9e5562-dd50-46fc-be11-0ea89e6933c0">WCM_CONNECTION_COST_SOURCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a></b>
 
 Specifies the cost source.
 
@@ -176,7 +176,7 @@ Specifies the cost source.
 
 
 
-<a href="https://msdn.microsoft.com/cd9e5562-dd50-46fc-be11-0ea89e6933c0">WCM_CONNECTION_COST_SOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-_wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>
  
 
  

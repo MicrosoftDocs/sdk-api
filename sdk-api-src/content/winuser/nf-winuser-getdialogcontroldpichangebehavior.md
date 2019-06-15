@@ -66,7 +66,7 @@ The handle for the window to examine.
 
 
 
-The flags set on the given window. If passed an invalid handle, this function will return zero, and set its <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">last error</a> to <b>ERROR_INVALID_HANDLE</b>.
+The flags set on the given window. If passed an invalid handle, this function will return zero, and set its <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">last error</a> to <b>ERROR_INVALID_HANDLE</b>.
 
 
 
@@ -76,11 +76,11 @@ The flags set on the given window. If passed an invalid handle, this function wi
 
 
 
-<a href="https://msdn.microsoft.com/B368D997-F409-491A-8578-004C7408A160">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors">DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS</a>
 
 
 
-<a href="https://msdn.microsoft.com/52BB557B-0D70-4189-9BD0-EB94188EA4E7">SetDialogControlDpiChangeBehavior</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdialogcontroldpichangebehavior">SetDialogControlDpiChangeBehavior</a>
  
 
  

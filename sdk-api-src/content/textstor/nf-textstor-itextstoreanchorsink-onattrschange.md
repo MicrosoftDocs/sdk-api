@@ -74,7 +74,7 @@ Specifies the number of attributes in the <i>paAttrs</i> array.
 
 ### -param paAttrs [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/5e375609-3d3c-4c12-ae05-dcaa70779162">TS_ATTRID</a> values that identify the attributes changed.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> values that identify the attributes changed.
 
 
 ## -returns
@@ -121,27 +121,27 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/9bb21a4a-047e-4347-93b3-9c41cd2c20b7">ITextStoreAnchor::FindNextAttrTransition
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-findnextattrtransition">ITextStoreAnchor::FindNextAttrTransition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/d0f20507-005b-409d-90d5-5817b7d95f19">ITextStoreAnchor::RequestAttrsAtPosition
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestattrsatposition">ITextStoreAnchor::RequestAttrsAtPosition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/f0f43237-8c26-4e0c-8717-908884229b7b">ITextStoreAnchor::RequestAttrsTransitioningAtPosition
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestattrstransitioningatposition">ITextStoreAnchor::RequestAttrsTransitioningAtPosition
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/ab81d79d-e991-4c2d-9fb7-95393e002828">ITextStoreAnchor::RequestSupportedAttrs
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestsupportedattrs">ITextStoreAnchor::RequestSupportedAttrs
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/fb96b4fb-864f-4f32-bf7c-cf7f199e552a">ITextStoreAnchorSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
  
 
  

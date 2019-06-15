@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 A support structure used in the 
-     <a href="https://msdn.microsoft.com/e63283b4-82eb-4bf4-a2f8-f7db29ccb6da">MI_HostedProvider</a> structure. Use the functions with 
+     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_hostedprovider">MI_HostedProvider</a> structure. Use the functions with 
      the name prefix "MI_HostedProvider_" to manipulate these structures.
 
 
@@ -68,11 +68,11 @@ TBD
 
 #### - Close
 
-See <a href="https://msdn.microsoft.com/b0cae173-a552-4c5a-8181-ba20143d846b">MI_HostedProvider_Close</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_close">MI_HostedProvider_Close</a>.
 
 
 #### - GetApplication
 
 See 
-      <a href="https://msdn.microsoft.com/26afde05-6ef6-4044-b8a1-fad2a3bb4385">MI_HostedProvider_GetApplication</a>.
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_hostedprovider_getapplication">MI_HostedProvider_GetApplication</a>.
 

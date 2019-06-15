@@ -59,7 +59,7 @@ Gets the package resource identifier as defined in the manifest.
 
 ### -param resourceId [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPWSTR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 The resource identifier of the package.
 
@@ -79,11 +79,11 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 
 
-The resource identifier is specified using the <b>ResourceId</b> attribute of the <a href="https://msdn.microsoft.com/45524773-3b61-44ac-a417-cfaac92af0a0">Identity</a> element in the package manifest.
+The resource identifier is specified using the <b>ResourceId</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity">Identity</a> element in the package manifest.
 
 If no resource identifier is defined in the manifest, this method returns a null string.
 
-The caller must free the memory allocated for <i>resourceId</i> using the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
+The caller must free the memory allocated for <i>resourceId</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 
 
@@ -93,7 +93,7 @@ The caller must free the memory allocated for <i>resourceId</i> using the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/8665AC2B-4D06-4684-99B1-E22533CA04AA">IAppxManifestPackageId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
  
 
  

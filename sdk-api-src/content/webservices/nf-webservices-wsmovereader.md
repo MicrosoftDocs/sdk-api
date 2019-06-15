@@ -62,7 +62,7 @@ Moves the current position of the reader as specified by the <i>moveTo</i> param
 
 ### -param reader [in]
 
-A pointer to the <b>XML Reader</b> object with the position to move.  The pointer must reference a valid <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acbbc13cfcfd">WS_XML_READER</a> object and the referenced <b>Reader</b> value may not be <b>NULL</b>.
+A pointer to the <b>XML Reader</b> object with the position to move.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object and the referenced <b>Reader</b> value may not be <b>NULL</b>.
         
 
 
@@ -78,7 +78,7 @@ Indicates success or failure of the specified move.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -141,9 +141,9 @@ If the found parameter is not <b>NULL</b>, then it will indicate there whether o
       
 
 If the found parameter is <b>NULL</b>, and the requested node is not found, it will return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.) 
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.) 
 
-This function cannot be used while canonicalizing.  If <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> has
+This function cannot be used while canonicalizing.  If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsstartreadercanonicalization">WsStartReaderCanonicalization</a> has
         been called, then it will return <b>WS_E_INVALID_OPERATION</b>.
       
 

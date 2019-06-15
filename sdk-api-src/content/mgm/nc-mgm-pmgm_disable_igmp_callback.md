@@ -90,7 +90,7 @@ RRAS does not expect the application to return any specific value; any value ret
 
 
 
-<a href="https://msdn.microsoft.com/6c23779b-d759-4443-a134-0ff27c48dc8e">PMGM_ENABLE_IGMP_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_enable_igmp_callback">PMGM_ENABLE_IGMP_CALLBACK</a>
  
 
  

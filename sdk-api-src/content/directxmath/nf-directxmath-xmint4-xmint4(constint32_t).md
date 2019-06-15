@@ -53,7 +53,7 @@ Initializes a new instance of <code>XMINT4</code> from a four element <code>int3
 	argument.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a> from a from
+This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmint4">XMINT4</a> from a from
 	a four element <code>int32_t</code> array argument.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -101,11 +101,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff728760(v=VS.85).aspx">XMINT4</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmint4">XMINT4</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449516(v=VS.85).aspx">XMINT4 Constructors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmint4-xmint4(constint32_t)">XMINT4 Constructors</a>
  
 
  

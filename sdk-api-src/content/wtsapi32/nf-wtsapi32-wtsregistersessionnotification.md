@@ -88,7 +88,7 @@ All session notifications are to be received.
 
 If the function succeeds, the return value is <b>TRUE</b>. Otherwise, it is 
        <b>FALSE</b>. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -102,18 +102,18 @@ If this function is called before the dependent services of Remote Desktop Servi
     global event is set, all dependent services  have started and this function can be successfully called.
 
 Session change notifications are sent in the form of a 
-    <a href="https://msdn.microsoft.com/758a130c-b75a-40fd-8530-3766aa86c5ba">WM_WTSSESSION_CHANGE</a> message. These 
+    <a href="https://docs.microsoft.com/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a> message. These 
     notifications are sent only to the windows that have registered for them using this function.
 
 When a window no longer requires these notifications, it must call 
-    <a href="https://msdn.microsoft.com/654e585a-f0b2-45a1-a58d-fe3505b34b61">WTSUnRegisterSessionNotification</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsunregistersessionnotification">WTSUnRegisterSessionNotification</a> 
     before being destroyed. For every call to this function, there must be a corresponding call to 
     <b>WTSUnRegisterSessionNotification</b>.
 
 If the window handle passed in this function is already registered, the value of the <i>dwFlags</i> parameter is ignored.
 
 To receive session change notifications from a service, use the 
-    <a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a> function.
 
 
 
@@ -123,27 +123,27 @@ To receive session change notifications from a service, use the
 
 
 
-<a href="https://msdn.microsoft.com/bb1b863f-e29f-496f-a50e-9ea524fe8603">HandlerEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/758a130c-b75a-40fd-8530-3766aa86c5ba">WM_WTSSESSION_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/wm-wtssession-change">WM_WTSSESSION_CHANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa43cfa-9518-428b-95a1-004fa23df90b">WTSGetActiveConsoleSessionId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wtsgetactiveconsolesessionid">WTSGetActiveConsoleSessionId</a>
 
 
 
-<a href="https://msdn.microsoft.com/8670643e-33e0-482a-ade0-d136b8c97d37">WTSRegisterSessionNotificationEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsregistersessionnotificationex">WTSRegisterSessionNotificationEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/863bd689-796b-4875-81bf-f853354b08b5">WTSSESSION_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagwtssession_notification">WTSSESSION_NOTIFICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/654e585a-f0b2-45a1-a58d-fe3505b34b61">WTSUnRegisterSessionNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsunregistersessionnotification">WTSUnRegisterSessionNotification</a>
  
 
  

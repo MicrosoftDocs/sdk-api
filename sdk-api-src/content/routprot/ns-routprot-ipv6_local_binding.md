@@ -60,7 +60,7 @@ The
 
 ### -field Address
 
-An <a href="https://msdn.microsoft.com/2029db76-3fe1-4560-b753-910c48cbc578">in6_addr</a> structure that specifies an IPv6 address for the adapter.
+An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">in6_addr</a> structure that specifies an IPv6 address for the adapter.
 
 
 ### -field PrefixLength
@@ -73,7 +73,7 @@ The length, in bits, of the address prefix.
 
 
 Since an adapter can have more than one IP address, the 
-<a href="https://msdn.microsoft.com/1e964f09-96c6-432b-bb1a-026a3ea0deba">IPV6_ADAPTER_BINDING_INFO</a> structure maintains an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_adapter_binding_info">IPV6_ADAPTER_BINDING_INFO</a> structure maintains an array of 
 <b>IPV6_LOCAL_BINDING</b> structures.
 
 
@@ -84,19 +84,19 @@ Since an adapter can have more than one IP address, the
 
 
 
-<a href="https://msdn.microsoft.com/1e964f09-96c6-432b-bb1a-026a3ea0deba">IPV6_ADAPTER_BINDING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ipv6_adapter_binding_info">IPV6_ADAPTER_BINDING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/121cc415-35eb-4c9b-a02d-c23be468d6bc">IP_LOCAL_BINDING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-ip_local_binding">IP_LOCAL_BINDING</a>
 
 
 
-<a href="https://msdn.microsoft.com/352505a9-616a-4d47-9857-f88d345333fd">Router Management Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/767733eb-1cbd-4b8d-98b7-41d1d0f2c630">Router Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
  
 
  

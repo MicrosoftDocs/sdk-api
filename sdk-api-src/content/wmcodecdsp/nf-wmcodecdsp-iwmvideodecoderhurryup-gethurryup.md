@@ -137,11 +137,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/ef01d2ab-2525-4caf-87d9-3acdc0b3b1b3">IWMVideoDecoderHurryUp::SetHurryup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderhurryup-sethurryup">IWMVideoDecoderHurryUp::SetHurryup</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e33be5f-5ce8-4f4f-94db-4be2dfcaeec0">IWMVideoDecoderHurryup Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderhurryup">IWMVideoDecoderHurryup Interface</a>
  
 
  

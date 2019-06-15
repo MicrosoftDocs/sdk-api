@@ -81,7 +81,7 @@ The image is rotated 270 degrees counter-clockwise.
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/7C0911A6-6D7C-4510-891F-A6F56CE1EC2B">MF_MT_VIDEO_ROTATION</a> attribute.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-rotation">MF_MT_VIDEO_ROTATION</a> attribute.
 
 
 
@@ -91,7 +91,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/7C0911A6-6
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

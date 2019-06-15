@@ -97,15 +97,15 @@ hr = pVideoControl->put_BackColor(static_cast<OLE_COLOR>(orange));
 
 
 
-<a href="https://msdn.microsoft.com/e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee">IMSVidCtl Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f67f1f9-e4e1-47fc-a92d-b6dfb65e7ec9">IMSVidCtl::get_BackColor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_backcolor">IMSVidCtl::get_BackColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390563(v=VS.85).aspx">IVMRWindowlessControl::SetBorderColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-setbordercolor">IVMRWindowlessControl::SetBorderColor</a>
  
 
  

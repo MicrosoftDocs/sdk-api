@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An extension to <a href="https://msdn.microsoft.com/e62785e4-994c-48cc-b5b9-7ec2b07c9d63">IProvideClassInfo2</a> that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior. 
+An extension to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a> that makes it faster and easier to retrieve type information from a component that may have multiple coclasses that determine its behavior. 
 
 
 
@@ -70,7 +70,7 @@ The <b>IProvideMultipleClassInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/084dfb9d-5545-4845-9959-1b054566adca">GetInfoOfIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iprovidemultipleclassinfo-getinfoofindex">GetInfoOfIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type information from the specified index.
@@ -79,7 +79,7 @@ Retrieves the type information from the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16b456fe-70d2-47cd-83b8-bc9b1f8a2aaa">GetMultiTypeInfoCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iprovidemultipleclassinfo-getmultitypeinfocount">GetMultiTypeInfoCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of type information blocks that this object must provide.

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains the user-defined event and optional data associated with the 
-<a href="https://msdn.microsoft.com/b42feda9-5fe7-4e54-aad9-28c61d2f29b6">DBT_USERDEFINED</a> device event.
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-userdefined">DBT_USERDEFINED</a> device event.
 
 
 ## -struct-fields
@@ -61,8 +61,8 @@ Contains the user-defined event and optional data associated with the
 ### -field dbud_dbh
 
 Information about the device affected by a 
-<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a> message as specified by the 
-<a href="https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f">DEV_BROADCAST_HDR</a> structure. Because 
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a> message as specified by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a> structure. Because 
 <b>_DEV_BROADCAST_USERDEFINED</b> is variable length, the <b>dbch_size</b> member of the <b>dbud_dbh</b> structure must be the size in bytes of the entire structure, including the variable length portion.
 
 
@@ -99,15 +99,15 @@ typedef struct tagWIDGET_WARE_DEV_BROADCAST_USERDEFINED
 
 
 
-<a href="https://msdn.microsoft.com/b42feda9-5fe7-4e54-aad9-28c61d2f29b6">DBT_USERDEFINED</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/dbt-userdefined">DBT_USERDEFINED</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fc81fcb-b9fe-4016-b639-a43845af2c5f">DEV_BROADCAST_HDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbt/ns-dbt-_dev_broadcast_hdr">DEV_BROADCAST_HDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
  
 
  

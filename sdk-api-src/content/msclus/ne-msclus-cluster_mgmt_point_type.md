@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Specifies the type of the management point for the cluster.
 
-<b>CLUSTER_MGMT_POINT_TYPE</b> is used as a possible value in the <a href="https://msdn.microsoft.com/672a1573-63e5-4321-a049-25bdafc1b5e0">CreateCluster</a> configuration structure.
+<b>CLUSTER_MGMT_POINT_TYPE</b> is used as a possible value in the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> configuration structure.
 
 
 ## -enum-fields
@@ -87,15 +87,15 @@ The management point type is cluster name object (CNO) only.
 
 
 
-<a href="https://msdn.microsoft.com/9c2bc2ca-41e5-4e07-a3a2-d762ea5565e1">CLUSTER_IP_ENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-_cluster_ip_entry">CLUSTER_IP_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/672a1573-63e5-4321-a049-25bdafc1b5e0">CreateCluster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
  
 
  

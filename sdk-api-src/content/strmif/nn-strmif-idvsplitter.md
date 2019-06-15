@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 
 
-Downgrades the frame rate on a digital video (DV) stream. The <a href="https://msdn.microsoft.com/099d1cc7-f0c5-4c50-a1d5-f2defde7e104">DV Splitter</a> filter exposes this interface.
+Downgrades the frame rate on a digital video (DV) stream. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-splitter-filter">DV Splitter</a> filter exposes this interface.
 
-Applications can use this interface to reduce the frame rate on a DV stream, before the stream reaches the <a href="https://msdn.microsoft.com/aa47010e-8510-475d-836a-cb63deeb3a7b">DV Video Decoder</a> filter. This can be helpful for processor-intensive tasks, such as real-time transcoding.
+Applications can use this interface to reduce the frame rate on a DV stream, before the stream reaches the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filter. This can be helpful for processor-intensive tasks, such as real-time transcoding.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVSplitter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDVSplitter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVSplitter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVSplitter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDVSplitter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/121b94cd-cc39-4ac2-9423-f75df9fcd491">DiscardAlternateVideoFrames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvsplitter-discardalternatevideoframes">DiscardAlternateVideoFrames</a>
 </td>
 <td align="left" width="63%">
 Discards half of the frames in the video stream.

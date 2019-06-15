@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates and returns a <a href="https://msdn.microsoft.com/6d24ffd1-987c-468f-a8cc-08992b7deb9d">GPMSearchCriteria</a> that represents the criteria to use for performing search operations when you use the Group Policy Management Console (GPMC) interfaces.
+Creates and returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> that represents the criteria to use for performing search operations when you use the Group Policy Management Console (GPMC) interfaces.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Creates and returns a <a href="https://msdn.microsoft.com/6d24ffd1-987c-468f-a8c
 ### -param ppIGPMSearchCriteria [out]
 
 Address of a pointer to the 
-<a href="https://msdn.microsoft.com/6d24ffd1-987c-468f-a8cc-08992b7deb9d">IGPMSearchCriteria</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a> interface.
 
 
 ## -returns
@@ -85,11 +85,11 @@ Returns a reference to a <b>GPMSearchCriteria</b> object.
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d24ffd1-987c-468f-a8cc-08992b7deb9d">IGPMSearchCriteria</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
  
 
  

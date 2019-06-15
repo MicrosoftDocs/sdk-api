@@ -106,15 +106,15 @@ The value is encoded according to the UDF specification, except the variable siz
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/c854a8db-730a-42a3-b50c-fb8fec271b57">IFileSystemImage::get_UDFRevision</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevision">IFileSystemImage::get_UDFRevision</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b0e73b-6bef-44e1-b0b7-9a4e0fcc1370">IFileSystemImage::put_UDFRevision</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_udfrevision">IFileSystemImage::put_UDFRevision</a>
  
 
  

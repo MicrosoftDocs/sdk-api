@@ -55,7 +55,7 @@ Represents a block of text after it has been fully analyzed and formatted.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout3</b> interface inherits from <a href="https://msdn.microsoft.com/034D795B-016A-401E-AD75-D5B0D1E87806">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextLayout3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>. <b>IDWriteTextLayout3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDWriteTextLayout3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/352ca3e3-7b08-823c-0881-0b051d4ce574">GetLineMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-getlinemetrics">GetLineMetrics</a>
 </td>
 <td align="left" width="63%">
 Retrieves properties of each line.
@@ -79,7 +79,7 @@ Retrieves properties of each line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b93a3ec-c8ea-2e64-45b5-51565d6de173">GetLineSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-getlinespacing">GetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Gets line spacing information.
@@ -88,7 +88,7 @@ Gets line spacing information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65b42ee1-5b67-1f6d-0e4b-ee60b192e7b7">InvalidateLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-invalidatelayout">InvalidateLayout</a>
 </td>
 <td align="left" width="63%">
 Invalidates the layout, forcing layout to remeasure before calling the   
@@ -100,7 +100,7 @@ Invalidates the layout, forcing layout to remeasure before calling the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1bfca257-189c-4d18-628c-aff8217d2775">SetLineSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout3-setlinespacing">SetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Set line spacing.
@@ -115,7 +115,7 @@ Set line spacing.
 
 
 
-<a href="https://msdn.microsoft.com/034D795B-016A-401E-AD75-D5B0D1E87806">IDWriteTextLayout2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
  
 
  

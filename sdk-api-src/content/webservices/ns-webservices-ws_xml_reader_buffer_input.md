@@ -60,7 +60,7 @@ Specifies that the source of the xml input is a buffer.
 
 ### -field input
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/1e7a708d-5dcf-44ec-b781-a34946cb2844">WS_XML_READER_INPUT</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_input">WS_XML_READER_INPUT</a>.
         
 
 

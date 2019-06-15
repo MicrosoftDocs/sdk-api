@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndStop</b> macro stops playing or recording the content of the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/e5ae20b3-7439-4314-8354-d06e83b29729">MCI_STOP</a> command.
+The <b>MCIWndStop</b> macro stops playing or recording the content of the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-stop">MCI_STOP</a> command.
 
 
 

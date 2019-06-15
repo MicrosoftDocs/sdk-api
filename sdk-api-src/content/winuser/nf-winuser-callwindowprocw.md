@@ -68,7 +68,7 @@ Passes message information to the specified window procedure.
 
 Type: <b>WNDPROC</b>
 
-The previous window procedure. If this value is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/ms633584(v=VS.85).aspx">GetWindowLong</a> function with the <i>nIndex</i> parameter set to <b>GWL_WNDPROC</b> or <b>DWL_DLGPROC</b>, it is actually either the address of a window or dialog box procedure, or a special internal value meaningful only to <b>CallWindowProc</b>. 
+The previous window procedure. If this value is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga">GetWindowLong</a> function with the <i>nIndex</i> parameter set to <b>GWL_WNDPROC</b> or <b>DWL_DLGPROC</b>, it is actually either the address of a window or dialog box procedure, or a special internal value meaningful only to <b>CallWindowProc</b>. 
 
 
 ### -param hWnd [in]
@@ -117,7 +117,7 @@ The return value specifies the result of the message processing and depends on t
 
 Use the <b>CallWindowProc</b> function for window subclassing. Usually, all windows with the same class share one window procedure. A subclass is a window or set of windows with the same class whose messages are intercepted and processed by another window procedure (or procedures) before being passed to the window procedure of the class. 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> function creates the subclass by changing the window procedure associated with a particular window, causing the system to call the new window procedure instead of the previous one. An application must pass any messages not processed by the new window procedure to the previous window procedure by calling <b>CallWindowProc</b>. This allows the application to create a chain of window procedures. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> function creates the subclass by changing the window procedure associated with a particular window, causing the system to call the new window procedure instead of the previous one. An application must pass any messages not processed by the new window procedure to the previous window procedure by calling <b>CallWindowProc</b>. This allows the application to create a chain of window procedures. 
 
 If <b>STRICT</b> is defined, the <i>lpPrevWndFunc</i> parameter has the data type <b>WNDPROC</b>. The <b>WNDPROC</b> type is declared as follows:
 
@@ -142,7 +142,7 @@ The <b>CallWindowProc</b> function handles Unicode-to-ANSI conversion. You canno
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633570(v=VS.85).aspx">Subclassing a Window</a>
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-window-procedures">Subclassing a Window</a>
 
 <div class="code"></div>
 
@@ -157,7 +157,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633570(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633584(v=VS.85).aspx">GetWindowLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga">GetWindowLong</a>
 
 
 
@@ -165,15 +165,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633570(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633588(v=VS.85).aspx">SetClassLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setclasslonga">SetClassLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632593(v=VS.85).aspx">Window Procedures</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-procedures">Window Procedures</a>
  
 
  

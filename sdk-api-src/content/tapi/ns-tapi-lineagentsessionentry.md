@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>LINEAGENTSESSIONENTRY</b> structure describes an ACD agent session. The 
-<a href="https://msdn.microsoft.com/b14df70c-1630-46e7-a675-feb5c71dcd14">LINEAGENTSESSIONLIST</a> structure can contain an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessionlist_tag">LINEAGENTSESSIONLIST</a> structure can contain an array of 
 <b>LINEAGENTSESSIONENTRY</b> structures.
 
 
@@ -85,15 +85,15 @@ Address identifier on which the agent will receive calls for this session.
 
 
 
-<a href="https://msdn.microsoft.com/6b24e8aa-fef4-44aa-8d2b-33b9be3d6ea7">About Call Center Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://msdn.microsoft.com/b14df70c-1630-46e7-a675-feb5c71dcd14">LINEAGENTSESSIONLIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentsessionlist_tag">LINEAGENTSESSIONLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/6473d5dd-e08e-47f8-acad-b60943525b83">lineGetAgentSessionList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessionlist">lineGetAgentSessionList</a>
  
 
  

@@ -142,15 +142,15 @@ The update was unsuccessful.
 
 
 
-<a href="https://msdn.microsoft.com/94f3069f-c282-4dea-84f9-48645f4e1593">MESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_message">MESSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0429f5ca-6574-48f5-85ab-70b4677ca539">Routing Protocol Interface Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/679c74fa-0049-4556-a942-e51160ceb796">Routing Protocol Interface Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
  
 
  

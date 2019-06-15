@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>GetSCPSession</b> method is used to obtain a pointer to the <a href="https://msdn.microsoft.com/d5f96629-26a1-4e83-a6a8-2d60c463f407">ISCPSecureQuery</a> interface that represents a session object.
+The <b>GetSCPSession</b> method is used to obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery</a> interface that represents a session object.
 
 
 
@@ -63,7 +63,7 @@ The <b>GetSCPSession</b> method is used to obtain a pointer to the <a href="http
 
 ### -param ppSCPSession [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/4efd8e5a-490b-435b-b34d-7099198891b1">ISCPSession</a> object.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession</a> object.
 
 
 ## -returns
@@ -89,7 +89,7 @@ This method is used to obtain a secure content provider (SCP) session. An SCP se
 
 
 
-<a href="https://msdn.microsoft.com/8123f4d2-dcd4-4ff8-a7cf-be8d5f2bf285">ISCPSecureAuthenticate2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate2">ISCPSecureAuthenticate2 Interface</a>
  
 
  

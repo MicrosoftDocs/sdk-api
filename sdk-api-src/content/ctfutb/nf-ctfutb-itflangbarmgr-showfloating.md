@@ -244,11 +244,11 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/60bd765f-0846-47f5-af1b-bc8e72720841">ITfLangBarMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/628e1d85-9614-4327-b89b-723f6eeb0718">TF_SFT_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
       </a>
  
 

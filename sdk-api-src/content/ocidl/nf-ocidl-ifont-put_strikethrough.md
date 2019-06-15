@@ -106,11 +106,11 @@ The font does not support a strikethrough state. This value is not an error cond
 
 
 
-<a href="https://msdn.microsoft.com/3a04d2b7-b2eb-4c6c-8863-1e88321fa382">IFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/e70ea85a-fc76-412c-a100-c834dc8f0208">IFont::get_Strikethrough</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_strikethrough">IFont::get_Strikethrough</a>
  
 
  

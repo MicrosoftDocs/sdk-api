@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to encrypt a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>. The structure includes the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the algorithm and any needed parameters for that algorithm. The parameters contained in its <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_OBJID_BLOB</a> are encoded.
+The <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure specifies an algorithm used to encrypt a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. The structure includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the algorithm and any needed parameters for that algorithm. The parameters contained in its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> are encoded.
 
 
 ## -struct-fields
@@ -1788,13 +1788,13 @@ Elliptic Curve Digital Signature Algorithm (ECDSA).
 
 ### -field Parameters
 
-A <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>  that provides encoded algorithm-specific parameters. In many cases, there are no parameters. This is indicated by setting the <b>cbData</b> member of the <b>Parameters</b> BLOB to zero. 
+A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>  that provides encoded algorithm-specific parameters. In many cases, there are no parameters. This is indicated by setting the <b>cbData</b> member of the <b>Parameters</b> BLOB to zero. 
 
 
 
 
 The following algorithms have the specified encoded parameters. For more information, see 
-<a href="https://msdn.microsoft.com/f969f2a5-fcbb-4711-8523-ba22952ae952">Constants for CryptEncodeObject and CryptDecodeObject</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
 <table>
 <tr>
@@ -1807,7 +1807,7 @@ The following algorithms have the specified encoded parameters. For more informa
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/4544986a-8168-4d56-be5f-59d318da7c30">CERT_DSS_PARAMETERS</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_dss_parameters">CERT_DSS_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1817,7 +1817,7 @@ A <a href="https://msdn.microsoft.com/4544986a-8168-4d56-be5f-59d318da7c30">CERT
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/58b1dc44-55ea-4c22-a115-dfeaee8a2297">CRYPT_RC2_CBC_PARAMETERS</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_rc2_cbc_parameters">CRYPT_RC2_CBC_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1827,7 +1827,7 @@ A <a href="https://msdn.microsoft.com/58b1dc44-55ea-4c22-a115-dfeaee8a2297">CRYP
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> that contains an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">initialization vector</a> in the form of an octet string.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1837,7 +1837,7 @@ A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYP
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> that contains an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">initialization vector</a> in the form of an octet string.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1847,7 +1847,7 @@ A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYP
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> that contains an <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">initialization vector</a> in the form of an octet string.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> in the form of an octet string.
 
 </td>
 </tr>
@@ -1857,7 +1857,7 @@ A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYP
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/3887e6c7-17df-42d3-82b1-a8f410321ba0">CRYPT_RSA_SSA_PSS_PARAMETERS</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_rsa_ssa_pss_parameters">CRYPT_RSA_SSA_PSS_PARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -1880,63 +1880,63 @@ A <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure.
 
 
 
-<a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_info">CERT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f650765e-7a72-42a3-baf7-29779fd04adc">CERT_SIGNED_CONTENT_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/87712541-2806-4709-a7cf-c9ba966c96fd">CMSG_ENVELOPED_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/05dfeda0-a8a1-4203-a68a-af92903ab215">CMSG_HASHED_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_hashed_encode_info">CMSG_HASHED_ENCODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG_SIGNER_ENCODE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/eae631d2-5e5f-4964-b079-9692831b34fc">CMSG_SIGNER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cmsg_signer_info">CMSG_SIGNER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/06a28de3-dd7c-4efe-9baa-20aac69d63f3">CRL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crl_info">CRL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/c683c515-3061-48e3-a64a-2798bd1245b0">CRYPT_ENCRYPT_MESSAGE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_encrypt_message_para">CRYPT_ENCRYPT_MESSAGE_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/60415136-3ac0-4fab-bdbf-faa16e8e43e1">CRYPT_HASH_MESSAGE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_hash_message_para">CRYPT_HASH_MESSAGE_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/63a5d1c2-88b3-45fa-94d3-2179cb8802c9">CRYPT_PRIVATE_KEY_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_private_key_info">CRYPT_PRIVATE_KEY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/1601d860-6054-4650-a033-ea088655b7e4">CRYPT_SIGN_MESSAGE_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_sign_message_para">CRYPT_SIGN_MESSAGE_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a>
  
 
  

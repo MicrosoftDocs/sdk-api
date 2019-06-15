@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AZ_PROP_CONSTANTS</b> enumeration defines constants used by Authorization Manager.  For information about Authorization Manager, see <a href="https://msdn.microsoft.com/f5981e6b-d679-48ff-9f88-1733dbecbdeb">Role-based Access Control</a>.
+The <b>AZ_PROP_CONSTANTS</b> enumeration defines constants used by Authorization Manager.  For information about Authorization Manager, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/role-based-access-control">Role-based Access Control</a>.
 
 
 ## -enum-fields

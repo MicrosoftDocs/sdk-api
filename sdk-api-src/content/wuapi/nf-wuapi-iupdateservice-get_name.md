@@ -72,7 +72,7 @@ The localized properties of an update are returned in the language that correspo
 
 
 
-<a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b-4cfc40f5889e">IUpdateService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
  
 
  

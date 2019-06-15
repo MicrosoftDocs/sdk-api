@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a>.
+Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Copies, moves, renames, or deletes a file system object. This function has been 
 
 Type: <b>LPSHFILEOPSTRUCT</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/590d87c2-0c75-44b9-a9b5-f7c37728512b">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation. This parameter must contain a valid value that is not <b>NULL</b>. You are responsible for validating the value. If you do not validate it, you will experience unexpected results.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation. This parameter must contain a valid value that is not <b>NULL</b>. You are responsible for validating the value. If you do not validate it, you will experience unexpected results.
 
 
 ## -returns
@@ -78,9 +78,9 @@ Returns zero if successful; otherwise nonzero. Applications normally should simp
 
                     
 
-It is good practice to examine the value of the <b>fAnyOperationsAborted</b> member of the <a href="https://msdn.microsoft.com/590d87c2-0c75-44b9-a9b5-f7c37728512b">SHFILEOPSTRUCT</a>. <b>SHFileOperation</b> can return 0 for success if the user cancels the operation. If you do not check <b>fAnyOperationsAborted</b> as well as the return value, you cannot know that the function accomplished the full task you asked of it and you might proceed under incorrect assumptions.
+It is good practice to examine the value of the <b>fAnyOperationsAborted</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a>. <b>SHFileOperation</b> can return 0 for success if the user cancels the operation. If you do not check <b>fAnyOperationsAborted</b> as well as the return value, you cannot know that the function accomplished the full task you asked of it and you might proceed under incorrect assumptions.
 
-Do not use <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> with the return values of this function.
+Do not use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> with the return values of this function.
 
 To examine the nonzero values for troubleshooting purposes, they largely map to those defined in Winerror.h. However, several of its possible return values are based on pre-Win32 error codes, which in some cases overlap the later Winerror.h values without matching their meaning. Those particular values are detailed here, and <i>for these specific values only</i> these meanings should be accepted over the Winerror.h codes. However, these values are provided with these warnings:
 
@@ -234,11 +234,11 @@ To examine the nonzero values for troubleshooting purposes, they largely map to 
 
 You should use fully qualified path names with this function. Using it with relative path names is not thread safe.
 
-With two exceptions, you cannot use <b>SHFileOperation</b> to move special folders from a local drive to a remote computer by specifying a network path. The exceptions are the <b>My Documents</b> (<a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL_PERSONAL</a>, <a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL_DOCUMENTS</a>) and <b>My Pictures</b> folders (<a href="https://msdn.microsoft.com/33d92271-2865-4ebd-b96c-bf293deb4310">CSIDL_MYPICTURES</a>).
+With two exceptions, you cannot use <b>SHFileOperation</b> to move special folders from a local drive to a remote computer by specifying a network path. The exceptions are the <b>My Documents</b> (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_PERSONAL</a>, <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_DOCUMENTS</a>) and <b>My Pictures</b> folders (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_MYPICTURES</a>).
 
-When used to delete a file, <b>SHFileOperation</b> permanently deletes the file unless you set the <b>FOF_ALLOWUNDO</b> flag in the <b>fFlags</b> member of the <a href="https://msdn.microsoft.com/590d87c2-0c75-44b9-a9b5-f7c37728512b">SHFILEOPSTRUCT</a> structure pointed to by <i>lpFileOp</i>. Setting that flag sends the file to the Recycle Bin. If you want to simply delete a file and guarantee that it is not placed in the Recycle Bin, use <a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a>.
+When used to delete a file, <b>SHFileOperation</b> permanently deletes the file unless you set the <b>FOF_ALLOWUNDO</b> flag in the <b>fFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_shfileopstructa">SHFILEOPSTRUCT</a> structure pointed to by <i>lpFileOp</i>. Setting that flag sends the file to the Recycle Bin. If you want to simply delete a file and guarantee that it is not placed in the Recycle Bin, use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
 
-If a copy callback handler is exposed and registered, <b>SHFileOperation</b> calls it unless you set a flag such as <b>FOF_NOCONFIRMATION</b> in the <b>fFlags</b> member of the structure pointed to by <i>lpFileOp</i>. See <a href="https://msdn.microsoft.com/50cba486-12b2-4ac7-8bf2-37b5784bb9fe">ICopyHook::CopyCallback</a> for details on implementing copy callback handlers.
+If a copy callback handler is exposed and registered, <b>SHFileOperation</b> calls it unless you set a flag such as <b>FOF_NOCONFIRMATION</b> in the <b>fFlags</b> member of the structure pointed to by <i>lpFileOp</i>. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)">ICopyHook::CopyCallback</a> for details on implementing copy callback handlers.
 
 File deletion is recursive unless you set the <b>FOF_NORECURSION</b> flag in <i>lpFileOp</i>.
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://msdn.microsoft.com/d1cbbbd7-1221-4706-b805-8422c5ebdadc">D3D11_RECT</a> structure that contains  the data from the <a href="https://msdn.microsoft.com/737B47A3-E609-48E4-A0B6-017206E500B1">CD3D11_RECT</a> instance.
+This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-rect">D3D11_RECT</a> structure that contains  the data from the <a href="https://msdn.microsoft.com/737B47A3-E609-48E4-A0B6-017206E500B1">CD3D11_RECT</a> instance.
 
 
 ## -parameters

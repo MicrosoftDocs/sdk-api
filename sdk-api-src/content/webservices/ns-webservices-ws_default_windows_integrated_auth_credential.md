@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Type for supplying a Windows Integrated Authentication credential based on the current Windows identity. If this credential subtype is used for a security binding, the current thread token on the thread that calls <a href="https://msdn.microsoft.com/a7226194-0974-4f3c-b92d-78a93e86eea5">WsOpenChannel</a> or <a href="https://msdn.microsoft.com/b8a0afc7-2004-419d-8ab2-ce197c7e396d">WsOpenServiceProxy</a> is used as the Windows identity when sending messages or making service calls.
+Type for supplying a Windows Integrated Authentication credential based on the current Windows identity. If this credential subtype is used for a security binding, the current thread token on the thread that calls <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenserviceproxy">WsOpenServiceProxy</a> is used as the Windows identity when sending messages or making service calls.
 
 
-<a href="https://msdn.microsoft.com/e18e0005-89bd-435e-9a12-6602c3c638b7">WsAcceptChannel</a> and <a href="https://msdn.microsoft.com/4e6ef553-7f0e-4ed7-bbdd-e85d4e0a095c">WsOpenServiceHost</a> do not support this credential type when called from an impersonating thread. 
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenservicehost">WsOpenServiceHost</a> do not support this credential type when called from an impersonating thread. 
 
 
-This type derives from the base type <a href="https://msdn.microsoft.com/en-us/library/Dd323506(v=VS.85).aspx">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>. For an instance of this type, the type selector field <b>credential.credentialType</b> must have the value <b>WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE</b>. 
+This type derives from the base type <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>. For an instance of this type, the type selector field <b>credential.credentialType</b> must have the value <b>WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE</b>. 
 
 
 
@@ -68,5 +68,5 @@ This type derives from the base type <a href="https://msdn.microsoft.com/en-us/l
 ### -field credential
 
 The base type from which this type and all other Windows Integrated Authentication credential types derive.
-                See <a href="https://msdn.microsoft.com/en-us/library/Dd323506(v=VS.85).aspx">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+                See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
 

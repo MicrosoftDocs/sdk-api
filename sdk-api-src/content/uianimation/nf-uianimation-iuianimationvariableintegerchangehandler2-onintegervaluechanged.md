@@ -71,14 +71,14 @@ The animation variable that has been updated.
 
 The new integer value of the animation variable.
 
-<div class="alert"><b>Note</b>  The rounding mode for an animation variable is specified using the <a href="https://msdn.microsoft.com/D2FCC17B-0584-4317-8BD7-25454E4A553C">SetRoundingMode</a> method.</div>
+<div class="alert"><b>Note</b>  The rounding mode for an animation variable is specified using the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-setroundingmode">SetRoundingMode</a> method.</div>
 <div> </div>
 
 ### -param previousValue [in]
 
 The previous integer value of the animation variable.
 
-<div class="alert"><b>Note</b>  The rounding mode for an animation variable is specified using the <a href="https://msdn.microsoft.com/D2FCC17B-0584-4317-8BD7-25454E4A553C">SetRoundingMode</a> method.</div>
+<div class="alert"><b>Note</b>  The rounding mode for an animation variable is specified using the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-setroundingmode">SetRoundingMode</a> method.</div>
 <div> </div>
 
 ### -param cDimension [in]
@@ -90,7 +90,7 @@ The dimension in which the integer value of the animation variable changed.
 
 
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/38f15d61-d415-4c7d-b454-5144fc7c9b1e">Windows Animation Error Codes</a> for a list of error codes.
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 
 
@@ -100,45 +100,45 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 This method receives updates as <b>INT32</b> values.  
-         To receive updates as <b>DOUBLE</b> values, use the <a href="https://msdn.microsoft.com/3C885518-8EAC-4123-83A5-5DEB27523DEF">OnValueChanged</a> method.
+         To receive updates as <b>DOUBLE</b> values, use the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariablechangehandler2-onvaluechanged">OnValueChanged</a> method.
 
-<b>OnIntegerValueChanged</b> events might occur less frequently than <a href="https://msdn.microsoft.com/3C885518-8EAC-4123-83A5-5DEB27523DEF">OnValueChanged</a> events because values such as 2.2, 2.3, and 2.4 would all be rounded to the same integer.
+<b>OnIntegerValueChanged</b> events might occur less frequently than <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariablechangehandler2-onvaluechanged">OnValueChanged</a> events because values such as 2.2, 2.3, and 2.4 would all be rounded to the same integer.
 
 By default, a call made in a callback method to any other animation method results in the call failing and returning <b>UI_E_ILLEGAL_REENTRANCY</b>. However, there are exceptions to this default. The following methods can be successfully called from <b>OnIntegerValueChanged</b>:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7925D462-C3FD-4BD2-806D-66FE822979EF">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getvalue">GetValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/FF39BE67-AED7-4B67-ABAF-D5D51619F0D3">GetFinalValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getfinalvalue">GetFinalValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1A2BF7DB-1C7B-43BF-A7F7-A4FB47250597">GetPreviousValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getpreviousvalue">GetPreviousValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/C878B86A-87AD-457A-802A-9A329B401B08">GetIntegerValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getintegervalue">GetIntegerValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/290EC1D8-007D-44A0-B3F8-384A9594FDC4">GetFinalIntegerValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getfinalintegervalue">GetFinalIntegerValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8B25BE8D-B12F-44B4-AFBF-3E6994BA0771">GetPreviousIntegerValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getpreviousintegervalue">GetPreviousIntegerValue</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7A9B4A84-94E4-4B6C-B2FF-0A0A70397D21">GetCurrentStoryboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-getcurrentstoryboard">GetCurrentStoryboard</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ED367DB7-91D6-4D2E-BDAB-27FA4340F091">GetVariableFromTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-getvariablefromtag">GetVariableFromTag</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/C7B11A34-E5FB-40D7-A655-29D28ECF4068">GetStoryboardFromTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-getstoryboardfromtag">GetStoryboardFromTag</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/A73D5003-FC28-4A79-B157-3D0D2E0DEB3D">GetTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-gettag">GetTag</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/29E6CA4D-527D-4C9D-9E28-2E2C67516126">GetTag</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-gettag">GetTag</a>
 </li>
 </ul>
 
@@ -149,23 +149,23 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://msdn.microsoft.com/A8D3B617-43D6-4541-AE98-1332DB5205CE">IUIAnimationVariableChangeHandler2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariablechangehandler2">IUIAnimationVariableChangeHandler2</a>
 
 
 
-<a href="https://msdn.microsoft.com/778BE01B-360C-431C-9515-DE43B4F2B77D">IUIAnimationVariableIntegerChangeHandler2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariableintegerchangehandler2">IUIAnimationVariableIntegerChangeHandler2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3C885518-8EAC-4123-83A5-5DEB27523DEF">OnValueChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariablechangehandler2-onvaluechanged">OnValueChanged</a>
 
 
 
-<a href="https://msdn.microsoft.com/4327AC4A-2C2C-4C1A-AFCD-D2BA8ECEBA12">SetVariableIntegerChangeHandler</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable2-setvariableintegerchangehandler">SetVariableIntegerChangeHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371966(v=VS.85).aspx">UI_ANIMATION_ROUNDING_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/ne-uianimation-__midl___midl_itf_uianimation_0000_0001_0001">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

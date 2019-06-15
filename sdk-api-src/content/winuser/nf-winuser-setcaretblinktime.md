@@ -75,7 +75,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -96,7 +96,7 @@ If you change the blink time, subsequently activated applications will use the m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646968(v=VS.85).aspx">Carets</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -104,7 +104,7 @@ If you change the blink time, subsequently activated applications will use the m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648401(v=VS.85).aspx">GetCaretBlinkTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcaretblinktime">GetCaretBlinkTime</a>
 
 
 

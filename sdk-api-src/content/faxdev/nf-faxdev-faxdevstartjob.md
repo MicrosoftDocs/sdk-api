@@ -82,14 +82,14 @@ Pointer to a variable that receives a fax handle associated with the fax job. Th
 
 Type: <b>HANDLE</b>
 
-Specifies a handle to an I/O completion port. For more information, see <a href="https://msdn.microsoft.com/213c48e8-bb21-43ed-9c00-2a5cf8ac25f0">I/O Completion Ports</a>.
+Specifies a handle to an I/O completion port. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>.
 
 
 ### -param CompletionKey [in]
 
 Type: <b>ULONG_PTR</b>
 
-Specifies a completion key value. The fax service provider should pass this opaque value to the <a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a> function.
+Specifies a completion key value. The fax service provider should pass this opaque value to the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function.
 
 
 ## -returns
@@ -100,7 +100,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -111,11 +111,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 The <b>FaxDevStartJob</b> function provides an opportunity for the fax service provider to perform call setup.
 
-The fax service calls <b>FaxDevStartJob</b> at the beginning of a new fax job and once for each fax operation. This is because each operation executes in a separate thread. It calls <b>FaxDevStartJob</b> just before the <a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a> function call for a fax send operation, and just before the <a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a> function call for a fax receive operation. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693484(v=VS.85).aspx">Operating in a Multithreaded Environment</a>.
+The fax service calls <b>FaxDevStartJob</b> at the beginning of a new fax job and once for each fax operation. This is because each operation executes in a separate thread. It calls <b>FaxDevStartJob</b> just before the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevsend">FaxDevSend</a> function call for a fax send operation, and just before the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a> function call for a fax receive operation. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-operating-in-a-multithreaded-environment">Operating in a Multithreaded Environment</a>.
 
-The FSP should create an I/O completion packet and call the <a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a> function when the FSP changes its status. One example of a status change is when the FSP finishes receiving or sending fax transmission pages. The completion packet must be a <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure. The FSP must allocate memory for the structure from the heap indicated by the <i>HeapHandle</i> parameter passed to the <a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a> function. The fax service provider must pass the size of the memory allocated to the <i>dwNumberOfBytesTransferred</i> parameter of the PostQueuedCompletionStatus method. The fax service frees any memory allocated for the completion packet structure.
+The FSP should create an I/O completion packet and call the <a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a> function when the FSP changes its status. One example of a status change is when the FSP finishes receiving or sending fax transmission pages. The completion packet must be a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a> structure. The FSP must allocate memory for the structure from the heap indicated by the <i>HeapHandle</i> parameter passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a> function. The fax service provider must pass the size of the memory allocated to the <i>dwNumberOfBytesTransferred</i> parameter of the PostQueuedCompletionStatus method. The fax service frees any memory allocated for the completion packet structure.
 
-The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> parameters to post completion packets for FSP status changes. This method of status notification optimizes performance because the fax service does not need to poll FSPs to obtain updated status information. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms692918(v=VS.85).aspx">Creating a Completion Packet</a>.
+The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> parameters to post completion packets for FSP status changes. This method of status notification optimizes performance because the fax service does not need to poll FSPs to obtain updated status information. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-a-completion-packet">Creating a Completion Packet</a>.
 
 
 
@@ -125,35 +125,35 @@ The FSP should use the <i>CompletionPortHandle</i> and <i>CompletionKey</i> para
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_dev_status">FAX_DEV_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684550(v=VS.85).aspx">FaxDevEndJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevendjob">FaxDevEndJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684545(v=VS.85).aspx">FaxDevInitialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevinitialize">FaxDevInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684544(v=VS.85).aspx">FaxDevSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevsend">FaxDevSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/69a9b1e5-2d40-42de-a14a-f7b6f29bf571">PostQueuedCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/postqueuedcompletionstatus">PostQueuedCompletionStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
  
 
  

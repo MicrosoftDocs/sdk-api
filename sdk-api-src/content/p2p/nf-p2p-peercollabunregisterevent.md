@@ -59,7 +59,7 @@ The <b>PeerCollabUnregisterEvent</b> function deregisters an application from no
 
 ### -param hPeerEvent [in]
 
-Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="https://msdn.microsoft.com/en-us/library/Aa371077(v=VS.85).aspx">PeerCollabRegisterEvent</a>.
+Handle to the peer collaboration event the peer application will deregister. This handle is obtained with a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabregisterevent">PeerCollabRegisterEvent</a>.
 
 
 ## -returns
@@ -106,7 +106,7 @@ One of the arguments is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

@@ -79,7 +79,7 @@ This member can be one of the following values.
 The file system is an exFAT file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://msdn.microsoft.com/fc33e967-fbc0-4f98-9b6c-2d6ac103a256">EXFAT_STATISTICS</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_exfat_statistics">EXFAT_STATISTICS</a> structure.
 
 <b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Vista with SP1.
 
@@ -95,7 +95,7 @@ If this value is set, this structure is followed by an
 The file system is a FAT file system.
 
 If this value is set, this structure is followed by a 
-         <a href="https://msdn.microsoft.com/98d293e8-e708-48f5-99b1-603f27e6ef16">FAT_STATISTICS</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a> structure.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ If this value is set, this structure is followed by a
 The file system is the NTFS file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://msdn.microsoft.com/D1A6995C-A4BA-4ECC-892A-196581FA41CE">NTFS_STATISTICS_EX</a> structure.
+         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a> structure.
 
 </td>
 </tr>
@@ -129,13 +129,13 @@ The size of this structure plus the size of the file system-specific structure t
 
 This value must be a multiple of 64. For example, if the size of 
        <b>FILESYSTEM_STATISTICS_EX</b> is 0x68, the size of 
-       <a href="https://msdn.microsoft.com/D1A6995C-A4BA-4ECC-892A-196581FA41CE">NTFS_STATISTICS_EX</a> is 0x1D8, and if there are 2 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a> is 0x1D8, and if there are 2 
        processors, the buffer allocated must be 0x480.
 
 sizeof(<b>FILESYSTEM_STATISTICS_EX</b>) = 
        0x68
 
-sizeof(<a href="https://msdn.microsoft.com/D1A6995C-A4BA-4ECC-892A-196581FA41CE">NTFS_STATISTICS_EX</a>) = 0x1D8
+sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>) = 0x1D8
 
 Total Size = 0x240
 
@@ -229,19 +229,19 @@ The number of read and write operations measured is the number of paging operati
 
 
 
-<a href="https://msdn.microsoft.com/fc33e967-fbc0-4f98-9b6c-2d6ac103a256">EXFAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_exfat_statistics">EXFAT_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/98d293e8-e708-48f5-99b1-603f27e6ef16">FAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fat_statistics">FAT_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d975d32c-1290-4397-8c05-6c515af4c450">FSCTL_FILESYSTEM_GET_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics">FSCTL_FILESYSTEM_GET_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/D1A6995C-A4BA-4ECC-892A-196581FA41CE">NTFS_STATISTICS_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
  
 
  

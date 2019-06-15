@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains data to be passed to another application by the <a href="https://msdn.microsoft.com/en-us/library/ms649011(v=VS.85).aspx">WM_COPYDATA</a> message. 
+Contains data to be passed to another application by the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a> message. 
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ The data to be passed to the receiving application. This member can be <b>NULL</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649011(v=VS.85).aspx">WM_COPYDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a>
  
 
  

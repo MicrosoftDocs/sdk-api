@@ -71,7 +71,7 @@ Output a stereo view (two buffers).
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/AA75A2FB-DEAC-44E9-93E9-4AC2D9F03B39">MF_ENABLE_3DVIDEO_OUTPUT</a> attribute.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-enable-3dvideo-output">MF_ENABLE_3DVIDEO_OUTPUT</a> attribute.
 
 
 
@@ -81,7 +81,7 @@ This enumeration is used with the <a href="https://msdn.microsoft.com/AA75A2FB-D
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

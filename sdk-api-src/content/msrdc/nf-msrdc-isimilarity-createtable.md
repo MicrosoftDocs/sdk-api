@@ -59,7 +59,7 @@ Creates or opens a similarity traits table and a similarity file ID table.
 
 ### -param path [in]
 
-A pointer to a null-terminated string that specifies the name of the file that will contain the tables. The similarity traits table and the similarity file ID table will be created in two alternate file streams of this file. For more information, see the <i>path</i> parameter of the <a href="https://msdn.microsoft.com/bc683c53-5491-4cc6-abe1-c82e69aaa7f4">ISimilarityFileIdTable::CreateTable</a> and <a href="https://msdn.microsoft.com/35fd9ea1-85bf-424c-b0e2-dcdfbb6940fb">ISimilarityTraitsTable::CreateTable</a> methods.
+A pointer to a null-terminated string that specifies the name of the file that will contain the tables. The similarity traits table and the similarity file ID table will be created in two alternate file streams of this file. For more information, see the <i>path</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtable">ISimilarityFileIdTable::CreateTable</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-createtable">ISimilarityTraitsTable::CreateTable</a> methods.
 
 
 ### -param truncate [in]
@@ -69,7 +69,7 @@ A pointer to a null-terminated string that specifies the name of the file that w
 
 ### -param securityDescriptor [in]
 
-A pointer to a  security descriptor to use when opening the file. If this parameter is <b>NULL</b>, the file is assigned a default security descriptor. The access control lists (ACL) in the file's default security descriptor are inherited from the file's parent directory. For more information, see the <i>lpSecurityAttributes</i> parameter of the <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+A pointer to a  security descriptor to use when opening the file. If this parameter is <b>NULL</b>, the file is assigned a default security descriptor. The access control lists (ACL) in the file's default security descriptor are inherited from the file's parent directory. For more information, see the <i>lpSecurityAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 
 ### -param recordSize [in]
@@ -79,7 +79,7 @@ The size, in bytes, of each file ID to be stored in the similarity file id table
 
 ### -param isNew [out]
 
-A pointer to  a variable that receives an  <a href="https://msdn.microsoft.com/f46dd0f0-22b0-41fb-a7c2-29d1b4514f7e">RdcCreatedTables</a> enumeration value that describes the state of the tables. If new tables are created, this variable receives <b>RDCTABLE_New</b>. If existing tables are used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
+A pointer to  a variable that receives an  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ne-msrdc-__midl___midl_itf_msrdc_0000_0000_0009">RdcCreatedTables</a> enumeration value that describes the state of the tables. If new tables are created, this variable receives <b>RDCTABLE_New</b>. If existing tables are used, this variable receives <b>RDCTABLE_Existing</b>. If this method fails, this variable receives <b>RDCTABLE_InvalidOrUnknown</b>.
 
 
 ## -returns
@@ -105,7 +105,7 @@ If one of the tables can be created or opened successfully, but the other one ca
 
 
 
-<a href="https://msdn.microsoft.com/fe0cd874-a40c-4d82-99bf-b84008a4995c">ISimilarity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
  
 
  

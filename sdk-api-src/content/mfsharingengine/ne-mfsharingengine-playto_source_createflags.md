@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags for the <a href="https://msdn.microsoft.com/3F7F8441-B0A2-407E-B127-C7DC66CA34DE">IPlayToSourceClassFactory::CreateInstance</a> method.
+Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytosourceclassfactory-createinstance">IPlayToSourceClassFactory::CreateInstance</a> method.
 
 
 ## -enum-fields
@@ -87,7 +87,7 @@ Supported in Windows 8.1 and later.
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the context in which an <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IUpdateException</a> object can be provided.
+Defines the context in which an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> object can be provided.
 
 
 ## -enum-fields
@@ -59,17 +59,17 @@ Defines the context in which an <a href="https://msdn.microsoft.com/9e7458be-b41
 
 ### -field uecGeneral
 
-The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IUpdateException</a> is not tied to any context.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> is not tied to any context.
 
 
 ### -field uecWindowsDriver
 
-The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IUpdateException</a> is related to one or more Windows drivers.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> is related to one or more Windows drivers.
 
 
 ### -field uecWindowsInstaller
 
-The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IUpdateException</a> is related to Windows Installer.
+The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateException</a> is related to Windows Installer.
 
 
 ### -field uecSearchIncomplete
@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IU
 
 
 
-<a href="https://msdn.microsoft.com/05924bb7-cc59-4df6-a2dd-4e6032a0eb8b">IUpdateException.Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateexception-get_context">IUpdateException.Context</a>
  
 
  

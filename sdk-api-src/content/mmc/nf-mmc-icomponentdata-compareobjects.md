@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>IComponentData::CompareObjects</b> method enables a snap-in to compare two data objects acquired through 
-<a href="https://msdn.microsoft.com/567d068e-5447-438c-9719-93227807263a">QueryDataObject</a>. Be aware that the data objects can be acquired from two different instances of 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">QueryDataObject</a>. Be aware that the data objects can be acquired from two different instances of 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.
 
 
 ## -parameters
@@ -62,12 +62,12 @@ The <b>IComponentData::CompareObjects</b> method enables a snap-in to compare tw
 ### -param lpDataObjectA [in]
 
 A pointer to the first data object exposing an 
-<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that is to be compared.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that is to be compared.
 
 
 ### -param lpDataObjectB [in]
 
-A pointer to the second data object exposing an <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface that is to be compared.
+A pointer to the second data object exposing an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface that is to be compared.
 
 
 ## -returns
@@ -84,15 +84,15 @@ This method can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/60900b8d-59cc-4c1d-86b7-b902ba89216d">IComponentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
  
 
  

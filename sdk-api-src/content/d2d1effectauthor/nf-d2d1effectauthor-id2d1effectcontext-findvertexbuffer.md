@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-This finds the given vertex buffer if it has already been created with <a href="https://msdn.microsoft.com/8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD">ID2D1EffectContext::CreateVertexBuffer</a> with the same GUID.
+This finds the given vertex buffer if it has already been created with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createvertexbuffer">ID2D1EffectContext::CreateVertexBuffer</a> with the same GUID.
 
 
 ## -parameters
@@ -67,9 +67,9 @@ The unique id that identifies the vertex buffer.
 
 ### -param buffer [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1DBCDF93-83C6-4B02-9E94-8024D7849DF7">ID2D1VertexBuffer</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1vertexbuffer">ID2D1VertexBuffer</a>**</b>
 
-The returned vertex buffer that can be used as a resource in a <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> effect.
+The returned vertex buffer that can be used as a resource in a <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> effect.
 
 
 ## -returns
@@ -107,7 +107,7 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 
 
 
-<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
  
 
  

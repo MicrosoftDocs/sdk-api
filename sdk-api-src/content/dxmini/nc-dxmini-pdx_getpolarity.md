@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of the current field being written by the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object. 
+The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of the current field being written by the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object. 
 
 
 ## -parameters
@@ -74,12 +74,12 @@ The<i> DxGetPolarity</i> callback function returns the polarity (even or odd) of
 
 #### - GetPolarityInInfo
 
-Points to a <a href="https://msdn.microsoft.com/ee01c693-a27d-412b-ab1a-5312e41f2365">DDGETPOLARITYININFO</a> structure that contains the VPE object from which to get the polarity information.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpolarityininfo">DDGETPOLARITYININFO</a> structure that contains the VPE object from which to get the polarity information.
 
 
 #### - GetPolarityOutInfo
 
-Points to a <a href="https://msdn.microsoft.com/191d6c79-6f73-44f9-8016-912e4bb70453">DDGETPOLARITYOUTINFO</a> structure that contains the polarity information for the specified VPE object.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpolarityoutinfo">DDGETPOLARITYOUTINFO</a> structure that contains the polarity information for the specified VPE object.
 
 
 #### - HwDeviceExtension
@@ -100,7 +100,7 @@ Points to the miniport driver's device extension.
 
 
 
-The <a href="https://msdn.microsoft.com/ee01c693-a27d-412b-ab1a-5312e41f2365">DDGETPOLARITYININFO</a> and <a href="https://msdn.microsoft.com/191d6c79-6f73-44f9-8016-912e4bb70453">DDGETPOLARITYOUTINFO</a> structures contain VPE object information.
+The <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpolarityininfo">DDGETPOLARITYININFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpolarityoutinfo">DDGETPOLARITYOUTINFO</a> structures contain VPE object information.
 
 
 
@@ -110,11 +110,11 @@ The <a href="https://msdn.microsoft.com/ee01c693-a27d-412b-ab1a-5312e41f2365">DD
 
 
 
-<a href="https://msdn.microsoft.com/ee01c693-a27d-412b-ab1a-5312e41f2365">DDGETPOLARITYININFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpolarityininfo">DDGETPOLARITYININFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/191d6c79-6f73-44f9-8016-912e4bb70453">DDGETPOLARITYOUTINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-_ddgetpolarityoutinfo">DDGETPOLARITYOUTINFO</a>
  
 
  

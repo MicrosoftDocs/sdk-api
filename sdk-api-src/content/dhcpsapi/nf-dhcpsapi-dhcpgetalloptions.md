@@ -87,9 +87,9 @@ This flag should be set if vendor-specific options are desired.
 
 ### -param OptionStruct [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/b02e3582-c99b-4d5a-aaae-c2fefd7dfaf9">DHCP_ALL_OPTIONS</a> structure containing every option defined for a vendor or default class. If there are no options available on the server, this value will be null.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_all_options">DHCP_ALL_OPTIONS</a> structure containing every option defined for a vendor or default class. If there are no options available on the server, this value will be null.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://msdn.microsoft.com/bf22a0a6-2ecd-4460-89c4-3f870c6275dc">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
@@ -98,7 +98,7 @@ Pointer to a <a href="https://msdn.microsoft.com/b02e3582-c99b-4d5a-aaae-c2fefd7
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -136,7 +136,7 @@ There will be one option element in the array specified by <i>OptionStruct</i> f
 
 
 
-<a href="https://msdn.microsoft.com/c462feba-dd9b-4815-b4d4-db1cdec3a354">DhcpGetAllOptionValues</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetalloptionvalues">DhcpGetAllOptionValues</a>
  
 
  

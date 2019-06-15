@@ -69,7 +69,7 @@ The <b>IESFileExpiryDateEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24a1d5aa-fee5-4436-a3ee-6a2108ff0f32">DoesExpireAfterFirstUse</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesfileexpirydateevent-doesexpireafterfirstuse">DoesExpireAfterFirstUse</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the license expires after its first use.
@@ -79,7 +79,7 @@ Indicates whether the license expires after its first use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1d89c613-002b-4c90-832f-32bc268752a4">GetExpiryDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesfileexpirydateevent-getexpirydate">GetExpiryDate</a>
 </td>
 <td align="left" width="63%">
 Extracts the expiry date from the event.
@@ -89,7 +89,7 @@ Extracts the expiry date from the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/903ecf69-8da1-47a4-acce-50d37565e480">GetFinalExpiryDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesfileexpirydateevent-getfinalexpirydate">GetFinalExpiryDate</a>
 </td>
 <td align="left" width="63%">
 Gets the final expiry date if the license includes earlier expiry dates, which indicates license renewals.
@@ -99,7 +99,7 @@ Gets the final expiry date if the license includes earlier expiry dates, which i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e823f7f-91cc-4e59-bbb5-1a33ef094999">GetMaxRenewalCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesfileexpirydateevent-getmaxrenewalcount">GetMaxRenewalCount</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum number of allowable renewals from the event.
@@ -109,7 +109,7 @@ Gets the maximum number of allowable renewals from the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1271df60-7830-4e10-9af8-caf59aff56f8">GetTunerId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesfileexpirydateevent-gettunerid">GetTunerId</a>
 </td>
 <td align="left" width="63%">
 Gets an identifier for the tuner that generated or received the new license.
@@ -119,7 +119,7 @@ Gets an identifier for the tuner that generated or received the new license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/129c6df8-48d2-4e07-9e4e-82f13c4a3788">IsEntitlementTokenPresent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesfileexpirydateevent-isentitlementtokenpresent">IsEntitlementTokenPresent</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the event includes an entitlement token.

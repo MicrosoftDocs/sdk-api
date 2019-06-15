@@ -76,11 +76,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/f64edf7f-379f-41e2-9a86-ba9aeee0f2d7">DRT_BOOTSTRAP_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider_tag">DRT_BOOTSTRAP_PROVIDER</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4a92dd3-d66a-4c27-9180-f9c148735a4a">DrtCreateDnsBootstrapResolver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatednsbootstrapresolver">DrtCreateDnsBootstrapResolver</a>
  
 
  

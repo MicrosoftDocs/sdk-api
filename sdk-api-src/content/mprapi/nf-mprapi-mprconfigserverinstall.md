@@ -143,7 +143,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/5464c2f7-6bb8-4838-939d-d58508715505">Windows 2000 Registry Layout</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-registry-layout">Windows 2000 Registry Layout</a>
  
 
  

@@ -54,7 +54,7 @@ Provides access to the package identity.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageId</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAppxManifestPackageId</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestPackageId</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestPackageId</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestPackageId</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8AC811D0-D5C5-47DF-92FD-C66BC018B668">ComparePublisher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-comparepublisher">ComparePublisher</a>
 </td>
 <td align="left" width="63%">
 Compares the specified publisher with the publisher defined in the manifest.
@@ -78,7 +78,7 @@ Compares the specified publisher with the publisher defined in the manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0A332C96-9535-4BD3-B4D2-39559E430870">GetArchitecture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getarchitecture">GetArchitecture</a>
 </td>
 <td align="left" width="63%">
 Gets the processor architecture as defined in the manifest.
@@ -87,7 +87,7 @@ Gets the processor architecture as defined in the manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F59FDC61-BA78-4204-AAD3-C34B7F1EB37B">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the package as defined in the manifest.
@@ -96,7 +96,7 @@ Gets the name of the package as defined in the manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A4505020-61CB-4893-AB3B-6EF0E55FD225">GetPackageFamilyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getpackagefamilyname">GetPackageFamilyName</a>
 </td>
 <td align="left" width="63%">
 Gets the package family name.
@@ -105,7 +105,7 @@ Gets the package family name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/514D2E04-5CA5-4F45-A6D8-96866588EECF">GetPackageFullName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getpackagefullname">GetPackageFullName</a>
 </td>
 <td align="left" width="63%">
 Gets the package full name.
@@ -114,7 +114,7 @@ Gets the package full name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3C3B937D-5A70-480C-98F1-783D05D1810C">GetPublisher</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getpublisher">GetPublisher</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the package publisher as defined in the manifest.
@@ -123,7 +123,7 @@ Gets the name of the package publisher as defined in the manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D17BD71A-6418-4229-8829-2C8EB9393285">GetResourceId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getresourceid">GetResourceId</a>
 </td>
 <td align="left" width="63%">
 Gets the package resource identifier as defined in the manifest.
@@ -132,7 +132,7 @@ Gets the package resource identifier as defined in the manifest.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85684359-9244-4130-BF0F-56DDB6427345">GetVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestpackageid-getversion">GetVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the version of the package as defined in the manifest.
@@ -146,14 +146,14 @@ Gets the version of the package as defined in the manifest.
 
 
 
-Package identity information is specified using the <a href="https://msdn.microsoft.com/45524773-3b61-44ac-a417-cfaac92af0a0">Identity</a> element in the package manifest.
+Package identity information is specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity">Identity</a> element in the package manifest.
 
-This object can be retrieved using the <a href="https://msdn.microsoft.com/67E1B1A4-E934-4CCF-AF94-A7923B192A21">IAppxManifestReader::GetPackageId</a> method.
+This object can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getpackageid">IAppxManifestReader::GetPackageId</a> method.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/A29986F9-C620-48CD-87F8-525DFA076AAB">Quickstart: Read app package manifest info</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
@@ -164,11 +164,11 @@ For an example, see <a href="https://msdn.microsoft.com/A29986F9-C620-48CD-87F8-
 
 
 
-<a href="https://msdn.microsoft.com/3DA45F2F-7088-4A9B-968C-91E402CAA412">IAppxManifestReader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
 
 
 
-<a href="https://msdn.microsoft.com/67E1B1A4-E934-4CCF-AF94-A7923B192A21">IAppxManifestReader::GetPackageId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getpackageid">IAppxManifestReader::GetPackageId</a>
  
 
  

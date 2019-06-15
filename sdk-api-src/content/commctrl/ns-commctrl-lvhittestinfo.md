@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://msdn.microsoft.com/en-us/library/Bb761099(v=VS.85).aspx">LVM_HITTEST</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb761229(v=VS.85).aspx">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
+Contains information about a hit test. This structure has been extended to accommodate subitem hit-testing. It is used in association with the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-hittest">LVM_HITTEST</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-subitemhittest">LVM_SUBITEMHITTEST</a> messages and their related macros. This structure supersedes the 
 			<b>LVHITTESTINFO</b> structure. 
 
 
@@ -60,14 +60,14 @@ Contains information about a hit test. This structure has been extended to accom
 
 ### -field pt
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
 
 The position to hit test, in client coordinates. 
 
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The variable that receives information about the results of a hit test. This member can be one or more of the following values:
 
@@ -266,7 +266,7 @@ Receives the index of the matching item. Or if hit-testing a subitem, this value
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Receives the index of the matching subitem. When hit-testing an item, this member will be zero. 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.70</a>. Receives the index of the matching subitem. When hit-testing an item, this member will be zero. 
 
 
 ### -field iGroup
@@ -274,5 +274,5 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Windows Vista</a>. Group index of the item hit (read only). Valid only for owner data. If the point is within an item that is displayed in multiple groups then <b>iGroup</b> will specify the group index of the item.
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Windows Vista</a>. Group index of the item hit (read only). Valid only for owner data. If the point is within an item that is displayed in multiple groups then <b>iGroup</b> will specify the group index of the item.
 

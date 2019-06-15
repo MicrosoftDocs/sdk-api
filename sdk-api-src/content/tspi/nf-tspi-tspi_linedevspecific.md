@@ -93,7 +93,7 @@ The size in bytes of the parameter block area. If the <i>lpParams</i> parameter 
 
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESSID, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
@@ -107,10 +107,10 @@ LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESSID, LINEE
 Additional return values are device specific.
 
 This operation provides a generic parameter profile. The interpretation of the parameter structure is device specific. TAPI always specifies the <i>hdLine</i> parameter. Whether <i>dwAddressID</i> and/or <i>hdCall</i> are expected to be valid is device specific. If specified, they must belong to <i>hdLine</i>. Indications and replies sent back to the application that are device specific use the 
-<a href="https://msdn.microsoft.com/9ef6d6b1-dea8-4dbe-b02f-f18685caf5f0">LINE_DEVSPECIFIC</a> message.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)">LINE_DEVSPECIFIC</a> message.
 
 This function is called in direct response to an application calling the TAPI function 
-<a href="https://msdn.microsoft.com/28f43b21-5118-465f-95b3-036aab16a049">lineDevSpecific</a>. TAPI translates the <i>hLine</i> and <i>hdCall</i> parameters used at the TAPI level to the corresponding <i>hdLine</i> and <i>hdCall</i> parameters used at the TSPI level. The <i>lpParams</i> buffer is passed unmodified.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedevspecific">lineDevSpecific</a>. TAPI translates the <i>hLine</i> and <i>hdCall</i> parameters used at the TAPI level to the corresponding <i>hdLine</i> and <i>hdCall</i> parameters used at the TSPI level. The <i>lpParams</i> buffer is passed unmodified.
 
 <div class="alert"><b>Note</b>  The <i>lpParams</i> data structure should not contain any pointers because they would not be properly translated (thunked) when running a 16-bit application in a 32-bit version of TAPI and vice versa.</div>
 <div> </div>
@@ -128,15 +128,15 @@ This operation is part of the Extended Telephony services. It only provides acce
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ef6d6b1-dea8-4dbe-b02f-f18685caf5f0">LINE_DEVSPECIFIC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725225(v=vs.85)">LINE_DEVSPECIFIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd7cc421-3efb-4fe1-858c-4d894f4d9377">TSPI_lineNegotiateExtVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>
  
 
  

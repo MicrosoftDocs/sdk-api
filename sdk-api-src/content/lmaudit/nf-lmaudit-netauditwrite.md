@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The
 				<b>NetAuditWrite</b> function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use 
-<a href="https://msdn.microsoft.com/5ec95938-ac5d-4f63-9080-2de71454eb17">event logging</a>.
+<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging">event logging</a>.
 
 
 ## -parameters

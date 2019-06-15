@@ -74,7 +74,7 @@ Any optional constraints to be put on the profile.
 
 ### -param ppProfile [out]
 
-On success, returns a double pointer to the <a href="https://msdn.microsoft.com/en-us/library/Mt845815(v=VS.85).aspx">IMFSensorProfile</a> containing the sensor profile.
+On success, returns a double pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a> containing the sensor profile.
 
 
 ## -returns

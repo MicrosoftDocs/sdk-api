@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Binds the item being processed to the appropriate <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
+Binds the item being processed to the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
         
 
 
@@ -62,7 +62,7 @@ Binds the item being processed to the appropriate <a href="https://msdn.microsof
 
 Type: <b>IFilter**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> that can return metadata about the item being processed.
+Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> that can return metadata about the item being processed.
                 
 
 
@@ -81,10 +81,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> to enumerate the properties of the item associated with the specified URL, based on the protocol's information about that URL.
+This method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> to enumerate the properties of the item associated with the specified URL, based on the protocol's information about that URL.
             
 
-If the URL's content is also accessible from the <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream</a> returned by <a href="https://msdn.microsoft.com/en-us/library/Bb231415(v=VS.85).aspx">IUrlAccessor::BindToStream</a>, then a separate <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a>is invoked on the IStream to retrieve additional properties.
+If the URL's content is also accessible from the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> returned by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>, then a separate <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>is invoked on the IStream to retrieve additional properties.
             
 
 

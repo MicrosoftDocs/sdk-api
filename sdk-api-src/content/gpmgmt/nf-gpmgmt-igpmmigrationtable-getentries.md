@@ -71,10 +71,10 @@ The list of entries in the migration table.
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb">GPMMapEntryCollection</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmapentrycollection">GPMMapEntryCollection</a> object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://msdn.microsoft.com/a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb">GPMMapEntryCollection</a> object.
+Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmapentrycollection">GPMMapEntryCollection</a> object.
 
 
 
@@ -84,7 +84,7 @@ Returns a reference to a <a href="https://msdn.microsoft.com/a017ff4b-ab3c-4da9-
 
 
 
-<a href="https://msdn.microsoft.com/c3639f07-7c8c-4440-ade4-b58abd2586d6">IGPMMigrationTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
  
 
  

@@ -59,14 +59,14 @@ Requests the text host to scroll the content of the specified client area.
 
 ### -param dx [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Amount of horizontal scrolling. 
 
 
 ### -param dy [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Amount of vertical scrolling. 
 
@@ -87,7 +87,7 @@ The coordinates for the clip rectangle.
 
 ### -param hrgnUpdate [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRGN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRGN</a></b>
 
 Handle to the update region. 
 
@@ -101,7 +101,7 @@ The coordinates for the update rectangle.
 
 ### -param fuScroll [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Scrolling flags. This parameter can be one of the following values. 
 
@@ -117,7 +117,7 @@ Scrolling flags. This parameter can be one of the following values.
 </td>
 <td width="60%">
 Erases the newly invalidated region by sending a 
-								<a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message to the window when specified with the SW_INVALIDATE flag.
+								<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message to the window when specified with the SW_INVALIDATE flag.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Scrolls all child windows that intersect the rectangle pointed to by the
 								<i>lprcScroll</i> parameter. The child windows are scrolled by the number of pixels specified by the 
 								<i>dx</i> and 
 								<i>dy</i> parameters. The system sends a 
-								<a href="https://msdn.microsoft.com/en-us/library/ms632631(v=VS.85).aspx">WM_MOVE</a> message to all child windows that intersect the 
+								<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-move">WM_MOVE</a> message to all child windows that intersect the 
 								<i>lprcScroll</i> rectangle, even if they do not move.
 
 </td>
@@ -154,7 +154,7 @@ Scrolls all child windows that intersect the rectangle pointed to by the
 </td>
 <td width="60%">
 Scrolls using smooth scrolling. Use the 
-								<a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> portion of the 
+								<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)">HIWORD</a> portion of the 
 								<i>fuScroll</i> parameter to indicate how much time the smooth-scrolling operation should take.
 
 </td>
@@ -190,7 +190,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -202,7 +202,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

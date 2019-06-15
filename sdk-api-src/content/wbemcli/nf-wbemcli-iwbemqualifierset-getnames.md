@@ -56,7 +56,7 @@ The
 <b>IWbemQualifierSet::GetNames</b> method retrieves the names of all of the qualifiers available from the current object or property. Alternately, depending on the filter value of <i>IFlags</i>, this method retrieves the names of certain qualifiers.
 
 You can access these qualifiers by name, using 
-<a href="https://msdn.microsoft.com/f4663cd1-0dc9-4021-918e-d5eda1648429">IWbemQualifierSet::Get</a> for each name. It is not an error for any given object to have zero qualifiers, so the number of strings in <i>pstrNames</i> on return can be 0, even though <b>WBEM_S_NO_ERROR</b> returns.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-get">IWbemQualifierSet::Get</a> for each name. It is not an error for any given object to have zero qualifiers, so the number of strings in <i>pstrNames</i> on return can be 0, even though <b>WBEM_S_NO_ERROR</b> returns.
 
 
 ## -parameters
@@ -108,7 +108,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 For an example of using <b>SAFEARRAY</b>s of <b>BSTR</b>s, see 
-<a href="https://msdn.microsoft.com/6cc26b26-adc9-4a8a-b51e-9db94eb4295f">Retrieving Part of a WMI Instance</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>.
 
 
 
@@ -118,15 +118,15 @@ For an example of using <b>SAFEARRAY</b>s of <b>BSTR</b>s, see
 
 
 
-<a href="https://msdn.microsoft.com/8b36bd32-4931-4641-a019-cbaa3547edd0">IWbemQualifierSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemqualifierset">IWbemQualifierSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/57fa60d1-54d2-412d-b39b-c35dfd709d0c">IWbemQualifierSet::BeginEnumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-beginenumeration">IWbemQualifierSet::BeginEnumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4663cd1-0dc9-4021-918e-d5eda1648429">IWbemQualifierSet::Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-get">IWbemQualifierSet::Get</a>
  
 
  

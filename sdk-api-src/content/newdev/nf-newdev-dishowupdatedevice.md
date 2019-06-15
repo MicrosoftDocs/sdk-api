@@ -64,12 +64,12 @@ A handle to the top-level window that <b>DiShowUpdateDevice</b> uses to display 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard. 
+A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to show the Hardware Update wizard. 
 
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device for which to show the Hardware Update wizard.
 
 
 ### -param Flags [in]
@@ -100,7 +100,7 @@ A pointer to a value of type BOOL that <b>DiShowUpdateDevice</b> sets to indicat
 </dl>
 </td>
 <td width="60%">
-The caller does not have Administrator privileges. By default, Windows requires that the calling process have Administrator privileges to update a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff544817">driver package</a>. 
+The caller does not have Administrator privileges. By default, Windows requires that the calling process have Administrator privileges to update a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a>. 
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The user canceled the Hardware Update wizard.
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://msdn.microsoft.com/library/Ff541255(v=VS.85).aspx">Installing Devices on 64-Bit Systems</a>. 
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>. 
 
 </td>
 </tr>
@@ -161,9 +161,9 @@ The application must perform required operations, other than calling <b>DiShowUp
 
 </li>
 </ul>
-To roll back a driver for a device instead of invoking the Hardware Update wizard, call <a href="https://msdn.microsoft.com/12296991-cbf9-421e-a16e-ca8a22fc29a1">DiRollbackDriver</a>.
+To roll back a driver for a device instead of invoking the Hardware Update wizard, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-dirollbackdriver">DiRollbackDriver</a>.
 
-To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a> or <a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a>. 
+To install a new driver for a device instead of invoking the Hardware Update wizard, call <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>. 
 
 
 
@@ -173,15 +173,15 @@ To install a new driver for a device instead of invoking the Hardware Update wiz
 
 
 
-<a href="https://msdn.microsoft.com/7015d05f-235e-42d1-b4e1-9919bbebf185">DiInstallDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diinstalldrivera">DiInstallDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/12296991-cbf9-421e-a16e-ca8a22fc29a1">DiRollbackDriver</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-dirollbackdriver">DiRollbackDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd5022df-5b65-4ed4-ac54-68149df2c851">UpdateDriverForPlugAndPlayDevices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-updatedriverforplugandplaydevicesa">UpdateDriverForPlugAndPlayDevices</a>
  
 
  

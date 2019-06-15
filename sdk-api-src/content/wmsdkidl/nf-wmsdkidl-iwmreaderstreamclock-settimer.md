@@ -65,7 +65,7 @@ The <b>SetTimer</b> method sets a timer on the clock.
 
 ### -param cnsWhen [in]
 
-Specifies the time at which the reader notifies the <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">OnStatus</a> callback, in 100-nanosecond units.
+Specifies the time at which the reader notifies the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">OnStatus</a> callback, in 100-nanosecond units.
 
 
 ### -param pvParam [in]
@@ -132,12 +132,12 @@ Not enough available memory.
 
 
 
-The application must execute <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">IWMReader::Open</a>, and successfully receive a WMT_OPENED status notification to its <a href="https://msdn.microsoft.com/en-us/library/Dd798545(v=VS.85).aspx">IWMStatusCallback::OnStatus</a> method, before it creates any timers.
+The application must execute <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, and successfully receive a WMT_OPENED status notification to its <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method, before it creates any timers.
 
 All timers are automatically terminated when the application stops the reader. When a timer expires, the following happens: 
 
 <ul>
-<li>The <b>OnStatus</b> method is called with WMT_TIMER, as the <a href="https://msdn.microsoft.com/en-us/library/Dd757854(v=VS.85).aspx">WMT_STATUS</a> enumeration type</li>
+<li>The <b>OnStatus</b> method is called with WMT_TIMER, as the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a> enumeration type</li>
 <li>The parameter <i>hr</i> is set to S_OK</li>
 <li><i>pValue</i> is set to the TimerID</li>
 <li><i>pvContext</i> is set to the <i>pvParam</i> pointer that is specified in this method</li>
@@ -150,11 +150,11 @@ All timers are automatically terminated when the application stops the reader. W
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743566(v=VS.85).aspx">IWMReaderStreamClock Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderstreamclock">IWMReaderStreamClock Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743568(v=VS.85).aspx">IWMReaderStreamClock::GetTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderstreamclock-gettime">IWMReaderStreamClock::GetTime</a>
  
 
  

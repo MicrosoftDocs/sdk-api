@@ -64,8 +64,8 @@ Indicates the basic characteristics of the channel, such as whether it is
 Input channels support Receive operations.  They are used on the sender side.
                 
 
-The <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_UDP_CHANNEL_BINDING</a> supports this channel type
-                    when used with <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> supports this channel type
+                    when used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
                 
 
 
@@ -83,7 +83,7 @@ This channel type is not currently supported by any channel bindings.
 Sessionful channels provide channel-level correlation of all messages sent or received.
                 
 
-This is a flag used to build <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE_INPUT_SESSION</a>,
+This is a flag used to build <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE_INPUT_SESSION</a>,
                     <b>WS_CHANNEL_TYPE_OUTPUT_SESSION</b>, and <b>WS_CHANNEL_TYPE_DUPLEX_SESSION</b>,
                     but cannot be used alone. 
                 
@@ -112,8 +112,8 @@ This channel type is not currently supported by any channel bindings.
 An input/output channel.
                 
 
-The <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_UDP_CHANNEL_BINDING</a> supports this channel type
-                    when used with <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_UDP_CHANNEL_BINDING</a> supports this channel type
+                    when used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>.
                 
 
 
@@ -122,8 +122,8 @@ The <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS
 An input/output channel that supports a session.
                 
 
-The <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_TCP_CHANNEL_BINDING</a> supports this channel type when
-                    used with <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a> or <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> supports this channel type when
+                    used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
                 
 
 
@@ -133,8 +133,8 @@ Request channels support Send followed by Receive.  They are used on the client
                     side for channels that support request-reply operations.
                 
 
-The <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a> supports this channel type when
-                    used with <a href="https://msdn.microsoft.com/4bef6f97-06f1-442a-8b84-869776f0541d">WsCreateChannel</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> supports this channel type when
+                    used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannel">WsCreateChannel</a>.
                 
 
 Note that request channels provide built-in correlation of request replies.
@@ -149,8 +149,8 @@ Reply channels support Receive followed by Send.  They are used on the service
                     side for channels that support request-reply operations (for example, HTTP).
                 
 
-The <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a> supports this channel type when
-                    used with <a href="https://msdn.microsoft.com/d9a80506-d891-4cfd-b120-0d3fce946cf5">WsCreateChannelForListener</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> supports this channel type when
+                    used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>.
                 
 
 Note that reply channels provide built-in correlation of request replies.

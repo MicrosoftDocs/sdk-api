@@ -64,14 +64,14 @@ The <b>TraceQueryInformation</b> function
 ### -param SessionHandle [in]
 
 A handle of the event tracing session that wants to capture the specified information. The 
-      <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function returns this handle. 
+      <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle. 
 
 
 ### -param InformationClass [in]
 
 The information class to query. The information that the class captures is included in the extended data 
       section of the event. For a list of information classes that you can query, see the 
-      <a href="https://msdn.microsoft.com/451f1d28-bee1-4a41-a63b-693c2a831db7">TRACE_QUERY_INFO_CLASS</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a> enumeration.
 
 
 ### -param TraceInformation [out]
@@ -79,7 +79,7 @@ The information class to query. The information that the class captures is inclu
 A pointer to a buffer to receive the returned information class specific data. The information class 
       determines the contents of this parameter. For example, for the <b>TraceStackTracingInfo</b> 
       information class, this parameter is an array of 
-      <a href="https://msdn.microsoft.com/cbd77002-466b-40e6-85a5-cd872aef7d51">CLASSIC_EVENT_ID</a> structures. The structures specify 
+      <a href="https://docs.microsoft.com/windows/desktop/ETW/classic-event-id">CLASSIC_EVENT_ID</a> structures. The structures specify 
       the event GUIDs for which stack tracing is enabled. The array is limited to 256 elements.
 
 
@@ -150,7 +150,7 @@ The request is not supported.
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string 
+Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string 
         for the returned error.
 
 </td>
@@ -167,7 +167,7 @@ Use <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">Fo
 
 The <b>TraceQueryInformation</b> function queries 
      event tracing session settings for the specified information class. Call this function after calling 
-     <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>.
 
 
 
@@ -177,11 +177,11 @@ The <b>TraceQueryInformation</b> function queries
 
 
 
-<a href="https://msdn.microsoft.com/451f1d28-bee1-4a41-a63b-693c2a831db7">TRACE_QUERY_INFO_CLASS</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-info-class">TRACE_QUERY_INFO_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4cdbe32-6885-4844-add5-560961c3dd1d">TraceSetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
  
 
  

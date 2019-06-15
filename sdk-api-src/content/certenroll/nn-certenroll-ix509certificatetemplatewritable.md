@@ -55,7 +55,7 @@ The <b>IX509CertificateTemplateWritable</b> interface enables you to add a templ
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateTemplateWritable</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509CertificateTemplateWritable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateTemplateWritable</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509CertificateTemplateWritable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IX509CertificateTemplateWritable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee7d5640-8d06-4a1a-bce2-f76ee6276207">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplatewritable-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Deletes a template from or saves it to Active Directory.
@@ -80,7 +80,7 @@ Deletes a template from or saves it to Active Directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d70cfb65-403f-4a58-8882-393029111552">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplatewritable-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509CertificateTemplateWritable</b> object from a template.
@@ -98,7 +98,7 @@ Initializes an <b>IX509CertificateTemplateWritable</b> object from a template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/df665957-c276-4e46-8838-76010146e4d7">Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplatewritable-get_property">Property</a>
 
 
 </td>
@@ -114,7 +114,7 @@ Specifies or retrieves a property value for the <b>IX509CertificateTemplateWrita
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/35eef4e5-fcd9-4017-9d15-d8d418e063e7">Template</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificatetemplatewritable-get_template">Template</a>
 
 
 </td>

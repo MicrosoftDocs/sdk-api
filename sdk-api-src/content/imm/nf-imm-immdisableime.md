@@ -77,11 +77,11 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 
 
-The application must call this function before the first top-level window in the thread receives the <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message. Thus, the application must call this function in one of the following places:
+The application must call this function before the first top-level window in the thread receives the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-create">WM_CREATE</a> message. Thus, the application must call this function in one of the following places:
 
 <ul>
-<li>Any time before calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> to create the first top-level window</li>
-<li>In the <a href="https://msdn.microsoft.com/en-us/library/ms632635(v=VS.85).aspx">WM_NCCREATE</a> handler for first top-level window</li>
+<li>Any time before calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> to create the first top-level window</li>
+<li>In the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccreate">WM_NCCREATE</a> handler for first top-level window</li>
 </ul>
 
 
@@ -91,11 +91,11 @@ The application must call this function before the first top-level window in the
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

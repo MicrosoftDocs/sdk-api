@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates the current view state of a Windows Store app. Used by <a href="https://msdn.microsoft.com/37e1845c-a58a-4da3-b259-bbf5bbf5ff6d">IApplicationDesignModeSettings::SetApplicationViewState</a> and <a href="https://msdn.microsoft.com/49661f00-15bc-48c0-a302-b81bee61180a">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>.
+Indicates the current view state of a Windows Store app. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>.
 
 
 ## -enum-fields
@@ -82,11 +82,11 @@ The current app's view is full-screen (has no snapped app adjacent to it), and i
 
 
 
-<a href="https://msdn.microsoft.com/49661f00-15bc-48c0-a302-b81bee61180a">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-isapplicationviewstatesupported">IApplicationDesignModeSettings::IsApplicationViewStateSupported</a>
 
 
 
-<a href="https://msdn.microsoft.com/37e1845c-a58a-4da3-b259-bbf5bbf5ff6d">IApplicationDesignModeSettings::SetApplicationViewState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">IApplicationDesignModeSettings::SetApplicationViewState</a>
  
 
  

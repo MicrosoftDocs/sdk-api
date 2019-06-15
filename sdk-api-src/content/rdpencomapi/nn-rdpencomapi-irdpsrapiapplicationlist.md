@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Manages the application list.
 
-Applications obtain access to this object using <a href="https://msdn.microsoft.com/08704192-320d-44f2-a811-f8565285bd30">IRDPSRAPIApplicationFilter::get_Applications</a>.
+Applications obtain access to this object using <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_applications">IRDPSRAPIApplicationFilter::get_Applications</a>.
 
 
 ## -see-also
@@ -59,11 +59,11 @@ Applications obtain access to this object using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a934718-1eea-4406-a1da-b7d493f6667e">IRDPSRAPIApplication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a>
  
 
  

@@ -121,55 +121,55 @@ The following types of in-band spanning events are defined.
 </tr>
 <tr>
 <td>EVENTID_ChannelChangeSpanningEvent</td>
-<td>Signals the start or end of a channel change. The event data is a <a href="https://msdn.microsoft.com/61130e8e-7000-4f5a-b4c1-7ae22cfad473">ChannelChangeInfo</a> structure.</td>
+<td>Signals the start or end of a channel change. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/channelchangeinfo">ChannelChangeInfo</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_ChannelInfoSpanningEvent</td>
-<td>Contains information about the cable television channel. The event data is a <a href="https://msdn.microsoft.com/4d4c8e5b-5b9f-4cff-98c7-6d3645e677e1">ChannelInfo</a> structure.</td>
+<td>Contains information about the cable television channel. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/channelinfo">ChannelInfo</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_ChannelTypeSpanningEvent</td>
-<td>Contains information about the cable television channel type. The event data is a <a href="https://msdn.microsoft.com/4d4c8e5b-5b9f-4cff-98c7-6d3645e677e1">ChannelTypeInfo</a> structure.</td>
+<td>Contains information about the cable television channel type. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/channelinfo">ChannelTypeInfo</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_CSDescriptorSpanningEvent</td>
-<td>Contains a caption service descriptor. The event data is a <a href="https://msdn.microsoft.com/d394b0c9-a61a-44e8-972d-0c12fd446e59">SpanningEventDescriptor</a> structure.</td>
+<td>Contains a caption service descriptor. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/spanningeventdescriptor">SpanningEventDescriptor</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_CtxADescriptorSpanningEvent</td>
-<td>Contains a content advisory descriptor. The event data is a <a href="https://msdn.microsoft.com/d394b0c9-a61a-44e8-972d-0c12fd446e59">SpanningEventDescriptor</a> structure.</td>
+<td>Contains a content advisory descriptor. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/spanningeventdescriptor">SpanningEventDescriptor</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_DualMonoSpanningEvent</td>
-<td>Specifies the audio languages for a dual-mono audio stream. The event data is a <a href="https://msdn.microsoft.com/dd3b702b-1017-4963-91ba-516a3bbb3b60">DualMonoInfo</a> structure.</td>
+<td>Specifies the audio languages for a dual-mono audio stream. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dualmonoinfo">DualMonoInfo</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_DVBScramblingControlSpanningEvent</td>
-<td>Indicates whether a Digital Video Broadcasting (DVB) program stream is scrambled. This event is signaled when the value of the transport_scrambling_control field changes. The event data is a <a href="https://msdn.microsoft.com/e54e8ab2-fc90-4540-aed1-c6dedc2f5d88">DVBScramblingControlSpanningEvent</a> structure.</td>
+<td>Indicates whether a Digital Video Broadcasting (DVB) program stream is scrambled. This event is signaled when the value of the transport_scrambling_control field changes. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbscramblingcontrolspanningevent">DVBScramblingControlSpanningEvent</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_EmmMessageSpanningEvent</td>
-<td>Contains information about an Entitlement Management Message (EMM) in a DVB data stream. The event data is a <a href="https://msdn.microsoft.com/e362a3b5-db4a-4a58-adf9-d799f83c9f36">SpanningEventEmmMessage</a> structure.</td>
+<td>Contains information about an Entitlement Management Message (EMM) in a DVB data stream. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/spanningeventemmmessage">SpanningEventEmmMessage</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_LanguageSpanningEvent</td>
-<td>Specifies the audio language. The event data is a <a href="https://msdn.microsoft.com/25c936a7-b4d6-4af9-a8cc-7af5aed5b23e">LanguageInfo</a> structure.</td>
+<td>Specifies the audio language. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/languageinfo">LanguageInfo</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_PBDAParentalControlSpanningEvent</td>
-<td>Contains information about the current parental control policy. The event data is a <a href="https://msdn.microsoft.com/4086651b-45b3-4896-9ae2-6db7e121eb5e">PBDAParentalControl</a> structure.</td>
+<td>Contains information about the current parental control policy. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/pbdaparentalcontrol">PBDAParentalControl</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_PIDListSpanningEvent</td>
-<td>Contains a list of packet identifiers (PIDs) for the current stream. The event data is a <a href="https://msdn.microsoft.com/7c2a8e24-0919-4fe6-9a31-a1d4b1d119ed">PIDListSpanningEvent</a> structure.</td>
+<td>Contains a list of packet identifiers (PIDs) for the current stream. The event data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/pidlistspanningevent">PIDListSpanningEvent</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_RRTSpanningEvent</td>
-<td>Contains information about a rating region table (RRT). The data is a <a href="https://msdn.microsoft.com/6ee07b84-ae97-413f-a3b4-0078ad740194">SECTION</a> structure.</td>
+<td>Contains information about a rating region table (RRT). The data is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0006">SECTION</a> structure.</td>
 </tr>
 <tr>
 <td>EVENTID_SignalAndServiceStatusSpanningEvent</td>
-<td>Signals the current state of the television service. The event data is a member of the <a href="https://msdn.microsoft.com/88da8346-661c-4638-809d-4ef01f191cbe">SignalAndServiceStatusSpanningEvent_State</a> enumeration.</td>
+<td>Signals the current state of the television service. The event data is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/signalandservicestatusspanningevent-state">SignalAndServiceStatusSpanningEvent_State</a> enumeration.</td>
 </tr>
 <tr>
 <td>EVENTID_StreamIDSpanningEvent</td>
@@ -177,7 +177,7 @@ The following types of in-band spanning events are defined.
 </tr>
 <tr>
 <td>EVENTID_StreamTypeSpanningEvent</td>
-<td>Specifies the stream type. The event data is a <b>DWORD</b> that contains a value from the <a href="https://msdn.microsoft.com/10df5a9e-965c-4118-8ece-2d8ee353cd10">MPEG2StreamType</a> enumeration.</td>
+<td>Specifies the stream type. The event data is a <b>DWORD</b> that contains a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mpeg2streamtype">MPEG2StreamType</a> enumeration.</td>
 </tr>
 <tr>
 <td>EVENTID_SubtitleSpanningEvent</td>
@@ -202,11 +202,11 @@ The following types of in-band spanning events are defined.
 
 
 
-<a href="https://msdn.microsoft.com/155a2e61-3b53-4225-b298-ee51e2afca96">ISBE2SpanningEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2spanningevent">ISBE2SpanningEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1fc2b7c-3f60-4d03-9c75-9b9d9450ceef">ISBE2SpanningEvent::GetEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2spanningevent-getevent">ISBE2SpanningEvent::GetEvent</a>
  
 
  

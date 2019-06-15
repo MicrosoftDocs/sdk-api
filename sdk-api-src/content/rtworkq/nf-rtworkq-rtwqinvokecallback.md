@@ -59,7 +59,7 @@ Invokes a callback method to complete an asynchronous operation.
 
 ### -param result
 
-The asynchronous result. To create this object, call <a href="https://msdn.microsoft.com/ba8e888a-5bd6-4624-94a6-2f2ce0a080d1">RtwqCreateAsyncResult</a>.
+The asynchronous result. To create this object, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcreateasyncresult">RtwqCreateAsyncResult</a>.
 
 
 ## -returns

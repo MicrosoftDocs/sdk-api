@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Compares two durations.A duration represents a unit of time as an eight-dimensional space where the coordinates designate the year, month, day, hour, minute, second, millisecond, and CPU tick as represented by the <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a> data structure.
+Compares two durations.A duration represents a unit of time as an eight-dimensional space where the coordinates designate the year, month, day, hour, minute, second, millisecond, and CPU tick as represented by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> data structure.
 
 
 ## -parameters
@@ -59,13 +59,13 @@ Compares two durations.A duration represents a unit of time as an eight-dimensio
 
 ### -param *duration1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a> structure representing the first duration to compare.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> structure representing the first duration to compare.
                 
 
 
 ### -param *duration2 [in]
 
-A  pointer to a <a href="https://msdn.microsoft.com/ccb08c23-8c6f-4ea7-a43b-c30a0df75805">WS_DURATION</a> structure representing the second duration.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_duration">WS_DURATION</a> structure representing the second duration.
                 
 
 
@@ -82,7 +82,7 @@ The relationship between the durations as one of the following values:
 
 ### -param *error [in, optional]
 
-A pointer to  a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> handle where additional error information should be stored if the function fails.
+A pointer to  a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> handle where additional error information should be stored if the function fails.
                 
 
 
@@ -100,7 +100,7 @@ This callback function does not return a value.
 
 
 If the function cannot compare the specified durations, it should return <b>WS_E_INVALID_FORMAT</b>. 
-            (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+            (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 

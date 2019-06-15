@@ -62,7 +62,7 @@ Describes an input stream on a Media Foundation transform (MFT).
 
 ### -field MFT_INPUT_STREAM_WHOLE_SAMPLES
 
-Each media sample (<a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> interface) of input data must contain complete, unbroken units of data. The definition of a <i>unit of data</i> depends on the media type: For uncompressed video, a video frame; for compressed data, a compressed packet; for uncompressed audio, a single audio frame.
+Each media sample (<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface) of input data must contain complete, unbroken units of data. The definition of a <i>unit of data</i> depends on the media type: For uncompressed video, a video frame; for compressed data, a compressed packet; for uncompressed audio, a single audio frame.
 
 For uncompressed audio formats, this flag is always implied. (It is valid to set the flag, but not required.) An uncompressed audio frame should never span more than one media sample.
 
@@ -79,28 +79,28 @@ An MFT that processes uncompressed audio should not set this flag. The MFT shoul
 ### -field MFT_INPUT_STREAM_FIXED_SAMPLE_SIZE
 
 All input samples must be the same size.
-          The size is given in the <b>cbSize</b> member of the <a href="https://msdn.microsoft.com/de3d6d70-3525-42a0-bc1a-2625e7ebd918">MFT_INPUT_STREAM_INFO</a> structure. The MFT must provide this value. During processing, the MFT should verify the size of input samples, and may drop samples with incorrect size.
+          The size is given in the <b>cbSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure. The MFT must provide this value. During processing, the MFT should verify the size of input samples, and may drop samples with incorrect size.
 
 
 ### -field MFT_INPUT_STREAM_HOLDS_BUFFERS
 
-The MFT might hold one or more input samples after <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> is called. If this flag is present, the <b>hnsMaxLatency</b> member of the <a href="https://msdn.microsoft.com/de3d6d70-3525-42a0-bc1a-2625e7ebd918">MFT_INPUT_STREAM_INFO</a> structure gives the maximum latency, and the <b>cbMaxLookahead</b> member gives the maximum number of bytes of lookahead.
+The MFT might hold one or more input samples after <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> is called. If this flag is present, the <b>hnsMaxLatency</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info">MFT_INPUT_STREAM_INFO</a> structure gives the maximum latency, and the <b>cbMaxLookahead</b> member gives the maximum number of bytes of lookahead.
 
 
 ### -field MFT_INPUT_STREAM_DOES_NOT_ADDREF
 
-The MFT does not hold input samples after the <a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">IMFTransform::ProcessInput</a> method returns. It releases the sample before the <b>ProcessInput</b> method returns.
+The MFT does not hold input samples after the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">IMFTransform::ProcessInput</a> method returns. It releases the sample before the <b>ProcessInput</b> method returns.
 
-If this flag is absent, the MFT might hold a reference count on the samples that are passed to the <a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">ProcessInput</a> method. The client must not re-use or delete the buffer memory until the MFT releases the sample's <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> pointer.
+If this flag is absent, the MFT might hold a reference count on the samples that are passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a> method. The client must not re-use or delete the buffer memory until the MFT releases the sample's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> pointer.
 
-If this flag is absent, it does not guarantee that the MFT holds a reference count on the input samples. It is valid for an MFT to release input samples in <a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">ProcessInput</a> even if the MFT does not set this flag. However, setting this flag might enable to client to optimize how it re-uses buffers.
+If this flag is absent, it does not guarantee that the MFT holds a reference count on the input samples. It is valid for an MFT to release input samples in <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a> even if the MFT does not set this flag. However, setting this flag might enable to client to optimize how it re-uses buffers.
 
-An MFT should not set this flag if it ever holds onto an input sample after returning from <a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">ProcessInput</a>.
+An MFT should not set this flag if it ever holds onto an input sample after returning from <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a>.
 
 
 ### -field MFT_INPUT_STREAM_REMOVABLE
 
-This input stream can be removed by calling <a href="https://msdn.microsoft.com/cba37f7f-6ab2-469c-95c2-61d9e4d31d0b">IMFTransform::DeleteInputStream</a>.
+This input stream can be removed by calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-deleteinputstream">IMFTransform::DeleteInputStream</a>.
 
 
 ### -field MFT_INPUT_STREAM_OPTIONAL
@@ -110,9 +110,9 @@ This input stream is optional. The transform can produce output without receivin
 
 ### -field MFT_INPUT_STREAM_PROCESSES_IN_PLACE
 
-The MFT can perform in-place processing. In this mode, the MFT directly modifies the input buffer. When the client calls <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">ProcessOutput</a>, the same sample that was delivered to this stream is returned in the output stream that has a matching stream identifier. This flag implies that the MFT holds onto the input buffer, so this flag cannot combined with the MFT_INPUT_STREAM_DOES_NOT_ADDREF flag.
+The MFT can perform in-place processing. In this mode, the MFT directly modifies the input buffer. When the client calls <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, the same sample that was delivered to this stream is returned in the output stream that has a matching stream identifier. This flag implies that the MFT holds onto the input buffer, so this flag cannot combined with the MFT_INPUT_STREAM_DOES_NOT_ADDREF flag.
 
-If this flag is present, the MFT must set the MFT_OUTPUT_STREAM_PROVIDES_SAMPLES or MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES flag for the output stream that corresponds to this input stream. (See <a href="https://msdn.microsoft.com/06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5">IMFTransform::GetOutputStreamInfo</a>).
+If this flag is present, the MFT must set the MFT_OUTPUT_STREAM_PROVIDES_SAMPLES or MFT_OUTPUT_STREAM_CAN_PROVIDE_SAMPLES flag for the output stream that corresponds to this input stream. (See <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a>).
 
 
 ## -remarks
@@ -121,15 +121,15 @@ If this flag is present, the MFT must set the MFT_OUTPUT_STREAM_PROVIDES_SAMPLES
 
 Before the client sets the media types on the transform, the only flags guaranteed to be accurate are the MFT_INPUT_STREAM_REMOVABLE and MFT_INPUT_STREAM_OPTIONAL flags. For all other flags, the client should first set the media type on every non-optional stream.
 
-In the default processing model, an MFT holds a reference count on the sample that it receives in <a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">ProcessInput</a>. It does not process the sample immediately inside <b>ProcessInput</b>. When <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">ProcessOutput</a> is called, the MFT produces output data and then discards the input sample. The following variations on this model are defined:
+In the default processing model, an MFT holds a reference count on the sample that it receives in <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a>. It does not process the sample immediately inside <b>ProcessInput</b>. When <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> is called, the MFT produces output data and then discards the input sample. The following variations on this model are defined:
 
 <ul>
 <li>
-If an MFT never holds onto input samples between <a href="https://msdn.microsoft.com/c94d406b-7cd9-42d4-ae9e-3d21dbb47209">ProcessInput</a> and <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">ProcessOutput</a>, it can set the MFT_INPUT_STREAM_DOES_NOT_ADDREF.
+If an MFT never holds onto input samples between <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, it can set the MFT_INPUT_STREAM_DOES_NOT_ADDREF.
 
 </li>
 <li>
-If an MFT holds some input samples beyond the next call to <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">ProcessOutput</a>, it can set the MFT_INPUT_STREAM_HOLDS_BUFFERS.
+If an MFT holds some input samples beyond the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>, it can set the MFT_INPUT_STREAM_HOLDS_BUFFERS.
 
 </li>
 </ul>
@@ -141,15 +141,15 @@ If an MFT holds some input samples beyond the next call to <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/de3d6d70-3525-42a0-bc1a-2625e7ebd918">MFT_INPUT_STREAM_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_input_stream_info">MFT_INPUT_STREAM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0">Media Foundation Transforms</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
  
 
  

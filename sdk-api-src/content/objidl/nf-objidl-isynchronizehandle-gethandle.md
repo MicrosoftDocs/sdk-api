@@ -76,11 +76,11 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/e278930c-4f4d-4ac5-ba1e-a4a84bfcd0ca">ISynchronizeEvent::SetEventHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle">ISynchronizeEvent::SetEventHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/93b2e682-78da-4a61-a045-8d71b3834e1d">ISynchronizeHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>
  
 
  

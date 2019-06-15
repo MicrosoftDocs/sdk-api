@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 Creates, opens, reopens, or deletes a file.
 <div class="alert"><b>Note</b>  This function has limited capabilities and is not recommended. For new application development, use the 
-    <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.</div><div> </div>
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -77,17 +77,17 @@ The string must consist of characters from the 8-bit Windows character set. The
 
 ### -param lpReOpenBuff [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a> structure that receives 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure that receives 
        information about a file when it is first opened.
 
 The structure can be used in subsequent calls to the 
        <b>OpenFile</b> function to see an open file.
 
-The <a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a> structure contains a path string 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure contains a path string 
        member with a length that is limited to <b>OFS_MAXPATHNAME</b> characters, which is 128 
        characters. Because of this, you cannot use the <b>OpenFile</b> 
        function to open a file with a path length that exceeds 128 characters. The 
-       <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function does not have this path 
+       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function does not have this path 
        length limitation.
 
 
@@ -160,7 +160,7 @@ Use this to test for the existence of a file.
 </dl>
 </td>
 <td width="60%">
-Fills the <a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a> structure, but does not do 
+Fills the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a> structure, but does not do 
          anything else.
 
 </td>
@@ -226,7 +226,7 @@ For MS-DOS–based file systems, opens a file with compatibility mode, allows an
 
 Other efforts to open a file with other sharing modes fail. This flag is mapped to the 
          <b>FILE_SHARE_READ</b>|<b>FILE_SHARE_WRITE</b> flags of the 
-         <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ On MS-DOS-based file systems, if the file has been opened in compatibility mode 
 
 This flag is mapped to the 
          <b>FILE_SHARE_READ</b>|<b>FILE_SHARE_WRITE</b> flags of the 
-         <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ On MS-DOS-based file systems, if the file has been opened in compatibility mode,
          other process, the function fails.
 
 This flag is mapped to the <b>FILE_SHARE_WRITE</b> flag of the 
-         <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ On MS-DOS-based file systems, if a file has been opened in compatibility mode, o
          other process, the function fails.
 
 This flag is mapped to the <b>FILE_SHARE_READ</b> flag of the 
-         <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> function.
+         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 </td>
 </tr>
@@ -325,10 +325,10 @@ Opens a file for write access only.
 
 
 
-If the function succeeds, the return value specifies a file handle to use when performing file I/O. To close the file, call the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function using this handle.
+If the function succeeds, the return value specifies a file handle to use when performing file I/O. To close the file, call the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function using this handle.
 
 If the function fails, the return value is <b>HFILE_ERROR</b>. To get extended error 
-       information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -352,7 +352,7 @@ The current directory.
 <li>
 The Windows system directory.
 
-Use the <a href="https://msdn.microsoft.com/79f045b2-40d9-498a-b720-e729c92bf50b">GetSystemDirectory</a> function to get the 
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function to get the 
        path of this directory.
 
 </li>
@@ -365,7 +365,7 @@ There is not a function that retrieves the path of this directory, but it is sea
 <li>
 The Windows directory.
 
-Use the <a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function to get 
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function to get 
        the path of this directory.
 
 </li>
@@ -380,7 +380,7 @@ The <b>OpenFile</b> function does not support the
     <b>OF_SEARCH</b> flag that the 16-bit Windows 
     <b>OpenFile</b> function supports. The 
     <b>OF_SEARCH</b> flag directs the system to search for a matching file even when a file name 
-    includes a full path. Use the <a href="https://msdn.microsoft.com/8039365a-1b39-431e-af87-9a9933ca102d">SearchPath</a> function to search 
+    includes a full path. Use the <a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function to search 
     for a file.
 
 A sharing violation occurs if an attempt is made to open a file or directory for deletion on a remote machine 
@@ -388,7 +388,7 @@ A sharing violation occurs if an attempt is made to open a file or directory for
     flag OR'ed with any other access flag, and the remote file or directory has not been opened with 
     <b>FILE_SHARE_DELETE</b> share access. To avoid the sharing violation in this scenario, open 
     the remote file or directory with <b>OF_DELETE</b> access only, or call 
-    <a href="https://msdn.microsoft.com/0b947a85-816b-4374-a8f8-c369e366a17d">DeleteFile</a> without first opening the file or directory for 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> without first opening the file or directory for 
     deletion.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -461,27 +461,27 @@ CsvFs will do redirected IO for compressed files.
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f045b2-40d9-498a-b720-e729c92bf50b">GetSystemDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/195581e5-e962-4756-a33c-b1e898b5b0e7">OFSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_ofstruct">OFSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/8039365a-1b39-431e-af87-9a9933ca102d">SearchPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a>
  
 
  

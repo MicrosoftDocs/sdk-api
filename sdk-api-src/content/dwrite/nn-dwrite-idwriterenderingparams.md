@@ -51,12 +51,12 @@ ms.custom: 19H1
 
  Represents text rendering settings such as ClearType level, enhanced contrast, and gamma correction for glyph rasterization and filtering.
 
-An application typically obtains a rendering parameters object by calling the <a href="https://msdn.microsoft.com/ddb6839a-9033-423a-a3f0-9352ec03e440">IDWriteFactory::CreateMonitorRenderingParams</a> method.
+An application typically obtains a rendering parameters object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteRenderingParams</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteRenderingParams</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteRenderingParams</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDWriteRenderingParams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62b2aa39-ca8f-4abd-af10-1c1ca7971dcd">GetClearTypeLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getcleartypelevel">GetClearTypeLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the ClearType level of the rendering parameters object. 
@@ -80,7 +80,7 @@ Gets the ClearType level of the rendering parameters object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dabce803-4989-4532-bf96-2f7eb09b29fe">GetEnhancedContrast</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getenhancedcontrast">GetEnhancedContrast</a>
 </td>
 <td align="left" width="63%">
 Gets the enhanced contrast property of the rendering parameters object. Valid values are greater than or equal to zero.
@@ -89,7 +89,7 @@ Gets the enhanced contrast property of the rendering parameters object. Valid va
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f83adfd6-055d-4b73-89a8-e0fe5af0b661">GetGamma</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getgamma">GetGamma</a>
 </td>
 <td align="left" width="63%">
 Gets the gamma value used for gamma correction. Valid values must be
@@ -99,7 +99,7 @@ Gets the gamma value used for gamma correction. Valid values must be
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/faa727b7-3df6-4ad5-ad1f-1c038ea585c8">GetPixelGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getpixelgeometry">GetPixelGeometry</a>
 </td>
 <td align="left" width="63%">
 Gets the pixel geometry of the rendering parameters object.
@@ -108,7 +108,7 @@ Gets the pixel geometry of the rendering parameters object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/657360c6-3351-400b-bb41-bcd92de3c48d">GetRenderingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwriterenderingparams-getrenderingmode">GetRenderingMode</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering mode of the rendering parameters object.
@@ -123,7 +123,7 @@ Gets the rendering mode of the rendering parameters object.
 
 
 
-<a href="https://msdn.microsoft.com/ddb6839a-9033-423a-a3f0-9352ec03e440">IDWriteFactory::CreateMonitorRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefactory-createmonitorrenderingparams">IDWriteFactory::CreateMonitorRenderingParams</a>
  
 
  

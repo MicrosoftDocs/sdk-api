@@ -90,7 +90,7 @@ This method is not called when Windows Media Player instantiates the plug-in for
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563591(v=VS.85).aspx">IWMPPluginUI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
  
 
  

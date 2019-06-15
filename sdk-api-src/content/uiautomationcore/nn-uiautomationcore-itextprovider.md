@@ -55,7 +55,7 @@ Provides access to controls that contain text.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITextProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>ITextProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5c0b2ed-e891-4856-8829-617a69d4708a">GetSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of text ranges that represents the currently selected text in a text-based control.  
@@ -81,7 +81,7 @@ Retrieves a collection of text ranges that represents the currently selected tex
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc706d1d-b32d-4bc3-b65a-c42b38f06a93">GetVisibleRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-getvisibleranges">GetVisibleRanges</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.  
@@ -90,7 +90,7 @@ Retrieves an array of disjoint text ranges from a text-based control where each 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b55ae687-44e1-499f-8341-0bbf960529fd">RangeFromChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefromchild">RangeFromChild</a>
 </td>
 <td align="left" width="63%">
 Retrieves a text range enclosing a child element such as an image, hyperlink, or other embedded object. 
@@ -100,7 +100,7 @@ Retrieves a text range enclosing a child element such as an image, hyperlink, or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c19c6a4a-b783-47c2-8dfd-1ffe947278f0">RangeFromPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-rangefrompoint">RangeFromPoint</a>
 </td>
 <td align="left" width="63%">
 Returns the degenerate (empty) text range nearest to the specified screen coordinates. 
@@ -118,7 +118,7 @@ Returns the degenerate (empty) text range nearest to the specified screen coordi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/38892548-7c1f-4bac-8eac-29d7b4d190d3">DocumentRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-get_documentrange">DocumentRange</a>
 
 
 </td>
@@ -134,7 +134,7 @@ Retrieves a text range that encloses the main text of a document.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a1f91515-2bc8-4560-850d-34c880c78c43">SupportedTextSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-get_supportedtextselection">SupportedTextSelection</a>
 
 
 </td>
@@ -155,7 +155,7 @@ Retrieves a value that specifies the type of text selection that is supported by
 
 
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://msdn.microsoft.com/4d541c31-11f7-4d7e-a0e0-9ed1da873d07">Text</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange">Text</a> control pattern.
 		
 
 
@@ -166,15 +166,15 @@ Implemented on a Microsoft UI Automation provider that must support the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/CDA6E93D-6E82-4EC4-8408-09554D039F49">ITextProvider2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider2">ITextProvider2</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd14e608-1d21-4527-8b82-dba64ed04fda">ITextRangeProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/8928c889-0e0a-439f-87e8-a9d121fcf73f">UI Automation Providers Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
  
 
  

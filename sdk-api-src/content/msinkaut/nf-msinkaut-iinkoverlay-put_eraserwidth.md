@@ -73,7 +73,7 @@ The value specifies the width of the eraser pen tip in ink space units.
 
 You cannot assign negative values to this property.
 
-This property applies only when the <a href="https://msdn.microsoft.com/3b734da3-5784-4504-b22e-b86844d42f4e">EditingMode</a> property is set to <b>IOEM_Delete</b> and the <a href="https://msdn.microsoft.com/87dfd750-254a-4829-b5a2-04aee9890dd0">EraserMode</a> property is set to <b>IOERM_PointErase</b>.
+This property applies only when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode">EditingMode</a> property is set to <b>IOEM_Delete</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode</a> property is set to <b>IOERM_PointErase</b>.
 
 
 
@@ -83,11 +83,11 @@ This property applies only when the <a href="https://msdn.microsoft.com/3b734da3
 
 
 
-<a href="https://msdn.microsoft.com/3b734da3-5784-4504-b22e-b86844d42f4e">EditingMode Property [InkOverlay Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode">EditingMode Property [InkOverlay Class]</a>
 
 
 
-<a href="https://msdn.microsoft.com/87dfd750-254a-4829-b5a2-04aee9890dd0">EraserMode Property [InkOverlay Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode">EraserMode Property [InkOverlay Class]</a>
 
 
 
@@ -95,15 +95,15 @@ This property applies only when the <a href="https://msdn.microsoft.com/3b734da3
 
 
 
-<a href="https://msdn.microsoft.com/61191ab3-075e-458b-9e0f-4bc255687b3c">InkOverlay Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/de25636c-b8ca-47e4-ae16-182b98ede8f6">InkOverlayEditingMode Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7400a40-9b82-4750-8e92-a39c6f25b7cd">InkOverlayEraserMode Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode">InkOverlayEraserMode Enumeration</a>
  
 
  

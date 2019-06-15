@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Sets the account name and password used to run the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Sets the account name and password used to run the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
 
 ## -parameters
@@ -71,11 +71,11 @@ A string that contains the password for the account specified in <i>pwszAccountN
 
 
 
-Set this parameter to <b>NULL</b> if the local system account is specified. If you set the TASK_FLAG_RUN_ONLY_IF_LOGGED_ON flag, you may also set <i>pwszPassword</i> to <b>NULL</b> for local or domain user accounts. Use the <a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a> method to set the flag.
+Set this parameter to <b>NULL</b> if the local system account is specified. If you set the TASK_FLAG_RUN_ONLY_IF_LOGGED_ON flag, you may also set <i>pwszPassword</i> to <b>NULL</b> for local or domain user accounts. Use the <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a> method to set the flag.
 
 Task Scheduler stores account information only once for all tasks that use the same account. If the account password is updated for one task, then all tasks using that same account will use the updated password.
 
-When you have finished using the password, clear the password information by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://msdn.microsoft.com/1d810f71-9bf5-4c5c-a573-c35081f604cf">Handling Passwords</a>.
+When you have finished using the password, clear the password information by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 
 ## -returns
@@ -83,7 +83,7 @@ When you have finished using the password, clear the password information by cal
 
 
 The 
-<b>SetAccountInformation</b> method returns one of the following values. Note that errors from this call may also be returned by the subsequent call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>.
+<b>SetAccountInformation</b> method returns one of the following values. Note that errors from this call may also be returned by the subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>.
 
 <table>
 <tr>
@@ -163,7 +163,7 @@ The <i>pwszPassword</i> parameter was set to <b>NULL</b>, but the TASK_FLAG_RUN_
 </dl>
 </td>
 <td width="60%">
-The <i>pwszPassword</i> parameter was incorrect.  In the Windows Server 2003, Task Scheduler validates the password at the time the job is created (during a call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>). Be aware that if this error occurs, the job file will still be created.
+The <i>pwszPassword</i> parameter was incorrect.  In the Windows Server 2003, Task Scheduler validates the password at the time the job is created (during a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>). Be aware that if this error occurs, the job file will still be created.
 
 </td>
 </tr>
@@ -181,14 +181,14 @@ This method is for the Windows Server 2003, Windows XP, and Windows 2000.
 
 If <i>pwszAccountName</i> specifies the local system account, the caller must be an administrator on the local computer or an application running in the local system account. If not, this method will fail.
 
-The password specified in <i>pwszPassword</i> is used to log on to the account when the work item is run. An incorrect password will result in an error when the work item is run. In the Windows Server 2003, however,  Task Scheduler validates the password at the time the job is created (during a call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>).
+The password specified in <i>pwszPassword</i> is used to log on to the account when the work item is run. An incorrect password will result in an error when the work item is run. In the Windows Server 2003, however,  Task Scheduler validates the password at the time the job is created (during a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>).
 
 Typically, passwords have an expiration date. If you schedule tasks that run indefinitely, you must update the task to reflect the new password.
 
  Note that errors can be returned by the initial call to 
-<b>SetAccountInformation</b> or the subsequent call to <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>.
+<b>SetAccountInformation</b> or the subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a>.
 
-The Task Scheduler service must be running for this call to succeed. (<b>SetAccountInformation</b> results in a remote procedure call (RPC) to the Task Scheduler service, but the RPC call is not made until <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> is called.)
+The Task Scheduler service must be running for this call to succeed. (<b>SetAccountInformation</b> results in a remote procedure call (RPC) to the Task Scheduler service, but the RPC call is not made until <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> is called.)
 
 The E_ACCESSDENIED return code is returned under the following conditions:
 
@@ -198,12 +198,12 @@ The E_ACCESSDENIED return code is returned under the following conditions:
 <li>A <b>NULL</b> password was specified in <i>pwszPassword</i>, but the caller is neither an administrator on the local computer, nor is running in the local system account.</li>
 <li>The application is running under a different user name than the user named specified in the <i>pwszAccountName</i> parameter.</li>
 </ul>
-After setting the account information for a work item, be sure to call <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> to save the modified work item object to disk.
+After setting the account information for a work item, be sure to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> to save the modified work item object to disk.
 
 
 #### Examples
 
-For more information and an example of how to set the account information of a task, see <a href="https://msdn.microsoft.com/ab865f70-f8d1-411e-b637-b1b1028ccf62">C/C++ Code Example: Setting Task Account Information</a>.
+For more information and an example of how to set the account information of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-setting-task-account-information">C/C++ Code Example: Setting Task Account Information</a>.
 
 <div class="code"></div>
 
@@ -214,15 +214,15 @@ For more information and an example of how to set the account information of a t
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5f279ac-bf03-4af5-9bad-58eadaba0ca1">IScheduledWorkItem::GetAccountInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getaccountinformation">IScheduledWorkItem::GetAccountInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
  
 
  

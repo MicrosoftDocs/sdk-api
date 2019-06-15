@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined callback function used with the <a href="https://msdn.microsoft.com/ebeed3f9-1164-49d8-a7af-61244976643b">ImmEnumRegisterWord</a> function. It is used to process data of register strings. The REGISTERWORDENUMPROC type defines a pointer to this callback function. <b>EnumRegisterWordProc</b> is a placeholder for the application-defined function name.
+An application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a> function. It is used to process data of register strings. The REGISTERWORDENUMPROC type defines a pointer to this callback function. <b>EnumRegisterWordProc</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -104,7 +104,7 @@ Returns a nonzero value to continue enumeration, or 0 to stop enumeration.
 
 
 
-An application must register this function by passing its address to the <a href="https://msdn.microsoft.com/ebeed3f9-1164-49d8-a7af-61244976643b">ImmEnumRegisterWord</a> function.
+An application must register this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a> function.
 
 
 
@@ -114,15 +114,15 @@ An application must register this function by passing its address to the <a href
 
 
 
-<a href="https://msdn.microsoft.com/ebeed3f9-1164-49d8-a7af-61244976643b">ImmEnumRegisterWord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

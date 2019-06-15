@@ -86,11 +86,11 @@ When that ink exceeds the control's current size, and automatic growth is enable
 
 
 
-<a href="https://msdn.microsoft.com/23eae5ee-8f3d-4f54-9c30-b29f0c14ba7f">EnableAutoGrow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-enableautogrow">EnableAutoGrow</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d6a6289-7be5-4cf0-8cb7-9095c4ee7149">IMathInputControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Records the result for an update. The result is specified by an <a href="https://msdn.microsoft.com/3aaab669-1f80-41ee-8c29-6da613ebccff">IStringCollection</a> object.
+Records the result for an update. The result is specified by an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> object.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The identifier of the result.
 
 ### -param extendedReportingData [in]
 
-An <a href="https://msdn.microsoft.com/3aaab669-1f80-41ee-8c29-6da613ebccff">IStringCollection</a> interface that represents a collection of strings that contain the result for an update.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that represents a collection of strings that contain the result for an update.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 
 
 
-<a href="https://msdn.microsoft.com/B24B527C-D92B-4BEB-ADCC-5E2BA684A478">IInstallationAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationagent">IInstallationAgent</a>
  
 
  

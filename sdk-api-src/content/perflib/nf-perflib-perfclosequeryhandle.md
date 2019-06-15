@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a query handle that you opened by calling <a href="https://msdn.microsoft.com/5105F617-9443-451D-B802-C6A241769E65">PerfOpenQueryHandle</a>.
+Closes a query handle that you opened by calling <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfopenqueryhandle">PerfOpenQueryHandle</a>.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -80,7 +80,7 @@ If the function fails, the return value is a
 
 
 
-<a href="https://msdn.microsoft.com/5105F617-9443-451D-B802-C6A241769E65">PerfOpenQueryHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfopenqueryhandle">PerfOpenQueryHandle</a>
  
 
  

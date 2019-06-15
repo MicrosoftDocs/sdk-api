@@ -59,5 +59,5 @@ Represents a WS-MetadataExchange GetMetadata response message.
 
 ### -field Metadata
 
-Reference to a <a href="https://msdn.microsoft.com/e5c6373a-f365-499d-a971-472ffa557a41">WSD_METADATA_SECTION_LIST</a> structure that contains a node in a single-linked list of metadata sections.
+Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure that contains a node in a single-linked list of metadata sections.
 

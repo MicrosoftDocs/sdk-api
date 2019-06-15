@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760600(v=VS.85).aspx">TCM_GETUNICODEFORMAT</a> message explicitly. 
+Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getunicodeformat">TCM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the UNICODE character format flag for the control. You can use this ma
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the control. 
 
@@ -69,7 +69,7 @@ Handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb760702(v=VS.85).aspx">TabCtrl_SetUnicodeFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-tabctrl_setunicodeformat">TabCtrl_SetUnicodeFormat</a>
  
 
  

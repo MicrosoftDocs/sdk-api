@@ -99,13 +99,13 @@ Specifies the maximum number of <b>Signature</b> elements when parsing an XML do
 ### -field CRYPT_XML_PROPERTY_DOC_DECLARATION
 
 Specifies whether to write an XML document declaration. This property is used with the 
-     <a href="https://msdn.microsoft.com/fb0cd00c-f410-486e-8910-41c0463f6a74">CryptXmlEncode</a> function. The default property is <b>TRUE</b>.
+     <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlencode">CryptXmlEncode</a> function. The default property is <b>TRUE</b>.
 
 
 ### -field CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET
 
 Specifies an encoding character set of XML fragments for custom elements. This property is used with the 
-     <a href="https://msdn.microsoft.com/b6a77d62-b92d-4b83-949f-14a0ce3ce025">CryptXmlOpenToDecode</a> function. 
+     <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlopentodecode">CryptXmlOpenToDecode</a> function. 
      The default character set is inherited from the opened document.
 
 

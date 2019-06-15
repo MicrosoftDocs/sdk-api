@@ -62,12 +62,12 @@ The <b>GetJackDescription</b> method gets a description of an audio jack.
 
 ### -param nJack [in]
 
-The jack index. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="https://msdn.microsoft.com/d99ad923-2846-4d3e-bc5b-b5b737219f13">IKsJackDescription::GetJackCount</a> method.
+The jack index. If the connection consists of <i>n</i> jacks, the jacks are numbered from 0 to <i>n</i>– 1. To get the number of jacks, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">IKsJackDescription::GetJackCount</a> method.
 
 
 ### -param pDescription [out]
 
-Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/en-us/library/Dd316543(v=VS.85).aspx">KSJACK_DESCRIPTION</a> that contains information about the jack. The buffer size must be at least sizeof(KSJACK_DESCRIPTION).
+Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0009">KSJACK_DESCRIPTION</a> that contains information about the jack. The buffer size must be at least sizeof(KSJACK_DESCRIPTION).
 
 
 ## -returns
@@ -121,7 +121,7 @@ When a user needs to plug an audio endpoint device into a jack or unplug it from
 <li>The type of physical connector used for the jack.</li>
 <li>The mapping of channels to the jack.</li>
 </ul>
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd316543(v=VS.85).aspx">KSJACK_DESCRIPTION</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0009">KSJACK_DESCRIPTION</a>.
 
 
 
@@ -131,15 +131,15 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd31
 
 
 
-<a href="https://msdn.microsoft.com/0ca9e719-7179-4302-99ff-df137141f58f">IKsJackDescription Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription">IKsJackDescription Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d99ad923-2846-4d3e-bc5b-b5b737219f13">IKsJackDescription::GetJackCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackcount">IKsJackDescription::GetJackCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd316543(v=VS.85).aspx">KSJACK_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0009">KSJACK_DESCRIPTION</a>
  
 
  

@@ -59,9 +59,9 @@ Stores information in the indexer that determines how the indexer will work and 
 
 ### -param sUseProxy [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_proxy_access">PROXY_ACCESS</a></b>
 
-Sets whether and how to use a proxy, using one of the values enumerated in <a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a>.
+Sets whether and how to use a proxy, using one of the values enumerated in <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_proxy_access">PROXY_ACCESS</a>.
 
 
 ### -param fLocalByPassProxy [in]

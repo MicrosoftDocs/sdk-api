@@ -60,7 +60,7 @@ Enables an application that performs its own exception handling to report faults
 ### -param pep [in]
 
  A pointer to an 
-<a href="https://msdn.microsoft.com/57e8cb3a-1b11-45b9-9676-3b6dc600d225">EXCEPTION_POINTERS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> structure.
 
 
 ### -param dwOpt [in]
@@ -189,19 +189,19 @@ The exact result of calling this function depends on how the user or system admi
 
 
 
-<a href="https://msdn.microsoft.com/9055437b-2ee2-4f0a-bcef-2b04ac5368b3">AddERExcludedApplication</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/errorrep/nf-errorrep-adderexcludedapplicationa">AddERExcludedApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/57e8cb3a-1b11-45b9-9676-3b6dc600d225">EXCEPTION_POINTERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

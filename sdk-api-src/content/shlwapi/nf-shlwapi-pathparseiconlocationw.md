@@ -85,7 +85,7 @@ Returns the valid icon index value.
 
 
 
-This function is useful for taking a DefaultIcon value retrieved from the registry by <a href="https://msdn.microsoft.com/8cca6bfe-d365-4d10-bc8d-f3bebefaad02">SHGetValue</a> and separating the icon index from the path.
+This function is useful for taking a DefaultIcon value retrieved from the registry by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shgetvaluea">SHGetValue</a> and separating the icon index from the path.
 
 
 #### Examples

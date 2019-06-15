@@ -63,7 +63,7 @@ The <code>GetDefaultMonitor</code> method retrieves the default monitor that all
 
 ### -param pGUID [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/e05d986a-c044-47c9-8430-7190ad29c7ec">VMRGUID</a> structure that identifies the default monitor on the system.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagvmrguid">VMRGUID</a> structure that identifies the default monitor on the system.
 
 
 ## -returns
@@ -130,19 +130,19 @@ Use this method on a multi-monitor system to determine which is the default Dire
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/02b4016b-a65b-41ac-b5c6-e5f6825f179c">IVMRMonitorConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/85757536-ab7d-4b68-9e04-cf04fc4ebd5e">IVMRMonitorConfig::SetDefaultMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-setdefaultmonitor">IVMRMonitorConfig::SetDefaultMonitor</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

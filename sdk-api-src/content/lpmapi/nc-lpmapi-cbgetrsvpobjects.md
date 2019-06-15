@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <i>cbGetRsvpObjects</i> function is a callback function for LPMs to asynchronously return results for 
-<a href="https://msdn.microsoft.com/1ae417e9-3180-4fd4-90f6-6e91c12d523b">LPM_GetRsvpObjects</a> requests. LPMs call the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_getrsvpobjects">LPM_GetRsvpObjects</a> requests. LPMs call the 
 <i>cbGetRsvpObjects</i> function to asynchronously return policy data objects to the PCM for an 
 <i>LPM_GetRsvpObjects</i> request. An LPM should only use the 
 <i>cbGetRsvpObjects</i> function if it returned LPM_RESULTS_DEFER to the PCM's 
@@ -66,13 +66,13 @@ The
 ### -param LpmHandle [in]
 
 Unique handle for the LPM, as supplied in 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a>. The PCM will ignore any result that is not accompanied by a valid handle.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>. The PCM will ignore any result that is not accompanied by a valid handle.
 
 
 ### -param RequestHandle [in]
 
 Unique handle that distinguishes this request from all other requests, provided from the corresponding 
-<a href="https://msdn.microsoft.com/1ae417e9-3180-4fd4-90f6-6e91c12d523b">LPM_GetRsvpObjects</a> request.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_getrsvpobjects">LPM_GetRsvpObjects</a> request.
 
 
 ### -param LpmError [in]
@@ -83,8 +83,8 @@ Error value, used by the PCM to determine whether the policy data objects return
 
 
 Note that if an LPM is returning an error, it should free buffers allocated during the 
-<a href="https://msdn.microsoft.com/1ae417e9-3180-4fd4-90f6-6e91c12d523b">LPM_GetRsvpObjects</a> request processing; these buffers should have been allocated using the <b>MemoryAllocator</b> function, supplied within the 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a> function as its <i>FreeMemory</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_getrsvpobjects">LPM_GetRsvpObjects</a> request processing; these buffers should have been allocated using the <b>MemoryAllocator</b> function, supplied within the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function as its <i>FreeMemory</i> parameter.
 
 If no policy data objects are being returned, <i>LpmError</i> must be set to LPM_OK, <i>RsvpObjectsCount</i> must be set to zero, and *<i>RsvpObjects</i> must be set to null. The LPM can force the SBM to stop sending out the RSVP message by setting the value of <i>LpmError</i> to LPV_DROP_MSG.
 
@@ -97,7 +97,7 @@ Number of policy data objects being returned. If no policy data objects are bein
 #### - **ppRsvpObjects [in]
 
 Array of pointers to policy data object. The buffer containing the policy data objects should be allocated using the <b>MemoryAllocator</b> function supplied within the 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 
 
 
 
@@ -108,7 +108,7 @@ If no policy data objects are being returned, <i>LpmError</i> must be set to LPM
 #### - ppRsvpObjects [in]
 
 Array of pointers to policy data object. The buffer containing the policy data objects should be allocated using the <b>MemoryAllocator</b> function supplied within the 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function. The Subnet Bandwidth Manager (SBM) will free the policy data objects when they are no longer needed. 
 
 
 
@@ -145,11 +145,11 @@ If any LPM returns LPV_DROP_MSG, the SBM will not send out an RSVP refresh messa
 
 
 
-<a href="https://msdn.microsoft.com/1ae417e9-3180-4fd4-90f6-6e91c12d523b">LPM_GetRsvpObjects</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_getrsvpobjects">LPM_GetRsvpObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
  
 
  

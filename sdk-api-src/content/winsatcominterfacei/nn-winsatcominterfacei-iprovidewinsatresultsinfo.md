@@ -53,12 +53,12 @@ ms.custom: 19H1
 
 Gets information about the results of an assessment, for example, the base score and the date that the assessment was run.
 
-To get this interface, call the <a href="https://msdn.microsoft.com/11697416-aa4d-4724-bd63-8d123e2b32cb">IQueryRecentWinSATAssessment::get_Info</a> method.
+To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info">IQueryRecentWinSATAssessment::get_Info</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideWinSATResultsInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IProvideWinSATResultsInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProvideWinSATResultsInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IProvideWinSATResultsInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>IProvideWinSATResultsInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfa4d740-2dfd-41b5-a0be-a241f9ece939">GetAssessmentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo">GetAssessmentInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves summary information for a subcomponent of the assessment.
@@ -91,7 +91,7 @@ Retrieves summary information for a subcomponent of the assessment.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c5fcf832-7290-45dc-9c36-7b469dc54a4c">AssessmentDateTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentdatetime">AssessmentDateTime</a>
 
 
 </td>
@@ -103,7 +103,7 @@ Retrieves the date and time that the assessment was run.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/57a373f9-47b0-48cc-8517-cba87367c64e">AssessmentState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">AssessmentState</a>
 
 
 </td>
@@ -115,7 +115,7 @@ Retrieves the state of the assessment.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6995a4a2-a8c6-4c8f-bac0-478af4d8f911">RatingStateDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_ratingstatedesc">RatingStateDesc</a>
 
 
 </td>
@@ -127,7 +127,7 @@ Retrieves a string that you can use in a UI that indicates whether the assessmen
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/4fe20830-bf86-4551-ba73-534740cabab5">SystemRating</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating">SystemRating</a>
 
 
 </td>
@@ -144,7 +144,7 @@ Retrieves the base score for the computer.
 
 
 
-<a href="https://msdn.microsoft.com/90036c75-6e9e-4d25-804b-02c423616de1">IProvideWinSATAssessmentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a>
  
 
  

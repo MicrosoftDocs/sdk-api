@@ -61,7 +61,7 @@ The
 ### -param bstrTerminalClass [in]
 
 The <b>BSTR</b> representation of the 
-<a href="https://msdn.microsoft.com/2a16d33c-2d87-4172-a5ff-33ff62e96615">terminal class</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-class">terminal class</a>.
 
 
 ## -returns
@@ -78,11 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/178824f5-9dda-4e8a-b921-f2c9d064a83c">ITPluggableTerminalClassRegistration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalclassregistration">ITPluggableTerminalClassRegistration</a>
 
 
 
-<a href="https://msdn.microsoft.com/8da33c46-a369-4501-8249-48ad5d454c58">get_TerminalClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalclassregistration-get_terminalclass">get_TerminalClass</a>
  
 
  

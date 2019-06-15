@@ -64,7 +64,7 @@ The <code>SetFormat</code> method sets the format of the stream.
 
 ### -param pMediaType [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure that contains the stream format.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_ammediatype">AM_MEDIA_TYPE</a> structure that contains the stream format.
 
 
 ### -param dwFlags [in]
@@ -116,7 +116,7 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319682(v=VS.85).aspx">IAMMediaTypeStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
  
 
  

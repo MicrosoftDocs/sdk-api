@@ -75,7 +75,7 @@ If the operation completes successfully, this function returns <b>ERROR_SUCCESS<
 
 
 
-<a href="https://msdn.microsoft.com/74677418-CA63-4B4E-9844-A3A47AFFAD49">Cryptography Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>
  
 
  

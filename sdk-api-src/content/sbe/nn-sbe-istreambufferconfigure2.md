@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IStreamBufferConfigure2</b> interface is exposed by the <a href="https://msdn.microsoft.com/10678f33-2117-4add-8e4b-7b4d4eed11a9">StreamBufferConfig</a> object.
+The <b>IStreamBufferConfigure2</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/streambufferconfig-object">StreamBufferConfig</a> object.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure2</b> interface inherits from <a href="https://msdn.microsoft.com/8874fefd-2241-4b04-a7d5-191e13743fa0">IStreamBufferConfigure</a>. <b>IStreamBufferConfigure2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamBufferConfigure2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure">IStreamBufferConfigure</a>. <b>IStreamBufferConfigure2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IStreamBufferConfigure2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba0ce9b2-f160-4749-92ba-b9a77f34b980">GetFFTransitionRates</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure2-getfftransitionrates">GetFFTransitionRates</a>
 </td>
 <td align="left" width="63%">
 Returns the maximum full-frame and key-frame playback rates.
@@ -81,7 +81,7 @@ Returns the maximum full-frame and key-frame playback rates.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36b5cd06-ba6a-4546-98b6-4c8b47f7f62b">GetMultiplexedPacketSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure2-getmultiplexedpacketsize">GetMultiplexedPacketSize</a>
 </td>
 <td align="left" width="63%">
 Returns the size of the multiplexed packets in the backing files.
@@ -90,7 +90,7 @@ Returns the size of the multiplexed packets in the backing files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6e7b27a-b217-4430-adf7-c7ebc7e17bf6">SetFFTransitionRates</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure2-setfftransitionrates">SetFFTransitionRates</a>
 </td>
 <td align="left" width="63%">
 Sets the behavior of fast-forward play ("trick mode").
@@ -99,7 +99,7 @@ Sets the behavior of fast-forward play ("trick mode").
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9133331b-cf0c-4dfb-8bb6-101742d194c7">SetMultiplexedPacketSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure2-setmultiplexedpacketsize">SetMultiplexedPacketSize</a>
 </td>
 <td align="left" width="63%">
 Sets the size of the multiplexed packets in the backing files.
@@ -123,11 +123,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/8874fefd-2241-4b04-a7d5-191e13743fa0">IStreamBufferConfigure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure">IStreamBufferConfigure</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3e8703a-2b69-4262-9aaa-ff9ac8ca2f28">Stream Buffer Engine Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-interfaces">Stream Buffer Engine Interfaces</a>
  
 
  

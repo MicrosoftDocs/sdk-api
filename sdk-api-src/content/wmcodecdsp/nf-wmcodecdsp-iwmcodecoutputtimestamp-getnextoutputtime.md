@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling <b>IMediaObject::ProcessOutput</b> or <a href="https://msdn.microsoft.com/dc58cc75-7e01-4f47-a572-8e3ca1bc43b4">IMFTransform::ProcessOutput</a> to get the sample.
+Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling <b>IMediaObject::ProcessOutput</b> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> to get the sample.
 
 
 
@@ -105,7 +105,7 @@ This method is important when decoding video using frame interpolation, because 
 
 
 
-<a href="https://msdn.microsoft.com/0dbac3fa-7521-434d-aa0a-2e8422c3da59">IWMCodecOutputTimestamp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecoutputtimestamp">IWMCodecOutputTimestamp Interface</a>
  
 
  

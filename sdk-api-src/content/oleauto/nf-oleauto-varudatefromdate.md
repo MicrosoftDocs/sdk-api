@@ -128,7 +128,7 @@ Insufficient memory to complete the operation.
 
 
 
-The UDATE structure is used with <a href="https://msdn.microsoft.com/1c924ac5-b896-49e1-9ccf-825ac7a030c8">VarDateFromUdate</a> and <b>VarUdateFromDate</b>.  It represents an "unpacked" date.
+The UDATE structure is used with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vardatefromudate">VarDateFromUdate</a> and <b>VarUdateFromDate</b>.  It represents an "unpacked" date.
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct {
     SYSTEMTIME st;

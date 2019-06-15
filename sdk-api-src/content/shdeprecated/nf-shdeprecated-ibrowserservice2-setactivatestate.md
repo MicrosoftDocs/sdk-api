@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Updates the value of the <b>_uActivateState</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
+Deprecated. Updates the value of the <b>_uActivateState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-basebrowserdatalh">BASEBROWSERDATA</a> structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Deprecated. Updates the value of the <b>_uActivateState</b> member of the <a hre
 
 Type: <b>UINT</b>
 
-The activation state of the window. This is always the SVUIA_ACTIVATE_FOCUS (0x0002) value from the <a href="https://msdn.microsoft.com/04cb4259-4d16-44d0-8186-bce21ceab887">SVUIA_STATUS</a> enumeration defined in Shobjidl.h.
+The activation state of the window. This is always the SVUIA_ACTIVATE_FOCUS (0x0002) value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration defined in Shobjidl.h.
 
 
 ## -returns

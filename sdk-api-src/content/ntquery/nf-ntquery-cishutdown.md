@@ -74,7 +74,7 @@ This function does not return a value.
 
 
 
-This function does not have an associated header or library file. To use this function, call <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> with the DLL name (Query.dll) to obtain a module handle, and then call <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> with that module handle and an architecture-specific function name to get the address of this function. Specify the function name as "<b>?CIShutdown@@YGXXZ</b>" for x86 architecture, or as "<b>?CIShutdown@@YAXXZ</b>" for x64 architecture.
+This function does not have an associated header or library file. To use this function, call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> with the DLL name (Query.dll) to obtain a module handle, and then call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> with that module handle and an architecture-specific function name to get the address of this function. Specify the function name as "<b>?CIShutdown@@YGXXZ</b>" for x86 architecture, or as "<b>?CIShutdown@@YAXXZ</b>" for x64 architecture.
 
 
 

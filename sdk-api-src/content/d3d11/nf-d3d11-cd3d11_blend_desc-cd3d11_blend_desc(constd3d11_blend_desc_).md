@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of a <a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a> structure that is initialized with a **CD3D11_BLEND_DESC** structure.
+Instantiates a new instance of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a> structure that is initialized with a **CD3D11_BLEND_DESC** structure.
 
 ## -parameters
 
@@ -59,4 +59,4 @@ Address of the **CD3D11_BLEND_DESC** structure that initializes the **CD3D11_BLE
 ## -remarks
 
 ## -see-also
-<a href="https://msdn.microsoft.com/EC45CD9E-FD2E-4D1D-9D35-1CD7C5B8085D">CD3D11_BLEND_DESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a>

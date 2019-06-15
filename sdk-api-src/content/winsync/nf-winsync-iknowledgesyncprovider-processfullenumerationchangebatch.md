@@ -132,15 +132,15 @@ This method is called during forgotten knowledge recovery.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd316936(v=VS.85).aspx">CONFLICT RESOLUTION POLICY Enumeration</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ne-winsync-__midl___midl_itf_winsync_0000_0000_0002">CONFLICT RESOLUTION POLICY Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/396bbf7e-7fd0-4a2e-8304-f87097cd5e50">IKnowledgeSyncProvider Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3e4a4f4-4a67-4dce-a81a-3861dcf788e6">SYNC RANGE Structure</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/ns-winsync-_sync_range">SYNC RANGE Structure</a>
  
 
  

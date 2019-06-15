@@ -59,7 +59,7 @@ Gets the broadcaster-defined tag that identifies a component record from an Inte
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the component record that contains the tag. To get the number of components, call <a href="https://msdn.microsoft.com/00df3bb9-494b-4e2c-b836-4893fd6eff8c">IIsdbCAContractInformationDescriptor::GetCountOfRecords</a>.
+Zero-based index of the component record that contains the tag. To get the number of components, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcacontractinformationdescriptor-getcountofrecords">IIsdbCAContractInformationDescriptor::GetCountOfRecords</a>.
 
 
 ### -param pbVal [out]
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d877a625-d683-4472-98de-f24c165c753a">IIsdbCAContractInformationDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcacontractinformationdescriptor">IIsdbCAContractInformationDescriptor</a>
  
 
  

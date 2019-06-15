@@ -59,7 +59,7 @@ Indicates whether a drop can be accepted, and, if so, the effect of the drop.
 
 ### -param pDataObj [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> interface on the data object. This data object contains the data being transferred in the drag-and-drop operation. If the drop occurs, this data object will be incorporated into the target.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object. This data object contains the data being transferred in the drag-and-drop operation. If the drop occurs, this data object will be incorporated into the target.
 
 
 ### -param grfKeyState [in]
@@ -69,12 +69,12 @@ The current state of the keyboard modifier keys on the keyboard. Possible values
 
 ### -param pt [in]
 
-A <a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
+A <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
 
 
 ### -param pdwEffect [in, out]
 
-On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function. On return, must contain one of the <a href="https://msdn.microsoft.com/d8e46899-3fbf-4012-8dd3-67fa627526d5">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
+On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. On return, must contain one of the <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
 
 
 ## -returns
@@ -131,7 +131,7 @@ There was insufficient memory available for this operation.
 
 
 
-You do not call <b>DragEnter</b> directly; instead the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function calls it to determine the effect of a drop the first time the user drags the mouse into the registered window of a drop target.
+You do not call <b>DragEnter</b> directly; instead the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls it to determine the effect of a drop the first time the user drags the mouse into the registered window of a drop target.
 
 To implement <b>DragEnter</b>, you must determine whether the target can use the data in the source data object by checking three things:
 
@@ -140,9 +140,9 @@ To implement <b>DragEnter</b>, you must determine whether the target can use the
 <li>The input value of <i>pdwEffect</i></li>
 <li>The state of the modifier keys</li>
 </ul>
-To check the format and medium, use the <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a> pointer passed in the <i>pDataObject</i> parameter to call <a href="https://msdn.microsoft.com/657a7394-4481-4e0c-912d-40a9348caf16">IDataObject::EnumFormatEtc</a> so you can enumerate the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structures the source data object supports. Then call <a href="https://msdn.microsoft.com/38a1bb4f-7762-4e74-a386-4ae05e59d15f">IDataObject::QueryGetData</a> to determine whether the data object can render the data on the target by examining the formats and medium specified for the data object.
+To check the format and medium, use the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> pointer passed in the <i>pDataObject</i> parameter to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-enumformatetc">IDataObject::EnumFormatEtc</a> so you can enumerate the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structures the source data object supports. Then call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-querygetdata">IDataObject::QueryGetData</a> to determine whether the data object can render the data on the target by examining the formats and medium specified for the data object.
 
-On entry to <b>IDropTarget::DragEnter</b>, the <i>pdwEffect</i> parameter is set to the effects given to the <i>pdwOkEffect</i> parameter of the <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> function. The <b>IDropTarget::DragEnter</b> method must choose one of these effects or disable the drop.
+On entry to <b>IDropTarget::DragEnter</b>, the <i>pdwEffect</i> parameter is set to the effects given to the <i>pdwOkEffect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. The <b>IDropTarget::DragEnter</b> method must choose one of these effects or disable the drop.
 
 The following modifier keys affect the result of the drop.
 
@@ -178,7 +178,7 @@ The following modifier keys affect the result of the drop.
 </table>
  
 
-On return, the method must write the effect, one of the DROPEFFECT flags, to the <i>pdwEffect</i> parameter. <a href="https://msdn.microsoft.com/095172ac-9e08-4797-b9da-41a4e5a61315">DoDragDrop</a> then takes this parameter and writes it to its <i>pdwEffect</i> parameter. You communicate the effect of the drop back to the source through <b>DoDragDrop</b> in the <i>pdwEffect</i> parameter. The <b>DoDragDrop</b> function then calls <a href="https://msdn.microsoft.com/dde37299-ad7c-4f59-af99-e75b72ad9188">IDropSource::GiveFeedback</a> so that the source application can display the appropriate visual feedback to the user through the target window.
+On return, the method must write the effect, one of the DROPEFFECT flags, to the <i>pdwEffect</i> parameter. <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> then takes this parameter and writes it to its <i>pdwEffect</i> parameter. You communicate the effect of the drop back to the source through <b>DoDragDrop</b> in the <i>pdwEffect</i> parameter. The <b>DoDragDrop</b> function then calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idropsource-givefeedback">IDropSource::GiveFeedback</a> so that the source application can display the appropriate visual feedback to the user through the target window.
 
 
 
@@ -188,27 +188,27 @@ On return, the method must write the effect, one of the DROPEFFECT flags, to the
 
 
 
-<a href="https://msdn.microsoft.com/2e4d7013-910c-4a6e-8eee-818e1f2302ac">DragEnter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">DragEnter</a>
 
 
 
-<a href="https://msdn.microsoft.com/963a36bc-4ad7-4591-bffc-a96b4310177d">IDropSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/62ef4fe6-3871-41ef-9542-6fe9f3bed21c">IDropSourceNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/00726271-4436-41f5-b7cc-666cd77216bc">RegisterDragDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0fa963c-ed06-426c-8ffc-31b02f083a23">RevokeDragDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
  
 
  

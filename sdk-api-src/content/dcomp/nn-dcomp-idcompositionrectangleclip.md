@@ -54,7 +54,7 @@ Represents a clip object that restricts the rendering of a visual subtree to the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionRectangleClip</b> interface inherits from <a href="https://msdn.microsoft.com/647638f4-7eca-42bc-a083-3d9d15089648">IDCompositionClip</a>. <b>IDCompositionRectangleClip</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionRectangleClip</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionclip">IDCompositionClip</a>. <b>IDCompositionRectangleClip</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448897(v=VS.85).aspx">SetBottom</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setbottom">SetBottom</a>
 </td>
 <td align="left" width="63%">Overloaded. Animates or changes the value of the Bottom property of a clip rectangle.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh437435(v=VS.85).aspx">SetBottomLeftRadiusX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setbottomleftradiusx">SetBottomLeftRadiusX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the BottomLeftRadiusX property of this clip. The BottomLeftRadiusX property  specifies the x radius of the ellipse that rounds the lower-left corner of the clip.
 
@@ -85,7 +85,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh437441(v=VS.85).aspx">SetBottomLeftRadiusY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setbottomleftradiusy">SetBottomLeftRadiusY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the BottomLeftRadiusY property of this clip. The BottomLeftRadiusY property  specifies the y radius of the ellipse that rounds the lower-left corner of the clip.
 
@@ -93,7 +93,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448849(v=VS.85).aspx">SetBottomRightRadiusX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setbottomrightradiusx">SetBottomRightRadiusX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the BottomRightRadiusX property of this clip. The BottomRightRadiusX property  specifies the x radius of the ellipse that rounds the lower-right corner of the clip.
 
@@ -101,7 +101,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448854(v=VS.85).aspx">SetBottomRightRadiusY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setbottomrightradiusy">SetBottomRightRadiusY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the BottomRightRadiusY property of this clip. The BottomRightRadiusY property  specifies the y radius of the ellipse that rounds the lower-right corner of the clip.
 
@@ -109,7 +109,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448903(v=VS.85).aspx">SetLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setleft">SetLeft</a>
 </td>
 <td align="left" width="63%">Overloaded. Animates or changes the value of the Left property of a clip rectangle.
 
@@ -117,7 +117,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448908(v=VS.85).aspx">SetRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setright">SetRight</a>
 </td>
 <td align="left" width="63%">Overloaded. Animates or changes the value of the Right property of a clip rectangle.
 
@@ -125,7 +125,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448923(v=VS.85).aspx">SetTop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-settop">SetTop</a>
 </td>
 <td align="left" width="63%">Overloaded. Animates or changes the value of the Top property of a clip rectangle.
 
@@ -133,7 +133,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448909(v=VS.85).aspx">SetTopLeftRadiusX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-settopleftradiusx">SetTopLeftRadiusX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the TopLeftRadiusX property of this clip. The TopLeftRadiusX property  specifies the x radius of the ellipse that rounds the top-left corner of the clip.
 
@@ -141,7 +141,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448912(v=VS.85).aspx">SetTopLeftRadiusY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-settopleftradiusy">SetTopLeftRadiusY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the TopLeftRadiusY property of this clip. The TopLeftRadiusY property  specifies the y radius of the ellipse that rounds the top-left corner of the clip.
 
@@ -149,7 +149,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448915(v=VS.85).aspx">SetTopRightRadiusX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-settoprightradiusx">SetTopRightRadiusX</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the TopRightRadiusX property of this clip. The TopRightRadiusX property  specifies the x radius of the ellipse that rounds the top-right corner of the clip.
 
@@ -157,7 +157,7 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh448918(v=VS.85).aspx">SetTopRightRadiusY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-settoprightradiusy">SetTopRightRadiusY</a>
 </td>
 <td align="left" width="63%">Overloaded. Changes or animates the value of the TopRightRadiusY property of this clip. The TopRightRadiusY property  specifies the y radius of the ellipse that rounds the top-right corner of the clip.
 
@@ -171,11 +171,11 @@ The <b>IDCompositionRectangleClip</b> interface has these methods.
 
 
 
-<a href="https://msdn.microsoft.com/647638f4-7eca-42bc-a083-3d9d15089648">IDCompositionClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionclip">IDCompositionClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449155(v=VS.85).aspx">IDCompositionVisual::SetClip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setclip">IDCompositionVisual::SetClip</a>
  
 
  

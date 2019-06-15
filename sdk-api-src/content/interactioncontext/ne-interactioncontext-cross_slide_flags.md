@@ -87,11 +87,11 @@ Maximum number of interactions exceeded.
 
 
 
-<a href="https://msdn.microsoft.com/365b0bed-888e-4e9c-ad13-254a241b9de9">INTERACTION_ARGUMENTS_CROSS_SLIDE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_arguments_cross_slide">INTERACTION_ARGUMENTS_CROSS_SLIDE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0B8D9A5F-F7CF-42B0-A320-77D44445CC24">Interaction Context Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
  
 
  

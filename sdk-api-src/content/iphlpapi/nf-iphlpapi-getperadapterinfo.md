@@ -67,13 +67,13 @@ The <b>GetPerAdapterInfo</b> function retrieves information for the adapter corr
 ### -param pPerAdapterInfo [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/10cfdded-4184-4d34-9ccd-85446c13d497">IP_PER_ADAPTER_INFO</a> structure that receives information about the adapter.
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_per_adapter_info_w2ksp1">IP_PER_ADAPTER_INFO</a> structure that receives information about the adapter.
 
 
 ### -param pOutBufLen [in]
 
 Pointer to a <b>ULONG</b> variable that specifies the size of the 
-<a href="https://msdn.microsoft.com/10cfdded-4184-4d34-9ccd-85446c13d497">IP_PER_ADAPTER_INFO</a> structure. If this size is insufficient to hold the information, 
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_per_adapter_info_w2ksp1">IP_PER_ADAPTER_INFO</a> structure. If this size is insufficient to hold the information, 
 <b>GetPerAdapterInfo</b> fills in this variable with the required size, and returns an error code of ERROR_BUFFER_OVERFLOW.
 
 
@@ -120,7 +120,7 @@ The <i>pOutBufLen</i> parameter is <b>NULL</b>, or the calling process does not 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/fc1ae7e4-f856-4b48-8ab4-56cd511ed161">GetPerAdapterInfo</a> is not supported by the operating system running on the local computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getperadapterinfo">GetPerAdapterInfo</a> is not supported by the operating system running on the local computer.
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ The <i>pOutBufLen</i> parameter is <b>NULL</b>, or the calling process does not 
 </td>
 <td width="60%">
 If the function fails, use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -160,15 +160,15 @@ If the function fails, use
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/10cfdded-4184-4d34-9ccd-85446c13d497">IP_PER_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-_ip_per_adapter_info_w2ksp1">IP_PER_ADAPTER_INFO</a>
  
 
  

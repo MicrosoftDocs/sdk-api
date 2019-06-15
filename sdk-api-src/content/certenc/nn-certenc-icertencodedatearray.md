@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>ICertEncodeDateArray</b> interface provides methods for handling <b>Date</b> arrays used in certificate extensions.
 
  A certificate extension can be created by using a <b>Date</b> array stored in an 
-<a href="https://msdn.microsoft.com/a33ac417-b5f9-4ad7-a26e-13cdb1e4ac1b">extension handler</a> COM object instantiated by the policy module. Each element in the array is a <b>Date</b> value.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/writing-custom-extension-handlers">extension handler</a> COM object instantiated by the policy module. Each element in the array is a <b>Date</b> value.
 
 This interface is provided mainly as a demonstration for encoding custom extensions. The Certificate Services sample programs in the Platform Software Development Kit (SDK) contain source code for this interface.
 
@@ -63,7 +63,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeDateArray</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeDateArray</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeDateArray</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertEncodeDateArray</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,16 +78,16 @@ The <b>ICertEncodeDateArray</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/79937ef7-4b1a-4132-9ef4-23b2857c7fac">Decode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-decode">Decode</a>
 </td>
 <td align="left" width="63%">
-Decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded <b>Date</b> array and stores the resulting array of <b>Date</b>s in the COM object.
+Decodes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded <b>Date</b> array and stores the resulting array of <b>Date</b>s in the COM object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/102ca165-c320-4e18-986f-7375fbc617e0">Encode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-encode">Encode</a>
 </td>
 <td align="left" width="63%">
 Performs ASN.1 encoding on a <b>Date</b> array stored in the COM object and returns the ASN.1-encoded <b>Date</b> array.
@@ -96,7 +96,7 @@ Performs ASN.1 encoding on a <b>Date</b> array stored in the COM object and retu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25c61f42-b190-44c3-b2ba-57861bdfbce3">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of <b>Date</b> values in a <b>Date</b> array.
@@ -105,7 +105,7 @@ Returns the number of <b>Date</b> values in a <b>Date</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db108b2a-c3ee-4ef8-be5c-74dc739dacee">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Returns the <b>Date</b> value at a specified index of a <b>Date</b> array.
@@ -114,7 +114,7 @@ Returns the <b>Date</b> value at a specified index of a <b>Date</b> array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f09087aa-ae10-4a59-9b59-5f8b72254ce6">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets a <b>Date</b> array to a specified number of elements and clears the values.
@@ -123,7 +123,7 @@ Resets a <b>Date</b> array to a specified number of elements and clears the valu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e05a7aa1-81ad-4564-a6a5-65b8ac816598">SetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets a <b>Date</b> value at a specified index of a <b>Date</b> array.

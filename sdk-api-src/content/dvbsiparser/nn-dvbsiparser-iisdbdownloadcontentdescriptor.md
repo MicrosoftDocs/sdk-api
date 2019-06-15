@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbDownloadContentDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbDownloadContentDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbDownloadContentDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbDownloadContentDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbDownloadContentDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/054fe987-49e1-4434-a9b9-6b1030fa2c41">GetCompatiblityDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getcompatiblitydescriptor">GetCompatiblityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets data from the compatibility descriptor in an ISDB download content descriptor.
@@ -78,7 +78,7 @@ Gets data from the compatibility descriptor in an ISDB download content descript
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b8fc770c-aa37-4f97-beb5-6e5747904a6c">GetCompatiblityDescriptorLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getcompatiblitydescriptorlength">GetCompatiblityDescriptorLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length of the compatibility descriptor  from an ISDB download content descriptor.
@@ -87,7 +87,7 @@ Gets the length of the compatibility descriptor  from an ISDB download content d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07edb403-6674-4673-928c-91e7df9fe9da">GetComponentSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getcomponentsize">GetComponentSize</a>
 </td>
 <td align="left" width="63%">
  Gets the total size of components within an ISDB download content descriptor.
@@ -96,7 +96,7 @@ Gets the length of the compatibility descriptor  from an ISDB download content d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4ba2fbd-4349-48e3-81dd-622442409060">GetComponentTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getcomponenttag">GetComponentTag</a>
 </td>
 <td align="left" width="63%">
  Gets a tag that identifies the downloaded stream from an ISDB download content descriptor.
@@ -105,7 +105,7 @@ Gets the length of the compatibility descriptor  from an ISDB download content d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5a0b8e1-bb88-4ef6-ab25-b35b3d39fef0">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of records in an ISDB download content descriptor.
@@ -114,7 +114,7 @@ Gets the number of records in an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b57eba56-b9d6-4555-8d5d-80fd2b9fd23f">GetDownloadId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getdownloadid">GetDownloadId</a>
 </td>
 <td align="left" width="63%">
  Gets the download identifier from an ISDB download content descriptor
@@ -123,7 +123,7 @@ Gets the number of records in an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df104d6d-1436-4c7d-b250-b740e1f70c07">GetFlags</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the values of flags  from an ISDB download content descriptor.
@@ -132,7 +132,7 @@ Gets the values of flags  from an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e85f026-66bf-4c13-b476-3aca9e28b3b6">GetLeakRate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getleakrate">GetLeakRate</a>
 </td>
 <td align="left" width="63%">
  Gets the leak rate of the transport buffer from an ISDB download content descriptor.
@@ -141,7 +141,7 @@ Gets the values of flags  from an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0eb0e44-da1c-4b52-9c96-199db6d3288e">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of an ISDB download content descriptor.
@@ -150,7 +150,7 @@ Gets the body length of an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c714b2f2-e787-40cc-b57b-d56b54dc8966">GetRecordModuleId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getrecordmoduleid">GetRecordModuleId</a>
 </td>
 <td align="left" width="63%">
  Gets the identifier for a carousel module from an ISDB download content descriptor.
@@ -159,7 +159,7 @@ Gets the body length of an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0f9dc48c-7df3-498b-b9ff-4610bd9e7ac2">GetRecordModuleInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getrecordmoduleinfo">GetRecordModuleInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the module descriptor field from an ISDB download content descriptor.
@@ -168,7 +168,7 @@ Gets the module descriptor field from an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/963f44be-e0f4-4cb7-8e71-8641af0cd700">GetRecordModuleInfoLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getrecordmoduleinfolength">GetRecordModuleInfoLength</a>
 </td>
 <td align="left" width="63%">
  Gets the length of the module_info_byte field that contains descriptors for the module from an ISDB download content descriptor.
@@ -177,7 +177,7 @@ Gets the module descriptor field from an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/395264ee-63de-4de4-bd28-4d5c4634dcf3">GetRecordModuleSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-getrecordmodulesize">GetRecordModuleSize</a>
 </td>
 <td align="left" width="63%">
  Gets the size of a carousel module from an ISDB download content descriptor.
@@ -186,7 +186,7 @@ Gets the module descriptor field from an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a78c3f3b-aaa2-4b5e-9cf8-7746f20fafc2">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB download content descriptor.
@@ -195,7 +195,7 @@ Gets the tag that identifies an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/023e2b6f-0f38-4550-a839-29c254970219">GetTextLanguageCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-gettextlanguagecode">GetTextLanguageCode</a>
 </td>
 <td align="left" width="63%">
  Gets the three-character ISO 639 language code used for the service description in an ISDB download content descriptor.
@@ -204,7 +204,7 @@ Gets the tag that identifies an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf26ff9b-02d8-4470-bde5-6a18c62c6511">GetTextW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-gettextw">GetTextW</a>
 </td>
 <td align="left" width="63%">
  Gets the service description from an ISDB download content descriptor, in Unicode string format.
@@ -213,7 +213,7 @@ Gets the tag that identifies an ISDB download content descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec1bd153-e637-4046-8d7b-f2868c4909dd">GetTimeOutValueDII</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbdownloadcontentdescriptor-gettimeoutvaluedii">GetTimeOutValueDII</a>
 </td>
 <td align="left" width="63%">
  Gets the recommended download timeout interval from an ISDB download content descriptor.

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The PCCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The PCCARD_RESOURCE structure is used for specifying either a resource list or a
 
 ### -field PcCard_Header
 
-A <a href="https://msdn.microsoft.com/d1bf4d50-70e1-4eff-8973-0b83a31f55fc">PCCARD_DES</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des_s">PCCARD_DES</a> structure.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/d1bf4d50-70e1-4eff-8973-0b83a31f55fc">PCCA
 
 
 
-<a href="https://msdn.microsoft.com/d1bf4d50-70e1-4eff-8973-0b83a31f55fc">PCCARD_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_des_s">PCCARD_DES</a>
  
 
  

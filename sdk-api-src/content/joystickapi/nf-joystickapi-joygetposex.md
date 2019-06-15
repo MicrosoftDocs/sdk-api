@@ -69,7 +69,7 @@ Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range f
 
 ### -param pji
 
-Pointer to a <a href="https://msdn.microsoft.com/2c07b56b-a9d5-450f-96ca-0fdaf60c52a3">JOYINFOEX</a> structure that contains extended position information and button status of the joystick. You must set the <b>dwSize</b> and <b>dwFlags</b> members or <b>joyGetPosEx</b> will fail. The information returned from <b>joyGetPosEx</b> depends on the flags you specify in <b>dwFlags</b>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757112(v=vs.85)">JOYINFOEX</a> structure that contains extended position information and button status of the joystick. You must set the <b>dwSize</b> and <b>dwFlags</b> members or <b>joyGetPosEx</b> will fail. The information returned from <b>joyGetPosEx</b> depends on the flags you specify in <b>dwFlags</b>.
 
 
 ## -returns
@@ -148,7 +148,7 @@ The specified joystick identifier is invalid.
 
 
 
-This function provides access to extended devices such as rudder pedals, point-of-view hats, devices with a large number of buttons, and coordinate systems using up to six axes. For joystick devices that use three axes or fewer and have fewer than four buttons, use the <a href="https://msdn.microsoft.com/84f6a19b-1573-4e36-8a2b-7c79b12bf8ba">joyGetPos</a> function.
+This function provides access to extended devices such as rudder pedals, point-of-view hats, devices with a large number of buttons, and coordinate systems using up to six axes. For joystick devices that use three axes or fewer and have fewer than four buttons, use the <a href="https://docs.microsoft.com/previous-versions//dd757107(v=vs.85)">joyGetPos</a> function.
 
 
 
@@ -158,11 +158,11 @@ This function provides access to extended devices such as rudder pedals, point-o
 
 
 
-<a href="https://msdn.microsoft.com/29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a">Joysticks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://msdn.microsoft.com/84e47ac3-b40f-48bc-8f59-cc678d7d521e">Multimedia Joystick Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
  
 
  

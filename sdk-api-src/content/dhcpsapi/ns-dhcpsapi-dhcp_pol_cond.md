@@ -65,19 +65,19 @@ Integer that specifies the expression index that corresponds to this constituent
 ### -field Type
 
 
-<a href="https://msdn.microsoft.com/02a84c55-402c-40fe-8dad-6ed3f58052a1">DHCP_POL_ATTR_TYPE</a> enumeration that specifies the attribute type for this condition.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_pol_attr_type">DHCP_POL_ATTR_TYPE</a> enumeration that specifies the attribute type for this condition.
 
 
 ### -field OptionID
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_OPTION_ID</a> value that specifies the unique option identifier for criteria based on DHCP options or sub-options.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the unique option identifier for criteria based on DHCP options or sub-options.
 
 
 ### -field SubOptionID
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_OPTION_ID</a> value that specifies the unique sub-option identifier.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the unique sub-option identifier.
 
 
 ### -field VendorName
@@ -88,7 +88,7 @@ A pointer to a null-terminated Unicode string that represents the vendor name.
 ### -field Operator
 
 
-<a href="https://msdn.microsoft.com/7b34e9ec-a3c6-4b85-bb36-d4f834912a64">DHCP_POL_COMPARATOR</a> enumeration that specifies the comparison operator for the condition.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_pol_comparator">DHCP_POL_COMPARATOR</a> enumeration that specifies the comparison operator for the condition.
 
 
 ### -field Value
@@ -116,7 +116,7 @@ Integer that specifies the length of <b>Value</b>.
 
 
 
-<a href="https://msdn.microsoft.com/2A084E80-92F8-43F5-89C8-22F08CE449E9">DHCP_POL_COND_ARRAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_pol_cond_array">DHCP_POL_COND_ARRAY</a>
  
 
  

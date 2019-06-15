@@ -61,7 +61,7 @@ Specifies whether a particular property key exists in the change array.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure of interest.
+A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure of interest.
 
 
 ## -returns

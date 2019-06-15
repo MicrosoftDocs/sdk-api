@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/af7186f8-7921-48e3-a4fd-23259a6e9018">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SetNtmsDeviceChangeDetection</b> function sets one or more target devices for change detection.
@@ -63,13 +63,13 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://msdn.microsoft.com/5a323911-e99c-4f81-9580-0feac2f0a54e">OpenNtmsSession</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 
 ### -param DetectHandle [in]
 
 Device change detection handle from 
-<a href="https://msdn.microsoft.com/d325a10a-5bf9-4431-8a6a-a50c4cf46728">BeginNtmsDeviceChangeDetection</a>, or <b>NULL</b> for a single poll.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-beginntmsdevicechangedetection">BeginNtmsDeviceChangeDetection</a>, or <b>NULL</b> for a single poll.
 
 
 ### -param lpRequestId [in]
@@ -80,7 +80,7 @@ Object identifier for the target device. This parameter can be one or more libra
 ### -param dwType [in]
 
 Type of object identifiers specified in the <i>lpObjectId</i> parameter. This parameter can be one of the following values from the 
-<a href="https://msdn.microsoft.com/598e7cb1-f463-4252-9bdf-ccb98f36f4da">NtmsObjectsTypes</a> enumeration type: NTMS_LIBRARY, NTMS_MEDIA_TYPE, or NTMS_PHYSICAL_MEDIA.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a> enumeration type: NTMS_LIBRARY, NTMS_MEDIA_TYPE, or NTMS_PHYSICAL_MEDIA.
 
 
 ### -param dwCount [in]
@@ -165,7 +165,7 @@ The operator request has been canceled.
 
 
 The device can be specified directly by passing library GUIDs or indirectly by passing physical media or media type GUIDs. When using the indirect specification, all stand-alone libraries that could contain the media or media type are detected. All devices specified continue to be detected until the device change detection handle is closed using the 
-<a href="https://msdn.microsoft.com/cb8dc379-30a1-43b0-b5a7-c6bc59b3e9ac">EndNtmsDeviceChangeDetection</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-endntmsdevicechangedetection">EndNtmsDeviceChangeDetection</a> function.
 
 This function can also be used to poll for changed media in the specified devices. This is typically used by a UI when opening a leaf node or implementing a refresh option.
 
@@ -177,15 +177,15 @@ This function can also be used to poll for changed media in the specified device
 
 
 
-<a href="https://msdn.microsoft.com/d325a10a-5bf9-4431-8a6a-a50c4cf46728">BeginNtmsDeviceChangeDetection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-beginntmsdevicechangedetection">BeginNtmsDeviceChangeDetection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Change Detection Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb8dc379-30a1-43b0-b5a7-c6bc59b3e9ac">EndNtmsDeviceChangeDetection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-endntmsdevicechangedetection">EndNtmsDeviceChangeDetection</a>
  
 
  

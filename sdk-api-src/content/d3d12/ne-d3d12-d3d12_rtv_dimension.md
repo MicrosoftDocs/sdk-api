@@ -59,7 +59,7 @@ Identifies the type of resource to view as a render target.
 
 ### -field D3D12_RTV_DIMENSION_UNKNOWN
 
-Do not use this value, as it will cause <a href="https://msdn.microsoft.com/B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4">ID3D12Device::CreateRenderTargetView</a> to fail.
+Do not use this value, as it will cause <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrendertargetview">ID3D12Device::CreateRenderTargetView</a> to fail.
 
 
 ### -field D3D12_RTV_DIMENSION_BUFFER
@@ -106,7 +106,7 @@ The resource will be accessed as a 3D texture.
 
 
 
-Specify one of the values in this enumeration in the <b>ViewDimension</b> member of a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure.
+Specify one of the values in this enumeration in the <b>ViewDimension</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_target_view_desc">D3D12_RENDER_TARGET_VIEW_DESC</a> structure.
 
 
 
@@ -116,7 +116,7 @@ Specify one of the values in this enumeration in the <b>ViewDimension</b> member
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

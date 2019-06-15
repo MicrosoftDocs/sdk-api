@@ -69,7 +69,7 @@ The <b>IWPCWebSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf0c1a54-ac36-45f4-8005-1847dc00bf7f">GetSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-getsettings">GetSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the web restrictions settings.
@@ -78,7 +78,7 @@ Retrieves the web restrictions settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2e229b0e-59ae-4fcf-a398-32bc20611802">RequestURLOverride</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwpcwebsettings-requesturloverride">RequestURLOverride</a>
 </td>
 <td align="left" width="63%">
 Requests that the Parental Controls web restrictions subsystem set the specified primary and sub URLs to the allowed state.

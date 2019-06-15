@@ -111,7 +111,7 @@ The <i>ulIndex</i> parameter is out of bounds.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693406(v=VS.85).aspx">IBDA_NameValueService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_namevalueservice">IBDA_NameValueService</a>
  
 
  

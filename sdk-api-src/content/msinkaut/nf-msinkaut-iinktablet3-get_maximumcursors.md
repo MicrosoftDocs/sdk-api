@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/9b275a35-95d8-40fd-b406-d83eb9aa2adf">IInkTablet3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet3">IInkTablet3</a>
  
 
  

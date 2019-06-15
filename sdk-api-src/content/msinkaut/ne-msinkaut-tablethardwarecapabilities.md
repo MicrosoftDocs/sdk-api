@@ -98,11 +98,11 @@ This enumeration is a flag.
 
 
 
-<a href="https://msdn.microsoft.com/886c1e7c-fec0-4294-aba1-8e0806c2d0ca">HardwareCapabilities Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-get_hardwarecapabilities">HardwareCapabilities Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a945740-b191-41f5-8b3d-49b7e2d1e463">IInkTablet Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
  
 
  

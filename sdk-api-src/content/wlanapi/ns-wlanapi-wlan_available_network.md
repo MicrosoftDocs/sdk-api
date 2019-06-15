@@ -64,12 +64,12 @@ Contains the profile name associated with the network.  If the network does not 
 
 ### -field dot11Ssid
 
-A <a href="https://msdn.microsoft.com/f2b15ef9-99ee-4505-8575-224112024d7a">DOT11_SSID</a> structure that contains the SSID of the visible wireless network.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that contains the SSID of the visible wireless network.
 
 
 ### -field dot11BssType
 
-A <a href="https://msdn.microsoft.com/13d57339-655e-4978-974e-e7b12a83d18a">DOT11_BSS_TYPE</a> value that specifies whether the network is infrastructure or ad hoc.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> value that specifies whether the network is infrastructure or ad hoc.
 
 
 ### -field uNumberOfBssids
@@ -96,7 +96,7 @@ The number of PHY types supported on available networks. The maximum value of <i
 
 ### -field dot11PhyTypes
 
-Contains an array of <a href="https://msdn.microsoft.com/f3804e57-c633-4288-9749-2b267b1353ae">DOT11_PHY_TYPE</a> values that represent the PHY types supported by the available networks. When <i>uNumberOfPhyTypes</i> is greater than <b>WLAN_MAX_PHY_TYPE_NUMBER</b>, this array contains only the first <b>WLAN_MAX_PHY_TYPE_NUMBER</b> PHY types.
+Contains an array of <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> values that represent the PHY types supported by the available networks. When <i>uNumberOfPhyTypes</i> is greater than <b>WLAN_MAX_PHY_TYPE_NUMBER</b>, this array contains only the first <b>WLAN_MAX_PHY_TYPE_NUMBER</b> PHY types.
 
 <table>
 <tr>
@@ -235,7 +235,7 @@ Specifies the end of the range that is used to define PHY types that are develop
 
 Specifies if there are more than <b>WLAN_MAX_PHY_TYPE_NUMBER</b> PHY types supported. 
 
-When this member is set to <b>TRUE</b>, an application must call <a href="https://msdn.microsoft.com/62f51b6e-3db1-48cd-8853-0dbe522c5e82">WlanGetNetworkBssList</a> to get the complete list of PHY types. The returned  <a href="https://msdn.microsoft.com/aeb68835-31ce-4fa7-980a-91a328fbcbc3">WLAN_BSS_LIST</a> structure has an array of <a href="https://msdn.microsoft.com/25a76128-13d9-47dd-9c73-1fbf06a908be">WLAN_BSS_ENTRY</a> structures. The <i>uPhyId</i> member of the <b>WLAN_BSS_ENTRY</b>   structure contains the PHY type for an entry. 
+When this member is set to <b>TRUE</b>, an application must call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> to get the complete list of PHY types. The returned  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_list">WLAN_BSS_LIST</a> structure has an array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a> structures. The <i>uPhyId</i> member of the <b>WLAN_BSS_ENTRY</b>   structure contains the PHY type for an entry. 
 
 
 ### -field wlanSignalQuality
@@ -250,12 +250,12 @@ Indicates whether security is enabled on the network.  A value of <b>TRUE</b> in
 
 ### -field dot11DefaultAuthAlgorithm
 
-A <a href="https://msdn.microsoft.com/ac4097df-46dc-4c64-b72a-7cb9dce8b418">DOT11_AUTH_ALGORITHM</a> value that indicates the default authentication algorithm used to join this network for the first time.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-auth-algorithm">DOT11_AUTH_ALGORITHM</a> value that indicates the default authentication algorithm used to join this network for the first time.
 
 
 ### -field dot11DefaultCipherAlgorithm
 
-A <a href="https://msdn.microsoft.com/6b634d76-a159-438e-8fc6-5f05b326ed68">DOT11_CIPHER_ALGORITHM</a> value that indicates the default cipher algorithm to be used when joining this network.
+A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-cipher-algorithm">DOT11_CIPHER_ALGORITHM</a> value that indicates the default cipher algorithm to be used when joining this network.
 
 
 ### -field dwFlags
@@ -301,7 +301,7 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/0ac508b2-9117-423d-89d3-982f070c70e2">WLAN_AVAILABLE_NETWORK_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
  
 
  

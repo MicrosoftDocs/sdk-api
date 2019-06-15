@@ -59,12 +59,12 @@ The <b>DrvQueryTrueTypeOutline</b> function retrieves glyph outlines in native T
 
 ### -param dhpdev
 
-Handle to a physical device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> structure returned from a call to <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
+Handle to a physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> structure returned from a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 
 ### -param pfo
 
-Pointer to a <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure. Details of the font realization can be queried from this structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure. Details of the font realization can be queried from this structure.
 
 
 ### -param hglyph
@@ -117,7 +117,7 @@ Outlines are to be returned unhinted.
 
 ### -param pgldt
 
-Pointer to the buffer where the <a href="https://msdn.microsoft.com/9153b8c7-e6ad-4297-a0b6-ea495b9b312f">GLYPHDATA</a> structure for this glyph should be written. If <i>pgldt</i> is <b>NULL</b>, no data is written to the GLYPHDATA structure.
+Pointer to the buffer where the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_glyphdata">GLYPHDATA</a> structure for this glyph should be written. If <i>pgldt</i> is <b>NULL</b>, no data is written to the GLYPHDATA structure.
 
 
 ### -param cjBuf
@@ -153,11 +153,11 @@ The return value is the size, in bytes, required for the <i>ppoly</i> buffer if 
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
  
 
  

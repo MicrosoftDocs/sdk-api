@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-Indicates whether the system dictionary, user dictionary, or <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">word list</a> contain a specified string.
+Indicates whether the system dictionary, user dictionary, or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">word list</a> contain a specified string.
 
 
 
@@ -65,7 +65,7 @@ Indicates whether the system dictionary, user dictionary, or <a href="https://ms
 
 The string to look up in the dictionaries and word list.
 
-For more information about the BSTR data type, see <a href="https://msdn.microsoft.com/fa43fad9-804c-42d9-9717-6686d5f98ed8">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 
 ### -param Supported [out, retval]
@@ -162,9 +162,9 @@ Unexpected parameter or property type.
 
 This method considers all flags and factoid, among other things, that give context to the string that is being tested.
 
-This method does not search the user dictionary if you specify a <a href="https://msdn.microsoft.com/d189fd13-ec69-45dc-8be4-fea48f337636">word list</a> for the context. The recognizer uses the speech dictionary in Microsoft Office XP.
+This method does not search the user dictionary if you specify a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">word list</a> for the context. The recognizer uses the speech dictionary in Microsoft Office XP.
 
-Use the <a href="https://msdn.microsoft.com/11a76706-e2e5-4ae5-bdc2-5354514ea29f">Factoid</a> property to limit the search to the system dictionary or the word list that is associated with the context. For example, to limit the search to the system dictionary, specify the <a href="https://msdn.microsoft.com/247a1f7d-8205-4e4d-9cfc-daad9bd2191f">SystemDictionary</a> factoid. To improve the results, you may also need to set the <a href="https://msdn.microsoft.com/71b02f99-4076-4c56-b88a-4201b7033411">RecognitionFlags</a> property.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid">Factoid</a> property to limit the search to the system dictionary or the word list that is associated with the context. For example, to limit the search to the system dictionary, specify the <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">SystemDictionary</a> factoid. To improve the results, you may also need to set the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags">RecognitionFlags</a> property.
 
 
 
@@ -174,7 +174,7 @@ Use the <a href="https://msdn.microsoft.com/11a76706-e2e5-4ae5-bdc2-5354514ea29f
 
 
 
-<a href="https://msdn.microsoft.com/11a76706-e2e5-4ae5-bdc2-5354514ea29f">Factoid Property [InkRecognizeContext Class]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid">Factoid Property [InkRecognizeContext Class]</a>
 
 
 
@@ -182,11 +182,11 @@ Use the <a href="https://msdn.microsoft.com/11a76706-e2e5-4ae5-bdc2-5354514ea29f
 
 
 
-<a href="https://msdn.microsoft.com/2b39fd32-831d-4606-8600-b52aaa7ed882">InkRecognizerContext Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/71b02f99-4076-4c56-b88a-4201b7033411">RecognitionFlags Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags">RecognitionFlags Property</a>
  
 
  

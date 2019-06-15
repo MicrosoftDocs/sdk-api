@@ -84,7 +84,7 @@ V color data.
 
 
 
-This structure is contained within the <a href="https://msdn.microsoft.com/en-us/library/Dd373488(v=VS.85).aspx">AM_PROPERTY_SPPAL</a> structure.
+This structure is contained within the <a href="https://docs.microsoft.com/windows/desktop/api/dvdmedia/ns-dvdmedia-_am_property_sppal">AM_PROPERTY_SPPAL</a> structure.
 
 
 
@@ -94,7 +94,7 @@ This structure is contained within the <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/ddbfb65c-7630-4e9f-8013-c5d65c62c628">DVD Subpicture Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-subpicture-property-set">DVD Subpicture Property Set</a>
  
 
  

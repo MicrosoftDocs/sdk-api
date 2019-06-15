@@ -67,7 +67,7 @@ A null-terminated string that contains the GUID of the patch. This parameter can
 
 ### -param szProductCode [in]
 
-A null-terminated string that contains the <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> GUID of the product instance. This parameter cannot be <b>NULL</b>.
+A null-terminated string that contains the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product instance. This parameter cannot be <b>NULL</b>.
 
 
 ### -param szUserSid [in]
@@ -189,7 +189,7 @@ Gets the set of patch transforms that the last patch installation applied to the
 </dl>
 </td>
 <td width="60%">
-Gets the last time this product received service. The value of this property is replaced each time a patch is applied or removed from the product or the /v <a href="https://msdn.microsoft.com/a70d8cc8-af47-4472-aabc-97481d97080d">Command-Line Option</a> is used to repair the product.  If the product has received no repairs or patches this property contains the time this product was installed on this computer.
+Gets the last time this product received service. The value of this property is replaced each time a patch is applied or removed from the product or the /v <a href="https://docs.microsoft.com/windows/desktop/Msi/command-line-options">Command-Line Option</a> is used to repair the product.  If the product has received no repairs or patches this property contains the time this product was installed on this computer.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ Returns "1" if the patch is marked as possible to uninstall from the product.  I
 </dl>
 </td>
 <td width="60%">
-Returns "1" if this patch is currently applied to the product. Returns "2" if this patch is superseded by another patch. Returns  "4" if this patch is obsolete.   These values correspond to the constants the <i>dwFilter</i> parameter of <a href="https://msdn.microsoft.com/32edcc56-190a-465f-b341-56dc60ab0589">MsiEnumPatchesEx</a> uses.
+Returns "1" if this patch is currently applied to the product. Returns "2" if this patch is superseded by another patch. Returns  "4" if this patch is obsolete.   These values correspond to the constants the <i>dwFilter</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumpatchesexa">MsiEnumPatchesEx</a> uses.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ Returns "1" if this patch is currently applied to the product. Returns "2" if th
 </td>
 <td width="60%">
 Get the registered display name for the patch. For patches that do not
-include the DisplayName property in the <a href="https://msdn.microsoft.com/b1c30e16-6c91-451a-8b75-7ddbcefcc092">MsiPatchMetadata</a> table, the
+include the DisplayName property in the <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchmetadata-table">MsiPatchMetadata</a> table, the
       returned display name is an empty string ("").
 
 </td>
@@ -236,7 +236,7 @@ include the DisplayName property in the <a href="https://msdn.microsoft.com/b1c3
 </td>
 <td width="60%">
 Get the registered support information URL for the patch. For patches that do not include the MoreInfoURL property in the 
-      <a href="https://msdn.microsoft.com/b1c30e16-6c91-451a-8b75-7ddbcefcc092">MsiPatchMetadata</a> table, the returned support information URL is an
+      <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchmetadata-table">MsiPatchMetadata</a> table, the returned support information URL is an
       empty string ("").
 
 </td>
@@ -393,11 +393,11 @@ A user may query patch data for any product instance that is visible. The admini
 
 
 
-<a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ad30ac9-eac9-49cf-98ae-5c053a0b500a">Removing Patches</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/removing-patches">Removing Patches</a>
  
 
  

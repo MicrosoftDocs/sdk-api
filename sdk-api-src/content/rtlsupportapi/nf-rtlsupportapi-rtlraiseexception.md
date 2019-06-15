@@ -61,7 +61,7 @@ Raises an exception.
 
 ### -param ExceptionRecord [in]
 
-Address of an <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> structure 
+Address of an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a> structure 
       that describes the exception, and the parameters of the exception, that is raised. Raising a software exception 
       captures the machine state of the current thread in a context record. The 
       <b>ExceptionAddress</b> member of the exception record is set to the caller's return 
@@ -82,7 +82,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_record">EXCEPTION_RECORD</a>
  
 
  

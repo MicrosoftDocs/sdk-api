@@ -51,22 +51,22 @@ ms.custom: 19H1
 
 The 
 <b>IComponent2</b> interface, implemented by snap-ins, is introduced in MMC 2.0 and supersedes the 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> interface.
 
 Snap-ins written for MMC 2.0 and later should implement 
 <b>IComponent2</b>, as the 
-<a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">IComponent2::GetResultViewType2</a> and 
-<a href="https://msdn.microsoft.com/fe9a71c7-eaa6-4479-8337-0746a784a57f">IComponent2::RestoreResultView</a> methods provide a way to precisely restoring a result view.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">IComponent2::GetResultViewType2</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-restoreresultview">IComponent2::RestoreResultView</a> methods provide a way to precisely restoring a result view.
 
 Additionally, the 
-<a href="https://msdn.microsoft.com/42c43111-7d65-4cfc-bb14-6a5d06f694e7">IComponent2::QueryDispatch</a> method provides an IDispatch interface to the 
-<a href="https://msdn.microsoft.com/004043d1-c7c3-4385-a4f5-a7fbf616d05c">View</a> object for use with the 
-<a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation Object Model</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-querydispatch">IComponent2::QueryDispatch</a> method provides an IDispatch interface to the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-object">View</a> object for use with the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponent2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComponent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponent2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,106 +81,106 @@ The <b>IComponent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bd7cd8e-140c-4f7b-9f2b-bf1bfe8a9a7a">CompareObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-compareobjects">CompareObjects</a>
 </td>
 <td align="left" width="63%">
 Enables a snap-in to compare two data objects acquired through 
-<a href="https://msdn.microsoft.com/5bdbd321-4245-4c73-9071-1a9bc3853ba5">QueryDataObject</a>. Be aware that data objects can be acquired from two different instances of 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">QueryDataObject</a>. Be aware that data objects can be acquired from two different instances of 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>.
 
-Implemented as <a href="https://msdn.microsoft.com/5bd7cd8e-140c-4f7b-9f2b-bf1bfe8a9a7a">IComponent::CompareObjects</a>.
+Implemented as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-compareobjects">IComponent::CompareObjects</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ec4ec242-6376-44e7-bd82-09456789c4c9">Destroy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
 Releases all references to the console.
 
-Implemented as <a href="https://msdn.microsoft.com/ec4ec242-6376-44e7-bd82-09456789c4c9">IComponent::Destroy</a>.
+Implemented as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">IComponent::Destroy</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">GetDisplayInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">GetDisplayInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves display information about an item in the result pane.
 
-Implemented as <a href="https://msdn.microsoft.com/8143d11c-3740-4ffc-88f0-6df779c50521">IComponent::GetDisplayInfo</a>.
+Implemented as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d2575f79-d646-41b5-84a5-768402cfb826">GetResultViewType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">GetResultViewType</a>
 </td>
 <td align="left" width="63%">
 Determines the result pane view.
 
-Implemented as <a href="https://msdn.microsoft.com/d2575f79-d646-41b5-84a5-768402cfb826">IComponent::GetResultViewType</a>.
+Implemented as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/687ddb0a-6e10-4553-9885-fd85bf8dd6ff">GetResultViewType2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-getresultviewtype2">GetResultViewType2</a>
 </td>
 <td align="left" width="63%">
-Informs MMC of the result view type and supports precise view restoration. Supersedes <a href="https://msdn.microsoft.com/d2575f79-d646-41b5-84a5-768402cfb826">IComponent::GetResultViewType</a>.
+Informs MMC of the result view type and supports precise view restoration. Supersedes <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides an entry point to the console.
 
-Implemented as <a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">IComponent::Initialize</a>.
+Implemented as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38c3b31f-356c-46cf-904a-98241c0f199f">Notify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">Notify</a>
 </td>
 <td align="left" width="63%">
-Called by the console to notify the snap-in of actions taken by a user. Implemented as <a href="https://msdn.microsoft.com/38c3b31f-356c-46cf-904a-98241c0f199f">IComponent::Notify</a>.
+Called by the console to notify the snap-in of actions taken by a user. Implemented as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bdbd321-4245-4c73-9071-1a9bc3853ba5">QueryDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">QueryDataObject</a>
 </td>
 <td align="left" width="63%">
 Returns a data object that can be used to retrieve context information for the specified cookie.
 
-Implemented as <a href="https://msdn.microsoft.com/5bdbd321-4245-4c73-9071-1a9bc3853ba5">IComponent::QueryDataObject</a>.
+Implemented as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42c43111-7d65-4cfc-bb14-6a5d06f694e7">QueryDispatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-querydispatch">QueryDispatch</a>
 </td>
 <td align="left" width="63%">
 Returns an IDispatch interface for the specified cookie; MMC will expose the IDispatch interface through the 
-<a href="https://msdn.microsoft.com/eb7c92e7-d834-4736-bff4-74940c9bb194">MMC 2.0 Automation Object Model</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe9a71c7-eaa6-4479-8337-0746a784a57f">RestoreResultView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent2-restoreresultview">RestoreResultView</a>
 </td>
 <td align="left" width="63%">
-Restores the result view (supersedes <a href="https://msdn.microsoft.com/5b6c6d7c-af9f-4773-b9b1-1e11f4a1c1f8">MMCN_RESTORE_VIEW</a> notification); this method allows snap-in-specific details to be restored to the result view.
+Restores the result view (supersedes <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-restore-view">MMCN_RESTORE_VIEW</a> notification); this method allows snap-in-specific details to be restored to the result view.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Restores the result view (supersedes <a href="https://msdn.microsoft.com/5b6c6d7
 
 
 
-<a href="https://msdn.microsoft.com/dee09c50-76f1-4186-846c-1cde3d05fd03">Restoring Result Views</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/restoring-result-views">Restoring Result Views</a>
  
 
  

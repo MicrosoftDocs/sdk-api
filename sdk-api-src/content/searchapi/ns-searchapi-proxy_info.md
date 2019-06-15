@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Stores information about a proxy. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231440(v=VS.85).aspx">ISearchProtocol</a>.
+Stores information about a proxy. Used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol">ISearchProtocol</a>.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ A pointer to a Unicode string buffer containing the user agent string.
 
 ### -field paUseProxy
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965699(v=VS.85).aspx">PROXY_ACCESS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-_proxy_access">PROXY_ACCESS</a></b>
 
 The proxy type to use.
 

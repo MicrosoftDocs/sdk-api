@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186440(v=VS.85).aspx">IVirtualDesktopManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ivirtualdesktopmanager">IVirtualDesktopManager</a>
  
 
  

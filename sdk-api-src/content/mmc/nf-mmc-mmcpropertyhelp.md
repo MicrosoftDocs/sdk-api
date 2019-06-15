@@ -89,18 +89,18 @@ This callback function can return one of these values.
 
 Call 
 MMCPropertyHelp in the notification handler for the 
-<a href="https://msdn.microsoft.com/e12616c0-e5bc-4a0d-8199-467c1647acf6">MMCN_CONTEXTHELP</a> notification.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-contexthelp">MMCN_CONTEXTHELP</a> notification.
 
 A snap-in can provide context help on a property page. Because an MMC property sheet is typically running on a separate thread, the property page cannot use the 
-<a href="https://msdn.microsoft.com/5f5b9a3b-d520-4e19-8cd7-efbb08bcfba2">IDisplayHelp</a> interface directly. Instead, the property page can call 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-idisplayhelp">IDisplayHelp</a> interface directly. Instead, the property page can call 
 MMCPropertyHelp from the MMC library to achieve the same result. 
 MMCPropertyHelp takes the same topic string parameter as 
-<a href="https://msdn.microsoft.com/184adc09-8b48-4a2e-bbd9-ec6bd9085c32">IDisplayHelp::ShowTopic</a> and handles marshaling the request to the main MMC thread.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-idisplayhelp-showtopic">IDisplayHelp::ShowTopic</a> and handles marshaling the request to the main MMC thread.
 
-If the snap-in handles the <a href="https://msdn.microsoft.com/e12616c0-e5bc-4a0d-8199-467c1647acf6">MMCN_CONTEXTHELP</a> notification, MMC expects the snap-in to specify a Help topic for the selected item. Consequently, in the notification handler for the <b>MMCN_CONTEXTHELP</b> notification, the snap-in has two options:
+If the snap-in handles the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-contexthelp">MMCN_CONTEXTHELP</a> notification, MMC expects the snap-in to specify a Help topic for the selected item. Consequently, in the notification handler for the <b>MMCN_CONTEXTHELP</b> notification, the snap-in has two options:
 
 <ul>
-<li>It can call <a href="https://msdn.microsoft.com/184adc09-8b48-4a2e-bbd9-ec6bd9085c32">IDisplayHelp::ShowTopic</a> or 
+<li>It can call <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-idisplayhelp-showtopic">IDisplayHelp::ShowTopic</a> or 
 <i>MMCPropertyHelp</i> to specify the Help topic and then return <b>S_OK</b> to indicate success. Be aware that the snap-in should only return <b>S_OK</b> if it specifies a Help topic. If the snap-in returns <b>S_OK</b> without specifying a Help topic, no Help topic will be displayed.</li>
 <li>It can return S_FALSE to the notification. MMC then brings up the table of contents with the default MMC topic selected.</li>
 </ul>
@@ -112,11 +112,11 @@ If the snap-in handles the <a href="https://msdn.microsoft.com/e12616c0-e5bc-4a0
 
 
 
-<a href="https://msdn.microsoft.com/184adc09-8b48-4a2e-bbd9-ec6bd9085c32">IDisplayHelp::ShowTopic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-idisplayhelp-showtopic">IDisplayHelp::ShowTopic</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7157e34-6f38-4589-b85e-8aca2bcd6ee1">ISnapinHelp2::GetHelpTopic</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>
  
 
  

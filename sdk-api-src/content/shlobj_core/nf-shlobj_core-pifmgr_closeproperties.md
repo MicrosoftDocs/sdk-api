@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Closes application properties that were opened with <a href="https://msdn.microsoft.com/0bc11528-7278-4765-b3cb-671ba82c9155">PifMgr_OpenProperties</a>.
+Closes application properties that were opened with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Closes application properties that were opened with <a href="https://msdn.micros
 
 Type: <b>HANDLE</b>
 
-A handle to the application's properties. This parameter should be set to the value that is returned by <a href="https://msdn.microsoft.com/0bc11528-7278-4765-b3cb-671ba82c9155">PifMgr_OpenProperties</a>.
+A handle to the application's properties. This parameter should be set to the value that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_openproperties">PifMgr_OpenProperties</a>.
 
 
 ### -param flOpt [in]
@@ -103,11 +103,11 @@ Returns <b>NULL</b> if successful. If unsuccessful, the functions returns the ha
 
 
 
-<a href="https://msdn.microsoft.com/62933ddf-9b0d-427a-8b5f-a0117a3b4885">PifMgr_GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/720ed580-1867-4651-aef6-24ac4397ad39">PifMgr_SetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a>
  
 
  

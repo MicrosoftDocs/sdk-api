@@ -64,8 +64,8 @@ The
 ### -param hPort [in]
 
 Specifies a RAS port handle. The security DLL uses this handle in other RAS security functions, such as 
-<a href="https://msdn.microsoft.com/adbc357b-7a5d-426d-b21f-0b1478bb2348">RasSecurityDialogSend</a> and 
-<a href="https://msdn.microsoft.com/ed5fcea6-6533-4c78-bd49-dfeaafd8192a">RasSecurityDialogReceive</a>, to identify this authentication transaction. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogsend">RasSecurityDialogSend</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a>, to identify this authentication transaction. 
 
 
 
@@ -76,7 +76,7 @@ Note that this handle is valid only in RAS security functions; do not use it in 
 ### -param pSendBuf [in]
 
 Pointer to a buffer allocated by the RAS server. The security DLL uses this buffer with the 
-<a href="https://msdn.microsoft.com/adbc357b-7a5d-426d-b21f-0b1478bb2348">RasSecurityDialogSend</a> function to send text that is displayed in the RAS terminal window on the remote computer.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogsend">RasSecurityDialogSend</a> function to send text that is displayed in the RAS terminal window on the remote computer.
 
 
 ### -param SendBufSize [in]
@@ -87,7 +87,7 @@ Specifies the size, in bytes, of the <i>pSendBuf</i> buffer.
 ### -param pRecvBuf [in]
 
 Pointer to a buffer allocated by the RAS server. The security DLL uses this buffer with the 
-<a href="https://msdn.microsoft.com/ed5fcea6-6533-4c78-bd49-dfeaafd8192a">RasSecurityDialogReceive</a> function to receive the response from the remote user.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a> function to receive the response from the remote user.
 
 
 ### -param RecvBufSize [in]
@@ -98,7 +98,7 @@ Specifies the size, in bytes, of the <i>pRecvBuf</i> buffer.
 ### -param VOID [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/9ebe8b85-7500-405f-98c2-6f51f3339629">RasSecurityDialogComplete</a> function. When the security DLL has completed the authentication of the remote user, it calls this function to report the results to the RAS server.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> function. When the security DLL has completed the authentication of the remote user, it calls this function to report the results to the RAS server.
 
 This callback function has no parameters.
 
@@ -111,7 +111,7 @@ If the security DLL successfully starts the authentication operation,
 <b>RasSecurityDialogBegin</b> should return <b>NO_ERROR</b>. In this case, the security DLL must later terminate the authentication transaction by calling the function pointed to by the <i>RasSecurityDialogComplete</i> parameter.
 
 If an error occurs, 
-<b>RasSecurityDialogBegin</b> should return a nonzero error code. In this case, the RAS server hangs up the call and records the error in the event log. Returning a nonzero error code terminates the authentication transaction, so the security DLL does not need to call the <a href="https://msdn.microsoft.com/9ebe8b85-7500-405f-98c2-6f51f3339629">RasSecurityDialogComplete</a> function.
+<b>RasSecurityDialogBegin</b> should return a nonzero error code. In this case, the RAS server hangs up the call and records the error in the event log. Returning a nonzero error code terminates the authentication transaction, so the security DLL does not need to call the <a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> function.
 
 
 
@@ -127,10 +127,10 @@ When a  RAS server receives a call from a remote computer, it calls the
 <li>A port handle to identify the connection</li>
 <li>Pointers to buffers to use when communicating with the remote user</li>
 <li>A pointer to the 
-<a href="https://msdn.microsoft.com/9ebe8b85-7500-405f-98c2-6f51f3339629">RasSecurityDialogComplete</a> function to call when the authentication has been completed</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> function to call when the authentication has been completed</li>
 </ul>
 The port handle and buffer pointers are valid until 
-<a href="https://msdn.microsoft.com/9ebe8b85-7500-405f-98c2-6f51f3339629">RasSecurityDialogComplete</a> is called to terminate the authentication transaction.
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> is called to terminate the authentication transaction.
 
 The 
 <b>RasSecurityDialogBegin</b> implementation must return as soon as possible, because the RAS server is blocked and cannot accept any other calls until 
@@ -145,23 +145,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/44c000d7-2bb6-4fd8-ac5f-9d3850d857a0">RAS Server Administration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-server-administration-functions">RAS Server Administration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ebe8b85-7500-405f-98c2-6f51f3339629">RasSecurityDialogComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed5fcea6-6533-4c78-bd49-dfeaafd8192a">RasSecurityDialogReceive</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/adbc357b-7a5d-426d-b21f-0b1478bb2348">RasSecurityDialogSend</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogsend">RasSecurityDialogSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
  
 
  

@@ -60,7 +60,7 @@ Fills in new glyphs for complex scripts where justification increased
 
 ### -param fontFace
 
-Type: <b><a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace</a>*</b>
 
 Font face used for shaping.
 
@@ -76,7 +76,7 @@ Font em size used for the glyph run.
 
 ### -param scriptAnalysis
 
-Type: <b><a href="https://msdn.microsoft.com/dafda5f6-39aa-4577-9213-898bdeddc7c2">DWRITE_SCRIPT_ANALYSIS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_script_analysis">DWRITE_SCRIPT_ANALYSIS</a></b>
 
 Script of the text from the itemizer.
 
@@ -129,22 +129,22 @@ Original glyph advances produced from shaping.
 Type: <b>const FLOAT*</b>
 
 Justified glyph advances from
-    <a href="https://msdn.microsoft.com/BFBFEA4A-A0D4-4114-B0AB-4338A832ECD4">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>. 
+    <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>. 
 
 
 ### -param justifiedGlyphOffsets [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f5a231c0-78df-4fe0-99a8-81fcad517cda">DWRITE_GLYPH_OFFSET</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
 
 Justified glyph offsets from
-    <a href="https://msdn.microsoft.com/BFBFEA4A-A0D4-4114-B0AB-4338A832ECD4">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>. 
+    <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>. 
 
 
 ### -param glyphProperties [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/debaa84f-8883-4117-9be0-962857b55020">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_shaping_glyph_properties">DWRITE_SHAPING_GLYPH_PROPERTIES</a>*</b>
 
-Properties of each glyph, from <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a>. 
+Properties of each glyph, from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a>. 
 
 
 ### -param actualGlyphCount [out]
@@ -180,7 +180,7 @@ Updated glyph advances.
 
 ### -param modifiedGlyphOffsets [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f5a231c0-78df-4fe0-99a8-81fcad517cda">DWRITE_GLYPH_OFFSET</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_offset">DWRITE_GLYPH_OFFSET</a>*</b>
 
 Updated glyph offsets.
 
@@ -202,7 +202,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 You call <b>GetJustifiedGlyphs</b> after the line has been justified, and it is per-run.
 
-You should call <b>GetJustifiedGlyphs</b> if <a href="https://msdn.microsoft.com/CBC1DA09-6D3D-42D8-8E77-CFDBA733C228">IDWriteTextAnalyzer1::GetScriptProperties</a> returns a non-null <a href="https://msdn.microsoft.com/5210C04E-618B-4FE9-A6FC-6F0FF17A64D5">DWRITE_SCRIPT_PROPERTIES.justificationCharacter</a> for that script.
+You should call <b>GetJustifiedGlyphs</b> if <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties">IDWriteTextAnalyzer1::GetScriptProperties</a> returns a non-null <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/ns-dwrite_1-dwrite_script_properties">DWRITE_SCRIPT_PROPERTIES.justificationCharacter</a> for that script.
 
  Use  <b>GetJustifiedGlyphs</b> mainly for cursive scripts
     like Arabic. If <i>maxGlyphCount</i> is not large enough, <b>GetJustifiedGlyphs</b> returns the error
@@ -217,19 +217,19 @@ You should call <b>GetJustifiedGlyphs</b> if <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/7F79BA25-5D79-4491-82E3-F9B96DD0C37D">IDWriteTextAnalyzer1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1">IDWriteTextAnalyzer1</a>
 
 
 
-<a href="https://msdn.microsoft.com/CBC1DA09-6D3D-42D8-8E77-CFDBA733C228">IDWriteTextAnalyzer1::GetScriptProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties">IDWriteTextAnalyzer1::GetScriptProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/BFBFEA4A-A0D4-4114-B0AB-4338A832ECD4">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances">IDWriteTextAnalyzer1::JustifyGlyphAdvances</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a>
  
 
  

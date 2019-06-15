@@ -54,7 +54,7 @@ Invokes an object with an indirect reference to the invocations arguments, rathe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallIndirect</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICallIndirect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallIndirect</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallIndirect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICallIndirect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d017ad36-8779-4107-8ee3-f44589f9e802">CallIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallindirect-callindirect">CallIndirect</a>
 </td>
 <td align="left" width="63%">
 Invokes one of the methods in the interface with an indirect reference to the arguments of the invocation.
@@ -78,7 +78,7 @@ Invokes one of the methods in the interface with an indirect reference to the ar
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/096bd49e-2fad-4558-98c7-c95e0dc43a65">GetIID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallindirect-getiid">GetIID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the interface id supported by this <b>ICallIndirect</b> implementation.
@@ -87,7 +87,7 @@ Retrieves the interface id supported by this <b>ICallIndirect</b> implementation
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1bfbbb24-0cdb-467b-abce-0291dfe8f641">GetMethodInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallindirect-getmethodinfo">GetMethodInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the interface method from the call frame.
@@ -96,7 +96,7 @@ Retrieves information about the interface method from the call frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3251c9b1-e076-4bc3-a995-1b0d275929a0">GetStackSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallindirect-getstacksize">GetStackSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
@@ -110,7 +110,7 @@ Retrieves the number of bytes that should be popped from the stack in order to r
 
 
 
-The actual detailed semantics of how to carry out an indirect call are independent of the <b>ICallIndirect</b> interface itself; they are instead specific to the implementation of the interface. For example, implementations of <b>ICallIndirect</b> found in call interceptors carry out the call by constructing and appropriate <a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a> instance and then invoking <a href="https://msdn.microsoft.com/bdccc4a7-e408-4186-8cc0-b14feacfbf04">ICallFrameEvents::OnCall</a> in the registered sink. Other implementations might do some appropriate munging of the invocations arguments, then forward the call on to some actual specific object, presumably one previously registered with the <b>ICallIndirect</b> using some implementation-specific means.
+The actual detailed semantics of how to carry out an indirect call are independent of the <b>ICallIndirect</b> interface itself; they are instead specific to the implementation of the interface. For example, implementations of <b>ICallIndirect</b> found in call interceptors carry out the call by constructing and appropriate <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a> instance and then invoking <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframeevents-oncall">ICallFrameEvents::OnCall</a> in the registered sink. Other implementations might do some appropriate munging of the invocations arguments, then forward the call on to some actual specific object, presumably one previously registered with the <b>ICallIndirect</b> using some implementation-specific means.
 
 
 
@@ -122,7 +122,7 @@ The actual detailed semantics of how to carry out an indirect call are independe
 
 
 
-<a href="https://msdn.microsoft.com/d0a72c87-598b-4ebe-bc93-65e0927a4c3d">ICallInterceptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
  
 
  

@@ -54,7 +54,7 @@ Contains the HTTP proxy settings.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebProxy</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebProxy</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWebProxy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWebProxy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2eeb4418-d9fe-41b8-97c9-cafe18aab528">PromptForCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-promptforcredentials">PromptForCredentials</a>
 </td>
 <td align="left" width="63%">
 Prompts the user for the password to use for proxy authentication.
@@ -79,7 +79,7 @@ Prompts the user for the password to use for proxy authentication.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36ee1771-cfa6-4fa0-924b-69dbd57b1ad4">PromptForCredentialsFromHwnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-promptforcredentialsfromhwnd">PromptForCredentialsFromHwnd</a>
 </td>
 <td align="left" width="63%">
 Prompts the user for the password to use for proxy authentication.
@@ -88,7 +88,7 @@ Prompts the user for the password to use for proxy authentication.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59b500f1-2015-4f72-9be5-c2f57462dff0">SetPassword</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-setpassword">SetPassword</a>
 </td>
 <td align="left" width="63%">
 Sets the password to submit to the proxy server for authentication.
@@ -106,7 +106,7 @@ Sets the password to submit to the proxy server for authentication.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ed8c899f-5080-435a-8577-7e92a54738ad">Address</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_address">Address</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Gets and sets the address and the decimal port number of the proxy server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cd222133-e44b-453a-9fbf-72f609cb2d4b">AutoDetect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_autodetect">AutoDetect</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Gets and sets a Boolean value that indicates whether <b>IWebProxy</b>  automatic
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a93742d2-73ce-4e7b-a000-592fd588cb1f">BypassList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypasslist">BypassList</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Gets and sets a collection of addresses that do not use the proxy server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/541626ca-0b68-41cd-8f20-5ffd034fc878">BypassProxyOnLocal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_bypassproxyonlocal">BypassProxyOnLocal</a>
 
 
 </td>
@@ -170,7 +170,7 @@ Gets and sets a Boolean value that indicates whether local addresses  bypass the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/daa1a276-e03c-448c-8572-3bec9151bcb7">ReadOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_readonly">ReadOnly</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Gets a Boolean value that indicates whether the <b>WebProxy</b> object is read-o
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cef38d9d-5706-4008-be61-5bbe7c29ca68">UserName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iwebproxy-get_username">UserName</a>
 
 
 </td>

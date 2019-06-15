@@ -71,7 +71,7 @@ Length of shader data that <b>pBytecode</b> points to.
 
 
 
-An array of <b>D3D_SHADER_DATA</b> structures is passed to <a href="https://msdn.microsoft.com/e53a0d36-3cd4-4327-8969-6a864b38a15b">D3DCompressShaders</a> to compress the shader data into a more compact form.
+An array of <b>D3D_SHADER_DATA</b> structures is passed to <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompressshaders">D3DCompressShaders</a> to compress the shader data into a more compact form.
 
 
 
@@ -81,7 +81,7 @@ An array of <b>D3D_SHADER_DATA</b> structures is passed to <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/1439305e-5620-40f9-a6cb-17eed6689b29">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-structs">Structures</a>
  
 
  

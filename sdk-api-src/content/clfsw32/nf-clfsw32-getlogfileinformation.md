@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a buffer that contains metadata about a specified log and its current state, which is defined by the <a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a> structure.
+Returns a buffer that contains metadata about a specified log and its current state, which is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_information">CLFS_INFORMATION</a> structure.
 
 Data that is obtained  reflects the state of the log only at the time when the call is made. Typically, a client can continue to cache and use fields from this structure until the next time that it appends records or writes its restart area. At that time, some of the information becomes stale.
 
@@ -61,14 +61,14 @@ Data that is obtained  reflects the state of the log only at the time when the c
 
 ### -param hLog [in]
 
-A handle to an open log that is obtained from a successful call to <a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>.  
+A handle to an open log that is obtained from a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.  
 
 The log handle can refer to a dedicated or multiplexed log.
 
 
 ### -param pinfoBuffer [in, out]
 
-A pointer to a user-allocated <a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a> structure that receives the log metadata.
+A pointer to a user-allocated <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_information">CLFS_INFORMATION</a> structure that receives the log metadata.
 
 
 ### -param cbBuffer [in, out]
@@ -86,7 +86,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
  The following list identifies the possible error codes:
 
@@ -98,19 +98,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_cls_information">CLFS_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/ac104bf9-7ca7-417a-bd14-09b0e82c6a77">CreateLogFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e47a5c9-a0bd-4cd1-ba30-9ebde6df0f91">Obtaining the Next LSN</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/obtaining-the-next-lsn">Obtaining the Next LSN</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Queries the state of the selected catalog.
 
@@ -71,7 +71,7 @@ The computer name on which the catalog is located, such as "." for the local com
 
 ### -param pCiState [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI_STATE</a> structure that receives the catalog state.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-_ci_state">CI_STATE</a> structure that receives the catalog state.
 
 
 ## -returns
@@ -150,7 +150,7 @@ The function failed because Indexing Service is too busy to respond to the query
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-_ci_state">CI_STATE</a> structure must be initialized (the <b>cbStruct</b> member must be correctly set) before calling the <b>CIState</b> function.
 
 
 
@@ -160,7 +160,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690968(v=VS.85).aspx">CI_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-_ci_state">CI_STATE</a>
  
 
  

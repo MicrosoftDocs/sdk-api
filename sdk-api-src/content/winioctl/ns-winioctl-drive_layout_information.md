@@ -50,7 +50,7 @@ req.redist:
 
 Contains information about the partitions of a drive.
 <div class="alert"><b>Note</b>  <b>DRIVE_LAYOUT_INFORMATION</b> is superseded 
-    by the <a href="https://msdn.microsoft.com/381c87a8-fe40-4251-a4df-dddc9e2a126d">DRIVE_LAYOUT_INFORMATION_EX</a> 
+    by the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a> 
     structure.</div><div> </div>
 
 ## -struct-fields
@@ -75,7 +75,7 @@ The drive signature value.
 ### -field PartitionEntry
 
 A variable-sized array of 
-      <a href="https://msdn.microsoft.com/2c8fa83a-0694-4e17-a9e4-87f839a0d458">PARTITION_INFORMATION</a> structures, one 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_partition_information">PARTITION_INFORMATION</a> structures, one 
       structure for each partition on a drive.
 
 
@@ -84,15 +84,15 @@ A variable-sized array of
 
 
 
-<a href="https://msdn.microsoft.com/381c87a8-fe40-4251-a4df-dddc9e2a126d">DRIVE_LAYOUT_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cace6a5-666a-4d35-a557-6bf0564dbe58">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
  
 
  

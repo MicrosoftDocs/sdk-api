@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Elements of the <b>TfAnchor</b> enumeration specify the start anchor or end anchor of an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object.
+Elements of the <b>TfAnchor</b> enumeration specify the start anchor or end anchor of an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object.
 
 
 ## -enum-fields
@@ -81,12 +81,12 @@ A range refers to a span of text in a document. Each range is delimited by a sta
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/055f3228-1e3b-4e31-9035-e509a98016a8">TF_HALTCOND
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
       </a>
  
 

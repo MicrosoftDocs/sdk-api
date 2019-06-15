@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Describes how to map color data to a normalized [0...1] range. 
 
-These flags are used in the <a href="https://msdn.microsoft.com/eba2c56b-8951-4dc5-91ae-1371793ce787">DXVA2_ExtendedFormat</a> structure. They indicate whether the range of color values includes headroom (values above 100% white) and toeroom (values below reference black).
+These flags are used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure. They indicate whether the range of color values includes headroom (values above 100% white) and toeroom (values below reference black).
           
 
 
@@ -69,7 +69,7 @@ Bitmask to validate flag values. This value is not a valid flag.
 
 Unknown or unspecified nominal range.
 
-If this value is used in the <b>DestFormat</b> member of the <a href="https://msdn.microsoft.com/6929fa8b-3cab-4d4e-ab2a-a3059b00905f">DXVA2_VideoProcessBltParams</a> structure, the driver will determine the optimal nominal range based on the destination color space. For example, the destination surface is usually sRGB, which has a nominal range of 0-255 per channel. However, a driver might use a technique such as automatic gain control to maximize the dynamic range while preserving values above reference white.
+If this value is used in the <b>DestFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure, the driver will determine the optimal nominal range based on the destination color space. For example, the destination surface is usually sRGB, which has a nominal range of 0-255 per channel. However, a driver might use a technique such as automatic gain control to maximize the dynamic range while preserving values above reference white.
 
 
 ### -field DXVA2_NominalRange_Normal
@@ -202,7 +202,7 @@ Video data might contain values above or below the nominal range.
 <div> </div>
 This enumeration is equivalent to the <b>DXVA_NominalRange</b> enumeration used in DXVA 1.0, although it defines additional values.
 
-If you are using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface to describe the video format, the nominal range is specified in the <a href="https://msdn.microsoft.com/7b2b809e-aae4-401c-816a-626fb88f5f87">MF_MT_VIDEO_NOMINAL_RANGE</a> attribute.
+If you are using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface to describe the video format, the nominal range is specified in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-nominal-range-attribute">MF_MT_VIDEO_NOMINAL_RANGE</a> attribute.
 
 
 
@@ -212,11 +212,11 @@ If you are using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020
 
 
 
-<a href="https://msdn.microsoft.com/05ca73c6-d105-47bc-96bc-b784f669febe">Extended Color Information</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/extended-color-information">Extended Color Information</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

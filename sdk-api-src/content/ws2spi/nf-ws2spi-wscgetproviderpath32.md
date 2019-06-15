@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WSCGetProviderPath32</b> function retrieves the DLL path for the specified 32-bit provider.<div class="alert"><b>Note</b>  This call is a strictly 32-bit version of <a href="https://msdn.microsoft.com/fe60c8c4-e2d0-48cc-9fdf-e58e408fb1b3">WSCGetProviderPath</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
+The <b>WSCGetProviderPath32</b> function retrieves the DLL path for the specified 32-bit provider.<div class="alert"><b>Note</b>  This call is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderpath">WSCGetProviderPath</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
 
@@ -62,7 +62,7 @@ The <b>WSCGetProviderPath32</b> function retrieves the DLL path for the specifie
 ### -param lpProviderId [in]
 
 Locally unique identifier of the provider. This value is obtained by using 
-<a href="https://msdn.microsoft.com/f46042f6-0b14-4a14-abc1-4e40c34b1599">WSCEnumProtocols32</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>.
 
 
 ### -param lpszProviderDllPath [out]
@@ -95,7 +95,7 @@ no error occurs, <b>WSCGetProviderPath32</b> returns zero. Otherwise, it returns
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,7 +106,7 @@ The <i>lpProviderId</i> parameter does not specify a valid provider.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,10 +124,10 @@ The <i>lpszProviderDllPath</i> or <i>lpErrno</i> parameter is not in a valid par
 
 
 
-<b>WSCGetProviderPath32</b> is a strictly 32-bit version of <a href="https://msdn.microsoft.com/fe60c8c4-e2d0-48cc-9fdf-e58e408fb1b3">WSCGetProviderPath</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
+<b>WSCGetProviderPath32</b> is a strictly 32-bit version of <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderpath">WSCGetProviderPath</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
 The 
-<b>WSCGetProviderPath32</b> function retrieves the DLL path for the specified provider. The DLL path can contain embedded environment strings, such as %SystemRoot%, and thus should be expanded prior to being used with the Windows <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> function. For more information, see <b>LoadLibrary</b>.
+<b>WSCGetProviderPath32</b> function retrieves the DLL path for the specified provider. The DLL path can contain embedded environment strings, such as %SystemRoot%, and thus should be expanded prior to being used with the Windows <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function. For more information, see <b>LoadLibrary</b>.
 
 
 
@@ -137,11 +137,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/f46042f6-0b14-4a14-abc1-4e40c34b1599">WSCEnumProtocols32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
 
 
 
-<a href="https://msdn.microsoft.com/50d3a5d1-18f2-439e-a16c-6f31becb1e65">WSCInstallProvider64_32</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider64_32">WSCInstallProvider64_32</a>
  
 
  

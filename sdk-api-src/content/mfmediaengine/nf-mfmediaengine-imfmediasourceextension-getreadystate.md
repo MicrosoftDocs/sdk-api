@@ -73,11 +73,11 @@ The ready state of the media source.
 
 
 
-<a href="https://msdn.microsoft.com/2acabcc2-242d-4b3d-b5b4-680c7973201f">IMFMediaSourceExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/7455B92F-CC2D-4743-935D-F5EBFD834397">MF_MSE_READY</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mse-ready">MF_MSE_READY</a>
  
 
  

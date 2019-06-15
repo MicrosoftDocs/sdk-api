@@ -60,7 +60,7 @@ Get the credentials at the specified index.
 ### -param options [in]
 
 
-<a href="https://msdn.microsoft.com/7f835ff4-3917-497c-bfe9-ca335cc35938">MI_DestinationOptions</a> object returned from <a href="https://msdn.microsoft.com/efaa1244-7fe4-4484-b9ac-e7309e2012b6">MI_Application_NewDestinationOptions</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_destinationoptions">MI_DestinationOptions</a> object returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>.
 
 
 ### -param index
@@ -75,7 +75,7 @@ Returned name of the credentials option.
 
 ### -param credentials [out]
 
-Returned <a href="https://msdn.microsoft.com/30191cd1-00de-42ef-ac95-5e174d273c80">MI_UserCredentials</a> structure. If the credentials include a password, it will be filled with 6 asterisks for security purposes.
+Returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_usercredentials">MI_UserCredentials</a> structure. If the credentials include a password, it will be filled with 6 asterisks for security purposes.
 
 
 ### -param flags [out, optional]
@@ -87,7 +87,7 @@ Returned credentials option flags.
 
 
 
-A value of the <a href="https://msdn.microsoft.com/9AA2B479-E8A5-4F0C-A8A4-06DB7CB7CA2F">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ne-mi-_mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 
 

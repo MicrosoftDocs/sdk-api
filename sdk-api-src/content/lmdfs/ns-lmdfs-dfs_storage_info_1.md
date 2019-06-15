@@ -93,14 +93,14 @@ Pointer to a null-terminated Unicode string that specifies the DFS root target o
 ### -field TargetPriority
 
 
-<a href="https://msdn.microsoft.com/b8f645ab-e3b4-4e0f-809a-57e27ab1e641">DFS_TARGET_PRIORITY</a> structure that contains a DFS target's priority class and rank.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_target_priority">DFS_TARGET_PRIORITY</a> structure that contains a DFS target's priority class and rank.
 
 
 ## -remarks
 
 
 
-This structure is used as the <b>Storage</b> member of the <a href="https://msdn.microsoft.com/96a9c5eb-f79f-4577-b320-ebacff84fcc4">DFS_INFO_6</a> structure.
+This structure is used as the <b>Storage</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_6">DFS_INFO_6</a> structure.
 
 
 
@@ -110,7 +110,7 @@ This structure is used as the <b>Storage</b> member of the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/96a9c5eb-f79f-4577-b320-ebacff84fcc4">DFS_INFO_6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_6">DFS_INFO_6</a>
  
 
  

@@ -94,15 +94,15 @@ Not used.
 
 
 
-<a href="https://msdn.microsoft.com/91b8058d-faf6-46ee-a03b-f762e9cdae4d">WLAN_CONNECTION_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/005af5ef-994d-425a-be4b-54567a733fb3">WLAN_CONNECTION_NOTIFICATION_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_notification_data">WLAN_CONNECTION_NOTIFICATION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0321447-b89a-4f4e-929e-eb6db76f7283">WLAN_CONNECTION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a>
  
 
  

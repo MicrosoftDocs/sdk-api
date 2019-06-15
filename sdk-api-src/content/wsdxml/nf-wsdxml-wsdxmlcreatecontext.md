@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a> 
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> 
     object.
 
 
@@ -61,7 +61,7 @@ Creates a new <a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b
 ### -param ppContext [out]
 
 Pointer to a newly allocated 
-      <a href="https://msdn.microsoft.com/131fa170-4c19-4a7b-82e0-e9677b7f767a">IWSDXMLContext</a> object. If the function fails, 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object. If the function fails, 
       this parameter can be <b>NULL</b>.
 
 

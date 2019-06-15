@@ -54,7 +54,7 @@ Analyzes various text properties for complex script processing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer1</b> interface inherits from <a href="https://msdn.microsoft.com/e832ffc4-31db-41b1-a008-04696d9a975e">IDWriteTextAnalyzer</a>. <b>IDWriteTextAnalyzer1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextAnalyzer1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>. <b>IDWriteTextAnalyzer1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,17 +69,17 @@ The <b>IDWriteTextAnalyzer1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E89C7E50-9EDA-4AC9-9FC0-B70E493ED1B4">AnalyzeVerticalGlyphOrientation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-analyzeverticalglyphorientation">AnalyzeVerticalGlyphOrientation</a>
 </td>
 <td align="left" width="63%">
 Analyzes a text range for script orientation, reading text and
-    attributes from the source and reporting results to the sink callback <a href="https://msdn.microsoft.com/81BD4C36-273B-4C28-A89E-88BABCAD511A">SetGlyphOrientation</a>.
+    attributes from the source and reporting results to the sink callback <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalysissink1-setglyphorientation">SetGlyphOrientation</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E4BACB7E-0032-450C-AEA8-87434329F33C">ApplyCharacterSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-applycharacterspacing">ApplyCharacterSpacing</a>
 </td>
 <td align="left" width="63%">
 Applies spacing between characters, properly adjusting glyph clusters
@@ -89,7 +89,7 @@ Applies spacing between characters, properly adjusting glyph clusters
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5ACD5075-BD96-41FC-AE36-8D5D03F2EB54">GetBaseline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getbaseline">GetBaseline</a>
 </td>
 <td align="left" width="63%">
 Retrieves the given baseline from the font.
@@ -98,7 +98,7 @@ Retrieves the given baseline from the font.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/583AFE54-F816-4098-844B-C3F838BE46B0">GetGlyphOrientationTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getglyphorientationtransform">GetGlyphOrientationTransform</a>
 </td>
 <td align="left" width="63%">
 Returns 2x3 transform matrix for the respective angle to draw the
@@ -108,7 +108,7 @@ Returns 2x3 transform matrix for the respective angle to draw the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85D3841F-FA2B-4636-B786-DCD68C72209A">GetJustificationOpportunities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustificationopportunities">GetJustificationOpportunities</a>
 </td>
 <td align="left" width="63%">
 Retrieves justification opportunity information for each of the glyphs
@@ -118,7 +118,7 @@ Retrieves justification opportunity information for each of the glyphs
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8F7BB9EC-90AE-48BD-A596-EAF2EDC4053F">GetJustifiedGlyphs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getjustifiedglyphs">GetJustifiedGlyphs</a>
 </td>
 <td align="left" width="63%">
 Fills in new glyphs for complex scripts where justification increased
@@ -128,7 +128,7 @@ Fills in new glyphs for complex scripts where justification increased
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CBC1DA09-6D3D-42D8-8E77-CFDBA733C228">GetScriptProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getscriptproperties">GetScriptProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties for a given script.
@@ -137,17 +137,17 @@ Retrieves the properties for a given script.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EC9364F7-4A00-4DEE-B51A-F26FBBA5683F">GetTextComplexity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-gettextcomplexity">GetTextComplexity</a>
 </td>
 <td align="left" width="63%">
-Determines the complexity of text, and whether you need to call <a href="https://msdn.microsoft.com/9bc373b6-9161-4ffc-a942-50d97d6509c3">IDWriteTextAnalyzer::GetGlyphs</a> for full script
+Determines the complexity of text, and whether you need to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextanalyzer-getglyphs">IDWriteTextAnalyzer::GetGlyphs</a> for full script
     shaping. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/BFBFEA4A-A0D4-4114-B0AB-4338A832ECD4">JustifyGlyphAdvances</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-justifyglyphadvances">JustifyGlyphAdvances</a>
 </td>
 <td align="left" width="63%">
 Justifies an array of glyph advances to fit the line width.
@@ -162,7 +162,7 @@ Justifies an array of glyph advances to fit the line width.
 
 
 
-<a href="https://msdn.microsoft.com/e832ffc4-31db-41b1-a008-04696d9a975e">IDWriteTextAnalyzer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWriteTextAnalyzer</a>
  
 
  

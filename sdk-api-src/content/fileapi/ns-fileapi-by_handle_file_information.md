@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Contains information that the 
-    <a href="https://msdn.microsoft.com/d026ee3a-c165-42a2-a4e1-efccdafbefc5">GetFileInformationByHandle</a> function 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function 
     retrieves.
 
 
@@ -63,19 +63,19 @@ Contains information that the
 ### -field dwFileAttributes
 
 The file attributes. For possible values and their descriptions, see 
-      <a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>.
 
 
 ### -field ftCreationTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies when a file or 
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies when a file or 
       directory is created. If the underlying file system does not support creation time, this member is 
       zero (0).
 
 
 ### -field ftLastAccessTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure. For a file, the structure 
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. For a file, the structure 
      specifies the last time that a file is read from or written to. For a directory, the structure specifies when the 
      directory is created. For both files and directories, the specified date is correct, but the time of day is 
      always set to midnight. If the underlying file system does not support the last access time, this member is 
@@ -84,7 +84,7 @@ A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILE
 
 ### -field ftLastWriteTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure. For a file, the structure 
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. For a file, the structure 
       specifies the last time that a file is written to. For a directory, the structure specifies when the directory 
       is created. If the underlying file system does not support the last write time, this member is zero (0).
 
@@ -126,9 +126,9 @@ The identifier (low and high parts) and the volume serial number uniquely identi
 
 The ReFS file system, introduced with Windows Server 2012, includes 128-bit file identifiers. To 
        retrieve the 128-bit file identifier use the 
-       <a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a> function 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function 
        with <b>FileIdInfo</b> to retrieve the 
-       <a href="https://msdn.microsoft.com/e2774e29-1a90-44d6-9001-f73a98be6624">FILE_ID_INFO</a> structure. The 64-bit identifier in this 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_info">FILE_ID_INFO</a> structure. The 64-bit identifier in this 
        structure is not guaranteed to be unique on ReFS.
 
 
@@ -148,14 +148,14 @@ In the FAT file system, the file ID is generated from the first cluster of the c
 
 In the NTFS file system, a file keeps the same file ID until it is deleted. You can replace one file with 
     another file without changing the file ID by using the 
-    <a href="https://msdn.microsoft.com/23402a71-e945-4891-9815-c75e57051501">ReplaceFile</a> function. However, the file ID of the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-replacefilea">ReplaceFile</a> function. However, the file ID of the 
     replacement file, not the replaced file, is retained as the file ID of the resulting file.
 
 Not all file systems can record creation and last access time, and not all file systems record them in the 
     same manner. For example, on a Windows FAT file system, create time has a resolution of 10 milliseconds, write 
     time has a resolution of 2 seconds, and access time has a resolution of 1 day (the access date). On the NTFS file 
     system, access time has a resolution of 1 hour. For more information, see 
-    <a href="https://msdn.microsoft.com/52d80b82-9ab0-4631-9e70-85df21da4946">File Times</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>.
 
 
 
@@ -165,23 +165,23 @@ Not all file systems can record creation and last access time, and not all file 
 
 
 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2774e29-1a90-44d6-9001-f73a98be6624">FILE_ID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_file_id_info">FILE_ID_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156">File Attribute Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/d026ee3a-c165-42a2-a4e1-efccdafbefc5">GetFileInformationByHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/e261ea45-d084-490e-94b4-129bd76f6a04">GetFileInformationByHandleEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
  
 
  

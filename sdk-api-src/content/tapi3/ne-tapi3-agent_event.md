@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>AGENT_EVENT</b> enum describes agent events. The 
-<a href="https://msdn.microsoft.com/d402b2b4-2817-4ebe-b735-69ea9e975f54">ITAgentEvent::get_Event</a> method returns a member of this enum to indicate the type of agent event that occurred.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_event">ITAgentEvent::get_Event</a> method returns a member of this enum to indicate the type of agent event that occurred.
 
 
 ## -enum-fields
@@ -94,11 +94,11 @@ Unknown state.
 
 
 
-<a href="https://msdn.microsoft.com/d402b2b4-2817-4ebe-b735-69ea9e975f54">ITAgentEvent::get_Event</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagentevent-get_event">ITAgentEvent::get_Event</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0ea4f7a-7b50-4610-ae17-957c0c1891e1">ITCallNotificationEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
  
 
  

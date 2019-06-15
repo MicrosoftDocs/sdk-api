@@ -59,14 +59,14 @@ MOUSE_UNIT_ID_PARAMETER specifies a unit ID that Mouclass assigns to a mouse.
 
 ### -field UnitId
 
-Specifies the unit number of the mouse device. A mouse <a href="https://msdn.microsoft.com/dfcc7338-7c4d-4b4c-9a13-c76bfe82f5a9">device name</a> has the format \Device\PointerPort<i>N</i>, where the suffix <i>N </i>is the unit number of the device. For example, a device, whose name is \Device\PointerPort0, has a unit number of zero, and a device, whose name is \Device\PointerPort1, has a unit number of one.
+Specifies the unit number of the mouse device. A mouse <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/nt-device-names">device name</a> has the format \Device\PointerPort<i>N</i>, where the suffix <i>N </i>is the unit number of the device. For example, a device, whose name is \Device\PointerPort0, has a unit number of zero, and a device, whose name is \Device\PointerPort1, has a unit number of one.
 
 
 ## -remarks
 
 
 
-Although this structure is used with an <a href="https://msdn.microsoft.com/f5b82702-610a-41d3-96c9-2c4eae2244e3">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request, Mouclass does not use the <b>UnitId</b> value.
+Although this structure is used with an <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request, Mouclass does not use the <b>UnitId</b> value.
 
 
 
@@ -76,7 +76,7 @@ Although this structure is used with an <a href="https://msdn.microsoft.com/f5b8
 
 
 
-<a href="https://msdn.microsoft.com/f5b82702-610a-41d3-96c9-2c4eae2244e3">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
  
 
  

@@ -62,7 +62,7 @@ The <b>EnumComponents</b> method returns an enumerator for the components in the
 
 ### -param ppNewEnum [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/8811021c-8c14-4be6-8802-76b942bb34d8">IEnumComponents</a> interface pointer.
+Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponents">IEnumComponents</a> interface pointer.
 
 
 ## -returns
@@ -88,7 +88,7 @@ If the method succeeds, the <b>IEnumComponents</b> interface has an outstanding 
 
 
 
-<a href="https://msdn.microsoft.com/670b47ba-bcbd-4281-95e3-a5d784f0610b">IComponents Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents Interface</a>
  
 
  

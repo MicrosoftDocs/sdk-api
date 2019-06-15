@@ -64,17 +64,17 @@ The compound document's name for the object whose storage is requested.
 
 ### -param pbc [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the binding implementation should retrieve information about its environment. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on the bind context to be used in this binding operation. The bind context caches objects bound during the binding process, contains parameters that apply to all operations using the bind context, and provides the means by which the binding implementation should retrieve information about its environment. 
 
 
 ### -param riid [in]
 
-A reference to the identifier of the interface to be used to communicate with the object, usually <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a>.
+A reference to the identifier of the interface to be used to communicate with the object, usually <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>.
 
 
 ### -param ppvStorage [out]
 
-Address of a pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppvStorage</i> contains the requested interface pointer to the storage for the object named by <i>pszItem</i>. When successful, the implementation must call <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on *<i>ppvStorage</i>; it is the caller's responsibility to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a>. If an error occurs, *<i>ppvStorage</i> is set to <b>NULL</b>.
+Address of a pointer variable that receives the interface pointer requested in <i>riid</i>. Upon successful return, *<i>ppvStorage</i> contains the requested interface pointer to the storage for the object named by <i>pszItem</i>. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on *<i>ppvStorage</i>; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, *<i>ppvStorage</i> is set to <b>NULL</b>.
 
 
 ## -returns
@@ -142,7 +142,7 @@ The requested interface is not available.
 
 
 
-The item moniker implementation of <a href="https://msdn.microsoft.com/94c8219f-8131-45dd-b350-878ffd6161ea">IMoniker::BindToStorage</a> calls this method.
+The item moniker implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtostorage">IMoniker::BindToStorage</a> calls this method.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If <i>pszItem</i> designates a pseudo-object, your implementation of <b>IOleItemContainer::GetObjectStorage</b> should return MK_E_NOSTORAGE, because pseudo-objects do not have their own independent storage. If <i>pszItem</i> designates an embedded object, or a portion of the document that has its own storage, your implementation should return the specified interface pointer on the appropriate storage object.
@@ -155,7 +155,7 @@ If <i>pszItem</i> designates a pseudo-object, your implementation of <b>IOleItem
 
 
 
-<a href="https://msdn.microsoft.com/fe306a36-da24-4b1e-ab42-359d37962d36">IOleItemContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
  
 
  

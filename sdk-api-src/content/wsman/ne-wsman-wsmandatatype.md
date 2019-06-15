@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the current data type of the union in the <a href="https://msdn.microsoft.com/4ff574d4-04b0-47c3-808f-867d6815bffc">WSMAN_DATA</a> structure.
+Specifies the current data type of the union in the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a> structure.
 
 
 ## -enum-fields

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DHPUBKEY</b> structure contains information specific to the particular Diffie-Hellman <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> contained in the <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-af55-5f171b0dee33">key BLOB</a>.
+The <b>DHPUBKEY</b> structure contains information specific to the particular Diffie-Hellman <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> contained in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>.
 
 
 ## -struct-fields
@@ -59,12 +59,12 @@ The <b>DHPUBKEY</b> structure contains information specific to the particular Di
 
 ### -field magic
 
-This must always be set to DH1 (0x31484400) when used for <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOBs</a> and to DH2 (0x32484400) when used for <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key BLOBs</a>. 
+This must always be set to DH1 (0x31484400) when used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOBs</a> and to DH2 (0x32484400) when used for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key BLOBs</a>. 
 
 
 
 
-Notice that the hexadecimal values are simply an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">ASCII</a> encoding of DH1 and DH2.
+Notice that the hexadecimal values are simply an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of DH1 and DH2.
 
 
 ### -field bitlen
@@ -86,7 +86,7 @@ Number of bits in the prime modulus, P.
 
 
 
-<a href="https://msdn.microsoft.com/99d41222-b4ca-40f3-a240-52b0a9b3a9aa">PUBLICKEYSTRUC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a>
  
 
  

@@ -80,9 +80,9 @@ A pointer to a <b>null</b>-terminated Unicode string that specifies the key valu
 
 ### -param srrfFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/c9dbffd1-3b3e-4a25-89ee-1666e2812a62">SRRF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/srrf">SRRF</a></b>
 
-The <a href="https://msdn.microsoft.com/c9dbffd1-3b3e-4a25-89ee-1666e2812a62">SRRF</a> flag constants. If more than one flag is used they can be combined using a bitwise OR. These flags are used to restrict the type of data returned. This value cannot be 0.
+The <a href="https://docs.microsoft.com/windows/desktop/shell/srrf">SRRF</a> flag constants. If more than one flag is used they can be combined using a bitwise OR. These flags are used to restrict the type of data returned. This value cannot be 0.
 
 
 ### -param pdwType [out]
@@ -112,7 +112,7 @@ When this function returns, contains a pointer to the size of the data, in bytes
 
 Type: <b>LONG</b>
 
-If successful, this function returns ERROR_SUCCESS and all out parameters requested. Returns ERROR_MORE_DATA if the function fails due to insufficient space in a provided non-<b>NULL</b> pvData. In this case  only <i>pdwType</i> and <i>pcbData</i> may contain valid data, <i>pvData</i> will be undefined. Otherwise, returns a nonzero error code defined in Winerror.h . You can use the <a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+If successful, this function returns ERROR_SUCCESS and all out parameters requested. Returns ERROR_MORE_DATA if the function fails due to insufficient space in a provided non-<b>NULL</b> pvData. In this case  only <i>pdwType</i> and <i>pcbData</i> may contain valid data, <i>pvData</i> will be undefined. Otherwise, returns a nonzero error code defined in Winerror.h . You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 
 

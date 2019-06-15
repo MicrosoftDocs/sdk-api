@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes</a> collection that are either completely inside or intersected by a known circle.
+Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that are either completely inside or intersected by a known circle.
         
 
 
@@ -161,7 +161,7 @@ The method computes the intersection, considering the full set of drawing attrib
 
 After a rotation or shear transform has been performed on a stroke or a collection of strokes, the transformed <code>x-</code> and <code>y-</code> coordinates are no longer concentric with the original coordinates. Because of this, the <code>radius</code> argument should not be calculated from the <code>x-</code> or <code>y-</code> coordinates.
 
-To determine which points of a known stroke intersect the test area, call the <a href="https://msdn.microsoft.com/b87a1bc0-b17b-419b-947e-48746f4903e8">HitTest</a> method of the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object.
+To determine which points of a known stroke intersect the test area, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-hittestcircle">HitTest</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
 
 The application must always pass in a destination pointer for the resulting collection of strokes. If there are no intersections, the collection has a count of zero.
 
@@ -173,11 +173,11 @@ The application must always pass in a destination pointer for the resulting coll
 
 
 
-<a href="https://msdn.microsoft.com/fe88410d-e3e7-4899-b6fe-04e6eed98bbb">HitTest(Point[], Single) Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso">HitTest(Point[], Single) Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/401c4f62-a406-49ac-9911-91f815cde9c8">HitTest(Rectangle, Single) Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle">HitTest(Rectangle, Single) Method</a>
 
 
 
@@ -185,11 +185,11 @@ The application must always pass in a destination pointer for the resulting coll
 
 
 
-<a href="https://msdn.microsoft.com/f942d6a3-f303-49df-a128-de9760b508ef">InkDisp Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7fb921c-0bd2-48aa-b092-ab1fb08c0697">InkStrokes Collection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
  
 
  

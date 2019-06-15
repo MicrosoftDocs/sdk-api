@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbTerrestrialDeliverySystemDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IIsdbTerrestrialDeliverySystemDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbTerrestrialDeliverySystemDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbTerrestrialDeliverySystemDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbTerrestrialDeliverySystemDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14ba763d-c21c-48c1-b5d9-d29cc1108a58">GetAreaCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor-getareacode">GetAreaCode</a>
 </td>
 <td align="left" width="63%">
  Gets the service area code from an ISDB terrestrial delivery system descriptor.
@@ -78,7 +78,7 @@ The <b>IIsdbTerrestrialDeliverySystemDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d13cadd3-561f-4d4e-8260-7a1d56dfa578">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
  Gets the number of records in an ISDB terrestrial delivery system descriptor.
@@ -87,7 +87,7 @@ The <b>IIsdbTerrestrialDeliverySystemDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f1016fd4-bcd9-4678-b59c-c6c8207f242d">GetGuardInterval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor-getguardinterval">GetGuardInterval</a>
 </td>
 <td align="left" width="63%">
  Gets a code that indicates the guard interval from an ISDB terrestrial delivery system descriptor.
@@ -96,7 +96,7 @@ The <b>IIsdbTerrestrialDeliverySystemDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c01c512-03b4-45f1-99e0-853aa42b79a8">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
  Gets the body length of an ISDB terrestrial delivery system descriptor.
@@ -105,7 +105,7 @@ The <b>IIsdbTerrestrialDeliverySystemDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9040dcc9-49c8-4c3b-ad86-7dc38d1722b9">GetRecordFrequency</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor-getrecordfrequency">GetRecordFrequency</a>
 </td>
 <td align="left" width="63%">
  Gets the center frequency from an ISDB terrestrial delivery system descriptor.
@@ -114,7 +114,7 @@ The <b>IIsdbTerrestrialDeliverySystemDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15b70e2e-21e0-406c-9d7a-32031114d50b">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB terrestrial delivery system descriptor.
@@ -123,7 +123,7 @@ Gets the tag that identifies an ISDB terrestrial delivery system descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7f4659f-0aa6-46a6-a352-da801d132866">GetTransmissionMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor-gettransmissionmode">GetTransmissionMode</a>
 </td>
 <td align="left" width="63%">
  Gets a code that indicates the transmission mode from an ISDB terrestrial delivery system descriptor.

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains parameters for the <a href="https://msdn.microsoft.com/94e447af-9311-4a2c-9ec5-be371684f79d">IMFInputTrustAuthority::BindAccess</a> or <a href="https://msdn.microsoft.com/4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176">IMFInputTrustAuthority::UpdateAccess</a> method.
+Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-bindaccess">IMFInputTrustAuthority::BindAccess</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-updateaccess">IMFInputTrustAuthority::UpdateAccess</a> method.
 
 
 
@@ -97,7 +97,7 @@ Number of elements in the <b>rgOutputActions</b> array.
 
 ### -field rgOutputActions
 
-Array of <a href="https://msdn.microsoft.com/24e74739-054c-46ef-8df7-b29a9a2ea94a">MFINPUTTRUSTAUTHORITY_ACCESS_ACTION</a> structures. The number of elements in the array is specified in the <b>cActions</b> member.
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfinputtrustauthority_action">MFINPUTTRUSTAUTHORITY_ACCESS_ACTION</a> structures. The number of elements in the array is specified in the <b>cActions</b> member.
 
 
 ## -see-also
@@ -105,7 +105,7 @@ Array of <a href="https://msdn.microsoft.com/24e74739-054c-46ef-8df7-b29a9a2ea94
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

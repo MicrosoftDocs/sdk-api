@@ -71,7 +71,7 @@ Retrieves a description string for the language associated with a specified bina
 
 Type: <b>DWORD</b>
 
-The binary language identifier. For a complete list of the language identifiers, see <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">Language Identifiers</a>.
+The binary language identifier. For a complete list of the language identifiers, see <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.
 
 For example, the description string associated with the language identifier 0x040A is "Spanish (Traditional Sort)". If the identifier is unknown, the <i>szLang</i> parameter points to a default string ("Language Neutral").
 
@@ -109,7 +109,7 @@ If an error occurs, the return value is zero. Unknown language identifiers do no
 
  This function works on 16-, 32-, and 64-bit file images.
 
-Typically, an installation program uses this function to translate a language identifier returned by the <a href="https://msdn.microsoft.com/en-us/library/ms647464(v=VS.85).aspx">VerQueryValue</a> function. The text string may be used in a dialog box that asks the user how to proceed in the event of a language conflict. 
+Typically, an installation program uses this function to translate a language identifier returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> function. The text string may be used in a dialog box that asks the user how to proceed in the event of a language conflict. 
 
 
 
@@ -119,7 +119,7 @@ Typically, an installation program uses this function to translate a language id
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646981(v=VS.85).aspx">Version Information Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information Overview</a>
  
 
  

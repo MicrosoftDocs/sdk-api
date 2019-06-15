@@ -62,7 +62,7 @@ The <b>get_EnumTuningSpaces</b> method returns an enumerator for the collection.
 
 ### -param NewEnum [out]
 
-Pointer to a variable that receives an <a href="https://msdn.microsoft.com/9b64a48f-ebab-46af-a89d-b8bc488d85da">IEnumTuningSpaces</a> interface pointer. Use this interface to iterate through the collection. The caller must release the interface.
+Pointer to a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces</a> interface pointer. Use this interface to iterate through the collection. The caller must release the interface.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns S_OK if successful.
 
 
 
-<a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces Interface</a>
  
 
  

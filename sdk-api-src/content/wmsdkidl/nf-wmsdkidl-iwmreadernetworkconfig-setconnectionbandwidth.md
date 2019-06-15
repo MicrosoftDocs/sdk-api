@@ -111,7 +111,7 @@ NULL or invalid argument passed in.
 
 
 
-By default, the SDK automatically detects the bandwidth of the connection to the server. When auto-detection is set, a call to <b>GetConnectionBandwidth</b> following the <a href="https://msdn.microsoft.com/en-us/library/Dd743597(v=VS.85).aspx">Open</a> request returns the dynamically detected connection bandwidth.
+By default, the SDK automatically detects the bandwidth of the connection to the server. When auto-detection is set, a call to <b>GetConnectionBandwidth</b> following the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">Open</a> request returns the dynamically detected connection bandwidth.
 
 Setting a bandwidth by using this method is sometimes called <i>bandwidth-throttling</i> because it deliberately limits the available bandwidth.
 
@@ -123,11 +123,11 @@ Setting a bandwidth by using this method is sometimes called <i>bandwidth-thrott
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743521(v=VS.85).aspx">IWMReaderNetworkConfig::GetConnectionBandwidth</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getconnectionbandwidth">IWMReaderNetworkConfig::GetConnectionBandwidth</a>
  
 
  

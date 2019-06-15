@@ -148,8 +148,8 @@ Perform all installation operations.
 When using the <b>RegisterDlls</b> INF directive to self-register DLLs 
          on Windows 2000, callers of <b>SetupInstallFromInfSection</b> may 
          receive notifications on each file as it is registered or unregistered. To send a 
-         <a href="https://msdn.microsoft.com/0faf277c-7805-478f-9cec-0dd7b6acdb0e">SPFILENOTIFY_STARTREGISTRATION</a> or 
-         <a href="https://msdn.microsoft.com/6304f406-c9f8-41cc-a7b7-5ef606f62efb">SPFILENOTIFY_ENDREGISTRATION</a> 
+         <a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a> or 
+         <a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a> 
          notification to the callback routine, include SPINST_REGISTERCALLBACKAWARE plus either SPINST_REGSVR or 
          SPINST_UNREGSVR. The caller must also set the <i>MsgHandler</i> parameter.
 
@@ -189,7 +189,7 @@ Source root for file copies. An example would be A:\ or \\pegasus\win\install. I
 
 Optional parameter that must be specified if <i>Flags</i> includes SPINST_FILES. 
        Specifies flags to be passed to the 
-       <a href="https://msdn.microsoft.com/f61fd00e-e60f-4722-9da7-1ed4d8491004">SetupQueueCopySection</a> function when files 
+       <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopysectiona">SetupQueueCopySection</a> function when files 
        are queued for copy. These flags may be a combination of the following values.
 
 
@@ -215,7 +215,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 The file version information used during version checks is that specified in the 
           <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-          <a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled 
+          <a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-tagvs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled 
           in by the  version functions. If one of the files does not have version resources, or if they have 
           identical version information, the source file is considered newer.
 
@@ -288,8 +288,8 @@ If the target exists, behave as if it is in use and queue the file for copying o
 
 If the file was in use during the copy operation inform the user that the system needs to be rebooted. 
          This flag is only used when later calling 
-         <a href="https://msdn.microsoft.com/14b34fd9-ae96-4552-b99d-488bae5c7644">SetupPromptReboot</a> or 
-         <a href="https://msdn.microsoft.com/4d59bb19-bb4a-4a24-814b-322e46e40fab">SetupScanFileQueue</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuppromptreboot">SetupPromptReboot</a> or 
+         <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupscanfilequeuea">SetupScanFileQueue</a>.
 
 
 
@@ -323,21 +323,21 @@ If the user tries to skip a file, warn them that skipping a file may affect the 
 ### -param MsgHandler
 
 Pointer to the callback routine. The callback routine must be in the format of 
-       <a href="https://msdn.microsoft.com/41eaa57a-e116-443c-93ee-397456a5c466">FileCallback</a>. See 
-       <a href="https://msdn.microsoft.com/93434558-ae83-4ea2-9324-659e5873a8c3">Notifications</a> for more information.
+       <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a>. See 
+       <a href="https://docs.microsoft.com/windows/desktop/SetupApi/notifications">Notifications</a> for more information.
 
 This parameter is optional only if the <i>Flags</i> parameter does not include 
        SPINST_FILES, SPINST_REGISTERCALLBACKAWARE plus SPINST_REGSVR, or SPINST_UNREGSVR.
 
 <i>MsgHandler</i> must be set if <i>Flags</i> includes SPINST_FILES. In 
        this case, notification is sent to the callback routine when the file queue is committed with 
-       <a href="https://msdn.microsoft.com/c532f435-7393-49f0-975c-4c0ecca64407">SetupCommitFileQueue</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>.
 
 <i>MsgHandler</i> must be set if <i>Flags</i> includes 
         SPINST_REGISTERCALLBACKAWARE plus SPINST_REGSVR or SPINST_UNREGSVR. In this case a 
-        <a href="https://msdn.microsoft.com/0faf277c-7805-478f-9cec-0dd7b6acdb0e">SPFILENOTIFY_STARTREGISTRATION</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a> 
         or 
-        <a href="https://msdn.microsoft.com/6304f406-c9f8-41cc-a7b7-5ef606f62efb">SPFILENOTIFY_ENDREGISTRATION</a> 
+        <a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a> 
         is sent to the callback routine once each time a file is registered or unregistered using the 
         <b>RegisterDlls</b> INF directive on Windows 2000.
 
@@ -346,7 +346,7 @@ This parameter is optional only if the <i>Flags</i> parameter does not include
 
 Value to be passed to the callback function when the file queue built by this routine internally is 
       committed via 
-      <a href="https://msdn.microsoft.com/c532f435-7393-49f0-975c-4c0ecca64407">SetupCommitFileQueue</a>. The 
+      <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>. The 
       <i>Context</i> parameter is optional only if the <i>Flags</i> parameter 
       does not include SPINST_FIlLES. This parameter must be specified if <i>Flags</i> includes 
       SPINST_FIlLES.
@@ -374,7 +374,7 @@ Optional pointer to a pointer to the <b>SP_DEVINFO_DATA</b>
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -398,23 +398,23 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
-<a href="https://msdn.microsoft.com/0a9518b7-f231-48f2-ba50-5b802f8ccaed">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/6304f406-c9f8-41cc-a7b7-5ef606f62efb">SPFILENOTIFY_ENDREGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/0faf277c-7805-478f-9cec-0dd7b6acdb0e">SPFILENOTIFY_STARTREGISTRATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/25a937d3-29f4-46e8-91e5-e956fbe647d7">SetupInstallServicesFromInfSection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
  
 
  

@@ -70,7 +70,7 @@ The default is" FSRM@<i>local machine name</i>". You cannot set this to
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b">IFsrmSetting</a>.
+For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>.
 
 <div class="code"></div>
 
@@ -81,11 +81,11 @@ For an example, see <a href="https://msdn.microsoft.com/432fbaaa-7ddb-4d8c-bfbe-
 
 
 
-<a href="https://msdn.microsoft.com/0c27393a-9a84-4147-a7e0-582c0bf2d918">FsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
 
 
 
-<a href="https://msdn.microsoft.com/432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b">IFsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
  
 
  

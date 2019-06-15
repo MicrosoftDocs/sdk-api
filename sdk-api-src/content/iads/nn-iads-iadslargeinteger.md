@@ -56,7 +56,7 @@ The <b>IADsLargeInteger</b> interface is used to manipulate 64-bit integers of t
 
 
 
-Handling the <b>IADsLargeInteger</b> in Visual Basic is made difficult by the fact that Visual Basic has no native unsigned numeric data type. This can cause errors in data conversion if either the <a href="https://msdn.microsoft.com/73e0c7fe-e468-4f92-9c9e-721bf00dd4bb">LowPart</a> or <b>HighPart</b> has the high bit set, which causes Visual Basic to handle the number as negative. The Visual Basic code examples below show how to properly handle the <b>IADsLargeInteger</b> in Visual Basic.
+Handling the <b>IADsLargeInteger</b> in Visual Basic is made difficult by the fact that Visual Basic has no native unsigned numeric data type. This can cause errors in data conversion if either the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslargeinteger-property-methods">LowPart</a> or <b>HighPart</b> has the high bit set, which causes Visual Basic to handle the number as negative. The Visual Basic code examples below show how to properly handle the <b>IADsLargeInteger</b> in Visual Basic.
 
 
 #### Examples
@@ -80,7 +80,7 @@ Debug.Print strTemp
 ```
 
 
-In Visual Basic, it is possible to convert an <b>IADsLargeInteger</b> objects that represents a date and/or time into a time Variant using the <a href="https://msdn.microsoft.com/d1d55f1f-4daa-4b9d-9962-873e38b1e0cf">FileTimeToSystemTime</a> and <a href="https://msdn.microsoft.com/d9d69521-9b33-4fc5-8a1c-929f216db450">SystemTimeToVariantTime</a> APIs. This is shown in the following code example.
+In Visual Basic, it is possible to convert an <b>IADsLargeInteger</b> objects that represents a date and/or time into a time Variant using the <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-systemtimetovarianttime">SystemTimeToVariantTime</a> APIs. This is shown in the following code example.
 
 
 ```vb
@@ -230,11 +230,11 @@ HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
 
 
 
-<a href="https://msdn.microsoft.com/73e0c7fe-e468-4f92-9c9e-721bf00dd4bb">IADsLargeInteger Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslargeinteger-property-methods">IADsLargeInteger Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://msdn.microsoft.com/385b2f9d-659e-451d-97da-15be70180e1f">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
+Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/ns-ehstorapi-_act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Unauthorization completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/33d5df30-f877-4852-ad2f-af1bb58d0044">IEnhancedStorageACT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
  
 
  

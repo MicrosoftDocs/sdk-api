@@ -97,7 +97,7 @@ Parameter <i>pcDevices</i> is <b>NULL</b>.
 
 
 
-For a code example that calls the <b>GetCount</b> method, see <a href="https://msdn.microsoft.com/ad8753ba-ad20-4122-b0f2-eb165f98db67">Device Properties</a>.
+For a code example that calls the <b>GetCount</b> method, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-properties">Device Properties</a>.
 
 
 
@@ -107,7 +107,7 @@ For a code example that calls the <b>GetCount</b> method, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/4769b0a6-a319-4605-8742-5e7c285679cf">IMMDeviceCollection Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection Interface</a>
  
 
  

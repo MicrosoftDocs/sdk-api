@@ -50,13 +50,13 @@ ms.custom: 19H1
 
 
 The <b>IUICollection</b> interface is implemented by the Ribbon framework. The <b>IUICollection</b> interface defines the 
-		methods for dynamically manipulating collection-based controls, such as the various Ribbon <a href="https://msdn.microsoft.com/en-us/library/Dd742868(v=VS.85).aspx">galleries</a> and the 
+		methods for dynamically manipulating collection-based controls, such as the various Ribbon <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-controls-galleries">galleries</a> and the 
 		Quick Access Toolbar (QAT), at run time.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUICollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IUICollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371504(v=VS.85).aspx">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the end of the <b>IUICollection</b>.
@@ -80,7 +80,7 @@ Adds an item to the end of the <b>IUICollection</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371506(v=VS.85).aspx">Clear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Deletes all items from the <b>IUICollection</b>.
@@ -89,7 +89,7 @@ Deletes all items from the <b>IUICollection</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371509(v=VS.85).aspx">GetCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollection-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items contained in the <b>IUICollection</b>.
@@ -98,7 +98,7 @@ Retrieves the number of items contained in the <b>IUICollection</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371513(v=VS.85).aspx">GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollection-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves an item from the <b>IUICollection</b> at the specified index.
@@ -107,7 +107,7 @@ Retrieves an item from the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371516(v=VS.85).aspx">Insert</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollection-insert">Insert</a>
 </td>
 <td align="left" width="63%">
 Inserts an item into the <b>IUICollection</b> at the specified index.
@@ -116,7 +116,7 @@ Inserts an item into the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371521(v=VS.85).aspx">RemoveAt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollection-removeat">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the <b>IUICollection</b> at the specified index.
@@ -125,7 +125,7 @@ Removes an item from the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371524(v=VS.85).aspx">Replace</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicollection-replace">Replace</a>
 </td>
 <td align="left" width="63%">
 Replaces an item at the specified index of the <b>IUICollection</b> with another item.
@@ -140,11 +140,11 @@ Replaces an item at the specified index of the <b>IUICollection</b> with another
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd742704(v=VS.85).aspx">Gallery Sample</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371499(v=VS.85).aspx">IUICollectionChangedEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollectionchangedevent">IUICollectionChangedEvent</a>
  
 
  

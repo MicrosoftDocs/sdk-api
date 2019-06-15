@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Do not use. Contains the input information to pass to <a href="https://msdn.microsoft.com/en-us/library/ms629715(v=VS.85).aspx">WABOpen</a>.
+Do not use. Contains the input information to pass to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabapi/nc-wabapi-wabopen">WABOpen</a>.
 
 
 ## -struct-fields

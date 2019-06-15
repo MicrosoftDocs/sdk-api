@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertEnumCertificateContextProperties</b> function retrieves the first or next extended property associated with a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context</a>. Used in a loop, this function can retrieve in sequence all of the extended properties associated with a <i>certificate context</i>.
+The <b>CertEnumCertificateContextProperties</b> function retrieves the first or next extended property associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>. Used in a loop, this function can retrieve in sequence all of the extended properties associated with a <i>certificate context</i>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>CertEnumCertificateContextProperties</b> function retrieves the first or 
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure of the certificate containing the properties to be enumerated.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure of the certificate containing the properties to be enumerated.
 
 
 ### -param dwPropId [in]
@@ -71,14 +71,14 @@ Property number of the last property enumerated. To get the first property, <i>d
 
 
 Applications can call 
-<a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">CertGetCertificateContextProperty</a> with the <i>dwPropId</i> returned by this function to retrieve that property's data.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a> with the <i>dwPropId</i> returned by this function to retrieve that property's data.
 
 
 ## -returns
 
 
 
-The return value is a <b>DWORD</b> value that identifies a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate context's</a> property. The <b>DWORD</b> value returned by one call of the function can be supplied as the <i>dwPropId</i> in a subsequent call to the function. If there are no more properties to be enumerated or if the function fails, zero is returned.
+The return value is a <b>DWORD</b> value that identifies a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context's</a> property. The <b>DWORD</b> value returned by one call of the function can be supplied as the <i>dwPropId</i> in a subsequent call to the function. If there are no more properties to be enumerated or if the function fails, zero is returned.
 
 
 
@@ -93,7 +93,7 @@ CERT_KEY_PROV_HANDLE_PROP_ID and CERT_KEY_SPEC_PROP_ID properties are stored as 
 #### Examples
 
 See 
-<a href="https://msdn.microsoft.com/4b5361f5-79b1-4b05-a133-1a394da7d6ee">Example C Program: Listing the Certificates in a Store</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-listing-the-certificates-in-a-store">Example C Program: Listing the Certificates in a Store</a>.
 
 <div class="code"></div>
 
@@ -104,15 +104,15 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">CertGetCertificateContextProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>
  
 
  

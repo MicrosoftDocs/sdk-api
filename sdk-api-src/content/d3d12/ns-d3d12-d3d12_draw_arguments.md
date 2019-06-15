@@ -81,7 +81,7 @@ Specifies an index to the first instance to start drawing from.
 
 
 
-The members of this structure serve the same purpose as the parameters of  <a href="https://msdn.microsoft.com/BB10C732-1F42-417D-ADDE-55E870AD5FE9">DrawInstanced</a>.
+The members of this structure serve the same purpose as the parameters of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced">DrawInstanced</a>.
 
 
 
@@ -91,7 +91,7 @@ The members of this structure serve the same purpose as the parameters of  <a hr
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

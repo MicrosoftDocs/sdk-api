@@ -65,7 +65,7 @@ The network access policies collection.
 
 ### -field PROPERTY_SHV_TEMPLATES_COLLECTION
 
-Collection of System Health Validator (SHV) templates. See <a href="https://msdn.microsoft.com/f562f5f1-c05a-4e4e-bcd9-a302c61f2a5e">NAP documentation</a> for more information on SHV.
+Collection of System Health Validator (SHV) templates. See <a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">NAP documentation</a> for more information on SHV.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ Collection of System Health Validator (SHV) templates. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/1e12baf8-e1f4-4b46-ba08-58adf4f3012e">POLICYPROPERTIES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-_policyproperties">POLICYPROPERTIES</a>
  
 
  

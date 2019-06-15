@@ -162,7 +162,7 @@ Sets or retrieves the cache group type.
 ### -param lpGroupInfo [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/d1c30fee-b8a3-472d-91a5-9d081f66b007">INTERNET_CACHE_GROUP_INFO</a> structure that receives the requested information.
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-_internet_cache_group_infoa">INTERNET_CACHE_GROUP_INFO</a> structure that receives the requested information.
 
 
 ### -param lpcbGroupInfo [in, out]
@@ -181,7 +181,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -190,7 +190,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific er
 
 
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -200,11 +200,11 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific er
 
 
 
-<a href="https://msdn.microsoft.com/44c268c9-a745-432a-8540-60d7e7d2cb2d">Caching</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e0da5c6-29e4-47b5-8ed2-8712c9ca2c97"> WinINet Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
  
 
  

@@ -120,7 +120,7 @@ An IXpsOMPage1 interface that contains a document type of XPS_DOCUMENT_TYPE_ OPE
 
 
 
-<a href="https://msdn.microsoft.com/f013e59d-83ae-453f-9cc5-9a8230729128">IXpsOMObjectFactory1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
  
 
  

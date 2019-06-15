@@ -59,17 +59,17 @@ Determines whether the specified trustee has access rights to the object or prop
 
 ### -param pTrustee [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/120e93eb-680f-4f86-879d-bc2de10d4641">TRUSTEE</a> structure. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_trustee_a">TRUSTEE</a> structure. 
 
 
 ### -param lpProperty [in]
 
-The name of the property. If you are using the COM implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>, this parameter must be <b>NULL</b>.
+The name of the property. If you are using the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this parameter must be <b>NULL</b>.
 
 
 ### -param AccessRights [in]
 
-The access rights on the object. If you are using the COM implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>, this value must be either 0 or 1 (COM_RIGHTS_EXECUTE).
+The access rights on the object. If you are using the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this value must be either 0 or 1 (COM_RIGHTS_EXECUTE).
 
 
 ### -param pfAccessAllowed [out]
@@ -90,9 +90,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-In the system-supplied implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a> (CLSID_DCOMAccessControl), <b>IsAccessAllowed</b> can be called only during a distributed COM call, and the only valid trustee name is the name of the client.
+In the system-supplied implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a> (CLSID_DCOMAccessControl), <b>IsAccessAllowed</b> can be called only during a distributed COM call, and the only valid trustee name is the name of the client.
 
-The following tables list the object-specific access permissions used with the Directory Service and storage implementation of <a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>.
+The following tables list the object-specific access permissions used with the Directory Service and storage implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>.
 
 The following permissions are specific to DS objects.
 
@@ -444,7 +444,7 @@ The following permissions are specific to window objects.
 </tr>
 <tr>
 <td>ACTRL_WIN_EXIT</td>
-<td>Call <a href="https://msdn.microsoft.com/7c76caac-459d-45df-ae00-bc208a9e7b22">ExitWindows</a> or <a href="https://msdn.microsoft.com/f44ccb66-10bd-4ee6-93e1-16948cf10e50">ExitWindowsEx</a>
+<td>Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
 </td>
 </tr>
 </table>
@@ -458,7 +458,7 @@ The following permissions are specific to window objects.
 
 
 
-<a href="https://msdn.microsoft.com/f7f19a9d-27ed-479f-b5d4-562cab5be12a">IAccessControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
  
 
  

@@ -59,7 +59,7 @@ The <b>GetPnPServiceID</b> method retrieves a Plug and Play (PnP) identifier for
 
 ### -param ppszPnPServiceID [out]
 
-The retrieved PnP identifier, which is the same identifier that was passed to the <a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Open</a> method.
+The retrieved PnP identifier, which is the same identifier that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method.
 
 
 ## -returns
@@ -103,7 +103,7 @@ A <b>NULL</b> parameter was specified.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Open</a> method has not yet been called for the service.
+The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method has not yet been called for the service.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The <a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Op
 
 
 
-The <a href="https://msdn.microsoft.com/540d4320-42d4-48f0-8445-c74ff0dc1e1a">Open</a> method must be called on the service before a PnP identifier can be retrieved.
+The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method must be called on the service before a PnP identifier can be retrieved.
 
 When an application no longer needs the PnP identifier, it should call the <b>CoTaskMemFree</b> function to free the identifier memory.
 
@@ -129,7 +129,7 @@ When an application no longer needs the PnP identifier, it should call the <b>Co
 
 
 
-<a href="https://msdn.microsoft.com/f57344d5-c978-4c27-b8a9-b42492bd9312">IPortableDeviceService Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
  
 
  

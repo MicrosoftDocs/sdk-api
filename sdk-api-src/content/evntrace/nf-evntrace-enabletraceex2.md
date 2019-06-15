@@ -56,7 +56,7 @@ ms.custom: 19H1
 The <b>EnableTraceEx2</b> function
     enables or disables the specified event trace provider.
 
-This function supersedes the <a href="https://msdn.microsoft.com/1c675bf7-f292-49b1-8b60-720499a497fd">EnableTraceEx</a> 
+This function supersedes the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> 
     function.
 
 
@@ -68,7 +68,7 @@ This function supersedes the <a href="https://msdn.microsoft.com/1c675bf7-f292-4
 ### -param TraceHandle [in]
 
 A handle of the event tracing session to which you want to enable or disable the provider. The 
-      <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a> function returns this handle. 
+      <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle. 
 
 
 ### -param ProviderId [in]
@@ -212,7 +212,7 @@ Set to zero to enable the trace asynchronously; this is the default. If the time
 
 ### -param EnableParameters [in, optional]
 
-The trace parameters used to enable the provider. For details, see <a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a> and <a href="https://msdn.microsoft.com/6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B">ENABLE_TRACE_PARAMETERS_V1</a>.
+The trace parameters used to enable the provider. For details, see <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a>.
 
 
 ## -returns
@@ -222,7 +222,7 @@ The trace parameters used to enable the provider. For details, see <a href="http
 If the function is successful, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -291,7 +291,7 @@ Only users with administrative privileges, users in the <i>Performance Log Users
          group, and services running as <i>LocalSystem</i>, <i>LocalService</i>, 
          or <i>NetworkService</i> can enable trace providers. To grant a restricted user the ability 
          to enable a trace provider, add them to the <i>Performance Log Users</i> group or see 
-         <a href="https://msdn.microsoft.com/699bb165-680f-4d3b-8859-959f319ca4be">EventAccessControl</a>.
+         <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
 
 <b>Windows XP and Windows 2000:  </b>Anyone can enable a trace provider.
 
@@ -314,19 +314,19 @@ The provider defines its interpretation of being enabled or disabled. Typically,
 Event Tracing for Windows (ETW) supports several categories of filtering.
 
 <ul>
-<li>Schematized filtering - This is the traditional filtering setup also called provider-side filtering. The controller defines  a custom set of filters as a binary object that is passed to the provider in the <a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> call. It is incumbent on the controller and provider to define and interpret these  filters and the controller should only log applicable events. This requires a close coupling of the controller and provider since the type and format of the binary object of what can be filtered is not defined. The <a href="https://msdn.microsoft.com/bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b">TdhEnumerateProviderFilters</a> function can be used to retrieve the filters defined in a manifest.</li>
+<li>Schematized filtering - This is the traditional filtering setup also called provider-side filtering. The controller defines  a custom set of filters as a binary object that is passed to the provider in the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> call. It is incumbent on the controller and provider to define and interpret these  filters and the controller should only log applicable events. This requires a close coupling of the controller and provider since the type and format of the binary object of what can be filtered is not defined. The <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a> function can be used to retrieve the filters defined in a manifest.</li>
 <li>Scope filtering  - Certain providers are enabled or not enabled to a session based on whether or not they meet the criteria specified by the scope filters. There are several types of scope filters that allow filtering based on the event ID, the process ID (PID), executable filename, the app ID, and the app package name. This feature is supported on Windows 8.1,Windows Server 2012 R2, and later. </li>
 <li>Stackwalk filtering - This  notifies ETW to only perform a stack walk for a given set of event IDs. This feature is supported on Windows 8.1,Windows Server 2012 R2, and later. </li>
 <li>Event payload filtering  - For manifest providers, events can be filtered on-the-fly based on whether or not they satisfy a logical expression based on one or more predicates.</li>
 </ul>
-Every time <b>EnableTraceEx2</b> is called, the filters for the provider in that session are replaced by the new parameters defined by the parameters passed to the <b>EnableTraceEx2</b> function. Multiple filters passed in a single <b>EnableTraceEx2</b> call can be combined with an additive effect. To disable filtering and thereby enable all providers/events in the logging session, call <b>EnableTraceEx2</b> with the <i>EnableParameters</i> parameter pointed to an <a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a> structure with the <b>FilterDescCount</b> member set to 0.
+Every time <b>EnableTraceEx2</b> is called, the filters for the provider in that session are replaced by the new parameters defined by the parameters passed to the <b>EnableTraceEx2</b> function. Multiple filters passed in a single <b>EnableTraceEx2</b> call can be combined with an additive effect. To disable filtering and thereby enable all providers/events in the logging session, call <b>EnableTraceEx2</b> with the <i>EnableParameters</i> parameter pointed to an <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structure with the <b>FilterDescCount</b> member set to 0.
 
-Each filter passed to the <b>EnableTraceEx2</b> function is specified by a <b>Type</b> member in the <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a>. An array of  <b>EVENT_FILTER_DESCRIPTOR</b> structures is passed in the <a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a> structure passed in the <b>EnableParameters</b> parameter to the <b>EnableTraceEx2</b> function. 
+Each filter passed to the <b>EnableTraceEx2</b> function is specified by a <b>Type</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>. An array of  <b>EVENT_FILTER_DESCRIPTOR</b> structures is passed in the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> structure passed in the <b>EnableParameters</b> parameter to the <b>EnableTraceEx2</b> function. 
 
 Each type of filter (a specific <b>Type</b> member) may only appear once in a call to the <b>EnableTraceEx2</b> function, however, some filter  types allow multiple conditions to be included in a single filter. The maximum number of filters that can be included in a call to <b>EnableTraceEx2</b> is set by  <b>MAX_EVENT_FILTERS_COUNT</b> defined to be 8 in the <i>Evntprov.h</i> header file. 
 
 
-Each filter type has its own size or entity limits based on the specific <b>Type</b> member in the <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structure.  The list  below indicates these limits.
+Each filter type has its own size or entity limits based on the specific <b>Type</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure.  The list  below indicates these limits.
 
 
 
@@ -435,9 +435,9 @@ Each filter type has its own size or entity limits based on the specific <b>Type
  
 
 To include all events that a provider provides, set <i>MatchAnyKeyword</i> to zero (for a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">manifest-based</a> provider or <a href="https://msdn.microsoft.com/8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4">TraceLogging</a> provider 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">manifest-based</a> provider or <a href="https://docs.microsoft.com/windows/desktop/tracelogging/trace-logging-about">TraceLogging</a> provider 
     and 0xFFFFFFFF for a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">classic</a> provider). To 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">classic</a> provider). To 
     include specific events, set the <i>MatchAnyKeyword</i> mask to those specific events. To indicate that you wish to enable a Provider Group, use the EVENT_ENABLE_PROPERTY_PROVIDER_GROUP flag on the <b>EnableProperty</b> member of  <i>EnableParameters</i>. For 
     example, if the provider defines an event for its initialization and cleanup routines (set keyword bit 0), an 
     event for its file operations (set keyword bit 1), and an event for its calculation operations (set keyword bit 
@@ -467,23 +467,23 @@ If the provider is registered and already enabled to your session, you can also 
 
 On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack 
      walk filters can be used by the <b>EnableTraceEx2</b> 
-     function and the <a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a> and 
-     <a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a> structures to filter on 
+     function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on 
      specific conditions in a logger session. For more information on event payload filters, see the 
-     <a href="https://msdn.microsoft.com/B5132FF2-9DE3-40F3-82F0-90FE0640F646">TdhCreatePayloadFilter</a>, and 
-     <a href="https://msdn.microsoft.com/B9093E64-1796-4AF2-AB45-84F278813B66">TdhAggregatePayloadFilters</a> functions and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>, and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> functions and 
      the <b>ENABLE_TRACE_PARAMETERS</b>, 
      <b>EVENT_FILTER_DESCRIPTOR</b>, and 
-     <a href="https://msdn.microsoft.com/6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75">PAYLOAD_FILTER_PREDICATE</a> structures.
+     <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures.
 
 You do not call <b>EnableTraceEx2</b> to enable kernel 
      providers. To enable kernel providers, set the <b>EnableFlags</b> member of 
-     <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> which you then pass to 
-     <a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a>. The 
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> which you then pass to 
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>. The 
      <b>StartTrace</b> function enables the selected kernel 
      providers.
 
-Up to eight trace sessions can enable and receive events from the same <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">manifest-based</a> provider or <a href="https://msdn.microsoft.com/8C6A9E91-98F9-4D6B-A937-A22BA7CEB1E4">TraceLogging</a> provider; however, only one trace session can enable a <a href="https://msdn.microsoft.com/en-us/library/Aa363668(v=VS.85).aspx">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
+Up to eight trace sessions can enable and receive events from the same <a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">manifest-based</a> provider or <a href="https://docs.microsoft.com/windows/desktop/tracelogging/trace-logging-about">TraceLogging</a> provider; however, only one trace session can enable a <a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
 
 The provider remains enabled for the session until the session disables the provider. If the application that started the session ends without disabling the provider, the provider remains enabled.
 
@@ -499,9 +499,9 @@ For classic providers, it is up to the provider to document and make available t
 If you use <b>EnableTraceEx2</b> to enable a classic provider, the following translation occurs:
 
 <ul>
-<li>The <i>Level</i> parameter is the same as setting the <i>EnableLevel</i> parameter in <a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a>.</li>
-<li>The <i>MatchAnyKeyword</i> is the same as setting the <i>EnableFlag</i> parameter in <a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a> except that the keyword value is truncated from a ULONGLONG to a ULONG value.</li>
-<li>In the <a href="https://msdn.microsoft.com/e9f70ae6-906f-4e55-bca7-4355f1ca6091">ControlCallback</a> callback, the provider can call <a href="https://msdn.microsoft.com/22326fd9-c428-4430-8a92-978d005f6705">GetTraceEnableLevel</a> to get the level and <a href="https://msdn.microsoft.com/e5c0f2bf-34da-4555-9556-4c79ee9a73ab">GetTraceEnableFlags</a> to get the enable flag. </li>
+<li>The <i>Level</i> parameter is the same as setting the <i>EnableLevel</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>.</li>
+<li>The <i>MatchAnyKeyword</i> is the same as setting the <i>EnableFlag</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a> except that the keyword value is truncated from a ULONGLONG to a ULONG value.</li>
+<li>In the <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> callback, the provider can call <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a> to get the level and <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a> to get the enable flag. </li>
 <li>The other parameter are not used.</li>
 </ul>
 If <b>EnableTraceEx2</b> returns 
@@ -513,8 +513,8 @@ If <b>EnableTraceEx2</b> returns
 
 The following example shows you how to use the 
      <b>EnableTraceEx2</b> with payload filters using the 
-     <a href="https://msdn.microsoft.com/B5132FF2-9DE3-40F3-82F0-90FE0640F646">TdhCreatePayloadFilter</a> and 
-     <a href="https://msdn.microsoft.com/B9093E64-1796-4AF2-AB45-84F278813B66">TdhAggregatePayloadFilters</a> functions to 
+     <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> and 
+     <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> functions to 
      filter on specific conditions in a logger session.
 
 
@@ -833,51 +833,51 @@ Exit:
 
 
 
-<a href="https://msdn.microsoft.com/bc7cf886-f763-428a-9e75-031e8df26554">ENABLE_TRACE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6FC5EF54-2D05-4246-A8E8-7FDA0ABA0D4B">ENABLE_TRACE_PARAMETERS_V1</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/9318868a-29d8-4a5e-9579-c06a7c0fd78f">EVENT_FILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/d75f18e1-e5fa-4039-bb74-76dea334b0fd">EnableTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletrace">EnableTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c675bf7-f292-49b1-8b60-720499a497fd">EnableTraceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c0f2bf-34da-4555-9556-4c79ee9a73ab">GetTraceEnableFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/22326fd9-c428-4430-8a92-978d005f6705">GetTraceEnableLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75">PAYLOAD_FILTER_PREDICATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/c040514a-733d-44b9-8300-a8341d2630b3">StartTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/B9093E64-1796-4AF2-AB45-84F278813B66">TdhAggregatePayloadFilters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a>
 
 
 
-<a href="https://msdn.microsoft.com/B5132FF2-9DE3-40F3-82F0-90FE0640F646">TdhCreatePayloadFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b">TdhEnumerateProviderFilters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>
  
 
  

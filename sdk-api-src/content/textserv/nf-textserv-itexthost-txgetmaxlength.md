@@ -59,7 +59,7 @@ Gets the text host's maximum allowed length for the text.
 
 ### -param plength
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 The maximum allowed text length, in number of characters. If INFINITE is returned, the text services object can use as much memory as needed to store any specified text. 
 
@@ -68,7 +68,7 @@ The maximum allowed text length, in number of characters. If INFINITE is returne
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is <b>S_OK</b>.
 
@@ -80,9 +80,9 @@ The return value is <b>S_OK</b>.
 
 
 When this maximum is reached, the text services object should reject any further character insertion and pasted text. 
-				<a href="https://msdn.microsoft.com/en-us/library/Bb787685(v=VS.85).aspx">TxSetText</a> however should still accept (and set) text longer than the maximum length. This is because this method is used for binding and is critical to maintaining the integrity of the data to which the control is bound.
+				<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txsettext">TxSetText</a> however should still accept (and set) text longer than the maximum length. This is because this method is used for binding and is critical to maintaining the integrity of the data to which the control is bound.
 
-This method parallels the <a href="https://msdn.microsoft.com/en-us/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a> message. 
+This method parallels the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-limittext">EM_LIMITTEXT</a> message. 
 
 If the limit returned is less than the number of characters currently in the text services object, no data is lost. Instead, no edits are allowed to the text 
 				<i>other</i> than deletion until the text is reduced to below the limit.
@@ -99,11 +99,11 @@ If the limit returned is less than the number of characters currently in the tex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761607(v=VS.85).aspx">EM_LIMITTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/em-limittext">EM_LIMITTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -111,7 +111,7 @@ If the limit returned is less than the number of characters currently in the tex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

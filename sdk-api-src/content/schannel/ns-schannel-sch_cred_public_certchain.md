@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>SCH_CRED_PUBLIC_CERTCHAIN</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/8398e029-473e-488f-a861-c7ceae07e678">SCHANNEL_CRED</a> structure.]
+<p class="CCE_Message">[The <b>SCH_CRED_PUBLIC_CERTCHAIN</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_schannel_cred">SCHANNEL_CRED</a> structure.]
 
 The <b>SCH_CRED_PUBLIC_CERTCHAIN</b> structure contains a single certificate. A certification chain can be built from this certificate.
 
@@ -66,7 +66,7 @@ Must always be set to SCH_CRED_X509_CERTCHAIN.
 
 ### -field cbCertChain
 
-Size of the <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate, in bytes.
+Size of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate, in bytes.
 
 
 ### -field pCertChain
@@ -78,7 +78,7 @@ Pointer to an X.509 leaf certificate.
 
 
 
-This structure does not directly support certificate chains. If a server needs to use certificate chains, the intermediate certificates can be placed in the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority's</a> (CA) <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> and Schannel will automatically pick them up from there.
+This structure does not directly support certificate chains. If a server needs to use certificate chains, the intermediate certificates can be placed in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> and Schannel will automatically pick them up from there.
 
 
 

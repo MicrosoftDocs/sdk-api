@@ -371,7 +371,7 @@ The device associated with this recorder during the last operation has been excl
 
 This method checks, for example, for a mounted file system on the device, verifying the first and last 2MB of the disc are filled with zeros, and other media-specific checks.  These checks can help to determine if the media may have files on it for media that cannot be erased physically to a blank status.
 
-For a positive check that a disc is blank, call the <a href="https://msdn.microsoft.com/5a797742-9142-415b-896b-09526894c2a6">IDiscFormat2::get_MediaPhysicallyBlank</a> method.
+For a positive check that a disc is blank, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">IDiscFormat2::get_MediaPhysicallyBlank</a> method.
 
 
 
@@ -381,11 +381,11 @@ For a positive check that a disc is blank, call the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/c0bc2e8b-bd60-4c97-bd86-41963b20b1a3">IDiscFormat2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a797742-9142-415b-896b-09526894c2a6">IDiscFormat2::get_MediaPhysicallyBlank</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">IDiscFormat2::get_MediaPhysicallyBlank</a>
  
 
  

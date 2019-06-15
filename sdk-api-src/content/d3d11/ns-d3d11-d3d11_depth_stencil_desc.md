@@ -59,28 +59,28 @@ Describes depth-stencil state.
 
 ### -field DepthEnable
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Enable depth testing.
 
 
 ### -field DepthWriteMask
 
-Type: <b><a href="https://msdn.microsoft.com/8f61d53d-5bfc-4966-84b8-7ddd46008f5e">D3D11_DEPTH_WRITE_MASK</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_depth_write_mask">D3D11_DEPTH_WRITE_MASK</a></b>
 
-Identify a portion of the depth-stencil buffer that can be modified by depth data (see <a href="https://msdn.microsoft.com/8f61d53d-5bfc-4966-84b8-7ddd46008f5e">D3D11_DEPTH_WRITE_MASK</a>).
+Identify a portion of the depth-stencil buffer that can be modified by depth data (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_depth_write_mask">D3D11_DEPTH_WRITE_MASK</a>).
 
 
 ### -field DepthFunc
 
-Type: <b><a href="https://msdn.microsoft.com/3546c7b8-ae25-4554-85e2-527433a74a94">D3D11_COMPARISON_FUNC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a></b>
 
-A function that compares depth data against existing depth data. The function options are listed in <a href="https://msdn.microsoft.com/3546c7b8-ae25-4554-85e2-527433a74a94">D3D11_COMPARISON_FUNC</a>.
+A function that compares depth data against existing depth data. The function options are listed in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a>.
 
 
 ### -field StencilEnable
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Enable stencil testing.
 
@@ -101,23 +101,23 @@ Identify a portion of the depth-stencil buffer for writing stencil data.
 
 ### -field FrontFace
 
-Type: <b><a href="https://msdn.microsoft.com/8c375d2f-ecec-4b9f-bd84-625dad53fa6a">D3D11_DEPTH_STENCILOP_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a></b>
 
-Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing towards the camera (see <a href="https://msdn.microsoft.com/8c375d2f-ecec-4b9f-bd84-625dad53fa6a">D3D11_DEPTH_STENCILOP_DESC</a>).
+Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing towards the camera (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a>).
 
 
 ### -field BackFace
 
-Type: <b><a href="https://msdn.microsoft.com/8c375d2f-ecec-4b9f-bd84-625dad53fa6a">D3D11_DEPTH_STENCILOP_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a></b>
 
-Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera (see <a href="https://msdn.microsoft.com/8c375d2f-ecec-4b9f-bd84-625dad53fa6a">D3D11_DEPTH_STENCILOP_DESC</a>).
+Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a>).
 
 
 ## -remarks
 
 
 
-Pass a pointer to <b>D3D11_DEPTH_STENCIL_DESC</b> to the  <a href="https://msdn.microsoft.com/7577604c-922c-408c-8eab-2361ebda17df">ID3D11Device::CreateDepthStencilState</a> method to create the depth-stencil state object.
+Pass a pointer to <b>D3D11_DEPTH_STENCIL_DESC</b> to the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdepthstencilstate">ID3D11Device::CreateDepthStencilState</a> method to create the depth-stencil state object.
 
 Depth-stencil state controls how depth-stencil testing is performed by the output-merger stage.
 
@@ -209,7 +209,7 @@ The formats that support stenciling are DXGI_FORMAT_D24_UNORM_S8_UINT and DXGI_F
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
  
 
  

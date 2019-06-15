@@ -77,7 +77,7 @@ This enumeration value marks the end of the enumeration values. It can be used t
 
 
 
-<a href="https://msdn.microsoft.com/69aa22a1-10c1-43bd-ae3b-d7641bed2065">EvtGetEventInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgeteventinfo">EvtGetEventInfo</a>
  
 
  

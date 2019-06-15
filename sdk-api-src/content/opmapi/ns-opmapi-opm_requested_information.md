@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the result of an <a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a> (OPM) status request.
+Contains the result of an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) status request.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains the result of an <a href="https://msdn.microsoft.com/daae615b-37c4-4044
 
 ### -field omac
 
-An <a href="https://msdn.microsoft.com/6ff37a2a-9e63-4097-8ee6-bcc4bd580ab8">OPM_OMAC</a> structure that contains a Message Authentication Code (MAC) of the status data. The driver will use AES-based one-key CBC MAC (OMAC) to calculate this value.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_omac">OPM_OMAC</a> structure that contains a Message Authentication Code (MAC) of the status data. The driver will use AES-based one-key CBC MAC (OMAC) to calculate this value.
 
 
 ### -field cbRequestedInformationSize
@@ -69,14 +69,14 @@ The size of the valid data in the <b>abRequestedInformation</b> member, in bytes
 
 ### -field abRequestedInformation
 
-A buffer that contains the result of the status request. The meaning of the data depends on the status request. For more information, see <a href="https://msdn.microsoft.com/428d08c6-e9f0-49fb-9ef9-d0f95416669d">OPM Status Requests</a>.
+A buffer that contains the result of the status request. The meaning of the data depends on the status request. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-status-requests">OPM Status Requests</a>.
 
 
 ## -remarks
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/en-us/library/Dd373428(v=VS.85).aspx">AMCOPPStatusOutput</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppstatusoutput">AMCOPPStatusOutput</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 
@@ -86,19 +86,19 @@ The layout of this structure is identical to the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/46c0c426-9730-4a0e-ab95-03b240bd55f0">IOPMVideoOutput::COPPCompatibleGetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation">IOPMVideoOutput::COPPCompatibleGetInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/47d724eb-07e9-4659-886a-4b492fbb2415">IOPMVideoOutput::GetInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-getinformation">IOPMVideoOutput::GetInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

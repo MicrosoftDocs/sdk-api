@@ -107,11 +107,11 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd695183(v=VS.85).aspx">MSVidWebDVD Constants</a>
+<a href="https://docs.microsoft.com/previous-versions//dd695183(v=vs.85)">MSVidWebDVD Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376389(v=VS.85).aspx">ShowMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-showmenu">ShowMenu</a>
  
 
  

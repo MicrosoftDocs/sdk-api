@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> to get an indication of whether the operation may be successful.
+Determines whether the data object is capable of rendering the data as specified. Objects attempting a paste or drop operation can call this method before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> to get an indication of whether the operation may be successful.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Determines whether the data object is capable of rendering the data as specified
 
 ### -param pformatetc [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure defining the format, medium, and target device to use for the query.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure defining the format, medium, and target device to use for the query.
 
 
 ## -returns
@@ -171,7 +171,7 @@ There is insufficient memory available for this operation.
 
 
 
-The client of a data object calls <b>QueryGetData</b> to determine whether passing the specified <a href="https://msdn.microsoft.com/4478eb9a-84a1-4f3a-8290-94b8dd20c081">FORMATETC</a> structure to a subsequent call to <a href="https://msdn.microsoft.com/05118461-0438-4715-b2c2-fc2471ce38f0">IDataObject::GetData</a> is likely to be successful. A successful return from this method does not necessarily ensure the success of the subsequent paste or drop operation.
+The client of a data object calls <b>QueryGetData</b> to determine whether passing the specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagformatetc">FORMATETC</a> structure to a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> is likely to be successful. A successful return from this method does not necessarily ensure the success of the subsequent paste or drop operation.
 
 
 
@@ -181,7 +181,7 @@ The client of a data object calls <b>QueryGetData</b> to determine whether passi
 
 
 
-<a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0d5893ed4">IDataObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
  
 
  

@@ -92,15 +92,15 @@ The item is displayed with a check box and that check box is checked. <b>ECS_CHE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775947(v=VS.85).aspx">Button Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/button-types-and-styles">Button Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb600cb5-9b7e-45dc-beca-0a913c214084">IExplorerCommand::GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getstate">IExplorerCommand::GetState</a>
 
 
 
-<a href="https://msdn.microsoft.com/a93bc6af-bea3-48c1-b3bd-a2bb2a0582a7">IExplorerCommandState::GetState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommandstate-getstate">IExplorerCommandState::GetState</a>
  
 
  

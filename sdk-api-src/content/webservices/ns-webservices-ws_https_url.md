@@ -60,7 +60,7 @@ The URL subtype for specifying an HTTPS URL.
 
 ### -field url
 
-The base type from which this URL subtype and all other URL subtypes derive. The <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> is <b>WS_URL_HTTPS_SCHEME_TYPE</b>.
+The base type from which this URL subtype and all other URL subtypes derive. The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> is <b>WS_URL_HTTPS_SCHEME_TYPE</b>.
 
 
 ### -field host
@@ -103,7 +103,7 @@ The fragment.
 
 
 
-If used with the <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba608eca742">WsDecodeUrl</a> field, portAsString is a zero-length string if no port is specified in url.
+If used with the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a> field, portAsString is a zero-length string if no port is specified in url.
             
 
 
@@ -114,15 +114,15 @@ If used with the <a href="https://msdn.microsoft.com/67147b71-ca3a-4a17-a4f1-6ba
 
 
 
-<a href="https://msdn.microsoft.com/36f4dda6-d46a-44cd-b4cd-597fa3298870">WS_HTTP_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_http_url">WS_HTTP_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/62079e59-01c8-48fb-932a-ca01cc7b86ec">WS_NETTCP_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_nettcp_url">WS_NETTCP_URL</a>
 
 
 
-<a href="https://msdn.microsoft.com/f39c551f-891b-48c2-8143-84845506cde9">WS_SOAPUDP_URL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_soapudp_url">WS_SOAPUDP_URL</a>
  
 
  

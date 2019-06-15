@@ -86,7 +86,7 @@ The <b>StrokeAndFillPath</b> function has the same effect as closing all the ope
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/788d3bc2-1010-436c-a95f-6fe55daac88e">Drawing a Pie Chart</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-pie-chart">Drawing a Pie Chart</a>.
 
 <div class="code"></div>
 
@@ -97,27 +97,27 @@ For an example, see <a href="https://msdn.microsoft.com/788d3bc2-1010-436c-a95f-
 
 
 
-<a href="https://msdn.microsoft.com/88be3405-a420-4eb1-935b-099dc3067530">BeginPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/a80b299a-c3f9-411b-9936-33d32fc71853">FillPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-fillpath">FillPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/68390601-1542-41dc-bea0-78f6c3318806">Path Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbbd3ea0-9b35-4aaf-8498-187957e29cf0">Paths Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/233926c4-2658-405d-89b6-05ece844623d">SetPolyFillMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a9f1509-0a69-4db8-8d74-9bf360aca64d">StrokePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-strokepath">StrokePath</a>
  
 
  

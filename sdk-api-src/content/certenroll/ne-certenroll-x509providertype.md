@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>X509ProviderType</b> enumeration specifies the type of cryptographic provider. Providers implement cryptographic standards and algorithms in software and hardware. This enumeration is used by the <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> and <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> interfaces.
+The <b>X509ProviderType</b> enumeration specifies the type of cryptographic provider. Providers implement cryptographic standards and algorithms in software and hardware. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interfaces.
 
 
 ## -enum-fields
@@ -67,9 +67,9 @@ No provider is identified.
 Supports the following algorithms:
 
 <ul>
-<li>Encryption: <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RC2</a> and <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RC4</a></li>
-<li>Hashing: <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">MD5</a> and SHA</li>
-<li>Key Exchange: <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RSA</a></li>
+<li>Encryption: <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC2</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC4</a></li>
+<li>Hashing: <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">MD5</a> and SHA</li>
+<li>Key Exchange: <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a></li>
 <li>Signatures: RSA</li>
 </ul>
 
@@ -88,7 +88,7 @@ Supports the following algorithms. This is a subset of the XCN_PROV_DSS_DH provi
 
 <ul>
 <li>Hashing: MD5 and SHA</li>
-<li>Signatures: <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Standard</a> (DSS)</li>
+<li>Signatures: <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS)</li>
 </ul>
 
 ### -field XCN_PROV_FORTEZZA
@@ -108,7 +108,7 @@ Supports cryptographic algorithms used by the Microsoft Exchange mail applicatio
 This includes the following:
 
 <ul>
-<li>Encryption: <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CAST</a></li>
+<li>Encryption: <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CAST</a></li>
 <li>Hashing: MD5</li>
 <li>Key Exchange: RSA</li>
 <li>Signatures: RSA</li>
@@ -116,7 +116,7 @@ This includes the following:
 
 ### -field XCN_PROV_SSL
 
-Supports the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Secure Sockets Layer protocol</a>. This includes the following algorithms:
+Supports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer protocol</a>. This includes the following algorithms:
 
 <ul>
 <li>Encryption: variable</li>
@@ -127,10 +127,10 @@ Supports the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcf
 
 ### -field XCN_PROV_RSA_SCHANNEL
 
-Supports RSA and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">Schannel</a> protocols. This includes the following algorithms:
+Supports RSA and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Schannel</a> protocols. This includes the following algorithms:
 
 <ul>
-<li>Encryption: RC4, <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Data Encryption Standard</a> (DES), 3DES</li>
+<li>Encryption: RC4, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES), 3DES</li>
 <li>Hashing: MD5, SHA</li>
 <li>Key Exchange: RSA</li>
 <li>Signatures: RSA</li>
@@ -141,9 +141,9 @@ Supports RSA and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0
 Supports the following algorithms:
 
 <ul>
-<li>Encryption: <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CYLINK_MEK</a></li>
+<li>Encryption: <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CYLINK_MEK</a></li>
 <li>Hashing: MD5, SHA</li>
-<li>Key Exchange: <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Diffie-Hellman algorithm</a></li>
+<li>Key Exchange: <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Diffie-Hellman algorithm</a></li>
 <li>Signatures: DSS</li>
 </ul>
 
@@ -203,7 +203,7 @@ Microsoft currently does not provide a CSP of this type.
 Supports the following algorithms:
 
 <ul>
-<li>Encryption: RC2, RC4, <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">AES</a></li>
+<li>Encryption: RC2, RC4, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">AES</a></li>
 <li>Hashing: MD5, SHA</li>
 <li>Key Exchange: RSA</li>
 <li>Signatures: RSA</li>
@@ -214,19 +214,19 @@ Supports the following algorithms:
 
 
 
-<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
  
 
  

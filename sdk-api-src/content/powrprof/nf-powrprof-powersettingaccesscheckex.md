@@ -132,7 +132,7 @@ The identifier of the power setting.
 
 ### -param AccessType [in]
 
-The type of security access for the setting. For more information, see <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
+The type of security access for the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 This parameter can be one of the following values. 
 

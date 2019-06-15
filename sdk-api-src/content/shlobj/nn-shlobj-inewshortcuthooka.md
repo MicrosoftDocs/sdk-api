@@ -54,7 +54,7 @@ Exposes methods to create a new Internet shortcut.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewShortcutHook</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INewShortcutHook</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INewShortcutHook</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INewShortcutHook</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INewShortcutHook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ccb54291-7c87-4783-af25-549704371878">GetExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getextension">GetExtension</a>
 </td>
 <td align="left" width="63%">
 Gets the file name extension for the shortcut object.
@@ -78,7 +78,7 @@ Gets the file name extension for the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b743242-3ebe-46cb-a084-575228cb314b">GetFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getfolder">GetFolder</a>
 </td>
 <td align="left" width="63%">
 Gets the folder name for the shortcut object.
@@ -87,7 +87,7 @@ Gets the folder name for the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5eb4a3ce-74ce-4b97-bb5e-67cab82401ec">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the file name of the shortcut object, without the extension.
@@ -96,7 +96,7 @@ Gets the file name of the shortcut object, without the extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/856f15bb-f9a8-4114-9a18-5abc21bef534">GetReferent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-getreferent">GetReferent</a>
 </td>
 <td align="left" width="63%">
 Gets the referent of the shortcut object.
@@ -105,7 +105,7 @@ Gets the referent of the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7f402d36-58cf-4912-af21-f8271eee98e4">SetFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setfolder">SetFolder</a>
 </td>
 <td align="left" width="63%">
 Sets the folder name for the shortcut object.
@@ -114,7 +114,7 @@ Sets the folder name for the shortcut object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/402d305e-1657-45c2-9f0d-04703c8d6e5c">SetReferent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-inewshortcuthooka-setreferent">SetReferent</a>
 </td>
 <td align="left" width="63%">
 Sets the referent of the shortcut object.
@@ -132,7 +132,7 @@ You do not typically implement <b>INewShortcutHook</b>. It is implemented by the
 
 You use <b>INewShortcutHook</b> when creating a new Internet shortcut. The methods provided by this interface are supplied as a convenience.
 
-<b>INewShortcutHook</b> is derived from <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>. The listed methods are specific to <b>INewShortcutHook</b>.
+<b>INewShortcutHook</b> is derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The listed methods are specific to <b>INewShortcutHook</b>.
 
 
 

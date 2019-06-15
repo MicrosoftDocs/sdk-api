@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the intended lighting conditions for viewing a video source. This enumeration is used with the <a href="https://msdn.microsoft.com/718a6d56-c869-4340-bbb8-cac5b231c37e">AVEncVideoInputColorLighting</a> and <a href="https://msdn.microsoft.com/67b69d02-db5d-474c-9df4-146c5283d76e">AVEncVideoOutputColorLighting</a> properties.
+Specifies the intended lighting conditions for viewing a video source. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoinputcolorlighting-property">AVEncVideoInputColorLighting</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputcolorlighting-property">AVEncVideoOutputColorLighting</a> properties.
 
 
 
@@ -95,11 +95,11 @@ Dark; for example, a movie theater.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

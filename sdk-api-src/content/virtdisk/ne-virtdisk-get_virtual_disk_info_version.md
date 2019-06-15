@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Contains the kinds of virtual hard disk (VHD) information that you can retrieve. For more information, 
-    see <a href="https://msdn.microsoft.com/en-us/library/Dd323674(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO</a>.
+    see <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a>.
 
 
 ## -enum-fields
@@ -163,19 +163,19 @@ The state of resilient change tracking (RCT) for the virtual disk.
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323674(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_get_virtual_disk_info">GET_VIRTUAL_DISK_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323670(v=VS.85).aspx">GetVirtualDiskInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-getvirtualdiskinformation">GetVirtualDiskInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

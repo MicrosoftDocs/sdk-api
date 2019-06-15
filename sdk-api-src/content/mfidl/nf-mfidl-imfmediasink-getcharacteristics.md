@@ -78,7 +78,7 @@ Receives a bitwise <b>OR</b> of zero or more flags. The following flags are defi
 </dl>
 </td>
 <td width="60%">
-The media sink has a fixed number of streams. It does not support the <a href="https://msdn.microsoft.com/1b05ef87-5559-4310-942c-54ab113eb42d">IMFMediaSink::AddStreamSink</a> and <a href="https://msdn.microsoft.com/f99ee960-7fea-4867-bc24-d7e1d6fcafa5">IMFMediaSink::RemoveStreamSink</a> methods. This flag is a hint to the application.
+The media sink has a fixed number of streams. It does not support the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-removestreamsink">IMFMediaSink::RemoveStreamSink</a> methods. This flag is a hint to the application.
               
 
 </td>
@@ -96,7 +96,7 @@ For best results, this media sink should be used as the time source for the pres
 
 This flag should be used sparingly, because it limits how the pipeline can be configured.
 
-For more information about the presentation clock, see <a href="https://msdn.microsoft.com/cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5">Presentation Clock</a>.
+For more information about the presentation clock, see <a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>.
 
 </td>
 </tr>
@@ -120,9 +120,9 @@ Most archiving sinks are rateless.
 </dl>
 </td>
 <td width="60%">
-The media sink requires a presentation clock. The presentation clock is set by calling the media sink's <a href="https://msdn.microsoft.com/844fc3b3-b56e-4048-b589-e24457bcc419">IMFMediaSink::SetPresentationClock</a> method.
+The media sink requires a presentation clock. The presentation clock is set by calling the media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock">IMFMediaSink::SetPresentationClock</a> method.
 
-This flag is obsolete, because all media sinks must support the <a href="https://msdn.microsoft.com/844fc3b3-b56e-4048-b589-e24457bcc419">SetPresentationClock</a> method, even if the media sink ignores the clock (as in a rateless media sink).
+This flag is obsolete, because all media sinks must support the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-setpresentationclock">SetPresentationClock</a> method, even if the media sink ignores the clock (as in a rateless media sink).
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ This flag is obsolete, because all media sinks must support the <a href="https:/
 </dl>
 </td>
 <td width="60%">
-The media sink can accept preroll samples before the presentation clock starts. The media sink exposes the <a href="https://msdn.microsoft.com/7cc93751-4477-4649-b09e-53f519fb1acb">IMFMediaSinkPreroll</a> interface.
+The media sink can accept preroll samples before the presentation clock starts. The media sink exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasinkpreroll">IMFMediaSinkPreroll</a> interface.
               
 
 </td>
@@ -183,7 +183,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://msdn.microsoft.com/acda4e37-2dd0-4322-90fc-8f48d6842054">Shutdown</a> method has been called.
+The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
               
 
 </td>
@@ -209,11 +209,11 @@ The characteristics of a media sink are fixed throughout the life time of the si
 
 
 
-<a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0fbce1b-0a16-4449-9eca-906fd9056a1c">Media Sinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
  
 
  

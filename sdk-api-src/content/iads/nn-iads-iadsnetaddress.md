@@ -60,11 +60,11 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/1da493d6-5660-4054-8d28-89db0b56f30f">IADsNetAddress Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnetaddress-property-methods">IADsNetAddress Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

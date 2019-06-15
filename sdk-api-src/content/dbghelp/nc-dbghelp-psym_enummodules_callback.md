@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined callback function used with the 
-<a href="https://msdn.microsoft.com/d2372521-eff7-4ac4-a0f3-1267ef50db6e">SymEnumerateModules64</a> function. It is called once for each enumerated module, and receives the module information.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a> function. It is called once for each enumerated module, and receives the module information.
 
 The <b>PSYM_ENUMMODULES_CALLBACK64</b> and <b>PSYM_ENUMMODULES_CALLBACKW64</b> types define a pointer to this callback function. 
 <b>SymEnumerateModulesProc64</b> is a placeholder for the application-defined function name.
@@ -74,7 +74,7 @@ The base address where the module is loaded into memory.
 ### -param UserContext [in, optional]
 
 The user-defined value specified in 
-<a href="https://msdn.microsoft.com/d2372521-eff7-4ac4-a0f3-1267ef50db6e">SymEnumerateModules64</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some type of context.
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some type of context.
 
 
 ## -returns
@@ -119,11 +119,11 @@ typedef BOOL
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2372521-eff7-4ac4-a0f3-1267ef50db6e">SymEnumerateModules64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a>
  
 
  

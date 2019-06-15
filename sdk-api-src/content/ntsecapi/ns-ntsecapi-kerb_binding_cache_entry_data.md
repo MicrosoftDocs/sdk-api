@@ -107,12 +107,12 @@ The address is a NetBIOS name of the domain controller, for example, "\\phoenix"
 
 ### -field Flags
 
-The domain controller flags that the caller provides. These flags are needed to pass to the <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> function.
+The domain controller flags that the caller provides. These flags are needed to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
 
 
 ### -field DcFlags
 
-The domain controller flags. These flags are returned from the <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> function.
+The domain controller flags. These flags are returned from the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function.
 
 
 ### -field CacheFlags
@@ -142,5 +142,5 @@ No flags are found for the binding cache.
 ### -field KdcName
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> that specifies the name of the KDC.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> that specifies the name of the KDC.
 

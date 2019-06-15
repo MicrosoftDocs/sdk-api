@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <code>GetAudioFormat</code> method returns the <a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a> structure for the audio data format.
+The <code>GetAudioFormat</code> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure for the audio data format.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <code>GetAudioFormat</code> method returns the <a href="https://msdn.microso
 
 
 
-The <code>GetAudioFormat</code> method returns a pointer to a <a href="https://msdn.microsoft.com/f2f050d6-afe2-4647-932b-1287f4538702">WAVEFORMATEX</a> structure.
+The <code>GetAudioFormat</code> method returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-twaveformatex">WAVEFORMATEX</a> structure.
 
 
 
@@ -86,7 +86,7 @@ The pointer that is returned is valid only while the <b>IAudioMediaType</b> inte
 
 
 
-<a href="https://msdn.microsoft.com/f114e8ef-4fb7-4fdd-9c83-d8e74c91190e">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-sysaudio_select_graph">WAVEFORMATEX</a>
  
 
  

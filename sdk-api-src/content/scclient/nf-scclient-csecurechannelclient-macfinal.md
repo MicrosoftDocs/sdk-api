@@ -82,7 +82,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -113,12 +113,12 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-This method completes creating a MAC key. For information about MAC creation, see <a href="https://msdn.microsoft.com/6cb49f6b-e303-4840-9343-9891e75e07a4">Message Authentication</a>.
+This method completes creating a MAC key. For information about MAC creation, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>.
 
 
 #### Examples
 
-The following example code checks the MAC received by a call to <a href="https://msdn.microsoft.com/5b654d32-b72a-44cf-a8d9-63fc0ae76171">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
+The following example code checks the MAC received by a call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
 
 
 ```cpp
@@ -153,15 +153,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/f02220b8-0d1c-416c-97ea-e5e7455fcbba">CSecureChannelClient Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/b868d422-535d-44f5-9713-bfa049da8a4e">CSecureChannelClient::MACUpdate</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231593(v%3dvs.85)">CSecureChannelClient::MACUpdate</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cb49f6b-e303-4840-9343-9891e75e07a4">Message Authentication</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
  
 
  

@@ -53,12 +53,12 @@ ms.custom: 19H1
 
 The 
 <b>IWbemObjectTextSrc</b> interface is used to translate 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> instances to and from differing text formats.
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instances to and from differing text formats.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemObjectTextSrc</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemObjectTextSrc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemObjectTextSrc</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemObjectTextSrc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4c36d19-cf28-43d3-a60a-50970d66bc17">GetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Creates a textual representation of a class or object instance.
@@ -99,7 +99,7 @@ Creates a textual representation of a class or object instance.
 
 
 
-<a href="https://msdn.microsoft.com/06d2b532-7ab2-489d-9021-27b5187c8f2b">Representing Objects in XML</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/representing-objects-in-xml">Representing Objects in XML</a>
  
 
  

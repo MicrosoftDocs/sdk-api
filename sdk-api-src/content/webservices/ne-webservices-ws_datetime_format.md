@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the textual format of a <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a>.
+Specifies the textual format of a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a>.
       
 
 
@@ -74,7 +74,7 @@ This format displays a time with a specific timezone.  The time is followed by "
         
 
 If the system is unable to convert the time to a local format because timezone information for the time
-          specified it not available, then it will format the time as <a href="https://msdn.microsoft.com/e5859797-90dd-4509-ae41-f8d8c83cfd9c">WS_DATETIME_FORMAT_UTC</a>.
+          specified it not available, then it will format the time as <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_datetime_format">WS_DATETIME_FORMAT_UTC</a>.
         
 
 

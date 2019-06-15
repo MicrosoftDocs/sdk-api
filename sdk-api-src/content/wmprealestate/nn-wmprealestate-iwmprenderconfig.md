@@ -59,7 +59,7 @@ The <b>IWMPRenderConfig</b> interface provides methods to specify or retrieve a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPRenderConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPRenderConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPRenderConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPRenderConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMPRenderConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563640(v=VS.85).aspx">get_inProcOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmprenderconfig-get_inproconly">get_inProcOnly</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether playback is restricted to the current process.
@@ -83,7 +83,7 @@ Retrieves a value indicating whether playback is restricted to the current proce
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563641(v=VS.85).aspx">put_inProcOnly</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nf-wmprealestate-iwmprenderconfig-put_inproconly">put_inProcOnly</a>
 </td>
 <td align="left" width="63%">
 Specifies a value indicating whether playback is restricted to the current process.
@@ -92,7 +92,7 @@ Specifies a value indicating whether playback is restricted to the current proce
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPRenderConfig</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://msdn.microsoft.com/en-us/library/Dd563514(v=VS.85).aspx">IWMPPlayer</a>.
+Retrieve a pointer to <b>IWMPRenderConfig</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer</a>.
 
 	
 
@@ -102,7 +102,7 @@ Retrieve a pointer to <b>IWMPRenderConfig</b> by calling <b>QueryInterface</b> t
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

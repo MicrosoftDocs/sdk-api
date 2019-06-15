@@ -80,7 +80,7 @@ Digital copy protection should be applied.
 
 
 
-Use these flags with the <a href="https://msdn.microsoft.com/fb12ba38-a4f4-44fe-bf31-e731c56bb145">MF_MT_DRM_FLAGS</a> attribute.
+Use these flags with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-drm-flags-attribute">MF_MT_DRM_FLAGS</a> attribute.
 
 
 
@@ -90,7 +90,7 @@ Use these flags with the <a href="https://msdn.microsoft.com/fb12ba38-a4f4-44fe-
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

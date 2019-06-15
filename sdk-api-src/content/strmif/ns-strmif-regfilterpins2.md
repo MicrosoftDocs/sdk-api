@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <code>REGFILTERPINS2</code> structure contains information for registering a filter through the <a href="https://msdn.microsoft.com/6a3db838-cee3-4a9f-a924-fb55931acc83">IFilterMapper2</a> interface.
+The <code>REGFILTERPINS2</code> structure contains information for registering a filter through the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface.
 
 
 
@@ -62,7 +62,7 @@ The <code>REGFILTERPINS2</code> structure contains information for registering a
 
 ### -field dwFlags
 
-Bitwise combination of zero or more <a href="https://msdn.microsoft.com/85d9f9b6-229f-41ea-87bb-097af591c2d2">REG_PINFLAG</a> flags.
+Bitwise combination of zero or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd377518(v=vs.85)">REG_PINFLAG</a> flags.
 
 
 ### -field cInstances
@@ -77,7 +77,7 @@ Number of media types supported by this pin.
 
 ### -field lpMediaType
 
-Pointer to an array of <a href="https://msdn.microsoft.com/aa31f856-4151-420d-a69d-34ef3a105130">REGPINTYPES</a> structures, of size nMediaTypes.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regpintypes">REGPINTYPES</a> structures, of size nMediaTypes.
 
 
 ### -field nMediums
@@ -87,19 +87,19 @@ Number of mediums. Can be zero.
 
 ### -field lpMedium
 
-Pointer to an array of <a href="https://msdn.microsoft.com/ed5614fe-bfeb-4ddf-a626-b14080f45b33">REGPINMEDIUM</a> structures, of size nMediums.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regpinmedium">REGPINMEDIUM</a> structures, of size nMediums.
 
 
 ### -field clsPinCategory
 
-Optional pin category, from the <a href="https://msdn.microsoft.com/0c01bd51-353d-4f48-b33c-796f740915e2">Pin Property Set</a>.
+Optional pin category, from the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/pin-property-set">Pin Property Set</a>.
 
 
 ## -remarks
 
 
 
-If you use this structure, set the <b>dwVersion</b> member of the <a href="https://msdn.microsoft.com/651b94e6-b343-4957-9781-768b04c098dd">REGFILTER2</a> structure to 2.
+If you use this structure, set the <b>dwVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-regfilter2">REGFILTER2</a> structure to 2.
 
 
 
@@ -109,7 +109,7 @@ If you use this structure, set the <b>dwVersion</b> member of the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

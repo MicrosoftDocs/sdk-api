@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Retrieves a pointer to an 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves a pointer to an
 ### -param ppPropStg [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a> interface to the property set with all current properties defined.
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface to the property set with all current properties defined.
 
 
 ## -returns
@@ -80,7 +80,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 Properties are not retained after IMAPI is closed. A property set format is convenient for IMAPI because it stores an ID/TYPE/VALUE combination, as well as ID/NAME associations. Each combination is a single property, and IMAPI uses these properties for various values that are unique to specific recorders. For example, most recorders would support a WriteSpeed property.
 
 The caller can then modify properties by calling 
-<a href="https://msdn.microsoft.com/8da0add7-6a9d-46f4-b34c-7ea9aa0b7d3a">SetRecorderProperties</a>. Current properties include the following:
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-setrecorderproperties">SetRecorderProperties</a>. Current properties include the following:
 
 
 
@@ -92,11 +92,11 @@ The caller can then modify properties by calling
 
 
 
-<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
 
 
 
-<a href="https://msdn.microsoft.com/c021f695-db54-4861-9f30-35a81d2dccd5">IPropertyStorage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
  
 
  

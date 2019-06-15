@@ -55,7 +55,7 @@ The <b>IPortableDeviceUnitsStream</b> interface provides a way to operate, or se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceUnitsStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceUnitsStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceUnitsStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceUnitsStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>IPortableDeviceUnitsStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E">IPortableDeviceUnitsStream::SeekInUnits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceunitsstream-seekinunits">IPortableDeviceUnitsStream::SeekInUnits</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E">SeekInUnits</a> method performs a seek on a stream, based on alternate units.
+The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceunitsstream-seekinunits">SeekInUnits</a> method performs a seek on a stream, based on alternate units.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ The <a href="https://msdn.microsoft.com/F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E">Se
 
 
 
-<a href="https://msdn.microsoft.com/fbe53f17-940a-485e-82b2-c11ae39b3300">Client Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/client-interfaces">Client Interfaces</a>
  
 
  

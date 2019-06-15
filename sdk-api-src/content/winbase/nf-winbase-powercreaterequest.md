@@ -65,7 +65,7 @@ Creates a new power request object.
 
 ### -param Context [in]
 
-Points to a <a href="https://msdn.microsoft.com/006bb84f-5e51-4f6e-8a44-6b50e763c5ca">REASON_CONTEXT</a> structure that contains information about the power request.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_reason_context">REASON_CONTEXT</a> structure that contains information about the power request.
 
 
 ## -returns
@@ -75,7 +75,7 @@ Points to a <a href="https://msdn.microsoft.com/006bb84f-5e51-4f6e-8a44-6b50e763
 If the function succeeds, the return value is a handle to the power request object.
 
 If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,7 +84,7 @@ If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended
 
 
 
-When the power request object is no longer needed, use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to free the handle and clean up the object.
+When the power request object is no longer needed, use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to free the handle and clean up the object.
 
 
 
@@ -94,11 +94,11 @@ When the power request object is no longer needed, use the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>
  
 
  

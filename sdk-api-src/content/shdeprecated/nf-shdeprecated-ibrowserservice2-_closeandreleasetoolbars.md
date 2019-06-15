@@ -62,7 +62,7 @@ Deprecated. Requests the closing of the browser toolbars hosted by the derived c
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> to close the toolbar through <a href="https://msdn.microsoft.com/29e57436-cc8f-46e8-bc1a-b44bd803c4a8">IDockingWindow::CloseDW</a>; <b>FALSE</b> to release the toolbar.
+<b>TRUE</b> to close the toolbar through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw">IDockingWindow::CloseDW</a>; <b>FALSE</b> to release the toolbar.
 
 
 ## -returns

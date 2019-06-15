@@ -63,7 +63,7 @@ The <b>Set</b> method sets a specified property on the camera.
 
 ### -param Property [in]
 
-Specifies the property to set, as a value from the <a href="https://msdn.microsoft.com/eebf2246-960f-48ea-86b7-7542e69f2e3e">CameraControlProperty</a> enumeration.
+Specifies the property to set, as a value from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagcameracontrolproperty">CameraControlProperty</a> enumeration.
           
 
 
@@ -75,7 +75,7 @@ Specifies the new value of the property.
 
 ### -param Flags [in]
 
-Specifies the desired control setting, as a member of the <a href="https://msdn.microsoft.com/806322e7-9a70-4dc1-8b10-2479fb3ec935">CameraControlFlags</a> enumeration.
+Specifies the desired control setting, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagcameracontrolflags">CameraControlFlags</a> enumeration.
           
 
 
@@ -102,19 +102,19 @@ If the <i>Flags</i> parameter is <b>CameraControl_Flags_Auto</b>, the method ign
 
 
 
-<a href="https://msdn.microsoft.com/f789db78-292e-4092-a5dc-1906845fb1dd">Configure the Video Quality</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/22bc35f1-76d4-4881-91d1-72f05c24561d">IAMCameraControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a21f207-5fbb-44b2-82d2-89be29dbdf2c">IAMCameraControl::Get</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-get">IAMCameraControl::Get</a>
  
 
  

@@ -77,7 +77,7 @@ The app package manifest is localized.
 
 
 
-<a href="https://msdn.microsoft.com/A30B3A7E-28FA-4780-9ED3-4F19887189E8">UpdatePackageManifest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackageeditor-updatepackagemanifest">UpdatePackageManifest</a>
  
 
  

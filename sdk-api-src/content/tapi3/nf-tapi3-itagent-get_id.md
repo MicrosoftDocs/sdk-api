@@ -93,8 +93,8 @@ Method succeeded.
 </td>
 <td width="60%">
 ITAgent was not created using 
-<a href="https://msdn.microsoft.com/95c70e48-b990-47c7-a8b8-5fa3a84ec5ba">ITAgentHandler::CreateAgentWithID</a>, but with 
-<a href="https://msdn.microsoft.com/f3242013-59a6-40f9-9bb1-0bc30f27311c">ITAgentHandler::CreateAgent</a>. No ID exists.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagentwithid">ITAgentHandler::CreateAgentWithID</a>, but with 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagent">ITAgentHandler::CreateAgent</a>. No ID exists.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Insufficient memory exists to perform the operation.
 This method is provided for interfacing with legacy switch solutions.
 
 The application must free the memory allocated for the <i>ppID</i> parameter through 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when the variable is no longer needed.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the variable is no longer needed.
 
 
 
@@ -143,7 +143,7 @@ The application must free the memory allocated for the <i>ppID</i> parameter thr
 
 
 
-<a href="https://msdn.microsoft.com/6c1409c9-da73-4d21-bf56-07e9ab7b33a0">ITAgent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
  
 
  

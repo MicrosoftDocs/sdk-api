@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that either create or merge a shortcut (context) menu associated with a Shell object. Extends <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> by adding a method that allows client objects to handle messages associated with owner-drawn menu items.
+Exposes methods that either create or merge a shortcut (context) menu associated with a Shell object. Extends <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> by adding a method that allows client objects to handle messages associated with owner-drawn menu items.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenu2</b> interface inherits from <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a>. <b>IContextMenu2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenu2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>. <b>IContextMenu2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IContextMenu2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06ea4563-a299-4587-906f-4f312c21498a">HandleMenuMsg</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu2-handlemenumsg">HandleMenuMsg</a>
 </td>
 <td align="left" width="63%">
-Enables client objects of the <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> interface to handle messages associated with owner-drawn menu items.
+Enables client objects of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> interface to handle messages associated with owner-drawn menu items.
 
 </td>
 </tr>
@@ -83,27 +83,27 @@ Enables client objects of the <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> interface, from which it inherits.
 
 <div class="alert"><b>Note</b>  <b>Windows Vista and later.</b> Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Implement <b>IContextMenu2</b> if your <a href="https://msdn.microsoft.com/cc387338-15fa-4350-b039-61a0f1c5030a">namespace extension</a> or <a href="https://msdn.microsoft.com/cff79cdc-8a01-4575-9af7-2a485c6a8e46">shortcut menu handler</a> needs to process one or more of the following messages. 
+Implement <b>IContextMenu2</b> if your <a href="https://docs.microsoft.com/windows/desktop/shell/nse-works">namespace extension</a> or <a href="https://docs.microsoft.com/windows/desktop/shell/context-menu-handlers">shortcut menu handler</a> needs to process one or more of the following messages. 
 
 				
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms646347(v=VS.85).aspx">WM_INITMENUPOPUP</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
 </li>
 </ul>
-These messages are forwarded to <b>IContextMenu2</b>—through the <a href="https://msdn.microsoft.com/06ea4563-a299-4587-906f-4f312c21498a">HandleMenuMsg</a> method—only if a <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> call for an <b>IContextMenu2</b> interface pointer is successful, indicating that the object supports this interface.
+These messages are forwarded to <b>IContextMenu2</b>—through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu2-handlemenumsg">HandleMenuMsg</a> method—only if a <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call for an <b>IContextMenu2</b> interface pointer is successful, indicating that the object supports this interface.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Applications do not normally call this interface directly.

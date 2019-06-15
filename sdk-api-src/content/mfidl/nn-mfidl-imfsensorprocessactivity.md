@@ -57,7 +57,7 @@ Represents the activity of a process associated with a sensor.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProcessActivity</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSensorProcessActivity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProcessActivity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProcessActivity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFSensorProcessActivity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E4277F4B-8CBB-4910-991B-1234AFEB49B3">GetProcessId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getprocessid">GetProcessId</a>
 </td>
 <td align="left" width="63%">
 Gets the ID of the process with which the activity is associated.
@@ -81,7 +81,7 @@ Gets the ID of the process with which the activity is associated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5C13F0ED-B2A6-43AC-92AA-87BF995DEFD7">GetReportTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getreporttime">GetReportTime</a>
 </td>
 <td align="left" width="63%">
 Gets the time associated with the sensor activity report.
@@ -90,7 +90,7 @@ Gets the time associated with the sensor activity report.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1881652A-005C-4EFB-B4ED-3BEAC35A460A">GetStreamingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getstreamingmode">GetStreamingMode</a>
 </td>
 <td align="left" width="63%">
 Gets the streaming mode of the sensor process.
@@ -99,7 +99,7 @@ Gets the streaming mode of the sensor process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C8A99D4B-F3D5-41D2-A956-C147900F28ED">GetStreamingState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprocessactivity-getstreamingstate">GetStreamingState</a>
 </td>
 <td align="left" width="63%">
 Gets a value indicating whether the sensor is currently streaming.

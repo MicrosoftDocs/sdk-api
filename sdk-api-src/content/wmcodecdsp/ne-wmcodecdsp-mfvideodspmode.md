@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the processing mode of the <a href="https://msdn.microsoft.com/BBC42190-08E4-4C3B-972A-FD30621A6CC1">Video Stabilization MFT</a>.
+Specifies the processing mode of the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-stabilization-mft">Video Stabilization MFT</a>.
 
 
 ## -enum-fields
@@ -71,7 +71,7 @@ Video stabilization is applied.
 
 
 
-This enumeration is used with the <a href="https://msdn.microsoft.com/0D49892A-8628-4F2B-B41B-51160A19DC9B">MF_VIDEODSP_MODE</a> attribute.
+This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-videodsp-mode">MF_VIDEODSP_MODE</a> attribute.
 
 In pass-through mode, the MFT does not apply any processing to the video.
 
@@ -83,15 +83,15 @@ In pass-through mode, the MFT does not apply any processing to the video.
 
 
 
-<a href="https://msdn.microsoft.com/0D49892A-8628-4F2B-B41B-51160A19DC9B">MF_VIDEODSP_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-videodsp-mode">MF_VIDEODSP_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/BBC42190-08E4-4C3B-972A-FD30621A6CC1">Video Stabilization MFT</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-stabilization-mft">Video Stabilization MFT</a>
  
 
  

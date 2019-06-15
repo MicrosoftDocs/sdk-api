@@ -81,5 +81,5 @@ Byte 3  of the transaction-id DHCPv6 message.
 
 ### -field Options
 
-A <a href="https://msdn.microsoft.com/9B0A1A5B-1CF7-46B4-9C94-42355555DD60">PXE_DHCPV6_OPTION</a> structure that specifies the DHCPV6 option.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-tagpxe_dhcpv6_option">PXE_DHCPV6_OPTION</a> structure that specifies the DHCPV6 option.
 

@@ -92,7 +92,7 @@ Receives a string indicating the language. When the string is no longer required
 
 ### -param pEALocationCode [out]
 
-Pointer to a buffer that receives the emergency alert location code information. The buffer size must be at least <code>sizeof(EALocationCodeType)</code>. The method writes a structure of type <a href="https://msdn.microsoft.com/en-us/library/Dd693071(v=VS.85).aspx">EALocationCodeType</a> to the buffer. The structure specifies the location code scheme (for example, SCTE 18), state, county, and county subdivision for the emergency alert.
+Pointer to a buffer that receives the emergency alert location code information. The buffer size must be at least <code>sizeof(EALocationCodeType)</code>. The method writes a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ns-bdaiface-ealocationcodetype">EALocationCodeType</a> to the buffer. The structure specifies the location code scheme (for example, SCTE 18), state, county, and county subdivision for the emergency alert.
 
 
 ## -returns
@@ -109,7 +109,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693261(v=VS.85).aspx">IBDA_ConditionalAccess Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
  
 
  

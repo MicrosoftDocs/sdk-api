@@ -94,15 +94,15 @@ Indicates a video steam.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694563(v=VS.85).aspx">IMSVidGenericSink::get_SinkStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-get_sinkstreams">IMSVidGenericSink::get_SinkStreams</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694564(v=VS.85).aspx">IMSVidGenericSink::put_SinkStreams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-put_sinkstreams">IMSVidGenericSink::put_SinkStreams</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c21f2c6-8eff-4fe5-a383-057f3394d9ee">Video Control Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
  
 
  

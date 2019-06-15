@@ -87,7 +87,7 @@ If this method is not successful, the message is moved to the final resting queu
 
 
 
-<a href="https://msdn.microsoft.com/3a528e92-37ac-4108-b52a-557a90da4a47">IPlaybackControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iplaybackcontrol">IPlaybackControl</a>
  
 
  

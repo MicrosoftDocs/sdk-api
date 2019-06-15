@@ -54,7 +54,7 @@ Interface describing an SVG points value in a polyline or polygon element.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgPointCollection</b> interface inherits from <a href="https://msdn.microsoft.com/7B11D05C-6CD5-4609-B76A-719B92437314">ID2D1SvgAttribute</a>. <b>ID2D1SvgPointCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgPointCollection</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgattribute">ID2D1SvgAttribute</a>. <b>ID2D1SvgPointCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SvgPointCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/886039FB-0640-4B20-84E2-4B3EC2AFA234">GetPoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-getpoints">GetPoints</a>
 </td>
 <td align="left" width="63%">
 Gets points from the points array.
@@ -78,7 +78,7 @@ Gets points from the points array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57D125F0-F2CF-411C-93DA-13E13234E13E">GetPointsCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-getpointscount">GetPointsCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of points in the array.
@@ -87,7 +87,7 @@ Gets the number of points in the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F15DAC71-647D-466C-B754-6553122EC5A7">RemovePointsAtEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-removepointsatend">RemovePointsAtEnd</a>
 </td>
 <td align="left" width="63%">
 Removes points from the end of the array.
@@ -96,7 +96,7 @@ Removes points from the end of the array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D1DE682E-FFB1-4090-BE2A-FED41C1E7170">UpdatePoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgpointcollection-updatepoints">UpdatePoints</a>
 </td>
 <td align="left" width="63%">
 Updates the points array. Existing points not updated by this method are preserved. The array is resized larger if necessary to accomodate the new points.

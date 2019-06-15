@@ -59,7 +59,7 @@ The <b>HTTP_REQUEST_CHANNEL_BIND_STATUS</b> structure contains secure channel en
 
 ### -field ServiceName
 
-A pointer to an <a href="https://msdn.microsoft.com/0d840097-82d3-4ee3-b0d9-bcac4cf3e935">HTTP_SERVICE_BINDING_W</a> structure cast to a pointer to an <a href="https://msdn.microsoft.com/c9d3ed21-8987-4b98-99a1-dc1e776b0dab">HTTP_SERVICE_BINDING_BASE</a> structure containing the service name  from the client.  This is populated if the request's Channel Binding Token (CBT) is not configured to retrieve service names.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_w">HTTP_SERVICE_BINDING_W</a> structure cast to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_service_binding_base">HTTP_SERVICE_BINDING_BASE</a> structure containing the service name  from the client.  This is populated if the request's Channel Binding Token (CBT) is not configured to retrieve service names.
 
 
 ### -field ChannelToken

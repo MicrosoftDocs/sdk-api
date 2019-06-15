@@ -61,7 +61,7 @@ The <b>CollectPerformanceData</b> function is a placeholder for the application-
 
 ### -param lpValueName
 
-Null-terminated string that contains the query string (for example, "Global" or "238") passed to the <a href="https://msdn.microsoft.com/202d253a-10ff-40e7-8eec-a49717443b81">RegQueryValueEx</a> function. For possible query string values, see <a href="https://msdn.microsoft.com/feac7b8d-1dee-462c-89dc-bec1ba045da2">Using the Registry Functions to Consume Counter Data</a>.
+Null-terminated string that contains the query string (for example, "Global" or "238") passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a> function. For possible query string values, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data">Using the Registry Functions to Consume Counter Data</a>.
 
 
 ### -param *lppData
@@ -88,7 +88,7 @@ If this function fails, set <i>pObjectsReturned</i> to zero.
 Consumer-allocated buffer that will contain the performance data. 
 
 On output, set <i>pData</i> to one byte past the end of your data. The data must conform to the 
-<a href="https://msdn.microsoft.com/9ed4f890-6256-45fd-a310-b5963a6131ae">PERF_OBJECT_TYPE</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-_perf_object_type">PERF_OBJECT_TYPE</a> structure.
 
 If this function fails, leave the <i>pData</i> pointer value unchanged.
 
@@ -142,7 +142,7 @@ If you support one or more of the queried objects, determine whether the size of
 
 If your data collection is time-consuming, you should respond only to queries for specific objects and Costly queries. You should also lower the priority of the thread collecting the data, so that it does not adversely affect system performance.
 
-If the consumer is running on another computer (remotely), then the <a href="https://msdn.microsoft.com/06913524-77b7-470b-82d9-8be92fda3109">OpenPerformanceData</a>, <a href="https://msdn.microsoft.com/fb97f68d-4992-4969-9b6b-ace26dcd3155">ClosePerformanceData</a>, and <b>CollectPerformanceData</b> functions are called in the context of the Winlogon process, which handles the server side of the remote connection. This distinction is important when troubleshooting problems that occur only remotely.
+If the consumer is running on another computer (remotely), then the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>, and <b>CollectPerformanceData</b> functions are called in the context of the Winlogon process, which handles the server side of the remote connection. This distinction is important when troubleshooting problems that occur only remotely.
 
 After your function returns successfully, the system can perform some basic tests to ensure the integrity of the data. By default, no tests are performed. If a test fails, the system generates an event log message and the data is discarded to prevent any further problems due to pointers that are not valid. The following registry value controls the test level.<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
@@ -202,7 +202,7 @@ The following tests are performed at levels 1 and 2:
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/73b022df-0148-4afc-8536-8b1c766b1ee6">Implementing CollectPerformanceData</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/implementing-collectperformancedata">Implementing CollectPerformanceData</a>.
 
 <div class="code"></div>
 
@@ -213,11 +213,11 @@ For an example, see <a href="https://msdn.microsoft.com/73b022df-0148-4afc-8536-
 
 
 
-<a href="https://msdn.microsoft.com/fb97f68d-4992-4969-9b6b-ace26dcd3155">ClosePerformanceData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>
 
 
 
-<a href="https://msdn.microsoft.com/06913524-77b7-470b-82d9-8be92fda3109">OpenPerformanceData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
  
 
  

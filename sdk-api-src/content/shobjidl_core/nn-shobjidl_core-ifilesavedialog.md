@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a> interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSaveDialog</b> interface inherits from <a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a>. <b>IFileSaveDialog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSaveDialog</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>. <b>IFileSaveDialog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileSaveDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3de64914-b64e-47e8-8f84-6c64d849ffa9">ApplyProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-applyproperties">ApplyProperties</a>
 </td>
 <td align="left" width="63%">
 Applies a set of properties to an item using the Shell's copy engine.
@@ -78,7 +78,7 @@ Applies a set of properties to an item using the Shell's copy engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05d34bca-97cf-4249-bd09-996532e182fb">GetOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775685(v=vs.85)">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the current flags that are set to control dialog behavior.
@@ -87,7 +87,7 @@ Gets the current flags that are set to control dialog behavior.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/734a1bf9-ff63-48a5-9508-3a576ea24ab7">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the set of property values for a saved item or an item in the process of being saved.
@@ -96,7 +96,7 @@ Retrieves the set of property values for a saved item or an item in the process 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cff40aba-6a87-4c20-957d-6729e0d995ae">SetCollectedProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-setcollectedproperties">SetCollectedProperties</a>
 </td>
 <td align="left" width="63%">
 Specifies which properties will be collected in the save dialog.
@@ -105,7 +105,7 @@ Specifies which properties will be collected in the save dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/064a412e-7fd5-4896-8c42-044aa53107a7">SetOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb775708(v=vs.85)">SetOptions</a>
 </td>
 <td align="left" width="63%">
 Sets flags to control the behavior of the dialog.
@@ -114,7 +114,7 @@ Sets flags to control the behavior of the dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/418f2524-5e6d-4e79-894b-b5f706171836">SetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-setproperties">SetProperties</a>
 </td>
 <td align="left" width="63%">
 Provides a property store that defines the default values to be used for the item being saved.
@@ -123,7 +123,7 @@ Provides a property store that defines the default values to be used for the ite
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aa313685-1334-4899-a55a-6549b48e1464">SetSaveAsItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifilesavedialog-setsaveasitem">SetSaveAsItem</a>
 </td>
 <td align="left" width="63%">
 Sets an item to be used as the initial entry in a <b>Save As</b> dialog.
@@ -137,7 +137,7 @@ Sets an item to be used as the initial entry in a <b>Save As</b> dialog.
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> interface, from which it inherits.
 
 
 
@@ -147,11 +147,11 @@ This interface also provides the methods of the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/9341bb68-2410-4e03-8acd-fef29287b61c">IFileDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>
 
 
 
-<a href="https://msdn.microsoft.com/f95b7106-18ab-4f7f-8d3f-267ac0293245">IFileOpenDialog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileopendialog">IFileOpenDialog</a>
  
 
  

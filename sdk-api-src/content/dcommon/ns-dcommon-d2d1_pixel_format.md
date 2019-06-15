@@ -59,14 +59,14 @@ Contains the data format and alpha mode for a bitmap or render target.
 
 ### -field format
 
-Type: <b><a href="http://msdn.microsoft.com/en-us/library/bb173059(VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
 A value that specifies the size and arrangement of channels in each pixel.
 
 
 ### -field alphaMode
 
-Type: <b><a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE</a></b>
 
 A value that specifies whether the alpha channel is using pre-multiplied alpha, straight alpha, whether it should be ignored and considered opaque, or whether it is unkown.  
 
@@ -75,12 +75,12 @@ A value that specifies whether the alpha channel is using pre-multiplied alpha, 
 
 
 
-For more information about the pixel formats and alpha modes supported by each render target, see <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a>.
+For more information about the pixel formats and alpha modes supported by each render target, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>.
 
 
 #### Examples
 
-The following example creates a <b>D2D1_PIXEL_FORMAT</b> structure and uses it to specify the pixel format and alpha mode of an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>.
+The following example creates a <b>D2D1_PIXEL_FORMAT</b> structure and uses it to specify the pixel format and alpha mode of an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>.
 
 
 ```cpp
@@ -121,15 +121,15 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
-<a href="https://msdn.microsoft.com/97128e07-68c2-40ab-bad1-7b6f599291b9">D2D1::PixelFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nf-d2d1helper-pixelformat">D2D1::PixelFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel Formats and Alpha Modes</a>
  
 
  

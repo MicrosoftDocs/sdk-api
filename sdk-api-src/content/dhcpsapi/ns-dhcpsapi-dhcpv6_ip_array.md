@@ -64,7 +64,7 @@ The number of elements in <b>Elements</b>.
 
 ### -field Elements
 
-An array of <a href="https://msdn.microsoft.com/9623e866-81e5-4d5a-8801-33f0f8973ed3">DHCP_IPV6_ADDRESS</a> structures.
+An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> structures.
 
 
 ### -field Elements.size_is

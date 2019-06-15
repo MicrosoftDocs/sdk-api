@@ -66,7 +66,7 @@ The SKU ID.
 
 ### -field eStatus
 
-Type: <b><a href="https://msdn.microsoft.com/8af21021-ad18-4045-8a24-0af0d39db919">SLLICENSINGSTATUS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_tagsllicensingstatus">SLLICENSINGSTATUS</a></b>
 
 The licensing status.
 

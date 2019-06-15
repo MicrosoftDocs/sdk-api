@@ -61,7 +61,7 @@ Gets the current flags that are set to control dialog behavior.
 
 Type: <b>FILEOPENDIALOGOPTIONS*</b>
 
-When this method returns successfully, points to a value made up of one or more of the <a href="https://msdn.microsoft.com/CDDB4B39-AFB9-4C0D-9D5A-0F2EA9EABE64">FILEOPENDIALOGOPTIONS</a> values.
+When this method returns successfully, points to a value made up of one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_fileopendialogoptions">FILEOPENDIALOGOPTIONS</a> values.
 
 
 ## -returns

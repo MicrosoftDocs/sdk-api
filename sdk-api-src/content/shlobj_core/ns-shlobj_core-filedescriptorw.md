@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="https://msdn.microsoft.com/bd73098b-2f69-48a4-bb06-e1e0a452e69d">drag-and-drop</a> operation.
+Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776905(v=vs.85)">drag-and-drop</a> operation.
 
 
 ## -struct-fields
@@ -142,7 +142,7 @@ The width and height of the file icon.
 
 ### -field pointl
 
-Type: <b><a href="https://msdn.microsoft.com/587d36c8-e81c-4256-af25-af2a82727e8d">POINTL</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a></b>
 
 The screen coordinates of the file object.
 
@@ -151,28 +151,28 @@ The screen coordinates of the file object.
 
 Type: <b>DWORD</b>
 
-File attribute flags. This will be a combination of the FILE_ATTRIBUTE_ values described in <a href="https://msdn.microsoft.com/9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690">GetFileAttributes</a>.
+File attribute flags. This will be a combination of the FILE_ATTRIBUTE_ values described in <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>.
 
 
 ### -field ftCreationTime
 
 Type: <b>FILETIME</b>
 
-The <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time of file creation.
+The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of file creation.
 
 
 ### -field ftLastAccessTime
 
 Type: <b>FILETIME</b>
 
-The <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time that the file was last accessed.
+The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time that the file was last accessed.
 
 
 ### -field ftLastWriteTime
 
 Type: <b>FILETIME</b>
 
-The <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains the time of the last write operation.
+The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of the last write operation.
 
 
 ### -field nFileSizeHigh
@@ -250,9 +250,9 @@ The null-terminated string that contains the name of the file.
 
 
 
-If the <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CFSTR_FILECONTENTS</a> format that corresponds to this structure contains the file as a global memory object, <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> specify the size of the associated memory block. If they are set, they can also be used if a user-interface needs to be displayed. For example, if a file is about to be overwritten, you would typically use information from this structure to display a dialog box containing the size, data, and name of the file.
+If the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format that corresponds to this structure contains the file as a global memory object, <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> specify the size of the associated memory block. If they are set, they can also be used if a user-interface needs to be displayed. For example, if a file is about to be overwritten, you would typically use information from this structure to display a dialog box containing the size, data, and name of the file.
 
-To create a zero-length file, set the <b>FD_FILESIZE</b> flag in the <b>dwFlags</b>, and set <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> to zero. The <a href="https://msdn.microsoft.com/fb8ce5d3-3215-4e05-a916-4d4a803464d2">CFSTR_FILECONTENTS</a> format should represent the file as either a stream or global memory object (<a href="https://msdn.microsoft.com/ac41286f-7c67-444a-81b7-21b61079bbf5">TYMED_ISTREAM</a> or <a href="https://msdn.microsoft.com/ac41286f-7c67-444a-81b7-21b61079bbf5">TYMED_HGLOBAL</a>).
+To create a zero-length file, set the <b>FD_FILESIZE</b> flag in the <b>dwFlags</b>, and set <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> to zero. The <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format should represent the file as either a stream or global memory object (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagtymed">TYMED_ISTREAM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tagtymed">TYMED_HGLOBAL</a>).
 
 
 

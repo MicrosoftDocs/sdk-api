@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the <a href="https://msdn.microsoft.com/a86f8524-3564-4a65-9574-1709f82280d8">IAlertDataCollector::Task</a> property.
+Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_task">IAlertDataCollector::Task</a> property.
 
 This property is read/write.
 
@@ -90,7 +90,7 @@ PLA provides the following substitution variables that you can include in your a
 </tr>
 <tr>
 <td>{usertext}</td>
-<td>String from the <a href="https://msdn.microsoft.com/d432652a-3dea-43f0-a698-bb7ccb1cb79a">IAlertDataCollector::TaskUserTextArguments</a> property.</td>
+<td>String from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">IAlertDataCollector::TaskUserTextArguments</a> property.</td>
 </tr>
 <tr>
 <td>{value}</td>
@@ -99,7 +99,7 @@ PLA provides the following substitution variables that you can include in your a
 </table>
  
 
-Typically, if you use the substitution variables, you specify them in <a href="https://msdn.microsoft.com/d432652a-3dea-43f0-a698-bb7ccb1cb79a">TaskUserTextArguments</a>, where you do not have to escape the braces, and then specify {usertext} in this property.
+Typically, if you use the substitution variables, you specify them in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_taskusertextarguments">TaskUserTextArguments</a>, where you do not have to escape the braces, and then specify {usertext} in this property.
 
 
 
@@ -109,7 +109,7 @@ Typically, if you use the substitution variables, you specify them in <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/61907979-fa4a-45da-96c5-7cd12021fbb7">IAlertDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775849(v=VS.85).aspx">CB_GETDROPPEDSTATE</a> message explicitly.
+Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getdroppedstate">CB_GETDROPPEDSTATE</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Ascertains whether the drop list in a combo box control is visible. You can use 
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the combo box control.
 

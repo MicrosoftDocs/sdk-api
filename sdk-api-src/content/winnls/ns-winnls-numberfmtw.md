@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains information that defines the format of a number string. The <a href="https://msdn.microsoft.com/acbfebed-71bd-4266-b639-66f453158442">GetNumberFormat</a> function uses this information to customize a number string for a specified locale.
+Contains information that defines the format of a number string. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a> function uses this information to customize a number string for a specified locale.
 
 
 
@@ -62,12 +62,12 @@ Contains information that defines the format of a number string. The <a href="ht
 
 ### -field NumDigits
 
-Number of fractional digits. This value is equivalent to the locale information specified by the value <a href="https://msdn.microsoft.com/ecd014c9-76c5-44a3-8fbd-5b7dc34834f9">LOCALE_IDIGITS</a>.
+Number of fractional digits. This value is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-idigits">LOCALE_IDIGITS</a>.
 
 
 ### -field LeadingZero
 
-A value indicating if leading zeros should be used in decimal fields. This value is equivalent to the locale information specified by the value <a href="https://msdn.microsoft.com/396d437f-09af-475f-8e73-de31d9a305da">LOCALE_ILZERO</a>.
+A value indicating if leading zeros should be used in decimal fields. This value is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ilzero">LOCALE_ILZERO</a>.
 
 
 ### -field Grouping
@@ -89,7 +89,7 @@ Pointer to a null-terminated thousand separator string.
 
 ### -field NegativeOrder
 
-Negative number mode. This mode is equivalent to the locale information specified by the value <a href="https://msdn.microsoft.com/3a1e4a63-31bd-4ff9-a3ca-af357389e179">LOCALE_INEGNUMBER</a>.
+Negative number mode. This mode is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ineg-constants">LOCALE_INEGNUMBER</a>.
 
 
 ## -see-also
@@ -97,11 +97,11 @@ Negative number mode. This mode is equivalent to the locale information specifie
 
 
 
-<a href="https://msdn.microsoft.com/acbfebed-71bd-4266-b639-66f453158442">GetNumberFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/75382149-7d4e-4b3e-929e-ee39bf666110">National Language Support Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
  
 
  

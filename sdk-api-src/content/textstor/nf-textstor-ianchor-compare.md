@@ -159,7 +159,7 @@ The method was successful.
 
 
 
-The value 0 is returned for <i>*plResult</i> only when the two anchors are in a single region. Anchor positions include the spaces between regions. If you only need to determine if the two anchors are positioned at the same location, <a href="https://msdn.microsoft.com/a2dedce7-f64d-406a-bebc-9a4b51a1ae38">IAnchor::IsEqual</a> is more efficient.
+The value 0 is returned for <i>*plResult</i> only when the two anchors are in a single region. Anchor positions include the spaces between regions. If you only need to determine if the two anchors are positioned at the same location, <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IAnchor::IsEqual</a> is more efficient.
 
 
 
@@ -169,20 +169,20 @@ The value 0 is returned for <i>*plResult</i> only when the two anchors are in a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchors</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchors</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2dedce7-f64d-406a-bebc-9a4b51a1ae38">IAnchor::IsEqual
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IAnchor::IsEqual
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/7488e29e-3409-4db3-98b4-f3438ad7c94e">Regions</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Regions</a>
  
 
  

@@ -64,7 +64,7 @@ Integer that specifies the number of DHCP server policy expressions in <i>Elemen
 
 ### -field Elements
 
-Pointer to a list of <a href="https://msdn.microsoft.com/34e674f7-61a4-4045-9643-374f05906227">DHCP_POL_EXPR</a>  structures.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_pol_expr">DHCP_POL_EXPR</a>  structures.
 
 
 ### -field Elements.size_is
@@ -84,7 +84,7 @@ Pointer to a list of <a href="https://msdn.microsoft.com/34e674f7-61a4-4045-9643
 
 
 
-<a href="https://msdn.microsoft.com/7e62d2f3-275a-45ab-baab-648fe135d0fc">DHCP_POLICY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_policy">DHCP_POLICY</a>
  
 
  

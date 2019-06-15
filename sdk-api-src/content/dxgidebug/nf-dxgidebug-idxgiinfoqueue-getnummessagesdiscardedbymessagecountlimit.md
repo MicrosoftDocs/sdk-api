@@ -59,7 +59,7 @@ Gets the number of messages that were discarded due to the message count limit.
 
 ### -param Producer [in]
 
- A <a href="https://msdn.microsoft.com/85946D30-5E49-4E4B-AC25-394ABFF0DB11">DXGI_DEBUG_ID</a> value that identifies the entity that gets the number.
+ A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the number.
 
 
 ## -returns
@@ -75,7 +75,7 @@ Returns the number of messages that were discarded.
 
 
 
-Get and set the message count limit with <a href="https://msdn.microsoft.com/F9700374-255D-423E-8E60-4FE7FFA9E807">IDXGIInfoQueue::GetMessageCountLimit</a> and <a href="https://msdn.microsoft.com/77FFF3EA-DEBC-4D92-9C10-E382CD663D20">IDXGIInfoQueue::SetMessageCountLimit</a>, respectively.
+Get and set the message count limit with <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessagecountlimit">IDXGIInfoQueue::GetMessageCountLimit</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-setmessagecountlimit">IDXGIInfoQueue::SetMessageCountLimit</a>, respectively.
 
 
 
@@ -89,7 +89,7 @@ Get and set the message count limit with <a href="https://msdn.microsoft.com/F97
 
 
 
-<a href="https://msdn.microsoft.com/F1BC6752-F334-4E8C-BE42-B731635A799D">IDXGIInfoQueue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
  
 
  

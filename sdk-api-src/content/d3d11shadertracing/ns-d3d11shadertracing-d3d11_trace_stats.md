@@ -59,7 +59,7 @@ Specifies statistics about a trace.
 
 ### -field TraceDesc
 
-A  <a href="https://msdn.microsoft.com/0BF5D48F-EBC5-445B-B315-496C50411C72">D3D11_SHADER_TRACE_DESC</a> structure that describes the shader trace object for which this structure specifies statistics.
+A  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_shader_trace_desc">D3D11_SHADER_TRACE_DESC</a> structure that describes the shader trace object for which this structure specifies statistics.
           
 
 
@@ -80,7 +80,7 @@ The total number of steps for the trace. This number is the same for all stamp c
 
 ### -field InputMask
 
-The component trace mask for each input v# register. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://msdn.microsoft.com/15AFA648-DCAC-42A1-9606-6E292E92C217">D3D11_TRACE_VALUE</a>.
+The component trace mask for each input v# register. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_value">D3D11_TRACE_VALUE</a>.
             
 
 For vertex shaders, geometry shaders, pixel shaders, hull shaders, and domain shaders, the valid range is [0..31]. For compute shaders, this member is not applicable. Also, inputs for geometry shaders are 2D-indexed. For example, consider v[vertex][attribute]. In this example, the range of [attribute] is [0..31]. The [vertex] axis is the same size for all inputs, which are determined by the <b>GSInputPrimitive</b> member.
@@ -91,7 +91,7 @@ Similarly, inputs for hull shader and domain shader are 2D-indexed. For example,
 
 ### -field OutputMask
 
-The component trace mask for each output o# register. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://msdn.microsoft.com/15AFA648-DCAC-42A1-9606-6E292E92C217">D3D11_TRACE_VALUE</a>.
+The component trace mask for each output o# register. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_value">D3D11_TRACE_VALUE</a>.
             
 
 For vertex shaders and geometry shaders, the valid range is [0..31]. For pixel shaders, the valid range is [0..7]. For compute shaders, this member is not applicable. For output control points for hull shaders, the registers are 2D-indexed. For example, consider ocp[vertex][attribute]. In this example, the range of [attribute] is [0..31]. The [vertex] axis is the same size for all inputs.
@@ -177,7 +177,7 @@ A value that specifies whether this trace is for a pixel shader that outputs the
 
 ### -field GSInputPrimitive
 
-A <a href="https://msdn.microsoft.com/9719D3B0-3E2E-4C0A-8CCA-4D7DA00E8FE9">D3D11_TRACE_GS_INPUT_PRIMITIVE</a>-typed value that identifies the type of geometry shader input primitive. That is, this value identifies:  {point, line, triangle, line_adj, triangle_adj} or the number of vertices: 1, 2, 3, 4, or 6 respectively. For example, for a line, input v[][#] is actually v[2][#]. For vertex shaders and pixel shaders, set this member to <a href="https://msdn.microsoft.com/en-us/library/Hh404529(v=VS.85).aspx">D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_gs_input_primitive">D3D11_TRACE_GS_INPUT_PRIMITIVE</a>-typed value that identifies the type of geometry shader input primitive. That is, this value identifies:  {point, line, triangle, line_adj, triangle_adj} or the number of vertices: 1, 2, 3, 4, or 6 respectively. For example, for a line, input v[][#] is actually v[2][#]. For vertex shaders and pixel shaders, set this member to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_gs_input_primitive">D3D11_TRACE_GS_INPUT_PRIMITIVE_UNDEFINED</a>.
           
 
 
@@ -190,10 +190,10 @@ A value that specifies whether this trace is for a geometry shader that inputs t
 
 <div class="alert"><b>Note</b>  This member is for hull shaders only.</div>
 <div> </div>
-The component trace mask for the hull-shader output. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://msdn.microsoft.com/15AFA648-DCAC-42A1-9606-6E292E92C217">D3D11_TRACE_VALUE</a>.
+The component trace mask for the hull-shader output. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_value">D3D11_TRACE_VALUE</a>.
             
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a> value is available through a call to the <a href="https://msdn.microsoft.com/35BC4F23-64E0-4E45-A621-925A5CA20AFE">ID3D11ShaderTrace::GetInitialRegisterContents</a> method.
+The <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_register_type">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a> value is available through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getinitialregistercontents">ID3D11ShaderTrace::GetInitialRegisterContents</a> method.
             
 
 
@@ -201,15 +201,15 @@ The <a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3
 
 <div class="alert"><b>Note</b>  This member is for domain shaders only.</div>
 <div> </div>
-The component trace mask for the domain-shader input. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://msdn.microsoft.com/15AFA648-DCAC-42A1-9606-6E292E92C217">D3D11_TRACE_VALUE</a>.
+The component trace mask for the domain-shader input. For information about D3D11_TRACE_COMPONENT_MASK, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ns-d3d11shadertracing-d3d11_trace_value">D3D11_TRACE_VALUE</a>.
             
 
-The following values are available through a call to the <a href="https://msdn.microsoft.com/35BC4F23-64E0-4E45-A621-925A5CA20AFE">ID3D11ShaderTrace::GetInitialRegisterContents</a> method:
+The following values are available through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-getinitialregistercontents">ID3D11ShaderTrace::GetInitialRegisterContents</a> method:
             
 
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Hh404535(v=VS.85).aspx">D3D11_TRACE_INPUT_DOMAIN_POINT_REGISTER</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_register_type">D3D11_TRACE_INPUT_PRIMITIVE_ID_REGISTER</a></li>
+<li><a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_register_type">D3D11_TRACE_INPUT_DOMAIN_POINT_REGISTER</a></li>
 </ul>
 
 #### - PixelPosition[ 4 ][ 2 ]
@@ -236,11 +236,11 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 
 
-<a href="https://msdn.microsoft.com/5E61F61B-C438-4B24-8F0C-45C0583BCE08">ID3D11ShaderTrace::GetTraceStats</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/nf-d3d11shadertracing-id3d11shadertrace-gettracestats">ID3D11ShaderTrace::GetTraceStats</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
  
 
  

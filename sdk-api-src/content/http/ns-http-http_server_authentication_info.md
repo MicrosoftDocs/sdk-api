@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_SERVER_AUTHENTICATION_INFO</b> structure is used to enable server-side authentication on a URL group or server session. This structure is also used to query the existing authentication schemes enabled for a URL group or server session.
 
-This structure must be used when setting or querying the <a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HttpServerAuthenticationProperty</a> on a URL group, or server session.
+This structure must be used when setting or querying the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HttpServerAuthenticationProperty</a> on a URL group, or server session.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ This structure must be used when setting or querying the <a href="https://msdn.m
 
 ### -field Flags
 
-The <a href="https://msdn.microsoft.com/cafa3b04-ac8b-4269-bfa9-fe8e9ab65936">HTTP_PROPERTY_FLAGS</a> structure that specifies if the property is present.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies if the property is present.
 
 
 ### -field AuthSchemes
@@ -191,12 +191,12 @@ If set, the Kerberos authentication credentials are cached. Kerberos or Negotiat
 
 ### -field DigestParams
 
-The <a href="https://msdn.microsoft.com/923d06ed-8f34-46b6-98d8-96828848dca8">HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS</a> structure that provides the domain and realm for the digest challenge.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_digest_params">HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS</a> structure that provides the domain and realm for the digest challenge.
 
 
 ### -field BasicParams
 
-The <a href="https://msdn.microsoft.com/02330a12-aab0-4181-b3da-36c6b22dae67">HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS</a> structure that provides the realm for the basic challenge.
+The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_basic_params">HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS</a> structure that provides the realm for the basic challenge.
 
 
 ## -remarks
@@ -213,23 +213,23 @@ The <b>HTTP_SERVER_AUTHENTICATION_INFO</b> structure is included in the HTTP req
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/db22645f-c9e4-427e-b3d5-91d568aec7c5">HTTP_AUTH_ENABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-auth-enable--constants">HTTP_AUTH_ENABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/14865796-135c-43c2-955a-fdeae05a8278">HTTP_SERVER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-_http_server_property">HTTP_SERVER_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3e8fde0-5a78-46aa-8c6c-cea957d12356">HttpQueryUrlGroupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryurlgroupproperty">HttpQueryUrlGroupProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0826a25-1c50-4757-9355-69eb4946e8dd">HttpSetUrlGroupProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
  
 
  

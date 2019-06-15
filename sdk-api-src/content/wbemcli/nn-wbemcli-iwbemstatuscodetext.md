@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemStatusCodeText</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWbemStatusCodeText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemStatusCodeText</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemStatusCodeText</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWbemStatusCodeText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2adc740-f1d9-434e-a7ac-b4830350e862">GetErrorCodeText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemstatuscodetext-geterrorcodetext">GetErrorCodeText</a>
 </td>
 <td align="left" width="63%">
 Returns the text string description associated with the error code.
@@ -80,7 +80,7 @@ Returns the text string description associated with the error code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/831f8eb4-3dcd-42ec-aa43-309360e9a5ce">GetFacilityCodeText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemstatuscodetext-getfacilitycodetext">GetFacilityCodeText</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the subsystem where the error occurred.

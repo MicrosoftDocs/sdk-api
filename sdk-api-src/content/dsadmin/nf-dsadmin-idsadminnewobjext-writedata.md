@@ -98,9 +98,9 @@ Returns <b>S_OK</b> if successful or an OLE-defined error code otherwise.
 
 
 
-A pointer to the temporary directory object is supplied to the extension when the <a href="https://msdn.microsoft.com/e6dbb0ed-e20e-49c7-8247-d5688be93d8e">IDsAdminNewObjExt::SetObject</a> method is called.
+A pointer to the temporary directory object is supplied to the extension when the <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a> method is called.
 
-A secondary object creation extension should not commit the data set during the <b>WriteData</b> method by calling <a href="https://msdn.microsoft.com/e7ff6acd-b7c4-463d-a34f-fd793067c63a">IADs::SetInfo</a>. The primary object creation extension will commit all of the data for the object when all of the extensions have added their data.
+A secondary object creation extension should not commit the data set during the <b>WriteData</b> method by calling <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>. The primary object creation extension will commit all of the data for the object when all of the extensions have added their data.
 
 
 
@@ -110,11 +110,11 @@ A secondary object creation extension should not commit the data set during the 
 
 
 
-<a href="https://msdn.microsoft.com/a9b98647-b801-4a2a-98a4-d57679c07d55">IDsAdminNewObjExt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjext">IDsAdminNewObjExt</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6dbb0ed-e20e-49c7-8247-d5688be93d8e">IDsAdminNewObjExt::SetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a>
  
 
  

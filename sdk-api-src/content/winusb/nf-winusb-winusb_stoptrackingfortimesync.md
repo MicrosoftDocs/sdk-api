@@ -59,12 +59,12 @@ The <b>WinUsb_StopTrackingForTimeSync</b> function tops the time synchronization
 
 ### -param InterfaceHandle [in]
 
-An opaque handle retrieved in the previous call to <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. 
+An opaque handle retrieved in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
 
 
 ### -param StopTrackingInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/FFD7979B-48E9-433C-86A9-255F4F422BBA">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. Set <b>TimeTrackingHandle</b> to the handle received in the previous call to <a href="https://msdn.microsoft.com/FC19CDFD-76F1-49E3-A212-E4F490D679E6">WinUsb_StartTrackingForTimeSync</a>. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_stop_tracking_for_time_sync_information">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. Set <b>TimeTrackingHandle</b> to the handle received in the previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_starttrackingfortimesync">WinUsb_StartTrackingForTimeSync</a>. 
 
 
 
@@ -107,7 +107,7 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>StopTrackingI
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -115,11 +115,11 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> or <i>StopTrackingI
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/FC19CDFD-76F1-49E3-A212-E4F490D679E6">WinUsb_StartTrackingForTimeSync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_starttrackingfortimesync">WinUsb_StartTrackingForTimeSync</a>
  
 
  

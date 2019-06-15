@@ -81,7 +81,7 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It returns 
 
 
 
-<a href="https://msdn.microsoft.com/29f43c3f-57bf-4208-a0bf-9b4414795a59">ISettingsContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>
  
 
  

@@ -75,7 +75,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 
 
-Any application that creates an input context by using the <a href="https://msdn.microsoft.com/2207927a-0edb-4d3a-a1b7-75b94d1616d5">ImmCreateContext</a> function must call this function to free the context before it terminates. However, before calling <b>ImmDestroyContext</b>, the application must remove the input context from any association with windows in the thread by using the <a href="https://msdn.microsoft.com/978ea304-c44d-4f00-b86f-932bbd5f603c">ImmAssociateContext</a> function.
+Any application that creates an input context by using the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immcreatecontext">ImmCreateContext</a> function must call this function to free the context before it terminates. However, before calling <b>ImmDestroyContext</b>, the application must remove the input context from any association with windows in the thread by using the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontext">ImmAssociateContext</a> function.
 
 
 
@@ -85,19 +85,19 @@ Any application that creates an input context by using the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/978ea304-c44d-4f00-b86f-932bbd5f603c">ImmAssociateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immassociatecontext">ImmAssociateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/2207927a-0edb-4d3a-a1b7-75b94d1616d5">ImmCreateContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immcreatecontext">ImmCreateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e23e004-514a-4021-bd20-5ac55547258f">Input Method Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://msdn.microsoft.com/833c07eb-0ecf-41e2-9e01-8d83e51ffcef">Input Method Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
  
 
  

@@ -95,11 +95,11 @@ If the specified sound cannot be found, <b>IUserNotification2::PlaySound</b> use
 
 
 
-<a href="https://msdn.microsoft.com/6605a014-4f79-4856-8fd9-df926ea76052">IUserNotification2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iusernotification2">IUserNotification2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d7533c8-3b52-42dd-bfaa-2305bf3b0b18">PlaySound</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iusernotification-playsound">PlaySound</a>
  
 
  

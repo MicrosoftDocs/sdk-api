@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>ReceiveTSPData</b> method is called by TAPI 3 when the TSP sends asynchronous data to the MSP. If the TSP sends the 
-<a href="https://msdn.microsoft.com/982f40b3-7758-493c-9d04-6480e3c9e86d">LINE_SENDMSPDATA</a> message with the <b>htCall</b> set to <b>NULL</b>, <i>pMSPCall</i> will be <b>NULL</b>. If the TSP does specify the <b>htCall</b>, <i>pMSPCall</i> will correspond to the call created in 
-<a href="https://msdn.microsoft.com/56ed10e3-e711-43ae-aad6-65a5992fca0f">CreateMSPCall</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-sendmspdata">LINE_SENDMSPDATA</a> message with the <b>htCall</b> set to <b>NULL</b>, <i>pMSPCall</i> will be <b>NULL</b>. If the TSP does specify the <b>htCall</b>, <i>pMSPCall</i> will correspond to the call created in 
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 
 ### -param pMSPCall [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the MSP Call object.
+Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the MSP Call object.
 
 
 ### -param pBuffer
@@ -163,11 +163,11 @@ The semantics of the data passed in the buffer are specific to each TSP/MSP pair
 
 
 
-<a href="https://msdn.microsoft.com/246a0bcd-0dbb-4b77-a1cd-e6378eaff889">ITMSPAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/53b7bcbd-571a-44da-a6db-10d4c3e5d30a">Media Service Provider Interface (MSPI)</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
  
 
  

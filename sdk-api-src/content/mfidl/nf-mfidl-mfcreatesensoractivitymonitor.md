@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a new instance of the <a href="https://msdn.microsoft.com/1D0F8C4E-CB64-4787-A25F-8D826356226C">IMFSensorActivityMonitor</a> interface.
+Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a> interface.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Initializes a new instance of the <a href="https://msdn.microsoft.com/1D0F8C4E-C
 
 ### -param pCallback [in]
 
-An implementation of the <a href="https://msdn.microsoft.com/477B008D-7F0A-4084-BDFD-DF19E2A82817">IMFSensorActivitiesReportCallback</a> interface through which the system delivers <a href="https://msdn.microsoft.com/CECDE9D5-B5D4-4DF3-80A8-F4B0B37CC5C3">IMFSensorActivitiesReport</a> objects.
+An implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a> interface through which the system delivers <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreport">IMFSensorActivitiesReport</a> objects.
 
 
 ### -param ppActivityMonitor [out]
 
-A pointer to the new <a href="https://msdn.microsoft.com/1D0F8C4E-CB64-4787-A25F-8D826356226C">IMFSensorActivityMonitor</a>.
+A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a>.
 
 
 ## -returns

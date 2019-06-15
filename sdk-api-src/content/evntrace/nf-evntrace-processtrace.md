@@ -65,7 +65,7 @@ The <b>ProcessTrace</b> function delivers events from one or
 ### -param HandleArray [in]
 
 Pointer to an array of trace handles obtained from earlier calls to the 
-       <a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a> function. The number of handles that you can 
+       <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function. The number of handles that you can 
        specify is limited to 64.
 
 The array can contain the handles to multiple log files, but only one real-time trace session.
@@ -78,14 +78,14 @@ Number of elements in <i>HandleArray</i>.
 
 ### -param StartTime [in]
 
-Pointer to an optional <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that 
+Pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
       specifies the beginning time period for which you want to receive events. The function does not deliver events 
       recorded prior to <i>StartTime</i>.
 
 
 ### -param EndTime [in]
 
-Pointer to an optional <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that 
+Pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that 
        specifies the ending time period for which you want to receive events. The function does not deliver events 
        recorded after  <i>EndTime</i>.
 
@@ -99,7 +99,7 @@ Pointer to an optional <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-96
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>. The following table includes some 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -171,7 +171,7 @@ An exception occurred in one of the callback functions that receives the events.
 </td>
 <td width="60%">
 Indicates the consumer canceled processing by returning <b>FALSE</b> in their 
-        <a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a> function.
+        <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a> function.
 
 </td>
 </tr>
@@ -211,13 +211,13 @@ The <i>HandleArray</i> parameter contains the handle to more than one real-time
 
 Consumers call this function.
 
-You must call the <a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a> function prior to 
+You must call the <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function prior to 
     calling <b>ProcessTrace</b>.
 
 The <b>ProcessTrace</b> function delivers the events to the 
-    consumer's  <a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a>, 
-    <a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a>, and 
-    <a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a> callback functions.
+    consumer's  <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>, and 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback functions.
 
 The <b>ProcessTrace</b> function sorts the events 
     chronologically and delivers all events generated between <i>StartTime</i> and 
@@ -227,22 +227,22 @@ The <b>ProcessTrace</b> function sorts the events
     those events.
 
 The <b>ProcessTrace</b> function blocks the thread until it 
-     delivers all events, the <a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a> 
+     delivers all events, the <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a> 
      function returns <b>FALSE</b>, or you call 
-     <a href="https://msdn.microsoft.com/25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec">CloseTrace</a>. If the consumer is consuming events in real 
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>. If the consumer is consuming events in real 
      time, the <b>ProcessTrace</b> function returns after the 
      controller stops the trace session. (Note that there may be a several-second delay before the function 
      returns.)
 
-<b>Windows Server 2003:  </b>You can call <a href="https://msdn.microsoft.com/25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec">CloseTrace</a> only after 
+<b>Windows Server 2003:  </b>You can call <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a> only after 
       <b>ProcessTrace</b> returns.
 
 
 #### Examples
 
 For an example that uses <b>ProcessTrace</b>, see 
-     <a href="https://msdn.microsoft.com/5ebd500c-420e-4979-a03a-49b687464b0e">Using TdhFormatProperty to Consume Event Data</a> 
-     or <a href="https://msdn.microsoft.com/13512236-c416-43ba-bf36-b05c5c08d6c9">Retrieving Event Data Using MOF</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a> 
+     or <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
@@ -253,23 +253,23 @@ For an example that uses <b>ProcessTrace</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/0cfe2f62-63dc-45a6-96ce-fb4bf458358f">BufferCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/9312eaed-2997-4d44-952a-fcae3b262947">EventCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/32e94f58-b8b6-4e0a-b53b-716a534ac374">EventClassCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/505e643b-6b4f-4f93-96c8-7fe8abdd6234">OpenTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/8663f64f-a203-43e5-94e8-337f2d81c3a0">SetTraceCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/settracecallback">SetTraceCallback</a>
  
 
  

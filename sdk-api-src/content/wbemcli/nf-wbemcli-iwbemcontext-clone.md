@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 The 
 <b>IWbemContext::Clone</b> method makes a logical copy of the current 
-<a href="https://msdn.microsoft.com/458bd455-6984-414b-a0b7-62887d9dad7c">IWbemContext</a> object. This method can be useful when many calls must be made which have largely identical 
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object. This method can be useful when many calls must be made which have largely identical 
 <b>IWbemContext</b> objects.
 
 

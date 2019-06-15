@@ -56,16 +56,16 @@ Clients do not call the methods in this interface directly. Instead, this interf
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/036ca996-8612-4905-9afa-a4c3b4624652">IAudioBass Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass">IAudioBass Interface</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/d2d93dba-1867-4c3a-9cd1-60842bf8311d">IAudioMidrange Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange">IAudioMidrange Interface</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3ace174e-c21c-41e7-9830-80d247d8437f">IAudioTreble Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble">IAudioTreble Interface</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5e7d7111-e4b0-43b3-af35-9878d1a19e5f">IAudioVolumeLevel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel Interface</a>
 </li>
 </ul>
 
@@ -73,7 +73,7 @@ Clients do not call the methods in this interface directly. Instead, this interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerChannelDbLevel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPerChannelDbLevel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPerChannelDbLevel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPerChannelDbLevel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,7 +88,7 @@ The <b>IPerChannelDbLevel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8c6c0fd-fe29-467a-936e-f83c6d951bdd">GetChannelCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount">GetChannelCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of channels in the audio stream.
@@ -97,7 +97,7 @@ Gets the number of channels in the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afc76c80-1656-4f06-8024-c9b041f52e64">GetLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getlevel">GetLevel</a>
 </td>
 <td align="left" width="63%">
 Gets the volume level, in decibels, of the specified channel.
@@ -106,7 +106,7 @@ Gets the volume level, in decibels, of the specified channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/492eddb0-f8f2-4639-b5fe-1d02bf8c983a">GetLevelRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getlevelrange">GetLevelRange</a>
 </td>
 <td align="left" width="63%">
 Gets the range, in decibels, of the volume level of the specified channel.
@@ -115,7 +115,7 @@ Gets the range, in decibels, of the volume level of the specified channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/103efe46-bca5-40a7-815b-d2a1f6e29cbc">SetLevel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-setlevel">SetLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the volume level, in decibels, of the specified channel.
@@ -124,7 +124,7 @@ Sets the volume level, in decibels, of the specified channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92c06b38-954d-4bab-b4ea-0f30e64aa9e4">SetLevelAllChannels</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-setlevelallchannels">SetLevelAllChannels</a>
 </td>
 <td align="left" width="63%">
 Sets the volume levels, in decibels, of all the channels in the audio stream.
@@ -133,7 +133,7 @@ Sets the volume levels, in decibels, of all the channels in the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b78bebcb-d32b-4eda-a805-35d4459b6b4f">SetLevelUniform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-setleveluniform">SetLevelUniform</a>
 </td>
 <td align="left" width="63%">
 Sets all channels in the audio stream to the same uniform volume level, in decibels.
@@ -148,27 +148,27 @@ Sets all channels in the audio stream to the same uniform volume level, in decib
 
 
 
-<a href="https://msdn.microsoft.com/b18e2094-e974-4c23-b70b-ace5a168132d">Core Audio Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/051311ef-dd29-4014-bb9c-4cdccf7ce7de">DeviceTopology API</a>
+<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://msdn.microsoft.com/036ca996-8612-4905-9afa-a4c3b4624652">IAudioBass Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiobass">IAudioBass Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2d93dba-1867-4c3a-9cd1-60842bf8311d">IAudioMidrange Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomidrange">IAudioMidrange Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ace174e-c21c-41e7-9830-80d247d8437f">IAudioTreble Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiotreble">IAudioTreble Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e7d7111-e4b0-43b3-af35-9878d1a19e5f">IAudioVolumeLevel Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiovolumelevel">IAudioVolumeLevel Interface</a>
  
 
  

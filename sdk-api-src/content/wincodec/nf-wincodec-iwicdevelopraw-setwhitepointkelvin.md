@@ -83,7 +83,7 @@ Codec implementers should faithfully adjust the color temperature within the ran
 
 Codec implementers should return <b>WINCODEC_ERR_VALUEOUTOFRANGE</b> if the value is out of defined acceptable range.
 
-Codec implementers must ensure proper interoperability with other white point setting methods such as <a href="https://msdn.microsoft.com/7059959f-dcd6-46a6-a95c-1dd9610f865c">SetWhitePointRGB</a>. For example, if the caller sets the white point via <a href="https://msdn.microsoft.com/eb83233d-7967-4160-bebf-2b06378f77ab">SetNamedWhitePoint</a> then the codec implementer may want to disable reading back the correspoinding Kelvin temperature. In specific cases where the codec implementer wants to deny a given action because of previous calls, <b>WINCODEC_ERR_WRONGSTATE</b> should be returned.
+Codec implementers must ensure proper interoperability with other white point setting methods such as <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setwhitepointrgb">SetWhitePointRGB</a>. For example, if the caller sets the white point via <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setnamedwhitepoint">SetNamedWhitePoint</a> then the codec implementer may want to disable reading back the correspoinding Kelvin temperature. In specific cases where the codec implementer wants to deny a given action because of previous calls, <b>WINCODEC_ERR_WRONGSTATE</b> should be returned.
 
 
 

@@ -59,12 +59,12 @@ The <b>XFORMOBJ_iGetFloatObjXform</b> function downloads a FLOATOBJ transform to
 
 ### -param pxo
 
-Pointer to the <a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a> structure that defines the transform to be downloaded.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure that defines the transform to be downloaded.
 
 
 ### -param pfxo
 
-Pointer to the buffer that is to receive the <a href="https://msdn.microsoft.com/0c58a0df-4a0a-46e2-90de-dc50b8077709">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
+Pointer to the buffer that is to receive the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagfloatobj_xform">FLOATOBJ_XFORM</a> structure. This parameter can be <b>NULL</b>.
 
 
 ## -returns
@@ -142,15 +142,15 @@ If <i>pxfo</i> is not <b>NULL</b>, <b>XFORMOBJ_iGetFloatObjXform</b> loads a FLO
 
 
 
-<a href="https://msdn.microsoft.com/5f8c401b-7487-4d75-a0a8-534fa7992a3d">FLOATOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_floatobj">FLOATOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c58a0df-4a0a-46e2-90de-dc50b8077709">FLOATOBJ_XFORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagfloatobj_xform">FLOATOBJ_XFORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>NOTIFYADD</b> structure contains the details of a network connect operation. It is used by the 
-<a href="https://msdn.microsoft.com/a061b088-81ca-4276-a0d6-9f1d1282a039">AddConnectNotify</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a> function.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ A handle to a window which should own any messages or dialog boxes the applicati
 ### -field NetResource
 
 Specifies the network resource to connect to. The valid fields are the same as for the 
-<a href="https://msdn.microsoft.com/37a3988c-18ee-400a-85c3-cc3cbdf015ea">NPAddConnection</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> function.
 
 
 ### -field dwAddFlags

@@ -133,11 +133,11 @@ The system language bar item does not support this method.
 
 
 
-<a href="https://msdn.microsoft.com/0dc32f10-eecd-4203-992c-80eb0f991615">ITfSystemDeviceTypeLangBarItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemdevicetypelangbaritem">ITfSystemDeviceTypeLangBarItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1740636-7ba3-4748-9005-ee94d04dbb15">Miscellaneous Language Bar Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-language-bar-constants">Miscellaneous Language Bar Constants</a>
  
 
  

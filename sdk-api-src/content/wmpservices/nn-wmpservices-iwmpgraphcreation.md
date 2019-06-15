@@ -63,7 +63,7 @@ This interface is not supported when remoting the Windows Media Player control.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPGraphCreation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMPGraphCreation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPGraphCreation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPGraphCreation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IWMPGraphCreation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563380(v=VS.85).aspx">GetGraphCreationFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-getgraphcreationflags">GetGraphCreationFlags</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player to retrieve a value that represents the graph creation preferences.
@@ -87,7 +87,7 @@ Called by Windows Media Player to retrieve a value that represents the graph cre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563381(v=VS.85).aspx">GraphCreationPostRender</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationpostrender">GraphCreationPostRender</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player after a file has been rendered.
@@ -96,7 +96,7 @@ Called by Windows Media Player after a file has been rendered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd563382(v=VS.85).aspx">GraphCreationPreRender</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationprerender">GraphCreationPreRender</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Player before a file has been rendered.
@@ -111,7 +111,7 @@ Called by Windows Media Player before a file has been rendered.
 
 
 
-<a href="https://msdn.microsoft.com/68a0bdaf-ae1b-4ba1-817b-a31c68b9fddd">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
  
 
  

@@ -60,7 +60,7 @@ The
 
 ### -field MessageHead
 
-A <a href="https://msdn.microsoft.com/e5bf19a1-4c71-482d-a075-1e149f94505b">DNS_HEADER</a> structure that contains the header for the DNS message.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dns_header">DNS_HEADER</a> structure that contains the header for the DNS message.
 
 
 ### -field MessageBody
@@ -75,8 +75,8 @@ An array of characters that comprises the DNS query or resource records (RR).
 The 
 <b>DNS_MESSAGE_BUFFER</b> is used by the system to store DNS query information, and make that information available through various DNS function calls.
 
-The <a href="https://msdn.microsoft.com/9aa853aa-d9b5-41e3-a82a-c25de199924d">DnsWriteQuestionToBuffer</a> 
-	 method should be used to write a DNS query into a <b>DNS_MESSAGE_BUFFER</b> structure and the <a href="https://msdn.microsoft.com/0179bf3e-9243-4dd7-a2ab-e2f6f4bf4b82">DnsExtractRecordsFromMessage</a> method should be used to read the DNS RRs from a <b>DNS_MESSAGE_BUFFER</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8">DnsWriteQuestionToBuffer</a> 
+	 method should be used to write a DNS query into a <b>DNS_MESSAGE_BUFFER</b> structure and the <a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsextractrecordsfrommessage_utf8">DnsExtractRecordsFromMessage</a> method should be used to read the DNS RRs from a <b>DNS_MESSAGE_BUFFER</b>.
 
 
 
@@ -86,11 +86,11 @@ The <a href="https://msdn.microsoft.com/9aa853aa-d9b5-41e3-a82a-c25de199924d">Dn
 
 
 
-<a href="https://msdn.microsoft.com/0179bf3e-9243-4dd7-a2ab-e2f6f4bf4b82">DnsExtractRecordsFromMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsextractrecordsfrommessage_utf8">DnsExtractRecordsFromMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/9aa853aa-d9b5-41e3-a82a-c25de199924d">DnsWriteQuestionToBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnswritequestiontobuffer_utf8">DnsWriteQuestionToBuffer</a>
  
 
  

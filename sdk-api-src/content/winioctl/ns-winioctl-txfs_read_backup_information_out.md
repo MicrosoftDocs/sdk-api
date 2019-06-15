@@ -52,11 +52,11 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains a Transactional NTFS (TxF) specific structure. This information should only be used when 
    calling 
-   <a href="https://msdn.microsoft.com/777210c4-4e9b-484e-a412-8c807882facb">TXFS_WRITE_BACKUP_INFORMATION</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_write_backup_information">TXFS_WRITE_BACKUP_INFORMATION</a>.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ The buffer for the data.
 
 
 
-<a href="https://msdn.microsoft.com/41c5df47-b815-47ef-bf37-d0b8030c5bfc">FSCTL_TXFS_READ_BACKUP_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_read_backup_information">FSCTL_TXFS_READ_BACKUP_INFORMATION</a>
  
 
  

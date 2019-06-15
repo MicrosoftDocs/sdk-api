@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Finalize</b> method prevents a side-by-side  assembly name from being changed. After <b>Finalize</b> is called, additional calls to the <a href="https://msdn.microsoft.com/057bc5b3-008b-495b-b96c-2c0dcc43f1a4">SetProperty</a> returns <b>E_UNEXPECTED</b>.
+The <b>Finalize</b> method prevents a side-by-side  assembly name from being changed. After <b>Finalize</b> is called, additional calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty">SetProperty</a> returns <b>E_UNEXPECTED</b>.
 
 
 ## -parameters
@@ -103,7 +103,7 @@ The method did not succeed.
 
 
 
-<a href="https://msdn.microsoft.com/304b8fb3-5d17-4af0-b070-450a40dc5cc9">IAssemblyName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
  
 
  

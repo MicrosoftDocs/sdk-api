@@ -92,7 +92,7 @@ The frame buffer header information provided by this callback is read-only. You 
 
 
 
-<a href="https://msdn.microsoft.com/F603F92A-9233-4786-9DE8-AE10BA981DE3">IMFDeviceTransformCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransformcallback">IMFDeviceTransformCallback</a>
  
 
  

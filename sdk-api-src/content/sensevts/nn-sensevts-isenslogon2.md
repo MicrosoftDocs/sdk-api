@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensLogon2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISensLogon2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISensLogon2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISensLogon2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISensLogon2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a366a9ca-ce3a-4800-90c6-e1ba53e4cb30">Logoff</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-logoff">Logoff</a>
 </td>
 <td align="left" width="63%">
 A user has logged off.
@@ -79,7 +79,7 @@ A user has logged off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36caaccf-0cb3-47b8-b0bc-68f9bb21f235">Logon</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-logon">Logon</a>
 </td>
 <td align="left" width="63%">
 A user has logged on.
@@ -88,7 +88,7 @@ A user has logged on.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fa187b3c-fc78-410f-9339-9b4c94c43f95">PostShell</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-postshell">PostShell</a>
 </td>
 <td align="left" width="63%">
 A user has logged on and Windows Explorer (Shell) is up and running.
@@ -97,7 +97,7 @@ A user has logged on and Windows Explorer (Shell) is up and running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afa56cb1-7c52-48db-ac7c-237cb49cc97f">SessionDisconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-sessiondisconnect">SessionDisconnect</a>
 </td>
 <td align="left" width="63%">
 A session has been disconnected.
@@ -106,7 +106,7 @@ A session has been disconnected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b789a75d-e842-40b4-9e8d-b9374b5ba6b0">SessionReconnect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon2-sessionreconnect">SessionReconnect</a>
 </td>
 <td align="left" width="63%">
 A session has been reconnected.
@@ -121,7 +121,7 @@ A session has been reconnected.
 
 
 
-<a href="https://msdn.microsoft.com/f313588f-6257-4a0d-b95a-aabc0bc64b53">About System Event Notification Service</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
  
 
  

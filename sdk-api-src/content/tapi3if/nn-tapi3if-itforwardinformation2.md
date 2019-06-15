@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The 
 <b>ITForwardInformation2</b> interface exposes methods that provide additional methods for the control of forwarding information. See 
-<a href="https://msdn.microsoft.com/0e06cd0b-b95b-4853-b883-53146be084f0">ITForwardInformation</a> for the basic forwarding control methods.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a> for the basic forwarding control methods.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITForwardInformation2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITForwardInformation2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITForwardInformation2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITForwardInformation2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITForwardInformation2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/030d2b44-0c1d-488b-8cd9-e68ad6d26c6e">get_ForwardTypeCallerAddressType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-get_forwardtypecalleraddresstype">get_ForwardTypeCallerAddressType</a>
 </td>
 <td align="left" width="63%">
 Gets the destination address type for a given forwarding type.
@@ -80,7 +80,7 @@ Gets the destination address type for a given forwarding type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de40538a-e2ba-49ec-bde6-6803da6515da">get_ForwardTypeDestinationAddressType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-get_forwardtypedestinationaddresstype">get_ForwardTypeDestinationAddressType</a>
 </td>
 <td align="left" width="63%">
 Gets the caller address type for a given forwarding type.
@@ -89,7 +89,7 @@ Gets the caller address type for a given forwarding type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c3142217-d3fa-4e0b-ad3b-65a0557ce951">GetForwardType2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-getforwardtype2">GetForwardType2</a>
 </td>
 <td align="left" width="63%">
 Gets the current forwarding mode, specified by caller address.
@@ -98,7 +98,7 @@ Gets the current forwarding mode, specified by caller address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/774b91e8-b7f9-47b5-bbd9-025b03429b14">SetForwardType2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-setforwardtype2">SetForwardType2</a>
 </td>
 <td align="left" width="63%">
 Sets the current forwarding mode, specified by caller address.
@@ -113,27 +113,27 @@ Sets the current forwarding mode, specified by caller address.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/87d37ba3-5398-47a7-808b-eb9b6681653d">ITAddress::CreateForwardInfoObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f070b50-db9a-49e8-a0f3-e448c5dee144">ITAddress::Forward</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
 
 
 
-<a href="https://msdn.microsoft.com/7817ac03-d9fc-4042-ae7d-350ee6cbef53">ITAddress::get_CurrentForwardInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e06cd0b-b95b-4853-b883-53146be084f0">ITForwardInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d96f229-76c0-46a3-bc4b-6f558b9956c6">Terminal Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
  
 
  

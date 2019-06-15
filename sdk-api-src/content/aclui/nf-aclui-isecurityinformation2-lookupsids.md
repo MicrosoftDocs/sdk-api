@@ -60,18 +60,18 @@ The <b>LookupSids</b> method returns the common names corresponding to each of t
 ### -param cSids [in]
 
 The number of 
-pointers to  <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures pointed to by <i>rgpSids</i>.
+pointers to  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures pointed to by <i>rgpSids</i>.
 
 
 ### -param rgpSids [in]
 
-A pointer to an array of pointers to <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structures.
+A pointer to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a> structures.
 
 
 ### -param ppdo [out]
 
 A pointer to a pointer to a returned data transfer object that contains the common names of the SIDs. Optionally, this parameter also returns the user principal name (UPN) of the SIDs in the <i>rgpSids</i> parameter. The data transfer object is a 
-<a href="https://msdn.microsoft.com/6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c">SID_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a> structure.
 
 
 ## -returns
@@ -130,27 +130,27 @@ typedef struct _SID_INFO_LIST
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cb7a096-5088-424a-82d1-0351ce5bb413">ISecurityInformation2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation2">ISecurityInformation2</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a69e5b9-ab6a-4bbb-9f1a-5882d4c8038c">SID_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info">SID_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9be644c-ec56-4a49-9aa8-6b3f62d6cf0d">SID_INFO_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/ns-aclui-_sid_info_list">SID_INFO_LIST</a>
  
 
  

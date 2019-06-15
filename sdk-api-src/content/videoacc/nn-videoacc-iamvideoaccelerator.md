@@ -53,14 +53,14 @@ ms.custom: 19H1
 
 The <b>IAMVideoAccelerator</b> interface enables a video decoder filter to access DirectX Video Acceleration (DXVA) 1.0 functionality. Applications should not call methods on this interface.
 
-The Video Mixing Renderer filter's input pins support this interface, and so does pin 0 on the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a>. If a video decoder filter calls methods on this interface, the decoder should support the <a href="https://msdn.microsoft.com/en-us/library/Dd375993(v=VS.85).aspx">IAMVideoAcceleratorNotify</a> interface on its output pin. For more information on how to use this interface, see <a href="https://msdn.microsoft.com/0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d">How Decoders Use IAMVideoAccelerator</a>.
+The Video Mixing Renderer filter's input pins support this interface, and so does pin 0 on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>. If a video decoder filter calls methods on this interface, the decoder should support the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify</a> interface on its output pin. For more information on how to use this interface, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoAccelerator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMVideoAccelerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoAccelerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoAccelerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMVideoAccelerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd375997(v=VS.85).aspx">BeginFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">BeginFrame</a>
 </td>
 <td align="left" width="63%">
 Begins the processing to create a decoded picture.
@@ -84,7 +84,7 @@ Begins the processing to create a decoded picture.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd375998(v=VS.85).aspx">DisplayFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-displayframe">DisplayFrame</a>
 </td>
 <td align="left" width="63%">
 Causes the video renderer to display a decoded frame
@@ -93,7 +93,7 @@ Causes the video renderer to display a decoded frame
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376001(v=VS.85).aspx">EndFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">EndFrame</a>
 </td>
 <td align="left" width="63%">
 Ends frame processing.
@@ -102,7 +102,7 @@ Ends frame processing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376002(v=VS.85).aspx">Execute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">Execute</a>
 </td>
 <td align="left" width="63%">
 Performs a decompression operation.
@@ -111,7 +111,7 @@ Performs a decompression operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376003(v=VS.85).aspx">GetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a compressed or uncompressed surface that was allocated for DXVA decoding.
@@ -120,7 +120,7 @@ Gets a pointer to a compressed or uncompressed surface that was allocated for DX
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376004(v=VS.85).aspx">GetCompBufferInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getcompbufferinfo">GetCompBufferInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information about the compressed buffers used for DXVA decoding. 
@@ -129,18 +129,18 @@ Gets information about the compressed buffers used for DXVA decoding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376005(v=VS.85).aspx">GetInternalCompBufferInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalcompbufferinfo">GetInternalCompBufferInfo</a>
 </td>
 <td align="left" width="63%">
 After the pins are connected, gets information about the compressed buffers used for DXVA decoding. 
 
-<div class="alert"><b>Note</b>  Unlike <a href="https://msdn.microsoft.com/en-us/library/Dd376004(v=VS.85).aspx">GetCompBufferInfo</a>, this method cannot be called during the pin connection process.</div>
+<div class="alert"><b>Note</b>  Unlike <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getcompbufferinfo">GetCompBufferInfo</a>, this method cannot be called during the pin connection process.</div>
 <div> </div>
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376006(v=VS.85).aspx">GetInternalMemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalmeminfo">GetInternalMemInfo</a>
 </td>
 <td align="left" width="63%">
 Queries for the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use. 
@@ -149,7 +149,7 @@ Queries for the amount of scratch memory the hardware abstraction layer (HAL) wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376007(v=VS.85).aspx">GetUncompFormatsSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getuncompformatssupported">GetUncompFormatsSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of pixel formats that can be used to render a specified video accelerator format.
@@ -158,7 +158,7 @@ Retrieves a list of pixel formats that can be used to render a specified video a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376008(v=VS.85).aspx">GetVideoAcceleratorGUIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getvideoacceleratorguids">GetVideoAcceleratorGUIDs</a>
 </td>
 <td align="left" width="63%">
 Gets a list of DirectX Video Acceleration (DXVA) profiles supported by the display driver.
@@ -167,7 +167,7 @@ Gets a list of DirectX Video Acceleration (DXVA) profiles supported by the displ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376009(v=VS.85).aspx">QueryRenderStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-queryrenderstatus">QueryRenderStatus</a>
 </td>
 <td align="left" width="63%">
 Queries the read/write status of a DXVA decoding surface.
@@ -177,10 +177,10 @@ Queries the read/write status of a DXVA decoding surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd376010(v=VS.85).aspx">ReleaseBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-releasebuffer">ReleaseBuffer</a>
 </td>
 <td align="left" width="63%">
-Releases a buffer that was locked by a previous call to <a href="https://msdn.microsoft.com/en-us/library/Dd376003(v=VS.85).aspx">GetBuffer</a>.
+Releases a buffer that was locked by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getbuffer">GetBuffer</a>.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ Releases a buffer that was locked by a previous call to <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d">How Decoders Use IAMVideoAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
  
 
  

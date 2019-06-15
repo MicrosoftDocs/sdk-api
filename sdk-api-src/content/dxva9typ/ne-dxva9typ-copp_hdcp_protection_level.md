@@ -96,7 +96,7 @@ Reserved.
 
 Some televisions do not have robust support for switching HDCP protection on and off. Because of this limitation, the graphics driver might leave HDCP enabled when the application sets the protection level to zero. If the application sets the HDCP level to zero, therefore, it might receive a COPP status message indicating that HDCP is still enabled. This is not an error.
 
-For more information about HDCP, see <a href="http://go.microsoft.com/fwlink?linkID=161532">http://www.digital-cp.com/home</a>.
+For more information about HDCP, see http://www.digital-cp.com/home.
 
 
 
@@ -106,11 +106,11 @@ For more information about HDCP, see <a href="http://go.microsoft.com/fwlink?lin
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/23eebe93-416b-48c8-a05f-019e38b9a660">Using Certified Output Protection Protocol (COPP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
  
 
  

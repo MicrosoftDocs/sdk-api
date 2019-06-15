@@ -117,7 +117,7 @@ This is a combination of the following flags:
 
 
 
-If this function was successful, <a href="https://msdn.microsoft.com/73c8b170-da76-4710-b307-61c42954997a">UninitLocalMsCtfMonitor</a> needs to be called before the caller thread is terminated or the desktop is switched.
+If this function was successful, <a href="https://docs.microsoft.com/windows/desktop/api/msctfmonitorapi/nf-msctfmonitorapi-uninitlocalmsctfmonitor">UninitLocalMsCtfMonitor</a> needs to be called before the caller thread is terminated or the desktop is switched.
 
 
 

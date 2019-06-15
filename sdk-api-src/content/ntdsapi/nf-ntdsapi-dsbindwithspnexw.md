@@ -54,9 +54,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DsBindWithSpnEx</b> function binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication. This function is similar to the <a href="https://msdn.microsoft.com/9a149654-fd94-4b0c-b712-07fb827bef2f">DsBindWithSpn</a> function except this function allows more binding options with the <i>BindFlags</i> parameter.
+The <b>DsBindWithSpnEx</b> function binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication. This function is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a> function except this function allows more binding options with the <i>BindFlags</i> parameter.
 
-This function is provided where complete control is required over mutual authentication. Do not use this function if you expect <a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DsBind</a> to find a server for you, because SPNs are computer-specific, and it is unlikely that the SPN you provide will match the server that <b>DsBind</b> finds for you. Providing a <b>NULL</b><i>ServicePrincipalName</i> argument results in behavior that is identical to <a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DsBindWithCred</a>.
+This function is provided where complete control is required over mutual authentication. Do not use this function if you expect <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> to find a server for you, because SPNs are computer-specific, and it is unlikely that the SPN you provide will match the server that <b>DsBind</b> finds for you. Providing a <b>NULL</b><i>ServicePrincipalName</i> argument results in behavior that is identical to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>.
 
 
 ## -parameters
@@ -66,28 +66,28 @@ This function is provided where complete control is required over mutual authent
 
 ### -param DomainControllerName [in, optional]
 
-Pointer to a null-terminated string that contains the fully qualified DNS name of the domain to bind. For more information, see the <i>DomainControllerName</i> description in the <a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DsBind</a> topic.
+Pointer to a null-terminated string that contains the fully qualified DNS name of the domain to bind. For more information, see the <i>DomainControllerName</i> description in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> topic.
 
 
 ### -param DnsDomainName [in, optional]
 
-Pointer to a null-terminated string that contains the fully qualified DNS name of the domain to bind. For more information, see the <i>DnsDomainName</i> description in the <a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DsBind</a> topic.
+Pointer to a null-terminated string that contains the fully qualified DNS name of the domain to bind. For more information, see the <i>DnsDomainName</i> description in the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a> topic.
 
 
 ### -param AuthIdentity [in, optional]
 
-Contains an <a href="https://msdn.microsoft.com/06e45348-a392-45be-9f8a-e77ef887f26c">RPC_AUTH_IDENTITY_HANDLE</a> value that represents the credentials to be used for the bind. The 
+Contains an <a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-auth-identity-handle">RPC_AUTH_IDENTITY_HANDLE</a> value that represents the credentials to be used for the bind. The 
     
-<a href="https://msdn.microsoft.com/51aba58b-07c5-4e6d-8568-fa6f1a963d8e">DsMakePasswordCredentials</a>function is used to obtain this value. If this parameter is <b>NULL</b>,
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>function is used to obtain this value. If this parameter is <b>NULL</b>,
     the credentials of the calling thread are used.
 
 
-<a href="https://msdn.microsoft.com/7106d67f-d421-4a7c-b775-440e5944f25e">DsUnBind</a> must be called before freeing this handle with the <a href="https://msdn.microsoft.com/3d008aa8-feff-426f-911b-a447257076c2">DsFreePasswordCredentials</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a> must be called before freeing this handle with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsfreepasswordcredentials">DsFreePasswordCredentials</a> function.
 
 
 ### -param ServicePrincipalName [in, optional]
 
-Pointer to a null-terminated string that specifies the Service Principal Name to assign to the client. Passing <b>NULL</b> in <i>ServicePrincipalName</i> is equivalent to a call to the <a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DsBindWithCred</a> function.
+Pointer to a null-terminated string that specifies the Service Principal Name to assign to the client. Passing <b>NULL</b> in <i>ServicePrincipalName</i> is equivalent to a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a> function.
 
 
 ### -param BindFlags [in, optional]
@@ -99,9 +99,9 @@ Contains a set of flags that define the behavior of this function. This paramete
 #### NTDSAPI_BIND_ALLOW_DELEGATION (1)
 
 Causes the bind to use the delegate impersonation level. This allows operations that require delegation, such as
-<a href="https://msdn.microsoft.com/36ef8734-717a-4c3a-a839-6591d85c9734">DsAddSidHistory</a>, to succeed.  Specifying this flag also causes <b>DsBindWithSpnEx</b> to operate like <a href="https://msdn.microsoft.com/9a149654-fd94-4b0c-b712-07fb827bef2f">DsBindWithSpn</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed.  Specifying this flag also causes <b>DsBindWithSpnEx</b> to operate like <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
 
-If this flag is not specified, the bind will use the impersonate impersonation level. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+If this flag is not specified, the bind will use the impersonate impersonation level. For more information, see <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
 
 Most operations do
 not require the delegate impersonation level, so this flag should only be specified 
@@ -123,15 +123,15 @@ Reserved.
 
 ### -param phDS [out]
 
-Address of a <b>HANDLE</b> value that receives the binding handle. To close this handle, pass it to the <a href="https://msdn.microsoft.com/7106d67f-d421-4a7c-b775-440e5944f25e">DsUnBind</a> function.
+Address of a <b>HANDLE</b> value that receives the binding handle. To close this handle, pass it to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a> function.
 
 
 ##### - BindFlags.NTDSAPI_BIND_ALLOW_DELEGATION (1)
 
 Causes the bind to use the delegate impersonation level. This allows operations that require delegation, such as
-<a href="https://msdn.microsoft.com/36ef8734-717a-4c3a-a839-6591d85c9734">DsAddSidHistory</a>, to succeed.  Specifying this flag also causes <b>DsBindWithSpnEx</b> to operate like <a href="https://msdn.microsoft.com/9a149654-fd94-4b0c-b712-07fb827bef2f">DsBindWithSpn</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsaddsidhistorya">DsAddSidHistory</a>, to succeed.  Specifying this flag also causes <b>DsBindWithSpnEx</b> to operate like <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
 
-If this flag is not specified, the bind will use the impersonate impersonation level. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>.
+If this flag is not specified, the bind will use the impersonate impersonation level. For more information, see <a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>.
 
 Most operations do
 not require the delegate impersonation level, so this flag should only be specified 
@@ -163,27 +163,27 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherw
 
 
 
-<a href="https://msdn.microsoft.com/a92783c2-ffb8-473e-8484-1c05ca5453ff">Domain Controller and Replication Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c73cd16d-ccfd-4f61-b1c5-50130bef64d7">DsBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/708e3874-852c-4a57-bf4b-edaf98818fe5">DsBindWithCred</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a149654-fd94-4b0c-b712-07fb827bef2f">DsBindWithSpn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>
 
 
 
-<a href="https://msdn.microsoft.com/7106d67f-d421-4a7c-b775-440e5944f25e">DsUnBind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686632(v=VS.85).aspx">Impersonation Levels</a>
+<a href="https://docs.microsoft.com/windows/desktop/com/impersonation-levels">Impersonation Levels</a>
  
 
  

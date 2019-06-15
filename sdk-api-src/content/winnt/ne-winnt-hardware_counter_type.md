@@ -72,7 +72,7 @@ The maximum enumeration value for this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/7224b623-c097-44e8-b9da-5fdfad3fb505">HARDWARE_COUNTER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_hardware_counter_data">HARDWARE_COUNTER_DATA</a>
  
 
  

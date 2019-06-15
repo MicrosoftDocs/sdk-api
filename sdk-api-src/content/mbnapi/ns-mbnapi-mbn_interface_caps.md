@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>MBN_INTERFACE_CAPS</b> structure represents the interface capabilities.  This structure is returned by the <a href="https://msdn.microsoft.com/cfe8f638-ad17-4118-9c79-b7ebc81c726a">GetInterfaceCapability</a> method of <a href="https://msdn.microsoft.com/958bce42-4772-4706-8900-1f83c5d3d52b">IMbnInterface</a>.
+The <b>MBN_INTERFACE_CAPS</b> structure represents the interface capabilities.  This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getinterfacecapability">GetInterfaceCapability</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>.
 
 
 ## -struct-fields
@@ -59,17 +59,17 @@ The <b>MBN_INTERFACE_CAPS</b> structure represents the interface capabilities.  
 
 ### -field cellularClass
 
-An <a href="https://msdn.microsoft.com/2d75c20b-1ae4-4824-8918-41c20327a007">MBN_CELLULAR_CLASS</a> value that specifies the cellular technology used by the device.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_cellular_class">MBN_CELLULAR_CLASS</a> value that specifies the cellular technology used by the device.
 
 
 ### -field voiceClass
 
-An <a href="https://msdn.microsoft.com/d2654e97-4020-449f-9622-39392309d6f3">MBN_VOICE_CLASS</a> value that specifies   how voice calls are handled. 
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_voice_class">MBN_VOICE_CLASS</a> value that specifies   how voice calls are handled. 
 
 
 ### -field dataClass
 
-A bitwise OR combination of <a href="https://msdn.microsoft.com/798d5d72-9267-433f-b890-9302a0a600f2">MBN_DATA_CLASS</a> values that specifies which data services are supported.  For GSM devices, only the GSM-based data services can be present, that is, only GPRS, EDGE, UMTS, LTE, and HSDPA are valid values for GSM devices.
+A bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_data_class">MBN_DATA_CLASS</a> values that specifies which data services are supported.  For GSM devices, only the GSM-based data services can be present, that is, only GPRS, EDGE, UMTS, LTE, and HSDPA are valid values for GSM devices.
 
 For CDMA devices, only the CDMA-related data services will be present, that is, only 1xRTT, 1xEV-DO, and 1xEV-DO RevA are valid values for CDMA devices.  1xEV-DO RevB is reserved for future use.
 
@@ -83,9 +83,9 @@ Contains the name of the custom data class.  If the <b>MBN_DATA_CLASS_CUSTOM</b>
 
 ### -field gsmBandClass
 
-A bit field that specifies the frequency bands  supported by the GSM device.  <b>MBN_BAND_CLASS_I</b> through <b>MBN_BAND_CLASS_X</b> and <b>MBN_BAND_CLASS_CUSTOM</b>  are valid values.  These values are defined by <a href="https://msdn.microsoft.com/0ad757fd-583b-4163-af69-54a559a3dacc">MBN_BAND_CLASS</a>. If <b>gsmBandClass</b> is set to <b>MBN_BAND_CLASS_CUSTOM</b>, additional information about the band class appears in <b>customBandClass</b>.
+A bit field that specifies the frequency bands  supported by the GSM device.  <b>MBN_BAND_CLASS_I</b> through <b>MBN_BAND_CLASS_X</b> and <b>MBN_BAND_CLASS_CUSTOM</b>  are valid values.  These values are defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_band_class">MBN_BAND_CLASS</a>. If <b>gsmBandClass</b> is set to <b>MBN_BAND_CLASS_CUSTOM</b>, additional information about the band class appears in <b>customBandClass</b>.
 
-The following table provides additional information about  the <a href="https://msdn.microsoft.com/0ad757fd-583b-4163-af69-54a559a3dacc">MBN_BAND_CLASS</a> values. 
+The following table provides additional information about  the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_band_class">MBN_BAND_CLASS</a> values. 
 
 <table>
 <tr>
@@ -182,7 +182,7 @@ The following table provides additional information about  the <a href="https://
 
 ### -field cdmaBandClass
 
-A bit field that specifies the frequency bands supported by the CDMA device.  <b>MBN_BAND_CLASS_0</b> through <b>MBN_BAND_CLASS_XVII</b>, <b>MBN_BAND_CLASS_NONE</b>, and  <b>MBN_BAND_CLASS_CUSTOM</b> are valid values.  These values are defined by <a href="https://msdn.microsoft.com/0ad757fd-583b-4163-af69-54a559a3dacc">MBN_BAND_CLASS</a>.  If <b>cdmaBandClass</b> is set to <b>MBN_BAND_CLASS_CUSTOM</b>, additional information about the band class appears in <b>customBandClass</b>. 
+A bit field that specifies the frequency bands supported by the CDMA device.  <b>MBN_BAND_CLASS_0</b> through <b>MBN_BAND_CLASS_XVII</b>, <b>MBN_BAND_CLASS_NONE</b>, and  <b>MBN_BAND_CLASS_CUSTOM</b> are valid values.  These values are defined by <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_band_class">MBN_BAND_CLASS</a>.  If <b>cdmaBandClass</b> is set to <b>MBN_BAND_CLASS_CUSTOM</b>, additional information about the band class appears in <b>customBandClass</b>. 
 
 The following table provides additional information about MBN_BAND_CLASS values.
 
@@ -312,30 +312,30 @@ Contains the name of the custom band class.  If the <b>MBN_BAND_CLASS_CUSTOM</b>
 
 ### -field smsCaps
 
-A bitwise OR combination of <a href="https://msdn.microsoft.com/0fb78ef8-2f46-4bee-9340-68c5043bf9a4">MBN_SMS_CAPS</a> values that specifies the SMS capabilities. 
+A bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_caps">MBN_SMS_CAPS</a> values that specifies the SMS capabilities. 
 
 
 ### -field controlCaps
 
-A bitwise OR combination of <a href="https://msdn.microsoft.com/c4c4bb3b-76ce-4872-8ea1-d2839cbc9b1b">MBN_CTRL_CAPS</a> values that represents the Mobile Broadband control capabilities for this interface.
+A bitwise OR combination of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_ctrl_caps">MBN_CTRL_CAPS</a> values that represents the Mobile Broadband control capabilities for this interface.
 
 
 ### -field deviceID
 
-Contains the device ID.  For GSM devices, this must be the IMEI (up to 15 digits).  For CDMA devices, this must be the ESN (11 digits) / MEID (17 digits).  The maximum length of the string is <b>MBN_DEVICEID_LEN</b>.  For the definition of <b>MBN_DEVICEID_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the device ID.  For GSM devices, this must be the IMEI (up to 15 digits).  For CDMA devices, this must be the ESN (11 digits) / MEID (17 digits).  The maximum length of the string is <b>MBN_DEVICEID_LEN</b>.  For the definition of <b>MBN_DEVICEID_LEN</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field manufacturer
 
-Contains the name of the device manufacturer.  This string can be empty.  The maximum length of the string is <b>MBN_MANUFACTURER_LEN</b>.  For the definition of <b>MBN_MANUFACTURER_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the name of the device manufacturer.  This string can be empty.  The maximum length of the string is <b>MBN_MANUFACTURER_LEN</b>.  For the definition of <b>MBN_MANUFACTURER_LEN</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field model
 
-Contains the device model.  This string can be empty.  The maximum length of this string is <b>MBN_MODEL_LEN</b>.  For the definition of <b>MBN_MODEL_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the device model.  This string can be empty.  The maximum length of this string is <b>MBN_MODEL_LEN</b>.  For the definition of <b>MBN_MODEL_LEN</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field firmwareInfo
 
-Contains the firmware-specific information for this device.  This string can be empty.  The maximum length of the string is <b>MBN_FIRMWARE_LEN</b>.  For the definition of <b>MBN_FIRMWARE_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the firmware-specific information for this device.  This string can be empty.  The maximum length of the string is <b>MBN_FIRMWARE_LEN</b>.  For the definition of <b>MBN_FIRMWARE_LEN</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_interface_caps_constants">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 

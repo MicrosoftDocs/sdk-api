@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DsRoleFreeMemory</b> function frees memory allocated by the <a href="https://msdn.microsoft.com/d54876e3-a622-4b44-a597-db0f710f7758">DsRoleGetPrimaryDomainInformation</a> function.
+The <b>DsRoleFreeMemory</b> function frees memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function.
 
 
 ## -parameters
@@ -76,12 +76,12 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/7b519c81-5a6c-470a-a525-1894efd53305">Directory Service
+<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service
   Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d54876e3-a622-4b44-a597-db0f710f7758">DsRoleGetPrimaryDomainInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
  
 
  

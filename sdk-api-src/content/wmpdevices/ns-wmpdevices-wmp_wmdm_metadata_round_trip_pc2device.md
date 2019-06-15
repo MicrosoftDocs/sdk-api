@@ -72,7 +72,7 @@ The index of the first value to retrieve. This value is always zero for the firs
 
 
 
-<a href="https://msdn.microsoft.com/c1d84225-b5b1-4f9e-8694-a229653e53de">Windows Media Device Manager Device Extensions for Metadata Transfer</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMP/windows-media-device-manager-device-extensions-for-metadata-transfer">Windows Media Device Manager Device Extensions for Metadata Transfer</a>
  
 
  

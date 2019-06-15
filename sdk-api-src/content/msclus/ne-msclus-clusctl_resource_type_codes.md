@@ -50,8 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>
-<a href="https://msdn.microsoft.com/b8ab57bd-f83e-46c2-9c9c-02107c3881bf">control codes</a>.
+Enumerates <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/about-control-codes">control codes</a>.
 
 
 ## -enum-fields
@@ -62,222 +62,222 @@ Enumerates <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae46
 ### -field CLUSCTL_RESOURCE_TYPE_UNKNOWN
 
 See 
-       <a href="https://msdn.microsoft.com/ec23ea78-8cd5-4366-a65d-98eb46c90362">CLUSCTL_RESOURCE_TYPE_UNKNOWN</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-unknown">CLUSCTL_RESOURCE_TYPE_UNKNOWN</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS
 
 See 
-       <a href="https://msdn.microsoft.com/d968810f-cd95-43a8-8897-43ebf0bd6f08">CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-characteristics">CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_FLAGS
 
 See 
-       <a href="https://msdn.microsoft.com/a7ed60d5-cafe-4436-8cd3-e95eb89677a8">CLUSCTL_RESOURCE_TYPE_GET_FLAGS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-flags">CLUSCTL_RESOURCE_TYPE_GET_FLAGS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_CLASS_INFO
 
 See 
-       <a href="https://msdn.microsoft.com/db811070-9de6-4368-b9b5-ac17259d68a1">CLUSCTL_RESOURCE_TYPE_GET_CLASS_INFO</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-class-info">CLUSCTL_RESOURCE_TYPE_GET_CLASS_INFO</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES
 
 See 
-       <a href="https://msdn.microsoft.com/01a1b0bc-e831-4535-b782-2a24bd6adf22">CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-required-dependencies">CLUSCTL_RESOURCE_TYPE_GET_REQUIRED_DEPENDENCIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_ARB_TIMEOUT
 
 See 
-       <a href="https://msdn.microsoft.com/9c049905-64b4-4e0a-8b57-77b88c0057a5">CLUSCTL_RESOURCE_TYPE_GET_ARB_TIMEOUT</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-arb-timeout">CLUSCTL_RESOURCE_TYPE_GET_ARB_TIMEOUT</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_ENUM_COMMON_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/ca04e4c9-0fc8-48f5-a604-9d726f2bc102">CLUSCTL_RESOURCE_TYPE_ENUM_COMMON_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-enum-common-properties">CLUSCTL_RESOURCE_TYPE_ENUM_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_RO_COMMON_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/25db960a-c37f-429a-81e4-02ce64599f3c">CLUSCTL_RESOURCE_TYPE_GET_RO_COMMON_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-ro-common-properties">CLUSCTL_RESOURCE_TYPE_GET_RO_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_COMMON_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/6d628d94-5ab9-4300-9490-cfe9924ad62e">CLUSCTL_RESOURCE_TYPE_GET_COMMON_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-common-properties">CLUSCTL_RESOURCE_TYPE_GET_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_VALIDATE_COMMON_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/a9e117fa-82c6-42d1-a09e-270d307e2548">CLUSCTL_RESOURCE_TYPE_VALIDATE_COMMON_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-validate-common-properties">CLUSCTL_RESOURCE_TYPE_VALIDATE_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_SET_COMMON_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/001903bf-9bcf-483e-b280-41c745f52365">CLUSCTL_RESOURCE_TYPE_SET_COMMON_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-set-common-properties">CLUSCTL_RESOURCE_TYPE_SET_COMMON_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_COMMON_PROPERTY_FMTS
 
 See 
-       <a href="https://msdn.microsoft.com/8978a813-7bd0-4759-9aa2-f97fe63e1577">CLUSCTL_RESOURCE_TYPE_GET_COMMON_PROPERTY_FMTS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-common-property-fmts">CLUSCTL_RESOURCE_TYPE_GET_COMMON_PROPERTY_FMTS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_COMMON_RESOURCE_PROPERTY_FMTS
 
 See 
-       <a href="https://msdn.microsoft.com/cc4975c4-dec4-44d2-9cd3-f00dcd8720ed">CLUSCTL_RESOURCE_TYPE_GET_COMMON_RESOURCE_PROPERTY_FMTS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-common-resource-property-fmts">CLUSCTL_RESOURCE_TYPE_GET_COMMON_RESOURCE_PROPERTY_FMTS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_ENUM_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/44b4752f-69aa-4082-9912-02ffa7a18d0c">CLUSCTL_RESOURCE_TYPE_ENUM_PRIVATE_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-enum-private-properties">CLUSCTL_RESOURCE_TYPE_ENUM_PRIVATE_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_RO_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/483115b5-f1f9-4650-b54b-f32e45992196">CLUSCTL_RESOURCE_TYPE_GET_RO_PRIVATE_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-ro-private-properties">CLUSCTL_RESOURCE_TYPE_GET_RO_PRIVATE_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/28c5043e-259e-4bcb-aad1-92b8cc6b8845">CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-private-properties">CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_SET_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/24f76cb4-be47-4ac5-b96f-3fd9a63cf264">CLUSCTL_RESOURCE_TYPE_SET_PRIVATE_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-set-private-properties">CLUSCTL_RESOURCE_TYPE_SET_PRIVATE_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_VALIDATE_PRIVATE_PROPERTIES
 
 See 
-       <a href="https://msdn.microsoft.com/4d509cad-9fc8-40c4-a557-2ebb65855f78">CLUSCTL_RESOURCE_TYPE_VALIDATE_PRIVATE_PROPERTIES</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-validate-private-properties">CLUSCTL_RESOURCE_TYPE_VALIDATE_PRIVATE_PROPERTIES</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTY_FMTS
 
 See 
-       <a href="https://msdn.microsoft.com/ddc3d89d-83ca-4d6f-92f5-0ad3917fdd1b">CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTY_FMTS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-private-property-fmts">CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_PROPERTY_FMTS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_RESOURCE_PROPERTY_FMTS
 
 See 
-       <a href="https://msdn.microsoft.com/cc3dc11a-1019-4449-87da-45b1b254fec4">CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_RESOURCE_PROPERTY_FMTS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-private-resource-property-fmts">CLUSCTL_RESOURCE_TYPE_GET_PRIVATE_RESOURCE_PROPERTY_FMTS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_REGISTRY_CHECKPOINTS
 
 See 
-       <a href="https://msdn.microsoft.com/239c8d1b-014d-45c3-9aef-37c4f76f07dc">CLUSCTL_RESOURCE_TYPE_GET_REGISTRY_CHECKPOINTS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-registry-checkpoints">CLUSCTL_RESOURCE_TYPE_GET_REGISTRY_CHECKPOINTS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GET_CRYPTO_CHECKPOINTS
 
 See 
-       <a href="https://msdn.microsoft.com/2db7f65c-e5ad-4b59-bf52-2d4212d34e97">CLUSCTL_RESOURCE_TYPE_GET_CRYPTO_CHECKPOINTS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-crypto-checkpoints">CLUSCTL_RESOURCE_TYPE_GET_CRYPTO_CHECKPOINTS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS
 
 See 
-       <a href="https://msdn.microsoft.com/2df1eeb4-ecad-4065-866c-545476a43d9b">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_SYNC_CLUSDISK_DB
 
 See 
-       <a href="https://msdn.microsoft.com/1c2e6cad-b61b-44cf-ac09-0fb636fb3912">CLUSCTL_RESOURCE_TYPE_STORAGE_SYNC_CLUSDISK_DB</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-sync-clusdisk-db">CLUSCTL_RESOURCE_TYPE_STORAGE_SYNC_CLUSDISK_DB</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_NETNAME_VALIDATE_NETNAME
 
 See 
-       <a href="https://msdn.microsoft.com/86c606fc-0baa-460d-ac15-977cc5e55d00">CLUSCTL_RESOURCE_TYPE_NETNAME_VALIDATE_NETNAME</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-netname-validate-netname">CLUSCTL_RESOURCE_TYPE_NETNAME_VALIDATE_NETNAME</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_NETNAME_GET_OU_FOR_VCO
 
-See <a href="https://msdn.microsoft.com/D60F2375-3874-499E-AB14-C488D8F54A37">CLUSCTL_RESOURCE_TYPE_NETNAME_GET_OU_FOR_VCO</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-netname-get-ou-for-vco">CLUSCTL_RESOURCE_TYPE_NETNAME_GET_OU_FOR_VCO</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GEN_APP_VALIDATE_PATH
 
 See 
-       <a href="https://msdn.microsoft.com/5df5d085-56d1-4aa0-9912-f51a800578a7">CLUSCTL_RESOURCE_TYPE_GEN_APP_VALIDATE_PATH</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-gen-app-validate-path">CLUSCTL_RESOURCE_TYPE_GEN_APP_VALIDATE_PATH</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GEN_APP_VALIDATE_DIRECTORY
 
 See 
-       <a href="https://msdn.microsoft.com/0cc14f68-87e8-4c09-9e7b-0d6b9266af47">CLUSCTL_RESOURCE_TYPE_GEN_APP_VALIDATE_DIRECTORY</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-gen-app-validate-directory">CLUSCTL_RESOURCE_TYPE_GEN_APP_VALIDATE_DIRECTORY</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_GEN_SCRIPT_VALIDATE_PATH
 
 See 
-       <a href="https://msdn.microsoft.com/426df57d-18ec-4dd6-abb8-b45f6b2a9434">CLUSCTL_RESOURCE_TYPE_GEN_SCRIPT_VALIDATE_PATH</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-gen-script-validate-path">CLUSCTL_RESOURCE_TYPE_GEN_SCRIPT_VALIDATE_PATH</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_QUERY_DELETE
 
 See 
-       <a href="https://msdn.microsoft.com/aee8a682-4049-4b5a-80e3-2f51392439e5">CLUSCTL_RESOURCE_TYPE_QUERY_DELETE</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-query-delete">CLUSCTL_RESOURCE_TYPE_QUERY_DELETE</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS
 
 See 
-       <a href="https://msdn.microsoft.com/7960baea-64b5-481b-9237-044ffa7b3b0a">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-driveletters">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX
 
 See 
-       <a href="https://msdn.microsoft.com/e95877af-762c-4fce-95e5-cfa86cb27c9e">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks-ex">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_REMAP_DRIVELETTER
 
 See 
-       <a href="https://msdn.microsoft.com/31e45eef-d687-41c3-a0ac-ddd3877fc652">CLUSCTL_RESOURCE_TYPE_STORAGE_REMAP_DRIVELETTER</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-remap-driveletter">CLUSCTL_RESOURCE_TYPE_STORAGE_REMAP_DRIVELETTER</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DISKID
 
 See 
-       <a href="https://msdn.microsoft.com/f2e127d1-0358-4fdb-917a-05da5317ff0a">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DISKID</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-diskid">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DISKID</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_GET_RESOURCEID
 
 See 
-       <a href="https://msdn.microsoft.com/47EE15C6-E92D-4FEE-B2A2-5C94875B7D96">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_RESOURCEID</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-resourceid">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_RESOURCEID</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_IS_CLUSTERABLE
 
 See 
-       <a href="https://msdn.microsoft.com/8f4dd033-bfe5-4af3-8f21-2a0c60a8a031">CLUSCTL_RESOURCE_TYPE_STORAGE_IS_CLUSTERABLE</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-is-clusterable">CLUSCTL_RESOURCE_TYPE_STORAGE_IS_CLUSTERABLE</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_REMOVE_VM_OWNERSHIP
 
 See 
-       <a href="https://msdn.microsoft.com/47c000b0-804e-481d-b646-98e60057028d">CLUSCTL_RESOURCE_TYPE_STORAGE_REMOVE_VM_OWNERSHIP</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-remove-vm-ownership">CLUSCTL_RESOURCE_TYPE_STORAGE_REMOVE_VM_OWNERSHIP</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_IS_CSV_FILE
@@ -286,60 +286,60 @@ See
 ### -field CLUSCTL_RESOURCE_TYPE_WITNESS_VALIDATE_PATH
 
 See 
-       <a href="https://msdn.microsoft.com/27bd42de-1df9-4b8c-be97-c7496c787600">CLUSCTL_RESOURCE_TYPE_WITNESS_VALIDATE_PATH</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-witness-validate-path">CLUSCTL_RESOURCE_TYPE_WITNESS_VALIDATE_PATH</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_INSTALL_NODE
 
 See 
-       <a href="https://msdn.microsoft.com/7239d38b-10e0-41f0-9024-4db3479bf0e5">CLUSCTL_RESOURCE_TYPE_INSTALL_NODE</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-install-node">CLUSCTL_RESOURCE_TYPE_INSTALL_NODE</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_EVICT_NODE
 
 See 
-       <a href="https://msdn.microsoft.com/e6d83f15-49de-4561-abbe-cba206502405">CLUSCTL_RESOURCE_TYPE_EVICT_NODE</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-evict-node">CLUSCTL_RESOURCE_TYPE_EVICT_NODE</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_CLUSTER_VERSION_CHANGED
 
 See 
-       <a href="https://msdn.microsoft.com/33596935-6834-4910-ac5b-2b45255dfb9f">CLUSCTL_RESOURCE_TYPE_CLUSTER_VERSION_CHANGED</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-cluster-version-changed">CLUSCTL_RESOURCE_TYPE_CLUSTER_VERSION_CHANGED</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_FIXUP_ON_UPGRADE
 
 See 
-       <a href="https://msdn.microsoft.com/22235f19-c1d0-4211-a008-710622d5ea68">CLUSCTL_RESOURCE_TYPE_FIXUP_ON_UPGRADE</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-fixup-on-upgrade">CLUSCTL_RESOURCE_TYPE_FIXUP_ON_UPGRADE</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1
 
 See 
-       <a href="https://msdn.microsoft.com/3a66a48c-ddd3-464c-8254-bf842dd174b2">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-starting-phase1">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2
 
 See 
-       <a href="https://msdn.microsoft.com/5187e72c-2838-487b-a897-0b4f99f6f9df">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-starting-phase2">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_HOLD_IO
 
 See 
-       <a href="https://msdn.microsoft.com/9c54fa2c-f7b6-4900-87c2-8c91bc106887">CLUSCTL_RESOURCE_TYPE_HOLD_IO</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-hold-io">CLUSCTL_RESOURCE_TYPE_HOLD_IO</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_RESUME_IO
 
 See 
-       <a href="https://msdn.microsoft.com/2f85bcae-8e2c-4157-a00b-74a7a0509fd3">CLUSCTL_RESOURCE_TYPE_RESUME_IO</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-resume-io">CLUSCTL_RESOURCE_TYPE_RESUME_IO</a>.
 
 
 ### -field CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT
 
-See <a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks-ex2-int">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INT</a>.
 
 <b>Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2012 R2.
 
@@ -348,7 +348,7 @@ See <a href="https://msdn.microsoft.com/F3FF3348-4F75-4E7D-9C19-13A641B0E8E1">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_LOGDISKS
 
-See <a href="https://msdn.microsoft.com/C0D7B513-27F5-4BAC-81E2-6B8290DBAAB9">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_LOGDISKS</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-eligible-logdisks">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_LOGDISKS</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -357,7 +357,7 @@ See <a href="https://msdn.microsoft.com/C0D7B513-27F5-4BAC-81E2-6B8290DBAAB9">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_TARGET_DATADISKS
 
-See <a href="https://msdn.microsoft.com/EB6F950D-2484-41A8-98E1-5CBFBC0E7EE8">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_TARGET_DATADISKS</a>
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-eligible-target-datadisks">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_TARGET_DATADISKS</a>
 
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
@@ -367,7 +367,7 @@ See <a href="https://msdn.microsoft.com/EB6F950D-2484-41A8-98E1-5CBFBC0E7EE8">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_SOURCE_DATADISKS
 
-See <a href="https://msdn.microsoft.com/2698078B-05C3-4AC7-ABFA-4A3A20CB0BD3">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_SOURCE_DATADISKS</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-eligible-source-datadisks">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_ELIGIBLE_SOURCE_DATADISKS</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -376,7 +376,7 @@ See <a href="https://msdn.microsoft.com/2698078B-05C3-4AC7-ABFA-4A3A20CB0BD3">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_DISKS
 
-See <a href="https://msdn.microsoft.com/7E3B3EA0-0058-4799-AC98-3DBC05807F80">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_DISKS</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-replicated-disks">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_DISKS</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -385,7 +385,7 @@ See <a href="https://msdn.microsoft.com/7E3B3EA0-0058-4799-AC98-3DBC05807F80">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICA_VOLUMES
 
-See <a href="https://msdn.microsoft.com/F1D2A0CD-EB89-40C3-AFF2-56854067A3A6">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICA_VOLUMES</a>
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-replica-volumes">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICA_VOLUMES</a>
 
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
@@ -395,7 +395,7 @@ See <a href="https://msdn.microsoft.com/F1D2A0CD-EB89-40C3-AFF2-56854067A3A6">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_LOG_VOLUME
 
-See <a href="https://msdn.microsoft.com/7A21CF73-28E8-47CC-BFE2-3A6F5C83A7AF">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_LOG_VOLUME</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-log-volume">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_LOG_VOLUME</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -404,7 +404,7 @@ See <a href="https://msdn.microsoft.com/7A21CF73-28E8-47CC-BFE2-3A6F5C83A7AF">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_RESOURCE_GROUP
 
-See <a href="https://msdn.microsoft.com/5C10C61D-5DCC-4F7D-9E0D-B21F4D173C98">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_RESOURCE_GROUP</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-resource-group">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_RESOURCE_GROUP</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -413,7 +413,7 @@ See <a href="https://msdn.microsoft.com/5C10C61D-5DCC-4F7D-9E0D-B21F4D173C98">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_PARTITION_INFO
 
-See <a href="https://msdn.microsoft.com/24898C00-35BB-431E-A510-EDBF4EA36D51">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_PARTITION_INFO</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-replicated-partition-info">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_REPLICATED_PARTITION_INFO</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -422,7 +422,7 @@ See <a href="https://msdn.microsoft.com/24898C00-35BB-431E-A510-EDBF4EA36D51">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_LOG_INFO
 
-See <a href="https://msdn.microsoft.com/87361C2D-BAA4-4058-964D-8466AD875F9B">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_LOG_INFO</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-replication-get-log-info">CLUSCTL_RESOURCE_TYPE_REPLICATION_GET_LOG_INFO</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -431,7 +431,7 @@ See <a href="https://msdn.microsoft.com/87361C2D-BAA4-4058-964D-8466AD875F9B">CL
 
 ### -field CLUSCTL_CLOUD_WITNESS_RESOURCE_TYPE_VALIDATE_CREDENTIALS
 
-See <a href="https://msdn.microsoft.com/CB2F7852-24E9-4460-B794-67DDEE17226F">CLUSCTL_CLOUD_WITNESS_RESOURCE_TYPE_VALIDATE_CREDENTIALS</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cloud-witness-resource-type-validate-credentials">CLUSCTL_CLOUD_WITNESS_RESOURCE_TYPE_VALIDATE_CREDENTIALS</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -440,7 +440,7 @@ See <a href="https://msdn.microsoft.com/CB2F7852-24E9-4460-B794-67DDEE17226F">CL
 
 ### -field CLUSCTL_CLOUD_WITNESS_RESOURCE_TYPE_VALIDATE_CREDENTIALS_WITH_KEY
 
-See <a href="https://msdn.microsoft.com/F7286058-6CA2-40DE-A2F6-DB82F98F13FE">CLUSCTL_CLOUD_WITNESS_RESOURCE_TYPE_VALIDATE_CREDENTIALS_WITH_KEY</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-cloud-witness-resource-type-validate-credentials-with-key">CLUSCTL_CLOUD_WITNESS_RESOURCE_TYPE_VALIDATE_CREDENTIALS_WITH_KEY</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -449,7 +449,7 @@ See <a href="https://msdn.microsoft.com/F7286058-6CA2-40DE-A2F6-DB82F98F13FE">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_PREPARE_UPGRADE
 
-See <a href="https://msdn.microsoft.com/66DA4AD4-F7DF-41B4-AFBC-F69822F69730">CLUSCTL_RESOURCE_TYPE_PREPARE_UPGRADE</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-prepare-upgrade">CLUSCTL_RESOURCE_TYPE_PREPARE_UPGRADE</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -458,7 +458,7 @@ See <a href="https://msdn.microsoft.com/66DA4AD4-F7DF-41B4-AFBC-F69822F69730">CL
 
 ### -field CLUSCTL_RESOURCE_TYPE_UPGRADE_COMPLETED
 
-See <a href="https://msdn.microsoft.com/11545278-86B8-4BEF-8FAB-07E4C85AE7CA">CLUSCTL_RESOURCE_TYPE_UPGRADE_COMPLETED</a>.
+See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-upgrade-completed">CLUSCTL_RESOURCE_TYPE_UPGRADE_COMPLETED</a>.
 
 <b>Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  </b>This control code is not available before Windows Server 2016.
 
@@ -475,11 +475,11 @@ See <a href="https://msdn.microsoft.com/11545278-86B8-4BEF-8FAB-07E4C85AE7CA">CL
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/a854829d-ed05-40a0-b7c8-c3e5ab888220">Resource Type Control Codes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-control-codes">Resource Type Control Codes</a>
  
 
  

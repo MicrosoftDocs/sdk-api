@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the flags on the current window. Flags are one of the values of the enumeration type <a href="https://msdn.microsoft.com/en-us/library/Aa373866(v=VS.85).aspx">RDPSRAPI_WND_FLAGS</a>.
+Returns the flags on the current window. Flags are one of the values of the enumeration type <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0007">RDPSRAPI_WND_FLAGS</a>.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/85c8263b-e796-4748-b8e5-6315e5937861">IRDPSRAPIWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
  
 
  

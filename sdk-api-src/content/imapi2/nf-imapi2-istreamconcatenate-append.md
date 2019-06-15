@@ -96,9 +96,9 @@ Value: 0x80004001
 
 
 
-You must call the <a href="https://msdn.microsoft.com/62db148e-926d-47b3-a0f6-945730177184">IStreamConcatenate::Initialize</a> or <a href="https://msdn.microsoft.com/826b3157-4cab-4f18-87f2-6635911c03f0">IStreamConcatenate::Initialize2</a> method prior to calling this method.
+You must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">IStreamConcatenate::Initialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">IStreamConcatenate::Initialize2</a> method prior to calling this method.
 
-To append more than one stream to this stream, call the <a href="https://msdn.microsoft.com/75e7f4cd-f3c8-494d-b049-7fe32c486659">IStreamConcatenate::Append2</a> method.
+To append more than one stream to this stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">IStreamConcatenate::Append2</a> method.
 
 
 
@@ -108,11 +108,11 @@ To append more than one stream to this stream, call the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/48b786ef-a1b6-4dcf-9329-c659f15185e1">IStreamConcatenate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
 
 
 
-<a href="https://msdn.microsoft.com/75e7f4cd-f3c8-494d-b049-7fe32c486659">IStreamConcatenate::Append2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">IStreamConcatenate::Append2</a>
  
 
  

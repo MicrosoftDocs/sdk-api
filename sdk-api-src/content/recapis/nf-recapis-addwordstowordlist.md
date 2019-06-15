@@ -136,11 +136,11 @@ The pointer to the word list is incorrect.
 
 
 
-<a href="https://msdn.microsoft.com/b406a646-ab98-4852-af6d-9f4864ad8cf9">MakeWordList Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-makewordlist">MakeWordList Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/9e067c22-772d-48d2-baae-abc8067efb09">SetWordList Function</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setwordlist">SetWordList Function</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>DRAWTEXTPARAMS</b> structure contains extended formatting options for the <a href="https://msdn.microsoft.com/77b9973b-77f1-4508-a021-52d61d576c23">DrawTextEx</a> function.
+The <b>DRAWTEXTPARAMS</b> structure contains extended formatting options for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
 
 
 
@@ -82,7 +82,7 @@ The right margin, in units equal to the average character width.
 
 ### -field uiLengthDrawn
 
-Receives the number of characters processed by <a href="https://msdn.microsoft.com/77b9973b-77f1-4508-a021-52d61d576c23">DrawTextEx</a>, including white-space characters. The number can be the <a href="https://msdn.microsoft.com/695fd0f9-abd4-4666-acad-2c409624ddc6">length of the string</a> or the index of the first line that falls below the drawing area. Note that <b>DrawTextEx</b> always processes the entire string if the DT_NOCLIP formatting flag is specified.
+Receives the number of characters processed by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a>, including white-space characters. The number can be the <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> or the index of the first line that falls below the drawing area. Note that <b>DrawTextEx</b> always processes the entire string if the DT_NOCLIP formatting flag is specified.
 
 
 ## -see-also
@@ -90,15 +90,15 @@ Receives the number of characters processed by <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/77b9973b-77f1-4508-a021-52d61d576c23">DrawTextEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
  
 
  

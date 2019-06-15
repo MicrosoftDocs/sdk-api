@@ -52,7 +52,7 @@ Requests an opportunistic lock (oplock) on a file and acknowledges that an oploc
     occurred.
 
 To perform this operation, call the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function using the following 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function using the following 
     parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -155,16 +155,16 @@ This operation is used only by client applications requesting an opportunistic l
 
 The <b>FSCTL_REQUEST_OPLOCK</b> control code provides 
     more efficient functionality  than the following related control codes: 
-    <a href="https://msdn.microsoft.com/625830b1-d99a-49cb-b072-303f076d4d3e">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>, 
-    <a href="https://msdn.microsoft.com/e7a36484-2ebc-4c91-b11f-e4ffb804dfa5">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>, 
-    <a href="https://msdn.microsoft.com/112c5d30-2cfa-4a63-87f8-8d2e80ea33b0">FSCTL_REQUEST_FILTER_OPLOCK</a>, and 
-    <a href="https://msdn.microsoft.com/d52e5a33-5ef7-4a07-babb-3bfac5dd88e8">FSCTL_REQUEST_BATCH_OPLOCK</a>. Requesting 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_1">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_2">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_filter_oplock">FSCTL_REQUEST_FILTER_OPLOCK</a>, and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_batch_oplock">FSCTL_REQUEST_BATCH_OPLOCK</a>. Requesting 
     different oplock levels can be performed repeatedly on the same handle without closing and reopening the handle 
     when using <b>FSCTL_REQUEST_OPLOCK</b>; the other control 
     codes require that the handle be closed and then reopened with 
-    <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> to make such a change. This is accomplished by 
+    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> to make such a change. This is accomplished by 
     manipulating the <b>RequestedOplockLevel</b> member of the 
-    <a href="https://msdn.microsoft.com/ac19fbd3-a967-4ac8-9260-93e07b5008ac">REQUEST_OPLOCK_INPUT_BUFFER</a> structure when 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure when 
     re-issuing the <b>FSCTL_REQUEST_OPLOCK</b> control 
     code.
 
@@ -180,21 +180,21 @@ The following table summarizes how the caching ability of oplock types available
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/d52e5a33-5ef7-4a07-babb-3bfac5dd88e8">FSCTL_REQUEST_BATCH_OPLOCK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_batch_oplock">FSCTL_REQUEST_BATCH_OPLOCK</a>
 </td>
 <td><code>OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_WRITE | OPLOCK_LEVEL_CACHE_HANDLE</code></td>
 <td>RWH</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/625830b1-d99a-49cb-b072-303f076d4d3e">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_1">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
 </td>
 <td><code>OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_WRITE </code></td>
 <td>RW</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e7a36484-2ebc-4c91-b11f-e4ffb804dfa5">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock_level_2">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
 </td>
 <td><code>OPLOCK_LEVEL_CACHE_READ</code></td>
 <td>R</td>
@@ -206,7 +206,7 @@ Using the <b>FSCTL_REQUEST_OPLOCK</b> control code with
      the <b>RequestedOplockLevel</b> member set to 
      <code>OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_HANDLE</code> grants an oplock of 
      type <i>RH</i>. An RH oplock is similar to the filter oplock granted by the 
-     <a href="https://msdn.microsoft.com/112c5d30-2cfa-4a63-87f8-8d2e80ea33b0">FSCTL_REQUEST_FILTER_OPLOCK</a> control code. 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_filter_oplock">FSCTL_REQUEST_FILTER_OPLOCK</a> control code. 
      However, note that the filter oplock allows only one client to hold an oplock on a file at a time; 
      <b>FSCTL_REQUEST_OPLOCK</b> allows multiple clients at a 
      time to have the <i>RH</i> lock on a file. Another difference is that 
@@ -214,13 +214,13 @@ Using the <b>FSCTL_REQUEST_OPLOCK</b> control code with
      oplock break acknowledgment before writes can occur, where 
      <b>FSCTL_REQUEST_OPLOCK</b> does not because the oplock 
      break notification is advisory-only and writes are allowed to go ahead without acknowledgment. For more 
-     information, see <a href="ifsk.breaking_oplocks">Breaking Oplocks</a>.
+     information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/breaking-oplocks">Breaking Oplocks</a>.
 
 An <b>FSCTL_REQUEST_OPLOCK</b> control code fails if the 
     file is opened in non-overlapped (synchronous) mode.
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> topic.
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -300,23 +300,23 @@ An RH oplock on a directory breaks to R when the directory itself is renamed or 
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a>
 
 
 
-<a href="ifsk.oplock_semantics">Oplock Semantics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4c2f5f0-a29b-4598-a49b-da99e93d2991">Opportunistic Locks</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks">Opportunistic Locks</a>
  
 
  

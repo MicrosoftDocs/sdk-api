@@ -59,28 +59,28 @@ Describes depth-stencil state.
 
 ### -field DepthEnable
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A Boolean value that enables depth testing.  The default value is <b>TRUE</b>.
 
 
 ### -field DepthWriteMask
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205038(v=VS.85).aspx">D3D10_DEPTH_WRITE_MASK</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_depth_write_mask">D3D10_DEPTH_WRITE_MASK</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb205038(v=VS.85).aspx">D3D10_DEPTH_WRITE_MASK</a> enumerated type that identifies a portion of the depth-stencil buffer that can be modified by depth data.  The default value is <b>D3D10_DEPTH_WRITE_MASK_ALL</b>.
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_depth_write_mask">D3D10_DEPTH_WRITE_MASK</a> enumerated type that identifies a portion of the depth-stencil buffer that can be modified by depth data.  The default value is <b>D3D10_DEPTH_WRITE_MASK_ALL</b>.
 
 
 ### -field DepthFunc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204902(v=VS.85).aspx">D3D10_COMPARISON_FUNC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_comparison_func">D3D10_COMPARISON_FUNC</a></b>
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb204902(v=VS.85).aspx">D3D10_COMPARISON_FUNC</a> enumerated type that defines how depth data is compared against existing depth data.  The default value is <b>D3D10_COMPARISON_LESS</b>
+A member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_comparison_func">D3D10_COMPARISON_FUNC</a> enumerated type that defines how depth data is compared against existing depth data.  The default value is <b>D3D10_COMPARISON_LESS</b>
 
 
 ### -field StencilEnable
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A Boolean value that enables stencil testing.  The default value is <b>FALSE</b>.
 
@@ -101,23 +101,23 @@ A value that identifies a portion of the depth-stencil buffer for writing stenci
 
 ### -field FrontFace
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205035(v=VS.85).aspx">D3D10_DEPTH_STENCILOP_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_depth_stencilop_desc">D3D10_DEPTH_STENCILOP_DESC</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb205035(v=VS.85).aspx">D3D10_DEPTH_STENCILOP_DESC</a> structure that identifies how to use the results of the depth test and the stencil test for pixels whose surface normal is facing toward the camera.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_depth_stencilop_desc">D3D10_DEPTH_STENCILOP_DESC</a> structure that identifies how to use the results of the depth test and the stencil test for pixels whose surface normal is facing toward the camera.
 
 
 ### -field BackFace
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205035(v=VS.85).aspx">D3D10_DEPTH_STENCILOP_DESC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_depth_stencilop_desc">D3D10_DEPTH_STENCILOP_DESC</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb205035(v=VS.85).aspx">D3D10_DEPTH_STENCILOP_DESC</a> structure that identifies how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_depth_stencilop_desc">D3D10_DEPTH_STENCILOP_DESC</a> structure that identifies how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera.
 
 
 ## -remarks
 
 
 
-Depth-stencil state controls how <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> testing is performed by the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger</a> stage.
+Depth-stencil state controls how <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil</a> testing is performed by the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger</a> stage.
 
 The formats that support stenciling are DXGI_FORMAT_D24_UNORM_S8_UINT and DXGI_FORMAT_D32_FLOAT_S8X24_UINT.
 
@@ -129,7 +129,7 @@ The formats that support stenciling are DXGI_FORMAT_D24_UNORM_S8_UINT and DXGI_F
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-structures">Core Structures</a>
  
 
  

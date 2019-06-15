@@ -87,11 +87,11 @@ A flag to indicate whether the cloud backup provider can communicate with a remo
 
 
 
-<a href="https://msdn.microsoft.com/C1AC87C6-37B7-4675-AB51-45C292239EB5">Cloud  Backup Provider API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-structures">Cloud  Backup Provider API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330">RegisterOnlineBackupWithWindowsServerBackup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/nf-wsbonline-registeronlinebackupwithwindowsserverbackup">RegisterOnlineBackupWithWindowsServerBackup</a>
  
 
  

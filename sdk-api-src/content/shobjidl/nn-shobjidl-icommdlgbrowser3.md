@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the capabilities of <a href="https://msdn.microsoft.com/07a416a2-340d-4308-a6f3-cf6f19f3c906">ICommDlgBrowser2</a>, and used by the common file dialog boxes when they host a Shell browser.
+Extends the capabilities of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>, and used by the common file dialog boxes when they host a Shell browser.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser3</b> interface inherits from <a href="https://msdn.microsoft.com/07a416a2-340d-4308-a6f3-cf6f19f3c906">ICommDlgBrowser2</a>. <b>ICommDlgBrowser3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>. <b>ICommDlgBrowser3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICommDlgBrowser3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/038f3478-82d0-4023-a787-b7a2c66ceb27">GetCurrentFilter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-getcurrentfilter">GetCurrentFilter</a>
 </td>
 <td align="left" width="63%">
 Gets the current filter as a Unicode string.
@@ -78,19 +78,19 @@ Gets the current filter as a Unicode string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19cd3dc6-14e4-494d-b4d7-2c9d4fd0fe55">OnColumnClicked</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-oncolumnclicked">OnColumnClicked</a>
 </td>
 <td align="left" width="63%">
-Called after a specified column is clicked in the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> interface.
+Called after a specified column is clicked in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1506f553-e0b0-4d6b-9d63-15f3a2d38112">OnPreViewCreated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icommdlgbrowser3-onpreviewcreated">OnPreViewCreated</a>
 </td>
 <td align="left" width="63%">
-Called after a specified preview is created in the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> interface.
+Called after a specified preview is created in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
 
 </td>
 </tr>
@@ -101,9 +101,9 @@ Called after a specified preview is created in the <a href="https://msdn.microso
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/bf89ac6e-6c2e-4944-885c-9ab62f58fe71">ICommDlgBrowser</a> and <a href="https://msdn.microsoft.com/07a416a2-340d-4308-a6f3-cf6f19f3c906">ICommDlgBrowser2</a> interfaces, from which it inherits.
+This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a> interfaces, from which it inherits.
 
-A pointer to <b>ICommDlgBrowser3</b> can be obtained by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the <a href="https://msdn.microsoft.com/07a416a2-340d-4308-a6f3-cf6f19f3c906">ICommDlgBrowser2</a> object.
+A pointer to <b>ICommDlgBrowser3</b> can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a> object.
 
 
 

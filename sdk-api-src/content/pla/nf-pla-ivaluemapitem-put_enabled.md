@@ -73,7 +73,7 @@ The type of the item determines whether more than one item in the value map coll
 
 
 
-<a href="https://msdn.microsoft.com/5fab2a62-d974-49f7-ac81-c704d9d8624c">IValueMapItem</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
  
 
  

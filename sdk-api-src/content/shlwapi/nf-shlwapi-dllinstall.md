@@ -88,7 +88,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function may be implemented and exported by name by a DLL for use during application installation or setup. It is invoked by <b>regsvr32</b> to allow the DLL to perform tasks such as adding information to the registry.
 
-<b>DllInstall</b> is used only for application installation and setup. It should not be called by an application. It is similar in purpose to <a href="https://msdn.microsoft.com/4442206b-b2ad-47d7-8add-18002c44c5a2">DllRegisterServer</a> or <a href="https://msdn.microsoft.com/b71137a7-284e-4521-a3b2-9dad9c9d3c54">DllUnregisterServer</a>. Unlike these functions, <b>DllInstall</b> takes an input string which can be used to specify a variety of different actions. This allows a DLL to be installed in more than one way, based on any criteria that is appropriate.
+<b>DllInstall</b> is used only for application installation and setup. It should not be called by an application. It is similar in purpose to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a>. Unlike these functions, <b>DllInstall</b> takes an input string which can be used to specify a variety of different actions. This allows a DLL to be installed in more than one way, based on any criteria that is appropriate.
 
 To use <b>DllInstall</b> with <b>regsvr32</b>, add a "/i" flag followed by a colon (:) and a string. The string will be passed to <b>DllInstall</b> as the <i>pszCmdLine</i> parameter. If you omit the colon and string, <i>pszCmdLine</i> will be set to <b>NULL</b>. The following example would be used to install a DLL.
 
@@ -98,7 +98,7 @@ To use <b>DllInstall</b> with <b>regsvr32</b>, add a "/i" flag followed by a col
 
 <b>regsvr32 /u /i:"Install_1" dllname.dll</b>
 
-With both of the above examples, <a href="https://msdn.microsoft.com/4442206b-b2ad-47d7-8add-18002c44c5a2">DllRegisterServer</a> or <a href="https://msdn.microsoft.com/b71137a7-284e-4521-a3b2-9dad9c9d3c54">DllUnregisterServer</a> will also be called. To call <b>DllInstall</b> only, add a "/n" flag.
+With both of the above examples, <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a> will also be called. To call <b>DllInstall</b> only, add a "/n" flag.
 
 <b>regsvr32 /n /i:"Install_1" dllname.dll</b>
 

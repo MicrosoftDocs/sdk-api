@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Returns a Boolean value that  indicates if there were any transactions  active on the associated volume when the snapshot was taken.  This call is only valid for read-only snapshot volumes.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -150,7 +150,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 <b>FSCTL_TXFS_TRANSACTION_ACTIVE</b> is a synchronous operation.
 
-If the <b>TransactionsActiveAtSnapshot</b> member of the <a href="https://msdn.microsoft.com/72ab7652-7841-4195-a109-1caf65b629f1">TXFS_TRANSACTION_ACTIVE_INFO</a> structure is <b>TRUE</b>, you must remount the snapshot read/write, and run your recovery operations.
+If the <b>TransactionsActiveAtSnapshot</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_transaction_active_info">TXFS_TRANSACTION_ACTIVE_INFO</a> structure is <b>TRUE</b>, you must remount the snapshot read/write, and run your recovery operations.
 
 <b>ReFS:  </b>This code is not supported.
 
@@ -162,15 +162,15 @@ If the <b>TransactionsActiveAtSnapshot</b> member of the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/72ab7652-7841-4195-a109-1caf65b629f1">TXFS_TRANSACTION_ACTIVE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_transaction_active_info">TXFS_TRANSACTION_ACTIVE_INFO</a>
  
 
  

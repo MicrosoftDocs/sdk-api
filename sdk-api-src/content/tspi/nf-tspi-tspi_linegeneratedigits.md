@@ -66,13 +66,13 @@ The handle to the call on which digit generation is to be done.
 ### -param dwEndToEndID
 
 This unique request identifier should be stored by the service provider and passed back as <i>dwParam2</i> to the 
-<a href="https://msdn.microsoft.com/11ae7e78-8a10-4757-886b-c0aa47c4d55b">LINEEVENT</a> procedure when the digit generation is completed.
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a> procedure when the digit generation is completed.
 
 
 ### -param dwDigitMode
 
 The format to be used for signaling these digits. This parameter uses one and only one of the 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ constants</a>.
 
 
 ### -param lpszDigits
@@ -83,7 +83,7 @@ A pointer to a <b>null</b>-terminated Unicode character buffer that contains the
 ### -param dwDuration
 
 Specifies both the duration in milliseconds of DTMF digits and pulse and DTMF inter-digit spacing. A value of 0 uses a default value. The <i>dwDuration</i> parameter must be within the range specified by <b>MinDialParams</b> to <b>MaxDialParams</b> in 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>. If out of range, the actual value is set by the service provider to the nearest value in the range. This parameter is not validated by TAPI when this function is called.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. If out of range, the actual value is set by the service provider to the nearest value in the range. This parameter is not validated by TAPI when this function is called.
 
 
 ## -returns
@@ -107,11 +107,11 @@ The
 <b>TSPI_lineGenerateDigits</b> function is considered to have completed successfully when the digit generation is successfully initiated; not when all digits are generated.
 
 After all digits in <i>lpsDigits</i> are generated, or after digit generation is aborted or canceled, a 
-<a href="https://msdn.microsoft.com/39b2d516-299b-42e7-99bb-0c7797d0acb8">LINE_GENERATE</a> message is sent to TAPI.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725230(v=vs.85)">LINE_GENERATE</a> message is sent to TAPI.
 
 <div class="alert"><b>Note</b>  Only one inband generation request (tone generation or digit generation) is allowed to be in progress per call. This implies that if digit generation is currently in progress on a call, invoking either 
 <b>TSPI_lineGenerateDigits</b> or 
-<a href="https://msdn.microsoft.com/195d0974-ff0f-4274-9278-5276512fcba4">TSPI_lineGenerateTone</a> cancels the digit generation. The service provider must terminate any digit generation in progress when a subsequent 
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a> cancels the digit generation. The service provider must terminate any digit generation in progress when a subsequent 
 <b>TSPI_lineGenerateDigits</b> or 
 <b>TSPI_lineGenerateTone</b> is invoked. Invoking 
 <b>TSPI_lineGenerateDigits</b> with <i>lpszDigits</i> set to <b>NULL</b> cancels any current digit (or tone) generation.</div>
@@ -127,23 +127,23 @@ The corresponding function at the TAPI level does not include the formal paramet
 
 
 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/11ae7e78-8a10-4757-886b-c0aa47c4d55b">LINEEVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-lineevent">LINEEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/39b2d516-299b-42e7-99bb-0c7797d0acb8">LINE_GENERATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725230(v=vs.85)">LINE_GENERATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/195d0974-ff0f-4274-9278-5276512fcba4">TSPI_lineGenerateTone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegeneratetone">TSPI_lineGenerateTone</a>
  
 
  

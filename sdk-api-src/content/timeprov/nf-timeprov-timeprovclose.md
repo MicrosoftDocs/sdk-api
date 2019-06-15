@@ -60,7 +60,7 @@ A  callback function that is called by the time provider manager to shut down th
 ### -param hTimeProv [in]
 
 A handle to the time provider. The 
-<a href="https://msdn.microsoft.com/cf4f8d00-4c6f-4036-a179-444ff7505ab4">TimeProvOpen</a> function receives this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function receives this handle.
 
 
 ## -returns
@@ -81,7 +81,7 @@ The provider should clean up its resources and terminate its operation. When the
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/6be08c49-be68-4b75-b740-fc1d5a2ff592">Sample Time Provider</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
 
 <div class="code"></div>
 
@@ -92,7 +92,7 @@ For an example, see <a href="https://msdn.microsoft.com/6be08c49-be68-4b75-b740-
 
 
 
-<a href="https://msdn.microsoft.com/cf4f8d00-4c6f-4036-a179-444ff7505ab4">TimeProvOpen</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
  
 
  

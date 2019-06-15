@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPTNET_URL_CACHE_PRE_FETCH_INFO</b> structure contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pPreFetchInfo</b> member of the <a href="https://msdn.microsoft.com/33ea51e7-c3e3-4cf8-ade0-099cb8b2e651">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="https://msdn.microsoft.com/2e205f97-be9b-4358-ba22-d475b6a250b7">CryptRetrieveObjectByUrl</a> function as the <i>pAuxInfo</i> parameter.
+The <b>CRYPTNET_URL_CACHE_PRE_FETCH_INFO</b> structure contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pPreFetchInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function as the <i>pAuxInfo</i> parameter.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ Prefetch information does not yet exist.
 </dl>
 </td>
 <td width="60%">
-The object is a memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>.
+The object is a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ The object is a memory <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf
 </dl>
 </td>
 <td width="60%">
-The object is a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL).
+The object is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ The object is a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568
 </dl>
 </td>
 <td width="60%">
-The object is an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response.
+The object is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response.
 
 </td>
 </tr>
@@ -204,21 +204,21 @@ This parameter is not used. It must be zero.
 
 ### -field ThisUpdateTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates when the CRL was published. For an OCSP response, this indicates when the indicated status is known to be correct.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates when the CRL was published. For an OCSP response, this indicates when the indicated status is known to be correct.
 
 
 ### -field NextUpdateTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates the next scheduled update for the CRL. For an OCSP response, this indicates when newer information will be available for the certificate status.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains a date and time whose meaning depends on <b>dwObjectType</b>. For a CRL, this indicates the next scheduled update for the CRL. For an OCSP response, this indicates when newer information will be available for the certificate status.
 
 This is effectively an expiry date for the object. A value of zero indicates that the information has no expiration date.
 
 
 ### -field PublishTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the time interval before expiry that a new CRL will be published. This value can be zero.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time interval before expiry that a new CRL will be published. This value can be zero.
 
-This value is based on a nonstandard CRL extension with the following <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+This value is based on a nonstandard CRL extension with the following <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 <table>
 <tr>

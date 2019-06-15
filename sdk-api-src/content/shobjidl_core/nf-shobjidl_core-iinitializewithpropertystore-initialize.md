@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Initializes a handler with an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
+Initializes a handler with an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Initializes a handler with an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 
 ## -returns
@@ -89,11 +89,11 @@ This method supports initializing handlers for use with OpenSearch result sets, 
 
 
 
-<a href="https://msdn.microsoft.com/da8592a9-7727-433f-ac92-abf22a735eb2">IInitializeWithPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore">IInitializeWithPropertyStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/e995aaa1-d4c9-475f-b1fa-b9123cd5b653">IPropertyStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
  
 
  

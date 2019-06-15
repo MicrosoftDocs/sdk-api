@@ -101,7 +101,7 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/57ca68f4-f748-4bc4-90c3-13d545716d87">DISK_DETECTION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_detection_info">DISK_DETECTION_INFO</a>
  
 
  

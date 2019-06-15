@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Describes the animation effects associated with user actions. This structure is used with the 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function when the SPI_GETANIMATION or SPI_SETANIMATION action value is specified.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETANIMATION or SPI_SETANIMATION action value is specified.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ If this member is nonzero, minimize and restore animation is enabled; otherwise 
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
  
 
  

@@ -64,7 +64,7 @@ The <code>SetState</code> method sets the filter state.
 
 ### -param State [in]
 
-Sets the filter's state, as specified by the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumerated type.
+Sets the filter's state, as specified by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_filterstate">FILTER_STATE</a> enumerated type.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Applications should not call this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319657(v=VS.85).aspx">IAMMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
  
 
  

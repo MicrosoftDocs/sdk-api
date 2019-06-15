@@ -106,9 +106,9 @@ The filter graph is not stopped.
 
 
 
-This method instructs the Filter Graph Manager to choose a reference clock using its default algorithm. For more information about the algorithm that it uses, see <a href="https://msdn.microsoft.com/43f1a4d6-dbed-4940-a301-d863ddd34bce">Reference Clocks</a>.
+This method instructs the Filter Graph Manager to choose a reference clock using its default algorithm. For more information about the algorithm that it uses, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-clocks">Reference Clocks</a>.
 
-Usually you do not need to call this method, because the Filter Graph Manager automatically selects a clock. However, if you call <a href="https://msdn.microsoft.com/a374c963-cc28-41f6-814d-7ffc6efc67a6">IMediaFilter::SetSyncSource</a> to override the clock, you can use <code>SetDefaultSyncSource</code> to restore the default clock.
+Usually you do not need to call this method, because the Filter Graph Manager automatically selects a clock. However, if you call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource">IMediaFilter::SetSyncSource</a> to override the clock, you can use <code>SetDefaultSyncSource</code> to restore the default clock.
 
 This method fails if the filter graph is running or paused.
 
@@ -120,15 +120,15 @@ This method fails if the filter graph is running or paused.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/73a92f44-03c6-47e3-98d1-a20100ed8fa1">IFilterGraph Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d883638-5ddb-48b9-9d0b-104944a151e9">Time and Clocks in DirectShow</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>
  
 
  

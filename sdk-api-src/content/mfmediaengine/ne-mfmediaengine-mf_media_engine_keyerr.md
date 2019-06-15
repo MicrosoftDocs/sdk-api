@@ -91,7 +91,7 @@ An error with the domain occurred.
 
 
 
-<b>MF_MEDIA_ENGINE_KEYERR</b> is used with the <i>code</i> parameter of  <a href="https://msdn.microsoft.com/e437b46a-8b25-42c4-b307-b6962b60b452">IMFMediaKeySessionNotify::KeyError</a> and the <i>code</i> value returned from <a href="https://msdn.microsoft.com/4693b7d5-59ee-472f-83fc-1ecbcc165dac">IMFMediaKeySession::GetError</a>.
+<b>MF_MEDIA_ENGINE_KEYERR</b> is used with the <i>code</i> parameter of  <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror">IMFMediaKeySessionNotify::KeyError</a> and the <i>code</i> value returned from <a href="https://docs.microsoft.com/windows/desktop/medfound/imfmediakeysession-geterror">IMFMediaKeySession::GetError</a>.
 
 
 
@@ -101,7 +101,7 @@ An error with the domain occurred.
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

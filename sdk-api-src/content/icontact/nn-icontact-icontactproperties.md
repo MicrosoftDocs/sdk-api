@@ -49,13 +49,13 @@ ms.custom: 19H1
 ## -description
 
 
-Do not use. Used to retrieve, set, create, and remove properties on an <a href="https://msdn.microsoft.com/9dc97b84-ede9-4ec1-939a-2b13e0d68486">IContact</a>. 
+Do not use. Used to retrieve, set, create, and remove properties on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>. 
 		Property names and extension mechanisms are described in icontactproperties.h. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IContactProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContactProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContactProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IContactProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/422b9991-c8ac-4e8b-9432-1ccba02f7cfd">CreateArrayNode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-createarraynode">CreateArrayNode</a>
 </td>
 <td align="left" width="63%">
 Creates a new array node in a multi-value property.
@@ -79,7 +79,7 @@ Creates a new array node in a multi-value property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a26dc392-1dd7-4dba-9802-b45c01d97493">DeleteArrayNode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-deletearraynode">DeleteArrayNode</a>
 </td>
 <td align="left" width="63%">
 Deletes the data at a specified array entry.
@@ -88,7 +88,7 @@ Deletes the data at a specified array entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0925bed9-26ef-46e6-9087-0e1a1e57349d">DeleteLabels</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-deletelabels">DeleteLabels</a>
 </td>
 <td align="left" width="63%">
 Deletes the labels at a specified array entry.
@@ -97,37 +97,37 @@ Deletes the labels at a specified array entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/74ed72da-e82c-4257-9d16-c5204a88c9bf">DeleteProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-deleteproperty">DeleteProperty</a>
 </td>
 <td align="left" width="63%">
 Deletes the value at a specified property. Property modification 
-		and version data can still be enumerated with <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a>.
+		and version data can still be enumerated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1a62c5d3-7052-4c10-90e7-25f616ac36b8">GetBinary</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-getbinary">GetBinary</a>
 </td>
 <td align="left" width="63%">
-Retrieves the binary data of a property using an <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>. 
+Retrieves the binary data of a property using an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0ee9a870-ad51-4528-b830-bee72586b936">GetDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-getdate">GetDate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the date and time value at a specified property into a caller's 
-    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a> structure. All times are stored 
+    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. All times are stored 
     and returned as UTC.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c639a30b-3778-4ed9-b175-60b4a7ba9748">GetLabels</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-getlabels">GetLabels</a>
 </td>
 <td align="left" width="63%">
 Retrieves the labels for a specified array element name. 
@@ -136,17 +136,17 @@ Retrieves the labels for a specified array element name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12ef5ff0-ac87-4475-86b3-31a6379ffb4e">GetPropertyCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-getpropertycollection">GetPropertyCollection</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/dec9430d-2174-42fe-85c1-16fa7e7adc0c">IContactPropertyCollection</a> for the current contact. 
+Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a> for the current contact. 
 		Optionally, filters the <b>IContactPropertyCollection</b> to enumerate only some values.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ecab7290-9a35-4da3-a161-b8d52a031172">GetString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the string value at a specified property into a caller-allocated buffer. 
@@ -155,27 +155,27 @@ Retrieves the string value at a specified property into a caller-allocated buffe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/432c2417-e762-47ff-b2ce-a244120f0545">SetBinary</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-setbinary">SetBinary</a>
 </td>
 <td align="left" width="63%">
-Sets the binary data at a specified property to the contents of a specified <a href="https://msdn.microsoft.com/en-us/library/Aa380034(v=VS.85).aspx">IStream interface [Structured Storage]</a>, 
+Sets the binary data at a specified property to the contents of a specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>, 
 		which contains a null-terminated string (as MIME type) data. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbe0a788-7291-48f7-a36a-88e5b6b971dc">SetDate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-setdate">SetDate</a>
 </td>
 <td align="left" width="63%">
 Sets the date and time value at a specified property to a given 
-    <a href="https://msdn.microsoft.com/en-us/library/ms724284(v=VS.85).aspx">FILETIME</a>. All times are stored and returned as UTC.
+    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>. All times are stored and returned as UTC.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/884d4edf-e001-4a1d-9ee4-7f8733aba343">SetLabels</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-setlabels">SetLabels</a>
 </td>
 <td align="left" width="63%">
 Appends the set of labels passed in to the specified property's label set. 
@@ -185,7 +185,7 @@ Appends the set of labels passed in to the specified property's label set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e8379cc-a5dd-4ffd-b478-a14e649f5f0b">SetString</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactproperties-setstring">SetString</a>
 </td>
 <td align="left" width="63%">
 Sets the string value of a specified property to that of a specified null-terminated string. 

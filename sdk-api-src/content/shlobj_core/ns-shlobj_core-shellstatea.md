@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains settings for the Shell's state. This structure is used with the <a href="https://msdn.microsoft.com/d7c2646c-03e0-4d7a-9503-bdf487d43723">SHGetSetSettings</a> function.
+Contains settings for the Shell's state. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings">SHGetSetSettings</a> function.
 
 
 ## -struct-fields

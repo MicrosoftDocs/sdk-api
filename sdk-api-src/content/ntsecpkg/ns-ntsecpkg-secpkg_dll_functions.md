@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECPKG_DLL_FUNCTIONS</b> structure contains pointers to the LSA functions that a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a> can call while executing in-process with a client/server application. The <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) provides this structure during user-mode initialization using each security package's 
-<a href="https://msdn.microsoft.com/12f5903d-af13-40fd-8a23-2a28ffd9fc44">SpInstanceInit</a> function.
+The <b>SECPKG_DLL_FUNCTIONS</b> structure contains pointers to the LSA functions that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> can call while executing in-process with a client/server application. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) provides this structure during user-mode initialization using each security package's 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinstanceinitfn">SpInstanceInit</a> function.
 
 
 ## -struct-fields
@@ -60,19 +60,19 @@ The <b>SECPKG_DLL_FUNCTIONS</b> structure contains pointers to the LSA functions
 
 ### -field AllocateHeap
 
-Pointer to the  <a href="https://msdn.microsoft.com/8e97ea0e-42f5-4641-83d7-3858c533479c">AllocateHeap</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a> function.
 					
 
 
 ### -field FreeHeap
 
-Pointer to the  <a href="https://msdn.microsoft.com/9aa28a2f-c71d-4f82-bc14-257ed51b9c88">FreeHeap</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375418(v=vs.85)">FreeHeap</a> function.
 					
 
 
 ### -field RegisterCallback
 
-Pointer to the  <a href="https://msdn.microsoft.com/556f1fea-9675-4e2e-9fae-326e200cb98c">RegisterCallback</a> function.
+Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a> function.
 					
 
 

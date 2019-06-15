@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies information for the current item in the <a href="https://msdn.microsoft.com/84fa1d81-d1b9-44d7-be97-14511ef95528">SYNCMGRITEM</a> structure.
+Specifies information for the current item in the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a> structure.
 
 
 ## -enum-fields
@@ -95,7 +95,7 @@ The item may be deleted. This value has been deprecated for Windows Vista and l
 
 
 
-<a href="https://msdn.microsoft.com/84fa1d81-d1b9-44d7-be97-14511ef95528">SYNCMGRITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgritem">SYNCMGRITEM</a>
  
 
  

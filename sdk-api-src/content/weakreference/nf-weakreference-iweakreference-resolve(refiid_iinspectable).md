@@ -71,7 +71,7 @@ The reference ID of the specified object.
 
 #### - arg2 [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
 The strong reference to the specified object.
 
@@ -101,7 +101,7 @@ If you try to resolve a weak reference to a strong reference for an object that 
 
 
 
-<a href="https://msdn.microsoft.com/fae8bf21-2a38-4e98-9a11-89c548da9e95">IWeakReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreference">IWeakReference</a>
  
 
  

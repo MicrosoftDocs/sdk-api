@@ -91,7 +91,7 @@ The Windows provided codecs provide the following support for native scaling:
 
 
 <ul>
-<li>BMP, ICO, GIF, TIFF: No implementation of <a href="https://msdn.microsoft.com/6a3e682c-55c6-4728-9d14-5eb0290f3dcc">IWICBitmapSourceTransform</a>.</li>
+<li>BMP, ICO, GIF, TIFF: No implementation of <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>.</li>
 <li>PNG: No scaling support.</li>
 <li>JPEG: Native down-scaling by a factor of 8, 4, or 2.</li>
 <li>JPEG-XR:  Native scaling of the original image by powers of 2.

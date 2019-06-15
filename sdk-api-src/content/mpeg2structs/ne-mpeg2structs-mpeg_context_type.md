@@ -62,7 +62,7 @@ The <b>MPEG_CONTEXT_TYPE</b> enumeration type identifies the source of an MPEG-2
 
 ### -field MPEG_CONTEXT_BCS_DEMUX
 
-Indicates that the source is a DirectShow filter graph using the <a href="https://msdn.microsoft.com/99bfc55d-6519-4e85-98ce-cad27bd71ffb">MPEG-2 Demultiplexer</a> filter.
+Indicates that the source is a DirectShow filter graph using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter.
 
 
 ### -field MPEG_CONTEXT_WINSOCK
@@ -75,11 +75,11 @@ Reserved. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/13183e2a-6fbb-422c-b93c-53c12cb27423">BDA Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a92e545-805b-4ce6-bbf1-397f7a5f6524">MPEG_CONTEXT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0030">MPEG_CONTEXT</a>
  
 
  

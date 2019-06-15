@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Unlocks the Media Foundation platform after it was locked by a call to the <a href="https://msdn.microsoft.com/040742dc-4ba3-4906-8257-65505b2924d5">MFLockPlatform</a> function.
+Unlocks the Media Foundation platform after it was locked by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflockplatform">MFLockPlatform</a> function.
 
 
 
@@ -94,7 +94,7 @@ The function succeeded.
 
 
 
-The application must call <b>MFUnlockPlatform</b> once for every call to <a href="https://msdn.microsoft.com/040742dc-4ba3-4906-8257-65505b2924d5">MFLockPlatform</a>.
+The application must call <b>MFUnlockPlatform</b> once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflockplatform">MFLockPlatform</a>.
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -110,15 +110,15 @@ This function is available on the following platforms if the Windows Media Forma
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1eb20c44-58cb-4e34-a108-1b3c27d54ff1">Media Foundation Platform APIs</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-platform-apis">Media Foundation Platform APIs</a>
 
 
 
-<a href="https://msdn.microsoft.com/f886d096-b1f5-42e4-8888-501b58bffd50">Work Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
  
 
  

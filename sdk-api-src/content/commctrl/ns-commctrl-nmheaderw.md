@@ -62,9 +62,9 @@ Contains information about header control notification messages. This structure 
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification message. 
+A <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains information about the notification message. 
 
 
 ### -field iItem
@@ -121,9 +121,9 @@ Middle button
 
 ### -field pitem
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_itema">HDITEM</a>*</b>
 
-An optional pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure containing information about the item specified by 
+An optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_itema">HDITEM</a> structure containing information about the item specified by 
 					<b>iItem</b>. The 
 					<b>mask</b> member of the <b>HDITEM</b> structure indicates which of its members are valid. 
 
@@ -132,7 +132,7 @@ An optional pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb77
 
 
 
-While most header control notifications pass a pointer to an <b>NMHEADER</b> structure, only some of them use the <b>pitem</b> member to pass an <a href="https://msdn.microsoft.com/en-us/library/Bb775247(v=VS.85).aspx">HDITEM</a> structure. Those that do use <b>pitem</b> may not provide complete information about the item. To obtain more information about an item, use <a href="https://msdn.microsoft.com/en-us/library/Bb775335(v=VS.85).aspx">HDM_GETITEM</a>.
+While most header control notifications pass a pointer to an <b>NMHEADER</b> structure, only some of them use the <b>pitem</b> member to pass an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-_hd_itema">HDITEM</a> structure. Those that do use <b>pitem</b> may not provide complete information about the item. To obtain more information about an item, use <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getitem">HDM_GETITEM</a>.
 
 
 

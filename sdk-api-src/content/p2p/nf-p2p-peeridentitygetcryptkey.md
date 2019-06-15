@@ -132,9 +132,9 @@ An identity that matches the specified name cannot be found.
 
 
 
-The  key can be retrieved by calling <a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptGetUserKey</a>.
+The  key can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-reference-links">CryptGetUserKey</a>.
 
-When the handle is not required anymore, the application is responsible for releasing the handle by using <a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptReleaseContext</a>.
+When the handle is not required anymore, the application is responsible for releasing the handle by using <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-reference-links">CryptReleaseContext</a>.
 
 
 
@@ -144,7 +144,7 @@ When the handle is not required anymore, the application is responsible for rele
 
 
 
-<a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptGetUserKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-reference-links">CryptGetUserKey</a>
 
 
 

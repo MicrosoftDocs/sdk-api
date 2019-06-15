@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>STREAM_SEEK</b> enumeration values specify the origin from which to calculate the new seek-pointer location. They are used for the <i>dworigin</i> parameter in the 
-<a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a> method. The new seek position is calculated using this value and the <i>dlibMove</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a> method. The new seek position is calculated using this value and the <i>dlibMove</i> parameter.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The new seek pointer is an offset relative to the end of the stream. In this cas
 
 
 
-<a href="https://msdn.microsoft.com/ea087c6d-8854-4a81-b37b-15ab76630973">IStream::Seek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">IStream::Seek</a>
  
 
  

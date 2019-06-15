@@ -67,19 +67,19 @@ The <b>AddSink</b> method adds a writer sink to receive writer output. The Windo
 <tr>
 <td>File sink</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757790(v=VS.85).aspx">WMCreateWriterFileSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink">WMCreateWriterFileSink</a>
 </td>
 </tr>
 <tr>
 <td>Network sink</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757791(v=VS.85).aspx">WMCreateWriterNetworkSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink">WMCreateWriterNetworkSink</a>
 </td>
 </tr>
 <tr>
 <td>Push sink</td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757792(v=VS.85).aspx">WMCreateWriterPushSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink">WMCreateWriterPushSink</a>
 </td>
 </tr>
 </table> 
@@ -94,7 +94,7 @@ New sinks must be added to the writer with this method before they can be used.
 
 ### -param pSink [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757467(v=VS.85).aspx">IWMWriterSink</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a> interface.
 
 
 ## -returns
@@ -151,7 +151,7 @@ The writer is not in a configurable state.
 
 
 
-If you only need to write to a single file, you can let the writer object handle the creation and management of a default file sink. To use a default file sink, pass a file name to the writer by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757506(v=VS.85).aspx">IWMWriter::SetOutputFilename</a>.
+If you only need to write to a single file, you can let the writer object handle the creation and management of a default file sink. To use a default file sink, pass a file name to the writer by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>.
 
 
 
@@ -161,19 +161,19 @@ If you only need to write to a single file, you can let the writer object handle
 
 
 
-<a href="https://msdn.microsoft.com/714b84f0-5ad8-4e00-aa77-e866e65b43b0">Adding Sinks to the Writer</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/adding-sinks-to-the-writer">Adding Sinks to the Writer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798720(v=VS.85).aspx">IWMWriterAdvanced Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798728(v=VS.85).aspx">IWMWriterAdvanced::GetSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsink">IWMWriterAdvanced::GetSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798736(v=VS.85).aspx">IWMWriterAdvanced::RemoveSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>
  
 
  

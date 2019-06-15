@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure. This is used for 32-bit mode.
+The <b>SECURITY_STRING</b> structure is used as the string interface for kernel operations and is a clone of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure. This is used for 32-bit mode.
 
 
 ## -struct-fields

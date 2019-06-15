@@ -71,7 +71,7 @@ Specifies the total size of the data returned, in bytes. This may include data t
 ### -field Portdriver
 
 Type of port driver as enumerated by the 
-     <a href="https://msdn.microsoft.com/1c1032e8-30b8-45ad-973a-c7616139b26e">STORAGE_PORT_CODE_SET</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_port_code_set">STORAGE_PORT_CODE_SET</a> enumeration.
 
 <table>
 <tr>
@@ -152,11 +152,11 @@ Indicates whether a target reset is supported.
 
 
 
-<a href="https://msdn.microsoft.com/dd55c570-68b5-4dc5-9fd0-a6e3277c318b">Disk Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c1032e8-30b8-45ad-973a-c7616139b26e">STORAGE_PORT_CODE_SET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_port_code_set">STORAGE_PORT_CODE_SET</a>
  
 
  

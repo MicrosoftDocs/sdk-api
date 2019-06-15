@@ -72,11 +72,11 @@ This property can be dynamic. For example, the content area of the element might
 
 
 
-<a href="https://msdn.microsoft.com/cb62389c-5a7a-412d-a024-0ce9bc6403a2">IUIAutomationScrollPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationscrollpattern">IUIAutomationScrollPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/4107440a-4bfc-42df-87b0-47b9eb3ce2e6">IUIAutomationScrollPattern::CurrentHorizontallyScrollable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontallyscrollable">IUIAutomationScrollPattern::CurrentHorizontallyScrollable</a>
  
 
  

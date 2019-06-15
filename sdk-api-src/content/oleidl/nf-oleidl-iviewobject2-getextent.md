@@ -59,7 +59,7 @@ Retrieves the size that the specified view object will be drawn on the specified
 
 ### -param dwDrawAspect [in]
 
-Requested view of the object whose size is of interest. Possible values are taken from the <a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a> and <a href="https://msdn.microsoft.com/9000b807-5a42-437f-a3e8-a7b23be1665b">DVASPECT2</a> enumerations. Note that newer objects and containers that support optimized drawing interfaces support the <b>DVASPECT2</b> enumeration values. Older objects and containers that do not support optimized drawing interfaces may not support <b>DVASPECT2</b>.
+Requested view of the object whose size is of interest. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagdvaspect2">DVASPECT2</a> enumerations. Note that newer objects and containers that support optimized drawing interfaces support the <b>DVASPECT2</b> enumeration values. Older objects and containers that do not support optimized drawing interfaces may not support <b>DVASPECT2</b>.
 
 
 ### -param lindex [in]
@@ -69,7 +69,7 @@ The portion of the object that is of interest. Currently, the only possible valu
 
 ### -param ptd [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/724ff714-c170-4d06-92cb-e042e41c0af2">DVTARGETDEVICE</a> structure defining the target device for which the object's size should be returned.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-tagdvtargetdevice">DVTARGETDEVICE</a> structure defining the target device for which the object's size should be returned.
 
 
 ### -param lpsizel [out]
@@ -111,16 +111,16 @@ An appropriate cache is not available.
 
 The OLE-provided implementation of <b>IViewObject2::GetExtent</b> searches the cache for the size of the view object.
 
-The <a href="https://msdn.microsoft.com/babaf55e-6c43-48d8-ad13-1333e29a3e1d">IOleObject::GetExtent</a> method in the <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> interface provides some of the same information as <b>IViewObject2::GetExtent</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a> method in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface provides some of the same information as <b>IViewObject2::GetExtent</b>.
 
 
 
-This method must return the same size as DVASPECT_CONTENT for all the new aspects in <a href="https://msdn.microsoft.com/9000b807-5a42-437f-a3e8-a7b23be1665b">DVASPECT2</a>. <a href="https://msdn.microsoft.com/babaf55e-6c43-48d8-ad13-1333e29a3e1d">IOleObject::GetExtent</a> must do the same thing.
+This method must return the same size as DVASPECT_CONTENT for all the new aspects in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagdvaspect2">DVASPECT2</a>. <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a> must do the same thing.
 
 If one of the new aspects is requested in <i>dwAspect</i>, this method can either fail or return the same rectangle as for the DVASPECT_CONTENT aspect.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-To prevent the object from being run if it isn't already running, you can call <b>IViewObject2::GetExtent</b> rather than <a href="https://msdn.microsoft.com/babaf55e-6c43-48d8-ad13-1333e29a3e1d">IOleObject::GetExtent</a> to determine the size of the presentation to be drawn.
+To prevent the object from being run if it isn't already running, you can call <b>IViewObject2::GetExtent</b> rather than <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a> to determine the size of the presentation to be drawn.
 
 
 
@@ -130,23 +130,23 @@ To prevent the object from being run if it isn't already running, you can call <
 
 
 
-<a href="https://msdn.microsoft.com/a2b729c8-7091-4520-93cd-c44468ba0274">DVASPECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-tagdvaspect">DVASPECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/9000b807-5a42-437f-a3e8-a7b23be1665b">DVASPECT2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagdvaspect2">DVASPECT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/babaf55e-6c43-48d8-ad13-1333e29a3e1d">IOleObject::GetExtent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getextent">IOleObject::GetExtent</a>
 
 
 
-<a href="https://msdn.microsoft.com/4310c987-3542-4a59-a6fb-951143001741">IViewObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/b150ca4b-c53c-4bcb-85fa-461f9fa8b63b">IViewObject2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a>
  
 
  

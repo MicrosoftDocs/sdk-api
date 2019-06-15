@@ -84,7 +84,7 @@ If the specified name is not found, <b>NULL</b> is returned.
 
 
 
-<a href="https://msdn.microsoft.com/3e167c5d-0000-4359-a7b0-9b3e4e64c50c">CryptSetOIDFunctionValue</a> can be called as follows to register additional localized strings.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to register additional localized strings.
 
 <i>dwEncodingType</i> = CRYPT_LOCALIZED_NAME_ENCODING_TYPE
 
@@ -101,7 +101,7 @@ If the specified name is not found, <b>NULL</b> is returned.
 <i>cbValueData</i> = (wcslen(Unicode localized string) + 1) * sizeof(WCHAR)
 
 
-<a href="https://msdn.microsoft.com/3e167c5d-0000-4359-a7b0-9b3e4e64c50c">CryptSetOIDFunctionValue</a> can be called as follows to unregister the localized strings.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to unregister the localized strings.
 
 <i>pbValueData</i> = <b>NULL</b>
 
@@ -138,7 +138,7 @@ NAME_FUNC
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://msdn.microsoft.com/9fb368c9-a0d7-4c5f-9a38-7ef8f7283354">Example C Program: Setting and Getting Certificate Store Properties</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
 <div class="code"></div>
 
@@ -149,11 +149,11 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/3e167c5d-0000-4359-a7b0-9b3e4e64c50c">CryptSetOIDFunctionValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
  
 
  

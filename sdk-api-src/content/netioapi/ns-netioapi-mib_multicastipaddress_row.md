@@ -88,7 +88,7 @@ The scope ID of the multicast IP address. This member is applicable only to an I
 
 The <b>MIB_MULTICASTIPADDRESS_ROW</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://msdn.microsoft.com/0958e92e-12ed-42e0-aa04-b8c4544f6642">GetMulticastIpAddressTable</a> function enumerates the multicast IP addresses on a local system and returns this information in a <a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a> structure. The <a href="https://msdn.microsoft.com/dc6401b6-7692-44a5-b2f0-4e729b996765">GetMulticastIpAddressEntry</a> function retrieves a single multicast IP address and returns this information in a <b>MIB_MULTICASTIPADDRESS_ROW</b> structure.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddresstable">GetMulticastIpAddressTable</a> function enumerates the multicast IP addresses on a local system and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_table">MIB_MULTICASTIPADDRESS_TABLE</a> structure. The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddressentry">GetMulticastIpAddressEntry</a> function retrieves a single multicast IP address and returns this information in a <b>MIB_MULTICASTIPADDRESS_ROW</b> structure.
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
@@ -100,19 +100,19 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 
-<a href="https://msdn.microsoft.com/dc6401b6-7692-44a5-b2f0-4e729b996765">GetMulticastIpAddressEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddressentry">GetMulticastIpAddressEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/0958e92e-12ed-42e0-aa04-b8c4544f6642">GetMulticastIpAddressTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddresstable">GetMulticastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_table">MIB_MULTICASTIPADDRESS_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7278dcb4-65c6-4aea-a474-cb7fae4d7672">SOCKADDR_INET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-_sockaddr_inet">SOCKADDR_INET</a>
  
 
  

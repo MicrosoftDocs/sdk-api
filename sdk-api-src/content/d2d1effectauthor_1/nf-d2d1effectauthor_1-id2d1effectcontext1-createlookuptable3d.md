@@ -60,7 +60,7 @@ Creates a 3D lookup table for mapping a 3-channel input to a 3-channel output.
 
 ### -param precision
 
-Type: <b><a href="https://msdn.microsoft.com/a2a4b4fd-685d-4068-b1f5-609e6ab024e2">D2D1_BUFFER_PRECISION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_buffer_precision">D2D1_BUFFER_PRECISION</a></b>
 
 Precision of the input lookup table data.
 
@@ -96,7 +96,7 @@ An array containing two values. The first value is the size in bytes from one ro
 
 ### -param lookupTable [out]
 
-Type: <b><a href="https://msdn.microsoft.com/778D2F30-0328-4AA2-8ECA-F443D57809D7">ID2D1LookupTable3D</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1lookuptable3d">ID2D1LookupTable3D</a>**</b>
 
 Receives the new lookup table instance.
 
@@ -105,7 +105,7 @@ Receives the new lookup table instance.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -117,7 +117,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/F6B92F9F-D5F3-4DA9-AEC4-826856E184AF">ID2D1EffectContext1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor_1/nn-d2d1effectauthor_1-id2d1effectcontext1">ID2D1EffectContext1</a>
  
 
  

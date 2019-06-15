@@ -59,7 +59,7 @@ Opens an existing resource manager (RM).
 
 ### -param dwDesiredAccess [in]
 
-The access requested for the RM. See <a href="https://msdn.microsoft.com/6b901b73-516d-4f27-b258-3b93a8f9675f">Resource Manager Access Masks</a> for a list of valid values.
+The access requested for the RM. See <a href="https://docs.microsoft.com/windows/desktop/Ktm/resource-manager-access-masks">Resource Manager Access Masks</a> for a list of valid values.
 
 
 ### -param TmHandle [in]
@@ -78,7 +78,7 @@ The identifier  for this resource manager.
 
 If the function succeeds, the return value is a handle to the resource manager.
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the  possible error codes:
 
@@ -89,7 +89,7 @@ The following list identifies the  possible error codes:
 
 
 
-Immediately after calling this function, you must call <a href="https://msdn.microsoft.com/616ff873-c0d0-464e-9b1b-74a426b99abd">RecoverResourceManager</a>.
+Immediately after calling this function, you must call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recoverresourcemanager">RecoverResourceManager</a>.
 
 
 
@@ -99,15 +99,15 @@ Immediately after calling this function, you must call <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/ad88e478-1dff-4f35-a0e3-6bda8bb45711">CreateResourceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createresourcemanager">CreateResourceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b901b73-516d-4f27-b258-3b93a8f9675f">Resource Manager Access Masks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/resource-manager-access-masks">Resource Manager Access Masks</a>
  
 
  

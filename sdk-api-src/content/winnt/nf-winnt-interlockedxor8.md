@@ -82,11 +82,11 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="https://msdn.microsoft.com/library/a8swb4hb(v=VS.85).aspx">_InterlockedXor8</a> compiler intrinsic directly.
+For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="https://docs.microsoft.com/previous-versions//a8swb4hb(v=vs.85)">_InterlockedXor8</a> compiler intrinsic directly.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://msdn.microsoft.com/93194034-9794-4897-a721-0be6c20a962e">InterlockedXor8Acquire</a> or <a href="https://msdn.microsoft.com/287fd239-4a00-457d-8d40-c93047f77920">InterlockedXor8Release</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684112(v=vs.85)">InterlockedXor8Acquire</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684113(v=vs.85)">InterlockedXor8Release</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -98,71 +98,71 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/729c0e68-ef52-4d6c-b771-a89043a937e6">Interlocked Variable Access</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684021(v=VS.85).aspx">InterlockedXor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedxor">InterlockedXor</a>
 
 
 
-<a href="https://msdn.microsoft.com/414830ba-ce2b-4ed0-96f4-db5edd8e4ebe">InterlockedXor16</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedxor16">InterlockedXor16</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e3d7108-bac2-4c0e-8fad-49e81cb698b0">InterlockedXor16Acquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684026(v=vs.85)">InterlockedXor16Acquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/615da423-6be4-40e1-a6c5-8ea7691bdad2">InterlockedXor16NoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972674(v=vs.85)">InterlockedXor16NoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/f028d546-54ad-4714-9d97-0dd052b950fa">InterlockedXor16Release</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684033(v=vs.85)">InterlockedXor16Release</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0eef2c9-5b28-462b-91cb-20a337efca7e">InterlockedXor64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedxor64">InterlockedXor64</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8a020ef-ec36-4e8f-b081-6c6a26227fe7">InterlockedXor64Acquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684107(v=vs.85)">InterlockedXor64Acquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dbf1d34-4e10-4ae0-8ae3-f7053a941c90">InterlockedXor64NoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972675(v=vs.85)">InterlockedXor64NoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/64a011a3-c920-4a68-a433-c3c216f71103">InterlockedXor64Release</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684108(v=vs.85)">InterlockedXor64Release</a>
 
 
 
-<a href="https://msdn.microsoft.com/93194034-9794-4897-a721-0be6c20a962e">InterlockedXor8Acquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684112(v=vs.85)">InterlockedXor8Acquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/b58e4f02-25ca-420f-aad8-4beea9322547">InterlockedXor8NoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972676(v=vs.85)">InterlockedXor8NoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/287fd239-4a00-457d-8d40-c93047f77920">InterlockedXor8Release</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684113(v=vs.85)">InterlockedXor8Release</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a340a69-8ba2-48cb-8a7c-781a93bca826">InterlockedXorAcquire</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684117(v=vs.85)">InterlockedXorAcquire</a>
 
 
 
-<a href="https://msdn.microsoft.com/92625f96-0548-4be2-abe9-cab2e2bb6892">InterlockedXorNoFence</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972677(v=vs.85)">InterlockedXorNoFence</a>
 
 
 
-<a href="https://msdn.microsoft.com/55b3a88e-66da-4041-b97d-f594f11b7e04">InterlockedXorRelease</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms684118(v=vs.85)">InterlockedXorRelease</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  
 
  

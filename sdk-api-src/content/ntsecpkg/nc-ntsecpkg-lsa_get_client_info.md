@@ -60,7 +60,7 @@ The <b>GetClientInfo</b> function gets information about the client process, suc
 ### -param ClientInfo [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/c9c58a50-7fc2-44a7-9551-a2675410b2b5">SECPKG_CLIENT_INFO</a> structure that receives information about the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_secpkg_client_info">SECPKG_CLIENT_INFO</a> structure that receives information about the client.
 
 
 ## -returns
@@ -79,8 +79,8 @@ If the function fails, the return value is an NTSTATUS code indicating the reaso
 
 
 A pointer to the <b>GetClientInfo</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -90,11 +90,11 @@ A pointer to the <b>GetClientInfo</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

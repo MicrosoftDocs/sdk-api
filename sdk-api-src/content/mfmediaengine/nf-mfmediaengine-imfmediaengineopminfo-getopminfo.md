@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets status information about the   <a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>  (OPM).
+Gets status information about the   <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>  (OPM).
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets status information about the   <a href="https://msdn.microsoft.com/daae615b
 
 ### -param pStatus [out]
 
-        A pointer to a <a href="https://msdn.microsoft.com/7C4D88F6-369B-4364-90C4-6D0F8DD1523B">MF_MEDIA_ENGINE_OPM_STATUS</a> enum type that indicates the OPM status.
+        A pointer to a <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-media-engine-opm-status">MF_MEDIA_ENGINE_OPM_STATUS</a> enum type that indicates the OPM status.
 
 
 ### -param pConstricted [out]
@@ -111,7 +111,7 @@ If any of the parameters are <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/399f81ac-38f8-4aaa-8b34-f5fd13b71402">IMFMediaEngineOPMInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineopminfo">IMFMediaEngineOPMInfo</a>
  
 
  

@@ -76,7 +76,7 @@ A handle to the main window of the application.
 If the call succeeds, the return value is nonzero.
 
 If the call fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -87,7 +87,7 @@ If the call fails, the return value is zero. To get extended error information, 
 
 This function can only be called from the thread that created the window specified by the <i>hWnd</i> parameter. Otherwise, the function fails and the last error code is ERROR_ACCESS_DENIED.
 
-If system shutdown has been previously blocked by the <a href="https://msdn.microsoft.com/4c6f9159-fac2-431e-bbdf-c35c4cdb25ac">ShutdownBlockReasonCreate</a> function, this function frees the reason string. Otherwise, this function is a no-op.
+If system shutdown has been previously blocked by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function, this function frees the reason string. Otherwise, this function is a no-op.
 
 
 
@@ -97,11 +97,11 @@ If system shutdown has been previously blocked by the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/4c6f9159-fac2-431e-bbdf-c35c4cdb25ac">ShutdownBlockReasonCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/acadf58f-3f68-4fa1-bdcf-8f85c8479263">Shutting Down</a>
+<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
  
 
  

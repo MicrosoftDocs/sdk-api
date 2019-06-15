@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Reduces the number of reserved log records in a marshaling area made by calling <a href="https://msdn.microsoft.com/2036fc26-d040-4738-b66e-d5d3d0dbe385">ReserveAndAppendLog</a>, <a href="https://msdn.microsoft.com/fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7">ReserveAndAppendLogAligned</a>, or <a href="https://msdn.microsoft.com/5e464b64-4617-4fbd-97cd-3c2db8f151b2">AllocReservedLog</a>.  By using this function, clients can free an aggregate set of records and bytes that are reserved in the marshaling area.
+Reduces the number of reserved log records in a marshaling area made by calling <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a>, <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlogaligned">ReserveAndAppendLogAligned</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-allocreservedlog">AllocReservedLog</a>.  By using this function, clients can free an aggregate set of records and bytes that are reserved in the marshaling area.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Reduces the number of reserved log records in a marshaling area made by calling 
 
 ### -param pvMarshal [in, out]
 
-A pointer to the opaque marshaling context that is allocated by using the <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> function.
+A pointer to the opaque marshaling context that is allocated by using the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
 
 
 ### -param cReservedRecords [in]
@@ -79,13 +79,13 @@ This value is usually an aggregate of the actual reserved space that is returned
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/2036fc26-d040-4738-b66e-d5d3d0dbe385">ReserveAndAppendLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlog">ReserveAndAppendLog</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7">ReserveAndAppendLogAligned</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-reserveandappendlogaligned">ReserveAndAppendLogAligned</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5e464b64-4617-4fbd-97cd-3c2db8f151b2">AllocReservedLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-allocreservedlog">AllocReservedLog</a>
 </li>
 </ul>
 
@@ -97,7 +97,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. The following list identifies the  possible error codes:
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
 
 
 
@@ -116,7 +116,7 @@ When you reserve records, you reserve a specific size.  When you free those reco
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
  
 
  

@@ -61,8 +61,8 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 
 Type: <b>ID3D12Resource*</b>
 
-Destination resource. Must be a created with the <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE_DEFAULT</a> flag and be single-sampled. See
-            <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+Destination resource. Must be a created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a> flag and be single-sampled. See
+            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
           
 
 
@@ -70,7 +70,7 @@ Destination resource. Must be a created with the <a href="https://msdn.microsoft
 
 Type: <b>UINT</b>
 
-A zero-based index, that identifies the destination subresource. Use <a href="https://msdn.microsoft.com/5C63A315-E21E-498B-A832-6BA2D17FF9A7">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
+A zero-based index, that identifies the destination subresource. Use <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12calcsubresource">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
           
 
 
@@ -94,7 +94,7 @@ The source subresource of the source resource.
 
 Type: <b>DXGI_FORMAT</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
             See remarks.
           
 
@@ -114,10 +114,10 @@ This method does not return a value.
 
 
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
+The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
           
 
-The debug layer will issue an error if the destination buffer is not in the  <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
+The debug layer will issue an error if the destination buffer is not in the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
           
 
 This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
@@ -160,11 +160,11 @@ The source and destination resources must be the same resource type and have the
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 
 
-<a href="https://msdn.microsoft.com/C4F92F8A-DBF0-412B-8707-CC4C1BF2D88F">Subresources</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/subresources">Subresources</a>
  
 
  

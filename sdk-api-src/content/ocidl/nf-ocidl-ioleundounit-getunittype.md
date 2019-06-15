@@ -92,7 +92,7 @@ Note that the undo manager and parent undo units do not have the option of accep
 
 
 
-<a href="https://msdn.microsoft.com/0822c894-b96c-4b69-94d2-b052dff81f6e">IOleUndoUnit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundounit">IOleUndoUnit</a>
  
 
  

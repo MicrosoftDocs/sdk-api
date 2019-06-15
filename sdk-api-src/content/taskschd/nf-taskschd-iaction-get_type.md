@@ -62,9 +62,9 @@ This property is read-only.
 
 
 
-The action type is defined when the action is created and cannot be changed later. For information on creating an action, see <a href="https://msdn.microsoft.com/815a000b-ba02-470d-80e6-06ba3c8ea014">IActionCollection.Create</a>.
+The action type is defined when the action is created and cannot be changed later. For information on creating an action, see <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create">IActionCollection.Create</a>.
 
-For information on how actions and tasks work together, see <a href="https://msdn.microsoft.com/4cbe739d-4c4e-4469-8289-4be41b93950c">Task Actions</a>.
+For information on how actions and tasks work together, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-actions">Task Actions</a>.
 
 
 
@@ -74,15 +74,15 @@ For information on how actions and tasks work together, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/50d60cf0-642a-43fe-9163-51740e75fa8d">IAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/931ea805-fc73-4717-ab40-c12767930df3">TASK_ACTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-_task_action_type">TASK_ACTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

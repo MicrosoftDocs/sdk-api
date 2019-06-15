@@ -59,11 +59,11 @@ You can call the property methods of this interface to obtain and modify the att
 
 
 
-<a href="https://msdn.microsoft.com/6fe29a0d-dd53-4cc2-8152-22a0a2756c2c">IADsOctetList Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsoctetlist-property-methods">IADsOctetList Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

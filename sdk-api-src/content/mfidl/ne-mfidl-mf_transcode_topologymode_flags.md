@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines flags for the <a href="https://msdn.microsoft.com/33db8621-114a-4531-908f-f30034441973">MF_TRANSCODE_TOPOLOGYMODE</a> attribute.
+Defines flags for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-topologymode">MF_TRANSCODE_TOPOLOGYMODE</a> attribute.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ The topology loader may insert hardware-based transforms into the transcode topo
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

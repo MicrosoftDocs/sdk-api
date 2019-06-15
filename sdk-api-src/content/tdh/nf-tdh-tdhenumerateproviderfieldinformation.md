@@ -66,12 +66,12 @@ GUID that identifies the provider whose information you want to retrieve.
 
 ### -param EventFieldType [in]
 
-Specify the type of field for which you want to retrieve information. For possible values, see the <a href="https://msdn.microsoft.com/da525556-e42b-41cb-b954-300f378477e5">EVENT_FIELD_TYPE</a> enumeration. 
+Specify the type of field for which you want to retrieve information. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-_event_field_type">EVENT_FIELD_TYPE</a> enumeration. 
 
 
 ### -param pBuffer [out, optional]
 
-User-allocated buffer to receive the field information. For details, see the <a href="https://msdn.microsoft.com/c3755ca2-7b17-4f86-9ae8-34621f8b8c1b">PROVIDER_FIELD_INFOARRAY</a> structure.
+User-allocated buffer to receive the field information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a> structure.
 
 
 ### -param pBufferSize [in, out]
@@ -272,11 +272,11 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/ef326ef8-227d-46b5-88b9-b519748fb778">TdhEnumerateProviders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca3c1519-0b86-4bdb-b027-9c662df5466e">TdhQueryProviderFieldInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>
  
 
  

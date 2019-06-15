@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/0c1a12f3-357f-4d96-b0ef-99d788b6e020">CreateUtilityInstance</a> method is used by the Network Diagnostics Framework (NDF). This method  is reserved for system use.
+The <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperinfo-getattributeinfo">CreateUtilityInstance</a> method is used by the Network Diagnostics Framework (NDF). This method  is reserved for system use.
 
 
 ## -parameters
@@ -90,7 +90,7 @@ This method is reserved for system use.
 
 
 
-<a href="https://msdn.microsoft.com/5e97ff3b-0dd5-4370-bf28-72fc92818564">INetDiagHelperUtilFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperutilfactory">INetDiagHelperUtilFactory</a>
  
 
  

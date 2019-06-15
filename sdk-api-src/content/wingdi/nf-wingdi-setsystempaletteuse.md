@@ -122,9 +122,9 @@ If the function fails, the return value is SYSPAL_ERROR.
 
 
 
-An application can determine whether a device supports palette operations by calling the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
-When an application window moves to the foreground and the SYSPAL_NOSTATIC value is set, the application must call the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> function to save the current system colors setting. It must also call <a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a> to set reasonable values using only black and white. When the application returns to the background or terminates, the previous system colors must be restored.
+When an application window moves to the foreground and the SYSPAL_NOSTATIC value is set, the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function to save the current system colors setting. It must also call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a> to set reasonable values using only black and white. When the application returns to the background or terminates, the previous system colors must be restored.
 
 If the function returns SYSPAL_ERROR, the specified device context is invalid or does not support color palettes.
 
@@ -136,9 +136,9 @@ After calling this function with <i>uUsage</i> set to SYSPAL_NOSTATIC, an applic
 
 <ol>
 <li>Realize the logical palette.</li>
-<li>Call the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> function to save the current system-color settings.</li>
-<li>Call the <a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a> function to set the system colors to reasonable values using black and white. For example, adjacent or overlapping items (such as window frames and borders) should be set to black and white, respectively.</li>
-<li>Send the <a href="https://msdn.microsoft.com/ffe61768-86d6-4ea8-ae2d-1095a9afa925">WM_SYSCOLORCHANGE</a> message to other top-level windows to allow them to be redrawn with the new system colors.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function to save the current system-color settings.</li>
+<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a> function to set the system colors to reasonable values using black and white. For example, adjacent or overlapping items (such as window frames and borders) should be set to black and white, respectively.</li>
+<li>Send the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message to other top-level windows to allow them to be redrawn with the new system colors.</li>
 </ol>
 When the application's window loses focus or closes, the application must perform the following steps:
 
@@ -146,7 +146,7 @@ When the application's window loses focus or closes, the application must perfor
 <li>Call <b>SetSystemPaletteUse</b> with the <i>uUsage</i> parameter set to SYSPAL_STATIC.</li>
 <li>Realize the logical palette.</li>
 <li>Restore the system colors to their previous values.</li>
-<li>Send the <a href="https://msdn.microsoft.com/ffe61768-86d6-4ea8-ae2d-1095a9afa925">WM_SYSCOLORCHANGE</a> message.</li>
+<li>Send the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-syscolorchange">WM_SYSCOLORCHANGE</a> message.</li>
 </ol>
 
 
@@ -156,27 +156,27 @@ When the application's window loses focus or closes, the application must perfor
 
 
 
-<a href="https://msdn.microsoft.com/9dd32d4a-30bd-406f-a934-bb71ad4ca2cb">Color Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a9e7906-2f81-4fda-b03d-86feb0755327">GetSystemPaletteUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteuse">GetSystemPaletteUse</a>
 
 
 
-<a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsyscolors">SetSysColors</a>
  
 
  

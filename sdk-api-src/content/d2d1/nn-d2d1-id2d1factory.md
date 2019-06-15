@@ -54,7 +54,7 @@ Creates Direct2D resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID2D1Factory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Factory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1Factory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Factory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de062068-d2b5-4576-a475-a0e2c9840506">CreateDCRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createdcrendertarget">CreateDCRenderTarget</a>
 </td>
 <td align="left" width="63%">
 Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.
@@ -78,15 +78,15 @@ Creates a render target that draws to a Windows Graphics Device Interface (GDI) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c2b5875f-9f14-4752-a426-2745fdaa543a">CreateDrawingStateBlock</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createdrawingstateblock">CreateDrawingStateBlock</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/9a3d9146-0e1b-4642-ad5d-ff1d09a93d2b">ID2D1DrawingStateBlock</a> that can be used with the <a href="https://msdn.microsoft.com/8658cdbf-979c-41e2-b180-eb21ad6b63c7">SaveDrawingState</a> and <a href="https://msdn.microsoft.com/5b627710-8507-460e-bdc7-2a5633ce370f">RestoreDrawingState</a> methods of a render target.
+<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a> that can be used with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-savedrawingstate">SaveDrawingState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-restoredrawingstate">RestoreDrawingState</a> methods of a render target.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742724(v=VS.85).aspx">CreateDxgiSurfaceRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
 
@@ -94,73 +94,73 @@ Creates a render target that draws to a Windows Graphics Device Interface (GDI) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742725(v=VS.85).aspx">CreateEllipseGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createellipsegeometry">CreateEllipseGeometry</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a>.
+<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">CreateGeometryGroup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-creategeometrygroup">CreateGeometryGroup</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/15c3800c-b57c-4c3c-995f-407beee4cc99">ID2D1GeometryGroup</a>, which is an object that holds other geometries.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>, which is an object that holds other geometries.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742726(v=VS.85).aspx">CreateHwndRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createhwndrendertarget">CreateHwndRenderTarget</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
+<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a>, a render target that renders to a window.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35c46055-3df2-44d5-b11d-520ab2fa4a0e">CreatePathGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry">CreatePathGeometry</a>
 </td>
 <td align="left" width="63%">
-Creates an empty <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242b24480e99">ID2D1PathGeometry</a>.
+Creates an empty <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742727(v=VS.85).aspx">CreateRectangleGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createrectanglegeometry">CreateRectangleGeometry</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>. 
+<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742728(v=VS.85).aspx">CreateRoundedRectangleGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createroundedrectanglegeometry">CreateRoundedRectangleGeometry</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/e49e9be7-155a-4487-9931-035f18771c04">ID2D1RoundedRectangleGeometry</a>. 
+<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry">ID2D1RoundedRectangleGeometry</a>. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc7bd68b-a6eb-4d05-b331-032ce80f375c">CreateStrokeStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createstrokestyle">CreateStrokeStyle</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a> that describes start cap, dash pattern, and other features of a stroke.
+<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a> that describes start cap, dash pattern, and other features of a stroke.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">CreateTransformedGeometry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a>
 </td>
-<td align="left" width="63%">Overloaded. Transforms the specified geometry and stores the result as an <a href="https://msdn.microsoft.com/5d48eab6-1229-4e54-bfab-602b471b23a4">ID2D1TransformedGeometry</a> object. 
+<td align="left" width="63%">Overloaded. Transforms the specified geometry and stores the result as an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a> object. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93141743-c11d-40b4-83c5-07c9066836c7">CreateWicBitmapRenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createwicbitmaprendertarget">CreateWicBitmapRenderTarget</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a render target that renders to a Microsoft Windows Imaging Component (WIC)  bitmap.
 
@@ -168,16 +168,16 @@ Creates an empty <a href="https://msdn.microsoft.com/d200563c-d78e-4fa0-a8f2-242
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd46252b-80eb-42c2-a2b4-5c49ef124bd5">GetDesktopDpi</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi">GetDesktopDpi</a>
 </td>
 <td align="left" width="63%">
-Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="https://msdn.microsoft.com/32c831c4-73e1-49f8-8d58-4248ae99fe37">ReloadSystemMetrics</a>.
+Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32c831c4-73e1-49f8-8d58-4248ae99fe37">ReloadSystemMetrics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>
 </td>
 <td align="left" width="63%">
 Forces the factory to refresh any system defaults that it might have changed since factory creation.
@@ -203,7 +203,7 @@ A factory defines a set of Create<i>Resource</i> methods that can produce the fo
 </ul>
 
 
-To create an <b>ID2D1Factory</b>, you use one of the <a href="https://msdn.microsoft.com/8c0a685a-8f33-4072-a715-bb423cb44f03">CreateFactory</a> methods. You should retain the <b>ID2D1Factory</b> instance for as long as you use Direct2D resources; in general, you shouldn't need to recreate it when the application is running. For more information about Direct2D resources, see the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
+To create an <b>ID2D1Factory</b>, you use one of the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory">CreateFactory</a> methods. You should retain the <b>ID2D1Factory</b> instance for as long as you use Direct2D resources; in general, you shouldn't need to recreate it when the application is running. For more information about Direct2D resources, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 <h3><a id="Singlethreaded_and_Multithreaded_Factories"></a><a id="singlethreaded_and_multithreaded_factories"></a><a id="SINGLETHREADED_AND_MULTITHREADED_FACTORIES"></a>Singlethreaded and Multithreaded Factories</h3>
 When you create a factory, you can specify whether it is multithreaded or singlethreaded. A singlethreaded factory provides no serialization against any other single threaded instance within Direct2D, so, this mechanism provides a very large degree of scaling on the CPU.
@@ -214,7 +214,7 @@ Note that the qualifier "On the CPU": GPUs generally take advantage of fine-grai
 
 
 
-See <a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Multithreaded Direct2D Apps</a> for more info.
+See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a> for more info.
 
 
 #### Examples
@@ -252,27 +252,27 @@ ID2D1Factory* m_pDirect2dFactory;
 
 
 
-<a href="https://msdn.microsoft.com/05cc230e-6fec-4a15-8e28-c68397392fc5">Direct2D Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-overview">Direct2D Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Direct2D QuickStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Direct2D QuickStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/19d9ad76-b1e3-449f-8582-e00287b05874">Getting Started with Direct2D</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/getting-started-with-direct2d">Getting Started with Direct2D</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Multithreaded Direct2D Apps</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/multi-threaded-direct2d-apps">Multithreaded Direct2D Apps</a>
 
 
 
-<a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>
  
 
  

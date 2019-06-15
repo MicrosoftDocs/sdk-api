@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the <a href="https://msdn.microsoft.com/59aeb20a-5e8b-4e27-8e69-9f373ff45b27">AVEncVideoForceSourceScanType</a> property.
+Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoforcesourcescantype-property">AVEncVideoForceSourceScanType</a> property.
 
 
 
@@ -80,11 +80,11 @@ Input frames are progressive.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

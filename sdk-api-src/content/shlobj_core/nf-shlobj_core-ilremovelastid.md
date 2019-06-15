@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes the last <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure from an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure.
+Removes the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_shitemid">SHITEMID</a> structure from an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Removes the last <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c50
 
 Type: <b>PUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure to be shortened. When the function returns, this variable points to the shortened structure.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> structure to be shortened. When the function returns, this variable points to the shortened structure.
 
 
 ## -returns

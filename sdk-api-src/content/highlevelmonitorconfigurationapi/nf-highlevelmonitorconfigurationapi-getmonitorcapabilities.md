@@ -59,7 +59,7 @@ Retrieves the configuration capabilities of a monitor. Call this function to fin
 
 ### -param hMonitor [in]
 
-Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
@@ -101,31 +101,31 @@ The capabilities flags returned in <i>pdwMonitorCapabilities</i> specify which h
 </tr>
 <tr>
 <td><b>MC_CAPS_BRIGHTNESS</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/eafdec51-067c-4b57-ac07-ca6237bcde14">GetMonitorBrightness</a> and <a href="https://msdn.microsoft.com/e7cf47f2-f833-4f34-89d2-3143ab57b561">SetMonitorBrightness</a> functions.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorbrightness">GetMonitorBrightness</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorbrightness">SetMonitorBrightness</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_COLOR_TEMPERATURE</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/872aabcc-b274-454c-a08b-6c4c5aa83012">GetMonitorColorTemperature</a> and <a href="https://msdn.microsoft.com/a7f2753c-810f-41e5-9378-4072e8d4bc38">SetMonitorColorTemperature</a> functions.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorcolortemperature">GetMonitorColorTemperature</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorcolortemperature">SetMonitorColorTemperature</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_CONTRAST</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/996d894d-3939-418f-b7d2-c0e9d667391e">GetMonitorContrast</a> and <a href="https://msdn.microsoft.com/7957702b-0ca2-4aaa-bae7-2518d2628f64">SetMonitorContrast</a> functions.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorcontrast">GetMonitorContrast</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorcontrast">SetMonitorContrast</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_DEGAUSS</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/8f476ba3-24d2-456a-9335-873368993d71">DegaussMonitor</a> function.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-degaussmonitor">DegaussMonitor</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_DISPLAY_AREA_POSITION</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/d6dca744-634e-420f-a025-5be9d136969f">GetMonitorDisplayAreaPosition</a> and <a href="https://msdn.microsoft.com/ad7604e5-5ede-479b-881e-0a6060182e5b">SetMonitorDisplayAreaPosition</a> functions.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareaposition">GetMonitorDisplayAreaPosition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareaposition">SetMonitorDisplayAreaPosition</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_DISPLAY_AREA_SIZE</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/c27cbcf8-bb89-47c4-9f37-8b7a3d61c99f">GetMonitorDisplayAreaSize</a> and <a href="https://msdn.microsoft.com/0c3acb13-c5db-44ce-937d-b0b001a08062">SetMonitorDisplayAreaSize</a> functions.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitordisplayareasize">GetMonitorDisplayAreaSize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareasize">SetMonitorDisplayAreaSize</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_MONITOR_TECHNOLOGY_TYPE</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/da3a5f64-2638-464b-973b-33cbe4cc64e7">GetMonitorTechnologyType</a> function.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitortechnologytype">GetMonitorTechnologyType</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_NONE</b></td>
@@ -133,23 +133,23 @@ The capabilities flags returned in <i>pdwMonitorCapabilities</i> specify which h
 </tr>
 <tr>
 <td><b>MC_CAPS_RED_GREEN_BLUE_DRIVE</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/4c590d1c-be28-401a-a0e9-dacf6b86a569">GetMonitorRedGreenOrBlueDrive</a> and <a href="https://msdn.microsoft.com/9d000d86-02f8-442f-954c-c039c9dcc0cd">SetMonitorRedGreenOrBlueDrive</a> functions.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluedrive">GetMonitorRedGreenOrBlueDrive</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluedrive">SetMonitorRedGreenOrBlueDrive</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_RED_GREEN_BLUE_GAIN</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/058d70c4-a29c-4916-a4b9-911db5863363">GetMonitorRedGreenOrBlueGain</a> and <a href="https://msdn.microsoft.com/e8814478-1129-421e-999c-f59321db69b9">SetMonitorRedGreenOrBlueGain</a> functions.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-getmonitorredgreenorbluegain">GetMonitorRedGreenOrBlueGain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluegain">SetMonitorRedGreenOrBlueGain</a> functions.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_RESTORE_FACTORY_COLOR_DEFAULTS</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/e5676134-ae4d-4db6-86fa-dbff0dd14a25">RestoreMonitorFactoryColorDefaults</a> function.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorycolordefaults">RestoreMonitorFactoryColorDefaults</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_CAPS_RESTORE_FACTORY_DEFAULTS</b></td>
-<td>The monitor supports the <a href="https://msdn.microsoft.com/e7ce81c6-28a5-4371-8fc6-d13de33c2e80">RestoreMonitorFactoryDefaults</a> function.</td>
+<td>The monitor supports the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults">RestoreMonitorFactoryDefaults</a> function.</td>
 </tr>
 <tr>
 <td><b>MC_RESTORE_FACTORY_DEFAULTS_ENABLES_MONITOR_SETTINGS</b></td>
-<td>If this flag is present, calling the <a href="https://msdn.microsoft.com/e7ce81c6-28a5-4371-8fc6-d13de33c2e80">RestoreMonitorFactoryDefaults</a> function enables all of the monitor settings used by the high-level monitor configuration functions. For more information, see the Remarks section in <b>RestoreMonitorFactoryDefaults</b>.</td>
+<td>If this flag is present, calling the <a href="https://docs.microsoft.com/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-restoremonitorfactorydefaults">RestoreMonitorFactoryDefaults</a> function enables all of the monitor settings used by the high-level monitor configuration functions. For more information, see the Remarks section in <b>RestoreMonitorFactoryDefaults</b>.</td>
 </tr>
 </table>
  
@@ -210,7 +210,7 @@ The color temperature flags returned in <i>pdwSupportedColorTemperatures</i> spe
 
 
 
-<a href="https://msdn.microsoft.com/e9a00792-f471-47a4-93d7-25400e27f13f">Monitor Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
  
 
  

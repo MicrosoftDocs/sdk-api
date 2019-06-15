@@ -189,7 +189,7 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 
 
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://msdn.microsoft.com/e56bc3f4-2141-4be7-8479-12f8d59971af">PowerSetActiveScheme</a> function.
+       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 
 
@@ -199,7 +199,7 @@ Changes to the settings for the active power scheme do not take effect until you
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
  
 
  

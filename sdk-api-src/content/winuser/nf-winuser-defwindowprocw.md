@@ -114,7 +114,7 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
 
 
@@ -122,7 +122,7 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645450(v=VS.85).aspx">DefDlgProc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defdlgprocw">DefDlgProc</a>
 
 
 
@@ -130,11 +130,11 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632593(v=VS.85).aspx">Window Procedures</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-procedures">Window Procedures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633573(v=VS.85).aspx">WindowProc</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
  
 
  

@@ -61,9 +61,9 @@ The <b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> function creates a user mod
 
 ### -param pEvent [out]
 
-The address of a <b>HANDLE</b> variable that receives the event handle. Use one of the <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>, such as <a href="https://msdn.microsoft.com/e37ebff7-b44e-469d-81ab-7a6bd1a0c822">WaitForSingleObject</a>, to determine when the event has been signaled. The event is unnamed and must be a manual-reset event. The event is signaled when any CNG configuration data has changed.
+The address of a <b>HANDLE</b> variable that receives the event handle. Use one of the <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>, such as <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>, to determine when the event has been signaled. The event is unnamed and must be a manual-reset event. The event is signaled when any CNG configuration data has changed.
 
-This handle must be passed to the <a href="https://msdn.microsoft.com/204d289d-46c0-4815-a628-758310014790">BCryptUnregisterConfigChangeNotify(HANDLE)</a> function to remove the event notification.
+This handle must be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(HANDLE)</a> function to remove the event notification.
 
 
 ## -returns
@@ -127,7 +127,7 @@ A memory allocation failure occurred.
 
 The handle returned in the variable pointed to by the <i>phEvent</i> parameter will be signaled when a change to the CNG configuration occurs.
 
-<b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://msdn.microsoft.com/ca30e81d-d384-4574-8394-42542a504218">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>.
+<b>BCryptRegisterConfigChangeNotify(HANDLE*)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>.
 
 
 
@@ -137,7 +137,7 @@ The handle returned in the variable pointed to by the <i>phEvent</i> parameter w
 
 
 
-<a href="https://msdn.microsoft.com/204d289d-46c0-4815-a628-758310014790">BCryptUnregisterConfigChangeNotify(HANDLE)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(HANDLE)</a>
  
 
  

@@ -62,7 +62,7 @@ Describes an entry from a list of the processes residing in the system address s
 ### -field dwSize
 
 The size of the structure, in bytes. Before calling the 
-<a href="https://msdn.microsoft.com/097790e8-30c2-4b00-9256-fa26e2ceb893">Process32First</a> function, set this member to <code>sizeof(PROCESSENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a> function, set this member to <code>sizeof(PROCESSENTRY32)</code>. If you do not initialize <b>dwSize</b>, 
 <b>Process32First</b> fails.
 
 
@@ -108,7 +108,7 @@ This member is no longer used, and is always set to zero.
 
 ### -field szExeFile
 
-The name of the executable file for the process. To retrieve the full path to the executable file, call the <a href="https://msdn.microsoft.com/bb41cab9-13a1-469d-bf76-68c172e982f6">Module32First</a> function and check the <b>szExePath</b> member of the <a href="https://msdn.microsoft.com/305fab35-625c-42e3-a434-e2513e4c8870">MODULEENTRY32</a> structure that is returned. However, if the calling process is a 32-bit process, you must call the <a href="https://msdn.microsoft.com/49a9d1aa-30f3-45ea-a4ec-9f55df692b8b">QueryFullProcessImageName</a> function to retrieve the full path of the executable file for a 64-bit process.
+The name of the executable file for the process. To retrieve the full path to the executable file, call the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a> function and check the <b>szExePath</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-tagmoduleentry32">MODULEENTRY32</a> structure that is returned. However, if the calling process is a 32-bit process, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the full path of the executable file for a 64-bit process.
 
 
 ## -see-also
@@ -116,11 +116,11 @@ The name of the executable file for the process. To retrieve the full path to th
 
 
 
-<a href="https://msdn.microsoft.com/097790e8-30c2-4b00-9256-fa26e2ceb893">Process32First</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>
 
 
 
-<a href="https://msdn.microsoft.com/843a95fd-27ae-4215-83d0-82fc402b82b6">Process32Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32next">Process32Next</a>
  
 
  

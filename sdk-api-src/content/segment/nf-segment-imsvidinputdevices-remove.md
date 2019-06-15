@@ -138,7 +138,7 @@ Unexpected error.
 
 
 
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://msdn.microsoft.com/en-us/library/Dd694572(v=VS.85).aspx">IMSVidInputDevices::get_Count</a> - 1.
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevices-get_count">IMSVidInputDevices::get_Count</a> - 1.
 
 
 
@@ -148,11 +148,11 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 
-<a href="https://msdn.microsoft.com/cb9d9885-718e-43b9-b195-66149bd7e973">IMSVidInputDevices Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694571(v=VS.85).aspx">IMSVidInputDevices::Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevices-add">IMSVidInputDevices::Add</a>
  
 
  

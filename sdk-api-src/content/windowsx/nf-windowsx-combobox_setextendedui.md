@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_DROPDOWN</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775796(v=VS.85).aspx">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775905(v=VS.85).aspx">CB_SETEXTENDEDUI</a> message explicitly.
+Selects either the default user interface (UI) or the extended UI for a combo box that has the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_DROPDOWN</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_DROPDOWNLIST</a> style. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setextendedui">CB_SETEXTENDEDUI</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Selects either the default user interface (UI) or the extended UI for a combo bo
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Zero to use the default UI, or nonzero to use the extended UI.
 
@@ -75,7 +75,7 @@ Zero to use the default UI, or nonzero to use the extended UI.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775905(v=VS.85).aspx">CB_SETEXTENDEDUI</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-setextendedui">CB_SETEXTENDEDUI</a>.
 	
 
 

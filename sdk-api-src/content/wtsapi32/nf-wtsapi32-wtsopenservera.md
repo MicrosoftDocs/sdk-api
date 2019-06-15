@@ -80,7 +80,7 @@ If the function fails, it returns a handle that is not valid. You can test the v
 
 
 When you have finished using the handle returned by 
-<b>WTSOpenServer</b>, release it by calling the <a href="https://msdn.microsoft.com/092a6107-21bf-40a7-9fe7-f069eb0c89ca">WTSCloseServer</a> function.
+<b>WTSOpenServer</b>, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscloseserver">WTSCloseServer</a> function.
 
 You do not need to open a handle for operations performed on the RD Session Host server on which your application is running. Use the constant <b>WTS_CURRENT_SERVER_HANDLE</b> instead.
 
@@ -92,7 +92,7 @@ You do not need to open a handle for operations performed on the RD Session Hos
 
 
 
-<a href="https://msdn.microsoft.com/092a6107-21bf-40a7-9fe7-f069eb0c89ca">WTSCloseServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscloseserver">WTSCloseServer</a>
  
 
  

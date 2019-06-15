@@ -59,7 +59,7 @@ The <b>ITfTransitoryExtensionUIElement::GetDocumentMgr</b> method returns the po
 
 ### -param ppdim [out]
 
-[out] A pointer to receive the <a href="https://msdn.microsoft.com/e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd">ITfDocumentMgr</a> interface pointer. This document manager object contains a context object that has the <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> interface and contains the text of the transitory extension.
+[out] A pointer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer. This document manager object contains a context object that has the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface and contains the text of the transitory extension.
 
 
 ## -returns

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds the objects contained in an <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a> to the collection.
+Adds the objects contained in an <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> to the collection.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Adds the objects contained in an <a href="https://msdn.microsoft.com/ab0bb213-dc
 
 ### -param poaSource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/ab0bb213-dc9c-4853-98d7-668e7ca76583">IObjectArray</a> whose contents are to be added to the collection.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> whose contents are to be added to the collection.
 
 
 ## -returns

@@ -59,7 +59,7 @@ The <b>IKEEXT_CERT_NAME0</b> structure specifies certificate selection "subject"
 
 ### -field nameType
 
-Type: <b><a href="https://msdn.microsoft.com/ec59d6b2-3bfc-4e5b-9222-609d3141db5c">IKEEXT_CERT_CRITERIA_NAME_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type_">IKEEXT_CERT_CRITERIA_NAME_TYPE</a></b>
 
 The type of NAME field.
 
@@ -76,7 +76,7 @@ The string to be used for matching the "subject" criteria.
 
 
 
-<a href="https://msdn.microsoft.com/ec59d6b2-3bfc-4e5b-9222-609d3141db5c">IKEEXT_CERT_CRITERIA_NAME_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type_">IKEEXT_CERT_CRITERIA_NAME_TYPE</a>
  
 
  

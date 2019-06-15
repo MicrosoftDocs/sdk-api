@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-Call <a href="https://msdn.microsoft.com/2829dab5-253d-4ade-bba5-d399afe87a28">PropertyId</a> to identify the property to retrieve before calling the <b>RawData</b> property.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_propertyid">PropertyId</a> to identify the property to retrieve before calling the <b>RawData</b> property.
 
 
 
@@ -72,7 +72,7 @@ Call <a href="https://msdn.microsoft.com/2829dab5-253d-4ade-bba5-d399afe87a28">P
 
 
 
-<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
  
 
  

@@ -80,7 +80,7 @@ Per-user folders are those stored under each user's profile and accessible only 
 
 
 
-<div class="alert"><b>Note</b>  The user profile root folder (<a href="https://msdn.microsoft.com/f2c08ade-3083-44e4-82b0-dde45f0e3094">FOLDERID_Profile</a>) does not support redirection.</div>
+<div class="alert"><b>Note</b>  The user profile root folder (<a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Profile</a>) does not support redirection.</div>
 <div> </div>
 
 ## -remarks
@@ -105,15 +105,15 @@ typedef DWORD KF_CATEGORY;
 
 
 
-<a href="https://msdn.microsoft.com/b3a7f249-9d57-4bd1-830f-1c83c745782f">IKnownFolder::GetCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getcategory">IKnownFolder::GetCategory</a>
 
 
 
-<a href="https://msdn.microsoft.com/08bd8406-68fa-4e02-9a64-ed5e62f8639b">KNOWNFOLDER_DEFINITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/49799A9E-BA86-4977-B5F3-590BE1E5FBF6">Known Folders Sample</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
  
 
  

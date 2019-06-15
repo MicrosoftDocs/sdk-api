@@ -54,7 +54,7 @@ Enables you to obtain the following information about the apartment and thread t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComThreadingInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IComThreadingInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComThreadingInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComThreadingInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IComThreadingInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59cb216f-818c-4189-b77b-984961889a62">GetCurrentApartmentType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">GetCurrentApartmentType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of apartment in which the caller is executing.
@@ -78,7 +78,7 @@ Retrieves the type of apartment in which the caller is executing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/780bc94d-19b6-4cc8-b27f-9e38520b0afc">GetCurrentLogicalThreadId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentlogicalthreadid">GetCurrentLogicalThreadId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID of the thread in which the caller is executing.
@@ -87,7 +87,7 @@ Retrieves the GUID of the thread in which the caller is executing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93437e45-f1e7-4f1f-bffb-ef234c7f5a6b">GetCurrentThreadType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentthreadtype">GetCurrentThreadType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of thread in which the caller is executing.
@@ -96,7 +96,7 @@ Retrieves the type of thread in which the caller is executing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8a2fb319-094e-4384-b520-2cb8b8819d42">SetCurrentLogicalThreadId</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-setcurrentlogicalthreadid">SetCurrentLogicalThreadId</a>
 </td>
 <td align="left" width="63%">
 Sets the GUID of the thread in which the caller is executing.
@@ -110,7 +110,7 @@ Sets the GUID of the thread in which the caller is executing.
 
 
 
- An instance of this interface for the current context can be obtained using <a href="https://msdn.microsoft.com/97a0c6c3-a011-44dc-b428-aabdad7d4364">CoGetObjectContext</a>.
+ An instance of this interface for the current context can be obtained using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext">CoGetObjectContext</a>.
 
 
 

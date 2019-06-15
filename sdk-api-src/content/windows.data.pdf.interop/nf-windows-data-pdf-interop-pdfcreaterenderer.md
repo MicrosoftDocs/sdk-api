@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an instance of the <a href="https://msdn.microsoft.com/96a00afb-e957-4e49-8f30-d6a3d639680f">IPdfRendererNative</a> interface for displaying a single page of a Portable Document Format (PDF) file.
+Gets an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a> interface for displaying a single page of a Portable Document Format (PDF) file.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ An instance of a  Microsoft DirectX Graphics Infrastructure (DXGI) object that i
 
 ### -param ppRenderer [out]
 
-An instance of the high-performance <a href="https://msdn.microsoft.com/96a00afb-e957-4e49-8f30-d6a3d639680f">IPdfRendererNative</a> interface for  rendering PDF content on a DirectX surface.
+An instance of the high-performance <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a> interface for  rendering PDF content on a DirectX surface.
 
 
 ## -returns

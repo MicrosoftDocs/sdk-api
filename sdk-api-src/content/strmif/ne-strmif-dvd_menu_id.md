@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the DVD menu in a call to <a href="https://msdn.microsoft.com/7427ff6c-875b-40ce-aa96-3d32b607dc56">IDvdControl2::ShowMenu</a>.
+Specifies the DVD menu in a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-showmenu">IDvdControl2::ShowMenu</a>.
 
 
 
@@ -104,11 +104,11 @@ The root menu always provides a means of getting to the subpicture, audio, angle
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/7427ff6c-875b-40ce-aa96-3d32b607dc56">IDvdControl2::ShowMenu</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-showmenu">IDvdControl2::ShowMenu</a>
  
 
  

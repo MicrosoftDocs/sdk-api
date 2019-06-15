@@ -51,15 +51,15 @@ ms.custom: 19H1
 
 The 
 <b>ITBasicCallControl2</b> interface is an extension of the 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a> interface. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a> interface. 
 <b>ITBasicCallControl2</b> supplies additional methods that allow an application to select a terminal onto a call. The 
 <b>ITBasicCallControl2</b> interface is created by calling <b>QueryInterface</b> on 
-<a href="https://msdn.microsoft.com/5209d4a1-e05b-453e-8896-2dc71f0b9af0">ITCallInfo</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITBasicCallControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITBasicCallControl2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITBasicCallControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>ITBasicCallControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20b7266c-8990-457c-94cf-18cc2bed6b21">RequestTerminal</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-requestterminal">RequestTerminal</a>
 </td>
 <td align="left" width="63%">
 Gets a suitable terminal, given the class, media, and direction required.
@@ -83,7 +83,7 @@ Gets a suitable terminal, given the class, media, and direction required.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87117ec1-0d61-4edb-8ed6-0d029a77e1a5">SelectTerminalOnCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall">SelectTerminalOnCall</a>
 </td>
 <td align="left" width="63%">
 Selects a terminal onto the call.
@@ -92,7 +92,7 @@ Selects a terminal onto the call.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93795757-58b6-4eb5-9d0c-f7c0a3bb9695">UnselectTerminalOnCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-unselectterminaloncall">UnselectTerminalOnCall</a>
 </td>
 <td align="left" width="63%">
 Unselects a terminal from the call.
@@ -107,11 +107,11 @@ Unselects a terminal from the call.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
  
 
  

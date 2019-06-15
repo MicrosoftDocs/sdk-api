@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>WM_PICTURE</b> structure is used as the data item for the <a href="https://msdn.microsoft.com/ec82dfdf-7755-4758-9771-096aac114f78">WM/Picture</a> complex metadata attribute.
+The <b>WM_PICTURE</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmpicture">WM/Picture</a> complex metadata attribute.
 
 
 
@@ -182,7 +182,7 @@ Pointer to a <b>BYTE</b> array containing the picture data.
 
 
 
-<a href="https://msdn.microsoft.com/118ef278-ca4f-4c30-9633-a2d851f5c758">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
  
 
  

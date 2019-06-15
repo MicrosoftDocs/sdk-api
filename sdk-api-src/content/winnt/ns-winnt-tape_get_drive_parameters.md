@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>TAPE_GET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a> function.
+<b>TAPE_GET_DRIVE_PARAMETERS</b> structure describes the tape drive. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
 
 
 ## -struct-fields
@@ -699,7 +699,7 @@ Indicates the number of bytes between the end-of-tape warning and the physical e
 
 
 
-<a href="https://msdn.microsoft.com/87e59e29-e174-4462-b692-512c3380eb4d">GetTapeParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
  
 
  

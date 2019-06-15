@@ -171,7 +171,7 @@ Reserved for future use.
 
 
 
-Returns a pointer to the selected certificate context. If no certificate was selected, <b>NULL</b> is returned. When you have finished using the certificate, free the certificate context by calling the <a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a> function.
+Returns a pointer to the selected certificate context. If no certificate was selected, <b>NULL</b> is returned. When you have finished using the certificate, free the certificate context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 
 
@@ -181,7 +181,7 @@ Returns a pointer to the selected certificate context. If no certificate was sel
 
 
 
-<a href="https://msdn.microsoft.com/d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f">CryptUIDlgViewContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuidlgviewcontext">CryptUIDlgViewContext</a>
  
 
  

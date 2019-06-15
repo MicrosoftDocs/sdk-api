@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertGetCertificateChain</b> function builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">root certificate</a>.
+The <b>CertGetCertificateChain</b> function builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificate</a>.
 
 
 ## -parameters
@@ -65,23 +65,23 @@ A handle of the chain engine (namespace and cache) to be used. If <i>hChainEngin
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> of the end certificate, the certificate for which a chain is being built. This certificate context will be the zero-index element in the first simple chain.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> of the end certificate, the certificate for which a chain is being built. This certificate context will be the zero-index element in the first simple chain.
 
 
 ### -param pTime [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> variable that indicates the time for which the chain is to be validated. Note that the time does not affect trust list, revocation, or root store checking. The current system time is used if <b>NULL</b> is passed to this parameter. Trust in a particular certificate being a trusted root is based on the current <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a> of the root store and not the state of the root store at a time passed in by this parameter. For revocation, a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL), itself, must be valid at the current time. The value of this parameter is used to determine whether a certificate listed in a CRL has been revoked.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> variable that indicates the time for which the chain is to be validated. Note that the time does not affect trust list, revocation, or root store checking. The current system time is used if <b>NULL</b> is passed to this parameter. Trust in a particular certificate being a trusted root is based on the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the root store and not the state of the root store at a time passed in by this parameter. For revocation, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), itself, must be valid at the current time. The value of this parameter is used to determine whether a certificate listed in a CRL has been revoked.
 
 
 ### -param hAdditionalStore [in]
 
-A handle to any additional store to search for supporting certificates and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust lists</a> (CTLs). This parameter can be <b>NULL</b> if no additional store is to be searched. 
+A handle to any additional store to search for supporting certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs). This parameter can be <b>NULL</b> if no additional store is to be searched. 
 
 
 ### -param pChainPara [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure that includes chain-building parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure that includes chain-building parameters.
 
 
 ### -param dwFlags [in]
@@ -122,7 +122,7 @@ Revocation checking only accesses cached URLs.
 </dl>
 </td>
 <td width="60%">
-This flag is used internally during chain building for an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) signer certificate to prevent cyclic revocation checks. During chain building, if the OCSP response is signed by an independent OCSP signer, then, in addition to the original chain build, there is a second chain built for the OCSP signer certificate itself. This flag is used during this second chain build to inhibit a recursive independent OCSP signer certificate. If the signer certificate contains the
+This flag is used internally during chain building for an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) signer certificate to prevent cyclic revocation checks. During chain building, if the OCSP response is signed by an independent OCSP signer, then, in addition to the original chain build, there is a second chain built for the OCSP signer certificate itself. This flag is used during this second chain build to inhibit a recursive independent OCSP signer certificate. If the signer certificate contains the
 <b>szOID_PKIX_OCSP_NOCHECK</b> extension, revocation checking is skipped
 for the leaf signer certificate. Both OCSP and CRL checking are allowed.
 
@@ -223,7 +223,7 @@ Setting this flag inhibits the auto update of third-party roots from the Windows
 </dl>
 </td>
 <td width="60%">
-When you set CERT_CHAIN_REVOCATION_ACCUMULATIVE_TIMEOUT and you also specify a value for the <i>dwUrlRetrievalTimeout</i> member of the <a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure, the value you specify in <i>dwUrlRetrievalTimeout</i> represents the cumulative timeout across all revocation URL retrievals.
+When you set CERT_CHAIN_REVOCATION_ACCUMULATIVE_TIMEOUT and you also specify a value for the <i>dwUrlRetrievalTimeout</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure, the value you specify in <i>dwUrlRetrievalTimeout</i> represents the cumulative timeout across all revocation URL retrievals.
 
 If you set CERT_CHAIN_REVOCATION_ACCUMULATIVE_TIMEOUT but do not specify a <i>dwUrlRetrievalTimeout</i> value, the maximum cumulative timeout is set, by default, to 20 seconds. Each URL tested will timeout after half of the remaining cumulative balance has passed. That is, the first URL times out after 10 seconds, the second after 5 seconds, the third after 2.5 seconds and so on until a URL succeeds, 20 seconds has passed, or there are no more URLs to test.
 
@@ -240,7 +240,7 @@ You can set the default values by using Group Policy.
 </dl>
 </td>
 <td width="60%">
-When this flag is set, <i>pTime</i> is used as the time stamp time to determine whether the end certificate was time valid. Current time can also be used to determine whether the end certificate remains time valid. All other <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) and root certificates in the chain are checked by using current time and not <i>pTime</i>.
+When this flag is set, <i>pTime</i> is used as the time stamp time to determine whether the end certificate was time valid. Current time can also be used to determine whether the end certificate remains time valid. All other <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) and root certificates in the chain are checked by using current time and not <i>pTime</i>.
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 ### -param ppChainContext [out]
 
-The address of a pointer to the chain context created. When you have finished using the chain context, release the chain by calling the <a href="https://msdn.microsoft.com/5ba181c2-6936-4848-a571-2bb58f46f081">CertFreeCertificateChain</a> function.
+The address of a pointer to the chain context created. When you have finished using the chain context, release the chain by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function.
 
 
 ## -returns
@@ -319,7 +319,7 @@ The address of a pointer to the chain context created. When you have finished us
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns  zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -329,24 +329,24 @@ If the function fails, it returns  zero (<b>FALSE</b>). For extended error infor
 
 
 When an application requests a certificate chain, the structure returned is in the form of a 
-<a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a>. This context contains an array of 
-<a href="https://msdn.microsoft.com/c130cab4-bf8d-429a-beb7-04cb5d37d466">CERT_SIMPLE_CHAIN</a> structures where each simple chain goes from an end certificate to a self-signed certificate. The chain context connects simple chains through trust lists. Each simple chain contains the chain of certificates, summary trust information about the chain, and trust information about each certificate element in the chain.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a>. This context contains an array of 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_simple_chain">CERT_SIMPLE_CHAIN</a> structures where each simple chain goes from an end certificate to a self-signed certificate. The chain context connects simple chains through trust lists. Each simple chain contains the chain of certificates, summary trust information about the chain, and trust information about each certificate element in the chain.
 
 The following remarks apply to strong signature checking:<ul>
 <li>
-You can enable strong signature checking for this function by setting the <b>pStrongSignPara</b> member of the <a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure that is pointed to by the  <i>pChainPara</i> parameter.
+You can enable strong signature checking for this function by setting the <b>pStrongSignPara</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure that is pointed to by the  <i>pChainPara</i> parameter.
 
 </li>
 <li>
-If a certificate without a strong signature is found in the chain, the <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> and <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://msdn.microsoft.com/af1e1db2-7b53-4491-8317-4abf3568fb03">CERT_TRUST_STATUS</a> structure. The <i>ppChainContext</i> parameter points to a <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structure which, in turn, points to the  <b>CERT_TRUST_STATUS</b> structure.
+If a certificate without a strong signature is found in the chain, the <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> and <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a> structure. The <i>ppChainContext</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_context">CERT_CHAIN_CONTEXT</a> structure which, in turn, points to the  <b>CERT_TRUST_STATUS</b> structure.
 
 </li>
 <li>
-If the chain is strong signed, the public key in the end certificate is checked to determine whether it  satisfies the minimum public key length requirements for a strong signature.  If the condition is not satisfied, the <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> and <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://msdn.microsoft.com/af1e1db2-7b53-4491-8317-4abf3568fb03">CERT_TRUST_STATUS</a> structure. To disable checking the key length, set the <b>CERT_CHAIN_STRONG_SIGN_DISABLE_END_CHECK_FLAG</b> value in the <b>dwStrongSignFlags</b> member of the <a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a> structure pointed to by the  <i>pChainPara</i> parameter.
+If the chain is strong signed, the public key in the end certificate is checked to determine whether it  satisfies the minimum public key length requirements for a strong signature.  If the condition is not satisfied, the <b>CERT_TRUST_HAS_WEAK_SIGNATURE</b> and <b>CERT_TRUST_IS_NOT_SIGNATURE_VALID</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a> structure. To disable checking the key length, set the <b>CERT_CHAIN_STRONG_SIGN_DISABLE_END_CHECK_FLAG</b> value in the <b>dwStrongSignFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a> structure pointed to by the  <i>pChainPara</i> parameter.
 
 </li>
 <li>
-If the <b>CERT_STRONG_SIGN_ENABLE_CRL_CHECK</b> or <b>CERT_STRONG_SIGN_ENABLE_OCSP_CHECK</b> flags are set in the <a href="https://msdn.microsoft.com/B89CDF67-4620-47B2-8363-717D284368FD">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure and a CRL or OCSP response is found without a strong signature, the CRL or OCSP response will be treated as being offline. That is, the <b>CERT_TRUST_IS_OFFLINE_REVOCATION</b> and <b>CERT_TRUST_REVOCATION_STATUS_UNKNOWN</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://msdn.microsoft.com/af1e1db2-7b53-4491-8317-4abf3568fb03">CERT_TRUST_STATUS</a> structure. Also, the <b>dwRevocationResult</b> member of the <a href="https://msdn.microsoft.com/798aa2d7-bf8a-425f-bc36-98a44ba3a9d6">CERT_REVOCATION_INFO</a> structure is set to <b>NTE_BAD_ALGID</b>.  
+If the <b>CERT_STRONG_SIGN_ENABLE_CRL_CHECK</b> or <b>CERT_STRONG_SIGN_ENABLE_OCSP_CHECK</b> flags are set in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a> structure and a CRL or OCSP response is found without a strong signature, the CRL or OCSP response will be treated as being offline. That is, the <b>CERT_TRUST_IS_OFFLINE_REVOCATION</b> and <b>CERT_TRUST_REVOCATION_STATUS_UNKNOWN</b> errors are set in the <b>dwErrorStatus</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_trust_status">CERT_TRUST_STATUS</a> structure. Also, the <b>dwRevocationResult</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_revocation_info">CERT_REVOCATION_INFO</a> structure is set to <b>NTE_BAD_ALGID</b>.  
 
 </li>
 </ul>
@@ -356,7 +356,7 @@ If the <b>CERT_STRONG_SIGN_ENABLE_CRL_CHECK</b> or <b>CERT_STRONG_SIGN_ENABLE_OC
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://msdn.microsoft.com/960f2bb9-130f-494f-9af0-0ab8ae3eb6e2">Example C Program: Creating a Certificate Chain</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-creating-a-certificate-chain">Example C Program: Creating a Certificate Chain</a>.
 
 <div class="code"></div>
 
@@ -367,19 +367,19 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/86094e1c-be59-4a15-a05b-21769f80e653">CERT_CHAIN_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_para">CERT_CHAIN_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/fea72a3e-5a22-47c7-8f6e-0d76fc3339f8">CertDuplicateCertificateChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatechain">CertDuplicateCertificateChain</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ba181c2-6936-4848-a571-2bb58f46f081">CertFreeCertificateChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Chain Verification Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
  
 
  

@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The
 				<b>AT_INFO</b> structure contains information about a job. The 
-<a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">NetScheduleJobAdd</a> function uses the structure to specify information when scheduling a job. The 
-<a href="https://msdn.microsoft.com/44589715-edab-4737-9e49-6f491fd44c28">NetScheduleJobGetInfo</a> function uses the structure to retrieve information about a job that has already been submitted.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a> function uses the structure to specify information when scheduling a job. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobgetinfo">NetScheduleJobGetInfo</a> function uses the structure to retrieve information about a job that has already been submitted.
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ A set of bit flags describing job properties.
 
 
  When you submit a job using a call to the 
-<a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">NetScheduleJobAdd</a> function, you can specify one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a> function, you can specify one of the following values.
 
 <table>
 <tr>
@@ -154,7 +154,7 @@ If this flag is clear, the job runs interactively.
  
 
  When you call 
-<a href="https://msdn.microsoft.com/44589715-edab-4737-9e49-6f491fd44c28">NetScheduleJobGetInfo</a> to retrieve job information, the function can return one or more of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobgetinfo">NetScheduleJobGetInfo</a> to retrieve job information, the function can return one or more of the following values.
 
 <table>
 <tr>
@@ -217,7 +217,7 @@ A pointer to a Unicode string that contains the name of the command, batch progr
 
 
 For more information about scheduling jobs that execute once, jobs that execute multiple times, and jobs that execute periodically without deletion, see 
-<a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">NetScheduleJobAdd</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>.
 
 
 
@@ -227,23 +227,23 @@ For more information about scheduling jobs that execute once, jobs that execute 
 
 
 
-<a href="https://msdn.microsoft.com/813d13ba-abe1-4b14-88c7-87ba88a42a3b">NetScheduleJobAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/44589715-edab-4737-9e49-6f491fd44c28">NetScheduleJobGetInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobgetinfo">NetScheduleJobGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ddc9b95-fdbc-4e39-9b55-2a5bc570b95d">Schedule Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>
  
 
  

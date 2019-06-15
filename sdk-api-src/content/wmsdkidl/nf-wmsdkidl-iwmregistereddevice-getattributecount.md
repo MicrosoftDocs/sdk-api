@@ -98,7 +98,7 @@ The method succeeded.
 
 
 
-To enumerate the device attributes, first call this method and then call <a href="https://msdn.microsoft.com/02a582d4-329e-47e3-9dbe-dba8a3e4b4b3">GetAttributeByIndex</a> for index values from zero through one less than the total number of attributes.
+To enumerate the device attributes, first call this method and then call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributebyindex">GetAttributeByIndex</a> for index values from zero through one less than the total number of attributes.
 
 
 
@@ -108,7 +108,7 @@ To enumerate the device attributes, first call this method and then call <a href
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743621(v=VS.85).aspx">IWMRegisteredDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
  
 
  

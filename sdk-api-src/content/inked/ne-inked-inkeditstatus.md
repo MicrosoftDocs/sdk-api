@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies whether the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is idle, collecting ink, or recognizing ink.
+Specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
 
 
 
@@ -62,17 +62,17 @@ Specifies whether the <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba1
 
 ### -field IES_Idle
 
-The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is neither collecting nor recognizing ink.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is neither collecting nor recognizing ink.
 
 
 ### -field IES_Collecting
 
-The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is collecting ink.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is collecting ink.
 
 
 ### -field IES_Recognizing
 
-The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control is recognizing ink.
+The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is recognizing ink.
 
 
 ## -see-also
@@ -80,15 +80,15 @@ The <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">In
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit Control Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">InkEdit Messages</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/47a41d5c-2598-4dfc-a5b5-af4df7fdaa6d">Status Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status Property</a>
  
 
  

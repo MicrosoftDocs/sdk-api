@@ -64,7 +64,7 @@ Indicates the external joystick number being addressed.
 
 ### -param arg2
 
-Points to a <a href="https://msdn.microsoft.com/86885ca6-0b1f-42cb-8d6e-d5140e579905">DIDEVICESTATE</a> structure that receives the device state. DirectInput sets the <b>dwSize</b> member of the DIDEVICESTATE structure to <b>sizeof</b>(DIDEVICESTATE) before calling this method. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-didevicestate">DIDEVICESTATE</a> structure that receives the device state. DirectInput sets the <b>dwSize</b> member of the DIDEVICESTATE structure to <b>sizeof</b>(DIDEVICESTATE) before calling this method. 
 
 
 ## -returns

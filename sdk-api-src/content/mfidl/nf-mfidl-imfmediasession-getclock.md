@@ -63,7 +63,7 @@ Retrieves the Media Session's presentation clock.
 
 ### -param ppClock [out]
 
-Receives a pointer to the presentation clock's <a href="https://msdn.microsoft.com/3a60bfec-8511-4a84-a833-e0c73c593970">IMFClock</a> interface. The caller must release the interface.
+Receives a pointer to the presentation clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The Media Session has been shut down.
 
 
 
-The application can query the returned <a href="https://msdn.microsoft.com/3a60bfec-8511-4a84-a833-e0c73c593970">IMFClock</a> pointer for the <a href="https://msdn.microsoft.com/979c4f77-cbee-468c-8f6b-e68442d89025">IMFPresentationClock</a> interface. However, the application should not use this interface to control the state of the presentation clock. Instead, the application should always call the transport control methods on the Media Session's <a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a> interface, such as <a href="https://msdn.microsoft.com/1bdec0c0-b042-4e5e-a72b-b15942750ced">Start</a>, <a href="https://msdn.microsoft.com/9cc769cc-24ef-4790-a10e-4aec8fb4fc1f">Stop</a>, and <a href="https://msdn.microsoft.com/fcc576ba-f8be-4106-a270-756b2abf52d4">Pause</a>.
+The application can query the returned <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a> pointer for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. However, the application should not use this interface to control the state of the presentation clock. Instead, the application should always call the transport control methods on the Media Session's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a> interface, such as <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start">Start</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-stop">Stop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-pause">Pause</a>.
 
 
 
@@ -130,7 +130,7 @@ The application can query the returned <a href="https://msdn.microsoft.com/3a60b
 
 
 
-<a href="https://msdn.microsoft.com/feebf891-73fa-4fe6-94ca-3594986fc92d">IMFMediaSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
  
 
  

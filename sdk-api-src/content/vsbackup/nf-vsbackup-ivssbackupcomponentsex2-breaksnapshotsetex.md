@@ -64,12 +64,12 @@ A shadow copy set identifier.
 
 ### -param dwBreakFlags [in]
 
-A bitmask of <a href="https://msdn.microsoft.com/545977ae-7f62-4a8e-9d2f-936224f413b7">_VSS_HARDWARE_OPTIONS</a> flags that specify how the shadow copy set is broken.
+A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that specify how the shadow copy set is broken.
 
 
 ### -param ppAsync [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method must be called for this interface pointer.
+A pointer to a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used to retrieve the status of the shadow copy set break operation. When the break operation is complete, the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method must be called for this interface pointer.
 
 
 ## -returns
@@ -175,7 +175,7 @@ The shadow copy was created by a software provider and cannot be broken.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -191,11 +191,11 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-<b>BreakSnapshotSetEx</b> is similar to the <a href="https://msdn.microsoft.com/8c366f19-b10f-46cd-b5dc-cc3c77c5a008">IVssBackupComponents::BreakSnapshotSet</a> method, except that it has extra parameters to query status and specify how the shadow copy set is broken.
+<b>BreakSnapshotSetEx</b> is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">IVssBackupComponents::BreakSnapshotSet</a> method, except that it has extra parameters to query status and specify how the shadow copy set is broken.
 
-Like <a href="https://msdn.microsoft.com/8c366f19-b10f-46cd-b5dc-cc3c77c5a008">BreakSnapshotSet</a>, <b>BreakSnapshotSetEx</b> can be used only for shadow copies that were created by a hardware shadow copy provider.
+Like <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">BreakSnapshotSet</a>, <b>BreakSnapshotSetEx</b> can be used only for shadow copies that were created by a hardware shadow copy provider.
 
-After this method returns, the shadow copy volume is still a volume, but it is no longer a shadow copy. For more information, see <a href="https://msdn.microsoft.com/fb796b2f-b6fb-48ee-8d42-36f88cb165aa">Breaking Shadow Copies</a>.
+After this method returns, the shadow copy volume is still a volume, but it is no longer a shadow copy. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/breaking-shadow-copies">Breaking Shadow Copies</a>.
 
 
 

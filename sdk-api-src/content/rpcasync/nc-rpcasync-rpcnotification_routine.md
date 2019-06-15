@@ -61,7 +61,7 @@ The
 ### -param *pAsync
 
 Pointer to a structure that contains the current state of the asynchronous RPC run-time library. For more information, see 
-<a href="https://msdn.microsoft.com/ad004f49-89a6-486c-80ec-5b85ab4b8db9">RPC_ASYNC_STATE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>.
 
 
 ### -param *Context
@@ -72,7 +72,7 @@ Reserved for future use. Windows 2000 currently sets this parameter to <b>NULL<
 ### -param Event
 
 A value from the 
-<a href="https://msdn.microsoft.com/6b173ec8-2b58-4a99-87cd-cdf1f92a35ad">RPC_ASYNC_EVENT</a> enumerated type that identifies the current asynchronous event.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ne-rpcasync-_rpc_async_event">RPC_ASYNC_EVENT</a> enumerated type that identifies the current asynchronous event.
 
 
 ## -returns
@@ -89,8 +89,8 @@ This function does not return a value.
 
 
 For each 
-<a href="https://msdn.microsoft.com/2586c10e-8284-419f-a200-4f6b11953688">asynchronous remote procedure call</a> that a client program executes, it can specify an 
-<a href="https://msdn.microsoft.com/0197d78e-a4dc-414b-88ba-c5ec5f2ed614">asynchronous procedure call (APC)</a>. The RPC run-time library will invoke the APC when the asynchronous remote procedure call completes. The APC function must match the prototype specified by 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">asynchronous remote procedure call</a> that a client program executes, it can specify an 
+<a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">asynchronous procedure call (APC)</a>. The RPC run-time library will invoke the APC when the asynchronous remote procedure call completes. The APC function must match the prototype specified by 
 <b>RPCNOTIFICATION_ROUTINE</b>.
 
 
@@ -101,11 +101,11 @@ For each
 
 
 
-<a href="https://msdn.microsoft.com/2586c10e-8284-419f-a200-4f6b11953688">Asynchronous RPC</a>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad004f49-89a6-486c-80ec-5b85ab4b8db9">RPC_ASYNC_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-_rpc_async_state">RPC_ASYNC_STATE</a>
  
 
  

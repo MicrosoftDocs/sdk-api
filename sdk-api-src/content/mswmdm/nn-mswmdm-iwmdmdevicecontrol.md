@@ -50,16 +50,16 @@ ms.custom: 19H1
 
 
 
-The <b>IWMDMDeviceControl</b> interface provides methods for controlling playback on a device. Query an <b>IWMDMDevice</b> interface to get this interface. Playback parameters are controlled by the <a href="https://msdn.microsoft.com/ebc6ad10-02c1-4cc9-8a09-d1fe7aef146a">IWMDMObjectInfo</a> interface.
+The <b>IWMDMDeviceControl</b> interface provides methods for controlling playback on a device. Query an <b>IWMDMDevice</b> interface to get this interface. Playback parameters are controlled by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo</a> interface.
 
-The <b>IWMDMDeviceControl</b> interface methods support several modes of audio control, depending on the context in which they are used. That context is defined by the <a href="https://msdn.microsoft.com/f416a520-197c-4607-979e-8f43951f2076">IWMDMDeviceControl::Seek</a> method. The <a href="https://msdn.microsoft.com/61d0e44c-f1be-4837-a773-48c6c5278fe0">IWMDMDeviceControl::GetCapabilities</a> method is used to determine what kinds of operations can be performed by the device.
+The <b>IWMDMDeviceControl</b> interface methods support several modes of audio control, depending on the context in which they are used. That context is defined by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-seek">IWMDMDeviceControl::Seek</a> method. The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-getcapabilities">IWMDMDeviceControl::GetCapabilities</a> method is used to determine what kinds of operations can be performed by the device.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDeviceControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWMDMDeviceControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMDeviceControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMDeviceControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMDMDeviceControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61d0e44c-f1be-4837-a773-48c6c5278fe0">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device capabilities to determine what operations the device can perform.
@@ -83,7 +83,7 @@ Retrieves the device capabilities to determine what operations the device can pe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e39fb2ed-a3b4-4167-9404-6b7c706f0941">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the control status of the device.
@@ -92,7 +92,7 @@ Retrieves the control status of the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/420963d1-11ea-4f1d-b5c0-749e99ee7725">Pause</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the current play or record operation.
@@ -101,7 +101,7 @@ Pauses the current play or record operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8d717e6-365c-44ad-b24e-daa3c35664de">Play</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-play">Play</a>
 </td>
 <td align="left" width="63%">
 Begins playing at the current seek position.
@@ -110,7 +110,7 @@ Begins playing at the current seek position.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9372ce9-e339-4664-9e12-4feae29529dc">Record</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-record">Record</a>
 </td>
 <td align="left" width="63%">
 Begins recording from the device's external record input at the current seek position.
@@ -119,7 +119,7 @@ Begins recording from the device's external record input at the current seek pos
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24ee343c-09ed-4a5f-b7be-eba15dcc4b36">Resume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-resume">Resume</a>
 </td>
 <td align="left" width="63%">
 Resumes the current play or record operation from the file position saved during the call to <b>Pause</b>.
@@ -128,7 +128,7 @@ Resumes the current play or record operation from the file position saved during
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f416a520-197c-4607-979e-8f43951f2076">Seek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-seek">Seek</a>
 </td>
 <td align="left" width="63%">
 Seeks to a position that is used as the starting point by the <b>Play</b> or <b>Record</b> methods.
@@ -137,7 +137,7 @@ Seeks to a position that is used as the starting point by the <b>Play</b> or <b>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/842b7de7-dde2-40d1-8028-9ffebcaea90e">Stop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the current record or play operation.
@@ -152,7 +152,7 @@ Stops the current record or play operation.
 
 
 
-<a href="https://msdn.microsoft.com/bea867d6-a875-4150-9958-7f683cd215b9">Interfaces for Applications</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
  
 
  

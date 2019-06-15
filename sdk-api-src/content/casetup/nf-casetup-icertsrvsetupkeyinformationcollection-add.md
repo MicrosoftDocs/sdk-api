@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object to the collection.
+The <b>Add</b> method adds an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object to the collection.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-
 
 ### -param pIKeyInformation [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A pointer to an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b
 
 
 
-<a href="https://msdn.microsoft.com/d029dd5f-9c19-46fd-aac3-275c624a157b">ICertSrvSetupKeyInformationCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new instance of the <a href="https://msdn.microsoft.com/bc398732-037d-4f48-940f-c70975447972">IWICStream</a> class.
+Creates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a> class.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Creates a new instance of the <a href="https://msdn.microsoft.com/bc398732-037d-
 
 ### -param ppIWICStream [out]
 
-Type: <b><a href="https://msdn.microsoft.com/bc398732-037d-4f48-940f-c70975447972">IWICStream</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/bc398732-037d-4f48-940f-c70975447972">IWICStream</a>.
+A pointer that receives a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicstream">IWICStream</a>.
 
 
 ## -returns

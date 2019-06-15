@@ -64,12 +64,12 @@ This local policy specifies how frequently backups are to be performed for the c
 
 ### -field FH_RETENTION_TYPE
 
-This  local policy specifies when previous versions of files and folders can be deleted from a backup target. See the <a href="https://msdn.microsoft.com/B80EC7BF-1825-462C-ACE3-5163C14EE15D">FH_RETENTION_TYPES</a> enumeration for the list of possible values. The default value of the numeric parameter for this policy is <b>FH_RETENTION_DISABLED</b>.
+This  local policy specifies when previous versions of files and folders can be deleted from a backup target. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_retention_types">FH_RETENTION_TYPES</a> enumeration for the list of possible values. The default value of the numeric parameter for this policy is <b>FH_RETENTION_DISABLED</b>.
 
 
 ### -field FH_RETENTION_AGE
 
-This local policy specifies the minimum age of previous versions that can be deleted from a backup target when the  <b>FH_RETENTION_AGE_BASED</b> retention type is specified. For more information, see the <a href="https://msdn.microsoft.com/B80EC7BF-1825-462C-ACE3-5163C14EE15D">FH_RETENTION_TYPES</a> enumeration. The numeric parameter contains the minimum age, in days. The default value of the numeric parameter for this policy is 365 days (1 year).
+This local policy specifies the minimum age of previous versions that can be deleted from a backup target when the  <b>FH_RETENTION_AGE_BASED</b> retention type is specified. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_retention_types">FH_RETENTION_TYPES</a> enumeration. The numeric parameter contains the minimum age, in days. The default value of the numeric parameter for this policy is 365 days (1 year).
 
 
 ### -field MAX_LOCAL_POLICY
@@ -81,9 +81,9 @@ The maximum enumeration value for this enumeration. This value and all values gr
 
 
 
-To retrieve the value of the numeric parameter for a local policy, use the <a href="https://msdn.microsoft.com/380B77C3-CA93-48D6-9915-FB788CF24C99">IFhConfigMgr::GetLocalPolicy</a> method.
+To retrieve the value of the numeric parameter for a local policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy">IFhConfigMgr::GetLocalPolicy</a> method.
 
-To set the value of the numeric parameter for the local policy, use the <a href="https://msdn.microsoft.com/A1106349-6B14-4A44-B845-7853FA1919D6">IFhConfigMgr::SetLocalPolicy</a> method.
+To set the value of the numeric parameter for the local policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a> method.
 
 
 
@@ -93,15 +93,15 @@ To set the value of the numeric parameter for the local policy, use the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/B80EC7BF-1825-462C-ACE3-5163C14EE15D">FH_RETENTION_TYPES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_retention_types">FH_RETENTION_TYPES</a>
 
 
 
-<a href="https://msdn.microsoft.com/380B77C3-CA93-48D6-9915-FB788CF24C99">IFhConfigMgr::GetLocalPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getlocalpolicy">IFhConfigMgr::GetLocalPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/A1106349-6B14-4A44-B845-7853FA1919D6">IFhConfigMgr::SetLocalPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>phoneGetMessage</b> function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a> for further details).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a> for further details).
 
 
 ## -parameters
@@ -62,14 +62,14 @@ The
 ### -param hPhoneApp
 
 Handle returned by 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a>. The application must have set the PHONEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
-<a href="https://msdn.microsoft.com/465653e4-b88a-42a0-99b0-ce26eeaf99fd">PHONEINITIALIZEEXPARAMS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>. The application must have set the PHONEINITIALIZEEXOPTION_USEEVENT option in the <b>dwOptions</b> member of the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a> structure.
 
 
 ### -param lpMessage
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/3655efef-d24c-4d67-b1dc-29d1948a1869">PHONEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage_tag">PHONEMESSAGE</a> structure. Upon successful return from this function, the structure contains the next message that had been queued for delivery to the application.
 
 
 ### -param dwTimeout
@@ -93,7 +93,7 @@ PHONEERR_INVALAPPHANDLE, PHONEERR_OPERATIONFAILED, PHONEERR_INVALPOINTER, PHONEE
 
 
 If this function has been called with a nonzero timeout and the application calls 
-<a href="https://msdn.microsoft.com/0cf8bc07-946a-450d-8062-b9e19c22a4c5">phoneShutdown</a> on another thread, this function returns immediately with PHONEERR_INVALAPPHANDLE.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a> on another thread, this function returns immediately with PHONEERR_INVALAPPHANDLE.
 
 If the timeout expires (or was zero) and no message could be fetched from the queue, the function returns with the error PHONEERR_OPERATIONFAILED.
 
@@ -105,19 +105,19 @@ If the timeout expires (or was zero) and no message could be fetched from the qu
 
 
 
-<a href="https://msdn.microsoft.com/465653e4-b88a-42a0-99b0-ce26eeaf99fd">PHONEINITIALIZEEXPARAMS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneinitializeexparams_tag">PHONEINITIALIZEEXPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/3655efef-d24c-4d67-b1dc-29d1948a1869">PHONEMESSAGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonemessage_tag">PHONEMESSAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/362e37df-4b14-4651-8d23-b70613e354c8">phoneInitializeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cf8bc07-946a-450d-8062-b9e19c22a4c5">phoneShutdown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneshutdown">phoneShutdown</a>
  
 
  

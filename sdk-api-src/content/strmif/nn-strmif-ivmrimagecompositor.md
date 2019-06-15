@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 
 
-The <code>IVMRImageCompositor</code> interface is implemented by the default compositor for the <a href="https://msdn.microsoft.com/c83e6c50-76f2-4aeb-944b-5b244c6bf776">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in compositor that an application provides for the VMR-7. The VMR-7 calls the methods on this interface to inform the Compositor that it should composite the incoming video frames into a single output frame. Applications do not use this interface.
+The <code>IVMRImageCompositor</code> interface is implemented by the default compositor for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7). It must also be implemented by any plug-in compositor that an application provides for the VMR-7. The VMR-7 calls the methods on this interface to inform the Compositor that it should composite the incoming video frames into a single output frame. Applications do not use this interface.
 
-For the VMR-9, use the <a href="https://msdn.microsoft.com/19fda7f2-000f-47d0-a7c7-d8421de418a2">IVMRImageCompositor9</a> interface.
+For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagecompositor9">IVMRImageCompositor9</a> interface.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImageCompositor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVMRImageCompositor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImageCompositor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImageCompositor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVMRImageCompositor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5af73543-d391-404a-9797-8fbb3f24879c">CompositeImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-compositeimage">CompositeImage</a>
 </td>
 <td align="left" width="63%">
 Composites the current frames available in each input stream.
@@ -84,7 +84,7 @@ Composites the current frames available in each input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16d54090-a0fa-480f-ba94-a15aa08d4576">InitCompositionTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-initcompositiontarget">InitCompositionTarget</a>
 </td>
 <td align="left" width="63%">
 Informs the compositor that a new composition target has been created.
@@ -93,7 +93,7 @@ Informs the compositor that a new composition target has been created.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea3ed291-d837-4d11-bc82-0a060b093b21">SetStreamMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-setstreammediatype">SetStreamMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for the input stream.
@@ -102,7 +102,7 @@ Sets the media type for the input stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a9526be0-06aa-4fe3-ba05-fbac01806ec4">TermCompositionTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagecompositor-termcompositiontarget">TermCompositionTarget</a>
 </td>
 <td align="left" width="63%">
 Informs the compositor that the current composition target is being replaced.
@@ -117,7 +117,7 @@ Informs the compositor that the current composition target is being replaced.
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

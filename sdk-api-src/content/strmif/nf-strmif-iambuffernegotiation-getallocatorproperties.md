@@ -63,7 +63,7 @@ The <code>GetAllocatorProperties</code> method retrieves the allocator propertie
 
 ### -param pprop [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/813e4693-b549-4045-aff5-08f2dd754b6e">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller, that receives the allocator properties.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure, allocated by the caller, that receives the allocator properties.
 
 
 ## -returns
@@ -130,11 +130,11 @@ Call this method after the pins connect, to find out the allocator properties th
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/68e98afd-3275-49bb-b165-48ed40026e76">IAMBufferNegotiation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iambuffernegotiation">IAMBufferNegotiation Interface</a>
  
 
  

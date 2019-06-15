@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CTL_ENTRY</b> structure is an element of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTL).
+The <b>CTL_ENTRY</b> structure is an element of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL).
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>CTL_ENTRY</b> structure is an element of a <a href="https://msdn.microsof
 
 ### -field SubjectIdentifier
 
-<a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> containing a unique identifier of a subject. It can be a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> or any unique byte sequence.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> containing a unique identifier of a subject. It can be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> or any unique byte sequence.
 
 
 ### -field cAttribute
@@ -70,7 +70,7 @@ Count of elements in the <b>rgAttribute</b> member array.
 ### -field rgAttribute
 
 Array of 
-<a href="https://msdn.microsoft.com/cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847">CRYPT_ATTRIBUTE</a> structures, each holding information about the subject.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding information about the subject.
 
 
 ## -see-also
@@ -78,15 +78,15 @@ Array of
 
 
 
-<a href="https://msdn.microsoft.com/cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847">CRYPT_ATTRIBUTE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_attribute">CRYPT_ATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/83b015b5-a650-4a81-a9f0-c3e8a9805c81">CTL_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_info">CTL_INFO</a>
  
 
  

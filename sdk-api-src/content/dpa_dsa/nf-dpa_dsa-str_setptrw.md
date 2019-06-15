@@ -61,14 +61,14 @@ Sets <i>ppszCurrent</i> to a copy of <i>pszNew</i> and frees the previous value,
 
 ### -param ppsz [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a>*</b>
 
 The address of a pointer to the current string. The current string is freed and the pointer is set to a copy of <i>pszNew</i>.
 
 
 ### -param psz
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 A pointer to the string to copy into <i>ppszCurrent</i>.
 
@@ -77,7 +77,7 @@ A pointer to the string to copy into <i>ppszCurrent</i>.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
@@ -88,7 +88,7 @@ Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
 
 
-The ANSI version of <b>Str_SetPtrW</b>, <b>Str_SetPtrA</b>, is not exported by name or declared in a public header file. To use it, you must use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> and request ordinal 234 from ComCtl32.dll to obtain a function pointer.
+The ANSI version of <b>Str_SetPtrW</b>, <b>Str_SetPtrA</b>, is not exported by name or declared in a public header file. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 234 from ComCtl32.dll to obtain a function pointer.
 
 
 

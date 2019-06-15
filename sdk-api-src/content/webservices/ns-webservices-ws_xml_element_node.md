@@ -61,13 +61,13 @@ Represents a start element in xml (e.g.
 
 ### -field node
 
-The base type for all types that derive from <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a>.
+The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">WS_XML_NODE</a>.
         
 
 
 ### -field prefix
 
-The prefix of the element.  In the example, it refers to "a".  Empty prefixes are represented by a zero length <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a>.
+The prefix of the element.  In the example, it refers to "a".  Empty prefixes are represented by a zero length <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a>.
         
 
 

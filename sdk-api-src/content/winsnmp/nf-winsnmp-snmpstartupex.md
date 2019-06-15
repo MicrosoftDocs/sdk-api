@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements 
     section. It may be altered or unavailable in subsequent versions. Instead, use 
-    <a href="https://msdn.microsoft.com/6429e748-e0bf-431a-8989-db5b211665d5">Windows Remote Management</a>, which is the Microsoft 
+    <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft 
     implementation of WS-Man.]
 
 The <b>SnmpStartupEx</b> function notifies the Microsoft 
@@ -59,7 +59,7 @@ The <b>SnmpStartupEx</b> function notifies the Microsoft
     <b>SnmpStartupEx</b> function enables the implementation to 
     initialize and to return to the application the version of the Windows SNMP Application Programming Interface (WinSNMP API), the level of SNMP communications that the implementation supports, and the implementation's default translation and retransmission modes.
 
-This function should be used instead of <a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> if Windows Server 2003 with Service Pack 1 (SP1) or later is installed. <b>SnmpStartupEx</b> enables support for multiple independent software modules that use WinSNMP within the same application.
+This function should be used instead of <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> if Windows Server 2003 with Service Pack 1 (SP1) or later is installed. <b>SnmpStartupEx</b> enables support for multiple independent software modules that use WinSNMP within the same application.
 <div class="alert"><b>Note</b>  A WinSNMP application must call the <b>SnmpStartupEx</b> 
     function successfully before it calls any other WinSNMP function.</div><div> </div>
 
@@ -85,7 +85,7 @@ Pointer to an unsigned long integer variable to receive the minor version number
 
 Pointer to an unsigned long integer variable to receive the highest level of SNMP communications the 
       implementation supports. Upon successful return, this parameter contains a value of 2. For a description of level 2 support, see 
-      <a href="https://msdn.microsoft.com/9874ad9b-4eb9-4d63-816b-fe444c5b4d8a">Levels of SNMP Support</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a>.
 
 
 ### -param nTranslateMode [out]
@@ -93,9 +93,9 @@ Pointer to an unsigned long integer variable to receive the highest level of SNM
 Pointer to an unsigned long integer variable to receive the default translation mode in effect for 
       the implementation. The translation mode applies to how the implementation interprets the 
       <i>entity</i> parameter, that the WinSNMP application passes to the 
-      <a href="https://msdn.microsoft.com/d0a8e389-ba5b-45f4-9682-1fbe456daaed">SnmpStrToEntity</a> function. The translation mode also 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a> function. The translation mode also 
       applies to the <i>string</i> parameter that the WinSNMP application passes to the 
-      <a href="https://msdn.microsoft.com/d552f453-cc19-4166-aca3-bbaa3669b1c8">SnmpStrToContext</a> function. This parameter can be 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a> function. This parameter can be 
       one of the following values.
 
 <table>
@@ -142,7 +142,7 @@ The implementation interprets SNMP entity parameters as SNMP transport addresses
  
 
 For additional information, see 
-       <a href="https://msdn.microsoft.com/2550f235-1351-440a-8b4e-f0d30b058229">Setting the Entity and Context Translation Mode</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
 
 
 ### -param nRetransmitMode [out]
@@ -179,7 +179,7 @@ The implementation is executing the retransmission policy of the WinSNMP applica
  
 
 For additional information, see 
-       <a href="https://msdn.microsoft.com/71150a66-74a3-4957-bc70-3dd25c3b9c71">About Retransmission</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/SNMP/about-retransmission">About Retransmission</a>.
 
 
 ## -returns
@@ -190,7 +190,7 @@ If the function succeeds, the return value is SNMPAPI_SUCCESS, and the parameter
        as indicated in the preceding parameter descriptions.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a> specifying a 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> specifying a 
        <b>NULL</b> value in its <i>session</i> parameter. The 
        <b>SnmpGetLastError</b> function can return one of the 
        following errors. For additional information, see the "Remarks" section later in this document.
@@ -218,7 +218,7 @@ A resource allocation error occurred during startup.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/5f0c9da1-d18e-4f93-8b5c-c5ad18360a7a">SnmpStartupEx</a> function did not initialize correctly.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartupex">SnmpStartupEx</a> function did not initialize correctly.
 
 </td>
 </tr>
@@ -261,7 +261,7 @@ A WinSNMP application must call the <b>SnmpStartupEx</b>
    SNMPAPI_NOT_INITIALIZED.
 
 The WinSNMP application can call 
-   <a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a> for error information, or 
+   <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a> for error information, or 
    retry <b>SnmpStartupEx</b> if a call to the 
    <b>SnmpStartupEx</b> function fails. When 
    <b>SnmpStartupEx</b> returns SNMPAPI_FAILURE, and a subsequent 
@@ -270,13 +270,13 @@ The WinSNMP application can call
    <b>SnmpStartupEx</b> when the implementation has adequate free 
    resources.
 
-A WinSNMP application must call <a href="https://msdn.microsoft.com/e6521c35-a58e-4b8e-b415-b49954187736">SnmpCleanupEx</a> for 
+A WinSNMP application must call <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanupex">SnmpCleanupEx</a> for 
    each successful call to <b>SnmpStartupEx</b>. The WinSNMP 
-   implementation performs the final cleanup where there are no outstanding successful calls to <a href="https://msdn.microsoft.com/7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce">SnmpStartup</a> or <b>SnmpStartupEx</b>.
+   implementation performs the final cleanup where there are no outstanding successful calls to <a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> or <b>SnmpStartupEx</b>.
 
 For additional information, see 
-   <a href="https://msdn.microsoft.com/9874ad9b-4eb9-4d63-816b-fe444c5b4d8a">Levels of SNMP Support</a> and 
-   <a href="https://msdn.microsoft.com/7de41e08-3cb3-454a-aa4e-140a35c99472">About SNMP Versions</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/SNMP/levels-of-snmp-support">Levels of SNMP Support</a> and 
+   <a href="https://docs.microsoft.com/windows/desktop/SNMP/about-snmp-versions">About SNMP Versions</a>.
 
 
 
@@ -286,23 +286,23 @@ For additional information, see
 
 
 
-<a href="https://msdn.microsoft.com/e6521c35-a58e-4b8e-b415-b49954187736">SnmpCleanupEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpcleanupex">SnmpCleanupEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/d552f453-cc19-4166-aca3-bbaa3669b1c8">SnmpStrToContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtocontext">SnmpStrToContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0a8e389-ba5b-45f4-9682-1fbe456daaed">SnmpStrToEntity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtoentity">SnmpStrToEntity</a>
 
 
 
-<a href="https://msdn.microsoft.com/54d9b61a-815a-41c3-9365-ec4478acc3f2">WinSNMP API Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae95ac47-81ff-4715-b3e9-e19c07223712">WinSNMP Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP Functions</a>
  
 
  

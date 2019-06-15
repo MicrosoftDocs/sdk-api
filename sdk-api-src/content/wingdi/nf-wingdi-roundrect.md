@@ -114,7 +114,7 @@ The current position is neither used nor updated by this function.
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/c5fc3346-e5d7-49c0-979b-10d91ab965c5">Using Filled Shapes</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-filled-shapes">Using Filled Shapes</a>.
 
 <div class="code"></div>
 
@@ -125,15 +125,15 @@ For an example, see <a href="https://msdn.microsoft.com/c5fc3346-e5d7-49c0-979b-
 
 
 
-<a href="https://msdn.microsoft.com/8909e85d-fa5b-4058-9e58-e027160ec381">Filled Shape Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/78439288-a769-4aab-aee7-7a03396ccebc">Filled Shapes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed6b9824-1edc-4510-b9da-a4287845aa83">Rectangle
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rectangle">Rectangle
       </a>
  
 

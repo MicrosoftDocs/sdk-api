@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The <b>RemoveFontResource</b> function removes the fonts in the specified file from the system font table.
 
-If the font was added using the <a href="https://msdn.microsoft.com/eaf8ebf0-1b06-4a09-a842-83540245a117">AddFontResourceEx</a> function, you must use the <a href="https://msdn.microsoft.com/18056fe7-1efe-428e-a828-3217c53371eb">RemoveFontResourceEx</a> function.
+If the font was added using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourceexa">AddFontResourceEx</a> function, you must use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a> function.
 
 
 ## -parameters
@@ -83,13 +83,13 @@ If the function fails, the return value is zero.
 
 
 
-We recommend that if an app adds or removes fonts from the system font table that it notify other windows of the change by sending a <a href="https://msdn.microsoft.com/4774308e-2f18-4a35-a769-56871f3c29a2">WM_FONTCHANGE</a> message to all top-level windows in the system. The app sends this message by calling the <a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a> function with the <i>hwnd</i> parameter set to HWND_BROADCAST.
+We recommend that if an app adds or removes fonts from the system font table that it notify other windows of the change by sending a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-fontchange">WM_FONTCHANGE</a> message to all top-level windows in the system. The app sends this message by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a> function with the <i>hwnd</i> parameter set to HWND_BROADCAST.
 
 If there are outstanding references to a font, the associated resource remains loaded until no device context is using it. Furthermore, if the font is listed in the font registry (<b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</b>) and is installed to any location other than the %windir%\fonts\ folder, it may be loaded into other active sessions (including session 0).
 
 When you try to replace an existing font file that contains a font with outstanding references to it, you might get an error that indicates that the original font can't be deleted because it’s in use even after you call <b>RemoveFontResource</b>. If your app requires that the font file be replaced, to reduce the resource count of the original font to zero, call <b>RemoveFontResource</b> in a loop as shown in this example code. If you continue to get errors, this is an indication that the font file remains loaded in other sessions. Make sure the font isn't listed in the font registry and restart the system to ensure the font is unloaded from all sessions. 
 
-<div class="alert"><b>Note</b>  Apps where the original font file is in use will still be able to access the original file and won't use the new font until the font reloads. Call <a href="https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9">AddFontResource</a> to reload the font.  We recommend that you call <b>AddFontResource</b> the same number of times as the call to <b>RemoveFontResource</b> succeeded as shown in this example code.</div>
+<div class="alert"><b>Note</b>  Apps where the original font file is in use will still be able to access the original file and won't use the new font until the font reloads. Call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourcea">AddFontResource</a> to reload the font.  We recommend that you call <b>AddFontResource</b> the same number of times as the call to <b>RemoveFontResource</b> succeeded as shown in this example code.</div>
 <div> </div>
 <pre class="syntax" xml:space="preserve"><code>
 int i = 0;
@@ -113,23 +113,23 @@ while( i-- )
 
 
 
-<a href="https://msdn.microsoft.com/e553a25a-f281-4ddc-8e95-1f61ed8238f9">AddFontResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-addfontresourcea">AddFontResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/18056fe7-1efe-428e-a828-3217c53371eb">RemoveFontResourceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms714170(v=VS.85).aspx">SendMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-ihttpmailtransport-sendmessage">SendMessage</a>
  
 
  

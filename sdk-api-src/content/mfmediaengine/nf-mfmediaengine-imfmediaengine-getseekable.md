@@ -59,7 +59,7 @@ Gets the time ranges to which the Media Engine can currently seek.
 
 ### -param ppSeekable [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/E39646E6-66F4-4413-A84B-43039689AEE7">IMFMediaTimeRange</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a> interface. The caller must release the interface.
 
 
 ## -returns
@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method corresponds to the <b>seekable</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5.
 
-To find out whether the media source supports seeking, call <a href="https://msdn.microsoft.com/534595D7-007F-450B-A1C7-FA08F3958417">IMFMediaEngineEx::GetResourceCharacteristics</a>.
+To find out whether the media source supports seeking, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getresourcecharacteristics">IMFMediaEngineEx::GetResourceCharacteristics</a>.
 
 
 
@@ -87,7 +87,7 @@ To find out whether the media source supports seeking, call <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
  
 
  

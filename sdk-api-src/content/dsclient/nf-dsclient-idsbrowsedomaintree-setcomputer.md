@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDsBrowseDomainTree::SetComputer</b> method specifies the computer and credentials to be used by this instance of the <a href="https://msdn.microsoft.com/f50caa34-d29e-4ad1-98b0-ef5c1f5550bf">IDsBrowseDomainTree</a> interface.
+The <b>IDsBrowseDomainTree::SetComputer</b> method specifies the computer and credentials to be used by this instance of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a> interface.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 If this method is not called, the local host is assumed as the default computer.
 
-When <b>SetComputer</b> is called on a particular <a href="https://msdn.microsoft.com/f50caa34-d29e-4ad1-98b0-ef5c1f5550bf">IDsBrowseDomainTree</a> instance, <a href="https://msdn.microsoft.com/e6f4dbbb-5e2f-470a-bfc0-5bb6e96c7a6c">IDsBrowseDomainTree::FlushCachedDomains</a> must be called before <b>SetComputer</b> is called again.
+When <b>SetComputer</b> is called on a particular <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a> instance, <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">IDsBrowseDomainTree::FlushCachedDomains</a> must be called before <b>SetComputer</b> is called again.
 
 
 
@@ -97,11 +97,11 @@ When <b>SetComputer</b> is called on a particular <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/f50caa34-d29e-4ad1-98b0-ef5c1f5550bf">IDsBrowseDomainTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/e6f4dbbb-5e2f-470a-bfc0-5bb6e96c7a6c">IDsBrowseDomainTree::FlushCachedDomains</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains">IDsBrowseDomainTree::FlushCachedDomains</a>
  
 
  

@@ -54,11 +54,11 @@ ms.custom: 19H1
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/a7900f40-4c53-4760-8e5a-9c88149f86d0">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
-The <b>DRM_USAGEPOLICY_TYPE</b> enumeration is used with the <a href="https://msdn.microsoft.com/135ed2d0-17a9-46a2-9495-4102115f7bad">DRMGetUsagePolicy</a> and <a href="https://msdn.microsoft.com/8c270824-ff2a-4b04-b8b0-7cc4a82d042d">DRMSetUsagePolicy</a> functions to specify a type of usage policy.
+The <b>DRM_USAGEPOLICY_TYPE</b> enumeration is used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetusagepolicy">DRMGetUsagePolicy</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetusagepolicy">DRMSetUsagePolicy</a> functions to specify a type of usage policy.
 
 
 ## -enum-fields
@@ -91,15 +91,15 @@ The usage policy is tied to an operating system.
 
 
 
-<a href="https://msdn.microsoft.com/bc3a8ab3-9f89-442b-9910-85820b2b2653">AD RMS Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/135ed2d0-17a9-46a2-9495-4102115f7bad">DRMGetUsagePolicy</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetusagepolicy">DRMGetUsagePolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c270824-ff2a-4b04-b8b0-7cc4a82d042d">DRMSetUsagePolicy</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetusagepolicy">DRMSetUsagePolicy</a>
  
 
  

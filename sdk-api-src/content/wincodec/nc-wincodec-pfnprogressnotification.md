@@ -73,7 +73,7 @@ The current frame number.
 
 ### -param operation
 
-Type: <b><a href="https://msdn.microsoft.com/407b982d-7232-42ce-9ff5-7029b7d922a4">WICProgressOperation</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicprogressoperation">WICProgressOperation</a></b>
 
 The current operation the component is in.
 
@@ -102,7 +102,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 An operation can be canceled by returning <code>WINCODEC_ERR_ABORTED</code>.
 
-To register your callback function, query the encoder or decoder for the <a href="https://msdn.microsoft.com/8cf3fbca-0953-4dd7-aa44-3e1924cfd8b0">IWICBitmapCodecProgressNotification</a> interface and call <a href="https://msdn.microsoft.com/ac47178a-f149-4313-8673-ece59e88cfb3">RegisterProgressNotification</a>.
+To register your callback function, query the encoder or decoder for the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapcodecprogressnotification">IWICBitmapCodecProgressNotification</a> interface and call <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapcodecprogressnotification-registerprogressnotification">RegisterProgressNotification</a>.
 
 
 
@@ -116,11 +116,11 @@ To register your callback function, query the encoder or decoder for the <a href
 
 
 
-<a href="https://msdn.microsoft.com/6d7ef6f1-2024-4de5-9c2e-8edc6359f79b">WICProgressNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicprogressnotification">WICProgressNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/407b982d-7232-42ce-9ff5-7029b7d922a4">WICProgressOperation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicprogressoperation">WICProgressOperation</a>
  
 
  

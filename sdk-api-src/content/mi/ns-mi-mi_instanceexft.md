@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/a8cd93b7-c9e0-415e-811a-33826e38417f">MI_InstanceFT</a> 
+Extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instanceft">MI_InstanceFT</a> 
     structure.
 
 
@@ -60,7 +60,7 @@ Extends the <a href="https://msdn.microsoft.com/a8cd93b7-c9e0-415e-811a-33826e38
 
 ### -field parent
 
-Parent <a href="https://msdn.microsoft.com/a8cd93b7-c9e0-415e-811a-33826e38417f">MI_InstanceFT</a> function table.
+Parent <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instanceft">MI_InstanceFT</a> function table.
 
 
 ### -field MI_Result
@@ -73,8 +73,8 @@ TBD
 #### - Normalize
 
 Parses the structure and returns the 
-       <a href="https://msdn.microsoft.com/a8cd93b7-c9e0-415e-811a-33826e38417f">MI_InstanceFT</a> function table. See 
-       <a href="https://msdn.microsoft.com/4FE8FD63-78F4-41C8-9A72-A2E3ABDEBB86">MI_Instance_Normalize</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_instanceft">MI_InstanceFT</a> function table. See 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_normalize">MI_Instance_Normalize</a>.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ Parses the structure and returns the
 
 
 
-<a href="https://msdn.microsoft.com/5146DF83-CE41-4218-B8FA-7E5699589D74">MI Structures and Unions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-structures-and-unions">MI Structures and Unions</a>
  
 
  

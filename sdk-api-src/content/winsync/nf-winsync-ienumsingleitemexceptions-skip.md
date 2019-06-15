@@ -114,7 +114,7 @@ The enumerator reaches the end of the list before it can skip <i>cExceptions</i>
 
 
 
-<a href="https://msdn.microsoft.com/fed8a258-bc23-454b-9d8a-e3873481b33b">IEnumSingleItemExceptions Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>
  
 
  

@@ -58,11 +58,11 @@ The <b>IADsDNWithBinary</b> interface provides methods for an ADSI client to ass
 
 
 
-<a href="https://msdn.microsoft.com/3e9ceabb-7a38-4a63-ab62-240ff521e373">IADsDNWithBinary Property Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdnwithbinary-property-methods">IADsDNWithBinary Property Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

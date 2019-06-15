@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-Gets an array that contains the indices of the cusps of the <a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp</a> object.
+Gets an array that contains the indices of the cusps of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
 
 
 
@@ -67,11 +67,11 @@ This property is read-only.
 
 
 
-The array returned by the <b>PolylineCusps</b> property is an index into the array returned by the <a href="https://msdn.microsoft.com/76378521-15d1-48a0-ae9f-8362faf60c9f">GetPoints</a> method. Each index in the <b>PolylineCusps</b> property corresponds to a point in the array returned by the <b>GetPoints</b> method that is a cusp of the points of the stroke.
+The array returned by the <b>PolylineCusps</b> property is an index into the array returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints">GetPoints</a> method. Each index in the <b>PolylineCusps</b> property corresponds to a point in the array returned by the <b>GetPoints</b> method that is a cusp of the points of the stroke.
 
 A cusp is a point on the stroke where the direction of writing changes in a discontinuous fashion. For example, if the stroke represents the capital letter "L", this property returns three cusps: two corresponding to the first and last control points on the stroke and the third representing the corner of the "L".
 
-The location of a cusp can be determined by using the cusp as an index into the array returned by the <a href="https://msdn.microsoft.com/76378521-15d1-48a0-ae9f-8362faf60c9f">GetPoints</a> method.
+The location of a cusp can be determined by using the cusp as an index into the array returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints">GetPoints</a> method.
 
 
 
@@ -81,11 +81,11 @@ The location of a cusp can be determined by using the cusp as an index into the 
 
 
 
-<a href="https://msdn.microsoft.com/76378521-15d1-48a0-ae9f-8362faf60c9f">GetPoints Method</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpoints">GetPoints Method</a>
 
 
 
-<a href="https://msdn.microsoft.com/b18464ba-feb6-4bb5-9fcf-82feff9bcce4">IInkStrokeDisp Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
  
 
  

@@ -94,7 +94,7 @@ The writer is closed.
 
 
 
-<a href="https://msdn.microsoft.com/5762E634-CBA6-496C-A771-CA5718E7E6AD">IAppxBundleWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>
  
 
  

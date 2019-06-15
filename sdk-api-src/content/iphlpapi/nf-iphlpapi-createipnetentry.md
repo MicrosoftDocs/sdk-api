@@ -61,7 +61,7 @@ The
 ### -param pArpEntry [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/aa9aa9f9-2334-4b08-896f-f4a77caa0f7f">MIB_IPNETROW</a> structure that specifies information for the new entry. The caller must specify values for all members of this structure.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnetrow_lh">MIB_IPNETROW</a> structure that specifies information for the new entry. The caller must specify values for all members of this structure.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Access is denied. This error is returned on Windows Vista and Windows Server 2
 </td>
 <td width="60%">
 An input parameter is invalid, no action was taken. This error is returned if the <i>pArpEntry</i> parameter is <b>NULL</b>,  the  <b>dwPhysAddrLen</b> member of 
-<a href="https://msdn.microsoft.com/aa9aa9f9-2334-4b08-896f-f4a77caa0f7f">MIB_IPNETROW</a> is set to zero or a value greater than 8, the <b>&gt;dwAddr</b> member of the <b>MIB_IPNETROW</b> structure is invalid, or one of the other members of the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnetrow_lh">MIB_IPNETROW</a> is set to zero or a value greater than 8, the <b>&gt;dwAddr</b> member of the <b>MIB_IPNETROW</b> structure is invalid, or one of the other members of the 
 <b>MIB_IPNETROW</b> structure is invalid. 
 
 </td>
@@ -120,7 +120,7 @@ The IPv4 transport is not configured on the local computer.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Use
 
 
 To modify an existing ARP entry, use the 
-<a href="https://msdn.microsoft.com/d985b749-5aa3-4b4a-ba8f-bc8edcf1b1f3">SetIpNetEntry</a> function. To retrieve the ARP table, call the <a href="https://msdn.microsoft.com/01bcf86e-5fcc-4ce9-bb89-02d393e75d1d">GetIpNetTable</a> function. To delete an existing ARP entry, call the <a href="https://msdn.microsoft.com/0d338676-b66f-410c-8022-5576096954b4">DeleteIpNetEntry</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a> function. To retrieve the ARP table, call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a> function. To delete an existing ARP entry, call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>.
 
 On Windows Vista and later, the <b>CreateIpNetEntry</b> function can only be called by a user logged on as a member of the Administrators group. If <b>CreateIpNetEntry</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. 
 
@@ -153,39 +153,39 @@ The <b>CreateIpNetEntry</b> function can also fail because of user account contr
 
 
 
-<a href="https://msdn.microsoft.com/a0e90c0a-9403-40cb-906e-6e1e2f8e73c4">CreateProxyArpEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createproxyarpentry">CreateProxyArpEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d338676-b66f-410c-8022-5576096954b4">DeleteIpNetEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/26e08e4d-ac69-49f8-8a1a-1ba1a04d085c">DeleteProxyArpEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteproxyarpentry">DeleteProxyArpEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf4dea10-552d-4730-a452-9302ef3761ff">FlushIpNetTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-flushipnettable">FlushIpNetTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/01bcf86e-5fcc-4ce9-bb89-02d393e75d1d">GetIpNetTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/2de88e92-5fa5-4d8d-9448-67a33bf02f05">IP Helper Function Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/4896a9f8-0486-4380-bf49-d1c9ef114acc">IP Helper Start Page</a>
+<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa9aa9f9-2334-4b08-896f-f4a77caa0f7f">MIB_IPNETROW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipnetrow_lh">MIB_IPNETROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/d985b749-5aa3-4b4a-ba8f-bc8edcf1b1f3">SetIpNetEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>
  
 
  

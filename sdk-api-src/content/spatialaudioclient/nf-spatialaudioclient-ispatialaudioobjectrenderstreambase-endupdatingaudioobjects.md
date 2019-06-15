@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with <a href="https://msdn.microsoft.com/1B99E7FB-0796-4902-9B00-470FD08F8AFA">ActivateSpatialAudioObject</a>.
+Notifies the system that the app has finished supplying audio data for the spatial audio objects activated with <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject">ActivateSpatialAudioObject</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 </dl>
 </td>
 <td width="60%">
-<b>EndUpdatingAudioObjects</b> was called before <a href="https://msdn.microsoft.com/9D858556-2EBE-4DF6-878B-BE0E12079248">BeginUpdatingAudioObjects</a>.
+<b>EndUpdatingAudioObjects</b> was called before <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstreambase-beginupdatingaudioobjects">BeginUpdatingAudioObjects</a>.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 
 
 
-The pointers retrieved with <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C2D-A475-22BF770DD59D">ISpatialAudioObjectBase::GetBuffer</a> can no longer be used after this method is called.
+The pointers retrieved with <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectbase-getbuffer">ISpatialAudioObjectBase::GetBuffer</a> can no longer be used after this method is called.
 
 
 
@@ -101,7 +101,7 @@ The pointers retrieved with <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C
 
 
 
-<a href="https://msdn.microsoft.com/B4D10CC6-62BF-4D20-910F-E39DF812010D">ISpatialAudioObjectRenderStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 

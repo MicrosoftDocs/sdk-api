@@ -113,7 +113,7 @@ The <b>LDR_DATA_TABLE_ENTRY</b> structure is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/836a6b82-d3e8-4de6-808d-5476dfb51356">PEB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-_peb">PEB</a>
  
 
  

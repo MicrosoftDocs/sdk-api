@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The <b>_NewEnum</b> property gets an enumerator for a property set.
 
-To enumerate the collection of properties with C++, use the <a href="https://msdn.microsoft.com/28cf1108-42a8-41d1-baf4-140b5789fb24">Count</a> and <a href="https://msdn.microsoft.com/33fce781-f65d-433a-b2ba-0f694cee1220">Item</a> properties defined by the <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface.
+To enumerate the collection of properties with C++, use the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_count">Count</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocsppropertycollection-get_item">Item</a> properties defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
  
 
  

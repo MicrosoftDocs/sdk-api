@@ -71,12 +71,12 @@ Identifier of the MIDI input device. The device identifier varies from zero to o
 
 ### -param pmic
 
-Pointer to a <a href="https://msdn.microsoft.com/358f0d4e-afdd-4a20-9572-ebb6e0000780">MIDIINCAPS</a> structure that is filled with information about the capabilities of the device.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd798451(v=vs.85)">MIDIINCAPS</a> structure that is filled with information about the capabilities of the device.
 
 
 ### -param cbmic
 
-Size, in bytes, of the <a href="https://msdn.microsoft.com/358f0d4e-afdd-4a20-9572-ebb6e0000780">MIDIINCAPS</a> structure. Only <i>cbMidiInCaps</i> bytes (or less) of information is copied to the location pointed to by <i>lpMidiInCaps</i>. If <i>cbMidiInCaps</i> is zero, nothing is copied, and the function returns MMSYSERR_NOERROR.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd798451(v=vs.85)">MIDIINCAPS</a> structure. Only <i>cbMidiInCaps</i> bytes (or less) of information is copied to the location pointed to by <i>lpMidiInCaps</i>. If <i>cbMidiInCaps</i> is zero, nothing is copied, and the function returns MMSYSERR_NOERROR.
 
 
 ## -returns
@@ -144,7 +144,7 @@ The system is unable to allocate or lock memory.
 
 
 
-To determine the number of MIDI input devices present on the system, use the <a href="https://msdn.microsoft.com/23303bb2-e053-4a19-a63a-4e017b861af6">midiInGetNumDevs</a> function.
+To determine the number of MIDI input devices present on the system, use the <a href="https://docs.microsoft.com/previous-versions//dd798456(v=vs.85)">midiInGetNumDevs</a> function.
 
 
 
@@ -154,7 +154,7 @@ To determine the number of MIDI input devices present on the system, use the <a 
 
 
 
-<a href="https://msdn.microsoft.com/9aa9fd79-cd9e-4443-8715-142ea72b82c0">MIDI Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
  
 
  

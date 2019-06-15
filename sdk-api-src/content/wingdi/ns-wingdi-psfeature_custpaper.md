@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>PSFEATURE_CUSTPAPER</b> structure contains information about a custom paper size for a PostScript driver. This structure is used with the <a href="https://msdn.microsoft.com/0824b854-a4ed-4e09-a665-b7ec3dd99671">GET_PS_FEATURESETTING</a> printer escape function.
+The <b>PSFEATURE_CUSTPAPER</b> structure contains information about a custom paper size for a PostScript driver. This structure is used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)">GET_PS_FEATURESETTING</a> printer escape function.
 
 
 
@@ -99,15 +99,15 @@ For the semantics of the <b>lOrientation</b>, <b>lWidth</b>, <b>lHeight</b>, <b>
 
 
 
-<a href="https://msdn.microsoft.com/0824b854-a4ed-4e09-a665-b7ec3dd99671">GET_PS_FEATURESETTING</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)">GET_PS_FEATURESETTING</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cf3a16b-194a-404e-aba7-d094364c6f05">Print Spooler API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5c115b0-9c1e-46e7-8fb5-eddbc2c75298">Printing</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
  
 
  

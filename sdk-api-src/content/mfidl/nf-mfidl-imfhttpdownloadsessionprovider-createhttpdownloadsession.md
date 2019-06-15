@@ -62,12 +62,12 @@ Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of u
 
 ### -param wszScheme [in]
 
-The name of the protocol to for which an <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a> is being requested.  Microsoft Media Foundation specifies the protocol scheme of the URL that the application provided the Media Foundation Source Resolver. Valid values include “http” for HTTP, and “https” for HTTPS. URL scheme names are generally not case-sensitive. 
+The name of the protocol to for which an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> is being requested.  Microsoft Media Foundation specifies the protocol scheme of the URL that the application provided the Media Foundation Source Resolver. Valid values include “http” for HTTP, and “https” for HTTPS. URL scheme names are generally not case-sensitive. 
 
 
 ### -param ppDownloadSession [out]
 
-On successful execution, the parameter is set to a pointer to an <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a> interface. The returned interface is used by Microsoft Media Foundation to open a single HTTP or HTTPS URL. 
+On successful execution, the parameter is set to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> interface. The returned interface is used by Microsoft Media Foundation to open a single HTTP or HTTPS URL. 
 
 
 ## -returns
@@ -89,7 +89,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-Successfully created the <a href="https://msdn.microsoft.com/048B2922-3B77-4F2D-9437-0FA54F94C67E">IMFHttpDownloadSession</a> object.
+Successfully created the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a> object.
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ There is insufficient memory to complete the operation.
 
 
 
-Specifying “https” as the value of <i>wszScheme</i> does not imply that HTTPS will be used for a particular request, as that is specified on a per-request basis in <a href="https://msdn.microsoft.com/111A075A-82A7-4607-9359-37B2DA97AFC5">IMFhttpDownloadSession::CreateRequest</a>.
+Specifying “https” as the value of <i>wszScheme</i> does not imply that HTTPS will be used for a particular request, as that is specified on a per-request basis in <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadsession-createrequest">IMFhttpDownloadSession::CreateRequest</a>.
 
 
 
@@ -146,7 +146,7 @@ Specifying “https” as the value of <i>wszScheme</i> does not imply that HTTP
 
 
 
-<a href="https://msdn.microsoft.com/4A3A96FB-A7C5-40BB-AB8F-12A7F00FDCD1">IMFHttpDownloadSessionProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsessionprovider">IMFHttpDownloadSessionProvider</a>
  
 
  

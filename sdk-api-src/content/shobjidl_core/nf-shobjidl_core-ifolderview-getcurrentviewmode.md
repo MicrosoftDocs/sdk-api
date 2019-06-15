@@ -61,7 +61,7 @@ Gets an address containing a value representing the folder's current view mode.
 
 Type: <b>UINT*</b>
 
-A pointer to a memory location at which to store the folder's current view mode. The value at that address is one of the following <a href="https://msdn.microsoft.com/16b92115-6e7d-41d3-960d-6783d779224c">FOLDERVIEWMODE</a> values.
+A pointer to a memory location at which to store the folder's current view mode. The value at that address is one of the following <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a> values.
 
 
 
@@ -124,15 +124,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/69d18b4f-3a68-420c-a184-05c2f69a5ec6">GetCurrentInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-getcurrentinfo">GetCurrentInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ca42567-7bb9-41e1-8f2a-5f6d0309c636">IFolderView::SetCurrentViewMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-setcurrentviewmode">IFolderView::SetCurrentViewMode</a>
  
 
  

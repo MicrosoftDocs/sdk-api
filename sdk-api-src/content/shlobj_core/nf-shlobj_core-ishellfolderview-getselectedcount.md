@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>GetSelectedCount</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://msdn.microsoft.com/d8ff0c8f-9678-455b-b7ec-9b651df769bc">IFolderView2::GetSelection</a>.]
+<p class="CCE_Message">[<b>GetSelectedCount</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselection">IFolderView2::GetSelection</a>.]
 
 Gets the number of items in the view that are selected.
 

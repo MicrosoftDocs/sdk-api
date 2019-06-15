@@ -61,14 +61,14 @@ ms.custom: 19H1
 ### -field dwAttrType
 
 Stores a value from the 
-<a href="https://msdn.microsoft.com/b0b39062-0622-48f8-a06a-232713ec8c3c">RADIUS_ATTRIBUTE_TYPE</a> enumeration. This value specifies the type of the attribute represented by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a> enumeration. This value specifies the type of the attribute represented by the 
 <b>RADIUS_ATTRIBUTE</b> structure.
 
 
 ### -field fDataType
 
 Stores a value from the 
-<a href="https://msdn.microsoft.com/620d5c1f-61dc-48af-a1b2-4eaa81e358a7">RADIUS_DATA_TYPE</a> enumeration. This value specifies the type of the value stored in the union that contains the <b>dwValue</b> and <b>lpValue</b> members.
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_data_type">RADIUS_DATA_TYPE</a> enumeration. This value specifies the type of the value stored in the union that contains the <b>dwValue</b> and <b>lpValue</b> members.
 
 
 ### -field cbDataLength
@@ -93,23 +93,23 @@ Stores a multi-byte data value. The <b>lpValue</b> member is used if the <b>fDat
 
 
 
-<a href="https://msdn.microsoft.com/3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f">About NPS Extensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b7a16cb-bc64-4e81-8149-82f51c451312">NPS Extensions Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b13a21c-edbe-4982-8718-a34d62ecc38d">NPS Extensions Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-structures">NPS Extensions Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0b39062-0622-48f8-a06a-232713ec8c3c">RADIUS_ATTRIBUTE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/620d5c1f-61dc-48af-a1b2-4eaa81e358a7">RADIUS_DATA_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/authif/ne-authif-_radius_data_type">RADIUS_DATA_TYPE</a>
  
 
  

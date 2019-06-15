@@ -63,7 +63,7 @@ The
 
 ### -param szProduct [in]
 
- The <a href="https://msdn.microsoft.com/33cedd37-0343-471c-ad4b-0db5f98d5894">ProductCode</a> of the product to modify.
+ The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> of the product to modify.
 
 
 ### -param szUserName [in]
@@ -206,19 +206,19 @@ This function can  not modify a non-managed installation for any user besides th
 
 
 
-<a href="https://msdn.microsoft.com/20e7be9f-d9dc-4f43-86d7-b1a881126925">Installation Context</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
 
-<a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://msdn.microsoft.com/957fd25c-8db6-4f2e-a705-1e8c3b3de6c1">MsiGetComponentPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d6a0524-d5df-4d4c-b861-d4a7da95ce40">Source Resiliency</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
  
 
  

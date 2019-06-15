@@ -78,7 +78,7 @@ Specifies whether to deliver NetBIOS broadcast packets
 
 
 
-<a href="https://msdn.microsoft.com/c28ef4c9-ba7d-429a-ba43-82bfc9c7c58b">IPXWAN_IF_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipxrtdef/ns-ipxrtdef-_ipxwan_if_info">IPXWAN_IF_INFO</a>
  
 
  

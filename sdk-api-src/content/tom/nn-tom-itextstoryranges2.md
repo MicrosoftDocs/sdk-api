@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITextStoryRanges2</b> interface enumerates the stories in an <a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>.
+The <b>ITextStoryRanges2</b> interface enumerates the stories in an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>.
 
-You get a pointer to an <b>ITextStoryRanges2</b> collection by using the <a href="https://msdn.microsoft.com/en-us/library/Bb774029(v=VS.85).aspx">ITextDocument::GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object that covers the whole story. 
+You get a pointer to an <b>ITextStoryRanges2</b> collection by using the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstoryranges">ITextDocument::GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object that covers the whole story. 
 
-A Text Object Model (TOM) implementation that has only a single story doesn't need to implement the <b>ITextStoryRanges2</b> interface. An implementation of this interface should only retrieve a stories collection if <a href="https://msdn.microsoft.com/en-us/library/Bb774027(v=VS.85).aspx">ITextDocument::GetStoryCount</a> returns a story count greater than one. 
+A Text Object Model (TOM) implementation that has only a single story doesn't need to implement the <b>ITextStoryRanges2</b> interface. An implementation of this interface should only retrieve a stories collection if <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getstorycount">ITextDocument::GetStoryCount</a> returns a story count greater than one. 
 
 
 ## -inheritance
@@ -73,10 +73,10 @@ The <b>ITextStoryRanges2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e77584e-e7ea-44ee-bce8-6f3b84d106bb">Item2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstoryranges2-item2">Item2</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object for a story, by index, in a stories collection.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> object for a story, by index, in a stories collection.
 
 </td>
 </tr>

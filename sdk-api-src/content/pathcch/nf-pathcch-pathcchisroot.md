@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 Determines whether a path string refers to the root of a volume.
 
-This function differs from <a href="https://msdn.microsoft.com/8586df98-91c4-49a6-9b07-7dceb8a63431">PathIsRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathisroota">PathIsRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
 

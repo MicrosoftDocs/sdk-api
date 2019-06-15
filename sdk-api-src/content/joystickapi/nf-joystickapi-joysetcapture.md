@@ -159,7 +159,7 @@ Invalid joystick ID or hwnd is <b>NULL</b>.
 
 
 
-If the specified joystick is currently captured, the function returns undefined behavior. Call the <a href="https://msdn.microsoft.com/deb1f280-12bd-4e4d-841a-667b7785207c">joyReleaseCapture</a> function to release the captured joystick, or destroy the window to release the joystick automatically.
+If the specified joystick is currently captured, the function returns undefined behavior. Call the <a href="https://docs.microsoft.com/previous-versions//dd757113(v=vs.85)">joyReleaseCapture</a> function to release the captured joystick, or destroy the window to release the joystick automatically.
 
 
 
@@ -169,11 +169,11 @@ If the specified joystick is currently captured, the function returns undefined 
 
 
 
-<a href="https://msdn.microsoft.com/29fe25c8-51ea-4dc1-9f98-1c10d23b7b2a">Joysticks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://msdn.microsoft.com/84e47ac3-b40f-48bc-8f59-cc678d7d521e">Multimedia Joystick Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
  
 
  

@@ -91,7 +91,7 @@ The anchor is not shifted.
 
 ### -param dir [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/e247b79d-354c-4211-9160-e705436d669c">TsShiftDir</a> values that specifies which adjacent region the anchor is moved to.
+Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0002">TsShiftDir</a> values that specifies which adjacent region the anchor is moved to.
 
 <table>
 <tr>
@@ -210,21 +210,21 @@ An input parameter value is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://msdn.microsoft.com/e57a78e6-42e6-4a2b-b4e1-20bb64add872">IAnchor::Shift
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/93329238-f6e8-432e-9167-550a02b33b46">TS_SHIFT_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-shift--constants">TS_SHIFT_* Constants
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e247b79d-354c-4211-9160-e705436d669c">TsShiftDir
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ne-textstor-__midl_ianchor_0002">TsShiftDir
       </a>
  
 

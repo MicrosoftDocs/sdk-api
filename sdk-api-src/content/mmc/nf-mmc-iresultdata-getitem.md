@@ -61,7 +61,7 @@ The <b>IResultData::GetItem</b> method enables a user to retrieve the parameters
 ### -param item [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> structure that contains information about the item whose parameters are being retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure that contains information about the item whose parameters are being retrieved.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This method can return one of these values.
 
 
 The itemID member of the 
-<a href="https://msdn.microsoft.com/c8f4682e-e1f7-4f7f-9a56-508648ca8c07">RESULTDATAITEM</a> structure pointed to by the item parameter should be set to refer to the item or subitem for which information is being returned. The nCol member should be set to 0 (zero) because it is the only column in which anything can be obtained or set. In addition, the data members for each of the flags set in the mask member of the structure pointed to by the item parameter if this method call succeeds will be returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-_resultdataitem">RESULTDATAITEM</a> structure pointed to by the item parameter should be set to refer to the item or subitem for which information is being returned. The nCol member should be set to 0 (zero) because it is the only column in which anything can be obtained or set. In addition, the data members for each of the flags set in the mask member of the structure pointed to by the item parameter if this method call succeeds will be returned.
 
 If itemID is 0 (zero), the nIndex member can be used.
 
@@ -92,15 +92,15 @@ When applied to virtual lists, you must use the nIndex member and set itemID to 
 
 
 
-<a href="https://msdn.microsoft.com/58f8bcdb-b062-4048-92fc-eb652ce62c5b">IResultData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://msdn.microsoft.com/cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05">IResultData2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
 
 
 
-<a href="https://msdn.microsoft.com/d24ab645-aae2-4c0f-8fc5-05d028a724d4">IResultData::SetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setitem">IResultData::SetItem</a>
  
 
  

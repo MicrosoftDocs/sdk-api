@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_KERBEROS_AUTHENTICATION0</b> structure contains information needed for preshared key authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_KERBEROS_AUTHENTICATION0</b> is the specific implementation of IKEEXT_KERBEROS_AUTHENTICATION used in Windows Vista and Windows 7. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/c9ea72e1-3d98-49f1-9061-d19e16f50660">IKEEXT_KERBEROS_AUTHENTICATION1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_KERBEROS_AUTHENTICATION0</b> is the specific implementation of IKEEXT_KERBEROS_AUTHENTICATION used in Windows Vista and Windows 7. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1__">IKEEXT_KERBEROS_AUTHENTICATION1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -97,7 +97,7 @@ Applicable only to  AuthIP.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

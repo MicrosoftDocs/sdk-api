@@ -60,12 +60,12 @@ Retrieves a list of available ELS platform-supported services, along with associ
 
 ### -param pOptions [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/3c5a0c04-9789-48dc-bc8f-a8b5ff350e27">MAPPING_ENUM_OPTIONS</a> structure containing criteria to use during enumeration of services. The application specifies <b>NULL</b> for this parameter to retrieve all installed services.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_enum_options">MAPPING_ENUM_OPTIONS</a> structure containing criteria to use during enumeration of services. The application specifies <b>NULL</b> for this parameter to retrieve all installed services.
 
 
 ### -param prgServices [out]
 
-Address of a pointer to an array of <a href="https://msdn.microsoft.com/444102a7-0da9-44be-989e-7a5139320034">MAPPING_SERVICE_INFO</a> structures containing service information matching the criteria supplied in the <i>pOptions</i> parameter.
+Address of a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a> structures containing service information matching the criteria supplied in the <i>pOptions</i> parameter.
 
 
 ### -param pdwServicesCount [out]
@@ -88,9 +88,9 @@ Returns S_OK if successful. The function returns an error HRESULT value if it do
 
 
 
-The ELS application can either retrieve all services or filter the services according to specified options. For an associated procedure and code sample, see <a href="https://msdn.microsoft.com/526e51c7-9ff2-4590-b092-172f4942ce8e">Enumerating and Freeing Services</a>.
+The ELS application can either retrieve all services or filter the services according to specified options. For an associated procedure and code sample, see <a href="https://docs.microsoft.com/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>.
 
-To avoid resource leaks, the application must free the pointer indicated by <i>prgServices</i> with a call to <a href="https://msdn.microsoft.com/3b90c1c5-3007-4c5d-a51b-e77b1f9c2dd0">MappingFreeServices</a>.  
+To avoid resource leaks, the application must free the pointer indicated by <i>prgServices</i> with a call to <a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingfreeservices">MappingFreeServices</a>.  
 
 
 For performance reasons, it is recommended to retrieve services infrequently. For example, if the application needs a specific service, by GUID, it can be enumerated when needed and cached for future use.
@@ -103,27 +103,27 @@ For performance reasons, it is recommended to retrieve services infrequently. Fo
 
 
 
-<a href="https://msdn.microsoft.com/526e51c7-9ff2-4590-b092-172f4942ce8e">Enumerating and Freeing Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/enumerating-and-freeing-services">Enumerating and Freeing Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/90bc1757-ec94-425e-927f-9ae2e1ab8af8">Extended Linguistic Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services">Extended Linguistic Services</a>
 
 
 
-<a href="https://msdn.microsoft.com/d62ab664-a75a-4d06-aefb-a3311ea7d4a7">Extended Linguistic Services Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/extended-linguistic-services-functions">Extended Linguistic Services Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/3c5a0c04-9789-48dc-bc8f-a8b5ff350e27">MAPPING_ENUM_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_enum_options">MAPPING_ENUM_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/444102a7-0da9-44be-989e-7a5139320034">MAPPING_SERVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/ns-elscore-_mapping_service_info">MAPPING_SERVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b90c1c5-3007-4c5d-a51b-e77b1f9c2dd0">MappingFreeServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/elscore/nf-elscore-mappingfreeservices">MappingFreeServices</a>
  
 
  

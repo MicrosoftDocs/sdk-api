@@ -118,11 +118,11 @@ There is not enough memory to reallocate the collection.
 
 
 
-<a href="https://msdn.microsoft.com/96c26f76-3835-4140-8379-91171fc4ad37">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-add">Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/d65f06c9-fecd-4ce6-af82-81acb48268e5">ITCollection2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
  
 
  

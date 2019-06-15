@@ -66,5 +66,5 @@ Doubly-linked list. Part of Windows 2000 run-time routines that are callable by
 ### -field MSPEventInfo
 
 The 
-<a href="https://msdn.microsoft.com/5286fbe6-3553-42f1-82e6-5bb6f75f3305">MSP_EVENT_INFO</a> structure contains information concerning an event.
+<a href="https://docs.microsoft.com/windows/desktop/api/msp/ns-msp-__midl___midl_itf_msp_0000_0000_0005">MSP_EVENT_INFO</a> structure contains information concerning an event.
 

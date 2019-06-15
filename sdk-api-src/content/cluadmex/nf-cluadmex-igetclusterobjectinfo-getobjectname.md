@@ -52,7 +52,7 @@ ms.custom: 19H1
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the name of a <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object</a>.
+Returns the name of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Returns the name of a <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a80
 
 A number representing the zero-based index of the target object. <i>lObjIndex</i> is 
        restricted to the number that can be retrieved by calling 
-       <a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>.
 
 
 ### -param lpszName [out]
@@ -129,7 +129,7 @@ One or more of the parameters are invalid.
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpszName</i> is too small to hold the requested name. 
-         <a href="https://msdn.microsoft.com/e45f3652-74da-4d93-826d-320ddae10f49">GetObjectName</a> returns the 
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterobjectinfo-getobjectname">GetObjectName</a> returns the 
          required number of characters in the content of <i>pcchName</i>.
 
 </td>
@@ -156,11 +156,11 @@ If the <i>lpszName</i> parameter is specified as <b>NULL</b>, the
 
 
 
-<a href="https://msdn.microsoft.com/20ef63e2-bcec-48bc-86e8-ab746fb72cc5">IGetClusterDataInfo::GetObjectCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-igetclusterdatainfo-getobjectcount">IGetClusterDataInfo::GetObjectCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterobjectinfo">IGetClusterObjectInfo</a>
  
 
  

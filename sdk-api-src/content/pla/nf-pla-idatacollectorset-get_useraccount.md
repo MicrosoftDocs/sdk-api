@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The user name is set using the <a href="https://msdn.microsoft.com/39275154-fe85-492e-9d64-79d17cb4f88d">IDataCollectorSet::SetCredentials</a> method.
+The user name is set using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">IDataCollectorSet::SetCredentials</a> method.
 
 
 
@@ -72,11 +72,11 @@ The user name is set using the <a href="https://msdn.microsoft.com/39275154-fe85
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/39275154-fe85-492e-9d64-79d17cb4f88d">IDataCollectorSet::SetCredentials</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">IDataCollectorSet::SetCredentials</a>
  
 
  

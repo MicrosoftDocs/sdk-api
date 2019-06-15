@@ -61,12 +61,12 @@ The <b>PFN_WER_RUNTIME_EXCEPTION_EVENT</b> type defines a pointer to this callba
 
 ### -param pContext [in]
 
-A pointer to arbitrary context information that you specified when you called the <a href="https://msdn.microsoft.com/b0fb2c0d-cc98-43cc-a508-e80545377b7f">WerRegisterRuntimeExceptionModule</a> function to register the exception handler.
+A pointer to arbitrary context information that you specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule">WerRegisterRuntimeExceptionModule</a> function to register the exception handler.
 
 
 ### -param pExceptionInformation [in]
 
-A <a href="https://msdn.microsoft.com/fcf956ac-6015-439c-aec6-8f6a826ff269">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information. Use the information to determine whether you want to claim the crash.
+A <a href="https://docs.microsoft.com/windows/desktop/api/werapi/ns-werapi-_wer_runtime_exception_information">WER_RUNTIME_EXCEPTION_INFORMATION</a> structure that contains the exception information. Use the information to determine whether you want to claim the crash.
 
 
 ### -param *pbOwnershipClaimed [out]
@@ -88,7 +88,7 @@ The size, in characters, of the <i>pwszEventName</i> buffer. The buffer is limit
 
 The number of report parameters that you will provide. The valid range of values is one to 10. If you specify a value greater than 10, WER will ignore the value and collect only the first 10 parameters. If you specify zero, the reporting process will be indeterminate.
 
-This value determines the number of times that WER calls your <a href="https://msdn.microsoft.com/892498db-0265-4276-9735-63a8104ecaa9">OutOfProcessExceptionEventSignatureCallback</a> function.
+This value determines the number of times that WER calls your <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nc-werapi-pfn_wer_runtime_exception_event_signature">OutOfProcessExceptionEventSignatureCallback</a> function.
 
 
 ## -returns
@@ -114,7 +114,7 @@ You must implement this function in your exception handler DLL.
 
 
 
-<a href="https://msdn.microsoft.com/b0fb2c0d-cc98-43cc-a508-e80545377b7f">WerRegisterRuntimeExceptionModule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule">WerRegisterRuntimeExceptionModule</a>
  
 
  

@@ -60,7 +60,7 @@ The <b>BeginFrame</b> method begins the processing to create a decoded picture.
 
 ### -param amvaBeginFrameInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd373442(v=VS.85).aspx">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/amva/ns-amva-_tag_amvabeginframeinfo">AMVABeginFrameInfo</a> structure that contains information needed to begin processing the frame.
 
 
 ## -returns
@@ -165,7 +165,7 @@ If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTE
 
 This method might block if no frame buffer is available.
 
-For each call to <b>BeginFrame</b>, the decoder must make a corresponding call to <a href="https://msdn.microsoft.com/en-us/library/Dd376001(v=VS.85).aspx">IAMVideoAccelerator::EndFrame</a>.
+For each call to <b>BeginFrame</b>, the decoder must make a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>.
 
 
 
@@ -175,15 +175,15 @@ For each call to <b>BeginFrame</b>, the decoder must make a corresponding call t
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bc6b65b-4502-4c6f-a0f2-82a2bd444d1d">How Decoders Use IAMVideoAccelerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375992(v=VS.85).aspx">IAMVideoAccelerator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
  
 
  

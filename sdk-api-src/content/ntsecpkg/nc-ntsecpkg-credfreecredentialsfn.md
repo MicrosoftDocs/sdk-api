@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees memory used to store credentials used by a  <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>.
+Frees memory used to store credentials used by a  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The number of elements in the <i>Credentials</i> array.
 
 ### -param *Credentials [in, out]
 
-A pointer to a pointer that, on input, points to an array of  <a href="https://msdn.microsoft.com/b350ef3d-5ed5-4355-ae3a-f03fafff2f52">ENCRYPTED_CREDENTIALW</a> structures to be freed.
+A pointer to a pointer that, on input, points to an array of  <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures to be freed.
 
 
 ## -returns
@@ -84,8 +84,8 @@ If the function fails, the return value is an NTSTATUS code that indicates the r
 
 
 A pointer to the <b>CrediFreeCredentials</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -95,7 +95,7 @@ A pointer to the <b>CrediFreeCredentials</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

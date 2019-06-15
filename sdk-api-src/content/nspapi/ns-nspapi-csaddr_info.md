@@ -79,10 +79,10 @@ Windows Sockets remote address.
 
 There are several uses for this remote address:<ul>
 <li>You can use this remote address to connect to the service through the 
-<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a> function. This is useful if an application performs 
-<a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>/<a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">receive</a> operations that involve connection-oriented protocols.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function. This is useful if an application performs 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">receive</a> operations that involve connection-oriented protocols.</li>
 <li>You can use this remote address with the 
-<a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a> function when you are communicating over a connectionless (datagram) protocol. If you are using a connectionless protocol, such as UDP, 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function when you are communicating over a connectionless (datagram) protocol. If you are using a connectionless protocol, such as UDP, 
 <b>sendto</b> is typically the way you pass data to the remote system.</li>
 </ul>
 
@@ -122,9 +122,9 @@ A datagram socket. This socket type supports datagrams, which are connectionless
 
 
 Services use 
-<a href="https://msdn.microsoft.com/3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1">recvfrom</a> function to obtain datagrams. The 
-<a href="https://msdn.microsoft.com/1233feeb-a8c1-49ac-ab34-82af224ecf00">listen</a> and 
-<a href="https://msdn.microsoft.com/72246263-4806-4ab2-9b26-89a1782a954b">accept</a> functions do not work with datagrams.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a> function to obtain datagrams. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> functions do not work with datagrams.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Services use
 </dl>
 </td>
 <td width="60%">
-A reliable message datagram socket. This socket type preserves message boundaries in data. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://msdn.microsoft.com/81c203ed-739f-4a06-99a1-9a99c6164edc">reliable multicast programming</a>.
+A reliable message datagram socket. This socket type preserves message boundaries in data. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>.
 
 </td>
 </tr>
@@ -210,10 +210,10 @@ The PGM protocol for reliable multicast. This is a possible value when the addre
 
 
 The 
-<a href="https://msdn.microsoft.com/ea257b9e-5c5b-41fb-bcf0-7ac10b563b8c">GetAddressByName</a> function obtains Windows Sockets address information using 
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a> function obtains Windows Sockets address information using 
 <b>CSADDR_INFO</b> structures. 
 
-The <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function called with the <a href="https://msdn.microsoft.com/2628f47e-3e73-4e02-91b8-ba4cb0800864">SO_BSP_STATE</a> socket option retrieves a <b>CSADDR_INFO</b> structure for the specified socket.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function called with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a> socket option retrieves a <b>CSADDR_INFO</b> structure for the specified socket.
 
 
 
@@ -223,39 +223,39 @@ The <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">ge
 
 
 
-<a href="https://msdn.microsoft.com/ea257b9e-5c5b-41fb-bcf0-7ac10b563b8c">GetAddressByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
 
 
 
-<a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-_socket_address">SOCKET_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/2628f47e-3e73-4e02-91b8-ba4cb0800864">SO_BSP_STATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a651daa-7404-4ef7-8cff-0d3dff41a8e8">bind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
 
 
-<a href="https://msdn.microsoft.com/13468139-dc03-45bd-850c-7ac2dbcb6e60">connect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
 
 
 
-<a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c247cd3-479f-45d0-a038-a24e80cc7c73">recv</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
 
 
 
-<a href="https://msdn.microsoft.com/902bb9cf-d847-43fc-8282-394d619b8f1b">send</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>_NewEnum</b> property specifies either the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> or <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a> enumerator interface for the collection.
+<b>_NewEnum</b> property specifies either the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> enumerator interface for the collection.
 
 
 ## -parameters
@@ -116,7 +116,7 @@ This property is not visible in Visual Basic; use the <b>for...each...next</b> p
 
 
 
-<a href="https://msdn.microsoft.com/8d5e487f-d2d4-4603-918c-e751d698be3c">IUPnPServices</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
  
 
  

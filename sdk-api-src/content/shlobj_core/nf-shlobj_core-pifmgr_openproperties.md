@@ -119,7 +119,7 @@ Returns a handle to the application's properties. Use this handle when you call 
 You should not think of <b>PifMgr_OpenProperties</b> as a function that opens a file somewhere. The .pif file does not remain open after this call. It is more useful to think of the function as a property structure allocator that you can initialize using disk data. 
 The primary reason why this function fails is because of low memory or inability to open the specified .pif file.
 
-If no .pif file exists, the function still allocates a data block in memory and initializes it with data from _Default.pif or its internal defaults.  If the function looks for a .pif file name but does not find it, it constructs a name and saves it in its internal .pif data structure. This guarantees that if <a href="https://msdn.microsoft.com/720ed580-1867-4651-aef6-24ac4397ad39">PifMgr_SetProperties</a> is called, the data is saved to disk.
+If no .pif file exists, the function still allocates a data block in memory and initializes it with data from _Default.pif or its internal defaults.  If the function looks for a .pif file name but does not find it, it constructs a name and saves it in its internal .pif data structure. This guarantees that if <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a> is called, the data is saved to disk.
 
 If the function does not find the .pif file, it searches for it in the following order. 
 
@@ -139,11 +139,11 @@ If the function does not find the .pif file, it searches for it in the following
 
 
 
-<a href="https://msdn.microsoft.com/fd50d4f8-87c8-4162-9e88-3c8592b929fa">PifMgr_CloseProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_closeproperties">PifMgr_CloseProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/62933ddf-9b0d-427a-8b5f-a0117a3b4885">PifMgr_GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>
  
 
  

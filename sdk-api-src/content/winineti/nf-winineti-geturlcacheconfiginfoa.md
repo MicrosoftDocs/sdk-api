@@ -62,7 +62,7 @@ Retrieves information about cache configuration.
 ### -param lpCacheConfigInfo [in, out]
 
 A pointer to an 
-       <a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a> structure 
+       <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a> structure 
        that receives information about the cache configuration. The <b>dwStructSize</b> field of 
        the structure should be initialized to the size of 
        <b>INTERNET_CACHE_CONFIG_INFO</b>.
@@ -123,7 +123,7 @@ Reserved.
 </td>
 <td width="60%">
 The <b>CachePath</b> field of the 
-         <a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a> structure 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a> structure 
          specified in the <i>lpCachedConfigInfo</i> parameter is filled with a pointer to a string 
          identifying the content path. This cannot be used at the same time as 
          <b>CACHE_CONFIG_HISTORY_PATHS_FC</b> or 
@@ -139,7 +139,7 @@ The <b>CachePath</b> field of the
 </td>
 <td width="60%">
 The <b>CachePath</b> field of the 
-         <a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a> structure 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a> structure 
          specified in the <i>lpCachedConfigInfo</i> parameter is filled with a pointer to a string 
          identifying the history path. This cannot be used at the same time as 
          <b>CACHE_CONFIG_CONTENT_PATHS_FC</b> or 
@@ -155,7 +155,7 @@ The <b>CachePath</b> field of the
 </td>
 <td width="60%">
 The <b>CachePath</b> field of the 
-         <a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a> structure 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a> structure 
          specified in the <i>lpCachedConfigInfo</i> parameter is filled with a pointer to a string 
          identifying the cookie path. This cannot be used at the same time as 
          <b>CACHE_CONFIG_CONTENT_PATHS_FC</b> or 
@@ -171,7 +171,7 @@ The <b>CachePath</b> field of the
 </td>
 <td width="60%">
 The <b>dwQuota</b> field of the 
-         <a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a> structure 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a> structure 
          specified in the <i>lpCachedConfigInfo</i> is set to the cache limit for the container 
          specified in the <b>dwContainer</b> field.
 
@@ -196,7 +196,7 @@ Reserved.
 </td>
 <td width="60%">
 The <b>dwNormalUsage</b> field of the 
-         <a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a> structure 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a> structure 
          specified in the <i>lpCachedConfigInfo</i> is set to the cache size for the container 
          specified in the <b>dwContainer</b> field.
 
@@ -210,7 +210,7 @@ The <b>dwNormalUsage</b> field of the
 </td>
 <td width="60%">
 The <b>dwExemptUsage</b> field of the 
-         <a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a> structure 
+         <a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a> structure 
          specified in the <i>lpCachedConfigInfo</i> is set to the exempt usage, the amount of bytes 
          exempt from scavenging, for the container specified in the <b>dwContainer</b> field. (This 
          field must be the content container.)
@@ -226,7 +226,7 @@ The <b>dwExemptUsage</b> field of the
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get 
-       extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -235,7 +235,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get
 
 
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -245,7 +245,7 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get
 
 
 
-<a href="https://msdn.microsoft.com/39019a94-6f14-4758-86f7-aba598e23d2e">INTERNET_CACHE_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winineti/ns-winineti-_internet_cache_config_infoa">INTERNET_CACHE_CONFIG_INFO</a>
  
 
  

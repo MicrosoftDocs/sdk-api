@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DS_NAME_FORMAT</b> enumeration provides formats to use for input and output names for the <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function.
+The <b>DS_NAME_FORMAT</b> enumeration provides formats to use for input and output names for the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a> function.
 
 
 ## -enum-fields
@@ -86,7 +86,7 @@ Indicates a user-friendly display name, for example, Jeff Smith. The display nam
 
 ### -field DS_UNIQUE_ID_NAME
 
-Indicates a GUID string that the <a href="https://msdn.microsoft.com/en-us/library/ms687262(v=VS.85).aspx">IIDFromString</a> function returns. For example:
+Indicates a GUID string that the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a> function returns. For example:
 
 {4fa050f0-f561-11cf-bdd9-00aa003a77b6}
 
@@ -124,7 +124,7 @@ www/www.fabrikam.com@fabrikam.com
 ### -field DS_SID_OR_SID_HISTORY_NAME
 
 Indicates a Security Identifier (SID) for the object. This can be either the current SID or a SID from the object SID history. The SID string can use either the standard string representation of a SID, or one of the string constants defined in Sddl.h. For more information about converting a binary SID into a SID string, see 
-<a href="https://msdn.microsoft.com/a531532f-afba-46a1-8576-90d4ff881b94">SID Strings</a>. The following is an example of a SID string:
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-strings">SID Strings</a>. The following is an example of a SID string:
 
 S-1-5-21-397955417-626881126-188441444-501
 
@@ -139,11 +139,11 @@ Not supported by the Directory Service (DS) APIs.
 
 
 
-<a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/eafa3285-4474-4077-a6ad-b37f8211e7e6">Enumerations in Active Directory Domain Services</a>
+<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the inclusion and exclusion rules that are currently stored in an <a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a> object.
+Retrieves the inclusion and exclusion rules that are currently stored in an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 
 ## -parameters
@@ -65,12 +65,12 @@ If set to <b>TRUE</b>, inclusion rules are returned. If set to <b>FALSE</b>, exc
 
 ### -param Category [in]
 
-An <a href="https://msdn.microsoft.com/40AE4FB7-B81D-4CC1-B1A2-53952AE538DD">FH_PROTECTED_ITEM_CATEGORY</a> enumeration value that specifies the type of the inclusion or exclusion rules.
+An <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a> enumeration value that specifies the type of the inclusion or exclusion rules.
 
 
 ### -param Iterator [out]
 
-Receives an <a href="https://msdn.microsoft.com/E8F993BD-CB53-474A-926D-AED0F5A17073">IFhScopeIterator</a> interface pointer that can be used to enumerate the rules in the requested category.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhscopeiterator">IFhScopeIterator</a> interface pointer that can be used to enumerate the rules in the requested category.
 
 
 ## -returns
@@ -94,7 +94,7 @@ You can modify the File History protection scope  by adding exclusion rules to r
 
 Exclusion rules take precedence over inclusion rules. In other words, if an inclusion rule conflicts with an exclusion rule, the File History feature follows the exclusion rule.
 
-The <a href="https://msdn.microsoft.com/8900944D-3B73-49AB-AE26-F0B2D5842B02">IFhConfigMgr::AddRemoveExcludeRule</a> method can be used to add or remove exclusion rules. It cannot be used to modify the inclusion rules.
+The <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-addremoveexcluderule">IFhConfigMgr::AddRemoveExcludeRule</a> method can be used to add or remove exclusion rules. It cannot be used to modify the inclusion rules.
 
 
 
@@ -104,23 +104,23 @@ The <a href="https://msdn.microsoft.com/8900944D-3B73-49AB-AE26-F0B2D5842B02">IF
 
 
 
-<a href="https://msdn.microsoft.com/40AE4FB7-B81D-4CC1-B1A2-53952AE538DD">FH_PROTECTED_ITEM_CATEGORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-_fh_protected_item_category">FH_PROTECTED_ITEM_CATEGORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/CC97FC0F-3AA4-4D8A-81B3-14F68FDF5788">FhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/CDE8A011-6E78-49DF-A5E1-8E968355BA11">IFhConfigMgr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://msdn.microsoft.com/8900944D-3B73-49AB-AE26-F0B2D5842B02">IFhConfigMgr::AddRemoveExcludeRule</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-addremoveexcluderule">IFhConfigMgr::AddRemoveExcludeRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/E8F993BD-CB53-474A-926D-AED0F5A17073">IFhScopeIterator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhscopeiterator">IFhScopeIterator</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes a method that allows communication between Windows Explorer and a folder view implemented using the system folder view object (the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> object returned through <a href="https://msdn.microsoft.com/f2948a6d-84a5-456b-b328-ba76dba46e9d">SHCreateShellFolderView</a>) so that the folder view can be notified of events and modify its view accordingly.
+Exposes a method that allows communication between Windows Explorer and a folder view implemented using the system folder view object (the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object returned through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>) so that the folder view can be notified of events and modify its view accordingly.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewCB</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellFolderViewCB</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewCB</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellFolderViewCB</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellFolderViewCB</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1678dd76-6ed4-4625-9170-22dcd3d7e8d2">MessageSFVCB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb">MessageSFVCB</a>
 </td>
 <td align="left" width="63%">
 Allows communication between the system folder view object and a system folder view callback object.
@@ -84,7 +84,7 @@ Allows communication between the system folder view object and a system folder v
 
 
 
-<a href="https://msdn.microsoft.com/744c2b49-017e-4284-a39b-3d317e483316">LPFNVIEWCALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfnviewcallback">LPFNVIEWCALLBACK</a>
  
 
  

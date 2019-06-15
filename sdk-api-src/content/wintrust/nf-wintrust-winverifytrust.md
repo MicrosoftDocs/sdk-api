@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WinVerifyTrust</b> function performs a trust verification action on a specified object. The function passes the inquiry to a <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a> that supports the action identifier, if one exists.
+The <b>WinVerifyTrust</b> function performs a trust verification action on a specified object. The function passes the inquiry to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> that supports the action identifier, if one exists.
 
-For certificate verification, use the <a href="https://msdn.microsoft.com/8c93036c-0b93-40d4-b0e3-ba1f2fc72db1">CertGetCertificateChain</a> and <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> functions.
+For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
 
 
 ## -parameters
@@ -106,7 +106,7 @@ A trust provider can treat any value other than INVALID_HANDLE_VALUE or zero as 
 
 ### -param pgActionID [in]
 
-A pointer to a <b>GUID</b> structure that identifies an action and the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a> that supports that action. This value indicates the type of verification action to be performed on the structure pointed to by <i>pWinTrustData</i>.
+A pointer to a <b>GUID</b> structure that identifies an action and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> that supports that action. This value indicates the type of verification action to be performed on the structure pointed to by <i>pWinTrustData</i>.
 
 The WinTrust service is designed to work with trust providers implemented by third parties. Each trust provider provides its own unique set of action identifiers. For information about the action identifiers supported by a trust provider, see the documentation for that trust provider.
 
@@ -183,7 +183,7 @@ Verify a file or object using the Authenticode policy provider.
 </td>
 <td width="60%">
 Write
-the <a href="https://msdn.microsoft.com/93ea2ad5-65da-4daa-bfd4-e3d1307829b2">CRYPT_PROVIDER_DATA</a> structure to a file after calling the
+the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure to a file after calling the
 Authenticode policy provider.
 
 </td>
@@ -195,7 +195,7 @@ Authenticode policy provider.
 ### -param pWVTData [in]
 
 A pointer that, when cast as a 
-<a href="https://msdn.microsoft.com/8fb68f44-6f69-4eac-90de-02689e3e86cf">WINTRUST_DATA</a> structure, contains information that the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-_wintrust_data">WINTRUST_DATA</a> structure, contains information that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
 
 The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
 
@@ -206,7 +206,7 @@ The format of the structure depends on the action identifier. For information ab
 
 If the trust provider verifies that the subject is trusted for the specified action, the return value is zero.  No other value besides zero should be considered a successful return.
 
-If the trust provider does not verify that the subject is trusted for the specified action, the function returns a status code from the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a>.<div class="alert"><b>Note</b>  The return value is a <b>LONG</b>, not an <b>HRESULT</b> as previously documented. Do not use <b>HRESULT</b> macros such as <b>SUCCEEDED</b> to determine whether the function succeeded. Instead, check the return value for equality to zero.</div>
+If the trust provider does not verify that the subject is trusted for the specified action, the function returns a status code from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>.<div class="alert"><b>Note</b>  The return value is a <b>LONG</b>, not an <b>HRESULT</b> as previously documented. Do not use <b>HRESULT</b> macros such as <b>SUCCEEDED</b> to determine whether the function succeeded. Instead, check the return value for equality to zero.</div>
 <div> </div>
 
 
@@ -275,13 +275,13 @@ The trust provider does not support the form specified for the subject.
 
 
 
-The <b>WinVerifyTrust</b> function enables applications to invoke a <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">trust provider</a> to verify that a specified object satisfies the criteria of a specified verification operation. The <i>pgActionID</i> parameter identifies the verification operation, and the <i>pWinTrustData</i> parameter identifies the object whose trust is to be verified. A trust provider is a DLL registered with the operating system. A call to <b>WinVerifyTrust</b> forwards that call to the registered trust provider, if there is one, that supports that specified action identifier.
+The <b>WinVerifyTrust</b> function enables applications to invoke a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> to verify that a specified object satisfies the criteria of a specified verification operation. The <i>pgActionID</i> parameter identifies the verification operation, and the <i>pWinTrustData</i> parameter identifies the object whose trust is to be verified. A trust provider is a DLL registered with the operating system. A call to <b>WinVerifyTrust</b> forwards that call to the registered trust provider, if there is one, that supports that specified action identifier.
 
-For example, the Software Publisher Trust Provider can verify that an executable image file comes from a trusted software publisher and that the file has not been modified since it was published. In this case, the <i>pWinTrustData</i> parameter specifies the name of the file and the type of file, such as a Microsoft <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">Portable Executable</a> image file.
+For example, the Software Publisher Trust Provider can verify that an executable image file comes from a trusted software publisher and that the file has not been modified since it was published. In this case, the <i>pWinTrustData</i> parameter specifies the name of the file and the type of file, such as a Microsoft <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">Portable Executable</a> image file.
 
 Each trust provider supports a specific set of actions that it can evaluate. Each action has a GUID that identifies it. A trust provider can support any number of action identifiers, but two trust providers cannot support the same action identifier.
 
-For an example that demonstrates how to use this function to verify the signature of a portable executable (PE) file, see <a href="https://msdn.microsoft.com/dd53bd44-5dbf-44e9-9945-093995508f44">Example C Program: Verifying the Signature of a PE File</a>.
+For an example that demonstrates how to use this function to verify the signature of a portable executable (PE) file, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file">Example C Program: Verifying the Signature of a PE File</a>.
 
 
 

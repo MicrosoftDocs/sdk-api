@@ -73,7 +73,7 @@ Returns TRUE if the font supports kerning pairs, otherwise FALSE.
 
 
 If the font doesn't support pair table kerning, you don't need to
-    call <a href="https://msdn.microsoft.com/DA837B04-85BC-4A3B-A6FE-24D5AFD21B14">IDWriteFontFace1::GetKerningPairAdjustments</a> because it would retrieve all zeroes.
+    call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getkerningpairadjustments">IDWriteFontFace1::GetKerningPairAdjustments</a> because it would retrieve all zeroes.
 
 
 
@@ -83,11 +83,11 @@ If the font doesn't support pair table kerning, you don't need to
 
 
 
-<a href="https://msdn.microsoft.com/1DB7156F-0578-46A0-8C96-E1E34FF4E49E">IDWriteFontFace1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
 
 
 
-<a href="https://msdn.microsoft.com/DA837B04-85BC-4A3B-A6FE-24D5AFD21B14">IDWriteFontFace1::GetKerningPairAdjustments</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getkerningpairadjustments">IDWriteFontFace1::GetKerningPairAdjustments</a>
  
 
  

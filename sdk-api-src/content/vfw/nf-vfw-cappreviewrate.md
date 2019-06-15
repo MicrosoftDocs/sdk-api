@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capPreviewRate</b> macro sets the frame display rate in preview mode. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/1189ad4a-1f32-4684-920b-ee3c26ef97f8">WM_CAP_SET_PREVIEWRATE</a> message.
+The <b>capPreviewRate</b> macro sets the frame display rate in preview mode. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-previewrate">WM_CAP_SET_PREVIEWRATE</a> message.
 
 
 
@@ -84,11 +84,11 @@ The preview mode uses substantial CPU resources. Applications can disable previe
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

@@ -55,7 +55,7 @@ The <code>Disconnect</code> method breaks the current pin connection.
 
 
 
-The Filter Graph Manager calls this method when it disconnects two filters. Applications and filters should not call this method. Instead, call the <a href="https://msdn.microsoft.com/8c7d6cb6-b91c-4461-8f2b-38342a88eafc">IFilterGraph::Disconnect</a> method on the Filter Graph Manager.
+The Filter Graph Manager calls this method when it disconnects two filters. Applications and filters should not call this method. Instead, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-disconnect">IFilterGraph::Disconnect</a> method on the Filter Graph Manager.
 
 
 ## -parameters
@@ -119,7 +119,7 @@ The filter is active.
 
 
 
-This method fails if the filter is paused or running. If the pin supports the <a href="https://msdn.microsoft.com/0843a01c-6f6a-4765-abca-dd562175fcee">IPinConnection</a> interface, call <a href="https://msdn.microsoft.com/44a5a219-fd42-4fe1-a767-f74d01d86012">IPinConnection::DynamicDisconnect</a> to disconnect the pin when the filter is paused or running.
+This method fails if the filter is paused or running. If the pin supports the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection</a> interface, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicdisconnect">IPinConnection::DynamicDisconnect</a> to disconnect the pin when the filter is paused or running.
 
 This method does not disconnect the other pin in the pin connection.
 
@@ -131,15 +131,15 @@ This method does not disconnect the other pin in the pin connection.
 
 
 
-<a href="https://msdn.microsoft.com/3fcfd874-39bc-42d2-9fc9-2d8945ffa8e3">Data Flow in the Filter Graph</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad0ead4e-9f8e-4935-b220-306d665e50f4">IPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
  
 
  

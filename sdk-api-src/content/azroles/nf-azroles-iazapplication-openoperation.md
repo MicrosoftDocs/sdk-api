@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OpenOperation</b> method opens an <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object with the specified name.
+The <b>OpenOperation</b> method opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>OpenOperation</b> method opens an <a href="https://msdn.microsoft.com/054
 
 ### -param bstrOperationName [in]
 
-Name of the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object to open.
+Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object to open.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppOperation [out]
 
-A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object.
+A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object.
 
 
 ## -returns

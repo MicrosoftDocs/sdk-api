@@ -61,7 +61,7 @@ Retrieves the name for the current property in the enumeration.
 
 Type: <b>LPWSTR</b>
 
-On success, contains the name to use for querying on <a href="https://msdn.microsoft.com/c9c0d73d-4c39-4f7c-9bc6-46d764f157bd">IContactProperties</a>. 
+On success, contains the name to use for querying on <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactproperties">IContactProperties</a>. 
 				EX: toplevel -or- toplevel/secondlevel[4]/thirdlevel.
 
 

@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/2da816f0-9674-4b48-bb82-4eba941a7fa4">IUIAutomationDockPattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdockpattern">IUIAutomationDockPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/165de0f3-61b3-473c-8f97-3070596451db">IUIAutomationDockPattern::SetDockPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdockpattern-setdockposition">IUIAutomationDockPattern::SetDockPosition</a>
  
 
  

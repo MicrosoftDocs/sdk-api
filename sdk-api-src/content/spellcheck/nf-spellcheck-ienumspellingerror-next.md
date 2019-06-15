@@ -59,7 +59,7 @@ Gets the next spelling error.
 
 ### -param value [out, retval]
 
-The spelling error (<a href="https://msdn.microsoft.com/90a233a4-44a4-4f8f-92bb-ea65fa213616">ISpellingError</a>) returned.
+The spelling error (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>) returned.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Successful.
 </dl>
 </td>
 <td width="60%">
-There is no spelling error left to return.  <i>value</i> does not point at a valid <a href="https://msdn.microsoft.com/90a233a4-44a4-4f8f-92bb-ea65fa213616">ISpellingError</a>.
+There is no spelling error left to return.  <i>value</i> does not point at a valid <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ There is no spelling error left to return.  <i>value</i> does not point at a val
 
 
 If there are no spelling errors, this will return <b>S_FALSE</b>.
-This provides a way for a provider to implement spell checking lazily if desired—instead of doing the spell checking work on <a href="https://msdn.microsoft.com/687d7e2f-13b1-4871-8850-2b179a6ce786">ISpellCheckProvider::Check</a> and getting all the errors at once, you can do it only as needed when this method is called, getting one error per call.
+This provides a way for a provider to implement spell checking lazily if desired—instead of doing the spell checking work on <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-check">ISpellCheckProvider::Check</a> and getting all the errors at once, you can do it only as needed when this method is called, getting one error per call.
 
 
 
@@ -116,11 +116,11 @@ This provides a way for a provider to implement spell checking lazily if desired
 
 
 
-<a href="https://msdn.microsoft.com/bd284569-cafe-4993-a832-0683212c8b92">IEnumSpellingError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a233a4-44a4-4f8f-92bb-ea65fa213616">ISpellingError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
  
 
  

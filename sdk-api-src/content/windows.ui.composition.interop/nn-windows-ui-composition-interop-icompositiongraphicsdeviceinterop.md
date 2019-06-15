@@ -56,7 +56,7 @@ A native interoperation  interface that allows getting and setting the graphics 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositionGraphicsDeviceInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICompositionGraphicsDeviceInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICompositionGraphicsDeviceInterop</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICompositionGraphicsDeviceInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ICompositionGraphicsDeviceInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CAA67D15-CE6B-4097-834C-83727F0A6339">GetRenderingDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiongraphicsdeviceinterop-getrenderingdevice">GetRenderingDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering device.
@@ -80,7 +80,7 @@ Gets the rendering device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3A25F450-7182-49E3-A6FB-8DB875D25987">SetRenderingDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nf-windows-ui-composition-interop-icompositiongraphicsdeviceinterop-setrenderingdevice">SetRenderingDevice</a>
 </td>
 <td align="left" width="63%">
 Sets the rendering device.
@@ -94,7 +94,7 @@ Sets the rendering device.
 
 
 
-See <a href="https://msdn.microsoft.com/C8A94128-009A-4327-8E77-A4E155D0910E">ICompositionDrawingSurfaceInterop</a> for usage examples.
+See <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositiondrawingsurfaceinterop">ICompositionDrawingSurfaceInterop</a> for usage examples.
 
 
 
@@ -108,7 +108,7 @@ See <a href="https://msdn.microsoft.com/C8A94128-009A-4327-8E77-A4E155D0910E">IC
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
  
 
  

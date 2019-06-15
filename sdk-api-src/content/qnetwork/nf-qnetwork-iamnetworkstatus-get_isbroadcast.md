@@ -88,7 +88,7 @@ A broadcast stream can be unicast or multicast. In a broadcast connection, the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319732(v=VS.85).aspx">IAMNetworkStatus Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus">IAMNetworkStatus Interface</a>
  
 
  

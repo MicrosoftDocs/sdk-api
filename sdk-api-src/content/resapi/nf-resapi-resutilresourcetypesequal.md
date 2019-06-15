@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tests whether a  <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> matches the resource type name of a specified  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The <b>PRESUTIL_RESOURCE_TYPES_EQUAL</b> type defines a pointer to this function.
+Tests whether a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a> matches the resource type name of a specified  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. The <b>PRESUTIL_RESOURCE_TYPES_EQUAL</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ the function returns <b>FALSE</b>.
 
 
 
-The  <b>ResUtilResourceTypesEqual</b> utility function compares the resource type name pointed to by <i>lpszResourceTypeName</i> with the resource type name of the resource identified by <i>hResource</i>. To perform the comparison,  <b>ResUtilResourceTypesEqual</b> passes the  <a href="https://msdn.microsoft.com/ed679b50-306e-4623-aba3-bab64cd0e671">CLUSCTL_RESOURCE_GET_RESOURCE_TYPE</a> control code to the  <a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a> function to retrieve the resource type. If the two resource type names are the same, the resource types are equal. Note that  <b>ResUtilResourceTypesEqual</b> compares the resource type name and not the resource type  <a href="https://msdn.microsoft.com/02c61e81-486c-4543-b345-a1b2dde41982">display name</a>.
+The  <b>ResUtilResourceTypesEqual</b> utility function compares the resource type name pointed to by <i>lpszResourceTypeName</i> with the resource type name of the resource identified by <i>hResource</i>. To perform the comparison,  <b>ResUtilResourceTypesEqual</b> passes the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-resource-type">CLUSCTL_RESOURCE_GET_RESOURCE_TYPE</a> control code to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function to retrieve the resource type. If the two resource type names are the same, the resource types are equal. Note that  <b>ResUtilResourceTypesEqual</b> compares the resource type name and not the resource type  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/display-names">display name</a>.
 
 
 
@@ -93,11 +93,11 @@ The  <b>ResUtilResourceTypesEqual</b> utility function compares the resource typ
 
 
 
-<a href="https://msdn.microsoft.com/ed679b50-306e-4623-aba3-bab64cd0e671">CLUSCTL_RESOURCE_GET_RESOURCE_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-resource-type">CLUSCTL_RESOURCE_GET_RESOURCE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
  
 
  

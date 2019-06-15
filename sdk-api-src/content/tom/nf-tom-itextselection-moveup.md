@@ -124,7 +124,7 @@ The actual count of units the insertion point or active end is moved down. This 
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -163,7 +163,7 @@ Failure for some other reason.
 
 
 
-The <b>MoveUp</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb774066(v=VS.85).aspx">MoveDown</a> methods are similar to the <a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
+The <b>MoveUp</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a> methods are similar to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a> methods, except that they reflect the behavior of the Up Arrow, Down Arrow, Page Up, and Page Down keys on the cursor-keypad. 
 
 
 
@@ -177,19 +177,19 @@ The <b>MoveUp</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb774066
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774066(v=VS.85).aspx">MoveDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
 
 
 
@@ -197,7 +197,7 @@ The <b>MoveUp</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb774066
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
  
 
  

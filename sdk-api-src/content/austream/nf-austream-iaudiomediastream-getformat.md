@@ -64,7 +64,7 @@ Retrieves the stream data's current format.
 
 ### -param pWaveFormatCurrent [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/4f3bf6fb-b15f-43b3-82f1-e7a8a3007057">WAVEFORMATEX</a> structure that contains the stream data's current format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that contains the stream data's current format.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Currently, Microsoft DirectShow supports only PCM wave data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389516(v=VS.85).aspx">IAudioMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream Interface</a>
  
 
  

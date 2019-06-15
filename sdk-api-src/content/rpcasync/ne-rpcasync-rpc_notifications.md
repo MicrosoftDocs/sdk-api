@@ -61,7 +61,7 @@ The <b>RPC_NOTIFICATIONS</b> enumeration specifies the notifications a server ca
 
 Do not send a notification.
 
-<b>Windows Vista:  </b>Currently, this value is not supported for <a href="https://msdn.microsoft.com/544b1e57-7b3c-474d-8b89-d6c62f54b2c2">RpcServerSubscribeForNotification</a> and <a href="https://msdn.microsoft.com/7ca59f00-41ac-4771-a465-6185e17abe80">RpcServerUnsubscribeForNotification</a>.
+<b>Windows Vista:  </b>Currently, this value is not supported for <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserversubscribefornotification">RpcServerSubscribeForNotification</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverunsubscribefornotification">RpcServerUnsubscribeForNotification</a>.
 
 
 ### -field RpcNotificationClientDisconnect
@@ -79,11 +79,11 @@ The RPC call has been canceled.
 
 
 
-<a href="https://msdn.microsoft.com/544b1e57-7b3c-474d-8b89-d6c62f54b2c2">RpcServerSubscribeForNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserversubscribefornotification">RpcServerSubscribeForNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ca59f00-41ac-4771-a465-6185e17abe80">RpcServerUnsubscribeForNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverunsubscribefornotification">RpcServerUnsubscribeForNotification</a>
  
 
  

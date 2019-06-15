@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>MgmDeRegisterMProtocol</b> function deregisters a client handle obtained from a call to 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Invalid handle to a client.
 
 
 A multicast routing protocol must not call this function until it has released ownership of all the interfaces the protocol owns by calling 
-<a href="https://msdn.microsoft.com/501970f7-7728-4a83-8f4b-207579d65d01">MgmReleaseInterfaceOwnership</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>.
 
 
 
@@ -125,11 +125,11 @@ A multicast routing protocol must not call this function until it has released o
 
 
 
-<a href="https://msdn.microsoft.com/a9b5f5f3-6e54-4a97-b3e7-e9e026947116">MgmRegisterMProtocol</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
 
 
 
-<a href="https://msdn.microsoft.com/501970f7-7728-4a83-8f4b-207579d65d01">MgmReleaseInterfaceOwnership</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>
  
 
  

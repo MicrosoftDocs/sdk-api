@@ -186,7 +186,7 @@ This can be the following value.
 
 ### -param pLevelHandle [out]
 
-The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="https://msdn.microsoft.com/8daffb35-5bb0-45b3-aff1-a8ea6a142ba5">SaferCloseLevel</a> function.
+The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safercloselevel">SaferCloseLevel</a> function.
 
 
 ### -param lpReserved
@@ -202,7 +202,7 @@ Returns nonzero if successful or zero otherwise.
 						
 
 For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined callback function that processes enumerated locale information provided by the <a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a> function. The LOCALE_ENUMPROCEX type defines a pointer to this callback function. <b>EnumLocalesProcEx</b> is a placeholder for the application-defined function name.
+An application-defined callback function that processes enumerated locale information provided by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> function. The LOCALE_ENUMPROCEX type defines a pointer to this callback function. <b>EnumLocalesProcEx</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -74,40 +74,40 @@ An application-defined callback function that processes enumerated locale inform
 
 #### - dwFlags [in]
 
-Flags defining locale information. Values for this parameter can include a binary OR of flags, but some flag combinations never occur. If the application specifies <a href="https://msdn.microsoft.com/931ec33d-d1d0-4a6b-aa55-61db2631dd4f">LOCALE_WINDOWS</a> or <a href="https://msdn.microsoft.com/92d5d358-7aaa-458d-b044-ee1e63176c66">LOCALE_ALTERNATE_SORTS</a>, it can also specify <a href="https://msdn.microsoft.com/12b8e3dc-20bc-451e-b375-f533b403d159">LOCALE_REPLACEMENT</a> so that the <a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a> function can test to see if the locale is a replacement.
+Flags defining locale information. Values for this parameter can include a binary OR of flags, but some flag combinations never occur. If the application specifies <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-windows">LOCALE_WINDOWS</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-alternate-sorts">LOCALE_ALTERNATE_SORTS</a>, it can also specify <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-replacement">LOCALE_REPLACEMENT</a> so that the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> function can test to see if the locale is a replacement.
 
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/40a4ca16-b06c-46be-abe2-bd3e7ed0da4b">LOCALE_ALL</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-all">LOCALE_ALL</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92d5d358-7aaa-458d-b044-ee1e63176c66">LOCALE_ALTERNATE_SORTS</a>; for more information, see <a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-alternate-sorts">LOCALE_ALTERNATE_SORTS</a>; for more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2ca39b78-4cbd-4326-95e5-cb233941968f">LOCALE_NEUTRALDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-neutraldata">LOCALE_NEUTRALDATA</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/12b8e3dc-20bc-451e-b375-f533b403d159">LOCALE_REPLACEMENT</a>
-<div class="alert"><b>Note</b>  This constant is not a valid input to the <i>dwFlags</i> parameter of <a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a>. To enumerate replacement locales, the application should call this function with the <i>dwFlags</i> parameter specified as LOCALE_WINDOWS or LOCALE_ALL, then check for this constant in the callback function.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-replacement">LOCALE_REPLACEMENT</a>
+<div class="alert"><b>Note</b>  This constant is not a valid input to the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>. To enumerate replacement locales, the application should call this function with the <i>dwFlags</i> parameter specified as LOCALE_WINDOWS or LOCALE_ALL, then check for this constant in the callback function.</div>
 <div> </div>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/288026bc-4d73-45a7-809a-0385fc678c8d">LOCALE_SUPPLEMENTAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-supplemental">LOCALE_SUPPLEMENTAL</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/931ec33d-d1d0-4a6b-aa55-61db2631dd4f">LOCALE_WINDOWS</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-windows">LOCALE_WINDOWS</a>
 </li>
 </ul>
 
 #### - lParam [in]
 
-An application-provided input parameter of <a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a>. This value is especially useful for multi-threaded applications, since it can be used to pass thread-specific data to this callback function.
+An application-provided input parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>. This value is especially useful for multi-threaded applications, since it can be used to pass thread-specific data to this callback function.
 
 
 #### - lpLocaleString [in]
 
-Pointer to a buffer containing a null-terminated <a href="https://msdn.microsoft.com/221aae7b-3a7c-4995-ae78-50d97de436d8">locale name</a> string.
+Pointer to a buffer containing a null-terminated <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a> string.
 
 
 ## -returns
@@ -123,7 +123,7 @@ Returns <b>TRUE</b> to continue enumeration or <b>FALSE</b> otherwise.
 
 
 
-An <b>EnumLocalesProcEx</b> function can carry out any desired task. The application registers this function by passing its address to the <a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a> function.
+An <b>EnumLocalesProcEx</b> function can carry out any desired task. The application registers this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a> function.
 
 
 
@@ -133,15 +133,15 @@ An <b>EnumLocalesProcEx</b> function can carry out any desired task. The applica
 
 
 
-<a href="https://msdn.microsoft.com/74b1b453-66e9-4724-a956-26cea2d7d744">EnumSystemLocalesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemlocalesex">EnumSystemLocalesEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

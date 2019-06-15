@@ -59,7 +59,7 @@ Retrieves the unique identifier used to initialize the disc device.
 
 ### -param value [out]
 
-Unique identifier for the device. This is the identifier you specified when calling <a href="https://msdn.microsoft.com/19a647b3-ef39-4208-9dfc-e52242a88c6c">IDiscRecorder2::InitializeDiscRecorder</a>.
+Unique identifier for the device. This is the identifier you specified when calling <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>.
 
 
 ## -returns
@@ -123,7 +123,7 @@ Value: 0x80070057
 
 
 
-<a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
  
 
  

@@ -54,7 +54,7 @@ A text selection is a text range with selection highlighting.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextSelection</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. <b>ITextSelection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextSelection</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>. <b>ITextSelection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITextSelection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787752(v=VS.85).aspx">EndKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-endkey">EndKey</a>
 </td>
 <td align="left" width="63%">
 Mimics the functionality of the End key. 
@@ -78,7 +78,7 @@ Mimics the functionality of the End key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773953(v=VS.85).aspx">GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the text selection flags.
@@ -87,7 +87,7 @@ Gets the text selection flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774037(v=VS.85).aspx">GetType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of text selection.
@@ -96,7 +96,7 @@ Gets the type of text selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-homekey">HomeKey</a>
 </td>
 <td align="left" width="63%">
 Generalizes the functionality of the Home key. 
@@ -105,7 +105,7 @@ Generalizes the functionality of the Home key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774066(v=VS.85).aspx">MoveDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a>
 </td>
 <td align="left" width="63%">
 Mimics the functionality of the Down Arrow and Page Down keys. 
@@ -114,7 +114,7 @@ Mimics the functionality of the Down Arrow and Page Down keys.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a>
 </td>
 <td align="left" width="63%">
 Generalizes the functionality of the Left Arrow key. 
@@ -123,7 +123,7 @@ Generalizes the functionality of the Left Arrow key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>
 </td>
 <td align="left" width="63%">
 Generalizes the functionality of the Right Arrow key. 
@@ -132,7 +132,7 @@ Generalizes the functionality of the Right Arrow key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774087(v=VS.85).aspx">MoveUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveup">MoveUp</a>
 </td>
 <td align="left" width="63%">
 Mimics the functionality of the  Up Arrow and Page Up keys. 
@@ -141,7 +141,7 @@ Mimics the functionality of the  Up Arrow and Page Up keys.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the text selection flags.
@@ -150,10 +150,10 @@ Sets the text selection flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787836(v=VS.85).aspx">TypeText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a>
 </td>
 <td align="left" width="63%">
-Types the string given by <i>bstr</i> at this selection as if someone typed it. This is similar to the underlying <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">SetText</a> method, but is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes.
+Types the string given by <i>bstr</i> at this selection as if someone typed it. This is similar to the underlying <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-settext">SetText</a> method, but is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes.
 
 </td>
 </tr>
@@ -164,11 +164,11 @@ Types the string given by <i>bstr</i> at this selection as if someone typed it. 
 
 
 
-The selection is associated with some kind of view, and has some UI-oriented methods that allow one to emulate keyboard input. Thus, an application can use the <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> methods on a text selection, as well as the <b>ITextSelection</b> methods.
+The selection is associated with some kind of view, and has some UI-oriented methods that allow one to emulate keyboard input. Thus, an application can use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> methods on a text selection, as well as the <b>ITextSelection</b> methods.
 
-For keyboard input emulation, ranges used in selections use the concept of the <i>active end</i>, which is typically the end that was last moved. For example, if an <b>ITextRange::Move</b>* method operates on a range that is actually a text selection, the most recently moved end is the active one. The most familiar examples of the active end are those involving Shift+Arrow Key handling, where the active end is the one that moves. Accordingly, the <b>ITextSelection</b> methods include move methods for the active end, such as <a href="https://msdn.microsoft.com/en-us/library/Bb774074(v=VS.85).aspx">MoveLeft</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb774076(v=VS.85).aspx">MoveRight</a>, and methods to get and set the active end status. These methods manipulate selections in ways similar to the standard cursor-keypad operations. This allows you to implement, for example, a macro recorder facility.
+For keyboard input emulation, ranges used in selections use the concept of the <i>active end</i>, which is typically the end that was last moved. For example, if an <b>ITextRange::Move</b>* method operates on a range that is actually a text selection, the most recently moved end is the active one. The most familiar examples of the active end are those involving Shift+Arrow Key handling, where the active end is the one that moves. Accordingly, the <b>ITextSelection</b> methods include move methods for the active end, such as <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveleft">MoveLeft</a> or <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveright">MoveRight</a>, and methods to get and set the active end status. These methods manipulate selections in ways similar to the standard cursor-keypad operations. This allows you to implement, for example, a macro recorder facility.
 
-To see how the cursor-keypad methods work, see the following table. A given method corresponds to a cursor-keypad key with the Ctrl and Shift keys. The <i>Unit</i> parameter is selected by pressing or not pressing the Ctrl key, while the <i>Extend</i> parameter is selected by pressing or not pressing the Shift key. Note, <a href="https://msdn.microsoft.com/en-us/library/Bb774087(v=VS.85).aspx">MoveUp</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774066(v=VS.85).aspx">MoveDown</a> correspond to more than one keypad key. For more information, see the descriptions of the methods.
+To see how the cursor-keypad methods work, see the following table. A given method corresponds to a cursor-keypad key with the Ctrl and Shift keys. The <i>Unit</i> parameter is selected by pressing or not pressing the Ctrl key, while the <i>Extend</i> parameter is selected by pressing or not pressing the Shift key. Note, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-moveup">MoveUp</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-movedown">MoveDown</a> correspond to more than one keypad key. For more information, see the descriptions of the methods.
 
 <table class="clsStd">
 <tr>
@@ -230,7 +230,7 @@ To see how the cursor-keypad methods work, see the following table. A given meth
 
 Applications typically do not implement the <b>ITextSelection</b> interface. Instead, Microsoft text solutions such as rich edit controls implement <b>ITextSelection</b> as part of their Text Object Model (TOM) implementation.
 
-Applications can retrieve an <b>ITextSelection</b> pointer by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb774013(v=VS.85).aspx">GetSelection</a> method.
+Applications can retrieve an <b>ITextSelection</b> pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getselection">GetSelection</a> method.
 
 
 

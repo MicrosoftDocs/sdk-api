@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 Use the 
 <b>INetConnectionProps</b> interface to retrieve the properties for a connection.
@@ -57,7 +57,7 @@ Use the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetConnectionProps</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>INetConnectionProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetConnectionProps</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetConnectionProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>INetConnectionProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c24c5a6-d856-4c62-a98e-33e4fc216f83">get_DeviceName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_devicename">get_DeviceName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the device associated with the connection.
@@ -81,7 +81,7 @@ Retrieves the name of the device associated with the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df094bda-2e0f-4ff4-aff5-77d1703f8dee">get_Guid</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_guid">get_Guid</a>
 </td>
 <td align="left" width="63%">
 Retrieves the globally-unique identifier (GUID) for the connection.
@@ -90,7 +90,7 @@ Retrieves the globally-unique identifier (GUID) for the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cefaee7c-22ce-4171-8789-fe6befc7e313">get_MediaType</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_mediatype">get_MediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the media type for the connection.
@@ -99,7 +99,7 @@ Retrieves the media type for the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa365091(v=VS.85).aspx">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the connection.
@@ -108,7 +108,7 @@ Retrieves the name of the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa365092(v=VS.85).aspx">get_Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetconnectionprops-get_status">get_Status</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the connection.
@@ -123,15 +123,15 @@ Retrieves the status of the connection.
 
 
 
-<a href="https://msdn.microsoft.com/bf2db553-f324-4f23-b96e-f8ae703aa3ea">INetSharingManager::get_NetConnectionProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_netconnectionprops">INetSharingManager::get_NetConnectionProps</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfef918e-9abf-4ac2-8365-28cd5b249add">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

@@ -106,7 +106,7 @@ When the iSCSI initiator service receives a request from the <b>AddRadiusServer<
 
 
 
-<a href="https://msdn.microsoft.com/e096a91b-84de-4b7d-a0d6-1364746ec488">RemoveRadiusServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeradiusservera">RemoveRadiusServer</a>
  
 
  

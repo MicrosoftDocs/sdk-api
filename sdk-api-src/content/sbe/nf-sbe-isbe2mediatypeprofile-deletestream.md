@@ -59,7 +59,7 @@ Removes a stream from a media type  profile.
 
 ### -param Index [in]
 
-The index of the stream to remove. To get the number of the streams in the profile, call the <a href="https://msdn.microsoft.com/9f129ed8-3b61-4291-8400-a5f0905c8b49">ISBE2MediaTypeProfile::GetStreamCount</a> method.
+The index of the stream to remove. To get the number of the streams in the profile, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2mediatypeprofile-getstreamcount">ISBE2MediaTypeProfile::GetStreamCount</a> method.
 
 
 ## -returns
@@ -106,7 +106,7 @@ Invalid parameter.
 
 
 
-<a href="https://msdn.microsoft.com/b2fb3d08-cbef-4dbf-a60b-8363ccee4fbf">ISBE2MediaTypeProfile</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
  
 
  

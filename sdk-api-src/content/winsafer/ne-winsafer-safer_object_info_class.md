@@ -123,7 +123,7 @@ Queries for additional error codes set during rule processing.
 
 
 
-The <b>SAFER_OBJECT_INFO_CLASS</b> enumeration type is used by the <a href="https://msdn.microsoft.com/cbe73ebc-bf2c-4d39-a203-78ff1a407481">SaferGetLevelInformation</a> function.
+The <b>SAFER_OBJECT_INFO_CLASS</b> enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safergetlevelinformation">SaferGetLevelInformation</a> function.
 
 
 

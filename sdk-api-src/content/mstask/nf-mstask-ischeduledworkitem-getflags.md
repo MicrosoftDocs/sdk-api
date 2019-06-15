@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the flags that modify the behavior of any type of <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>.
+Retrieves the flags that modify the behavior of any type of <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Retrieves the flags that modify the behavior of any type of <a href="https://msd
 ### -param pdwFlags [out]
 
 A pointer to a <b>DWORD</b> that contains the flags for the work item. For a list of these flags, see 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">SetFlags</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">SetFlags</a>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ Not enough memory is available.
 
 
 This method is used to get those flags used by any type of scheduled work item. In contrast, 
-<a href="https://msdn.microsoft.com/fd919375-c903-45eb-a8f4-45baf5b42203">ITask::GetTaskFlags</a> is used only to get flags used by scheduled tasks.
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">ITask::GetTaskFlags</a> is used only to get flags used by scheduled tasks.
 
 
 
@@ -131,15 +131,15 @@ This method is used to get those flags used by any type of scheduled work item. 
 
 
 
-<a href="https://msdn.microsoft.com/e668833a-094d-4504-90a0-87912a6a53c2">IScheduledWorkItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/640ba3c7-ed9d-4c4c-82fd-34fc777172c2">IScheduledWorkItem::SetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd919375-c903-45eb-a8f4-45baf5b42203">ITask::GetTaskFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">ITask::GetTaskFlags</a>
  
 
  

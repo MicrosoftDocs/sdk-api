@@ -107,7 +107,7 @@ A disabled AGC operates in pass-through mode. In this mode, the audio stream pas
 
 
 
-<a href="https://msdn.microsoft.com/f21e27e6-f3a0-418a-ad2e-e3e104dd6da2">IAudioAutoGainControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl Interface</a>
  
 
  

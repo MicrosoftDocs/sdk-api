@@ -59,12 +59,12 @@ The <b>FWPM_NET_EVENT_ENUM_TEMPLATE0</b> structure is used for enumerating net e
 
 ### -field startTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the start time of the period to be checked for net events.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the start time of the period to be checked for net events.
 
 
 ### -field endTime
 
-A <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure that specifies the end time of the period to be checked for net events. It must be greater than or equal to <b>startTime</b>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the end time of the period to be checked for net events. It must be greater than or equal to <b>startTime</b>.
 
 
 ### -field numFilterConditions
@@ -74,7 +74,7 @@ Indicates the number of filter conditions in the <b>filterCondition</b> member. 
 
 ### -field filterCondition
 
-An array of <a href="https://msdn.microsoft.com/4dfed9d7-e51b-425c-9f27-014229c140be">FWPM_FILTER_CONDITION0</a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). All conditions must be true for the action to be
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a> structures that contain distinct filter conditions (duplicated filter conditions will generate an error). All conditions must be true for the action to be
    performed. In other words, the conditions are AND'ed together. If no
    conditions are specified, the action is always performed. 
 
@@ -176,7 +176,7 @@ The identification of the local user.
 
 
 
-<b>FWPM_NET_EVENT_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_NET_EVENT_ENUM_TEMPLATE. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_NET_EVENT_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_NET_EVENT_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -186,15 +186,15 @@ The identification of the local user.
 
 
 
-<a href="https://msdn.microsoft.com/4dfed9d7-e51b-425c-9f27-014229c140be">FWPM_FILTER_CONDITION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0_">FWPM_FILTER_CONDITION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f0b970a-e511-4107-8023-22a8775905b9">Filtering Condition Identifiers</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/filtering-condition-identifiers-">Filtering Condition Identifiers</a>
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

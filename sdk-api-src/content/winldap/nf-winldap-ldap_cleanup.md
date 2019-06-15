@@ -80,7 +80,7 @@ This parameter is ignored.
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa367014(v=vs.85).aspx">Return Values</a>.
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 
 

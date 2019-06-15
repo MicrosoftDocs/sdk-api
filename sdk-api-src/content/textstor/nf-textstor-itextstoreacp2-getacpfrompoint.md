@@ -69,7 +69,7 @@ Pointer to the <b>POINT</b> structure with the screen coordinates of the point.
 
 ### -param dwFlags [in]
 
-Specifies the character position to return based upon the screen coordinates of the point relative to a character bounding box. By default, the character position returned is the character bounding box containing the screen coordinates of the point. If the point is outside a character bounding box, the method returns <b>NULL</b> or <a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">TF_E_INVALIDPOINT</a>. Other bit flags for this parameter are as follows.
+Specifies the character position to return based upon the screen coordinates of the point relative to a character bounding box. By default, the character position returned is the character bounding box containing the screen coordinates of the point. If the point is outside a character bounding box, the method returns <b>NULL</b> or <a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">TF_E_INVALIDPOINT</a>. Other bit flags for this parameter are as follows.
 
 The bit flags can be combined.
 
@@ -162,31 +162,31 @@ The application has not calculated a text layout.
 
 
 
-<a href="https://msdn.microsoft.com/e69e5a4c-65e6-4d9b-8cb0-962524aa5d39">GXFPF_* Constants
+<a href="https://docs.microsoft.com/windows/desktop/TSF/gxfpf--constants">GXFPF_* Constants
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/c256f1c2-6b67-4417-8707-3490a2c5cb55">ITextStoreACP2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8091e79-33af-49d5-b3c8-d30952c62010">ITfContextOwner::GetACPFromPoint
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getacpfrompoint">ITfContextOwner::GetACPFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/543761fe-420e-4821-a69f-abc6c853677e">ITfContextView::GetRangeFromPoint
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">ITfContextView::GetRangeFromPoint
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/12178252-c246-4fa4-bf7b-2445b859ec01">Manager Return Values
+<a href="https://docs.microsoft.com/windows/desktop/TSF/manager-return-values">Manager Return Values
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/e649b799-d0d6-4f2d-b9f1-28070eea9b16">TsViewCookie
+<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
  
 

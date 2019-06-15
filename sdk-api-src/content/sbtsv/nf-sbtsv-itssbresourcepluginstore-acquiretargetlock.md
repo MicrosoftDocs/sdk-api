@@ -69,7 +69,7 @@ The timeout for the operation, in milliseconds.
 
 ### -param ppContext [out]
 
-Returns a pointer to the context of the lock. To release the lock, supply this pointer to the <a href="https://msdn.microsoft.com/37c22f94-c00d-471b-bd6c-067b3229f99b">ReleaseTargetLock</a> method.
+Returns a pointer to the context of the lock. To release the lock, supply this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock">ReleaseTargetLock</a> method.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After the lock is acquired, the calling thread is assumed to have exclusive access to the target object and therefore no other thread (within the same machine) can update it. Therefore the calling thread must call the <a href="https://msdn.microsoft.com/37c22f94-c00d-471b-bd6c-067b3229f99b">ReleaseTargetLock</a> method as soon as it has made the necessary updates to the target object.
+After the lock is acquired, the calling thread is assumed to have exclusive access to the target object and therefore no other thread (within the same machine) can update it. Therefore the calling thread must call the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock">ReleaseTargetLock</a> method as soon as it has made the necessary updates to the target object.
 
 <div class="alert"><b>Important</b>  this lock does not completely prevent target objects from being modified externally if more than one Connection Broker exists in the deployment. The calling thread must be prepared to handle a failure gracefully and retry the target update.</div>
 <div> </div>
@@ -97,7 +97,7 @@ After the lock is acquired, the calling thread is assumed to have exclusive acce
 
 
 
-<a href="https://msdn.microsoft.com/b8b54827-6c6b-4531-8ae3-73baed6125cd">ITsSbResourcePluginStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
  
 
  

@@ -59,7 +59,7 @@ Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
 
 ### -param VirtualStorageType [in]
 
-A pointer to a valid <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> 
+A pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> 
      structure.
 
 
@@ -71,19 +71,19 @@ A pointer to a valid path to the virtual disk image to open.
 ### -param VirtualDiskAccessMask [in]
 
 A valid value of the 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> enumeration.
 
 
 ### -param Flags [in]
 
 A valid combination of values of the 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323681(v=VS.85).aspx">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in, optional]
 
 An optional pointer to a valid 
-     <a href="https://msdn.microsoft.com/en-us/library/Dd323682(v=VS.85).aspx">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
+     <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
      be <b>NULL</b>.
 
 
@@ -101,7 +101,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> (0) and the
 
 If the function fails, the return value is an error code and the value of the <i>Handle</i> 
       parameter is undefined. For more information, see 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -146,7 +146,7 @@ The path pointed to by the <i>Path</i> parameter cannot be on a local network sh
     volume structure descriptor does not contain a known CDFS or UDFS volume identifier.
 
 When an application is finished using the object handle returned in the <i>Handle</i> 
-    parameter, use the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the 
+    parameter, use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the 
     handle.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
@@ -160,15 +160,15 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd323659(v=VS.85).aspx">CreateVirtualDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-createvirtualdisk">CreateVirtualDisk</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

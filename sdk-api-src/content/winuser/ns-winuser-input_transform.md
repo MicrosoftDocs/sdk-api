@@ -266,11 +266,11 @@ A 4x4 matrix, represented as a two-dimensional array.
 
 
 
-<a href="https://msdn.microsoft.com/9F10ED61-90E3-441B-8F4D-E33DA54D473C">GetPointerInputTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinputtransform">GetPointerInputTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/2224DCD0-DAE1-4AC2-AB36-23D114801138">Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
  
 
  

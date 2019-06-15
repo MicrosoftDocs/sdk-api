@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[The WLX_DISPATCH_VERSION_1_0 structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WLX_DISPATCH_VERSION_1_0</b> structure defines the format of the <a href="https://msdn.microsoft.com/031c898b-3b4d-4b29-811a-112da37b5e3d">Winlogon</a> version 1.0 function dispatch table passed to your <a href="https://msdn.microsoft.com/c9567a5b-bd56-4ae1-9eac-af0bb5a6842a">GINA</a> DLL in the 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a> call.
+The <b>WLX_DISPATCH_VERSION_1_0</b> structure defines the format of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> version 1.0 function dispatch table passed to your <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 This dispatch table is used if your GINA DLL specifies version 1.0 in its implementation of 
-<a href="https://msdn.microsoft.com/9e7bab30-5cc6-4c55-82e4-d888e1af59ed">WlxNegotiate</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxnegotiate">WlxNegotiate</a>.
 
 
 ## -struct-fields
@@ -65,67 +65,67 @@ This dispatch table is used if your GINA DLL specifies version 1.0 in its implem
 
 ### -field WlxUseCtrlAltDel
 
-Pointer to a <a href="https://msdn.microsoft.com/827bc495-eb7d-4a83-a325-903de0551d5f">WlxUseCtrlAltDel</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_use_ctrl_alt_del">WlxUseCtrlAltDel</a> function.
 
 
 ### -field WlxSetContextPointer
 
-Pointer to a <a href="https://msdn.microsoft.com/592d05f4-be7c-4606-91ad-77e3fb4f6b7a">WlxSetContextPointer</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_context_pointer">WlxSetContextPointer</a> function.
 
 
 ### -field WlxSasNotify
 
-Pointer to a <a href="https://msdn.microsoft.com/534afdf8-6809-413a-ac5c-23978f2b288a">WlxSasNotify</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify">WlxSasNotify</a> function.
 
 
 ### -field WlxSetTimeout
 
-Pointer to a <a href="https://msdn.microsoft.com/e5f1a184-195a-4a0e-849a-ed629a6c9049">WlxSetTimeout</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_timeout">WlxSetTimeout</a> function.
 
 
 ### -field WlxAssignShellProtection
 
-Pointer to a <a href="https://msdn.microsoft.com/7a744bde-3354-4e55-a6be-08acb4085e8a">WlxAssignShellProtection</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_assign_shell_protection">WlxAssignShellProtection</a> function.
 
 
 ### -field WlxMessageBox
 
-Pointer to a <a href="https://msdn.microsoft.com/5ae99416-c502-46f6-ba58-7385ce410e48">WlxMessageBox</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_message_box">WlxMessageBox</a> function.
 
 
 ### -field WlxDialogBox
 
-Pointer to a <a href="https://msdn.microsoft.com/a16313ea-ae76-4d9b-80b3-3fb12af803c7">WlxDialogBox</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box">WlxDialogBox</a> function.
 
 
 ### -field WlxDialogBoxParam
 
-Pointer to a <a href="https://msdn.microsoft.com/0b4543e1-066b-4d19-9b15-90d966d25154">WlxDialogBoxParam</a> function. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_param">WlxDialogBoxParam</a> function. 
 
 
 ### -field WlxDialogBoxIndirect
 
-Pointer to a <a href="https://msdn.microsoft.com/adace4e8-659e-4360-985d-d3daafdd3688">WlxDialogBoxIndirect</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect">WlxDialogBoxIndirect</a> function.
 
 
 ### -field WlxDialogBoxIndirectParam
 
-Pointer to a <a href="https://msdn.microsoft.com/98541411-45c7-4c23-95a0-c76022184db3">WlxDialogBoxIndirectParam</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_dialog_box_indirect_param">WlxDialogBoxIndirectParam</a> function.
 
 
 ### -field WlxSwitchDesktopToUser
 
-Pointer to a <a href="https://msdn.microsoft.com/ec353e23-7e33-4af2-93ea-35801a19d9aa">WlxSwitchDesktopToUser</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_user">WlxSwitchDesktopToUser</a> function.
 
 
 ### -field WlxSwitchDesktopToWinlogon
 
-Pointer to a  <a href="https://msdn.microsoft.com/ed910769-94c2-455b-9788-de3795330821">WlxSwitchDesktopToWinlogon</a> function.
+Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_switch_desktop_to_winlogon">WlxSwitchDesktopToWinlogon</a> function.
 
 
 ### -field WlxChangePasswordNotify
 
-Pointer to a <a href="https://msdn.microsoft.com/53765f8f-50cb-40dd-888e-0e1ddbe76f7e">WlxChangePasswordNotify</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password_notify">WlxChangePasswordNotify</a> function.
 
 
 ## -see-also
@@ -133,7 +133,7 @@ Pointer to a <a href="https://msdn.microsoft.com/53765f8f-50cb-40dd-888e-0e1ddbe
 
 
 
-<a href="https://msdn.microsoft.com/db03f2b3-0719-40be-8a42-04ab7110f711">WlxInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
  
 
  

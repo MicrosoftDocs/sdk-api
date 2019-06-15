@@ -59,12 +59,12 @@ The <b>SetupDiRemoveDeviceInterface</b> function removes a registered device int
 
 ### -param DeviceInfoSet [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device interface to remove. This handle is typically returned by <b>SetupDiGetClassDevs</b>. 
 
 
 ### -param DeviceInterfaceData [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/df142e95-aa1c-4d3e-90c6-bac86effbd5d">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i> to remove. This pointer is typically returned by <a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i> to remove. This pointer is typically returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>.
 
 After the interface is removed, this function sets the SPINT_REMOVED flag in <i>DeviceInterfaceData</i><b>.Flags</b>. It also clears the SPINT_ACTIVE flag, but be aware that this flag should have already been cleared before this function was called.
 
@@ -86,9 +86,9 @@ The caller of this function must be a member of the Administrators group.
 
 <b>SetupDiRemoveDeviceInterface</b> removes the specified device interface from the system. This includes deleting the associated registry key. 
 
-Call <a href="https://msdn.microsoft.com/20c9fe5b-ed88-4e2c-bca5-eba62f919fe6">SetupDiDeleteDeviceInterfaceData</a> to delete the interface from a device information list.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfacedata">SetupDiDeleteDeviceInterfaceData</a> to delete the interface from a device information list.
 
-A device interface must be disabled to be removed. If the interface is enabled, this function fails and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DEVICE_INTERFACE_ACTIVE. Disable an interface by using whatever interface-specific mechanism is provided (for example, an IOCTL). If the caller has no way to disable an interface and the interface must be removed, the caller must stop the underlying device by using <a href="https://msdn.microsoft.com/204c1366-1817-4cd1-a1fd-a4ad3e79b7cc">SetupDiChangeState</a>. Stopping the device disables all the interfaces exposed by the device. 
+A device interface must be disabled to be removed. If the interface is enabled, this function fails and <a href="http://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a> returns ERROR_DEVICE_INTERFACE_ACTIVE. Disable an interface by using whatever interface-specific mechanism is provided (for example, an IOCTL). If the caller has no way to disable an interface and the interface must be removed, the caller must stop the underlying device by using <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>. Stopping the device disables all the interfaces exposed by the device. 
 
 
 
@@ -98,23 +98,23 @@ A device interface must be disabled to be removed. If the interface is enabled, 
 
 
 
-<a href="https://msdn.microsoft.com/204c1366-1817-4cd1-a1fd-a4ad3e79b7cc">SetupDiChangeState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdichangestate">SetupDiChangeState</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5f78c34-b61c-4fcb-b021-fb8d07c2d841">SetupDiCreateDeviceInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/20c9fe5b-ed88-4e2c-bca5-eba62f919fe6">SetupDiDeleteDeviceInterfaceData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdideletedeviceinterfacedata">SetupDiDeleteDeviceInterfaceData</a>
 
 
 
-<a href="https://msdn.microsoft.com/5095404d-2447-407e-99e2-dd3ef3c3b905">SetupDiEnumDeviceInterfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/31bb0fc8-0fb8-4122-b9e8-5ff8fbbd903b">SetupDiGetClassDevs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
  
 
  

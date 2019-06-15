@@ -91,7 +91,7 @@ Pointer to a <b>BOOL</b> variable into which the method writes the current state
 
 
 
-<a href="https://msdn.microsoft.com/53d49af7-81c3-4e75-ba06-dcee34d84292">IAudioMute Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute Interface</a>
  
 
  

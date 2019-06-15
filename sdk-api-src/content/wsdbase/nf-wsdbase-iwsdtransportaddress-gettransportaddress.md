@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to a string representation of the address object.  The format of the string varies, and is determined by the implementing interface (either <a href="https://msdn.microsoft.com/79d3570a-56b2-40ad-b3c6-cddc3239da7e">IWSDHttpAddress</a> or <a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c1982e">IWSDUdpAddress</a>).
+Gets a pointer to a string representation of the address object.  The format of the string varies, and is determined by the implementing interface (either <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>).
 
 
 ## -parameters
@@ -107,7 +107,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The transport address has not yet been set. To set the transport address, call <a href="https://msdn.microsoft.com/ea87b7d8-71c0-4cb6-b28b-7ac8f2417886">SetTransportAddress</a> with a non-<b>NULL</b> address.
+The transport address has not yet been set. To set the transport address, call <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a> with a non-<b>NULL</b> address.
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ The string returned by this method may contain an IPv4 or unbracketed IPv6 addre
 
 
 
-<a href="https://msdn.microsoft.com/84dfee11-8092-4018-8840-e766a94c60a4">IWSDTransportAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
  
 
  

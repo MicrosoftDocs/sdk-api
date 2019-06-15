@@ -85,7 +85,7 @@ This encryption state is read from the Offline Files cache and reflects the stat
 
 This method returns two values that indicate if the cache is fully encrypted, partially encrypted, fully unencrypted or partially unencrypted.
 
-To change the encryption state of the cache, use the <a href="https://msdn.microsoft.com/b7531018-4837-4fde-8947-0f099f6de9e5">IOfflineFilesCache::Encrypt</a> method.
+To change the encryption state of the cache, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-encrypt">IOfflineFilesCache::Encrypt</a> method.
 
 
 #### Examples
@@ -138,7 +138,7 @@ The following example shows how to use this method.
 
 
 
-<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
  
 
  

@@ -52,14 +52,14 @@ ms.custom: 19H1
 
 Determines the proxy to use when connecting to a server. The network source uses this interface.
 
-Applications can create the proxy locator configured by the application by implementing the <a href="https://msdn.microsoft.com/6dd5bf50-2d07-47c7-869e-035d7e92a6bc">IMFNetProxyLocatorFactory</a> interface and setting the <a href="https://msdn.microsoft.com/455325c0-5116-4e81-9729-fab9c6a367c7">MFNETSOURCE_PROXYLOCATORFACTORY</a> property on the source resolver. Otherwise, the network source uses the default Media Foundation implementation.
+Applications can create the proxy locator configured by the application by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory">IMFNetProxyLocatorFactory</a> interface and setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxylocatorfactory-property">MFNETSOURCE_PROXYLOCATORFACTORY</a> property on the source resolver. Otherwise, the network source uses the default Media Foundation implementation.
 
-To create the default proxy locator, call <a href="https://msdn.microsoft.com/9ad707df-533a-407b-a611-49bfb019affc">MFCreateProxyLocator</a>.
+To create the default proxy locator, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator">MFCreateProxyLocator</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetProxyLocator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFNetProxyLocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetProxyLocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMFNetProxyLocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/551372b3-b9aa-4057-8c14-19e582053e00">Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new instance of the proxy locator object.
@@ -83,7 +83,7 @@ Creates a new instance of the proxy locator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48eba170-eeed-4edf-b8d3-2f4541637129">FindFirstProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findfirstproxy">FindFirstProxy</a>
 </td>
 <td align="left" width="63%">
 Initializes the proxy locator object.
@@ -92,7 +92,7 @@ Initializes the proxy locator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91a6046f-f5c3-4239-af71-d25e9d5b5838">FindNextProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findnextproxy">FindNextProxy</a>
 </td>
 <td align="left" width="63%">
 Determines the next proxy to use in the list.
@@ -101,7 +101,7 @@ Determines the next proxy to use in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272">GetCurrentProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-getcurrentproxy">GetCurrentProxy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current proxy information including hostname and port.
@@ -110,7 +110,7 @@ Retrieves the current proxy information including hostname and port.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b1a55c6-7d78-47cc-9098-6504d11a4eef">RegisterProxyResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-registerproxyresult">RegisterProxyResult</a>
 </td>
 <td align="left" width="63%">
 Keeps record of the success or failure of using the current proxy.
@@ -125,11 +125,11 @@ Keeps record of the success or failure of using the current proxy.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/e739746d-2a09-4237-a7c1-0aed4e4516d7">Proxy Support for Network Sources</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>
  
 
  

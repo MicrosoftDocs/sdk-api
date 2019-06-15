@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CM_Set_Class_Registry_Property</b> function sets or deletes a property of a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a>.
+The <b>CM_Set_Class_Registry_Property</b> function sets or deletes a property of a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A pointer to the GUID that represents the device setup class for which to set a 
 
 ### -param ulProperty [in]
 
-A value of type ULONG that identifies the property to set. This value must be one of the CM_CRP_<i>Xxx</i> values that are described for the <i>ulProperty</i> parameter of the <a href="https://msdn.microsoft.com/2247771d-5edd-47c3-8635-586bf815544a">CM_Get_Class_Registry_Property</a> function.
+A value of type ULONG that identifies the property to set. This value must be one of the CM_CRP_<i>Xxx</i> values that are described for the <i>ulProperty</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw">CM_Get_Class_Registry_Property</a> function.
 
 
 ### -param Buffer [in, optional]
@@ -89,7 +89,7 @@ Reserved for internal use only. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-A handle to a remote machine on which to set the specified <a href="https://msdn.microsoft.com/library/Ff537744(v=VS.85).aspx">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
+A handle to a remote machine on which to set the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/accessing-device-setup-class-properties">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
 
 
 ## -returns
@@ -119,15 +119,15 @@ If <i>Buffer</i> is not set to <b>NULL</b> and <i>ulLength</i> is not set to zer
 
 
 
-<a href="https://msdn.microsoft.com/2247771d-5edd-47c3-8635-586bf815544a">CM_Get_Class_Registry_Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_class_registry_propertyw">CM_Get_Class_Registry_Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/79a600af-15c1-4afc-a2cd-568b97d979dc">SetupDiGetClassRegistryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/78457461-11ef-44ec-aa60-1adf4a48db8c">SetupDiSetClassRegistryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassregistrypropertya">SetupDiSetClassRegistryProperty</a>
  
 
  

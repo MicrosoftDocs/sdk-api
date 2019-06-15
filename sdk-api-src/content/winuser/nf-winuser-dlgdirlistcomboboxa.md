@@ -61,14 +61,14 @@ Replaces the contents of a combo box with the names of the subdirectories and fi
 
 ### -param hDlg [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the combo box. 
 
 
 ### -param lpPathSpec [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer containing a null-terminated string that specifies an absolute path, relative path, or file name. An absolute path can begin with a drive letter (for example, d:\) or a UNC name (for example, \\<i>machinename</i>\<i>sharename</i>). 
         
@@ -95,7 +95,7 @@ The identifier of a static control in the <i>hDlg</i> dialog box. <b>DlgDirListC
 
 ### -param uFiletype [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A set of bit flags that specifies the attributes of the files or directories to be added to the combo box. This parameter can be a combination of the following values. 
 
@@ -190,7 +190,7 @@ Includes system files.
 </dl>
 </td>
 <td width="60%">
-If this flag is set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the combo box. If this flag is not set, <b>DlgDirListComboBox</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
+If this flag is set, <b>DlgDirListComboBox</b> uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a> function to send messages to the combo box. If this flag is not set, <b>DlgDirListComboBox</b> uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
 
 </td>
 </tr>
@@ -208,7 +208,7 @@ If the function succeeds, the return value is nonzero.
                     
                     
 
-If the function fails, the return value is zero. For example, if the string specified by <i>lpPathSpec</i> is not a valid path, the function fails. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. For example, if the string specified by <i>lpPathSpec</i> is not a valid path, the function fails. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -219,15 +219,15 @@ If the function fails, the return value is zero. For example, if the string spec
 
 If <i>lpPathSpec</i> specifies a directory, <b>DlgDirListComboBox</b> changes the current directory to the specified directory before filling the combo box. The text of the static control identified by the	<i>nIDStaticPath</i> parameter is set to the name of the new current directory. 
 
-<b>DlgDirListComboBox</b> sends the <a href="https://msdn.microsoft.com/en-us/library/Bb775878(v=VS.85).aspx">CB_RESETCONTENT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775832(v=VS.85).aspx">CB_DIR</a> messages to the combo box. 
+<b>DlgDirListComboBox</b> sends the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-resetcontent">CB_RESETCONTENT</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-dir">CB_DIR</a> messages to the combo box. 
 
 Microsoft Windows NT 4.0 and later: If <i>uFiletype</i> includes the DDL_DIRECTORY flag and <i>lpPathSpec</i> specifies a first-level directory, such as C:\TEMP, the combo box will always include a ".." entry for the root directory. This is true even if the root directory has hidden or system attributes and the DDL_HIDDEN and DDL_SYSTEM flags are not specified. The root directory of an NTFS volume has hidden and system attributes. 
 
-<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writeable buffer, or a buffer without a null-termination. You should review the <a href="https://msdn.microsoft.com/en-us/library/Bb773171(v=VS.85).aspx">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Using this function incorrectly might compromise the security of your program. Incorrect use of this function includes having <i>lpPathSpec</i> indicate a non-writeable buffer, or a buffer without a null-termination. You should review the <a href="https://docs.microsoft.com/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 Microsoft Windows NT 4.0 and later: The list displays long file names, if any.
 
-Windows 95 or later: The list displays short file names (the 8.3 form). You can use the <a href="https://msdn.microsoft.com/d662bedf-4be0-4528-8121-e7923a42bc67">SHGetFileInfo</a> or <a href="https://msdn.microsoft.com/4cf59ee3-4065-4096-a2b5-fbed20aa5caa">GetFullPathName</a> functions to get the corresponding long file name.
+Windows 95 or later: The list displays short file names (the 8.3 form). You can use the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> functions to get the corresponding long file name.
 
 Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="http://go.microsoft.com/fwlink/p/?linkid=198351">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
@@ -239,11 +239,11 @@ Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft L
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761366(v=VS.85).aspx">DlgDirList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirlista">DlgDirList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775937(v=VS.85).aspx">DlgDirSelectComboBoxEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dlgdirselectcomboboxexa">DlgDirSelectComboBoxEx</a>
 
 
 

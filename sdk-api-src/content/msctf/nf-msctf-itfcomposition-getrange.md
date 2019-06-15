@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param ppRange [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
 
 
 ## -returns
@@ -138,7 +138,7 @@ The composition has already terminated.
 
 
 
-<a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange
       </a>
  
 

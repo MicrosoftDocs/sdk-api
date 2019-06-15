@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>MibGetTrapInfo</b> function queries the module that set a trap event for more information about the trap.
 
-The <a href="https://msdn.microsoft.com/7046c4c2-b0bd-4459-b361-e46ce876823f">PMIB_GET_TRAP_INFO</a> type defines a pointer to this callback function. <i>MibGetTrapInfo</i> is a placeholder for the application-defined function name.
+The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-_mpr50_routing_characteristics">PMIB_GET_TRAP_INFO</a> type defines a pointer to this callback function. <i>MibGetTrapInfo</i> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -129,7 +129,7 @@ Insufficient resources to complete the operation.
 
 
 
-<a href="https://msdn.microsoft.com/28056113-82a5-4493-ba49-509db3606fa0">MibSetTrapInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_set_trap_info">MibSetTrapInfo</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Do not use. Contains an array of one or more <a href="https://msdn.microsoft.com/en-us/library/ms629447(v=VS.85).aspx">SPropProblem</a> structures.
+Do not use. Contains an array of one or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a> structures.
 
 
 ## -struct-fields
@@ -62,12 +62,12 @@ Do not use. Contains an array of one or more <a href="https://msdn.microsoft.com
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifies the count of <a href="https://msdn.microsoft.com/en-us/library/ms629447(v=VS.85).aspx">SPropProblem</a> structures in the array indicated by the <b>aProblem</b> member. 
+Variable of type <b>ULONG</b> that specifies the count of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a> structures in the array indicated by the <b>aProblem</b> member. 
 
 
 ### -field aProblem
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629447(v=VS.85).aspx">SPropProblem</a>[MAPI_DIM]</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://msdn.microsoft.com/en-us/library/ms629447(v=VS.85).aspx">SPropProblem</a> that specify information about a property error.
+Array of variables of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wabdefs/ns-wabdefs-_spropproblem">SPropProblem</a> that specify information about a property error.
 

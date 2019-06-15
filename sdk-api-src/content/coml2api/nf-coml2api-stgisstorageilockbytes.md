@@ -62,7 +62,7 @@ The <b>StgIsStorageILockBytes</b> function indicates whether the specified byte 
 ### -param plkbyt
 
 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> pointer to the byte array to be examined.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> pointer to the byte array to be examined.
 
 
 ## -returns
@@ -70,9 +70,9 @@ The <b>StgIsStorageILockBytes</b> function indicates whether the specified byte 
 
 
 This function can also return any file system errors, or system errors wrapped in an <b>HRESULT</b>, or 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface error return values. See 
-<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface error return values. See 
+<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-strategies">Error Handling Strategies</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/com/handling-unknown-errors">Handling Unknown Errors</a>
 
 
 
@@ -83,9 +83,9 @@ This function can also return any file system errors, or system errors wrapped i
 
 
 At the beginning of the byte array underlying a storage object is a signature distinguishing a storage object (supporting the 
-<a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface) from other file formats. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface) from other file formats. The 
 <b>StgIsStorageILockBytes</b> function is useful to applications whose documents use a byte array (a byte array object supports the 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a> interface) that might or might not use storage objects.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a> interface) that might or might not use storage objects.
 
 
 
@@ -95,11 +95,11 @@ At the beginning of the byte array underlying a storage object is a signature di
 
 
 
-<a href="https://msdn.microsoft.com/bb2c5d0d-8dc8-4844-9a20-ef8e4def5731">ILockBytes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc">StgIsStorageFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile">StgIsStorageFile</a>
  
 
  

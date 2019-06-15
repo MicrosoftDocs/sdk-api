@@ -68,7 +68,7 @@ The <b>DdSetOverlayPosition</b> callback function sets the position for an overl
 
 #### - lpSetOverlayPosition
 
-Points to a <a href="https://msdn.microsoft.com/edfcbe23-81af-41fb-b29e-cd6e2da4d603">DD_SETOVERLAYPOSITIONDATA</a> structure that contains the information required to set the overlay position.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure that contains the information required to set the overlay position.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Points to a <a href="https://msdn.microsoft.com/edfcbe23-81af-41fb-b29e-cd6e2da4
 
 
 
-When the overlay is visible, the driver should cause the overlay to be displayed on the primary surface. The upper left corner of the overlay should be anchored at the position specified by the <b>lXPos</b> and <b>lYPos</b> members of the <a href="https://msdn.microsoft.com/edfcbe23-81af-41fb-b29e-cd6e2da4d603">DD_SETOVERLAYPOSITIONDATA</a> structure at <i>lpSetOverlayPosition</i>. For example, values of (0,0) indicate that the upper left corner of the overlay should appear in the upper left corner of the surface identified by the <b>lpDDDestSurface</b> member of DD_SETOVERLAYPOSITIONDATA.
+When the overlay is visible, the driver should cause the overlay to be displayed on the primary surface. The upper left corner of the overlay should be anchored at the position specified by the <b>lXPos</b> and <b>lYPos</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a> structure at <i>lpSetOverlayPosition</i>. For example, values of (0,0) indicate that the upper left corner of the overlay should appear in the upper left corner of the surface identified by the <b>lpDDDestSurface</b> member of DD_SETOVERLAYPOSITIONDATA.
 
 When the overlay is invisible, the driver should set an error code in the <b>ddRVal</b> member of DD_SETOVERLAYPOSITIONDATA and return DDHAL_DRIVER_HANDLED.
 
@@ -96,7 +96,7 @@ When the overlay is invisible, the driver should set an error code in the <b>ddR
 
 
 
-<a href="https://msdn.microsoft.com/edfcbe23-81af-41fb-b29e-cd6e2da4d603">DD_SETOVERLAYPOSITIONDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_setoverlaypositiondata">DD_SETOVERLAYPOSITIONDATA</a>
  
 
  

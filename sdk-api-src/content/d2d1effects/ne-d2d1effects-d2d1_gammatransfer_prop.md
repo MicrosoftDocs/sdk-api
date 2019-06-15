@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/0E0455CA-CFCA-4C4F-9DFA-1DB6A5205F6A">Gamma transfer effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/gamma-transfer">Gamma transfer effect</a>.
         
 
 

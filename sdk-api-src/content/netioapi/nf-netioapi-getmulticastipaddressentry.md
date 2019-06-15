@@ -61,7 +61,7 @@ The
 ### -param Row [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> structure entry for a multicast IP address entry. On successful return, this structure will be updated with the properties for an existing multicast IP address.
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> structure entry for a multicast IP address entry. On successful return, this structure will be updated with the properties for an existing multicast IP address.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the function fails, the return value is one of the following error codes.
 </dl>
 </td>
 <td width="60%">
-The system cannot find the file specified. This error is returned if the  network interface LUID or interface index specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter is not a value on the local machine.
+The system cannot find the file specified. This error is returned if the  network interface LUID or interface index specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter is not a value on the local machine.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ The system cannot find the file specified. This error is returned if the  networ
 </dl>
 </td>
 <td width="60%">
-A parameter is incorrect. This error is returned if a <b>NULL</b> pointer is passed in the <i>Row</i> parameter, the <b>Address</b> member of the <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter is not set to a valid multicast IPv4 or IPv6 address, or both the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members of the <b>MIB_MULTICASTIPADDRESS_ROW</b> pointed to by the <i>Row</i> parameter are unspecified.
+A parameter is incorrect. This error is returned if a <b>NULL</b> pointer is passed in the <i>Row</i> parameter, the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter is not set to a valid multicast IPv4 or IPv6 address, or both the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> members of the <b>MIB_MULTICASTIPADDRESS_ROW</b> pointed to by the <i>Row</i> parameter are unspecified.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ A parameter is incorrect. This error is returned if a <b>NULL</b> pointer is pas
 </dl>
 </td>
 <td width="60%">
-Element not found. This error is returned if the  network interface specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter does not match the IP address and address family specified in the <b>Address</b> member in the <b>MIB_MULTICASTIPADDRESS_ROW</b>  structure.
+Element not found. This error is returned if the  network interface specified by the <b>InterfaceLuid</b> or <b>InterfaceIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter does not match the IP address and address family specified in the <b>Address</b> member in the <b>MIB_MULTICASTIPADDRESS_ROW</b>  structure.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Element not found. This error is returned if the  network interface specified by
 </dl>
 </td>
 <td width="60%">
-The request is not supported. This error is returned if no IPv4 stack is on the local computer and an IPv4 address is specified in the <b>Address</b> member <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter. This error is also returned if no IPv6 stack is on the local computer and an IPv6 address is specified in the <b>Address</b> member. 
+The request is not supported. This error is returned if no IPv4 stack is on the local computer and an IPv4 address is specified in the <b>Address</b> member <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> pointed to by the <i>Row</i> parameter. This error is also returned if no IPv6 stack is on the local computer and an IPv6 address is specified in the <b>Address</b> member. 
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ The request is not supported. This error is returned if no IPv4 stack is on the 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/b9d61342-4bcf-42e9-96f1-a5993dfb6c0c">FormatMessage</a> to obtain the message string for the returned error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -145,16 +145,16 @@ Use
 
 The <b>GetMulticastIpAddressEntry</b> function is defined on Windows Vista and later. 
 
-The <b>GetMulticastIpAddressEntry</b> function is used to retrieve an existing <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> structure entry.  
+The <b>GetMulticastIpAddressEntry</b> function is used to retrieve an existing <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> structure entry.  
 
-On input, the <b>Address</b> member in the <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter must be initialized to a valid multicast IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_MULTICASTIPADDRESS_ROW</b> structure pointed to the <i>Row</i> parameter must be initialized:
+On input, the <b>Address</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter must be initialized to a valid multicast IPv4 or IPv6 address and family. In addition, at least one of the following members in the <b>MIB_MULTICASTIPADDRESS_ROW</b> structure pointed to the <i>Row</i> parameter must be initialized:
     the <b>InterfaceLuid</b> or <b>InterfaceIndex</b>.
 
     The fields are used in the order listed above. So if the <b>InterfaceLuid</b> is specified, then this member is used to determine the interface. If no value is set for the  <b>InterfaceLuid</b> member (the value of this member is set to zero), then the <b>InterfaceIndex</b> member is next used to determine the interface. 
 
-On output when the call is successful, <b>GetMulticastIpAddressEntry</b> retrieves the other properties for the multicast IP address and fills out the <a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter. 
+On output when the call is successful, <b>GetMulticastIpAddressEntry</b> retrieves the other properties for the multicast IP address and fills out the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a> structure pointed to by the <i>Row</i> parameter. 
 
-The <a href="https://msdn.microsoft.com/0958e92e-12ed-42e0-aa04-b8c4544f6642">GetMulticastIpAddressTable</a> function can be called to enumerate the multicast IP address entries on a local computer.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddresstable">GetMulticastIpAddressTable</a> function can be called to enumerate the multicast IP address entries on a local computer.
 
 
 
@@ -164,15 +164,15 @@ The <a href="https://msdn.microsoft.com/0958e92e-12ed-42e0-aa04-b8c4544f6642">Ge
 
 
 
-<a href="https://msdn.microsoft.com/0958e92e-12ed-42e0-aa04-b8c4544f6642">GetMulticastIpAddressTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getmulticastipaddresstable">GetMulticastIpAddressTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/2b75d1bd-2867-43e1-94e6-626fc761dac6">MIB_MULTICASTIPADDRESS_ROW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_row">MIB_MULTICASTIPADDRESS_ROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ae1ec12-aa67-40ff-9641-410099685234">MIB_MULTICASTIPADDRESS_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-_mib_multicastipaddress_table">MIB_MULTICASTIPADDRESS_TABLE</a>
  
 
  

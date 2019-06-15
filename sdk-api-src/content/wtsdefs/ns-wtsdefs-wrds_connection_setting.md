@@ -59,7 +59,7 @@ Contains different levels of settings for a remote desktop connection.
 
 ### -field WRdsConnectionSettings1
 
-A <a href="https://msdn.microsoft.com/93D4C843-7974-4287-9222-B90206DE6B75">WRDS_CONNECTION_SETTINGS_1</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
 
 
 ### -field WRdsConnectionSettings1.case

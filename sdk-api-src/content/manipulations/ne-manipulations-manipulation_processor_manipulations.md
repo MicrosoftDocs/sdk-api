@@ -91,8 +91,8 @@ Indicates all manipulations are enabled.
 
 
 
-Use this enumeration with the <a href="https://msdn.microsoft.com/1909394f-83ec-4e13-81af-3e6c70210865">SupportedManipulations</a> property to get and 
-		  set the kind of manipulation data you want to receive from the <a href="https://msdn.microsoft.com/963f87c1-e128-4bd5-9f28-d49418f768fb">IManipulationProcessor</a> interface. 
+Use this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations">SupportedManipulations</a> property to get and 
+		  set the kind of manipulation data you want to receive from the <a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a> interface. 
 		  You can combine different kinds of manipulations by a bitwise OR.
 
 
@@ -119,7 +119,7 @@ Use this enumeration with the <a href="https://msdn.microsoft.com/1909394f-83ec-
 
 
 
-<a href="https://msdn.microsoft.com/a4424d27-c618-4fbe-99f6-70c74d3e2966">Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/wintouch/rts-functions">Enumerations</a>
  
 
  

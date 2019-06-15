@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
- Represents a font file. Applications  such as font managers or font viewers can call <a href="https://msdn.microsoft.com/71acbcf8-3024-4e04-ac8e-89cf026b9e91">IDWriteFontFile::Analyze</a> to find out if a particular file is a font file, and whether it is a font type that is supported by the font system.
+ Represents a font file. Applications  such as font managers or font viewers can call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfile-analyze">IDWriteFontFile::Analyze</a> to find out if a particular file is a font file, and whether it is a font type that is supported by the font system.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFile</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDWriteFontFile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFile</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteFontFile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontFile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71acbcf8-3024-4e04-ac8e-89cf026b9e91">Analyze</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfile-analyze">Analyze</a>
 </td>
 <td align="left" width="63%">
  Analyzes a file and returns whether it represents a font, and whether the font type is supported by the font system.
@@ -78,7 +78,7 @@ The <b>IDWriteFontFile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60f13a03-2063-4f74-8bfe-217b6c1682ff">GetLoader</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfile-getloader">GetLoader</a>
 </td>
 <td align="left" width="63%">
  Obtains the file loader associated with a font file object.
@@ -87,7 +87,7 @@ The <b>IDWriteFontFile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f76f0a0-2b4a-4983-88b9-0f1f2b7a7027">GetReferenceKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfile-getreferencekey">GetReferenceKey</a>
 </td>
 <td align="left" width="63%">
  Obtains the pointer to the reference key of a font file. The returned pointer is valid until the font file object is released. 

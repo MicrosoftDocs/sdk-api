@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 There are two WinINet functions named <b>InternetInitializeAutoProxyDll</b>. The first, which merely refreshes the internal state of proxy configuration information from the registry, has a single parameter as documented directly below. 
 
-The second function, prototyped as <b>pfnInternetInitializeAutoProxyDll</b>, is part of WinINet's limited autoproxy support, and must be called by dynamically linking to "JSProxy.dll". For autoproxy support, use Windows HTTP Services (WinHTTP) version 5.1. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa384240(v=VS.85).aspx">WinHTTP AutoProxy Support</a>.
+The second function, prototyped as <b>pfnInternetInitializeAutoProxyDll</b>, is part of WinINet's limited autoproxy support, and must be called by dynamically linking to "JSProxy.dll". For autoproxy support, use Windows HTTP Services (WinHTTP) version 5.1. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support">WinHTTP AutoProxy Support</a>.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ This parameter is reserved and must be 0.
 
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -82,7 +82,7 @@ Because the <b>InternetInitializeAutoProxyDll</b> function takes time to complet
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://msdn.microsoft.com/354ab65d-5e46-451d-b36b-2f8166a1a048">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -92,19 +92,19 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/4e94ab0c-0f39-4e6e-a272-6beff61e97c6">DetectAutoProxyUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-detectautoproxyurl">DetectAutoProxyUrl</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccb69e89-9407-48ac-bb70-fbc425bd1051">InternetDeInitializeAutoProxyDll</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa384580(v=vs.85)">InternetDeInitializeAutoProxyDll</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fc0f471-420c-4125-8323-cb1e1e72e43f">InternetGetProxyInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinInet/internetgetproxyinfo">InternetGetProxyInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384240(v=VS.85).aspx">WinHTTP AutoProxy Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-autoproxy-support">WinHTTP AutoProxy Support</a>
  
 
  

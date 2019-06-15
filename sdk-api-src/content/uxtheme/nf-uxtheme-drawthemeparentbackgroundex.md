@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a> message followed by a <a href="https://msdn.microsoft.com/8703ee74-812a-4ca2-8ee3-a3b8779739e7">WM_PRINTCLIENT</a>.
+Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message followed by a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>.
 
 
 ## -parameters
@@ -59,23 +59,23 @@ Used by partially-transparent or alpha-blended child controls to draw the part o
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle of the child control.
 
 
 ### -param hdc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HDC</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC of the child control.
 
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Zero or more of the following values. If this value is zero, this function returns S_OK only if the parent handled <a href="https://msdn.microsoft.com/8703ee74-812a-4ca2-8ee3-a3b8779739e7">WM_PRINTCLIENT</a>.
+Zero or more of the following values. If this value is zero, this function returns S_OK only if the parent handled <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ If set, <i>hdc</i> is assumed to be a window DC, not a client DC.
 </dl>
 </td>
 <td width="60%">
-If set, this function sends a <a href="https://msdn.microsoft.com/en-us/library/Bb787524(v=VS.85).aspx">WM_CTLCOLORSTATIC</a> message to the parent and uses the brush if one is provided. Otherwise, it uses COLOR_BTNFACE.
+If set, this function sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-ctlcolorstatic">WM_CTLCOLORSTATIC</a> message to the parent and uses the brush if one is provided. Otherwise, it uses COLOR_BTNFACE.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ If set, this function sends a <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-If set, this function returns S_OK without sending a <a href="https://msdn.microsoft.com/en-us/library/Bb787524(v=VS.85).aspx">WM_CTLCOLORSTATIC</a> message if the parent actually painted on <a href="https://msdn.microsoft.com/en-us/library/ms648055(v=VS.85).aspx">WM_ERASEBKGND</a>.
+If set, this function returns S_OK without sending a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-ctlcolorstatic">WM_CTLCOLORSTATIC</a> message if the parent actually painted on <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a>.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Optional. The area to be drawn, in child coordinates. If this parameter is NULL,
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 S_OK if successful; otherwise, S_FALSE.
 

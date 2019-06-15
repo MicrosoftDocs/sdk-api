@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Sets the focus on a toolbar or on the browser's view window. Called when translating accelerators through <a href="https://msdn.microsoft.com/dda5c085-7199-4b83-b03e-e4c715665157">TranslateAcceleratorSB</a> or when <a href="https://msdn.microsoft.com/a1c271b2-d567-43b4-966e-0eea597f004b">IBrowserService2::v_MayGetNextToolbarFocus</a> fails.
+Deprecated. Sets the focus on a toolbar or on the browser's view window. Called when translating accelerators through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a> or when <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-v_maygetnexttoolbarfocus">IBrowserService2::v_MayGetNextToolbarFocus</a> fails.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Deprecated. Sets the focus on a toolbar or on the browser's view window. Called 
 
 Type: <b>LPTOOLBARITEM</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/7378f2f3-c164-46fe-9989-a7a57fceb48a">TOOLBARITEM</a> structure that specifies a browser toolbar item.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-stoolbaritem">TOOLBARITEM</a> structure that specifies a browser toolbar item.
 
 
 ### -param hwnd [in]
@@ -76,7 +76,7 @@ The handle of the browser window in which the focus shift is taking place.
 
 Type: <b>LPMSG</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> that contains a keystroke message that indicates an accelerator.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> that contains a keystroke message that indicates an accelerator.
 
 
 ## -returns

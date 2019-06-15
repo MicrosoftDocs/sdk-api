@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-A depth-stencil-state interface accesses depth-stencil state which sets up the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil test</a> for the output-merger stage.
+A depth-stencil-state interface accesses depth-stencil state which sets up the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">depth-stencil test</a> for the output-merger stage.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DepthStencilState</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10DepthStencilState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DepthStencilState</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10DepthStencilState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10DepthStencilState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173525(v=VS.85).aspx">GetDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10depthstencilstate-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the depth-stencil state.
@@ -84,9 +84,9 @@ Get the depth-stencil state.
 
 
 
-Create a depth-stencil state object by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173546(v=VS.85).aspx">ID3D10Device::CreateDepthStencilState</a>.
+Create a depth-stencil state object by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createdepthstencilstate">ID3D10Device::CreateDepthStencilState</a>.
 
-To initialize depth-stencil state, bind the depth-stencil-state object to the pipeline by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173596(v=VS.85).aspx">ID3D10Device::OMSetDepthStencilState</a>.
+To initialize depth-stencil state, bind the depth-stencil-state object to the pipeline by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-omsetdepthstencilstate">ID3D10Device::OMSetDepthStencilState</a>.
 
 
 
@@ -96,11 +96,11 @@ To initialize depth-stencil state, bind the depth-stencil-state object to the pi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
  
 
  

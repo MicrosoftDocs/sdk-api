@@ -52,7 +52,7 @@ ms.custom: 19H1
 Returns the number of specified attributes on this element. Attributes are only considered specified if they are explicitly set on the element or present within an inline style. 
         Properties that receive their value through CSS inheritance are not considered specified. 
         An attribute can become specified if it is set through a method call. 
-        It can become unspecified if it is removed via <a href="https://msdn.microsoft.com/608BB970-CC78-4CF3-BD8C-02DCBBFA287E">RemoveAttribute</a>.
+        It can become unspecified if it is removed via <a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nf-d2d1svg-id2d1svgelement-removeattribute">RemoveAttribute</a>.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Returns the number of specified attributes on this element.
 
 
 
-<a href="https://msdn.microsoft.com/19099DC9-EA14-41C5-A9DF-5EBB12696C79">ID2D1SvgElement</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
  
 
  

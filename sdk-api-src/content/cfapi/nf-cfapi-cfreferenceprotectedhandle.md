@@ -75,7 +75,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Every <b>CfReferenceProtectedHandle</b> call must be matched  with a <a href="https://msdn.microsoft.com/BB63C5EE-92D7-4051-8198-09F50BBC75C5">CfReleaseProtectedHandle</a> call. It is not recommended to reference a protected handle for a long period of time, as doing so will prevent the oplock break notification from being acknowledged.
+Every <b>CfReferenceProtectedHandle</b> call must be matched  with a <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfreleaseprotectedhandle">CfReleaseProtectedHandle</a> call. It is not recommended to reference a protected handle for a long period of time, as doing so will prevent the oplock break notification from being acknowledged.
 
  The caller should instead break up long running tasks into smaller sub-tasks and reference/release the protected handle for each sub-task.
 

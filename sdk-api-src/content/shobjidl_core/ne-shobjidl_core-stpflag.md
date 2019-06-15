@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by the <a href="https://msdn.microsoft.com/cc3fec4b-7770-44af-9892-239a17dd96b8">ITaskbarList4::SetTabProperties</a> method to specify tab properties.
+Used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist4-settabproperties">ITaskbarList4::SetTabProperties</a> method to specify tab properties.
 
 
 ## -enum-fields

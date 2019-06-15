@@ -116,7 +116,7 @@ A pointer to a <b>null</b>-terminated Unicode string that contains the value of 
 
 ### -param pDigestMethod [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
 
 
 ### -param cTransform
@@ -126,7 +126,7 @@ The number of elements in the array pointed to by the <i>rgTransform</i> paramet
 
 ### -param rgTransform [in]
 
-A pointer to an ordered array of <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
+A pointer to an ordered array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-_crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
     the reference data before the digest calculation.
 
 

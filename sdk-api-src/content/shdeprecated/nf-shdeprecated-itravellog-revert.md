@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Reverts to the current entry, dropping the result of <a href="https://msdn.microsoft.com/f83c1cb1-3cc5-413c-826b-ff4971cd4598">ITravelLog::AddEntry</a> in the case of a failed navigation.
+Deprecated. Reverts to the current entry, dropping the result of <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-addentry">ITravelLog::AddEntry</a> in the case of a failed navigation.
 
 
 ## -parameters

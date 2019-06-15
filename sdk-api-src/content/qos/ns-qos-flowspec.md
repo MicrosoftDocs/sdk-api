@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>FLOWSPEC</b> structure provides quality of service parameters to the 
-<a href="https://msdn.microsoft.com/abed6ad0-4023-4ddc-a469-390ad779bd93">RSVP SP</a>. This allows QOS-aware applications to invoke, modify, or remove QOS settings for a given flow. Some members of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/rsvp-service-provider">RSVP SP</a>. This allows QOS-aware applications to invoke, modify, or remove QOS settings for a given flow. Some members of 
 <b>FLOWSPEC</b> can be set to default values. See Remarks for more information.
 
 
@@ -63,13 +63,13 @@ The
 ### -field TokenRate
 
 Specifies the permitted rate at which data can be transmitted over the life of the flow. The <b>TokenRate</b> member is similar to other token bucket models seen in such WAN technologies as Frame Relay, in which the token is analogous to a credit. If such tokens are not used immediately, they accrue to allow data transmission up to a certain periodic limit (<b>PeakBandwidth</b>, in the case of Windows 2000 quality of service). Accrual of credits is limited, however, to a specified amount (<b>TokenBucketSize</b>). Limiting total credits (tokens) avoids situations where, for example, flows that are inactive for some time flood the available bandwidth with their large amount of accrued tokens. Because flows may accrue transmission credits over time (at their <b>TokenRate</b> value) only up to the maximum of their <b>TokenBucketSize</b>, and because they are limited in burst transmissions to their <b>PeakBandwidth</b>, traffic control and network-device resource integrity are maintained. 
-<a href="https://msdn.microsoft.com/566a5524-5af7-424a-86ab-aa3a55178c69">Traffic control</a> is maintained because flows cannot send too much data at once, and network-device resource integrity is maintained because such devices are spared high traffic bursts. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/understanding-traffic-control">Traffic control</a> is maintained because flows cannot send too much data at once, and network-device resource integrity is maintained because such devices are spared high traffic bursts. 
 
 
 
 
 With this model, applications can transmit data only when sufficient credits are available. If sufficient credits are not available, the application must either wait or discard the traffic (based on the value of 
-<a href="https://msdn.microsoft.com/a1ae9920-3e6f-4611-abce-905df7a516f5">QOS_SD_MODE</a>). Therefore, it is important that applications base their <b>TokenRate</b> requests on reasonable expectations for transmission requirements. For example, in video applications, <b>TokenRate</b> is typically set to the average bit rate from peak to peak.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-_qos_sd_mode">QOS_SD_MODE</a>). Therefore, it is important that applications base their <b>TokenRate</b> requests on reasonable expectations for transmission requirements. For example, in video applications, <b>TokenRate</b> is typically set to the average bit rate from peak to peak.
 
 If <b>TokenRate</b> is set to QOS_NOT_SPECIFIED on the receiver only, the maximum transmission unit (MTU) is used for <b>TokenRate</b>, and limits on the transmission rate (the token bucket model) will not be put into effect. Thus, <b>TokenRate</b> is expressed in bytes per second.
 
@@ -164,7 +164,7 @@ Guarantees that datagrams will arrive within the guaranteed delivery time and wi
 </td>
 <td width="60%">
 Indicates that the application requires better than BESTEFFORT transmission, but cannot quantify its transmission requirements. Applications that use SERVICETYPE_QUALITATIVE can supply an application identifier policy object. The application identification policy object enables policy servers on the network to identify the application, and accordingly, assign an appropriate quality of service to the request. For more information on application identification, consult the IETF Internet Draft draft-ietf-rap-rsvp-appid-00.txt, or the Microsoft white paper on Application Identification. Traffic control treats flows of this type with the same priority as BESTEFFORT traffic on the local computer. However, application programmers can get boosted priority for such flows by modifying the Layer 2 settings on the associated flow using the 
-<a href="https://msdn.microsoft.com/60c6492f-ddcf-401c-8121-2349b89eb223">QOS_TRAFFIC_CLASS</a> QOS object.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qosobjs/ns-qosobjs-_qos_traffic_class">QOS_TRAFFIC_CLASS</a> QOS object.
 
 </td>
 </tr>
@@ -329,7 +329,7 @@ In a sending
 
 
 
-<a href="https://msdn.microsoft.com/859faa13-bd66-46ee-8452-6ff5d53d66c9">QOS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_qualityofservice">QOS</a>
  
 
  

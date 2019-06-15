@@ -95,7 +95,7 @@ When the <b>Pull</b> method is called, data is requested from the provider of th
 
 
 
-<a href="https://msdn.microsoft.com/e3e01280-c015-488a-8be4-9740c44c0041">IPipeByte</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipebyte">IPipeByte</a>
  
 
  

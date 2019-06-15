@@ -59,7 +59,7 @@ Gets the platform version information.
 
 ### -param PlatformVersion [out]
 
-The platform version information. See <a href="https://msdn.microsoft.com/BEB1CBF0-05FB-4D48-AC43-AA957F2208DB">CF_PLATFORM_INFO</a> for more details.
+The platform version information. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_platform_info">CF_PLATFORM_INFO</a> for more details.
 
 
 ## -returns

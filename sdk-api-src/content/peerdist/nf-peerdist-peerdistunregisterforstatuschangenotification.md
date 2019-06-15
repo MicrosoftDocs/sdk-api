@@ -59,7 +59,7 @@ The <b>PeerDistUnregisterForStatusChangeNotification</b> function unregisters th
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://msdn.microsoft.com/62d4f139-ab18-4d65-bda5-1cf09d7ddab9">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 
 ## -returns
@@ -105,11 +105,11 @@ The <i>hPeerDist</i> handle is invalid.
 
 
 
-This function cancels any registered notification  previously set by a <a href="https://msdn.microsoft.com/7b01a499-534b-4c0f-9c9c-bafa066ad742">PeerDistRegisterForStatusChangeNotification</a> function call.
+This function cancels any registered notification  previously set by a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> function call.
 
 To confirm successfully canceled operations, a call should be made to <a href="http://go.microsoft.com/fwlink/p/?linkid=131012">GetOverlappedResult</a> using the <b>OVERLAPPED</b> structure returned by <a href="http://go.microsoft.com/fwlink/p/?linkid=131008">GetQueuedCompletionStatus</a> with an expected return of <b>FALSE</b>.
 
-Additionally, calling <a href="http://go.microsoft.com/fwlink/p/?linkid=131013">GetLastError</a> immediately after a successful <a href="https://msdn.microsoft.com/7b01a499-534b-4c0f-9c9c-bafa066ad742">PeerDistRegisterForStatusChangeNotification</a> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
+Additionally, calling <a href="http://go.microsoft.com/fwlink/p/?linkid=131013">GetLastError</a> immediately after a successful <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
 
 
 
@@ -119,7 +119,7 @@ Additionally, calling <a href="http://go.microsoft.com/fwlink/p/?linkid=131013">
 
 
 
-<a href="https://msdn.microsoft.com/7b01a499-534b-4c0f-9c9c-bafa066ad742">PeerDistRegisterForStatusChangeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The DEVHTINFO structure is used as input to the <a href="https://msdn.microsoft.com/063320e3-b103-4c9a-ae82-790e5b768dc9">HTUI_DeviceColorAdjustment</a> function.
+The DEVHTINFO structure is used as input to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The DEVHTINFO structure is used as input to the <a href="https://msdn.microsoft.
 
 ### -field HTFlags
 
-Is a set of caller-supplied flags indicating halftone attributes. See the <b>flHTFlags</b> member of the <a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a> structure for a complete list of possible values.
+Is a set of caller-supplied flags indicating halftone attributes. See the <b>flHTFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure for a complete list of possible values.
 
 
 ### -field HTPatternSize
@@ -69,14 +69,14 @@ Is a caller-supplied value that must be one of the HTPAT_SIZE-prefixed constants
 
 ### -field DevPelsDPI
 
-For printers, specifies the number of dots per inch. See the description of the <b>ulDevicePelsDPI</b> member of the <a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a> structure for more information.
+For printers, specifies the number of dots per inch. See the description of the <b>ulDevicePelsDPI</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure for more information.
 
 For displays, this member should be set to zero.
 
 
 ### -field ColorInfo
 
-Is a caller-supplied pointer to a <a href="https://msdn.microsoft.com/bbada28c-d855-4197-acf8-2a070423ddfe">COLORINFO</a> structure containing halftoning color information.
+Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a> structure containing halftoning color information.
 
 
 ## -see-also
@@ -84,15 +84,15 @@ Is a caller-supplied pointer to a <a href="https://msdn.microsoft.com/bbada28c-d
 
 
 
-<a href="https://msdn.microsoft.com/bbada28c-d855-4197-acf8-2a070423ddfe">COLORINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_colorinfo">COLORINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f75f599f-43ea-4da6-a6e3-6591cf6d69f1">GDIINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/063320e3-b103-4c9a-ae82-790e5b768dc9">HTUI_DeviceColorAdjustment</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a>
  
 
  

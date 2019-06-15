@@ -60,7 +60,7 @@ The <b>Region::GetRegionScansCount</b> method gets the number of rectangles that
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
 Pointer to a matrix that is used to transform the region. 
 
@@ -81,7 +81,7 @@ This method returns an integer that indicates the number of rectangles that appr
 
 
 
-The <b>Region::GetRegionScansCount</b> method can be used before the <a href="https://msdn.microsoft.com/en-us/library/ms534778(v=VS.85).aspx">GetRegionScans</a> method to determine the number of rectangles. Then, you can allocate a buffer that is the correct size to store the rectangles that are obtained with the GetRegionScans method.
+The <b>Region::GetRegionScansCount</b> method can be used before the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscans(inconstmatrix_outrect_outint)">GetRegionScans</a> method to determine the number of rectangles. Then, you can allocate a buffer that is the correct size to store the rectangles that are obtained with the GetRegionScans method.
 
 
 #### Examples
@@ -131,19 +131,19 @@ VOID Example_GetRegionScansCount(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534778(v=VS.85).aspx">Region::GetRegionScans Methods</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscans(inconstmatrix_outrect_outint)">Region::GetRegionScans Methods</a>
  
 
  

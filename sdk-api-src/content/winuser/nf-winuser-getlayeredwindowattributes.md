@@ -65,21 +65,21 @@ Retrieves the opacity and transparency color key of a layered window.
 
 Type: <b>HWND</b>
 
-A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> using <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> after the window has been created. 
+A handle to the layered window. A layered window is created by specifying <b>WS_EX_LAYERED</b> when creating the window with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function or by setting <b>WS_EX_LAYERED</b> using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> after the window has been created. 
 
 
 ### -param pcrKey [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value that receives the transparency color key to be used when composing the layered window. All pixels painted by the window in this color will be transparent. This can be <b>NULL</b> if the argument is not needed. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that receives the transparency color key to be used when composing the layered window. All pixels painted by the window in this color will be transparent. This can be <b>NULL</b> if the argument is not needed. 
 
 
 ### -param pbAlpha [out, optional]
 
 Type: <b>BYTE*</b>
 
-The Alpha value used to describe the opacity of the layered window. Similar to the <b>SourceConstantAlpha</b> member of the <a href="https://msdn.microsoft.com/d1371d72-c408-4484-845e-d4ea2bc3115d">BLENDFUNCTION</a> structure. When the variable referred to by <i>pbAlpha</i> is 0, the window is completely transparent. When the variable referred to by <i>pbAlpha</i> is 255, the window is opaque. This can be <b>NULL</b> if the argument is not needed. 
+The Alpha value used to describe the opacity of the layered window. Similar to the <b>SourceConstantAlpha</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_blendfunction">BLENDFUNCTION</a> structure. When the variable referred to by <i>pbAlpha</i> is 0, the window is completely transparent. When the variable referred to by <i>pbAlpha</i> is 255, the window is opaque. This can be <b>NULL</b> if the argument is not needed. 
 
 
 ### -param pdwFlags [out, optional]
@@ -128,7 +128,7 @@ Type: <strong>Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 
 
@@ -137,9 +137,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>GetLayeredWindowAttributes</b> can be called only if the application has previously called <a href="https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a> on the window. The function will fail if the layered window was setup with <a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>.
+<b>GetLayeredWindowAttributes</b> can be called only if the application has previously called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes">SetLayeredWindowAttributes</a> on the window. The function will fail if the layered window was setup with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatelayeredwindow">UpdateLayeredWindow</a>.
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Layered Windows</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-windows">Using Layered Windows</a>.
 
 
 
@@ -153,7 +153,7 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms63
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
@@ -161,19 +161,19 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms63
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633540(v=VS.85).aspx">SetLayeredWindowAttributes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlayeredwindowattributes">SetLayeredWindowAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Using Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/using-windows">Using Windows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
  
 
  

@@ -66,14 +66,14 @@ The number of sprites to be added. This determines how many strides into each gi
 
 ### -param destinationRectangles [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 A pointer to an array containing the destination rectangles specifying where to draw the sprites on the destination device context.
 
 
 ### -param sourceRectangles [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8607d194-cb0b-431a-926a-e56b946e49ff">D2D1_RECT_U</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a>*</b>
 
 A pointer to an array containing the source rectangles specifying the regions of the source bitmap to draw as sprites.
           Direct2D will use the entire source bitmap for sprites that are assigned a null value or the InfiniteRectU. 
@@ -82,7 +82,7 @@ A pointer to an array containing the source rectangles specifying the regions of
 
 ### -param colors [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
 
 A pointer to an array containing the colors to apply to each sprite. 
           The output color is the result of component-wise multiplication of the source bitmap color and the provided color. 
@@ -96,7 +96,7 @@ Direct2D will not change the color of sprites that are assigned a null value. If
 
 ### -param transforms [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 A pointer to an array containing the transforms to apply to each sprite’s destination rectangle.
             
@@ -142,7 +142,7 @@ Specifies the distance, in bytes, between each transform in the transforms array
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -170,7 +170,7 @@ In Direct2D, a sprite is defined by four properties: a destination rectangle, a 
 
 
 
-<a href="https://msdn.microsoft.com/D33958D5-D31C-47DC-B172-CADB1F1B81AE">ID2D1SpriteBatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1spritebatch">ID2D1SpriteBatch</a>
  
 
  

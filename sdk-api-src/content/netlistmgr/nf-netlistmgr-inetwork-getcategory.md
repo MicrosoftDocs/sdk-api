@@ -59,7 +59,7 @@ The <b>GetCategory</b> method returns the category of a network.
 
 ### -param pCategory [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/1bc9720f-7b31-4a09-8bce-a6281ca9b9c4">NLM_NETWORK_CATEGORY</a> enumeration value that specifies the category information for the network.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_category">NLM_NETWORK_CATEGORY</a> enumeration value that specifies the category information for the network.
 
 
 ## -returns
@@ -85,11 +85,11 @@ The private or public network categories must never be used to assume  which Win
 
 
 
-<a href="https://msdn.microsoft.com/6d483058-f7c4-4a6c-a1a8-816c2fab9994">INetwork</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bc9720f-7b31-4a09-8bce-a6281ca9b9c4">NLM_NETWORK_CATEGORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_category">NLM_NETWORK_CATEGORY</a>
  
 
  

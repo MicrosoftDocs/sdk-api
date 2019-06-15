@@ -66,7 +66,7 @@ Type: <b>BOOL*</b>
 
 ### -param fontFileType [out]
 
-Type: <b><a href="https://msdn.microsoft.com/04db41a6-b08b-4d01-a878-c05c0f1f2d9c">DWRITE_FONT_FILE_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_file_type">DWRITE_FONT_FILE_TYPE</a>*</b>
 
 When this method returns, contains a value that indicates the type of the font file. Note that even if <i> isSupportedFontType</i> is <b>FALSE</b>,
      the <i>fontFileType</i> value may be different from <b>DWRITE_FONT_FILE_TYPE_UNKNOWN</b>.
@@ -74,7 +74,7 @@ When this method returns, contains a value that indicates the type of the font f
 
 ### -param fontFaceType [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/839527fb-2560-4472-8115-960bf5b6badd">DWRITE_FONT_FACE_TYPE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_face_type">DWRITE_FONT_FACE_TYPE</a>*</b>
 
 When this method returns, contains a value that indicates the type of the font face. If <i>fontFileType</i> is not equal to <b>DWRITE_FONT_FILE_TYPE_UNKNOWN</b>, then that can be constructed from the font file.
      
@@ -116,7 +116,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>
  
 
  

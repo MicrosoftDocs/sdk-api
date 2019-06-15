@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>pfnIsFileSupported</b> callback function queries the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">subject interface packages</a> (SIPs) listed in the registry to determine which SIP handles the file type.
+The <b>pfnIsFileSupported</b> callback function queries the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface packages</a> (SIPs) listed in the registry to determine which SIP handles the file type.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The GUID that identifies the SIP that handles the file type.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -84,7 +84,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 If the SIP supports the file type passed by <i>hfile</i>, the function returns <b>TRUE</b>, and sets <i>pgSubject</i> to the GUID that identifies the SIP for handling the file type.
 
-Each SIP implements its own version of the function that determines whether the file type is supported. The specific name of the function may vary depending on the implementation of the SIP, but the signature of the function will match that of the <b>pfnIsFileSupported</b> function.  The function name is added to the registry by the <a href="https://msdn.microsoft.com/99633c2f-e5ed-49e4-9c98-7501f66e5571">CryptSIPAddProvider</a> function, which takes the function name as a parameter in the <b>pwszIsFunctionName</b> field of the <a href="https://msdn.microsoft.com/5ca88c0c-a7c9-4517-a874-49d38c1bc7c3">SIP_ADD_NEWPROVIDER</a> structure.
+Each SIP implements its own version of the function that determines whether the file type is supported. The specific name of the function may vary depending on the implementation of the SIP, but the signature of the function will match that of the <b>pfnIsFileSupported</b> function.  The function name is added to the registry by the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function, which takes the function name as a parameter in the <b>pwszIsFunctionName</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider_">SIP_ADD_NEWPROVIDER</a> structure.
 
 
 

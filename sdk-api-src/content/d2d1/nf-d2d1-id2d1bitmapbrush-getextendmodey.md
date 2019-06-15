@@ -63,7 +63,7 @@ ms.custom: 19H1
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/6b6e1fe1-d43a-46cf-904d-5266b9bd6bf4">D2D1_EXTEND_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_extend_mode">D2D1_EXTEND_MODE</a></b>
 
 A value that specifies how the brush vertically tiles those areas that extend past its bitmap.
 
@@ -74,7 +74,7 @@ A value that specifies how the brush vertically tiles those areas that extend pa
 
 
 
-Like all brushes, <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> defines an infinite plane of content. 
+Like all brushes, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> defines an infinite plane of content. 
 
  Because bitmaps are finite, it relies on an extend mode to determine how the plane is filled horizontally and vertically.
 
@@ -86,11 +86,11 @@ Like all brushes, <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d
 
 
 
-<a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/6039ad41-e4b4-41e2-a4b1-31ad93ba88fd">ID2D1BitmapBrush::SetExtendModeY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmapbrush-setextendmodey">ID2D1BitmapBrush::SetExtendModeY</a>
  
 
  

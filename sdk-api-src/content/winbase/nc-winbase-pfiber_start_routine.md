@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application-defined function used with the 
-<a href="https://msdn.microsoft.com/3e44776b-7ef2-43fb-a2ae-e8ab7e20644b">CreateFiber</a> function. It serves as the starting address for a fiber. The <b>LPFIBER_START_ROUTINE</b> type defines a pointer to this callback function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function. It serves as the starting address for a fiber. The <b>LPFIBER_START_ROUTINE</b> type defines a pointer to this callback function. 
 <b>FiberProc</b> is a placeholder for the application-defined function name.
 
 
@@ -71,7 +71,7 @@ An application-defined function used with the
 #### - lpParameter [in]
 
 The fiber data passed using the <i>lpParameter</i> parameter of the 
-<a href="https://msdn.microsoft.com/3e44776b-7ef2-43fb-a2ae-e8ab7e20644b">CreateFiber</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a> function.
 
 
 ## -returns
@@ -88,15 +88,15 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/3e44776b-7ef2-43fb-a2ae-e8ab7e20644b">CreateFiber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiber">CreateFiber</a>
 
 
 
-<a href="https://msdn.microsoft.com/6283f56b-23ae-4840-abd0-2478a50c670c">Fibers</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
  
 
  

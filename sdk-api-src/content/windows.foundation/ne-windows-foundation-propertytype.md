@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifies the type that is stored in a Windows Runtime object that implements the <a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a> interface.
+Identifies the type that is stored in a Windows Runtime object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface.
 
 
 ## -enum-fields
@@ -119,22 +119,22 @@ The object contains an 8-bit Boolean value.
 
 ### -field PropertyType_String
 
-The object contains an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>.
+The object contains an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 
 ### -field PropertyType_Inspectable
 
-The object contains an object that implements the <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> interface.
+The object contains an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface.
 
 
 ### -field PropertyType_DateTime
 
-The object contains a <a href="https://msdn.microsoft.com/b5533002-8a72-438d-a3d3-0902ffc21830">DateTime</a>.
+The object contains a <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a>.
 
 
 ### -field PropertyType_TimeSpan
 
-The object contains a <a href="https://msdn.microsoft.com/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4">TimeSpan</a>.
+The object contains a <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-timespan">TimeSpan</a>.
 
 
 ### -field PropertyType_Guid
@@ -144,17 +144,17 @@ The object contains a GUID.
 
 ### -field PropertyType_Point
 
-The object contains a <a href="https://msdn.microsoft.com/0cdd5b17-2f7e-4e17-896c-7d7784c8643d">Point</a>.
+The object contains a <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-point">Point</a>.
 
 
 ### -field PropertyType_Size
 
-The object contains a <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779be">Size</a>.
+The object contains a <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a>.
 
 
 ### -field PropertyType_Rect
 
-The object contains a <a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a49a64061f97">Rect</a>.
+The object contains a <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>.
 
 
 ### -field PropertyType_OtherType
@@ -219,22 +219,22 @@ The object contains an array of 8-bit Boolean values.
 
 ### -field PropertyType_StringArray
 
-The object contains an array of <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>.
+The object contains an array of <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 
 ### -field PropertyType_InspectableArray
 
-The object contains an array of objects that implement the <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> interface.
+The object contains an array of objects that implement the <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interface.
 
 
 ### -field PropertyType_DateTimeArray
 
-The object contains an array of <a href="https://msdn.microsoft.com/b5533002-8a72-438d-a3d3-0902ffc21830">DateTime</a>.
+The object contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-datetime">DateTime</a>.
 
 
 ### -field PropertyType_TimeSpanArray
 
-The object contains an array of <a href="https://msdn.microsoft.com/fbc6ecc2-6372-4b15-9532-3cd68a72e7b4">TimeSpan</a>.
+The object contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-timespan">TimeSpan</a>.
 
 
 ### -field PropertyType_GuidArray
@@ -244,17 +244,17 @@ The object contains an array of GUIDs.
 
 ### -field PropertyType_PointArray
 
-The object contains an array of <a href="https://msdn.microsoft.com/0cdd5b17-2f7e-4e17-896c-7d7784c8643d">Point</a>.
+The object contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-point">Point</a>.
 
 
 ### -field PropertyType_SizeArray
 
-The object contains an array of <a href="https://msdn.microsoft.com/8705adcb-a657-4b47-94ba-632bfb3779be">Size</a>.
+The object contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a>.
 
 
 ### -field PropertyType_RectArray
 
-The object contains an array of <a href="https://msdn.microsoft.com/420daab1-71e7-4610-b454-a49a64061f97">Rect</a>.
+The object contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>.
 
 
 ### -field PropertyType_OtherTypeArray
@@ -267,11 +267,11 @@ The object contains an array of an unspecified type.
 
 
 
-<a href="https://msdn.microsoft.com/447625BA-F982-4155-9B05-E478E1229443">IPropertyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/946BD4F9-318C-4452-AEDB-DF2212A2D3CA">IPropertyValueStatics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Allows an app to get an instance of the <a href="https://msdn.microsoft.com/0D3FD8BA-ABEF-4FCC-AE3F-EC035007BC07">ISystemMediaTransportControls</a> interface.
+Allows an app to get an instance of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISystemMediaTransportControlsInterop</b> interface inherits from <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>. <b>ISystemMediaTransportControlsInterop</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISystemMediaTransportControlsInterop</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>ISystemMediaTransportControlsInterop</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>ISystemMediaTransportControlsInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7E878C3B-4CE9-4DED-8082-8E37266FE8AF">GetForWindow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrolsinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets an instance of the <a href="https://msdn.microsoft.com/0D3FD8BA-ABEF-4FCC-AE3F-EC035007BC07">ISystemMediaTransportControls</a> interface for the specified window. 
+Gets an instance of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mediatransport/isystemmediatransportcontrols">ISystemMediaTransportControls</a> interface for the specified window. 
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Gets an instance of the <a href="https://msdn.microsoft.com/0D3FD8BA-ABEF-4FCC-A
 
 
 
-<a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
  
 
  

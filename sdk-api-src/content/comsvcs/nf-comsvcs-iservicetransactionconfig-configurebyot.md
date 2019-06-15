@@ -75,9 +75,9 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-When you bring your own transaction, that transaction's settings override the settings from the inherited methods of the <a href="https://msdn.microsoft.com/7f31c590-8290-4556-9fcf-e27db01bad93">IServiceTransactionConfig</a> interface.
+When you bring your own transaction, that transaction's settings override the settings from the inherited methods of the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a> interface.
 
-The <b>ConfigureBYOT</b> and the <a href="https://msdn.microsoft.com/fcd65d90-8855-41e9-a22d-d2b1d46e98fa">IServiceTransactionConfigBase::BringYourOwnTransaction</a> methods are identical in behavior; the only difference is the type of parameter passed to each method.
+The <b>ConfigureBYOT</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicetransactionconfigbase-bringyourowntransaction">IServiceTransactionConfigBase::BringYourOwnTransaction</a> methods are identical in behavior; the only difference is the type of parameter passed to each method.
 
 
 
@@ -87,11 +87,11 @@ The <b>ConfigureBYOT</b> and the <a href="https://msdn.microsoft.com/fcd65d90-88
 
 
 
-<a href="https://msdn.microsoft.com/492875cb-52a7-484f-810e-bd838373b603">Bring Your Own Transaction (BYOT)</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/bring-your-own-transaction--byot-">Bring Your Own Transaction (BYOT)</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f31c590-8290-4556-9fcf-e27db01bad93">IServiceTransactionConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a>
  
 
  

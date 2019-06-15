@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 Descriptions for each of the possible values specified in the 
-    <a href="https://msdn.microsoft.com/b48dd022-3c8d-41cb-aab5-18d24cad4521">PossibleValues</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_possiblevalues">PossibleValues</a> 
     property.
 
 This property is read/write.
@@ -66,7 +66,7 @@ This property is read/write.
 
 
 There is a one-to-one relationship between these descriptions and the list of possible values specified in the 
-    <a href="https://msdn.microsoft.com/b48dd022-3c8d-41cb-aab5-18d24cad4521">PossibleValues</a> property. If you 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_possiblevalues">PossibleValues</a> property. If you 
     do not want to specify a description for one of the values in the list, set the corresponding item in the array to 
     an empty string.
 
@@ -78,7 +78,7 @@ There is a one-to-one relationship between these descriptions and the list of po
 
 
 
-<a href="https://msdn.microsoft.com/b85d5df0-a99a-48d2-9bad-3b8c86abea91">IFsrmPropertyDefinition</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
  
 
  

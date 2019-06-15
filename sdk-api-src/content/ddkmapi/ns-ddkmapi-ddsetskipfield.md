@@ -64,7 +64,7 @@ Specifies the Microsoft DirectDraw handle.
 
 ### -field hVideoPort
 
-Specifies the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">video port extensions (VPE)</a> object handle.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object handle.
 
 
 ### -field dwStartField
@@ -77,11 +77,11 @@ Indicates the field that needs to be skipped and is relative to the current fiel
 
 
 
-<a href="https://msdn.microsoft.com/4ebab3bd-3290-4d09-a666-bf317755e715">DD_DXAPI_SET_VP_SKIP_FIELD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551510(v=vs.85)">DD_DXAPI_SET_VP_SKIP_FIELD</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4b38376-b54f-4fbb-b305-5951a1ea76a1">DxApi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
  
 
  

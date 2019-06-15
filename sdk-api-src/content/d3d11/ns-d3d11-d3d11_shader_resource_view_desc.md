@@ -59,93 +59,93 @@ Describes a shader-resource view.
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> specifying the viewing format. See remarks.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> specifying the viewing format. See remarks.
 
 
 ### -field ViewDimension
 
-Type: <b><a href="https://msdn.microsoft.com/0b3ae8b9-12fc-4de9-b99d-e9b9e17adfb4">D3D11_SRV_DIMENSION</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a></b>
 
-The resource type of the view. See <a href="https://msdn.microsoft.com/0b3ae8b9-12fc-4de9-b99d-e9b9e17adfb4">D3D11_SRV_DIMENSION</a>. This should be the same as the resource type of the underlying resource. This parameter also determines which _SRV to use in the union below.
+The resource type of the view. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476217(v=vs.85)">D3D11_SRV_DIMENSION</a>. This should be the same as the resource type of the underlying resource. This parameter also determines which _SRV to use in the union below.
 
 
 ### -field Buffer
 
-Type: <b><a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D11_BUFFER_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_srv">D3D11_BUFFER_SRV</a></b>
 
-View the resource as a buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/2ada8526-bef3-4998-8775-6e062f972a1c">D3D11_BUFFER_SRV</a>).
+View the resource as a buffer using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_buffer_srv">D3D11_BUFFER_SRV</a>).
 
 
 ### -field Texture1D
 
-Type: <b><a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_srv">D3D11_TEX1D_SRV</a></b>
 
-View the resource as a 1D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/255e97ac-e978-4a70-a908-f4537337dfeb">D3D11_TEX1D_SRV</a>).
+View the resource as a 1D texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_srv">D3D11_TEX1D_SRV</a>).
 
 
 ### -field Texture1DArray
 
-Type: <b><a href="https://msdn.microsoft.com/e0caf038-d0d7-4fd4-bec3-f0023035a82a">D3D11_TEX1D_ARRAY_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_array_srv">D3D11_TEX1D_ARRAY_SRV</a></b>
 
-View the resource as a 1D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/e0caf038-d0d7-4fd4-bec3-f0023035a82a">D3D11_TEX1D_ARRAY_SRV</a>).
+View the resource as a 1D-texture array using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex1d_array_srv">D3D11_TEX1D_ARRAY_SRV</a>).
 
 
 ### -field Texture2D
 
-Type: <b><a href="https://msdn.microsoft.com/2edfe9bd-6f26-4007-a2bd-0911649e7237">D3D11_TEX2D_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_srv">D3D11_TEX2D_SRV</a></b>
 
-View the resource as a 2D-texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/2edfe9bd-6f26-4007-a2bd-0911649e7237">D3D11_TEX2D_SRV</a>).
+View the resource as a 2D-texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_srv">D3D11_TEX2D_SRV</a>).
 
 
 ### -field Texture2DArray
 
-Type: <b><a href="https://msdn.microsoft.com/274e7a15-ac54-41e2-87d7-484e3e768a38">D3D11_TEX2D_ARRAY_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_array_srv">D3D11_TEX2D_ARRAY_SRV</a></b>
 
-View the resource as a 2D-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/274e7a15-ac54-41e2-87d7-484e3e768a38">D3D11_TEX2D_ARRAY_SRV</a>).
+View the resource as a 2D-texture array using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2d_array_srv">D3D11_TEX2D_ARRAY_SRV</a>).
 
 
 ### -field Texture2DMS
 
-Type: <b><a href="https://msdn.microsoft.com/ba896737-a94e-49d0-8f35-2e4ef5a335e7">D3D11_TEX2DMS_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_srv">D3D11_TEX2DMS_SRV</a></b>
 
-View the resource as a 2D-multisampled texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/ba896737-a94e-49d0-8f35-2e4ef5a335e7">D3D11_TEX2DMS_SRV</a>).
+View the resource as a 2D-multisampled texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_srv">D3D11_TEX2DMS_SRV</a>).
 
 
 ### -field Texture2DMSArray
 
-Type: <b><a href="https://msdn.microsoft.com/ce020ea2-4b2e-4d80-8ad2-5982cc7ee051">D3D11_TEX2DMS_ARRAY_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_array_srv">D3D11_TEX2DMS_ARRAY_SRV</a></b>
 
-View the resource as a 2D-multisampled-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/ce020ea2-4b2e-4d80-8ad2-5982cc7ee051">D3D11_TEX2DMS_ARRAY_SRV</a>).
+View the resource as a 2D-multisampled-texture array using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex2dms_array_srv">D3D11_TEX2DMS_ARRAY_SRV</a>).
 
 
 ### -field Texture3D
 
-Type: <b><a href="https://msdn.microsoft.com/d6aacaa5-5314-4ea1-b12e-0ffba850e74c">D3D11_TEX3D_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_srv">D3D11_TEX3D_SRV</a></b>
 
-View the resource as a 3D texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/d6aacaa5-5314-4ea1-b12e-0ffba850e74c">D3D11_TEX3D_SRV</a>).
+View the resource as a 3D texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_tex3d_srv">D3D11_TEX3D_SRV</a>).
 
 
 ### -field TextureCube
 
-Type: <b><a href="https://msdn.microsoft.com/ca320e06-699f-44f9-9a66-93746935b4cd">D3D11_TEXCUBE_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_srv">D3D11_TEXCUBE_SRV</a></b>
 
-View the resource as a 3D-cube texture using information from a shader-resource view (see <a href="https://msdn.microsoft.com/ca320e06-699f-44f9-9a66-93746935b4cd">D3D11_TEXCUBE_SRV</a>).
+View the resource as a 3D-cube texture using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_srv">D3D11_TEXCUBE_SRV</a>).
 
 
 ### -field TextureCubeArray
 
-Type: <b><a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_array_srv">D3D11_TEXCUBE_ARRAY_SRV</a></b>
 
-View the resource as a 3D-cube-texture array using information from a shader-resource view (see <a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a>).
+View the resource as a 3D-cube-texture array using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texcube_array_srv">D3D11_TEXCUBE_ARRAY_SRV</a>).
 
 
 ### -field BufferEx
 
-Type: <b><a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_bufferex_srv">D3D11_BUFFEREX_SRV</a></b>
 
-View the resource as a raw buffer using information from a shader-resource view (see <a href="https://msdn.microsoft.com/55714c3b-ef21-43c1-94a1-60b63f3fedac">D3D11_BUFFEREX_SRV</a>). For more info about raw viewing of buffers, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Raw Views of Buffers</a>.
+View the resource as a raw buffer using information from a shader-resource view (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_bufferex_srv">D3D11_BUFFEREX_SRV</a>). For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 
 ## -remarks
@@ -156,7 +156,7 @@ A view is a format-specific way to look at the data in a resource. The view dete
 
 When viewing a resource, the resource-view description must specify a typed format, that is compatible with the resource format. So that means that you cannot create a resource-view description using any format with _TYPELESS in the name. You can however view a typeless resource by specifying a typed format for the view. For example, a DXGI_FORMAT_R32G32B32_TYPELESS resource can be viewed with one of these typed formats: DXGI_FORMAT_R32G32B32_FLOAT, DXGI_FORMAT_R32G32B32_UINT, and DXGI_FORMAT_R32G32B32_SINT, since these typed formats are compatible with the typeless resource.
 
-Create a shader-resource-view description by calling <a href="https://msdn.microsoft.com/a8e3cda3-76f9-48c3-9e0c-e530f95fe8b8">ID3D11Device::CreateShaderResourceView</a>. To view a shader-resource-view description, call <a href="https://msdn.microsoft.com/223bcf9c-a873-498c-af58-d93fe0a7f52c">ID3D11ShaderResourceView::GetDesc</a>.
+Create a shader-resource-view description by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createshaderresourceview">ID3D11Device::CreateShaderResourceView</a>. To view a shader-resource-view description, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11shaderresourceview-getdesc">ID3D11ShaderResourceView::GetDesc</a>.
 
 
 
@@ -166,7 +166,7 @@ Create a shader-resource-view description by calling <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
  
 
  

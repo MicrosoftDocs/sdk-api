@@ -49,11 +49,11 @@ ms.custom: 19H1
 ## -description
 
 
-Debug messages for setting up an info-queue filter (see <a href="https://msdn.microsoft.com/6ff12751-86dd-4ae0-b532-661a70dad21f">D3D11_INFO_QUEUE_FILTER</a>); 
+Debug messages for setting up an info-queue filter (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/ns-d3d11sdklayers-d3d11_info_queue_filter">D3D11_INFO_QUEUE_FILTER</a>); 
       use these messages to allow or deny message categories to pass through the storage and retrieval filters. 
       These IDs are used by methods such as 
-      <a href="https://msdn.microsoft.com/685cddc5-cedd-410f-a693-665d2d69402e">ID3D11InfoQueue::GetMessage</a> or 
-      <a href="https://msdn.microsoft.com/7265a273-327a-482b-9d47-6931e031cff8">ID3D11InfoQueue::AddMessage</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-getmessage">ID3D11InfoQueue::GetMessage</a> or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11infoqueue-addmessage">ID3D11InfoQueue::AddMessage</a>.
 
 
 ## -enum-fields
@@ -4028,7 +4028,7 @@ Debug messages for setting up an info-queue filter (see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Layer Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-enums">Layer Enumerations</a>
  
 
  

@@ -64,7 +64,7 @@ The identifier of the transaction to open.
 
 ### -param DesiredAccess [in]
 
-The access requested. See <a href="https://msdn.microsoft.com/8f9b9d3d-e7ea-4df2-82b1-2d4c3e0766c0">Transaction Manager Access Masks</a> for a list of valid values.
+The access requested. See <a href="https://docs.microsoft.com/windows/desktop/Ktm/transaction-manager-access-masks">Transaction Manager Access Masks</a> for a list of valid values.
 
 
 ### -param OpenOptions [in, optional]
@@ -78,7 +78,7 @@ Reserved; specify zero.
 
 If the function succeeds, the return value is a handle to the transaction manager.
 
-If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the  possible error codes:
 
@@ -89,7 +89,7 @@ The following list identifies the  possible error codes:
 
 
 
-Immediately after calling this function, you must call <a href="https://msdn.microsoft.com/6f217ebb-3423-41d3-acff-eb21838c9751">RecoverTransactionManager</a>.
+Immediately after calling this function, you must call <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-recovertransactionmanager">RecoverTransactionManager</a>.
 
 
 
@@ -99,23 +99,23 @@ Immediately after calling this function, you must call <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/f5b7d0c1-9cd0-48fc-8125-d4da040951c4">CreateTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransactionmanager">CreateTransactionManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/21d7c0fa-3a49-43b3-9325-d3dfdabbcb98">GetCurrentClockTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getcurrentclocktransactionmanager">GetCurrentClockTransactionManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9704ea8-e67d-4278-b77e-1d4787224d52">Kernel Transaction Manager Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b53609a-b956-441c-b5b5-9a8e6aa489c9">OpenTransactionManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-opentransactionmanager">OpenTransactionManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f9b9d3d-e7ea-4df2-82b1-2d4c3e0766c0">Transaction Manager Access Masks</a>
+<a href="https://docs.microsoft.com/windows/desktop/Ktm/transaction-manager-access-masks">Transaction Manager Access Masks</a>
  
 
  

@@ -54,7 +54,7 @@ Encapsulates the methods needed to asynchronously select a stream.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSelectorStatics</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStreamSelectorStatics</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStreamSelectorStatics</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStreamSelectorStatics</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStreamSelectorStatics</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8C1B6DC6-D85E-406F-B6DA-914DC5269666">GetStreamPropertiesAsync</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828954(v=vs.85)">GetStreamPropertiesAsync</a>
 </td>
 <td align="left" width="63%">
 When implemented gets the properties of the stream asynchronously.
@@ -78,7 +78,7 @@ When implemented gets the properties of the stream asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7DE96557-2CA0-4A88-AFF1-6A5480EEE04D">SelectBestStreamAsync</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828955(v=vs.85)">SelectBestStreamAsync</a>
 </td>
 <td align="left" width="63%">
 When implemented queries asynchronously for the best stream.

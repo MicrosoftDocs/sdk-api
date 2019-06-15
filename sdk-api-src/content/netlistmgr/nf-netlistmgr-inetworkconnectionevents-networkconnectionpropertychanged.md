@@ -64,7 +64,7 @@ A GUID that identifies the network connection  on which the event occurred.
 
 ### -param flags [in]
 
-The <a href="https://msdn.microsoft.com/75cc1876-e6e0-4c39-a0af-5c47e7501c98">NLM_CONNECTION_PROPERTY_CHANGE</a> flags for this connection.
+The <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_property_change">NLM_CONNECTION_PROPERTY_CHANGE</a> flags for this connection.
 
 
 ## -returns
@@ -81,11 +81,11 @@ Returns S_OK if the method succeeds.
 
 
 
-<a href="https://msdn.microsoft.com/339f23ee-583d-4623-ad43-00b4fd4395ad">INetworkConnectionEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectionevents">INetworkConnectionEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/75cc1876-e6e0-4c39-a0af-5c47e7501c98">NLM_CONNECTION_PROPERTY_CHANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_property_change">NLM_CONNECTION_PROPERTY_CHANGE</a>
  
 
  

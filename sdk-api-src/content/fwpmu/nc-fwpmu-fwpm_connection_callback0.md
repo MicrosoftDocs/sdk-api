@@ -61,19 +61,19 @@ The <b>FWPM_CONNECTION_CALLBACK0</b> function is used to add custom behavior to 
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/86fe40b0-aada-44e1-91dd-0e825589159d">FwpmConnectionSubscribe0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a> function.
 
 
 ### -param eventType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/654b0b66-17b3-4108-af10-1047d07ab2ee">FWPM_CONNECTION_EVENT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type_">FWPM_CONNECTION_EVENT_TYPE</a></b>
 
 The type of connection object change event.
 
 
 ### -param *connection [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/76a923d4-57a9-47ba-af91-ee33c3c5b34b">FWPM_CONNECTION0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0_">FWPM_CONNECTION0</a>*</b>
 
 The connection object change information.
 
@@ -91,7 +91,7 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/86fe40b0-aada-44e1-91dd-0e825589159d">FwpmConnectionSubscribe0</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a> to register this callback function.
 
 
 
@@ -101,15 +101,15 @@ Call <a href="https://msdn.microsoft.com/86fe40b0-aada-44e1-91dd-0e825589159d">F
 
 
 
-<a href="https://msdn.microsoft.com/76a923d4-57a9-47ba-af91-ee33c3c5b34b">FWPM_CONNECTION0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection0_">FWPM_CONNECTION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/654b0b66-17b3-4108-af10-1047d07ab2ee">FWPM_CONNECTION_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type_">FWPM_CONNECTION_EVENT_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/86fe40b0-aada-44e1-91dd-0e825589159d">FwpmConnectionSubscribe0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsubscribe0">FwpmConnectionSubscribe0</a>
  
 
  

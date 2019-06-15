@@ -59,12 +59,12 @@ The <b>PATHOBJ_bPolyLineTo</b> function draws lines from the current position in
 
 ### -param ppo
 
-Pointer to the <a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a> structure created by the driver.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a> structure created by the driver.
 
 
 ### -param pptfx
 
-Pointer to an array of POINTFIX structures that define control points. The first line is drawn from the current position to the first point in this array; lines are then drawn to each subsequent point in the array. For a description of this data type, see <a href="https://msdn.microsoft.com/2054aa16-6d86-4db3-8b16-4570b0374e23">GDI Data Types</a>.
+Pointer to an array of POINTFIX structures that define control points. The first line is drawn from the current position to the first point in this array; lines are then drawn to each subsequent point in the array. For a description of this data type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 
 ### -param cptfx
@@ -85,7 +85,7 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 
 
-<b>PATHOBJ_bPolyLineTo</b> should only be called with PATHOBJ structures created by <a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>.
+<b>PATHOBJ_bPolyLineTo</b> should only be called with PATHOBJ structures created by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>.
 
 
 
@@ -95,15 +95,15 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 
 
-<a href="https://msdn.microsoft.com/b41f77cb-5dd6-43bd-86dc-0bbcbb3e9f6a">EngCreatePath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepath">EngCreatePath</a>
 
 
 
-<a href="https://msdn.microsoft.com/ceccca92-3312-49b4-b0f6-a3d0cd4bbef5">PATHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_pathobj">PATHOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/0937c816-b205-4c5d-b4b6-74c3e7fdb0ce">PATHOBJ_bPolyBezierTo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_bpolybezierto">PATHOBJ_bPolyBezierTo</a>
  
 
  

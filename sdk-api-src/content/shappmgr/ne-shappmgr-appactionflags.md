@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies application management actions supported by an application publisher. These flags are bitmasks passed to <a href="https://msdn.microsoft.com/e2cdff59-1339-4d00-9bbc-e34e773da1c2">IShellApp::GetPossibleActions</a>.
+Specifies application management actions supported by an application publisher. These flags are bitmasks passed to <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ishellapp-getpossibleactions">IShellApp::GetPossibleActions</a>.
 
 
 ## -enum-fields
@@ -94,7 +94,7 @@ Not applicable to published applications.
 
 ### -field APPACTION_ADDLATER
 
-Indicates that the application supports scheduled installation.  If this bit is set, then the Control Panel's Add or Remove Programs application presents the user an <b>Add Later</b> button. If you select <b>Add Later</b>, you are prompted to select the desired time of installation. The <a href="https://msdn.microsoft.com/6d8c5720-b48f-4268-810c-c04b14d20d73">IPublishedApp::Install</a> method is then called with the installation time.
+Indicates that the application supports scheduled installation.  If this bit is set, then the Control Panel's Add or Remove Programs application presents the user an <b>Add Later</b> button. If you select <b>Add Later</b>, you are prompted to select the desired time of installation. The <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-install">IPublishedApp::Install</a> method is then called with the installation time.
 
 
 ### -field APPACTION_UNSCHEDULE

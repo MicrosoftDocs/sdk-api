@@ -54,7 +54,7 @@ Represents the result of an installation or uninstallation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationResult</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IInstallationResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationResult</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IInstallationResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IInstallationResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/51d84e9e-9d92-43c9-af13-f833c3f3d631">GetUpdateResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationresult-getupdateresult">GetUpdateResult</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://msdn.microsoft.com/6c27d691-d9b1-41ce-b3e8-dd2574c19b8b">IUpdateInstallationResult</a> interface that contains the installation results for a specified update.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface that contains the installation results for a specified update.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Returns an <a href="https://msdn.microsoft.com/6c27d691-d9b1-41ce-b3e8-dd2574c19
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/75178661-3b21-4d21-971c-93362a2cc287">HResult</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationresult-get_hresult">HResult</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Gets the <b>HRESULT</b> of the exception, if any, that is raised during the inst
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7a865933-53f7-4d3e-88cf-088acedeed02">RebootRequired</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationresult-get_rebootrequired">RebootRequired</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Gets a Boolean value that indicates whether you must restart the computer to com
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/09454585-ce1e-41e9-8c8a-8a5cffb94388">ResultCode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationresult-get_resultcode">ResultCode</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/02d3442e-d098-42b6-b1b1-cc2d1a815fa4">OperationResultCode</a> value that specifies the result of an operation on an update.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-tagoperationresultcode">OperationResultCode</a> value that specifies the result of an operation on an update.
 
 </td>
 </tr>

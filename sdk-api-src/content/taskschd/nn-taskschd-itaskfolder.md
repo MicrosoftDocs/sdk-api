@@ -54,7 +54,7 @@ Provides the methods that are used to register (create) tasks in the folder, rem
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskFolder</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITaskFolder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskFolder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskFolder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ITaskFolder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da0f2420-b1a0-4359-aa05-ddf1f2a35118">CreateFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-createfolder">CreateFolder</a>
 </td>
 <td align="left" width="63%">
 Creates a folder for related tasks.
@@ -79,7 +79,7 @@ Creates a folder for related tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7758afc5-73d8-456c-98a9-89e4b7ad42b9">DeleteFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletefolder">DeleteFolder</a>
 </td>
 <td align="left" width="63%">
 Deletes a subfolder from the parent folder.
@@ -88,7 +88,7 @@ Deletes a subfolder from the parent folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b929abd-c40a-4f6b-9a0b-702d2f26f1fe">DeleteTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-deletetask">DeleteTask</a>
 </td>
 <td align="left" width="63%">
 Deletes a task from the folder.
@@ -97,7 +97,7 @@ Deletes a task from the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62a0b946-ba06-46cf-bf38-e6774bdaae0a">GetFolder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolder">GetFolder</a>
 </td>
 <td align="left" width="63%">
 Gets a folder that contains tasks at a specified location.
@@ -106,7 +106,7 @@ Gets a folder that contains tasks at a specified location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee00a8be-52f5-4399-9a1f-18e06121a3da">GetFolders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders">GetFolders</a>
 </td>
 <td align="left" width="63%">
 Gets all the subfolders in the folder.
@@ -115,7 +115,7 @@ Gets all the subfolders in the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9360746e-0f6d-40cb-9135-b12bd8b7d760">GetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets the security descriptor for the folder.
@@ -124,7 +124,7 @@ Gets the security descriptor for the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/01c32103-d65a-49ed-b12e-af2e865456e1">GetTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettask">GetTask</a>
 </td>
 <td align="left" width="63%">
 Gets a task at a specified location in a folder.
@@ -133,7 +133,7 @@ Gets a task at a specified location in a folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2dcef962-d4b0-4fc9-845a-e33f020dba41">GetTasks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-gettasks">GetTasks</a>
 </td>
 <td align="left" width="63%">
 Gets all the tasks in the folder.
@@ -142,7 +142,7 @@ Gets all the tasks in the folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/743e5bd9-3fb6-4e09-96ed-ca2d74fa0bab">RegisterTask</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask">RegisterTask</a>
 </td>
 <td align="left" width="63%">
 Registers (creates) a new task in the folder using XML to define the task.
@@ -151,16 +151,16 @@ Registers (creates) a new task in the folder using XML to define the task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a94db861-b24e-476a-810d-2cf3bbfc67d1">RegisterTaskDefinition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">RegisterTaskDefinition</a>
 </td>
 <td align="left" width="63%">
-Registers (creates) a task in a specified location using the <a href="https://msdn.microsoft.com/3787ed9b-9fd0-473b-9034-ade97dc330d9">ITaskDefinition</a> interface to define a task.
+Registers (creates) a task in a specified location using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> interface to define a task.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54f8a37b-87ac-449c-8e03-aeacd27e8c97">SetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-setsecuritydescriptor">SetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Sets the security descriptor for the folder.
@@ -178,7 +178,7 @@ Sets the security descriptor for the folder.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/092d1d40-e97a-44a3-aff0-41b2b6df8d6d">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_name">Name</a>
 
 
 </td>
@@ -194,7 +194,7 @@ Gets the name that is used to identify the folder that contains a task.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d65c5f69-21dc-49d0-9a42-581947a195df">Path</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-get_path">Path</a>
 
 
 </td>
@@ -215,7 +215,7 @@ Gets the path to where the folder is stored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
  
 
  

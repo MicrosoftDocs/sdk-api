@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Elements of the <b>TsGravity</b> enumeration specify the gravity type associated with an <a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a> object.
+Elements of the <b>TsGravity</b> enumeration specify the gravity type associated with an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> object.
 
 
 ## -enum-fields
@@ -59,12 +59,12 @@ Elements of the <b>TsGravity</b> enumeration specify the gravity type associated
 
 ### -field TS_GR_BACKWARD
 
-The anchor has backward gravity. For more information about anchor gravity, see <a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges</a>.
+The anchor has backward gravity. For more information about anchor gravity, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges</a>.
 
 
 ### -field TS_GR_FORWARD
 
-The anchor has forward gravity. For more information about anchor gravity, see <a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges</a>.
+The anchor has forward gravity. For more information about anchor gravity, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges</a>.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ The anchor has forward gravity. For more information about anchor gravity, see <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7d52959-8386-464f-958d-c870f286b265">IAnchor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
  
 
  

@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 Contains information about a Distributed File System (DFS) root or link. This structure contains the name, 
     status, number of DFS targets, and information about each target of the root or link. This structure is only for 
-    use with the <a href="https://msdn.microsoft.com/c05a8d78-41f4-4c19-a25e-ef4885869584">NetDfsEnum</a>, 
-    <a href="https://msdn.microsoft.com/065ec002-cb90-4d78-a70c-6ac37f71994f">NetDfsGetClientInfo</a>, and 
-    <a href="https://msdn.microsoft.com/bbb2f24d-1c49-4016-a16b-60fde4a78193">NetDfsGetInfo</a> functions and the 
-    <a href="https://msdn.microsoft.com/d4eec104-128b-43b5-9fae-08ab0b977dec">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
+    use with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>, 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>, and 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a> functions and the 
+    <a href="https://docs.microsoft.com/windows/desktop/dfs/fsctl-dfs-get-pkt-entry-state">FSCTL_DFS_GET_PKT_ENTRY_STATE</a> control 
     code.
 
 
@@ -108,7 +108,7 @@ Specifies a set of bit flags that describe the DFS root or link. One
       is set. The <b>DFS_VOLUME_FLAVORS</b> bitmask (0x00000300) must be used to extract the DFS 
       namespace flavor, and the <b>DFS_VOLUME_STATES</b> bitmask (0x0000000F) must be used to 
       extract the DFS root or link state from this member. For an example that describes the interpretation of the 
-      flags, see the Remarks section of <a href="https://msdn.microsoft.com/c5fe27be-fd6e-4cf0-abf6-8363c78edf5b">DFS_INFO_2</a>.
+      flags, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_2">DFS_INFO_2</a>.
 
 
 
@@ -165,7 +165,7 @@ Specifies the number of DFS targets.
 
 ### -field Storage
 
-Pointer to an array of <a href="https://msdn.microsoft.com/f50f32d8-1745-4ff6-97a6-ddd6fff95955">DFS_STORAGE_INFO</a> 
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info">DFS_STORAGE_INFO</a> 
       structures. The <b>NumberOfStorages</b> member specifies the number of structures in the 
       array.
 
@@ -175,7 +175,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/f50f32d8-1745-4ff6-97
 
 
 A <b>DFS_INFO_3</b> structure contains one or more 
-    <a href="https://msdn.microsoft.com/f50f32d8-1745-4ff6-97a6-ddd6fff95955">DFS_STORAGE_INFO</a> structures, one for each DFS 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info">DFS_STORAGE_INFO</a> structures, one for each DFS 
     target.
 
 
@@ -186,31 +186,31 @@ A <b>DFS_INFO_3</b> structure contains one or more
 
 
 
-<a href="https://msdn.microsoft.com/f50f32d8-1745-4ff6-97a6-ddd6fff95955">DFS_STORAGE_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_storage_info">DFS_STORAGE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/a29cde3e-483a-4658-94d4-27398f66abfb">Distributed File System (DFS) Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c05a8d78-41f4-4c19-a25e-ef4885869584">NetDfsEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/065ec002-cb90-4d78-a70c-6ac37f71994f">NetDfsGetClientInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo">NetDfsGetClientInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbb2f24d-1c49-4016-a16b-60fde4a78193">NetDfsGetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
  
 
  

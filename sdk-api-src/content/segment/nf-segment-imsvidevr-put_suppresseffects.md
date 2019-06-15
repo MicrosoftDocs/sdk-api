@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>put_SuppressEffects</b> method specifies whether the <a href="https://msdn.microsoft.com/743a1950-4f70-45a1-9536-0d75064f401b">Video Control</a> configures the system for optimal video playback.
+The <b>put_SuppressEffects</b> method specifies whether the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ee663618(v=vs.85)">Video Control</a> configures the system for optimal video playback.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ The default value for this property is VARIANT_TRUE. Set this property to VARIAN
 
 
 
-<a href="https://msdn.microsoft.com/437f515b-0353-4ff2-b8c2-5dd27d4e12f7">IMSVidEVR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidevr">IMSVidEVR</a>
  
 
  

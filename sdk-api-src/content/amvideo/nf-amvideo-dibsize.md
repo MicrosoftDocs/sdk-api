@@ -59,7 +59,7 @@ The <code>DIBSIZE</code> macro calculates the number of bytes required by a devi
 
 ### -param bi
 
-Specifies a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 
 ## -remarks
@@ -76,7 +76,7 @@ The size of a DIB is calculated as <code>stride * height</code>, where stride is
 
 
 
-<a href="https://msdn.microsoft.com/02401edc-362b-4f6c-b10b-c46b30b3ebe7">Video and Image Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
  
 
  

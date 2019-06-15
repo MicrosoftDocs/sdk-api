@@ -121,11 +121,11 @@ The minimum buffering time is 1 second and the maximum is 60 seconds. To set a b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743520(v=VS.85).aspx">IWMReaderNetworkConfig::GetBufferingTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getbufferingtime">IWMReaderNetworkConfig::GetBufferingTime</a>
  
 
  

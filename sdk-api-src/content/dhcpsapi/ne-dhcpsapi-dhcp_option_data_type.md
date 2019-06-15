@@ -79,7 +79,7 @@ The option data is stored as a DWORD_DWORD value.
 
 ### -field DhcpIpAddressOption
 
-The option data is an IP address, stored as a <a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_IP_ADDRESS</a> value (DWORD).
+The option data is an IP address, stored as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value (DWORD).
 
 
 ### -field DhcpStringDataOption
@@ -89,12 +89,12 @@ The option data is stored as a Unicode string.
 
 ### -field DhcpBinaryDataOption
 
-The option data is stored as a <a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a> structure.
+The option data is stored as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a> structure.
 
 
 ### -field DhcpEncapsulatedDataOption
 
-The option data is encapsulated and stored as a <a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a> structure.
+The option data is encapsulated and stored as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a> structure.
 
 
 ### -field DhcpIpv6AddressOption
@@ -107,7 +107,7 @@ The option data is stored as a Unicode string.
 
 
 
-<a href="https://msdn.microsoft.com/0afdddb4-12f9-4c0b-937a-2cc311c126b4">DHCP_BINARY_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_binary_data">DHCP_BINARY_DATA</a>
  
 
  

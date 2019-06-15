@@ -76,7 +76,7 @@ Indicates that there's tier 2 support for programmable sample positions. In tier
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/E45DA471-E0A9-47BF-8AE5-4B8BA4B38337">D3D12_FEATURE_D3D12_DATA_OPTIONS2</a> structure to indicate the level of support offered for programmable sample positions.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options2">D3D12_FEATURE_D3D12_DATA_OPTIONS2</a> structure to indicate the level of support offered for programmable sample positions.
 
 
 
@@ -86,7 +86,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/E45DA471-E0A9-47BF-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

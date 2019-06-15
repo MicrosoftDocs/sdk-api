@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 Specifies the data type of a property value in a 
-    <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>.
 
 
 ## -enum-fields
@@ -106,10 +106,10 @@ Data is a null-terminated Unicode string with expanded references to environment
 
 ### -field CLUSPROP_FORMAT_SECURITY_DESCRIPTOR
 
-Data is a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> in 
-          <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> 
+Data is a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> in 
+          <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> 
           format. For more information about self-relative security descriptors, see 
-          <a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">Absolute and Self-Relative Security Descriptors</a>.
+          <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>.
 
 
 ### -field CLUSPROP_FORMAT_LARGE_INTEGER
@@ -124,7 +124,7 @@ Data is a <b>WORD</b> value.
 
 ### -field CLUSPROP_FORMAT_FILETIME
 
-Data is a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a>.
+Data is a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 
 ### -field CLUSPROP_FORMAT_VALUE_LIST
@@ -143,19 +143,19 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/259aba6f-b1a6-422d-859b-8e6c95895ab5">Format Property of the ClusProperty Object</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusproperty-format">Format Property of the ClusProperty Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/a53a969b-9269-43c7-81a0-178e61a23058">Format Property of the ClusPropertyValue Object</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspropertyvalue-format">Format Property of the ClusPropertyValue Object</a>
  
 
  

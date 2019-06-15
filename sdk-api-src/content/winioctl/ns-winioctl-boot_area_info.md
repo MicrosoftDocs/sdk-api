@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains the output for the <a href="https://msdn.microsoft.com/5739354b-5342-4be9-ac50-bb983d51587c">FSCTL_GET_BOOT_AREA_INFO</a> control code.
+Contains the output for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a> control code.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ The location of a boot sector or a copy of a boot sector.
 
 
 
-<a href="https://msdn.microsoft.com/5739354b-5342-4be9-ac50-bb983d51587c">FSCTL_GET_BOOT_AREA_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a>
  
 
  

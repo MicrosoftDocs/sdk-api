@@ -59,7 +59,7 @@ Releases a name cache.
 
 ### -param pNameCache
 
-A pointer to a <a href="https://msdn.microsoft.com/2d2a6066-b59a-418c-a726-0a1a39243988">NAME_CACHE_CONTEXT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a> structure.
 
 
 ## -returns
@@ -85,7 +85,7 @@ The caller must guarantee the thread safety of this call.
 
 
 
-<a href="https://msdn.microsoft.com/2d2a6066-b59a-418c-a726-0a1a39243988">NAME_CACHE_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/filehc/ns-filehc-name_cache_context">NAME_CACHE_CONTEXT</a>
  
 
  

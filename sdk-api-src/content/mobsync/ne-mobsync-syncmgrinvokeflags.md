@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>SYNCMGRINVOKEFLAGS</b> enumeration value specifies how the Sync Manager is to be invoked in the 
-<a href="https://msdn.microsoft.com/7a646d11-a84c-44c1-b52b-ffd364cc2ac3">ISyncMgrSynchronizeInvoke::UpdateItems</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">ISyncMgrSynchronizeInvoke::UpdateItems</a> method.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ Indicates that the <b>Choice</b> dialog should be minimized by default.
 
 
 
-<a href="https://msdn.microsoft.com/7a646d11-a84c-44c1-b52b-ffd364cc2ac3">ISyncMgrSynchronizeInvoke::UpdateItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">ISyncMgrSynchronizeInvoke::UpdateItems</a>
  
 
  

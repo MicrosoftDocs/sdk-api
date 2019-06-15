@@ -49,14 +49,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IShellFolderView</b> is no longer available for use as of Windows 7. Instead, use <a href="https://msdn.microsoft.com/52fcf0df-f532-4114-b1c9-96838f1a5e77">IFolderView2</a> and <a href="https://msdn.microsoft.com/3bc2615e-f07c-4959-b89e-bbbd2bf45a94">IFolderView</a>.]
+<p class="CCE_Message">[<b>IShellFolderView</b> is no longer available for use as of Windows 7. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2">IFolderView2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>.]
 
 Exposes methods that manipulate Shell folder views.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderView</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellFolderView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellFolderView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IShellFolderView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/50f07c12-7c66-40a0-b710-a4240fde859a">AddObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-addobject">AddObject</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the view.
@@ -80,7 +80,7 @@ Adds an item to the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3cb77a02-82da-42d3-97a3-ff47a9ce1831">ArrangeGrid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-arrangegrid">ArrangeGrid</a>
 </td>
 <td align="left" width="63%">
 Arranges moved icons so that they align to an invisible grid.
@@ -89,7 +89,7 @@ Arranges moved icons so that they align to an invisible grid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37260573-bac0-462c-a0df-654e2b22ed47">AutoArrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-autoarrange">AutoArrange</a>
 </td>
 <td align="left" width="63%">
 Arranges moved icons so that they tend toward the left side of the viewing area and displace other icons with which they come into contact.
@@ -98,7 +98,7 @@ Arranges moved icons so that they tend toward the left side of the viewing area 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15eda2f2-6956-47c1-be08-3ca2f292578e">GetArrangeParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getarrangeparam">GetArrangeParam</a>
 </td>
 <td align="left" width="63%">
 Gets the arrangement parameter of the view, which is how the view has been sorted.
@@ -107,7 +107,7 @@ Gets the arrangement parameter of the view, which is how the view has been sorte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee7c0c7c-17f1-48b4-9aa0-33804c237036">GetAutoArrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getautoarrange">GetAutoArrange</a>
 </td>
 <td align="left" width="63%">
 Gets the current state of the folder's Auto Arrange mode.
@@ -116,7 +116,7 @@ Gets the current state of the folder's Auto Arrange mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ea29e97-41cb-4de7-8320-1d6389cfb6f6">GetDragPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getdragpoint">GetDragPoint</a>
 </td>
 <td align="left" width="63%">
 Gets the point at which the current drag-and-drop operation was initiated.
@@ -125,7 +125,7 @@ Gets the point at which the current drag-and-drop operation was initiated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ea09e0f-adf0-4d33-a7c7-c8a4aa6b30ea">GetDropPoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getdroppoint">GetDropPoint</a>
 </td>
 <td align="left" width="63%">
 Gets the point at which the current drag-and-drop operation was terminated.
@@ -134,7 +134,7 @@ Gets the point at which the current drag-and-drop operation was terminated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92450bc7-26e5-4061-90f7-eea0f0a4db09">GetItemSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getitemspacing">GetItemSpacing</a>
 </td>
 <td align="left" width="63%">
 Gets the spacing for small and large view modes only.
@@ -143,7 +143,7 @@ Gets the spacing for small and large view modes only.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a231e92f-b467-4fd7-929d-92259272a734">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Gets an item from the view.
@@ -152,7 +152,7 @@ Gets an item from the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a68dca56-ae89-4280-b1de-8c85362bf9c6">GetObjectCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobjectcount">GetObjectCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items in the folder view.
@@ -161,7 +161,7 @@ Gets the number of items in the folder view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d504eba-7fb8-44a0-9534-4e7995b9b5d4">GetSelectedCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getselectedcount">GetSelectedCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of items in the view that are selected.
@@ -170,7 +170,7 @@ Gets the number of items in the view that are selected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9cb41312-a401-4d24-a7a7-7b03478cf684">GetSelectedObjects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getselectedobjects">GetSelectedObjects</a>
 </td>
 <td align="left" width="63%">
 Gets an array of the objects in the view that are selected and the number of those objects.
@@ -179,7 +179,7 @@ Gets an array of the objects in the view that are selected and the number of tho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6de58057-2bcd-480e-8b4a-6e59aad168dc">IsBkDropTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-isbkdroptarget">IsBkDropTarget</a>
 </td>
 <td align="left" width="63%">
 Checks if the target of a drag-and-drop operation is the background of the view.
@@ -188,7 +188,7 @@ Checks if the target of a drag-and-drop operation is the background of the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3661fe68-b351-48e0-a098-8ad919bdfbb2">IsDropOnSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-isdroponsource">IsDropOnSource</a>
 </td>
 <td align="left" width="63%">
 Checks whether the destination of the current drag-and-drop or cut-and-paste operation is the same as the source.
@@ -197,7 +197,7 @@ Checks whether the destination of the current drag-and-drop or cut-and-paste ope
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/294fbafc-6a8f-4617-bc34-413c89e3a43c">MoveIcons</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-moveicons">MoveIcons</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -206,7 +206,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e998e31-7842-4d17-a9e6-35663ff1474a">QuerySupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-querysupport">QuerySupport</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -215,7 +215,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9fe955db-dab3-4e53-9c1b-979794052035">Rearrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-rearrange">Rearrange</a>
 </td>
 <td align="left" width="63%">
 Rearranges the items in a view according to a sorting rule.
@@ -224,7 +224,7 @@ Rearranges the items in a view according to a sorting rule.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6165d2d1-4bd6-4a18-8191-1fd7e924d7d8">RefreshObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-refreshobject">RefreshObject</a>
 </td>
 <td align="left" width="63%">
 Redraws the given item.
@@ -233,7 +233,7 @@ Redraws the given item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5e96040b-5b6a-4323-a5c4-f30e534ed15a">RemoveObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-removeobject">RemoveObject</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the view.
@@ -242,7 +242,7 @@ Removes an item from the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/80ec6587-515f-4697-8a19-8c486bec3473">Select</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-select">Select</a>
 </td>
 <td align="left" width="63%">
 Selects and/or unselects items in the view.
@@ -251,25 +251,25 @@ Selects and/or unselects items in the view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/742b0d93-5cdf-4498-80c2-2d33359f146f">SetAutomationObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setautomationobject">SetAutomationObject</a>
 </td>
 <td align="left" width="63%">
-Replaces the internal automation object of the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>.
+Replaces the internal automation object of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3438f4ba-e7f1-46b1-b85d-0e880615bb12">SetCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setcallback">SetCallback</a>
 </td>
 <td align="left" width="63%">
-Replaces the <a href="https://msdn.microsoft.com/0cd2bce8-d77a-4140-869b-707aaa279796">IShellFolderViewCB</a> that <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> uses.
+Replaces the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderviewcb">IShellFolderViewCB</a> that <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> uses.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/372cc6db-f9c1-4110-98aa-a7ad90312048">SetClipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setclipboard">SetClipboard</a>
 </td>
 <td align="left" width="63%">
 Performs a cut operation on the current selection.
@@ -278,7 +278,7 @@ Performs a cut operation on the current selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d905260c-fa68-4b39-9c94-a74e1ac71b95">SetItemPos</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setitempos">SetItemPos</a>
 </td>
 <td align="left" width="63%">
 Sets the position of the given item.
@@ -287,7 +287,7 @@ Sets the position of the given item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0656fb51-1d10-42a5-bd4a-3ceb606c7176">SetObjectCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setobjectcount">SetObjectCount</a>
 </td>
 <td align="left" width="63%">
 Sets the number of items in the ListView control that the view contains.
@@ -296,7 +296,7 @@ Sets the number of items in the ListView control that the view contains.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a226139a-c2b0-44d5-a0c3-790e27ab3a0f">SetPoints</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setpoints">SetPoints</a>
 </td>
 <td align="left" width="63%">
 Copies the points at which the current selection is located into a data object.
@@ -305,7 +305,7 @@ Copies the points at which the current selection is located into a data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fe249faa-561f-4179-a478-4ff284ffa963">SetRedraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-setredraw">SetRedraw</a>
 </td>
 <td align="left" width="63%">
 Allows a view to be redrawn or prevents it from being redrawn.
@@ -314,7 +314,7 @@ Allows a view to be redrawn or prevents it from being redrawn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aacc326f-30e3-4794-b158-77ccf24f8d01">UpdateObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-updateobject">UpdateObject</a>
 </td>
 <td align="left" width="63%">
 Replaces an item in a view with another item.
@@ -328,7 +328,7 @@ Replaces an item in a view with another item.
 
 
 
-<b>IShellFolderView</b> is supported by the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> object that is returned from <a href="https://msdn.microsoft.com/7edd6786-7d74-4065-8cf1-cbb489007a46">SHCreateShellFolderViewEx</a>.  This object contains a ListView control and some of the methods on <b>IShellFolderView</b> directly manipulate this ListView control.
+<b>IShellFolderView</b> is supported by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object that is returned from <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex">SHCreateShellFolderViewEx</a>.  This object contains a ListView control and some of the methods on <b>IShellFolderView</b> directly manipulate this ListView control.
 
 
 

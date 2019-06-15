@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>VSS_MGMT_OBJECT_TYPE</b> enumeration type is a 
-    discriminant for the <a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a> 
-    union within the <a href="https://msdn.microsoft.com/86681207-969e-4b33-aff8-79454ab04829">VSS_MGMT_OBJECT_PROP</a> 
+    discriminant for the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a> 
+    union within the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a> 
     structure.
 
 
@@ -86,11 +86,11 @@ The object is an association between a volume to be shadow copied and a volume t
 
 
 
-<a href="https://msdn.microsoft.com/86681207-969e-4b33-aff8-79454ab04829">VSS_MGMT_OBJECT_PROP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-_vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ns-vsmgmt-__midl___midl_itf_vsmgmt_0000_0000_0001">VSS_MGMT_OBJECT_UNION</a>
  
 
  

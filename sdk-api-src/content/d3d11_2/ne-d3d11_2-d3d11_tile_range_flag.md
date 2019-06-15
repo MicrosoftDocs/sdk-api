@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a range of tile mappings to use with <a href="https://msdn.microsoft.com/EB0F9CBD-29B2-484D-8923-6686C73487F7">ID3D11DeviceContext2::UpdateTiles</a>.
+Specifies a range of tile mappings to use with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-updatetiles">ID3D11DeviceContext2::UpdateTiles</a>.
 
 
 ## -enum-fields
@@ -77,11 +77,11 @@ Reuse a single tile in the tile range.
 
 
 
-<a href="https://msdn.microsoft.com/EB0F9CBD-29B2-484D-8923-6686C73487F7">ID3D11DeviceContext2::UpdateTiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-updatetiles">ID3D11DeviceContext2::UpdateTiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
  
 
  

@@ -59,7 +59,7 @@ Notifies the sink that a view status of an object has changed.
 
 ### -param dwViewStatus [in]
 
-The new view status. Possible values are from the <a href="https://msdn.microsoft.com/7b3118af-db29-4eb1-9b1b-38a8ebe42f19">VIEWSTATUS</a> enumeration.
+The new view status. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-tagviewstatus">VIEWSTATUS</a> enumeration.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method returns S_OK on success.
 
 
 
-It is important that objects call the <a href="https://msdn.microsoft.com/f2cb3a5b-826b-428a-9e92-e5d08880bddc">IAdviseSink:OnViewChange</a> method whenever the object's view changes even when the object is in place active. Containers rely on this notification to keep an object's view up-to-date.
+It is important that objects call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onviewchange">IAdviseSink:OnViewChange</a> method whenever the object's view changes even when the object is in place active. Containers rely on this notification to keep an object's view up-to-date.
 
 
 
@@ -85,11 +85,11 @@ It is important that objects call the <a href="https://msdn.microsoft.com/f2cb3a
 
 
 
-<a href="https://msdn.microsoft.com/f2cb3a5b-826b-428a-9e92-e5d08880bddc">IAdviseSink:OnViewChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onviewchange">IAdviseSink:OnViewChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a52353-dd86-4083-9dbc-3a6f363a1a57">IAdviseSinkEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iadvisesinkex">IAdviseSinkEx</a>
  
 
  

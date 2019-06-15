@@ -58,12 +58,12 @@ ms.custom: 19H1
 
 ### -param range [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> interface that specifies the range of text that the mouse sink is installed for.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that specifies the range of text that the mouse sink is installed for.
 
 
 ### -param pSink [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/d6e5549e-768d-47af-a553-84430641cda4">ITfMouseSink</a> interface.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> interface.
 
 
 ### -param pdwCookie [out]
@@ -147,9 +147,9 @@ An unspecified error occurred.
 
 
 
-When the advise sink is installed, a mouse event that occurs over the range specified by <i>range</i> will result in the mouse event sink <a href="https://msdn.microsoft.com/1aa4fdb7-b16d-4e58-934a-8323450f6749">ITfMouseSink::OnMouseEvent</a> call.
+When the advise sink is installed, a mouse event that occurs over the range specified by <i>range</i> will result in the mouse event sink <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">ITfMouseSink::OnMouseEvent</a> call.
 
-The value placed in <i>pdwCookie</i> must be saved and passed to <a href="https://msdn.microsoft.com/7707b7ce-662b-43e5-ada4-ba42eec56ede">ITfMouseTracker::UnadviseMouseSink</a> to remove the mouse event sink.
+The value placed in <i>pdwCookie</i> must be saved and passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-unadvisemousesink">ITfMouseTracker::UnadviseMouseSink</a> to remove the mouse event sink.
 
 
 
@@ -159,26 +159,26 @@ The value placed in <i>pdwCookie</i> must be saved and passed to <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/d6e5549e-768d-47af-a553-84430641cda4">ITfMouseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1aa4fdb7-b16d-4e58-934a-8323450f6749">ITfMouseSink::OnMouseEvent
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">ITfMouseSink::OnMouseEvent
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/aad07b35-99e0-4c76-ba65-93c2c972303d">ITfMouseTracker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a>
 
 
 
-<a href="https://msdn.microsoft.com/7707b7ce-662b-43e5-ada4-ba42eec56ede">ITfMouseTracker::UnadviseMouseSink
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-unadvisemousesink">ITfMouseTracker::UnadviseMouseSink
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
  
 

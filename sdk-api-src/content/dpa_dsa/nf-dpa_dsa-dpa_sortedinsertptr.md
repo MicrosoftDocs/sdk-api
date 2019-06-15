@@ -87,14 +87,14 @@ A pointer to the comparison function. See <a href="https://docs.microsoft.com/en
 
 ### -param lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 An additional parameter used to pass information to the comparison function pointed to by <i>pfnCmp</i>.
 
 
 ### -param options
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The insertion point. Must be one of the following values.
 
@@ -138,11 +138,11 @@ A pointer to the item that is to be inserted.
 
 
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/en-us/library/Bb775625(v=VS.85).aspx">DPA_InsertPtr</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775633(v=VS.85).aspx">DPA_Search</a> functions.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_insertptr">DPA_InsertPtr</a> and <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_search">DPA_Search</a> functions.</div>
 <div> </div>
 The DPAS_SORTED flag is included in <i>options</i> by default to indicate that the DPA is sorted.
 
-See function <a href="https://msdn.microsoft.com/en-us/library/Bb775633(v=VS.85).aspx">DPA_Search</a> for additional information on how the <i>pFind</i> item is located. The new item is inserted before or after the <i>pFind</i> item according to the <i>options</i> parameter. The <i>pFind</i> parameter need not exist in the DPA. If it does not exist in the DPA, then the new item is inserted where <i>pFind</i> would have been had it been inserted in the DPA in sorted order.
+See function <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_search">DPA_Search</a> for additional information on how the <i>pFind</i> item is located. The new item is inserted before or after the <i>pFind</i> item according to the <i>options</i> parameter. The <i>pFind</i> parameter need not exist in the DPA. If it does not exist in the DPA, then the new item is inserted where <i>pFind</i> would have been had it been inserted in the DPA in sorted order.
 
 
 

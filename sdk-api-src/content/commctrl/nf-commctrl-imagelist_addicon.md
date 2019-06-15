@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://msdn.microsoft.com/en-us/library/Bb775215(v=VS.85).aspx">ImageList_ReplaceIcon</a> function. 
+Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_replaceicon">ImageList_ReplaceIcon</a> function. 
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to the image list. If this parameter identifies a masked image list, th
 
 ### -param hicon
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 A handle to the icon or cursor that contains the bitmap and mask for the new image. 
 
@@ -76,7 +76,7 @@ A handle to the icon or cursor that contains the bitmap and mask for the new ima
 
 
 Because the system does not save 
-				<i>hicon</i>, you can destroy it after the macro returns if the icon or cursor was created by the <a href="https://msdn.microsoft.com/en-us/library/ms648059(v=VS.85).aspx">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed. 
+				<i>hicon</i>, you can destroy it after the macro returns if the icon or cursor was created by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed. 
 
 The <b>ImageList_AddIcon</b> macro is defined as follows: 
 

@@ -88,9 +88,9 @@ This method can return the following error codes.
 
 
 
-The file screen template name is specified when you call the <a href="https://msdn.microsoft.com/3d654dee-2a27-4dc0-8e2b-fba546abe17e">IFsrmFileScreenTemplateManager::CreateTemplate</a> method. To enumerate the templates, call the <a href="https://msdn.microsoft.com/5bfb82f9-50a5-4266-956d-f99e2982a6a5">IFsrmFileScreenTemplateManager::EnumTemplates</a> method.
+The file screen template name is specified when you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-createtemplate">IFsrmFileScreenTemplateManager::CreateTemplate</a> method. To enumerate the templates, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">IFsrmFileScreenTemplateManager::EnumTemplates</a> method.
 
-You can also use the <a href="https://msdn.microsoft.com/27a0141d-0906-400e-bd5f-81da67a3c501">IFsrmFileScreenTemplateManager::ExportTemplates</a> method to export the templates.
+You can also use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-exporttemplates">IFsrmFileScreenTemplateManager::ExportTemplates</a> method to export the templates.
 
 
 
@@ -100,11 +100,11 @@ You can also use the <a href="https://msdn.microsoft.com/27a0141d-0906-400e-bd5f
 
 
 
-<a href="https://msdn.microsoft.com/ea707982-2d2d-4fb9-a97a-ee5b2a61f8a9">FsrmExportImport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmexportimport">FsrmExportImport</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a3b682e-d2c3-43b3-9d10-4bba9d9c81d4">IFsrmExportImport</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>
  
 
  

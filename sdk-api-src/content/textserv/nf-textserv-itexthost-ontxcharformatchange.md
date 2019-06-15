@@ -59,7 +59,7 @@ Sets the default character format for the text host.
 
 ### -param pCF [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>*</b>
 
 The new default-character format. 
 
@@ -68,11 +68,11 @@ The new default-character format.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return one of the following COM error codes if the method fails. For more information on COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>. 
+Return one of the following COM error codes if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>. 
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ Unspecified error.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_charformat">CHARFORMAT</a>
 
 
 
@@ -120,7 +120,7 @@ Unspecified error.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -128,7 +128,7 @@ Unspecified error.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
  
 
  

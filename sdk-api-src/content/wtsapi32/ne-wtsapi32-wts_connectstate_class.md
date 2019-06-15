@@ -112,15 +112,15 @@ The WinStation is initializing.
 
 
 
-<a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/4139c009-6d2f-460b-b7a0-097bd2218505">WTSWaitSystemEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtswaitsystemevent">WTSWaitSystemEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb40d928-293a-4e2c-b7cf-2ac038da53c2">WTS_SESSION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_session_infoa">WTS_SESSION_INFO</a>
  
 
  

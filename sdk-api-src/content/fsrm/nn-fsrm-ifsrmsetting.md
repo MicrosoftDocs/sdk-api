@@ -52,14 +52,14 @@ ms.custom: 19H1
 Used to configure FSRM.
 
 To get this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmSetting</b> as the class identifier and 
     <code>__uuidof(IFsrmSetting)</code> as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IFsrmSetting</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dda57309-8e77-4934-bb3e-d208d4607ea5">EmailTest</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-emailtest">EmailTest</a>
 </td>
 <td align="left" width="63%">
 Send a test email to the specified email address.
@@ -84,7 +84,7 @@ Send a test email to the specified email address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cbcd5532-4077-4a5c-94d4-e1fb636e6dda">GetActionRunLimitInterval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-getactionrunlimitinterval">GetActionRunLimitInterval</a>
 </td>
 <td align="left" width="63%">
 Gets the time that an action that uses the global run limit interval must wait before the action is run 
@@ -94,7 +94,7 @@ Gets the time that an action that uses the global run limit interval must wait b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cd4d583-2906-4ba0-b113-c21db143dec2">SetActionRunLimitInterval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-setactionrunlimitinterval">SetActionRunLimitInterval</a>
 </td>
 <td align="left" width="63%">
 Sets the time that an action that uses the global run limit interval must wait before the action is run 
@@ -113,7 +113,7 @@ Sets the time that an action that uses the global run limit interval must wait b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5985f697-f982-481c-896e-e6c3834f645d">AdminEmail</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_adminemail">AdminEmail</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves or sets the email address for the administrator.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2c919dfd-86ba-4069-b8c9-caac27123429">DisableCommandLine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_disablecommandline">DisableCommandLine</a>
 
 
 </td>
@@ -145,7 +145,7 @@ Retrieves or sets a value that determines whether FSRM prevents command line act
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/6d185eca-6c14-4cd9-bb12-95499cde1050">EnableScreeningAudit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_enablescreeningaudit">EnableScreeningAudit</a>
 
 
 </td>
@@ -162,7 +162,7 @@ Retrieves or sets a value that determines whether FSRM keeps audit records of th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/62296c6c-d75b-4669-a665-a0c4321218b6">MailFrom</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_mailfrom">MailFrom</a>
 
 
 </td>
@@ -178,7 +178,7 @@ Retrieves or sets the default email address from which email messages are sent.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3d16e478-6e53-44d4-85ca-a4c508d138de">SmtpServer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_smtpserver">SmtpServer</a>
 
 
 </td>
@@ -379,11 +379,11 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c27393a-9a84-4147-a7e0-582c0bf2d918">FsrmSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
  
 
  

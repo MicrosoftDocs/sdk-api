@@ -53,14 +53,14 @@ The
 <b>ITPluggableTerminalClassInfo</b> interface exposes methods that allow the application to retrieve information concerning a pluggable terminal.
 
 The 
-<a href="https://msdn.microsoft.com/6a661738-06e9-49b8-948a-02c61c621fdd">IEnumPluggableTerminalClassInfo::Next</a> and 
-<a href="https://msdn.microsoft.com/4bbb7f77-fc67-4b6b-88fa-2dc5bcfb6c48">ITTerminalSupport2::get_PluggableTerminalClasses</a> methods create the 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumpluggableterminalclassinfo-next">IEnumPluggableTerminalClassInfo::Next</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport2-get_pluggableterminalclasses">ITTerminalSupport2::get_PluggableTerminalClasses</a> methods create the 
 <b>ITPluggableTerminalClassInfo</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassInfo</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITPluggableTerminalClassInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITPluggableTerminalClassInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITPluggableTerminalClassInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>ITPluggableTerminalClassInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17513c0f-bc3a-474b-a9e0-ea91e2ae7fbf">get_CLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalclassinfo-get_clsid">get_CLSID</a>
 </td>
 <td align="left" width="63%">
 Gets the CLSID used to CoCreateInstance the terminal.
@@ -84,7 +84,7 @@ Gets the CLSID used to CoCreateInstance the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5595b18-264f-437f-8533-b7c87e6e7d00">get_Company</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalclassinfo-get_company">get_Company</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the company that issued this pluggable terminal.
@@ -93,7 +93,7 @@ Gets the name of the company that issued this pluggable terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/843aeedc-08ca-436b-9d43-1e7b9aa1ac8e">get_Direction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalclassinfo-get_direction">get_Direction</a>
 </td>
 <td align="left" width="63%">
 Gets the direction supported by the terminal.
@@ -102,7 +102,7 @@ Gets the direction supported by the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3c17540f-b899-4768-b0a2-2ab11f34636c">get_MediaTypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalclassinfo-get_mediatypes">get_MediaTypes</a>
 </td>
 <td align="left" width="63%">
 Gets the media types supported by the terminal.
@@ -111,7 +111,7 @@ Gets the media types supported by the terminal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97bd38f3-27d8-4618-9138-bd972db9abb9">get_Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalclassinfo-get_name">get_Name</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal's friendly name.
@@ -120,7 +120,7 @@ Gets the terminal's friendly name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7dfa6cf8-23b8-4959-ba39-6efda1d71562">get_TerminalClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalclassinfo-get_terminalclass">get_TerminalClass</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal's terminal class.
@@ -129,7 +129,7 @@ Gets the terminal's terminal class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e87ebf36-dace-4318-8d45-87f7a451284e">get_Version</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itpluggableterminalclassinfo-get_version">get_Version</a>
 </td>
 <td align="left" width="63%">
 Gets the terminal version.

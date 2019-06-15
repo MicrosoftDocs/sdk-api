@@ -61,7 +61,7 @@ The fax service calls the <b>FaxDevEndJob</b> function after the last fax operat
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function. 
+Specifies a fax handle returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a> function. 
 
 
 ## -returns
@@ -72,7 +72,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -81,9 +81,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The FSP should perform necessary cleanup tasks for the fax job when the fax service calls <b>FaxDevEndJob</b>. Cleanup should include deallocation of memory for any job-specific instance data that was allocated in the call to the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function. 
+The FSP should perform necessary cleanup tasks for the fax job when the fax service calls <b>FaxDevEndJob</b>. Cleanup should include deallocation of memory for any job-specific instance data that was allocated in the call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a> function. 
 
-Note that if the fax service calls <b>FaxDevEndJob</b>, it will also call the <b>FaxDevEndJob</b> function, even if an operation has been terminated by the <a href="https://msdn.microsoft.com/en-us/library/ms684537(v=VS.85).aspx">FaxDevAbortOperation</a> function.
+Note that if the fax service calls <b>FaxDevEndJob</b>, it will also call the <b>FaxDevEndJob</b> function, even if an operation has been terminated by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevabortoperation">FaxDevAbortOperation</a> function.
 
 
 
@@ -93,19 +93,19 @@ Note that if the fax service calls <b>FaxDevEndJob</b>, it will also call the <b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684537(v=VS.85).aspx">FaxDevAbortOperation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevabortoperation">FaxDevAbortOperation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
  
 
  

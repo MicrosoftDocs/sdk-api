@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers an implementation of the <a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a> interface. The <b>IInitializeSpy</b> interface is defied to allow developers to perform initialization and cleanup on COM apartments.
+Registers an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface. The <b>IInitializeSpy</b> interface is defied to allow developers to perform initialization and cleanup on COM apartments.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Registers an implementation of the <a href="https://msdn.microsoft.com/9cf1a3fa-
 
 ### -param pSpy [in]
 
-A pointer to an instance of the <a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a> implementation.
+A pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> implementation.
 
 
 ### -param puliCookie [out]
@@ -101,7 +101,7 @@ The object was successfully registered.
 </dl>
 </td>
 <td width="60%">
-The object does not support <a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a>.
+The object does not support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>.
 
 </td>
 </tr>
@@ -115,24 +115,24 @@ The object does not support <a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-47
 
 
 
-The <b>CoRegisterInitializeSpy</b> function registers an implementation of the <a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a> interface, which defines methods to be called when <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> (or <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a>) or <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> is invoked.
+The <b>CoRegisterInitializeSpy</b> function registers an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> interface, which defines methods to be called when <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>) or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> is invoked.
 
 
 
-<b>CoRegisterInitializeSpy</b> calls <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> for IID_InitializeSpy on <i>pSpy</i>. It stores the address of the returned interface pointer in thread-specific storage that is independent of the COM initialization state for this thread. On success, it stores in <i>puliCookie</i> a <a href="https://msdn.microsoft.com/83a10c12-2cd1-449a-af3f-b2138fc50ee0">ULARGE_INTEGER</a> cookie that represents this registration. Pass this cookie to <a href="https://msdn.microsoft.com/24b0bedd-421a-4215-8edc-9fdce53e3b44">CoRevokeInitializeSpy</a> to revoke the registration.
+<b>CoRegisterInitializeSpy</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> for IID_InitializeSpy on <i>pSpy</i>. It stores the address of the returned interface pointer in thread-specific storage that is independent of the COM initialization state for this thread. On success, it stores in <i>puliCookie</i> a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_ularge_integer">ULARGE_INTEGER</a> cookie that represents this registration. Pass this cookie to <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokeinitializespy">CoRevokeInitializeSpy</a> to revoke the registration.
 
 
 
 
-<a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a> implementations must deal with nesting issues caused by calling <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> or <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> from within a notification method. Notifications occur only after the registration happens on this thread. For example, if <b>CoInitializeEx</b> is called before <b>CoRegisterInitializeSpy</b>, then the <a href="https://msdn.microsoft.com/f5b345d1-ab37-401a-9cb4-b01ef7254fc8">PreInitialize</a> and <a href="https://msdn.microsoft.com/bdef4089-93e6-4845-8dcc-1150d7a0d033">PostInitialize</a> notification methods will not be called.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> implementations must deal with nesting issues caused by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> from within a notification method. Notifications occur only after the registration happens on this thread. For example, if <b>CoInitializeEx</b> is called before <b>CoRegisterInitializeSpy</b>, then the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-preinitialize">PreInitialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinitializespy-postinitialize">PostInitialize</a> notification methods will not be called.
 
 
 
-Notification methods must not cause the failure of <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> or <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> by throwing exceptions. Implementations of <a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a> must not propagate exceptions to code that calls <b>CoInitializeEx</b> or <b>CoUninitialize</b>. 
+Notification methods must not cause the failure of <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> by throwing exceptions. Implementations of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> must not propagate exceptions to code that calls <b>CoInitializeEx</b> or <b>CoUninitialize</b>. 
 
 
 
-It is unpredictable whether a call to <b>CoRegisterInitializeSpy</b> from within an <a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a> method call will be effective during the current top-level (non-nested) call to <a href="https://msdn.microsoft.com/ffb79c0f-aeda-4ea1-aea8-afb79109837f">CoInitializeEx</a> or <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a>. A registered implementation of <b>IInitializeSpy</b> will always be effective for future top-level calls to <b>CoInitializeEx</b> or <b>CoUninitialize</b>.
+It is unpredictable whether a call to <b>CoRegisterInitializeSpy</b> from within an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a> method call will be effective during the current top-level (non-nested) call to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a>. A registered implementation of <b>IInitializeSpy</b> will always be effective for future top-level calls to <b>CoInitializeEx</b> or <b>CoUninitialize</b>.
 
 
 
@@ -142,11 +142,11 @@ It is unpredictable whether a call to <b>CoRegisterInitializeSpy</b> from within
 
 
 
-<a href="https://msdn.microsoft.com/24b0bedd-421a-4215-8edc-9fdce53e3b44">CoRevokeInitializeSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokeinitializespy">CoRevokeInitializeSpy</a>
 
 
 
-<a href="https://msdn.microsoft.com/9cf1a3fa-dbc6-4760-a9e9-ef237737acfb">IInitializeSpy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>
  
 
  

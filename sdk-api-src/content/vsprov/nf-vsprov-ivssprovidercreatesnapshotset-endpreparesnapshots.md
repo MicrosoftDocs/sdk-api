@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 The <b>EndPrepareSnapshots</b> 
    method is called once for the complete shadow copy set, after the last 
-   <a href="https://msdn.microsoft.com/4a8bdffa-bb6e-425d-a708-1f31af302da9">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a> 
    call. This method is intended as a point where the provider can wait for any shadow copy preparation 
    work to complete. Because 
    <b>EndPrepareSnapshots</b> may 
    take a long time to complete, a provider should be prepared to accept an 
-   <a href="https://msdn.microsoft.com/393fd5aa-9934-4918-8699-25c41d0dc982">AbortSnapshots</a> method call 
+   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a> method call 
    at any time and immediately end the preparation work.
 
 
@@ -168,15 +168,15 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 
-<a href="https://msdn.microsoft.com/393fd5aa-9934-4918-8699-25c41d0dc982">AbortSnapshots</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-abortsnapshots">AbortSnapshots</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a8bdffa-bb6e-425d-a708-1f31af302da9">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivsshardwaresnapshotprovider-beginpreparesnapshot">IVssHardwareSnapshotProvider::BeginPrepareSnapshot</a>
 
 
 
-<a href="https://msdn.microsoft.com/41a795f0-7882-47a3-9226-aa50218a56e9">IVssProviderCreateSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
  
 
  

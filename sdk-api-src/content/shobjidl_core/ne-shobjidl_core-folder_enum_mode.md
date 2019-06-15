@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/5d331255-2295-4f7b-b2d6-1238edcc15bb">IObjectWithFolderEnumMode::GetMode</a> and <a href="https://msdn.microsoft.com/7e7271ec-47a7-42bf-ab02-26cd587448bd">IObjectWithFolderEnumMode::SetMode</a> methods to get and set the display modes for the folders.
+Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithfolderenummode-getmode">IObjectWithFolderEnumMode::GetMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithfolderenummode-setmode">IObjectWithFolderEnumMode::SetMode</a> methods to get and set the display modes for the folders.
 
 
 ## -enum-fields

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices. The returned buffer can be specified in the render info to specify both a vertex shader and or to pass custom vertices to the standard vertex shader used by <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a>.
+Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices. The returned buffer can be specified in the render info to specify both a vertex shader and or to pass custom vertices to the standard vertex shader used by <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>.
 
 
 
@@ -62,7 +62,7 @@ Creates a vertex buffer or finds a standard vertex buffer and optionally initial
 
 ### -param vertexBufferProperties [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d2f46c31-10f3-4318-8185-40a6bbd8ef8a">D2D1_VERTEX_BUFFER_PROPERTIES</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_vertex_buffer_properties">D2D1_VERTEX_BUFFER_PROPERTIES</a>*</b>
 
 The properties used to describe the vertex buffer and vertex shader.
 
@@ -76,14 +76,14 @@ The unique id that identifies the vertex buffer.
 
 ### -param customVertexBufferProperties [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e3cebb2b-48fb-42b2-8eb4-b9676b581bac">D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_custom_vertex_buffer_properties">D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES</a>*</b>
 
 The properties used to define a custom vertex buffer. If you use a built-in vertex shader, you don't have to specify this property.
 
 
 ### -param buffer [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1DBCDF93-83C6-4B02-9E94-8024D7849DF7">ID2D1VertexBuffer</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1vertexbuffer">ID2D1VertexBuffer</a>**</b>
 
 The returned vertex buffer.
 
@@ -124,7 +124,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
  
 
  

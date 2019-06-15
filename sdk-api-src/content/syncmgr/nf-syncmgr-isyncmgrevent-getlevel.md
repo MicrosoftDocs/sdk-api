@@ -59,9 +59,9 @@ Gets the log level of the event.
 
 ### -param pnLevel [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9a961cd2-c05f-47cf-a50a-40af18eac0cd">SYNCMGR_EVENT_LEVEL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_level">SYNCMGR_EVENT_LEVEL</a>*</b>
 
-When this method returns, contains a pointer to a member of the <a href="https://msdn.microsoft.com/9a961cd2-c05f-47cf-a50a-40af18eac0cd">SYNCMGR_EVENT_LEVEL</a> enumeration that indicates the log level.
+When this method returns, contains a pointer to a member of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_event_level">SYNCMGR_EVENT_LEVEL</a> enumeration that indicates the log level.
 
 
 ## -returns

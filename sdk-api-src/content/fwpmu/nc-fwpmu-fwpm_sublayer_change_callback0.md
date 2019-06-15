@@ -61,12 +61,12 @@ The <b>FWPM_SUBLAYER_CHANGE_CALLBACK0</b> function is used to added custom behav
 
 Type: <b>void*</b>
 
-Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://msdn.microsoft.com/63b672ab-6625-417a-86ff-7b834d7444cc">FwpmSubLayerSubscribeChanges0</a> function.
+Optional context pointer. It contains the value of the <i>context</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayersubscribechanges0">FwpmSubLayerSubscribeChanges0</a> function.
 
 
 ### -param *change [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f01593aa-e7b1-42f1-b523-2f9e6d6b631b">FWPM_SUBLAYER_CHANGE0</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0_">FWPM_SUBLAYER_CHANGE0</a>*</b>
 
 The change notification information.
 
@@ -84,9 +84,9 @@ This callback function does not return a value.
 
 
 
-Call <a href="https://msdn.microsoft.com/63b672ab-6625-417a-86ff-7b834d7444cc">FwpmSubLayerSubscribeChanges0</a> to register this callback function.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayersubscribechanges0">FwpmSubLayerSubscribeChanges0</a> to register this callback function.
 
-<b>FWPM_SUBLAYER_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_SUBLAYER_CHANGE_CALLBACK. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_SUBLAYER_CHANGE_CALLBACK0</b> is a specific implementation of FWPM_SUBLAYER_CHANGE_CALLBACK. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 
@@ -96,11 +96,11 @@ Call <a href="https://msdn.microsoft.com/63b672ab-6625-417a-86ff-7b834d7444cc">F
 
 
 
-<a href="https://msdn.microsoft.com/f01593aa-e7b1-42f1-b523-2f9e6d6b631b">FWPM_SUBLAYER_CHANGE0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_change0_">FWPM_SUBLAYER_CHANGE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/63b672ab-6625-417a-86ff-7b834d7444cc">FwpmSubLayerSubscribeChanges0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmsublayersubscribechanges0">FwpmSubLayerSubscribeChanges0</a>
  
 
  

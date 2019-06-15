@@ -143,11 +143,11 @@ This method is not yet implemented.
 
 
 
-<a href="https://msdn.microsoft.com/bab167cf-2726-4423-87b3-69227404bddc">ITDirectoryObjectConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/2542f3e2-d391-4d96-8aa8-120d639f0468">ITDirectoryObjectConference::put_StopTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_stoptime">ITDirectoryObjectConference::put_StopTime</a>
  
 
  

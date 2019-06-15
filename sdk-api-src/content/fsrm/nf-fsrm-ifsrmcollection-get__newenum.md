@@ -50,8 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> pointer of a new 
-    <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> enumeration for the items in 
+Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of a new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> enumeration for the items in 
     the collection.
 
 This property is read-only.
@@ -65,17 +65,17 @@ This property is read-only.
 
 
 C/C++ users use this method to enumerate items in the collection. Call the 
-    <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> of the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface to get the 
-    <a href="https://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface. Use the 
-    <a href="https://msdn.microsoft.com/691c1624-8d01-41e0-890e-a4782eba1f59">IEnumVARIANT::Next</a> method to enumerate 
+    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> of the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to get the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface. Use the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-ienumvariant-next">IEnumVARIANT::Next</a> method to enumerate 
     the items of the collection. The items are returned as <b>VARIANT</b> values.
 
 If the collection contains interfaces, the  variant type is <b>VT_DISPATCH</b>. Call the 
-    <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method on the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> method on the 
     <b>pdispVal</b> member of the variant to get an interface to the specific object. For example, 
     if the collection contains report objects, you would query the <b>pdispVal</b> member for the 
-    <a href="https://msdn.microsoft.com/2172a543-b3b7-453e-887b-05c8ee74f197">IFsrmReport</a> interface.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a> interface.
 
 If the item is an <b>HRESULT</b> value, the variant type is 
     <b>VT_I4</b>. Use the <b>lVal</b> member of the variant to get the 
@@ -89,7 +89,7 @@ If the item is an <b>HRESULT</b> value, the variant type is
 
 
 
-<a href="https://msdn.microsoft.com/6a0c5d8b-5fed-4c55-971c-43430e3c6a8d">IFsrmCollection</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
  
 
  

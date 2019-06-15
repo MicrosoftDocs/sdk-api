@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TreeView_SetItem</b> macro sets some or all of a tree-view item's attributes. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773758(v=VS.85).aspx">TVM_SETITEM</a> message explicitly. 
+The <b>TreeView_SetItem</b> macro sets some or all of a tree-view item's attributes. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setitem">TVM_SETITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>TreeView_SetItem</b> macro sets some or all of a tree-view item's attribu
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -68,14 +68,14 @@ Handle to the tree-view control.
 
 Type: <b>LPTVITEM</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> structure that contains the new item attributes. With <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">version 4.71</a> and later, you can instead use a <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> structure that contains the new item attributes. With <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">version 4.71</a> and later, you can instead use a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure. 
 
 
 ## -remarks
 
 
 
-The <b>hItem</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773456(v=VS.85).aspx">TVITEM</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure identifies the item, and the <b>mask</b> member specifies which attributes to set.
+The <b>hItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitema">TVITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tagtvitemexa">TVITEMEX</a> structure identifies the item, and the <b>mask</b> member specifies which attributes to set.
 
 
 
@@ -85,7 +85,7 @@ The <b>hItem</b> member of the <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773841(v=VS.85).aspx">TreeView_GetItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getitem">TreeView_GetItem</a>
  
 
  

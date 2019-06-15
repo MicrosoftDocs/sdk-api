@@ -83,20 +83,20 @@ This method can return one of these values.
 The <b>IConsole2::Expand</b> method is the programmatic equivalent of the user clicking on the plus or minus sign to expand or collapse an item in the scope pane. That is, this method causes a visible expansion or collapse of an item in the scope pane. Be aware that this method does not change the selection in the scope pane and does not affect the result pane.
 
 When this method is called, MMC expands or collapses the item specified by <i>hItem</i> based on the value set for <i>bExpand</i>. MMC then sends an expand notification to the snap-in of each child item. MMC does so by calling each child snap-in's 
-<a href="https://msdn.microsoft.com/8679396e-23d0-4418-987a-c72b1508e7b9">IComponentData::Notify</a> method with event set to <a href="https://msdn.microsoft.com/de89a195-082b-4d5f-bd8c-1c75215ab60f">MMCN_EXPAND</a>, <i>lpDataObject</i> set as a pointer to the data object for <i>hItem</i>, arg set as <b>TRUE</b> or <b>FALSE</b> based on <i>bExpand</i>, and <i>param</i> set as <i>hItem</i>. Be aware that <i>hItem</i> is the <b>HSCOPEITEM</b> handle that you specified in your call to <b>IConsole2::Expand</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a> method with event set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a>, <i>lpDataObject</i> set as a pointer to the data object for <i>hItem</i>, arg set as <b>TRUE</b> or <b>FALSE</b> based on <i>bExpand</i>, and <i>param</i> set as <i>hItem</i>. Be aware that <i>hItem</i> is the <b>HSCOPEITEM</b> handle that you specified in your call to <b>IConsole2::Expand</b>.
 
 The <b>IConsole2::Expand</b> method applies only to a particular view. This means that it applies only to the instance of the snap-in's 
-<a href="https://msdn.microsoft.com/65eaa5ef-182b-4fec-bb3d-a308ac9dc660">IComponent</a> object that corresponds to the snap-in item that appears in a specific multiple-document interface (MDI) window within the console. Be aware that each MDI window within the console represents a different view and that an instance of a snap-in within an MDI window corresponds to an 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> object that corresponds to the snap-in item that appears in a specific multiple-document interface (MDI) window within the console. Be aware that each MDI window within the console represents a different view and that an instance of a snap-in within an MDI window corresponds to an 
 <b>IComponent</b> object for that snap-in.
 
 Therefore, the snap-in should only call this method on the 
 <b>IConsole2</b> interface pointer associated with an 
 <b>IComponent</b> object, that is, an 
-<b>IConsole2</b> interface pointer retrieved by calling <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on the <b>IConsole</b> interface pointer returned by 
-<a href="https://msdn.microsoft.com/2a8b8f79-05c0-49e8-8210-7c1002ee5978">IComponent::Initialize</a>.
+<b>IConsole2</b> interface pointer retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> on the <b>IConsole</b> interface pointer returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-initialize">IComponent::Initialize</a>.
 
 To enumerate the child items of an item in the namespace without visibly expanding the item, the snap-in should use the 
-<a href="https://msdn.microsoft.com/3672babb-b172-4f25-8d95-61f3aacce2f0">IConsoleNameSpace2::Expand</a> method.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace2-expand">IConsoleNameSpace2::Expand</a> method.
 
 
 
@@ -106,11 +106,11 @@ To enumerate the child items of an item in the namespace without visibly expandi
 
 
 
-<a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
 
 
-<a href="https://msdn.microsoft.com/3672babb-b172-4f25-8d95-61f3aacce2f0">IConsoleNameSpace2::Expand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace2-expand">IConsoleNameSpace2::Expand</a>
  
 
  

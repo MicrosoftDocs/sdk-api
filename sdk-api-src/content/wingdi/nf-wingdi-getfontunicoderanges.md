@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetFontUnicodeRanges</b> function returns information about which Unicode characters are supported by a font. The information is returned as a <a href="https://msdn.microsoft.com/b8ac8d3f-b062-491c-966f-02f3d4c11419">GLYPHSET</a> structure.
+The <b>GetFontUnicodeRanges</b> function returns information about which Unicode characters are supported by a font. The information is returned as a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagglyphset">GLYPHSET</a> structure.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ A handle to the device context.
 
 ### -param lpgs [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/b8ac8d3f-b062-491c-966f-02f3d4c11419">GLYPHSET</a> structure that receives the glyph set information. If this parameter is <b>NULL</b>, the function returns the size of the <b>GLYPHSET</b> structure required to store the information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagglyphset">GLYPHSET</a> structure that receives the glyph set information. If this parameter is <b>NULL</b>, the function returns the size of the <b>GLYPHSET</b> structure required to store the information.
 
 
 ## -returns
@@ -86,15 +86,15 @@ If the function fails, it returns zero. No extended error information is availab
 
 
 
-<a href="https://msdn.microsoft.com/69c04ed7-52da-4cb6-9fd2-f2a8c044df8b">Font and Text Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8ac8d3f-b062-491c-966f-02f3d4c11419">GLYPHSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagglyphset">GLYPHSET</a>
  
 
  

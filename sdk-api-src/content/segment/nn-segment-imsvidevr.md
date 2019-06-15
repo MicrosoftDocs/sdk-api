@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMSVidEVR</b> interface represents the <a href="https://msdn.microsoft.com/ead99cb3-2be2-42c6-ac22-be0c2ddf28d5">Enhanced Video Renderer</a> (EVR) filter within the Video Control filter graph.
+The <b>IMSVidEVR</b> interface represents the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enhanced-video-renderer-filter">Enhanced Video Renderer</a> (EVR) filter within the Video Control filter graph.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEVR</b> interface inherits from <a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidEVR</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>. <b>IMSVidEVR</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidEVR</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694539(v=VS.85).aspx">get_Presenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-get_presenter">get_Presenter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presenter object for the EVR filter.
@@ -81,7 +81,7 @@ Retrieves the presenter object for the EVR filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694540(v=VS.85).aspx">get_SuppressEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-get_suppresseffects">get_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Queries whether the Video Control configures the system for optimal video playback.
@@ -90,7 +90,7 @@ Queries whether the Video Control configures the system for optimal video playba
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694541(v=VS.85).aspx">put_Presenter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-put_presenter">put_Presenter</a>
 </td>
 <td align="left" width="63%">
 Sets the presenter object for the EVR filter.
@@ -99,7 +99,7 @@ Sets the presenter object for the EVR filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694542(v=VS.85).aspx">put_SuppressEffects</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidevr-put_suppresseffects">put_SuppressEffects</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the Video Control configures the system for optimal video playback.
@@ -123,11 +123,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

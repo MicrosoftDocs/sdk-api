@@ -53,7 +53,7 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IBDAComparable</b> interface compares two objects to determine whether they contain the same or equivalent tuning information. DirectShow supports this interface in its implementation of the <a href="https://msdn.microsoft.com/516b30ba-4f55-49b7-8085-d436bf4a94e1">IComponent</a>, <a href="https://msdn.microsoft.com/e83bbbbe-64a9-4ed3-9c32-925ca80c2c38">IComponentType</a>, <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a>, <a href="https://msdn.microsoft.com/1d6c18f0-e7f1-4a1c-9edb-e4b66297becf">ILocator</a>, and <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> base interfaces and in the derived interfaces that inherit from these base interfaces. An application can query a component, component-type, tune-request, locator, or tuning-space object for an <b>IBDAComparable</b> interface that it can use to compare the tuning properties of the object to those of another object of the same type.
+The <b>IBDAComparable</b> interface compares two objects to determine whether they contain the same or equivalent tuning information. DirectShow supports this interface in its implementation of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> base interfaces and in the derived interfaces that inherit from these base interfaces. An application can query a component, component-type, tune-request, locator, or tuning-space object for an <b>IBDAComparable</b> interface that it can use to compare the tuning properties of the object to those of another object of the same type.
 
 To support comparisons of the tuning properties of similar objects, two of the methods in this interface compare the property values directly. The remaining methods generate 64-bit CRC values from the property values for each object that the caller can compare to determine whether the objects have the same or equivalent properties.
 
@@ -62,7 +62,7 @@ To support comparisons of the tuning properties of similar objects, two of the m
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDAComparable</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDAComparable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDAComparable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDAComparable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IBDAComparable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/132c326e-053c-41be-b0fd-bea484fb0acd">CompareEquivalent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-compareequivalent">CompareEquivalent</a>
 </td>
 <td align="left" width="63%">
 Compares two objects to determine whether they contain equivalent tuning information.
@@ -86,7 +86,7 @@ Compares two objects to determine whether they contain equivalent tuning informa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/65053d86-4c8c-4c68-90a6-118454cf2eb1">CompareExact</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-compareexact">CompareExact</a>
 </td>
 <td align="left" width="63%">
 Compares two objects to determine whether they contain the same tuning information.
@@ -95,7 +95,7 @@ Compares two objects to determine whether they contain the same tuning informati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/31f52445-a4f5-40f5-ad55-30f3b43b1528">HashEquivalent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-hashequivalent">HashEquivalent</a>
 </td>
 <td align="left" width="63%">
 Generates a hash code for a subset of the tuning properties of an object.
@@ -104,7 +104,7 @@ Generates a hash code for a subset of the tuning properties of an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e5fcaf0-f160-4cff-9e9d-44766e0545c9">HashEquivalentIncremental</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-hashequivalentincremental">HashEquivalentIncremental</a>
 </td>
 <td align="left" width="63%">
 Incrementally generates a hash code for a subset of the tuning properties of an object.
@@ -113,7 +113,7 @@ Incrementally generates a hash code for a subset of the tuning properties of an 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41495662-835b-47bc-a8d6-b0b689ec4d51">HashExact</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-hashexact">HashExact</a>
 </td>
 <td align="left" width="63%">
 Generates a hash code for all of the tuning properties of an object.
@@ -122,7 +122,7 @@ Generates a hash code for all of the tuning properties of an object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ddf2545-83a6-4b5d-94ba-7034aed61f08">HashExactIncremental</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-hashexactincremental">HashExactIncremental</a>
 </td>
 <td align="left" width="63%">
 Incrementally generates a hash code for all of the tuning properties of an object.
@@ -146,7 +146,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

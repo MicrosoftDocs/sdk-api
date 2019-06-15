@@ -65,8 +65,8 @@ Enables features for a specified heap.
 ### -param HeapHandle [in, optional]
 
 A handle to the heap where information is to be set. This handle is returned by either the 
-      <a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a> or 
-      <a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 
 ### -param HeapInformationClass [in]
@@ -87,7 +87,7 @@ The class of information to be set. This parameter can be one of the following v
 </td>
 <td width="60%">
 Enables heap features. Only the 
-        <a href="https://msdn.microsoft.com/d10abf82-423c-4942-b05e-55de3a5c4219">low-fragmentation heap</a> (LFH) is supported. 
+        <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) is supported. 
         However, it is not necessary for applications to enable the LFH because the system uses the LFH as needed to 
         service memory allocation requests.
         
@@ -136,7 +136,7 @@ After a process enables this feature, it cannot be disabled.
 </dl>
 </td>
 <td width="60%">
-If HeapSetInformation is called with <i>HeapHandle</i> set to NULL, then all heaps in the process with a <a href="https://msdn.microsoft.com/d10abf82-423c-4942-b05e-55de3a5c4219">low-fragmentation heap</a> (LFH) will have their caches optimized,  and the memory will be decommitted if possible.  
+If HeapSetInformation is called with <i>HeapHandle</i> set to NULL, then all heaps in the process with a <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) will have their caches optimized,  and the memory will be decommitted if possible.  
 
 If a heap pointer is supplied in <i>HeapHandle</i>, then only that heap will be optimized.
 
@@ -177,7 +177,7 @@ The size of the <i>HeapInformation</i> buffer, in bytes.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -187,7 +187,7 @@ If the function fails, the return value is 0 (zero). To get extended error infor
 
 
 To retrieve the current settings for the heap, use the 
-    <a href="https://msdn.microsoft.com/6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f">HeapQueryInformation</a> function.
+    <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> function.
 
 Setting the <b>HeapEnableTerminateOnCorruption</b> option is strongly recommended because 
     it reduces an application's exposure to security exploits that take advantage of a corrupted heap.
@@ -275,23 +275,23 @@ int __cdecl _tmain()
 
 
 
-<a href="https://msdn.microsoft.com/ecd716b2-df48-4914-9de4-47d8ad8ff9a2">GetProcessHeap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb683fa-4f46-48b5-9a28-f4625a9cb8cd">Heap Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b">HeapCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f">HeapQueryInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
  
 
  

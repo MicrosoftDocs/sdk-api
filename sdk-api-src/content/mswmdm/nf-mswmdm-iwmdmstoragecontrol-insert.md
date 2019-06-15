@@ -150,17 +150,17 @@ Pointer to a wide-character <b>null</b>-terminated string indicating where to fi
 
 ### -param pOperation [in]
 
-Optional pointer to an <a href="https://msdn.microsoft.com/7277a8fe-3006-4456-b2e7-6041d3324f35">IWMDMOperation</a> interface, to control the transfer of content to a media device. If specified, <i>fuMode</i> must include the WMDM_CONTENT_OPERATIONINTERFACE flag. This parameter must be <b>NULL</b> if WMDM_CONTENT_FILE or WMDM_CONTENT_FOLDER is specified in <i>fuMode</i>.
+Optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> interface, to control the transfer of content to a media device. If specified, <i>fuMode</i> must include the WMDM_CONTENT_OPERATIONINTERFACE flag. This parameter must be <b>NULL</b> if WMDM_CONTENT_FILE or WMDM_CONTENT_FOLDER is specified in <i>fuMode</i>.
 
 
 ### -param pProgress [in]
 
-Optional pointer to an <a href="https://msdn.microsoft.com/9af022a6-19b4-41b7-b951-0acad6aab4a2">IWMDMProgress</a> interface to be used by Windows Media Device Manager to report progress back to the application. If this is used, <i>fuMode</i> should include WMDM_MODE_PROGRESS.
+Optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a> interface to be used by Windows Media Device Manager to report progress back to the application. If this is used, <i>fuMode</i> should include WMDM_MODE_PROGRESS.
 
 
 ### -param ppNewObject [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/1ede7c68-0169-4375-9b45-b0995ad14e44">IWMDMStorage</a> interface that will contain the new content. The caller must release this interface when finished with it.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface that will contain the new content. The caller must release this interface when finished with it.
 
 
 ## -returns
@@ -174,7 +174,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 
 
@@ -183,11 +183,11 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 
 
-If the device supports <a href="https://msdn.microsoft.com/044a6571-8ec0-48af-b105-07c60c25d68a">IWMDMStorageControl3::Insert3</a>, that is the preferred method to use.
+If the device supports <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">IWMDMStorageControl3::Insert3</a>, that is the preferred method to use.
 
 The name and extension of the object saved on the device will be the same as the name and extension of the source file (if <i>pOperation</i> is <b>NULL</b>).
 
-If the WMDM_MODE_THREAD flag is specified, you should obtain completion status by calling either <a href="https://msdn.microsoft.com/85265eb7-0702-4890-b6cb-b247296fe392">IWMDMProgress2::End2</a> or <a href="https://msdn.microsoft.com/fb09cfa8-1a96-412f-a97a-6cc1638b0c77">IWMDMProgress3::End3</a>. These methods will ensure that the operation is complete and will also return an HRESULT with success or failure information.
+If the WMDM_MODE_THREAD flag is specified, you should obtain completion status by calling either <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress2-end2">IWMDMProgress2::End2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a>. These methods will ensure that the operation is complete and will also return an HRESULT with success or failure information.
 
 The <b>Insert</b> method does not guarantee that the device supports ordered file insertion, but it provides the flags WMDM_STORAGECONTROL_INSERTBEFORE and WMDM_STORAGECONTROL_INSERTAFTER in case it does. If the file system does not support ordering (for instance, FAT32), WMDM_STORAGECONTROL_INSERTBEFORE and WMDM_STORAGECONTROL_INSERTAFTER will simply insert the new storage object at the same level as the current object in the file system hierarchy.
 
@@ -201,23 +201,23 @@ If an application uses WMDM_MODE_THREAD and passes a non-<b>null</b><i>pProgress
 
 
 
-<a href="https://msdn.microsoft.com/b56edc7a-0764-449a-95b4-da759e99fadd">IWMDMStorageControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc6cc03c-e13a-45d8-afcb-1fadd5f4dd8e">IWMDMStorageControl2::Insert2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2">IWMDMStorageControl2::Insert2</a>
 
 
 
-<a href="https://msdn.microsoft.com/044a6571-8ec0-48af-b105-07c60c25d68a">IWMDMStorageControl3::Insert3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">IWMDMStorageControl3::Insert3</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b102666-b54b-4b60-b2e9-68def384268e">IWMDMStorageControl::Read</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read">IWMDMStorageControl::Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/66eaed16-032b-4ac0-a768-aded80f10255">Writing Files to the Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/writing-files-to-the-device">Writing Files to the Device</a>
  
 
  

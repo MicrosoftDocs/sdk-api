@@ -69,7 +69,7 @@ The original format string.
 
 ### -param pbTokCur [in]
 
-The tokenized format string from <a href="https://msdn.microsoft.com/7cec1bc5-39ea-4b47-880b-62584ff23536">VarTokenizeFormatString</a>.
+The tokenized format string from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a>.
 
 
 ### -param dwFlags [in]

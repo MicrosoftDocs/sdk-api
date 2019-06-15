@@ -69,7 +69,7 @@ This property is read-only.
 
 Line numbers begin with 1.
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">Recognizer</a> object automatically determines the metrics for how lines are spaced.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">Recognizer</a> object automatically determines the metrics for how lines are spaced.</div>
 <div> </div>
 
 
@@ -79,11 +79,11 @@ Line numbers begin with 1.
 
 
 
-<a href="https://msdn.microsoft.com/219e96ee-6492-4f76-9928-f2e8dc28493d">IInkRecognitionAlternate Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/97f982b6-f330-4053-91a9-2a4edc13b4b0">IInkRecognizer Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
  
 
  

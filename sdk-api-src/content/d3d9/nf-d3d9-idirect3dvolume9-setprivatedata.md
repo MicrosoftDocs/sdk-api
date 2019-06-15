@@ -74,14 +74,14 @@ Pointer to a buffer that contains the data to associate with the volume.
 
 ### -param SizeOfData [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Size of the buffer at pData in bytes. 
 
 
 ### -param Flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Value that describes the type of data being passed, or indicates to the application that the data should be invalidated when the resource changes. 
 
@@ -108,7 +108,7 @@ If no flags are specified, Direct3D allocates memory to hold the data within the
 
 </td>
 <td width="60%">
-The data at pData is a pointer to an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. SizeOfData must be set to the size of a pointer to an <b>IUnknown</b> interface, sizeof(IUnknown*). Direct3D automatically calls <b>IUnknown</b> through pData and IUnknown when the private data is destroyed. Private data will be destroyed by a subsequent call to <b>IDirect3DVolume9::SetPrivateData</b> with the same GUID, a subsequent call to <a href="https://msdn.microsoft.com/en-us/library/Bb205933(v=VS.85).aspx">IDirect3DVolume9::FreePrivateData</a>, or when the <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> object is released. For more information, see Remarks.
+The data at pData is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. SizeOfData must be set to the size of a pointer to an <b>IUnknown</b> interface, sizeof(IUnknown*). Direct3D automatically calls <b>IUnknown</b> through pData and IUnknown when the private data is destroyed. Private data will be destroyed by a subsequent call to <b>IDirect3DVolume9::SetPrivateData</b> with the same GUID, a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-freeprivatedata">IDirect3DVolume9::FreePrivateData</a>, or when the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> object is released. For more information, see Remarks.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The data at pData is a pointer to an <a href="https://msdn.microsoft.com/33f1d79
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, E_OUTOFMEMORY.
 
@@ -143,15 +143,15 @@ Data is passed by value, and multiple sets of data can be associated with a sing
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205932(v=VS.85).aspx">IDirect3DVolume9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205933(v=VS.85).aspx">IDirect3DVolume9::FreePrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-freeprivatedata">IDirect3DVolume9::FreePrivateData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205937(v=VS.85).aspx">IDirect3DVolume9::GetPrivateData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-getprivatedata">IDirect3DVolume9::GetPrivateData</a>
  
 
  

@@ -76,7 +76,7 @@ The storage module is allowed to store classification properties.
 
 The storage module is allowed to handle folders. Only secure properties 
        (<b>FsrmPropertyDefinitionFlags_Secure</b> flags set on the 
-       <a href="https://msdn.microsoft.com/35eb6597-b358-4084-99dc-931bad8a4425">PropertyDefinitionFlags</a> 
+       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition2-get_propertydefinitionflags">PropertyDefinitionFlags</a> 
        property) can be stored unless <b>FsrmStorageModuleCaps_CanHandleFiles</b> is also 
        specified.
 
@@ -95,7 +95,7 @@ The storage module is allowed to handle files.
 
 
 
-<a href="https://msdn.microsoft.com/94e8a6fa-11f7-4ba4-a02b-c62c5f017b8a">IFsrmStorageModuleDefinition.Capabilities</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_capabilities">IFsrmStorageModuleDefinition.Capabilities</a>
  
 
  

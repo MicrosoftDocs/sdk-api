@@ -70,27 +70,27 @@ CMYK color value from which the yellow color value will be retrieved.
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee28d4e3-314f-429d-841b-da432ff6dc78">CMYK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-cmyk">CMYK</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b1b1eca-61b2-4011-85ea-6311ac78cab6">GetCValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcvalue">GetCValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/8015689c-920c-4896-a34f-cda4f9b187e1">GetKValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getkvalue">GetKValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/d24816de-a3c7-4d9f-b6a0-652330cd3ccd">GetMValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getmvalue">GetMValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5d107fb-e010-400b-9ec5-90c2c0381dbe">Macros for CMYK Values and Colors</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/macros-for-cmyk-values-and-colors">Macros for CMYK Values and Colors</a>
  
 
  

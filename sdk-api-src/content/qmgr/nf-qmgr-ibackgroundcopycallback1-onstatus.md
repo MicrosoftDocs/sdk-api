@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IBackgroundCopyCallback1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/72668c9b-e6f3-4f3f-9d4b-50d930d1889d">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyCallback1</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Implement the <b>OnStatus</b> method to receive notification when the group is complete or an error occurs.
 
@@ -71,7 +71,7 @@ Interface pointer to the job associated with the event or <b>NULL</b> if the eve
 
 ### -param dwFileIndex [in]
 
-Index to the file associated with the error or -1. To retrieve the file, call the <a href="https://msdn.microsoft.com/6cd680cc-abe0-44e1-a650-079295a8dd4a">IBackgroundCopyJob1::GetFile</a> method. 
+Index to the file associated with the error or -1. To retrieve the file, call the <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopyjob1-getfile">IBackgroundCopyJob1::GetFile</a> method. 
 
 
 ### -param dwStatus [in]
@@ -108,7 +108,7 @@ This method should return <b>S_OK</b>; otherwise, the service continues to call 
 
 
 
-<a href="https://msdn.microsoft.com/d5d22cf6-d9b5-4001-a0ac-f67d59dde779">IBackgroundCopyCallback1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopycallback1">IBackgroundCopyCallback1</a>
  
 
  

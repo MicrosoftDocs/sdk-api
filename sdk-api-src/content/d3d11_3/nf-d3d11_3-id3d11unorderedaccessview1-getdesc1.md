@@ -60,9 +60,9 @@ Gets a description of the resource.
 
 ### -param pDesc1 [out]
 
-Type: <b><a href="https://msdn.microsoft.com/833B4B8A-5702-4C17-AFD2-DFDF69354DDD">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_unordered_access_view_desc1">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/833B4B8A-5702-4C17-AFD2-DFDF69354DDD">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a> structure that receives the description of the unordered-access resource.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_unordered_access_view_desc1">D3D11_UNORDERED_ACCESS_VIEW_DESC1</a> structure that receives the description of the unordered-access resource.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/0D4F7634-0AB1-41C2-8D4F-8C42C1D973D2">ID3D11UnorderedAccessView1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11unorderedaccessview1">ID3D11UnorderedAccessView1</a>
  
 
  

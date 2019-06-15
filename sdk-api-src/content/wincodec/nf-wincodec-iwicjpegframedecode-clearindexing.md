@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes the indexing from a JPEG that has been indexed using <a href="https://msdn.microsoft.com/D97A48E5-0398-460C-AFA9-2E1B8744926B">IWICJpegFrameDecode::SetIndexing</a>.
+Removes the indexing from a JPEG that has been indexed using <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Removes the indexing from a JPEG that has been indexed using <a href="https://ms
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 Returns S_OK upons successful completion.
 
@@ -75,11 +75,11 @@ Returns S_OK upons successful completion.
 
 
 
-<a href="https://msdn.microsoft.com/E6310320-53A8-40F1-8964-D21D8054E1B8">IWICJpegFrameDecode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
 
 
 
-<a href="https://msdn.microsoft.com/D97A48E5-0398-460C-AFA9-2E1B8744926B">IWICJpegFrameDecode::SetIndexing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>
  
 
  

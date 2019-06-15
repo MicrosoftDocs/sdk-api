@@ -94,7 +94,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 
-Any memory returned from the <a href="https://msdn.microsoft.com/284c16ea-1a9f-4f13-b359-214178650add">Map</a> call is now invalid and may be reclaimed by the operating system or used for other purposes. 
+Any memory returned from the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-map">Map</a> call is now invalid and may be reclaimed by the operating system or used for other purposes. 
 
 The bitmap must have been previously mapped.
 
@@ -106,15 +106,15 @@ The bitmap must have been previously mapped.
 
 
 
-<a href="https://msdn.microsoft.com/c080e23e-99c4-46ed-8b21-be26dec288af">D2D1_BITMAP_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_bitmap_options">D2D1_BITMAP_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cd81f1a-c39b-4975-a801-aa9444dde172">D2D1_MAPPED_RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_mapped_rect">D2D1_MAPPED_RECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/669a9377-248c-4a86-b447-ed117fff43a6">ID2D1Bitmap1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
  
 
  

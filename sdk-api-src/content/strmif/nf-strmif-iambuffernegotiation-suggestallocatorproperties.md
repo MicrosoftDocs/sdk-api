@@ -63,7 +63,7 @@ The <code>SuggestAllocatorProperties</code> method informs the pin of the applic
 
 ### -param pprop [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/813e4693-b549-4045-aff5-08f2dd754b6e">ALLOCATOR_PROPERTIES</a> structure that contains the requested properties. A negative value for any member indicates that the pin should use its default setting for that property.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_allocatorproperties">ALLOCATOR_PROPERTIES</a> structure that contains the requested properties. A negative value for any member indicates that the pin should use its default setting for that property.
 
 
 ## -returns
@@ -131,7 +131,7 @@ Pin is already connected.
 
 
 
-If both pins in the connection expose the <a href="https://msdn.microsoft.com/68e98afd-3275-49bb-b165-48ed40026e76">IAMBufferNegotiation</a> interface, call this method on each pin, to ensure that one pin does not override the other.
+If both pins in the connection expose the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iambuffernegotiation">IAMBufferNegotiation</a> interface, call this method on each pin, to ensure that one pin does not override the other.
 
 To request a particular number of buffers, set the <b>cBuffers</b> member of the <b>ALLOCATOR_PROPERTIES</b> structure. To request a particular buffer size, set the <b>cbBuffer</b> member. An application typically should not specify the alignment or prefix. If the number of buffers or size of each buffer is too small, the filter graph might drop samples.
 
@@ -163,11 +163,11 @@ pIAMBufferNegotiation-&gt;SuggestAllocatorProperties(&amp;AllocProp);
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/68e98afd-3275-49bb-b165-48ed40026e76">IAMBufferNegotiation Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iambuffernegotiation">IAMBufferNegotiation Interface</a>
  
 
  

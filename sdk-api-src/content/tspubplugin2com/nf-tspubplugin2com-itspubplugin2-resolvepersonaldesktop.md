@@ -69,12 +69,12 @@ A null-terminated string that contains the identifier of the collection to obtai
 
 ### -param ePdResolutionType [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Hh437046(v=VS.85).aspx">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_resolution_type">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
 
 
 ### -param pPdAssignmentType [out]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Hh437045(v=VS.85).aspx">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/ne-tspubplugin2com-_tspub_plugin_pd_assignment_type">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
 
 
 ### -param endPointName [out]
@@ -107,7 +107,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1ef27b3a-b897-4757-803d-d3a18959895c">ItsPubPlugin2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nn-tspubplugin2com-itspubplugin2">ItsPubPlugin2</a>
  
 
  

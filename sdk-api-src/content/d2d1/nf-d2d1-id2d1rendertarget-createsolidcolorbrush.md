@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<span>Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that can be used to paint areas with a solid color.
+<span>Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that can be used to paint areas with a solid color.
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -57,28 +57,28 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67974629-5c34-4c94-acad-586849cdb880">CreateSolidColorBrush(D2D1_COLOR_F&,ID2D1SolidColorBrush**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__id2d1solidcolorbrush)">CreateSolidColorBrush(D2D1_COLOR_F&,ID2D1SolidColorBrush**)</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that has the specified color and a base opacity of 1.0f. 
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that has the specified color and a base opacity of 1.0f. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6597602-92b2-491c-b9f3-5a44a6980b80">CreateSolidColorBrush(D2D1_COLOR_F&,D2D1_BRUSH_PROPERTIES&,ID2D1SolidColorBrush**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)">CreateSolidColorBrush(D2D1_COLOR_F&,D2D1_BRUSH_PROPERTIES&,ID2D1SolidColorBrush**)</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that has the specified color and opacity.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that has the specified color and opacity.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d426ce37-da88-4ab5-b54a-48150d0c4657">CreateSolidColorBrush(D2D1_COLOR_F*,D2D1_BRUSH_PROPERTIES*,ID2D1SolidColorBrush**)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)">CreateSolidColorBrush(D2D1_COLOR_F*,D2D1_BRUSH_PROPERTIES*,ID2D1SolidColorBrush**)</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a50a3e92">ID2D1SolidColorBrush</a> that has the specified color and opacity.
+Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that has the specified color and opacity.
 
 </td>
 </tr>
@@ -92,15 +92,15 @@ Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a5
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/19d9ad76-b1e3-449f-8582-e00287b05874">Direct2D QuickStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/getting-started-with-direct2d">Direct2D QuickStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

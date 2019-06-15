@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/458E2334-F383-41DE-9479-601AC3007BF3">Histogram effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/histogram">Histogram effect</a>.
         
 
 
@@ -73,7 +73,7 @@ The default is 256.
 Specifies the channel used to generate the histogram. This effect has a single data output corresponding to the specified channel.
           
 
-The type is <a href="https://msdn.microsoft.com/92BC07F7-4CB5-487E-9AFB-255C8EF1C6BA">D2D1_CHANNEL_SELECTOR</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_channel_selector">D2D1_CHANNEL_SELECTOR</a>.
 
 The default is D2D1_CHANNEL_SELECTOR_R.
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>BeginMonitor</b> method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call 
-<a href="https://msdn.microsoft.com/83b9486b-78b6-473c-9a9a-33f470a4d70f">ILayoutStorage::EndMonitor</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-endmonitor">ILayoutStorage::EndMonitor</a>.
 
 
 ## -parameters
@@ -75,15 +75,15 @@ This method supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_I
 
 Normally an application calls 
 <b>BeginMonitor</b> before the actual loading begins. Once this method has been called, the compound file implementation regards any operation performed on the files storages and streams as part of the desired access pattern. The result is a layout script like that created explicitly by calling 
-<a href="https://msdn.microsoft.com/22ae3485-15d9-47e4-988e-fb760e67595b">ILayoutStorage::LayoutScript</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">ILayoutStorage::LayoutScript</a>.
 
 Applications will usually use monitoring to obtain the access pattern of embedded objects. Monitoring also makes possible generic layout tools,  that launch existing applications and monitor their access patterns.
 
 A call to 
-<a href="https://msdn.microsoft.com/83b9486b-78b6-473c-9a9a-33f470a4d70f">ILayoutStorage::EndMonitor</a> ends monitoring. Multiple calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-endmonitor">ILayoutStorage::EndMonitor</a> ends monitoring. Multiple calls to 
 <b>BeginMonitor</b> and
 <b>EndMonitor</b> are permitted. Monitoring can also be mixed with calls to 
-<a href="https://msdn.microsoft.com/22ae3485-15d9-47e4-988e-fb760e67595b">ILayoutStorage::LayoutScript</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">ILayoutStorage::LayoutScript</a>.
 
 
 
@@ -93,11 +93,11 @@ A call to
 
 
 
-<a href="https://msdn.microsoft.com/83b9486b-78b6-473c-9a9a-33f470a4d70f">ILayoutStorage::EndMonitor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-endmonitor">ILayoutStorage::EndMonitor</a>
 
 
 
-<a href="https://msdn.microsoft.com/22ae3485-15d9-47e4-988e-fb760e67595b">ILayoutStorage::LayoutScript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">ILayoutStorage::LayoutScript</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the metadata associated with the <a href="http://msdn.microsoft.com/en-us/library/system.security.permissionset.aspx">System.Security.PermissionSet</a> represented by the specified Permission token.
+Gets the metadata associated with the <a href="https://docs.microsoft.com/dotnet/api/system.security.permissionset?redirectedfrom=MSDN">System.Security.PermissionSet</a> represented by the specified Permission token.
 
 
 ## -parameters
@@ -91,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/5457d9d3-9a43-4e89-a52f-1254662ed92a">IMetaDataImport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
  
 
  

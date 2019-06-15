@@ -84,7 +84,7 @@ On successful return, this parameter contains a non-NULL handle representing a n
 
 
 
-<a href="https://msdn.microsoft.com/20C46E2A-E79F-47B9-9D7A-74CD3AF03EF7">FhServiceClosePipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceclosepipe">FhServiceClosePipe</a>
  
 
  

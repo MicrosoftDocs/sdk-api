@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Adds the specified application-defined header to the <a href="https://msdn.microsoft.com/edc810d9-7d78-4b79-8cbb-e87401f6ae41">message</a>.
+Adds the specified application-defined header to the <a href="https://docs.microsoft.com/windows/desktop/wsw/message">message</a>.
             
 
 
@@ -66,26 +66,26 @@ Adds the specified application-defined header to the <a href="https://msdn.micro
 The message to which to add the header.
                 
 
-The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> enumeration..
+The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE</a> enumeration..
                 
 
 
 ### -param headerDescription [in]
 
-The <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS_ELEMENT_DESCRIPTION</a> structure that describes the header.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_element_description">WS_ELEMENT_DESCRIPTION</a> structure that describes the header.
                 
 
 
 ### -param writeOption [in]
 
 Whether the header element is required, and how the value is allocated.
-                    For more information, see the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
+                    For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> enumeration.
                 
 
 
 ### -param value [in, ref]
 
-The header value to serialize.  For more information, see  the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
+The header value to serialize.  For more information, see  the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> enumeration.
                 
                 
 
@@ -104,7 +104,7 @@ The values of the SOAP attributes for the header.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
 
 
@@ -179,7 +179,7 @@ The <b>WsAddCustomHeader</b> function is designed handle types of headers that a
                 the final receiver.  Headers targeted at another receiver are ignored.
             
 
-If you are replacing a header, call the <a href="https://msdn.microsoft.com/def38214-2de9-4a26-93cb-e2f34d8dd6ef">WsRemoveCustomHeader</a> function to remove 
+If you are replacing a header, call the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsremovecustomheader">WsRemoveCustomHeader</a> function to remove 
                 the existing instances of the header before calling <b>WsAddCustomHeader</b>.
             
 

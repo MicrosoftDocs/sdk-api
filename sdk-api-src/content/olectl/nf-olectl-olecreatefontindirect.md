@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates and initializes a standard font object using an initial description of the font's properties in a <a href="https://msdn.microsoft.com/c677b0ba-fd52-40e8-b7c3-b80a01c9fb26">FONTDESC</a> structure. The function returns an interface pointer to the new font object specified by caller in the riid parameter. A <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> call is part of this call. The caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> through the interface pointer returned.
+Creates and initializes a standard font object using an initial description of the font's properties in a <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagfontdesc">FONTDESC</a> structure. The function returns an interface pointer to the new font object specified by caller in the riid parameter. A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> call is part of this call. The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> through the interface pointer returned.
 
 
 
@@ -61,7 +61,7 @@ Creates and initializes a standard font object using an initial description of t
 
 ### -param lpFontDesc [in]
 
-Address of a caller-allocated, <a href="https://msdn.microsoft.com/c677b0ba-fd52-40e8-b7c3-b80a01c9fb26">FONTDESC</a> structure containing the initial state of the font. This value must not be <b>NULL</b>.
+Address of a caller-allocated, <a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagfontdesc">FONTDESC</a> structure containing the initial state of the font. This value must not be <b>NULL</b>.
 
 
 ### -param riid [in]
@@ -151,7 +151,7 @@ The address in <i>pFontDesc</i> or <i>ppvObj</i> is not valid. Note that if <i>p
 
 
 
-<a href="https://msdn.microsoft.com/c677b0ba-fd52-40e8-b7c3-b80a01c9fb26">FONTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/olectl/ns-olectl-tagfontdesc">FONTDESC</a>
  
 
  

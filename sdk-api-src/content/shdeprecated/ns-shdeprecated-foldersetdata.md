@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>FOLDERSETDATA</b> may be altered or unavailable in subsequent versions of the operating system or product.]
 
-Deprecated. Data used in <a href="https://msdn.microsoft.com/fac9323b-bf32-45d0-95c4-798a1aab4d02">IBrowserService2::GetFolderSetData</a>.
+Deprecated. Data used in <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata">IBrowserService2::GetFolderSetData</a>.
 
 
 ## -struct-fields
@@ -62,9 +62,9 @@ Deprecated. Data used in <a href="https://msdn.microsoft.com/fac9323b-bf32-45d0-
 
 ### -field _fs
 
-Type: <b><a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a></b>
 
-The <a href="https://msdn.microsoft.com/be00fe39-1add-412e-b88b-4b0b1404b19d">FOLDERSETTINGS</a> structure containing folder view informtion.
+The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure containing folder view informtion.
 
 
 ### -field _vidRestore

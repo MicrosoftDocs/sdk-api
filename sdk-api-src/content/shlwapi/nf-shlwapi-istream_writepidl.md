@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE object into an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object.
+Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE object into an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Writes a pointer to an item identifier list (PIDL) from a PCUIDLIST_RELATIVE obj
 
 Type: <b>IStream*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> object in which to write.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object in which to write.
 
 
 ### -param pidlWrite [in]

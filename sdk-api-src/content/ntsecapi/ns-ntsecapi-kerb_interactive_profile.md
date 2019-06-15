@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>KERB_INTERACTIVE_PROFILE</b> structure contains information about an interactive logon profile.
 			
 
-This structure is used by the <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a> function.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/75968d53-5af2-
 ### -field MessageType
 
 
-<a href="https://msdn.microsoft.com/c590b6fd-c241-4ff8-9475-c8af7de7b431">KERB_PROFILE_BUFFER_TYPE</a> value identifying the type of logon request being made. This member can be set to <b>KerbInteractiveProfile</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_kerb_profile_buffer_type">KERB_PROFILE_BUFFER_TYPE</a> value identifying the type of logon request being made. This member can be set to <b>KerbInteractiveProfile</b>.
 
 
 ### -field LogonCount
@@ -109,37 +109,37 @@ Time and date when the user must change the password. If the user can never chan
 ### -field LogonScript
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the relative path to the account's logon script.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the relative path to the account's logon script.
 
 
 ### -field HomeDirectory
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the user's home directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the user's home directory.
 
 
 ### -field FullName
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the user's full name.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the user's full name.
 
 
 ### -field ProfilePath
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the path to a user's roaming profile. This is used only if the user has a roaming profile.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the path to a user's roaming profile. This is used only if the user has a roaming profile.
 
 
 ### -field HomeDirectoryDrive
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the drive containing the user's home directory.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the drive containing the user's home directory.
 
 
 ### -field LogonServer
 
 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> containing the name of the server that processed the logon request.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> containing the name of the server that processed the logon request.
 
 
 ### -field UserFlags
@@ -157,7 +157,7 @@ Specifies how this user established the session. This can be one or more of the 
 </dl>
 </td>
 <td width="60%">
-The user logged on using extra <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifiers</a> (SIDs).
+The user logged on using extra <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs).
 
 </td>
 </tr>

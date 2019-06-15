@@ -64,7 +64,7 @@ The identifier of the function that you need to run. This value is defined by th
 
 ### -field PrivateDataByteCount
 
-The size of the private data that the implementation of  the security processor implementation reserved. You can determine this value by calling the <a href="https://msdn.microsoft.com/24FBA7E0-1496-4921-91C7-69E9AF830586">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
+The size of the private data that the implementation of  the security processor implementation reserved. You can determine this value by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a> method.
 
 
 ### -field HWProtectionDataByteCount
@@ -91,19 +91,19 @@ The protection system specification defines the format and size of the DRM funct
 
 
 
-<a href="https://msdn.microsoft.com/24FBA7E0-1496-4921-91C7-69E9AF830586">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-getprivatedatabytecount">IMFContentProtectionDevice::GetPrivateDataByteCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BEC7122-1DFB-49D7-BE60-7CE9D83A64F5">IMFContentProtectionDevice::InvokeFunction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">IMFContentProtectionDevice::InvokeFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/73380F30-E219-4670-86DA-63CDA10C94BF">MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mfcontentprotectiondevice_output_data">MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

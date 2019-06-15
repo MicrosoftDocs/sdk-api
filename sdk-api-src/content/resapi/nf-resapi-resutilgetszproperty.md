@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Retrieves a string property from a 
-    <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property list</a> and advances a pointer to the next property in 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> and advances a pointer to the next property in 
     the list. The <b>PRESUTIL_GET_SZ_PROPERTY</b> type defines a pointer to this function.
 
 
@@ -66,7 +66,7 @@ Address of a pointer in which the string value from the property list will be re
 
 ### -param pValueStruct [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/f991ac6f-5272-44ee-a035-c9501bf7d866">CLUSPROP_SZ</a> structure specifying the 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa368390(v=vs.85)">CLUSPROP_SZ</a> structure specifying the 
       string value to retrieve from the property list.
 
 
@@ -94,7 +94,7 @@ Pointer to the size of the property list buffer. The size will be decremented to
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is a possible error 
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error 
        code.
 
 <table>
@@ -124,15 +124,15 @@ The data is formatted incorrectly.
 
 
 
-<a href="https://msdn.microsoft.com/fe69ba4c-d69a-4f5a-a620-0e2152e7be61">ResUtilGetBinaryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetbinaryproperty">ResUtilGetBinaryProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/d67f73f8-a5ce-4922-956f-392c27ee3b1d">ResUtilGetDwordProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetdwordproperty">ResUtilGetDwordProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f345cce-fa67-467c-bd4f-286609c3f757">ResUtilGetMultiSzProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetmultiszproperty">ResUtilGetMultiSzProperty</a>
  
 
  

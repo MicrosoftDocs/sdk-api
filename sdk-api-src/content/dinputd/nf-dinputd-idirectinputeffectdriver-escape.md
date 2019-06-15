@@ -69,7 +69,7 @@ Specifies the effect at which the command is directed, or zero if the command is
 
 ### -param arg3
 
-Points to a <a href="https://msdn.microsoft.com/97d452b2-aa25-46a9-a755-dc835270c818">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used. 
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dinput/ns-dinput-dieffescape">DIEFFESCAPE</a> structure that describes the command to be sent. On success, the <b>cbOutBuffer</b> member contains the number of output buffer bytes actually used. 
 
 
 ## -returns

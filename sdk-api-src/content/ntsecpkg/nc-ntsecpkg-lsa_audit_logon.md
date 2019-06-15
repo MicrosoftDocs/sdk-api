@@ -70,40 +70,40 @@ Additional status information for the logon attempt.
 ### -param AccountName [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a>  that contains the account name used in the logon attempt.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a>  that contains the account name used in the logon attempt.
 
 
 ### -param AuthenticatingAuthority [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a>  that contains the name of the authority that authenticated the logon, normally the operating system domain name.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a>  that contains the name of the authority that authenticated the logon, normally the operating system domain name.
 
 
 ### -param WorkstationName [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a>  that contains the name of the workstation used to attempt the logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a>  that contains the name of the workstation used to attempt the logon.
 
 
 ### -param UserSid [in, optional]
 
-Pointer to the SID of the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal</a> attempting to logon.
+Pointer to the SID of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> attempting to logon.
 
 
 ### -param LogonType [in]
 
 A 
-<a href="https://msdn.microsoft.com/d775d782-9403-47b2-bb43-8f677db49eb9">SECURITY_LOGON_TYPE</a> value indicating the type of logon.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> value indicating the type of logon.
 
 
 ### -param TokenSource [in]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/9c533327-e4a0-4852-828c-622d190b7d1e">TOKEN_SOURCE</a> structure  that specifies the source for the user token. This value must include the package name.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_source">TOKEN_SOURCE</a> structure  that specifies the source for the user token. This value must include the package name.
 
 
 ### -param LogonId [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session identifier</a>. <i>LogonId</i> is valid only if the logon attempt was successful.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session identifier</a>. <i>LogonId</i> is valid only if the logon attempt was successful.
 
 
 ## -returns
@@ -120,8 +120,8 @@ This function does not return a value.
 
 
 A pointer to the <b>AuditLogon</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -131,11 +131,11 @@ A pointer to the <b>AuditLogon</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

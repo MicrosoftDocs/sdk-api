@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Used to save imported file screen templates.
 
-The <a href="https://msdn.microsoft.com/ea2fbd88-777e-454c-8d32-0d704c219558">IFsrmExportImport::ImportFileScreenTemplates</a> method returns this interface.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">IFsrmExportImport::ImportFileScreenTemplates</a> method returns this interface.
 
 
 ## -see-also
@@ -59,7 +59,7 @@ The <a href="https://msdn.microsoft.com/ea2fbd88-777e-454c-8d32-0d704c219558">IF
 
 
 
-<a href="https://msdn.microsoft.com/c8e612f5-e7cd-45ff-9eaf-9d1674231161">IFsrmFileScreenTemplate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplate">IFsrmFileScreenTemplate</a>
  
 
  

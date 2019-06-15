@@ -63,11 +63,11 @@ This property is read/write.
 
 
 
-You can  use the <a href="https://msdn.microsoft.com/20089bc0-8af4-48b4-85aa-51ab2e4bf5be">IConfigurationDataCollector::FileMaxCount</a>, <a href="https://msdn.microsoft.com/79a87a02-6e9e-4b21-b90f-59c600349ae0">IConfigurationDataCollector::FileMaxRecursiveDepth</a>, and <a href="https://msdn.microsoft.com/bcfe2b95-770d-4543-8f79-c5f1b55c5dec">IConfigurationDataCollector::FileMaxTotalSize</a> properties to limit the number of files that PLA collects.
+You can  use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxcount">IConfigurationDataCollector::FileMaxCount</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxrecursivedepth">IConfigurationDataCollector::FileMaxRecursiveDepth</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxtotalsize">IConfigurationDataCollector::FileMaxTotalSize</a> properties to limit the number of files that PLA collects.
 
-PLA copies the files to the location specified in the <a href="https://msdn.microsoft.com/c0047144-5f99-4acd-ad96-054afcbe6eb9">IDataCollectorSet::LatestOutputLocation</a> property. If more than one file has the same name, PLA leaves the first file name intact and appends _n (where n is a one-based serial number) to all subsequent files with the same name. You can use the XML report to determine the origin of each file.
+PLA copies the files to the location specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_latestoutputlocation">IDataCollectorSet::LatestOutputLocation</a> property. If more than one file has the same name, PLA leaves the first file name intact and appends _n (where n is a one-based serial number) to all subsequent files with the same name. You can use the XML report to determine the origin of each file.
 
-The property performs a depth-first search using the  <a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a> and  <a href="https://msdn.microsoft.com/db7acb83-2da6-40bf-9962-5cfe54e257a5">FindNextFile</a> functions. For example, assuming the following directory structure:
+The property performs a depth-first search using the  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> functions. For example, assuming the following directory structure:
 
 <pre class="syntax" xml:space="preserve"><code>MyDir
     Subdir1
@@ -108,19 +108,19 @@ m.txt
 
 
 
-<a href="https://msdn.microsoft.com/7266c02d-0f56-4754-8a67-68394a5f0158">IConfigurationDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/20089bc0-8af4-48b4-85aa-51ab2e4bf5be">IConfigurationDataCollector::FileMaxCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxcount">IConfigurationDataCollector::FileMaxCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/79a87a02-6e9e-4b21-b90f-59c600349ae0">IConfigurationDataCollector::FileMaxRecursiveDepth</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxrecursivedepth">IConfigurationDataCollector::FileMaxRecursiveDepth</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcfe2b95-770d-4543-8f79-c5f1b55c5dec">IConfigurationDataCollector::FileMaxTotalSize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxtotalsize">IConfigurationDataCollector::FileMaxTotalSize</a>
  
 
  

@@ -71,7 +71,7 @@ DNS name of the service server.
 
 
 
-This method supports the standard <b>HRESULT</b> return values. For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+This method supports the standard <b>HRESULT</b> return values. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ This method supports the standard <b>HRESULT</b> return values. For more informa
 
 
 
-An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="https://msdn.microsoft.com/library/Aa772157(v=VS.85).aspx">Active Directory Core Concepts</a>.
+An Active Directory site is one or more well-connected TCP/IP subnets holding Active Directory domain controllers. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/AD/core-concepts-of-active-directory-domain-services">Active Directory Core Concepts</a>.
 
 
 #### Examples
@@ -168,7 +168,7 @@ wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
@@ -177,7 +177,7 @@ wscript.echo "Domain Controller site: " & sys.GetDCSiteName(dc)
 
 
 
-<a href="https://msdn.microsoft.com/5573d37b-10a8-4176-80c7-711552ff36cb">IADsADSystemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a>
  
 
  

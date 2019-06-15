@@ -53,8 +53,8 @@ ms.custom: 19H1
 
 The 
 <b>RpcNetworkInqProtseqs</b> function returns all protocol sequences supported by both the RPC run-time library and the operating system. Client applications often use 
-<a href="https://msdn.microsoft.com/72a28f64-2a66-4b61-96a9-80b8b9486151">RpcNetworkIsProtseqValid</a>. For a list of Microsoft RPC's supported protocol sequences, see 
-<a href="https://msdn.microsoft.com/5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305">String Binding</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid">RpcNetworkIsProtseqValid</a>. For a list of Microsoft RPC's supported protocol sequences, see 
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>.
 
 
 ## -parameters
@@ -102,7 +102,7 @@ No supported protocol sequences.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -115,7 +115,7 @@ A server application calls the
 <b>RpcNetworkInqProtseqs</b> function to obtain a vector containing the protocol sequences supported by both the RPC run-time library and the operating system. If there are no supported protocol sequences, this function returns the RPC_S_NO_PROTSEQS status code and a <i>ProtSeqVector</i> parameter value of <b>NULL</b>.
 
 The server is responsible for calling the 
-<a href="https://msdn.microsoft.com/6f399600-0534-44cc-b179-d3bc7bee091d">RpcProtseqVectorFree</a> function to release the memory used by the vector.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcprotseqvectorfree">RpcProtseqVectorFree</a> function to release the memory used by the vector.
 
 
 
@@ -125,7 +125,7 @@ The server is responsible for calling the
 
 
 
-<a href="https://msdn.microsoft.com/72a28f64-2a66-4b61-96a9-80b8b9486151">RpcNetworkIsProtseqValid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid">RpcNetworkIsProtseqValid</a>
  
 
  

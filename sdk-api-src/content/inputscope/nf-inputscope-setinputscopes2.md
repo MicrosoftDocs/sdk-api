@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The application must call <a href="https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
+The application must call <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
 
 
 ## -parameters
@@ -110,7 +110,7 @@ Pointer to a <b>NULL</b>-terminated XML string that provides speech-specific hin
 
 
 
-The application must call <a href="https://msdn.microsoft.com/4098525c-8d29-419a-9484-9e70420416bc">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
+The application must call <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
 
 If you call this method on a window (<i>hwnd</i> parameter) that has 
 not been associated with a Document Manager, then no text service notifications are sent to interested clients (such as the touch keyboard) that may want to respond to the 

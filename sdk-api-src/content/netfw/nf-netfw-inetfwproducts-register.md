@@ -59,7 +59,7 @@ The <b>Register</b> method registers a third-party firewall product.
 
 ### -param product [in]
 
-The <a href="https://msdn.microsoft.com/e4cadbfd-d48d-4b38-a068-fc005d6f72af">INetFwProduct</a> object that defines the product to be registered.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a> object that defines the product to be registered.
 
 
 ### -param registration [out, retval]
@@ -149,7 +149,7 @@ Registrations only last for the lifetime of the Windows Firewall service. Third-
 
 Registrations are removed when a returned registration object is released by the third-party firewall or when the third-party firewall process exits.
 
-A user mode code module using this API should be linked with the /integritycheck linker flag. This flag sets  <a href="https://msdn.microsoft.com/b6a50ffc-49f8-4824-9b51-7e381eaf8852">IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY</a> in the image PE header OptionalHeader.DllCharacteristics field, which  enforces a signature check at load time.  The code module should be digitally signed, consistent with the Authenticode signing procedure.
+A user mode code module using this API should be linked with the /integritycheck linker flag. This flag sets  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_optional_header">IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY</a> in the image PE header OptionalHeader.DllCharacteristics field, which  enforces a signature check at load time.  The code module should be digitally signed, consistent with the Authenticode signing procedure.
 
 
 
@@ -159,11 +159,11 @@ A user mode code module using this API should be linked with the /integritycheck
 
 
 
-<a href="https://msdn.microsoft.com/e4cadbfd-d48d-4b38-a068-fc005d6f72af">INetFwProduct</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
 
 
 
-<a href="https://msdn.microsoft.com/66608887-02df-4caf-91d0-e5091849ff32">INetFwProducts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>
  
 
  

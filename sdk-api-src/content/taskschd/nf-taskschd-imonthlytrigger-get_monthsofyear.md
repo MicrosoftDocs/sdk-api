@@ -134,7 +134,7 @@ The following table shows the mapping of the bitwise mask that is used by this p
 
 
 
-When reading or writing your own XML for a task, the months of the year are specified using the <a href="https://msdn.microsoft.com/71c9f7ac-01fc-4837-bccf-1869df2bc24e">Months </a> element of the Task Scheduler schema.
+When reading or writing your own XML for a task, the months of the year are specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-months-monthlyscheduletype-element">Months </a> element of the Task Scheduler schema.
 
 
 
@@ -144,11 +144,11 @@ When reading or writing your own XML for a task, the months of the year are spec
 
 
 
-<a href="https://msdn.microsoft.com/2ed206a6-22e0-4131-92ce-29536ad65c6c">IMonthlyTrigger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger">IMonthlyTrigger</a>
 
 
 
-<a href="https://msdn.microsoft.com/15970a51-c139-48b8-b82b-605728d0f386">Task Scheduler</a>
+<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
  
 
  

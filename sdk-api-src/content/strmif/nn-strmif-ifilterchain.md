@@ -55,14 +55,14 @@ The <code>IFilterChain</code> interface provides methods for starting, stopping,
 
 A <i>filter chain</i> is a sequence of filters, each with at most one connected input pin and one connected output pin, that forms an unbroken line of filters. A filter chain is defined by the filter at the start of the chain and the filter at the end of the chain. (These can be the same filter, making a chain of one filter.) By definition, there is a single stream path going from the start of the chain downstream to the end of the chain.
 
-The methods on this interface are useful in situations where an entire stream of data can appear or disappear, such as a video conferencing application that receives multiple streams over a network. For more information, see <a href="https://msdn.microsoft.com/13fed430-979b-40f7-91ba-aff2d811bd92">Dynamic Graph Building</a>. To control individual streams on a capture filter, use the <a href="https://msdn.microsoft.com/126c7ed7-acc0-4248-a3ab-c91c9f1c5cee">IAMStreamControl</a> interface instead.
+The methods on this interface are useful in situations where an entire stream of data can appear or disappear, such as a video conferencing application that receives multiple streams over a network. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-graph-building">Dynamic Graph Building</a>. To control individual streams on a capture filter, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl</a> interface instead.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterChain</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFilterChain</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterChain</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterChain</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IFilterChain</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a153ebf6-1d0a-45d0-ad2a-eb1eda62da2c">PauseChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilterchain-pausechain">PauseChain</a>
 </td>
 <td align="left" width="63%">
 Switches all the filters in a filter chain into a paused state.
@@ -86,7 +86,7 @@ Switches all the filters in a filter chain into a paused state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a47d2087-5f06-4fce-b573-16935370a34c">RemoveChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilterchain-removechain">RemoveChain</a>
 </td>
 <td align="left" width="63%">
 Removes every filter in a filter chain from the filter graph.
@@ -95,7 +95,7 @@ Removes every filter in a filter chain from the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/095a8c28-d0f2-4c0d-9e96-eefd5786b88d">StartChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilterchain-startchain">StartChain</a>
 </td>
 <td align="left" width="63%">
 Switches all the filters in a filter chain into a running state.
@@ -104,7 +104,7 @@ Switches all the filters in a filter chain into a running state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03821fdb-8374-4386-868b-9bf7b2d83562">StopChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilterchain-stopchain">StopChain</a>
 </td>
 <td align="left" width="63%">
 Switches all the filters in a filter chain into a stopped state.

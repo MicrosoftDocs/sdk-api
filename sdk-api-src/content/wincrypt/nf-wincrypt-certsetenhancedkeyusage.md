@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertSetEnhancedKeyUsage</b> function sets the <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">enhanced key usage</a> (EKU) property for the certificate. Use of this function replaces any EKUs associated with the certificate. To add a single EKU usage without changing existing usages, use 
-<a href="https://msdn.microsoft.com/1bec8d2f-aa43-4a8b-9414-c3a4e5fcb470">CertAddEnhancedKeyUsageIdentifier</a>. To delete a single EKU usage, use 
-<a href="https://msdn.microsoft.com/4fb27073-674c-4bac-9a62-6e33e1a5785e">CertRemoveEnhancedKeyUsageIdentifier</a>.
+The <b>CertSetEnhancedKeyUsage</b> function sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> (EKU) property for the certificate. Use of this function replaces any EKUs associated with the certificate. To add a single EKU usage without changing existing usages, use 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddenhancedkeyusageidentifier">CertAddEnhancedKeyUsageIdentifier</a>. To delete a single EKU usage, use 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certremoveenhancedkeyusageidentifier">CertRemoveEnhancedKeyUsageIdentifier</a>.
 
 
 ## -parameters
@@ -62,13 +62,13 @@ The <b>CertSetEnhancedKeyUsage</b> function sets the <a href="https://msdn.micro
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> of the specified certificate.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> of the specified certificate.
 
 
 ### -param pUsage [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/70ee138a-df94-4fc4-9de5-0d8b7704b890">CERT_ENHKEY_USAGE</a> structure (equivalent to a 
-<b>CTL_USAGE</b> structure) that contains an array of EKU <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifiers</a> (OIDs) to be set as extended properties of the certificate.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_ctl_usage">CERT_ENHKEY_USAGE</a> structure (equivalent to a 
+<b>CTL_USAGE</b> structure) that contains an array of EKU <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) to be set as extended properties of the certificate.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Pointer to a <a href="https://msdn.microsoft.com/70ee138a-df94-4fc4-9de5-0d8b770
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,11 +88,11 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/eda6d875-df62-4f40-8734-a91666dba289">CertGetEnhancedKeyUsage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetenhancedkeyusage">CertGetEnhancedKeyUsage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Enhanced Key Usage Functions</a>
  
 
  

@@ -70,7 +70,7 @@ The <b>GetInputProps</b> method retrieves the current media properties of a spec
 
 ### -param ppInput [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> object.
+Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> object.
 
 
 ## -returns
@@ -116,9 +116,9 @@ The <i>dwInputNum</i> value is greater than the highest index number.
 
 
 
-The range of indexes to use for the <i>dwInputNum</i> parameter can be found by calling <a href="https://msdn.microsoft.com/en-us/library/Dd757477(v=VS.85).aspx">GetInputCount</a>.
+The range of indexes to use for the <i>dwInputNum</i> parameter can be found by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputcount">GetInputCount</a>.
 
-Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer, unless the application calls the <a href="https://msdn.microsoft.com/en-us/library/Dd757484(v=VS.85).aspx">SetInputProps</a> method to configure the input.
+Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer, unless the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops">SetInputProps</a> method to configure the input.
 
 
 
@@ -128,11 +128,11 @@ Manipulating the <b>IWMInputMediaProps</b> object has no effect on the writer, u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/f468f74d-7eed-4819-957d-241903f44d2d">To Identify Inputs By Number</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-identify-inputs-by-number">To Identify Inputs By Number</a>
  
 
  

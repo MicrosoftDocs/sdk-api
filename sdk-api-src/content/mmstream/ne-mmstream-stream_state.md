@@ -76,7 +76,7 @@ Run state.
 
 
 
-Change the state by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd390335(v=VS.85).aspx">IMultiMediaStream::SetState</a> method.
+Change the state by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-imultimediastream-setstate">IMultiMediaStream::SetState</a> method.
 
 
 
@@ -86,7 +86,7 @@ Change the state by calling the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/0b2866cc-ff07-4cd9-b7df-6a05436251d3">Multimedia Streaming Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/multimedia-streaming-types">Multimedia Streaming Enumeration Types</a>
  
 
  

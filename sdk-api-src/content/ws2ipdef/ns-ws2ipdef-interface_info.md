@@ -151,7 +151,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/6a63c2c9-4e09-4a62-b39f-3ccb26287da8">Winsock IOCTLs</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-ioctls">Winsock IOCTLs</a>
  
 
  

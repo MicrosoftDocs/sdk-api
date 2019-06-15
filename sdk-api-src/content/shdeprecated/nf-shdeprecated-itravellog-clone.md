@@ -60,7 +60,7 @@ Deprecated. Duplicates the contents of the current travel log.
 
 ### -param pptl [out]
 
-Type: <b><a href="https://msdn.microsoft.com/820869aa-ca93-4bb5-831a-3afb52da5389">ITravelLog</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>**</b>
 
 The address of a pointer to the interface representing the cloned travel log.
 

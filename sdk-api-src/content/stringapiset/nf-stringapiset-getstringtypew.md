@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves character type information for the characters in the specified Unicode source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeW</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="https://msdn.microsoft.com/en-us/library/Hh969198(v=VS.85).aspx">Security Considerations: Windows User Interface</a>.</div>
+Retrieves character type information for the characters in the specified Unicode source string. For each character in the string, the function sets one or more bits in the corresponding 16-bit element of the output array. Each bit identifies a given character type, for example, letter, digit, or neither.      <div class="alert"><b>Caution</b>  Using the <b>GetStringTypeW</b> function incorrectly can compromise the security of your application. To avoid a buffer overflow, the application must set the output buffer size correctly. For more security information, see <a href="https://docs.microsoft.com/windows/desktop/AppUIStart/sec-ui">Security Considerations: Windows User Interface</a>.</div>
 <div> </div>
 
 
@@ -125,7 +125,7 @@ Pointer to an array of 16-bit values. The length of this array must be large eno
 
 
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INVALID_FLAGS. The values supplied for flags were not valid.</li>
@@ -138,11 +138,11 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>.
+For an overview of the use of the string functions, see <a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>.
 
 The values of the <i>lpSrcStr</i> and <i>lpCharType</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
 
-The <i>Locale</i> parameter used by the corresponding <a href="https://msdn.microsoft.com/8fe771ae-80f6-473d-b2d8-8331c58ffb5a">GetStringTypeA</a> function is not used by this function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using <a href="https://msdn.microsoft.com/e0cd051f-6627-457a-9a83-d71de607f67f">GetStringTypeEx</a>, which is the recommended function.
+The <i>Locale</i> parameter used by the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a> function is not used by this function. Because of the parameter difference, an application cannot automatically invoke the proper ANSI or Unicode version of a <b>GetStringType*</b> function through the use of the #define UNICODE switch. An application can circumvent this limitation by using <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>, which is the recommended function.
 
 <b>Supported Character Types</b>
 
@@ -440,19 +440,19 @@ C3_HIGHSURROGATE and C3_LOWSURROGATE are listed only for completeness, and shoul
 
 
 
-<a href="https://msdn.microsoft.com/8fe771ae-80f6-473d-b2d8-8331c58ffb5a">GetStringTypeA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypea">GetStringTypeA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e0cd051f-6627-457a-9a83-d71de607f67f">GetStringTypeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getstringtypeexa">GetStringTypeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/7c72c4de-83be-4b7e-9ed8-b0236c1df8a4">National Language Support Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
  
 
  

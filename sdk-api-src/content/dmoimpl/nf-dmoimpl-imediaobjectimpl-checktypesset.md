@@ -90,7 +90,7 @@ The only two methods in <b>IMediaObject</b> that change the media type on a stre
 
 
 
-<a href="https://msdn.microsoft.com/81d45b8d-8373-4e42-b768-f6126feb935d">IMediaObjectImpl Class Template</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>
  
 
  

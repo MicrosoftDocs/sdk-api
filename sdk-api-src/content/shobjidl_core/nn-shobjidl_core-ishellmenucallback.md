@@ -54,7 +54,7 @@ A callback interface that exposes a method that receives messages from a menu ba
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellMenuCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IShellMenuCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellMenuCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellMenuCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellMenuCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06809b61-041b-41bd-82dd-0d64edf8bbae">CallbackSM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">CallbackSM</a>
 </td>
 <td align="left" width="63%">
 Receives messages from a menu band object.
@@ -83,7 +83,7 @@ Receives messages from a menu band object.
 
 
 
-Once you have created the menu band object, pass a pointer to this interface to the menu band object by calling <a href="https://msdn.microsoft.com/dc9864df-21f3-4b0b-b862-48055032c071">IShellMenu::Initialize</a>. You receive messages from the menu band through the <a href="https://msdn.microsoft.com/06809b61-041b-41bd-82dd-0d64edf8bbae">IShellMenuCallback::CallbackSM</a> method.
+Once you have created the menu band object, pass a pointer to this interface to the menu band object by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>. You receive messages from the menu band through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">IShellMenuCallback::CallbackSM</a> method.
 
 
 
@@ -93,11 +93,11 @@ Once you have created the menu band object, pass a pointer to this interface to 
 
 
 
-<a href="https://msdn.microsoft.com/67e12738-9951-4118-b968-7959cd175cf2">IMenuBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenuband">IMenuBand</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b9e65d4-a881-4e13-9487-87de9d560377">MenuBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/profiles-directory">MenuBand</a>
  
 
  

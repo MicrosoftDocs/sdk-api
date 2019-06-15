@@ -71,12 +71,12 @@ The block count, in big-endian format.
 
 
 
-For AES-CTR encyption, the <b>pvPVPState</b> member of the <a href="https://msdn.microsoft.com/eb17005a-035d-41cb-8f54-97b5d0f84736">DXVA2_DecodeBufferDesc</a> structure points to a <b>DXVA2_AES_CTR_IV</b> structure.
+For AES-CTR encyption, the <b>pvPVPState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structure points to a <b>DXVA2_AES_CTR_IV</b> structure.
 
-The <a href="https://msdn.microsoft.com/2ee738c2-d56c-4a50-94b8-b7180918aa8c">D3DAES_CTR_IV</a> structure and the <b>DXVA2_AES_CTR_IV</b> structure are equivalent.
+The <a href="https://docs.microsoft.com/windows/desktop/medfound/d3daes-ctr-iv">D3DAES_CTR_IV</a> structure and the <b>DXVA2_AES_CTR_IV</b> structure are equivalent.
 
 <h3><a id="Sequential_Counts"></a><a id="sequential_counts"></a><a id="SEQUENTIAL_COUNTS"></a>Sequential Counts</h3>
-If the <a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">IDirect3DDevice9Video::GetContentProtectionCaps</a> method returns the <b>D3DCPCAPS_SEQUENTIAL_CTR_IV</b> flag, the caller should keep <b>IV</b> unchanged when submitting multiple buffers for the same video frame, and <b>Count</b> should be in sequential order of the previous submission for the frame.
+If the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a> method returns the <b>D3DCPCAPS_SEQUENTIAL_CTR_IV</b> flag, the caller should keep <b>IV</b> unchanged when submitting multiple buffers for the same video frame, and <b>Count</b> should be in sequential order of the previous submission for the frame.
 
 Example: Suppose the software decoder submits three buffers for a single frame, and that each buffer contains three 128-bit blocks.  For the first buffer, <b>IV</b> can be any value. For the next two buffers, the same value of <b>IV</b>  must be used. The value of  <b>Count</b> starts at 1. For the second buffer, <b>Count</b> equals 4 (1 + 3 blocks from the first submission). For the third buffer, <b>Count</b> equals 7 (4 + 3 blocks from the second submission).
 
@@ -90,11 +90,11 @@ When the <b>D3DCPCAPS_SEQUENTIAL_CTR_IV</b> capability is present, it is recomme
 
 
 
-<a href="https://msdn.microsoft.com/eb17005a-035d-41cb-8f54-97b5d0f84736">DXVA2_DecodeBufferDesc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-_dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

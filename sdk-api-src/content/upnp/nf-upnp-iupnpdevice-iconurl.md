@@ -80,7 +80,7 @@ Specifies the bit depth of the icon. Standard values are 8, 16, or 24.
 
 ### -param pbstrIconURL [out]
 
-Receives a reference to a string that contains the URL from which the icon is to be loaded. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the URL from which the icon is to be loaded. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 
 ## -returns
@@ -108,7 +108,7 @@ If a matching icon does not exist, the URL for the icon that most closely matche
 
 
 
-<a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
  
 
  

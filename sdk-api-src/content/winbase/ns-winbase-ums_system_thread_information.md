@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a href="https://msdn.microsoft.com/7c8347b6-6546-4ea9-9b2a-11794782f482">GetUmsSystemThreadInformation</a> function uses this structure. 
+Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getumssystemthreadinformation">GetUmsSystemThreadInformation</a> function uses this structure. 
 
 
 ## -struct-fields

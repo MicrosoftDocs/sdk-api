@@ -65,11 +65,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/2f17c9a3-6ae8-4102-aee6-b2cb206d4952">IDVBSLocator2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator2">IDVBSLocator2</a>
 
 
 
-<a href="https://msdn.microsoft.com/586bcbf7-dd7a-45d3-b35a-dba785d13970">LNB_Source</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/lnb-source">LNB_Source</a>
  
 
  

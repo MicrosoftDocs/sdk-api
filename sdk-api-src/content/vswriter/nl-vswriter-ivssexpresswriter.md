@@ -54,7 +54,7 @@ Defines methods to manage metadata for a VSS express writer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExpressWriter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVssExpressWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExpressWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssExpressWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IVssExpressWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/254f4a32-cb33-494e-8fb4-06ab1cc2b184">CreateMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a>
 </td>
 <td align="left" width="63%">
-Creates an express writer metadata object and returns an <a href="https://msdn.microsoft.com/49112cff-9e61-4218-a013-5ae5eb58b534">IVssCreateExpressWriterMetadata</a> interface pointer to it.
+Creates an express writer metadata object and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a> interface pointer to it.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b670278-4589-47b7-a9ad-a24187c39945">LoadMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-loadmetadata">LoadMetadata</a>
 </td>
 <td align="left" width="63%">
 Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.
@@ -87,7 +87,7 @@ Causes VSS to load the writer's metadata from a string instead of the express wr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75cdc416-5fb6-4c9e-b7ab-f79b091786b2">Register</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-register">Register</a>
 </td>
 <td align="left" width="63%">
 Causes VSS to store the writer's metadata in the express writer metadata store.
@@ -96,7 +96,7 @@ Causes VSS to store the writer's metadata in the express writer metadata store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/24398ace-4e76-471b-ae04-d2005e09cb6a">Unregister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-unregister">Unregister</a>
 </td>
 <td align="left" width="63%">
 Causes VSS to delete the writer's metadata from the express writer metadata store.
@@ -111,7 +111,7 @@ Causes VSS to delete the writer's metadata from the express writer metadata stor
 
 
 
-<a href="https://msdn.microsoft.com/c24a1046-50b0-4fec-88f9-3bbd6970982a">CreateVssExpressWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-createvssexpresswriter">CreateVssExpressWriter</a>
  
 
  

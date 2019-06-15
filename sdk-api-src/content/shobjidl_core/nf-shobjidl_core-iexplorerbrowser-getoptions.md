@@ -59,9 +59,9 @@ Gets the current browser options.
 
 ### -param pdwFlag [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4e2983bc-cad2-4bcc-8169-57b5274b2142">EXPLORER_BROWSER_OPTIONS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_options">EXPLORER_BROWSER_OPTIONS</a>*</b>
 
-When this method returns, contains the current <a href="https://msdn.microsoft.com/4e2983bc-cad2-4bcc-8169-57b5274b2142">EXPLORER_BROWSER_OPTIONS</a> for the browser.
+When this method returns, contains the current <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_options">EXPLORER_BROWSER_OPTIONS</a> for the browser.
 
 
 ## -returns

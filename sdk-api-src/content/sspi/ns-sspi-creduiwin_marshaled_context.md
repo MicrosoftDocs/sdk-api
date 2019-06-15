@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies credential information that has been serialized by using the <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
+Specifies credential information that has been serialized by using the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The user's logon ID.
 
 ### -field MarshaledDataType
 
-A value that represents the type of structure that the serialized data specifies. If the value of this parameter is <b>SSPIPFC_STRUCTURE_TYPE_CREDUI_CONTEXT</b>, the data can be deserialized by calling the <a href="https://msdn.microsoft.com/c8861b27-d42d-4f7f-96c7-718f23fbaf86">SspiUnmarshalCredUIContext</a> function.
+A value that represents the type of structure that the serialized data specifies. If the value of this parameter is <b>SSPIPFC_STRUCTURE_TYPE_CREDUI_CONTEXT</b>, the data can be deserialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
 
 
 ### -field MarshaledDataOffset
@@ -92,7 +92,7 @@ The size, in bytes, of the serialized data.
 
 
 
-<a href="https://msdn.microsoft.com/ac9410eb-ec1b-494c-8e8b-6d161ff2b41c">SEC_WINNT_CREDUI_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a>
  
 
  

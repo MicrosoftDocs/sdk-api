@@ -60,24 +60,24 @@ Get a pointer to the data contained in a subresource, and deny the GPU access to
 
 ### -param Subresource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Index number of the subresource. See <a href="https://msdn.microsoft.com/en-us/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> for more details.
+Index number of the subresource. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-d3d10calcsubresource">D3D10CalcSubresource</a> for more details.
 
 
 ### -param MapType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205318(v=VS.85).aspx">D3D10_MAP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP</a></b>
 
-Specifies the CPU's read and write permissions for a resource. For possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb205318(v=VS.85).aspx">D3D10_MAP</a>.
+Specifies the CPU's read and write permissions for a resource. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP</a>.
 
 
 ### -param MapFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205321(v=VS.85).aspx">Flag</a> that specifies what the CPU should do when the GPU is busy. This flag is optional.
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map_flag">Flag</a> that specifies what the CPU should do when the GPU is busy. This flag is optional.
 
 
 ### -param ppData [out]
@@ -91,7 +91,7 @@ Pointer to the texture resource data.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If this function succeeds, it returns S_OK. For other restrictions, and a listing of error values that can be returned by any of the <b>Map</b> methods, see Remarks.
 
@@ -103,7 +103,7 @@ If this function succeeds, it returns S_OK. For other restrictions, and a listin
 
 
 <h3><a id="Remarks"></a><a id="remarks"></a><a id="REMARKS"></a></h3>
-Mapping a texture enables the CPU to directly access the underlying data in the subresource of a texture. For the method to succeed, the texture being mapped must be created with the appropriate flags (see <a href="https://msdn.microsoft.com/en-us/library/Bb204908(v=VS.85).aspx">D3D10_CPU_ACCESS_FLAG</a>), and its specified usage (see <a href="https://msdn.microsoft.com/en-us/library/Bb172499(v=VS.85).aspx">D3D10_USAGE</a>) must be either D3D10_USAGE_DYNAMIC or D3D10_USAGE_STAGING.
+Mapping a texture enables the CPU to directly access the underlying data in the subresource of a texture. For the method to succeed, the texture being mapped must be created with the appropriate flags (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_cpu_access_flag">D3D10_CPU_ACCESS_FLAG</a>), and its specified usage (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_usage">D3D10_USAGE</a>) must be either D3D10_USAGE_DYNAMIC or D3D10_USAGE_STAGING.
 
 Common failures of <b>Map</b> methods are indicated by the following return values:
 
@@ -137,15 +137,15 @@ If <i>MapFlags</i> specifies D3D10_MAP_FLAG_DO_NOT_WAIT and the GPU is not yet f
 </table>
  
 
-For more information about the preceding return values, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+For more information about the preceding return values, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
 <b>Map</b> has the following restrictions:
 
 <ul>
 <li>A single subresource cannot be mapped multiple times; in other words, do not call <b>Map</b> on a subresource that is already mapped.</li>
-<li>Any subresource that is bound to the pipeline must be unmapped before any render operation (that is, before <a href="https://msdn.microsoft.com/en-us/library/Bb173563(v=VS.85).aspx">ID3D10Device::Draw</a>) can be executed.</li>
+<li>Any subresource that is bound to the pipeline must be unmapped before any render operation (that is, before <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-draw">ID3D10Device::Draw</a>) can be executed.</li>
 </ul>
-Applications must cast the void pData pointer to the appropriate type to meaningfully access the underlying subresource data. For example, the following code demonstrates how to read each texel of a 1D subresource. It is assumed that the texture was created using <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_R32G32B32A32_FLOAT</a> and that pData is the pointer to the texture resource data output from a successful call to this method.
+Applications must cast the void pData pointer to the appropriate type to meaningfully access the underlying subresource data. For example, the following code demonstrates how to read each texel of a 1D subresource. It is assumed that the texture was created using <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_R32G32B32A32_FLOAT</a> and that pData is the pointer to the texture resource data output from a successful call to this method.
 
 
 ```
@@ -167,7 +167,7 @@ for( UINT col = 0; col < width; col++ )
 <td>
 Differences between Direct3D 9 and Direct3D 10:
 
-<b>Map</b> in Direct3D 10 is analogous to resource <a href="https://msdn.microsoft.com/en-us/library/Bb174707(v=VS.85).aspx">Lock</a> in Direct3D 9.
+<b>Map</b> in Direct3D 10 is analogous to resource <a href="https://docs.microsoft.com/windows/desktop/direct3d9/locking-resources">Lock</a> in Direct3D 9.
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ Differences between Direct3D 9 and Direct3D 10:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173863(v=VS.85).aspx">ID3D10Texture1D Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10texture1d">ID3D10Texture1D Interface</a>
  
 
  

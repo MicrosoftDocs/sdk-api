@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the names of a  <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster object's</a> <a href="https://msdn.microsoft.com/a1dee11c-f1fe-4509-a40a-a58c4b8999ef">private properties</a>. The <b>PRESUTIL_ENUM_PRIVATE_PROPERTIES</b> type defines a pointer to this function.
+Retrieves the names of a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object's</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/private-properties">private properties</a>. The <b>PRESUTIL_ENUM_PRIVATE_PROPERTIES</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the names of a  <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6
 
 ### -param hkeyClusterKey [in]
 
-Key identifying the location of the private properties in the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a>.
+Key identifying the location of the private properties in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a>.
 
 
 ### -param pszOutProperties [out]
@@ -89,7 +89,7 @@ Pointer to the required number of bytes if the output buffer is too small to hol
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error codes.
+the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -140,7 +140,7 @@ The size of the output buffer is too small to hold the resulting data. The <i>pc
 
 
 
-<a href="https://msdn.microsoft.com/1b3a6326-c0da-470a-9cd5-19daa9d48ccd">ResUtilEnumProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilenumproperties">ResUtilEnumProperties</a>
  
 
  

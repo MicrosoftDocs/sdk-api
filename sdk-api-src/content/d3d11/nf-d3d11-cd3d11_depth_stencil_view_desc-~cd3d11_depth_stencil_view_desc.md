@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Destroys an instance of a <a href="https://msdn.microsoft.com/4DD04DF8-75C3-430C-9AFA-E3344B053D6E">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> structure.
+Destroys an instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Destroys an instance of a <a href="https://msdn.microsoft.com/4DD04DF8-75C3-430C
 
 
 
-<a href="https://msdn.microsoft.com/4DD04DF8-75C3-430C-9AFA-E3344B053D6E">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151639(v=vs.85)">CD3D11_DEPTH_STENCIL_VIEW_DESC</a>
  
 
  

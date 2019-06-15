@@ -66,7 +66,7 @@ A handle to the network address control.
 
 
 
-Call this macro to display an error message when an address typed into the control does not validate against the allowed network address types set with macro <a href="https://msdn.microsoft.com/2fa97abd-79c8-41ce-bd0e-75941bf4d005">NetAddr_SetAllowType</a>. Use the macro <a href="https://msdn.microsoft.com/2d0310a8-89ca-41b5-8afc-faec29bd23ba">NetAddr_GetAddress</a> to validate the address.
+Call this macro to display an error message when an address typed into the control does not validate against the allowed network address types set with macro <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_setallowtype">NetAddr_SetAllowType</a>. Use the macro <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getaddress">NetAddr_GetAddress</a> to validate the address.
 
 
 
@@ -76,7 +76,7 @@ Call this macro to display an error message when an address typed into the contr
 
 
 
-<a href="https://msdn.microsoft.com/21533513-86c2-418b-ab62-3c1b2db9bc2f">NetAddr_GetAllowType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getallowtype">NetAddr_GetAllowType</a>
  
 
  

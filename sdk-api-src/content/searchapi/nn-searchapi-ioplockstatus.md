@@ -53,12 +53,12 @@ Provides methods to check the opportunistic lock that is used by Microsoft Wind
 
 
 
-A third-party <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object can implement this interface if the underlying data store provides a mechanism to track concurrent access to items. If this interface is exposed by <b>IUrlAccessor</b>, WDS will check the <b>IOpLockStatus</b> while indexing items from that store. 
+A third-party <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object can implement this interface if the underlying data store provides a mechanism to track concurrent access to items. If this interface is exposed by <b>IUrlAccessor</b>, WDS will check the <b>IOpLockStatus</b> while indexing items from that store. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpLockStatus</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOpLockStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpLockStatus</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpLockStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,16 +73,16 @@ The <b>IOpLockStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231448(v=VS.85).aspx">GetOplockEventHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-ioplockstatus-getoplockeventhandle">GetOplockEventHandle</a>
 </td>
 <td align="left" width="63%">
-Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object.
+Gets the event handle of the opportunistic lock (OpLock). The event object is set to the signaled state when the OpLock is broken, enabling the indexer to stop all operations on the underlying <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231450(v=VS.85).aspx">IsOplockBroken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-ioplockstatus-isoplockbroken">IsOplockBroken</a>
 </td>
 <td align="left" width="63%">
 Checks the status of the opportunistic lock (OpLock) on the item being indexed.
@@ -91,7 +91,7 @@ Checks the status of the opportunistic lock (OpLock) on the item being indexed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231451(v=VS.85).aspx">IsOplockValid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-ioplockstatus-isoplockvalid">IsOplockValid</a>
 </td>
 <td align="left" width="63%">
 Checks the status of the opportunistic lock (OpLock) on the item being indexed.

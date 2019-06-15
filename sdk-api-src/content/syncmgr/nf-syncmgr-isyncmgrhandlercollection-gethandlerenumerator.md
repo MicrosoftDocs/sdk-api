@@ -59,9 +59,9 @@ Gets an enumerator that provides access to the IDs of sync handlers exposed to a
 
 ### -param ppenum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>**</b>
 
-When this method returns, contains an address of a pointer to an instance of <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> that enumerates the IDs of known sync handlers.
+When this method returns, contains an address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> that enumerates the IDs of known sync handlers.
 
 
 ## -returns

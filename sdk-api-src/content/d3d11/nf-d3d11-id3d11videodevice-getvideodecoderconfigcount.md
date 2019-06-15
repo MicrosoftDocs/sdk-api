@@ -59,7 +59,7 @@ Gets the number of decoder configurations that the driver supports for a specifi
 
 ### -param pDesc [in]
 
-A pointer to a  <a href="https://msdn.microsoft.com/668D994C-B875-4666-B940-1052A6DE6AA1">D3D11_VIDEO_DECODER_DESC</a> structure that describes the video stream.
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_decoder_desc">D3D11_VIDEO_DECODER_DESC</a> structure that describes the video stream.
 
 
 ### -param pCount [out]
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To enumerate the decoder configurations, call <a href="https://msdn.microsoft.com/EC3B23BE-0A28-41E6-A515-7801C9E0A4D9">ID3D11VideoDevice::GetVideoDecoderConfig</a>.
+To enumerate the decoder configurations, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderconfig">ID3D11VideoDevice::GetVideoDecoderConfig</a>.
 
 
 
@@ -90,7 +90,7 @@ To enumerate the decoder configurations, call <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/420DE3C4-15A9-4EEB-A1FD-6350DE109CFF">ID3D11VideoDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
  
 
  

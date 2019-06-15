@@ -59,16 +59,16 @@ Gets an image list statistics structure.
 
 ### -param pils [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761397(v=VS.85).aspx">IMAGELISTSTATS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-tagimageliststats">IMAGELISTSTATS</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761397(v=VS.85).aspx">IMAGELISTSTATS</a> structure.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/ns-commoncontrols-tagimageliststats">IMAGELISTSTATS</a> structure.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

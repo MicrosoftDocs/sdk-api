@@ -61,7 +61,7 @@ Removes an item of app-specific metadata being collected during error reporting 
 
 ### -param key
 
-The "key" string for the metadata element being removed. It must have been previously registered with the <a href="https://msdn.microsoft.com/55FB3110-314A-4327-AA8F-3AF77B7006DD">WerRegisterCustomMetadata</a> function.
+The "key" string for the metadata element being removed. It must have been previously registered with the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregistercustommetadata">WerRegisterCustomMetadata</a> function.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://msdn.microsoft.com/9357786c-1992-4e28-ac75-c2dfda1df7f1">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -108,15 +108,15 @@ WER could not find the metadata item to remove.
 
 
 
-<a href="https://msdn.microsoft.com/4e28f379-5793-4d76-898e-d87a0291c034">WER Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/55FB3110-314A-4327-AA8F-3AF77B7006DD">WerRegisterCustomMetadata</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregistercustommetadata">WerRegisterCustomMetadata</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c076588-779c-4cd2-9fd9-1db3039e37a2">Windows Error Reporting</a>
+<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
  
 
  

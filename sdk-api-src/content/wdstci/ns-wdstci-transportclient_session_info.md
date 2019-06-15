@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/36970f1b-9dbf-421f-a078-3da3bbb050e8">PFN_WdsTransportClientSessionStartEx</a> callback function.
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstartex">PFN_WdsTransportClientSessionStartEx</a> callback function.
 
 
 ## -struct-fields

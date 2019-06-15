@@ -87,7 +87,7 @@ The properties may be platform defined or manufacturer defined.
 
 Platform-defined <b>PROPERTYKEY</b> values for location sensors are defined in the location sensor data types section of sensors.h.
 
-The following is a table of some platform-defined properties that are commonly association with location reports. These property keys have a <b>fmtid</b> field equal to <b>SENSOR_DATA_TYPE_LOCATION_GUID</b>. Additional properties can be found in sensors.h. If you are implementing your own location report to pass to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a>, this table indicates which values must be supplied in your report object's implementation of <b>GetValue</b>.
+The following is a table of some platform-defined properties that are commonly association with location reports. These property keys have a <b>fmtid</b> field equal to <b>SENSOR_DATA_TYPE_LOCATION_GUID</b>. Additional properties can be found in sensors.h. If you are implementing your own location report to pass to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a>, this table indicates which values must be supplied in your report object's implementation of <b>GetValue</b>.
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 <td>Degrees latitude where North is positive.
  
-<div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
+<div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 
 
@@ -112,7 +112,7 @@ The following is a table of some platform-defined properties that are commonly a
 </td>
 <td>Degrees longitude where East is positive.
             
-<div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
+<div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 
 
@@ -160,7 +160,7 @@ The following is a table of some platform-defined properties that are commonly a
 
 </td>
 <td>Error radius that indicates accuracy of latitude and longitude in meters.
-<div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
+<div class="alert"><b>Note</b>  A latitude/longitude report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 
 
@@ -171,7 +171,7 @@ The following is a table of some platform-defined properties that are commonly a
 
 </td>
 <td> First line of the address in a civic address report. 
-<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
+<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 
 
@@ -181,7 +181,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_ADDRESS2<b>VT_LPWSTR</b>
 
 </td>
-<td>Second line of the address in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
+<td>Second line of the address in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -189,7 +189,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_CITY<b>VT_LPWSTR</b>
 
 </td>
-<td> City field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
+<td> City field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -197,7 +197,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_STATE_PROVINCE<b>VT_LPWSTR</b>
 
 </td>
-<td>State/province field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
+<td>State/province field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -205,7 +205,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>SENSOR_DATA_TYPE_POSTALCODE<b>VT_LPWSTR</b>
 
 </td>
-<td>Postal code field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
+<td>Postal code field in a civic address report.<div class="alert"><b>Note</b>  If a civic address report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> contains this data, it should provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -216,7 +216,7 @@ The following is a table of some platform-defined properties that are commonly a
 <td>Country/region code in a civic address report. The value must be a two-letter or three-letter ISO 3166 country code.
 
 
-<div class="alert"><b>Note</b>  A civic address report object that is passed to <a href="https://msdn.microsoft.com/50355f93-e609-44d5-925a-2de7af1e0564">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
+<div class="alert"><b>Note</b>  A civic address report object that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-idefaultlocation-setreport">SetReport</a> must provide this value in its implementation of <b>GetValue</b>.</div>
 <div> </div>
 
 
@@ -273,7 +273,7 @@ For example, a change sensitivity value of 2 for SENSOR_DATA_TYPE_TEMPERATURE_CE
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd318902(v=VS.85).aspx">SensorConnectionType</a> value that contains the current connection type.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0002">SensorConnectionType</a> value that contains the current connection type.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL<b>VT_UI4</b>
@@ -382,7 +382,7 @@ Resolution values are expressed by using the same units as the data field, excep
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx">SensorState</a> value that contains the current sensor state.</td>
+<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/ne-sensorsapi-__midl___midl_itf_sensorsapi_0000_0000_0001">SensorState</a> value that contains the current sensor state.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_TYPE<b>VT_CLSID</b>
@@ -474,7 +474,7 @@ STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
 
 
 
-<a href="https://msdn.microsoft.com/6dc78c26-36b3-4545-b5ba-7f04f6e67706">ILocationReport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>
  
 
  

@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/b8b89e48-e47d-4089-a8b6-04d53227767a">IProofOfPossessionCookieInfoManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/proofofpossessioncookieinfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager">IProofOfPossessionCookieInfoManager</a>
  
 
  

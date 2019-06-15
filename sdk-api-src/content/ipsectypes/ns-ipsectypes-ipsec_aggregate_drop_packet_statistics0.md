@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</b> structure stores aggregate IPsec kernel packet drop statistics.<div class="alert"><b>Note</b>  <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</b> is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/en-us/library/Ee707317(v=VS.85).aspx">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</a> is available.</div>
+The <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</b> structure stores aggregate IPsec kernel packet drop statistics.<div class="alert"><b>Note</b>  <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</b> is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics1_">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</a> is available.</div>
 <div> </div>
 
 
@@ -109,7 +109,7 @@ Number of inbound IPsec secured packets that did not match any inbound IPsec tra
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

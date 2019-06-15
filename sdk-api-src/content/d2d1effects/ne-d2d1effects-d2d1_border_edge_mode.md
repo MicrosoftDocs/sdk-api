@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The edge mode for the <a href="https://msdn.microsoft.com/D3D569F5-9496-4633-93E2-26665FFC3B37">Border effect</a>. 
+The edge mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/border">Border effect</a>. 
 
 
 ## -enum-fields

@@ -51,11 +51,11 @@ ms.custom: 19H1
 
 The 
 <b>ClModifyFlowComplete</b> function is used by traffic control to notify the client of the completion of its previous call to the 
-<a href="https://msdn.microsoft.com/e1b5d987-8365-4fea-a88b-0d574749b38a">TcModifyFlow</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a> function.
 
 The 
 <b>ClModifyFlowComplete</b> callback function is optional. If this function is not specified, 
-<a href="https://msdn.microsoft.com/e1b5d987-8365-4fea-a88b-0d574749b38a">TcModifyFlow</a> will block until it completes.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a> will block until it completes.
 
 
 ## -parameters
@@ -66,13 +66,13 @@ The
 ### -param ClFlowCtx [in]
 
 Client provided–flow context handle. This can be the container used to hold an arbitrary client-defined context for this instance of the client. This value will be the same as the value provided by the client during its corresponding call to 
-<a href="https://msdn.microsoft.com/e1b5d987-8365-4fea-a88b-0d574749b38a">TcModifyFlow</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a>.
 
 
 ### -param Status [in]
 
 Completion status for the 
-<a href="https://msdn.microsoft.com/e1b5d987-8365-4fea-a88b-0d574749b38a">TcModifyFlow</a> request. This value may be any of the return values possible for the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a> request. This value may be any of the return values possible for the 
 <b>TcModifyFlow</b> function, with the exception of ERROR_SIGNAL_PENDING. 
 
 
@@ -96,7 +96,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/e1b5d987-8365-4fea-a88b-0d574749b38a">TcModifyFlow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcmodifyflow">TcModifyFlow</a>
  
 
  

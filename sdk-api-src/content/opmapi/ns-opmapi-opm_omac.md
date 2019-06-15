@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains a Message Authentication Code (MAC) for an <a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a> (OPM) message.
+Contains a Message Authentication Code (MAC) for an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) message.
 
 
 ## -struct-fields
@@ -67,23 +67,23 @@ A buffer that contains the cryptographic MAC value of the message.
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/60d13945-740f-46bd-9602-bacd0dac5e32">OPM_CONFIGURE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-_opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/8959c7d1-9a78-497f-8841-d3e61e9db6a3">OPM_GET_INFO_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/84ffa808-1bdb-47c8-a18c-6dfa6fcf90de">OPM_REQUESTED_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-_opm_requested_information">OPM_REQUESTED_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

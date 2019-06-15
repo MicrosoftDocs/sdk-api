@@ -51,9 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa376210%28v=vs.85%29.aspx">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptCreateHash</b> function initiates the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hashing</a> of a stream of data. It creates and returns to the calling application a handle to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash object</a>. This handle is used in subsequent calls to 
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> and 
-<a href="https://msdn.microsoft.com/75781993-7faf-4149-80cc-ae50dbd4de2a">CryptHashSessionKey</a> to hash session keys and other streams of data.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptCreateHash</b> function initiates the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing</a> of a stream of data. It creates and returns to the calling application a handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>. This handle is used in subsequent calls to 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> to hash session keys and other streams of data.
 
 
 ## -parameters
@@ -64,21 +64,21 @@ ms.custom: 19H1
 ### -param hProv [in]
 
 A handle to a CSP created by a call to 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 
 ### -param Algid [in]
 
-An <a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> value that identifies  the hash algorithm to use.
+An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> value that identifies  the hash algorithm to use.
 
 Valid values for this parameter vary, depending on the CSP that is used. For a list of default algorithms, see  Remarks.
 
 
 ### -param hKey [in]
 
-If the type of hash algorithm is a keyed hash, such as the <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">Hash-Based Message Authentication Code</a> (HMAC) or <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">Message Authentication Code</a> (MAC) algorithm, the key for the hash is passed in this parameter. For nonkeyed algorithms, this parameter must be set to zero.
+If the type of hash algorithm is a keyed hash, such as the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) algorithm, the key for the hash is passed in this parameter. For nonkeyed algorithms, this parameter must be set to zero.
 
-For keyed algorithms, the key must be to a <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">block cipher</a> key, such as RC2, that has a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cipher mode</a> of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Cipher Block Chaining</a> (CBC).
+For keyed algorithms, the key must be to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block cipher</a> key, such as RC2, that has a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher mode</a> of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Cipher Block Chaining</a> (CBC).
 
 
 ### -param dwFlags [in]
@@ -107,7 +107,7 @@ This flag is not used.
 
 ### -param phHash [out]
 
-The address to which the function copies a handle to the new hash object. When you have finished using the hash object, release the handle by calling the <a href="https://msdn.microsoft.com/0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae">CryptDestroyHash</a> function.
+The address to which the function copies a handle to the new hash object. When you have finished using the hash object, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> function.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The address to which the function copies a handle to the new hash object. When y
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by NTE are generated by the particular CSP you are using. The following table shows some of the possible error codes.
 
@@ -188,7 +188,7 @@ The <i>dwFlags</i> parameter is nonzero.
 </dl>
 </td>
 <td width="60%">
-A keyed <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> algorithm, such as <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">CALG_MAC</a>, is specified by <i>Algid</i>, and the <i>hKey</i> parameter is either zero or it specifies a key handle that is not valid. This error code is also returned if the key is to a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">stream cipher</a> or if the cipher mode is anything other than CBC.
+A keyed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> algorithm, such as <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_MAC</a>, is specified by <i>Algid</i>, and the <i>hKey</i> parameter is either zero or it specifies a key handle that is not valid. This error code is also returned if the key is to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a> or if the cipher mode is anything other than CBC.
 
 </td>
 </tr>
@@ -213,34 +213,34 @@ The CSP ran out of memory during the operation.
 
 
 
-For a list of Microsoft service providers and the algorithms they implement, see <a href="https://msdn.microsoft.com/1461914e-5506-4f24-97da-3d2148aafd1c">Microsoft Cryptographic Service Providers</a>.
+For a list of Microsoft service providers and the algorithms they implement, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-cryptographic-service-providers">Microsoft Cryptographic Service Providers</a>.
 
 The computation of the actual hash is done with the 
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> and 
-<a href="https://msdn.microsoft.com/75781993-7faf-4149-80cc-ae50dbd4de2a">CryptHashSessionKey</a> functions. These require a handle to the hash object. After all the data has been added to the hash object, any of the following operations can be performed:
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> functions. These require a handle to the hash object. After all the data has been added to the hash object, any of the following operations can be performed:
 
 <ul>
 <li>The hash value can be retrieved by using 
-<a href="https://msdn.microsoft.com/ed008c07-1a40-4075-bdaa-eb7f7e12d9c3">CryptGetHashParam</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>.</li>
 <li>A session key can be derived by using 
-<a href="https://msdn.microsoft.com/b031e3b4-0102-400e-96db-019d31402adc">CryptDeriveKey</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a>.</li>
 <li>The hash can be signed by using 
-<a href="https://msdn.microsoft.com/9cf0de04-fdad-457d-8137-16d98f915cd5">CryptSignHash</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>.</li>
 <li>A signature can be verified by using 
-<a href="https://msdn.microsoft.com/3119eabc-90ff-42c6-b3fa-e8be625f6d1e">CryptVerifySignature</a>.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>.</li>
 </ul>
 After one of the functions from this list has been called, 
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> and 
-<a href="https://msdn.microsoft.com/75781993-7faf-4149-80cc-ae50dbd4de2a">CryptHashSessionKey</a> cannot be called.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> cannot be called.
 
 
 #### Examples
 
 The following example shows initiating the hashing of a stream of data. It creates and returns to the calling application a handle to a hash object. This handle is used in subsequent calls to 
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a> and 
-<a href="https://msdn.microsoft.com/75781993-7faf-4149-80cc-ae50dbd4de2a">CryptHashSessionKey</a> to hash any stream of data. For an example that includes the complete context for this example, see 
-<a href="https://msdn.microsoft.com/15d4a05d-5888-4532-91fd-6cd94afe0b99">Example C Program: Creating and Hashing a Session Key</a>.
-For another example that uses this function, see <a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> to hash any stream of data. For an example that includes the complete context for this example, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-creating-and-hashing-a-session-key">Example C Program: Creating and Hashing a Session Key</a>.
+For another example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-signing-a-hash-and-verifying-the-hash-signature">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
 
 
 ```cpp
@@ -307,43 +307,43 @@ if(hCryptProv)
 
 
 
-<a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/b031e3b4-0102-400e-96db-019d31402adc">CryptDeriveKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae">CryptDestroyHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed008c07-1a40-4075-bdaa-eb7f7e12d9c3">CryptGetHashParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec1482a2-c2cb-4c5f-af9c-d493134413d6">CryptHashData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
 
 
 
-<a href="https://msdn.microsoft.com/75781993-7faf-4149-80cc-ae50dbd4de2a">CryptHashSessionKey</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da">CryptSetHashParam</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsethashparam">CryptSetHashParam</a>
 
 
 
-<a href="https://msdn.microsoft.com/9cf0de04-fdad-457d-8137-16d98f915cd5">CryptSignHash</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/3119eabc-90ff-42c6-b3fa-e8be625f6d1e">CryptVerifySignature</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
  
 
  

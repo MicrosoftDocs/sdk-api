@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-Applications use the methods of the <b>IDirect3D9Ex</b> interface (which inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>) to create Microsoft Direct3D 9Ex objects and set up the environment. This interface includes methods for enumerating and retrieving capabilities of the device and is available when the underlying device implementation is compliant with Windows Vista.
+Applications use the methods of the <b>IDirect3D9Ex</b> interface (which inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>) to create Microsoft Direct3D 9Ex objects and set up the environment. This interface includes methods for enumerating and retrieving capabilities of the device and is available when the underlying device implementation is compliant with Windows Vista.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3D9Ex</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>. <b>IDirect3D9Ex</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3D9Ex</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>. <b>IDirect3D9Ex</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3D9Ex</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174302(v=VS.85).aspx">CreateDeviceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex">CreateDeviceEx</a>
 </td>
 <td align="left" width="63%">
 Creates a device to represent the display adapter.
@@ -79,7 +79,7 @@ Creates a device to represent the display adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174303(v=VS.85).aspx">EnumAdapterModesEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-enumadaptermodesex">EnumAdapterModesEx</a>
 </td>
 <td align="left" width="63%">
 This method returns the actual display mode info based on the given mode index.
@@ -88,7 +88,7 @@ This method returns the actual display mode info based on the given mode index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174304(v=VS.85).aspx">GetAdapterDisplayModeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-getadapterdisplaymodeex">GetAdapterDisplayModeEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current display mode and rotation settings of the adapter.
@@ -97,7 +97,7 @@ Retrieves the current display mode and rotation settings of the adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174305(v=VS.85).aspx">GetAdapterLUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-getadapterluid">GetAdapterLUID</a>
 </td>
 <td align="left" width="63%">
 This method returns a unique identifier for the adapter that is specific to the adapter hardware. Applications can use this identifier to define robust mappings across various APIs (Direct3D 9, DXGI).
@@ -106,7 +106,7 @@ This method returns a unique identifier for the adapter that is specific to the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174306(v=VS.85).aspx">GetAdapterModeCountEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-getadaptermodecountex">GetAdapterModeCountEx</a>
 </td>
 <td align="left" width="63%">
 Returns the number of display modes available.
@@ -120,7 +120,7 @@ Returns the number of display modes available.
 
 
 
-The <b>IDirect3D9Ex</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb219676(v=VS.85).aspx">Direct3DCreate9Ex</a> function.
+The <b>IDirect3D9Ex</b> interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-direct3dcreate9ex">Direct3DCreate9Ex</a> function.
 
 The <b>LPDIRECT3D9EX</b> and <b>PDIRECT3D9EX</b> types are defined as pointers to the <b>IDirect3D9Ex</b> interface:
 
@@ -143,11 +143,11 @@ typedef struct IDirect3D9Ex *LPDIRECT3D9EX, *PDIRECT3D9EX;
 
 
 
-<a href="https://msdn.microsoft.com/f12facdc-5a3f-4f89-8ae3-a322ef3389b2">Direct3D Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
  
 
  

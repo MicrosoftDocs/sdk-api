@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ITfRangeBackup</b> interface is implemented by the TSF manager and is used by a text service to create a backup copy of the data contained in a range object. This backup copy can be used later to restore the range object. An instance of this interface is obtained by calling <a href="https://msdn.microsoft.com/c3b52170-af1b-407b-9160-1265ae3c9afc">ITfContext::CreateRangeBackup</a>.
+The <b>ITfRangeBackup</b> interface is implemented by the TSF manager and is used by a text service to create a backup copy of the data contained in a range object. This backup copy can be used later to restore the range object. An instance of this interface is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-createrangebackup">ITfContext::CreateRangeBackup</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfRangeBackup</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfRangeBackup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfRangeBackup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfRangeBackup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfRangeBackup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb168504-34c0-4d30-826e-61926fd10a2a">Restore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">Restore</a>
 </td>
 <td align="left" width="63%">
 Restores a specified range object into the TSF context.
@@ -84,21 +84,21 @@ Restores a specified range object into the TSF context.
 
 
 
-<a href="https://msdn.microsoft.com/c3b52170-af1b-407b-9160-1265ae3c9afc">ITfContext::CreateRangeBackup
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-createrangebackup">ITfContext::CreateRangeBackup
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/2b85012f-b090-4c91-b29c-b2470ff63ab6">ITfRange::Clone
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-clone">ITfRange::Clone
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
  
 
  

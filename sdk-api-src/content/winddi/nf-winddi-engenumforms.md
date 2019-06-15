@@ -59,7 +59,7 @@ The <b>EngEnumForms</b> function enumerates the forms supported by the specified
 
 ### -param hPrinter [in]
 
-Handle to the printer for which the forms should be enumerated. This is the PDEV handle that is passed as the <i>hDriver</i> parameter of <a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>.
+Handle to the printer for which the forms should be enumerated. This is the PDEV handle that is passed as the <i>hDriver</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 
 ### -param Level [in]
@@ -91,7 +91,7 @@ Pointer to a DWORD that receives the number of FORM_INFO_1 structures copied int
 
 
 
-<b>EngEnumForms</b> returns <b>TRUE</b> if all parameters are valid and the enumerated form data is successfully copied into <i>pForm</i>. Otherwise, it returns <b>FALSE</b> and an error message is logged. To get error information, call <a href="https://msdn.microsoft.com/47138077-125e-4da9-b0de-e437a9b1733d">EngGetLastError</a>.
+<b>EngEnumForms</b> returns <b>TRUE</b> if all parameters are valid and the enumerated form data is successfully copied into <i>pForm</i>. Otherwise, it returns <b>FALSE</b> and an error message is logged. To get error information, call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetlasterror">EngGetLastError</a>.
 
 
 
@@ -110,11 +110,11 @@ A printer driver can call <b>EngEnumForms</b> to have GDI obtain the list of for
 
 
 
-<a href="https://msdn.microsoft.com/9a7ed18a-f21c-486b-9261-59a3fe5aef9e">DrvEnablePDEV</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://msdn.microsoft.com/47138077-125e-4da9-b0de-e437a9b1733d">EngGetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetlasterror">EngGetLastError</a>
  
 
  

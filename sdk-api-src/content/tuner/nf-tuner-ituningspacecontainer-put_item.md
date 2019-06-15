@@ -67,7 +67,7 @@ The <b>put_Item</b> method saves changes to an existing tuning space in the coll
 
 ### -param TuningSpace [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> interface of the tuning space.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface of the tuning space.
 
 
 ## -returns
@@ -126,9 +126,9 @@ If the method fails, error information can be retrieved using the standard COM <
 
 
 
-An application can retrieve an existing tuning space from the collection, modify its properties by calling <a href="https://msdn.microsoft.com/51850105-b3b1-4758-acde-05ca2f3439f2">ITuningSpace</a> methods, and then call <b>put_Item</b> to save the changes. The unique name property on the tuning space must match the tuning space at the specified index in the collection; otherwise, the method returns E_INVALIDARG.
+An application can retrieve an existing tuning space from the collection, modify its properties by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> methods, and then call <b>put_Item</b> to save the changes. The unique name property on the tuning space must match the tuning space at the specified index in the collection; otherwise, the method returns E_INVALIDARG.
 
-To add a new tuning space, use the <a href="https://msdn.microsoft.com/9c7faab5-48d4-47fa-be8a-7dafce8504a6">ITuningSpaceContainer::Add</a> method.
+To add a new tuning space, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-add">ITuningSpaceContainer::Add</a> method.
 
 
 
@@ -138,7 +138,7 @@ To add a new tuning space, use the <a href="https://msdn.microsoft.com/9c7faab5-
 
 
 
-<a href="https://msdn.microsoft.com/8f053c53-2a2b-4d98-a510-c516faa21611">ITuningSpaceContainer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
  
 
  

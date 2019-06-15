@@ -51,16 +51,16 @@ ms.custom: 19H1
 
 
 
-The <code>IMixerOCX</code> interface is implemented on the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a>. This interface enables clients that do not own their own windows, such as an ActiveX control, to set properties of the video rectangle and advise the filter of events.
+The <code>IMixerOCX</code> interface is implemented on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>. This interface enables clients that do not own their own windows, such as an ActiveX control, to set properties of the video rectangle and advise the filter of events.
 
-<div class="alert"><b>Note</b>  Applications should generally use the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9) and not the Overlay Mixer. The only scenario that requires the Overlay Mixer is when the video capture or decoder hardware uses video ports to transfer video data to the graphics card. The VMR-9 does not support video ports.</div>
+<div class="alert"><b>Note</b>  Applications should generally use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9) and not the Overlay Mixer. The only scenario that requires the Overlay Mixer is when the video capture or decoder hardware uses video ports to transfer video data to the graphics card. The VMR-9 does not support video ports.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerOCX</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMixerOCX</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerOCX</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMixerOCX</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,25 +75,16 @@ The <b>IMixerOCX</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407089(v=VS.85).aspx">Advise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-advise">Advise</a>
 </td>
 <td align="left" width="63%">
-Provides the Overlay Mixer with a pointer to the client's <a href="https://msdn.microsoft.com/en-us/library/Dd407085(v=VS.85).aspx">IMixerOCXNotify</a> interface for callback notifications.
+Provides the Overlay Mixer with a pointer to the client's <a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify">IMixerOCXNotify</a> interface for callback notifications.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407090(v=VS.85).aspx">GetAspectRatio</a>
-</td>
-<td align="left" width="63%">
-Not implemented.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407091(v=VS.85).aspx">GetStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-getaspectratio">GetAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -102,7 +93,16 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407092(v=VS.85).aspx">GetVideoSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-getstatus">GetStatus</a>
+</td>
+<td align="left" width="63%">
+Not implemented.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-getvideosize">GetVideoSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current size of the video rectangle.
@@ -111,7 +111,7 @@ Retrieves the current size of the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407093(v=VS.85).aspx">OnDisplayChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-ondisplaychange">OnDisplayChange</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -120,7 +120,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407094(v=VS.85).aspx">OnDraw</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-ondraw">OnDraw</a>
 </td>
 <td align="left" width="63%">
 Instructs the Overlay Mixer to draw the video rectangle.
@@ -129,7 +129,7 @@ Instructs the Overlay Mixer to draw the video rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407095(v=VS.85).aspx">SetDrawRegion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-setdrawregion">SetDrawRegion</a>
 </td>
 <td align="left" width="63%">
 Specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
@@ -138,7 +138,7 @@ Specifies the location and dimensions of the video and clipping rectangles in sc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd407096(v=VS.85).aspx">UnAdvise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nf-mixerocx-imixerocx-unadvise">UnAdvise</a>
 </td>
 <td align="left" width="63%">
 Instructs the Overlay Mixer to release its pointer to the client's <b>IMixerOCXNotify</b> interface.

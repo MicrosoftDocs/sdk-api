@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a header for an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>.
+Represents a header for an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ Reserved for future use in a non 64-bit environment.
 
 
 
-<a href="https://msdn.microsoft.com/0361BB7E-DA49-4289-A93E-DE7AAB8712AC">WindowsCreateStringReference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>
  
 
  

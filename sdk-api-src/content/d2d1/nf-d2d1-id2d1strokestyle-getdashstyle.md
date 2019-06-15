@@ -63,9 +63,9 @@ Gets a value that describes the stroke's dash pattern.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/0c1807e3-51e6-440a-bd80-9b43ed7a39f5">D2D1_DASH_STYLE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE</a></b>
 
-A value that describes the predefined dash pattern used, or <a href="https://msdn.microsoft.com/0c1807e3-51e6-440a-bd80-9b43ed7a39f5">D2D1_DASH_STYLE_CUSTOM</a> if a custom dash style is used.
+A value that describes the predefined dash pattern used, or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style">D2D1_DASH_STYLE_CUSTOM</a> if a custom dash style is used.
 
 
 
@@ -74,7 +74,7 @@ A value that describes the predefined dash pattern used, or <a href="https://msd
 
 
 
-If a custom dash style is specified, the dash pattern is described by the dashes array, which can be retrieved by calling the <a href="https://msdn.microsoft.com/b5add3b9-e052-4727-b14f-543fa452ad6d">GetDashes</a> method.
+If a custom dash style is specified, the dash pattern is described by the dashes array, which can be retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1strokestyle-getdashes">GetDashes</a> method.
 
 
 
@@ -84,7 +84,7 @@ If a custom dash style is specified, the dash pattern is described by the dashes
 
 
 
-<a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

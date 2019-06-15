@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-The <b>IMDServiceProvider3</b> interface extends the <a href="https://msdn.microsoft.com/d9ffaea8-5616-4bc2-a27c-8b77ea177b6b">IMDServiceProvider2</a> interface by providing a method for setting the device enumeration preferences.
+The <b>IMDServiceProvider3</b> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2</a> interface by providing a method for setting the device enumeration preferences.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDServiceProvider3</b> interface inherits from <a href="https://msdn.microsoft.com/d9ffaea8-5616-4bc2-a27c-8b77ea177b6b">IMDServiceProvider2</a>. <b>IMDServiceProvider3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDServiceProvider3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2</a>. <b>IMDServiceProvider3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMDServiceProvider3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3807e80-82ea-437e-ab30-bd00bc0fc6ad">SetDeviceEnumPreference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider3-setdeviceenumpreference">SetDeviceEnumPreference</a>
 </td>
 <td align="left" width="63%">
 Sets the device enumeration preferences.
@@ -87,11 +87,11 @@ Sets the device enumeration preferences.
 
 
 
-<a href="https://msdn.microsoft.com/d9ffaea8-5616-4bc2-a27c-8b77ea177b6b">IMDServiceProvider2 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2">IMDServiceProvider2 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd61c5fa-047c-4d93-bae1-f3433696b95b">Interfaces for Service Providers</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
  
 
  

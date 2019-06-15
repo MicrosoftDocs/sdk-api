@@ -92,7 +92,7 @@ Target phrase length of composition string.
 
 
 
-<a href="https://msdn.microsoft.com/C74B0374-D6C7-44C7-94EF-E97B46534462">IImePad::Request</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepad-request">IImePad::Request</a>
  
 
  

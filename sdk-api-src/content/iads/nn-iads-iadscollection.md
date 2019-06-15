@@ -53,12 +53,12 @@ The <b>IADsCollection</b> interface is a dual interface that enables its hosting
 
 Collection objects can represent one or more items that correspond to volatile data, such as processes or active communication sessions, as well as persistent data, such as physical entities for a directory service. For example, a collection object can represent a list of print jobs in a queue or a list of active sessions connected to a server. Although a collection object can represent arbitrary data sets, all elements in a collection must be of the same type. The data are of <b>Variant</b> types.
 
-ADSI also exposes the  <a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a> and  <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a> interfaces for manipulating two special cases of collection objects. <b>IADsMembers</b> is used for a collection of objects that share a common membership. An example of such objects are users that belong to a group. <b>IADsContainer</b> applies to an ADSI object that contains other objects. An example of this is a directory tree or a network topology.
+ADSI also exposes the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interfaces for manipulating two special cases of collection objects. <b>IADsMembers</b> is used for a collection of objects that share a common membership. An example of such objects are users that belong to a group. <b>IADsContainer</b> applies to an ADSI object that contains other objects. An example of this is a directory tree or a network topology.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IADsCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c4f0dc3e-238c-4fd3-adb7-9d467efc8c3d">Add</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an object to the collection.
@@ -82,7 +82,7 @@ Adds an object to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/db2630d0-26be-4cf1-811e-fc1d2007dda5">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Gets an interface on an enumerator object.
@@ -91,7 +91,7 @@ Gets an interface on an enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04b33451-505e-43de-8db4-3e37f9909ea6">GetObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Gets the specified item.
@@ -100,7 +100,7 @@ Gets the specified item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21ce80fe-542b-4350-b66c-fa26f62ca611">Remove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an object from the collection.
@@ -124,15 +124,15 @@ Of the ADSI system providers, only the WinNT provider supports this interface to
 
 
 
-<a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2">IADsContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/889e8fc1-61a6-4a3a-82ac-85d41f664149">IADsMembers</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

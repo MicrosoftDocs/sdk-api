@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents information about the <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">Failover</a> attempts for a group failure.
+Represents information about the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover">Failover</a> attempts for a group failure.
 
 
 ## -struct-fields
@@ -60,12 +60,12 @@ Represents information about the <a href="https://msdn.microsoft.com/6722d075-02
 
 ### -field dwFailoverAttemptsRemaining
 
-The number of remaining failover attempts that can be made on the group during the current <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a>  time interval.
+The number of remaining failover attempts that can be made on the group during the current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>  time interval.
 
 
 ### -field dwFailoverPeriodRemaining
 
-The amount of time remaining for the <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a>, in hours.
+The amount of time remaining for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-failoverperiod">FailoverPeriod</a>, in hours.
 
 
 ## -see-also
@@ -73,7 +73,7 @@ The amount of time remaining for the <a href="https://msdn.microsoft.com/5277a4a
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
  
 
  

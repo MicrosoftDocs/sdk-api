@@ -53,7 +53,7 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IATSC_ETT</b> interface enables the client to get information from an extended text table (ETT). The <a href="https://msdn.microsoft.com/6838620a-3dee-468e-bfc8-00757c06263e">IAtscPsipParser::GetETT</a> method returns a pointer to this interface.
+The <b>IATSC_ETT</b> interface enables the client to get information from an extended text table (ETT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getett">IAtscPsipParser::GetETT</a> method returns a pointer to this interface.
 
 An ETT provides text descriptions for events or virtual channels. Each ETT contains a single extended text message (ETM) stream. The ETM stream might contain descriptions for multiple languages.
 
@@ -62,7 +62,7 @@ An ETT provides text descriptions for events or virtual channels. Each ETT conta
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_ETT</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IATSC_ETT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSC_ETT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IATSC_ETT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IATSC_ETT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e45e6709-bb16-4644-b2d1-2ffd6d85f224">GetEtmId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getetmid">GetEtmId</a>
 </td>
 <td align="left" width="63%">
 Returns the ETM identifier.
@@ -86,7 +86,7 @@ Returns the ETM identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e1b5f65-4662-41aa-8a11-cce6a2debb9e">GetExtendedMessageText</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getextendedmessagetext">GetExtendedMessageText</a>
 </td>
 <td align="left" width="63%">
 Returns the message text.
@@ -95,7 +95,7 @@ Returns the message text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2fc7673c-486a-48dc-a283-55fbef42a2b0">GetProtocolVersion</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getprotocolversion">GetProtocolVersion</a>
 </td>
 <td align="left" width="63%">
 Returns the protocol version of the table.
@@ -104,7 +104,7 @@ Returns the protocol version of the table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd9eefda-51ff-472c-b363-2f3c21ae2fec">GetVersionNumber</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the ETT.
@@ -113,7 +113,7 @@ Returns the version number for the ETT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2278b4e0-f30d-4405-a05b-8cd93b1de185">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_ett-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -128,7 +128,7 @@ Initializes the object.
 
 
 
-<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
  
 
  

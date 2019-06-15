@@ -61,7 +61,7 @@ Retrieves a list of providers that have registered a MOF class or manifest file 
 
 ### -param pBuffer [out]
 
-Array of providers that publicly define  their events on the computer. For details, see the <a href="https://msdn.microsoft.com/bb4548fb-70e5-4726-bc92-adb7ba7be0e4">PROVIDER_ENUMERATION_INFO</a> structure.
+Array of providers that publicly define  their events on the computer. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-_provider_enumeration_info">PROVIDER_ENUMERATION_INFO</a> structure.
 
 
 ### -param pBufferSize [in, out]
@@ -117,7 +117,7 @@ Because the number of registered event providers may fluctuate between calls to 
 
 #### Examples
 
-For an example that shows how to enumerate providers, see <a href="https://msdn.microsoft.com/79a29a55-e211-4921-ac78-a21ef8ef238f">Enumerating Providers</a>.
+For an example that shows how to enumerate providers, see <a href="https://docs.microsoft.com/windows/desktop/ETW/enumerating-providers">Enumerating Providers</a>.
 
 <div class="code"></div>
 
@@ -128,7 +128,7 @@ For an example that shows how to enumerate providers, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/ab34a433-b641-4408-81d5-c93609204d24">TdhEnumerateProviderFieldInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfieldinformation">TdhEnumerateProviderFieldInformation</a>
  
 
  

@@ -86,7 +86,7 @@ The type of structure that the function stores in the buffer pointed to by the <
 </td>
 <td width="60%">
 The function stores a 
-<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structure in the buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure in the buffer.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The function stores a
 </td>
 <td width="60%">
 The function stores a 
-<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> structure in the buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> structure in the buffer.
 
 </td>
 </tr>
@@ -105,10 +105,10 @@ The function stores a
  
 
 The 
-<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structure points to a Universal Naming Convention (UNC) name string.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure points to a Universal Naming Convention (UNC) name string.
 
 The 
-<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> structure points to a UNC name string and two additional connection information strings. For more information, see the following Remarks section.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> structure points to a UNC name string and two additional connection information strings. For more information, see the following Remarks section.
 
 
 ### -param lpBuffer [out]
@@ -130,7 +130,7 @@ If the function succeeds, it sets the variable pointed to by <i>lpBufferSize</i>
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -167,7 +167,7 @@ There is no current connection to the remote device, but there is a remembered (
 </td>
 <td width="60%">
 A network-specific error occurred. Use the 
-<a href="https://msdn.microsoft.com/8e13c467-adcf-4e97-b51a-1f5fc919b51e">WNetGetLastError</a> function to obtain a description of the error.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
 
 </td>
 </tr>
@@ -248,23 +248,23 @@ Using the example from the preceding description of the <i>lpLocalPath</i> param
 <pre class="syntax" xml:space="preserve"><code>\\coolserver\hotshare\win32\examples\sample.doc 
 </code></pre>
 The 
-<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structure contains a pointer to a UNC name string. The 
-<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> structure also contains a pointer to a UNC name string as well as pointers to two other useful strings. For example, a process can pass the 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a> structure contains a pointer to a UNC name string. The 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> structure also contains a pointer to a UNC name string as well as pointers to two other useful strings. For example, a process can pass the 
 <b>REMOTE_NAME_INFO</b> structure's <b>lpszConnectionInfo</b> member to the 
-<a href="https://msdn.microsoft.com/faec728c-f19e-418c-9bdb-cde93e7d98fb">WNetAddConnection2</a> function to connect a local device to the network resource. Then the process can append the string pointed to by the <b>lpszRemainingPath</b> member to the local device string. The resulting string can be passed to functions that require a drive-based path.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function to connect a local device to the network resource. Then the process can append the string pointed to by the <b>lpszRemainingPath</b> member to the local device string. The resulting string can be passed to functions that require a drive-based path.
 
 The <i>lpLocalPath</i> parameter does not have to specify a path or resource that is already present on a remote resource.  For example, the <i>lpLocalPath</i> parameter could specify and folder, a hieracrchy of folders, or a file that does not currently exist. The
 				<b>WNetGetUniversalName</b> function returns a more universal form of the name in these cases.
 
-The size of the buffer pointed to by the <i>lpBuffer</i> parameter and specified in the <i>lpBufferSize</i> parameter must be much larger than the size of the <a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a> 
-		 or <a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a> structures. The buffer pointed to by the <i>lpBuffer</i> parameter must be large enough to store the UNC strings pointed to by the members in the <b>REMOTE_NAME_INFO</b> 
+The size of the buffer pointed to by the <i>lpBuffer</i> parameter and specified in the <i>lpBufferSize</i> parameter must be much larger than the size of the <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a> 
+		 or <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a> structures. The buffer pointed to by the <i>lpBuffer</i> parameter must be large enough to store the UNC strings pointed to by the members in the <b>REMOTE_NAME_INFO</b> 
 		 or <b>UNIVERSAL_NAME_INFO</b> structures. If the buffer size is too small, then the function fails with ERROR_MORE_DATA and the variable pointed to by the <i>lpBufferSize</i> parameter indicates the required buffer size.
 
 <b>Windows Server 2003 and Windows XP:  </b>This function queries the MS-DOS device namespaces associated with a logon session because MS-DOS devices are identified by AuthenticationID. (An AuthenticationID is the 
-<a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
-<a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
-<a href="https://msdn.microsoft.com/21a66050-3bab-4c70-9003-3b52e8c72b00">GetLogicalDrives</a> function. <b>GetLogicalDrives</b> does not return network drive letters created by a WNet function under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
-<a href="https://msdn.microsoft.com/7d802e9f-dc09-4e3d-b064-e9b57af396e2">Defining an MS-DOS Device Name</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. <b>GetLogicalDrives</b> does not return network drive letters created by a WNet function under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 
 #### Examples
@@ -343,28 +343,28 @@ int wmain(int argc, wchar_t * argv[])
 
 
 
-<a href="https://msdn.microsoft.com/ce57fecb-8b14-4514-a3fd-45d7ef6eee89">Determining the Location of a Share</a>
+<a href="https://docs.microsoft.com/windows/desktop/WNet/determining-the-location-of-a-share">Determining the Location of a Share</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cc2ae86-8a46-4e1b-8c28-5904486ffcb5">REMOTE_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-remote_name_infow">REMOTE_NAME_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/36e64c8a-595a-4d41-aa83-592d525c98ee">UNIVERSAL_NAME_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-universal_name_infoa">UNIVERSAL_NAME_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/faec728c-f19e-418c-9bdb-cde93e7d98fb">WNetAddConnection2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
  
 

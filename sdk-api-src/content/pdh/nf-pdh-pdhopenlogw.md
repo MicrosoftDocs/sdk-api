@@ -177,7 +177,7 @@ Creates a circular log file with the specified name. When the file reaches the v
 </dl>
 </td>
 <td width="60%">
-Used with <b>PDH_LOG_TYPE_TSV</b> to write the user caption or log file description indicated by the <i>szUserString</i> parameter of <a href="https://msdn.microsoft.com/b2052275-6944-41f4-92ac-38967ed270f3">PdhUpdateLog</a> or <b>PdhOpenLog</b>. The user caption or log file description is written  as the  last column in the first line of the text log.
+Used with <b>PDH_LOG_TYPE_TSV</b> to write the user caption or log file description indicated by the <i>szUserString</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a> or <b>PdhOpenLog</b>. The user caption or log file description is written  as the  last column in the first line of the text log.
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ Binary log file format.
 ### -param hQuery [in]
 
 Specify a query handle if you are writing query data to a log file. The 
-<a href="https://msdn.microsoft.com/ec4e5353-c7f5-4957-b7f4-39df508846a0">PdhOpenQuery</a> function returns this handle. 
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> function returns this handle. 
 
 
 
@@ -292,8 +292,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. 
 
 
 
@@ -303,7 +303,7 @@ If the function fails, the return value is a
 
 
 To use this function to write performance data to a log file, you must open a query using 
-<a href="https://msdn.microsoft.com/ec4e5353-c7f5-4957-b7f4-39df508846a0">PdhOpenQuery</a> and add the desired counters to it, before calling this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a> and add the desired counters to it, before calling this function.
 
 Newer operating systems can read log files that were generated on older operating systems; however, log files that were created on Windows Vista and later operating systems cannot be read on earlier operating systems.
 
@@ -318,7 +318,7 @@ The following rules apply to log files
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/a1bc40ea-d928-495a-abc0-daf097202a12">Writing Performance Data to a Log File</a>.
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/writing-performance-data-to-a-log-file">Writing Performance Data to a Log File</a>.
 
 <div class="code"></div>
 
@@ -329,19 +329,19 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/2bb94019-c664-4144-98b6-a0a545f7e4c1">PdhGetLogFileSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec4e5353-c7f5-4957-b7f4-39df508846a0">PdhOpenQuery</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2052275-6944-41f4-92ac-38967ed270f3">PdhUpdateLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdateloga">PdhUpdateLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8aa8462-48f1-4ccd-8c41-a7358975e056">PdhUpdateLogFileCatalog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>
  
 
  

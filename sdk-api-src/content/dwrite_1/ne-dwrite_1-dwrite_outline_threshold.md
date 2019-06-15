@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DWRITE_OUTLINE_THRESHOLD</b> enumeration contains values that specify the policy used by the <a href="https://msdn.microsoft.com/54504bcb-b05c-4b63-8704-8d718cf2ee16">IDWriteFontFace1::GetRecommendedRenderingMode</a> method to determine whether to render glyphs in outline mode.
+The <b>DWRITE_OUTLINE_THRESHOLD</b> enumeration contains values that specify the policy used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getrecommendedrenderingmode">IDWriteFontFace1::GetRecommendedRenderingMode</a> method to determine whether to render glyphs in outline mode.
 
 
 ## -enum-fields
@@ -81,7 +81,7 @@ Glyphs are rendered in outline mode by default at large sizes for performance re
 
 
 
-<a href="https://msdn.microsoft.com/54504bcb-b05c-4b63-8704-8d718cf2ee16">IDWriteFontFace1::GetRecommendedRenderingMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontface-getrecommendedrenderingmode">IDWriteFontFace1::GetRecommendedRenderingMode</a>
  
 
  

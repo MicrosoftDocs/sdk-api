@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_KEYGEN_REQUEST_INFO</b> structure contains information stored in the Netscape key generation request. The subject and subject <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key BLOBs</a> are encoded.
+The <b>CERT_KEYGEN_REQUEST_INFO</b> structure contains information stored in the Netscape key generation request. The subject and subject <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key BLOBs</a> are encoded.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The version number of the certificate. <b>CERT_KEYGEN_REQUEST_V1</b> (0) is the 
 
 ### -field SubjectPublicKeyInfo
 
-A <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure that contains the encoded <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> and <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key algorithm</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key algorithm</a>.
 
 
 ### -field pwszChallengeString
@@ -77,7 +77,7 @@ A random printable string. This string is used by the server to ensure that the 
 
 
 
-<a href="https://msdn.microsoft.com/6edeed33-16e1-4295-90e9-769929ab916a">CERT_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_request_info">CERT_REQUEST_INFO</a>
  
 
  

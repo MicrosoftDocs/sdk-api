@@ -172,9 +172,9 @@ The VidPN cannot establish the topology.
 
 
 
-<b>SetActiveTopology</b> uses the data that was received from a previous call to the <a href="https://msdn.microsoft.com/9862cbf4-26d7-440c-a1eb-bd8decd257c0">IViewHelper::GetActiveTopology</a> method. 
+<b>SetActiveTopology</b> uses the data that was received from a previous call to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568169(v=vs.85)">IViewHelper::GetActiveTopology</a> method. 
 
-For the topology that the <b>SetActiveTopology</b> parameters specify to take affect, the VidPN must be invalidated through a call to the <a href="https://msdn.microsoft.com/f2d4ffcd-b1b4-419c-8c22-1f2561d77138">IViewHelper::Commit</a> method. 
+For the topology that the <b>SetActiveTopology</b> parameters specify to take affect, the VidPN must be invalidated through a call to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568167(v=vs.85)">IViewHelper::Commit</a> method. 
 
 <b>SetActiveTopology</b> is used only when a display configuration that cannot be established through a call to the Win32 <b>ChangeDisplaySettingsEx</b> function must be set. For example, for clone view on a graphics adapter, the adapter name is the string that was obtained from the <b>DeviceKey</b> member of the DISPLAY_DEVICE structure in a call to the <b>EnumDisplayDevices</b> function. For more information about <b>ChangeDisplaySettingsEx</b>, DISPLAY_DEVICE, and <b>EnumDisplayDevices</b>, see the Windows SDK documentation. 
 
@@ -186,11 +186,11 @@ For the topology that the <b>SetActiveTopology</b> parameters specify to take af
 
 
 
-<a href="https://msdn.microsoft.com/f2d4ffcd-b1b4-419c-8c22-1f2561d77138">IViewHelper::Commit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568167(v=vs.85)">IViewHelper::Commit</a>
 
 
 
-<a href="https://msdn.microsoft.com/9862cbf4-26d7-440c-a1eb-bd8decd257c0">IViewHelper::GetActiveTopology</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568169(v=vs.85)">IViewHelper::GetActiveTopology</a>
  
 
  

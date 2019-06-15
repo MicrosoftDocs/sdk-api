@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Uninstalls a set of disks.
 
@@ -98,10 +98,10 @@ The address of a caller-allocated array of <b>HRESULT</b> values. The number of 
 
 This method can return standard <b>HRESULT</b> values, such as 
       <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
-      <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It 
-      can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a> using 
-      the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate 
-      from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is 
+      <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It 
+      can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> using 
+      the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate 
+      from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is 
       being used. Possible return values include the following.
 
 <table>
@@ -253,7 +253,7 @@ When removing a dynamic volume that spans more than one disk, you must call this
 
 For instructions on how to uninstall a disk on Windows Server 2003 releases where the 
     <b>UninstallDisks</b> 
-    method is not supported, see the Remarks section of the <a href="https://msdn.microsoft.com/b7e841cc-95b4-452f-ac14-d7063fe6a694">IVdsLun::SetMask</a> 
+    method is not supported, see the Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-setmask">IVdsLun::SetMask</a> 
     method.
 
 
@@ -264,7 +264,7 @@ For instructions on how to uninstall a disk on Windows Server 2003 releases whe
 
 
 
-<a href="https://msdn.microsoft.com/2d111105-9970-40a3-bb8d-a92d38985fd9">IVdsServiceUninstallDisk</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsserviceuninstalldisk">IVdsServiceUninstallDisk</a>
  
 
  

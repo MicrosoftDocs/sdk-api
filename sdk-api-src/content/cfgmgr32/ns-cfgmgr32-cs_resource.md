@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">Hardware Resources</a>.
+The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The CS_RESOURCE structure is used for specifying a resource list that describes 
 
 ### -field CS_Header
 
-A <a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a> structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des_s">CS_DES</a> structure.
 
 
 ## -see-also
@@ -67,7 +67,7 @@ A <a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_D
 
 
 
-<a href="https://msdn.microsoft.com/16b47fe9-cb84-453d-b515-bfdba254f947">CS_DES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des_s">CS_DES</a>
  
 
  

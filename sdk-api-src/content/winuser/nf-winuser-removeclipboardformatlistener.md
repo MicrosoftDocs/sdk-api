@@ -71,7 +71,7 @@ A handle to the window to remove from the clipboard format listener list.
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for additional details.
+Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for additional details.
 
 
 
@@ -80,7 +80,7 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="https:/
 
 
 
-When a window has been removed from the clipboard format listener list, it will no longer receive <a href="https://msdn.microsoft.com/en-us/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a> messages.
+When a window has been removed from the clipboard format listener list, it will no longer receive <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-clipboardupdate">WM_CLIPBOARDUPDATE</a> messages.
 
 
 
@@ -90,15 +90,15 @@ When a window has been removed from the clipboard format listener list, it will 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649033(v=VS.85).aspx">AddClipboardFormatListener</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-addclipboardformatlistener">AddClipboardFormatListener</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649042(v=VS.85).aspx">GetClipboardSequenceNumber</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardsequencenumber">GetClipboardSequenceNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649021(v=VS.85).aspx">WM_CLIPBOARDUPDATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-clipboardupdate">WM_CLIPBOARDUPDATE</a>
  
 
  

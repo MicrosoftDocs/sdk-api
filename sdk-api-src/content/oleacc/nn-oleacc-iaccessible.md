@@ -83,7 +83,7 @@ Exposes methods and properties that make a user interface element and its childr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessible</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAccessible</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessible</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAccessible</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -99,7 +99,7 @@ The <b>IAccessible</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5b731f52-d0b0-4b69-91a0-fdd84e91533d">accDoDefaultAction</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accdodefaultaction">accDoDefaultAction</a>
 </td>
 <td align="left" width="63%">
 Performs the specified object's default action. Not all objects have a default action.
@@ -108,7 +108,7 @@ Performs the specified object's default action. Not all objects have a default a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87327086-a8f3-4d1c-ab4d-8f5aba00c61a">accHitTest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acchittest">accHitTest</a>
 </td>
 <td align="left" width="63%">
 Retrieves the child element or child object at a given point on the screen. All visual objects support this method.
@@ -117,7 +117,7 @@ Retrieves the child element or child object at a given point on the screen. All 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1eb6f075-a8bf-4c03-96ee-460728317955">accLocation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acclocation">accLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified object's current screen location. All visual objects support this method.
@@ -127,10 +127,10 @@ Retrieves the specified object's current screen location. All visual objects sup
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8825c951-a6c1-4690-b36a-6159f30a13d9">accNavigate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accnavigate">accNavigate</a>
 </td>
 <td align="left" width="63%">
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/8825c951-a6c1-4690-b36a-6159f30a13d9">accNavigate</a>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://msdn.microsoft.com/dc9262d8-f57f-41f8-8945-d95f38d197e9">AccessibleChildren</a>, <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a>, <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a>, and <a href="https://msdn.microsoft.com/7f20c07d-05f6-447a-8bed-72100cd96a97">IEnumVARIANT</a>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accnavigate">accNavigate</a>method is deprecated and should not be used. Clients should use other methods and properties such as <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessiblechildren">AccessibleChildren</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/implementing-the-ienumvariant-interface">IEnumVARIANT</a>.</div>
 <div> </div>
 Traverses to another user interface element within a container and retrieves the object. All visual objects support this method.
 
@@ -138,7 +138,7 @@ Traverses to another user interface element within a container and retrieves the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ae55831c-0dfa-4901-b241-27e2cdf1035f">accSelect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-accselect">accSelect</a>
 </td>
 <td align="left" width="63%">
 Modifies the selection or moves the keyboard focus of the specified object. 
@@ -164,8 +164,8 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-An <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface for the specified child, if one exists. 
-	 All objects must support this property. See <a href="https://msdn.microsoft.com/64b0c24d-778a-4f13-8c70-6be3436a98cd">get_accChild</a>.
+An <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface for the specified child, if one exists. 
+	 All objects must support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchild">get_accChild</a>.
 
 </td>
 </tr>
@@ -179,7 +179,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The number of children that belong to this object. All objects must support this property. See <a href="https://msdn.microsoft.com/d80d59c0-7694-4cc6-9887-2fec7186f32e">get_accChildCount</a>.
+The number of children that belong to this object. All objects must support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchildcount">get_accChildCount</a>.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-A string that describes the object's default action. Not all objects have a default action. See <a href="https://msdn.microsoft.com/1261ff7c-7822-47c1-ac39-536b5ea09f31">get_accDefaultAction</a>.
+A string that describes the object's default action. Not all objects have a default action. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accdefaultaction">get_accDefaultAction</a>.
 
 </td>
 </tr>
@@ -207,7 +207,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/ca70c5bc-ac20-41fe-a9fe-f4a7209c5958">accDescription</a> property is not supported in the transition to UI Automation. Microsoft Active Accessibility servers and applications should not use it. </div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accdescription">accDescription</a> property is not supported in the transition to UI Automation. Microsoft Active Accessibility servers and applications should not use it. </div>
 <div> </div>
 A string that describes the visual appearance of the specified object. Not all objects have a description.
 
@@ -223,7 +223,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The object that has the keyboard focus. All objects that receive the keyboard focus must support this property. See <a href="https://msdn.microsoft.com/42114c5d-8f28-458a-8d22-ac1531cd50d2">get_accFocus</a>.
+The object that has the keyboard focus. All objects that receive the keyboard focus must support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accfocus">get_accFocus</a>.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-A help string. Not all objects support this property. See <a href="https://msdn.microsoft.com/ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7">get_accHelp</a>.
+A help string. Not all objects support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelp">get_accHelp</a>.
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property. See <a href="https://msdn.microsoft.com/0d91c791-1e9b-45da-8fa6-b879ac6d11a7">get_accKeyboardShortcut</a>.
+The object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">get_accKeyboardShortcut</a>.
 
 </td>
 </tr>
@@ -282,7 +282,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The name of the object. All objects support this property. See <a href="https://msdn.microsoft.com/344e95e1-45a5-4951-b545-1a938bfc8a8c">get_accName</a>.
+The name of the object. All objects support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">get_accName</a>.
 
 </td>
 </tr>
@@ -296,7 +296,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a> interface of the object's parent. All objects support this property. See <a href="https://msdn.microsoft.com/7c8c5208-ea77-47b2-913d-314ade0313f5">get_accParent</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface of the object's parent. All objects support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accparent">get_accParent</a>.
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ Read-only
 </td>
 <td align="left" width="63%">
 Information that describes the role of the specified object. All objects support this property.
-See <a href="https://msdn.microsoft.com/38800c5e-12a5-4825-a4c4-825a159c67f1">get_accRole</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accrole">get_accRole</a>.
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Read-only
 </td>
 <td align="left" width="63%">
 The selected children of this object. All objects that support selection must support this property.
-See <a href="https://msdn.microsoft.com/80df32de-a99f-4a5a-b354-f3e133f3e620">get_accSelection</a>.
+See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accselection">get_accSelection</a>.
 
 </td>
 </tr>
@@ -340,7 +340,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The current state of the object. All objects support this property. See <a href="https://msdn.microsoft.com/e6b7e0dd-407a-4e82-889b-31ad999a72ca">get_accState</a>.
+The current state of the object. All objects support this property. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accstate">get_accState</a>.
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The value of the object. Not all objects have a value. See <a href="https://msdn.microsoft.com/8e29adec-13fb-4a85-87ac-9e8034dce147">get_accValue</a>, <a href="https://msdn.microsoft.com/0b1e44f4-8d03-47a4-a8c5-5296059e0459">put_accValue</a>.
+The value of the object. Not all objects have a value. See <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accvalue">get_accValue</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-put_accvalue">put_accValue</a>.
 
 </td>
 </tr>
@@ -366,7 +366,7 @@ The value of the object. Not all objects have a value. See <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/5a95f002-4fd5-43d3-9b50-7b3f7790300a">IDispatch</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
  
 
  

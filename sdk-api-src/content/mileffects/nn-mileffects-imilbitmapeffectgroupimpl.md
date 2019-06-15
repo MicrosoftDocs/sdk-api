@@ -54,7 +54,7 @@ Exposes methods that define an effect group.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectGroupImpl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMILBitmapEffectGroupImpl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectGroupImpl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectGroupImpl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMILBitmapEffectGroupImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735284(v=VS.85).aspx">GetChildren</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectgroupimpl-getchildren">GetChildren</a>
 </td>
 <td align="left" width="63%">
 Gets the children of the effect group.
@@ -78,7 +78,7 @@ Gets the children of the effect group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735285(v=VS.85).aspx">GetNumberChildren</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectgroupimpl-getnumberchildren">GetNumberChildren</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of children in an effect group.
@@ -87,7 +87,7 @@ Retrieves the number of children in an effect group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735287(v=VS.85).aspx">Preprocess</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectgroupimpl-preprocess">Preprocess</a>
 </td>
 <td align="left" width="63%">
 Pre-process the given render context.

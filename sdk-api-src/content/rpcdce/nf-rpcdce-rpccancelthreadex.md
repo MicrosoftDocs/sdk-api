@@ -52,7 +52,7 @@ ms.custom: 19H1
 The 
 <b>RpcCancelThreadEx</b> function stops the execution of a thread. The 
 <b>RpcCancelThreadEx</b> function should not be used to stop the execution of an asynchronous RPC call; instead, use the 
-<a href="https://msdn.microsoft.com/e55d586f-969b-4e9a-97d9-b6c74b2a8b6d">RpcAsyncCancelCall</a> function to stop the execution of an asynchronous RPC call.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a> function to stop the execution of an asynchronous RPC call.
 
 
 ## -parameters
@@ -116,7 +116,7 @@ Called by an MS-DOS or Windows 3.<i>x</i> client.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -127,17 +127,17 @@ Called by an MS-DOS or Windows 3.<i>x</i> client.
 
 The 
 <b>RpcCancelThreadEx</b> function allows one client thread to cancel an RPC in progress on another client thread. When the function is called, the server run-time is informed of the cancel operation. The server stub can determine if the call has been canceled by calling 
-<a href="https://msdn.microsoft.com/1fd3b84d-ea45-4267-ac30-e4e2cf037c92">RpcTestCancel</a>. If the call has been canceled, the server stub should clean up and return control to the client.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>. If the call has been canceled, the server stub should clean up and return control to the client.
 
 Using the <i>Timeout</i> parameter, your application can specify the number of seconds to wait for a response. If the server does not return within this interval, the call fails at the client with an RPC_S_CALL_CANCELLED exception. The server stub continues to execute.
 
-If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/02961bb8-faf0-42e5-b134-dd2983e6d146">ncacn_np</a>, you must specify a finite time-out.
+If you are using the named pipes protocol, <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a>, you must specify a finite time-out.
 
 <div class="alert"><b>Note</b>  You can use 
 <b>RpcCancelThreadEx</b> with any of the connection-oriented protocols (<b>ncacn_*</b>) except 
 <a href="https://msdn.microsoft.com/">ncacn_http</a>, and with any of the datagram protocols except 
-<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> and 
-<a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a>.</div>
 <div> </div>
 
 
@@ -147,15 +147,15 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://msdn.microsoft.com/e55d586f-969b-4e9a-97d9-b6c74b2a8b6d">RpcAsyncCancelCall</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/4315562e-674b-40a4-a2d9-133e6ab27c25">RpcCancelThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpccancelthread">RpcCancelThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/1fd3b84d-ea45-4267-ac30-e4e2cf037c92">RpcTestCancel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpctestcancel">RpcTestCancel</a>
 
 
 
@@ -163,15 +163,15 @@ If you are using the named pipes protocol, <a href="https://msdn.microsoft.com/0
 
 
 
-<a href="https://msdn.microsoft.com/02961bb8-faf0-42e5-b134-dd2983e6d146">ncacn_np</a>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a>
 
 
 
-<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-mq">ncadg_mq</a>
 
 
 
-<a href="https://msdn.microsoft.com/0009f794-5c14-4484-9023-cb20c7030dc5">ncalrpc</a>
+<a href="https://docs.microsoft.com/windows/desktop/Midl/ncalrpc">ncalrpc</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>CodecAPIEventData</b> structure contains event data for the <a href="https://msdn.microsoft.com/88924ba9-707b-41a7-9bca-c630b4a9c4c8">EC_CODECAPI_EVENT</a> event. This event is sent by codecs that support the <a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI</a> interface.
+The <b>CodecAPIEventData</b> structure contains event data for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event. This event is sent by codecs that support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> interface.
 
 
 
@@ -82,7 +82,7 @@ Reserved; do not use.
 
 
 
-This structure may be followed by addition data, depending on the codec event. For more information, see <a href="https://msdn.microsoft.com/87423ddb-7011-40ab-a449-eb43688efb26">ICodecAPI::RegisterForEvent</a>.
+This structure may be followed by addition data, depending on the codec event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a>.
 
 
 
@@ -92,11 +92,11 @@ This structure may be followed by addition data, depending on the codec event. F
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/87423ddb-7011-40ab-a449-eb43688efb26">ICodecAPI::RegisterForEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a>
  
 
  

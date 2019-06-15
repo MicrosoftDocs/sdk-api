@@ -72,7 +72,7 @@ Part-of-title number with title. 0xffffffff if not a simple linear movie.
 
 ### -field TimeCode
 
-Timecode. Use <a href="https://msdn.microsoft.com/7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4">DVD_TIMECODE</a> for current playback time. 0xFFFFFFFF if not a simple linear movie.
+Timecode. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-tagdvd_timecode">DVD_TIMECODE</a> for current playback time. 0xFFFFFFFF if not a simple linear movie.
 
 
 ## -remarks
@@ -89,7 +89,7 @@ Timecode. Use <a href="https://msdn.microsoft.com/7ad0b11e-5bb7-426f-9a2c-fbc34b
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  

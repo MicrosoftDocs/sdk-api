@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the password of a local or a domain account on the remote computer.  For more information, see <a href="https://msdn.microsoft.com/97a13b07-ae7a-4d2f-8841-77a22c91b204">Authentication for Remote Connections</a>.
+Sets the password of a local or a domain account on the remote computer.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/authentication-for-remote-connections">Authentication for Remote Connections</a>.
 
 This property is write-only.
 
@@ -63,11 +63,11 @@ This property is write-only.
 
 
 
-<a href="https://msdn.microsoft.com/61ba54b6-7da0-423e-b5b2-c4dd8aacd042">ConnectionOptions.Password</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/connectionoptions-password">ConnectionOptions.Password</a>
 
 
 
-<a href="https://msdn.microsoft.com/940097da-c5bb-4170-a2aa-fcbbee622fe6">IWSManConnectionOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>
  
 
  

@@ -55,7 +55,7 @@ The linear transfer effect is used to map the color intensities of an image usin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionLinearTransferEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionLinearTransferEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionLinearTransferEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionLinearTransferEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDCompositionLinearTransferEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B0D76D35-FDB8-45CA-8D41-8D6C9597ED1B">SetAlphaDisable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setalphadisable">SetAlphaDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the alpha channel.
@@ -79,7 +79,7 @@ Specifies whether to apply the transfer function to the alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905291(v=VS.85).aspx">SetAlphaSlope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setalphaslope">SetAlphaSlope</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the slope of the linear function for the alpha channel.
 
@@ -87,7 +87,7 @@ Specifies whether to apply the transfer function to the alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905292(v=VS.85).aspx">SetAlphaYIntercept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setalphayintercept">SetAlphaYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the alpha channel.
 
@@ -95,7 +95,7 @@ Specifies whether to apply the transfer function to the alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DE87E53B-4469-4B30-8397-6A0712DE8A6C">SetBlueDisable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setbluedisable">SetBlueDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the blue channel.
@@ -104,7 +104,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905293(v=VS.85).aspx">SetBlueSlope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setblueslope">SetBlueSlope</a>
 </td>
 <td align="left" width="63%">Overloaded. The slope of the linear function for the blue channel.
 
@@ -112,7 +112,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905294(v=VS.85).aspx">SetBlueYIntercept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setblueyintercept">SetBlueYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the blue channel.
 
@@ -120,7 +120,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D56B3B15-6437-46A3-B1F9-88F5BC4A9BB2">SetClampOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setclampoutput">SetClampOutput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
@@ -129,7 +129,7 @@ Specifies whether the effect clamps color values to between 0 and 1 before the e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5C0C9E9C-F332-4F4E-A3F0-423A302AC6FC">SetGreenDisable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setgreendisable">SetGreenDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the green channel.
@@ -138,7 +138,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905295(v=VS.85).aspx">setgreenslope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setgreenslope">setgreenslope</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the slope of the linear function for the green channel.
 
@@ -146,7 +146,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905296(v=VS.85).aspx">SetGreenYIntercept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setgreenyintercept">SetGreenYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the green channel.
 
@@ -154,7 +154,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/59B82C2B-9DAE-4B6C-A5ED-425A8ACEF24E">SetRedDisable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionlineartransfereffect-setreddisable">SetRedDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the red channel.
@@ -163,7 +163,7 @@ Specifies whether to apply the transfer function to the red channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905297(v=VS.85).aspx">setredslope</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setredslope">setredslope</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the slope of the linear function for the red channel.
 
@@ -171,7 +171,7 @@ Specifies whether to apply the transfer function to the red channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905298(v=VS.85).aspx">SetRedYIntercept</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setredyintercept">SetRedYIntercept</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the Y-intercept of the linear function for the red channel.
 
@@ -185,7 +185,7 @@ Specifies whether to apply the transfer function to the red channel.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
  
 
  

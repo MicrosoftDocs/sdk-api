@@ -50,14 +50,14 @@ ms.custom: 19H1
 
 
 
-Receives notifications of <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> events to enable you to perform custom processing based on those events.
+Receives notifications of <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> events to enable you to perform custom processing based on those events.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStylusPlugin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStylusPlugin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStylusPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStylusPlugin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IStylusPlugin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0d3f556c-b0a8-4346-b7da-82f1a3c2603c">CustomStylusDataAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-customstylusdataadded">CustomStylusDataAdded</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in that custom stylus data is available.
@@ -81,7 +81,7 @@ Notifies the implementing plug-in that custom stylus data is available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ff6ccf2-292c-4321-be2a-d6db7ce14943">DataInterest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">DataInterest</a>
 </td>
 <td align="left" width="63%">
 Represents the notifications a plug-in is to receive.
@@ -90,16 +90,16 @@ Represents the notifications a plug-in is to receive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/236589f8-a6ae-4db3-8be4-68c5babeb9f0">Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-error">Error</a>
 </td>
 <td align="left" width="63%">
-Notifies the implementing object that this plug-in, one of the previous plug-ins in the <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">StylusAsyncPlugin</a> collection, or a plug-in in the <b>StylusAsyncPlugin</b> collection threw an exception.
+Notifies the implementing object that this plug-in, one of the previous plug-ins in the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">StylusAsyncPlugin</a> collection, or a plug-in in the <b>StylusAsyncPlugin</b> collection threw an exception.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ff5f784-33f0-45b8-bccd-3e90a9afd67f">InAirPackets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-inairpackets">InAirPackets</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in that the pen is moving above the digitizer.
@@ -108,7 +108,7 @@ Notifies the implementing plug-in that the pen is moving above the digitizer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c6a3d563-4776-4ac6-bdc3-798192ba4546">Packets</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-packets">Packets</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in that the pen is moving on the digitizer.
@@ -117,25 +117,25 @@ Notifies the implementing plug-in that the pen is moving on the digitizer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62425c21-62fb-4a29-b024-8d5dc237b430">RealTimeStylusDisabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusdisabled">RealTimeStylusDisabled</a>
 </td>
 <td align="left" width="63%">
-Notifies the implementing plug-in that the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> object is disabled.
+Notifies the implementing plug-in that the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object is disabled.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd5689c1-32e2-4a37-8dd2-4525b16f4662">RealTimeStylusEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusenabled">RealTimeStylusEnabled</a>
 </td>
 <td align="left" width="63%">
-Notifies the implementing plug-in that the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> object is enabled.
+Notifies the implementing plug-in that the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object is enabled.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c">StylusButtonDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusbuttondown">StylusButtonDown</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in that the user is pressing a pen button.
@@ -144,7 +144,7 @@ Notifies the implementing plug-in that the user is pressing a pen button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a56182f3-3e9a-4cc2-895d-54010cd00cb4">StylusButtonUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusbuttonup">StylusButtonUp</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in that the user has released a pen button.
@@ -153,7 +153,7 @@ Notifies the implementing plug-in that the user has released a pen button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13fb831c-e3e8-4e04-81ce-d4658be105a0">StylusDown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">StylusDown</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in that the pen has touched the digitizer surface.
@@ -162,25 +162,25 @@ Notifies the implementing plug-in that the pen has touched the digitizer surface
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/586e7fee-6340-46b6-941f-1316b2925e1c">StylusInRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusinrange">StylusInRange</a>
 </td>
 <td align="left" width="63%">
-Notifies the implementing plug-in that the tablet pen is entering the input area of the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> object or is entering the detection range of the digitizer above the input area of the <b>RealTimeStylus</b> object.
+Notifies the implementing plug-in that the tablet pen is entering the input area of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object or is entering the detection range of the digitizer above the input area of the <b>RealTimeStylus</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd662c32-c226-4dbb-807a-3e560452ef15">StylusOutOfRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusoutofrange">StylusOutOfRange</a>
 </td>
 <td align="left" width="63%">
-Notifies the implementing plug-in that the pen is leaving the input area of the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> object or is leaving the detection range of the digitizer above the input area of the <b>RealTimeStylus</b> object.
+Notifies the implementing plug-in that the pen is leaving the input area of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object or is leaving the detection range of the digitizer above the input area of the <b>RealTimeStylus</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0f9e49c-6a16-43c5-a653-d6142e58019a">StylusUp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusup">StylusUp</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in that the user has raised the pen from the tablet digitizer surface.
@@ -189,7 +189,7 @@ Notifies the implementing plug-in that the user has raised the pen from the tabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7cdba29e-0599-45f7-8853-3e8fa29897e8">SystemEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-systemevent">SystemEvent</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing plug-in when a system event is received.
@@ -198,25 +198,25 @@ Notifies the implementing plug-in when a system event is received.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fbc971ad-7cfb-4f75-8d63-a210a7967424">TabletAdded</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-tabletadded">TabletAdded</a>
 </td>
 <td align="left" width="63%">
-Notifies an implementing plug-in when an <a href="https://msdn.microsoft.com/31e11f7d-5610-4c49-9203-2dc322fbef95">ITablet</a> object is attached to the system.
+Notifies an implementing plug-in when an <a href="https://docs.microsoft.com/windows/desktop/tablet/itablet">ITablet</a> object is attached to the system.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b953c2f8-3f49-4b7a-af4a-528c8815b066">TabletRemoved</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-tabletremoved">TabletRemoved</a>
 </td>
 <td align="left" width="63%">
-Notifies an implementing plug-in when an <a href="https://msdn.microsoft.com/31e11f7d-5610-4c49-9203-2dc322fbef95">ITablet</a> object is removed from the system.
+Notifies an implementing plug-in when an <a href="https://docs.microsoft.com/windows/desktop/tablet/itablet">ITablet</a> object is removed from the system.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26cefb86-a21e-432d-b3db-1669d5b9cd05">UpdateMapping</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-updatemapping">UpdateMapping</a>
 </td>
 <td align="left" width="63%">
 Notifies the implementing object when tablet display properties have changed.
@@ -230,7 +230,7 @@ Notifies the implementing object when tablet display properties have changed.
 
 
 
-Both the <a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a> and <a href="https://msdn.microsoft.com/bf961d70-2576-493b-a34d-c7c72b6c0234">IStylusAsyncPlugin</a> interfaces derive from this interface and can be added to <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a> plug-in collections.
+Both the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> interfaces derive from this interface and can be added to <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> plug-in collections.
 
 
 
@@ -240,11 +240,11 @@ Both the <a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc12048
 
 
 
-<a href="https://msdn.microsoft.com/e3e02d5a-a004-49de-b2d8-86ccfc120481">IStylusSyncPlugin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
  
 
  

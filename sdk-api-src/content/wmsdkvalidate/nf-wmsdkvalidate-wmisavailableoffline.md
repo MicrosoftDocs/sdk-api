@@ -121,7 +121,7 @@ One or both of the input parameters are <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/10fa8f96-8030-4727-af5d-7c06229d05d8">Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
  
 
  

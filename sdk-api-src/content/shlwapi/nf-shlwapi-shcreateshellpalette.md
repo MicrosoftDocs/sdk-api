@@ -81,7 +81,7 @@ Returns the palette if successful; otherwise 0.
 
 
 
-This function behaves the same as <a href="https://msdn.microsoft.com/ba9dfa0c-98df-4922-acba-d00e9b4b0fb0">CreateHalftonePalette</a>. The palette that is returned depends on the device context in the following way:
+This function behaves the same as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhalftonepalette">CreateHalftonePalette</a>. The palette that is returned depends on the device context in the following way:
 
 				
 

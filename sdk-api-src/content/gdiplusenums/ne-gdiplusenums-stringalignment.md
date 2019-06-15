@@ -60,7 +60,7 @@ The <b>StringAlignment</b> enumeration specifies how a string is aligned in refe
 
 ### -field StringAlignmentNear
 
-Specifies that alignment is towards the origin of the bounding rectangle. May be used for alignment of characters along the line or for alignment of lines within the rectangle. For a right to left bounding rectangle (<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlagsDirectionRightToLeft</a>), the origin is at the upper right. 
+Specifies that alignment is towards the origin of the bounding rectangle. May be used for alignment of characters along the line or for alignment of lines within the rectangle. For a right to left bounding rectangle (<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlagsDirectionRightToLeft</a>), the origin is at the upper right. 
 
 
 ### -field StringAlignmentCenter

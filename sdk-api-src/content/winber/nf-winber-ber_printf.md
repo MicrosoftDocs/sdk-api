@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>ber_printf</b> function is  used to encode a BER element and is similar to  sprintf_s. One important difference is that state data is stored in the <b>BerElement</b> argument so that multiple calls can be made to <b>ber_printf</b> to append to the end of the BER element. The <b>BerElement</b> argument passed to this function must be a pointer to a <b>BerElement</b> returned by 
-<a href="https://msdn.microsoft.com/2a6fd54a-5ef7-49e3-98dd-da26bd98f89b">ber_alloc_t</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_alloc_t">ber_alloc_t</a>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>ber_printf</b> function is  used to encode a BER element and is similar t
 
 ### -param pBerElement [in, out]
 
-A pointer to the encoded <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a> structure.
+A pointer to the encoded <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a> structure.
 
 
 ### -param fmt [in]
@@ -95,7 +95,7 @@ The format string can contain format characters listed in the following table.
 </tr>
 <tr>
 <td><b>t</b></td>
-<td><b>Tag</b>. The next argument is a <b>ber_tag_t</b> that specifies the tag to override the next element written to the <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a>. This works across calls.</td>
+<td><b>Tag</b>. The next argument is a <b>ber_tag_t</b> that specifies the tag to override the next element written to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>. This works across calls.</td>
 </tr>
 <tr>
 <td><b>b</b></td>
@@ -127,7 +127,7 @@ The format string can contain format characters listed in the following table.
 </tr>
 <tr>
 <td><b>V</b></td>
-<td><b>Several octet strings</b>. A NULL-terminated array of <a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval*</a> is supplied. Be aware that a construct like <b>{</b><b>v</b><b>}</b> is used to get an actual SEQUENCE OF octet strings. The <b>t</b> format modifier cannot be used with this format character.</td>
+<td><b>Several octet strings</b>. A NULL-terminated array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval*</a> is supplied. Be aware that a construct like <b>{</b><b>v</b><b>}</b> is used to get an actual SEQUENCE OF octet strings. The <b>t</b> format modifier cannot be used with this format character.</td>
 </tr>
 <tr>
 <td><b>X</b></td>
@@ -152,7 +152,7 @@ The format string can contain format characters listed in the following table.
 </table>
  
 
-Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>) character later in the format string, or in the format string of a subsequent call to <b>ber_printf</b> for that specific <a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a>. The same applies to the left bracket ([) character and right bracket (]) characters.
+Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>) character later in the format string, or in the format string of a subsequent call to <b>ber_printf</b> for that specific <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>. The same applies to the left bracket ([) character and right bracket (]) characters.
 
 
 
@@ -162,19 +162,19 @@ Each left brace (<b>{</b>) character must be paired with a right brace (<b>}</b>
 
 
 
-<a href="https://msdn.microsoft.com/491bdf54-0b45-4324-93fc-35fe15155a3d">BerElement</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berelement">BerElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a0040ea-f8f3-4378-8371-49768714d762">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/bca69428-27e1-4028-bfcd-ad67bee672cc">ber_scanf</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winber/nf-winber-ber_scanf">ber_scanf</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f279905-ab02-4a8b-9b77-e8ea2b56e882">berval</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-berval">berval</a>
  
 
  

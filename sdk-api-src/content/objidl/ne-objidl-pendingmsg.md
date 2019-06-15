@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the return values for the <a href="https://msdn.microsoft.com/f4aff53f-c344-4456-b53e-296d5a5b653a">IMessageFilter::MessagePending</a> method.
+Specifies the return values for the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">IMessageFilter::MessagePending</a> method.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ Wait and dispatch the message.
 
 
 
-<a href="https://msdn.microsoft.com/f4aff53f-c344-4456-b53e-296d5a5b653a">IMessageFilter::MessagePending</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">IMessageFilter::MessagePending</a>
  
 
  

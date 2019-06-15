@@ -73,7 +73,7 @@ A string that contains the password for the user account.
 
 The account must be a member of the <b>IIS_USRS</b> group on the computer.
 
-If NDES is configured for an enterprise <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA), the account must have read permission on the <b>IPSecIntermediateOffline</b> template.
+If NDES is configured for an enterprise <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA), the account must have read permission on the <b>IPSecIntermediateOffline</b> template.
 
 
 
@@ -83,7 +83,7 @@ If NDES is configured for an enterprise <a href="https://msdn.microsoft.com/db46
 
 
 
-<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
  
 
  

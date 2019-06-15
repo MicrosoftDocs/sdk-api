@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IEnumWIA_DEV_INFO::Next</b> method fills an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a> interfaces.
+The <b>IEnumWIA_DEV_INFO::Next</b> method fills an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a> interfaces.
 
 
 
@@ -68,9 +68,9 @@ Specifies the number of array elements in the array indicated by the <i>rgelt</i
 
 ### -param rgelt [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>**</b>
 
-Receives the address of an array of <a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a> interface pointers. <b>IEnumWIA_DEV_INFO::Next</b> fills this array with interface pointers.
+Receives the address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a> interface pointers. <b>IEnumWIA_DEV_INFO::Next</b> fills this array with interface pointers.
 
 
 
@@ -97,9 +97,9 @@ While there are devices left to enumerate, this method returns S_OK. It returns 
 
 
 
-Applications use this method to query the properties of each available Windows Image Acquisition (WIA) hardware device. To do so, the application passes an array of <a href="https://msdn.microsoft.com/en-us/library/ms629938(v=VS.85).aspx">IWiaPropertyStorage</a> interface pointers that it allocates. It also passes the number of array elements in the parameter <i>celt</i>. The <b>IEnumWIA_DEV_INFO::Next</b> method fills the array with pointers to <b>IWiaPropertyStorage</b> interfaces. Applications can query the interfaces for the properties that the device supports.
+Applications use this method to query the properties of each available Windows Image Acquisition (WIA) hardware device. To do so, the application passes an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a> interface pointers that it allocates. It also passes the number of array elements in the parameter <i>celt</i>. The <b>IEnumWIA_DEV_INFO::Next</b> method fills the array with pointers to <b>IWiaPropertyStorage</b> interfaces. Applications can query the interfaces for the properties that the device supports.
 
-Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>rgelt</i> parameter.
+Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>rgelt</i> parameter.
 
 
 

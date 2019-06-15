@@ -65,7 +65,7 @@ The provider name.
 ### -param pSysCallbacks [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/a38f8b26-9450-4033-bdd7-e73726c2d609">TimeProvSysCallbacks</a> structure that specifies pointers to the functions provided by the time service to the time provider. The system allocates this structure, and it is destroyed when the function returns. Therefore, you must copy the information to another buffer.
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-timeprovsyscallbacks">TimeProvSysCallbacks</a> structure that specifies pointers to the functions provided by the time service to the time provider. The system allocates this structure, and it is destroyed when the function returns. Therefore, you must copy the information to another buffer.
 
 
 ### -param phTimeProv [out]
@@ -91,7 +91,7 @@ You should return from this callback function as quickly as possible. Perform an
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/6be08c49-be68-4b75-b740-fc1d5a2ff592">Sample Time Provider</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
 
 <div class="code"></div>
 
@@ -102,23 +102,23 @@ For an example, see <a href="https://msdn.microsoft.com/6be08c49-be68-4b75-b740-
 
 
 
-<a href="https://msdn.microsoft.com/f90da019-072e-46c9-8e05-0321a9960968">AlertSamplesAvailFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-alertsamplesavailfunc">AlertSamplesAvailFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1b527e2-ab7c-4106-b203-e74b4ce2a89b">GetTimeSysInfoFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddaea389-3f58-4011-bcf8-c60546d1bce1">LogTimeProvEventFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-logtimeproveventfunc">LogTimeProvEventFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/e52dd1d3-081a-4fcc-85d9-a1dcef0e8011">SetProviderStatusFunc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-setproviderstatusfunc">SetProviderStatusFunc</a>
 
 
 
-<a href="https://msdn.microsoft.com/a38f8b26-9450-4033-bdd7-e73726c2d609">TimeProvSysCallbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-timeprovsyscallbacks">TimeProvSysCallbacks</a>
  
 
  

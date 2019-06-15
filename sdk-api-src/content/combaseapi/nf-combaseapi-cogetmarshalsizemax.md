@@ -69,17 +69,17 @@ A pointer to the upper-bound value on the size, in bytes, of the data packet to 
 
 ### -param riid [in]
 
-A reference to the identifier of the interface whose pointer is to be marshaled. This interface must be derived from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+A reference to the identifier of the interface whose pointer is to be marshaled. This interface must be derived from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 
 ### -param pUnk [in]
 
-A pointer to the interface to be marshaled. This interface must be derived from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
+A pointer to the interface to be marshaled. This interface must be derived from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 
 ### -param dwDestContext [in]
 
-The destination context where the specified interface is to be unmarshaled. Values for <i>dwDestContext</i> come from the enumeration <a href="https://msdn.microsoft.com/d7d09ab2-96e7-48da-9292-0e4ca6cebe64">MSHCTX</a>.
+The destination context where the specified interface is to be unmarshaled. Values for <i>dwDestContext</i> come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshctx">MSHCTX</a>.
 
 
 ### -param pvDestContext [in, optional]
@@ -89,7 +89,7 @@ This parameter is reserved and must be <b>NULL</b>.
 
 ### -param mshlflags [in]
 
-Indicates whether the data to be marshaled is to be transmitted back to the client processthe normal case or written to a global table, where it can be retrieved by multiple clients. Values come from the enumeration <a href="https://msdn.microsoft.com/42a482be-d4b8-4f2e-ae43-1d210cb44c7c">MSHLFLAGS</a>.
+Indicates whether the data to be marshaled is to be transmitted back to the client processthe normal case or written to a global table, where it can be retrieved by multiple clients. Values come from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagmshlflags">MSHLFLAGS</a>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The upper bound was returned successfully.
 </dl>
 </td>
 <td width="60%">
-Before this function can be called, either the <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> function must be called.
+Before this function can be called, either the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> function must be called.
 
 </td>
 </tr>
@@ -138,13 +138,13 @@ Before this function can be called, either the <a href="https://msdn.microsoft.c
 This function performs the following tasks:
 
 <ol>
-<li>Queries the object for an <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a> pointer or, if the object does not implement <b>IMarshal</b>, gets a pointer to COM's standard marshaler.
+<li>Queries the object for an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> pointer or, if the object does not implement <b>IMarshal</b>, gets a pointer to COM's standard marshaler.
 </li>
-<li>Using the pointer obtained in the preceding item, calls <a href="https://msdn.microsoft.com/25ec060a-ec46-4857-8d66-8f8bb58d6d31">IMarshal::GetMarshalSizeMax</a>.
+<li>Using the pointer obtained in the preceding item, calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-getmarshalsizemax">IMarshal::GetMarshalSizeMax</a>.
 </li>
-<li>Adds to the value returned by the call to <a href="https://msdn.microsoft.com/25ec060a-ec46-4857-8d66-8f8bb58d6d31">GetMarshalSizeMax</a> the size of the marshaling data header and, possibly, that of the proxy CLSID to obtain the maximum size in bytes of the amount of data to be written to the marshaling stream.</li>
+<li>Adds to the value returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-getmarshalsizemax">GetMarshalSizeMax</a> the size of the marshaling data header and, possibly, that of the proxy CLSID to obtain the maximum size in bytes of the amount of data to be written to the marshaling stream.</li>
 </ol>
-You do not explicitly call this function unless you are implementing <a href="https://msdn.microsoft.com/e6f08949-f27d-4aba-adff-eaf9c356a928">IMarshal</a>, in which case your marshaling stub should call this function to get the correct size of the data packet to be marshaled.
+You do not explicitly call this function unless you are implementing <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>, in which case your marshaling stub should call this function to get the correct size of the data packet to be marshaled.
 
 
 
@@ -158,11 +158,11 @@ The value returned by this method is guaranteed to be valid only as long as the 
 
 
 
-<a href="https://msdn.microsoft.com/04ca1217-eac1-43e2-b736-8d7522ce8592">CoMarshalInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface">CoMarshalInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/25ec060a-ec46-4857-8d66-8f8bb58d6d31">IMarshal::GetMarshalSizeMax</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-getmarshalsizemax">IMarshal::GetMarshalSizeMax</a>
  
 
  

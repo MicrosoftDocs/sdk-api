@@ -62,7 +62,7 @@ The <b>get_AnalogAudioMode</b> method retrieves the analog audio mode.
 
 ### -param Mode [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407240(v=VS.85).aspx">TVAudioMode</a> variable that receives the analog audio mode.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tagtvaudiomode">TVAudioMode</a> variable that receives the analog audio mode.
 
 
 ## -returns
@@ -79,11 +79,11 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/bd2256b4-6e9a-4520-8988-d271fb2b84af">IAnalogAudioComponentType Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogaudiocomponenttype">IAnalogAudioComponentType Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb3c4db6-8364-4c95-82d5-62276f26c7bb">put_AnalogAudioMode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogaudiocomponenttype-put_analogaudiomode">put_AnalogAudioMode</a>
  
 
  

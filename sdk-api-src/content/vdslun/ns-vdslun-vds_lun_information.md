@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    information about a LUN or disk. Applications can use this structure to uniquely identify a LUN at all times.
@@ -87,7 +87,7 @@ If <b>TRUE</b>, the LUN supports multiple outstanding commands; otherwise,
 ### -field m_BusType
 
 The bus type of the LUN enumerated by 
-      <a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_STORAGE_BUS_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>.
 
 
 ### -field m_szVendorId
@@ -128,9 +128,9 @@ Array containing the LUN descriptor in various formats, such as "VDSStorageIdTyp
       and "VDSStorageIdTypeVendorSpecific". Providers can use 
       "VDSStorageIdTypeVendorSpecific" to store an arbitrary byte string of the vendor's choosing to 
       uniquely identify the LUN. See the 
-      <a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a> 
       structure and the 
-      <a href="https://msdn.microsoft.com/8cc8b6d9-e189-44af-9f2b-2222b2eb0749">VDS_STORAGE_IDENTIFIER</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a> 
       structure.
 
 
@@ -142,7 +142,7 @@ The number of interconnect ports specified in <b>m_rgInterconnects</b>.
 ### -field m_rgInterconnects
 
 Pointer to an array of the interconnect ports by which the LUN can be accessed. See the 
-      <a href="https://msdn.microsoft.com/fc9f532b-a37f-4338-95db-6ec988131211">VDS_INTERCONNECT</a> structure.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_interconnect">VDS_INTERCONNECT</a> structure.
 
 
 ## -remarks
@@ -152,13 +152,13 @@ Pointer to an array of the interconnect ports by which the LUN can be accessed. 
 The <b>VDS_LUN_INFORMATION</b> structure includes 
     fields from the SCSI Inquiry Data and Vital Product Data pages 0x80 and 0x83. The 
     <b>GetIdentificationData</b> method on both the 
-    <a href="https://msdn.microsoft.com/e2fbebc0-593e-437c-a401-80e35a43da94">IVdsLun</a> and 
-    <a href="https://msdn.microsoft.com/0fd6d1d4-daa6-4be3-8749-be98cd7c0288">IVdsDisk</a> interfaces return this structure. It is also 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdisk">IVdsDisk</a> interfaces return this structure. It is also 
     passed as an argument in the
-    <a href="https://msdn.microsoft.com/06ba3486-9381-4898-b639-3d94b83be857">IVdsHwProviderPrivate::QueryIfCreatedLun</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderprivate-queryifcreatedlun">IVdsHwProviderPrivate::QueryIfCreatedLun</a> 
     method to determine whether a given provider owns a specified LUN.
 
-To get the LUN object, use the <a href="https://msdn.microsoft.com/622a95a4-0e8c-4f65-a935-61cb48379065">IVdsService::GetObject</a> method. You can then use the <a href="https://msdn.microsoft.com/1fec1c8d-7ac9-4b77-830c-930908aac6ef">IVdsLun::GetProperties</a> method to get the LUN properties.
+To get the LUN object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a> method to get the LUN properties.
 
 
 
@@ -168,35 +168,35 @@ To get the LUN object, use the <a href="https://msdn.microsoft.com/622a95a4-0e8c
 
 
 
-<a href="https://msdn.microsoft.com/400fa102-f98a-4bc1-919c-858c135a5b93">IVdsDisk::GetIdentificationData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getidentificationdata">IVdsDisk::GetIdentificationData</a>
 
 
 
-<a href="https://msdn.microsoft.com/06ba3486-9381-4898-b639-3d94b83be857">IVdsHwProviderPrivate::QueryIfCreatedLun</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwproviderprivate-queryifcreatedlun">IVdsHwProviderPrivate::QueryIfCreatedLun</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab72cbe0-d10d-49af-87a0-4da28f79b124">IVdsLun::GetIdentificationData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getidentificationdata">IVdsLun::GetIdentificationData</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc9f532b-a37f-4338-95db-6ec988131211">VDS_INTERCONNECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_interconnect">VDS_INTERCONNECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fa1bd7a-c675-4588-8753-2614be444c9c">VDS_STORAGE_BUS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/88fe83cb-6d3c-40bd-a5ce-71771d2e7511">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_device_id_descriptor">VDS_STORAGE_DEVICE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/8cc8b6d9-e189-44af-9f2b-2222b2eb0749">VDS_STORAGE_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_storage_identifier">VDS_STORAGE_IDENTIFIER</a>
  
 
  

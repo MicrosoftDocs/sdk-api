@@ -90,7 +90,7 @@ After an operation is subscribed to, the service proxy will attempt to automatic
 
 
 
-<a href="https://msdn.microsoft.com/04e6ea03-f9b5-48d9-940f-532bb3a85ff0">IWSDEventingStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdeventingstatus">IWSDEventingStatus</a>
  
 
  

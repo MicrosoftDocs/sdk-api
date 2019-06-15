@@ -59,7 +59,7 @@ Sets the default file system types and the image size based on the current media
 
 ### -param discRecorder [in]
 
-An <a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a> the identifies the device that contains the current media.
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> the identifies the device that contains the current media.
 
 
 ## -returns
@@ -136,7 +136,7 @@ Value: 0xC0AAB151
 
 
 
-<a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
  
 
  

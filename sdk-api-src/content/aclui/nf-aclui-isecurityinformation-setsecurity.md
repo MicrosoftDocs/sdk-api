@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetSecurity</b> method provides a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> containing the security information the user wants to apply to the securable object. The access control editor calls this method when the user clicks <b>Okay</b> or <b>Apply</b>.
+The <b>SetSecurity</b> method provides a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> containing the security information the user wants to apply to the securable object. The access control editor calls this method when the user clicks <b>Okay</b> or <b>Apply</b>.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>SetSecurity</b> method provides a <a href="https://msdn.microsoft.com/3e9
 ### -param SecurityInformation [in]
 
 A set of 
-<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a> bit flags that indicate the parts of the security descriptor to set. This parameter can be a combination of the following values. 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags that indicate the parts of the security descriptor to set. This parameter can be a combination of the following values. 
 
 
 
@@ -118,8 +118,8 @@ The security descriptor contains the object's SACL.
 
 ### -param pSecurityDescriptor [in]
 
-A pointer to a security descriptor containing the new security information. Do not assume the security descriptor is in <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> form; it  can be either 
-<a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">absolute or self-relative</a>.
+A pointer to a security descriptor containing the new security information. Do not assume the security descriptor is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> form; it  can be either 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">absolute or self-relative</a>.
 
 
 ## -returns
@@ -147,19 +147,19 @@ To build a complete security descriptor for the object, the application must mer
 
 
 
-<a href="https://msdn.microsoft.com/ca709f27-8463-4f11-92ac-2148796e640a">Access Control Editor</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Access Control Editor Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/38d94f36-f149-4b62-a710-8f7359bfd8cd">ISecurityInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3e8b35d-9d18-4611-a898-72ca13e40d33">SECURITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
  
 
  

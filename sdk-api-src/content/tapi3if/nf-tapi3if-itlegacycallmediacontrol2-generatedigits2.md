@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>GenerateDigits2</b> method causes digits to be output on the current call. This method extends the 
-<a href="https://msdn.microsoft.com/d4dcdce0-4df5-43bb-a5ea-ea72782d5f04">ITLegacyCallMediaControl::GenerateDigits</a> method by adding a duration parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-generatedigits">ITLegacyCallMediaControl::GenerateDigits</a> method by adding a duration parameter.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ A pointer to a <b>BSTR</b> representation of the digits to generate.
 ### -param DigitMode [in]
 
 Indicates the digit mode. Valid values are those from the TAPI 2.<i>x</i>
-<a href="https://msdn.microsoft.com/d603ea28-2b93-4548-bb16-78e93087f828">LINEDIGITMODE_constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_constants</a>.
 
 
 ### -param lDuration [in]
@@ -130,7 +130,7 @@ The call must be in the <i>connected</i> state.
 
 
 This method translates to a call to the TAPI 2.<i>x</i>
-<a href="https://msdn.microsoft.com/aa407269-06be-43e2-906e-20137e4bdb89">lineGenerateDigits</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegeneratedigits">lineGenerateDigits</a> function.
 
 When digit generation finishes, an event of type TE_GENERATEEVENT is generated.
 
@@ -142,7 +142,7 @@ When digit generation finishes, an event of type TE_GENERATEEVENT is generated.
 
 
 
-<a href="https://msdn.microsoft.com/47fa5669-1c74-4c18-8370-3efe35b3573e">ITLegacyCallMediaControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
  
 
  

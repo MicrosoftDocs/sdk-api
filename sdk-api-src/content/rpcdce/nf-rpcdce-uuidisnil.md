@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 An application calls the  
-<b>UuidIsNil</b> function to determine whether the specified <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> is a nil-valued <b>UUID</b>.
+<b>UuidIsNil</b> function to determine whether the specified <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is a nil-valued <b>UUID</b>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ An application calls the
 ### -param Uuid
 
 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> to test for nil value.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to test for nil value.
 
 
 ### -param Status
@@ -74,7 +74,7 @@ Returns RPC_S_OK.
 
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -84,8 +84,8 @@ Returns RPC_S_OK.
 
 
 This function acts as though the application called 
-<a href="https://msdn.microsoft.com/ee955482-e786-4478-bbaa-7c574ab1ecc5">UuidCreateNil</a>, and then called the 
-<a href="https://msdn.microsoft.com/ff83c66c-1f1f-4582-a93b-d7bb5181deec">UuidEqual</a> to compare the returned nil-value <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> to the <b>UUID</b> specified in the <i>Uuid</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreatenil">UuidCreateNil</a>, and then called the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidequal">UuidEqual</a> to compare the returned nil-value <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> to the <b>UUID</b> specified in the <i>Uuid</i> parameter.
 
 Upon completion, one of the following values is returned.
 
@@ -96,11 +96,11 @@ Upon completion, one of the following values is returned.
 </tr>
 <tr>
 <td><b>TRUE</b></td>
-<td>The <i>Uuid</i> parameter is a nil-valued <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.</td>
+<td>The <i>Uuid</i> parameter is a nil-valued <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.</td>
 </tr>
 <tr>
 <td><b>FALSE</b></td>
-<td>The <i>Uuid</i> parameter is not a nil-valued <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.</td>
+<td>The <i>Uuid</i> parameter is not a nil-valued <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.</td>
 </tr>
 </table>
  
@@ -117,7 +117,7 @@ Upon completion, one of the following values is returned.
 
 
 
-<a href="https://msdn.microsoft.com/4008fb54-7770-4f1a-8e1c-4b20bef884f9">UuidCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreate">UuidCreate</a>
  
 
  

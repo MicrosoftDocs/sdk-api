@@ -121,7 +121,7 @@ Reinstall if the file is missing or is a different version.
 </td>
 <td width="60%">
 Verify the checksum values and reinstall the file if they are missing or corrupt. This flag only repairs files that have msidbFileAttributesChecksum in the Attributes column of the 
-<a href="https://msdn.microsoft.com/31d0e727-a9eb-4cd2-a211-ea7b138d0173">File table</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/file-table">File table</a>.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Force all files to be reinstalled, regardless of checksum or version.
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="https://msdn.microsoft.com/809ffd02-cf97-42d8-aed9-c13a14dcd8b4">Registry Table</a> that go to the<b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/registry-table">Registry Table</a> that go to the<b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
 
 </td>
 </tr>
@@ -153,18 +153,18 @@ Rewrite all required registry entries from the
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="https://msdn.microsoft.com/809ffd02-cf97-42d8-aed9-c13a14dcd8b4">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p>or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
-<a href="https://msdn.microsoft.com/0fa00a3f-2a5d-411d-9fc6-9486a600f018">Class Table</a>, 
-<a href="https://msdn.microsoft.com/3749095c-f0c0-498c-969f-a6c445cfdd62">Verb Table</a>, 
-<a href="https://msdn.microsoft.com/4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4">PublishComponent Table</a>, 
-<a href="https://msdn.microsoft.com/66a7e170-6f70-4db7-98f4-8a074471b9f2">ProgID Table</a>, 
-<a href="https://msdn.microsoft.com/5d452b24-ae04-4c45-8b3b-48e81f13a21e">MIMET Table</a>, 
-<a href="https://msdn.microsoft.com/a59c552a-21c0-4dd4-9146-88a5f9a22962">Icon Table</a>, 
-<a href="https://msdn.microsoft.com/924858b7-8956-4636-b7c7-c902aa822ee1">Extension Table</a>, and 
-<a href="https://msdn.microsoft.com/d76ed6df-944b-4996-bf07-e42ceb7a1b69">AppID Table</a> regardless of machine or user assignment. Reinstall all 
-<a href="https://msdn.microsoft.com/1d37e2c4-3ee0-42d2-95de-6e058319a4d4">qualified components</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p>or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/class-table">Class Table</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/verb-table">Verb Table</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/publishcomponent-table">PublishComponent Table</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/progid-table">ProgID Table</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/mime-table">MIMET Table</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/icon-table">Icon Table</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/extension-table">Extension Table</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/appid-table">AppID Table</a> regardless of machine or user assignment. Reinstall all 
+<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiprovidequalifiedcomponenta">qualified components</a>.
 
-When reinstalling an application,  this option runs the <a href="https://msdn.microsoft.com/374450bb-316c-4fe6-abb1-cd8a8a31f284">RegisterTypeLibraries</a> and <a href="https://msdn.microsoft.com/fbcf1fdc-5aef-4431-93fe-3ed02748b5ff">InstallODBC</a> actions.
+When reinstalling an application,  this option runs the <a href="https://docs.microsoft.com/windows/desktop/Msi/registertypelibraries-action">RegisterTypeLibraries</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/installodbc-action">InstallODBC</a> actions.
 
 </td>
 </tr>
@@ -282,7 +282,7 @@ The product code does not identify a known product.
  
 
 For more information, see 
-<a href="https://msdn.microsoft.com/0153a21f-9b26-4088-b12b-96c9e6918cc3">Displayed Error Messages</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 					
 
 
@@ -293,15 +293,15 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/05a16915-6b47-4d51-b62a-5a4d92b87e50">Installation and Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4a0f4d8-818d-4e60-908b-adaa2a54de95">Multiple Package Installations</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>
 
 
 
-<a href="https://msdn.microsoft.com/756d2899-2cfe-473a-bebf-a7f7bbe7d229">REINSTALLMODE Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/reinstallmode">REINSTALLMODE Property</a>
  
 
  

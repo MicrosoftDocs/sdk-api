@@ -61,7 +61,7 @@ Compares two media types and determines whether they are identical. If they are 
 
 ### -param pIMediaType [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface of the media type to compare.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to compare.
 
 
 ### -param pdwFlags [out]
@@ -80,7 +80,7 @@ Receives a bitwise <b>OR</b> of zero or more flags, indicating the degree of sim
 </dl>
 </td>
 <td width="60%">
-The major types are the same. The major type is specified by the <a href="https://msdn.microsoft.com/b88b5fcf-8025-4638-930d-9fc5cf0ec8a3">MF_MT_MAJOR_TYPE</a> attribute.
+The major types are the same. The major type is specified by the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a> attribute.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ The major types are the same. The major type is specified by the <a href="https:
 </dl>
 </td>
 <td width="60%">
-The subtypes are the same, or neither media type has a subtype. The subtype is specified by the <a href="https://msdn.microsoft.com/8e600943-92f1-4936-8c00-842fc7f4cb57">MF_MT_SUBTYPE</a> attribute.
+The subtypes are the same, or neither media type has a subtype. The subtype is specified by the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-subtype-attribute">MF_MT_SUBTYPE</a> attribute.
 
 </td>
 </tr>
@@ -102,11 +102,11 @@ The subtypes are the same, or neither media type has a subtype. The subtype is s
 </dl>
 </td>
 <td width="60%">
-The attributes in one of the media types are a  subset of the attributes in the other, and the values of these attributes match, excluding the value of the <a href="https://msdn.microsoft.com/020832c4-40a1-4d8b-ada0-7a04ce097bce">MF_MT_USER_DATA</a>, <a href="https://msdn.microsoft.com/d3725796-f683-4ca1-a37f-22c40fff0b76">MF_MT_FRAME_RATE_RANGE_MIN</a>,  and <a href="https://msdn.microsoft.com/8e0c4996-9f78-424e-b012-502228b6a27a">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes.
+The attributes in one of the media types are a  subset of the attributes in the other, and the values of these attributes match, excluding the value of the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-user-data-attribute">MF_MT_USER_DATA</a>, <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-min">MF_MT_FRAME_RATE_RANGE_MIN</a>,  and <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-max">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes.
 
-Specifically, the method takes the media type with the smaller number of attributes and checks whether each attribute from that type is present in the other media type and has the same value (not including <a href="https://msdn.microsoft.com/020832c4-40a1-4d8b-ada0-7a04ce097bce">MF_MT_USER_DATA</a>, <a href="https://msdn.microsoft.com/d3725796-f683-4ca1-a37f-22c40fff0b76">MF_MT_FRAME_RATE_RANGE_MIN</a>,  and <a href="https://msdn.microsoft.com/8e0c4996-9f78-424e-b012-502228b6a27a">MF_MT_FRAME_RATE_RANGE_MAX</a>). 
+Specifically, the method takes the media type with the smaller number of attributes and checks whether each attribute from that type is present in the other media type and has the same value (not including <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-user-data-attribute">MF_MT_USER_DATA</a>, <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-min">MF_MT_FRAME_RATE_RANGE_MIN</a>,  and <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-max">MF_MT_FRAME_RATE_RANGE_MAX</a>). 
 
-To perform other comparisons, use the <a href="https://msdn.microsoft.com/1d0c9d1c-448d-4851-b183-94b04acb2ab5">IMFAttributes::Compare</a> method. For example, the <b>Compare</b> method can test for identical attributes, or test the intersection of the two attribute sets. For more information, see <a href="https://msdn.microsoft.com/cfa534c4-88c3-4170-b977-c24ea5593f6c">MF_ATTRIBUTES_MATCH_TYPE</a>.
+To perform other comparisons, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compare">IMFAttributes::Compare</a> method. For example, the <b>Compare</b> method can test for identical attributes, or test the intersection of the two attribute sets. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-_mf_attributes_match_type">MF_ATTRIBUTES_MATCH_TYPE</a>.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ To perform other comparisons, use the <a href="https://msdn.microsoft.com/1d0c9d
 </dl>
 </td>
 <td width="60%">
-The user data is identical, or neither media type contains user data. User data is specified by the <a href="https://msdn.microsoft.com/020832c4-40a1-4d8b-ada0-7a04ce097bce">MF_MT_USER_DATA</a> attribute.
+The user data is identical, or neither media type contains user data. User data is specified by the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-user-data-attribute">MF_MT_USER_DATA</a> attribute.
 
 </td>
 </tr>
@@ -202,11 +202,11 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 
-<a href="https://msdn.microsoft.com/1d0c9d1c-448d-4851-b183-94b04acb2ab5">IMFAttributes::Compare</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compare">IMFAttributes::Compare</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
  
 
  

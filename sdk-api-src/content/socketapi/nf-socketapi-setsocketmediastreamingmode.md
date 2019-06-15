@@ -98,7 +98,7 @@ The <b>SetSocketMediaStreamingMode</b> function has no effect if the socket will
 
 
 
-<a href="https://msdn.microsoft.com/1c5819d6-bed7-4d65-b9d7-af5a2239b43f">Adding support for networking</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh452752(v=win.10)">Adding support for networking</a>
 
 
 

@@ -77,15 +77,15 @@ The password for the user name associated with the credentials.
 
 
 
-<a href="https://msdn.microsoft.com/88e95fa8-1a83-4ef9-b486-c8086cb08116">WdsCliAuthorizeSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliauthorizesession">WdsCliAuthorizeSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/c66801b2-ad5c-464b-ace3-269214621c20">WdsCliCreateSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e52a6ae-cecb-45de-b777-108836ed5264">Windows Deployment Services Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>
  
 
  

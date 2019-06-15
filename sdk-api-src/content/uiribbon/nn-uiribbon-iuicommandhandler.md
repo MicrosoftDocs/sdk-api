@@ -54,7 +54,7 @@ The <b>IUICommandHandler</b> interface is implemented by the application and def
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICommandHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUICommandHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUICommandHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUICommandHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUICommandHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371489(v=VS.85).aspx">Execute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute">Execute</a>
 </td>
 <td align="left" width="63%">
 Responds to execute events on Commands bound to the Command handler.  
@@ -78,7 +78,7 @@ Responds to execute events on Commands bound to the Command handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371494(v=VS.85).aspx">UpdateProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty">UpdateProperty</a>
 </td>
 <td align="left" width="63%">
 Responds to property update requests from the Ribbon framework.
@@ -95,7 +95,7 @@ Responds to property update requests from the Ribbon framework.
 
 For each Command in a View, the Ribbon framework requires a corresponding Command handler in 
 				the host application. A new handler or an existing handler must be bound to the Command through 
-				the <a href="https://msdn.microsoft.com/en-us/library/Dd371531(v=VS.85).aspx">IUIApplication::OnCreateUICommand</a> notification method.
+				the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand">IUIApplication::OnCreateUICommand</a> notification method.
 			
 
 Any number of Commands can be bound to a Command handler.
@@ -112,7 +112,7 @@ The Command handler serves two purposes: respond to property update requests and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

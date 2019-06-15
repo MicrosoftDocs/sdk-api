@@ -143,11 +143,11 @@ This method is not yet implemented.
 
 
 
-<a href="https://msdn.microsoft.com/bab167cf-2726-4423-87b3-69227404bddc">ITDirectoryObjectConference</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3228efa-2501-44ec-ba85-0e3b7c00b483">ITDirectoryObjectConference::get_IsEncrypted</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_isencrypted">ITDirectoryObjectConference::get_IsEncrypted</a>
  
 
  

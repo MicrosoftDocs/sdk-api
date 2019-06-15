@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the address 
    data of a physical interconnect.
@@ -63,7 +63,7 @@ Defines the address
 ### -field m_addressType
 
 The interconnect address type enumerated by 
-      <a href="https://msdn.microsoft.com/20d75585-a80c-49bc-9f9c-5aae8e5f2c21">VDS_INTERCONNECT_ADDRESS_TYPE</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_interconnect_address_type">VDS_INTERCONNECT_ADDRESS_TYPE</a>.
 
 
 ### -field m_cbPort
@@ -90,7 +90,7 @@ Pointer to the interconnect address data for the LUN.
 
 
 
-The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a> structure includes this 
+The <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a> structure includes this 
     structure as a member to specify an interconnect by which a LUN can be accessed.
 
 
@@ -101,15 +101,15 @@ The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VD
 
 
 
-<a href="https://msdn.microsoft.com/6a13f5eb-0fa1-48e2-a112-b2254ca28423">VDS Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/20d75585-a80c-49bc-9f9c-5aae8e5f2c21">VDS_INTERCONNECT_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-_vds_interconnect_address_type">VDS_INTERCONNECT_ADDRESS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VDS_LUN_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-_vds_lun_information">VDS_LUN_INFORMATION</a>
  
 
  

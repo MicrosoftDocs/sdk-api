@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers to receive notification when the system is suspended or resumed. Similar to <a href="https://msdn.microsoft.com/3b39ec3a-417c-4ce4-a581-ed967f1baec9">PowerRegisterSuspendResumeNotification</a>, but operates in user mode and can take a window handle.
+Registers to receive notification when the system is suspended or resumed. Similar to <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>, but operates in user mode and can take a window handle.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Registers to receive notification when the system is suspended or resumed. Simil
 
  This parameter contains parameters for subscribing to a power notification or a window handle representing the subscribing process. 
 
-If <i>Flags</i> is <b>DEVICE_NOTIFY_CALLBACK</b>, <i>hRecipient</i> is interpreted as a pointer to a <a href="https://msdn.microsoft.com/en-us/library/JJ552972(v=VS.85).aspx">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a> structure. In this case, the callback function is <a href="https://msdn.microsoft.com/5734FDEE-E330-4115-AFA5-725114023A5A">DeviceNotifyCallbackRoutine</a>. When the <b>Callback</b> function executes, the  <i>Type</i> parameter is set indicating the type of event that occurred. Possible values include <b>PBT_APMSUSPEND</b>, <b>PBT_APMRESUMESUSPEND</b>, and <b>PBT_APMRESUMEAUTOMATIC</b> - see  <a href="https://msdn.microsoft.com/2315e17f-f0c1-409c-b1c0-b3735c25c4c1">Power Management Events</a> for more info. The <i>Setting</i> parameter is not used with suspend/resume notifications.
+If <i>Flags</i> is <b>DEVICE_NOTIFY_CALLBACK</b>, <i>hRecipient</i> is interpreted as a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a> structure. In this case, the callback function is <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nc-powrprof-device_notify_callback_routine">DeviceNotifyCallbackRoutine</a>. When the <b>Callback</b> function executes, the  <i>Type</i> parameter is set indicating the type of event that occurred. Possible values include <b>PBT_APMSUSPEND</b>, <b>PBT_APMRESUMESUSPEND</b>, and <b>PBT_APMRESUMEAUTOMATIC</b> - see  <a href="https://docs.microsoft.com/windows/desktop/Power/power-management-events">Power Management Events</a> for more info. The <i>Setting</i> parameter is not used with suspend/resume notifications.
 
 If <i>Flags</i> is <b>DEVICE_NOTIFY_WINDOW_HANDLE</b>, <i>hRecipient</i> is a handle to the window to deliver events to. 
 
@@ -78,7 +78,7 @@ If <i>Flags</i> is <b>DEVICE_NOTIFY_WINDOW_HANDLE</b>, <i>hRecipient</i> is a ha
 A handle to the registration. Use this handle to unregister for notifications.
 
 If the function fails, the return value is NULL. To get extended error information call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -88,15 +88,15 @@ If the function fails, the return value is NULL. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/5734FDEE-E330-4115-AFA5-725114023A5A">DEVICE_NOTIFY_CALLBACK_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nc-powrprof-device_notify_callback_routine">DEVICE_NOTIFY_CALLBACK_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ552972(v=VS.85).aspx">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-_device_notify_subscribe_parameters">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9307452-9670-4e9c-9df8-6a3b41d0bd2e">UnregisterSuspendResumeNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregistersuspendresumenotification">UnregisterSuspendResumeNotification</a>
  
 
  

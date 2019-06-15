@@ -100,14 +100,14 @@ For example, if <b>CharUpperBuff</b>("Zenith of API Sets", 10) succeeds, the ret
 
 
 
-Note that <b>CharUpperBuff</b> always maps lowercase I ("i") to uppercase I, even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="https://msdn.microsoft.com/84dda2cd-cbf9-45e9-b18c-7dea0b5bc991">LCMapString</a>.
+Note that <b>CharUpperBuff</b> always maps lowercase I ("i") to uppercase I, even when the current language is Turkish or Azerbaijani. If you need a function that is linguistically sensitive in this respect, call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>.
 
 Conversion to Unicode in the ANSI version of the function is done with the system default locale in all cases.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Aa363875(v=VS.85).aspx">Creating and Using a Temporary File</a>. 
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>. 
 
 
 
@@ -120,15 +120,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Aa363875(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647467(v=VS.85).aspx">CharLower</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charlowera">CharLower</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647468(v=VS.85).aspx">CharLowerBuff</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/f">CharLowerBuff</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647474(v=VS.85).aspx">CharUpper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charuppera">CharUpper</a>
 
 
 
@@ -140,7 +140,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Aa363875(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

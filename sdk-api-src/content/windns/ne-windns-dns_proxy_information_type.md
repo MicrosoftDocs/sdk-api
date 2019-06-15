@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_PROXY_INFORMATION_TYPE</b> enumeration defines the proxy information type in the <a href="https://msdn.microsoft.com/cfe7653f-7e68-4e50-ba67-bd441f837ef8">DNS_PROXY_INFORMATION</a> structure.
+<b>DNS_PROXY_INFORMATION_TYPE</b> enumeration defines the proxy information type in the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure.
 
 
 ## -enum-fields
@@ -70,7 +70,7 @@ The type is the user's default browser proxy settings.
 
 ### -field DNS_PROXY_INFORMATION_PROXY_NAME
 
-The type is defined by the <b>proxyName</b> member of the <a href="https://msdn.microsoft.com/cfe7653f-7e68-4e50-ba67-bd441f837ef8">DNS_PROXY_INFORMATION</a> structure.
+The type is defined by the <b>proxyName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_proxy_information">DNS_PROXY_INFORMATION</a> structure.
 
 
 ### -field DNS_PROXY_INFORMATION_DOES_NOT_EXIST
@@ -83,7 +83,7 @@ The type does not exist. DNS policy does not have proxy information for this nam
 
 
 
-<a href="https://msdn.microsoft.com/6ab53b19-7838-4e9f-9923-96a9267d2dbb">DNS Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
  
 
  

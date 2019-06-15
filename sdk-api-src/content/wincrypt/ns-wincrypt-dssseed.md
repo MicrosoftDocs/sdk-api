@@ -72,15 +72,15 @@ A <b>BYTE</b> string containing the seed value.
 
 
 
-<a href="https://msdn.microsoft.com/f0ebab5b-fe86-4604-a7a1-42c6176ac5f3">DSSPUBKEY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)">DSSPUBKEY</a>
 
 
 
-<a href="https://msdn.microsoft.com/99d41222-b4ca-40f3-a240-52b0a9b3a9aa">PUBLICKEYSTRUC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_publickeystruc">PUBLICKEYSTRUC</a>
 
 
 
-<a href="https://msdn.microsoft.com/34b3d591-5d51-484b-accc-9a923d7492b9">RSAPUBKEY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_rsapubkey">RSAPUBKEY</a>
  
 
  

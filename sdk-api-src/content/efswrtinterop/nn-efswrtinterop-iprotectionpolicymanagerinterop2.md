@@ -57,7 +57,7 @@ ms.custom: 19H1
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtectionPolicyManagerInterop2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IProtectionPolicyManagerInterop2 interface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtectionPolicyManagerInterop2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProtectionPolicyManagerInterop2 interface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IProtectionPolicyManagerInterop2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41F0047C-6442-4157-B710-E0DAF61DE44A">IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithwindowasync">IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise-protected content for a specific target app.
@@ -82,7 +82,7 @@ Request access to enterprise-protected content for a specific target app.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9C631272-BF69-4CA5-9664-45C6831C252F">IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccesswithauditinginfoforwindowasync">IProtectionPolicyManagerInterop2::RequestAccessWithAuditingInfoForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise protected content for an identity.
@@ -91,7 +91,7 @@ Request access to enterprise protected content for an identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AC0E0ED0-C8C3-4058-B20D-4F8BB3D83A87">IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccesswithmessageforwindowasync">IProtectionPolicyManagerInterop2::RequestAccessWithMessageForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise protected content for an identity.
@@ -100,7 +100,7 @@ Request access to enterprise protected content for an identity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91DEC69B-066E-427F-9C25-47B15EAD0D89">IProtectionPolicyManagerInterop2:RequestAccessForAppWithAuditingInfoForWindowAsync</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithauditinginfoforwindowasync">IProtectionPolicyManagerInterop2:RequestAccessForAppWithAuditingInfoForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise-protected content for a specific target app.
@@ -109,7 +109,7 @@ Request access to enterprise-protected content for a specific target app.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D78D0095-826A-4E6F-9420-873382A76B87">IProtectionPolicyManagerInterop2:RequestAccessForAppWithMessageForWindowAsync</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/efswrtinterop/nf-efswrtinterop-iprotectionpolicymanagerinterop2-requestaccessforappwithmessageforwindowasync">IProtectionPolicyManagerInterop2:RequestAccessForAppWithMessageForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Request access to enterprise-protected content for a specific target app.

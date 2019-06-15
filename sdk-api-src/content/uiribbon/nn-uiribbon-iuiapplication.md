@@ -54,7 +54,7 @@ The <b>IUIApplication</b> interface is implemented by the application and define
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIApplication</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUIApplication</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIApplication</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIApplication</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,17 +69,17 @@ The <b>IUIApplication</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371531(v=VS.85).aspx">OnCreateUICommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand">OnCreateUICommand</a>
 </td>
 <td align="left" width="63%">
-Called for each Command specified in the Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
+Called for each Command specified in the Ribbon framework markup to bind the Command to an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>.
 		
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371534(v=VS.85).aspx">OnDestroyUICommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-ondestroyuicommand">OnDestroyUICommand</a>
 </td>
 <td align="left" width="63%">
 Called for each Command specified in the Ribbon framework markup when the application window is destroyed.
@@ -89,10 +89,10 @@ Called for each Command specified in the Ribbon framework markup when the applic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371537(v=VS.85).aspx">OnViewChanged</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged">OnViewChanged</a>
 </td>
 <td align="left" width="63%">
-Called when the state of a  <a href="https://msdn.microsoft.com/en-us/library/Dd371600(v=VS.85).aspx">View</a> changes.
+Called when the state of a  <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-application-views">View</a> changes.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Called when the state of a  <a href="https://msdn.microsoft.com/en-us/library/Dd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
  
 
  

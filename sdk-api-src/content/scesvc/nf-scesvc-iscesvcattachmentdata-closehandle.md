@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>CloseHandle</b> method closes a handle opened during a previous call to 
-<a href="https://msdn.microsoft.com/2c5d087d-774b-4cfb-a458-9a5b1c6106c7">ISceSvcAttachmentData::Initialize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CloseHandle</b> method closes a handle opened during a previous call to
 ### -param scesvcHandle [in]
 
 The 
-<a href="https://msdn.microsoft.com/478d7d4b-7983-4247-b8be-2e2cd3327533">SCESVC_HANDLE</a> to close.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a> to close.
 
 
 ## -returns
@@ -78,7 +78,7 @@ The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates the meth
 
 
 You should call this method when your attachment snap-in extension no longer requires the handle returned by 
-<a href="https://msdn.microsoft.com/2c5d087d-774b-4cfb-a458-9a5b1c6106c7">ISceSvcAttachmentData::Initialize</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>.
 
 
 
@@ -88,11 +88,11 @@ You should call this method when your attachment snap-in extension no longer req
 
 
 
-<a href="https://msdn.microsoft.com/385acdb9-5642-47c1-b2ac-be388edaac12">ISceSvcAttachmentData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nn-scesvc-iscesvcattachmentdata">ISceSvcAttachmentData</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c5d087d-774b-4cfb-a458-9a5b1c6106c7">ISceSvcAttachmentData::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>
  
 
  

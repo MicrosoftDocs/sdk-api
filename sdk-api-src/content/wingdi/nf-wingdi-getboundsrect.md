@@ -145,15 +145,15 @@ The DCB_SET value is a combination of the bit values DCB_ACCUMULATE and DCB_RESE
 
 
 
-<a href="https://msdn.microsoft.com/ec18323e-c13b-4328-83bf-9e4ed4a712b8">Painting and Drawing Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e6034af-4dea-4579-b476-52f6dd3d5bc7">Painting and Drawing Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad361e78-42e8-4945-9395-fab983e396df">SetBoundsRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setboundsrect">SetBoundsRect</a>
  
 
  

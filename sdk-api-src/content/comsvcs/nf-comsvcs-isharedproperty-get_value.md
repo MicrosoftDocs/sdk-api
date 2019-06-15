@@ -76,11 +76,11 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a">ISharedProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679208(v=VS.85).aspx">SharedProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a>
  
 
  

@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 The <b>LSA_TRANSLATED_SID2</b> structure contains 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SIDs</a> that are retrieved based on account names. This structure is used by the 
-<a href="https://msdn.microsoft.com/fe219070-6a00-4b8c-b2e4-2ad290a1cb9c">LsaLookupNames2</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SIDs</a> that are retrieved based on account names. This structure is used by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a> function.
 
 
 ## -struct-fields
@@ -62,7 +62,7 @@ The <b>LSA_TRANSLATED_SID2</b> structure contains
 ### -field Use
 
 An 
-<a href="https://msdn.microsoft.com/4e6af6bd-056b-4f5a-b223-57a673c3fcfa">SID_NAME_USE</a> enumeration value that identifies the use of the SID. If this value is SidTypeUnknown or SidTypeInvalid, the rest of the information in the structure is not valid and should be ignored.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_sid_name_use">SID_NAME_USE</a> enumeration value that identifies the use of the SID. If this value is SidTypeUnknown or SidTypeInvalid, the rest of the information in the structure is not valid and should be ignored.
 
 
 ### -field Sid
@@ -73,7 +73,7 @@ The complete SID of the account.
 ### -field DomainIndex
 
 The index of an entry in a related 
-<a href="https://msdn.microsoft.com/ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c">LSA_REFERENCED_DOMAIN_LIST</a> data structure which describes the domain that owns the account. If there is no corresponding reference domain for an entry, then <b>DomainIndex</b> will contain a negative value.
+<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a> data structure which describes the domain that owns the account. If there is no corresponding reference domain for an entry, then <b>DomainIndex</b> will contain a negative value.
 
 
 ### -field Flags

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capGetVideoFormatSize</b> macro retrieves the size required for the video format. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/ac72dfdb-fe1a-4007-bdce-41e5e67d076a">WM_CAP_GET_VIDEOFORMAT</a> message.
+The <b>capGetVideoFormatSize</b> macro retrieves the size required for the video format. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-videoformat">WM_CAP_GET_VIDEOFORMAT</a> message.
 
 
 
@@ -79,11 +79,11 @@ Because compressed video formats vary in size requirements applications must fir
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

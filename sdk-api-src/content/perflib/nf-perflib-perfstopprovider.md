@@ -72,7 +72,7 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
 
 
 
@@ -81,7 +81,7 @@ If the function fails, the return value is a
 
 
 
-The <a href="https://msdn.microsoft.com/e52c1ee0-140a-4277-bddd-d93338a512bc">CounterCleanup</a> function calls this function; do not call this function directly.
+The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/countercleanup">CounterCleanup</a> function calls this function; do not call this function directly.
 
 <b>Windows Vista:  </b>The <b>PerfAutoCleanup</b> function calls this function.
 
@@ -93,7 +93,7 @@ The <a href="https://msdn.microsoft.com/e52c1ee0-140a-4277-bddd-d93338a512bc">Co
 
 
 
-<a href="https://msdn.microsoft.com/b417b19b-adbc-40e3-aca1-c2cd94a79232">PerfStartProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a>
  
 
  

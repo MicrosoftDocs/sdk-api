@@ -64,7 +64,7 @@ Number of items to retrieve.
 
 ### -param rgelt [out]
 
-Array of <a href="https://msdn.microsoft.com/44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0">IFsiItem</a> interfaces. You must release each interface in rgelt when done. 
+Array of <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a> interfaces. You must release each interface in rgelt when done. 
 
 
 ### -param pceltFetched [out]
@@ -145,7 +145,7 @@ If there are fewer than the requested number of elements left in the sequence, i
 
 
 
-<a href="https://msdn.microsoft.com/f3186af1-4056-4cb5-aac4-5253ee6dbc01">IEnumFsiItems</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumfsiitems">IEnumFsiItems</a>
 
 
 

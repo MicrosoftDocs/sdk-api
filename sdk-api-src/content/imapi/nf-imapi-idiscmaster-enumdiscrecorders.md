@@ -77,14 +77,14 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 <b>IEnumDiscRecorders</b> is a standard COM enumerator, as documented in 
 <b>IEnumXXXX</b>. Each call to <b>Next</b> returns an array of pointers to 
-<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a>. Each recorder interface represents a single available recorder already associated with an underlying physical disc recorder.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>. Each recorder interface represents a single available recorder already associated with an underlying physical disc recorder.
 
 The list of available recorders may change due to Plug and Play arrivals or departures, or a call to 
-<a href="https://msdn.microsoft.com/fcc2840b-d302-4cd6-b576-1826c83b711e">SetActiveDiscMasterFormat</a>. An application is notified of these changes when it receives a call to 
-<a href="https://msdn.microsoft.com/d2b41e86-2f1b-46f1-955d-7fc42f8189a4">IDiscMasterProgressEvents::NotifyPnPActivity</a>. When a change occurs, the application should call this method again to retrieve a new enumerator, because each enumerator contains a snapshot of the devices supported at the time of the enumeration.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscmasterformat">SetActiveDiscMasterFormat</a>. An application is notified of these changes when it receives a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmasterprogressevents-notifypnpactivity">IDiscMasterProgressEvents::NotifyPnPActivity</a>. When a change occurs, the application should call this method again to retrieve a new enumerator, because each enumerator contains a snapshot of the devices supported at the time of the enumeration.
 
 When a device is removed, its pointer and 
-<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a> interface must remain valid even though the underlying physical device is missing. In this case, operations on an 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a> interface must remain valid even though the underlying physical device is missing. In this case, operations on an 
 <b>IDiscRecorder</b> or a request to record a disc may return IMAPI_E_DEVICE_NOTPRESENT.
 
 The <b>MaxWriteSpeed</b> property is updated when this method is called. The default setting is the highest available write speed.
@@ -97,7 +97,7 @@ The <b>MaxWriteSpeed</b> property is updated when this method is called. The def
 
 
 
-<a href="https://msdn.microsoft.com/1473e79e-a13a-4bc5-b80d-d8921fdc9952">IDiscMaster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
  
 
  

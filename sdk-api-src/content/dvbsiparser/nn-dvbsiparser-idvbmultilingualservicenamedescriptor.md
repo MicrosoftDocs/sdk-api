@@ -55,7 +55,7 @@ form in one or more languages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbMultilingualServiceNameDescriptor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDvbMultilingualServiceNameDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbMultilingualServiceNameDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbMultilingualServiceNameDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDvbMultilingualServiceNameDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c157e520-696f-45d8-8e43-0e6845882404">GetCountOfRecords</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of service names  from a DVB multilingual service name descriptor.
@@ -79,7 +79,7 @@ Gets the number of service names  from a DVB multilingual service name descripto
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/851d3d7b-0891-41a7-899e-61aac641ab3c">GetLength</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length from a DVB multilingual service name descriptor.
@@ -88,7 +88,7 @@ Gets the body length from a DVB multilingual service name descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8432acb-f59b-4995-8b5d-576acab0f6b1">GetRecordLangId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getrecordlangid">GetRecordLangId</a>
 </td>
 <td align="left" width="63%">
  Gets the ISO 639 language code from a DVB multilingual service name descriptor.
@@ -97,7 +97,7 @@ Gets the body length from a DVB multilingual service name descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dfe9040d-18f1-4a35-a4ed-bb3f84ad8dd7">GetRecordServiceNameW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getrecordservicenamew">GetRecordServiceNameW</a>
 </td>
 <td align="left" width="63%">
 Gets the service name in string format  from a DVB multilingual service name descriptor.
@@ -106,7 +106,7 @@ Gets the service name in string format  from a DVB multilingual service name des
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e07ebe5c-b5b3-4604-91c3-3e75042ad074">GetRecordServiceProviderNameW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getrecordserviceprovidernamew">GetRecordServiceProviderNameW</a>
 </td>
 <td align="left" width="63%">
  Gets the service provider name in string format from a DVB multilingual service name descriptor.
@@ -115,7 +115,7 @@ Gets the service name in string format  from a DVB multilingual service name des
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/428f3309-67aa-4a47-9585-0308bee47e16">GetTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a DVB multilingual service name descriptor.

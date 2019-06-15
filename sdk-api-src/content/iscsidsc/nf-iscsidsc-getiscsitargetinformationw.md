@@ -72,7 +72,7 @@ A text description of the mechanism that was used to discover the target (for ex
 
 ### -param InfoClass [in]
 
-A value of type <a href="https://msdn.microsoft.com/2ef6cff7-b5ab-463d-b274-62be81bc9295">TARGET_INFORMATION_CLASS</a> that indicates the type of information to retrieve.
+A value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-target_information_class">TARGET_INFORMATION_CLASS</a> that indicates the type of information to retrieve.
 
 
 ### -param BufferSize [in, out]
@@ -114,19 +114,19 @@ Since the information associated with a target is relative to the way in which i
 
 
 
-<a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6">ISCSI_TARGET_PORTAL_GROUP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/1997b1d0-6723-434c-bca7-513e4dc30ee6">TARGETPROTOCOLTYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-targetprotocoltype">TARGETPROTOCOLTYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2ef6cff7-b5ab-463d-b274-62be81bc9295">TARGET_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-target_information_class">TARGET_INFORMATION_CLASS</a>
  
 
  

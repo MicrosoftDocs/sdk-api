@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Defines values for the type of  application.  You can retrieve these flags  from the <a href="https://msdn.microsoft.com/9a934718-1eea-4406-a1da-b7d493f6667e">IRDPSRAPIApplication</a> interface that represents each application.
+Defines values for the type of  application.  You can retrieve these flags  from the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a> interface that represents each application.
 
-You can retrieve the list of applications that are running on the sharing user session  for both the sharer and the viewer through the <a href="https://msdn.microsoft.com/6a08c948-1b25-4a36-93c8-23e7e3f4fb08">IRDPSRAPIApplicationFilter</a> interface by calling the <a href="https://msdn.microsoft.com/08704192-320d-44f2-a811-f8565285bd30">get_Applications</a> method.
+You can retrieve the list of applications that are running on the sharing user session  for both the sharer and the viewer through the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_applications">get_Applications</a> method.
 
 
 ## -enum-fields

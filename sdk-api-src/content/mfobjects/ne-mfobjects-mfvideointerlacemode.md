@@ -131,19 +131,19 @@ If the interlace mode is MFVideoInterlace_FieldSingleUpper or MFVideoInterlace_F
 
 
 
-<a href="https://msdn.microsoft.com/19aa0147-ac49-4a2e-ac75-e967fec9ca68">MF_MT_INTERLACE_MODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-interlace-mode-attribute">MF_MT_INTERLACE_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/2911ae57-1703-4a9d-bd33-94af1e0f8804">Video Interlacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-interlacing">Video Interlacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8cfe0d1-013d-4706-bb76-6d426836ab6a">Video Media Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/video-media-types">Video Media Types</a>
  
 
  

@@ -108,7 +108,7 @@ The number of WINS Servers listed in <b>WinsServers</b>.
 
 ### -field WinsServers
 
-An array of <a href="https://msdn.microsoft.com/4273a739-129c-4951-b6df-aef4332ce0cb">IP4_ARRAY</a> structures that contain the IPv4 address of the WINS lookup Servers.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_ip4_array">IP4_ARRAY</a> structures that contain the IPv4 address of the WINS lookup Servers.
 
 
 ## -remarks
@@ -117,7 +117,7 @@ An array of <a href="https://msdn.microsoft.com/4273a739-129c-4951-b6df-aef4332c
 
 The 
 <b>DNS_WINS_DATA</b> structure is used in conjunction with the 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
@@ -127,7 +127,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/ab7b96a5-346f-4e01-bb2a-885f44764590">DNS_RECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-_dnsrecorda">DNS_RECORD</a>
  
 
  

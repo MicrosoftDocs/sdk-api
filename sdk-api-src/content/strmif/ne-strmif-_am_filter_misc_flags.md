@@ -62,7 +62,7 @@ The <b>_AM_FILTER_MISC_FLAGS</b> enumeration contains flags that indicate whethe
 
 ### -field AM_FILTER_MISC_FLAGS_IS_RENDERER
 
-The filter is a renderer and sends an <a href="https://msdn.microsoft.com/46037d53-085d-4fd0-91a0-408702cbfce5">EC_COMPLETE</a> event at the end of the stream.
+The filter is a renderer and sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> event at the end of the stream.
 
 
 ### -field AM_FILTER_MISC_FLAGS_IS_SOURCE
@@ -75,11 +75,11 @@ The filter is a source filter.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/03728d28-a3e5-4ac5-b637-1daa173e5e88">IAMFilterMiscFlags::GetMiscFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamfiltermiscflags-getmiscflags">IAMFilterMiscFlags::GetMiscFlags</a>
  
 
  

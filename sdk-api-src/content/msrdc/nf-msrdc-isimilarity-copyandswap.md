@@ -51,7 +51,7 @@ ms.custom: 19H1
 
  Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.
 
-After the <b>CopyAndSwap</b> method returns, the application continues to use the same <a href="https://msdn.microsoft.com/fe0cd874-a40c-4d82-99bf-b84008a4995c">ISimilarity</a> object that it used before calling this method. However, the <b>ISimilarity</b> object is now associated with a different similarity file on disk.
+After the <b>CopyAndSwap</b> method returns, the application continues to use the same <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a> object that it used before calling this method. However, the <b>ISimilarity</b> object is now associated with a different similarity file on disk.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ After the <b>CopyAndSwap</b> method returns, the application continues to use th
 
 ### -param newSimilarityTables [in, optional]
 
-An optional pointer to a temporary <a href="https://msdn.microsoft.com/fe0cd874-a40c-4d82-99bf-b84008a4995c">ISimilarity</a> object that is used to create temporary copies of the tables. Before calling the <b>CopyAndSwap</b> method, the caller must call the <a href="https://msdn.microsoft.com/808c20f9-054d-475d-8ca3-ee2dde871426">CreateTable</a> method to create the temporary tables. On return, the caller must call the <a href="https://msdn.microsoft.com/5bf16568-ed61-42a3-91b9-79a1aa731bc0">CloseTable</a> method to close the temporary tables.
+An optional pointer to a temporary <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a> object that is used to create temporary copies of the tables. Before calling the <b>CopyAndSwap</b> method, the caller must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-createtable">CreateTable</a> method to create the temporary tables. On return, the caller must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarity-closetable">CloseTable</a> method to close the temporary tables.
 
 
 ### -param reportProgress [in, optional]
 
-An optional pointer to an <a href="https://msdn.microsoft.com/813bda93-08d5-456c-9bde-ce6dd53fb8bf">ISimilarityReportProgress</a> object that will receive information on the progress of the copy-and-swap operation and allow the application to stop the copy operation. The caller must release this interface when it is no longer needed.
+An optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityreportprogress">ISimilarityReportProgress</a> object that will receive information on the progress of the copy-and-swap operation and allow the application to stop the copy operation. The caller must release this interface when it is no longer needed.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/fe0cd874-a40c-4d82-99bf-b84008a4995c">ISimilarity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
 
 
 
-<a href="https://msdn.microsoft.com/e393290b-02d3-4265-9252-f5541e4054ce">ISimilarityReportProgress::ReportProgress</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityreportprogress-reportprogress">ISimilarityReportProgress::ReportProgress</a>
  
 
  

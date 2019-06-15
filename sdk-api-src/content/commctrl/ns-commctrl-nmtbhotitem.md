@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787274(v=VS.85).aspx">TBN_HOTITEMCHANGE</a> notification code. 
+Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-hotitemchange">TBN_HOTITEMCHANGE</a> notification code. 
 
 
 ## -struct-fields
@@ -59,10 +59,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-_nmhdr">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field idOld
@@ -81,7 +81,7 @@ Command identifier of the item about to be highlighted.
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flags that indicate why the hot item has changed. This can be one or more of the following values: 
 
@@ -168,7 +168,7 @@ The change in the hot item resulted from a mouse event.
 </dl>
 </td>
 <td width="60%">
-The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://msdn.microsoft.com/en-us/library/Bb787431(v=VS.85).aspx">TB_SETHOTITEM</a> message. 
+The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-sethotitem">TB_SETHOTITEM</a> message. 
 
 </td>
 </tr>
@@ -189,7 +189,7 @@ The change in the hot item resulted from the user entering the shortcut key for 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> Causes the button to switch states. 
+<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> Causes the button to switch states. 
 
 </td>
 </tr>

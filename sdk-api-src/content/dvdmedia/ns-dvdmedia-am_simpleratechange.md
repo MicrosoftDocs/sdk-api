@@ -75,13 +75,13 @@ Specifies the new rate x 10000. Rate is the inverse of speed. For example, if th
 
 
 <h3><a id="Version_1.1_Semantics"></a><a id="version_1.1_semantics"></a><a id="VERSION_1.1_SEMANTICS"></a>Version 1.1 Semantics</h3>
-For version 1.1 of this property set, the <b>StartTime</b> member can be -1. This value indicates that the rate change applies to the decoder's <i>most forward</i> sample, defined as the sample at the head of the decoder's outgoing queue.  To get the actual start time of the rate change, query the <a href="https://msdn.microsoft.com/3c7006e7-48fd-4df8-b446-8ee2b024278b">AM_RATE_QueryLastRateSegPTS</a> property.
+For version 1.1 of this property set, the <b>StartTime</b> member can be -1. This value indicates that the rate change applies to the decoder's <i>most forward</i> sample, defined as the sample at the head of the decoder's outgoing queue.  To get the actual start time of the rate change, query the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/am-rate-querylastratesegpts-property">AM_RATE_QueryLastRateSegPTS</a> property.
 
 The decoder should adjust the time stamps on every queued sample to reflect the new rate. Queued samples might be incompatible with the new rate, especially for audio decoders. If so, the decoder may simply drop the queued samples. After dropping samples, it should set the discontinuity flag on the first sample it delivers.
 
  
 
-In the case where <b>StartTime</b> is -1, but the new rate is incompatible and the decoder does not keep a queue of samples, the decoder should return VFW_E_DVD_WRONG_SPEED from the <a href="https://msdn.microsoft.com/78f506dc-7fb4-446d-863e-cffee9da5280">IKsPropertySet::Set</a> method. The source filter can then set a rate change with a specified (not -1) start time.
+In the case where <b>StartTime</b> is -1, but the new rate is incompatible and the decoder does not keep a queue of samples, the decoder should return VFW_E_DVD_WRONG_SPEED from the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ikspropertyset-set">IKsPropertySet::Set</a> method. The source filter can then set a rate change with a specified (not -1) start time.
 
 The source filter can schedule a rate change whose start time is earlier than previously queued rate changes. This invalidates any rate changes further down the queue; the decoder should discard them. If <b>StartTime</b> is -1, the decoder should discard all pending rate changes before queuing the new rate change.
 
@@ -243,11 +243,11 @@ HRESULT SetRate(
 
 
 
-<a href="https://msdn.microsoft.com/d6ade463-82c7-46be-8d9a-e372ddbd7a4b">AM_RATE_SimpleRateChange Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/am-rate-simpleratechange-property">AM_RATE_SimpleRateChange Property</a>
 
 
 
-<a href="https://msdn.microsoft.com/f88c64ce-af76-49fe-8ebd-029928506243">Rate Change Property Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>
  
 
  

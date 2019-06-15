@@ -53,12 +53,12 @@ The <b>IADsOpenDSObject</b> interface is designed to supply a security context f
 
 ADSI maintains the security context in its cache. Thus, throughout the connection within a process, Once authenticated, the supplied user credentials are applied to any actions performed on this object and its children. This credential caching model applies to binding to different objects as well, provided that the binding takes place within the same connection and process.
 
-Calling the <a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534dc69f">OpenDSObject</a> method of this interface yields the cache handle. Releasing this cache handle releases the security context as well.
+Calling the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">OpenDSObject</a> method of this interface yields the cache handle. Releasing this cache handle releases the security context as well.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsOpenDSObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsOpenDSObject</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsOpenDSObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,10 +73,10 @@ The <b>IADsOpenDSObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534dc69f">OpenDSObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">OpenDSObject</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the specified object.
+Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the specified object.
 
 </td>
 </tr>
@@ -88,15 +88,15 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/690b0c96-6319-42d8-8b0e-c43f46f91031">IADsClass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsclass">IADsClass</a>
 
 
 
-<a href="https://msdn.microsoft.com/9984ddb4-58bb-4264-930b-07e6534dc69f">IADsOpenDSObject::OpenDSObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDSObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

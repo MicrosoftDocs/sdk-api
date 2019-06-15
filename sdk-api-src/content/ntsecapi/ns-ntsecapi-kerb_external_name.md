@@ -52,7 +52,7 @@ ms.custom: 19H1
 The <b>KERB_EXTERNAL_NAME</b> structure contains information about an external name.
 
 An external name is one used by external users. This structure is used by the 
-<a href="https://msdn.microsoft.com/742e2795-ec74-4856-a680-7a1c233a2934">KERB_EXTERNAL_TICKET</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_external_ticket">KERB_EXTERNAL_TICKET</a> structure.
 
 
 ## -struct-fields
@@ -135,7 +135,7 @@ Unique ID.
 </dl>
 </td>
 <td width="60%">
-User principal name (UPN) or <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">service principal name</a> (SPN).
+User principal name (UPN) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN).
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ User principal name (UPN) or <a href="https://msdn.microsoft.com/3e9d7672-2314-4
 </dl>
 </td>
 <td width="60%">
-UPN and <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID).
+UPN and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 </td>
 </tr>
@@ -181,5 +181,5 @@ Indicates the number of names stored in <b>Names</b>.
 ### -field Names
 
 Array of 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRINGS</a> containing the names.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRINGS</a> containing the names.
 

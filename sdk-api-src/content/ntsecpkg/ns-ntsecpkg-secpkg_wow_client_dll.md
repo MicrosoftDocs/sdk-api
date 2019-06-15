@@ -52,8 +52,8 @@ ms.custom: 19H1
 The <b>SECPKG_WOW_CLIENT_DLL</b> structure contains the path to the WOW-aware 32-bit DLL.
 
 This structure is used by the 
-<a href="https://msdn.microsoft.com/e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3">SpGetExtendedInformation</a> and 
-<a href="https://msdn.microsoft.com/a6176786-c19b-4ecf-8a7b-2430ff8b56f7">SpSetExtendedInformation</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 
 ## -struct-fields
@@ -63,5 +63,5 @@ This structure is used by the
 
 ### -field WowClientDllPath
 
-A <a href="https://msdn.microsoft.com/4E03761C-8199-4D9F-B9DA-8941F0CC6700">SECURITY_STRING</a> that contain the path to the WOW-aware client 32-bit library.
+A <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_security_string">SECURITY_STRING</a> that contain the path to the WOW-aware client 32-bit library.
 

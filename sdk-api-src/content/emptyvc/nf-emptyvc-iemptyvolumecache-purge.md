@@ -68,7 +68,7 @@ The amount of disk space that the handler should free. If this parameter is set 
 
 Type: <b>IEmptyVolumeCacheCallback*</b>
 
-A pointer to the disk cleanup manager's <a href="https://msdn.microsoft.com/d6775458-3b39-4ee8-90f9-d8a749bd1800">IEmptyVolumeCacheCallBack</a> interface. This pointer can be used to call the interface's <a href="https://msdn.microsoft.com/96b97919-9b3b-418e-a76a-a2e8aad453b9">PurgeProgress</a> method to report on the progress of the operation. 
+A pointer to the disk cleanup manager's <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecachecallback">IEmptyVolumeCacheCallBack</a> interface. This pointer can be used to call the interface's <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecachecallback-purgeprogress">PurgeProgress</a> method to report on the progress of the operation. 
 
 
 ## -returns
@@ -102,7 +102,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The operation was ended prematurely. This value is usually returned when <a href="https://msdn.microsoft.com/96b97919-9b3b-418e-a76a-a2e8aad453b9">PurgeProgress</a> returns E_ABORT. This typically happens when the user cancels the operation by clicking the disk cleanup manager's <b>Cancel</b> button.
+The operation was ended prematurely. This value is usually returned when <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecachecallback-purgeprogress">PurgeProgress</a> returns E_ABORT. This typically happens when the user cancels the operation by clicking the disk cleanup manager's <b>Cancel</b> button.
 
 </td>
 </tr>
@@ -116,9 +116,9 @@ The operation was ended prematurely. This value is usually returned when <a href
 
 
 
-For Windows 98, the <i>dwSpaceToFree</i> parameter is always set to the value specified by the handler when <a href="https://msdn.microsoft.com/c8ec2f70-f327-49d4-babb-a9640f105003">IEmptyVolumeCache::GetSpaceUsed</a> was called.
+For Windows 98, the <i>dwSpaceToFree</i> parameter is always set to the value specified by the handler when <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-getspaceused">IEmptyVolumeCache::GetSpaceUsed</a> was called.
 
-In general, handlers should be kept simple and delete all of their files when this function is called. If there are significant performance advantages to only deleting a portion of the files, the handler should implement the <a href="https://msdn.microsoft.com/3bce6251-b209-405a-8ac2-fd385f1c69ee">ShowProperties</a> method. When called, this method displays a UI that allows the user to select the files to be deleted.
+In general, handlers should be kept simple and delete all of their files when this function is called. If there are significant performance advantages to only deleting a portion of the files, the handler should implement the <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-showproperties">ShowProperties</a> method. When called, this method displays a UI that allows the user to select the files to be deleted.
 
 
 

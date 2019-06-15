@@ -382,9 +382,9 @@ Value: 0xC0AA0301
 
 
 
-To retrieve the requested write speed, call the <a href="https://msdn.microsoft.com/8fe83f25-9d7d-472d-9b84-90e00c0b5a51">IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed</a> method.
+To retrieve the requested write speed, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedwritespeed">IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed</a> method.
 
-To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="https://msdn.microsoft.com/b95b7fb9-6e4b-4d9d-86fe-64ca92343225">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a> method.
+To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a> method.
 
 Note that the write speed is based on the media write speeds. The value of this property can change when a media change occurs.
 
@@ -396,19 +396,19 @@ Note that the write speed is based on the media write speeds. The value of this 
 
 
 
-<a href="https://msdn.microsoft.com/27f2d248-1c83-4784-82f9-75ce0a038b87">IDiscFormat2TrackAtOnce</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c4487a-4247-45cf-af95-dc85fafb05c5">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fe83f25-9d7d-472d-9b84-90e00c0b5a51">IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedwritespeed">IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed</a>
 
 
 
-<a href="https://msdn.microsoft.com/b95b7fb9-6e4b-4d9d-86fe-64ca92343225">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>
  
 
  

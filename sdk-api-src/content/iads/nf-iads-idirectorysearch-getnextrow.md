@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetNextRow</b> method gets the next row of the search result. If  <a href="https://msdn.microsoft.com/99ece6d1-3963-40bc-993e-f03aa9039c2d">IDirectorySearch::GetFirstRow</a> has not been called, <b>GetNextRow</b> will issue a new search beginning from the first row. Otherwise, this method will advance to the next row.
+The <b>GetNextRow</b> method gets the next row of the search result. If  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getfirstrow">IDirectorySearch::GetFirstRow</a> has not been called, <b>GetNextRow</b> will issue a new search beginning from the first row. Otherwise, this method will advance to the next row.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>GetNextRow</b> method gets the next row of the search result. If  <a href
 
 ### -param hSearchResult [in]
 
-Contains the search handle obtained by calling <a href="https://msdn.microsoft.com/7514b372-1a7a-4a42-a814-af70a727c477">IDirectorySearch::ExecuteSearch</a>.
+Contains the search handle obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a>.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Contains the search handle obtained by calling <a href="https://msdn.microsoft.c
 
 This method returns the standard return values, as well as the following:
 
-For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
+For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4ac
 
 When the <b>ADS_SEARCHPREF_CACHE_RESULTS</b> flag is not set, only forward scrolling is permitted, because the client might not cache all the query results.
 
-The directory provider may limit the maximum number of rows available in a search. For example, on a Windows domain, the maximum number of rows that will be provided in an Active Directory search is 1000 rows. If the search results in more than the row limit, a paged search must be performed to obtain all rows in the search. For more information about paged searches, see <a href="https://msdn.microsoft.com/cf4aa56a-c6f7-47c8-956d-512a5cffbf22">Paging with IDirectorySearch</a>.
+The directory provider may limit the maximum number of rows available in a search. For example, on a Windows domain, the maximum number of rows that will be provided in an Active Directory search is 1000 rows. If the search results in more than the row limit, a paged search must be performed to obtain all rows in the search. For more information about paged searches, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/paging-with-idirectorysearch">Paging with IDirectorySearch</a>.
 
 
 #### Examples
@@ -130,23 +130,23 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e9899e9-e51e-4785-812a-f86eac6e2006">ADsGetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">ADsGetLastError</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/7514b372-1a7a-4a42-a814-af70a727c477">IDirectorySearch::ExecuteSearch</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a>
 
 
 
-<a href="https://msdn.microsoft.com/99ece6d1-3963-40bc-993e-f03aa9039c2d">IDirectorySearch::GetFirstRow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getfirstrow">IDirectorySearch::GetFirstRow</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Appends an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure to the end of the collection.
+Appends an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure to the end of the collection.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Appends an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).a
 
 ### -param dash [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure that is to be appended  to the collection.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a> structure that is to be appended  to the collection.
 
 
 ## -returns
@@ -86,7 +86,7 @@ The figure that follows illustrates how the collection is changed by the <b>Appe
 
 
 
-<a href="https://msdn.microsoft.com/02a152a1-e117-42fb-8428-a2b28e6540a9">IXpsOMDashCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection">IXpsOMDashCollection</a>
 
 
 
@@ -94,7 +94,7 @@ The figure that follows illustrates how the collection is changed by the <b>Appe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/ns-xpsobjectmodel-__midl___midl_itf_xpsobjectmodel_0000_0000_0020">XPS_DASH</a>
  
 
  

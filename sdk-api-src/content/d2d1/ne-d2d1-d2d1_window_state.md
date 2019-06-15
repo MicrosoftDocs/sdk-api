@@ -76,7 +76,7 @@ The window is occluded.
 
 
 
-If the window was occluded the last time  <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> was called, the next time the render target calls <a href="https://msdn.microsoft.com/f40d46dc-04ec-4d11-bc3e-96043b16dcb3">CheckWindowState</a>, it  returns <b>D2D1_WINDOW_STATE_OCCLUDED</b> regardless of the current window state. If you want to use <b>CheckWindowState</b> to check the current window state, call <b>CheckWindowState</b> after every <b>EndDraw</b> call and ignore its return value. This will ensure that your next call to <b>CheckWindowState</b> state  returns the actual window state.
+If the window was occluded the last time  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> was called, the next time the render target calls <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1hwndrendertarget-checkwindowstate">CheckWindowState</a>, it  returns <b>D2D1_WINDOW_STATE_OCCLUDED</b> regardless of the current window state. If you want to use <b>CheckWindowState</b> to check the current window state, call <b>CheckWindowState</b> after every <b>EndDraw</b> call and ignore its return value. This will ensure that your next call to <b>CheckWindowState</b> state  returns the actual window state.
 
 
 
@@ -86,7 +86,7 @@ If the window was occluded the last time  <a href="https://msdn.microsoft.com/a8
 
 
 
-<a href="https://msdn.microsoft.com/f40d46dc-04ec-4d11-bc3e-96043b16dcb3">CheckWindowState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1hwndrendertarget-checkwindowstate">CheckWindowState</a>
  
 
  

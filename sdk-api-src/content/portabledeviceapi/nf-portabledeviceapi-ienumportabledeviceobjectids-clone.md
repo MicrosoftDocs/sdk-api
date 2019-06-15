@@ -101,11 +101,11 @@ Not implemented in this release.
 
 
 
-<a href="https://msdn.microsoft.com/70287534-501f-480d-85ee-64049a0938fb">IEnumPortableDeviceObjectIDs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone">IEnumPortableDeviceObjectIDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e9a65cc-819c-494e-9c7c-8f5fec78a2ee">IEnumPortableDeviceObjectIDs Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
  
 
  

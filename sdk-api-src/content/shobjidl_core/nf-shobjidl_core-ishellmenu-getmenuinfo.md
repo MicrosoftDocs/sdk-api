@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets information from the <a href="https://msdn.microsoft.com/dc9864df-21f3-4b0b-b862-48055032c071">IShellMenu::Initialize</a> method.
+Gets information from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a> method.
 
 
 ## -parameters
@@ -59,30 +59,30 @@ Gets information from the <a href="https://msdn.microsoft.com/dc9864df-21f3-4b0b
 
 ### -param ppsmc [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/96bfdc52-bd4a-4345-8dd1-7e716a3d9811">IShellMenuCallback</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a>**</b>
 
-When this method returns, contains the address of a pointer to the <a href="https://msdn.microsoft.com/96bfdc52-bd4a-4345-8dd1-7e716a3d9811">IShellMenuCallback</a> interface that you specified when you called <a href="https://msdn.microsoft.com/dc9864df-21f3-4b0b-b862-48055032c071">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
+When this method returns, contains the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback">IShellMenuCallback</a> interface that you specified when you called <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
 
 
 ### -param puId [out, optional]
 
 Type: <b>UINT*</b>
 
-When this method returns, contains a pointer to a <b>UINT</b> value that receives the <i>uID</i> value that you specified when you called <a href="https://msdn.microsoft.com/dc9864df-21f3-4b0b-b862-48055032c071">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
+When this method returns, contains a pointer to a <b>UINT</b> value that receives the <i>uID</i> value that you specified when you called <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
 
 
 ### -param puIdAncestor [out, optional]
 
 Type: <b>UINT*</b>
 
-When this method returns, contains a pointer to a <b>UINT</b> value that receives the <i>uIdAncestor</i> value that you specified when you called <a href="https://msdn.microsoft.com/dc9864df-21f3-4b0b-b862-48055032c071">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
+When this method returns, contains a pointer to a <b>UINT</b> value that receives the <i>uIdAncestor</i> value that you specified when you called <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
 
 
 ### -param pdwFlags [out]
 
 Type: <b>DWORD*</b>
 
-When this method returns, contains a pointer to a <b>DWORD</b> value that receives the <i>dwFlags</i> value that you specified when you called <a href="https://msdn.microsoft.com/dc9864df-21f3-4b0b-b862-48055032c071">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
+When this method returns, contains a pointer to a <b>DWORD</b> value that receives the <i>dwFlags</i> value that you specified when you called <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>. This pointer can be <b>NULL</b>.
 
 
 ## -returns

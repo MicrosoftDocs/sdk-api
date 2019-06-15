@@ -55,7 +55,7 @@ ms.custom: 19H1
 
 The 
 <b>RasSetEntryDialParams</b> function changes the connection information saved by the last successful call to the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
 <b>RasSetEntryDialParams</b> function for a specified phone-book entry.
 
 
@@ -78,7 +78,7 @@ Pointer to a null-terminated string that specifies the full path and file name o
 ### -param arg2 [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> structure that specifies the connection parameters to be associated with the phone-book entry. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure that specifies the connection parameters to be associated with the phone-book entry. 
 <b>RasSetEntryDialParams</b> uses the structure's members as follows. 
 
 
@@ -94,7 +94,7 @@ Pointer to the
 </dl>
 </td>
 <td width="60%">
-Must specify the size of (<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a>) to identify the version of the structure.
+Must specify the size of (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a>) to identify the version of the structure.
 
 </td>
 </tr>
@@ -152,8 +152,8 @@ A null-terminated string that contains the password for the user specified by <b
 <b>Windows NT 4.0:  </b>The password is changed to the string specified by <b>szPassword</b> regardless of whether <b>szUserName</b> is an empty string.
 
 <b>Windows XP/2000:  </b>If <b>szPassword</b> contains the password handle returned by 
-<a href="https://msdn.microsoft.com/37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7">RasGetCredentials</a> or 
-<a href="https://msdn.microsoft.com/c6752f95-c7e8-44d9-9dbd-9f03cc4778fa">RasGetEntryDialParams</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetcredentialsa">RasGetCredentials</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a>, 
 <b>RasSetEntryDialParams</b> returns successfully without changing any currently saved password.
 
 </td>
@@ -185,7 +185,7 @@ Specifies the (one-based) index of the initial subentry to dial when establishin
 </td>
 <td width="60%">
 Specifies an application-defined value that RAS passes to the 
-<a href="https://msdn.microsoft.com/a9395048-492b-42fb-b247-52999cee3f44">RasDialFunc2</a> callback function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc2">RasDialFunc2</a> callback function.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Specifies whether to remove the phone-book entry's stored password for the user 
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -255,14 +255,14 @@ The phone-book entry does not exist.
 
 
 To create a new phone-book entry, use the 
-<a href="https://msdn.microsoft.com/6532b48b-0d80-4993-800e-c808bb7540d6">RasSetEntryProperties</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> function.
 
 <b>Windows XP or later:  </b>Do not use the 
 <b>RasSetEntryDialParams</b> function. To set the credentials for a phone-book entry, use the 
-<a href="https://msdn.microsoft.com/5ebfffb7-9158-4414-982c-e187600aa1ab">RasSetCredentials</a> function. Set the non-credential members of 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a> (for example <b>szCallbackNumber</b>, <b>dwSubEntry</b>, or <b>dwCallbackId</b>) directly in the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a> function. Set the non-credential members of 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> (for example <b>szCallbackNumber</b>, <b>dwSubEntry</b>, or <b>dwCallbackId</b>) directly in the 
 <b>RASDIALPARAMS</b> structure passed as a parameter to the 
-<a href="https://msdn.microsoft.com/579a9038-8216-4948-a065-fd45b97da73a">RasDial</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function.
 
 
 
@@ -272,35 +272,35 @@ To create a new phone-book entry, use the
 
 
 
-<a href="https://msdn.microsoft.com/13d15c98-a41b-4bc8-8be6-c0b718b86fea">RASDIALPARAMS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/da8bd49f-e890-4e8a-ab4d-7366c6f2b361">RasCreatePhonebookEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa">RasEditPhonebookEntry</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6752f95-c7e8-44d9-9dbd-9f03cc4778fa">RasGetEntryDialParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrydialparamsa">RasGetEntryDialParams</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ebfffb7-9158-4414-982c-e187600aa1ab">RasSetCredentials</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcredentialsa">RasSetCredentials</a>
 
 
 
-<a href="https://msdn.microsoft.com/6532b48b-0d80-4993-800e-c808bb7540d6">RasSetEntryProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B">ID3D12InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">ID3D12InfoQueue::AddMessage</a>. When creating an info queue filter, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
+Specifies categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-getmessage">ID3D12InfoQueue::GetMessage</a> and when adding a message with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-addmessage">ID3D12InfoQueue::AddMessage</a>. When creating an info queue filter, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
 
 
         
@@ -62,7 +62,7 @@ Specifies categories of debug messages. This will identify the category of a mes
 
 ### -field D3D12_MESSAGE_CATEGORY_APPLICATION_DEFINED
 
-Indicates a user defined message, see <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">ID3D12InfoQueue::AddMessage</a>.
+Indicates a user defined message, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12infoqueue-addmessage">ID3D12InfoQueue::AddMessage</a>.
           
 
 
@@ -100,7 +100,7 @@ Indicates a user defined message, see <a href="https://msdn.microsoft.com/34AAF9
 
 
 
-This is part of the Information Queue feature, refer to the <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a> Interface.
+This is part of the Information Queue feature, refer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a> Interface.
 
 
 
@@ -110,7 +110,7 @@ This is part of the Information Queue feature, refer to the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-enumerations">Debug Layer Enumerations</a>
  
 
  

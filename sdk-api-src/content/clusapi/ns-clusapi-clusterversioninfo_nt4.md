@@ -60,7 +60,7 @@ TBD
 ### -field dwVersionInfoSize
 
 Contains the  size, in bytes, of the data structure. Users must set this size prior to calling the  
-      <a href="https://msdn.microsoft.com/5b259eb9-c5d0-4f4f-8a6b-14eaed716612">GetClusterInformation</a>   function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>   function.
 
 
 ### -field MajorVersion
@@ -96,7 +96,7 @@ Contains the latest service pack that is  installed on the node. If a Service Pa
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
  
 
  

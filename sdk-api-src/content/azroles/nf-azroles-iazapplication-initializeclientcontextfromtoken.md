@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>InitializeClientContextFromToken</b> method gets an <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a> object pointer from the specified client token.
+The <b>InitializeClientContextFromToken</b> method gets an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object pointer from the specified client token.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppClientContext [out]
 
-A pointer to a pointer to the returned <a href="https://msdn.microsoft.com/e24184d2-a77b-4a8b-b2f3-78f1e0b902f9">IAzClientContext</a> object.
+A pointer to a pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object.
 
 
 ## -returns

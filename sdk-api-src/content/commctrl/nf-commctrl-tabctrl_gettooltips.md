@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the handle to the tooltip control associated with a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760598(v=VS.85).aspx">TCM_GETTOOLTIPS</a> message explicitly. 
+Retrieves the handle to the tooltip control associated with a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-gettooltips">TCM_GETTOOLTIPS</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the handle to the tooltip control associated with a tab control. You c
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 
@@ -68,7 +68,7 @@ Handle to the tab control.
 
 
 
-A tab control creates a tooltip control if it has the <a href="https://msdn.microsoft.com/en-us/library/Bb760549(v=VS.85).aspx">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760641(v=VS.85).aspx">TCM_SETTOOLTIPS</a> message. 
+A tab control creates a tooltip control if it has the <a href="https://docs.microsoft.com/windows/desktop/Controls/tab-control-styles">TCS_TOOLTIPS</a>. You can also assign a tooltip control to a tab control by using the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-settooltips">TCM_SETTOOLTIPS</a> message. 
 
 
 

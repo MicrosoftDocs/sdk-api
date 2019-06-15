@@ -59,7 +59,7 @@ Describes an FFT.
 
 ### -field NumDimensions
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of dimension in the FFT.
           
@@ -67,7 +67,7 @@ Number of dimension in the FFT.
 
 ### -field ElementLengths
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>[D3DX11_FFT_MAX_DIMENSIONS]</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>[D3DX11_FFT_MAX_DIMENSIONS]</b>
 
 Length of each dimension in the FFT.
           
@@ -75,18 +75,18 @@ Length of each dimension in the FFT.
 
 ### -field DimensionMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Combination of <a href="https://msdn.microsoft.com/5623b0e6-73f0-4d89-bf3e-a116409b369e">D3DX11_FFT_DIM_MASK</a> flags indicating the  dimensions to transform.
+Combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_dim_mask">D3DX11_FFT_DIM_MASK</a> flags indicating the  dimensions to transform.
           
 
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/a9e2cf90-cef0-44af-9863-f8f742673950">D3DX11_FFT_DATA_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_data_type">D3DX11_FFT_DATA_TYPE</a></b>
 
 
-<a href="https://msdn.microsoft.com/a9e2cf90-cef0-44af-9863-f8f742673950">D3DX11_FFT_DATA_TYPE</a> flag indicating the type of data being transformed.
+<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_data_type">D3DX11_FFT_DATA_TYPE</a> flag indicating the type of data being transformed.
           
 
 
@@ -95,7 +95,7 @@ Type: <b><a href="https://msdn.microsoft.com/a9e2cf90-cef0-44af-9863-f8f74267395
 
 
 
-<a href="https://msdn.microsoft.com/ED42B8D1-F4C9-489F-999B-A53BC96BA337">D3DCSX 11 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-structures">D3DCSX 11 Structures</a>
  
 
  

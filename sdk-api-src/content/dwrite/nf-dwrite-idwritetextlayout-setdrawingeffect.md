@@ -66,7 +66,7 @@ Application-defined drawing effects that apply to the range. This data object wi
 
 ### -param textRange
 
-Type: <b><a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 The text range to which this change applies.
 
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-An <a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>, such as a color or gradient brush, can be set as a drawing effect if you are using the <a href="https://msdn.microsoft.com/9356071a-35ca-462a-8a77-887e63850586">ID2D1RenderTarget::DrawTextLayout</a> to draw text and that brush will be used to draw the specified range of text.
+An <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>, such as a color or gradient brush, can be set as a drawing effect if you are using the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout">ID2D1RenderTarget::DrawTextLayout</a> to draw text and that brush will be used to draw the specified range of text.
 
  This drawing effect is associated with the specified range and will be passed back
      to the application by way of the callback when the range is drawn at drawing time.
@@ -99,7 +99,7 @@ An <a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2
 
 
 
-<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
  
 
  

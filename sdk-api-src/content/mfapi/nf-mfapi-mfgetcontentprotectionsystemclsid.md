@@ -80,7 +80,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The class identifier can be used to create the input trust authority (ITA) for the content protection system. Call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> or <a href="https://msdn.microsoft.com/787fc392-1858-41f4-a1ce-2da02a5e789f">IMFPMPHost::CreateObjectByCLSID</a> to get an <a href="https://msdn.microsoft.com/59a9def7-69a6-4f80-bb5e-1cb372ff6eab">IMFTrustedInput</a>  pointer.
+The class identifier can be used to create the input trust authority (ITA) for the content protection system. Call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid">IMFPMPHost::CreateObjectByCLSID</a> to get an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrustedinput">IMFTrustedInput</a>  pointer.
 
 
 
@@ -90,7 +90,7 @@ The class identifier can be used to create the input trust authority (ITA) for t
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

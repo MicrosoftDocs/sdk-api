@@ -59,7 +59,7 @@ Creates a font fallback object from the system font fallback list.
 
 ### -param fontFallback [out]
 
-Type: <b><a href="https://msdn.microsoft.com/CBC4100A-756B-429E-8368-D5D018A2B0AC">IDWriteFontFallback</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite_2/nn-dwrite_2-idwritefontfallback">IDWriteFontFallback</a>**</b>
 
 Contains an address of a pointer to the newly created font fallback object.
 
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE">IDWriteFactory2</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectWrite/idwritefactory2">IDWriteFactory2</a>
  
 
  

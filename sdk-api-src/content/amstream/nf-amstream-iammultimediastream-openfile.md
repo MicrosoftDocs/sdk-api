@@ -156,7 +156,7 @@ Success.
 
 
 
-The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video and audio if they do not exist. However, these default filters cannot be accessed by the <a href="https://msdn.microsoft.com/en-us/library/Dd377145(v=VS.85).aspx">IStreamSample::GetMediaStream</a> method.
+The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video and audio if they do not exist. However, these default filters cannot be accessed by the <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nf-mmstream-istreamsample-getmediastream">IStreamSample::GetMediaStream</a> method.
 
 
 
@@ -166,7 +166,7 @@ The AMMSF_RENDERALLSTREAMS flag will create default rendering filters for video 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319688(v=VS.85).aspx">IAMMultiMediaStream Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
  
 
  

@@ -122,7 +122,7 @@ The <i>pMediaType</i> parameter is <b>NULL</b>.
 
 
 
-For a table of stream major types, see <a href="https://msdn.microsoft.com/00dcbb20-09ed-44c5-992c-20f3d17ad47c">Media Types</a>.
+For a table of stream major types, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>.
 
 
 
@@ -132,11 +132,11 @@ For a table of stream major types, see <a href="https://msdn.microsoft.com/00dcb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798546(v=VS.85).aspx">IWMStreamConfig Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798561(v=VS.85).aspx">IWMStreamConfig::GetStreamName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamname">IWMStreamConfig::GetStreamName</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables a transport application to set  <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">attributes</a> of a security <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> for a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>. This function is supported only by the Schannel security package.
+Enables a transport application to set  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. This function is supported only by the Schannel security package.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ The attribute of the context to be set. This parameter can be one of the followi
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/7bda791a-dd60-4651-bfe8-13333017d6a3">SecPkgContext_SessionAppData</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_sessionappdata">SecPkgContext_SessionAppData</a> structure.
 
 Sets application data for the session.
 
@@ -95,9 +95,9 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/2772b83b-d1d1-4a8e-83d5-1f3dec3d66ac">SecPkgContext_EapPrfInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_eapprfinfo">SecPkgContext_EapPrfInfo</a> structure.
 
-Sets the pseudo-random function (PRF) used by the Extensible Authentication Protocol (EAP). This is the value that is returned by a call to the <a href="https://msdn.microsoft.com/0329e525-a743-4e6c-aac4-9f74274dadd2">QueryContextAttributes (Schannel)</a> function when <b>SECPKG_ATTR_EAP_KEY_BLOCK</b> is passed as the value of the <i>ulAttribute</i> parameter.
+Sets the pseudo-random function (PRF) used by the Extensible Authentication Protocol (EAP). This is the value that is returned by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function when <b>SECPKG_ATTR_EAP_KEY_BLOCK</b> is passed as the value of the <i>ulAttribute</i> parameter.
 
 This attribute is supported only by the Schannel security package.
 
@@ -110,9 +110,9 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt829323(v=VS.85).aspx">SecPkgContext_EarlyStart</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_earlystart">SecPkgContext_EarlyStart</a> structure.
 
-Sets the False Start feature. See  the <a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Building a faster and more secure web</a> blog post for information on this feature.
+Sets the False Start feature. See  the <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Building a faster and more secure web</a> blog post for information on this feature.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Valid values are between 200 bytes and 64 kilobytes. The default DTLS MTU value 
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt803267(v=VS.85).aspx">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_keyingmaterialinfo">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
 
 This attribute is supported only by the Schannel security package in Windows 10 and Windows Server 2016 or later versions.
 

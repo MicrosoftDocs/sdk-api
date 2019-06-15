@@ -62,9 +62,9 @@ This property is read-only.
 
 
 
-Single-line edit controls support programmatic access to their contents through <a href="https://msdn.microsoft.com/07277405-1172-42e5-af51-8e2c1ea06894">IUIAutomationValuePattern</a>. However, multiline edit controls do not support this control pattern, and their contents must be retrieved by using <a href="https://msdn.microsoft.com/ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1">IUIAutomationTextPattern</a>.
+Single-line edit controls support programmatic access to their contents through <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>. However, multiline edit controls do not support this control pattern, and their contents must be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>.
 
-This property does not support the retrieval of formatting information or substring values. <a href="https://msdn.microsoft.com/ddcf7ecd-7ed2-4b57-82a7-c7e1608dbfa1">IUIAutomationTextPattern</a> must be used in these scenarios as well.
+This property does not support the retrieval of formatting information or substring values. <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> must be used in these scenarios as well.
 
 
 
@@ -74,7 +74,7 @@ This property does not support the retrieval of formatting information or substr
 
 
 
-<a href="https://msdn.microsoft.com/07277405-1172-42e5-af51-8e2c1ea06894">IUIAutomationValuePattern</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>
  
 
  

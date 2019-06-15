@@ -51,7 +51,7 @@ req.redist:
 Enlarges the specified partition.
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -150,7 +150,7 @@ You can extend or shrink a live partition, and the partition can be open for sha
 
 You do not need to lock a partition that you are extending, nor do you need to shut down other applications or services during the extend operation.
 
-For more information, see <a href="https://msdn.microsoft.com/17ff8bbb-45a6-4ddd-a871-8519500c03a9">DISK_GROW_PARTITION</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_grow_partition">DISK_GROW_PARTITION</a>.
 
 
 
@@ -160,15 +160,15 @@ For more information, see <a href="https://msdn.microsoft.com/17ff8bbb-45a6-4ddd
 
 
 
-<a href="https://msdn.microsoft.com/17ff8bbb-45a6-4ddd-a871-8519500c03a9">DISK_GROW_PARTITION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_disk_grow_partition">DISK_GROW_PARTITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/488a7d32-cbb5-4f32-9655-0aca8ac69640">Disk Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
  
 
  

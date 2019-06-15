@@ -59,7 +59,7 @@ The <b>ProcessOutput</b> method gets the processed output from the Device MFT ou
 
 ### -param dwFlags [in]
 
-Bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/846e91a5-7cd8-4b58-9484-b9cb9af0bebf">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
+Bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_process_output_flags">_MFT_PROCESS_OUTPUT_FLAGS</a> enumeration.
 
 
 ### -param cOutputBufferCount [in]
@@ -69,12 +69,12 @@ Number of elements in the <i>pOutputSamples</i> array. The value must be at leas
 
 ### -param pOutputSample [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-_mft_output_data_buffer">MFT_OUTPUT_DATA_BUFFER</a> structures, allocated by the caller. The MFT uses this array to return output data to the caller.
 
 
 ### -param pdwStatus [in]
 
-Receives a bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/80804b33-1dac-41f8-8446-8f929bf9b931">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
+Receives a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ne-mftransform-_mft_process_output_status">_MFT_PROCESS_OUTPUT_STATUS</a> enumeration.
 
 
 ## -returns
@@ -164,13 +164,13 @@ Input media type has not been set.
 
 
 
-In most cases, if the method succeeds, the Media Foundation transform (MFT) stores the sample and holds a reference count on the <a href="https://msdn.microsoft.com/b1c3758c-5133-41ee-b991-ae99d0296ccc">IMFSample</a> pointer. When the MFT is done using the sample, it must release it to avoid memory leaks.
+In most cases, if the method succeeds, the Media Foundation transform (MFT) stores the sample and holds a reference count on the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> pointer. When the MFT is done using the sample, it must release it to avoid memory leaks.
 
 
 After the device transform manager (DTM) has set valid media types on all of the streams, the MFT should always be able to accept more input and be able to produce more output. 
 
 
-If an MFT encounters a non-fatal error in the input data, it can simply drop the data and attempt to recover when it gets the more input data. If the MFT drops any data, it should set the <a href="https://msdn.microsoft.com/f9e1e700-9958-404d-8b83-08f846f5a1b0">MFSampleExtension_Discontinuity</a> attribute on the next output sample, to notify the caller that there is a gap in the data stream.
+If an MFT encounters a non-fatal error in the input data, it can simply drop the data and attempt to recover when it gets the more input data. If the MFT drops any data, it should set the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-discontinuity-attribute">MFSampleExtension_Discontinuity</a> attribute on the next output sample, to notify the caller that there is a gap in the data stream.
 
 
 
@@ -181,7 +181,7 @@ If an MFT encounters a non-fatal error in the input data, it can simply drop the
 
 
 
-<a href="https://msdn.microsoft.com/375293FA-8017-4F74-A93C-C15FED8F19AF">IMFDeviceTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
  
 
  

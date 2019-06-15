@@ -73,9 +73,9 @@ Returns nothing.
 
 
 
-Entering a device's critical section prevents other threads from simultaneously calling that device's methods (if <a href="https://msdn.microsoft.com/en-us/library/Bb173820(v=VS.85).aspx">multithread protection</a> is set to true), calling DXGI methods, and calling the methods of all resource, view, shader, state, and asynchronous interfaces.
+Entering a device's critical section prevents other threads from simultaneously calling that device's methods (if <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-setmultithreadprotected">multithread protection</a> is set to true), calling DXGI methods, and calling the methods of all resource, view, shader, state, and asynchronous interfaces.
 
-This function should be used in multithreaded applications when there is a series of graphics commands that must happen in order. This function is typically called at the beginning of the series of graphics commands, and <a href="https://msdn.microsoft.com/en-us/library/Bb173819(v=VS.85).aspx">ID3D10Multithread::Leave</a> is typically called after those graphics commands.
+This function should be used in multithreaded applications when there is a series of graphics commands that must happen in order. This function is typically called at the beginning of the series of graphics commands, and <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10multithread-leave">ID3D10Multithread::Leave</a> is typically called after those graphics commands.
 
 
 
@@ -85,11 +85,11 @@ This function should be used in multithreaded applications when there is a serie
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173816(v=VS.85).aspx">ID3D10Multithread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread</a>
  
 
  

@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IDot11AdHocManagerNotificationSink</b> interface defines the notifications supported by the <a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a> interface. To register for notifications, call the  <a href="https://msdn.microsoft.com/en-us/library/ms678815(v=VS.85).aspx">Advise</a> method on an instantiated <a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a> object with the <b>IDot11AdHocManagerNotificationSink</b> interface passed  as the <i>pUnk</i>  parameter.  To terminate notifications, call the <a href="https://msdn.microsoft.com/en-us/library/ms686608(v=VS.85).aspx">Unadvise</a> method.
-<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/A649EBBA-1076-4426-9C4D-85AB8C415C66">Wi-Fi Direct</a> instead.</div><div> </div>
+The <b>IDot11AdHocManagerNotificationSink</b> interface defines the notifications supported by the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a> interface. To register for notifications, call the  <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-advise">Advise</a> method on an instantiated <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a> object with the <b>IDot11AdHocManagerNotificationSink</b> interface passed  as the <i>pUnk</i>  parameter.  To terminate notifications, call the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpoint-unadvise">Unadvise</a> method.
+<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocManagerNotificationSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDot11AdHocManagerNotificationSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocManagerNotificationSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocManagerNotificationSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDot11AdHocManagerNotificationSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1e2e390e-8587-4a00-9c04-b08ca026e348">IDot11AdHocManagerNotificationSink::OnInterfaceAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-oninterfaceadd">IDot11AdHocManagerNotificationSink::OnInterfaceAdd</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that a new network interface card (NIC) is active.
@@ -78,7 +78,7 @@ Notifies the client that a new network interface card (NIC) is active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac62c211-9886-4c09-8867-32ce9763c2fc">IDot11AdHocManagerNotificationSink::OnInterfaceRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-oninterfaceremove">IDot11AdHocManagerNotificationSink::OnInterfaceRemove</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that a network interface card (NIC) has become inactive.
@@ -87,7 +87,7 @@ Notifies the client that a network interface card (NIC) has become inactive.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/28cca237-31a5-4018-a382-17d0a13a254b">IDot11AdHocManagerNotificationSink::OnNetworkAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-onnetworkadd">IDot11AdHocManagerNotificationSink::OnNetworkAdd</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that a new wireless ad hoc network destination is in range and available for connection.
@@ -96,7 +96,7 @@ Notifies the client that a new wireless ad hoc network destination is in range a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9f325b86-3aff-4344-a154-86b74a922372">IDot11AdHocManagerNotificationSink::OnNetworkRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocmanagernotificationsink-onnetworkremove">IDot11AdHocManagerNotificationSink::OnNetworkRemove</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that a wireless ad hoc network destination is no longer  available for connection.
@@ -111,7 +111,7 @@ Notifies the client that a wireless ad hoc network destination is no longer  ava
 
 
 
-<a href="https://msdn.microsoft.com/dcb93b9c-3292-4cbf-9d44-5367bdbd4878">IDot11AdHocManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
  
 
  

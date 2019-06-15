@@ -60,9 +60,9 @@ Gets a shader-variable description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/117181AB-16F4-41D7-974D-E2C04FEE4FB1">D3D12_SHADER_VARIABLE_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_variable_desc">D3D12_SHADER_VARIABLE_DESC</a>*</b>
 
-A pointer to a shader-variable description (see <a href="https://msdn.microsoft.com/117181AB-16F4-41D7-974D-E2C04FEE4FB1">D3D12_SHADER_VARIABLE_DESC</a>).
+A pointer to a shader-variable description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/ns-d3d12shader-_d3d12_shader_variable_desc">D3D12_SHADER_VARIABLE_DESC</a>).
           
 
 
@@ -70,9 +70,9 @@ A pointer to a shader-variable description (see <a href="https://msdn.microsoft.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
           
 
 
@@ -82,7 +82,7 @@ Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9
 
 
 
-This method can be used to determine if the <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable Interface</a> is valid, the method returns <b>E_FAIL</b> when the variable is not valid.
+This method can be used to determine if the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionvariable">ID3D12ShaderReflectionVariable Interface</a> is valid, the method returns <b>E_FAIL</b> when the variable is not valid.
         
 
 This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
@@ -96,7 +96,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionvariable">ID3D12ShaderReflectionVariable</a>
  
 
  

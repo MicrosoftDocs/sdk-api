@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the state of a tree item. These values are used by methods of the <a href="https://msdn.microsoft.com/2a5580f6-42cb-46c7-9507-a59d36b2cd91">INameSpaceTreeControlFolderCapabilities</a> interface.
+Specifies the state of a tree item. These values are used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities">INameSpaceTreeControlFolderCapabilities</a> interface.
 
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The property does not exist. Filtering is not supported.
 
 ### -field NSTCFC_PINNEDITEMFILTERING
 
-Property exists. Supports filtering based on the value specified in <a href="https://msdn.microsoft.com/00937acb-1ce2-44f6-96a1-69e5dbb665f6">System.IsPinnedToNameSpaceTree</a>.
+Property exists. Supports filtering based on the value specified in <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a>.
 
 
 ### -field NSTCFC_DELAY_REGISTER_NOTIFY
@@ -86,7 +86,7 @@ The <b>NSTCFOLDERCAPABILITIES</b> type is defined in Shobjidl.h beginning in Win
 
 
 
-<a href="https://msdn.microsoft.com/1534431c-21fc-4eb9-8f17-ddd7414bef94">INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrolfoldercapabilities-getfoldercapabilities">INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities</a>
  
 
  

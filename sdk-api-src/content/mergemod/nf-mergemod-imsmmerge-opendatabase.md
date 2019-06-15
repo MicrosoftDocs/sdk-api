@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 The 
 <b>OpenDatabase</b> method opens a Windows Installer installation database, located at a specified path, that is to be merged with a module. For more information, see the 
-<a href="https://msdn.microsoft.com/86f168e5-bc76-476d-9757-9b2a21bb9c4b">OpenDatabase</a> method of the 
-<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object. 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-opendatabase">OpenDatabase</a> method of the 
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::OpenDatabase</b>    Mergemod.dll version 2.0 and later.<div> </div><b>IMsmMerge::OpenDatabase</b>      All Mergemod.dll versions.
 			
@@ -113,7 +113,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
  
 
  

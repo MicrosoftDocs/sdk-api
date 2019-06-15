@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Exposes methods that extract data from enumeration information. <a href="https://msdn.microsoft.com/en-us/library/Bb761495(v=VS.85).aspx">IPropertyEnumType</a> gives access to the <a href="https://msdn.microsoft.com/c8cc040e-fcce-43a0-98c1-db2b2c616ac3">enum</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773873(v=VS.85).aspx">enumRange</a> elements in the <a href="https://msdn.microsoft.com/cac93c31-d90d-4116-b846-0cf593d1d56e">property schema</a> in a programmatic way at run time.
+Exposes methods that extract data from enumeration information. <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertyenumtype">IPropertyEnumType</a> gives access to the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enum">enum</a> and <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumrange">enumRange</a> elements in the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">property schema</a> in a programmatic way at run time.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPropertyEnumType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyEnumType</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPropertyEnumType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPropertyEnumType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761485(v=VS.85).aspx">GetDisplayText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a>
 </td>
 <td align="left" width="63%">
 Gets display text from an enumeration information structure.
@@ -78,7 +78,7 @@ Gets display text from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761487(v=VS.85).aspx">GetEnumType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getenumtype">GetEnumType</a>
 </td>
 <td align="left" width="63%">
 Gets an enumeration type from an enumeration information structure.
@@ -87,7 +87,7 @@ Gets an enumeration type from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761489(v=VS.85).aspx">GetRangeMinValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a>
 </td>
 <td align="left" width="63%">
 Gets a minimum value from an enumeration information structure.
@@ -96,7 +96,7 @@ Gets a minimum value from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761491(v=VS.85).aspx">GetRangeSetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a set value from an enumeration information structure.
@@ -105,7 +105,7 @@ Gets a set value from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">GetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a value from an enumeration information structure.
@@ -119,7 +119,7 @@ Gets a value from an enumeration information structure.
 
 
 
-For additional information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773871(v=VS.85).aspx">enumeratedList</a>.
+For additional information, see <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.
 
 
 

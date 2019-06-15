@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines algorithms for the video processor which is use by <a href="https://msdn.microsoft.com/68AA3D7A-787F-4F0A-A6C6-A1C7E5D99719">MF_VIDEO_PROCESSOR_ALGORITHM</a>.
+Defines algorithms for the video processor which is use by <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-video-processor-algorithm">MF_VIDEO_PROCESSOR_ALGORITHM</a>.
 
 
 ## -enum-fields
@@ -72,7 +72,7 @@ The video processor will always internally process in AYUV and use high quality 
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

@@ -69,5 +69,5 @@ Specifies the number of elements in <b>Servers</b>.
 
 ### -field Servers
 
-Pointer to an array of <a href="https://msdn.microsoft.com/12f3fbd3-9b81-4a11-914c-83658c2bce89">DHCPDS_SERVER</a> structures that contain information on individual DHCP servers.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcpds_server">DHCPDS_SERVER</a> structures that contain information on individual DHCP servers.
 

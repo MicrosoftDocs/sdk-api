@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a> structure.
+A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a> structure.
 
 
 ## -struct-fields
@@ -146,27 +146,27 @@ Pointer to an opaque entry identifier used by a messaging system service provide
 
 
 
-<a href="https://msdn.microsoft.com/4f01763d-22a2-4ee4-a559-f875cb06ea6b">MAPIAddress</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/28fbafff-8f34-4db8-bcb5-98f61883bea0">MAPIDetails</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapidetails">MAPIDetails</a>
 
 
 
-<a href="https://msdn.microsoft.com/c834ea40-62c6-44a8-b0e1-f569a92b4c83">MAPIResolveName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a>
 
 
 
-<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
 
 
 
-<a href="https://msdn.microsoft.com/70050D1A-DA06-4D3B-90AF-F997E3B332EB">MapiRecipDescW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a>
  
 
  

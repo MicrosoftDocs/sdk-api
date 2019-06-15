@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>MAKEROP4</b> macro creates a quaternary raster operation code for use with the <a href="https://msdn.microsoft.com/9fd6f0ce-a802-428d-9be5-a66afe39e9b7">MaskBlt</a> function. The macro takes two ternary raster operation codes as input, one for the foreground and one for the background, and packs their Boolean operation indexes into the high-order word of a 32-bit value. The low-order word of this value will be ignored.
+The <b>MAKEROP4</b> macro creates a quaternary raster operation code for use with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function. The macro takes two ternary raster operation codes as input, one for the foreground and one for the background, and packs their Boolean operation indexes into the high-order word of a 32-bit value. The low-order word of this value will be ignored.
 
 
 
@@ -75,15 +75,15 @@ The background ternary raster operation code.
 
 
 
-<a href="https://msdn.microsoft.com/8781bbf4-89fe-4212-b9df-e5b5cb07528c">Bitmap Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-macros">Bitmap Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff0a5ae3-ae2e-4417-b5e5-0f9871c03964">Bitmaps Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fd6f0ce-a802-428d-9be5-a66afe39e9b7">MaskBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>
  
 
  

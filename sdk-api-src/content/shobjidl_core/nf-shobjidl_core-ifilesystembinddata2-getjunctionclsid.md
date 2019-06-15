@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the class identifier (CLSID) of the object that implements <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> for the item, if the item is a junction point.
+Gets the class identifier (CLSID) of the object that implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> for the item, if the item is a junction point.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the class identifier (CLSID) of the object that implements <a href="https:/
 
 Type: <b>CLSID*</b>
 
-When this method returns successfully, receives a pointer to the CLSID of the object that implements <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> for the current item, if the item is a junction point.
+When this method returns successfully, receives a pointer to the CLSID of the object that implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> for the current item, if the item is a junction point.
 
 
 ## -returns

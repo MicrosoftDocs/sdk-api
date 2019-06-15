@@ -70,19 +70,19 @@ Reserved. This value must be zero.
 ### -param DhcpAttribId [in]
 
 
-<a href="https://msdn.microsoft.com/8e29f488-2978-43dd-b7ba-edad2e3e4b29">DHCP_ATTRIB_ID</a> value that specifies the particular DHCP server attribute to retrieve.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_ATTRIB_ID</a> value that specifies the particular DHCP server attribute to retrieve.
 
 
 ### -param pDhcpAttrib [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/26822137-8633-4e18-a69f-eeebf9e78f9a">DHCP_ATTRIB</a> structure that contains the location and type of the queried DHCP server attribute.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_attrib">DHCP_ATTRIB</a> structure that contains the location and type of the queried DHCP server attribute.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 
 
@@ -103,11 +103,11 @@ Callers of this function should free the memory pointed to by <i>pDhcpAttrib</i>
 
 
 
-<a href="https://msdn.microsoft.com/26822137-8633-4e18-a69f-eeebf9e78f9a">DHCP_ATTRIB</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_attrib">DHCP_ATTRIB</a>
 
 
 
-<a href="https://msdn.microsoft.com/24c3e7b2-80eb-4fee-aea6-38243d25c50b">DhcpServerQueryAttributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpserverqueryattributes">DhcpServerQueryAttributes</a>
  
 
  

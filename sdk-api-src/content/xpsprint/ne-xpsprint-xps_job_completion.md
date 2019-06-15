@@ -71,12 +71,12 @@ The print job finished without an error.
 
 ### -field XPS_JOB_CANCELLED
 
-The print job was cancelled by a call to <a href="https://msdn.microsoft.com/f9fab578-95f0-498b-85ad-fd6ee2c72c63">IXpsPrintJob::Cancel</a>, or cancelled while it was being processed by the  print spooler.
+The print job was cancelled by a call to <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-cancel">IXpsPrintJob::Cancel</a>, or cancelled while it was being processed by the  print spooler.
 
 
 ### -field XPS_JOB_FAILED
 
-The print job failed. The <b>jobStatus</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dd374577(v=VS.85).aspx">XPS_JOB_STATUS</a> contains the error code of the failure.
+The print job failed. The <b>jobStatus</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ns-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0002">XPS_JOB_STATUS</a> contains the error code of the failure.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ The print job failed. The <b>jobStatus</b> member of <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/14ae2c97-8596-46db-a55c-ef706d2cd00b">Documents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2a55aec-f8a5-40b4-8c26-1488df49eed0">IXpsPrintJob::GetJobStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a>
 
 
 
@@ -96,7 +96,7 @@ The print job failed. The <b>jobStatus</b> member of <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd374577(v=VS.85).aspx">XPS_JOB_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/ns-xpsprint-__midl___midl_itf_xpsprint_0000_0000_0002">XPS_JOB_STATUS</a>
  
 
  

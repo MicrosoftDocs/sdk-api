@@ -68,12 +68,12 @@ Shadow copy identifier. This parameter is required and cannot be GUID_NULL.
 
 ### -param eSnapshotPropertyId [in]
 
-A <a href="https://msdn.microsoft.com/6d741293-7efc-4044-b69d-390138c1be4f">VSS_SNAPSHOT_PROPERTY_ID</a> value that specifies the property to be set for the shadow copy.
+A <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-_vss_snapshot_property_id">VSS_SNAPSHOT_PROPERTY_ID</a> value that specifies the property to be set for the shadow copy.
 
 
 ### -param vProperty [in]
 
-The value to be set for the property. See the <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> structure for valid data types and descriptions of the properties that can be set for a shadow copy.
+The value to be set for the property. See the <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-_vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for valid data types and descriptions of the properties that can be set for a shadow copy.
 
 
 ## -returns
@@ -153,7 +153,7 @@ The specified shadow copy was not found.
 
 
 
-<a href="https://msdn.microsoft.com/1af45503-2f6f-4266-a0d2-ffc74a7be16f">IVssFileShareSnapshotProvider</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the type of de-emphasis filter that should be used when decoding. This enumeration is used with the <a href="https://msdn.microsoft.com/1c1f7ac0-48a1-46d6-a131-fe281f2c86ba">AVEncMPAEmphasisType</a> property.
+Specifies the type of de-emphasis filter that should be used when decoding. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpaemphasistype-property">AVEncMPAEmphasisType</a> property.
 
 
 
@@ -85,11 +85,11 @@ CCITT J.17.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

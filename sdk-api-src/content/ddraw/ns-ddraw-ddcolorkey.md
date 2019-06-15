@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>DDCOLORKEY</b> structure describes a source color key, destination color key, or color space. A color key is specified if the low and high range values are the same. This structure is used with the <a href="https://msdn.microsoft.com/0df14c63-f962-4823-873a-3fe1d626f4cb">IDirectDrawSurface7::GetColorKey</a> and <a href="https://msdn.microsoft.com/36f2510e-d12a-40af-b65c-aa36ce46a942">IDirectDrawSurface7::SetColorKey</a> methods.
+The <b>DDCOLORKEY</b> structure describes a source color key, destination color key, or color space. A color key is specified if the low and high range values are the same. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey">IDirectDrawSurface7::GetColorKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey">IDirectDrawSurface7::SetColorKey</a> methods.
 
 
 

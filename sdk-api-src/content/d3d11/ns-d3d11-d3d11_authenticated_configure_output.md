@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the response from the <a href="https://msdn.microsoft.com/6564EC13-A7B3-4A48-8776-4CD46BFF8E8F">ID3D11VideoContext::ConfigureAuthenticatedChannel</a> method.
+Contains the response from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel">ID3D11VideoContext::ConfigureAuthenticatedChannel</a> method.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Contains the response from the <a href="https://msdn.microsoft.com/6564EC13-A7B3
 
 ### -field omac
 
-A <a href="https://msdn.microsoft.com/68AEC018-1DFE-4811-A511-176E82C2E9E2">D3D11_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses AES-based one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_omac">D3D11_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses AES-based one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
 
 
 
 
 ### -field ConfigureType
 
-A GUID that specifies the command. For a list of GUIDs, see <a href="https://msdn.microsoft.com/11FC071E-9B73-4960-B675-A43DDF75AA0B">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a>.
+A GUID that specifies the command. For a list of GUIDs, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_input">D3D11_AUTHENTICATED_CONFIGURE_INPUT</a>.
 
 
 ### -field hChannel
@@ -89,7 +89,7 @@ The result code for the command.
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
  
 
  

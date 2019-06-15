@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Creates a <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c73">service host</a> for the specified endpoints.
+Creates a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a> for the specified endpoints.
             
 
 
@@ -63,7 +63,7 @@ Creates a <a href="https://msdn.microsoft.com/42e4d24d-5611-4561-b874-6dc3f3f88c
 
 ### -param endpoints
 
-An array of  <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a> structures representing the service endpoints for which to create the service host.
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">WS_SERVICE_ENDPOINT</a> structures representing the service endpoints for which to create the service host.
 
 
 ### -param endpointCount [in]
@@ -74,7 +74,7 @@ The number of endpoints in the <i>endpoints</i> array.
 
 ### -param serviceProperties
 
-An array of <a href="https://msdn.microsoft.com/d25cab25-2227-4afe-ae45-93a229d7f78b">WS_SERVICE_PROPERTY</a> structures containing optional properties for the service host.
+An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_property">WS_SERVICE_PROPERTY</a> structures containing optional properties for the service host.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>servicePropertyCount</i> parameter must be 0 (zero).
                 
@@ -88,14 +88,14 @@ The number of properties in the <i>serviceProperties</i> array.
 
 ### -param serviceHost
 
-On   success, a pointer that receives the address of the  <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a> structure representing the new service host.
+On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> structure representing the new service host.
                 
-                When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/5362d8a4-8b38-462a-a7c1-9cde19abee1e">WsFreeServiceHost</a>.
+                When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeservicehost">WsFreeServiceHost</a>.
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
                 
                 
 

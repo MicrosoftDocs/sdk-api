@@ -50,7 +50,7 @@ req.redist:
 
 Specifies the versions of the update sequence number (USN) change journal supported by the 
     application. This structure is the input structure to the 
-    <a href="https://msdn.microsoft.com/22c797c8-87c8-4d45-b163-4573e6ed17e1">FSCTL_READ_FILE_USN_DATA</a> control code.
+    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_file_usn_data">FSCTL_READ_FILE_USN_DATA</a> control code.
 
 
 ## -struct-fields
@@ -75,11 +75,11 @@ The highest version of the USN change journal accepted by the application. If th
 
 
 
-<a href="https://msdn.microsoft.com/205de464-7e96-477b-9115-e819719b160e">FSCTL_READ_USN_JOURNAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a  COM server that has been registered  for Protected Media Process (PMP) usage with previous call to <a href="https://msdn.microsoft.com/F18A5596-F21E-427B-8281-544DD7CA9E0B">RegisterServerForPMP</a>.
+Gets a  COM server that has been registered  for Protected Media Process (PMP) usage with previous call to <a href="https://docs.microsoft.com/windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp">RegisterServerForPMP</a>.
 
 
 ## -parameters

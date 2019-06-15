@@ -65,7 +65,7 @@ The <b>LicenseChange</b> method is called when the license for the content chang
 
 ### -param dwProt [in]
 
-Specifies the new license as a member of the <a href="https://msdn.microsoft.com/190b8483-91c8-4fe4-8189-637749393151">ProtType</a> enumeration.
+Specifies the new license as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/ne-encdec-prottype">ProtType</a> enumeration.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Return S_OK or an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694650(v=VS.85).aspx">IMSVidStreamBufferSinkEvent3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent3">IMSVidStreamBufferSinkEvent3 Interface</a>
  
 
  

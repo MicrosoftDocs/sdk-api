@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CM_Add_ID</b> function appends a specified <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> (if not already present) to a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance's</a> <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> list or <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible ID</a> list.
+The <b>CM_Add_ID</b> function appends a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> (if not already present) to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/install/hardware-ids">hardware ID</a> list or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/compatible-ids">compatible ID</a> list.
 
 
 ## -parameters
@@ -115,13 +115,13 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-The <b>CM_Add_ID</b> function can only be used when <i>dnDevInst</i> represents a root-enumerated device.     For other devices, the bus driver reports hardware and compatible IDs when enumerating a child device after receiving <a href="https://msdn.microsoft.com/3135cb30-a696-4201-8dfc-cdc1a29fe52b">IRP_MN_QUERY_ID</a>.
+The <b>CM_Add_ID</b> function can only be used when <i>dnDevInst</i> represents a root-enumerated device.     For other devices, the bus driver reports hardware and compatible IDs when enumerating a child device after receiving <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a>.
 
 Each appended device ID is considered less compatible than IDs already existing in the specified list. For information about device IDs, hardware IDs, and compatible IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>. 
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 
 
@@ -131,11 +131,11 @@ For information about using device instance handles that are bound to the local 
 
 
 
-<a href="https://msdn.microsoft.com/978d650b-cbd5-4dff-bd51-7419774b8a7f">CM_Add_ID_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_id_exw">CM_Add_ID_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/b339d794-cbf0-46aa-a106-b2837f797def">CM_Get_Child</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
  
 
  

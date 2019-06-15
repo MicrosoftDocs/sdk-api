@@ -114,7 +114,7 @@ The index used for verification. This member is set on return from Wintrust.
 
 ### -field pCryptoPolicy
 
-Pointer to a <a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a> structure that contains the policy that a signature must pass to be considered valid.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a> structure that contains the policy that a signature must pass to be considered valid.
 
 
 ## -see-also
@@ -122,11 +122,11 @@ Pointer to a <a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F073210
 
 
 
-<a href="https://msdn.microsoft.com/12D9F82C-F484-43B0-BD55-F07321058671">CERT_STRONG_SIGN_PARA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_strong_sign_para">CERT_STRONG_SIGN_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>
  
 
  

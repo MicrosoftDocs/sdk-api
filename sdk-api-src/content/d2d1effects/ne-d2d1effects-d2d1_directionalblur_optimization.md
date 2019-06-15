@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the optimization mode for the <a href="https://msdn.microsoft.com/59328FA4-5C27-4A81-AAB2-C5B25B3615C6">Directional blur effect</a>.
+Specifies the optimization mode for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/directional-blur">Directional blur effect</a>.
 
 
 ## -enum-fields

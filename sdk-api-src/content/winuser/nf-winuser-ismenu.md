@@ -85,7 +85,7 @@ If the handle is not a menu handle, the return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
  
 
  

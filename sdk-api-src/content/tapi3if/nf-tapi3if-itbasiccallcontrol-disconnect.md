@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>Disconnect</b> method disconnects the call. The 
-<a href="https://msdn.microsoft.com/d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1">call state</a> will transition to CS_DISCONNECTED after the method completes successfully.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> will transition to CS_DISCONNECTED after the method completes successfully.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The
 ### -param code [in]
 
 
-<a href="https://msdn.microsoft.com/90e7b63f-3e19-422d-b45b-43408de9c6cc">DISCONNECT_CODE</a> indicating reason for call disconnection.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-disconnect_code">DISCONNECT_CODE</a> indicating reason for call disconnection.
 
 
 ## -returns
@@ -131,27 +131,27 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 
 
-<a href="https://msdn.microsoft.com/67c063ba-8b12-40d6-9011-923bdee8b214">Call Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/90e7b63f-3e19-422d-b45b-43408de9c6cc">DISCONNECT_CODE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-disconnect_code">DISCONNECT_CODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc348bb2-d564-40f8-afe3-5473c5769fa4">Drop overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/drop-ovr">Drop overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0b4c496-5ee8-4810-8170-8ea505c99f18">ITBasicCallControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/69ed2e2c-f1c7-4f69-86a0-3cfdd80e423d">Terminate a Session Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminate-a-session-ovr">Terminate a Session Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce1f1dbb-287b-483a-9e7e-87af0d07e4e4">lineDrop</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
  
 
  

@@ -59,12 +59,12 @@ Completes the asynchronous metadata exchange request and retrieves the service m
 
 ### -param pResult [in]
 
-An <a href="https://msdn.microsoft.com/49c5ad02-f24b-4ef9-b943-483728c0bbcd">IWSDAsyncResult</a> interface that represents the result of the request. Release this object when done.
+An <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that represents the result of the request. Release this object when done.
 
 
 ### -param ppMetadata [out]
 
-Requested metadata. For details, see <a href="https://msdn.microsoft.com/e5c6373a-f365-499d-a971-472ffa557a41">WSD_METADATA_SECTION_LIST</a>. Do not release this object.
+Requested metadata. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-_wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a>. Do not release this object.
 
 
 ## -returns
@@ -109,7 +109,7 @@ Method completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
  
 
  

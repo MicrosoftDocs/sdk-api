@@ -92,7 +92,7 @@ If the buffer specified by the <i>pbCustomAuthData</i> parameter is not large en
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/6b1a1c73-28af-43ff-b79c-c796ddae219c">RasGetEapUserData</a> was unable to open the specified phone-book file.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to open the specified phone-book file.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/6b1a1c73-28af-43ff-b79c-c796ddae219c">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The buffer pointed to by <i>pbCustomAuthData</i> is too small to receive the dat
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -168,11 +168,11 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/6b1a1c73-28af-43ff-b79c-c796ddae219c">RasGetEapUserData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3369537-1b46-4d7b-8ee1-f6965a3f296d">RasSetCustomAuthData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetcustomauthdataa">RasSetCustomAuthData</a>
  
 
  

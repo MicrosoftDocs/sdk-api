@@ -66,13 +66,13 @@ Verifies that the specified headers were understood by the receiver.
 
 ### -param message [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure containing the headers to be understood.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure containing the headers to be understood.
             
 
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure  where additional error information is stored if the function fails.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  where additional error information is stored if the function fails.
                 
 
 
@@ -156,17 +156,17 @@ This function may return other errors not listed above.
 
 Because the set of headers is extensible, it is necessary to determine whether a message has  been sufficiently understood to be processed. Therefore, the sender can use this function to indicate which headers must be understood, which headers can be treated as optional or informational.
 
-Standard addressing headers, such as the ones defined in <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_HEADER_TYPE</a>, are automatically assumed to be understood, even if they are never read by calling <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>.
+Standard addressing headers, such as the ones defined in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_HEADER_TYPE</a>, are automatically assumed to be understood, even if they are never read by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>.
 
-Custom, application-defined headers that are read by <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a> are also assumed to be understood. Calling <b>WsGetCustomHeader</b> will automatically mark the particular header as understood.
+Custom, application-defined headers that are read by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a> are also assumed to be understood. Calling <b>WsGetCustomHeader</b> will automatically mark the particular header as understood.
 
-For any  other header processed by the application, the application must explicity mark the header as understood by calling <a href="https://msdn.microsoft.com/f119f85a-f6a7-4472-8177-a2e23b6d12f9">WsMarkHeaderAsUnderstood</a>. Otherwise, the header is considered to not be understood.
+For any  other header processed by the application, the application must explicity mark the header as understood by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmarkheaderasunderstood">WsMarkHeaderAsUnderstood</a>. Otherwise, the header is considered to not be understood.
 
 This function should be called after all headers have been read for a received message. An exception to having to call this function is the case of an intermediary that forwards the message to another node without changing it's identity (message ID), since the final node will do the check. 
 
 
 
-The function will fail if any of the specified headers were not understood. If an error object is supplied to the function, it will be populated with information that can be used to send a fault (see <a href="https://msdn.microsoft.com/193854d7-3b7f-4f2b-b068-33b9c4d91e57">WsCreateFaultFromError</a>). 
+The function will fail if any of the specified headers were not understood. If an error object is supplied to the function, it will be populated with information that can be used to send a fault (see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatefaultfromerror">WsCreateFaultFromError</a>). 
 
 
 

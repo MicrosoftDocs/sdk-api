@@ -95,7 +95,7 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 
 
 
-<a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
  
 
  

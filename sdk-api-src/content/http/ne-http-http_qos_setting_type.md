@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>HTTP_QOS_SETTING_TYPE</b> enumeration identifies the type of a QOS setting contained in a <a href="https://msdn.microsoft.com/6c220063-02d0-44c0-b3a3-e7bfd5c57e1f">HTTP_QOS_SETTING_INFO</a> structure.
+The <b>HTTP_QOS_SETTING_TYPE</b> enumeration identifies the type of a QOS setting contained in a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure.
 
 
 ## -enum-fields
@@ -59,17 +59,17 @@ The <b>HTTP_QOS_SETTING_TYPE</b> enumeration identifies the type of a QOS settin
 
 ### -field HttpQosSettingTypeBandwidth
 
-The setting is a bandwidth limit represented by a <a href="https://msdn.microsoft.com/34c85ecf-1eb4-4f0d-a081-4b9feeb8dd15">HTTP_BANDWIDTH_LIMIT_INFO</a> structure.
+The setting is a bandwidth limit represented by a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_bandwidth_limit_info">HTTP_BANDWIDTH_LIMIT_INFO</a> structure.
 
 
 ### -field HttpQosSettingTypeConnectionLimit
 
-The setting is a connection limit represented by a <a href="https://msdn.microsoft.com/6d2c1eeb-d248-4ca5-80b3-5c9f69ce8b9b">HTTP_CONNECTION_LIMIT_INFO</a> structure.
+The setting is a connection limit represented by a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_connection_limit_info">HTTP_CONNECTION_LIMIT_INFO</a> structure.
 
 
 ### -field HttpQosSettingTypeFlowRate
 
-A flow rate represented by <a href="https://msdn.microsoft.com/5b52ef5b-dc82-4a87-9204-d32134074c31">HTTP_FLOWRATE_INFO</a>.
+A flow rate represented by <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_flowrate_info">HTTP_FLOWRATE_INFO</a>.
 
 <div class="alert"><b>Note</b>  Windows Server 2008 R2 and Windows 7 only.</div>
 <div> </div>
@@ -79,7 +79,7 @@ A flow rate represented by <a href="https://msdn.microsoft.com/5b52ef5b-dc82-4a8
 
 
 
-<a href="https://msdn.microsoft.com/6c220063-02d0-44c0-b3a3-e7bfd5c57e1f">HTTP_QOS_SETTING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
  
 
  

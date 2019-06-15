@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDecompressExEnd</b> macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/7ed63a4e-bb17-43a3-b593-25c4a51be942">ICM_DECOMPRESSEX_END</a> message.
+The <b>ICDecompressExEnd</b> macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-end">ICM_DECOMPRESSEX_END</a> message.
 
 
 
@@ -69,10 +69,10 @@ Handle to a decompressor.
 
 
 
-The driver frees any resources allocated for the <a href="https://msdn.microsoft.com/35298274-91b5-4df0-b4b0-4a71d6a49990">ICM_DECOMPRESSEX_BEGIN</a> message.
+The driver frees any resources allocated for the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-begin">ICM_DECOMPRESSEX_BEGIN</a> message.
 
 
-<a href="https://msdn.microsoft.com/35277938-6fae-4207-8b91-439af2b481e8">ICM_DECOMPRESSEX_BEGIN</a> and <a href="https://msdn.microsoft.com/7ed63a4e-bb17-43a3-b593-25c4a51be942">ICM_DECOMPRESSEX_END</a> do not nest. If your driver receives <a href="https://msdn.microsoft.com/35298274-91b5-4df0-b4b0-4a71d6a49990">ICM_DECOMPRESSEX_BEGIN</a> before decompression is stopped with <b>ICM_DECOMPRESSEX_END</b>, it should restart decompression with new parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdecompressexbegin">ICM_DECOMPRESSEX_BEGIN</a> and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-end">ICM_DECOMPRESSEX_END</a> do not nest. If your driver receives <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-decompressex-begin">ICM_DECOMPRESSEX_BEGIN</a> before decompression is stopped with <b>ICM_DECOMPRESSEX_END</b>, it should restart decompression with new parameters.
 
 
 
@@ -82,11 +82,11 @@ The driver frees any resources allocated for the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

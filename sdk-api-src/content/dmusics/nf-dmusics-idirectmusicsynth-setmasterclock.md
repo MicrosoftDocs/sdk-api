@@ -105,17 +105,17 @@ Indicates that the synth is not open or not properly configured.
 
 
 
-The synthesizer wave-output device, which is managed by <a href="https://msdn.microsoft.com/11944933-cd95-4979-82b2-2c3875b221b3">IDirectMusicSynthSink</a>, cannot function until it has received a master clock to synchronize to. It phase locks its own internal clock to the master clock, and is thus able to provide timing information to the synthesizer so it can make sense of the time stamps it receives in the calls to <a href="https://msdn.microsoft.com/96d0a2ef-1265-4e04-bb70-920f4c82058c">IDirectMusicSynth::PlayBuffer</a>.
+The synthesizer wave-output device, which is managed by <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>, cannot function until it has received a master clock to synchronize to. It phase locks its own internal clock to the master clock, and is thus able to provide timing information to the synthesizer so it can make sense of the time stamps it receives in the calls to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-playbuffer">IDirectMusicSynth::PlayBuffer</a>.
 
-In most implementations, <code>SetMasterClock</code> does little more than pass the master clock to the <b>IDirectMusicSynthSink</b> with a call to <a href="https://msdn.microsoft.com/91c996cc-04e1-47fb-a82d-1cb17fe191e2">IDirectMusicSynthSink::SetMasterClock</a>.
+In most implementations, <code>SetMasterClock</code> does little more than pass the master clock to the <b>IDirectMusicSynthSink</b> with a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>.
 
-The master clock is very different from the latency clock, which is retrieved from the synth with a call to <a href="https://msdn.microsoft.com/36690d54-dc88-4e31-8f66-8a0b48be2712">IDirectMusicSynth::GetLatencyClock</a>. While the master clock provides the time base, the latency clock simply tracks the progress of the synthesizer's render engine. This enables the application to know the earliest time that it can submit an event for playback by calling the <b>PlayBuffer</b> method. The latency clock is tightly synchronized to the master clock, so its units are relative.
+The master clock is very different from the latency clock, which is retrieved from the synth with a call to <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getlatencyclock">IDirectMusicSynth::GetLatencyClock</a>. While the master clock provides the time base, the latency clock simply tracks the progress of the synthesizer's render engine. This enables the application to know the earliest time that it can submit an event for playback by calling the <b>PlayBuffer</b> method. The latency clock is tightly synchronized to the master clock, so its units are relative.
 
 You can measure the latency of the synthesizer by comparing the time of the latency clock with the master clock. Note that the latency clock will have jitter, reflecting the bursts of synthesizer mixing, while the master clock should increment smoothly. Latency should not exceed 450 milliseconds.
 
 For more information, see the description of the <b>IDirectMusic</b> interface in the Windows SDK documentation.
 
-The <i>pClock</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <i>pClock</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 
 
@@ -125,19 +125,19 @@ The <i>pClock</i> parameter follows the <a href="https://msdn.microsoft.com/e6b1
 
 
 
-<a href="https://msdn.microsoft.com/36690d54-dc88-4e31-8f66-8a0b48be2712">IDirectMusicSynth::GetLatencyClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getlatencyclock">IDirectMusicSynth::GetLatencyClock</a>
 
 
 
-<a href="https://msdn.microsoft.com/96d0a2ef-1265-4e04-bb70-920f4c82058c">IDirectMusicSynth::PlayBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-playbuffer">IDirectMusicSynth::PlayBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/11944933-cd95-4979-82b2-2c3875b221b3">IDirectMusicSynthSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nn-dmusics-idirectmusicsynthsink">IDirectMusicSynthSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/91c996cc-04e1-47fb-a82d-1cb17fe191e2">IDirectMusicSynthSink::SetMasterClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>
  
 
  

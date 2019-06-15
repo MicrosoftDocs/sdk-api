@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/f071b05f-f0fa-43af-a502-f83a5f877120">IWindowsDriverUpdateEntryCollection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentrycollection">IWindowsDriverUpdateEntryCollection</a>
  
 
  

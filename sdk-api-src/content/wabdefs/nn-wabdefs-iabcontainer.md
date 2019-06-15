@@ -55,7 +55,7 @@ Do not use. This interface provides access to address book containers. Applicati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IABContainer</b> interface inherits from <a href="https://msdn.microsoft.com/library/Cc839817(v=office.12).aspx">IMAPIContainer</a>. <b>IABContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IABContainer</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc839817(v=office.12)">IMAPIContainer</a>. <b>IABContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IABContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629670(v=VS.85).aspx">CopyEntries</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629670(v=vs.85)">CopyEntries</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -79,7 +79,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629671(v=VS.85).aspx">CopyProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-copyprops">CopyProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -88,7 +88,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629674(v=VS.85).aspx">CopyTo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-copyto">CopyTo</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -97,7 +97,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629676(v=VS.85).aspx">CreateEntry</a>
+<a href="https://docs.microsoft.com/previous-versions//ms629676(v=vs.85)">CreateEntry</a>
 </td>
 <td align="left" width="63%">
 Creates a new entry in the address book container.  The WAB supports creation of mail users and distribution lists.
@@ -106,7 +106,7 @@ Creates a new entry in the address book container.  The WAB supports creation of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629678(v=VS.85).aspx">DeleteEntries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-deleteentries">DeleteEntries</a>
 </td>
 <td align="left" width="63%">
 Removes one or more entries from the address book container.
@@ -115,7 +115,7 @@ Removes one or more entries from the address book container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629680(v=VS.85).aspx">DeleteProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-deleteprops">DeleteProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -124,7 +124,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629682(v=VS.85).aspx">GetContentsTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getcontentstable">GetContentsTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the address of the contents table of the container.
@@ -133,7 +133,7 @@ Retrieves the address of the contents table of the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629684(v=VS.85).aspx">GetHierarchyTable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-gethierarchytable">GetHierarchyTable</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -142,7 +142,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629687(v=VS.85).aspx">GetIDsFromNames</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getidsfromnames">GetIDsFromNames</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -151,7 +151,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629690(v=VS.85).aspx">GetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -160,7 +160,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629692(v=VS.85).aspx">GetNamesFromIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getnamesfromids">GetNamesFromIDs</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -169,7 +169,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629694(v=VS.85).aspx">GetPropList</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getproplist">GetPropList</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -178,7 +178,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629696(v=VS.85).aspx">GetProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getprops">GetProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -187,7 +187,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629698(v=VS.85).aspx">GetSearchCriteria</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getsearchcriteria">GetSearchCriteria</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -196,7 +196,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629702(v=VS.85).aspx">OpenEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-openentry">OpenEntry</a>
 </td>
 <td align="left" width="63%">
 Opens a child container object in the open container.
@@ -205,7 +205,7 @@ Opens a child container object in the open container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629704(v=VS.85).aspx">OpenProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-openproperty">OpenProperty</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -214,7 +214,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629706(v=VS.85).aspx">ResolveNames</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-resolvenames">ResolveNames</a>
 </td>
 <td align="left" width="63%">
 Resolves entries against the address book container.
@@ -223,7 +223,7 @@ Resolves entries against the address book container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629708(v=VS.85).aspx">SaveChanges</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-savechanges">SaveChanges</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -232,7 +232,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629710(v=VS.85).aspx">SetProps</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-setprops">SetProps</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -241,7 +241,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms629712(v=VS.85).aspx">SetSearchCriteria</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-setsearchcriteria">SetSearchCriteria</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

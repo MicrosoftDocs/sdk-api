@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets a <a href="https://msdn.microsoft.com/en-us/library/Bb206335(v=VS.85).aspx">Vertex Declaration (Direct3D 9)</a>.
+Sets a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-declaration">Vertex Declaration (Direct3D 9)</a>.
 
 
 ## -parameters
@@ -60,16 +60,16 @@ Sets a <a href="https://msdn.microsoft.com/en-us/library/Bb206335(v=VS.85).aspx"
 
 ### -param pDecl [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205919(v=VS.85).aspx">IDirect3DVertexDeclaration9</a> object, which contains the vertex declaration.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a> object, which contains the vertex declaration.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
  The return value can be D3DERR_INVALIDCALL.
@@ -81,7 +81,7 @@ If the method succeeds, the return value is D3D_OK.
 
 
 
-A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the data members of a vertex (i.e. texture coordinates, colors, normals, etc.). This data can be useful for implementing <a href="https://msdn.microsoft.com/en-us/library/Bb509635(v=VS.85).aspx">vertex shaders and pixel shaders</a>.
+A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the data members of a vertex (i.e. texture coordinates, colors, normals, etc.). This data can be useful for implementing <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-pguide">vertex shaders and pixel shaders</a>.
 
 
 
@@ -91,11 +91,11 @@ A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the d
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174415(v=VS.85).aspx">IDirect3DDevice9::GetVertexDeclaration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexdeclaration">IDirect3DDevice9::GetVertexDeclaration</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Updates the list of <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointers that was populated upon the creation of the object.
+Updates the list of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers that was populated upon the creation of the object.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/976b4f0a-79cb-4b2d-8d69-225230147c53">IMtsGrp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>
  
 
  

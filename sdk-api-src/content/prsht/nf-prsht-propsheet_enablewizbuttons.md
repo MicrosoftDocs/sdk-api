@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774577(v=VS.85).aspx">PSM_ENABLEWIZBUTTONS</a> message explicitly.
+Enables or disables buttons in an Aero wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-enablewizbuttons">PSM_ENABLEWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Enables or disables buttons in an Aero wizard. You can use this macro or send th
 
 ### -param hDlg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
 
 ### -param dwState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the following values that specify which property sheet buttons are to be enabled. If a button value is included in both this parameter and <i>dwMask</i>, it is enabled.
 
@@ -121,7 +121,7 @@ One or more of the following values that specify which property sheet buttons ar
 
 ### -param dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the same values used in <i>dwState</i>, specifying which buttons are affected by this call. If a button value appears in this parameter but not in <i>dwState</i>, the button is disabled.
 

@@ -64,12 +64,12 @@ A handle to the placeholder.	The caller must have WRITE_DATA or WRITE_DAC access
 
 ### -param InSyncState [in]
 
-The in-sync state. See <a href="https://msdn.microsoft.com/05F99E47-00EE-422C-BDDF-CCCDDD4DADED">CF_IN_SYNC_STATE</a> for more details.
+The in-sync state. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_in_sync_state">CF_IN_SYNC_STATE</a> for more details.
 
 
 ### -param InSyncFlags [in]
 
-The in-sync state flags. See <a href="https://msdn.microsoft.com/55A20F07-0B3E-4C1D-9E59-288DAE08D134">CF_SET_IN_SYNC_FLAGS</a> for more details.
+The in-sync state flags. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_set_in_sync_flags">CF_SET_IN_SYNC_FLAGS</a> for more details.
 
 
 ### -param InSyncUsn [in, out, optional]

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Performs the inverse mapping to <a href="https://msdn.microsoft.com/EE098F67-B5A7-41C1-886A-2C7779B5E05C">MapOutputRectToInputRects</a>.
+Performs the inverse mapping to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects">MapOutputRectToInputRects</a>.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ Performs the inverse mapping to <a href="https://msdn.microsoft.com/EE098F67-B5A
 
 ### -param inputRects [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 An array of input rectangles to be mapped to the output rectangle.  The <i>inputRects</i> parameter is always equal to the input bounds.
 
 
 ### -param inputOpaqueSubRects [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 An array of input rectangles to be mapped to the opaque output rectangle.
 
@@ -81,14 +81,14 @@ The number of inputs specified. The implementation guarantees that this is equal
 
 ### -param outputRect
 
-Type: <b><a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 The output rectangle that maps to the corresponding input rectangle.
 
 
 ### -param outputOpaqueSubRect
 
-Type: <b><a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847950(v=vs.85)">D2D1_RECT_L</a>*</b>
 
 The output rectangle that maps to the corresponding opaque input rectangle.
 
@@ -110,7 +110,7 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 The transform implementation must ensure that any pixel shader or software callback implementation it provides honors this calculation.
 
-Unlike the <a href="https://msdn.microsoft.com/EE098F67-B5A7-41C1-886A-2C7779B5E05C">MapOutputRectToInputRects</a> and <a href="https://msdn.microsoft.com/46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5">MapInvalidRect</a> functions, this method is explicitly called by the renderer at a determined place in its rendering algorithm. The transform implementation may change its state based on the input rectangles and use this information to control its rendering information. This method is always called before the <b>MapInvalidRect</b> and <b>MapOutputRectToInputRects</b> methods of the transform.
+Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapoutputrecttoinputrects">MapOutputRectToInputRects</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transform-mapinvalidrect">MapInvalidRect</a> functions, this method is explicitly called by the renderer at a determined place in its rendering algorithm. The transform implementation may change its state based on the input rectangles and use this information to control its rendering information. This method is always called before the <b>MapInvalidRect</b> and <b>MapOutputRectToInputRects</b> methods of the transform.
 
 
 
@@ -120,11 +120,11 @@ Unlike the <a href="https://msdn.microsoft.com/EE098F67-B5A7-41C1-886A-2C7779B5E
 
 
 
-<a href="https://msdn.microsoft.com/3D87A908-FC57-4AA9-A508-C402D8413363">ID2D1EffectImpl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
 
 
 
-<a href="https://msdn.microsoft.com/8A0CD795-A6D8-4817-9676-58C11DDAAEBD">ID2D1Transform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform">ID2D1Transform</a>
  
 
  

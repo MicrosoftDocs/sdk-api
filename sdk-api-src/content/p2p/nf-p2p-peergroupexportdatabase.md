@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>PeerGroupExportDatabase</b> function exports a peer  group database to a specific file, which can be transported to another computer and imported with the <a href="https://msdn.microsoft.com/507b2b51-07d1-4e8d-8ec6-6b7398eadcc0">PeerGroupImportDatabase</a> function.
+The <b>PeerGroupExportDatabase</b> function exports a peer  group database to a specific file, which can be transported to another computer and imported with the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupimportdatabase">PeerGroupImportDatabase</a> function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>PeerGroupExportDatabase</b> function exports a peer  group database to a 
 
 ### -param hGroup [in]
 
-Handle to the peer group whose database is exported to a local file on the peer. This handle is returned by the <a href="https://msdn.microsoft.com/b85d87c6-28b7-49f8-865c-9d246f89367e">PeerGroupCreate</a>, <a href="https://msdn.microsoft.com/cfaf244f-8786-4801-926d-f6c79bfa4275">PeerGroupOpen</a>, or <a href="https://msdn.microsoft.com/a7f5689d-4849-4363-bc61-3fed63f4287b">PeerGroupJoin</a> function. This parameter is required.
+Handle to the peer group whose database is exported to a local file on the peer. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 
 ### -param pwzFilePath [in]
@@ -105,7 +105,7 @@ There is not enough memory to perform the specified operation.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://msdn.microsoft.com/c36025c5-a407-4a05-8780-23f8107730df">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 
 
@@ -115,7 +115,7 @@ Cryptography-specific errors can be returned from the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/507b2b51-07d1-4e8d-8ec6-6b7398eadcc0">PeerGroupImportDatabase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupimportdatabase">PeerGroupImportDatabase</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>LSA_ENUMERATION_INFORMATION</b> structure is used with the 
-<a href="https://msdn.microsoft.com/97e7180e-4edb-4edd-915e-0477e7e7a9ff">LsaEnumerateAccountsWithUserRight</a> function to return a pointer to a SID.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright">LsaEnumerateAccountsWithUserRight</a> function to return a pointer to a SID.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Pointer to a SID.
 
 
 
-<a href="https://msdn.microsoft.com/97e7180e-4edb-4edd-915e-0477e7e7a9ff">LsaEnumerateAccountsWithUserRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright">LsaEnumerateAccountsWithUserRight</a>
  
 
  

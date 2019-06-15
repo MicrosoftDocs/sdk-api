@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains information used by <a href="https://msdn.microsoft.com/81ad13be-a908-4079-b47c-6f983919700b">Shell_NotifyIconGetRect</a> to identify the icon for which to retrieve the bounding rectangle.
+Contains information used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicongetrect">Shell_NotifyIconGetRect</a> to identify the icon for which to retrieve the bounding rectangle.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The size of this structure, in bytes.
 
 Type: <b>HWND</b>
 
-A handle to the parent window used by the notification's callback function. For more information, see the <i>hWnd</i> member of the <a href="https://msdn.microsoft.com/fdcc42c1-b3e5-4b04-8d79-7b6c29699d53">NOTIFYICONDATA</a> structure.
+A handle to the parent window used by the notification's callback function. For more information, see the <i>hWnd</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-_notifyicondataa">NOTIFYICONDATA</a> structure.
 
 
 ### -field uID
@@ -89,7 +89,7 @@ A registered GUID that identifies the icon. Use <b>GUID_NULL</b> if the icon is 
 
 
 
-The icon can be identified to <a href="https://msdn.microsoft.com/81ad13be-a908-4079-b47c-6f983919700b">Shell_NotifyIconGetRect</a> through this structure in two ways:
+The icon can be identified to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shell_notifyicongetrect">Shell_NotifyIconGetRect</a> through this structure in two ways:
             
                 
 

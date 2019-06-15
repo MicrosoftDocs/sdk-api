@@ -79,7 +79,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-The caller should release the returned <b>IDirectDraw</b> pointer, except when calling the <a href="https://msdn.microsoft.com/e80938b7-31f0-467b-a3fa-c4511d14758d">Overlay Mixer</a> filter's implementation of this interface.
+The caller should release the returned <b>IDirectDraw</b> pointer, except when calling the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter's implementation of this interface.
 
 
 
@@ -89,11 +89,11 @@ The caller should release the returned <b>IDirectDraw</b> pointer, except when c
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd406802(v=VS.85).aspx">IDirectDrawMediaSampleAllocator Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasampleallocator">IDirectDrawMediaSampleAllocator Interface</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides a way to for debuggers to display the value of an Windows Runtime <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> in another address space, remotely, or from a dump. 
+Provides a way to for debuggers to display the value of an Windows Runtime <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> in another address space, remotely, or from a dump. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Provides a way to for debuggers to display the value of an Windows Runtime <a h
 
 ### -param targetHString [in]
 
-The <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a> to inspect.
+The <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> to inspect.
 
 
 ### -param machine
@@ -111,7 +111,7 @@ This function can return one of these values.
 <ul>
 <li><b>IMAGE_FILE_MACHINE_AMD64</b> was specified for <i>machine</i>, but the current platform is not Win64, or</li>
 <li><i>machine</i> is not <b>IMAGE_FILE_MACHINE_AMD64</b>,  <b>IMAGE_FILE_MACHINE_I386</b>, or <b>IMAGE_FILE_MACHINE_ARM</b>, or</li>
-<li><i>targetHString</i> is not a correctly formed <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>. </li>
+<li><i>targetHString</i> is not a correctly formed <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. </li>
 </ul>
 
 
@@ -128,15 +128,15 @@ This function can return one of these values.
 
 
 
-<a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/B3DAB59B-15A5-42A0-8545-94F585D8FF09">PINSPECT_HSTRING_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nc-winstring-pinspect_hstring_callback">PINSPECT_HSTRING_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/CACEFB80-A47E-45A7-9E13-29C1326B9453">WindowsCreateString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestring">WindowsCreateString</a>
  
 
  

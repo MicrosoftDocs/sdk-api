@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 This interface represents the collection of security settings associated with each visible wireless ad hoc network.  It is a standard enumerator.
-<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/A649EBBA-1076-4426-9C4D-85AB8C415C66">Wi-Fi Direct</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDot11AdHocSecuritySettings</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IEnumDot11AdHocSecuritySettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumDot11AdHocSecuritySettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumDot11AdHocSecuritySettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumDot11AdHocSecuritySettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27ef4cab-9aa5-4aa2-9e2e-fb16aae99045">IEnumDot11AdHocSecuritySettings::Clone</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-clone">IEnumDot11AdHocSecuritySettings::Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumeration interface.
@@ -78,7 +78,7 @@ Creates a new enumeration interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77101f70-de5d-4db9-a59d-5b07f386c0b7">IEnumDot11AdHocSecuritySettings::Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-next">IEnumDot11AdHocSecuritySettings::Next</a>
 </td>
 <td align="left" width="63%">
 Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
@@ -87,7 +87,7 @@ Gets the specified number of elements from the sequence and advances the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15fc655c-56d3-4f1e-b4e9-cb0e16191dc7">IEnumDot11AdHocSecuritySettings::Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-reset">IEnumDot11AdHocSecuritySettings::Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to the beginning of the enumeration sequence.
@@ -96,7 +96,7 @@ Resets to the beginning of the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c423e794-bb3a-4dd8-b6bc-324d91909e92">IEnumDot11AdHocSecuritySettings::Skip</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-ienumdot11adhocsecuritysettings-skip">IEnumDot11AdHocSecuritySettings::Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.

@@ -51,11 +51,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TRUSTEE</b> structure identifies the user account, group account, or <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">logon session</a> to which an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">access control entry</a> (ACE) applies. The structure can use a name or a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) to identify the trustee.
+The <b>TRUSTEE</b> structure identifies the user account, group account, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> to which an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) applies. The structure can use a name or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) to identify the trustee.
 
 Access control functions, such as 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a> and 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>, use this structure to identify the logon account associated with the access control or audit control information in an <a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>, use this structure to identify the logon account associated with the access control or audit control information in an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a> structure.
 
 
 ## -struct-fields
@@ -71,19 +71,19 @@ A pointer to a <b>TRUSTEE</b> structure that identifies a server account that ca
 ### -field MultipleTrusteeOperation
 
 A value of the 
-<a href="https://msdn.microsoft.com/00b00678-5c87-4aa9-8232-5f0f1cb48e24">MULTIPLE_TRUSTEE_OPERATION</a> enumeration type. Currently, this member must be NO_MULTIPLE_TRUSTEE.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_multiple_trustee_operation">MULTIPLE_TRUSTEE_OPERATION</a> enumeration type. Currently, this member must be NO_MULTIPLE_TRUSTEE.
 
 
 ### -field TrusteeForm
 
 A value from the 
-<a href="https://msdn.microsoft.com/991ac6cb-3fc9-4915-b5c9-ae73efb25d68">TRUSTEE_FORM</a> enumeration type that indicates the type of data pointed to by the <b>ptstrName</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_form">TRUSTEE_FORM</a> enumeration type that indicates the type of data pointed to by the <b>ptstrName</b> member.
 
 
 ### -field TrusteeType
 
 A value from the 
-<a href="https://msdn.microsoft.com/6519c79d-9cee-4565-a71e-0b81a27c1185">TRUSTEE_TYPE</a> enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_type">TRUSTEE_TYPE</a> enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
 
 
 ### -field ptstrName.case
@@ -182,7 +182,7 @@ A pointer to a <b>null</b>-terminated string that contains the name of the trust
 </td>
 <td width="60%">
 A pointer to an 
-<a href="https://msdn.microsoft.com/ad91a302-f693-44e9-9655-ec4488ff78c4">OBJECTS_AND_NAME</a> structure that contains the name of the trustee and the names of the object types in an object-specific ACE.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_name_a">OBJECTS_AND_NAME</a> structure that contains the name of the trustee and the names of the object types in an object-specific ACE.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ A pointer to an
 </td>
 <td width="60%">
 A pointer to an 
-<a href="https://msdn.microsoft.com/77ba8a3c-01e5-4a3e-835f-c7b9ef60035a">OBJECTS_AND_SID</a> structure that contains the SID of the trustee and the GUIDs of the object types in an object-specific ACE.
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_sid">OBJECTS_AND_SID</a> structure that contains the SID of the trustee and the GUIDs of the object types in an object-specific ACE.
 
 </td>
 </tr>
@@ -243,8 +243,8 @@ A trustee name can have any of the following formats:
 
 </li>
 </ul>
-A trustee SID can be any user or group SID. It can also be any of the <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">universal, well-known SIDs</a>. For more information, see 
-<a href="https://msdn.microsoft.com/7cb07bcd-70f4-43dd-8382-320fcff151c7">Security Identifiers</a>.
+A trustee SID can be any user or group SID. It can also be any of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">universal, well-known SIDs</a>. For more information, see 
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a>.
 
 
 
@@ -254,43 +254,43 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9">ACL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/6fe09542-10dd-439c-adf8-a4e06943ddb2">EXPLICIT_ACCESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/186aa6aa-efc3-4f8a-acad-e257da3dac0b">GetExplicitEntriesFromAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/00b00678-5c87-4aa9-8232-5f0f1cb48e24">MULTIPLE_TRUSTEE_OPERATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_multiple_trustee_operation">MULTIPLE_TRUSTEE_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad91a302-f693-44e9-9655-ec4488ff78c4">OBJECTS_AND_NAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_name_a">OBJECTS_AND_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/77ba8a3c-01e5-4a3e-835f-c7b9ef60035a">OBJECTS_AND_SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_objects_and_sid">OBJECTS_AND_SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/05960fc1-1ad2-4c19-a65c-62259af5e18c">SetEntriesInAcl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/991ac6cb-3fc9-4915-b5c9-ae73efb25d68">TRUSTEE_FORM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_form">TRUSTEE_FORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/6519c79d-9cee-4565-a71e-0b81a27c1185">TRUSTEE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-_trustee_type">TRUSTEE_TYPE</a>
  
 
  

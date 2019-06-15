@@ -124,7 +124,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The enclave that calls <b>EnclaveUnsealData</b> must meet the criteria that correspond to the value of the <a href="https://msdn.microsoft.com/986C122D-4CC9-487F-8B9F-6B3F9B727E4A">ENCLAVE_SEALING_IDENTITY_POLICY</a> that was specified by the enclave that sealed the data by calling <a href="https://msdn.microsoft.com/C5711D43-F0B4-43C6-B0DB-D65622851384">EnclaveSealData</a>.
+The enclave that calls <b>EnclaveUnsealData</b> must meet the criteria that correspond to the value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a> that was specified by the enclave that sealed the data by calling <a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata">EnclaveSealData</a>.
 
 <b>EnclaveUnsealData</b> must be called from within an enclave, and is only supported within enclaves that have the  <b>ENCLAVE_TYPE_VBS</b> enclave type.
 
@@ -136,11 +136,11 @@ The enclave that calls <b>EnclaveUnsealData</b> must meet the criteria that corr
 
 
 
-<a href="https://msdn.microsoft.com/986C122D-4CC9-487F-8B9F-6B3F9B727E4A">ENCLAVE_SEALING_IDENTITY_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/C5711D43-F0B4-43C6-B0DB-D65622851384">EnclaveSealData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata">EnclaveSealData</a>
  
 
  

@@ -59,7 +59,7 @@ Sets the socket address information.
 
 ### -param pSockAddr [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/dfd84b91-0a94-4fe6-b8d2-18562afb9c24">SOCKADDR_STORAGE</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structure.
 
 
 ## -returns
@@ -124,7 +124,7 @@ The specified address is not a valid socket address, or no transport provider su
 </dl>
 </td>
 <td width="60%">
-The Winsock 2 DLL has not been initialized. The application must first call <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> to initialize Winsock 2.
+The Winsock 2 DLL has not been initialized. The application must first call <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> to initialize Winsock 2.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ No buffer space available.
 
 
 
-<a href="https://msdn.microsoft.com/b666002f-2cd6-4e96-b055-34d801c1982e">IWSDUdpAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the <a href="https://msdn.microsoft.com/en-us/library/Bb773912(v=VS.85).aspx">TreeView_SelectItem</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb773920(v=VS.85).aspx">TreeView_SelectSetFirstVisible</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb773906(v=VS.85).aspx">TreeView_SelectDropTarget</a> macros, or you can send the <a href="https://msdn.microsoft.com/en-us/library/Bb773736(v=VS.85).aspx">TVM_SELECTITEM</a> message explicitly. 
+Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation. You can use this macro or the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_selectitem">TreeView_SelectItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_selectsetfirstvisible">TreeView_SelectSetFirstVisible</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_selectdroptarget">TreeView_SelectDropTarget</a> macros, or you can send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-selectitem">TVM_SELECTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Selects the specified tree-view item, scrolls the item into view, or redraws the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -73,7 +73,7 @@ Handle to an item. If the <i>hitem</i> parameter is <b>NULL</b>, the control is 
 
 ### -param code
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Action flag. This parameter can be one of the following values: 
 
@@ -88,7 +88,7 @@ Action flag. This parameter can be one of the following values:
 </dl>
 </td>
 <td width="60%">
-Sets the selection to the given item. The control's parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773547(v=VS.85).aspx">TVN_SELCHANGING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773544(v=VS.85).aspx">TVN_SELCHANGED</a> notification codes.
+Sets the selection to the given item. The control's parent window receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanging">TVN_SELCHANGING</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-selchanged">TVN_SELCHANGED</a> notification codes.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Ensures that the specified item is visible, and, if possible, displays it at the
 
 
 
-If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://msdn.microsoft.com/en-us/library/Bb773537(v=VS.85).aspx">TVN_ITEMEXPANDING</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb773533(v=VS.85).aspx">TVN_ITEMEXPANDED</a> notification codes. 
+If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the parent window receives the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanding">TVN_ITEMEXPANDING</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemexpanded">TVN_ITEMEXPANDED</a> notification codes. 
 
 
 

@@ -58,7 +58,7 @@ ms.custom: 19H1
 
 ### -param pic [in]
 
-[in] A pointer of <a href="https://msdn.microsoft.com/ca98c7bb-7348-405d-976a-18012b0886c6">ITfContext</a> interface. This is a context object in which the update happened.
+[in] A pointer of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface. This is a context object in which the update happened.
 
 
 ### -param ecReadOnly [in]
@@ -68,12 +68,12 @@ ms.custom: 19H1
 
 ### -param pResultRange [in]
 
-[in] A pointer of the <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> interface. This is the range of the result string (determined string).
+[in] A pointer of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. This is the range of the result string (determined string).
 
 
 ### -param pCompositionRange [in]
 
-[in] A pointer of the <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> interface. This is the range of the current composition string.
+[in] A pointer of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface. This is the range of the current composition string.
 
 
 ### -param pfDeleteResultRange [out]

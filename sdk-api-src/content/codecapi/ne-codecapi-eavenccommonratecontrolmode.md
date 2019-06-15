@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Specifies the rate control mode for an encoder. This enumeration is used with the <a href="https://msdn.microsoft.com/4a0d49b1-30da-4ebe-abff-3fceef6dd94a">AVEncCommonRateControlMode</a> codec property.
+Specifies the rate control mode for an encoder. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonratecontrolmode-property">AVEncCommonRateControlMode</a> codec property.
 
 
 
@@ -77,7 +77,7 @@ Unconstrained VBR encoding.
 
 ### -field eAVEncCommonRateControlMode_Quality
 
-Quality-based VBR encoding. The encoder selects the bit rate to match a specified quality level. To specify the quality level, set the <a href="https://msdn.microsoft.com/2c7f3836-2392-47c6-9a56-d5a9b52560ff">AVEncCommonQuality</a> property.
+Quality-based VBR encoding. The encoder selects the bit rate to match a specified quality level. To specify the quality level, set the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avenccommonquality-property">AVEncCommonQuality</a> property.
 
 
 ### -field eAVEncCommonRateControlMode_LowDelayVBR
@@ -105,7 +105,7 @@ Requires Windows 8.
 
 
 
-This enumeration is also used with <a href="https://msdn.microsoft.com/B3D500DF-1FD4-4D7C-B6F8-8DE4B957ED5C">H.264 UVC 1.5 camera encoders</a>.
+This enumeration is also used with <a href="https://docs.microsoft.com/windows/desktop/medfound/camera-encoder-h264-uvc-1-5">H.264 UVC 1.5 camera encoders</a>.
 
 
 
@@ -115,11 +115,11 @@ This enumeration is also used with <a href="https://msdn.microsoft.com/B3D500DF-
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
  
 
  

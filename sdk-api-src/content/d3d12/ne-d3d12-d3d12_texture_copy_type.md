@@ -64,14 +64,14 @@ Indicates a subresource, identified by an index, is to be copied.
 
 ### -field D3D12_TEXTURE_COPY_TYPE_PLACED_FOOTPRINT
 
-Indicates a place footprint, identified by a <a href="https://msdn.microsoft.com/74740A52-C2A5-4AF6-92CC-85B5C214423F">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structure, is to be copied.
+Indicates a place footprint, identified by a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint">D3D12_PLACED_SUBRESOURCE_FOOTPRINT</a> structure, is to be copied.
 
 
 ## -remarks
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a> structure.
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_texture_copy_location">D3D12_TEXTURE_COPY_LOCATION</a> structure.
 
 
 
@@ -81,7 +81,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

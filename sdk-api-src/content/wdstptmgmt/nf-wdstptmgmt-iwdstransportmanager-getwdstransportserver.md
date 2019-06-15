@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an object of the <a href="https://msdn.microsoft.com/0129658d-8725-4020-ae9c-9d0a44075561">IWdsTransportServer</a> interface that can be used to manage a WDS transport server. The method confirms that the system can reach a WDS transport server with the specified name.
+Creates an object of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface that can be used to manage a WDS transport server. The method confirms that the system can reach a WDS transport server with the specified name.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The name of the WDS transport server to be represented by this object. This can 
 
 ### -param ppWdsTransportServer [out]
 
-A pointer to the object of the  <a href="https://msdn.microsoft.com/0129658d-8725-4020-ae9c-9d0a44075561">IWdsTransportServer</a> interface. 
+A pointer to the object of the  <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface. 
 
 
 ## -returns
@@ -81,11 +81,11 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://msdn.microsoft.com/23f36ec7-5f6f-486c-bb09-e2f5b6f57efa">IWdsTransportManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportmanager">IWdsTransportManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/0129658d-8725-4020-ae9c-9d0a44075561">IWdsTransportServer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a>
  
 
  

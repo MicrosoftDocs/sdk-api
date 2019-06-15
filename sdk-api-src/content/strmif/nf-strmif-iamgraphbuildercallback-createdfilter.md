@@ -63,7 +63,7 @@ The Filter Graph Manager calls this method after it has created a filter, but be
 
 ### -param pFil
 
-Pointer to the <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> interface of the filter.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface of the filter.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The Filter Graph Manager holds a graph-wide critical section while it calls this
 
 
 
-<a href="https://msdn.microsoft.com/4d8e45e3-7144-44ad-b79e-5acc0cec6ed4">IAMGraphBuilderCallback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphbuildercallback">IAMGraphBuilderCallback Interface</a>
  
 
  

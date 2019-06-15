@@ -61,7 +61,7 @@ The
 
 ### -param bstrXML [in]
 
-Optional. During imports of transported shadow copies, this parameter must be the original document generated when creating the saved shadow copy and saved using <a href="https://msdn.microsoft.com/8184d15a-7d1f-49ed-afe3-fa9d81a4d32d">IVssBackupComponents::SaveAsXML</a>. 
+Optional. During imports of transported shadow copies, this parameter must be the original document generated when creating the saved shadow copy and saved using <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-saveasxml">IVssBackupComponents::SaveAsXML</a>. 
 
 
 ## -returns
@@ -127,7 +127,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://msdn.microsoft.com/6377d937-5739-45f5-9195-5d18be4069ce">Event and Error Handling Under VSS</a>.
+        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -156,12 +156,12 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 The XML document supplied to this method initializes the 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> object with metadata previously stored by a call to 
-<a href="https://msdn.microsoft.com/8184d15a-7d1f-49ed-afe3-fa9d81a4d32d">IVssBackupComponents::SaveAsXML</a>. Users should not tamper with this metadata document.
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> object with metadata previously stored by a call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-saveasxml">IVssBackupComponents::SaveAsXML</a>. Users should not tamper with this metadata document.
 
 For more information on how to use 
 <b>InitializeForBackup</b> with transportable shadow copies, see 
-<a href="https://msdn.microsoft.com/4ec63917-03c0-434e-892e-3d9d4c47740e">Importing Transportable Shadow Copied Volumes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/VSS/importing-transportable-shadow-copied-volumes">Importing Transportable Shadow Copied Volumes</a>.
 
 
 
@@ -171,11 +171,11 @@ For more information on how to use
 
 
 
-<a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://msdn.microsoft.com/8184d15a-7d1f-49ed-afe3-fa9d81a4d32d">IVssBackupComponents::SaveAsXML</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-saveasxml">IVssBackupComponents::SaveAsXML</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Finds the first string in a combo box list that begins with the specified string. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a> message explicitly.
+Finds the first string in a combo box list that begins with the specified string. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-findstring">CB_FINDSTRING</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Finds the first string in a combo box list that begins with the specified string
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -73,7 +73,7 @@ The zero-based index of the item before the first item to be searched. When the 
 
 ### -param lpszFind
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The string to find.
 
@@ -82,7 +82,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775835(v=VS.85).aspx">CB_FINDSTRING</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-findstring">CB_FINDSTRING</a>.
 	
 
 

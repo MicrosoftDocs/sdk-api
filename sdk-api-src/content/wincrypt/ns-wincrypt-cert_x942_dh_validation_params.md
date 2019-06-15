@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CERT_X942_DH_VALIDATION_PARAMS</b> structure is optionally pointed to by a member of the <a href="https://msdn.microsoft.com/833d8e36-af78-4daa-92c5-0cb37a31df2f">CERT_X942_DH_PARAMETERS</a> structure and contains additional seed information.
+The <b>CERT_X942_DH_VALIDATION_PARAMS</b> structure is optionally pointed to by a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_x942_dh_parameters">CERT_X942_DH_PARAMETERS</a> structure and contains additional seed information.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The <b>CERT_X942_DH_VALIDATION_PARAMS</b> structure is optionally pointed to by 
 
 ### -field seed
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_UINT_BLOB</a> that contains an unsigned seed value.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_UINT_BLOB</a> that contains an unsigned seed value.
 
 
 ### -field pgenCounter

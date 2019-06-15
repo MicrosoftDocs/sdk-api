@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deserializes credential information obtained by a credential provider during  a previous call to the <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
+Deserializes credential information obtained by a credential provider during  a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Deserializes credential information obtained by a credential provider during  a 
 
 ### -param MarshaledCredUIContext [in]
 
-The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb773242(v=VS.85).aspx">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="https://msdn.microsoft.com/en-us/library/Bb776043(v=VS.85).aspx">ICredentialProvider::SetSerialization</a> method.
+The serialized credential information obtained as the <b>rgbSerialization</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ns-credentialprovider-_credential_provider_credential_serialization">CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</a> structure retrieved from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">ICredentialProvider::SetSerialization</a> method.
 
 
 ### -param MarshaledCredUIContextLength [in]
@@ -71,7 +71,7 @@ The size, in bytes, of the <i>MarshaledCredUIContext</i> buffer.
 
 ### -param CredUIContext [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/ac9410eb-ec1b-494c-8e8b-6d161ff2b41c">SEC_WINNT_CREDUI_CONTEXT</a> structure that specifies the deserialized credential information.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure that specifies the deserialized credential information.
 
 
 ## -returns

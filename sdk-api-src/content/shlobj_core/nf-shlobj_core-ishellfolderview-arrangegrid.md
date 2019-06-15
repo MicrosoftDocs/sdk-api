@@ -86,11 +86,11 @@ This method has the same effect as selecting <b>View | Arrange Icons By | Align 
 
 
 
-<a href="https://msdn.microsoft.com/e3b0b35f-6707-4e37-8470-31b1d4421d07">IShellFolderView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishellfolderview">IShellFolderView</a>
 
 
 
-<a href="https://msdn.microsoft.com/37260573-bac0-462c-a0df-654e2b22ed47">IShellFolderView::AutoArrange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-autoarrange">IShellFolderView::AutoArrange</a>
  
 
  

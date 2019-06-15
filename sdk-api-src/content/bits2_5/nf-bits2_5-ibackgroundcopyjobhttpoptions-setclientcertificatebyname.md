@@ -60,7 +60,7 @@ Specifies the subject name of the client certificate to use for client authentic
 
 ### -param StoreLocation [in]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa362796(v=VS.85).aspx">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param StoreName [in]
@@ -163,7 +163,7 @@ The user does not have permission to access the store location.
 </dl>
 </td>
 <td width="60%">
-The value for <i>StoreLocation</i> is not defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa362796(v=VS.85).aspx">BG_CERT_STORE_LOCATION</a> enumeration.
+The value for <i>StoreLocation</i> is not defined in the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/ne-bits2_5-__midl_ibackgroundcopyjobhttpoptions_0001">BG_CERT_STORE_LOCATION</a> enumeration.
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ The client certificate is applicable only for remote files that use the HTTP or 
 
 When a website accepts but does not require an SSL client certificate, and the BITS job does not specify a client certificate, the job will fail with ERROR_WINHTTP_CLIENT_AUTH_CERT_NEEDED (0x80072f0c).
 
-The method uses the subject name string to perform a substring search for the certificate. Since subject names are not necessarily unique, this method searches the store for the first certificate that uses the given subject name and is a client authentication certificate. You should provide the complete subject name for a better chance of finding a single match. If the certificate is not correct (not trusted), the job will fail with BG_E_HTTP_ERROR_403 when BITS tries to transfer the file and the job will move to the error state. If you cannot guarantee a unique subject name, consider using the <a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> method instead.
+The method uses the subject name string to perform a substring search for the certificate. Since subject names are not necessarily unique, this method searches the store for the first certificate that uses the given subject name and is a client authentication certificate. You should provide the complete subject name for a better chance of finding a single match. If the certificate is not correct (not trusted), the job will fail with BG_E_HTTP_ERROR_403 when BITS tries to transfer the file and the job will move to the error state. If you cannot guarantee a unique subject name, consider using the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> method instead.
 
 SmartCard certificate identifiers (thumbprints) are not supported.
 
@@ -293,19 +293,19 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd317bf9-1d4b-438e-beec-15ea7da90fc9">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4fb7213-5f6b-407f-bc44-6d11886ed5ad">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
  
 
  

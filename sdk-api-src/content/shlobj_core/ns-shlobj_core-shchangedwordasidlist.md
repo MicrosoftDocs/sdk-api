@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>SHChangeDWORDAsIDList</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Stores two <b>DWORD</b> values in a form mimicking an <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> so that they can be used by <a href="https://msdn.microsoft.com/a9222ce9-0d06-4fd0-af3a-fd0e979713ce">SHChangeNotify</a>.
+Stores two <b>DWORD</b> values in a form mimicking an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-_itemidlist">ITEMIDLIST</a> so that they can be used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ Type: <b>USHORT</b>
 
 
 
-This example demonstrates the use of <a href="https://msdn.microsoft.com/0aa99a6b-39c2-41f3-bd9d-30b86aa4da2f">SHChangeUpdateImageIDList</a> and <b>SHChangeDWORDAsIDList</b> by <a href="https://msdn.microsoft.com/a9222ce9-0d06-4fd0-af3a-fd0e979713ce">SHChangeNotify</a> to mimic the <a href="https://msdn.microsoft.com/9df5860e-db65-4e43-aaf9-c1e0e33fc569">SHUpdateImage</a> function.
+This example demonstrates the use of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist">SHChangeUpdateImageIDList</a> and <b>SHChangeDWORDAsIDList</b> by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a> to mimic the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shupdateimagea">SHUpdateImage</a> function.
 
                 
 
@@ -149,7 +149,7 @@ void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex
 
 
 
-<a href="https://msdn.microsoft.com/0aa99a6b-39c2-41f3-bd9d-30b86aa4da2f">SHChangeUpdateImageIDList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-_shchangeupdateimageidlist">SHChangeUpdateImageIDList</a>
  
 
  

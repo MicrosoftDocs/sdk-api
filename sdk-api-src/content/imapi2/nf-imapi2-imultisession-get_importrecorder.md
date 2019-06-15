@@ -59,7 +59,7 @@ Retrieves the disc recorder to use to import one or more previous sessions.
 
 ### -param value [out]
 
-An <a href="https://msdn.microsoft.com/34f858b8-74eb-4725-8815-7954cb98cff0">IDiscRecorder2</a> interface that identifies the device that contains one or more session images to import.
+An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the device that contains one or more session images to import.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Value: 0x80004003
 
 
 
-The import recorder reads session content from the optical media and provides it to <a href="https://msdn.microsoft.com/0256f1d2-a3fb-45b2-bd84-e2b71148e4ec">IFileSystemImage</a>.
+The import recorder reads session content from the optical media and provides it to <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>.
 
 
 
@@ -106,7 +106,7 @@ The import recorder reads session content from the optical media and provides it
 
 
 
-<a href="https://msdn.microsoft.com/a983af02-ee0e-4a62-8ae0-fb9a1e0c2571">IMultisession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
  
 
  

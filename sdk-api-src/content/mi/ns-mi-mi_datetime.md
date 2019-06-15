@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a union of <a href="https://msdn.microsoft.com/f06f1b0e-d21c-4b60-8099-222a1582fde1">MI_Timestamp</a> and <a href="https://msdn.microsoft.com/b6bf3d47-c292-4140-8bc6-f15ad8a8019f">MI_Interval</a>.
+Represents a union of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_timestamp">MI_Timestamp</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/ns-mi-_mi_interval">MI_Interval</a>.
 
 
 ## -struct-fields

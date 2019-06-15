@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EndQueryStateVariable</b> method retrieves the results of  a previous  <a href="https://msdn.microsoft.com/1E97589C-A06B-4012-A2A2-C88BBE9B2530">BeginQueryStateVariable</a> operation and retrieves the resultant service-specific state variable value.
+The <b>EndQueryStateVariable</b> method retrieves the results of  a previous  <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a> operation and retrieves the resultant service-specific state variable value.
 
 
 
@@ -60,14 +60,14 @@ The <b>EndQueryStateVariable</b> method retrieves the results of  a previous  <a
 
 ### -param ullRequestID [in]
 
-Pointer to a 64-bit <b>ULONG</b> value that corresponds to the <a href="https://msdn.microsoft.com/1E97589C-A06B-4012-A2A2-C88BBE9B2530">BeginQueryStateVariable</a> operation initiated prior to this call.
+Pointer to a 64-bit <b>ULONG</b> value that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a> operation initiated prior to this call.
 
 
 ### -param pValue [out, retval]
 
-On input, contains an empty array. On output,  receives a reference to the value of the variable specified in <a href="https://msdn.microsoft.com/1E97589C-A06B-4012-A2A2-C88BBE9B2530">BeginQueryStateVariable</a> by <i>bstrVariableName</i>. The type of the data returned depends on the state variable for which the query was invoked.
+On input, contains an empty array. On output,  receives a reference to the value of the variable specified in <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginquerystatevariable">BeginQueryStateVariable</a> by <i>bstrVariableName</i>. The type of the data returned depends on the state variable for which the query was invoked.
 
-<div class="alert"><b>Note</b>  Clear this parameter with <a href="https://msdn.microsoft.com/28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a>.</div>
+<div class="alert"><b>Note</b>  Clear this parameter with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.</div>
 <div> </div>
 
 ## -returns
@@ -143,7 +143,7 @@ The query did not complete because of problems at the UPnP protocol level.
 </dl>
 </td>
 <td width="60%">
-The state variable is not evented and the remote query for the value failed because of an HTTP problem. To retrieve the HTTP error code, use <a href="https://msdn.microsoft.com/8593b800-ae0a-41b8-9a61-92bdfc106c8b">IUPnPService::LastTransportStatus</a>.
+The state variable is not evented and the remote query for the value failed because of an HTTP problem. To retrieve the HTTP error code, use <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ The state variable is evented, but the UPnP software cannot return a value becau
 </table>
  
 
-<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://msdn.microsoft.com/4b18a5d4-f6e8-4670-93dd-ecd012940000">Device Error Codes</a>.</div>
+<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
 
 
@@ -171,15 +171,15 @@ The state variable is evented, but the UPnP software cannot return a value becau
 
 
 
-<a href="https://msdn.microsoft.com/8593b800-ae0a-41b8-9a61-92bdfc106c8b">IUPnPService::LastTransportStatus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/B77025D6-26C7-46C9-84FE-69685C61735D">IUPnPServiceAsync</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/82AAB2C4-46A9-4545-95E1-887841735815">IUPnPServiceAsync::EndQueryStateVariable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endquerystatevariable">IUPnPServiceAsync::EndQueryStateVariable</a>
  
 
  

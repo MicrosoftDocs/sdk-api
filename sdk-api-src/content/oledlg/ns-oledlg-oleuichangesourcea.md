@@ -126,7 +126,7 @@ Pointer to a hook function that processes messages intended for the dialog box. 
 
 ### -field lCustData
 
-Application-defined data that the library passes to the hook function pointed to by the <b>lpfnHook</b> member. The library passes a pointer to the <a href="https://msdn.microsoft.com/2c4ba340-541a-405b-889c-bc51d1d20cc9">OLEUICHANGEICON</a> structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member. 
+Application-defined data that the library passes to the hook function pointed to by the <b>lpfnHook</b> member. The library passes a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-tagoleuichangeicona">OLEUICHANGEICON</a> structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member. 
 
 
 ### -field hInstance
@@ -146,7 +146,7 @@ Resource handle for a custom dialog box. If this member is <b>NULL</b>, then the
 
 ### -field lpOFN
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms646839(v=VS.85).aspx">OPENFILENAME</a> structure, which contains information used by the operating system to initialize the system-defined <b>Open</b> or <b>Save As</b> dialog boxes.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagofna">OPENFILENAME</a> structure, which contains information used by the operating system to initialize the system-defined <b>Open</b> or <b>Save As</b> dialog boxes.
 
 
 ### -field dwReserved1
@@ -156,7 +156,7 @@ This member is reserved.
 
 ### -field lpOleUILinkContainer
 
-Pointer to the container's implementation of the <a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a> interface, used to validate the link source. The <b>Edit Links</b> dialog box uses this to allow the container to manipulate its links.
+Pointer to the container's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a> interface, used to validate the link source. The <b>Edit Links</b> dialog box uses this to allow the container to manipulate its links.
 
 
 ### -field dwLink
@@ -190,11 +190,11 @@ Pointer to the prefix of the source to be changed to.
 
 
 
-<a href="https://msdn.microsoft.com/7fc0aab3-7476-49ec-8a1d-3f4851f9f31c">IOleUILinkContainer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/53ff17aa-3135-462e-885d-3bfbb74ed1c5">OleUIChangeSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuichangesourcea">OleUIChangeSource</a>
  
 
  

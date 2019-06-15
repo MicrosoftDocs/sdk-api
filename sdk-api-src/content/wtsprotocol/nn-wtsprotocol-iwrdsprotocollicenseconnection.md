@@ -54,7 +54,7 @@ Exposes methods used by the Remote Desktop Services service to perform the licen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolLicenseConnection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWRdsProtocolLicenseConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolLicenseConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolLicenseConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWRdsProtocolLicenseConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d9b0efe8-2988-4797-921a-544f410ac6d0">ProtocolComplete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-protocolcomplete">ProtocolComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol whether the licensing process completed successfully.
@@ -78,7 +78,7 @@ Notifies the protocol whether the licensing process completed successfully.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73660029-2d2e-4240-babe-208daa164290">RequestClientLicense</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestclientlicense">RequestClientLicense</a>
 </td>
 <td align="left" width="63%">
 Requests a license from the client.
@@ -87,7 +87,7 @@ Requests a license from the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5814a01-9e4b-4510-b6a5-fa6edc6a15ed">RequestLicensingCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-requestlicensingcapabilities">RequestLicensingCapabilities</a>
 </td>
 <td align="left" width="63%">
 Requests license capabilities from the client.
@@ -96,7 +96,7 @@ Requests license capabilities from the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a758f6c8-1f84-4c20-857c-019cde68915c">SendClientLicense</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollicenseconnection-sendclientlicense">SendClientLicense</a>
 </td>
 <td align="left" width="63%">
 Sends a license to the client.

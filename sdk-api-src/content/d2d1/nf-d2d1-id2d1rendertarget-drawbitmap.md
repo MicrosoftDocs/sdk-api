@@ -59,14 +59,14 @@ Draws the specified bitmap after scaling it to the size of the specified rectang
 
 ### -param bitmap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e58216ea-e6b5-450f-a0ea-b879aa5dff38">ID2D1Bitmap</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The bitmap to render.
 
 
 ### -param destinationRectangle [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The size and position, in device-independent pixels in the render target's coordinate space, of the area to which the bitmap is drawn; <b>NULL</b> to draw the selected portion of the bitmap at the origin of the render target.  If the rectangle is specified but not well-ordered, nothing is drawn, but the render target does not enter an error state.
 
@@ -80,14 +80,14 @@ A value between 0.0f and 1.0f, inclusive, that specifies an opacity value to app
 
 ### -param interpolationMode
 
-Type: <b><a href="https://msdn.microsoft.com/b53b7e0a-aa8b-4788-896c-9825c9e6cceb">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE</a></b>
 
-The interpolation mode to use if the bitmap is scaled or rotated by the drawing operation. The default value is <a href="https://msdn.microsoft.com/b53b7e0a-aa8b-4788-896c-9825c9e6cceb">D2D1_BITMAP_INTERPOLATION_MODE_LINEAR</a>. 
+The interpolation mode to use if the bitmap is scaled or rotated by the drawing operation. The default value is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_bitmap_interpolation_mode">D2D1_BITMAP_INTERPOLATION_MODE_LINEAR</a>. 
 
 
 ### -param sourceRectangle [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The size and position, in device-independent pixels in the bitmap's coordinate space, of the area within the bitmap to be drawn; <b>NULL</b> to draw the entire bitmap. 
 
@@ -105,12 +105,12 @@ This method does not return a value.
 
 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://msdn.microsoft.com/241df698-ca5e-4d94-902a-a9e140820c14">DrawBitmap</a>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-drawbitmap">DrawBitmap</a>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/9c6fc8b1-47ba-46fa-b812-2636cd8ff2b4">How to Draw a Bitmap</a>. For an example showing how to load a bitmap from a resource or a file, see <a href="https://msdn.microsoft.com/7285e6ea-ebc7-4693-8a77-99bff0b5d0d1">How to Load a Bitmap from a Resource</a> and <a href="https://msdn.microsoft.com/4abfbc2b-2730-4d96-897e-1e2232383a72">How to Load a Bitmap from a File</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-a-bitmap">How to Draw a Bitmap</a>. For an example showing how to load a bitmap from a resource or a file, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-bitmap-from-a-resource">How to Load a Bitmap from a Resource</a> and <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a Bitmap from a File</a>.
 
 <div class="code"></div>
 
@@ -121,19 +121,19 @@ For an example, see <a href="https://msdn.microsoft.com/9c6fc8b1-47ba-46fa-b812-
 
 
 
-<a href="https://msdn.microsoft.com/9c6fc8b1-47ba-46fa-b812-2636cd8ff2b4">How to Draw a Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-a-bitmap">How to Draw a Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/4abfbc2b-2730-4d96-897e-1e2232383a72">How to Load a Bitmap from a File</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-direct2d-bitmap-from-a-file">How to Load a Bitmap from a File</a>
 
 
 
-<a href="https://msdn.microsoft.com/7285e6ea-ebc7-4693-8a77-99bff0b5d0d1">How to Load a Bitmap from a Resource</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-load-a-bitmap-from-a-resource">How to Load a Bitmap from a Resource</a>
 
 
 
-<a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

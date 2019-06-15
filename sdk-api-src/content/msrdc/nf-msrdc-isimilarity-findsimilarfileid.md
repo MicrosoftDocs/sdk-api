@@ -59,7 +59,7 @@ Returns a list of files that are similar to a given file.
 
 ### -param similarityData [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/33fdb48c-6f33-44e8-83b1-6029b1eace1d">SimilarityData</a> structure that contains similarity information for the file.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/ns-msrdc-__midl___midl_itf_msrdc_0000_0000_0012">SimilarityData</a> structure that contains similarity information for the file.
 
 
 ### -param numberOfMatchesRequired
@@ -69,12 +69,12 @@ TBD
 
 ### -param resultsSize [in]
 
-The number of file IDs that can be stored in the <a href="https://msdn.microsoft.com/3118cf53-c544-48bc-ac38-79ca2252f83f">IFindSimilarResults</a> object that the <i>findSimilarResults</i> parameter points to.
+The number of file IDs that can be stored in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a> object that the <i>findSimilarResults</i> parameter points to.
 
 
 ### -param findSimilarResults [out, optional]
 
-A pointer to a location that will receive the returned  <a href="https://msdn.microsoft.com/3118cf53-c544-48bc-ac38-79ca2252f83f">IFindSimilarResults</a> interface pointer. The caller must release this interface when it is no longer needed.
+A pointer to a location that will receive the returned  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-ifindsimilarresults">IFindSimilarResults</a> interface pointer. The caller must release this interface when it is no longer needed.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The file IDs that are returned in the <i>findSimilarResults</i> parameter may in
 
 
 
-<a href="https://msdn.microsoft.com/fe0cd874-a40c-4d82-99bf-b84008a4995c">ISimilarity</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
  
 
  

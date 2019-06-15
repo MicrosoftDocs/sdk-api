@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EV_EXTRA_CERT_CHAIN_POLICY_STATUS</b> structure is returned in the <b>pvExtraPolicyStatus</b>  member of a <a href="https://msdn.microsoft.com/599a09b6-fe9e-4489-99ae-8a88fa78a660">CERT_CHAIN_POLICY_STATUS</a> structure. The structure contains policy flags returned from a call to the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function.
+The <b>EV_EXTRA_CERT_CHAIN_POLICY_STATUS</b> structure is returned in the <b>pvExtraPolicyStatus</b>  member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure. The structure contains policy flags returned from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function.
 
 
 ## -struct-fields
@@ -77,7 +77,7 @@ the index, as shown in the following pseudocode:
 
 #### - fQualifiers
 
-A <b>DWORD</b> value that specifies which of the EV policy qualifiers are set corresponding to the policy <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for which the chain is valid.
+A <b>DWORD</b> value that specifies which of the EV policy qualifiers are set corresponding to the policy <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for which the chain is valid.
 
 <table>
 <tr>

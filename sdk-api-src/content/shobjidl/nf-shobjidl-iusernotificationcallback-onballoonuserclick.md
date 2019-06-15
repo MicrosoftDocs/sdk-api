@@ -60,9 +60,9 @@ Called when the user clicks the balloon. The application may respond with an act
 
 ### -param pt [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
 
-Takes a pointer to the <a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7c">POINT</a> structure which, upon method return, points to the position of the mouse in screen space where the mouse click occurred.
+Takes a pointer to the <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure which, upon method return, points to the position of the mouse in screen space where the mouse click occurred.
 
 
 ## -returns

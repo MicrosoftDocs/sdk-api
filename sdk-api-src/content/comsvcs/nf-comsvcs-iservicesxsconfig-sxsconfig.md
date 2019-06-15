@@ -59,7 +59,7 @@ Configures the side-by-side assembly for the enclosed work.
 
 ### -param scsConfig [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/ms684148(v=VS.85).aspx">CSC_SxsConfig</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-tagcsc_sxsconfig">CSC_SxsConfig</a> enumeration.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-The <a href="https://msdn.microsoft.com/5eb909a5-7730-4f0b-aee6-9bb8de076cea">SxsDirectory</a> method must be called if a new side-by-side assembly domain is created using a call to this method.
+The <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicesxsconfig-sxsdirectory">SxsDirectory</a> method must be called if a new side-by-side assembly domain is created using a call to this method.
 
 
 
@@ -86,7 +86,7 @@ The <a href="https://msdn.microsoft.com/5eb909a5-7730-4f0b-aee6-9bb8de076cea">Sx
 
 
 
-<a href="https://msdn.microsoft.com/24d4a22b-0a01-4bf2-9cc6-4a1b31897d05">IServiceSxsConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicesxsconfig">IServiceSxsConfig</a>
  
 
  

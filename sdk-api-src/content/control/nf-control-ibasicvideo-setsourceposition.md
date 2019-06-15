@@ -94,7 +94,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/en-us/library/Dd389595(v=VS.85).aspx">IBasicVideo::put_SourceLeft</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389596(v=VS.85).aspx">IBasicVideo::put_SourceTop</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389597(v=VS.85).aspx">IBasicVideo::put_SourceWidth</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389594(v=VS.85).aspx">IBasicVideo::put_SourceHeight</a> methods.
+This method has the same effect as individually calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_sourceleft">IBasicVideo::put_SourceLeft</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_sourcetop">IBasicVideo::put_SourceTop</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_sourcewidth">IBasicVideo::put_SourceWidth</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicvideo-put_sourceheight">IBasicVideo::put_SourceHeight</a> methods.
 
 Setting this coordinate does not affect the destination rectangle height.
 
@@ -106,11 +106,11 @@ Setting this coordinate does not affect the destination rectangle height.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
  
 
  

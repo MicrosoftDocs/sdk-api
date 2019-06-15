@@ -60,9 +60,9 @@ Bind information about the primitive type, and data order that describes input d
 
 ### -param Topology [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ca0547b2-d0f8-4edc-a62c-3c903e1b33ea">D3D11_PRIMITIVE_TOPOLOGY</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)">D3D11_PRIMITIVE_TOPOLOGY</a></b>
 
-The type of primitive and ordering of the primitive data (see <a href="https://msdn.microsoft.com/ca0547b2-d0f8-4edc-a62c-3c903e1b33ea">D3D11_PRIMITIVE_TOPOLOGY</a>).
+The type of primitive and ordering of the primitive data (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff476189(v=vs.85)">D3D11_PRIMITIVE_TOPOLOGY</a>).
           
 
 
@@ -91,7 +91,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
 
  

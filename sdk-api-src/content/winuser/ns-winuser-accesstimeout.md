@@ -70,14 +70,14 @@ The accessibility features affected by the time-out are
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of this structure.
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A set of bit flags that specify properties of the time-out behavior for accessibility features. The following values are defined.
 
@@ -115,7 +115,7 @@ If this flag is set, a time-out period has been set for accessibility features. 
 
 ### -field iTimeOutMSec
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the time-out period, in milliseconds.
 
@@ -124,7 +124,7 @@ Specifies the time-out period, in milliseconds.
 
 
 
-Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETACCESSTIMEOUT</b> or <b>SPI_SETACCESSTIMEOUT</b> value. When using <b>SPI_GETACCESSTIMEOUT</b>, you must specify the <b>cbSize</b> member of the <b>ACCESSTIMEOUT</b> structure; the <b>SystemParametersInfo</b> function fills in the remaining members. Specify all structure members when using the <b>SPI_SETACCESSTIMEOUT</b> value.
+Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to the <b>SPI_GETACCESSTIMEOUT</b> or <b>SPI_SETACCESSTIMEOUT</b> value. When using <b>SPI_GETACCESSTIMEOUT</b>, you must specify the <b>cbSize</b> member of the <b>ACCESSTIMEOUT</b> structure; the <b>SystemParametersInfo</b> function fills in the remaining members. Specify all structure members when using the <b>SPI_SETACCESSTIMEOUT</b> value.
 
 
 
@@ -134,11 +134,11 @@ Use an <b>ACCESSTIMEOUT</b> structure when calling the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/0ff480ae-18e3-413d-b208-a67fbae28c25">Accessibility Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
  
 
  

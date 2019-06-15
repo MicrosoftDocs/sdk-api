@@ -103,7 +103,7 @@ Cancel the operation as soon as possible.
 
 
 
-<a href="https://msdn.microsoft.com/55c960be-48e3-42e1-b459-49227be62171">IContinueCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>
  
 
  

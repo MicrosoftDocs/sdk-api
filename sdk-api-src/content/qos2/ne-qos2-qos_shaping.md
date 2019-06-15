@@ -77,11 +77,11 @@ Indicates that the flow rate requested will not be enforced.  Data packets that 
 
 
 
-<a href="https://msdn.microsoft.com/6f0408fa-842c-4c6c-954b-cdc8a77b4bd3">QOS_FLOWRATE_OUTGOING</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/ns-qos2-_qos_flowrate_outgoing">QOS_FLOWRATE_OUTGOING</a>
 
 
 
-<a href="https://msdn.microsoft.com/022fde13-415e-49aa-8df4-472c4eadd6a0">Quality Windows Audio/Video Experience (qWAVE)</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
  
 
  

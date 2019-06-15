@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Returns the "Endpoints" defined within the metadata object documents.
-            Calling this function with <a href="https://msdn.microsoft.com/4d2b8c31-d5ff-4b96-9aaf-57e59d075431">WS_METADATA_STATE</a>set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
+            Calling this function with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_metadata_state">WS_METADATA_STATE</a>set to <b>WS_METADATA_STATE_CREATED</b> will cause the metadata object to resolve
                 all references in the metadata documents. Any
                 additional document validation will also be done.  If this process is
                 successful  the metadata object will be set to <b>WS_METADATA_STATE_RESOLVED</b> and  subsequent document additions to the metadata object are not permitted.   If there is an error the metadata object 
@@ -68,7 +68,7 @@ Returns the "Endpoints" defined within the metadata object documents.
 
 ### -param metadata [in]
 
-A pointer to a <b>Metadata</b> object containing the desired Endpoints.  This parameter must be a valid <a href="https://msdn.microsoft.com/aa7383a1-60fa-448a-b0c6-b9c49d9d5070">WS_METADATA</a> object.  
+A pointer to a <b>Metadata</b> object containing the desired Endpoints.  This parameter must be a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-metadata">WS_METADATA</a> object.  
 
 
 ### -param endpoints [out]
@@ -81,7 +81,7 @@ On success this pointer parameter
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -143,7 +143,7 @@ This property may be used in <b>WS_METADATA_STATE_CREATED</b>or <b>WS_METADATA_S
             
 
 This function will fail if there are missing metadata documents.
-                Use <a href="https://msdn.microsoft.com/7854fb44-c397-4fd0-8a0e-ea293eba4f01">WsGetMissingMetadataDocumentAddress</a> to determine
+                Use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetmissingmetadatadocumentaddress">WsGetMissingMetadataDocumentAddress</a> to determine
                 the address of any missing documents.
             
 

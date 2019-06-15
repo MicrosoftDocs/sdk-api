@@ -64,7 +64,7 @@ The node ID of the clone.
 
 ### -field Status
 
-A <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration value that specifies the status of the clone.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration value that specifies the status of the clone.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ A <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/141629A8-95B3-409C-8165-D3AF055C41EB">CLUS_DNN_LEADER_STATUS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_dnn_leader_status">CLUS_DNN_LEADER_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
  
 
  

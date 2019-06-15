@@ -60,13 +60,13 @@ Gets an output trust authority (OTA), specified by index.
 
 ### -param dwIndex [in]
 
-Zero-based index of the OTA to retrieve. To get the number of OTAs provided by this object, call <a href="https://msdn.microsoft.com/3aae6859-0b32-4705-9045-b98d0bbf43a6">IMFTrustedOutput::GetOutputTrustAuthorityCount</a>.
+Zero-based index of the OTA to retrieve. To get the number of OTAs provided by this object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftrustedoutput-getoutputtrustauthoritycount">IMFTrustedOutput::GetOutputTrustAuthorityCount</a>.
           
 
 
 ### -param ppauthority [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/21594ac0-7e3c-44a3-bbee-64316dd51824">IMFOutputTrustAuthority</a> interface of the OTA. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority">IMFOutputTrustAuthority</a> interface of the OTA. The caller must release the interface.
           
 
 
@@ -84,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/14342d8b-3c76-4c13-8cbe-a60bb66084c8">IMFTrustedOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrustedoutput">IMFTrustedOutput</a>
  
 
  

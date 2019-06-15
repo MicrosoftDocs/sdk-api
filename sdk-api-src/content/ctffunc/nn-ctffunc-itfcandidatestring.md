@@ -53,12 +53,12 @@ The <b>ITfCandidateString</b> interface is implemented by a text service and is 
 
 The TSF manager implements this interface to provide access to this interface to other clients. This enables the TSF manager to function as a mediator between the client and the text service.
 
-To obtain an instance of this interface, the TSF manager or client can call <a href="https://msdn.microsoft.com/4cb2127c-cce5-4815-b40b-e6e15058eab5">ITfCandidateList::GetCandidate</a>.
+To obtain an instance of this interface, the TSF manager or client can call <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-getcandidate">ITfCandidateList::GetCandidate</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateString</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCandidateString</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCandidateString</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITfCandidateString</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16ec9a89-db57-41ad-9e32-db0b24abda13">GetIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getindex">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Obtains the index of the candidate string object within the candidate list.
@@ -82,7 +82,7 @@ Obtains the index of the candidate string object within the candidate list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/157dc848-858c-462f-8e41-78d6bfe20705">GetString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatestring-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Obtains the text of the candidate string object.

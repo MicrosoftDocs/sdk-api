@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761635(v=VS.85).aspx">EM_SCROLL</a> message explicitly.
+Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-scroll">EM_SCROLL</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Scrolls the text vertically in a multiline edit or rich edit control. You can us
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -82,7 +82,7 @@ The amount to scroll horizontally.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761635(v=VS.85).aspx">EM_SCROLL</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-scroll">EM_SCROLL</a>.
 
 
 

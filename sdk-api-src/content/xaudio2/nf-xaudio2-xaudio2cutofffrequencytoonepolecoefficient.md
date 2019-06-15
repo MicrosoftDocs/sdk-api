@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-Inline function that converts from filter cutoff frequencies expressed in hertz to the filter coefficients used with the <b>Frequency</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Inline function that converts from filter cutoff frequencies expressed in hertz to the filter coefficients used with the <b>Frequency</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
-This function applies to LowPassOnePoleFilter and HighPassOnePole filter types only, use <a href="https://msdn.microsoft.com/en-us/library/Ee419215(v=VS.85).aspx">XAudio2CutoffFrequencyToRadians</a> for state-variable filter types.
+This function applies to LowPassOnePoleFilter and HighPassOnePole filter types only, use <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2cutofffrequencytoradians">XAudio2CutoffFrequencyToRadians</a> for state-variable filter types.
 
 
 
@@ -68,14 +68,14 @@ The cutoff frequency in hertz. Frequencies greater than <i>SampleRate</i> are cl
 
 ### -param SampleRate
 
-The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+The sample rate of the audio data affected by the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 ## -returns
 
 
 
-Returns a filter coefficient for use in the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Returns a filter coefficient for use in the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_filter_parameters">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 
@@ -105,7 +105,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">XAudio::Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio::Functions</a>
  
 
  

@@ -103,5 +103,5 @@ Number of tiers that fit in the output.
 ### -field Tiers
 
 
-<a href="https://msdn.microsoft.com/F9701D3B-57B3-4777-841C-3D45A2CEC17E">FILE_STORAGE_TIER</a> structure that contains detailed info on the storage tiers.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_storage_tier">FILE_STORAGE_TIER</a> structure that contains detailed info on the storage tiers.
 

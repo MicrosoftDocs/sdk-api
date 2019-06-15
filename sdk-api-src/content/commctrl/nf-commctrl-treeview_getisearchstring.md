@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773592(v=VS.85).aspx">TVM_GETISEARCHSTRING</a> message explicitly. 
+Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getisearchstring">TVM_GETISEARCHSTRING</a> message explicitly. 
 
 
 ## -parameters
@@ -59,14 +59,14 @@ Retrieves the incremental search string for a tree-view control. The tree-view c
 
 ### -param hwndTV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
 
 ### -param lpsz
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Pointer to the buffer that receives the incremental search string. 
 
@@ -75,7 +75,7 @@ Pointer to the buffer that receives the incremental search string.
 
 
 
-<b>Security Warning:  </b>Using this macro incorrectly might compromise the security of your program. You must allocate a large enough buffer to hold the string. First call the macro passing <b>NULL</b> in <i>lpsz</i>. This returns the number of characters, excluding <b>NULL</b>, that are required. Then call the macro a second time to retrieve the string.  You should review <a href="https://msdn.microsoft.com/en-us/library/Bb773171(v=VS.85).aspx">Security Considerations: Microsoft Windows Controls</a> before continuing.
+<b>Security Warning:  </b>Using this macro incorrectly might compromise the security of your program. You must allocate a large enough buffer to hold the string. First call the macro passing <b>NULL</b> in <i>lpsz</i>. This returns the number of characters, excluding <b>NULL</b>, that are required. Then call the macro a second time to retrieve the string.  You should review <a href="https://docs.microsoft.com/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
 If the tree-view control is not in incremental search mode, the return value is zero. 
 

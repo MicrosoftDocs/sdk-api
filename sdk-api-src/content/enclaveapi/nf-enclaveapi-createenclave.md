@@ -79,7 +79,7 @@ The size of the enclave that you want to create, including the size of the code 
 
 The amount of memory to commit for the enclave, in bytes.
 
-If the amount of enclave memory available is not sufficient to commit this number of bytes, enclave creation fails. Any memory that remains unused when you initialize the enclave by calling <a href="https://msdn.microsoft.com/6A711135-A522-40AE-965F-E1AF97D0076A">InitializeEnclave</a> is returned to the list of free pages.
+If the amount of enclave memory available is not sufficient to commit this number of bytes, enclave creation fails. Any memory that remains unused when you initialize the enclave by calling <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a> is returned to the list of free pages.
 
 The value of the <i>dwInitialCommittment</i> parameter must not exceed the value of the <i>dwSize</i> parameter.
 
@@ -88,7 +88,7 @@ This parameter is not used for virtualization-based security (VBS) enclaves.
 
 ### -param flEnclaveType [in]
 
-The architecture type of the enclave that you want to create. To verify that an enclave type is supported, call <a href="https://msdn.microsoft.com/E46AF02B-324F-43A8-8C73-9FE1E8E771E9">IsEnclaveTypeSupported</a>.
+The architecture type of the enclave that you want to create. To verify that an enclave type is supported, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-isenclavetypesupported">IsEnclaveTypeSupported</a>.
 
 <table>
 <tr>
@@ -125,9 +125,9 @@ A  VBS enclave.
 
 A pointer to the architecture-specific information to use to create the enclave. 
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, you must specify a pointer to an <a href="https://msdn.microsoft.com/51ED6E75-DA18-4CCE-8718-46328DD62B07">ENCLAVE_CREATE_INFO_SGX</a> structure.
+For the <b>ENCLAVE_TYPE_SGX</b> enclave type, you must specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a> structure.
 
-For the <b>ENCLAVE_TYPE_VBS</b> enclave type, you must specify a pointer to an <a href="https://msdn.microsoft.com/5AD6D695-92D6-47AC-A43C-D3A37D28C76C">ENCLAVE_CREATE_INFO_VBS</a> structure.
+For the <b>ENCLAVE_TYPE_VBS</b> enclave type, you must specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a> structure.
 
 
 ### -param dwInfoLength [in]
@@ -147,9 +147,9 @@ An optional pointer to  a variable that receives an enclave error code that is a
 If the function succeeds, the return value is the base address of the created enclave.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
+       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
-For a list of common error codes, see <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
 
 <table>
 <tr>
@@ -188,11 +188,11 @@ The value of the <i>dwInfoLength</i> parameter did not match the value expected 
 
 
 
-To load data into an enclave after you create it, call <a href="https://msdn.microsoft.com/CC696026-FB74-4D91-BB40-17610DF41F8F">LoadEnclaveData</a>. To initialize the enclave after you load the data, call <a href="https://msdn.microsoft.com/6A711135-A522-40AE-965F-E1AF97D0076A">InitializeEnclave</a>.
+To load data into an enclave after you create it, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata">LoadEnclaveData</a>. To initialize the enclave after you load the data, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>.
 
-<b>Windows 10, version 1709:  </b>To delete the enclave when you finish using it, call <a href="https://msdn.microsoft.com/04FCD129-3A3B-40EA-AD62-01C674CF2E61">DeleteEnclave</a>. You cannot delete a VBS enclave by calling the <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> or <a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a> function. You can still delete an SGX enclave by calling <b>VirtualFree</b> or <b>VirtualFreeEx</b>.
+<b>Windows 10, version 1709:  </b>To delete the enclave when you finish using it, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-deleteenclave">DeleteEnclave</a>. You cannot delete a VBS enclave by calling the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> or <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function. You can still delete an SGX enclave by calling <b>VirtualFree</b> or <b>VirtualFreeEx</b>.
 
-<b>Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:  </b>To delete the enclave when you finish using it, call the <a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a> or <a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a> function and specify the following values:
+<b>Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:  </b>To delete the enclave when you finish using it, call the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> or <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function and specify the following values:
 
 <ul>
 <li>The base address of the enclave for the <i>lpAddress</i> parameter.</li>
@@ -211,31 +211,31 @@ For information about the Intel Software Guard Extensions (SGX) architecture ext
 
 
 
-<a href="https://msdn.microsoft.com/51ED6E75-DA18-4CCE-8718-46328DD62B07">ENCLAVE_CREATE_INFO_SGX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_sgx">ENCLAVE_CREATE_INFO_SGX</a>
 
 
 
-<a href="https://msdn.microsoft.com/5AD6D695-92D6-47AC-A43C-D3A37D28C76C">ENCLAVE_CREATE_INFO_VBS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_enclave_create_info_vbs">ENCLAVE_CREATE_INFO_VBS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6A711135-A522-40AE-965F-E1AF97D0076A">InitializeEnclave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
 
 
 
-<a href="https://msdn.microsoft.com/E46AF02B-324F-43A8-8C73-9FE1E8E771E9">IsEnclaveTypeSupported</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-isenclavetypesupported">IsEnclaveTypeSupported</a>
 
 
 
-<a href="https://msdn.microsoft.com/CC696026-FB74-4D91-BB40-17610DF41F8F">LoadEnclaveData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata">LoadEnclaveData</a>
 
 
 
-<a href="https://msdn.microsoft.com/d6f27be8-8929-4a4d-b52c-fa99044ca243">VirtualFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e5c862c-1251-49da-9c3a-90b09e488d89">VirtualFreeEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
  
 
  

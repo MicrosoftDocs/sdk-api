@@ -174,11 +174,11 @@ C:\Documents and Settings\shauniv\My Documents\My Pictures\2003-11-14, Meghan's 
 
 
 
-<a href="https://msdn.microsoft.com/ca36e3f9-74ad-4704-adeb-d3102668da30">GetOutputFilenameTemplate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getoutputfilenametemplate">GetOutputFilenameTemplate</a>
 
 
 
-<a href="https://msdn.microsoft.com/c86d0c97-f9ef-4a73-865b-8aea7972193b">IPhotoAcquireSettings Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
  
 
  

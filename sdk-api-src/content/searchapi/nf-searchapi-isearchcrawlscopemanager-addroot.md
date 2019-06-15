@@ -60,9 +60,9 @@ Adds a new search root to the search engine.
 
 ### -param pSearchRoot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchroot">ISearchRoot</a>*</b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> describing the new search root to add.
+An <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchroot">ISearchRoot</a> describing the new search root to add.
                 
 
 

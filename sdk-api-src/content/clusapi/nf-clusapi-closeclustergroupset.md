@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Closes a groupset handle returned from <a href="https://msdn.microsoft.com/8a5b944b-53c2-4437-b580-6ad603d0011a">OpenClusterGroupSet</a>.
+Closes a groupset handle returned from <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroupset">OpenClusterGroupSet</a>.
 
 
 ## -parameters
@@ -89,7 +89,7 @@ The operation was successful.
 </dl>
 </td>
 <td width="60%">
-The operation was not successful. For more information about the error, call the function  <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+The operation was not successful. For more information about the error, call the function  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>

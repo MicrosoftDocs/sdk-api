@@ -60,7 +60,7 @@ Disconnects the network connection of an active shell and its associated command
 ### -param shell [in, out]
 
 Specifies the handle returned by a call to the 
-      <a href="https://msdn.microsoft.com/901c0a2d-d25f-451c-8d6c-83662f1f1061">WSManCreateShell</a> function. This parameter cannot 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> function. This parameter cannot 
       be <b>NULL</b>.
 
 
@@ -73,7 +73,7 @@ Can be a <b>WSMAN_FLAG_SERVER_BUFFERING_MODE_DROP</b> flag or a
 ### -param disconnectInfo [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/CFC855E8-25C9-45A1-8D59-55AD5D4A75F3">WSMAN_SHELL_DISCONNECT_INFO</a> structure 
+      <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_shell_disconnect_info">WSMAN_SHELL_DISCONNECT_INFO</a> structure 
       that specifies an idle time-out that the server session may enforce. If this parameter is 
       <b>NULL</b>, the server session idle time-out will not be changed.
 
@@ -81,7 +81,7 @@ A pointer to a
 ### -param async [in]
 
 Defines an asynchronous structure to contain an optional user context and a mandatory callback function. 
-      For more information, see <a href="https://msdn.microsoft.com/9391e1a8-7048-49b8-9dc4-1da25b190238">WSMAN_SHELL_ASYNC</a>. This 
+      For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_shell_async">WSMAN_SHELL_ASYNC</a>. This 
       parameter cannot be <b>NULL</b>.
 
 
@@ -99,9 +99,9 @@ This function does not return a value.
 
 
 This function suspends network connection to an actively connected server session. Any operations performed on 
-    the shell instance, like <a href="https://msdn.microsoft.com/8f5c89f8-418c-4a4d-9a52-0fc01ec636b2">WSManRunShellCommand</a>, 
-    <a href="https://msdn.microsoft.com/2336671e-0f60-407f-86a2-9918bbf7f66b">WSManSendShellInput</a>, or 
-    <a href="https://msdn.microsoft.com/9954097d-3e27-4f56-bf8c-3d9aba5c19b5">WSManSignalShell</a>, are bound to complete before 
+    the shell instance, like <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanrunshellcommand">WSManRunShellCommand</a>, 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansendshellinput">WSManSendShellInput</a>, or 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmansignalshell">WSManSignalShell</a>, are bound to complete before 
     disconnection. This ensures that any data sent through 
     <b>WSManSendShellInput</b> is received by the server 
     session before the shell disconnects. The client can optionally modify the server buffering mode by using flags. 

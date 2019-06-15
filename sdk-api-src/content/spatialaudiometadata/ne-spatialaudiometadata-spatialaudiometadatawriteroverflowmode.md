@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the desired behavior when an <a href="https://msdn.microsoft.com/F8CD8B79-9442-46D0-ABF5-5F6734474B01">ISpatialAudioMetadataWriter</a> attempts to write more items into the metadata buffer than was specified when the client was initialized.
+Specifies the desired behavior when an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a> attempts to write more items into the metadata buffer than was specified when the client was initialized.
 
 
 ## -enum-fields

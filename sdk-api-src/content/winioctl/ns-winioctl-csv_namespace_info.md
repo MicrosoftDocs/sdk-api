@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains the output for the <a href="https://msdn.microsoft.com/E2AB8999-7EF5-4F57-BCFB-79FBECE2E998">FSCTL_IS_CSV_FILE</a> 
+Contains the output for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file">FSCTL_IS_CSV_FILE</a> 
     control code that retrieves namespace information for a file.
 
 
@@ -100,11 +100,11 @@ The sector size of the disk.
 
 
 
-<a href="https://msdn.microsoft.com/E2AB8999-7EF5-4F57-BCFB-79FBECE2E998">FSCTL_IS_CSV_FILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file">FSCTL_IS_CSV_FILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/bbde9dfb-c205-4432-be71-250d73b881f1">Volume Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
  
 
  

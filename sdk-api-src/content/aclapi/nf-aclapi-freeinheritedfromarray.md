@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>FreeInheritedFromArray</b> function frees memory allocated by the 
-<a href="https://msdn.microsoft.com/ccc1702b-e414-4831-ae8b-fd92499bec94">GetInheritanceSource</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a> function.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>FreeInheritedFromArray</b> function frees memory allocated by the
 
 ### -param pInheritArray [in]
 
-A pointer to the array of <a href="https://msdn.microsoft.com/6839f67a-6c72-406d-b55e-bc366aaad107">INHERITED_FROM</a> structures returned by <a href="https://msdn.microsoft.com/ccc1702b-e414-4831-ae8b-fd92499bec94">GetInheritanceSource</a>.
+A pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-_inherited_froma">INHERITED_FROM</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>.
 
 
 ### -param AceCnt [in]
@@ -89,7 +89,7 @@ If the function fails, it returns a nonzero error code defined in WinError.h.
 
 
 
-<a href="https://msdn.microsoft.com/ccc1702b-e414-4831-ae8b-fd92499bec94">GetInheritanceSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>
  
 
  

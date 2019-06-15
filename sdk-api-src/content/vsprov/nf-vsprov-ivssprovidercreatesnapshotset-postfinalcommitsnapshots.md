@@ -52,8 +52,8 @@ ms.custom: 19H1
 The 
    <b>PostFinalCommitSnapshots</b> 
    method supports 
-   <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> shadow 
-   copies. VSS calls this method to notify the provider that the volume will now be read-only until a requester calls <a href="https://msdn.microsoft.com/8c366f19-b10f-46cd-b5dc-cc3c77c5a008">IVssBackupComponents::BreakSnapshotSet</a>.
+   <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> shadow 
+   copies. VSS calls this method to notify the provider that the volume will now be read-only until a requester calls <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset">IVssBackupComponents::BreakSnapshotSet</a>.
 
 
 ## -parameters
@@ -138,7 +138,7 @@ If any other value is returned, VSS will write an event to the event log and con
 
 
 This method was added in Windows Server 2003 to enable binary compatibility when the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> feature was 
+    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-a">auto-recover</a> feature was 
     introduced in Windows Server 2003 with Service Pack 1 (SP1).
 
 <div class="alert"><b>Note</b>  For Windows Server 2003, it is recommended that hardware providers implement this method using 
@@ -164,7 +164,7 @@ HRESULT PostFinalCommitSnapshots(
 
 
 
-<a href="https://msdn.microsoft.com/41a795f0-7882-47a3-9226-aa50218a56e9">IVssProviderCreateSnapshotSet</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
  
 
  

@@ -68,7 +68,7 @@ The <b>DdVideoPortGetField</b> callback function determines whether the current 
 
 #### - lpGetField
 
-Points to a <a href="https://msdn.microsoft.com/549956f8-c39f-4cc3-b72a-b1e3785463e8">DD_GETVPORTFIELDDATA</a> structure that contains the information required for the driver to determine whether the current field is even or odd.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportfielddata">DD_GETVPORTFIELDDATA</a> structure that contains the information required for the driver to determine whether the current field is even or odd.
 
 
 ## -returns
@@ -84,7 +84,7 @@ Points to a <a href="https://msdn.microsoft.com/549956f8-c39f-4cc3-b72a-b1e37854
 
 
 
-DirectDraw drivers that set the DDVPCAPS_READBACKFIELD flag in the <b>dwCaps</b> member of the <a href="https://msdn.microsoft.com/ea85f189-7308-48ad-b159-1809749f8183">DDVIDEOPORTCAPS</a> structure must implement <b>DdVideoPortGetField</b>.
+DirectDraw drivers that set the DDVPCAPS_READBACKFIELD flag in the <b>dwCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportcaps">DDVIDEOPORTCAPS</a> structure must implement <b>DdVideoPortGetField</b>.
 
 The driver should determine whether the current field is even or odd and write <b>TRUE</b> or <b>FALSE</b> in the <b>bField</b> member of the DD_GETVPORTFIELDDATA structure at <b>lpGetField</b>, accordingly. If the query cannot be performed because the hardware video port is disabled, the driver should return DDHAL_DRIVER_HANDLED and set DDERR_VIDEONOTACTIVE in the <b>ddRVal</b> member of DD_GETVPORTFIELDDATA.
 
@@ -96,11 +96,11 @@ The driver should determine whether the current field is even or odd and write <
 
 
 
-<a href="https://msdn.microsoft.com/ea85f189-7308-48ad-b159-1809749f8183">DDVIDEOPORTCAPS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportcaps">DDVIDEOPORTCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/549956f8-c39f-4cc3-b72a-b1e3785463e8">DD_GETVPORTFIELDDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getvportfielddata">DD_GETVPORTFIELDDATA</a>
  
 
  

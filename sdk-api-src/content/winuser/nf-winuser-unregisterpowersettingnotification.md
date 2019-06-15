@@ -62,7 +62,7 @@ Unregisters the power setting notification.
 
 ### -param Handle [in]
 
-The handle returned from the <a href="https://msdn.microsoft.com/e072222e-da66-4b36-a38f-f4b618eaa391">RegisterPowerSettingNotification</a> function.
+The handle returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpowersettingnotification">RegisterPowerSettingNotification</a> function.
 
 
 ## -returns
@@ -72,7 +72,7 @@ The handle returned from the <a href="https://msdn.microsoft.com/e072222e-da66-4
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -82,11 +82,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/eae96a9e-ced2-4e13-b250-33c5acbbae48">Power Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e072222e-da66-4b36-a38f-f4b618eaa391">RegisterPowerSettingNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerpowersettingnotification">RegisterPowerSettingNotification</a>
  
 
  

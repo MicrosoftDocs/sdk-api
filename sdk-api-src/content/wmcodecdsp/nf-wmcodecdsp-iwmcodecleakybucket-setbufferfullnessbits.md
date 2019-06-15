@@ -75,11 +75,11 @@ This method always returns E_NOTIMPL.
 
 
 
-<a href="https://msdn.microsoft.com/93a0169e-39fe-4152-8698-72a0650be41a">IWMCodecLeakyBucket Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecleakybucket">IWMCodecLeakyBucket Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/46eee8c9-e10e-41e3-9400-051b4484eee0">IWMCodecLeakyBucket::GetBufferFullnessBits</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbufferfullnessbits">IWMCodecLeakyBucket::GetBufferFullnessBits</a>
  
 
  

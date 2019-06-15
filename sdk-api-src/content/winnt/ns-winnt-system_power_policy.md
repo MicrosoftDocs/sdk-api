@@ -65,25 +65,25 @@ The current structure revision.
 ### -field PowerButton
 
 A 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system power button is pressed.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system power button is pressed.
 
 
 ### -field SleepButton
 
 A 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system sleep button is pressed.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system sleep button is pressed.
 
 
 ### -field LidClose
 
 A 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system lid switch is closed.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system lid switch is closed.
 
 
 ### -field LidOpenWake
 
 The maximum power state (highest Sx value) from which a lid-open event should wake the system. This member must be one of the 
-<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field Reserved
@@ -94,7 +94,7 @@ Reserved.
 ### -field Idle
 
 A 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system idle timer expires.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate when the system idle timer expires.
 
 
 ### -field IdleTimeout
@@ -110,7 +110,7 @@ The level of system activity that defines the threshold for idle detection, expr
 ### -field DynamicThrottle
 
 The current system processor dynamic throttling policy. This member must be one of the values described in 
-<a href="https://msdn.microsoft.com/928ba485-f767-47df-8b57-7630c68068a7">Processor Performance Control Policy Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Power/processor-performance-control-policy-constants">Processor Performance Control Policy Constants</a>.
 
 
 ### -field Spare2
@@ -121,20 +121,20 @@ Reserved.
 ### -field MinSleep
 
 The minimum system sleep state (lowest Sx value) currently supported. This member must be one of the 
-<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field MaxSleep
 
 The maximum system sleep state (highest Sx value) currently supported. This member must be one of the 
-<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values.
 
 
 ### -field ReducedLatencySleep
 
 The system power state (Sx value) to enter on a system sleep action when there are outstanding latency requirements. This member must be one of the 
-<a href="https://msdn.microsoft.com/57436a4b-0d18-4f7e-8dc0-fc5e68b44e7d">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
-<a href="https://msdn.microsoft.com/f30fdfb6-dc7e-47fd-93ad-36655e65d0ae">RequestWakeupLatency</a> with LT_LOWEST_LATENCY, <b>ReducedLatencySleep</b> will be used in place of <b>MaxSleep</b>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type values. If an application calls 
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-requestwakeuplatency">RequestWakeupLatency</a> with LT_LOWEST_LATENCY, <b>ReducedLatencySleep</b> will be used in place of <b>MaxSleep</b>.
 
 
 ### -field WinLogonFlags
@@ -164,7 +164,7 @@ The resolution of change in current battery capacity that should cause the syste
 ### -field DischargePolicy
 
 An array of 
-<a href="https://msdn.microsoft.com/4efa847d-92da-4cf7-95c2-c329de1691f4">SYSTEM_POWER_LEVEL</a> structures that defines the actions to take at system battery discharge events.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_level">SYSTEM_POWER_LEVEL</a> structures that defines the actions to take at system battery discharge events.
 
 
 ### -field VideoTimeout
@@ -210,7 +210,7 @@ The minimum processor throttle level, expressed as a percentage.
 ### -field OverThrottled
 
 A 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate in response to a thermal event when processor throttling is unable to adequately reduce the system temperature.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a> structure that defines the system power action to initiate in response to a thermal event when processor throttling is unable to adequately reduce the system temperature.
 
 
 ## -see-also
@@ -218,15 +218,15 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/adc0052d-e2dd-4c55-996c-6af8f5987d79">CallNtPowerInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/70739f46-54be-4748-8993-ffee3b2a8b6c">POWER_ACTION_POLICY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a>
 
 
 
-<a href="https://msdn.microsoft.com/4efa847d-92da-4cf7-95c2-c329de1691f4">SYSTEM_POWER_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_power_level">SYSTEM_POWER_LEVEL</a>
  
 
  

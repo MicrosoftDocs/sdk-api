@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Registers an event handler for the <a href="https://msdn.microsoft.com/863CA879-A420-43D6-9AC8-94F8303BB759">RenderingParametersUpdate</a> event.
+Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/renderingparametersupdate">RenderingParametersUpdate</a> event.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Registers an event handler for the <a href="https://msdn.microsoft.com/863CA879-
 
 ### -param handler [in]
 
-A <a href="https://msdn.microsoft.com/e5e1659b-5b4b-4882-be89-4dc05c56d9f2">RenderingParametersUpdateHandler</a> event handler function.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828994(v=vs.85)">RenderingParametersUpdateHandler</a> event handler function.
 
 
 ### -param token [out, retval]
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://msdn.microsoft.com/5642D180-7FE8-4058-B346-109D5C5817F6">remove_RenderingParametersUpdate</a> method.
+To unregister the event handler that was registered by this method, pass the <i>token</i> value to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828940(v=vs.85)">remove_RenderingParametersUpdate</a> method.
 
 
 
@@ -109,7 +109,7 @@ To unregister the event handler that was registered by this method, pass the <i>
 
 
 
-<a href="https://msdn.microsoft.com/FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB">IMediaRenderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
  
 
  

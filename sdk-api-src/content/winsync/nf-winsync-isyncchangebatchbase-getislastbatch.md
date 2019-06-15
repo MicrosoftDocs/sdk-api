@@ -107,7 +107,7 @@ The method succeeded.
 
 
 
-When returning a change batch in response to the <a href="https://msdn.microsoft.com/165eb8eb-092c-4084-a296-abc2421596d5">IKnowledgeSyncProvider::GetChangeBatch</a> method, the source provider must call <a href="https://msdn.microsoft.com/7619b446-5c71-4533-8af6-15f06dda3c87">SetLastBatch</a> if the change batch is the last batch of changes. 
+When returning a change batch in response to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getchangebatch">IKnowledgeSyncProvider::GetChangeBatch</a> method, the source provider must call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-setlastbatch">SetLastBatch</a> if the change batch is the last batch of changes. 
 
 
 
@@ -117,7 +117,7 @@ When returning a change batch in response to the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/14ca01a1-04eb-4282-adf0-e775d6ff0801">ISyncChangeBatchBase Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
  
 
  

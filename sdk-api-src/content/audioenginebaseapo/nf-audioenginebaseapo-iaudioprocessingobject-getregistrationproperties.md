@@ -60,7 +60,7 @@ GetRegistrationProperties returns the registration properties of the audio proce
 
 ### -param ppRegProps [out]
 
-The registration properties of the APO. This parameter is of type <a href="https://msdn.microsoft.com/466215E5-5345-4570-A29B-086562882F5D">APO_REG_PROPERTIES</a>.
+The registration properties of the APO. This parameter is of type <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apo_reg_properties">APO_REG_PROPERTIES</a>.
 
 
 ## -returns
@@ -92,7 +92,7 @@ The caller must free the memory returned by <code>GetRegistrationProperties</cod
 
 
 
-<a href="https://msdn.microsoft.com/71be0151-20dd-40e3-a478-d67e4d8d9c36">IAudioProcessingObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
  
 
  

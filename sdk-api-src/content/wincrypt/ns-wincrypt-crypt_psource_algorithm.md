@@ -59,7 +59,7 @@ The <b>CRYPT_PSOURCE_ALGORITHM</b> structure identifies the algorithm and (optio
 
 ### -field pszObjId
 
-The address of a null-terminated ANSI string that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the algorithm. This can be the following value or any other mask generation function OID.
+The address of a null-terminated ANSI string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the algorithm. This can be the following value or any other mask generation function OID.
 
 <table>
 <tr>
@@ -83,7 +83,7 @@ The RSAES-OAEP label function.
 
 ### -field EncodingParameters
 
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> that contains the label. This member is optional and may contain an empty BLOB.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that contains the label. This member is optional and may contain an empty BLOB.
 
 
 ## -see-also
@@ -91,7 +91,7 @@ A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYP
 
 
 
-<a href="https://msdn.microsoft.com/ebcd25a2-2547-4949-85fd-be5f6c5bfcd2">CRYPT_RSAES_OAEP_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_rsaes_oaep_parameters">CRYPT_RSAES_OAEP_PARAMETERS</a>
  
 
  

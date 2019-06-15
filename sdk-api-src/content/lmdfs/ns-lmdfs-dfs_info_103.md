@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains properties that set specific behaviors for a DFS root or link. This structure can 
-    only be used with the <a href="https://msdn.microsoft.com/5526afa7-82bc-47c7-99d6-44e41ef772b1">NetDfsSetInfo</a> function.
+    only be used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> function.
 
 
 ## -struct-fields
@@ -104,7 +104,7 @@ If this flag is not enabled, the default return is two sets: one set of targets 
 
 Target priorities can further influence target ordering. For more information on how site-costing is used 
          to prioritize targets, see 
-         <a href="https://msdn.microsoft.com/0aacebf7-49cc-4287-a5c4-0d25a416d227">DFS Server Target Prioritization</a>.
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
 
 
 
@@ -121,7 +121,7 @@ Set this flag to enable V4 DFS clients to fail back to a more optimal (lower cos
 #### DFS_PROPERTY_FLAG_CLUSTER_ENABLED (0x00000010)
 
 If this flag is set, the DFS root is clustered to provide high availability for storage failover. This 
-        flag cannot be set using the <a href="https://msdn.microsoft.com/5526afa7-82bc-47c7-99d6-44e41ef772b1">NetDfsSetInfo</a> function 
+        flag cannot be set using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a> function 
         and applies only to stand-alone DFS roots and links.
 
 
@@ -133,8 +133,8 @@ Scope: Domain-based DFS roots and stand-alone DFS roots.
 When this flag is set, Access-Based Directory Enumeration (ABDE) mode support is enabled on the entire DFS 
          root target share of the DFS namespace. This flag is valid only for DFS namespaces for which the 
          <b>DFS_NAMESPACE_CAPABILITY_ABDE</b> capability flag is set. For more information, see 
-         <a href="https://msdn.microsoft.com/1af2866c-fe83-43fc-b4cc-9976157fb269">DFS_INFO_50</a> and 
-         <a href="https://msdn.microsoft.com/ee75c500-70c6-4dce-9d38-36cacd695746">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_info_50">DFS_INFO_50</a> and 
+         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/ns-lmdfs-_dfs_supported_namespace_version_info">DFS_SUPPORTED_NAMESPACE_VERSION_INFO</a>.
 
 The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root and not 
          on root targets, links, or link targets. This flag must be enabled to associate a security descriptor with a 
@@ -146,23 +146,23 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
 
 
 
-<a href="https://msdn.microsoft.com/0aacebf7-49cc-4287-a5c4-0d25a416d227">DFS Server Target Prioritization</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
 
 
 
-<a href="https://msdn.microsoft.com/a29cde3e-483a-4658-94d4-27398f66abfb">Distributed File System (DFS) Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/5526afa7-82bc-47c7-99d6-44e41ef772b1">NetDfsSetInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
  
 
  

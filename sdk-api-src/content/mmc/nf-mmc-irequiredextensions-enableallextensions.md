@@ -73,7 +73,7 @@ This method can return one of these values.
 
 
 If this method returns S_OK, MMC adds all registered extensions. If any other value is returned, MMC calls 
-<a href="https://msdn.microsoft.com/1c84d6ab-c855-4b89-8e36-0794e3ffdb85">IRequiredExtensions::GetFirstExtension</a> to attempt to add the first required extension of the snap-in's list of required extensions.
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a> to attempt to add the first required extension of the snap-in's list of required extensions.
 
 If one of the required extensions can't be loaded, MMC skips it and continues to query the snap-in for the rest of them. There is no indication back to the snap-in when an extension fails to load.
 
@@ -87,11 +87,11 @@ If all extensions are requested, they are loaded in the order in which they are 
 
 
 
-<a href="https://msdn.microsoft.com/55832db9-30d9-4a5f-bfef-a014b1050f22">IRequiredExtensions</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-irequiredextensions">IRequiredExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c84d6ab-c855-4b89-8e36-0794e3ffdb85">IRequiredExtensions::GetFirstExtension</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getfirstextension">IRequiredExtensions::GetFirstExtension</a>
  
 
  

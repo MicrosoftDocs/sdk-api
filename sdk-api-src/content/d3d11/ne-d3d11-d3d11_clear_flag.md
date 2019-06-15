@@ -71,7 +71,7 @@ Clear the stencil buffer, using fast clear if possible, then place the resource 
 
 
 
-These flags are used when calling <a href="https://msdn.microsoft.com/1e2269cf-edef-466e-be59-95dc644c7a0c">ID3D11DeviceContext::ClearDepthStencilView</a>; the flags can be combined with a bitwise OR.
+These flags are used when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-cleardepthstencilview">ID3D11DeviceContext::ClearDepthStencilView</a>; the flags can be combined with a bitwise OR.
         
 
 
@@ -82,7 +82,7 @@ These flags are used when calling <a href="https://msdn.microsoft.com/1e2269cf-e
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
  
 
  

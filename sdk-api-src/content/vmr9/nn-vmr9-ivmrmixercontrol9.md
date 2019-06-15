@@ -51,14 +51,14 @@ ms.custom: 19H1
 
 
 
-The <b>IVMRMixerControl9</b> interface enables an application to manipulate the incoming video streams on the <a href="https://msdn.microsoft.com/3885cca2-74b1-4066-8ecb-84c9841f9e66">Video Mixing Renderer Filter 9</a> (VMR-9). This interface is intended for use by applications only; it should not be used by upstream filters.
+The <b>IVMRMixerControl9</b> interface enables an application to manipulate the incoming video streams on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9). This interface is intended for use by applications only; it should not be used by upstream filters.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerControl9</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IVMRMixerControl9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRMixerControl9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRMixerControl9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IVMRMixerControl9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390458(v=VS.85).aspx">GetAlpha</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getalpha">GetAlpha</a>
 </td>
 <td align="left" width="63%">
 Retrieves the constant alpha value that is applied to this video stream.
@@ -82,7 +82,7 @@ Retrieves the constant alpha value that is applied to this video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390459(v=VS.85).aspx">GetBackgroundClr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getbackgroundclr">GetBackgroundClr</a>
 </td>
 <td align="left" width="63%">
 Retrieves the background color of the output rectangle.
@@ -91,7 +91,7 @@ Retrieves the background color of the output rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390460(v=VS.85).aspx">GetMixingPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getmixingprefs">GetMixingPrefs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the mixing preferences for the stream.
@@ -100,7 +100,7 @@ Retrieves the mixing preferences for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390461(v=VS.85).aspx">GetOutputRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getoutputrect">GetOutputRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position of this stream's video rectangle within the composition rectangle.
@@ -109,7 +109,7 @@ Retrieves the position of this stream's video rectangle within the composition r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390462(v=VS.85).aspx">GetProcAmpControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getprocampcontrol">GetProcAmpControl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current image adjustment settings, such as brightness, contrast, hue, and saturation.
@@ -118,7 +118,7 @@ Retrieves the current image adjustment settings, such as brightness, contrast, h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390463(v=VS.85).aspx">GetProcAmpControlRange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getprocampcontrolrange">GetProcAmpControlRange</a>
 </td>
 <td align="left" width="63%">
 Retrieves the range of values for an image adjustment setting.
@@ -127,7 +127,7 @@ Retrieves the range of values for an image adjustment setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390464(v=VS.85).aspx">GetZOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getzorder">GetZOrder</a>
 </td>
 <td align="left" width="63%">
 Retrieves this video stream's position in the Z-order.
@@ -136,7 +136,7 @@ Retrieves this video stream's position in the Z-order.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390465(v=VS.85).aspx">SetAlpha</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setalpha">SetAlpha</a>
 </td>
 <td align="left" width="63%">
 Sets a constant alpha value that is applied to this video stream.
@@ -145,7 +145,7 @@ Sets a constant alpha value that is applied to this video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390466(v=VS.85).aspx">SetBackgroundClr</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setbackgroundclr">SetBackgroundClr</a>
 </td>
 <td align="left" width="63%">
 Sets the background color of the output rectangle.
@@ -154,7 +154,7 @@ Sets the background color of the output rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390467(v=VS.85).aspx">SetMixingPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs">SetMixingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets the mixing preferences for the stream.
@@ -163,7 +163,7 @@ Sets the mixing preferences for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390468(v=VS.85).aspx">SetOutputRect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setoutputrect">SetOutputRect</a>
 </td>
 <td align="left" width="63%">
 Sets the position of this stream within the composition rectangle.
@@ -172,7 +172,7 @@ Sets the position of this stream within the composition rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390469(v=VS.85).aspx">SetProcAmpControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setprocampcontrol">SetProcAmpControl</a>
 </td>
 <td align="left" width="63%">
 Sets the image adjustment.
@@ -181,7 +181,7 @@ Sets the image adjustment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390470(v=VS.85).aspx">SetZOrder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setzorder">SetZOrder</a>
 </td>
 <td align="left" width="63%">
 Sets this video stream's position in the Z-order.
@@ -195,7 +195,7 @@ Sets this video stream's position in the Z-order.
 
 
 
-The VMR-9 supports this interface in mixing mode only. To enable mixing mode, call <a href="https://msdn.microsoft.com/en-us/library/Dd377370(v=VS.85).aspx">IVMRFilterConfig9::SetNumberOfStreams</a>. Otherwise, <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> returns <b>E_NOINTERFACE</b>. 
+The VMR-9 supports this interface in mixing mode only. To enable mixing mode, call <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setnumberofstreams">IVMRFilterConfig9::SetNumberOfStreams</a>. Otherwise, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q_)">QueryInterface</a> returns <b>E_NOINTERFACE</b>. 
 
 Include DShow.h and D3d9.h before Vmr9.h.
       
@@ -208,7 +208,7 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

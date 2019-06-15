@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns an empty task definition object to be filled in with settings and properties and then registered using the <a href="https://msdn.microsoft.com/a94db861-b24e-476a-810d-2cf3bbfc67d1">ITaskFolder::RegisterTaskDefinition</a> method.
+Returns an empty task definition object to be filled in with settings and properties and then registered using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition">ITaskFolder::RegisterTaskDefinition</a> method.
 
 
 ## -parameters
@@ -66,9 +66,9 @@ This parameter is reserved for future use and must be set to 0.
 
 The task definition that specifies all the information required to create a new task.
 
-Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/3787ed9b-9fd0-473b-9034-ade97dc330d9">ITaskDefinition</a> interface pointer. Referencing a non-NULL pointer can cause a memory leak because the pointer will be overwritten.
+Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> interface pointer. Referencing a non-NULL pointer can cause a memory leak because the pointer will be overwritten.
 
-The returned <a href="https://msdn.microsoft.com/3787ed9b-9fd0-473b-9034-ade97dc330d9">ITaskDefinition</a> pointer must be released after it is used.
+The returned <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> pointer must be released after it is used.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The method returned successfully without error.
 </dl>
 </td>
 <td width="60%">
-<b>NULL</b> was passed in to the <i>ppDefinition</i> parameter. Pass in a reference to a <b>NULL</b> <a href="https://msdn.microsoft.com/3787ed9b-9fd0-473b-9034-ade97dc330d9">ITaskDefinition</a> interface pointer.
+<b>NULL</b> was passed in to the <i>ppDefinition</i> parameter. Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a> interface pointer.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ A nonzero value was passed into the <i>flags</i> parameter.
 
 
 
-<a href="https://msdn.microsoft.com/2459aaae-4c3a-458a-ad2c-bfff3a0322d3">ITaskService</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskservice">ITaskService</a>
  
 
  

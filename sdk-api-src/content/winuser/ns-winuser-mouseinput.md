@@ -173,7 +173,7 @@ Movement occurred.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> messages will not be coalesced. The default behavior is to coalesce <b>WM_MOUSEMOVE</b> messages.
+The <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> messages will not be coalesced. The default behavior is to coalesce <b>WM_MOUSEMOVE</b> messages.
 					
 
 <b>Windows XP/2000:  </b>This value is not supported.
@@ -306,7 +306,7 @@ The time stamp for the event, in milliseconds. If this parameter is 0, the syste
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the mouse event. An application calls <a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a> to obtain this extra information. 
+An additional value associated with the mouse event. An application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information. 
 
 
 ## -remarks
@@ -321,7 +321,7 @@ If <b>MOUSEEVENTF_ABSOLUTE</b> value is specified, <b>dx</b> and <b>dy</b> conta
 
 If the <b>MOUSEEVENTF_ABSOLUTE</b> value is not specified, <b>dx</b>and <b>dy</b> specify movement relative to the previous mouse event (the last reported position). Positive values mean the mouse moved right (or down); negative values mean the mouse moved left (or up). 
 
-Relative mouse motion is subject to the effects of the mouse speed and the two-mouse threshold values. A user sets these three values with the <b>Pointer Speed</b> slider of the Control Panel's <b>Mouse Properties</b> sheet. You can obtain and set these values using the <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function. 
+Relative mouse motion is subject to the effects of the mouse speed and the two-mouse threshold values. A user sets these three values with the <b>Pointer Speed</b> slider of the Control Panel's <b>Mouse Properties</b> sheet. You can obtain and set these values using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function. 
 
 The system applies two tests to the specified relative mouse movement. If the specified distance along either the x or y axis is greater than the first mouse threshold value, and the mouse speed is not zero, the system doubles the distance. If the specified distance along either the x or y axis is greater than the second mouse threshold value, and the mouse speed is equal to two, the system doubles the distance that resulted from applying the first threshold test. It is thus possible for the system to multiply specified relative mouse movement along the x or y axis by up to four times.
 
@@ -337,15 +337,15 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644937(v=VS.85).aspx">GetMessageExtraInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646270(v=VS.85).aspx">INPUT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-taginput">INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -353,7 +353,7 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646310(v=VS.85).aspx">SendInput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a>
  
 
  

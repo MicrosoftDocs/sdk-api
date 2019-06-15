@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Discovers whether the message queue contains a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
+Discovers whether the message queue contains a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ Discovers whether the message queue contains a <a href="https://msdn.microsoft.c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Returns <b>TRUE</b> if a <a href="https://msdn.microsoft.com/en-us/library/ms645606(v=VS.85).aspx">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
+Returns <b>TRUE</b> if a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
 
 
 
@@ -75,7 +75,7 @@ Returns <b>TRUE</b> if a <a href="https://msdn.microsoft.com/en-us/library/ms645
 
 
 
-<a href="https://msdn.microsoft.com/A715E70C-E8BB-4796-BDA6-90B745EC7761">ITextHost2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
  
 
  

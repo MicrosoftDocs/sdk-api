@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/4ff574d4-04b0-47c3-808f-867d6815bffc">WSMAN_DATA</a> structure component that holds textual data for use with various Windows Remote Management functions.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-_wsman_data">WSMAN_DATA</a> structure component that holds textual data for use with various Windows Remote Management functions.
 
 
 ## -struct-fields

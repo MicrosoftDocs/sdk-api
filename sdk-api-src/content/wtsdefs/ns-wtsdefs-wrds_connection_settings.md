@@ -59,18 +59,18 @@ Contains connection setting information for a remote session.
 
 ### -field WRdsConnectionSettingLevel
 
-A value of the <a href="https://msdn.microsoft.com/0D82D26F-1EA6-45A5-90DF-80BE144DC3BF">WRDS_CONNECTION_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsConnectionSetting</b> member.
+A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-_wrds_connection_setting_level">WRDS_CONNECTION_SETTING_LEVEL</a> enumeration that specifies the type of structure that is contained in the <b>WRdsConnectionSetting</b> member.
 
 
 
 #### WRDS_CONNECTION_SETTING_LEVEL_1
 
-The structure is a <a href="https://msdn.microsoft.com/93D4C843-7974-4287-9222-B90206DE6B75">WRDS_CONNECTION_SETTINGS_1</a> structure.
+The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure.
 
 
 ### -field WRdsConnectionSetting
 
-A <a href="https://msdn.microsoft.com/15991230-DBF9-4D32-A65A-1D67D1804D05">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-_wrds_connection_setting">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
 
 
 ### -field WRdsConnectionSetting.switch_is
@@ -90,7 +90,7 @@ A <a href="https://msdn.microsoft.com/15991230-DBF9-4D32-A65A-1D67D1804D05">WRDS
 
 
 
-<a href="https://msdn.microsoft.com/2b6ce1cd-0e9f-465d-a5d6-e0d35bddebc4">IWRdsProtocolConnection::LogonNotify</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-logonnotify">IWRdsProtocolConnection::LogonNotify</a>
  
 
  

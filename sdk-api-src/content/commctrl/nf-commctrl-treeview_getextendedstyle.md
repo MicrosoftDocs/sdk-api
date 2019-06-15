@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773580(v=VS.85).aspx">TVM_GETEXTENDEDSTYLE</a> message explicitly.
+Retrieves the extended style for a specified tree-view control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getextendedstyle">TVM_GETEXTENDEDSTYLE</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the extended style for a specified tree-view control. Use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -68,7 +68,7 @@ Handle to the tree-view control.
 
 
 
-The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a> or function <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>.
+The extended styles for a tree-view control have nothing to do with the extended styles used with function <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> or function <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a>.
       
 
 

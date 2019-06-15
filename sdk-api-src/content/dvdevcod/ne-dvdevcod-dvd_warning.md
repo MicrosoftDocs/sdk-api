@@ -68,7 +68,7 @@ DVD-Video disc is authored incorrectly. Playback can continue, but unexpected be
 
 ### -field DVD_WARNING_FormatNotSupported
 
-A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="https://msdn.microsoft.com/d7221e8a-089f-4eaf-a193-548709c14336">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="https://msdn.microsoft.com/en-us/library/Dd373468(v=VS.85).aspx">AM_DVD_STREAM_FLAGS</a>).
+A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_dvd_stream_flags">AM_DVD_STREAM_FLAGS</a>).
           
 
 
@@ -101,11 +101,11 @@ File Read failed.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7221e8a-089f-4eaf-a193-548709c14336">EC_DVD_WARNING</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-warning">EC_DVD_WARNING</a>
  
 
  

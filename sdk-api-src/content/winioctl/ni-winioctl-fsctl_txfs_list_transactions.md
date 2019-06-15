@@ -52,7 +52,7 @@ req.redist:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://msdn.microsoft.com/9ee26e7e-990e-4cd3-8180-f0fcaac2b752">Alternatives to using Transactional NTFS</a>.]
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Returns a list of all the transactions currently involved in the specified resource 
     manager. If the function fails with <b>ERROR_MORE_DATA</b>, it returns the length of 
@@ -164,19 +164,19 @@ The number of transactions returned from one call to the next can change dependi
 
 
 
-<a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c5ec2eb-f0d9-4603-96d5-1a53e56e97b8">TXFS_LIST_TRANSACTIONS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7de14fb1-1972-4bf0-b0e2-f0344e963eef">TXFS_LIST_TRANSACTIONS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_txfs_list_transactions_entry">TXFS_LIST_TRANSACTIONS_ENTRY</a>
  
 
  

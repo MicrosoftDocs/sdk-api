@@ -131,7 +131,7 @@ If the graph does not have a reference clock, the method returns E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd407042(v=VS.85).aspx">IMediaStreamFilter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
  
 
  

@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The name is set when you call the <a href="https://msdn.microsoft.com/7e432e1f-4b86-45dc-93d5-df603068273d">IDataCollectorSet::Commit</a> method.
+The name is set when you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a> method.
 
 
 
@@ -72,7 +72,7 @@ The name is set when you call the <a href="https://msdn.microsoft.com/7e432e1f-4
 
 
 
-<a href="https://msdn.microsoft.com/a4ae0874-4ee6-46a1-9811-8cd4be26859c">IDataCollectorSet</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
  
 
  

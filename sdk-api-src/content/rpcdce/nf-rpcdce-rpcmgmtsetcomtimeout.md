@@ -125,7 +125,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -146,7 +146,7 @@ A client application calls
 </div>
 <div> </div>
 For convenience, constants are provided for certain values in the time-out range. For a list of the RPC-defined values that an application can use for the time-out argument, see 
-<a href="https://msdn.microsoft.com/bf5f3f08-ab29-4732-9ce3-d6d7ad699369">Binding Time-out Constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/binding-time-out-constants">Binding Time-out Constants</a>.
 
 
 
@@ -156,7 +156,7 @@ For convenience, constants are provided for certain values in the time-out range
 
 
 
-<a href="https://msdn.microsoft.com/e7bb9955-68a7-49fe-bcdb-2450518ffe0a">RpcMgmtInqComTimeout</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqcomtimeout">RpcMgmtInqComTimeout</a>
  
 
  

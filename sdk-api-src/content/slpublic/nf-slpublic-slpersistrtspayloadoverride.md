@@ -61,7 +61,7 @@ Associates information with the specified product for both online and phone acti
 
 Type: <b>HSLC</b>
 
-Handle retrieved by previous call to the <a href="https://msdn.microsoft.com/79a09cf3-cf6f-479a-89c7-27f5fcee3186">SLOpen</a> function.
+Handle retrieved by previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slopen">SLOpen</a> function.
 
 
 ### -param pApplicationId [in]

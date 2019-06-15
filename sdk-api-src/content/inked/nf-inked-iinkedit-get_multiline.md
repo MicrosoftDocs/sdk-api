@@ -54,7 +54,7 @@ ms.custom: 19H1
 ## -description
 
 
- Gets or sets a value indicating whether an <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control can accept and display multiple lines of text.
+ Gets or sets a value indicating whether an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control can accept and display multiple lines of text.
 
 
 This property is read/write.
@@ -67,11 +67,11 @@ This property is read/write.
 
 
 
-A multiple-line <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control wraps text as the user types text extending beyond the text box.
+A multiple-line <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control wraps text as the user types text extending beyond the text box.
 
 
 
-You can also add scroll bars to a larger <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control using the <a href="https://msdn.microsoft.com/d6b798dc-6e8f-4c89-b5a8-c4a189ebe6cd">ScrollBars</a> property. If no HScrollBar control (horizontal scroll bar) is specified, the text in a multiple-line InkEdit control automatically wraps.
+You can also add scroll bars to a larger <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control using the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars">ScrollBars</a> property. If no HScrollBar control (horizontal scroll bar) is specified, the text in a multiple-line InkEdit control automatically wraps.
 
 
 
@@ -87,7 +87,7 @@ You can also add scroll bars to a larger <a href="https://msdn.microsoft.com/527
 
 
 
-<a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS</b> structure contains the information for digest authentication on a URL Group.
 
-This structure is contained in the <a href="https://msdn.microsoft.com/4f408115-c073-4e9f-b316-8ad3f03acf53">HTTP_SERVER_AUTHENTICATION_INFO</a> structure.
+This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a> structure.
 
 
 ## -struct-fields
@@ -88,11 +88,11 @@ The realm allows the  server to be partitioned into a set of protection spaces, 
 
 
 
-<a href="https://msdn.microsoft.com/5a8e28e9-f85b-4550-929e-53f38eca6a8c">HTTP Server API Version 2.0 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f408115-c073-4e9f-b316-8ad3f03acf53">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-_http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
  
 
  

@@ -66,7 +66,7 @@ Zero-based index of the insertion mark. If this member is -1, there is no insert
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Defines where the insertion mark is in relation to 
 					<b>iButton</b>. This can be one of the following values: 
@@ -102,7 +102,7 @@ The insertion mark is to the right of the specified button.
 </dl>
 </td>
 <td width="60%">
-The insertion mark is on the background of the toolbar. This flag is only used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787367(v=VS.85).aspx">TB_INSERTMARKHITTEST</a> message. 
+The insertion mark is on the background of the toolbar. This flag is only used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-insertmarkhittest">TB_INSERTMARKHITTEST</a> message. 
 
 </td>
 </tr>

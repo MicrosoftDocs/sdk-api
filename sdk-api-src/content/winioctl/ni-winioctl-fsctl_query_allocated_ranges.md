@@ -52,7 +52,7 @@ Scans a file or alternate stream looking for ranges that may contain nonzero dat
 			
 
 To perform this operation, call the 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -149,7 +149,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 For the implications of overlapped I/O on this operation, see the Remarks section of 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>.
 
 The NTFS file system rounds the input file offset down to a convenient boundary and the length up to a convenient boundary and then begins to walk through the file.
 
@@ -159,7 +159,7 @@ Each entry in the output array contains an offset and a length that indicates a 
 
 Allocated ranges are subject to the rule that a memory mapped remote (network) file and an open handle to the file are not necessarily coherent. If you memory mapped a sparse network file and wrote nonzero data to previously unallocated regions of the file, disk space would be allocated for the new data. However, a call to 
 <b>FSCTL_QUERY_ALLOCATED_RANGES</b> thereafter would not necessarily return a correct list of allocated regions. To ensure coherency between the view memory and the file handle, flush the data to the file with the 
-<a href="https://msdn.microsoft.com/994fef62-77cf-4c99-be54-b4aff35a10f2">FlushViewOfFile</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-flushviewoffile">FlushViewOfFile</a> function.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -229,27 +229,27 @@ No
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9c7d757-df29-4419-baba-56beb41623bf">FILE_ALLOCATED_RANGE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_file_allocated_range_buffer">FILE_ALLOCATED_RANGE_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa8f5880-f831-49b6-8359-fe07c78c032f">FSCTL_SET_SPARSE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee32f836-682e-4c26-b7d6-82e3b7b234f9">FSCTL_SET_ZERO_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_zero_data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/e27ded4b-d104-4244-b38e-5fed10d32e1e">File Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7326041d-f11e-4b80-ac4e-07173e418ce7">Sparse Files</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">Sparse Files</a>
  
 
  

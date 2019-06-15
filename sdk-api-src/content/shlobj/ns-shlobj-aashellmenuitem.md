@@ -82,7 +82,7 @@ Reserved. Applications should ignore this value.
 
 Type: <b>LPAASHELLMENUFILENAME</b>
 
-If the selected menu item represents a file, this member is a pointer to an <a href="https://msdn.microsoft.com/f84e837f-61b0-4df4-9ff7-dc2d3d898d99">AASHELLMENUFILENAME</a> structure that contains the name of the file. Otherwise this member is <b>NULL</b>.
+If the selected menu item represents a file, this member is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-tagaamenufilename">AASHELLMENUFILENAME</a> structure that contains the name of the file. Otherwise this member is <b>NULL</b>.
 
 
 ### -field psz
@@ -100,7 +100,7 @@ A pointer to the string that contains the text to use if there is no file.
 <div> </div>
 If the menu belongs to the Windows Explorer process and the menu item is MFT_OWNERDRAW and <b>dwItemData</b> is not <b>NULL</b>, then the <b>dwItemData</b> member can be probed to determine whether it is a Windows Explorer menu that shows owner-drawn file names.
 
-The accessibility tool might treat the <b>dwItemData</b> member as a pointer to an <b>AASHELLMENUITEM</b> structure in the process that owns the menu. In this case the <b>lpName</b> and <b>psz</b> members might be examined to determine the identity of the menu item. If <b>lpName</b> is not <b>NULL</b>, then the menu item represents a file name, expressed as an <a href="https://msdn.microsoft.com/f84e837f-61b0-4df4-9ff7-dc2d3d898d99">AASHELLMENUFILENAME</a> structure. If <b>lpName</b> is <b>NULL</b> but <b>psz</b> is not <b>NULL</b>, then the menu item represents a string that is pointed to by the <b>psz</b> member.
+The accessibility tool might treat the <b>dwItemData</b> member as a pointer to an <b>AASHELLMENUITEM</b> structure in the process that owns the menu. In this case the <b>lpName</b> and <b>psz</b> members might be examined to determine the identity of the menu item. If <b>lpName</b> is not <b>NULL</b>, then the menu item represents a file name, expressed as an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-tagaamenufilename">AASHELLMENUFILENAME</a> structure. If <b>lpName</b> is <b>NULL</b> but <b>psz</b> is not <b>NULL</b>, then the menu item represents a string that is pointed to by the <b>psz</b> member.
 
 The <b>lpName</b> and <b>psz</b> members contain pointers into the process that owns the menu.
 
@@ -116,7 +116,7 @@ Applications that probe owner-draw menu data must validate all data read from th
 
 
 
-<a href="https://msdn.microsoft.com/f84e837f-61b0-4df4-9ff7-dc2d3d898d99">AASHELLMENUFILENAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-tagaamenufilename">AASHELLMENUFILENAME</a>
  
 
  

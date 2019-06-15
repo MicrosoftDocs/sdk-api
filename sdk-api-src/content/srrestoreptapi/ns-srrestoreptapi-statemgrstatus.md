@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 Contains status information used by the 
-<a href="https://msdn.microsoft.com/46f0094d-9079-41b5-9efc-ef07082653d3">SRSetRestorePoint</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
 
 
 ## -struct-fields
@@ -118,7 +118,7 @@ The following table lists the status codes returned in the <b>nStatus</b> member
 
 
 
-<a href="https://msdn.microsoft.com/46f0094d-9079-41b5-9efc-ef07082653d3">SRSetRestorePoint</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
  
 
  

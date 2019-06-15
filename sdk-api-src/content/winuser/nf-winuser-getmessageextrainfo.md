@@ -80,7 +80,7 @@ The return value specifies the extra information. The meaning of the extra infor
 
 
 
-To set a thread's extra message information, use the <a href="https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a> function. 
+To set a thread's extra message information, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmessageextrainfo">SetMessageExtraInfo</a> function. 
 
 
 
@@ -94,15 +94,15 @@ To set a thread's extra message information, use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
 
 
 
@@ -110,7 +110,7 @@ To set a thread's extra message information, use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmessageextrainfo">SetMessageExtraInfo</a>
  
 
  

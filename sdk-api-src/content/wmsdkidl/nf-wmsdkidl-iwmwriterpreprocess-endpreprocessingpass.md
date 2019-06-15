@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="https://msdn.microsoft.com/en-us/library/Dd798785(v=VS.85).aspx">IWMWriterPreprocess::BeginPreprocessingPass</a>.
+The <b>EndPreprocessingPass</b> method ends a preprocessing pass started with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-beginpreprocessingpass">IWMWriterPreprocess::BeginPreprocessingPass</a>.
 
 
 
@@ -143,7 +143,7 @@ There was an error ending the preprocessing path.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798784(v=VS.85).aspx">IWMWriterPreprocess Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
  
 
  

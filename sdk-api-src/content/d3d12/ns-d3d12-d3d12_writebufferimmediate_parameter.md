@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the immediate value and destination address written using <a href="https://msdn.microsoft.com/6A1BF079-CAE7-45E9-A95F-E19ACD380143">ID3D12CommandList2::WriteBufferImmediate</a>.
+Specifies the immediate value and destination address written using <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12CommandList2::WriteBufferImmediate</a>.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ The 32-bit value to write.
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

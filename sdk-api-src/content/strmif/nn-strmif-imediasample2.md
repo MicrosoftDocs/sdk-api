@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <code>IMediaSample2</code> interface sets and retrieves properties on media samples.
 
-This interface inherits the <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface. Whereas the <b>IMediaSample</b> interface requires separate method calls for each sample property, the <code>IMediaSample2</code> interface has methods for setting and retrieving multiple properties at once.
+This interface inherits the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface. Whereas the <b>IMediaSample</b> interface requires separate method calls for each sample property, the <code>IMediaSample2</code> interface has methods for setting and retrieving multiple properties at once.
 
 Media samples are not guaranteed to support <code>IMediaSample2</code>. However, if an allocator creates samples that support <code>IMediaSample2</code>, all of the samples that it creates must support the interface. For any given media sample, the <b>IMediaSample2::GetProperties</b> method returns the same values as the individual <b>IMediaSample</b> methods. Therefore, you can use whichever version you prefer.
 
@@ -62,7 +62,7 @@ Media samples are not guaranteed to support <code>IMediaSample2</code>. However,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2</b> interface inherits from <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a>. <b>IMediaSample2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a>. <b>IMediaSample2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IMediaSample2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef20deed-f906-459a-8c2a-f1c929ade9ac">GetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample2-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieves the properties of a media sample.
@@ -86,7 +86,7 @@ Retrieves the properties of a media sample.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f024fe3a-802d-4dc1-9f4d-ebeeed0b067a">SetProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">SetProperties</a>
 </td>
 <td align="left" width="63%">
 Sets the properties of a media sample.
@@ -101,7 +101,7 @@ Sets the properties of a media sample.
 
 
 
-<a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a>
  
 
  

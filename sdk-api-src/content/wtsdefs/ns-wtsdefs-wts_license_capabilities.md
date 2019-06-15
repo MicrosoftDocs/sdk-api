@@ -86,7 +86,7 @@ A Boolean value that specifies whether the client will authenticate the server.
 
 ### -field CertType
 
-A <a href="https://msdn.microsoft.com/bf3dcb94-e788-4c60-ad4e-001ca040c6b0">WTS_CERT_TYPE</a> enumeration value that specifies the type of the certificate used to obtain the license.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ne-wtsdefs-wts_cert_type">WTS_CERT_TYPE</a> enumeration value that specifies the type of the certificate used to obtain the license.
 
 
 ### -field cbClientName
@@ -103,7 +103,7 @@ The client name, including a terminating null character.
 
 
 
-This enumeration is used by the <a href="https://msdn.microsoft.com/ff6123f6-4d78-41d1-8093-916f01de09ef">RequestLicensingCapabilities</a> method.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollicenseconnection-requestlicensingcapabilities">RequestLicensingCapabilities</a> method.
 
 
 

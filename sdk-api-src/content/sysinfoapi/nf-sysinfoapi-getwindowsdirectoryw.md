@@ -64,7 +64,7 @@ Retrieves the
 
 This function is provided primarily for compatibility with legacy applications. New applications should store code in the Program Files folder 
     and persistent data in the Application Data folder in the user's profile. For more information, see 
-    <a href="https://msdn.microsoft.com/a240abc0-e0a6-4f95-8e74-7dc410970212">ShGetFolderPath</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">ShGetFolderPath</a>.
    
 
 
@@ -102,7 +102,7 @@ If the length is greater than the size of the buffer, the return value is the si
       
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
       
 
 
@@ -129,13 +129,13 @@ If an application creates other files that it wants to store on a per-user basis
      There is also a shared Windows directory for the system. If the application is Terminal-Services-aware (has the 
      <b>IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE</b> flag set in the image header), this 
      function returns the path of the system Windows directory, just as the 
-     <a href="https://msdn.microsoft.com/4f0955fb-8fa3-4102-b2a5-44ce5cbd2e35">GetSystemWindowsDirectory</a> function does. 
+     <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemwindowsdirectorya">GetSystemWindowsDirectory</a> function does. 
      Otherwise, it retrieves the path of the private Windows directory for the user.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/965bd14b-be93-4084-bce8-642f5704cef1">Getting System Information</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-system-information">Getting System Information</a>.
 
 <div class="code"></div>
 
@@ -146,19 +146,19 @@ For an example, see <a href="https://msdn.microsoft.com/965bd14b-be93-4084-bce8-
 
 
 
-<a href="https://msdn.microsoft.com/1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd">GetCurrentDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/79f045b2-40d9-498a-b720-e729c92bf50b">GetSystemDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f0955fb-8fa3-4102-b2a5-44ce5cbd2e35">GetSystemWindowsDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemwindowsdirectorya">GetSystemWindowsDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/aa7deebf-7dce-4147-8a15-1d7411aea0fa">System Information Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
  
 
  

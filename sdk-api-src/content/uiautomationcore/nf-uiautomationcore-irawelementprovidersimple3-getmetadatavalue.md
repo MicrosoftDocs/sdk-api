@@ -86,11 +86,11 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt798231(v=VS.85).aspx">IRawElementProviderSimple3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple3">IRawElementProviderSimple3</a>
 
 
 
-<a href="https://msdn.microsoft.com/70F6AA0E-52CB-49D4-BBAF-2B6367D5E44D">SayAsInterpretAs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-sayasinterpretas">SayAsInterpretAs</a>
  
 
  

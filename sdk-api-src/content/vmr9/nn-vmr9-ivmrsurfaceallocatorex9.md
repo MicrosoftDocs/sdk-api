@@ -55,12 +55,12 @@ The <b>IVMRSurfaceAllocatorEx9</b> interface provides a way for custom allocator
 
 
 
-To use this interface, implement it on your allocator-presenter. At the start of each frame, the VMR-9 calls <b>QueryInterface</b> on the allocator-presenter for the <b>IVMRSurfaceAllocatorEx9</b> interface. If the allocator-presenter returns the interface, the VMR-9 calls the <a href="https://msdn.microsoft.com/en-us/library/Dd390506(v=VS.85).aspx">IVMRSurfaceAllocatorEx9::GetSurfaceEx</a> method instead of the usual <a href="https://msdn.microsoft.com/en-us/library/Dd390524(v=VS.85).aspx">IVMRSurfaceAllocator9::GetSurface</a> method. This enables your allocator-presenter to specify the rectangle within the returned <b>IDirect3DSurface9</b> where the composed video image will be written. This feature enables all of the video image scaling operations to be performed in a single stage, and is available in both RGB and YUV mixing modes.
+To use this interface, implement it on your allocator-presenter. At the start of each frame, the VMR-9 calls <b>QueryInterface</b> on the allocator-presenter for the <b>IVMRSurfaceAllocatorEx9</b> interface. If the allocator-presenter returns the interface, the VMR-9 calls the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocatorex9-getsurfaceex">IVMRSurfaceAllocatorEx9::GetSurfaceEx</a> method instead of the usual <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrsurface-getsurface">IVMRSurfaceAllocator9::GetSurface</a> method. This enables your allocator-presenter to specify the rectangle within the returned <b>IDirect3DSurface9</b> where the composed video image will be written. This feature enables all of the video image scaling operations to be performed in a single stage, and is available in both RGB and YUV mixing modes.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocatorEx9</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd390500(v=VS.85).aspx">IVMRSurfaceAllocator9</a>. <b>IVMRSurfaceAllocatorEx9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRSurfaceAllocatorEx9</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocator9">IVMRSurfaceAllocator9</a>. <b>IVMRSurfaceAllocatorEx9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVMRSurfaceAllocatorEx9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd390506(v=VS.85).aspx">GetSurfaceEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocatorex9-getsurfaceex">GetSurfaceEx</a>
 </td>
 <td align="left" width="63%">
 Gets a Direct3D surface and a destination rectangle.
@@ -100,11 +100,11 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390500(v=VS.85).aspx">IVMRSurfaceAllocator9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrsurfaceallocator9">IVMRSurfaceAllocator9</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0fdfac-ec7e-4e02-886b-2039c607dac7">Using the Video Mixing Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
  
 
  

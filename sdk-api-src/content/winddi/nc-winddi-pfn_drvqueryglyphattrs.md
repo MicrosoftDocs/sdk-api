@@ -94,14 +94,14 @@ The function returns an array indicating which glyphs of a vertical font must be
 
 #### - pfo [in]
 
-GDI-supplied pointer to a <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure identifying the font for which attributes are being requested.
+GDI-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure identifying the font for which attributes are being requested.
 
 
 ## -returns
 
 
 
-<b>DrvQueryGlyphAttrs</b> should return a pointer to an <a href="https://msdn.microsoft.com/25a5c390-244c-4cff-a6a5-cc61fc5aa40b">FD_GLYPHATTR</a> structure. If an error is encountered, such as an invalid input argument, or if the font described by the <a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a> structure is not a vertical font, the function should return <b>NULL</b>.
+<b>DrvQueryGlyphAttrs</b> should return a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphattr">FD_GLYPHATTR</a> structure. If an error is encountered, such as an invalid input argument, or if the font described by the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a> structure is not a vertical font, the function should return <b>NULL</b>.
 
 
 
@@ -112,9 +112,9 @@ GDI-supplied pointer to a <a href="https://msdn.microsoft.com/09af2006-51f1-433e
 
 The <b>DrvQueryGlyphAttrs</b> function should be supplied by font drivers. Currently, the only attribute flag defined is FO_ATTR_MODE_ROTATE, meaning the function should indicate which glyphs of a vertical font must be rotated. (For vertical fonts, DBCS glyphs must be rotated.) This information is useful to printer drivers that support printers having built-in font rasterizers.
 
-The function should return rotation information in the <a href="https://msdn.microsoft.com/25a5c390-244c-4cff-a6a5-cc61fc5aa40b">FD_GLYPHATTR</a> structure that is used as the function's return value.
+The function should return rotation information in the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphattr">FD_GLYPHATTR</a> structure that is used as the function's return value.
 
-GDI calls the appropriate font driver's <b>DrvQueryGlyphAttrs</b> function when a printer driver calls GDI's <a href="https://msdn.microsoft.com/6a619922-5ab6-4169-8b41-e645e9d7fe93">FONTOBJ_pQueryGlyphAttrs</a> function.
+GDI calls the appropriate font driver's <b>DrvQueryGlyphAttrs</b> function when a printer driver calls GDI's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a> function.
 
 
 
@@ -124,15 +124,15 @@ GDI calls the appropriate font driver's <b>DrvQueryGlyphAttrs</b> function when 
 
 
 
-<a href="https://msdn.microsoft.com/25a5c390-244c-4cff-a6a5-cc61fc5aa40b">FD_GLYPHATTR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_glyphattr">FD_GLYPHATTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/09af2006-51f1-433e-9227-3c99b9860e75">FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fontobj">FONTOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a619922-5ab6-4169-8b41-e645e9d7fe93">FONTOBJ_pQueryGlyphAttrs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a>
  
 
  

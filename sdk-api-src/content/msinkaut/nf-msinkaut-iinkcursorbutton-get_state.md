@@ -67,7 +67,7 @@ This property is read-only.
 
 
 
-For a detailed list of state values that you can use, see the <a href="https://msdn.microsoft.com/0e750bd6-0b57-499e-9691-966fb027cdb5">InkCursorButtonState</a> enumeration.
+For a detailed list of state values that you can use, see the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate">InkCursorButtonState</a> enumeration.
 
 
 
@@ -77,11 +77,11 @@ For a detailed list of state values that you can use, see the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/06b91ab0-b2fb-4a09-8a2b-615da87ec4a2">IInkCursorButton</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton">IInkCursorButton</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e750bd6-0b57-499e-9691-966fb027cdb5">InkCursorButtonState Enumeration</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate">InkCursorButtonState Enumeration</a>
  
 
  

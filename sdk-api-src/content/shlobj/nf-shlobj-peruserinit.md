@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
-Creates <a href="https://msdn.microsoft.com/d9ffda6f-adc0-44a3-b410-e23bf5f4f165">My Documents</a> and other special folders, initializes them as needed, and creates the <b>Send To</b> shortcut menu item for My Documents. 
+Creates <a href="https://docs.microsoft.com/windows/desktop/shell/manage">My Documents</a> and other special folders, initializes them as needed, and creates the <b>Send To</b> shortcut menu item for My Documents. 
         
 
 
@@ -77,7 +77,7 @@ This function does not return a value.
 
 Applications do not need to call this function because the operating system already does so.
 
-This function does not have an associated header or library file so it must be called by ordinal value. Call <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> with the DLL name Mydocs.dll to obtain a module handle. Then call <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> with that module handle and the ordinal number 7 to use this function.
+This function does not have an associated header or library file so it must be called by ordinal value. Call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> with the DLL name Mydocs.dll to obtain a module handle. Then call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> with that module handle and the ordinal number 7 to use this function.
 
 
 

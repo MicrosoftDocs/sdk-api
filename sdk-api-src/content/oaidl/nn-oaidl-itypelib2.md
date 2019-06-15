@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Represents a type library, the data that describes a set of objects.
 
-The <b>ITypeLib2</b> interface inherits from the <a href="https://msdn.microsoft.com/c1e5d71f-6a4e-45f3-811d-f57024f81a55">ITypeLib</a>interface. This allows <b>ITypeLib</b> to cast to an <b>ITypeLib2</b> in performance-sensitive cases, rather than perform extra QueryInterface and Release calls.
+The <b>ITypeLib2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>interface. This allows <b>ITypeLib</b> to cast to an <b>ITypeLib2</b> in performance-sensitive cases, rather than perform extra QueryInterface and Release calls.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>ITypeLib2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f557bfe6-5254-43c6-a42b-bc2d13126705">GetAllCustData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getallcustdata">GetAllCustData</a>
 </td>
 <td align="left" width="63%">
 Gets all custom data items for the library.
@@ -80,7 +80,7 @@ Gets all custom data items for the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2f29070-6768-4734-a3e2-c9258375b33c">GetCustData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getcustdata">GetCustData</a>
 </td>
 <td align="left" width="63%">
 Gets the custom data.
@@ -89,7 +89,7 @@ Gets the custom data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/976e3258-5dba-4d0c-916d-75449f869363">GetDocumentation2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getdocumentation2">GetDocumentation2</a>
 </td>
 <td align="left" width="63%">
 Retrieves the library's documentation string, the complete Help file name and path, the localization context to use, and the context ID for the library Help topic in the Help file.
@@ -98,7 +98,7 @@ Retrieves the library's documentation string, the complete Help file name and pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6ee47f7-eca6-48f6-b984-ff8c83a4ca46">GetLibStatistics</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib2-getlibstatistics">GetLibStatistics</a>
 </td>
 <td align="left" width="63%">
 Returns statistics about a type library that are required for efficient sizing of hash tables.
@@ -113,7 +113,7 @@ Returns statistics about a type library that are required for efficient sizing o
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221172(v=VS.85).aspx">Type Description Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions//ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
  
 
  

@@ -78,7 +78,7 @@ A value of <b>FALSE</b> indicates that the application is in control, and that t
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
 
 
 
@@ -88,14 +88,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 To use this function, the caller must have system-time privilege (SE_SYSTEMTIME_NAME). This privilege is disabled by default. Use the 
-<a href="https://msdn.microsoft.com/8e3f70cd-814e-4aab-8f48-0ca482beef2e">AdjustTokenPrivileges</a> function to enable the privilege before calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the privilege before calling 
 this function, then disable the privilege after the function call. For more information, see 
 the code example below.
 
 
 #### Examples
 
-This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="https://msdn.microsoft.com/en-us/library/Mt846358(v=VS.85).aspx">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
+This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
 
 
 ```cpp
@@ -287,7 +287,7 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846358(v=VS.85).aspx">GetSystemTimeAdjustmentPrecise</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a>
  
 
  

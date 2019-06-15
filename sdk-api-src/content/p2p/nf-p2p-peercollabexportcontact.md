@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The <b>PeerCollabExportContact</b> function exports the contact data associated with a peer name to a string buffer. The buffer contains contact data in XML format.
 
-The <a href="https://msdn.microsoft.com/0e4ba039-2016-487d-b4df-e96648db1a05">PeerCollabAddContact</a> function allows this XML string to be utilized by other peers.
+The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabaddcontact">PeerCollabAddContact</a> function allows this XML string to be utilized by other peers.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ If this parameter is <b>NULL</b>, the "Me" contact information for the calling p
 
 Pointer to a zero-terminated string buffer that contains peer contact XML data where the peer names match the string supplied in <i>pwzPeerName</i>.  
 
-The memory returned here can be freed by calling <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.
+The memory returned here can be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 
 ## -returns
@@ -139,7 +139,7 @@ One of the arguments is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/00c3c1f1-c36c-469a-a644-0ec60f02d25e">Peer Collaboration API Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
  
 
  

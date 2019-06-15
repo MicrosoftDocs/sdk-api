@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>IWTSProtocolConnection::SessionArbitrationEnumeration</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://msdn.microsoft.com/d0e93014-1f79-47ac-bf3a-c100eb652751">IWRdsProtocolConnection::SessionArbitrationEnumeration</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnection::SessionArbitrationEnumeration</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-sessionarbitrationenumeration">IWRdsProtocolConnection::SessionArbitrationEnumeration</a>.]
 
 Retrieves a collection of session IDs for reconnection.
 
@@ -93,7 +93,7 @@ The Remote Desktop Services service calls this method to find existing sessions 
 
 
 
-<a href="https://msdn.microsoft.com/584a6874-0df4-480e-a10a-4b603643870e">IWTSProtocolConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
  
 
  

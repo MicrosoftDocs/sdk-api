@@ -51,9 +51,9 @@ ms.custom: 19H1
 
 The 
 <i>cbAdmitResult</i> function is used by LPMs to return results for the 
-<a href="https://msdn.microsoft.com/0bf84c25-312c-4b4a-8bb1-e8f00711dbe3">LPM_AdmitRsvpMsg</a> request. LPMs should only use this function if they have returned LPM_RESULT_DEFER to the 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_admitrsvpmsg">LPM_AdmitRsvpMsg</a> request. LPMs should only use this function if they have returned LPM_RESULT_DEFER to the 
 <i>LPM_AdmitRsvpMsg</i> function call. The PCM will only accept results from this function within the result time limit established by each LPM through the <i>ResultTimeLimit</i> parameter of the 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a> function.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a> function.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The
 ### -param LpmHandle [in]
 
 Unique handle for the LPM, as supplied in 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a>. The PCM will ignore any result that is not accompanied by a valid LPM handle.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>. The PCM will ignore any result that is not accompanied by a valid LPM handle.
 
 
 ### -param RequestHandle [in]
@@ -165,10 +165,10 @@ This callback function does not return a value.
 
 
 When a request has been rejected, the PCM will call the LPM to instruct it to delete the request's state. The LPM can choose to delete the request's state at any time during the rejection process. If the LPM deletes a request's state shortly after its rejection of the request, the LPM must be prepared to handle subsequent calls (by the PCM, through the 
-<a href="https://msdn.microsoft.com/54251572-22a6-4652-a88c-7ed696911c18">LPM_DeleteState</a> function) to delete the (already deleted) state.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_deletestate">LPM_DeleteState</a> function) to delete the (already deleted) state.
 
 The LPM does not need to maintain state for requests to which it returns LPV_DONT_CARE. However, the LPM must be prepared to handle 
-<a href="https://msdn.microsoft.com/54251572-22a6-4652-a88c-7ed696911c18">LPM_DeleteState</a> requests for this (nonexisting) state.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_deletestate">LPM_DeleteState</a> requests for this (nonexisting) state.
 
 
 
@@ -178,15 +178,15 @@ The LPM does not need to maintain state for requests to which it returns LPV_DON
 
 
 
-<a href="https://msdn.microsoft.com/0bf84c25-312c-4b4a-8bb1-e8f00711dbe3">LPM_AdmitRsvpMsg</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_admitrsvpmsg">LPM_AdmitRsvpMsg</a>
 
 
 
-<a href="https://msdn.microsoft.com/54251572-22a6-4652-a88c-7ed696911c18">LPM_DeleteState</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_deletestate">LPM_DeleteState</a>
 
 
 
-<a href="https://msdn.microsoft.com/00f4ab59-8808-4bcb-8258-5aad113ad2b5">LPM_Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_initialize">LPM_Initialize</a>
  
 
  

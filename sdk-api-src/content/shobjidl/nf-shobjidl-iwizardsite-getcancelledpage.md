@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
+Called when the user cancels navigation through the wizard extension. Gets the handle of the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Called when the user cancels navigation through the wizard extension. Gets the h
 
 Type: <b>HPROPSHEETPAGE*</b>
 
-A pointer to a handle variable of type <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> that receives the wizard page to display when the user cancels navigation while in the wizard extension.
+A pointer to a handle variable of type <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-_propsheetpagea_v2">PROPSHEETPAGE</a> that receives the wizard page to display when the user cancels navigation while in the wizard extension.
 
 
 

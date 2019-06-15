@@ -62,7 +62,7 @@ The <b>TF_SELECTIONSTYLE</b> structure represents the style of a selection.
 
 ### -field ase
 
-Specifies the active end of the selection. For more information, see <a href="https://msdn.microsoft.com/bb89f0b4-a0b4-42ea-8467-6fc634e37aec">TfActiveSelEnd</a>.
+Specifies the active end of the selection. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfcontext_0001">TfActiveSelEnd</a>.
 
 
 ### -field fInterimChar
@@ -84,12 +84,12 @@ An interim character selection spans exactly one character and is visually repre
 
 
 
-<a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">TF_SELECTION
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/bb89f0b4-a0b4-42ea-8467-6fc634e37aec">TfActiveSelEnd
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ne-msctf-__midl_itfcontext_0001">TfActiveSelEnd
       </a>
  
 

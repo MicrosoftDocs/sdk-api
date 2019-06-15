@@ -82,7 +82,7 @@ Contains the ID of a security principal objecton a directory server.
 
 
 
-<a href="https://msdn.microsoft.com/640359e9-ed65-46c1-a9d4-655e2f6a24df">Failover Cluster Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-structures">Failover Cluster Structures</a>
  
 
  

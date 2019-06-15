@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the menu information set by calling <a href="https://msdn.microsoft.com/afa393eb-05a0-478e-88a2-7c31b4a48930">IShellMenu::SetMenu</a>.
+Gets the menu information set by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">IShellMenu::SetMenu</a>.
 
 
 ## -parameters
@@ -61,21 +61,21 @@ Gets the menu information set by calling <a href="https://msdn.microsoft.com/afa
 
 Type: <b>HMENU*</b>
 
-When this method returns, contains a pointer to an <b>HMENU</b> value that receives the <i>hmenu</i> value that you specified when you called <a href="https://msdn.microsoft.com/afa393eb-05a0-478e-88a2-7c31b4a48930">IShellMenu::SetMenu</a>. This value can be <b>NULL</b>.
+When this method returns, contains a pointer to an <b>HMENU</b> value that receives the <i>hmenu</i> value that you specified when you called <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">IShellMenu::SetMenu</a>. This value can be <b>NULL</b>.
 
 
 ### -param phwnd [out]
 
 Type: <b>HWND*</b>
 
-When this method returns, contains a pointer to an <b>HWND</b> value that receives the <i>hwnd</i> value that you specified when you called <a href="https://msdn.microsoft.com/afa393eb-05a0-478e-88a2-7c31b4a48930">IShellMenu::SetMenu</a>. This value can be <b>NULL</b>.
+When this method returns, contains a pointer to an <b>HWND</b> value that receives the <i>hwnd</i> value that you specified when you called <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">IShellMenu::SetMenu</a>. This value can be <b>NULL</b>.
 
 
 ### -param pdwFlags [out]
 
 Type: <b>DWORD*</b>
 
-When this method returns, contains a pointer to a <b>DWORD</b> value that receives the <i>dwFlags</i> value that you specified when you called <a href="https://msdn.microsoft.com/afa393eb-05a0-478e-88a2-7c31b4a48930">IShellMenu::SetMenu</a>. This value can be <b>NULL</b>.
+When this method returns, contains a pointer to a <b>DWORD</b> value that receives the <i>dwFlags</i> value that you specified when you called <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-setmenu">IShellMenu::SetMenu</a>. This value can be <b>NULL</b>.
 
 
 ## -returns

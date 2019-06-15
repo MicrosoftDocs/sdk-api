@@ -73,7 +73,7 @@ A <b>BSTR</b> variable that contains the value.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 
@@ -82,7 +82,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-You can call the <a href="https://msdn.microsoft.com/2a124fe7-7f28-4911-b5fe-2c98b4187723">Name</a> and <a href="https://msdn.microsoft.com/769eb16b-68c7-4540-bd1d-d04585ba0dfd">Value</a> properties to retrieve the values initialized by calling this method.
+You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a> properties to retrieve the values initialized by calling this method.
 
 
 
@@ -92,15 +92,15 @@ You can call the <a href="https://msdn.microsoft.com/2a124fe7-7f28-4911-b5fe-2c9
 
 
 
-<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">IX509NameValuePair</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a124fe7-7f28-4911-b5fe-2c98b4187723">Name</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_name">Name</a>
 
 
 
-<a href="https://msdn.microsoft.com/769eb16b-68c7-4540-bd1d-d04585ba0dfd">Value</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-get_value">Value</a>
  
 
  

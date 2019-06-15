@@ -81,19 +81,19 @@ The handle to a call. The call state can be any state (if <i>dwSelect</i> is LIN
 ### -param dwSelect
 
 Specifies whether the terminal setting is requested for the line, the address, or just the specified call. If line or address is specified, events either apply to the line or address itself or serve as a default initial setting for all new calls on the line or address. This parameter uses one of the 
-<a href="https://msdn.microsoft.com/f19a41bc-403a-4d4b-ab85-240a73514ebb">LINECALLSELECT_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ constants</a>.
 
 
 ### -param dwTerminalModes
 
 The class(es) of low level events to be routed to the given terminal. Use one of the 
-<a href="https://msdn.microsoft.com/60af1687-8958-4918-be21-a13780c60974">LINETERMMODE_ Constants</a> for this parameter.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ Constants</a> for this parameter.
 
 
 ### -param dwTerminalID
 
 The device identifier of the terminal device where the given events are to be routed. Terminal identifiers are small integers in the range from 0 through <b>dwNumTerminals</b> minus one, where <b>dwNumTerminals</b> and the terminal modes each terminal is capable of handling are indicated by the service provider in 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a>. 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a>. 
 
 
 
@@ -111,7 +111,7 @@ If <b>TRUE</b>, <i>dwTerminalID</i> is valid and the specified event classes are
 
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds, or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALLINEHANDLE, LINEERR_INVALTERMINALID, LINEERR_INVALADDRESSID, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALCALLHANDLE, LINEERR_NOMEM, LINEERR_INVALCALLSELECT, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALTERMINALMODE, LINEERR_OPERATIONFAILED.
 
@@ -135,8 +135,8 @@ This operation can be called any time, even when a call is active on the given l
 This function can be called multiple times to route the same events to multiple terminals simultaneously. To reroute events to a different terminal, TAPI recommends that the application first disable routing to the existing terminal and next route the events to the new terminal. However, the service provider should make its best effort to accommodate the application's requests in any sequence.
 
 Terminal identifier assignments are made by the service provider, and 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> indicates which terminal identifiers the service provider has available. Service providers that don't support this type of event routing indicate that they have no terminal devices (<b>dwNumTerminals</b> in 
-<a href="https://msdn.microsoft.com/83e38453-bb93-4cc5-923f-d0cd2898350a">LINEDEVCAPS</a> is set to zero).
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> indicates which terminal identifiers the service provider has available. Service providers that don't support this type of event routing indicate that they have no terminal devices (<b>dwNumTerminals</b> in 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps_tag">LINEDEVCAPS</a> is set to zero).
 
 <b>LineSetTerminal</b> on a line or address affects all existing calls on that line or address, but does not affect calls on other addresses. It also sets the default for future calls on that line or address. A line or address that has multiple connected calls active at any one time can have different routing in effect for each call.
 
@@ -150,15 +150,15 @@ Disabling the routing of low-level events to a terminal when these events are no
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/f19a41bc-403a-4d4b-ab85-240a73514ebb">LINECALLSELECT_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/60af1687-8958-4918-be21-a13780c60974">LINETERMMODE_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ Constants</a>
  
 
  

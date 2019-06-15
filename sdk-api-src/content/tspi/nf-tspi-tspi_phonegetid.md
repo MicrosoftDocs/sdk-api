@@ -66,7 +66,7 @@ The handle to the phone to be queried.
 ### -param lpDeviceID
 
 A pointer to a data structure of type 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a> where the device identifier is returned. The format of the returned information depends on the method used by the device class (API) for naming devices. Prior to calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> where the device identifier is returned. The format of the returned information depends on the method used by the device class (API) for naming devices. Prior to calling 
 <b>TSPI_phoneGetID</b>, the application sets the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
 
 
@@ -79,7 +79,7 @@ A pointer to a null-terminated Unicode string that specifies the device class of
 
 The process handle of the application on behalf of which the 
 <b>TSPI_phoneGetID</b> function is being invoked. If the information being returned in the 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a> structure includes a handle for use by the application, the service provider creates or duplicates the handle for the process.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> structure includes a handle for use by the application, the service provider creates or duplicates the handle for the process.
 
 
 ## -returns
@@ -98,10 +98,10 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALDEVICECLASS, 
 
 
 This operation can be used to retrieve a phone device identifier given a phone handle. It can also be used to obtain the device identifier of the media device (for device classes such as COM, wave, MIDI, phone, line, and mciwave) associated with the opened phone device. This identifier can then be used with the appropriate media API (such as mci, midi, and wav) to select the corresponding device. For more information about common device class names, see 
-<a href="https://msdn.microsoft.com/b29ea789-d017-4e35-b77a-c0d54ac54c66">TSPI Device Classes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/tspi-device-classes">TSPI Device Classes</a>.
 
 The service provider fills in all the members of the 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
 
 The service provider does not need to be concerned with handling tapi/line and tapi/phone device classes because TAPI handles these for the service provider. Therefore, code for handling these device classes is optional.
 
@@ -113,7 +113,7 @@ The service provider does not need to be concerned with handling tapi/line and t
 
 
 
-<a href="https://msdn.microsoft.com/ec73ed48-db5a-4478-8748-b8e58247c2f4">VARSTRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring_tag">VARSTRING</a>
  
 
  

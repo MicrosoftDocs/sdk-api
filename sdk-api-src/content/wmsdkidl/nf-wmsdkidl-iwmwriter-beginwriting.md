@@ -185,90 +185,90 @@ The required video codec is not available.
 
 
 
-The <b>BeginWriting</b> method must be called before any samples are written. This method does not actually start writing, but initializes the process. Between this call and the call to <a href="https://msdn.microsoft.com/en-us/library/Dd757475(v=VS.85).aspx">EndWriting</a> there can be no configuration changes to the writer. The <b>EndWriting</b> method must be called to cleanly end the writing of the samples.
+The <b>BeginWriting</b> method must be called before any samples are written. This method does not actually start writing, but initializes the process. Between this call and the call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">EndWriting</a> there can be no configuration changes to the writer. The <b>EndWriting</b> method must be called to cleanly end the writing of the samples.
 
 The following operations can be performed only before calling <b>BeginWriting</b>:
 
 <ul>
-<li>Setting the profile with <a href="https://msdn.microsoft.com/en-us/library/Dd757507(v=VS.85).aspx">SetProfile</a>
+<li>Setting the profile with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile">SetProfile</a>
 </li>
-<li>Setting the output filename (if using <a href="https://msdn.microsoft.com/en-us/library/Dd757506(v=VS.85).aspx">IWMWriter::SetOutputFilename</a>)</li>
-<li>Setting an attribute with <a href="https://msdn.microsoft.com/en-us/library/Dd798527(v=VS.85).aspx">IWMHeaderInfo::SetAttribute</a>
+<li>Setting the output filename (if using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>)</li>
+<li>Setting an attribute with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute">IWMHeaderInfo::SetAttribute</a>
 </li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">Marker</a> operations (<a href="https://msdn.microsoft.com/en-us/library/Dd798522(v=VS.85).aspx">IWMHeaderInfo::GetMarkerCount</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd798521(v=VS.85).aspx">GetMarker</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd798516(v=VS.85).aspx">AddMarker</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd798525(v=VS.85).aspx">RemoveMarker</a>, although <b>AddMarker</b> is not implemented on the writer and the rest aren't useful if there are no markers)</li>
-<li>Calling <a href="https://msdn.microsoft.com/en-us/library/Dd757484(v=VS.85).aspx">IWMWriter::SetInputProps</a> with a <b>NULL</b><a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> parameter to indicate that the input stream will be written using <a href="https://msdn.microsoft.com/en-us/library/Dd798741(v=VS.85).aspx">WriteStreamSample</a>.</li>
-<li>Header Script operations (<a href="https://msdn.microsoft.com/en-us/library/Dd798524(v=VS.85).aspx">IWMHeaderInfo::GetScriptCount</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd798523(v=VS.85).aspx">GetScript</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd798517(v=VS.85).aspx">AddScript</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd798526(v=VS.85).aspx">RemoveScript</a>)</li>
-<li>Codec info operations (<a href="https://msdn.microsoft.com/en-us/library/Dd798507(v=VS.85).aspx">IWMHeaderInfo2::GetCodecInfoCount</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798506(v=VS.85).aspx">GetCodecInfo</a>)</li>
+<li><a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">Marker</a> operations (<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarkercount">IWMHeaderInfo::GetMarkerCount</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarker">GetMarker</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addmarker">AddMarker</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removemarker">RemoveMarker</a>, although <b>AddMarker</b> is not implemented on the writer and the rest aren't useful if there are no markers)</li>
+<li>Calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops">IWMWriter::SetInputProps</a> with a <b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> parameter to indicate that the input stream will be written using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample">WriteStreamSample</a>.</li>
+<li>Header Script operations (<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscriptcount">IWMHeaderInfo::GetScriptCount</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscript">GetScript</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addscript">AddScript</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removescript">RemoveScript</a>)</li>
+<li>Codec info operations (<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo2-getcodecinfocount">IWMHeaderInfo2::GetCodecInfoCount</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo2-getcodecinfo">GetCodecInfo</a>)</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798782(v=VS.85).aspx">IWMWriterPostView::SetPostViewProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setpostviewprops">IWMWriterPostView::SetPostViewProps</a>
 </li>
 </ul>
 The following methods can be called only after a profile has been set and before calling <b>BeginWriting</b>:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798520(v=VS.85).aspx">IWMHeaderInfo::GetAttributeCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributecount">IWMHeaderInfo::GetAttributeCount</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/905fdf2c-a398-457e-80e9-aac124301f99">IWMHeaderInfo::GetAttributeByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyindex">IWMHeaderInfo::GetAttributeByIndex</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798519(v=VS.85).aspx">IWMHeaderInfo::GetAttributeByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getattributebyname">IWMHeaderInfo::GetAttributeByName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798723(v=VS.85).aspx">IWMWriterAdvanced2::SetInputSetting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting">IWMWriterAdvanced2::SetInputSetting</a>
 </li>
 </ul>
 
 
-Note: <a href="https://msdn.microsoft.com/en-us/library/Dd798723(v=VS.85).aspx">SetInputSetting</a> can be called after <b>BeginWriting</b> for g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality.
+Note: <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting">SetInputSetting</a> can be called after <b>BeginWriting</b> for g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality.
 
 The following operations can be performed any time after a profile has been set:
 
 <ul>
 <li>Any postview operations except for <b>SetPostViewProps</b></li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757484(v=VS.85).aspx">IWMWriter::SetInputProps</a> except when passing in a <b>NULL</b><a href="https://msdn.microsoft.com/en-us/library/Dd757209(v=VS.85).aspx">IWMInputMediaProps</a> parameter.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setinputprops">IWMWriter::SetInputProps</a> except when passing in a <b>NULL</b><a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> parameter.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757482(v=VS.85).aspx">IWMWriter::GetInputProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops">IWMWriter::GetInputProps</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757480(v=VS.85).aspx">IWMWriter::GetInputFormatCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount">IWMWriter::GetInputFormatCount</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757478(v=VS.85).aspx">IWMWriter::GetInputFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat">IWMWriter::GetInputFormat</a>
 </li>
 </ul>
 The following operations can be performed only after calling <b>BeginWriting</b>:
 
 <ul>
-<li>Allocating samples with <a href="https://msdn.microsoft.com/en-us/library/Dd757473(v=VS.85).aspx">IWMWriter::AllocateSample</a>
+<li>Allocating samples with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-allocatesample">IWMWriter::AllocateSample</a>
 </li>
-<li>Writing samples with <a href="https://msdn.microsoft.com/en-us/library/Dd757509(v=VS.85).aspx">IWMWriter::WriteSample</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798741(v=VS.85).aspx">IWMWriterAdvanced::WriteStreamSample</a>
+<li>Writing samples with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-writestreamsample">IWMWriterAdvanced::WriteStreamSample</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd757475(v=VS.85).aspx">IWMWriter::EndWriting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a>
 </li>
 </ul>
 The following operations can be performed at any time:
 
 <ul>
-<li>Adding and removing a sink with <a href="https://msdn.microsoft.com/en-us/library/Dd798727(v=VS.85).aspx">IWMWriterAdvanced::AddSink</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798736(v=VS.85).aspx">IWMWriterAdvanced::RemoveSink</a>
+<li>Adding and removing a sink with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink">IWMWriterAdvanced::AddSink</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798737(v=VS.85).aspx">IWMWriterAdvanced::SetLiveSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setlivesource">IWMWriterAdvanced::SetLiveSource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798734(v=VS.85).aspx">IWMWriterAdvanced::IsRealTime</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-isrealtime">IWMWriterAdvanced::IsRealTime</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798732(v=VS.85).aspx">IWMWriterAdvanced::GetWriterTime</a> (although it won't return meaningful values)</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getwritertime">IWMWriterAdvanced::GetWriterTime</a> (although it won't return meaningful values)</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798730(v=VS.85).aspx">IWMWriterAdvanced::GetStatistics</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getstatistics">IWMWriterAdvanced::GetStatistics</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798739(v=VS.85).aspx">IWMWriterAdvanced::SetSyncTolerance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-setsynctolerance">IWMWriterAdvanced::SetSyncTolerance</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd798731(v=VS.85).aspx">IWMWriterAdvanced::GetSyncTolerance</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsynctolerance">IWMWriterAdvanced::GetSyncTolerance</a>
 </li>
 </ul>
 
@@ -404,11 +404,11 @@ if ( pWriterNetworkSink )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798719(v=VS.85).aspx">IWMWriter Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757475(v=VS.85).aspx">IWMWriter::EndWriting</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a>
  
 
  

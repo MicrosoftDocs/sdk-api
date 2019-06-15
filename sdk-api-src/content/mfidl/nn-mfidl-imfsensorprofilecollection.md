@@ -54,7 +54,7 @@ Contains a collection of media foundation sensor profile objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProfileCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSensorProfileCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorProfileCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorProfileCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSensorProfileCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt845817(v=VS.85).aspx">AddProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofilecollection-addprofile">AddProfile</a>
 </td>
 <td align="left" width="63%">
 Adds the specified profile to the collection.
@@ -78,7 +78,7 @@ Adds the specified profile to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt845818(v=VS.85).aspx">FindProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofilecollection-findprofile">FindProfile</a>
 </td>
 <td align="left" width="63%">
 Finds a profile based on the specified profile ID.
@@ -87,7 +87,7 @@ Finds a profile based on the specified profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt845819(v=VS.85).aspx">GetProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofilecollection-getprofile">GetProfile</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified profile.
@@ -96,7 +96,7 @@ Retrieves the specified profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt845820(v=VS.85).aspx">RemoveProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofilecollection-removeprofile">RemoveProfile</a>
 </td>
 <td align="left" width="63%">
 removes the specified profile based on the specified profile ID.
@@ -105,7 +105,7 @@ removes the specified profile based on the specified profile ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt845821(v=VS.85).aspx">RemoveProfileByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorprofilecollection-removeprofilebyindex">RemoveProfileByIndex</a>
 </td>
 <td align="left" width="63%">
         Removes a profile based on the specified index.

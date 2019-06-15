@@ -169,9 +169,9 @@ The peer identity cannot be created because there are too many peer identities.
 
 The key pair and the classifier are used to generate the peer name of a new peer identity.  After an peer identity is created, it is automatically stored on the disk.
 
-The name of the identity should be freed by using <a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>.  This does not delete the peer identity.  To delete the identity, use <a href="https://msdn.microsoft.com/9738f6b1-cd88-4950-bab1-f97613a49e03">PeerIdentityDelete</a> function.
+The name of the identity should be freed by using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.  This does not delete the peer identity.  To delete the identity, use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a> function.
 
-If <i>hCryptProv</i> is not <b>NULL</b>, it can be released by using <a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptReleaseContext</a> after the call returns.
+If <i>hCryptProv</i> is not <b>NULL</b>, it can be released by using <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-reference-links">CryptReleaseContext</a> after the call returns.
 
 
 
@@ -181,15 +181,15 @@ If <i>hCryptProv</i> is not <b>NULL</b>, it can be released by using <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/fbd7043d-b2b5-4183-8528-01d3892053e8">CryptReleaseContext</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-reference-links">CryptReleaseContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/54288829-c991-42d6-a7c4-874ed28dd106">PeerFreeData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
 
 
 
-<a href="https://msdn.microsoft.com/9738f6b1-cd88-4950-bab1-f97613a49e03">PeerIdentityDelete</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a>
  
 
  

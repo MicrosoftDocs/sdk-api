@@ -43,7 +43,7 @@ req.redist:
 
 ## -description
 
-The <b>BCryptUnregisterConfigChangeNotify(PRKEVENT)</b> function removes a kernel mode CNG configuration change event handler that was created by using the <a href="https://msdn.microsoft.com/ca30e81d-d384-4574-8394-42542a504218">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
+The <b>BCryptUnregisterConfigChangeNotify(PRKEVENT)</b> function removes a kernel mode CNG configuration change event handler that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
 
 
 ## -parameters
@@ -51,7 +51,7 @@ The <b>BCryptUnregisterConfigChangeNotify(PRKEVENT)</b> function removes a kerne
 ### -param hEvent
 
 The pointer to the event dispatcher object to remove. 
-This is the pointer that was obtained by using the <a href="https://msdn.microsoft.com/ca30e81d-d384-4574-8394-42542a504218">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
+This is the pointer that was obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a> function.
 
 ## -returns
 
@@ -111,5 +111,5 @@ Code executing in user mode must call <a href="https://docs.microsoft.com/window
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ca30e81d-d384-4574-8394-42542a504218">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(PRKEVENT)</a>
 

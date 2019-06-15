@@ -74,7 +74,7 @@ The y-component of a point on the outline of a TrueType character.
 
 
 
-The <b>POINTFX</b> structure is a member of the <a href="https://msdn.microsoft.com/59a26aec-786e-471b-8e08-ddffb04874d6">TTPOLYCURVE</a> and <a href="https://msdn.microsoft.com/eea54aeb-7847-4393-87fa-86de93017be8">TTPOLYGONHEADER</a> structures. Values in the <b>POINTFX</b> structure are specified in device units.
+The <b>POINTFX</b> structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolygonheader">TTPOLYGONHEADER</a> structures. Values in the <b>POINTFX</b> structure are specified in device units.
 
 
 
@@ -84,23 +84,23 @@ The <b>POINTFX</b> structure is a member of the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/b1d94060-e822-447f-82ba-fd1cf2ddaa3b">FIXED</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_fixed">FIXED</a>
 
 
 
-<a href="https://msdn.microsoft.com/93726d5c-d4ed-4681-bf45-cb899f195b5d">Font and Text Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/9944baa9-8e50-40b9-9650-78b0b1d7643a">Fonts and Text Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/59a26aec-786e-471b-8e08-ddffb04874d6">TTPOLYCURVE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolycurve">TTPOLYCURVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/eea54aeb-7847-4393-87fa-86de93017be8">TTPOLYGONHEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagttpolygonheader">TTPOLYGONHEADER</a>
  
 
  

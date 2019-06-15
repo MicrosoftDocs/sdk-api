@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a string from a list box.  You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761313(v=VS.85).aspx">LB_GETTEXT</a> message explicitly.
+Gets a string from a list box.  You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a> message explicitly.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets a string from a list box.  You can use this macro or send the <a href="http
 
 ### -param hwndCtl
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -73,9 +73,9 @@ The zero-based index of the item.
 
 ### -param lpszBuffer
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
-A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://msdn.microsoft.com/en-us/library/Bb856445(v=VS.85).aspx">ListBox_GetTextLen</a> to retrieve the length of the string. 
+A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-listbox_gettextlen">ListBox_GetTextLen</a> to retrieve the length of the string. 
 
 
 
@@ -83,7 +83,7 @@ A pointer to the buffer that will receive the string. The buffer must have suffi
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761313(v=VS.85).aspx">LB_GETTEXT</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-gettext">LB_GETTEXT</a>.
 	
 
 

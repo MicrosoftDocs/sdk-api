@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760596(v=VS.85).aspx">TCM_GETROWCOUNT</a> message explicitly. 
+Retrieves the current number of rows of tabs in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getrowcount">TCM_GETROWCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Retrieves the current number of rows of tabs in a tab control. You can use this 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control. 
 
@@ -68,7 +68,7 @@ Handle to the tab control.
 
 
 
-Only tab controls that have the <a href="https://msdn.microsoft.com/en-us/library/Bb760549(v=VS.85).aspx">TCS_MULTILINE</a> style can have multiple rows of tabs. 
+Only tab controls that have the <a href="https://docs.microsoft.com/windows/desktop/Controls/tab-control-styles">TCS_MULTILINE</a> style can have multiple rows of tabs. 
 
 
 

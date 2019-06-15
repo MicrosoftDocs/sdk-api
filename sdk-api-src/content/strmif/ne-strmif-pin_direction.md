@@ -77,11 +77,11 @@ Output pin.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc36b5d6-bcca-403d-b840-ceabbf159f5d">IPin::QueryDirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-querydirection">IPin::QueryDirection</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Provides an enhanced version of <a href="https://msdn.microsoft.com/2C98A70B-F6B3-4CA7-8D04-958DFCCD2A50">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
+Provides an enhanced version of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
 
 
 ## -parameters
@@ -91,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/f15cb527-0f46-4887-9e02-835f0115bc5b">IMFMediaEngineSrcElementsEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelementsex">IMFMediaEngineSrcElementsEx</a>
  
 
  

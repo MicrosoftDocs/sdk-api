@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CertAddCertificateContextToStore</b> function adds a certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a>.
+The <b>CertAddCertificateContextToStore</b> function adds a certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Handle of a certificate store.
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a31026eea">CERT_CONTEXT</a> structure to be added to the store.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_cert_context">CERT_CONTEXT</a> structure to be added to the store.
 
 
 ### -param dwAddDisposition [in]
@@ -99,7 +99,7 @@ The function makes no check for an existing matching certificate or link to a ma
 </td>
 <td width="60%">
 If a matching certificate or a link to a matching certificate exists, the operation fails. 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns the CRYPT_E_EXISTS code.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
 
 </td>
 </tr>
@@ -111,13 +111,13 @@ If a matching certificate or a link to a matching certificate exists, the operat
 <td width="60%">
 If a matching certificate or a link to a matching certificate exists  and the NotBefore
 time of the existing context is equal to or greater than the
-NotBefore time of the new context being added, the operation fails and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns the CRYPT_E_EXISTS code. 
+NotBefore time of the new context being added, the operation fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code. 
 
 If the NotBefore
 time of the existing context is less than the
 NotBefore time of the new context being added, the existing certificate or link is deleted and a new certificate is created and added to the store. If a matching certificate or a link to a matching certificate does not exist, a new link is added.      
 
-If <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a> (CRLs) or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate trust list</a> (CTLs) are being compared, the ThisUpdate time is  used.
+If <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTLs) are being compared, the ThisUpdate time is  used.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ If <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cer
 <td width="60%">
 If a matching certificate or a link to a matching certificate exists and the NotBefore
 time of the existing context is equal to or greater than the
-NotBefore time of the new context being added, the operation fails and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns the CRYPT_E_EXISTS code. 
+NotBefore time of the new context being added, the operation fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code. 
 
 If the NotBefore
 time of the existing context is less than the
@@ -186,7 +186,7 @@ A pointer to a pointer to the copy to be made of the certificate that was added 
 
 
 The <i>ppStoreContext</i> parameter can be <b>NULL</b>, indicating that the calling application does not require a copy of the added certificate. If a copy is made, it must be freed by using 
-<a href="https://msdn.microsoft.com/7d2f3237-3f8b-4234-b6db-3057384cd89b">CertFreeCertificateContext</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
 
 ## -returns
@@ -196,7 +196,7 @@ The <i>ppStoreContext</i> parameter can be <b>NULL</b>, indicating that the call
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Some possible error codes follow.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -229,8 +229,8 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
  
 
 Errors from the called functions, 
-<a href="https://msdn.microsoft.com/7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d">CertAddEncodedCertificateToStore</a> and 
-<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>, can be propagated to this function.
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>, can be propagated to this function.
 
 
 
@@ -239,11 +239,11 @@ Errors from the called functions,
 
 
 
-The certificate <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">context</a> is not duplicated using <a href="https://msdn.microsoft.com/589edd25-c8d0-4f93-83b2-9df2ed2e2812">CertDuplicateCertificateContext</a>. Instead, the function creates a new copy of the context and adds it to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">store</a>.
+The certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> is not duplicated using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>. Instead, the function creates a new copy of the context and adds it to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">store</a>.
 
-In addition to the encoded certificate, <a href="https://msdn.microsoft.com/589edd25-c8d0-4f93-83b2-9df2ed2e2812">CertDuplicateCertificateContext</a> also copies the context's properties, with the exception of the CERT_KEY_PROV_HANDLE_PROP_ID and CERT_KEY_CONTEXT_PROP_ID properties.
+In addition to the encoded certificate, <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> also copies the context's properties, with the exception of the CERT_KEY_PROV_HANDLE_PROP_ID and CERT_KEY_CONTEXT_PROP_ID properties.
 
-To remove the certificate context from the certificate store, use the  <a href="https://msdn.microsoft.com/4390c8da-9c4d-47a4-9af4-d179829f77f3">CertDeleteCertificateFromStore</a> function.
+To remove the certificate context from the certificate store, use the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certdeletecertificatefromstore">CertDeleteCertificateFromStore</a> function.
 
 <div class="alert"><b>Note</b>  The order of the certificate context may not be preserved within the store. 
 To access a specific certificate you must iterate across the certificates in the store.</div>
@@ -256,15 +256,15 @@ To access a specific certificate you must iterate across the certificates in the
 
 
 
-<a href="https://msdn.microsoft.com/7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d">CertAddEncodedCertificateToStore</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddencodedcertificatetostore">CertAddEncodedCertificateToStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
  
 
  

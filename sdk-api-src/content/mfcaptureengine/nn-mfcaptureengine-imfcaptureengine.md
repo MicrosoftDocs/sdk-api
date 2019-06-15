@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Controls one or more capture devices. The capture engine implements this interface. To get a pointer to this interface, call either <a href="https://msdn.microsoft.com/4B0C9DD6-135D-4412-A585-7E98A84101B5">MFCreateCaptureEngine</a> or <a href="https://msdn.microsoft.com/D5E7D96B-9438-4332-AD05-249D2DA2481A">IMFCaptureEngineClassFactory::CreateInstance</a>.
+Controls one or more capture devices. The capture engine implements this interface. To get a pointer to this interface, call either <a href="https://docs.microsoft.com/windows/desktop/medfound/mfcreatecaptureengine">MFCreateCaptureEngine</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineclassfactory-createinstance">IMFCaptureEngineClassFactory::CreateInstance</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngine</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFCaptureEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFCaptureEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFCaptureEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7DAF5EA3-BA65-4CF9-B7BA-B427A48BF3BC">GetSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">GetSink</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to one of the capture sink objects.
@@ -78,7 +78,7 @@ Gets a pointer to one of the capture sink objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9DED11CA-BDBB-4E1A-BAD1-2EB6216543F9">GetSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsource">GetSource</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the capture source object.
@@ -87,7 +87,7 @@ Gets a pointer to the capture source object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23EC8B49-2F67-4FB8-AFFA-409823ACCF59">Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the capture engine.
@@ -96,7 +96,7 @@ Initializes the capture engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C5BCF990-E7F9-48E9-B082-79953F5ED27C">StartPreview</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startpreview">StartPreview</a>
 </td>
 <td align="left" width="63%">
 Starts preview.
@@ -105,7 +105,7 @@ Starts preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22084409-B2E6-47EF-A59B-A762E9A9191D">StartRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startrecord">StartRecord</a>
 </td>
 <td align="left" width="63%">
 Starts recording audio and/or video to a file.
@@ -114,7 +114,7 @@ Starts recording audio and/or video to a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36DE5079-D4D5-4FC5-8CF6-1F5B3F9E8B66">StopPreview</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoppreview">StopPreview</a>
 </td>
 <td align="left" width="63%">
 Stops preview.
@@ -123,7 +123,7 @@ Stops preview.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/737C23E0-D4EF-4630-A460-2AE56FE50A12">StopRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoprecord">StopRecord</a>
 </td>
 <td align="left" width="63%">
 Stops recording.
@@ -132,7 +132,7 @@ Stops recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6E633E90-9C8B-44B6-9149-704872143147">TakePhoto</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-takephoto">TakePhoto</a>
 </td>
 <td align="left" width="63%">
 Captures a still image from the video stream.
@@ -156,7 +156,7 @@ Captures a still image from the video stream.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

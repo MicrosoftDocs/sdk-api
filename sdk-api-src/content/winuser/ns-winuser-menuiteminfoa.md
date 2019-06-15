@@ -256,7 +256,7 @@ Places the menu item on a new line (for a menu bar) or in a new column (for a dr
 </dl>
 </td>
 <td width="60%">
-Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
+Assigns responsibility for drawing the menu item to the window that owns the menu. The window receives a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> message before the menu is displayed for the first time, and a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message whenever the appearance of the menu item must be updated. If this value is specified, the 
 						<b>dwTypeData</b>   member contains an application-defined value.
 
 </td>
@@ -488,13 +488,13 @@ The contents of the menu item. The meaning of this member depends on the value o
 					<b>fMask</b> member.
 
 To retrieve a menu item of type <b>MFT_STRING</b>, first find the size of the string by setting the 
-						<b>dwTypeData</b> member of <b>MENUITEMINFO</b>  to <b>NULL</b> and then calling <a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>. The value of 
+						<b>dwTypeData</b> member of <b>MENUITEMINFO</b>  to <b>NULL</b> and then calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>. The value of 
 						<b>cch</b>+1 is the size needed. Then allocate a buffer of this size, place the pointer to the buffer in 
 						<b>dwTypeData</b>, increment <b>cch</b>, and call <b>GetMenuItemInfo</b> once again to fill the buffer with the string. If the retrieved menu item is of some other type, then <b>GetMenuItemInfo</b> sets the 
 						<b>dwTypeData</b> member to a value whose type is specified by the 
 						<b>fType</b> member.
 
-When using with the <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a> function, this member should contain a value whose type is specified by the 
+When using with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a> function, this member should contain a value whose type is specified by the 
 						<b>fType</b> member.
 
 <b>dwTypeData</b> is used only if the <b>MIIM_STRING</b> flag is set in the 
@@ -507,9 +507,9 @@ Type: <b>UINT</b>
 
 The length of the menu item text, in 
 					characters, when information is received about a menu item of the <b>MFT_STRING</b> type. However, <b>cch</b> is used only if the <b>MIIM_TYPE</b> flag is set in the 
-					<b>fMask</b> member and is zero otherwise. Also, <b>cch</b> is ignored when the content of a menu item is set by calling <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>.
+					<b>fMask</b> member and is zero otherwise. Also, <b>cch</b> is ignored when the content of a menu item is set by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>.
 
-Note that, before calling <a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>, the application must set <b>cch</b> to the length of the buffer pointed to by the 
+Note that, before calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>, the application must set <b>cch</b> to the length of the buffer pointed to by the 
 						<b>dwTypeData</b> member. If the retrieved menu item is of type <b>MFT_STRING</b> (as indicated by the 
 						<b>fType</b> member), then <b>GetMenuItemInfo</b> changes 
 						<b>cch</b> to the length of the menu item text. If the retrieved menu item is of some other type, <b>GetMenuItemInfo</b> sets the 
@@ -540,7 +540,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A bitmap that is drawn by the window that owns the menu. The application must process the <a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a> messages.
+A bitmap that is drawn by the window that owns the menu. The application must process the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> messages.
 
 </td>
 </tr>
@@ -663,7 +663,7 @@ Windows icon or the icon of the window specified in
 
 
 
-The <b>MENUITEMINFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a> functions.
+The <b>MENUITEMINFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a> functions.
 
 The menu can display items using text, bitmaps, or both.
 
@@ -679,15 +679,15 @@ The menu can display items using text, bitmaps, or both.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -695,15 +695,15 @@ The menu can display items using text, bitmaps, or both.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648001(v=VS.85).aspx">SetMenuItemInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775923(v=VS.85).aspx">WM_DRAWITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775925(v=VS.85).aspx">WM_MEASUREITEM</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
  
 
  

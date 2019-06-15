@@ -59,9 +59,9 @@ The <b>WebSocketCreateServerHandle</b> function creates a server-side WebSocket 
 
 ### -param pProperties [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/c8b35288-4cc1-4839-a5be-4fd13b162c20">PWEB_SOCKET_PROPERTY</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">PWEB_SOCKET_PROPERTY</a></b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/c8b35288-4cc1-4839-a5be-4fd13b162c20">WEB_SOCKET_PROPERTY</a> structures that contain WebSocket session-related properties.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">WEB_SOCKET_PROPERTY</a> structures that contain WebSocket session-related properties.
 
 
 ### -param ulPropertyCount [in]
@@ -73,7 +73,7 @@ Number of properties in <i>pProperties</i>.
 
 ### -param phWebSocket [out]
 
-Type: <b><a href="https://msdn.microsoft.com/D5D42785-CFAC-4324-9194-1BA8056FBAA1">WEB_SOCKET_HANDLE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a>*</b>
 
 On successful output, pointer to a newly allocated server-side WebSocket session handle.
 
@@ -86,7 +86,7 @@ Type: <b>HRESULT</b>
 
 If the function succeeds, it returns <b>S_OK</b>.
 
-If the function fails, it returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> defined in WinError.h.
+If the function fails, it returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 
 
@@ -96,19 +96,19 @@ If the function fails, it returns a <a href="https://msdn.microsoft.com/4a3a8feb
 
 
 
-<a href="https://msdn.microsoft.com/c8b35288-4cc1-4839-a5be-4fd13b162c20">WEB_SOCKET_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-_web_socket_property">WEB_SOCKET_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/fcfa67cf-9121-4f65-bba9-31ebca1291bd">WebSocketAbortHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketaborthandle">WebSocketAbortHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/c61992cc-7715-4fad-a66a-916402088ad0">WebSocketCreateClientHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ee21ee8-1375-4b42-8d04-64368e299b3e">WebSocketDeleteHandle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketdeletehandle">WebSocketDeleteHandle</a>
  
 
  

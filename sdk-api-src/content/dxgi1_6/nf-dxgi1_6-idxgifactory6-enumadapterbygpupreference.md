@@ -67,7 +67,7 @@ The index of the adapter to enumerate. The indices are in order of the preferenc
 
 ### -param GpuPreference [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4228FF8B-968B-42B5-8355-226C7FE9F230">DXGI_GPU_PREFERENCE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/ne-dxgi1_6-dxgi_gpu_preference">DXGI_GPU_PREFERENCE</a></b>
 
 The GPU preference for the app.
 
@@ -76,14 +76,14 @@ The GPU preference for the app.
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/CB4BC8A4-D5D5-48B9-A477-65A12A43D4A6">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
+The globally unique identifier (GUID) of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgifactory6">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
 
 
 ### -param ppvAdapter [out]
 
 Type: <b>void**</b>
 
-            The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> interface pointer to the adapter.
+            The address of an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a> interface pointer to the adapter.
             This parameter must not be NULL.
 
 
@@ -93,7 +93,7 @@ Type: <b>void**</b>
 
 Type: <b>HRESULT</b>
 
-Returns <b>S_OK</b> if successful; an error code otherwise. For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+Returns <b>S_OK</b> if successful; an error code otherwise. For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
 
 
@@ -130,7 +130,7 @@ When <b>DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE</b> is specified for the <i>GpuPref
 
 
 
-<a href="https://msdn.microsoft.com/CB4BC8A4-D5D5-48B9-A477-65A12A43D4A6">IDXGIFactory6</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgifactory6">IDXGIFactory6</a>
 
 
 

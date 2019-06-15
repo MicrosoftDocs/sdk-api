@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains initialization parameters for an <a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a> (OPM) session.
+Contains initialization parameters for an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) session.
 
 
 ## -struct-fields
@@ -59,14 +59,14 @@ Contains initialization parameters for an <a href="https://msdn.microsoft.com/da
 
 ### -field abEncryptedInitializationParameters
 
-Pointer to a buffer that contains encrypted initialization parameters for the session. For more information, see <a href="https://msdn.microsoft.com/7551e374-8745-405b-9879-d35a92d661ea">IOPMVideoOutput::FinishInitialization</a>.
+Pointer to a buffer that contains encrypted initialization parameters for the session. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-finishinitialization">IOPMVideoOutput::FinishInitialization</a>.
 
 
 ## -remarks
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/en-us/library/Dd373426(v=VS.85).aspx">AMCOPPSignature</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_amcoppsignature">AMCOPPSignature</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 
@@ -76,11 +76,11 @@ The layout of this structure is identical to the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/676a60ca-393e-4b5d-89d3-50cf4b771492">OPM Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/daae615b-37c4-4044-91c6-693357e0016a">Output Protection Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>Reset</b> method resets the enumerator 
-    so that <a href="https://msdn.microsoft.com/9bfaba94-802f-47f5-9843-acc05b32f1b2">IVssEnumObject:Next</a> starts at the first 
+    so that <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a> starts at the first 
     enumerated object.
 
 
@@ -106,11 +106,11 @@ There was an internal error in the enumerator.
 
 
 
-<a href="https://msdn.microsoft.com/b8e80909-a28a-45d7-87e2-4f44bf6990f4">IVssEnumObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/9bfaba94-802f-47f5-9843-acc05b32f1b2">IVssEnumObject:Next</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject:Next</a>
  
 
  

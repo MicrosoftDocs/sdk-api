@@ -120,7 +120,7 @@ This method may return devices that have been connected previously, but that do 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563748(v=VS.85).aspx">IWMPSyncServices Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices">IWMPSyncServices Interface</a>
  
 
  

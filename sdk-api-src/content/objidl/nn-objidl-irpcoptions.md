@@ -54,7 +54,7 @@ Enables callers to set or query the values of various properties that control ho
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRpcOptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRpcOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRpcOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82f59cad-3718-4202-99d3-c3aafb8dbf56">Query</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcoptions-query">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of an RPC binding option property.
@@ -78,7 +78,7 @@ Retrieves the value of an RPC binding option property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4412e45-adc7-47e4-a19c-9ada6407e6dc">Set</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcoptions-set">Set</a>
 </td>
 <td align="left" width="63%">
 Sets the value of an RPC binding option property.

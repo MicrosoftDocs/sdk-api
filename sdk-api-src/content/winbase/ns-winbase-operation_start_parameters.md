@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/3E67057E-D09F-48BA-A95A-5D00F4783D9C">OperationStart</a> function. 
+This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a> function. 
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ This API was introduced in Windows 8 and Windows Server 2012 as version 1.
 
 ### -field OperationId
 
-Each operation has an <a href="https://msdn.microsoft.com/D5446D23-DBB5-4EB8-97E4-590537A33193">OPERATION_ID</a> namespace that is unique for each process. If two applications both use the same <b>OPERATION_ID</b> value to identify two operations, the system maintains separate contexts for each operation. 
+Each operation has an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a> namespace that is unique for each process. If two applications both use the same <b>OPERATION_ID</b> value to identify two operations, the system maintains separate contexts for each operation. 
 
 
 ### -field Flags
@@ -119,23 +119,23 @@ Specifies that the system should only track the activities of the calling thread
 
 
 
-<a href="https://msdn.microsoft.com/45ABFE6A-7B70-418F-8C3C-6388079D1306">OPERATION_END_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_operation_end_parameters">OPERATION_END_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/D5446D23-DBB5-4EB8-97E4-590537A33193">OPERATION_ID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1051b62-0e67-4480-81c6-cb138d3296d6">Operation Recorder</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/-operation-portal">Operation Recorder</a>
 
 
 
-<a href="https://msdn.microsoft.com/73C6FBDD-BB4A-46A5-8E39-7862A1938F47">OperationEnd </a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd </a>
 
 
 
-<a href="https://msdn.microsoft.com/3E67057E-D09F-48BA-A95A-5D00F4783D9C">OperationStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a>
  
 
  

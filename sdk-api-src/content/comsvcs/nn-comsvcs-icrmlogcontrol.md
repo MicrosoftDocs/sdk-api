@@ -54,7 +54,7 @@ Is the means by which the CRM Worker and CRM Compensator write records to the lo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmLogControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICrmLogControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmLogControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmLogControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICrmLogControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/547c9e31-62a0-413e-8371-20356bfe8906">ForceLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-forcelog">ForceLog</a>
 </td>
 <td align="left" width="63%">
 Forces all log records to be durable on disk.
@@ -78,7 +78,7 @@ Forces all log records to be durable on disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a0289c6-d177-40a3-968d-96ae3179e78d">ForceTransactionToAbort</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-forcetransactiontoabort">ForceTransactionToAbort</a>
 </td>
 <td align="left" width="63%">
 Performs an immediate abort call on the transaction.
@@ -87,7 +87,7 @@ Performs an immediate abort call on the transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1871ca0-0586-41de-9684-2babaafe8796">ForgetLogRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-forgetlogrecord">ForgetLogRecord</a>
 </td>
 <td align="left" width="63%">
 Forgets the last log record written by this instance of the interface.
@@ -96,7 +96,7 @@ Forgets the last log record written by this instance of the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/35cfadf5-f1be-4383-bb34-f68543df0abb">get_TransactionUOW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-get_transactionuow">get_TransactionUOW</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transaction unit of work (UOW) without having to log the transaction UOW in the log record.
@@ -105,7 +105,7 @@ Retrieves the transaction unit of work (UOW) without having to log the transacti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7907dff-a4a1-4526-8dab-547e819199ec">RegisterCompensator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a>
 </td>
 <td align="left" width="63%">
 The CRM Worker uses this method to register the CRM Compensator with the CRM infrastructure.
@@ -114,7 +114,7 @@ The CRM Worker uses this method to register the CRM Compensator with the CRM inf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b2cbd9dc-5451-4aae-b2ce-28b2b93fd465">WriteLogRecord</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-writelogrecord">WriteLogRecord</a>
 </td>
 <td align="left" width="63%">
 The CRM Worker and CRM Compensator use this method to write unstructured log records to the log.
@@ -123,7 +123,7 @@ The CRM Worker and CRM Compensator use this method to write unstructured log rec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ebd3943d-0c77-49fe-a53e-bc0c45e13a54">WriteLogRecordVariants</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-writelogrecordvariants">WriteLogRecordVariants</a>
 </td>
 <td align="left" width="63%">
 The CRM Worker and CRM Compensator use this method to write structured log records to the log.
@@ -137,7 +137,7 @@ The CRM Worker and CRM Compensator use this method to write structured log recor
 
 
 
-The CRM Compensator receives this interface after its instantiation using the <a href="https://msdn.microsoft.com/a68e49c7-a0d3-4c37-b438-864578e4a680">ICrmCompensator::SetLogControl</a> or the <a href="https://msdn.microsoft.com/5cf602fb-b5b9-471b-b617-9df6725eaf35">ICrmCompensatorVariants::SetLogControlVariants</a> method.
+The CRM Compensator receives this interface after its instantiation using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensator-setlogcontrol">ICrmCompensator::SetLogControl</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-setlogcontrolvariants">ICrmCompensatorVariants::SetLogControlVariants</a> method.
 
 In addition to the return values listed for each method, the methods can also return error codes from the Distributed Transaction Coordinator (DTC) or other standard COM error codes.
 
@@ -149,7 +149,7 @@ In addition to the return values listed for each method, the methods can also re
 
 
 
-<a href="https://msdn.microsoft.com/3d490da6-1577-4a77-9f7d-6188f96f2914">COM+ Compensating Resource Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
  
 
  

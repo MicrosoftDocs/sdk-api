@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel format is one of the canonical formats: <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat32bppARGB</a> or <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat64bppARGB</a>.
+The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel format is one of the canonical formats: <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat32bppARGB</a> or <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat64bppARGB</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>IsCanonicalPixelFormat</b> method determines whether a specified pixel fo
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">Pixe
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If the pixel format is <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat32bppARGB</a> or <b>PixelFormat64bppARGB</b>, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+If the pixel format is <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constant-image-pixel-format-constants">PixelFormat32bppARGB</a> or <b>PixelFormat64bppARGB</b>, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 

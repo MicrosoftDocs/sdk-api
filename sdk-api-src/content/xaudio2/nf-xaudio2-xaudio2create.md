@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a> interface.
+Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> interface.
 
 
 ## -parameters
@@ -59,20 +59,20 @@ Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https:
 
 ### -param ppXAudio2 [out]
 
-If the operation is successful, returns a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a> object.
+If the operation is successful, returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object.
 
 
 ### -param X2DEFAULT [in]
 
-Flags that specify the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a> object. The value of this parameter must be 0.
+Flags that specify the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object. The value of this parameter must be 0.
 
 
 #### - XAudio2Processor [in]
 
-An <a href="https://msdn.microsoft.com/29E67C0A-36EB-47B2-8708-36EC733D0D37">XAUDIO2_PROCESSOR</a>-typed value that specifies which CPU to use.
+An <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a>-typed value that specifies which CPU to use.
 
 
-<a href="https://msdn.microsoft.com/29E67C0A-36EB-47B2-8708-36EC733D0D37">XAUDIO2_PROCESSOR</a> default value is XAUDIO2_DEFAULT_PROCESSOR.
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a> default value is XAUDIO2_DEFAULT_PROCESSOR.
 
 <div class="alert"><b>Note</b>  Specifying a processor should generally be avoided because it can interfere with the scheduler's ability to schedule threads effectively across processors. Instead, pass the XAUDIO2_DEFAULT_PROCESSOR value (see below).</div>
 <div> </div>
@@ -83,7 +83,7 @@ The special XAUDIO2_DEFAULT_PROCESSOR value causes XAudio2 to use its default pr
 
 
 
-Returns S_OK if successful, an error code otherwise. See <a href="https://msdn.microsoft.com/42a1c21c-4b14-114a-d79e-15a61eb2139b">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes. 
+Returns S_OK if successful, an error code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes. 
 
 
 
@@ -112,11 +112,11 @@ Windows 10 (XAudio2.9);
 
 
 
-<a href="https://msdn.microsoft.com/40f79959-23c9-4513-363b-2f2fc85e4c0a">How to: Build a Basic Audio Processing Graph</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--build-a-basic-audio-processing-graph">How to: Build a Basic Audio Processing Graph</a>
 
 
 
-<a href="https://msdn.microsoft.com/870a0425-3226-7848-bcc0-0ba7145135cb">XAudio2 Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
  
 
  

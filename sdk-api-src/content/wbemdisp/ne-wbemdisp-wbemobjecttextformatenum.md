@@ -51,10 +51,10 @@ ms.custom: 19H1
 
 The 
 WbemObjectTextFormatEnum constants define the valid object text formats to be used by 
-<a href="https://msdn.microsoft.com/98961d94-8360-4ed7-b1b1-20b4fca45d45">SWbemObjectEx.GetText_</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobjectex-gettext-">SWbemObjectEx.GetText_</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 
 ## -enum-fields
@@ -132,11 +132,11 @@ Not supported.
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/81384e65-5ea0-420a-b92f-e93d5e545252">WbemTextFlagEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemtextflagenum">WbemTextFlagEnum</a>
  
 
  

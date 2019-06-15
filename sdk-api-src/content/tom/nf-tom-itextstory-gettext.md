@@ -63,7 +63,7 @@ Type: <b>long</b>
 
 The conversion flags.
 
-A <i>Flags</i> value of 0 retrieves text the same as <a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">ITextRange::GetText</a>.  Other values include the following.
+A <i>Flags</i> value of 0 retrieves text the same as <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-gettext">ITextRange::GetText</a>.  Other values include the following.
 
 <a id="tomAdjustCRLF"></a>
 <a id="tomadjustcrlf"></a>
@@ -147,9 +147,9 @@ The text in the story.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://msdn.microsoft.com/15f3ae3e-1794-4948-a7aa-6309a703364b">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -199,7 +199,7 @@ Insufficient memory.
 
 
 
-This method is similar to using <a href="https://msdn.microsoft.com/77f39808-b39d-45bb-ba03-3a27d503fe0e">ITextRange2::GetText2</a> for a whole story, but it doesn’t require a range.
+This method is similar to using <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettext2">ITextRange2::GetText2</a> for a whole story, but it doesn’t require a range.
 
 
 
@@ -209,11 +209,11 @@ This method is similar to using <a href="https://msdn.microsoft.com/77f39808-b39
 
 
 
-<a href="https://msdn.microsoft.com/8b52c6e8-c250-4cfb-979e-770df9f94010">ITextStory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://msdn.microsoft.com/9efd45ed-00f7-47e1-90e7-82a420e79bdf">ITextStory::SetText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-settext">ITextStory::SetText</a>
  
 
  

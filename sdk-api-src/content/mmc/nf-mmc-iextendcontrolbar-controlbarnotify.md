@@ -89,13 +89,13 @@ A menu button on the toolbar is clicked.
 ### -param arg [in]
 
 Depends on the event parameter. For more information, see 
-<a href="https://msdn.microsoft.com/8d5aa622-5668-495a-bc3a-25b863fbcb81">MMC Notifications</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>.
 
 
 ### -param param [in]
 
 Depends on the event parameter. For more information, see 
-<a href="https://msdn.microsoft.com/8d5aa622-5668-495a-bc3a-25b863fbcb81">MMC Notifications</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>.
 
 
 ## -returns
@@ -121,7 +121,7 @@ For more information, see the individual notifications. The snap-in should retur
 
 
 
-<a href="https://msdn.microsoft.com/cf9c9fe9-f58f-47f0-9051-86a514df0c6d">IToolbar</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
  
 
  

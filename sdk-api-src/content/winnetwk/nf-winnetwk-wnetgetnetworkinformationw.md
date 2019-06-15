@@ -68,7 +68,7 @@ Pointer to a constant null-terminated string that contains the name of the netwo
 ### -param lpNetInfoStruct [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/2f60209f-7777-4130-b212-245673dd0055">NETINFOSTRUCT</a> structure. The structure describes characteristics of the network.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netinfostruct">NETINFOSTRUCT</a> structure. The structure describes characteristics of the network.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Pointer to a
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of the following values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -119,32 +119,32 @@ The <b>cbStructure</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/2f60209f-7777-4130-b212-245673dd0055">NETINFOSTRUCT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-_netinfostruct">NETINFOSTRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/c53d078e-188a-4371-bdb9-fc023bc0c1ba">NETRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c58c6d0-d5fe-447e-be39-df34072c160e">WNetEnumResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1369098-c574-4d5f-8051-ca5aa548e63f">WNetGetProviderName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetprovidernamea">WNetGetProviderName</a>
 
 
 
-<a href="https://msdn.microsoft.com/d99a549a-bf27-497f-a3be-bbe2c668bf90">WNetOpenEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/7668ac55-7104-4ddb-88eb-920cfe4e36fd">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/95e30f8f-a326-424d-bd80-5fc9b3078dad">Windows
+<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
  
 

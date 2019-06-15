@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains information that defines the format of a currency string. The <a href="https://msdn.microsoft.com/43c51deb-ca92-4e14-8c27-3b588b7be061">GetCurrencyFormat</a> function uses this information to customize a currency string for a specified locale.
+Contains information that defines the format of a currency string. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformata">GetCurrencyFormat</a> function uses this information to customize a currency string for a specified locale.
 
 
 
@@ -62,12 +62,12 @@ Contains information that defines the format of a currency string. The <a href="
 
 ### -field NumDigits
 
-Number of fractional digits. This number is equivalent to <a href="https://msdn.microsoft.com/8c2b0bb7-296e-40cb-90a5-da131b365c1b">LOCALE_ICURRDIGITS</a>.
+Number of fractional digits. This number is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-icurrdigits">LOCALE_ICURRDIGITS</a>.
 
 
 ### -field LeadingZero
 
-Value indicating if leading zeros should be used in decimal fields. This value is equivalent to <a href="https://msdn.microsoft.com/396d437f-09af-475f-8e73-de31d9a305da">LOCALE_ILZERO</a>.
+Value indicating if leading zeros should be used in decimal fields. This value is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ilzero">LOCALE_ILZERO</a>.
 
 
 ### -field Grouping
@@ -89,12 +89,12 @@ Pointer to a null-terminated thousand separator string.
 
 ### -field NegativeOrder
 
-Negative currency mode. This mode is equivalent to <a href="https://msdn.microsoft.com/3a1e4a63-31bd-4ff9-a3ca-af357389e179">LOCALE_INEGCURR</a>.
+Negative currency mode. This mode is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ineg-constants">LOCALE_INEGCURR</a>.
 
 
 ### -field PositiveOrder
 
-Positive currency mode. This mode is equivalent to <a href="https://msdn.microsoft.com/af98a851-f401-4a5a-b85f-ec9d97d7ede0">LOCALE_ICURRENCY</a>.
+Positive currency mode. This mode is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-icurrency">LOCALE_ICURRENCY</a>.
 
 
 ### -field lpCurrencySymbol
@@ -107,11 +107,11 @@ Pointer to a null-terminated currency symbol string.
 
 
 
-<a href="https://msdn.microsoft.com/43c51deb-ca92-4e14-8c27-3b588b7be061">GetCurrencyFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformata">GetCurrencyFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/75382149-7d4e-4b3e-929e-ee39bf666110">National Language Support Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
  
 
  

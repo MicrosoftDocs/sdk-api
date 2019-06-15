@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Enables an app to listen to the <a href="https://msdn.microsoft.com/101e73ec-34ec-49af-999d-5410f46ff319">RtwqStartup</a> and <a href="https://msdn.microsoft.com/806c4142-b628-4ea0-b5e2-d2b4ead73c04">RtwqShutdown</a> functions.
+Enables an app to listen to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqstartup">RtwqStartup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqshutdown">RtwqShutdown</a> functions.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Enables an app to listen to the <a href="https://msdn.microsoft.com/101e73ec-34e
 
 ### -param platformEvents [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/9184D930-9305-4CA0-8E89-0CBAA5E4D53F">IRtwqPlatformEvents</a>  object which provides the events.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqplatformevents">IRtwqPlatformEvents</a>  object which provides the events.
 
 
 ## -returns

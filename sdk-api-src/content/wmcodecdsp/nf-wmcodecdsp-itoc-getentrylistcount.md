@@ -95,11 +95,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/5c457eb4-3034-40e3-93b6-e421c2e34bcf">GetEntryListByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264285(v%3dvs.85)">GetEntryListByIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a116100911d0">IToc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>CRYPT_KEY_SIGN_MESSAGE_PARA</b> structure contains information about the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) and algorithms used to sign a message.
+The <b>CRYPT_KEY_SIGN_MESSAGE_PARA</b> structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) and algorithms used to sign a message.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Specifies the type of message and certificate encoding used. This can be a combi
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> certificate encoding.
+Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Specifies PKCS 7 message encoding.
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-The handle of the CSP to use to sign the message. The <a href="https://msdn.microsoft.com/57e13662-3189-4f8d-b90a-d1fbdc09b63c">CryptAcquireContext</a> function is called to obtain this handle.
+The handle of the CSP to use to sign the message. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function is called to obtain this handle.
 
 
 ### -field DUMMYUNIONNAME.hNCryptKey
@@ -113,7 +113,7 @@ The handle of the Cryptography API: Next Generation (CNG) CSP to use to sign the
 
 ### -field dwKeySpec
 
-Identifies the type of <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> to use to sign the message. This must be one of the following values. This member is ignored if a CNG key is passed in the <i>hNCryptKey</i> member.
+Identifies the type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to use to sign the message. This must be one of the following values. This member is ignored if a CNG key is passed in the <i>hNCryptKey</i> member.
 
 <table>
 <tr>
@@ -146,7 +146,7 @@ Use the digital signature key.
 
 ### -field HashAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to generate the hash of the message. This must be a hash algorithm.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to generate the hash of the message. This must be a hash algorithm.
 
 
 ### -field pvHashAuxInfo
@@ -156,5 +156,5 @@ This member is not used and must be set to <b>NULL</b>.
 
 ### -field PubKeyAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to sign the message. This must be either a public key or a signature algorithm.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-_crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to sign the message. This must be either a public key or a signature algorithm.
 

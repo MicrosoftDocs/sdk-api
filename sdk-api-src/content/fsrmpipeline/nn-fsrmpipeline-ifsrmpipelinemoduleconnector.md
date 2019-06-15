@@ -52,14 +52,14 @@ ms.custom: 19H1
 Creates the communication channel between FSRM and your pipeline module implementation.
 
 Your pipeline module implementation must create this interface and To create this interface, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileManagementJobManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileManagementJobManager)</code> as the interface identifier.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPipelineModuleConnector</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFsrmPipelineModuleConnector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmPipelineModuleConnector</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmPipelineModuleConnector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,7 +75,7 @@ The <b>IFsrmPipelineModuleConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ac8ecc7-a02e-46ce-ac95-35a7dd38e631">Bind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleconnector-bind">Bind</a>
 </td>
 <td align="left" width="63%">
 Binds the pipeline module implementation to the FSRM communication channel.
@@ -93,7 +93,7 @@ Binds the pipeline module implementation to the FSRM communication channel.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bd9259de-35e4-46e9-9994-388c3ac77172">HostingProcessPid</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleconnector-get_hostingprocesspid">HostingProcessPid</a>
 
 
 </td>
@@ -109,7 +109,7 @@ The process identifier of the module.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c5935160-81e9-4e2a-88ac-a37d2a78fcff">HostingUserAccount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleconnector-get_hostinguseraccount">HostingUserAccount</a>
 
 
 </td>
@@ -125,7 +125,7 @@ The user account under which the module runs.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0399ffd6-39c1-40fe-8cfa-c627bbd59680">ModuleImplementation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleconnector-get_moduleimplementation">ModuleImplementation</a>
 
 
 </td>
@@ -141,7 +141,7 @@ The interface that implements the pipeline module.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ef64a255-94da-4d42-af90-1ac9b2c0fbbc">ModuleName</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleconnector-get_modulename">ModuleName</a>
 
 
 </td>
@@ -162,20 +162,20 @@ The name of the module.
 
 
 Your 
-    <a href="https://msdn.microsoft.com/69d848b9-4143-4b6c-9a45-66ff44c54b66">IFsrmPipelineModuleImplementation::OnLoad</a> 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload">IFsrmPipelineModuleImplementation::OnLoad</a> 
     implementation must create an instance of an object implementing this interface. To create this instance, call the 
-    <a href="https://msdn.microsoft.com/en-us/library/ms680701(v=VS.85).aspx">CoCreateInstanceEx</a> function. Use 
+    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmPipelineModuleConnector</b> as the class identifier and 
     <code>__uuidof(IFsrmPipelineModuleConnector)</code> as the interface identifier. Use 
-    the <a href="https://msdn.microsoft.com/dcb82ff2-56e4-4c7e-a621-7ffd0f1a9d8e">CLSCTX_INPROC_SERVER</a> class context to create the instance.
+    the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-tagclsctx">CLSCTX_INPROC_SERVER</a> class context to create the instance.
 
 After the instance has been created, 
-    <a href="https://msdn.microsoft.com/4ac8ecc7-a02e-46ce-ac95-35a7dd38e631">IFsrmPipelineModuleConnector::Bind</a> must 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleconnector-bind">IFsrmPipelineModuleConnector::Bind</a> must 
     be called before you can return the instance in your 
-    <a href="https://msdn.microsoft.com/69d848b9-4143-4b6c-9a45-66ff44c54b66">OnLoad</a> implementation.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload">OnLoad</a> implementation.
 
 For more information on how to create and bind an instance, see 
-    <a href="https://msdn.microsoft.com/92568969-7ee6-4584-a400-ee2aa79961e8">Initializing and Binding a Pipeline Module</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/initializing-and-binding-a-pipeline-module">Initializing and Binding a Pipeline Module</a>.
 
 
 
@@ -185,11 +185,11 @@ For more information on how to create and bind an instance, see
 
 
 
-<a href="https://msdn.microsoft.com/bbd888d9-1005-4173-8e82-ced13e68c09e">FSRM Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b00f4d1f-2920-4ec4-ae90-756b2600198b">FsrmPipelineModuleConnector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmpipelinemoduleconnector">FsrmPipelineModuleConnector</a>
  
 
  

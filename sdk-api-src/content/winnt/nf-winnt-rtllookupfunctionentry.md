@@ -96,11 +96,11 @@ If there is no entry in the function table for the specified PC, the function re
 
 
 
-<a href="https://msdn.microsoft.com/3d2d8778-311e-4cc1-b280-4f83ab457755">RtlUnwindEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlunwindex">RtlUnwindEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/78d60f7a-0e16-4856-8aca-c251ab066b83">RtlVirtualUnwind</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-rtlvirtualunwind">RtlVirtualUnwind</a>
  
 
  

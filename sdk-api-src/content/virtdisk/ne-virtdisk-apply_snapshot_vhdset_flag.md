@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Mt638034(v=VS.85).aspx">ApplySnapshotVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-applysnapshotvhdset">ApplySnapshotVhdSet</a> function.
 
 
 ## -enum-fields

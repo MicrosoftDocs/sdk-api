@@ -59,65 +59,65 @@ Describes a shader signature.
 
 ### -field SemanticName
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
-A per-parameter string that identifies how the data will be used. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">Semantics</a>. 
+A per-parameter string that identifies how the data will be used. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">Semantics</a>. 
 
 
 ### -field SemanticIndex
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Semantic index that modifies the semantic. Used to differentiate different parameters that use the same semantic.
 
 
 ### -field Register
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The register that will contain this variable's data.
 
 
 ### -field SystemValueType
 
-Type: <b><a href="https://msdn.microsoft.com/16675331-36cf-4086-a753-6d80ee934ace">D3D_NAME</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name">D3D_NAME</a></b>
 
-A <a href="https://msdn.microsoft.com/16675331-36cf-4086-a753-6d80ee934ace">D3D_NAME</a>-typed value that identifies a predefined string that determines the functionality of certain pipeline stages.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name">D3D_NAME</a>-typed value that identifies a predefined string that determines the functionality of certain pipeline stages.
 
 
 ### -field ComponentType
 
-Type: <b><a href="https://msdn.microsoft.com/71e3c707-745b-40b4-ba3c-6c501196e3d3">D3D_REGISTER_COMPONENT_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_register_component_type">D3D_REGISTER_COMPONENT_TYPE</a></b>
 
-A <a href="https://msdn.microsoft.com/71e3c707-745b-40b4-ba3c-6c501196e3d3">D3D_REGISTER_COMPONENT_TYPE</a>-typed value that identifies the per-component-data type that is stored in a register.  Each register can store up to four-components of data.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_register_component_type">D3D_REGISTER_COMPONENT_TYPE</a>-typed value that identifies the per-component-data type that is stored in a register.  Each register can store up to four-components of data.
 
 
 ### -field Mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Mask which indicates which components of a register are used.
 
 
 ### -field ReadWriteMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Mask which indicates whether a given component is never written (if the signature is an output signature) or always read (if the signature is an input signature). 
 
 
 ### -field Stream
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Indicates which stream the geometry shader is using for the signature parameter.
 
 
 ### -field MinPrecision
 
-Type: <b><a href="https://msdn.microsoft.com/C97D04D7-EAE4-4E5B-80A2-EDB1CE68C2BC">D3D_MIN_PRECISION</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_min_precision">D3D_MIN_PRECISION</a></b>
 
-A <a href="https://msdn.microsoft.com/C97D04D7-EAE4-4E5B-80A2-EDB1CE68C2BC">D3D_MIN_PRECISION</a>-typed value that indicates the minimum desired interpolation precision. For more info, see <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_min_precision">D3D_MIN_PRECISION</a>-typed value that indicates the minimum desired interpolation precision. For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/using-hlsl-minimum-precision">Using HLSL minimum precision</a>.
 
 
 ## -remarks
@@ -128,7 +128,7 @@ A shader can take n inputs and can produce m outputs. The order of the input (or
 
 When compiling a shader or an effect, some API calls validate shader signatures  That is, they compare the output signature of one shader (like a vertex shader) with the input signature of another shader (like a pixel shader). This ensures that a shader outputs data that is compatible with a downstream shader that is consuming that data. Compatible means that a shader signature is a exact-match subset of the preceding shader stage. Exact match means parameter types and semantics must exactly match. Subset means that a parameter that is not required by a downstream stage, does not need to include that parameter in its shader signature.
 
-Get a shader-signature from a shader or an effect by calling APIs such as <a href="https://msdn.microsoft.com/6483634d-6050-4218-98ee-a7062efcbe64">ID3D11ShaderReflection::GetInputParameterDesc</a>. 
+Get a shader-signature from a shader or an effect by calling APIs such as <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11shaderreflection-getinputparameterdesc">ID3D11ShaderReflection::GetInputParameterDesc</a>. 
 
 
 
@@ -138,7 +138,7 @@ Get a shader-signature from a shader or an effect by calling APIs such as <a hre
 
 
 
-<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
  
 
  

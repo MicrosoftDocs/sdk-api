@@ -74,10 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After the frame <b>Commit</b> has been called, you can't use or reinitialize the <a href="https://msdn.microsoft.com/a8de774b-3783-46be-9a21-c9fec2f10ffd">IWICBitmapFrameEncode</a> object and any objects created from it.
+After the frame <b>Commit</b> has been called, you can't use or reinitialize the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object and any objects created from it.
 
 
-To finalize the image, both the frame <b>Commit</b> and the encoder <a href="https://msdn.microsoft.com/97e39e73-3494-4679-8962-eb48242f9b9f">Commit</a> must be called. However, only call the encoder  <b>Commit</b> method after all frames have been committed.
+To finalize the image, both the frame <b>Commit</b> and the encoder <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-commit">Commit</a> must be called. However, only call the encoder  <b>Commit</b> method after all frames have been committed.
 
 
 
@@ -87,11 +87,11 @@ To finalize the image, both the frame <b>Commit</b> and the encoder <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/97e39e73-3494-4679-8962-eb48242f9b9f">Commit</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-commit">Commit</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8de774b-3783-46be-9a21-c9fec2f10ffd">IWICBitmapFrameEncode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a>
  
 
  

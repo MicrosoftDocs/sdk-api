@@ -68,9 +68,9 @@ The new x-coordinate of the center point.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-error-codes">DirectComposition Error Codes</a>  for a list of error codes.
 
 
 
@@ -94,11 +94,11 @@ If the CenterX property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/6c92bd6b-4479-45c2-986c-0a6c91248361">IDCompositionRotateTransform</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrotatetransform">IDCompositionRotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/4C586C46-AA3E-4572-AFD6-8661BD26AC50">IDCompositionRotateTransform::SetCenterY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448988(v=vs.85)">IDCompositionRotateTransform::SetCenterY</a>
  
 
  

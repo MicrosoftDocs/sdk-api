@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-  A <a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a> structure points to the <b>PEER_EVENT_CONNECTION_CHANGE_DATA</b> structure if one of the following peer events is triggered:
+  A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a> structure points to the <b>PEER_EVENT_CONNECTION_CHANGE_DATA</b> structure if one of the following peer events is triggered:
 <ul>
 <li><b>PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION</b></li>
 <li><b>PEER_GRAPH_EVENT_DIRECT_CONNECTION</b></li>
@@ -163,11 +163,11 @@ Specifies the unique ID for the node that has changed.
 
 
 
-<a href="https://msdn.microsoft.com/a052bff8-e90c-4ff7-8362-edb94b130f38">PEER_GRAPH_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_event_data_tag">PEER_GRAPH_EVENT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cdae832-e6a7-481c-9784-1c1c07d689dd">PEER_GROUP_EVENT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_group_event_data_tag">PEER_GROUP_EVENT_DATA</a>
  
 
  

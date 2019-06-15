@@ -59,21 +59,21 @@ Describes an effect technique.
 
 ### -field Name
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A string that contains the technique name; otherwise <b>NULL</b>.
 
 
 ### -field Passes
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of passes in the technique.
 
 
 ### -field Annotations
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of annotations.
 
@@ -82,7 +82,7 @@ The number of annotations.
 
 
 
-To get a technique, call <a href="https://msdn.microsoft.com/en-us/library/Bb173712(v=VS.85).aspx">ID3D10EffectTechnique::GetDesc</a>.
+To get a technique, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getdesc">ID3D10EffectTechnique::GetDesc</a>.
 
 
 
@@ -92,7 +92,7 @@ To get a technique, call <a href="https://msdn.microsoft.com/en-us/library/Bb173
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-structures">Effect Structures (Direct3D 10)</a>
  
 
  

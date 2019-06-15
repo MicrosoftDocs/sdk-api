@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a Boolean value that indicates whether the <a href="https://msdn.microsoft.com/acc09635-7370-475f-9c3a-a5faaa8d576a">WebProxy</a> object is read-only.
+Gets a Boolean value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">WebProxy</a> object is read-only.
 
 This property is read-only.
 
@@ -63,7 +63,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/acc09635-7370-475f-9c3a-a5faaa8d576a">IWebProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
  
 
  

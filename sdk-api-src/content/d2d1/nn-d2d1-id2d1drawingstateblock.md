@@ -54,7 +54,7 @@ Represents the drawing state of a render target: the antialiasing mode, transfor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawingStateBlock</b> interface inherits from <a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>. <b>ID2D1DrawingStateBlock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1DrawingStateBlock</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1DrawingStateBlock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1DrawingStateBlock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41c80a2d-0a20-4515-88b0-1878ba6aa945">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1drawingstateblock-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Retrieves the antialiasing mode, transform, and tags portion of the drawing state.
@@ -78,7 +78,7 @@ Retrieves the antialiasing mode, transform, and tags portion of the drawing stat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86822497-e256-445b-8da9-9ead229f89ee">GetTextRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1drawingstateblock-gettextrenderingparams">GetTextRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Retrieves the text-rendering configuration of the drawing state.
@@ -87,7 +87,7 @@ Retrieves the text-rendering configuration of the drawing state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e967eb49-0cfd-4e8b-955c-83a6b3a1859b">SetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1drawingstateblock-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">Overloaded. Specifies the antialiasing mode, transform, and tags portion of the drawing state.
 
@@ -95,7 +95,7 @@ Retrieves the text-rendering configuration of the drawing state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/449bd558-a3f1-4168-a803-d2f00b2250d2">SetTextRenderingParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1drawingstateblock-settextrenderingparams">SetTextRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Specifies the text-rendering configuration of the drawing state.
@@ -110,9 +110,9 @@ Specifies the text-rendering configuration of the drawing state.
 
 
 <h3><a id="Creating_ID2D1DrawingStateBlock_Objects"></a><a id="creating_id2d1drawingstateblock_objects"></a><a id="CREATING_ID2D1DRAWINGSTATEBLOCK_OBJECTS"></a>Creating ID2D1DrawingStateBlock Objects</h3>
-To create an <b>ID2D1DrawingStateBlock</b>, use the <a href="https://msdn.microsoft.com/c2b5875f-9f14-4752-a426-2745fdaa543a">ID2D1Factory::CreateDrawingStateBlock</a> method.
+To create an <b>ID2D1DrawingStateBlock</b>, use the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1factory-createdrawingstateblock">ID2D1Factory::CreateDrawingStateBlock</a> method.
 
-A drawing state block is a device-independent resource; you can create it once and retain it for the life of your application. For more information about resources, see the <a href="https://msdn.microsoft.com/afd308a7-9524-4436-9a0e-8575383d96fa">Resources Overview</a>.
+A drawing state block is a device-independent resource; you can create it once and retain it for the life of your application. For more information about resources, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
 
@@ -122,7 +122,7 @@ A drawing state block is a device-independent resource; you can create it once a
 
 
 
-<a href="https://msdn.microsoft.com/8f19e74a-f010-4082-a4da-d1dc3cfe3192">ID2D1Resource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
  
 
  

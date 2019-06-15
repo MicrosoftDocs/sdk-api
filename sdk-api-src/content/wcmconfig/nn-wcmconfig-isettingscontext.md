@@ -54,7 +54,7 @@ An interface to a backing store that is used to store setting changes made throu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsContext</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISettingsContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISettingsContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISettingsContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISettingsContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/382f2864-047e-4095-929b-a8b67773eefb">Deserialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-deserialize">Deserialize</a>
 </td>
 <td align="left" width="63%">
  Deserializes the data in the provided stream into this context.
@@ -78,7 +78,7 @@ The <b>ISettingsContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/844ef731-9ccf-4cf5-9bb9-218312cbb07c">GetNamespaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getnamespaces">GetNamespaces</a>
 </td>
 <td align="left" width="63%">
 Gets the namespaces that exist in the context.
@@ -87,7 +87,7 @@ Gets the namespaces that exist in the context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29ec0b36-31f2-4078-b1a4-872a8ed340e3">GetStoredSettings</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getstoredsettings">GetStoredSettings</a>
 </td>
 <td align="left" width="63%">
 Gets the stored setting changes from the context for the given namespace.
@@ -96,7 +96,7 @@ Gets the stored setting changes from the context for the given namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9054edee-9751-4aaa-a9bb-65badfb34fc6">GetUserData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-getuserdata">GetUserData</a>
 </td>
 <td align="left" width="63%">
 Gets a user-defined piece of data.
@@ -105,7 +105,7 @@ Gets a user-defined piece of data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11f541e6-fd97-4756-91c1-44ba2e3d35b1">RevertSetting</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-revertsetting">RevertSetting</a>
 </td>
 <td align="left" width="63%">
 Reverts a setting in the namespace.
@@ -114,7 +114,7 @@ Reverts a setting in the namespace.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13b29096-8572-4539-abd4-de22a9594f38">Serialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-serialize">Serialize</a>
 </td>
 <td align="left" width="63%">
 Serializes the data in this context into the provided stream.
@@ -123,7 +123,7 @@ Serializes the data in this context into the provided stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4ae754a5-7e03-4747-b4bc-1abf72920d83">SetUserData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingscontext-setuserdata">SetUserData</a>
 </td>
 <td align="left" width="63%">
 Sets a user-defined piece of data.

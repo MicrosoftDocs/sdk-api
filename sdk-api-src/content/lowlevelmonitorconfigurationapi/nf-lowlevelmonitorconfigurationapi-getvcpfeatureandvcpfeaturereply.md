@@ -59,7 +59,7 @@ Retrieves the current value, maximum value, and code type of a Virtual Control P
 
 ### -param hMonitor [in]
 
-Handle to a physical monitor. To get the monitor handle, call <a href="https://msdn.microsoft.com/f2ac8a6a-3be9-4155-ad13-c256b96da792">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://msdn.microsoft.com/1e0e9749-8ee4-42d5-ab7b-182222b6c429">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
+Handle to a physical monitor. To get the monitor handle, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromhmonitor">GetPhysicalMonitorsFromHMONITOR</a> or <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getphysicalmonitorsfromidirect3ddevice9">GetPhysicalMonitorsFromIDirect3DDevice9</a>.
           
 
 
@@ -71,7 +71,7 @@ VCP code to query. The VCP codes are Include the VESA Monitor Control Command Se
 
 ### -param pvct [out]
 
-Receives the VCP code type, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692961(v=VS.85).aspx">MC_VCP_CODE_TYPE</a> enumeration. This parameter can be <b>NULL</b>.
+Receives the VCP code type, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/lowlevelmonitorconfigurationapi/ne-lowlevelmonitorconfigurationapi-_mc_vcp_code_type">MC_VCP_CODE_TYPE</a> enumeration. This parameter can be <b>NULL</b>.
           
 
 
@@ -91,7 +91,7 @@ If <i>bVCPCode</i> specifies a continuous VCP code, this parameter receives the 
 
 
 
-If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
           
 
 
@@ -115,7 +115,7 @@ This function takes about 40 milliseconds to return.
 
 
 
-<a href="https://msdn.microsoft.com/e9a00792-f471-47a4-93d7-25400e27f13f">Monitor Configuration Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
  
 
  

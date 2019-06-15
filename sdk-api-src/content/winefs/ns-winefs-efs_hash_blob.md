@@ -99,11 +99,11 @@ The certificate hash.
 
 
 
-<a href="https://msdn.microsoft.com/6930446c-5338-4ff9-a662-791fc9e7cefe">ENCRYPTION_CERTIFICATE_HASH</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-_encryption_certificate_hash">ENCRYPTION_CERTIFICATE_HASH</a>
 
 
 
-<a href="https://msdn.microsoft.com/5f20109f-727d-44a9-90a1-0adc19b00d28">File Encryption</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
  
 
  

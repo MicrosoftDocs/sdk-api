@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a list of <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b-4cfc40f5889e">IUpdateService</a> interfaces.
+Represents a list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interfaces.
 
 
 ## -see-also
@@ -57,7 +57,7 @@ Represents a list of <a href="https://msdn.microsoft.com/2f237cd3-668b-4b1b-b98b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

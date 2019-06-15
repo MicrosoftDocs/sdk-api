@@ -59,7 +59,7 @@ The <b>RSVP_FILTERSPEC_V4</b> structure stores information for a FILTERSPEC on a
 
 ### -field Address
 
-IPv4 address for which the FILTERSPEC applies, expressed as an <a href="https://msdn.microsoft.com/7e10cc9c-7ed4-449d-aeb9-21e3d75d0224">IN_ADDR_IPV4</a> union.
+IPv4 address for which the FILTERSPEC applies, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv4">IN_ADDR_IPV4</a> union.
 
 
 ### -field Unused
@@ -76,7 +76,7 @@ TCP port of the socket on which the FILTERSPEC applies.
 
 
 
-When working with IPv6 addresses, use <a href="https://msdn.microsoft.com/7e567714-1d91-4dd4-a560-2b57876c837c">RSVP_FILTERSPEC_V6</a>.
+When working with IPv6 addresses, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>.
 
 
 
@@ -86,11 +86,11 @@ When working with IPv6 addresses, use <a href="https://msdn.microsoft.com/7e5677
 
 
 
-<a href="https://msdn.microsoft.com/7e10cc9c-7ed4-449d-aeb9-21e3d75d0224">IN_ADDR_IPV4</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_in_addr_ipv4">IN_ADDR_IPV4</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e567714-1d91-4dd4-a560-2b57876c837c">RSVP_FILTERSPEC_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qossp/ns-qossp-_rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
  
 
  

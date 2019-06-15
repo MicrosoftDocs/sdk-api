@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the attributes of the set of items contained in an <a href="https://msdn.microsoft.com/348213d1-c03f-4c38-9d13-3b1009d94e07">IShellItemArray</a>. If the array contains more than one item, the attributes retrieved by this method are not the attributes of single items, but a logical combination of all of the requested attributes of all of the items.
+Gets the attributes of the set of items contained in an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>. If the array contains more than one item, the attributes retrieved by this method are not the attributes of single items, but a logical combination of all of the requested attributes of all of the items.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the attributes of the set of items contained in an <a href="https://msdn.mi
 
 Type: <b>SIATTRIBFLAGS</b>
 
-If the array contains a single item, this method provides the same results as <a href="https://msdn.microsoft.com/d8d48b4b-979e-48ed-9e57-279fd6fad5cc">GetAttributes</a>. However, if the array contains multiple items, the attribute sets of all the items are combined into a single attribute set and returned in the value pointed to by <i>psfgaoAttribs</i>. This parameter takes one of the following values to define how that final attribute set is determined:
+If the array contains a single item, this method provides the same results as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getattributes">GetAttributes</a>. However, if the array contains multiple items, the attribute sets of all the items are combined into a single attribute set and returned in the value pointed to by <i>psfgaoAttribs</i>. This parameter takes one of the following values to define how that final attribute set is determined:
 
 
 
@@ -79,7 +79,7 @@ If the array contains a single item, this method provides the same results as <a
 
 #### SIATTRIBFLAGS_APPCOMPAT (0x00000003)
 
-0x00000003. Retrieve the attributes directly from the Shell data source. To use this value, the Shell item array must have been initialized as an <a href="https://msdn.microsoft.com/35190a72-298b-4554-b924-e1357b583a99">IShellFolder</a> with its contents specified as an array of child PIDLs.
+0x00000003. Retrieve the attributes directly from the Shell data source. To use this value, the Shell item array must have been initialized as an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> with its contents specified as an array of child PIDLs.
 
 
 
@@ -98,7 +98,7 @@ If the array contains a single item, this method provides the same results as <a
 
 Type: <b>SFGAOF</b>
 
-A mask that specifies what particular attributes are being requested. A bitwise OR of one or more of the <a href="https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759">SFGAO</a> values.
+A mask that specifies what particular attributes are being requested. A bitwise OR of one or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a> values.
 
 
 ### -param psfgaoAttribs [out]

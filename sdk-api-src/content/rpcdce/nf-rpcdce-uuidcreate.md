@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 <b>UuidCreate</b> function creates a new 
-<a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+<a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The
 
 ### -param Uuid
 
-Returns a pointer to the created <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a>.
+Returns a pointer to the created <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a>.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The call succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> is guaranteed to be unique to this computer only.
+The <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is guaranteed to be unique to this computer only.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Cannot get Ethernet or token-ring hardware address for this computer.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -120,8 +120,8 @@ Cannot get Ethernet or token-ring hardware address for this computer.
 
 
 For security reasons, it is often desirable to keep ethernet addresses on networks from becoming available outside a company or organization. The 
-<b>UuidCreate</b> function generates a <a href="https://msdn.microsoft.com/14288352-43c3-4e4d-a3f1-e924a8261d2b">UUID</a> that cannot be traced to the ethernet address of the computer on which it was generated. It also cannot be associated with other <b>UUID</b>s created on the same computer. If you do not need this level of security, your application can use the 
-<a href="https://msdn.microsoft.com/66975d82-559c-4a13-846c-e403b015563b">UuidCreateSequential</a> function, which behaves exactly as the 
+<b>UuidCreate</b> function generates a <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> that cannot be traced to the ethernet address of the computer on which it was generated. It also cannot be associated with other <b>UUID</b>s created on the same computer. If you do not need this level of security, your application can use the 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidcreatesequential">UuidCreateSequential</a> function, which behaves exactly as the 
 <b>UuidCreate</b> function does on all other versions of the operating system.
 
 
@@ -132,11 +132,11 @@ For security reasons, it is often desirable to keep ethernet addresses on networ
 
 
 
-<a href="https://msdn.microsoft.com/90b3cf6b-a15b-4f91-9ba2-0e43fe3374df">UuidFromString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/49235b28-a0c5-4f69-9932-85350d7bcbb8">UuidToString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidtostring">UuidToString</a>
  
 
  

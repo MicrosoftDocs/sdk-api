@@ -61,7 +61,7 @@ Gets the value of the specified property key.
 
 ### -param pIFunctionInstance [in]
 
-An <a href="https://msdn.microsoft.com/cc421719-73a6-4d4d-9bf8-171e46c4e275">IFunctionInstance</a> interface pointer.
+An <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer.
 
 
 ### -param iProviderInstanceContext [in]
@@ -144,7 +144,7 @@ The method is unable to allocate enough memory to perform the operation.
 
 
 
-To change the value of a property key, use the <a href="https://msdn.microsoft.com/5aa3e6a3-febc-4d2d-b58b-abfad28d325d">SetValue</a> method.
+To change the value of a property key, use the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderproperties-setvalue">SetValue</a> method.
 
 If a value for <i>Key</i> could not be found, the return value will be <b>S_OK</b> and <i>ppropVar</i> will be set to <b>VT_NULL</b>.
 
@@ -156,7 +156,7 @@ If a value for <i>Key</i> could not be found, the return value will be <b>S_OK</
 
 
 
-<a href="https://msdn.microsoft.com/d6d3d1d1-d2fb-409c-be37-3cd286e325a3">IProviderProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>
  
 
  

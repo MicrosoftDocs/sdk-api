@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 The 
 WbemImpersonationLevelEnum constants define the security impersonation levels. These constants are used with 
-<a href="https://msdn.microsoft.com/794587fa-5feb-455b-be28-ecfaa25625ad">SWbemSecurity</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library.
 
@@ -93,7 +93,7 @@ The following WSH script sets the impersonation level. To run the script, save t
 
 
 For more information, see 
-<a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 </li>
 </ul>
@@ -136,16 +136,16 @@ Allows objects to permit other objects to use the credentials of the caller. Thi
 
 
 
-<a href="https://msdn.microsoft.com/794587fa-5feb-455b-be28-ecfaa25625ad">SWbemSecurity</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/feaab757-3167-420b-8f42-edced4cd4c53">Scripting API
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API
     Constants</a>
 
 
 
-<a href="https://msdn.microsoft.com/790b4e40-9b92-464a-a774-dec0b75cedee">Setting Client_Application_Process Security</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-client-application-process-security">Setting Client_Application_Process Security</a>
  
 
  

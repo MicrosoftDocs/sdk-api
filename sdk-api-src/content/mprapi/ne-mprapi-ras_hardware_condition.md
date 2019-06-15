@@ -73,11 +73,11 @@ The port is not operational, due to a hardware failure.
 
 
 
-<a href="https://msdn.microsoft.com/6d044d35-5c50-4c30-89b4-8963d3b85673">RAS Administration Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-enumerations">RAS Administration Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/6170fcf2-26d5-4418-bddb-2afd99510520">Remote Access Service Administration Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
  
 
  

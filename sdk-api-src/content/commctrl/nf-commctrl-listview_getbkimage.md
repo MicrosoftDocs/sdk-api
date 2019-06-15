@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774907(v=VS.85).aspx">LVM_GETBKIMAGE</a> message explicitly. 
+Gets the background image in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getbkimage">LVM_GETBKIMAGE</a> message explicitly. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the background image in a list-view control. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -68,7 +68,7 @@ A handle to the list-view control.
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that will receive the background image information. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taglvbkimagea">LVBKIMAGE</a> structure that will receive the background image information. 
 
 
 ## -see-also
@@ -76,7 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774742(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775065(v=VS.85).aspx">ListView_SetBkImage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setbkimage">ListView_SetBkImage</a>
  
 
  

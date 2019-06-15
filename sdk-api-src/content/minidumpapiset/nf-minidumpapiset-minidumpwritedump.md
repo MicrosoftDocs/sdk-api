@@ -67,10 +67,10 @@ A handle to the process for which the information is to be generated.
 This handle must have <b>PROCESS_QUERY_INFORMATION</b> and 
        <b>PROCESS_VM_READ</b> access to the process. If handle information is to be collected then 
        <b>PROCESS_DUP_HANDLE</b> access is also required. For more information, see 
-       <a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>. 
+       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>. 
        The caller must also be able to get <b>THREAD_ALL_ACCESS</b> access to the threads in the 
        process. For more information, see 
-       <a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">Thread Security and Access Rights</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 
 ### -param ProcessId [in]
@@ -86,13 +86,13 @@ A handle to the file in which the information is to be written.
 ### -param DumpType [in]
 
 The type of information to be generated. This parameter can be one or more of the values from the 
-      <a href="https://msdn.microsoft.com/89ae3a75-5f02-4c5e-9d72-95fb8ef94985">MINIDUMP_TYPE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-_minidump_type">MINIDUMP_TYPE</a> enumeration.
 
 
 ### -param ExceptionParam [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms680366(v=VS.85).aspx">MINIDUMP_EXCEPTION_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception_information">MINIDUMP_EXCEPTION_INFORMATION</a> 
       structure describing the client exception that caused the minidump to be generated. If the value of this 
       parameter is <b>NULL</b>, no exception information is included in the minidump file.
 
@@ -100,7 +100,7 @@ A pointer to a
 ### -param UserStreamParam [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms680524(v=VS.85).aspx">MINIDUMP_USER_STREAM_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a> 
       structure. If the value of this parameter is <b>NULL</b>, no user-defined information is 
       included in the minidump file.
 
@@ -108,7 +108,7 @@ A pointer to a
 ### -param CallbackParam [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms680361(v=VS.85).aspx">MINIDUMP_CALLBACK_INFORMATION</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a> 
       structure that specifies a callback routine which is to receive extended minidump information. If the value of 
       this parameter is <b>NULL</b>, no callbacks are performed.
 
@@ -119,7 +119,7 @@ A pointer to a
 
 If the function succeeds, the return value is <b>TRUE</b>; otherwise, the return value is 
        <b>FALSE</b>. To retrieve extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Note that the last error will be an 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Note that the last error will be an 
        <b>HRESULT</b> value.
 
 If the operation is canceled, the last error code is 
@@ -132,7 +132,7 @@ If the operation is canceled, the last error code is
 
 
 
-The <a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a> function receives extended 
+The <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function receives extended 
     minidump information from <b>MiniDumpWriteDump</b>. It also 
     provides a way for the caller to determine the granularity of information written to the minidump file, as the 
     callback function can filter the default information.
@@ -149,8 +149,8 @@ The <a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">Mi
     calling <b>MiniDumpWriteDump</b> and use it as the 
     <i>ExceptionParam</i> parameter. One way to do this is to force  an exception inside a 
     <b>__try</b>/<b>__except</b> block and use the 
-    <a href="https://msdn.microsoft.com/57e8cb3a-1b11-45b9-9676-3b6dc600d225">EXCEPTION_POINTERS</a> information provided by 
-    <a href="https://msdn.microsoft.com/e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae">GetExceptionInformation</a>. Alternatively, you 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_exception_pointers">EXCEPTION_POINTERS</a> information provided by 
+    <a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>. Alternatively, you 
     can call the function from a new worker thread and filter this worker thread from the dump.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -165,27 +165,27 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680361(v=VS.85).aspx">MINIDUMP_CALLBACK_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_callback_information">MINIDUMP_CALLBACK_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680366(v=VS.85).aspx">MINIDUMP_EXCEPTION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_exception_information">MINIDUMP_EXCEPTION_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680524(v=VS.85).aspx">MINIDUMP_USER_STREAM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-_minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/56df69aa-55b6-451b-a003-3ee88dc934f9">MiniDumpReadDumpStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream">MiniDumpReadDumpStream</a>
  
 
  

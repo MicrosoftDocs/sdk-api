@@ -61,7 +61,7 @@ Determine the direct children, types, and sub-namespaces of the specified Window
 
 ### -param name [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 Full namespace for which we are trying to retrieve direct children. This is a required parameter.
 
@@ -70,7 +70,7 @@ If this namespace is empty or <b>nullptr</b>, the <b>RoResolveNamespace</b> func
 
 ### -param windowsMetaDataDir [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 Optional parameter that contains a path to the SDK directory to search for metadata (.winmd) files.
 
@@ -86,7 +86,7 @@ Count of paths in the <i>packageGraphDirs</i> array.
 
 ### -param packageGraphDirs [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
 Count of package paths in the explicit package dependency graph array. The count is ignored if <i>packageGraphDirs</i> is <b>nullptr</b>.
 
@@ -100,7 +100,7 @@ Count of metadata files in the <i>metaDataFilePaths</i> array.
 
 ### -param metaDataFilePaths [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
 
 Optional output parameter that contains callee-allocated array of absolute file paths of all metadata (.winmd) files that could possibly contain direct children of <i>name</i>.
 
@@ -114,7 +114,7 @@ Count of metadata files in the <i>subNamespaces</i> array.
 
 ### -param subNamespaces [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756C5DF">HSTRING</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
 
 Optional output parameter that contains a callee-allocated array of names of direct children of the given namespace. This list is a hint of other subnamespaces and is not necessarily complete.
 
@@ -166,7 +166,7 @@ Indicates one of the following:
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/597E8B18-B9D9-42E5-B260-595370BEEAC0">RoResolveNamespace</a> function  is called from a process that is not in a Windows Store app to resolve a 3rd-party namespace when  <i>packageGraphDirs</i> parameter is <b>nullptr</b>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace">RoResolveNamespace</a> function  is called from a process that is not in a Windows Store app to resolve a 3rd-party namespace when  <i>packageGraphDirs</i> parameter is <b>nullptr</b>.
 
 </td>
 </tr>

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/50434617-E70E-4931-B98E-61650E9DEA7E">IAudioFormatEnumerator</a> that contains  all supported audio formats for spatial audio objects, the first item in the list represents the most preferable format.
+Gets an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator">IAudioFormatEnumerator</a> that contains  all supported audio formats for spatial audio objects, the first item in the list represents the most preferable format.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets an <a href="https://msdn.microsoft.com/50434617-E70E-4931-B98E-61650E9DEA7E
 
 ### -param enumerator [out]
 
-Pointer to the pointer that receives the <a href="https://msdn.microsoft.com/50434617-E70E-4931-B98E-61650E9DEA7E">IAudioFormatEnumerator</a> interface.
+Pointer to the pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-iaudioformatenumerator">IAudioFormatEnumerator</a> interface.
 
 
 ## -returns
@@ -76,7 +76,7 @@ If the method succeeds, it returns S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/950778D4-79FE-4222-951F-5A456A633124">ISpatialAudioClient</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
  
 
  

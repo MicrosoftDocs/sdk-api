@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains the virtual IP address assigned to a session. This structure is returned by the <a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a> function when you specify "WTSSessionAddressV4" for the <i>WTSInfoClass</i> parameter.
+Contains the virtual IP address assigned to a session. This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function when you specify "WTSSessionAddressV4" for the <i>WTSInfoClass</i> parameter.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ A null-terminated string that contains the address family. Always set this membe
 
 ### -field Address
 
-The virtual IP address assigned to the session. The format of this address is identical to that used in the <a href="https://msdn.microsoft.com/29034986-f8d1-4cf0-9f53-e4b195d450a6">WTS_CLIENT_ADDRESS</a> structure.
+The virtual IP address assigned to the session. The format of this address is identical to that used in the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_address">WTS_CLIENT_ADDRESS</a> structure.
 
 
 ## -see-also
@@ -72,11 +72,11 @@ The virtual IP address assigned to the session. The format of this address is id
 
 
 
-<a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/29034986-f8d1-4cf0-9f53-e4b195d450a6">WTS_CLIENT_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-_wts_client_address">WTS_CLIENT_ADDRESS</a>
  
 
  

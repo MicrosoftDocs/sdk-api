@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[CStdStubBuffer_DebugServerRelease is not supported and may be altered or unavailable in the future.]
 
-The <b>CStdStubBuffer_DebugServerRelease</b> function implements the <a href="https://msdn.microsoft.com/511f6e55-fb1d-4500-80fd-83e3fe2779d1">IRpcStubBuffer::DebugServerRelease</a> method.
+The <b>CStdStubBuffer_DebugServerRelease</b> function implements the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverrelease">IRpcStubBuffer::DebugServerRelease</a> method.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Pointer to the <b>IRpcStubBuffer</b> object.
 
 ### -param pv [in]
 
-Pointer to the interface to release. The interface pointer comes from a call to the <a href="https://msdn.microsoft.com/25c7f71a-7d47-4ea1-9bd0-001a1a01529d">CStdStubBuffer_DebugServerQueryInterface</a> method.
+Pointer to the interface to release. The interface pointer comes from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface">CStdStubBuffer_DebugServerQueryInterface</a> method.
 
 
 ## -returns

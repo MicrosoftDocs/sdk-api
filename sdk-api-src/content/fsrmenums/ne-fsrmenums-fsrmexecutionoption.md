@@ -72,7 +72,7 @@ The rule is applied as a default value to the file if the property is not set on
 
 The rule is applied to the file considering default and existing values using aggregation rules (for 
       aggregation rules, see 
-      <a href="https://msdn.microsoft.com/618335a2-2b37-43e2-adaa-2a6d06464627">FsrmPropertyDefinitionType</a>).
+      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmenums/ne-fsrmenums-_fsrmpropertydefinitiontype">FsrmPropertyDefinitionType</a>).
 
 
 ### -field FsrmExecutionOption_ReEvaluate_IgnoreExistingValue
@@ -85,7 +85,7 @@ The rule is applied to the file but  default and existing values are ignored.
 
 
 
-<a href="https://msdn.microsoft.com/e084c056-18b1-4089-bab9-fce2ef58cd05">IFsrmClassificationRule.ExecutionOption</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationrule-get_executionoption">IFsrmClassificationRule.ExecutionOption</a>
  
 
  

@@ -77,7 +77,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Call <a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">IUIFramework::Initialize</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371471(v=VS.85).aspx">IUIFramework::LoadUI</a> before calling this method.
+Call <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize">IUIFramework::Initialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a> before calling this method.
 
 
 
@@ -87,11 +87,11 @@ Call <a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">I
 
 
 
-<a href="https://msdn.microsoft.com/54DB1BFF-0657-4027-8C8C-89CE998253F4">IUIEventLogger</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuieventlogger">IUIEventLogger</a>
 
 
 
-<a href="https://msdn.microsoft.com/11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84">IUIEventingManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuieventingmanager">IUIEventingManager</a>
  
 
  

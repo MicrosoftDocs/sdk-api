@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <b>ITextFont</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>.
+Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <b>ITextFont</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextFont</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITextFont</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextFont</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextFont</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITextFont</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787855(v=VS.85).aspx">CanChange</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-canchange">CanChange</a>
 </td>
 <td align="left" width="63%">
 Determines whether the font can be changed. 
@@ -78,7 +78,7 @@ Determines whether the font can be changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773929(v=VS.85).aspx">GetAllCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getallcaps">GetAllCaps</a>
 </td>
 <td align="left" width="63%">
 Gets whether the characters are all uppercase.
@@ -87,7 +87,7 @@ Gets whether the characters are all uppercase.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773931(v=VS.85).aspx">GetAnimation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getanimation">GetAnimation</a>
 </td>
 <td align="left" width="63%">
 Gets the animation type.
@@ -96,7 +96,7 @@ Gets the animation type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773933(v=VS.85).aspx">GetBackColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getbackcolor">GetBackColor</a>
 </td>
 <td align="left" width="63%">
 Gets the text background (highlight) color.
@@ -105,7 +105,7 @@ Gets the text background (highlight) color.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773935(v=VS.85).aspx">GetBold</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getbold">GetBold</a>
 </td>
 <td align="left" width="63%">
 Gets whether the characters are bold.
@@ -114,7 +114,7 @@ Gets whether the characters are bold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787857(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getduplicate">GetDuplicate</a>
 </td>
 <td align="left" width="63%">
 Gets a duplicate of this text font object. 
@@ -123,7 +123,7 @@ Gets a duplicate of this text font object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773945(v=VS.85).aspx">GetEmboss</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getemboss">GetEmboss</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are embossed.
@@ -132,7 +132,7 @@ Gets whether characters are embossed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773949(v=VS.85).aspx">GetEngrave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getengrave">GetEngrave</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are displayed as imprinted characters.
@@ -141,7 +141,7 @@ Gets whether characters are displayed as imprinted characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773956(v=VS.85).aspx">GetForeColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getforecolor">GetForeColor</a>
 </td>
 <td align="left" width="63%">
 Gets the foreground, or text, color.
@@ -150,7 +150,7 @@ Gets the foreground, or text, color.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773960(v=VS.85).aspx">GetHidden</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-gethidden">GetHidden</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are hidden.
@@ -159,7 +159,7 @@ Gets whether characters are hidden.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773966(v=VS.85).aspx">GetItalic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getitalic">GetItalic</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are in italics.
@@ -168,7 +168,7 @@ Gets whether characters are in italics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773973(v=VS.85).aspx">GetKerning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getkerning">GetKerning</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum font size at which kerning occurs.
@@ -177,7 +177,7 @@ Gets the minimum font size at which kerning occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773975(v=VS.85).aspx">GetLanguageID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getlanguageid">GetLanguageID</a>
 </td>
 <td align="left" width="63%">
 Gets the  language ID or LCID.
@@ -186,7 +186,7 @@ Gets the  language ID or LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787859(v=VS.85).aspx">GetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the font name.
@@ -195,7 +195,7 @@ Gets the font name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773995(v=VS.85).aspx">GetOutline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getoutline">GetOutline</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are displayed as outlined characters.
@@ -204,7 +204,7 @@ Gets whether characters are displayed as outlined characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774005(v=VS.85).aspx">GetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getposition">GetPosition</a>
 </td>
 <td align="left" width="63%">
 Gets the amount that characters are  offset vertically relative to the baseline.
@@ -213,7 +213,7 @@ Gets the amount that characters are  offset vertically relative to the baseline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774007(v=VS.85).aspx">GetProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getprotected">GetProtected</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are protected against attempts to modify them.
@@ -222,7 +222,7 @@ Gets whether characters are protected against attempts to modify them.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774015(v=VS.85).aspx">GetShadow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getshadow">GetShadow</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are displayed as shadowed characters.
@@ -231,7 +231,7 @@ Gets whether characters are displayed as shadowed characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774017(v=VS.85).aspx">GetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Gets the font size.
@@ -240,7 +240,7 @@ Gets the font size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774019(v=VS.85).aspx">GetSmallCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getsmallcaps">GetSmallCaps</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are in small capital letters.
@@ -249,7 +249,7 @@ Gets whether characters are in small capital letters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774025(v=VS.85).aspx">GetSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getspacing">GetSpacing</a>
 </td>
 <td align="left" width="63%">
 Gets the amount of horizontal spacing between characters.
@@ -258,7 +258,7 @@ Gets the amount of horizontal spacing between characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774031(v=VS.85).aspx">GetStrikeThrough</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getstrikethrough">GetStrikeThrough</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are displayed with a horizontal line through the center.
@@ -267,7 +267,7 @@ Gets whether characters are displayed with a horizontal line through the center.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787861(v=VS.85).aspx">GetStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getstyle">GetStyle</a>
 </td>
 <td align="left" width="63%">
 Gets the character style handle of the characters in a range.
@@ -276,7 +276,7 @@ Gets the character style handle of the characters in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774032(v=VS.85).aspx">GetSubscript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getsubscript">GetSubscript</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are displayed as subscript.
@@ -285,7 +285,7 @@ Gets whether characters are displayed as subscript.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774033(v=VS.85).aspx">GetSuperscript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getsuperscript">GetSuperscript</a>
 </td>
 <td align="left" width="63%">
 Gets whether characters are displayed as superscript.
@@ -294,7 +294,7 @@ Gets whether characters are displayed as superscript.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774038(v=VS.85).aspx">GetUnderline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getunderline">GetUnderline</a>
 </td>
 <td align="left" width="63%">
 Gets the
@@ -305,7 +305,7 @@ Gets the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774040(v=VS.85).aspx">GetWeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getweight">GetWeight</a>
 </td>
 <td align="left" width="63%">
 Gets the font weight for the characters in a range.
@@ -314,7 +314,7 @@ Gets the font weight for the characters in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787863(v=VS.85).aspx">IsEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines whether this text font object has the same properties as the specified text font object.
@@ -323,7 +323,7 @@ Determines whether this text font object has the same properties as the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787865(v=VS.85).aspx">Reset</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the character formatting to the specified values.
@@ -332,7 +332,7 @@ Resets the character formatting to the specified values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774125(v=VS.85).aspx">SetAllCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setallcaps">SetAllCaps</a>
 </td>
 <td align="left" width="63%">
 Sets whether the characters are all uppercase.
@@ -341,7 +341,7 @@ Sets whether the characters are all uppercase.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774127(v=VS.85).aspx">SetAnimation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setanimation">SetAnimation</a>
 </td>
 <td align="left" width="63%">
 Sets the animation type. 
@@ -350,7 +350,7 @@ Sets the animation type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774129(v=VS.85).aspx">SetBackColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setbackcolor">SetBackColor</a>
 </td>
 <td align="left" width="63%">
 Sets the background color.
@@ -359,7 +359,7 @@ Sets the background color.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774131(v=VS.85).aspx">SetBold</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setbold">SetBold</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are bold.
@@ -368,7 +368,7 @@ Sets whether characters are bold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787867(v=VS.85).aspx">SetDuplicate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setduplicate">SetDuplicate</a>
 </td>
 <td align="left" width="63%">
 Sets the character formatting by copying another text font object. 
@@ -377,7 +377,7 @@ Sets the character formatting by copying another text font object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774137(v=VS.85).aspx">SetEmboss</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setemboss">SetEmboss</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are embossed.
@@ -386,7 +386,7 @@ Sets whether characters are embossed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774141(v=VS.85).aspx">SetEngrave</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setengrave">SetEngrave</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are displayed as imprinted characters.
@@ -395,7 +395,7 @@ Sets whether characters are displayed as imprinted characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774147(v=VS.85).aspx">SetForeColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setforecolor">SetForeColor</a>
 </td>
 <td align="left" width="63%">
 Sets the foreground (text) color.
@@ -404,7 +404,7 @@ Sets the foreground (text) color.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774151(v=VS.85).aspx">SetHidden</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-sethidden">SetHidden</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are hidden.
@@ -413,7 +413,7 @@ Sets whether characters are hidden.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774159(v=VS.85).aspx">SetItalic</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setitalic">SetItalic</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are in italics.
@@ -422,7 +422,7 @@ Sets whether characters are in italics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774165(v=VS.85).aspx">SetKerning</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setkerning">SetKerning</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum font size at which kerning occurs.
@@ -431,7 +431,7 @@ Sets the minimum font size at which kerning occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774167(v=VS.85).aspx">SetLanguageID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setlanguageid">SetLanguageID</a>
 </td>
 <td align="left" width="63%">
 Sets the  language ID or LCID.
@@ -440,7 +440,7 @@ Sets the  language ID or LCID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787788(v=VS.85).aspx">SetName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setname">SetName</a>
 </td>
 <td align="left" width="63%">
 Sets the font name.
@@ -449,7 +449,7 @@ Sets the font name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787793(v=VS.85).aspx">SetOutline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setoutline">SetOutline</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are displayed as outlined characters.
@@ -458,7 +458,7 @@ Sets whether characters are displayed as outlined characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787801(v=VS.85).aspx">SetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setposition">SetPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the amount that characters are  offset vertically relative to the baseline.
@@ -467,7 +467,7 @@ Sets the amount that characters are  offset vertically relative to the baseline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787803(v=VS.85).aspx">SetProtected</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setprotected">SetProtected</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are protected against attempts to modify them.
@@ -476,7 +476,7 @@ Sets whether characters are protected against attempts to modify them.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787811(v=VS.85).aspx">SetShadow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setshadow">SetShadow</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are displayed as shadowed characters.
@@ -485,7 +485,7 @@ Sets whether characters are displayed as shadowed characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787813(v=VS.85).aspx">SetSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setsize">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the font size.
@@ -494,7 +494,7 @@ Sets the font size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787815(v=VS.85).aspx">SetSmallCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setsmallcaps">SetSmallCaps</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are in small capital letters.
@@ -503,7 +503,7 @@ Sets whether characters are in small capital letters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787822(v=VS.85).aspx">SetSpacing</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setspacing">SetSpacing</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of horizontal spacing between characters.
@@ -512,7 +512,7 @@ Sets the amount of horizontal spacing between characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787826(v=VS.85).aspx">SetStrikeThrough</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setstrikethrough">SetStrikeThrough</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are displayed with a horizontal line through the center.
@@ -521,7 +521,7 @@ Sets whether characters are displayed with a horizontal line through the center.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787869(v=VS.85).aspx">SetStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setstyle">SetStyle</a>
 </td>
 <td align="left" width="63%">
 Sets the character style handle of the characters in a range.
@@ -530,7 +530,7 @@ Sets the character style handle of the characters in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787828(v=VS.85).aspx">SetSubscript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setsubscript">SetSubscript</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are displayed as subscript.
@@ -539,7 +539,7 @@ Sets whether characters are displayed as subscript.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787830(v=VS.85).aspx">SetSuperscript</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setsuperscript">SetSuperscript</a>
 </td>
 <td align="left" width="63%">
 Sets whether characters are displayed as superscript.
@@ -548,7 +548,7 @@ Sets whether characters are displayed as superscript.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787832(v=VS.85).aspx">SetUnderline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setunderline">SetUnderline</a>
 </td>
 <td align="left" width="63%">
 Sets the
@@ -559,7 +559,7 @@ Sets the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787833(v=VS.85).aspx">SetWeight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setweight">SetWeight</a>
 </td>
 <td align="left" width="63%">
 Sets the font weight for the characters in a range.
@@ -573,7 +573,7 @@ Sets the font weight for the characters in a range.
 
 
 
-The <b>ITextFont</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> interfaces encapsulate the functionality of the Microsoft Word Format <b>Font</b> and <b>Paragraph</b> dialog boxes, respectively. Both interfaces include a duplicate (<b>Value</b>) property that can return a duplicate of the attributes in a range object or transfer a set of attributes to a range. As such, they act like programmable format painters. For example, you could transfer all attributes from range r1 to range r2 except for making r2 bold and the font size 12 points by using the following subroutine.
+The <b>ITextFont</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> interfaces encapsulate the functionality of the Microsoft Word Format <b>Font</b> and <b>Paragraph</b> dialog boxes, respectively. Both interfaces include a duplicate (<b>Value</b>) property that can return a duplicate of the attributes in a range object or transfer a set of attributes to a range. As such, they act like programmable format painters. For example, you could transfer all attributes from range r1 to range r2 except for making r2 bold and the font size 12 points by using the following subroutine.
 
 
 ```
@@ -588,11 +588,11 @@ End Sub
 ```
 
 
-See <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">SetFont</a> for a similar example written in C++.
+See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setfont">SetFont</a> for a similar example written in C++.
 
 The <b>ITextFont</b> attribute interface represents the traditional Microsoft Visual Basic for Applications (VBA) way of setting properties and it gives the desired VBA notation.
 
-<b>ITextFont</b> uses the "tomBool" type for rich-text attributes that have binary states. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">The tomBool Type</a>.
+<b>ITextFont</b> uses the "tomBool" type for rich-text attributes that have binary states. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">The tomBool Type</a>.
 
 The rich edit control is able to accept and return all <b>ITextFont</b> properties intact, that is, without modification, both through TOM and through its Rich Text Format (RTF) converters. However, it cannot display the All Caps, Animation, Embossed, Imprint, Shadow, Small Caps, Hidden, Kerning, Outline, and Style font properties.
 
@@ -608,11 +608,11 @@ The rich edit control is able to accept and return all <b>ITextFont</b> properti
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787726(v=VS.85).aspx">Using The Text Object Model</a>
+<a href="https://docs.microsoft.com/windows/desktop/Controls/using-the-text-object-model">Using The Text Object Model</a>
  
 
  

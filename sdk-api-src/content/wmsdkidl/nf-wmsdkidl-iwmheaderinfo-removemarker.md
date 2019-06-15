@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 
 
-The <b>RemoveMarker</b> method removes a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">marker</a> from the header section of the ASF file.
+The <b>RemoveMarker</b> method removes a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">marker</a> from the header section of the ASF file.
 
 
 
@@ -146,27 +146,27 @@ This method is not supported by the writer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798504(v=VS.85).aspx">IWMHeaderInfo Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798505(v=VS.85).aspx">IWMHeaderInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798508(v=VS.85).aspx">IWMHeaderInfo3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798516(v=VS.85).aspx">IWMHeaderInfo::AddMarker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addmarker">IWMHeaderInfo::AddMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798521(v=VS.85).aspx">IWMHeaderInfo::GetMarker</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getmarker">IWMHeaderInfo::GetMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba9bc93e-76a9-4a49-951f-c38dbcceef8c">Markers</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/markers">Markers</a>
  
 
  

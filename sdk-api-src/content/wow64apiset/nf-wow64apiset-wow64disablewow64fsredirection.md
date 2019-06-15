@@ -80,7 +80,7 @@ The WOW64 file system redirection value. The system uses this parameter to store
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -93,13 +93,13 @@ This function is useful for 32-bit applications that want to gain access to the 
     default, WOW64 file system redirection is enabled.
 
 The 
-    <b>Wow64DisableWow64FsRedirection</b>/<a href="https://msdn.microsoft.com/8a09bdeb-b969-48b2-a432-c78dd4177000">Wow64RevertWow64FsRedirection</a> 
+    <b>Wow64DisableWow64FsRedirection</b>/<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> 
     function pairing is a replacement for the functionality of the 
-    <a href="https://msdn.microsoft.com/8d11a7ba-540d-4bd0-881a-a61605357dd8">Wow64EnableWow64FsRedirection</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a> 
     function.
 
 To restore file system redirection, call the 
-    <a href="https://msdn.microsoft.com/8a09bdeb-b969-48b2-a432-c78dd4177000">Wow64RevertWow64FsRedirection</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> 
     function. Every successful call to the 
     <b>Wow64DisableWow64FsRedirection</b> function 
     must have a matching call to the 
@@ -113,12 +113,12 @@ To restore file system redirection, call the
      implementations use delayed loading and will fail while redirection is disabled. The failure state of the initial 
      delay-load operation is persisted, so any subsequent use of the delay-load function will fail even after file 
      system redirection is re-enabled. To avoid these problems, disable file system redirection immediately before 
-     calls to specific file I/O functions (such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>) 
+     calls to specific file I/O functions (such as <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>) 
      that must not be redirected, and re-enable file system redirection immediately afterward using 
-     <a href="https://msdn.microsoft.com/8a09bdeb-b969-48b2-a432-c78dd4177000">Wow64RevertWow64FsRedirection</a>.</div>
+     <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>.</div>
 <div> </div>
 Disabling file system redirection affects only operations made by the current thread. Some functions, such as 
-    <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a>, do their work on another 
+    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a>, do their work on another 
     thread, which is not affected by the state of file system redirection in the calling thread.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -256,19 +256,19 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4d36fe8-8bbb-469b-8ad1-650d559a4c75">File System Redirector</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinProg64/file-system-redirector">File System Redirector</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d11a7ba-540d-4bd0-881a-a61605357dd8">Wow64EnableWow64FsRedirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64enablewow64fsredirection">Wow64EnableWow64FsRedirection</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a09bdeb-b969-48b2-a432-c78dd4177000">Wow64RevertWow64FsRedirection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a>
  
 
  

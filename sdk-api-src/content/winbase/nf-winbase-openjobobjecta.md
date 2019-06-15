@@ -66,7 +66,7 @@ Opens an existing job object.
 ### -param dwDesiredAccess [in]
 
 The access to the job object. This parameter can be one or more of the 
-<a href="https://msdn.microsoft.com/8d212292-f087-41e4-884e-cec4423dac49">job object access rights</a>. This access right is checked against any security descriptor for the object.
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-object-security-and-access-rights">job object access rights</a>. This access right is checked against any security descriptor for the object.
 
 
 ### -param bInheritHandle [in]
@@ -78,10 +78,10 @@ If this value is TRUE, processes created by this process will inherit the handle
 
 The name of the job to be opened. Name comparisons are case sensitive.
 
-This function can open objects in a private namespace. For more information, see <a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>.
+This function can open objects in a private namespace. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>.
 
 <b>Terminal Services:  </b>The name can have a "Global\" or "Local\" prefix to explicitly open the object in the global or session namespace. The remainder of the name can contain any character except the backslash character (\). For more information, see 
-<a href="https://msdn.microsoft.com/771e0bbf-bd73-4e87-aa1e-945c1287b517">Kernel Object Namespaces</a>.
+<a href="https://docs.microsoft.com/windows/desktop/TermServ/kernel-object-namespaces">Kernel Object Namespaces</a>.
 
 
 ## -returns
@@ -91,7 +91,7 @@ This function can open objects in a private namespace. For more information, see
 If the function succeeds, the return value is a handle to the job. The handle provides the requested access to the job.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -101,10 +101,10 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 To associate a process with a job, use the 
-<a href="https://msdn.microsoft.com/f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b">AssignProcessToJobObject</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-assignprocesstojobobject">AssignProcessToJobObject</a> function.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -114,15 +114,15 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/f5d7a39f-6afe-4e4a-a802-e7f875ea6e5b">AssignProcessToJobObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-assignprocesstojobobject">AssignProcessToJobObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/59296384-5e78-44dd-8019-f1df6668928b">Job Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-objects">Job Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
  
 
  

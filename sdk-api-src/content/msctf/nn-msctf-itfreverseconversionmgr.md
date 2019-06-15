@@ -51,12 +51,12 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>ITfReverseConversionMgr</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.]
 
-Provides access to <a href="https://msdn.microsoft.com/ca2e036a-d0f8-4372-872a-388217050d15">ITfReverseConversion</a> objects, which are used to perform reverse conversions. 
+Provides access to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> objects, which are used to perform reverse conversions. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReverseConversionMgr</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfReverseConversionMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfReverseConversionMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfReverseConversionMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,12 +71,12 @@ The <b>ITfReverseConversionMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/959bd98f-5b97-4bb8-a62d-9adfada25746">GetReverseConversion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversionmgr-getreverseconversion">GetReverseConversion</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/ca2e036a-d0f8-4372-872a-388217050d15">ITfReverseConversion</a> object that can perform reverse conversions. 
+Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> object that can perform reverse conversions. 
 
-<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/959bd98f-5b97-4bb8-a62d-9adfada25746">GetReverseConversion</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfreverseconversionmgr-getreverseconversion">GetReverseConversion</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.</div>
 <div> </div>
 </td>
 </tr>

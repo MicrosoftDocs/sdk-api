@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Tests whether the resource class of a specified  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> is equal to a specified resource class. The <b>PRESUTIL_IS_RESOURCE_CLASS_EQUAL</b> type defines a pointer to this function.
+Tests whether the resource class of a specified  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> is equal to a specified resource class. The <b>PRESUTIL_IS_RESOURCE_CLASS_EQUAL</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Tests whether the resource class of a specified  <a href="https://msdn.microsoft
 
 ### -param prci [in]
 
-Pointer to a  <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure describing the resource class.
+Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a> structure describing the resource class.
 
 
 ### -param hResource [in]
@@ -84,7 +84,7 @@ the function returns <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/a34bbe15-f13f-4034-b2f1-fea3e58c579e">ResUtilResourcesEqual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilresourcesequal">ResUtilResourcesEqual</a>
  
 
  

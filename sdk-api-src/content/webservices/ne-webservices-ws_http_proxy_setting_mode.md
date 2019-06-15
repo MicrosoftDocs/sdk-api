@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Proxy setting indicates HTTP proxy setting for the channel with binding <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
-                This is specified as part of <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE</a> channel property.
+Proxy setting indicates HTTP proxy setting for the channel with binding <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
+                This is specified as part of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE</a> channel property.
             
 
 
@@ -62,7 +62,7 @@ Proxy setting indicates HTTP proxy setting for the channel with binding <a href=
 ### -field WS_HTTP_PROXY_SETTING_MODE_AUTO
 
 The channel will automatically detect the proxy setting based on the IE configuration for the
-                    user at the point the channel is opened. This is the default setting for the <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_HTTP_CHANNEL_BINDING</a>.
+                    user at the point the channel is opened. This is the default setting for the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>.
                 
 
 
@@ -75,7 +75,7 @@ No proxy will be used to service the request on the channel.
 ### -field WS_HTTP_PROXY_SETTING_MODE_CUSTOM
 
 If an application chooses to explicitly control the HTTP proxy it can use this setting.
-                    The <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a> property specifies the custom proxy to be used
+                    The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY</a> property specifies the custom proxy to be used
                     with the channel and must be set on the channel if this setting is used.
                 
 

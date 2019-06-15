@@ -59,7 +59,7 @@ Gets the endpoint proxy for the device.
 
 ### -param ppProxy [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/58ca085f-8939-413c-8fd3-4d867b1cf490">IWSDEndpointProxy</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a> interface.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Method completed successfully.
 
 
 
-The endpoint proxy is provided if a fault was received for a prior request. The client can then call <a href="https://msdn.microsoft.com/45ed30fd-7e4f-44f5-bb90-5686746e39be">IWSDEndpointProxy::GetFaultInfo</a> to determine the nature of the error.
+The endpoint proxy is provided if a fault was received for a prior request. The client can then call <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdendpointproxy-getfaultinfo">IWSDEndpointProxy::GetFaultInfo</a> to determine the nature of the error.
 
 
 
@@ -115,7 +115,7 @@ The endpoint proxy is provided if a fault was received for a prior request. The 
 
 
 
-<a href="https://msdn.microsoft.com/8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70">IWSDServiceProxy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
  
 
  

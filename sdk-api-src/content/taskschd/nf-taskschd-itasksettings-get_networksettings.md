@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets or sets the network settings object that contains a network profile identifier and name. If the <a href="https://msdn.microsoft.com/d0926d75-e7d9-469c-aaa0-ddee8fe22dcd">RunOnlyIfNetworkAvailable</a> property of <a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a> is  <b>true</b> and a network propfile is specified in the <b>NetworkSettings</b> property, then the task will run only if the specified network profile is available.
+Gets or sets the network settings object that contains a network profile identifier and name. If the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_runonlyifnetworkavailable">RunOnlyIfNetworkAvailable</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a> is  <b>true</b> and a network propfile is specified in the <b>NetworkSettings</b> property, then the task will run only if the specified network profile is available.
 
 This property is read/write.
 
@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/831e1259-df2b-4b03-8336-706727fd7b14">INetworkSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-inetworksettings">INetworkSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/203264d1-f67c-45ba-931b-206d7f57a2a6">ITaskSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
  
 
  

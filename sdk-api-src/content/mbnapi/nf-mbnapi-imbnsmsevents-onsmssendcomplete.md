@@ -59,7 +59,7 @@ Notification method that indicates the completion of a message send operation.
 
 ### -param sms [in]
 
-An <a href="https://msdn.microsoft.com/4a5fae5a-91d5-4a94-ac54-cb641147e8dc">IMbnSms</a> interface representing the Mobile Broadband device from which the operation completed.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device from which the operation completed.
 
 
 ### -param requestID [in]
@@ -255,7 +255,7 @@ A send operation should be tried only after the device is successfully registere
 
 
 
-<a href="https://msdn.microsoft.com/06dfb631-fe5a-45d9-89f9-1f13990500ee">IMbnSmsEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
  
 
  

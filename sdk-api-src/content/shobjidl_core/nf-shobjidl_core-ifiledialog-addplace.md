@@ -59,16 +59,16 @@ Adds a folder to the list of places available for the user to open or save items
 
 ### -param psi [in]
 
-Type: <b><a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a8736eecc560">IShellItem</a> that represents the folder to be made available to the user. This can only be a folder.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the folder to be made available to the user. This can only be a folder.
 
 
 ### -param fdap [in]
 
-Type: <b><a href="https://msdn.microsoft.com/96865947-abd1-4045-9bb2-5839e9592ad2">FDAP</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fdap">FDAP</a></b>
 
-Specifies where the folder is placed within the list. See <a href="https://msdn.microsoft.com/96865947-abd1-4045-9bb2-5839e9592ad2">FDAP</a>.
+Specifies where the folder is placed within the list. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fdap">FDAP</a>.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/779b1b2e-cd4b-404f-9d50-ac87b81640d2">SHSetTemporaryPropertyForItem</a> can be used to set a temporary <a href="https://msdn.microsoft.com/fdb6b0fa-0741-4edc-8902-763a461313b9">PKEY_ItemNameDisplay</a> property on the item represented by the <i>psi</i> parameter. The value for this property will be used in place of the item's UI name.
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shsettemporarypropertyforitem">SHSetTemporaryPropertyForItem</a> can be used to set a temporary <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemnamedisplay">PKEY_ItemNameDisplay</a> property on the item represented by the <i>psi</i> parameter. The value for this property will be used in place of the item's UI name.
 
 
 

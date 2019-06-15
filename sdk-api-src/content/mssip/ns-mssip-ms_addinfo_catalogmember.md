@@ -64,10 +64,10 @@ The size, in bytes, of this structure.
 
 ### -field pStore
 
-A <a href="https://msdn.microsoft.com/65a15797-453c-4f47-8ea1-c92e616b50aa">CRYPTCATSTORE</a> structure that contains a catalog file store.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore_">CRYPTCATSTORE</a> structure that contains a catalog file store.
 
 
 ### -field pMember
 
-A <a href="https://msdn.microsoft.com/08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b">CRYPTCATMEMBER</a> structure that contains a catalog member.
+A <a href="https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember_">CRYPTCATMEMBER</a> structure that contains a catalog member.
 

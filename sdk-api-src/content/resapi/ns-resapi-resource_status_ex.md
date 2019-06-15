@@ -49,9 +49,9 @@ ms.custom: 19H1
 
 
 Contains information 
-    about a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> that is being brought online or taken offline. 
+    about a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> that is being brought online or taken offline. 
     This structure is used as a parameter to the callback function 
-    <a href="https://msdn.microsoft.com/3733F912-9D43-489B-91D8-7128D0F5D1A4">SetResourceStatusEx</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a>.
 
 
 ## -struct-fields
@@ -61,12 +61,12 @@ Contains information
 
 ### -field ResourceState
 
-A <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration value that describes the state of the resource.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration value that describes the state of the resource.
 
 
 ### -field CheckPoint
 
-A value set by the <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLL</a> to flag a status 
+A value set by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to flag a status 
       report as new.
 
 
@@ -130,7 +130,7 @@ There was insufficient resources (other than processing or memory resources) to 
 
 #### STATUS_INVALID_PARAMETERS (0x00000080)
 
-The <a href="https://msdn.microsoft.com/3733F912-9D43-489B-91D8-7128D0F5D1A4">SetResourceStatusEx</a> function received invalid parameters.
+The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> function received invalid parameters.
 
 
 
@@ -153,7 +153,7 @@ This member is not being used at this time.
 
 
 
-<a href="https://msdn.microsoft.com/9ab4b974-28b5-4f33-a7c4-b9b2472059aa">Resource DLL Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
  
 
  

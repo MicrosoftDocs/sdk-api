@@ -68,7 +68,7 @@ Specifies the number of frames to skip. If <i>dwFrames</i> is 1, the graph steps
 
 ### -param pStepObject
 
-Pointer to an interface on the filter that will control the stepping operation, or <b>NULL</b>. Specify <b>NULL</b> to perform the frame stepping using the renderer filter in the graph. If non-<b>NULL</b>, the object must implement the <a href="https://msdn.microsoft.com/df26341d-f2d5-4a4e-954e-705e07415808">IKsPropertySet</a> interface and support the AM_KSPROPSETID_FrameStep property. (For more information, see <a href="https://msdn.microsoft.com/01abe1fe-fc2f-44cb-9546-45a8d682a179">Frame Stepping Property Set</a>.) If the graph includes a custom filter that implements the frame stepping, <i>pStepObject</i> can specify a pointer to that filter.
+Pointer to an interface on the filter that will control the stepping operation, or <b>NULL</b>. Specify <b>NULL</b> to perform the frame stepping using the renderer filter in the graph. If non-<b>NULL</b>, the object must implement the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ikspropertyset">IKsPropertySet</a> interface and support the AM_KSPROPSETID_FrameStep property. (For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/frame-stepping-property-set">Frame Stepping Property Set</a>.) If the graph includes a custom filter that implements the frame stepping, <i>pStepObject</i> can specify a pointer to that filter.
 
 
 ## -returns
@@ -125,7 +125,7 @@ The <i>pStepObject</i> parameter is invalid.
 
 
 
-When the step operation is complete, this method sends an <a href="https://msdn.microsoft.com/61c3c343-3754-40b7-9f85-9a96d3faf4a2">EC_STEP_COMPLETE</a> event notification to the filter graph manager, which will pass it to the application's event loop and set the filter graph to a paused state.
+When the step operation is complete, this method sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-step-complete">EC_STEP_COMPLETE</a> event notification to the filter graph manager, which will pass it to the application's event loop and set the filter graph to a paused state.
 
 The frames step in real time, which means that if the movie is playing at 30 frames per second, calling <b>IVideoFrameStep::Step</b> with <i>dwFrames</i> set to 60 would take 2 seconds to execute. All methods in this interface are asynchronous, so control returns to the application immediately.
 
@@ -137,11 +137,11 @@ The frames step in real time, which means that if the movie is playing at 30 fra
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bf45473-144c-49f8-8178-aff5b60112b6">IVideoFrameStep Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivideoframestep">IVideoFrameStep Interface</a>
  
 
  

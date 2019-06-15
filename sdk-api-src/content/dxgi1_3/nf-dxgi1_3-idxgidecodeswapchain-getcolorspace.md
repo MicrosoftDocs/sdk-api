@@ -64,7 +64,7 @@ Gets the color space used by the swap chain.
 
 
 
-A combination of <a href="https://msdn.microsoft.com/8BD502DC-39C1-472E-AC29-14A1F7EDB37E">DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies the color space for the swap chain.
+A combination of <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/ne-dxgi1_3-dxgi_multiplane_overlay_ycbcr_flags">DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies the color space for the swap chain.
 
 
 
@@ -74,7 +74,7 @@ A combination of <a href="https://msdn.microsoft.com/8BD502DC-39C1-472E-AC29-14A
 
 
 
-<a href="https://msdn.microsoft.com/814EDDA6-EFEA-4281-BE06-9FF8822B4927">IDXGIDecodeSwapChain</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>
  
 
  

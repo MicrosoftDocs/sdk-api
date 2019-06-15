@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LSA_FOREST_TRUST_COLLISION_RECORD_TYPE</b> enumeration defines the types of collision that can occur between <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> forest trust records.
+The <b>LSA_FOREST_TRUST_COLLISION_RECORD_TYPE</b> enumeration defines the types of collision that can occur between <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust records.
 
 
 ## -enum-fields
@@ -59,7 +59,7 @@ The <b>LSA_FOREST_TRUST_COLLISION_RECORD_TYPE</b> enumeration defines the types 
 
 ### -field CollisionTdo
 
-Collision between <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> objects. This indicates a collision with a namespace element of another forest.
+Collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects. This indicates a collision with a namespace element of another forest.
 
 
 ### -field CollisionXref
@@ -69,14 +69,14 @@ Collision between cross-references. This indicates a collision with a domain in 
 
 ### -field CollisionOther
 
-Collision that is not a collision between <a href="https://msdn.microsoft.com/fab69367-2143-49ef-a1b9-9c1d846fd4e1">TrustedDomain</a> objects or cross-references.
+Collision that is not a collision between <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> objects or cross-references.
 
 
 ## -remarks
 
 
 
-This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa378331(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_lsa_forest_trust_collision_record">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
 
 
 

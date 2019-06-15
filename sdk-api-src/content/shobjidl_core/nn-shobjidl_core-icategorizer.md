@@ -54,7 +54,7 @@ Exposes methods that are used to obtain information about item identifier lists.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICategorizer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICategorizer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICategorizer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICategorizer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICategorizer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25775fa5-595d-4911-9cd4-47fde429b923">CompareCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-comparecategory">CompareCategory</a>
 </td>
 <td align="left" width="63%">
 Determines the relative order of two items in their item identifier lists, and hence in the UI.
@@ -78,7 +78,7 @@ Determines the relative order of two items in their item identifier lists, and h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3756e9e-7d68-4e30-92d4-1fddccf66ba5">GetCategory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-getcategory">GetCategory</a>
 </td>
 <td align="left" width="63%">
 Gets a list of categories associated with a list of identifiers.
@@ -87,7 +87,7 @@ Gets a list of categories associated with a list of identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b789033-ce42-4fb5-8a3d-b05243b62d4e">GetCategoryInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-getcategoryinfo">GetCategoryInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information about a category, such as the default display and the text to display in the UI.
@@ -96,7 +96,7 @@ Gets information about a category, such as the default display and the text to d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fc457b03-ccc2-4455-9f53-77d47537c0b6">GetDescription</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategorizer-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the name of a categorizer, such as <i>Group By Device Type</i>, that can be displayed in the UI.

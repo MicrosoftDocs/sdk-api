@@ -97,11 +97,11 @@ If the function succeeds, the return value is the current state of the system pa
 
 
 
-By default, the system palette contains 20 static colors that are not changed when an application realizes its logical palette. An application can gain access to most of these colors by calling the <a href="https://msdn.microsoft.com/6ff245d3-1bcc-4778-a595-c1eb16531ad3">SetSystemPaletteUse</a> function.
+By default, the system palette contains 20 static colors that are not changed when an application realizes its logical palette. An application can gain access to most of these colors by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setsystempaletteuse">SetSystemPaletteUse</a> function.
 
 The device context identified by the <i>hdc</i> parameter must represent a device that supports color palettes.
 
-An application can determine whether a device supports color palettes by calling the <a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports color palettes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
 
 
@@ -111,19 +111,19 @@ An application can determine whether a device supports color palettes by calling
 
 
 
-<a href="https://msdn.microsoft.com/9dd32d4a-30bd-406f-a934-bb71ad4ca2cb">Color Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1a25f13-6b47-4be7-927b-814dd6ae81f8">Colors Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d524c4c7-22af-495d-aecc-b9921e53ca7b">GetDeviceCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ff245d3-1bcc-4778-a595-c1eb16531ad3">SetSystemPaletteUse</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setsystempaletteuse">SetSystemPaletteUse</a>
  
 
  

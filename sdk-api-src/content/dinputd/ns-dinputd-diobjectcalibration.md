@@ -76,7 +76,7 @@ Specifies the logical value for the axis maximum position.
 
 
 
-If the "Calibration" value is absent, then the calibration information is taken from the joystick <a href="https://msdn.microsoft.com/cd59611f-7bf2-4bba-80dc-f54c815af3e6">JOYREGHWVALUES</a> configuration structure.
+If the "Calibration" value is absent, then the calibration information is taken from the joystick <a href="https://docs.microsoft.com/windows/desktop/api/mmddk/ns-mmddk-joyreghwvalues_tag">JOYREGHWVALUES</a> configuration structure.
 
 Only HID joysticks have a "Calibration" value.
 

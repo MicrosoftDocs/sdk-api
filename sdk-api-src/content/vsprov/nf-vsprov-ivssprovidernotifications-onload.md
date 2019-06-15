@@ -134,11 +134,11 @@ An unexpected provider error occurred. If this is returned, the error must be de
 
 
 
-<a href="https://msdn.microsoft.com/09324f54-8902-43d1-a4f9-967adccbf8be">IVssProviderNotifications</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b9e0940-70b4-4913-9281-0347e60baa0d">OnUnload</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onunload">OnUnload</a>
  
 
  

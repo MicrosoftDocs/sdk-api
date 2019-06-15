@@ -69,7 +69,7 @@ Pointer to the caller specific data for this session.  This data was specified i
 
 ### -param Info [in]
 
-This parameter receives a pointer to a <a href="https://msdn.microsoft.com/21c96849-e122-4c4b-9d12-9f1c24908ac2">TRANSPORTCLIENT_SESSION_INFO</a> structure.
+This parameter receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ns-wdstci-_transportclient_session_info">TRANSPORTCLIENT_SESSION_INFO</a> structure.
 
 
 ## -returns

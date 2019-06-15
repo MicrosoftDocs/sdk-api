@@ -116,7 +116,7 @@ For example, suppose the caller is pushing data from an output pin called "A" on
 <ol>
 <li>The caller blocks the data flow at pin A.</li>
 <li>It calls <code>NotifyEndOfStream</code> on pin B.</li>
-<li>It calls <a href="https://msdn.microsoft.com/b0cca250-9603-4d58-8af5-5b272730e5fa">IPin::EndOfStream</a> on the input pin connected to pin A.</li>
+<li>It calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a> on the input pin connected to pin A.</li>
 <li>As the remaining data travels downstream through any intermediate filters, those filters propagate the end-of-stream notification.</li>
 <li>When pin B receives the end-of-stream notification, it signals the event given in the <i>hNotifyEvent</i> parameter. At that point, the caller can safely reconfigure the graph between pin A and pin B.</li>
 </ol>
@@ -124,7 +124,7 @@ Because the purpose of this method is to enable the caller to rebuild the graph 
 
 It is the caller's responsibility to cancel notification by calling this method again with a <b>NULL</b> event handle.
 
-The filter graph calls this method inside the <a href="https://msdn.microsoft.com/e8cfac8e-df89-444d-bcc7-0cbc7ab5a592">IGraphConfig::Reconnect</a> method. If an application or filter does any specialized dynamic reconfiguration to the graph (using the <a href="https://msdn.microsoft.com/924087c0-e3ad-437b-96e5-de39bbce2ea7">IGraphConfig::Reconfigure</a> method), it might call this method first in order to push data through the portion of the graph that is being reconfigured.
+The filter graph calls this method inside the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method. If an application or filter does any specialized dynamic reconfiguration to the graph (using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a> method), it might call this method first in order to push data through the portion of the graph that is being reconfigured.
 
 
 
@@ -134,15 +134,15 @@ The filter graph calls this method inside the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/5b777f64-6b62-48dd-8eae-6603582a452a">Dynamic Reconnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/0843a01c-6f6a-4765-abca-dd562175fcee">IPinConnection Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
  
 
  

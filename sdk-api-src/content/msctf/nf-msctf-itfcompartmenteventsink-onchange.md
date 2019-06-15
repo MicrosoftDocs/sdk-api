@@ -74,10 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When this method is called, the data has changed. The new data can be obtained at this time by calling <a href="https://msdn.microsoft.com/31a9efbd-ebde-4877-a387-ebaccd97d732">ITfCompartment::GetValue</a>.
+When this method is called, the data has changed. The new data can be obtained at this time by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-getvalue">ITfCompartment::GetValue</a>.
 
 
-<a href="https://msdn.microsoft.com/1a1a175f-a24e-4f83-92d3-ac6a24f5f486">ITfCompartment::SetValue
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-setvalue">ITfCompartment::SetValue
         </a> will return E_UNEXPECTED if called from within this notification.
 
 
@@ -88,17 +88,17 @@ When this method is called, the data has changed. The new data can be obtained a
 
 
 
-<a href="https://msdn.microsoft.com/31a9efbd-ebde-4877-a387-ebaccd97d732">ITfCompartment::GetValue
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-getvalue">ITfCompartment::GetValue
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1a1a175f-a24e-4f83-92d3-ac6a24f5f486">ITfCompartment::SetValue
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartment-setvalue">ITfCompartment::SetValue
       </a>
 
 
 
-<a href="https://msdn.microsoft.com/1bd464e7-9e34-4725-83f9-42e09ddf4778">ITfCompartmentEventSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmenteventsink">ITfCompartmentEventSink</a>
  
 
  

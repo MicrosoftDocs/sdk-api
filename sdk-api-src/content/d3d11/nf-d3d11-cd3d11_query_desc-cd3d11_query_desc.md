@@ -48,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://msdn.microsoft.com/F77E6197-550F-47ED-9619-42C8D2F16AF5">CD3D11_QUERY_DESC</a> structure.
+Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a> structure.
 
 ## -parameters
 
@@ -58,4 +58,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/F77E6197-550F-47ED-9619-42C8D2F16AF5">CD3D11_QUERY_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a>

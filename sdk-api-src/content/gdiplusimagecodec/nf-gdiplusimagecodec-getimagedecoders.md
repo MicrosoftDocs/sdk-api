@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetImageDecoders</b> function gets an array of <a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects that contain information about the available image decoders.
+The <b>GetImageDecoders</b> function gets an array of <a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects that contain information about the available image decoders.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>GetImageDecoders</b> function gets an array of <a href="https://msdn.micr
 
 Type: <b>UINT</b>
 
-Integer that specifies the number of available image decoders. Call <a href="https://msdn.microsoft.com/en-us/library/ms534079(v=VS.85).aspx">GetImageDecodersSize</a> to determine this number. 
+Integer that specifies the number of available image decoders. Call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a> to determine this number. 
 
 
 ### -param size [in]
@@ -71,29 +71,29 @@ Integer that specifies the number of available image decoders. Call <a href="htt
 Type: <b>UINT</b>
 
 Integer that specifies the size, in bytes, of the array of 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects. Call <a href="https://msdn.microsoft.com/en-us/library/ms534079(v=VS.85).aspx">GetImageDecodersSize</a> to determine this number. 
+					<a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects. Call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a> to determine this number. 
 
 
 ### -param decoders [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a>*</b>
 
 Pointer to a buffer that receives the array of 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534466(v=VS.85).aspx">ImageCodecInfo</a> objects. You must allocate memory for this buffer. Call <a href="https://msdn.microsoft.com/en-us/library/ms534079(v=VS.85).aspx">GetImageDecodersSize</a> to determine the size of the required buffer. 
+					<a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects. You must allocate memory for this buffer. Call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a> to determine the size of the required buffer. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 </strong>
 
 If the function succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the function fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 
 
@@ -103,31 +103,31 @@ If the function fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534079(v=VS.85).aspx">GetImageDecodersSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534080(v=VS.85).aspx">GetImageEncoders</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534081(v=VS.85).aspx">GetImageEncodersSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoderssize">GetImageEncodersSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533814(v=VS.85).aspx">Using Image Encoders and Decoders</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
  
 
  

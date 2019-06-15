@@ -54,7 +54,7 @@ Represents one DirectComposition visual in a visual tree.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual2</b> interface inherits from <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>. <b>IDCompositionVisual2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVisual2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>. <b>IDCompositionVisual2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionVisual2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A488A0B9-3CBE-477A-9688-84A7DA43D7F6">SetBackFaceVisibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setbackfacevisibility">SetBackFaceVisibility</a>
 </td>
 <td align="left" width="63%">
 Specifies whether or not surfaces that have 3D transformations applied to them should be displayed when facing away from the observer.
@@ -78,7 +78,7 @@ Specifies whether or not surfaces that have 3D transformations applied to them s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8802266E-9D31-409E-ACE8-62A3E9E93EA3">SetOpacityMode</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setopacitymode">SetOpacityMode</a>
 </td>
 <td align="left" width="63%">
 Sets the opacity mode for this visual.
@@ -97,11 +97,11 @@ Sets the opacity mode for this visual.
 
 
 
-<a href="https://msdn.microsoft.com/CCF66B7A-5847-425C-92A4-969C8B915132">IDCompositionDevice2::CreateVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createvisual">IDCompositionDevice2::CreateVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
 
 
 

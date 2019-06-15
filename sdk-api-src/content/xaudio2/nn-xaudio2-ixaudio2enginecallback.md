@@ -50,12 +50,12 @@ ms.custom: 19H1
 ## -description
 
 
-The IXAudio2EngineCallback interface contains methods that notify the client when certain events happen in the <a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a> engine.
+The IXAudio2EngineCallback interface contains methods that notify the client when certain events happen in the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> engine.
 
-This interface should be implemented by the XAudio2 client. XAudio2 calls these methods via an interface pointer provided by the client, using the <a href="https://msdn.microsoft.com/en-us/library/Ee419212(v=VS.85).aspx">XAudio2Create</a> method. Methods in this interface return <b>void</b>, rather than an HRESULT. 
+This interface should be implemented by the XAudio2 client. XAudio2 calls these methods via an interface pointer provided by the client, using the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create">XAudio2Create</a> method. Methods in this interface return <b>void</b>, rather than an HRESULT. 
 
 
-See <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a> for restrictions on callback implementation.
+See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a> for restrictions on callback implementation.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>IXAudio2EngineCallback</b> interface has these methods.
@@ -66,7 +66,7 @@ See <a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XA
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418461(v=VS.85).aspx">OnCriticalError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror">OnCriticalError</a>
 </td>
 <td align="left" width="63%">
 Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
@@ -75,7 +75,7 @@ Called if a critical system error occurs that requires XAudio2 to be closed down
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418462(v=VS.85).aspx">OnProcessingPassEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassend">OnProcessingPassEnd</a>
 </td>
 <td align="left" width="63%">
 Called by XAudio2 just after an audio processing pass ends.
@@ -84,7 +84,7 @@ Called by XAudio2 just after an audio processing pass ends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418463(v=VS.85).aspx">OnProcessingPassStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassstart">OnProcessingPassStart</a>
 </td>
 <td align="left" width="63%">
 Called by XAudio2 just before an audio processing pass begins.
@@ -104,7 +104,7 @@ The <b>IXAudio2EngineCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418461(v=VS.85).aspx">OnCriticalError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-oncriticalerror">OnCriticalError</a>
 </td>
 <td align="left" width="63%">
 Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
@@ -113,7 +113,7 @@ Called if a critical system error occurs that requires XAudio2 to be closed down
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418462(v=VS.85).aspx">OnProcessingPassEnd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassend">OnProcessingPassEnd</a>
 </td>
 <td align="left" width="63%">
 Called by XAudio2 just after an audio processing pass ends.
@@ -122,7 +122,7 @@ Called by XAudio2 just after an audio processing pass ends.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418463(v=VS.85).aspx">OnProcessingPassStart</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2enginecallback-onprocessingpassstart">OnProcessingPassStart</a>
 </td>
 <td align="left" width="63%">
 Called by XAudio2 just before an audio processing pass begins.
@@ -155,11 +155,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/4fbd4229-f7ac-33b3-b4b7-f09150a60598">XAudio2 Callbacks</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/96691e00-9ed0-b31c-fbe9-4daaba0daf98">XAudio2 Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
  
 
  

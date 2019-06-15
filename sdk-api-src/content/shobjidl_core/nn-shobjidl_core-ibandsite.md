@@ -54,7 +54,7 @@ Exposes methods that control band objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandSite</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBandSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBandSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBandSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBandSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a954aaf2-f862-4aea-8643-a5b453a8d8ee">AddBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-addband">AddBand</a>
 </td>
 <td align="left" width="63%">
 Adds a band to a band site object.
@@ -78,7 +78,7 @@ Adds a band to a band site object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d92ead78-9d58-48fe-ad93-33b2dbcbda68">EnumBands</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-enumbands">EnumBands</a>
 </td>
 <td align="left" width="63%">
 Enumerates the bands in a band site.
@@ -87,7 +87,7 @@ Enumerates the bands in a band site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6eba36d-5fc8-4b79-8129-1e07c5cc5b5f">GetBandObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandobject">GetBandObject</a>
 </td>
 <td align="left" width="63%">
 Gets a specified band object from a band site.
@@ -96,7 +96,7 @@ Gets a specified band object from a band site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5831de51-f785-430e-b7e6-f1f40a83357b">GetBandSiteInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo">GetBandSiteInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information about a band in the band site.
@@ -105,7 +105,7 @@ Gets information about a band in the band site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0618ad7d-4e8f-4fbf-ab64-2b1c0d42158c">QueryBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-queryband">QueryBand</a>
 </td>
 <td align="left" width="63%">
 Gets information about a band in a band site.
@@ -114,7 +114,7 @@ Gets information about a band in a band site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5af20633-fab4-4fda-84c9-6bbdb9d588ec">RemoveBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-removeband">RemoveBand</a>
 </td>
 <td align="left" width="63%">
 Removes a band from the band site.
@@ -123,7 +123,7 @@ Removes a band from the band site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2658a49d-d60f-483b-bbe1-e1390e9dc35e">SetBandSiteInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo">SetBandSiteInfo</a>
 </td>
 <td align="left" width="63%">
 Sets information about the band site.
@@ -132,7 +132,7 @@ Sets information about the band site.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d327f0fe-7d61-4edd-aff3-f4507763d751">SetBandState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandstate">SetBandState</a>
 </td>
 <td align="left" width="63%">
 Set the state of a band in the band site.
@@ -146,7 +146,7 @@ Set the state of a band in the band site.
 
 
 
-<b>IBandSite</b> is used to host band objects, such as <a href="https://msdn.microsoft.com/eb9f7f2a-a6be-4527-8a32-325dad4c8000">IDeskBand</a>.
+<b>IBandSite</b> is used to host band objects, such as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>.
 
 
 
@@ -156,11 +156,11 @@ Set the state of a band in the band site.
 
 
 
-<a href="https://msdn.microsoft.com/4bf46b3f-f833-42e0-baf7-21bfa9e6d890">Creating Custom Explorer Bars, Tool Bands, and Desk Bands</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc144099(v=vs.85)">Creating Custom Explorer Bars, Tool Bands, and Desk Bands</a>
 
 
 
-<a href="https://msdn.microsoft.com/f90efe85-78af-40c3-aea4-ed8818b04686">MenuBandSite</a>
+<a href="https://docs.microsoft.com/windows/desktop/shell/mandatory-user-profiles">MenuBandSite</a>
  
 
  

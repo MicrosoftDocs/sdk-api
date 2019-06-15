@@ -57,7 +57,7 @@ The <b>IMSVidStreamBufferSink</b> interface represents the Stream Buffer Sink fi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink</b> interface inherits from <a href="https://msdn.microsoft.com/c2e5ebac-cb10-4567-83f7-f8f4e3b4f009">IMSVidOutputDevice</a>. <b>IMSVidStreamBufferSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSink</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidStreamBufferSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMSVidStreamBufferSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694655(v=VS.85).aspx">get_ContentRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_contentrecorder">get_ContentRecorder</a>
 </td>
 <td align="left" width="63%">
 Creates a new content recording object.
@@ -81,7 +81,7 @@ Creates a new content recording object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694656(v=VS.85).aspx">get_ReferenceRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_referencerecorder">get_ReferenceRecorder</a>
 </td>
 <td align="left" width="63%">
 Creates a new reference recording object.
@@ -90,7 +90,7 @@ Creates a new reference recording object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694657(v=VS.85).aspx">get_SBESink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_sbesink">get_SBESink</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the Stream Buffer Sink filter.
@@ -99,7 +99,7 @@ Retrieves a pointer to the Stream Buffer Sink filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694658(v=VS.85).aspx">get_SinkName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-get_sinkname">get_SinkName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the stub file that points to the backing files.
@@ -108,7 +108,7 @@ Retrieves the name of the stub file that points to the backing files.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694659(v=VS.85).aspx">NameSetLock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-namesetlock">NameSetLock</a>
 </td>
 <td align="left" width="63%">
 Locks the stream buffer profile.
@@ -117,7 +117,7 @@ Locks the stream buffer profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694660(v=VS.85).aspx">put_SinkName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersink-put_sinkname">put_SinkName</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the stub file that points to the backing files.
@@ -141,11 +141,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/c2e5ebac-cb10-4567-83f7-f8f4e3b4f009">IMSVidOutputDevice</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

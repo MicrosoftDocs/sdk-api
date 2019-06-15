@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The  structure defines an unordered set of keying modules that will be tried for IPsec.<div class="alert"><b>Note</b>  <b>IPSEC_KEYING_POLICY1</b> is the specific implementation of IPSEC_KEYING_POLICY used in Windows 8. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista and Windows 7, <a href="https://msdn.microsoft.com/6eddafbf-ac57-419f-b2a0-f50a4ab31baf">IPSEC_KEYING_POLICY0</a> is available.</div>
+The  structure defines an unordered set of keying modules that will be tried for IPsec.<div class="alert"><b>Note</b>  <b>IPSEC_KEYING_POLICY1</b> is the specific implementation of IPSEC_KEYING_POLICY used in Windows 8. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista and Windows 7, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy0_">IPSEC_KEYING_POLICY0</a> is available.</div>
 <div> </div>
 
 
@@ -103,7 +103,7 @@ Forces the use of a Kerberos proxy server when acting as initiator.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

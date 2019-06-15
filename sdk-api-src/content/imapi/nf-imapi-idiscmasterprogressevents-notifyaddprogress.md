@@ -50,8 +50,8 @@ ms.custom: 19H1
 
 
 Notifies an application of its progress in response to calls to 
-<a href="https://msdn.microsoft.com/d9bd4f3c-4ff5-4f6e-9520-27fef3736636">IRedbookDiscMaster::AddAudioTrackBlocks</a> or 
-<a href="https://msdn.microsoft.com/91517103-71c5-450c-9d93-584f94cd2c45">IJolietDiscMaster::AddData</a>. Notifications are sent for the first and last steps, and at points in between.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-addaudiotrackblocks">IRedbookDiscMaster::AddAudioTrackBlocks</a> or 
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">IJolietDiscMaster::AddData</a>. Notifications are sent for the first and last steps, and at points in between.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 
-<a href="https://msdn.microsoft.com/68f7edbd-4a06-4e8d-a562-21a65767aff6">IDiscMasterProgressEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
  
 
  

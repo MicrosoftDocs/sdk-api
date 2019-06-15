@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- The <b>WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</b> structure contains the value and value type for a parameter used to expand the value resource string in the <a href="https://msdn.microsoft.com/BFC13B54-60F3-43A1-B464-D09DD96F57FA">WSB_OB_STATUS_ENTRY</a> structure.
+ The <b>WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</b> structure contains the value and value type for a parameter used to expand the value resource string in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ns-wsbonline-_wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a> structure.
 
 
 ## -struct-fields
@@ -72,11 +72,11 @@ Specifies the type of the value for the parameter.
 
 
 
-<a href="https://msdn.microsoft.com/C1AC87C6-37B7-4675-AB51-45C292239EB5">Cloud  Backup Provider API Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-structures">Cloud  Backup Provider API Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/E2D70C01-D331-4FBC-8586-2878513618D5">WSB_OB_STATUS_ENTRY_PAIR_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/ne-wsbonline-_wsb_ob_status_entry_pair_type">WSB_OB_STATUS_ENTRY_PAIR_TYPE</a>
  
 
  

@@ -59,9 +59,9 @@ Called if descriptive text associated with the action will be changed.
 
 ### -param sptext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3d33cb3a-5949-446c-97ec-7ac4f4b1f675">SPTEXT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext">SPTEXT</a></b>
 
-A value that specifies the type of text displayed. See <a href="https://msdn.microsoft.com/3d33cb3a-5949-446c-97ec-7ac4f4b1f675">SPTEXT</a> for acceptable values.
+A value that specifies the type of text displayed. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext">SPTEXT</a> for acceptable values.
 
 
 ### -param pszText [in]
@@ -104,11 +104,11 @@ The class implementing this method must interpret the value of <i>sptext</i> and
 
 
 
-<a href="https://msdn.microsoft.com/e742e381-0fd2-482a-81a0-7b43d11b073b">IActionProgress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d33cb3a-5949-446c-97ec-7ac4f4b1f675">SPTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_sptext">SPTEXT</a>
  
 
  

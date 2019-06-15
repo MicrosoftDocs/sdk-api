@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>TCP_TABLE_CLASS</b> enumeration defines the set of values used to  indicate the type of table returned by  calls to <a href="https://msdn.microsoft.com/96356a0e-ae0d-4000-9223-a578cbdeaa8b">GetExtendedTcpTable</a>.
+The <b>TCP_TABLE_CLASS</b> enumeration defines the set of values used to  indicate the type of table returned by  calls to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>.
 
 
 ## -enum-fields
@@ -60,47 +60,47 @@ The <b>TCP_TABLE_CLASS</b> enumeration defines the set of values used to  indica
 
 ### -field TCP_TABLE_BASIC_LISTENER
 
-A <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> table that contains all listening (receiving only) TCP endpoints on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a> table that contains all listening (receiving only) TCP endpoints on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_BASIC_CONNECTIONS
 
-A <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> table that contains all connected TCP endpoints  on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a> table that contains all connected TCP endpoints  on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_BASIC_ALL
 
-A <a href="https://msdn.microsoft.com/a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84">MIB_TCPTABLE</a> table that contains all TCP endpoints  on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable">MIB_TCPTABLE</a> table that contains all TCP endpoints  on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_OWNER_PID_LISTENER
 
-A <a href="https://msdn.microsoft.com/ef39b832-1f22-468a-8734-c7d9bd3ac965">MIB_TCPTABLE_OWNER_PID</a> or <a href="https://msdn.microsoft.com/93629d1d-e5f2-4ae8-b585-17e39ae4986d">MIB_TCP6TABLE_OWNER_PID</a> that contains all listening (receiving only) TCP endpoints on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_pid">MIB_TCPTABLE_OWNER_PID</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a> that contains all listening (receiving only) TCP endpoints on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_OWNER_PID_CONNECTIONS
 
-A <a href="https://msdn.microsoft.com/ef39b832-1f22-468a-8734-c7d9bd3ac965">MIB_TCPTABLE_OWNER_PID</a> or <a href="https://msdn.microsoft.com/93629d1d-e5f2-4ae8-b585-17e39ae4986d">MIB_TCP6TABLE_OWNER_PID</a> that structure that contains all connected TCP endpoints  on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_pid">MIB_TCPTABLE_OWNER_PID</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a> that structure that contains all connected TCP endpoints  on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_OWNER_PID_ALL
 
-A <a href="https://msdn.microsoft.com/ef39b832-1f22-468a-8734-c7d9bd3ac965">MIB_TCPTABLE_OWNER_PID</a> or <a href="https://msdn.microsoft.com/93629d1d-e5f2-4ae8-b585-17e39ae4986d">MIB_TCP6TABLE_OWNER_PID</a> structure that contains all TCP endpoints  on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_pid">MIB_TCPTABLE_OWNER_PID</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_pid">MIB_TCP6TABLE_OWNER_PID</a> structure that contains all TCP endpoints  on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_OWNER_MODULE_LISTENER
 
-A <a href="https://msdn.microsoft.com/d44c9d82-906b-43ea-8edd-cf973864668d">MIB_TCPTABLE_OWNER_MODULE</a> or <a href="https://msdn.microsoft.com/aa52531c-1d4e-44f9-8638-1528beb491f3">MIB_TCP6TABLE_OWNER_MODULE</a> structure that contains all listening (receiving only) TCP endpoints on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_module">MIB_TCPTABLE_OWNER_MODULE</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a> structure that contains all listening (receiving only) TCP endpoints on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_OWNER_MODULE_CONNECTIONS
 
-A <a href="https://msdn.microsoft.com/d44c9d82-906b-43ea-8edd-cf973864668d">MIB_TCPTABLE_OWNER_MODULE</a> or <a href="https://msdn.microsoft.com/aa52531c-1d4e-44f9-8638-1528beb491f3">MIB_TCP6TABLE_OWNER_MODULE</a> structure that contains all connected TCP endpoints on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_module">MIB_TCPTABLE_OWNER_MODULE</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a> structure that contains all connected TCP endpoints on the local computer is returned to the caller.
 
 
 ### -field TCP_TABLE_OWNER_MODULE_ALL
 
-A <a href="https://msdn.microsoft.com/d44c9d82-906b-43ea-8edd-cf973864668d">MIB_TCPTABLE_OWNER_MODULE</a> or <a href="https://msdn.microsoft.com/aa52531c-1d4e-44f9-8638-1528beb491f3">MIB_TCP6TABLE_OWNER_MODULE</a> structure that contains all  TCP endpoints on the local computer is returned to the caller.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcptable_owner_module">MIB_TCPTABLE_OWNER_MODULE</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tcpmib/ns-tcpmib-_mib_tcp6table_owner_module">MIB_TCP6TABLE_OWNER_MODULE</a> structure that contains all  TCP endpoints on the local computer is returned to the caller.
 
 
 ## -remarks
@@ -119,7 +119,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/96356a0e-ae0d-4000-9223-a578cbdeaa8b">GetExtendedTcpTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
  
 
  

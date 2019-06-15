@@ -58,7 +58,7 @@ The <b>IAMDroppedFrames</b> interface retrieves performance information from a v
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDroppedFrames</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAMDroppedFrames</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDroppedFrames</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDroppedFrames</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAMDroppedFrames</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/49b63a9f-8192-4fce-8cfe-c92bd39ca2b0">GetAverageFrameSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getaverageframesize">GetAverageFrameSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average size of the frames that the filter has captured.
@@ -82,7 +82,7 @@ Retrieves the average size of the frames that the filter has captured.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4dc9e68-f814-4bb4-88ea-88eea32b2577">GetDroppedInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getdroppedinfo">GetDroppedInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of frame numbers that were dropped.
@@ -91,7 +91,7 @@ Retrieves an array of frame numbers that were dropped.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d7e91efb-0755-4319-ac85-abc6ecdc3e2a">GetNumDropped</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getnumdropped">GetNumDropped</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of frames that the filter has dropped since it started streaming.
@@ -100,7 +100,7 @@ Retrieves the total number of frames that the filter has dropped since it starte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/16b26c54-343e-4465-9823-fafeac79bb55">GetNumNotDropped</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getnumnotdropped">GetNumNotDropped</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of frames that the filter has delivered since it started streaming.
@@ -114,9 +114,9 @@ Retrieves the total number of frames that the filter has delivered since it star
 
 
 
-Some filters that expose this interface do not implement the <a href="https://msdn.microsoft.com/d4dc9e68-f814-4bb4-88ea-88eea32b2577">GetDroppedInfo</a> or <a href="https://msdn.microsoft.com/49b63a9f-8192-4fce-8cfe-c92bd39ca2b0">GetAverageFrameSize</a> method.
+Some filters that expose this interface do not implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getdroppedinfo">GetDroppedInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdroppedframes-getaverageframesize">GetAverageFrameSize</a> method.
 
-For Windows Driver Model (WDM) devices, the <a href="https://msdn.microsoft.com/97432b99-e89b-4d69-963d-a959f887e580">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://msdn.microsoft.com/0c968ff2-b0da-4416-857a-e185e58429e9">PROPSETID_VIDCAP_DROPPEDFRAMES</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
+For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-droppedframes">PROPSETID_VIDCAP_DROPPEDFRAMES</a> property set. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=181442">Windows Driver Kit (WDK)</a> documentation.
 
 The number of dropped frames is reported by the capture driver. This information is not directly correlated with any particular media sample, so it is not accurate on a per-frame basis, although it should be accurate over time.
 
@@ -128,7 +128,7 @@ The number of dropped frames is reported by the capture driver. This information
 
 
 
-<a href="https://msdn.microsoft.com/5efd174f-2eb1-44e6-97e3-b73c7c52fef1">Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
  
 
  

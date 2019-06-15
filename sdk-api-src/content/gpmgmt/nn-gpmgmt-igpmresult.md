@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMResult</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IGPMResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMResult</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IGPMResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/814c59b7-47bc-4757-997e-95ca578f544a">OverallStatus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmresult-overallstatus">OverallStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the overall status of the GPMC operation.
@@ -90,7 +90,7 @@ Returns the overall status of the GPMC operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/34b9c8da-9a5f-4415-b62e-31083578c802">Result</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmresult-property-methods">Result</a>
 
 
 </td>
@@ -102,19 +102,19 @@ Read-only
 Pointer to a <b>VARIANT</b> that receives the result of various types of GPO operations. This property is the location at which an <b>IDispatch</b> interface pointer can be stored.
 
 For calls to the 
-<a href="https://msdn.microsoft.com/5ba8d2f7-4989-4882-9ceb-4f77b8745442">IGPMGPO::Backup</a> method, the result is a pointer to an 
-<a href="https://msdn.microsoft.com/a593740a-9541-465a-9a2d-64ddf29793bf">IGPMBackup</a> interface. For calls to 
-<a href="https://msdn.microsoft.com/8e202ea1-ca5c-4757-950b-ea1802699b68">IGPMDomain::RestoreGPO</a>, 
-<a href="https://msdn.microsoft.com/3b16eefb-89af-408b-a84c-c8ab958b4cc7">IGPMGPO::Import</a>, and 
-<a href="https://msdn.microsoft.com/17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07">IGPMGPO::CopyTo</a>, the result is a pointer to an 
-<a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a> interface. For calls to the <a href="https://msdn.microsoft.com/19b3b027-59f1-4c31-896b-5b5fd23b9be4">IGPMGPO::GenerateReport</a> method, the result contains a binary string of XML or HTML.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-backup">IGPMGPO::Backup</a> method, the result is a pointer to an 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> interface. For calls to 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-restoregpo">IGPMDomain::RestoreGPO</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-import">IGPMGPO::Import</a>, and 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-copyto">IGPMGPO::CopyTo</a>, the result is a pointer to an 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface. For calls to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpo-generatereport">IGPMGPO::GenerateReport</a> method, the result contains a binary string of XML or HTML.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/34b9c8da-9a5f-4415-b62e-31083578c802">Status</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmresult-property-methods">Status</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Read-only
 </td>
 <td align="left" width="63%">
 Pointer to an 
-<a href="https://msdn.microsoft.com/774dd1b0-e5ea-4fef-b3bc-743870793db5">IGPMStatusMsgCollection</a> interface.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a> interface.
 
 </td>
 </tr>
@@ -136,11 +136,11 @@ Pointer to an
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/2780760e-7114-46b0-a264-00ed58a556cb">IGPM</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
  
 
  

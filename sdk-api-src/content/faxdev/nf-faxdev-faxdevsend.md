@@ -61,14 +61,14 @@ The fax service calls the <b>FaxDevSend</b> function to signal a fax service pro
 
 Type: <b>HANDLE</b>
 
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function.
+Specifies a fax handle returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a> function.
 
 
 ### -param FaxSend [in]
 
 Type: <b>PFAX_SEND</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a> structure that contains the sending information. For more information, see the following Remarks section.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_send">FAX_SEND</a> structure that contains the sending information. For more information, see the following Remarks section.
 
 
 ### -param FaxSendCallback
@@ -86,7 +86,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  For a successful send, FaxDevSend() should return <b>TRUE</b> and FaxDevReportStatus() should return FS_COMPLETED. For an unsuccessful send, FaxDevSend() should return <b>FALSE</b>, and FaxDevReportStatus() should return any of the following codes: FS_LINE_UNAVAILABLE, FS_NO_ANSWER, FS_NO_DIAL_TONE, FS_DISCONNECTED, FS_BUSY, FS_NOT_FAX_CALL, or FS_FATAL_ERROR. If after a failed fax the fax should not be re-sent, FaxDevReportStatus() should return any code other than those listed here.</div>
 <div> </div>
@@ -97,16 +97,16 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The FSP must respond to the <b>FaxDevSend</b> function by making the call, sending the data, and terminating the call. The provider can call the <a href="https://msdn.microsoft.com/4a0e3fd7-9483-4d21-9b6f-bb6c04aa8226">lineSetMediaMode</a> function to correctly set the call's media mode. The fax service provider must dial the number specified by the <b>ReceiverNumber</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a> structure. 
+The FSP must respond to the <b>FaxDevSend</b> function by making the call, sending the data, and terminating the call. The provider can call the <a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediamode">lineSetMediaMode</a> function to correctly set the call's media mode. The fax service provider must dial the number specified by the <b>ReceiverNumber</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_send">FAX_SEND</a> structure. 
         
 
 The FSP has ownership of the line while in the context of the <b>FaxDevSend</b> function, and it must handle all protocol and error correction. 
         
 
-The data stream stored in the file specified by the <b>FileName</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a> structure is a Tagged Image File Format Class F (TIFF Class F) file. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693440(v=VS.85).aspx">Fax Image Format</a>. 
+The data stream stored in the file specified by the <b>FileName</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_send">FAX_SEND</a> structure is a Tagged Image File Format Class F (TIFF Class F) file. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-image-format">Fax Image Format</a>. 
         
 
-To notify the fax service that a call has been established, the FSP must call the <a href="https://msdn.microsoft.com/en-us/library/ms684549(v=VS.85).aspx">FaxSendCallback</a> function pointed to by the <i>FaxSendCallback</i> parameter. The callback function also provides the fax service with the call handle that TAPI assigns. This handle is necessary for TAPI message routing. If the FSP does not call <i>FaxSendCallback</i>, it will miss all call-specific events for the send operation. 
+To notify the fax service that a call has been established, the FSP must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nc-faxdev-pfax_send_callback">FaxSendCallback</a> function pointed to by the <i>FaxSendCallback</i> parameter. The callback function also provides the fax service with the call handle that TAPI assigns. This handle is necessary for TAPI message routing. If the FSP does not call <i>FaxSendCallback</i>, it will miss all call-specific events for the send operation. 
         
 
 
@@ -117,27 +117,27 @@ To notify the fax service that a call has been established, the FSP must call th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684547(v=VS.85).aspx">FAX_SEND</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/ns-faxdev-_fax_send">FAX_SEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684546(v=VS.85).aspx">Fax Service Provider Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-provider-functions">Fax Service Provider Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684535(v=VS.85).aspx">FaxDevReceive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevreceive">FaxDevReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevstartjob">FaxDevStartJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684549(v=VS.85).aspx">FaxSendCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxdev/nc-faxdev-pfax_send_callback">FaxSendCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693428(v=VS.85).aspx">Using the Fax Service Provider API</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Flags used to specify the kind of information requested from an object in the <a href="https://msdn.microsoft.com/e62785e4-994c-48cc-b5b9-7ec2b07c9d63">IProvideClassInfo2</a>.
+Flags used to specify the kind of information requested from an object in the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>.
 
 
 ## -enum-fields
@@ -67,7 +67,7 @@ The interface identifier (IID) of the object's outgoing dispinterface, labeled [
 
 
 
-<a href="https://msdn.microsoft.com/e62785e4-994c-48cc-b5b9-7ec2b07c9d63">IProvideClassInfo2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>
  
 
  

@@ -59,7 +59,7 @@ Notification method called by the Mobile Broadband service to indicate that the 
 
 ### -param newInterface [in]
 
-An <a href="https://msdn.microsoft.com/a9bc52dc-47f9-4b20-b98d-0287464a89e5">IMbnConnectionContext</a> interface that represents the device for which the context has been set.
+An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a> interface that represents the device for which the context has been set.
 
 
 ### -param requestID [in]
@@ -155,8 +155,8 @@ This method must return <b>S_OK</b>.
 
 
 
-A calling application can pass an <a href="https://msdn.microsoft.com/a9bc52dc-47f9-4b20-b98d-0287464a89e5">IMbnConnectionContext</a> interface to <i>newInterface</i> to get the updated list of provisioned contexts in the device.
- However, since this operation is asynchronous, the application must wait for the <a href="https://msdn.microsoft.com/3c8fa150-7c36-4ad8-ada8-2b17693671d9">OnProvisionedContextListChange</a> notification before using this interface to get the contexts.
+A calling application can pass an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontext">IMbnConnectionContext</a> interface to <i>newInterface</i> to get the updated list of provisioned contexts in the device.
+ However, since this operation is asynchronous, the application must wait for the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectioncontextevents-onprovisionedcontextlistchange">OnProvisionedContextListChange</a> notification before using this interface to get the contexts.
 
 If there are multiple applications registered to receive notifications then all of them will receive this notification even though only one of them could have initiated this operation.
 
@@ -168,7 +168,7 @@ If there are multiple applications registered to receive notifications then all 
 
 
 
-<a href="https://msdn.microsoft.com/1f73260b-04db-410a-ade0-a835805b2b0a">IMbnConnectionContextEvents</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectioncontextevents">IMbnConnectionContextEvents</a>
  
 
  

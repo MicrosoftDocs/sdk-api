@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines the population policy modifiers. This is a modifier that can be used with the primary policy: <a href="https://msdn.microsoft.com/3EDCDE3D-AD47-4C4B-9F83-C89879D668DA">CF_POPULATION_POLICY_PRIMARY</a>.
+Defines the population policy modifiers. This is a modifier that can be used with the primary policy: <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ne-cfapi-cf_population_policy_primary">CF_POPULATION_POLICY_PRIMARY</a>.
 
 
 ## -enum-fields

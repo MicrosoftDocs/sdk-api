@@ -59,12 +59,12 @@ Initializes a content provider.
 
 ### -param pInParameters [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/5d89d192-7e60-4b5a-ba87-d5b30971a8a6">WDS_TRANSPORTPROVIDER_INIT_PARAMS</a> structure that informs the content provider about the server.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ns-wdstpdi-_wds_transportprovider_init_params">WDS_TRANSPORTPROVIDER_INIT_PARAMS</a> structure that informs the content provider about the server.
 
 
 ### -param pSettings [out]
 
-A pointer to  a <a href="https://msdn.microsoft.com/334e86f2-97fa-4f64-93a4-b6aed6212eb1">WDS_TRANSPORTPROVIDER_SETTINGS</a> structure that informs the server about the content provider.
+A pointer to  a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ns-wdstpdi-_wds_transportprovider_settings">WDS_TRANSPORTPROVIDER_SETTINGS</a> structure that informs the server about the content provider.
 
 
 ### -param ulLength [in]

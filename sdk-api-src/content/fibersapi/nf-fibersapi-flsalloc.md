@@ -65,7 +65,7 @@ Allocates a fiber local storage (FLS) index. Any fiber in the process can subseq
 ### -param lpCallback [in]
 
 A pointer to the application-defined callback function of type <b>PFLS_CALLBACK_FUNCTION</b>. This parameter is optional. For more information, see 
-<a href="https://msdn.microsoft.com/d05a6550-7fec-44e6-9b38-dfafff7895c8">FlsCallback</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pfls_callback_function">FlsCallback</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ A pointer to the application-defined callback function of type <b>PFLS_CALLBACK_
 If the function succeeds, the return value is an FLS index initialized to zero.
 
 If the function fails, the return value is FLS_OUT_OF_INDEXES. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -85,13 +85,13 @@ If the function fails, the return value is FLS_OUT_OF_INDEXES. To get extended e
 
 
 The fibers of the process can use the FLS index in subsequent calls to the 
-<a href="https://msdn.microsoft.com/ef996c6b-77d0-4b06-97a4-14773cb67146">FlsFree</a>, 
-<a href="https://msdn.microsoft.com/f2abea00-8c1b-47e8-a4e9-9e3e7242d0ad">FlsSetValue</a>, or 
-<a href="https://msdn.microsoft.com/5d5a1fe6-10ed-42c5-87db-b24eef6f174c">FlsGetValue</a> functions.
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsfree">FlsFree</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>, or 
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> functions.
 
 FLS indexes are typically allocated during process or dynamic-link library (DLL) initialization. After an FLS index has been allocated, each fiber of the process can use it to access its own FLS storage slot. To store a value in its FLS slot, a fiber specifies the index in a call to 
-<a href="https://msdn.microsoft.com/f2abea00-8c1b-47e8-a4e9-9e3e7242d0ad">FlsSetValue</a>. The fiber specifies the same index in a subsequent call to 
-<a href="https://msdn.microsoft.com/5d5a1fe6-10ed-42c5-87db-b24eef6f174c">FlsGetValue</a> to retrieve the stored value.
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>. The fiber specifies the same index in a subsequent call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> to retrieve the stored value.
 
 FLS indexes are not valid across process boundaries. A DLL cannot assume that an index assigned in one process is valid in another process.
 
@@ -103,27 +103,27 @@ FLS indexes are not valid across process boundaries. A DLL cannot assume that an
 
 
 
-<a href="https://msdn.microsoft.com/6283f56b-23ae-4840-abd0-2478a50c670c">Fibers</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://msdn.microsoft.com/d05a6550-7fec-44e6-9b38-dfafff7895c8">FlsCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nc-winnt-pfls_callback_function">FlsCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/ef996c6b-77d0-4b06-97a4-14773cb67146">FlsFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsfree">FlsFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d5a1fe6-10ed-42c5-87db-b24eef6f174c">FlsGetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2abea00-8c1b-47e8-a4e9-9e3e7242d0ad">FlsSetValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
  
 
  

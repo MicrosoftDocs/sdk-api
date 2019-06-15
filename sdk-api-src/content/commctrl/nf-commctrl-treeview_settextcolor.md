@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the text color of the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773769(v=VS.85).aspx">TVM_SETTEXTCOLOR</a> message explicitly. 
+Sets the text color of the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-settextcolor">TVM_SETTEXTCOLOR</a> message explicitly. 
 
 
 ## -parameters
@@ -59,17 +59,17 @@ Sets the text color of the control. You can use this macro or send the <a href="
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a tree-view control. 
 
 
 ### -param clr
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 
-<a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value that contains the new text color. If this argument is -1, the control will revert to using the system color for the text color. 
+<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that contains the new text color. If this argument is -1, the control will revert to using the system color for the text color. 
 
 
 ## -see-also
@@ -77,7 +77,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773893(v=VS.85).aspx">TreeView_GetTextColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_gettextcolor">TreeView_GetTextColor</a>
  
 
  

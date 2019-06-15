@@ -58,7 +58,7 @@ Exposes a method that enables a client application to create a helper object in 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoCreateLocally</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICoCreateLocally</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICoCreateLocally</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICoCreateLocally</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ICoCreateLocally</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a41dd9d-71b3-4d7c-9728-a65f7ddac3d5">CoCreateLocally</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-icocreatelocally-cocreatelocally">CoCreateLocally</a>
 </td>
 <td align="left" width="63%">
 Creates a helper object in the server context.

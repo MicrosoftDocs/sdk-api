@@ -55,7 +55,7 @@ Represents the mechanism by which the destination provider asynchronously retrie
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsynchronousDataRetriever</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAsynchronousDataRetriever</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsynchronousDataRetriever</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAsynchronousDataRetriever</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAsynchronousDataRetriever</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/20f42e0d-dacb-4362-843b-8bc2fb664203">GetIdParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-getidparameters">GetIdParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the ID format schema of the provider.
@@ -80,7 +80,7 @@ Gets the ID format schema of the provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b5e73504-1f9e-4a58-9bd9-2c184372b970">LoadChangeData</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-loadchangedata">LoadChangeData</a>
 </td>
 <td align="left" width="63%">
 Retrieves item data for a change.
@@ -89,7 +89,7 @@ Retrieves item data for a change.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4148db4a-a460-40ca-863a-861065f89c5c">RegisterCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-registercallback">RegisterCallback</a>
 </td>
 <td align="left" width="63%">
 Registers a callback interface that will be called by the <b>IAsynchronousDataRetriever</b> object when an asynchronous method finishes processing.
@@ -98,7 +98,7 @@ Registers a callback interface that will be called by the <b>IAsynchronousDataRe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb7b1457-03aa-47e0-9e61-6195706a0fcd">RevokeCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iasynchronousdataretriever-revokecallback">RevokeCallback</a>
 </td>
 <td align="left" width="63%">
 Indicates that the <b>IAsynchronousDataRetriever</b>  object must no longer use the specified callback interface and must release any references to it.
@@ -114,7 +114,7 @@ Indicates that the <b>IAsynchronousDataRetriever</b>  object must no longer use 
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

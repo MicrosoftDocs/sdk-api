@@ -54,7 +54,7 @@ Exposes methods that authorize connections and resources. Implement this interfa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGPolicyEngine</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITSGPolicyEngine</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITSGPolicyEngine</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITSGPolicyEngine</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITSGPolicyEngine</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41a61eef-c8fe-4e08-b793-a58553f31646">AuthorizeConnection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeconnection">AuthorizeConnection</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified connection is authorized to connect to  RD Gateway.
@@ -78,7 +78,7 @@ Determines whether the specified connection is authorized to connect to  RD Gat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77950541-c94a-4035-a2d8-a6014eb387e5">AuthorizeResource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-authorizeresource">AuthorizeResource</a>
 </td>
 <td align="left" width="63%">
 Determines which resources the specified connection is authorized to connect to.
@@ -87,7 +87,7 @@ Determines which resources the specified connection is authorized to connect to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e63b99ba-068f-4842-b00a-9bfc5f8dac73">IsQuarantineEnabled</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-isquarantineenabled">IsQuarantineEnabled</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the authorization plug-in requires a statement of health (SoH) from the user's computer.
@@ -96,7 +96,7 @@ Indicates whether the authorization plug-in requires a statement of health (SoH)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/29432884-c844-4c38-92e6-e1bcbba32b2b">Refresh</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 This method is reserved.

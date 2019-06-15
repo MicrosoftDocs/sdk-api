@@ -88,15 +88,15 @@ The following are the state transitions for a channel.
 <img alt="" src="./images/ChannelStates.png"/>
 
 A channel may move to the <b>WS_CHANNEL_STATE_FAULTED</b> 
-                state even if <a href="https://msdn.microsoft.com/67af85d7-db75-4e26-a7cc-8115ac3f2d59">WsAbortChannel</a> was never called.
+                state even if <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> was never called.
                 This will only occur if the channel can no longer be used.
             
 
 Note that only the valid state transitions are shown.  Using
                 a function not shown for a given state will result in an
                 <b>WS_E_INVALID_OPERATION</b> error being returned from
-                the function (or crash in the case of <a href="https://msdn.microsoft.com/74e36d19-c6db-4bba-90e3-88a48b6a1fb5">WsFreeChannel</a>).
-            For information on error codes, see<a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.
+                the function (or crash in the case of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">WsFreeChannel</a>).
+            For information on error codes, see<a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.
 
 
 

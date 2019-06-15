@@ -55,7 +55,7 @@ Defines various methods that provide configuration options for the fax service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxConfiguration</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxConfiguration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxConfiguration</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxConfiguration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IFaxConfiguration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa358927(v=VS.85).aspx">Refresh</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-refresh-vb">Refresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes the object.
@@ -80,7 +80,7 @@ Refreshes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa358930(v=VS.85).aspx">Save</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-save-vb">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the object.
@@ -98,7 +98,7 @@ Saves the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358912(v=VS.85).aspx">AllowPersonalCoverPages</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-allowpersonalcoverpages-vb">AllowPersonalCoverPages</a>
 
 
 </td>
@@ -114,7 +114,7 @@ Sets or retrieves a value that indicates whether personal cover pages are allowe
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358914(v=VS.85).aspx">ArchiveAgeLimit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-archiveagelimit-vb">ArchiveAgeLimit</a>
 
 
 </td>
@@ -130,7 +130,7 @@ Sets or retrieves a value that indicates how long a fax message is kept on the s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358915(v=VS.85).aspx">ArchiveLocation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-archivelocation-vb">ArchiveLocation</a>
 
 
 </td>
@@ -146,7 +146,7 @@ Sets or retrieves a value that indicates the location of the archive on the serv
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3386ec80-be4e-4105-ab57-dd634b57f67f">ArchiveSizeHigh</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxconfiguration-get_archivesizehigh">ArchiveSizeHigh</a>
 
 
 </td>
@@ -162,7 +162,7 @@ The value that specifies the high-order 32-bit value (in bytes) for the size of 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/e10cde26-deec-47b8-bc69-0b785087ab74">ArchiveSizeLow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxconfiguration-get_archivesizelow">ArchiveSizeLow</a>
 
 
 </td>
@@ -178,7 +178,7 @@ The value that specifies the low-order 32-bit value (in bytes) for the size of t
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358916(v=VS.85).aspx">AutoCreateAccountOnConnect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-autocreateaccountonconnect-vb">AutoCreateAccountOnConnect</a>
 
 
 </td>
@@ -195,7 +195,7 @@ Sets or retrieves a value that indicates whether the server automatically create
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358919(v=VS.85).aspx">Branding</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-branding-vb">Branding</a>
 
 
 </td>
@@ -211,7 +211,7 @@ Sets or retrieves a value that indicates whether the fax server generates a bran
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358920(v=VS.85).aspx">DiscountRateEnd</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-discountrateend-vb">DiscountRateEnd</a>
 
 
 </td>
@@ -227,7 +227,7 @@ Sets or retrieves a value that indicates the time at which the discount rate per
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358921(v=VS.85).aspx">DiscountRateStart</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-discountratestart-vb">DiscountRateStart</a>
 
 
 </td>
@@ -243,7 +243,7 @@ Sets or retrieves a value that indicates the time at which the discount rate per
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358922(v=VS.85).aspx">HighQuotaWaterMark</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-highquotawatermark-vb">HighQuotaWaterMark</a>
 
 
 </td>
@@ -259,7 +259,7 @@ Sets or retrieves a value that indicates the maximum allotted size of a watermar
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358923(v=VS.85).aspx">IncomingFaxesArePublic</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-incomingfaxesarepublic-vb">IncomingFaxesArePublic</a>
 
 
 </td>
@@ -275,7 +275,7 @@ Indicates whether incoming faxes are either viewable by everyone or private.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358924(v=VS.85).aspx">LowQuotaWaterMark</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-lowquotawatermark-vb">LowQuotaWaterMark</a>
 
 
 </td>
@@ -291,7 +291,7 @@ Sets or retrieves a value that indicates the minimum size of a watermark.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358925(v=VS.85).aspx">OutgoingQueueAgeLimit</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-outgoingqueueagelimit-vb">OutgoingQueueAgeLimit</a>
 
 
 </td>
@@ -307,7 +307,7 @@ Sets or retrieves a value that indicates the length of time that an undeliverabl
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358918(v=VS.85).aspx">OutgoingQueueBlocked</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-blockoutgoingqueue-vb">OutgoingQueueBlocked</a>
 
 
 </td>
@@ -323,7 +323,7 @@ Sets or retrieves a value that indicates whether the fax server queue for outgoi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358926(v=VS.85).aspx">OutgoingQueuePaused</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-pauseoutgoingqueue-vb">OutgoingQueuePaused</a>
 
 
 </td>
@@ -339,7 +339,7 @@ Sets or retrieves a value that indicates whether the outgoing queue has been pau
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358928(v=VS.85).aspx">Retries</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-retries-vb">Retries</a>
 
 
 </td>
@@ -355,7 +355,7 @@ Sets or retrieves a value that indicates the number of redial attempts for a giv
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358929(v=VS.85).aspx">RetryDelay</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-retrydelay-vb">RetryDelay</a>
 
 
 </td>
@@ -371,7 +371,7 @@ Sets or retrieves a value that indicates the length of time the fax service shou
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358931(v=VS.85).aspx">SizeQuotaWarning</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-sizequotawarning-vb">SizeQuotaWarning</a>
 
 
 </td>
@@ -387,7 +387,7 @@ Sets or retrieves a value that indicates whether the size quota warning is turne
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358932(v=VS.85).aspx">UseArchive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-usearchive-vb">UseArchive</a>
 
 
 </td>
@@ -403,7 +403,7 @@ Sets or retrieves a value that indicates whether faxes should be archived.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa358933(v=VS.85).aspx">UseDeviceTSID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration-usedevicetsid-vb">UseDeviceTSID</a>
 
 
 </td>
@@ -424,7 +424,7 @@ Sets or retrieves a value that indicates whether the TSID is used.
 
 
 
-A default implementation of this interface is provided by the <a href="https://msdn.microsoft.com/en-us/library/Aa358913(v=VS.85).aspx">FaxConfiguration</a> object.
+A default implementation of this interface is provided by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxconfiguration">FaxConfiguration</a> object.
 
 
 

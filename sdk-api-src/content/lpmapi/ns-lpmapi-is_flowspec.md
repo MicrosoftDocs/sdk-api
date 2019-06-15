@@ -60,12 +60,12 @@ The
 
 ### -field flow_header
 
-General information and length information for the Integrated Services flowspec object (this structure), expressed as an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
+General information and length information for the Integrated Services flowspec object (this structure), expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 
 ### -field flow_body
 
-FLOWSPEC object data, expressed as an <a href="https://msdn.microsoft.com/c16115ba-03fa-4363-bf16-5341da54f792">IntServFlowSpec</a> structure.
+FLOWSPEC object data, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservflowspec">IntServFlowSpec</a> structure.
 
 
 ## -see-also
@@ -73,11 +73,11 @@ FLOWSPEC object data, expressed as an <a href="https://msdn.microsoft.com/c16115
 
 
 
-<a href="https://msdn.microsoft.com/c16115ba-03fa-4363-bf16-5341da54f792">IntServFlowSpec</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservflowspec">IntServFlowSpec</a>
 
 
 
-<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
  
 
  

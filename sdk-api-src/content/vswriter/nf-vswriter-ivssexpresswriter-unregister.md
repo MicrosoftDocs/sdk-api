@@ -107,7 +107,7 @@ The <i>writerId</i> parameter specified a writer that does not exist.
 
 
 
-Before using this method, the caller must have used the <a href="https://msdn.microsoft.com/254f4a32-cb33-494e-8fb4-06ab1cc2b184">CreateMetadata</a> method to create a writer metadata object.
+Before using this method, the caller must have used the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a> method to create a writer metadata object.
 
 
 
@@ -117,7 +117,7 @@ Before using this method, the caller must have used the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/debb0731-6e24-4320-8236-220e07ec37c3">IVssExpressWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
  
 
  

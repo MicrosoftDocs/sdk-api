@@ -49,7 +49,7 @@ req.redist:
 
 
 Indicates the properties of a storage device or adapter to retrieve as the input buffer passed to the 
-   <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> control code.
+   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code.
 
 
 ## -struct-fields
@@ -62,13 +62,13 @@ Indicates the properties of a storage device or adapter to retrieve as the input
 Indicates whether the caller is requesting a device descriptor, an adapter descriptor, a write cache 
       property, a device unique ID (DUID), or the device identifiers provided in the device's SCSI vital product data 
       (VPD) page. For a list of the property IDs that can be assigned to this member, see 
-      <a href="https://msdn.microsoft.com/9747be01-7c70-4697-97f7-e3830b54ba0a">STORAGE_PROPERTY_ID</a>.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>.
 
 
 ### -field QueryType
 
 Contains flags indicating the type of query to be performed as enumerated by the 
-      <a href="https://msdn.microsoft.com/0bce42d2-9d42-4881-9e33-4b3858a40353">STORAGE_QUERY_TYPE</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_query_type">STORAGE_QUERY_TYPE</a> enumeration.
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ Contains an array of bytes that can be used to retrieve additional parameters fo
 
 
 The optional output buffer returned through the <i>lpOutBuffer</i> parameter of the 
-     <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> control code can 
+     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code can 
      be one of several structures depending on the value of the <b>PropertyId</b> member.  If the 
      <b>QueryType</b> member is set to <b>PropertyExistsQuery</b>, then no 
      structure is returned.
@@ -125,31 +125,31 @@ The optional output buffer returned through the <i>lpOutBuffer</i> parameter of 
 
 
 
-<a href="https://msdn.microsoft.com/dd55c570-68b5-4dc5-9fd0-a6e3277c318b">Disk Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a5059d3-09a4-4411-8d86-d1257edb409a">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/f98e53d5-45cb-4c3f-b04d-8eecd98655d2">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/f84f8a88-b6fc-4b22-b858-52955c8d537d">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/9747be01-7c70-4697-97f7-e3830b54ba0a">STORAGE_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_property_id">STORAGE_PROPERTY_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bce42d2-9d42-4881-9e33-4b3858a40353">STORAGE_QUERY_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-_storage_query_type">STORAGE_QUERY_TYPE</a>
  
 
  

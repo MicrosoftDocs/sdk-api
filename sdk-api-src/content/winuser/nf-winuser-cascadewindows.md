@@ -132,7 +132,7 @@ Type: <strong>Type: <b>WORD</b>
 
 If the function succeeds, the return value is the number of windows arranged.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -141,7 +141,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order. 
+By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order. 
 
 Calling <b>CascadeWindows</b> causes all maximized windows to be restored to their previous size. 
 
@@ -153,7 +153,7 @@ Calling <b>CascadeWindows</b> causes all maximized windows to be restored to the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
  
 
  

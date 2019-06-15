@@ -128,19 +128,19 @@ The <i>GlobalInfo</i> parameter is <b>NULL</b>, or one of the parameters in the 
 
 
 
-<a href="https://msdn.microsoft.com/89d4ca42-8f78-40bd-96f0-ad10181cb2d4">GetGlobalInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_global_info">GetGlobalInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec662772-f864-4108-b676-3fa501b3b927">GetInterfaceInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_interface_info">GetInterfaceInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd780458-ef23-4ef2-8fe8-29b32100917f">Routing Protocol Interface Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/0429f5ca-6574-48f5-85ab-70b4677ca539">Routing Protocol Interface Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
  
 
  

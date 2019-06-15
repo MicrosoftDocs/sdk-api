@@ -124,13 +124,13 @@ A handle to the thread for which the stack trace is generated. If the caller sup
 
 ### -param StackFrame [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/d4606619-f9c5-41e9-8627-17846b98956a">STACKFRAME_EX</a> structure. This 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe_ex">STACKFRAME_EX</a> structure. This 
       structure receives information for the next frame, if the function call succeeds.
 
 
 ### -param ContextRecord [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure. This parameter is 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a> structure. This parameter is 
        required only when the <i>MachineType</i> parameter is not 
        <b>IMAGE_FILE_MACHINE_I386</b>. However, it is recommended that this parameter contain a 
        valid context record. This allows <b>StackWalkEx</b> to handle 
@@ -144,7 +144,7 @@ This context may be modified, so do not pass a context record that should not be
 A callback routine that provides memory read services. When the 
        <b>StackWalkEx</b> function needs to read memory from the 
        process's address space, the 
-       <a href="https://msdn.microsoft.com/84ff0085-295d-48bd-baa5-d6b2845520a6">ReadProcessMemoryProc64</a> callback is 
+       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pread_process_memory_routine">ReadProcessMemoryProc64</a> callback is 
        used.
 
 If this parameter is <b>NULL</b>, then the function uses a default routine. In this case, 
@@ -160,10 +160,10 @@ If this parameter is not
 A callback routine that provides access to the run-time function table for the process. This parameter is 
        required because the <b>StackWalkEx</b> function does not have 
        access to the process's run-time function table. For more information, see 
-       <a href="https://msdn.microsoft.com/387c20b0-ed16-463c-8b11-3ac9a43548a1">FunctionTableAccessProc64</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a>.
 
 The symbol handler provides functions that load and access the run-time table. If these functions are used, 
-       then <a href="https://msdn.microsoft.com/f79e6af9-9931-4bd7-ae12-29d890267a89">SymFunctionTableAccess64</a> can be 
+       then <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a> can be 
        passed as a valid parameter.
 
 
@@ -171,17 +171,17 @@ The symbol handler provides functions that load and access the run-time table. I
 
 A callback routine that provides a module base for any given virtual address. This parameter is required. 
        For more information, see 
-       <a href="https://msdn.microsoft.com/a1060d41-183f-4cb1-8214-afef2996ca66">GetModuleBaseProc64</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pget_module_base_routine">GetModuleBaseProc64</a>.
 
 The symbol handler provides functions that load and maintain module information. If these functions are used, 
-       then <a href="https://msdn.microsoft.com/964d0fdb-d982-4509-8c49-0ad0a3491226">SymGetModuleBase64</a> can be passed as a valid 
+       then <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmodulebase">SymGetModuleBase64</a> can be passed as a valid 
        parameter.
 
 
 ### -param TranslateAddress [in, optional]
 
 A callback routine that provides address translation for 16-bit addresses. For more information, see 
-       <a href="https://msdn.microsoft.com/56c374df-6b48-4649-a914-5cb2f9575bf3">TranslateAddressProc64</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>.
 
 Most callers of <b>StackWalkEx</b> can safely pass 
        <b>NULL</b> for this parameter.
@@ -226,7 +226,7 @@ The <b>StackWalkEx</b> function provides a portable method
 
 The first call to this function will fail if the <b>AddrPC</b>,  
     <b>AddrFrame</b>, and <b>AddrStack</b> members of the 
-    <a href="https://msdn.microsoft.com/2809e3f1-c64a-4753-9fca-f78e89a878b2">STACKFRAME64</a> structure passed in the 
+    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe">STACKFRAME64</a> structure passed in the 
     <i>StackFrame</i> parameter are not initialized.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -241,35 +241,35 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/387c20b0-ed16-463c-8b11-3ac9a43548a1">FunctionTableAccessProc64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfunction_table_access_routine">FunctionTableAccessProc64</a>
 
 
 
-<a href="https://msdn.microsoft.com/84ff0085-295d-48bd-baa5-d6b2845520a6">ReadProcessMemoryProc64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pread_process_memory_routine">ReadProcessMemoryProc64</a>
 
 
 
-<a href="https://msdn.microsoft.com/d4606619-f9c5-41e9-8627-17846b98956a">STACKFRAME_EX</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_tagstackframe_ex">STACKFRAME_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/f79e6af9-9931-4bd7-ae12-29d890267a89">SymFunctionTableAccess64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a>
 
 
 
-<a href="https://msdn.microsoft.com/964d0fdb-d982-4509-8c49-0ad0a3491226">SymGetModuleBase64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmodulebase">SymGetModuleBase64</a>
 
 
 
-<a href="https://msdn.microsoft.com/56c374df-6b48-4649-a914-5cb2f9575bf3">TranslateAddressProc64</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>
  
 
  

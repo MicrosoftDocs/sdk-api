@@ -64,7 +64,7 @@ Render the event properties specified in the rendering context.
 
 ### -field EvtRenderEventXml
 
-Render the event as an XML string. For details on the contents of the XML string, see the <a href="https://msdn.microsoft.com/36037697-b777-4e5c-99af-77964200a3e4">Event</a> schema.
+Render the event as an XML string. For details on the contents of the XML string, see the <a href="https://docs.microsoft.com/windows/desktop/WES/eventschema-schema">Event</a> schema.
 
 
 ### -field EvtRenderBookmark

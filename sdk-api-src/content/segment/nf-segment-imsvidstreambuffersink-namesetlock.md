@@ -92,11 +92,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/cc0490ac-bc0d-472c-b0a7-5e0f81054921">Buffering in the Stream Buffer Engine</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/buffering-in-the-stream-buffer-engine">Buffering in the Stream Buffer Engine</a>
 
 
 
-<a href="https://msdn.microsoft.com/80f6cd3a-8cb8-4bda-9b66-33e7d214015a">IMSVidStreamBufferSink Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
  
 
  

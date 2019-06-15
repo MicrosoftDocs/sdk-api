@@ -60,7 +60,7 @@ Specifies the context for handling incoming messages.
 ### -field Handler
 
 
-<a href="https://msdn.microsoft.com/175d4352-ba85-4c3c-be9f-4612c4b66123">PSWD_SOAP_MESSAGE_HANDLER</a> function that specifies the incoming message handler.
+<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/nc-wsdtypes-pwsd_soap_message_handler">PSWD_SOAP_MESSAGE_HANDLER</a> function that specifies the incoming message handler.
 
 
 ### -field PVoid

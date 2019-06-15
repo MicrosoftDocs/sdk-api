@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the <a href="https://msdn.microsoft.com/65ace93f-0e27-4cfd-befe-9b94e05e3244">NET_FW_AUTHENTICATE_TYPE</a> enumeration.
+Specifies which firewall verifications of security levels provided by IPsec must be guaranteed to allow the collection. The allowed values must correspond to those of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_authenticate_type_">NET_FW_AUTHENTICATE_TYPE</a> enumeration.
 
 This property is read/write.
 
@@ -64,11 +64,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/72bf5ac3-7ee7-4837-96b2-815b499aac2f">INetFwRule3</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
 
 
 
-<a href="https://msdn.microsoft.com/65ace93f-0e27-4cfd-befe-9b94e05e3244">NET_FW_AUTHENTICATE_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_authenticate_type_">NET_FW_AUTHENTICATE_TYPE</a>
  
 
  

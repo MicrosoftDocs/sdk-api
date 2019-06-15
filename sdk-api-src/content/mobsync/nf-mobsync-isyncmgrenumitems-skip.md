@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Instructs the enumerator to skip the next <i>celt</i> elements in the enumeration so that the next call to <a href="https://msdn.microsoft.com/bb4ab08a-aa12-46f0-8c7d-82742b0b1538">ISyncMgrEnumItems::Next</a> does not return those elements.
+Instructs the enumerator to skip the next <i>celt</i> elements in the enumeration so that the next call to <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">ISyncMgrEnumItems::Next</a> does not return those elements.
 
 
 ## -parameters

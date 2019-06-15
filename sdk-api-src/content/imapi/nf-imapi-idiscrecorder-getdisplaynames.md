@@ -88,7 +88,7 @@ S_OK is returned on success, but other success codes may be returned as a result
 The display names are typically combined into a string that is displayed in recorder selection list boxes or other GUI components.
 
 The combination of these three strings does not produce a unique identifier for this specific recorder. Combine these strings with the string returned from 
-<a href="https://msdn.microsoft.com/bceb7302-e5e6-4ee5-9adb-1736ab62e819">GetPath</a> to create a unique value.
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-getpath">GetPath</a> to create a unique value.
 
 
 
@@ -98,7 +98,7 @@ The combination of these three strings does not produce a unique identifier for 
 
 
 
-<a href="https://msdn.microsoft.com/fc861cbb-a14e-499e-8b80-f5912e4f6076">IDiscRecorder</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
  
 
  

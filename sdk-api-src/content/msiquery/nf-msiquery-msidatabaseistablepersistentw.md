@@ -63,7 +63,7 @@ The
 
 ### -param hDatabase [in]
 
-Handle to the database that belongs to the relevant table. For more information, see <a href="https://msdn.microsoft.com/53cf73bc-4d52-471c-8384-46d106a36e38">Obtaining a Database Handle</a>.
+Handle to the database that belongs to the relevant table. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/obtaining-a-database-handle">Obtaining a Database Handle</a>.
 
 
 ### -param szTableName [in]
@@ -85,7 +85,7 @@ This function returns MSICONDITION.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
  
 
  

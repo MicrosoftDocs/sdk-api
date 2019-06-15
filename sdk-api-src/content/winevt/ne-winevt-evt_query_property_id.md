@@ -77,7 +77,7 @@ This enumeration value marks the end of the enumeration values.
 
 
 
-<a href="https://msdn.microsoft.com/311a2060-90d9-41ec-b489-c07d3e813187">EvtGetQueryInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetqueryinfo">EvtGetQueryInfo</a>
  
 
  

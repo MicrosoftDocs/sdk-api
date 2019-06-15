@@ -120,11 +120,11 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/9fa722a4-1e3f-4845-aea7-3b24b517f2a5">ITfInputProcessorProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/5ab40219-278d-4721-88a1-b0bd2e3d8d2f">ITfInputProcessorProfiles::EnableLanguageProfileByDefault
+<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofilebydefault">ITfInputProcessorProfiles::EnableLanguageProfileByDefault
       </a>
  
 

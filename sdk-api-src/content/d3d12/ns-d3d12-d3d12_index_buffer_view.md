@@ -72,7 +72,7 @@ The size in bytes of the index buffer.
 
 ### -field Format
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value for the index-buffer format.
+A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the index-buffer format.
           
 
 
@@ -80,7 +80,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI
 
 
 
-This structure is passed into <a href="https://msdn.microsoft.com/EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB">ID3D12GraphicsCommandList::IASetIndexBuffer</a>.
+This structure is passed into <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer">ID3D12GraphicsCommandList::IASetIndexBuffer</a>.
         
 
 
@@ -91,7 +91,7 @@ This structure is passed into <a href="https://msdn.microsoft.com/EB776EC7-42F2-
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
  
 
  

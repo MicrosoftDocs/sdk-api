@@ -69,17 +69,17 @@ A pointer to the <b>Message</b> object with the header  to be removed.
 
 ### -param headerName [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
 
 
 ### -param headerNs [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/3daa656f-7f97-4e29-a556-7ff72206f01c">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_string">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 

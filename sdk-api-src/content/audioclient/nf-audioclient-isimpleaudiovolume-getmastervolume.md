@@ -119,7 +119,7 @@ The Windows audio service is not running.
 
 
 
-This method retrieves the client volume level for the session. This is the volume level that the client set in a previous call to the <a href="https://msdn.microsoft.com/895a8564-5f06-4e20-abcc-d960d4002eb0">ISimpleAudioVolume::SetMasterVolume</a> method.
+This method retrieves the client volume level for the session. This is the volume level that the client set in a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a> method.
 
 
 
@@ -129,15 +129,15 @@ This method retrieves the client volume level for the session. This is the volum
 
 
 
-<a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/360211f2-de82-4ff5-896c-dee1d60cb7b7">ISimpleAudioVolume Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/895a8564-5f06-4e20-abcc-d960d4002eb0">ISimpleAudioVolume::SetMasterVolume</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a>
  
 
  

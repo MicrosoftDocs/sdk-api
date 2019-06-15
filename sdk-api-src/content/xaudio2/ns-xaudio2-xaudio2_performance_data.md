@@ -59,7 +59,7 @@ Contains performance information.
 
 ### -field AudioCyclesSinceLastQuery
 
-CPU cycles spent on audio processing since the last call to the <a href="https://msdn.microsoft.com/en-us/library/Ee418626(v=VS.85).aspx">IXAudio2::StartEngine</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee418615(v=VS.85).aspx">IXAudio2::GetPerformanceData</a> function.
+CPU cycles spent on audio processing since the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine">IXAudio2::StartEngine</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata">IXAudio2::GetPerformanceData</a> function.
 
 
 ### -field TotalCyclesSinceLastQuery
@@ -204,11 +204,11 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee418615(v=VS.85).aspx">IXAudio2::GetPerformanceData</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata">IXAudio2::GetPerformanceData</a>
 
 
 
-<a href="https://msdn.microsoft.com/3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c">XAudio2 Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio2 Structures</a>
  
 
  

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecurityMask</b> property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling <a href="https://msdn.microsoft.com/95f4fbd9-03f8-4f2f-9314-e628186e51a4">IADsSecurityUtility.GetSecurityDescriptor</a> or <a href="https://msdn.microsoft.com/f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b">IADsSecurityUtility.SetSecurityDescriptor</a>.
+The <b>SecurityMask</b> property determines which elements of the security descriptor to retrieve or set. This property must be set prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>.
 
 This property is read/write.
 
@@ -64,19 +64,19 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/9cd1bb86-313d-4499-97ae-0b53a13a804b">ADS_SECURITY_INFO_ENUM</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/ne-iads-__midl___midl_itf_ads_0001_0077_0002">ADS_SECURITY_INFO_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/781eda1e-1f13-4bb4-ae8e-c9bf4c08e125">IADsSecurityUtility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
 
 
 
-<a href="https://msdn.microsoft.com/95f4fbd9-03f8-4f2f-9314-e628186e51a4">IADsSecurityUtility.GetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-getsecuritydescriptor">IADsSecurityUtility.GetSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0f5c1fb-14fa-4d84-aa82-0d5e24ec5c2b">IADsSecurityUtility.SetSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-setsecuritydescriptor">IADsSecurityUtility.SetSecurityDescriptor</a>
  
 
  

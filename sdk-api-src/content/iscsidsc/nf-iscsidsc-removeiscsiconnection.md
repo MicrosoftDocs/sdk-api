@@ -60,12 +60,12 @@ The <b>RemoveIscsiConnection</b> function removes a connection from an active se
 
 ### -param UniqueSessionId [in]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/d13975f9-58d0-425c-a2de-a0d1d70850d3">ISCSI_UNIQUE_SESSION_ID</a> that specifies the unique session identifier of the session that the connection belongs to.
+A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-_iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that specifies the unique session identifier of the session that the connection belongs to.
 
 
 ### -param ConnectionId [in]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/cc68fda4-6dbf-42de-8e0e-e144bd4e9524">ISCSI_UNIQUE_CONNECTION_ID</a> that specifies the connection to remove. 
+A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a> that specifies the connection to remove. 
 
 
 ## -returns
@@ -82,7 +82,7 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 
 
-The <b>RemoveIscsiConnection</b> function will not remove the last connection of a session or the leading connection of a session. The caller must close the session by calling <a href="https://msdn.microsoft.com/c49ad2e2-3f06-48e7-bf38-6074f9a6bcad">LogoutIscsiTarget</a> to remove the last connection.
+The <b>RemoveIscsiConnection</b> function will not remove the last connection of a session or the leading connection of a session. The caller must close the session by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-logoutiscsitarget">LogoutIscsiTarget</a> to remove the last connection.
 
 
 
@@ -94,7 +94,7 @@ The <b>RemoveIscsiConnection</b> function will not remove the last connection of
 
 
 
-<a href="https://msdn.microsoft.com/c49ad2e2-3f06-48e7-bf38-6074f9a6bcad">LogoutIscsiTarget</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-logoutiscsitarget">LogoutIscsiTarget</a>
  
 
  

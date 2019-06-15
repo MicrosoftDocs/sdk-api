@@ -76,7 +76,7 @@ The display is not showing desktop windows.
 
 
 
-The <b>MONITOR_APP_VISIBILITY</b> enum is used by the <a href="https://msdn.microsoft.com/F03AEE1F-1156-4565-871E-4C8CB5C4EDCA">GetAppVisibilityOnMonitor</a> method.
+The <b>MONITOR_APP_VISIBILITY</b> enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-getappvisibilityonmonitor">GetAppVisibilityOnMonitor</a> method.
 
 
 
@@ -86,7 +86,7 @@ The <b>MONITOR_APP_VISIBILITY</b> enum is used by the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/89E26D36-3536-45F5-9396-83CCFB26890B">IAppVisibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
  
 
  

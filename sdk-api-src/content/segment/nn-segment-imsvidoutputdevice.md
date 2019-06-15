@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>IMSVidOutputDevice</b> interface represents an output device. This interface derives from the <a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a> interface but adds no methods to it. It exists to support polymorphism.
+The <b>IMSVidOutputDevice</b> interface represents an output device. This interface derives from the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a> interface but adds no methods to it. It exists to support polymorphism.
 
-Output devices include audio and video renderers, and the Stream Buffer Sink object. Video renderers expose the <a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer</a> interface, and audio renderers exposes the <a href="https://msdn.microsoft.com/f822b5a6-c88e-48c9-91f4-611a3f147fe0">IMSVidAudioRenderer</a> interface, both of which derive from <b>IMSVidOutputDevice</b>.
+Output devices include audio and video renderers, and the Stream Buffer Sink object. Video renderers expose the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface, and audio renderers exposes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer</a> interface, both of which derive from <b>IMSVidOutputDevice</b>.
 
 
 ## -remarks
@@ -68,11 +68,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694519(v=VS.85).aspx">IMSVidDevice</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf6c3ce9-1e56-4109-93f1-5b313e6ca19b">Video Control Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  

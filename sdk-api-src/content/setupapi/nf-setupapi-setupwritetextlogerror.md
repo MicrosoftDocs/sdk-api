@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SetupWriteTextLogError</b> function writes information about a SetupAPI-specific error or a Win32 system error to a <a href="https://msdn.microsoft.com/library/Ff550900(v=VS.85).aspx">SetupAPI text log</a>.
+The <b>SetupWriteTextLogError</b> function writes information about a SetupAPI-specific error or a Win32 system error to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-text-logs">SetupAPI text log</a>.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ The <b>SetupWriteTextLogError</b> function writes information about a SetupAPI-s
 
 ### -param LogToken [in]
 
-A <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>.
 
 
 ### -param Category [in]
 
-A value of type DWORD that indicates the event category for the log entry. The event categories that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event categories, see <a href="https://msdn.microsoft.com/library/Ff544882(v=VS.85).aspx">Enabling Event Categories for a SetupAPI Text Log</a>. 
+A value of type DWORD that indicates the event category for the log entry. The event categories that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event categories, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/enabling-event-categories-for-a-text-log">Enabling Event Categories for a SetupAPI Text Log</a>. 
 
 
 ### -param LogFlags [in]
@@ -74,7 +74,7 @@ A value of type DWORD that is a bitwise OR of flag values, which specify the fol
 
 <ul>
 <li>
-The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="https://msdn.microsoft.com/library/Ff550845(v=VS.85).aspx">Setting the Event Level for a Text Log</a>. 
+The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-the-event-level-for-a-text-log">Setting the Event Level for a Text Log</a>. 
 
 </li>
 <li>
@@ -82,7 +82,7 @@ Whether to include a time stamp in the log entry. The time stamp flag value is T
 
 </li>
 <li>
-The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="https://msdn.microsoft.com/library/Ff554018(v=VS.85).aspx">Writing Indented Log Entries</a>.
+The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-indented-log-entries">Writing Indented Log Entries</a>.
 
 </li>
 </ul>
@@ -115,7 +115,7 @@ None
 
 
 
-If an installation application has a SetupAPI-specific error code or a Win32 error code that is associated with an installation error, the application can call <b>SetupWriteTextLogError</b> instead of <a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a> to write two entries into a text log. The first entry will be the same as that written by <b>SetupWriteTextLog</b> and the second entry will log the error code and a user-friendly description of the error.
+If an installation application has a SetupAPI-specific error code or a Win32 error code that is associated with an installation error, the application can call <b>SetupWriteTextLogError</b> instead of <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlog">SetupWriteTextLog</a> to write two entries into a text log. The first entry will be the same as that written by <b>SetupWriteTextLog</b> and the second entry will log the error code and a user-friendly description of the error.
 
 The log token, event category, and flags that a caller supplies affect the operation of <b>SetupWriteTextLogError</b> is the same manner as that described for <b>SetupWriteTextLog</b>.
 
@@ -133,7 +133,7 @@ Where:
 
 <ul>
 <li>
-The <i>entry-prefix</i>, <i>time-stamp</i>, <i>category</i>, <i>indentation</i>, and <i>formatted-message</i> fields are the same as those described in <a href="https://msdn.microsoft.com/library/Ff544958(v=VS.85).aspx">Format of a Text Log Section Body</a>.
+The <i>entry-prefix</i>, <i>time-stamp</i>, <i>category</i>, <i>indentation</i>, and <i>formatted-message</i> fields are the same as those described in <a href="https://docs.microsoft.com/windows-hardware/drivers/install/format-of-a-text-log-section-body">Format of a Text Log Section Body</a>.
 
 </li>
 <li>
@@ -145,13 +145,13 @@ The <i>error-description</i> field contains a user-friendly description of the e
 
 </li>
 </ul>
-For general information about writing log entries in the SetupAPI text logs, see <a href="https://msdn.microsoft.com/library/Ff550887(v=VS.85).aspx">SetupAPI Logging (Windows Vista)</a>. 
+For general information about writing log entries in the SetupAPI text logs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-">SetupAPI Logging (Windows Vista)</a>. 
 
-For more information about the operation of <b>SetupWriteTextLogError</b>, see <a href="https://msdn.microsoft.com/library/Ff537854(v=VS.85).aspx">Calling SetupWriteTextLogError</a>. 
+For more information about the operation of <b>SetupWriteTextLogError</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/calling-setupwritetextlogerror">Calling SetupWriteTextLogError</a>. 
 
-For more information about log tokens, see <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>.
+For more information about log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>.
 
 
 
@@ -161,11 +161,11 @@ For more information about using log tokens, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlog">SetupWriteTextLog</a>
  
 
  

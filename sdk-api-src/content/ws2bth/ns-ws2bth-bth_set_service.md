@@ -73,7 +73,7 @@ Handle to the SDP record. Corresponds to SDP ServiceRecordHandle. Returned by th
 
 Class of device (COD) information. A 32-bit field of COD_SERVICE_* class of device bits associated with this SDP record. The system  combines these bits with COD bits from other service records and system characteristics.  The resulting class of device for the local radio is advertised when the radio is found during device inquiry. When the last SDP record associated with a particular service bit is deleted, that service bit is no longer reported in responses to future device inquiries.
 
-The format and possible values for the COD field are defined in the <i>Bluetooth Assigned Numbers 1.1</i> portion of the Bluetooth specification, Section 1.2. (This resource may not be available in some languages and countries.) Corresponding macros and definitions for COD_SERVICE_* bits used by Windows are defined in Bthdef.h. For more information about class of device (COD), see <a href="https://msdn.microsoft.com/b0f2c1fe-1fa0-4816-8471-73fbbced529b">BTH_DEVICE_INFO</a>.
+The format and possible values for the COD field are defined in the <i>Bluetooth Assigned Numbers 1.1</i> portion of the Bluetooth specification, Section 1.2. (This resource may not be available in some languages and countries.) Corresponding macros and definitions for COD_SERVICE_* bits used by Windows are defined in Bthdef.h. For more information about class of device (COD), see <a href="https://docs.microsoft.com/windows/desktop/api/bthdef/ns-bthdef-_bth_device_info">BTH_DEVICE_INFO</a>.
 
 
 ### -field Reserved
@@ -97,9 +97,9 @@ SDP record, as defined by the Bluetooth specification.
 
 When using the 
 <b>BTH_SET_SERVICE</b> structure to query services and devices using the 
-<a href="https://msdn.microsoft.com/71c5ed9c-fade-4d15-848e-eb810ad4cbb2">WSASetService</a> function and 
-<a href="https://msdn.microsoft.com/c52a7e7d-92ab-4103-a6c6-57c3fafec706">WSAQUERYSET</a> and 
-<a href="https://msdn.microsoft.com/d71f3661-0efb-4376-966c-fb5c340ce1c5">BLOB</a> structures. The following values for 
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsasetservice">WSASetService</a> function and 
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-service-inquiry">WSAQUERYSET</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-blob">BLOB</a> structures. The following values for 
 <b>BTH_SET_SERVICE</b> members must be used.
 
 For more information about class of device (COD), see the Bluetooth specification at 
@@ -134,7 +134,7 @@ For more information about class of device (COD), see the Bluetooth specificatio
 
 
 The <b>pRecordHandle</b> member must point to data that is null for new service registration. For service deletion, <b>pRecordHandle</b> must point to a valid handle. The <b>pRecord</b> member must contain the entire SD service record, as described in the Bluetooth specification. For RFCOMM protocol entries, the port number is the same as the port returned by the 
-<a href="https://msdn.microsoft.com/3892bd59-97ac-4b76-bff9-7329f22a66cc">getsockname</a> function call.
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-getsockname">getsockname</a> function call.
 
 Bluetooth implements a one-to-one correlation between SDP records and server sockets. As such, there is no need for the <b>SERVICE_MULTIPLE</b> flag.
 
@@ -146,21 +146,21 @@ Bluetooth implements a one-to-one correlation between SDP records and server soc
 
 
 
-<a href="https://msdn.microsoft.com/3892bd59-97ac-4b76-bff9-7329f22a66cc">Bluetooth
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-getsockname">Bluetooth
 		  and getsockname</a>
 
 
 
-<a href="https://msdn.microsoft.com/d71f3661-0efb-4376-966c-fb5c340ce1c5">Bluetooth and
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-blob">Bluetooth and
 		  BLOB</a>
 
 
 
-<a href="https://msdn.microsoft.com/71c5ed9c-fade-4d15-848e-eb810ad4cbb2">Bluetooth and WSASetService</a>
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsasetservice">Bluetooth and WSASetService</a>
 
 
 
-<a href="https://msdn.microsoft.com/c52a7e7d-92ab-4103-a6c6-57c3fafec706">WSAQUERYSET</a>
+<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-service-inquiry">WSAQUERYSET</a>
  
 
  

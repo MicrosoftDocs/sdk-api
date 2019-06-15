@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the stereo downmix mode for a Dolby Digital audio decoder. This enumeration is used with the <a href="https://msdn.microsoft.com/270893C6-8B44-4A4D-AE2B-2E58E260F649">CODECAPI_AVDecDDStereoDownMixMode</a> property.
+Specifies the stereo downmix mode for a Dolby Digital audio decoder. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/codecapi-avdecddstereodownmixmode">CODECAPI_AVDecDDStereoDownMixMode</a> property.
 
 
 ## -enum-fields
@@ -77,7 +77,7 @@ Left only/right only (Lo/Ro) downmix. (Stereo.)
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

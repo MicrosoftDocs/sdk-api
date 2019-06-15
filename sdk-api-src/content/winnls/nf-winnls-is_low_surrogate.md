@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Determines if a character is a  UTF-16 low <a href="https://msdn.microsoft.com/0dea39e2-a2b4-47fc-b44a-56af8ba1e346">surrogate</a> code point, ranging from 0xdc00 to 0xdfff, inclusive.
+Determines if a character is a  UTF-16 low <a href="https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters">surrogate</a> code point, ranging from 0xdc00 to 0xdfff, inclusive.
 
 
 ## -parameters
@@ -67,23 +67,23 @@ Character to test.
 
 
 
-<a href="https://msdn.microsoft.com/d491dfd9-e0f4-47cf-96ef-83dc22a1af81">IS_HIGH_SURROGATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-is_high_surrogate">IS_HIGH_SURROGATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf7bf905-2cf7-416f-985f-cda4e03b86f9">IS_SURROGATE_PAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-is_surrogate_pair">IS_SURROGATE_PAIR</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a548074-0782-45e1-8051-80c3b9d81885">National Language Support</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://msdn.microsoft.com/45440464-0628-473b-861a-e8be7452700c">National Language Support Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/0dea39e2-a2b4-47fc-b44a-56af8ba1e346">Surrogates and Supplementary Characters</a>
+<a href="https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters">Surrogates and Supplementary Characters</a>
  
 
  

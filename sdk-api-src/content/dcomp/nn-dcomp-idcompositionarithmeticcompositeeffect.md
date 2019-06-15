@@ -54,7 +54,7 @@ The arithmetic composite effect is used to combine 2 images using a weighted sum
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionArithmeticCompositeEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionArithmeticCompositeEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionArithmeticCompositeEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionArithmeticCompositeEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionArithmeticCompositeEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6558E6E7-FEF3-43F0-8508-197BA1DE3D10">SetClampOutput</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionarithmeticcompositeeffect-setclampoutput">SetClampOutput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to clamp color values before the effect passes the values to the next effect in the graph.
@@ -78,7 +78,7 @@ Specifies whether to clamp color values before the effect passes the values to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905280(v=VS.85).aspx">SetCoefficient1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcoefficient1">SetCoefficient1</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the first coefficient for the equation used to composite the two input images.
 
@@ -86,7 +86,7 @@ Specifies whether to clamp color values before the effect passes the values to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905281(v=VS.85).aspx">setcoefficient2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcoefficient2">setcoefficient2</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the second coefficient for the equation used to composite the two input images.
 
@@ -94,7 +94,7 @@ Specifies whether to clamp color values before the effect passes the values to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905282(v=VS.85).aspx">setcoefficient3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcoefficient3">setcoefficient3</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the third coefficient for the equation used to composite the two input images.
 
@@ -102,7 +102,7 @@ Specifies whether to clamp color values before the effect passes the values to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn905283(v=VS.85).aspx">SetCoefficient4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setcoefficient4">SetCoefficient4</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets the fourth coefficient for the equation used to composite the two input images.
 
@@ -110,7 +110,7 @@ Specifies whether to clamp color values before the effect passes the values to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02A98C38-1D6E-43ED-8744-D3029F4BF573">SetCoefficients</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionarithmeticcompositeeffect-setcoefficients">SetCoefficients</a>
 </td>
 <td align="left" width="63%">
 Sets the coefficients for the equation used to composite the two input images.
@@ -125,7 +125,7 @@ Sets the coefficients for the equation used to composite the two input images.
 
 
 
-<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
  
 
  

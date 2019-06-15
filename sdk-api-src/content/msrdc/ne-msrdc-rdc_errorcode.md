@@ -120,7 +120,7 @@ The failure of the function is not RDC-specific and the <b>HRESULT</b> returned 
 
 
 
-<a href="https://msdn.microsoft.com/83e11884-d174-4dae-99fa-321a2b47122c">Remote Differential Compression Enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-enumerations">Remote Differential Compression Enumerations</a>
  
 
  

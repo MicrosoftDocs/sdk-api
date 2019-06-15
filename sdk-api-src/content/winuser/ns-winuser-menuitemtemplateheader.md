@@ -75,7 +75,7 @@ The offset, in bytes, from the end of the header. The menu item list begins at t
 
 
 
-One or more <a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a> structures are combined to form the menu item list. 
+One or more <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplate">MENUITEMTEMPLATE</a> structures are combined to form the menu item list. 
 
 
 
@@ -89,15 +89,15 @@ One or more <a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647581(v=VS.85).aspx">MENUITEMTEMPLATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuitemtemplate">MENUITEMTEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
 
 
 

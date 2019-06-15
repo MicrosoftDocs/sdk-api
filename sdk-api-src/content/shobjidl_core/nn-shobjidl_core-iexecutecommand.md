@@ -54,7 +54,7 @@ Exposes methods that set a given state or parameter related to the command verb,
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExecuteCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IExecuteCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExecuteCommand</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExecuteCommand</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExecuteCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/388136bb-a5c0-48c0-adfc-f5154910fd72">Execute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-execute">Execute</a>
 </td>
 <td align="left" width="63%">
 Invoke the verb on the selected items. Call this method after you have called the other methods of this interface.
@@ -78,7 +78,7 @@ Invoke the verb on the selected items. Call this method after you have called th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8416b2ef-8e62-4679-adc1-ec953875db34">SetDirectory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-setdirectory">SetDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets a new working directory.
@@ -87,7 +87,7 @@ Sets a new working directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66f051a1-eb45-43c1-bf09-4be6ca2a1c7c">SetKeyState</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-setkeystate">SetKeyState</a>
 </td>
 <td align="left" width="63%">
 Sets a value based on the current state of the keys CTRL and SHIFT.
@@ -96,7 +96,7 @@ Sets a value based on the current state of the keys CTRL and SHIFT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26cec8f2-984a-4358-9082-bf6b886690eb">SetNoShowUI</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-setnoshowui">SetNoShowUI</a>
 </td>
 <td align="left" width="63%">
 Indicates whether any UI associated with the selected Shell item should be displayed.
@@ -105,7 +105,7 @@ Indicates whether any UI associated with the selected Shell item should be displ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3e08777c-865b-49c2-8f37-1a427c4945b4">SetParameters</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-setparameters">SetParameters</a>
 </td>
 <td align="left" width="63%">
 Provides parameter values for the verb.
@@ -114,7 +114,7 @@ Provides parameter values for the verb.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ead12c05-ce94-494d-9f31-9b0f341363b5">SetPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-setposition">SetPosition</a>
 </td>
 <td align="left" width="63%">
 Sets the coordinates of a point used for display.
@@ -123,7 +123,7 @@ Sets the coordinates of a point used for display.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57ac201e-0680-4856-ab05-9f8b49aecd62">SetShowWindow</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-setshowwindow">SetShowWindow</a>
 </td>
 <td align="left" width="63%">
 Sets the specified window's visual state.
@@ -138,12 +138,12 @@ Sets the specified window's visual state.
 
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-Implement this interface when you choose it as your method to invoke the verb to perform an action on selected items. The items are passed as a Shell item array through <a href="https://msdn.microsoft.com/e561b8f8-36e9-45ec-beb2-62d7f429dec4">IObjectWithSelection::SetSelection</a>, so the object must also implement <a href="https://msdn.microsoft.com/8fb248eb-73e7-4db0-8585-4accafe332d0">IObjectWithSelection</a>.
+Implement this interface when you choose it as your method to invoke the verb to perform an action on selected items. The items are passed as a Shell item array through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithselection-setselection">IObjectWithSelection::SetSelection</a>, so the object must also implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection">IObjectWithSelection</a>.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 Do not call the methods of <b>IExecuteCommand</b> directly. Windows Explorer calls your <b>IExecuteCommand</b> methods when the user wants to perform an action on the items.
 
-Note that, apart from <a href="https://msdn.microsoft.com/388136bb-a5c0-48c0-adfc-f5154910fd72">Execute</a>, the methods of this interface pass system information to the handler. The system itself calls these methods, setting the parameters appropriately based on system settings and conditions.
+Note that, apart from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-execute">Execute</a>, the methods of this interface pass system information to the handler. The system itself calls these methods, setting the parameters appropriately based on system settings and conditions.
 
 
 

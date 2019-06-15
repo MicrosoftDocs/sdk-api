@@ -78,7 +78,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/A53FEBC2-E7D7-4DF7-B41C-BBB5A7EE044B">SwDeviceInterfaceRegister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a>
  
 
  

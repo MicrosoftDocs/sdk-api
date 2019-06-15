@@ -66,7 +66,7 @@ Retrieves the pointer to the preceding character in a string. This function can 
 
 Type: <b>WORD</b>
 
-The identifier of the code page to use to check lead-byte ranges. Can be one of the code-page values provided in <a href="https://msdn.microsoft.com/5d6fc86a-f205-4d14-bb7c-ecd71682e0fe">Code Page Identifiers</a>,  or one of the following predefined values.
+The identifier of the code page to use to check lead-byte ranges. Can be one of the code-page values provided in <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>,  or one of the following predefined values.
 
 <table>
 <tr>
@@ -148,7 +148,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<b>CharPrevExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a> (if called as an ANSI function) uses the system default code-page.
+<b>CharPrevExA</b> specifies a code-page to use, whereas <a href="https://docs.microsoft.com/windows/desktop/menurc/v">CharPrev</a> (if called as an ANSI function) uses the system default code-page.
 
 
 
@@ -158,11 +158,11 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-charnextexa">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/v">CharPrev</a>
 
 
 
@@ -174,7 +174,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
+<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
  
 
  

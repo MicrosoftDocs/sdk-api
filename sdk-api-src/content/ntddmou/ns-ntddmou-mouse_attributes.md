@@ -179,7 +179,7 @@ Specifies the size, in bytes, of the input data queue used by the port driver fo
 
 
 
-This structure is used with an <a href="https://msdn.microsoft.com/f5b82702-610a-41d3-96c9-2c4eae2244e3">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request to obtain the attributes of a mouse. 
+This structure is used with an <a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a> request to obtain the attributes of a mouse. 
 
 
 
@@ -189,7 +189,7 @@ This structure is used with an <a href="https://msdn.microsoft.com/f5b82702-610a
 
 
 
-<a href="https://msdn.microsoft.com/f5b82702-610a-41d3-96c9-2c4eae2244e3">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ni-ntddmou-ioctl_mouse_query_attributes">IOCTL_MOUSE_QUERY_ATTRIBUTES</a>
  
 
  

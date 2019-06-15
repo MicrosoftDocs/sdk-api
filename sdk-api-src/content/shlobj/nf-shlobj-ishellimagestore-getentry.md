@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<a href="https://msdn.microsoft.com/746bd660-17b6-4669-8f23-254f5d7dde82">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
+<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
 
 Gets a handle to an image in the cache.
 
@@ -70,7 +70,7 @@ A pointer to a null-terminated string that specifies the path to the file that c
 
 Type: <b>DWORD</b>
 
-The storage instantiation mode specified by one of the <a href="https://msdn.microsoft.com/15a35da9-332a-46e1-9190-500c95e26f59">STGM </a>values.
+The storage instantiation mode specified by one of the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM </a>values.
 
 
 ### -param phImage [out]
@@ -86,7 +86,7 @@ A pointer to the handle of the bitmap.
 
 Type: <b>HRESULT</b>
 
-Returns the result of <a href="https://msdn.microsoft.com/934a90bb-5ed0-4d80-9906-352ad8586655">ISequentialStream::Read</a> if the process was successful. Otherwise, returns one of the following values:
+Returns the result of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">ISequentialStream::Read</a> if the process was successful. Otherwise, returns one of the following values:
 
 <table>
 <tr>

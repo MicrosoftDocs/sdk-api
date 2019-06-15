@@ -101,7 +101,7 @@ Either 0 or 1. If one, the w-component of the rotated vector will be inserted in
 
 
 
-Returns the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> that results from the rotation and insertion.
+Returns the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> that results from the rotation and insertion.
 
 
 
@@ -113,7 +113,7 @@ Returns the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531
 For best performance, the result of
    <b>XMVectorInsert</b>should be assigned back to <i>VD</i>.
 
-For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855943(v=VS.85).aspx">XMVectorInsert</a>:
+For cases with constant uint32_t parameters, it is more efficent to use the template form of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvectorinsert-template">XMVectorInsert</a>:
 
 
 ```
@@ -135,23 +135,23 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/f5464614-f6bb-427d-5488-3ba0fd4c6e8d">Component-Wise Vector Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh855956(v=VS.85).aspx">XMVectorPermute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorpermute">XMVectorPermute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404806(v=VS.85).aspx">XMVectorRotateLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateleft">XMVectorRotateLeft</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404807(v=VS.85).aspx">XMVectorRotateRight</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorrotateright">XMVectorRotateRight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404823(v=VS.85).aspx">XMVectorShiftLeft</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorshiftleft">XMVectorShiftLeft</a>
  
 
  

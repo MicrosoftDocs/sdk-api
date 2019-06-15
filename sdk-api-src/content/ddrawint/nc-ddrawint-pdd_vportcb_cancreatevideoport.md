@@ -68,7 +68,7 @@ The <i>DdVideoPortCanCreate</i> callback function determines whether the driver 
 
 #### - lpCanCreateVideoPort
 
-Points to a <a href="https://msdn.microsoft.com/60116f1d-fca2-4282-95a9-2af8da113a20">DD_CANCREATEVPORTDATA</a> structure that contains the information necessary for the driver to determine whether the specified DirectDraw VPE object can be supported.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_cancreatevportdata">DD_CANCREATEVPORTDATA</a> structure that contains the information necessary for the driver to determine whether the specified DirectDraw VPE object can be supported.
 
 
 ## -returns
@@ -86,7 +86,7 @@ Points to a <a href="https://msdn.microsoft.com/60116f1d-fca2-4282-95a9-2af8da11
 
 <i>DdVideoPortCanCreate</i> must be implemented in drivers that support VPE.
 
-The driver should check the members of the <a href="https://msdn.microsoft.com/efd5907c-ed75-40be-b568-7c305310f79b">DDVIDEOPORTDESC</a> structure to which the <b>lpDDVideoPortDesc</b> member of the DD_CANCREATEVPORTDATA structure at <i>lpCanCreateVideoPort</i> points to determine whether the hardware supports the specified type of VPE object.
+The driver should check the members of the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportdesc">DDVIDEOPORTDESC</a> structure to which the <b>lpDDVideoPortDesc</b> member of the DD_CANCREATEVPORTDATA structure at <i>lpCanCreateVideoPort</i> points to determine whether the hardware supports the specified type of VPE object.
 
 
 
@@ -96,15 +96,15 @@ The driver should check the members of the <a href="https://msdn.microsoft.com/e
 
 
 
-<a href="https://msdn.microsoft.com/efd5907c-ed75-40be-b568-7c305310f79b">DDVIDEOPORTDESC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-_ddvideoportdesc">DDVIDEOPORTDESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/60116f1d-fca2-4282-95a9-2af8da113a20">DD_CANCREATEVPORTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_cancreatevportdata">DD_CANCREATEVPORTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/eeaf3cda-6220-4e8e-8f9e-9f52d1b05ab7">DdVideoPortCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_createvideoport">DdVideoPortCreate</a>
  
 
  

@@ -56,7 +56,7 @@ ms.custom: 19H1
 
 Retrieves the current time zone settings. These settings control the translations between Coordinated Universal Time (UTC) and local time.
 
-To support boundaries for daylight saving time that change from year to year, use the <a href="https://msdn.microsoft.com/9f96f779-7e4f-4a50-a9dc-f3bc86c76ece">GetDynamicTimeZoneInformation</a>  or <a href="https://msdn.microsoft.com/5bd29a25-98f0-439e-be88-8011bbf98926">GetTimeZoneInformationForYear</a> function.
+To support boundaries for daylight saving time that change from year to year, use the <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a> function.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ To support boundaries for daylight saving time that change from year to year, us
 ### -param lpTimeZoneInformation [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure to receive the current settings.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure to receive the current settings.
 
 
 ## -returns
@@ -102,7 +102,7 @@ Daylight saving time is not used in the current time zone, because there are no 
 </td>
 <td width="60%">
 The system is operating in the range covered by the <b>StandardDate</b> member of the 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure. 
 
 
 
@@ -119,7 +119,7 @@ The system is operating in the range covered by the <b>StandardDate</b> member o
 </td>
 <td width="60%">
 The system is operating in the range covered by the <b>DaylightDate</b> member of the 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ The system is operating in the range covered by the <b>DaylightDate</b> member o
  
 
 If the function fails for other reasons, such as an out of memory error, it returns TIME_ZONE_ID_INVALID. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -142,12 +142,12 @@ UTC = local time + bias
 
 The bias is the difference, in minutes, between UTC time and local time.
 
- The <b>StandardName</b> and <b>DaylightName</b> members  of the resultant <a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a>  structure are localized according to the current user default UI language.
+ The <b>StandardName</b> and <b>DaylightName</b> members  of the resultant <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>  structure are localized according to the current user default UI language.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/afb13501-3a87-433a-a05e-139103060109">SetTimeZoneInformation</a>.
+For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation">SetTimeZoneInformation</a>.
 
 <div class="code"></div>
 
@@ -158,27 +158,27 @@ For an example, see <a href="https://msdn.microsoft.com/afb13501-3a87-433a-a05e-
 
 
 
-<a href="https://msdn.microsoft.com/9f96f779-7e4f-4a50-a9dc-f3bc86c76ece">GetDynamicTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bd29a25-98f0-439e-be88-8011bbf98926">GetTimeZoneInformationForYear</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-gettimezoneinformationforyear">GetTimeZoneInformationForYear</a>
 
 
 
-<a href="https://msdn.microsoft.com/a6570ec5-ac77-427a-86d9-32cbecc62e37">Local Time</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/local-time">Local Time</a>
 
 
 
-<a href="https://msdn.microsoft.com/afb13501-3a87-433a-a05e-139103060109">SetTimeZoneInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation">SetTimeZoneInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/18c10ad6-8bc9-4a3b-a424-d17ee1d9e004">TIME_ZONE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-_time_zone_information">TIME_ZONE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/3733f611-c6a1-4d48-b21e-ada3490c5de1">Time Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
  
 
  

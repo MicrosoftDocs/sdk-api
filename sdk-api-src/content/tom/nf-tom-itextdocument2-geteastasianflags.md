@@ -136,7 +136,7 @@ Use password control.
 </dl>
 </td>
 <td width="60%">
-Turn off IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_NOIME</a>).
+Turn off IME operation (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_NOIME</a>).
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Turn off IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb
 </dl>
 </td>
 <td width="60%">
-The rich edit host handles IME operation (see <a href="https://msdn.microsoft.com/en-us/library/Bb774367(v=VS.85).aspx">ES_SELFIME</a>) .
+The rich edit host handles IME operation (see <a href="https://docs.microsoft.com/windows/desktop/Controls/rich-edit-control-styles">ES_SELFIME</a>) .
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ The rich edit host handles IME operation (see <a href="https://msdn.microsoft.co
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -170,7 +170,7 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
  
 
  

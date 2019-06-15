@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBLIKE</b> structure represents specific information required by the DBOP_like operator.
 
@@ -73,7 +73,7 @@ system to use for "likeness". E.g. Reg. Ex.
 
 
 
-For more information about the DBOP_like operator, see <a href="https://msdn.microsoft.com/en-us/library/ms690350(v=VS.85).aspx">Operators for Scalars</a>. 
+For more information about the DBOP_like operator, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/operators-for-scalars">Operators for Scalars</a>. 
 
 
 

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines policy settings for the <a href="https://msdn.microsoft.com/1B078EB2-D87E-46A4-B2E1-A850C4E543A8">IMFPluginControl2::SetPolicy</a> method.
+Defines policy settings for the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfplugincontrol2-setpolicy">IMFPluginControl2::SetPolicy</a> method.
 
 
 ## -enum-fields
@@ -82,11 +82,11 @@ Restrict enumeration to components intended for use in a web browser.
 
 
 
-<a href="https://msdn.microsoft.com/15BD57FC-7CEF-45DC-AF94-3E54A3A9477A">IMFPluginControl2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol2">IMFPluginControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/f26a730f-18c4-4247-acaf-af1dfad19086">Media Foundation Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
  
 
  

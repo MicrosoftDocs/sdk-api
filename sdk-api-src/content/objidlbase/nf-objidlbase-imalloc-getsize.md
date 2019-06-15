@@ -76,7 +76,7 @@ The size of the allocated memory block in bytes or, if <i>pv</i> is a <b>NULL</b
 
 
 
-To get the size in bytes of a memory block, the block must have been previously allocated with <a href="https://msdn.microsoft.com/c9c9bdac-965f-4b18-9338-28a025930480">IMalloc::Alloc</a> or <a href="https://msdn.microsoft.com/37de166a-04a5-4a10-83b3-dd19d0bb48a4">IMalloc::Realloc</a>. The size returned is the actual size of the allocation, which may be greater than the size requested when the allocation was made.
+To get the size in bytes of a memory block, the block must have been previously allocated with <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>. The size returned is the actual size of the allocation, which may be greater than the size requested when the allocation was made.
 
 
 
@@ -86,7 +86,7 @@ To get the size in bytes of a memory block, the block must have been previously 
 
 
 
-<a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
  
 
  

@@ -79,7 +79,7 @@ Specifies the ID of the internal joystick. The device driver manages internal ID
 
 ### -param arg5
 
-Points to a <a href="https://msdn.microsoft.com/7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dihidffinitinfo">DIHIDFFINITINFO</a> structure that contains initialization information for the force feedback driver. The driver uses this information to distinguish between multiple devices and to query DirectInput for any other device attributes.
 
 
 ## -returns

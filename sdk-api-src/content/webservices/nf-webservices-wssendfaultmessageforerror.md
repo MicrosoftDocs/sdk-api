@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sends a fault message given a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object.
+Sends a fault message given a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object.
             
 
 
@@ -69,9 +69,9 @@ The channel to send the message on.
 A message object to use to send the reply message.
                 
 
-The message object should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> or
+The message object should be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> or
                     <b>WS_MESSAGE_STATE_INITIALIZED</b>.  If an initialized message is provided,
-                    it should have been initialized using <a href="https://msdn.microsoft.com/f4a674c1-4017-49c8-aa9a-68f1d2b84378">WS_FAULT_MESSAGE</a>.
+                    it should have been initialized using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a>.
                 
 
 
@@ -89,7 +89,7 @@ The error code associated with the fault.  This cannot
 
 This error code is never included in the fault message directly, but 
                     instead is used as a fallback mechanism for creating an fault string in the case that
-                    the <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object does not contain any error strings.
+                    the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object does not contain any error strings.
                 
 
 
@@ -105,7 +105,7 @@ The request message.  This is used to obtain correlation information used
                     in formulating the reply message.
                 
 
-The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 
@@ -275,42 +275,42 @@ This function may return other errors not listed above.
 
 
 
-The <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a> that is sent in the body of the message
-                is constructed using the same rules as defined by <a href="https://msdn.microsoft.com/193854d7-3b7f-4f2b-b068-33b9c4d91e57">WsCreateFaultFromError</a>.
+The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a> that is sent in the body of the message
+                is constructed using the same rules as defined by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatefaultfromerror">WsCreateFaultFromError</a>.
             
 
-The value of the <a href="https://msdn.microsoft.com/4c9b927d-00c7-41e4-bc29-e84a4c23c162">WS_ACTION_HEADER</a> used for
+The value of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_header_type">WS_ACTION_HEADER</a> used for
                 the reply message is computed as follows:
             
 
 <ul>
-<li>If the <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ADDRESSING_VERSION</a> of the 
-                channel is <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_TRANSPORT</a>, then no
+<li>If the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ADDRESSING_VERSION</a> of the 
+                channel is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_TRANSPORT</a>, then no
                 action is included in the message because the addressing
                 version does not permit an action value for faults.
                 </li>
 <li>If the error object contains an action string (the
-                length of the string returned by <a href="https://msdn.microsoft.com/f5ae9ee9-18de-428d-9367-aa4a554577ea">WS_FAULT_ERROR_PROPERTY_ACTION</a>is greater than zero), then the action string is used.
+                length of the string returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_ACTION</a>is greater than zero), then the action string is used.
                 </li>
 <li>If the error object does not contain an action, then 
                 a default action value is supplied.
             </li>
 </ul>
 If the error object contains a header used to describe the
-                fault as specified by <a href="https://msdn.microsoft.com/f5ae9ee9-18de-428d-9367-aa4a554577ea">WS_FAULT_ERROR_PROPERTY_HEADER</a>,
+                fault as specified by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_fault_error_property_id">WS_FAULT_ERROR_PROPERTY_HEADER</a>,
                 then the header is added to the headers of the fault message.
             
 
 The fault message will include correlation information as appropriate
-                to the <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION</a>.  See <a href="https://msdn.microsoft.com/d7dddcc6-8eb0-4ee6-8cf5-7701a2be7a19">Channel Layer Overview</a>for more information about correlating request reply messages.
+                to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION</a>.  See <a href="https://docs.microsoft.com/windows/desktop/wsw/channel-layer-overview">Channel Layer Overview</a>for more information about correlating request reply messages.
             
 
-If sending a fault without a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object, use
-                <a href="https://msdn.microsoft.com/cabfd07b-294c-4e3a-9d50-84d9b4d98f62">WsSendReplyMessage</a>.
+If sending a fault without a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object, use
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssendreplymessage">WsSendReplyMessage</a>.
             
 
-To add custom headers to the message, initialize the message <a href="https://msdn.microsoft.com/26eafc5f-6636-4f96-a037-7935cdac5900">WsInitializeMessage</a>with <a href="https://msdn.microsoft.com/f4a674c1-4017-49c8-aa9a-68f1d2b84378">WS_FAULT_MESSAGE</a> and then add the headers using 
-                <a href="https://msdn.microsoft.com/4b95085a-e522-4ab2-b7c9-d332599c5598">WsAddCustomHeader</a> before calling this function.
+To add custom headers to the message, initialize the message <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a> and then add the headers using 
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a> before calling this function.
             
 
 

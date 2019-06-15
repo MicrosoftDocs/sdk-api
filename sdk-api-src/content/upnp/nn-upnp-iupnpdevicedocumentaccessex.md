@@ -54,7 +54,7 @@ The <b>IUPnPDeviceDocumentAccessEx</b> interface provides a method to obtain the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceDocumentAccessEx</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUPnPDeviceDocumentAccessEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPDeviceDocumentAccessEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPDeviceDocumentAccessEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUPnPDeviceDocumentAccessEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12778bd4-9e62-42a4-b9b3-29ee9c6d2d40">GetDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument">GetDocument</a>
 </td>
 <td align="left" width="63%">
 Retrieves the XML device description document for a UPnP device.
@@ -83,7 +83,7 @@ Retrieves the XML device description document for a UPnP device.
 
 
 
-This interface is obtained by calling QueryInterface on the same object that provides an implementation of <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a>, after which <a href="https://msdn.microsoft.com/12778bd4-9e62-42a4-b9b3-29ee9c6d2d40">GetDocument</a> can be called on it.
+This interface is obtained by calling QueryInterface on the same object that provides an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>, after which <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicedocumentaccessex-getdocument">GetDocument</a> can be called on it.
 
 
 
@@ -93,11 +93,11 @@ This interface is obtained by calling QueryInterface on the same object that pro
 
 
 
-<a href="https://msdn.microsoft.com/6f73bf8c-0423-430f-a654-58d076712aae">Control Point API Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/UPnP/control-point-api-with-upnp-technology-reference">Control Point API Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/6d71425e-3e33-44e0-845a-4bcd05939d24">IUPnPDeviceDocumentAccess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccess">IUPnPDeviceDocumentAccess</a>
  
 
  

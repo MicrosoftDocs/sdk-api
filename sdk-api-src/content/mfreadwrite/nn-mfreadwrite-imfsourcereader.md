@@ -54,7 +54,7 @@ Implemented by the Microsoft Media Foundation source reader object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceReader</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFSourceReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFSourceReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34992c64-9956-4b23-a979-df7f678405b5">Flush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Flushes one or more streams.
@@ -78,7 +78,7 @@ Flushes one or more streams.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0fe3b34-42ad-45e4-812d-679bbe01a200">GetCurrentMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">GetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
 Gets the current media type for a stream.
@@ -87,7 +87,7 @@ Gets the current media type for a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4b514f8d-082f-4e84-b512-d4a59706a6d8">GetNativeMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getnativemediatype">GetNativeMediaType</a>
 </td>
 <td align="left" width="63%">
 Gets a format that is supported natively by the media source.
@@ -96,7 +96,7 @@ Gets a format that is supported natively by the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40544e1e-cce2-4860-aeb2-b60696b09145">GetPresentationAttribute</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getpresentationattribute">GetPresentationAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets an attribute from the underlying media source.
@@ -105,7 +105,7 @@ Gets an attribute from the underlying media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d8868e4d-eedd-4fbd-b870-d3af48890c92">GetServiceForStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getserviceforstream">GetServiceForStream</a>
 </td>
 <td align="left" width="63%">
 Queries the underlying media source or decoder for an interface.
@@ -114,7 +114,7 @@ Queries the underlying media source or decoder for an interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/40301426-4bf2-442c-91b5-9916d1314617">GetStreamSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getstreamselection">GetStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Queries whether a stream is selected.
@@ -123,7 +123,7 @@ Queries whether a stream is selected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99bd9bd7-d8d1-433a-bc5a-4b9761de5048">ReadSample</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">ReadSample</a>
 </td>
 <td align="left" width="63%">
 Reads the next sample from the media source.
@@ -132,7 +132,7 @@ Reads the next sample from the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/54caec4d-1393-487b-94ee-78563b2b4645">SetCurrentMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">SetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for a stream.
@@ -141,7 +141,7 @@ Sets the media type for a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fb9412f5-4f2f-463d-9988-80e706afd9c4">SetCurrentPosition</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentposition">SetCurrentPosition</a>
 </td>
 <td align="left" width="63%">
 Seeks to a new position in the media source.
@@ -150,7 +150,7 @@ Seeks to a new position in the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5efadce6-347c-48cf-b42c-d461922b2523">SetStreamSelection</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setstreamselection">SetStreamSelection</a>
 </td>
 <td align="left" width="63%">
 Selects or deselects one or more streams.
@@ -168,20 +168,20 @@ To create the source reader, call one of the following functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/e167159d-902c-4c34-b5f0-eb764fe2de1c">MFCreateSourceReaderFromByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrombytestream">MFCreateSourceReaderFromByteStream</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/924e1813-b025-435b-9770-52503a9eb619">MFCreateSourceReaderFromMediaSource</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfrommediasource">MFCreateSourceReaderFromMediaSource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/060b4ab3-9a9f-4c90-a8c5-9c6d81877e2f">MFCreateSourceReaderFromURL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl">MFCreateSourceReaderFromURL</a>
 </li>
 </ul>
-Alternatively, use the <a href="https://msdn.microsoft.com/83ef0f0a-ae60-474d-a9e7-7c83a73f6255">IMFReadWriteClassFactory</a> interface.
+Alternatively, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfreadwriteclassfactory">IMFReadWriteClassFactory</a> interface.
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-In Windows 8, this interface is extended with <a href="https://msdn.microsoft.com/59888F9B-C464-4045-AA77-03EE16E2B598">IMFSourceReaderEx</a>.
+In Windows 8, this interface is extended with <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>.
 
 
 
@@ -191,11 +191,11 @@ In Windows 8, this interface is extended with <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a17a754-53ef-4c05-9189-7978d864b17a">Source Reader</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
  
 
  

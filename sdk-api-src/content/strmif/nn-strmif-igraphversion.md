@@ -58,7 +58,7 @@ The <code>IGraphVersion</code> interface is implemented on the Filter Graph Mana
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphVersion</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGraphVersion</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphVersion</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphVersion</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IGraphVersion</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/297e19fd-91b5-4756-9b33-6b301c74e470">QueryVersion</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphversion-queryversion">QueryVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current graph version number.

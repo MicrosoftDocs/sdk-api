@@ -64,7 +64,7 @@ Gets the initialization flags associated with the deferred context that created 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The context flag is reserved for future use and is always 0.
 
@@ -75,7 +75,7 @@ The context flag is reserved for future use and is always 0.
 
 
 
-The GetContextFlags method gets the flags that were supplied to the <i>ContextFlags</i> parameter of <a href="https://msdn.microsoft.com/fbf01844-eaf1-4360-833e-c95ba686fff5">ID3D11Device::CreateDeferredContext</a>; however, the context flag is reserved for future use.
+The GetContextFlags method gets the flags that were supplied to the <i>ContextFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">ID3D11Device::CreateDeferredContext</a>; however, the context flag is reserved for future use.
 
 
 
@@ -85,7 +85,7 @@ The GetContextFlags method gets the flags that were supplied to the <i>ContextFl
 
 
 
-<a href="https://msdn.microsoft.com/432f1d21-bf13-4569-9c8f-04f5d2845150">ID3D11CommandList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11commandlist">ID3D11CommandList</a>
  
 
  

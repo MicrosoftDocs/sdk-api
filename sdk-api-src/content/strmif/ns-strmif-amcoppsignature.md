@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>AMCOPPSignature</b> structure contains the signature needed for the <a href="https://msdn.microsoft.com/0321e315-b53c-487f-a015-80f7ed581737">IAMCertifiedOutputProtection::SessionSequenceStart</a> method.
+The <b>AMCOPPSignature</b> structure contains the signature needed for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcertifiedoutputprotection-sessionsequencestart">IAMCertifiedOutputProtection::SessionSequenceStart</a> method.
 
 
 
@@ -70,11 +70,11 @@ Buffer that contains the signature. For more information, see the Remarks sectio
 
 
 
-<a href="https://msdn.microsoft.com/378f6f43-5c05-4ae4-be24-956f9fc0cacf">DirectShow Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/23eebe93-416b-48c8-a05f-019e38b9a660">Using Certified Output Protection Protocol (COPP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
  
 
  

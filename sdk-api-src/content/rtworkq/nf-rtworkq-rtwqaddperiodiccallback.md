@@ -64,12 +64,12 @@ Pointer to the callback function.
 
 ### -param context
 
-Pointer to a caller-provided object that implements <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, or <b>NULL</b>. This parameter is passed to the callback function.
+Pointer to a caller-provided object that implements <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, or <b>NULL</b>. This parameter is passed to the callback function.
 
 
 ### -param key [out, optional]
 
-Receives a key that can be used to cancel the callback. To cancel the callback, call <a href="https://msdn.microsoft.com/308910e3-dae8-4f23-9782-adf2996a58aa">RtwqRemovePeriodicCallback</a> and pass this key as the <i>dwKey</i> parameter.
+Receives a key that can be used to cancel the callback. To cancel the callback, call <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqremoveperiodiccallback">RtwqRemovePeriodicCallback</a> and pass this key as the <i>dwKey</i> parameter.
 
 
 ## -returns

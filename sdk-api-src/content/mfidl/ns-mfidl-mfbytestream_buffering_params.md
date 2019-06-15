@@ -72,7 +72,7 @@ Size of the playable media data in the file, excluding any trailing data that is
 
 ### -field prgBuckets
 
-Pointer to an array of <a href="https://msdn.microsoft.com/aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e">MF_LEAKY_BUCKET_PAIR</a> structures. Each member of the array gives the buffer window for a particular bit rate.
+Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-_mf_leaky_bucket_pair">MF_LEAKY_BUCKET_PAIR</a> structures. Each member of the array gives the buffer window for a particular bit rate.
 
 
 ### -field cBuckets
@@ -105,11 +105,11 @@ Playback rate.
 
 
 
-<a href="https://msdn.microsoft.com/bbf9cdb1-5ec7-498a-aa59-85c24779547e">IMFByteStreamBuffering</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
 
 
 
-<a href="https://msdn.microsoft.com/39fdd724-13ca-48ab-8a55-93529d1da3b4">Media Foundation Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
  
 
  

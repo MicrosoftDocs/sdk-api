@@ -60,7 +60,7 @@ Sets the isolation level of the transactions.
 
 ### -param option [in]
 
-A value from the <a href="https://msdn.microsoft.com/5e407423-b116-48c5-a99c-2551eca379b3">COMAdminTxIsolationLevelOptions</a> enumeration.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/ne-comadmin-comadmintxisolationleveloptions">COMAdminTxIsolationLevelOptions</a> enumeration.
 
 
 ## -returns
@@ -87,7 +87,7 @@ A new transaction is created if the enclosing transaction is not running at the 
 
 
 
-<a href="https://msdn.microsoft.com/e4740bf4-51b1-474f-9637-7c5d78f0def5">IServiceTransactionConfigBase</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
  
 
  

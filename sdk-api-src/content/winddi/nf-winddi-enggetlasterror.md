@@ -82,7 +82,7 @@ The return value is the last error code set by <b>EngSetLastError</b>.
 
 
 
-<a href="https://msdn.microsoft.com/8887eed8-c60d-4217-92bf-f770be071c49">EngSetLastError</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsetlasterror">EngSetLastError</a>
  
 
  

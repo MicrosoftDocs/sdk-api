@@ -82,7 +82,7 @@ A bitmap that specifies the affinity for zero or more active processors within t
 
 
 
-<a href="https://msdn.microsoft.com/3529ddef-04c5-4573-877d-c225da684e38">GROUP_RELATIONSHIP</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_group_relationship">GROUP_RELATIONSHIP</a>
  
 
  

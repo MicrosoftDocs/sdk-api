@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used to control access checks on callbacks when using the <a href="https://msdn.microsoft.com/546ae2f8-c208-4846-a3ba-e124aefe619d">IWbemUnsecuredApartment::CreateSinkStub</a> method.
+Used to control access checks on callbacks when using the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemunsecuredapartment-createsinkstub">IWbemUnsecuredApartment::CreateSinkStub</a> method.
 
 
 ## -enum-fields

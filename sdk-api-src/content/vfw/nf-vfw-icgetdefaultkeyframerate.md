@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICGetDefaultKeyFrameRate</b> macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/2ebe37cc-3ec2-4b52-bd8f-71c44b704647">ICM_GETDEFAULTKEYFRAMERATE</a> message.
+The <b>ICGetDefaultKeyFrameRate</b> macro queries a video compression driver for its default (or preferred) key-frame spacing. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getdefaultkeyframerate">ICM_GETDEFAULTKEYFRAMERATE</a> message.
 
 
 
@@ -84,11 +84,11 @@ The <b>ICGetDefaultKeyFrameRate</b> macro returns the default key frame rate.
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

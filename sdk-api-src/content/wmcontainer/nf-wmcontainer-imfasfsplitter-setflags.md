@@ -63,7 +63,7 @@ Sets option flags on the Advanced Systems Format (ASF) splitter.
 
 ### -param dwFlags [in]
 
-A bitwise combination of zero or more members of the <a href="https://msdn.microsoft.com/8eaad139-b487-4348-ae19-4251a2aeed14">MFASF_SPLITTERFLAGS</a> enumeration.
+A bitwise combination of zero or more members of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_splitterflags">MFASF_SPLITTERFLAGS</a> enumeration.
 
 
 ## -returns
@@ -141,15 +141,15 @@ This method can only be called after the splitter is initialized.
 
 
 
-<a href="https://msdn.microsoft.com/383b1cc6-4a77-4e0e-a766-6213c64b025c">ASF Splitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://msdn.microsoft.com/75d8b2a3-7c50-4dd5-8927-b11eb9f12602">IMFASFSplitter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba008e4a-98ad-4633-8b80-1d2ffce04b9c">IMFASFSplitter::GetFlags</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getflags">IMFASFSplitter::GetFlags</a>
  
 
  

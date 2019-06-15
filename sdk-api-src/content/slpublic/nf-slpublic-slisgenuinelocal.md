@@ -64,12 +64,12 @@ A pointer to an <b>SLID</b> structure that specifies the application to check.
 
 ### -param pGenuineState [out]
 
-A pointer to a value of the <a href="https://msdn.microsoft.com/3be69be1-289c-466a-9271-5309fd1319fe">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.
+A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-_sl_genuine_state">SL_GENUINE_STATE</a> enumeration that specifies the state of the installation.
 
 
 ### -param pUIOptions [in, out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/5e793f09-1d12-4b69-8ba6-6c45421df533">SL_NONGENUINE_UI_OPTIONS</a> structure that specifies a dialog box to display if the installation is not genuine. If the value of this parameter is <b>NULL</b>, no dialog box is displayed.
+A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-_tagsl_nongenuine_ui_options">SL_NONGENUINE_UI_OPTIONS</a> structure that specifies a dialog box to display if the installation is not genuine. If the value of this parameter is <b>NULL</b>, no dialog box is displayed.
 
 
 ## -returns
@@ -78,7 +78,7 @@ A pointer to an <a href="https://msdn.microsoft.com/5e793f09-1d12-4b69-8ba6-6c45
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 
 

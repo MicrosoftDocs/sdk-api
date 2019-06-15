@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
- Gets a flag from a  <b>LicenseRenewalResult</b> event that indicates whether the renewal was successful. In the event of failure, a client can call the  <a href="https://msdn.microsoft.com/99b46541-8c94-4456-aae9-d266fc52a6a9">GetRenewalResultCode</a> or <a href="https://msdn.microsoft.com/ed823c23-ae7d-4e2d-8546-92f04bd3b212">GetRenewalHResult</a> method to get information about the reason for the failure.
+ Gets a flag from a  <b>LicenseRenewalResult</b> event that indicates whether the renewal was successful. In the event of failure, a client can call the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalresultcode">GetRenewalResultCode</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalhresult">GetRenewalHResult</a> method to get information about the reason for the failure.
 
 
 ## -parameters
@@ -76,15 +76,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/ed823c23-ae7d-4e2d-8546-92f04bd3b212">GetRenewalHResult</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalhresult">GetRenewalHResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/99b46541-8c94-4456-aae9-d266fc52a6a9">GetRenewalResultCode</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieslicenserenewalresultevent-getrenewalresultcode">GetRenewalResultCode</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f9cbec4-7934-41fc-b387-3f45aa273a72">IESLicenseRenewalResultEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
  
 
  

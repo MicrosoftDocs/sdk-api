@@ -82,7 +82,7 @@ If the method succeeds, the return value is a pointer to the reallocated block o
 
 This method reallocates a block of memory, but does not guarantee that its contents are initialized. Therefore, the caller is responsible for subsequently initializing the memory. The allocated block may be larger than <i>cb</i> bytes because of the space required for alignment and for maintenance information.
 
-The <i>pv</i> argument points to the beginning of the block. If <i>pv</i> is <b>NULL</b>, <b>Realloc</b> allocates a new memory block in the same way that <a href="https://msdn.microsoft.com/c9c9bdac-965f-4b18-9338-28a025930480">IMalloc::Alloc</a> does. If <i>pv</i> is not <b>NULL</b>, it should be a pointer returned by a prior call to <b>Alloc</b>.
+The <i>pv</i> argument points to the beginning of the block. If <i>pv</i> is <b>NULL</b>, <b>Realloc</b> allocates a new memory block in the same way that <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a> does. If <i>pv</i> is not <b>NULL</b>, it should be a pointer returned by a prior call to <b>Alloc</b>.
 
 The <i>cb</i> argument specifies the size of the new block, in bytes. The contents of the block are unchanged up to the shorter of the new and old sizes, although the new block can be in a different location. Because the new block can be in a different memory location, the pointer returned by <b>Realloc</b> is not guaranteed to be the pointer passed through the <i>pv</i> argument. If <i>pv</i> is not <b>NULL</b> and <i>cb</i> is zero, the memory pointed to by <i>pv</i> is freed.
 
@@ -98,7 +98,7 @@ The storage space pointed to by the return value is guaranteed to be suitably al
 
 
 
-<a href="https://msdn.microsoft.com/047f281e-2665-4d6d-9a0b-918cd3339447">IMalloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
  
 
  

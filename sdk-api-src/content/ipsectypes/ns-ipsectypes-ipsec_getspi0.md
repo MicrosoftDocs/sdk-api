@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_GETSPI0</b> structure contains information that must be supplied when requesting a security parameter index (SPI) from the IPsec driver.
-<div class="alert"><b>Note</b>  <b>IPSEC_GETSPI0</b> is the specific implementation of IPSEC_GETSPI used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/671a8dd2-b4f6-4bdd-a6f1-1bf4260c6cbe">IPSEC_GETSPI1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPSEC_GETSPI0</b> is the specific implementation of IPSEC_GETSPI used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi1_">IPSEC_GETSPI1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -59,17 +59,17 @@ The <b>IPSEC_GETSPI0</b> structure contains information that must be supplied wh
 
 ### -field inboundIpsecTraffic
 
-An <a href="https://msdn.microsoft.com/5be2da29-73d6-4381-8bde-3a3945ea7b5a">IPSEC_TRAFFIC0</a> structure that describes traffic characteristics of the inbound IPsec SA.
+An <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic0_">IPSEC_TRAFFIC0</a> structure that describes traffic characteristics of the inbound IPsec SA.
 
 
 ### -field ipVersion
 
-A <a href="https://msdn.microsoft.com/1712b83c-f32d-4981-9950-ab870a376182">FWP_IP_VERSION</a> value that indicates the IP version of the inbound IPsec traffic.
+A <a href="https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version_">FWP_IP_VERSION</a> value that indicates the IP version of the inbound IPsec traffic.
 
 
 ### -field inboundUdpEncapsulation
 
-Optional <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure that specifies the IPsec NAT Traversal (NATT) UDP encapsulation ports. 
+Optional <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0_">IPSEC_V4_UDP_ENCAPSULATION0</a> structure that specifies the IPsec NAT Traversal (NATT) UDP encapsulation ports. 
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
@@ -84,7 +84,7 @@ Not used. A <b>IPSEC_CRYPTO_MODULE_ID</b> is a <b>GUID</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/e957132f-417b-40c1-afe3-5aec0e2192f7">Windows Filtering Platform  API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
  
 
  

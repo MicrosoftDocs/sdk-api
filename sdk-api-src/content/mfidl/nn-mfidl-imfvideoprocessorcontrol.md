@@ -49,12 +49,12 @@ ms.custom: 19H1
 ## -description
 
 
-Configures the <a href="https://msdn.microsoft.com/1476995A-9692-4B08-8EF7-7DB6321BEC24">Video Processor MFT</a>.
+Configures the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMFVideoProcessorControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessorControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFVideoProcessorControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DA6165C9-24E9-473C-A4F7-4C94399AF346">SetBorderColor</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setbordercolor">SetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Sets the border color.
@@ -78,7 +78,7 @@ Sets the border color.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/876F8BA0-9F05-48C6-ADE9-D65E7682C545">SetConstrictionSize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setconstrictionsize">SetConstrictionSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of downsampling to perform on the output.
@@ -87,7 +87,7 @@ Specifies the amount of downsampling to perform on the output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8AD1BDF4-2508-4A99-85A1-9DBC969D511B">SetDestinationRectangle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setdestinationrectangle">SetDestinationRectangle</a>
 </td>
 <td align="left" width="63%">
 Sets the destination rectangle.
@@ -96,7 +96,7 @@ Sets the destination rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4529FEE5-7FDF-4EFF-93C1-E20A63186496">SetMirror</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setmirror">SetMirror</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to flip the video image.
@@ -105,7 +105,7 @@ Specifies whether to flip the video image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/452FE057-EC1A-430E-A5C8-C9B84A4B1B17">SetRotation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setrotation">SetRotation</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to rotate the video to the correct orientation.
@@ -114,7 +114,7 @@ Specifies whether to rotate the video to the correct orientation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0A4E74BB-6F98-4610-9F47-5BD1E58B8589">SetSourceRectangle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setsourcerectangle">SetSourceRectangle</a>
 </td>
 <td align="left" width="63%">
 Sets the source rectangle.
@@ -128,7 +128,7 @@ Sets the source rectangle.
 
 
 
-This interface controls how the <a href="https://msdn.microsoft.com/1476995A-9692-4B08-8EF7-7DB6321BEC24">Video Processor MFT</a> generates output frames.
+This interface controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a> generates output frames.
 
 
 
@@ -138,7 +138,7 @@ This interface controls how the <a href="https://msdn.microsoft.com/1476995A-969
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

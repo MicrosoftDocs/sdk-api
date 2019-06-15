@@ -61,7 +61,7 @@ Retrieves the type information for an object, which can then be used to get the 
 
 ### -param iTInfo [in]
 
-The type information to return. Pass 0 to retrieve type information for the <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> implementation.
+The type information to return. Pass 0 to retrieve type information for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> implementation.
 
 
 ### -param lcid [in]
@@ -119,11 +119,11 @@ The <i>iTInfo</i> parameter was not 0.
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt725309(v=VS.85).aspx">IWebBrowser2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-iwebbrowser2">IWebBrowser2</a>
  
 
  

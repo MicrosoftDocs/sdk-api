@@ -59,12 +59,12 @@ Sets the proxy information for the session.
 
 ### -param accessType [in]
 
-Specifies the proxy access type. This parameter must be set to one of the values in the <a href="https://msdn.microsoft.com/c17c3600-6a19-4937-90ff-1a4f7cf5b123">WSManProxyAccessTypeFlags</a> enumeration. The default value is <b>WSManProxyWinHttpConfig</b>.
+Specifies the proxy access type. This parameter must be set to one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/ne-wsmandisp-_wsmanproxyaccesstypeflags">WSManProxyAccessTypeFlags</a> enumeration. The default value is <b>WSManProxyWinHttpConfig</b>.
 
 
 ### -param authenticationMechanism [in]
 
-Specifies the authentication mechanism to use for the proxy.  This parameter is optional and the default value is 0. If this parameter is set to 0, the WinRM client chooses either Kerberos or Negotiate. Otherwise, this parameter must be set to one of the values in the <a href="https://msdn.microsoft.com/4a86dfae-18c9-4865-8b8b-bb0ac01f558c">WSManProxyAuthenticationFlags</a> enumeration. The default value from the enumeration is <b>WSManFlagProxyAuthenticationUseNegotiate</b>.
+Specifies the authentication mechanism to use for the proxy.  This parameter is optional and the default value is 0. If this parameter is set to 0, the WinRM client chooses either Kerberos or Negotiate. Otherwise, this parameter must be set to one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/ne-wsmandisp-_wsmanproxyauthenticationflags">WSManProxyAuthenticationFlags</a> enumeration. The default value from the enumeration is <b>WSManFlagProxyAuthenticationUseNegotiate</b>.
 
 
 ### -param userName [in]
@@ -100,7 +100,7 @@ The default credentials are the credentials under which the current thread is op
 
 
 
-<a href="https://msdn.microsoft.com/09159904-0160-411d-af54-f6aca94d4d7d">IWSManConnectionOptionsEx2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptionsex2">IWSManConnectionOptionsEx2</a>
  
 
  

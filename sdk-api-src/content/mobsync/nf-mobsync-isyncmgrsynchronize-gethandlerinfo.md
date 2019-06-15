@@ -59,9 +59,9 @@ Obtains handler information.
 
 ### -param ppSyncMgrHandlerInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/8640796c-e5d0-48c8-b82b-7a153201e7de">SYNCMGRHANDLERINFO</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>**</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/8640796c-e5d0-48c8-b82b-7a153201e7de">SYNCMGRHANDLERINFO</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a> structure.
 
 
 ## -returns
@@ -98,7 +98,7 @@ Handler information is returned successfully.
 
 
 
-The handler should use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function to allocate memory.
+The handler should use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate memory.
 
 
 
@@ -108,11 +108,11 @@ The handler should use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f9
 
 
 
-<a href="https://msdn.microsoft.com/bb821672-10b1-4fe6-a752-6cd1ccd1e49e">ISyncMgrSynchronize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
 
 
 
-<a href="https://msdn.microsoft.com/8640796c-e5d0-48c8-b82b-7a153201e7de">SYNCMGRHANDLERINFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ns-mobsync-_tagsyncmgrhandlerinfo">SYNCMGRHANDLERINFO</a>
  
 
  

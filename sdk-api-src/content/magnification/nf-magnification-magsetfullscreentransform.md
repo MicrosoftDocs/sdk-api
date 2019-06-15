@@ -82,7 +82,7 @@ The new y-coordinate offset, in pixels, for the upper-left corner of the magnifi
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
@@ -200,7 +200,7 @@ BOOL SetFullscreenMagnification(BOOL fPositionRelativeToVirtualScreen)
 
 
 
-<a href="https://msdn.microsoft.com/6270047A-8823-41D6-AD57-72A7E60F3696">MagGetFullscreenTransform</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetfullscreentransform">MagGetFullscreenTransform</a>
  
 
  

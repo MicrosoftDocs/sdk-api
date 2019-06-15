@@ -115,7 +115,7 @@ Call this method when an interface registered in the global interface table obje
 
 
 
-<a href="https://msdn.microsoft.com/0c1feee7-e33b-4b5d-8e35-4de6895e3947">IGlobalInterfaceTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobalinterfacetable">IGlobalInterfaceTable</a>
  
 
  

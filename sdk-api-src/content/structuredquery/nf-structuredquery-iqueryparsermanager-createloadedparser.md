@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a new instance of a <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
+Creates a new instance of a <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> interface implementation. This instance of the query parser is loaded with the schema for the specified catalog and is localized to a specified language. All other settings are initialized to default settings.
 
 
 ## -parameters
@@ -69,21 +69,21 @@ The name of the catalog to use. Permitted values are <code>SystemIndex</code> an
 
 Type: <b>LANGID</b>
 
-The <a href="https://msdn.microsoft.com/076e2a43-256a-4646-a5c8-1d48ab08ce1a">LANGID</a> used to select the localized language for keywords.
+The <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">LANGID</a> used to select the localized language for keywords.
 
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="https://msdn.microsoft.com/en-us/library/Bb231353(v=VS.85).aspx">IQueryParser</a> interface implementation.
+The IID of the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> interface implementation.
 
 
 ### -param ppQueryParser [out, retval]
 
 Type: <b>void**</b>
 
-Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method.
+Receives a pointer to the newly created parser. The calling application must release it by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
         
 
 
@@ -102,7 +102,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If %LOCALAPPDATA% is not available, then this method fails. You should call <a href="https://msdn.microsoft.com/en-us/library/Bb231350(v=VS.85).aspx">IQueryParserManager::SetOption</a> to point to a different folder like %ProgramData%.
+If %LOCALAPPDATA% is not available, then this method fails. You should call <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-setoption">IQueryParserManager::SetOption</a> to point to a different folder like %ProgramData%.
 
 
 

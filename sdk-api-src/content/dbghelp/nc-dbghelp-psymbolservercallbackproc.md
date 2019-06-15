@@ -76,7 +76,7 @@ The action code. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="https://msdn.microsoft.com/1d63007a-7542-4626-99a5-41461e00dbb4">IMAGEHLP_CBA_EVENT</a> structure.
+Provide debug trace information. The <i>data</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a> structure.
 
 <b>DbgHelp 6.0 and earlier:  </b>This value is not supported.
 
@@ -128,7 +128,7 @@ The format of this parameter depends on the value of the <i>action</i> parameter
 
 ### -param context [in]
 
-The context information provided by calling <a href="https://msdn.microsoft.com/279181a6-60b7-40e3-b801-4b8674d93478">SymbolServerSetOptions</a> with SSRVOPT_SETCONTEXT.
+The context information provided by calling <a href="https://docs.microsoft.com/previous-versions//ff797954(v=vs.85)">SymbolServerSetOptions</a> with SSRVOPT_SETCONTEXT.
 
 
 ## -returns
@@ -138,7 +138,7 @@ The context information provided by calling <a href="https://msdn.microsoft.com/
 To indicate success, return <b>TRUE</b>.
 
 To indicate failure, return <b>FALSE</b> and call the 
-<a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> function to indicate an error condition. If you do not handle a particular action code, you should also return <b>FALSE</b>. (Returning <b>TRUE</b> in this case may have unintended consequences.)
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function to indicate an error condition. If you do not handle a particular action code, you should also return <b>FALSE</b>. (Returning <b>TRUE</b> in this case may have unintended consequences.)
 
 
 
@@ -148,12 +148,12 @@ To indicate failure, return <b>FALSE</b> and call the
 
 
 
-<a href="https://msdn.microsoft.com/7b28f70b-2d97-4cc2-8064-dfb806f9cffa">DbgHelp
+<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp
 		  Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d63007a-7542-4626-99a5-41461e00dbb4">IMAGEHLP_CBA_EVENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-_imagehlp_cba_event">IMAGEHLP_CBA_EVENT</a>
  
 
  

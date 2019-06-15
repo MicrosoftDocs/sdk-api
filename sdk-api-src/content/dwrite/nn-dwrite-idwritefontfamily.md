@@ -54,7 +54,7 @@ Represents a family of related fonts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily</b> interface inherits from <a href="https://msdn.microsoft.com/00c41c5f-4405-45ff-98e5-03858dc3056f">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDWriteFontFamily</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa">GetFamilyNames</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames">GetFamilyNames</a>
 </td>
 <td align="left" width="63%">
  Creates a localized strings object that contains the family names for the font family, indexed by locale name.
@@ -78,7 +78,7 @@ The <b>IDWriteFontFamily</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba5836a5-87ca-43bf-bb18-4498ed2a9619">GetFirstMatchingFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfamily-getfirstmatchingfont">GetFirstMatchingFont</a>
 </td>
 <td align="left" width="63%">
  Gets the font that best matches the specified properties.
@@ -87,7 +87,7 @@ The <b>IDWriteFontFamily</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/81984e35-7b62-4e14-9ded-45cee49a8921">GetMatchingFonts</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfamily-getmatchingfonts">GetMatchingFonts</a>
 </td>
 <td align="left" width="63%">
  Gets a list of fonts in the font family ranked in order of how well they match the specified properties.
@@ -106,7 +106,7 @@ A font family is a set of fonts that share the same family name, such as "Times 
 The following illustration shows examples of fonts that are members of the "Times New Roman" font family.
 
 <img alt="Illustration of italic, bold, and bold italic text from the Times New Roman font family" src="./images/FontFamily_for_TimesNewRoman.png"/>
-An <b>IDWriteFontFamily</b> object can be retrieved from a font collection using the  <a href="https://msdn.microsoft.com/6104a8ed-378f-4e2b-a0e5-8c0291750e65">IDWriteFontCollection::GetFontFamily</a> method shown in the following example.  <a href="https://msdn.microsoft.com/470c63cc-b50f-4b62-98c0-f7ce183bfcfd">GetFontFamily</a> takes a <b>UINT32</b> index and returns the font family for the font at that index.
+An <b>IDWriteFontFamily</b> object can be retrieved from a font collection using the  <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefont-getfontfamily">IDWriteFontCollection::GetFontFamily</a> method shown in the following example.  <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontcollection-getfontfamily">GetFontFamily</a> takes a <b>UINT32</b> index and returns the font family for the font at that index.
 
 
 ```cpp
@@ -121,7 +121,7 @@ if (SUCCEEDED(hr))
 ```
 
 
-The font family name is used to specify the font family for text layout and text format objects.  You can get a list of localized font family names from an <b>IDWriteFontFamily</b> object in the form of an <a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a> object by using the <a href="https://msdn.microsoft.com/89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa">IDWriteFontFamily::GetFamilyNames</a> method, as shown in the following code.
+The font family name is used to specify the font family for text layout and text format objects.  You can get a list of localized font family names from an <b>IDWriteFontFamily</b> object in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a> object by using the <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames">IDWriteFontFamily::GetFamilyNames</a> method, as shown in the following code.
 
 
 ```cpp
@@ -144,7 +144,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/00c41c5f-4405-45ff-98e5-03858dc3056f">IDWriteFontList</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>
  
 
  

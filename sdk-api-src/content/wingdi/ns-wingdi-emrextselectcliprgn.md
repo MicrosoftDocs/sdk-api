@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>EMREXTSELECTCLIPRGN</b> structure contains members for the <a href="https://msdn.microsoft.com/d222defe-2ef9-4622-b2e1-462a91cb1b0a">ExtSelectClipRgn</a> enhanced metafile record.
+The <b>EMREXTSELECTCLIPRGN</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a> enhanced metafile record.
 
 
 
@@ -77,7 +77,7 @@ Operation to be performed. This member must be one of the following values: RGN_
 
 ### -field RgnData
 
-Buffer containing a <a href="https://msdn.microsoft.com/3eac0b23-3138-4b34-9c16-6cc185e4de22">RGNDATA</a> structure.
+Buffer containing a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_rgndata">RGNDATA</a> structure.
 
 
 ## -see-also
@@ -85,15 +85,15 @@ Buffer containing a <a href="https://msdn.microsoft.com/3eac0b23-3138-4b34-9c16-
 
 
 
-<a href="https://msdn.microsoft.com/d222defe-2ef9-4622-b2e1-462a91cb1b0a">ExtSelectClipRgn</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a509ed5-cea3-4318-ad17-9d20425a6e80">Metafile Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

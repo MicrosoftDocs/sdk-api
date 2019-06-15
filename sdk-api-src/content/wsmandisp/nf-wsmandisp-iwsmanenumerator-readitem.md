@@ -75,9 +75,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To start an enumeration, use <a href="https://msdn.microsoft.com/b1a4815e-93aa-4a30-a67e-c52fd06c1ee1">IWSManSession.Enumerate</a>. To perform a WS-Eventing:Pull operation that continues reading items in the enumeration, use <b>IWSManEnumerator.ReadItem</b>.
+To start an enumeration, use <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession.Enumerate</a>. To perform a WS-Eventing:Pull operation that continues reading items in the enumeration, use <b>IWSManEnumerator.ReadItem</b>.
 
-To limit the number of items that are read, set the <a href="https://msdn.microsoft.com/1675ba12-a0c7-4e59-a013-2109780e8afe">Session.BatchItems</a> property.
+To limit the number of items that are read, set the <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-batchitems">Session.BatchItems</a> property.
 
 Be aware that freeing the enumeration object clears pending enumeration requests.
 
@@ -89,11 +89,11 @@ Be aware that freeing the enumeration object clears pending enumeration requests
 
 
 
-<a href="https://msdn.microsoft.com/4280ecb8-2449-41bd-868a-785e8ac3b3d5">Enumerator.ReadItem</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/enumerator-readitem">Enumerator.ReadItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7afac5d-946f-49ec-a7d0-de558ed2144b">IWSManEnumerator</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
  
 
  

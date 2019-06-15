@@ -68,7 +68,7 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 ### -field RawValue
 
- A <a href="https://msdn.microsoft.com/237a3c82-0ab4-45cb-bd93-2f308178c573">PDH_RAW_COUNTER</a> structure that contains the raw counter value of the instance.
+ A <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a> structure that contains the raw counter value of the instance.
 
 
 ## -see-also
@@ -76,11 +76,11 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 
 
-<a href="https://msdn.microsoft.com/237a3c82-0ab4-45cb-bd93-2f308178c573">PDH_RAW_COUNTER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_raw_counter">PDH_RAW_COUNTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/03b30d08-6901-45cd-bd6d-d2672eb0f914">PdhGetRawCounterArray</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcounterarraya">PdhGetRawCounterArray</a>
  
 
  

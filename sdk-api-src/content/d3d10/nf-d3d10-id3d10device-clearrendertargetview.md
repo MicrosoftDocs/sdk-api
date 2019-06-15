@@ -60,14 +60,14 @@ Set all the elements in a render target to one value.
 
 ### -param pRenderTargetView [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173827(v=VS.85).aspx">ID3D10RenderTargetView</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10rendertargetview">ID3D10RenderTargetView</a>*</b>
 
 Pointer to the render target.
 
 
 ### -param ColorRGBA [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 A 4-component array that represents the color to fill the render target with.
 
@@ -99,7 +99,7 @@ Unlike Direct3D 9, the full extent of the resource view is always cleared. Viewp
 </table>
  
 
-When using <a href="https://msdn.microsoft.com/9e51bda1-84f8-4144-b678-73c821c5b5a8">10Level9</a>, <b>ClearRenderTargetView</b> only clears the first array slice in the render target view. This can impact (for example) cube map rendering scenarios. Applications should create a render target view for each face or array slice, then clear each view individually.
+When using <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-10level9">10Level9</a>, <b>ClearRenderTargetView</b> only clears the first array slice in the render target view. This can impact (for example) cube map rendering scenarios. Applications should create a render target view for each face or array slice, then clear each view individually.
 
 
 
@@ -109,7 +109,7 @@ When using <a href="https://msdn.microsoft.com/9e51bda1-84f8-4144-b678-73c821c5b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
  
 
  

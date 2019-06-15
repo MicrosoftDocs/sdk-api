@@ -51,5 +51,5 @@ ms.custom: 19H1
 
 A container for 3D lookup table data that can be passed to the LookupTable3D effect.
 
-An ID2DLookupTable3D instance is created using <a href="https://msdn.microsoft.com/1c48804b-9876-9dbd-3d20-8a7b575fd3d8">ID2D1DeviceContext2::CreateLookupTable3D</a> or ID2D1EffectContext1::CreateLookupTable3D.
+An ID2DLookupTable3D instance is created using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createlookuptable3d">ID2D1DeviceContext2::CreateLookupTable3D</a> or ID2D1EffectContext1::CreateLookupTable3D.
 

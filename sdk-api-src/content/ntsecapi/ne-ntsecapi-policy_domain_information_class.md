@@ -62,7 +62,7 @@ The <b>POLICY_DOMAIN_INFORMATION_CLASS</b> enumeration defines the type of polic
 
 ### -field PolicyDomainEfsInformation
 
-The information is for <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">Encrypting File System</a>.
+The information is for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">Encrypting File System</a>.
 
 
 ### -field PolicyDomainKerberosTicketInformation

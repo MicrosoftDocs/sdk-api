@@ -78,7 +78,7 @@ To calculate the data transfer rate in Mbps for an arbitrary array entry rateSet
 
 
 
-<a href="https://msdn.microsoft.com/25a76128-13d9-47dd-9c73-1fbf06a908be">WLAN_BSS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_bss_entry">WLAN_BSS_ENTRY</a>
  
 
  

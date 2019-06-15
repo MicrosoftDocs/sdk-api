@@ -63,7 +63,7 @@ Retrieves the type of joint used at the vertices of a shape's outline.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4368e93e-af69-4555-ac2b-c9c576c81372">D2D1_LINE_JOIN</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_line_join">D2D1_LINE_JOIN</a></b>
 
 A value that specifies the type of joint used at the vertices of a shape's outline.
 
@@ -75,7 +75,7 @@ A value that specifies the type of joint used at the vertices of a shape's outli
 
 
 
-<a href="https://msdn.microsoft.com/2cdf66dc-f34f-4132-8c06-7464648d3cef">ID2D1StrokeStyle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

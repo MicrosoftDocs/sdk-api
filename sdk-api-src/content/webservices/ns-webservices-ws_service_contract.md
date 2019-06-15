@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a service contract on an <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">endpoint</a>.
+Specifies a service contract on an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_service_endpoint">endpoint</a>.
             
 
 
@@ -60,7 +60,7 @@ Specifies a service contract on an <a href="https://msdn.microsoft.com/6b15fc3f-
 
 ### -field contractDescription
 
-The typed contract metadata. See <a href="https://msdn.microsoft.com/0b2a5516-6faf-43d5-9370-a25dbc7e2843">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
+The typed contract metadata. See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_contract_description">WS_CONTRACT_DESCRIPTION</a>. Optional, if <b>defaultMessageHandlerCallback</b> is given.
                 
 
 

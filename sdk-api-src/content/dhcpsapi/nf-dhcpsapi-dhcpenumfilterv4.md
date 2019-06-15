@@ -64,7 +64,7 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param ResumeHandle [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/8c645b03-9859-48e9-8974-2dbdc9cfcac6">DHCP_ADDR_PATTERN</a> structure that identifies the enumeration operation. Initially this parameter must be set to zero (0), with a successful call returning the address/pattern value used for subsequent enumeration requests.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_addr_pattern">DHCP_ADDR_PATTERN</a> structure that identifies the enumeration operation. Initially this parameter must be set to zero (0), with a successful call returning the address/pattern value used for subsequent enumeration requests.
 
 
 ### -param PreferredMaximum [in]
@@ -74,12 +74,12 @@ A DWORD value that specifies the preferred maximum number of bytes to return. If
 
 ### -param ListType [in]
 
-A <a href="https://msdn.microsoft.com/369b705c-2322-4be7-8550-41a42318204b">DHCP_FILTER_LIST_TYPE</a> that specifies the list of filters to be enumerated.
+A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_filter_list_type">DHCP_FILTER_LIST_TYPE</a> that specifies the list of filters to be enumerated.
 
 
 ### -param EnumFilterInfo [out]
 
-Pointer to the address of an array of <a href="https://msdn.microsoft.com/f393987c-12dd-468c-98c6-84f4d36744b2">DHCP_FILTER_ENUM_INFO</a> structures that contain the returned link-layer filter information configured on the DHCP server.
+Pointer to the address of an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_enum_info">DHCP_FILTER_ENUM_INFO</a> structures that contain the returned link-layer filter information configured on the DHCP server.
 
 
 ### -param ElementsRead [out]
@@ -96,7 +96,7 @@ Pointer to a <b>DWORD</b> value that specifies the number of link-layer filter e
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -158,11 +158,11 @@ There are no more elements left to enumerate.
 
 
 
-<a href="https://msdn.microsoft.com/f393987c-12dd-468c-98c6-84f4d36744b2">DHCP_FILTER_ENUM_INFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_filter_enum_info">DHCP_FILTER_ENUM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/369b705c-2322-4be7-8550-41a42318204b">DHCP_FILTER_LIST_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-_dhcp_filter_list_type">DHCP_FILTER_LIST_TYPE</a>
  
 
  

@@ -55,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>SHCreateStreamOnFile</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://msdn.microsoft.com/f948f7dd-987d-4c2d-b650-62081133c3f4">SHCreateStreamOnFileEx</a>.]
+<p class="CCE_Message">[<b>SHCreateStreamOnFile</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a>.]
 
 Opens or creates a file and retrieves a stream to read or write to that file.
 
@@ -76,14 +76,14 @@ A pointer to a null-terminated string that specifies the file name.
 
 Type: <b>DWORD</b>
 
-One or more <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
+One or more <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
 
 
 ### -param ppstm [out]
 
-Type: <b><a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
-Receives an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface pointer for the stream associated with the file.
+Receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface pointer for the stream associated with the file.
 
 
 ## -returns
@@ -102,7 +102,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/f948f7dd-987d-4c2d-b650-62081133c3f4">SHCreateStreamOnFileEx</a> fully supports all <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> modes and allows the caller to specify file attributes if creating a new file.
+<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a> fully supports all <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> modes and allows the caller to specify file attributes if creating a new file.
 
 
 

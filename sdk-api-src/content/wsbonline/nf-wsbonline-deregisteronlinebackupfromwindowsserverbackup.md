@@ -79,7 +79,7 @@ The return values listed here are in addition to the normal <b>HRESULT</b>s that
 
 
 
-<a href="https://msdn.microsoft.com/61F77E92-19EF-4409-9435-CD03ACCE810D">Cloud  Backup Provider API Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-functions">Cloud  Backup Provider API Functions</a>
  
 
  

@@ -59,9 +59,9 @@ Stores information about how to sort a column that is displayed in the folder vi
 
 ### -field propkey
 
-Type: <b><a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a></b>
 
-The ID of the column by which the user will sort. A <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> structure. For example, for the "Name" column, the property key is PKEY_ItemNameDisplay.
+The ID of the column by which the user will sort. A <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> structure. For example, for the "Name" column, the property key is PKEY_ItemNameDisplay.
 
 
 ### -field direction
@@ -87,7 +87,7 @@ The items are sorted in descending order. Whether the sort is alphabetical, nume
 
 
 
-Each column displayed in the folder view (for example, "details" view mode), is associated with a property that has a <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> ID. When you want to sort the view by a particular property, you specify the property key for that property.
+Each column displayed in the folder view (for example, "details" view mode), is associated with a property that has a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> ID. When you want to sort the view by a particular property, you specify the property key for that property.
 
 
 

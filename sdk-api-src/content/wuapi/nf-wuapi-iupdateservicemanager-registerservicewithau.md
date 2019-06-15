@@ -144,7 +144,7 @@ The computer could not access the update site, or the state of Automatic Updates
 
 This method returns <b>WU_E_DS_UNKNOWNSERVICE</b> if the service to be registered is unknown to Automatic Updates.
 
-This method returns <b>WU_E_INVALID_OPERATION</b> if the method is called with an invalid service ID.  This method also returns <b>WU_E_INVALID_OPERATION</b> if the service ID is valid but the service can't register with Automatic Updates. That is,  the requested change in the state of Automatic Updates is contrary to the specifications in the authorization cabinet file (for example, <a href="https://msdn.microsoft.com/79198de8-548a-4d9a-ae07-d421babe8700">CanRegisterWithAU</a> property is set to <b>FALSE</b>). An error is returned by <a href="https://msdn.microsoft.com/b7efac6a-ac9f-477a-aada-63fe32208e6f">WinVerifyTrust</a> function if the authorization cabinet file has not been signed.
+This method returns <b>WU_E_INVALID_OPERATION</b> if the method is called with an invalid service ID.  This method also returns <b>WU_E_INVALID_OPERATION</b> if the service ID is valid but the service can't register with Automatic Updates. That is,  the requested change in the state of Automatic Updates is contrary to the specifications in the authorization cabinet file (for example, <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservice-get_canregisterwithau">CanRegisterWithAU</a> property is set to <b>FALSE</b>). An error is returned by <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> function if the authorization cabinet file has not been signed.
 
 
 
@@ -158,7 +158,7 @@ This method returns <b>WU_E_DS_NEEDWINDOWSSERVICE</b> if you try to remove the W
 
 
 
-<a href="https://msdn.microsoft.com/99b451b8-9831-475c-a4b0-7809f78d91b8">IUpdateServiceManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
  
 
  

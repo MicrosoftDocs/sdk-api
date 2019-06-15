@@ -62,7 +62,7 @@ Retrieves the image size, in bytes, for an uncompressed video format.
 
 ### -param guidSubtype [in]
 
-Media subtype for the video format. For a list of subtypes, see <a href="https://msdn.microsoft.com/1cca3539-a920-4938-93b9-ae41e1c0a287">Media Type GUIDs</a>.
+Media subtype for the video format. For a list of subtypes, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Media Type GUIDs</a>.
 
 
 ### -param unWidth [in]
@@ -113,7 +113,7 @@ The function succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

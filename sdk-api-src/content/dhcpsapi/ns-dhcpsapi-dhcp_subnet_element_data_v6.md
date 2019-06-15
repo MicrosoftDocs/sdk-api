@@ -119,17 +119,17 @@ A union of different IPv6 prefix element types. The value of this union is depen
 
 ### -field Element.IpRange
 
-Pointer to a <a href="https://msdn.microsoft.com/3a918a2b-beff-4562-9c7f-acee2cc8f2da">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
 
 
 ### -field Element.ReservedIp
 
-Pointer to a <a href="https://msdn.microsoft.com/f1595632-018b-4626-b3c6-49f0e5b3752c">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
 
 
 ### -field Element.ExcludeIpRange
 
-Pointer to a <a href="https://msdn.microsoft.com/3a918a2b-beff-4562-9c7f-acee2cc8f2da">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
 
 
 ### -field _DHCP_SUBNET_ELEMENT_UNION_V6
@@ -148,11 +148,11 @@ Pointer to a <a href="https://msdn.microsoft.com/3a918a2b-beff-4562-9c7f-acee2cc
 
 
 
-<a href="https://msdn.microsoft.com/f1595632-018b-4626-b3c6-49f0e5b3752c">DHCP_IP_RESERVATION_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
 
 
 
-<a href="https://msdn.microsoft.com/de5fa8c5-5cd7-4358-bacd-f27f4b7f3761">DHCP_SUBNET_ELEMENT_DATA_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
  
 
  

@@ -80,7 +80,7 @@ An array of object handles. For a list of the object types whose handles you can
 If one of these handles is closed while the wait is still pending, the function's behavior is undefined.
 
 The handles must have the <b>SYNCHRONIZE</b> access right. For more information, see 
-<a href="https://msdn.microsoft.com/f43bccce-0f8c-4732-b678-5fd3218a9f84">Standard Access Rights</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
 
 ### -param dwMilliseconds [in]
@@ -104,7 +104,7 @@ The input types for which an input event object handle will be added to the arra
 </dl>
 </td>
 <td width="60%">
-An input, <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>, <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646279(v=VS.85).aspx">WM_HOTKEY</a>, or posted message is in the queue. 
+An input, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>, <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a>, or posted message is in the queue. 
 
 
 
@@ -138,7 +138,7 @@ A posted message is in the queue.
 
 
 
-This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> without filtering messages.
+This value is cleared when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> without filtering messages.
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/li
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms646279(v=VS.85).aspx">WM_HOTKEY</a> message is in the queue.
+A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a> message is in the queue.
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ This value is a combination of <b>QS_MOUSE</b>, <b>QS_KEY</b>, and <b>QS_RAWINPU
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_KEYUP</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a>, <a href="https://msdn.microsoft.com/en-us/library/ms646287(v=VS.85).aspx">WM_SYSKEYUP</a>, or <a href="https://msdn.microsoft.com/en-us/library/ms646286(v=VS.85).aspx">WM_SYSKEYDOWN</a> message is in the queue.
+A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeyup">WM_SYSKEYUP</a>, or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a> message is in the queue.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms646281(v=VS.85).aspx">WM_K
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message or mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a>, and so on). 
+A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message or mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on). 
 
 
 
@@ -203,7 +203,7 @@ This value is a combination of <b>QS_MOUSEMOVE</b> and <b>QS_MOUSEBUTTON</b>.
 </dl>
 </td>
 <td width="60%">
-A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://msdn.microsoft.com/en-us/library/ms646242(v=VS.85).aspx">WM_RBUTTONDOWN</a>, and so on).
+A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, and so on).
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ A mouse-button message (<b>WM_LBUTTONUP</b>, <a href="https://msdn.microsoft.com
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message is in the queue.
+A <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message is in the queue.
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_M
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> message is in the queue.
+A <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is in the queue.
 
 </td>
 </tr>
@@ -241,7 +241,7 @@ A posted message is in the queue.
 
 
 
-This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, whether or not you are filtering messages.
+This value is cleared when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages.
 
 </td>
 </tr>
@@ -253,7 +253,7 @@ This value is cleared when you call <a href="https://msdn.microsoft.com/en-us/li
 </td>
 <td width="60%">
  A raw input message is in the queue. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>.
+<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>.
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ A message sent by another thread or application is in the queue.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message is in the queue.
+A <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message is in the queue.
 
 </td>
 </tr>
@@ -311,7 +311,7 @@ The function returns when any one of the objects is signaled. The return value i
 </td>
 <td width="60%">
 The function also returns if an APC has been queued to the thread with 
-<a href="https://msdn.microsoft.com/5b141372-7c95-4eb2-987b-64fdf7d0783d">QueueUserAPC</a> while the thread is in the waiting state.
+<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a> while the thread is in the waiting state.
 
 </td>
 </tr>
@@ -323,7 +323,7 @@ The function also returns if an APC has been queued to the thread with
 </td>
 <td width="60%">
 The function returns if input exists for the queue, even if the input has been seen (but not removed) using a call to another function, such as 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>.
 
 </td>
 </tr>
@@ -373,17 +373,17 @@ If the <b>MWMO_WAITALL</b> flag is used, the return value indicates that the sta
 </td>
 <td width="60%">
 New input of the type specified in the <i>dwWakeMask</i> parameter is available in the thread's input queue. Functions such as 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205614(v=VS.85).aspx">GetQueueStatus</a>, and 
-<a href="https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx">WaitMessage</a> mark messages in the queue as old messages. Therefore, after you call one of these functions, a subsequent call to 
-<a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a> will not return until new input of the specified type arrives. 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/id3dx10threadpump-getqueuestatus">GetQueueStatus</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a> mark messages in the queue as old messages. Therefore, after you call one of these functions, a subsequent call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> will not return until new input of the specified type arrives. 
 
 
 
 
 This value is also returned upon the occurrence of a system event that requires the thread's action, such as foreground activation. Therefore, 
-<a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a> to process the system event before trying the call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> can return even though no appropriate input is available and even if <i>dwWakeMask</i> is set to 0. If this occurs, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> to process the system event before trying the call to 
 <b>MsgWaitForMultipleObjectsEx</b> again.
 
 </td>
@@ -411,7 +411,7 @@ If the mutex was protecting persistent state information, you should check it fo
 </td>
 <td width="60%">
 The wait was ended by one or more user-mode 
-<a href="https://msdn.microsoft.com/0197d78e-a4dc-414b-88ba-c5ec5f2ed614">asynchronous procedure calls</a> (APC) queued to the thread.
+<a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">asynchronous procedure calls</a> (APC) queued to the thread.
 
 </td>
 </tr>
@@ -436,7 +436,7 @@ The time-out interval elapsed, but the conditions specified by the <i>dwFlags</i
 </td>
 <td width="60%">
 The function has failed. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -456,10 +456,10 @@ The
 When <i>dwFlags</i> is zero, this function checks the handles in the array in order starting with index 0, until one of the objects is signaled. If multiple objects become signaled, the function returns the index of the first handle in the array whose object was signaled.
 
 <b>MsgWaitForMultipleObjectsEx</b> does not return if there is unread input of the specified type in the message queue after the thread has called a function to check the queue, unless you use the <b>MWMO_INPUTAVAILABLE</b> flag. This is because functions such as 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a>, 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205614(v=VS.85).aspx">GetQueueStatus</a>, and 
-<a href="https://msdn.microsoft.com/en-us/library/ms644956(v=VS.85).aspx">WaitMessage</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/direct3d10/id3dx10threadpump-getqueuestatus">GetQueueStatus</a>, and 
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to 
 <b>MsgWaitForMultipleObjectsEx</b> will not return until new input of the specified type arrives, unless you use the <b>MWMO_INPUTAVAILABLE</b> flag. If this flag is not used, the existing unread input (received prior to the last time the thread checked the queue) is ignored.
 
 The function modifies the state of some types of synchronization objects. Modification occurs only for the object or objects whose signaled state caused the function to return. For example, the system decreases the count of a semaphore object by one. For more information, see the documentation for the individual synchronization objects.
@@ -478,7 +478,7 @@ The
 <li>Thread</li>
 <li>Waitable timer</li>
 </ul>
-The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">GetMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <b>PeekMessage</b> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <b>PeekMessage</b> multiple times to get messages in different ranges.
+The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they are cleared. <b>QS_POSTMESSAGE</b> is cleared when you call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, whether or not you are filtering messages. <b>QS_ALLPOSTMESSAGE</b> is cleared when you call <b>GetMessage</b> or <b>PeekMessage</b> without filtering messages (<i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are 0). This can be useful when you call <b>PeekMessage</b> multiple times to get messages in different ranges.
 
 
 
@@ -488,11 +488,11 @@ The <b>QS_ALLPOSTMESSAGE</b> and <b>QS_POSTMESSAGE</b> flags differ in when they
 
 
 
-<a href="https://msdn.microsoft.com/9b6359c2-0113-49b6-83d0-316ad95aba1b">Synchronization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
  
 
  

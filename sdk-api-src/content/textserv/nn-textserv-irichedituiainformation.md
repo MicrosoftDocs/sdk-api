@@ -54,7 +54,7 @@ Provides Microsoft UI Automation accessibility information about a windowless ri
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichEditUiaInformation</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRichEditUiaInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichEditUiaInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRichEditUiaInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -93,11 +93,11 @@ Indicates whether a windowless rich edit control is currently visible.
 
 
 
-<a href="https://msdn.microsoft.com/2590002F-A6B0-4AA7-A54C-A5AB5304D9FA">IRichEditUiaOverrides</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-irichedituiaoverrides">IRichEditUiaOverrides</a>
 
 
 
-<a href="https://msdn.microsoft.com/E58E9577-4004-4627-A0D6-CF8166C0C43F">IRicheditWindowlessAccessibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nn-textserv-iricheditwindowlessaccessibility">IRicheditWindowlessAccessibility</a>
  
 
  

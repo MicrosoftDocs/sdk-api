@@ -71,7 +71,7 @@ The service provider's handle to the line device.
 ### -param dwFeature
 
 The feature to invoke on the line device. This parameter uses 
-<a href="https://msdn.microsoft.com/33d369d0-2221-403e-8fbc-a9a1cbd640ad">PHONEBUTTONFUNCTION_ constants</a>.
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_ constants</a>.
 
 
 ### -param lpParams
@@ -89,7 +89,7 @@ The size of the buffer in bytes. If the <i>lpParams</i> parameter is a pointer t
 
 
 Returns <i>dwRequestID</i> or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALFEATURE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL.
 
@@ -105,7 +105,7 @@ Additional return values are device specific. The call state of <i>hdCall</i> is
 This function provides TAPI applications with phone feature button emulation capabilities. When TAPI invokes this operation on behalf of a client application, it specifies the equivalent of a "button press" event. This method of invoking features is highly device dependent, as the API does not define their meaning. When an application relies on device-specific extensions, the application does not port well to other service provider environments.
 
 This function is called in direct response to an application calling the TAPI 
-<a href="https://msdn.microsoft.com/8498318f-9615-4242-86e2-c57b50293b83">lineDevSpecificFeature</a> function. TAPI translates the <i>hLine</i> parameter used at the TAPI level to the corresponding <i>hdLine</i> parameter used at the TSPI level. The <i>lpParams</i> buffer is passed through unmodified.
+<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedevspecificfeature">lineDevSpecificFeature</a> function. TAPI translates the <i>hLine</i> parameter used at the TAPI level to the corresponding <i>hdLine</i> parameter used at the TSPI level. The <i>lpParams</i> buffer is passed through unmodified.
 
 <div class="alert"><b>Note</b>  The <i>lpParams</i> data structure should not contain any pointers because they are not properly translated (thunked) when running a 16-bit application in a 32-bit version of TAPI and vice versa.</div>
 <div> </div>
@@ -119,15 +119,15 @@ This operation is part of the Extended Telephony services. It only provides acce
 
 
 
-<a href="https://msdn.microsoft.com/673c9d23-e380-49f7-bd06-23552634d5b9">ASYNC_COMPLETION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cd43a8d-1788-49c0-8f05-bfbf7a4800e5">LINE_DEVSPECIFICFEATURE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725227(v=vs.85)">LINE_DEVSPECIFICFEATURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/33d369d0-2221-403e-8fbc-a9a1cbd640ad">PHONEBUTTONFUNCTION_ Constants</a>
+<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonebuttonfunction--constants">PHONEBUTTONFUNCTION_ Constants</a>
  
 
  

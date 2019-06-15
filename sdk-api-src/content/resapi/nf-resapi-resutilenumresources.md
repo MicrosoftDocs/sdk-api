@@ -49,8 +49,8 @@ ms.custom: 19H1
 ## -description
 
 
-Enumerates all of the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in the local 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and initiates a user-defined operation for each 
+Enumerates all of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> in the local 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and initiates a user-defined operation for each 
     resource. The <b>PRESUTIL_ENUM_RESOURCES</b> type defines a pointer to this function.
 
 
@@ -67,7 +67,7 @@ Optional handle to a cluster resource. The callback function is not invoked for 
 
 ### -param lpszResTypeName [in]
 
-Optional pointer to a name of a <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> that 
+Optional pointer to a name of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a> that 
        narrows the scope of resources to enumerate. If <i>lpszResTypeName</i> is specified, only 
        resources of the specified type are enumerated.
 
@@ -75,7 +75,7 @@ Optional pointer to a name of a <a href="https://msdn.microsoft.com/d02e4f51-7b8
 ### -param pResCallBack [in]
 
 Pointer to a user-defined function which will be called for each enumerated resource. This function must 
-       conform to the definition of the <a href="https://msdn.microsoft.com/1e36be6d-d869-4af9-b22a-401638701bd2">ResourceCallback</a> 
+       conform to the definition of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback">ResourceCallback</a> 
        callback function (note that parameter names are not part of the definition; they have been added here for 
        clarity):
 
@@ -112,11 +112,11 @@ If the operation fails, the function immediately halts the enumeration and retur
 
 <b>ResUtilEnumResources</b> is a convenient and 
      easy-to-use alternative to the 
-     <a href="https://msdn.microsoft.com/73627594-90df-496d-8120-b24c34f13fb5">ClusterResourceEnum</a> function.
+     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a> function.
 
 <b>ResUtilEnumResources</b> must be run on a cluster 
      node because it only connects to the local cluster. The 
-     <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a> function allows you to 
+     <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilenumresourcesex">ResUtilEnumResourcesEx</a> function allows you to 
      specify a remote cluster.
 
 The following example uses 
@@ -238,19 +238,19 @@ EndFunc:
 
 
 
-<a href="https://msdn.microsoft.com/b6eb5c03-dd6e-42ef-a020-cf0d61143040">ClusterOpenEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenum">ClusterOpenEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
-<a href="https://msdn.microsoft.com/42eb7c1b-6bd6-4997-b33e-ed16470c8475">Resource Utility Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e36be6d-d869-4af9-b22a-401638701bd2">ResourceCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback">ResourceCallback</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <code>GetFormat</code> method retrieves an <a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a> representation of a custom format.
+The <code>GetFormat</code> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> representation of a custom format.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <code>GetFormat</code> method retrieves an <a href="https://msdn.microsoft.c
 
 ### -param nFormat [in]
 
-Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="https://msdn.microsoft.com/70d215e5-e30a-4fbd-b9c3-c988c6bbd941">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
+Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
 
 
 ### -param ppFormat [out, optional]
@@ -121,7 +121,7 @@ nFormat is out of range
 
 
 
-When the audio system calls the <code>GetFormat</code> method, the sAPO creates an audio media type object and returns an <b>IAudioMediaType</b> interface. The sAPO implementation can use the <a href="https://msdn.microsoft.com/02f7b1e6-338a-4bea-9a22-21496a045be6">CreateAudioMediaType</a> utility function to create the audio media type object.
+When the audio system calls the <code>GetFormat</code> method, the sAPO creates an audio media type object and returns an <b>IAudioMediaType</b> interface. The sAPO implementation can use the <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-createaudiomediatype">CreateAudioMediaType</a> utility function to create the audio media type object.
 
 
 
@@ -131,15 +131,15 @@ When the audio system calls the <code>GetFormat</code> method, the sAPO creates 
 
 
 
-<a href="https://msdn.microsoft.com/02f7b1e6-338a-4bea-9a22-21496a045be6">CreateAudioMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nf-audiomediatype-createaudiomediatype">CreateAudioMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/70d215e5-e30a-4fbd-b9c3-c988c6bbd941">GetFormatCount</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf3ee44b-79f3-441a-91f9-a340dc146d67">IAudioMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
  
 
  

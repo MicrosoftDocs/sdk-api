@@ -54,7 +54,7 @@ ms.custom: 19H1
 The 
 <b>RasGetCountryInfo</b> function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
 
-For more information about country/region-specific dialing information and <a href="https://msdn.microsoft.com/en-us/library/ms734273(v=VS.85).aspx">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
+For more information about country/region-specific dialing information and <a href="https://docs.microsoft.com/windows/desktop/Tapi/telephony-application-programming-interfaces">Telephony Application Programming Interface (TAPI)</a> country/region identifiers, see the TAPI portion of the Platform Software Development Kit (SDK).
 
 
 ## -parameters
@@ -65,12 +65,12 @@ For more information about country/region-specific dialing information and <a hr
 ### -param arg1 [in, out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/bab86167-b56c-4467-8950-d892161dfccb">RASCTRYINFO</a> structure that, on output, receives the country/region-specific dialing information followed by additional bytes for a country/region description string. 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376731(v=vs.85)">RASCTRYINFO</a> structure that, on output, receives the country/region-specific dialing information followed by additional bytes for a country/region description string. 
 
 
 
 
-On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://msdn.microsoft.com/bab86167-b56c-4467-8950-d892161dfccb">RASCTRYINFO</a>) to identify the version of the structure. Also, set the <b>dwCountryId</b> member to the TAPI country/region identifier of the country/region for which to get information.
+On input, set the <b>dwSize</b> member of the structure to sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376731(v=vs.85)">RASCTRYINFO</a>) to identify the version of the structure. Also, set the <b>dwCountryId</b> member to the TAPI country/region identifier of the country/region for which to get information.
 
 Allocate at least 256 bytes for the buffer.
 
@@ -91,7 +91,7 @@ On output, this variable receives the number of bytes required.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://msdn.microsoft.com/1fa41438-7c93-4e9c-851c-652fba23da4f">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -153,7 +153,7 @@ TAPI subsystem information was corrupted.
 
 
 To enumerate information for all countries/regions in the Windows Telephony list, set the <b>dwCountryId</b> member of the 
-<a href="https://msdn.microsoft.com/bab86167-b56c-4467-8950-d892161dfccb">RASCTRYINFO</a> structure to 1 in the initial 
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376731(v=vs.85)">RASCTRYINFO</a> structure to 1 in the initial 
 <b>RasGetCountryInfo</b> call. This causes the function to return information for the first country/region in the list. The value returned in the <b>dwNextCountryID</b> member is the country/region identifier of the next country/region in the list. Use this value in repeated calls to 
 <b>RasGetCountryInfo</b> until <b>dwNextCountryID</b> returns zero, indicating the last country/region in the list.
 
@@ -165,15 +165,15 @@ To enumerate information for all countries/regions in the Windows Telephony list
 
 
 
-<a href="https://msdn.microsoft.com/bab86167-b56c-4467-8950-d892161dfccb">RASCTRYINFO</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376731(v=vs.85)">RASCTRYINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5016fa0b-72eb-484e-b8d7-af9de2e25689">Remote Access Service (RAS) Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/5883a77a-6af8-47a8-bb28-6ef60a5aa2f1">Remote Access Service Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  

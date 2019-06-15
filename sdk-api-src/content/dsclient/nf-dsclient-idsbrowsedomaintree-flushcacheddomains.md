@@ -73,7 +73,7 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 This method frees the internal cached domain data. This method must  be called before calling 
-<a href="https://msdn.microsoft.com/1e070673-ce8d-4f68-a066-5baf38180745">IDsBrowseDomainTree::SetComputer</a> to retarget to a computer of a different domain.
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">IDsBrowseDomainTree::SetComputer</a> to retarget to a computer of a different domain.
 
 
 
@@ -83,11 +83,11 @@ This method frees the internal cached domain data. This method must  be called b
 
 
 
-<a href="https://msdn.microsoft.com/f50caa34-d29e-4ad1-98b0-ef5c1f5550bf">IDsBrowseDomainTree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e070673-ce8d-4f68-a066-5baf38180745">IDsBrowseDomainTree::SetComputer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">IDsBrowseDomainTree::SetComputer</a>
  
 
  

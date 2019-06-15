@@ -82,7 +82,7 @@ Reserved. Must be set to zero.
 
 Type: <b>LPSOFTDISTINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/e113967a-e52c-41d7-961a-2c305790543e">SOFTDISTINFO</a> structure that, when this method returns successfully, receives the update information. The <b>cbSize</b> member must be initialized to the <code>sizeof(SOFTDISTINFO)</code>.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/urlmon/ns-urlmon-_tagsoftdistinfo">SOFTDISTINFO</a> structure that, when this method returns successfully, receives the update information. The <b>cbSize</b> member must be initialized to the <code>sizeof(SOFTDISTINFO)</code>.
 
 
 ## -returns
@@ -152,7 +152,7 @@ An error occurred.
 
 
 
-The preferred way to handle updates is to author a Channel Definition Format (CDF) with an Open Software Description (OSD) vocabulary and make the shortcut OSD-aware. Refer to the <a href="https://msdn.microsoft.com/library/Aa768023(v=VS.85).aspx">Channel Definition Format</a> documentation for details.
+The preferred way to handle updates is to author a Channel Definition Format (CDF) with an Open Software Description (OSD) vocabulary and make the shortcut OSD-aware. Refer to the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768023(v=vs.85)">Channel Definition Format</a> documentation for details.
 
 The <b>SoftwareUpdateMessageBox</b> function is intended to be used in the case where Shell shortcut hooks do not work. One example is an application that was not installed on the start menu. If that application needs to do its own software update check, it should use this function.
 

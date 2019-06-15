@@ -86,7 +86,7 @@ Pointer to a null-terminated string that specifies the name of the data item ins
 
 
 
-<a href="https://msdn.microsoft.com/c9ede50e-85de-4a68-b539-54285c2599cb">PDH_COUNTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-_pdh_counter_info_a">PDH_COUNTER_INFO</a>
  
 
  

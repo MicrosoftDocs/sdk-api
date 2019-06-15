@@ -77,7 +77,7 @@ Maximum value for testing only.
 
 
 
-<a href="https://msdn.microsoft.com/12adf88e-05c7-4e08-bbf7-6da529387af1">IPSEC_TOKEN0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0_">IPSEC_TOKEN0</a>
  
 
  

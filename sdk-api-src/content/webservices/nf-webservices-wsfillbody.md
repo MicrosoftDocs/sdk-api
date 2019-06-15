@@ -55,11 +55,11 @@ Ensures that there are a sufficient
                 next XML construct to read.
             
             
-                <div class="alert"><b>Note</b>  This function is called before using <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a> or the XML Readerof the message to read the message body.  </div>
+                <div class="alert"><b>Note</b>  This function is called before using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a> or the XML Readerof the message to read the message body.  </div>
 <div> </div>
 
 
-This function is a shortcut for calling <a href="https://msdn.microsoft.com/1f4138a2-acc5-4f1d-8e35-544859d2fa49">WsFillReader</a> for
+This function is a shortcut for calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a> for
                 the  XML Reader being used to write the message.  Calling
                 <b>WsFillReader</b> directly is equivalent to calling this function.
             
@@ -72,7 +72,7 @@ This function is a shortcut for calling <a href="https://msdn.microsoft.com/1f41
 
 ### -param message [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure intended for "filling".
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure intended for "filling".
         
 
 
@@ -90,13 +90,13 @@ The minimum number of bytes that the message should have buffered.
 
 ### -param asyncContext [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
                  value indicates a request for synchronous operation.
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -190,12 +190,12 @@ This function may return other errors not listed above.
 
 
 This function is typically used when writing the message body with streamed mode set to  
-                <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an
                 XML Reader in streamed mode.
             
 
-This function is a "no-op" when writing the message body and <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or with an
-                XML Reader's mode set to <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a>.
+This function is a "no-op" when writing the message body and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or with an
+                XML Reader's mode set to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
             
 
 

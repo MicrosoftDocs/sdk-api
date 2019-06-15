@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>Record</b> method begins recording from the device's external record input at the current seek position. The <a href="https://msdn.microsoft.com/05fbaab8-e1fa-4960-9591-d22347bc04f2">Seek</a> method must be called first.
+The <b>Record</b> method begins recording from the device's external record input at the current seek position. The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">Seek</a> method must be called first.
 
 
 
@@ -63,7 +63,7 @@ The <b>Record</b> method begins recording from the device's external record inpu
 
 ### -param pFormat [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/2128f07a-4858-49b7-b031-16d4a84c9d32">_WAVEFORMATEX</a> structure containing the format in which the data must be recorded.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure containing the format in which the data must be recorded.
 
 
 ## -returns
@@ -133,9 +133,9 @@ An unspecified error occurred.
 
 This method is used to invoke both device recording (recording of an audio track to be stored on the media device) and streaming audio data from the media device to be recorded on the computer. The <b>Seek</b> method determines which form of recording occurs.
 
-Some devices do not support either type of recording. The <a href="https://msdn.microsoft.com/5d4e433a-fb2a-43c4-ab7f-fb7168636455">GetCapabilities</a> method must be called before you start recording. If an unsupported type of recording is attempted, this method returns WMDM_E_NOTSUPPORTED.
+Some devices do not support either type of recording. The <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities">GetCapabilities</a> method must be called before you start recording. If an unsupported type of recording is attempted, this method returns WMDM_E_NOTSUPPORTED.
 
-An argument for the <i>pFormat</i> parameter can be supplied to specify an audio data format for recording. To determine the formats supported by the device, see <a href="https://msdn.microsoft.com/ac50ac7d-bd55-4ece-8af8-5c8b2f7736e8">IMDSPDevice::GetFormatSupport</a>. If the <i>pFormat</i> parameter is set to <b>NULL</b>, the device records audio data in the default format.
+An argument for the <i>pFormat</i> parameter can be supplied to specify an audio data format for recording. To determine the formats supported by the device, see <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getformatsupport">IMDSPDevice::GetFormatSupport</a>. If the <i>pFormat</i> parameter is set to <b>NULL</b>, the device records audio data in the default format.
 
 When you use device recording, you must enumerate the storage medium contents to find the new object after the record operation is finished.
 
@@ -147,23 +147,23 @@ When you use device recording, you must enumerate the storage medium contents to
 
 
 
-<a href="https://msdn.microsoft.com/ac50ac7d-bd55-4ece-8af8-5c8b2f7736e8">IMDSPDevice::GetFormatSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-getformatsupport">IMDSPDevice::GetFormatSupport</a>
 
 
 
-<a href="https://msdn.microsoft.com/a196edef-f670-4c1f-92bd-172a75f3f420">IMDSPDeviceControl Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/5d4e433a-fb2a-43c4-ab7f-fb7168636455">IMDSPDeviceControl::GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-getcapabilities">IMDSPDeviceControl::GetCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/05fbaab8-e1fa-4960-9591-d22347bc04f2">IMDSPDeviceControl::Seek</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">IMDSPDeviceControl::Seek</a>
 
 
 
-<a href="https://msdn.microsoft.com/2128f07a-4858-49b7-b031-16d4a84c9d32">_WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
  
 
  

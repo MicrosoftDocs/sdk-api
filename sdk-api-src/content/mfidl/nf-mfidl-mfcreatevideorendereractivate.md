@@ -67,7 +67,7 @@ Handle to the window where the video will be displayed.
 
 ### -param ppActivate [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> interface. Use this interface to create the EVR. The caller must release the interface.
+Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. Use this interface to create the EVR. The caller must release the interface.
 
 
 ## -returns
@@ -102,9 +102,9 @@ The method succeeded.
 
 
 
-To create the EVR, call <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a> on the retrieved <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> pointer. (If you are using the Media Session, the Media Session automatically calls <b>ActivateObject</b> when you queue the topology.)
+To create the EVR, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> on the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer. (If you are using the Media Session, the Media Session automatically calls <b>ActivateObject</b> when you queue the topology.)
 
-To configure the EVR, set any of the following attributes on the <a href="https://msdn.microsoft.com/c0936e3c-3cd1-4c1e-a336-2dee7d943963">IMFActivate</a> object before calling <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">ActivateObject</a>.
+To configure the EVR, set any of the following attributes on the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> object before calling <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">ActivateObject</a>.
 
 <table>
 <tr>
@@ -113,44 +113,44 @@ To configure the EVR, set any of the following attributes on the <a href="https:
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/60484f87-7588-4b52-93aa-ef8fad66d971">MF_ACTIVATE_CUSTOM_VIDEO_MIXER_ACTIVATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-activate-custom-video-mixer-activate-attribute">MF_ACTIVATE_CUSTOM_VIDEO_MIXER_ACTIVATE</a>
 </td>
 <td>Activation object for a custom mixer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a3586e6f-a2a2-4932-8b43-a076f64c5958">MF_ACTIVATE_CUSTOM_VIDEO_MIXER_CLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-activate-custom-video-mixer-clsid-attribute">MF_ACTIVATE_CUSTOM_VIDEO_MIXER_CLSID</a>
 </td>
 <td>CLSID for a custom mixer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/00e65718-885f-4e1f-9b06-66c7f5786851">MF_ACTIVATE_CUSTOM_VIDEO_MIXER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-activate-custom-video-mixer-flags-attribute">MF_ACTIVATE_CUSTOM_VIDEO_MIXER_FLAGS</a>
 </td>
 <td>Flags for creating a custom mixer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/65d88832-0969-4d85-bee2-fd0aa68e9f3b">MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_ACTIVATE</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-activate-custom-video-presenter-activate-attribute">MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_ACTIVATE</a>
 </td>
 <td>Activation object for a custom presenter.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/f035ee56-7582-45d3-bafe-dd9c821b6326">MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_CLSID</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-activate-custom-video-presenter-clsid-attribute">MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_CLSID</a>
 </td>
 <td>CLSID for a custom presenter.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/40893e13-bf2e-4424-ae43-2b253fc0b622">MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-activate-custom-video-presenter-flags-attribute">MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_FLAGS</a>
 </td>
 <td>Flags for creating a custom presenter.</td>
 </tr>
 </table>
  
 
-When <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">IMFActivate::ActivateObject</a> is called, the activation objects sets the video window on the EVR by calling <a href="https://msdn.microsoft.com/5dc789b7-e206-4f1d-a0b2-12cb98ce4184">IMFVideoDisplayControl::SetVideoPosition</a>. Passing <b>NULL</b> for the <i>hwndVideo</i> parameter is not an error, but no video will render unless the EVR has a valid video window.
+When <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> is called, the activation objects sets the video window on the EVR by calling <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setvideoposition">IMFVideoDisplayControl::SetVideoPosition</a>. Passing <b>NULL</b> for the <i>hwndVideo</i> parameter is not an error, but no video will render unless the EVR has a valid video window.
 
 
 
@@ -160,15 +160,15 @@ When <a href="https://msdn.microsoft.com/120b8070-6732-450d-8334-b3910f7bb4d2">I
 
 
 
-<a href="https://msdn.microsoft.com/767d5f1c-2b8d-43b6-916b-035129e93204">Activation Objects</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>
 
 
 
-<a href="https://msdn.microsoft.com/1c985558-d25d-4f51-978a-58c05943dab9">Enhanced Video Renderer</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/3018ffa7-e709-45b0-8b2b-7640d5633378">Media Foundation Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
  
 
  

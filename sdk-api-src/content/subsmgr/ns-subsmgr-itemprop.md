@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[<b>ITEMPROP</b> and <a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a> are supported only on Windows XP and Windows Server 2003, and should no longer be used.]
+<p class="CCE_Message">[<b>ITEMPROP</b> and <a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> are supported only on Windows XP and Windows Server 2003, and should no longer be used.]
 
-Stores information about properties in the <a href="https://msdn.microsoft.com/c2094bbe-a4ca-4f30-b16e-14dced2912bc">Windows Property System</a>, and is used by the <a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a> interface.
+Stores information about properties in the <a href="https://docs.microsoft.com/windows/desktop/properties/windows-properties-system">Windows Property System</a>, and is used by the <a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> interface.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Stores information about properties in the <a href="https://msdn.microsoft.com/c
 
 #### - bstrIndexProp
 
-The name of a property in the <a href="https://msdn.microsoft.com/c2094bbe-a4ca-4f30-b16e-14dced2912bc">Windows Property System</a>. For example, the <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> property.
+The name of a property in the <a href="https://docs.microsoft.com/windows/desktop/properties/windows-properties-system">Windows Property System</a>. For example, the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemurl">System.ItemUrl</a> property.
 
 
 #### - bstrName
@@ -98,14 +98,14 @@ For internal use only.
 
 #### - vt
 
-The type of the property value. For example, the type of the string property <a href="https://msdn.microsoft.com/d592f12b-f8c2-406f-a031-eeb8212e64f7">System.ItemUrl</a> is <b>VT_BSTR</b>. 
+The type of the property value. For example, the type of the string property <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-itemurl">System.ItemUrl</a> is <b>VT_BSTR</b>. 
 
 
 ## -remarks
 
 
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a> interface and the following APIs: the <a href="https://msdn.microsoft.com/en-us/library/Dd756719(v=VS.85).aspx">ISearchProtocolUI</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd561904(v=VS.85).aspx">IItemPreviewerExt</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd756722(v=VS.85).aspx">ISearchItem</a> interfaces, the <a href="https://msdn.microsoft.com/en-us/library/Dd561894(v=VS.85).aspx">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="https://msdn.microsoft.com/en-us/library/Dd561982(v=VS.85).aspx">LINKTYPE</a> enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the <a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a> interface and the following APIs: the <a href="https://docs.microsoft.com/windows/desktop/search/-search-isearchprotocolui">ISearchProtocolUI</a>, <a href="https://docs.microsoft.com/windows/desktop/search/-search-iitempreviewerext">IItemPreviewerExt</a> and <a href="https://docs.microsoft.com/windows/desktop/search/-search-isearchitem">ISearchItem</a> interfaces, the <a href="https://docs.microsoft.com/windows/desktop/search/-search-linkinfo">LINKINFO</a> and <b>ITEMPROP</b> structures, and the <a href="https://docs.microsoft.com/windows/desktop/search/-search-linktype">LINKTYPE</a> enumeration.
 
 
 
@@ -115,7 +115,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-<a href="https://msdn.microsoft.com/0fef34c5-f20f-475a-9223-5cb73079c842">IItemPropertyBag</a>
+<a href="https://docs.microsoft.com/windows/desktop/search/iitempropertybag">IItemPropertyBag</a>
  
 
  

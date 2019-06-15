@@ -59,7 +59,7 @@ Sets the source rectangle in the image brush.
 
 ### -param sourceRectangle [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The source rectangle that defines the portion of the image to tile.
 
@@ -96,7 +96,7 @@ The source rectangle will be expanded differently depending on whether the input
 
 
 
-<a href="https://msdn.microsoft.com/c5088ce2-5744-4061-957b-25831478a714">ID2D1ImageBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1imagebrush">ID2D1ImageBrush</a>
  
 
  

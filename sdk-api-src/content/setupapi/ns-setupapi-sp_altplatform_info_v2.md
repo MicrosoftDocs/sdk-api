@@ -50,11 +50,11 @@ ms.custom: 19H1
 
 
 The <b>SP_ALTPLATFORM_INFO_V2</b> structure is used to pass information for an alternate platform to 
-<a href="https://msdn.microsoft.com/bc7c08ff-3d6b-4d45-b634-1358302f6fc6">SetupQueryInfOriginalFileInformation</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinforiginalfileinformationa">SetupQueryInfOriginalFileInformation</a>.
 
 Setup  uses the <b>SP_ALTPLATFORM_INFO_V2</b> structure if USE_SP_ALTPLATFORM_INFO_V1 is 0 or undefined and _WIN32_WINNT is set to 0x501. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are only available with <b>SP_ALTPLATFORM_INFO_V2</b> and for use with Windows Server 2008, Windows Vista, Windows Server 2003,  or Windows XP.
 
-Setup  uses the <a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95ac0fcfd7">SP_ALTPLATFORM_INFO_V1</a> structure if USE_SP_ALTPLATFORM_INFO_V1 is set to 1 or if _WIN32_WINNT is less than or equal to 0x500. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are not available with <b>SP_ALTPLATFORM_INFO_V1</b>. 
+Setup  uses the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a> structure if USE_SP_ALTPLATFORM_INFO_V1 is set to 1 or if _WIN32_WINNT is less than or equal to 0x500. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are not available with <b>SP_ALTPLATFORM_INFO_V1</b>. 
 
 
 ## -struct-fields
@@ -147,15 +147,15 @@ Minor version of the oldest previous operating system for which this package's d
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95ac0fcfd7">SP_ALTPLATFORM_INFO_V1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_altplatform_info_v1">SP_ALTPLATFORM_INFO_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/837F1864-CE2F-4A9A-A7D9-18EB8622541E">Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
  
 
  

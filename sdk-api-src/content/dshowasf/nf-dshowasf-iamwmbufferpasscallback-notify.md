@@ -62,7 +62,7 @@ The <b>Notify</b> method is called by the pin for each buffer that is delivered 
 
 ### -param pNSSBuffer3 [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3</a> interface exposed on the media sample.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a> interface exposed on the media sample.
 
 
 ### -param pPin [in]
@@ -93,7 +93,7 @@ No particular return value is specified. The calling pin ignores the <b>HRESULT<
 
 
 
-This method enables an application to examine and act on information in the media buffer before the buffer contents are processed. The application is responsible for knowing the media type on the pin. This information can be obtained by first getting the stream information from the profile and then calling <a href="https://msdn.microsoft.com/f645a742-e6dc-4041-8a56-3bbb5188a9a9">IConfigAsfWriter2::StreamNumFromPin</a> method to determine which pin is associated with each stream.
+This method enables an application to examine and act on information in the media buffer before the buffer contents are processed. The application is responsible for knowing the media type on the pin. This information can be obtained by first getting the stream information from the profile and then calling <a href="https://docs.microsoft.com/windows/desktop/wmformat/iconfigasfwriter2-streamnumfrompin">IConfigAsfWriter2::StreamNumFromPin</a> method to determine which pin is associated with each stream.
 
 
 
@@ -103,15 +103,15 @@ This method enables an application to examine and act on information in the medi
 
 
 
-<a href="https://msdn.microsoft.com/66f483b5-3886-48b4-bc43-7c3517abd20d">DirectShow QASF Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/wmformat/directshow-qasf-reference">DirectShow QASF Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/5bf0ae2e-504b-471b-bfc9-aa48f534e03f">IAMWMBufferPassCallback Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd798277(v=vs.85)">IAMWMBufferPassCallback Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd743245(v=VS.85).aspx">INSSBuffer3 Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
  
 
  

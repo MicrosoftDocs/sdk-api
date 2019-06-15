@@ -87,7 +87,7 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 
-After this method returns successfully, the caller is responsible for calling <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> (see the <b>pUnk</b> member of <a href="https://msdn.microsoft.com/23312f89-2985-402d-aae4-cd7388137153">CONNECTDATA</a>) for each element in the array. If <i>cConnections</i> is greater than one, the caller must also pass a non-NULL pointer to <i>lpcFetched</i> to get the number of pointers it has to be released.
+After this method returns successfully, the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> (see the <b>pUnk</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagconnectdata">CONNECTDATA</a>) for each element in the array. If <i>cConnections</i> is greater than one, the caller must also pass a non-NULL pointer to <i>lpcFetched</i> to get the number of pointers it has to be released.
 
 E_NOTIMPL is not allowed as a return value. If an error value is returned, no entries in the array are valid on exit, and therefore no release is required.
 
@@ -99,11 +99,11 @@ E_NOTIMPL is not allowed as a return value. If an error value is returned, no en
 
 
 
-<a href="https://msdn.microsoft.com/23312f89-2985-402d-aae4-cd7388137153">CONNECTDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-tagconnectdata">CONNECTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/464966c1-e4e9-4b58-9e41-48de408f572f">IEnumConnections</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
  
 
  

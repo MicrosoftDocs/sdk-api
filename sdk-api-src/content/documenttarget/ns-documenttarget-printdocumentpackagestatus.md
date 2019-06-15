@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Defines a payload to be used by the <a href="https://msdn.microsoft.com/A672E554-B117-475C-A01E-9FD4EA31621E">PackageStatusUpdated</a> method. This structure is a generic version of XPS_JOB_STATUS.
+Defines a payload to be used by the <a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a> method. This structure is a generic version of XPS_JOB_STATUS.
 
 
 ## -struct-fields
@@ -92,7 +92,7 @@ The error state of the job.
 
 
 
-<a href="https://msdn.microsoft.com/A672E554-B117-475C-A01E-9FD4EA31621E">PackageStatusUpdated</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a>
  
 
  

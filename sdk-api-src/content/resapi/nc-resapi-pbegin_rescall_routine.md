@@ -168,11 +168,11 @@ The requested control code is not supported.
 
 
 
-<a href="https://msdn.microsoft.com/71ec60fd-67ec-4932-983b-f78c6b552954">Resource Control Codes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-control-codes">Resource Control Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/933d7b97-b5be-4c84-a983-41d1fd935c19">Resource DLL Entry-Point Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
  
 
  

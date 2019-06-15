@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OCSPServiceProperties</b> property gets  an instance of an <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">OCSPPropertyCollection</a> object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service. After instantiating an <a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">OCSPAdmin</a> object, a script or administration tool can use the retrieved <a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a> interface  to expose responder-service attributes.
+The <b>OCSPServiceProperties</b> property gets  an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">OCSPPropertyCollection</a> object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service. After instantiating an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">OCSPAdmin</a> object, a script or administration tool can use the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface  to expose responder-service attributes.
 
 This property is read-only.
 
@@ -62,7 +62,7 @@ This property is read-only.
 
 
 
-The following table lists the possible <a href="https://msdn.microsoft.com/33980a7c-0ae5-470b-a55a-f3e19c8846a6">Name</a>-<a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> pairs for OCSP service properties.
+The following table lists the possible <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_name">Name</a>-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> pairs for OCSP service properties.
 
 <table>
 <tr>
@@ -72,7 +72,7 @@ The following table lists the possible <a href="https://msdn.microsoft.com/33980
 <tr>
 <td><b>LogLevel</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>LogLevel</b> must be one of the following constants.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>LogLevel</b> must be one of the following constants.
 
 
 
@@ -113,7 +113,7 @@ The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Va
 <tr>
 <td><b>AuditFilter</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
 
 
 
@@ -144,21 +144,21 @@ The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Va
 <tr>
 <td><b>ArrayController</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>ArrayMembers</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>EnrollPollInterval</b></td>
 <td>
-The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
+The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ The <a href="https://msdn.microsoft.com/6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e">Va
 
 
 
-<a href="https://msdn.microsoft.com/cf76e934-07a2-46de-b2cf-7f6d3e274d71">IOCSPAdmin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
  
 
  

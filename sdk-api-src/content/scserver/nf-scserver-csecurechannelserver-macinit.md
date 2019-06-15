@@ -77,7 +77,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://msdn.microsoft.com/37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -143,19 +143,19 @@ if( dwRead )
 
 
 
-<a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer Class</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/047340a5-5382-443e-a6d5-ecbcdfe9a210">CSecureChannelServer::MACFinal</a>
+<a href="/previous-versions/ms868513(v=msdn.10)">CSecureChannelServer::MACFinal</a>
 
 
 
-<a href="https://msdn.microsoft.com/f8b5548d-ffd5-4dc3-8d08-61a65841a997">CSecureChannelServer::MACUpdate</a>
+<a href="/previous-versions/ms868515(v=msdn.10)">CSecureChannelServer::MACUpdate</a>
 
 
 
-<a href="https://msdn.microsoft.com/6cb49f6b-e303-4840-9343-9891e75e07a4">Message Authentication</a>
+<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
  
 
  

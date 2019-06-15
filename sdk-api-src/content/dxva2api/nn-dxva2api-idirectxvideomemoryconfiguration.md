@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 Sets the type of video memory for uncompressed video surfaces. This interface is used by video decoders and transforms.
 
-The DirectShow enhanced video renderer (EVR) filter exposes this interface as a service on the filter's input pins. To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/4287dd1f-1718-4231-bc62-b58e0e61d688">IMFGetService::GetService</a> with the service identifier MR_VIDEO_ACCELERATION_SERVICE.
+The DirectShow enhanced video renderer (EVR) filter exposes this interface as a service on the filter's input pins. To obtain a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MR_VIDEO_ACCELERATION_SERVICE.
 
 A video decoder can use this interface to enumerate the EVR filter's preferred surface types and then select the surface type. The decoder should then create surfaces of that type to hold the results of the decoding operation.
 
@@ -60,7 +60,7 @@ This interface does not define a way to clear the surface type. In the case of D
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoMemoryConfiguration</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirectXVideoMemoryConfiguration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectXVideoMemoryConfiguration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectXVideoMemoryConfiguration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDirectXVideoMemoryConfiguration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63311052-f01b-4d77-afac-1cc89166f754">GetAvailableSurfaceTypeByIndex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideomemoryconfiguration-getavailablesurfacetypebyindex">GetAvailableSurfaceTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a supported video surface type.
@@ -84,7 +84,7 @@ Retrieves a supported video surface type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06fe0072-1fe5-491f-b0b7-fc85ca731fe7">SetSurfaceType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideomemoryconfiguration-setsurfacetype">SetSurfaceType</a>
 </td>
 <td align="left" width="63%">
 Sets the video surface type.
@@ -99,11 +99,11 @@ Sets the video surface type.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/40deaddb-bb17-4a34-8294-5c7dc8a8a457">Supporting DXVA 2.0 in DirectShow</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>
  
 
  

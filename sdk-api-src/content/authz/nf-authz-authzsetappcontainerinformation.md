@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>AuthzSetAppContainerInformation</b> function sets the  app container and capability information in a current Authz context. If the passed in context already has an app container <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) set or if the passed in context is not a valid app container SID, this function fails.
+The <b>AuthzSetAppContainerInformation</b> function sets the  app container and capability information in a current Authz context. If the passed in context already has an app container <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) set or if the passed in context is not a valid app container SID, this function fails.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ The capability SIDs to be added to the context. This value must be <b>NULL</b> w
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

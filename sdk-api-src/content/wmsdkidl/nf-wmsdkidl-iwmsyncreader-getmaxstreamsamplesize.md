@@ -131,7 +131,7 @@ No file is open in the synchronous reader.
 
 
 
-This method retrieves the maximum sample size for an individual stream. The stream may be one of several in an output. If you are using output numbers, you should use <a href="https://msdn.microsoft.com/en-us/library/Dd798585(v=VS.85).aspx">IWMSyncReader::GetMaxOutputSampleSize</a> to retrieve the maximum sample size for the entire output.
+This method retrieves the maximum sample size for an individual stream. The stream may be one of several in an output. If you are using output numbers, you should use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getmaxoutputsamplesize">IWMSyncReader::GetMaxOutputSampleSize</a> to retrieve the maximum sample size for the entire output.
 
 
 
@@ -141,7 +141,7 @@ This method retrieves the maximum sample size for an individual stream. The stre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd798576(v=VS.85).aspx">IWMSyncReader Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
  
 
  

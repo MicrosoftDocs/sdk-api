@@ -154,7 +154,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -179,11 +179,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/e0a2d4b9-853c-4578-8a15-e0be7bfc0b9b">RpcNsProfileEltAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltadda">RpcNsProfileEltAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/303df924-73ad-4e2f-aa30-e600bb5594c2">RpcNsProfileEltRemove</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltremovea">RpcNsProfileEltRemove</a>
  
 
  

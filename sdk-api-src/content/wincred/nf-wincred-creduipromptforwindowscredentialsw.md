@@ -64,13 +64,13 @@ The <b>CredUIPromptForWindowsCredentials</b> function creates and displays a con
 
 ### -param pUiInfo [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/b21f8a42-3707-409c-b62a-9bbb29137b9b">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
    
 
 
-If the <b>hwndParent</b> member of the <a href="https://msdn.microsoft.com/b21f8a42-3707-409c-b62a-9bbb29137b9b">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
+If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
 
-If the <b>hwndParent</b> member of the <a href="https://msdn.microsoft.com/b21f8a42-3707-409c-b62a-9bbb29137b9b">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
+If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-_credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
 
 This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure. 
 
@@ -86,7 +86,7 @@ On input, the value of this parameter is used to specify the authentication pack
 
 
 
-To get the appropriate value to use for this parameter on input, call the <a href="https://msdn.microsoft.com/c6504aea-fdba-44ac-b2dc-070707bb1183">LsaLookupAuthenticationPackage</a> function and use the value of the <i>AuthenticationPackage</i> parameter  of that function.
+To get the appropriate value to use for this parameter on input, call the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a> function and use the value of the <i>AuthenticationPackage</i> parameter  of that function.
 
 On output, this parameter specifies the authentication package for which the credentials in the <i>ppvOutAuthBuffer</i> buffer are serialized.
 
@@ -103,9 +103,9 @@ The size, in bytes, of the <i>pvInAuthBuffer</i> buffer.
 
 ### -param ppvOutAuthBuffer [out]
 
-The address of a pointer that, on output, specifies the credential BLOB. For Kerberos, NTLM, or Negotiate credentials, call the <a href="https://msdn.microsoft.com/c87f0b11-59c2-4450-ad63-398cdb15016f">CredUnPackAuthenticationBuffer</a> function to convert this BLOB to string representations of the credentials.  
+The address of a pointer that, on output, specifies the credential BLOB. For Kerberos, NTLM, or Negotiate credentials, call the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunpackauthenticationbuffera">CredUnPackAuthenticationBuffer</a> function to convert this BLOB to string representations of the credentials.  
 
-When you have finished using the credential BLOB, clear it from memory by calling the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function, and free it by calling the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
+When you have finished using the credential BLOB, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function, and free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 
 ### -param pulOutAuthBufferSize [out]
@@ -223,7 +223,7 @@ The credential dialog box should be displayed on the secure desktop. This value 
 </dl>
 </td>
 <td width="60%">
-The credential dialog box is invoked by the <a href="https://msdn.microsoft.com/2af2ac00-0e91-4384-9ffa-3e100df218c1">SspiPromptForCredentials</a> function, and the client is prompted before a prior handshake. If SSPIPFC_NO_CHECKBOX is passed in the <i>pvInAuthBuffer</i> parameter, then the credential provider should not display the check box.
+The credential dialog box is invoked by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a> function, and the client is prompted before a prior handshake. If SSPIPFC_NO_CHECKBOX is passed in the <i>pvInAuthBuffer</i> parameter, then the credential provider should not display the check box.
 
 <b>Windows Vista:  </b>This value is supported beginning with Windows Vista with SP1.
 
@@ -259,7 +259,7 @@ If the function succeeds, the function returns <b>ERROR_SUCCESS</b>. If the func
 
 This function does not save credentials.
 
-Applications that use <a href="https://msdn.microsoft.com/91d2389b-1238-49d3-9fef-f1017a8072df">SSPI</a> to authenticate users should not call this function. Instead, call <a href="https://msdn.microsoft.com/2af2ac00-0e91-4384-9ffa-3e100df218c1">SspiPromptForCredentials</a>.
+Applications that use <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">SSPI</a> to authenticate users should not call this function. Instead, call <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a>.
 
 
 

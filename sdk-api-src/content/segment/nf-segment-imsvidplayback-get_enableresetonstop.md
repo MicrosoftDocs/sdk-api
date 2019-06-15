@@ -123,7 +123,7 @@ The method succeeded.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd694597(v=VS.85).aspx">IMSVidPlayback::put_EnableResetOnStop</a>.
+For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidplayback-put_enableresetonstop">IMSVidPlayback::put_EnableResetOnStop</a>.
 
 
 
@@ -133,7 +133,7 @@ For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dd69
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694586(v=VS.85).aspx">IMSVidPlayback Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
  
 
  

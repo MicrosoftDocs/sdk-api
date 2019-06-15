@@ -92,7 +92,7 @@ Same as DS_CANONICAL_NAME except that the rightmost forward slash (/) is replace
 </dl>
 </td>
 <td width="60%">
-A "friendly" display name. The display name is not necessarily the defining <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">relative distinguished name</a> (RDN).
+A "friendly" display name. The display name is not necessarily the defining <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">relative distinguished name</a> (RDN).
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ Windows account name (for example, Example\Name). The domain-only version includ
 </dl>
 </td>
 <td width="60%">
-Generalized <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">service principal name</a> (for example, www/www.microsoft.com@microsoft.com).
+Generalized <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (for example, www/www.microsoft.com@microsoft.com).
 
 </td>
 </tr>
@@ -132,7 +132,7 @@ Generalized <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security identifier</a> (SID) for the object. This can be either the current SID or a SID from the object's SID history. The SID string can use either the standard string representation of a SID, or one of the string constants defined in Sddl.h. For information about converting a binary SID into a SID string, see <a href="https://msdn.microsoft.com/a531532f-afba-46a1-8576-90d4ff881b94">SID Strings</a>. This value is not valid for the <i>formatDesired</i> parameter.
+A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) for the object. This can be either the current SID or a SID from the object's SID history. The SID string can use either the standard string representation of a SID, or one of the string constants defined in Sddl.h. For information about converting a binary SID into a SID string, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-strings">SID Strings</a>. This value is not valid for the <i>formatDesired</i> parameter.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ A <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">secu
 </td>
 <td width="60%">
 GUID string that the 
-<a href="https://msdn.microsoft.com/en-us/library/ms687262(v=VS.85).aspx">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
 
 </td>
 </tr>
@@ -179,12 +179,12 @@ Specifies whether to perform the translation at a global catalog server.
 ### -param NameInput [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that contains the name to convert.
+<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that contains the name to convert.
 
 
 ### -param Prefix [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that specifies a prefix for the name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that specifies a prefix for the name.
 
 
 ### -param RequestedFormat [in]
@@ -194,12 +194,12 @@ The requested format of the cracked name. For a list of valid values, see the <i
 
 ### -param CrackedName [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that receives the reformatted name.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that receives the reformatted name.
 
 
 ### -param DnsDomainName [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNICODE_STRING</a> structure that receives the name of the domain that owns the name specified by the <i>NameInput</i> parameter.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-_unicode_string">UNICODE_STRING</a> structure that receives the name of the domain that owns the name specified by the <i>NameInput</i> parameter.
 
 
 ### -param SubStatus [out]
@@ -223,8 +223,8 @@ If the function fails, it returns STATUS_UNSUCCESSFUL. For more information, see
 
 
 A pointer to the <b>CrackSingleName</b> function is available in the 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 
 
@@ -234,11 +234,11 @@ A pointer to the <b>CrackSingleName</b> function is available in the
 
 
 
-<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-_lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
  
 
  

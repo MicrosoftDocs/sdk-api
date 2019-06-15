@@ -69,7 +69,7 @@ The <b>IWindowsParentalControls</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2604a53e-2a95-4edd-9fb0-8b0f7298dcc4">GetGamesSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrols-getgamessettings">GetGamesSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for games restrictions settings for the specified user.
@@ -78,7 +78,7 @@ Retrieves a pointer to an interface for games restrictions settings for the spec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92c7a138-10b8-4bdf-afea-985e203e04e4">GetUserSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getusersettings">GetUserSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for general settings for the specified user.
@@ -87,7 +87,7 @@ Retrieves a pointer to an interface for general settings for the specified user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08217ad2-3b1e-4733-8ca2-4463ffe96516">GetVisibility</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getvisibility">GetVisibility</a>
 </td>
 <td align="left" width="63%">
 Indicates the visibility of the Parental Controls user interface.
@@ -96,7 +96,7 @@ Indicates the visibility of the Parental Controls user interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5073f335-fe55-43db-9186-aaa675384ea3">GetWebFilterInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebfilterinfo">GetWebFilterInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name and identifier of the currently active Web Content Filter.
@@ -105,7 +105,7 @@ Retrieves the name and identifier of the currently active Web Content Filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed01e945-06e7-4d3d-8a23-066ef6e0b13c">GetWebSettings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nf-wpcapi-iwindowsparentalcontrolscore-getwebsettings">GetWebSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to an interface for web restrictions settings for the specified user.

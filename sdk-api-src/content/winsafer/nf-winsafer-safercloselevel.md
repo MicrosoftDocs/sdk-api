@@ -51,8 +51,8 @@ ms.custom: 19H1
 
 
 The <b>SaferCloseLevel</b> function closes a SAFER_LEVEL_HANDLE that was opened by using the  
-<a href="https://msdn.microsoft.com/f82c4f40-5c37-4f97-95a2-4b2cc26bf41e">SaferIdentifyLevel</a> function or 
-the <a href="https://msdn.microsoft.com/7deb1365-5355-4983-900b-8e4fed009403">SaferCreateLevel</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-saferidentifylevel">SaferIdentifyLevel</a> function or 
+the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safercreatelevel">SaferCreateLevel</a> function.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ The SAFER_LEVEL_HANDLE to be closed.
 
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 

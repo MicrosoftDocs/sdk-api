@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>CorrelationId</b> structure is used to pair <a href="https://msdn.microsoft.com/6db0303d-ab33-4fb9-90a2-b909b2781ba5">SoHRequests</a> with <b>SoHResponses</b> and uniquely describes an SoH exchange.
+<div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>CorrelationId</b> structure is used to pair <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRequests</a> with <b>SoHResponses</b> and uniquely describes an SoH exchange.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ A globally unique identifier (GUID) that identifies a SoH  exchange.
 
 ### -field timeStamp
 
-A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> value that contains the system time at which the <a href="https://msdn.microsoft.com/6db0303d-ab33-4fb9-90a2-b909b2781ba5">SoHRequest</a> was generated. 
+A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> value that contains the system time at which the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRequest</a> was generated. 
 
 
 ## -remarks
@@ -72,9 +72,9 @@ A  unique <a href="http://go.microsoft.com/fwlink/p/?linkid=90006">FILETIME</a> 
 
 
 The
-   string version, <a href="https://msdn.microsoft.com/54f2866b-4333-4fc8-bb25-b7d4ae72b7dc">StringCorrelationId</a>, is used primarily for logging purposes,
+   string version, <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">StringCorrelationId</a>, is used primarily for logging purposes,
    whereas this byte version is used by SHA/SHVs to
-   match <a href="https://msdn.microsoft.com/6db0303d-ab33-4fb9-90a2-b909b2781ba5">SoHRequests</a> to <b>SoHResponses</b>.
+   match <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-tagsoh">SoHRequests</a> to <b>SoHResponses</b>.
 
 
 
@@ -84,15 +84,15 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/54f2866b-4333-4fc8-bb25-b7d4ae72b7dc">NAP Datatypes</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-datatypes">NAP Datatypes</a>
 
 
 
-<a href="https://msdn.microsoft.com/e391be3c-95ab-4c80-a5d8-8a8fef28e56b">NAP Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://msdn.microsoft.com/68048587-0f7e-48d4-9326-768a977ea3ee">NAP Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
  
 
  

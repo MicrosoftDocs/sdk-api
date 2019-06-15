@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/25B34A31-8533-4339-BBF7-2D7E5488E301">Opacity metadata effect</a>.
+Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/opacity-metadata-effect">Opacity metadata effect</a>.
         
 
 
@@ -63,7 +63,7 @@ Identifiers for properties of the <a href="https://msdn.microsoft.com/25B34A31-8
 The portion of the source image that is opaque. The default is the entire input image.
           
 
-The type is <a href="https://msdn.microsoft.com/6D931285-0F2B-44BE-8A1A-2348AC49A8DF">D2D1_VECTOR_4F</a>.
+The type is <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a>.
 
 The default is {-FLT_MAX, -FLT_MAX, FLT_MAX, FLT_MAX}.
 

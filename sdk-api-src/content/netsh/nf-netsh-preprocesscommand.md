@@ -66,7 +66,7 @@ Reserved. Set to null.
 ### -param ppwcArguments [in, out]
 
 The arguments passed to 
-<a href="https://msdn.microsoft.com/5058e202-9ad4-4789-97db-3c13b4a1c337">FN_HANDLE_CMD</a> (the command function) as its <i>ppwcArguments</i> parameter.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a> (the command function) as its <i>ppwcArguments</i> parameter.
 
 
 ### -param dwCurrentIndex [in]
@@ -206,11 +206,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/5058e202-9ad4-4789-97db-3c13b4a1c337">FN_HANDLE_CMD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e87447e-5374-4411-96ab-3ad400948aa5">TAG_TYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/ns-netsh-_tag_type">TAG_TYPE</a>
  
 
  

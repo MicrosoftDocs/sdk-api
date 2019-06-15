@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-This structure contains information from a .pif file. It is used by <a href="https://msdn.microsoft.com/62933ddf-9b0d-427a-8b5f-a0117a3b4885">PifMgr_GetProperties</a>.
+This structure contains information from a .pif file. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>.
 
 
 ## -struct-fields

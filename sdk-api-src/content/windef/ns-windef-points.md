@@ -71,7 +71,7 @@ Specifies the <i>x</i>-coordinate of the point.
 
 
 
-The POINTS structure is similar to the <a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a> and <a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a> structures. The difference is that the members of the POINTS structure are of type SHORT, while those of the other two structures are of type LONG.
+The POINTS structure is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structures. The difference is that the members of the POINTS structure are of type SHORT, while those of the other two structures are of type LONG.
 
 
 
@@ -81,11 +81,11 @@ The POINTS structure is similar to the <a href="https://msdn.microsoft.com/6fb3b
 
 
 
-<a href="https://msdn.microsoft.com/6fb3bd3f-f810-4043-812b-94495f38a6aa">POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/68cd23d7-7898-4132-abfe-4dda527889b9">POINTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a>
  
 
  

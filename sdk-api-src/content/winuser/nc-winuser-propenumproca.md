@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-An application-defined callback function used with the <a href="https://msdn.microsoft.com/en-us/library/ms633562(v=VS.85).aspx">EnumProps</a> function. The function receives property entries from a window's property list. The <b>PROPENUMPROC</b> type defines a pointer to this callback function. <i>PropEnumProc</i> is a placeholder for the application-defined function name. 
+An application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumpropsa">EnumProps</a> function. The function receives property entries from a window's property list. The <b>PROPENUMPROC</b> type defines a pointer to this callback function. <i>PropEnumProc</i> is a placeholder for the application-defined function name. 
 
 
 ## -parameters
@@ -92,7 +92,7 @@ A handle to the window whose property list is being enumerated.
 
 Type: <b>LPCTSTR</b>
 
-The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a> function. 
+The string component of a property list entry. This is the string that was specified, along with a data handle, when the property was added to the window's property list via a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a> function. 
 
 
 ## -returns
@@ -116,7 +116,7 @@ Return <b>FALSE</b> to stop the property list enumeration.
 The following restrictions apply to this callback function: 
 
 <ul>
-<li>The callback function can call the <a href="https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx">RemoveProp</a> function. However, <b>RemoveProp</b> can remove only the property passed to the callback function through the callback function's parameters. </li>
+<li>The callback function can call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-removepropa">RemoveProp</a> function. However, <b>RemoveProp</b> can remove only the property passed to the callback function through the callback function's parameters. </li>
 <li>The callback function should not attempt to add properties. </li>
 </ul>
 
@@ -131,7 +131,7 @@ The following restrictions apply to this callback function:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633562(v=VS.85).aspx">EnumProps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumpropsa">EnumProps</a>
 
 
 
@@ -139,15 +139,15 @@ The following restrictions apply to this callback function:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx">RemoveProp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-removepropa">RemoveProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633568(v=VS.85).aspx">SetProp</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setpropa">SetProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-properties">Window Properties</a>
  
 
  

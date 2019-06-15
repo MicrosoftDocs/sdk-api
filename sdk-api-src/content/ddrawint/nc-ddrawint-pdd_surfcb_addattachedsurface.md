@@ -68,7 +68,7 @@ The <b>DdAddAttachedSurface</b> callback function attaches a surface to another 
 
 #### - lpAddAttachedSurface
 
-Points to a <a href="https://msdn.microsoft.com/d00120d9-5825-4998-a1ef-ccc5654b91b9">DD_ADDATTACHEDSURFACEDATA</a> structure that contains information required for the driver to perform the attachment.
+Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a> structure that contains information required for the driver to perform the attachment.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The driver should update any internal surface state it keeps to reflect the atta
 
 
 
-<a href="https://msdn.microsoft.com/d00120d9-5825-4998-a1ef-ccc5654b91b9">DD_ADDATTACHEDSURFACEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_addattachedsurfacedata">DD_ADDATTACHEDSURFACEDATA</a>
  
 
  

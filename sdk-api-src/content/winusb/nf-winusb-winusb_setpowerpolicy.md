@@ -59,7 +59,7 @@ The <b>WinUsb_SetPowerPolicy</b> function sets the power policy for a device.
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to the first (default) interface on the device, which is returned by <a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>. 
+An opaque handle to the first (default) interface on the device, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. 
 
 
 ### -param PolicyType [in]
@@ -208,7 +208,7 @@ The client can indicate that an interface is idle by calling <b>WinUsb_SetPowerP
 
 
 
-<a href="https://msdn.microsoft.com/8234d0b4-2c73-45fa-a8bf-566c64cc2858">WinUSB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
@@ -216,11 +216,11 @@ The client can indicate that an interface is idle by calling <b>WinUsb_SetPowerP
 
 
 
-<a href="https://msdn.microsoft.com/4925064b-2676-436d-b455-a68f622c543e">WinUSB Power Management</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Power Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/258cf508-036a-4ade-95b2-4b36d1149ffd">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

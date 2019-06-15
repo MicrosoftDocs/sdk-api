@@ -60,16 +60,16 @@ Retrieves a description of the vertex buffer resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172629(v=VS.85).aspx">D3DVERTEXBUFFER_DESC</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexbuffer-desc">D3DVERTEXBUFFER_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172629(v=VS.85).aspx">D3DVERTEXBUFFER_DESC</a> structure, describing the returned vertex buffer. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexbuffer-desc">D3DVERTEXBUFFER_DESC</a> structure, describing the returned vertex buffer. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh437604(v=vs.85)">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is returned if the argument is invalid.
 
@@ -81,11 +81,11 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205915(v=VS.85).aspx">IDirect3DVertexBuffer9</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb206332(v=VS.85).aspx">Vertex Buffers (Direct3D 9)</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
  
 
  

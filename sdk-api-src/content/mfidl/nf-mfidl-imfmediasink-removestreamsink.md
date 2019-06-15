@@ -63,7 +63,7 @@ Removes a stream sink from the media sink.
 
 ### -param dwStreamSinkIdentifier [in]
 
-Identifier of the stream to remove. The stream identifier is defined when you call <a href="https://msdn.microsoft.com/1b05ef87-5559-4310-942c-54ab113eb42d">IMFMediaSink::AddStreamSink</a> to add the stream sink.
+Identifier of the stream to remove. The stream identifier is defined when you call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">IMFMediaSink::AddStreamSink</a> to add the stream sink.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The media sink has not been initialized.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://msdn.microsoft.com/acda4e37-2dd0-4322-90fc-8f48d6842054">Shutdown</a> method has been called.
+The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -153,9 +153,9 @@ This media sink has a fixed set of stream sinks. Stream sinks cannot be removed.
 
 
 
-After this method is called, the corresponding stream sink object is no longer valid. The <a href="https://msdn.microsoft.com/01604801-1566-410c-b23a-0568c7298868">IMFMediaSink::GetStreamSinkByIndex</a> and <a href="https://msdn.microsoft.com/267a8efc-6743-48ca-a1c4-da82f3770419">IMFMediaSink::GetStreamSinkById</a> methods will no longer return that stream sink. You can re-use the stream identifier if you add another stream (by calling <a href="https://msdn.microsoft.com/1b05ef87-5559-4310-942c-54ab113eb42d">AddStreamSink</a>).
+After this method is called, the corresponding stream sink object is no longer valid. The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex">IMFMediaSink::GetStreamSinkByIndex</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid">IMFMediaSink::GetStreamSinkById</a> methods will no longer return that stream sink. You can re-use the stream identifier if you add another stream (by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-addstreamsink">AddStreamSink</a>).
 
-Not all media sinks support this method. If the media sink does not support this method, the <a href="https://msdn.microsoft.com/a7e8e2af-8b10-47f5-8b09-a7147ace5ba1">IMFMediaSink::GetCharacteristics</a> method returns the MEDIASINK_FIXED_STREAMS flag.
+Not all media sinks support this method. If the media sink does not support this method, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-getcharacteristics">IMFMediaSink::GetCharacteristics</a> method returns the MEDIASINK_FIXED_STREAMS flag.
 
 In some cases, the media sink supports this method but does not allow every stream sink to be removed. (For example, it might not allow stream 0 to be removed.)
 
@@ -167,11 +167,11 @@ In some cases, the media sink supports this method but does not allow every stre
 
 
 
-<a href="https://msdn.microsoft.com/103e6fd8-a18f-480a-8261-099623014659">IMFMediaSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/a0fbce1b-0a16-4449-9eca-906fd9056a1c">Media Sinks</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sinks">Media Sinks</a>
  
 
  

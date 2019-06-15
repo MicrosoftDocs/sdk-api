@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the <a href="https://msdn.microsoft.com/en-us/library/ms646844(v=VS.85).aspx">PRINTDLGEX</a> structure when calling the <a href="https://msdn.microsoft.com/en-us/library/ms646942(v=VS.85).aspx">PrintDlgEx</a> function.
+Represents a range of pages in a print job. A print job can have more than one page range. This information is supplied in the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-tagpdexa">PRINTDLGEX</a> structure when calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ The last page of the range.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
  
 
  

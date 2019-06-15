@@ -59,7 +59,7 @@ The <b>put__MixerBitmap</b> method specifies the static bitmap image.
 
 ### -param MixerPicture [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407381(v=VS.85).aspx">VMRALPHABITMAP</a> structure that contains information about the bitmap.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-_vmralphabitmap">VMRALPHABITMAP</a> structure that contains information about the bitmap.
 
 
 ## -returns
@@ -76,19 +76,19 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/27eb53f8-ece8-43eb-8f94-b3d2d91548ad">IMSVidVideoRenderer Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694747(v=VS.85).aspx">IMSVidVideoRenderer::get__MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__mixerbitmap">IMSVidVideoRenderer::get__MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694751(v=VS.85).aspx">IMSVidVideoRenderer::put_MixerBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">IMSVidVideoRenderer::put_MixerBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/e39cf7b0-7a88-41e9-bddc-cdd0cc381996">Mixing an Image Onto the Video Window in C++</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>
  
 
  

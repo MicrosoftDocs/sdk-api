@@ -49,9 +49,9 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/37e3f6fa-b207-406d-9cfa-e5f11aead821">CM_Enumerate_Classes</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_classes">CM_Enumerate_Classes</a> instead.]
 
-The <b>CM_Enumerate_Classes_Ex</b> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device classes</a>, by supplying each class's GUID.
+The <b>CM_Enumerate_Classes_Ex</b> function, when called repeatedly, enumerates a local or a remote machine's installed <a href="https://docs.microsoft.com/windows-hardware/drivers/">device classes</a>, by supplying each class's GUID.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Otherwise, should be set to zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -112,7 +112,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate the local or a remote machine's device classes, call <b>CM_Enumerate_Classes_Ex</b> repeatedly, starting with a <i>ulClassIndex</i> index value of zero and incrementing the index value with each subsequent call until the function returns CR_NO_SUCH_VALUE. Some index values might represent list entries containing invalid class data, in which case the function returns CR_INVALID_DATA. This return value can be ignored.
 
-The class GUIDs obtained from this function can be used as input to the <a href="https://msdn.microsoft.com/e67fc124-6127-492b-b975-4243b742a0ce">device installation functions</a>.
+The class GUIDs obtained from this function can be used as input to the <a href="https://docs.microsoft.com/previous-versions//ff541299(v=vs.85)">device installation functions</a>.
 
 Beginning with Windows 8 and later operating systems, callers can use the <b>ulFlags</b> member to specify which device classes CM_Enumerate_Classes_Ex should return. Prior to Windows 8, CM_Enumerate_Classes_Ex returned only device setup classes.
 
@@ -126,7 +126,7 @@ Beginning with Windows 8 and later operating systems, callers can use the <b>ul
 
 
 
-<a href="https://msdn.microsoft.com/37e3f6fa-b207-406d-9cfa-e5f11aead821">CM_Enumerate_Classes</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_classes">CM_Enumerate_Classes</a>
  
 
  

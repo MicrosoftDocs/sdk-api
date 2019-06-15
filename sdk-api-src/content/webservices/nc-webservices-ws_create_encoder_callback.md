@@ -59,21 +59,21 @@ Handles creating an encoder instance.
 
 ### -param *createContext [in]
 
-The createContext that was specified in the <a href="https://msdn.microsoft.com/94ff7082-5cc7-46f3-8eec-d38565bbdb23">WS_CHANNEL_ENCODER</a>used during channel creation.
+The createContext that was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_channel_encoder">WS_CHANNEL_ENCODER</a>used during channel creation.
                 
 
 
 ### -param writeCallback [in]
 
 The function that should be used to write the message data.  This callback
-                  should only be used in response to the <a href="https://msdn.microsoft.com/308e3d24-e3df-4dc8-a727-d3d8ebe8d5d4">WS_ENCODER_START_CALLBACK</a>,
-                  <a href="https://msdn.microsoft.com/f3b191b2-a92f-491d-bd77-500e2d3b37e8">WS_ENCODER_ENCODE_CALLBACK</a> and <a href="https://msdn.microsoft.com/ab0f88f7-e2b4-48e0-9041-ac4aa66f1575">WS_ENCODER_END_CALLBACK</a>callbacks.
+                  should only be used in response to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_encoder_start_callback">WS_ENCODER_START_CALLBACK</a>,
+                  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_encoder_encode_callback">WS_ENCODER_ENCODE_CALLBACK</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_encoder_end_callback">WS_ENCODER_END_CALLBACK</a>callbacks.
                 
 
 
 ### -param *writeContext [in]
 
-The write context that should be passed to the provided <a href="https://msdn.microsoft.com/8d106ac2-226d-4e0c-8f14-8d3e17f15548">WS_WRITE_CALLBACK</a>.
+The write context that should be passed to the provided <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_write_callback">WS_WRITE_CALLBACK</a>.
                 
 
 

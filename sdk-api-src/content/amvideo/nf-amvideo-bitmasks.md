@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <code>BITMASKS</code> macro retrieves the color masks from a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure.
+The <code>BITMASKS</code> macro retrieves the color masks from a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structure.
 
 
 ## -parameters
@@ -59,14 +59,14 @@ The <code>BITMASKS</code> macro retrieves the color masks from a <a href="https:
 
 ### -param pbmi
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structure.
 
 
 ## -remarks
 
 
 
-This macro calculates the address as an offset from the start of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure, using the value of <b>bmiHeader.biSize</b>. Make sure to initialize the <a href="https://msdn.microsoft.com/en-us/library/Dd407323(v=VS.85).aspx">VIDEOINFO</a> structure before calling this macro.
+This macro calculates the address as an offset from the start of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure, using the value of <b>bmiHeader.biSize</b>. Make sure to initialize the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-tagvideoinfo">VIDEOINFO</a> structure before calling this macro.
 
 You can access the color masks in the array using the following constants, defined in Amvideo.h:
 
@@ -96,7 +96,7 @@ DWORD dwBlue  = BITMASKS(pVi)[iBLUE];
 
 
 
-<a href="https://msdn.microsoft.com/02401edc-362b-4f6c-b10b-c46b30b3ebe7">Video and Image Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
  
 
  

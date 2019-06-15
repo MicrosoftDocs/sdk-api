@@ -197,7 +197,7 @@ Not all objects unexported.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -209,10 +209,10 @@ Not all objects unexported.
 The 
 <b>RpcNsBindingUnexport</b> function allows a server application to remove the binding handles and object UUIDs of resources from a name service database entry. A server application can unexport the specified interface and objects in a single call to 
 <b>RpcNsBindingUnexport</b>, or it can unexport them separately. Only the binding handles that match the interface UUID and the major and minor interface version numbers found in the <i>IfSpec</i> parameter are unexported. Use the 
-<a href="https://msdn.microsoft.com/e15b9e45-ac9f-4f90-9323-8b16066290d2">RpcNsMgmtBindingUnexport</a> function to remove multiple versions of an interface.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtbindingunexporta">RpcNsMgmtBindingUnexport</a> function to remove multiple versions of an interface.
 
 Effective with Windows 2000, the RPC run-time environment uses the Active Directory as its name-service database. This means that an authorized unexported entries will be removed both from the local cache and from the Active Directory. Unauthorized unexports will only be removed from the local cache. See 
-<a href="https://msdn.microsoft.com/d9ce4ec5-5c09-4b33-93a1-39638a925986">Access Control</a> in the Security section of the Platform Software Development Kit (SDK) for more information on authorization and Access Control Lists.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> in the Security section of the Platform Software Development Kit (SDK) for more information on authorization and Access Control Lists.
 
 If 
 <b>RpcNsBindingUnexport</b> does not find any binding handles for the specified interface, the function returns an RPC_S_INTERFACE_NOT_FOUND status code and does not unexport the object UUIDs, if any were specified.
@@ -225,7 +225,7 @@ If any of the specified object UUIDs were not found,
 
 In addition to calling 
 <b>RpcNsBindingUnexport</b>, a server should also call the 
-<a href="https://msdn.microsoft.com/bb0485fc-0b25-4fc0-9a18-921a9de428ce">RpcEpUnregister</a> function to unregister the endpoints the server previously registered with the local endpoint-map database.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepunregister">RpcEpUnregister</a> function to unregister the endpoints the server previously registered with the local endpoint-map database.
 
 Once created, a server entry persists, even when all of the binding handles and UUIDs are removed. A server entry must have at least one binding handle to exist. As a result, exporting only UUIDs to a nonexisting entry has no effect, and unexporting all binding handles deletes the entry.
 
@@ -235,7 +235,7 @@ Use
 Therefore, before you call this function, keep in mind how long you expect the server to be unavailable, and the type of binding in use. If you are using static bindings, reserve this function for when you expect a server to be unavailable for an extended time—for example, when it is being permanently removed from service.
 
 <div class="alert"><b>Note</b>  Name-service databases are designed to be relatively stable. In replicated name-service databases, frequent use of the 
-<a href="https://msdn.microsoft.com/c89d04d7-f607-48cc-8cb6-b6aebab41671">RpcNsBindingExport</a> and 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a> and 
 <b>RpcNsBindingUnexport</b> functions causes the name-service database to repeatedly remove and replace the same entry and can cause performance problems.</div>
 <div> </div>
 
@@ -246,11 +246,11 @@ Therefore, before you call this function, keep in mind how long you expect the s
 
 
 
-<a href="https://msdn.microsoft.com/bb0485fc-0b25-4fc0-9a18-921a9de428ce">RpcEpUnregister</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepunregister">RpcEpUnregister</a>
 
 
 
-<a href="https://msdn.microsoft.com/c89d04d7-f607-48cc-8cb6-b6aebab41671">RpcNsBindingExport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
  
 
  

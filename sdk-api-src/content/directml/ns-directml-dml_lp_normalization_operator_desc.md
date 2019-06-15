@@ -84,7 +84,7 @@ The axis on which to apply normalization. You can use a default value of -1 to m
 
 ### -field Epsilon
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The epsilon value to use to avoid division by zero.
 

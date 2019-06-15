@@ -230,7 +230,7 @@ The combined size of the following items, rounded to a multiple of the value spe
 <ul>
 <li><b>e_lfanew</b> member of <b>IMAGE_DOS_HEADER</b></li>
 <li>4 byte signature</li>
-<li>size of <a href="https://msdn.microsoft.com/1f1fe842-0849-46d0-8dba-831cf5aa02ef">IMAGE_FILE_HEADER</a>
+<li>size of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_file_header">IMAGE_FILE_HEADER</a>
 </li>
 <li>size of optional header</li>
 <li>size of all section headers</li>
@@ -471,7 +471,7 @@ The DLL can be relocated at load time.
 <td width="60%">
 Code integrity checks are forced. If you set this flag and a section contains only uninitialized data, 
         set the <b>PointerToRawData</b> member of 
-        <a href="https://msdn.microsoft.com/81ddf56d-66cc-4a0c-9cff-a84376a3223d">IMAGE_SECTION_HEADER</a> for that section to 
+        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_section_header">IMAGE_SECTION_HEADER</a> for that section to 
         zero; otherwise, the image will fail to load because the digital signature cannot be verified.
 
 </td>
@@ -607,7 +607,7 @@ The number of directory entries in the remainder of the optional header. Each en
 ### -field DataDirectory
 
 A pointer to the first 
-<a href="https://msdn.microsoft.com/06d53806-d3a3-4990-bc9a-3a3004e60a3c">IMAGE_DATA_DIRECTORY</a> structure in the data 
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
  directory.
 
 
@@ -675,11 +675,11 @@ typedef struct _IMAGE_OPTIONAL_HEADER64 {
 
 
 
-<a href="https://msdn.microsoft.com/06d53806-d3a3-4990-bc9a-3a3004e60a3c">IMAGE_DATA_DIRECTORY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_image_data_directory">IMAGE_DATA_DIRECTORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/b88c7a21-933f-450c-97e8-04cf3c5f9b11">ImageHlp Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
  
 
  

@@ -61,19 +61,19 @@ The <b>NET_FW_EDGE_TRAVERSAL_TYPE</b> enumerated type specifies  the conditions 
 
 Edge traversal traffic is always blocked.
 
-This is the same as setting the EdgeTraversal property using <a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a> to <b>VARIANT_FALSE</b>.
+This is the same as setting the EdgeTraversal property using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> to <b>VARIANT_FALSE</b>.
 
 
 ### -field NET_FW_EDGE_TRAVERSAL_TYPE_ALLOW
 
 Edge traversal traffic is always allowed.
 
-This is the same as setting the EdgeTraversal property using <a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a> to <b>VARIANT_TRUE</b>.
+This is the same as setting the EdgeTraversal property using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> to <b>VARIANT_TRUE</b>.
 
 
 ### -field NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP
 
-Edge traversal traffic is allowed when the application sets the <a href="https://msdn.microsoft.com/bfb934b3-1e86-431f-a21c-880048d32d35">IPV6_PROTECTION_LEVEL</a> socket option to <b>PROTECTION_LEVEL_UNRESTRICTED</b>. Otherwise, it is blocked.
+Edge traversal traffic is allowed when the application sets the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipv6-protection-level">IPV6_PROTECTION_LEVEL</a> socket option to <b>PROTECTION_LEVEL_UNRESTRICTED</b>. Otherwise, it is blocked.
 
 
 ### -field NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER
@@ -89,7 +89,7 @@ In order to use this option, the firewall rule must have both the application pa
 
 
 
-    In order for Windows Firewall to dynamically allow edge traversal traffic, the application must use the  <a href="https://msdn.microsoft.com/bfb934b3-1e86-431f-a21c-880048d32d35">IPV6_PROTECTION_LEVEL</a> socket option on the listening socket
+    In order for Windows Firewall to dynamically allow edge traversal traffic, the application must use the  <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipv6-protection-level">IPV6_PROTECTION_LEVEL</a> socket option on the listening socket
         and set it to <b>PROTECTION_LEVEL_UNRESTRICTED</b> only in the cases where edge traversal traffic should be allowed. The Windows Firewall rule added for the application must then set 
             its edge traversal option  to <b>NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP</b> or <b>NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER</b>.
 
@@ -101,19 +101,19 @@ In order to use this option, the firewall rule must have both the application pa
 
 
 
-<a href="https://msdn.microsoft.com/59e2a140-bf55-4f0e-bf4b-1a39d3dc0457">INetFwRule</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
 
 
 
-<a href="https://msdn.microsoft.com/bfb934b3-1e86-431f-a21c-880048d32d35">IPV6_PROTECTION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipv6-protection-level">IPV6_PROTECTION_LEVEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/72b85ab7-feb4-4bd2-8581-041e2c6d93b1">Windows Firewall with Advanced Security Enumerated Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-enumerated-types">Windows Firewall with Advanced Security Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1b154f1-2574-4e8e-a088-5e502bb889e7">Windows Firewall with Advanced Security Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
  
 
  

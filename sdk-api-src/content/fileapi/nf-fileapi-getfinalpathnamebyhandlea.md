@@ -61,7 +61,7 @@ ms.custom: 19H1
 Retrieves the final path for the specified file.
 
 For more information about file and path names, see 
-    <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Naming a File</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 
 ## -parameters
@@ -191,7 +191,7 @@ If the function fails because <i>lpszFilePath</i> is too small to hold the strin
        <b>TCHAR</b>s. This value includes the size of the terminating null character.
 
 If the function fails for any other reason, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <table>
 <tr>
@@ -255,7 +255,7 @@ The Server Message Block (SMB) Protocol does not support queries for normalized 
      "D:\yourdir".
 
 The string that is returned by this function uses the \\?\ 
-     syntax. For more information, see <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a>.
+     syntax. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -380,7 +380,7 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 
 
 
-<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
  
 
  

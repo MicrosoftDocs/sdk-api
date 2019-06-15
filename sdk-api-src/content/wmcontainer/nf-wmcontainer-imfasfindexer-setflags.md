@@ -63,7 +63,7 @@ Sets indexer options.
 
 ### -param dwFlags [in]
 
-Bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/e5794835-218d-4759-bf3e-a573b24424c3">MFASF_INDEXER_FLAGS</a> enumeration specifying the indexer options to use.
+Bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/ne-wmcontainer-mfasf_indexerflags">MFASF_INDEXER_FLAGS</a> enumeration specifying the indexer options to use.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The indexer object was  initialized before setting flags for it.  For more infor
 
 
 
-<b>IMFASFIndexer::SetFlags</b> must be called before <a href="https://msdn.microsoft.com/c02931d3-7b43-43a9-9e4e-00945ba3c8d8">IMFASFIndexer::Initialize</a>. Attempting to call <b>SetFlags</b> after <b>Initialize</b> will return MF_E_INVALIDREQUEST as a result.
+<b>IMFASFIndexer::SetFlags</b> must be called before <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">IMFASFIndexer::Initialize</a>. Attempting to call <b>SetFlags</b> after <b>Initialize</b> will return MF_E_INVALIDREQUEST as a result.
 
 
 
@@ -119,11 +119,11 @@ The indexer object was  initialized before setting flags for it.  For more infor
 
 
 
-<a href="https://msdn.microsoft.com/3f95b0ac-d70f-4bc2-8524-c7de1df34afa">ASF Index Object</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/93127fe4-bca9-4674-ae21-012367d7dd2f">IMFASFIndexer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
  
 
  

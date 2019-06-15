@@ -81,11 +81,11 @@ The  number of blocks available for sparing.
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/72122388-a42f-4c67-9539-20eb4c59dcf0">FSCTL_QUERY_SPARING_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_sparing_info">FSCTL_QUERY_SPARING_INFO</a>
  
 
  

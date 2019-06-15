@@ -83,14 +83,14 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 ### -field wkti0_wan_ish
 
 This member is ignored by the 
-<a href="https://msdn.microsoft.com/016060ea-eae1-421f-b708-5c2ddd2000c1">NetWkstaTransportAdd</a> function. For the 
-<a href="https://msdn.microsoft.com/08bd22a9-00a7-4563-9353-c070ca9b2500">NetWkstaTransportEnum</a> function, this member indicates whether the transport protocol is a WAN transport protocol. This member is set to <b>TRUE</b> for NetBIOS/TCIP; it is set to <b>FALSE</b> for NetBEUI and NetBIOS/IPX. 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportadd">NetWkstaTransportAdd</a> function. For the 
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportenum">NetWkstaTransportEnum</a> function, this member indicates whether the transport protocol is a WAN transport protocol. This member is set to <b>TRUE</b> for NetBIOS/TCIP; it is set to <b>FALSE</b> for NetBEUI and NetBIOS/IPX. 
 
 
 
 
 Certain legacy networking protocols, including NetBEUI, will no longer be supported. For more information, see 
-<a href="https://msdn.microsoft.com/8c123e09-b11a-4c92-b41e-49cc01be53d3">Network Protocol Support in Windows</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinSock/network-protocol-support-in-windows">Network Protocol Support in Windows</a>.
 
 
 ## -see-also
@@ -98,23 +98,23 @@ Certain legacy networking protocols, including NetBEUI, will no longer be suppor
 
 
 
-<a href="https://msdn.microsoft.com/016060ea-eae1-421f-b708-5c2ddd2000c1">NetWkstaTransportAdd</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportadd">NetWkstaTransportAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/08bd22a9-00a7-4563-9353-c070ca9b2500">NetWkstaTransportEnum</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportenum">NetWkstaTransportEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/426c7b2e-027c-4a88-97b7-eba5201d0f0d">Network Management Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4b05054-bef2-4cab-89f6-725d92ee75b8">Network Management Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/64342e21-98f1-42d3-b541-46b826391fad">Server and Workstation Transport Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Mt764771(v=VS.85).aspx">RawSCSIVirtualDisk</a> function.
+Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-rawscsivirtualdisk">RawSCSIVirtualDisk</a> function.
 
 
 ## -enum-fields

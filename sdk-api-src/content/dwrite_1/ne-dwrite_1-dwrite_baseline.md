@@ -107,7 +107,7 @@ The top-most extent in horizontal, right-most in vertical.
 
 
 
-<a href="https://msdn.microsoft.com/5ACD5075-BD96-41FC-AE36-8D5D03F2EB54">IDWriteTextAnalyzer1::GetBaseline</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritetextanalyzer1-getbaseline">IDWriteTextAnalyzer1::GetBaseline</a>
  
 
  

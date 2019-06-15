@@ -56,7 +56,7 @@ To get a pointer to this interface, call <b>QueryInterface</b> on a D3D9Ex devic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Video</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDirect3DDevice9Video</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DDevice9Video</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3DDevice9Video</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDirect3DDevice9Video</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0dcfc3f-ede3-4917-8806-6bd343154cf8">CreateAuthenticatedChannel</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createauthenticatedchannel">CreateAuthenticatedChannel</a>
 </td>
 <td align="left" width="63%">
 Creates a channel to communicate with the Direct3D device or the graphics driver.
@@ -80,7 +80,7 @@ Creates a channel to communicate with the Direct3D device or the graphics driver
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1c0e3aa4-94d5-4398-a6c0-5466a437162d">CreateCryptoSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-createcryptosession">CreateCryptoSession</a>
 </td>
 <td align="left" width="63%">
 Creates a cryptographic session to encrypt video content that is sent to the display driver.
@@ -89,7 +89,7 @@ Creates a cryptographic session to encrypt video content that is sent to the dis
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4093e64c-340d-4f66-97ed-45bae3b259eb">GetContentProtectionCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">GetContentProtectionCaps</a>
 </td>
 <td align="left" width="63%">
 Queries the display driver for its content protection capabilities.
@@ -104,11 +104,11 @@ Queries the display driver for its content protection capabilities.
 
 
 
-<a href="https://msdn.microsoft.com/adddf378-f71c-4f81-bcf1-5d729a03eb58">Direct3D Video Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/FD0625BB-484A-43E6-8931-DB635D4F017F">GPU-Based Content Protection</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
  
 
  

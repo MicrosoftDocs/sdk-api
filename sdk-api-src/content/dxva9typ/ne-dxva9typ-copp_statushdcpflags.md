@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-Contains HDCP status flags. This enumeration is used in the <a href="https://msdn.microsoft.com/fd49c50d-6caa-4d2a-83c6-41ff0130160f">DXVA_COPPStatusHDCPKeyData</a> structure.
+Contains HDCP status flags. This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ns-dxva9typ-_dxva_coppstatushdcpkeydata">DXVA_COPPStatusHDCPKeyData</a> structure.
 
 
 
@@ -77,11 +77,11 @@ Reserved. Must be zero.
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/23eebe93-416b-48c8-a05f-019e38b9a660">Using Certified Output Protection Protocol (COPP)</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
  
 
  

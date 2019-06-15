@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The type of <a href="https://msdn.microsoft.com/98c40d57-ee71-40f8-9416-5b29adc30489">WS_XML_NODE</a> structure.
+The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_node">WS_XML_NODE</a> structure.
       
 
 

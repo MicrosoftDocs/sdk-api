@@ -61,7 +61,7 @@ Groups the view by the given property key and direction.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-9761055381ea">PROPERTYKEY</a> by which the view should be grouped.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-_tagpropertykey">PROPERTYKEY</a> by which the view should be grouped.
 
 
 ### -param fAscending [in]

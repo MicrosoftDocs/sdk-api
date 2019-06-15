@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Destroys an instance of a <a href="https://msdn.microsoft.com/BD0FB68A-17DF-412C-9CAD-26D95AF2E16F">CD3D11_TEXTURE2D_DESC</a> structure.
+Destroys an instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151700(v=vs.85)">CD3D11_TEXTURE2D_DESC</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Destroys an instance of a <a href="https://msdn.microsoft.com/BD0FB68A-17DF-412C
 
 
 
-<a href="https://msdn.microsoft.com/BD0FB68A-17DF-412C-9CAD-26D95AF2E16F">CD3D11_TEXTURE2D_DESC</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151700(v=vs.85)">CD3D11_TEXTURE2D_DESC</a>
  
 
  

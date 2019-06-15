@@ -72,9 +72,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The main purpose of this method is to reload a list of source elements after updating the list. For more information, see <a href="https://msdn.microsoft.com/7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC">SetSourceElements</a>. Otherwise, calling this method is generally not required. To load a new media source, call <a href="https://msdn.microsoft.com/80C41EAB-9B8F-4723-A4A7-A17F56FF5773">IMFMediaEngine::SetSource</a> or <b>IMFMediaEngine::SetSourceElements</b>.
+The main purpose of this method is to reload a list of source elements after updating the list. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">SetSourceElements</a>. Otherwise, calling this method is generally not required. To load a new media source, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">IMFMediaEngine::SetSource</a> or <b>IMFMediaEngine::SetSourceElements</b>.
 
-The <b>Load</b>  method explictly invokes the Media Engine's media resource loading algorithm. Before calling this method, you must set the media resource by calling <a href="https://msdn.microsoft.com/80C41EAB-9B8F-4723-A4A7-A17F56FF5773">IMFMediaEngine::SetSource</a> or <a href="https://msdn.microsoft.com/7B1A1C43-A9BD-4DBF-B6A7-53BF9295CDAC">IMFMediaEngine::SetSourceElements</a>. 
+The <b>Load</b>  method explictly invokes the Media Engine's media resource loading algorithm. Before calling this method, you must set the media resource by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsource">IMFMediaEngine::SetSource</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">IMFMediaEngine::SetSourceElements</a>. 
 
 This method completes asynchronously. When the <b>Load</b> operation starts, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVENT_LOADSTART</b> event. If no errors occur during the <b>Load</b> operation, several other events are generated, including the following.
 
@@ -86,7 +86,7 @@ This method completes asynchronously. When the <b>Load</b> operation starts, the
 </ul>
 If the Media Engine is unable to load the file, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVENT_ERROR</b> event. 
 
-For more information about event handling in the Media Engine, see <a href="https://msdn.microsoft.com/85D702D4-3C9B-4848-81F2-3634C2B6AE1A">IMFMediaEngineNotify</a>.
+For more information about event handling in the Media Engine, see <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginenotify">IMFMediaEngineNotify</a>.
 
 This method corresponds to the <b>load</b> method of the <b>HTMLMediaElement</b> interface in HTML5. 
 
@@ -98,7 +98,7 @@ This method corresponds to the <b>load</b> method of the <b>HTMLMediaElement</b>
 
 
 
-<a href="https://msdn.microsoft.com/A0023F18-2D28-4F0D-9B00-B8FB11567034">IMFMediaEngine</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
  
 
  

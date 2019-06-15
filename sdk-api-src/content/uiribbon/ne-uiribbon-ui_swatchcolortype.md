@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the values that identify how a color swatch in a <a href="https://msdn.microsoft.com/en-us/library/Dd371663(v=VS.85).aspx">DropDownColorPicker</a> or a <a href="https://msdn.microsoft.com/en-us/library/Dd371673(v=VS.85).aspx">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
+Specifies the values that identify how a color swatch in a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-dropdowncolorpicker">DropDownColorPicker</a> or a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
 <div class="alert"><b>Note</b>  These are recommendations only. The application can associate any fill type with these values.</div><div> </div>
 
 ## -enum-fields
@@ -77,7 +77,7 @@ The swatch is filled with a solid RGB color.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
  
 
  

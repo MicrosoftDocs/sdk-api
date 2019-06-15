@@ -51,8 +51,8 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetOpenCardName</b> function displays the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a> "select card" dialog box. Call the function 
-<a href="https://msdn.microsoft.com/68014e9e-0ea3-4032-8db5-c1887a1cc9ad">SCardUIDlgSelectCard</a> instead of <b>GetOpenCardName</b>. The <b>GetOpenCardName</b> function is maintained for backward compatibility with version 1.0 of the Microsoft Smart Card Base Components, but calls to <b>GetOpenCardName</b> are mapped to <b>SCardUIDlgSelectCard</b>.
+The <b>GetOpenCardName</b> function displays the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> "select card" dialog box. Call the function 
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> instead of <b>GetOpenCardName</b>. The <b>GetOpenCardName</b> function is maintained for backward compatibility with version 1.0 of the Microsoft Smart Card Base Components, but calls to <b>GetOpenCardName</b> are mapped to <b>SCardUIDlgSelectCard</b>.
 		
 
 
@@ -64,7 +64,7 @@ The <b>GetOpenCardName</b> function displays the <a href="https://msdn.microsoft
 ### -param Arg1 [in]
 
 A pointer to the 
-<a href="https://msdn.microsoft.com/b409a6fc-2cfd-491e-8f4c-f8567df7b08f">OPENCARDNAME</a> structure for the "select card" dialog box.
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardnamea">OPENCARDNAME</a> structure for the "select card" dialog box.
 
 
 ## -returns
@@ -100,7 +100,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ An error code. For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/b409a6fc-2cfd-491e-8f4c-f8567df7b08f">OPENCARDNAME</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardnamea">OPENCARDNAME</a>
  
 
  

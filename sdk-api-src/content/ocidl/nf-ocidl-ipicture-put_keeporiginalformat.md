@@ -76,11 +76,11 @@ This method returns S_OK on success and E_FAIL otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/42e3cd0e-2413-494a-8be8-2952089e02d2">IPicture</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
 
 
 
-<a href="https://msdn.microsoft.com/90befcb7-138f-4c63-a6ec-ec06c89b3317">IPicture::get_KeepOriginalFormat</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_keeporiginalformat">IPicture::get_KeepOriginalFormat</a>
  
 
  

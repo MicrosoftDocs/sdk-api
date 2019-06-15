@@ -64,7 +64,7 @@ Specifies the number of attributes listed in <b>DhcpAttribs</b>.
 
 ### -field DhcpAttribs
 
-Pointer to a list of <a href="https://msdn.microsoft.com/26822137-8633-4e18-a69f-eeebf9e78f9a">DHCP_ATTRIB</a> structures that contain the DHCP server attributes.
+Pointer to a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_attrib">DHCP_ATTRIB</a> structures that contain the DHCP server attributes.
 
 
 ### -field DhcpAttribs.size_is

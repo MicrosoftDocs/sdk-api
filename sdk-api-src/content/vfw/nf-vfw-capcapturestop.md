@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>capCaptureStop</b> macro stops the capture operation. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/0fea82f5-f381-485a-82ae-b081b3a5e402">WM_CAP_STOP</a> message.
+The <b>capCaptureStop</b> macro stops the capture operation. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-stop">WM_CAP_STOP</a> message.
 
 
 
@@ -71,7 +71,7 @@ Handle to a capture window.
 
 
 
-The capture operation must yield to use this message. Use the <a href="https://msdn.microsoft.com/a1c17695-ee91-4f76-a2be-a6e512903c8f">capCaptureAbort</a> macro to abandon the current capture operation.
+The capture operation must yield to use this message. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcaptureabort">capCaptureAbort</a> macro to abandon the current capture operation.
 
 
 
@@ -81,11 +81,11 @@ The capture operation must yield to use this message. Use the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/c93ecc51-e2c5-4b69-8625-c8385d53fab2">Video Capture</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://msdn.microsoft.com/21061f06-d58b-4800-a9f5-9821494fabd6">Video Capture Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
  
 
  

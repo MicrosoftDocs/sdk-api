@@ -73,7 +73,7 @@ Returns the Unknown value if the client application has not set the property.
 
 
 
-<a href="https://msdn.microsoft.com/00b84246-b5f2-48c2-a0ab-eaaa1ec80262">IUpdateSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
  
 
  

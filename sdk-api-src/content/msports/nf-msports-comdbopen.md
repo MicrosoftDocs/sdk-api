@@ -105,11 +105,11 @@ The routine could not open the database. To get extended error information, call
 
 
 
-To close the COM port database, call <a href="https://msdn.microsoft.com/3ea720ba-6cc9-4862-83d2-4f87e5c13da4">ComDBClose</a> and supply the handle that was returned by <b>ComDBOpen</b>.
+To close the COM port database, call <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclose">ComDBClose</a> and supply the handle that was returned by <b>ComDBOpen</b>.
 
 <b>ComDBOpen</b> is called from user mode.
 
-For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2-b682-c141938eb0da">Opening and Closing the COM Port Database</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Opening and Closing the COM Port Database</a>.
 
 
 
@@ -119,7 +119,7 @@ For more information, see <a href="https://msdn.microsoft.com/c9baf147-6e33-4ed2
 
 
 
-<a href="https://msdn.microsoft.com/3ea720ba-6cc9-4862-83d2-4f87e5c13da4">ComDBClose</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclose">ComDBClose</a>
  
 
  

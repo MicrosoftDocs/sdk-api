@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Color::SetFromCOLORREF</b> method uses a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value to set the <b>ARGB</b> value of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object.
+The <b>Color::SetFromCOLORREF</b> method uses a Windows Graphics Device Interface (GDI)<b>COLORREF</b> value to set the <b>ARGB</b> value of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>Color::SetFromCOLORREF</b> method uses a Windows Graphics Device Interfac
 
 Type: <b>COLORREF</b>
 
-GDI<b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255. 
+GDI<b>COLORREF</b> value that specifies the red, green, and blue components of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object's <b>ARGB</b> value. The default value of the alpha component for this <b>Color</b> object is 255. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ A 32-bit GDI<b>COLORREF</b> value contains three, 8-bit color components. The mo
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object and sets a GDI<b>COLORREF</b> value. The code then sets the <b>Color</b> object to the value of the GDI<b>COLORREF</b> value, creates a pen, and draws a line.
+The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object and sets a GDI<b>COLORREF</b> value. The code then sets the <b>Color</b> object to the value of the GDI<b>COLORREF</b> value, creates a pen, and draws a line.
 
 
 ```cpp
@@ -119,15 +119,15 @@ VOID Example_SetFromCOLORREF(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536257(v=VS.85).aspx">Color::ToCOLORREF</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-tocolorref">Color::ToCOLORREF</a>
  
 
  

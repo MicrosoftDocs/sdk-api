@@ -136,7 +136,7 @@ The size of pbResponseBuffer is insufficient to contain the response data.
 
 
 
-This method is currently not supported by the IEEE 1667 certificate and password silos. It is recommended that the <a href="https://msdn.microsoft.com/b848a866-9fdf-4cb3-b289-6df5fc1bf723">Enhanced Storage Portable Device Commands</a> are used instead.
+This method is currently not supported by the IEEE 1667 certificate and password silos. It is recommended that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/enstor/enhanced-storage-portable-device-commands">Enhanced Storage Portable Device Commands</a> are used instead.
 
 The caller is responsible for sending correct parameters to the command, as well as allocating the necessary buffer for the returned results.
 
@@ -148,11 +148,11 @@ The caller is responsible for sending correct parameters to the command, as well
 
 
 
-<a href="https://msdn.microsoft.com/b848a866-9fdf-4cb3-b289-6df5fc1bf723">Enhanced Storage Portable Device Commands</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/enstor/enhanced-storage-portable-device-commands">Enhanced Storage Portable Device Commands</a>
 
 
 
-<a href="https://msdn.microsoft.com/041e66d2-f772-407d-85f7-71f226c7ec4b">IEnhancedStorageSilo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
  
 
  

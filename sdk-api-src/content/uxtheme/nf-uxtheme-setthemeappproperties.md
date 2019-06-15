@@ -59,7 +59,7 @@ Sets the flags that determine how visual styles are implemented in the calling a
 
 ### -param dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>DWORD</b> that specifies one or more of the following bit flags, which can be combined with a logical OR.
 
@@ -118,7 +118,7 @@ This function does not return a value.
 
 
 
-After you set the flags, send a <a href="https://msdn.microsoft.com/en-us/library/ms632650(v=VS.85).aspx">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
+After you set the flags, send a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-themechanged">WM_THEMECHANGED</a> message to your application's main window for the changes to take effect. 
 
 
 
@@ -143,7 +143,7 @@ SetThemeAppProperties(dwFlags);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773369(v=VS.85).aspx">GetThemeAppProperties</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemeappproperties">GetThemeAppProperties</a>
  
 
  

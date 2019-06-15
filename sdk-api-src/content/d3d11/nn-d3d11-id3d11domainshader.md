@@ -59,7 +59,7 @@ A domain-shader interface manages an executable program (a domain shader) that c
 
 The domain-shader interface has no methods; use HLSL to implement your shader functionality. All shaders are implemented from a common set of features referred to as the common-shader core..
 
-To create a domain-shader interface, call <a href="https://msdn.microsoft.com/414525a8-55ad-4d37-a302-5c30909588f1">ID3D11Device::CreateDomainShader</a>. Before using a domain shader you must bind it to the device by calling <a href="https://msdn.microsoft.com/5ee4a072-3b4a-44e6-ae70-19e0888905a2">ID3D11DeviceContext::DSSetShader</a>.
+To create a domain-shader interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdomainshader">ID3D11Device::CreateDomainShader</a>. Before using a domain shader you must bind it to the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-dssetshader">ID3D11DeviceContext::DSSetShader</a>.
 
 This interface is defined in D3D11.h.
 
@@ -71,11 +71,11 @@ This interface is defined in D3D11.h.
 
 
 
-<a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Information about a mapping between an <a href="https://msdn.microsoft.com/7fe0b142-04a1-4a92-99ca-523412f7c94e">WS_FAULT</a> and an XML element.
+Information about a mapping between an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_fault">WS_FAULT</a> and an XML element.
             
 
 

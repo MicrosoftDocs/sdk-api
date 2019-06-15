@@ -61,13 +61,13 @@ Attaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an 
 ### -param VirtualDiskHandle [in]
 
 A handle to an open virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.
 
 
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-      <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> to apply to the attached 
+      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the attached 
       virtual disk. If this parameter is <b>NULL</b>, the security descriptor of the virtual disk 
       image file is used.
 
@@ -78,7 +78,7 @@ Ensure that the security descriptor that <b>AttachVirtualDisk</b> applies to the
 ### -param Flags [in]
 
 A valid combination of values of the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323693(v=VS.85).aspx">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_attach_virtual_disk_flag">ATTACH_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param ProviderSpecificFlags [in]
@@ -89,15 +89,15 @@ Flags specific to the type of virtual disk being attached. May be zero if none a
 ### -param Parameters [in, optional]
 
 A pointer to a valid 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323694(v=VS.85).aspx">ATTACH_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ns-vdssys-_attach_virtual_disk_parameters">ATTACH_VIRTUAL_DISK_PARAMETERS</a> 
       structure that contains attachment parameter data.
 
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> 
+An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-_overlapped">OVERLAPPED</a> 
       structure if 
-      <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">asynchronous</a> operation is 
+      <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation is 
       desired.
 
 
@@ -110,7 +110,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">System Error Codes</a>.
+       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 
 
@@ -131,7 +131,7 @@ If the <b>AttachVirtualDisk</b> function fails with an
 
 <ul>
 <li>The <i>VirtualDiskHandle</i> parameter is not a valid handle created by the 
-      <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a> function.</li>
+      <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a> function.</li>
 <li>The <i>Flags</i> parameter is set to a value larger than 
       <code>0x020</code>.</li>
 <li>The <b>Version</b> member of the <i>Parameters</i> parameter is not 
@@ -142,14 +142,14 @@ The host volume that contains the virtual disk image file cannot be compressed o
 This function will fail if a provider cannot be found, if the VHD or ISO image file is not valid, if the VHD 
     image is already attached, or if the caller does not have <b>SE_MANAGE_VOLUME_PRIVILEGE</b> 
     access rights. For more information about file security, see 
-    <a href="https://msdn.microsoft.com/991d7d94-fae7-406f-b2e3-dee811279366">File Security and Access Rights</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 The intended access mode of the virtual disk must be considered when opening the virtual disk handle. For 
     example, if the virtual disk is being attached for read/write access, the 
     <i>VirtualDiskHandle</i> parameter must have been opened using the 
     <b>VIRTUAL_DISK_ACCESS_ATTACH_RW</b> access flag. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323702(v=VS.85).aspx">VIRTUAL_DISK_ACCESS_MASK</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/Dd323680(v=VS.85).aspx">OpenVirtualDisk</a>.
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> and 
+    <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/nf-vdssys-openvirtualdisk">OpenVirtualDisk</a>.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.
@@ -162,11 +162,11 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://msdn.microsoft.com/c9531c07-ad55-42b6-8685-7f55a47e8485">About VHD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b5d0da0-2b23-4b7c-b007-ed3fe030926c">VHD Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
  
 
  

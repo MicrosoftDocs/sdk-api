@@ -59,7 +59,7 @@ Gets the value of the logo_version field from an Integrated Services Digital Bro
 
 ### -param pwVal [out]
 
-Receives the logo version number. Call the <a href="https://msdn.microsoft.com/f4c11012-5d37-4d8f-944b-edfa50719b12">IIsdbLogoTransmissionDescriptor::GetLogoId</a> method to get the value of the logo_id field.
+Receives the logo version number. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getlogoid">IIsdbLogoTransmissionDescriptor::GetLogoId</a> method to get the value of the logo_id field.
 
 
 ## -returns
@@ -76,11 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/9c0930f6-6c05-48c9-91e4-2abdd3355a32">IIsdbLogoTransmissionDescriptor</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdblogotransmissiondescriptor">IIsdbLogoTransmissionDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4c11012-5d37-4d8f-944b-edfa50719b12">IIsdbLogoTransmissionDescriptor::GetLogoId</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdblogotransmissiondescriptor-getlogoid">IIsdbLogoTransmissionDescriptor::GetLogoId</a>
  
 
  

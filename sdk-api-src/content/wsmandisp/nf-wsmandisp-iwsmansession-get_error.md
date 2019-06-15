@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets additional error information in an XML stream for the preceding call to an <a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a> object method.
+Gets additional error information in an XML stream for the preceding call to an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object method.
 
 This property is read-only.
 
@@ -63,11 +63,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/3e016080-339f-4bda-bfd2-f912e090981f">IWSManSession</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/f291c11c-012f-45eb-b851-5661d881ee79">Session.Error</a>
+<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-error">Session.Error</a>
  
 
  

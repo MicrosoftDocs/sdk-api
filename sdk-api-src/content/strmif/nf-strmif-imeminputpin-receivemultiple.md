@@ -63,7 +63,7 @@ The <code>ReceiveMultiple</code> method receives multiple samples in the stream.
 
 ### -param pSamples [in]
 
-Address of an array of <a href="https://msdn.microsoft.com/883e5e3b-db91-4806-96cc-c6f8cddfcca6">IMediaSample</a> interface pointers, of size <i>nSamples</i>.
+Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface pointers, of size <i>nSamples</i>.
 
 
 ### -param nSamples [in]
@@ -163,7 +163,7 @@ The pin is stopped.
 
 
 
-This method behaves like the <a href="https://msdn.microsoft.com/7cc1e57a-a18a-4ea4-9669-0be3fb140d40">IMemInputPin::Receive</a> method, but receives an array of samples.
+This method behaves like the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-receive">IMemInputPin::Receive</a> method, but receives an array of samples.
 
 
 
@@ -173,11 +173,11 @@ This method behaves like the <a href="https://msdn.microsoft.com/7cc1e57a-a18a-4
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/a4407c6f-6bb5-4274-920b-8bf7d76268bc">IMemInputPin Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
  
 
  

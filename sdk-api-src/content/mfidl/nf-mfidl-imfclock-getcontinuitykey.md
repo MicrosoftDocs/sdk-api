@@ -108,7 +108,7 @@ Continuity keys are currently not supported in Media Foundation. Clocks must ret
 
 
 
-<a href="https://msdn.microsoft.com/3a60bfec-8511-4a84-a833-e0c73c593970">IMFClock</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclock">IMFClock</a>
  
 
  

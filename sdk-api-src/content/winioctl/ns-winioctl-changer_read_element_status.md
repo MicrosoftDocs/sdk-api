@@ -49,7 +49,7 @@ req.redist:
 
 
 Contains information that the 
-<a href="https://msdn.microsoft.com/b5266a22-1f7b-423d-b3c1-7e455d87dd2b">IOCTL_CHANGER_GET_ELEMENT_STATUS</a> control code needs to determine the elements whose status is to be retrieved.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a> control code needs to determine the elements whose status is to be retrieved.
 
 
 ## -struct-fields
@@ -60,13 +60,13 @@ Contains information that the
 ### -field ElementList
 
 A 
-<a href="https://msdn.microsoft.com/cb1fcf78-b36a-4551-8eeb-da58edc80890">CHANGER_ELEMENT_LIST</a> structure that contains an array of structures that represents the range of elements for which information is to be retrieved. The <b>ElementType</b> member of each structure can be one of the following values: ChangerDrive, ChangerSlot, ChangerTransport, ChangerIEPort, or AllElements.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element_list">CHANGER_ELEMENT_LIST</a> structure that contains an array of structures that represents the range of elements for which information is to be retrieved. The <b>ElementType</b> member of each structure can be one of the following values: ChangerDrive, ChangerSlot, ChangerTransport, ChangerIEPort, or AllElements.
 
 
 ### -field VolumeTagInfo
 
 If this member is <b>TRUE</b>, volume tag information is to be retrieved. Otherwise, no volume information is retrieved. A volume tag can be a bar code or an application-defined value. This member is valid only if the <b>Features0</b> member of the 
-<a href="https://msdn.microsoft.com/ad5b6cc3-19f1-4196-9f03-791f342d0cf9">GET_CHANGER_PARAMETERS</a> structure is CHANGER_BAR_CODE_SCANNER_INSTALLED or CHANGER_VOLUME_IDENTIFICATION.
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_get_changer_parameters">GET_CHANGER_PARAMETERS</a> structure is CHANGER_BAR_CODE_SCANNER_INSTALLED or CHANGER_VOLUME_IDENTIFICATION.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ If this member is <b>TRUE</b>, volume tag information is to be retrieved. Otherw
 
 
 
-<a href="https://msdn.microsoft.com/cb1fcf78-b36a-4551-8eeb-da58edc80890">CHANGER_ELEMENT_LIST</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_changer_element_list">CHANGER_ELEMENT_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5266a22-1f7b-423d-b3c1-7e455d87dd2b">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
  
 
  

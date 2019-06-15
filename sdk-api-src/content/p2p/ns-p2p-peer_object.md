@@ -65,13 +65,13 @@ GUID value under which the peer object is uniquely registered.
 ### -field data
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a> structure that contains information which describes the peer object.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a> structure that contains information which describes the peer object.
 
 
 ### -field dwPublicationScope
 
 
-<a href="https://msdn.microsoft.com/fecb9403-f790-4955-a879-fb3e6fbfe8ca">PEER_PUBLICATION_SCOPE</a> enumeration value that specifies the publication scope for this peer object.
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_publication_scope_tag">PEER_PUBLICATION_SCOPE</a> enumeration value that specifies the publication scope for this peer object.
 
 
 ## -remarks
@@ -94,11 +94,11 @@ The lifetime of a peer object is tied to the lifetime of the application that re
 
 
 
-<a href="https://msdn.microsoft.com/d8a8b9e3-c455-4813-b812-263efe7f5e3e">PEER_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data_tag">PEER_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/2634899c-3263-45ce-9fac-407e11e42cd4">Peer Collaboration API Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
  
 
  

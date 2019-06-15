@@ -59,7 +59,7 @@ The <b>ITfCandidateListUIElement::GetDocumentMgr</b> method returns the target d
 
 ### -param ppdim [out]
 
-[out] A pointer to receive <a href="https://msdn.microsoft.com/e99e9bdb-6a3a-438d-8fac-92ef96c8dfdd">ITfDocumentMgr</a> interface pointer.
+[out] A pointer to receive <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer.
 
 
 ## -returns

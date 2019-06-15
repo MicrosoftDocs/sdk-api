@@ -52,13 +52,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>Right</b> method extracts the last (that is, rightmost) <i>nCount</i> characters from a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string and returns a copy of the extracted substring. If <i>nCount</i> exceeds the string length, then the entire string is extracted.
+The <b>Right</b> method extracts the last (that is, rightmost) <i>nCount</i> characters from a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string and returns a copy of the extracted substring. If <i>nCount</i> exceeds the string length, then the entire string is extracted.
 
 
 ## -parameters
@@ -68,16 +68,16 @@ The <b>Right</b> method extracts the last (that is, rightmost) <i>nCount</i> cha
 
 ### -param nCount
 
-The number of characters extracted from the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string.
+The number of characters extracted from the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> string.
 
 
 ## -returns
 
 
 
-Returns a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object that contains a copy of the specified range of characters.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object that contains a copy of the specified range of characters.
 
-<div class="alert"><b>Note</b>  The returned <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> object can be empty.</div>
+<div class="alert"><b>Note</b>  The returned <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object can be empty.</div>
 <div> </div>
 
 
@@ -87,15 +87,15 @@ Returns a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718cae
 
 
 
-<a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a>
+<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://msdn.microsoft.com/52219bbb-0a88-47b3-ac6c-ba54d15e8157">CHString::Left</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-left">CHString::Left</a>
 
 
 
-<a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">CHString::Mid</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-mid">CHString::Mid</a>
  
 
  

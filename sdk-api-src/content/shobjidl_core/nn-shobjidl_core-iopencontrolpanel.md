@@ -54,7 +54,7 @@ Exposes methods that retrieve the view state of the Control Panel, the path of i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpenControlPanel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOpenControlPanel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpenControlPanel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpenControlPanel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOpenControlPanel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed539638-7953-471f-ac90-ebd4c3929e8e">GetCurrentView</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iopencontrolpanel-getcurrentview">GetCurrentView</a>
 </td>
 <td align="left" width="63%">
 Gets the most recent Control Panel view: Classic view or Category view.
@@ -78,7 +78,7 @@ Gets the most recent Control Panel view: Classic view or Category view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2043a56a-cc03-4b05-a746-de4d11ac02e7">GetPath</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iopencontrolpanel-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path of a specified Control Panel item.
@@ -87,7 +87,7 @@ Gets the path of a specified Control Panel item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9485540b-0c3a-46f7-8c79-55991f943809">Open</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iopencontrolpanel-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the specified Control Panel item, optionally to a specific page.

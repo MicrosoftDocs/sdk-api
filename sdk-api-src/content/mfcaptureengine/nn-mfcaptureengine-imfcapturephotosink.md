@@ -54,7 +54,7 @@ Controls the photo sink. The photo sink captures still images from the video str
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCapturePhotoSink</b> interface inherits from <a href="https://msdn.microsoft.com/FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE">IMFCaptureSink</a>. <b>IMFCapturePhotoSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCapturePhotoSink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCapturePhotoSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFCapturePhotoSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D67C2D66-FC40-4AF3-9E83-29D0DBF99AD3">SetOutputByteStream</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturephotosink-setoutputbytestream">SetOutputByteStream</a>
 </td>
 <td align="left" width="63%">
 Specifies a byte stream that will receive the still image data.
@@ -78,7 +78,7 @@ Specifies a byte stream that will receive the still image data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CAA9F7CF-A92F-4039-BEA5-07A730E82EE4">SetOutputFileName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturephotosink-setoutputfilename">SetOutputFileName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the output file for the still image.
@@ -87,7 +87,7 @@ Specifies the name of the output file for the still image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/595716F6-8059-4B56-9FB3-906846BA3CBB">SetSampleCallback</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturephotosink-setsamplecallback">SetSampleCallback</a>
 </td>
 <td align="left" width="63%">
 Sets a callback to receive the still-image data.
@@ -110,7 +110,7 @@ The photo sink can deliver samples to one of the following destinations:
 </ul>
 The application must specify a single destination. Multiple destinations are not supported.
 
-To capture an image, call <a href="https://msdn.microsoft.com/6E633E90-9C8B-44B6-9149-704872143147">IMFCaptureEngine::TakePhoto</a>.
+To capture an image, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-takephoto">IMFCaptureEngine::TakePhoto</a>.
 
 
 
@@ -120,11 +120,11 @@ To capture an image, call <a href="https://msdn.microsoft.com/6E633E90-9C8B-44B6
 
 
 
-<a href="https://msdn.microsoft.com/FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE">IMFCaptureSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

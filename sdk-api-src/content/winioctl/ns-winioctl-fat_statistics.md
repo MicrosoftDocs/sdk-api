@@ -106,11 +106,11 @@ The number of write operations that were not cached. This value includes sub-wri
 
 
 
-<a href="https://msdn.microsoft.com/fc33e967-fbc0-4f98-9b6c-2d6ac103a256">EXFAT_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_exfat_statistics">EXFAT_STATISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ff8c7dfe-da7f-4ee2-9a54-613e0cd3e1e2">FILESYSTEM_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_filesystem_statistics">FILESYSTEM_STATISTICS</a>
  
 
  

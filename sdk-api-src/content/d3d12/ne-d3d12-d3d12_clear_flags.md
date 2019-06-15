@@ -71,7 +71,7 @@ Indicates the stencil buffer should be cleared.
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/EF56EA6C-00DB-4231-B67D-B99811F51246">ID3D12GraphicsCommandList::ClearDepthStencilView</a>.
+This enum is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-cleardepthstencilview">ID3D12GraphicsCommandList::ClearDepthStencilView</a>.
           The flags can be combined to clear all.
         
 
@@ -83,7 +83,7 @@ This enum is used by <a href="https://msdn.microsoft.com/EF56EA6C-00DB-4231-B67D
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
  
 
  

@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Extends the <a href="https://msdn.microsoft.com/FBC85FEC-9CD1-45C8-8A2A-04E7BEC483DE">IMFCaptureSink</a> interface to provide  functionality for dynamically setting the output media type of the record sink or preview sink.
+Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a> interface to provide  functionality for dynamically setting the output media type of the record sink or preview sink.
 
 
 ## -inheritance
@@ -69,7 +69,7 @@ The <b>IMFCaptureSink2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9a653c3-927b-4577-9a54-2d63f6b29c06">SetOutputMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink2-setoutputmediatype">SetOutputMediaType</a>
 </td>
 <td align="left" width="63%">
 Dynamically sets the output media type of the record sink or preview sink.
@@ -84,7 +84,7 @@ Dynamically sets the output media type of the record sink or preview sink.
 
 
 
-<a href="https://msdn.microsoft.com/3e367190-4c88-430e-adbf-9837e1bf0d2b">Media Foundation Interfaces</a>
+<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
  
 
  

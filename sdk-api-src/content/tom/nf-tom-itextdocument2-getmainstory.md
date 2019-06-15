@@ -59,7 +59,7 @@ Gets the main story.
 
 ### -param ppStory [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/8b52c6e8-c250-4cfb-979e-770df9f94010">ITextStory</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>**</b>
 
 The main story.
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A rich edit control automatically includes the main story; a call to the <a href="https://msdn.microsoft.com/4d6ef859-150b-41e7-be58-b9c87c61f7d8">ITextDocument2::GetNewStory</a> method is not required.
+A rich edit control automatically includes the main story; a call to the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getnewstory">ITextDocument2::GetNewStory</a> method is not required.
 
 
 
@@ -89,7 +89,7 @@ A rich edit control automatically includes the main story; a call to the <a href
 
 
 
-<a href="https://msdn.microsoft.com/0b0a54d7-7606-41f6-b8be-6367d9180ef4">ITextDocument2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Deprecated. Used when translating accelerators through <a href="https://msdn.microsoft.com/dda5c085-7199-4b83-b03e-e4c715665157">TranslateAcceleratorSB</a> and in checking the cycle of focus between the view and the browser's toolbars.
+Deprecated. Used when translating accelerators through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-translateacceleratorsb">TranslateAcceleratorSB</a> and in checking the cycle of focus between the view and the browser's toolbars.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Deprecated. Used when translating accelerators through <a href="https://msdn.mic
 
 Type: <b>LPMSG</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> that contains the keystroke message.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagmsg">MSG</a> that contains the keystroke message.
 
 
 ### -param itbNext [in]
@@ -83,7 +83,7 @@ The ID of the current toolbar with focus, or ITB_VIEW if the view has focus.
 
 Type: <b>LPTOOLBARITEM*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/7378f2f3-c164-46fe-9989-a7a57fceb48a">TOOLBARITEM</a> structure that represents the toolbar receiving the focus.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/ns-shdeprecated-stoolbaritem">TOOLBARITEM</a> structure that represents the toolbar receiving the focus.
 
 
 ### -param phwnd [out]

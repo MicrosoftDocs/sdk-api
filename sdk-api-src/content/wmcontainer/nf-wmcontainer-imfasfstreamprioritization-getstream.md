@@ -65,7 +65,7 @@ Retrieves the stream number of a stream in the stream priority list.
 
 ### -param dwStreamIndex [in]
 
-Zero-based index of the entry to retrieve from the stream priority list. To get the number of entries in the priority list, call <a href="https://msdn.microsoft.com/8c9dacbb-a952-411e-82df-0c8768d0b3fe">IMFASFStreamPrioritization::GetStreamCount</a>.
+Zero-based index of the entry to retrieve from the stream priority list. To get the number of entries in the priority list, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamprioritization-getstreamcount">IMFASFStreamPrioritization::GetStreamCount</a>.
 
 
 ### -param pwStreamNumber [out]
@@ -122,7 +122,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/6eb79c52-dc81-406c-9000-d25ad380e6b2">IMFASFStreamPrioritization</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>
  
 
  

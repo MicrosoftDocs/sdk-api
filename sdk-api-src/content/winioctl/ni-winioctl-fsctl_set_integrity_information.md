@@ -50,7 +50,7 @@ req.redist:
 
 Retrieves the integrity status of a file or directory on a ReFS volume.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -150,7 +150,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 The integrity status can only be changed for empty files.
 
-If the <a href="https://msdn.microsoft.com/23402a71-e945-4891-9815-c75e57051501">ReplaceFile</a> is used to replace a file with 
+If the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-replacefilea">ReplaceFile</a> is used to replace a file with 
     integrity set, and the <i>lpBackupFileName</i> parameter points to a location that does not 
     have integrity set, the integrity status of the original file will not be persisted.
 
@@ -167,19 +167,19 @@ Writes to integrity streams are always cluster-sized. Reads from integrity strea
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e003b2f-d38a-45f1-9b50-40af4087b0ce">FSCTL_GET_INTEGRITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_integrity_information">FSCTL_GET_INTEGRITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_fsctl_set_integrity_information_buffer">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f39e1c-3ebf-4c6f-a842-699ec3c45e76">Volume Management Control Codes</a>
+<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
  
 
  

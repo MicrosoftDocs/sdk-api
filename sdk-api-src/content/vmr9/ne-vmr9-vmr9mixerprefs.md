@@ -72,12 +72,12 @@ Decimate output by 2 in the x and y directions.
 
 ### -field MixerPref9_ARAdjustXorY
 
-Adjust the horizontal or vertical size of the video streams to match the target aspect ratio. If this flag is not present, the VMR adjusts the horizontal size only. Requires Windows XP Service Pack 2. For more information, see <a href="https://msdn.microsoft.com/0ed6010b-9168-44b1-be49-0c9d5d77ce3f">Aspect Ratio Correction</a>.
+Adjust the horizontal or vertical size of the video streams to match the target aspect ratio. If this flag is not present, the VMR adjusts the horizontal size only. Requires Windows XP Service Pack 2. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/aspect-ratio-correction">Aspect Ratio Correction</a>.
 
 
 ### -field MixerPref9_NonSquareMixing
 
-Do not perform aspect ratio correction on the composited stream if the input video streams have the same aspect ratio. Requires Windows XP Service Pack 2. For more information, see <a href="https://msdn.microsoft.com/8d27a921-5638-43ac-807d-e3bd7b9b2de8">Non-Square Mixing</a>.
+Do not perform aspect ratio correction on the composited stream if the input video streams have the same aspect ratio. Requires Windows XP Service Pack 2. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/non-square-mixing">Non-Square Mixing</a>.
 
 
 ### -field MixerPref9_DecimateMask
@@ -136,7 +136,7 @@ Use an RGB render target.
 
 ### -field MixerPref9_RenderTargetYUV
 
-Indicates that the target is a YUV surface. Requires Windows XP Service Pack 2. For more information, see <a href="https://msdn.microsoft.com/296b1d96-1824-4000-8bec-158925555177">YUV Mixing Mode</a>.
+Indicates that the target is a YUV surface. Requires Windows XP Service Pack 2. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/yuv-mixing-mode">YUV Mixing Mode</a>.
 
 
 ### -field MixerPref9_RenderTargetReserved
@@ -174,15 +174,15 @@ Bitmask to isolate the MixerPref9_DynamicSwitchToBOB and MixerPref9_DynamicDecim
 
 
 
-<a href="https://msdn.microsoft.com/74467006-b077-49c0-8573-f939ac3d3444">DirectShow Enumerated Types</a>
+<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390460(v=VS.85).aspx">IVMRMixerControl9::GetMixingPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getmixingprefs">IVMRMixerControl9::GetMixingPrefs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390467(v=VS.85).aspx">IVMRMixerControl9::SetMixingPrefs</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs">IVMRMixerControl9::SetMixingPrefs</a>
  
 
  

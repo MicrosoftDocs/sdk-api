@@ -94,7 +94,7 @@ This is an inline function, with the source code included in the header file. It
 
 
 
-<a href="https://msdn.microsoft.com/89B23CB0-50CF-43BE-B397-542FA433018D">GetContractDelegateWindow</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj152005(v=vs.85)">GetContractDelegateWindow</a>
  
 
  

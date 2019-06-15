@@ -55,7 +55,7 @@ Represents a clock vector in a knowledge structure.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClockVector</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IClockVector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClockVector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClockVector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IClockVector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15ce120e-dabc-4827-b317-82784466c1f1">GetClockVectorElementCount</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvector-getclockvectorelementcount">GetClockVectorElementCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of elements that are contained in the clock vector.
@@ -80,7 +80,7 @@ Gets the number of elements that are contained in the clock vector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a0712a2b-5aeb-458d-bc0f-c18eeb7ba9ff">GetClockVectorElements</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iclockvector-getclockvectorelements">GetClockVectorElements</a>
 </td>
 <td align="left" width="63%">
 Returns an enumerator that iterates through the clock vector elements.
@@ -106,7 +106,7 @@ A clock vector defines the changes that are contained in a knowledge structure b
 
 
 
-<a href="https://msdn.microsoft.com/2c185fe2-1bbe-4409-aea0-6e138430b304">Windows Sync Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
  
 
  

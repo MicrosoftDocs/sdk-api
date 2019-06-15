@@ -87,11 +87,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/e29e626f-3e63-4c27-934b-64be51dcf3db">IDWriteFont</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>
 
 
 
-<a href="https://msdn.microsoft.com/0464BA91-B098-463D-A4A9-8D3C05E45F0E">IDWriteFontFace1::GetUnicodeRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite_1/nf-dwrite_1-idwritefontface1-getunicoderanges">IDWriteFontFace1::GetUnicodeRanges</a>
  
 
  

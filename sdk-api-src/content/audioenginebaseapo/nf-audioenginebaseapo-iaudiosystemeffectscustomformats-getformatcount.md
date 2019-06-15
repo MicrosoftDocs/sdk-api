@@ -75,7 +75,7 @@ The <code>GetFormatCount</code> method returns S_OK when the call is successful.
 
 
 
-For more information about sAPOs, see <a href="https://msdn.microsoft.com/5275e404-19b9-4a44-88de-1a40f3798ede">System Effects Audio Processing Objects</a>.
+For more information about sAPOs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/target-device-id">System Effects Audio Processing Objects</a>.
 
 
 
@@ -85,7 +85,7 @@ For more information about sAPOs, see <a href="https://msdn.microsoft.com/5275e4
 
 
 
-<a href="https://msdn.microsoft.com/54ac63b4-9846-44ce-8afb-ded52ae2cd71">System Effects Audio Processing Objects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/system-effects-audio-processing-objects">System Effects Audio Processing Objects</a>
  
 
  

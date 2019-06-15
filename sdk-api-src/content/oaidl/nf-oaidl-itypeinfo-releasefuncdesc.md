@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Releases a FUNCDESC previously returned by <a href="https://msdn.microsoft.com/1e3331a2-0156-4d8f-aa7f-e32cecd3eb74">ITypeInfo::GetFuncDesc</a>.
+Releases a FUNCDESC previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getfuncdesc">ITypeInfo::GetFuncDesc</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
  
 
  

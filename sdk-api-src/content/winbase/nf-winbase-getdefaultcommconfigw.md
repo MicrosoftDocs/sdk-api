@@ -67,7 +67,7 @@ The name of the device. For example, COM1 through COM9 are serial ports and LPT1
 ### -param lpCC [out]
 
 A pointer to a buffer that receives a 
-<a href="https://msdn.microsoft.com/9fd66f39-06a2-4159-9d1e-4ba84570c510">COMMCONFIG</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig">COMMCONFIG</a> structure.
 
 
 ### -param lpdwSize [in, out]
@@ -82,7 +82,7 @@ A pointer to a variable that specifies the size of the buffer pointed to by <i>l
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, use the 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -92,19 +92,19 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/9fd66f39-06a2-4159-9d1e-4ba84570c510">COMMCONFIG</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-_commconfig">COMMCONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba7d1a9e-6906-4923-a8eb-db58050ba699">Communications Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/7faf7d55-e30f-4be2-917b-e057265b81b2">Communications Resources</a>
+<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b228b56-34ca-4b37-af67-4e4e1fa60df2">SetDefaultCommConfig</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdefaultcommconfiga">SetDefaultCommConfig</a>
  
 
  

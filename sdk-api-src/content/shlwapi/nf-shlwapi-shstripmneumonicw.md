@@ -121,7 +121,7 @@ The function supports the following mnemonic formats.
 
 
 
-<a href="https://msdn.microsoft.com/fe412280-d797-4abd-8a29-107a9cd96145">DrawText</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
  
 
  

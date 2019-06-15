@@ -63,7 +63,7 @@ Creates an error object that can passed to functions to record rich error inform
 
 ### -param properties
 
-An array of  <a href="https://msdn.microsoft.com/463b634f-bb15-494d-8061-c4fa0b97b990">WS_ERROR_PROPERTY</a> structures containing optional error properties.
+An array of  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_error_property">WS_ERROR_PROPERTY</a> structures containing optional error properties.
                 
 
 
@@ -75,7 +75,7 @@ The number of properties in the <i>properties</i> array.
 
 ### -param error
 
-On success, a pointer that receives the address of the <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> structure representing the created error object.
+On success, a pointer that receives the address of the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure representing the created error object.
                 
 
 
@@ -133,13 +133,13 @@ This function may return other errors not listed above.
 
 
 
-When you no long need the error object, free it by calling  the <a href="https://msdn.microsoft.com/61da7bc2-b805-4379-a6b2-1e92374be1a0">WsFreeError</a> function.
+When you no long need the error object, free it by calling  the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> function.
             
 
 By default, the
                 language of any language-dependent information in the error object is  the current 
                 user default UI language. However, you can change the language by setting 
-                the WS_ERROR_PROPERTY_LANGID property. See the the <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ID</a> enumeration.
+                the WS_ERROR_PROPERTY_LANGID property. See the the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ID</a> enumeration.
 
 
 

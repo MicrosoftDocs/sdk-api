@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a> callback.  
+Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> callback.  
 
 
 
@@ -63,19 +63,19 @@ Returns the proximity evaluation score and the adjusted touch-point coordinates 
 
 ### -param pHitTestingInput [in]
 
-The <a href="https://msdn.microsoft.com/d2103f6e-6aa9-4260-bef9-cfcbec35e675">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area. 
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouch_hit_testing_input">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area. 
 
 
 ### -param pProximityEval [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh437256(v=VS.85).aspx">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data that the <a href="https://msdn.microsoft.com/443d12f2-9f26-4e1e-9bf3-cd97b4026399">EvaluateProximityToPolygon</a> or <a href="https://msdn.microsoft.com/269ef4c1-9c9f-4bd7-9852-e82c4a707d3c">EvaluateProximityToRect</a> function returns.
+The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data that the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytopolygon">EvaluateProximityToPolygon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytorect">EvaluateProximityToRect</a> function returns.
 
 
 ## -returns
 
 
 
-If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> values from <a href="https://msdn.microsoft.com/en-us/library/Hh437256(v=VS.85).aspx">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> as an LRESULT. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> values from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tagtouch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> as an LRESULT. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
  
 
 
@@ -85,7 +85,7 @@ If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> 
 
 
 
-Usually, this is the last function that's called in a <a href="https://msdn.microsoft.com/741F9D67-A914-46CF-91A3-EF40447E7438">WM_TOUCHHITTESTING</a>  handler.
+Usually, this is the last function that's called in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a>  handler.
 
 
 
@@ -95,11 +95,11 @@ Usually, this is the last function that's called in a <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/C7275A12-4F76-485D-896F-3CCB8CE92F8E">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/functions">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/EACDE6DB-ADBD-4F0C-8C31-7321AB6A73EA">Touch Hit Testing Scores</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/hit-testing-scores">Touch Hit Testing Scores</a>
  
 
  

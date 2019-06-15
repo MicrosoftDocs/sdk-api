@@ -103,7 +103,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -128,7 +128,7 @@ Setting the expiration age to a small value causes the Pointer next operations t
 
 
 
-<a href="https://msdn.microsoft.com/d6607ffb-21a9-41ec-863f-f1514b115d4d">RpcNsMgmtHandleSetExpAge</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmthandlesetexpage">RpcNsMgmtHandleSetExpAge</a>
  
 
  

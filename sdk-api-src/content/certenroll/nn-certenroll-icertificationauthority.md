@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>ICertificationAuthority</b> interface represents a single certification authority. A collection of certification authorities is represented by the <a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a> interface.
+The <b>ICertificationAuthority</b> interface represents a single certification authority. A collection of certification authorities is represented by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthorities">ICertificationAuthorities</a> interface.
 
 
 ## -see-also
@@ -57,11 +57,11 @@ The <b>ICertificationAuthority</b> interface represents a single certification a
 
 
 
-<a href="https://msdn.microsoft.com/8dad280a-1fe7-4a4b-9392-eee3aa9bcde9">ICertificationAuthorities</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthorities">ICertificationAuthorities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
  
 
  

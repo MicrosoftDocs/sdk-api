@@ -59,7 +59,7 @@ Retrieves status information about the document object.
 
 ### -param pdwStatus [out]
 
-A pointer to the information on supported behaviors. Possible values are taken from the <a href="https://msdn.microsoft.com/e52e022e-dd82-42f0-a3dd-2730ad80613c">DOCMISC</a> enumeration.
+A pointer to the information on supported behaviors. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-__midl_ioledocument_0001">DOCMISC</a> enumeration.
 
 
 ## -returns
@@ -102,7 +102,7 @@ Values from this enumerator are also stored in the registry as the value of the 
 By calling this method prior to activating a document object, containers can take whatever steps are necessary to support or otherwise accommodate the specified behaviors.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-This method must be completely implemented in any document object, even if the dereferenced value of <i>pdwStatus</i> is zero. E_NOTIMPL is not an acceptable return value. Normally, the returned <a href="https://msdn.microsoft.com/e52e022e-dd82-42f0-a3dd-2730ad80613c">DOCMISC</a> value should be hard-coded for performance.
+This method must be completely implemented in any document object, even if the dereferenced value of <i>pdwStatus</i> is zero. E_NOTIMPL is not an acceptable return value. Normally, the returned <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-__midl_ioledocument_0001">DOCMISC</a> value should be hard-coded for performance.
 
 
 
@@ -112,11 +112,11 @@ This method must be completely implemented in any document object, even if the d
 
 
 
-<a href="https://msdn.microsoft.com/e52e022e-dd82-42f0-a3dd-2730ad80613c">DOCMISC</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-__midl_ioledocument_0001">DOCMISC</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a15d6ef-900c-4a0b-8b85-60dc66ca03a3">IOleDocument</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocument">IOleDocument</a>
  
 
  

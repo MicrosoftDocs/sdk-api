@@ -64,7 +64,7 @@ Number of elements in <i>Ranges</i>.
 
 ### -param Ranges [out]
 
-Array of  <a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a> structures that specify the ranges to download. When done, call the <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>Ranges</i>.
+Array of  <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-_bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges to download. When done, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>Ranges</i>.
 
 
 ## -returns
@@ -111,15 +111,15 @@ No ranges were specified or the job is an upload or upload-reply job. <i>RangeCo
 
 
 
-<a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-_bg_file_range">BG_FILE_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/facff24d-56a3-4a1f-a726-3442c17fe869">IBackgroundCopyFile2</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
  
 
  

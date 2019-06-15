@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-Gets or sets the handle value associated with the window the <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> object uses.
+Gets or sets the handle value associated with the window the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object uses.
 
 
 
@@ -70,7 +70,7 @@ This property is read/write.
 
 If two or more windows exist, this property allows you to specify which window collects ink.
 
-The HRESULT E_INVALIDOPERATION is returned when you attempt set this property on a child <a href="https://msdn.microsoft.com/fd686a78-b0a8-41d2-a37b-90544f531270">RealTimeStylus</a> object.
+The HRESULT E_INVALIDOPERATION is returned when you attempt set this property on a child <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object.
 
 
 
@@ -80,11 +80,11 @@ The HRESULT E_INVALIDOPERATION is returned when you attempt set this property on
 
 
 
-<a href="https://msdn.microsoft.com/bfd13012-decf-423a-bc1a-39fb9b0eb64e">IRealTimeStylus</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://msdn.microsoft.com/e96e27d7-b453-49a7-b684-b3dd5f94c378">IRealTimeStylus::Enabled Property</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_enabled">IRealTimeStylus::Enabled Property</a>
 
 
 
@@ -92,7 +92,7 @@ The HRESULT E_INVALIDOPERATION is returned when you attempt set this property on
 
 
 
-<a href="https://msdn.microsoft.com/a239b53c-7fc9-4211-962a-6cfbe0be4e4c">RealTimeStylus Reference</a>
+<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
  
 
  

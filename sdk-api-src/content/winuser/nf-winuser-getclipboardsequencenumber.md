@@ -85,7 +85,7 @@ The system keeps a serial number for the clipboard for each window station. This
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
  
 
  

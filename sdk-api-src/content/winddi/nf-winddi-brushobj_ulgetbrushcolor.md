@@ -59,7 +59,7 @@ The <b>BRUSHOBJ_ulGetBrushColor</b> function returns the RGB color of the specif
 
 ### -param pbo
 
-Pointer to the <a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a> structure whose color is being queried.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a> structure whose color is being queried.
 
 
 ## -returns
@@ -85,7 +85,7 @@ The color stored in the <b>iSolidColor</b> member of the BRUSHOBJ structure is a
 
 
 
-<a href="https://msdn.microsoft.com/81216bee-d13f-4880-a839-337a247a6c82">BRUSHOBJ</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_brushobj">BRUSHOBJ</a>
  
 
  

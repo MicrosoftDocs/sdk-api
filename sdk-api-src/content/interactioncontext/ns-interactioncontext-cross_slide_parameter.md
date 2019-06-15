@@ -59,7 +59,7 @@ Defines the cross-slide threshold and its distance threshold.
 
 ### -field threshold
 
-One of the constants from <a href="https://msdn.microsoft.com/c498e2ae-a761-4f93-9ec2-4030b03e64b9">CROSS_SLIDE_THRESHOLD</a>.
+One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-cross_slide_threshold">CROSS_SLIDE_THRESHOLD</a>.
 
 
 ### -field distance
@@ -72,15 +72,15 @@ The <i>threshold</i> distance, in DIPs.
 
 
 
-<a href="https://msdn.microsoft.com/19e934c6-8cd7-4302-a903-bd7865aef908">GetCrossSlideParameterInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getcrossslideparameterinteractioncontext">GetCrossSlideParameterInteractionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/38C5CE85-405B-455F-809D-19C77B8A217B">Interaction Context Structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/b4d9459a-7b07-4316-bf5c-628de08de7dc">SetCrossSlideParametersInteractionContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setcrossslideparametersinteractioncontext">SetCrossSlideParametersInteractionContext</a>
  
 
  

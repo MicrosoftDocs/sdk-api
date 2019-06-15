@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://msdn.microsoft.com/en-us/library/Bb761071(v=VS.85).aspx">LVM_GETSELECTIONMARK</a> message. 
+Gets the selection mark from a list-view control. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getselectionmark">LVM_GETSELECTIONMARK</a> message. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Gets the selection mark from a list-view control. You can use this macro or expl
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control. 
 
@@ -78,7 +78,7 @@ The selection mark is the item index from which a multiple selection starts.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775112(v=VS.85).aspx">ListView_SetSelectionMark</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setselectionmark">ListView_SetSelectionMark</a>
  
 
  

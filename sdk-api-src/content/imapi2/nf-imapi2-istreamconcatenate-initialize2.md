@@ -127,7 +127,7 @@ Value: 0x80070057
 
 
 
-When using the <a href="https://msdn.microsoft.com/48b786ef-a1b6-4dcf-9329-c659f15185e1">IStreamConcatenate</a> interface, the following  scenarios will result in undefined behaviors, and should be avoided:
+When using the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a> interface, the following  scenarios will result in undefined behaviors, and should be avoided:
 
 <ul>
 <li>Each partial stream composing the MsftStreamConcatenate object is actually the same stream.</li>
@@ -141,11 +141,11 @@ When using the <a href="https://msdn.microsoft.com/48b786ef-a1b6-4dcf-9329-c659f
 
 
 
-<a href="https://msdn.microsoft.com/48b786ef-a1b6-4dcf-9329-c659f15185e1">IStreamConcatenate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
 
 
 
-<a href="https://msdn.microsoft.com/62db148e-926d-47b3-a0f6-945730177184">IStreamConcatenate::Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">IStreamConcatenate::Initialize</a>
  
 
  

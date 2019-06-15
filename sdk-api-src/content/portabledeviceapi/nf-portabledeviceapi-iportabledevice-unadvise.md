@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>Unadvise</b> method unregisters a client from receiving callback notifications. You must call this method if you called <a href="https://msdn.microsoft.com/bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca">Advise</a> previously.
+The <b>Unadvise</b> method unregisters a client from receiving callback notifications. You must call this method if you called <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-advise">Advise</a> previously.
       
 
 
@@ -61,7 +61,7 @@ The <b>Unadvise</b> method unregisters a client from receiving callback notifica
 
 ### -param pszCookie [in]
 
-Pointer to a null-terminated string that is a unique context ID. This was retrieved in the initial call to <a href="https://msdn.microsoft.com/bab28a19-7ba2-4edd-b5aa-c2017b4bf8ca">IPortableDevice::Advise</a>.
+Pointer to a null-terminated string that is a unique context ID. This was retrieved in the initial call to <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-advise">IPortableDevice::Advise</a>.
           
 
 
@@ -99,7 +99,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/98c48e56-56b8-4800-b52b-ac08f2abf27e">IPortableDevice Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
  
 
  

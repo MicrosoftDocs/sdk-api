@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the window handle that was previously associated with this DirectDrawClipper object by the <a href="https://msdn.microsoft.com/7683bccd-3f5c-4098-9041-9c66853cda0e">IDirectDrawClipper::SetHWnd</a> method.
+Retrieves the window handle that was previously associated with this DirectDrawClipper object by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-sethwnd">IDirectDrawClipper::SetHWnd</a> method.
 
 
 
@@ -62,7 +62,7 @@ Retrieves the window handle that was previously associated with this DirectDrawC
 
 #### - lphWnd [out]
 
-A pointer to a variable that receives the window handle that was previously associated with this DirectDrawClipper object by the <a href="https://msdn.microsoft.com/7683bccd-3f5c-4098-9041-9c66853cda0e">IDirectDrawClipper::SetHWnd</a> method.
+A pointer to a variable that receives the window handle that was previously associated with this DirectDrawClipper object by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawclipper-sethwnd">IDirectDrawClipper::SetHWnd</a> method.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to access the  <b>GetHWnd</b> method.
+You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetHWnd</b> method.
 
 
 
@@ -96,7 +96,7 @@ You must use <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d
 
 
 
-<a href="https://msdn.microsoft.com/2e93583a-59a8-4a0f-9299-ed57fdcebf33">IDirectDrawClipper</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a>
  
 
  

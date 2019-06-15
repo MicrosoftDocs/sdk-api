@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Queue Manager (QMGR) is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/ce91f87c-8273-4a1c-99e0-ef55e2a50334">Background Intelligent Transfer Service (BITS)</a>.]
+<p class="CCE_Message">[Queue Manager (QMGR) is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/background-intelligent-transfer-service-portal">Background Intelligent Transfer Service (BITS)</a>.]
 
 The <b>GROUPPROP</b> enumeration defines the constant values for retrieving and setting group property values.
 
@@ -106,7 +106,7 @@ Variant data type can be VT_I4, VT_I2, VT_UI4, VT_UI2, VT_INT, or VT_UINT.
 
 ### -field GROUPPROP_NOTIFYCLSID
 
-The 	CLSID to activate when an event specified by <b>GROUPPROP_NOTIFYFLAGS</b> occurs. For more details on CLSID activation, see <a href="https://msdn.microsoft.com/d5d22cf6-d9b5-4001-a0ac-f67d59dde779">IBackgroundCopyCallback1</a>.
+The 	CLSID to activate when an event specified by <b>GROUPPROP_NOTIFYFLAGS</b> occurs. For more details on CLSID activation, see <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopycallback1">IBackgroundCopyCallback1</a>.
 
 Variant data type is VT_BSTR. 
 
@@ -161,7 +161,7 @@ The <b>GROUPPROP_NOTIFYFLAGS</b> group property can contain one or more of the f
 </tr>
 <tr>
 <td>QM_NOTIFY_GROUP_DONE</td>
-<td>Notifies the application through <a href="https://msdn.microsoft.com/88f75a65-8d27-4413-8b00-4caf11fbcc5e">IBackgroundCopyCallback1::OnStatus</a> that the group is complete.</td>
+<td>Notifies the application through <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopycallback1-onstatus">IBackgroundCopyCallback1::OnStatus</a> that the group is complete.</td>
 </tr>
 <tr>
 <td>QM_NOTIFY_DISABLE_NOTIFY</td>
@@ -174,7 +174,7 @@ The <b>GROUPPROP_NOTIFYFLAGS</b> group property can contain one or more of the f
 </table>
  
 
-<div class="alert"><b>Note</b>  By default, QMGR calls your <a href="https://msdn.microsoft.com/88f75a65-8d27-4413-8b00-4caf11fbcc5e">IBackgroundCopyCallback1::OnStatus</a> method when an error occurs.</div>
+<div class="alert"><b>Note</b>  By default, QMGR calls your <a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nf-qmgr-ibackgroundcopycallback1-onstatus">IBackgroundCopyCallback1::OnStatus</a> method when an error occurs.</div>
 <div> </div>
 
 

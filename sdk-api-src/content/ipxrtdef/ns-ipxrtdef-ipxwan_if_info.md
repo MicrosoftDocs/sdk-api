@@ -79,11 +79,11 @@ ADMIN_STATE_ENABLED_ONLY_FOR_OPER_STATE_UP
 
 
 
-<a href="https://msdn.microsoft.com/f1c07033-dbfa-4bbe-b275-f5bfc629b2d7">IPX_IF_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ipxrtdef/ns-ipxrtdef-_ipx_if_info">IPX_IF_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/389002c9-2d24-4b35-ab5b-801fe2091db9">MprInfo Functions and Information Headers</a>
+<a href="https://docs.microsoft.com/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
  
 
  

@@ -142,7 +142,7 @@ Insufficient memory to complete the operation.
 
 Gets information at the type information level (about the type information and its members). The caller should free the BSTR parameters.
 
-This function will call <b>_DLLGetDocumentation</b> in the specified DLL to retrieve the desired Help string, if there is a Help string context for this item. If no Help string context exists or an error occurs, then it will defer to the <a href="https://msdn.microsoft.com/64d2cb0c-d0ca-499b-b089-44525f7f9749">GetDocumentation</a> method and return the associated documentation string.
+This function will call <b>_DLLGetDocumentation</b> in the specified DLL to retrieve the desired Help string, if there is a Help string context for this item. If no Help string context exists or an error occurs, then it will defer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getdocumentation">GetDocumentation</a> method and return the associated documentation string.
 
 
 
@@ -153,7 +153,7 @@ This function will call <b>_DLLGetDocumentation</b> in the specified DLL to retr
 
 
 
-<a href="https://msdn.microsoft.com/d3a34a13-6114-4f15-9de5-60da43fde600">ITypeInfo2</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
  
 
  

@@ -69,7 +69,7 @@ The <b>ISyncProviderConfigUIInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/eb9a2f2f-4c9f-405c-90f6-b251ab1a652d">GetSyncProviderConfigUI</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfiguiinfo-getsyncproviderconfigui">GetSyncProviderConfigUI</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of a synchronization provider configuration UI.
@@ -83,7 +83,7 @@ Creates an instance of a synchronization provider configuration UI.
 
 
 
-You can get and set the properties of a  synchronization provider configuration UI by calling the <a href="https://msdn.microsoft.com/eb9a2f2f-4c9f-405c-90f6-b251ab1a652d">GetSyncProviderConfigUI</a>method and manipulating the configuration UI's <b>IPropertyStore</b>.
+You can get and set the properties of a  synchronization provider configuration UI by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderconfiguiinfo-getsyncproviderconfigui">GetSyncProviderConfigUI</a>method and manipulating the configuration UI's <b>IPropertyStore</b>.
 
 
 
@@ -93,7 +93,7 @@ You can get and set the properties of a  synchronization provider configuration 
 
 
 
-<a href="https://msdn.microsoft.com/8233671e-bf89-448d-8347-9b4f0ae7501f">Windows Sync Registration Reference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
  
 
  

@@ -66,7 +66,7 @@ The unique ID of the field. Fields should have a unique identifier compared to a
 
 ### -field cpft
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762490(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_field_type">CREDENTIAL_PROVIDER_FIELD_TYPE</a></b>
 
 The field type.
 
@@ -165,7 +165,7 @@ The PIN obtained from an inserted smart card.
 
 
 
-Each UI element presented to the user on a tile is defined by the credential provider as a field. The <b>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</b> is how the credential provider identifies the fields. Once a field has been defined for a particular usage scenario, it can not be added to or subtracted from. Credential providers need to fully define all of their fields before enumerating tiles. If fields are going to appear or disappear as part of the credential acquisition process, those fields still not to be defined ahead of time. Use <a href="https://msdn.microsoft.com/en-us/library/Bb762489(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_STATE</a> to hide or display the fields as necessary.
+Each UI element presented to the user on a tile is defined by the credential provider as a field. The <b>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</b> is how the credential provider identifies the fields. Once a field has been defined for a particular usage scenario, it can not be added to or subtracted from. Credential providers need to fully define all of their fields before enumerating tiles. If fields are going to appear or disappear as part of the credential acquisition process, those fields still not to be defined ahead of time. Use <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-_credential_provider_field_state">CREDENTIAL_PROVIDER_FIELD_STATE</a> to hide or display the fields as necessary.
 
 
 

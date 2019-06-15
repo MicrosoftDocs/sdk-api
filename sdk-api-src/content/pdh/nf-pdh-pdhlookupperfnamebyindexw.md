@@ -88,8 +88,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a> or a 
-<a href="https://msdn.microsoft.com/ea67d798-81db-44ad-b0fb-24e0c3be7388">PDH error code</a>. The following are possible values.
+<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -156,7 +156,7 @@ The index value that you specify must match one of the index values associated w
 
 
 
-<a href="https://msdn.microsoft.com/b8530bf3-0a9b-49c2-9494-4dca14cd57ef">PdhLookupPerfIndexByName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhlookupperfindexbynamea">PdhLookupPerfIndexByName</a>
  
 
  

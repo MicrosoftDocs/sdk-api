@@ -95,11 +95,11 @@ If this function fails, the return value is <b>FALSE</b>.
 
 Given a device context, <b>GetICMProfile</b> will output, through the parameter <i>lpszFilename</i>, the path name of the file containing the color profile currently being used by the device context. It will also output, through the parameter <i>lpcbName</i>, the length of the string containing the path name.
 
-It is possible that the profile name returned by <b>GetICMProfile</b> will not be in the list of profiles returned by <a href="https://msdn.microsoft.com/a93e6239-b6c7-4e37-9f06-03790a3ed53f">EnumICMProfiles</a>. The <b>EnumICMProfiles</b> function returns all color space profiles that are associated with a device context (DC) whose settings match that of the DC. If the <a href="https://msdn.microsoft.com/c95f6536-9377-4766-9eb6-004a41bcf6c5">SetICMProfile</a> function is used to set the current profile, a profile may be associated with the DC that does not match its settings. For instance, the <b>SetICMProfile</b> function can be used to associate the device-independent sRGB profile with a DC. This profile will be used as the current WCS profile for that DC, and calls to <b>GetICMProfile</b> will return its file name. However, the profile will not appear in the list of profiles that is returned from <b>EnumICMProfiles</b>.
+It is possible that the profile name returned by <b>GetICMProfile</b> will not be in the list of profiles returned by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>. The <b>EnumICMProfiles</b> function returns all color space profiles that are associated with a device context (DC) whose settings match that of the DC. If the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a> function is used to set the current profile, a profile may be associated with the DC that does not match its settings. For instance, the <b>SetICMProfile</b> function can be used to associate the device-independent sRGB profile with a DC. This profile will be used as the current WCS profile for that DC, and calls to <b>GetICMProfile</b> will return its file name. However, the profile will not appear in the list of profiles that is returned from <b>EnumICMProfiles</b>.
 
 If this function is called before any calls to the <b>SetICMProfile</b> function, it can be used to get the default profile for a device context.
 
-<b>Windows 95/98/Me: </b><b>GetICMProfileW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
+<b>Windows 95/98/Me: </b><b>GetICMProfileW</b> is supported by the Microsoft Layer for Unicode. To use this, you must add certain files to your application, as outlined in <a href="https://msdn.microsoft.com/library?url=/library/mslu/winprog/microsoft_layer_for_unicode_on_windows_95_98_me_systems.asp">Microsoft Layer for Unicode on Windows 95/98/Me Systems</a>.
 
 
 
@@ -109,19 +109,19 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 
 
-<a href="https://msdn.microsoft.com/a0623917-0b63-4546-a71a-1e9efa9fe8e5">Basic Color Management Concepts</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://msdn.microsoft.com/a93e6239-b6c7-4e37-9f06-03790a3ed53f">EnumICMProfiles</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee9e9502-5514-4070-95fa-265674a1dde7">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/c95f6536-9377-4766-9eb6-004a41bcf6c5">SetICMProfile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
  
 
  

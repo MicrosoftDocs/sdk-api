@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> object into a FILETIME object.
+Converts a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> object into a FILETIME object.
        A reference to the FILETIME object is returned by output parameter.
 
 
@@ -60,7 +60,7 @@ Converts a <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6
 
 ### -param dateTime [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a> structure to convert.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a> structure to convert.
         
 
 
@@ -72,7 +72,7 @@ A pointer to the new FILETIME object that contains the converted time.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -119,8 +119,8 @@ The input data was not in the expected format or did not have the expected value
 
 
 
-A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="https://msdn.microsoft.com/635f8e0b-f994-4500-85ad-dd74fb4a6c22">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
-      (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
+A FILETIME cannot represent dates between January 1, 0001 and January 1, 1601.  A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_datetime">WS_DATETIME</a>within this range causes the function to return <b>WS_E_INVALID_FORMAT</b>.
+      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 
 

@@ -54,7 +54,7 @@ Provides methods of interaction with a connected identity provider.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectedIdentityProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IConnectedIdentityProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConnectedIdentityProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConnectedIdentityProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IConnectedIdentityProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/945CBE34-E364-41FF-8CE4-0FB0BEF3BC69">ConnectIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-connectidentity">ConnectIdentity</a>
 </td>
 <td align="left" width="63%">
 Connects an identity to a domain user.
@@ -78,7 +78,7 @@ Connects an identity to a domain user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D7869001-5412-48C9-9C31-0181A9366965">DisconnectIdentity</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-disconnectidentity">DisconnectIdentity</a>
 </td>
 <td align="left" width="63%">
 Disconnects an online identity from the current domain user.
@@ -87,7 +87,7 @@ Disconnects an online identity from the current domain user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/623A9AE8-D838-4F00-B81E-35031ADB67F5">GetUrl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nf-identityprovider-iconnectedidentityprovider-geturl">GetUrl</a>
 </td>
 <td align="left" width="63%">
 Returns the URL string for the specified wizard or webpage.

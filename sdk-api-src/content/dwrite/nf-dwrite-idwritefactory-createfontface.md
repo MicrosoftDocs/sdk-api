@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param fontFaceType
 
-Type: <b><a href="https://msdn.microsoft.com/839527fb-2560-4472-8115-960bf5b6badd">DWRITE_FONT_FACE_TYPE</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_face_type">DWRITE_FONT_FACE_TYPE</a></b>
 
 A value that indicates the type of file format of the font face.
 
@@ -73,9 +73,9 @@ The number of font files, in element count, required to represent the font face.
 
 ### -param fontFiles [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>*</b>
 
-A font file object representing the font face.  Because <a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>maintains its own references
+A font file object representing the font face.  Because <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>maintains its own references
      to the input font file objects, you may release them after this call.
 
 
@@ -89,14 +89,14 @@ The zero-based index of a font face, in cases when the font files contain a coll
 
 ### -param fontFaceSimulationFlags
 
-Type: <b><a href="https://msdn.microsoft.com/0881afec-2fa5-4f17-96a2-68a5293e0bba">DWRITE_FONT_SIMULATIONS</a></b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ne-dwrite-dwrite_font_simulations">DWRITE_FONT_SIMULATIONS</a></b>
 
 A value that indicates which, if any, font face simulation flags for algorithmic means of making text bold or italic are applied to the current font face.
 
 
 ### -param fontFace [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>**</b>
 
 When this method returns, contains an address of a pointer to the newly created font face object, or <b>NULL</b> in case of failure.
 
@@ -117,7 +117,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
  
 
  

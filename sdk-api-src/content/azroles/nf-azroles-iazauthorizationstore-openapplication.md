@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>OpenApplication</b> method opens the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object with the specified name.
+The <b>OpenApplication</b> method opens the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>OpenApplication</b> method opens the <a href="https://msdn.microsoft.com/
 
 ### -param bstrApplicationName [in]
 
-Name of the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object to open.
+Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object to open.
 
 
 ### -param varReserved [in, optional]
@@ -70,7 +70,7 @@ Reserved for future use.
 
 ### -param ppApplication [out]
 
-A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object.
+A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
 
 
 ## -returns

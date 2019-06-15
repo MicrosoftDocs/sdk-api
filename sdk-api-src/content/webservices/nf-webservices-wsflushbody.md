@@ -52,13 +52,13 @@ ms.custom: 19H1
 Flushes all accumulated message body data that has been written.
             
 
-When message uses <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> or XML Writerthe data is accumulated in a buffer.   WsFlushBody subsequently performs the actual
+When message uses <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> or XML Writerthe data is accumulated in a buffer.   WsFlushBody subsequently performs the actual
                 I/O.
             
 
 WsFlushBody is typically used when  channel I/O is set to 
-                <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an 
-                XML Writer  set to use <a href="https://msdn.microsoft.com/en-us/library/Dd323585(v=VS.85).aspx">WS_XML_WRITER_STREAM_OUTPUT</a>.
+                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an 
+                XML Writer  set to use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_stream_output">WS_XML_WRITER_STREAM_OUTPUT</a>.
             
 
 
@@ -69,7 +69,7 @@ WsFlushBody is typically used when  channel I/O is set to
 
 ### -param message [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/22cc39a9-a3a7-4b4d-bdee-0ccac5dc03ee">WS_MESSAGE</a> structure containing the accumulated message body data.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> structure containing the accumulated message body data.
 
 
 ### -param minSize [in]
@@ -89,13 +89,13 @@ Specifies the minimum number of bytes that must be present in the
 
 ### -param asyncContext [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information about invoking the function asynchronously.  A <b>NULL</b> 
                  value indicates a request for synchronous operation.
 
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/d5763d93-8eff-4df8-9a8a-a58aefabcb21">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
                 
 
 
@@ -176,11 +176,11 @@ This function may return other errors not listed above.
 
 
 
-This function is a "no-op" when <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or when using an
-                XML Writer with <a href="https://msdn.microsoft.com/en-us/library/Dd323575(v=VS.85).aspx">WS_XML_WRITER_BUFFER_OUTPUT</a> set.
+This function is a "no-op" when <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or when using an
+                XML Writer with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-_ws_xml_writer_buffer_output">WS_XML_WRITER_BUFFER_OUTPUT</a> set.
       
 
-This function is shortcut for calling <a href="https://msdn.microsoft.com/ba631942-d5a0-4d93-9899-c3f0ebd4aae5">WsFlushWriter</a> for 
+This function is shortcut for calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushwriter">WsFlushWriter</a> for 
                 the XML Writer being used to write the message.  Calling 
                 <b>WsFlushWriter</b> directly is equivalent to calling this function.
             

@@ -82,7 +82,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/66e631cb-2ae8-40b0-8ec8-3a02764284bf">IAnalogRadioTuningSpace2 Interface</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace2">IAnalogRadioTuningSpace2 Interface</a>
  
 
  

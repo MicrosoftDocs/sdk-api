@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves or sets <a href="https://msdn.microsoft.com/4804152f-2042-4c6a-83c6-75c5e1ab7a04">Windows Management Instrumentation</a> (WMI) queries to run.
+Retrieves or sets <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page">Windows Management Instrumentation</a> (WMI) queries to run.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 
 
-For details on writing WMI queries, see <a href="https://msdn.microsoft.com/en-us/library/Aa394606(v=VS.85).aspx">WQL (SQL for WMI)</a>.
+For details on writing WMI queries, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL (SQL for WMI)</a>.
 
 
 
@@ -73,7 +73,7 @@ For details on writing WMI queries, see <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/7266c02d-0f56-4754-8a67-68394a5f0158">IConfigurationDataCollector</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
  
 
  

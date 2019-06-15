@@ -54,12 +54,12 @@ Initializes a device endpoint object and gets the capabilities of the device tha
 A <i>device endpoint</i> abstracts an audio device. The device can be a rendering device such as a speaker or a capture  device such as a microphone. A device endpoint must implement the <b>IAudioDeviceEndpoint</b> interface.
       
 
-To a get a reference to the <b>IAudioDeviceEndpoint</b> interface of the device, the audio engine calls <b>QueryInterface</b> on the audio endpoint (<a href="https://msdn.microsoft.com/f9638dea-f61d-45f6-b91d-72e4fc1b4a92">IAudioInputEndpointRT</a> or <a href="https://msdn.microsoft.com/b881b2f9-ffe9-46ff-94aa-eef0af172a3e">IAudioOutputEndpointRT</a>) for the device.
+To a get a reference to the <b>IAudioDeviceEndpoint</b> interface of the device, the audio engine calls <b>QueryInterface</b> on the audio endpoint (<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt">IAudioOutputEndpointRT</a>) for the device.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioDeviceEndpoint</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAudioDeviceEndpoint</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioDeviceEndpoint</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioDeviceEndpoint</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IAudioDeviceEndpoint</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56ed44ee-44dd-4a56-a4cc-2983d4802773">GetEventDrivenCapable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-geteventdrivencapable">GetEventDrivenCapable</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the audio endpoint can be event driven.
@@ -83,7 +83,7 @@ Indicates whether the audio endpoint can be event driven.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba8aa8c2-8d62-477a-b5c0-338c989c57a6">GetRTCaps</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-getrtcaps">GetRTCaps</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the audio device is real-time (RT)-capable.
@@ -92,7 +92,7 @@ Indicates whether the audio device is real-time (RT)-capable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/345a172b-11af-4c98-9f9c-54bfa38c5077">SetBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">SetBuffer</a>
 </td>
 <td align="left" width="63%">
 Sets the endpoint format and the size of the endpoint's buffer through which the audio data is streamed.
@@ -101,7 +101,7 @@ Sets the endpoint format and the size of the endpoint's buffer through which the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0484432a-4bbe-4892-8888-f11d6384d387">WriteExclusiveModeParametersToSharedMemory</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-writeexclusivemodeparameterstosharedmemory">WriteExclusiveModeParametersToSharedMemory</a>
 </td>
 <td align="left" width="63%">
 Creates and writes the exclusive-mode parameters to shared memory.

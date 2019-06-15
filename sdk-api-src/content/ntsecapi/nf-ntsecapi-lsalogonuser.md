@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>LsaLogonUser</b> function authenticates a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security principal's</a> logon data by using stored credentials information.
+The <b>LsaLogonUser</b> function authenticates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal's</a> logon data by using stored credentials information.
 
 If the authentication is successful, this function creates a new logon session and returns a user token.
 
@@ -64,17 +64,17 @@ When a new ticket granting ticket (TGT) is obtained by using new certificate cre
 ### -param LsaHandle [in]
 
 A handle obtained from a previous call to 
-<a href="https://msdn.microsoft.com/1bef2949-b4c8-400e-8a2d-60aa88a4e238">LsaRegisterLogonProcess</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterlogonprocess">LsaRegisterLogonProcess</a>.
 
 The caller is required to have <b>SeTcbPrivilege</b> only if one or more of the following is true:
 
 <ul>
 <li>A Subauthentication package is used.</li>
 <li>
-<a href="https://msdn.microsoft.com/ab94c36b-7aba-452d-abc0-220c91ffacca">KERB_S4U_LOGON</a> is used, and the caller requests an impersonation token.</li>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">KERB_S4U_LOGON</a> is used, and the caller requests an impersonation token.</li>
 <li>The <i>LocalGroups</i> parameter is not <b>NULL</b>.</li>
 </ul>
- If <b>SeTcbPrivilege</b> is not required, call <a href="https://msdn.microsoft.com/b54917c8-51cd-4891-9613-f37a4a46448b">LsaConnectUntrusted</a> to obtain the handle.
+ If <b>SeTcbPrivilege</b> is not required, call <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaconnectuntrusted">LsaConnectUntrusted</a> to obtain the handle.
 
 
 ### -param OriginName [in]
@@ -85,13 +85,13 @@ A string that identifies the origin of the logon attempt. For more information, 
 ### -param LogonType [in]
 
 A 
-value of the <a href="https://msdn.microsoft.com/d775d782-9403-47b2-bb43-8f677db49eb9">SECURITY_LOGON_TYPE</a> enumeration that specifies the type of logon requested. If <i>LogonType</i> is Interactive or Batch, a primary token is generated to represent the new user. If <i>LogonType</i> is Network, an impersonation token is generated.
+value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_security_logon_type">SECURITY_LOGON_TYPE</a> enumeration that specifies the type of logon requested. If <i>LogonType</i> is Interactive or Batch, a primary token is generated to represent the new user. If <i>LogonType</i> is Network, an impersonation token is generated.
 
 
 ### -param AuthenticationPackage [in]
 
 An identifier of the authentication package to use for the authentication. You can obtain this value by calling 
-<a href="https://msdn.microsoft.com/c6504aea-fdba-44ac-b2dc-070707bb1183">LsaLookupAuthenticationPackage</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>.
 
 
 ### -param AuthenticationInformation [in]
@@ -107,20 +107,20 @@ This parameter can be one of the following input buffer structures for the MSV1_
 </tr>
 <tr>
 <td width="40%"><a id="MSV1_0_INTERACTIVE_LOGON"></a><a id="msv1_0_interactive_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/f9b9a966-54b9-4f89-98cc-d92e3f74571d">MSV1_0_INTERACTIVE_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a></b></dt>
 <dt>MSV1_0</dt>
 </dl>
 </td>
 <td width="60%">
 Authenticating an interactive user logon.
 
-The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="https://msdn.microsoft.com/ab94c36b-7aba-452d-abc0-220c91ffacca">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
+The <b>LogonDomainName</b>,  <b>UserName</b>, and <b>Password </b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">MSV1_0_INTERACTIVE_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="KERB_INTERACTIVE_LOGON"></a><a id="kerb_interactive_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe">KERB_INTERACTIVE_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -131,7 +131,7 @@ Authenticating an interactive user logon.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_TICKET_LOGON"></a><a id="kerb_ticket_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/2c082c79-ce7f-45a1-8552-3b4e9034b7e3">KERB_TICKET_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_ticket_logon">KERB_TICKET_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -142,7 +142,7 @@ Authenticating a user on initial network logon or disconnect.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_TICKET_UNLOCK_LOGON"></a><a id="kerb_ticket_unlock_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/24daa3d1-1116-4b0b-a19b-a23075a69197">KERB_TICKET_UNLOCK_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_ticket_unlock_logon">KERB_TICKET_UNLOCK_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -153,7 +153,7 @@ Authenticating a user on ticket refresh, a variation of the normal workstation u
 </tr>
 <tr>
 <td width="40%"><a id="KERB_CERTIFICATE_LOGON"></a><a id="kerb_certificate_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/e6aa0042-edb5-4e9b-b545-5159d3bfb8fc">KERB_CERTIFICATE_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -164,7 +164,7 @@ Authenticating a user using an interactive smart card logon.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_CERTIFICATE_S4U_LOGON"></a><a id="kerb_certificate_s4u_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/C7BF8A80-493E-4BDB-ACE3-F9492C71BCA9">KERB_CERTIFICATE_S4U_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_s4u_logon">KERB_CERTIFICATE_S4U_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -175,7 +175,7 @@ Authenticating a user using a service for user (S4U) logon.
 </tr>
 <tr>
 <td width="40%"><a id="KERB_CERTIFICATE_UNLOCK_LOGON"></a><a id="kerb_certificate_unlock_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/04e058b0-9a05-4ed7-9d4a-1c8c003d8077">KERB_CERTIFICATE_UNLOCK_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_certificate_unlock_logon">KERB_CERTIFICATE_UNLOCK_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -186,7 +186,7 @@ Authenticating a user to unlock a workstation that has been locked during an int
 </tr>
 <tr>
 <td width="40%"><a id="KERB_SMARTCARD_LOGON"></a><a id="kerb_smartcard_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/1a154034-6a2d-46be-9fb6-7c7d425d12f6">KERB_SMARTCARD_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_smart_card_logon">KERB_SMARTCARD_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -197,7 +197,7 @@ Authenticating a user smart card logon using LOGON32_PROVIDER_WINNT50 or LOGON32
 </tr>
 <tr>
 <td width="40%"><a id="KERB_SMARTCARD_UNLOCK_LOGON"></a><a id="kerb_smartcard_unlock_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/5fcd61f6-d93d-4047-b472-8b44f9681907">KERB_SMARTCARD_UNLOCK_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_smart_card_unlock_logon">KERB_SMARTCARD_UNLOCK_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
@@ -208,32 +208,32 @@ Authenticating a user to unlock a workstation that has been locked during a smar
 </tr>
 <tr>
 <td width="40%"><a id="KERB_S4U_LOGON"></a><a id="kerb_s4u_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/ab94c36b-7aba-452d-abc0-220c91ffacca">KERB_S4U_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">KERB_S4U_LOGON</a></b></dt>
 <dt>Kerberos</dt>
 </dl>
 </td>
 <td width="60%">
-Authenticating a user using S4U client requests. For <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">constrained delegation</a>, a call to LsaLogonUser is not necessary if the client logged on using an LSA-mode authentication package. On Windows operating systems, these include <a href="https://msdn.microsoft.com/e7870e72-1386-4818-bf6f-73430ae942a8">Kerberos</a>, <a href="https://msdn.microsoft.com/35a38858-d36f-45c9-95f4-2541a182f5ac">NTLM</a>, <a href="https://msdn.microsoft.com/159074a1-6425-409a-8470-02cd485b75e9">Secure Channel</a>, and <a href="https://msdn.microsoft.com/0b7d67c9-00ac-4b04-bf8e-97aaf1020108">Digest</a>. For this call to succeed, the following must be true:
+Authenticating a user using S4U client requests. For <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">constrained delegation</a>, a call to LsaLogonUser is not necessary if the client logged on using an LSA-mode authentication package. On Windows operating systems, these include <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-kerberos">Kerberos</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-ntlm">NTLM</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/secure-channel">Secure Channel</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-digest-ssp">Digest</a>. For this call to succeed, the following must be true:
 
 <ul>
 <li>The caller must be a domain account (this includes LOCAL_SYSTEM if the computer is a domain member).</li>
 <li>If using a service account, the account must have <b>SeTcbPrivilege</b> set on the local computer to get an impersonation token. Otherwise, the identity token is used.</li>
 <li>The caller must be a member of the <b>Pre-Windows 2000 Compatible Access</b> or have read access to the group memberships of the client. Membership in the Windows Authorization Access group guarantees read access to group membership of the client. For information about how to configure the Windows Authorization Access group, see the Microsoft Knowledge Base.</li>
 </ul>
-The <b>ClientUpn</b> and <b>ClientRealm</b> members of the <a href="https://msdn.microsoft.com/ab94c36b-7aba-452d-abc0-220c91ffacca">KERB_S4U_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
+The <b>ClientUpn</b> and <b>ClientRealm</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_kerb_s4u_logon">KERB_S4U_LOGON</a> structure must point to buffers in memory that are contiguous to the structure itself. The value of the <i>AuthenticationInformationLength</i> parameter must take into account the length of these buffers.
 
 </td>
 </tr>
 <tr>
 <td width="40%"><a id="MSV1_0_LM20_LOGON"></a><a id="msv1_0_lm20_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/0736ab5b-a475-4593-a15e-970b5d4c64d0">MSV1_0_LM20_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a></b></dt>
 <dt>MSV1_0</dt>
 </dl>
 </td>
 <td width="60%">
 Processing the second half of an NTLM 2.0 protocol logon. The first half of this type of logon is performed by calling 
-<a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> with the <b>MsV1_0Lm20ChallengeRequest</b> message. For more information, see the description of <b>MsV1_0Lm20ChallengeRequest</b> in 
-<a href="https://msdn.microsoft.com/9498558c-8daf-4dfb-aa1c-0598154ca8c4">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> with the <b>MsV1_0Lm20ChallengeRequest</b> message. For more information, see the description of <b>MsV1_0Lm20ChallengeRequest</b> in 
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-_msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
 
 This type of logon can use a subauthentication package.
 
@@ -241,7 +241,7 @@ This type of logon can use a subauthentication package.
 </tr>
 <tr>
 <td width="40%"><a id="MSV1_0_SUBAUTH_LOGON"></a><a id="msv1_0_subauth_logon"></a><dl>
-<dt><b><a href="https://msdn.microsoft.com/e53cb14a-097c-4ee4-ab7a-baa4b6699cc7">MSV1_0_SUBAUTH_LOGON</a></b></dt>
+<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-_msv1_0_subauth_logon">MSV1_0_SUBAUTH_LOGON</a></b></dt>
 <dt>MSV1_0</dt>
 </dl>
 </td>
@@ -268,8 +268,8 @@ A list of additional group identifiers to add to the token of the authenticated 
 
 ### -param SourceContext [in]
 
-A <a href="https://msdn.microsoft.com/9c533327-e4a0-4852-828c-622d190b7d1e">TOKEN_SOURCE</a> structure that identifies the source module—for example, the session manager—and the context that may be useful to that module. This information is included in the user token and can be retrieved by calling 
-<a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>.
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_token_source">TOKEN_SOURCE</a> structure that identifies the source module—for example, the session manager—and the context that may be useful to that module. This information is included in the user token and can be retrieved by calling 
+<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>.
 
 
 ### -param ProfileBuffer [out]
@@ -333,7 +333,7 @@ Output when using authentication with subauthentication.
 For more information about the buffer used by other authentication packages, see the documentation for that authentication package.
 
 When this buffer is no longer needed, the calling application must free this buffer by calling 
-the <a href="https://msdn.microsoft.com/e814ed68-07e7-4936-ba96-5411086f43f6">LsaFreeReturnBuffer</a> function.
+the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a> function.
 
 
 ### -param ProfileBufferLength [out]
@@ -344,18 +344,18 @@ A pointer to a <b>ULONG</b> that receives the length, in bytes, of the returned 
 ### -param LogonId [out]
 
 A pointer to a buffer that receives an 
-<a href="https://msdn.microsoft.com/a812a46b-f23f-45b1-a6c6-48f931b78750">LUID</a> that uniquely identifies the logon session. This <b>LUID</b> is assigned by the domain controller that authenticated the logon information.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_luid">LUID</a> that uniquely identifies the logon session. This <b>LUID</b> is assigned by the domain controller that authenticated the logon information.
 
 
 ### -param Token [out]
 
-A pointer to a handle that receives the new user token created for this session. When you have finished using the token, release it by calling the <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function.
+A pointer to a handle that receives the new user token created for this session. When you have finished using the token, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 
 ### -param Quotas [out]
 
 When a primary token is returned, this parameter receives a 
-<a href="https://msdn.microsoft.com/7514ec77-34b1-490d-ba21-3b6944942aa7">QUOTA_LIMITS</a> structure that contains the process quota limits assigned to the newly logged on user's initial process.
+<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_quota_limits">QUOTA_LIMITS</a> structure that contains the process quota limits assigned to the newly logged on user's initial process.
 
 
 ### -param SubStatus [out]
@@ -518,10 +518,10 @@ The Kerberos client is using a system certificate that is not valid. For device 
  
 
 For more information, see 
-<a href="https://msdn.microsoft.com/ee55364e-8ffe-4a78-a49a-250756561770">LSA Policy Function Return Values</a>.
+<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 The 
-<a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function converts an <b>NTSTATUS</b> code to a Windows error code.
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an <b>NTSTATUS</b> code to a Windows error code.
 
 
 
@@ -542,19 +542,19 @@ You must call <b>LsaLogonUser</b> separately to update PKINIT device credentials
 
 
 
-<a href="https://msdn.microsoft.com/3d813e46-f06e-4147-874c-30b5fc6f50d9">Allowing Anonymous Access</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Allowing Anonymous Access</a>
 
 
 
-<a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
 
 
 
-<a href="https://msdn.microsoft.com/e814ed68-07e7-4936-ba96-5411086f43f6">LsaFreeReturnBuffer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6504aea-fdba-44ac-b2dc-070707bb1183">LsaLookupAuthenticationPackage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>
  
 
  

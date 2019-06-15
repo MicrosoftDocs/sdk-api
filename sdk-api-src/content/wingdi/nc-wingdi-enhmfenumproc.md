@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>EnhMetaFileProc</b> function is an application-defined callback function used with the <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a> function. The <b>ENHMFENUMPROC</b> type defines a pointer to this callback function. <b>EnhMetaFileProc</b> is a placeholder for the application-defined function name.
+The <b>EnhMetaFileProc</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function. The <b>ENHMFENUMPROC</b> type defines a pointer to this callback function. <b>EnhMetaFileProc</b> is a placeholder for the application-defined function name.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ The <b>EnhMetaFileProc</b> function is an application-defined callback function 
 
 #### - hDC [in]
 
-Handle to the device context passed to <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a>.
+Handle to the device context passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>.
 
 
 #### - lpData [in]
@@ -95,7 +95,7 @@ Pointer to one of the records in the metafile. This record should not be modifie
 
 #### - lpHTable [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/c0c03c7d-baac-4b59-ba2f-8f6330651b49">HANDLETABLE</a> structure representing the table of handles associated with the graphics objects (pens, brushes, and so on) in the metafile. The first entry contains the enhanced-metafile handle.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taghandletable">HANDLETABLE</a> structure representing the table of handles associated with the graphics objects (pens, brushes, and so on) in the metafile. The first entry contains the enhanced-metafile handle.
 
 
 #### - nObj [in]
@@ -116,7 +116,7 @@ This function must return a nonzero value to continue enumeration; to stop enume
 
 
 
-An application must register the callback function by passing its address to the <a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a> function.
+An application must register the callback function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
 
 
 
@@ -126,23 +126,23 @@ An application must register the callback function by passing its address to the
 
 
 
-<a href="https://msdn.microsoft.com/efe49094-fe61-40e1-873e-3302c595717e">ENHMETARECORD</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagenhmetarecord">ENHMETARECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/bef5f43e-219a-4f8a-986d-290e29e17c4e">EnumEnhMetaFile</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0c03c7d-baac-4b59-ba2f-8f6330651b49">HANDLETABLE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taghandletable">HANDLETABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/93a17a8c-308b-4442-933e-fedc8b9a84b0">Metafile Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/309ee4cf-111b-4f09-a722-4823cb3d26b0">Metafiles Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
  
 
  

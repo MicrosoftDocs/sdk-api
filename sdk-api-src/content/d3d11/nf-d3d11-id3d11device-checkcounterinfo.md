@@ -60,9 +60,9 @@ Get a counter's information.
 
 ### -param pCounterInfo [out]
 
-Type: <b><a href="https://msdn.microsoft.com/64730e19-1a9e-4494-a3aa-314fd72281e1">D3D11_COUNTER_INFO</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_info">D3D11_COUNTER_INFO</a>*</b>
 
-Pointer to counter information (see <a href="https://msdn.microsoft.com/64730e19-1a9e-4494-a3aa-314fd72281e1">D3D11_COUNTER_INFO</a>).
+Pointer to counter information (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_info">D3D11_COUNTER_INFO</a>).
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
  
 
  

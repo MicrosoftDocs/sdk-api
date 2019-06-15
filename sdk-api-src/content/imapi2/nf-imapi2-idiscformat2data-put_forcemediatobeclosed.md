@@ -102,7 +102,7 @@ When the free space on a disc reaches 2% or less, the write process marks the di
 
 You can erase a rewritable disc that is marked closed.
 
-Note that the <a href="https://msdn.microsoft.com/d32bbb33-0cb6-46cd-8a06-7ddd6e94a7b3">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a> property may supersede this property. Please refer to <b>put_DisableConsumerDvdCompatibilityMode</b> for details.
+Note that the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a> property may supersede this property. Please refer to <b>put_DisableConsumerDvdCompatibilityMode</b> for details.
 
 
 
@@ -112,11 +112,11 @@ Note that the <a href="https://msdn.microsoft.com/d32bbb33-0cb6-46cd-8a06-7ddd6e
 
 
 
-<a href="https://msdn.microsoft.com/6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e">IDiscFormat2Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/9de0afa9-93b7-4a12-b8e2-a9c083692f98">IDiscFormat2Data::get_ForceMediaToBeClosed</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_forcemediatobeclosed">IDiscFormat2Data::get_ForceMediaToBeClosed</a>
  
 
  

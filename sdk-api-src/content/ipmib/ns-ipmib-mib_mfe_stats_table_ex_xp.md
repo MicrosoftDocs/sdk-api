@@ -66,7 +66,7 @@ The number of MFEs  in the array.
 ### -field table
 
 A pointer to a table of MFEs that are implemented as an array of 
-<a href="https://msdn.microsoft.com/4d1b35bd-da6c-48a1-ade1-f96148c9eecb">MIB_IPMCAST_MFE_STATS_EX</a> structures.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ipmib/ns-ipmib-_mib_ipmcast_mfe_stats_ex_xp">MIB_IPMCAST_MFE_STATS_EX</a> structures.
 
 
 ## -remarks

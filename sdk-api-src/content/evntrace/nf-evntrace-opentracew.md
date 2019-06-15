@@ -68,7 +68,7 @@ The <b>OpenTrace</b> function opens a real-time trace session or
 
 ### -param Logfile [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a> structure. 
+Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure. 
       The structure specifies the source from which to consume events (from a log file or the session in real time) 
       and specifies the callbacks the consumer wants to use to receive the events. 
 
@@ -113,7 +113,7 @@ If the function fails, it returns INVALID_PROCESSTRACE_HANDLE.
 </div>
 <div> </div>
 If the function returns INVALID_PROCESSTRACE_HANDLE, you can use the 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function to obtain extended error 
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain extended error 
        information. The following table lists some common errors and their causes.
 
 <table>
@@ -139,7 +139,7 @@ The <i>Logfile</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-If you did not specify the <b>LoggerName</b> member of <a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a>, you must specify a valid log file name.
+If you did not specify the <b>LoggerName</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>, you must specify a valid log file name.
 
 </td>
 </tr>
@@ -171,8 +171,8 @@ Only users with administrative privileges, users in the Performance Log Users gr
 Consumers call this function.
 
 After calling <b>OpenTrace</b>, call the 
-    <a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a> function to process the events. When you have 
-    finished processing events, call the <a href="https://msdn.microsoft.com/25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec">CloseTrace</a> 
+    <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function to process the events. When you have 
+    finished processing events, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a> 
     function.
 
 Note that you can process events from only one real-time session.
@@ -185,8 +185,8 @@ Windows Vista and earlier: If the function fails it will returns INVALID_HANDLE
 #### Examples
 
 For an example that uses <b>OpenTrace</b>, see 
-     <a href="https://msdn.microsoft.com/5ebd500c-420e-4979-a03a-49b687464b0e">Using TdhFormatProperty to Consume Event Data</a> 
-     or <a href="https://msdn.microsoft.com/13512236-c416-43ba-bf36-b05c5c08d6c9">Retrieving Event Data Using MOF</a>.
+     <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a> 
+     or <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
 
 <div class="code"></div>
 
@@ -197,15 +197,15 @@ For an example that uses <b>OpenTrace</b>, see
 
 
 
-<a href="https://msdn.microsoft.com/25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec">CloseTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/179451e9-7e3c-4d3a-bcc6-3ad9d382229a">EVENT_TRACE_LOGFILE</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/aea25a95-f435-4068-9b15-7473f31ebf16">ProcessTrace</a>
+<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
  
 
  

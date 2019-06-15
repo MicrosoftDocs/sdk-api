@@ -61,7 +61,7 @@ Gets the server principal name that uniquely identifies the peer.
 ### -param pName [out]
 
 Null-terminated string that contains the server principal name of the peer. The principal name is of the form, server$.domain.suffix. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>pName</i> when done.
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>pName</i> when done.
 
 
 ## -returns
@@ -106,7 +106,7 @@ The principal name ensures the unique identity of the peer computer and is the e
 
 
 
-<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeer">IBitsPeer</a>
  
 
  

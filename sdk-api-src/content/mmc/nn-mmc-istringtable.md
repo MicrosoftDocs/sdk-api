@@ -61,7 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStringTable</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IStringTable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStringTable</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStringTable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IStringTable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd4672fb-89d1-4542-b917-58c01290c928">AddString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-addstring">AddString</a>
 </td>
 <td align="left" width="63%">
 Adds a string to the snap-in string table.
@@ -85,7 +85,7 @@ Adds a string to the snap-in string table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9a0b02f6-3c15-4687-a1b8-2beba40dd1dc">DeleteAllStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deleteallstrings">DeleteAllStrings</a>
 </td>
 <td align="left" width="63%">
 Removes all string from the snap-in string table.
@@ -94,7 +94,7 @@ Removes all string from the snap-in string table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/57d04890-5dd8-45e5-9b46-b982ea3a4f36">DeleteString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-deletestring">DeleteString</a>
 </td>
 <td align="left" width="63%">
 Removes a string from the snap-in string table.
@@ -103,7 +103,7 @@ Removes a string from the snap-in string table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d23e29d-a80f-4710-8285-c9e64fd580a1">Enumerate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-enumerate">Enumerate</a>
 </td>
 <td align="left" width="63%">
 Returns an enumerator into a snap-in string table.
@@ -112,7 +112,7 @@ Returns an enumerator into a snap-in string table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c239618d-ed27-4d73-9e88-7323960a0e68">FindString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-findstring">FindString</a>
 </td>
 <td align="left" width="63%">
 Finds a string in the snap-in string table.
@@ -121,7 +121,7 @@ Finds a string in the snap-in string table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/34dbf92a-b54d-4f60-87ff-493c9946a57d">GetString</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string from the snap-in string table.
@@ -130,7 +130,7 @@ Retrieves a string from the snap-in string table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1924c4fa-ecbb-4f03-8c93-e2bb3dc8f4e3">GetStringLength</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-getstringlength">GetStringLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of a string from the snap-in string table.

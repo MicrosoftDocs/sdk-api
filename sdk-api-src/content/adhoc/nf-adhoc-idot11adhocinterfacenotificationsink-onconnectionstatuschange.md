@@ -59,7 +59,7 @@ Notifies the client that the connection status of the network associated with th
 
 ### -param eStatus
 
-A pointer to a  <a href="https://msdn.microsoft.com/en-us/library/ms705987(v=VS.85).aspx">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the new connection state.
+A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-tagdot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the new connection state.
 
 
 ## -returns
@@ -105,7 +105,7 @@ The method failed.
 
 
 
-This notification is triggered when the connection status changes as a result of connection and disconnection requests issued by the current application. It is also triggered when other applications issue successful connection  and disconnection requests using the <a href="https://msdn.microsoft.com/2736bb81-b66f-4c09-8c76-ca16f3eab192">IDot11AdHocNetwork</a> methods or the <a href="https://msdn.microsoft.com/c1816d68-48b2-4d3d-a8c8-4a243a4b3f3b">Native Wifi functions</a>.
+This notification is triggered when the connection status changes as a result of connection and disconnection requests issued by the current application. It is also triggered when other applications issue successful connection  and disconnection requests using the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> methods or the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi functions</a>.
 
 
 
@@ -115,7 +115,7 @@ This notification is triggered when the connection status changes as a result of
 
 
 
-<a href="https://msdn.microsoft.com/ab3fd026-32b4-48cb-aa10-37a084b5b08e">IDot11AdHocInterfaceNotificationSink</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterfacenotificationsink">IDot11AdHocInterfaceNotificationSink</a>
  
 
  

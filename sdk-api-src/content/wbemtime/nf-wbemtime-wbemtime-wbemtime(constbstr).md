@@ -52,13 +52,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> class 
+<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> class constructor overload method takes a <b>BSTR</b> parameter.
+The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class constructor overload method takes a <b>BSTR</b> parameter.
 
 
 ## -parameters
@@ -70,26 +70,26 @@ The <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WB
 
 <b>BSTR</b> in Date and Time Format. The <b>BSTR</b> is converted to GMT.
 
-Now when you use <a href="https://msdn.microsoft.com/3bfcf7f8-0b0c-4a3f-83c7-be4c37753a7a">WBEMTime::GetDMTF</a> to retrieve it you have only two choices:
+Now when you use <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a> to retrieve it you have only two choices:
 
 <ul>
 <li>Get as Local Time</li>
 <li>Get as GMT</li>
 </ul>
-At this point, the actual offset used in the <b>BSTR</b> to build the <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object has been lost.
+At this point, the actual offset used in the <b>BSTR</b> to build the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object has been lost.
 
 
 ## -remarks
 
 
 
-If you use the <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a>( <b>BSTR</b> <i>bstrDMTFFormat</i>) form of the constructor, you can only retrieve the time in one of these ways:
+If you use the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>( <b>BSTR</b> <i>bstrDMTFFormat</i>) form of the constructor, you can only retrieve the time in one of these ways:
 
 <ul>
 <li>Get as Local Time</li>
 <li>Get as GMT</li>
 </ul>
-The actual offset used in the <b>BSTR</b> to build the <a href="https://msdn.microsoft.com/b633bc8c-9d02-4bcf-8528-10773fb5ae7a">WBEMTime</a> object has been lost.
+The actual offset used in the <b>BSTR</b> to build the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object has been lost.
 
 Should an "*" appear in any location in the inbound datetime string <i>bstrDMTFFormat</i>, the * is replaced on a positional basis with the default datetime string "16010101000000.000000+000".
 

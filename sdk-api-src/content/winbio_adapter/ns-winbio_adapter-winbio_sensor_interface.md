@@ -86,122 +86,122 @@ A GUID that uniquely identifies the sensor adapter. You must generate this value
 
 ### -field Attach
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/91243128-0543-4df9-bde8-74ef5ae46914">SensorAdapterAttach</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_attach_fn">SensorAdapterAttach</a> function.
 
 
 ### -field Detach
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/58124c44-4343-44c1-84a2-c03455d68199">SensorAdapterDetach</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_detach_fn">SensorAdapterDetach</a> function.
 
 
 ### -field ClearContext
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/a0743004-aa79-41d8-87c7-2a1b6f00a1f2">SensorAdapterClearContext</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_clear_context_fn">SensorAdapterClearContext</a> function.
 
 
 ### -field QueryStatus
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/88c22183-5bc8-4ac9-9048-72ee7a861b76">SensorAdapterQueryStatus</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_query_status_fn">SensorAdapterQueryStatus</a> function.
 
 
 ### -field Reset
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/09a93726-2dff-4a8a-b36c-ad481a4f61b6">SensorAdapterReset</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_reset_fn">SensorAdapterReset</a> function.
 
 
 ### -field SetMode
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/83c4ecfa-da4f-41d3-b0ca-d654735743cd">SensorAdapterSetMode</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_set_mode_fn">SensorAdapterSetMode</a> function.
 
 
 ### -field SetIndicatorStatus
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/a47815d0-934c-43d4-8f4a-5f57a1c9f278">SensorAdapterSetIndicatorStatus</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_set_indicator_status_fn">SensorAdapterSetIndicatorStatus</a> function.
 
 
 ### -field GetIndicatorStatus
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/01dbf2ee-5b47-47a8-b22c-a80aec5f7fff">SensorAdapterGetIndicatorStatus</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_get_indicator_status_fn">SensorAdapterGetIndicatorStatus</a> function.
 
 
 ### -field StartCapture
 
-A pointer to your implementation of the   <a href="https://msdn.microsoft.com/79922878-f5d3-4400-8c4f-2636323d7dcf">SensorAdapterStartCapture</a> function.
+A pointer to your implementation of the   <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_start_capture_fn">SensorAdapterStartCapture</a> function.
 
 
 ### -field FinishCapture
 
-A pointer to your implementation of the   <a href="https://msdn.microsoft.com/f9ede590-5208-40ed-ac62-604a2d13a5a6">SensorAdapterFinishCapture</a> function.
+A pointer to your implementation of the   <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn">SensorAdapterFinishCapture</a> function.
 
 
 ### -field ExportSensorData
 
-A pointer to your implementation of the   <a href="https://msdn.microsoft.com/a6e45371-169b-42a8-9a53-dd7b2928a754">SensorAdapterExportSensorData</a> function.
+A pointer to your implementation of the   <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_export_sensor_data_fn">SensorAdapterExportSensorData</a> function.
 
 
 ### -field Cancel
 
-A pointer to your implementation of the   <a href="https://msdn.microsoft.com/11a0728e-1833-43b3-8ae2-0393743bb19b">SensorAdapterCancel</a> function.
+A pointer to your implementation of the   <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_cancel_fn">SensorAdapterCancel</a> function.
 
 
 ### -field PushDataToEngine
 
-A pointer to your implementation of the   <a href="https://msdn.microsoft.com/dea49f4b-668d-4b30-a16f-b74f260785c2">SensorAdapterPushDataToEngine</a> function.
+A pointer to your implementation of the   <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_push_data_to_engine_fn">SensorAdapterPushDataToEngine</a> function.
 
 
 ### -field ControlUnit
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/cc37b9a0-bea8-4413-a2fe-30a92db74604">SensorAdapterControlUnit</a> function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn">SensorAdapterControlUnit</a> function.
 
 
 ### -field ControlUnitPrivileged
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/373233e6-b3d0-40ce-8698-77841963d5f3">SensorAdapterControlUnitPrivileged</a>   function.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_privileged_fn">SensorAdapterControlUnitPrivileged</a>   function.
 
 
 ### -field NotifyPowerChange
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/7EA9D7E7-3DB9-4131-A747-B0388310ACB5">SensorAdapterNotifyPowerChange</a> function.  This member is supported starting in Windows 8.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_notify_power_change_fn">SensorAdapterNotifyPowerChange</a> function.  This member is supported starting in Windows 8.
 
 
 ### -field PipelineInit
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/91667505-78D6-405E-9028-DF4F3037B455">SensorAdapterPipelineInit</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_init_fn">SensorAdapterPipelineInit</a> function. This member is supported starting in Windows 10.
 
 
 ### -field PipelineCleanup
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/36238A6F-BDE2-454E-A183-ED10A455AF13">SensorAdapterPipelineCleanup</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_pipeline_cleanup_fn">SensorAdapterPipelineCleanup</a> function. This member is supported starting in Windows 10.
 
 
 ### -field Activate
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/CC5128D8-9863-4B9F-B82D-AE2A0D5A45C5">SensorAdapterActivate</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_activate_fn">SensorAdapterActivate</a> function. This member is supported starting in Windows 10.
 
 
 ### -field Deactivate
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/2F10401B-5C0B-4376-AB4D-696FD1BEA079">SensorAdapterDeactivate</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_deactivate_fn">SensorAdapterDeactivate</a> function. This member is supported starting in Windows 10.
 
 
 ### -field QueryExtendedInfo
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/28CC3757-5A9D-4E29-A26C-6FD90A38B45B">SensorAdapterQueryExtendedInfo</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_query_extended_info_fn">SensorAdapterQueryExtendedInfo</a> function. This member is supported starting in Windows 10.
 
 
 ### -field QueryCalibrationFormats
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/F8C97013-3BDA-445F-A2C2-60D08DD9C71A">SensorAdapterQueryCalibrationFormats</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_query_calibration_formats_fn">SensorAdapterQueryCalibrationFormats</a> function. This member is supported starting in Windows 10.
 
 
 ### -field SetCalibrationFormat
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/06BC3CBF-AB51-47C8-BCFB-ADC3D920F27B">SensorAdapterSetCalibrationFormat</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_set_calibration_format_fn">SensorAdapterSetCalibrationFormat</a> function. This member is supported starting in Windows 10.
 
 
 ### -field AcceptCalibrationData
 
-A pointer to your implementation of the <a href="https://msdn.microsoft.com/EE3B7066-BE91-4F63-8E0A-70F5CAB46496">SensorAdapterAcceptCalibrationData</a> function. This member is supported starting in Windows 10.
+A pointer to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_accept_calibration_data_fn">SensorAdapterAcceptCalibrationData</a> function. This member is supported starting in Windows 10.
 
 
 ### -field AsyncImportRawBuffer
@@ -246,15 +246,15 @@ A pointer to your implementation of the <a href="https://msdn.microsoft.com/EE3B
 
 
 
-<a href="https://msdn.microsoft.com/5f04d912-f9bc-41d4-aa9e-b843e4b5a994">Plug-in Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/64fb908c-72c2-4639-a2f6-77ede080512c">Plug-in Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/83ca38e1-3258-4676-bcdd-4876ec8f3ae1">WbioQuerySensorInterface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nf-winbio_adapter-wbioquerysensorinterface">WbioQuerySensorInterface</a>
  
 
  

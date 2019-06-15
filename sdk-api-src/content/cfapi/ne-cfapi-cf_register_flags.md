@@ -74,5 +74,5 @@ The on-demand directory/folder population behavior is globally controlled by the
 
 ### -field CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT
 
-This flag allows a sync provider to mark the sync root to be registered in-sync simultaneously at the registration time. An alternative is to call <a href="https://msdn.microsoft.com/1CB7955D-E530-4F34-8D67-BC608F8B6AF1">CfSetInSyncState</a> on the sync root later. 
+This flag allows a sync provider to mark the sync root to be registered in-sync simultaneously at the registration time. An alternative is to call <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> on the sync root later. 
 

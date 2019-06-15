@@ -77,7 +77,7 @@ The interface specified is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/db7a9066-d699-4860-90cd-dc3f4bf42549">WLAN_INTERFACE_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-_wlan_interface_capability">WLAN_INTERFACE_CAPABILITY</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICDrawRealize</b> macro notifies a rendering driver to realize its drawing palette while drawing. You can use this macro or explicitly call the <a href="https://msdn.microsoft.com/501540cd-41e2-4f80-abf8-2ec2179970a9">ICM_DRAW_REALIZE</a> message.
+The <b>ICDrawRealize</b> macro notifies a rendering driver to realize its drawing palette while drawing. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-realize">ICM_DRAW_REALIZE</a> message.
 
 
 
@@ -89,11 +89,11 @@ Drivers need to respond to this message only if the drawing palette is different
 
 
 
-<a href="https://msdn.microsoft.com/e8ee41fa-180a-432a-933b-b4a525b9df8c">Video Compression Macros</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://msdn.microsoft.com/df876309-68d3-43a3-9d83-6fdb8f345fdc">Video Compression Manager</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
  
 
  

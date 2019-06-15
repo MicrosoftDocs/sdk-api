@@ -64,14 +64,14 @@ Pointer to a Unicode string that specifies the IP address or hostname of the DHC
 
 ### -param ClientInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/b290baab-9a70-437a-a519-876891184fbc">DHCP_SEARCH_INFO_V6</a> structure that contains the key used to search for the DHCPv6 client lease record that will be deleted.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info_v6">DHCP_SEARCH_INFO_V6</a> structure that contains the key used to search for the DHCPv6 client lease record that will be deleted.
 
 
 ## -returns
 
 
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://msdn.microsoft.com/6370313f-d7db-4ff1-b0e0-7fa47474facb">DHCP Server Management API Error Codes</a>. Commonly returned error codes include:
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>. Commonly returned error codes include:
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ The specified client lease is a reservation.
 </dl>
 </td>
 <td width="60%">
-The <b>SearchType</b> member of <a href="https://msdn.microsoft.com/b290baab-9a70-437a-a519-876891184fbc">DHCP_SEARCH_INFO_V6</a> was not set to <b>Dhcpv6ClientIpAddress</b>.
+The <b>SearchType</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info_v6">DHCP_SEARCH_INFO_V6</a> was not set to <b>Dhcpv6ClientIpAddress</b>.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The <b>SearchType</b> member of <a href="https://msdn.microsoft.com/b290baab-9a7
 
 
 
-<a href="https://msdn.microsoft.com/b290baab-9a70-437a-a519-876891184fbc">DHCP_SEARCH_INFO_V6</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ns-dhcpsapi-_dhcp_client_search_info_v6">DHCP_SEARCH_INFO_V6</a>
  
 
  

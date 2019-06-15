@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Frees the resources that have been allocated for a <a href="https://msdn.microsoft.com/3be4a8ec-eeab-4453-a2cb-18cadf39464a">CONFIRM_CONFLICT_ITEM</a> structure.
+Frees the resources that have been allocated for a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-confirm_conflict_item">CONFIRM_CONFLICT_ITEM</a> structure.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Frees the resources that have been allocated for a <a href="https://msdn.microso
 
 ### -param pcci [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/3be4a8ec-eeab-4453-a2cb-18cadf39464a">CONFIRM_CONFLICT_ITEM</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-confirm_conflict_item">CONFIRM_CONFLICT_ITEM</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/3be4a8ec-eeab-4453-a2cb-18cadf39464a">CONFIRM_CONFLICT_ITEM</a> structure that stores pointers to the items for which memory is to be freed.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ns-syncmgr-confirm_conflict_item">CONFIRM_CONFLICT_ITEM</a> structure that stores pointers to the items for which memory is to be freed.
 
 
 ## -returns

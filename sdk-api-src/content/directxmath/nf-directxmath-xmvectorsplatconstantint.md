@@ -70,7 +70,7 @@ The value of <i>IntConstant</i> must satisfy: -16 &lt;= <i>IntConstant</i> &lt
 
 
 
-Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>, each of whose components is <i>IntConstant</i>.
+Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>, each of whose components is <i>IntConstant</i>.
 
 
 
@@ -90,19 +90,19 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-<a href="https://msdn.microsoft.com/862a1a83-2371-9885-20d4-184aae52fd10">Vector Initialization Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404809(v=VS.85).aspx">XMVectorSetBinaryConstant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetbinaryconstant">XMVectorSetBinaryConstant</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404812(v=VS.85).aspx">XMVectorSetInt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetint">XMVectorSetInt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404824(v=VS.85).aspx">XMVectorSplatConstant</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorsplatconstant">XMVectorSplatConstant</a>
  
 
  

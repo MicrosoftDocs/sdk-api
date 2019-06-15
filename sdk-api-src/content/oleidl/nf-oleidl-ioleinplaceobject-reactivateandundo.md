@@ -123,7 +123,7 @@ If the user chooses the <b>Undo</b> command before the undo state of the object 
 
 
 
-<a href="https://msdn.microsoft.com/c14de79d-e844-49cf-ae70-6c3e417fab90">IOleInPlaceObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
  
 
  

@@ -81,7 +81,7 @@ If the function succeeds, the return value is nonzero.
       
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. Valid values include the following:
+       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Valid values include the following:
 
 
 
@@ -91,7 +91,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/a8bcfdc6-3056-4f82-825b-f224100d87cb">CLFS Management Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/clfs-management-functions">CLFS Management Functions</a>
  
 
  

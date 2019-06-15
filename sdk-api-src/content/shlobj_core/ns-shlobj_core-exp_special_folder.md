@@ -49,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-Holds an extra data block used by <a href="https://msdn.microsoft.com/ac3279ad-1413-48bf-a830-4ec128352573">IShellLinkDataList</a>. It holds special folder information.
+Holds an extra data block used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds special folder information.
 
 
 ## -struct-fields

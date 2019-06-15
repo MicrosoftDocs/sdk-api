@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 
 
-The <b>waveInUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://msdn.microsoft.com/2b99eb91-2cc6-4394-af57-4b1276f08974">waveInPrepareHeader</a> function. This function must be called after the device driver fills a buffer and returns it to the application. You must call this function before freeing the buffer.
+The <b>waveInUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://docs.microsoft.com/previous-versions//dd743848(v=vs.85)">waveInPrepareHeader</a> function. This function must be called after the device driver fills a buffer and returns it to the application. You must call this function before freeing the buffer.
 
 
 
@@ -69,7 +69,7 @@ Handle to the waveform-audio input device.
 
 ### -param pwh
 
-Pointer to a <a href="https://msdn.microsoft.com/be70ae8e-8d8f-4261-bd0e-c6fd7feec520">WAVEHDR</a> structure identifying the buffer to be cleaned up.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure identifying the buffer to be cleaned up.
 
 
 ### -param cbwh
@@ -154,11 +154,11 @@ You must call this function before freeing the buffer. After passing a buffer to
 
 
 
-<a href="https://msdn.microsoft.com/3188355c-65be-4372-8e87-e7f755982592">Waveform Audio</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8aaa54-0477-484f-91e1-d2152aa9c185">Waveform Functions</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
  
 
  

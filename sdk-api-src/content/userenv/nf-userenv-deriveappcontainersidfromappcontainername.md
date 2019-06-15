@@ -64,7 +64,7 @@ The name of the profile.
 
 ### -param ppsidAppContainerSid [out]
 
-The SID for the profile. This buffer must be freed using the <a href="https://msdn.microsoft.com/1e2098d8-4d1f-4353-97c1-549021a5b3fd">FreeSid</a> function.
+The SID for the profile. This buffer must be freed using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a> function.
 
 
 ## -returns

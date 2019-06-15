@@ -67,7 +67,7 @@ Retrieves the state of the specified memory resource object.
 ### -param ResourceNotificationHandle [in]
 
 A handle to a memory resource notification object. The 
-<a href="https://msdn.microsoft.com/e4d794ca-4abb-4933-bd07-793e78c52881">CreateMemoryResourceNotification</a> function returns this handle.
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-creatememoryresourcenotification">CreateMemoryResourceNotification</a> function returns this handle.
 
 
 ### -param ResourceState [out]
@@ -82,7 +82,7 @@ The memory pointed to by this parameter receives the state of the memory resourc
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. For more error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -92,11 +92,11 @@ If the function fails, the return value is zero. For more error information, cal
 
 
 Unlike the 
-<a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a>, 
+<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>, 
 <b>QueryMemoryResourceNotification</b> does not block the calling thread. Therefore, it is an efficient way to check the state of physical memory before proceeding with an operation.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0501 or later. For more information, see 
-<a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -106,11 +106,11 @@ To compile an application that uses this function, define the _WIN32_WINNT macro
 
 
 
-<a href="https://msdn.microsoft.com/e4d794ca-4abb-4933-bd07-793e78c52881">CreateMemoryResourceNotification</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-creatememoryresourcenotification">CreateMemoryResourceNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a2a7a62-0bda-4a0d-93d2-25b4898871fd">Memory
+<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
  
 

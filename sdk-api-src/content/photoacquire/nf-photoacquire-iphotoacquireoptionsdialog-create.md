@@ -103,7 +103,7 @@ The method succeeded.
 
 
 
-The <a href="https://msdn.microsoft.com/6e3c7876-28a6-4d5f-afca-7c0421df8c02">Initialize</a> method should be called prior to the <code>Create</code> method.
+The <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireoptionsdialog-initialize">Initialize</a> method should be called prior to the <code>Create</code> method.
 
 The parent window indicated by <i>hWndParent</i> provides <b>OK</b> and <b>Cancel</b> buttons to the new dialog box instance.
 
@@ -115,7 +115,7 @@ The parent window indicated by <i>hWndParent</i> provides <b>OK</b> and <b>Cance
 
 
 
-<a href="https://msdn.microsoft.com/075e188f-e533-403d-be06-6a3260479f1a">IPhotoAcquireOptionsDialog Interface</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
  
 
  

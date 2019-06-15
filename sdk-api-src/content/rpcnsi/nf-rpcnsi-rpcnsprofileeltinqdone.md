@@ -61,7 +61,7 @@ The
 ### -param InquiryContext
 
 Pointer to a name-service handle to free. The name-service handle that <i>InquiryContext</i> points to is created by calling the 
-<a href="https://msdn.microsoft.com/5b14eb21-0c3e-4f12-b1dc-95b364d87a4f">RpcNsProfileEltInqBegin</a> function. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqbegina">RpcNsProfileEltInqBegin</a> function. 
 
 
 
@@ -93,7 +93,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://msdn.microsoft.com/0223aa7a-b0cf-49e3-9f08-90be5ccffbd1">RPC Return Values</a>.</div>
+<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 
@@ -104,11 +104,11 @@ The call succeeded.
 
 The 
 <b>RpcNsProfileEltInqDone</b> function frees an inquiry context created by calling 
-<a href="https://msdn.microsoft.com/5b14eb21-0c3e-4f12-b1dc-95b364d87a4f">RpcNsProfileEltInqBegin</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqbegina">RpcNsProfileEltInqBegin</a>.
 
 An application calls 
 <b>RpcNsProfileEltInqDone</b> after viewing profile elements using the 
-<a href="https://msdn.microsoft.com/78835fde-82c3-4cff-94b9-91e07120e03f">RpcNsProfileEltInqNext</a> function.
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a> function.
 
 <div class="alert"><b>Note</b>  Windows 2000 Active Directory supports this function. Earlier versions of Windows NT support the use of this function with Cell Directory Service (CDS) only.</div>
 <div> </div>
@@ -120,11 +120,11 @@ An application calls
 
 
 
-<a href="https://msdn.microsoft.com/5b14eb21-0c3e-4f12-b1dc-95b364d87a4f">RpcNsProfileEltInqBegin</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqbegina">RpcNsProfileEltInqBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/78835fde-82c3-4cff-94b9-91e07120e03f">RpcNsProfileEltInqNext</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>
  
 
  

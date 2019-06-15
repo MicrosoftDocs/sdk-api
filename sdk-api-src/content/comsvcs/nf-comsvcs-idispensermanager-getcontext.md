@@ -59,7 +59,7 @@ Determines the current context.
 
 ### -param __MIDL__IDispenserManager0002 [out]
 
-An internal unique identifier of the current object, or 0 if no current object. This may not be interpreted as an <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> pointer to the current object.
+An internal unique identifier of the current object, or 0 if no current object. This may not be interpreted as an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer to the current object.
 
 
 ### -param __MIDL__IDispenserManager0003 [out]
@@ -81,7 +81,7 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 
 
-<a href="https://msdn.microsoft.com/a0465d78-f8b7-4934-9dc6-c8f0ead04bf1">IDispenserManager</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
  
 
  

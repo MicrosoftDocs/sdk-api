@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>ICCOMPRESSFRAMES</b> structure contains compression parameters used with the <a href="https://msdn.microsoft.com/d2f6f3b7-dff6-4fef-a642-cb77b00119af">ICM_COMPRESS_FRAMES_INFO</a> message.
+The <b>ICCOMPRESSFRAMES</b> structure contains compression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a> message.
 
 
 
@@ -68,7 +68,7 @@ Applicable flags. The following value is defined: <b>ICCOMPRESSFRAMES_PADDING</b
 
 ### -field lpbiOutput
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
           
 
 
@@ -80,7 +80,7 @@ Reserved; do not use.
 
 ### -field lpbiInput
 
-Pointer to a <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
 
 
 ### -field lInput
@@ -152,7 +152,7 @@ Reserved; do not use.
 
 
 
-<a href="https://msdn.microsoft.com/d2f6f3b7-dff6-4fef-a642-cb77b00119af">ICM_COMPRESS_FRAMES_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a>
 
 
 
@@ -160,7 +160,7 @@ Video Compression Manager
 
 
 
-<a href="https://msdn.microsoft.com/129a65a7-cac3-47e0-9e9c-6e5a4a260c73">Video Compression Structures</a>
+<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
  
 
  

@@ -74,7 +74,7 @@ Caller-supplied resource type identifier. This must be one of the <b>ResType_</b
 
 ### -param ResourceData [in]
 
-Caller-supplied pointer to a resource descriptor, which can be one of the structures listed under the <a href="https://msdn.microsoft.com/0097b53a-c1c8-4e76-beef-812a953073b6">CM_Add_Res_Des</a> function's description of <i>ResourceData</i>.
+Caller-supplied pointer to a resource descriptor, which can be one of the structures listed under the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des">CM_Add_Res_Des</a> function's description of <i>ResourceData</i>.
 
 
 ### -param ResourceLen [in]
@@ -107,13 +107,13 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-When calling <b>CM_Query_Resource_Conflict_List</b>, specify a device instance handle and resource descriptor. (Resource descriptors for existing device nodes can be obtained by calling <a href="https://msdn.microsoft.com/f35975ac-022e-4e7c-a331-da0ccd0440a1">CM_Get_Res_Des_Data</a>.) These parameters indicate the specific resources you'd like a specific device to use. The resulting conflict list identifies devices that use the same resources, along with resources reserved by the machine.
+When calling <b>CM_Query_Resource_Conflict_List</b>, specify a device instance handle and resource descriptor. (Resource descriptors for existing device nodes can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a>.) These parameters indicate the specific resources you'd like a specific device to use. The resulting conflict list identifies devices that use the same resources, along with resources reserved by the machine.
 
-After calling <b>CM_Query_Resource_Conflict_List</b>, an application can call <a href="https://msdn.microsoft.com/758fbc4c-499f-492d-b64d-f80b1fc7ee25">CM_Get_Resource_Conflict_Count</a> to determine the number of conflicts contained in the resource conflict list. (The number of conflicts can be zero.) Then the application can call <a href="https://msdn.microsoft.com/ce4691e2-4a0e-48bf-b085-ac0cb7665725">CM_Get_Resource_Conflict_Details</a> for each entry in the conflict list.
+After calling <b>CM_Query_Resource_Conflict_List</b>, an application can call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count">CM_Get_Resource_Conflict_Count</a> to determine the number of conflicts contained in the resource conflict list. (The number of conflicts can be zero.) Then the application can call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a> for each entry in the conflict list.
 
-After an application has finished using the handle received for <i>pclConflictList</i>, it must call <a href="https://msdn.microsoft.com/8c6b4f0d-d4d0-44dc-9a8f-5e3fe36c73a5">CM_Free_Resource_Conflict_Handle</a>.
+After an application has finished using the handle received for <i>pclConflictList</i>, it must call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_resource_conflict_handle">CM_Free_Resource_Conflict_Handle</a>.
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>.
 
 
 
@@ -123,23 +123,23 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/8c6b4f0d-d4d0-44dc-9a8f-5e3fe36c73a5">CM_Free_Resource_Conflict_Handle</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_resource_conflict_handle">CM_Free_Resource_Conflict_Handle</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child_ex">CM_Get_Child_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/f35975ac-022e-4e7c-a331-da0ccd0440a1">CM_Get_Res_Des_Data</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a>
 
 
 
-<a href="https://msdn.microsoft.com/758fbc4c-499f-492d-b64d-f80b1fc7ee25">CM_Get_Resource_Conflict_Count</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_count">CM_Get_Resource_Conflict_Count</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce4691e2-4a0e-48bf-b085-ac0cb7665725">CM_Get_Resource_Conflict_Details</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_resource_conflict_detailsw">CM_Get_Resource_Conflict_Details</a>
  
 
  

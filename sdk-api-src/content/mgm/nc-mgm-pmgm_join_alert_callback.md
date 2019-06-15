@@ -102,7 +102,7 @@ The multicast group manager specifies zero for this parameter if it also specifi
 ### -param bMemberUpdate [in]
 
 Specifies whether the callback was invoked because the 
-<a href="https://msdn.microsoft.com/b767961e-0935-4662-9f54-d82dfa0e7bd0">MgmAddGroupMembershipEntry</a> was called by a client (the multicast group manager sets this parameter to <b>TRUE</b>), or because an MFE was created or updated (the multicast group manager sets this parameter to <b>FALSE</b>).
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> was called by a client (the multicast group manager sets this parameter to <b>TRUE</b>), or because an MFE was created or updated (the multicast group manager sets this parameter to <b>FALSE</b>).
 
 
 ## -returns
@@ -120,7 +120,7 @@ RRAS does not expect the application to return any specific value; any value ret
 
 
 The multicast group manager sets the <i>bMemberUpdate</i> parameter to <b>TRUE</b> and invokes this callback if a client calls the 
-<a href="https://msdn.microsoft.com/b767961e-0935-4662-9f54-d82dfa0e7bd0">MgmAddGroupMembershipEntry</a> function for a (s, g), (*, g), or (*, *) entry (that is, the group membership has changed).
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> function for a (s, g), (*, g), or (*, *) entry (that is, the group membership has changed).
 
 The multicast group manager sets the <i>bMemberUpdate</i> parameter to <b>FALSE</b> if the outgoing interface list for an MFE changes. This change typically occurs for a change in membership for the group corresponding to the MFE.
 
@@ -129,7 +129,7 @@ A multicast routing protocol can use the <i>bMemberUpdate</i> parameter to disti
 The action taken by the routing protocol when this callback is received is protocol-specific. The protocol may ignore the callback if the <i>bMemberUpdate</i> parameter is set to <b>FALSE</b>, if the protocol specification indicates that this is the correct behavior.
 
 When 
-<a href="https://msdn.microsoft.com/b767961e-0935-4662-9f54-d82dfa0e7bd0">MgmAddGroupMembershipEntry</a> is called, the multicast group manager uses this callback to notify other multicast group manager clients that there are receivers for the specified source and group.
+<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmaddgroupmembershipentry">MgmAddGroupMembershipEntry</a> is called, the multicast group manager uses this callback to notify other multicast group manager clients that there are receivers for the specified source and group.
 
 The multicast group manager uses the following rules to determine when to invoke this callback for wildcard (*, g) joins:
 

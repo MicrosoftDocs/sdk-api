@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 <b>~CVssWriter</b> is the destructor of the 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a> class object.
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class object.
 
 This destructor is virtual and may be overridden by derived objects.
 
@@ -68,7 +68,7 @@ This destructor is virtual and may be overridden by derived objects.
 
 
 
-<a href="https://msdn.microsoft.com/5d54c966-86ad-41af-82be-8a182b3d203a">CVssWriter</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
  
 
  
